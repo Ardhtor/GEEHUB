@@ -18,6 +18,14 @@ The system should occasionally make combinations that are obviously strange. Tha
 
 At the same time, randomness should not become noise. The project registry provides enough structure to bias combinations toward productive tension. Projects have groups, tags, summaries, and status. These become the jammer's ingredients.
 
+## Body focus as a concrete design subject
+
+The body is a particularly useful focus because it can connect nearly every part of the constellation without requiring a single medium. In a visual project it becomes proportion, silhouette, posture, materials, lighting, and camera language. In Beefythiq it becomes a high-girth semantic node connected to mass, volume, presence, identity, and expansion. In the Blender workspace it becomes geometry and scene construction. In fiction it becomes character and symbolism. In an archive it becomes a searchable historical motif.
+
+A focused body-mode therefore does not need to become a sexualized interface. Its purpose is sustained formal attention: pick one physical feature or relationship, observe it carefully, alter it, exaggerate it, or translate it into another medium. This gives the user a strong anchor while preserving the open-endedness that makes the jammer useful.
+
+The interface deliberately phrases that mode in terms such as form, proportion, silhouette, weight, surface, motion, lighting, scale, and presence. Those words are broad enough to move from anatomy to sculpture to cinematography to code while still feeling concrete.
+
 ## The basic algorithm
 
 1. Choose a live ingredient from the project constellation.
@@ -59,7 +67,7 @@ The code can remain simple. The concept cannot be left implicit.
 
 ## Interface principle
 
-The jammer should be the simplest thing in the hub to operate. The user should see a large, obvious action such as **JAM SOMETHING TOGETHER**. Clicking it should immediately produce a premise. A second action such as **AGAIN** should produce another. Optional details can reveal the ingredient projects and the reasoning after the surprise has already happened.
+The jammer should be the simplest thing in the hub to operate. The user should see a large, obvious action such as **SURPRISE ME**. Clicking it should immediately produce a premise. A second action such as **FOCUS: BODY** should establish a concrete creative anchor without forcing a single interpretation of what that anchor means. Optional details can reveal the ingredient projects and the reasoning after the surprise has already happened.
 
 That ordering matters. The system should reward curiosity before administration.
 

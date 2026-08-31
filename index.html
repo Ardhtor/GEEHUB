@@ -14,14 +14,15 @@
     <div>
       <div class="eyebrow">ARCHIVE / RESEARCH / PROVENANCE</div>
       <h1>BodyLounger Research Archive</h1>
-      <p class="dek">A dense, link-first map of the old-web ecosystem: labels, creators, dates, media types, and archival trails.</p>
+      <p class="dek">A dense, link-first map of an old-web ecosystem: labels, creators, dates, media types, and archival trails.</p>
     </div>
     <div class="status-chip"><span class="dot"></span> LOCAL INDEX</div>
   </div>
 
   <div class="search-row">
     <input id="search" placeholder="Search everything…" autocomplete="off" autofocus>
-    <button id="clearSearch" type="button">Clear</button>
+    <button id="clearSearch" type="button">Clear search</button>
+    <button id="resetFilters" type="button">Reset</button>
   </div>
 
   <div class="toolbar">
@@ -42,9 +43,13 @@
     <div>
       <div class="panel-kicker">INDEX LOGIC</div>
       <h2>See the trail, not just the destination.</h2>
-      <p>Every result keeps its source URL, provenance note, date context, labels, and confidence state visible. The repository stores metadata and links rather than redistributing age-restricted media.</p>
+      <p>Each result keeps its source URL, archive URL where known, date context, creator/subject, labels, provenance note, and status visible. The repository records references and metadata rather than redistributing age-restricted media.</p>
     </div>
     <div class="stats" id="stats"></div>
+    <div class="actions">
+      <button id="addRecord" type="button">Add record</button>
+      <button id="exportJson" type="button">Export JSON</button>
+    </div>
   </section>
 
   <section class="layout">
@@ -79,6 +84,33 @@
   <span>Metadata-first · provenance-aware · local-first</span>
 </footer>
 </div>
+
+<dialog id="addDialog">
+  <form method="dialog" id="recordForm" class="form-panel">
+    <div class="panel-kicker">NEW RECORD</div>
+    <h2>Add a source to the local index</h2>
+    <div class="form-grid">
+      <label>Title<input name="title" required></label>
+      <label>Creator / subject<input name="creator"></label>
+      <label>Year<input name="year" type="number" min="1900" max="2100"></label>
+      <label>Source type<select name="source_type"><option>blog</option><option>forum</option><option>archive</option><option>video</option><option>other</option></select></label>
+      <label>Source URL<input name="url" type="url" required></label>
+      <label>Archive URL<input name="archive_url" type="url"></label>
+      <label>Labels<input name="labels" placeholder="comma, separated, labels"></label>
+      <label>Status<select name="status"><option>verified</option><option>archived</option><option>unverified</option><option>dead</option></select></label>
+      <label class="wide">Description<textarea name="description" rows="3"></textarea></label>
+      <label class="wide">Provenance<textarea name="provenance" rows="3"></textarea></label>
+      <label class="check"><input name="adult" type="checkbox"> Mark as adult-content metadata</label>
+    </div>
+    <div class="dialog-actions"><button value="cancel" type="button" id="cancelDialog">Cancel</button><button value="default" type="submit">Save record</button></div>
+  </form>
+</dialog>
+
 <script src="app.js"></script>
+<script>
+const addDialog=document.querySelector('#addDialog');
+document.querySelector('#addRecord').addEventListener('click',()=>addDialog.showModal());
+document.querySelector('#cancelDialog').addEventListener('click',()=>addDialog.close());
+</script>
 </body>
 </html>

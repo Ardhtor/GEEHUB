@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": "string",
+    "title": "string",
+    "creator": "string|null",
+    "labels": ["string"],
+    "year": "number|null",
+    "source_type": "blog|forum|archive|video|other",
+    "url": "string",
+    "archive_url": "string|null",
+    "adult": "boolean",
+    "description": "string",
+    "provenance": "string",
+    "status": "verified|archived|unverified|dead"
+  }
+}

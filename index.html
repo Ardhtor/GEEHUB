@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101216">
+<title>BodyLounger Research Archive</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+<header class="masthead">
+  <div class="brand-row">
+    <div>
+      <div class="eyebrow">ARCHIVE / RESEARCH / PROVENANCE</div>
+      <h1>BodyLounger Research Archive</h1>
+      <p class="dek">A dense, link-first map of the old-web ecosystem: labels, creators, dates, media types, and archival trails.</p>
+    </div>
+    <div class="status-chip"><span class="dot"></span> LOCAL INDEX</div>
+  </div>
+
+  <div class="search-row">
+    <input id="search" placeholder="Search everything…" autocomplete="off" autofocus>
+    <button id="clearSearch" type="button">Clear</button>
+  </div>
+
+  <div class="toolbar">
+    <label>Type<select id="type"><option value="">All</option><option>blog</option><option>forum</option><option>archive</option><option>video</option><option>other</option></select></label>
+    <label>Status<select id="status"><option value="">All</option><option>verified</option><option>archived</option><option>unverified</option><option>dead</option></select></label>
+    <label>Era<select id="era"><option value="">All years</option><option value="1990-2004">1990–2004</option><option value="2005-2009">2005–2009</option><option value="2010-2014">2010–2014</option><option value="2015-2019">2015–2019</option><option value="2020-2026">2020–2026</option><option value="undated">Undated</option></select></label>
+    <label class="check"><input id="adultOnly" type="checkbox"> Adult-content metadata</label>
+  </div>
+
+  <div class="summary-bar">
+    <div id="count">Loading…</div>
+    <div id="activeFilters" class="active-filters"></div>
+  </div>
+</header>
+
+<main>
+  <section class="panel intro-panel">
+    <div>
+      <div class="panel-kicker">INDEX LOGIC</div>
+      <h2>See the trail, not just the destination.</h2>
+      <p>Every result keeps its source URL, provenance note, date context, labels, and confidence state visible. The repository stores metadata and links rather than redistributing age-restricted media.</p>
+    </div>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <section class="layout">
+    <aside class="sidebar">
+      <div class="panel">
+        <div class="panel-kicker">TOP LABELS</div>
+        <div id="labels" class="facet-list"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-kicker">CREATORS / SUBJECTS</div>
+        <div id="creators" class="facet-list"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-kicker">SORT</div>
+        <select id="sort" class="full-select">
+          <option value="year-desc">Newest first</option>
+          <option value="year-asc">Oldest first</option>
+          <option value="title-asc">Title A–Z</option>
+          <option value="source">Source type</option>
+        </select>
+      </div>
+    </aside>
+
+    <section>
+      <div id="results" class="results"></div>
+    </section>
+  </section>
+</main>
+
+<footer>
+  <span>BodyLounger Research Archive</span>
+  <span>Metadata-first · provenance-aware · local-first</span>
+</footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

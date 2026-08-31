@@ -1,0 +1,18 @@
+{
+  "verbs": [
+    "infects", "becomes a tool for", "archives", "argues with", "renders", "escapes into", "rebuilds", "haunts", "tests", "collides with"
+  ],
+  "actions": [
+    "Build the smallest prototype that makes the collision visible.",
+    "Make one deliberately strange visual artifact from the two ingredients.",
+    "Write a one-page scene where both systems must obey each other.",
+    "Turn the collision into a single interactive screen.",
+    "Make the contradiction the central mechanic instead of resolving it."
+  ],
+  "prompts": [
+    "What would happen if this stopped behaving like itself?",
+    "What survives when these two ideas are forced to share one container?",
+    "Where does the obvious interpretation break?",
+    "What is the smallest artifact that could prove this is interesting?"
+  ]
+}

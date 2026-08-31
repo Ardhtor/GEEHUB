@@ -11,5 +11,6 @@
   {"id":"discovery","name":"Discovery Engine","group":"tool","status":"incubating","summary":"Personalized discovery layer for finding relevant media, tags, feeds, and archives.","path":"#","tags":["discovery","search","recommendation"]},
   {"id":"retro-lab","name":"Retro Lab","group":"aesthetic","status":"dormant","summary":"90s–2000s / Y2K / Heisei-tech visual and sonic experiments.","path":"#","tags":["retro","y2k","aesthetic"]},
   {"id":"religion-dialogue","name":"Religion as Dialogue","group":"research","status":"active","summary":"Thesis/research workspace around dialogue, interpretation, communication, and religious studies.","path":"#","tags":["thesis","research","philosophy"]},
-  {"id":"gods","name":"The Gods","group":"god","status":"incubating","summary":"Repository-ready home for individual deities, their symbols, myths, artifacts, and rules.","path":"#","tags":["gods","canon","artifacts"]}
+  {"id":"gods","name":"The Gods","group":"god","status":"incubating","summary":"Repository-ready home for individual deities, their symbols, myths, artifacts, and rules.","path":"#","tags":["gods","canon","artifacts"]},
+  {"id":"blender-stand","name":"Blender Stand / 3D Workspace","group":"3d","status":"incubating","summary":"Dedicated 3D production node for the Blender-based stand workflow, intended to connect modeling, scene building, and visual output back into the GEEHUB constellation.","path":"#","tags":["blender","3d","stand","modeling","scene"]}
 ]

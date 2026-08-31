@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEEHUB — Project Atlas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap">
+<header>
+  <div class="eyebrow">GEEHUB / PROJECT ATLAS</div>
+  <h1>Everything is allowed to become a project.</h1>
+  <p>One map for worlds, systems, experiments, archives, games, tools, and gods. Small ideas stay here; mature ideas can split into their own repositories.</p>
+  <input id="search" placeholder="Search the whole constellation…" autocomplete="off">
+  <div class="toolbar">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="active">Active</button>
+    <button data-filter="incubating">Incubating</button>
+    <button data-filter="dormant">Dormant</button>
+    <button data-filter="god">Gods</button>
+  </div>
+</header>
+<section class="stats" id="stats"></section>
+<section class="layout">
+<aside><div class="panel"><div class="kicker">GROUPS</div><div id="groups"></div></div><div class="panel"><div class="kicker">LEGEND</div><p><span class="dot active"></span> active</p><p><span class="dot incubating"></span> incubating</p><p><span class="dot dormant"></span> dormant</p></div></aside>
+<section><div id="results" class="grid"></div></section>
+</section>
+<footer><span>GEEHUB</span><span>Project Atlas · local-first · repo-ready</span></footer>
+</main>
+<script src="hub.js"></script>
+</body>
+</html>

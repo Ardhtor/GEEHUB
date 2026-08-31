@@ -5,131 +5,76 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GEEHUB — Narrative Jammer</title>
 <style>
-:root{--bg:#090b0e;--panel:#12161b;--line:#2a3038;--text:#eef0f3;--muted:#9ca4af;--dim:#65707d;--glow:#d7dde5}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% -10%,#1a2028 0,#090b0e 48%);color:var(--text);font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.wrap{max-width:1180px;margin:auto;padding:0 20px}header{padding:42px 0 24px;border-bottom:1px solid var(--line)}.eyebrow,.kicker{font-size:10px;letter-spacing:.18em;color:var(--dim);font-weight:800}h1{font-size:clamp(38px,7vw,66px);line-height:.95;letter-spacing:-.045em;max-width:820px;margin:10px 0 14px}header p{max-width:800px;color:var(--muted);font-size:16px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 10px}.big-action,.jam-action,.toolbar button,#groups button{cursor:pointer;border-radius:9px;border:1px solid var(--line);background:#151a20;color:var(--text);padding:10px 13px}.big-action{font-weight:850;letter-spacing:.035em}.big-action.primary{background:#e8ebef;color:#0b0d10;border-color:#e8ebef}.big-action:hover,.jam-action:hover,.toolbar button:hover,#groups button:hover{transform:translateY(-1px);border-color:#515a66}#search{width:100%;padding:15px 16px;margin:12px 0;background:#0d1116;color:var(--text);border:1px solid var(--line);border-radius:9px;outline:none}#search:focus{border-color:#56616d}.toolbar{display:flex;gap:7px;flex-wrap:wrap}.toolbar button.active{border-color:#8d96a1;color:#fff}.jammer{margin:18px 0;background:linear-gradient(180deg,#171c22,#11151a);border:1px solid #343c46;border-radius:13px;padding:20px}.jam-text{font-size:clamp(22px,3vw,31px);line-height:1.2;max-width:950px;margin:6px 0 8px}.jam-meta{color:var(--dim);font-size:12px}.jam-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}.jam-action{font-size:12px;font-weight:800}.artifact{margin-top:14px;padding:15px;border:1px dashed #47515d;border-radius:10px;background:#0f1318}.artifact b{display:block;margin-bottom:4px}.artifact p{margin:6px 0;color:#b9c0ca}.stats{display:flex;gap:30px;padding:20px 0}.stats b{font-size:28px;display:block}.stats span{font-size:10px;color:var(--dim);letter-spacing:.12em;text-transform:uppercase}.layout{display:grid;grid-template-columns:200px 1fr;gap:16px}.panel{background:rgba(18,22,27,.84);border:1px solid var(--line);border-radius:11px;padding:14px;margin-bottom:12px}.panel p{color:var(--muted);font-size:12px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.card{min-height:195px;padding:17px;background:var(--panel);border:1px solid var(--line);border-radius:11px;display:flex;flex-direction:column}.card:hover{border-color:#414a56}.top{display:flex;align-items:center}.dot{width:8px;height:8px;border-radius:50%;margin-right:7px;background:#666}.dot.active{background:#dbe0e6}.dot.incubating{background:#9299a4}.dot.dormant{background:#4e5560}.status,.group{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.1em}.group{margin-left:auto}.card h2{font-size:20px;line-height:1.1;margin:12px 0 8px}.card p{color:var(--muted);margin:0 0 12px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto;margin-bottom:12px}.tags span{font-size:10px;color:#aeb5bf;border:1px solid var(--line);padding:3px 6px;border-radius:999px}.open{color:var(--glow);font-size:12px;text-decoration:none}.empty{padding:40px;border:1px dashed var(--line);border-radius:10px;color:var(--dim)}footer{display:flex;justify-content:space-between;color:var(--dim);font-size:11px;padding:35px 0 60px}@media(max-width:900px){.grid{grid-template-columns:1fr}.layout{grid-template-columns:1fr}}@media(max-width:600px){.wrap{padding:0 14px}.hero-actions{flex-direction:column}.big-action{width:100%}.stats{gap:18px}footer{flex-direction:column;gap:6px}.jam-text{font-size:21px}}
+body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:1000px;margin:auto;padding:30px}.hero{display:flex;gap:8px;flex-wrap:wrap}.btn{padding:12px 16px;border:1px solid #454d58;border-radius:8px;background:#171b20;color:#eee;cursor:pointer}.primary{background:#eee;color:#111}.jam{margin:18px 0;padding:20px;border:1px solid #39414b;border-radius:12px;background:#14181d}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.card{padding:16px;border:1px solid #2d333b;border-radius:10px;background:#12161a}.muted{color:#929aa6;font-size:12px}.tags{color:#aab1ba;font-size:12px;margin-top:10px}@media(max-width:700px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <main class="wrap">
-<header>
-<div class="eyebrow">GEEHUB / PROJECT ATLAS / NARRATIVE JAMMER</div>
+<div class="muted">GEEHUB / NARRATIVE JAMMER</div>
 <h1>Pick a door. Kick it open.</h1>
-<p>The hub is supposed to make something happen. You do not need to understand the machinery first. Press a button, get a strange direction, and make the smallest interesting thing that could come out of it.</p>
-<div class="hero-actions">
-<button id="surprise" class="big-action primary">SURPRISE ME</button>
-<button id="bodyFocus" class="big-action">FOCUS: BODY</button>
+<p class="muted">Press a button. Get a collision. Make the tiny version.</p>
+<div class="hero">
+<button id="surprise" class="btn primary">SURPRISE ME</button>
+<button id="body" class="btn">FOCUS: BODY</button>
+<button id="saved" class="btn">SHOW SAVED</button>
 </div>
-<input id="search" placeholder="Find a project, word, or idea…" autocomplete="off">
-<div class="toolbar" id="filters">
-<button data-filter="all" class="active">Everything</button>
-<button data-filter="active">Active</button>
-<button data-filter="incubating">Growing</button>
-<button data-filter="dormant">Sleeping</button>
-<button data-filter="god">Gods</button>
-<button data-filter="3d">3D</button>
-</div>
-</header>
-<section class="jammer" aria-live="polite">
-<div class="kicker">NARRATIVE JAMMER</div>
-<div id="jamText" class="jam-text">Press SURPRISE ME. The machine will pick two things that do not obviously belong together.</div>
-<div id="jamMeta" class="jam-meta">Curiosity first. Administration later.</div>
-<div id="jamActions" class="jam-actions"></div>
-<div id="artifact" class="artifact" hidden></div>
+<section class="jam" aria-live="polite">
+<div id="text">Press SURPRISE ME.</div>
+<div id="meta" class="muted">Curiosity first.</div>
+<div id="actions" class="actions"></div>
+<div id="artifact" class="jam" hidden></div>
 </section>
-<section class="stats" id="stats"></section>
-<section class="layout">
-<aside>
-<div class="panel"><div class="kicker">PROJECTS</div><div id="groups"></div></div>
-<div class="panel"><div class="kicker">HOW TO USE IT</div><p>Click SURPRISE ME when you are stuck. Click FOCUS: BODY when you want a concrete visual anchor. Click MAKE IT when a collision looks interesting.</p></div>
-</aside>
-<section><div id="results" class="grid"></div></section>
-</section>
-<footer><span>GEEHUB</span><span>Narrative Jammer · curiosity first · self-contained</span></footer>
+<input id="search" class="btn" style="width:100%;margin:8px 0;" placeholder="Find a project…">
+<div id="stats" class="muted"></div>
+<div id="results" class="grid" style="margin-top:12px"></div>
 </main>
 <script>
 /*
   BUILD NOTE
   ----------
-  This page deliberately carries its working data with it. The previous version
-  fetched projects.json at runtime, which was correct for a normal web server but
-  fragile when a curious human opened the HTML directly. The jammer is meant to be
-  the easiest doorway into GEEHUB, so the doorway itself should have no dependency
-  on a build system, package manager, or second file.
+  The jammer is a doorway, not a framework. It is intentionally self-contained:
+  the project list, interaction rules, and artifact-making loop all live here so
+  the first useful action never depends on a package manager, build step, or
+  second runtime request. The design contract is discover -> synthesize -> build ->
+  test -> expand. A good button therefore produces a concrete premise, then a
+  small artifact brief that can be saved, copied, or made in another tool.
 
-  The interaction follows the project's narrative contract:
-  discover -> synthesize -> build -> test -> expand.
-  A jam therefore produces an actual tiny artifact brief, not just a clever sentence.
+  This version also fixes a specific usability lesson from the earlier prototype:
+  controls are wired directly to small named functions, with no implicit globals.
+  That makes the page easier to reason about and much easier to test.
 */
-const projects=[
-{id:'bodylounger',name:'BodyLounger Research Archive',group:'archive',status:'active',summary:'Historical web research, provenance, labels, and surviving breadcrumbs.',tags:['archive','research','provenance']},
-{id:'beefythiq',name:'BEEFYTHIQ',group:'system',status:'active',summary:'Generative grammar of accumulation, escalation, stress, mutation, and new baselines.',tags:['grammar','growth','mutation']},
-{id:'complex',name:'The Complex',group:'world',status:'active',summary:'Persistent creative environment where ideas transform and leave traces.',tags:['world','continuity','canon']},
-{id:'growth-canvas',name:'Growth Canvas',group:'system',status:'incubating',summary:'Visual workspace for seeds, rules, latency, anomalies, and feedback.',tags:['visual','rules','experiments']},
-{id:'liminal-gains',name:'Liminal Gains',group:'game',status:'incubating',summary:'Two-player hotseat growth-game prototype with cooperative escalation.',tags:['game','pygame','co-op']},
-{id:'bruteforce',name:'BIG BRUTEFORCE',group:'game',status:'incubating',summary:'Compact mutation-engine experiment built around push, mutate, and rest.',tags:['game','mutation','prototype']},
-{id:'facility',name:'The Facility',group:'world',status:'incubating',summary:'Clinical research setting with sealed ecosystems and experimental growth.',tags:['facility','fiction','research']},
-{id:'muscle-myth',name:'Muscle Myth',group:'myth',status:'active',summary:'Pantheon, symbols, artifacts, impossible bodies, and mythic canon.',tags:['myth','pantheon','canon']},
-{id:'growth-tools',name:'Growth Tools',group:'tool',status:'incubating',summary:'Image/video experiments, tracking canvases, and visual tooling.',tags:['tool','vision','video']},
-{id:'discovery',name:'Discovery Engine',group:'tool',status:'incubating',summary:'Search and recommendation experiments for finding the nearly-meant thing.',tags:['discovery','search','recommendation']},
-{id:'retro-lab',name:'Retro Lab',group:'aesthetic',status:'dormant',summary:'90s–2000s, Y2K, and Heisei-tech visual and sonic experiments.',tags:['retro','y2k','aesthetic']},
-{id:'religion-dialogue',name:'Religion as Dialogue',group:'research',status:'active',summary:'Research workspace for dialogue, interpretation, communication, and religion.',tags:['thesis','research','philosophy']},
-{id:'gods',name:'The Gods',group:'god',status:'incubating',summary:'Repository-ready layer for deities, myths, symbols, artifacts, and rules.',tags:['gods','canon','artifacts']},
-{id:'blender-stand',name:'Blender Stand / 3D Workspace',group:'3d',status:'incubating',summary:'3D production arm for models, scenes, studies, cameras, and visual output.',tags:['blender','3d','stand','modeling']}
-];
-const verbs=['infects','argues with','renders','escapes into','rebuilds','haunts','tests','collides with'];
-const mediums=['five-frame storyboard','Blender blockout','single-page web toy','one-minute sound loop','character turnaround','tiny game mechanic','research sketch','poster-sized diagram'];
-const constraints=['one dominant shape','three objects only','black-and-white','one surprising material','no text until the final frame','under five minutes to prototype','one rule repeated three times','make it look older than it is'];
-const bodyLines=[
-'BODY is the current visual anchor: proportion, silhouette, weight, posture, surface, presence.',
-'Zoom closer. Then step back. Keep the detail that changes how the whole figure reads.',
-'Treat anatomy as a design language: structure creates gesture, gesture creates character, character creates story.',
-'Turn the body into a scene: lighting, scale, clothing, environment, and camera all become part of the form.'
-];
-let filter='all',query='';
+const P=[
+['BodyLounger Research Archive','archive','active','historical web research',['archive','research']],
+['BEEFYTHIQ','system','active','generative grammar of mass, presence, mutation, and growth',['grammar','growth']],
+['The Complex','world','active','persistent creative environment',['world','continuity']],
+['Growth Canvas','system','incubating','visual transformation workspace',['visual','rules']],
+['Liminal Gains','game','incubating','co-op growth game',['game','co-op']],
+['BIG BRUTEFORCE','game','incubating','mutation-engine prototype',['game','mutation']],
+['The Facility','world','incubating','fictional research environment',['fiction','research']],
+['Muscle Myth','myth','active','pantheon and transformation mythology',['myth','canon']],
+['Growth Tools','tool','incubating','image and video experimentation',['tool','vision']],
+['Discovery Engine','tool','incubating','discovery and recommendation experiments',['search','discovery']],
+['Retro Lab','aesthetic','dormant','Y2K and older-web experiments',['retro','y2k']],
+['Religion as Dialogue','research','active','dialogue and religious-studies research',['thesis','research']],
+['The Gods','god','incubating','deities, symbols, myths, and artifacts',['gods','canon']],
+['Blender Stand / 3D Workspace','3d','incubating','models, scenes, cameras, and visual output',['blender','3d']]
+].map(([name,group,status,summary,tags])=>({id:name.toLowerCase().replace(/[^a-z0-9]+/g,'-'),name,group,status,summary,tags}));
+const verbs=['collides with','infects','rebuilds','haunts','tests','renders','escapes into'];
+const media=['Blender blockout','five-frame storyboard','single-page web toy','character turnaround','tiny game mechanic','poster-sized diagram','one-minute sound loop'];
+const constraints=['one dominant shape','three objects only','one strange material','black-and-white','under five minutes','one rule repeated three times'];
+const bodyLines=['BODY: proportion, silhouette, posture, surface, presence.','Zoom in until one physical detail changes the whole figure.','Treat anatomy as a design language: structure → gesture → character.','Let lighting and camera become part of the body.'];
 const $=s=>document.querySelector(s), pick=a=>a[Math.floor(Math.random()*a.length)];
-function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function visible(){return projects.filter(p=>(filter==='all'||p.status===filter||p.group===filter)&&(!query||JSON.stringify(p).toLowerCase().includes(query.toLowerCase())))}
-function render(){
-const rows=visible();
-$('#stats').innerHTML=`<div><b>${projects.length}</b><span>projects</span></div><div><b>${projects.filter(p=>p.status==='active').length}</b><span>active</span></div><div><b>${projects.filter(p=>p.status==='incubating').length}</b><span>growing</span></div>`;
-const groups=[...new Set(projects.map(p=>p.group))];
-$('#groups').innerHTML=groups.map(g=>`<button data-group="${esc(g)}">${esc(g)}</button>`).join('');
-$('#groups').querySelectorAll('button').forEach(b=>b.onclick=()=>{filter=b.dataset.group;syncFilters();render()});
-$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="top"><span class="dot ${p.status}"></span><span class="status">${esc(p.status)}</span><span class="group">${esc(p.group)}</span></div><h2>${esc(p.name)}</h2><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>`<span>#${esc(t)}</span>`).join('')}</div><a class="open" href="https://github.com/Ardhtor/GEEHUB/tree/main/hub" target="_blank" rel="noopener">Open workspace ↗</a></article>`).join('')||'<div class="empty">Nothing found. Try another word.</div>';
-}
-function syncFilters(){document.querySelectorAll('#filters [data-filter]').forEach(b=>b.classList.toggle('active',b.dataset.filter===filter));}
-function currentCollision(){let pool=projects.filter(p=>p.group!=='archive');const a=pick(pool);const other=pool.filter(p=>p.group!==a.group);const b=pick(other.length?other:[a]);return {a,b};}
-function showActions(actions){$('#jamActions').innerHTML=actions.map(x=>`<button class="jam-action" id="${x.id}">${x.label}</button>`).join('');actions.forEach(x=>$(('#'+x.id)).onclick=x.fn);}
-function jamRandom(){
-$('#artifact').hidden=true;
-const {a,b}=currentCollision();
-const verb=pick(verbs);
-const premise=`${a.name} ${verb} ${b.name}. Make one small artifact where both have to obey the same rule.`;
-$('#jamText').textContent=premise;
-$('#jamMeta').textContent=`Collision: ${a.name} × ${b.name} · Do not solve the whole project. Make the tiny version.`;
-showActions([{id:'openA',label:'OPEN IT',fn:()=>focus(a)},{id:'makeIt',label:'MAKE IT',fn:()=>makeArtifact(a,b,verb)},{id:'again',label:'AGAIN',fn:jamRandom}]);
-}
-function bodyFocus(){
-$('#artifact').hidden=true;
-$('#jamText').textContent=pick(bodyLines);
-$('#jamMeta').textContent='FOCUS: BODY · form, proportion, presence, scale, lighting, surface, camera.';
-showActions([{id:'bodyMake',label:'MAKE A BODY STUDY',fn:()=>makeArtifact({id:'body-focus',name:'Body Focus',group:'3d'},{id:'blender-stand',name:'Blender Stand',group:'3d'},'studies')},{id:'bodyAgain',label:'AGAIN',fn:bodyFocus}]);
-filter='all';query='';$('#search').value='';syncFilters();render();
-}
-function makeArtifact(a,b,verb){
-const medium=pick(mediums),constraint=pick(constraints);
-const title=`${a.name} / ${b.name} — Tiny Study`;
-const brief=`${a.name} ${verb} ${b.name}. Build a ${medium} where the shared constraint is: ${constraint}. Start with the simplest possible version, then make exactly one element stranger.`;
-$('#artifact').hidden=false;$('#artifact').innerHTML=`<b>${esc(title)}</b><p>${esc(brief)}</p><small>Saved in this browser when you use SAVE. The point is to leave the jam with something you can actually make.</small><div class="jam-actions"><button class="jam-action" id="saveJam">SAVE</button><button class="jam-action" id="copyJam">COPY</button><button class="jam-action" id="anotherJam">MAKE ANOTHER</button></div>`;
-$('#jamText').textContent=brief;$('#jamMeta').textContent=`Artifact brief · ${medium} · ${constraint}`;
-$('#saveJam').onclick=()=>{const arr=JSON.parse(localStorage.getItem('geehub-jams')||'[]');arr.unshift({title,brief,from:[a.id,b.id],createdAt:new Date().toISOString()});localStorage.setItem('geehub-jams',JSON.stringify(arr.slice(0,50)));$('#jamMeta').textContent='Saved locally. Make it real.'};
-$('#copyJam').onclick=async()=>{try{await navigator.clipboard.writeText(brief);$('#jamMeta').textContent='Copied. Now make the tiny version.'}catch{$('#jamMeta').textContent='Clipboard access was blocked, but the brief is visible above.'}};
-$('#anotherJam').onclick=()=>jamRandom();
-}
-function focus(p){query=p.name;$('#search').value=query;filter='all';syncFilters();render();$('#results').scrollIntoView({behavior:'smooth',block:'start'});}
-$('#search').oninput=e=>{query=e.target.value;render()};
-document.querySelectorAll('#filters [data-filter]').forEach(b=>b.onclick=()=>{filter=b.dataset.filter;syncFilters();render()});
-$('#surprise').onclick=jamRandom;$('#bodyFocus').onclick=bodyFocus;syncFilters();render();jamRandom();
+let query='';
+function esc(s){return String(s).replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));}
+function visible(){const q=query.toLowerCase().trim();return P.filter(p=>!q||JSON.stringify(p).toLowerCase().includes(q));}
+function render(){const rows=visible();$('#stats').textContent=`${rows.length} shown · ${P.length} total`;$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="muted">${esc(p.status)} · ${esc(p.group)}</div><h3>${esc(p.name)}</h3><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div></article>`).join('')||'<div class="card">Nothing found.</div>';}
+function focusProject(p){query=p.name;$('#search').value=p.name;render();$('#results').scrollIntoView({behavior:'smooth',block:'start'});}
+function setActions(items){$('#actions').innerHTML=items.map(i=>`<button class="btn" id="${i.id}">${i.label}</button>`).join('');items.forEach(i=>document.getElementById(i.id).onclick=i.fn);}
+function jam(){const a=pick(P.filter(p=>p.group!=='archive'));const pool=P.filter(p=>p.id!==a.id&&p.group!==a.group);const b=pick(pool.length?pool:[a]);const v=pick(verbs);$('#artifact').hidden=true;$('#text').textContent=`${a.name} ${v} ${b.name}. Make one tiny thing where both must obey the same rule.`;$('#meta').textContent=`${a.group} × ${b.group} · Keep it small.`;setActions([{id:'open',label:'OPEN',fn:()=>focusProject(a)},{id:'make',label:'MAKE IT',fn:()=>artifact(a,b,v)},{id:'again',label:'AGAIN',fn:jam}]);}
+function bodyMode(){ $('#artifact').hidden=true; $('#text').textContent=pick(bodyLines); $('#meta').textContent='FOCUS: BODY · form, scale, presence, consequence.'; setActions([{id:'study',label:'MAKE A BODY STUDY',fn:()=>artifact({id:'body',name:'Body Focus',group:'3d'},{id:'blender',name:'Blender Stand',group:'3d'},'studies')},{id:'again',label:'AGAIN',fn:bodyMode}]); }
+function artifact(a,b,v){const m=pick(media),c=pick(constraints);const title=`${a.name} / ${b.name} — Tiny Study`;const brief=`${a.name} ${v} ${b.name}. Build a ${m} where the shared constraint is: ${c}. Start with the simplest possible version, then make exactly one element stranger.`;const saved=JSON.parse(localStorage.getItem('geehub-jams')||'[]');saved.unshift({title,brief,createdAt:new Date().toISOString(),from:[a.id,b.id]});localStorage.setItem('geehub-jams',JSON.stringify(saved.slice(0,40)));$('#artifact').hidden=false;$('#artifact').innerHTML=`<b>${esc(title)}</b><p>${esc(brief)}</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="again" class="btn">MAKE ANOTHER</button></div>`;$('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Copied. Now make the tiny version.').catch(()=>$('#meta').textContent='Saved here; the brief is visible above.');$('#again').onclick=jam;$('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});}
+$('#surprise').onclick=jam;$('#body').onclick=bodyMode;$('#saved').onclick=()=>{const s=JSON.parse(localStorage.getItem('geehub-jams')||'[]');$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#search').oninput=e=>{query=e.target.value;render();};
+render();jam();
 </script>
 </body>
 </html>

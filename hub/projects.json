@@ -1,0 +1,15 @@
+[
+  {"id":"bodylounger","name":"BodyLounger Research Archive","group":"archive","status":"active","summary":"Metadata-first map of the old-web muscle-growth / transformation-media lineage.","path":"../index.html","tags":["archive","research","provenance"]},
+  {"id":"beefythiq","name":"BEEFYTHIQ","group":"system","status":"active","summary":"A generative grammar of accumulation, escalation, stress, mutation, and new baselines.","path":"#","tags":["grammar","growth","mutation"]},
+  {"id":"complex","name":"The Complex","group":"world","status":"active","summary":"Persistent creative environment where creations transform, leave traces, and cross-pollinate.","path":"#","tags":["world","continuity","canon"]},
+  {"id":"growth-canvas","name":"Growth Canvas","group":"system","status":"incubating","summary":"Visual transformation workspace built around seeds, rules, latency, anomalies, and feedback.","path":"#","tags":["visual","rules","experiments"]},
+  {"id":"liminal-gains","name":"Liminal Gains","group":"game","status":"incubating","summary":"Two-player hotseat growth game with orbs, cooperation, and escalating transformation.","path":"#","tags":["game","pygame","co-op"]},
+  {"id":"bruteforce","name":"BIG BRUTEFORCE","group":"game","status":"incubating","summary":"Compact mutation-engine prototype with push, mutate, rest, and runaway progression.","path":"#","tags":["game","mutation","prototype"]},
+  {"id":"facility","name":"The Facility","group":"world","status":"incubating","summary":"Clinical-white adult research complex with CRT glow, sealed ecosystems, and transformation experiments.","path":"#","tags":["facility","fiction","research"]},
+  {"id":"muscle-myth","name":"Muscle Myth","group":"myth","status":"active","summary":"Pantheon and mythmaking around transformation, mass, charisma, and impossible bodies.","path":"#","tags":["myth","pantheon","canon"]},
+  {"id":"growth-tools","name":"Growth Tools","group":"tool","status":"incubating","summary":"Content-aware image/video tooling, tracking canvases, and transformation-oriented experiments.","path":"#","tags":["tool","vision","video"]},
+  {"id":"discovery","name":"Discovery Engine","group":"tool","status":"incubating","summary":"Personalized discovery layer for finding relevant media, tags, feeds, and archives.","path":"#","tags":["discovery","search","recommendation"]},
+  {"id":"retro-lab","name":"Retro Lab","group":"aesthetic","status":"dormant","summary":"90s–2000s / Y2K / Heisei-tech visual and sonic experiments.","path":"#","tags":["retro","y2k","aesthetic"]},
+  {"id":"religion-dialogue","name":"Religion as Dialogue","group":"research","status":"active","summary":"Thesis/research workspace around dialogue, interpretation, communication, and religious studies.","path":"#","tags":["thesis","research","philosophy"]},
+  {"id":"gods","name":"The Gods","group":"god","status":"incubating","summary":"Repository-ready home for individual deities, their symbols, myths, artifacts, and rules.","path":"#","tags":["gods","canon","artifacts"]}
+]

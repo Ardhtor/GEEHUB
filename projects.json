@@ -1,0 +1,14 @@
+[
+  {"id":"bodylounger","name":"BodyLounger Research Archive","status":"active","kind":"research","repo":"Ardhtor/GEEHUB","path":"/","description":"Provenance-first index of the old-web muscle/transformation-media ecosystem.","related":["beefythiq","the-complex","growth-canvas"]},
+  {"id":"beefythiq","name":"Beefythiq","status":"concept","kind":"system","repo":null,"description":"A generative grammar for escalating transformation, mass, association, and mutation.","related":["growth-canvas","the-complex","facility"]},
+  {"id":"the-complex","name":"The Complex","status":"concept","kind":"world","repo":null,"description":"Persistent creative environment where encounters become creations and creations transform.","related":["beefythiq","muscle-myth","facility"]},
+  {"id":"growth-canvas","name":"Growth Canvas","status":"prototype","kind":"tool","repo":null,"description":"Visual substrate for seeds, rules, latency, anomalies, tracking, and transformation experiments.","related":["beefythiq","liminal-gains"]},
+  {"id":"liminal-gains","name":"Liminal Gains","status":"prototype","kind":"game","repo":null,"description":"Interactive transformation game prototype with growth orbs and cooperative mechanics.","related":["growth-canvas","beefythiq"]},
+  {"id":"big-bruteforce","name":"BIG BRUTEFORCE","status":"prototype","kind":"game","repo":null,"description":"Mutation-engine game concept built around repeated push, mutate, and rest cycles.","related":["beefythiq"]},
+  {"id":"facility","name":"The Facility","status":"canon","kind":"world","repo":null,"description":"Clinical-white adult-male research complex with sealed ecosystems, experiments, feedback, and slapstick escalation.","related":["the-complex","muscle-myth","beefythiq"]},
+  {"id":"muscle-myth","name":"Muscle Myth","status":"canon","kind":"myth","repo":null,"description":"Mythic framework and pantheon connected to transformation, recognition, embodiment, and continuity.","related":["the-complex","facility"]},
+  {"id":"media-tools","name":"Media Tools","status":"exploration","kind":"tooling","repo":null,"description":"Content-aware enhancement, video/image processing, tracking, and visual experimentation.","related":["growth-canvas"]},
+  {"id":"discovery","name":"Discovery Systems","status":"exploration","kind":"tooling","repo":null,"description":"Recommendation, tagging, browsing, filtering, and live discovery systems.","related":["bodylounger","the-complex"]},
+  {"id":"writing-research","name":"Writing & Research","status":"active","kind":"research","repo":null,"description":"Academic and long-form work spanning dialogue, religion, media, philosophy, and impressionability.","related":["the-complex"]},
+  {"id":"retro-lab","name":"Retro Lab","status":"exploration","kind":"aesthetic","repo":null,"description":"Y2K, 90s/2000s, Heisei-era interface and media experiments.","related":["media-tools","discovery"]}
+]

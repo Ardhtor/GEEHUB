@@ -17,6 +17,7 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
 <button id="surprise" class="btn primary">SURPRISE ME</button>
 <button id="body" class="btn">FOCUS: BODY</button>
 <button id="saved" class="btn">SHOW SAVED</button>
+<button id="export" class="btn">EXPORT SAVED</button>
 </div>
 <section class="jam" aria-live="polite">
 <div id="text">Press SURPRISE ME.</div>
@@ -37,11 +38,11 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
   the first useful action never depends on a package manager, build step, or
   second runtime request. The design contract is discover -> synthesize -> build ->
   test -> expand. A good button therefore produces a concrete premise, then a
-  small artifact brief that can be saved, copied, or made in another tool.
+  small artifact brief that can be saved, copied, made, and carried elsewhere.
 
-  This version also fixes a specific usability lesson from the earlier prototype:
-  controls are wired directly to small named functions, with no implicit globals.
-  That makes the page easier to reason about and much easier to test.
+  Persistence is deliberately local-first. Saved briefs remain in the browser,
+  while EXPORT SAVED creates a portable JSON snapshot. This keeps the surface
+  simple without trapping useful work inside one browser profile.
 */
 const P=[
 ['BodyLounger Research Archive','archive','active','historical web research',['archive','research']],
@@ -70,10 +71,12 @@ function visible(){const q=query.toLowerCase().trim();return P.filter(p=>!q||JSO
 function render(){const rows=visible();$('#stats').textContent=`${rows.length} shown · ${P.length} total`;$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="muted">${esc(p.status)} · ${esc(p.group)}</div><h3>${esc(p.name)}</h3><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div></article>`).join('')||'<div class="card">Nothing found.</div>';}
 function focusProject(p){query=p.name;$('#search').value=p.name;render();$('#results').scrollIntoView({behavior:'smooth',block:'start'});}
 function setActions(items){$('#actions').innerHTML=items.map(i=>`<button class="btn" id="${i.id}">${i.label}</button>`).join('');items.forEach(i=>document.getElementById(i.id).onclick=i.fn);}
+function savedJams(){try{return JSON.parse(localStorage.getItem('geehub-jams')||'[]');}catch{return[];}}
 function jam(){const a=pick(P.filter(p=>p.group!=='archive'));const pool=P.filter(p=>p.id!==a.id&&p.group!==a.group);const b=pick(pool.length?pool:[a]);const v=pick(verbs);$('#artifact').hidden=true;$('#text').textContent=`${a.name} ${v} ${b.name}. Make one tiny thing where both must obey the same rule.`;$('#meta').textContent=`${a.group} × ${b.group} · Keep it small.`;setActions([{id:'open',label:'OPEN',fn:()=>focusProject(a)},{id:'make',label:'MAKE IT',fn:()=>artifact(a,b,v)},{id:'again',label:'AGAIN',fn:jam}]);}
 function bodyMode(){ $('#artifact').hidden=true; $('#text').textContent=pick(bodyLines); $('#meta').textContent='FOCUS: BODY · form, scale, presence, consequence.'; setActions([{id:'study',label:'MAKE A BODY STUDY',fn:()=>artifact({id:'body',name:'Body Focus',group:'3d'},{id:'blender',name:'Blender Stand',group:'3d'},'studies')},{id:'again',label:'AGAIN',fn:bodyMode}]); }
-function artifact(a,b,v){const m=pick(media),c=pick(constraints);const title=`${a.name} / ${b.name} — Tiny Study`;const brief=`${a.name} ${v} ${b.name}. Build a ${m} where the shared constraint is: ${c}. Start with the simplest possible version, then make exactly one element stranger.`;const saved=JSON.parse(localStorage.getItem('geehub-jams')||'[]');saved.unshift({title,brief,createdAt:new Date().toISOString(),from:[a.id,b.id]});localStorage.setItem('geehub-jams',JSON.stringify(saved.slice(0,40)));$('#artifact').hidden=false;$('#artifact').innerHTML=`<b>${esc(title)}</b><p>${esc(brief)}</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="again" class="btn">MAKE ANOTHER</button></div>`;$('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Copied. Now make the tiny version.').catch(()=>$('#meta').textContent='Saved here; the brief is visible above.');$('#again').onclick=jam;$('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});}
-$('#surprise').onclick=jam;$('#body').onclick=bodyMode;$('#saved').onclick=()=>{const s=JSON.parse(localStorage.getItem('geehub-jams')||'[]');$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#search').oninput=e=>{query=e.target.value;render();};
+function artifact(a,b,v){const m=pick(media),c=pick(constraints);const title=`${a.name} / ${b.name} — Tiny Study`;const brief=`${a.name} ${v} ${b.name}. Build a ${m} where the shared constraint is: ${c}. Start with the simplest possible version, then make exactly one element stranger.`;const saved=savedJams();saved.unshift({title,brief,createdAt:new Date().toISOString(),from:[a.id,b.id]});localStorage.setItem('geehub-jams',JSON.stringify(saved.slice(0,40)));$('#artifact').hidden=false;$('#artifact').innerHTML=`<b>${esc(title)}</b><p>${esc(brief)}</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="again" class="btn">MAKE ANOTHER</button></div>`;$('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Copied. Now make the tiny version.').catch(()=>$('#meta').textContent='Saved here; the brief is visible above.');$('#again').onclick=jam;$('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});}
+function exportSaved(){const data=savedJams();const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='geehub-jams.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),0);$('#meta').textContent=data.length?`Exported ${data.length} saved jam${data.length===1?'':'s'}.`:'No saved jams to export.';}
+$('#surprise').onclick=jam;$('#body').onclick=bodyMode;$('#saved').onclick=()=>{const s=savedJams();$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#export').onclick=exportSaved;$('#search').oninput=e=>{query=e.target.value;render();};
 render();jam();
 </script>
 </body>

@@ -18,6 +18,8 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
 <button id="body" class="btn">FOCUS: BODY</button>
 <button id="saved" class="btn">SHOW SAVED</button>
 <button id="export" class="btn">EXPORT SAVED</button>
+<button id="import" class="btn">IMPORT SAVED</button>
+<input id="importFile" type="file" accept="application/json,.json" hidden>
 </div>
 <section class="jam" aria-live="polite">
 <div id="text">Press SURPRISE ME.</div>
@@ -41,8 +43,9 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
   small artifact brief that can be saved, copied, made, and carried elsewhere.
 
   Persistence is deliberately local-first. Saved briefs remain in the browser,
-  while EXPORT SAVED creates a portable JSON snapshot. This keeps the surface
-  simple without trapping useful work inside one browser profile.
+  while EXPORT SAVED creates a portable JSON snapshot and IMPORT SAVED restores
+  one. Import is merge-oriented: incoming briefs are prepended, de-duplicated by
+  title + timestamp, and capped at 40 so portability does not erase local work.
 */
 const P=[
 ['BodyLounger Research Archive','archive','active','historical web research',['archive','research']],
@@ -76,7 +79,8 @@ function jam(){const a=pick(P.filter(p=>p.group!=='archive'));const pool=P.filte
 function bodyMode(){ $('#artifact').hidden=true; $('#text').textContent=pick(bodyLines); $('#meta').textContent='FOCUS: BODY · form, scale, presence, consequence.'; setActions([{id:'study',label:'MAKE A BODY STUDY',fn:()=>artifact({id:'body',name:'Body Focus',group:'3d'},{id:'blender',name:'Blender Stand',group:'3d'},'studies')},{id:'again',label:'AGAIN',fn:bodyMode}]); }
 function artifact(a,b,v){const m=pick(media),c=pick(constraints);const title=`${a.name} / ${b.name} — Tiny Study`;const brief=`${a.name} ${v} ${b.name}. Build a ${m} where the shared constraint is: ${c}. Start with the simplest possible version, then make exactly one element stranger.`;const saved=savedJams();saved.unshift({title,brief,createdAt:new Date().toISOString(),from:[a.id,b.id]});localStorage.setItem('geehub-jams',JSON.stringify(saved.slice(0,40)));$('#artifact').hidden=false;$('#artifact').innerHTML=`<b>${esc(title)}</b><p>${esc(brief)}</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="again" class="btn">MAKE ANOTHER</button></div>`;$('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Copied. Now make the tiny version.').catch(()=>$('#meta').textContent='Saved here; the brief is visible above.');$('#again').onclick=jam;$('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});}
 function exportSaved(){const data=savedJams();const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='geehub-jams.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),0);$('#meta').textContent=data.length?`Exported ${data.length} saved jam${data.length===1?'':'s'}.`:'No saved jams to export.';}
-$('#surprise').onclick=jam;$('#body').onclick=bodyMode;$('#saved').onclick=()=>{const s=savedJams();$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#export').onclick=exportSaved;$('#search').oninput=e=>{query=e.target.value;render();};
+function importSaved(file){const reader=new FileReader();reader.onload=()=>{try{const incoming=JSON.parse(reader.result);if(!Array.isArray(incoming))throw new Error('Expected an array');const current=savedJams();const seen=new Set(current.map(x=>`${x.title||''}\u0000${x.createdAt||''}`));const merged=[...incoming.filter(x=>x&&typeof x==='object').filter(x=>{const k=`${x.title||''}\u0000${x.createdAt||''}`;if(seen.has(k))return false;seen.add(k);return true;}),...current].slice(0,40);localStorage.setItem('geehub-jams',JSON.stringify(merged));$('#meta').textContent=`Imported ${merged.length-current.length} new jam${merged.length-current.length===1?'':'s'}; ${merged.length} saved total.`;}catch{ $('#meta').textContent='Import failed: choose a geehub-jams.json export.'; }};reader.readAsText(file);}
+$('#surprise').onclick=jam;$('#body').onclick=bodyMode;$('#saved').onclick=()=>{const s=savedJams();$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#export').onclick=exportSaved;$('#import').onclick=()=>$('#importFile').click();$('#importFile').onchange=e=>{if(e.target.files[0])importSaved(e.target.files[0]);e.target.value='';};$('#search').oninput=e=>{query=e.target.value;render();};
 render();jam();
 </script>
 </body>

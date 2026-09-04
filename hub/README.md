@@ -22,6 +22,12 @@ A jam is judged partly by whether it makes an internal scene easier to hold. Pre
 
 Every useful collision should remain attributable to the projects that produced it. The constellation is the raw material; the jam is a temporary branch; the artifact is the first durable consequence.
 
+## Seed data
+
+`jam-seeds.json` is the external seed contract for the jammer. It keeps the reusable verbs, actions, and questions in a small, inspectable file rather than burying them in prose. The current single-file prototype still contains its active seed arrays inline so it remains usable from `file://` without a server or package step. Treat `jam-seeds.json` as the canonical editing surface for future seed changes; when the runtime is split, load it there without changing the interaction loop.
+
+This boundary is intentional: seed edits should be reviewable as data, while interaction logic should remain stable. A seed change is successful only if it creates a more specific next action, not merely a different mood.
+
 ## Why the repository keeps the story
 
 The important commentary around the build is part of the implementation. When a new mechanism appears, its README/spec/code comments should explain the pressure that produced it, the failure it addresses, and what new action it makes possible. This preserves enough narrative that the project can be resumed without reconstructing the entire conversation.

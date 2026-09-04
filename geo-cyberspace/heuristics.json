@@ -1,0 +1,46 @@
+{
+  "version": "0.2",
+  "principle": "Heuristics derive context from local records; they do not silently widen locality or permissions.",
+  "signals": {
+    "recency": {
+      "input": "event.timestamp",
+      "shape": "decay",
+      "default_half_life_seconds": 3600
+    },
+    "locality_match": {
+      "input": "record.locality_scope",
+      "order": ["device", "lan", "region", "remote", "public"],
+      "rule": "prefer the narrowest scope compatible with the requested context"
+    },
+    "relationship_strength": {
+      "input": "relationship.strength",
+      "range": [0, 1],
+      "rule": "weighted contribution; never overrides permissions"
+    },
+    "presence": {
+      "input": "recent local events + active node state",
+      "rule": "presence requires recent evidence; absence is not inferred from silence alone"
+    },
+    "provenance": {
+      "input": "provenance_source",
+      "rule": "prefer direct local observations over derived or remote claims"
+    }
+  },
+  "gates": {
+    "locality": "candidate.locality_scope must be allowed by the requesting context",
+    "sensitivity": "candidate.sensitivity must be allowed before scoring",
+    "permissions": "permissions are evaluated before ranking",
+    "retention": "expired records are excluded from context projections",
+    "export": "remote output requires an explicit export decision"
+  },
+  "ranking": {
+    "formula": "0.40*recency + 0.25*locality_match + 0.20*relationship_strength + 0.15*provenance",
+    "normalization": "all component scores are normalized to [0,1]",
+    "tie_break": "narrower locality, then newer timestamp"
+  },
+  "failure_policy": {
+    "missing_data": "return unknown rather than inventing a value",
+    "conflicting_sources": "retain both observations and lower confidence in the derived context",
+    "permission_denied": "omit the record from the projection rather than redacting its meaning into a new fact"
+  }
+}

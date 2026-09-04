@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "id": "local-user",
+      "type": "person",
+      "attributes": {"role": "owner"},
+      "locality": {"scope": "device", "region": "Texas", "coordinates": null},
+      "sensitivity": "private",
+      "permissions": ["local-agent"],
+      "retention": "user-controlled"
+    },
+    {
+      "id": "iboyfriend",
+      "type": "agent",
+      "attributes": {"role": "local-companion"},
+      "locality": {"scope": "device", "region": "Texas", "coordinates": null},
+      "sensitivity": "private",
+      "permissions": ["context-read", "local-output"],
+      "retention": "user-controlled"
+    },
+    {
+      "id": "texas-anchor",
+      "type": "place",
+      "attributes": {"role": "physical-anchor"},
+      "locality": {"scope": "region", "region": "Texas", "coordinates": null},
+      "sensitivity": "contextual",
+      "permissions": ["local-context"],
+      "retention": "user-controlled"
+    }
+  ],
+  "events": [],
+  "relationships": [
+    {"source": "local-user", "target": "iboyfriend", "type": "agent-owner", "strength": 1.0},
+    {"source": "local-user", "target": "texas-anchor", "type": "geo-anchor", "strength": 1.0},
+    {"source": "iboyfriend", "target": "texas-anchor", "type": "operates-within", "strength": 1.0}
+  ]
+}

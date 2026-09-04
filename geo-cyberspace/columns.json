@@ -1,0 +1,46 @@
+{
+  "version": "0.2",
+  "description": "Canonical columns for the locality-first runtime.",
+  "records": {
+    "node": [
+      "id",
+      "type",
+      "attributes",
+      "locality_scope",
+      "locality_region",
+      "locality_coordinates",
+      "provenance_source",
+      "sensitivity",
+      "permissions",
+      "retention"
+    ],
+    "event": [
+      "id",
+      "timestamp",
+      "type",
+      "source",
+      "locality_scope",
+      "locality_region",
+      "locality_coordinates",
+      "provenance_source",
+      "sensitivity",
+      "payload",
+      "retention"
+    ],
+    "relationship": [
+      "source",
+      "target",
+      "type",
+      "strength",
+      "provenance_source"
+    ]
+  },
+  "naming_notes": {
+    "luogo": "locality/place context; semantic alias only, not a separate storage primitive",
+    "traccia": "event/activity trace",
+    "presenza": "currently active node or agent presence",
+    "relazione": "relationship/edge",
+    "contesto": "derived context projection",
+    "memoria": "retained local history"
+  }
+}

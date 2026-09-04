@@ -1,0 +1,39 @@
+{
+  "version": "0.1",
+  "description": "Dating activity modeled as local events with province/state/region (admin-1) aggregation.",
+  "geography": {
+    "level": "admin_1",
+    "column": "locality_region",
+    "meaning": "state, province, territory, or equivalent first-order administrative region",
+    "privacy_rule": "provincial aggregation may be retained or projected without requiring precise coordinates"
+  },
+  "record": {
+    "id": "dating-event-identifier",
+    "timestamp": "date-time",
+    "type": "dating",
+    "locality_scope": "region",
+    "locality_region": "admin-1 identifier",
+    "provenance_source": "observation/source",
+    "sensitivity": "sensitive by default",
+    "permissions": ["local-only"],
+    "payload": {
+      "stage": "discovery|contact|date|ongoing|ended",
+      "channel": "optional source category",
+      "outcome": "optional outcome category",
+      "notes": "optional local notes"
+    },
+    "retention": "explicit policy"
+  },
+  "aggregation": {
+    "unit": "province_or_state",
+    "metrics": [
+      "dating_activity_rate",
+      "new_connections",
+      "ongoing_connections",
+      "ended_connections",
+      "recency",
+      "confidence"
+    ],
+    "rule": "aggregate only from permission-eligible local records; never infer individual identity from provincial totals"
+  }
+}

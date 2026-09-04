@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Geo-Anchored Local Cyberspace",
+  "type": "object",
+  "required": ["nodes", "events", "relationships"],
+  "properties": {
+    "nodes": {"type": "array", "items": {"$ref": "#/definitions/node"}},
+    "events": {"type": "array", "items": {"$ref": "#/definitions/event"}},
+    "relationships": {"type": "array", "items": {"$ref": "#/definitions/relationship"}}
+  },
+  "definitions": {
+    "locality": {
+      "type": "object",
+      "properties": {
+        "scope": {"type": "string", "enum": ["device", "lan", "region", "remote", "public"]},
+        "region": {"type": ["string", "null"]},
+        "coordinates": {"type": ["object", "null"]}
+      },
+      "required": ["scope"]
+    },
+    "node": {
+      "type": "object",
+      "required": ["id", "type", "locality"],
+      "properties": {
+        "id": {"type": "string"},
+        "type": {"type": "string"},
+        "attributes": {"type": "object"},
+        "locality": {"$ref": "#/definitions/locality"},
+        "sensitivity": {"type": "string"},
+        "permissions": {"type": "array", "items": {"type": "string"}},
+        "retention": {"type": ["string", "null"]}
+      }
+    },
+    "event": {
+      "type": "object",
+      "required": ["id", "timestamp", "type", "locality"],
+      "properties": {
+        "id": {"type": "string"},
+        "timestamp": {"type": "string", "format": "date-time"},
+        "type": {"type": "string"},
+        "source": {"type": ["string", "null"]},
+        "locality": {"$ref": "#/definitions/locality"},
+        "sensitivity": {"type": "string"},
+        "payload": {"type": "object"},
+        "retention": {"type": ["string", "null"]}
+      }
+    },
+    "relationship": {
+      "type": "object",
+      "required": ["source", "target", "type"],
+      "properties": {
+        "source": {"type": "string"},
+        "target": {"type": "string"},
+        "type": {"type": "string"},
+        "strength": {"type": "number"}
+      }
+    }
+  }
+}

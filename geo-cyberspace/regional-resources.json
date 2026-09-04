@@ -1,0 +1,56 @@
+{
+  "version": "0.1",
+  "description": "Regional physical-resource signals that condition local computational capacity.",
+  "geography": {
+    "level": "admin_1",
+    "column": "locality_region",
+    "meaning": "state, province, territory, or equivalent first-order administrative region"
+  },
+  "resources": {
+    "water": {
+      "signals": [
+        "availability",
+        "drought_status",
+        "cooling_dependency",
+        "withdrawal_pressure",
+        "reclaimed_water_access"
+      ],
+      "principle": "water is a physical constraint on regional compute capacity, not merely descriptive metadata"
+    },
+    "energy": {
+      "signals": [
+        "grid_capacity",
+        "peak_load",
+        "generation_mix",
+        "connection_constraints"
+      ]
+    },
+    "climate": {
+      "signals": [
+        "temperature",
+        "heat_events",
+        "ambient_cooling_feasibility"
+      ]
+    },
+    "infrastructure": {
+      "signals": [
+        "fiber_connectivity",
+        "land_availability",
+        "industrial_capacity",
+        "wastewater_capacity"
+      ]
+    }
+  },
+  "derived": {
+    "compute_feasibility": "derived regional projection; never treated as a raw observation",
+    "resource_pressure": "derived from permission-eligible observations and current regional conditions",
+    "locality_rule": "regional signals may condition local context without exporting underlying sensitive records"
+  },
+  "pipeline": [
+    "physical_region",
+    "resource_observations",
+    "regional_context",
+    "compute_feasibility",
+    "local_cyberspace_capacity"
+  ]
+}

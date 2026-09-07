@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Ardhtor/GEEHUB/blob/main/hub/portable-jams.schema.json",
+  "title": "GEEHUB Portable Jams",
+  "description": "Portable local-first Narrative Jammer artifacts. The format preserves the brief, its creation time, and the constellation nodes that produced it.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": true,
+    "required": ["title", "brief", "createdAt", "from"],
+    "properties": {
+      "title": {"type": "string", "minLength": 1},
+      "brief": {"type": "string", "minLength": 1},
+      "createdAt": {"type": "string", "format": "date-time"},
+      "from": {
+        "type": "array",
+        "minItems": 1,
+        "items": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

@@ -14,6 +14,18 @@ A small idea can live in the hub. A useful prototype gets an executable or brows
 
 The hub is therefore both an index and a memory layer.
 
+## The current direction
+
+The project is increasingly about **vision**: compiling many nodes of work into something visible, navigable, and alive rather than maintaining a collection of disconnected notes or prototypes.
+
+The current state record is kept in [`CURRENT_STATE_2026-09.md`](CURRENT_STATE_2026-09.md). It captures durable direction from recent working conversations without attempting to copy the conversations themselves.
+
+A useful planning grammar is:
+
+**mechanism → interface → transformation rule → continuity principle → setting → mythology**
+
+This is not a rigid schema. It is a way to decide whether a new idea belongs in code, an interface, a world, a canon document, or a separate repository. Canon and experiments should remain distinguishable; a speculative branch should not silently become established canon.
+
 ## Why the commentary matters
 
 The conversations that produce these projects contain design decisions that are easy to lose: why a feature was added, what aesthetic was being chased, what failed before, what the next experiment was supposed to test, and which concepts are related.
@@ -36,17 +48,18 @@ The Atlas currently tracks projects and systems including:
 - BodyLounger Research Archive — historical web research and provenance.
 - BEEFYTHIQ — a generative grammar of accumulation, stress, mutation, and new baselines.
 - The Complex — a persistent creative/worldbuilding environment.
+- Vision / Living Workspace — the emerging umbrella interface for making the constellation visible.
+- Veyrthalis — a major fictional world with layered geography, architecture, and mythology.
 - Growth Canvas — a visual transformation workspace.
 - Liminal Gains — a cooperative growth-game prototype.
 - BIG BRUTEFORCE — a compact mutation-engine experiment.
+- Mass1v1ng Growth Framework — an explicitly imaginative transformation framework.
 - The Facility — a fictional research environment and setting.
 - Muscle Myth — pantheon, mythology, symbols, artifacts, and canon.
-- Growth Tools — image/video and visual experimentation tooling.
-- Discovery Engine — discovery and recommendation experiments.
+- Growth Tools / Media Tools — image, video, and visual experimentation tooling.
+- Discovery Systems — discovery and recommendation experiments.
 - Retro Lab — older-web, Y2K, and Heisei-era aesthetic experiments.
-- Religion as Dialogue — academic/research work.
-- The Gods — a repository-ready layer for individual deities and related canon.
-- Blender Stand / 3D Workspace — the 3D production arm for modeling, scenes, studies, and visual output.
+- Writing & Research — academic and long-form work around dialogue, media, philosophy, and related subjects.
 
 Not every node needs to be a separate Git repository immediately. The Atlas records the idea first; repository boundaries follow usefulness and maturity.
 
@@ -92,6 +105,8 @@ The browser supports local additions through the UI. Those records live in brows
 
 The GEEHUB Project Atlas lives under `hub/` and is backed by `hub/projects.json`.
 
+The machine-readable constellation registry is also available as `projects.json` at the repository root for the current browser implementation.
+
 ## Repository conventions
 
 Prefer explicit names and small readable files over clever abstractions. Keep metadata close to the thing it describes. Treat provenance as first-class data. Make unfinished work visible instead of disguising placeholders as completed systems.
@@ -100,6 +115,7 @@ When a project is moved into its own repository, leave a durable link and a conc
 
 ## Roadmap
 
+- Build a real GEEHUB constellation interface above the current BodyLounger application so the umbrella repository is visibly an umbrella rather than accidentally identified with its first major archive.
 - Bookmark import and URL canonicalization.
 - Duplicate detection by canonical URL and title similarity.
 - Chronology/timeline view.

@@ -7,6 +7,10 @@ let projects=[];let filter='all';let query='';
   The prompts below are intentionally broad enough to collide with many kinds
   of projects while remaining actionable. They are a user-facing expression
   of the build narrative: discover -> synthesize -> build -> test -> expand.
+
+  Repository links are optional metadata. A project may exist as a hub node
+  before it has a dedicated repository; when a repository is known, the card
+  exposes it without pretending that every concept has already split out.
 */
 const jammerLines=[
   ['Beefythiq','BODY is a high-girth attractor. Give it a new direction: form, motion, presence, scale.'],
@@ -41,7 +45,9 @@ function render(){
 }
 function card(p){
   const cls=`dot ${p.status}`;
-  return `<article class="card"><div class="top"><span class="${cls}"></span><span class="status">${esc(p.status)}</span><span class="group">${esc(p.group)}</span></div><h2>${esc(p.name)}</h2><p>${esc(p.summary)}</p><div class="tags">${(p.tags||[]).map(t=>`<span>#${esc(t)}</span>`).join('')}</div>${p.path&&p.path!=='#'?`<a href="${p.path}">Open ↗</a>`:'<span class="future">repo / workspace not split yet</span>'}</article>`;
+  const destination=p.repo||p.path;
+  const linkLabel=p.repo?'OPEN REPOSITORY ↗':'Open ↗';
+  return `<article class="card"><div class="top"><span class="${cls}"></span><span class="status">${esc(p.status)}</span><span class="group">${esc(p.group)}</span></div><h2>${esc(p.name)}</h2><p>${esc(p.summary)}</p><div class="tags">${(p.tags||[]).map(t=>`<span>#${esc(t)}</span>`).join('')}</div>${destination&&destination!=='#'?`<a href="${esc(destination)}"${p.repo?' target="_blank" rel="noreferrer"':''}>${linkLabel}</a>`:'<span class="future">repo / workspace not split yet</span>'}</article>`;
 }
 function jamRandom(){
   const candidates=projects.filter(p=>p.group!=='archive');

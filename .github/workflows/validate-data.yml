@@ -26,9 +26,11 @@ jobs:
         with:
           python-version: '3.x'
       - name: Validate portable jam validator syntax
-        run: python -m py_compile hub/validate-jams.py hub/test-validate-jams.py
+        run: python -m py_compile hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py
       - name: Run portable jam regression test
         run: python hub/test-validate-jams.py
+      - name: Validate constellation registry
+        run: python hub/validate-projects.py hub/projects.json
       - name: Validate records archive index when present
         run: |
           if [ -f records.json ]; then

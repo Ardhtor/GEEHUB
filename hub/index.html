@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GEEHUB — Narrative Jammer</title>
 <style>
-body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:1000px;margin:auto;padding:30px}.hero{display:flex;gap:8px;flex-wrap:wrap}.btn{padding:12px 16px;border:1px solid #454d58;border-radius:8px;background:#171b20;color:#eee;cursor:pointer}.primary{background:#eee;color:#111}.jam{margin:18px 0;padding:20px;border:1px solid #39414b;border-radius:12px;background:#14181d}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.card{padding:16px;border:1px solid #2d333b;border-radius:10px;background:#12161a}.muted{color:#929aa6;font-size:12px}.tags{color:#aab1ba;font-size:12px;margin-top:10px}@media(max-width:700px){.grid{grid-template-columns:1fr}}
+body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:1000px;margin:auto;padding:30px}.hero{display:flex;gap:8px;flex-wrap:wrap}.btn{padding:12px 16px;border:1px solid #454d58;border-radius:8px;background:#171b20;color:#eee;cursor:pointer}.primary{background:#eee;color:#111}.jam{margin:18px 0;padding:20px;border:1px solid #39414b;border-radius:12px;background:#14181d}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.card{padding:16px;border:1px solid #2d333b;border-radius:10px;background:#12161a}.muted{color:#929aa6;font-size:12px}.tags{color:#aab1ba;font-size:12px;margin-top:10px}.repo-link{display:inline-block;margin-top:12px;color:#d7e7ff;text-decoration:none}.repo-link:hover{text-decoration:underline}@media(max-width:700px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -50,6 +50,9 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
   Individual briefs can also be downloaded as plain text. This is intentionally
   redundant with JSON export: JSON preserves structured provenance, while a text
   file is the easiest handoff for a person, a notes app, or a future repository.
+
+  Repository links are explicit metadata, not inferred reachability. They are
+  rendered as navigation only when a project has a declared public repo URL.
 */
 const P=[
 ['BodyLounger Research Archive','archive','active','historical web research',['archive','research']],
@@ -65,8 +68,10 @@ const P=[
 ['Retro Lab','aesthetic','dormant','Y2K and older-web experiments',['retro','y2k']],
 ['Religion as Dialogue','research','active','dialogue and religious-studies research',['thesis','research']],
 ['The Gods','god','incubating','deities, symbols, myths, and artifacts',['gods','canon']],
-['Blender Stand / 3D Workspace','3d','incubating','models, scenes, cameras, and visual output',['blender','3d']]
-].map(([name,group,status,summary,tags])=>({id:name.toLowerCase().replace(/[^a-z0-9]+/g,'-'),name,group,status,summary,tags}));
+['Blender Stand / 3D Workspace','3d','incubating','models, scenes, cameras, and visual output',['blender','3d']],
+['ModernTexts','research','active','accessible GitHub repository in the current workspace constellation',['repository','texts','research'],'https://github.com/Ardhtor/ModernTexts'],
+['LINUX_S','tool','active','accessible GitHub repository in the current workspace constellation',['repository','linux','systems'],'https://github.com/Ardhtor/LINUX_S']
+].map(([name,group,status,summary,tags,repo])=>({id:name.toLowerCase().replace(/[^a-z0-9]+/g,'-'),name,group,status,summary,tags,repo}));
 const verbs=['collides with','infects','rebuilds','haunts','tests','renders','escapes into'];
 const media=['Blender blockout','five-frame storyboard','single-page web toy','character turnaround','tiny game mechanic','poster-sized diagram','one-minute sound loop'];
 const constraints=['one dominant shape','three objects only','one strange material','black-and-white','under five minutes','one rule repeated three times'];
@@ -75,7 +80,7 @@ const $=s=>document.querySelector(s), pick=a=>a[Math.floor(Math.random()*a.lengt
 let query='';
 function esc(s){return String(s).replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));}
 function visible(){const q=query.toLowerCase().trim();return P.filter(p=>!q||JSON.stringify(p).toLowerCase().includes(q));}
-function render(){const rows=visible();$('#stats').textContent=`${rows.length} shown · ${P.length} total`;$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="muted">${esc(p.status)} · ${esc(p.group)}</div><h3>${esc(p.name)}</h3><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div></article>`).join('')||'<div class="card">Nothing found.</div>';}
+function render(){const rows=visible();$('#stats').textContent=`${rows.length} shown · ${P.length} total`;$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="muted">${esc(p.status)} · ${esc(p.group)}</div><h3>${esc(p.name)}</h3><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div>${p.repo?`<a class="repo-link" href="${esc(p.repo)}" target="_blank" rel="noopener">OPEN REPOSITORY ↗</a>`:''}</article>`).join('')||'<div class="card">Nothing found.</div>';}
 function focusProject(p){query=p.name;$('#search').value=p.name;render();$('#results').scrollIntoView({behavior:'smooth',block:'start'});}
 function setActions(items){$('#actions').innerHTML=items.map(i=>`<button class="btn" id="${i.id}">${i.label}</button>`).join('');items.forEach(i=>document.getElementById(i.id).onclick=i.fn);}
 function savedJams(){try{return JSON.parse(localStorage.getItem('geehub-jams')||'[]');}catch{return[];}}

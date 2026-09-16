@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GEEHUB — Narrative Jammer</title>
 <style>
-body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:1000px;margin:auto;padding:30px}.hero{display:flex;gap:8px;flex-wrap:wrap}.btn{padding:12px 16px;border:1px solid #454d58;border-radius:8px;background:#171b20;color:#eee;cursor:pointer}.primary{background:#eee;color:#111}.jam{margin:18px 0;padding:20px;border:1px solid #39414b;border-radius:12px;background:#14181d}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.card{padding:16px;border:1px solid #2d333b;border-radius:10px;background:#12161a}.muted{color:#929aa6;font-size:12px}.tags{color:#aab1ba;font-size:12px;margin-top:10px}.repo-link{display:inline-block;margin-top:12px;color:#d7e7ff;text-decoration:none}.repo-link:hover{text-decoration:underline}@media(max-width:700px){.grid{grid-template-columns:1fr}}
+body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:1000px;margin:auto;padding:30px}.hero{display:flex;gap:8px;flex-wrap:wrap}.btn{padding:12px 16px;border:1px solid #454d58;border-radius:8px;background:#171b20;color:#eee;cursor:pointer}.primary{background:#eee;color:#111}.jam{margin:18px 0;padding:20px;border:1px solid #39414b;border-radius:12px;background:#14181d}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.card{padding:16px;border:1px solid #2d333b;border-radius:10px;background:#12161a}.muted{color:#929aa6;font-size:12px}.tags{color:#aab1ba;font-size:12px;margin-top:10px}.repo-link{display:inline-block;margin-top:12px;color:#d7e7ff;text-decoration:none}.repo-link:hover{text-decoration:underline}.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:700px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -27,7 +27,17 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
 <div id="actions" class="actions"></div>
 <div id="artifact" class="jam" hidden></div>
 </section>
-<input id="search" class="btn" style="width:100%;margin:8px 0;" placeholder="Find a project…">
+<div class="filters">
+<label class="sr-only" for="search">Find a project</label>
+<input id="search" class="btn" style="flex:1;min-width:220px;" placeholder="Find a project…">
+<label class="sr-only" for="statusFilter">Filter by project status</label>
+<select id="statusFilter" class="btn" aria-label="Filter by project status">
+<option value="all">ALL STATUS</option>
+<option value="active">ACTIVE</option>
+<option value="incubating">INCUBATING</option>
+<option value="dormant">DORMANT</option>
+</select>
+</div>
 <div id="stats" class="muted"></div>
 <div id="results" class="grid" style="margin-top:12px"></div>
 </main>
@@ -53,6 +63,10 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
 
   Repository links are explicit metadata, not inferred reachability. They are
   rendered as navigation only when a project has a declared public repo URL.
+
+  The registry view adds one low-cost control instead of a dashboard: a native
+  status filter. Search remains broad, while the filter makes active canon and
+  incubating experiments distinguishable without changing the underlying data.
 */
 const P=[
 ['BodyLounger Research Archive','archive','active','historical web research',['archive','research']],
@@ -77,10 +91,10 @@ const media=['Blender blockout','five-frame storyboard','single-page web toy','c
 const constraints=['one dominant shape','three objects only','one strange material','black-and-white','under five minutes','one rule repeated three times'];
 const bodyLines=['BODY: proportion, silhouette, posture, surface, presence.','Zoom in until one physical detail changes the whole figure.','Treat anatomy as a design language: structure → gesture → character.','Let lighting and camera become part of the body.'];
 const $=s=>document.querySelector(s), pick=a=>a[Math.floor(Math.random()*a.length)];
-let query='';
+let query='', statusFilter='all';
 function esc(s){return String(s).replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));}
-function visible(){const q=query.toLowerCase().trim();return P.filter(p=>!q||JSON.stringify(p).toLowerCase().includes(q));}
-function render(){const rows=visible();$('#stats').textContent=`${rows.length} shown · ${P.length} total`;$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="muted">${esc(p.status)} · ${esc(p.group)}</div><h3>${esc(p.name)}</h3><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div>${p.repo?`<a class="repo-link" href="${esc(p.repo)}" target="_blank" rel="noopener">OPEN REPOSITORY ↗</a>`:''}</article>`).join('')||'<div class="card">Nothing found.</div>';}
+function visible(){const q=query.toLowerCase().trim();return P.filter(p=>(statusFilter==='all'||p.status===statusFilter)&&(!q||JSON.stringify(p).toLowerCase().includes(q)));}
+function render(){const rows=visible();const scope=statusFilter==='all'?'all statuses':statusFilter;$('#stats').textContent=`${rows.length} shown · ${P.length} total · ${scope}`;$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="muted">${esc(p.status)} · ${esc(p.group)}</div><h3>${esc(p.name)}</h3><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div>${p.repo?`<a class="repo-link" href="${esc(p.repo)}" target="_blank" rel="noopener">OPEN REPOSITORY ↗</a>`:''}</article>`).join('')||'<div class="card">Nothing found.</div>';}
 function focusProject(p){query=p.name;$('#search').value=p.name;render();$('#results').scrollIntoView({behavior:'smooth',block:'start'});}
 function setActions(items){$('#actions').innerHTML=items.map(i=>`<button class="btn" id="${i.id}">${i.label}</button>`).join('');items.forEach(i=>document.getElementById(i.id).onclick=i.fn);}
 function savedJams(){try{return JSON.parse(localStorage.getItem('geehub-jams')||'[]');}catch{return[];}}
@@ -89,7 +103,7 @@ function bodyMode(){ $('#artifact').hidden=true; $('#text').textContent=pick(bod
 function artifact(a,b,v){const m=pick(media),c=pick(constraints);const title=`${a.name} / ${b.name} — Tiny Study`;const brief=`${a.name} ${v} ${b.name}. Build a ${m} where the shared constraint is: ${c}. Start with the simplest possible version, then make exactly one element stranger.`;const saved=savedJams();saved.unshift({title,brief,createdAt:new Date().toISOString(),from:[a.id,b.id]});localStorage.setItem('geehub-jams',JSON.stringify(saved.slice(0,40)));$('#artifact').hidden=false;$('#artifact').innerHTML=`<b>${esc(title)}</b><p>${esc(brief)}</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="download" class="btn">DOWNLOAD BRIEF</button><button id="again" class="btn">MAKE ANOTHER</button></div>`;$('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Copied. Now make the tiny version.').catch(()=>$('#meta').textContent='Saved here; the brief is visible above.');$('#download').onclick=()=>{const blob=new Blob([`${title}\n\n${brief}\n\nSource nodes: ${a.id}, ${b.id}\nCreated: ${new Date().toISOString()}\n`],{type:'text/plain'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='geehub-brief.txt';link.click();setTimeout(()=>URL.revokeObjectURL(url),0);$('#meta').textContent='Downloaded a plain-text brief with provenance.';};$('#again').onclick=jam;$('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});}
 function exportSaved(){const data=savedJams();const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='geehub-jams.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),0);$('#meta').textContent=data.length?`Exported ${data.length} saved jam${data.length===1?'':'s'}.`:'No saved jams to export.';}
 function importSaved(file){const reader=new FileReader();reader.onload=()=>{try{const incoming=JSON.parse(reader.result);if(!Array.isArray(incoming))throw new Error('Expected an array');const current=savedJams();const seen=new Set(current.map(x=>`${x.title||''}\u0000${x.createdAt||''}`));const merged=[...incoming.filter(x=>x&&typeof x==='object').filter(x=>{const k=`${x.title||''}\u0000${x.createdAt||''}`;if(seen.has(k))return false;seen.add(k);return true;}),...current].slice(0,40);localStorage.setItem('geehub-jams',JSON.stringify(merged));$('#meta').textContent=`Imported ${merged.length-current.length} new jam${merged.length-current.length===1?'':'s'}; ${merged.length} saved total.`;}catch{ $('#meta').textContent='Import failed: choose a geehub-jams.json export.'; }};reader.readAsText(file);}
-$('#surprise').onclick=jam;$('#body').onclick=bodyMode;$('#saved').onclick=()=>{const s=savedJams();$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#export').onclick=exportSaved;$('#import').onclick=()=>$('#importFile').click();$('#importFile').onchange=e=>{if(e.target.files[0])importSaved(e.target.files[0]);e.target.value='';};$('#search').oninput=e=>{query=e.target.value;render();};
+$('#surprise').onclick=jam;$('#body').onclick=bodyMode;$('#saved').onclick=()=>{const s=savedJams();$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#export').onclick=exportSaved;$('#import').onclick=()=>$('#importFile').click();$('#importFile').onchange=e=>{if(e.target.files[0])importSaved(e.target.files[0]);e.target.value='';};$('#search').oninput=e=>{query=e.target.value;render();};$('#statusFilter').onchange=e=>{statusFilter=e.target.value;render();};
 render();jam();
 </script>
 </body>

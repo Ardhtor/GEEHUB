@@ -2,8 +2,9 @@
 """Small dependency-free regression checks for the portable jam validator.
 
 The browser and command-line validator intentionally share the same boundary:
-portable records need title, brief, createdAt, and from. These checks keep that
-contract executable without introducing a test framework or package install.
+portable records need usable title/brief text, an ISO-8601 createdAt value, and
+non-empty project-id lineage. These checks keep that contract executable without
+introducing a test framework or package install.
 """
 from __future__ import annotations
 
@@ -45,13 +46,15 @@ def main():
     valid = run(VALID)
     assert valid.returncode == 0, valid.stderr or valid.stdout
 
-    missing_brief = [dict(VALID[0], brief="")]
-    rejected = run(missing_brief)
-    assert rejected.returncode != 0, "validator accepted an empty brief"
-
-    malformed_from = [dict(VALID[0], **{"from": "not-a-list"})]
-    rejected = run(malformed_from)
-    assert rejected.returncode != 0, "validator accepted a non-list from field"
+    cases = [
+        (dict(VALID[0], brief=""), "empty brief"),
+        (dict(VALID[0], **{"from": "not-a-list"}), "non-list from"),
+        (dict(VALID[0], createdAt="yesterday"), "invalid timestamp"),
+        (dict(VALID[0], **{"from": ["  "]}), "blank lineage id"),
+    ]
+    for payload, label in cases:
+        rejected = run([payload])
+        assert rejected.returncode != 0, f"validator accepted {label}"
 
     print("portable jam validator checks passed")
 

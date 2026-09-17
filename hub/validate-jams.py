@@ -4,14 +4,31 @@
 The browser intentionally keeps persistence local-first. This small validator makes
 portable exports inspectable before they are archived, merged, or handed to another
 workflow. It accepts the current array format and reports row-level problems.
+
+The validator is deliberately stricter than the browser's merge behavior: exported
+records must carry usable human text, an ISO-8601 timestamp, and project-id lineage.
+That keeps malformed or provenance-free records from silently becoming part of a
+shared archive.
 """
 from __future__ import annotations
 
 import json
 import sys
+from datetime import datetime
 from pathlib import Path
 
 REQUIRED = {"title", "brief", "createdAt", "from"}
+
+
+def is_iso_timestamp(value: object) -> bool:
+    if not isinstance(value, str) or not value.strip():
+        return False
+    candidate = value.strip().replace("Z", "+00:00")
+    try:
+        datetime.fromisoformat(candidate)
+    except ValueError:
+        return False
+    return True
 
 
 def main() -> int:
@@ -41,12 +58,18 @@ def main() -> int:
         missing = sorted(REQUIRED - item.keys())
         if missing:
             errors.append(f"#{index}: missing {', '.join(missing)}")
-        if "title" in item and not isinstance(item["title"], str):
-            errors.append(f"#{index}: title must be a string")
-        if "brief" in item and not isinstance(item["brief"], str):
-            errors.append(f"#{index}: brief must be a string")
-        if "from" in item and not isinstance(item["from"], list):
-            errors.append(f"#{index}: from must be an array of project ids")
+        if "title" in item and (not isinstance(item["title"], str) or not item["title"].strip()):
+            errors.append(f"#{index}: title must be a non-empty string")
+        if "brief" in item and (not isinstance(item["brief"], str) or not item["brief"].strip()):
+            errors.append(f"#{index}: brief must be a non-empty string")
+        if "createdAt" in item and not is_iso_timestamp(item["createdAt"]):
+            errors.append(f"#{index}: createdAt must be an ISO-8601 timestamp")
+        if "from" in item:
+            lineage = item["from"]
+            if not isinstance(lineage, list) or not lineage or any(
+                not isinstance(project_id, str) or not project_id.strip() for project_id in lineage
+            ):
+                errors.append(f"#{index}: from must be a non-empty array of project ids")
 
     if errors:
         print(f"invalid: {len(errors)} problem(s)")

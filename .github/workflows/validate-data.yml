@@ -25,12 +25,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - name: Validate portable jam validator syntax
-        run: python -m py_compile hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py
+      - name: Validate Python tools
+        run: python -m py_compile hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py
       - name: Run portable jam regression test
         run: python hub/test-validate-jams.py
       - name: Validate constellation registry
         run: python hub/validate-projects.py hub/projects.json
+      - name: Validate browser repository links
+        run: python hub/validate-ui-registry.py hub/projects.json hub/index.html
       - name: Validate records archive index when present
         run: |
           if [ -f records.json ]; then

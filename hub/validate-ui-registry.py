@@ -43,17 +43,15 @@ def main() -> int:
         name = project.get("name")
         group = project.get("group")
         status = project.get("status")
-        summary = project.get("summary")
-        if not all(isinstance(value, str) and value for value in (name, group, status, summary)):
-            failures.append(f"{project_id}: missing name, group, status, or summary")
+        if not all(isinstance(value, str) and value for value in (name, group, status)):
+            failures.append(f"{project_id}: missing name, group, or status")
             continue
 
-        # The embedded P array stores the first five fields in this order.
-        # Match the exact tuple so a stale card cannot pass merely because its
-        # name happens to appear elsewhere in the page.
+        # The embedded P array stores these discovery fields in this order.
+        # Summaries intentionally remain browser-specific copy so the static
+        # doorway can stay short without becoming a second canonical archive.
         tuple_pattern = (
             rf"\['{js_quote(name)}','{js_quote(group)}','{js_quote(status)}',"
-            rf"'{js_quote(summary)}',"
         )
         if not re.search(tuple_pattern, html):
             failures.append(f"{project_id}: embedded project tuple is missing or stale")

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GEEHUB Chat Archive Record",
+  "type": "object",
+  "required": ["schemaVersion", "id", "source", "messages"],
+  "properties": {
+    "schemaVersion": {"type": "integer"},
+    "id": {"type": "string"},
+    "title": {"type": ["string","null"]},
+    "createdAt": {"type": ["string","null"]},
+    "updatedAt": {"type": ["string","null"]},
+    "source": {
+      "type": "object",
+      "required": ["kind"],
+      "properties": {
+        "kind": {"type": "string"},
+        "exportId": {"type": ["string","null"]},
+        "path": {"type": ["string","null"]}
+      }
+    },
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id","role","content"],
+        "properties": {
+          "id": {"type": "string"},
+          "role": {"type": "string"},
+          "timestamp": {"type": ["string","null"]},
+          "content": {"type": "string"},
+          "assets": {"type": "array"},
+          "metadata": {"type": "object"}
+        }
+      }
+    },
+    "assets": {"type": "array"},
+    "relations": {"type": "array"},
+    "derived": {"type": "object"}
+  }
+}

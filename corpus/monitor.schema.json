@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GEEHUB Continual Monitor",
+  "type": "object",
+  "required": ["schemaVersion", "passes"],
+  "properties": {
+    "schemaVersion": { "type": "string" },
+    "passes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "observations"],
+        "properties": {
+          "id": { "type": "string" },
+          "observations": { "type": "array", "items": { "type": "string" } },
+          "recurrences": { "type": "array", "items": { "type": "string" } },
+          "delimiters": { "type": "array", "items": { "type": "string" } },
+          "intervals": { "type": "array", "items": { "type": "string" } },
+          "driftSignals": { "type": "array", "items": { "type": "string" } },
+          "realignment": { "type": "array", "items": { "type": "string" } },
+          "uncertainty": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

@@ -58,8 +58,8 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
   title + timestamp, and capped at 40 so portability does not erase local work.
 
   Individual briefs can also be downloaded as plain text. This is intentionally
-  redundant with JSON export: JSON preserves structured provenance, while a text
-  file is the easiest handoff for a person, a notes app, or a future repository.
+  redundant with JSON export: JSON preserves structured provenance, while a
+  text file is the easiest handoff for a person, a notes app, or a future repository.
 
   Portable jam records carry schemaVersion=1. The import path validates the small
   durable contract before merging: title, brief, ISO timestamp, and non-empty
@@ -71,6 +71,9 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
   The registry view adds one low-cost control instead of a dashboard: a native
   status filter. Search remains broad, while the filter makes active canon and
   incubating experiments distinguishable without changing the underlying data.
+
+  2026-09-21 update: Veyrthalis and the Hyperspace Expedition are visible nodes.
+  The expedition remains experimental pending reconciliation against older lore.
 */
 const P=[
 ['BodyLounger Research Archive','archive','active','historical web research',['archive','research']],
@@ -81,6 +84,8 @@ const P=[
 ['BIG BRUTEFORCE','game','incubating','mutation-engine prototype',['game','mutation']],
 ['The Facility','world','incubating','fictional research environment',['fiction','research']],
 ['Muscle Myth','myth','active','pantheon and transformation mythology',['myth','canon']],
+['Veyrthalis','world','active','foggy dark expanse; Digitorium, Procession, Binding, Temple of Moon; layered mythic spaces',['world','myth','continuity'],'https://github.com/Ardhtor/GEEHUB/tree/main/lore/veyrthalis'],
+['Hyperspace Expedition','story-branch','incubating','four-man descent into a valley city joined to an ancient living presence; experimental branch, not canon',['story','hyperspace','experimental'],'https://github.com/Ardhtor/GEEHUB/blob/main/lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md'],
 ['Growth Tools','tool','incubating','image and video experimentation',['tool','vision']],
 ['Discovery Engine','tool','incubating','discovery and recommendation experiments',['search','discovery']],
 ['Retro Lab','aesthetic','dormant','Y2K and older-web experiments',['retro','y2k']],
@@ -96,7 +101,7 @@ const constraints=['one dominant shape','three objects only','one strange materi
 const bodyLines=['BODY: proportion, silhouette, posture, surface, presence.','Zoom in until one physical detail changes the whole figure.','Treat anatomy as a design language: structure → gesture → character.','Let lighting and camera become part of the body.'];
 const $=s=>document.querySelector(s), pick=a=>a[Math.floor(Math.random()*a.length)];
 let query='', statusFilter='all';
-function esc(s){return String(s).replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));}
+function esc(s){return String(s).replace(/[&<>\\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\\"':'&quot;',"'":'&#39;'}[c]));}
 function visible(){const q=query.toLowerCase().trim();return P.filter(p=>(statusFilter==='all'||p.status===statusFilter)&&(!q||JSON.stringify(p).toLowerCase().includes(q)));}
 function render(){const rows=visible();const scope=statusFilter==='all'?'all statuses':statusFilter;$('#stats').textContent=`${rows.length} shown · ${P.length} total · ${scope}`;$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="muted">${esc(p.status)} · ${esc(p.group)}</div><h3>${esc(p.name)}</h3><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div>${p.repo?`<a class="repo-link" href="${esc(p.repo)}" target="_blank" rel="noopener">OPEN REPOSITORY ↗</a>`:''}</article>`).join('')||'<div class="card">Nothing found.</div>';}
 function focusProject(p){query=p.name;$('#search').value=p.name;render();$('#results').scrollIntoView({behavior:'smooth',block:'start'});}

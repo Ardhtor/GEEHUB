@@ -1,28 +1,15 @@
-# CHAT ARCHIVE
+# CORPUS / ARCHIVE
 
-Raw-first archive for exported ChatGPT conversations.
+GEEHUB treats preserved conversation material and deep lore as two readings of one corpus.
 
-Principles:
-- preserve conversation text + message order
-- preserve timestamps and thread boundaries when supplied
-- preserve source/export provenance
-- attach assets to the conversation/message that references them
-- never silently rewrite raw text
-- derived tags, links, summaries, and relationships live beside raw records
-- canon and experiments remain distinct
-- missing/ambiguous provenance is marked, not guessed
+RAW CHAT → CORPUS ← DEEP LORE
 
-Layout:
-- `records.json` — conversation index + metadata
-- `threads/` — one preserved record per conversation
-- `assets/` — conversation-associated assets
-- `derived/` — indexes, relationships, optional summaries
+Raw records are immutable evidence. Deep lore is a first-class, persistent reading of the same material: entities, motifs, places, mechanisms, transformations, relationships, canon, and experiments.
 
-Import contract:
-1. Export ChatGPT data.
-2. Preserve the export unchanged as the source archive.
-3. Parse conversations into stable records.
-4. Copy/reference associated assets without replacing originals.
-5. Generate derived indexes only after raw ingestion.
+Lore can connect material across conversations without rewriting source records. Assets can remain raw attachments while also becoming corpus/lore nodes.
 
-This directory is the archive layer for GEEHUB; it is not a lore layer.
+Rules: preserve text/order/timestamps/provenance; attach assets where known; never silently rewrite raw text; derived relations retain source pointers; canon and experiments remain distinct; unknown provenance is marked, never guessed.
+
+The shared graph lives in `corpus/`. Stable IDs and relations bind archive records to lore without copying them.
+
+Import flow: preserve export → parse records → preserve/reference assets → register corpus nodes → derive lore relations → validate canon/experiment status.

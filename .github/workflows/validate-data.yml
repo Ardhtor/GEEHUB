@@ -26,9 +26,11 @@ jobs:
         with:
           python-version: '3.x'
       - name: Validate Python tools
-        run: python -m py_compile hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py
+        run: python -m py_compile hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py
       - name: Run portable jam regression test
         run: python hub/test-validate-jams.py
+      - name: Run UI registry validator regression test
+        run: python hub/test-validate-ui-registry.py
       - name: Validate constellation registry
         run: python hub/validate-projects.py hub/projects.json
       - name: Validate browser repository links

@@ -35,6 +35,18 @@ The computation can produce any media layer:
 
 These are manifestations of assembly, not separate competing systems.
 
+## Emergent naming
+
+Components have stable internal identities but do not require predetermined world-facing titles.
+
+A character may encounter a component and name it. If that name is subsequently adopted through use, it becomes the component's canonical title.
+
+`component → character encounter → spoken name → adopted name → canonical title`
+
+The naming character and naming context become part of the Prototype's continuity.
+
+When the Seth-naming prototype is active, use a fictionalized bodybuilding-oriented character voice inspired by the requested directness and vocabulary. This does not represent the real Seth Feroce as the author.
+
 ## Media escalation
 
 A Prototype may move through increasingly instantiated forms:
@@ -60,6 +72,8 @@ The assembly must preserve the current Prototype unless an explicit transformati
 A request such as "larger" therefore operates on the current Prototype rather than replacing it with a generic reference.
 
 The resulting Prototype becomes privileged for the following assembly.
+
+Names follow the same continuity rule: an adopted character-given title persists until a later naming event changes it.
 
 ## Computational loop
 
@@ -87,9 +101,14 @@ GEEHUB should preserve:
 - CG state when available
 - timestamp / iteration
 - continuity rules
+- stable component identities
+- naming character
+- provisional and canonical component names
+- naming context and prior-name lineage
 
-The Prototype is therefore the bridge between corpus language and generated media.
+The Prototype is therefore the bridge between corpus language, character language, and generated media.
 
 **The corpus remembers.  
 The Prototype establishes.  
+The character names.  
 Assembly transforms.**

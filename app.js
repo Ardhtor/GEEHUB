@@ -14,6 +14,7 @@ function draw(){
 }
 function enter(id){
   const n=world.regions.find(x=>x.id===id); if(!n)return;
+  if(id==='colossal-escalation') triggerHit();
   seen.add(id); document.querySelectorAll('.node').forEach(x=>x.classList.toggle('visited',seen.has(x.dataset.id)));
   $('#bitTitle').textContent=n.name;
   $('#bitText').textContent=n.description;
@@ -23,6 +24,14 @@ function enter(id){
     const a=document.createElement('a'); a.href=n.path; a.className='enter-link'; a.textContent='enter this place ↗';
     const old=document.querySelector('.enter-link'); if(old)old.remove(); $('.encounter-copy').appendChild(a);
   }
+}
+function triggerHit(){
+  const atlas=$('.atlas');
+  atlas.classList.remove('hit'); void atlas.offsetWidth; atlas.classList.add('hit');
+  $('#bitTitle').textContent='THE HIT';
+  $('#bitText').textContent='The reference stays familiar until the changed scale becomes impossible to miss. Then the world has to admit the new baseline.';
+  $('#trailText').textContent='BASELINE → DISCONTINUITY → HIT → NEW BASELINE';
+  setTimeout(()=>atlas.classList.remove('hit'),900);
 }
 let bitIndex=0;
 function bit(){

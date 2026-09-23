@@ -91,6 +91,16 @@
       "size": 0.98,
       "path": "#",
       "description": "The quiet observer: encounters become connections instead of a narrowing feed."
+    },
+    {
+      "id": "embodied-scale",
+      "name": "EMBODIED SCALE",
+      "kind": "RESEARCH / SENSATION",
+      "x": 64,
+      "y": 38,
+      "size": 1.16,
+      "path": "./research/embodied-scale/README.md",
+      "description": "Body-relative perception, affordances, proximity, architectural response, and remembered scale."
     }
   ],
   "pleasureBits": [
@@ -141,6 +151,36 @@
       "text": "Once a place has adapted to a larger baseline, returning to its old proportions feels visibly wrong.",
       "from": "complex",
       "to": "beefythiq"
+    },
+    {
+      "title": "THE THRESHOLD REMEMBERS",
+      "text": "A familiar doorway becomes a scale witness: the architecture stays still while the body changes its meaning.",
+      "from": "embodied-scale",
+      "to": "complex"
+    },
+    {
+      "title": "THE FLOOR REPLIES",
+      "text": "Magnitude is registered indirectly through movement, material response, sound, and the timing of footsteps.",
+      "from": "embodied-scale",
+      "to": "facility"
+    },
+    {
+      "title": "SCALE HAS HISTORY",
+      "text": "A new baseline does not erase the old one; rooms and routes retain evidence of what they used to fit.",
+      "from": "embodied-scale",
+      "to": "discovery"
+    },
+    {
+      "title": "THE WORLD IS BODY-RELATIVE",
+      "text": "Passage, reach, turning, clearance, and distance are treated as relationships between a body and its environment.",
+      "from": "embodied-scale",
+      "to": "growth"
+    },
+    {
+      "title": "THE WITNESS STAYS",
+      "text": "An unchanged person or object provides continuity while everything around the growing subject is re-scaled.",
+      "from": "embodied-scale",
+      "to": "male-harem"
     }
   ],
   "embodiment": {
@@ -162,6 +202,42 @@
       "architectural adaptation",
       "first-person scale"
     ],
-    "rule": "The body changes the environment; the environment communicates the magnitude back."
+    "rule": "The body changes the environment; the environment communicates the magnitude back.",
+    "research_basis": [
+      "body size can alter perceived environmental scale",
+      "affordances are relational to bodily capacity",
+      "peripersonal space makes proximity a distinct perceptual regime",
+      "active exploration changes architectural experience",
+      "body-environment coupling can be treated as a dynamic state"
+    ],
+    "generation": {
+      "rule": "Every major scale event propagates into at least three relational variables and one persistent memory.",
+      "variables": [
+        "body_width",
+        "body_height",
+        "body_depth",
+        "reach",
+        "turn_radius",
+        "footprint",
+        "clearance",
+        "proximity",
+        "room_occupancy",
+        "distance_compression",
+        "environment_response"
+      ],
+      "sensory_channels": [
+        "visual proportion",
+        "spatial compression",
+        "fabric tension",
+        "footstep timing",
+        "floor vibration",
+        "material creak",
+        "acoustic pressure",
+        "shadow occupation",
+        "airflow displacement",
+        "camera proximity",
+        "architectural adaptation"
+      ]
+    }
   }
 }

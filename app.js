@@ -1,9 +1,13 @@
 let world=null;
 const $=s=>document.querySelector(s);
-const seen=new Set();
+const seen=new Set(readSeen());
+const SEEN_KEY='geehub-world-seen';
+function readSeen(){try{const x=JSON.parse(localStorage.getItem(SEEN_KEY)||'[]');return Array.isArray(x)?x.filter(v=>typeof v==='string'):[];}catch{return[];}}
+function saveSeen(){localStorage.setItem(SEEN_KEY,JSON.stringify([...seen]));}
+function syncVisited(){document.querySelectorAll('.node').forEach(x=>x.classList.toggle('visited',seen.has(x.dataset.id)));$('#visit').textContent=seen.size?seen.size+' PLACE'+(seen.size===1?'':'S')+' VISITED':'FIRST ARRIVAL';}
 async function load(){
   const r=await fetch('./world.json'); if(!r.ok) throw new Error('world unavailable');
-  world=await r.json(); draw(); bit(); 
+  world=await r.json(); draw(); bit(); syncVisited();
 }
 function draw(){
   const nodes=$('#nodes'), svg=$('#links');
@@ -15,11 +19,10 @@ function draw(){
 function enter(id){
   const n=world.regions.find(x=>x.id===id); if(!n)return;
   if(id==='colossal-escalation') triggerHit();
-  seen.add(id); document.querySelectorAll('.node').forEach(x=>x.classList.toggle('visited',seen.has(x.dataset.id)));
+  seen.add(id); saveSeen(); syncVisited();
   $('#bitTitle').textContent=n.name;
   $('#bitText').textContent=n.description;
   $('#trailText').textContent='YOU → '+n.name+' → '+n.kind;
-  $('#visit').textContent=seen.size+' PLACE'+(seen.size===1?'':'S')+' VISITED';
   if(n.path && n.path!=='#'){
     const a=document.createElement('a'); a.href=n.path; a.className='enter-link'; a.textContent='enter this place ↗';
     const old=document.querySelector('.enter-link'); if(old)old.remove(); $('.encounter-copy').appendChild(a);
@@ -37,14 +40,15 @@ let bitIndex=0;
 let siphonIndex=0;
 let siphonArtifacts=[];
 async function loadSiphon(){const r=await fetch('./creative/kirk-siphon.json');if(!r.ok)return;siphonArtifacts=(await r.json()).artifacts||[];}
-function siphon(){if(!siphonArtifacts.length){$('#bitTitle').textContent='SIPHON EMPTY';$('#bitText').textContent='No resonance artifacts available yet.';return;}const x=siphonArtifacts[siphonIndex%siphonArtifacts.length];siphonIndex++;$('#bitTitle').textContent='KIRK RESONANCE // '+x.title;$('#bitText').textContent=x.draft;$('#trailText').textContent='DISCOVERY → FILTER → KIRK RESONANCE → '+x.type.toUpperCase()+' → MEMORY';document.querySelectorAll('.node').forEach(n=>n.classList.toggle('visited',true));}
-
+function siphon(){if(!siphonArtifacts.length){$('#bitTitle').textContent='SIPHON EMPTY';$('#bitText').textContent='No resonance artifacts available yet.';return;}const x=siphonArtifacts[siphonIndex%siphonArtifacts.length];siphonIndex++;$('#bitTitle').textContent='KIRK RESONANCE // '+x.title;$('#bitText').textContent=x.draft;$('#trailText').textContent='DISCOVERY → FILTER → KIRK RESONANCE → '+x.type.toUpperCase()+' → MEMORY';syncVisited();}
+function forgetTrail(){seen.clear();saveSeen();syncVisited();$('#bitTitle').textContent='TRAIL CLEARED';$('#bitText').textContent='The world remains. Your local memory has been cleared.';$('#trailText').textContent='you → arrival';}
 function bit(){
   const b=world.pleasureBits[bitIndex%world.pleasureBits.length];
   $('#bitTitle').textContent=b.title; $('#bitText').textContent=b.text; $('#trailText').textContent=b.from+' → '+b.to;
 }
 $('#nextBit').addEventListener('click',()=>{bitIndex++;bit();});
 $('#siphon').addEventListener('click',siphon);
+$('#forgetTrail').addEventListener('click',forgetTrail);
 $('#center').addEventListener('click',()=>{$('#bitTitle').textContent='YOU ARE IN THE WORLD';$('#bitText').textContent='Nothing has to be finished. The constellation is the thing you live inside.';$('#trailText').textContent='you → world';});
 loadSiphon();
 load().catch(e=>{$('#bitTitle').textContent='WORLD OFFLINE';$('#bitText').textContent=e.message;});

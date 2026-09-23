@@ -1,22 +1,167 @@
 {
-  "title":"GEEHUB // THE LIVING WORLD",
-  "premise":"A place where information habits become terrain, relationships become paths, and discoveries become events.",
-  "regions":[
-    {"id":"bodylounger","name":"BODYLOUNGER","kind":"ARCHIVE","x":18,"y":24,"size":1.05,"path":"./index.html","description":"The old-web trail: sources, creators, dates, provenance, and visual-growth lineage."},
-    {"id":"beefythiq","name":"BEEFYTHIQ","kind":"ENGINE","x":47,"y":17,"size":1.2,"path":"#","description":"Accumulation → stress → mutation → new baseline."},
-    {"id":"male-harem","name":"MALE HAREM","kind":"VISUAL WORLD","x":76,"y":25,"size":1.15,"path":"./archive/male-harem/README.md","description":"Living roster, presence, mass, continuity, and extreme-size visual studies."},
-    {"id":"growth","name":"GROWTH CANVAS","kind":"TRANSFORMATION","x":28,"y":56,"size":1.0,"path":"#","description":"Visual transformation as the primary substrate."},
-    {"id":"complex","name":"THE COMPLEX","kind":"WORLD","x":55,"y":51,"size":1.28,"path":"#","description":"Persistent environment where creations leave traces and cross-pollinate."},
-    {"id":"facility","name":"THE FACILITY","kind":"SETTING","x":80,"y":57,"size":1.0,"path":"#","description":"Clinical-white research architecture, observation, subjects, labs, data."},
-    {"id":"veyrthalis","name":"VEY RTHALIS","kind":"MYTH / WORLD","x":22,"y":82,"size":1.22,"path":"./lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md","description":"Fog, amber woods, Digitorium, Procession, Binding, Temple of Moon."},
-    {"id":"muscle-myth","name":"MUSCLE MYTH","kind":"MYTHOLOGY","x":52,"y":84,"size":1.08,"path":"#","description":"Pantheon, symbols, artifacts, transformation, mass, charisma."},
-    {"id":"discovery","name":"DISCOVERY","kind":"SENSE","x":78,"y":83,"size":0.98,"path":"#","description":"The quiet observer: encounters become connections instead of a narrowing feed."}
+  "title": "GEEHUB // THE LIVING WORLD",
+  "premise": "A place where information habits become terrain, relationships become paths, and discoveries become events.",
+  "regions": [
+    {
+      "id": "bodylounger",
+      "name": "BODYLOUNGER",
+      "kind": "ARCHIVE",
+      "x": 18,
+      "y": 24,
+      "size": 1.05,
+      "path": "./index.html",
+      "description": "The old-web trail: sources, creators, dates, provenance, and visual-growth lineage."
+    },
+    {
+      "id": "beefythiq",
+      "name": "BEEFYTHIQ",
+      "kind": "ENGINE",
+      "x": 47,
+      "y": 17,
+      "size": 1.2,
+      "path": "#",
+      "description": "Accumulation → stress → mutation → new baseline."
+    },
+    {
+      "id": "male-harem",
+      "name": "MALE HAREM",
+      "kind": "VISUAL WORLD",
+      "x": 76,
+      "y": 25,
+      "size": 1.15,
+      "path": "./archive/male-harem/README.md",
+      "description": "Living roster, presence, mass, continuity, and extreme-size visual studies."
+    },
+    {
+      "id": "growth",
+      "name": "GROWTH CANVAS",
+      "kind": "TRANSFORMATION",
+      "x": 28,
+      "y": 56,
+      "size": 1,
+      "path": "#",
+      "description": "Visual transformation as the primary substrate."
+    },
+    {
+      "id": "complex",
+      "name": "THE COMPLEX",
+      "kind": "WORLD",
+      "x": 55,
+      "y": 51,
+      "size": 1.28,
+      "path": "#",
+      "description": "Persistent environment where creations leave traces and cross-pollinate."
+    },
+    {
+      "id": "facility",
+      "name": "THE FACILITY",
+      "kind": "SETTING",
+      "x": 80,
+      "y": 57,
+      "size": 1,
+      "path": "#",
+      "description": "Clinical-white research architecture, observation, subjects, labs, data."
+    },
+    {
+      "id": "veyrthalis",
+      "name": "VEY RTHALIS",
+      "kind": "MYTH / WORLD",
+      "x": 22,
+      "y": 82,
+      "size": 1.22,
+      "path": "./lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+      "description": "Fog, amber woods, Digitorium, Procession, Binding, Temple of Moon."
+    },
+    {
+      "id": "muscle-myth",
+      "name": "MUSCLE MYTH",
+      "kind": "MYTHOLOGY",
+      "x": 52,
+      "y": 84,
+      "size": 1.08,
+      "path": "#",
+      "description": "Pantheon, symbols, artifacts, transformation, mass, charisma."
+    },
+    {
+      "id": "discovery",
+      "name": "DISCOVERY",
+      "kind": "SENSE",
+      "x": 78,
+      "y": 83,
+      "size": 0.98,
+      "path": "#",
+      "description": "The quiet observer: encounters become connections instead of a narrowing feed."
+    }
   ],
-  "pleasureBits":[
-    {"title":"THE DOOR REMEMBERS","text":"A new encounter illuminates an older node that had been waiting for it.","from":"discovery","to":"veyrthalis"},
-    {"title":"MASS BECOMES WEATHER","text":"Accumulation changes the scale of a room until architecture starts responding.","from":"beefythiq","to":"complex"},
-    {"title":"THE ARCHIVE OPENS A ROOM","text":"A visual record stops being a record and becomes a place you can enter.","from":"bodylounger","to":"male-harem"},
-    {"title":"KISS = CONTINUITY","text":"A relationship survives transformation because the new form still remembers the old one.","from":"growth","to":"complex"},
-    {"title":"THE WORLD LEAVES A TRACE","text":"Every visit adds a small piece of history instead of resetting the scene.","from":"complex","to":"discovery"}
-  ]
+  "pleasureBits": [
+    {
+      "title": "THE DOOR REMEMBERS",
+      "text": "A new encounter illuminates an older node that had been waiting for it.",
+      "from": "discovery",
+      "to": "veyrthalis"
+    },
+    {
+      "title": "MASS BECOMES WEATHER",
+      "text": "Accumulation changes the scale of a room until architecture starts responding.",
+      "from": "beefythiq",
+      "to": "complex"
+    },
+    {
+      "title": "THE ARCHIVE OPENS A ROOM",
+      "text": "A visual record stops being a record and becomes a place you can enter.",
+      "from": "bodylounger",
+      "to": "male-harem"
+    },
+    {
+      "title": "KISS = CONTINUITY",
+      "text": "A relationship survives transformation because the new form still remembers the old one.",
+      "from": "growth",
+      "to": "complex"
+    },
+    {
+      "title": "THE WORLD LEAVES A TRACE",
+      "text": "Every visit adds a small piece of history instead of resetting the scene.",
+      "from": "complex",
+      "to": "discovery"
+    },
+    {
+      "title": "THE ROOM GETS SMALLER",
+      "text": "Extreme girth changes perceived distance: passageways narrow, furniture crowds, and the body becomes the scale reference.",
+      "from": "beefythiq",
+      "to": "facility"
+    },
+    {
+      "title": "PRESSURE OF PRESENCE",
+      "text": "A massive form is registered through footsteps, fabric tension, floor response, and the way nearby space seems compressed.",
+      "from": "growth",
+      "to": "complex"
+    },
+    {
+      "title": "SCALE MEMORY",
+      "text": "Once a place has adapted to a larger baseline, returning to its old proportions feels visibly wrong.",
+      "from": "complex",
+      "to": "beefythiq"
+    }
+  ],
+  "embodiment": {
+    "principle": "Make extreme scale perceptible through non-explicit bodily and environmental cues.",
+    "translation": [
+      "girth",
+      "scale",
+      "presence",
+      "proximity",
+      "sensation"
+    ],
+    "cues": [
+      "room occupation",
+      "distance compression",
+      "clothing strain",
+      "movement mass",
+      "floor response",
+      "sound pressure",
+      "architectural adaptation",
+      "first-person scale"
+    ],
+    "rule": "The body changes the environment; the environment communicates the magnitude back."
+  }
 }

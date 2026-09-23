@@ -34,10 +34,17 @@ function triggerHit(){
   setTimeout(()=>atlas.classList.remove('hit'),900);
 }
 let bitIndex=0;
+let siphonIndex=0;
+let siphonArtifacts=[];
+async function loadSiphon(){const r=await fetch('./creative/kirk-siphon.json');if(!r.ok)return;siphonArtifacts=(await r.json()).artifacts||[];}
+function siphon(){if(!siphonArtifacts.length){$('#bitTitle').textContent='SIPHON EMPTY';$('#bitText').textContent='No resonance artifacts available yet.';return;}const x=siphonArtifacts[siphonIndex%siphonArtifacts.length];siphonIndex++;$('#bitTitle').textContent='KIRK RESONANCE // '+x.title;$('#bitText').textContent=x.draft;$('#trailText').textContent='DISCOVERY → FILTER → KIRK RESONANCE → '+x.type.toUpperCase()+' → MEMORY';document.querySelectorAll('.node').forEach(n=>n.classList.toggle('visited',true));}
+
 function bit(){
   const b=world.pleasureBits[bitIndex%world.pleasureBits.length];
   $('#bitTitle').textContent=b.title; $('#bitText').textContent=b.text; $('#trailText').textContent=b.from+' → '+b.to;
 }
 $('#nextBit').addEventListener('click',()=>{bitIndex++;bit();});
+$('#siphon').addEventListener('click',siphon);
 $('#center').addEventListener('click',()=>{$('#bitTitle').textContent='YOU ARE IN THE WORLD';$('#bitText').textContent='Nothing has to be finished. The constellation is the thing you live inside.';$('#trailText').textContent='you → world';});
+loadSiphon();
 load().catch(e=>{$('#bitTitle').textContent='WORLD OFFLINE';$('#bitText').textContent=e.message;});

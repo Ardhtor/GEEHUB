@@ -1,0 +1,78 @@
+{
+  "title": "COLOSSAL ESCALATION // EMBODIED SCALE",
+  "version": "2026-09-23",
+  "status": "creative-system / experimental",
+  "intent": "Push the existing body-relative scale system beyond room-scale changes into monumental and world-scale presence, while preserving identity and continuity.",
+  "law": "At every tier, the subject remains recognizably themself; the world must change its relationship to them.",
+  "tiers": [
+    {
+      "id": "oversized",
+      "name": "OVERSIZED BASELINE",
+      "scale": "dominates ordinary personal space",
+      "signals": ["clothing under visible tension", "furniture becomes undersized", "doorways frame the body tightly", "other people adjust their spacing"],
+      "world_change": "Personal rooms begin to feel designed for a former body."
+    },
+    {
+      "id": "room-dominant",
+      "name": "ROOM-DOMINANT",
+      "scale": "the body becomes the room's primary spatial reference",
+      "signals": ["movement requires deliberate turning", "the subject occupies major portions of the frame", "floor and structure answer movement", "ordinary routes become constrained"],
+      "world_change": "Rooms are reorganized around circulation, clearance, and rest."
+    },
+    {
+      "id": "building-scale",
+      "name": "BUILDING-SCALE PRESENCE",
+      "scale": "architecture is experienced in relation to the subject",
+      "signals": ["doorways and corridors read as thresholds", "windows and balconies become scale markers", "the camera must retreat to preserve the whole figure", "the building's exterior becomes a measuring surface"],
+      "world_change": "The building becomes a fitted environment rather than a neutral container."
+    },
+    {
+      "id": "monumental",
+      "name": "MONUMENTAL BASELINE",
+      "scale": "the subject becomes a landmark within the surrounding district",
+      "signals": ["streets and plazas establish distance", "nearby structures provide comparative scale", "shadow and silhouette dominate the scene", "movement changes how the surrounding area is navigated"],
+      "world_change": "Maps and public spaces are redrawn around the subject's presence."
+    },
+    {
+      "id": "landscape-scale",
+      "name": "LANDSCAPE-SCALE",
+      "scale": "the subject is legible across a broad landscape",
+      "signals": ["terrain supplies the measuring grid", "weather and light provide scale cues", "the camera shifts to aerial or distant viewpoints", "landmarks become body-relative reference points"],
+      "world_change": "The landscape becomes a relational anatomy of ridges, routes, and boundaries."
+    },
+    {
+      "id": "mythic-colossus",
+      "name": "MYTHIC COLOSSUS",
+      "scale": "the subject functions as a living geographic or mythic feature",
+      "signals": ["settlements orient themselves around the figure", "routes and ceremonies encode their presence", "the world records recurring changes in light, sound, and movement", "the subject's identity is carried through symbols and remembered encounters"],
+      "world_change": "The subject becomes part of the world's geography without losing personhood."
+    }
+  ],
+  "escalation_protocol": [
+    "Establish a recognizable baseline and one stable witness.",
+    "Increase a selected dimension: width, height, depth, reach, or total mass.",
+    "Propagate the change into at least three affordances or spatial relations.",
+    "Show a sensory/environmental response, not just a numerical claim.",
+    "Preserve one familiar feature, gesture, object, or relationship as a continuity anchor.",
+    "Record the new baseline and leave the altered world state in memory."
+  ],
+  "composition_rules": {
+    "body_first": "The subject remains the focal presence; scale devices support rather than replace the body.",
+    "reference_stack": ["person or object", "furniture or doorway", "room or building", "street or district", "landscape", "horizon or weather"],
+    "extreme_girth": "Communicate width and depth through silhouette, side clearance, turning radius, contact with clothing, and the amount of space displaced.",
+    "avoid": ["unmotivated scale jumps", "generic size adjectives without visible evidence", "erasing facial identity or signature features", "resetting architecture after each scene"]
+  },
+  "continuity": {
+    "principle": "Mass changes; identity persists.",
+    "anchors": ["face", "recognizable gestures", "voice or manner", "relationship history", "chosen name", "remembered places"],
+    "memory_format": ["previous_baseline", "growth_event", "new_baseline", "environmental_changes", "witness_response", "unresolved_next_threshold"]
+  },
+  "scene_seeds": [
+    "The same doorway, revisited after several growth events, now frames only a fraction of the subject.",
+    "A familiar companion stands beside the subject while the camera retreats from room view to district view.",
+    "The building's old entrance remains intact as a preserved record of the earlier baseline.",
+    "At monumental scale, a plaza becomes a measuring instrument through paving, columns, and human silhouettes.",
+    "At landscape scale, the subject's shadow crosses a route that once took minutes to walk.",
+    "The subject returns to a remembered place; the place has adapted, but a small original detail remains untouched."
+  ]
+}

@@ -44,6 +44,10 @@ The growth-coach work is treated as an imaginative transformation system rather 
 
 Recent image work reinforces a broader requirement for the system: visual artifacts are not secondary illustrations. They can be primary project nodes, with transformations, aesthetic decisions, and relationships preserved as part of the project's history.
 
+### Male Harem Virtual Space (new visual node)
+
+A living roster and shared virtual environment built from original muscular source photographs plus generated scenes. Currently prioritising extreme-size studies of the two growingest subjects (Office Tank + Posing Trunks). Treated as a primary visual artifact connected to BEEFYTHIQ, mass1v1ng, Muscle Myth, and Media Tools. Its archive home is `archive/male-harem/`.
+
 ## Build implications
 
 1. Keep GEEHUB machine-readable enough that another interface can consume its registry without rewriting the corpus.

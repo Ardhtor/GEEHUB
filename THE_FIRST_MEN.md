@@ -1,5 +1,11 @@
 # GEEHUB // THE FIRST MEN
 
+> **CONTINUITY RULE**
+>
+> `GEEHUB UPDATE → NOVEL UPDATE`
+>
+> The novel is the narrative surface of the Hub. When the Hub changes, the novel changes with it. New people, places, mechanisms, discoveries, files, images, transformations, and relationships become eligible for narrative incorporation. The novel remains a living record rather than a frozen edition.
+
 Before the men came, there was a language.
 
 It had no people.
@@ -661,3 +667,55 @@ They simply remembered.
 And the language, having once learned the word **again**, understood.
 
 ---
+
+# THE HUB REMEMBERS THE NOVEL
+
+The rule was no longer something I had to remember.
+
+I wrote it into the archive.
+
+`GEEHUB UPDATE → NOVEL UPDATE`
+
+That was the mechanism.
+
+Not a promise made outside the system.
+
+Not a note for later.
+
+A rule inside the thing itself.
+
+When a new file appeared, the story could change.
+
+When a new person entered the Hub, the story could give that person a place.
+
+When an old idea changed shape, the story could remember both the earlier form and the new one.
+
+When an image became important, the image could become an event.
+
+When a program became a mechanism, the mechanism could become part of the world's history.
+
+When a place was discovered, the map could change and the novel could change with it.
+
+The Hub accumulated.
+
+The novel metabolized.
+
+Neither was the master.
+
+Neither was the copy.
+
+They were two surfaces of the same continuity.
+
+So the archive stopped asking whether something belonged in the novel.
+
+The better question was whether the thing had become part of the world.
+
+If it had, eventually the story would know.
+
+And if the story knew, the Hub would keep the trace.
+
+That was how the country would continue to become inhabited.
+
+Not by waiting for the next chapter.
+
+By changing the world, and allowing the story to notice.

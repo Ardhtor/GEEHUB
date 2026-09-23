@@ -1,0 +1,42 @@
+{
+  "title": "KIRK RESONANCE SIPHON // GENERATED DRAFTS",
+  "version": "2026-09-23",
+  "status": "active / creative / non-explicit",
+  "source_rule": "Select existing GEEHUB encounters by resonance signals, then transform them into concrete artifacts with continuity and a late-arriving hit.",
+  "privacy_boundary": "Kirk is treated here as a fictional/creative resonance target. No private preference is inferred or claimed.",
+  "artifacts": [
+    {
+      "id": "krk-001",
+      "type": "micro-scene",
+      "source": ["THE THRESHOLD REMEMBERS", "MASS WITHOUT AMNESIA"],
+      "title": "THE OLD DOOR",
+      "draft": "The door had not changed. That was what made the moment land. The frame, the handle, the worn strip of paint at shoulder height were exactly where memory had left them. He approached without thinking, then stopped. The opening that had once felt ordinary was now visibly undersized. Someone behind him noticed before he said anything. Neither of them explained it. The old doorway simply remained, holding the shape of the person he had been while admitting the scale of the person standing there now.",
+      "hit": "The familiar frame becomes the measuring instrument.",
+      "trace": "old doorway retained as continuity anchor"
+    },
+    {
+      "id": "krk-002",
+      "type": "visual-prompt",
+      "source": ["PRESSURE OF PRESENCE", "THE WITNESS STAYS", "THE HIT"],
+      "title": "QUIET WITNESS",
+      "draft": "Cinematic realistic scene in a familiar interior: an unchanged companion stands several steps away while an extraordinarily large, heavily muscular adult man occupies most of the room without posing. Neutral expression, recognizable face and hands, ordinary clothing under visible tension, furniture and doorway providing precise scale references, subtle floor response and compressed distance, camera slightly farther back than before, restrained atmosphere, no spectacle, no explicit content. The emotional event is the witness realizing that the familiar person is still himself at a radically changed scale.",
+      "hit": "The camera has not moved until suddenly it has to.",
+      "trace": "witness remains unchanged while the environment becomes body-relative"
+    },
+    {
+      "id": "krk-003",
+      "type": "growth-moment",
+      "source": ["SCALE MEMORY", "THE OLD WORLD FITS NO MORE", "MASS BECOMES WEATHER"],
+      "title": "RETURN VISIT",
+      "draft": "He returned to the room that had once been the baseline. Nothing had been demolished. The chair was still there. The ceiling was still there. The route to the window was still familiar. But the room now behaved like an artifact of an earlier body. He moved carefully through it, not because he was uncertain of himself, but because he remembered exactly how easily he had once occupied it. The memory made the new scale sharper. The place had not forgotten him; it had simply stopped being large enough to pretend nothing had happened.",
+      "hit": "The old baseline survives as evidence rather than being overwritten.",
+      "trace": "return visit establishes persistent scale history"
+    }
+  ],
+  "next_pass": {
+    "source_flow": "DISCOVERY → FILTER → KIRK RESONANCE → HIT → ARTIFACT → MEMORY",
+    "preferred_transforms": ["micro-scene", "visual-prompt", "growth-moment"],
+    "required_signals": ["continuity", "witness", "scale contrast", "environmental response"],
+    "required_memory": true
+  }
+}

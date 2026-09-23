@@ -2,45 +2,304 @@
   "title": "GEEHUB // THE LIVING WORLD",
   "premise": "A place where information habits become terrain, relationships become paths, and discoveries become events.",
   "regions": [
-    {"id":"bodylounger","name":"BODYLOUNGER","kind":"ARCHIVE","x":18,"y":24,"size":1.05,"path":"./index.html","description":"The old-web trail: sources, creators, dates, provenance, and visual-growth lineage."},
-    {"id":"beefythiq","name":"BEEFYTHIQ","kind":"ENGINE","x":47,"y":17,"size":1.2,"path":"#","description":"Accumulation → stress → mutation → new baseline."},
-    {"id":"male-harem","name":"MALE HAREM","kind":"VISUAL WORLD","x":76,"y":25,"size":1.15,"path":"./archive/male-harem/README.md","description":"Living roster, presence, mass, continuity, and extreme-size visual studies."},
-    {"id":"growth","name":"GROWTH CANVAS","kind":"TRANSFORMATION","x":28,"y":56,"size":1,"path":"#","description":"Visual transformation as the primary substrate."},
-    {"id":"complex","name":"THE COMPLEX","kind":"WORLD","x":55,"y":51,"size":1.28,"path":"#","description":"Persistent environment where creations leave traces and cross-pollinate."},
-    {"id":"facility","name":"THE FACILITY","kind":"SETTING","x":80,"y":57,"size":1,"path":"#","description":"Clinical-white research architecture, observation, subjects, labs, data."},
-    {"id":"veyrthalis","name":"VEY RTHALIS","kind":"MYTH / WORLD","x":22,"y":82,"size":1.22,"path":"./lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md","description":"Fog, amber woods, Digitorium, Procession, Binding, Temple of Moon."},
-    {"id":"muscle-myth","name":"MUSCLE MYTH","kind":"MYTHOLOGY","x":52,"y":84,"size":1.08,"path":"#","description":"Pantheon, symbols, artifacts, transformation, mass, charisma."},
-    {"id":"discovery","name":"DISCOVERY","kind":"SENSE","x":78,"y":83,"size":0.98,"path":"#","description":"The quiet observer: encounters become connections instead of a narrowing feed."},
-    {"id":"embodied-scale","name":"EMBODIED SCALE","kind":"RESEARCH / SENSATION","x":64,"y":38,"size":1.16,"path":"./research/embodied-scale/README.md","description":"Body-relative perception, affordances, proximity, architectural response, and remembered scale."},
-    {"id":"colossal-escalation","name":"COLOSSAL ESCALATION","kind":"SCALE LADDER","x":48,"y":37,"size":1.42,"path":"./research/embodied-scale/colossal-escalation.json","description":"Oversized → room-dominant → building-scale → monumental → landscape-scale → mythic colossus. Identity persists as the world rescales."}
+    {
+      "id": "bodylounger",
+      "name": "BODYLOUNGER",
+      "kind": "ARCHIVE",
+      "x": 18,
+      "y": 24,
+      "size": 1.05,
+      "path": "./index.html",
+      "description": "The old-web trail: sources, creators, dates, provenance, and visual-growth lineage."
+    },
+    {
+      "id": "beefythiq",
+      "name": "BEEFYTHIQ",
+      "kind": "ENGINE",
+      "x": 47,
+      "y": 17,
+      "size": 1.2,
+      "path": "#",
+      "description": "Accumulation → stress → mutation → new baseline."
+    },
+    {
+      "id": "male-harem",
+      "name": "MALE HAREM",
+      "kind": "VISUAL WORLD",
+      "x": 76,
+      "y": 25,
+      "size": 1.15,
+      "path": "./archive/male-harem/README.md",
+      "description": "Living roster, presence, mass, continuity, and extreme-size visual studies."
+    },
+    {
+      "id": "growth",
+      "name": "GROWTH CANVAS",
+      "kind": "TRANSFORMATION",
+      "x": 28,
+      "y": 56,
+      "size": 1,
+      "path": "#",
+      "description": "Visual transformation as the primary substrate."
+    },
+    {
+      "id": "complex",
+      "name": "THE COMPLEX",
+      "kind": "WORLD",
+      "x": 55,
+      "y": 51,
+      "size": 1.28,
+      "path": "#",
+      "description": "Persistent environment where creations leave traces and cross-pollinate."
+    },
+    {
+      "id": "facility",
+      "name": "THE FACILITY",
+      "kind": "SETTING",
+      "x": 80,
+      "y": 57,
+      "size": 1,
+      "path": "#",
+      "description": "Clinical-white research architecture, observation, subjects, labs, data."
+    },
+    {
+      "id": "veyrthalis",
+      "name": "VEY RTHALIS",
+      "kind": "MYTH / WORLD",
+      "x": 22,
+      "y": 82,
+      "size": 1.22,
+      "path": "./lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+      "description": "Fog, amber woods, Digitorium, Procession, Binding, Temple of Moon."
+    },
+    {
+      "id": "muscle-myth",
+      "name": "MUSCLE MYTH",
+      "kind": "MYTHOLOGY",
+      "x": 52,
+      "y": 84,
+      "size": 1.08,
+      "path": "#",
+      "description": "Pantheon, symbols, artifacts, transformation, mass, charisma."
+    },
+    {
+      "id": "discovery",
+      "name": "DISCOVERY",
+      "kind": "SENSE",
+      "x": 78,
+      "y": 83,
+      "size": 0.98,
+      "path": "#",
+      "description": "The quiet observer: encounters become connections instead of a narrowing feed."
+    },
+    {
+      "id": "embodied-scale",
+      "name": "EMBODIED SCALE",
+      "kind": "RESEARCH / SENSATION",
+      "x": 64,
+      "y": 38,
+      "size": 1.16,
+      "path": "./research/embodied-scale/README.md",
+      "description": "Body-relative perception, affordances, proximity, architectural response, and remembered scale."
+    },
+    {
+      "id": "colossal-escalation",
+      "name": "COLOSSAL ESCALATION",
+      "kind": "SCALE LADDER",
+      "x": 48,
+      "y": 37,
+      "size": 1.42,
+      "path": "./research/embodied-scale/colossal-escalation.json",
+      "description": "Oversized → room-dominant → building-scale → monumental → landscape-scale → mythic colossus. Identity persists as the world rescales."
+    }
   ],
   "pleasureBits": [
-    {"title":"THE DOOR REMEMBERS","text":"A new encounter illuminates an older node that had been waiting for it.","from":"discovery","to":"veyrthalis"},
-    {"title":"MASS BECOMES WEATHER","text":"Accumulation changes the scale of a room until architecture starts responding.","from":"beefythiq","to":"complex"},
-    {"title":"THE ARCHIVE OPENS A ROOM","text":"A visual record stops being a record and becomes a place you can enter.","from":"bodylounger","to":"male-harem"},
-    {"title":"KISS = CONTINUITY","text":"A relationship survives transformation because the new form still remembers the old one.","from":"growth","to":"complex"},
-    {"title":"THE WORLD LEAVES A TRACE","text":"Every visit adds a small piece of history instead of resetting the scene.","from":"complex","to":"discovery"},
-    {"title":"THE ROOM GETS SMALLER","text":"Extreme girth changes perceived distance: passageways narrow, furniture crowds, and the body becomes the scale reference.","from":"beefythiq","to":"facility"},
-    {"title":"PRESSURE OF PRESENCE","text":"A massive form is registered through footsteps, fabric tension, floor response, and the way nearby space seems compressed.","from":"growth","to":"complex"},
-    {"title":"SCALE MEMORY","text":"Once a place has adapted to a larger baseline, returning to its old proportions feels visibly wrong.","from":"complex","to":"beefythiq"},
-    {"title":"THE THRESHOLD REMEMBERS","text":"A familiar doorway becomes a scale witness: the architecture stays still while the body changes its meaning.","from":"embodied-scale","to":"complex"},
-    {"title":"THE FLOOR REPLIES","text":"Magnitude is registered indirectly through movement, material response, sound, and the timing of footsteps.","from":"embodied-scale","to":"facility"},
-    {"title":"SCALE HAS HISTORY","text":"A new baseline does not erase the old one; rooms and routes retain evidence of what they used to fit.","from":"embodied-scale","to":"discovery"},
-    {"title":"THE WORLD IS BODY-RELATIVE","text":"Passage, reach, turning, clearance, and distance are treated as relationships between a body and its environment.","from":"embodied-scale","to":"growth"},
-    {"title":"THE WITNESS STAYS","text":"An unchanged person or object provides continuity while everything around the growing subject is re-scaled.","from":"embodied-scale","to":"male-harem"},
-    {"title":"THE HORIZON MOVES","text":"A new threshold makes the camera retreat: room, building, district, then landscape become the measuring frame.","from":"colossal-escalation","to":"complex"},
-    {"title":"THE CITY LEARNS HIS NAME","text":"At monumental scale, routes and public spaces reorganize around a recognizable person without turning him into an anonymous landmark.","from":"colossal-escalation","to":"muscle-myth"},
-    {"title":"THE OLD WORLD FITS NO MORE","text":"A preserved doorway or room records the previous baseline, making the next increase feel cumulative rather than reset.","from":"colossal-escalation","to":"embodied-scale"},
-    {"title":"MASS WITHOUT AMNESIA","text":"The scale becomes extraordinary; the face, gestures, chosen name, and bonds remain continuous.","from":"colossal-escalation","to":"male-harem"}
+    {
+      "title": "THE DOOR REMEMBERS",
+      "text": "A new encounter illuminates an older node that had been waiting for it.",
+      "from": "discovery",
+      "to": "veyrthalis"
+    },
+    {
+      "title": "MASS BECOMES WEATHER",
+      "text": "Accumulation changes the scale of a room until architecture starts responding.",
+      "from": "beefythiq",
+      "to": "complex"
+    },
+    {
+      "title": "THE ARCHIVE OPENS A ROOM",
+      "text": "A visual record stops being a record and becomes a place you can enter.",
+      "from": "bodylounger",
+      "to": "male-harem"
+    },
+    {
+      "title": "KISS = CONTINUITY",
+      "text": "A relationship survives transformation because the new form still remembers the old one.",
+      "from": "growth",
+      "to": "complex"
+    },
+    {
+      "title": "THE WORLD LEAVES A TRACE",
+      "text": "Every visit adds a small piece of history instead of resetting the scene.",
+      "from": "complex",
+      "to": "discovery"
+    },
+    {
+      "title": "THE ROOM GETS SMALLER",
+      "text": "Extreme girth changes perceived distance: passageways narrow, furniture crowds, and the body becomes the scale reference.",
+      "from": "beefythiq",
+      "to": "facility"
+    },
+    {
+      "title": "PRESSURE OF PRESENCE",
+      "text": "A massive form is registered through footsteps, fabric tension, floor response, and the way nearby space seems compressed.",
+      "from": "growth",
+      "to": "complex"
+    },
+    {
+      "title": "SCALE MEMORY",
+      "text": "Once a place has adapted to a larger baseline, returning to its old proportions feels visibly wrong.",
+      "from": "complex",
+      "to": "beefythiq"
+    },
+    {
+      "title": "THE THRESHOLD REMEMBERS",
+      "text": "A familiar doorway becomes a scale witness: the architecture stays still while the body changes its meaning.",
+      "from": "embodied-scale",
+      "to": "complex"
+    },
+    {
+      "title": "THE FLOOR REPLIES",
+      "text": "Magnitude is registered indirectly through movement, material response, sound, and the timing of footsteps.",
+      "from": "embodied-scale",
+      "to": "facility"
+    },
+    {
+      "title": "SCALE HAS HISTORY",
+      "text": "A new baseline does not erase the old one; rooms and routes retain evidence of what they used to fit.",
+      "from": "embodied-scale",
+      "to": "discovery"
+    },
+    {
+      "title": "THE WORLD IS BODY-RELATIVE",
+      "text": "Passage, reach, turning, clearance, and distance are treated as relationships between a body and its environment.",
+      "from": "embodied-scale",
+      "to": "growth"
+    },
+    {
+      "title": "THE WITNESS STAYS",
+      "text": "An unchanged person or object provides continuity while everything around the growing subject is re-scaled.",
+      "from": "embodied-scale",
+      "to": "male-harem"
+    },
+    {
+      "title": "THE HORIZON MOVES",
+      "text": "A new threshold makes the camera retreat: room, building, district, then landscape become the measuring frame.",
+      "from": "colossal-escalation",
+      "to": "complex"
+    },
+    {
+      "title": "THE CITY LEARNS HIS NAME",
+      "text": "At monumental scale, routes and public spaces reorganize around a recognizable person without turning him into an anonymous landmark.",
+      "from": "colossal-escalation",
+      "to": "muscle-myth"
+    },
+    {
+      "title": "THE OLD WORLD FITS NO MORE",
+      "text": "A preserved doorway or room records the previous baseline, making the next increase feel cumulative rather than reset.",
+      "from": "colossal-escalation",
+      "to": "embodied-scale"
+    },
+    {
+      "title": "MASS WITHOUT AMNESIA",
+      "text": "The scale becomes extraordinary; the face, gestures, chosen name, and bonds remain continuous.",
+      "from": "colossal-escalation",
+      "to": "male-harem"
+    }
   ],
   "embodiment": {
-    "principle":"Make extreme scale perceptible through non-explicit bodily and environmental cues.",
-    "translation":["girth","scale","presence","proximity","sensation"],
-    "cues":["room occupation","distance compression","clothing strain","movement mass","floor response","sound pressure","architectural adaptation","first-person scale"],
-    "rule":"The body changes the environment; the environment communicates the magnitude back.",
-    "research_basis":["body size can alter perceived environmental scale","affordances are relational to bodily capacity","peripersonal space makes proximity a distinct perceptual regime","active exploration changes architectural experience","body-environment coupling can be treated as a dynamic state"],
-    "generation":{"rule":"Every major scale event propagates into at least three relational variables and one persistent memory.","variables":["body_width","body_height","body_depth","reach","turn_radius","footprint","clearance","proximity","room_occupancy","distance_compression","environment_response"],"sensory_channels":["visual proportion","spatial compression","fabric tension","footstep timing","floor vibration","material creak","acoustic pressure","shadow occupation","airflow displacement","camera proximity","architectural adaptation"]},
-    "escalation_file":"./research/embodied-scale/colossal-escalation.json",
-    "escalation_rule":"Each tier increases the scale of the measuring environment while retaining recognizable identity, relational anchors, and persistent memory."
+    "principle": "Make extreme scale perceptible through non-explicit bodily and environmental cues.",
+    "translation": [
+      "girth",
+      "scale",
+      "presence",
+      "proximity",
+      "sensation"
+    ],
+    "cues": [
+      "room occupation",
+      "distance compression",
+      "clothing strain",
+      "movement mass",
+      "floor response",
+      "sound pressure",
+      "architectural adaptation",
+      "first-person scale"
+    ],
+    "rule": "The body changes the environment; the environment communicates the magnitude back.",
+    "research_basis": [
+      "body size can alter perceived environmental scale",
+      "affordances are relational to bodily capacity",
+      "peripersonal space makes proximity a distinct perceptual regime",
+      "active exploration changes architectural experience",
+      "body-environment coupling can be treated as a dynamic state"
+    ],
+    "generation": {
+      "rule": "Every major scale event propagates into at least three relational variables and one persistent memory.",
+      "variables": [
+        "body_width",
+        "body_height",
+        "body_depth",
+        "reach",
+        "turn_radius",
+        "footprint",
+        "clearance",
+        "proximity",
+        "room_occupancy",
+        "distance_compression",
+        "environment_response"
+      ],
+      "sensory_channels": [
+        "visual proportion",
+        "spatial compression",
+        "fabric tension",
+        "footstep timing",
+        "floor vibration",
+        "material creak",
+        "acoustic pressure",
+        "shadow occupation",
+        "airflow displacement",
+        "camera proximity",
+        "architectural adaptation"
+      ]
+    },
+    "escalation_file": "./research/embodied-scale/colossal-escalation.json",
+    "escalation_rule": "Each tier increases the scale of the measuring environment while retaining recognizable identity, relational anchors, and persistent memory."
+  },
+  "hit": {
+    "name": "THE HIT",
+    "sequence": [
+      "BASELINE",
+      "ACCUMULATION",
+      "NORMALCY",
+      "DISCONTINUITY",
+      "HIT",
+      "NEW BASELINE"
+    ],
+    "principle": "Do not announce magnitude. Let a familiar relationship suddenly reveal that the scale has changed.",
+    "trigger": "A stable reference remains familiar while the subject crosses a threshold that makes the old scale impossible to ignore.",
+    "signals": [
+      "doorway clearance",
+      "frame occupation",
+      "distance collapse",
+      "furniture mismatch",
+      "floor response",
+      "camera retreat",
+      "shadow reach",
+      "witness recognition"
+    ],
+    "rule": "The HIT is contrast, not spectacle: preserve the ordinary reference, delay explanation, then reveal the changed relationship in one unmistakable moment.",
+    "continuity": "After the hit, the world does not reset. The revealed scale becomes the new baseline and the old reference remains as evidence.",
+    "generation": "Every major escalation should contain at least one quiet pre-hit state, one discontinuity, one unmistakable hit, and one persistent post-hit change."
   }
 }

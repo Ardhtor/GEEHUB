@@ -1,0 +1,91 @@
+{
+  "title": "Embodied Scale Pleasure Bits",
+  "version": "2026-09-23",
+  "principle": "Make magnitude legible through changing relationships between body, space, action, and environmental response.",
+  "bits": [
+    {
+      "id": "threshold-test",
+      "name": "THRESHOLD TEST",
+      "trigger": "body baseline changes",
+      "response": "a familiar doorway becomes a recurring measure of scale",
+      "memory": "the doorway preserves every previous baseline"
+    },
+    {
+      "id": "furniture-drift",
+      "name": "FURNITURE DRIFT",
+      "trigger": "room occupancy increases",
+      "response": "furniture is progressively repositioned or replaced",
+      "memory": "the old arrangement remains documented"
+    },
+    {
+      "id": "floor-reply",
+      "name": "FLOOR REPLY",
+      "trigger": "movement mass increases",
+      "response": "materials communicate load through sound, vibration, or visible response",
+      "memory": "the building develops a reputation for particular footsteps"
+    },
+    {
+      "id": "camera-compression",
+      "name": "CAMERA COMPRESSION",
+      "trigger": "proximity decreases",
+      "response": "the visual field becomes increasingly body-dominated",
+      "memory": "older views remain available as scale snapshots"
+    },
+    {
+      "id": "old-baseline-room",
+      "name": "OLD BASELINE ROOM",
+      "trigger": "return to an unchanged space",
+      "response": "the room reveals the magnitude of the body's change",
+      "memory": "the room becomes an artifact of the former state"
+    },
+    {
+      "id": "adaptive-architecture",
+      "name": "ADAPTIVE ARCHITECTURE",
+      "trigger": "new baseline stabilizes",
+      "response": "the environment quietly changes its clearances and circulation",
+      "memory": "adaptation becomes part of world canon"
+    },
+    {
+      "id": "scale-witness",
+      "name": "SCALE WITNESS",
+      "trigger": "extreme change",
+      "response": "an unchanged person or object supplies a stable reference",
+      "memory": "the witness anchors continuity"
+    },
+    {
+      "id": "return-visit",
+      "name": "RETURN VISIT",
+      "trigger": "re-entering an existing node",
+      "response": "previous environmental changes become visible",
+      "memory": "the world records visits as cumulative state"
+    },
+    {
+      "id": "shadow-measure",
+      "name": "SHADOW MEASURE",
+      "trigger": "body occupies more visual space",
+      "response": "light and shadow communicate proportion",
+      "memory": "lighting conditions become part of the scale record"
+    },
+    {
+      "id": "distance-collapse",
+      "name": "DISTANCE COLLAPSE",
+      "trigger": "body becomes dominant scale reference",
+      "response": "familiar intervals feel spatially compressed",
+      "memory": "navigation history records the changed route"
+    }
+  ],
+  "generation_rule": "Every major scale event should propagate into at least three relational variables and one persistent memory.",
+  "relational_variables": [
+    "body_width",
+    "body_height",
+    "body_depth",
+    "reach",
+    "turn_radius",
+    "footprint",
+    "clearance",
+    "proximity",
+    "room_occupancy",
+    "distance_compression",
+    "environment_response"
+  ]
+}

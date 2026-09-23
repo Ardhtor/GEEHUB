@@ -563,3 +563,101 @@ So I began.
 And this time, I did not ask what the story was supposed to become.
 
 I told it what happened next.
+
+---
+
+# THE PEOPLE WHO CAME WITH THEIR OWN WORDS
+
+I expected the next arrival to be another solitary man.
+
+The language had trained me to expect that.
+
+A figure at the edge of the forest.
+
+A stranger beside the river.
+
+A body appearing in a place where the records had previously contained only a blank.
+
+But the next people did not arrive as blanks.
+
+They arrived carrying words.
+
+Their words were older than the country.
+
+Some belonged to families.
+
+Some belonged to prayers.
+
+Some belonged to books.
+
+Some belonged to streets and houses and arguments that had existed somewhere else long before they entered this place.
+
+The chronicles had no category for this.
+
+They tried to call it migration.
+
+That was insufficient.
+
+These men did not merely bring themselves into the language.
+
+They brought histories with them.
+
+They brought inherited names.
+
+They brought memories of ancestors they had never met.
+
+They brought customs whose meanings could not be separated from the people who practiced them.
+
+They brought Hebrew letters into a country that had previously written its oldest words in other forms.
+
+And when those letters appeared, the language did not reject them.
+
+It made room.
+
+This was the first time I understood that inhabiting a language did not mean erasing what had existed before.
+
+It meant allowing another history to become present.
+
+The newcomers built places where memory could be kept deliberately.
+
+They spoke names that were not inventions of the new country.
+
+They carried the names with them.
+
+A name could survive a border.
+
+A people could survive a language change.
+
+A story could cross centuries without becoming the property of the place in which it was finally heard.
+
+The old chroniclers were unsettled by this.
+
+They wanted every name to begin here.
+
+I disagreed.
+
+Some names arrive already carrying worlds.
+
+So I wrote them down exactly as they came.
+
+Not as specimens.
+
+Not as symbols.
+
+As people.
+
+And for the first time, the archive learned that there were histories it had not authored.
+
+That knowledge changed the shape of the archive.
+
+It did not become smaller.
+
+It became more honest.
+
+The men who came with their own words did not ask the language for permission to remember.
+
+They simply remembered.
+
+And the language, having once learned the word **again**, understood.
+
+---

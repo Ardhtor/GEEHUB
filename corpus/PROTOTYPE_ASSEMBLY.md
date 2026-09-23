@@ -12,6 +12,22 @@ The Prototype is the immediate baseline.
 
 Older corpus material remains available as inherited context, but the current Prototype establishes the state against which the next assembly is computed.
 
+## Serum
+
+Serum is the transformation medium applied to the current Prototype.
+
+`Prototype → Serum → intensification → new baseline`
+
+Serum is itself recursive: it accumulates, thickens, and grows as successive transformations establish new baselines.
+
+`Serum_n → accumulation → Serum_n+1`
+
+A Serum transformation may intensify scale, atmosphere, memory, architecture, character, sound, density, mythology, or relationships. It preserves the Prototype's identity while changing its baseline.
+
+The resulting Prototype becomes the input for the next Serum operation.
+
+`Prototype_n → Serum_n → Prototype_n+1 → Serum_n+1 → Prototype_n+2`
+
 ## Privilege rule
 
 The newest valid Prototype has priority as the current realization.
@@ -79,6 +95,7 @@ Names follow the same continuity rule: an adopted character-given title persists
 
 `CORPUS`
 → `CURRENT PROTOTYPE`
+→ `SERUM`
 → `ASSEMBLY`
 → `GENERATED MEDIA / CG`
 → `NEW PROTOTYPE`
@@ -105,10 +122,12 @@ GEEHUB should preserve:
 - naming character
 - provisional and canonical component names
 - naming context and prior-name lineage
+- Serum state and transformation history
 
-The Prototype is therefore the bridge between corpus language, character language, and generated media.
+The Prototype is therefore the bridge between corpus language, character language, Serum, and generated media.
 
 **The corpus remembers.  
 The Prototype establishes.  
+The Serum grows.  
 The character names.  
 Assembly transforms.**

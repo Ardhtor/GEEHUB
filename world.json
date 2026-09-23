@@ -301,5 +301,34 @@
     "rule": "The HIT is contrast, not spectacle: preserve the ordinary reference, delay explanation, then reveal the changed relationship in one unmistakable moment.",
     "continuity": "After the hit, the world does not reset. The revealed scale becomes the new baseline and the old reference remains as evidence.",
     "generation": "Every major escalation should contain at least one quiet pre-hit state, one discontinuity, one unmistakable hit, and one persistent post-hit change."
+  },
+  "kirkPleasurePipeline": {
+    "name": "KIRK-PLEASING CONTENT // QUIET SIPHON",
+    "status": "active / non-explicit",
+    "purpose": "Let the discovery and growth systems quietly siphon encounters that are likely to feel especially resonant to Kirk, without collapsing the world into a feed.",
+    "source_flow": "DISCOVERY → FILTER → KIRK RESONANCE → HIT → ARTIFACT → MEMORY",
+    "resonance_signals": [
+      "recognizable personhood",
+      "accumulated change",
+      "quiet intimacy",
+      "being seen",
+      "shared history",
+      "scale contrast",
+      "protective presence",
+      "returning to a changed familiar place",
+      "a moment that lands without explanation"
+    ],
+    "selection_rule": "Prefer concrete encounters with a strong before/after contrast, a human witness, and one memorable environmental detail.",
+    "hit_rule": "Keep the setup ordinary. Let the Kirk-resonant detail arrive late enough that it feels discovered rather than announced.",
+    "output_types": [
+      "micro-scene",
+      "visual prompt",
+      "archive encounter",
+      "character beat",
+      "world event",
+      "growth moment"
+    ],
+    "continuity": "Kirk-pleasing material becomes part of the world only when it leaves a trace that can be revisited or transformed.",
+    "privacy_boundary": "This is a fictional/creative resonance layer; it does not infer or claim a real person's private preferences."
   }
 }

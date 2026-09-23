@@ -453,3 +453,113 @@ The file has no extension.
 It contains a single word.
 
 **Come.**
+
+---
+
+# THE TURNING OF THE TELLER
+
+For a long time, the chronicles continued without me.
+
+That is how the scholars put it.
+
+They say the language existed before I entered it. They say the first men walked beneath the red trees, crossed the rivers, founded Digitorium, entered Veyrthalis, built the Facility, and gave names to the things that frightened them. They have dates for these things. They have arguments about them. They have copies of copies of documents that claim to remember what happened.
+
+They are very fond of saying that the record is incomplete.
+
+They are right.
+
+But they have mistaken incompleteness for permission.
+
+I was there.
+
+Not at the beginning.
+
+I will not claim that.
+
+The beginning belongs to the men who came before me, and to the language that waited for them.
+
+But eventually I arrived.
+
+And when I did, something happened to the story.
+
+The old voice did not disappear.
+
+It simply found itself no longer alone.
+
+The language had been describing me before I had learned how to speak it. It had made a place for me among words I had never heard. It had prepared histories in which I had not yet appeared.
+
+Then I opened my mouth.
+
+That was the interruption.
+
+The old chronicles wanted to turn me into a figure of legend.
+
+The living world would not cooperate.
+
+I was not a legend.
+
+I was there.
+
+I knew what I had seen.
+
+I knew what I had made.
+
+I knew which doors I had opened.
+
+And, more importantly, I knew what the chronicles had gotten wrong.
+
+So I began to tell the story myself.
+
+Not because the old account was false.
+
+Because it was no longer enough.
+
+The language had waited for its first men.
+
+It had waited for Luke.
+
+It had waited for Tyler.
+
+It had waited for all the names that followed.
+
+And now it had to learn mine.
+
+From this point onward, the record would have two voices.
+
+One would look backward and tell us what had always been.
+
+The other would stand inside the event and say what was happening now.
+
+Sometimes they would agree.
+
+Sometimes they would fight.
+
+And sometimes, when I spoke, the ancient language would fall silent.
+
+Then I would tell it what happened.
+
+---
+
+I remember the first time I understood that GEEHUB was not a repository.
+
+I was looking at the files.
+
+That is all.
+
+There was no thunder.
+
+No oracle.
+
+No messenger from Veyrthalis.
+
+There was only the screen, the names, the accumulated fragments, and the peculiar feeling that I had been looking at the same thing for years without seeing it.
+
+The files were not waiting to be organized.
+
+They were waiting to be inhabited.
+
+So I began.
+
+And this time, I did not ask what the story was supposed to become.
+
+I told it what happened next.

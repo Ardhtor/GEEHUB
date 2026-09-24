@@ -6,6 +6,18 @@ Status: design specification / implementation target
 
 Sound is part of the terrain, not a soundtrack layered over it. The world should feel acoustically three-dimensional: sources have position, elevation, distance, directionality, obstruction, reflection, and movement. The mix remains vibrant and detailed without becoming crowded or harsh.
 
+## Synth terrain prototype
+
+The first executable soundscape artifact is:
+
+- `KINGDOM_LAND/three_dimensional_synth_soundscape.mid`
+- Format: Standard MIDI File, Type 1
+- Role: synth control layer for the spatial terrain
+- Layers: sub-terrain, plateau pads, water movement, ridge shimmer, distant events, air, and listener-path motion
+- Design: gradual land masses, extensive water presence, low-density events, slow spatial movement, gentle dynamic range
+
+MIDI is the control layer; the final timbre is supplied by the user's synthesizer/DAW. The synth voices should preserve the terrain relationships rather than behave like conventional foreground music.
+
 ## Acoustic layers
 
 - **Atmosphere:** a continuous, low-level environmental bed. Open plateau wind is broad and airy; sheltered valleys are quieter and more enclosed. Avoid a single audible loop dominating the scene.

@@ -1,0 +1,42 @@
+[
+  {
+    "full_name": "Ardhtor/GEEHUB",
+    "visibility": "public",
+    "default_branch": "main",
+    "role": "umbrella / constellation interface",
+    "atlas": "canonical",
+    "note": "This repository is the visible hub and memory layer."
+  },
+  {
+    "full_name": "Ardhtor/ModernTexts",
+    "visibility": "public",
+    "default_branch": "main",
+    "role": "writing / research",
+    "atlas": "linked",
+    "note": "Accessible source repository; surfaced as a research node."
+  },
+  {
+    "full_name": "Ardhtor/LINUX_S",
+    "visibility": "public",
+    "default_branch": "main",
+    "role": "systems / tooling",
+    "atlas": "linked",
+    "note": "Accessible source repository; surfaced as a systems node."
+  },
+  {
+    "full_name": "Ardhtor/lp9hppuio88",
+    "visibility": "public",
+    "default_branch": "master",
+    "role": "large visual / application surface",
+    "atlas": "incubating",
+    "note": "Accessible but intentionally not promoted into the canonical public navigation until its purpose and safe integration boundary are clearer."
+  },
+  {
+    "full_name": "Ardhtor/PgkKKGLu966",
+    "visibility": "private",
+    "default_branch": "main",
+    "role": "private workspace",
+    "atlas": "excluded",
+    "note": "Keep private; do not surface contents or links in public hub navigation."
+  }
+]

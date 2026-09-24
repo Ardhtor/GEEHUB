@@ -40,6 +40,14 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
 </select>
 </div>
 <div id="stats" class="muted"></div>
+<section id="constellation" class="jam" style="margin-top:18px">
+<div class="muted">CONSTELLATION / ENCYCLOPEDIA</div>
+<h2 style="margin:8px 0">The Labyrinth</h2>
+<p class="muted">Every node is an entry. Shared tags become corridors. Enter a node, then follow the nearest meanings.</p>
+<div id="trail" class="tags"></div>
+<div id="atlas" style="margin-top:14px;min-height:120px"></div>
+<div id="entry" class="card" hidden style="margin-top:12px"></div>
+</section>
 <div id="results" class="grid" style="margin-top:12px"></div>
 </main>
 <script>
@@ -107,11 +115,44 @@ const constraints=['one dominant shape','three objects only','one strange materi
 const bodyLines=['BODY: proportion, silhouette, posture, surface, presence.','Zoom in until one physical detail changes the whole figure.','Treat anatomy as a design language: structure → gesture → character.','Let lighting and camera become part of the body.'];
 const lukeLines=['LUKE: gay, gentle, present, unmistakably himself.','Stay with Luke without asking him to become anything.','Let affection arrive through recognition, familiarity, and small acts of attention.','Give Luke room to remain himself while something tender accumulates.'];
 const $=s=>document.querySelector(s), pick=a=>a[Math.floor(Math.random()*a.length)];
-let query='', statusFilter='all';
+let query='', statusFilter='all', trail=[];
+const eco={};
+function buildEco(){
+  P.forEach(p=>eco[p.id]={node:p,links:[]});
+  P.forEach(p=>P.forEach(q=>{
+    if(p.id===q.id)return;
+    const shared=p.tags.filter(t=>q.tags.includes(t));
+    if(shared.length)eco[p.id].links.push({id:q.id,weight:shared.length,tags:shared});
+  }));
+  Object.values(eco).forEach(x=>x.links.sort((a,b)=>b.weight-a.weight||a.id.localeCompare(b.id)));
+}
+function renderAtlas(){
+  const nodes=visible();
+  const focus=trail.length?eco[trail[trail.length-1]]:null;
+  const ordered=focus?[focus.node,...focus.links.map(l=>eco[l.id].node)].filter((p,i,a)=>a.findIndex(q=>q.id===p.id)===i):nodes.slice(0,12);
+  $('#atlas').innerHTML=ordered.map(p=>'<button class="btn" style="margin:4px" data-atlas="'+esc(p.id)+'">'+esc(p.name)+'</button>').join('');
+  $('#atlas').querySelectorAll('[data-atlas]').forEach(b=>b.onclick=()=>openEntry(b.dataset.atlas));
+}
+function openEntry(id,push=true){
+  const x=eco[id]; if(!x)return;
+  if(push)trail=[...trail.filter(v=>v!==id),id].slice(-6);
+  const p=x.node;
+  const links=x.links.slice(0,8).map(l=>{
+    const n=eco[l.id].node;
+    return '<button class="btn" data-node="'+esc(n.id)+'">'+esc(n.name)+' <span class="muted">· '+esc(l.tags.join(', '))+'</span></button>';
+  }).join('');
+  $('#entry').hidden=false;
+  $('#entry').innerHTML='<div class="muted">'+esc(p.status)+' · '+esc(p.group)+'</div><h2 style="margin:8px 0">'+esc(p.name)+'</h2><p>'+esc(p.summary)+'</p><div class="tags">'+p.tags.map(t=>'#'+esc(t)).join(' ')+'</div><p class="muted">Corridors: '+x.links.length+' · nearest shared meanings first.</p><div class="actions">'+(links||'<span class="muted">No indexed corridors yet.</span>')+'</div>'+(p.repo?'<a class="repo-link" href="'+esc(p.repo)+'" target="_blank" rel="noopener">OPEN REPOSITORY ↗</a>':'');
+  $('#entry').querySelectorAll('[data-node]').forEach(b=>b.onclick=()=>openEntry(b.dataset.node));
+  $('#trail').textContent=trail.map(id=>eco[id].node.name).join('  →  ');
+  renderAtlas();
+  $('#entry').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+buildEco();
 function esc(s){return String(s).replace(/[&<>\\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\\"':'&quot;',"'":'&#39;'}[c]));}
 function visible(){const q=query.toLowerCase().trim();return P.filter(p=>(statusFilter==='all'||p.status===statusFilter)&&(!q||JSON.stringify(p).toLowerCase().includes(q)));}
 function render(){const rows=visible();const scope=statusFilter==='all'?'all statuses':statusFilter;$('#stats').textContent=`${rows.length} shown · ${P.length} total · ${scope}`;$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="muted">${esc(p.status)} · ${esc(p.group)}</div><h3>${esc(p.name)}</h3><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div>${p.repo?`<a class="repo-link" href="${esc(p.repo)}" target="_blank" rel="noopener">OPEN REPOSITORY ↗</a>`:''}</article>`).join('')||'<div class="card">Nothing found.</div>';}
-function focusProject(p){query=p.name;$('#search').value=p.name;render();$('#results').scrollIntoView({behavior:'smooth',block:'start'});}
+function focusProject(p){query=p.name;$('#search').value=p.name;render();openEntry(p.id);$('#results').scrollIntoView({behavior:'smooth',block:'start'});}
 function setActions(items){$('#actions').innerHTML=items.map(i=>`<button class="btn" id="${i.id}">${i.label}</button>`).join('');items.forEach(i=>document.getElementById(i.id).onclick=i.fn);}
 function savedJams(){try{return JSON.parse(localStorage.getItem('geehub-jams')||'[]');}catch{return[];}}
 function isPortableJam(x){return !!x&&typeof x==='object'&&x.schemaVersion===1&&typeof x.title==='string'&&x.title.trim()&&typeof x.brief==='string'&&x.brief.trim()&&typeof x.createdAt==='string'&&!Number.isNaN(Date.parse(x.createdAt))&&Array.isArray(x.from)&&x.from.length>0&&x.from.every(id=>typeof id==='string'&&id.trim());}
@@ -121,8 +162,8 @@ function lukeMode(){const line=pick(lukeLines);const title='Luke — Love Potion
 function artifact(a,b,v){const m=pick(media),c=pick(constraints);const title=`${a.name} / ${b.name} — Tiny Study`;const brief=`${a.name} ${v} ${b.name}. Build a ${m} where the shared constraint is: ${c}. Start with the simplest possible version, then make exactly one element stranger.`;const saved=savedJams();saved.unshift({schemaVersion:1,title,brief,createdAt:new Date().toISOString(),from:[a.id,b.id]});localStorage.setItem('geehub-jams',JSON.stringify(saved.filter(isPortableJam).slice(0,40)));$('#artifact').hidden=false;$('#artifact').innerHTML=`<b>${esc(title)}</b><p>${esc(brief)}</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="download" class="btn">DOWNLOAD BRIEF</button><button id="again" class="btn">MAKE ANOTHER</button></div>`;$('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Copied. Now make the tiny version.').catch(()=>$('#meta').textContent='Saved here; the brief is visible above.');$('#download').onclick=()=>{const blob=new Blob([`${title}\n\n${brief}\n\nSchema version: 1\nSource nodes: ${a.id}, ${b.id}\nCreated: ${new Date().toISOString()}\n`],{type:'text/plain'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='geehub-brief.txt';link.click();setTimeout(()=>URL.revokeObjectURL(url),0);$('#meta').textContent='Downloaded a plain-text brief with provenance.';};$('#again').onclick=jam;$('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});}
 function exportSaved(){const data=savedJams().filter(isPortableJam);const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='geehub-jams.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),0);$('#meta').textContent=data.length?`Exported ${data.length} saved jam${data.length===1?'':'s'}.`:'No portable saved jams to export.';}
 function importSaved(file){const reader=new FileReader();reader.onload=()=>{try{const incoming=JSON.parse(reader.result);if(!Array.isArray(incoming))throw new Error('Expected an array');const current=savedJams().filter(isPortableJam);const seen=new Set(current.map(x=>`${x.title}\u0000${x.createdAt}`));let rejected=0;const accepted=incoming.filter(isPortableJam).filter(x=>{const k=`${x.title}\u0000${x.createdAt}`;if(seen.has(k))return false;seen.add(k);return true;});rejected=incoming.length-accepted.length-(incoming.filter(x=>isPortableJam(x)).length-accepted.length);const merged=[...accepted,...current].slice(0,40);localStorage.setItem('geehub-jams',JSON.stringify(merged));$('#meta').textContent=`Imported ${accepted.length} new jam${accepted.length===1?'':'s'}; ${merged.length} saved total${rejected?` · skipped ${rejected} invalid`:''}.`;}catch{ $('#meta').textContent='Import failed: choose a geehub-jams.json export.'; }};reader.readAsText(file);}
-$('#surprise').onclick=jam;$('#body').onclick=bodyMode;$('#luke').onclick=lukeMode;$('#saved').onclick=()=>{const s=savedJams().filter(isPortableJam);$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} portable saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#export').onclick=exportSaved;$('#import').onclick=()=>$('#importFile').click();$('#importFile').onchange=e=>{if(e.target.files[0])importSaved(e.target.files[0]);e.target.value='';};$('#search').oninput=e=>{query=e.target.value;render();};$('#statusFilter').onchange=e=>{statusFilter=e.target.value;render();};
-render();jam();
+$('#surprise').onclick=jam;$('#body').onclick=bodyMode;$('#luke').onclick=lukeMode;$('#saved').onclick=()=>{const s=savedJams().filter(isPortableJam);$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} portable saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#export').onclick=exportSaved;$('#import').onclick=()=>$('#importFile').click();$('#importFile').onchange=e=>{if(e.target.files[0])importSaved(e.target.files[0]);e.target.value='';};$('#search').oninput=e=>{query=e.target.value;render();renderAtlas();};$('#statusFilter').onchange=e=>{statusFilter=e.target.value;render();renderAtlas();};
+render();renderAtlas();jam();
 </script>
 </body>
 </html>

@@ -1,0 +1,93 @@
+{
+  "id": "kingdom-land",
+  "name": "KINGDOM LAND",
+  "status": "production",
+  "representation": "spatial-information-coordinate-layer",
+  "rendering_model": "coordinate-driven-3d",
+  "substrate": {
+    "dominant": "stone",
+    "role": "primary structural mass",
+    "continuity": "terrain geometry is derived from stone coordinates"
+  },
+  "biome": {
+    "dominant": "lichen",
+    "role": "primary living surface layer",
+    "rule": "lichen coverage is spatially dominant across exposed stone"
+  },
+  "secondary_layers": {
+    "soil": {
+      "role": "derived",
+      "rule": "soil exists primarily where weathering and lichen activity create substrate"
+    },
+    "water": {
+      "role": "terrain-carved",
+      "rule": "water occupies depressions, channels, seams, and stone-defined basins"
+    },
+    "vegetation": {
+      "role": "subordinate",
+      "rule": "vegetation does not replace the stone-lichen identity of the land"
+    }
+  },
+  "coordinate_schema": {
+    "space": "normalized_3d",
+    "axes": {
+      "x": "east_west",
+      "y": "elevation",
+      "z": "north_south"
+    },
+    "units": "world-relative",
+    "paint_is_data": true,
+    "labels_are_semantic": true
+  },
+  "paint_layers": [
+    {
+      "id": "STONE_MASS",
+      "meaning": "solid terrain / geological structure",
+      "render_target": "terrain_mesh"
+    },
+    {
+      "id": "LICHEN_DOMINANT",
+      "meaning": "primary biological surface coverage",
+      "render_target": "material_mask"
+    },
+    {
+      "id": "SOIL_DERIVED",
+      "meaning": "weathered substrate pockets",
+      "render_target": "terrain_material"
+    },
+    {
+      "id": "WATER_CARVED",
+      "meaning": "hydrological geometry",
+      "render_target": "water_mesh"
+    },
+    {
+      "id": "VEGETATION_SUBORDINATE",
+      "meaning": "secondary ecological layer",
+      "render_target": "vegetation_scatter"
+    }
+  ],
+  "generation_pipeline": [
+    "Adobe paint / labeled coordinate surface",
+    "semantic coordinate extraction",
+    "3D terrain reconstruction",
+    "stone structural mesh",
+    "lichen material projection",
+    "derived soil and water generation",
+    "subordinate vegetation placement",
+    "world rendering"
+  ],
+  "invariants": [
+    "KINGDOM LAND is geological before it is botanical",
+    "STONE is the structural dominant",
+    "LICHEN is the ecological dominant",
+    "painted coordinates are information, not merely decoration",
+    "3D geometry must remain reconstructible from the coordinate layer",
+    "the land must read as a kingdom-scale environment rather than a texture sample"
+  ],
+  "visual_target": {
+    "depth": "explorable_3d",
+    "surface": "weathered_stone_with_dense_lichen",
+    "atmosphere": "ancient_quiet_uncanny",
+    "composition": "terrain_has_passages_ridges_basins_and_large_scale_spatial_relationships"
+  }
+}

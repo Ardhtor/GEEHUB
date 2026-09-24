@@ -6,6 +6,29 @@ Status: design specification / implementation target
 
 Sound is part of the terrain, not a soundtrack layered over it. The world should feel acoustically three-dimensional: sources have position, elevation, distance, directionality, obstruction, reflection, and movement. The mix remains vibrant and detailed without becoming crowded or harsh.
 
+## Seven-volume pitch architecture
+
+The primary musical geometry is organized as **7 spatial volumes** rather than 12 independent semitone bands.
+
+`V1 → V2 → V3 → V4 → V5 → V6 → V7`
+
+Each volume is a large three-dimensional acoustic territory. Within every volume, the chromatic 12-semitone cycle is encoded as finer internal spatial structure:
+
+`C C# D D# E F F# G G# A A# B`
+
+The seven volumes are therefore the macro-scale architecture; semitones are the micro-scale resolution inside that architecture.
+
+### Spatial encoding
+
+- **Volume:** large terrain/water region with its own acoustic identity and pitch register.
+- **Semitone:** continuous contour/wave/resonance geometry inside the volume.
+- **Chromatic movement:** movement through adjacent semitone geometry produces continuous pitch-space traversal.
+- **Volume transition:** crossing from one volume to another changes the larger acoustic/pitch field while preserving local continuity.
+- **Water:** carries and reflects the semitone geometry, making pitch visibly and spatially legible.
+- **Terrain:** plateaus, basins, ridges, and elevation gradients deform the acoustic fields rather than merely sitting beneath them.
+
+The intended result is a readable **7-dimensional-volume / 12-semitone-subdivision** system: seven huge spatial territories containing chromatic detail.
+
 ## Synth terrain prototype
 
 The first executable soundscape artifact is:
@@ -46,17 +69,23 @@ MIDI is the control layer; the final timbre is supplied by the user's synthesize
 
 ## Initial implementation sequence
 
-1. Add a user-gesture audio bootstrap and master gain control.
-2. Create a reusable spatial emitter interface with position, gain, radius, loop/event mode, and environment tags.
-3. Add ambient zone blending for plateau, valley, water edge, wetland, and enclosed stone.
-4. Attach water and wind emitters to world-space features.
-5. Add terrain-aware occlusion and environment-specific reverb as progressive enhancements.
-6. Test headphone stereo positioning, source movement, region transitions, mute, and reduced-volume listening.
+1. Encode the seven macro volumes.
+2. Encode twelve chromatic semitone subdivisions inside every volume.
+3. Make the semitone fields visible as actual spatial audio geometry: contours, wavefronts, resonance paths, and terrain-following bands.
+4. Add a user-gesture audio bootstrap and master gain control.
+5. Create a reusable spatial emitter interface with position, gain, radius, loop/event mode, and environment tags.
+6. Add ambient zone blending for plateau, valley, water edge, wetland, and enclosed stone.
+7. Attach water and wind emitters to world-space features.
+8. Add terrain-aware occlusion and environment-specific reverb as progressive enhancements.
+9. Test headphone stereo positioning, source movement, region transitions, mute, and reduced-volume listening.
 
 ## Acceptance criteria
 
+- Seven clearly perceptible macro acoustic/pitch volumes exist in world space.
+- Each volume contains twelve continuous chromatic semitone subdivisions.
 - A listener can distinguish left/right, near/far, above/below, and open/enclosed sound relationships.
 - Moving through the world changes the mix continuously and meaningfully.
+- Pitch geometry remains spatially readable without labels or conventional notation.
 - Water, wind, stone reflections, and living detail remain perceptually separate.
 - No audio starts before user interaction; mute and volume controls work.
 - The soundscape is immersive and vibrant while remaining gentle, uncluttered, and free of compulsory music or speech.

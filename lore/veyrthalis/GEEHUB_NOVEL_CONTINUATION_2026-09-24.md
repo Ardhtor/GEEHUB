@@ -693,3 +693,248 @@ The older Luke looked toward the door.
 "That's what we're trying to find out."
 
 And somewhere beneath the floor, beneath the building, beneath the forest itself, something enormous began to move.
+
+
+## Chapter IV — The House at the Edge of the Trees
+
+The movement beneath the floor lasted long enough for Luke to become aware of the weight of his own body. At first he thought the building was shaking. Then he understood that the sensation was too slow for an earthquake. It traveled through the room as a gradual displacement, beginning somewhere below the foundations and passing outward through the walls, the floor, the filing cabinet, the glass of the Serum, and finally into the soles of his boots. Nothing fell. Nothing broke. The fluorescent fixture did not even rattle. The building seemed, for a few seconds, to be adjusting itself around something that had decided to move.
+
+The older Luke released his wrist.
+
+"We have to go upstairs."
+
+"Why?"
+
+"Because downstairs is where it notices us."
+
+Luke looked toward the ceiling. "And upstairs?"
+
+"Upstairs is where it remembers us."
+
+The distinction would have sounded absurd anywhere else. Here it seemed like an instruction.
+
+They left the room together. The three men followed. The corridor was longer than Luke remembered, although he could not say whether it had changed or whether he had previously mistaken its length. There were doors on either side now. Some stood open onto offices containing desks, telephones, stacks of paper, abandoned coffee cups. Others were locked. Behind one door Luke could hear water running. Behind another came the faint sound of a radio broadcasting something in a language he did not recognize.
+
+Nobody spoke for several minutes.
+
+They reached a staircase.
+
+It went upward.
+
+Luke looked at the older man.
+
+"How many floors?"
+
+"Seven."
+
+"How many are real?"
+
+"All of them."
+
+"That's not what I asked."
+
+The older Luke began climbing.
+
+"It's the only answer that matters."
+
+The stairs were concrete. Their footsteps produced a dull rhythm that gradually became almost musical. Luke noticed the sound because the rhythm reminded him of the seven notes in the folder. Six had remained. One had been removed. The absence was becoming more perceptible than the notes themselves.
+
+On the second floor they passed a window.
+
+Luke stopped.
+
+Outside was the forest.
+
+But they were looking down at it from an impossible height. The redwoods extended below them, their crowns forming a continuous uneven surface. Beyond them the land fell away toward a valley filled with amber mist. There were lights in the distance.
+
+A city.
+
+Luke pressed his hand against the glass.
+
+The older Luke did not stop.
+
+"Don't look too long."
+
+"What city is that?"
+
+"The one that hasn't been built yet."
+
+Luke turned.
+
+The older man was already climbing.
+
+On the third floor, the architecture changed. The concrete staircase ended at a corridor lined with dark wood. The walls were covered with framed photographs, all of them depicting groups of men standing in places that seemed familiar without belonging to any single period. Some wore work clothes. Some suits. Some uniforms. They stood beside machinery, beside trees, beside enormous stone structures, beside tables covered with scientific instruments. In several photographs the same man appeared at different ages.
+
+Luke slowed.
+
+"Family?"
+
+The older Luke looked at the photographs.
+
+"Some of them."
+
+"Whose?"
+
+"That's the question that started all of this."
+
+One of the other men stepped closer to a photograph.
+
+"These aren't all related."
+
+"No."
+
+"Then why are they together?"
+
+The older Luke touched the frame with one finger.
+
+"Because they kept inheriting the same problem."
+
+At the end of the corridor stood a dining room.
+
+There was a long table set for twelve.
+
+The plates were already laid out. Glasses stood beside them. A bowl of fruit occupied the center of the table. Nothing looked abandoned. There was no dust. No decay. A chair near the window had been pulled back slightly, as if someone had just stood from it.
+
+Luke smelled coffee.
+
+Real coffee.
+
+He stopped in the doorway.
+
+For the first time since entering the building, he felt hungry.
+
+The realization embarrassed him.
+
+The older Luke noticed.
+
+"Eat."
+
+Luke looked at him.
+
+"What?"
+
+"You haven't eaten since morning."
+
+"How do you know?"
+
+"I remember."
+
+Luke sat down.
+
+The others followed cautiously. The older Luke remained standing until everyone had chosen a seat. Then he took the chair at the head of the table.
+
+Coffee was poured.
+
+The ordinary ritual of it changed the room more effectively than any supernatural event could have done. Cups passed from hand to hand. Someone added sugar. Someone asked for milk. One of the men laughed at the fact that there was no milk. The laughter was nervous at first, then became genuine. For perhaps ten minutes they were simply four men in a dining room drinking coffee.
+
+Luke looked across the table at the older version of himself.
+
+"How long have you been here?"
+
+The older Luke took a drink.
+
+"Long enough to stop asking."
+
+"That's not possible."
+
+"It is here."
+
+Luke looked down at his cup.
+
+The coffee was slightly bitter.
+
+He drank it anyway.
+
+"What happens if I leave?"
+
+The older Luke was silent.
+
+"Do I come back?"
+
+Still nothing.
+
+"Do I become you?"
+
+The older man looked directly at him.
+
+"No."
+
+The answer came so quickly that Luke believed it.
+
+"Then what happens?"
+
+"You remain yourself."
+
+Luke waited.
+
+"But you won't remain the same."
+
+A chair scraped against the floor.
+
+Everyone turned.
+
+Nobody had touched it.
+
+The empty chair at the far end of the table had moved backward by several inches.
+
+The older Luke looked toward it.
+
+"They're here."
+
+Luke whispered, "Who?"
+
+The older man did not answer.
+
+Instead he stood and walked to the window.
+
+Far below, among the redwoods, a small group of figures had appeared on the forest floor.
+
+They were men.
+
+They were carrying lanterns.
+
+They were walking toward the tree.
+
+Luke watched them approach.
+
+There were twelve.
+
+Then eleven.
+
+Then ten.
+
+The distance between the figures did not change. The number did.
+
+Luke stepped beside the older man.
+
+"What are they doing?"
+
+"Repeating something."
+
+"What?"
+
+The older Luke watched the last figure disappear behind a redwood.
+
+"Coming to find us."
+
+Luke looked at the glass of the window.
+
+His reflection stood beside him.
+
+The older Luke's reflection stood beside him too.
+
+Then Luke noticed a third reflection.
+
+A man was standing behind them.
+
+Luke turned.
+
+There was nobody there.
+
+He looked back at the window.
+
+The third reflection remained.
+
+It raised one hand.
+
+And touched the glass from the other side.

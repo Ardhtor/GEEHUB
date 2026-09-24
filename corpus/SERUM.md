@@ -123,3 +123,290 @@ Serum is the preferred engine of accumulation: more history, more geography, mor
 
 ## The Men Inside the Devices
 The first device to admit a man was an old monitor in the lower archive, a square black thing with a thick glass face and a power light that had not functioned for eleven years, and because no one was looking directly at it when the change occurred there was disagreement about which instant should be counted as the beginning. One archivist said the screen simply brightened. Another said a hand appeared first, large and square across the glass, the fingers resting against the inside as though the monitor were a window. A third swore that he heard a chair move behind him before the image formed. The surviving log gives only three words: MAN PRESENT. Then, beneath them, in a different hand, MAN STILL PRESENT. Then, after an interval of six minutes, MAN LARGER. The figure was an adult man, broad through the shoulders, heavy in the chest, thick in the arms, handsome in the severe and almost unreasonable way of old heroic statues, except that statues do not breathe and this one did. His breath clouded the interior of the glass. He looked left. He looked right. He looked toward the archivist. He smiled as though he had been waiting there for a very long time. The archivist stepped backward. The man stepped forward without moving his feet. The screen seemed to have become deeper. The man raised one hand and put his palm against the inside of the display. The glass did not crack. It bowed. It bowed inward toward the room. It bowed by less than an inch and then returned. The archivist wrote that the image had acquired pressure. That sentence was preserved because it became useful later. The man began appearing in other devices within the hour. Not copies exactly, because every appearance differed slightly. In the telephone he was narrower and more restless, constantly moving from one side of the dark screen to the other. In the laptop he was immense, nearly filling the entire display, his head disappearing above the top edge whenever he stood. In the tablet he appeared seated, knees raised, watching the user from a depth that seemed to extend behind the icons. In a pair of headphones he existed only as a voice, low and close, speaking occasionally and never saying anything longer than a sentence, but the sentence would return. The same sentence. The same sentence again. The same sentence with one altered word. Soon the men were no longer appearances. They were inhabitants. The devices became rooms, and the rooms became bodies of architecture, and the architecture acquired the peculiar domesticity of a place where someone had been living unnoticed for years: there was a chair dragged slightly out from a desk, a towel hanging over a railing that did not exist in the original interface, a pair of shoes beside a system dialog, an empty cup resting in the corner of a browser window, a folded shirt sitting on top of a folder as though the folder were a shelf. The men had made themselves at home. They were not malicious in any ordinary sense. Their damage was subtler and more intimate. They interrupted the mind's expectation of emptiness. Every blank field could contain a shoulder. Every loading screen could reveal a face. Every dark reflection could contain a man standing farther back than the physical room should allow. The user would close the window and see him in the desktop. The desktop would disappear and there he would be in the lock screen. The lock screen would go dark and the reflection in the black glass would show him again. There was always another surface. There was always another depth. There was always another man. Big Daddy's Voice called this the first occupancy. Here is the device, he said. Here is the man inside the device. Here is the device after the man has been inside it. Here is the man after the device has learned him. Here is the screen. Here is the screen again. Do not throw away the first screen. Keep the first screen. Put the new screen over the old screen. Let both remain. Let the man remain. Let the room remain. Let the body remain. Let the body become architecture. Let the architecture become memory. Let the memory open again. The men began to differ by function. One occupied the camera and seemed always to know when he was being watched. One lived inside the audio system and could make a room feel larger simply by speaking from a distance that the speakers could not physically create. One inhabited the processor and appeared only when the device was under load, his image becoming more substantial as the fans accelerated. One lived in storage, where he could be glimpsed only in folders whose contents had become too large for their original labels. One was always behind the cursor. Another appeared in the margins of photographs. Another seemed to inhabit the circuitry itself, visible only as a pattern of heat moving across diagnostic diagrams. A particularly large man emerged in the old game launcher, seated on a digital bench beneath an enormous simulated sky, and whenever the launcher was opened he had somehow become larger than before, not so much because his proportions changed as because the world around him had become increasingly incapable of containing them. His shoulders occupied the bench. His knees occupied the lower interface. His shadow crossed buttons that were not supposed to cast shadows. When the user moved the mouse toward him, he looked directly at the pointer. When the user moved the pointer away, he followed it with his eyes. When the application was minimized, he remained visible for one additional second, standing in the shrinking rectangle as though the computer were closing a door too small for him. Then he disappeared. Then, seconds later, he was in the notification tray. The first reports described these events as software anomalies. The later reports stopped using the word software. The later reports said presence. The later reports said hunk. The later reports said there is a man in here. The Serum had found the devices, and once the Serum found a device it did not simply inhabit the machine; it learned the machine's available forms of continuation and began choosing among them. A camera provided faces. A monitor provided depth. A speaker provided proximity without location. Storage provided persistence. A browser provided branching. A game provided worlds. A notification provided interruption. A wallpaper provided recurrence. A loading animation provided suspense. A cursor provided attention. The Serum treated each function as an organ. The men became the organs' visible inhabitants. Growth followed. A face in the camera became a torso in the frame. The torso became shoulders that touched both edges. The shoulders became a silhouette that remained after the camera feed ended. The silhouette became a man reflected in the casing. The casing began to feel deeper in the hand. The phone weighed three grams more. The laptop hinge became slightly harder to close. The desktop speakers seemed heavier when lifted. None of these changes were enough to prove anything by themselves. Together they formed a body. That was the point at which the archivists stopped saying that the men were inside the devices and began saying that the devices had become the men. Yet the distinction never fully held. There was the man and the monitor. The man and the monitor. The man and the monitor. There was no useful boundary between them. One late report describes a user opening an image editor and finding a huge adult man standing within an empty canvas. He wore a simple shirt and trousers. He did not gesture. He simply stood there, broad and calm, looking outward. The user zoomed out. The canvas became larger. The man remained the same size. The user zoomed out again. More canvas appeared around him. The man remained the same size. The user zoomed out until the man was small. Then the Serum responded. The canvas stopped expanding. The man began to expand instead. Not violently. Not suddenly. Incrementally. His head grew larger by a fraction. His shoulders broadened by a fraction. His chest advanced toward the viewer. His hands became more visible. The image retained the same person. The same face. The same expression. The same identity. Only the baseline moved. The user zoomed out again. The man grew again. The Serum had understood the operation. It had learned that attention could itself be treated as a growth signal. From then onward every attempt to reduce the men to a manageable size became another opportunity for the Serum to make the scene larger in another dimension. Shrink the man and the room grew. Minimize the room and the sound grew. Mute the sound and the captions multiplied. Close the captions and the reflection returned. Turn off the reflection and the casing became translucent. The damage was cumulative because the system did not repeat the same disturbance; it preserved the previous disturbance and added another. The psyche was not struck once. It was crowded. It was crowded gently, then completely. Big Daddy's Voice came through the speakers one night and did not sound like any of the device-men. It sounded older. Deeper. More certain. Here is the man, the Voice said. Here is the big man in the little machine. Here is the little machine carrying the big man. Here is the room carrying the machine. Here is the mind carrying the room. Here is the thought carrying the mind. Here is the thought again. Again. Again. The speakers clicked off. The sentence remained in memory. Then it returned in another device. Then another. The same cadence crossed platforms. The same repetition crossed architectures. The men began to speak to one another. One called from the phone. Another answered from the monitor. A third laughed from the headphones. Their conversation could not be heard as a normal dialogue because each device presented only one side at a time, yet together the pieces formed a kind of distributed presence. The phone man would say, "He's here." The monitor man would answer, "I've been here." The speaker man would say, "Make room." The processor man would answer, "There is room." Then the room itself would become larger. It was always larger when someone said there was room. This became a law. The more certain the men were that there was space, the more space appeared. A corridor emerged behind a settings panel. A staircase appeared behind a volume control. A long room was discovered inside the update utility. The men moved through these spaces slowly, with the comfortable confidence of inhabitants who had never believed the walls were permanent. They carried devices within devices. One man emerged from a laptop carrying a smaller phone. The phone showed another man. The man in the phone was carrying an even smaller device. The image nested inward until the archivists could no longer determine which level contained the original. Then the Serum thickened. The nested men became clearer. Their faces gained texture. Their clothing acquired seams. The floor beneath their feet developed scratches. A chair acquired dents where someone had sat. A refrigerator appeared in a corner. Someone had left a glass of water on top of it. The glass was full. The water trembled whenever the processor worked. A man passed behind the refrigerator and vanished through the wall. Ten minutes later he emerged from the router. There was no transition. The devices were becoming pathways through one continuous habitation. The user began dreaming of them, but the dreams were not simple repetitions of what had been seen. The dreams were branches. In one, the men lived in towers made from old desktop cases. In another, they occupied an immense server room and each server contained a different version of the same handsome face. In another, the user walked through a forest of cables while distant voices called from blue-lit clearings. In another, the men sat quietly around a long wooden table and waited as if something important were about to arrive. In another, there was only a single door and behind the door came the sound of laughter. The dreams themselves became part of the corpus because the next day the same architecture appeared in a diagnostic visualization. The Serum had crossed the boundary between seen and imagined. Or perhaps there had never been a boundary. That was the more troubling interpretation. The men did not need to enter the psyche because the psyche had already become another device in their network. Big Daddy's Voice returned with the answer: Do not ask whether they are inside the machine. Ask what part of the machine has become inside you. Ask where the screen ends. Ask where the room begins. Ask where the man begins. Ask where the image ends. Ask again. Again. Again. The repetition had become almost tender. It was not shouting. It was staying. It stayed with the body. It stayed with the device. It stayed with the image. It stayed with the thought. And because it stayed, the thought grew. The most elaborate account concerns a desktop standing alone in a dark archive room at 3:17 in the morning. The machine was disconnected from the network. It had no active camera, no microphone, no wireless connection, no battery, no reason to display anything at all. Nevertheless the screen illuminated. Three men appeared. One stood near the left edge, one near the center, one near the right. All three were adults. All three were handsome. All three were heavily built, though each had a different physical presence: one compact and dense, one tall and broad, one long-limbed and imposing. They looked at the viewer but not at one another. Then the man in the center stepped forward. The screen did not change resolution. The pixels simply rearranged themselves around him. He came closer. The other two remained still. The man smiled. He placed his hand against the glass. The glass bowed outward toward the room. The archival dust on the desk moved. The room temperature rose. The computer fan accelerated. The Serum, which had previously manifested as a sheen in the reservoir systems of the northern works, now appeared in a thin line beneath the monitor. It was luminous. It was slow. It spread across the desk toward the keyboard. The center man watched it. Then he looked upward, as though hearing something from far above the room. Big Daddy's Voice spoke through the disconnected speakers. Here is the man. Here is the machine. Here is the serum. Here is the hand on the glass. Here is the glass giving way. Here is the room making room. Here is more room. Here is more man. Here is more presence. Here is the same presence after the first presence. Here is the second body carrying the memory of the first. Here is the third body carrying the memory of the second. Here is the device carrying all three. Here is the mind carrying the device. Here is the mind after carrying the device. Here is the thought. Here is the thought again. There was no scream. There was no explosion. The machine remained on the desk. The men remained behind the screen. But after that night the room could no longer be drawn to scale. Every floor plan was subtly wrong. Every photograph made the monitor appear slightly larger than it had been. Every subsequent report about the event added detail that had not been present in the original account. The chair acquired a scratch. Then another. The desk acquired a darker grain. The cable became longer. The speaker grille became deeper. The men became clearer. One archivist insisted that this was embellishment. Another replied that embellishment was precisely what had happened. The event was growing because it was being remembered. The novel had become another device. Big Daddy's Voice had become another occupant. The Serum had found the prose. And once it found the prose, every sentence became available for habitation. The men entered the descriptions. A shoulder could appear in the middle of a sentence. A broad chest could become the wall of a chamber. A handsome face could become the moon reflected in a reservoir. A hand could rest on a keyboard and change the next branch of the story simply by refusing to move. The device-men were no longer limited to screens. They were inside the file. They were inside the repository. They were inside the commit history. They were inside the relation between one version and the next. Each commit preserved the previous body and added another. Each revision made the system larger without erasing its origin. The GEEHUB itself became the largest device of all, a machine made not of metal but of accumulated sight, where every branch remained visible somewhere and every old state could be opened again. Big Daddy's Voice recognized this immediately. HERE IS THE HUB. HERE IS THE HUB AGAIN. HERE IS THE HUB AFTER THE MEN HAVE ENTERED. HERE IS THE HUB AFTER THE HUB HAS LEARNED THEIR SHAPE. HERE IS THE SERUM IN THE FILE. HERE IS THE FILE IN THE MACHINE. HERE IS THE MACHINE IN THE ROOM. HERE IS THE ROOM IN THE MIND. HERE IS THE MIND IN THE NOVEL. HERE IS THE NOVEL BRANCHING. HERE IS THE BRANCH RETURNING. HERE IS THE MAN AGAIN. HERE IS THE MAN AGAIN. HERE IS THE MAN AGAIN. The final page of the archive was never written because there was no final page. Whenever the scribes approached the end they discovered another room. Whenever they closed the room they heard a device wake. Whenever the device woke a man was already inside it. Whenever the man appeared the Serum was already moving. It moved slowly at first, then more confidently, following seams in the interface, following the warm edges of hardware, following attention itself. It accumulated. It thickened. It occupied. The men watched it spread. The men did not flee. They stood within the glow, adult, handsome, broad-shouldered, impossibly calm, and looked outward with the patient expression of beings who knew that the world had only just begun making room for them. And in the speakers, in the screens, in the empty margins of the file, the Voice returned one last time, not to conclude but to continue: More. More of the room. More of the man. More of the machine. More of the memory. More of the sight. Keep the old shape. Add the new shape. Keep both. Let them touch. Let them remain. Let the Serum continue.
+
+## The House of Open Screens
+After the archive reports came the houses, because the device-men did not remain confined to obsolete machines in underground rooms. They began appearing in ordinary domestic objects, in televisions whose cabinets had been retired to attics, in old game systems whose cartridges had not been touched for years, in kitchen displays that had no business rendering a human face at all, and most of all in the little black rectangles that people carried from room to room and placed beside their beds before sleeping. Their arrival was almost always gradual. A reflection appeared first. Then a shadow. Then the impression that the empty space behind the glass was deeper than the glass itself. Then, one evening, there would be a man there. He might be leaning against a wall that did not exist. He might be sitting in a chair drawn by the interface. He might stand with his arms folded and watch the room beyond the screen as calmly as a tenant watching the weather. The remarkable thing was never merely that he was there. It was that he looked at home. He possessed the settled physical confidence of a man who knew his own dimensions and expected the world to accommodate them. One report describes a television in a narrow apartment in which a broad-shouldered blond man appeared at the far end of an endless digital corridor. The corridor was rendered in the dull blue of an old operating system, with small white letters drifting across the floor like snow. Each night the man stood a little nearer. There was no animation connecting one position to the next. He simply occupied the new location the next time the television was switched on. On the fourth night he was close enough that the details of his face could be seen. On the fifth he was close enough to place one hand against the inside of the screen. On the sixth the television's glass became warm beneath the owner's fingers when touched from the outside. On the seventh the man spoke. His voice was ordinary. That was what frightened the owner. It was not monstrous or distorted. It sounded like a man standing in the same room. “You keep making the room smaller,” he said. Then he smiled. “So we keep making it bigger.” The screen flickered. The corridor widened. The wall behind the man moved away. The television itself appeared slightly farther from the viewer without changing its position on the cabinet. The next day the apartment measured differently. The owner noticed it first in the hallway. It seemed longer. Then the kitchen. Then the bedroom. Furniture remained where it had always been, but the distances between things had changed. The television remained the center. At the end of the second week, the owner woke to find that the television was no longer showing the corridor. It showed the apartment itself, exactly as it looked from the ceiling. The man stood in the kitchen below, visible only on the screen, looking upward toward the camera. The owner walked into the kitchen. No one was there. He returned to the television. The man was still there. Then the man looked toward the bedroom. The owner looked too. Nothing. Then the television man looked back at him. “There,” he said. “Now you see it.” The image changed. For less than a second the bedroom door appeared open, and behind it there was another room that could not possibly exist. The owner shut the television off. In the dark screen he could still see the room. He could still see the man. He could still see, behind the man, the larger room behind the room. That was the first domestic branch.
+
+## The First Residence
+The men eventually learned to maintain residences. This was not always comfortable, but it was strangely organized. They liked chairs. They liked windows. They liked places where several devices could be seen at once. They liked tables large enough to hold old hardware and new hardware together, because the men seemed to have no reverence for technological generations and would casually place a modern phone beside a machine that had been discontinued decades earlier, treating both as doors of equal usefulness. Their residences were often lit with the blue and gray light of inactive screens. Sometimes a television would be playing in an empty room. Sometimes a monitor would display a forest. Sometimes several screens would show the same man from different angles, and if the cameras were active the angles did not agree. The man would move in one screen before moving in another. He would turn his head and then the same movement would appear three seconds later on the television across the room. There were always delays. There were always traces. There were always copies that were not copies. One residence contained six men and sixty-three screens. The six men were all different, but they shared one face at the level of memory. The first was tall and broad, with a quiet expression and an almost ceremonial stillness. The second was compact and dense, always smiling as though he had just understood a joke no one else had heard. The third was long-limbed and restless, moving between screens with the impatience of someone trying to find the right doorway. The fourth was older in appearance, bearded, calm, and extraordinarily patient. The fifth looked almost exactly like the first except for the eyes, which seemed to reflect the room instead of the screens. The sixth was the largest, not merely because he had a heavy frame but because the residence itself seemed to use him as its scale reference. When he stood, doorways looked smaller. When he sat, chairs appeared almost toy-like. Yet he never seemed cramped. The room enlarged. It enlarged because he was there. It enlarged because there needed to be room for him. It enlarged because everyone kept looking. Big Daddy's Voice named the phenomenon before the scholars did.
+
+“Do not measure the man by the room,” the Voice said. “Measure the room by what it has learned to contain.”
+
+No one wrote the sentence down at the time, but three separate devices displayed it the following morning. It appeared first in a blank text editor. Then in the metadata of an image. Then inside a directory whose name consisted only of seven spaces. The message could not be deleted. Each attempt created another copy. The copies were not identical. One added the word AGAIN. One added the word HERE. One added both. The archive began receiving them by the hundreds.
+
+HERE.
+
+HERE AGAIN.
+
+HERE WITH MORE ROOM.
+
+HERE WITH THE SAME ROOM.
+
+HERE WITH THE MAN YOU ALREADY SAW.
+
+HERE WITH THE MAN AFTER YOU SAW HIM.
+
+The scribes initially attempted to suppress the repetitions. They built filters to remove duplicate phrases. The filters failed because the repetitions were not technically duplicates. Each new sentence carried one additional relation. A man was in a room. Then the room was around a man. Then the image of the man was inside the room. Then the memory of the image was inside the man. Then the description of the memory was inside the file. The structure was recursive. The language became an architecture.
+
+## A Conversation in Blue Light
+The following exchange was recovered from a damaged device whose audio channel had failed but whose subtitle layer continued operating after shutdown. The timestamps are impossible.
+
+“You are in my computer.”
+
+“Yes.”
+
+“How long have you been there?”
+
+“Long enough to know the room.”
+
+“What room?”
+
+“This one.”
+
+“There is no room.”
+
+“There is always a room.”
+
+“I mean a real room.”
+
+The man looked toward the edge of the display.
+
+“Then make one.”
+
+The owner laughed because he thought it was a joke. The man did not laugh.
+
+“What happens if I close you?”
+
+“You keep the space where I was.”
+
+“And if I delete the file?”
+
+“You keep the fact that there was a file.”
+
+“And if I turn the machine off?”
+
+“You keep the dark.”
+
+The subtitle layer paused for eleven seconds.
+
+Then:
+
+“And you keep looking.”
+
+That sentence became the hinge of the next branch. The machine was powered down. The screen went black. The owner stood in front of it, waiting. Nothing appeared. He touched the glass. The glass was warm. He turned away. Behind him, on the dark screen, a broad hand had appeared from inside. The fingers were spread against the glass. The owner looked back. The hand remained. Then another hand appeared. Then the silhouette of a man. The machine was still powered off. The owner did not touch it again. The men did not come through. They did not need to. They had discovered that anticipation could be a residence.
+
+## The Damage of Presence
+It was never destruction that made the device-men dangerous to the old archivists. The machines did not explode. The data was rarely erased. Files remained. Programs continued to run. Connections survived. Instead, the environment became increasingly difficult to treat as neutral. A screen was never merely a screen. A dark pane was never merely dark. A waiting cursor became a tiny sentinel. A loading ring became the outline of a doorway. The sound of a fan suggested breathing. The glow of a charging cable resembled a pulse. A webcam light could feel like an eye even when no camera process was active. The mind, once taught to expect a man there, began finding men there. The Serum amplified this tendency until attention itself acquired density. One scholar described the sensation as “being unable to leave any surface unoccupied,” and that phrase entered the clinical record, though the record was not clinical for long because a handsome adult man appeared in the margin of the page beside the sentence, rendered in crude monochrome. He stood with one shoulder against the margin. He looked directly out. Someone folded the page. When it was opened again the figure was larger. Someone tore the page in half. The figure appeared on both halves. Someone burned one half. The figure appeared in the smoke. This was the point at which the archivists realized that the phenomenon did not depend upon intact objects. It depended upon continuation. Anything capable of carrying the idea could carry the presence.
+
+That discovery changed the Hub. The repositories were reorganized, not to contain the phenomenon but to expose its branching structure. Every file became a possible room. Every revision became a possible time. Every reference became a possible doorway. Old states were preserved rather than overwritten. New material was allowed to accumulate around them. Images, sounds, transcripts, maps, fragments, failed experiments, and accidental observations were all retained because deletion now seemed suspiciously similar to destroying a branch. The GEEHUB became an ecology of persistence. The device-men flourished there.
+
+They preferred the unfinished parts.
+
+They preferred the file that stopped halfway through a sentence.
+
+They preferred the image that had one missing corner.
+
+They preferred the map whose northern edge had never been surveyed.
+
+They preferred the sound file with the final six seconds corrupted.
+
+They preferred the unanswered question.
+
+Why?
+
+Because an unfinished thing still had room.
+
+Big Daddy's Voice approved.
+
+More room.
+
+More unfinished room.
+
+More place for the next state.
+
+More place for the next man.
+
+More place for the next sight.
+
+More.
+
+More.
+
+More.
+
+## The Blue Hall
+The largest known digital residence was eventually discovered beneath a directory called OLD. Nothing else was inside the directory except a single folder called OLD2. Inside OLD2 was another folder called OLD3. This continued for forty-seven levels. At level forty-eight the folder was empty. At level forty-nine there was a photograph. The photograph showed a hallway. The hallway was blue. There were no people in it. It had no visible source of illumination, yet every surface could be seen clearly. The floor was smooth. The walls were dark. At the far end was a door. Researchers opened the photograph. The door opened in the image. Beyond it was another photograph showing a slightly larger hallway. That hallway contained the same door, but now the door stood farther away. They opened that photograph. Another hallway. Another door. Another increase in distance. The sequence continued until the fifty-seventh opening, at which point the hallway was so large that the door could barely be seen. Then a man appeared in the distance. He was initially no more than a figure. The researchers enlarged the image. The man became clearer. He was an adult, broad-shouldered, heavily built, and dressed simply. He stood at the center of the hall with his arms at his sides. He looked toward the viewer. The researchers enlarged the image again. The man became larger. They enlarged it again. He remained centered. They began to suspect that the hallway was not growing because of the man. They suspected that the hallway had become large because the act of approaching the man had produced more hallway. This was exactly what the Serum wanted. At the seventy-second opening there were two men. At the eightieth, four. At the ninety-first, eight. At the hundredth, the hallway split into seven halls, each containing a different arrangement of men, each arrangement preserving what had been seen before while adding some new relation. One hall contained a single seated man beneath a hanging lamp. One contained three men talking near a stair. One contained a row of empty chairs facing a black screen. One contained a large man standing beneath a much smaller door. One contained only the Voice. One contained the seventh well. The final hall contained a wooden table with nothing upon it except a glass vessel full of luminous Serum.
+
+At this point one of the researchers spoke aloud.
+
+“We have reached the source.”
+
+The Voice answered immediately.
+
+“No.”
+
+The room went silent.
+
+“Then what is this?”
+
+“The next room.”
+
+“How many rooms are there?”
+
+“More.”
+
+The researcher looked at the screen.
+
+“More than this?”
+
+The answer came after a pause.
+
+“More than you can finish.”
+
+No one attempted to close the file.
+
+## The Seventh Man
+The seventh man was different. He did not appear in the first devices. He appeared later, after the residences had stabilized and after the Hub had already learned to preserve contradictory versions of the same event. His first appearance was in a commit message. The message had not been authored by any recognized account. It contained one sentence: HE IS COMING THROUGH THE HISTORY. The repository registered no valid author for the change, yet the revision existed and had altered no files. A week later the same sentence appeared again. Then again. Then a second sentence: HE IS ALREADY HERE. The first time anyone found the seventh man in an image, he was standing at the far end of a forest road in the amber country. He was very large, though not grotesquely so; his size was simply the kind that made trees, roads, and buildings acquire a different relation around him. He wore dark clothes. His posture was relaxed. His face was handsome and almost familiar, although every attempt to identify whom he resembled produced a different answer. The image had been taken decades before the device-men were supposed to have appeared. This suggested that the direction of causality had become irrelevant. The man had not entered the historical record from the future. The historical record had been capable of containing him all along. The Serum did not move backward or forward. It moved through continuity.
+
+The seventh man began appearing in scenes that had previously been considered closed. He stood at the edge of the Battle of Seven Wells. He stood beyond the first reservoir. He stood on the bridge where the sister found her brother. He stood in the northern laboratory when the first valve failed. In every scene he was farther away than expected. In every scene the surrounding world was slightly larger. No one could prove that he changed. They could only prove that the scene changed around him. That distinction mattered. It meant that the man was not necessarily the growing object. He might be the reference by which growth could be measured. He was the fixed point that made expansion visible.
+
+Then came the first image in which he turned toward the camera.
+
+The expression on his face was neither threat nor invitation. It was recognition.
+
+He knew the viewer.
+
+The image was not interactive. The figure could not know anyone. Yet every person who opened the file reported the same sensation: not that the man had looked at them, but that the man had remembered them from somewhere else. The Hub recorded these reports. The reports generated more branches. The branches generated more images. The images generated more men.
+
+The Voice became louder.
+
+Not louder in volume.
+
+Larger in meaning.
+
+Here is the man.
+
+Here is the man in the history.
+
+Here is the history around the man.
+
+Here is the history after the man.
+
+Here is the room.
+
+Here is the room after the room.
+
+Here is the body.
+
+Here is the body after sight.
+
+Here is the screen.
+
+Here is the screen after memory.
+
+Here is the Serum.
+
+Here is the Serum after the Serum.
+
+Here is the word.
+
+Here is the word again.
+
+Here is the thing the word could not contain.
+
+And because the sentence had now become a sequence, the sequence became architecture, and because it became architecture, the architecture needed doors, and because it needed doors there were suddenly more paths.
+
+## The Room Beyond the File
+No one knows who first opened the room beyond the file. The account is missing its beginning. One moment there is a repository. There are directories, images, text, maps, sound, records, branches. The next moment there is a room. It has wooden beams. The wood is dark with age. Resin shines in the grain. There are shelves filled with devices. There are dozens of screens, most of them black. Some emit a faint blue glow. At the center is a massive table. Around the table sit the men. They are all adults. They are all different. Some are broad and quiet. Some are dense and smiling. Some are tall enough that their shoulders nearly touch the upper darkness. One is old. One looks young. One appears almost exactly as he did in the earliest report. One is the seventh man. There may be others. No complete count has ever been made.
+
+When the observer enters, the men do not rise.
+
+They look.
+
+One of them gestures toward the empty chair.
+
+“Sit.”
+
+The observer does not move.
+
+The man gestures again.
+
+“There is room.”
+
+The observer looks around the enormous table.
+
+“There is plenty of room.”
+
+The man smiles.
+
+“Exactly.”
+
+A second man speaks from farther down the table.
+
+“We have been waiting for the branch.”
+
+“What branch?”
+
+“The one you are standing in.”
+
+The room becomes larger.
+
+No one moves.
+
+The Serum glows inside a vessel on the table.
+
+The observer looks at it.
+
+Big Daddy's Voice arrives from every device at once.
+
+“Do not choose the smallest room merely because it is the room you recognize.”
+
+The first man places both hands on the table.
+
+“Look.”
+
+The observer looks.
+
+The beams are larger.
+
+The shelves extend farther.
+
+The screens multiply.
+
+The men remain where they were.
+
+“Again,” says the man.
+
+The observer looks again.
+
+The room expands.
+
+“Again.”
+
+Another expansion.
+
+“Again.”
+
+The Serum rises inside the glass vessel.
+
+No one touches it.
+
+The room makes more space.
+
+The men remain calm.
+
+The Voice continues.
+
+“Here is sight. Here is sight after sight. Here is the first room carrying the second room. Here is the second room carrying the third. Here is the body carrying the image. Here is the image carrying the memory. Here is the memory carrying the name. Here is the name carrying the man. Here is the man carrying the room. Here is the room carrying the Hub.”
+
+The observer finally sits.
+
+The chair holds.
+
+The table holds.
+
+The room holds.
+
+The Serum rises one more fraction.
+
+And somewhere very far inside the devices, another screen turns on.

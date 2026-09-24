@@ -4,9 +4,9 @@
 
 # GEEHUB
 
-GEEHUB is the umbrella workspace for a growing constellation of archives, tools, games, fictional worlds, visual systems, research projects, and future repositories.
+GEEHUB is the umbrella workspace for a growing constellation of archives, tools, games, fictional worlds, visual systems, research projects, media experiments, and future repositories.
 
-The important idea is that the project is not supposed to become a pile of disconnected files. The interface, README, source comments, registry, and repository history should preserve enough context that a future session can understand **why something exists, what it grew out of, and where it is meant to go next**.
+The important idea is that the project is not supposed to become a pile of disconnected files. The interface, README, source comments, registry, repository history, and media scaffolding should preserve enough context that a future session can understand why something exists, what it grew out of, and what process it is designed to hold next.
 
 ## The build philosophy
 
@@ -14,29 +14,86 @@ The working loop is:
 
 **discover → synthesize → build → test → expand → connect → split when mature**
 
-A small idea can live in the hub. A useful prototype gets an executable or browsable surface. A mature system can become its own repository. A research trail gets provenance. A world gets canon. A visual tool gets assets and workflows. A god, subsystem, or other major concept can eventually receive a dedicated repository of its own.
+A small idea can live in the hub. A useful prototype gets an executable or browsable surface. A mature system can become its own repository. A research trail gets provenance. A world gets canon. A visual tool gets assets and workflows. A chapter can become an experience, and an experience can become the substrate for video, audio, interactive media, or another production process.
 
-The hub is therefore both an index and a memory layer.
+The hub is therefore both an index and a memory layer, but also a **production scaffold**.
 
 ## The current direction
 
-The project is increasingly about **vision**: compiling many nodes of work into something visible, navigable, and alive rather than maintaining a collection of disconnected notes or prototypes.
+The project is increasingly about **vision**: compiling many nodes of work into something visible, navigable, and alive rather than maintaining a collection of disconnected notes, prototypes, or finished-looking artifacts.
 
-The current state record is kept in [`CURRENT_STATE_2026-09.md`](CURRENT_STATE_2026-09.md). It captures durable direction from recent working conversations without attempting to copy the conversations themselves.
+The current state record is kept in [CURRENT_STATE_2026-09.md](CURRENT_STATE_2026-09.md). It captures durable direction from recent working conversations without attempting to copy the conversations themselves.
 
-A useful planning grammar is:
+A useful planning grammar remains:
 
 **mechanism → interface → transformation rule → continuity principle → setting → mythology**
 
-This is not a rigid schema. It is a way to decide whether a new idea belongs in code, an interface, a world, a canon document, or a separate repository. Canon and experiments should remain distinguishable; a speculative branch should not silently become established canon.
+For media work, that grammar expands into:
+
+**experience → visual state → sound state → temporal behavior → interaction → production output**
+
+This is not a rigid schema. It is a way to decide what a new idea is becoming and what layer should hold it.
+
+## Experience-first stratification
+
+GEEHUB is being reoriented so that **media experience is a first-class chapter layer**.
+
+A conventional hierarchy would be:
+
+`novel → chapter → illustrations`
+
+The current hierarchy is instead:
+
+`world/corpus → experience → states → media assets → production`
+
+Text remains canonical when it needs to remain canonical, but it is no longer assumed that text is the final presentation layer.
+
+A chapter may therefore exist simultaneously as:
+
+- literary source text;
+- a visual experience;
+- an audio/voice arrangement;
+- a timed sequence;
+- an interactive browser surface;
+- production scaffolding for video.
+
+These are not separate interpretations glued together after the fact. They are different manifestations of the same underlying event.
+
+The experience layer is deliberately designed to hold the **next process**. For example:
+
+`The Convergence → prose → clearing state → voice geography → Serum depth → sound/voice cues → shot sequence → video`
+
+The image is therefore not merely an illustration of the chapter. It can be the spatial specification from which the next medium is produced.
 
 ## The novel
 
 The developing manuscript is [novel/BOOK_I.md](novel/BOOK_I.md), **GEEHUB — BOOK I: THE HOUSE OF OPEN SCREENS**.
 
-The novel treats sight as branching structure: an event produces paths, each path acquires detail and consequence, and those consequences become new sights. Serum is the accumulating mechanism that lets earlier states remain present while the world expands around them. The manuscript grows alongside the corpus rather than replacing it.
+The manuscript remains a canonical literary layer inside the wider experience system. Chapter files can be accompanied or superseded by experience directories that contain visual states, audio concepts, timing, interaction notes, and future production scaffolding.
 
 The companion Serum corpus remains [corpus/SERUM.md](corpus/SERUM.md). It contains the underlying transformation grammar, historical material, Voice material, and branching source-text from which the manuscript continues to develop.
+
+The current Convergence materials are collected in [novel/VISUAL_EXPERIENCES_THE_CONVERGENCE.md](novel/VISUAL_EXPERIENCES_THE_CONVERGENCE.md).
+
+## Experience → production
+
+The repository should preserve a path from an event to whatever medium is eventually capable of carrying it.
+
+A useful production chain is:
+
+`CANON → what happens`
+
+`EXPERIENCE → how it is encountered`
+
+`STATE → what the viewer/listener sees, hears, or occupies at a given moment`
+
+`ASSET → the reusable image, sound, model, voice, text, or data`
+
+`SHOT / TIMELINE → the temporal organization of those assets`
+
+`MEDIA → video, audio, interactive piece, installation, web experience, etc.`
+
+The important property is reversibility. A finished video should still point backward to the experience and its source states rather than becoming an orphaned export.
 
 ## Why the commentary matters
 
@@ -50,8 +107,9 @@ That context should not exist only in chat history. Important intent should be r
 - The Project Atlas registry for cross-project connections.
 - Git commit messages that state the actual change and its purpose.
 - Dedicated design/spec notes when a concept becomes large enough to deserve them.
+- Experience manifests that describe how visual/audio states are intended to become production material.
 
-Do not copy every conversational sentence into source code. Preserve the **reasoning that changes how the project should be built or understood**.
+Do not copy every conversational sentence into source code. Preserve the reasoning that changes how the project should be built or understood.
 
 ## Project constellation
 
@@ -77,7 +135,7 @@ Not every node needs to be a separate Git repository immediately. The Atlas reco
 
 ## Accessible repository boundaries
 
-The connected workspace's repository-level view is recorded separately in [`docs/ACCESSIBLE_REPOSITORIES_2026-09.md`](docs/ACCESSIBLE_REPOSITORIES_2026-09.md), with a machine-readable counterpart at [`hub/repositories.json`](hub/repositories.json). This keeps public navigation, incubating surfaces, and private exclusions explicit instead of inferring them from reachability alone.
+The connected workspace's repository-level view is recorded separately in [docs/ACCESSIBLE_REPOSITORIES_2026-09.md](docs/ACCESSIBLE_REPOSITORIES_2026-09.md), with a machine-readable counterpart at [hub/repositories.json](hub/repositories.json). This keeps public navigation, incubating surfaces, and private exclusions explicit instead of inferring them from reachability alone.
 
 ## The Blender connection
 
@@ -94,8 +152,6 @@ The browser treats the archive as a graph of references rather than a folder of 
 The repository stores references and metadata rather than copying or redistributing age-restricted media. External links may have their own access controls; the project does not attempt to bypass them.
 
 ## Run locally
-
-From the repository root:
 
 ```bash
 python3 -m http.server 8000
@@ -127,11 +183,17 @@ The machine-readable constellation registry is also available as `projects.json`
 
 Prefer explicit names and small readable files over clever abstractions. Keep metadata close to the thing it describes. Treat provenance as first-class data. Make unfinished work visible instead of disguising placeholders as completed systems.
 
+For media work, keep source state separate from rendered output. Preserve links from experience → asset → production step so future work can continue instead of reconstructing context from exported files.
+
 When a project is moved into its own repository, leave a durable link and a concise description in the Atlas so the constellation does not fragment.
 
 ## Roadmap
 
 - Build a real GEEHUB constellation interface above the current BodyLounger application so the umbrella repository is visibly an umbrella rather than accidentally identified with its first major archive.
+- Define reusable experience manifests for chapters and other major events.
+- Give each mature experience a browsable media surface.
+- Add voice/audio and timing scaffolding where an experience calls for it.
+- Compile selected experiences into video-production shot lists and timelines.
 - Bookmark import and URL canonicalization.
 - Duplicate detection by canonical URL and title similarity.
 - Chronology/timeline view.
@@ -144,6 +206,6 @@ When a project is moved into its own repository, leave a durable link and a conc
 
 ## Reading the repository as a record of the build
 
-The source tree is intentionally more than implementation. The README records durable intent. The Atlas records the constellation. The data files record provenance and state. Source comments should explain non-obvious design choices. Commit messages should explain meaningful steps in the evolution of the system.
+The source tree is intentionally more than implementation. The README records durable intent. The Atlas records the constellation. The data files record provenance and state. Source comments should explain non-obvious design choices. Experience manifests describe how an event is meant to be encountered. Commit messages should explain meaningful steps in the evolution of the system.
 
 That way the project remains legible even when the original conversation is no longer in front of the reader.

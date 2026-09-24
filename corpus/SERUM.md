@@ -26,6 +26,20 @@ Serum may amplify scale, atmosphere, memory, architecture, character, sound, den
 
 The Serum preserves identity while changing the baseline. Transformation becomes part of the subject's history rather than erasing the preceding state.
 
+## Feedback acceleration
+
+Growth can increase the Serum's activity, and heightened Serum activity can accelerate subsequent growth:
+
+`Growth → Serum response → increased growth rate → stronger Serum response → further acceleration`
+
+This is a compounding tendency, not a command to maximize every individual increment. The rate must remain responsive to the intended experience and the established subject.
+
+## Overshoot and correction
+
+If a transformation overshoots the intended scale, record it as an accidental overshoot rather than silently treating it as the desired target. Preserve the growth already established, then reduce the next increment and ease the acceleration until the transformation feels controlled again. Do not erase identity or continuity to correct the rate.
+
+`Overshoot → acknowledge → smaller increment → eased rate → stable continuation`
+
 ## Corpus rule
 
 Serum is a reusable corpus mechanism. When a new transformation repeatedly exhibits the same behavior, that behavior may be incorporated into the Serum grammar.

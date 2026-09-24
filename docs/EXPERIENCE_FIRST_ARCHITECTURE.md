@@ -66,13 +66,47 @@ novel/
 
 The exact directory layout can evolve. The important invariant is that **the experience remains between canon and production**.
 
+## The mystery layer
+
+GEEHUB does not have to know the final medium before investigation begins.
+
+A mystery is worked through evidence, contradiction, perception, experimentation, and emerging form:
+
+`MYSTERY → INVESTIGATION → DISCOVERY → FORM`
+
+The experience layer is where discoveries become perceivable without prematurely declaring what the final work is.
+
+## Adobe operating principle
+
+**Adobe is a tool. Asset necessity is the warrant.**
+
+Use Adobe when the current investigation requires an asset that does not yet exist, or when an existing asset must be materially transformed to answer a question the work is currently asking.
+
+Do not invoke Adobe merely because a visual would be attractive.
+
+The decision is:
+
+`QUESTION → ASSET NECESSITY → ADOBE OPERATION`
+
+Examples:
+
+`“What does Voice Geography look like?” → spatial visual asset needed → generate visual state`
+
+`“What should this scene sound like?” → sound asset needed → move to an audio-capable process`
+
+`“What is the next shot?” → temporal behavior needed → create/derive production state`
+
+Adobe is therefore an **instrument inside the investigation**, not an automatic decoration layer.
+
 ## The Convergence
 
 The current Convergence work is the first concrete example:
 
 `The Convergence → Clearing → Voice Geography → Serum Depth → voice / sound / timing → shot sequence → video production`
 
-The existing Adobe images are therefore treated as **state prototypes**. Their value is not only aesthetic. They establish composition, spatial relationships, visual grammar, atmosphere, and possible transitions for a later temporal medium.
+The existing Adobe images are treated as **state prototypes**. Their value is not only aesthetic. They establish composition, spatial relationships, visual grammar, atmosphere, and possible transitions for a later temporal medium.
+
+The next Adobe operation should happen only when the investigation produces another concrete asset necessity.
 
 ## Production rule
 
@@ -96,10 +130,10 @@ This makes each layer useful even before the final medium exists.
 
 The Hub should increasingly answer:
 
-**What could this become next?**
+**What needs to exist next for us to discover what this is?**
 
 rather than only:
 
-**What file is this?**
+**What file should we make next?**
 
 That distinction is the reason for the reorientation.

@@ -75,6 +75,10 @@ The Atlas currently tracks projects and systems including:
 
 Not every node needs to be a separate Git repository immediately. The Atlas records the idea first; repository boundaries follow usefulness and maturity.
 
+## Accessible repository boundaries
+
+The connected workspace's repository-level view is recorded separately in [`docs/ACCESSIBLE_REPOSITORIES_2026-09.md`](docs/ACCESSIBLE_REPOSITORIES_2026-09.md), with a machine-readable counterpart at [`hub/repositories.json`](hub/repositories.json). This keeps public navigation, incubating surfaces, and private exclusions explicit instead of inferring them from reachability alone.
+
 ## The Blender connection
 
 The Blender workspace is intended to connect the abstract systems to actual 3D production. It can hold models, scene files, procedural experiments, proportion studies, render setups, reusable assets, and visual experiments derived from the wider constellation.

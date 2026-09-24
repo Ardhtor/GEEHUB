@@ -1,0 +1,52 @@
+{
+  "id": "natural-land-map",
+  "name": "NATURAL LAND MAP",
+  "status": "archived",
+  "purpose": "Persistent natural-land archive preserving geostructural information as both spatial data and narrative substrate.",
+  "representation": "concrete-abstract-coordinate-archive",
+  "coordinate_system": {
+    "type": "normalized_3d",
+    "axes": {
+      "x": "east_west",
+      "y": "elevation",
+      "z": "north_south"
+    },
+    "units": "world_relative",
+    "paint_is_data": true,
+    "labels_are_semantic": true
+  },
+  "geostructure": {
+    "structural_mass": "stone",
+    "ecological_surface": "lichen",
+    "soil": "derived_from_weathering_and_lichen_activity",
+    "water": "terrain_carved",
+    "vegetation": "subordinate_to_geostructure",
+    "preserve": [
+      "mass",
+      "elevation",
+      "fracture",
+      "ridge",
+      "basin",
+      "seam",
+      "watercourse",
+      "passage",
+      "surface_cover",
+      "spatial_relation"
+    ]
+  },
+  "natural_map_layers": [
+    "STONE_MASS",
+    "ELEVATION",
+    "FRACTURE",
+    "LICHEN_FIELD",
+    "WEATHERING",
+    "SOIL_DERIVATION",
+    "WATER_FLOW",
+    "PASSAGE",
+    "VEGETATION"
+  ],
+  "archive_rule": "Do not flatten the land into decorative description. Preserve the underlying structural relationships so the map remains reconstructible.",
+  "narrative_rule": "Coordinates may be encountered as places. Encounters may append memory and consequence without destroying the underlying geostructure.",
+  "continuity": "CONCRETE COORDINATE -> NATURAL STRUCTURE -> ENCOUNTER -> MEMORY -> MAP HISTORY",
+  "source": "./geo-cyberspace/kingdom-land.json"
+}

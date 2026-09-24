@@ -2399,3 +2399,52 @@ Outside, seven men were walking toward the horizon.
 
 The city followed them.
 
+
+
+## Chapter XXI: The Serum
+
+The room had been quiet until they saw the Serum. It stood in the center of the table inside a glass vessel that none of them remembered placing there, thick and luminous, moving almost imperceptibly against itself as though the substance possessed a private gravity. The seven men gathered around it without speaking. Each saw something different in it. One saw a cure. One saw power. One saw an opportunity. One saw a terrible mistake waiting to happen. The largest man saw the reflection of all seven of them bending around the vessel, their bodies distorted by the glass, and understood before anyone said anything that they were already fighting over it.
+
+“Nobody touches it,” he said.
+
+“You don't get to decide that,” said another.
+
+“Neither do you.”
+
+“Then who does?”
+
+“The Serum.”
+
+That answer changed the room. They looked back at the vessel. The substance had begun to rise. Not spill, not boil, not react to heat: rise, slowly climbing the inside of the glass as though the vessel itself had become too small.
+
+“It’s responding to us,” one of them whispered.
+
+“No,” said the largest man. “We’re responding to it.”
+
+The argument broke open. One man wanted to destroy the vessel. Another seized it and held it against his chest. Two others tried to pull it away. Someone knocked the table sideways. Glass struck the floor but did not break. The Serum remained suspended inside its container, perfectly intact, shining between them.
+
+“Look at us,” one of the men said. “This is already changing us.”
+
+“Then we stop it.”
+
+“How?”
+
+Nobody answered.
+
+The seventh man had been silent until then. He stepped forward and placed his palm against the glass. The Serum moved toward him. Every man in the room saw it happen. It leaned toward his hand like a living thing recognizing someone.
+
+“It chose him,” one said.
+
+“No,” said another. “It chose all of us.”
+
+Then the walls creaked. The ceiling lifted several inches. The table stretched beneath their hands. The room itself expanded around them, accommodating the conflict as though the building had understood what they were arguing about and decided there must be more space.
+
+The men stopped fighting. For a moment they simply stood there, seven silhouettes around the glowing vessel, each seeing in it a different future and none willing to surrender his claim upon what that future might become.
+
+Then the largest man reached for it.
+
+“If we keep fighting over who owns it,” he said, “we’ll never find out what it actually does.”
+
+The Serum brightened.
+
+Somewhere beyond the walls, another door opened.

@@ -26,6 +26,14 @@ A useful planning grammar is:
 
 This is not a rigid schema. It is a way to decide whether a new idea belongs in code, an interface, a world, a canon document, or a separate repository. Canon and experiments should remain distinguishable; a speculative branch should not silently become established canon.
 
+## The novel
+
+The developing manuscript is [novel/BOOK_I.md](novel/BOOK_I.md), **GEEHUB — BOOK I: THE HOUSE OF OPEN SCREENS**.
+
+The novel treats sight as branching structure: an event produces paths, each path acquires detail and consequence, and those consequences become new sights. Serum is the accumulating mechanism that lets earlier states remain present while the world expands around them. The manuscript grows alongside the corpus rather than replacing it.
+
+The companion Serum corpus remains [corpus/SERUM.md](corpus/SERUM.md). It contains the underlying transformation grammar, historical material, Voice material, and branching source-text from which the manuscript continues to develop.
+
 ## Why the commentary matters
 
 The conversations that produce these projects contain design decisions that are easy to lose: why a feature was added, what aesthetic was being chased, what failed before, what the next experiment was supposed to test, and which concepts are related.

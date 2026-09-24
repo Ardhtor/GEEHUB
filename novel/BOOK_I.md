@@ -2448,3 +2448,16 @@ Then the largest man reached for it.
 The Serum brightened.
 
 Somewhere beyond the walls, another door opened.
+
+
+The change began in the chest. It was not sudden enough to be called an explosion, but it was too deliberate to be mistaken for ordinary growth. The largest man felt his sternum press forward as his torso broadened around it, his chest widening from shoulder to shoulder until the shirt across him pulled tight. The others watched the fabric change first, seams drawing outward, then the body beneath it continuing past the dimensions the room had been built to accommodate. His chest became broader, deeper, wider, and the space around him answered by widening with it. The table moved back. The walls eased apart. The doorway grew taller. He breathed once, slowly, and the room seemed to breathe with him.
+
+“More?” someone asked.
+
+The largest man looked down at himself, then toward the Serum.
+
+The Serum rose another fraction.
+
+“Apparently.”
+
+His chest widened again.

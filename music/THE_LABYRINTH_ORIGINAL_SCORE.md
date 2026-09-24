@@ -1,137 +1,123 @@
-# THE LABYRINTH — Original Score
+# THE LABYRINTH — Realism Pass
 
-A Giacchino-adjacent cinematic vocabulary, but an original score: mystery, propulsion, warm orchestral melody, and harmonic unease.
+The score inhabits the same physical world as the realistic Adobe compositions: real forest, real bodies, real light, real architecture, and transformations that feel photographed rather than fantastical.
 
-## I. THE FOREST REMEMBERS
-Tempo: quarter note = 58. Meter: 4/4. Key center: D minor, never fully resolving.
+## I. REDWOOD AIR
+Tempo: ♩ = 54. D minor / modal.
 
-Cellos: D2 — A2 — C3 — Bb2, long separated tones, each entering slightly after the previous one.
+Cellos: low D–A fifths, arco, very soft.
+Bass: occasional D1, never metronomic.
+Violas: sustained F3–A3.
+Solo bass clarinet: D3 → C3 → A2.
 
-Violas: sustained A3 → G3 → F3.
+Piano: isolated felt notes, D4 — A4 — C5.
 
-Bass clarinet:
-D3 . . A2 | C3 . Bb2 . | D3 . . F3
+No synthetic atmosphere. Natural forest/room tone remains audible.
 
-Harp: isolated harmonics on D, A, C.
-
-Piano:
-D4 — A4 — C5
-(rest)
-D4 — F4 — Eb5
-
-The forest feels enormous without becoming overtly threatening. The pulse is almost imperceptible.
+Visual correspondence: wide realistic redwood shot; men small against enormous trunks; late afternoon light; no visible supernatural effect.
 
 ## II. THE DOOR
-Tempo: quarter note = 66.
+Tempo: ♩ = 62.
 
-Contrabasses:
-D1 — D1 — A0 — D1
+Contrabasses: D1 — D1 — A0 — D1.
 
-French horns:
-D4 – F4 – A4 – C5, with the C5 held too long.
+French horn, intimate rather than heroic:
+D4 – F4 – A4.
+
+The expected C5 is delayed.
 
 Violins:
-A4 B♭4 A4 F4
-A4 C5 D5
+A4 — B♭4 — A4 — F4
+A4 — C5 — D5
 
-Second phrase:
-A4 B♭4 A4 E5
-F5 — E5 — D5
+One timpani D arrives only when the physical door moves.
 
-Timpani: one soft D at the end of every eighth bar.
+The score does not announce the impossible door. The audience should initially wonder whether anything unusual has happened.
 
-When the door opens, remove the orchestra except one high violin harmonic.
+## III. THE ROOM BEHIND THE TREE
+Tempo: ♩ = 68.
 
-## III. THE HUB
-Tempo: quarter note = 72.
-
-Piano ostinato:
+Piano:
 D3 A3 D4 | F3 A3 C4 |
 D3 A3 E4 | G3 A3 D4
 
-Marimba quietly doubles the upper notes.
+Muted strings gradually add the harmony.
 
-Low strings:
+No overt fantasy celesta. Use lightly recorded piano harmonic / high percussion texture.
+
 D — Bb — F — C
-then
+becomes
 D — B natural — F — C
 
-The B natural is the first indication that the musical world has changed.
+The listener notices the change before understanding it.
 
-Celesta:
-D5 F5 A5
-C6 A5 F5
-E5 G5 B5
-D6 — C6
+## IV. LUKE / CONTINUITY
+No swelling fantasy theme.
 
-The melody should feel almost beautiful enough to trust.
-
-## IV. CONTINUITY
 Solo horn:
 D4 — F4 — A4 — G4
 F4 — E4 — D4
 
-Strings answer:
-A3 C4 D4
-F4 E4 D4
+Cellos answer:
+A3 — C4 — D4.
 
-The melody repeats, adding one instrumental layer each time: horn → violas → cellos → violins → full strings.
+The theme grows through additional players rather than volume. The sensation is accumulating physical presence.
 
-It never becomes triumphant. It becomes inevitable.
+If Luke changes in the scene, the music changes proportionally but almost imperceptibly: longer resonance, denser low strings, slightly greater bow pressure. Nothing explodes.
 
 ## V. UNKNOWN
-Tempo disappears. No percussion.
+Tempo becomes free.
 
 Bass clarinet:
-D2 . . .
-Eb2 . . .
-D2 . . .
+D2
+Eb2
+D2
 
-Piano: C#4.
+Piano:
+C#4.
 
 Silence.
 
-C#4 again.
+C#4.
 
-Knocking rhythm in pizzicato cellos:
-● ● ● / ● ● ● / ●
+The knocking rhythm comes from actual wood / structure:
+three knocks / three knocks / one.
 
-A low cluster enters:
-D1 + Eb1 + A1
+A low D–Eb interval enters beneath room tone.
 
-Violins sustain A6.
+No monster chord. No jump scare.
 
-The horn whispers the original Door motif with its final note missing.
-
-Three knocks. Silence.
-Three knocks. Silence.
-One knock.
-
-The orchestra stops.
-
-Luke opens the door.
+Everything remains quiet enough for breathing to remain audible.
 
 ## VI. THE CHOICE
-Full orchestra enters with the original four-note forest figure expanded across six octaves:
+The original four-note figure returns:
 
 D — F — A — C
+
+distributed naturally across the orchestra.
 
 Bass: D
 Cellos: F
 Violas: A
 Violins: C
 
-Then the melody finally resolves:
+The final D is not triumph. It is the scene returning to physical reality.
 
-D — F — A — D.
+One piano note.
+Room tone.
+Forest.
+Cut.
 
-Not victory. Recognition.
+## REALISM RULE
 
-The last sound is a single piano D, allowed to decay naturally.
+**Nothing exists merely to look or sound cinematic.**
 
-No final chord.
+Light illuminates something.
+Weight occupies space.
+Bodies interact with surfaces.
+Growth alters clothing, posture, distance, and acoustics.
+Music responds to physical change.
 
-## MOTIF RULE
-The Door motif is the Labyrinth motif. Its missing final note belongs to the UNKNOWN node. The score therefore treats the unknown not as a musical absence, but as an unresolved structural possibility.
+The supernatural enters through continuity, not spectacle.
 
-Status: original / experimental / linked to GEEHUB novel chapter “The Labyrinth Continues.”
+Status: original / experimental / visual-realism pass / linked to “The Labyrinth Continues.”

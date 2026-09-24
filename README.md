@@ -1,3 +1,7 @@
+> ## SERUM MAKES GROWING BIGGER.
+>
+> The core Serum mantra: growth becomes the mechanism for further growth.
+
 # GEEHUB
 
 GEEHUB is the umbrella workspace for a growing constellation of archives, tools, games, fictional worlds, visual systems, research projects, and future repositories.

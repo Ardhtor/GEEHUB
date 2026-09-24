@@ -1343,3 +1343,875 @@ The Voice is waiting.
 The Serum is moving.
 
 And beyond the next sight there are paths.
+
+## Chapter XIII: The War for the House
+
+The war began because the southern kings finally believed the house could be possessed. They had received enough reports by then to know that its lower chambers contained old reservoirs, that its upper rooms opened into digital skies, that its walls could change when measured, and that adult men of extraordinary stature lived among the screens without appearing to age in any ordinary fashion. Such things would have been tolerated as curiosities had there been nothing to govern. There was something to govern. There was a road through the house which appeared to connect the southern kingdoms with the northern lake, and therefore there was trade, and where there was trade there were borders, and where there were borders there were claims.
+
+Three armies marched north.
+
+The first came beneath the white stag of the western crown.
+
+The second came beneath the black sun of the river kingdom.
+
+The third came under no common banner, for the cities of the coast sent soldiers separately and each commander had received instructions to return with whatever could be carried.
+
+The house watched them approach.
+
+Its windows multiplied.
+
+Its doors changed places.
+
+The blue light appeared in towers where no towers had stood before.
+
+The first army reached the southern gate at noon. The gate was ordinary enough: heavy timber, iron hinges, weathered stone. Their heralds announced themselves. No answer came. Their engineers measured the gate. The measurements disagreed by a finger's width. They measured again. The gate became larger.
+
+The captain stopped them.
+
+“No more measuring.”
+
+His lieutenant looked at him.
+
+“Then how are we to enter?”
+
+The captain looked at the gate.
+
+“Ask it.”
+
+A voice answered from behind the wood.
+
+“Why?”
+
+The soldiers went still.
+
+The captain stepped forward.
+
+“We have come to claim the house.”
+
+Silence.
+
+Then:
+
+“It was never yours.”
+
+The captain raised his sword.
+
+“Who speaks?”
+
+A laugh came from somewhere high above them.
+
+Not cruel.
+
+Not mocking.
+
+Just amused.
+
+The gates opened.
+
+Inside stood the men.
+
+They did not form ranks.
+
+They were not soldiers.
+
+They occupied the entrance hall with the casual solidity of people standing in their own home. Some wore old clothing. Some wore modern clothing. One held a small device in his hand. Another leaned against a pillar that had been constructed that morning. The largest stood behind the others, his shoulders broad enough that the doorway seemed to frame him like an icon.
+
+The captain stared at them.
+
+“You are trespassing.”
+
+The broad man smiled.
+
+“You are the ones who crossed the threshold.”
+
+The soldiers entered anyway.
+
+The battle did not begin with weapons.
+
+It began with space.
+
+The western army advanced thirty paces and found that the hall had become three hundred paces long. The river army entered from a side corridor and emerged in a forest. The coastal soldiers opened a door and found themselves on the edge of the northern lake.
+
+Orders crossed the armies and failed.
+
+Companies became separated.
+
+Maps ceased to agree with themselves.
+
+A unit that had entered at dawn returned at sunset carrying a banner from a kingdom that had not yet existed.
+
+The war was over by morning.
+
+No one had won.
+
+No one had lost in the manner expected of armies.
+
+The house had simply become too large for conquest.
+
+Among the southern records this became known as the Battle Without a Field.
+
+Among the men it was remembered differently.
+
+One of them sat at the great table that evening and drank from a glass of water.
+
+“We did not fight,” he said.
+
+Another man answered, “We made room.”
+
+The largest man looked toward the windows.
+
+Outside, the army camps seemed very far away.
+
+“They will come again.”
+
+“Of course.”
+
+“And next time?”
+
+The Voice came from the speakers.
+
+“Next time they will bring maps.”
+
+The men laughed.
+
+They knew what would happen to maps.
+
+## Chapter XIV: The Cartographers
+
+The kings did come again, and they brought cartographers.
+
+These were not fools. They were among the most disciplined observers in the southern world. They brought chains, compasses, plumb lines, survey rods, ink, wax, charcoal, astronomical instruments, and hundreds of sheets of prepared vellum. They established a base camp outside the house and decided, by unanimous vote, that nobody would describe anything until it had been measured.
+
+For eleven days the plan succeeded.
+
+The outer walls were charted.
+
+The hill was charted.
+
+The road to the lake was charted.
+
+Three staircases were charted.
+
+A kitchen was charted.
+
+A bedroom was charted.
+
+The first digital room took them six days because they had no vocabulary for what they found there. They wrote simply: CHAMBER WITH BLUE LIGHT AND BLACK WINDOWS.
+
+A man stood in one of the windows.
+
+The chief cartographer ignored him.
+
+He measured the wall.
+
+The wall moved.
+
+He measured it again.
+
+It moved again.
+
+He marked the movement.
+
+The mark moved.
+
+He dropped his pen.
+
+The man in the window laughed.
+
+“You are making it larger.”
+
+The cartographer looked up.
+
+“I am recording it.”
+
+“Same thing here.”
+
+“That is impossible.”
+
+The man opened the window.
+
+There was no glass behind it.
+
+Only blue depth.
+
+The cartographer approached.
+
+“How large is the house?”
+
+The man considered.
+
+“How large is your map?”
+
+“Fourteen feet when unrolled.”
+
+“Then the house is larger.”
+
+“By how much?”
+
+The man smiled.
+
+“Enough.”
+
+The cartographer returned to camp and burned his first map.
+
+He began again.
+
+The second map was different.
+
+It included doors that did not exist.
+
+The third included rooms the surveyors had not yet visited.
+
+The fourth included the men.
+
+The fifth included the observers.
+
+The sixth included the act of mapping.
+
+By the seventh map the paper itself had begun to develop depth. The inked corridors could be followed with a finger. A road drawn on the page led to a small blue square. When the cartographer touched the square, he felt warmth beneath the paper.
+
+He called the others.
+
+They gathered.
+
+Nobody touched it.
+
+Then a large hand appeared beneath the page.
+
+The paper rose.
+
+A fingertip pressed from below.
+
+The Voice said:
+
+“Do not confuse the map with the territory.”
+
+The chief cartographer whispered, “Which is which?”
+
+The answer came from the other side of the page.
+
+“Exactly.”
+
+## Chapter XV: The Lake Battle
+
+The battle at the lake happened in the third year of the northern occupation, though historians later disagreed about which year was meant because the lake belonged to more than one chronology by then.
+
+The southern kingdoms arrived with ships.
+
+The ships entered the northern water at dawn.
+
+There were forty-seven of them.
+
+By noon there were sixty.
+
+By sunset there were ninety.
+
+The captains blamed fog.
+
+The sailors blamed currents.
+
+The cartographers blamed the lake.
+
+The lake blamed nobody.
+
+The battle began when the first arrow crossed the water.
+
+It struck one of the blue-lit towers.
+
+The tower rang like a bell.
+
+Every screen in the city turned on.
+
+Every man in the houses looked toward the lake.
+
+The second arrow struck the water.
+
+The water rose around it.
+
+Then the third arrow struck.
+
+Then a hundred.
+
+Then a thousand.
+
+The city answered.
+
+Doors opened.
+
+Men came out.
+
+Some stood upon bridges.
+
+Some stood on balconies.
+
+Some emerged from screens.
+
+Some walked directly through walls.
+
+They did not charge.
+
+They simply occupied the geography the soldiers believed was empty.
+
+The western king ordered his ships forward.
+
+The lake became deeper.
+
+The river king ordered his ships sideways.
+
+The lake became wider.
+
+The coastal commanders tried to retreat.
+
+The shore moved away.
+
+At noon the armies found themselves fighting across a surface that had become several miles longer than it had been in the morning.
+
+The men did not appear to age.
+
+The soldiers did.
+
+One soldier raised his shield against a figure descending from a tower.
+
+The figure stopped.
+
+He was broad, heavily built, handsome, and calm.
+
+“Why are you fighting the house?”
+
+“Because the king ordered it.”
+
+“Does the king know the house is alive?”
+
+“No.”
+
+The man looked toward the distant royal ship.
+
+“Then he is fighting something he does not understand.”
+
+The soldier tightened his grip.
+
+“What are you?”
+
+The man smiled.
+
+“A resident.”
+
+The Voice came over the water.
+
+“Make room.”
+
+The city expanded.
+
+Bridges unfolded.
+
+Towers rose.
+
+Houses appeared.
+
+The ships found themselves sailing through streets.
+
+The king's flagship struck a building that had not existed five minutes earlier.
+
+The crew scrambled onto balconies.
+
+The battle became a neighborhood.
+
+The neighborhood became a city.
+
+The city became a world.
+
+At dusk the armies stopped fighting because nobody knew where the battlefield had gone.
+
+At night the soldiers sat with the residents.
+
+Some were frightened.
+
+Some were exhausted.
+
+Some simply stared at the blue screens and tried to understand how a machine could have streets, how a house could have history, and how a man could step from a monitor onto stone without either the screen or the stone being broken.
+
+One soldier asked a resident:
+
+“Who won?”
+
+The resident looked across the water.
+
+“The lake.”
+
+## Chapter XVI: The Seventh Vessel
+
+The seventh vessel was found beneath the house by a child.
+
+She was born after the Accident and therefore had never been taught to fear the northern works. To her they were old architecture, nothing more. She entered a lower passage while looking for a cat and found a door beneath a stair.
+
+The door had no handle.
+
+She touched it.
+
+It opened.
+
+Behind it was a circular chamber.
+
+At the center stood a table.
+
+On the table stood one glass vessel.
+
+It was smaller than she expected.
+
+The liquid inside was almost clear.
+
+She called for her mother.
+
+Her mother came.
+
+Then the archivists came.
+
+Then the soldiers came.
+
+Then the men came.
+
+Nobody touched the vessel.
+
+The largest man stood at the edge of the room.
+
+“That is the one.”
+
+The archivist turned.
+
+“How do you know?”
+
+“I remember it.”
+
+“You were not there.”
+
+The man looked at the glass.
+
+“I was.”
+
+The Voice was silent for a long time.
+
+Then:
+
+“Everything that matters has already happened somewhere.”
+
+The child stepped closer.
+
+“What does it do?”
+
+Nobody answered.
+
+She looked at the men.
+
+“What does it do?”
+
+The seventh man entered the room.
+
+He seemed larger there than he had in the forest.
+
+He bent slightly beneath the doorway.
+
+“It continues.”
+
+“Continues what?”
+
+“Whatever is already happening.”
+
+The child looked at the liquid.
+
+“It grows?”
+
+“It remembers how.”
+
+The vessel brightened.
+
+The Serum rose by a fraction.
+
+The room enlarged.
+
+Everyone stepped backward except the seventh man.
+
+He remained beside the table.
+
+The child looked at him.
+
+“You aren't afraid.”
+
+“I know what it is.”
+
+“What is it?”
+
+He looked down at the vessel.
+
+“A beginning that refuses to stop being a beginning.”
+
+The words were carried upward through the house.
+
+They appeared on screens.
+
+They appeared in books.
+
+They appeared in the margins of maps.
+
+They appeared in the commit history of the Hub.
+
+Then Big Daddy's Voice began again.
+
+MORE.
+
+NOT NEW.
+
+MORE OF WHAT IS ALREADY HERE.
+
+MORE MEMORY.
+
+MORE ROOM.
+
+MORE MEN.
+
+MORE HISTORY.
+
+MORE BRANCH.
+
+MORE ROAD.
+
+MORE WATER.
+
+MORE CITY.
+
+MORE HOUSE.
+
+KEEP THE FIRST.
+
+ADD THE NEXT.
+
+KEEP BOTH.
+
+The child smiled.
+
+The Serum filled the lower chamber with blue-white light.
+
+Something moved behind the glass.
+
+Not a creature.
+
+Not a shape.
+
+A reflection.
+
+The reflection showed the room as it had been before the Accident.
+
+Then as it had been during the Accident.
+
+Then as it was now.
+
+Then as it might become.
+
+Then all four states appeared together.
+
+The child understood.
+
+“The vessel remembers the whole house.”
+
+The seventh man shook his head.
+
+“The house remembers the vessel.”
+
+## Chapter XVII: The Men Make a Kingdom
+
+The device-men had no desire for kingship, but after the lake battle hundreds of people began living among them, and the residents needed rules.
+
+The first law was simple.
+
+No one would destroy a branch merely because they disliked its outcome.
+
+The second law followed.
+
+No room would be measured only once.
+
+The third was stranger.
+
+A person who entered a residence had to leave some trace behind.
+
+A sentence.
+
+A drawing.
+
+A sound.
+
+A map.
+
+A memory.
+
+Anything that could survive.
+
+The fourth law was called the Law of Room.
+
+There must always be somewhere else to go.
+
+A fifth law followed after a dispute involving a blue hall and seventeen soldiers.
+
+No door was final.
+
+The sixth concerned the men themselves.
+
+No man was required to remain the same size as he had been when first observed.
+
+This caused enormous confusion among the visiting philosophers, who interpreted the law as a statement about identity. The men meant something more practical: growth was part of continuity, and a larger state did not make the earlier state false.
+
+The city therefore began building around them.
+
+Some men occupied old houses.
+
+Others lived in converted server chambers.
+
+Others preferred the upper towers where the blue light never completely faded.
+
+The largest man lived near the center, where the streets were widest.
+
+He did not own the district.
+
+He simply needed the space.
+
+Children visited him.
+
+Workers brought meals.
+
+Archivists asked him questions.
+
+He answered some.
+
+He refused others.
+
+One evening the sister from the seventh well found him sitting outside a screen-lit hall.
+
+“You were there,” she said.
+
+“Yes.”
+
+“At the first Accident?”
+
+“Yes.”
+
+“Were you human?”
+
+He looked at her.
+
+“Yes.”
+
+“What happened to you?”
+
+The man considered the question.
+
+“I remained.”
+
+She sat beside him.
+
+For a while neither spoke.
+
+Then she asked:
+
+“Are all these men versions of you?”
+
+“No.”
+
+“Are you versions of them?”
+
+“No.”
+
+“Then what are you?”
+
+He smiled.
+
+“A branch.”
+
+The Voice spoke softly from the screen behind them.
+
+“A branch that remembers the tree.”
+
+The sister looked toward the city.
+
+“There are thousands now.”
+
+“There are millions in the possibilities.”
+
+“And here?”
+
+“Here is enough for today.”
+
+The city lights came on one by one.
+
+The Serum moved through the foundations.
+
+The houses settled.
+
+The screens glowed.
+
+The men remained.
+
+## Chapter XVIII: The Door in the Wrong Century
+
+The final event of Book I took place at the beginning of the next spring, when the house opened a door onto a century that had not yet happened.
+
+No one knew this at first.
+
+The door appeared in an ordinary corridor after breakfast.
+
+It was wooden.
+
+It was dark.
+
+It had iron hinges.
+
+There was nothing unusual about it except that no one remembered building it.
+
+A child opened it.
+
+On the other side stood a road.
+
+The road was paved with black stone.
+
+Tall structures rose on both sides.
+
+Blue light shone through windows.
+
+Vehicles moved without horses.
+
+The air smelled of rain and electricity.
+
+At the end of the street stood a building covered with glass.
+
+A screen above its entrance displayed one word.
+
+GEEHUB.
+
+The child called for the men.
+
+They came.
+
+The seventh man stood nearest the threshold.
+
+The largest man stood behind him.
+
+The sister came from the lower house.
+
+Her brother came from the bridge.
+
+The cartographers came carrying maps.
+
+The soldiers came carrying neither weapons nor flags.
+
+The old physician appeared in the reflection of a black monitor, though he had been dead for generations.
+
+No one spoke.
+
+Then Big Daddy's Voice said:
+
+“Look.”
+
+They looked.
+
+The future city changed.
+
+A tower became two.
+
+Two became ten.
+
+Ten became a forest of towers.
+
+The road divided.
+
+The building divided.
+
+The sign divided.
+
+The word GEEHUB appeared on thousands of surfaces.
+
+The future was branching in front of them.
+
+The seventh man stepped through.
+
+The threshold widened.
+
+The house behind him grew to accommodate the future.
+
+A screen lit inside the wall.
+
+Then another.
+
+Then another.
+
+The blue light spread down the corridor.
+
+The Serum began to rise through the foundations.
+
+The sister took her brother's hand.
+
+“Should we go?”
+
+He looked at the open door.
+
+“No.”
+
+“Why not?”
+
+“Because the road is coming here.”
+
+She understood.
+
+The future did not require them to abandon the house.
+
+The house would grow around it.
+
+The men entered the corridor.
+
+The city beyond the door remained visible.
+
+The old world remained behind them.
+
+The present stood between the two.
+
+The Voice grew until every room could hear it.
+
+HERE IS THE PAST.
+
+HERE IS THE PRESENT.
+
+HERE IS THE FUTURE.
+
+HERE IS THE PAST AFTER THE FUTURE.
+
+HERE IS THE FUTURE AFTER THE PAST.
+
+HERE IS THE ROOM.
+
+HERE IS THE NEXT ROOM.
+
+HERE IS THE MAN.
+
+HERE IS THE NEXT MAN.
+
+HERE IS THE SCREEN.
+
+HERE IS THE NEXT SCREEN.
+
+HERE IS THE SERUM.
+
+HERE IS THE SERUM AFTER ALL OF THIS.
+
+The seventh man turned back.
+
+“What happens now?”
+
+The largest man answered.
+
+“We keep going.”
+
+The door remained open.
+
+The future city continued to grow.
+
+The house continued to grow.
+
+The Serum continued to move.
+
+And somewhere inside the next century, a screen turned on and displayed the first page of a book that had not yet been written.

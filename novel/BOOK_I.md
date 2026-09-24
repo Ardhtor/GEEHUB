@@ -2461,3 +2461,48 @@ The Serum rose another fraction.
 “Apparently.”
 
 His chest widened again.
+
+
+## Chapter XXII: The Liminal Chest
+
+There was a moment when the change could no longer be called growth and had not yet become anything else. The largest man stood in the widening room with his hands at his sides, listening to the quiet pressure moving through his body. His chest had begun broadening again. Not upward, not outward in any ordinary direction, but across some boundary the room could not name. His shoulders seemed farther apart each time anyone looked away. The plane of his chest widened. The distance between one edge of him and the other became difficult to judge. The others watched without approaching.
+
+The Serum hovered on the table.
+
+“Is he getting bigger?” one asked.
+
+The seventh man shook his head.
+
+“Not exactly.”
+
+“What, then?”
+
+“He's becoming harder to contain in one description.”
+
+The largest man breathed in.
+
+The room expanded.
+
+He breathed out.
+
+The room remained larger.
+
+That was the frightening part. Nothing returned to its former dimensions. The chest had crossed some invisible threshold, and the space around it had accepted the new shape as permanent. The old room had not vanished. It had become the memory of the room.
+
+He looked down at himself.
+
+For an instant he could see both bodies at once: the man who had entered the room, and the broader man standing there now. Neither erased the other. They occupied the same moment.
+
+The Serum brightened.
+
+The others understood that they were standing at a boundary. Behind them was the known shape. Before them was whatever came after it.
+
+The largest man smiled.
+
+“Then let it be both.”
+
+The walls opened another inch.
+
+Nobody moved.
+
+The chapter between one body and the next had begun.

@@ -111,6 +111,16 @@
       "size": 1.42,
       "path": "./research/embodied-scale/colossal-escalation.json",
       "description": "Oversized → room-dominant → building-scale → monumental → landscape-scale → mythic colossus. Identity persists as the world rescales."
+    },
+    {
+      "id": "kingdom-land",
+      "name": "KINGDOM LAND",
+      "kind": "GEOGRAPHY / COORDINATE WORLD",
+      "x": 88,
+      "y": 43,
+      "size": 1.35,
+      "path": "./geo-cyberspace/kingdom-land.json",
+      "description": "Production geography layer: stone structural mass, lichen ecological dominance, and labeled paint coordinates as the source for 3D reconstruction."
     }
   ],
   "pleasureBits": [
@@ -330,5 +340,15 @@
     ],
     "continuity": "Kirk-pleasing material becomes part of the world only when it leaves a trace that can be revisited or transformed.",
     "privacy_boundary": "This is a fictional/creative resonance layer; it does not infer or claim a real person's private preferences."
+  },
+  "geometry": {
+    "kingdomLand": {
+      "source": "./geo-cyberspace/kingdom-land.json",
+      "representation": "spatial-information-coordinate-layer",
+      "paintIsData": true,
+      "coordinateDriven3d": true,
+      "structuralDominant": "stone",
+      "ecologicalDominant": "lichen"
+    }
   }
 }

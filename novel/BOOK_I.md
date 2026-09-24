@@ -2222,3 +2222,180 @@ And somewhere inside the next century, a screen turned on and displayed the firs
 The men left the house at dawn. They did not leave because they had been expelled, nor because the house had become unsafe, nor because anyone had discovered a destination worth reaching. They left because the door was open and because, after everything that had happened inside it, remaining still had begun to feel like another kind of adventure. Seven men went first. The largest walked at the center. The road beyond the threshold was unfamiliar, but each of them recognized something in it: a tree from a forest they had never visited, a tower from a city that had not yet been built, a river that appeared in three different directions at once. They carried no banner. They needed none. Behind them the House remained visible through the morning mist, enormous now, its windows glowing blue through walls that seemed to extend farther each time anyone looked away. “Where are we going?” one of the men asked. The largest man looked toward the horizon. “Somewhere the House has not learned yet.” They walked. By noon they had crossed the first ridge. By evening they found a road made of white stone descending toward a valley filled with enormous trees. At the bottom stood another door. This one was red. It opened before they touched it. Beyond it was a city of men.
 
 The city had been waiting for them.
+
+## Chapter XX: The City of Men
+
+The city was waiting for them because it had known about them before they arrived, although none of its inhabitants could agree on when they had first heard the story. Some said the seven had appeared in an old photograph. Some said their names had been carved into the foundations. One old man claimed he had dreamed of them as a child, walking down the white road beneath trees that had not yet grown. Whatever the origin, the result was the same: when the seven entered the city, people came out to meet them.
+
+The city was enormous and strangely quiet. Its streets were broad enough for processions, but there were no armies. Its houses stood close together beneath towers of dark glass, and blue light passed through the windows as though the buildings were illuminated from within by a distant ocean. Men occupied every level. They leaned from balconies, crossed bridges, worked in workshops, sat at cafés, repaired machines, carried books, argued in doorways, and watched the newcomers with the reserved curiosity of people who had been expecting them for a long time.
+
+A man in a gray coat approached first.
+
+“You are late.”
+
+The largest man stopped.
+
+“Late for what?”
+
+“For the beginning.”
+
+“We thought the beginning already happened.”
+
+The gray-coated man looked past him toward the white road.
+
+“That is what everyone thinks.”
+
+Behind them the red door remained open.
+
+One of the seven turned.
+
+The door had changed.
+
+It was no longer standing at the bottom of the valley. It now stood halfway up the road, then at the crest of the hill, then far behind them, each position visible simultaneously. The men watched it for several seconds.
+
+“Does it always do that?” one asked.
+
+“No,” said the gray-coated man.
+
+“When does it?”
+
+“When someone important arrives.”
+
+The largest man looked at him.
+
+“Important?”
+
+The gray-coated man smiled.
+
+“No. Expansive.”
+
+They entered the city.
+
+The first district was called the Archive, though the buildings contained more than books. There were rooms filled with photographs, machines, fragments of maps, recordings of voices, pieces of architecture, unfinished games, old operating systems, handwritten letters, and objects whose original purposes had been forgotten. Every object had a label. Every label had a history. Every history had a contradiction.
+
+The second district was the Market.
+
+The third was the Garden.
+
+The fourth was called the Muscle Quarter, though nobody could explain why.
+
+The fifth district had no name.
+
+The men were told not to enter it.
+
+Naturally, they entered it before sunset.
+
+Inside they found a long hall with no furniture except a row of screens. Each screen displayed one of the seven men.
+
+Not as they were.
+
+As they might become.
+
+The first screen showed the smallest of them standing beneath an enormous tree.
+
+The second showed another crossing a frozen sea.
+
+The third showed one seated alone in a stadium filled with empty chairs.
+
+The fourth showed a man walking through a machine room while the machines bent toward him.
+
+The fifth showed the sister from the northern house, though she was not among the seven.
+
+The sixth showed the largest man standing beside a mountain.
+
+The seventh screen was black.
+
+One of the men approached it.
+
+“What does mine show?”
+
+The screen remained black.
+
+He touched it.
+
+The image appeared.
+
+It showed the same room.
+
+The same screen.
+
+The same seven men.
+
+They were standing inside the screen watching themselves.
+
+The man stepped back.
+
+The others looked at one another.
+
+Then the Voice spoke.
+
+Not from the speakers.
+
+From the city.
+
+HERE IS ANOTHER ROOM.
+
+The walls moved outward.
+
+The floor extended.
+
+A door appeared.
+
+Behind the door was another city.
+
+This city was larger.
+
+The gray-coated man had followed them.
+
+He stood at the threshold and looked into the new distance.
+
+“That is why we have been waiting.”
+
+The largest man turned.
+
+“For us?”
+
+“For the room.”
+
+“What happens if we enter?”
+
+The gray-coated man looked almost embarrassed.
+
+“We don't know.”
+
+The largest man smiled.
+
+“Then that's an adventure.”
+
+They crossed the threshold.
+
+The city behind them remained.
+
+The city ahead opened.
+
+And for the first time since the seventh well, the Serum moved without being carried by anyone.
+
+It traveled beneath the streets.
+
+It entered the walls.
+
+It passed through screens and pipes and roots.
+
+Everywhere it went, the city made room.
+
+A staircase acquired another flight.
+
+A bridge extended across a river.
+
+A house gained a second floor.
+
+A man sleeping beside a blue monitor woke and found that his room had become twice as large.
+
+He looked around.
+
+He smiled.
+
+Outside, seven men were walking toward the horizon.
+
+The city followed them.
+

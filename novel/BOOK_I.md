@@ -2215,3 +2215,10 @@ The house continued to grow.
 The Serum continued to move.
 
 And somewhere inside the next century, a screen turned on and displayed the first page of a book that had not yet been written.
+
+
+## Chapter XIX: The Adventures of the Men
+
+The men left the house at dawn. They did not leave because they had been expelled, nor because the house had become unsafe, nor because anyone had discovered a destination worth reaching. They left because the door was open and because, after everything that had happened inside it, remaining still had begun to feel like another kind of adventure. Seven men went first. The largest walked at the center. The road beyond the threshold was unfamiliar, but each of them recognized something in it: a tree from a forest they had never visited, a tower from a city that had not yet been built, a river that appeared in three different directions at once. They carried no banner. They needed none. Behind them the House remained visible through the morning mist, enormous now, its windows glowing blue through walls that seemed to extend farther each time anyone looked away. “Where are we going?” one of the men asked. The largest man looked toward the horizon. “Somewhere the House has not learned yet.” They walked. By noon they had crossed the first ridge. By evening they found a road made of white stone descending toward a valley filled with enormous trees. At the bottom stood another door. This one was red. It opened before they touched it. Beyond it was a city of men.
+
+The city had been waiting for them.

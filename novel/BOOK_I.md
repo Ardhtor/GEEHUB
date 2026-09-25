@@ -506,3 +506,205 @@ They had discovered the more frightening question.
 
 Who had been sitting in the chair before they arrived?
 
+
+## Chapter XLI: The Room Before
+
+Nobody entered the room at first. They stood in the doorway with the strange reluctance of people who have finally reached the place they had been describing without knowing it. The room was smaller than memory. That was the first surprise. The walls were close together. The ceiling was low. The blue light seemed almost weak. There was no city outside the windows, no forest beyond the glass, no distant architecture waiting to become important. There was only the chair, the paper, and the faint sound of something electrical continuing to operate somewhere behind the walls.
+
+Tyler looked around. “This is it?”
+
+Luke shook his head. “No. This is before it.”
+
+The distinction changed the room.
+
+Not physically. Nothing moved. But the men understood that they were standing inside a condition rather than a location. The House had not yet decided what it was. The country had not yet learned to remember them. The organism had not yet become visible. Even the chair had not yet acquired its history.
+
+Joseph walked to the wall and placed his palm against it.
+
+Nothing happened.
+
+He smiled.
+
+“That might be the first honest wall we've found.”
+
+Tyler laughed once, quietly.
+
+Luke opened his box. He took out the photograph and held it beside the empty wall. The photograph showed the forest. The wall showed nothing. For a moment the two images seemed to oppose one another: one crowded with history, the other completely without it.
+
+Then Luke turned the photograph around.
+
+The back was blank.
+
+He stared at it.
+
+“I've been carrying the wrong side.”
+
+The Teller understood before anyone answered. A memory was never only the image. It was the direction from which someone approached the image, the hand that carried it, the place where it had been kept, the person who had been present when it mattered.
+
+He took the photograph from Luke.
+
+On the blank side, very slowly, a line appeared.
+
+NOTHING IS REMEMBERED ALONE.
+
+The words faded almost immediately.
+
+Nobody spoke.
+
+Outside the room, somewhere impossibly far away, the organism gave a single pulse.
+
+The chair answered.
+
+It moved one inch toward them.
+
+## Chapter XLII: The First Attention
+
+The chair had been waiting for someone to notice it.
+
+That was the thought that came to the Teller, and he disliked it because it was too simple. The entire country had become enormous. Cities had awakened. An ancient organism had spoken. A seventh man had crossed whatever boundaries existed before them. Surely the beginning could not be something as ordinary as looking at a chair.
+
+But when he sat down, the world became quiet.
+
+Not silent.
+
+Quiet.
+
+There was a difference.
+
+The blue electrical hum disappeared beneath the sound of breathing. Joseph stood beside him. Luke remained near the wall. Tyler leaned against the doorway. The others waited behind them.
+
+The Teller looked at the chair.
+
+Then he looked at the men.
+
+For the first time, he understood what the House had been doing from the beginning.
+
+It had not been growing because they were powerful.
+
+It had been growing because they were specific.
+
+Every time someone noticed something precisely, the world gained another boundary. Luke noticed the grain of wood. Tyler noticed the width of a doorway. Joseph noticed the difference between leaving and staying. Another man noticed a song. Another noticed a road. Another remembered a face.
+
+Attention did not make things larger.
+
+It made them real enough to continue.
+
+The chair creaked beneath him.
+
+A second voice came from the room.
+
+Not the organism.
+
+Not Cael.
+
+Not any of the men.
+
+A voice without distance.
+
+“Then look.”
+
+The Teller looked.
+
+The room opened.
+
+For one impossible instant he saw every version of the House at once: the first room, the growing room, the hall, the city, Veyrthalis, the Digitorium, the forest, the organism, the archive, the chair beneath all of them.
+
+They were not separate places.
+
+They were the same act at different depths.
+
+Then the vision collapsed.
+
+The room returned.
+
+Tyler was staring at him.
+
+“What did you see?”
+
+The Teller answered honestly.
+
+“You.”
+
+Tyler looked away.
+
+Luke closed his box.
+
+Joseph sat beside the Teller.
+
+Nobody asked for a larger answer.
+
+## Chapter XLIII: The Man Who Was Missing
+
+The seventh chair was empty again when they returned to the country.
+
+Cael was gone.
+
+There was no departure, no farewell, no trace of where he had gone. His absence was almost casual, which made it worse. The men searched the city anyway.
+
+They found his name nowhere.
+
+Then Luke found a door that had not been there before.
+
+It was narrow and unfinished, built between two buildings in a part of the Digitorium none of them remembered entering. Behind it was a room containing hundreds of chairs.
+
+Every chair was empty.
+
+Tyler stopped.
+
+“This is creepy.”
+
+Luke walked between the rows.
+
+Each chair had a small metal plate attached to its back.
+
+No names.
+
+No dates.
+
+Only a single word.
+
+WAITING.
+
+Joseph touched one.
+
+A light came on beneath it.
+
+Then another.
+
+Then another.
+
+Across the room, hundreds of blue points appeared.
+
+The Teller realized what they were seeing.
+
+Not people who had disappeared.
+
+People who had never yet been noticed.
+
+The country had been remembering the remembered.
+
+Now it had begun making room for the forgotten.
+
+Luke looked at the empty chairs.
+
+“So this is the next part.”
+
+The Teller nodded.
+
+“No.”
+
+He looked deeper into the room.
+
+“This is the part we weren't here to see.”
+
+At the far end, one chair was different.
+
+It was not empty.
+
+A shadow occupied it.
+
+The shadow raised its head.
+
+And somewhere behind the walls, the seven-note sequence began again.
+
+This time there were eight notes.

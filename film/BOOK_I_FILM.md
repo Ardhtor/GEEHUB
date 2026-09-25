@@ -1,209 +1,626 @@
 # GEEHUB — BOOK I: THE FILM
+## Original Feature Screenplay — Working Draft
 
-## Film grammar
+FADE IN:
 
-The film is not a literal illustration of the novel. It treats the novel as the memory-system behind the images.
+BLACK.
 
-Runtime target: 110–125 minutes.
-Format: 2.39:1 widescreen.
-Image language: early-2000s Japanese CGI / industrial computer graphics, amber-black forests, blue CRT illumination, Florentine-Victorian architecture, restrained human realism.
-Sound language: low electrical hum, distant machinery, forest wind, sparse piano/synth intervals, seven-note motif reduced gradually to one note.
-Camera rule: begin observational and physical; as the world recognizes the men, camera movement becomes impossible to distinguish from the world's attention.
+A low electrical HUM.
 
-## ACT I — THE HOUSE
+Not music. Infrastructure.
 
-Open on black.
+A BLUE RECTANGLE appears.
 
-A single blue screen illuminates an empty room.
+An old CRT monitor illuminates an empty room: pale walls, concrete floor, one wooden chair.
 
-Text appears:
+On the screen:
 
 EVERY RESPONSE IS DATA.
 
-No explanation.
+The letters flicker.
 
-The first men arrive separately.
+CUT TO:
 
-The House grows around them through ordinary acts: a chair moved, a door opened, a photograph kept, a body becoming too large for a doorway.
+INT. THE HOUSE — NIGHT
 
-The Serum is never introduced as exposition. It is seen responding.
+THE TELLER stands beside the chair.
 
-A hand touches a surface.
+He does not know why he is here.
+
+A door opens.
+
+LUKE enters. Quiet. Broad through the shoulders. He pauses as though entering someone else's memory.
+
+They look at one another.
+
+THE TELLER
+You know this place?
+
+LUKE
+No.
+
+A beat.
+
+LUKE
+But I've been here.
+
+Luke touches the chair.
+
+The CRT HUM changes pitch.
+
+A hairline crack appears in the wall.
+
+Luke removes his hand.
+
+The crack remains.
+
+LUKE
+Maybe it knows before we do.
+
+CUT TO BLACK.
+
+TITLE: GEEHUB
+
+INT. THE HOUSE — LATER
+
+A second door opens.
+
+TYLER enters.
+
+He has to turn slightly to pass through the frame.
+
+TYLER
+That's narrow.
+
+LUKE
+It wasn't.
+
+Tyler looks at him.
+
+TYLER
+What?
+
+LUKE
+The doorway.
+
+Tyler places his hand against the frame.
+
+Faint pencil marks.
+
+Old measurements.
+
+TYLER
+Someone was keeping track.
+
+THE TELLER
+Of what?
+
+Tyler looks at his own hand.
+
+TYLER
+I don't know yet.
+
+WOOD CREAKS.
+
+The doorway expands by half an inch.
+
+Nobody moves.
+
+INT. THE HOUSE — MORNING
+
+A table has appeared.
+
+Three cups.
+
+No one remembers bringing it in.
+
+Joseph enters.
+
+He sees the Teller.
+
+JOSEPH
+Hey.
+
+THE TELLER
+Hey.
+
+Joseph crosses the room and stands beside him.
+
+JOSEPH
+I'm your husband.
+
+Silence.
+
+Luke watches.
+
+Tyler watches Luke.
+
+Joseph takes a cup.
+
+JOSEPH
+So this is where you ended up.
+
+THE TELLER
+I think it found me.
+
+JOSEPH
+Maybe.
+
+He looks around.
+
+JOSEPH
+Or maybe you built it.
+
+A wall shifts somewhere behind them.
+
+Nobody reacts.
+
+MONTAGE — THE HOUSE LEARNS THEM
+
+Luke carries in a wooden box.
+
+Tyler marks a doorway.
+
+Joseph repairs a hinge.
+
+The Teller places a photograph on a table.
+
+A red leaf appears beside it.
+
+A blue CRT wakes in an empty corridor.
 
 A wall moves.
 
-A man notices another man.
+Luke returns to find the room larger.
 
-The room changes.
+Tyler stands beneath the doorway. His shoulders nearly fill it.
 
-The central dramatic fact emerges quietly: attention changes the architecture.
+He adds another measurement.
 
-Joseph enters the story differently. He does not arrive to compete. He already has history with the Teller. His line is simple:
+A staircase appears.
 
-“I am your husband.”
+Then another room.
 
-The film establishes this as continuity rather than possession.
+Then another man.
 
-The first act ends when the House becomes too large to remain a house.
+Then another.
 
-A door appears.
+The chair never moves.
 
-## ACT II — THE COUNTRY
+INT. OBSERVATION ROOM — NIGHT
 
-The door opens onto Veyrthalis.
+A circular chamber. Blue CRTs surround the men.
 
-Amber fog.
+Every screen:
 
-A forest larger than geography should permit.
+EVERY RESPONSE IS DATA.
 
-The Digitorium appears gradually through the trees: dark stone, Florentine arches, Victorian towers, blue screens burning inside them.
+A pulse begins.
 
-The Procession crosses a distant bridge.
+THE TELLER
+Did you do this?
 
-The men discover that the country remembers.
+LUKE
+No.
 
-Luke's box becomes the film's physical memory object.
+TYLER
+I thought you did.
 
-Tyler's measurements become another.
+JOSEPH
+Neither of you did.
 
-Joseph's walks become another.
+The screens change.
 
-The men begin competing for attention, but the film never turns this into a contest with a winner. Each man's attempt to be remembered produces a different kind of world.
+Luke's box.
 
-Luke builds places.
+Tyler's measurements.
 
-Tyler changes spaces by changing himself.
+Joseph walking beside the Teller.
 
-Joseph preserves continuity.
+The photograph.
 
-Others create danger, beauty, humor, loyalty, ritual.
+The red leaf.
 
-The country expands.
+A hand against a wall.
 
-The competition becomes civilization.
+The room expanding.
 
-Then the ground moves.
+THE TELLER
+It's watching us.
 
-## ACT III — THE ORGANISM
+LUKE
+No.
 
-The city is discovered to be built into an ancient living organism.
+Luke looks at the screens.
 
-Do not show the creature immediately.
+LUKE
+It's responding.
 
-Show its effects.
+BLACKOUT.
 
-Windows trembling.
+A door appears where there was no wall.
 
-Water moving uphill.
+EXT. VEYRTHALIS — NIGHT
 
-Roots passing through architecture.
+The door opens onto amber fog.
 
-A pulse beneath the street.
+An enormous dark forest.
 
-A voice:
+Horizontal marks cover the bark like handwriting.
 
-“Who remembers me?”
+The men step through.
 
-The Teller answers:
+For one second the House remains visible behind them.
 
-“We do.”
+Then the fog closes.
 
-The country inhales.
+EXT. THE DIGITORIUM — NIGHT
 
-The film descends.
+Florentine arches.
 
-The archive beneath the forest contains not history but attention.
+Victorian towers.
 
-Blank spaces reveal what was never carried forward.
+Dark stone.
+
+Blue CRT light behind windows.
+
+The PROCESSION crosses a distant bridge: human silhouettes filled with iridescent color.
+
+Tyler stops.
+
+TYLER
+What is that?
+
+Luke looks at the city.
+
+LUKE
+Something remembers us.
+
+One Procession figure stops.
+
+Turns.
+
+Looks directly at the Teller.
+
+Then continues.
+
+INT. LUKE'S ROOM — NIGHT
+
+Luke opens the wooden box.
+
+A photograph. Broken blue screen. Fabric. Red leaf. Screw. Stone. Glass. A handwritten sentence.
+
+THE TELLER
+Why keep all that?
+
+LUKE
+Because things disappear.
+
+THE TELLER
+Things?
+
+Luke closes the box.
+
+LUKE
+Connections.
+
+EXT. REDWOOD FOREST — NIGHT
+
+Luke and Tyler walk beneath enormous trees.
+
+TYLER
+You ever think about leaving?
+
+LUKE
+Leaving what?
+
+TYLER
+All of it.
+
+Luke considers.
+
+LUKE
+No.
+
+A beat.
+
+LUKE
+It's ours.
+
+The word travels through the trees.
+
+OURS.
+
+Far below: one pulse.
+
+EXT. DIGITORIUM STREET — NIGHT
+
+Water begins moving uphill.
+
+Tyler notices.
+
+TYLER
+Guys.
+
+The water reaches the top of the street and hangs there.
+
+Every window trembles.
+
+A VOICE, impossibly deep:
+
+WHO REMEMBERS ME?
+
+Nobody answers.
+
+The Teller steps forward.
+
+Joseph watches him.
+
+THE TELLER
+We do.
+
+Silence.
+
+The entire country inhales.
+
+Fog withdraws.
+
+The city brightens.
+
+The forest bends.
+
+The ground opens.
+
+CUT TO BLACK.
+
+SUPER: ACT II
+
+INT. UNDERGROUND ARCHIVE — UNKNOWN
+
+A stairway descends beneath the forest.
+
+The walls are translucent.
+
+Blue light moves underneath them like blood.
+
+Luke places his hand against a wall.
+
+A MEMORY appears: the redwoods, Tyler somewhere beyond frame, the Teller beneath the trees, Luke watching.
+
+Luke pulls away.
+
+The image remains.
+
+TYLER
+That's not a recording.
+
+LUKE
+No.
+
+THE TELLER
+What is it?
+
+LUKE
+Attention.
+
+A door opens.
+
+Beyond it: HUNDREDS OF EMPTY CHAIRS.
+
+Each bears a metal plate:
+
+WAITING.
+
+Joseph walks between them.
+
+JOSEPH
+Who are these for?
+
+No answer.
+
+One chair lights.
+
+Then another.
+
+Then hundreds.
+
+THE TELLER
+They're not remembering people.
+
+Luke looks into the darkness.
+
+LUKE
+They're making room for them.
+
+At the far end, a SHADOW sits in one chair.
+
+It raises its head.
+
+CAEL
+You're late.
+
+CUT TO BLACK.
+
+INT. THE ARCHIVE — LATER
+
+Cael walks among the chairs.
+
+He is ordinary-looking. Scarred hands. Tired face.
+
+CAEL
+I went looking for the edge.
+
+TYLER
+Did you find it?
+
+CAEL
+No.
+
+LUKE
+What did you find?
+
+Cael looks toward the darkness.
+
+CAEL
+A door.
+
+A beat.
+
+CAEL
+Behind it was another relationship.
+
+The men absorb this.
+
+JOSEPH
+Then why come back?
+
+Cael looks at the Teller.
+
+CAEL
+Because going farther isn't the same thing as going deeper.
+
+He continues walking.
+
+CAEL
+You keep asking what is beyond the world.
+
+He touches one of the empty chairs.
+
+CAEL
+Ask who is missing from it.
+
+INT. ORIGINAL ROOM — NIGHT
+
+The House has returned to its first room.
+
+The chair stands alone.
+
+The Teller enters.
+
+Joseph, Luke, Tyler and the others remain behind him.
+
+The room is smaller than memory.
+
+No city.
+
+No forest.
+
+No organism.
+
+Only the chair.
 
 Luke opens his box.
 
-Every object becomes luminous.
+He takes out the photograph.
 
-He realizes he was not preserving objects.
+The back is blank.
 
-He was preserving relationships between objects.
+A sentence appears:
 
-Cael, the seventh man, appears.
+NOTHING IS REMEMBERED ALONE.
 
-He has already searched for the edge.
+Luke turns the photograph over.
 
-There is none.
+The sentence is gone.
 
-He says:
+The chair moves one inch.
 
-“Going farther isn't the same thing as going deeper.”
+Everyone freezes.
 
-The men stop searching for the boundary.
+The Teller sits.
 
-They begin looking for what is missing.
+The world becomes quiet.
 
-## ACT IV — THE FIRST ROOM
+Not silent.
 
-A door appears in the original room.
+Quiet.
 
-Beyond it is the room before the House became a world.
+He looks at the men.
 
-The chair is there.
+THE TELLER
+I think I understand.
 
-Nothing else.
+JOSEPH
+What?
 
-The men enter.
+THE TELLER
+It wasn't growing because we were powerful.
 
-The House remains visible behind them.
+Luke waits.
 
-The country remains visible beyond it.
+THE TELLER
+It was growing because we were specific.
 
-The organism breathes beneath both.
+The room expands by one inch.
 
-The Teller understands that the beginning was not an event.
+Tyler smiles despite himself.
 
-It was an act of attention.
+TYLER
+That's a pretty strange rule.
 
-The chair moves.
+THE TELLER
+It's the only one we've got.
 
-A piece of paper lies on the seat.
+The chair creaks.
 
-WE WERE ALWAYS BUILDING THIS.
+A voice comes from nowhere.
 
-The Serum answers with seven notes.
+VOICE
+Then look.
 
-Then one.
+The room opens.
 
-Then silence.
+For one impossible instant: the House, Veyrthalis, the Digitorium, the forest, the organism, the archive, the chairs.
 
-The film ends without revealing who was sitting in the chair.
+All one place.
 
-Cut to black.
+Then it collapses.
 
-A final blue pixel remains for three seconds.
+INT. ARCHIVE OF THE FORGOTTEN — UNKNOWN
 
-Then disappears.
+The seventh chair is empty.
 
-## Core visual sequence
+Cael is gone.
 
-1. Empty blue-lit room.
-2. First men arriving separately.
-3. Growth as architecture changing around the body.
-4. Luke's wooden box.
-5. Tyler measuring the doorway.
-6. Joseph and the Teller walking through the forest.
-7. The House becoming a country.
-8. Veyrthalis / Digitorium reveal.
-9. Procession crossing the city.
-10. The ground pulsing beneath the streets.
-11. Descent beneath the forest.
-12. Archive of attention.
-13. Seven men around the seventh chair.
-14. The organism waking.
-15. Return to the original room.
-16. The chair moving by itself.
-17. Black.
+Rows of chairs extend beyond visibility.
 
-## Production rule
+Every chair waits.
 
-Every major film sequence must produce a reusable GEEHUB asset: frame, environment, sound motif, object, texture, character state, transition, or video segment.
+One by one, they begin illuminating.
 
-NOVEL → SCENE → VISUAL ASSET → MOTION → SOUND → FILM
+Not because someone has arrived.
 
-The film therefore becomes another readable form of the Hub rather than a separate adaptation.
+Because the world has finally made room.
+
+The Teller walks forward.
+
+A final chair is different.
+
+Someone is sitting in it.
+
+The figure raises its head.
+
+The seven-note motif begins.
+
+One.
+
+Two.
+
+Three.
+
+Four.
+
+Five.
+
+Six.
+
+Seven.
+
+Then an eighth note.
+
+The Teller stops.
+
+CUT TO BLACK.
+
+END OF ACT II.
+

@@ -28,7 +28,7 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.m
 
 const scene=new THREE.Scene();
 let corpus={nodes:[],relations:[]};
-fetch('./corpus.json').then(r=>r.json()).then(x=>{corpus=x; buildWorld();}).catch(()=>buildWorld());
+fetch('./corpus.json').then(r=>r.json()).then(x=>{corpus=x; shapeWorld(); buildWorld();}).catch(()=>buildWorld());
 scene.fog=new THREE.FogExp2(0x05080d,.009);
 const camera=new THREE.PerspectiveCamera(72,innerWidth/innerHeight,.1,900);
 camera.position.set(0,2.2,10);
@@ -69,6 +69,7 @@ const nodes=[
 const beacons=[];
 function buildWorld(){if(built)return;built=true; const source=(corpus.nodes||[]).map(n=>[n.name,n.id]); nodes.length=0; source.forEach(x=>nodes.push(x)); rebuildBeacons();}
 function rebuildBeacons(){
+ for(let i=0;i<nodes.length;i++){
  const z=-35-i*62;
  const g=new THREE.Group();g.position.set((i%2?1:-1)*(5+Math.random()*2),0,z);
  const stem=new THREE.Mesh(new THREE.CylinderGeometry(.035,.09,8,8),new THREE.MeshBasicMaterial({color:0x8fa9c3}));
@@ -79,7 +80,7 @@ function rebuildBeacons(){
  ring.rotation.x=Math.PI/2;ring.position.y=8;g.add(ring);
  const label=makeLabel(nodes[i][0]);label.position.set(0,11,0);g.add(label);
  world.add(g);beacons.push({g,orb,ring,label,name:nodes[i][0],sub:nodes[i][1],z});
-}
+ }
 }
 function makeLabel(t){
  const c=document.createElement('canvas');c.width=512;c.height=64;const x=c.getContext('2d');x.font='28px monospace';x.fillStyle='#dce8f5';x.textAlign='center';x.fillText(t,256,40);
@@ -93,6 +94,8 @@ document.addEventListener('pointerlockchange',()=>locked=document.pointerLockEle
 document.addEventListener('mousemove',e=>{if(!locked)return;yaw-=e.movementX*.002;pitch-=e.movementY*.0015;pitch=Math.max(-.35,Math.min(.35,pitch));});
 
 let started=false,startTime=0,distance=0,baseline=0;
+const observer=JSON.parse(localStorage.getItem('geehub-observer')||'{"memory":[],"returns":0,"attention":"road"}');
+function remember(name,sub){observer.memory.push({name,sub,at:new Date().toISOString(),distance:Math.floor(distance)});observer.returns=(observer.memory.filter(x=>x.name===name).length);observer.attention=name;localStorage.setItem('geehub-observer',JSON.stringify(observer));}
 document.querySelector('#go').onclick=()=>{started=true;startTime=performance.now();document.querySelector('#start').style.display='none';renderer.domElement.requestPointerLock?.();};
 const clock=new THREE.Clock();
 let worldPhase=0;
@@ -105,7 +108,6 @@ function shapeWorld(){
 }
 function fmt(s){const m=Math.floor(s/60),q=Math.floor(s%60);return String(m).padStart(2,'0')+':'+String(q).padStart(2,'0')}
 function update(dt){
- shapeWorld();
  if(!started)return;
  let throttle=(keys.w||keys.arrowup?1:0)-(keys.s||keys.arrowdown?1:0);
  let steer=(keys.a||keys.arrowleft?1:0)-(keys.d||keys.arrowright?1:0);

@@ -39,6 +39,10 @@ function triggerHit(){
 let bitIndex=0;
 let siphonIndex=0;
 let siphonArtifacts=[];
+const liveTrace=[['TRACE','LUKE / MUSTANG','proximity → confirmed'],['SCENE','PARKING LOT / NIGHT','engine heat retained'],['CHARACTER','LUKE','speech profile → yo'],['MEMORY','ONE PUTS HIS HEAD ON ANOTHER','active motif'],['FILM','SHOT 018 → 019 → 020','wide → Mustang → Luke'],['CONTINUITY','YOU ─ LUKE ─ MUSTANG','distance → arrival']];
+let liveIndex=0;
+function livePulse(){const x=liveTrace[liveIndex%liveTrace.length];liveIndex++;$('#liveTitle').textContent=x[0]+' // '+x[1];$('#liveText').textContent=x[2];$('#trailText').textContent='LIVE → '+x[1];}
+function startLive(){livePulse();setInterval(livePulse,4200);}
 async function loadSiphon(){const r=await fetch('./creative/kirk-siphon.json');if(!r.ok)return;siphonArtifacts=(await r.json()).artifacts||[];}
 function siphon(){if(!siphonArtifacts.length){$('#bitTitle').textContent='SIPHON EMPTY';$('#bitText').textContent='No resonance artifacts available yet.';return;}const x=siphonArtifacts[siphonIndex%siphonArtifacts.length];siphonIndex++;$('#bitTitle').textContent='KIRK RESONANCE // '+x.title;$('#bitText').textContent=x.draft;$('#trailText').textContent='DISCOVERY → FILTER → KIRK RESONANCE → '+x.type.toUpperCase()+' → MEMORY';syncVisited();}
 function forgetTrail(){seen.clear();saveSeen();syncVisited();$('#bitTitle').textContent='TRAIL CLEARED';$('#bitText').textContent='The world remains. Your local memory has been cleared.';$('#trailText').textContent='you → arrival';}
@@ -51,4 +55,5 @@ $('#siphon').addEventListener('click',siphon);
 $('#forgetTrail').addEventListener('click',forgetTrail);
 $('#center').addEventListener('click',()=>{$('#bitTitle').textContent='YOU ARE IN THE WORLD';$('#bitText').textContent='Nothing has to be finished. The constellation is the thing you live inside.';$('#trailText').textContent='you → world';});
 loadSiphon();
+startLive();
 load().catch(e=>{$('#bitTitle').textContent='WORLD OFFLINE';$('#bitText').textContent=e.message;});

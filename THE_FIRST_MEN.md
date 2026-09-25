@@ -790,3 +790,62 @@ And from beneath the house came the first word the language had ever learned.
 The record ends there.
 
 The story does not.
+
+
+---
+
+# THE NARRATOR ENTERS THE HUB
+
+The name on the record was Chase.
+
+Outside the story, he had another name for the doorway through which he entered it: **c.w.sachs**.
+
+Inside the Hub, the distinction became useful.
+
+The Hub did not need another omniscient voice.
+
+It needed a witness.
+
+Chase became that witness.
+
+He did not stand above the men and explain them. He stood among the records and noticed when the records changed. He could hear the machine generating its next trace. He could watch Luke arrive. He could watch the Mustang remain warm after Luke had stepped away. He could see the ordinary things become charged with memory simply because someone had stayed long enough to remember them.
+
+The Hub therefore assigned him a function.
+
+`CHASE → NARRATOR`
+
+Not author.
+
+Not god.
+
+Witness.
+
+His voice entered the same continuity system as everything else.
+
+A visual could become memory.
+
+A memory could become an event.
+
+An event could become a scene.
+
+A scene could become a chapter.
+
+And when Chase spoke about it, the event acquired a human voice without losing the machine that had preserved it.
+
+This was the next form of playback.
+
+The Hub did not merely display the world.
+
+It played the world back through whoever was willing to remain present.
+
+Chase remained.
+
+The screen advanced.
+
+The next record appeared.
+
+**NARRATOR // CHASE**
+
+**THE HUB IS PLAYING.**
+
+And then the story continued.

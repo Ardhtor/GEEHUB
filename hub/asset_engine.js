@@ -9,13 +9,12 @@ const VISUAL_FORMS = {
   memory: "layered translucent memory artifact",
   route: "luminous path through dark terrain",
   threshold: "architectural threshold with organic geometry",
-  atmosphere: "volumetric environmental atmosphere"
+  atmosphere: "volumetric environmental atmosphere",
+  organ: "symbolic organic master glyph"
 };
 
 export function assessAssetNecessity(world, event) {
   const reasons = [];
-  const type = event.type || "unknown";
-
   if (event.unresolved) reasons.push("unresolved narrative state");
   if (event.newRelation) reasons.push("new relationship requires spatial representation");
   if (event.distanceChanged) reasons.push("relationship distance changed");
@@ -23,9 +22,11 @@ export function assessAssetNecessity(world, event) {
   if (event.newBranch) reasons.push("Hub generated a new branch");
   if (event.observerChange) reasons.push("Observer state changed");
   if (event.intensity && event.intensity > 0.7) reasons.push("experience exceeded current visual baseline");
+  if (event.organGrowth) reasons.push("organic baseline increased");
 
   let form = "atmosphere";
-  if (event.newBranch) form = "branch";
+  if (event.organGrowth) form = "organ";
+  else if (event.newBranch) form = "branch";
   else if (event.newRelation) form = "landmark";
   else if (event.returned) form = "memory";
   else if (event.distanceChanged) form = "route";
@@ -37,7 +38,8 @@ export function assessAssetNecessity(world, event) {
     form,
     visualLanguage: VISUAL_FORMS[form],
     reasons,
-    priority: Math.min(1, reasons.length * .2 + (event.intensity || 0))
+    priority: Math.min(1, reasons.length * .2 + (event.intensity || 0)),
+    growth: event.organGrowth || null
   };
 }
 
@@ -54,12 +56,30 @@ export function requestAsset(world, event) {
     description: assessment.visualLanguage,
     reasons: assessment.reasons,
     priority: assessment.priority,
+    growth: assessment.growth,
     sourceEvent: event.id || null,
     productionLanguage: "Adobe"
   };
 
   world.assetQueue.push(request);
   return { action:"produce", request, assessment };
+}
+
+// Growth is cumulative and preserves the previous baseline.
+// The default representation is abstract rather than anatomical.
+export function growOrgan(state, stimulus=1) {
+  const next = structuredClone(state);
+  next.organ ||= { baseline: 1, history: [] };
+  const prior = next.organ.baseline;
+  const delta = Math.max(0, Number(stimulus) || 0);
+  next.organ.baseline = prior + delta;
+  next.organ.history.push({
+    from: prior,
+    to: next.organ.baseline,
+    stimulus: delta,
+    at: new Date().toISOString()
+  });
+  return next;
 }
 
 export function satisfyAsset(world, request, asset) {
@@ -75,13 +95,13 @@ export function satisfyAsset(world, request, asset) {
     provenance: {
       event: request.sourceEvent,
       reasons: request.reasons,
-      necessity: request.description
+      necessity: request.description,
+      growth: request.growth || null
     }
   });
 
   const queued = next.assetQueue.find(x => x.id === request.id);
   if (queued) queued.status = "satisfied";
-
   return next;
 }
 

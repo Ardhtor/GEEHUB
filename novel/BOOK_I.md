@@ -708,3 +708,414 @@ The shadow raised its head.
 And somewhere behind the walls, the seven-note sequence began again.
 
 This time there were eight notes.
+
+
+## Chapter XLIV: The Eighth Note
+
+The note did not behave like the others. The first seven seemed to belong to the country: seven points of relation, seven ways of approaching a world that had already learned to answer. The eighth seemed to come from somewhere outside the sequence, not higher or lower than it but adjacent to it, as though the music had discovered that counting itself was a form of exclusion.
+
+Nobody moved.
+
+The shadow remained seated.
+
+The Teller looked at it for a long time before realizing that he was not seeing a person. He was seeing the place where a person had not yet become visible.
+
+“What are you waiting for?” he asked.
+
+The shadow did not answer.
+
+Luke walked toward the chair.
+
+Joseph caught his arm.
+
+“Wait.”
+
+Luke stopped.
+
+Joseph looked at the rows.
+
+“Maybe that's the point.”
+
+Tyler glanced back.
+
+“What point?”
+
+Joseph released Luke.
+
+“We keep thinking something has to arrive.”
+
+The room was full of empty chairs.
+
+Joseph looked at them.
+
+“Maybe attention doesn't always mean finding the person.”
+
+Luke understood.
+
+“Sometimes it means leaving the chair open.”
+
+The shadow changed.
+
+Not its shape.
+
+Its distance.
+
+For one instant it seemed close enough to touch. Then impossibly far away. Then it was standing behind them.
+
+Everyone turned.
+
+Nothing.
+
+The Teller heard a sound behind him.
+
+A chair scraping across stone.
+
+He turned back.
+
+The chair at the end of the room was empty.
+
+On its seat was a small object.
+
+A screw.
+
+Luke stared at it.
+
+“That was in my box.”
+
+He opened the box.
+
+The screw was still there.
+
+Two identical screws.
+
+One old.
+
+One new.
+
+The new one was warm.
+
+The country had begun producing copies of things that had mattered.
+
+The Teller reached for it.
+
+The moment his fingers touched the metal, every chair in the room turned toward him.
+
+Not mechanically.
+
+Not violently.
+
+They simply faced him.
+
+Hundreds of empty seats.
+
+Hundreds of directions.
+
+And for the first time, the Teller understood that the country was not asking them to find the missing man.
+
+It was asking them to become capable of noticing someone who had not yet entered the story.
+
+The blue lights went out.
+
+In the darkness, a door opened somewhere behind the chairs.
+
+A man's voice said:
+
+“Don't remember me.”
+
+The door closed.
+
+Nobody knew whether the voice had been a warning or an invitation.
+
+## Chapter XLV: The Man Who Refused the Name
+
+They did not follow immediately.
+
+The country had taught them that every door was a relationship disguised as architecture, and by now they had learned to distrust the instinct to open everything simply because it could be opened.
+
+Luke sat on the floor.
+
+Tyler leaned against one of the chairs.
+
+Joseph stood beside the Teller.
+
+The new screw lay between them.
+
+“Don't remember me,” Tyler repeated.
+
+Luke looked at him.
+
+“You think he meant it?”
+
+“I think he wanted us to hear it.”
+
+Joseph shook his head.
+
+“That isn't the same thing.”
+
+The Teller picked up the screw.
+
+It had no thread.
+
+It could not attach to anything.
+
+He turned it in his fingers.
+
+A tiny image appeared on its surface.
+
+A room.
+
+A man standing in the room.
+
+The image vanished before any of them could see his face.
+
+Luke opened his box and placed the screw inside.
+
+Nothing happened.
+
+He closed it.
+
+The room remained unchanged.
+
+That frightened him more than the lights.
+
+The archive had always responded.
+
+Now it had refused.
+
+They walked back toward the city.
+
+Outside, Veyrthalis had changed.
+
+The fog was thinner.
+
+The enormous trees were visible for miles.
+
+Between their trunks, lights had appeared where there had never been roads.
+
+The country was building again.
+
+But this time it was not expanding toward them.
+
+It was expanding away.
+
+Tyler looked at the horizon.
+
+“It's making space.”
+
+Joseph answered, “For what?”
+
+Nobody knew.
+
+They walked until they reached the first bridge over the black water.
+
+The Procession had stopped.
+
+Every iridescent figure stood perfectly still.
+
+Then, one by one, they turned away from the city.
+
+All of them looked toward the same distant point in the forest.
+
+The Teller followed their gaze.
+
+A single blue light was visible between the trees.
+
+Not a CRT.
+
+Not a star.
+
+A window.
+
+Someone was standing behind it.
+
+The Teller could not see the face.
+
+But he knew the posture.
+
+Someone who had been watching without being seen.
+
+Luke whispered:
+
+“We're being remembered.”
+
+Joseph corrected him.
+
+“No.”
+
+He looked at the distant window.
+
+“We're being observed.”
+
+The distinction followed them back into the city.
+
+## Chapter XLVI: The Window
+
+The window was gone by morning.
+
+In its place stood a narrow tower.
+
+It had not been built by workers. There were no scaffolds, no foundations, no evidence of construction. It simply occupied the forest as though it had always been there and the country had only now decided to reveal it.
+
+The tower was made from the same dark stone as the Digitorium.
+
+At its highest point was one blue window.
+
+The men stood beneath it.
+
+Tyler looked upward.
+
+“How do we get in?”
+
+Luke pointed.
+
+There was no door.
+
+Joseph laughed quietly.
+
+“That seems familiar.”
+
+The Teller touched the stone.
+
+The tower did not open.
+
+Instead, somewhere above them, the blue window went dark.
+
+A moment later, the same light appeared behind them.
+
+They turned.
+
+A second tower stood across the street.
+
+Then a third.
+
+Then a fourth.
+
+The city had begun repeating the structure.
+
+Not one tower.
+
+A network.
+
+Each blue window connected to another.
+
+The Digitorium was becoming an instrument.
+
+Luke looked at the pattern.
+
+“It's making a circuit.”
+
+Tyler stared at the windows.
+
+“What happens if we complete it?”
+
+Joseph answered before the Teller could.
+
+“We don't.”
+
+They all looked at him.
+
+Joseph pointed toward the final tower.
+
+It was different.
+
+Its window was not blue.
+
+It was black.
+
+No light came from it.
+
+No reflection entered it.
+
+The Teller walked toward it.
+
+The others followed.
+
+At the base of the tower was a small inscription.
+
+Not a name.
+
+Not a command.
+
+A question.
+
+WHO WERE YOU BEFORE ANYONE REMEMBERED YOU?
+
+The Teller placed his hand against the stone.
+
+Nothing happened.
+
+He tried again.
+
+Still nothing.
+
+Then Luke stepped beside him.
+
+Tyler.
+
+Joseph.
+
+One after another, the men placed their hands against the tower.
+
+The black window opened.
+
+Not outward.
+
+Inward.
+
+Beyond it was the original room.
+
+The chair.
+
+The blue screen.
+
+The empty walls.
+
+But there was one difference.
+
+Someone was sitting in the chair.
+
+The Teller could see him now.
+
+The man looked directly through the impossible distance between worlds.
+
+He was not Cael.
+
+He was not the shadow.
+
+He was not anyone they knew.
+
+He smiled.
+
+And the eighth note sounded again.
+
+This time the country answered with silence.
+
+The silence was enormous.
+
+It was the first thing the world had ever made that did not ask to be remembered.
+
+The Teller stepped toward the window.
+
+Behind him, Joseph said his name.
+
+He stopped.
+
+The room waited.
+
+The man in the chair waited.
+
+The country waited.
+
+And for the first time since the House began growing, the next transformation did not begin with attention.
+
+It began with restraint.
+
+The Teller lowered his hand.
+
+The window closed.
+
+No one spoke.
+
+Far beneath Veyrthalis, the ancient organism moved once in its sleep.
+
+And somewhere beyond the city, a door opened for someone else.

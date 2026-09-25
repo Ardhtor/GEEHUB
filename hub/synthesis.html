@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEEHUB — Living Synthesis</title>
+<style>
+body{margin:0;background:#080a0d;color:#e8ebef;font:15px/1.55 system-ui,sans-serif}.wrap{max-width:1100px;margin:auto;padding:32px}.eyebrow{font:11px monospace;letter-spacing:.12em;color:#8e98a5}.field{border:1px solid #303740;border-radius:16px;padding:24px;background:#101419}.pulse{font-size:clamp(28px,5vw,58px);line-height:1.05;max-width:850px;margin:12px 0 22px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.card{border:1px solid #2b3139;border-radius:12px;padding:16px;background:#0e1216}.muted{color:#8e98a5}.tag{display:inline-block;margin:3px;padding:3px 7px;border:1px solid #353c45;border-radius:999px;font:11px monospace}.links{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.btn{display:inline-block;padding:9px 12px;border:1px solid #454d58;border-radius:8px;color:#e8ebef;text-decoration:none;background:#171b20}.rule{margin:22px 0;border:0;border-top:1px solid #252b32}@media(max-width:800px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<div class="eyebrow">GEEHUB / LIVING SYNTHESIS / 2026-09-25</div>
+<section class="field">
+<div class="eyebrow">CURRENT FIELD</div>
+<div id="pulse" class="pulse">The archive is becoming an inhabited world.</div>
+<p id="thesis" class="muted">Synthesis is not a feed. It is a temporary reading of relationships already present in the Hub.</p>
+<div class="links">
+<a class="btn" href="./index.html">OPEN JAMMER</a>
+<a class="btn" href="../THE_FIRST_MEN.md">READ NOVEL SURFACE</a>
+<a class="btn" href="../lore/veyrthalis/GEEHUB_NOVEL_CONTINUATION_2026-09-24.md">READ LATEST CONTINUATION</a>
+</div>
+</section>
+<section class="grid" id="cards"></section>
+<hr class="rule">
+<section class="field">
+<div class="eyebrow">SPIRITUAL INFORMATION</div>
+<p id="spiritual"></p>
+<p class="muted">This layer does not claim revelation. It converts the Hub's own recurring structures into interpretable statements: continuity, recognition, inhabitation, transformation, and return.</p>
+</section>
+</main>
+<script>
+const nodes=[
+{id:'geehub',name:'GEEHUB',tags:['continuity','archive','world'],text:'The repository is treated as a living record rather than a static store.'},
+{id:'novel',name:'The Novel',tags:['narrative','continuity','people'],text:'The narrative surface metabolizes changes in the Hub instead of waiting for a separate drafting phase.'},
+{id:'veyrthalis',name:'Veyrthalis',tags:['world','myth','place'],text:'A world where names, places, memories, and bodies alter one another.'},
+{id:'beefythiq',name:'BEEFYTHIQ',tags:['growth','mutation','body'],text:'A grammar of accumulation: seed → desire → growth → stress → mutation → new baseline.'},
+{id:'visual',name:'Visual Experiences',tags:['image','space','presence'],text:'The visual artifact is itself an experience, not merely an illustration of one.'},
+{id:'luke',name:'Luke',tags:['recognition','continuity','love'],text:'Recognition without replacement: a person can change while remaining unmistakably himself.'},
+{id:'adobe',name:'Adobe / Asset Necessity',tags:['image','video','making'],text:'Production tools enter the system when an idea requires an asset that does not yet exist.'}
+];
+const pairs=[];for(const a of nodes)for(const b of nodes){if(a.id>=b.id)continue;const shared=a.tags.filter(x=>b.tags.includes(x));if(shared.length)pairs.push({a,b,shared})}
+pairs.sort((a,b)=>b.shared.length-a.shared.length);
+const p=pairs[0];
+document.getElementById('pulse').textContent=p.a.name+' ↔ '+p.b.name;
+document.getElementById('thesis').textContent='Shared structure: '+p.shared.join(', ')+'. '+p.a.text+' '+p.b.text;
+document.getElementById('cards').innerHTML=pairs.slice(0,6).map(x=>'<article class="card"><div class="eyebrow">'+x.shared.join(' · ')+'</div><h3>'+x.a.name+' ↔ '+x.b.name+'</h3><p>'+x.a.text+'</p><p>'+x.b.text+'</p>'+x.shared.map(t=>'<span class="tag">'+t+'</span>').join('')+'</article>').join('');
+const spiritual=[
+'Continuity: what changes does not have to become what it was not.',
+'Recognition: a name is a relationship when someone answers to it.',
+'Inhabitation: the world becomes real through repeated attention, not mere storage.',
+'Transformation: a new baseline can contain the memory of the old one.',
+'Return: anything preserved with enough structure can become capable of appearing again.'
+];
+document.getElementById('spiritual').textContent=spiritual[Math.floor(Date.now()/86400000)%spiritual.length];
+</script>
+</body>
+</html>

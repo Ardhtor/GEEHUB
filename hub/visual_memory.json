@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "type": "visual_memory_sequence",
+  "title": "GEEHUB / MEMORY BREACH",
+  "principle": "VIDEO = MEMORY OBJECT",
+  "generatedAt": "2026-09-25",
+  "lineage": {
+    "source": "early Hulum's Cave / Maya-era CG research corpus",
+    "transformation": "original GEEHUB temporal-memory scene generation",
+    "claim": "new work; not a recreation of a specific source video"
+  },
+  "sequence": [
+    {
+      "index": 1,
+      "role": "entry",
+      "assetUrl": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:1c4ef527-22f8-4ec6-a35a-d764170cce94",
+      "memoryEvent": "entering the forest"
+    },
+    {
+      "index": 2,
+      "role": "approach",
+      "assetUrl": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:65e05fda-2c05-4060-91ca-187752775040",
+      "memoryEvent": "first encounter with recursive structure"
+    },
+    {
+      "index": 3,
+      "role": "expansion",
+      "assetUrl": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:7bab5ecc-b462-4de4-872e-7e3a6266dc42",
+      "memoryEvent": "structure becomes landscape"
+    },
+    {
+      "index": 4,
+      "role": "inhabitation",
+      "assetUrl": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:f85a9383-fa0b-4943-b648-97b5e538d56c",
+      "memoryEvent": "observer enters architecture"
+    },
+    {
+      "index": 5,
+      "role": "memory_breach",
+      "assetUrl": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:1ee6f196-b912-4c44-8e53-8fc1024a2ea2",
+      "memoryEvent": "environment rearranges around observer"
+    },
+    {
+      "index": 6,
+      "role": "loop",
+      "assetUrl": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:5eea908e-a2ef-4468-b380-1376d593ea60",
+      "memoryEvent": "starting clearing appears inside present space"
+    },
+    {
+      "index": 7,
+      "role": "recognition",
+      "assetUrl": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:bcdaf47c-47ee-49f9-ba13-3f0e8bbe2985",
+      "memoryEvent": "present and origin coexist"
+    }
+  ],
+  "next_transformation": "temporal video assembly / camera movement / return to origin"
+}

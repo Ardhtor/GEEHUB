@@ -1337,3 +1337,103 @@
      They all looked at him. Joseph pointed toward the final tower. It was different. Its window was not blue. It was black. No light came from it. No reflection entered it. The Teller walked toward it. The others followed. At the base of the tower was a small inscription. Not a name. Not a command. A question. WHO WERE YOU BEFORE ANYONE REMEMBERED YOU? The Teller placed his hand against the stone. Nothing happened. He tried again. Still nothing. Then Luke stepped beside him. Tyler. Joseph. One after another, the men placed their hands against the tower. The black window opened. Not outward. Inward. Beyond it was the original room. The chair. The blue screen. The empty walls.
 
      But there was one difference. Someone was sitting in the chair. The Teller could see him now. The man looked directly through the impossible distance between worlds. He was not Cael. He was not the shadow. He was not anyone they knew. He smiled. And the eighth note sounded again. This time the country answered with silence. The silence was enormous. It was the first thing the world had ever made that did not ask to be remembered. The Teller stepped toward the window. Behind him, Joseph said his name. He stopped. The room waited. The man in the chair waited. The country waited. And for the first time since the House began growing, the next transformation did not begin with attention. It began with restraint. The Teller lowered his hand. The window closed. No one spoke. Far beneath Veyrthalis, the ancient organism moved once in its sleep. And somewhere beyond the city, a door opened for someone else.
+
+## Chapter XLVII: The Room That Had Been Waiting
+
+     The next morning, the window did not return, but the room did. It appeared beneath the city without excavation, without sound, without the ordinary courtesy of being discovered. The men found its entrance in the foundation of the Digitorium, behind a wall that had previously contained nothing except stone. There was no door. There was simply a difference in the darkness, a rectangular absence where the wall seemed to have forgotten itself. Luke was the first to notice it. He stood before it for a long time without touching it.
+
+     “That's the room.”
+
+     The Teller looked at him.
+
+     “You saw it?”
+
+     Luke shook his head.
+
+     “No. I remembered it.”
+
+     They entered together. The room was smaller than the one beyond the black window, but it possessed the same blue screen, the same chair, the same impossible sense that someone had left only moments before. Dust covered the floor except for one clean path leading from the chair to the wall. Joseph followed it with his eyes. The path stopped at a blank section of stone. Tyler crouched beside it and found a series of shallow marks in the dust. They were not footprints. They were measurements. Someone had been standing there repeatedly, always at the same distance from the chair, always facing the screen.
+
+     The Teller touched the blue screen. It came alive.
+
+     Not with an image, but with a list.
+
+     Every room they had entered appeared there. Every road. Every vessel. Every empty chair. Every version of the House. The seven wells. The lake beneath the branches. The men inside the devices. The Blue Hall. The seventh man. Veyrthalis. The Digitorium. The Procession. The tower. The black window. Even the room they were standing in was already recorded.
+
+     At the bottom of the list was one final entry.
+
+     THE ROOM YOU HAVE NOT ENTERED.
+
+     Luke laughed once, without humor.
+
+     “That's bullshit.”
+
+     Joseph looked at the screen.
+
+     “Maybe.”
+
+     Tyler pointed at the words.
+
+     “If it's already recorded, then we've entered it.”
+
+     The Teller understood the danger immediately. The old rule had returned, but inverted. Whatever was produced was already there. Whatever was remembered had already happened. Now the country was presenting them with something that had been recorded without having been experienced. It was not a prophecy. It was not a prediction. It was a room whose existence depended upon their refusal to confuse documentation with presence.
+
+     “Don't open it,” the Teller said.
+
+     Nobody moved.
+
+     The blue screen flickered. A second sentence appeared.
+
+     THE ROOM IS NOT BEHIND THE DOOR.
+
+     Then another.
+
+     THE ROOM IS THE DECISION NOT TO OPEN IT.
+
+     Luke stared at the words. His hand moved toward the wall, then stopped.
+
+     “So that's it?”
+
+     Joseph stood beside him.
+
+     “No.”
+
+     He looked at the blank wall.
+
+     “That's the first time it has asked us to leave something alone.”
+
+     The room became very quiet. Beyond the walls, Veyrthalis continued its immense nocturnal movement. Pipes carried water through the city. The Procession began crossing the bridges again. Somewhere above them, a blue window opened and closed without anyone watching it. The country had not stopped producing. It had learned another form of production: omission.
+
+     Tyler sat in the empty chair.
+
+     The screen went dark.
+
+     For several seconds nothing happened. Then the chair beneath him became warm, as though someone had only just stood up.
+
+     Tyler did not rise.
+
+     The others watched him.
+
+     He looked at the blank screen and said,
+
+     “Maybe this is what the missing man wanted.”
+
+     “What?”
+
+     Tyler rested his hands on his knees.
+
+     “A place nobody could find.”
+
+     The Teller looked at the wall again. For the first time, the absence did not feel unfinished. It felt occupied. The empty space was no longer evidence of something missing. It had become a room with its own rules, a room whose architecture consisted entirely of what the men refused to make visible.
+
+     Joseph put a hand on Luke's shoulder.
+
+     “We should go.”
+
+     Luke nodded.
+
+     They left the chair where it was. They left the screen dark. They left the wall blank.
+
+     Outside, morning entered Veyrthalis slowly.
+
+     And somewhere beneath the country, something ancient opened one eye—not because it had been summoned, not because it had been remembered, but because, for once, nobody had asked it to appear.

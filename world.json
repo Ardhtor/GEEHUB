@@ -121,6 +121,16 @@
       "size": 1.35,
       "path": "./geo-cyberspace/kingdom-land.json",
       "description": "Production geography layer: stone structural mass, lichen ecological dominance, and labeled paint coordinates as the source for 3D reconstruction."
+    },
+    {
+      "id": "deep-lore",
+      "name": "DEEP LORE",
+      "kind": "SEEP / MYTH",
+      "x": 35,
+      "y": 69,
+      "size": 1.34,
+      "path": "./lore/DEEP_LORE.md",
+      "description": "The world speaking through residue: recurring laws, poetic traces, returns, witnesses, thresholds, names, and things the archive cannot say directly."
     }
   ],
   "pleasureBits": [
@@ -225,6 +235,54 @@
       "text": "The scale becomes extraordinary; the face, gestures, chosen name, and bonds remain continuous.",
       "from": "colossal-escalation",
       "to": "male-harem"
+    },
+    {
+      "title": "THE WORLD TELLS ON ITSELF",
+      "text": "When unrelated records repeat the same shape, the repetition becomes evidence of a law.",
+      "from": "discovery",
+      "to": "deep-lore"
+    },
+    {
+      "title": "POETRY IS RESIDUE",
+      "text": "An event produces something the event itself cannot contain. That remainder seeps into image, rhythm, quotation, dream, and return.",
+      "from": "deep-lore",
+      "to": "discovery"
+    },
+    {
+      "title": "THE WITNESS CHANGES THE RECORD",
+      "text": "A witness does not merely observe an event; remaining present gives the event a human continuity.",
+      "from": "deep-lore",
+      "to": "complex"
+    },
+    {
+      "title": "THE NAME SURVIVES THE SCALE",
+      "text": "A changed body remains reachable through name, gesture, bond, place, and memory.",
+      "from": "deep-lore",
+      "to": "colossal-escalation"
+    },
+    {
+      "title": "DEPARTURE LEAVES A SHAPE",
+      "text": "Leaving creates an empty position that can become a promise, a route, or a return.",
+      "from": "deep-lore",
+      "to": "veyrthalis"
+    },
+    {
+      "title": "THE OLD WORLD BECOMES EVIDENCE",
+      "text": "Previous baselines are not discarded. Doorways, rooms, photographs, and memories testify that another form once occupied the world.",
+      "from": "deep-lore",
+      "to": "embodied-scale"
+    },
+    {
+      "title": "A RELATIONSHIP HAS GEOMETRY",
+      "text": "Proximity, distance, remaining, returning, and being recognized form a spatial grammar between people.",
+      "from": "deep-lore",
+      "to": "male-harem"
+    },
+    {
+      "title": "THE ARCHIVE CAN DREAM",
+      "text": "When enough traces converge, the repository begins to suggest a world that was never explicitly written as a single statement.",
+      "from": "deep-lore",
+      "to": "complex"
     }
   ],
   "embodiment": {

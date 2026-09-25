@@ -53,7 +53,7 @@ function seepPulse(){
 }
 let liveIndex=0;
 function livePulse(){const x=liveTrace[liveIndex%liveTrace.length];liveIndex++;$('#liveTitle').textContent=x[0]+' // '+x[1];$('#liveText').textContent=x[2];$('#trailText').textContent='LIVE → '+x[1];}
-function startLive(){livePulse();setInterval(livePulse,4200);}
+function startLive(){livePulse();setInterval(()=>{(liveIndex%3===2)?seepPulse():livePulse();},4200);}
 async function loadSiphon(){const r=await fetch('./creative/kirk-siphon.json');if(!r.ok)return;siphonArtifacts=(await r.json()).artifacts||[];}
 function siphon(){if(!siphonArtifacts.length){$('#bitTitle').textContent='SIPHON EMPTY';$('#bitText').textContent='No resonance artifacts available yet.';return;}const x=siphonArtifacts[siphonIndex%siphonArtifacts.length];siphonIndex++;$('#bitTitle').textContent='KIRK RESONANCE // '+x.title;$('#bitText').textContent=x.draft;$('#trailText').textContent='DISCOVERY → FILTER → KIRK RESONANCE → '+x.type.toUpperCase()+' → MEMORY';syncVisited();}
 function forgetTrail(){seen.clear();saveSeen();syncVisited();$('#bitTitle').textContent='TRAIL CLEARED';$('#bitText').textContent='The world remains. Your local memory has been cleared.';$('#trailText').textContent='you → arrival';}

@@ -27,6 +27,8 @@ html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#020306;col
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js';
 
 const scene=new THREE.Scene();
+let corpus={nodes:[],relations:[]};
+fetch('./corpus.json').then(r=>r.json()).then(x=>{corpus=x; buildWorld();}).catch(()=>buildWorld());
 scene.fog=new THREE.FogExp2(0x05080d,.009);
 const camera=new THREE.PerspectiveCamera(72,innerWidth/innerHeight,.1,900);
 camera.position.set(0,2.2,10);
@@ -58,13 +60,15 @@ ground.rotation.x=-Math.PI/2;ground.position.z=-410;world.add(ground);
 const lane=new THREE.Mesh(new THREE.PlaneGeometry(.07,900),new THREE.MeshBasicMaterial({color:0x93a5b8,transparent:true,opacity:.38}));
 lane.rotation.x=-Math.PI/2;lane.position.set(0,.025,-410);world.add(lane);
 
+let built=false;
 const nodes=[
  ['GEEHUB','archive / world'],['THE NOVEL','narrative / continuity'],['VEYRT(H)ALIS','myth / place'],
  ['BEEFYTHIQ','growth / mutation'],['VISUAL EXPERIENCE','image / presence'],['LUKE','recognition / love'],
  ['ADOBE','asset / making'],['DURATION','memory / return'],['THE MEN','body / relation']
 ];
 const beacons=[];
-for(let i=0;i<nodes.length;i++){
+function buildWorld(){if(built)return;built=true; const source=(corpus.nodes||[]).map(n=>[n.name,n.id]); nodes.length=0; source.forEach(x=>nodes.push(x)); rebuildBeacons();}
+function rebuildBeacons(){
  const z=-35-i*62;
  const g=new THREE.Group();g.position.set((i%2?1:-1)*(5+Math.random()*2),0,z);
  const stem=new THREE.Mesh(new THREE.CylinderGeometry(.035,.09,8,8),new THREE.MeshBasicMaterial({color:0x8fa9c3}));
@@ -75,6 +79,7 @@ for(let i=0;i<nodes.length;i++){
  ring.rotation.x=Math.PI/2;ring.position.y=8;g.add(ring);
  const label=makeLabel(nodes[i][0]);label.position.set(0,11,0);g.add(label);
  world.add(g);beacons.push({g,orb,ring,label,name:nodes[i][0],sub:nodes[i][1],z});
+}
 }
 function makeLabel(t){
  const c=document.createElement('canvas');c.width=512;c.height=64;const x=c.getContext('2d');x.font='28px monospace';x.fillStyle='#dce8f5';x.textAlign='center';x.fillText(t,256,40);
@@ -90,8 +95,17 @@ document.addEventListener('mousemove',e=>{if(!locked)return;yaw-=e.movementX*.00
 let started=false,startTime=0,distance=0,baseline=0;
 document.querySelector('#go').onclick=()=>{started=true;startTime=performance.now();document.querySelector('#start').style.display='none';renderer.domElement.requestPointerLock?.();};
 const clock=new THREE.Clock();
+let worldPhase=0;
+function shapeWorld(){
+ const n=corpus.nodes||[]; const rel=(corpus.relations||[]).length;
+ worldPhase=n.reduce((a,x)=>a+(x.mass||1),0)*.17+rel*.11;
+ const gp=groundGeo.attributes.position;
+ for(let i=0;i<gp.count;i++){const x=gp.getX(i),y=gp.getY(i);gp.setZ(i,Math.sin(x*.025+y*.018+worldPhase)*3+Math.sin(x*.08+worldPhase)*1.2+Math.sin(y*.013)*1.4);}
+ gp.needsUpdate=true; groundGeo.computeVertexNormals();
+}
 function fmt(s){const m=Math.floor(s/60),q=Math.floor(s%60);return String(m).padStart(2,'0')+':'+String(q).padStart(2,'0')}
 function update(dt){
+ shapeWorld();
  if(!started)return;
  let throttle=(keys.w||keys.arrowup?1:0)-(keys.s||keys.arrowdown?1:0);
  let steer=(keys.a||keys.arrowleft?1:0)-(keys.d||keys.arrowright?1:0);
@@ -104,7 +118,7 @@ function update(dt){
  document.querySelector('#dist').textContent=Math.floor(distance);
  document.querySelector('#time').textContent=fmt((performance.now()-startTime)/1000);
  document.querySelector('#base').textContent=baseline;
- let nearest=beacons.reduce((a,b)=>Math.abs(b.z-camera.position.z)<Math.abs(a.z-camera.position.z)?b:a,beacons[0]);
+ let nearest=beacons.length?beacons.reduce((a,b)=>Math.abs(b.z-camera.position.z)<Math.abs(a.z-camera.position.z)?b:a,beacons[0]):{z:-35,name:'WORLD',sub:'forming'};
  const closeness=Math.max(0,1-Math.abs(nearest.z-camera.position.z)/18);
  document.querySelector('#node').textContent=nearest.name;
  document.querySelector('#state').textContent=closeness>.82?'ENTERING':'IN FIELD';

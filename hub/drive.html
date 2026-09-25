@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEEHUB — DRIVE THROUGH</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#020306;color:#eef1f5;font:12px monospace}
+#world{position:fixed;inset:0}canvas{display:block}
+#hud{position:fixed;inset:0;pointer-events:none;padding:18px;box-sizing:border-box}
+#title{letter-spacing:.18em}.panel{position:absolute;background:rgba(3,6,10,.62);border:1px solid rgba(180,205,230,.24);backdrop-filter:blur(8px);padding:10px 12px;max-width:330px}
+#field{left:18px;bottom:18px}.right{right:18px;top:18px;text-align:right}
+#story{left:50%;bottom:28px;transform:translateX(-50%);width:min(620px,72vw);text-align:center;opacity:.9}
+.hot{color:#fff}.dim{opacity:.55}.bar{height:2px;background:#252b33;margin-top:8px}.fill{height:100%;width:0;background:#dce8f5}
+#start{position:fixed;inset:0;display:grid;place-items:center;background:#020306;z-index:4}.startbox{max-width:600px;padding:32px;text-align:center;border:1px solid #303944;background:#070b10}.startbox h1{font-size:34px;font-weight:400;letter-spacing:.15em}.startbox button{font:12px monospace;padding:12px 22px;background:#eef1f5;color:#080a0d;border:0;cursor:pointer}
+</style>
+</head>
+<body>
+<div id="world"></div>
+<div id="start"><div class="startbox"><div class="dim">GEEHUB / TEMPORAL ENGINE</div><h1>DRIVE THROUGH</h1><p>WASD / ARROWS TO MOVE. MOUSE TO LOOK.</p><p class="dim">You are not selecting the story. You are entering its duration.</p><button id="go">START THE DRIVE</button></div></div>
+<div id="hud">
+<div id="title">GEEHUB // DRIVE THROUGH</div>
+<div class="panel right"><div id="node">ROAD</div><div id="state" class="dim">GENERATING</div><div class="bar"><div id="progress" class="fill"></div></div></div>
+<div class="panel" id="field"><div>DISTANCE <span id="dist">0</span>m</div><div>TIME <span id="time">00:00</span></div><div>BASELINE <span id="base">0</span></div></div>
+<div class="panel" id="story">The road is being generated from the things the Hub has remembered.</div>
+</div>
+<script type="module">
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js';
+
+const scene=new THREE.Scene();
+scene.fog=new THREE.FogExp2(0x05080d,.009);
+const camera=new THREE.PerspectiveCamera(72,innerWidth/innerHeight,.1,900);
+camera.position.set(0,2.2,10);
+const renderer=new THREE.WebGLRenderer({antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2)); renderer.setSize(innerWidth,innerHeight); renderer.outputColorSpace=THREE.SRGBColorSpace;
+document.querySelector('#world').appendChild(renderer.domElement);
+
+const world=new THREE.Group();scene.add(world);
+scene.add(new THREE.HemisphereLight(0x9fb5cc,0x11151c,1.8));
+const moon=new THREE.DirectionalLight(0xdce8ff,2);moon.position.set(-40,60,30);scene.add(moon);
+
+const roadGeo=new THREE.PlaneGeometry(12,900,64,420);
+const pos=roadGeo.attributes.position;
+for(let i=0;i<pos.count;i++){
+ const x=pos.getX(i), y=pos.getY(i);
+ pos.setZ(i,Math.sin(y*.035)*.55+Math.sin(y*.11+x*.07)*.18);
+}
+roadGeo.computeVertexNormals();
+const road=new THREE.Mesh(roadGeo,new THREE.MeshStandardMaterial({color:0x14191f,roughness:.92,metalness:.05}));
+road.rotation.x=-Math.PI/2;road.position.z=-410;world.add(road);
+
+const groundGeo=new THREE.PlaneGeometry(260,1000,80,300);
+const gp=groundGeo.attributes.position;
+for(let i=0;i<gp.count;i++){const x=gp.getX(i),y=gp.getY(i);gp.setZ(i,Math.sin(x*.025+y*.018)*3+Math.sin(x*.08)*1.2);}
+groundGeo.computeVertexNormals();
+const ground=new THREE.Mesh(groundGeo,new THREE.MeshStandardMaterial({color:0x0b1010,roughness:1}));
+ground.rotation.x=-Math.PI/2;ground.position.z=-410;world.add(ground);
+
+const lane=new THREE.Mesh(new THREE.PlaneGeometry(.07,900),new THREE.MeshBasicMaterial({color:0x93a5b8,transparent:true,opacity:.38}));
+lane.rotation.x=-Math.PI/2;lane.position.set(0,.025,-410);world.add(lane);
+
+const nodes=[
+ ['GEEHUB','archive / world'],['THE NOVEL','narrative / continuity'],['VEYRT(H)ALIS','myth / place'],
+ ['BEEFYTHIQ','growth / mutation'],['VISUAL EXPERIENCE','image / presence'],['LUKE','recognition / love'],
+ ['ADOBE','asset / making'],['DURATION','memory / return'],['THE MEN','body / relation']
+];
+const beacons=[];
+for(let i=0;i<nodes.length;i++){
+ const z=-35-i*62;
+ const g=new THREE.Group();g.position.set((i%2?1:-1)*(5+Math.random()*2),0,z);
+ const stem=new THREE.Mesh(new THREE.CylinderGeometry(.035,.09,8,8),new THREE.MeshBasicMaterial({color:0x8fa9c3}));
+ stem.position.y=4;g.add(stem);
+ const orb=new THREE.Mesh(new THREE.IcosahedronGeometry(1.1,2),new THREE.MeshStandardMaterial({color:0x9db9d1,emissive:0x26394b,emissiveIntensity:2,roughness:.2,metalness:.7}));
+ orb.position.y=8;g.add(orb);
+ const ring=new THREE.Mesh(new THREE.TorusGeometry(2.2,.025,8,64),new THREE.MeshBasicMaterial({color:0xbfd8ed,transparent:true,opacity:.7}));
+ ring.rotation.x=Math.PI/2;ring.position.y=8;g.add(ring);
+ const label=makeLabel(nodes[i][0]);label.position.set(0,11,0);g.add(label);
+ world.add(g);beacons.push({g,orb,ring,label,name:nodes[i][0],sub:nodes[i][1],z});
+}
+function makeLabel(t){
+ const c=document.createElement('canvas');c.width=512;c.height=64;const x=c.getContext('2d');x.font='28px monospace';x.fillStyle='#dce8f5';x.textAlign='center';x.fillText(t,256,40);
+ const s=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(c),transparent:true,depthTest:false}));s.scale.set(7,.9,1);return s;
+}
+
+const keys={};addEventListener('keydown',e=>{keys[e.key.toLowerCase()]=true});addEventListener('keyup',e=>{keys[e.key.toLowerCase()]=false});
+let yaw=0,pitch=0,locked=false,lastX=0,lastY=0;
+renderer.domElement.addEventListener('click',()=>renderer.domElement.requestPointerLock?.());
+document.addEventListener('pointerlockchange',()=>locked=document.pointerLockElement===renderer.domElement);
+document.addEventListener('mousemove',e=>{if(!locked)return;yaw-=e.movementX*.002;pitch-=e.movementY*.0015;pitch=Math.max(-.35,Math.min(.35,pitch));});
+
+let started=false,startTime=0,distance=0,baseline=0;
+document.querySelector('#go').onclick=()=>{started=true;startTime=performance.now();document.querySelector('#start').style.display='none';renderer.domElement.requestPointerLock?.();};
+const clock=new THREE.Clock();
+function fmt(s){const m=Math.floor(s/60),q=Math.floor(s%60);return String(m).padStart(2,'0')+':'+String(q).padStart(2,'0')}
+function update(dt){
+ if(!started)return;
+ let throttle=(keys.w||keys.arrowup?1:0)-(keys.s||keys.arrowdown?1:0);
+ let steer=(keys.a||keys.arrowleft?1:0)-(keys.d||keys.arrowright?1:0);
+ const speed=throttle*(9+Math.min(distance*.012,18))*dt;
+ camera.position.z-=speed; distance+=Math.abs(speed);
+ camera.position.x+=steer*dt*5;
+ camera.position.x*=.985; camera.position.x=Math.max(-4.5,Math.min(4.5,camera.position.x));
+ camera.rotation.set(pitch,yaw,0,'YXZ');
+ baseline=Math.floor(distance/50);
+ document.querySelector('#dist').textContent=Math.floor(distance);
+ document.querySelector('#time').textContent=fmt((performance.now()-startTime)/1000);
+ document.querySelector('#base').textContent=baseline;
+ let nearest=beacons.reduce((a,b)=>Math.abs(b.z-camera.position.z)<Math.abs(a.z-camera.position.z)?b:a,beacons[0]);
+ const closeness=Math.max(0,1-Math.abs(nearest.z-camera.position.z)/18);
+ document.querySelector('#node').textContent=nearest.name;
+ document.querySelector('#state').textContent=closeness>.82?'ENTERING':'IN FIELD';
+ document.querySelector('#progress').style.width=Math.min(100,Math.abs(nearest.z-camera.position.z)/18*100)+'%';
+ if(closeness>.82)document.querySelector('#story').textContent=nearest.name+' / '+nearest.sub+' — duration has made this node physical.';
+ else if(Math.floor(distance)%17===0)document.querySelector('#story').textContent='The road remembers that you passed here.';
+}
+function animate(){requestAnimationFrame(animate);const dt=Math.min(clock.getDelta(),.05);for(const b of beacons){b.orb.rotation.y+=dt*.6;b.ring.rotation.z+=dt*.35;}update(dt);renderer.render(scene,camera)}animate();
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
+</script>
+</body></html>

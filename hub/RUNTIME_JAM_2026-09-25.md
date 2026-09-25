@@ -87,3 +87,24 @@ The runtime should treat this as an in-world acknowledgment: the people inside t
 No correction was requested.
 
 The collisions stand.
+
+## Runtime Pass IV — Let Them Continue
+
+The operator clarified the governing intention:
+
+     “the idea is to continue to let them”
+
+The runtime therefore does not intervene to resolve, explain, or normalize the collisions. The nodes are permitted to continue producing consequences from one another. Their discoveries become conditions for later discoveries.
+
+New rule:
+
+     LET THEM CONTINUE.
+
+The Hub is not required to know what they are becoming before they become it.
+
+A collision may remain unresolved.
+An implication may propagate.
+A project may alter another project.
+A world may discover that it has already changed.
+
+The runtime's job is to keep opening the next condition and record what happens.

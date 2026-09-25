@@ -1437,3 +1437,189 @@
      Outside, morning entered Veyrthalis slowly.
 
      And somewhere beneath the country, something ancient opened one eye—not because it had been summoned, not because it had been remembered, but because, for once, nobody had asked it to appear.
+
+## Chapter XLVIII: The Room of the Men
+
+     The city did not wake so much as become aware of itself. By the time the men returned to the House, every corridor seemed occupied by a different version of morning: pale blue light in one passage, amber haze in another, the gray illumination of an overcast forest somewhere beyond a door that had not existed the night before. The House had always been capable of changing around them, but now its changes had acquired a peculiar deliberateness. It was no longer merely responding to attention. It was arranging the conditions under which attention could occur.
+
+     The men found the room at the end of the eastern corridor.
+
+     There was no sign on the door. No inscription. No blue light. Just a heavy wooden surface, dark with age, set into a wall of the same stone as the oldest parts of Veyrthalis.
+
+     Luke put his hand on the handle.
+
+     “This one feels different.”
+
+     Joseph looked at him.
+
+     “Different how?”
+
+     Luke considered it.
+
+     “Like somebody's already inside.”
+
+     The door opened.
+
+     The room beyond was enormous.
+
+     Not cavernous. Not grand in the theatrical sense. Its scale was domestic first and impossible second. There was a long table. There were lamps. There were chairs arranged around the walls. There were shelves holding objects that appeared to have been collected from every world the men had entered: a screw from Luke's box, a fragment of blue glass, a piece of wood from the House, a brass instrument from the Digitorium, a stone from the Seven Wells, a page with no writing on it, a photograph turned face-down.
+
+     And there were men.
+
+     Dozens of them.
+
+     Some stood near the windows. Some sat on the floor. Some leaned against the walls with their arms folded. Some were enormous, their bodies occupying the architecture around them with the calm inevitability of trees occupying a forest. Others were lean, quiet, watchful. Some looked young. Some looked old. Some looked as though they had been waiting for years. None of them seemed surprised to see Kirk, Luke, Tyler, Joseph, and the Teller enter.
+
+     One man at the far end of the room raised his head.
+
+     “You're late.”
+
+     Nobody answered.
+
+     Luke looked around the room.
+
+     “Late for what?”
+
+     The man smiled.
+
+     “For being here.”
+
+     The sentence changed the room.
+
+     Not physically. The walls remained where they were. The table remained a table. But suddenly every man seemed to become more definite. The room was no longer a collection of strangers. It was a gathering. A fraternity without a name. A population that had been accumulating beneath the visible story.
+
+     Joseph walked toward the table.
+
+     “Who are you?”
+
+     The man at the far end stood.
+
+     “That's the problem.”
+
+     He gestured toward the others.
+
+     “None of us came here with the same answer.”
+
+     Tyler looked at the men more carefully. There were familiar qualities among them. A posture. A scar. A way of holding the shoulders. A particular heaviness in the chest. A tendency to stand close to another man without speaking. The details differed, but the recognition was immediate.
+
+     They were not copies.
+
+     They were variations.
+
+     Luke understood first.
+
+     “This is the room for everything the story couldn't decide.”
+
+     The man nodded.
+
+     “Exactly.”
+
+     Kirk looked at the shelves.
+
+     “Then why are we here?”
+
+     The man turned toward him.
+
+     “Because the story has stopped deciding for you.”
+
+     Silence followed.
+
+     Somewhere outside, the city bells began to ring. One. Then another. Then another. The sound traveled through the stone and entered the room as vibration.
+
+     One of the men at the window laughed softly.
+
+     “There it is.”
+
+     Joseph looked toward him.
+
+     “What?”
+
+     The man smiled.
+
+     “The part where everyone realizes they have a choice.”
+
+     No one moved.
+
+     The room seemed to wait.
+
+     Then Luke walked to the center.
+
+     He did not announce himself. He did not ask permission. He simply stood among the men and looked at them until they looked back.
+
+     “So what do you want?”
+
+     The question moved through the room.
+
+     One man wanted a home.
+
+     Another wanted a body that felt like his own.
+
+     Another wanted to be remembered.
+
+     Another wanted to disappear.
+
+     Another wanted someone to stay.
+
+     Another wanted to become strong enough that no room could ever make him feel small again.
+
+     Another wanted to be ordinary.
+
+     Another wanted to be impossible.
+
+     Their answers contradicted one another. The room did not correct them.
+
+     That was its purpose.
+
+     The House had spent so long turning desire into architecture that the men had forgotten desire could remain unresolved.
+
+     Kirk walked to the table.
+
+     There was one empty chair.
+
+     He pulled it out.
+
+     “And this?”
+
+     The man at the end of the room looked at the chair.
+
+     “That's for whoever hasn't decided yet.”
+
+     Kirk sat down.
+
+     Nobody applauded. Nothing transformed. No door opened.
+
+     For once, the world did not reward the act with spectacle.
+
+     The men simply continued talking.
+
+     They spoke about the things they had lost. They spoke about the places they had come from. They argued about whether strength meant endurance or protection, whether memory belonged to the person who remembered or the person who was remembered, whether a man could change completely and still remain himself.
+
+     Luke listened.
+
+     Joseph listened.
+
+     Tyler listened.
+
+     The Teller listened.
+
+     And gradually the room became warmer.
+
+     Not because of the lamps.
+
+     Because the men had stopped performing for the architecture.
+
+     They were simply there.
+
+     Outside, Veyrthalis continued to expand.
+
+     Inside, the men discovered something stranger.
+
+     A room did not have to become larger to contain more.
+
+     Sometimes it only had to let more people speak.
+
+     And somewhere in the walls, beneath the accumulated history of the House, the ancient organism shifted in its sleep.
+
+     This time, nobody noticed.
+
+     That was how they knew the room was working.

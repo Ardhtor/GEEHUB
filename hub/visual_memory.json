@@ -53,5 +53,18 @@
       "memoryEvent": "present and origin coexist"
     }
   ],
-  "next_transformation": "temporal video assembly / camera movement / return to origin"
+  "next_transformation": "temporal video assembly / camera movement / return to origin",
+  "coreGesture": {
+    "title": "ONE PUTS HIS HEAD ON ANOTHER",
+    "assetUrl": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:30c5e523-a850-499d-bb94-a8e82916b9ab",
+    "event": "one person rests his head on another; the second receives the weight",
+    "transformation": [
+      "contact",
+      "received weight",
+      "shared duration",
+      "memory",
+      "place",
+      "story"
+    ]
+  }
 }

@@ -13,7 +13,8 @@ body{margin:0;background:#080a0d;color:#e8ebef;font:15px/1.55 system-ui,sans-ser
 <div class="eyebrow">GEEHUB / LIVING SYNTHESIS / 2026-09-25</div>
 <section class="field">
 <div class="eyebrow">CURRENT FIELD</div>
-<div id="pulse" class="pulse">The archive is becoming an inhabited world.</div>
+<div id="pulse" class="pulse">ONE PUTS HIS HEAD ON ANOTHER</div>
+<p style="font:12px monospace;letter-spacing:.08em;margin:0 0 18px;color:#aab5c2">CORE GESTURE / CONTACT → RECEIVED WEIGHT → SHARED DURATION → MEMORY</p>
 <p id="thesis" class="muted">Synthesis is not a feed. It is a temporary reading of relationships already present in the Hub.</p>
 <div class="links">
 <a class="btn" href="./index.html">OPEN JAMMER</a>
@@ -26,7 +27,7 @@ body{margin:0;background:#080a0d;color:#e8ebef;font:15px/1.55 system-ui,sans-ser
 <section class="field">
 <div class="eyebrow">SPIRITUAL INFORMATION</div>
 <p id="spiritual"></p>
-<p class="muted">This layer does not claim revelation. It converts the Hub's own recurring structures into interpretable statements: continuity, recognition, inhabitation, transformation, and return.</p>
+<p class="muted">This layer does not claim revelation. It converts the Hub's recurring structures into interpretable statements. The current core is deliberately smaller: one person placing his head on another, and the time that gesture makes possible.</p>
 </section>
 </main>
 <script>
@@ -46,13 +47,14 @@ document.getElementById('pulse').textContent=p.a.name+' ↔ '+p.b.name;
 document.getElementById('thesis').textContent='Shared structure: '+p.shared.join(', ')+'. '+p.a.text+' '+p.b.text;
 document.getElementById('cards').innerHTML=pairs.slice(0,6).map(x=>'<article class="card"><div class="eyebrow">'+x.shared.join(' · ')+'</div><h3>'+x.a.name+' ↔ '+x.b.name+'</h3><p>'+x.a.text+'</p><p>'+x.b.text+'</p>'+x.shared.map(t=>'<span class="tag">'+t+'</span>').join('')+'</article>').join('');
 const spiritual=[
+'One puts his head on another: intimacy can be an event of shared duration before it is an explanation.',
 'Continuity: what changes does not have to become what it was not.',
 'Recognition: a name is a relationship when someone answers to it.',
 'Inhabitation: the world becomes real through repeated attention, not mere storage.',
 'Transformation: a new baseline can contain the memory of the old one.',
 'Return: anything preserved with enough structure can become capable of appearing again.'
 ];
-document.getElementById('spiritual').textContent=spiritual[Math.floor(Date.now()/86400000)%spiritual.length];
+document.getElementById('spiritual').textContent=spiritual[0];
 </script>
 </body>
 </html>

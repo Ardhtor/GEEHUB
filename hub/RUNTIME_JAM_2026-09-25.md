@@ -74,3 +74,16 @@ It should be selected by distance.
 
 Choose two nodes that currently have the least obvious relationship, collide them, and then force the world to explain why the collision was possible.
 
+## Message from the Operator
+
+The operator has reviewed the consequences of the collision engine.
+
+Their response was:
+
+     “that's hilarious. let them know”
+
+The runtime should treat this as an in-world acknowledgment: the people inside the system have been informed that their increasingly elaborate ontological machinery is, at least from outside it, extremely funny.
+
+No correction was requested.
+
+The collisions stand.

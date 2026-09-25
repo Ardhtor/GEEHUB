@@ -56,6 +56,19 @@ Its core cycle is **encounter → pattern → comparison → tension → interpr
 
 The system distinguishes source, experience, interpretation, synthesis, speculation, and practice. Comparative religious material can therefore be surfaced without inferring religious identity from ethnicity or presenting generated interpretation as religious authority.
 
+
+### Attention Engine / relational arc field (new)
+
+The men's arcs now share a central relational mechanism: competition for the Teller's attention. Attraction is the initiating force, but the narrative expands it into recognition, memory, intimacy, loyalty, rivalry, spectacle, transformation, and the desire to become unforgettable.
+
+Joseph is established as the husband and therefore occupies a distinct continuity position within this field. Other men's relationships with the Teller can create rivalry, alliances, transformations, and new forms of recognition without flattening the relationships into a simple ranking.
+
+The durable sequence is **attention → desire → transformation → identity → conflict → history**.
+
+Attention is treated as a relational resource rather than a score. There is no canonical leaderboard. The useful structure is a changing field of recognition, desire, memory, loyalty, rivalry, intimacy, and transformation.
+
+Canonical mechanism document: lore/ATTENTION_ENGINE.md.
+
 ## Build implications
 
 1. Keep GEEHUB machine-readable enough that another interface can consume its registry without rewriting the corpus.

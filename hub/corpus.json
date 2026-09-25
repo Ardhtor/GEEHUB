@@ -1,0 +1,21 @@
+{
+  "version":1,
+  "nodes":[
+    {"id":"geehub","name":"GEEHUB","mass":1},
+    {"id":"novel","name":"THE NOVEL","mass":1.2},
+    {"id":"veyrthalis","name":"VEYRT(H)ALIS","mass":1.4},
+    {"id":"beefythiq","name":"BEEFYTHIQ","mass":1.3},
+    {"id":"visual","name":"VISUAL EXPERIENCE","mass":1.1},
+    {"id":"adobe","name":"ADOBE","mass":1},
+    {"id":"duration","name":"DURATION","mass":1.2},
+    {"id":"men","name":"THE MEN","mass":1.1}
+  ],
+  "relations":[
+    ["geehub","novel"],
+    ["geehub","visual"],
+    ["geehub","duration"],
+    ["novel","veyrthalis"],
+    ["beefythiq","men"],
+    ["visual","adobe"]
+  ]
+}

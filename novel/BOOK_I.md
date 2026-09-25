@@ -1623,3 +1623,183 @@
      This time, nobody noticed.
 
      That was how they knew the room was working.
+
+## Chapter XLIX-I: The Men Who Stayed
+
+     By evening the room had changed again. The long table was still there, and so were the shelves, the lamps, and the impossible collection of objects, but the men had begun moving their chairs closer together. Nobody had instructed them to do it. The arrangement simply became more intimate as conversation accumulated. A man who had spent the afternoon by the window now sat beside another man on the floor. Two strangers were comparing scars on their hands. Someone had found food somewhere and was passing it around without asking who was hungry. The room had begun behaving less like an archive and more like a place where people lived.
+
+     Luke noticed that first.
+
+     “It doesn't want us to leave.”
+
+     Joseph looked around.
+
+     “Maybe it doesn't.”
+
+     “That's different from a trap.”
+
+     “Very.”
+
+     Across the room, a broad man was laughing with Tyler. The sound was ordinary enough that it startled Kirk. After everything they had seen—the wells, the House, the city beneath the water, the windows and doors and creatures that seemed to remember them before they existed—ordinary laughter felt almost supernatural.
+
+     Kirk sat back.
+
+     “What makes a man stay?”
+
+     Nobody answered immediately.
+
+     Then the man beside him said,
+
+     “Someone knowing where you are.”
+
+     Another answered from across the table.
+
+     “Someone noticing when you leave.”
+
+     A third man said,
+
+     “Having somewhere to come back to.”
+
+     The answers accumulated until the room seemed to possess a new architecture made entirely of relationships. No spell produced it. No machine recorded it. No door revealed it. The men had built it simply by remaining present long enough for one another to become real.
+
+     The Teller looked toward the empty chair.
+
+     It was still empty.
+
+     But nobody was treating it as a vacancy anymore.
+
+## Chapter XLIX-II: The Measure of a Man
+
+     Later, the conversation became an argument.
+
+     It began with strength.
+
+     One man said strength was the ability to withstand what happened to you. Another said it was the ability to prevent it from happening to someone else. A third insisted that strength was irrelevant unless it could be used without destroying the person who possessed it.
+
+     Luke listened for a long time.
+
+     Then he stood.
+
+     “You're all measuring the wrong thing.”
+
+     The room quieted.
+
+     Luke looked down at his hands.
+
+     “A man can get bigger. Stronger. Harder to hurt. He can fill a doorway and make everybody notice when he walks into a room. None of that tells you what he'll do when somebody weaker needs him.”
+
+     Tyler nodded slowly.
+
+     Joseph watched Luke without interrupting.
+
+     Luke continued.
+
+     “That's the part nobody can measure.”
+
+     The House seemed to listen.
+
+     The shelves stopped shifting. The lamps steadied. Even the distant machinery of the city became quieter.
+
+     Kirk understood why.
+
+     The House had spent its entire existence measuring consequences. It had measured rooms by bodies, corridors by movement, memory by repetition, desire by what it produced. But this was different. The thing being measured was not size.
+
+     It was conduct.
+
+     One of the largest men in the room stood.
+
+     “Then show us.”
+
+     Luke looked at him.
+
+     “Show you what?”
+
+     “What you do.”
+
+     The man crossed the room and stopped in front of Luke. For a moment neither moved. Then the larger man held out his hand.
+
+     Luke took it.
+
+     Nothing happened.
+
+     That was the revelation.
+
+     No transformation. No thunder. No enlargement of the room.
+
+     Just two men standing there, choosing not to turn strength into domination.
+
+     Joseph smiled.
+
+     “Maybe that's why the room was built.”
+
+     The Teller looked toward the walls.
+
+     “Or maybe we built it.”
+
+     Nobody corrected him.
+
+## Chapter XLIX-III: The Room Becomes a World
+
+     Near midnight, the men began moving through the House together.
+
+     They did not march. There was no procession and no command. They simply left the room in groups, carrying chairs, lamps, blankets, books, pieces of wood, photographs, tools, and objects whose purposes nobody knew. They placed them in corridors and alcoves. They opened doors that had been closed for years. They cleared spaces that had become storage. They made a kitchen where there had only been an empty chamber. They dragged a long table into the center of the House.
+
+     The architecture changed around them.
+
+     Not because the House was obeying them.
+
+     Because it was learning what they meant.
+
+     By dawn, the old House of Open Screens was almost unrecognizable. It still possessed its impossible corridors, its blue rooms, its ancient machinery and hidden doors, but between those things there were now signs of ordinary life. Shoes beside thresholds. Cups on tables. Coats hanging from hooks. Men asleep in chairs. Men talking quietly in hallways. Men standing outside beneath the trees.
+
+     Kirk walked through it alone.
+
+     He realized that this was the first time the House had become larger without physically growing.
+
+     It had gained density.
+
+     Every room contained the possibility of another person entering.
+
+     Every chair implied a conversation.
+
+     Every doorway implied return.
+
+     At the center of the House, the original empty chair remained.
+
+     Joseph stood beside it.
+
+     “Should we move it?”
+
+     Kirk shook his head.
+
+     “No.”
+
+     “Why?”
+
+     Kirk looked at the chair.
+
+     “Because somebody might need it.”
+
+     Joseph understood.
+
+     They left it there.
+
+     Outside, morning spread across Veyrthalis. The fog lifted from the black water. The enormous trees emerged one by one. Far beyond the city, the ancient organism moved beneath the earth, and the movement traveled upward through the foundations like a slow breath.
+
+     The men did not notice.
+
+     They were too busy making breakfast.
+
+     For the first time, the House had become a world without needing to become a spectacle.
+
+     And because it had become a world, something new became possible.
+
+     A man could arrive.
+
+     A man could leave.
+
+     A man could change.
+
+     A man could remain.
+
+     And the House, finally, could contain all four without deciding which one he was supposed to be.

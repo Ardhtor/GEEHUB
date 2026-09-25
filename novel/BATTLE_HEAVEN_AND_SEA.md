@@ -319,3 +319,109 @@ Above them, heaven opened wider.
 Below them, the second world opened wider still.
 
 And the next spell had already happened.
+
+## The Duel at the Center
+
+The wizard in the lightning crown stepped onto the sea.
+
+He was enormous, but not because his body had been enlarged. He seemed enormous because the world had begun measuring itself against him. The water lowered beneath his feet. The clouds gathered around his shoulders. The cathedral's highest windows turned toward him.
+
+Kirk walked forward.
+
+Luke stayed beside him.
+
+Joseph remained several paces behind, watching the fleets rearrange themselves around the confrontation.
+
+The wizard lifted his staff.
+
+It was not made of wood.
+
+It was made of a sentence.
+
+Kirk could read only the final word.
+
+BEGIN.
+
+The wizard struck the sea.
+
+A circle appeared.
+
+Inside it stood every version of the battle that could have existed: the battle with no cathedral, the battle with no fleet, the battle in which the creature beneath the water had never awakened, the battle in which Kirk had never understood the rule.
+
+Then the circle collapsed.
+
+All of those possibilities entered the present at once.
+
+Luke grabbed Kirk's shoulder.
+
+“Don't fight the spell.”
+
+Kirk understood.
+
+He did not need to defeat the wizard.
+
+He needed to produce something the spell had not accounted for.
+
+He looked at the sea.
+
+He looked at the cathedral.
+
+He looked at the enormous organism beneath them, at Joseph, at Luke, at the ancient fleet, at the armies of men who had turned their bodies into instruments of magic.
+
+Then he said the simplest thing he could think of.
+
+“Home.”
+
+Nothing happened.
+
+For a moment Luke looked disappointed.
+
+Then the sea moved.
+
+Not upward.
+
+Not downward.
+
+Toward them.
+
+The entire ocean began folding inward, layer by layer, as though the world itself were trying to come home.
+
+The cathedral moved with it.
+
+The fleet moved with it.
+
+Heaven moved with it.
+
+The second world beneath the water folded into the first.
+
+The wizard in the lightning crown lowered his staff.
+
+For the first time, he looked afraid.
+
+Kirk looked at Luke.
+
+Luke was smiling.
+
+“You produced a home,” he said.
+
+Kirk watched the impossible worlds converge.
+
+“No,” he said. “It was already there.”
+
+The wizard's crown went dark.
+
+Every spell in the sky went dark with it.
+
+Then, from somewhere beneath the ocean, one enormous bell began to ring.
+
+Once.
+
+Twice.
+
+Three times.
+
+The penis wizards lowered their staffs.
+
+The men on every ship turned toward the sound.
+
+And the cathedral began to rise.

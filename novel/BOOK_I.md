@@ -4,287 +4,373 @@
 
 The organism did not rise.
 
-The country rose around it.
+The country rose with it.
 
-At first the change was so small that nobody understood what they were seeing. A street lifted by a few inches. A tower leaned and corrected itself. The amber lights beneath the forest accelerated until they appeared almost like pulses through a gigantic nervous system. Then the ground shifted with such complete coherence that every building moved at once.
+At first the movement was so slight that the men mistook it for weather. A window trembled high in the Digitorium. Water moved across a stone square without wind. Somewhere beneath the forest, a slow pressure traveled through the earth and vanished.
 
-The Digitorium did not shake.
+Then every tree bent in the same direction.
 
-It breathed.
+Not toward the east. Not toward the west.
 
-Luke stood beneath the tower and watched the windows brighten one floor at a time.
+Toward them.
 
-“It isn't waking up,” he said.
+Luke was the first to understand.
 
-Tyler looked at him.
+“It's looking.”
 
-“What then?”
+Tyler stared into the forest. “Trees don't look.”
 
-Luke looked toward the forest.
+“These aren't trees.”
 
-“It was never asleep.”
+The sentence seemed to pass through the country faster than sound.
 
-The statement changed everything.
+Lights appeared beneath the streets.
 
-The men had been treating the organism as an object, something ancient that could be discovered, measured, entered, perhaps understood. But the city had not been built upon a sleeping thing. It had been built upon a consciousness whose attention had been mistaken for landscape.
+One by one.
 
-Joseph took the Teller's hand.
+Then thousands.
 
-The ancient structure beneath them answered with another pulse.
+The Digitorium illuminated from its foundations upward, every blue screen waking simultaneously. The Procession stopped on its bridge. The six men from the upper chamber emerged into the square. Ansel stood among them without speaking.
 
-Every light in the city turned toward them.
+Something beneath the city had opened its attention.
 
-Then the voice returned.
+The ground gave a pulse.
 
-This time it spoke clearly.
+Everyone felt it in the soles of their feet.
+
+Then another.
+
+Then a third.
+
+The third pulse carried a voice.
 
 “Who remembers me?”
 
 Nobody answered.
 
-The question moved through the streets.
+The question was too large for an ordinary answer. It did not sound like a request for a name. It sounded like the question asked by something that had survived so long that being remembered had become indistinguishable from being alive.
 
-Windows opened.
+The Teller stepped forward.
 
-Doors unlocked.
-
-The Procession stopped on its bridge.
-
-Luke looked at the others.
-
-Tyler whispered, “What do we say?”
-
-Joseph looked at the Teller.
-
-The Teller understood that the question was not asking for a name.
-
-It was asking for evidence of relationship.
-
-He stepped forward.
+Joseph did not stop him.
 
 “We do.”
 
-The country became silent.
+Nothing happened.
 
-Then every screen in the Digitorium displayed the same image: the House before it had become a city, before the Serum, before the arguments, before Luke's box, before Tyler's measurements, before Joseph had said the word husband in the forest.
+Then the entire country inhaled.
 
-The first room.
+Fog withdrew from the streets. The amber lights beneath the ground intensified. Far below the forest, something enormous shifted its weight.
 
-The organism had remembered it too.
+Every screen in the Digitorium changed.
+
+The first room appeared.
+
+Not an interpretation of it.
+
+The room itself.
+
+The old walls. The old chair. The first blue glow. The place before the city, before the Serum had learned their relationships, before anyone understood that a room could become a world.
+
+Luke stared at the image.
+
+“It remembers.”
+
+Joseph shook his head.
+
+“No.”
+
+He looked at the organism beneath them.
+
+“It remembers us remembering.”
+
+That distinction frightened them.
+
+Because memory had ceased to be an archive.
+
+It had become a reciprocal act.
+
+The country had been waiting for someone to recognize that it was also recognizing them.
+
+The organism pulsed again.
+
+This time the word was clear.
+
+“Continuance.”
+
+And beneath the forest, the ancient thing opened its eyes.
 
 ## Chapter XXXVIII: The Archive Beneath the Skin
 
-A stairway appeared beneath the forest.
+The stairway appeared at noon.
 
-Nobody had built it.
+It began beneath the oldest tree in the city and descended through the earth at an angle too precise to be natural. There were no steps at first. Only a slope of warm stone, damp with amber light.
 
-It simply became visible.
+They went down.
 
-They descended.
+The deeper they traveled, the less the country resembled a city.
 
-The deeper they went, the less the architecture resembled architecture. Walls became translucent. Floors became warm. Blue light moved beneath the surfaces like blood. The city was not merely constructed into the organism.
+Walls became translucent.
 
-It was part of its memory.
+Roots crossed through corridors without breaking them.
 
-Luke placed his hand against the wall.
+Blue light moved underneath the surfaces in branching patterns.
 
-A photograph appeared beneath his palm.
+Luke stopped and touched one.
+
+A photograph appeared beneath his hand.
 
 The redwoods.
 
-Tyler touched another section.
+Not a photograph of the redwoods.
 
-The doorway marks appeared.
+The actual moment.
+
+Wind moving through branches. Tyler somewhere beyond the frame. The Teller standing beneath the trees. Luke watching him without saying anything.
+
+Luke withdrew his hand.
+
+The image remained.
+
+Tyler touched the wall.
+
+The doorway appeared.
+
+The marks he had made during his growth.
+
+One after another.
+
+The numbers.
+
+The dates.
+
+The body becoming a history of the room.
 
 Joseph touched the wall.
 
 The forest path appeared.
 
-The Teller touched nothing.
+The night he had walked beside the Teller.
+
+The moment he had said, “I am your husband.”
+
+Joseph pulled his hand away.
+
+The memory continued without him.
+
+Then the Teller approached.
+
+He did not touch the wall.
 
 The archive opened anyway.
 
-Images filled the chamber.
+The chamber filled with lives.
 
-Not only theirs.
+Not thousands.
 
-Millions of lives appeared and vanished in fractions of seconds. Cities forming. Cities collapsing. Men meeting in rooms. Families crossing continents. Machines becoming sacred. Sacred things becoming machines. Names being forgotten and later rediscovered.
+Millions.
 
-The archive was not storing history.
+Cities that had existed inside the bodies of ancient organisms. Civilizations that had encoded their histories into weather. Men who had spent entire lives constructing a single room for another person. Children inheriting machines whose creators had been dead for centuries. Lovers separated by oceans and reunited through languages neither had spoken when they first met.
 
-It was storing attention.
+The archive did not preserve everything.
 
-Every moment that had mattered to someone had left pressure behind.
+That was what made it unbearable.
 
-Ansel finally spoke.
+There were blank regions.
 
-“This is why the country exists.”
+Whole civilizations represented by a doorway with nothing behind it.
 
-Tyler looked at him.
+A face with no name.
+
+A house whose inhabitants had disappeared from every record.
+
+A song reduced to three notes.
+
+Luke understood first.
+
+“This isn't an archive of history.”
+
+Ansel stood beside him.
+
+“No.”
 
 “What is it?”
 
-“A memory of everything that refused to disappear.”
+Ansel looked into the darkness.
 
-Luke looked deeper into the wall.
+“An archive of attention.”
 
-“And the blank spaces?”
+The Teller looked at the blank spaces.
 
-Ansel smiled sadly.
+“And what are those?”
 
-“Those are the things nobody remembered.”
+Ansel did not answer.
 
-The Teller looked at the empty regions.
+Joseph did.
 
-For the first time, the archive seemed frightening.
-
-Not because it contained too much.
-
-Because it revealed how much had been lost.
-
-Joseph stood beside him.
-
-“We can't remember everything.”
-
-“No,” said the Teller.
-
-“But we can choose what we carry.”
+“The things nobody carried forward.”
 
 Luke opened his box.
 
-The archive responded.
+The objects inside were ordinary again.
 
-Every object inside became luminous.
+A screw.
 
-The photograph became a doorway.
+A stone.
 
-The red leaf became a forest.
+A red leaf.
 
-The screw became a machine.
+Broken glass.
 
-The stone became a road.
+A photograph.
 
-The handwritten sentence became a voice.
+A sentence.
 
-Luke closed the box.
+Luke placed the box on the floor.
 
-The chamber remained.
+The archive reacted.
 
-He had not released the memories.
+Every object became a small source of light.
 
-He had given them somewhere to live.
+Not because they were important by themselves.
+
+Because someone had refused to let them become meaningless.
+
+The chamber filled with pathways.
+
+Luke looked at the Teller.
+
+“I thought I was saving things.”
+
+He closed the box.
+
+“I think I was saving relationships between things.”
+
+The organism moved beneath them.
+
+The entire archive answered.
 
 ## Chapter XXXIX: The Seventh Man
 
-The man in the seventh chair finally stood.
+The seventh chair had been empty for so long that everyone had stopped seeing the absence.
 
-His name was Cael.
+Now it was occupied.
 
-He had been waiting longer than the others knew how to measure.
+The man sitting there looked ordinary.
 
-He did not look powerful.
+That was the first unsettling thing about him.
 
-He did not look ancient.
+His clothes were plain. His hands were scarred. His face carried no supernatural sign, no evidence that he had crossed farther than anyone else.
 
 He looked tired.
 
-Tyler studied him.
+Ansel called him Cael.
 
-“You went further.”
+Cael stood.
 
-Cael nodded.
+“I went looking for the edge.”
 
-“I thought I had to.”
+Tyler said, “Did you find it?”
 
-“Why?”
+Cael smiled.
 
-“Because everyone wanted to know what was beyond the country.”
+“No.”
 
-Luke asked, “And?”
+Luke asked, “What did you find?”
 
-Cael looked toward the darkness beyond the chamber.
+“A door.”
 
-“There is no beyond.”
+Tyler laughed.
 
-Nobody moved.
+“Of course.”
+
+Cael did not laugh.
+
+“I opened it.”
+
+The room became quiet.
+
+“And?”
+
+Cael looked toward the forest.
+
+“There was another relationship.”
+
+He said it without ceremony.
+
+No revelation.
+
+No grand theory.
+
+Just a fact.
+
+The country had no final boundary.
+
+Neither did the House.
+
+Neither did the archive.
+
+Every apparent edge was simply the place where something had not yet been connected.
+
+Joseph looked at him.
+
+“Then why come back?”
+
+Cael looked at the Teller.
+
+“Because I finally understood that going farther isn't the same thing as going deeper.”
+
+Luke looked down at his box.
+
+Tyler looked at his hands.
+
+Joseph looked at the Teller.
 
 Cael continued.
 
-“There are only further relationships.”
+“You built a world by trying to be remembered.”
 
-The sentence settled over them.
+The men became still.
 
-The old temptation returned immediately: to make another boundary, another outside, another final place where the world would eventually stop.
+“Then you learned to remember one another.”
 
-But the House had already taught them otherwise.
+He looked toward the city.
 
-A boundary was only a place where another relationship could begin.
+“That was the actual transformation.”
 
-Cael looked at Joseph.
+The Teller asked, “And what happens now?”
 
-“You understood first.”
+Cael answered immediately.
 
-Joseph shook his head.
+“You stop asking what is beyond the world.”
 
-“No. I just remembered what I already had.”
+He looked at the empty space between them.
 
-Cael looked at Luke.
+“You ask who is missing from it.”
 
-“You remembered objects.”
-
-Luke said nothing.
-
-He looked at Tyler.
-
-“You remembered transformation.”
-
-Tyler smiled.
-
-“I'm still figuring that one out.”
-
-Then Cael looked at the Teller.
-
-“And you?”
-
-The chamber became completely silent.
-
-The Teller looked at the men.
-
-At the House visible through the wall.
-
-At the country.
-
-At the enormous organism beneath them.
-
-“I remember them.”
-
-The Serum brightened on the other side of the world.
-
-Cael closed his eyes.
-
-“Then the next door belongs to you.”
-
-## Chapter XL: The Door That Wasn't There
+## Chapter XL: The Room Before the Room
 
 The door appeared in the original room.
 
-Nobody had seen it form.
+Not the new room.
 
-It was simply present.
+Not the great hall.
+
+Not the archive.
+
+The original.
+
+The place beneath everything.
 
 Joseph reached it first.
 
-He did not open it.
+He did not touch it.
 
-He waited.
+Luke came carrying his box.
 
-Luke approached carrying his box.
+Tyler followed.
 
-Tyler came behind him.
-
-The other men gathered in the corridor.
-
-The Teller stood before the door.
+The other men gathered behind them.
 
 There was no handle.
 
@@ -292,70 +378,131 @@ No lock.
 
 No inscription.
 
-The door had been made for a different kind of entry.
+The door seemed less like an object than a decision that had become physical.
 
-Joseph understood.
+Joseph looked at the Teller.
 
-“Attention,” he said.
+“What do you remember?”
 
-Luke added, “Memory.”
+The Teller looked at the room.
 
-Tyler said, “Change.”
+The chair.
 
-Another man said, “Desire.”
+The blue light.
 
-Another said, “History.”
+The walls.
 
-The final word came from the Teller.
+The men who had arrived later.
 
-“Relation.”
+The House that had grown around them.
 
-The door opened.
+“I remember this.”
 
-Not outward.
+Luke said, “I remember what came after.”
 
-Inward.
+Tyler said, “I remember changing.”
 
-The room beyond contained the room they had started in.
+Joseph said, “I remember staying.”
 
-But older.
+The others began speaking.
 
-Smaller.
+A tree.
 
-Before any of them had arrived.
+A song.
 
-Before the House had learned their names.
+A photograph.
 
-There was a single chair in the center.
+A road.
 
-The same chair they had argued about.
+A face.
 
-Luke stared at it.
+A night.
 
-Tyler laughed quietly.
+A promise.
 
-“You've got to be kidding.”
+The room grew warmer.
 
-Joseph stepped inside.
+The door opened inward.
 
-The chair was empty.
+Beyond it was not another country.
 
-On the seat lay a piece of paper.
+It was the same room.
 
-The Teller picked it up.
+But before them.
+
+Before the city.
+
+Before the House had acquired a name.
+
+Before the Serum.
+
+Before the first argument.
+
+Before Luke's box.
+
+Before Tyler's marks.
+
+Before Joseph had called himself the husband.
+
+The chair stood in the center.
+
+Nothing else.
+
+Luke stopped breathing for a moment.
+
+Tyler whispered, “That's the chair.”
+
+Joseph walked inside.
+
+On the seat was a piece of paper.
+
+He picked it up.
 
 There was one sentence.
 
 WE WERE ALWAYS BUILDING THIS.
 
-Behind them, the House made a sound like breathing.
+He turned the paper over.
 
-The country answered.
+Nothing.
 
-The organism beneath the forest moved.
+Then the chair moved.
 
-And somewhere beyond all three, something else noticed that they had remembered.
+Only slightly.
 
-The novel had reached the place where its beginning was waiting.
+As if someone invisible had just stood up.
 
-And the beginning was not finished.
+The Teller entered the room.
+
+The others followed.
+
+Behind them, the doorway remained open.
+
+The House was visible on one side.
+
+The country on another.
+
+The organism beneath the forest on a third.
+
+And now the beginning itself had become a place they could enter.
+
+The Serum responded.
+
+Not with light.
+
+With sound.
+
+Seven notes.
+
+Then one.
+
+Then silence.
+
+The men looked at one another.
+
+For the first time, nobody asked what came next.
+
+They had discovered the more frightening question.
+
+Who had been sitting in the chair before they arrived?
+

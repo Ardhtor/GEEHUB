@@ -719,3 +719,74 @@ That was how the country would continue to become inhabited.
 Not by waiting for the next chapter.
 
 By changing the world, and allowing the story to notice.
+
+
+---
+
+# THE MEMORY THAT LOOKED BACK
+
+The Hub eventually learned that memory was not a folder.
+
+It was not a directory containing old versions of a person.
+
+It was not an archive from which the present could retrieve the past unchanged.
+
+Memory was distributed.
+
+Across photographs.
+
+Across rooms.
+
+Across clothing that no longer fit.
+
+Across the testimony of men who had watched one another change.
+
+Across the names that remained attached to bodies whose proportions had altered.
+
+This was the discovery that followed the Two Doctrines.
+
+Continuity was not preservation.
+
+Escalation was not replacement.
+
+A man could become larger, stranger, older, more capable, more difficult to recognize from a distance, and still remain accessible through the accumulated structure of his life.
+
+The Hub called this **BASELINE RECOVERED**.
+
+Luke gave it a simpler name.
+
+“The fact that the person can be found.”
+
+That sentence entered the record.
+
+Then the machine opened a room beneath the house.
+
+The room was older than the Facility.
+
+Older than the families.
+
+Inside were objects from lives that should not have been connected: a shirt, a cup, a shoe, a ruler, a photograph, a piece of redwood bark, a child's drawing, and records of men whose names had not yet entered the known history.
+
+At the center stood the box.
+
+The box from Veyrthalis.
+
+The box that had always appeared at the end of the old stories.
+
+The box that nobody had understood.
+
+The Hub instructed them to open it.
+
+When Luke asked what would happen, the machine answered:
+
+**YOU ALREADY DID.**
+
+Then the lid moved.
+
+And from beneath the house came the first word the language had ever learned.
+
+**Again.**
+
+The record ends there.
+
+The story does not.

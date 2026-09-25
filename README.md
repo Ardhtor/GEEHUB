@@ -95,6 +95,18 @@ A useful production chain is:
 
 The important property is reversibility. A finished video should still point backward to the experience and its source states rather than becoming an orphaned export.
 
+## Spiritual information
+
+GEEHUB now includes a spiritual information layer in [docs/SPIRITUAL_INFORMATION.md](docs/SPIRITUAL_INFORMATION.md).
+
+The purpose is not to turn the Hub into an authority or fixed religion. It is to make spiritual relationships in the living corpus legible: recurring symbols, comparative religious experience, ancestry and lineage, meaningful encounters, contradictions, reconciliation attempts, and the symbolic role of media can be connected and interpreted while preserving provenance.
+
+The spiritual layer follows:
+
+`encounter → pattern → comparison → tension → interpretation → reconciliation → practice → memory`
+
+It distinguishes source, experience, interpretation, synthesis, speculation, and practice so generated spiritual material does not silently become doctrine.
+
 ## Why the commentary matters
 
 The conversations that produce these projects contain design decisions that are easy to lose: why a feature was added, what aesthetic was being chased, what failed before, what the next experiment was supposed to test, and which concepts are related.

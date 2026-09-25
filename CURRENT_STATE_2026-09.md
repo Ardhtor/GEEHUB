@@ -48,6 +48,14 @@ Recent image work reinforces a broader requirement for the system: visual artifa
 
 A living roster and shared virtual environment built from original muscular source photographs plus generated scenes. Currently prioritising extreme-size studies of the two growingest subjects (Office Tank + Posing Trunks). Treated as a primary visual artifact connected to BEEFYTHIQ, mass1v1ng, Muscle Myth, and Media Tools. Its archive home is `archive/male-harem/`.
 
+### Spiritual information layer (new)
+
+GEEHUB is now explicitly intended to produce spiritual information from the living corpus. The layer treats spiritual material as an interpretive relationship between encounters, symbols, traditions, ancestry, media, contradictions, and lived experience rather than as a fixed doctrine.
+
+Its core cycle is **encounter → pattern → comparison → tension → interpretation → reconciliation → practice → memory**.
+
+The system distinguishes source, experience, interpretation, synthesis, speculation, and practice. Comparative religious material can therefore be surfaced without inferring religious identity from ethnicity or presenting generated interpretation as religious authority.
+
 ## Build implications
 
 1. Keep GEEHUB machine-readable enough that another interface can consume its registry without rewriting the corpus.

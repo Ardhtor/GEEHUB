@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEEHUB — LOW POLY / CHASE</title>
+<style>
+html,body{margin:0;height:100%;overflow:hidden;background:#071018;color:#eef4f8;font:12px monospace}
+#world{position:fixed;inset:0}canvas{display:block}
+#hud{position:fixed;inset:0;pointer-events:none;padding:18px;box-sizing:border-box}
+.panel{position:absolute;background:rgba(3,8,12,.55);border:1px solid rgba(210,230,245,.25);padding:10px 12px}
+#who{left:18px;top:18px}.right{right:18px;top:18px;text-align:right}
+#story{left:50%;bottom:22px;transform:translateX(-50%);width:min(700px,76vw);text-align:center}
+#start{position:fixed;inset:0;display:grid;place-items:center;background:#071018;z-index:3}
+.box{padding:32px;max-width:600px;text-align:center;border:1px solid #40505c;background:#0b151d}
+button{font:12px monospace;padding:12px 22px;border:0;cursor:pointer}
+.dim{opacity:.55}
+</style>
+</head>
+<body>
+<div id="world"></div>
+<div id="start"><div class="box"><div class="dim">GEEHUB / LOW POLY PROTOTYPE</div><h1>CHASE</h1><p>ONE OF THE GUYS.</p><p class="dim">WASD / ARROWS. MOUSE TO LOOK.</p><button id="go">ENTER THE WORLD</button></div></div>
+<div id="hud">
+<div id="who" class="panel"><div>CHASE</div><div class="dim">OBSERVER / ONE OF THE GUYS</div></div>
+<div class="panel right"><div id="near">THE WOODS</div><div id="rel" class="dim">DISTANCE UNKNOWN</div></div>
+<div id="story" class="panel">The world is brighter than reality because the relationships are visible.</div>
+</div>
+<script type="module">
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js';
+
+const scene=new THREE.Scene();
+scene.background=new THREE.Color(0x071018);
+scene.fog=new THREE.FogExp2(0x071018,.012);
+const camera=new THREE.PerspectiveCamera(70,innerWidth/innerHeight,.1,700);
+camera.position.set(0,2.1,12);
+const renderer=new THREE.WebGLRenderer({antialias:false});
+renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));
+renderer.setSize(innerWidth,innerHeight);
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+document.querySelector('#world').appendChild(renderer.domElement);
+
+const world=new THREE.Group();scene.add(world);
+scene.add(new THREE.HemisphereLight(0xb7d5e8,0x162019,2.1));
+const moon=new THREE.DirectionalLight(0xd7e9ff,2.4);moon.position.set(-40,70,30);scene.add(moon);
+
+const groundGeo=new THREE.PlaneGeometry(240,800,36,120);
+const p=groundGeo.attributes.position;
+for(let i=0;i<p.count;i++){let x=p.getX(i),z=p.getY(i);p.setZ(i,Math.sin(x*.035+z*.009)*3+Math.sin(z*.021)*2);}
+groundGeo.computeVertexNormals();
+const ground=new THREE.Mesh(groundGeo,new THREE.MeshStandardMaterial({color:0x18251f,flatShading:true,roughness:1}));
+ground.rotation.x=-Math.PI/2;ground.position.z=-350;world.add(ground);
+
+const roadGeo=new THREE.PlaneGeometry(9,800,12,80);
+const rp=roadGeo.attributes.position;
+for(let i=0;i<rp.count;i++){let x=rp.getX(i),z=rp.getY(i);rp.setZ(i,Math.sin(z*.018)*.7);}
+roadGeo.computeVertexNormals();
+const road=new THREE.Mesh(roadGeo,new THREE.MeshStandardMaterial({color:0x252d31,flatShading:true,roughness:1}));
+road.rotation.x=-Math.PI/2;road.position.z=-350;road.position.y=.03;world.add(road);
+
+function tree(x,z,s=1){
+ const g=new THREE.Group();g.position.set(x,0,z);g.scale.setScalar(s);
+ const trunk=new THREE.Mesh(new THREE.CylinderGeometry(.14,.24,4,5),new THREE.MeshStandardMaterial({color:0x3b3029,flatShading:true}));
+ trunk.position.y=2;g.add(trunk);
+ for(let i=0;i<3;i++){const crown=new THREE.Mesh(new THREE.ConeGeometry(1.5-i*.22,3.2,6),new THREE.MeshStandardMaterial({color:0x294638,flatShading:true}));
+ crown.position.y=4+i*1.7;crown.scale.x=1.2;crown.scale.z=1.2;g.add(crown);}
+ world.add(g);
+}
+for(let z=-10;z>-720;z-=14){tree(-9-Math.sin(z*.07)*4,z,0.7+((z*-1)%7)/12);tree(9+Math.cos(z*.05)*4,z-6,0.7+((z*-1)%9)/14);}
+
+const men=[
+ {id:'luke',name:'LUKE',z:-95,x:3.2,color:0x7aa9c7,relationship:'near / known'},
+ {id:'tyler',name:'TYLER',z:-185,x:-3.8,color:0xc28e68,relationship:'near / familiar'},
+ {id:'chase',name:'CHASE',z:0,x:0,color:0xe2e8ee,relationship:'you'},
+ {id:'men',name:'THE MEN',z:-310,x:1.5,color:0x9b8ec4,relationship:'group / gathering'}
+];
+
+function makeGuy(m){
+ const g=new THREE.Group();g.position.set(m.x,0,m.z);
+ const mat=new THREE.MeshStandardMaterial({color:m.color,flatShading:true,roughness:.7});
+ const body=new THREE.Mesh(new THREE.CapsuleGeometry(.72,2.1,4,6),mat);body.position.y=1.55;g.add(body);
+ const head=new THREE.Mesh(new THREE.IcosahedronGeometry(.62,1),mat);head.position.y=3.25;g.add(head);
+ const shoulder=new THREE.Mesh(new THREE.BoxGeometry(1.8,.55,.7),mat);shoulder.position.y=2.25;g.add(shoulder);
+ const light=new THREE.PointLight(m.color,1.7,22);light.position.y=3.5;g.add(light);
+ const ring=new THREE.Mesh(new THREE.TorusGeometry(1.7,.025,5,16),new THREE.MeshBasicMaterial({color:m.color,transparent:true,opacity:.75}));
+ ring.rotation.x=Math.PI/2;ring.position.y=.08;g.add(ring);
+ const c=document.createElement('canvas');c.width=512;c.height=64;const ctx=c.getContext('2d');ctx.font='28px monospace';ctx.fillStyle='#eef4f8';ctx.textAlign='center';ctx.fillText(m.name,256,40);
+ const label=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(c),transparent:true,depthTest:false}));label.scale.set(6,.75,1);label.position.y=4.8;g.add(label);
+ world.add(g);return {g,ring,light,...m};
+}
+const guys=men.map(makeGuy);
+
+const keys={};addEventListener('keydown',e=>keys[e.key.toLowerCase()]=true);addEventListener('keyup',e=>keys[e.key.toLowerCase()]=false);
+let locked=false,yaw=0,pitch=0;
+renderer.domElement.addEventListener('click',()=>renderer.domElement.requestPointerLock?.());
+document.addEventListener('pointerlockchange',()=>locked=document.pointerLockElement===renderer.domElement);
+document.addEventListener('mousemove',e=>{if(!locked)return;yaw-=e.movementX*.002;pitch-=e.movementY*.0015;pitch=Math.max(-.35,Math.min(.35,pitch));});
+
+let started=false;
+document.querySelector('#go').onclick=()=>{started=true;document.querySelector('#start').style.display='none';renderer.domElement.requestPointerLock?.();};
+
+function update(dt){
+ if(!started)return;
+ const forward=(keys.w||keys.arrowup?1:0)-(keys.s||keys.arrowdown?1:0);
+ const side=(keys.a||keys.arrowleft?1:0)-(keys.d||keys.arrowright?1:0);
+ camera.position.z-=forward*12*dt;
+ camera.position.x+=side*6*dt;
+ camera.position.x=Math.max(-5,Math.min(5,camera.position.x));
+ camera.rotation.set(pitch,yaw,0,'YXZ');
+
+ let nearest=guys.filter(g=>g.id!=='chase').reduce((a,b)=>Math.abs(b.z-camera.position.z)<Math.abs(a.z-camera.position.z)?b:a,guys[0]);
+ const d=Math.abs(nearest.z-camera.position.z);
+ document.querySelector('#near').textContent=nearest.name;
+ document.querySelector('#rel').textContent=Math.round(d)+'m / '+nearest.relationship;
+ if(d<28){
+   const intensity=1-d/28;
+   document.querySelector('#story').textContent=nearest.name+' is '+Math.round(d)+'m away. The distance is visible.';
+   nearest.light.intensity=1.7+intensity*5;
+   nearest.ring.scale.setScalar(1+intensity*.8);
+ } else {
+   document.querySelector('#story').textContent='Chase moves through a world where distance has become a physical thing.';
+ }
+}
+const clock=new THREE.Clock();
+function animate(){
+ requestAnimationFrame(animate);const dt=Math.min(clock.getDelta(),.05);
+ guys.forEach(g=>{g.ring.rotation.z+=dt*.45;g.g.rotation.y=Math.sin(performance.now()*.0005+g.z)*.04;});
+ update(dt);renderer.render(scene,camera);
+}
+animate();
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
+</script>
+</body></html>

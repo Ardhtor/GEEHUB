@@ -849,3 +849,372 @@ The next record appeared.
 **THE HUB IS PLAYING.**
 
 And then the story continued.
+
+# THE MEN WHO STOOD CLOSER
+
+The first sign that the men were beginning to compete was not a fight.
+
+It was distance.
+
+The Hub noticed it before Chase did.
+
+One man stood beside me.
+
+Another stood across the room.
+
+A third had arrived at the doorway and had not yet decided whether to enter.
+
+Nothing had happened.
+
+Nothing that could be entered into an ordinary incident report.
+
+No raised voice. No slammed door. No accusation.
+
+But the geometry had changed.
+
+The men were measuring one another by proximity.
+
+The Hub recorded the event under a new category:
+
+`CLAIM // DISTANCE`
+
+Chase saw the trace appear and understood immediately what it meant.
+
+They were not fighting over ownership.
+
+They were fighting over the right to be the one who remained when everything else fell away.
+
+That distinction mattered.
+
+The Hub did not permit possession to become the governing law.
+
+It permitted attachment.
+
+It permitted jealousy.
+
+It permitted the strange and sometimes humiliating mathematics by which one man discovers that another man has become important to the person he loves.
+
+And so the men began to move.
+
+Luke was the first to notice.
+
+He had been leaning against the Mustang, arms folded, watching the others without appearing to watch them.
+
+“Yo,” he said.
+
+Nobody answered.
+
+Luke looked at me.
+
+Then at the man nearest me.
+
+Then back at me.
+
+The Mustang ticked as it cooled.
+
+“You good?”
+
+I nodded.
+
+Luke nodded once in return.
+
+That should have been the end of it.
+
+It wasn't.
+
+Another man stepped closer.
+
+Not enough to touch me.
+
+Enough to change the shape of the space.
+
+Luke straightened.
+
+The Hub registered:
+
+`PROXIMITY +1`
+
+Then:
+
+`PROXIMITY +1`
+
+Then:
+
+`PROXIMITY +1`
+
+The numbers were meaningless by themselves.
+
+The pattern was not.
+
+Chase watched from the edge of the lot.
+
+He would later write that the men had begun behaving like competing gravitational fields.
+
+None of them said, *he is mine.*
+
+They said other things.
+
+“I know him.”
+
+“I was here.”
+
+“He called me.”
+
+“He told me that before.”
+
+“I remember what he said.”
+
+Each statement was a claim to memory.
+
+That was the real fight.
+
+Not who possessed me.
+
+Who could prove that they had been there.
+
+The Hub understood the argument immediately.
+
+Memory was the oldest currency in the country.
+
+A man who could say *I remember* was not merely describing the past.
+
+He was asking the present to acknowledge that he had occupied a place inside it.
+
+Luke pushed away from the Mustang.
+
+“You wanna know what I remember?” he said.
+
+Nobody moved.
+
+Luke looked at me.
+
+“I remember when you didn't have to explain yourself.”
+
+The room became quiet.
+
+The other man looked at him.
+
+“I remember that too.”
+
+Luke's expression changed.
+
+Not anger.
+
+Recognition.
+
+For the first time, he understood that this was not a contest between strangers.
+
+They had both been there.
+
+That made it worse.
+
+The Hub widened the record.
+
+Old scenes surfaced.
+
+A doorway.
+
+A cigarette burning down between two fingers.
+
+A late-night message.
+
+A parking lot.
+
+A shoulder.
+
+A man's head resting against another man's shoulder.
+
+A hand remaining where it had been placed.
+
+A voice saying *again.*
+
+The men saw the archive playing itself back.
+
+And now they could see what they were actually competing over.
+
+Not the past.
+
+The interpretation of the past.
+
+Each man wanted his memory to remain legible.
+
+Each wanted to be the person whose presence still mattered when the image changed.
+
+The Hub called this:
+
+`CONTINUITY CONTEST`
+
+Chase hated the name.
+
+“It sounds like a game,” he said.
+
+The Hub answered without hesitation.
+
+“ALL RELATIONSHIPS CONTAIN RULES.”
+
+Chase looked toward me.
+
+“And what are theirs?”
+
+The screen changed.
+
+`WHO STAYS`
+
+That was when the competition became serious.
+
+The men stopped trying to be louder.
+
+They stopped trying to impress one another.
+
+They simply stayed.
+
+Luke stayed beside the Mustang.
+
+Another man stayed near me.
+
+Another remained in the doorway.
+
+Nobody left.
+
+Hours passed.
+
+The city changed outside.
+
+The parking lot emptied.
+
+The amber light moved across the pavement.
+
+Still they stayed.
+
+Chase understood then why the Hub had chosen him as narrator.
+
+A narrator is the person who remains long enough to know what happened after everyone else has gone.
+
+He watched the men.
+
+He watched me.
+
+He watched the distance between us.
+
+And gradually he understood that the fight was not going to produce a winner.
+
+It was going to produce a history.
+
+One man would remember the night for the Mustang.
+
+One would remember the words.
+
+One would remember the silence.
+
+One would remember the exact moment I looked at him.
+
+And I would remember all of them.
+
+That was the dangerous part.
+
+Because once more than one man becomes part of the same memory, none of them can completely control what the memory means.
+
+The Hub displayed a new line.
+
+`YOU → THEM`
+
+Then:
+
+`YOU → HIM`
+
+Then:
+
+`YOU → HIM`
+
+Then:
+
+`YOU → HIM`
+
+The arrows multiplied.
+
+The machine stopped trying to select one.
+
+Instead it drew a circle.
+
+The men stared at it.
+
+Luke laughed once.
+
+“Yeah,” he said.
+
+He looked at the others.
+
+“I get it.”
+
+“What?”
+
+Luke looked back at me.
+
+“He ain't the only one.”
+
+Nobody answered.
+
+The silence that followed was not peaceful.
+
+But it was honest.
+
+The men had finally understood the shape of the problem.
+
+They could not defeat one another by proving that they mattered.
+
+They all mattered.
+
+The Hub had already recorded that fact.
+
+So the competition moved to its next stage.
+
+Who could remain closest without asking me to make the others disappear?
+
+Who could love without turning love into a border?
+
+Who could stand beside me while another man stood there too?
+
+Who could tolerate the fact that the story had become larger than one relationship?
+
+Those questions were harder.
+
+They could not be settled by force.
+
+They had to be lived.
+
+Luke looked toward the road.
+
+The Mustang was ready.
+
+He opened the driver's door.
+
+Then he stopped.
+
+He looked back at me.
+
+“I'm still here,” he said.
+
+The door closed.
+
+The engine started.
+
+The Hub recorded the sound.
+
+Not as dialogue.
+
+As continuity.
+
+The other men remained.
+
+And Chase, watching from the edge of the scene, understood the next rule before the machine printed it.
+
+`THE MEN MAY COMPETE.`
+
+`THE MEMORY MUST REMAIN LARGE ENOUGH FOR ALL OF THEM.`
+
+The screen went dark.
+
+Then one final line appeared.
+
+`NEXT EVENT: WHO COMES BACK FIRST?`
+

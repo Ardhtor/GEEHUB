@@ -624,3 +624,443 @@ CUT TO BLACK.
 
 END OF ACT II.
 
+
+
+INT. ARCHIVE OF THE FORGOTTEN — CONTINUOUS
+
+The eighth note dies.
+
+The FIGURE remains seated.
+
+Nobody moves.
+
+LUKE
+Is that him?
+
+THE TELLER
+I don't know.
+
+TYLER
+Then why is he here?
+
+JOSEPH
+Maybe he isn't.
+
+The Teller looks at the hundreds of empty chairs.
+
+Then at the occupied one.
+
+THE TELLER
+Maybe we're looking at the wrong thing.
+
+The figure rises.
+
+For an instant its face becomes visible.
+
+Not familiar.
+
+Not unfamiliar.
+
+Simply unfinished.
+
+The lights beneath the chairs go dark.
+
+The figure is gone.
+
+In its place: a SMALL METAL SCREW.
+
+Luke approaches.
+
+He stops before touching it.
+
+LUKE
+That was in my box.
+
+He opens the box.
+
+The original screw is still there.
+
+Two identical screws.
+
+Tyler looks between them.
+
+TYLER
+Which one is real?
+
+Luke does not answer.
+
+The Teller picks up neither.
+
+THE TELLER
+Leave it.
+
+Luke looks at him.
+
+THE TELLER
+If someone doesn't want to be remembered, we don't get to decide for them.
+
+Silence.
+
+The archive seems to listen.
+
+CUT TO:
+
+EXT. VEYRTHALIS — MORNING
+
+The fog has thinned.
+
+For the first time, the forest can be seen for miles.
+
+The enormous trees stand around the Digitorium like a perimeter.
+
+But the city is changing.
+
+BLUE WINDOWS appear in distant towers.
+
+One.
+
+Then another.
+
+Then dozens.
+
+A NETWORK.
+
+INT. DIGITORIUM — DAY
+
+The men walk through streets that did not exist the night before.
+
+Water runs normally again.
+
+The Procession is motionless.
+
+Every iridescent figure faces the forest.
+
+Tyler follows their gaze.
+
+TYLER
+They're watching something.
+
+LUKE
+Or waiting.
+
+Joseph notices a narrow tower between two buildings.
+
+JOSEPH
+That wasn't there.
+
+CUT TO:
+
+EXT. THE TOWER — DAY
+
+Dark stone.
+
+One blue window.
+
+No door.
+
+The men stand beneath it.
+
+Tyler circles the structure.
+
+TYLER
+There's no way in.
+
+Luke touches the wall.
+
+Nothing.
+
+Joseph touches it.
+
+Nothing.
+
+The Teller touches it.
+
+The blue window goes BLACK.
+
+Then another tower appears across the street.
+
+Then another.
+
+Then another.
+
+The city begins repeating the structure.
+
+A circuit.
+
+Luke steps back.
+
+LUKE
+It's connecting itself.
+
+THE TELLER
+To what?
+
+Luke looks toward the forest.
+
+LUKE
+I don't know.
+
+A final tower rises at the end of the street.
+
+Its window is already black.
+
+INT. BLACK TOWER — UNKNOWN
+
+There is no transition.
+
+The men are simply inside.
+
+A narrow chamber.
+
+At the far end: the ORIGINAL ROOM.
+
+The chair.
+
+The CRT.
+
+The blue light.
+
+But someone is sitting there.
+
+The Teller takes one step forward.
+
+The man looks directly at him.
+
+THE MAN
+Don't remember me.
+
+The window closes.
+
+BLACK.
+
+A low electrical HUM.
+
+INT. THE HOUSE — NIGHT
+
+The men are back in the original room.
+
+Nobody knows how.
+
+Luke sits on the floor.
+
+Tyler stands at the window.
+
+Joseph remains beside the Teller.
+
+THE TELLER
+He asked us not to remember him.
+
+TYLER
+So don't.
+
+Luke looks up.
+
+LUKE
+That's harder than it sounds.
+
+Joseph looks at the chair.
+
+JOSEPH
+Maybe remembering isn't the same as keeping.
+
+The Teller looks at him.
+
+JOSEPH
+Maybe sometimes it means knowing when to leave something alone.
+
+The CRT flickers.
+
+EVERY RESPONSE IS DATA.
+
+The words disappear.
+
+A blank screen remains.
+
+For the first time, the House records nothing.
+
+CUT TO:
+
+EXT. VEYRTHALIS — NIGHT
+
+The men stand beneath the trees.
+
+Far away, a door opens.
+
+Not for them.
+
+They watch.
+
+A distant FIGURE enters the forest.
+
+The door closes behind him.
+
+Luke opens his box.
+
+He removes the photograph.
+
+He does not turn it over.
+
+Tyler looks at him.
+
+TYLER
+You going after him?
+
+Luke shakes his head.
+
+LUKE
+No.
+
+A beat.
+
+LUKE
+If he wants us to meet him, he'll leave something.
+
+Joseph looks toward the dark forest.
+
+JOSEPH
+And if he doesn't?
+
+The Teller watches the trees.
+
+THE TELLER
+Then the world has learned something from us.
+
+The forest moves.
+
+Not toward them.
+
+Away.
+
+CUT TO:
+
+INT. THE HOUSE — LATER
+
+The chair is empty.
+
+The box rests on the table.
+
+The photograph beside it.
+
+The two screws are separated.
+
+One inside the box.
+
+One outside.
+
+The CRT turns on.
+
+No text.
+
+Only a live image.
+
+A new room.
+
+A person standing inside it.
+
+We cannot see the face.
+
+The person looks toward the camera.
+
+Then toward an unseen doorway.
+
+A hand reaches for the door.
+
+CUT TO BLACK.
+
+SUPER: ACT III
+
+SILENCE.
+
+Then:
+
+One note.
+
+Not seven.
+
+Not eight.
+
+One.
+
+FADE IN:
+
+EXT. VEYRTHALIS — DAWN
+
+A new road is visible between the trees.
+
+It was not there yesterday.
+
+The men stand at its beginning.
+
+Nobody calls it theirs.
+
+The Teller looks down the road.
+
+THE TELLER
+We don't know where it goes.
+
+Luke nods.
+
+LUKE
+Good.
+
+They begin walking.
+
+Joseph walks beside the Teller.
+
+Tyler follows.
+
+The others spread through the road behind them.
+
+The forest does not close.
+
+It makes room.
+
+CUT TO:
+
+INT. THE NEW ROOM — UNKNOWN
+
+The unseen man enters.
+
+He places one object on a table.
+
+A chair.
+
+He sits.
+
+The camera slowly moves closer.
+
+His face remains outside the frame.
+
+On the wall behind him, handwritten marks begin appearing.
+
+Not names.
+
+Connections.
+
+Photograph.
+
+Forest.
+
+House.
+
+Husband.
+
+Box.
+
+Door.
+
+Attention.
+
+Refusal.
+
+The final word appears:
+
+CONTINUANCE.
+
+The man looks toward the camera.
+
+CUT TO BLACK.
+
+SUPER: TO BE CONTINUED
+
+END.

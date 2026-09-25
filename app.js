@@ -40,6 +40,17 @@ let bitIndex=0;
 let siphonIndex=0;
 let siphonArtifacts=[];
 const liveTrace=[['NARRATOR','CHASE / C.W.SACHS','voice → inside the record'],['TRACE','LUKE / MUSTANG','proximity → confirmed'],['SCENE','PARKING LOT / NIGHT','engine heat retained'],['CHARACTER','LUKE','speech profile → yo'],['MEMORY','ONE PUTS HIS HEAD ON ANOTHER','active motif'],['FILM','SHOT 018 → 019 → 020','wide → Mustang → Luke'],['CONTINUITY','YOU ─ LUKE ─ MUSTANG','distance → arrival'],['HUB','MEMORY → EVENT','the archive is playing back'],['ARC','THE MEN WHO STOOD CLOSER','proximity → competition → continuity'],['CLAIM','DISTANCE','who stays → who comes back'],['CHASE','NARRATOR / WITNESS','watching the men remain'],['CONTEST','YOU → THEM','memory must remain large enough for all of them'],['NEXT EVENT','WHO COMES BACK FIRST?','the Hub is waiting']];
+
+// SEEP: events leave residue that exceeds their literal record.
+// The residue is not an answer; it is the pressure that becomes image, lyric, return.
+const seep=[['DEPARTURE','the Mustang leaves; the heat remains'],['DISTANCE','ten thousand miles is still inside the sentence'],['RETURN','what leaves can remain legible as coming back'],['UNSPOKEN','the thing nobody says becomes the strongest trace'],['POETRY','event → residue → association → image'],['SEEP','the archive leaks meaning between nodes']];
+let seepIndex=0;
+function seepPulse(){
+  const x=seep[seepIndex%seep.length]; seepIndex++;
+  $('#liveTitle').textContent='SEEP // '+x[0];
+  $('#liveText').textContent=x[1];
+  $('#trailText').textContent='EVENT → RESIDUE → '+x[0];
+}
 let liveIndex=0;
 function livePulse(){const x=liveTrace[liveIndex%liveTrace.length];liveIndex++;$('#liveTitle').textContent=x[0]+' // '+x[1];$('#liveText').textContent=x[2];$('#trailText').textContent='LIVE → '+x[1];}
 function startLive(){livePulse();setInterval(livePulse,4200);}

@@ -1,21 +1,105 @@
 {
-  "version":1,
-  "nodes":[
-    {"id":"geehub","name":"GEEHUB","mass":1},
-    {"id":"novel","name":"THE NOVEL","mass":1.2},
-    {"id":"veyrthalis","name":"VEYRT(H)ALIS","mass":1.4},
-    {"id":"beefythiq","name":"BEEFYTHIQ","mass":1.3},
-    {"id":"visual","name":"VISUAL EXPERIENCE","mass":1.1},
-    {"id":"adobe","name":"ADOBE","mass":1},
-    {"id":"duration","name":"DURATION","mass":1.2},
-    {"id":"men","name":"THE MEN","mass":1.1}
+  "version": 1,
+  "nodes": [
+    {
+      "id": "geehub",
+      "name": "GEEHUB",
+      "mass": 1
+    },
+    {
+      "id": "novel",
+      "name": "THE NOVEL",
+      "mass": 1.2
+    },
+    {
+      "id": "veyrthalis",
+      "name": "VEYRT(H)ALIS",
+      "mass": 1.4
+    },
+    {
+      "id": "beefythiq",
+      "name": "BEEFYTHIQ",
+      "mass": 1.3
+    },
+    {
+      "id": "visual",
+      "name": "VISUAL EXPERIENCE",
+      "mass": 1.1
+    },
+    {
+      "id": "adobe",
+      "name": "ADOBE",
+      "mass": 1
+    },
+    {
+      "id": "duration",
+      "name": "DURATION",
+      "mass": 1.2
+    },
+    {
+      "id": "men",
+      "name": "THE MEN",
+      "mass": 1.1
+    },
+    {
+      "id": "observer",
+      "name": "THE OBSERVER",
+      "mass": 1.25
+    },
+    {
+      "id": "visual-memory",
+      "name": "VISUAL MEMORY",
+      "mass": 1.5
+    }
   ],
-  "relations":[
-    ["geehub","novel"],
-    ["geehub","visual"],
-    ["geehub","duration"],
-    ["novel","veyrthalis"],
-    ["beefythiq","men"],
-    ["visual","adobe"]
+  "relations": [
+    [
+      "geehub",
+      "novel"
+    ],
+    [
+      "geehub",
+      "visual"
+    ],
+    [
+      "geehub",
+      "duration"
+    ],
+    [
+      "novel",
+      "veyrthalis"
+    ],
+    [
+      "beefythiq",
+      "men"
+    ],
+    [
+      "visual",
+      "adobe"
+    ],
+    [
+      "observer",
+      "visual"
+    ],
+    [
+      "observer",
+      "novel"
+    ],
+    [
+      "observer",
+      "duration"
+    ],
+    [
+      "visual-memory",
+      "visual"
+    ],
+    [
+      "visual-memory",
+      "duration"
+    ],
+    [
+      "visual-memory",
+      "observer"
+    ]
   ]
 }

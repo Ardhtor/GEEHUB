@@ -425,3 +425,335 @@ The penis wizards lowered their staffs.
 The men on every ship turned toward the sound.
 
 And the cathedral began to rise.
+
+## The Rising Cathedral
+
+The bell rang a fourth time, and the cathedral rose another thousand feet out of the sea.
+
+Its foundations had never been foundations in the ordinary sense. They were buried in the second world, in the place beneath the ocean where the stars had been hanging upside down. As the building emerged, the men saw that what they had called a cathedral was only the entrance to something much larger.
+
+The walls continued downward.
+
+The towers continued downward.
+
+Whole avenues emerged from the water, lined with statues whose faces changed whenever lightning passed over them.
+
+Luke stared upward.
+
+“We're inside it.”
+
+Kirk looked around.
+
+They were standing on the sea, but the sea had become a floor. Hundreds of ships rested on it as if docked along an invisible harbor. The ancient fleet had arranged itself in concentric circles around the cathedral. The wizard armies stood among them, their staffs lowered, watching the architecture assemble itself.
+
+Joseph stepped from the ship.
+
+The surface held him too.
+
+“Where's the door?” he asked.
+
+A door appeared.
+
+Nobody touched it.
+
+It simply became true because the question had been asked.
+
+Kirk laughed once.
+
+Luke looked at him.
+
+“Don't laugh.”
+
+“I wasn't laughing at it.”
+
+“What were you laughing at?”
+
+“The fact that it listens.”
+
+The door opened.
+
+Behind it was not a room.
+
+It was a city.
+
+The city extended farther than the eye could measure. Its streets were wet with silver rain. Buildings leaned across one another at impossible angles. Bridges passed through towers. Windows contained other windows, and in those windows the men could see distant versions of themselves entering doors they had not yet found.
+
+The penis wizards began walking toward it.
+
+The first wizard removed his lightning crown.
+
+Underneath it he looked like an ordinary man.
+
+That frightened Kirk more than the crown had.
+
+“You're human,” Kirk said.
+
+The wizard looked at him.
+
+“So are you.”
+
+“Then why all the magic?”
+
+The wizard shrugged.
+
+“Because nobody told us not to.”
+
+Luke laughed.
+
+This time Kirk joined him.
+
+The wizard smiled.
+
+Then the city bell rang.
+
+Every window in the cathedral opened simultaneously.
+
+Inside every window was a different scene.
+
+A kitchen.
+
+A forest.
+
+A bedroom.
+
+A battlefield.
+
+A classroom.
+
+A road at night.
+
+A field of enormous flowers.
+
+A hospital corridor.
+
+A childhood house.
+
+A room that had not been built yet.
+
+A room that had already been destroyed.
+
+The men stood silently before them.
+
+Kirk realized the cathedral was not showing them places.
+
+It was showing them thresholds.
+
+Every window was an invitation to produce another world.
+
+The wizard beside him whispered, “This is where the old battle ends.”
+
+Kirk looked at him.
+
+“And the new one?”
+
+The wizard pointed through the doorway.
+
+“It starts when you choose a room.”
+
+Kirk stepped inside.
+
+The others followed.
+
+The door closed behind them.
+
+Outside, the fleets remained perfectly still.
+
+The sea became dark.
+
+Then the cathedral disappeared beneath the surface.
+
+For a moment there was nothing.
+
+Then an entire city lit up underneath the ocean.
+
+Its streets became visible from above, glowing through miles of black water. Towers rose beneath the waves like drowned stars. The ancient fleet circled the hidden city. The wizards stood on their decks, waiting.
+
+Above them, heaven closed.
+
+Below them, the city opened.
+
+And inside the city, Kirk heard Luke say something that made him stop.
+
+“I know this place.”
+
+Kirk turned.
+
+Luke was looking down a street.
+
+At the end stood a house.
+
+Not an impossible house.
+
+Not a magical one.
+
+Just a house.
+
+Its porch light was on.
+
+Someone was standing behind the window.
+
+Luke did not move.
+
+Joseph came up beside him.
+
+“You want to go in?”
+
+Luke nodded.
+
+Kirk looked at the house and understood that the battle had changed again.
+
+Magic had taken them into the city.
+
+The city had taken them into memory.
+
+And memory was beginning to take them somewhere none of them had produced yet.
+
+Luke walked toward the house.
+
+The porch boards creaked beneath his feet.
+
+The figure behind the glass moved closer.
+
+The door opened.
+
+Luke stopped.
+
+The person inside said his name.
+
+Not loudly.
+
+Not magically.
+
+Just his name, spoken by someone who had been waiting a very long time.
+
+Kirk and Joseph remained at the street.
+
+Neither followed.
+
+For once, the rule required them to wait.
+
+Luke entered.
+
+The door closed.
+
+And the city rearranged itself around the absence of one man.
+
+A new street appeared.
+
+Then another.
+
+Then another.
+
+Kirk watched the geometry unfold.
+
+The city was not a maze.
+
+It was a machine for separating people long enough to make them discover what they carried alone.
+
+Joseph put his hand on Kirk's shoulder.
+
+“Come on.”
+
+“Where?”
+
+“Find your room.”
+
+Kirk looked down the new street.
+
+At its end was a blue door.
+
+Above it was a small brass plate.
+
+His name was engraved there.
+
+He touched the handle.
+
+Before he opened it, he heard Luke somewhere far away, shouting from inside another part of the city.
+
+Then the cathedral bell rang again.
+
+The entire city answered.
+
+And Kirk opened his door.
+
+Inside was the ocean.
+
+Inside the ocean was the sky.
+
+Inside the sky was the battlefield.
+
+And at the center of the battlefield stood Kirk himself, waiting for him.
+
+The other Kirk smiled.
+
+“You finally made it.”
+
+Kirk stared at him.
+
+“What are you?”
+
+The other Kirk looked past him toward the open door.
+
+“The part of the story you haven't written yet.”
+
+Kirk understood the danger immediately.
+
+If that was true, then this version of him was not an enemy.
+
+He was unfinished.
+
+Kirk stepped into the room.
+
+The door closed.
+
+Outside, Joseph waited alone in the city.
+
+For several seconds nothing happened.
+
+Then someone put a hand on his shoulder.
+
+Joseph turned.
+
+Luke was standing there.
+
+Joseph frowned.
+
+“You were inside.”
+
+Luke looked toward the house.
+
+“I was.”
+
+“Then who was that?”
+
+Luke looked at the person still standing behind the house window.
+
+His own face looked back.
+
+Luke said, “I don't know.”
+
+The figure behind the glass raised one hand.
+
+The city lights went out.
+
+Every wizard in the drowned fleet raised his staff at once.
+
+The sea began to glow.
+
+Something enormous moved beneath the city.
+
+The bell stopped ringing.
+
+And for the first time since the battle began, the silence itself became the spell.
+
+The thing beneath the city opened its eyes.
+
+Kirk's voice came through every window at once.
+
+“Whatever happens next—don't produce it unless you're ready for it to have always been here.”
+
+Luke looked at Joseph.
+
+Joseph looked toward the dark water.
+
+Then the thing beneath the city began to rise.

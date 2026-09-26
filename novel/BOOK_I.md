@@ -3018,3 +3018,106 @@
      And somewhere beneath the paper, another world began.
 
      **PLAY AGAIN.**
+
+
+## Chapter LVIII: The Empty Page
+
+     The third page remained empty.
+
+     They waited for it to write.
+
+     Nothing happened.
+
+     Luke looked at Tyler.
+
+     Tyler looked at Kirk.
+
+     Kirk looked at Joseph.
+
+     Joseph looked at the page.
+
+     “It already did,” he said.
+
+     The page was not empty.
+
+     It was waiting for them to notice what had arrived without language.
+
+     The floor had changed.
+
+     A doorway stood where the novel had been.
+
+     Beyond the doorway was a landscape none of them had made.
+
+     There were no roads.
+
+     No buildings.
+
+     No monuments.
+
+     No names.
+
+     Only four marks in the ground.
+
+     One for each of them.
+
+     Luke stepped toward his mark.
+
+     It moved.
+
+     Tyler stepped toward his.
+
+     It moved too.
+
+     Kirk watched the pattern.
+
+     Joseph waited.
+
+     The four marks began moving together.
+
+     They were not following the men.
+
+     They were leading them.
+
+     The world had generated its first route without being asked.
+
+     They followed.
+
+     Behind them, the novel remained open.
+
+     The third page was still blank.
+
+     But beneath the page, something had begun to accumulate.
+
+     Not words.
+
+     Pressure.
+
+     Not history.
+
+     Potential history.
+
+     The page was becoming a room before it became a sentence.
+
+     Luke turned back once.
+
+     “It wants us to come back.”
+
+     Joseph nodded.
+
+     “Of course.”
+
+     They kept walking.
+
+     Far ahead, the four marks stopped.
+
+     A fifth mark appeared.
+
+     None of them recognized it.
+
+     The world had made someone new.
+
+     They stood very still.
+
+     Then the fifth mark moved toward them.
+
+     **THE WORLD HAD BEGUN TO INVENT.**

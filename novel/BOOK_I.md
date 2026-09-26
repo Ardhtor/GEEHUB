@@ -2836,3 +2836,102 @@
      Another unknown.
 
      **PLAY AGAIN.**
+
+
+## Chapter LV: The Game Gets Larger
+
+     The next game had no room.
+
+     That was how they knew it was different.
+
+     There was only hyperspace, extending in every direction, and the four of them suspended inside it.
+
+     Luke reached outward.
+
+     His power found a distance.
+
+     He pulled.
+
+     A horizon came loose.
+
+     Tyler caught it before it could fall.
+
+     He folded it.
+
+     Kirk divided the fold.
+
+     Joseph waited.
+
+     When he finally moved, all four pieces became connected.
+
+     They had accidentally made a world.
+
+     It had no name.
+
+     It had no history.
+
+     It had no instructions.
+
+     The boys looked at one another.
+
+     “Empty,” Tyler said.
+
+     Luke nodded.
+
+     They left it empty.
+
+     Then they played.
+
+     They ran across its first horizon.
+
+     They moved mountains without destroying them.
+
+     They opened doors onto places that had not existed until the doors were opened.
+
+     They made gravity into a game of catch.
+
+     They threw a moon from one hand to another.
+
+     Kirk made two identical worlds and challenged them to discover which was original.
+
+     Joseph waited twenty years.
+
+     When he opened his eyes, both worlds had become different.
+
+     He laughed.
+
+     The world heard him.
+
+     That became its first memory.
+
+     Then the world began playing back.
+
+     A mountain moved without Luke.
+
+     A doorway folded without Tyler.
+
+     A division appeared without Kirk.
+
+     A pause occurred without Joseph.
+
+     The four men stopped.
+
+     The game had crossed the threshold.
+
+     They had made a world capable of playing with them.
+
+     Luke looked at the others.
+
+     “Again?”
+
+     The new world moved one mountain closer.
+
+     That was its answer.
+
+     They ran toward it.
+
+     Behind them, the empty starting place remained empty.
+
+     Ahead of them, the world was learning.
+
+     **PLAY AGAIN.**

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEEHUB // 3D WORLD</title>
+<style>
+html,body{margin:0;height:100%;overflow:hidden;background:#050608;color:#e8ebef;font:13px system-ui,sans-serif}
+#ui{position:fixed;z-index:2;left:20px;top:18px;pointer-events:none;text-shadow:0 2px 8px #000}
+h1{margin:3px 0;font-size:28px;letter-spacing:-.04em}.eyebrow{font-size:9px;letter-spacing:.2em;color:#8f98a4}
+#status{margin-top:8px;color:#aeb6c1}#help{position:fixed;right:18px;bottom:16px;color:#77818d;font-size:11px}
+canvas{display:block}
+</style></head><body>
+<div id="ui"><div class="eyebrow">GEEHUB / WORLDSPACE</div><h1>THE WORLDS ARE VOLUMES</h1><div id="status">loading project geometry…</div></div>
+<div id="help">DRAG = ORBIT · WHEEL = SCALE · CLICK A WORLD = ENTER</div>
+<script type="module">
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js';
+import {OrbitControls} from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js';
+
+const scene=new THREE.Scene();
+scene.background=new THREE.Color(0x050608);
+scene.fog=new THREE.FogExp2(0x050608,.012);
+const camera=new THREE.PerspectiveCamera(55,innerWidth/innerHeight,.1,1000);
+camera.position.set(0,22,42);
+const renderer=new THREE.WebGLRenderer({antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);document.body.appendChild(renderer.domElement);
+const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.target.set(0,0,0);
+scene.add(new THREE.AmbientLight(0xffffff,.65));
+const light=new THREE.PointLight(0xffffff,180,180);light.position.set(0,24,10);scene.add(light);
+
+const worlds=[
+['PYYRO ENERGY',-15,5,-5,0x8f9aa8],['POETRY SEEP',0,2,-12,0x9aa7b5],['DEEP LORE',14,7,-3,0xb3bcc7],
+['NOVEL ENGINE',3,-1,9,0x7d8793],['VEY RTHALIS',-13,-5,10,0x626d78],['THE COMPLEX',13,-6,10,0xadb5bf]
+];
+const clickable=[],links=[];
+function world(name,x,y,z,c){
+ const g=new THREE.Group();g.position.set(x,y,z);
+ const geo=new THREE.IcosahedronGeometry(3.3,2);
+ const mat=new THREE.MeshStandardMaterial({color:c,roughness:.82,metalness:.12,wireframe:false});
+ const mesh=new THREE.Mesh(geo,mat);g.add(mesh);
+ const wire=new THREE.LineSegments(new THREE.EdgesGeometry(geo),new THREE.LineBasicMaterial({color:0x6d7681,transparent:true,opacity:.22}));g.add(wire);
+ const ring=new THREE.Mesh(new THREE.TorusGeometry(4.2,.025,8,64),new THREE.MeshBasicMaterial({color:c,transparent:true,opacity:.45}));ring.rotation.x=Math.PI/2;g.add(ring);
+ g.userData={name,mesh,ring};scene.add(g);clickable.push(g);
+}
+worlds.forEach(w=>world(...w));
+for(let i=0;i<worlds.length;i++)for(let j=i+1;j<worlds.length;j++){
+ const a=new THREE.Vector3(worlds[i][1],worlds[i][2],worlds[i][3]),b=new THREE.Vector3(worlds[j][1],worlds[j][2],worlds[j][3]);
+ const line=new THREE.Line(new THREE.BufferGeometry().setFromPoints([a,b]),new THREE.LineBasicMaterial({color:0x3e4650,transparent:true,opacity:.28}));scene.add(line);
+}
+const grid=new THREE.GridHelper(80,40,0x20252c,0x101318);grid.position.y=-10;scene.add(grid);
+const ray=new THREE.Raycaster(),mouse=new THREE.Vector2();
+renderer.domElement.addEventListener('pointerdown',e=>{mouse.x=e.clientX/innerWidth*2-1;mouse.y=-(e.clientY/innerHeight)*2+1;ray.setFromCamera(mouse,camera);const hit=ray.intersectObjects(clickable,true)[0];if(hit){let g=hit.object;while(g.parent&&!g.userData.name)g=g.parent;document.querySelector('#status').textContent='ENTERING '+g.userData.name+' — same character, new world.';}});
+function animate(t){requestAnimationFrame(animate);clickable.forEach((g,i)=>{g.rotation.y=t*.00008*(i+1);g.userData.ring.rotation.z=t*.00012*(i%2?1:-1)});controls.update();renderer.render(scene,camera)}animate(0);
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
+</script></body></html>

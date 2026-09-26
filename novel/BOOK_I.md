@@ -2385,3 +2385,216 @@
      And beneath those words, almost invisible, the old word remained.
 
      Again.
+
+
+## Chapter LII: Twenty Years in Hyperspace
+
+     They entered hyperspace without leaving the room.
+
+     That was the first thing the world taught them.
+
+     There was no launch.
+
+     No countdown.
+
+     No machine.
+
+     One moment there was a floor beneath Luke's feet. The next, the floor had become a direction.
+
+     Tyler laughed.
+
+     Kirk looked behind him.
+
+     Joseph simply kept walking.
+
+     The four men discovered that hyperspace did not behave like distance. A step could cross a year. A pause could preserve a century. Turning around could return them to a place that had not existed when they left it.
+
+     They played.
+
+     For twenty years.
+
+     They did not experience the years as a prison sentence or a calendar. They experienced them as accumulated play.
+
+     In the first year Luke learned to pull a world toward himself.
+
+     In the second Tyler learned to make a doorway fold through itself.
+
+     In the third Kirk discovered that a room could have two interiors.
+
+     In the fourth Joseph discovered that waiting long enough could make an event arrive before it happened.
+
+     The fifth year belonged to the geometry.
+
+     The sixth belonged to the corridors.
+
+     The seventh belonged to the spaces between worlds.
+
+     By the eighth year, the men had stopped asking where they were.
+
+     By the ninth, the worlds had stopped asking where they belonged.
+
+     They made games.
+
+     They would choose a point in hyperspace and try to reach it without taking the same route twice.
+
+     They would build a room and then deliberately forget how they had built it.
+
+     They would return years later and see whether the room remembered them.
+
+     It did.
+
+     Sometimes incorrectly.
+
+     That made them laugh.
+
+     Sometimes beautifully.
+
+     That made them quiet.
+
+     In the tenth year they found a world that was only a shadow.
+
+     Luke touched it.
+
+     The shadow moved.
+
+     Tyler touched it.
+
+     The shadow became architecture.
+
+     Kirk stepped inside.
+
+     Joseph waited outside.
+
+     Then Joseph disappeared.
+
+     They found him twenty minutes later, although twenty minutes had become three months inside the shadow.
+
+     He emerged carrying a small piece of darkness.
+
+     “Found something,” he said.
+
+     Nobody asked what it was.
+
+     They already knew.
+
+     It was a memory.
+
+     They kept playing.
+
+     The eleventh year became the year of impossible returns.
+
+     The twelfth became the year of gravity games.
+
+     The thirteenth became the year they learned that the strongest power was not changing a world but leaving it unchanged on purpose.
+
+     The fourteenth year produced the first world that could play back.
+
+     The fifteenth produced the first world that could refuse.
+
+     The sixteenth produced a world that asked them to stay.
+
+     They stayed for one afternoon.
+
+     The afternoon lasted eleven months.
+
+     They left anyway.
+
+     In the seventeenth year they found the original doorway again.
+
+     It was exactly where they had left it.
+
+     The fifth line was still there.
+
+     Waiting.
+
+     Nobody touched it.
+
+     In the eighteenth year the men began building together without discussing what they were building.
+
+     Luke pulled.
+
+     Tyler folded.
+
+     Kirk split.
+
+     Joseph waited.
+
+     Their powers stopped looking like separate abilities.
+
+     They became a language.
+
+     The nineteenth year was almost silent.
+
+     They moved through enormous spaces.
+
+     They watched worlds form and dissolve.
+
+     They found their old routes embedded in landscapes.
+
+     They recognized places they had forgotten.
+
+     The twentieth year began with the four of them standing in an empty room.
+
+     It was the same room.
+
+     Or perhaps it was the first room again.
+
+     There was nothing in it.
+
+     No furniture.
+
+     No doorway.
+
+     No geometry.
+
+     No record.
+
+     Luke looked at the floor.
+
+     Tyler looked at the walls.
+
+     Kirk looked at Joseph.
+
+     Joseph looked back.
+
+     Twenty years had happened.
+
+     The room was empty.
+
+     Luke smiled.
+
+     “Again.”
+
+     The word did not appear.
+
+     They did not need it to.
+
+     Luke raised his hand.
+
+     Tyler stepped forward.
+
+     Kirk moved sideways.
+
+     Joseph remained still.
+
+     The first line appeared.
+
+     Then the second.
+
+     Then the third.
+
+     Then the fourth.
+
+     Somewhere beyond the room, hyperspace opened its eyes.
+
+     The world had not forgotten them.
+
+     It had learned how to begin again.
+
+     And beneath the four lines, a new poetic trace entered the Deep Lore:
+
+     **TWENTY YEARS WERE A MOMENT.**
+
+     **THE MOMENT WAS ENOUGH.**
+
+     **PLAY LEFT A WORLD BEHIND.**

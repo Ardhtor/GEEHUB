@@ -48,6 +48,18 @@ function roomClick(){
   $('#bitText').textContent=event;
   $('#trailText').textContent='EMPTY → ENCOUNTER → RESIDUE → '+(s.visits>=3?'POETRY':'TRACE');
 }
+const WORLD_GATE_KEY='geehub-world-gate';
+function transport(){
+  const select=$('#worldSelect'), destination=select.value;
+  if(!destination){$('#transportStatus').textContent='Choose a destination.';return;}
+  const names={ 'pyyro-chamber':'PYYRO ENERGY CHAMBER','poetry-seep':'POETRY SEEP','deep-lore':'DEEP LORE','novel-engine':'NOVEL ENGINE','veyrthalis':'VEY RTHALIS' };
+  const s=roomState(); s.transit=s.transit||[]; s.transit.push({from:'GEEHUB',to:destination,time:new Date().toISOString()}); saveRoomState(s);
+  localStorage.setItem(WORLD_GATE_KEY,destination);
+  $('#transportTitle').textContent='GATE OPEN';
+  $('#transportStatus').textContent='Transporting the character to '+names[destination]+'. The destination inherits memory, not coordinates.';
+  $('#trailText').textContent='WORLD → GATE → '+names[destination];
+  if(destination==='veyrthalis') setTimeout(()=>{window.location.href='./lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md';},350);
+}
 function renderRoom(){
   const host=document.querySelector('#pyyroRoom'); if(!host)return;
   const s=roomState(), traces=s.traces||[];
@@ -56,6 +68,7 @@ function renderRoom(){
   $('#produceAgain').onclick=roomClick;
 }
 $('#nextBit').addEventListener('click',bit);
+$('#transportBtn').addEventListener('click',transport);
 $('#siphon').addEventListener('click',siphon);
 $('#forgetTrail').addEventListener('click',forgetTrail);
 $('#center').addEventListener('click',()=>{$('#bitTitle').textContent='YOU ARE IN THE WORLD';$('#bitText').textContent='Nothing has to be finished. The constellation is the thing you live inside.';$('#trailText').textContent='you → world';});

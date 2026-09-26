@@ -1,0 +1,36 @@
+{
+  "title": "PYYRO ENERGY // FOUR ROOMS",
+  "principle": "stored pressure → conversion → expression → residue → new pressure",
+  "rooms": [
+    {
+      "id": "pyyro-chamber",
+      "name": "PYYRO ENERGY CHAMBER",
+      "function": "pressure",
+      "visual": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:0f5fcca4-a856-4d88-83fa-93f1e03ff611",
+      "novel_output": "pressure becomes sentence, character, room, contradiction"
+    },
+    {
+      "id": "poetry-seep",
+      "name": "POETRY SEEP",
+      "function": "residue",
+      "visual": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:b4c83e7c-e294-4717-9d2c-4cf27b911c28",
+      "novel_output": "events leave images, rhythms, quotations, dreams, returns"
+    },
+    {
+      "id": "deep-lore",
+      "name": "DEEP LORE",
+      "function": "memory",
+      "visual": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:719eb50e-0cef-4bc0-9c08-9e7c18578d73",
+      "novel_output": "repetition becomes law; residue becomes mythology"
+    },
+    {
+      "id": "novel-engine",
+      "name": "NOVEL ENGINE",
+      "function": "expression",
+      "visual": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:18912163-e06b-4c17-9d42-57eb4fabf5cf",
+      "novel_output": "deep lore becomes chapters; chapters become the next world's pressure"
+    }
+  ],
+  "cycle": ["PYYRO", "WORLD", "SEEP", "POETRY", "LORE", "NOVEL", "PYYRO"],
+  "rule": "Output is not the end. Output becomes fuel."
+}

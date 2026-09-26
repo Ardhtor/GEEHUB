@@ -3121,3 +3121,114 @@
      Then the fifth mark moved toward them.
 
      **THE WORLD HAD BEGUN TO INVENT.**
+
+
+## Chapter LIX: The Fifth Mark
+
+     The fifth mark stopped three steps away.
+
+     It did not belong to a body.
+
+     It belonged to a direction.
+
+     Luke reached toward it.
+
+     The mark moved backward.
+
+     He followed.
+
+     Tyler followed Luke.
+
+     Kirk followed Tyler.
+
+     Joseph remained where he was.
+
+     The fifth mark turned.
+
+     It waited for Joseph.
+
+     Joseph smiled.
+
+     “So that's the rule.”
+
+     He crossed the distance.
+
+     The five marks became a line.
+
+     Then the line became a doorway.
+
+     Beyond it was another empty room.
+
+     This room was larger than the first.
+
+     It contained one chair.
+
+     Nothing else.
+
+     Tyler entered first.
+
+     The chair moved away from him.
+
+     Kirk entered.
+
+     The chair moved toward him.
+
+     Luke entered.
+
+     The chair became a doorway.
+
+     Joseph entered last.
+
+     The doorway became a chair again.
+
+     They stood around it.
+
+     Nobody sat down.
+
+     The room waited.
+
+     Then the fifth mark appeared on the chair.
+
+     It was not asking who would sit.
+
+     It was asking who would leave.
+
+     Joseph understood first.
+
+     He stepped away.
+
+     The chair disappeared.
+
+     The room became larger.
+
+     The fifth mark remained.
+
+     It moved toward the center.
+
+     The center opened.
+
+     Beneath it was the unfinished novel.
+
+     Pages turned without hands.
+
+     The world was reading what they had written.
+
+     Then it began writing between the lines.
+
+     A new sentence appeared:
+
+     **I REMEMBER WHAT YOU HAVE NOT DONE YET.**
+
+     None of them spoke.
+
+     The sentence was impossible.
+
+     That made it useful.
+
+     They stepped through.
+
+     Behind them, the fifth mark followed.
+
+     Ahead of them, the unwritten future had acquired a room.
+
+     **THE WORLD HAD INVENTED A MEMORY OF THE FUTURE.**

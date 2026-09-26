@@ -3432,3 +3432,130 @@
      “You're late,” he said.
 
      And the house became quiet again.
+
+
+## Chapter LXII: The Man Upstairs
+
+     Nobody answered him.
+
+     The man looked at Luke, then Tyler, then Kirk, then Joseph.
+
+     “I thought you'd be here by now.”
+
+     Joseph stood.
+
+     “Who are you?”
+
+     The man glanced toward the stairs.
+
+     “I live here.”
+
+     Luke looked around the room.
+
+     There was nothing familiar about it, but the answer did not sound strange.
+
+     Tyler put the glass back on the table.
+
+     “How long?”
+
+     The man considered the question.
+
+     “Long enough.”
+
+     Outside, the wind moved across the field again.
+
+     Kirk went to the window.
+
+     The field was empty.
+
+     No fifth mark.
+
+     No road.
+
+     No doorway.
+
+     Just grass moving in the distance.
+
+     “How did we get here?” Kirk asked.
+
+     The man smiled.
+
+     “You walked.”
+
+     Luke looked toward the door.
+
+     It was still open.
+
+     Beyond it, the field waited.
+
+     He stepped outside.
+
+     The others followed.
+
+     The man remained in the house.
+
+     They crossed the field again.
+
+     This time the house did not remain behind them.
+
+     It came with them.
+
+     At first it was only a shape at the edge of the horizon.
+
+     Then it was beside them.
+
+     Then it was behind them.
+
+     They stopped.
+
+     The house stopped too.
+
+     Joseph laughed quietly.
+
+     The man was standing on the porch.
+
+     He raised one hand.
+
+     None of them raised theirs.
+
+     They started walking again.
+
+     The house followed.
+
+     By sunset it had become impossible to tell whether they were leaving the house or carrying it with them.
+
+     They kept going until the lights came on upstairs.
+
+     Then the man opened the window.
+
+     “Dinner,” he called.
+
+     The four men looked at each other.
+
+     Then they went back.
+
+     The front door was waiting.
+
+     Inside, the fifth chair had been placed at the table.
+
+     Nobody had seen it arrive.
+
+     The man sat down.
+
+     They sat with him.
+
+     For a while, nothing happened.
+
+     They ate.
+
+     They talked.
+
+     Outside, night settled over the field.
+
+     Upstairs, a floorboard creaked.
+
+     Nobody looked up.
+
+     The house had become ordinary again.
+
+     And that was how they stayed there.

@@ -6,7 +6,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:#050608;color:#e8ebef;
 #ui{position:fixed;z-index:2;left:20px;top:18px;pointer-events:none;text-shadow:0 2px 8px #000}
 h1{margin:3px 0;font-size:28px;letter-spacing:-.04em}.eyebrow{font-size:9px;letter-spacing:.2em;color:#8f98a4}
 #status{margin-top:8px;color:#aeb6c1}#help{position:fixed;right:18px;bottom:16px;color:#77818d;font-size:11px}
-canvas{display:block}
+canvas{display:block}#narrative{position:fixed;z-index:2;right:18px;top:18px;width:min(360px,42vw);max-height:42vh;overflow:auto;padding:15px;border:1px solid #2a3038;background:rgba(10,12,15,.88);backdrop-filter:blur(8px)}#narrative h2{margin:5px 0 7px;font-size:18px}#narrative p{margin:0;color:#aeb6c1;line-height:1.6}
 </style></head><body>
 <div id="ui"><div class="eyebrow">GEEHUB / WORLDSPACE</div><h1>THE WORLDS ARE VOLUMES</h1><div class="roster">LUKE · TYLER · KIRK · JOSEPH</div><div id="status">The boys are arriving.</div></div>
 <div id="help">DRAG = ORBIT · WHEEL = SCALE · CLICK A WORLD = ENTER</div>
@@ -47,6 +47,6 @@ for(let i=0;i<worlds.length;i++)for(let j=i+1;j<worlds.length;j++){
 const grid=new THREE.GridHelper(80,40,0x20252c,0x101318);grid.position.y=-10;scene.add(grid);
 const ray=new THREE.Raycaster(),mouse=new THREE.Vector2();
 renderer.domElement.addEventListener('pointerdown',e=>{mouse.x=e.clientX/innerWidth*2-1;mouse.y=-(e.clientY/innerHeight)*2+1;ray.setFromCamera(mouse,camera);const hit=ray.intersectObjects(clickable,true)[0];if(hit){let g=hit.object;while(g.parent&&!g.userData.name)g=g.parent;document.querySelector('#status').textContent='ENTERING '+g.userData.name+' — same character, new world.';}});
-function animate(t){requestAnimationFrame(animate);clickable.forEach((g,i)=>{g.rotation.y=t*.00008*(i+1);g.userData.ring.rotation.z=t*.00012*(i%2?1:-1)});controls.update();renderer.render(scene,camera)}animate(0);
+function animate(t){requestAnimationFrame(animate);clickable.forEach((g,i)=>{g.rotation.y=t*.00008*(i+1);g.userData.ring.rotation.z=t*.00012*(i%2?1:-1)});controls.update();renderer.render(scene,camera)}loadNarrative();animate(0);
 addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
 </script></body></html>

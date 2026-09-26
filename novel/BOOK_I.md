@@ -1803,3 +1803,238 @@
      A man could remain.
 
      And the House, finally, could contain all four without deciding which one he was supposed to be.
+
+
+## Chapter L: The Geometry They Left Behind
+
+     By afternoon the men had stopped treating the House as architecture.
+
+     Luke discovered this first.
+
+     He was standing in the western corridor when the floor moved beneath him—not enough to throw him off balance, only enough to make the corridor acknowledge that he had noticed it. A seam appeared between two stones. It ran forward, turned beneath a doorway, climbed the wall, and disappeared into the ceiling.
+
+     Luke followed it.
+
+     Tyler saw him go and followed.
+
+     Joseph came after Tyler.
+
+     Kirk remained in the room for another minute before the empty chair turned slightly toward the corridor.
+
+     He stood.
+
+     “All right,” he said.
+
+     The chair stopped moving.
+
+     He followed them.
+
+     They found Luke in a chamber that had not existed that morning.
+
+     It was almost empty.
+
+     There were no machines. No shelves. No ancient instruments. No vessel of Serum. Only a dark floor and six enormous geometric forms suspended in the air.
+
+     One was a many-sided sphere.
+
+     One was a ring.
+
+     One was a long transparent corridor folded into itself.
+
+     One was a black cube with a door in each face.
+
+     One was a blue lattice.
+
+     The last was nothing they could name.
+
+     Luke approached the first.
+
+     It moved.
+
+     Not toward him.
+
+     Around him.
+
+     The sphere rotated until one of its faces pointed toward his chest. Then another face appeared. Then another. The geometry had no fixed front.
+
+     Tyler laughed.
+
+     “It knows you're there.”
+
+     Luke looked at him.
+
+     “You think?”
+
+     Tyler walked toward the blue lattice.
+
+     The lattice opened.
+
+     He stepped through.
+
+     The room changed.
+
+     Not dramatically. That would have been easier to understand. A wall simply moved three feet to the left. A ceiling became higher. The black cube rotated. The ring descended until it stood upright on the floor.
+
+     Joseph watched the transformation.
+
+     “They're not objects.”
+
+     Kirk looked at him.
+
+     “What are they?”
+
+     “Rules.”
+
+     Nobody spoke.
+
+     Joseph put his hand against the ring.
+
+     The ring widened.
+
+     He stepped inside it.
+
+     The chamber became longer.
+
+     Luke understood.
+
+     “They're responding to us.”
+
+     “Not exactly,” Joseph said.
+
+     He looked across the room.
+
+     “They're responding to what we do.”
+
+     Luke walked toward the cube.
+
+     He opened one door.
+
+     Beyond it was the same chamber.
+
+     He opened another.
+
+     The same chamber again.
+
+     He opened the third.
+
+     The chamber was larger.
+
+     Tyler entered.
+
+     Kirk entered.
+
+     Joseph entered.
+
+     The four men were suddenly standing in four different versions of the same room.
+
+     They could see one another.
+
+     They could not reach one another.
+
+     Luke raised his hand.
+
+     Tyler raised his.
+
+     Kirk raised his.
+
+     Joseph raised his.
+
+     The walls shifted.
+
+     The four rooms joined.
+
+     Nobody had touched a control.
+
+     The House had learned the gesture.
+
+     Something moved beneath the floor.
+
+     A low vibration passed through the chamber.
+
+     The geometry rearranged itself.
+
+     The six forms became a road.
+
+     It ran from the chamber through the western wall and out beneath Veyrthalis.
+
+     Far ahead, six lights appeared.
+
+     One was amber.
+
+     One was blue.
+
+     One was white.
+
+     One was black.
+
+     One was green.
+
+     One was the color of the room before anyone entered it.
+
+     Luke smiled.
+
+     “Now that's a road.”
+
+     They walked.
+
+     Behind them, the chamber did not return to its original shape.
+
+     It kept what they had done.
+
+     That was the important part.
+
+     The geometry was no longer scenery.
+
+     It was memory.
+
+     Every turn they made became a possibility for someone else.
+
+     Every door they opened remained available.
+
+     Every room they joined could be joined again.
+
+     The world had begun to accumulate not only stories, but ways of moving through stories.
+
+     Tyler looked back.
+
+     “You think it'll remember us?”
+
+     Joseph answered.
+
+     “It already does.”
+
+     Ahead of them, the road divided.
+
+     Luke stopped.
+
+     One branch led toward the amber woods.
+
+     One descended beneath the city.
+
+     One rose into blue darkness.
+
+     One disappeared completely.
+
+     Kirk pointed at the last.
+
+     “What's that one?”
+
+     The House answered before anyone else could.
+
+     A line of text appeared on the floor.
+
+     THE PATH MADE BY THE NEXT PERSON.
+
+     Nobody stepped onto it.
+
+     Not yet.
+
+     They left it empty.
+
+     And because they left it empty, the road became larger.
+
+     Somewhere behind them, inside the chamber, the six original geometric forms began moving again.
+
+     They were playing without the men now.
+
+     The House was learning to play with itself.

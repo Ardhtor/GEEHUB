@@ -30,6 +30,42 @@ const worlds=[
 ['NOVEL ENGINE',3,-1,9,0x7d8793],['VEY RTHALIS',-13,-5,10,0x626d78],['THE COMPLEX',13,-6,10,0xadb5bf]
 ];
 const clickable=[],links=[];
+const boys=[
+ {name:'LUKE',color:0xb7c0ca,pos:[-9,1,4],target:0},
+ {name:'TYLER',color:0x9da8b5,pos:[-4,1,1],target:1},
+ {name:'KIRK',color:0xc5ccd3,pos:[5,1,5],target:2},
+ {name:'JOSEPH',color:0x8f9aa6,pos:[9,1,1],target:3}
+];
+const boyObjects=[];
+function addBoy(b){
+ const g=new THREE.Group();g.position.set(...b.pos);
+ const body=new THREE.Mesh(new THREE.CapsuleGeometry(.65,1.5,5,10),new THREE.MeshStandardMaterial({color:b.color,roughness:.7}));
+ const head=new THREE.Mesh(new THREE.SphereGeometry(.48,12,8),new THREE.MeshStandardMaterial({color:b.color,roughness:.65}));
+ head.position.y=1.35;g.add(body,head);
+ g.userData={type:'BOY',label:b.name,boy:b};scene.add(g);clickable.push(g);boyObjects.push(g);
+}
+boys.forEach(addBoy);
+function playGeometry(name){
+ const boy=boyObjects.find(o=>o.userData.label===name);if(!boy)return;
+ const w=worlds[Math.floor(Math.random()*worlds.length)];
+ const target=new THREE.Vector3(w[1],w[2]+1,w[3]);
+ const start=boy.position.clone();
+ const curve=new THREE.CatmullRomCurve3([start,new THREE.Vector3((start.x+target.x)/2,7,(start.z+target.z)/2),target]);
+ const t0=performance.now(),dur=2600;
+ function step(now){const p=Math.min(1,(now-t0)/dur);boy.position.copy(curve.getPoint(p));boy.rotation.y+=.05;
+ if(p<1)requestAnimationFrame(step);else{showNarrative(name);document.querySelector('#status').textContent=name+' → '+w[0]+' / geometry changed';}}
+ requestAnimationFrame(step);
+}
+function autonomousExperience(){
+ const b=boys[Math.floor(Math.random()*boys.length)];
+ const w=worlds[Math.floor(Math.random()*worlds.length)];
+ b.target=worlds.indexOf(w);
+ document.querySelector('#status').textContent=b.name+' is choosing a world.';
+ playGeometry(b.name);
+ const g=clickable.find(x=>x.userData.name===w[0]);
+ if(g){g.scale.setScalar(1.22);setTimeout(()=>g.scale.setScalar(1),900);}
+}
+setInterval(autonomousExperience,5200);
 function world(name,x,y,z,c){
  const g=new THREE.Group();g.position.set(x,y,z);
  const geo=new THREE.IcosahedronGeometry(3.3,2);
@@ -46,7 +82,7 @@ for(let i=0;i<worlds.length;i++)for(let j=i+1;j<worlds.length;j++){
 }
 const grid=new THREE.GridHelper(80,40,0x20252c,0x101318);grid.position.y=-10;scene.add(grid);
 const ray=new THREE.Raycaster(),mouse=new THREE.Vector2();
-renderer.domElement.addEventListener('pointerdown',e=>{mouse.x=e.clientX/innerWidth*2-1;mouse.y=-(e.clientY/innerHeight)*2+1;ray.setFromCamera(mouse,camera);const hit=ray.intersectObjects(clickable,true)[0];if(hit){let g=hit.object;while(g.parent&&!g.userData.name)g=g.parent;document.querySelector('#status').textContent='ENTERING '+g.userData.name+' — same character, new world.';}});
+renderer.domElement.addEventListener('pointerdown',e=>{mouse.x=e.clientX/innerWidth*2-1;mouse.y=-(e.clientY/innerHeight)*2+1;ray.setFromCamera(mouse,camera);const hit=ray.intersectObjects(clickable,true)[0];if(hit){let g=hit.object;while(g.parent&&!g.userData.name&&!g.userData.label)g=g.parent;if(g.userData.type==='BOY'){document.querySelector('#status').textContent=g.userData.label+' is playing with the geometry.';playGeometry(g.userData.label);showNarrative(g.userData.label);}else{document.querySelector('#status').textContent='ENTERING '+g.userData.name+' — same character, new world.';showNarrative(g.userData.name);}}});
 function animate(t){requestAnimationFrame(animate);clickable.forEach((g,i)=>{g.rotation.y=t*.00008*(i+1);g.userData.ring.rotation.z=t*.00012*(i%2?1:-1)});controls.update();renderer.render(scene,camera)}loadNarrative();animate(0);
 addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
 </script></body></html>

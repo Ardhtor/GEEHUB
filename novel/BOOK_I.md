@@ -2598,3 +2598,166 @@
      **THE MOMENT WAS ENOUGH.**
 
      **PLAY LEFT A WORLD BEHIND.**
+
+
+## Chapter LIII: The Button
+
+     They knew what the button was.
+
+     That was the problem.
+
+     After twenty years in hyperspace, there were very few mechanisms left that could surprise them. They knew how worlds bent. They knew how memory accumulated. They knew how a room could become a question.
+
+     They also knew the rule.
+
+     If something appeared without explanation, do not explain it.
+
+     Inspect it.
+
+     The button stood alone in the empty room.
+
+     It was small.
+
+     Black.
+
+     Ordinary.
+
+     No pedestal.
+
+     No warning.
+
+     No label.
+
+     Tyler walked around it.
+
+     “That's new.”
+
+     Kirk crouched beside it.
+
+     “No.”
+
+     Luke looked at him.
+
+     Kirk touched the floor.
+
+     “The room is new. The button isn't.”
+
+     Joseph understood.
+
+     Somewhere in their twenty years, they had already encountered this moment.
+
+     They simply had not reached it yet.
+
+     Luke smiled.
+
+     “So we push it.”
+
+     Joseph shook his head.
+
+     “Obviously.”
+
+     Tyler laughed.
+
+     Kirk stood.
+
+     The four of them gathered around the button.
+
+     They had knowledge now.
+
+     They had propensity.
+
+     They had twenty years of accumulated consequences behind them.
+
+     None of that made them cautious.
+
+     It made them precise.
+
+     Luke placed one finger on the button.
+
+     Nothing happened.
+
+     He pressed.
+
+     The room disappeared.
+
+     Not collapsed.
+
+     Not exploded.
+
+     Disappeared.
+
+     Every world they had visited became visible at once.
+
+     PYYRO.
+
+     Poetry.
+
+     Deep Lore.
+
+     The Novel.
+
+     Veyrthalis.
+
+     The Complex.
+
+     Every route they had ever made became a line.
+
+     Every line became a sentence.
+
+     Every sentence became a world.
+
+     Then the worlds turned toward them.
+
+     The button had not activated a machine.
+
+     It had activated the accumulated memory of play.
+
+     Their twenty years came back simultaneously.
+
+     Luke saw every place he had pulled.
+
+     Tyler saw every doorway he had folded.
+
+     Kirk saw every division he had made.
+
+     Joseph saw every moment he had waited.
+
+     Then they saw something none of them had done.
+
+     A new line.
+
+     It began beneath the button.
+
+     It moved outward.
+
+     Past them.
+
+     Past the worlds.
+
+     Past hyperspace.
+
+     Toward somewhere the system had never recorded.
+
+     Tyler stared.
+
+     “That's outside.”
+
+     Joseph looked at the line.
+
+     “No.”
+
+     Kirk smiled.
+
+     “That's next.”
+
+     Luke pressed the button again.
+
+     This time, the world answered immediately.
+
+     **PLAY AGAIN.**
+
+     The four men stepped forward.
+
+     The button remained behind them.
+
+     Waiting for the next hand.

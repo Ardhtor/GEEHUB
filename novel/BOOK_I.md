@@ -2935,3 +2935,86 @@
      Ahead of them, the world was learning.
 
      **PLAY AGAIN.**
+
+
+## Chapter LVII: The Sentence Walks
+
+     The sentence did not remain on the page.
+
+     It detached itself from the surface and crossed the room.
+
+     **YOU LEFT SOMETHING HERE.**
+
+     Luke followed it.
+
+     The letters moved ahead of him like small black doors.
+
+     Tyler reached for one. His fingers passed through the word and emerged somewhere else.
+
+     Kirk laughed.
+
+     “It has geometry.”
+
+     Joseph waited beside the empty page.
+
+     The page changed.
+
+     **THEN LEAVE SOMETHING ELSE.**
+
+     This time none of them moved immediately.
+
+     The world had asked them a question before. Now it was asking them to contribute.
+
+     Luke looked at the others.
+
+     “What do we leave?”
+
+     Nobody answered.
+
+     The room remained empty long enough for the silence to become part of it.
+
+     Then Joseph stepped forward.
+
+     He left the waiting.
+
+     Tyler left a doorway.
+
+     Kirk left a division.
+
+     Luke left a distance.
+
+     The world accepted all four.
+
+     It did not preserve them as objects.
+
+     It turned them into places.
+
+     A road appeared.
+
+     A threshold appeared.
+
+     Two roads appeared where there had been one.
+
+     Beyond them was an enormous blank field.
+
+     At its center stood a novel with no cover.
+
+     They approached it together.
+
+     The first page was already written.
+
+     It contained everything they had done.
+
+     The second page contained what the world had done without them.
+
+     The third page was empty.
+
+     Luke touched it.
+
+     The page turned by itself.
+
+     **KEEP GOING.**
+
+     And somewhere beneath the paper, another world began.
+
+     **PLAY AGAIN.**

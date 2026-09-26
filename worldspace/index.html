@@ -9,7 +9,7 @@ h1{margin:3px 0;font-size:28px;letter-spacing:-.04em}.eyebrow{font-size:9px;lett
 canvas{display:block}#narrative{position:fixed;z-index:2;right:18px;top:18px;width:min(360px,42vw);max-height:42vh;overflow:auto;padding:15px;border:1px solid #2a3038;background:rgba(10,12,15,.88);backdrop-filter:blur(8px)}#narrative h2{margin:5px 0 7px;font-size:18px}#narrative p{margin:0;color:#aeb6c1;line-height:1.6}
 </style></head><body>
 <div id="ui"><div class="eyebrow">GEEHUB / WORLDSPACE</div><h1>THE WORLDS ARE VOLUMES</h1><div class="roster">LUKE · TYLER · KIRK · JOSEPH</div><div id="status">The boys are arriving.</div></div>
-<div id="help">DRAG = ORBIT · WHEEL = SCALE · CLICK A WORLD = ENTER</div>
+<div id="help">DRAG = ORBIT · WHEEL = SCALE · CLICK A BOY = POWER PLAY</div>
 <script type="module">
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js';
 import {OrbitControls} from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js';
@@ -45,9 +45,20 @@ function addBoy(b){
  g.userData={type:'BOY',label:b.name,boy:b};scene.add(g);clickable.push(g);boyObjects.push(g);
 }
 boys.forEach(addBoy);
+function power(name,type){
+ const boy=boyObjects.find(o=>o.userData.label===name); if(!boy)return;
+ const near=worlds.map((w,i)=>({w,i,d:boy.position.distanceTo(new THREE.Vector3(w[1],w[2],w[3]))})).sort((a,b)=>a.d-b.d)[0];
+ const g=clickable.find(x=>x.userData.name===near.w[0]);
+ if(type==='PULL'&&g){g.position.y+=3;setTimeout(()=>g.position.y-=3,700);}
+ if(type==='SPLIT'&&g){g.scale.set(1.6,.55,1.6);setTimeout(()=>g.scale.set(1,1,1),900);}
+ if(type==='BEND'){boy.scale.x*=1.35;setTimeout(()=>boy.scale.x/=1.35,700);}
+ if(type==='TIME'){boy.rotation.x+=Math.PI; setTimeout(()=>boy.rotation.x-=Math.PI,900);}
+ document.querySelector('#status').textContent=name+' used '+type.toLowerCase()+' power on '+near.w[0]+'.';
+}
 function playGeometry(name){
  const boy=boyObjects.find(o=>o.userData.label===name);if(!boy)return;
  const w=worlds[Math.floor(Math.random()*worlds.length)];
+ const powers=['PULL','SPLIT','BEND','TIME']; power(name,powers[Math.floor(Math.random()*powers.length)]);
  const target=new THREE.Vector3(w[1],w[2]+1,w[3]);
  const start=boy.position.clone();
  const curve=new THREE.CatmullRomCurve3([start,new THREE.Vector3((start.x+target.x)/2,7,(start.z+target.z)/2),target]);

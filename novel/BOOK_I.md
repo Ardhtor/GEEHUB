@@ -2761,3 +2761,78 @@
      The button remained behind them.
 
      Waiting for the next hand.
+
+
+## Chapter LIV: Play Again
+
+     They did not return to the beginning.
+
+     They returned to possibility.
+
+     The button was gone.
+
+     The line remained.
+
+     Luke touched it first.
+
+     The line moved beneath his hand like a living road.
+
+     Tyler followed.
+
+     Kirk stepped into the space between them.
+
+     Joseph came last.
+
+     Then hyperspace opened.
+
+     This time they knew enough not to name what they saw.
+
+     They played.
+
+     Luke pulled distances apart until a horizon became a doorway.
+
+     Tyler folded the doorway into a room.
+
+     Kirk divided the room into four possible rooms.
+
+     Joseph waited until all four possibilities became real.
+
+     Then they chose none of them.
+
+     The fifth appeared.
+
+     They laughed.
+
+     Twenty years had taught them that the best games were the ones whose rules changed because you were playing.
+
+     So they stopped trying to master the worlds.
+
+     They began making worlds that could surprise them.
+
+     A mountain learned to move.
+
+     A corridor learned to remember footsteps.
+
+     A star became a door.
+
+     A door became a question.
+
+     A question became a novel.
+
+     And the novel became another world.
+
+     Somewhere in the new hyperspace, the first room was still empty.
+
+     Somewhere else, four new lines were beginning.
+
+     The boys kept moving.
+
+     Not toward an ending.
+
+     Toward another turn.
+
+     Another game.
+
+     Another unknown.
+
+     **PLAY AGAIN.**

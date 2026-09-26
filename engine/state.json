@@ -1,4 +1,12 @@
 {
-  "pulse": 0,
-  "events": []
-}
+  "pulse": 1,
+  "events": [
+    {
+      "pulse": 1,
+      "time": "2026-09-26T05:31:32.229203+00:00",
+      "actor": "LUKE",
+      "world": "PYYRO ENERGY",
+      "text": "LUKE entered PYYRO ENERGY. Nothing was explained. The room continued around them."
+    }
+  ]
+}\n

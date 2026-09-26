@@ -3232,3 +3232,98 @@
      Ahead of them, the unwritten future had acquired a room.
 
      **THE WORLD HAD INVENTED A MEMORY OF THE FUTURE.**
+
+
+## Chapter LX: The Room Ahead
+
+     They entered the room the fifth mark had remembered for them.
+
+     There was nothing inside.
+
+     This time the emptiness felt different.
+
+     It was not waiting for an occupant.
+
+     It was waiting for an event.
+
+     Luke walked to the far wall.
+
+     The wall opened before he touched it.
+
+     Tyler turned toward the opening.
+
+     Another opening appeared behind him.
+
+     Kirk looked between them.
+
+     The distance multiplied.
+
+     Joseph did not move.
+
+     He watched the room choose.
+
+     One doorway closed.
+
+     Then another.
+
+     Then another.
+
+     The final doorway remained.
+
+     The fifth mark entered first.
+
+     They followed.
+
+     On the other side was the same room.
+
+     But it remembered them differently.
+
+     There were traces of actions they had not taken.
+
+     A footprint beside Luke.
+
+     A doorway Tyler had never opened.
+
+     A fracture Kirk had never made.
+
+     A chair Joseph had never moved.
+
+     They understood the danger immediately: the world was no longer merely predicting possibilities.
+
+     It was creating evidence for them.
+
+     Luke crouched beside the footprint.
+
+     “We don't have to become this.”
+
+     The footprint disappeared.
+
+     The room changed.
+
+     The world had heard him.
+
+     A new passage opened.
+
+     This one had no evidence in it at all.
+
+     No prediction.
+
+     No memory.
+
+     No instruction.
+
+     Just space.
+
+     They entered together.
+
+     Behind them, the fifth mark remained outside.
+
+     For the first time, the world had left something behind without them.
+
+     The passage closed.
+
+     The room became quiet.
+
+     Then, from somewhere beyond the walls, came the sound of a page turning.
+
+     **THE WORLD HAD LEARNED THAT POSSIBILITY IS NOT DESTINY.**

@@ -30,6 +30,23 @@ const worlds=[
 ['NOVEL ENGINE',3,-1,9,0x7d8793],['VEY RTHALIS',-13,-5,10,0x626d78],['THE COMPLEX',13,-6,10,0xadb5bf]
 ];
 const clickable=[],links=[];
+const STATE_KEY='geehub-worldspace-memory';
+const state=JSON.parse(localStorage.getItem(STATE_KEY)||'{
+  "version": 1,
+  "events": [],
+  "worldMemory": {},
+  "residue": [],
+  "novelSignals": []
+}');
+function saveState(){localStorage.setItem(STATE_KEY,JSON.stringify(state));}
+function recordEvent(actor,action,world,residue){
+ state.events.push({actor,action,world,time:Date.now(),residue});
+ state.worldMemory[world]=(state.worldMemory[world]||0)+1;
+ if(residue) state.residue.push({actor,world,text:residue,time:Date.now()});
+ if(state.events.length%5===0) state.novelSignals.push({chapterHint:'WORLDSPACE',text:state.residue.slice(-5).map(x=>x.text).join(' ')});
+ saveState();
+}
+function worldMemoryCount(name){return state.worldMemory[name]||0;}
 const boys=[
  {name:'LUKE',color:0xb7c0ca,pos:[-9,1,4],target:0},
  {name:'TYLER',color:0x9da8b5,pos:[-4,1,1],target:1},
@@ -53,7 +70,9 @@ function power(name,type){
  if(type==='SPLIT'&&g){g.scale.set(1.6,.55,1.6);setTimeout(()=>g.scale.set(1,1,1),900);}
  if(type==='BEND'){boy.scale.x*=1.35;setTimeout(()=>boy.scale.x/=1.35,700);}
  if(type==='TIME'){boy.rotation.x+=Math.PI; setTimeout(()=>boy.rotation.x-=Math.PI,900);}
- document.querySelector('#status').textContent=name+' used '+type.toLowerCase()+' power on '+near.w[0]+'.';
+ const residue=name+' left '+type.toLowerCase()+' in '+near.w[0]+'.';
+ recordEvent(name,type,near.w[0],residue);
+ document.querySelector('#status').textContent=residue;
 }
 function playGeometry(name){
  const boy=boyObjects.find(o=>o.userData.label===name);if(!boy)return;
@@ -74,7 +93,7 @@ function autonomousExperience(){
  document.querySelector('#status').textContent=b.name+' is choosing a world.';
  playGeometry(b.name);
  const g=clickable.find(x=>x.userData.name===w[0]);
- if(g){g.scale.setScalar(1.22);setTimeout(()=>g.scale.setScalar(1),900);}
+ if(g){g.scale.setScalar(1.22);setTimeout(()=>g.scale.setScalar(1),900);recordEvent(b.name,'VISIT',w[0],b.name+' returned to '+w[0]+'.');}
 }
 setInterval(autonomousExperience,5200);
 function world(name,x,y,z,c){
@@ -84,7 +103,9 @@ function world(name,x,y,z,c){
  const mesh=new THREE.Mesh(geo,mat);g.add(mesh);
  const wire=new THREE.LineSegments(new THREE.EdgesGeometry(geo),new THREE.LineBasicMaterial({color:0x6d7681,transparent:true,opacity:.22}));g.add(wire);
  const ring=new THREE.Mesh(new THREE.TorusGeometry(4.2,.025,8,64),new THREE.MeshBasicMaterial({color:c,transparent:true,opacity:.45}));ring.rotation.x=Math.PI/2;g.add(ring);
- g.userData={name,mesh,ring};scene.add(g);clickable.push(g);
+ g.userData={name,mesh,ring};
+ const memory=worldMemoryCount(name); if(memory) g.scale.multiplyScalar(1+Math.min(memory*.035,.25));
+ scene.add(g);clickable.push(g);
 }
 worlds.forEach(w=>world(...w));
 for(let i=0;i<worlds.length;i++)for(let j=i+1;j<worlds.length;j++){
@@ -94,6 +115,6 @@ for(let i=0;i<worlds.length;i++)for(let j=i+1;j<worlds.length;j++){
 const grid=new THREE.GridHelper(80,40,0x20252c,0x101318);grid.position.y=-10;scene.add(grid);
 const ray=new THREE.Raycaster(),mouse=new THREE.Vector2();
 renderer.domElement.addEventListener('pointerdown',e=>{mouse.x=e.clientX/innerWidth*2-1;mouse.y=-(e.clientY/innerHeight)*2+1;ray.setFromCamera(mouse,camera);const hit=ray.intersectObjects(clickable,true)[0];if(hit){let g=hit.object;while(g.parent&&!g.userData.name&&!g.userData.label)g=g.parent;if(g.userData.type==='BOY'){document.querySelector('#status').textContent=g.userData.label+' is playing with the geometry.';playGeometry(g.userData.label);showNarrative(g.userData.label);}else{document.querySelector('#status').textContent='ENTERING '+g.userData.name+' — same character, new world.';showNarrative(g.userData.name);}}});
-function animate(t){requestAnimationFrame(animate);clickable.forEach((g,i)=>{g.rotation.y=t*.00008*(i+1);g.userData.ring.rotation.z=t*.00012*(i%2?1:-1)});controls.update();renderer.render(scene,camera)}loadNarrative();animate(0);
+function animate(t){requestAnimationFrame(animate);clickable.forEach((g,i)=>{g.rotation.y=t*.00008*(i+1);if(g.userData.ring)g.userData.ring.rotation.z=t*.00012*(i%2?1:-1)});controls.update();renderer.render(scene,camera)}loadNarrative();animate(0);
 addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
 </script></body></html>

@@ -3327,3 +3327,108 @@
      Then, from somewhere beyond the walls, came the sound of a page turning.
 
      **THE WORLD HAD LEARNED THAT POSSIBILITY IS NOT DESTINY.**
+
+
+## Chapter LXI: Beyond the Passage
+
+     They walked until the passage stopped feeling like a passage.
+
+     The walls widened.
+
+     The floor became uneven.
+
+     A pale light appeared somewhere ahead, although none of them could find its source.
+
+     Luke kept walking.
+
+     Tyler walked beside him.
+
+     Kirk stayed a little behind.
+
+     Joseph moved between them without speaking.
+
+     The fifth mark was gone.
+
+     Nobody mentioned it.
+
+     They came out into a wide field.
+
+     There was weather here.
+
+     Wind moved across the grass.
+
+     Clouds crossed a sky that seemed much too large for the room they had left.
+
+     In the distance stood a house.
+
+     It was not enormous.
+
+     It was not strange.
+
+     That was what made them stop.
+
+     A porch.
+
+     Windows.
+
+     A door.
+
+     A light burning inside.
+
+     Luke looked at the others.
+
+     They crossed the field together.
+
+     Nobody opened the door.
+
+     It opened by itself.
+
+     Inside, there were signs that someone had been there recently.
+
+     Four chairs.
+
+     Four glasses.
+
+     A jacket over the back of one chair.
+
+     A pair of shoes near the stairs.
+
+     The ordinary details made the room feel more unfamiliar than any impossible geometry had.
+
+     Tyler picked up one of the glasses.
+
+     It was warm.
+
+     Kirk looked upstairs.
+
+     Joseph sat down.
+
+     Luke remained standing by the door.
+
+     Outside, the field moved in the wind.
+
+     Inside, nothing moved at all.
+
+     Then footsteps sounded upstairs.
+
+     Four of them looked toward the ceiling.
+
+     The footsteps stopped.
+
+     Someone walked down the stairs.
+
+     They waited.
+
+     A man appeared at the bottom step.
+
+     He looked at the four chairs.
+
+     Then he looked at them.
+
+     Nobody recognized him.
+
+     He smiled as though he recognized them perfectly.
+
+     “You're late,” he said.
+
+     And the house became quiet again.

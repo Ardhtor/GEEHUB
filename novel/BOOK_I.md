@@ -3565,3 +3565,73 @@
      The house had become ordinary again.
 
      And that was how they stayed there.
+
+## Chapter LXIII: Bill
+
+     Bill was not the man who had been waiting upstairs. That distinction mattered because the house had a habit of making every man who entered it seem older than the room, and Bill had never needed the room to make him large. He was already large in the ordinary, physical sense, broad through the shoulders and heavy through the chest, with the kind of presence that made a doorway look like an architectural decision rather than an opening. Yet nothing about him suggested arrival. When Luke first saw him he had the peculiar impression that Bill had been there before the house, before the field, perhaps before the road that led to the field, and had simply allowed the rest of them to catch up. Bill was sitting at the kitchen table with a cup between his hands. The cup was old. The table was older. Neither appeared to belong to the house, but the house had accepted them.
+
+     “Bill,” the man upstairs said.
+
+     Bill looked up.
+
+     “You finally brought them.”
+
+     Luke looked toward Joseph. Tyler looked at Kirk. Nobody asked how Bill knew them. The question seemed too small. Bill studied the four men for a moment, not like a guard inspecting strangers but like a carpenter examining a piece of wood whose grain he already understood. Then he nodded toward the empty chairs. There were five now. The fifth had been occupied before by the other man, but when Bill entered the room the chair seemed to remember a different purpose. Bill did not sit in it. He pulled another chair from the wall. There had not been another chair against the wall a moment before.
+
+     “The house keeps making room,” Tyler said.
+
+     Bill smiled. “No. You keep becoming harder to contain.”
+
+     Bill had been present at several of the Hub's oldest transitions. He had seen the first rooms acquire second rooms. He had watched the men inside the devices become men who could leave the devices. He had walked the blue halls before the archivists had given them numbers. He had stood beside the seventh well and listened to the water moving beneath the earth. In the records he was rarely named because the records had been written by people who believed history belonged to the event rather than to the person who remained beside it. Bill disagreed. He believed that the person who stayed was part of the event. When a door opened, he wanted to know who had held it open. When a city appeared, he wanted to know who had kept the first lamp burning. When a man returned, Bill wanted to know who had waited for him.
+
+     That was why the others eventually understood what Bill had been doing in the house. He had not been guarding it. He had been keeping it continuous.
+
+     He showed them the back room after dinner. It was narrow and almost completely dark. Along one wall stood shelves containing objects from places they recognized: the brass key from the northern road, a glass vessel from the first laboratory, a black stone, a folded map, an old photograph of the Blue Hall, and a blank sheet of paper that was not blank anymore. There were hundreds of other things they did not recognize. A child's shoe. A broken monitor. A wooden handle. A spoon bent into a circle. A coat button. A piece of red glass. A small metal stop from an enormous fountain.
+
+     “Why keep these?” Joseph asked.
+
+     Bill touched the edge of the shelf.
+
+     “Because somebody might come back for them.”
+
+     “Do they?”
+
+     “Sometimes.”
+
+     Luke picked up the brass key. It was warm.
+
+     “What does it open?”
+
+     Bill looked at him for a long time.
+
+     “Something you haven't reached yet.”
+
+     Bill understood the central law of the Hub better than the archivists did. Nothing needed to remain in its original form. It only needed to remain related to what it had been. He did not preserve objects because they were sacred in themselves. He preserved them because a world could lose its shape if it forgot what had connected its earlier rooms to its later ones.
+
+     Before they left the room, Bill stopped Joseph.
+
+     “You wait,” he said.
+
+     Joseph looked at him.
+
+     “Yes.”
+
+     “Good.” Bill glanced toward Luke, then Tyler, then Kirk. “They move. You wait. That's why the house needs all four of you.”
+
+     Joseph said nothing.
+
+     Bill returned to the kitchen.
+
+     Later, long after the others had gone upstairs, Luke woke and found Bill sitting alone beneath the blue light of an old monitor. The screen showed an empty road. Bill watched it without touching the keyboard. On the screen, far in the distance, a figure was approaching. Bill leaned forward.
+
+     “Who is that?” Luke asked.
+
+     Bill did not turn.
+
+     “Someone who has been looking for us.”
+
+     The figure on the screen became larger.
+
+     Bill smiled.
+
+     “Let him come.”

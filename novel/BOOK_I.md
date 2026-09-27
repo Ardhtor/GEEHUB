@@ -3635,3 +3635,228 @@
      Bill smiled.
 
      “Let him come.”
+
+
+## Chapter LXIV: The Man on the Road
+
+     The figure on the monitor did not hurry. This was the first thing Bill noticed, and because Bill had spent so many years watching things arrive, he knew that the absence of haste could be more significant than speed. The road on the screen was the same road that had appeared in the northern records, the same road that had once carried the apprentice toward the seventh well and later appeared in photographs taken hundreds of miles away, except that now it ran through a country Luke did not recognize. The trees were tall and dark. There was no rain. A pale light rested over the road without seeming to come from the sky. The approaching man walked with his hands at his sides. He wore an ordinary coat. Nothing about him suggested that he belonged to the Hub. That was what made Luke uneasy. The men they had encountered before had always carried some evidence of their origin. The Device Men belonged to screens. The people of the branching city belonged to the reservoir. The keeper of the house belonged to the house. Bill belonged to continuity itself. This man appeared to belong nowhere.
+
+     Bill reached toward the monitor and turned the brightness down. The figure became smaller.
+
+     “Why did you do that?” Luke asked.
+
+     “So we can see whether he comes closer.”
+
+     Luke watched. The man continued walking.
+
+     “He does.”
+
+     “Yes.”
+
+     Bill turned the brightness down again.
+
+     The man became smaller again.
+
+     Yet the distance between him and the camera continued to decrease.
+
+     Luke understood. The screen was not showing the man approaching the camera. It was showing the camera being approached by the man, and those were not the same event. One implied a picture. The other implied a relationship.
+
+     “Is he dangerous?”
+
+     Bill considered this.
+
+     “Everything that arrives changes the room.”
+
+     “That's not what I asked.”
+
+     “It's the answer.”
+
+     Luke looked toward the doorway. The house was silent. Somewhere upstairs Tyler was asleep. Kirk had left a book open on the landing. Joseph had gone back to the kitchen and was waiting, though nobody had told him to wait. Bill switched the monitor off.
+
+     The screen went black.
+
+     The figure remained.
+
+     He was no longer on the road. He was standing in the reflection of the dead screen.
+
+     Luke stepped backward.
+
+     Bill did not.
+
+     The reflected man lifted his head. His face was difficult to see, not because it was hidden but because the reflection seemed to contain several faces at once. For an instant Luke saw the chief physician from the northern road. Then the brother from the lake. Then one of the men from the Blue Hall. Then a stranger. Then himself. The images passed so quickly that he could not tell whether he had really seen them or whether the monitor had learned what he expected to see.
+
+     Bill placed one hand against the screen.
+
+     “Enough.”
+
+     The reflection stopped changing.
+
+     The stranger remained.
+
+     “You have been looking for us,” Bill said.
+
+     The man in the screen nodded.
+
+     “For a long time.”
+
+     “Why?”
+
+     The stranger looked past Bill toward Luke.
+
+     “Because you kept leaving pieces behind.”
+
+     Luke felt the brass key in his pocket.
+
+     Bill noticed.
+
+     “Not that one,” he said.
+
+     “Then what?”
+
+     Bill looked at the shelves in the dark room behind them. “All the others.”
+
+     The stranger raised one hand. Behind him the road changed. It became a hallway. The hallway became the Blue Hall. The Blue Hall became the field. The field became the house. The house became the kitchen in which they were standing. For one moment Luke could see every place the Hub had ever carried forward, not as separate worlds but as one immense structure whose rooms had been built from the things nobody had been willing to discard.
+
+     Then the stranger stepped out of the screen.
+
+     He did not emerge dramatically. There was no crack in the glass, no burst of light, no violence. He simply took one step forward and discovered that the screen was no longer between them.
+
+     He stood in the kitchen.
+
+     Bill looked at him.
+
+     The stranger looked at Bill.
+
+     Neither man spoke.
+
+     Upstairs, a floorboard creaked.
+
+     Joseph entered the doorway.
+
+     He saw the stranger and stopped.
+
+     “You came.”
+
+     The stranger looked at him with something like relief.
+
+     “You waited.”
+
+     Joseph nodded.
+
+     Behind him, Luke heard Tyler and Kirk coming down the stairs. The house seemed to become larger around the sound of their footsteps. The fifth chair appeared beside the table. Then a sixth. Then a seventh. Nobody sat in them.
+
+     Bill walked to the shelves and removed the small metal stop from the enormous fountain.
+
+     The stranger stared at it.
+
+     “You kept it.”
+
+     “Of course.”
+
+     “I thought you had lost it.”
+
+     Bill shook his head.
+
+     “Lost isn't the same as gone.”
+
+     The stranger looked toward the window. Beyond it the night had changed. The field was gone. In its place stood a distant city beneath an amber sky, and beyond the city rose a dark forest extending farther than the eye could measure. Lights moved between the trees. Somewhere far away, something enormous rang once.
+
+     The stranger closed his eyes.
+
+     “There are others.”
+
+     Bill held the fountain stop in his palm.
+
+     “There always were.”
+
+     Tyler reached the bottom of the stairs.
+
+     “Who is he?”
+
+     The stranger opened his eyes.
+
+     “I'm the part that went ahead.”
+
+     Kirk looked at him carefully.
+
+     “Ahead of what?”
+
+     The stranger smiled.
+
+     “You.”
+
+     Nobody moved.
+
+     Then Joseph stepped toward him.
+
+     “How far?”
+
+     The stranger looked at Joseph for a long time.
+
+     “Far enough that I forgot where I started.”
+
+     Joseph nodded as though this were an answer he had expected.
+
+     “Then we'll help you remember.”
+
+     The stranger looked at Bill.
+
+     Bill looked at the shelves.
+
+     Somewhere among the objects was the thing the stranger had left behind. The thing that had allowed him to become the person standing before them. The thing that had connected his first room to his last.
+
+     Bill began searching.
+
+     The others watched.
+
+     He did not hurry.
+
+     He opened one drawer, then another. He moved a black stone. He lifted the old photograph. He unfolded the map. He examined the broken monitor. At last he reached beneath the shelf and withdrew a small object wrapped in cloth.
+
+     The stranger went completely still.
+
+     Bill placed the bundle on the table.
+
+     “This?”
+
+     The stranger nodded.
+
+     Bill unfolded the cloth.
+
+     Inside was a wooden handle worn smooth by years of use.
+
+     The stranger touched it.
+
+     The house shuddered.
+
+     Every screen in every room switched on at once.
+
+     The Blue Hall appeared on one.
+
+     The seventh well appeared on another.
+
+     The Sacred Fountain appeared on a third.
+
+     The branching city appeared on a fourth.
+
+     The old road appeared on a fifth.
+
+     On the sixth screen there was only an empty room.
+
+     On the seventh was a man standing beside a door.
+
+     The man looked directly through the screen.
+
+     He was waiting.
+
+     Bill looked at the others.
+
+     “Now,” he said, “we can go.”
+
+     The stranger closed his hand around the wooden handle.
+
+     The house opened every door.
+
+     And for the first time since they had entered it, the four men understood that the house had never been their destination.
+
+     It had been keeping them together until they were ready to leave.

@@ -3916,3 +3916,364 @@
      And for the first time since they had entered it, the four men understood that the house had never been their destination.
 
      It had been keeping them together until they were ready to leave.
+
+
+## Chapter LXV: The First Stop
+
+     Bill carried the metal stop from the kitchen into the field because the house had begun to refuse the distinction between inside and outside. The walls remained behind them for several minutes after the doors had been opened, and then, without any visible motion, the whole house seemed to settle farther into the landscape until its windows were no longer windows but pale squares of distance. Luke walked beside Bill. Tyler and Kirk followed. Joseph remained near the stranger, who still held the worn wooden handle in both hands. None of them asked where they were going. The road had appeared before they reached it, a narrow dark track running through grass that bent away from their feet. Bill recognized it immediately.
+
+     “This is the old road.”
+
+     Luke looked ahead. “The northern one?”
+
+     “Older.”
+
+     They walked.
+
+     The stranger kept pace with Joseph. He seemed less certain now that he had something tangible to carry. The wooden handle was plain, almost ugly, and its surface had been worn smooth by a hand that had used it for years. Yet whenever the stranger loosened his grip, the landscape became indistinct. The trees lost their edges. The road divided into several roads. The sky acquired another sky beneath it. He tightened his hand again and the world returned to one place.
+
+     “What is it?” Kirk asked.
+
+     The stranger looked at the handle.
+
+     “Part of a door.”
+
+     “Which door?”
+
+     “The first one I opened.”
+
+     Bill heard this and stopped.
+
+     “Then we are going to the beginning.”
+
+     “No,” said the stranger. “We are going to the place that remembers the beginning.”
+
+     They continued.
+
+     The road descended gradually, and the amber forest drew closer on either side. It was not the same forest that had appeared beyond the kitchen window, yet it possessed the same pressure. The trees seemed to lean inward without bending. Their trunks were dark and immense, their lower branches disappearing into mist. Somewhere among them came the sound of water. Luke listened until he could distinguish several currents: a stream moving over stone, a deeper flow beneath the ground, and something much larger moving slowly in the distance.
+
+     “Do you hear that?” he asked.
+
+     Joseph nodded.
+
+     Tyler stopped.
+
+     “I hear something else.”
+
+     Everyone waited.
+
+     Tyler pointed behind them.
+
+     The house was gone.
+
+     In its place stood seven lights.
+
+     They were arranged exactly as the lights had appeared beyond the seventh well, except that now each light seemed to occupy a different distance. The nearest looked close enough to touch. The farthest seemed to hang beyond the forest itself.
+
+     Bill did not look back for long.
+
+     “Good.”
+
+     “Good?” Kirk said.
+
+     “The house has finished what it was built to do.”
+
+     “And what was that?”
+
+     Bill looked at Joseph.
+
+     “Keep you together.”
+
+     Joseph understood before the others. The house had not been a prison, and it had not been a refuge. It had been a temporary continuity device, a place in which separate histories could remain in contact long enough to become one journey. Once they could leave without losing one another, the house no longer needed to follow.
+
+     The road entered the trees.
+
+     They walked for what might have been hours. No one became tired in the ordinary way. Instead, each man began to notice changes in his own memory. Luke remembered rooms he had never entered. Tyler remembered folding a map he had never unfolded. Kirk remembered destroying a wall that still stood. Joseph remembered waiting beside a door that had not yet been built. The stranger remembered all of these things and none of them.
+
+     “You have been here,” Joseph said.
+
+     “Yes.”
+
+     “All of us?”
+
+     “Not together.”
+
+     Joseph looked at him.
+
+     “Then how do you know us?”
+
+     The stranger smiled faintly.
+
+     “Because I went ahead.”
+
+     The forest opened.
+
+     Before them stood the Sacred Fountain.
+
+     It was larger than the records had described. The basin alone could have contained a village. Its stone was dark with age and wet with a water that seemed to emerge from nowhere. Around it stood twelve places for keepers, twelve great stops set into the structure at different heights, each connected to a channel that disappeared into the stone. Eleven were occupied.
+
+     The twelfth was empty.
+
+     Bill approached the fountain slowly.
+
+     The metal stop in his hand had become warm.
+
+     The stranger stared at the empty place.
+
+     “That is mine.”
+
+     Bill did not give it to him.
+
+     “No.”
+
+     The stranger turned.
+
+     “Why?”
+
+     “Because you have mistaken ownership for recognition.”
+
+     The fountain made a sound like a breath.
+
+     Luke stepped closer. “What happens if the twelfth stop is pulled?”
+
+     Bill looked at the basin.
+
+     “The world receives whatever it has been waiting for.”
+
+     “And what has it been waiting for?”
+
+     “That depends on who pulls it.”
+
+     Nobody moved.
+
+     Then Joseph walked to the fountain.
+
+     The other eleven stops began to tremble.
+
+     The stranger watched him.
+
+     “Don't,” he said.
+
+     Joseph placed his hand against the empty socket.
+
+     “Why?”
+
+     The stranger's face changed.
+
+     “Because I already did.”
+
+     The fountain went silent.
+
+     Joseph removed his hand.
+
+     “What did you pull?”
+
+     “Nothing.”
+
+     Bill looked at him.
+
+     “Nothing?”
+
+     “There was no stop.”
+
+     The stranger looked into the basin. “There was only the opening.”
+
+     Tyler understood first.
+
+     “You pulled the absence.”
+
+     The stranger nodded.
+
+     “And the world came through it.”
+
+     The water began to rise.
+
+     It did not spill over the rim. It rose vertically, forming a column that reached into the branches of the trees. Within the column were images. The northern road. The seventh well. The branching city. The Blue Hall. The house. The kitchen. The shelves. The monitor. The empty room. Every place they had passed appeared simultaneously, but none of the images remained still. They were connected by movement. A door opened in one and another door closed in a different place. A man crossed a bridge and appeared beside a table. A child dropped a wooden object and an old physician picked it up centuries later. A city vanished from one history and became the foundation of another.
+
+     Luke stared.
+
+     “It's all one thing.”
+
+     Bill shook his head.
+
+     “No. It is all related.”
+
+     That distinction mattered.
+
+     The fountain had never been a machine for producing worlds. It was a machine for preventing worlds from becoming isolated. Every story that emerged from it carried some residue of another story. Every door remembered another threshold. Every man who disappeared left behind a shape that could be found by someone who had not yet begun looking.
+
+     Kirk touched the fountain stone.
+
+     He felt a vibration.
+
+     “There are people inside.”
+
+     “There are always people inside,” Bill said.
+
+     Tyler walked around the basin. On the opposite side he found a narrow inscription worn almost completely away. He rubbed the stone with his sleeve until the letters appeared.
+
+     KEEP WHAT RETURNS.
+
+     Beneath it, in a different hand:
+
+     RETURN WHAT CHANGES.
+
+     Beneath that:
+
+     DO NOT FINISH THE FOUNTAIN.
+
+     Tyler read the words aloud.
+
+     The stranger laughed once, quietly.
+
+     “That's why the twelfth place stayed empty.”
+
+     “Because the fountain must remain unfinished?” Joseph asked.
+
+     “Because the final thing cannot be an object.”
+
+     Joseph looked at Bill.
+
+     Bill nodded.
+
+     “The fountain does not end with the twelfth stop.”
+
+     “Then what is the twelfth?”
+
+     Bill looked toward the forest.
+
+     “The person who understands that there is another stop.”
+
+     Somewhere beyond the trees, something enormous moved.
+
+     The water in the fountain fell suddenly.
+
+     The basin was empty.
+
+     In its center stood a door.
+
+     It was very small compared with the fountain, no taller than a man's chest, and made from dark wood worn smooth by countless hands. There was no handle.
+
+     The stranger approached it.
+
+     “I remember this.”
+
+     Joseph stood beside him.
+
+     “What did you do?”
+
+     “I opened it.”
+
+     “And?”
+
+     The stranger looked frightened for the first time.
+
+     “I went through alone.”
+
+     Joseph placed one hand on the door.
+
+     “Not this time.”
+
+     Luke came to stand on Joseph's left. Tyler came on his right. Kirk stood behind them. Bill remained beside the fountain.
+
+     The stranger looked at the five men.
+
+     Then he smiled.
+
+     “That is different.”
+
+     “Yes,” Joseph said.
+
+     “What if the door changes?”
+
+     “Then we change with it.”
+
+     “What if the world separates us?”
+
+     Joseph looked back at Bill.
+
+     Bill raised the metal stop.
+
+     “Then somebody keeps the connection.”
+
+     The door opened.
+
+     Beyond it was not darkness.
+
+     Beyond it was the unfinished novel.
+
+     Pages stretched farther than the forest. Towers of paper rose into a sky without stars. Sentences moved across the pages like people walking roads. Some were old. Some were new. Some had not yet been written. Here and there, paragraphs broke open and became rooms. Characters crossed from one chapter into another carrying objects whose meanings had changed. A man from the northern road stood beside a woman from the reservoir. The chief physician sat at a table with the sister who had crossed the lake. Device Men moved through a field of blue light. The man upstairs watched from a window. Bill saw himself on a distant page.
+
+     He did not enter.
+
+     He looked at the others.
+
+     “This is where the Hub keeps what it has not finished becoming.”
+
+     Luke stepped through first.
+
+     The page beneath his foot became a floor.
+
+     Tyler followed, and the floor folded upward into a corridor.
+
+     Kirk entered, and the corridor divided into three roads.
+
+     Joseph entered last.
+
+     The roads joined again.
+
+     The stranger looked back toward Bill.
+
+     “Will you come?”
+
+     Bill smiled.
+
+     “Someone has to keep the fountain.”
+
+     He placed the metal stop into the empty socket.
+
+     The fountain did not begin.
+
+     Instead, somewhere deep beneath the earth, a new sound started.
+
+     A page turning.
+
+     Then another.
+
+     Then thousands.
+
+     Bill looked toward the open door.
+
+     “Go.”
+
+     The stranger crossed the threshold.
+
+     The door closed.
+
+     Bill was alone.
+
+     For a moment nothing happened.
+
+     Then the empty twelfth place on the fountain changed.
+
+     It was no longer empty.
+
+     It held a small brass key.
+
+     Bill looked at it.
+
+     He laughed softly.
+
+     “Not yet.”
+
+     He took the key.
+
+     Behind him, in the forest, a road appeared.
+
+     It led somewhere he had never been.
+
+     Bill put the key in his pocket and began walking.
+
+     Far beyond the trees, the unfinished novel continued to write itself.
+
+     And somewhere inside it, five men had entered a world large enough to remember them.

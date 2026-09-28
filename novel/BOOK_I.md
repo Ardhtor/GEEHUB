@@ -3624,140 +3624,175 @@
 
 ## Chapter LXIII: Bill
 
-     Bill was not the man who had been waiting upstairs. That distinction mattered because the house had a habit of making every man who entered it seem older than the room, and Bill had never needed the room to make him large. He was already large in the ordinary, physical sense, broad through the shoulders and heavy through the chest, with the kind of presence that made a doorway look like an architectural decision rather than an opening. Yet nothing about him suggested arrival. When Luke first saw him he had the peculiar impression that Bill had been there before the house, before the field, perhaps before the road that led to the field, and had simply allowed the rest of them to catch up. Bill was sitting at the kitchen table with a cup between his hands. The cup was old. The table was older. Neither appeared to belong to the house, but the house had accepted them.
+     Bill had the irritating quality of seeming completely at home wherever he happened to be. It was not confidence, exactly, and it was certainly not the kind of theatrical authority that some men carried into a room as though they had paid for the room themselves. Bill did not need to announce that he belonged somewhere. He simply settled into a place with such absolute physical and conversational ease that the place began to look as though it had been waiting for him. He was broad through the shoulders and heavy through the chest, a large adult man whose size was not treated by him as an event. He moved slowly when there was no reason to move quickly, sat heavily, laughed from somewhere deep in his body, and possessed the peculiar patience of someone who had learned that most things became more intelligible if one allowed them to remain confusing for a while. The kitchen around him had the exhausted appearance of a room that had been used by too many histories. Rain had dried in irregular traces along the windows. The old table had acquired scratches from hands that belonged to different periods of the house. Somewhere behind the walls a pipe clicked at intervals, although there was no plumbing that Bill could identify as belonging to the building. He sat beneath the weak yellow light with a cup in his hands and watched the four men enter as though they were arriving late to a conversation he had been having with himself for years.
 
-     “Bill,” the man upstairs said.
+     “Bill,” said the man who had been waiting upstairs.
 
-     Bill looked up.
+     Bill looked up and gave him a look of mild reproach that was almost affectionate. “You finally brought them.”
 
-     “You finally brought them.”
+     Luke had the immediate sensation that there was something wrong with the sentence, although he could not have said what. It implied that Bill had been expecting them, that the house had not merely gathered them accidentally, and that whatever journey they had thought they were making had been observed from some earlier position by a man who had apparently been sitting at this table long before they knew there was a table. Tyler looked at Kirk. Kirk looked at Joseph. Joseph looked at Bill. Bill noticed all of it and smiled, not broadly but with the private amusement of a man who had seen the same expression on hundreds of faces and had long ago stopped being surprised by it.
 
-     Luke looked toward Joseph. Tyler looked at Kirk. Nobody asked how Bill knew them. The question seemed too small. Bill studied the four men for a moment, not like a guard inspecting strangers but like a carpenter examining a piece of wood whose grain he already understood. Then he nodded toward the empty chairs. There were five now. The fifth had been occupied before by the other man, but when Bill entered the room the chair seemed to remember a different purpose. Bill did not sit in it. He pulled another chair from the wall. There had not been another chair against the wall a moment before.
+     “Don't worry,” Bill said. “You don't have to understand me yet.”
 
-     “The house keeps making room,” Tyler said.
+     “That's reassuring,” Tyler said.
 
-     Bill smiled. “No. You keep becoming harder to contain.”
+     “It wasn't meant to be.”
 
-     Bill had been present at several of the Hub's oldest transitions. He had seen the first rooms acquire second rooms. He had watched the men inside the devices become men who could leave the devices. He had walked the blue halls before the archivists had given them numbers. He had stood beside the seventh well and listened to the water moving beneath the earth. In the records he was rarely named because the records had been written by people who believed history belonged to the event rather than to the person who remained beside it. Bill disagreed. He believed that the person who stayed was part of the event. When a door opened, he wanted to know who had held it open. When a city appeared, he wanted to know who had kept the first lamp burning. When a man returned, Bill wanted to know who had waited for him.
+     Bill laughed. It was a warm laugh, but there was something stubborn inside it, something that suggested he had survived enough absurdity to develop a personal relationship with it. He gestured toward the table and the room seemed to deepen. Chairs appeared where there had previously been empty floor. A fifth chair remained near the far end, carrying the faint impression of someone who had just risen from it. Bill did not acknowledge the chair. Instead he leaned back and regarded the men with the slow attention of somebody examining not their faces but the years behind them. Luke felt, absurdly, that Bill knew which versions of him had already happened and which ones were still approaching. Kirk seemed to have the same sensation. Joseph alone appeared unsurprised, though Bill noticed that too.
 
-     That was why the others eventually understood what Bill had been doing in the house. He had not been guarding it. He had been keeping it continuous.
+     “You've been keeping things,” Joseph said.
 
-     He showed them the back room after dinner. It was narrow and almost completely dark. Along one wall stood shelves containing objects from places they recognized: the brass key from the northern road, a glass vessel from the first laboratory, a black stone, a folded map, an old photograph of the Blue Hall, and a blank sheet of paper that was not blank anymore. There were hundreds of other things they did not recognize. A child's shoe. A broken monitor. A wooden handle. A spoon bent into a circle. A coat button. A piece of red glass. A small metal stop from an enormous fountain.
+     “Everybody keeps things.”
 
-     “Why keep these?” Joseph asked.
+     “Not like this.”
 
-     Bill touched the edge of the shelf.
+     Bill looked toward the hallway. “No. Most people keep things because they're afraid they'll need them. I keep things because somebody else will eventually remember needing them.”
 
-     “Because somebody might come back for them.”
+     There was no ceremony when he took them into the back room. The house simply became quieter as they crossed the threshold. The room was narrow, but its narrowness had accumulated depth. Shelves disappeared into darkness. The air smelled of old wood, rain, dust, metal, and the faint mineral sweetness that always seemed to precede the Serum. Bill did not point out the brass key, the folded map, the black stone, the broken monitor, the blue glass, the old photograph, the wooden handle, or the small metal stop from the Sacred Fountain as though he were presenting exhibits in a museum. He knew better than to separate things from the lives that had brought them there. He moved among them with the familiarity of a man walking through his own memories, sometimes pausing to touch something without explaining why, sometimes smiling at a mark on the wood, sometimes muttering under his breath about a person none of the others had ever heard of. The effect was less like an archive than an enormous household in which every drawer had been opened at some point by somebody who had been loved, feared, forgotten, forgiven, or simply expected to return.
 
-     “Do they?”
+     Joseph stood quietly beside him. “Why keep all of it?”
 
-     “Sometimes.”
+     Bill rested his palm against the shelf. “Because people are terrible at knowing when something is over.”
 
-     Luke picked up the brass key. It was warm.
+     Joseph waited.
 
-     “What does it open?”
+     Bill continued before he could ask.
 
-     Bill looked at him for a long time.
+     “They say gone when they mean changed. They say lost when they mean inaccessible. They say finished when they mean they don't know what happens next. I have always thought that was a very lazy way to talk about existence. You lose a man and then five years later somebody hears his voice in a sentence somebody else says. You lose a house and discover that every house afterward has the same hallway. You lose a marriage and find yourself still arguing with a person who hasn't been in the room for ten years. You lose a road and somebody walks the same distance through a forest without knowing why. Tell me where the lost thing went.”
 
-     “Something you haven't reached yet.”
+     Nobody answered.
 
-     Bill understood the central law of the Hub better than the archivists did. Nothing needed to remain in its original form. It only needed to remain related to what it had been. He did not preserve objects because they were sacred in themselves. He preserved them because a world could lose its shape if it forgot what had connected its earlier rooms to its later ones.
+     “Exactly,” Bill said. “That's why I keep things.”
 
-     Before they left the room, Bill stopped Joseph.
+     He smiled and picked up the wooden handle, turning it slowly in his large hand. The object looked insignificant there. Bill seemed almost fond of its ugliness. “This belonged to a door that doesn't exist anymore. I know people who would call that useless. Those people should not be trusted around history.”
 
-     “You wait,” he said.
+     Kirk smiled.
 
-     Joseph looked at him.
+     Bill saw it. “You laugh, but I'm serious. History is full of people throwing away the only piece that could have told them what a thing used to be. Then they spend the next century arguing about what they think happened. Give me the ugly handle. Give me the broken hinge. Give me the stupid little button. Give me the receipt with somebody's handwriting on it. Give me the thing nobody wants. That's where the continuity hides.”
 
-     “Yes.”
+     He put the handle down and looked toward Luke.
 
-     “Good.” Bill glanced toward Luke, then Tyler, then Kirk. “They move. You wait. That's why the house needs all four of you.”
+     “You especially have a habit of leaving pieces behind.”
 
-     Joseph said nothing.
+     Luke frowned. “What pieces?”
 
-     Bill returned to the kitchen.
+     Bill's expression softened. “You'll know.”
 
-     Later, long after the others had gone upstairs, Luke woke and found Bill sitting alone beneath the blue light of an old monitor. The screen showed an empty road. Bill watched it without touching the keyboard. On the screen, far in the distance, a figure was approaching. Bill leaned forward.
+     He did not explain. Bill rarely explained the thing that mattered most. He would talk for twenty minutes about a door, a road, a cup of coffee, an old machine, or a man who had once fallen asleep beside a well, and then when everyone thought he had finally arrived at the point he would casually move past it. This was not evasiveness. It was the opposite. Bill believed that a person understood something more deeply when he was allowed to encounter it from several directions instead of being handed the answer at the beginning. His mind wandered because the world wandered. His stories accumulated because nothing he remembered had ever remained alone.
+
+     Before they left the room, Bill stopped Joseph with a hand on his shoulder. The gesture was gentle but enormous. Joseph looked up.
+
+     “You wait,” Bill said.
+
+     “For what?”
+
+     Bill looked toward the other three men. Luke was already moving down the hall. Tyler was asking Kirk something. Their voices drifted away and became part of the house.
+
+     “For them.”
+
+     Joseph looked puzzled.
+
+     Bill nodded toward the doorway. “They move. You wait. That's why the house needs all four of you. Don't mistake waiting for doing nothing. Waiting is how you keep a place open.”
+
+     Joseph remained silent.
+
+     Bill gave his shoulder one brief squeeze and let go. “You'll understand later.”
+
+     That night, long after the house had settled into the peculiar silence that preceded one of its changes, Luke woke and found Bill sitting alone beneath the blue light of an old monitor. Bill looked different there. The yellow kitchen light had made him seem domestic, almost comfortable; the monitor gave him a colder outline, and the blue light seemed to find all the places in his face where memory had accumulated. The screen showed a road disappearing through dark trees. A figure was walking toward the camera. Bill was not frightened. He was watching with the absorbed concentration of somebody who had been expecting a letter for a very long time.
 
      “Who is that?” Luke asked.
 
-     Bill did not turn.
+     Bill did not turn. “Someone who has been looking for us.”
 
-     “Someone who has been looking for us.”
+     “Do you know him?”
 
-     The figure on the screen became larger.
+     “Not yet.”
+
+     “That's not what it looks like.”
 
      Bill smiled.
 
-     “Let him come.”
+     “That's because you're looking at the screen.”
 
+     Luke came closer. The figure continued walking.
 
-## Chapter LXIV: The Man on the Road
+     Bill reached forward and lowered the brightness.
 
-     The figure on the monitor did not hurry. This was the first thing Bill noticed, and because Bill had spent so many years watching things arrive, he knew that the absence of haste could be more significant than speed. The road on the screen was the same road that had appeared in the northern records, the same road that had once carried the apprentice toward the seventh well and later appeared in photographs taken hundreds of miles away, except that now it ran through a country Luke did not recognize. The trees were tall and dark. There was no rain. A pale light rested over the road without seeming to come from the sky. The approaching man walked with his hands at his sides. He wore an ordinary coat. Nothing about him suggested that he belonged to the Hub. That was what made Luke uneasy. The men they had encountered before had always carried some evidence of their origin. The Device Men belonged to screens. The people of the branching city belonged to the reservoir. The keeper of the house belonged to the house. Bill belonged to continuity itself. This man appeared to belong nowhere.
-
-     Bill reached toward the monitor and turned the brightness down. The figure became smaller.
-
-     “Why did you do that?” Luke asked.
+     “Why?”
 
      “So we can see whether he comes closer.”
 
-     Luke watched. The man continued walking.
+     The figure became smaller, but the distance between him and the camera continued to close.
 
-     “He does.”
+     Luke understood what Bill was doing and laughed once despite himself.
+
+     “That's ridiculous.”
+
+     “Most useful things are.”
+
+     Bill lowered the brightness again. The stranger grew smaller. Still he approached.
+
+     “He's coming.”
 
      “Yes.”
 
-     Bill turned the brightness down again.
+     “You aren't worried.”
 
-     The man became smaller again.
+     Bill finally turned toward Luke. His face had become very serious.
 
-     Yet the distance between him and the camera continued to decrease.
+     “Luke, I've spent my whole life watching things come back. You think this is the part where I get worried?”
 
-     Luke understood. The screen was not showing the man approaching the camera. It was showing the camera being approached by the man, and those were not the same event. One implied a picture. The other implied a relationship.
+     He looked at the screen again.
 
-     “Is he dangerous?”
+     “No. This is the part where I make room.”
 
-     Bill considered this.
+## Chapter LXIV: The Man on the Road
 
-     “Everything that arrives changes the room.”
+     The figure continued approaching long after the monitor had been turned nearly dark. Bill had reduced the brightness until the screen showed little more than a faint gray road beneath a deeper gray sky, yet the man remained visible, not as a clear body but as a persistence of movement. Luke could no longer see his coat or his face. He could only see that somebody was coming. Bill seemed to prefer it that way. He sat with one hand resting on the edge of the monitor and watched the diminishing image with the patience of a man listening to somebody tell a story badly but waiting because the story might eventually become important. The room smelled of dust and warm electronics. Rain tapped against the windows in a pattern so irregular that it seemed almost conversational. Somewhere upstairs Kirk turned in his sleep. Joseph's footsteps passed once along the hall and then stopped. Bill noticed every sound without acknowledging any of them. He had the strange ability to make attention feel like an environment rather than an activity.
 
-     “That's not what I asked.”
+     “Why don't you turn it back up?” Luke asked.
 
-     “It's the answer.”
+     “Because I want to know whether the man is coming toward us or whether the picture merely wants us to believe he is.”
 
-     Luke looked toward the doorway. The house was silent. Somewhere upstairs Tyler was asleep. Kirk had left a book open on the landing. Joseph had gone back to the kitchen and was waiting, though nobody had told him to wait. Bill switched the monitor off.
+     “What's the difference?”
 
-     The screen went black.
+     “Everything.”
 
-     The figure remained.
+     Luke waited.
 
-     He was no longer on the road. He was standing in the reflection of the dead screen.
+     Bill smiled without looking at him. “You see a road and you assume somebody is walking along it. That's how ordinary life works. But this isn't ordinary life, and the Hub has never been particularly respectful of assumptions. Sometimes a road is a memory of a road. Sometimes a man is the consequence of somebody remembering him. Sometimes the camera is the thing that moves. Sometimes the person watching becomes the destination without realizing it.”
 
-     Luke stepped backward.
+     “And sometimes?”
 
-     Bill did not.
+     “Sometimes Bill is tired and wants to watch a man walk down a road without having to explain the road.”
 
-     The reflected man lifted his head. His face was difficult to see, not because it was hidden but because the reflection seemed to contain several faces at once. For an instant Luke saw the chief physician from the northern road. Then the brother from the lake. Then one of the men from the Blue Hall. Then a stranger. Then himself. The images passed so quickly that he could not tell whether he had really seen them or whether the monitor had learned what he expected to see.
+     Luke laughed.
 
-     Bill placed one hand against the screen.
+     “There he is,” Bill said. “That's better.”
+
+     The screen darkened again. The figure remained.
+
+     Then the road disappeared.
+
+     The man did not.
+
+     He was standing in the reflection of the monitor.
+
+     Luke stepped backward. Bill remained exactly where he was, his broad shoulders square to the dead screen, his expression no longer amused. The reflection seemed to contain several faces at once. The chief physician appeared for an instant, then the brother from the lake, then a stranger, then Luke himself, each face dissolving into another before the eye could decide which one had actually been present. Bill placed his palm against the glass.
 
      “Enough.”
 
-     The reflection stopped changing.
+     The faces stopped.
 
-     The stranger remained.
+     A single man remained.
 
-     “You have been looking for us,” Bill said.
-
-     The man in the screen nodded.
+     “You've been looking for us,” Bill said.
 
      “For a long time.”
 
      “Why?”
 
-     The stranger looked past Bill toward Luke.
+     The stranger looked past him toward Luke.
 
      “Because you kept leaving pieces behind.”
 
@@ -3765,356 +3800,271 @@
 
      Bill noticed.
 
-     “Not that one,” he said.
+     “Not that one.”
 
      “Then what?”
 
-     Bill looked at the shelves in the dark room behind them. “All the others.”
+     Bill looked toward the dark shelves behind them. His expression became almost weary, though not with the stranger. It was the weariness of somebody watching a very old mistake repeat itself.
 
-     The stranger raised one hand. Behind him the road changed. It became a hallway. The hallway became the Blue Hall. The Blue Hall became the field. The field became the house. The house became the kitchen in which they were standing. For one moment Luke could see every place the Hub had ever carried forward, not as separate worlds but as one immense structure whose rooms had been built from the things nobody had been willing to discard.
+     “All the others.”
 
-     Then the stranger stepped out of the screen.
+     The stranger lifted his hand. The reflected road changed. It became a hallway, then the Blue Hall, then the field, then the house, then the kitchen in which they stood. The transformations did not happen like images on a screen. They happened like memory, each place arriving with the pressure of having been somewhere before. Luke saw the northern road beneath the kitchen floor. He saw the seventh well beneath the northern road. He saw the reservoir beneath the seventh well. He saw the branching city reflected in the reservoir and the house standing somewhere inside the city, already waiting for them. For one impossible moment all of the places existed together, not as separate worlds but as a single immense geography whose boundaries had been made porous by everything the men had carried forward.
 
-     He did not emerge dramatically. There was no crack in the glass, no burst of light, no violence. He simply took one step forward and discovered that the screen was no longer between them.
+     The stranger stepped through.
 
-     He stood in the kitchen.
+     There was no spectacle to his arrival. The glass did not break. The screen did not flash. He simply crossed a boundary that had apparently ceased to exist and stood in the kitchen, wet from a rain that had never fallen there. Bill looked at him for a long time.
 
-     Bill looked at him.
+     “You're late,” Bill said.
 
-     The stranger looked at Bill.
+     The stranger smiled faintly. “I was ahead.”
 
-     Neither man spoke.
+     Joseph entered from the hallway.
 
-     Upstairs, a floorboard creaked.
-
-     Joseph entered the doorway.
-
-     He saw the stranger and stopped.
+     He stopped when he saw the man.
 
      “You came.”
-
-     The stranger looked at him with something like relief.
 
      “You waited.”
 
      Joseph nodded.
 
-     Behind him, Luke heard Tyler and Kirk coming down the stairs. The house seemed to become larger around the sound of their footsteps. The fifth chair appeared beside the table. Then a sixth. Then a seventh. Nobody sat in them.
+     Bill watched the exchange without interrupting. Something about it pleased him, although he did not smile. Behind Joseph, Luke heard Tyler and Kirk descending the stairs. The house seemed to respond to their footsteps. The room lengthened. The ceiling rose. Chairs appeared around the table, first five, then six, then seven, as though the house had been quietly rehearsing the possibility of a much larger gathering.
 
-     Bill walked to the shelves and removed the small metal stop from the enormous fountain.
+     Bill went into the back room.
 
-     The stranger stared at it.
+     “What are you doing?” Luke asked.
+
+     “Making sure we haven't forgotten anything.”
+
+     He returned carrying the small metal stop from the Sacred Fountain. The stranger stared at it with an expression that was almost grief.
 
      “You kept it.”
 
      “Of course.”
 
-     “I thought you had lost it.”
+     “I thought it was gone.”
 
-     Bill shook his head.
+     Bill's answer came quietly.
 
      “Lost isn't the same as gone.”
 
-     The stranger looked toward the window. Beyond it the night had changed. The field was gone. In its place stood a distant city beneath an amber sky, and beyond the city rose a dark forest extending farther than the eye could measure. Lights moved between the trees. Somewhere far away, something enormous rang once.
+     The stranger touched the metal stop. The house shuddered. Every screen came alive. The Blue Hall appeared on one. The seventh well on another. The northern road on a third. The branching city on a fourth. The Sacred Fountain appeared on a fifth, enormous and dark beneath an amber sky. On the sixth was an empty room. On the seventh stood a man beside a door.
 
-     The stranger closed his eyes.
+     Nobody spoke.
 
-     “There are others.”
+     Bill watched the seventh screen.
 
-     Bill held the fountain stop in his palm.
+     “There,” he said.
+
+     The stranger turned.
+
+     “What?”
+
+     “The part you left ahead.”
+
+     The man on the screen looked directly at them.
+
+     He was difficult to see clearly. His outline seemed familiar without belonging to any single person. His face changed slightly whenever the screen flickered. Yet the feeling of recognition remained.
+
+     “There are others,” the stranger said.
+
+     Bill nodded.
 
      “There always were.”
 
-     Tyler reached the bottom of the stairs.
+     The stranger looked down.
 
-     “Who is he?”
+     “I don't remember them.”
 
-     The stranger opened his eyes.
+     “That's why I kept the things.”
 
-     “I'm the part that went ahead.”
+     Bill began searching through the shelves. He did not rush. He moved with the methodical patience of a man who had spent years refusing to let the world hurry him into throwing something away. He lifted the photograph. He unfolded the map. He ran his fingers across the black stone. He opened a drawer containing letters nobody had read. He found a broken monitor and set it aside. At last his hand disappeared behind a row of old boxes and returned holding a small bundle wrapped in faded cloth.
 
-     Kirk looked at him carefully.
+     The stranger stopped breathing.
 
-     “Ahead of what?”
-
-     The stranger smiled.
-
-     “You.”
-
-     Nobody moved.
-
-     Then Joseph stepped toward him.
-
-     “How far?”
-
-     The stranger looked at Joseph for a long time.
-
-     “Far enough that I forgot where I started.”
-
-     Joseph nodded as though this were an answer he had expected.
-
-     “Then we'll help you remember.”
-
-     The stranger looked at Bill.
-
-     Bill looked at the shelves.
-
-     Somewhere among the objects was the thing the stranger had left behind. The thing that had allowed him to become the person standing before them. The thing that had connected his first room to his last.
-
-     Bill began searching.
-
-     The others watched.
-
-     He did not hurry.
-
-     He opened one drawer, then another. He moved a black stone. He lifted the old photograph. He unfolded the map. He examined the broken monitor. At last he reached beneath the shelf and withdrew a small object wrapped in cloth.
-
-     The stranger went completely still.
-
-     Bill placed the bundle on the table.
+     Bill noticed.
 
      “This?”
 
      The stranger nodded.
 
-     Bill unfolded the cloth.
+     Bill placed the bundle on the table and unfolded the cloth. Inside was a wooden handle, worn smooth by use, darkened where hands had gripped it over years that no longer belonged to a single calendar. The stranger touched it.
 
-     Inside was a wooden handle worn smooth by years of use.
+     The entire house seemed to remember him.
 
-     The stranger touched it.
+     Luke saw the man beside a door. Tyler saw a road under snow. Kirk saw the Sacred Fountain before its first stop had been installed. Joseph saw a room in which he was waiting alone. Bill saw something else. He saw a younger version of the stranger carrying the handle through a house that had not yet learned how to become large.
 
-     The house shuddered.
+     “You left it there,” Bill said.
 
-     Every screen in every room switched on at once.
+     The stranger looked at him.
 
-     The Blue Hall appeared on one.
+     “I know.”
 
-     The seventh well appeared on another.
+     “No. You remember.”
 
-     The Sacred Fountain appeared on a third.
+     The man closed his hand around the handle.
 
-     The branching city appeared on a fourth.
+     “What is the difference?”
 
-     The old road appeared on a fifth.
+     Bill smiled.
 
-     On the sixth screen there was only an empty room.
-
-     On the seventh was a man standing beside a door.
-
-     The man looked directly through the screen.
-
-     He was waiting.
-
-     Bill looked at the others.
-
-     “Now,” he said, “we can go.”
-
-     The stranger closed his hand around the wooden handle.
+     “The difference is that remembering gives it back to you.”
 
      The house opened every door.
 
-     And for the first time since they had entered it, the four men understood that the house had never been their destination.
+     The doors did not lead to rooms. They led to all the places the house had become while they were inside it. The road appeared beyond one threshold. The Blue Hall beyond another. A dark forest beyond a third. The reservoir beyond a fourth. The Sacred Fountain beyond a fifth. The unfinished novel beyond the sixth.
 
-     It had been keeping them together until they were ready to leave.
+     Joseph stood beside the stranger.
 
+     “We go together.”
+
+     The stranger looked at him.
+
+     “What if I can't find my way back?”
+
+     “Then we keep going until you do.”
+
+     Bill watched them.
+
+     “That's the point,” he said.
+
+     Kirk glanced at him. “The point of what?”
+
+     Bill looked around the room, at the men, the doors, the shelves, the accumulated remains of journeys that had refused to disappear.
+
+     “The house.”
+
+     He paused.
+
+     “It was never keeping you here.”
+
+     The others waited.
+
+     Bill smiled.
+
+     “It was keeping you together.”
+
+     Then he opened the door to the old road.
 
 ## Chapter LXV: The First Stop
 
-     Bill carried the metal stop from the kitchen into the field because the house had begun to refuse the distinction between inside and outside. The walls remained behind them for several minutes after the doors had been opened, and then, without any visible motion, the whole house seemed to settle farther into the landscape until its windows were no longer windows but pale squares of distance. Luke walked beside Bill. Tyler and Kirk followed. Joseph remained near the stranger, who still held the worn wooden handle in both hands. None of them asked where they were going. The road had appeared before they reached it, a narrow dark track running through grass that bent away from their feet. Bill recognized it immediately.
+     They left the house without ceremony, carrying with them the strange quiet that follows a place after one has understood its purpose. The building remained behind them for a while, visible through the trees as a collection of windows and rooflines that seemed almost domestic from a distance, but the farther they walked the less certain its shape became. It did not collapse. It did not disappear. It simply withdrew into the landscape, as though satisfied that its work had been completed. Bill carried the metal stop in one hand. The stranger carried the wooden handle. Joseph walked beside him. Luke, Tyler, and Kirk followed close enough that no one could mistake them for separate parties. The road beneath their feet was dark and wet, though no rain fell. Grass leaned toward it from both sides. The forest ahead had the amber-brown depth of old wood, and somewhere beneath the roots water moved with a sound so deep that it seemed to belong to the earth rather than to any visible stream.
 
-     “This is the old road.”
+     “This is the old road,” Bill said.
 
-     Luke looked ahead. “The northern one?”
+     Luke looked ahead. “The northern road?”
 
-     “Older.”
+     “Older than that.”
 
-     They walked.
+     They continued, and the stranger gradually began to understand that the road was responding to the wooden handle. Whenever his grip loosened, the trees lost their edges and the distance divided into several possible directions. Whenever he tightened his hand, the road became singular again. Joseph noticed this and said nothing. He understood that the stranger was learning how to carry himself back into the world. After a long time the stranger spoke.
 
-     The stranger kept pace with Joseph. He seemed less certain now that he had something tangible to carry. The wooden handle was plain, almost ugly, and its surface had been worn smooth by a hand that had used it for years. Yet whenever the stranger loosened his grip, the landscape became indistinct. The trees lost their edges. The road divided into several roads. The sky acquired another sky beneath it. He tightened his hand again and the world returned to one place.
+     “I thought I had lost this.”
 
-     “What is it?” Kirk asked.
+     Bill looked at the handle. “You did.”
 
-     The stranger looked at the handle.
+     “Then how did you have it?”
 
-     “Part of a door.”
+     “That's what keeping means.”
 
-     “Which door?”
+     The stranger frowned.
 
-     “The first one I opened.”
+     Bill laughed softly. “You keep thinking keeping means ownership. It doesn't. Keeping means refusing to let something become unrelated to itself. I didn't own your door. I didn't even know whether you'd come back. I only knew that if the handle remained here, there would still be a road between the person who left and the person who returned.”
 
-     Bill heard this and stopped.
+     Joseph looked at Bill.
 
-     “Then we are going to the beginning.”
-
-     “No,” said the stranger. “We are going to the place that remembers the beginning.”
-
-     They continued.
-
-     The road descended gradually, and the amber forest drew closer on either side. It was not the same forest that had appeared beyond the kitchen window, yet it possessed the same pressure. The trees seemed to lean inward without bending. Their trunks were dark and immense, their lower branches disappearing into mist. Somewhere among them came the sound of water. Luke listened until he could distinguish several currents: a stream moving over stone, a deeper flow beneath the ground, and something much larger moving slowly in the distance.
-
-     “Do you hear that?” he asked.
-
-     Joseph nodded.
-
-     Tyler stopped.
-
-     “I hear something else.”
-
-     Everyone waited.
-
-     Tyler pointed behind them.
-
-     The house was gone.
-
-     In its place stood seven lights.
-
-     They were arranged exactly as the lights had appeared beyond the seventh well, except that now each light seemed to occupy a different distance. The nearest looked close enough to touch. The farthest seemed to hang beyond the forest itself.
-
-     Bill did not look back for long.
-
-     “Good.”
-
-     “Good?” Kirk said.
-
-     “The house has finished what it was built to do.”
-
-     “And what was that?”
-
-     Bill looked at Joseph.
-
-     “Keep you together.”
-
-     Joseph understood before the others. The house had not been a prison, and it had not been a refuge. It had been a temporary continuity device, a place in which separate histories could remain in contact long enough to become one journey. Once they could leave without losing one another, the house no longer needed to follow.
-
-     The road entered the trees.
-
-     They walked for what might have been hours. No one became tired in the ordinary way. Instead, each man began to notice changes in his own memory. Luke remembered rooms he had never entered. Tyler remembered folding a map he had never unfolded. Kirk remembered destroying a wall that still stood. Joseph remembered waiting beside a door that had not yet been built. The stranger remembered all of these things and none of them.
-
-     “You have been here,” Joseph said.
-
-     “Yes.”
-
-     “All of us?”
-
-     “Not together.”
-
-     Joseph looked at him.
-
-     “Then how do you know us?”
-
-     The stranger smiled faintly.
-
-     “Because I went ahead.”
-
-     The forest opened.
-
-     Before them stood the Sacred Fountain.
-
-     It was larger than the records had described. The basin alone could have contained a village. Its stone was dark with age and wet with a water that seemed to emerge from nowhere. Around it stood twelve places for keepers, twelve great stops set into the structure at different heights, each connected to a channel that disappeared into the stone. Eleven were occupied.
-
-     The twelfth was empty.
-
-     Bill approached the fountain slowly.
-
-     The metal stop in his hand had become warm.
-
-     The stranger stared at the empty place.
-
-     “That is mine.”
-
-     Bill did not give it to him.
+     “You knew he'd return?”
 
      “No.”
 
-     The stranger turned.
+     “Then why?”
 
-     “Why?”
+     Bill shrugged. “Because somebody always does.”
 
-     “Because you have mistaken ownership for recognition.”
+     The forest opened before them.
 
-     The fountain made a sound like a breath.
+     The Sacred Fountain stood in the clearing.
 
-     Luke stepped closer. “What happens if the twelfth stop is pulled?”
+     It was larger than any account had made it. Its basin seemed to have been carved from a single mass of dark stone, and its water did not merely occupy the basin but appeared to rise from below the world itself. Twelve great positions surrounded it, each connected by channels worn into the stone. Eleven contained metal stops. The twelfth was empty.
 
-     Bill looked at the basin.
+     The stranger stopped.
 
-     “The world receives whatever it has been waiting for.”
-
-     “And what has it been waiting for?”
-
-     “That depends on who pulls it.”
-
-     Nobody moved.
-
-     Then Joseph walked to the fountain.
-
-     The other eleven stops began to tremble.
-
-     The stranger watched him.
-
-     “Don't,” he said.
-
-     Joseph placed his hand against the empty socket.
-
-     “Why?”
-
-     The stranger's face changed.
-
-     “Because I already did.”
-
-     The fountain went silent.
-
-     Joseph removed his hand.
-
-     “What did you pull?”
-
-     “Nothing.”
+     “That one.”
 
      Bill looked at him.
 
-     “Nothing?”
+     “Yes.”
 
-     “There was no stop.”
+     “That's where I left it.”
 
-     The stranger looked into the basin. “There was only the opening.”
+     “No,” Bill said. “That's where you left the absence.”
 
-     Tyler understood first.
+     The words altered the clearing. Even the trees seemed to draw back from them.
 
-     “You pulled the absence.”
+     The stranger approached the fountain. “I pulled it.”
 
-     The stranger nodded.
+     “What?”
 
-     “And the world came through it.”
+     “The stop.”
 
-     The water began to rise.
+     Bill watched him carefully.
 
-     It did not spill over the rim. It rose vertically, forming a column that reached into the branches of the trees. Within the column were images. The northern road. The seventh well. The branching city. The Blue Hall. The house. The kitchen. The shelves. The monitor. The empty room. Every place they had passed appeared simultaneously, but none of the images remained still. They were connected by movement. A door opened in one and another door closed in a different place. A man crossed a bridge and appeared beside a table. A child dropped a wooden object and an old physician picked it up centuries later. A city vanished from one history and became the foundation of another.
+     “There was no stop,” the stranger said. “Only the opening.”
 
-     Luke stared.
+     Joseph came nearer.
 
-     “It's all one thing.”
+     “What happened?”
+
+     “Everything came through.”
+
+     The fountain became completely silent.
+
+     Then the water rose.
+
+     It did not spill. It climbed in a vertical column, clear at first and then filled with images: the northern road under rain, the seventh well and its impossible staircase, the branching city beneath the reservoir, the Blue Hall, the house, the kitchen, Bill's shelves, the dead monitor, the wooden handle, the men walking through the forest. The images were not memories in the ordinary sense. They were relationships made visible. A road led into a room. A room opened into a city. A city remembered a man. A man remembered a door. A door remembered a hand. A hand remembered another hand. The whole accumulated world seemed to be telling the same story in different forms.
+
+     “It's all connected,” Luke said.
 
      Bill shook his head.
 
-     “No. It is all related.”
+     “No.”
 
-     That distinction mattered.
+     Luke looked at him.
 
-     The fountain had never been a machine for producing worlds. It was a machine for preventing worlds from becoming isolated. Every story that emerged from it carried some residue of another story. Every door remembered another threshold. Every man who disappeared left behind a shape that could be found by someone who had not yet begun looking.
+     “It's all related. Connection sounds too clean. Relation can survive damage.”
 
-     Kirk touched the fountain stone.
+     The distinction settled over them.
 
-     He felt a vibration.
+     Kirk walked slowly around the basin. “Why twelve?”
 
-     “There are people inside.”
+     Bill smiled.
 
-     “There are always people inside,” Bill said.
+     “Because eleven looked finished.”
 
-     Tyler walked around the basin. On the opposite side he found a narrow inscription worn almost completely away. He rubbed the stone with his sleeve until the letters appeared.
+     Tyler laughed.
+
+     “That's the most Bill answer you've ever given.”
+
+     “I've given better.”
+
+     “I'm sure you have.”
+
+     “I once spent three hours explaining to a man why a missing sock was more important than a complete pair.”
+
+     “Was it?”
+
+     Bill looked offended. “Of course it was. The complete pair told you nothing. The missing sock told you somebody had been somewhere.”
+
+     Even Joseph laughed.
+
+     Bill's expression softened. For a moment the immense strangeness of the fountain, the forest, the accumulated worlds, and the unfinished histories seemed to recede, leaving only the five men standing around a piece of impossible machinery while a large, tired man argued for the importance of a sock nobody had ever seen.
+
+     Then Tyler found the inscription.
+
+     He brushed his hand across the stone until the worn letters emerged.
 
      KEEP WHAT RETURNS.
 
-     Beneath it, in a different hand:
+     Beneath it:
 
      RETURN WHAT CHANGES.
 
@@ -4122,158 +4072,165 @@
 
      DO NOT FINISH THE FOUNTAIN.
 
-     Tyler read the words aloud.
+     Joseph read the words aloud.
 
-     The stranger laughed once, quietly.
+     “Don't finish it.”
 
-     “That's why the twelfth place stayed empty.”
+     “No,” Bill said.
 
-     “Because the fountain must remain unfinished?” Joseph asked.
+     “Why?”
 
-     “Because the final thing cannot be an object.”
+     Bill looked at the empty twelfth position.
 
-     Joseph looked at Bill.
-
-     Bill nodded.
-
-     “The fountain does not end with the twelfth stop.”
-
-     “Then what is the twelfth?”
-
-     Bill looked toward the forest.
-
-     “The person who understands that there is another stop.”
-
-     Somewhere beyond the trees, something enormous moved.
-
-     The water in the fountain fell suddenly.
-
-     The basin was empty.
-
-     In its center stood a door.
-
-     It was very small compared with the fountain, no taller than a man's chest, and made from dark wood worn smooth by countless hands. There was no handle.
-
-     The stranger approached it.
-
-     “I remember this.”
-
-     Joseph stood beside him.
-
-     “What did you do?”
-
-     “I opened it.”
+     “Because the final thing would have to be the end.”
 
      “And?”
 
-     The stranger looked frightened for the first time.
+     “And nothing here has earned the right to end.”
 
-     “I went through alone.”
+     The water fell.
 
-     Joseph placed one hand on the door.
+     The basin emptied.
 
-     “Not this time.”
+     A small door stood in the center of the stone.
 
-     Luke came to stand on Joseph's left. Tyler came on his right. Kirk stood behind them. Bill remained beside the fountain.
+     The stranger approached it with visible fear.
 
-     The stranger looked at the five men.
+     “I know this.”
 
-     Then he smiled.
+     Joseph stood beside him.
 
-     “That is different.”
+     “You opened it before.”
 
-     “Yes,” Joseph said.
+     “Yes.”
 
-     “What if the door changes?”
+     “Where did it lead?”
 
-     “Then we change with it.”
+     “Into the unfinished novel.”
 
-     “What if the world separates us?”
+     Luke looked at Bill.
 
-     Joseph looked back at Bill.
-
-     Bill raised the metal stop.
-
-     “Then somebody keeps the connection.”
-
-     The door opened.
-
-     Beyond it was not darkness.
-
-     Beyond it was the unfinished novel.
-
-     Pages stretched farther than the forest. Towers of paper rose into a sky without stars. Sentences moved across the pages like people walking roads. Some were old. Some were new. Some had not yet been written. Here and there, paragraphs broke open and became rooms. Characters crossed from one chapter into another carrying objects whose meanings had changed. A man from the northern road stood beside a woman from the reservoir. The chief physician sat at a table with the sister who had crossed the lake. Device Men moved through a field of blue light. The man upstairs watched from a window. Bill saw himself on a distant page.
-
-     He did not enter.
-
-     He looked at the others.
-
-     “This is where the Hub keeps what it has not finished becoming.”
-
-     Luke stepped through first.
-
-     The page beneath his foot became a floor.
-
-     Tyler followed, and the floor folded upward into a corridor.
-
-     Kirk entered, and the corridor divided into three roads.
-
-     Joseph entered last.
-
-     The roads joined again.
-
-     The stranger looked back toward Bill.
-
-     “Will you come?”
+     “There is a novel inside the fountain?”
 
      Bill smiled.
 
-     “Someone has to keep the fountain.”
+     “There's a novel everywhere.”
+
+     He touched the stone.
+
+     “The fountain is only where the unfinished parts gather.”
+
+     The stranger looked at Joseph.
+
+     “I went through alone.”
+
+     Joseph placed his hand on the door.
+
+     “Not this time.”
+
+     Kirk stepped forward.
+
+     “Neither this time.”
+
+     Tyler joined them.
+
+     Luke followed.
+
+     Bill remained beside the fountain, watching.
+
+     The stranger looked at all of them and seemed, for the first time, unable to find an objection.
+
+     “What if it changes?”
+
+     Joseph answered quietly.
+
+     “Then we change with it.”
+
+     “What if it separates us?”
+
+     Bill raised the metal stop.
+
+     “Then I keep the connection.”
+
+     The door opened.
+
+     Beyond it was a world made of writing. Pages extended through immense darkness, but the darkness was not empty. Sentences crossed it like roads. Paragraphs rose into architecture. A phrase repeated enough times became a corridor. A memory became a room. A character stepped out of one chapter and walked into another carrying a consequence from the first. The northern road existed there. The reservoir existed there. The Blue Hall existed there. The house existed there. The men could see themselves at different ages moving through different versions of the same story, sometimes together, sometimes separated, sometimes making choices that had never reached the world outside.
+
+     Bill stood at the threshold.
+
+     The stranger turned toward him.
+
+     “You're not coming?”
+
+     Bill looked back at the fountain.
+
+     “Someone has to stay.”
+
+     “Why?”
+
+     Bill smiled.
+
+     “Because leaving is easy.”
 
      He placed the metal stop into the empty socket.
 
-     The fountain did not begin.
+     The fountain did not activate.
 
-     Instead, somewhere deep beneath the earth, a new sound started.
+     Instead, the forest became very quiet.
 
-     A page turning.
+     Somewhere far beneath the stone came the sound of a page turning.
 
      Then another.
 
      Then thousands.
 
-     Bill looked toward the open door.
+     Bill listened.
+
+     “There,” he said.
+
+     “What?”
+
+     “The world continuing.”
+
+     Joseph looked at him.
+
+     Bill nodded toward the open door.
 
      “Go.”
 
-     The stranger crossed the threshold.
+     One by one they entered.
+
+     Luke crossed first, followed by Tyler, Kirk, Joseph, and finally the stranger carrying the wooden handle. The road beneath them changed with every step, but they remained together. Joseph reached back once and took Kirk's hand as the floor became a bridge, and the gesture was so ordinary that Bill almost laughed. Of all the impossible things the Hub had produced, it was the ordinary gestures that seemed to him the most durable.
 
      The door closed.
 
-     Bill was alone.
+     Bill remained alone beside the fountain.
 
-     For a moment nothing happened.
+     He did not feel abandoned. He had spent too long understanding the difference between absence and departure to confuse the two.
 
-     Then the empty twelfth place on the fountain changed.
+     He looked down at the metal stop.
 
-     It was no longer empty.
+     The twelfth place had changed.
 
-     It held a small brass key.
+     Something small and brass now rested inside it.
 
-     Bill looked at it.
+     A key.
 
-     He laughed softly.
+     Bill stared at it for a long moment.
+
+     Then he laughed.
 
      “Not yet.”
 
      He took the key.
 
-     Behind him, in the forest, a road appeared.
+     Behind him, through the amber trees, a road appeared where there had been no road before. Bill looked toward it. He seemed tired, but he also seemed pleased, as though the world had finally offered him a question he had not already heard.
 
-     It led somewhere he had never been.
+     He put the key in his pocket and began walking.
 
-     Bill put the key in his pocket and began walking.
+     The forest received him.
 
-     Far beyond the trees, the unfinished novel continued to write itself.
+     Far beyond it, the unfinished novel continued to grow.
 
-     And somewhere inside it, five men had entered a world large enough to remember them.
+     And because Bill had kept the connection, what happened next did not have to begin from nothing.
+

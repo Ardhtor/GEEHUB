@@ -465,33 +465,163 @@
 
      Nobody closed the file.
 
-## Chapter IX: The Second City
+## Chapter IX: The Country Between
 
-     The screen displayed the northern lake. The lake was larger than before. Across it stood the city. The sister was still there. So was her brother. But there was another city behind them. And another. The seven halls of the Blue Hall had crossed into the lake. The device-men appeared first as distant shapes on the bridges. Then as residents in towers. Then as figures walking along the water. They had carried with them the domestic habits of the House of Open Screens. Chairs appeared on balconies. Tables appeared in abandoned laboratories. Televisions glowed in rooms that had not existed before the Serum Accident. The world was acquiring electricity centuries early and mythology centuries late. The men did not seem surprised. They had been waiting for somewhere to live. The sister looked across the water.
+     They walked for three days before the road admitted that it had been leading somewhere. On the first morning there was only the amber forest, wet from night rain and so broad that the four men could not see its beginning or its end. On the second day the trees thinned and the ground rose gently beneath them, revealing distant country in layers: one ridge behind another, then valleys full of mist, then a blue range that seemed close enough to touch until they had spent half a day climbing toward it. On the third day the road crossed a plain so immense that Luke stopped and laughed because the sight of it made every map he had ever trusted seem like a joke.
 
-     “Which city is real?”
+     “Yo,” he said, looking across the grass. “We really walking all that?”
 
-     Her brother answered.
+     Tyler shaded his eyes. “Looks like.”
 
-     “All of them.”
+     “That's stupid.”
 
-     “No.”
+     Kirk laughed behind them.
 
-     He looked toward the towers.
+     Joseph did not. He was looking toward the far edge of the plain where a line of dark trees marked the beginning of another country.
 
-     “Then whichever one remains after you stop looking at the others.”
+     “It keeps going,” he said.
 
-     The Voice intervened.
+     “Yeah,” Luke answered. “That's usually what land does.”
 
-     “Keep them all.”
+     They started again.
 
-     The city expanded. Seven towers became seventeen. Seventeen became forty-three. Bridges multiplied. Canals opened. The lake accepted streets. The streets accepted trees. The trees accepted houses. The houses accepted screens. Screens accepted men. The men accepted rooms. Rooms accepted memory. The city became a machine for storing branches. By evening a new district had appeared beyond the northern wall. It contained no palace, no temple, no market, and no army. It contained residences. Thousands of residences. Each held one or more screens. Each held one or more men. Each residence was connected to another by a road that did not exist on the ground but appeared whenever someone tried to remember how they had arrived. The sister understood the new geography.
+     The four men did not travel at the same speed. Luke moved quickly whenever the road was clear, then slowed when he remembered that the others were behind him. Tyler preferred a steadier pace. Kirk stopped whenever something caught his attention, not because he was careless but because he had begun to understand that the country contained things which disappeared if nobody looked at them. Joseph walked beside him more often than he walked beside the others. Sometimes they spoke. Sometimes they went for an hour without saying anything. Their silence was not empty. It had the peculiar density of a conversation that had already lasted a long time and had not yet found its final subject.
 
-     “You built a city from attention.”
+     On the fourth morning they found a house.
 
-     Her brother looked at her.
+     It stood alone beside a stream, with smoke rising from a crooked chimney. No road appeared to lead to it. The four men approached anyway. An old woman came outside carrying a basin and stared at them without surprise.
 
-     “No. It built itself from being remembered.”
+     “You're late,” she said.
+
+     Luke looked at Tyler.
+
+     “Everybody keeps saying that.”
+
+     The woman smiled.
+
+     “That's because everybody here has been waiting.”
+
+     She invited them inside.
+
+     The house was small enough to feel ordinary, and after the enormous country this seemed stranger than anything they had encountered. There were four chairs around a table, a stove burning low, boots drying near the door, and a window through which the stream could be heard even when it could not be seen. The woman served them bread, beans, and hot tea. Nobody asked where the food had come from.
+
+     While they ate, she asked their names.
+
+     “Luke.”
+
+     “Tyler.”
+
+     “Kirk.”
+
+     “Joseph.”
+
+     The woman repeated them slowly, as if checking each name against a memory.
+
+     “Yes,” she said at last. “Those are the ones.”
+
+     Joseph looked up.
+
+     “The ones for what?”
+
+     She turned toward the window.
+
+     “The country between.”
+
+     None of them understood.
+
+     Outside, the stream had begun to run backward.
+
+     Kirk stood first. Tyler followed. Luke went to the door, but Joseph caught his arm.
+
+     “Wait.”
+
+     They watched.
+
+     The water moved uphill toward the forest, carrying leaves against the natural slope. The woman did not appear frightened. She merely continued eating.
+
+     “Does that happen often?” Tyler asked.
+
+     “Only when somebody is about to leave.”
+
+     “Leave for where?”
+
+     She looked at Joseph.
+
+     “That's what he is asking.”
+
+     Joseph frowned.
+
+     “I didn't ask.”
+
+     “Not aloud.”
+
+     The room became very quiet.
+
+     Then the old woman pushed her plate away and told them the road ahead was not a road in the ordinary sense. It was a country made from all the distances people had failed to cross. Every road they had abandoned, every person they had meant to return to, every place they had postponed visiting, every sentence they had never finished speaking had accumulated somewhere beyond the stream.
+
+     Luke leaned back.
+
+     “So we're walking through unfinished stuff.”
+
+     “In a manner of speaking.”
+
+     “That's weird.”
+
+     “Yes.”
+
+     Luke nodded.
+
+     “Okay.”
+
+     Tyler laughed.
+
+     The old woman looked pleased.
+
+     “That is why he will go far,” she said.
+
+     “Who?”
+
+     She did not answer.
+
+     When they left, the stream had returned to its ordinary direction. The house remained behind them, but after an hour Luke turned around and discovered that it was gone.
+
+     “Did anybody see when it disappeared?”
+
+     Nobody had.
+
+     Joseph looked back once more.
+
+     Kirk stood beside him.
+
+     “You think we'll find it again?”
+
+     Joseph considered the question.
+
+     “If it mattered.”
+
+     Kirk smiled.
+
+     “That's not an answer.”
+
+     “It's the answer I have.”
+
+     They continued.
+
+     By sunset the plain had ended. Ahead stood a forest larger than the amber woods, darker and older, its upper branches forming a continuous roof over miles of country. The road entered it without ceremony.
+
+     They stopped at the edge.
+
+     Four figures beneath an immense sky.
+
+     Four shadows stretching toward the trees.
+
+     Far away, beyond the forest, something gave a single deep sound.
+
+     It was not thunder.
+
+     It was not an animal.
+
+     It sounded like a voice remembering its own name.
 
 ## Chapter X: The House That Remembered
 

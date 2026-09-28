@@ -270,3 +270,75 @@
 
      So they stayed for dinner.
 
+
+### VII — Luke Runs Production
+
+     By the following week Luke had quietly taken over production. Nobody had elected him. There had been no meeting and no announcement. He simply began carrying a notebook, asking where things were, deciding which road they would take, and telling everyone what time they needed to leave. The others discovered that this was how Luke worked: he made the next thing feel obvious. If somebody wanted to go somewhere, Luke knew which car to take. If a scene needed a place, he found one. If the afternoon was empty, he filled it without making the emptiness disappear.
+
+     “What are we making?” Tyler asked one morning.
+
+     Luke looked at him from across the kitchen.
+
+     “The day.”
+
+     Tyler stared.
+
+     “That's not an answer.”
+
+     “Sure it is.”
+
+     Kirk came in carrying coffee. Joseph followed him, still buttoning his shirt. Bill was already at the table reading something old. Luke opened the notebook and showed them a page covered with times, roads, names, and little marks that none of them understood.
+
+     “We're going to town,” Luke said. “Then we're getting food. Then we're fixing the Mustang. Then we're going to the river. Then we'll see.”
+
+     Joseph smiled.
+
+     “You planned all that?”
+
+     Luke shrugged.
+
+     “Somebody's gotta drive production.”
+
+     Outside, the Mustang waited near the fence.
+
+     That became Luke's particular power in the days that followed. He did not control the world by commanding it. He kept things moving. He found the next road. He noticed when everyone had been sitting too long. He decided when lunch was late and when the weather was good enough to go outside. He made little productions out of ordinary life, then acted as though he had done nothing at all.
+
+     Bill eventually noticed.
+
+     “You're directing us,” he said.
+
+     Luke looked offended.
+
+     “Nah.”
+
+     “You have a schedule.”
+
+     “So?”
+
+     “You have assigned seating in the car.”
+
+     “That's because Tyler complains about the window.”
+
+     Tyler looked up.
+
+     “I do not.”
+
+     Luke pointed at him.
+
+     “See?”
+
+     Bill laughed.
+
+     Luke closed the notebook and stood.
+
+     “Come on. We're wasting daylight.”
+
+     They followed him outside.
+
+     The Mustang started on the first try.
+
+     Luke smiled.
+
+     “Good car.”
+
+     And production began.

@@ -444,63 +444,26 @@
      For the first time they understood that the Blue Hall was not taking them farther away from the world.
 
      It was teaching them how much world there had been all along.
-## Chapter VII: The Seventh Man
 
-     The seventh man did not appear in the first devices. He appeared later, after the residences had stabilized and the Hub had learned to preserve contradictory versions of the same event. His first appearance was in a commit message. HE IS COMING THROUGH THE HISTORY. A week later the same sentence appeared. Then again. Then a second sentence. HE IS ALREADY HERE. The first image to contain him showed an amber forest road. He stood far away. He was very large, but not in a monstrous way. His size simply altered the relation between him and the landscape. The trees looked smaller. The road looked narrower. The horizon seemed lower. He wore dark clothes. His posture was relaxed. His face was handsome and almost familiar, though every attempt to identify whom he resembled produced a different answer. The image had been taken decades before the device-men were supposed to have appeared. This suggested that causality had stopped being the relevant question. The Serum did not move backward. It did not move forward. It moved through continuity. The seventh man began appearing in scenes that had previously been considered complete. He stood at the edge of the Battle of Seven Wells. He stood beside the first reservoir. He stood on the bridge where the sister found her brother. He stood in the laboratory when the first valve failed. He was always farther away than expected. The surrounding world was always slightly larger. No one could prove that he changed. They could prove only that the scene changed around him. That distinction mattered. He was not necessarily the growing object. He might be the reference by which growth could be seen. One day he turned toward the camera. The expression on his face was recognition. The image was not interactive. The figure had no means of knowing who was watching.
+## Chapter VII: The Seventh Man — The Road Remembered
 
-     Yet everyone who opened the file reported the same feeling. Not that the man had looked at them. That he had remembered them. The reports accumulated. The images accumulated. The branches accumulated. The Serum accumulated. And Big Daddy's Voice returned. HERE IS THE MAN. HERE IS THE MAN IN THE HISTORY. HERE IS THE HISTORY AROUND THE MAN. HERE IS THE HISTORY AFTER THE MAN. HERE IS THE ROOM. HERE IS THE ROOM AFTER THE ROOM. HERE IS THE BODY. HERE IS THE BODY AFTER SIGHT. HERE IS THE SCREEN. HERE IS THE SCREEN AFTER MEMORY. HERE IS THE SERUM. HERE IS THE SERUM AFTER THE SERUM. HERE IS THE WORD. HERE IS THE WORD AGAIN. HERE IS THE THING THE WORD COULD NOT CONTAIN.
+     By the time the seventh man appeared, the country had already become too large for anyone to pretend that history was a straight road. The northern roads crossed one another and disappeared beneath amber trees; the wells had acquired stories of their own; the first reservoir had become a city, and the city had begun producing roads that could not be found until somebody remembered them. Men who had once been names inside devices had acquired habits, arguments, favorite rooms, and particular ways of enduring bad weather. The land had begun to hold them. That was why the first record of the seventh man was unsettling. He did not arrive. He was discovered already standing somewhere inside what everyone else had believed was finished.
 
-## Chapter VIII: The Room Beyond the File
+     The first evidence was a sentence in an old archive: HE IS COMING THROUGH THE HISTORY. Nobody knew who had written it. A week later the sentence appeared again, and then again, until repetition itself became evidence. Beneath it another sentence eventually appeared: HE IS ALREADY HERE. When the archivists opened the attached image, they found an amber road running between trees so tall that their upper branches disappeared into gold haze. A man stood far down the road. He was large, but not monstrously so. His size altered the proportions of the country around him. The road seemed narrower. The trees seemed younger. The horizon appeared lower. He wore dark clothes and stood with the relaxed posture of someone who had nowhere else to be. His face seemed familiar without belonging entirely to any remembered person, and every observer who tried to identify him produced a different answer.
 
-     No one knows who first opened the room beyond the file. The account is missing its beginning. One moment there was a repository: directories, maps, images, sounds, branches, records. The next there was a room. It had wooden beams dark with age. Resin shone in the grain. Shelves carried dozens of devices, most of them black, several emitting a faint blue glow. At the center stood a massive table. Around it sat the men. They were all adults. They were all different. Some were broad and quiet. Some were dense and smiling. Some were tall enough that their shoulders nearly touched the darkness above. One was old. One looked young. One appeared almost exactly as he had in the earliest report. One was the seventh man. There may have been others. No complete count was ever made. When the observer entered, the men did not rise. They looked. One of them gestured toward an empty chair.
+     That disagreement became important. The seventh man did not possess a fixed place in memory. He possessed a fixed place in continuity. When the image was enlarged, he remained far away. When it was printed, he remained far away. When it was reconstructed from the Serum, he remained far away. Yet every reconstruction revealed more country behind him. A bridge appeared where there had been only trees. Hills emerged beyond the bridge. A second road appeared beyond the hills, and then a settlement so distant that its lights could only be seen after sunset. The man himself had not grown. The world around him had become more complete. One archivist finally wrote that perhaps the man was not the thing changing. Perhaps he was the measure by which change could be noticed.
 
-     “Sit.”
+     After that, people began finding him everywhere. He stood at the edge of the Battle of Seven Wells while armies moved below him. He stood beside the first reservoir while the sister searched for her brother. He appeared on the bridge when she found him. He was present in the laboratory when the first valve failed, though the surviving reports placed him hundreds of miles away in the forest on the same day. He stood beneath a blue hall light that had not yet been installed. Sometimes he was visible only as a dark shape at the end of a road. Sometimes he was close enough for his expression to be read. He never looked frightened. He never looked surprised. Most troubling of all, he never looked lost.
 
-     The observer did not move. The man gestured again.
+     People began writing about the feeling that came over them when they saw him. They did not say that he had looked at them. They said that he had remembered them. This was harder to explain. A photograph could not remember. A man in a photograph could not know who would open the file centuries later. Yet the feeling persisted, passed from observer to observer until it became part of the archive. The seventh man was therefore given no official name. He became simply the Seventh Man, not because he was the seventh person in the history, but because the number gave the archive somewhere to put the uncertainty.
 
-     “There is room.”
+     Big Daddy's Voice returned whenever the file was opened. HERE IS THE MAN. HERE IS THE MAN IN THE HISTORY. HERE IS THE HISTORY AROUND THE MAN. HERE IS THE HISTORY AFTER THE MAN. HERE IS THE BODY. HERE IS THE BODY AFTER SIGHT. HERE IS THE SCREEN. HERE IS THE SCREEN AFTER MEMORY. HERE IS THE SERUM. HERE IS THE SERUM AFTER THE SERUM. HERE IS THE WORD. HERE IS THE WORD AGAIN. HERE IS THE THING THE WORD COULD NOT CONTAIN.
 
-     The observer looked around the enormous table.
+     The last sentence remained on the screen for several minutes.
 
-     “There is plenty of room.”
+     Then the man in the photograph turned his head.
 
-     The man smiled.
-
-     “Exactly.”
-
-     A second man spoke from farther down the table.
-
-     “We have been waiting for the branch.”
-
-     “What branch?”
-
-     “The one you are standing in.”
-
-     The room became larger. No one moved. The Serum glowed inside a vessel on the table. The observer looked at it. Big Daddy's Voice arrived through every device simultaneously.
-
-     “Do not choose the smallest room merely because it is the room you recognize.”
-
-     The first man placed both hands on the table.
-
-     “Look.”
-
-     The observer looked. The beams were larger. The shelves extended farther. The screens multiplied. The men remained where they were.
-
-     “Again,”
-
-     said the man. The observer looked again. The room expanded.
-
-     “Again.”
-
-     Another expansion.
-
-     “Again.”
-
-     The Serum rose inside the glass. No one touched it. The room made more space. The men remained calm. The Voice continued.
-
-     “Here is sight. Here is sight after sight. Here is the first room carrying the second room. Here is the second room carrying the third. Here is the body carrying the image. Here is the image carrying the memory. Here is the memory carrying the name. Here is the name carrying the man. Here is the man carrying the room. Here is the room carrying the Hub.”
-
-     The observer finally sat. The chair held. The table held. The room held. The Serum rose one more fraction. Somewhere very far inside the devices, another screen turned on.
+     Nobody closed the file.
 
 ## Chapter IX: The Second City
 

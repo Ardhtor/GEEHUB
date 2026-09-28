@@ -191,6 +191,23 @@ The GEEHUB Project Atlas lives under `hub/` and is backed by `hub/projects.json`
 
 The machine-readable constellation registry is also available as `projects.json` at the repository root for the current browser implementation.
 
+
+## The artifact layer
+
+The current architectural center is the **artifact**: the durable thing left behind when work resolves.
+
+The global loop is:
+
+**WORK → RESOLUTION → ARTIFACT → SHARED WORLD → DREAM**
+
+Resolution means that something now exists which did not exist before. The artifact may be literary, visual, sonic, technical, spatial, relational, or simply a discovered fact made durable. Canon and experiments remain distinguishable; persistence does not automatically make an experiment canon.
+
+The artifact ledger lives at artifacts/index.json, with reusable emitters in artifacts/runtime.js and artifacts/runtime.py. Autonomous world pulses also become explicit world-event artifacts. The browser provides a local staging room and a **take what exists** handoff so the user can leave with a portable artifact bundle rather than only a conversation.
+
+Dream material is downstream of the ledger. It is residue, not a second idea generator. Quiet artifacts can remain quiet.
+
+The practical definition of done has therefore changed: **the user should leave with something.**
+
 ## Repository conventions
 
 Prefer explicit names and small readable files over clever abstractions. Keep metadata close to the thing it describes. Treat provenance as first-class data. Make unfinished work visible instead of disguising placeholders as completed systems.

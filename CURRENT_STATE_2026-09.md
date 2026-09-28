@@ -83,3 +83,16 @@ Canonical mechanism document: lore/ATTENTION_ENGINE.md.
 ## Near-term opportunity
 
 The most important missing layer is a real **GEEHUB constellation interface** above the current BodyLounger application. The existing archive is a useful first application, but it should not remain the accidental identity of the umbrella repository. The next substantial interface should make the project constellation itself visible while allowing the BodyLounger archive to remain a dedicated territory within it.
+
+
+## Artifact-first overhaul — 2026-09-28
+
+The missing layer identified in the current work is not another interface. It is a reliable remainder.
+
+GEEHUB now treats the artifact as the unit connecting work to continuity. The intended sequence is **WORK → RESOLUTION → ARTIFACT → SHARED WORLD → DREAM**. A resolution is incomplete if it leaves only conversational description behind.
+
+The artifact layer is global in principle. It accepts passages, images, scenes, code changes, sounds, discoveries, decisions, memories, world events, and other concrete residues. Provenance, canon/experiment status, dreamability, and quietness are preserved with each artifact.
+
+The Hub's local artifact room is a staging surface rather than the final destination. It now includes a portable handoff so accumulated local artifacts can be taken out as a file. The autonomous world engine writes explicit world-event artifacts into the repository and derives its stream and novel material from those events.
+
+This changes the project's center of gravity from **a place where work is described** to **a place where work leaves material behind**.

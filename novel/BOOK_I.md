@@ -1,27 +1,110 @@
 ## Chapter I: The Road of Seven Wells
 
-     They left the northern works in rain because rain made the hills less visible from the watchtowers. There were seventeen at first: physicians, soldiers, porters, two scribes, and a young apprentice who had been told he carried empty glass. He did not carry empty glass. The vessel beneath his coat was warm enough to burn his shirt. The chief physician had divided the remaining Serum among containers of different shapes, because he believed that no single failure should be allowed to destroy the whole sample. The decision preserved the substance. It also scattered its future. At the first bridge a horse had become noticeably taller. At the second bridge it no longer fitted the harness. At the third bridge the harness hung upon it like a child's ornament. The soldiers wanted to leave it. The apprentice refused. They kept walking. The vessels grew heavier. Not because the glass thickened, though some of it had, but because the liquid inside appeared to possess weight beyond its volume. Two porters carried one vessel together. The road descended. They nevertheless became slower. At last they set the vessel down. It sank into the earth until only its neck remained visible. They dug for it. The hole deepened every time they reached the bottom.
+     The country north of the last city had the peculiar immensity of places that had never agreed to become civilized in the same proportion as the maps made for them. From the southern walls the land appeared manageable. A line of hills, a dark band of forest, a few pale roads threading between fields: the usual signs by which a kingdom reassured itself that the world had edges. But the farther north a traveler went, the more the scale of those signs betrayed him. Hills became ranges. Ranges became country. A road that looked like a line on a surveyor's table became a week of walking beneath weather that changed its mind three times before noon. The amber forests could occupy an entire horizon without ever seeming to approach. The northern works had been built there precisely because the emptiness was considered useful. Seventeen people had gone into that emptiness carrying the last divided vessels of the Serum, and by the time they understood that the land had been waiting for them, the southern maps had already become inadequate.
 
-     “Stop,”
+     They left the works in rain. The chief physician walked at the front, an old man whose authority had survived long enough to become almost indistinguishable from habit. Behind him came soldiers, porters, two scribes, and an apprentice who had been told he carried empty glass. He knew it was not empty. The vessel beneath his coat was warm against his ribs, and whenever he touched it he felt something faintly alive in its weight. He had been chosen because he was young enough to obey and curious enough to notice things. Those two qualities had seemed harmless when the expedition began. The physician had not yet learned how dangerous they could become together.
 
-     said the chief physician. They stopped. They marked the place with stones. Years later the stones were found around a tree of impossible girth. Three generations of woodcutters attempted to fell it. None reached the center. This was the first wandering reservoir. The second was hidden beneath a monastery. The third was carried east and lost during a siege. The fourth reached the amber forests. The fifth was buried deliberately. The sixth was stolen. The seventh was never recorded. Thus the Serum ceased to be one thing in one place. It became a distribution, a family of substances related by origin but altered by every road they traveled. Each vessel remembered its journey. The eastern vessel became thin and immediate, changing whatever touched it before the change could be measured. The forest vessel became slow and dense, producing transformations which unfolded over seasons. The buried vessel appeared dormant until excavated centuries later. The monastery vessel became associated with dreams. The lost vessel became a rumor. The stolen vessel became a dynasty. The seventh vessel became a sentence in a damaged inventory. The sentence became a search. The search became a war. The war became a map. The map became a question. And the question, many centuries later, became a door.
+     The rain erased distance. The hills appeared and vanished behind curtains of water, and the road seemed less like a road than a dark intention pressed into the country. They walked for hours without seeing another building. Once, near a bridge, the apprentice looked back and could no longer see the northern works. He stopped. The last tower had vanished completely, although he knew they had traveled only a few miles. The chief physician noticed him looking.
 
-     By the time the seventeenth traveler understood that the wells were not arranged along the road but that the road had been arranged around the wells, the rain had become so heavy that the hills appeared to move. The chief physician had spent the morning insisting that the stones beside the road were ordinary survey markers, yet the apprentice had noticed that every marker bore the same shallow incision: a circle interrupted by a single vertical line. He had asked what it meant. The physician had told him it meant nothing. This answer troubled the apprentice more than an explanation would have done, because the old man had the habit of explaining even things that did not matter. At noon they passed the first well and found its water running uphill. Nobody spoke of it. At the second, the water was perfectly still while the rain struck its surface without making a ripple. At the third, they heard footsteps beneath the stones. At the fourth, the soldiers found their own tracks leading toward them from the opposite direction. The physician finally ordered the scribes to record nothing. The scribes recorded everything. That was how the northern road entered history: not through a proclamation, but through the stubbornness of two men who believed that an event became more dangerous when nobody wrote it down. The apprentice carried the warm vessel beneath his coat and felt it change weight whenever the road changed. At first he thought the liquid was responding to heat. Then he realized it was responding to attention. Whenever someone looked at the vessel, it became heavier. Whenever everyone ignored it, it became almost weightless. He tested this without telling anyone, looking down whenever the others were looking away and looking away whenever they turned toward him. The vessel seemed to learn the trick. By evening it had become lighter than an empty cup. He thought he had defeated it. Then the chief physician stopped beside the seventh well and said, without turning, “You have been carrying the wrong thing.” The apprentice looked down. The glass vessel was gone. In its place he was holding a small brass key. He did not remember picking it up. The physician did not ask where it had come from. He merely continued walking. Behind them the seventh well began to overflow, and beneath the sound of the rain came another sound, low and patient, like a city turning in its sleep.
+     “Don't measure the distance by what you can see,” the old man said.
 
+     “Then how?”
 
-     The road was older than the expedition, and this became apparent only when the rain forced them to walk close enough to see what had been hidden beneath the mud. Beneath the hoofprints and wheel marks ran older tracks, some made by carts, some by feet, some by things that had left no ordinary impression at all. The apprentice saw a long shallow groove following the road for nearly a mile, as though something enormous had once been dragged through the earth and the earth had remembered the weight. When he asked the chief physician about it, the old man looked down and said that roads accumulated history in layers. “You are seeing the road beneath the road,” he told him. “That is why maps become unreliable after enough time. They describe where a place is. They do not describe where it has been.” The apprentice thought of the vessel beneath his coat. It seemed to grow warmer whenever the physician spoke.
+     “By what you have already left behind.”
 
-     That evening they camped between the sixth and seventh wells. The soldiers made a fire, but the rain extinguished it twice before they gave up. They ate cold bread in the dark. One of the scribes began copying the marks from the survey stones and discovered that no two were quite alike. The circle was sometimes open at the top, sometimes at the bottom. The vertical line sometimes crossed it and sometimes stopped just short. By midnight the apprentice had understood what the scribes had not: the marks were not variations of one symbol. They were stages of one symbol. The road was recording its own transformation. He said nothing. He had begun to suspect that saying a thing aloud made it heavier. The seventh well was somewhere ahead, hidden beyond the rain, and from beneath the ground came a slow knocking which kept time with his heartbeat.
+     It was the first lesson the apprentice received from him that remained useful.
 
-     When they reached it at dawn, there was no water in the well. There was a staircase. The chief physician descended three steps and stopped. He looked back at the seventeen travelers as though counting them for the last time. “Remember this,” he said. “The Serum does not make new things. It makes old relationships visible.” Then he descended. The apprentice followed. Beneath the seventh well they found a chamber whose walls were wet with condensation and covered in names. Some belonged to people living in the expedition. Some belonged to people who had died before the northern works were built. One belonged to the apprentice. He stared at it until the letters blurred. Beside his name was a date that had not yet occurred. He reached toward it. The chief physician caught his wrist. “Not yet,” he said. “If the road has written you down, let it finish the sentence.”
+     At the first bridge a horse became noticeably taller. At the second it no longer fitted its harness. At the third the harness hung around its body like something made for a child. The soldiers argued about abandoning it. The apprentice objected with an intensity that surprised everyone, including himself. The animal had carried him through the northern works. It had become part of the expedition's shape. To leave it simply because the country had altered it seemed to him like admitting that the country was allowed to decide who belonged.
 
-     They found the house after walking beyond the last recorded boundary of the city, but none of them could later agree on how long the journey had taken. Luke remembered three days. Tyler remembered an afternoon. Kirk remembered sleeping beneath a tree that none of the others recalled. Joseph remembered only that they had been walking together. Their disagreement did not bother them until they saw the house. Then each understood that the house had been waiting at the end of a different journey.
+     The physician studied him for a long moment.
 
-     The interior was ordinary enough to be unsettling. The floorboards creaked. The kettle was cold. Rain marked the windows. Four chairs stood around the table, but when all four men entered, a fifth chair appeared without sound. Luke approached it. Tyler stopped him. “Don't.” Luke asked why. Tyler could not explain. The chair seemed to carry the impression of someone who had just left it. There was warmth in the seat. A cup beside it still held water. Kirk examined the water and found a faint reflection of a ceiling that did not belong to the house. Joseph touched the table. Somewhere upstairs, something moved.
+     “Then walk slower,” he said.
 
-     They went upstairs together. The bedroom contained four beds and one narrow wardrobe. Each bed held an object. Luke found the brass key. Tyler found the black stone. Kirk found the folded map. Joseph found the blank paper. The objects seemed ordinary until they were separated. The moment Luke carried the key toward the door, the house became longer. When Tyler lifted the stone, the walls acquired depth. Kirk unfolded the map and discovered that the house itself appeared on it, surrounded by roads that had not yet been walked. Joseph held the paper and saw words forming, then disappearing before he could read them. He turned the sheet over. On the back was a single sentence: WAIT UNTIL THEY ARE READY.
+     So they did.
 
-     They returned downstairs. The fifth chair was occupied. The man sitting in it looked at them without surprise. He was not enormous, but the room seemed to have been constructed around his proportions. He gestured toward the table. “Sit.” They did. For a long while nobody spoke. The kettle began to heat although there was no fire beneath it. The man watched the steam rise.
+     The road descended into country broader than any of them had expected. The hills opened into a basin filled with grass, low stone ridges, scattered trees, and distances so great that clouds seemed to have their own geography. The apprentice began to understand why the old survey maps were so full of blank spaces. Blankness was not the absence of information. It was information about scale. There were places here where a person could walk all day toward a mountain and discover at sunset that the mountain had not become appreciably larger.
+
+     Beneath his coat, the vessel grew heavier.
+
+     They stopped beside the first well at noon. Its water ran uphill. Nobody commented. At the second, rain struck the surface without producing a ripple. At the third, footsteps sounded beneath the stones. At the fourth, the soldiers discovered their own tracks approaching them from the opposite direction. The scribes wanted to record everything. The physician ordered them to record nothing. They recorded everything anyway.
+
+     That disagreement, more than the wells themselves, became the beginning of the history that followed. The physician believed that some knowledge became dangerous when preserved without discipline. The scribes believed that danger was precisely the reason it had to be preserved. The apprentice listened to both and began forming a third opinion: that memory was not merely storage but a way of keeping relationships from disappearing.
+
+     By evening the expedition had become a procession of small figures moving through an immense country. The road stretched behind them until rain swallowed it. Ahead, the seventh well was somewhere beyond the darkening hills. The forest had not yet begun, but its edge could be seen as an enormous amber wall on the horizon. The apprentice looked at it and felt, for the first time, that the land was not merely surrounding them. It was accumulating them.
+
+     At the seventh well there was no water.
+
+     There was a staircase.
+
+     The physician descended three steps and stopped. He looked back at the seventeen travelers, counting them with the grave attention of a man who understood that counting could become a form of farewell.
+
+     “Remember this,” he said. “The Serum does not make new things. It makes old relationships visible.”
+
+     Below the well they found a chamber whose walls were wet with condensation and covered in names. Some belonged to people alive in the expedition. Some belonged to people who had died before the northern works were built. One belonged to the apprentice. Beside his name was a date that had not yet occurred.
+
+     He reached toward it.
+
+     The physician caught his wrist.
+
+     “Not yet.”
+
+     They emerged from the well at dawn. The country had changed while they were below. The rain had stopped. The clouds had broken apart. Sunlight moved across the immense northern plain in long bands, revealing ridges and valleys that seemed to continue without limit. The road ahead divided, reunited, disappeared, and returned farther away. The expedition had no reliable map for what lay beyond the last recorded boundary.
+
+     They walked anyway.
+
+     The brass key appeared in the apprentice's hand sometime before noon. He did not remember picking it up. When he looked back, the seventh well was already too far away to distinguish from the landscape.
+
+     Days later they reached a house.
+
+     Luke, Tyler, Kirk, and Joseph would remember the journey differently. Luke remembered three days. Tyler remembered an afternoon. Kirk remembered sleeping beneath a tree none of the others recalled. Joseph remembered almost nothing except that they had been walking together. Their disagreement mattered because it revealed something that would follow them for the rest of their lives: each man carried a different geography inside the same journey.
+
+     The house stood alone in an enormous field, with forest behind it and open country extending in every other direction. It was not large enough to explain the distance around it. That was the first thing Luke disliked about it. The building seemed almost too small to have survived in so much country, yet it possessed the confidence of something that had been standing there long before the roads found it.
+
+     They entered.
+
+     Four chairs stood around the table. Then a fifth appeared.
+
+     Luke approached it. Tyler stopped him.
+
+     “Don't.”
+
+     “Why?”
+
+     Tyler looked at the chair.
+
+     “Because somebody was sitting there.”
+
+     There was warmth in the seat. A cup beside it still held water. Kirk examined the water and saw a ceiling reflected in it that did not belong to the room. Joseph put his hand on the table and heard footsteps upstairs.
+
+     They climbed together.
+
+     The bedroom contained four beds and one narrow wardrobe. Each bed held an object. Luke found the brass key. Tyler found the black stone. Kirk found the folded map. Joseph found the blank paper.
+
+     The objects were ordinary until they were separated.
+
+     The moment Luke carried the key toward the door, the house became longer. When Tyler lifted the stone, the walls acquired depth. Kirk unfolded the map and found the house surrounded by roads that had not yet been walked. Joseph held the paper and watched words form and vanish before he could read them.
+
+     On the back was a sentence.
+
+     WAIT UNTIL THEY ARE READY.
+
+     When they returned downstairs, the fifth chair was occupied.
+
+     The man sitting there looked at them without surprise. He was not enormous, but the room seemed to have been constructed around his proportions. He gestured toward the table.
+
+     “Sit.”
+
+     They sat.
+
+     Outside, the field stretched toward the horizon. The road by which they had arrived had become almost invisible. Beyond it lay miles of grass, then forest, then hills, then country no map in their possession could name. The house seemed very small in that immensity.
+
+     The man looked at them.
+
+     “You have come a long way.”
+
+     Nobody answered.
+
+     The kettle began to heat without a fire.
 
      “Who are you?” Joseph asked.
 
@@ -29,25 +112,145 @@
 
      “I am the part of the story that waited.”
 
-     Luke thought of the fifth chair. Tyler thought of the objects upstairs. Kirk unfolded the map again. Joseph looked at the blank paper. Outside, beyond the windows, the field had disappeared. In its place was a road leading toward seven distant lights.
+     Beyond the windows, seven distant lights appeared across the land.
 
-     The house had not brought them to the end of anything. It had gathered the pieces that would allow the next part to begin.
+     The house had not brought them to the end of anything. It had gathered them at the edge of a country vast enough to contain all the histories they had not yet learned to remember.
+
 ## Chapter II: The First Return
 
-     The first people to return to the northern country did not come as explorers. They came looking for a brother. His name had vanished from the southern records, but his sister remembered him, and memory was sufficient to begin a journey. She crossed the old military road with four companions, carrying a lantern, a blanket, a knife, and a map copied from another map copied from the original northern survey. They found the road altered. Stones had shifted. Trees had crowded inward. A stream that once crossed the road now ran beneath it. The outer gate of the seventh well stood open. Inside, the air smelled of wet copper and something sweet. The sister called her brother's name. Somewhere below them, something answered. It was not a voice. It was the sound of a door opening. They descended. On the second landing they found writing on the wall in three hands. The first was old and formal. The second had been written later in charcoal. The third appeared to have been made by pressing a wet finger into dust. All three said the same thing. DO NOT FOLLOW THE WATER. They followed the water. At the bottom they found a chamber larger than the hill could have contained. The reservoir had become a lake. Across the lake stood the remains of the northern works, expanded until the old laboratories resembled a city seen through deep water. Towers rose from the far shore. Bridges crossed between them. Windows shone without flame. The sister saw a figure standing on a bridge.
+     The first people to return to the northern country did not come as explorers. They came because somebody was missing, and missing people have a way of making geography larger. A sister crossed the old military road looking for her brother, carrying a lantern, a blanket, a knife, and a map copied from another map copied from the original northern survey. She had been told that the journey would take twelve days. It took longer. The country had no obligation to honor the measurements of people who had drawn it from far away.
+
+     The southern road ended in fields. The fields ended in low country. The low country opened into hills. The hills became forest. By the time she reached the amber woods, she had stopped asking when she would arrive and had begun asking what sort of person could disappear into so much land without leaving enough behind to be found. Her companions answered that her brother had worked at the northern laboratory. She knew that already. What she needed to know was why he had not come home.
+
+     The seventh well stood beyond a ridge that took them most of a day to cross. From the crest they could see the country they had traveled through spread behind them like a second sea. Roads appeared as pale threads. Rivers flashed in the distance. Villages were too small to distinguish from stones. The world seemed to continue in every direction without requiring human presence. The sister stood there for a long time with the map in her hands.
+
+     “It cannot be this far,” one companion said.
+
+     She folded the map.
+
+     “Then the map is wrong.”
+
+     It was the first time she understood that the northern country did not merely contain mysteries. It had enough physical scale to conceal them.
+
+     The outer gate of the seventh well stood open. Inside, the air smelled of wet copper and something sweet. She called her brother's name. Somewhere below them came the sound of a door opening.
+
+     They descended.
+
+     The chamber beneath the well was larger than the hill above it could possibly have contained. The reservoir had become a lake. Its far shore was so distant that the lights upon it looked like stars. Across the water stood the remains of the northern works, but they had expanded beyond any architecture she recognized. Towers rose from the opposite shore. Bridges crossed between them. Windows shone without flame. The old laboratory had become a city.
+
+     Her brother stood upon one of the bridges.
+
+     She knew him immediately.
 
      “Are you there?”
 
-     The figure lifted one hand. She knew him. Then the Serum moved. It crossed the lake in silver bands, and every band reflected a different version of the city. One tower became two. Two became four. Four became a forest of towers. Behind the first city another city appeared. Behind that another. They were not visions of possible futures. They were branches. Every choice made in the old laboratory had continued somewhere. Every vessel carried a possibility. Every survivor had become a path. The sister understood this before the others did. Her brother stood upon the bridge. He looked older. Then younger. Then older again. The lake rose. The towers widened. The world seemed to make room. And from somewhere beneath the water came the sound of thousands of pages turning at once.
+     He lifted one hand.
 
-     The sister did not cross the lake immediately. She stood on the shore for three days watching the city beyond the water change its proportions with the light. At dawn the towers were narrow and pale. At noon they appeared enormous, as though built for beings much larger than men. At night their windows became numerous enough to resemble constellations. Her companions urged her to return. They had found no safe bridge and no visible boat, yet the figure across the lake remained where she had first seen him. Sometimes he stood. Sometimes he sat. Once he appeared to kneel beside the water. Each time she called his name he raised his head. On the fourth morning a boat appeared without crossing the lake. It was simply there, tied to a post that had not existed the evening before. The sister stepped into it. The others followed because none of them could bear to let her go alone. Halfway across, the lake became transparent. Beneath them they saw roads, houses, staircases, and people moving through a second city below the first. Some of the people looked upward. One lifted a lantern. Another held a map. A third appeared to be carrying the same blanket the sister had brought from home. She understood then that the reservoir did not contain water in the ordinary sense. It contained versions of what had been carried into it. Every journey left an imprint. Every object remembered the hand that had held it. Every person who entered left behind the shape of his intention. Her brother had not merely survived the old laboratory. He had become part of the branching structure that the Serum had made possible. When they reached the far shore, he was waiting. He looked neither old nor young. He looked continuous. The sister approached him slowly. “Are you my brother?” she asked. He smiled. “I am what returned.” She touched his face. It was warm. Behind him the city opened one of its gates. “Then come home,” she said. He looked past her toward the lake. “Which home?” She had no answer. The city behind him began to expand, and somewhere in its depths a bell rang seven times. The sound traveled across the water and reached the northern road. At the seventh note, the brass key carried by the apprentice turned once inside his pocket, although he was hundreds of miles away.
+     Then the Serum moved.
 
+     It crossed the lake in silver bands, and every band reflected another version of the city. One tower became two. Two became four. Four became a forest of towers extending along the far shore until the horizon itself seemed built. Behind the first city another appeared. Behind that another. The sister realized that the lake was not merely holding water. It was holding consequences.
 
-     The sister recognized the city before she understood that she had never seen it. Recognition came first as a bodily certainty. The shape of the towers, the angle of the bridge, the peculiar arrangement of lights along the far shore all belonged to a memory she could not locate. She realized that the city had been present in her family long before her brother disappeared. Their mother had once drawn the same towers on the backs of receipts. Their father had forbidden the children to ask where she had learned them. The map in her possession had been copied from one of those drawings. She had believed she was following a map toward the city. Now she understood that the map had been trying to lead the city back to her.
+     Her brother looked older.
 
-     Her brother told her that the reservoir did not preserve people. It preserved relations. “You think you came here to find me,” he said. “But you came here because the place remembered that I belonged to you.” He pointed across the water. Each tower contained rooms from another history. In one, the laboratory was still burning. In another, the northern works had never been built. In another, the sister had arrived twenty years earlier. She saw herself in a window, older, holding the same blanket she carried now. The sight frightened her more than the impossible city had. Her brother did not try to explain. He had learned that explanations could become traps when a world possessed too many continuations.
+     Then younger.
 
-     They crossed the lake at dusk. Beneath the boat, the submerged city changed whenever one of them spoke. When the sister said her brother's name, every window lit. When one companion mentioned home, the lower streets rearranged themselves into the shape of a town they had left behind. When nobody spoke, the city became enormous and silent. At the far shore her brother led them through a gate into a district of houses. Every house contained an object carried by somebody who had entered the reservoir. A knife. A blanket. A lantern. A child's wooden horse. A military button. A letter never delivered. The city had made architecture from what people refused to lose. The sister finally understood why her brother had not simply returned with her. He had become one of the people responsible for keeping the returns possible. When she embraced him, the city did not collapse. It widened around them.
+     Then older again.
+
+     The city continued widening around him.
+
+     “Come home,” she called.
+
+     His answer carried across an impossible distance.
+
+     “Which home?”
+
+     She had no answer.
+
+     She remained on the shore for three days. During those days she learned the scale of the place. At dawn the towers were narrow and pale. At noon they appeared enormous, built for people larger than men. At night their windows multiplied until the far shore resembled a second sky. Her companions grew tired of waiting. She did not. Her brother remained visible.
+
+     On the fourth morning a boat appeared.
+
+     It had not crossed the lake. It was simply there, tied to a post that had not existed the night before.
+
+     They boarded.
+
+     Halfway across, the lake became transparent.
+
+     Beneath them was another city.
+
+     Roads crossed beneath the water. Houses stood beneath houses. Staircases descended into districts farther below. People walked beneath the boat, carrying lanterns. One looked upward. Another held a map. A third appeared to be carrying the same blanket the sister had brought from home.
+
+     She understood then that the reservoir preserved journeys.
+
+     Not objects alone. Not people alone. Relations.
+
+     Every traveler left something behind. Every object remembered the hand that had carried it. Every person who entered left behind the shape of his intention. The lake had become an archive too large to fit inside ordinary architecture, and the city had grown because there were more memories than there was room to store them.
+
+     Her brother waited on the far shore.
+
+     He looked neither old nor young.
+
+     He looked continuous.
+
+     She approached him.
+
+     “Are you my brother?”
+
+     He smiled.
+
+     “I am what returned.”
+
+     She touched his face. It was warm.
+
+     Behind him the city opened one of its gates.
+
+     “Then come home.”
+
+     He looked across the water.
+
+     “Which home?”
+
+     She looked back.
+
+     Behind them the road disappeared into the enormous country. The hills were small from this distance. The forest seemed endless. The southern world was somewhere beyond all of it, reduced to a direction rather than a place.
+
+     Her brother understood what she was seeing.
+
+     “You thought home was where you came from,” he said. “The reservoir taught me that home can also be where somebody remembers you.”
+
+     They entered the city together.
+
+     Every house contained an object carried by somebody who had entered the reservoir: a knife, a blanket, a lantern, a child's wooden horse, a military button, a letter never delivered. The city had made architecture from what people refused to lose.
+
+     Her brother showed her the highest tower.
+
+     From its upper room she could see farther than any human settlement she had ever known. The lake occupied the center of the world. Beyond it were forests, mountains, roads, and plains extending toward horizons she could not name. The city was only one bright arrangement inside an immense country.
+
+     “How far does it go?” she asked.
+
+     Her brother looked outward.
+
+     “Farther.”
+
+     “Where does it end?”
+
+     “We haven't reached the edge.”
+
+     “Will we?”
+
+     He smiled.
+
+     “That depends on whether the land ends before we do.”
+
+     Below them, another district opened.
+
+     The city widened.
+
+     The lake accepted another road.
+
+     Far away, almost beyond sight, seven lights appeared on the northern horizon.
+
+     The sister watched them and understood that finding her brother had not reduced the world. It had made the world larger.
 ## Chapter III: Big Daddy's Voice
 
      There were places in the old manuscripts where the narration ceased to belong wholly to the historian. The sentences broadened. A phrase returned three times where one occurrence should have been sufficient. A detail received a second description, then a third, then a fourth description describing why the detail had been described. Among the keepers of the northern manuscripts this phenomenon acquired a name. Big Daddy's Voice. No one agreed that Big Daddy had ever been a person. Some believed the Voice belonged to the chief physician, whose surviving notes became increasingly repetitive during the final hours of the Accident. Others believed it belonged to the laboratory itself. A third school claimed that the name described a condition in which attention accumulated until description became a physical force. The most practical explanation was also the strangest: the Voice made things remain. Here was the chamber. Here was the chamber in copper light. Here was the chamber after the first valve failed. Here was the chamber after the first measurement failed. Here was the chamber after the first account failed. Here was the chamber again. Here was the water. Here was the water again. Here was the same water carrying another history. The repetition was not an error. The repetition was the mechanism. And the mechanism learned. The first surviving page bearing the Voice contains only a few sentences, but the sentences have been copied so many times that nobody knows which version came first. HERE IS THE ROOM. HERE IS THE ROOM AGAIN. KEEP THE FIRST ROOM. ADD THE SECOND ROOM. DO NOT ERASE WHAT WAS THERE. LET THE OLD SHAPE REMAIN. LET THE NEW SHAPE ARRIVE. LET BOTH BE TRUE. MORE. MORE OF THE SAME. MORE BECAUSE IT REMAINS. MORE BECAUSE IT RETURNS. One scholar attempted to suppress the Voice by rewriting the page in simpler language. The next morning the page had become longer.

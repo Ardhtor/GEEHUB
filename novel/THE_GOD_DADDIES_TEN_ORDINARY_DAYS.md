@@ -1,33 +1,79 @@
-# THE GOD DADDIES — TEN ORDINARY DAYS
+# THE GOD DADDIES — PRODUCTION DAYS
 
 ## A post-book cycle
+
+*Quotidian scenes after Book I, arranged around Luke's habit of turning ordinary life into production.*
 
 ### Episode I — Out Behind the House
      The afternoon settled around Luke's Mustang, the old fence, and the four men sitting behind the house with nowhere they needed to be. Luke passed the smoke around while the sun lowered itself over the enormous field. Tyler made fun of Luke's driving. Kirk said he had never actually seen Tyler drive the Mustang. Joseph said that was because Tyler would probably try to race the moon. Luke laughed and told them they were all idiots. Nobody went anywhere. The Mustang remained beneath the trees, dusty from the road, ready whenever Luke finally decided to move. They stayed until Bill called them in for dinner.
 
-### Episode II — The Grocery Run
-     The next morning Luke announced that they were out of coffee. This became an expedition only because nobody could agree on who should go. Eventually all five men went. Luke drove the Mustang while Tyler sat beside him and Kirk and Joseph crowded into the back. Bill complained about the suspension for the first twenty minutes. At the store they separated almost immediately. Joseph found Kirk comparing two brands of bread. Tyler disappeared into the frozen aisle. Luke returned with things nobody had asked for. Bill stood at the checkout looking at the pile. “This,” he said, “is why civilizations collapse.” On the drive home they argued about music, missed the turn, and took the long road through the trees.
+### Episode II — Luke Runs Production
+     By the following week Luke had quietly taken over production. Nobody had elected him. He simply began carrying a notebook, asking where things were, deciding which road they would take, and telling everyone what time they needed to leave.
 
-### Episode III — The Laundry
-     Laundry occupied most of Saturday. Nobody had intended it to. A basket became two baskets, two became four, and soon the living room was covered in clothes that had somehow acquired individual owners and disputes. Luke claimed a shirt that belonged to Tyler. Tyler claimed it had always belonged to him. Kirk said they were both wrong. Joseph quietly folded everything while they argued. Bill eventually sat on the floor and began matching socks. “Godhood,” he said, “has brought us very far.” Luke threw a sock at him. Bill caught it without looking. By evening everything was clean, though nobody could explain why there were three shirts on the stairs that belonged to men who were not currently in the house.
+     “What are we making?” Tyler asked.
+
+     Luke looked at him.
+
+     “The day.”
+
+     Tyler stared.
+
+     “That's not an answer.”
+
+     “Sure it is.”
+
+     Kirk came in carrying coffee. Joseph followed him, still buttoning his shirt. Bill was already at the table. Luke opened the notebook.
+
+     “We're going to town. Then we're getting food. Then we're fixing the Mustang. Then we're going to the river. Then we'll see.”
+
+     Joseph smiled.
+
+     “Somebody's gotta drive production.”
+
+     Outside, the Mustang waited near the fence.
+
+     Luke's power was not command. It was momentum. He noticed when everyone had been sitting too long, found the next road, decided when lunch was late, and turned an empty afternoon into something they could remember.
+
+     Bill eventually noticed.
+
+     “You're directing us.”
+
+     Luke looked offended.
+
+     “Nah.”
+
+     “You have a schedule.”
+
+     “So?”
+
+     “You have assigned seating in the car.”
+
+     “That's because Tyler complains about the window.”
+
+     Tyler looked up.
+
+     “I do not.”
+
+     Luke pointed at him.
+
+     “See?”
+
+     Bill laughed.
+
+     Luke closed the notebook.
+
+     “Come on. We're wasting daylight.”
+
+     They followed him outside.
+
+     The Mustang started on the first try.
+
+     Luke smiled.
+
+     “Good car.”
+
+     And production began.
 
 ### Episode IV — The Mustang Won't Start
      The Mustang refused to start on Tuesday. Luke stood in front of it with his hands on his hips. Tyler came outside. Then Kirk. Then Joseph. Within ten minutes all four men were standing around the engine offering increasingly confident advice. None of them knew what they were talking about. Bill watched from the porch. “Have any of you considered asking the car what it wants?” he called. Luke ignored him. They spent the afternoon trying things, arguing, laughing, and getting dirty. At sunset the Mustang finally started. Luke turned it off immediately. “Don't push it,” he said. Nobody did. They left it there overnight.
 
-### Episode V — Rain
-     It rained for three days. The men stopped pretending they were going anywhere. Luke sat by the window. Tyler cooked. Kirk read aloud from an old book until Joseph fell asleep. Bill discovered a leak in the roof and spent half the afternoon complaining about whoever had built the house. The rain made the country smaller without actually changing its size. Roads vanished into mist. The field became one continuous sheet of gray-green distance. On the third evening Luke opened the back door and stood beneath the awning. Tyler joined him. Neither said anything. After a while Joseph came out too. They stood shoulder to shoulder listening to the rain.
-
-### Episode VI — The Chair
-     Tyler finally finished the chair. He carried it outside and put it beneath the cedar. Everyone agreed it was comfortable. This immediately created a problem because everyone wanted it. Luke occupied it first. Kirk took it away from him. Joseph sat down while Kirk was distracted. Bill declared that the chair belonged to whoever was currently sitting in it. Tyler objected because he had made it. They argued until the sun went down. Eventually they left the chair outside and all sat on the ground around it. Nobody won. Tyler looked at the chair and said, “I spent three days on that.” Luke nodded. “Worth it.”
-
-### Episode VII — Breakfast
-     Joseph woke early and made breakfast for everyone. The kitchen filled with the smell of coffee and toast. Kirk came in first and stole something from the plate. Joseph slapped his hand away. Luke appeared next, hair still wet, and sat at the table without speaking. Tyler arrived carrying the newspaper. Bill was last. They ate slowly. The conversation went nowhere. Somebody mentioned the weather. Somebody else mentioned the road. Luke complained that the toast was burned. Joseph told him to make his own. Luke did not. Outside, the enormous country waited without demanding anything from them. Inside, they passed the butter around.
-
-### Episode VIII — The Long Drive
-     One afternoon Luke simply said, “Get in.” They drove north in the Mustang with no destination. The road went through fields, then woods, then hills so large that the men stopped talking. The Mustang became a small dark shape moving through an almost unreasonable amount of land. Tyler slept against the window. Kirk watched the trees. Joseph rested his arm along the seat. Luke drove with one hand. Eventually they stopped beside a river none of them had seen before. Nobody got out for several minutes. Then Joseph opened the door. The others followed. They stood beside the water, looking at a country that had been there all along.
-
-### Episode IX — Nothing To Do
-     There was one whole day when nobody had anything to do. It became strangely important. Luke lay on the porch. Tyler sat on the steps. Kirk slept in the grass. Joseph read. Bill wandered around the house putting things back where they belonged. At noon they ate leftovers. At two they ate again. At four Luke asked what time it was. Nobody knew. At sunset Tyler said they should probably do something tomorrow. Everyone agreed. Nobody made a plan. The day remained exactly what it had been: a day with nothing inside it except the people who had spent it together.
-
-### Episode X — Another Evening
-     That evening they sat behind the house again. The Mustang was parked near the fence. The porch light had come on. Somewhere inside, Bill was washing dishes. Luke passed the smoke around. Tyler was telling a story that Kirk had already heard twice. Joseph kept interrupting at the same parts. They laughed anyway. The enormous field disappeared gradually into darkness. Beyond it the road continued through the trees, and beyond the trees were countries they still had not seen. But none of them moved toward them. For once the unknown could wait. Luke leaned back against the post and looked at the others. “Same time tomorrow?” he said. Tyler nodded. Kirk smiled. Joseph said, “Probably.” And that was how another day became part of the history.

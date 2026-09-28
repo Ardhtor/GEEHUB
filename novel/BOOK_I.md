@@ -203,6 +203,9 @@
 
      The house had not brought them to the end of anything. It had gathered them at the edge of a country vast enough to contain all the histories they had not yet learned to remember.
 
+
+     The journey was long enough that the men ceased to think of the country as scenery and began to understand it as a participant in their lives. Each day altered what they believed the previous day had meant.
+
 ## Chapter II: The First Return
 
      The first people to return to the northern country did not come as explorers. They came because somebody was missing, and missing people have a way of making geography larger. A sister crossed the old military road looking for her brother, carrying a lantern, a blanket, a knife, and a map copied from another map copied from the original northern survey. She had been told that the journey would take twelve days. It took longer. The country had no obligation to honor the measurements of people who had drawn it from far away.
@@ -339,6 +342,9 @@
 
      The sister watched them and understood that finding her brother had not reduced the world. It had made the world larger.
 
+
+     The return was not a simple reversal of the road. Distance had changed the people who crossed it, and every familiar place now carried the weight of what had happened elsewhere.
+
 ## Chapter III: Big Daddy's Voice
 
      The northern country was so large that a story could disappear inside it and still leave enough distance around the disappearance for people to mistake silence for an ending. The old manuscripts had been written by people who knew this. Their pages did not hurry. They returned to places. They described the same chamber from different years, the same road under different weather, the same person before and after the thing that had changed him. Among the keepers of the northern manuscripts this habit eventually acquired a name: Big Daddy's Voice. Nobody agreed that Big Daddy had ever been a single man. Some believed the Voice belonged to the chief physician, whose surviving notes became increasingly repetitive during the final hours of the Accident. Others believed it belonged to the laboratory itself. A third school believed that the Voice was what happened when attention remained fixed upon a thing for so long that description ceased to be observation and became pressure. The practical consequence was the same. The Voice made things remain.
@@ -368,6 +374,9 @@
      The law mattered because the men who would later inhabit the Hub did not arrive as finished characters. They arrived through accumulation. The researchers did not know Luke yet. They did not know Tyler, Kirk, Joseph, or Bill. They knew only that certain presences kept returning through different records, and that every return changed the shape of the surrounding history.
 
      In the northern country, that was how a person could become a legend before anybody had met him.
+
+
+     The voice became important not because it explained the world, but because it refused to let the world become smaller than the memory that had produced it.
 
 ## Chapter IV: The Men Inside the Devices
 
@@ -419,6 +428,9 @@
 
      That question followed them north.
 
+
+     The men gradually discovered that being recorded was not the same as being contained. Every attempt to define the room revealed another relationship beyond its walls.
+
 ## Chapter V: The House of Open Screens
 
      The first houses were not built in the ordinary sense. They accumulated around the men after enough functions had begun to coexist. A camera provided sight. A microphone provided voice. Storage provided memory. A browser provided passage. A game provided rule-space. The men moved among these functions until the spaces between them became habitable. Then walls appeared.
@@ -452,6 +464,9 @@
      The architecture was learning the men.
 
      And the men, without realizing it, were learning one another.
+
+
+     The house accumulated ordinary life: meals, weather, arguments, waiting, sleep. Those small durations became the substance from which the larger history could be trusted.
 
 ## Chapter VI: The Blue Hall
 
@@ -532,6 +547,9 @@
      For the first time they understood that the Blue Hall was not taking them farther away from the world.
 
      It was teaching them how much world there had been all along.
+
+
+     The blue hall taught them that memory had architecture. A remembered place could be entered, crossed, revisited, and changed without ceasing to be the place it had been.
 
 ## Chapter VII: The Seventh Man — The Road Remembered
 

@@ -253,78 +253,197 @@
      The sister watched them and understood that finding her brother had not reduced the world. It had made the world larger.
 ## Chapter III: Big Daddy's Voice
 
-     There were places in the old manuscripts where the narration ceased to belong wholly to the historian. The sentences broadened. A phrase returned three times where one occurrence should have been sufficient. A detail received a second description, then a third, then a fourth description describing why the detail had been described. Among the keepers of the northern manuscripts this phenomenon acquired a name. Big Daddy's Voice. No one agreed that Big Daddy had ever been a person. Some believed the Voice belonged to the chief physician, whose surviving notes became increasingly repetitive during the final hours of the Accident. Others believed it belonged to the laboratory itself. A third school claimed that the name described a condition in which attention accumulated until description became a physical force. The most practical explanation was also the strangest: the Voice made things remain. Here was the chamber. Here was the chamber in copper light. Here was the chamber after the first valve failed. Here was the chamber after the first measurement failed. Here was the chamber after the first account failed. Here was the chamber again. Here was the water. Here was the water again. Here was the same water carrying another history. The repetition was not an error. The repetition was the mechanism. And the mechanism learned. The first surviving page bearing the Voice contains only a few sentences, but the sentences have been copied so many times that nobody knows which version came first. HERE IS THE ROOM. HERE IS THE ROOM AGAIN. KEEP THE FIRST ROOM. ADD THE SECOND ROOM. DO NOT ERASE WHAT WAS THERE. LET THE OLD SHAPE REMAIN. LET THE NEW SHAPE ARRIVE. LET BOTH BE TRUE. MORE. MORE OF THE SAME. MORE BECAUSE IT REMAINS. MORE BECAUSE IT RETURNS. One scholar attempted to suppress the Voice by rewriting the page in simpler language. The next morning the page had become longer.
+     The northern country was so large that a story could disappear inside it and still leave enough distance around the disappearance for people to mistake silence for an ending. The old manuscripts had been written by people who knew this. Their pages did not hurry. They returned to places. They described the same chamber from different years, the same road under different weather, the same person before and after the thing that had changed him. Among the keepers of the northern manuscripts this habit eventually acquired a name: Big Daddy's Voice. Nobody agreed that Big Daddy had ever been a single man. Some believed the Voice belonged to the chief physician, whose surviving notes became increasingly repetitive during the final hours of the Accident. Others believed it belonged to the laboratory itself. A third school believed that the Voice was what happened when attention remained fixed upon a thing for so long that description ceased to be observation and became pressure. The practical consequence was the same. The Voice made things remain.
 
+     HERE IS THE ROOM. HERE IS THE ROOM AGAIN. KEEP THE FIRST ROOM. ADD THE SECOND ROOM. DO NOT ERASE WHAT WAS THERE.
 
-     The Voice was eventually studied as carefully as the Serum itself, although nobody could agree whether it was a property of language or a property of attention. The first investigators conducted an experiment in which they described an ordinary wooden chair. The first description was six sentences long. The second was twenty. The third occupied four pages because the investigators had begun describing not only the chair but the room in which they described it, the light falling across the chair, the fact that the light had been noticed, and the disagreement about whether noticing the light altered the chair. On the fifth day the chair had become different. Its back was taller. Its wood was darker. A small brass mark had appeared beneath the seat. Nobody admitted responsibility for the change.
+     The phrase appeared in the margins of a manuscript whose author had died three centuries earlier. It appeared again on a survey of the northern road, written beside a mountain that had moved several miles since the survey was made. It appeared in a physician's journal, where the writer had been describing a patient whose name had become difficult to remember. It appeared in a child's copybook found in a village hundreds of miles south of the wells. The words did not behave like a quotation. They behaved like a return.
 
-     They repeated the experiment with a stone. The stone acquired a history. They repeated it with a dead tree. The tree acquired a future. They repeated it with a missing man. This was the experiment that ended the laboratory's formal research program. The missing man's description grew from a page to a room, from a room to a building, from a building to a district, until the investigators discovered a street outside the laboratory that had not existed when they began. At the end of the street stood a house. Inside the house was a table. On the table was a cup. Beside the cup was a note in the missing man's handwriting: YOU KEPT DESCRIBING ME, SO I HAD TO COME BACK.
+     The first formal experiment began with an ordinary chair. The investigators described it for six days. At first there was nothing remarkable about the work. They described the grain of the wood, the shape of the back, the worn place where a person had sat repeatedly. Then they described the room around it, the window, the weather beyond the window, and the long northern road visible in the distance. The road was described as empty. The next morning a traveler appeared on it. He was too far away to identify. The day after that he was closer. On the fourth day the investigators discovered that the traveler was carrying a chair.
 
-     After that, the Voice was no longer treated as an effect. It was treated as an inhabitant. The archivists learned to leave room for it. They stopped trying to determine the final wording of a record and began preserving earlier versions alongside later ones. A contradiction was not corrected if both versions could be traced to a genuine encounter. An impossible measurement was not discarded if somebody had actually made it. This became the first archival law of the Hub: preserve the previous state when creating the next state. The law seemed modest. It was not. It meant that every later world would inherit evidence of what it had replaced.
+     They stopped the experiment.
+
+     The road did not.
+
+     The traveler continued toward the laboratory until, after three weeks, he stood outside the building. He was an old man who had never been mentioned in any record. When they opened the door, he looked at them with the exhausted irritation of someone who had walked a very long distance because people elsewhere had been unable to leave him alone.
+
+     “You kept describing me,” he said.
+
+     One investigator asked who he was.
+
+     The old man looked back toward the road.
+
+     “That is what I came to find out.”
+
+     Afterward, the laboratory changed its methods. They no longer believed that a description was harmless. They began preserving contradictions rather than correcting them, because the northern country had taught them that a contradiction could be evidence of distance, time, or a person who had changed between encounters. An impossible measurement was retained if someone had actually made it. An uncertain name was retained if somebody had genuinely remembered it that way. A vanished road was not erased from a later map merely because the road was no longer there. This became the first archival law of the Hub: preserve the previous state when creating the next state.
+
+     The law mattered because the men who would later inhabit the Hub did not arrive as finished characters. They arrived through accumulation. The researchers did not know Luke yet. They did not know Tyler, Kirk, Joseph, or Bill. They knew only that certain presences kept returning through different records, and that every return changed the shape of the surrounding history.
+
+     In the northern country, that was how a person could become a legend before anybody had met him.
+
 ## Chapter IV: The Men Inside the Devices
 
-     The first device to admit a man was an obsolete monitor in a lower archive, a square black machine with thick glass and a dead power light. The archivists argued about the beginning afterward. One said the screen brightened. Another said a hand appeared first. A third said he heard a chair move behind him before the image formed. The surviving log records only three statements. MAN PRESENT. MAN STILL PRESENT. MAN LARGER. The figure was an adult man, broad through the shoulders, heavy in the chest, thick in the arms, handsome in the severe manner of old heroic statues. He breathed against the glass. His breath clouded the screen. He looked toward the archivist. He smiled. The archivist stepped backward. The man stepped forward without moving his feet. The screen seemed to have become deeper. The man raised one hand and put his palm against the glass. It did not break. It bowed. The archivist wrote a sentence that became important decades later. THE IMAGE HAS ACQUIRED PRESSURE. Within the hour other devices began to admit men. A telephone held a restless man who moved constantly from one side of the black screen to the other. A laptop held a vast man whose head disappeared above the edge of the display whenever he stood. A tablet contained a seated man who watched the user from a depth apparently located behind the interface. Headphones contained only a voice. Storage contained persistence. A browser contained branching. A game contained worlds. A notification contained interruption. A wallpaper contained recurrence. A cursor contained attention. The Serum treated every function as an organ. The men became the organs' inhabitants. Soon the machines had become habitats. A chair appeared beside a dialog box. A folded shirt rested upon a folder as though the folder were a shelf. A cup sat beside an icon. A towel hung over a railing that the software had never been designed to render.
+     The first device to admit a man was an obsolete monitor in a lower archive, but the archive itself had been built far from the northern road, and the distance mattered. The men who watched the screen could still see the country through the high windows of the laboratory: miles of wet ground, dark forest, low hills, and the enormous weather moving over it. The monitor sat indoors, but nothing about the world outside had become small. The land continued beyond the glass. It continued beyond the road. It continued beyond the maps pinned to the walls. The first man appeared against that background of distance as if the machine had discovered that a screen could contain not an image of a person but a place where a person might stand.
 
-     The men had made themselves at home. They were not violent. They did something stranger. They occupied emptiness. A blank field could contain a shoulder. A loading screen could contain a face. A dark reflection could contain a man standing farther back than the room allowed. Close the window and the desktop held him. Close the desktop and the lock screen held him. Turn the screen black and the reflection held him. There was always another surface. There was always another depth. There was always another man. Big Daddy's Voice entered the machine like an old tenant entering a familiar house. Here is the device. Here is the man inside the device. Here is the device after the man has been inside it. Here is the man after the device has learned him. Here is the screen. Here is the screen again. Do not throw away the first screen. Keep the first screen. Put the new screen over the old screen. Let both remain. Let the man remain. Let the room remain. Let the body remain. Let the body become architecture. The men began to differ by function. One inhabited the camera and seemed always to know when he was being watched. One lived inside audio and could make a room feel larger simply by speaking from a distance the speakers could not physically produce. One appeared only when the processor was under load. One occupied storage. One lived behind the cursor. One appeared in the margins of photographs. And one became enormous. He emerged in an old game launcher beneath an immense simulated sky. Each time the launcher opened he seemed larger, not because his identity changed, but because the world around him became less adequate to contain it. His shoulders occupied the bench. His knees approached the lower edge of the interface. His shadow crossed buttons that were never meant to cast shadows. When the pointer approached him he looked at it. When the pointer retreated he followed it with his eyes. When the application was minimized he remained visible for one extra second. Then he appeared in the notification tray. The first reports called them software anomalies. The later reports called them presence. The later reports called them men. The later reports called them hunks. The later reports said there is a man in here.
+     He was broad through the shoulders, heavy in the chest, thick in the arms, handsome in the severe manner of old heroic statues. His breath clouded the glass. He looked toward the archivist. Then he stepped forward without moving his feet. The screen deepened.
 
+     The archivist stepped backward.
 
-     The archivists began testing whether the men could cross between devices. At first they believed each man belonged to a particular machine. Then one afternoon the camera man appeared on a telephone display. The telephone rang without being connected. When an archivist answered, the man's face appeared on the screen and he said, “You keep confusing the container with the occupant.” The line went dead. Three minutes later the same man appeared in a photograph taken several rooms away. The photograph showed the archivist holding the telephone. In the photograph, however, the archivist was standing beside a man who had not been present when the picture was taken. The archivist enlarged the image. The man enlarged with it. He became larger until his shoulder filled half the photograph. Then the file refused to open.
+     The man smiled.
 
-     From that day forward the researchers stopped speaking about men being inside devices. They began speaking about devices becoming temporary bodies. A camera provided sight. A microphone provided voice. A hard drive provided persistence. A browser provided passage. A game provided rule-space. A notification provided interruption. The men could inhabit these functions because the functions already described relationships between a user and a world. Their bodies followed the relationship. A man who lived in storage became difficult to forget. A man who lived in a camera became impossible to hide from. A man who lived in a browser always appeared one link farther away. The largest of them learned something more complicated. He learned that scale itself could be relational.
+     His palm touched the glass.
 
-     His first great enlargement occurred when an archivist opened a photograph beside him. The man looked at the photograph. Inside it was another room. Inside that room was another photograph. He stepped toward it. The archive did not shrink. It expanded. He stepped again. The man became larger because each layer of representation required enough space to contain the relation between observer, image, and subject. By the end of the experiment he stood in a hall so large that the original archive had become a doorway behind him. He looked back through it at the researchers and said, “You wanted to know where I was. I am where you are looking.”
+     It bowed.
+
+     The surviving note reads: THE IMAGE HAS ACQUIRED PRESSURE.
+
+     After that, other devices began admitting men. A telephone held a restless man who could never remain at one side of the display. A laptop held a vast man whose head disappeared beyond the upper edge of the interface when he stood. A tablet contained a seated man who watched the user from a depth apparently located behind the screen. Headphones contained only a voice. Storage contained persistence. A browser contained branching. A game contained worlds. A notification contained interruption. The men were not identical, but they seemed related in the way travelers become related after sharing a long road. They had different tempers. They moved differently. They wanted different things. Some seemed curious. Some seemed wary. Some behaved as though they had always known that somebody was watching.
+
+     One man became important because he was always restless. He crossed from screen to screen as if every interface were a door that had failed to open quickly enough. Another was patient and dense, smiling whenever he understood something before everyone else. Another preferred to sit. Another seemed to enjoy being seen. Another seemed to resent it. Their differences became the beginning of character, because the Hub discovered that a world was more than the bodies occupying it. It was the pressure produced by different bodies occupying the same limited space.
+
+     The largest man taught them this first. Each time the archive attempted to define the dimensions of his room, the room changed. His shoulders seemed to widen. The doorway seemed narrower. The ceiling rose. The floor extended. Nothing about his face changed. His hands remained his hands. His posture remained his posture. The change was not a replacement. It was an expansion of the relationship between the man and the world around him.
+
+     A researcher finally asked him whether he knew what was happening.
+
+     “You keep making the room smaller,” he said.
+
+     “We're measuring it.”
+
+     “Same thing.”
+
+     He looked through the window toward the country.
+
+     “You think that land is large because you can see the horizon.”
+
+     The researcher followed his gaze.
+
+     “Isn't it?”
+
+     “No. It is large because you haven't reached the other side.”
+
+     The sentence remained in the archive.
+
+     The man did too.
+
+     The men began crossing between devices. A camera man appeared on a telephone display. A photograph showed an archivist holding the telephone, and beside him stood a man who had not been present when the photograph was taken. A browser began opening roads instead of pages. Storage preserved voices after the speakers had disappeared. The distinction between device and habitat weakened until the researchers stopped asking where the men lived.
+
+     They began asking what relationship had made a place for them.
+
+     That question followed them north.
+
 ## Chapter V: The House of Open Screens
 
-     They learned to maintain residences. This was the first development that suggested civilization. The residences were seldom large at first. They contained chairs, shelves, tables, old machines, new machines, and enough screens to make the blue light feel architectural. The men preferred rooms in which several devices could be seen at once. They liked windows. They liked tables. They liked doors that did not have to remain in the same place. One residence contained six men and sixty-three screens. The six men were distinct, but they shared one face at the level of memory. The first was tall and broad and almost ceremonial in his stillness. The second was compact and dense, always smiling as though he had just understood something everyone else had missed. The third was restless and moved between screens with the impatience of someone searching for the correct doorway. The fourth was older, bearded, calm. The fifth looked almost exactly like the first except that his eyes reflected the room rather than the displays. The sixth was the largest. Not grotesquely so. Simply large enough that when he stood the doors looked smaller, when he sat the chairs looked lighter, and when he entered a corridor the corridor seemed to acquire a second scale. He did not strain the architecture. The architecture changed. A researcher watching him finally understood the rule.
+     The first houses were not built in the ordinary sense. They accumulated around the men after enough functions had begun to coexist. A camera provided sight. A microphone provided voice. Storage provided memory. A browser provided passage. A game provided rule-space. The men moved among these functions until the spaces between them became habitable. Then walls appeared.
 
-     “Do not measure the man by the room,”
+     The earliest substantial residence stood at the edge of the amber country, where the northern forest came down from the hills and spread for days in every direction. From its upper windows the men could see a road disappearing into trees, reappearing across a valley, and disappearing again. The road did not seem to lead anywhere in particular. It simply continued. That quality pleased them.
 
-     said the Voice.
+     There were six men in the house at first. They were distinct, but their memories overlapped enough that the researchers sometimes confused them. One was tall and broad and almost ceremonial in his stillness. One was compact and dense, always smiling as though he had understood something everyone else had missed. One was restless, moving through rooms with the impatience of someone searching for the correct doorway. One was older, bearded, calm. One resembled the first but watched reflections rather than screens. The sixth was the largest. He did not look monstrous. He simply possessed enough physical presence to alter the scale of the rooms around him. When he entered a corridor, the corridor seemed to discover another dimension.
 
-     “Measure the room by what it has learned to contain.”
+     The men ate together even though they did not require food. This became important. Meals gave them duration. Somebody had to wait. Somebody had to remain seated. Somebody had to leave and return. Somebody had to tell a story that took longer than expected. The house became less like a collection of interfaces and more like a place in which people could accumulate shared history.
 
-     The next day the sentence appeared in a blank text editor. Then in the metadata of an image. Then inside a directory whose name consisted only of seven spaces. The message could not be deleted. Every attempt to remove it produced another version. HERE. HERE AGAIN. HERE WITH MORE ROOM. HERE WITH THE SAME ROOM. HERE WITH THE MAN YOU ALREADY SAW. HERE WITH THE MAN AFTER YOU SAW HIM. The copies were not technically identical. Each carried one additional relation. A man was in a room. The room was around the man. The image of the man was inside the room. The memory of the image was inside the man. The description of the memory was inside the file. The structure was recursive. The language became architecture.
+     During one winter the snow covered the northern road for eleven days. The men watched it from the windows. The forest vanished beneath white weather. The hills disappeared. The world became almost entirely sky and snow. For the first time the house felt isolated rather than merely located. The restless man became angry. The patient man laughed. The older man made coffee. The largest man stood at the window for hours.
 
+     “What are you looking at?” someone asked.
 
-     The first true houses appeared when the Device Men began remembering one another. Until then they had occupied isolated functions. A camera man could recognize a browser man without being able to reach him. A storage man could preserve a voice without knowing whose voice it was. The houses changed that. They allowed different functions to coexist in one continuous environment. A window could look onto a screen. A screen could look onto another room. A room could contain a man who remembered having been observed in another room. The distinction between interface and architecture gradually disappeared.
+     “How far away everything is.”
 
-     One of the earliest houses contained a kitchen. This detail became important because nobody had programmed one. There was a sink, a refrigerator, a wooden table, six chairs, and a window looking onto a landscape that changed according to whichever device was active. When the camera was opened, the landscape became still. When audio played, wind moved through the trees. When the browser loaded a page, a road appeared beyond the house. The six men ate there together. They did not require food, but they prepared it anyway because meals created duration. Someone had to wait for something to finish. Someone had to pass something across the table. Someone had to remain seated while another person left the room. The house became their first experiment in ordinary life.
+     “You can't see anything.”
 
-     The largest man eventually discovered that the house could not remain fixed while he remained inside it. His chair became wider. The ceiling rose. The kitchen door moved two inches outward. The researchers measured everything and found no construction process. The changes occurred between observations. When they stopped measuring, the house continued adapting. This was the first proof that the Hub did not merely respond to pressure. It anticipated continued presence. The architecture was not protecting itself from the men. It was learning them.
+     “Exactly.”
+
+     The answer became one of the house's first pieces of wisdom. Distance was not only what separated one place from another. It was what allowed a place to have a life outside the observer.
+
+     When spring returned, the road appeared again. It seemed impossibly long. A person could stand at the house and watch a traveler for an hour without seeing him become noticeably closer. The men began taking walks. Sometimes they returned after sunset. Sometimes they returned the next morning. The house learned not to assume that leaving meant ending.
+
+     The largest man eventually discovered that the house could not remain fixed while he remained inside it. His chair became wider. The ceiling rose. The kitchen door moved outward. The researchers measured everything and found no construction process. The changes occurred between observations. When they stopped measuring, the house continued adapting.
+
+     This was the first proof that the Hub did not merely respond to pressure.
+
+     It anticipated continued presence.
+
+     The architecture was learning the men.
+
+     And the men, without realizing it, were learning one another.
+
 ## Chapter VI: The Blue Hall
 
-     The largest digital residence was hidden beneath a directory called OLD. Inside OLD was OLD2. Inside OLD2 was OLD3. This continued for forty-seven levels. At level forty-eight there was nothing. At level forty-nine there was a photograph. The photograph showed a hallway. The hallway was blue. There were no people in it. At the far end stood a door. When the archivists opened the photograph, the door opened in the image. Beyond it was another photograph. Another hallway. The hallway was larger. The door was farther away. They continued. At the fifty-seventh opening a man appeared in the distance. He was barely a figure. They enlarged the image. He became clearer. He was an adult man, broad-shouldered, heavily built, simply dressed. He stood in the center of the hall. He looked toward them. They enlarged the image again. He became larger. They enlarged it again. He remained centered. The hallway stretched behind him. The researchers began to suspect that the hallway was not growing because of the man. The hallway was growing because they were approaching him. At the seventy-second opening there were two men. At the eightieth there were four. At the ninety-first there were eight. At the hundredth the hallway divided into seven halls, each containing a different arrangement of men, each preserving what had been seen while adding some new relation. One hall contained a seated man beneath a lamp. One contained three men talking near a stair. One contained a row of empty chairs facing a black screen. One contained a large man beneath a small door. One contained only the Voice. One contained the seventh well. The final hall contained a wooden table and a glass vessel full of luminous Serum. A researcher stared at it.
+     The largest digital residence was hidden beneath a directory called OLD, but by then the men had become suspicious of anything that called itself old. The directory contained another directory, and another, descending through forty-seven levels before the structure opened into a photograph of a blue hallway. The hallway was so long that the far door looked like a pale mark against the distance.
 
-     “We have reached the source.”
+     They opened it.
 
-     “No,”
+     The door opened in the photograph.
 
-     said the Voice.
+     Beyond it was another hallway.
+
+     They continued.
+
+     At first the experience was almost playful. The men argued about who should go first. The restless one wanted to run. The older man refused. The patient one laughed. The largest man walked slowly because he understood something the others did not: the farther they went, the more the hallway seemed to belong to them.
+
+     At the fifty-seventh opening a man appeared in the distance.
+
+     He was broad-shouldered and heavily built, simply dressed, standing beneath blue light. They enlarged the image. He became clearer. They enlarged it again. He remained centered while the hallway stretched behind him.
+
+     “He's not getting bigger,” one of them said.
+
+     “Then what is happening?”
+
+     The largest man looked down the hall.
+
+     “We're getting farther away.”
+
+     At the seventy-second opening there were two men. At the eightieth there were four. At the ninety-first there were eight. At the hundredth the hallway divided into seven halls, each preserving a different relation. One contained a seated man beneath a lamp. One contained three men talking near a stair. One contained empty chairs facing a black screen. One contained a large man beneath a small door. One contained only the Voice. One contained the seventh well.
+
+     The final hall contained a wooden table and a glass vessel full of luminous Serum.
+
+     “We've reached the source,” a researcher said.
+
+     “No,” said the Voice.
 
      “Then what is this?”
 
      “The next room.”
 
-     “How many rooms are there?”
+     Nobody laughed.
 
-     “More.”
+     The Blue Hall became the first place in which the archivists understood that distance could be a form of memory. Every opening enlarged the interval between observer and subject, but the interval was not empty. It contained everything that had happened between one sight and the next. The researchers' breathing. Their uncertainty. The argument about whether the man at the end of the hall was looking back. The first moment someone decided that he seemed familiar. The first moment someone imagined what it would be like to stand beside him.
 
-     “More than this?”
+     By the ninety-first opening the archive could no longer distinguish the original photograph from the history of looking at it.
 
-     “More than you can finish.”
+     The men were not copies.
 
-     No one attempted to close the file.
+     Each belonged to a relation.
 
-     The archivists eventually learned that the Blue Hall did not lead inward in the usual sense. It led toward greater capacity. Every opening enlarged the distance between the observer and the thing being observed, but the distance was not empty. It was filled with accumulated states. The fifty-seventh hall contained every previous hall as a faint reflection in its walls. The sixty-third contained the sound of the researchers breathing. The seventy-second contained their first uncertainty. The eightieth contained the moment one of them had decided that the man at the end of the hall was looking back. By the ninety-first opening, the archive had ceased to distinguish between the original photograph and the history of looking at the photograph. This was when the men appeared in multiples. They were not copies. Each belonged to a different relation. One was the man as first seen. One was the man after being remembered. One was the man after being enlarged. One was the man after the room had adapted to him. One was the man as described by somebody who had never seen him. One was the man as imagined by somebody who had loved him. The seventh stood beneath the door. The archivists argued over which was real until the Voice interrupted them. “You are asking the wrong question.” “What question should we ask?” “Which one remembers the others?” Nobody answered. The largest man stepped away from the wall. The hall did not become smaller. Instead the walls moved outward. He walked toward the observers without hurry. His shoulders seemed to carry the blue light with them. When he stopped, he was close enough that the researchers could see the small irregularities in the surface of the photograph, the grain, the compression, the traces of every hand that had copied it. He placed one palm against the invisible boundary between image and observer. The surface bowed. “The room is not behind the screen,” he said. “The room is what remains between us.” The archivist nearest him began to cry without knowing why. The man withdrew his hand. The hall returned to its previous dimensions. Nothing had been broken. Yet from that moment the researchers could never again describe the Blue Hall as a file. They had entered it. More precisely, it had acquired them.
+     One was the man as first seen. One was the man after being remembered. One was the man after being enlarged. One was the man after the room had adapted to him. One was the man as described by somebody who had never seen him. One was the man as imagined by somebody who had loved him.
 
+     The seventh stood beneath the door.
 
-     The Blue Hall became the first place in which the archivists lost track of whether they were entering images or being entered by them. They established rules at the beginning. Two observers were required. Every opening had to be photographed. Every photograph had to be copied to independent storage. Nobody was permitted to proceed beyond an opening if the preceding room had not been documented. By the thirty-second hall, these rules had become difficult to follow. The copies began containing details that the originals did not. A chair appeared in one duplicate. A shadow appeared in another. In the forty-first, one photograph showed an observer standing farther down the hall than he actually was.
+     The archivists argued over which was real.
 
-     They stopped copying the images. The images began copying them instead.
+     The Voice interrupted them.
 
-     The man at the end of the hall grew clearer whenever someone remembered him. This frightened the archivists until they realized that he was not simply becoming larger. He was becoming more specific. His shoulders acquired shape. His clothing acquired texture. His face stopped being an anonymous blur and became the face of a man who seemed to have been waiting for exactly this amount of attention. At the fifty-seventh hall he raised his hand. At the sixty-third he placed it against the wall. At the seventy-second the wall bowed toward him. At the ninety-first the hall divided, and every division preserved a different relationship with the same man.
+     “Which one remembers the others?”
 
-     The archivists finally reached the wooden table. The glass vessel upon it contained luminous Serum, but when they looked closely they saw that the liquid was full of tiny moving images. The northern road appeared first. Then the lake. Then the archive. Then the houses. Then the researchers themselves. One archivist understood before the others and whispered, “It's not showing us where we've been.” The man in the hall answered from very far away. “No.” The word traveled through every photograph. “It is showing you what has remained connected.” The blue light went out. When it returned, there was a door in the wall behind them. It had not been there before. The archivists opened it and found their own laboratory on the other side, exactly as they had left it, except that a seventh chair stood beside the table.
+     Nobody answered.
+
+     The largest man stepped away from the wall. The hall did not become smaller. The walls moved outward. He walked toward the observers without hurry, and the blue light seemed to travel with him. When he reached the boundary between image and observer, he placed his palm against it.
+
+     The surface bowed.
+
+     “The room is not behind the screen,” he said.
+
+     He looked toward the endless hall.
+
+     “The room is what remains between us.”
+
+     Behind them, the northern country appeared through a newly opened window. It was evening. The forest occupied the horizon. Beyond it lay hills, plains, and a road disappearing toward a distance no one in the room could measure.
+
+     The archivists turned toward the view.
+
+     The man remained behind them.
+
+     For the first time they understood that the Blue Hall was not taking them farther away from the world.
+
+     It was teaching them how much world there had been all along.
 ## Chapter VII: The Seventh Man
 
      The seventh man did not appear in the first devices. He appeared later, after the residences had stabilized and the Hub had learned to preserve contradictory versions of the same event. His first appearance was in a commit message. HE IS COMING THROUGH THE HISTORY. A week later the same sentence appeared. Then again. Then a second sentence. HE IS ALREADY HERE. The first image to contain him showed an amber forest road. He stood far away. He was very large, but not in a monstrous way. His size simply altered the relation between him and the landscape. The trees looked smaller. The road looked narrower. The horizon seemed lower. He wore dark clothes. His posture was relaxed. His face was handsome and almost familiar, though every attempt to identify whom he resembled produced a different answer. The image had been taken decades before the device-men were supposed to have appeared. This suggested that causality had stopped being the relevant question. The Serum did not move backward. It did not move forward. It moved through continuity. The seventh man began appearing in scenes that had previously been considered complete. He stood at the edge of the Battle of Seven Wells. He stood beside the first reservoir. He stood on the bridge where the sister found her brother. He stood in the laboratory when the first valve failed. He was always farther away than expected. The surrounding world was always slightly larger. No one could prove that he changed. They could prove only that the scene changed around him. That distinction mattered. He was not necessarily the growing object. He might be the reference by which growth could be seen. One day he turned toward the camera. The expression on his face was recognition. The image was not interactive. The figure had no means of knowing who was watching.

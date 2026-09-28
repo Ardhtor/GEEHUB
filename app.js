@@ -3,9 +3,16 @@ const $=s=>document.querySelector(s);
 const seen=new Set(readSeen());
 const SEEN_KEY='geehub-world-seen';
 const ROOM_KEY='geehub-room-state';
+const ARTIFACT_KEY='geehub-artifacts';
 function readSeen(){try{const x=JSON.parse(localStorage.getItem(SEEN_KEY)||'[]');return Array.isArray(x)?x.filter(v=>typeof v==='string'):[];}catch{return[];}}
 function saveSeen(){localStorage.setItem(SEEN_KEY,JSON.stringify([...seen]));}
 function roomState(){try{return JSON.parse(localStorage.getItem(ROOM_KEY)||'{}');}catch{return{};}}
+function artifacts(){try{const x=JSON.parse(localStorage.getItem(ARTIFACT_KEY)||'[]');return Array.isArray(x)?x:[];}catch{return[];}}
+function saveArtifacts(x){localStorage.setItem(ARTIFACT_KEY,JSON.stringify(x));}
+function addArtifact(type,title,body,seed){const a=artifacts();a.unshift({id:Date.now(),type,title,body,seed:seed||body});saveArtifacts(a.slice(0,24));renderArtifacts();dreamFromArtifacts();}
+function dreamFromArtifacts(){const a=artifacts();$('#dreamText').textContent=a.length?'Dream material: '+a.slice(0,4).map(x=>x.title).join(' · '):'The next dream begins with whatever this task leaves behind.';}
+function renderArtifacts(){const host=$('#artifactStage');if(!host)return;const a=artifacts();if(!a.length){host.innerHTML='<div class="artifact-empty">No residue yet. Resolve something and let the room keep it.</div>';return;}host.innerHTML=a.slice(0,8).map(x=>'<article class="artifact-card"><div class="artifact-glyph">✦</div><div class="eyebrow">'+x.type+'</div><h3>'+x.title+'</h3><p>'+x.body+'</p></article>').join('');}
+function resolveCurrentTask(){addArtifact('PASSAGE','THE RESOLUTION','The current task resolved into a visible remainder: the shared artifact room itself.','current task');addArtifact('SCENE','THE SHARED ROOM','A place where passages, images, scenes, code, sound, and memory can coexist as things that happened.','shared visual experience');$('#bitTitle').textContent='RESOLUTION BECAME VISIBLE';$('#bitText').textContent='The work now leaves something behind that can be seen, revisited, and dreamed from.';$('#trailText').textContent='TASK → RESOLUTION → ARTIFACT → DREAM';}
 function saveRoomState(x){localStorage.setItem(ROOM_KEY,JSON.stringify(x));}
 function syncVisited(){document.querySelectorAll('.node').forEach(x=>x.classList.toggle('visited',seen.has(x.dataset.id)));$('#visit').textContent=seen.size?seen.size+' PLACE'+(seen.size===1?'':'S')+' VISITED':'FIRST ARRIVAL';}
 async function load(){
@@ -72,4 +79,4 @@ $('#transportBtn').addEventListener('click',transport);
 $('#siphon').addEventListener('click',siphon);
 $('#forgetTrail').addEventListener('click',forgetTrail);
 $('#center').addEventListener('click',()=>{$('#bitTitle').textContent='YOU ARE IN THE WORLD';$('#bitText').textContent='Nothing has to be finished. The constellation is the thing you live inside.';$('#trailText').textContent='you → world';});
-loadSiphon(); startLive(); load().catch(e=>{$('#bitTitle').textContent='WORLD OFFLINE';$('#bitText').textContent=e.message;});
+$('#resolveTask').addEventListener('click',resolveCurrentTask);loadSiphon();startLive();renderArtifacts();dreamFromArtifacts();load().catch(e=>{$('#bitTitle').textContent='WORLD OFFLINE';$('#bitText').textContent=e.message;});

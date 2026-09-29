@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "mode": "living-world",
+  "persistence": "dropbox",
+  "cycle": [
+    "scan",
+    "select",
+    "transform",
+    "produce",
+    "persist",
+    "remember"
+  ],
+  "input_roots": [
+    "inbox",
+    "corpus",
+    "assets",
+    "characters",
+    "worlds",
+    "experiments"
+  ],
+  "output_roots": [
+    "artifacts",
+    "chapters",
+    "maps",
+    "worlds",
+    "state"
+  ],
+  "artifact_rule": "Every meaningful world action must leave a durable artifact.",
+  "unfinished_rule": "Prefer material that is incomplete, unresolved, or capable of changing.",
+  "canon_rule": "Canon is preserved separately from experiments.",
+  "fallback": "If Dropbox credentials are unavailable, write to dropbox_outbox and continue the world cycle."
+}

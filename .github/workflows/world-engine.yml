@@ -20,26 +20,104 @@ jobs:
       - name: Run world engine
         run: python engine/run_world.py
 
-      - name: Persist production package to Dropbox
+      - name: Pull queued Adobe geography assets
+        if: ${{ secrets.DROPBOX_ACCESS_TOKEN != '' }}
+        run: |
+          python - <<'PY'
+          import json, pathlib, urllib.request
+          q = json.loads(pathlib.Path("engine/adobe_asset_queue.json").read_text())
+          out = pathlib.Path("assets/geography/generated")
+          out.mkdir(parents=True, exist_ok=True)
+          for asset in q.get("assets", []):
+              target = out / asset["filename"]
+              if target.exists():
+                  print("already present:", target)
+                  continue
+              print("pulling:", asset["id"])
+              urllib.request.urlretrieve(asset["source"], target)
+          PY
+
+      - name: Persist production and geography assets to Dropbox
         if: ${{ secrets.DROPBOX_ACCESS_TOKEN != '' }}
         env:
           DROPBOX_ACCESS_TOKEN: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
         run: |
           python - <<'PY'
-          import json, os, pathlib, urllib.request
+          import json, os, pathlib, urllib.request, urllib.error
+
           token = os.environ["DROPBOX_ACCESS_TOKEN"]
+
+          def api(path, arg):
+              req = urllib.request.Request(
+                  "https://api.dropboxapi.com/2/" + path,
+                  data=json.dumps(arg).encode(),
+                  method="POST",
+                  headers={
+                      "Authorization": "Bearer " + token,
+                      "Content-Type": "application/json",
+                  },
+              )
+              try:
+                  with urllib.request.urlopen(req) as r:
+                      return r.read().decode()
+              except urllib.error.HTTPError as e:
+                  body = e.read().decode()
+                  if e.code == 409 and "path/conflict/folder" in body:
+                      return body
+                  raise
+
+          for folder in ("/GEEHUB/production", "/GEEHUB/maps/adobe", "/GEEHUB/assets/adobe"):
+              print("ensure folder:", folder)
+              api("files/create_folder_v2", {"path": folder, "autorename": False})
+
           for p in pathlib.Path("dropbox_outbox").glob("*.json"):
               body = p.read_bytes()
-              arg = json.dumps({"path": "/GEEHUB/production/" + p.name, "mode": "add", "autorename": True, "mute": False})
-              req = urllib.request.Request("https://content.dropboxapi.com/2/files/upload", data=body, method="POST", headers={"Authorization": "Bearer " + token, "Content-Type": "application/octet-stream", "Dropbox-API-Arg": arg})
+              arg = json.dumps({
+                  "path": "/GEEHUB/production/" + p.name,
+                  "mode": "add",
+                  "autorename": True,
+                  "mute": False
+              })
+              req = urllib.request.Request(
+                  "https://content.dropboxapi.com/2/files/upload",
+                  data=body,
+                  method="POST",
+                  headers={
+                      "Authorization": "Bearer " + token,
+                      "Content-Type": "application/octet-stream",
+                      "Dropbox-API-Arg": arg
+                  }
+              )
+              with urllib.request.urlopen(req) as r:
+                  print(r.read().decode())
+
+          for p in pathlib.Path("assets/geography/generated").glob("*"):
+              if not p.is_file():
+                  continue
+              arg = json.dumps({
+                  "path": "/GEEHUB/maps/adobe/" + p.name,
+                  "mode": "overwrite",
+                  "autorename": False,
+                  "mute": False
+              })
+              req = urllib.request.Request(
+                  "https://content.dropboxapi.com/2/files/upload",
+                  data=p.read_bytes(),
+                  method="POST",
+                  headers={
+                      "Authorization": "Bearer " + token,
+                      "Content-Type": "application/octet-stream",
+                      "Dropbox-API-Arg": arg
+                  }
+              )
               with urllib.request.urlopen(req) as r:
                   print(r.read().decode())
           PY
 
-      - name: Commit world output
+      - name: Commit world output and generated geography
         run: |
           git config user.name "GEEHUB World Engine"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add engine/state.json lore/AUTONOMOUS_STREAM.md novel/WORLDS.md artifacts/ dropbox_outbox/
-          git diff --cached --quiet || git commit -m "Autonomous world production"
+          git add engine/state.json lore/AUTONOMOUS_STREAM.md novel/WORLDS.md artifacts/ dropbox_outbox/ assets/geography/generated/
+          git diff --cached --quiet || git commit -m "Autonomous world production and geography assets"
           git push

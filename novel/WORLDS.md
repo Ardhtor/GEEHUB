@@ -9,3 +9,7 @@ Each world contributes continuously to its own accumulating novel material.
 ## Pulse 3: DEEP LORE
 
      KIRK waited inside DEEP LORE. Nothing was explained. The room continued around them.
+
+## Pulse 4: NOVEL ENGINE
+
+     JOSEPH returned to NOVEL ENGINE. Nothing was explained. The room continued around them.

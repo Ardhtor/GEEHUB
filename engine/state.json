@@ -1,5 +1,5 @@
 {
-  "pulse": 3,
+  "pulse": 4,
   "events": [
     {
       "pulse": 1,
@@ -21,6 +21,13 @@
       "actor": "KIRK",
       "world": "DEEP LORE",
       "text": "KIRK waited inside DEEP LORE. Nothing was explained. The room continued around them."
+    },
+    {
+      "pulse": 4,
+      "time": "2026-09-29T15:52:39.827909+00:00",
+      "actor": "JOSEPH",
+      "world": "NOVEL ENGINE",
+      "text": "JOSEPH returned to NOVEL ENGINE. Nothing was explained. The room continued around them."
     }
   ]
 }

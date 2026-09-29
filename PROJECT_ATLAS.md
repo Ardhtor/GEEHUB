@@ -48,6 +48,7 @@ Current implementation: static browser, searchable records, facets, chronology-o
 - HTML/JavaScript and Python game prototypes.
 - Research and writing systems around dialogue, impressionability, media, religion, and philosophy.
 - Experimental assistants and coaches built around growth, discovery, and iterative transformation.
+- Interactive athlete profiles that make portraits navigable training surfaces; see [FORM / Athlete Lab](creative/athlete-lab/).
 
 ## Archive rules
 

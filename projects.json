@@ -1,19 +1,257 @@
 [
-  {"id":"bodylounger","name":"BodyLounger Research Archive","status":"active","kind":"research","repo":"Ardhtor/GEEHUB","path":"/","description":"Provenance-first index of the old-web muscle/transformation-media ecosystem.","related":["beefythiq","the-complex","growth-canvas","discovery"]},
-  {"id":"beefythiq","name":"Beefythiq","status":"concept","kind":"system","repo":null,"description":"A generative grammar for escalating transformation, mass, association, and mutation.","related":["growth-canvas","the-complex","facility","mass1v1ng"]},
-  {"id":"the-complex","name":"The Complex","status":"concept","kind":"world","repo":null,"description":"Persistent creative environment where encounters become creations and creations transform.","related":["beefythiq","muscle-myth","facility","vision-workspace"]},
-  {"id":"vision-workspace","name":"Vision / Living Workspace","status":"active","kind":"interface","repo":"Ardhtor/GEEHUB","path":"/","description":"The emerging umbrella layer for compiling project nodes, research, lore, visual artifacts, and continuity into something visible and navigable.","related":["the-complex","discovery","retro-lab","veyrthalis"]},
-  {"id":"veyrthalis","name":"Veyrthalis","status":"active","kind":"world","repo":"Ardhtor/GEEHUB","path":"/lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md","description":"A foggy dark expanse with Florentine/Victorian roots, the Digitorium, Procession, Binding, Temple of Moon, and layered mythic spaces. Includes an experimental hyperspace expedition record awaiting reconciliation with older lore.","related":["the-complex","muscle-myth","vision-workspace","hyperspace-expedition"]},
-  {"id":"hyperspace-expedition","name":"Hyperspace Expedition","status":"experimental","kind":"story-branch","repo":"Ardhtor/GEEHUB","path":"/lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md","description":"Four-man descent into a vast valley city integrated with an ancient living presence; Kirk and Joseph experience anomalous shared perceptions while their bond and identities remain continuous.","related":["veyrthalis","the-complex","beefythiq","mass1v1ng"]},
-  {"id":"growth-canvas","name":"Growth Canvas","status":"prototype","kind":"tool","repo":null,"description":"Visual substrate for seeds, rules, latency, anomalies, tracking, and transformation experiments.","related":["beefythiq","liminal-gains","media-tools"]},
-  {"id":"liminal-gains","name":"Liminal Gains","status":"prototype","kind":"game","repo":null,"description":"Interactive transformation game prototype with growth orbs and cooperative mechanics.","related":["growth-canvas","beefythiq"]},
-  {"id":"big-bruteforce","name":"BIG BRUTEFORCE","status":"prototype","kind":"game","repo":null,"description":"Mutation-engine game concept built around repeated push, mutate, and rest cycles.","related":["beefythiq"]},
-  {"id":"mass1v1ng","name":"Mass1v1ng Growth Framework","status":"exploration","kind":"creative-system","repo":null,"description":"An explicitly imaginative transformation framework organized around accumulation, thresholds, scale, altered baselines, presence, and mutation.","related":["beefythiq","growth-canvas","the-complex"]},
-  {"id":"facility","name":"The Facility","status":"canon","kind":"world","repo":null,"description":"Clinical-white adult-male research complex with sealed ecosystems, experiments, feedback, and slapstick escalation.","related":["the-complex","muscle-myth","beefythiq"]},
-  {"id":"muscle-myth","name":"Muscle Myth","status":"canon","kind":"myth","repo":null,"description":"Mythic framework and pantheon connected to transformation, recognition, embodiment, and continuity.","related":["the-complex","facility","veyrthalis"]},
-  {"id":"media-tools","name":"Media Tools","status":"exploration","kind":"tooling","repo":null,"description":"Content-aware enhancement, video/image processing, tracking, and visual experimentation.","related":["growth-canvas","vision-workspace"]},
-  {"id":"discovery","name":"Discovery Systems","status":"exploration","kind":"tooling","repo":null,"description":"Recommendation, tagging, browsing, filtering, and live discovery systems.","related":["bodylounger","the-complex","vision-workspace"]},
-  {"id":"writing-research","name":"Writing & Research","status":"active","kind":"research","repo":null,"description":"Academic and long-form work spanning dialogue, impressionability, media, religion, philosophy, and creative research.","related":["the-complex","vision-workspace"]},
-  {"id":"retro-lab","name":"Retro Lab","status":"exploration","kind":"aesthetic","repo":null,"description":"Y2K, 90s/2000s, Heisei-era interface and media experiments.","related":["media-tools","discovery","vision-workspace"]},
-  {"id":"male-harem-virtual-space","name":"Male Harem Virtual Space","status":"active","kind":"visual-archive","group":"visual","repo":"Ardhtor/GEEHUB","path":"/archive/male-harem/","description":"Living visual roster and shared virtual environment. Original source photographs of muscular white men are archived alongside generated group scenes and extreme-size studies. Treated as a primary visual artifact node focused on presence, mass, and continuity of form. Current focus: the two growingest / most extreme buff subjects (Office Tank + Posing Trunks).","related":["beefythiq","mass1v1ng","muscle-myth","media-tools","growth-canvas","the-complex","facility","bodylounger"],"tags":["visual","muscle","harem","growth","archive","extreme-size"]}
+  {
+    "id": "bodylounger",
+    "name": "BodyLounger Research Archive",
+    "status": "active",
+    "kind": "research",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/",
+    "description": "Provenance-first index of the old-web muscle/transformation-media ecosystem.",
+    "related": [
+      "beefythiq",
+      "the-complex",
+      "growth-canvas",
+      "discovery"
+    ]
+  },
+  {
+    "id": "beefythiq",
+    "name": "Beefythiq",
+    "status": "concept",
+    "kind": "system",
+    "repo": null,
+    "description": "A generative grammar for escalating transformation, mass, association, and mutation.",
+    "related": [
+      "growth-canvas",
+      "the-complex",
+      "facility",
+      "mass1v1ng"
+    ]
+  },
+  {
+    "id": "the-complex",
+    "name": "The Complex",
+    "status": "concept",
+    "kind": "world",
+    "repo": null,
+    "description": "Persistent creative environment where encounters become creations and creations transform.",
+    "related": [
+      "beefythiq",
+      "muscle-myth",
+      "facility",
+      "vision-workspace"
+    ]
+  },
+  {
+    "id": "vision-workspace",
+    "name": "Vision / Living Workspace",
+    "status": "active",
+    "kind": "interface",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/",
+    "description": "The emerging umbrella layer for compiling project nodes, research, lore, visual artifacts, and continuity into something visible and navigable.",
+    "related": [
+      "the-complex",
+      "discovery",
+      "retro-lab",
+      "veyrthalis"
+    ]
+  },
+  {
+    "id": "veyrthalis",
+    "name": "Veyrthalis",
+    "status": "active",
+    "kind": "world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+    "description": "A foggy dark expanse with Florentine/Victorian roots, the Digitorium, Procession, Binding, Temple of Moon, and layered mythic spaces. Includes an experimental hyperspace expedition record awaiting reconciliation with older lore.",
+    "related": [
+      "the-complex",
+      "muscle-myth",
+      "vision-workspace",
+      "hyperspace-expedition"
+    ]
+  },
+  {
+    "id": "hyperspace-expedition",
+    "name": "Hyperspace Expedition",
+    "status": "experimental",
+    "kind": "story-branch",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+    "description": "Four-man descent into a vast valley city integrated with an ancient living presence; Kirk and Joseph experience anomalous shared perceptions while their bond and identities remain continuous.",
+    "related": [
+      "veyrthalis",
+      "the-complex",
+      "beefythiq",
+      "mass1v1ng"
+    ]
+  },
+  {
+    "id": "growth-canvas",
+    "name": "Growth Canvas",
+    "status": "prototype",
+    "kind": "tool",
+    "repo": null,
+    "description": "Visual substrate for seeds, rules, latency, anomalies, tracking, and transformation experiments.",
+    "related": [
+      "beefythiq",
+      "liminal-gains",
+      "media-tools"
+    ]
+  },
+  {
+    "id": "athlete-lab",
+    "name": "FORM / Athlete Lab",
+    "status": "prototype",
+    "kind": "visual-experience",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/creative/athlete-lab/",
+    "description": "Interactive athlete profile and field studies that turn user-supplied images into selectable spatial experiences and session traces.",
+    "related": [
+      "growth-canvas",
+      "media-tools",
+      "vision-workspace"
+    ]
+  },
+  {
+    "id": "liminal-gains",
+    "name": "Liminal Gains",
+    "status": "prototype",
+    "kind": "game",
+    "repo": null,
+    "description": "Interactive transformation game prototype with growth orbs and cooperative mechanics.",
+    "related": [
+      "growth-canvas",
+      "beefythiq"
+    ]
+  },
+  {
+    "id": "big-bruteforce",
+    "name": "BIG BRUTEFORCE",
+    "status": "prototype",
+    "kind": "game",
+    "repo": null,
+    "description": "Mutation-engine game concept built around repeated push, mutate, and rest cycles.",
+    "related": [
+      "beefythiq"
+    ]
+  },
+  {
+    "id": "mass1v1ng",
+    "name": "Mass1v1ng Growth Framework",
+    "status": "exploration",
+    "kind": "creative-system",
+    "repo": null,
+    "description": "An explicitly imaginative transformation framework organized around accumulation, thresholds, scale, altered baselines, presence, and mutation.",
+    "related": [
+      "beefythiq",
+      "growth-canvas",
+      "the-complex"
+    ]
+  },
+  {
+    "id": "facility",
+    "name": "The Facility",
+    "status": "canon",
+    "kind": "world",
+    "repo": null,
+    "description": "Clinical-white adult-male research complex with sealed ecosystems, experiments, feedback, and slapstick escalation.",
+    "related": [
+      "the-complex",
+      "muscle-myth",
+      "beefythiq"
+    ]
+  },
+  {
+    "id": "muscle-myth",
+    "name": "Muscle Myth",
+    "status": "canon",
+    "kind": "myth",
+    "repo": null,
+    "description": "Mythic framework and pantheon connected to transformation, recognition, embodiment, and continuity.",
+    "related": [
+      "the-complex",
+      "facility",
+      "veyrthalis"
+    ]
+  },
+  {
+    "id": "media-tools",
+    "name": "Media Tools",
+    "status": "exploration",
+    "kind": "tooling",
+    "repo": null,
+    "description": "Content-aware enhancement, video/image processing, tracking, and visual experimentation.",
+    "related": [
+      "growth-canvas",
+      "vision-workspace"
+    ]
+  },
+  {
+    "id": "discovery",
+    "name": "Discovery Systems",
+    "status": "exploration",
+    "kind": "tooling",
+    "repo": null,
+    "description": "Recommendation, tagging, browsing, filtering, and live discovery systems.",
+    "related": [
+      "bodylounger",
+      "the-complex",
+      "vision-workspace"
+    ]
+  },
+  {
+    "id": "writing-research",
+    "name": "Writing & Research",
+    "status": "active",
+    "kind": "research",
+    "repo": null,
+    "description": "Academic and long-form work spanning dialogue, impressionability, media, religion, philosophy, and creative research.",
+    "related": [
+      "the-complex",
+      "vision-workspace"
+    ]
+  },
+  {
+    "id": "retro-lab",
+    "name": "Retro Lab",
+    "status": "exploration",
+    "kind": "aesthetic",
+    "repo": null,
+    "description": "Y2K, 90s/2000s, Heisei-era interface and media experiments.",
+    "related": [
+      "media-tools",
+      "discovery",
+      "vision-workspace"
+    ]
+  },
+  {
+    "id": "male-harem-virtual-space",
+    "name": "Male Harem Virtual Space",
+    "status": "active",
+    "kind": "visual-archive",
+    "group": "visual",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/archive/male-harem/",
+    "description": "Living visual roster and shared virtual environment. Original source photographs of muscular white men are archived alongside generated group scenes and extreme-size studies. Treated as a primary visual artifact node focused on presence, mass, and continuity of form. Current focus: the two growingest / most extreme buff subjects (Office Tank + Posing Trunks).",
+    "related": [
+      "beefythiq",
+      "mass1v1ng",
+      "muscle-myth",
+      "media-tools",
+      "growth-canvas",
+      "the-complex",
+      "facility",
+      "bodylounger"
+    ],
+    "tags": [
+      "visual",
+      "muscle",
+      "harem",
+      "growth",
+      "archive",
+      "extreme-size"
+    ]
+  }
 ]

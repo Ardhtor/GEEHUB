@@ -131,6 +131,16 @@
       "size": 1.34,
       "path": "./lore/DEEP_LORE.md",
       "description": "The world speaking through residue: recurring laws, poetic traces, returns, witnesses, thresholds, names, and things the archive cannot say directly."
+    },
+    {
+      "id": "athlete-lab",
+      "name": "ATHLETE LAB",
+      "kind": "INTERACTIVE PROFILE",
+      "x": 89,
+      "y": 69,
+      "size": 1.06,
+      "path": "./creative/athlete-lab/",
+      "description": "A portrait becomes a training surface: select a muscle group, explore exercise suggestions, and record a session."
     }
   ],
   "pleasureBits": [

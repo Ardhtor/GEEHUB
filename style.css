@@ -18,3 +18,15 @@
 @keyframes swarvicA{0%{margin-left:0;transform:translate(-82px,-75px) rotateZ(var(--dance-tilt)) rotateY(var(--dance-angle))}48%{margin-left:var(--dance-arc);transform:translate(-52px,-105px) rotateZ(calc(var(--dance-tilt) * -1)) rotateY(calc(var(--dance-angle) + 38deg))}100%{margin-left:0}}
 @keyframes swarvicB{0%{margin-left:0}48%{margin-left:calc(var(--dance-arc) * -.72);transform:translate(70px,-45px) rotateZ(calc(var(--dance-tilt) * 1.4)) rotateY(calc(var(--dance-angle) - 46deg))}100%{margin-left:0}}
 @media(max-width:700px){.dance-head{align-items:flex-start;flex-direction:column}.dance-field{height:350px}}
+
+.world-visual{position:relative;height:min(72vh,720px);min-height:520px;margin:24px 0;border:1px solid #303842;border-radius:18px;overflow:hidden;background:#05070a;box-shadow:0 25px 70px rgba(0,0,0,.38)}
+#worldCanvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.visual-vignette{position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 50% 48%,transparent 25%,rgba(0,0,0,.18) 58%,rgba(0,0,0,.72) 100%)}
+.visual-overlay{position:absolute;inset:0;display:flex;justify-content:space-between;align-items:flex-end;padding:24px;pointer-events:none}
+.visual-overlay strong{display:block;margin-top:6px;font:600 clamp(22px,4vw,48px)/1.05 Georgia,serif;letter-spacing:-.03em;text-shadow:0 2px 18px #000}
+.visual-enter{pointer-events:auto;border:1px solid rgba(220,230,240,.42);background:rgba(10,13,17,.68);backdrop-filter:blur(8px);color:#e8ebef;border-radius:999px;padding:12px 22px;font:700 11px "Courier New",monospace;letter-spacing:.16em;cursor:pointer}
+.visual-enter:hover{background:#e8ebef;color:#090c10}
+.visual-caption{position:absolute;top:16px;left:18px;color:rgba(220,225,230,.48);font:9px "Courier New",monospace;letter-spacing:.18em}
+.world-visual.visual-active .visual-enter{opacity:.35}
+.world-visual.visual-active .visual-overlay strong{opacity:.55}
+@media(max-width:700px){.world-visual{min-height:440px;height:60vh}.visual-overlay{padding:16px}.visual-overlay strong{font-size:25px}}

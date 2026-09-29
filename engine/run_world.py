@@ -12,6 +12,24 @@ OUTBOX = ROOT / "dropbox_outbox"
 
 WORLDS = ["PYYRO ENERGY", "POETRY SEEP", "DEEP LORE", "NOVEL ENGINE", "VEY RTHALIS", "THE COMPLEX"]
 ACTORS = ["LUKE", "TYLER", "KIRK", "JOSEPH"]
+DESIRE_STATES = [
+    "approach",
+    "proximity",
+    "attention",
+    "tension",
+    "tenderness",
+    "jealousy",
+    "recognition",
+    "afterglow",
+]
+DESIRE_QUESTIONS = [
+    "Who is being drawn toward whom?",
+    "What changes when two people remain close?",
+    "What is wanted but not yet spoken?",
+    "What does proximity reveal about this place?",
+    "What remains after the encounter?",
+    "What relationship is becoming more important?",
+]
 
 for p in (STATE.parent, LORE.parent, NOVEL.parent, ARTIFACT_DIR, OUTBOX):
     p.mkdir(parents=True, exist_ok=True)
@@ -25,8 +43,9 @@ pulse = state.get("pulse", 0) + 1
 now = datetime.datetime.now(datetime.timezone.utc).isoformat()
 actor = ACTORS[(pulse - 1) % len(ACTORS)]
 world = WORLDS[(pulse - 1) % len(WORLDS)]
+desire_state = DESIRE_STATES[(pulse - 1) % len(DESIRE_STATES)]
+desire_question = DESIRE_QUESTIONS[(pulse - 1) % len(DESIRE_QUESTIONS)]
 
-# Discover actual material instead of cycling through an empty vocabulary.
 roots = ["corpus", "assets", "characters", "worlds", "experiments"]
 candidates = []
 for root in roots:
@@ -37,16 +56,54 @@ for root in roots:
                 candidates.append(str(path.relative_to(ROOT)))
 
 source = candidates[(pulse - 1) % len(candidates)] if candidates else "engine/UNFINISHED.md"
-action = f"{actor} opened {source} and carried its unfinished edge into {world}."
 
-questions = [\n    "What is unfinished here?",\n    "What is missing from this place?",\n    "What does this encounter change?",\n    "What should exist because this happened?",\n]\nquestion = questions[(pulse - 1) % len(questions)]\n\nevent = {"pulse": pulse, "time": now, "actor": actor, "world": world, "source": source, "question": question, "action": action}
+action = (
+    f"{actor} opened {source} and carried its unfinished edge into {world}. "
+    f"The world entered a state of {desire_state}; attention and proximity became part of the place."
+)
+
+event = {
+    "pulse": pulse,
+    "time": now,
+    "actor": actor,
+    "world": world,
+    "source": source,
+    "desire_state": desire_state,
+    "question": desire_question,
+    "action": action,
+}
 state["pulse"] = pulse
 state.setdefault("events", []).append(event)
 state["events"] = state["events"][-1000:]
+state["current_desire_state"] = desire_state
+state["current_question"] = desire_question
 STATE.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
 
 artifact_id = f"world-production-{pulse:06d}"
-artifact = {\n    "id": artifact_id,\n    "created_at": now,\n    "source": "GEEHUB autonomous world engine",\n    "kind": "world-production",\n    "title": f"{world} / {source}",\n    "question": question,\n    "content": action,\n    "production_note": f"The world encountered {source}, asked \\"{question}\\", and left a changed state behind.",\n    "lineage": {"pulse": pulse, "actor": actor, "world": world, "source": source},\n    "canon": "unclassified",\n    "dreamable": True,\n    "next_action": "encounter this artifact again"\n}
+artifact = {
+    "id": artifact_id,
+    "created_at": now,
+    "source": "GEEHUB autonomous world engine",
+    "kind": "world-production",
+    "title": f"{world} / {source}",
+    "desire_state": desire_state,
+    "question": desire_question,
+    "content": action,
+    "production_note": (
+        f"The world encountered {source}, moved through {desire_state}, "
+        f"asked '{desire_question}', and left a changed state behind."
+    ),
+    "lineage": {
+        "pulse": pulse,
+        "actor": actor,
+        "world": world,
+        "source": source,
+        "desire_state": desire_state,
+    },
+    "canon": "unclassified",
+    "dreamable": True,
+    "next_action": "encounter this artifact again",
+}
 
 artifact_path = ARTIFACT_DIR / f"{artifact_id}.json"
 artifact_path.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")
@@ -62,13 +119,20 @@ ARTIFACT_INDEX.write_text(json.dumps(ledger, indent=2) + "\n", encoding="utf-8")
 if not LORE.exists():
     LORE.write_text("# GEEHUB // AUTONOMOUS STREAM\n\n", encoding="utf-8")
 with LORE.open("a", encoding="utf-8") as f:
-    f.write(f"\n### Production {pulse} — {now}\n\n{action}\n")
+    f.write(
+        f"\n### Production {pulse} — {now}\n\n"
+        f"{action}\n\n"
+        f"Question: {desire_question}\n"
+    )
 
 if not NOVEL.exists():
     NOVEL.write_text("# WORLDS // AUTONOMOUS NOVEL MATERIAL\n\n", encoding="utf-8")
 with NOVEL.open("a", encoding="utf-8") as f:
-    f.write(f"\n## {world} / production {pulse}\n\n     {action}\n")
+    f.write(
+        f"\n## {world} / production {pulse}\n\n"
+        f"     {action}\n"
+        f"     The question beneath the scene was: {desire_question}\n"
+    )
 
-# The outbox is the exact package the Dropbox bridge consumes.
 package = OUTBOX / f"{artifact_id}.json"
 package.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")

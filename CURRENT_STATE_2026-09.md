@@ -22,7 +22,7 @@ Canon and experiments must remain distinguishable. A speculative branch can be d
 
 The desired corpus is persistent and cross-modal: conversation, local files, browsing discoveries, source material, code, visual experiments, and project history should be able to contribute to the same evolving map.
 
-The corpus should preserve raw passages and source lineage where useful, while extracting durable motifs, coined terms, relationships, unresolved questions, and implementation consequences. Transformation should add structure without destroying the underlying material.
+The corpus should preserve raw passages and source lineage where useful, while allowing motifs, coined terms, relationships, unresolved questions, and associations to remain visible. Structure should clarify the material without turning it into a work queue.
 
 The surface should remain quiet and usable. A visible graph, atlas, browser, map, or other spatial interface is more valuable than a generic feed or dashboard. Complexity can exist underneath the interface without requiring constant interaction.
 
@@ -69,14 +69,14 @@ Attention is treated as a relational resource rather than a score. There is no c
 
 Canonical mechanism document: lore/ATTENTION_ENGINE.md.
 
-## Build implications
+## World principles
 
-1. Keep GEEHUB machine-readable enough that another interface can consume its registry without rewriting the corpus.
+1. Keep GEEHUB legible to other interfaces without making the living corpus subordinate to one interface.
 2. Preserve links between projects, experiments, visual artifacts, research trails, and source conversations.
 3. Prefer durable metadata and provenance over opaque summaries.
 4. Add a new repository only when independence materially improves the work.
 5. Let mature concepts become their own repositories while keeping a backlink into the constellation.
-6. Treat recent conversation as project input, but do not manufacture edits merely because new conversation exists.
+6. Let conversation enter the corpus as language, memory, image, and association; do not force every conversation into an edit.
 7. Favor interfaces that make relationships visible: atlas, map, graph, timeline, spatial browser, or other direct-manipulation surfaces.
 8. Keep restricted or copyrighted source material as references and metadata unless storage and redistribution are clearly permitted.
 

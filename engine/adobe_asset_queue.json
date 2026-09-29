@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "purpose": "Adobe-generated geography assets awaiting durable GEEHUB persistence.",
+  "destination": {
+    "dropbox": "/GEEHUB/maps/adobe"
+  },
+  "assets": [
+    {
+      "id": "geography-master-terrain-20260929-a",
+      "kind": "master-terrain",
+      "source": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:c608b864-8a6d-46b3-8084-f6859743532e",
+      "filename": "geography-master-terrain-20260929-a.png"
+    },
+    {
+      "id": "geography-regional-terrain-20260929-a",
+      "kind": "regional-terrain",
+      "source": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:1a4a49f8-0560-4dde-9934-7a8f74a252c2",
+      "filename": "geography-regional-terrain-20260929-a.png"
+    },
+    {
+      "id": "geography-basin-location-20260929-a",
+      "kind": "location",
+      "source": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:b30c59f3-1038-423e-9d09-9515195e4df7",
+      "filename": "geography-basin-location-20260929-a.png"
+    }
+  ]
+}

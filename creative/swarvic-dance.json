@@ -1,0 +1,26 @@
+{
+  "name": "SWARVIC DANCE",
+  "version": 1,
+  "grammar": ["orbit","snap","fold","cross","release","return"],
+  "quality": "crystalline angular circular motion",
+  "rule": "No movement repeats exactly. Each return is displaced.",
+  "visual": {
+    "camera": "slow orbit with brief locked frames",
+    "field": "dark reflective plane",
+    "trace": "thin luminous paths",
+    "body": "faceted silhouettes with soft edges"
+  },
+  "sequence": [
+    {"move":"ORBIT","duration":900,"arc":120,"tilt":8},
+    {"move":"SNAP","duration":260,"arc":18,"tilt":-14},
+    {"move":"FOLD","duration":620,"arc":-70,"tilt":22},
+    {"move":"CROSS","duration":780,"arc":155,"tilt":-8},
+    {"move":"RELEASE","duration":1100,"arc":220,"tilt":4},
+    {"move":"RETURN","duration":840,"arc":-105,"tilt":-18}
+  ],
+  "worldEffect": {
+    "proximity": "draws the floor lines toward the dancers",
+    "return": "moves the next position rather than restoring the old one",
+    "exception": "occasionally reverse one gesture"
+  }
+}

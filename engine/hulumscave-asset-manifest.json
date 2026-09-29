@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "purpose": "GEEHUB -> HULUMSCAVE content creation",
+  "license_policy": "CC0-only seed library",
+  "sources": [
+    {"provider":"Poly Haven","license":"CC0","license_url":"https://polyhaven.com/license","homepage":"https://polyhaven.com/","role":"cinematic lighting, photoreal environments, PBR surfaces, natural/industrial world texture"},
+    {"provider":"Kenney","license":"CC0","license_url":"https://kenney.nl/support","homepage":"https://kenney.nl/","role":"rapid blocking, modular architecture, vehicles, characters, animation/prototype geometry"}
+  ],
+  "assets": [
+    {"id":"ph-hidden-alley","provider":"Poly Haven","type":"collection","name":"The Hidden Alley","url":"https://polyhaven.com/collections/the-hidden-alley","role":"Hulumscave urban night / forgotten passage"},
+    {"id":"ph-pine-forest","provider":"Poly Haven","type":"collection","name":"Pine Forest","url":"https://polyhaven.com/collections/pine-forest","role":"dark forest / transition space"},
+    {"id":"ph-smugglers-cove","provider":"Poly Haven","type":"collection","name":"The Smuggler's Cove","url":"https://polyhaven.com/collections/the-smugglers-cove","role":"nautical / cavern / adventure space"},
+    {"id":"ph-industrial-hdris","provider":"Poly Haven","type":"catalog","name":"Industrial HDRIs","url":"https://polyhaven.com/hdris?c=industrial","role":"Maya-like industrial lighting beds"},
+    {"id":"ph-models","provider":"Poly Haven","type":"catalog","name":"Models","url":"https://polyhaven.com/models","role":"hero props and set dressing"},
+    {"id":"kenney-prototype-kit","provider":"Kenney","type":"kit","name":"Prototype Kit","url":"https://kenney.nl/assets/prototype-kit","role":"blocking bodies, buildings, vehicles and animation-ready pieces"},
+    {"id":"kenney-city-suburban","provider":"Kenney","type":"kit","name":"City Kit (Suburban)","url":"https://kenney.nl/assets/city-kit-suburban","role":"street geometry / exterior blocking"},
+    {"id":"kenney-marble-kit","provider":"Kenney","type":"kit","name":"Marble Kit","url":"https://kenney.nl/assets/marble-kit","role":"graphic geometric motion inserts"},
+    {"id":"kenney-development-essentials","provider":"Kenney","type":"kit","name":"Development Essentials","url":"https://kenney.nl/assets/development-essentials","role":"prototype materials and technical surfaces"},
+    {"id":"kenney-ui-pack","provider":"Kenney","type":"kit","name":"UI Pack","url":"https://kenney.nl/assets/ui-pack","role":"diegetic CRT/interface overlays and control language"}
+  ],
+  "recipes": [
+    {"id":"hulumscave-night-alley","name":"HULUM'A / NIGHT ALLEY","stack":["ph-hidden-alley","ph-industrial-hdris","ph-models","kenney-city-suburban","kenney-ui-pack"],"output":"60-90 second Maya-2010-feeling micro-scene: arrival -> walk -> pause -> strange machine/UI trace -> departure"},
+    {"id":"hulumscave-forest-transition","name":"HULUM'A / FOREST TRANSITION","stack":["ph-pine-forest","ph-industrial-hdris","ph-models","kenney-prototype-kit","kenney-ui-pack"],"output":"quiet body-scale passage: figure enters woods, environment shifts, one object becomes the memory anchor"},
+    {"id":"hulumscave-cove-machine","name":"HULUM'A / COVE MACHINE","stack":["ph-smugglers-cove","ph-industrial-hdris","ph-models","kenney-prototype-kit","kenney-marble-kit"],"output":"water + machinery + character movement, built around a single impossible mechanical gesture"}
+  ]
+}

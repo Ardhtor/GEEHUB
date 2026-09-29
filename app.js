@@ -48,3 +48,110 @@ const WORLD_GATE_KEY='geehub-world-gate';
 function transport(){const select=$('#worldSelect'),destination=select.value;if(!destination){$('#transportStatus').textContent='No place is chosen yet.';return;}const names={'pyyro-chamber':'PYYRO ENERGY CHAMBER','poetry-seep':'POETRY SEEP','deep-lore':'DEEP LORE','novel-engine':'NOVEL ENGINE','veyrthalis':'VEY RTHALIS'};const s=roomState();s.transit=s.transit||[];s.transit.push({from:'GEEHUB',to:destination,time:new Date().toISOString()});saveRoomState(s);localStorage.setItem(WORLD_GATE_KEY,destination);$('#transportTitle').textContent='A WAY OPENS';$('#transportStatus').textContent='Someone goes to '+names[destination]+'. The destination inherits memory, not coordinates.';$('#trailText').textContent='world → '+names[destination];if(destination==='veyrthalis')setTimeout(()=>{window.location.href='./lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md';},350);}
 function renderRoom(){const host=document.querySelector('#pyyroRoom');if(!host)return;const s=roomState(),traces=s.traces||[];if(!traces.length){host.innerHTML='<div class="room-empty"><div class="eyebrow">PYYRO ROOM</div><h2>QUIET</h2><p>The room is quiet.</p><button id="enterEmptyRoom">enter the room</button></div>';$('#enterEmptyRoom').onclick=roomClick;return;}host.innerHTML='<div class="room-lived"><div class="eyebrow">PYYRO ROOM / MEMORY</div><h2>THE ROOM REMEMBERS</h2><p>'+traces.map((x,i)=>'<span class="room-trace">'+(i+1)+'. '+x.event+'</span>').join('')+'</p><button id="produceAgain">let the room speak again</button></div>';$('#produceAgain').onclick=roomClick;}
 $('#runWorld').addEventListener('click',()=>worldRunning?stopWorld():runWorld());$('#nextBit').addEventListener('click',bit);$('#transportBtn').addEventListener('click',transport);$('#siphon').addEventListener('click',siphon);$('#forgetTrail').addEventListener('click',forgetTrail);$('#center').addEventListener('click',()=>{$('#bitTitle').textContent='YOU ARE IN THE WORLD';$('#bitText').textContent='Nothing has to be finished. The constellation is the thing you live inside.';$('#trailText').textContent='you → world';});loadSiphon();startLive();renderArtifacts();dreamFromArtifacts();renderPresence();renderPlane();initPlane();setInterval(renderPresence,7000);load().catch(e=>{$('#bitTitle').textContent='WORLD OFFLINE';$('#bitText').textContent=e.message;});
+
+/* FILESPACE EXPANSION
+   The hub may discover additional user-approved storage and turn empty/available
+   space into living GEEHUB material. Browser security requires the user to choose
+   the root directory once; after permission is granted, the app can inspect and
+   write within that directory without inventing access to the rest of the device.
+*/
+const FILESPACE_KEY='geehub-filespace';
+let filespaceHandle=null;
+
+function filespaceUI(){
+  if(document.querySelector('#filespaceControl'))return;
+  const wrap=document.createElement('section');
+  wrap.id='filespaceControl';
+  wrap.innerHTML='<div class="eyebrow">FILESPACE</div><h2>EXPAND THE HUB</h2><p id="filespaceStatus">The hub can look for additional space and fill what it finds.</p><div class="filespace-actions"><button id="scanFilespace" type="button">search for additional filespace</button><button id="fillFilespace" type="button" disabled>fill discovered space</button></div><pre id="filespaceReport"></pre>';
+  Object.assign(wrap.style,{position:'fixed',right:'18px',bottom:'18px',zIndex:50,maxWidth:'420px',padding:'16px',background:'rgba(8,10,14,.94)',border:'1px solid rgba(255,255,255,.16)',backdropFilter:'blur(12px)',color:'inherit'});
+  document.body.appendChild(wrap);
+  $('#scanFilespace').onclick=scanFilespace;
+  $('#fillFilespace').onclick=fillFilespace;
+}
+
+async function walkFilespace(dir,path='',out=[]){
+  for await(const [name,entry] of dir.entries()){
+    const next=path?path+'/'+name:name;
+    if(entry.kind==='directory'){
+      if(!name.startsWith('.') && name!=='node_modules') await walkFilespace(entry,next,out);
+    }else{
+      out.push({name,path:next,size:entry.size||0});
+    }
+  }
+  return out;
+}
+
+async function getOrCreateExpansionRoot(root){
+  try{return await root.getDirectoryHandle('GEEHUB_EXPANSION',{create:true});}
+  catch{return root;}
+}
+
+async function scanFilespace(){
+  const status=$('#filespaceStatus'),report=$('#filespaceReport'),fill=$('#fillFilespace');
+  if(!window.showDirectoryPicker){
+    status.textContent='This browser does not expose the File System Access API. Open GEEHUB in a supported secure browser context.';
+    return;
+  }
+  try{
+    filespaceHandle=await window.showDirectoryPicker({mode:'readwrite'});
+    const files=await walkFilespace(filespaceHandle);
+    const existing=files.filter(f=>/geehub|artifact|corpus|lore|world|novel/i.test(f.path));
+    const emptyish=files.filter(f=>f.size===0);
+    const summary=[
+      'DISCOVERED FILESPACE',
+      'files: '+files.length,
+      'GEEHUB-related: '+existing.length,
+      'empty files: '+emptyish.length,
+      '',
+      existing.slice(0,12).map(f=>'FOUND  '+f.path).join('\n') || 'No existing GEEHUB traces found.',
+      '',
+      'The selected space is now available as an expansion surface.'
+    ].join('\n');
+    report.textContent=summary;
+    status.textContent='Space found. The hub has a writable expansion surface.';
+    fill.disabled=false;
+  }catch(e){
+    status.textContent=e.name==='AbortError'?'No filespace was selected.':'Filespace search failed: '+e.message;
+  }
+}
+
+async function writeTextFile(dir,name,text){
+  const h=await dir.getFileHandle(name,{create:true});
+  const w=await h.createWritable();
+  await w.write(text);
+  await w.close();
+}
+
+async function fillFilespace(){
+  if(!filespaceHandle)return;
+  const status=$('#filespaceStatus'),report=$('#filespaceReport');
+  try{
+    const root=await getOrCreateExpansionRoot(filespaceHandle);
+    const now=new Date().toISOString();
+    const a=artifacts().slice(0,24);
+    const manifest={
+      generated_at:now,
+      source:'GEEHUB filespace expansion',
+      purpose:'additional writable memory for artifacts, lore, scenes, and world state',
+      discovered_filespace:'user-selected directory',
+      artifacts:a.map(x=>({type:x.type||'TRACE',title:x.title||'Untitled',body:x.body||''}))
+    };
+    await writeTextFile(root,'FILESYSTEM_MANIFEST.json',JSON.stringify(manifest,null,2));
+    await writeTextFile(root,'README.md','# GEEHUB EXPANSION\n\nThis space was opened by GEEHUB as additional living filespace.\n\n'+a.map(x=>'## '+(x.title||'Artifact')+'\n\n'+(x.body||'')).join('\n\n'));
+    const artifactDir=await root.getDirectoryHandle('artifacts',{create:true});
+    for(let i=0;i<a.length;i++){
+      const x=a[i];
+      const safe=(x.title||'artifact-'+i).replace(/[^a-z0-9_-]+/gi,'-').replace(/^-+|-+$/g,'').slice(0,80)||('artifact-'+i);
+      await writeTextFile(artifactDir,String(i+1).padStart(3,'0')+'-'+safe+'.md','# '+(x.title||'Artifact')+'\n\n'+(x.body||'')+'\n\nTYPE: '+(x.type||'TRACE')+'\nGENERATED: '+now);
+    }
+    const stateDir=await root.getDirectoryHandle('state',{create:true});
+    await writeTextFile(stateDir,'world-state.json',JSON.stringify({generated_at:now,visited:[...seen],room:roomState(),presence,artifact_count:a.length},null,2));
+    status.textContent='Expansion complete. The hub has filled the new space with its current memory and artifacts.';
+    report.textContent+='\n\nFILLED: GEEHUB_EXPANSION/\n  FILESYSTEM_MANIFEST.json\n  README.md\n  artifacts/\n  state/world-state.json';
+    renderArtifacts();
+  }catch(e){
+    status.textContent='Fill failed: '+e.message;
+  }
+}
+
+filespaceUI();

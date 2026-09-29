@@ -1,5 +1,5 @@
 {
-  "pulse": 1,
+  "pulse": 2,
   "events": [
     {
       "pulse": 1,
@@ -7,6 +7,13 @@
       "actor": "LUKE",
       "world": "PYYRO ENERGY",
       "text": "LUKE entered PYYRO ENERGY. Nothing was explained. The room continued around them."
+    },
+    {
+      "pulse": 2,
+      "time": "2026-09-29T02:44:37.918586+00:00",
+      "actor": "TYLER",
+      "world": "POETRY SEEP",
+      "text": "TYLER crossed POETRY SEEP. Nothing was explained. The room continued around them."
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "id": "world-pulse-000002",
+  "created_at": "2026-09-29T02:44:37.918586+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-event",
+  "title": "POETRY SEEP / pulse 2",
+  "content": "TYLER crossed POETRY SEEP. Nothing was explained. The room continued around them.",
+  "lineage": {
+    "pulse": 2,
+    "actor": "TYLER",
+    "world": "POETRY SEEP"
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "quietness": "high"
+}

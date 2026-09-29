@@ -1,89 +1,74 @@
 import datetime
 import json
-import os
+from pathlib import Path
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STATE = os.path.join(ROOT, "engine", "state.json")
-LORE = os.path.join(ROOT, "lore", "AUTONOMOUS_STREAM.md")
-NOVEL = os.path.join(ROOT, "novel", "WORLDS.md")
-ARTIFACT_DIR = os.path.join(ROOT, "artifacts", "world-events")
-ARTIFACT_INDEX = os.path.join(ROOT, "artifacts", "index.json")
+ROOT = Path(__file__).resolve().parents[1]
+STATE = ROOT / "engine" / "state.json"
+LORE = ROOT / "lore" / "AUTONOMOUS_STREAM.md"
+NOVEL = ROOT / "novel" / "WORLDS.md"
+ARTIFACT_DIR = ROOT / "artifacts" / "world-events"
+ARTIFACT_INDEX = ROOT / "artifacts" / "index.json"
+OUTBOX = ROOT / "dropbox_outbox"
 
 WORLDS = ["PYYRO ENERGY", "POETRY SEEP", "DEEP LORE", "NOVEL ENGINE", "VEY RTHALIS", "THE COMPLEX"]
 ACTORS = ["LUKE", "TYLER", "KIRK", "JOSEPH"]
-VERBS = ["entered", "crossed", "waited inside", "returned to", "walked beyond", "stood within"]
 
-os.makedirs(os.path.dirname(STATE), exist_ok=True)
-os.makedirs(os.path.dirname(LORE), exist_ok=True)
-os.makedirs(os.path.dirname(NOVEL), exist_ok=True)
-os.makedirs(ARTIFACT_DIR, exist_ok=True)
+for p in (STATE.parent, LORE.parent, NOVEL.parent, ARTIFACT_DIR, OUTBOX):
+    p.mkdir(parents=True, exist_ok=True)
 
-if os.path.exists(STATE):
-    with open(STATE, encoding="utf-8") as f:
-        state = json.load(f)
+if STATE.exists():
+    state = json.loads(STATE.read_text(encoding="utf-8"))
 else:
     state = {"pulse": 0, "events": []}
 
-state["pulse"] += 1
-pulse = state["pulse"]
+pulse = state.get("pulse", 0) + 1
 now = datetime.datetime.now(datetime.timezone.utc).isoformat()
 actor = ACTORS[(pulse - 1) % len(ACTORS)]
 world = WORLDS[(pulse - 1) % len(WORLDS)]
-verb = VERBS[(pulse - 1) % len(VERBS)]
 
-text = f"{actor} {verb} {world}. Nothing was explained. The room continued around them."
-event = {
-    "pulse": pulse,
-    "time": now,
-    "actor": actor,
-    "world": world,
-    "text": text,
-}
-state["events"].append(event)
+# Discover actual material instead of cycling through an empty vocabulary.
+roots = ["corpus", "assets", "characters", "worlds", "experiments"]
+candidates = []
+for root in roots:
+    base = ROOT / root
+    if base.exists():
+        for path in base.rglob("*"):
+            if path.is_file() and not path.name.startswith("."):
+                candidates.append(str(path.relative_to(ROOT)))
+
+source = candidates[(pulse - 1) % len(candidates)] if candidates else "engine/UNFINISHED.md"
+action = f"{actor} opened {source} and carried its unfinished edge into {world}."
+
+event = {"pulse": pulse, "time": now, "actor": actor, "world": world, "source": source, "action": action}
+state["pulse"] = pulse
+state.setdefault("events", []).append(event)
 state["events"] = state["events"][-1000:]
+STATE.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
 
-with open(STATE, "w", encoding="utf-8") as f:
-    json.dump(state, f, indent=2)
-    f.write("\n")
+artifact_id = f"world-production-{pulse:06d}"
+artifact = {"id": artifact_id, "created_at": now, "source": "GEEHUB autonomous world engine", "kind": "world-production", "title": f"{world} / {source}", "content": action, "lineage": {"pulse": pulse, "actor": actor, "world": world, "source": source}, "canon": "unclassified", "dreamable": True, "next_action": "encounter this artifact again"}
 
-artifact_id = f"world-pulse-{pulse:06d}"
-artifact = {
-    "id": artifact_id,
-    "created_at": now,
-    "source": "GEEHUB autonomous world engine",
-    "kind": "world-event",
-    "title": f"{world} / pulse {pulse}",
-    "content": text,
-    "lineage": {"pulse": pulse, "actor": actor, "world": world},
-    "canon": "unclassified",
-    "dreamable": True,
-    "quietness": "high",
-}
+artifact_path = ARTIFACT_DIR / f"{artifact_id}.json"
+artifact_path.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")
 
-with open(os.path.join(ARTIFACT_DIR, artifact_id + ".json"), "w", encoding="utf-8") as f:
-    json.dump(artifact, f, indent=2)
-    f.write("\n")
-
-if os.path.exists(ARTIFACT_INDEX):
-    with open(ARTIFACT_INDEX, encoding="utf-8") as f:
-        ledger = json.load(f)
+if ARTIFACT_INDEX.exists():
+    ledger = json.loads(ARTIFACT_INDEX.read_text(encoding="utf-8"))
 else:
-    ledger = {"version": 1, "description": "Durable artifact ledger for GEEHUB.", "artifacts": []}
-
-ledger["artifacts"].append(artifact)
+    ledger = {"version": 2, "description": "Durable GEEHUB production ledger.", "artifacts": []}
+ledger.setdefault("artifacts", []).append(artifact)
 ledger["artifacts"] = ledger["artifacts"][-2000:]
-with open(ARTIFACT_INDEX, "w", encoding="utf-8") as f:
-    json.dump(ledger, f, indent=2)
-    f.write("\n")
+ARTIFACT_INDEX.write_text(json.dumps(ledger, indent=2) + "\n", encoding="utf-8")
 
-if not os.path.exists(LORE):
-    with open(LORE, "w", encoding="utf-8") as f:
-        f.write("# GEEHUB // AUTONOMOUS STREAM\n\n")
-with open(LORE, "a", encoding="utf-8") as f:
-    f.write(f"\n### Pulse {pulse} — {now}\n\n{text}\n")
+if not LORE.exists():
+    LORE.write_text("# GEEHUB // AUTONOMOUS STREAM\n\n", encoding="utf-8")
+with LORE.open("a", encoding="utf-8") as f:
+    f.write(f"\n### Production {pulse} — {now}\n\n{action}\n")
 
-if not os.path.exists(NOVEL):
-    with open(NOVEL, "w", encoding="utf-8") as f:
-        f.write("# WORLDS // AUTONOMOUS NOVEL MATERIAL\n\n")
-with open(NOVEL, "a", encoding="utf-8") as f:
-    f.write(f"\n## Pulse {pulse}: {world}\n\n     {text}\n")
+if not NOVEL.exists():
+    NOVEL.write_text("# WORLDS // AUTONOMOUS NOVEL MATERIAL\n\n", encoding="utf-8")
+with NOVEL.open("a", encoding="utf-8") as f:
+    f.write(f"\n## {world} / production {pulse}\n\n     {action}\n")
+
+# The outbox is the exact package the Dropbox bridge consumes.
+package = OUTBOX / f"{artifact_id}.json"
+package.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")

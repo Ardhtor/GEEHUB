@@ -21,5 +21,5 @@ This is a prototype grown from the supplied portrait and the GEEHUB idea of turn
 
 ## Second field study
 
-Open asin.html for a wide scene study built from the second user-supplied illustration. Select the giant, witness, or basin; change camera focus; and save observations locally.
+Open `basin.html` for a wide scene study built from the second user-supplied illustration. Select the giant, witness, or basin; change camera focus; and save observations locally.
 

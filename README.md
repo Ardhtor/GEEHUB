@@ -238,3 +238,6 @@ When a project is moved into its own repository, leave a durable link and a conc
 The source tree is intentionally more than implementation. The README records durable intent. The Atlas records the constellation. The data files record provenance and state. Source comments should explain non-obvious design choices. Experience manifests describe how an event is meant to be encountered. Commit messages should explain meaningful steps in the evolution of the system.
 
 That way the project remains legible even when the original conversation is no longer in front of the reader.
+
+## VISUAL NARRATIVE
+The visual world carries the novel as encountered text: Luke / The Mustang — the road extends when someone approaches it. Tyler / The Second Room — difference can create a third space. Berit / The Open Door — an unfinished state may remain active. Joseph / The Signal — significant change can become a signal.

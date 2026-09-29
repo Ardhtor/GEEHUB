@@ -29,6 +29,31 @@ function initFilespace(){const tree=$('#fileTree'),view=$('#fileView'),top=$('#f
 function renderPlane(){const host=$('#planeObjects');if(!host||!world)return;const base=world.regions.slice(0,12).map((n,i)=>({kind:n.kind||'PLACE',name:n.name,text:n.description||'',x:8+(i%4)*24,y:12+Math.floor(i/4)*29}));const extra=artifacts().slice(0,6).map((a,i)=>({kind:a.type||'TRACE',name:a.title,text:a.body||'',x:14+(i%3)*31,y:22+Math.floor(i/3)*42}));const items=[...base,...extra];host.innerHTML=items.map((x,i)=>'<button class="plane-object" type="button" data-plane="'+i+'" style="left:'+x.x+'%;top:'+x.y+'%"><span class="eyebrow">'+x.kind+'</span><strong>'+x.name+'</strong><small>'+x.text.slice(0,72)+'</small></button>').join('');host.querySelectorAll('.plane-object').forEach((el,i)=>el.addEventListener('click',()=>{host.querySelectorAll('.plane-object').forEach(x=>x.classList.remove('selected'));el.classList.add('selected');const x=items[i];$('#planeSelection').textContent=x.name.toUpperCase();$('#planeReadout').textContent=x.kind+' // '+x.name+' // '+x.text;}));}
 const SWARVIC_MOVES=[['ORBIT',900,120,8],['SNAP',260,18,-14],['FOLD',620,-70,22],['CROSS',780,155,-8],['RELEASE',1100,220,4],['RETURN',840,-105,-18]];
 let swarvicTimer=null,swarvicIndex=0,swarvicAngle=0;
+let visualFrame=0,visualRunning=false,visualMode=0,visualLast=0;
+function initWorldVisual(){
+  const canvas=$('#worldCanvas'), stage=$('#worldVisual'), enter=$('#visualEnter'), title=$('#visualTitle'), caption=$('#visualCaption');
+  if(!canvas||!stage)return;
+  const ctx=canvas.getContext('2d');
+  const resize=()=>{const d=Math.min(devicePixelRatio||1,2),r=stage.getBoundingClientRect();canvas.width=r.width*d;canvas.height=r.height*d;ctx.setTransform(d,0,0,d,0,0);};
+  const points=Array.from({length:28},(_,i)=>({a:i*.82,r:90+(i%7)*34,s:.4+(i%5)*.16}));
+  const draw=(t)=>{
+    const r=stage.getBoundingClientRect(),w=r.width,h=r.height,cx=w*.5,cy=h*.52;
+    ctx.clearRect(0,0,w,h);
+    const g=ctx.createRadialGradient(cx,cy,10,cx,cy,Math.max(w,h)*.65);g.addColorStop(0,'#202832');g.addColorStop(.38,'#0e141b');g.addColorStop(1,'#030507');ctx.fillStyle=g;ctx.fillRect(0,0,w,h);
+    ctx.save();ctx.translate(cx,cy);ctx.rotate(Math.sin(t*.00012)*.06);
+    ctx.strokeStyle='rgba(190,205,220,.10)';ctx.lineWidth=1;
+    for(let j=0;j<13;j++){ctx.beginPath();ctx.ellipse(0,0,150+j*45,70+j*24,0,0,Math.PI*2);ctx.stroke();}
+    for(let j=0;j<18;j++){const a=j*Math.PI/9+t*.00008;ctx.beginPath();ctx.moveTo(Math.cos(a)*40,Math.sin(a)*20);ctx.lineTo(Math.cos(a)*700,Math.sin(a)*360);ctx.stroke();}
+    points.forEach((p,i)=>{const a=p.a+t*.00025*(i%2?-.8:1), rr=p.r+Math.sin(t*.0012+i)*24;const x=Math.cos(a)*rr,y=Math.sin(a)*rr*.48;ctx.save();ctx.translate(x,y);ctx.rotate(a+Math.PI/2);ctx.fillStyle=i%5===0?'rgba(235,240,245,.9)':'rgba(150,165,180,.48)';ctx.fillRect(-2,-18,4,36);ctx.beginPath();ctx.arc(0,-25,5,0,Math.PI*2);ctx.fill();ctx.restore();});
+    const ax=Math.cos(t*.00034)*190,ay=Math.sin(t*.00034)*190*.48,bx=Math.cos(t*.00034+Math.PI)*190,by=Math.sin(t*.00034+Math.PI)*190*.48;
+    ctx.strokeStyle='rgba(225,232,240,.35)';ctx.beginPath();ctx.moveTo(ax,ay);ctx.lineTo(bx,by);ctx.stroke();
+    [ [ax,ay,1],[bx,by,-1] ].forEach(([x,y,s])=>{ctx.save();ctx.translate(x,y);ctx.scale(s,1);ctx.fillStyle='#dbe2e8';ctx.shadowBlur=28;ctx.shadowColor='rgba(210,225,240,.35)';ctx.beginPath();ctx.arc(0,-32,12,0,Math.PI*2);ctx.fill();ctx.fillRect(-9,-18,18,48);ctx.fillRect(-18,27,13,7);ctx.fillRect(5,27,13,7);ctx.restore();});
+    ctx.restore();
+    visualFrame=requestAnimationFrame(draw);
+  };
+  const start=()=>{if(visualRunning)return;visualRunning=true;stage.classList.add('visual-active');title.textContent='THE WORLD HAS BECOME VISUAL';caption.textContent='SPACE / PRESENCE / MOTION / MEMORY';draw(performance.now());};
+  enter.addEventListener('click',start);window.addEventListener('resize',resize);resize();start();
+}
 function swarvicStep(){
   const f=$('#danceField'),a=f&&f.querySelector('.dancer-a'),b=f&&f.querySelector('.dancer-b'),state=$('#danceState');
   if(!f||!a||!b)return;
@@ -43,6 +68,7 @@ function swarvicStep(){
   clearTimeout(swarvicTimer); swarvicTimer=setTimeout(swarvicStep,dur);
 }
 function initSwarvic(){
+  initWorldVisual();
   const b=$('#danceRun'); if(!b)return;
   b.addEventListener('click',()=>{b.textContent='DANCING';b.setAttribute('aria-pressed','true');swarvicStep();});
   const f=$('#danceField'); if(f)f.addEventListener('click',swarvicStep);

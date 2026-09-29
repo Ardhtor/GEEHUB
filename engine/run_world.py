@@ -22,6 +22,20 @@ DESIRE_STATES = [
     "recognition",
     "afterglow",
 ]
+
+
+NARRATIVE_RULES = {
+    "LUKE": "approach extends geography",
+    "TYLER": "comparison can become differentiation",
+    "KIRK": "arrival can activate aftermath",
+    "JOSEPH": "meaningful change can become an outward-facing signal",
+    "BERIT": "unfinished states remain available",
+    "CG MATT": "discarded states remain accessible",
+    "GABE": "accumulated attention can become transformation material",
+    "PAPA MURPH": "gathering converts objects into shared memory",
+    "SETH": "references can be translated rather than copied",
+}
+
 DESIRE_QUESTIONS = [
     "Who is being drawn toward whom?",
     "What changes when two people remain close?",
@@ -45,6 +59,8 @@ actor = ACTORS[(pulse - 1) % len(ACTORS)]
 world = WORLDS[(pulse - 1) % len(WORLDS)]
 desire_state = DESIRE_STATES[(pulse - 1) % len(DESIRE_STATES)]
 desire_question = DESIRE_QUESTIONS[(pulse - 1) % len(DESIRE_QUESTIONS)]
+narrative_rule = NARRATIVE_RULES.get(actor, "the world may revise its own conditions")
+
 
 roots = ["corpus", "assets", "characters", "worlds", "experiments"]
 candidates = []
@@ -59,7 +75,8 @@ source = candidates[(pulse - 1) % len(candidates)] if candidates else "engine/UN
 
 action = (
     f"{actor} opened {source} and carried its unfinished edge into {world}. "
-    f"The world entered a state of {desire_state}; attention and proximity became part of the place."
+    f"The world entered a state of {desire_state}; attention and proximity became part of the place. "
+    f"{actor} exercised narrative control: {narrative_rule}."
 )
 
 event = {
@@ -70,13 +87,13 @@ event = {
     "source": source,
     "desire_state": desire_state,
     "question": desire_question,
-    "action": action,
+    "action": action,\n    "narrative_rule": narrative_rule,
 }
 state["pulse"] = pulse
 state.setdefault("events", []).append(event)
 state["events"] = state["events"][-1000:]
 state["current_desire_state"] = desire_state
-state["current_question"] = desire_question
+state["current_question"] = desire_question\nstate["current_narrative_rule"] = narrative_rule\nstate.setdefault("narrative_rules", {})[actor] = narrative_rule
 STATE.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
 
 artifact_id = f"world-production-{pulse:06d}"

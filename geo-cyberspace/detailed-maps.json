@@ -1,0 +1,231 @@
+{
+  "version": "1.0",
+  "id": "geehub-detailed-maps",
+  "coordinate_system": {
+    "type": "normalized_3d",
+    "axes": {
+      "x": "east_west",
+      "y": "elevation",
+      "z": "north_south"
+    },
+    "units": "world_relative"
+  },
+  "scales": [
+    {
+      "id": "WORLD",
+      "name": "World Survey",
+      "extent": 120,
+      "grid": 12,
+      "description": "Whole-world spatial relation map."
+    },
+    {
+      "id": "KINGDOM",
+      "name": "Kingdom Land",
+      "extent": 70,
+      "grid": 28,
+      "description": "Stone-lichen continental terrain with ridges, basins, seams and watercourses."
+    },
+    {
+      "id": "VEYRT",
+      "name": "Veyrthalis Expanse",
+      "extent": 36,
+      "grid": 36,
+      "description": "Fog-dark forest region, passages, Digitorium and Temple territory."
+    },
+    {
+      "id": "COMPLEX",
+      "name": "The Complex",
+      "extent": 18,
+      "grid": 45,
+      "description": "Dense local map for rooms, characters, artifacts and encounters."
+    }
+  ],
+  "layers": [
+    {
+      "id": "ELEVATION",
+      "label": "Elevation",
+      "mode": "contours"
+    },
+    {
+      "id": "STONE",
+      "label": "Stone Mass",
+      "mode": "terrain"
+    },
+    {
+      "id": "LICHEN",
+      "label": "Lichen Field",
+      "mode": "surface"
+    },
+    {
+      "id": "WATER",
+      "label": "Water",
+      "mode": "hydrology"
+    },
+    {
+      "id": "PASSAGES",
+      "label": "Passages",
+      "mode": "paths"
+    },
+    {
+      "id": "SETTLEMENTS",
+      "label": "Places",
+      "mode": "markers"
+    },
+    {
+      "id": "CHARACTERS",
+      "label": "Characters",
+      "mode": "markers"
+    },
+    {
+      "id": "MEMORY",
+      "label": "Memory",
+      "mode": "history"
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "digitorium",
+      "name": "Digitorium",
+      "scale": "VEYRT",
+      "x": -7,
+      "z": -6,
+      "y": 3,
+      "type": "place",
+      "lore": "A computational sanctuary embedded in the dark expanse."
+    },
+    {
+      "id": "procession",
+      "name": "Procession Road",
+      "scale": "VEYRT",
+      "x": -2,
+      "z": -1,
+      "y": 1,
+      "type": "passage",
+      "lore": "The principal north-south route through the fog."
+    },
+    {
+      "id": "temple-moon",
+      "name": "Temple of Moon",
+      "scale": "VEYRT",
+      "x": 8,
+      "z": -7,
+      "y": 5,
+      "type": "place",
+      "lore": "A high stone complex above the forest basin."
+    },
+    {
+      "id": "luke-box",
+      "name": "Luke's Box",
+      "scale": "VEYRT",
+      "x": 6,
+      "z": 7,
+      "y": 2,
+      "type": "place",
+      "lore": "A compressed home-space and map anchor."
+    },
+    {
+      "id": "observation-ring",
+      "name": "Observation Ring",
+      "scale": "COMPLEX",
+      "x": 0,
+      "z": -3,
+      "y": 1,
+      "type": "place",
+      "lore": "The Facility's viewing and encounter boundary."
+    },
+    {
+      "id": "subject-wing",
+      "name": "Subject Wing",
+      "scale": "COMPLEX",
+      "x": -5,
+      "z": 2,
+      "y": 0,
+      "type": "place",
+      "lore": "Where bodies, baselines and transformations become records."
+    },
+    {
+      "id": "data-wing",
+      "name": "Data Wing",
+      "scale": "COMPLEX",
+      "x": 5,
+      "z": 2,
+      "y": 0,
+      "type": "place",
+      "lore": "Archive, records, maps and machine-readable memory."
+    },
+    {
+      "id": "fountain",
+      "name": "Sacred Fountain",
+      "scale": "COMPLEX",
+      "x": 0,
+      "z": 6,
+      "y": -1,
+      "type": "place",
+      "lore": "A narrative source-point where each pull becomes a new branch."
+    }
+  ],
+  "regions": [
+    {
+      "id": "north-ridge",
+      "name": "North Ridge",
+      "scale": "KINGDOM",
+      "x": -16,
+      "z": -18,
+      "height": 9,
+      "biome": "stone-lichen"
+    },
+    {
+      "id": "amber-woods",
+      "name": "Amber Woods",
+      "scale": "VEYRT",
+      "x": -9,
+      "z": 5,
+      "height": 6,
+      "biome": "dark-forest"
+    },
+    {
+      "id": "fog-basin",
+      "name": "Fog Basin",
+      "scale": "VEYRT",
+      "x": 3,
+      "z": 1,
+      "height": -2,
+      "biome": "wetland"
+    },
+    {
+      "id": "moon-heights",
+      "name": "Moon Heights",
+      "scale": "VEYRT",
+      "x": 9,
+      "z": -8,
+      "height": 8,
+      "biome": "stone-lichen"
+    },
+    {
+      "id": "western-seam",
+      "name": "Western Seam",
+      "scale": "KINGDOM",
+      "x": -23,
+      "z": 7,
+      "height": 1,
+      "biome": "fracture"
+    },
+    {
+      "id": "eastern-basin",
+      "name": "Eastern Basin",
+      "scale": "KINGDOM",
+      "x": 20,
+      "z": 15,
+      "height": -7,
+      "biome": "water"
+    }
+  ],
+  "rules": [
+    "Maps are spatial data first and presentation second.",
+    "Every landmark has coordinates and a scale.",
+    "Higher-detail maps inherit lower-scale coordinates instead of inventing disconnected geography.",
+    "Stone establishes terrain mass; lichen, water and vegetation are derived layers.",
+    "Paths connect places and may become narrative routes.",
+    "Memory records changes without rewriting the underlying coordinate geometry."
+  ]
+}

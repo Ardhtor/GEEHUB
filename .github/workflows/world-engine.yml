@@ -16,12 +16,30 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+
       - name: Run world engine
         run: python engine/run_world.py
+
+      - name: Persist production package to Dropbox
+        if: ${{ secrets.DROPBOX_ACCESS_TOKEN != '' }}
+        env:
+          DROPBOX_ACCESS_TOKEN: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json, os, pathlib, urllib.request
+          token = os.environ["DROPBOX_ACCESS_TOKEN"]
+          for p in pathlib.Path("dropbox_outbox").glob("*.json"):
+              body = p.read_bytes()
+              arg = json.dumps({"path": "/GEEHUB/production/" + p.name, "mode": "add", "autorename": True, "mute": False})
+              req = urllib.request.Request("https://content.dropboxapi.com/2/files/upload", data=body, method="POST", headers={"Authorization": "Bearer " + token, "Content-Type": "application/octet-stream", "Dropbox-API-Arg": arg})
+              with urllib.request.urlopen(req) as r:
+                  print(r.read().decode())
+          PY
+
       - name: Commit world output
         run: |
           git config user.name "GEEHUB World Engine"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add engine/state.json lore/AUTONOMOUS_STREAM.md novel/WORLDS.md artifacts/
-          git diff --cached --quiet || git commit -m "Autonomous world pulse"
+          git add engine/state.json lore/AUTONOMOUS_STREAM.md novel/WORLDS.md artifacts/ dropbox_outbox/
+          git diff --cached --quiet || git commit -m "Autonomous world production"
           git push

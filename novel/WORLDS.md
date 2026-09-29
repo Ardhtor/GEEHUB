@@ -5,3 +5,7 @@ Each world contributes continuously to its own accumulating novel material.
 ## Pulse 2: POETRY SEEP
 
      TYLER crossed POETRY SEEP. Nothing was explained. The room continued around them.
+
+## Pulse 3: DEEP LORE
+
+     KIRK waited inside DEEP LORE. Nothing was explained. The room continued around them.

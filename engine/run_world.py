@@ -39,14 +39,14 @@ for root in roots:
 source = candidates[(pulse - 1) % len(candidates)] if candidates else "engine/UNFINISHED.md"
 action = f"{actor} opened {source} and carried its unfinished edge into {world}."
 
-event = {"pulse": pulse, "time": now, "actor": actor, "world": world, "source": source, "action": action}
+questions = [\n    "What is unfinished here?",\n    "What is missing from this place?",\n    "What does this encounter change?",\n    "What should exist because this happened?",\n]\nquestion = questions[(pulse - 1) % len(questions)]\n\nevent = {"pulse": pulse, "time": now, "actor": actor, "world": world, "source": source, "question": question, "action": action}
 state["pulse"] = pulse
 state.setdefault("events", []).append(event)
 state["events"] = state["events"][-1000:]
 STATE.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
 
 artifact_id = f"world-production-{pulse:06d}"
-artifact = {"id": artifact_id, "created_at": now, "source": "GEEHUB autonomous world engine", "kind": "world-production", "title": f"{world} / {source}", "content": action, "lineage": {"pulse": pulse, "actor": actor, "world": world, "source": source}, "canon": "unclassified", "dreamable": True, "next_action": "encounter this artifact again"}
+artifact = {\n    "id": artifact_id,\n    "created_at": now,\n    "source": "GEEHUB autonomous world engine",\n    "kind": "world-production",\n    "title": f"{world} / {source}",\n    "question": question,\n    "content": action,\n    "production_note": f"The world encountered {source}, asked \\"{question}\\", and left a changed state behind.",\n    "lineage": {"pulse": pulse, "actor": actor, "world": world, "source": source},\n    "canon": "unclassified",\n    "dreamable": True,\n    "next_action": "encounter this artifact again"\n}
 
 artifact_path = ARTIFACT_DIR / f"{artifact_id}.json"
 artifact_path.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")

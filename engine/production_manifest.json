@@ -4,7 +4,8 @@
   "persistence": "dropbox",
   "cycle": [
     "scan",
-    "select",
+    "desire",
+    "encounter",
     "transform",
     "produce",
     "persist",
@@ -25,8 +26,12 @@
     "worlds",
     "state"
   ],
-  "artifact_rule": "Every meaningful world action must leave a durable artifact.",
+  "artifact_rule": "Every meaningful encounter must leave a durable artifact that can change a later encounter.",
   "unfinished_rule": "Prefer material that is incomplete, unresolved, or capable of changing.",
   "canon_rule": "Canon is preserved separately from experiments.",
-  "fallback": "If Dropbox credentials are unavailable, write to dropbox_outbox and continue the world cycle."
+  "fallback": "If Dropbox credentials are unavailable, write to dropbox_outbox and continue the world cycle.",
+  "inputs": {
+    "desire": "treat attraction, proximity, attention, tension, tenderness, jealousy, recognition, and aftermath as world-state signals"
+  },
+  "narrative_rule": "Sexuality is represented through adult desire, intimacy, proximity, relationship, atmosphere, and aftermath; the engine does not require explicit sexual description."
 }

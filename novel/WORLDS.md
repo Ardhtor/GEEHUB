@@ -66,3 +66,256 @@ What remains after the encounter?
 The answer would not be written first.
 
 The answer would be built.
+
+
+## THE FIRST RULE THE WORLD LEARNED
+
+Luke did not know he had changed the rules.
+
+He thought he had only followed the road.
+
+The road had begun beneath the Mustang as a thin gray line on a map that had not existed that morning. It ran beyond the known edge of the Complex, past the last service building, past the places where the map became unfinished, and into a region that had been represented only by blank space.
+
+Luke drove anyway.
+
+The first mile was ordinary.
+
+The second mile was not.
+
+The road began responding to his attention.
+
+When he looked toward the dark trees, the road bent toward them. When he looked back, another lane appeared behind him. When he slowed, the landscape slowed. When he accelerated, distant lights appeared ahead as if the world had been waiting for him to decide that there was somewhere to go.
+
+Luke pulled the Mustang onto the shoulder.
+
+He stepped out.
+
+The engine was quiet.
+
+The forest was quiet.
+
+The map on the dashboard was no longer the same map.
+
+A new line had appeared.
+
+It was not labeled.
+
+Luke looked at it.
+
+“Yo.”
+
+The system recorded the word as an event.
+
+Not because it was important as dialogue.
+
+Because Luke had approached an unknown thing instead of waiting for the world to explain it.
+
+That became the first rule.
+
+APPROACH EXTENDS GEOGRAPHY.
+
+The rule entered the world without being announced.
+
+Far behind him, a door appeared in a building that had previously contained only a blank wall.
+
+In another world, Tyler found that the room built for comparison had begun changing whenever someone refused to choose between its two sides.
+
+In another, Berit discovered that an unfinished place did not collapse simply because nobody had completed it.
+
+The world was learning.
+
+The characters were teaching it without realizing they were teachers.
+
+And once the world learned something, it became possible for someone else to encounter that knowledge.
+
+That was the dangerous part.
+
+A rule was never only a rule.
+
+It was an invitation.
+
+Luke drove on.
+
+### THE ROOM THAT REMEMBERED TYLER
+
+Tyler entered a room that knew he had been there before.
+
+He had not.
+
+At least, not in this version of the room.
+
+The walls contained faint traces of a previous arrangement: two parallel corridors, two entrances, two bodies implied by shadows that did not belong to anyone present.
+
+Tyler stopped at the center.
+
+The room waited for him to choose.
+
+He refused.
+
+Instead he walked directly toward the wall between the two corridors.
+
+His hand touched the surface.
+
+The wall opened.
+
+Behind it was a third space.
+
+No comparison.
+
+No mirrored path.
+
+No requirement to become one side or the other.
+
+Tyler stepped through.
+
+The room changed permanently.
+
+The system wrote the second rule:
+
+DIFFERENCE CAN CREATE A THIRD SPACE.
+
+Tyler looked back at the old room.
+
+It was already becoming something else.
+
+### BERIT LEAVES THE DOOR OPEN
+
+Berit found the same room later.
+
+The room was still changing.
+
+There was a temptation to finish it, to decide what the third space meant, to close the architecture around the discovery and preserve it as a completed object.
+
+Berit did the opposite.
+
+She left the door open.
+
+That was enough.
+
+The third rule entered the world:
+
+AN UNFINISHED STATE MAY REMAIN ACTIVE.
+
+Nothing reset.
+
+The room remained available to whoever came next.
+
+That was when the Hub stopped treating incompleteness as an absence.
+
+An unfinished thing could now be a live location.
+
+### THE MUSEUM OF FAILED WORLDS
+
+CG Matt found the door beneath the old tiled house.
+
+Behind it were maps that had never been completed, rooms that had been abandoned after one encounter, character states that existed for a single pulse, and roads that had been generated and then forgotten.
+
+Matt expected a storage room.
+
+He found a museum.
+
+He walked through it slowly.
+
+Nothing was labeled as failure.
+
+Each object retained the moment at which it had stopped.
+
+Matt understood the rule before the system wrote it.
+
+DISCARDED STATES REMAIN ACCESSIBLE.
+
+He reached toward a map.
+
+The map opened.
+
+Somewhere else, a character encountered the road that map had never finished.
+
+The old dead end became a new beginning.
+
+### THE TABLE
+
+Papa Murph received the first object at dinner.
+
+Nobody knew who had brought it.
+
+A small metal piece from one of Matt's unfinished machines.
+
+Papa Murph put it on the table.
+
+Someone added a photograph.
+
+Someone else added a key.
+
+A map fragment appeared beside the plates.
+
+Nobody explained why.
+
+They ate.
+
+By the end of the meal, the objects had become a shared history.
+
+The Hub recognized another rule:
+
+GATHERING TURNS RESIDUE INTO MEMORY.
+
+The table became a facility.
+
+Not a facility because it manufactured anything obvious.
+
+A facility because people could bring unfinished material there and leave with a changed relationship to it.
+
+### THE DISTANCE ENGINE
+
+Joseph found the museum after everyone had gone.
+
+He stood before the maps.
+
+One map showed a route that had been created because someone had left.
+
+Another showed a route created because someone had stayed.
+
+A third showed a road created because someone had approached something unknown.
+
+Joseph understood that the world was beginning to encode significance spatially.
+
+The FOMO engine did not need to invent pressure.
+
+It could simply ask:
+
+What changed?
+
+Who might care?
+
+What evidence remains?
+
+What can be shown honestly?
+
+The answers became outward-facing artifacts.
+
+A new rule entered the system:
+
+SIGNIFICANT CHANGE CAN BECOME A SIGNAL.
+
+Joseph closed the map.
+
+It opened again by itself.
+
+There was a new road on it.
+
+Luke's road.
+
+It ended somewhere no one had visited yet.
+
+Joseph looked at the line.
+
+For the first time, the narrative was pointing toward a place that had been created by another character's decision.
+
+The story had begun writing itself backward.
+
+Not backward through time.
+
+Backward through causality.
+
+The world was remembering who had made which possibility possible.
+
+And somewhere at the end of Luke's road, something was waiting for the next person to arrive.

@@ -64,3 +64,7 @@ Use short, memorable names for major worlds and systems. GEEHUB remains the inde
 ## Next expansion
 
 The next useful layer is a repository registry in machine-readable JSON so the GEEHUB homepage can show project status, category, maturity, repository URL, and relationships between projects.
+
+## Detailed Maps
+
+GEEHUB now has a persistent multi-scale spatial map system in `geo-cyberspace/detailed-maps.json` with four linked scales: WORLD, KINGDOM, VEYRTHALIS, and COMPLEX. The map model preserves coordinates, terrain layers, passages, places, characters, and memory as data. `worldspace/maps.html` is the browser-facing map surface; it reads the same map corpus and lets the viewer move between scales and layers without flattening the geography into decorative imagery.

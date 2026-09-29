@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "name": "GEEHUB Creations",
+  "rule": "A creation is a durable artifact with provenance, medium, lineage, and state.",
+  "roots": [
+    "artifacts",
+    "creative",
+    "film",
+    "novel",
+    "lore",
+    "worldspace"
+  ],
+  "entries": [
+    {
+      "id": "worlds",
+      "kind": "novel",
+      "title": "WORLDS",
+      "path": "novel/WORLDS.md",
+      "state": "existing"
+    },
+    {
+      "id": "beefythiq-biographies",
+      "kind": "characters",
+      "title": "BEEFYTHIQ BIOGRAPHIES",
+      "path": "lore/BEEFYTHIQ_BIOGRAPHIES.md",
+      "state": "existing"
+    },
+    {
+      "id": "swarvic-dance",
+      "kind": "motion",
+      "title": "SWARVIC DANCE",
+      "path": "creative/swarvic-dance.json",
+      "state": "existing"
+    },
+    {
+      "id": "recursive-control",
+      "kind": "rules",
+      "title": "RECURSIVE CONTROL",
+      "path": "engine/RECURSIVE_NARRATIVE_CONTROL.md",
+      "state": "existing"
+    },
+    {
+      "id": "adobe-assets",
+      "kind": "assets",
+      "title": "ADOBE ASSETS",
+      "path": "engine/adobe_asset_queue.json",
+      "state": "queued"
+    }
+  ],
+  "statuses": [
+    "seed",
+    "building",
+    "ready",
+    "archived",
+    "experimental"
+  ],
+  "canonBoundary": "Canon remains separate from experimental output."
+}

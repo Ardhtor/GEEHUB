@@ -327,3 +327,71 @@ The artifact is proof that the character changed the world.
 If no artifact remains, the transformation has not yet finished becoming lore.
 
 The Hub continues until the invisible relationship has acquired a visible form.
+
+
+## THE SECOND HUM
+
+The first biographies established what each character carries. The second pass asks what happens when those carried forces meet.
+
+### GABE // THE CANVAS
+Gabe discovers that the Growth Canvas has begun remembering other people. A surface that once recorded his own transformation now contains traces of Luke's presence, Tyler's comparison, Kirk's pressure, Joseph's distance, and Berit's continuity. Gabe realizes the canvas is no longer a mirror. It is a meeting place. He touches its edge. The surface changes. A new baseline begins.
+
+### BERIT // THE KEEPER
+Berit finds an altered room and refuses to decide whether it is finished. She leaves the door open. That small act becomes a rule. Anything that enters may remain long enough to become part of the story. Rooms in the Beefythiq world can now stay unfinished without being abandoned.
+
+### LUKE // THE MUSTANG
+Luke drives farther than the map currently reaches. The Mustang crosses the boundary between known geography and generated geography. Luke looks at the road ahead. “Yo.” The system interprets this as a signal that he has encountered something worth approaching. A road is generated. The road becomes permanent. Luke has extended the world simply by continuing.
+
+### TYLER // THE SECOND ROOM
+Tyler finds a room built from comparison: two entrances, two silhouettes, two paths that begin almost identically and then diverge. He does not choose either entrance. He walks between them. The room changes its grammar. It is no longer a comparison room. It becomes Tyler's room.
+
+### KIRK // PRESSURE FIELD
+Kirk enters after everyone else has left. The room still contains evidence of the encounter. He does not touch anything. The atmosphere changes anyway. The Hub begins storing aftermath as an active state.
+
+### JOSEPH // DISTANCE ENGINE
+Joseph discovers that distance is producing architecture. Every separation leaves behind a route. Every route contains possible returns. Every possible return creates another question. The FOMO engine recognizes the pattern: something changed; someone might care; the change has evidence; the evidence can be presented without inventing pressure. Joseph's engine does not create the feeling from nothing. It finds where the world has already changed. That becomes the signal.
+
+### CG MATT // RESIDUE
+Matt opens a door that was not there yesterday. Behind it is a collection of discarded world states: old rooms, earlier maps, previous versions of relationships. Nothing has been deleted. Matt starts arranging them. A museum forms.
+
+### PAPA MURPH // GATHERING
+Papa Murph notices that people keep arriving with unfinished things. They simply put them on the table: a key, a photograph, a map fragment, a letter, a piece of a machine. Papa Murph cooks. By the time the meal is ready, the objects have become a shared history.
+
+### SETH // TRANSLATION
+Seth enters the museum. The references on the walls do not remain references. They begin changing. The system extracts posture, scale, confidence, presentation, physical authority, then recombines those properties into new forms. Seth watches the world metabolize the image. That is his function: not repetition, but translation.
+
+## WHAT THE SECOND HUM PRODUCES
+The characters have stopped being separate biographies. They are becoming a production system.
+
+Gabe produces transformation.
+Berit produces continuity.
+Luke produces extension.
+Tyler produces differentiation.
+Kirk produces pressure.
+Joseph produces significance.
+Matt produces memory.
+Papa Murph produces gathering.
+Seth produces translation.
+
+A route can become a room. A room can become an encounter. An encounter can become a relationship. A relationship can become a map. A map can become a chapter. A chapter can create a request for another place. The request becomes material. The material changes the next chapter.
+
+## NEW QUESTIONS
+What does Luke find at the end of the road?
+
+Who built the museum before Matt opened it?
+
+What does Joseph's engine recognize when the world changes for reasons no one planned?
+
+What happens when Tyler enters a room that remembers him differently?
+
+What does Kirk do when the aftermath is waiting for him?
+
+What does Berit preserve when preservation itself begins to change something?
+
+What does Gabe's canvas show when everyone has left?
+
+What does Papa Murph cook for people who cannot yet explain why they came?
+
+What happens when Seth becomes the reference instead of the translator?
+
+These are unfinished edges. The next artifact crosses one.

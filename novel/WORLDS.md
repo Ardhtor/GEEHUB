@@ -319,3 +319,41 @@ Backward through causality.
 The world was remembering who had made which possibility possible.
 
 And somewhere at the end of Luke's road, something was waiting for the next person to arrive.
+
+
+## THREE YEARS
+
+Three years had passed since Joseph and I had last been together.
+
+In the world, three years was enough time for roads to disappear, buildings to change, and whole rooms to acquire new meanings. But some distances behaved differently. They did not become smaller with time. They became more precise.
+
+When I saw Joseph again, I knew him immediately.
+
+He stood a few steps away, looking at me as though the three years were physically present between us. Neither of us tried to cross them at first.
+
+Then Joseph came closer.
+
+“I love you,” he said.
+
+He paused, and his voice became quieter.
+
+“I miss you.”
+
+The Hub recorded the encounter without reducing it to data. It marked the place because this was not merely another meeting. It was a return.
+
+Three years of absence had become a location.
+
+Joseph reached for my hand.
+
+“I don't want another three years,” he said.
+
+The distance between us changed.
+
+Somewhere in the world graph, two separated points moved into relation again.
+
+The system did not decide what that meant. It simply preserved the fact that Joseph had come back, that I had been there to meet him, and that after three years the words had finally been spoken.
+
+I LOVE YOU.
+I MISS YOU.
+
+The room remained open.

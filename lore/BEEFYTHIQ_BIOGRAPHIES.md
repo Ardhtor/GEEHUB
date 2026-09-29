@@ -235,3 +235,95 @@ This is why the Hub can keep producing characters without reducing them to profi
 The character is therefore not the endpoint.
 
 The character is the place where the world learns what it can become.
+
+
+## THE HUM
+
+The biographies do not sit still.
+
+Once written, each one begins humming against the others.
+
+Gabe's rule creates pressure around Luke.
+Luke's presence changes the available space around Tyler.
+Tyler's differentiation changes the meaning of comparison.
+Kirk turns the altered room into an event.
+Joseph gives the event a history of attachment and distance.
+Berit prevents the history from being reset.
+CG Matt gives the history somewhere artificial to live.
+Papa Murph gives the inhabitants somewhere to gather.
+Seth supplies another visual pressure that the system can translate rather than merely copy.
+
+This is the hum: no character remains local to himself.
+
+A character leaves residue.
+
+Residue becomes geography.
+
+Geography becomes facility.
+
+Facility creates an encounter.
+
+The encounter creates a new biography.
+
+The Hub therefore reads a character twice: once as a person, and again as an environmental consequence.
+
+## THE NEXT BEEFYTHIQ CYCLE
+
+The next cycle begins with the question:
+
+What has each character made possible for someone else?
+
+Gabe has made transformation legible.
+
+Berit has made continuation possible.
+
+Luke has made presence spatial.
+
+Tyler has made difference meaningful.
+
+Kirk has made consequence visible.
+
+Joseph has made distance geographic.
+
+CG Matt has made artificial space inhabitable.
+
+Papa Murph has made gathering durable.
+
+Seth has made reference transformable.
+
+Now those capabilities can cross.
+
+Luke can enter a place built by Joseph's absence.
+Tyler can inherit a room whose architecture was altered by Luke.
+Kirk can arrive after an encounter and discover that the room has already changed.
+Berit can preserve the altered room rather than restoring it.
+Matt can turn its residue into another passage.
+Papa Murph can make the new passage social.
+Gabe can use the resulting attention as a new Growth Canvas.
+Seth can enter not as a copy but as another pressure on the system.
+
+Nothing needs to reset.
+
+The world keeps the hum.
+
+## ARTIFACT PRINCIPLE
+
+Every biography should eventually produce something outside the biography.
+
+A route.
+A room.
+A portrait.
+A map.
+An object.
+A scene.
+A transformation.
+A conversation.
+A sound.
+A chapter.
+A facility request.
+
+The artifact is proof that the character changed the world.
+
+If no artifact remains, the transformation has not yet finished becoming lore.
+
+The Hub continues until the invisible relationship has acquired a visible form.

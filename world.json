@@ -459,5 +459,26 @@
     ],
     "rule": "Never reset Luke to the prior maximum. Each stabilized growth state becomes the next foundation.",
     "archive": "Preserve every baseline as visual memory."
+  },
+  "assetPipeline": {
+    "id": "luke-bwomph-assets",
+    "source": "./creative/luke-bwomph-assets.json",
+    "generator": "./creative/luke-bwomph-generator.js",
+    "apps": [
+      "GitHub",
+      "Figma",
+      "Adobe",
+      "Dropbox",
+      "Automations"
+    ],
+    "flow": [
+      "SOURCE ASSET",
+      "COMPOSE",
+      "GENERATE DELTA",
+      "BWOMPH",
+      "ARCHIVE",
+      "INHERIT"
+    ],
+    "rule": "GEEHUB treats visual assets as world state: each new Luke baseline produces reusable environment, character, material, and interface deltas."
   }
 }

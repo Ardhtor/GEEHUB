@@ -479,6 +479,23 @@
       "ARCHIVE",
       "INHERIT"
     ],
-    "rule": "GEEHUB treats visual assets as world state: each new Luke baseline produces reusable environment, character, material, and interface deltas."
+    "rule": "GEEHUB treats visual assets as world state: each new Luke baseline produces reusable environment, character, material, and interface deltas.",
+    "storage": {
+      "sourceOfTruth": "Dropbox for linked binary/media assets",
+      "githubRole": "manifests, metadata, generators, provenance, asset references",
+      "dropboxRole": "images, video, audio, PDFs, archives, large source assets, generated media",
+      "linkRule": "Every external or generated asset used by GEEHUB should carry its Dropbox path or file ID in the asset record.",
+      "archiveRule": "Keep large binaries out of Git history; preserve immutable source assets in Dropbox and reference them from GitHub.",
+      "flow": [
+        "LIBRARY",
+        "INGEST",
+        "DROPBOX STORE",
+        "REGISTER REFERENCE",
+        "COMPOSE",
+        "GENERATE DELTA",
+        "ARCHIVE",
+        "INHERIT"
+      ]
+    }
   }
 }

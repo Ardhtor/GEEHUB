@@ -131,6 +131,16 @@
       "size": 1.34,
       "path": "./lore/DEEP_LORE.md",
       "description": "The world speaking through residue: recurring laws, poetic traces, returns, witnesses, thresholds, names, and things the archive cannot say directly."
+    },
+    {
+      "id": "luke-bwomph",
+      "name": "LUKE // BWOMPH",
+      "kind": "HYPEER GROWTH",
+      "x": 36,
+      "y": 38,
+      "size": 1.34,
+      "path": "./creative/luke-bwomph.json",
+      "description": "Luke's bar-gym growth cycle: baseline → pressure → Bwomph → Hypeer acceleration → stabilization → new baseline. Identity persists while scale changes."
     }
   ],
   "pleasureBits": [
@@ -283,6 +293,24 @@
       "text": "When enough traces converge, the repository begins to suggest a world that was never explicitly written as a single statement.",
       "from": "deep-lore",
       "to": "complex"
+    },
+    {
+      "title": "THE BAR GYM REMEMBERS",
+      "text": "The room stays fixed while Luke's established baseline becomes visibly larger; equipment, mirrors, and clearances become witnesses.",
+      "from": "luke-bwomph",
+      "to": "embodied-scale"
+    },
+    {
+      "title": "HYPEER BASELINE",
+      "text": "A completed Bwomph is not a reset. The newly stabilized Luke becomes the starting point for the next cycle.",
+      "from": "luke-bwomph",
+      "to": "growth"
+    },
+    {
+      "title": "THE FACE REMAINS",
+      "text": "Scale can change radically while Luke's recognizable identity remains the continuity anchor.",
+      "from": "luke-bwomph",
+      "to": "deep-lore"
     }
   ],
   "embodiment": {
@@ -408,5 +436,28 @@
       "structuralDominant": "stone",
       "ecologicalDominant": "lichen"
     }
+  },
+  "bwomphFlow": {
+    "subject": "LUKE",
+    "setting": "BAR GYM",
+    "mode": "HYPEER MUSCLE GROWTH",
+    "cycle": [
+      "BASELINE",
+      "PRESSURE",
+      "BWOMPH",
+      "HYPEER ACCELERATION",
+      "STRUCTURAL CATCH-UP",
+      "NEW BASELINE",
+      "INHERITANCE"
+    ],
+    "continuity": [
+      "face",
+      "identity",
+      "name",
+      "setting",
+      "previous baselines"
+    ],
+    "rule": "Never reset Luke to the prior maximum. Each stabilized growth state becomes the next foundation.",
+    "archive": "Preserve every baseline as visual memory."
   }
 }

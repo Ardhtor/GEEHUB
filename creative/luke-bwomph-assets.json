@@ -1,0 +1,82 @@
+{
+  "id": "luke-bwomph-assets",
+  "status": "active",
+  "purpose": "Reusable non-explicit production asset manifest for GEEHUB Luke // Bwomph.",
+  "subject": "Luke",
+  "setting": "bar-gym",
+  "assetClasses": {
+    "environment": [
+      "bar-gym-corner",
+      "power-rack",
+      "flat-bench",
+      "plate-stack",
+      "mirror-panel",
+      "bar-doorway",
+      "worn-floor",
+      "industrial-wall",
+      "practical-light",
+      "crt-glow"
+    ],
+    "character": [
+      "luke-baseline",
+      "luke-pressure",
+      "luke-bwomph",
+      "luke-hypeer",
+      "luke-new-baseline"
+    ],
+    "interface": [
+      "subject-marker",
+      "baseline-marker",
+      "growth-marker",
+      "scale-readout",
+      "archive-witness",
+      "scry-frame"
+    ],
+    "materials": [
+      "floor-worn",
+      "painted-metal",
+      "rubber-plate",
+      "aged-mirror",
+      "concrete-wall",
+      "brushed-steel"
+    ]
+  },
+  "generation": {
+    "mode": "procedural",
+    "identityLock": [
+      "face",
+      "name",
+      "recognizable silhouette",
+      "setting"
+    ],
+    "cycle": [
+      "BASELINE",
+      "PRESSURE",
+      "BWOMPH",
+      "HYPEER ACCELERATION",
+      "STRUCTURAL CATCH-UP",
+      "NEW BASELINE",
+      "INHERITANCE"
+    ],
+    "rule": "Every generated state inherits the immediately preceding baseline; never restart from the original maximum.",
+    "archive": "Store each state as a compact delta plus a visual-reference pointer rather than duplicating full assets."
+  },
+  "appTargets": {
+    "github": "source + manifests + generators",
+    "figma": "interface + visual composition + scry layouts",
+    "adobe": "visual asset preparation when available",
+    "dropbox": "persistent media/archive repository",
+    "automation": "scheduled progression"
+  },
+  "assetRecord": {
+    "id": "string",
+    "source": "string",
+    "type": "environment|character|interface|material",
+    "state": "string",
+    "baseline": "integer",
+    "delta": "object",
+    "visualReference": "string|null",
+    "provenance": "string",
+    "created": "ISO-8601"
+  }
+}

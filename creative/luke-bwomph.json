@@ -1,0 +1,41 @@
+{
+  "id": "luke-bwomph",
+  "subject": "Luke",
+  "setting": "Bar Gym",
+  "classification": "Hypeer Muscle Growth",
+  "status": "canon / active",
+  "sequence": [
+    {
+      "id": "BWOMPH-001",
+      "state": "emergence",
+      "rule": "The image boundary fails; Luke remains Luke."
+    },
+    {
+      "id": "BWOMPH-002",
+      "state": "hypeer",
+      "rule": "The previous maximum becomes the next starting baseline."
+    }
+  ],
+  "visualTransformation": [
+    "baseline",
+    "pressure",
+    "Bwomph",
+    "Hypeer acceleration",
+    "structural catch-up",
+    "new baseline",
+    "inheritance"
+  ],
+  "environment": [
+    "racks",
+    "plates",
+    "bench",
+    "mirrors",
+    "worn floor",
+    "bar atmosphere",
+    "doorway"
+  ],
+  "continuityRule": "Growth reveals more Luke rather than replacing Luke.",
+  "sacralLaw": "The muscle is memory; the new baseline is remembrance; the Bwomph is the moment remembrance becomes visible.",
+  "generationRule": "Every new Luke state inherits the immediately preceding baseline and preserves the face, identity, setting, and prior visual record.",
+  "nextEvent": "BWOMPH-003"
+}

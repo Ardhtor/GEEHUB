@@ -5,37 +5,36 @@
   "classification": "Hypeer Muscle Growth",
   "status": "canon / active",
   "sequence": [
-    {
-      "id": "BWOMPH-001",
-      "state": "emergence",
-      "rule": "The image boundary fails; Luke remains Luke."
-    },
-    {
-      "id": "BWOMPH-002",
-      "state": "hypeer",
-      "rule": "The previous maximum becomes the next starting baseline."
-    }
+    {"id":"BWOMPH-001","state":"emergence","rule":"The image boundary fails; Luke remains Luke."},
+    {"id":"BWOMPH-002","state":"hypeer","rule":"The previous maximum becomes the next starting baseline."},
+    {"id":"BWOMPH-003","state":"pressure","inheritsFrom":"BWOMPH-002","rule":"The bar gym becomes a measuring instrument as the next baseline expands."},
+    {"id":"BWOMPH-004","state":"bwomph","inheritsFrom":"BWOMPH-003","rule":"A visible scale jump occurs without changing face, identity, or setting."},
+    {"id":"BWOMPH-005","state":"new baseline","inheritsFrom":"BWOMPH-004","rule":"The expanded state stabilizes and becomes the foundation for the next transformation."}
   ],
-  "visualTransformation": [
-    "baseline",
-    "pressure",
-    "Bwomph",
-    "Hypeer acceleration",
-    "structural catch-up",
-    "new baseline",
-    "inheritance"
-  ],
-  "environment": [
-    "racks",
-    "plates",
-    "bench",
-    "mirrors",
-    "worn floor",
-    "bar atmosphere",
-    "doorway"
-  ],
-  "continuityRule": "Growth reveals more Luke rather than replacing Luke.",
-  "sacralLaw": "The muscle is memory; the new baseline is remembrance; the Bwomph is the moment remembrance becomes visible.",
-  "generationRule": "Every new Luke state inherits the immediately preceding baseline and preserves the face, identity, setting, and prior visual record.",
-  "nextEvent": "BWOMPH-003"
+  "visualTransformation":["baseline","pressure","Bwomph","Hypeer acceleration","structural catch-up","new baseline","inheritance"],
+  "environment":["racks","plates","bench","mirrors","worn floor","bar atmosphere","doorway"],
+  "continuityRule":"Growth reveals more Luke rather than replacing Luke.",
+  "sacralLaw":"The muscle is memory; the new baseline is remembrance; the Bwomph is the moment remembrance becomes visible.",
+  "generationRule":"Each state inherits the immediately preceding baseline and preserves face, identity, setting, and prior visual memory.",
+  "proceduralGeneration":{
+    "enabled":true,
+    "model":"delta-based inheritance",
+    "maximumLevels":10000000,
+    "openEnded":true,
+    "levelAddressing":"BWOMPH-{zeroPaddedLevel}",
+    "stateCycle":["pressure","bwomph","hypeer acceleration","structural catch-up","new baseline","inheritance"],
+    "inheritance":["face","identity","name","setting","prior baselines","visual memory"],
+    "deltaFields":["scaleIncrease","proportionAdjustment","environmentResponse","visualMemory"],
+    "archiveRule":"Store milestone states and compact deltas; do not duplicate millions of near-identical records.",
+    "currentHighestLevel":5,
+    "nextGeneratedLevel":6
+  },
+  "progress":{
+    "lastRun":"2026-10-01",
+    "advancedFrom":"BWOMPH-002",
+    "advancedThrough":"BWOMPH-005",
+    "levelsGeneratedThisRun":3,
+    "canonicalNote":"BWOMPH-003 to BWOMPH-005 establish the next inherited pressure-to-baseline cycle."
+  },
+  "nextEvent":"BWOMPH-006"
 }

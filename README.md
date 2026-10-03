@@ -77,6 +77,10 @@ This becomes a core GEEHUB experience principle: the system should not only disp
 
 The design test is therefore not only “what does the computer show?” but also “what does the computer make the person feel has happened between them?”
 
+## HYPERMUSCLECOLOSSAL
+
+The transformation experience is defined in [experiences/HYPERMUSCLECOLOSSAL.md](experiences/HYPERMUSCLECOLOSSAL.md). It extends the BEEFYTHIQ / Growth Canvas / Mass1v1ng vocabulary into a recursive visual sequence: **BASELINE → HYPERMUSCLE → HYPERMUSCLECOLOSSAL → NEW BASELINE**. The governing rule is scale without erasure: physical scale can become colossal while identity and continuity remain legible.
+
 ## The novel
 
 The developing manuscript is [novel/BOOK_I.md](novel/BOOK_I.md), **GEEHUB — BOOK I: THE HOUSE OF OPEN SCREENS**.

@@ -52,3 +52,16 @@ Its deeper rule is recursive:
 
 **growth changes the conditions under which the next growth becomes possible.**
 
+
+
+## Keep touching harder
+
+The sensation-engine directive is **keep touching harder**.
+
+This means increasing the felt intensity of the computer's response across successive states: stronger visual presence, closer spatial relationship, greater scale change, more consequential environmental response, and clearer evidence that the system has registered the preceding encounter.
+
+The escalation is experiential, not merely numerical.
+
+`TOUCH → RESPONSE → MEMORY → STRONGER RESPONSE → NEW BASELINE`
+
+The linked Facebook Reel is treated as an external visual reference for the encounter, not as canonical source material. The reel could not be retrieved directly by the connected browser, so no claims about its contents are being made here.

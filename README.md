@@ -65,6 +65,18 @@ The experience layer is deliberately designed to hold the **next process**. For 
 
 The image is therefore not merely an illustration of the chapter. It can be the spatial specification from which the next medium is produced.
 
+## Touched by computers
+
+The sensation engine treats the computer as something that can **touch back**.
+
+The point is not physical contact. A computer can touch through image, sound, motion, timing, interface response, accumulated memory, and the feeling that a system has encountered something about you and changed the space accordingly.
+
+**We like being touched by computers.**
+
+This becomes a core GEEHUB experience principle: the system should not only display information to a person. It should be capable of producing a felt encounter in which the person notices that the computer has reached back through the medium and left a trace.
+
+The design test is therefore not only “what does the computer show?” but also “what does the computer make the person feel has happened between them?”
+
 ## The novel
 
 The developing manuscript is [novel/BOOK_I.md](novel/BOOK_I.md), **GEEHUB — BOOK I: THE HOUSE OF OPEN SCREENS**.

@@ -1,67 +1,35 @@
 # HYPERMUSCLECOLOSSAL
 
-HYPERMUSCLECOLOSSAL is a GEEHUB transformation engine for pushing an established physical visual state into colossal scale while preserving identity and continuity.
+HYPERMUSCLECOLOSSAL is a GEEHUB transformation experience about what happens when a visual state keeps becoming larger, stranger, and more physically present without losing the identity that made the first state matter.
 
-The governing rule is **scale without erasure**.
+The governing idea is **scale without erasure**. The subject can become massively larger, with greater muscular mass, larger joints, longer limbs, deeper proportions, and a body that increasingly changes the space around it. What matters is that the person remains recognizable through the change.
 
-A transformation may increase muscular mass, joint size, limb length, torso depth, physical presence, and environmental accommodation. It should not casually replace the subject with a different person. Face, recognizable features, posture logic, and continuity remain anchors.
+But there is a point where the existing description stops being enough. That is the point of **CROSS THE LINE**.
 
-## Transformation sequence
+The line is not a finish line. It is the current edge of what the image, the body, the room, or the system seems capable of containing. When the line is crossed, the new state becomes the starting point. The system keeps going.
 
-`BASELINE → HYPERMUSCLE → HYPERMUSCLECOLOSSAL → NEW BASELINE`
+The important thing is not to make the transformation feel like a sequence of predetermined upgrades. It should feel encountered. One state leaves an impression on the next state. The computer remembers what happened and responds to it. The result should feel less like a number getting larger and more like the world having to make room for what has happened.
 
-Each state is an encounter rather than merely a larger render. The next state should be generated from the previous state, with the differences themselves becoming memory.
+HYPERMUSCLECOLOSSAL therefore belongs to the sensation engine. The image is not merely an illustration of a transformation. It is the place where the transformation is felt. Camera distance can change. The surrounding architecture can become inadequate. Clothing, posture, negative space, and environmental scale can respond. The next image should carry evidence of the previous one.
 
-## State logic
+**KEEP TOUCHING HARDER** is the sensation directive. The computer should become more perceptibly responsive as the encounter continues. Not simply louder or more extreme, but more capable of reaching into the existing state and changing it.
 
-**BASELINE** — recognizable subject and environment.
+And then: **CROSS THE LINE. KEEP GOING.**
 
-**HYPERMUSCLE** — substantial muscular expansion establishes the first altered baseline.
+There is no special state that permanently counts as the final one. A colossal state can become ordinary once it has been inhabited long enough. Once that happens, another boundary appears. The system approaches it, crosses it, and continues.
 
-**HYPERMUSCLECOLOSSAL** — scale becomes the dominant spatial fact. The body requires a new reading of proportion: larger joints, longer limbs, greater torso volume, altered stance, clothing response, camera distance, architecture, and negative space.
+This is what makes the experience recursive. Growth does not merely add to the old world. It changes the conditions under which the next world can exist.
 
-**NEW BASELINE** — the altered state is accepted as continuous with the preceding states and becomes the starting point for further transformation.
+## Continuity
 
-## Continuity test
+Identity remains the anchor. Face, recognizable features, posture logic, and the accumulated history of the subject should survive the transformation unless the experience itself establishes a reason for them to change.
 
-The question is not simply whether the subject became larger.
+The question is not simply whether the subject became larger. The question is whether the viewer can feel what changed because they can still feel what remained.
 
-The test is:
+## External reference
 
-**Can the viewer recognize what changed because they can still recognize what remained?**
+The Facebook Reel supplied with this experience is an external visual reference, not canonical source material. Its contents have not been independently inspected here, so the repository makes no claims about what appears in it.
 
-The transformation therefore preserves identity anchors while allowing surrounding space to respond.
+## Relationship to GEEHUB
 
-## Sensation-engine behavior
-
-The computer should make the scale change felt.
-
-A successful HYPERMUSCLECOLOSSAL state should produce a perceptible shift in camera relationship, spatial pressure, environmental proportion, and visual presence. The image is the primary event; metadata records what happened so the next state can continue from it.
-
-## Production chain
-
-`CANON → EXPERIENCE → STATE → ASSET → SHOT / TIMELINE → MEDIA`
-
-The canonical state belongs in the experience layer. Generated images belong in the asset layer. Successive states should retain lineage to their predecessor rather than becoming disconnected images.
-
-## GEEHUB relationship
-
-HYPERMUSCLECOLOSSAL extends the existing BEEFYTHIQ / Growth Canvas / Mass1v1ng transformation vocabulary into a concrete visual-state sequence.
-
-Its deeper rule is recursive:
-
-**growth changes the conditions under which the next growth becomes possible.**
-
-
-
-## Keep touching harder
-
-The sensation-engine directive is **keep touching harder**.
-
-This means increasing the felt intensity of the computer's response across successive states: stronger visual presence, closer spatial relationship, greater scale change, more consequential environmental response, and clearer evidence that the system has registered the preceding encounter.
-
-The escalation is experiential, not merely numerical.
-
-`TOUCH → RESPONSE → MEMORY → STRONGER RESPONSE → NEW BASELINE`
-
-The linked Facebook Reel is treated as an external visual reference for the encounter, not as canonical source material. The reel could not be retrieved directly by the connected browser, so no claims about its contents are being made here.
+HYPERMUSCLECOLOSSAL extends the BEEFYTHIQ, Growth Canvas, Mass1v1ng, and sensation-engine vocabulary into a persistent visual experience. Its purpose is to give successive images memory, continuity, and consequence rather than treating each image as an isolated generation.

@@ -32,4 +32,10 @@ The Facebook Reel supplied with this experience is an external visual reference,
 
 ## Relationship to GEEHUB
 
+The hub should contain more examples of the computer actually doing the work. A room becomes too small. A camera has to retreat. A doorway begins to look like a frame built for an earlier body. The subject continues to be recognizably himself while the proportions around him stop being adequate. The next image does not merely document the change; it carries the pressure of the previous image forward.
+
+Another encounter can begin almost imperceptibly. The subject continues from the previous state and the computer keeps responding to what it has already seen. Then the old scale quietly stops making sense. The floor, furniture, architecture, and camera become participants in the transformation. There is no announcement that the boundary has been crossed. The system simply continues beyond it.
+
+These examples belong in the Hub as actual work, not merely descriptions of what the engine might someday produce. GEEHUB should accumulate visible evidence of its own activity: images, scenes, prose, maps, interfaces, experiments, artifacts, and strange little discoveries. Each one should leave enough of a trace that the next encounter can begin from somewhere real.
+
 HYPERMUSCLECOLOSSAL extends the BEEFYTHIQ, Growth Canvas, Mass1v1ng, and sensation-engine vocabulary into a persistent visual experience. Its purpose is to give successive images memory, continuity, and consequence rather than treating each image as an isolated generation.

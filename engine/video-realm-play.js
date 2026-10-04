@@ -7,7 +7,7 @@
   if (!root) return;
 
   const W=1280,H=720,FPS=30,DURATION=20;
-  let running=false, rec=null, chunks=[], raf=0, start=0;
+  let running=false, previewing=true, rec=null, chunks=[], raf=0, start=0;
 
   root.innerHTML =
     '<div class="vr-stage"><canvas id="vrCanvas" width="'+W+'" height="'+H+'" aria-label="Generated video realm"></canvas><div class="vr-control"><button id="vrRun" class="vision-button" type="button" aria-label="Run realm" title="Run realm">▶</button></div><div class="vr-hud"><span id="vrState" aria-hidden="true"></span><span id="vrTime" aria-hidden="true"></span></div></div>';
@@ -77,7 +77,15 @@
     const overlay=root.querySelector('.vr-beat'); if(overlay) overlay.textContent=label;
   }
   function lerp(a,b,t){return a+(b-a)*t;}
-  function tick(){if(!running)return;const t=Math.min(DURATION,(performance.now()-start)/1000);frame(t);time.textContent='00:'+String(Math.floor(t)).padStart(2,'0');if(t>=DURATION){if(rec&&rec.state==='recording')rec.stop();return;}raf=requestAnimationFrame(tick);}
+  function tick(){
+    if(!running && !previewing)return;
+    const elapsed=(performance.now()-start)/1000;
+    const t=running?Math.min(DURATION,elapsed):elapsed%DURATION;
+    frame(t);
+    time.textContent='00:'+String(Math.floor(t)).padStart(2,'0');
+    if(running && t>=DURATION){if(rec&&rec.state==='recording')rec.stop();return;}
+    raf=requestAnimationFrame(tick);
+  }
   run.onclick=()=>{
     if(running)return;running=true;chunks=[];run.disabled=true;run.textContent='●';state.textContent='BUILDING // VIDEO REALM';
     if(!window.MediaRecorder){start=performance.now();tick();setTimeout(()=>{running=false;run.disabled=false;run.textContent='▶';state.textContent='PREVIEW COMPLETE';},(DURATION+.2)*1000);return;}
@@ -87,5 +95,7 @@
     rec.start(100);start=performance.now();tick();
   };
   const pulse = root.querySelector('.vr-beat'); if(pulse) pulse.textContent='MEMORY REALM';
-  frame(0);
+  // The realm is alive when the panel opens. RUN turns the live memory into a recorded video.
+  start=performance.now();
+  requestAnimationFrame(tick);
 })();

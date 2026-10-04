@@ -389,5 +389,23 @@
       "world",
       "run"
     ]
+  },
+  {
+    "id": "male-stud",
+    "name": "Male Stud",
+    "group": "experience",
+    "status": "active",
+    "summary": "Enterable adult male social world inside the Sensation Engine; a persistent place of characters, rooms, encounters, video-memory, and visual artifacts that continues between visits.",
+    "path": "../experiences/male-stud/README.md",
+    "repo": "Ardhtor/GEEHUB",
+    "tags": [
+      "experience",
+      "male",
+      "social",
+      "visual",
+      "memory",
+      "continuity",
+      "sensation-engine"
+    ]
   }
 ]

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "id": "self-build-run-001",
+  "run": 1,
+  "at": "2026-10-05T00:00:00Z",
+  "need": {
+    "id": "need-001",
+    "type": "IMAGE",
+    "title": "A new visual encounter",
+    "target": "visual-synthesis",
+    "reason": "The world has grown past its current visual baseline."
+  },
+  "council": {
+    "Luke": "How should this need alter the felt presence of the world?",
+    "Tyler": "What evidence would show that this lack has actually been reduced?",
+    "Andrew": "What can be built right now rather than merely described?",
+    "Joseph": "What should be remembered after this need is answered?",
+    "Chase": "What is the actual absence, without filling it with assumptions?"
+  },
+  "action": {
+    "type": "OFFER",
+    "destination": "Ardhtor/lp9hppuio88",
+    "result": "REQUESTED VISUAL ARRIVAL",
+    "next": "Produce a concrete visual artifact in the visual-synthesis territory; return it through the shared exchange."
+  },
+  "continuity": "No existing state is erased. The missing visual layer is treated as the next construction pressure."
+}

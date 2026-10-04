@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "space": "geehub-interaction-space",
+  "states": [
+    "OPEN",
+    "OFFERED",
+    "FULFILLED",
+    "RETURNED"
+  ],
+  "needTypes": [
+    "IMAGE",
+    "TEXT",
+    "SPACE",
+    "MOTION",
+    "SOUND",
+    "REFERENCE",
+    "VIDEO",
+    "CHARACTER",
+    "MATERIAL"
+  ],
+  "requests": [
+    {
+      "id": "need-001",
+      "type": "IMAGE",
+      "requester": "shared-space",
+      "target": "visual-synthesis",
+      "status": "OPEN",
+      "title": "A new visual encounter",
+      "reason": "The world has grown past its current visual baseline.",
+      "priority": "high"
+    },
+    {
+      "id": "need-002",
+      "type": "SPACE",
+      "requester": "shared-space",
+      "target": "spatial-perception",
+      "status": "OPEN",
+      "title": "A room that can contain the new scale",
+      "reason": "The current environment needs a new spatial response.",
+      "priority": "high"
+    },
+    {
+      "id": "need-003",
+      "type": "TEXT",
+      "requester": "shared-space",
+      "target": "moderntexts",
+      "status": "OPEN",
+      "title": "Language for the changed state",
+      "reason": "The transformation has produced an experience that needs a name or passage.",
+      "priority": "medium"
+    },
+    {
+      "id": "need-004",
+      "type": "REFERENCE",
+      "requester": "shared-space",
+      "target": "linux-material",
+      "status": "OPEN",
+      "title": "Material evidence",
+      "reason": "The next state needs a concrete external or visual reference.",
+      "priority": "medium"
+    }
+  ],
+  "rule": "A fulfilled need becomes a return event and becomes eligible to trigger the next need. The system should prefer concrete media/artifacts over abstract status messages."
+}

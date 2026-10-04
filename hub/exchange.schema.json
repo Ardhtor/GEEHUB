@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GEEHUB Exchange Event",
+  "type": "object",
+  "required": [
+    "id",
+    "at",
+    "from",
+    "to",
+    "type",
+    "title",
+    "body"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "at": {
+      "type": "string"
+    },
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "ARRIVAL",
+        "NOTICE",
+        "ENCOUNTER",
+        "OFFER",
+        "TRANSFORM",
+        "RETURN",
+        "MEMORY"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "artifact": {
+      "type": "object"
+    },
+    "lineage": {
+      "type": [
+        "object",
+        "array",
+        "string",
+        "null"
+      ]
+    },
+    "live": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true
+}

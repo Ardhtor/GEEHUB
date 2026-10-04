@@ -7,12 +7,14 @@
   if (!root) return;
 
   const W=1280,H=720,FPS=30,DURATION=20;
+  const memoryIndex='./lore/novel/INDEX.json';
   let running=false, previewing=true, rec=null, chunks=[], raf=0, start=0;
 
   root.innerHTML =
     '<div class="vr-stage"><canvas id="vrCanvas" width="'+W+'" height="'+H+'" aria-label="Generated video realm"></canvas><div class="vr-control"><button id="vrRun" class="vision-button" type="button" aria-label="Run realm" title="Run realm">▶</button></div><div class="vr-hud"><span id="vrState" aria-hidden="true"></span><span id="vrTime" aria-hidden="true"></span></div></div>';
 
   const c=root.querySelector('#vrCanvas'),x=c.getContext('2d'),run=root.querySelector('#vrRun'),state=root.querySelector('#vrState'),time=root.querySelector('#vrTime');
+  let memoryTitle='LIVING MEMORY';
   const ease=v=>{v=Math.max(0,Math.min(1,v));return v*v*(3-2*v);};
 
   const worldState={adults:[{id:'luke',name:'LUKE',scale:1.12,warmth:.82},{id:'tyler',name:'TYLER',scale:1.02,warmth:.74},{id:'matt',name:'MATT',scale:.94,warmth:.68}],encounters:0,continuity:0};
@@ -100,6 +102,11 @@
     rec.start(100);start=performance.now();tick();
   };
   const pulse = root.querySelector('.vr-beat'); if(pulse) pulse.textContent='MEMORY REALM';
+  fetch(memoryIndex).then(r=>r.ok?r.json():null).then(data=>{
+    const items=Array.isArray(data)?data:(data&&Array.isArray(data.entries)?data.entries:[]);
+    if(items.length){ memoryTitle=items[Math.floor(Math.random()*items.length)].title||memoryTitle; }
+    state.textContent=memoryTitle.toUpperCase();
+  }).catch(()=>{});
   // The realm is alive when the panel opens. RUN turns the live memory into a recorded video.
   start=performance.now();
   requestAnimationFrame(tick);

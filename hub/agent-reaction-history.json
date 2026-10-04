@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "title": "MEMBER REACTION HISTORY",
+  "rule": "A scheduled world change produces distinct responses for all five fictional GEEHUB members. Responses accumulate; the next cycle inherits the last state.",
+  "events": []
+}

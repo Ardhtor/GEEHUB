@@ -129,6 +129,25 @@
     localStorage.setItem('geehub-interaction-events', JSON.stringify(local.slice(0,24)));
   }
 
+  // Existing artifact production enters the same shared stream.
+  if (window.GEEHUB_ARTIFACTS && typeof window.GEEHUB_ARTIFACTS.emit === 'function') {
+    const originalEmit = window.GEEHUB_ARTIFACTS.emit.bind(window.GEEHUB_ARTIFACTS);
+    window.GEEHUB_ARTIFACTS.emit = function(spec) {
+      const artifact = originalEmit(spec);
+      bus.emit({
+        id:'artifact-return-'+Date.now(),
+        from:'geehub',
+        to:'shared-space',
+        type:'RETURN',
+        title:artifact?.title || spec?.title || 'New artifact',
+        body:artifact?.body || spec?.body || '',
+        source:spec?.source || 'artifact runtime',
+        live:true
+      });
+      return artifact;
+    };
+  }
+
   const originalOnRun = bus.on;
   bus.on(e => {
     if(['ENCOUNTER','OFFER','TRANSFORM','RETURN','MEMORY'].includes(e.type)) {

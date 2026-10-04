@@ -1,0 +1,61 @@
+{
+  "kind": "living-novel-corpus",
+  "version": 1,
+  "entries": [
+    {
+      "file": "THE_CITY_UNDER_THE_FOUNTAIN.md",
+      "title": "The City Under the Fountain",
+      "description": "Rain falls upward. A staircase appears beneath the old fountain. Joseph and Luke descend until memory becomes geography."
+    },
+    {
+      "file": "THE_PROCESSION_OF_MOON.md",
+      "title": "The Procession of Moon",
+      "description": "The moon returns to Veyrthalis after seventeen years. A procession carries an empty wooden frame toward the Temple of Moon."
+    },
+    {
+      "file": "THE_BOX_AT_THE_END_OF_THE_WORLD.md",
+      "title": "The Box at the End of the World",
+      "description": "A dark wooden box waits outside the Digitorium. Inside it is a real street, and the street leads somewhere the world has not named."
+    },
+    {
+      "file": "THE_LAST_OBSERVER.md",
+      "title": "The Last Observer",
+      "description": "At the top of the world, Chase finds a room containing a chair, a window, a table, and a book that records the people below."
+    },
+    {
+      "file": "THE_HOUSE_THAT_REMEMBERED.md",
+      "title": "The House That Remembered",
+      "description": "A house remembers before anyone enters it. Its rooms preserve continuities, forgotten moments, and doors into worlds still being built."
+    },
+    {
+      "file": "THE_MACHINE_DREAMS_IN_PUBLIC.md",
+      "title": "The Machine Dreams in Public",
+      "description": "The corpus accumulates until books, images, maps, video, and sound become constraints and possibilities rather than files."
+    },
+    {
+      "file": "THE_CITY_BEGINS_TO_THINK.md",
+      "title": "The City Begins to Think",
+      "description": "The city learns through contact and association. Streets begin appearing where recurring memories require them."
+    },
+    {
+      "file": "THE_ARCHIVE_OPENS.md",
+      "title": "The Archive Opens",
+      "description": "Stored images become windows. Distance is measured by association, and something enormous moves beneath the archive."
+    },
+    {
+      "file": "THE_ROOM_BENEATH_THE_ROOM.md",
+      "title": "The Room Beneath the Room",
+      "description": "A room of doors and threads reveals deeper corpus layers and the possibility of continuity beyond the visible world."
+    },
+    {
+      "file": "THE_CONTINENT_OF_MEMORY.md",
+      "title": "The Continent of Memory",
+      "description": "A continent assembles from recurrence: forests, cities, rivers, and mountains formed by remembered patterns."
+    },
+    {
+      "file": "THE_BOOK_WITHOUT_AN_END.md",
+      "title": "The Book Without an End",
+      "description": "Chase's book reaches recursion. Every record can contain its recorder. The page leaves one instruction: CONTINUE."
+    }
+  ]
+}

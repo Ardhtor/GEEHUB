@@ -12,7 +12,7 @@
   root.innerHTML =
     '<div class="vr-stage"><canvas id="vrCanvas" width="'+W+'" height="'+H+'" aria-label="Generated video realm"></canvas><div class="vr-control"><button id="vrRun" class="vision-button" type="button" aria-label="Run realm" title="Run realm">▶</button></div><div class="vr-hud"><span id="vrState" aria-hidden="true"></span><span id="vrTime" aria-hidden="true"></span></div></div>';
 
-  const c=root.querySelector('#vrCanvas'),x=c.getContext('2d'),run=root.querySelector('#vrRun'),state=root.querySelector('#vrState'),time=root.querySelector('#vrTime'),beat=root.querySelector('#vrBeat');
+  const c=root.querySelector('#vrCanvas'),x=c.getContext('2d'),run=root.querySelector('#vrRun'),state=root.querySelector('#vrState'),time=root.querySelector('#vrTime');
   const ease=v=>{v=Math.max(0,Math.min(1,v));return v*v*(3-2*v);};
 
   function man(px,py,s,phase,turn=0){
@@ -74,7 +74,7 @@
 
     const labels=[[0,'ARRIVAL'],[.18,'NOTICE'],[.34,'PLAY'],[.58,'CROSSING'],[.76,'TOGETHER'],[.92,'REST']];
     let label=labels[0][1];labels.forEach(v=>{if(p>=v[0])label=v[1];});
-    beat.textContent=label;
+    const overlay=root.querySelector('.vr-beat'); if(overlay) overlay.textContent=label;
   }
   function lerp(a,b,t){return a+(b-a)*t;}
   function tick(){if(!running)return;const t=Math.min(DURATION,(performance.now()-start)/1000);frame(t);time.textContent='00:'+String(Math.floor(t)).padStart(2,'0');if(t>=DURATION){if(rec&&rec.state==='recording')rec.stop();return;}raf=requestAnimationFrame(tick);}
@@ -83,8 +83,9 @@
     if(!window.MediaRecorder){start=performance.now();tick();setTimeout(()=>{running=false;run.disabled=false;run.textContent='▶';state.textContent='PREVIEW COMPLETE';},(DURATION+.2)*1000);return;}
     const stream=c.captureStream(FPS),mime=['video/webm;codecs=vp9','video/webm;codecs=vp8','video/webm'].find(v=>MediaRecorder.isTypeSupported(v))||'';
     rec=new MediaRecorder(stream,mime?{mimeType:mime}:{});rec.ondataavailable=e=>e.data.size&&chunks.push(e.data);
-    rec.onstop=()=>{const url=URL.createObjectURL(new Blob(chunks,{type:'video/webm'}));const a=document.createElement('a');a.href=url;a.download='geehub-men-in-the-realm.webm';a.textContent='↗';a.className='sv-save';root.querySelector('.vr-head').appendChild(a);state.textContent='COMPLETE // WEBM READY';running=false;run.disabled=false;run.textContent='RUN REALM';};
+    rec.onstop=()=>{const url=URL.createObjectURL(new Blob(chunks,{type:'video/webm'}));const a=document.createElement('a');a.href=url;a.download='geehub-men-in-the-realm.webm';a.textContent='↗';a.className='sv-save';root.querySelector('.vr-control').appendChild(a);state.textContent='COMPLETE // WEBM READY';running=false;run.disabled=false;run.textContent='RUN REALM';};
     rec.start(100);start=performance.now();tick();
   };
+  const pulse = root.querySelector('.vr-beat'); if(pulse) pulse.textContent='MEMORY REALM';
   frame(0);
 })();

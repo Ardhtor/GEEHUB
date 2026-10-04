@@ -15,6 +15,7 @@
   const c=root.querySelector('#vrCanvas'),x=c.getContext('2d'),run=root.querySelector('#vrRun'),state=root.querySelector('#vrState'),time=root.querySelector('#vrTime');
   const ease=v=>{v=Math.max(0,Math.min(1,v));return v*v*(3-2*v);};
 
+  const worldState={adults:[{id:'luke',name:'LUKE',scale:1.12,warmth:.82},{id:'tyler',name:'TYLER',scale:1.02,warmth:.74},{id:'matt',name:'MATT',scale:.94,warmth:.68}],encounters:0,continuity:0};
   function man(px,py,s,phase,turn=0){
     const bob=Math.sin(phase*2.3)*5;
     x.save();x.translate(px,py+bob);x.scale(s,s);x.rotate(turn);
@@ -56,8 +57,10 @@
     man(m2x,H*.78,1.06,t+1.4, -Math.sin(t*.75+.6)*.025);
     man(m3x,H*.79,.82,t+2.3, Math.cos(t*.65)*.03);
 
-    // Shared play: figures orbit, gesture, and cross paths.
+    // Shared play: adult characters inhabit one social/video realm.
     if(play>.05){
+      worldState.encounters=Math.floor(play*3);
+      worldState.continuity=Math.min(1,worldState.continuity+.002);
       const q=(t-5.2)*.85;
       const cx=640+Math.sin(q)*180, cy=H*.48+Math.cos(q*1.3)*48;
       x.strokeStyle='rgba(120,195,245,'+(0.10+0.14*(1-settle))+')';x.lineWidth=3;
@@ -83,6 +86,8 @@
     const t=running?Math.min(DURATION,elapsed):elapsed%DURATION;
     frame(t);
     time.textContent='00:'+String(Math.floor(t)).padStart(2,'0');
+    const sensation=window.GEEHUB_SENSATION;
+    if(sensation&&typeof sensation.ingest==='function'&&running)sensation.ingest({kind:'video-realm',mode:'adult-presence',encounters:worldState.encounters,continuity:worldState.continuity});
     if(running && t>=DURATION){if(rec&&rec.state==='recording')rec.stop();return;}
     raf=requestAnimationFrame(tick);
   }

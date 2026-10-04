@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "geehub-current-world-state",
+  "title": "CURRENT WORLD STATE",
+  "map": "./spatial-world.json",
+  "activeRecording": "./recordings/SEED_SIZE_FOCUS_GAMER_DAD.json",
+  "activeEncounter": {
+    "regionId": "complex",
+    "regionName": "THE COMPLEX",
+    "subject": {
+      "agent": "luke",
+      "scale": 2.5
+    },
+    "intent": "SIZE FOCUS / GAMER DAD",
+    "continuity": [
+      "face",
+      "identity",
+      "name",
+      "setting",
+      "previous baselines"
+    ]
+  },
+  "rendererContract": "./renderer-contract.json",
+  "rendererQueues": {
+    "image": "./image-jobs.json",
+    "space3d": "./render-jobs.json",
+    "video": "./render-jobs.json",
+    "sound": "./render-jobs.json"
+  },
+  "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
+  "snapshot": "2026-10-05T00:20:00Z"
+}

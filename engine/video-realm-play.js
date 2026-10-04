@@ -10,9 +10,7 @@
   let running=false, rec=null, chunks=[], raf=0, start=0;
 
   root.innerHTML =
-    '<div class="vr-head"><div><div class="eyebrow">VIDEO REALM / PLAY</div><h2>MEN IN THE REALM</h2><p>Characters move, notice one another, explore the space, and change the scene simply by being in it.</p></div><button id="vrRun" class="run-button" type="button">RUN REALM</button></div>'+
-    '<div class="vr-stage"><canvas id="vrCanvas" width="'+W+'" height="'+H+'"></canvas><div class="vr-hud"><span id="vrState">READY // 20 SEC</span><span id="vrTime">00:00</span></div></div>'+
-    '<div class="vr-readout"><span id="vrBeat">ARRIVAL</span><span>men → motion → attention → play → shared world</span></div>';
+    '<div class="vr-stage"><canvas id="vrCanvas" width="'+W+'" height="'+H+'" aria-label="Generated video realm"></canvas><div class="vr-control"><button id="vrRun" class="vision-button" type="button" aria-label="Run realm" title="Run realm">▶</button></div><div class="vr-hud"><span id="vrState" aria-hidden="true"></span><span id="vrTime" aria-hidden="true"></span></div></div>';
 
   const c=root.querySelector('#vrCanvas'),x=c.getContext('2d'),run=root.querySelector('#vrRun'),state=root.querySelector('#vrState'),time=root.querySelector('#vrTime'),beat=root.querySelector('#vrBeat');
   const ease=v=>{v=Math.max(0,Math.min(1,v));return v*v*(3-2*v);};
@@ -81,11 +79,11 @@
   function lerp(a,b,t){return a+(b-a)*t;}
   function tick(){if(!running)return;const t=Math.min(DURATION,(performance.now()-start)/1000);frame(t);time.textContent='00:'+String(Math.floor(t)).padStart(2,'0');if(t>=DURATION){if(rec&&rec.state==='recording')rec.stop();return;}raf=requestAnimationFrame(tick);}
   run.onclick=()=>{
-    if(running)return;running=true;chunks=[];run.disabled=true;run.textContent='RECORDING';state.textContent='BUILDING // VIDEO REALM';
-    if(!window.MediaRecorder){start=performance.now();tick();setTimeout(()=>{running=false;run.disabled=false;run.textContent='RUN REALM';state.textContent='PREVIEW COMPLETE';},(DURATION+.2)*1000);return;}
+    if(running)return;running=true;chunks=[];run.disabled=true;run.textContent='●';state.textContent='BUILDING // VIDEO REALM';
+    if(!window.MediaRecorder){start=performance.now();tick();setTimeout(()=>{running=false;run.disabled=false;run.textContent='▶';state.textContent='PREVIEW COMPLETE';},(DURATION+.2)*1000);return;}
     const stream=c.captureStream(FPS),mime=['video/webm;codecs=vp9','video/webm;codecs=vp8','video/webm'].find(v=>MediaRecorder.isTypeSupported(v))||'';
     rec=new MediaRecorder(stream,mime?{mimeType:mime}:{});rec.ondataavailable=e=>e.data.size&&chunks.push(e.data);
-    rec.onstop=()=>{const url=URL.createObjectURL(new Blob(chunks,{type:'video/webm'}));const a=document.createElement('a');a.href=url;a.download='geehub-men-in-the-realm.webm';a.textContent='OPEN VIDEO';a.className='sv-save';root.querySelector('.vr-head').appendChild(a);state.textContent='COMPLETE // WEBM READY';running=false;run.disabled=false;run.textContent='RUN REALM';};
+    rec.onstop=()=>{const url=URL.createObjectURL(new Blob(chunks,{type:'video/webm'}));const a=document.createElement('a');a.href=url;a.download='geehub-men-in-the-realm.webm';a.textContent='↗';a.className='sv-save';root.querySelector('.vr-head').appendChild(a);state.textContent='COMPLETE // WEBM READY';running=false;run.disabled=false;run.textContent='RUN REALM';};
     rec.start(100);start=performance.now();tick();
   };
   frame(0);

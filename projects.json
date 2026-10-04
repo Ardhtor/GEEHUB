@@ -314,5 +314,32 @@
       "world",
       "run"
     ]
+  },
+  {
+    "id": "male-stud",
+    "name": "Male Stud",
+    "status": "active",
+    "kind": "experience",
+    "group": "experience",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/experiences/male-stud/README.md",
+    "description": "An enterable adult male social world within the Sensation Engine. The Male Stud is experienced as a persistent place: men, rooms, encounters, video-memory, books, and visual artifacts remain connected and continue changing between visits.",
+    "related": [
+      "sensation-engine",
+      "male-harem-virtual-space",
+      "the-complex",
+      "media-tools",
+      "discovery",
+      "muscle-myth"
+    ],
+    "tags": [
+      "experience",
+      "male",
+      "social",
+      "visual",
+      "memory",
+      "continuity",
+      "sensation-engine"
+    ]
   }
 ]

@@ -30,7 +30,7 @@
     "name": "The Complex",
     "group": "world",
     "status": "active",
-    "summary": "Persistent creative environment where creations transform, leave traces, and cross-pollinate.",
+    "summary": "Persistent living creative environment where encounters become memories, memories alter creations, and creations cross-pollinate into the next world state.",
     "path": "#",
     "tags": [
       "world",
@@ -372,6 +372,22 @@
       "growth",
       "continuity",
       "sensation-engine"
+    ]
+  },
+  {
+    "id": "sensation-engine",
+    "name": "Sensation Engine",
+    "group": "engine",
+    "status": "active",
+    "summary": "The current GEEHUB core: a living visual memory/world engine. Scenes, video, books, characters, places, and artifacts persist as connected states; RUN continues the world.",
+    "path": "../",
+    "tags": [
+      "sensation",
+      "memory",
+      "continuity",
+      "visual",
+      "world",
+      "run"
     ]
   }
 ]

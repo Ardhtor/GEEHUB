@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "id": "geehub-persistent-spatial-world",
+  "title": "THE LAY OF THE LAND",
+  "coordinateSystem": {
+    "space": "2D canonical planning plane",
+    "x": "0..100 west→east",
+    "y": "0..100 north→south",
+    "z": "meters/local vertical reference; omitted until authored",
+    "origin": "world northwest corner",
+    "units": "normalized planning coordinates"
+  },
+  "source": "./world.json",
+  "rule": "This map is the canonical spatial index. Every scene, recording, image job, and 3D reconstruction should reference region IDs and coordinates instead of inventing geography again.",
+  "regions": [
+    {
+      "id": "bodylounger",
+      "x": 18,
+      "y": 24,
+      "radius": 4
+    },
+    {
+      "id": "beefythiq",
+      "x": 47,
+      "y": 17,
+      "radius": 5
+    },
+    {
+      "id": "male-harem",
+      "x": 76,
+      "y": 25,
+      "radius": 5
+    },
+    {
+      "id": "growth",
+      "x": 28,
+      "y": 56,
+      "radius": 4
+    },
+    {
+      "id": "complex",
+      "x": 55,
+      "y": 51,
+      "radius": 6
+    },
+    {
+      "id": "facility",
+      "x": 80,
+      "y": 57,
+      "radius": 4
+    },
+    {
+      "id": "veyrthalis",
+      "x": 22,
+      "y": 82,
+      "radius": 5
+    },
+    {
+      "id": "muscle-myth",
+      "x": 52,
+      "y": 84,
+      "radius": 5
+    },
+    {
+      "id": "discovery",
+      "x": 78,
+      "y": 83,
+      "radius": 4
+    },
+    {
+      "id": "embodied-scale",
+      "x": 64,
+      "y": 38,
+      "radius": 5
+    },
+    {
+      "id": "colossal-escalation",
+      "x": 48,
+      "y": 37,
+      "radius": 6
+    },
+    {
+      "id": "kingdom-land",
+      "x": 88,
+      "y": 43,
+      "radius": 7
+    },
+    {
+      "id": "deep-lore",
+      "x": 35,
+      "y": 69,
+      "radius": 6
+    },
+    {
+      "id": "luke-bwomph",
+      "x": 36,
+      "y": 38,
+      "radius": 5
+    }
+  ],
+  "routes": [
+    [
+      "bodylounger",
+      "growth"
+    ],
+    [
+      "growth",
+      "veyrthalis"
+    ],
+    [
+      "growth",
+      "complex"
+    ],
+    [
+      "beefythiq",
+      "colossal-escalation"
+    ],
+    [
+      "beefythiq",
+      "complex"
+    ],
+    [
+      "beefythiq",
+      "facility"
+    ],
+    [
+      "male-harem",
+      "complex"
+    ],
+    [
+      "male-harem",
+      "embodied-scale"
+    ],
+    [
+      "male-harem",
+      "deep-lore"
+    ],
+    [
+      "complex",
+      "facility"
+    ],
+    [
+      "complex",
+      "discovery"
+    ],
+    [
+      "complex",
+      "embodied-scale"
+    ],
+    [
+      "complex",
+      "colossal-escalation"
+    ],
+    [
+      "complex",
+      "muscle-myth"
+    ],
+    [
+      "embodied-scale",
+      "colossal-escalation"
+    ],
+    [
+      "embodied-scale",
+      "kingdom-land"
+    ],
+    [
+      "colossal-escalation",
+      "muscle-myth"
+    ],
+    [
+      "deep-lore",
+      "discovery"
+    ],
+    [
+      "deep-lore",
+      "veyrthalis"
+    ],
+    [
+      "deep-lore",
+      "embodied-scale"
+    ],
+    [
+      "luke-bwomph",
+      "embodied-scale"
+    ],
+    [
+      "luke-bwomph",
+      "growth"
+    ],
+    [
+      "luke-bwomph",
+      "deep-lore"
+    ],
+    [
+      "kingdom-land",
+      "facility"
+    ]
+  ],
+  "layers": [
+    "TERRAIN",
+    "ARCHITECTURE",
+    "CHARACTERS",
+    "CAMERA",
+    "SCALE",
+    "MOTION",
+    "LIGHT",
+    "SOUND",
+    "MEMORY"
+  ],
+  "interpretation": {
+    "renderers": [
+      "image",
+      "video",
+      "3d",
+      "map",
+      "narrative"
+    ],
+    "identityRule": "Region IDs are stable. Names may change; IDs do not.",
+    "scaleRule": "Body-relative measurements inherit from the current world baseline.",
+    "continuityRule": "A recording packet references existing places and records deltas rather than replacing the world."
+  }
+}

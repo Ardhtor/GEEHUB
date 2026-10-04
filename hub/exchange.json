@@ -5,6 +5,18 @@
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
     {
+      "id": "self-build-run-001",
+      "at": "2026-10-05T00:00:00Z",
+      "from": "geehub-self",
+      "to": "visual-synthesis",
+      "type": "OFFER",
+      "title": "SELF-BUILD / A NEW VISUAL ENCOUNTER",
+      "body": "RUN identified persistent visual media as the strongest current lack. Luke, Tyler, Andrew, Joseph, and Chase considered presence, evidence, action, memory, and observation; the visual-synthesis territory is asked to return a concrete visual artifact.",
+      "source": "GEEHUB self-builder",
+      "need": "need-001",
+      "live": true
+    },
+    {
       "id": "seed-moderntexts-001",
       "at": "2026-10-05T00:00:00Z",
       "from": "moderntexts",

@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "title": "AGENT REACTION STATES",
+  "principle": "These are fictional GEEHUB character states. Reactions are authored as persistent world behavior, not claims about real people.",
+  "agents": {
+    "luke": {
+      "mood": "present",
+      "attention": "the person and what the room does around him",
+      "disposition": [
+        "direct",
+        "protective",
+        "body-aware",
+        "social"
+      ],
+      "tells": [
+        "moves closer",
+        "looks at the changed thing",
+        "tests the new clearance"
+      ],
+      "reactionBias": [
+        "PRESENCE",
+        "RELATIONSHIP",
+        "EMBODIED CHANGE"
+      ]
+    },
+    "tyler": {
+      "mood": "curious",
+      "attention": "measurable change and what no longer matches",
+      "disposition": [
+        "curious",
+        "skeptical",
+        "precise",
+        "quietly competitive"
+      ],
+      "tells": [
+        "checks the distance",
+        "compares before and after",
+        "asks what changed"
+      ],
+      "reactionBias": [
+        "MEASUREMENT",
+        "CONTRAST",
+        "EVIDENCE"
+      ]
+    },
+    "andrew": {
+      "mood": "ready",
+      "attention": "what everyone can do next",
+      "disposition": [
+        "playful",
+        "active",
+        "improvisational",
+        "social"
+      ],
+      "tells": [
+        "tries it",
+        "moves first",
+        "turns change into a game"
+      ],
+      "reactionBias": [
+        "ACTION",
+        "PLAY",
+        "MOMENTUM"
+      ]
+    },
+    "joseph": {
+      "mood": "reflective",
+      "attention": "what the change means in continuity",
+      "disposition": [
+        "intimate",
+        "interpretive",
+        "memory-driven",
+        "associative"
+      ],
+      "tells": [
+        "recognizes an earlier version",
+        "names the feeling of return",
+        "holds onto a detail"
+      ],
+      "reactionBias": [
+        "MEMORY",
+        "MEANING",
+        "CONTINUITY"
+      ]
+    },
+    "chase": {
+      "mood": "watchful",
+      "attention": "what actually happened and what it might become",
+      "disposition": [
+        "observant",
+        "decisive",
+        "dry",
+        "narrative-minded"
+      ],
+      "tells": [
+        "waits for the second beat",
+        "records the consequence",
+        "chooses what matters"
+      ],
+      "reactionBias": [
+        "OBSERVATION",
+        "DECISION",
+        "CONSEQUENCE"
+      ]
+    }
+  }
+}

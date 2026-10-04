@@ -24,10 +24,11 @@
       "type": "IMAGE",
       "requester": "shared-space",
       "target": "visual-synthesis",
-      "status": "OPEN",
+      "status": "OFFERED",
       "title": "A new visual encounter",
       "reason": "The world has grown past its current visual baseline.",
-      "priority": "high"
+      "priority": "high",
+      "lastRun": "self-build-run-001"
     },
     {
       "id": "need-002",

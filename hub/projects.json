@@ -407,5 +407,20 @@
       "continuity",
       "sensation-engine"
     ]
+  },
+  {
+    "id": "shared-interaction-space",
+    "name": "Shared Interaction Space",
+    "group": "engine",
+    "status": "active",
+    "summary": "Privileged meeting surface between autonomous repositories; encounters, offers, transformations, returns, and memory cross repo boundaries without collapsing the repos into one codebase.",
+    "path": "../hub/interaction-space.json",
+    "tags": [
+      "interaction",
+      "repos",
+      "exchange",
+      "continuity",
+      "sensation-engine"
+    ]
   }
 ]

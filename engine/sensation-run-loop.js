@@ -137,6 +137,18 @@
       : 'SELF-DIRECTION: continue observing the current world.';
     window.GEEHUB_SELF?.run?.();
 
+    // IMAGE needs now create a concrete visual-production job from the persistent map.
+    if (selfNeed?.type === 'IMAGE' && window.GEEHUB_IMAGE_WORKER?.build) {
+      window.GEEHUB_IMAGE_WORKER.build({
+        title: (place.name || 'WORLD') + ' / VISUAL RETURN',
+        tags: ['canonical map', 'persistent environment', String(place.id || place.name), 'adult male', 'scale gameplay', 'environment response'],
+        prompt: 'Render this encounter from the canonical GEEHUB spatial world. Region ' +
+          String(place.id || place.name) + ' is the location. Preserve the existing environment as the spatial truth; do not invent a replacement setting. ' +
+          'Render an immersive fictional adult male human scene where scale, movement, camera distance, room occupancy, clearance, materials, and architectural response communicate the current world state. ' +
+          'Use the recorded map coordinates and existing continuity anchors. Direct in-world image, not a poster.'
+      });
+    }
+
     const artifact = window.GEEHUB_ARTIFACTS.emit({
       type: 'sensation',
       title: place.name + ' // RUN ' + String(runCount).padStart(3, '0'),

@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "id": "geehub-renderer-contract",
+  "title": "RECORDING AS WORLD CONTRACT",
+  "purpose": "Every renderer receives the same canonical spatial recording and returns media without replacing the underlying world.",
+  "input": "hub/recordings/*.json",
+  "canonicalMap": "hub/spatial-world.json",
+  "requiredFields": {
+    "map": "canonical map id",
+    "regionId": "stable region id",
+    "position": "x,y,z",
+    "camera": "position and orientation",
+    "subject": "agent and scale",
+    "environment": "occupancy, clearance, materials, lighting, sound",
+    "anchors": "stable spatial witnesses",
+    "deltas": "changes from the inherited state",
+    "intent": "encounter intent"
+  },
+  "rendererRoles": {
+    "image": {
+      "participant": "visual-synthesis",
+      "consumes": [
+        "map",
+        "position",
+        "camera",
+        "subject",
+        "environment",
+        "anchors",
+        "deltas",
+        "intent"
+      ],
+      "returns": [
+        "IMAGE",
+        "preview",
+        "lineage"
+      ]
+    },
+    "space3d": {
+      "participant": "spatial-perception",
+      "consumes": [
+        "map",
+        "position",
+        "camera",
+        "subject",
+        "environment",
+        "anchors",
+        "deltas"
+      ],
+      "returns": [
+        "SPACE",
+        "scene",
+        "geometryDelta",
+        "lineage"
+      ]
+    },
+    "video": {
+      "participant": "video",
+      "consumes": [
+        "map",
+        "position",
+        "camera",
+        "subject",
+        "environment",
+        "anchors",
+        "deltas",
+        "intent"
+      ],
+      "returns": [
+        "VIDEO",
+        "duration",
+        "frames",
+        "lineage"
+      ]
+    },
+    "sound": {
+      "participant": "sound",
+      "consumes": [
+        "environment.sound",
+        "position",
+        "subject.scale",
+        "deltas",
+        "intent"
+      ],
+      "returns": [
+        "SOUND",
+        "mix",
+        "lineage"
+      ]
+    }
+  },
+  "invariants": [
+    "region IDs remain stable",
+    "previous recordings remain addressable",
+    "renderers may produce deltas but do not silently rewrite the canonical map",
+    "returned media must cite the recording that produced it",
+    "a renderer failure leaves the job queued rather than replacing it with prose"
+  ],
+  "flow": [
+    "RECORD",
+    "QUEUE",
+    "RENDER",
+    "RETURN MEDIA",
+    "REGISTER LINEAGE",
+    "INHERIT"
+  ]
+}

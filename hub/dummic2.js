@@ -56,7 +56,7 @@
       const type=types[Math.floor(Math.random()*types.length)];
       emit(a.id,b.id,type,{text:r.text,tags:r.tags||[],object:r.type});
     }
-    if(state.day%3===0 && men.length<12) emerge();
+    if(men.length<24) emerge();
     save(state); render();
   }
   function emerge(){
@@ -99,6 +99,9 @@
     s.innerHTML='<div class="d2-head"><div><div class="eyebrow">DUMMIC 2 / REPOSITORY NETWORK</div><h2>LET IT ALL ACCUMULATE</h2><p>Every record stays. Characteristic repositories act on one another. The world changes through contact.</p></div><button id="d2run" class="run-button">RUN</button></div><div class="d2-stats"><div><b data-stat="day">1</b><span>DAY</span></div><div><b data-stat="men">3</b><span>REPOSITORIES</span></div><div><b data-stat="records">9</b><span>RECORDS</span></div><div><b data-stat="ops">0</b><span>OPERATIONS</span></div></div><div class="d2-grid"><div><div class="eyebrow">CHARACTERISTIC REPOSITORIES</div><div class="d2-men"></div></div><div><div class="eyebrow">LIVE OPERATION LOG</div><div class="d2-log"></div></div></div></section>';
     document.querySelector('.world')?.appendChild(s);
     s.querySelector('#d2run').addEventListener('click',run);
+    let live=false,timer=null;
+    const liveButton=document.createElement('button'); liveButton.id='d2live'; liveButton.className='d2-live'; liveButton.textContent='LIVE'; s.querySelector('.d2-actions')?.appendChild(liveButton);
+    liveButton.addEventListener('click',()=>{live=!live;liveButton.textContent=live?'LIVE // ON':'LIVE';if(live){run();timer=setInterval(run,12000)}else clearInterval(timer);});
     render();
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount);else mount();

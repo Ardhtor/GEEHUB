@@ -16,16 +16,36 @@
   }[c]));
 
   async function memory() {
-    if (window.world?.regions?.length) return window.world.regions;
+    const memories = [];
+    if (window.world?.regions?.length) memories.push(...window.world.regions);
     try {
       const response = await fetch('./world.json');
-      if (!response.ok) throw new Error('world unavailable');
-      const data = await response.json();
-      window.world = data;
-      return data.regions || [];
-    } catch {
-      return [];
-    }
+      if (response.ok) {
+        const data = await response.json();
+        window.world = data;
+        memories.push(...(data.regions || []));
+      }
+    } catch {}
+    try {
+      const response = await fetch('./lore/novel/INDEX.json');
+      if (response.ok) {
+        const data = await response.json();
+        memories.push(...(data.entries || []).map(entry => ({
+          id: 'novel:' + entry.file,
+          name: entry.title,
+          description: entry.description,
+          source: 'living novel corpus',
+          file: entry.file
+        })));
+      }
+    } catch {}
+    const seen = new Set();
+    return memories.filter(item => {
+      const key = item.id || item.name;
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
   }
 
   function choose() {

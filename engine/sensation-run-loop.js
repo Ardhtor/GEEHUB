@@ -151,9 +151,41 @@
     button.disabled = false;
   }
 
+  // PLAY MODE: let the internal world continue without repeated manual clicks.
+  const playKey = 'geehub-play-mode';
+  let playTimer = null;
+
+  function startPlay(){
+    if(playTimer) return;
+    document.body.classList.add('geehub-playing');
+    playTimer = setInterval(() => {
+      if(!button.disabled) runSensation();
+    }, 18000);
+  }
+
+  function stopPlay(){
+    if(playTimer){ clearInterval(playTimer); playTimer = null; }
+    document.body.classList.remove('geehub-playing');
+  }
+
+  window.GEEHUB_PLAY = {
+    start(){ localStorage.setItem(playKey,'on'); startPlay(); },
+    stop(){ localStorage.setItem(playKey,'off'); stopPlay(); },
+    toggle(){ if(playTimer) this.stop(); else this.start(); }
+  };
+
   button.addEventListener('click', event => {
     event.preventDefault();
     event.stopImmediatePropagation();
     runSensation();
   }, true);
+  if (localStorage.getItem(playKey) !== 'off') {
+    setTimeout(() => {
+      if (!document.hidden) {
+        startPlay();
+        runSensation();
+      }
+    }, 3500);
+  }
+
 })();

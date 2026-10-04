@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "id": "geehub-recording-space",
+  "title": "RECORDING SPACE",
+  "purpose": "A machine-readable capture volume describing exactly where an encounter occurs and how every downstream computer should interpret the lay of the land.",
+  "packetShape": {
+    "id": "recording-...",
+    "map": "geehub-persistent-spatial-world",
+    "regionId": "stable region ID",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "camera": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "heading": 0,
+      "pitch": 0,
+      "fov": 50
+    },
+    "subject": {
+      "agent": "luke",
+      "scale": 1
+    },
+    "environment": {
+      "occupancy": 0,
+      "clearance": 1,
+      "dominantMaterials": [],
+      "lighting": "",
+      "sound": ""
+    },
+    "anchors": [],
+    "deltas": [],
+    "intent": "",
+    "timestamp": "ISO-8601"
+  },
+  "interpretationOrder": [
+    "load canonical map",
+    "resolve regionId",
+    "apply recording position and camera",
+    "apply subject scale and continuity",
+    "apply environment deltas",
+    "preserve anchors",
+    "render or simulate",
+    "return the resulting media with this packet lineage"
+  ],
+  "consumers": [
+    "image worker",
+    "video worker",
+    "3D worker",
+    "recording renderer",
+    "sensation engine"
+  ],
+  "rule": "A recording is not a screenshot. It is a spatial state packet that can reconstruct the same encounter across machines."
+}

@@ -153,20 +153,43 @@
 
   // PLAY MODE: let the internal world continue without repeated manual clicks.
   const playKey = 'geehub-play-mode';
+  const playDueKey = 'geehub-play-due';
   let playTimer = null;
+
+  function markDue(){
+    localStorage.setItem(playDueKey,String(Date.now()+18000));
+  }
 
   function startPlay(){
     if(playTimer) return;
     document.body.classList.add('geehub-playing');
-    playTimer = setInterval(() => {
-      if(!button.disabled) runSensation();
-    }, 18000);
+    const tick = () => {
+      if(!button.disabled){
+        runSensation();
+        markDue();
+      }
+    };
+    playTimer = setInterval(tick,18000);
   }
 
   function stopPlay(){
     if(playTimer){ clearInterval(playTimer); playTimer = null; }
     document.body.classList.remove('geehub-playing');
   }
+
+  function resumePlay(){
+    if(localStorage.getItem(playKey)==='off') return;
+    startPlay();
+    const due=Number(localStorage.getItem(playDueKey)||0);
+    if(due && Date.now()>=due && !button.disabled) runSensation();
+    markDue();
+  }
+
+  document.addEventListener('visibilitychange',()=>{
+    if(!document.hidden) resumePlay();
+  });
+
+  window.addEventListener('pageshow', resumePlay);
 
   window.GEEHUB_PLAY = {
     start(){ localStorage.setItem(playKey,'on'); startPlay(); },
@@ -182,8 +205,8 @@
   if (localStorage.getItem(playKey) !== 'off') {
     setTimeout(() => {
       if (!document.hidden) {
-        startPlay();
-        runSensation();
+        resumePlay();
+        if (!Number(localStorage.getItem('geehub-run-count')||0)) runSensation();
       }
     }, 3500);
   }

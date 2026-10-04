@@ -1,0 +1,33 @@
+name: GEEHUB Long Play
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  play:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Advance inherited world
+        run: node engine/long-play-runner.js
+
+      - name: Commit world memory
+        run: |
+          git config user.name "GEEHUB Long Play"
+          git config user.email "actions@github.com"
+          git add hub/long-play-state.json hub/recordings hub/image-jobs.json hub/render-jobs.json hub/exchange.json
+          git diff --cached --quiet || git commit -m "GEEHUB long play cycle"
+          git push

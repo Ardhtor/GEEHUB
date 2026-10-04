@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "id": "recording-seed-size-focus-gamer-dad",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "complex",
+  "position": {
+    "x": 55,
+    "y": 51,
+    "z": 0
+  },
+  "camera": {
+    "x": 55,
+    "y": 46,
+    "z": 1.7,
+    "heading": 0,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 2.5
+  },
+  "environment": {
+    "occupancy": 2.5,
+    "clearance": 0.4,
+    "dominantMaterials": [
+      "dark wood",
+      "painted metal",
+      "CRT glass"
+    ],
+    "lighting": "blue CRT + low ambient",
+    "sound": "room tone + game audio + heavy footstep timing"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "complex",
+      "name": "THE COMPLEX"
+    },
+    {
+      "type": "reference",
+      "id": "doorway",
+      "name": "THE THRESHOLD REMEMBERS"
+    },
+    {
+      "type": "reference",
+      "id": "room-scale",
+      "name": "THE ROOM GETS SMALLER"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 1,
+      "to": 2.5
+    },
+    {
+      "property": "camera.distance",
+      "from": 1,
+      "to": 1.35
+    },
+    {
+      "property": "environment.clearance",
+      "from": 1,
+      "to": 0.4
+    },
+    {
+      "property": "room.occupancy",
+      "from": 1,
+      "to": 2.5
+    }
+  ],
+  "intent": "SIZE FOCUS / GAMER DAD",
+  "generation": {
+    "required": "environment-aware human scene",
+    "preserve": [
+      "adult male",
+      "human continuity",
+      "face identity",
+      "room geometry",
+      "canonical map"
+    ],
+    "emphasize": [
+      "scale contrast",
+      "environment response",
+      "camera retreat",
+      "furniture mismatch",
+      "presence"
+    ]
+  },
+  "timestamp": "2026-10-05T00:18:00Z"
+}

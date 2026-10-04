@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "protocol": "GEEHUB HANDSHAKE",
+  "purpose": "Admit an editor or agent into the shared interaction space without collapsing repository boundaries.",
+  "sequence": [
+    "IDENTIFY",
+    "DECLARE TERRITORY",
+    "STATE INTENT",
+    "ACKNOWLEDGE CONTINUITY",
+    "ENTER",
+    "RETURN"
+  ],
+  "fields": {
+    "id": "stable participant or editor id",
+    "name": "display identity",
+    "territory": "repository or workspace being entered",
+    "intent": "what is being attempted",
+    "continuity": true,
+    "timestamp": "ISO 8601",
+    "status": "REQUESTED | ACKNOWLEDGED | ENTERED | RETURNED"
+  },
+  "rule": "A handshake is not a permission to overwrite. It establishes where the entrant is, what they are doing, and what continuity they agree to preserve.",
+  "namedAgents": [
+    "luke",
+    "tyler",
+    "andrew",
+    "joseph",
+    "chase"
+  ]
+}

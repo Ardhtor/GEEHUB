@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "id": "geehub-long-play-state",
+  "status": "ACTIVE",
+  "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
+  "cadence": "15 minutes",
+  "cycle": 0,
+  "currentAgent": "luke",
+  "currentRegion": "complex",
+  "scale": 2.5,
+  "lastRun": null,
+  "history": []
+}

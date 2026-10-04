@@ -1,7 +1,8 @@
 let world=null;
 let worldRunning=false;
 let autonomousTimer=null;
-const WORLD_EXCEPTIONS=['RETURN','SKIP','REVISIT','ECHO','MUTATE','ARRIVE_TWICE','REFUSE','DRIFT'];
+const WORLD_EXCEPTIONS=['RETURN','REVISIT','ECHO','MUTATE'];
+let worldSequenceIndex=0;
 let lastException=null;
 const $=s=>document.querySelector(s);
 const seen=new Set(readSeen());
@@ -83,7 +84,7 @@ const seep=[['DEPARTURE','the Mustang leaves; the heat remains'],['DISTANCE','te
 function seepPulse(){const x=seep[seepIndex++%seep.length];$('#liveTitle').textContent='SEEP // '+x[0];$('#liveText').textContent=x[1];$('#trailText').textContent='event → residue → '+x[0];}
 function livePulse(){const x=liveTrace[liveIndex++%liveTrace.length];$('#liveTitle').textContent=x[0]+' // '+x[1];$('#liveText').textContent=x[2];$('#trailText').textContent='live → '+x[1];}
 function startLive(){livePulse();setInterval(()=>{(liveIndex%3===2)?seepPulse():livePulse();},4200);}
-function runWorld(){if(worldRunning)return;worldRunning=true;document.body.classList.add('running');$('#runWorld').textContent='RUNNING';$('#runWorld').setAttribute('aria-pressed','true');const move=()=>{const nodes=[...document.querySelectorAll('.node')];if(!nodes.length)return;const unvisited=nodes.filter(n=>!seen.has(n.dataset.id));const pool=unvisited.length?unvisited:nodes;let target=pool[Math.floor(Math.random()*pool.length)];enter(target.dataset.id);if(lastException==='ARRIVE_TWICE'||lastException==='ECHO'){setTimeout(()=>enter(target.dataset.id),1200);}};move();autonomousTimer=setInterval(move,12000);}
+function runWorld(){if(worldRunning)return;worldRunning=true;document.body.classList.add('running');$('#runWorld').textContent='RUNNING';$('#runWorld').setAttribute('aria-pressed','true');const ordered=['bodylounger','growth','beefythiq','complex','embodied-scale','colossal-escalation','facility','male-harem','deep-lore','veyrthalis','discovery'];let step=0;const move=()=>{const id=ordered[step++%ordered.length];if(world?.regions?.some(n=>n.id===id))enter(id);};move();autonomousTimer=setInterval(move,12000);}
 function stopWorld(){worldRunning=false;document.body.classList.remove('running');$('#runWorld').textContent='RUN';$('#runWorld').setAttribute('aria-pressed','false');clearInterval(autonomousTimer);autonomousTimer=null;}
 async function loadSiphon(){const r=await fetch('./creative/kirk-siphon.json');if(!r.ok)return;siphonArtifacts=(await r.json()).artifacts||[];}
 function siphon(){if(!siphonArtifacts.length){$('#bitTitle').textContent='NO RESONANCE YET';$('#bitText').textContent='Nothing is calling from there yet.';return;}const x=siphonArtifacts[siphonIndex++%siphonArtifacts.length];$('#bitTitle').textContent='KIRK RESONANCE // '+x.title;$('#bitText').textContent=x.draft;$('#trailText').textContent='discovery → '+x.type.toLowerCase()+' → memory';}

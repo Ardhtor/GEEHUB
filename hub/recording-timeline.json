@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "id": "geehub-recording-timeline",
+  "title": "SPATIAL RECORDING TIMELINE",
+  "purpose": "A recording can contain multiple spatial states. Each keyframe is a full interpretation point on the same persistent map.",
+  "keyframe": {
+    "t": 0,
+    "regionId": "stable region id",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "camera": {
+      "x": 0,
+      "y": 0,
+      "z": 1.7,
+      "heading": 0,
+      "pitch": 0,
+      "fov": 50
+    },
+    "subject": {
+      "agent": "luke",
+      "scale": 1
+    },
+    "environment": {
+      "occupancy": 1,
+      "clearance": 1
+    },
+    "deltas": []
+  },
+  "sequenceRules": [
+    "all keyframes reference the same canonical map",
+    "interpolate camera and scale between keyframes when a renderer supports interpolation",
+    "never interpolate across a broken route",
+    "every frame retains source recording lineage",
+    "a sequence is a set of views of one world state, not unrelated images"
+  ],
+  "outputs": [
+    "image sequence",
+    "video storyboard",
+    "3D camera path",
+    "sound timeline"
+  ]
+}

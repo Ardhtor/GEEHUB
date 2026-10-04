@@ -12,6 +12,13 @@
   ],
   "entries": [
     {
+      "id": "self-build-run-001",
+      "kind": "build-trace",
+      "title": "RUN 001 // A NEW VISUAL ENCOUNTER",
+      "path": "hub/SELF_BUILD_RUN_001.json",
+      "state": "building"
+    },
+    {
       "id": "worlds",
       "kind": "novel",
       "title": "WORLDS",

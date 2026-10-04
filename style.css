@@ -48,3 +48,12 @@
 .sculpt-preview-console button{border:1px solid #3b4650;background:#151b21;color:#d1d8df;border-radius:5px;padding:7px 9px;font:10px "Courier New",monospace;letter-spacing:.08em;cursor:pointer}.sculpt-preview-console button:hover{border-color:#8c97a1}
 .sculpt-preview-stage.part-arm-left .sm-arm.left,.sculpt-preview-stage.part-arm-right .sm-arm.right,.sculpt-preview-stage.part-chest .sm-chest,.sculpt-preview-stage.part-shoulder-left .sm-shoulder.left,.sculpt-preview-stage.part-tank .sm-tank{filter:drop-shadow(0 0 12px rgba(220,228,235,.45))}
 @media(max-width:760px){.component-tray{width:110px}.sculpt-mannequin{transform:translate(-50%,-50%) scale(.83) rotateY(-7deg)}.sculpt-preview-stage{height:560px}.sculpt-preview-console{width:92%;justify-content:center;flex-wrap:wrap}.sm-cocky{display:none}}
+
+/* sculpt dimensions: width, depth, height */
+.sculpt-mannequin{--sculpt-wide:1;--sculpt-deep:1;--sculpt-tall:1}
+.sculpt-preview-stage.part-chest .sm-chest{transform:scaleX(var(--sculpt-wide)) scaleY(var(--sculpt-tall)) translateZ(calc((var(--sculpt-deep) - 1) * 26px));transform-origin:50% 50%}
+.sculpt-preview-stage.part-shoulder-left .sm-shoulder.left{transform:rotate(9deg) scaleX(var(--sculpt-wide)) scaleY(var(--sculpt-tall)) translateZ(calc((var(--sculpt-deep) - 1) * 22px));transform-origin:50% 50%}
+.sculpt-preview-stage.part-arm-left .sm-arm.left{transform:rotate(8deg) scaleX(var(--sculpt-wide)) scaleY(var(--sculpt-tall)) translateZ(calc((var(--sculpt-deep) - 1) * 24px));transform-origin:50% 12px}
+.sculpt-preview-stage.part-arm-right .sm-arm.right{transform:rotate(-8deg) scaleX(var(--sculpt-wide)) scaleY(var(--sculpt-tall)) translateZ(calc((var(--sculpt-deep) - 1) * 24px));transform-origin:50% 12px}
+.sculpt-preview-stage.part-tank .sm-tank{transform:scaleX(var(--sculpt-wide)) scaleY(var(--sculpt-tall)) translateZ(calc((var(--sculpt-deep) - 1) * 20px));transform-origin:50% 25%}
+.sculpt-preview-stage.part-boot-left .sm-foot{transform:scaleX(var(--sculpt-wide)) scaleY(var(--sculpt-tall)) translateZ(calc((var(--sculpt-deep) - 1) * 18px));transform-origin:50% 50%}

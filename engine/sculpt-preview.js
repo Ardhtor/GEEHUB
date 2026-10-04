@@ -9,11 +9,13 @@
   const deep=document.getElementById('previewDeep');
   const wide=document.getElementById('previewWide');
   const hours=document.getElementById('previewHours');
+  const bigger=document.getElementById('previewBigger');
   const next=document.getElementById('previewNext');
-  if(!stage||!mannequin||!part||!scale||!bsculpt||!plus||!deep||!wide||!hours||!next)return;
+  if(!stage||!mannequin||!part||!scale||!bsculpt||!plus||!deep||!wide||!hours||!bigger||!next)return;
 
   const sequence=['shoulder-left','chest','arm-left','arm-right','tank','boot-left'];
   let cursor=0,selected=null,sculptMode=false,dragging=false,lastX=0,lastY=0;
+  let figureScale=1;
   const shape={}, sessions=[];
 
   const ensure=id=>shape[id]||(shape[id]={wide:1,deep:1,tall:1});
@@ -21,6 +23,7 @@
   const paint=()=>{
     const s=ensure(selected);
     scale.textContent=`${Math.round(s.wide*100)}W / ${Math.round(s.deep*100)}D / ${Math.round(s.tall*100)}H`;
+    mannequin.style.transform=`translate(-50%,-50%) rotateY(-7deg) scale(${figureScale})`;
     mannequin.classList.remove('sculpt-pulse'); void mannequin.offsetWidth; mannequin.classList.add('sculpt-pulse');
   };
 
@@ -86,6 +89,12 @@
   deep.addEventListener('click',()=>sculpt('deep',.12));
   wide.addEventListener('click',()=>sculpt('wide',.12));
   hours.addEventListener('click',simulateHours);
+  bigger.addEventListener('click',()=>{
+    figureScale=Math.min(2.5,figureScale+0.18);
+    Object.keys(shape).forEach(id=>{shape[id].wide=Math.min(2.25,shape[id].wide+0.06);shape[id].deep=Math.min(2.25,shape[id].deep+0.06);shape[id].tall=Math.min(2.25,shape[id].tall+0.05);});
+    paint();
+    part.textContent='WHOLE FIGURE / BIGGER';
+  });
   next.addEventListener('click',()=>{select(sequence[cursor%sequence.length]);cursor+=1;});
 
   stage.addEventListener('pointerdown',e=>{

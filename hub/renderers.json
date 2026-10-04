@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "world": "geehub-persistent-spatial-world",
+  "renderers": [
+    {
+      "id": "image",
+      "status": "queued",
+      "source": "Ardhtor/lp9hppuio88",
+      "queue": "./hub/image-jobs.json"
+    },
+    {
+      "id": "space3d",
+      "status": "ready-contract",
+      "source": "Ardhtor/PgkKKGLu966",
+      "queue": "./hub/render-jobs.json"
+    },
+    {
+      "id": "video",
+      "status": "queued",
+      "source": "video",
+      "queue": "./hub/render-jobs.json"
+    },
+    {
+      "id": "sound",
+      "status": "queued",
+      "source": "sound",
+      "queue": "./hub/render-jobs.json"
+    }
+  ],
+  "rule": "The map is upstream of every renderer."
+}

@@ -117,5 +117,12 @@
       "moderntexts",
       "image -> description"
     ]
-  ]
+  ],
+  "environment": {
+    "characterPresentation": "male-only",
+    "population": "adult male",
+    "visualRule": "All character-bearing encounters in the shared environment resolve to adult male subjects.",
+    "continuity": "Existing male character identity, appearance, and continuity are preserved across transformations and repo crossings.",
+    "exclusionRule": "Do not introduce female or non-male character presentations into the shared environment."
+  }
 }

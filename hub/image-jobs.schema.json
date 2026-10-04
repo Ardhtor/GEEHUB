@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "title": "GEEHUB IMAGE JOBS",
+  "rule": "Image jobs are render instructions derived from canonical spatial recordings. Renderers consume the map and recording directly.",
+  "fields": [
+    "id",
+    "status",
+    "sourceRecording",
+    "map",
+    "target",
+    "prompt",
+    "negativePrompt",
+    "render",
+    "output",
+    "created"
+  ]
+}

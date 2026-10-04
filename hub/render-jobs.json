@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "render-seed-size-focus-gamer-dad-3d",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./hub/recordings/SEED_SIZE_FOCUS_GAMER_DAD.json",
+      "target": "spatial-perception",
+      "output": "scene + geometry delta"
+    },
+    {
+      "id": "render-seed-size-focus-gamer-dad-video",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./hub/recordings/SEED_SIZE_FOCUS_GAMER_DAD.json",
+      "target": "video",
+      "output": "environment-aware motion scene"
+    },
+    {
+      "id": "render-seed-size-focus-gamer-dad-sound",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./hub/recordings/SEED_SIZE_FOCUS_GAMER_DAD.json",
+      "target": "sound",
+      "output": "room tone + scale response"
+    }
+  ]
+}

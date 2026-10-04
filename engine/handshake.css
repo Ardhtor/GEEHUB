@@ -1,0 +1,10 @@
+#handshakeSpace{border-top:1px solid rgba(255,255,255,.08);background:#0a0c0f}
+#handshakeSpace .handshake-head{display:flex;justify-content:space-between;gap:24px;padding:28px 30px 16px}
+#handshakeSpace h2{margin:5px 0;font-size:24px}.handshake-head p{margin:0;opacity:.56;font-size:12px;max-width:680px}
+.handshake-status{font-family:monospace;font-size:12px;letter-spacing:.14em;white-space:nowrap}
+.handshake-body{display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:8px;padding:18px 30px;border-top:1px solid rgba(255,255,255,.07)}
+.handshake-body input,.handshake-body select,.handshake-body button{min-height:42px;padding:10px 12px;border:1px solid rgba(255,255,255,.12);background:#0d1014;color:inherit}
+.handshake-body button{cursor:pointer;letter-spacing:.12em;font-size:9px}
+.handshake-trace{padding:13px 30px;border-top:1px solid rgba(255,255,255,.07);font-size:9px;letter-spacing:.12em;opacity:.42}
+@media(max-width:900px){.handshake-body{grid-template-columns:1fr 1fr}.handshake-body button{grid-column:1/-1}}
+@media(max-width:600px){.handshake-head{display:block!important}.handshake-body{grid-template-columns:1fr;padding:15px 20px}.handshake-head,.handshake-trace{padding-left:20px!important;padding-right:20px!important}}

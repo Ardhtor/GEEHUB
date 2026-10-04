@@ -32,6 +32,7 @@
 
   const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const JOBKEY='geehub-image-jobs';
+  const QUEUE='./hub/image-jobs.json';
   const state={running:false,last:null};
 
   function readJobs(){ try{return JSON.parse(localStorage.getItem(JOBKEY)||'[]')}catch{return []} }
@@ -62,6 +63,18 @@
       '<div id="imageResult" class="image-result">'+(state.last?.html||'<span>NO IMAGE RETURNED YET.</span>')+'</div>';
     const btn=host.querySelector('#buildImage');
     btn.addEventListener('click',()=>build());
+  }
+
+  async function syncCanonicalQueue(){
+    try{
+      const r=await fetch(QUEUE+'?ts='+Date.now(),{cache:'no-store'});
+      if(!r.ok)return;
+      const data=await r.json();
+      const canonical=Array.isArray(data.jobs)?data.jobs:[];
+      const localJobs=readJobs();
+      canonical.forEach(job=>{if(!localJobs.some(x=>x.id===job.id)) localJobs.push(job)});
+      saveJobs(localJobs);
+    }catch{}
   }
 
   function queueJob(title, prompt){
@@ -117,6 +130,7 @@
     render();
   }
 
-  window.GEEHUB_IMAGE_WORKER={build,queueJob,promptFor,config:CONFIG};
+  window.GEEHUB_IMAGE_WORKER={build,queueJob,promptFor,syncCanonicalQueue,config:CONFIG};
   render();
+  syncCanonicalQueue().then(render);
 })();

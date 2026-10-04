@@ -6,6 +6,7 @@
     {id:'worldVisual', icon:'◉', className:'zrm-world'},
     {id:'atlas', icon:'✦', className:'zrm-atlas'},
     {id:'biggener', icon:'↗', className:'zrm-growth'},
+    {id:'sizeGame', icon:'⊙', className:'zrm-size'},
     {id:'worshipMe', icon:'⌾', className:'zrm-center'},
     {id:'mindHorizon', icon:'∞', className:'zrm-horizon'},
     {id:'creations', icon:'◆', className:'zrm-create'},
@@ -38,13 +39,14 @@
     card.innerHTML = `<span class="zrm-icon">${item.icon}</span><span class="zrm-surface"></span>`;
     dots.innerHTML = cards.map((_, i) => `<i class="${i === index ? 'active' : ''}"></i>`).join('');
   }
-
   function show() { open = true; deck.classList.add('open'); deck.setAttribute('aria-hidden','false'); render(); }
   function hide() { open = false; deck.classList.remove('open'); deck.setAttribute('aria-hidden','true'); }
   function next() { index = (index + 1) % cards.length; render(); }
   function prev() { index = (index - 1 + cards.length) % cards.length; render(); }
   function run() {
-    const target = document.getElementById(cards[index].id);
+    const item = cards[index];
+    if (item.id === 'sizeGame') { location.href = './size-game.html?run=1'; return; }
+    const target = document.getElementById(item.id);
     const button = target?.querySelector('.run-button, #biggenerRun, #worshipRun, #horizonRun');
     if (button) button.click();
     else document.getElementById('runWorld')?.click();

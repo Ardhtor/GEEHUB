@@ -45,6 +45,13 @@
       "title": "ADOBE ASSETS",
       "path": "engine/adobe_asset_queue.json",
       "state": "queued"
+    },
+    {
+      "id": "self-worship-video",
+      "kind": "video",
+      "title": "SELF WORSHIP // THE RITE OF RETURN",
+      "path": "experiences/SELF_WORSHIP_VIDEO.md",
+      "state": "ready"
     }
   ],
   "statuses": [

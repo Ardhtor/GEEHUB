@@ -7,9 +7,7 @@
   const W=1280,H=720,FPS=30,DURATION=18;
   let running=false,recorder=null,chunks=[],raf=0,started=0;
   root.innerHTML =
-    '<div class="sv-head"><div><div class="eyebrow">VIDEO / SELF WORSHIP</div><h2>THE RITE OF RETURN</h2><p>The Hub turns a character, a place, light, mirrors, motion, and time into an actual video.</p></div><div class="sv-actions"><button id="svRun" class="run-button" type="button">RUN VIDEO</button><a id="svSave" class="sv-save" hidden>OPEN VIDEO</a></div></div>'+
-    '<div class="sv-stage"><canvas id="svCanvas" width="'+W+'" height="'+H+'" aria-label="Generated self-worship video"></canvas><div class="sv-scan"></div><div class="sv-hud"><span id="svState">READY // 18 SEC</span><span id="svTime">00:00</span></div></div>'+
-    '<div class="sv-readout"><span id="svScene">APPROACH</span><span>presence → attention → reflection → ascent → return</span></div>';
+    '<div class="sv-stage"><canvas id="svCanvas" width="'+W+'" height="'+H+'" aria-label="Generated self-worship video"></canvas><div class="sv-scan"></div><div class="sv-control"><button id="svRun" class="vision-button" type="button" aria-label="Run video" title="Run video">▶</button><a id="svSave" class="vision-save" hidden aria-label="Open generated video" title="Open generated video">↗</a></div><div class="sv-hud"><span id="svState" aria-hidden="true"></span><span id="svTime" aria-hidden="true"></span></div></div>';
 
   const canvas=root.querySelector('#svCanvas'),ctx=canvas.getContext('2d');
   const run=root.querySelector('#svRun'),save=root.querySelector('#svSave'),state=root.querySelector('#svState'),time=root.querySelector('#svTime'),scene=root.querySelector('#svScene');
@@ -51,14 +49,14 @@
     ctx.fillStyle='rgba(220,232,240,.82)';ctx.font='600 18px "Courier New", monospace';ctx.fillText('GEEHUB / '+label,54,H-42);ctx.fillStyle='rgba(180,200,215,.45)';ctx.font='12px "Courier New", monospace';ctx.fillText('SELF WORSHIP // PRESENCE BECOMES PLACE',54,H-20);
   }
 
-  function stopUI(){running=false;cancelAnimationFrame(raf);run.disabled=false;run.textContent='RUN VIDEO';state.textContent='READY // 18 SEC';}
+  function stopUI(){running=false;cancelAnimationFrame(raf);run.disabled=false;run.textContent='▶';state.textContent='READY // 18 SEC';}
   function animate(){if(!running)return;const elapsed=(performance.now()-started)/1000,t=Math.min(DURATION,elapsed);drawFrame(t);time.textContent='00:'+String(Math.floor(t)).padStart(2,'0');if(t>=DURATION){if(recorder&&recorder.state==='recording')recorder.stop();return;}raf=requestAnimationFrame(animate);}
   function runVideo(){
-    if(running)return;running=true;chunks=[];save.hidden=true;run.disabled=true;run.textContent='RECORDING';state.textContent='BUILDING // CANVAS → WEBM';drawFrame(0);
+    if(running)return;running=true;chunks=[];save.hidden=true;run.disabled=true;run.textContent='●';state.textContent='BUILDING // CANVAS → WEBM';drawFrame(0);
     if(!window.MediaRecorder){state.textContent='PREVIEW ONLY // MEDIARECORDER UNAVAILABLE';started=performance.now();animate();setTimeout(stopUI,(DURATION+.2)*1000);return;}
     const stream=canvas.captureStream(FPS),mime=['video/webm;codecs=vp9','video/webm;codecs=vp8','video/webm'].find(x=>MediaRecorder.isTypeSupported(x))||'';
     recorder=new MediaRecorder(stream,mime?{mimeType:mime}:{});recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};
-    recorder.onstop=()=>{const blob=new Blob(chunks,{type:'video/webm'}),url=URL.createObjectURL(blob);save.href=url;save.download='geehub-self-worship-rite.webm';save.textContent='OPEN VIDEO';save.hidden=false;state.textContent='COMPLETE // WEBM READY';window.GEEHUB_ARTIFACTS?.emit?.({type:'video',title:'SELF WORSHIP // THE RITE OF RETURN',body:'Browser-generated 18-second cinematic self-worship sequence.',source:'engine/self-worship-video.js',lineage:{engine:'self-worship-video',duration:18},canon:'experimental',dreamable:true});stopUI();};
+    recorder.onstop=()=>{const blob=new Blob(chunks,{type:'video/webm'}),url=URL.createObjectURL(blob);save.href=url;save.download='geehub-self-worship-rite.webm';save.textContent='↗';save.hidden=false;state.textContent='COMPLETE // WEBM READY';window.GEEHUB_ARTIFACTS?.emit?.({type:'video',title:'SELF WORSHIP // THE RITE OF RETURN',body:'Browser-generated 18-second cinematic self-worship sequence.',source:'engine/self-worship-video.js',lineage:{engine:'self-worship-video',duration:18},canon:'experimental',dreamable:true});stopUI();};
     recorder.start(100);started=performance.now();animate();
   }
   run.addEventListener('click',runVideo);drawFrame(0);

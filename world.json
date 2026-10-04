@@ -497,5 +497,17 @@
         "INHERIT"
       ]
     }
+  },
+  "nativeEcology": {
+    "principle": "The Hub is a self-contained world. External reality is reference material, not the governing simulation.",
+    "sculptCoupling": "geometry -> environment -> event -> memory -> next state",
+    "state": {
+      "body": "width/depth/height/reach",
+      "environment": "room/threshold/floor/pillars/atmosphere",
+      "social": "witness/recognition/proximity",
+      "history": "memory/previous baselines/routes"
+    },
+    "rule": "A sculpt change must create at least one environmental response and one persistent consequence inside the Hub.",
+    "noReset": "The world does not revert after an event; later encounters inherit previous adaptations."
   }
 }

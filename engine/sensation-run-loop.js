@@ -108,7 +108,11 @@
     button.disabled = true;
     const all = await memory();
     places = all;
-    const place = choose();
+    const selfNeed = window.GEEHUB_SELF?.choose?.() || null;
+    const preferredPlaces = selfNeed
+      ? places.filter(p => String(p.source || '').toLowerCase().includes(String(selfNeed.target || '').split('-')[0]))
+      : [];
+    const place = preferredPlaces[runCount % Math.max(1, preferredPlaces.length)] || choose();
 
     if (!place) {
       button.textContent = 'RUN';
@@ -128,11 +132,15 @@
       'A quiet association becomes part of the world.'
     ];
     const change = transformations[(runCount - 1) % transformations.length];
+    const direction = selfNeed
+      ? 'SELF-DIRECTION: reduce ' + selfNeed.name + ' by moving work toward ' + selfNeed.target + '.'
+      : 'SELF-DIRECTION: continue observing the current world.';
+    window.GEEHUB_SELF?.run?.();
 
     const artifact = window.GEEHUB_ARTIFACTS.emit({
       type: 'sensation',
       title: place.name + ' // RUN ' + String(runCount).padStart(3, '0'),
-      body: change + ' ' + (place.description || ''),
+      body: direction + ' ' + change + ' ' + (place.description || ''),
       source: 'GEEHUB sensation engine',
       lineage: {
         run: runCount,

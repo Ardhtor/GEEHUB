@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "version": 1,
+      "id": "image-job-size-focus-gamer-dad-001",
+      "status": "QUEUED",
+      "sourceRecording": "./hub/recordings/SEED_SIZE_FOCUS_GAMER_DAD.json",
+      "map": "./hub/spatial-world.json",
+      "target": "visual-synthesis",
+      "adapter": "automatic1111",
+      "title": "THE COMPLEX / SIZE FOCUS / GAMER DAD",
+      "prompt": "Render the canonical GEEHUB spatial state from recording SEED_SIZE_FOCUS_GAMER_DAD. Preserve THE COMPLEX as the environment. Adult male human subject LUKE at 2.50x scale. Preserve identity continuity, room geometry, threshold and environmental anchors. Make scale legible through camera retreat, clearance compression, furniture mismatch, floor/material response, shadow occupation, and architectural proportion. Early-2000s CRT gaming atmosphere, dark wood, painted metal, blue electronics, immersive game-world frame, direct scene rather than poster or infographic.",
+      "negativePrompt": "nudity, explicit sexual content, fetishized anatomy, poster, infographic, text-heavy image, duplicate subject, extra limbs, distorted hands, altered identity",
+      "render": {
+        "width": 1024,
+        "height": 1024,
+        "steps": 28,
+        "cfg": 7,
+        "sampler": "Euler a"
+      },
+      "output": {
+        "expected": "image",
+        "memoryPath": "/GEEHUB/corpus/images/",
+        "lineageRequired": true
+      },
+      "created": "2026-10-05T00:19:00Z"
+    }
+  ]
+}

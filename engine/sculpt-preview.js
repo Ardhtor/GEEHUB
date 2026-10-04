@@ -10,8 +10,9 @@
   const wide=document.getElementById('previewWide');
   const hours=document.getElementById('previewHours');
   const bigger=document.getElementById('previewBigger');
+  const giga=document.getElementById('previewGiga');
   const next=document.getElementById('previewNext');
-  if(!stage||!mannequin||!part||!scale||!bsculpt||!plus||!deep||!wide||!hours||!bigger||!next)return;
+  if(!stage||!mannequin||!part||!scale||!bsculpt||!plus||!deep||!wide||!hours||!bigger||!giga||!next)return;
 
   const sequence=['shoulder-left','chest','arm-left','arm-right','tank','boot-left'];
   let cursor=0,selected=null,sculptMode=false,dragging=false,lastX=0,lastY=0;
@@ -94,6 +95,21 @@
     Object.keys(shape).forEach(id=>{shape[id].wide=Math.min(2.25,shape[id].wide+0.06);shape[id].deep=Math.min(2.25,shape[id].deep+0.06);shape[id].tall=Math.min(2.25,shape[id].tall+0.05);});
     paint();
     part.textContent='WHOLE FIGURE / BIGGER';
+  });
+  giga.addEventListener('click',()=>{
+    sculptMode=true;
+    bsculpt.textContent='BSCULPT / GIGA';
+    bsculpt.setAttribute('aria-pressed','true');
+    stage.classList.add('bsculpt-active','giga-mode');
+    figureScale=Math.min(2.5,figureScale+0.48);
+    sequence.forEach(id=>{
+      const s=ensure(id);
+      s.wide=Math.min(2.25,s.wide+0.28);
+      s.deep=Math.min(2.25,s.deep+0.24);
+      s.tall=Math.min(2.25,s.tall+0.18);
+    });
+    paint();
+    part.textContent='GIGA / WHOLE SCULPT';
   });
   next.addEventListener('click',()=>{select(sequence[cursor%sequence.length]);cursor+=1;});
 

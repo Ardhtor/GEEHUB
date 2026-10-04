@@ -49,11 +49,12 @@
     "kind": "interface",
     "repo": "Ardhtor/GEEHUB",
     "path": "/",
-    "description": "The emerging umbrella layer for compiling project nodes, research, lore, visual artifacts, and continuity into something visible and navigable.",
+    "description": "Living world/memory engine: the visible entry point where scenes, video, books, characters, places, artifacts, and encounters persist as a connected changing world. The Hub is experienced rather than merely navigated; RUN continues the world.",
     "related": [
+      "sensation-engine",
       "the-complex",
       "discovery",
-      "retro-lab",
+      "media-tools",
       "veyrthalis"
     ]
   },
@@ -288,6 +289,30 @@
       "growth",
       "continuity",
       "sensation-engine"
+    ]
+  },
+  {
+    "id": "sensation-engine",
+    "name": "Sensation Engine",
+    "status": "active",
+    "kind": "engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/hub/",
+    "description": "The current GEEHUB core: a living visual memory/world engine in which encounters become scenes, scenes become memories, memories alter the world, and the next state emerges from continuity rather than a reset.",
+    "related": [
+      "vision-workspace",
+      "the-complex",
+      "media-tools",
+      "discovery",
+      "beefythiq"
+    ],
+    "tags": [
+      "sensation",
+      "memory",
+      "continuity",
+      "visual",
+      "world",
+      "run"
     ]
   }
 ]

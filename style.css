@@ -57,3 +57,9 @@
 .sculpt-preview-stage.part-arm-right .sm-arm.right{transform:rotate(-8deg) scaleX(var(--sculpt-wide)) scaleY(var(--sculpt-tall)) translateZ(calc((var(--sculpt-deep) - 1) * 24px));transform-origin:50% 12px}
 .sculpt-preview-stage.part-tank .sm-tank{transform:scaleX(var(--sculpt-wide)) scaleY(var(--sculpt-tall)) translateZ(calc((var(--sculpt-deep) - 1) * 20px));transform-origin:50% 25%}
 .sculpt-preview-stage.part-boot-left .sm-foot{transform:scaleX(var(--sculpt-wide)) scaleY(var(--sculpt-tall)) translateZ(calc((var(--sculpt-deep) - 1) * 18px));transform-origin:50% 50%}
+
+#bsculpt[aria-pressed="true"]{border-color:#aeb8c2;background:#252c34;color:#fff;box-shadow:0 0 0 1px rgba(220,228,236,.12),0 0 18px rgba(200,210,220,.08)}
+.sculpt-preview-stage.bsculpt-active{box-shadow:inset 0 0 70px rgba(190,205,220,.07)}
+.sculpt-preview-stage.bsculpt-active .sculpt-mannequin{filter:drop-shadow(0 30px 30px rgba(0,0,0,.5)) drop-shadow(0 0 16px rgba(220,228,235,.09))}
+.sculpt-preview-stage.bsculpt-active .sculpt-axis{opacity:.55}
+.sculpt-mannequin.sculpt-dragging{filter:drop-shadow(0 30px 30px rgba(0,0,0,.5)) drop-shadow(0 0 28px rgba(220,228,235,.16));transition:none}

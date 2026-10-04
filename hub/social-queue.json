@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "queue": [],
+  "recent": [
+    {
+      "id": "seed-social-001",
+      "agent": "chase",
+      "platform": "instagram",
+      "type": "NOTICE",
+      "status": "draft",
+      "title": "THE CORPUS IS AWAKE",
+      "body": "The shared archive has begun to move. Follow the trace rather than the explanation.",
+      "source": "GEEHUB initiation"
+    },
+    {
+      "id": "seed-social-002",
+      "agent": "andrew",
+      "platform": "tiktok",
+      "type": "OFFER",
+      "status": "draft",
+      "title": "THE ROOM CHANGES",
+      "body": "A world that grows has to move something.",
+      "source": "GEEHUB needs"
+    },
+    {
+      "id": "seed-social-003",
+      "agent": "luke",
+      "platform": "youtube",
+      "type": "TRANSFORM",
+      "status": "draft",
+      "title": "NEW BASELINE",
+      "body": "The body changes. The room remembers.",
+      "source": "GEEHUB sensation engine"
+    }
+  ]
+}

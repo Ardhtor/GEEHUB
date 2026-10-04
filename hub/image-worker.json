@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "geehub-image-worker",
+  "purpose": "Turn an open IMAGE need into a concrete generation job and resolve the result back into GEEHUB.",
+  "adapter": "automatic1111",
+  "endpoint": "http://127.0.0.1:7860",
+  "api": "/sdapi/v1/txt2img",
+  "output": "data-url",
+  "defaultEncounter": {
+    "title": "SIZE FOCUS / GAMER DAD",
+    "tags": [
+      "adult male",
+      "gamer dad",
+      "large muscular body",
+      "scale gameplay",
+      "room response",
+      "handsome",
+      "human continuity",
+      "immersive game scene"
+    ]
+  },
+  "rule": "RUN creates the job first. Generation is attempted when the configured visual engine is reachable. A returned image becomes a memory artifact."
+}

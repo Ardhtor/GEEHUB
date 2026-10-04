@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "title": "GEEHUB / NAMED AGENTS",
+  "environment": "male-only",
+  "principle": "The shared interaction space is personified by five named male agents. Each agent has an independent workspace and may work on a different technical repository territory. Names are persistent identities, not cosmetic labels.",
+  "agents": [
+    {
+      "id": "luke",
+      "name": "Luke",
+      "workspace": "./creative/measure-between-us/repos/luke-inside/README.md",
+      "role": "BODY / CONTINUITY / PRESENCE",
+      "territories": [
+        "spatial-perception",
+        "visual-synthesis"
+      ]
+    },
+    {
+      "id": "tyler",
+      "name": "Tyler",
+      "workspace": "./creative/measure-between-us/repos/tyler-measurement/README.md",
+      "role": "MEASUREMENT / ATTENTION / CHANGE",
+      "territories": [
+        "spatial-perception",
+        "linux-material"
+      ]
+    },
+    {
+      "id": "andrew",
+      "name": "Andrew",
+      "workspace": "./creative/measure-between-us/repos/andrew-field/README.md",
+      "role": "MOVEMENT / PLAY / ACTION",
+      "territories": [
+        "visual-synthesis",
+        "linux-material"
+      ]
+    },
+    {
+      "id": "joseph",
+      "name": "Joseph",
+      "workspace": "./creative/joseph-prever-many-faces/README.md",
+      "role": "INTERPRETATION / MEMORY / POV",
+      "territories": [
+        "moderntexts",
+        "spatial-perception"
+      ]
+    },
+    {
+      "id": "chase",
+      "name": "Chase",
+      "workspace": "./creative/measure-between-us/repos/chase-book/README.md",
+      "role": "OBSERVATION / DECISION / NARRATIVE",
+      "territories": [
+        "moderntexts",
+        "visual-synthesis",
+        "spatial-perception"
+      ]
+    }
+  ],
+  "competition": "The five named agents inhabit the same shared environment and can pursue different lines of attention, creation, and response.",
+  "routing": "GEEHUB may give one agent the next turn, but no agent is assumed to be finished merely because another agent was selected."
+}

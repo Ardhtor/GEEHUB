@@ -28,6 +28,6 @@ jobs:
         run: |
           git config user.name "GEEHUB Long Play"
           git config user.email "actions@github.com"
-          git add hub/long-play-state.json hub/recordings hub/image-jobs.json hub/render-jobs.json hub/exchange.json
+          git add hub/long-play-state.json hub/agent-reaction-history.json hub/recordings hub/image-jobs.json hub/render-jobs.json hub/exchange.json
           git diff --cached --quiet || git commit -m "GEEHUB long play cycle"
           git push

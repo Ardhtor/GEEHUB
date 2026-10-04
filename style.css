@@ -85,3 +85,5 @@
 #sculptPreview .mini-blender-gizmo{z-index:8}
 #sculptPreview .mini-mesh-readout{z-index:8}
 #sculptPreview .component-tray,#sculptPreview .sculpt-preview-console{z-index:9}
+
+.d2-actions{display:flex;gap:.5rem;align-items:center}.d2-live{border:1px solid rgba(255,255,255,.2);background:transparent;color:inherit;padding:.7rem 1rem;letter-spacing:.08em;font-size:.7rem}.d2-live:hover{background:rgba(255,255,255,.06)}

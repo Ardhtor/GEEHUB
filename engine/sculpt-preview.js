@@ -15,10 +15,10 @@
 
   const sequence=['shoulder-left','chest','arm-left','arm-right','tank','boot-left'];
   let cursor=0,selected=null,sculptMode=false,dragging=false,lastX=0,lastY=0;
-  let figureScale=1;
+  let figureScale=1.15;
   const shape={}, sessions=[];
 
-  const ensure=id=>shape[id]||(shape[id]={wide:1,deep:1,tall:1});
+  const ensure=id=>shape[id]||(shape[id]={wide:1.15,deep:1.12,tall:1.08});
 
   const paint=()=>{
     const s=ensure(selected);

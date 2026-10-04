@@ -1,28 +1,377 @@
 [
-  {"id":"bodylounger","name":"BodyLounger Research Archive","group":"archive","status":"active","summary":"Metadata-first map of the old-web muscle-growth / transformation-media lineage.","path":"../index.html","tags":["archive","research","provenance"]},
-  {"id":"beefythiq","name":"BEEFYTHIQ","group":"system","status":"active","summary":"A generative grammar of accumulation, escalation, stress, mutation, and new baselines.","path":"#","tags":["grammar","growth","mutation"]},
-  {"id":"complex","name":"The Complex","group":"world","status":"active","summary":"Persistent creative environment where creations transform, leave traces, and cross-pollinate.","path":"#","tags":["world","continuity","canon"]},
-  {"id":"growth-canvas","name":"Growth Canvas","group":"system","status":"incubating","summary":"Visual transformation workspace built around seeds, rules, latency, anomalies, and feedback.","path":"#","tags":["visual","rules","experiments"]},
-  {"id":"liminal-gains","name":"Liminal Gains","group":"game","status":"incubating","summary":"Two-player hotseat growth game with orbs, cooperation, and escalating transformation.","path":"#","tags":["game","pygame","co-op"]},
-  {"id":"bruteforce","name":"BIG BRUTEFORCE","group":"game","status":"incubating","summary":"Compact mutation-engine prototype with push, mutate, rest, and runaway progression.","path":"#","tags":["game","mutation","prototype"]},
-  {"id":"facility","name":"The Facility","group":"world","status":"incubating","summary":"Clinical-white adult research complex with CRT glow, sealed ecosystems, and transformation experiments.","path":"#","tags":["facility","fiction","research"]},
-  {"id":"muscle-myth","name":"Muscle Myth","group":"myth","status":"active","summary":"Pantheon and mythmaking around transformation, mass, charisma, and impossible bodies.","path":"#","tags":["myth","pantheon","canon"]},
-  {"id":"growth-tools","name":"Growth Tools","group":"tool","status":"incubating","summary":"Content-aware image/video tooling, tracking canvases, and transformation-oriented experiments.","path":"#","tags":["tool","vision","video"]},
-  {"id":"discovery","name":"Discovery Engine","group":"tool","status":"incubating","summary":"Personalized discovery layer for finding relevant media, tags, feeds, and archives.","path":"#","tags":["discovery","search","recommendation"]},
-  {"id":"retro-lab","name":"Retro Lab","group":"aesthetic","status":"dormant","summary":"90s–2000s / Y2K / Heisei-tech visual and sonic experiments.","path":"#","tags":["retro","y2k","aesthetic"]},
-  {"id":"religion-dialogue","name":"Religion as Dialogue","group":"research","status":"active","summary":"Thesis/research workspace around dialogue, interpretation, communication, and religious studies.","path":"#","tags":["thesis","research","philosophy"]},
-  {"id":"gods","name":"The Gods","group":"god","status":"incubating","summary":"Repository-ready home for individual deities, their symbols, myths, artifacts, and rules.","path":"#","tags":["gods","canon","artifacts"]},
-  {"id":"blender-stand","name":"Blender Stand / 3D Workspace","group":"3d","status":"incubating","summary":"Dedicated 3D production node for the Blender-based stand workflow, intended to connect modeling, scene building, and visual output back into the GEEHUB constellation.","path":"#","tags":["blender","3d","stand","modeling","scene"]},
-  {"id":"moderntexts","name":"ModernTexts","group":"research","status":"active","summary":"Accessible GitHub repository in the current workspace constellation.","path":"https://github.com/Ardhtor/ModernTexts","repo":"Ardhtor/ModernTexts","tags":["repository","texts","research"]},
-  {"id":"linux-s","name":"LINUX_S","group":"tool","status":"active","summary":"Accessible GitHub repository in the current workspace constellation.","path":"https://github.com/Ardhtor/LINUX_S","repo":"Ardhtor/LINUX_S","tags":["repository","linux","systems"]},
-  {"id":"veyrthalis","name":"Veyrthalis","group":"world","status":"active","summary":"Fictional world of the Foggy Dark Expanse, Digitorium, Procession, Binding, Temple of Moon, and layered geography; includes the experimental hyperspace expedition record.","path":"../lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md","tags":["world","lore","hyperspace","canon","experimental"]},
-  {"id":"hyperspace-expedition","name":"Hyperspace Expedition","group":"story-branch","status":"incubating","summary":"Four-man descent into a valley city joined to an ancient living presence; experimental branch, not canon.","path":"../lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md","tags":["story","hyperspace","experimental"]},
-  {"id":"male-harem-virtual-space","name":"Male Harem Virtual Space","group":"visual","status":"active","summary":"Living visual roster and shared virtual environment built from original muscular source photographs and generated group scenes, with focus on presence, mass, continuity, and extreme-size studies of Office Tank + Posing Trunks.","path":"../archive/male-harem/README.md","repo":"Ardhtor/GEEHUB","tags":["visual","muscle","harem","growth","archive","extreme-size"]},
-  {"id":"adult-gay-visual-loop","name":"Adult Gay Visual Loop","group":"visual","status":"active","summary":"Swipe-first adult gay visual discovery space for adult-only source material, visual attraction, muscular presence, continuity, tagging, provenance, and recommendation. One swipe advances the archive while attention signals shape what appears next.","path":"../archive/adult-gay-visual-loop/README.md","repo":"Ardhtor/GEEHUB","tags":["adult","gay","visual","swipe","discovery","muscle","archive"]},
-  {"id":"measure-between-us","name":"The Measure Between Us","group":"story","status":"active","summary":"Film chapter and character-repository lab; Chase leads while each fictional adaptation gets an independent action lane.","path":"../creative/measure-between-us/README.md","tags":["film","story","agency","collaboration"]},
-  {"id":"chase-book","name":"Chase Book","group":"character-workspace","status":"incubating","summary":"Fictional workspace for Chase's choices, attention, memory, and continuity record.","path":"../creative/measure-between-us/repos/chase-book/README.md","tags":["fiction","character","agency","pov"]},
-  {"id":"luke-inside","name":"Luke Inside","group":"character-workspace","status":"incubating","summary":"Fictional workspace for Luke's bodily continuity, self-definition, and chosen disclosure.","path":"../creative/measure-between-us/repos/luke-inside/README.md","tags":["fiction","character","agency","continuity"]},
-  {"id":"andrew-field","name":"Andrew Field","group":"character-workspace","status":"incubating","summary":"Fictional workspace for Andrew's movement, shared play, and practical decisions.","path":"../creative/measure-between-us/repos/andrew-field/README.md","tags":["fiction","character","agency","action"]},
-  {"id":"tyler-measurement","name":"Tyler Measurement","group":"character-workspace","status":"incubating","summary":"Fictional workspace for Tyler's measurement method, uncertainty, and action.","path":"../creative/measure-between-us/repos/tyler-measurement/README.md","tags":["fiction","character","agency","measurement"]},
-  {"id":"joseph-prever-many-faces","name":"Joseph Prever - Many Faces","group":"character-workspace","status":"incubating","summary":"Source-grounded character exploration tied to the experimental Veyrthalis expedition; proposed facets remain distinct from established scenes.","path":"../creative/joseph-prever-many-faces/README.md","tags":["character","fiction","agency","veyrthalis"]}
+  {
+    "id": "bodylounger",
+    "name": "BodyLounger Research Archive",
+    "group": "archive",
+    "status": "active",
+    "summary": "Metadata-first map of the old-web muscle-growth / transformation-media lineage.",
+    "path": "../index.html",
+    "tags": [
+      "archive",
+      "research",
+      "provenance"
+    ]
+  },
+  {
+    "id": "beefythiq",
+    "name": "BEEFYTHIQ",
+    "group": "system",
+    "status": "active",
+    "summary": "A generative grammar of accumulation, escalation, stress, mutation, and new baselines.",
+    "path": "#",
+    "tags": [
+      "grammar",
+      "growth",
+      "mutation"
+    ]
+  },
+  {
+    "id": "complex",
+    "name": "The Complex",
+    "group": "world",
+    "status": "active",
+    "summary": "Persistent creative environment where creations transform, leave traces, and cross-pollinate.",
+    "path": "#",
+    "tags": [
+      "world",
+      "continuity",
+      "canon"
+    ]
+  },
+  {
+    "id": "growth-canvas",
+    "name": "Growth Canvas",
+    "group": "system",
+    "status": "incubating",
+    "summary": "Visual transformation workspace built around seeds, rules, latency, anomalies, and feedback.",
+    "path": "#",
+    "tags": [
+      "visual",
+      "rules",
+      "experiments"
+    ]
+  },
+  {
+    "id": "liminal-gains",
+    "name": "Liminal Gains",
+    "group": "game",
+    "status": "incubating",
+    "summary": "Two-player hotseat growth game with orbs, cooperation, and escalating transformation.",
+    "path": "#",
+    "tags": [
+      "game",
+      "pygame",
+      "co-op"
+    ]
+  },
+  {
+    "id": "bruteforce",
+    "name": "BIG BRUTEFORCE",
+    "group": "game",
+    "status": "incubating",
+    "summary": "Compact mutation-engine prototype with push, mutate, rest, and runaway progression.",
+    "path": "#",
+    "tags": [
+      "game",
+      "mutation",
+      "prototype"
+    ]
+  },
+  {
+    "id": "facility",
+    "name": "The Facility",
+    "group": "world",
+    "status": "incubating",
+    "summary": "Clinical-white adult research complex with CRT glow, sealed ecosystems, and transformation experiments.",
+    "path": "#",
+    "tags": [
+      "facility",
+      "fiction",
+      "research"
+    ]
+  },
+  {
+    "id": "muscle-myth",
+    "name": "Muscle Myth",
+    "group": "myth",
+    "status": "active",
+    "summary": "Pantheon and mythmaking around transformation, mass, charisma, and impossible bodies.",
+    "path": "#",
+    "tags": [
+      "myth",
+      "pantheon",
+      "canon"
+    ]
+  },
+  {
+    "id": "growth-tools",
+    "name": "Growth Tools",
+    "group": "tool",
+    "status": "incubating",
+    "summary": "Content-aware image/video tooling, tracking canvases, and transformation-oriented experiments.",
+    "path": "#",
+    "tags": [
+      "tool",
+      "vision",
+      "video"
+    ]
+  },
+  {
+    "id": "discovery",
+    "name": "Discovery Engine",
+    "group": "tool",
+    "status": "incubating",
+    "summary": "Personalized discovery layer for finding relevant media, tags, feeds, and archives.",
+    "path": "#",
+    "tags": [
+      "discovery",
+      "search",
+      "recommendation"
+    ]
+  },
+  {
+    "id": "retro-lab",
+    "name": "Retro Lab",
+    "group": "aesthetic",
+    "status": "dormant",
+    "summary": "90s–2000s / Y2K / Heisei-tech visual and sonic experiments.",
+    "path": "#",
+    "tags": [
+      "retro",
+      "y2k",
+      "aesthetic"
+    ]
+  },
+  {
+    "id": "religion-dialogue",
+    "name": "Religion as Dialogue",
+    "group": "research",
+    "status": "active",
+    "summary": "Thesis/research workspace around dialogue, interpretation, communication, and religious studies.",
+    "path": "#",
+    "tags": [
+      "thesis",
+      "research",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "gods",
+    "name": "The Gods",
+    "group": "god",
+    "status": "incubating",
+    "summary": "Repository-ready home for individual deities, their symbols, myths, artifacts, and rules.",
+    "path": "#",
+    "tags": [
+      "gods",
+      "canon",
+      "artifacts"
+    ]
+  },
+  {
+    "id": "blender-stand",
+    "name": "Blender Stand / 3D Workspace",
+    "group": "3d",
+    "status": "incubating",
+    "summary": "Dedicated 3D production node for the Blender-based stand workflow, intended to connect modeling, scene building, and visual output back into the GEEHUB constellation.",
+    "path": "#",
+    "tags": [
+      "blender",
+      "3d",
+      "stand",
+      "modeling",
+      "scene"
+    ]
+  },
+  {
+    "id": "moderntexts",
+    "name": "ModernTexts",
+    "group": "research",
+    "status": "active",
+    "summary": "Accessible GitHub repository in the current workspace constellation.",
+    "path": "https://github.com/Ardhtor/ModernTexts",
+    "repo": "Ardhtor/ModernTexts",
+    "tags": [
+      "repository",
+      "texts",
+      "research"
+    ]
+  },
+  {
+    "id": "linux-s",
+    "name": "LINUX_S",
+    "group": "tool",
+    "status": "active",
+    "summary": "Accessible GitHub repository in the current workspace constellation.",
+    "path": "https://github.com/Ardhtor/LINUX_S",
+    "repo": "Ardhtor/LINUX_S",
+    "tags": [
+      "repository",
+      "linux",
+      "systems"
+    ]
+  },
+  {
+    "id": "veyrthalis",
+    "name": "Veyrthalis",
+    "group": "world",
+    "status": "active",
+    "summary": "Fictional world of the Foggy Dark Expanse, Digitorium, Procession, Binding, Temple of Moon, and layered geography; includes the experimental hyperspace expedition record.",
+    "path": "../lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+    "tags": [
+      "world",
+      "lore",
+      "hyperspace",
+      "canon",
+      "experimental"
+    ]
+  },
+  {
+    "id": "hyperspace-expedition",
+    "name": "Hyperspace Expedition",
+    "group": "story-branch",
+    "status": "incubating",
+    "summary": "Four-man descent into a valley city joined to an ancient living presence; experimental branch, not canon.",
+    "path": "../lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+    "tags": [
+      "story",
+      "hyperspace",
+      "experimental"
+    ]
+  },
+  {
+    "id": "male-harem-virtual-space",
+    "name": "Male Harem Virtual Space",
+    "group": "visual",
+    "status": "active",
+    "summary": "Living visual roster and shared virtual environment built from original muscular source photographs and generated group scenes, with focus on presence, mass, continuity, and extreme-size studies of Office Tank + Posing Trunks.",
+    "path": "../archive/male-harem/README.md",
+    "repo": "Ardhtor/GEEHUB",
+    "tags": [
+      "visual",
+      "muscle",
+      "harem",
+      "growth",
+      "archive",
+      "extreme-size"
+    ]
+  },
+  {
+    "id": "adult-gay-visual-loop",
+    "name": "Adult Gay Visual Loop",
+    "group": "visual",
+    "status": "active",
+    "summary": "Swipe-first adult gay visual discovery space for adult-only source material, visual attraction, muscular presence, continuity, tagging, provenance, and recommendation. One swipe advances the archive while attention signals shape what appears next.",
+    "path": "../archive/adult-gay-visual-loop/README.md",
+    "repo": "Ardhtor/GEEHUB",
+    "tags": [
+      "adult",
+      "gay",
+      "visual",
+      "swipe",
+      "discovery",
+      "muscle",
+      "archive"
+    ]
+  },
+  {
+    "id": "measure-between-us",
+    "name": "The Measure Between Us",
+    "group": "story",
+    "status": "active",
+    "summary": "Film chapter and character-repository lab; Chase leads while each fictional adaptation gets an independent action lane.",
+    "path": "../creative/measure-between-us/README.md",
+    "tags": [
+      "film",
+      "story",
+      "agency",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "chase-book",
+    "name": "Chase Book",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Fictional workspace for Chase's choices, attention, memory, and continuity record.",
+    "path": "../creative/measure-between-us/repos/chase-book/README.md",
+    "tags": [
+      "fiction",
+      "character",
+      "agency",
+      "pov"
+    ]
+  },
+  {
+    "id": "luke-inside",
+    "name": "Luke Inside",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Fictional workspace for Luke's bodily continuity, self-definition, and chosen disclosure.",
+    "path": "../creative/measure-between-us/repos/luke-inside/README.md",
+    "tags": [
+      "fiction",
+      "character",
+      "agency",
+      "continuity"
+    ]
+  },
+  {
+    "id": "andrew-field",
+    "name": "Andrew Field",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Fictional workspace for Andrew's movement, shared play, and practical decisions.",
+    "path": "../creative/measure-between-us/repos/andrew-field/README.md",
+    "tags": [
+      "fiction",
+      "character",
+      "agency",
+      "action"
+    ]
+  },
+  {
+    "id": "tyler-measurement",
+    "name": "Tyler Measurement",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Fictional workspace for Tyler's measurement method, uncertainty, and action.",
+    "path": "../creative/measure-between-us/repos/tyler-measurement/README.md",
+    "tags": [
+      "fiction",
+      "character",
+      "agency",
+      "measurement"
+    ]
+  },
+  {
+    "id": "joseph-prever-many-faces",
+    "name": "Joseph Prever - Many Faces",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Source-grounded character exploration tied to the experimental Veyrthalis expedition; proposed facets remain distinct from established scenes.",
+    "path": "../creative/joseph-prever-many-faces/README.md",
+    "tags": [
+      "character",
+      "fiction",
+      "agency",
+      "veyrthalis"
+    ]
+  },
+  {
+    "id": "size-domination-emulator",
+    "name": "Size Domination Emulator",
+    "group": "experience",
+    "status": "prototype",
+    "summary": "Swipe-first spatial scale experience: push a continuous body outward until the room has to recalibrate, then archive the state as a new baseline.",
+    "path": "../experiences/size-domination-emulator/index.html",
+    "tags": [
+      "size",
+      "scale",
+      "emulator",
+      "growth",
+      "continuity",
+      "sensation-engine"
+    ]
+  }
 ]

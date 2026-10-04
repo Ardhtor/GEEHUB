@@ -24,7 +24,8 @@
   function load(){try{return JSON.parse(localStorage.getItem(KEY))||null}catch{return null}}
   function save(s){localStorage.setItem(KEY,JSON.stringify(s));}
   let state=load()||{day:1,men:seed.map(x=>({...x,records:x.records.map(r=>({...r,id:crypto.randomUUID(),at:new Date().toISOString(),validity:.5})}),events:[],ops:[],relations:[]})};
-  state.men.forEach(m=>{m.events=m.events||[];m.ops=m.ops||[];});
+  state.men.forEach(m=>{m.events=m.events||[];m.ops=m.ops||[];m.development=m.development||{baseline:1,index:1,history:[]};});
+  state.growth=state.growth||{baseline:1,index:1,rate:.08,accomplishments:[],excitement:0,autoplay:false};
   function sig(m){
     const all=m.records.flatMap(r=>[...(r.tags||[]),r.type]);
     const counts={};all.forEach(x=>counts[x]=(counts[x]||0)+1);
@@ -77,6 +78,19 @@
     state.events.unshift({at:new Date().toISOString(),text:'NOISE → '+m.name});
     save(state);render();
   }
+  function growthStep(){
+    const g=state.growth;
+    const old=g.index;
+    g.index=Math.min(100,g.index*(1+g.rate));
+    g.rate=Math.min(.45,g.rate*1.045);
+    g.excitement=Math.min(100,g.excitement+8);
+    const accomplishment={id:crypto.randomUUID(),day:state.day,index:g.index,from:old,at:new Date().toISOString(),text:'GROWTH ACHIEVED — '+old.toFixed(2)+'× → '+g.index.toFixed(2)+'×'};
+    g.accomplishments.unshift(accomplishment);
+    g.baseline=g.index;
+    state.events.unshift({at:accomplishment.at,text:'ACCOMPLISHMENT // '+accomplishment.text});
+    const m=state.men[Math.floor(Math.random()*state.men.length)];
+    if(m)addRecord(m,{type:'accomplishment',text:accomplishment.text,tags:['growth','accomplishment','development'],validity:.9},'GROWTH-ENGINE');
+  }
   function run(){
     state.day++;
     state.men.forEach(m=>{
@@ -87,6 +101,7 @@
       m.development.history=m.development.history.slice(-60);
       addRecord(m,{type:'development',text:'private body development state recorded',tags:['body','development','continuity'],validity:.55},'SELF-MONITOR');
     });
+    growthStep();
     ingest(); operate(); operate();
     state.events=state.events.slice(0,80);
     save(state);render();
@@ -98,20 +113,25 @@
     root.querySelector('[data-stat=records]').textContent=total;
     root.querySelector('[data-stat=ops]').textContent=state.relations.length;
     root.querySelector('[data-stat=day]').textContent=state.day;
+    root.querySelector('[data-growth-index]').textContent=state.growth.index.toFixed(2)+'×';
+    root.querySelector('[data-growth-excitement]').textContent=Math.round(state.growth.excitement);
+    root.querySelector('[data-growth-count]').textContent=state.growth.accomplishments.length;
+    root.querySelector('[data-growth-status]').textContent=state.growth.accomplishments[0]?.text||'INITIAL BASELINE';
     root.querySelector('.d2-men').innerHTML=state.men.map(m=>'<article><div class="d2-name">'+m.name+'</div><div class="d2-sig">'+sig(m)+'</div><small>'+m.records.length+' records / '+m.ops.length+' operations</small></article>').join('');
     root.querySelector('.d2-log').innerHTML=state.events.slice(0,14).map(e=>'<div><time>'+new Date(e.at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'})+'</time>'+e.text+'</div>').join('');
   }
   function mount(){
     if(document.querySelector('#dummic2'))return;
     const s=document.createElement('section');s.id='dummic2';s.className='dummic2';
-    s.innerHTML='<div class="d2-head"><div><div class="eyebrow">DUMMIC 2 / REPOSITORY NETWORK</div><h2>LET IT ALL ACCUMULATE</h2><p>Every record stays. Characteristic repositories act on one another. The world changes through contact.</p></div><div class="d2-actions"><button id="d2run" class="run-button">RUN</button><button id="d2live" class="d2-live">LIVE</button></div></div><div class="d2-stats"><div><b data-stat="day">1</b><span>DAY</span></div><div><b data-stat="men">3</b><span>REPOSITORIES</span></div><div><b data-stat="records">9</b><span>RECORDS</span></div><div><b data-stat="ops">0</b><span>OPERATIONS</span></div></div><div class="d2-grid"><div><div class="eyebrow">CHARACTERISTIC REPOSITORIES</div><div class="d2-men"></div></div><div><div class="eyebrow">LIVE OPERATION LOG</div><div class="d2-log"></div></div></div></section>';
+    s.innerHTML='<div class="d2-head"><div><div class="eyebrow">DUMMIC 2 / REPOSITORY NETWORK</div><h2>LET IT ALL ACCUMULATE</h2><p>Every record stays. Characteristic repositories act on one another. The world changes through contact.</p></div><div class="d2-actions"><button id="d2run" class="run-button">RUN</button><button id="d2live" class="d2-live">LIVE</button></div></div><div class="d2-growth"><div><div class="eyebrow">AUTONOMOUS GROWTH</div><strong data-growth-index>1.00×</strong><span data-growth-status>INITIAL BASELINE</span></div><div><b data-growth-excitement>0</b><span>EXCITEMENT</span></div><div><b data-growth-count>0</b><span>ACCOMPLISHMENTS</span></div></div><div class="d2-stats"><div><b data-stat="day">1</b><span>DAY</span></div><div><b data-stat="men">3</b><span>REPOSITORIES</span></div><div><b data-stat="records">9</b><span>RECORDS</span></div><div><b data-stat="ops">0</b><span>OPERATIONS</span></div></div><div class="d2-grid"><div><div class="eyebrow">CHARACTERISTIC REPOSITORIES</div><div class="d2-men"></div></div><div><div class="eyebrow">LIVE OPERATION LOG</div><div class="d2-log"></div></div></div></section>';
     document.querySelector('.world')?.appendChild(s);
     s.querySelector('#d2run').addEventListener('click',run);
     let live=false,timer=null;
     const liveButton=s.querySelector('#d2live');
-    liveButton.addEventListener('click',()=>{live=!live;liveButton.textContent=live?'LIVE // ON':'LIVE';if(live){run();timer=setInterval(run,12000)}else clearInterval(timer);});
+    liveButton.addEventListener('click',()=>{live=!live;state.growth.autoplay=live;liveButton.textContent=live?'LIVE // ON':'LIVE';if(live){run();timer=setInterval(run,7000)}else clearInterval(timer);});
+    if(state.growth.autoplay){live=true;liveButton.textContent='LIVE // ON';timer=setInterval(run,7000);}
     render();
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount);else mount();
-  window.GEEHUB_DUMMIC2={run,ingest,operate,getState:()=>state};
+  window.GEEHUB_DUMMIC2={run,ingest,operate,growthStep,getState:()=>state};
 })();

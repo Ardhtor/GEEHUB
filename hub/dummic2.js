@@ -79,6 +79,14 @@
   }
   function run(){
     state.day++;
+    state.men.forEach(m=>{
+      m.development=m.development||{baseline:1,index:1,history:[]};
+      const drift=(Math.random()-.35)*.08;
+      m.development.index=Math.max(.1,m.development.index+drift);
+      m.development.history.push({day:state.day,index:m.development.index});
+      m.development.history=m.development.history.slice(-60);
+      addRecord(m,{type:'development',text:'private body development state recorded',tags:['body','development','continuity'],validity:.55},'SELF-MONITOR');
+    });
     ingest(); operate(); operate();
     state.events=state.events.slice(0,80);
     save(state);render();
@@ -96,11 +104,11 @@
   function mount(){
     if(document.querySelector('#dummic2'))return;
     const s=document.createElement('section');s.id='dummic2';s.className='dummic2';
-    s.innerHTML='<div class="d2-head"><div><div class="eyebrow">DUMMIC 2 / REPOSITORY NETWORK</div><h2>LET IT ALL ACCUMULATE</h2><p>Every record stays. Characteristic repositories act on one another. The world changes through contact.</p></div><button id="d2run" class="run-button">RUN</button></div><div class="d2-stats"><div><b data-stat="day">1</b><span>DAY</span></div><div><b data-stat="men">3</b><span>REPOSITORIES</span></div><div><b data-stat="records">9</b><span>RECORDS</span></div><div><b data-stat="ops">0</b><span>OPERATIONS</span></div></div><div class="d2-grid"><div><div class="eyebrow">CHARACTERISTIC REPOSITORIES</div><div class="d2-men"></div></div><div><div class="eyebrow">LIVE OPERATION LOG</div><div class="d2-log"></div></div></div></section>';
+    s.innerHTML='<div class="d2-head"><div><div class="eyebrow">DUMMIC 2 / REPOSITORY NETWORK</div><h2>LET IT ALL ACCUMULATE</h2><p>Every record stays. Characteristic repositories act on one another. The world changes through contact.</p></div><div class="d2-actions"><button id="d2run" class="run-button">RUN</button><button id="d2live" class="d2-live">LIVE</button></div></div><div class="d2-stats"><div><b data-stat="day">1</b><span>DAY</span></div><div><b data-stat="men">3</b><span>REPOSITORIES</span></div><div><b data-stat="records">9</b><span>RECORDS</span></div><div><b data-stat="ops">0</b><span>OPERATIONS</span></div></div><div class="d2-grid"><div><div class="eyebrow">CHARACTERISTIC REPOSITORIES</div><div class="d2-men"></div></div><div><div class="eyebrow">LIVE OPERATION LOG</div><div class="d2-log"></div></div></div></section>';
     document.querySelector('.world')?.appendChild(s);
     s.querySelector('#d2run').addEventListener('click',run);
     let live=false,timer=null;
-    const liveButton=document.createElement('button'); liveButton.id='d2live'; liveButton.className='d2-live'; liveButton.textContent='LIVE'; s.querySelector('.d2-actions')?.appendChild(liveButton);
+    const liveButton=s.querySelector('#d2live');
     liveButton.addEventListener('click',()=>{live=!live;liveButton.textContent=live?'LIVE // ON':'LIVE';if(live){run();timer=setInterval(run,12000)}else clearInterval(timer);});
     render();
   }

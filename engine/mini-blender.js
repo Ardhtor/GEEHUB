@@ -159,7 +159,10 @@
   }
 
   function adjust(axis,amt){
-    const d=dims[selected]; d[axis]=Math.max(.72,Math.min(2.5,d[axis]+amt));
+    const d=dims[selected];
+    const before=d[axis];
+    d[axis]=Math.max(.72,Math.min(2.5,d[axis]+amt));
+    window.dispatchEvent(new CustomEvent('geehub:sculpt-change',{detail:{axis,amount:d[axis]-before,pressure:Math.abs(d[axis]-before)*.8,room:-Math.abs(d[axis]-before)*.12,adaptation:Math.abs(d[axis]-before)*1.4,witness:Math.abs(d[axis]-before)*.7,weather:Math.abs(d[axis]-before)*.2}}));
   }
 
   ui.bsculpt.addEventListener('click',()=>{
@@ -178,6 +181,7 @@
   ui.bigger.addEventListener('click',()=>{
     figureScale=Math.min(1.75,figureScale+.12);
     Object.values(dims).forEach(d=>{d.wide=Math.min(2.5,d.wide+.06);d.deep=Math.min(2.5,d.deep+.06);d.tall=Math.min(2.5,d.tall+.05);});
+    window.dispatchEvent(new CustomEvent('geehub:sculpt-change',{detail:{axis:'whole',amount:.35,pressure:.32,room:-.08,adaptation:.55,witness:.22,weather:.05}}));
     ui.part.textContent='WHOLE FIGURE / BIGGER';
   });
   ui.giga.addEventListener('click',()=>{
@@ -185,6 +189,7 @@
     figureScale=Math.min(2.05,figureScale+.26);
     Object.values(dims).forEach(d=>{d.wide=Math.min(2.5,d.wide+.18);d.deep=Math.min(2.5,d.deep+.16);d.tall=Math.min(2.5,d.tall+.12);});
     stage.classList.add('bsculpt-active','giga-mode');
+    window.dispatchEvent(new CustomEvent('geehub:sculpt-change',{detail:{axis:'giga',amount:1.1,pressure:.95,room:-.28,adaptation:1.5,witness:.85,weather:.28}}));
     ui.part.textContent='GIGA / WHOLE SCULPT';
   });
   ui.hours.addEventListener('click',()=>{
@@ -195,6 +200,7 @@
       d.deep=Math.max(.72,Math.min(2.5,d.deep+(p%44<28?.0018:-.00065)));
       d.tall=Math.max(.72,Math.min(2.5,d.tall+(p%70<43?.0013:-.0004)));
     }
+    window.dispatchEvent(new CustomEvent('geehub:sculpt-change',{detail:{axis:'hours',amount:2.4,pressure:1.4,room:-.38,adaptation:2.6,witness:1.25,weather:.5}}));
     ui.part.textContent=parts[selected].label+' / HOURS OF SCULPT';
   });
 

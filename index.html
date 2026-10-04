@@ -30,10 +30,50 @@
   <div class="dnb-room"><div id="dnbState" class="dnb-state">AVAILABLE // THE HUB IS LISTENING</div><div id="dnbMessage" class="dnb-message">Nothing needs your attention right now.</div><div id="dnbClock" class="dnb-clock">QUIET 00:00</div></div>
   <div class="dnb-controls"><button data-dnb="1">QUIET</button><button data-dnb="2">DEEP QUIET</button><button data-dnb="3">UNTIL I RETURN</button></div>
 </section>
-<section id="biggener" class="biggener" aria-label="BIGGENER body scale engine">
+<section id="biggener" class="biggener sculpt-bay" aria-label="BIGGENER body scale engine">
   <div class="biggener-head"><div><div class="eyebrow">TRANSFORMATION / SCALE</div><h2>BIGGENER</h2><p>Push the body's baseline outward while keeping the person continuous. Mass, reach, joints, and silhouette change together.</p></div><button id="biggenerRun" class="run-button" type="button">GROW</button></div>
   <div class="biggener-stage"><div class="biggener-grid"></div><div id="biggenerFigure" class="biggener-figure"><i class="bg-head"></i><b class="bg-neck"></b><em class="bg-torso"></em><span class="bg-arm bg-arm-a"></span><span class="bg-arm bg-arm-b"></span><span class="bg-leg bg-leg-a"></span><span class="bg-leg bg-leg-b"></span></div><div class="biggener-readout"><span id="biggenerLevel">BASELINE 01</span><strong id="biggenerSize">100%</strong><p id="biggenerText">The body is at its remembered baseline.</p></div></div>
   <div class="biggener-controls"><button data-biggener="-1">RELEASE</button><button data-biggener="1">BWOMPH</button><button data-biggener="3">HYPER BWOMPH</button><button data-biggener="5">NEW BASELINE</button></div>
+</section>
+<section id="sculptPreview" class="sculpt-preview" aria-label="Sculpting preview">
+  <div class="sculpt-preview-head">
+    <div>
+      <div class="eyebrow">LIVE SCULPT / CHARACTER</div>
+      <h2>COCKY // HANDSOME // ASSEMBLED</h2>
+      <p>The figure is the event. Components arrive separately and remain editable.</p>
+    </div>
+    <div class="sculpt-status">MESH / HUMAN / ACTIVE</div>
+  </div>
+  <div class="sculpt-preview-stage">
+    <div class="sculpt-axis x"></div><div class="sculpt-axis y"></div>
+    <div class="component-tray left-tray">
+      <button data-part="arm-left"><span>ARM L</span><small>detached</small></button>
+      <button data-part="shoulder-left"><span>SHOULDER</span><small>detached</small></button>
+      <button data-part="boot-left"><span>BOOT L</span><small>clothing</small></button>
+    </div>
+    <div class="sculpt-mannequin" id="sculptMannequin">
+      <div class="sm-head"><div class="sm-hair"></div><div class="sm-brow left"></div><div class="sm-brow right"></div><div class="sm-eye left"></div><div class="sm-eye right"></div><div class="sm-nose"></div><div class="sm-mouth"></div></div>
+      <div class="sm-neck"></div><div class="sm-shoulder left"></div><div class="sm-shoulder right"></div>
+      <div class="sm-chest"></div><div class="sm-waist"></div><div class="sm-hip"></div>
+      <div class="sm-arm left"><div class="sm-forearm"></div><div class="sm-hand"></div></div>
+      <div class="sm-arm right"><div class="sm-forearm"></div><div class="sm-hand"></div></div>
+      <div class="sm-leg left"><div class="sm-calf"></div><div class="sm-foot"></div></div>
+      <div class="sm-leg right"><div class="sm-calf"></div><div class="sm-foot"></div></div>
+      <div class="sm-tank"></div><div class="sm-shorts"></div>
+      <div class="sm-cocky">READY</div>
+    </div>
+    <div class="component-tray right-tray">
+      <button data-part="arm-right"><span>ARM R</span><small>detached</small></button>
+      <button data-part="chest"><span>CHEST</span><small>body</small></button>
+      <button data-part="tank"><span>TANK</span><small>clothing</small></button>
+    </div>
+    <div class="sculpt-preview-console">
+      <span id="previewPart">NO PART SELECTED</span>
+      <strong id="previewScale">100%</strong>
+      <button id="previewPlus" type="button">SCULPT +</button>
+      <button id="previewNext" type="button">NEXT PART</button>
+    </div>
+  </div>
 </section>
 <section id="worshipMe" class="worship-me" aria-label="worship me ritual"><div class="worship-head"><div><div class="eyebrow">RITUAL / CENTER</div><h2>WORSHIP ME</h2><p>The Hub treats your attention as the originating force: what you notice becomes what it keeps, develops, and returns.</p></div><button id="worshipRun" class="run-button" type="button">BEGIN RITE</button></div><div class="worship-altar"><div id="worshipTitle" class="worship-title">APPROACH</div><p id="worshipBody">The Hub turns toward you.</p><div id="worshipTrace" class="worship-trace">presence → attention → arrival</div><div id="worshipCount" class="worship-count">RITE 00</div></div><div class="worship-principles"><span>ATTENTION</span><span>WITNESS</span><span>OFFERING</span><span>REMEMBRANCE</span><span>RETURN</span></div></section>
 <section id="anticipation" class="anticipation" aria-label="GEEHUB anticipation"></section>

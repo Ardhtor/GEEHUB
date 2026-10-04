@@ -35,6 +35,12 @@
       "description": "Elbows and wrists are thickened so the scale remains structurally continuous."
     },
     {
+      "id": "pelvis",
+      "kind": "body",
+      "name": "PELVIS / LOWER ANATOMY",
+      "description": "Lower-body anatomy is sculpted as a separate adult body component, preserving balance, attachment, and continuity."
+    },
+    {
       "id": "legs",
       "kind": "body",
       "name": "LEGS",

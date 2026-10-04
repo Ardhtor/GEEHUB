@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "space": "geehub-interaction-space",
+  "generated": "2026-10-05T00:00:00Z",
+  "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
+  "events": [
+    {
+      "id": "seed-moderntexts-001",
+      "at": "2026-10-05T00:00:00Z",
+      "from": "moderntexts",
+      "to": "geehub",
+      "type": "ARRIVAL",
+      "title": "Practice / Meta-Analysis",
+      "body": "The text repository arrives as a corpus of practice, analysis, meta-analysis, ritual, truth production, and worship.",
+      "source": "Ardhtor/ModernTexts",
+      "live": false
+    },
+    {
+      "id": "seed-visual-001",
+      "at": "2026-10-05T00:00:00Z",
+      "from": "visual-synthesis",
+      "to": "geehub",
+      "type": "ARRIVAL",
+      "title": "Visual Synthesis",
+      "body": "The image-generation repository arrives as a machine for images, variations, prompt attention, iteration, and visual memory.",
+      "source": "Ardhtor/lp9hppuio88",
+      "live": false
+    },
+    {
+      "id": "seed-spatial-001",
+      "at": "2026-10-05T00:00:00Z",
+      "from": "spatial-perception",
+      "to": "geehub",
+      "type": "ARRIVAL",
+      "title": "Kirk / Perception in Real Time",
+      "body": "The Blender repository arrives carrying a perceptual model where growth changes the room and the room becomes evidence.",
+      "source": "Ardhtor/PgkKKGLu966",
+      "live": false
+    },
+    {
+      "id": "seed-linux-001",
+      "at": "2026-10-05T00:00:00Z",
+      "from": "linux-material",
+      "to": "geehub",
+      "type": "ARRIVAL",
+      "title": "Material Reference",
+      "body": "The media repository arrives carrying an image asset and a pointer to an external primary file.",
+      "source": "Ardhtor/LINUX_S",
+      "live": false
+    },
+    {
+      "id": "seed-cross-001",
+      "at": "2026-10-05T00:00:00Z",
+      "from": "moderntexts",
+      "to": "visual-synthesis",
+      "type": "OFFER",
+      "title": "concept -> image",
+      "body": "A text or concept can become a visual prompt without leaving the shared space.",
+      "source": "interaction matrix",
+      "live": false
+    },
+    {
+      "id": "seed-cross-002",
+      "at": "2026-10-05T00:00:00Z",
+      "from": "visual-synthesis",
+      "to": "spatial-perception",
+      "type": "OFFER",
+      "title": "image -> space",
+      "body": "A generated image can become a spatial reference for scene construction and perception.",
+      "source": "interaction matrix",
+      "live": false
+    }
+  ]
+}

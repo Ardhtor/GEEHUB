@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "id": "geehub-interaction-space",
+  "title": "THE SHARED INTERACTION SPACE",
+  "description": "GEEHUB is the meeting surface. Each participating repository keeps its own work, memory, tools, and outputs; only encounters and exchange records cross the boundary.",
+  "canonicalFlow": [
+    "REPO WORK",
+    "ARRIVAL",
+    "ENCOUNTER",
+    "TRANSFORM",
+    "RETURN",
+    "MEMORY"
+  ],
+  "persistentExchange": {
+    "github": "./hub/exchange.json",
+    "dropbox": "/GEEHUB/corpus/exchange/",
+    "principle": "GitHub carries the protocol and compact exchange records. Dropbox carries large media and durable production artifacts."
+  },
+  "eventVocabulary": [
+    "ARRIVAL",
+    "NOTICE",
+    "ENCOUNTER",
+    "OFFER",
+    "TRANSFORM",
+    "RETURN",
+    "MEMORY"
+  ],
+  "participants": [
+    {
+      "id": "moderntexts",
+      "repo": "Ardhtor/ModernTexts",
+      "branch": "main",
+      "role": "TEXT / PHILOSOPHICAL CORPUS",
+      "medium": "texts",
+      "outputs": [
+        "passages",
+        "concepts",
+        "analysis",
+        "mythic language"
+      ],
+      "entry": "https://github.com/Ardhtor/ModernTexts",
+      "protocol": ".geehub/participant.json"
+    },
+    {
+      "id": "visual-synthesis",
+      "repo": "Ardhtor/lp9hppuio88",
+      "branch": "master",
+      "role": "IMAGE / GENERATION ENGINE",
+      "medium": "images",
+      "outputs": [
+        "generated images",
+        "variations",
+        "embeddings",
+        "visual states"
+      ],
+      "entry": "https://github.com/Ardhtor/lp9hppuio88",
+      "protocol": ".geehub/participant.json"
+    },
+    {
+      "id": "spatial-perception",
+      "repo": "Ardhtor/PgkKKGLu966",
+      "branch": "main",
+      "role": "3D / PERCEPTION / BLENDER",
+      "medium": "space",
+      "outputs": [
+        "meshes",
+        "scenes",
+        "perceptual rules",
+        "motion"
+      ],
+      "entry": "https://github.com/Ardhtor/PgkKKGLu966",
+      "protocol": ".geehub/participant.json"
+    },
+    {
+      "id": "linux-material",
+      "repo": "Ardhtor/LINUX_S",
+      "branch": "main",
+      "role": "FILE / MEDIA REFERENCE",
+      "medium": "files+images",
+      "outputs": [
+        "reference files",
+        "image assets",
+        "external source pointers"
+      ],
+      "entry": "https://github.com/Ardhtor/LINUX_S",
+      "protocol": ".geehub/participant.json"
+    }
+  ],
+  "interactionMatrix": [
+    [
+      "moderntexts",
+      "visual-synthesis",
+      "concept -> image"
+    ],
+    [
+      "visual-synthesis",
+      "spatial-perception",
+      "image -> spatial reference"
+    ],
+    [
+      "spatial-perception",
+      "linux-material",
+      "scene -> material reference"
+    ],
+    [
+      "linux-material",
+      "moderntexts",
+      "material -> passage"
+    ],
+    [
+      "moderntexts",
+      "spatial-perception",
+      "language -> scene"
+    ],
+    [
+      "visual-synthesis",
+      "moderntexts",
+      "image -> description"
+    ]
+  ]
+}

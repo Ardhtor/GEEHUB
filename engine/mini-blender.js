@@ -28,7 +28,9 @@
     shoulderL:{label:'SHOULDER L',kind:'BODY',p:[-1.02,2.72,0],s:[.88,.55,.72]},
     shoulderR:{label:'SHOULDER R',kind:'BODY',p:[1.02,2.72,0],s:[.88,.55,.72]},
     chest:{label:'CHEST',kind:'BODY',p:[0,2.02,0],s:[1.42,1.05,.82]},
-    pelvis:{label:'PELVIS',kind:'BODY',p:[0,.62,0],s:[1.12,.58,.78]},
+    pelvis:{label:'PELVIS',kind:'BODY',p:[0,.62,0],s:[1.32,.66,.92]},
+    hipL:{label:'HIP L',kind:'BODY',p:[-.78,.34,.02],s:[.66,.52,.82]},
+    hipR:{label:'HIP R',kind:'BODY',p:[.78,.34,.02],s:[.66,.52,.82]},
     armL:{label:'ARM L',kind:'BODY',p:[-1.72,1.72,0],s:[.43,1.35,.46]},
     armR:{label:'ARM R',kind:'BODY',p:[1.72,1.72,0],s:[.43,1.35,.46]},
     foreL:{label:'FOREARM L',kind:'BODY',p:[-1.83,.22,0],s:[.37,1.08,.4]},
@@ -38,13 +40,14 @@
     calfL:{label:'CALF L',kind:'BODY',p:[-.67,-2.63,0],s:[.45,1.12,.48]},
     calfR:{label:'CALF R',kind:'BODY',p:[.67,-2.63,0],s:[.45,1.12,.48]},
     tank:{label:'TANK',kind:'CLOTHING',p:[0,1.95,.09],s:[1.48,1.22,.86]},
-    shorts:{label:'SHORTS',kind:'CLOTHING',p:[0,.22,.1],s:[1.17,.52,.82]}
+    shorts:{label:'SHORTS',kind:'CLOTHING',p:[0,.22,.1],s:[1.28,.56,.9]}
   };
 
   const selectMap={
-    'shoulder-left':'shoulderL','chest':'chest','arm-left':'armL','arm-right':'armR','tank':'tank','boot-left':'shorts'
+    'shoulder-left':'shoulderL','chest':'chest','arm-left':'armL','arm-right':'armR','tank':'tank','boot-left':'shorts','pelvis':'pelvis'
   };
   let selected='chest', mode=false, dragging=false, lastX=0,lastY=0, rotY=-.35, rotX=.12, zoom=1.05, figureScale=1.16, cursor=0;
+  let lowerBodyBias=.18;
   const dims={};
   Object.keys(parts).forEach(k=>dims[k]={wide:1,deep:1,tall:1});
 
@@ -71,7 +74,8 @@
 
   function ellipsoid(key){
     const q=parts[key],d=dims[key], seg=18,rings=10, verts=[],faces=[];
-    const sx=q.s[0]*d.wide*figureScale, sy=q.s[1]*d.tall*figureScale, sz=q.s[2]*d.deep*figureScale;
+    const lower=(key==='pelvis'||key==='hipL'||key==='hipR'||key==='legL'||key==='legR'||key==='calfL'||key==='calfR'||key==='shorts')?1+lowerBodyBias:1;
+    const sx=q.s[0]*d.wide*figureScale*lower, sy=q.s[1]*d.tall*figureScale, sz=q.s[2]*d.deep*figureScale*lower;
     for(let r=0;r<=rings;r++){
       const v=r/rings,phi=Math.PI*v;
       for(let s=0;s<seg;s++){
@@ -177,7 +181,7 @@
   ui.plus.addEventListener('click',()=>adjust('tall',.08));
   ui.deep.addEventListener('click',()=>adjust('deep',.12));
   ui.wide.addEventListener('click',()=>adjust('wide',.12));
-  ui.next.addEventListener('click',()=>{const order=['shoulderL','shoulderR','chest','pelvis','armL','armR','foreL','foreR','legL','legR','calfL','calfR','tank','shorts'];select(order[cursor%order.length]);cursor++;});
+  ui.next.addEventListener('click',()=>{const order=['shoulderL','shoulderR','chest','pelvis','hipL','hipR','armL','armR','foreL','foreR','legL','legR','calfL','calfR','tank','shorts'];select(order[cursor%order.length]);cursor++;});
   ui.bigger.addEventListener('click',()=>{
     figureScale=Math.min(1.75,figureScale+.12);
     Object.values(dims).forEach(d=>{d.wide=Math.min(2.5,d.wide+.06);d.deep=Math.min(2.5,d.deep+.06);d.tall=Math.min(2.5,d.tall+.05);});
@@ -187,21 +191,23 @@
   ui.giga.addEventListener('click',()=>{
     mode=true; ui.bsculpt.textContent='BSCULPT / GIGA';ui.bsculpt.setAttribute('aria-pressed','true');ui.mode.textContent='GIGA SCULPT';
     figureScale=Math.min(2.05,figureScale+.26);
+    lowerBodyBias=Math.min(.68,lowerBodyBias+.11);
     Object.values(dims).forEach(d=>{d.wide=Math.min(2.5,d.wide+.18);d.deep=Math.min(2.5,d.deep+.16);d.tall=Math.min(2.5,d.tall+.12);});
     stage.classList.add('bsculpt-active','giga-mode');
-    window.dispatchEvent(new CustomEvent('geehub:sculpt-change',{detail:{axis:'giga',amount:1.1,pressure:.95,room:-.28,adaptation:1.5,witness:.85,weather:.28}}));
-    ui.part.textContent='GIGA / WHOLE SCULPT';
+    window.dispatchEvent(new CustomEvent('geehub:sculpt-change',{detail:{axis:'giga-lower-body',amount:1.35,pressure:1.1,room:-.32,adaptation:1.75,witness:.92,weather:.3}}));
+    ui.part.textContent='GIGA / WHOLE SCULPT + LOWER MASS';
   });
   ui.hours.addEventListener('click',()=>{
     mode=true;ui.mode.textContent='SCULPT MODE / LONG SESSION';
+    lowerBodyBias=Math.min(.62,lowerBodyBias+.08);
     for(let i=0;i<360;i++){
       const d=dims[selected],p=i%90;
       d.wide=Math.max(.72,Math.min(2.5,d.wide+(p<54?.0021:-.0008)));
       d.deep=Math.max(.72,Math.min(2.5,d.deep+(p%44<28?.0018:-.00065)));
       d.tall=Math.max(.72,Math.min(2.5,d.tall+(p%70<43?.0013:-.0004)));
     }
-    window.dispatchEvent(new CustomEvent('geehub:sculpt-change',{detail:{axis:'hours',amount:2.4,pressure:1.4,room:-.38,adaptation:2.6,witness:1.25,weather:.5}}));
-    ui.part.textContent=parts[selected].label+' / HOURS OF SCULPT';
+    window.dispatchEvent(new CustomEvent('geehub:sculpt-change',{detail:{axis:'deep-sculpt-session',amount:2.7,pressure:1.55,room:-.42,adaptation:3.0,witness:1.4,weather:.55}}));
+    ui.part.textContent=parts[selected].label+' / HOURS OF SCULPT / NEW BASELINE';
   });
 
   let down=false;

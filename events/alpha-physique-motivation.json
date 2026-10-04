@@ -1,0 +1,65 @@
+{
+  "id": "alpha-physique-motivation",
+  "title": "ALPHA PHYSIQUE // MOTIVATION",
+  "mode": "sculpt_event",
+  "premise": "A physique is assembled as a live sculpt. The hub supplies the next component instead of presenting a finished character.",
+  "sequence": [
+    {
+      "id": "foundation",
+      "kind": "body",
+      "name": "FOUNDATION",
+      "description": "A neutral adult body shell establishes scale and continuity."
+    },
+    {
+      "id": "shoulders",
+      "kind": "body",
+      "name": "SHOULDER MASS",
+      "description": "Broader shoulder geometry is added and joined to the existing torso."
+    },
+    {
+      "id": "chest",
+      "kind": "body",
+      "name": "CHEST PLATE",
+      "description": "The chest volume is sculpted into the current silhouette."
+    },
+    {
+      "id": "arms",
+      "kind": "body",
+      "name": "ARMS",
+      "description": "Left and right arm components arrive as separate sculptable pieces."
+    },
+    {
+      "id": "joints",
+      "kind": "body",
+      "name": "LARGER JOINTS",
+      "description": "Elbows and wrists are thickened so the scale remains structurally continuous."
+    },
+    {
+      "id": "legs",
+      "kind": "body",
+      "name": "LEGS",
+      "description": "Longer, heavier legs extend the model without changing its identity."
+    },
+    {
+      "id": "tank",
+      "kind": "clothing",
+      "name": "TANK TOP",
+      "description": "A fitted tank becomes a separate clothing asset that can be moved or replaced."
+    },
+    {
+      "id": "shorts",
+      "kind": "clothing",
+      "name": "POSING SHORTS",
+      "description": "A separate clothing component completes the current sculpt pass."
+    }
+  ],
+  "controls": [
+    "SELECT",
+    "SCULPT +",
+    "SCULPT -",
+    "NEXT COMPONENT",
+    "RESET"
+  ],
+  "event_rule": "description -> component -> sculpt -> fit -> next component",
+  "completion": "The event ends on a larger continuous baseline, with every piece remaining individually addressable."
+}

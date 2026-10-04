@@ -171,38 +171,134 @@
     button.disabled = false;
   }
 
-  // PLAY MODE: let the internal world continue without repeated manual clicks.
+  // LONG PLAY MODE: the world keeps cycling while the page remains alive.
+  // The session is stateful; each cycle inherits prior artifacts, map position, and jobs.
   const playKey = 'geehub-play-mode';
   const playDueKey = 'geehub-play-due';
+  const playSessionKey = 'geehub-play-session';
+  const playEvery = 18000;
   let playTimer = null;
+  let playSession = null;
+
+  function loadPlaySession(){
+    try{
+      playSession = JSON.parse(localStorage.getItem(playSessionKey)||'null') || {
+        id:'play-session-'+Date.now(),
+        startedAt:Date.now(),
+        cycles:0,
+        lastAgent:null,
+        lastRegion:null,
+        inheritedBaselines:0
+      };
+    }catch{
+      playSession={id:'play-session-'+Date.now(),startedAt:Date.now(),cycles:0,lastAgent:null,lastRegion:null,inheritedBaselines:0};
+    }
+  }
+
+  function savePlaySession(){
+    localStorage.setItem(playSessionKey,JSON.stringify(playSession));
+  }
 
   function markDue(){
-    localStorage.setItem(playDueKey,String(Date.now()+18000));
+    localStorage.setItem(playDueKey,String(Date.now()+playEvery));
+  }
+
+  function cycleCouncil(){
+    const agents=['luke','tyler','andrew','joseph','chase'];
+    const index=playSession.cycles % agents.length;
+    const agent=agents[index];
+    const title='LONG PLAY / '+agent.toUpperCase()+' / CYCLE '+String(playSession.cycles+1).padStart(4,'0');
+    window.GEEHUB_INTERACTION?.emit({
+      id:'long-play-council-'+Date.now(),
+      at:Date.now(),
+      from:'long-play',
+      to:agent,
+      type:'ENCOUNTER',
+      title,
+      body:'The long-play session gives '+agent+' the next turn while preserving prior world state.',
+      source:'GEEHUB LONG PLAY',
+      live:true
+    });
+    playSession.lastAgent=agent;
+  }
+
+  function makeRecordingHint(){
+    const regions=window.world?.regions||[];
+    if(!regions.length)return;
+    const region=regions[playSession.cycles % regions.length];
+    playSession.lastRegion=region.id;
+    const prior=Number(localStorage.getItem('geehub-play-scale')||'1');
+    const scale=Number(Math.min(4.2,prior + [0.03,0.05,0.08,0.12,0.04][playSession.cycles%5]).toFixed(2));
+    localStorage.setItem('geehub-play-scale',String(scale));
+
+    const packet={
+      id:'long-play-recording-'+Date.now(),
+      map:'geehub-persistent-spatial-world',
+      regionId:region.id,
+      position:{x:Number(region.x)||50,y:Number(region.y)||50,z:0},
+      camera:{x:Number(region.x)||50,y:Number(region.y)||50,z:1.7,heading:(playSession.cycles*23)%360,pitch:0,fov:50},
+      subject:{agent:playSession.lastAgent||'luke',scale},
+      environment:{occupancy:scale,clearance:Number((1/scale).toFixed(3)),dominantMaterials:[],lighting:'inherited',sound:'inherited'},
+      anchors:[{type:'region',id:region.id,name:region.name}],
+      deltas:[{property:'subject.scale',from:prior,to:scale}],
+      intent:'LONG PLAY / INHERITED WORLD',
+      lineage:{session:playSession.id,cycle:playSession.cycles+1},
+      timestamp:new Date().toISOString()
+    };
+    let records=[];
+    try{records=JSON.parse(localStorage.getItem('geehub-recording-packets')||'[]')}catch{}
+    records.unshift(packet);
+    localStorage.setItem('geehub-recording-packets',JSON.stringify(records.slice(0,80)));
+    window.GEEHUB_INTERACTION?.emit({
+      id:packet.id,at:Date.now(),from:'long-play',to:'geehub',type:'MEMORY',
+      title:'LONG PLAY RECORD / '+region.name,
+      body:'Cycle '+(playSession.cycles+1)+' inherited the prior state and recorded a new spatial keyframe.',
+      source:'GEEHUB LONG PLAY',artifact:packet.id,live:true
+    });
+    if(window.GEEHUB_IMAGE_WORKER?.build){
+      window.GEEHUB_IMAGE_WORKER.build({
+        title:region.name+' / LONG PLAY / '+playSession.lastAgent,
+        tags:['persistent map','long play','inherited state',region.id,'adult male','scale gameplay'],
+        prompt:'Render the current GEEHUB persistent world from recording '+packet.id+'. Canonical region '+region.id+' at '+packet.position.x+','+packet.position.y+'. Preserve inherited geography, anchors, continuity, and prior scale history. Subject '+packet.subject.agent+' at '+scale.toFixed(2)+'x. Show environmental response to accumulated scale. This is a frame from a continuing world, not a reset and not a poster.'
+      });
+    }
   }
 
   function startPlay(){
     if(playTimer) return;
-    document.body.classList.add('geehub-playing');
+    loadPlaySession();
+    document.body.classList.add('geehub-playing','geehub-long-play');
     const tick = () => {
-      if(!button.disabled){
-        runSensation();
+      if(button.disabled)return;
+      playSession.cycles += 1;
+      cycleCouncil();
+      runSensation().finally(() => {
+        makeRecordingHint();
+        playSession.inheritedBaselines += 1;
+        savePlaySession();
         markDue();
-      }
+      });
     };
-    playTimer = setInterval(tick,18000);
+    tick();
+    playTimer=setInterval(tick,playEvery);
+    savePlaySession();
   }
 
   function stopPlay(){
-    if(playTimer){ clearInterval(playTimer); playTimer = null; }
-    document.body.classList.remove('geehub-playing');
+    if(playTimer){ clearInterval(playTimer); playTimer=null; }
+    document.body.classList.remove('geehub-playing','geehub-long-play');
+    if(playSession) savePlaySession();
   }
 
   function resumePlay(){
     if(localStorage.getItem(playKey)==='off') return;
     startPlay();
     const due=Number(localStorage.getItem(playDueKey)||0);
-    if(due && Date.now()>=due && !button.disabled) runSensation();
-    markDue();
+    if(due && Date.now()>=due && !button.disabled){
+      playSession.cycles += 1;
+      cycleCouncil();
+      runSensation().finally(()=>{makeRecordingHint();savePlaySession();markDue();});
+    }
   }
 
   document.addEventListener('visibilitychange',()=>{
@@ -214,7 +310,8 @@
   window.GEEHUB_PLAY = {
     start(){ localStorage.setItem(playKey,'on'); startPlay(); },
     stop(){ localStorage.setItem(playKey,'off'); stopPlay(); },
-    toggle(){ if(playTimer) this.stop(); else this.start(); }
+    toggle(){ if(playTimer) this.stop(); else this.start(); },
+    session(){ loadPlaySession(); return {...playSession}; }
   };
 
   button.addEventListener('click', event => {

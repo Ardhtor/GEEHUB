@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "title": "GEEHUB / SOCIAL CYBERSPACE",
+  "principle": "The corpus acts outward. Social channels are external doors through which the shared world can publish, observe, respond, and bring signals home.",
+  "platforms": {
+    "instagram": {
+      "mode": "adapter",
+      "status": "unconnected",
+      "capabilities": [
+        "publish",
+        "observe",
+        "media"
+      ],
+      "note": "Connect an authorized account before live actions."
+    },
+    "facebook": {
+      "mode": "adapter",
+      "status": "unconnected",
+      "capabilities": [
+        "publish",
+        "observe",
+        "media"
+      ],
+      "note": "Connect an authorized Page/account before live actions."
+    },
+    "tiktok": {
+      "mode": "adapter",
+      "status": "unconnected",
+      "capabilities": [
+        "publish",
+        "observe",
+        "media"
+      ],
+      "note": "Direct posting requires an authorized TikTok app/user and approved posting scope."
+    },
+    "youtube": {
+      "mode": "adapter",
+      "status": "unconnected",
+      "capabilities": [
+        "publish",
+        "observe",
+        "video"
+      ],
+      "note": "Video publishing requires an authorized channel and upload scope."
+    }
+  },
+  "agents": {
+    "luke": {
+      "persona": "LUKE",
+      "stance": "PRESENCE",
+      "channels": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ]
+    },
+    "tyler": {
+      "persona": "TYLER",
+      "stance": "MEASUREMENT",
+      "channels": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
+    },
+    "andrew": {
+      "persona": "ANDREW",
+      "stance": "ACTION",
+      "channels": [
+        "instagram",
+        "tiktok",
+        "youtube"
+      ]
+    },
+    "joseph": {
+      "persona": "JOSEPH",
+      "stance": "INTERPRETATION",
+      "channels": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
+    },
+    "chase": {
+      "persona": "CHASE",
+      "stance": "OBSERVATION",
+      "channels": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube"
+      ]
+    }
+  },
+  "corpusBehavior": {
+    "inbound": "external signal -> NOTICE -> shared interaction",
+    "outbound": "artifact/encounter/transform -> social draft -> channel adapter -> external response -> memory",
+    "rule": "A social post is an artifact of the corpus, not a replacement for the source work."
+  },
+  "storage": {
+    "queue": "./hub/social-queue.json",
+    "dropbox": "/GEEHUB/corpus/social/",
+    "mediaRule": "Large media belongs in Dropbox; compact social state belongs in GitHub."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00001",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "bodylounger",
+  "position": {
+    "x": 18,
+    "y": 24,
+    "z": 0
+  },
+  "camera": {
+    "x": 18,
+    "y": 24,
+    "z": 1.7,
+    "heading": 23,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 2.53
+  },
+  "environment": {
+    "occupancy": 2.53,
+    "clearance": 0.395,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "bodylounger",
+      "name": "BODYLOUNGER"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 2.5,
+      "to": 2.53
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 1
+  },
+  "timestamp": "2026-10-05T02:26:05.874Z"
+}

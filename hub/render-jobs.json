@@ -2,6 +2,33 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00001",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00001.json",
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-05T02:26:05.874Z"
+    },
+    {
+      "id": "scheduled-video-00001",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00001.json",
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-05T02:26:05.874Z"
+    },
+    {
+      "id": "scheduled-space-00001",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00001.json",
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-05T02:26:05.874Z"
+    },
+    {
       "id": "render-seed-size-focus-gamer-dad-3d",
       "type": "SPACE",
       "status": "QUEUED",

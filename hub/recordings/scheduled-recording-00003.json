@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00003",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "male-harem",
+  "position": {
+    "x": 76,
+    "y": 25,
+    "z": 0
+  },
+  "camera": {
+    "x": 76,
+    "y": 25,
+    "z": 1.7,
+    "heading": 69,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 2.66
+  },
+  "environment": {
+    "occupancy": 2.66,
+    "clearance": 0.376,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "male-harem",
+      "name": "MALE HAREM"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 2.58,
+      "to": 2.66
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 3
+  },
+  "timestamp": "2026-10-05T18:51:01.299Z"
+}

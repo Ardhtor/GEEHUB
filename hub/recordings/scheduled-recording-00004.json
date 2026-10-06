@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00004",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "growth",
+  "position": {
+    "x": 28,
+    "y": 56,
+    "z": 0
+  },
+  "camera": {
+    "x": 28,
+    "y": 56,
+    "z": 1.7,
+    "heading": 92,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "joseph",
+    "scale": 2.78
+  },
+  "environment": {
+    "occupancy": 2.78,
+    "clearance": 0.36,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "growth",
+      "name": "GROWTH CANVAS"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 2.66,
+      "to": 2.78
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 4
+  },
+  "timestamp": "2026-10-06T00:41:35.792Z"
+}

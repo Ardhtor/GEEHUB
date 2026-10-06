@@ -4,6 +4,66 @@
   "rule": "A scheduled world change produces distinct responses for all five fictional GEEHUB members. Responses accumulate; the next cycle inherits the last state.",
   "events": [
     {
+      "id": "reaction-00006-chase",
+      "at": "2026-10-06T14:02:38.688Z",
+      "agent": "chase",
+      "eventId": "scheduled-long-play-00006",
+      "mood": "watchful",
+      "response": "Chase watches for the consequence that survives the initial change. He is less interested in spectacle than evidence.",
+      "next": "record what cannot be unseen now.",
+      "inheritedScale": 2.82,
+      "observedScale": 2.85,
+      "regionId": "facility"
+    },
+    {
+      "id": "reaction-00006-joseph",
+      "at": "2026-10-06T14:02:38.688Z",
+      "agent": "joseph",
+      "eventId": "scheduled-long-play-00006",
+      "mood": "moved",
+      "response": "Joseph recognizes the earlier state inside the new one. The change matters because the old version is still remembered.",
+      "next": "keep one detail that proves the return.",
+      "inheritedScale": 2.82,
+      "observedScale": 2.85,
+      "regionId": "facility"
+    },
+    {
+      "id": "reaction-00006-andrew",
+      "at": "2026-10-06T14:02:38.688Z",
+      "agent": "andrew",
+      "eventId": "scheduled-long-play-00006",
+      "mood": "energized",
+      "response": "Andrew treats the change as an opening. He wants to move through it rather than only look at it.",
+      "next": "turn the new constraint into the next piece of play.",
+      "inheritedScale": 2.82,
+      "observedScale": 2.85,
+      "regionId": "facility"
+    },
+    {
+      "id": "reaction-00006-tyler",
+      "at": "2026-10-06T14:02:38.688Z",
+      "agent": "tyler",
+      "eventId": "scheduled-long-play-00006",
+      "mood": "focused",
+      "response": "Tyler checks the change against what the world recorded before. He wants the discrepancy to remain legible.",
+      "next": "compare the new state with the previous measurement.",
+      "inheritedScale": 2.82,
+      "observedScale": 2.85,
+      "regionId": "facility"
+    },
+    {
+      "id": "reaction-00006-luke",
+      "at": "2026-10-06T14:02:38.688Z",
+      "agent": "luke",
+      "eventId": "scheduled-long-play-00006",
+      "mood": "alert",
+      "response": "Luke feels the change in the room first. He notices how the world advances at 2.85× in THE FACILITY alters the space around him.",
+      "next": "stay close and see what the new baseline does.",
+      "inheritedScale": 2.82,
+      "observedScale": 2.85,
+      "regionId": "facility"
+    },
+    {
       "id": "reaction-00005-chase",
       "at": "2026-10-06T06:53:40.266Z",
       "agent": "chase",

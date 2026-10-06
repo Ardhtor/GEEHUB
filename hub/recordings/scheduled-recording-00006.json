@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00006",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "facility",
+  "position": {
+    "x": 80,
+    "y": 57,
+    "z": 0
+  },
+  "camera": {
+    "x": 80,
+    "y": 57,
+    "z": 1.7,
+    "heading": 138,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 2.85
+  },
+  "environment": {
+    "occupancy": 2.85,
+    "clearance": 0.351,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "facility",
+      "name": "THE FACILITY"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 2.82,
+      "to": 2.85
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 6
+  },
+  "timestamp": "2026-10-06T14:02:38.688Z"
+}

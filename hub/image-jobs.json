@@ -2,6 +2,17 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00006",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00006.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "THE FACILITY / LONG PLAY / LUKE",
+      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00006. Preserve region facility and inherited geography. Adult male human subject luke at 2.85x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
+      "created": "2026-10-06T14:02:38.688Z"
+    },
+    {
       "id": "scheduled-image-00005",
       "status": "QUEUED",
       "type": "IMAGE",

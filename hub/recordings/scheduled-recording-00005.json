@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00005",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "complex",
+  "position": {
+    "x": 55,
+    "y": 51,
+    "z": 0
+  },
+  "camera": {
+    "x": 55,
+    "y": 51,
+    "z": 1.7,
+    "heading": 115,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "chase",
+    "scale": 2.82
+  },
+  "environment": {
+    "occupancy": 2.82,
+    "clearance": 0.355,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "complex",
+      "name": "THE COMPLEX"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 2.78,
+      "to": 2.82
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 5
+  },
+  "timestamp": "2026-10-06T06:53:40.266Z"
+}

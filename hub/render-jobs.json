@@ -2,6 +2,33 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00005",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00005.json",
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-06T06:53:40.266Z"
+    },
+    {
+      "id": "scheduled-video-00005",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00005.json",
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-06T06:53:40.266Z"
+    },
+    {
+      "id": "scheduled-space-00005",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00005.json",
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-06T06:53:40.266Z"
+    },
+    {
       "id": "scheduled-sound-00004",
       "type": "SOUND",
       "status": "QUEUED",

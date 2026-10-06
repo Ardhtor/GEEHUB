@@ -4,12 +4,20 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 7,
-  "currentAgent": "tyler",
-  "currentRegion": "veyrthalis",
-  "scale": 2.9,
-  "lastRun": "2026-10-06T19:33:36.979Z",
+  "cycle": 8,
+  "currentAgent": "andrew",
+  "currentRegion": "muscle-myth",
+  "scale": 2.98,
+  "lastRun": "2026-10-06T23:18:00.949Z",
   "history": [
+    {
+      "cycle": 8,
+      "agent": "andrew",
+      "region": "muscle-myth",
+      "scale": 2.98,
+      "recording": "scheduled-recording-00008",
+      "at": "2026-10-06T23:18:00.949Z"
+    },
     {
       "cycle": 7,
       "agent": "tyler",

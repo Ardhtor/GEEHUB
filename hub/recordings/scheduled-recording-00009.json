@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00009",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "discovery",
+  "position": {
+    "x": 78,
+    "y": 83,
+    "z": 0
+  },
+  "camera": {
+    "x": 78,
+    "y": 83,
+    "z": 1.7,
+    "heading": 207,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "joseph",
+    "scale": 3.1
+  },
+  "environment": {
+    "occupancy": 3.1,
+    "clearance": 0.323,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "discovery",
+      "name": "DISCOVERY"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 2.98,
+      "to": 3.1
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 9
+  },
+  "timestamp": "2026-10-07T02:38:04.282Z"
+}

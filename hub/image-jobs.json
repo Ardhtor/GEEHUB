@@ -2,6 +2,17 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00009",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00009.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "DISCOVERY / LONG PLAY / JOSEPH",
+      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00009. Preserve region discovery and inherited geography. Adult male human subject joseph at 3.10x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
+      "created": "2026-10-07T02:38:04.282Z"
+    },
+    {
       "id": "scheduled-image-00008",
       "status": "QUEUED",
       "type": "IMAGE",

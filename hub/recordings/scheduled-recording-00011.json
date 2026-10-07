@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00011",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "colossal-escalation",
+  "position": {
+    "x": 48,
+    "y": 37,
+    "z": 0
+  },
+  "camera": {
+    "x": 48,
+    "y": 37,
+    "z": 1.7,
+    "heading": 253,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 3.17
+  },
+  "environment": {
+    "occupancy": 3.17,
+    "clearance": 0.315,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "colossal-escalation",
+      "name": "COLOSSAL ESCALATION"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 3.14,
+      "to": 3.17
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 11
+  },
+  "timestamp": "2026-10-07T16:49:28.969Z"
+}

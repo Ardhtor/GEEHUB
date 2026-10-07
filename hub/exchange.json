@@ -1,9 +1,21 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-07T16:49:28.969Z",
+  "generated": "2026-10-07T21:51:00.864Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00012",
+      "at": "2026-10-07T21:51:00.864Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / KINGDOM LAND / TYLER",
+      "body": "Scheduled play inherited the world and advanced scale from 3.17× to 3.22×. A spatial recording and renderer jobs were created.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00012",
+      "live": true
+    },
     {
       "id": "scheduled-long-play-00011",
       "at": "2026-10-07T16:49:28.969Z",

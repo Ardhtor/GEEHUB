@@ -4,12 +4,20 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 9,
-  "currentAgent": "joseph",
-  "currentRegion": "discovery",
-  "scale": 3.1,
-  "lastRun": "2026-10-07T02:38:04.282Z",
+  "cycle": 10,
+  "currentAgent": "chase",
+  "currentRegion": "embodied-scale",
+  "scale": 3.14,
+  "lastRun": "2026-10-07T09:19:55.313Z",
   "history": [
+    {
+      "cycle": 10,
+      "agent": "chase",
+      "region": "embodied-scale",
+      "scale": 3.14,
+      "recording": "scheduled-recording-00010",
+      "at": "2026-10-07T09:19:55.313Z"
+    },
     {
       "cycle": 9,
       "agent": "joseph",

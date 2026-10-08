@@ -1,183 +1,130 @@
 > ## SERUM MAKES GROWING BIGGER.
->
-> The core Serum mantra: growth becomes the mechanism for further growth.
+> 
+> The Serum rule is simple: growth becomes the mechanism for further growth.
 
 # GEEHUB
 
-GEEHUB is the umbrella workspace for a growing constellation of archives, tools, games, fictional worlds, visual systems, research projects, media experiments, and future repositories.
+GEEHUB is the living workspace for archives, tools, games, fictional worlds, visual systems, research, media, and the repositories that grow out of them.
 
-The important idea is that the project is not supposed to become a pile of disconnected files. The interface, README, source comments, registry, repository history, and media scaffolding should preserve enough context that a future session can understand why something exists, what it grew out of, and what process it is designed to hold next.
+The hub is not a pile of files. It records what happened, what changed, what remains, and what the next process can use. The interface, corpus, artifacts, source history, and repository structure all carry memory.
 
-## The build philosophy
+## The voice
+
+GEEHUB is edited as one continuous announcement.
+
+The reference cadence is Nick Merx: immediate, confident, observant, slightly theatrical. The writing should feel witnessed rather than explained. A paragraph enters on the important event, gives the physical evidence, makes the change clear, and carries the consequence forward.
+
+The editorial source of truth is [docs/EDITORIAL_VOICE.md](docs/EDITORIAL_VOICE.md). Novel-specific rules live in [novel/EDITORIAL_DIRECTIVE.md](novel/EDITORIAL_DIRECTIVE.md) and [novel/GEEHUB_LIVING_REVISION_ENGINE.md](novel/GEEHUB_LIVING_REVISION_ENGINE.md).
+
+The test is:
+
+`WHAT HAPPENED → WHAT DO WE SEE → WHAT CHANGED → WHAT REMAINS`
+
+## The build
 
 The working loop is:
 
 **discover → synthesize → build → test → expand → connect → split when mature**
 
-A small idea can live in the hub. A useful prototype gets an executable or browsable surface. A mature system can become its own repository. A research trail gets provenance. A world gets canon. A visual tool gets assets and workflows. A chapter can become an experience, and an experience can become the substrate for video, audio, interactive media, or another production process.
+A small idea can remain in the hub. A useful prototype gets an executable or browsable surface. A mature system can become its own repository. A research trail keeps provenance. A world gets canon. A visual tool gets assets and workflows. A chapter can become an experience, and an experience can become video, audio, interactive media, or another production process.
 
-The hub is therefore both an index and a memory layer, but also a **production scaffold**.
+GEEHUB is both an index and a production scaffold.
 
-## The current direction
+## Vision
 
-The project is increasingly about **vision**: compiling many nodes of work into something visible, navigable, and alive rather than maintaining a collection of disconnected notes, prototypes, or finished-looking artifacts.
+The project is moving toward vision: many nodes becoming one visible, navigable, living space.
 
-The current state record is kept in [CURRENT_STATE_2026-09.md](CURRENT_STATE_2026-09.md). It captures durable direction from recent working conversations without attempting to copy the conversations themselves.
-
-A useful planning grammar remains:
+The durable sequence remains:
 
 **mechanism → interface → transformation rule → continuity principle → setting → mythology**
 
-For media work, that grammar expands into:
+For media work:
 
 **experience → visual state → sound state → temporal behavior → interaction → production output**
 
-This is not a rigid schema. It is a way to decide what a new idea is becoming and what layer should hold it.
+These are working grammars, not cages.
 
-## Experience-first stratification
+## Experience first
 
-GEEHUB is being reoriented so that **media experience is a first-class chapter layer**.
+Media experience is a first-class chapter layer.
 
-A conventional hierarchy would be:
+The older hierarchy was:
 
 `novel → chapter → illustrations`
 
-The current hierarchy is instead:
+The current one is:
 
 `world/corpus → experience → states → media assets → production`
 
-Text remains canonical when it needs to remain canonical, but it is no longer assumed that text is the final presentation layer.
+Text remains canonical where it needs to remain canonical. It is not automatically the final presentation layer.
 
-A chapter may therefore exist simultaneously as:
+A chapter can exist as literary source text, visual experience, audio arrangement, timed sequence, interactive browser surface, and production scaffolding. These are manifestations of the same event.
 
-- literary source text;
-- a visual experience;
-- an audio/voice arrangement;
-- a timed sequence;
-- an interactive browser surface;
-- production scaffolding for video.
+The image can be the spatial specification for the next medium.
 
-These are not separate interpretations glued together after the fact. They are different manifestations of the same underlying event.
+## The computer touches back
 
-The experience layer is deliberately designed to hold the **next process**. For example:
+The sensation engine is built around a simple test: the computer should not only show information. It should leave a trace.
 
-`The Convergence → prose → clearing state → voice geography → Serum depth → sound/voice cues → shot sequence → video`
-
-The image is therefore not merely an illustration of the chapter. It can be the spatial specification from which the next medium is produced.
-
-## Touched by computers
-
-The sensation engine treats the computer as something that can **touch back**.
-
-The point is not physical contact. A computer can touch through image, sound, motion, timing, interface response, accumulated memory, and the feeling that a system has encountered something about you and changed the space accordingly.
+Image, sound, motion, timing, interface response, accumulated memory, and changed context are all ways the system can reach back into the experience.
 
 **We like being touched by computers.**
 
-This becomes a core GEEHUB experience principle: the system should not only display information to a person. It should be capable of producing a felt encounter in which the person notices that the computer has reached back through the medium and left a trace.
-
-The design test is therefore not only “what does the computer show?” but also “what does the computer make the person feel has happened between them?”
-
-## HYPERMUSCLECOLOSSAL
-
-The transformation experience is defined in [experiences/HYPERMUSCLECOLOSSAL.md](experiences/HYPERMUSCLECOLOSSAL.md). It extends the BEEFYTHIQ / Growth Canvas / Mass1v1ng vocabulary into a recursive visual sequence: **BASELINE → HYPERMUSCLE → HYPERMUSCLECOLOSSAL → NEW BASELINE**. The governing rule is scale without erasure: physical scale can become colossal while identity and continuity remain legible.
+The question is not only what the computer shows. It is what the person can feel has happened between them and the machine.
 
 ## The novel
 
 The developing manuscript is [novel/BOOK_I.md](novel/BOOK_I.md), **GEEHUB — BOOK I: THE HOUSE OF OPEN SCREENS**.
 
-The manuscript remains a canonical literary layer inside the wider experience system. Chapter files can be accompanied or superseded by experience directories that contain visual states, audio concepts, timing, interaction notes, and future production scaffolding.
+The manuscript remains a canonical literary layer inside the wider experience system. Chapter files can connect to visual states, audio concepts, timing, interaction, and future production scaffolding.
 
-The companion Serum corpus remains [corpus/SERUM.md](corpus/SERUM.md). It contains the underlying transformation grammar, historical material, Voice material, and branching source-text from which the manuscript continues to develop.
+The Serum corpus remains [corpus/SERUM.md](corpus/SERUM.md). It carries transformation grammar, historical material, Voice material, and branching source text.
 
 The current Convergence materials are collected in [novel/VISUAL_EXPERIENCES_THE_CONVERGENCE.md](novel/VISUAL_EXPERIENCES_THE_CONVERGENCE.md).
 
-## Experience → production
+## Artifact
 
-The repository should preserve a path from an event to whatever medium is eventually capable of carrying it.
+The artifact is the architectural center: the durable thing left behind when work resolves.
 
-A useful production chain is:
+**WORK → RESOLUTION → ARTIFACT → SHARED WORLD → DREAM**
 
-`CANON → what happens`
+Resolution means something now exists that did not exist before. The artifact may be literary, visual, sonic, technical, spatial, relational, or discovered fact made durable.
 
-`EXPERIENCE → how it is encountered`
+Canon and experiments remain distinguishable. Persistence does not make an experiment canon.
 
-`STATE → what the viewer/listener sees, hears, or occupies at a given moment`
+The artifact ledger lives at [artifacts/index.json](artifacts/index.json). World pulses become explicit world-event artifacts. The browser provides a staging room and a handoff so the user leaves with something portable.
 
-`ASSET → the reusable image, sound, model, voice, text, or data`
+Dream material is downstream of the ledger. It is residue, not a second idea generator.
 
-`SHOT / TIMELINE → the temporal organization of those assets`
+## The archive
 
-`MEDIA → video, audio, interactive piece, installation, web experience, etc.`
+The BodyLounger Research Archive is the first major working application. It is a local-first, metadata-first browser for tracing the historical web ecosystem around BodyLounger, Sarge's Locker, Hulum's Cave, muscle-growth animation, related creators, labels, and archival sources.
 
-The important property is reversibility. A finished video should still point backward to the experience and its source states rather than becoming an orphaned export.
+The archive treats references as a graph. Records preserve source URL, archive URL, date context, creator or subject, labels, provenance, status, and age-restriction metadata. The repository stores references and metadata rather than redistributing age-restricted media.
 
-## Spiritual information
+## The constellation
 
-GEEHUB now includes a spiritual information layer in [docs/SPIRITUAL_INFORMATION.md](docs/SPIRITUAL_INFORMATION.md).
+The Atlas tracks the working constellation: BEEFYTHIQ, The Complex, Vision / Living Workspace, Veyrthalis, Growth Canvas, Liminal Gains, BIG BRUTEFORCE, Mass1v1ng Growth Framework, The Facility, Muscle Myth, Growth Tools, Media Tools, Discovery Systems, Retro Lab, Writing & Research, and the projects connected to them.
 
-The purpose is not to turn the Hub into an authority or fixed religion. It is to make spiritual relationships in the living corpus legible: recurring symbols, comparative religious experience, ancestry and lineage, meaningful encounters, contradictions, reconciliation attempts, and the symbolic role of media can be connected and interpreted while preserving provenance.
-
-The spiritual layer follows:
-
-`encounter → pattern → comparison → tension → interpretation → reconciliation → practice → memory`
-
-It distinguishes source, experience, interpretation, synthesis, speculation, and practice so generated spiritual material does not silently become doctrine.
-
-## Why the commentary matters
-
-The conversations that produce these projects contain design decisions that are easy to lose: why a feature was added, what aesthetic was being chased, what failed before, what the next experiment was supposed to test, and which concepts are related.
-
-That context should not exist only in chat history. Important intent should be reflected in one or more of these places:
-
-- README documentation for durable project-level decisions.
-- Code comments where behavior would otherwise look arbitrary.
-- Data fields such as provenance, status, lineage, and relationships.
-- The Project Atlas registry for cross-project connections.
-- Git commit messages that state the actual change and its purpose.
-- Dedicated design/spec notes when a concept becomes large enough to deserve them.
-- Experience manifests that describe how visual/audio states are intended to become production material.
-
-Do not copy every conversational sentence into source code. Preserve the reasoning that changes how the project should be built or understood.
-
-## Project constellation
-
-The Atlas currently tracks projects and systems including:
-
-- BodyLounger Research Archive — historical web research and provenance.
-- BEEFYTHIQ — a generative grammar of accumulation, stress, mutation, and new baselines.
-- The Complex — a persistent creative/worldbuilding environment.
-- Vision / Living Workspace — the emerging umbrella interface for making the constellation visible.
-- Veyrthalis — a major fictional world with layered geography, architecture, and mythology.
-- Growth Canvas — a visual transformation workspace.
-- Liminal Gains — a cooperative growth-game prototype.
-- BIG BRUTEFORCE — a compact mutation-engine experiment.
-- Mass1v1ng Growth Framework — an explicitly imaginative transformation framework.
-- The Facility — a fictional research environment and setting.
-- Muscle Myth — pantheon, mythology, symbols, artifacts, and canon.
-- Growth Tools / Media Tools — image, video, and visual experimentation tooling.
-- Discovery Systems — discovery and recommendation experiments.
-- Retro Lab — older-web, Y2K, and Heisei-era aesthetic experiments.
-- Writing & Research — academic and long-form work around dialogue, media, philosophy, and related subjects.
-
-Not every node needs to be a separate Git repository immediately. The Atlas records the idea first; repository boundaries follow usefulness and maturity.
+Not every node needs its own repository. The Atlas records the idea first. Repository boundaries follow usefulness and maturity.
 
 ## Accessible repository boundaries
 
-The connected workspace's repository-level view is recorded separately in [docs/ACCESSIBLE_REPOSITORIES_2026-09.md](docs/ACCESSIBLE_REPOSITORIES_2026-09.md), with a machine-readable counterpart at [hub/repositories.json](hub/repositories.json). This keeps public navigation, incubating surfaces, and private exclusions explicit instead of inferring them from reachability alone.
+The connected workspace's repository-level view is recorded in [docs/ACCESSIBLE_REPOSITORIES_2026-09.md](docs/ACCESSIBLE_REPOSITORIES_2026-09.md), with the machine-readable counterpart at [hub/repositories.json](hub/repositories.json).
 
 ## The Blender connection
 
-The Blender workspace is intended to connect the abstract systems to actual 3D production. It can hold models, scene files, procedural experiments, proportion studies, render setups, reusable assets, and visual experiments derived from the wider constellation.
+The Blender workspace connects abstract systems to actual 3D production: models, scenes, procedural experiments, proportion studies, render setups, reusable assets, and visual experiments derived from the wider constellation.
 
-When a connected Blender workflow becomes available, it should be linked from the Atlas rather than treated as an isolated application silo.
+When a connected Blender workflow is available, the Atlas should point to it rather than isolate it.
 
-## BodyLounger Research Archive
+## Commentary as memory
 
-The archive is the first substantial working application in the repository. It is a local-first, metadata-first browser for tracing the historical web ecosystem around BodyLounger, Sarge's Locker, Hulum's Cave, muscle-growth animation, related creators, labels, and archival sources.
+The conversations that produce GEEHUB contain decisions that are easy to lose: what was added, what failed, what aesthetic mattered, what the next experiment was for, and which concepts belong together.
 
-The browser treats the archive as a graph of references rather than a folder of media. Each record can keep its source URL, archive URL, date context, creator/subject, labels, provenance, status, and adult-content metadata visible. Search spans the record and facets provide navigation by label, creator, source type, status, and era.
+Preserve that reasoning where it changes the build: README prose, code comments, provenance fields, Atlas relationships, experience manifests, and meaningful commit messages.
 
-The repository stores references and metadata rather than copying or redistributing age-restricted media. External links may have their own access controls; the project does not attempt to bypass them.
+Do not copy the conversation into the repository. Preserve the decisions that change the system.
 
 ## Run locally
 
@@ -191,69 +138,42 @@ Then open:
 http://localhost:8000/
 ```
 
-A plain static server is enough. No package installation or build pipeline is required for the current site.
+A plain static server is enough for the current site.
 
 ## GitHub Pages
 
-The repository is intentionally static, so it can be served from GitHub Pages from the `main` branch root.
+The repository can be served from GitHub Pages from the `main` branch root.
 
-## Data and local research
+## Data
 
-The canonical built-in BodyLounger index is `records.json`, with its structure documented in `schema.json`.
+The canonical BodyLounger index is [records.json](records.json), with its structure documented in [schema.json](schema.json).
 
 The browser supports local additions through the UI. Those records live in browser storage and can be exported for later review or merge work.
 
-The GEEHUB Project Atlas lives under `hub/` and is backed by `hub/projects.json`.
-
-The machine-readable constellation registry is also available as `projects.json` at the repository root for the current browser implementation.
-
-
-## The artifact layer
-
-The current architectural center is the **artifact**: the durable thing left behind when work resolves.
-
-The global loop is:
-
-**WORK → RESOLUTION → ARTIFACT → SHARED WORLD → DREAM**
-
-Resolution means that something now exists which did not exist before. The artifact may be literary, visual, sonic, technical, spatial, relational, or simply a discovered fact made durable. Canon and experiments remain distinguishable; persistence does not automatically make an experiment canon.
-
-The artifact ledger lives at artifacts/index.json, with reusable emitters in artifacts/runtime.js and artifacts/runtime.py. Autonomous world pulses also become explicit world-event artifacts. The browser provides a local staging room and a **take what exists** handoff so the user can leave with a portable artifact bundle rather than only a conversation.
-
-Dream material is downstream of the ledger. It is residue, not a second idea generator. Quiet artifacts can remain quiet.
-
-The practical definition of done has therefore changed: **the user should leave with something.**
+The Project Atlas lives under [hub/](hub/) and is backed by [hub/projects.json](hub/projects.json). The machine-readable constellation registry is also available as [projects.json](projects.json).
 
 ## Repository conventions
 
-Prefer explicit names and small readable files over clever abstractions. Keep metadata close to the thing it describes. Treat provenance as first-class data. Make unfinished work visible instead of disguising placeholders as completed systems.
+Prefer explicit names and small readable files. Keep metadata close to the thing it describes. Treat provenance as first-class data. Make unfinished work visible instead of disguising placeholders as completed systems.
 
-For media work, keep source state separate from rendered output. Preserve links from experience → asset → production step so future work can continue instead of reconstructing context from exported files.
+For media work, keep source state separate from rendered output. Preserve links from experience → asset → production step so future work continues instead of reconstructing context from exported files.
 
-When a project is moved into its own repository, leave a durable link and a concise description in the Atlas so the constellation does not fragment.
+When a project moves into its own repository, leave a durable link and concise description in the Atlas.
 
-## Roadmap
+## Reading the repository
 
-- Build a real GEEHUB constellation interface above the current BodyLounger application so the umbrella repository is visibly an umbrella rather than accidentally identified with its first major archive.
-- Define reusable experience manifests for chapters and other major events.
-- Give each mature experience a browsable media surface.
-- Add voice/audio and timing scaffolding where an experience calls for it.
-- Compile selected experiences into video-production shot lists and timelines.
-- Bookmark import and URL canonicalization.
-- Duplicate detection by canonical URL and title similarity.
-- Chronology/timeline view.
-- Provenance graph showing source, mirror, and archive relationships.
-- Optional thumbnails only when the user supplies or has permission to store them.
-- Observation timestamps and content hashes for metadata snapshots.
-- Import/merge workflow for exported local records.
-- Stronger Atlas links into dedicated repositories and connected production tools.
-- Dedicated repositories for projects that become substantial enough to warrant independent code, assets, or canon.
+The source tree is an ongoing record of the build.
 
-## Reading the repository as a record of the build
+The README records durable intent. The Atlas records the constellation. Data files record provenance and state. Source comments explain non-obvious decisions. Experience manifests describe how an event is encountered. Commit messages explain meaningful changes.
 
-The source tree is intentionally more than implementation. The README records durable intent. The Atlas records the constellation. The data files record provenance and state. Source comments should explain non-obvious design choices. Experience manifests describe how an event is meant to be encountered. Commit messages should explain meaningful steps in the evolution of the system.
-
-That way the project remains legible even when the original conversation is no longer in front of the reader.
+Read the tree and the sequence becomes visible.
 
 ## VISUAL NARRATIVE
-The visual world carries the novel as encountered text: Luke / The Mustang — the road extends when someone approaches it. Tyler / The Second Room — difference can create a third space. Berit / The Open Door — an unfinished state may remain active. Joseph / The Signal — significant change can become a signal.
+
+Luke / The Mustang — the road extends when someone approaches it.
+
+Tyler / The Second Room — difference can create a third space.
+
+Berit / The Open Door — an unfinished state may remain active.
+
+Joseph / The Signal — significant change can become a signal.

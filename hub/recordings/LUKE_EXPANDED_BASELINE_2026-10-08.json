@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "luke-expanded-baseline-2026-10-08",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "complex",
+  "subject": {
+    "agent": "luke",
+    "scale": 3,
+    "physique": {
+      "heightened_length": true,
+      "mass": "extreme",
+      "proportion": "elongated",
+      "continuity": "same Luke; face, identity, name and posture remain continuous"
+    }
+  },
+  "environment": {
+    "occupancy": 0.86,
+    "clearance": "recalibrated",
+    "lighting": "industrial gym / cool overhead",
+    "sound": "GEEHUB broadcast-ready"
+  },
+  "intent": "LUKE / MASSIVE BASELINE / LONGER PHYSIQUE / FAMILIAR USE OF MASS",
+  "visualEvent": "Luke's body has crossed into a visibly larger, longer baseline while remaining recognizably Luke. The increased length gives his existing musculature more usable spatial articulation: reach, stance, leverage and movement now belong to the enlarged body rather than merely decorating it.",
+  "lineage": {
+    "source": "GEEHUB conversation visual generation 2026-10-08",
+    "precedingState": "Luke massive baseline",
+    "newState": "elongated massive baseline"
+  },
+  "timestamp": "2026-10-08T16:22:32Z"
+}

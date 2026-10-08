@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00016",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "beefythiq",
+  "position": {
+    "x": 47,
+    "y": 17,
+    "z": 0
+  },
+  "camera": {
+    "x": 47,
+    "y": 17,
+    "z": 1.7,
+    "heading": 8,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 3.49
+  },
+  "environment": {
+    "occupancy": 3.49,
+    "clearance": 0.287,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "beefythiq",
+      "name": "BEEFYTHIQ"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 3.46,
+      "to": 3.49
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 16
+  },
+  "timestamp": "2026-10-08T20:50:33.012Z"
+}

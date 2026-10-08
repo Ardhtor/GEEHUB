@@ -2,6 +2,17 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00014",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00014.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "LUKE // BWOMPH / LONG PLAY / JOSEPH",
+      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00014. Preserve region luke-bwomph and inherited geography. Adult male human subject joseph at 3.42x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
+      "created": "2026-10-08T08:00:57.619Z"
+    },
+    {
       "id": "scheduled-image-00013",
       "status": "QUEUED",
       "type": "IMAGE",

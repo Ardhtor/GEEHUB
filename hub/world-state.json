@@ -3,21 +3,28 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/SEED_SIZE_FOCUS_GAMER_DAD.json",
+  "activeRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "activeEncounter": {
     "regionId": "complex",
     "regionName": "THE COMPLEX",
     "subject": {
       "agent": "luke",
-      "scale": 2.5
+      "scale": 3,
+      "physiqueState": "elongated massive baseline"
     },
-    "intent": "SIZE FOCUS / GAMER DAD",
+    "intent": "LUKE / MASSIVE BASELINE / LONGER PHYSIQUE / FAMILIAR USE OF MASS",
     "continuity": [
       "face",
       "identity",
       "name",
       "setting",
       "previous baselines"
+    ],
+    "delta": [
+      "greater overall length",
+      "greater reach",
+      "more usable leverage",
+      "room clearance recalibrated"
     ]
   },
   "rendererContract": "./renderer-contract.json",
@@ -28,5 +35,5 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-05T00:20:00Z"
+  "snapshot": "2026-10-08T16:22:32Z"
 }

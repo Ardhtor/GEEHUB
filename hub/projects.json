@@ -306,14 +306,16 @@
     "id": "luke-inside",
     "name": "Luke Inside",
     "group": "character-workspace",
-    "status": "incubating",
-    "summary": "Fictional workspace for Luke's bodily continuity, self-definition, and chosen disclosure.",
+    "status": "active",
+    "summary": "Luke's living character state: same face and identity across a progressively larger, longer body; current baseline emphasizes usable reach, leverage, stance, and movement within the persistent world.",
     "path": "../creative/measure-between-us/repos/luke-inside/README.md",
     "tags": [
       "fiction",
       "character",
       "agency",
-      "continuity"
+      "continuity",
+      "massive-baseline",
+      "growth"
     ]
   },
   {

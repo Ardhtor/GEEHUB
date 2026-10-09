@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00021",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "veyrthalis",
+  "position": {
+    "x": 22,
+    "y": 82,
+    "z": 0
+  },
+  "camera": {
+    "x": 22,
+    "y": 82,
+    "z": 1.7,
+    "heading": 123,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 3.81
+  },
+  "environment": {
+    "occupancy": 3.81,
+    "clearance": 0.262,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "veyrthalis",
+      "name": "VEY RTHALIS"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 3.78,
+      "to": 3.81
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 21
+  },
+  "timestamp": "2026-10-09T23:54:19.332Z"
+}

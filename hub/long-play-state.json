@@ -4,12 +4,20 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 17,
-  "currentAgent": "tyler",
-  "currentRegion": "male-harem",
-  "scale": 3.54,
-  "lastRun": "2026-10-09T01:04:59.631Z",
+  "cycle": 18,
+  "currentAgent": "andrew",
+  "currentRegion": "growth",
+  "scale": 3.62,
+  "lastRun": "2026-10-09T07:25:14.552Z",
   "history": [
+    {
+      "cycle": 18,
+      "agent": "andrew",
+      "region": "growth",
+      "scale": 3.62,
+      "recording": "scheduled-recording-00018",
+      "at": "2026-10-09T07:25:14.552Z"
+    },
     {
       "cycle": 17,
       "agent": "tyler",

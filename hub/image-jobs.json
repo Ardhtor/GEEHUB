@@ -2,6 +2,17 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00017",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00017.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "MALE HAREM / LONG PLAY / TYLER",
+      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00017. Preserve region male-harem and inherited geography. Adult male human subject tyler at 3.54x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
+      "created": "2026-10-09T01:04:59.631Z"
+    },
+    {
       "id": "scheduled-image-00016",
       "status": "QUEUED",
       "type": "IMAGE",

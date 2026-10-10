@@ -1,0 +1,177 @@
+/* GEEHUB // SCREEN PUNCTURE: the story window breaks through the display plane. */
+.game-console{
+  position:relative;
+  isolation:isolate;
+  margin:2.2rem 0 3.2rem;
+  border:1px solid rgba(170,198,216,.34);
+  border-radius:7px;
+  padding:0;
+  background:#030507;
+  color:#dce9f1;
+  overflow:visible;
+  perspective:1400px;
+  transform-style:preserve-3d;
+  box-shadow:0 18px 48px rgba(0,0,0,.48),0 0 0 1px rgba(235,248,255,.035);
+  transition:box-shadow .45s ease,border-color .45s ease;
+}
+.game-top{
+  position:relative;
+  z-index:2;
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:.72rem 1rem;
+  min-height:38px;
+  align-items:center;
+  border-bottom:1px solid rgba(171,208,231,.2);
+  background:linear-gradient(180deg,#1a252d 0%,#0b1116 100%);
+  color:#a9c0ce;
+  font:700 .62rem/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;
+  letter-spacing:.16em;
+}
+.game-screen{
+  position:relative;
+  z-index:1;
+  min-height:480px;
+  overflow:hidden;
+  isolation:isolate;
+  background:radial-gradient(ellipse at 50% 36%,rgba(56,91,112,.2),transparent 48%),#030507;
+  transform:translateZ(0) scale(1);
+  transform-origin:50% 48%;
+  transform-style:preserve-3d;
+  box-shadow:inset 0 0 0 1px rgba(205,231,245,.05),inset 0 -34px 60px rgba(0,0,0,.42);
+  transition:box-shadow .4s ease,filter .4s ease;
+}
+.game-narrative,#gameNarrative{
+  position:relative;
+  z-index:1;
+  min-height:120px;
+  padding:1.5rem clamp(1rem,3.4vw,2.5rem);
+  white-space:pre-wrap;
+  color:#c6d2da;
+  font:500 .88rem/1.85 ui-monospace,SFMono-Regular,Menlo,monospace;
+  letter-spacing:.015em;
+  overflow-wrap:anywhere;
+}
+.game-command{
+  position:relative;
+  z-index:2;
+  display:flex;
+  gap:.7rem;
+  align-items:center;
+  padding:.7rem 1rem;
+  background:#070c10;
+  border-top:1px solid rgba(156,198,222,.15);
+  color:#84bad9;
+  font:700 .65rem/1.3 ui-monospace,SFMono-Regular,Menlo,monospace;
+  letter-spacing:.14em;
+}
+.game-command>span:first-child{color:#e8f7ff;text-shadow:0 0 12px rgba(118,204,255,.8)}
+.screen-puncture-layer{
+  position:absolute;
+  z-index:12;
+  inset:0;
+  overflow:visible;
+  pointer-events:none;
+  transform:translateZ(95px);
+  opacity:0;
+  transition:opacity .22s ease;
+}
+.screen-puncture-svg{display:block;width:100%;height:100%;overflow:visible}
+.screen-puncture-rift{fill:rgba(0,2,4,.68);stroke:rgba(1,3,5,.95);stroke-width:17;stroke-linejoin:miter;filter:url(#punctureShadow)}
+.screen-puncture-rim{fill:none;stroke:url(#punctureEdge);stroke-width:2.3;stroke-linejoin:bevel;stroke-dasharray:1800;stroke-dashoffset:1800}
+.screen-puncture-crack{fill:none;stroke:rgba(197,232,248,.82);stroke-width:1.25;stroke-linecap:round;stroke-linejoin:bevel;opacity:0;filter:url(#punctureGlow)}
+.screen-puncture-crack.deep{stroke:rgba(0,0,0,.94);stroke-width:5.5;opacity:0}
+.screen-puncture-glint{fill:none;stroke:rgba(226,246,255,.64);stroke-width:1.2;opacity:0}
+.screen-punctured .screen-puncture-layer{opacity:1}
+.screen-punctured .screen-puncture-rift{animation:rift-open 620ms cubic-bezier(.12,.82,.14,1) both}
+.screen-punctured .screen-puncture-rim{stroke-dashoffset:0;transition:stroke-dashoffset .5s cubic-bezier(.16,.72,.18,1)}
+.screen-punctured .screen-puncture-crack{opacity:.76;transition:opacity .3s ease .1s}
+.screen-punctured .screen-puncture-crack.deep{opacity:.88;transition:opacity .3s ease}
+.screen-punctured .screen-puncture-glint{opacity:.8;transition:opacity .3s ease .12s}
+.game-console.screen-punctured{
+  border-color:rgba(176,222,248,.56);
+  box-shadow:0 30px 70px rgba(0,0,0,.72),0 0 0 1px rgba(206,239,255,.12),0 0 42px rgba(91,178,226,.11);
+}
+.game-console.screen-punctured .game-screen{
+  transform:translateZ(26px) scale(1.012);
+  box-shadow:inset 0 0 0 1px rgba(214,240,255,.15),inset 0 -34px 60px rgba(0,0,0,.3),0 24px 56px rgba(0,0,0,.48);
+}
+.game-console.screen-impact-active .game-screen{
+  animation:screen-punch-through 920ms cubic-bezier(.13,.77,.14,1) both;
+  filter:contrast(1.06) saturate(1.08);
+}
+.game-console.screen-impact-active .screen-puncture-rift{animation:rift-impact 920ms cubic-bezier(.12,.82,.14,1) both}
+.game-console.screen-impact-active .screen-puncture-crack{animation:crack-flash 920ms ease-out both}
+.game-console.screen-impact-active .screen-puncture-rim{animation:rim-impact 920ms cubic-bezier(.12,.82,.14,1) both}
+.game-console.screen-impact-active .game-top{box-shadow:0 -10px 30px rgba(112,199,248,.15)}
+.screen-camera-impact{
+  position:fixed;
+  z-index:99999;
+  left:50%;top:50%;
+  width:min(120vmax,1800px);
+  aspect-ratio:1;
+  border:1px solid rgba(204,240,255,.0);
+  border-radius:50%;
+  pointer-events:none;
+  opacity:0;
+  transform:translate(-50%,-50%) scale(.025);
+  box-shadow:0 0 0 0 rgba(169,224,252,0);
+}
+.screen-camera-impact.play{animation:camera-wave 730ms cubic-bezier(.1,.62,.16,1) both}
+body.screen-camera-hit{animation:viewer-recoil 310ms cubic-bezier(.2,.7,.12,1)}
+@keyframes screen-punch-through{
+  0%{transform:translateZ(0) scale(1) rotateX(0) rotateY(0);filter:brightness(1)}
+  16%{transform:translateZ(138px) scale(1.11) rotateX(-1.1deg) rotateY(.7deg);filter:brightness(1.23)}
+  27%{transform:translateZ(168px) scale(1.14) rotateX(.7deg) rotateY(-.5deg);filter:brightness(1.34)}
+  42%{transform:translateZ(70px) scale(1.045) rotateX(-.2deg);filter:brightness(1.05)}
+  56%{transform:translateZ(108px) scale(1.075);filter:brightness(1.13)}
+  72%{transform:translateZ(17px) scale(1.01);filter:brightness(1)}
+  100%{transform:translateZ(26px) scale(1.012);filter:brightness(1)}
+}
+@keyframes rift-open{
+  0%{opacity:0;transform:translateZ(0) scale(.08);filter:blur(8px)}
+  24%{opacity:1;transform:translateZ(140px) scale(1.3);filter:blur(0)}
+  49%{opacity:1;transform:translateZ(175px) scale(1.12)}
+  100%{opacity:1;transform:translateZ(95px) scale(1)}
+}
+@keyframes rift-impact{
+  0%{transform:translateZ(0) scale(.08);opacity:0}
+  20%{transform:translateZ(180px) scale(1.45);opacity:1}
+  45%{transform:translateZ(130px) scale(.93);opacity:1}
+  65%{transform:translateZ(100px) scale(1.04);opacity:1}
+  100%{transform:translateZ(95px) scale(1);opacity:1}
+}
+@keyframes rim-impact{
+  0%{stroke-dashoffset:1800;opacity:0;stroke-width:7}
+  28%{stroke-dashoffset:0;opacity:1;stroke-width:4}
+  50%{stroke-width:1.2}
+  100%{stroke-dashoffset:0;opacity:.88;stroke-width:2.3}
+}
+@keyframes crack-flash{
+  0%{opacity:0;filter:brightness(1)}
+  22%{opacity:1;filter:brightness(2)}
+  42%{opacity:.45;filter:brightness(1.2)}
+  65%,100%{opacity:.76;filter:brightness(1)}
+}
+@keyframes camera-wave{
+  0%{opacity:.9;transform:translate(-50%,-50%) scale(.025);border-color:rgba(204,240,255,.9);box-shadow:0 0 0 1px rgba(169,224,252,.32),inset 0 0 65px rgba(143,213,247,.12)}
+  55%{opacity:.44;border-color:rgba(204,240,255,.45);box-shadow:0 0 0 15px rgba(169,224,252,.04),inset 0 0 22px rgba(143,213,247,.06)}
+  100%{opacity:0;transform:translate(-50%,-50%) scale(1.1);border-color:rgba(204,240,255,0);box-shadow:0 0 0 0 rgba(169,224,252,0)}
+}
+@keyframes viewer-recoil{
+  0%,100%{transform:translate3d(0,0,0) scale(1)}
+  24%{transform:translate3d(-2px,1px,0) scale(.998)}
+  48%{transform:translate3d(3px,-1px,0) scale(.999)}
+  70%{transform:translate3d(-1px,0,0) scale(1)}
+}
+@media(max-width:700px){
+  .game-console{margin:1.4rem -6px 2rem;border-radius:4px}
+  .game-screen{min-height:360px}
+  .game-narrative,#gameNarrative{padding:1rem .9rem;font-size:.78rem}
+}
+@media(prefers-reduced-motion:reduce){
+  .screen-puncture-layer{opacity:1!important}
+  .screen-punctured .screen-puncture-rift,.game-console.screen-impact-active .game-screen,.game-console.screen-impact-active .screen-puncture-rift,.game-console.screen-impact-active .screen-puncture-crack,.game-console.screen-impact-active .screen-puncture-rim,.screen-camera-impact.play,body.screen-camera-hit{animation:none!important}
+  .game-console.screen-punctured .game-screen{transform:translateZ(0) scale(1)}
+}

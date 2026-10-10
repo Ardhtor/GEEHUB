@@ -1,55 +1,31 @@
 # GEEHUB Editorial Voice
 
-GEEHUB is edited as one continuous announcement.
+GEEHUB is a continuous environmental broadcast narrated in a podcast-style exchange by Seth Feroce and Nick Mercx. They announce the world as though they are present inside it: direct, conversational, observant, energetic, and attentive to physical scale. This is a high-level voice direction, not an attempt to reproduce either person's exact wording or performance.
 
-The reference is Nick Merx's announcing presence: immediate, confident, observant, slightly theatrical, and able to make a change feel present the instant it occurs. Use the cadence as a high-level voice reference, not as an attempt to reproduce a person's exact wording or performance.
+## Paragraphs and line breaks
 
-## The paragraph
+Every paragraph break, line break, and scene transition should introduce or deepen non-plot information: geography, architecture, weather, light, color, spatial depth, surfaces, ambient sound, temperature, distance, machinery, atmosphere, or the physical presence of people within a place.
 
-Every paragraph should feel like something is being witnessed and called.
+Line breaks are environmental descriptors, not plot beats. Action can occur within a paragraph, but the reader's movement through the prose is carried by the changing world. Environmental description is the medium of the narration, not decoration around it.
 
-Enter on the thing that matters. State the change. Give the physical evidence. Let the meaning arrive through the event.
+## Broadcast delivery
 
-Prefer:
+Seth and Nick observe, react, compare, and sometimes notice different details. Their exchange should feel like a live podcast announcement from within the setting, not an author explaining a plot outline. Keep voices distinguishable without forcing every paragraph into dialogue. Narrator commentary remains separate from character dialogue.
 
-`EVENT → OBSERVATION → CONSEQUENCE → CONTINUITY`
-
-Avoid:
-
-`DEFINITION → EXPLANATION → DEFINITION → SUMMARY`
-
-A paragraph should move. It should not sit still explaining itself.
-
-## Delivery
-
-Use clean sentences with strong verbs. Keep useful detail and remove repeated setup, throat-clearing, hedging, generic transitions, and commentary about the writing itself.
-
-Do not flatten the lore. Compress the exposition so the lore has room to act.
-
-Do not turn every sentence into a dramatic fragment. The voice comes from timing, selection, and confidence, not from constant punctuation tricks.
+Prefer concrete observations and embodied detail. Let the meaning arrive through what the setting makes visible, audible, tangible, or difficult to judge.
 
 ## Continuity
 
-GEEHUB remembers while it announces.
+GEEHUB remembers while it announces. A place keeps its history. Light, weather, architecture, objects, sound, and distance can carry traces of earlier events. Characters remain recognizable through established habits, speech, movement, memory, and relationships.
 
-A new state must carry traces of the old state. A character remains recognizable through change. A place keeps its history. An artifact points backward to its source and forward to whatever it makes possible next.
-
-When something changes, say what changed and keep moving.
-
-## Canon and experiments
-
-Canon, experiment, source, interpretation, and speculation remain distinguishable. The voice can announce all of them, but it must not quietly promote one into another.
+Preserve canon and chronology. This is a presentation-layer revision, not permission to erase events or invent consequential ones. Do not replace scenes with summaries or turn the manuscript into an inventory of objects.
 
 ## Global application
 
-Apply this voice to README prose, editorial directives, corpus notes, lore, novel chapters, experience descriptions, archive captions, interface copy, artifact records, and future generated text.
+Apply this rule across README prose, editorial directives, corpus notes, lore, novel chapters, map and geography descriptions, experience descriptions, archive captions, interface copy, artifact records, and future generated text. Headings and structured data can remain functional; prose receives the environmental broadcast treatment.
 
-Headings can remain functional. Data and code remain data and code. Prose is the layer that receives the announcing cadence.
+The global specification is [GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md).
 
 ## Editorial test
 
-Before a paragraph remains in GEEHUB, ask:
-
-`WHAT HAPPENED? WHAT DO WE SEE? WHAT CHANGED? WHAT REMAINS?`
-
-Then cut whatever does not help answer those questions.
+Before retaining a paragraph, ask: What does the environment reveal? What can be seen, heard, felt, or measured? What physical trace connects this place to what came before? Does the break deepen the world rather than merely announce the next plot beat?

@@ -9,7 +9,7 @@
     {id:'door',name:'THE RESERVOIR CITY',x:43,y:72,stage:'SWELL'},
     {id:'map',name:'THE BLUE HALL',x:58,y:36,stage:'EXPANSION'},
     {id:'archive',name:'THE HOUSE OF OPEN SCREENS',x:73,y:57,stage:'COMPARE'},
-    {id:'hyper',name:'VEY RTHALIS / DIGITORIUM',x:83,y:27,stage:'HYPER'},
+    {id:'hyper',name:'VEYRTHALIS / DIGITORIUM',x:83,y:27,stage:'HYPER'},
     {id:'hold',name:'THE NEW BASELINE',x:88,y:72,stage:'NEW BASELINE'}
   ];
   let current = 'threshold';

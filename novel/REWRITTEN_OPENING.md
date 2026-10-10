@@ -87,3 +87,45 @@ Seven lights appeared across the land beyond the windows. They were small and st
 ## Revision rule for the remaining manuscript
 
 The rest of the book should follow this treatment chapter by chapter: preserve the people, events, artifacts, and continuity that matter, but make the prose legible on first reading. Let the reader see and hear the place before asking them to interpret it. Keep the uncanny details concrete and restrained. Remove repeated explanations, grand claims, and jargon when an ordinary description can carry the same meaning. Serum remains a minor strand of lore, not the world's master key. Paragraphs should turn with changes in setting, sound, light, distance, architecture, or physical atmosphere. Seth and Nick act as conversational environmental announcers; their presence should clarify the scene rather than make it more obscure.
+
+## Chapter II: The First Return
+
+**SETH:** The first return to the northern country wasn't an expedition looking for a new view. It was a sister looking for her brother. She's got a lantern, a blanket, a knife, and a map copied from a map copied from the original survey. The paper is old at the folds, softened by hands, and much too confident about the distances printed on it.
+
+**NICK:** Twelve days, somebody told her. It took longer. The southern road dwindled into fields, the fields lifted into low country, and the low country gradually turned into hills and amber woods. Each change in the land took away another familiar reference point. By the time the trees crowded close, she had stopped asking when they would arrive. What she wanted to know was how a person could disappear into so much country without leaving enough behind to be found.
+
+Her companions reminded her that her brother had worked at the northern laboratory. She knew. The problem was not where he had worked, but why he had never come home. They crossed a ridge that took most of a day to climb. From its crest the traveled country lay behind them like a second sea: roads reduced to pale threads, rivers flashing in the light, villages no larger than scattered stones. The map trembled in the sister's hands in the wind. One companion said the well could not be this far away. She folded the map and told him the map was wrong. It was the first time she understood that the northern country did not need to hide anything deliberately. It was simply large enough to conceal it.
+
+**SETH:** Look at the gate. The hinges are dark with damp, and the stone around the entrance has the green stain of years of rain. Nothing about it suggests the lake and city waiting below. The air inside smells of wet copper, cold stone, and something faintly sweet.
+
+The outer gate of the seventh well stood open. The sister called her brother's name, and from below came the sound of a door opening. The stairs descended into a chamber far larger than the hill above it could have held. What had once been a reservoir had become a lake, its opposite shore so distant that the lights there resembled stars. Across the water stood the northern works, but the old laboratory had spread into a city of towers, bridges, and windows glowing without flame. Her brother was standing on one of the bridges. She knew him immediately and lifted her hand toward him.
+
+“Are you there?”
+
+He raised one hand in reply. The lake moved, and silver bands crossed its surface. Each band reflected another version of the city. A tower became two, then four, then a long stand of towers extending toward the horizon. More buildings appeared behind the first skyline, as if the city had been growing in layers while nobody watched. Her brother looked older, then younger, then older again, while the architecture continued to widen around him.
+
+“Come home,” she called.
+
+His voice crossed the water, thin with distance.
+
+“Which home?”
+
+She had no answer. The shore was cold beneath her boots, and wind off the lake tugged at her coat. Her companions sat beneath the stone overhang to eat, their lanterns making small amber pools on the ground. She stayed where she could see the bridge. At dawn the towers looked narrow and pale; by noon they seemed immense, built for bodies larger than ordinary men; at night the windows multiplied until the far shore looked like a second sky. Three days passed in that changing light. Her brother remained visible.
+
+**NICK:** This is the sort of place where the view keeps changing even if you stand still. You don't have to go anywhere to see the city become a different size. The lake has its own weather, and the far shore is never quite the same distance twice.
+
+On the fourth morning a boat was tied to a post beside the water. No one had seen it arrive, and the post itself had not been there the previous night. Its boards were dark and smooth, worn by hands and weather, and a thin rope rested in a neat coil on the bow. They boarded and pushed away from the shore. Halfway across, the water beneath them became transparent. Another city lay below the surface, with roads crossing beneath the lake and houses standing above houses. Staircases descended through lower districts, and people walked beneath the boat carrying lanterns. One looked up at the passing hull; another carried a folded map; a third held a blanket like the one the sister had brought from home.
+
+She watched the figures move through the submerged streets and understood that the reservoir was preserving journeys, not simply objects or people. Each traveler left something behind: the touch of a hand, the direction of a choice, the shape of an intention. The lake had become an archive too large for ordinary architecture, and the city had spread because the remembered relationships needed somewhere to exist. Nothing about the scene felt orderly. The underwater streets crossed at odd angles, windows shone in places where there should have been earth, and the lanterns drifted through the blue gloom like slow-moving stars.
+
+Her brother waited on the far shore. He looked neither old nor young; he looked continuous, as if the years had changed around him without quite breaking the person she remembered. She stepped close enough to touch his face. His skin was warm. For a moment neither spoke. The city behind him filled the horizon with stone terraces, high windows, bridges, and quiet passages where the light held a cool blue tint.
+
+“Are you my brother?” she asked.
+
+He smiled. “I am what returned.”
+
+She kept her hand against his cheek, feeling the familiar warmth there while the lake wind moved across the shore. Beyond them, a gate in the city walls opened slowly. Its hinges sounded across the water, and somewhere within the streets a bell rang once.
+
+“Then come home,” she said.
+
+He looked back across the lake. The city lights trembled on the water between them, and the road home seemed to lie in both directions at once.

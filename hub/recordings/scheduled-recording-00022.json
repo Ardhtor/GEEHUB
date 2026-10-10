@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00022",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "muscle-myth",
+  "position": {
+    "x": 52,
+    "y": 84,
+    "z": 0
+  },
+  "camera": {
+    "x": 52,
+    "y": 84,
+    "z": 1.7,
+    "heading": 146,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "tyler",
+    "scale": 3.86
+  },
+  "environment": {
+    "occupancy": 3.86,
+    "clearance": 0.259,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "muscle-myth",
+      "name": "MUSCLE MYTH"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 3.81,
+      "to": 3.86
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 22
+  },
+  "timestamp": "2026-10-10T05:15:11.253Z"
+}

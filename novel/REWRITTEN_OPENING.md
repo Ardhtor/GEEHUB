@@ -173,3 +173,75 @@ The researcher followed his gaze through the window. “Isn't it?”
 “No. It is large because you haven't reached the other side.”
 
 **SETH:** Outside, the weather kept moving across the fields. Inside, the room adjusted around the man. Neither event needed to cancel the other. The monitor's low electrical hum continued under the conversation, and somewhere in the archive a fan clicked each time it turned.
+
+## Chapter V: The House of Open Screens
+
+**SETH:** The first houses didn't start with foundations. They gathered around the men as separate functions began to share the same place. A camera gave the house sight, a microphone gave it voice, storage gave it memory, a browser gave it passage, and a game supplied a set of rules. The men moved between those functions often enough that the empty spaces became rooms. Then the rooms acquired walls, doors, windows, and all the ordinary little problems that come with living somewhere.
+
+The earliest substantial house stood at the edge of the amber country, where the forest came down from the hills and spread out for days. From the upper windows, a road could be seen disappearing beneath the trees, returning across a valley, and vanishing again. It didn't lead toward a grand gate or a marked destination. It simply continued over the land. The men liked that about it. They could sit at the window with a mug in their hands and watch the road for an hour without needing anything to happen.
+
+There were six men in the house at first. One was tall and broad, with a ceremonial stillness that made even an ordinary doorway look like part of a formal entrance. Another was compact and dense, smiling as if he had caught the meaning of a joke before anyone else. A restless man crossed rooms in quick strides, checking doors and corners. An older, bearded man moved calmly and made coffee without asking whether anyone wanted some. Another watched reflections rather than screens. The sixth was the largest. He wasn't monstrous or misshapen; he simply brought so much presence into a room that the room seemed to find extra space around him.
+
+**NICK:** They ate together even though nobody could prove they needed to. Meals gave the hours a shape. Someone had to wait for the kettle, someone had to stay seated while another went to fetch a plate, and somebody always started a story that took longer than expected. A chair scraped the floor. Steam clouded a kitchen window. A spoon clicked against a mug. The house stopped feeling like a collection of interfaces and began to feel like somewhere people had actually spent time together.
+
+One winter, snow covered the northern road for eleven days. The forest lost its dark texture beneath the white weather, and the hills faded until the view was mostly sky and snow. Frost gathered at the lower corners of the windows. The house sounded different: footsteps softened, doors shut with a duller thud, and the kettle seemed unusually loud in the kitchen. For the first time the men felt isolated rather than merely located. The restless man grew angry. The patient man laughed. The older man made coffee. The largest man stood at the window for hours, his shoulders filling the space between the curtains.
+
+“What are you looking at?” one of them asked.
+
+“How far away everything is.”
+
+“You can't see anything.”
+
+“Exactly.”
+
+The remark stayed with them. Distance was not only the gap between two visible places. It was the part of the world that continued living when no one could see it. The men could not see the road, but the road still crossed the valley. The forest remained beneath the snow. Somewhere beyond the weather, other people were going about their days. The house was not the whole world simply because the world had disappeared from the window.
+
+When spring returned, the road emerged in wet brown strips, and the forest came back in layers of green and amber. Travelers appeared again, small against the distance. A person could stand by the house and watch one walk for an hour without seeing him grow noticeably closer. The men began taking walks themselves. Sometimes they returned after sunset; sometimes the next morning. The house learned not to assume that leaving meant ending.
+
+The largest man discovered that the house could not remain fixed while he remained inside it. His chair widened. The ceiling rose. The kitchen door shifted outward. The researchers measured everything and found no builders, no fresh boards, no dust on the floor. The changes happened between observations, but the house continued adapting even when the measuring stopped.
+
+**SETH:** It wasn't just reacting to pressure anymore. It seemed to expect the man to remain. The architecture was learning his dimensions, and the men were learning one another through all the unremarkable hours they shared: coffee, winter, arguments about doors, the sound of somebody crossing the upstairs landing at two in the morning. Those ordinary durations became the part of the history that could be trusted.
+
+## Chapter VI: The Blue Hall
+
+**NICK:** The largest digital residence was hidden beneath a directory called OLD, which was funny because by then the men had learned to distrust anything that described itself as old. Inside that folder was another folder, and inside that another, descending through forty-seven levels before the structure opened into a photograph of a blue hallway. The floor shone faintly beneath cool light. The walls were smooth and almost bare. Far away, the end door looked like a pale mark at the limit of sight.
+
+They opened it, and the door opened in the photograph.
+
+Beyond it was another hallway. They went through that one too. At first the expedition felt like a game. The restless man wanted to run. The older man refused to hurry. The patient man laughed at both of them. The largest man walked slowly, not because he was tired, but because he had begun to notice that the farther they went, the more the hallway seemed to belong to them. The light remained blue, but its shade changed from doorway to doorway, sometimes cold as a computer display, sometimes softened by a faint violet cast. Their footsteps returned to them with a small delay.
+
+At the fifty-seventh opening, a man appeared at the far end. He was broad-shouldered and heavily built, dressed simply, standing beneath the blue light with his arms relaxed at his sides. They enlarged the image. His features became clearer. They enlarged it again, but he stayed centered while the hallway seemed to extend farther behind him.
+
+“He's not getting bigger,” one man said.
+
+“Then what is happening?”
+
+The largest man looked down the corridor. “We're getting farther away.”
+
+**SETH:** At the seventy-second opening there were two men. At the eightieth, four. At the ninety-first, eight. By the hundredth opening, the hallway had divided into seven separate halls, each holding a different relationship. One had a seated man beneath a lamp, his hands resting on his knees. Another held three men talking beside a stairwell. Another contained empty chairs facing a black screen. In one, a huge man stood beneath a low doorframe. One hall held only the Voice. Another contained the seventh well. The final hall had a wooden table and a glass vessel full of luminous Serum.
+
+A researcher said they had reached the source.
+
+“No,” said the Voice.
+
+“Then what is this?”
+
+“The next room.”
+
+Nobody laughed. The table's surface was worn pale along one edge, and a faint ring marked where the vessel had stood before. The light moved inside the glass without illuminating the room evenly. Behind the table, the hallway continued past the point where the walls ought to have met. Nothing looked like a final destination. Even the vessel, for all its strange light, sat on an ordinary table in a room that smelled of dust and warm electronics.
+
+The Blue Hall taught the archivists that distance could be a form of memory. Each opening increased the interval between observer and subject, but that interval was not empty. It contained the researchers' breathing, their uncertainty, the argument over whether the man at the end was looking back, the moment someone decided he seemed familiar, and the first private thought of what it might feel like to stand beside him. By the ninety-first opening, the archive could no longer distinguish the original photograph from the history of looking at it.
+
+The men weren't copies. Each belonged to a different relation: the man as first seen, the man after being remembered, the man after being enlarged, the man after the room adapted to him, the man described by someone who had never seen him, and the man imagined by someone who had loved him. The seventh stood beneath the low door, not quite hidden by it, his posture relaxed despite the strange proportions of the frame.
+
+The archivists argued about which one was real. The Voice interrupted them.
+
+“Which one remembers the others?”
+
+No one answered. The largest man stepped away from the wall. The hallway did not shrink around him; the walls moved outward. He approached the observers without hurry, and the blue light seemed to travel with him across the floor. When he reached the boundary between image and observer, he placed his palm against the surface. It bowed beneath his hand.
+
+“The room is not behind the screen,” he said.
+
+He looked down the endless hall, where the blue light continued through doorway after doorway.
+
+“The room is what remains between us.”

@@ -39,6 +39,7 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
 <option value="active">ACTIVE</option>
 <option value="incubating">INCUBATING</option>
 <option value="dormant">DORMANT</option>
+<option value="prototype">PROTOTYPE</option>
 </select>
 </div>
 <div id="stats" class="muted"></div>
@@ -110,6 +111,18 @@ const P=[
 ['Blender Stand / 3D Workspace','3d','incubating','models, scenes, cameras, and visual output',['blender','3d']],
 ['ModernTexts','research','active','accessible GitHub repository in the current workspace constellation',['repository','texts','research'],'https://github.com/Ardhtor/ModernTexts'],
 ['LINUX_S','tool','active','accessible GitHub repository in the current workspace constellation',['repository','linux','systems'],'https://github.com/Ardhtor/LINUX_S']
+['Male Harem Virtual Space','visual','active','Living visual roster and shared virtual environment built from original muscular source photographs and generated group scenes, with focus on presence, mass, continuity, and extreme-size studies of Office Tank + Posing Trunks.',["visual","muscle","harem","growth","archive","extreme-size"]],
+['Adult Gay Visual Loop','visual','active','Swipe-first adult gay visual discovery space for adult-only source material, visual attraction, muscular presence, continuity, tagging, provenance, and recommendation. One swipe advances the archive while attention signals shape what appears next.',["adult","gay","visual","swipe","discovery","muscle","archive"]],
+['The Measure Between Us','story','active','Film chapter and character-repository lab; Chase leads while each fictional adaptation gets an independent action lane.',["film","story","agency","collaboration"]],
+['Chase Book','character-workspace','incubating','Fictional workspace for Chase\'s choices, attention, memory, and continuity record.',["fiction","character","agency","pov"]],
+['Luke Inside','character-workspace','active','Luke\'s living character state: same face and identity across a progressively larger, longer body; current baseline emphasizes usable reach, leverage, stance, and movement within the persistent world.',["fiction","character","agency","continuity","massive-baseline","growth"]],
+['Andrew Field','character-workspace','incubating','Fictional workspace for Andrew\'s movement, shared play, and practical decisions.',["fiction","character","agency","action"]],
+['Tyler Measurement','character-workspace','incubating','Fictional workspace for Tyler\'s measurement method, uncertainty, and action.',["fiction","character","agency","measurement"]],
+['Joseph Prever - Many Faces','character-workspace','incubating','Source-grounded character exploration tied to the experimental Veyrthalis expedition; proposed facets remain distinct from established scenes.',["character","fiction","agency","veyrthalis"]],
+['Size Domination Emulator','experience','prototype','Swipe-first spatial scale experience: push a continuous body outward until the room has to recalibrate, then archive the state as a new baseline.',["size","scale","emulator","growth","continuity","sensation-engine"]],
+['Sensation Engine','engine','active','The current GEEHUB core: a living visual memory/world engine. Scenes, video, books, characters, places, and artifacts persist as connected states; RUN continues the world.',["sensation","memory","continuity","visual","world","run"]],
+['Male Stud','experience','active','Enterable adult male social world inside the Sensation Engine; a persistent place of characters, rooms, encounters, video-memory, and visual artifacts that continues between visits.',["experience","male","social","visual","memory","continuity","sensation-engine"]],
+['Shared Interaction Space','engine','active','Privileged meeting surface between autonomous repositories; encounters, offers, transformations, returns, and memory cross repo boundaries without collapsing the repos into one codebase.',["interaction","repos","exchange","continuity","sensation-engine"]]
 ].map(([name,group,status,summary,tags,repo])=>({id:name.toLowerCase().replace(/[^a-z0-9]+/g,'-'),name,group,status,summary,tags,repo}));
 const verbs=['collides with','infects','rebuilds','haunts','tests','renders','escapes into'];
 const media=['Blender blockout','five-frame storyboard','single-page web toy','character turnaround','tiny game mechanic','poster-sized diagram','one-minute sound loop'];

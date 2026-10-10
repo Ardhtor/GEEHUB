@@ -1,7 +1,7 @@
 let world=null;
 let worldRunning=false;
 let autonomousTimer=null;
-const WORLD_EXCEPTIONS=['RETURN','REVISIT','ECHO','MUTATE','REFUSE','DRIFT'];
+// Encounter outcomes are derived from persisted world relations, never random rolls.
 let worldSequenceIndex=0;
 let lastException=null;
 const $=s=>document.querySelector(s);
@@ -33,7 +33,7 @@ async function load(){
   if(saved){
     lastException=null;
     syncStoryLocation(saved.id,saved.name);
-    gameOutput(saved);
+    gameOutput(saved,'restore',saved.id);
     $('#bitTitle').textContent=saved.name;
     $('#bitText').textContent=saved.description;
     $('#trailText').textContent='you → '+saved.name;
@@ -93,36 +93,74 @@ function initPlane(){const s=$('#planeSurface');if(!s)return;let down=false,sx=0
 const STORY_PLACE_BY_REGION = {"bodylounger":"THE HOUSE OF OPEN SCREENS","beefythiq":"THE NEW BASELINE","male-harem":"THE HOUSE OF OPEN SCREENS","growth":"THE BLUE HALL","complex":"THE RESERVOIR CITY","facility":"THE SEVENTH WELL","veyrthalis":"VEYRTHALIS / DIGITORIUM","muscle-myth":"THE BLUE HALL","discovery":"THE NORTHERN ROAD","embodied-scale":"THE SEVENTH WELL","colossal-escalation":"THE NEW BASELINE","kingdom-land":"THE NORTHERN ROAD","deep-lore":"THE BLUE HALL","luke-bwomph":"THE NEW BASELINE"};
 const WORLD_BROADCASTS = {"bodylounger":["The archive is lit by old monitor glass and the pale reflection of a browser left open overnight. Shelves hold screenshots, dates, names, half-preserved pages, and the blue-white glow of things found before anyone knew they would matter. A paper cup has gone cold beside the keyboard, and the room smells of dust warming near the fan.","The images here aren't just examples lined up for inspection. They're a trail of visits and versions: the first silhouette, the next stage, the little difference somebody thought worth saving. One broad-shouldered man remains recognizable across the sequence, face and manner intact while the frame around him slowly becomes inadequate."],"beefythiq":["The room registers accumulation before anybody names it. A chair is pushed closer to the wall; the shirt seam across a broad chest draws taut; the floorboards answer a heavier stance with a lower sound. The light stays the same, and the man's face stays his own, but the room around him begins measuring itself against a new baseline.","This is where growth becomes a lived change instead of a number. Arms hang farther from the ribs, shoulders alter the width of the doorway, and an old shirt remembers a smaller shape. The earlier version hasn't vanished; it's still there in the way everyone remembers him standing before the room had to make space."],"male-harem":["An industrial hall opens into a shared residence: concrete floor, exposed beams, gym benches, clean shirts hung over chair backs, and late afternoon coming in through high panes of glass. Broad men move between the rooms with the ease of people who know one another's habits. Someone nudges a chair into place with his boot; another pauses to admire a friend's new breadth of shoulder without interrupting the conversation.","The roster is a living one. Each man brings his own posture, humor, size, preferences, and way of standing close to another man. They are not interchangeable figures arranged for a display. They eat together, tease one another, and remember exactly how each person has changed."],"growth":["The Blue Hall holds a soft, cool light over a dark floor. A silhouette is projected against the far wall, then another outline gathers around it, preserving the original head, hands, and stance while the shoulders and chest widen. The room's markings provide a quiet scale reference; a bench that once seemed spacious now sits close to the man's thighs.","The transformation reads in several small truths at once: fabric tension, the new curve of the deltoids, thicker legs beneath familiar shorts, and the way he turns his body to pass between two pieces of furniture. Nobody needs to announce that he's different. The room and the people in it have already noticed."],"complex":["The Complex has the comfortable disorder of a place that is used every day. A corridor smells faintly of cedar and warm electronics; a mug rests on a windowsill; the carpet changes where one room gives way to another floor. Doors lead to rooms built at different moments, and a patch of sunlight still falls across the wall even after the hallway has lengthened.","The place accumulates rather than resets. A route walked yesterday remains legible today, and new rooms grow around what people have already made together. Some details will matter later; most won't. The sound of a chair scraping the floor belongs here simply because somebody sat down."],"facility":["White walls, blue CRT glow, stainless rails, and observation windows define the facility. The air has the dry chill of conditioned rooms, with a faint disinfectant smell beneath the warm electrical odor of monitors. Behind the glass, an adult man stands broad through the shoulders and chest, calm under the measured light as technicians try to make the instruments agree with what they can see.","The room keeps turning him into a measurement, but his habitual expression and the way he rests one hand against the counter remain unmistakably his. Every time his silhouette widens, the rails and door clearances become witnesses. The data records a changed scale; his companions remember the same man."],"veyrthalis":["Fog moves through amber woods at a height that hides the far ends of the trunks. The Digitorium rises through the mist, Florentine stone at its base and dark Victorian glass above, with blue displays glowing behind tall windows. On a suspended bridge, the Procession moves quietly past its own reflections. Damp leaves cling to the steps, and somewhere beyond the trees a bell sounds once.","Veyrthalis isn't empty between its landmarks. It has wet bark, cold stone, long distances, and paths that are easy to lose in fog. The men pass through it as residents rather than tourists, carrying familiar gestures and relationships into a country that keeps making more room around them."],"muscle-myth":["The hall of symbols is built from dark stone and resin-dark beams, with carved marks worn smooth where hands have touched them across generations. A statue of a powerful adult man stands in a recessed arch, not frozen in triumph but resting with one hand against the wall. Amber light collects along his shoulders while the rest of the room stays cool and quiet.","Here, strength is a language the world uses for memory, devotion, and change. The figures remain individuals, not generic idols. One has a dry sense of humor, another prefers silence, and another keeps looking back toward the doorway to see who has followed. The mythology lives in those differences as much as in the carvings."],"discovery":["The observer's room is quiet enough to hear the window seal flex in the wind. A notebook lies open beside a cup, the pencil rolled into the crease between pages. Beyond the window, the amber tree line breaks into low hills and a pale road. Nothing is happening at the center of the view, but the light keeps changing across the tabletop.","Discovery begins by allowing the unremarkable thing to remain in view. A friend pauses before answering. A far-off car crosses a bridge. Someone's shoulders fill more of a doorway than yesterday. Not every detail is a clue; some simply gives the world its size and texture."],"embodied-scale":["The doorframe provides the first measure. The man standing beside it is familiar in face and expression, but his shoulders now come close to the jamb and his thighs change the way he sets his feet. One hand rests against the wood for balance as he turns. The hallway itself hasn't moved yet; the relationship between body and passage has changed.","Reach, turning radius, clearance, and the distance between two people become things that can be felt. A chair takes a different effort to move. A shirt drapes differently across the back. The body is not an abstract mass—it is how a person occupies the space available to him."],"colossal-escalation":["The view draws back across roofs, towers, roads, and finally the broad sweep of the landscape. The man remains recognizable through every change: familiar face, hands, expression, and relaxed stance. His shoulders begin to dominate the nearby architecture; later, the building and then the distant terrain become the scale references. Clouds drift behind him without turning him into an anonymous silhouette.","The escalation is cumulative, not a replacement. The old baseline remains in memory while the new one makes the former doorways look narrow and the former streets look slight. He continues to move as himself, using familiar gestures at a size the world has never had to accommodate before."],"kingdom-land":["Stone ridges break through a mantle of lichen, and small channels of water darken the pale rock. The ground rises into a broad plateau, its edges softened by moss and weather. From this height the roads seem like drawn threads, but close by each path has rough footing, loose grit, and shallow pools that catch the gray sky.","This geography is meant to be entered, not merely labeled. Rock carries weight, lichen spreads over surfaces, and the water finds its own route through the hollows. The land has a texture before it has a legend, and it remains worth looking at even when no character crosses it."],"deep-lore":["A narrow passage holds a series of marks that look like scratches until the light shifts and reveals that each line was made at a different time. Dust gathers along the baseboard. A small object sits beneath the wall where someone placed it and forgot to return for it. The room gives no explanation for the arrangement; it preserves the residue of what has passed through.","Deep lore is the part left over after an event is over. A phrase returns with a slight change, a doorway appears in different accounts, and a name remains when the person carrying it has gone. The narrators don't have to turn every repetition into an answer. They can notice it, leave it intact, and keep moving."],"luke-bwomph":["Luke stands in the familiar bar-gym light, the mirrors clouded at their edges and the rubber floor marked by chalk and old shoe tracks. His face remains Luke's, his hands move with the same confidence, and he gives a familiar little nod before turning toward the mirror. His shoulders now stretch farther across the tank top; his chest fills the fabric differently, and his legs make his stance wider and more settled.","The next stage is visible in the way he moves. He turns, checks the line of his shoulder, rolls his arms loose at his sides, and walks past the bench without having to think about his changed proportions. Nothing about the growth requires a new identity. This is Luke, already comfortable enough in himself to try the new baseline on for size."]};
 function syncStoryLocation(regionId, regionName){const place=STORY_PLACE_BY_REGION[regionId]||regionName;const atlas=window.GEEHUB_STORY_ATLAS;if(atlas&&typeof atlas.locate==='function')atlas.locate({location:place});}
-function gameOutput(n){
+function gameOutput(n,source='render',priorId=null){
   const el=$('#gameNarrative'),state=$('#gameRunState'),cmd=$('#gameCommand');
   if(!el)return;
   try{localStorage.setItem('geehub-current-story-region',n.id);}catch{}
-  state.textContent=worldRunning?'RUNNING // LIVE':'ENCOUNTER // HELD';
+  state.textContent=worldRunning?'RUNNING // LIVE':'WORLD / RESPONDING';
   cmd.textContent=n.name.toUpperCase();
   const scene=WORLD_BROADCASTS[n.id]||[
-    n.name+' comes into view gradually. The room has a quiet electrical hum, a worn floor, and light collecting along the edges of the doorway. The available record reads: '+(n.description||'A place without a finished description.') ,
+    n.name+' comes into view gradually. The room has a quiet electrical hum, a worn floor, and light collecting along the edges of the doorway. The available record reads: '+(n.description||'A place without a finished description.'),
     'Nothing here needs to become a plot point. The place can keep its weather, surfaces, distances, and small signs of use while the world decides what happens next.'
   ];
-  const exceptionText={
-    RETURN:'Something already visited has returned to the view. It is not quite the same arrival, and the earlier trace remains.',
-    REVISIT:'An older place has been brought forward again. The room carries both the first encounter and the one happening now.',
-    ECHO:'A familiar detail has repeated with a small difference. The echo is audible, but its meaning can remain open.',
-    MUTATE:'One part of the record has changed. The former description remains part of its history rather than being erased.',
-    REFUSE:'The expected event did not occur. The place remains real, and the refusal is part of what happened here.',
-    DRIFT:'The name and the place have moved slightly apart. The old label remains visible behind the new one.'
-  }[lastException]||'The room keeps the previous state beneath this view. Nothing has been erased merely because the scene has changed.';
-  el.textContent='SETH / '+n.name.toUpperCase()+'\n\n'+scene[0]+'\n\nNICK / THE WORLD AROUND IT\n\n'+scene[1]+'\n\nSETH / WHAT REMAINS\n\n'+exceptionText;
-}function enter(id){const n=world.regions.find(x=>x.id===id);if(!n)return;document.body.classList.add('world-touched');const ex=WORLD_EXCEPTIONS[Math.floor(Math.random()*WORLD_EXCEPTIONS.length)];lastException=ex;if(ex==='REFUSE'){syncStoryLocation(id,n.name);gameOutput(n);$('#bitTitle').textContent='THE WORLD REFUSED';$('#bitText').textContent=n.name+' was reached, but the expected event did not occur.';$('#trailText').textContent='exception → refusal → memory';return;}if(ex==='REVISIT'||ex==='RETURN'){const old=[...seen];if(old.length){id=old[Math.floor(Math.random()*old.length)];n=world.regions.find(x=>x.id===id)||n;}}if(ex==='MUTATE'){n={...n,description:n.description+' The description is no longer identical to the last time this place was seen.'};}if(ex==='DRIFT'){n={...n,name:n.name+' // DRIFT'};}syncStoryLocation(id,n.name);if(id==='colossal-escalation')triggerHit();seen.add(id);saveSeen();syncVisited();touchPresence(n.name);gameOutput(n);renderPlane();document.body.classList.add('world-touched');const weight=$('#weightText');if(weight)weight.textContent='The world is beginning to take up room.';$('#bitTitle').textContent=n.name;$('#bitText').textContent=n.description;$('#trailText').textContent='you → '+n.name;if(n.path&&n.path!=='#'){const a=document.createElement('a');a.href=n.path;a.className='enter-link dynamic-link';a.textContent='enter this place ↗';const old=document.querySelector('.encounter-copy .dynamic-link');if(old)old.remove();$('.encounter-copy').appendChild(a);}}
-function triggerHit(){const atlas=$('.atlas');atlas.classList.remove('hit');void atlas.offsetWidth;atlas.classList.add('hit');$('#bitTitle').textContent='THE HIT';$('#bitText').textContent='The reference stays familiar until the changed scale becomes impossible to miss. Then the world has to admit the new baseline.';$('#trailText').textContent='something changed → you noticed';setTimeout(()=>atlas.classList.remove('hit'),900);}
+  const response={
+    ARRIVAL:'This is the first recorded arrival at this place. The room registers the visitor; the prior places remain in the history behind this one.',
+    RETURN:'A place already visited has returned. Its earlier trace remains underneath the present view, so the return carries more history than the first arrival.',
+    ECHO:'The same place has been entered again without crossing elsewhere. The world answers with an echo instead of pretending this is a new destination.',
+    RESONANCE:'The previous place and this one share a recorded relation. The path between them is active, and the arrival inherits that connection.',
+    DRIFT:'The path here was not directly related to the prior place. The world preserves the gap instead of inventing a connection.'
+  }[lastException]||'The world keeps its previous state beneath this view. Nothing has been erased merely because the scene has changed.';
+  el.textContent='SETH / '+n.name.toUpperCase()+'\n\n'+scene[0]+'\n\nNICK / THE WORLD AROUND IT\n\n'+scene[1]+'\n\nSETH / WHAT THE WORLD REMEMBERS\n\n'+response;
+  document.dispatchEvent(new CustomEvent('geehub:world-encounter',{detail:{
+    id:n.id,name:n.name,description:n.description||'',source,priorId,exception:lastException,
+    at:new Date().toISOString()
+  }}));
+}function deriveWorldResponse(id,priorId){
+  if(priorId===id)return 'ECHO';
+  if(seen.has(id))return 'RETURN';
+  const related=Boolean(priorId&&world?.pleasureBits?.some(b=>(b.from===priorId&&b.to===id)||(b.to===priorId&&b.from===id)));
+  return related?'RESONANCE':'ARRIVAL';
+}
+function enter(id,context={}){
+  const n=world?.regions?.find(x=>x.id===id);
+  if(!n)return;
+  document.body.classList.add('world-touched');
+  let priorId=null;
+  try{priorId=localStorage.getItem('geehub-current-story-region');}catch{}
+  lastException=deriveWorldResponse(id,priorId);
+  if(id==='colossal-escalation')triggerHit();
+  seen.add(id);saveSeen();syncVisited();touchPresence(n.name);
+  gameOutput(n,context.source||'user',priorId);
+  renderPlane();
+  const weight=$('#weightText');if(weight)weight.textContent='The world is beginning to take up room.';
+  $('#bitTitle').textContent=n.name;$('#bitText').textContent=n.description;$('#trailText').textContent='you → '+n.name;
+  if(n.path&&n.path!=='#'){
+    const a=document.createElement('a');a.href=n.path;a.className='enter-link dynamic-link';a.textContent='enter this place ↗';
+    const old=document.querySelector('.encounter-copy .dynamic-link');if(old)old.remove();
+    $('.encounter-copy')?.appendChild(a);
+  }
+}function triggerHit(){const atlas=$('.atlas');atlas.classList.remove('hit');void atlas.offsetWidth;atlas.classList.add('hit');$('#bitTitle').textContent='THE HIT';$('#bitText').textContent='The reference stays familiar until the changed scale becomes impossible to miss. Then the world has to admit the new baseline.';$('#trailText').textContent='something changed → you noticed';setTimeout(()=>atlas.classList.remove('hit'),900);}
 let bitIndex=0,siphonIndex=0,siphonArtifacts=[],liveIndex=0,seepIndex=0;
 const liveTrace=[['NARRATOR','CHASE / C.W.SACHS','voice → inside the record'],['TRACE','LUKE / MUSTANG','proximity → confirmed'],['SCENE','PARKING LOT / NIGHT','engine heat retained'],['CHARACTER','LUKE','speech profile → yo'],['MEMORY','ONE PUTS HIS HEAD ON ANOTHER','active motif'],['FILM','SHOT 018 → 019 → 020','wide → Mustang → Luke'],['CONTINUITY','YOU ─ LUKE ─ MUSTANG','distance → arrival'],['HUB','MEMORY → EVENT','the archive is playing back']];
 const seep=[['DEPARTURE','the Mustang leaves; the heat remains'],['DISTANCE','ten thousand miles is still inside the sentence'],['RETURN','what leaves can remain legible as coming back'],['UNSPOKEN','the thing nobody says becomes the strongest trace'],['POETRY','event → residue → association → image'],['SEEP','the archive leaks meaning between nodes']];
 function seepPulse(){const x=seep[seepIndex++%seep.length];$('#liveTitle').textContent='SEEP // '+x[0];$('#liveText').textContent=x[1];$('#trailText').textContent='event → residue → '+x[0];}
 function livePulse(){const x=liveTrace[liveIndex++%liveTrace.length];$('#liveTitle').textContent=x[0]+' // '+x[1];$('#liveText').textContent=x[2];$('#trailText').textContent='live → '+x[1];}
 function startLive(){livePulse();setInterval(()=>{(liveIndex%3===2)?seepPulse():livePulse();},4200);}
-function runWorld(){if(worldRunning)return;worldRunning=true;document.body.classList.add('running');$('#runWorld').textContent='RUNNING';$('#runWorld').setAttribute('aria-pressed','true');const ordered=['bodylounger','growth','beefythiq','complex','embodied-scale','colossal-escalation','facility','male-harem','deep-lore','veyrthalis','discovery'];let step=0;const move=()=>{const id=ordered[step++%ordered.length];if(world?.regions?.some(n=>n.id===id))enter(id);};move();autonomousTimer=setInterval(move,12000);}
-function stopWorld(){worldRunning=false;document.body.classList.remove('running');$('#runWorld').textContent='RUN';$('#runWorld').setAttribute('aria-pressed','false');clearInterval(autonomousTimer);autonomousTimer=null;}
-async function loadSiphon(){const r=await fetch('./creative/kirk-siphon.json');if(!r.ok)return;siphonArtifacts=(await r.json()).artifacts||[];}
+function runWorld(){
+  if(worldRunning)return;
+  worldRunning=true;document.body.classList.add('running');$('#runWorld').textContent='RUNNING';$('#runWorld').setAttribute('aria-pressed','true');
+  if(window.GEEHUB_WORLD_AUTONOMY){window.GEEHUB_WORLD_AUTONOMY.setRunMode(true);}
+  else{
+    const ordered=['bodylounger','growth','beefythiq','complex','embodied-scale','colossal-escalation','facility','male-harem','deep-lore','veyrthalis','discovery'];
+    let step=0;const move=()=>{const id=ordered[step++%ordered.length];if(world?.regions?.some(n=>n.id===id))enter(id,{source:'run'});};
+    move();autonomousTimer=setInterval(move,12000);
+  }
+}
+function stopWorld(){
+  worldRunning=false;document.body.classList.remove('running');$('#runWorld').textContent='RUN';$('#runWorld').setAttribute('aria-pressed','false');
+  clearInterval(autonomousTimer);autonomousTimer=null;
+  window.GEEHUB_WORLD_AUTONOMY?.setRunMode(false);
+}async function loadSiphon(){const r=await fetch('./creative/kirk-siphon.json');if(!r.ok)return;siphonArtifacts=(await r.json()).artifacts||[];}
 function siphon(){if(!siphonArtifacts.length){$('#bitTitle').textContent='NO RESONANCE YET';$('#bitText').textContent='Nothing is calling from there yet.';return;}const x=siphonArtifacts[siphonIndex++%siphonArtifacts.length];$('#bitTitle').textContent='KIRK RESONANCE // '+x.title;$('#bitText').textContent=x.draft;$('#trailText').textContent='discovery → '+x.type.toLowerCase()+' → memory';}
 function forgetTrail(){seen.clear();saveSeen();saveRoomState({});syncVisited();renderRoom();$('#bitTitle').textContent='THE TRAIL IS GONE';$('#bitText').textContent='The world remains. This local memory has gone quiet.';$('#trailText').textContent='you → arrival';}
 function bit(){const b=world.pleasureBits[bitIndex++%world.pleasureBits.length];$('#bitTitle').textContent=b.title;$('#bitText').textContent=b.text;$('#trailText').textContent=b.from+' → '+b.to;}
@@ -238,3 +276,10 @@ async function fillFilespace(){
 }
 
 filespaceUI();
+
+window.GEEHUB_WORLD={
+  enter:(id,context={})=>enter(id,context),
+  getWorld:()=>world,
+  currentId:()=>{try{return localStorage.getItem('geehub-current-story-region')||null;}catch{return null;}},
+  getRegion:id=>world?.regions?.find(region=>region.id===id)||null
+};

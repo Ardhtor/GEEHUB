@@ -14,7 +14,7 @@ Seth and Nick announce what is present, compare observations, react to the scale
 
 ## Continuity
 
-Never discard canon merely to make room for new prose. Preserve chronology, established dialogue, character identity, relationships, and source provenance. Environmental details can accumulate memory across scenes, but do not invent consequential events or quietly promote experiments into canon.
+Never discard canon merely to make room for new prose. Preserve chronology, established dialogue, character identity, relationships, and source provenance. Environmental details can accumulate memory across scenes, but do not invent consequential events or quietly promote experiments into canon. Serum is established but non-central lore; never use it as the default explanation for change, growth, memory, or continuity.
 
 ## Post-book production loop
 
@@ -39,4 +39,4 @@ Luke remains the informal production driver. The Mustang remains a recurring phy
 
 ## Production directive
 
-Continue the post-book cycle when scheduled execution is available. Read the current canonical manuscript first. Add substantial scenes rather than status notes, and carry the environment through every paragraph transition. Keep Luke, the Mustang, the recurring men, Bill, the geography, and established relationships in continuity.
+Continue the post-book cycle when scheduled execution is available. Read the current canonical manuscript first. Add substantial scenes rather than status notes, and carry the environment through every paragraph transition. Keep Luke, the Mustang, the recurring men, Bill, the geography, and established relationships in continuity. Allow the world to develop independently of Serum; treat it as a local historical element, not the central engine.

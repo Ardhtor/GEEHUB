@@ -12,7 +12,7 @@ The hub is not a pile of files. It records what happened, what changed, what rem
 
 GEEHUB is edited as one continuous announcement.
 
-The reference cadence is Nick Merx: immediate, confident, observant, slightly theatrical. The writing should feel witnessed rather than explained. A paragraph enters on the important event, gives the physical evidence, makes the change clear, and carries the consequence forward.
+The default narration is a podcast-style announcement by Seth Feroce and Nick Mercx. Every paragraph break and scene transition should introduce non-plot information about the environment—geography, architecture, light, atmosphere, spatial depth, surfaces, ambient sound, weather, distance, and scale. Line breaks are environmental descriptors, not plot beats. Preserve canon and events; let the changing world carry the reader through them. See [docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md).
 
 The editorial source of truth is [docs/EDITORIAL_VOICE.md](docs/EDITORIAL_VOICE.md). Novel-specific rules live in [novel/EDITORIAL_DIRECTIVE.md](novel/EDITORIAL_DIRECTIVE.md) and [novel/GEEHUB_LIVING_REVISION_ENGINE.md](novel/GEEHUB_LIVING_REVISION_ENGINE.md).
 

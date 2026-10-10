@@ -4,9 +4,9 @@ The active story window is not a floating card. It is a breach in the display pl
 
 ## The impact
 
-On RUN, story arrival, or a meaningful interaction, the window lunges toward the viewer. The panel overshoots, recoils, then settles slightly forward from its original plane. A jagged aperture opens over the story surface; fractured lines race outward across the display; a cold edge-light catches the torn rim. A single expanding wave crosses the viewport, and the surrounding interface gives a small visual recoil. The experience should feel like the scene has punched through glass and entered the viewer's space—not like a card sliding in.
+On first arrival, RUN, story-location change, or a meaningful interaction, the story window is placed immediately below the page header and lunges toward the viewer. The panel overshoots, recoils, then settles slightly forward from its original plane. A jagged aperture opens over the story surface; fractured lines race outward across the display; a cold edge-light catches the torn rim. A single expanding wave crosses the viewport, and the surrounding interface gives a small visual recoil. The experience should feel like the scene has punched through glass and entered the viewer's space—not like a card sliding in.
 
-The hole must read as depth, not a black sticker. Use a dark recess, lit broken edges, uneven fracture lines, perspective distortion, and a strong cast shadow. Let the actual map and narrative remain visible through and around the breach. The tear should mark the moment the world crosses the interface boundary.
+The hole must read as depth, not a black sticker. The screen surface darkens around an irregular transparent aperture so the underlying world view remains visible through the center; lit broken edges, uneven fracture lines, perspective distortion, and a strong cast shadow define the torn rim. The tear should mark the moment the world crosses the interface boundary.
 
 ## Relationship to the world
 
@@ -16,7 +16,7 @@ Environmental detail, character presence, and motion should carry the scene thro
 
 ## Interaction and accessibility
 
-- The breach triggers on RUN and on meaningful story-window interactions, with a brief lunge, fracture flare, and viewport shockwave.
+- The story window moves into the first-screen position and triggers a first-arrival impact without requiring scrolling or a click. RUN, story-location changes, and meaningful window interactions can trigger it again, with a brief lunge, fracture flare, and viewport shockwave.
 - After the hit, the window remains slightly raised and the fractured rim stays visible as a trace of the encounter.
 - Debounce rapid repeated triggers so the effect feels consequential rather than noisy.
 - No sound is required. Do not force navigation or block controls.

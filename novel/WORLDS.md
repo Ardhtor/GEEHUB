@@ -365,3 +365,11 @@ SETH: The corridor smells faintly of cedar and warm electronics. A mug has left 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: novel/REWRITTEN_OPENING.md. Pressure 0.20; memory 0.50.
+
+## THE COMPLEX / pulse 6 / MEMORY
+
+NICK: A detail returns in THE COMPLEX: A passage has appeared beyond the turning. Its ordinary lamp lights the older hall too; the Complex extends the route without removing the first room.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was novel/REWRITTEN_OPENING.md.
+
+Source retained: novel/REWRITTEN_OPENING.md. Pressure 0.24; memory 0.56.

@@ -21,3 +21,11 @@ SETH: The corridor smells faintly of cedar and warm electronics. A mug has left 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 6 — MEMORY / THE COMPLEX / 2026-10-10T18:44:01.995164+00:00
+
+NICK: A detail returns in THE COMPLEX: A passage has appeared beyond the turning. Its ordinary lamp lights the older hall too; the Complex extends the route without removing the first room.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was novel/REWRITTEN_OPENING.md.
+
+Rule: comparison can become differentiation

@@ -18,6 +18,38 @@
   let index = 0;
   let host = null;
   let status = null;
+  let audioContext = null;
+  const HISTORY_LIMIT = 120;
+  function echo(stage) {
+    try {
+      const Audio = window.AudioContext || window.webkitAudioContext;
+      if (!Audio) return;
+      audioContext ||= new Audio();
+      if (audioContext.state === 'suspended') audioContext.resume();
+      const start = audioContext.currentTime;
+      const oscillator = audioContext.createOscillator();
+      const gain = audioContext.createGain();
+      const filter = audioContext.createBiquadFilter();
+      const stageIndex = Math.max(0, stages.findIndex(s => s.name === stage.name));
+      oscillator.type = 'triangle';
+      oscillator.frequency.setValueAtTime(92 + stageIndex * 13, start);
+      oscillator.frequency.exponentialRampToValueAtTime(48 + stageIndex * 5, start + 0.42);
+      filter.type = 'lowpass';
+      filter.frequency.setValueAtTime(420 + stageIndex * 45, start);
+      gain.gain.setValueAtTime(0.0001, start);
+      gain.gain.linearRampToValueAtTime(0.035, start + 0.035);
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + 0.62);
+      oscillator.connect(filter).connect(gain).connect(audioContext.destination);
+      oscillator.start(start);
+      oscillator.stop(start + 0.65);
+    } catch (_) { /* Sound is an enhancement; the world transition still works. */ }
+  }
+  function record(state) {
+    const prior = read();
+    const history = Array.isArray(prior.history) ? prior.history : [];
+    history.push(state);
+    save({...prior, index, stage:state.stage, line:state.line, at:state.at, history:history.slice(-HISTORY_LIMIT)});
+  }
   const now = () => new Date().toISOString();
   const read = () => { try { return JSON.parse(localStorage.getItem(KEY) || '{}'); } catch { return {}; } };
   const save = state => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
@@ -53,7 +85,8 @@
     document.body.dataset.environmentalStage = stage.name.toLowerCase().replace(/[^a-z0-9]+/g,'-');
     if (persist) {
       const state = {index, stage:stage.name, line:detail || stage.line, at:now()};
-      save(state);
+      record(state);
+      echo(stage);
       if (window.GEEHUB_ARTIFACTS?.add) window.GEEHUB_ARTIFACTS.add({
         type:'ENVIRONMENTAL TRANSITION',
         title:'ROOM RESPONSE // ' + stage.name,
@@ -63,6 +96,7 @@
         at:state.at
       });
       document.dispatchEvent(new CustomEvent('geehub:environmental-transition',{detail:state}));
+      document.dispatchEvent(new CustomEvent('geehub:world-history',{detail:{...state, history:read().history || []}}));
     }
   }
 

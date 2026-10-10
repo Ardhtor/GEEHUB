@@ -129,3 +129,47 @@ She kept her hand against his cheek, feeling the familiar warmth there while the
 “Then come home,” she said.
 
 He looked back across the lake. The city lights trembled on the water between them, and the road home seemed to lie in both directions at once.
+
+## Chapter III: Big Daddy's Voice
+
+**SETH:** The northern country has room for a story to disappear without the silence meaning that it's over. The old manuscripts reflect that scale. Their pages take their time, returning to the same chamber in different years, the same road under different weather, the same person before and after a change. The paper itself has aged into shades of cream and brown. Ink has bled along a few damp edges, and the binding smells faintly of dust and cedar.
+
+**NICK:** The keepers eventually gave one of their habits a name: Big Daddy's Voice. Nobody can agree that Big Daddy was a single man. Some say it came from the chief physician's surviving notes, which repeated themselves more often as the Accident approached. Others think the laboratory developed a voice of its own. A third group believed that attention, held on a thing for long enough, stopped being passive observation and started putting pressure on it. The explanations differ; the effect is familiar. The Voice makes a thing remain in view.
+
+The phrase appeared in the margins of a manuscript whose author had died three centuries earlier: HERE IS THE ROOM. HERE IS THE ROOM AGAIN. KEEP THE FIRST ROOM. ADD THE SECOND ROOM. DO NOT ERASE WHAT WAS THERE. It turned up again on a survey of the northern road, beside a mountain that had moved several miles since the map was made. It appeared in a physician's journal, next to the name of a patient the writer could no longer reliably remember, and in a child's copybook found far south of the wells. The words did not behave like a quotation passed from one person to another. They returned with the stubbornness of a place glimpsed through different windows.
+
+**SETH:** The first formal experiment was a chair. Nothing grand, just a wooden chair in an ordinary room. You can see the wear on the seat, the grain in the backrest, the dull shine where hands have touched the arms over the years. There's a window beside it, a patch of weather beyond the glass, and a long road visible in the distance.
+
+The investigators described the chair for six days. They described its wood, its shape, the worn seat, the room around it, the window, and the empty road beyond. On the next morning a traveler appeared on that road, so far away he was no more than a dark mark against the pale ground. Each day he came closer. By the fourth day, the investigators could see that he was carrying a chair. They stopped the experiment, but the traveler kept walking. Three weeks later he stood outside the laboratory, an old man with mud on his boots and the tired, irritated expression of someone who had crossed a great deal of country because people elsewhere had been unable to leave him alone.
+
+When the door opened, he said, “You kept describing me.” An investigator asked who he was. The old man glanced back at the road, where the wet tracks of his journey faded into the distance, and answered, “That is what I came to find out.”
+
+The laboratory changed its methods after that. It stopped correcting every contradiction. A strange measurement stayed in the archive if someone had truly recorded it. An uncertain name remained uncertain if that was how it had been remembered. A road that disappeared from a later map was not erased from the earlier one. The keepers came to understand that differences between records might reveal distance, time, or a person altered between encounters. Their first archival law became simple: preserve the previous state when creating the next one.
+
+**NICK:** That's a practical rule, really. Don't pretend the old room never existed just because a new one has appeared. Keep the earlier map. Keep the old description. Let the differences stay visible.
+
+The law mattered because the men who would eventually inhabit the Hub did not arrive as finished characters. Luke, Tyler, Kirk, Joseph, and Bill were not yet known to the researchers. What the archive held were returning presences, fragments of description, and records that seemed to alter the shape of one another. A name would appear in a document years before anyone could say who it belonged to. A familiar gesture might turn up in two different rooms. Each return changed the surrounding history without erasing what had come before.
+
+In the northern country, a person could become a legend before anybody had met him. The Voice mattered not because it explained the world, but because it refused to let the world shrink below the memory that had produced it.
+
+## Chapter IV: The Men Inside the Devices
+
+**SETH:** The first device to admit a man was an obsolete monitor in a lower archive. The room was cold, with pale light falling from high windows onto the floor. Beyond the glass lay miles of wet ground, dark forest, low hills, and weather moving across the open country. The monitor sat on a desk beneath a shelf of old equipment. Its casing was yellowed at the edges, and a thin layer of dust had gathered around the buttons. The world outside remained immense; the machine simply offered another place inside it.
+
+A man appeared on the screen. He was broad through the shoulders, heavy in the chest, thick in the arms, with the composed handsomeness of a heroic statue. His breath clouded the glass. He looked toward the archivist and stepped forward without his feet seeming to move. The screen deepened. The archivist took a step backward. The man smiled and placed his palm against the glass, which bowed slightly beneath the pressure. The surviving note records the event in a single sentence: THE IMAGE HAS ACQUIRED PRESSURE.
+
+**NICK:** After that, other devices began to admit men. A telephone held a restless figure who never seemed content to stay on one side of the display. A laptop contained a huge man whose head disappeared beyond the upper edge of the interface when he stood. A tablet held a seated man looking out from a depth that seemed to lie behind the glass. Headphones carried a voice without a visible body. Storage preserved what had happened. A browser offered branching routes. A game contained worlds, and a notification brought interruption into the middle of a quiet room.
+
+The men were not identical. They had different tempers, different ways of standing, different voices and preferences. Some watched the archivists with curiosity; others looked wary or mildly annoyed. One moved from screen to screen as if every interface were a door that had taken too long to open. Another was patient and solid, smiling whenever he understood something before the rest of the room. Another preferred to sit and watch. One seemed to enjoy being seen; another appeared to resent the attention. They were related in the way travelers become related after sharing a long road, not because they had become the same person, but because they had learned to occupy the same world.
+
+The archive gradually understood that a world was more than the bodies inside it. It was also the pressure created when different bodies shared limited space. The largest man made that pressure impossible to ignore. Each time the researchers measured his room, the room seemed to change. His shoulders widened in relation to the doorway; the ceiling rose; the floor appeared to extend farther than it had the day before. His face remained his own. His hands were unchanged, and the familiar way he held himself persisted through every alteration. Nothing had been replaced. The relationship between the man and the room had expanded.
+
+A researcher asked whether he understood what was happening. The man glanced around at the doorway, the ceiling, and the high window with the wet landscape beyond it. “You keep making the room smaller,” he said. The researcher replied that they were measuring it. “Same thing,” the man said, looking out toward the hills.
+
+“You think that land is large because you can see the horizon,” he told the researcher.
+
+The researcher followed his gaze through the window. “Isn't it?”
+
+“No. It is large because you haven't reached the other side.”
+
+**SETH:** Outside, the weather kept moving across the fields. Inside, the room adjusted around the man. Neither event needed to cancel the other. The monitor's low electrical hum continued under the conversation, and somewhere in the archive a fan clicked each time it turned.

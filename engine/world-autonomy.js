@@ -43,7 +43,7 @@
     ],
     beefythiq: [
       'The floor gives a low answer when the man shifts his stance. The seams across his shoulders settle into a new line, and his arms hang a little farther from his ribs. A chair remains where it was; the distance between chair and body now means something different.',
-      'The room keeps the earlier outline in its measurements. A doorway that fitted yesterday sits close against the man's shoulder today, and the mirror shows his familiar face above a broader chest. No one announces the change; the architecture has already recorded it.'
+      'The room keeps the earlier outline in its measurements. A doorway that fitted yesterday sits close against the man’s shoulder today, and the mirror shows his familiar face above a broader chest. No one announces the change; the architecture has already recorded it.'
     ],
     'male-harem': [
       'Late light travels through the high windows and catches the worn edges of the gym benches. One man has left a shirt over a chair back; another turns toward the doorway when he hears the heavy, even rhythm of familiar footsteps. Conversation continues without anyone needing to explain why they looked up.',
@@ -51,14 +51,14 @@
     ],
     growth: [
       'The blue hall grows brighter at the edges, leaving the center in a deep, cool shadow. The silhouette on the far wall keeps its familiar head and posture while the shoulders broaden around them. The bench and wall markings remain still, so the change can be read against something that remembers the earlier size.',
-      'Fabric shifts across the upper back as the man rolls his shoulders and lets his arms fall loose again. The room's old proportions are still visible in a ghost line on the floor; the new stance rests beyond it without erasing it.'
+      'Fabric shifts across the upper back as the man rolls his shoulders and lets his arms fall loose again. The room’s old proportions are still visible in a ghost line on the floor; the new stance rests beyond it without erasing it.'
     ],
     complex: [
       'A corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the windowsill, and late sun rests on a patch of floor where a doorway used to cast a narrower shadow. The hall is quiet, but a new passage has appeared beyond the turning.',
       'The new passage contains no sign or grand entrance, just worn boards and an ordinary lamp. Its light falls back into the room that came before it. The Complex has extended a route while leaving the first room intact.'
     ],
     facility: [
-      'The facility's ventilation hum settles into a lower register. Blue light crosses the observation glass, showing the technician's reflection over the broad figure behind it. The man's hands remain relaxed on the counter; the instruments adjust around the width of his shoulders.',
+      'The facility’s ventilation hum settles into a lower register. Blue light crosses the observation glass, showing the technician’s reflection over the broad figure behind it. The man’s hands remain relaxed on the counter; the instruments adjust around the width of his shoulders.',
       'A rail near the doorway has been moved outward by one measured increment. The change is small, practical, and permanent. The old measurement remains in the record beside the new one.'
     ],
     veyrthalis: [
@@ -78,7 +78,7 @@
       'The chair makes a short scrape when it is pulled away from the wall. It has not become heavier; the movement simply requires a different reach and a wider turn. The room keeps these small negotiations alongside the measurements.'
     ],
     'colossal-escalation': [
-      'The camera's view retreats from the doorway to the building beyond it, keeping the man's face visible as the roofline enters frame. The first threshold remains in view at the bottom of the image, a small but accurate memory of the scale where the sequence began.',
+      'The camera’s view retreats from the doorway to the building beyond it, keeping the man’s face visible as the roofline enters frame. The first threshold remains in view at the bottom of the image, a small but accurate memory of the scale where the sequence began.',
       'Cloud moves behind the upper floors while the man turns with the same unhurried gesture he used beside the first doorway. The building has become the measure now; the earlier room remains legible inside the scene as a remembered scale.'
     ],
     'kingdom-land': [
@@ -90,7 +90,7 @@
       'The old phrase appears again in a different hand. One word has changed, but the spacing and the final mark are familiar. The archive keeps both lines instead of correcting one into the other.'
     ],
     'luke-bwomph': [
-      'Luke stands in the familiar bar-gym light, mirrors clouded at their edges and chalk pressed into the rubber floor. His face remains his own. His shoulders now fill more of the tank top, his chest changes the cloth's fall, and his legs make his stance broader when he turns toward the mirror.',
+      'Luke stands in the familiar bar-gym light, mirrors clouded at their edges and chalk pressed into the rubber floor. His face remains his own. His shoulders now fill more of the tank top, his chest changes the cloth’s fall, and his legs make his stance broader when he turns toward the mirror.',
       'He rolls his arms loose at his sides, tests the turn between the bench and the rack, and gives the reflection the same little nod as before. The next baseline has arrived in his movement, not in a replacement of who he is.'
     ]
   };
@@ -366,6 +366,24 @@
       return;
     }
     booted = true;
+    document.addEventListener('geehub:world-encounter', onEncounter);
+    document.addEventListener('geehub:sensation', e => externalResponse('geehub:sensation', e.detail || {}));
+    document.addEventListener('geehub:hyper-morph', e => externalResponse('geehub:hyper-morph', e.detail || {}));
+    document.addEventListener('geehub:interaction', e => externalResponse('geehub:interaction', e.detail || {}));
+    document.addEventListener('click', e => {
+      if (e.target.closest('#runWorld')) return;
+      if (e.target.closest('button, a, input, select, textarea')) {
+        state.lastHumanActionAt = stamp();
+        state.nextRegion = null;
+        state.phase = 0;
+        persist();
+        schedule(state.runMode ? FAST_TICK_MS : TICK_MS);
+      }
+    });
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) clearTimeout(timer);
+      else schedule(1800);
+    });
     const savedId = api.currentId?.();
     const savedState = state.currentRegion;
     state.runMode = false;
@@ -386,24 +404,6 @@
       persist();
       api.enter('discovery', {source:'world-start'});
     }
-    document.addEventListener('geehub:world-encounter', onEncounter);
-    document.addEventListener('geehub:sensation', e => externalResponse('geehub:sensation', e.detail || {}));
-    document.addEventListener('geehub:hyper-morph', e => externalResponse('geehub:hyper-morph', e.detail || {}));
-    document.addEventListener('geehub:interaction', e => externalResponse('geehub:interaction', e.detail || {}));
-    document.addEventListener('click', e => {
-      if (e.target.closest('#runWorld')) return;
-      if (e.target.closest('button, a, input, select, textarea')) {
-        state.lastHumanActionAt = stamp();
-        state.nextRegion = null;
-        state.phase = 0;
-        persist();
-        schedule(state.runMode ? FAST_TICK_MS : TICK_MS);
-      }
-    });
-    document.addEventListener('visibilitychange', () => {
-      if (document.hidden) clearTimeout(timer);
-      else schedule(1800);
-    });
     schedule(FIRST_TICK_MS);
     window.GEEHUB_WORLD_AUTONOMY = {setRunMode, state:() => ({...state, history:[...(state.history||[])]}), tick:() => tick(), schedule:delay => schedule(delay)};
     document.dispatchEvent(new CustomEvent('geehub:world-autonomy-ready', {detail:{currentRegion:state.currentRegion, at:now()}}));

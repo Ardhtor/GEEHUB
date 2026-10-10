@@ -953,3 +953,33 @@ Big Daddy's Voice became pressure behind the eyes: KEEP THE FIRST HAND. KEEP THE
 It showed an adult man standing in an empty room. He was tall, broad, heavily built, and so physically complete that the emptiness around him seemed to be the incomplete thing. He didn't smile or speak; he simply looked toward the viewer. The second screen showed the same man in a different room, the third showed him from behind, and the fourth showed him seated. The fifth showed the room without him. The sixth showed the room remembering him. The Voice announced: THIS IS THE MAN BEFORE THE MAN. THIS IS THE BODY BEFORE THE BODY. THIS IS THE EMPTY PLACE THAT LEARNED TO STAND. THIS IS THE FIRST IMAGE THAT DID NOT COME FROM A WITNESS.
 
 At last the man spoke. “I was here before anyone looked.” The host lowered his head.
+
+The host finally lowered his head and told the man that he was supposed to remain below. The man turned toward the faceless figure and answered that there was no below. The host insisted there was always a below. The man said the figure was wearing the wrong absence, and the figure stepped backward. The Serum began rising faster, its pale light spilling over the edge of the vessel and across the floor.
+
+## Chapter LXX: The Ascent
+
+**SETH:** The ascent took nine hours, although the clock on the wall displayed only one minute. The thing below came upward through repeated versions of the house, and each level recorded a different part of its arrival. In one room it was pressure beneath the floor; in another, a shadow beneath the table; in a third, an enormous hand pressing against the ceiling; and in another, the sound of a man climbing stairs very slowly. The house didn't provide one consistent view of the thing. It let each room retain the aspect it had experienced.
+
+The first hand appeared in the lowest chamber, the second in the room above, the third in the Blue Hall, and the fourth beside the sixth plate. The fifth appeared behind Luke and rested on the back of his chair. Luke asked whether it was behind him, and Joseph said yes. When Luke asked how close, Joseph looked at the screen and said it was closer than Luke was. The chair began changing around him. It didn't simply grow larger; it grew deeper. The back rose behind him, the arms thickened, and the legs entered the floor until the chair was becoming a structure shaped around the fact that Luke had sat down.
+
+The largest man crossed the room and placed one hand against the chair. The first man asked what he was doing. He said he was giving it another memory. The chair remembered a field, and for an instant Luke sat beneath an open sky with wind moving through grass around him. Then it remembered the dining room, the Blue Hall, the seventh well, and the first room. The chair loosened its hold. Luke stood up. Behind him, something enormous inhaled, and the breath passed through the house with a low vibration that made the lamps tremble.
+
+## Chapter LXXI: The Mouth Beneath the House
+
+**NICK:** The mouth opened below the seventh well. There was no visible head, only an opening that extended across the underground city, lined not with teeth but with doors. Each door led into a different version of the house. Some were narrow and old, with damp wood around the frame; others opened onto enormous halls; still others showed the blue rooms where the men had first appeared in the devices. Every doorway carried its own air and light, as though the entire house had turned its many rooms toward the opening below.
+
+The thing asked for the room. The host stepped forward and answered that it already had the room. Then it asked for the first man. The man who had never been born turned toward the darkness and said it couldn't have him. The voice from below insisted he was already inside it. The first man answered no. The thing named him as the room before the room; he named himself the man before the man. From above, Big Daddy's Voice replied: NOTHING IS GONE.
+
+The mouth widened, and the first man looked back at the four travelers. If he went down, he warned them, the house might become singular. Joseph told him to stay. The first man shook his head and said there was no staying. He entered the dark. Every room shifted to make space for his passage, and every screen displayed the same sentence: HE IS GOING DOWN. The light from the screens fell across the floorboards in long blue bands, and the house held the vibration of his footsteps after they had disappeared.
+
+## Chapter LXXII: The Door Left Open
+
+**SETH:** The mouth closed, and the house became quiet. Water fell out of the upper rooms and returned to the lower chambers. The sixth place at the table remained occupied, but the figure sitting there now had a face belonging to no one present. The host was gone. Luke touched the back of the chair, feeling ordinary wood beneath his fingertips, until the grain shifted slightly. It did not become an image or a doorway; it simply rearranged the direction in which its lines ran, leaving him with the faint sense that the material had been listening.
+
+Tyler walked toward the nearest screen. It showed the house from outside, larger than before, its roof crossing the horizon and its upper windows continuing into the clouds. Lights moved through distant floors. The house had not become singular; it had become more difficult to see all at once. Kirk asked how far it went. The faceless figure turned its new face toward him and answered, “Far enough.”
+
+From beneath the floor came footsteps: one heavy step, a pause, then another. They were measured, unmistakably human, and the sound traveled up through the table legs and into the men's feet. Big Daddy's Voice began again, quieter than before: HERE IS THE HOUSE AFTER THE MOUTH. HERE IS THE ROOM AFTER THE FIRST MAN. HERE IS THE SILENCE AFTER THE VOICE. HERE IS THE STEP BELOW THE STEP. HERE IS THE MAN COMING UP. HERE IS THE MAN WHO REMEMBERS GOING DOWN. HERE IS THE MAN WHO HAS BROUGHT THE DARK WITH HIM.
+
+The door opened. The man who entered was very large, broad through the shoulders and chest, heavily built, and wet with luminous Serum. His face was familiar to all four men: the face of the first man who had never been born. But his eyes were the enormous eyes beneath the seventh well. Light moved in them with the same slow tides that had passed through the underground organism, and the dark of the lower country seemed to remain around their edges.
+
+He looked at the table, then at the sixth place, then at Luke. “You left the door open,” he said. No one answered. The house grew another floor, and the new level settled above them with a distant series of creaks, as if a building had made room for a future it had already begun to remember.

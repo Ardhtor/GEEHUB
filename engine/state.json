@@ -1,5 +1,5 @@
 {
-  "pulse": 4,
+  "pulse": 5,
   "events": [
     {
       "pulse": 1,
@@ -28,6 +28,41 @@
       "actor": "JOSEPH",
       "world": "NOVEL ENGINE",
       "text": "JOSEPH returned to NOVEL ENGINE. Nothing was explained. The room continued around them."
+    },
+    {
+      "pulse": 5,
+      "time": "2026-10-10T18:40:14.964576+00:00",
+      "actor": "LUKE",
+      "world": "THE COMPLEX",
+      "region_id": "complex",
+      "previous_region_id": "complex",
+      "phase": "ATMOSPHERE",
+      "source": "novel/REWRITTEN_OPENING.md",
+      "desire_state": "attention",
+      "action": "SETH: The corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the sill, and sunlight reaches the wall where a doorway used to cast a narrower shadow.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.2,
+      "memory": 0.5
     }
-  ]
+  ],
+  "visits": {
+    "complex": 1
+  },
+  "last_visits": {
+    "complex": 0
+  },
+  "pressure": 0.19999999999999998,
+  "memory": 0.5,
+  "source_counts": {
+    "novel/REWRITTEN_OPENING.md": 1
+  },
+  "next_region": null,
+  "phase": 1,
+  "active_region": "complex",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography"
 }

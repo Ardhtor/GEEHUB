@@ -13,3 +13,11 @@ KIRK waited inside DEEP LORE. Nothing was explained. The room continued around t
 ### Pulse 4 — 2026-09-29T15:52:39.827909+00:00
 
 JOSEPH returned to NOVEL ENGINE. Nothing was explained. The room continued around them.
+
+### Pulse 5 — ATMOSPHERE / THE COMPLEX / 2026-10-10T18:40:14.964576+00:00
+
+SETH: The corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the sill, and sunlight reaches the wall where a doorway used to cast a narrower shadow.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000005",
+  "created_at": "2026-10-10T18:40:14.964576+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ATMOSPHERE / THE COMPLEX / novel/REWRITTEN_OPENING.md",
+  "content": "SETH: The corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the sill, and sunlight reaches the wall where a doorway used to cast a narrower shadow.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+  "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 5,
+    "actor": "LUKE",
+    "world": "THE COMPLEX",
+    "region_id": "complex",
+    "source": "novel/REWRITTEN_OPENING.md",
+    "phase": "ATMOSPHERE",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

@@ -43,6 +43,7 @@ jobs:
         run: |
           node --check app.js
           node --check engine/story-atlas.js
+          node --check engine/world-state-bridge.js
           node --check engine/screen-puncture.js
           node --check engine/world-autonomy.js
           node --check engine/environmental-transitions.js
@@ -81,7 +82,7 @@ jobs:
           console.log('Validated ' + world.regions.length + ' world broadcasts, map destinations, and interface assets.');
           NODE
       - name: Validate Python tools
-        run: python -m py_compile hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py
+        run: python -m py_compile engine/run_world.py hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py
       - name: Run portable jam regression test
         run: python hub/test-validate-jams.py
       - name: Run UI registry validator regression test

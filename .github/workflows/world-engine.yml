@@ -131,6 +131,9 @@ jobs:
         run: |
           git config user.name "GEEHUB World Engine"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add engine/state.json lore/AUTONOMOUS_STREAM.md novel/WORLDS.md artifacts/ dropbox_outbox/ assets/geography/generated/
+          git add engine/state.json lore/AUTONOMOUS_STREAM.md novel/WORLDS.md artifacts/ dropbox_outbox/
+          if [ -d assets/geography/generated ]; then
+            git add assets/geography/generated/
+          fi
           git diff --cached --quiet || git commit -m "Autonomous world production and geography assets"
           git push

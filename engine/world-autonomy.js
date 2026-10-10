@@ -119,6 +119,8 @@
     } else update();
   }
   function record(type, title, body, from = state.currentRegion, to = null, artifact = true) {
+    if (type === 'MEMORY') state.memory = Math.min(1, Number(state.memory || 0.5) + 0.035);
+    if (type === 'ROUTE_OPEN') { state.memory = Math.min(1, Number(state.memory || 0.5) + 0.04); state.pressure = Math.min(1, Number(state.pressure || 0.18) + 0.04); }
     state.sequence = Number(state.sequence || 0) + 1;
     const event = {
       id: 'world-' + state.sequence,
@@ -198,6 +200,16 @@
     found.sort((a,b) => {
       const av = Number(state.visits[a.id] || 0), bv = Number(state.visits[b.id] || 0);
       if (av !== bv) return av-bv;
+      const routeBias = id => {
+        const physical = ['growth','beefythiq','embodied-scale','colossal-escalation','luke-bwomph'];
+        const memoryPlaces = ['bodylounger','deep-lore','discovery','veyrthalis','kingdom-land'];
+        let score = 0;
+        if (Number(state.pressure || 0) >= 0.62 && physical.includes(id)) score -= 2;
+        if (Number(state.memory || 0) >= 0.68 && memoryPlaces.includes(id)) score -= 1.25;
+        return score;
+      };
+      const bias = routeBias(a.id)-routeBias(b.id);
+      if (bias !== 0) return bias;
       const al = Number(state.lastVisits[a.id] || 0), bl = Number(state.lastVisits[b.id] || 0);
       if (al !== bl) return al-bl;
       return a.order-b.order;

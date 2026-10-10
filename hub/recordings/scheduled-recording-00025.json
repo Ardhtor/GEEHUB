@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00025",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "colossal-escalation",
+  "position": {
+    "x": 48,
+    "y": 37,
+    "z": 0
+  },
+  "camera": {
+    "x": 48,
+    "y": 37,
+    "z": 1.7,
+    "heading": 215,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "chase",
+    "scale": 4.1
+  },
+  "environment": {
+    "occupancy": 4.1,
+    "clearance": 0.244,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "colossal-escalation",
+      "name": "COLOSSAL ESCALATION"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 4.06,
+      "to": 4.1
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 25
+  },
+  "timestamp": "2026-10-10T20:15:04.755Z"
+}

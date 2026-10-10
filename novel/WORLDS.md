@@ -373,3 +373,11 @@ NICK: A detail returns in THE COMPLEX: A passage has appeared beyond the turning
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was novel/REWRITTEN_OPENING.md.
 
 Source retained: novel/REWRITTEN_OPENING.md. Pressure 0.24; memory 0.56.
+
+## THE COMPLEX / pulse 7 / ROUTE_OPEN
+
+SETH: A line becomes visible between THE COMPLEX and BEEFYTHIQ. The archive names the relation "MASS BECOMES WEATHER".
+
+NICK: Accumulation changes the scale of a room until architecture starts responding. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: novel/REWRITTEN_OPENING.md. Pressure 0.36; memory 0.56.

@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000007",
+  "created_at": "2026-10-10T22:00:19.731457+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ROUTE_OPEN / THE COMPLEX / novel/REWRITTEN_OPENING.md",
+  "content": "SETH: A line becomes visible between THE COMPLEX and BEEFYTHIQ. The archive names the relation \"MASS BECOMES WEATHER\".\n\nNICK: Accumulation changes the scale of a room until architecture starts responding. The current place remains visible; the route is open, but nobody has crossed it yet.",
+  "production_note": "The world resolved its route_open rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 7,
+    "actor": "KIRK",
+    "world": "THE COMPLEX",
+    "region_id": "complex",
+    "source": "novel/REWRITTEN_OPENING.md",
+    "phase": "ROUTE_OPEN",
+    "relation": "MASS BECOMES WEATHER"
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

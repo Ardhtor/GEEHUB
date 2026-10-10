@@ -29,3 +29,11 @@ NICK: A detail returns in THE COMPLEX: A passage has appeared beyond the turning
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was novel/REWRITTEN_OPENING.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 7 — ROUTE_OPEN / THE COMPLEX / 2026-10-10T22:00:19.731457+00:00
+
+SETH: A line becomes visible between THE COMPLEX and BEEFYTHIQ. The archive names the relation "MASS BECOMES WEATHER".
+
+NICK: Accumulation changes the scale of a room until architecture starts responding. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

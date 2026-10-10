@@ -1,5 +1,5 @@
 {
-  "pulse": 6,
+  "pulse": 7,
   "events": [
     {
       "pulse": 1,
@@ -62,6 +62,23 @@
       "next_region": null,
       "pressure": 0.24,
       "memory": 0.56
+    },
+    {
+      "pulse": 7,
+      "time": "2026-10-10T22:00:19.731457+00:00",
+      "actor": "KIRK",
+      "world": "THE COMPLEX",
+      "region_id": "complex",
+      "previous_region_id": "complex",
+      "phase": "ROUTE_OPEN",
+      "source": "novel/REWRITTEN_OPENING.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between THE COMPLEX and BEEFYTHIQ. The archive names the relation \"MASS BECOMES WEATHER\".\n\nNICK: Accumulation changes the scale of a room until architecture starts responding. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "MASS BECOMES WEATHER",
+      "next_region": "beefythiq",
+      "pressure": 0.36,
+      "memory": 0.56
     }
   ],
   "visits": {
@@ -70,16 +87,22 @@
   "last_visits": {
     "complex": 0
   },
-  "pressure": 0.24,
+  "pressure": 0.36,
   "memory": 0.56,
   "source_counts": {
-    "novel/REWRITTEN_OPENING.md": 2
+    "novel/REWRITTEN_OPENING.md": 3
   },
-  "next_region": null,
-  "phase": 2,
+  "next_region": "beefythiq",
+  "phase": 3,
   "active_region": "complex",
-  "current_phase": "MEMORY",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation"
+  "current_phase": "ROUTE_OPEN",
+  "current_desire_state": "tension",
+  "current_question": "Which existing relation now becomes traversable?",
+  "current_narrative_rule": "arrival activates aftermath",
+  "next_relation": {
+    "title": "MASS BECOMES WEATHER",
+    "text": "Accumulation changes the scale of a room until architecture starts responding.",
+    "from": "beefythiq",
+    "to": "complex"
+  }
 }

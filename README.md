@@ -74,9 +74,9 @@ The question is not only what the computer shows. It is what the person can feel
 
 ## The novel
 
-The developing manuscript is [novel/BOOK_I.md](novel/BOOK_I.md), **GEEHUB — BOOK I: THE HOUSE OF OPEN SCREENS**.
+The source manuscript is [novel/BOOK_I.md](novel/BOOK_I.md), **GEEHUB — BOOK I: THE HOUSE OF OPEN SCREENS**. The full environmental rewrite draft, covering all 72 chapters, is [novel/REWRITTEN_OPENING.md](novel/REWRITTEN_OPENING.md). It uses Seth Feroce and Nick Mercx as podcast-style narrators, expands non-plot details, and keeps paragraph breaks tied to changes in place, atmosphere, physical presence, and environmental attention rather than isolated plot beats.
 
-The manuscript remains a canonical literary layer inside the wider experience system. Chapter files can connect to visual states, audio concepts, timing, interaction, and future production scaffolding.
+The rewrite remains a parallel literary draft while the source manuscript is preserved. Chapter content can connect to visual states, audio concepts, timing, interaction, and future production scaffolding.
 
 The Serum corpus remains [corpus/SERUM.md](corpus/SERUM.md) as a record of established but non-central lore. It should not be used as the master explanation for the world.
 

@@ -48,6 +48,7 @@
     let lastHit = -Infinity;
     let previousNarrative = narrative ? narrative.textContent : '';
     let firstMutation = true;
+    let quietNarrativeUntil = 0;
     const reducedMotion = () => window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     const impact = (source = 'story') => {
@@ -80,6 +81,10 @@
           previousNarrative = next;
           return;
         }
+        if (performance.now() < quietNarrativeUntil) {
+          previousNarrative = next;
+          return;
+        }
         if (next && next !== previousNarrative) impact('narrative-change');
         previousNarrative = next;
       });
@@ -102,7 +107,13 @@
     document.addEventListener('geehub:screen-puncture', () => impact('external'));
     // The first arrival should be felt without requiring the user to scroll or press RUN.
     window.setTimeout(() => impact('first-arrival'), 800);
-    window.GEEHUB_SCREEN_PUNCTURE = {impact};
+    window.GEEHUB_SCREEN_PUNCTURE = {
+      impact,
+      quietNarrativeUpdate(fn) {
+        quietNarrativeUntil = performance.now() + 500;
+        if (typeof fn === 'function') fn();
+      }
+    };
   };
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

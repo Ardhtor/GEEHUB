@@ -39,10 +39,6 @@
     current = found.id;
     render();
     save();
-    if (window.GEEHUB_ENVIRONMENT?.transition && detail.echo !== false) {
-      const stage = found.stage;
-      window.GEEHUB_ENVIRONMENT.transition(stage, 'The story pin arrives at ' + found.name + '.');
-    }
     document.dispatchEvent(new CustomEvent('geehub:story-location',{detail:{...found,at:new Date().toISOString()}}));
   }
   function ensure() {
@@ -59,7 +55,12 @@
     const previous = read();
     if (places.some(p => p.id === previous.current)) current = previous.current;
     render();
-    document.addEventListener('geehub:world-history', e => locate(e.detail || {}));
+    document.addEventListener('geehub:world-history', e => {
+      const detail = e.detail || {};
+      const stage = String(detail.stage || '').toUpperCase();
+      const found = places.find(p => p.stage === stage);
+      if (found) { current = found.id; render(); save(); }
+    });
     document.addEventListener('geehub:environmental-transition', e => {
       const stage = String(e.detail?.stage || '').toUpperCase();
       const found = places.find(p => p.stage === stage);

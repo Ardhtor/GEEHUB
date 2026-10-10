@@ -233,7 +233,10 @@ def main():
     desire_state = PHASE_DESIRES[phase_index]
     actor_rule = PHASE_RULES[actor]
     current_id = initial_region(state, regions)
+    initial_region_id = current_id
     current = regions[current_id]
+    state["visits"].setdefault(current_id, 1)
+    state["last_visits"].setdefault(current_id, 0)
     previous_event = state["events"][-1] if state["events"] else None
     next_region = None
     relation = None
@@ -272,6 +275,7 @@ def main():
                 + " The current place remains visible; the route is open, but nobody has crossed it yet."
             )
             state["next_region"] = next_region
+            state["next_relation"] = relation
             state["pressure"] = min(1.0, float(state["pressure"]) + 0.12)
         else:
             action = (
@@ -279,9 +283,11 @@ def main():
                 "NICK: The world leaves the route unresolved instead of manufacturing a connection."
             )
             state["next_region"] = None
+            state["next_relation"] = None
         state["phase"] = 3 if next_region else 0
     else:  # CROSSING
         target_id = state.get("next_region")
+        relation = state.get("next_relation")
         target = regions.get(target_id or "")
         if target is None:
             candidates = route_candidates(current_id, world, state)
@@ -292,6 +298,7 @@ def main():
         if target is None:
             action = "NICK: The route did not remain available. The current room is kept as it was; the world waits for a relation it can actually follow."
             state["next_region"] = None
+            state["next_relation"] = None
             state["phase"] = 0
         else:
             relation_title = relation.get("title", "THE OPEN ROUTE") if relation else "THE OPEN ROUTE"
@@ -307,6 +314,7 @@ def main():
             state["pressure"] = max(0.12, float(state["pressure"]) - 0.12)
             state["memory"] = min(1.0, float(state["memory"]) + 0.025)
             state["next_region"] = None
+            state["next_relation"] = None
             state["phase"] = 0
             current_id = target_id
             current = target
@@ -321,7 +329,7 @@ def main():
         "actor": actor,
         "world": current["name"],
         "region_id": current_id,
-        "previous_region_id": state.get("active_region") if phase == "CROSSING" else current_id,
+        "previous_region_id": initial_region_id,
         "phase": phase,
         "source": source,
         "desire_state": desire_state,

@@ -26,8 +26,13 @@ jobs:
         run: python engine/run_world.py
 
       - name: Pull queued Adobe geography assets
-        if: ${{ secrets.DROPBOX_ACCESS_TOKEN != '' }}
+        env:
+          DROPBOX_ACCESS_TOKEN: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
         run: |
+          if [ -z "$DROPBOX_ACCESS_TOKEN" ]; then
+            echo 'No Dropbox token configured; skipping queued asset pull.'
+            exit 0
+          fi
           python - <<'PY'
           import json, pathlib, urllib.request
           q = json.loads(pathlib.Path("engine/adobe_asset_queue.json").read_text())
@@ -43,10 +48,13 @@ jobs:
           PY
 
       - name: Persist production and geography assets to Dropbox
-        if: ${{ secrets.DROPBOX_ACCESS_TOKEN != '' }}
         env:
           DROPBOX_ACCESS_TOKEN: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
         run: |
+          if [ -z "$DROPBOX_ACCESS_TOKEN" ]; then
+            echo 'No Dropbox token configured; skipping Dropbox persistence.'
+            exit 0
+          fi
           python - <<'PY'
           import json, os, pathlib, urllib.request, urllib.error
 

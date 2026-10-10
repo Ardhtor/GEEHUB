@@ -23,7 +23,22 @@ function dreamFromArtifacts(){const a=artifacts();$('#dreamText').textContent=a.
 function renderArtifacts(){const host=$('#artifactStage');if(!host)return;const a=artifacts();if(!a.length){host.innerHTML='<div class="artifact-empty">Nothing has stayed here yet.</div>';return;}host.innerHTML=a.slice(0,8).map(x=>'<article class="artifact-card"><div class="artifact-glyph">✦</div><div class="eyebrow">'+x.type+'</div><h3>'+x.title+'</h3><p>'+x.body+'</p></article>').join('');}
 function saveRoomState(x){localStorage.setItem(ROOM_KEY,JSON.stringify(x));}
 function syncVisited(){document.querySelectorAll('.node').forEach(x=>x.classList.toggle('visited',seen.has(x.dataset.id)));$('#visit').textContent=seen.size?seen.size+' PLACE'+(seen.size===1?'':'S')+' VISITED':'FIRST ARRIVAL';}
-async function load(){const r=await fetch('./world.json');if(!r.ok)throw new Error('world unavailable');world=await r.json();draw();bit();syncVisited();renderRoom();initSwarvic();}
+async function load(){
+  const r=await fetch('./world.json');
+  if(!r.ok)throw new Error('world unavailable');
+  world=await r.json();
+  draw();bit();syncVisited();renderRoom();initSwarvic();
+  const savedId=localStorage.getItem('geehub-current-story-region');
+  const saved=world.regions.find(item=>item.id===savedId);
+  if(saved){
+    lastException=null;
+    syncStoryLocation(saved.id,saved.name);
+    gameOutput(saved);
+    $('#bitTitle').textContent=saved.name;
+    $('#bitText').textContent=saved.description;
+    $('#trailText').textContent='you → '+saved.name;
+  }
+}
 function draw(){const nodes=$('#nodes'),svg=$('#links');nodes.innerHTML=world.regions.map(n=>'<button type="button" class="node" data-id="'+n.id+'" style="left:'+n.x+'%;top:'+n.y+'%;--scale:'+n.size+'" aria-label="'+n.name+'"><span class="node-name">'+n.name+'</span><span class="node-kind">'+n.kind+'</span></button>').join('');const by=Object.fromEntries(world.regions.map(n=>[n.id,n]));svg.innerHTML=world.pleasureBits.map(b=>{const a=by[b.from],c=by[b.to];return '<line x1="'+a.x+'" y1="'+a.y+'" x2="'+c.x+'" y2="'+c.y+'"></line>'}).join('');nodes.querySelectorAll('.node').forEach(el=>el.addEventListener('click',()=>enter(el.dataset.id)));}
 const GEEHUB_FILES=['README.md','CANON.md','CURRENT_STATE_2026-09.md','BUILD_NARRATIVE.md','THE_FIRST_MEN.md','world.json','projects.json','records.json','index.html','app.js','style.css','archive/male-harem/README.md','lore/DEEP_LORE.md','lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md','creative/kirk-siphon.json','rooms/PYYRO_ROOMS.json'];
 function initFilespace(){const tree=$('#fileTree'),view=$('#fileView'),top=$('#fileViewTop'),path=$('#filePath');if(!tree)return;tree.innerHTML=GEEHUB_FILES.map(f=>'<button type="button" data-file="'+f+'">'+f+'</button>').join('');tree.querySelectorAll('button').forEach(b=>b.addEventListener('click',async()=>{const f=b.dataset.file;path.textContent='/GEEHUB/'+f;top.textContent=f.toUpperCase();view.textContent='LOADING…';try{const r=await fetch('./'+f);if(!r.ok)throw new Error('unavailable');const t=await r.text();view.textContent=t.slice(0,18000)+(t.length>18000?'\n\n… FILE CONTINUES …':'');}catch(e){view.textContent='FILE UNAVAILABLE IN THIS BUILD.\n\n'+f;}}));}
@@ -81,6 +96,7 @@ function syncStoryLocation(regionId, regionName){const place=STORY_PLACE_BY_REGI
 function gameOutput(n){
   const el=$('#gameNarrative'),state=$('#gameRunState'),cmd=$('#gameCommand');
   if(!el)return;
+  try{localStorage.setItem('geehub-current-story-region',n.id);}catch{}
   state.textContent=worldRunning?'RUNNING // LIVE':'ENCOUNTER // HELD';
   cmd.textContent=n.name.toUpperCase();
   const scene=WORLD_BROADCASTS[n.id]||[

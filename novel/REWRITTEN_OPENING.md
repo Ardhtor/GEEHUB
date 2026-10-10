@@ -1,6 +1,6 @@
-# THE ROAD OF SEVEN WELLS
-## GEEHUB — REWRITTEN OPENING
-*A revised manuscript opening*
+# GEEHUB — BOOK I: THE HOUSE OF OPEN SCREENS
+## Full environmental rewrite · Chapters I–LXXII
+*Podcast-style narration by Seth Feroce and Nick Mercx; continuous paragraphs, with scene transitions led by place, atmosphere, bodies, and incidental detail.*
 
 ## Chapter I: The Road of Seven Wells
 

@@ -12,7 +12,7 @@ import re
 import sys
 from pathlib import Path
 
-REPO_RE = re.compile(r"^[^/\\s]+/[^/\\s]+$")
+REPO_RE = re.compile(r"^[^/\s]+/[^/\s]+$")
 REQUIRED = {"id", "name", "group", "status", "summary", "path", "tags"}
 ALLOWED_STATUS = {"active", "incubating", "dormant"}
 

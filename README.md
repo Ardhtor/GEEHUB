@@ -72,6 +72,10 @@ Image, sound, motion, timing, interface response, accumulated memory, and change
 
 The question is not only what the computer shows. It is what the person can feel has happened between them and the machine.
 
+The first viewport now leads with a live story window instead of a blank prompt. On arrival, the window opens with Seth and Nick describing the northern road; its screen tears open through a masked aperture, pushes forward in perspective, and sends a viewport wave outward. Region selection updates the broadcast and the story-map pin together, and the selected region is restored on the next visit. Reduced-motion settings preserve the raised window and visible breach without the lunge or recoil.
+
+The fourteen world regions each have an environmental broadcast. Their narration gives the place weather, surfaces, bodies, acoustics, and incidental activity beyond the immediate plot. The window and map are tied together by the same location state rather than behaving as separate cards.
+
 ## The novel
 
 The source manuscript is [novel/BOOK_I.md](novel/BOOK_I.md), **GEEHUB — BOOK I: THE HOUSE OF OPEN SCREENS**. The full environmental rewrite draft, covering all 72 chapters, is [novel/REWRITTEN_OPENING.md](novel/REWRITTEN_OPENING.md). It uses Seth Feroce and Nick Mercx as podcast-style narrators, expands non-plot details, and keeps paragraph breaks tied to changes in place, atmosphere, physical presence, and environmental attention rather than isolated plot beats.

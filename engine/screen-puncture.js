@@ -25,7 +25,12 @@
           <radialGradient id="punctureDepth" cx=".48" cy=".43" r=".55">
             <stop offset="0" stop-color="#000103" stop-opacity=".94"/><stop offset=".62" stop-color="#020508" stop-opacity=".45"/><stop offset="1" stop-color="#04080b" stop-opacity="0"/>
           </radialGradient>
+          <mask id="punctureApertureMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="620">
+            <rect width="1000" height="620" fill="#fff"/>
+            <path d="M498 258 L532 229 545 197 568 220 603 198 609 234 645 241 626 270 655 295 624 314 635 348 597 345 581 377 555 353 526 382 509 350 472 365 466 329 428 319 449 291 431 258 469 258 475 225Z" fill="#000"/>
+          </mask>
         </defs>
+        <rect class="screen-puncture-shade" width="1000" height="620" mask="url(#punctureApertureMask)"/>
         <path class="screen-puncture-rift" d="M498 258 L532 229 545 197 568 220 603 198 609 234 645 241 626 270 655 295 624 314 635 348 597 345 581 377 555 353 526 382 509 350 472 365 466 329 428 319 449 291 431 258 469 258 475 225Z"/>
         <path d="M458 279 L400 250 361 212 300 205 267 170 M444 300 L383 323 338 366 282 373 245 415 M475 337 L455 393 423 439 430 487 M526 347 L536 409 581 454 598 505 M579 333 L638 362 687 399 754 399 M601 288 L666 267 718 226 784 230 823 205 M552 236 L574 185 608 148 614 102 M495 239 L478 191 443 159 435 106 M431 289 L381 284 327 297 281 284 M613 310 L681 318 734 350 796 339" class="screen-puncture-crack deep"/>
         <path d="M458 279 L400 250 361 212 300 205 267 170 M444 300 L383 323 338 366 282 373 245 415 M475 337 L455 393 423 439 430 487 M526 347 L536 409 581 454 598 505 M579 333 L638 362 687 399 754 399 M601 288 L666 267 718 226 784 230 823 205 M552 236 L574 185 608 148 614 102 M495 239 L478 191 443 159 435 106 M431 289 L381 284 327 297 281 284 M613 310 L681 318 734 350 796 339" class="screen-puncture-crack"/>
@@ -38,7 +43,7 @@
     const wave = document.createElement('div');
     wave.className = 'screen-camera-impact';
     wave.setAttribute('aria-hidden','true');
-    document.body.appendChild(wave);
+    document.documentElement.appendChild(wave);
 
     let lastHit = -Infinity;
     let previousNarrative = narrative ? narrative.textContent : '';
@@ -49,6 +54,9 @@
       const now = performance.now();
       if (now - lastHit < 850) return;
       lastHit = now;
+      const screenRect = screen.getBoundingClientRect();
+      wave.style.left = (screenRect.left + screenRect.width / 2) + 'px';
+      wave.style.top = (screenRect.top + screenRect.height / 2) + 'px';
       shell.classList.add('screen-punctured');
       if (reducedMotion()) return;
       shell.classList.remove('screen-impact-active');

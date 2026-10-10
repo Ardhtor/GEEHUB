@@ -396,6 +396,8 @@
     if (savedId && region(savedId)) {
       state.currentRegion = savedId;
       if (savedState !== savedId) { state.phase = 0; state.nextRegion = null; }
+      const mapPlace = api.mapPlace?.(savedId) || region(savedId)?.name || savedId;
+      window.GEEHUB_STORY_ATLAS?.locate({location:mapPlace});
       const narrative = document.getElementById('gameNarrative');
       if (narrative && /PRESS RUN TO ENTER THE WORLD|SETH \/ FIRST SIGHT/.test(narrative.textContent)) {
         api.enter(savedId, {source:'restore'});

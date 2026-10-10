@@ -86,7 +86,7 @@
       const button = document.getElementById(id);
       if (button) button.addEventListener('click', () => window.setTimeout(() => impact('world-action'), 90));
     });
-    document.addEventListener('geehub:screen-puncture', () => impact('external'));
+    ['geehub:story-location','geehub:world-history','geehub:environmental-transition'].forEach(type => {\n      document.addEventListener(type, () => impact('world-state'));\n    });\n    document.addEventListener('geehub:screen-puncture', () => impact('external'));
     window.GEEHUB_SCREEN_PUNCTURE = {impact};
   };
 

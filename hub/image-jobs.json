@@ -2,6 +2,17 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00024",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00024.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "EMBODIED SCALE / LONG PLAY / JOSEPH",
+      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00024. Preserve region embodied-scale and inherited geography. Adult male human subject joseph at 4.06x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
+      "created": "2026-10-10T16:20:02.955Z"
+    },
+    {
       "id": "scheduled-image-00023",
       "status": "QUEUED",
       "type": "IMAGE",

@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00024",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "embodied-scale",
+  "position": {
+    "x": 64,
+    "y": 38,
+    "z": 0
+  },
+  "camera": {
+    "x": 64,
+    "y": 38,
+    "z": 1.7,
+    "heading": 192,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "joseph",
+    "scale": 4.06
+  },
+  "environment": {
+    "occupancy": 4.06,
+    "clearance": 0.246,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "embodied-scale",
+      "name": "EMBODIED SCALE"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 3.94,
+      "to": 4.06
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 24
+  },
+  "timestamp": "2026-10-10T16:20:02.955Z"
+}

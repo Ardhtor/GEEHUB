@@ -4,6 +4,11 @@ on:
   push:
     paths:
       - 'hub/**'
+      - 'app.js'
+      - 'index.html'
+      - 'style.css'
+      - 'world.json'
+      - 'engine/**'
       - 'validate-records.py'
       - '.github/workflows/validate-data.yml'
   pull_request:
@@ -25,6 +30,42 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Check browser script syntax
+        run: |
+          node --check app.js
+          node --check engine/story-atlas.js
+          node --check engine/screen-puncture.js
+          node --check engine/environmental-transitions.js
+      - name: Validate world broadcast and map coverage
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const app = fs.readFileSync('app.js', 'utf8');
+          const html = fs.readFileSync('index.html', 'utf8');
+          const world = JSON.parse(fs.readFileSync('world.json', 'utf8'));
+          const mapStart = app.indexOf('const STORY_PLACE_BY_REGION = ') + 'const STORY_PLACE_BY_REGION = '.length;
+          const mapEnd = app.indexOf(';\nconst WORLD_BROADCASTS', mapStart);
+          const broadcastStart = app.indexOf('const WORLD_BROADCASTS = ') + 'const WORLD_BROADCASTS = '.length;
+          const broadcastEnd = app.indexOf(';\nfunction syncStoryLocation', broadcastStart);
+          if (mapStart < 30 || mapEnd < mapStart || broadcastStart < 30 || broadcastEnd < broadcastStart) {
+            throw new Error('Missing story place or broadcast registry');
+          }
+          const placeMap = JSON.parse(app.slice(mapStart, mapEnd));
+          const broadcasts = JSON.parse(app.slice(broadcastStart, broadcastEnd));
+          const missing = world.regions.map(r => r.id).filter(id => !placeMap[id] || !broadcasts[id]);
+          if (missing.length) throw new Error('Missing world broadcast/map mapping: ' + missing.join(', '));
+          for (const file of ['./engine/screen-puncture.css', './engine/screen-puncture.js', './engine/story-atlas.js']) {
+            if (!html.includes(file)) throw new Error('index.html does not load ' + file);
+          }
+          if (!html.includes('SETH / FIRST SIGHT') || !html.includes('THE NORTHERN ROAD')) {
+            throw new Error('First-arrival story or map location is missing');
+          }
+          console.log('Validated ' + world.regions.length + ' world broadcasts, map destinations, and interface assets.');
+          NODE
       - name: Validate Python tools
         run: python -m py_compile hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py
       - name: Run portable jam regression test

@@ -1,6 +1,11 @@
 name: GEEHUB // AUTONOMOUS WORLD ENGINE
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'engine/run_world.py'
+      - '.github/workflows/world-engine.yml'
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:

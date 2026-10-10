@@ -340,8 +340,10 @@
     state.currentRegion = detail.id;
     state.visits[detail.id] = Number(state.visits[detail.id] || 0) + (detail.source === 'restore' ? 0 : 1);
     if (detail.source !== 'restore') state.lastVisits[detail.id] = stamp();
-    state.nextRegion = null;
-    state.phase = 0;
+    if (detail.source !== 'restore') {
+      state.nextRegion = null;
+      state.phase = 0;
+    }
     if (detail.source !== 'restore') {
       const response = detail.exception || 'ARRIVAL';
       const body = response === 'RETURN'
@@ -384,7 +386,82 @@
     renderProgress(state.runMode ? 'WORLD / FAST CYCLE' : 'WORLD / SELF-GOVERNING');
     schedule(state.runMode ? 600 : TICK_MS);
   }
-  function boot() {
+  async function readPersistentState() {
+    try {
+      const response = await fetch('./engine/state.json?ts=' + Date.now(), {cache:'no-store'});
+      if (!response.ok) return null;
+      return await response.json();
+    } catch (_) { return null; }
+  }
+  function serverRegionId(server, api) {
+    if (!server) return null;
+    const world = api.getWorld?.();
+    const regions = world?.regions || [];
+    if (server.active_region && regions.some(item => item.id === server.active_region)) return server.active_region;
+    const latest = (server.events || []).slice(-1)[0];
+    if (latest?.region_id && regions.some(item => item.id === latest.region_id)) return latest.region_id;
+    const legacy = String(latest?.world || '').toUpperCase();
+    const byName = regions.find(item => String(item.name || '').toUpperCase() === legacy);
+    if (byName) return byName.id;
+    const map = {'PYYRO ENERGY':'discovery','POETRY SEEP':'deep-lore','DEEP LORE':'deep-lore','NOVEL ENGINE':'complex','VEY RTHALIS':'veyrthalis','THE COMPLEX':'complex'};
+    return regions.some(item => item.id === map[legacy]) ? map[legacy] : null;
+  }
+  function mergePersistentState(server, api, localSavedId) {
+    if (!server) return {current:localSavedId, source:'browser'};
+    const events = Array.isArray(server.events) ? server.events : [];
+    const newestServerTime = Date.parse(events.slice(-1)[0]?.time || 0) || 0;
+    const newestBrowserTime = Math.max(
+      Date.parse(state.lastEvent?.at || '') || 0,
+      Number(state.lastHumanActionAt || 0)
+    );
+    const serverId = serverRegionId(server, api);
+    const browserId = localSavedId && region(localSavedId) ? localSavedId : state.currentRegion;
+    const browserWins = Boolean(browserId && region(browserId) && newestBrowserTime > newestServerTime);
+    const current = browserWins ? browserId : (serverId || browserId || null);
+    state.sequence = Math.max(Number(state.sequence || 0), Number(server.pulse || 0));
+    state.pressure = Math.max(Number(state.pressure || 0.18), Number(server.pressure || 0.18));
+    state.memory = Math.max(Number(state.memory || 0.5), Number(server.memory || 0.5));
+    for (const [id, count] of Object.entries(server.visits || {})) {
+      state.visits[id] = Math.max(Number(state.visits[id] || 0), Number(count || 0));
+    }
+    const serverVisitTimes = {};
+    for (const event of events) {
+      const id = event.region_id;
+      const at = Date.parse(event.time || '') || 0;
+      if (id && at > Number(serverVisitTimes[id] || 0)) serverVisitTimes[id] = at;
+    }
+    for (const [id, at] of Object.entries(serverVisitTimes)) {
+      state.lastVisits[id] = Math.max(Number(state.lastVisits[id] || 0), at);
+    }
+    const serverHistory = events.slice(-MAX_HISTORY).map(event => ({
+      id:'persistent-pulse-' + event.pulse,
+      type:event.phase || event.type || 'PERSISTED',
+      title:event.title || ((event.phase || 'WORLD') + ' / ' + (event.world || event.region_id || 'PLACE')),
+      body:event.action || event.text || '',
+      from:event.previous_region_id || event.region_id || null,
+      to:event.next_region || event.region_id || null,
+      at:event.time || now(),
+      source:'persistent-engine'
+    }));
+    const priorHistory = state.history || [];
+    const ids = new Set(priorHistory.map(event => event.id));
+    state.history = [...priorHistory, ...serverHistory.filter(event => !ids.has(event.id))]
+      .sort((a,b) => (Date.parse(b.at || '') || 0) - (Date.parse(a.at || '') || 0))
+      .slice(0, MAX_HISTORY);
+    const latestServer = serverHistory[serverHistory.length - 1];
+    if (latestServer && !browserWins) state.lastEvent = latestServer;
+    if (current && !browserWins) {
+      state.currentRegion = current;
+      state.phase = Number(server.phase || 0);
+      state.nextRegion = server.next_region || null;
+    } else if (current) {
+      state.currentRegion = current;
+    }
+    persist();
+    return {current, source:browserWins ? 'browser' : 'persistent-engine'};
+  }
+
+  async function boot() {
     if (booted) return;
     const api = window.GEEHUB_WORLD;
     const world = api?.getWorld?.();
@@ -411,28 +488,31 @@
       if (document.hidden) clearTimeout(timer);
       else schedule(1800);
     });
-    const savedId = api.currentId?.();
+    const localSavedId = api.currentId?.();
     const savedState = state.currentRegion;
     state.runMode = false;
-    if (savedId && region(savedId)) {
-      state.currentRegion = savedId;
-      if (savedState !== savedId) { state.phase = 0; state.nextRegion = null; }
-      const mapPlace = api.mapPlace?.(savedId) || region(savedId)?.name || savedId;
-      window.GEEHUB_STORY_ATLAS?.locate({location:mapPlace});
-      const narrative = document.getElementById('gameNarrative');
-      if (narrative && /PRESS RUN TO ENTER THE WORLD|SETH \/ FIRST SIGHT/.test(narrative.textContent)) {
-        api.enter(savedId, {source:'restore'});
+    const server = await readPersistentState();
+    const selection = mergePersistentState(server, api, localSavedId);
+    const currentId = selection.current && region(selection.current) ? selection.current : 'discovery';
+    const mapPlace = api.mapPlace?.(currentId) || region(currentId)?.name || currentId;
+    window.GEEHUB_STORY_ATLAS?.locate({location:mapPlace});
+    if (localSavedId !== currentId || savedState !== currentId) {
+      state.currentRegion = currentId;
+      persist();
+      api.enter(currentId, {source:'restore'});
+      // Restore must synchronize the visible window without resetting imported phase/route.
+      if (selection.source === 'persistent-engine' && server) {
+        state.currentRegion = currentId;
+        state.phase = Number(server.phase || 0);
+        state.nextRegion = server.next_region || null;
+        persist();
       }
-      state.visits[savedId] = Number(state.visits[savedId] || 0);
-      persist();
-      renderProgress('WORLD / MEMORY RESTORED');
     } else {
-      state.currentRegion = null;
-      state.phase = 0;
-      state.nextRegion = null;
+      state.currentRegion = currentId;
       persist();
-      api.enter('discovery', {source:'world-start'});
     }
+    state.visits[currentId] = Number(state.visits[currentId] || 0);
+    renderProgress(selection.source === 'persistent-engine' ? 'WORLD / PERSISTENT STATE RESTORED' : 'WORLD / MEMORY RESTORED');
     schedule(FIRST_TICK_MS);
     window.GEEHUB_WORLD_AUTONOMY = {setRunMode, state:() => ({...state, history:[...(state.history||[])]}), tick:() => tick(), schedule:delay => schedule(delay)};
     document.dispatchEvent(new CustomEvent('geehub:world-autonomy-ready', {detail:{currentRegion:state.currentRegion, at:now()}}));

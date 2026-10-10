@@ -230,6 +230,11 @@
     });
     return candidates.length ? {id:candidates[0].id, edge:{title:'THE NEXT UNVISITED PLACE',text:'The world opens the least-visited available destination without discarding this one.'}, order:999} : null;
   }
+  function applyEnvironment(stage, detail) {
+    if (window.GEEHUB_ENVIRONMENT?.transition) {
+      try { window.GEEHUB_ENVIRONMENT.transition(stage, detail || ''); } catch (_) {}
+    }
+  }
   function renderProgress(phaseName) {
     const el = document.getElementById('gameRunState');
     if (el) el.textContent = phaseName;
@@ -257,6 +262,7 @@
       const paragraph = activeCue(0);
       state.phase = 1;
       quietAppend('SETH / THE ENVIRONMENT MOVES', paragraph);
+      applyEnvironment('NOTICE', paragraph);
       renderProgress('WORLD / CONDITIONS SHIFT');
       record('ATMOSPHERE', 'THE ENVIRONMENT MOVES // ' + current.name, paragraph, current.id, current.id);
       schedule();
@@ -268,6 +274,7 @@
       state.phase = 2;
       quietAppend('NICK / A DETAIL RETURNS', paragraph);
       state.pressure = Math.min(1, Number(state.pressure || 0.18) + 0.06);
+      applyEnvironment(state.pressure >= 0.62 ? 'PRESSURE' : 'COMPARE', paragraph);
       renderProgress('WORLD / MEMORY DEEPENS');
       record('MEMORY', 'A DETAIL RETURNS // ' + current.name, paragraph, current.id, current.id);
       schedule();
@@ -291,6 +298,7 @@
       const description = next.edge?.text || 'The current place has begun to point toward another place.';
       const paragraph = 'A line becomes visible between ' + current.name + ' and ' + (dest?.name || next.id) + '. The archive names the relation "' + relation + '". ' + description + ' The current place remains visible on the map; the route is open, but nobody has crossed it yet.';
       quietAppend('NICK / A ROUTE FORMS', paragraph);
+      applyEnvironment(state.pressure >= 0.62 ? 'BALLOONING' : 'EXPANSION', paragraph);
       renderProgress('WORLD / ROUTE OPEN // ' + (dest?.name || next.id).toUpperCase());
       record('ROUTE_OPEN', relation, paragraph, current.id, next.id);
       schedule();
@@ -308,6 +316,7 @@
         return;
       }
       const routeBody = 'The route that opened between ' + current.name + ' and ' + dest.name + ' has remained present across the interval. The world now crosses it, carrying the previous location into the record rather than replacing it.';
+      applyEnvironment(state.pressure >= 0.78 ? 'NEW BASELINE' : 'HOLD', routeBody);
       record('CROSSING', 'THE WORLD CROSSES ITS OWN ROUTE', routeBody, current.id, dest.id);
       state.pressure = Math.max(0.12, Number(state.pressure || 0.18) - 0.12);
       state.nextRegion = null;

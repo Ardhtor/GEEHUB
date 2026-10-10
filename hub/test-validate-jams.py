@@ -15,7 +15,7 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VALIDATOR = ROOT / "validate-jams.py"
+VALIDATOR = ROOT / "hub" / "validate-jams.py"
 
 VALID = [
     {

@@ -178,3 +178,21 @@ body.screen-camera-hit{animation:viewer-recoil 310ms cubic-bezier(.2,.7,.12,1)}
   .screen-punctured .screen-puncture-rift,.game-console.screen-impact-active .game-screen,.game-console.screen-impact-active .screen-puncture-rift,.game-console.screen-impact-active .screen-puncture-crack,.game-console.screen-impact-active .screen-puncture-rim,.screen-camera-impact.play,body.screen-camera-hit{animation:none!important}
   .game-console.screen-punctured .game-screen{transform:translateZ(0) scale(1)}
 }
+
+
+/* Autonomous world state: a quiet live readout, not a control panel. */
+.world-autonomy-state{
+  display:inline-flex;
+  align-items:center;
+  min-height:24px;
+  padding:0 .65rem;
+  border-left:1px solid rgba(173,210,232,.22);
+  color:#b9d9e8;
+  font:700 .58rem/1.3 ui-monospace,SFMono-Regular,Menlo,monospace;
+  letter-spacing:.1em;
+  white-space:nowrap;
+}
+@media(max-width:700px){
+  .game-top{flex-wrap:wrap}
+  .world-autonomy-state{margin-left:auto}
+}

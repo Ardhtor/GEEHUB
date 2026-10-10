@@ -14,7 +14,7 @@ from pathlib import Path
 
 REPO_RE = re.compile(r"^[^/\s]+/[^/\s]+$")
 REQUIRED = {"id", "name", "group", "status", "summary", "path", "tags"}
-ALLOWED_STATUS = {"active", "incubating", "dormant"}
+ALLOWED_STATUS = {"active", "incubating", "dormant", "prototype"}
 
 
 def fail(message: str) -> None:

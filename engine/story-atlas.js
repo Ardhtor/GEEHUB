@@ -4,12 +4,12 @@
 (() => {
   const KEY = 'geehub-story-atlas-v1';
   const places = [
-    {id:'threshold',name:'THE BLACK WINDOW',x:17,y:67,stage:'NOTICE'},
-    {id:'signal',name:'THE SIGNAL CHAMBER',x:31,y:48,stage:'PRESSURE'},
-    {id:'door',name:'THE OPENING',x:43,y:72,stage:'SWELL'},
-    {id:'map',name:'THE UNFINISHED TERRITORY',x:58,y:36,stage:'EXPANSION'},
-    {id:'archive',name:'THE LIVING ARCHIVE',x:73,y:57,stage:'COMPARE'},
-    {id:'hyper',name:'HYPER / EXPANSION FIELD',x:83,y:27,stage:'HYPER'},
+    {id:'threshold',name:'THE NORTHERN ROAD',x:17,y:67,stage:'NOTICE'},
+    {id:'signal',name:'THE SEVENTH WELL',x:31,y:48,stage:'PRESSURE'},
+    {id:'door',name:'THE RESERVOIR CITY',x:43,y:72,stage:'SWELL'},
+    {id:'map',name:'THE BLUE HALL',x:58,y:36,stage:'EXPANSION'},
+    {id:'archive',name:'THE HOUSE OF OPEN SCREENS',x:73,y:57,stage:'COMPARE'},
+    {id:'hyper',name:'VEY RTHALIS / DIGITORIUM',x:83,y:27,stage:'HYPER'},
     {id:'hold',name:'THE NEW BASELINE',x:88,y:72,stage:'NEW BASELINE'}
   ];
   let current = 'threshold';

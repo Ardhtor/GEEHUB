@@ -36,3 +36,8 @@ The change begins as fullness: the chest rises, the deltoids round outward, and 
 ## Continuity principle
 
 **Muscle = presence made visible. Growth = intensification, not erasure.** The experience should honor the user's fetish directly while keeping the world playful, revisable, and under the user's control.
+
+
+## Environmental continuity — global rule
+
+A line break is an environmental event, not a typographic instruction. When writing needs a new paragraph, scene, speaker, or focus, let the environment carry the transition through light, camera movement, architecture, sound, distance, weather, or the world's response. The environment is the punctuation. Apply this across GEEHUB prose, narration, chapters, map transitions, artifact captions, and interface copy. The complete script is in [HYPER_COMPLETE_EXPERIENCE.md](HYPER_COMPLETE_EXPERIENCE.md). The browser scene field is implemented by `engine/environmental-transitions.js` and `engine/environmental-transitions.css`.

@@ -101,8 +101,13 @@
       const button = document.getElementById(id);
       if (button) button.addEventListener('click', () => window.setTimeout(() => impact('world-action'), 90));
     });
-    ['geehub:story-location','geehub:world-history','geehub:environmental-transition'].forEach(type => {
-      document.addEventListener(type, () => impact('world-state'));
+    document.addEventListener('geehub:story-location', () => impact('world-location'));
+    const majorStages = new Set(['EXPANSION','BALLOONING','HYPER','NEW BASELINE']);
+    ['geehub:environmental-transition','geehub:world-history'].forEach(type => {
+      document.addEventListener(type, event => {
+        const stage = String(event.detail?.stage || '').toUpperCase();
+        if (majorStages.has(stage)) impact('world-threshold');
+      });
     });
     document.addEventListener('geehub:screen-puncture', () => impact('external'));
     document.addEventListener('geehub:world-encounter', event => {

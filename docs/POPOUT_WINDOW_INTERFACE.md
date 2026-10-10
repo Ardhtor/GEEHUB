@@ -1,24 +1,28 @@
-# Pop-Out Window — GEEHUB Interface Direction
+# Screen Puncture — GEEHUB Interface Direction
 
-The active story window must feel like it projects toward the viewer, not like a flat card buried in a dashboard. This is a visual and interaction requirement for the GEEHUB interface.
+The active story window is not a floating card. It is a breach in the display plane: the scene drives forward through a jagged opening toward the viewer, with enough perspective, shadow, and spatial recoil to make the computer feel as though it has reached across the screen.
 
-## The feeling
+## The impact
 
-The window is the focal object. It has a strong near edge, visible depth, a small amount of perspective, and a shadow that separates it from the map and archive behind it. Its top edge and title bar catch light; the lower edge casts a deeper shadow. The content inside remains a real scene or world view, not a promotional graphic or text-heavy panel. The rest of the interface recedes quietly.
+On RUN, story arrival, or a meaningful interaction, the window lunges toward the viewer. The panel overshoots, recoils, then settles slightly forward from its original plane. A jagged aperture opens over the story surface; fractured lines race outward across the display; a cold edge-light catches the torn rim. A single expanding wave crosses the viewport, and the surrounding interface gives a small visual recoil. The experience should feel like the scene has punched through glass and entered the viewer's space—not like a card sliding in.
 
-## Interaction
+The hole must read as depth, not a black sticker. Use a dark recess, lit broken edges, uneven fracture lines, perspective distortion, and a strong cast shadow. Let the actual map and narrative remain visible through and around the breach. The tear should mark the moment the world crosses the interface boundary.
 
-- On opening or selecting a story, the window advances toward the viewer with a short, smooth ease-out motion, then settles. It should feel like a screen being brought forward, not a notification sliding in.
-- Hovering or focusing the window increases its depth slightly and sharpens the edge lighting. Avoid constant bobbing, flashing, or exaggerated motion.
-- The map remains visible behind it as a passive illustrated geography. A small pin marks the user's current story location; the window belongs to that place.
-- The title bar stays readable and provides a clear grab/drag area. A close or minimize control remains easy to find. The window should never obscure all navigation or trap the user.
-- When the user changes story location, the map pin moves and the window content changes in place. Keep continuity between map position, story record, and the visible scene.
-- Respect reduced-motion preferences. In reduced-motion mode, use a stable raised window with depth cues and no entrance animation.
+## Relationship to the world
 
-## Visual construction
+The full textured map remains present inside the window as passive geography. The current story pin marks where the event is taking place. The scene projects from that location; the pin and narrative state remain synchronized. The window itself is the focal object, while the rest of the interface recedes.
 
-Use layered depth rather than a giant glow: dark outer frame, fine edge highlight, subtly lit title bar, realistic ambient shadow, and a restrained perspective tilt. The scene inside the window should be bright and legible enough to attract the eye immediately. Surrounding panels should be quieter, smaller, and lower contrast. The result should feel like an actual window into the world, not a dashboard tile.
+Environmental detail, character presence, and motion should carry the scene through the breach. Avoid poster art, infographic layouts, giant explanatory overlays, constant idle motion, or a generic glowing card. Let the place feel inhabited beyond the immediate plot.
+
+## Interaction and accessibility
+
+- The breach triggers on RUN and on meaningful story-window interactions, with a brief lunge, fracture flare, and viewport shockwave.
+- After the hit, the window remains slightly raised and the fractured rim stays visible as a trace of the encounter.
+- Debounce rapid repeated triggers so the effect feels consequential rather than noisy.
+- No sound is required. Do not force navigation or block controls.
+- Respect reduced-motion preferences: retain the raised frame and visible tear, but omit the camera recoil, lunge, and expanding wave.
+- Keep the title/status bar legible and maintain usable navigation around the active view.
 
 ## Acceptance test
 
-At first glance, the user should notice the scene window first, feel that it sits in front of the interface, and understand that it can be opened, moved, and explored. The map and archive should support that experience without competing with it.
+A viewer should notice the scene immediately, perceive the display surface splitting open, feel the scene advance toward them, and understand that the map and story are one place. The effect must be implemented in the interface, not merely described in a planning document.

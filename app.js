@@ -118,8 +118,9 @@ function gameOutput(n,source='render',priorId=null){
 }function deriveWorldResponse(id,priorId){
   if(priorId===id)return 'ECHO';
   if(seen.has(id))return 'RETURN';
-  const related=Boolean(priorId&&world?.pleasureBits?.some(b=>(b.from===priorId&&b.to===id)||(b.to===priorId&&b.from===id)));
-  return related?'RESONANCE':'ARRIVAL';
+  if(!priorId)return 'ARRIVAL';
+  const related=Boolean(world?.pleasureBits?.some(b=>(b.from===priorId&&b.to===id)||(b.to===priorId&&b.from===id)));
+  return related?'RESONANCE':'DRIFT';
 }
 function enter(id,context={}){
   const n=world?.regions?.find(x=>x.id===id);

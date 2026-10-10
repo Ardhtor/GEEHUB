@@ -4,6 +4,8 @@
 (() => {
   const init = () => {
     const shell = document.getElementById('gameConsole');
+    const top = document.querySelector('main.world > header.top');
+    if (shell && top && top.nextElementSibling !== shell) top.insertAdjacentElement('afterend', shell);
     const screen = shell && shell.querySelector('.game-screen');
     const narrative = document.getElementById('gameNarrative');
     if (!shell || !screen || shell.dataset.punctureReady) return;
@@ -38,7 +40,7 @@
     wave.setAttribute('aria-hidden','true');
     document.body.appendChild(wave);
 
-    let lastHit = 0;
+    let lastHit = -Infinity;
     let previousNarrative = narrative ? narrative.textContent : '';
     let firstMutation = true;
     const reducedMotion = () => window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -86,7 +88,12 @@
       const button = document.getElementById(id);
       if (button) button.addEventListener('click', () => window.setTimeout(() => impact('world-action'), 90));
     });
-    ['geehub:story-location','geehub:world-history','geehub:environmental-transition'].forEach(type => {\n      document.addEventListener(type, () => impact('world-state'));\n    });\n    document.addEventListener('geehub:screen-puncture', () => impact('external'));
+    ['geehub:story-location','geehub:world-history','geehub:environmental-transition'].forEach(type => {
+      document.addEventListener(type, () => impact('world-state'));
+    });
+    document.addEventListener('geehub:screen-puncture', () => impact('external'));
+    // The first arrival should be felt without requiring the user to scroll or press RUN.
+    window.setTimeout(() => impact('first-arrival'), 800);
     window.GEEHUB_SCREEN_PUNCTURE = {impact};
   };
 

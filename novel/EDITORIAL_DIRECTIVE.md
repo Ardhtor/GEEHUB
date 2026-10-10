@@ -1,39 +1,27 @@
 # GEEHUB Novel Editorial Directive
 
-Revise the manuscript as a living novel inside a continuous announcing world.
+Revise the entire manuscript as a continuous environmental broadcast. The narrator's default delivery is a podcast-style announcement by Seth Feroce and Nick Mercx, observing the world from within it.
 
-## Voice
+The global rule is documented in [../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md).
 
-Use the GEEHUB editorial voice defined in [../docs/EDITORIAL_VOICE.md](../docs/EDITORIAL_VOICE.md). The cadence is an announcer's cadence: immediate, confident, observant, and able to make a change feel present without explaining it twice.
+## Paragraphs and breaks
 
-The paragraph should feel witnessed rather than summarized.
+Every paragraph break and scene transition should be driven by non-plot information: environment, geography, architecture, weather, light, color, spatial depth, surfaces, sound, temperature, distance, machinery, atmosphere, and the physical presence of people within a place. Line breaks are environmental descriptors, not isolated plot beats.
 
-## Paragraphs
+Use substantial paragraphs. Keep atmosphere, movement, physical sensation, memory, character presence, thought, and consequence together when they belong to the same stretch of experience. Let the setting carry transitions. Avoid object inventories, screenplay beats, ornamental fragments, and explanatory padding.
 
-Use substantial paragraphs. Keep atmosphere, movement, physical sensation, memory, character presence, thought, and consequence together when they belong to the same beat.
+## Broadcast voice
 
-Cut repetition. Cut explanatory padding. Cut ornamental fragments that do not change the rhythm. Keep concrete detail when it gives the reader something to see, hear, feel, or remember.
+Seth and Nick should sound like conversational co-narrators announcing what is present: noticing scale, comparing details, reacting to sound and texture, and returning to features of the environment as their meaning changes. Use the reference as a broad direction rather than copying anyone's exact phrasing. Not every paragraph needs dialogue, but the announcing presence should remain audible across the prose.
 
-Do not turn the manuscript into screenplay beats or object inventories. Let rooms, weather, bodies, distance, light, sound, history, and emotion share the same paragraph when the scene does.
+## Character and canon
 
-## Character
+Character continuity is carried by habits, speech, movement, memory, and relationships. Do not re-explain a character every time he appears. Bill's history should emerge through what he notices, remembers, and tells. Luke remains Luke while his circumstances and physical baseline change. Tyler, Kirk, Joseph, Berit, and the other recurring figures retain their established identities and relationships.
 
-Character continuity is carried by habits, speech, movement, memory, and relationships. Do not re-explain a character every time he appears. Show the accumulated person.
-
-Bill's history should emerge through what he notices, remembers, and tells. Luke should remain Luke while his circumstances and physical baseline change. Tyler, Kirk, Joseph, Berit, and the other recurring figures retain their established identities and relationships.
-
-## Continuity
-
-Preserve canon and expand it rather than replacing it with summaries.
-
-Keep Luke, Tyler, Kirk, Joseph, Bill, the Sacred Fountain, the wells, the Serum, the house, Big Daddy's Voice, the first man, and existing artifact relationships in continuity.
+Preserve the Sacred Fountain, the wells, the Serum, the house, Big Daddy's Voice, the first man, existing artifacts, chronology, and established relationships. Do not silently promote experiments or speculation into canon.
 
 ## Revision rule
 
-When revising an existing chapter, preserve its factual events and important lines where possible. Rebuild the surrounding prose so each paragraph delivers the event clearly, makes the change visible, and carries the consequence forward.
+Revise in place and preserve factual events and important lines wherever possible. Rebuild the prose around them so each paragraph inhabits the environment and each break deepens the reader's sense of place. Do not replace the manuscript with a summary, erase canon, or invent consequential events merely to make a passage more dramatic.
 
-Core engine:
-
-`WHAT IS WRONG → WHAT DOES IT PRODUCE → WHAT HAS CHANGED → WHAT NOW EXISTS`
-
-The answer belongs in the scene.
+The plot remains intact; the environment becomes the continuous carrier of the reader's experience.

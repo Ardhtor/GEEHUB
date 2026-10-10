@@ -105,8 +105,9 @@
       document.addEventListener(type, () => impact('world-state'));
     });
     document.addEventListener('geehub:screen-puncture', () => impact('external'));
-    // The first arrival should be felt without requiring the user to scroll or press RUN.
-    window.setTimeout(() => impact('first-arrival'), 800);
+    document.addEventListener('geehub:world-encounter', event => {
+      if (event.detail?.source !== 'restore') impact('world-arrival');
+    });
     window.GEEHUB_SCREEN_PUNCTURE = {
       impact,
       quietNarrativeUpdate(fn) {

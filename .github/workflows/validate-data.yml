@@ -44,6 +44,7 @@ jobs:
           node --check app.js
           node --check engine/story-atlas.js
           node --check engine/screen-puncture.js
+          node --check engine/world-autonomy.js
           node --check engine/environmental-transitions.js
       - name: Validate world broadcast and map coverage
         run: |
@@ -61,9 +62,17 @@ jobs:
           }
           const placeMap = JSON.parse(app.slice(mapStart, mapEnd));
           const broadcasts = JSON.parse(app.slice(broadcastStart, broadcastEnd));
+          const autonomy = fs.readFileSync('engine/world-autonomy.js', 'utf8');
+          const enterStart = app.indexOf('function deriveWorldResponse');
+          const enterEnd = app.indexOf('function triggerHit()', enterStart);
+          const encounterLogic = app.slice(enterStart, enterEnd);
+          if (!autonomy.includes('geehub:world-encounter') || !autonomy.includes('function chooseNext') || !autonomy.includes('function tick')) {
+            throw new Error('Autonomous world rules are missing');
+          }
+          if (encounterLogic.includes('Math.random')) throw new Error('World encounter outcomes must follow persisted rules, not random rolls');
           const missing = world.regions.map(r => r.id).filter(id => !placeMap[id] || !broadcasts[id]);
           if (missing.length) throw new Error('Missing world broadcast/map mapping: ' + missing.join(', '));
-          for (const file of ['./engine/screen-puncture.css', './engine/screen-puncture.js', './engine/story-atlas.js']) {
+          for (const file of ['./engine/screen-puncture.css', './engine/screen-puncture.js', './engine/story-atlas.js', './engine/world-autonomy.js']) {
             if (!html.includes(file)) throw new Error('index.html does not load ' + file);
           }
           if (!html.includes('SETH / FIRST SIGHT') || !html.includes('THE NORTHERN ROAD')) {

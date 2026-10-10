@@ -1,6 +1,6 @@
-> ## SERUM MAKES GROWING BIGGER.
+> ## THE WORLD IS LARGER THAN ANY ONE MECHANISM.
 > 
-> The Serum rule is simple: growth becomes the mechanism for further growth.
+> Serum remains in the archive as secondary lore; the world is carried by place, experience, relationships, memory, and change.
 
 # GEEHUB
 
@@ -78,7 +78,7 @@ The developing manuscript is [novel/BOOK_I.md](novel/BOOK_I.md), **GEEHUB — BO
 
 The manuscript remains a canonical literary layer inside the wider experience system. Chapter files can connect to visual states, audio concepts, timing, interaction, and future production scaffolding.
 
-The Serum corpus remains [corpus/SERUM.md](corpus/SERUM.md). It carries transformation grammar, historical material, Voice material, and branching source text.
+The Serum corpus remains [corpus/SERUM.md](corpus/SERUM.md) as a record of established but non-central lore. It should not be used as the master explanation for the world.
 
 The current Convergence materials are collected in [novel/VISUAL_EXPERIENCES_THE_CONVERGENCE.md](novel/VISUAL_EXPERIENCES_THE_CONVERGENCE.md).
 

@@ -1,0 +1,49 @@
+{
+  "id": "scheduled-recording-00026",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "kingdom-land",
+  "position": {
+    "x": 88,
+    "y": 43,
+    "z": 0
+  },
+  "camera": {
+    "x": 88,
+    "y": 43,
+    "z": 1.7,
+    "heading": 238,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 4.13
+  },
+  "environment": {
+    "occupancy": 4.13,
+    "clearance": 0.242,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "kingdom-land",
+      "name": "KINGDOM LAND"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 4.1,
+      "to": 4.13
+    }
+  ],
+  "intent": "LONG PLAY / SCHEDULED WORLD",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 26
+  },
+  "timestamp": "2026-10-10T23:39:46.635Z"
+}

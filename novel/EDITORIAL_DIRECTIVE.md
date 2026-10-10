@@ -18,7 +18,7 @@ Seth and Nick should sound like conversational co-narrators announcing what is p
 
 Character continuity is carried by habits, speech, movement, memory, and relationships. Do not re-explain a character every time he appears. Bill's history should emerge through what he notices, remembers, and tells. Luke remains Luke while his circumstances and physical baseline change. Tyler, Kirk, Joseph, Berit, and the other recurring figures retain their established identities and relationships.
 
-Preserve the Sacred Fountain, the wells, the Serum, the house, Big Daddy's Voice, the first man, existing artifacts, chronology, and established relationships. Do not silently promote experiments or speculation into canon.
+Preserve the Sacred Fountain, the wells, the house, Big Daddy's Voice, the first man, existing artifacts, chronology, and established relationships. Serum remains established but secondary lore: retain its existing consequences without making it the master explanation for growth, continuity, or the world. Do not silently promote experiments or speculation into canon.
 
 ## Revision rule
 

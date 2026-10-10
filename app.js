@@ -281,5 +281,6 @@ window.GEEHUB_WORLD={
   enter:(id,context={})=>enter(id,context),
   getWorld:()=>world,
   currentId:()=>{try{return localStorage.getItem('geehub-current-story-region')||null;}catch{return null;}},
-  getRegion:id=>world?.regions?.find(region=>region.id===id)||null
+  getRegion:id=>world?.regions?.find(region=>region.id===id)||null,
+  mapPlace:id=>STORY_PLACE_BY_REGION[id]||null
 };

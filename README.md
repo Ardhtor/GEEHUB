@@ -76,6 +76,8 @@ The first viewport now leads with a live story window instead of a blank prompt.
 
 The fourteen world regions each have an environmental broadcast. Their narration gives the place weather, surfaces, bodies, acoustics, and incidental activity beyond the immediate plot. The window and map are tied together by the same location state rather than behaving as separate cards.
 
+The world now follows a persistent rule sequence: **ATMOSPHERE → MEMORY → ROUTE OPEN → CROSSING**. It retains the previous location, chooses only routes represented in the world relation graph, and biases later choices using accumulated pressure, memory, and visit history. The browser hydrates from [engine/state.json](engine/state.json) and continues locally between persistent pulses; the scheduled repository engine writes each new event to the state ledger, autonomous stream, novel material, artifact index, and production outbox. Encounter outcomes are derived from state and relations rather than random rolls.
+
 ## The novel
 
 The source manuscript is [novel/BOOK_I.md](novel/BOOK_I.md), **GEEHUB — BOOK I: THE HOUSE OF OPEN SCREENS**. The full environmental rewrite draft, covering all 72 chapters, is [novel/REWRITTEN_OPENING.md](novel/REWRITTEN_OPENING.md). It uses Seth Feroce and Nick Mercx as podcast-style narrators, expands non-plot details, and keeps paragraph breaks tied to changes in place, atmosphere, physical presence, and environmental attention rather than isolated plot beats.

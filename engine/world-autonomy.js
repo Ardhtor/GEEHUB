@@ -149,21 +149,27 @@
         });
       } catch (_) {}
     }
+    const interactionType = type === 'MEMORY' ? 'MEMORY'
+      : type === 'ROUTE_OPEN' ? 'ENCOUNTER'
+      : type === 'CROSSING' ? 'RETURN'
+      : type === 'INPUT_RESPONSE' ? 'TRANSFORM'
+      : type === 'ATMOSPHERE' ? 'NOTICE'
+      : 'WORLD_RESPONSE';
+    const interaction = {
+      id:event.id,
+      type:interactionType,
+      title,
+      text:body,
+      from:from || 'world',
+      to:to || from || 'world',
+      source:'world-autonomy',
+      live:true,
+      at:stamp()
+    };
     if (window.GEEHUB_INTERACTION?.emit) {
-      try {
-        window.GEEHUB_INTERACTION.emit({
-          id:event.id,
-          type:'WORLD_RESPONSE',
-          title,
-          text:body,
-          from:from || 'world',
-          to:to || from || 'world',
-          source:'world-autonomy',
-          live:true,
-          at:stamp()
-        });
-      } catch (_) {}
+      try { window.GEEHUB_INTERACTION.emit(interaction); } catch (_) {}
     }
+    document.dispatchEvent(new CustomEvent('geehub:interaction', {detail:interaction}));
     return event;
   }
   function setPressure(kind, detail = {}) {
@@ -398,7 +404,7 @@
       persist();
       renderProgress('WORLD / MEMORY RESTORED');
     } else {
-      state.currentRegion = 'discovery';
+      state.currentRegion = null;
       state.phase = 0;
       state.nextRegion = null;
       persist();

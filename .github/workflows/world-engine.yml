@@ -5,6 +5,14 @@ on:
     branches: [main]
     paths:
       - 'engine/run_world.py'
+      - 'engine/world-autonomy.js'
+      - 'world.json'
+      - 'corpus/**'
+      - 'characters/**'
+      - 'assets/**'
+      - 'worlds/**'
+      - 'novel/REWRITTEN_OPENING.md'
+      - 'lore/DEEP_LORE.md'
       - '.github/workflows/world-engine.yml'
   schedule:
     - cron: "*/15 * * * *"

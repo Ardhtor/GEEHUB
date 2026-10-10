@@ -3,6 +3,14 @@ name: Deploy GEEHUB
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'engine/state.json'
+      - 'lore/AUTONOMOUS_STREAM.md'
+      - 'novel/WORLDS.md'
+      - 'artifacts/world-events/**'
+      - 'artifacts/index.json'
+      - 'dropbox_outbox/**'
+      - 'assets/geography/generated/**'
   workflow_dispatch:
 
 permissions:

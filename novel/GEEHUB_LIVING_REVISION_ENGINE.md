@@ -2,55 +2,41 @@
 
 ## Purpose
 
-The manuscript is revised by accumulation, not replacement. Ordinary scenes, unfinished chapters, artifacts, video, geography, character memory, and unresolved details are all revision inputs.
+Revise the hub by accumulation, not replacement. Ordinary scenes, unfinished chapters, artifacts, video, geography, character memory, and unresolved details remain inputs. The prose is a continuous environmental broadcast, narrated in a podcast-style exchange by Seth Feroce and Nick Mercx.
 
-Every revision pass uses the GEEHUB Editorial Voice. The corpus should read as one world being continuously announced, witnessed, and remembered.
-
-## Loop
-
-`READ CURRENT STATE → FIND WHAT IS THIN/WRONG/MISSING → ANNOUNCE THE IMPORTANT CHANGE → PRODUCE PROSE OR ARTIFACT → PRESERVE CONTINUITY → INTEGRATE → REPEAT`
+The global authority is [../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md).
 
 ## Paragraph engine
 
-Each prose paragraph should perform a small piece of the broadcast:
+Every paragraph break, line break, and scene transition introduces or deepens non-plot information: terrain, architecture, weather, lighting, atmosphere, spatial depth, material, sound, temperature, distance, machinery, or the physical presence of people within a place. Line breaks are environmental descriptors, not plot beats.
 
-`EVENT → OBSERVATION → CONSEQUENCE → CONTINUITY`
+Seth and Nick announce what is present, compare observations, react to the scale of a place, and make the world feel encountered rather than explained. Use substantial, embodied prose rather than a list of setting notes. Action stays legible, but the environment carries the transitions.
 
-Start close to the event. Give the reader concrete evidence. Let significance emerge from what happens. End with the trace that carries forward.
+## Continuity
 
-Do not replace scene with explanation. Do not repeat a point merely because it is important. Importance should increase through recurrence, consequence, and changed context.
+Never discard canon merely to make room for new prose. Preserve chronology, established dialogue, character identity, relationships, and source provenance. Environmental details can accumulate memory across scenes, but do not invent consequential events or quietly promote experiments into canon.
 
 ## Post-book production loop
 
-`LUKE SETS THE DAY → MEN LIVE IT → SMALL DETAIL BECOMES MEMORY → BILL/OTHERS NOTICE IT → SCENE BECOMES CANON → NEXT ORDINARY DAY`
+Luke sets the day; the men live it; ordinary detail becomes memory; Bill and others notice what has changed; the scene becomes canon; the next ordinary day begins. The world remains present through meals, errands, clothes, cars, weather, waiting, joking, driving, repairs, boredom, smoking together, sleeping, walking, arguments, and silence. Use these details as lived environment rather than a checklist.
 
-The goal is depth of ordinary life: meals, errands, clothes, cars, weather, waiting, joking, driving, repairs, boredom, smoking together, sleeping, walking, arguments, silence, and the small ways men become familiar.
-
-Luke remains the informal production driver. His production is lived rather than bureaucratic. The Mustang remains a recurring physical presence. The enormous country remains present even when nothing dramatic happens.
+Luke remains the informal production driver. The Mustang remains a recurring physical presence. The enormous country remains present even when nothing dramatic happens.
 
 ## Revision rules
 
-1. Never discard existing canon merely to make room for new prose.
-2. Expand thin chapters into lived scenes.
-3. Use substantial paragraphs with active movement.
-4. Prefer concrete observation over abstract explanation.
-5. Preserve character continuity through habits, speech, movement, memory, and relationships.
-6. Let apparently minor material accumulate history.
-7. Treat resolved scenes as sources for later consequences.
-8. Treat prose, visual artifacts, video, audio, geography, and interface states as different memory forms.
-9. Do not force an ending onto material that is still producing consequences.
-10. Keep Book I and the post-book quotidian cycle distinct.
-11. Remove repetition, padding, and commentary that does not alter the reader's understanding.
-12. Every pass should leave the corpus more inhabited, more legible, and more continuous than it found it.
-
-## Automatic chapter test
-
-For every chapter or episode:
-
-`WHAT HAPPENED → WHAT DO WE SEE → WHAT CHANGED → WHAT REMAINS`
-
-If the answer is abstract, write the missing scene.
+1. Apply the environmental-broadcast rule across the whole hub, including prose, lore, novel chapters, map descriptions, archive captions, artifact records, interface copy, and generated text.
+2. Make paragraph and scene breaks carry environmental information rather than isolated plot beats.
+3. Preserve existing canon, chronology, dialogue, character continuity, and provenance.
+4. Expand thin passages with embodied setting detail, not abstract explanation or inventories.
+5. Keep Seth and Nick's podcast-style announcing presence as the default narration.
+6. Treat prose, visual artifacts, video, audio, geography, and interface states as different memory forms.
+7. Do not force an ending onto material that is still producing consequences.
+8. Keep Book I and the post-book quotidian cycle distinct.
+9. Remove repetition and padding that do not deepen the environment or reader understanding.
+10. Revise source files in place; do not substitute summaries for the manuscript.
+11. Record the scope of completed file edits honestly.
+12. Each pass should leave the corpus more inhabited, more legible, and more continuous than it found it.
 
 ## Production directive
 
-Continue the post-book cycle indefinitely when scheduled execution is available. Read the current canonical post-book manuscript first. Add substantial new scenes rather than status notes. Keep Luke's production role, the Mustang, the four men, Bill, the enormous geography, and the depth of ordinary male friendship in continuity.
+Continue the post-book cycle when scheduled execution is available. Read the current canonical manuscript first. Add substantial scenes rather than status notes, and carry the environment through every paragraph transition. Keep Luke, the Mustang, the recurring men, Bill, the geography, and established relationships in continuity.

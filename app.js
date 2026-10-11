@@ -111,6 +111,8 @@ function gameOutput(n,source='render',priorId=null){
     DRIFT:'The path here was not directly related to the prior place. The world preserves the gap instead of inventing a connection.'
   }[lastException]||'The world keeps its previous state beneath this view. Nothing has been erased merely because the scene has changed.';
   el.textContent='SETH / '+n.name.toUpperCase()+'\n\n'+scene[0]+'\n\nNICK / THE WORLD AROUND IT\n\n'+scene[1]+'\n\nSETH / WHAT THE WORLD REMEMBERS\n\n'+response;
+  document.body.dataset.currentRegion=n.id;
+  if(source!=='restore')syncStoryLocation(n.id,n.name);
   document.dispatchEvent(new CustomEvent('geehub:world-encounter',{detail:{
     id:n.id,name:n.name,description:n.description||'',source,priorId,exception:lastException,
     at:new Date().toISOString()

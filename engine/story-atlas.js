@@ -115,7 +115,6 @@
     routePath.setAttribute('stroke-width','.7');
     routePath.setAttribute('stroke-linecap','round');
     routePath.setAttribute('stroke-dasharray','1.2 1.7');
-    routePath.setAttribute('filter','url(#routeGlow)');
     routePath.setAttribute('opacity','0');
     routeArrival = document.createElementNS(NS,'g');
     routeArrival.id = 'storyMapRouteArrival';
@@ -155,15 +154,6 @@
     });
     document.addEventListener('geehub:world-autonomy-ready', syncRouteFromRuntime);
     document.addEventListener('geehub:world-response', syncRouteFromRuntime);
-    document.addEventListener('click', event => {
-      const button = event.target.closest('button');
-      if (!button) return;
-      const text = (button.textContent || '').trim().toLowerCase();
-      if (/\b(reset|return to the center|start over)\b/.test(text)) { locate({stage:'NOTICE'}); return; }
-      if (/\b(hyper|balloon|expand|growth)\b/.test(text)) locate({stage:'HYPER'});
-      else if (/\b(archive|memory|record)\b/.test(text)) locate({stage:'COMPARE'});
-      else if (/\b(map|territory|explore)\b/.test(text)) locate({stage:'EXPANSION'});
-    });
   }
 
   window.GEEHUB_STORY_ATLAS = {

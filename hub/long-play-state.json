@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 29,
-  "currentAgent": "joseph",
-  "currentRegion": "embodied-scale",
-  "scale": 4.38,
-  "lastRun": "2026-10-11T09:01:56.770Z",
+  "cycle": 30,
+  "currentAgent": "chase",
+  "currentRegion": "luke-bwomph",
+  "scale": 4.42,
+  "lastRun": "2026-10-11T15:44:18.901Z",
   "history": [
+    {
+      "cycle": 30,
+      "agent": "chase",
+      "previousRegion": "embodied-scale",
+      "region": "luke-bwomph",
+      "relation": "THE BAR GYM REMEMBERS",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 4.38,
+      "scale": 4.42,
+      "recording": "scheduled-recording-00030",
+      "at": "2026-10-11T15:44:18.901Z"
+    },
     {
       "cycle": 29,
       "agent": "joseph",
@@ -251,8 +263,8 @@
       "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "facility",
-  "relation": "THE FLOOR REPLIES",
+  "previousRegion": "embodied-scale",
+  "relation": "THE BAR GYM REMEMBERS",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 2,
@@ -268,13 +280,13 @@
     "male-harem": 2,
     "beefythiq": 2,
     "bodylounger": 2,
-    "luke-bwomph": 1
+    "luke-bwomph": 2
   },
   "lastRegionAt": {
     "deep-lore": "2026-10-11T02:13:28.262Z",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
     "colossal-escalation": "2026-10-10T20:15:04.755Z",
-    "embodied-scale": "2026-10-11T09:01:56.770Z",
+    "embodied-scale": "2026-10-11T14:18:59.036825+00:00",
     "discovery": "2026-10-10T11:19:11.226Z",
     "muscle-myth": "2026-10-10T05:15:11.253Z",
     "veyrthalis": "2026-10-09T23:54:19.332Z",
@@ -284,6 +296,6 @@
     "male-harem": "2026-10-09T01:04:59.631Z",
     "beefythiq": "2026-10-11T03:13:38.833394+00:00",
     "bodylounger": "2026-10-08T15:39:05.330Z",
-    "luke-bwomph": "2026-10-08T08:00:57.619Z"
+    "luke-bwomph": "2026-10-11T15:44:18.901Z"
   }
 }

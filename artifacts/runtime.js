@@ -4,7 +4,11 @@ window.GEEHUB_ARTIFACTS = {
   read() {
     try {
       const value = JSON.parse(localStorage.getItem(GEEHUB_ARTIFACT_KEY) || "[]");
-      return Array.isArray(value) ? value : [];
+      return Array.isArray(value) ? value.map(item => ({
+        ...item,
+        type: item?.type || item?.kind || "TRACE",
+        body: item?.body ?? item?.content ?? ""
+      })) : [];
     } catch {
       return [];
     }

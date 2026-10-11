@@ -142,7 +142,7 @@ const reactionTemplates={
   }
 };
 const changeSummary='the world advances at '+scaleLabel+'× in '+region.name;
-const reactionHistory=read(reactionHistoryPath);
+// Continue updating the persistent reaction history loaded above.
 reactionHistory.events=Array.isArray(reactionHistory.events)?reactionHistory.events:[];
 for(const id of agents){
   const template=reactionTemplates[id];

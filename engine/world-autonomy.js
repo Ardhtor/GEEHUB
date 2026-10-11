@@ -422,11 +422,15 @@
   function mergePersistentState(server, api, localSavedId) {
     if (!server) return {current:localSavedId, source:'browser'};
     const events = Array.isArray(server.events) ? server.events : [];
-    const newestServerTime = Date.parse(events.slice(-1)[0]?.time || 0) || 0;
-    const newestBrowserTime = Math.max(
-      Date.parse(state.lastEvent?.at || '') || 0,
-      Number(state.lastHumanActionAt || 0)
+    const external = Array.isArray(server.external_events) ? server.external_events : [];
+    const newestServerTime = Math.max(
+      Date.parse(events.slice(-1)[0]?.time || '') || 0,
+      Date.parse(external[0]?.at || '') || 0,
+      Date.parse(server.long_play?.at || '') || 0
     );
+    // Browser narration is not a user decision. Only an explicit human action can
+    // temporarily outrank a newer repository state.
+    const newestBrowserTime = Number(state.lastHumanActionAt || 0);
     const serverId = serverRegionId(server, api);
     const browserId = localSavedId && region(localSavedId) ? localSavedId : state.currentRegion;
     const browserWins = Boolean(browserId && region(browserId) && newestBrowserTime > newestServerTime);
@@ -438,15 +442,20 @@
       state.visits[id] = Math.max(Number(state.visits[id] || 0), Number(count || 0));
     }
     const serverVisitTimes = {};
-    for (const event of events) {
-      const id = event.region_id;
-      const at = Date.parse(event.time || '') || 0;
+    for (const event of [...events, ...external]) {
+      const id = event.region_id || event.to || event.regionId;
+      const at = Date.parse(event.time || event.at || '') || 0;
       if (id && at > Number(serverVisitTimes[id] || 0)) serverVisitTimes[id] = at;
+    }
+    if (server.long_play?.region_id) {
+      const id = server.long_play.region_id;
+      const at = Date.parse(server.long_play.at || '') || 0;
+      if (at > Number(serverVisitTimes[id] || 0)) serverVisitTimes[id] = at;
     }
     for (const [id, at] of Object.entries(serverVisitTimes)) {
       state.lastVisits[id] = Math.max(Number(state.lastVisits[id] || 0), at);
     }
-    const serverHistory = events.slice(-MAX_HISTORY).map(event => ({
+    const engineHistory = events.slice(-MAX_HISTORY).map(event => ({
       id:'persistent-pulse-' + event.pulse,
       type:event.phase || event.type || 'PERSISTED',
       title:event.title || ((event.phase || 'WORLD') + ' / ' + (event.world || event.region_id || 'PLACE')),
@@ -456,6 +465,19 @@
       at:event.time || now(),
       source:'persistent-engine'
     }));
+    const externalHistory = external.slice(-MAX_HISTORY).map(event => ({
+      id:event.id || ('persistent-external-' + (event.at || 'unknown')),
+      type:event.type || 'PERSISTED',
+      title:event.title || 'WORLD / ' + (event.region_id || event.to || 'PLACE'),
+      body:event.body || event.action || '',
+      from:event.previous_region_id || event.from || null,
+      to:event.region_id || event.to || null,
+      at:event.at || event.time || now(),
+      source:event.source || 'persistent-world'
+    }));
+    const serverHistory = [...engineHistory, ...externalHistory]
+      .sort((a,b) => (Date.parse(a.at || '') || 0) - (Date.parse(b.at || '') || 0))
+      .slice(-MAX_HISTORY);
     const priorHistory = state.history || [];
     const ids = new Set(priorHistory.map(event => event.id));
     state.history = [...priorHistory, ...serverHistory.filter(event => !ids.has(event.id))]

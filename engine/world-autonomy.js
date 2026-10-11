@@ -392,11 +392,19 @@
     schedule(state.runMode ? 600 : TICK_MS);
   }
   async function readPersistentState() {
-    try {
-      const response = await fetch('./engine/state.json?ts=' + Date.now(), {cache:'no-store'});
-      if (!response.ok) return null;
-      return await response.json();
-    } catch (_) { return null; }
+    // Data-only world pulses do not need to rebuild the static site. Read the current
+    // committed ledger first, with the deployed copy as a local/offline fallback.
+    const urls = [
+      'https://raw.githubusercontent.com/Ardhtor/GEEHUB/main/engine/state.json?ts=' + Date.now(),
+      './engine/state.json?ts=' + Date.now()
+    ];
+    for (const url of urls) {
+      try {
+        const response = await fetch(url, {cache:'no-store', mode:'cors'});
+        if (response.ok) return await response.json();
+      } catch (_) {}
+    }
+    return null;
   }
   function serverRegionId(server, api) {
     if (!server) return null;

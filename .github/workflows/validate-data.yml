@@ -42,6 +42,7 @@ jobs:
       - name: Check browser script syntax
         run: |
           node --check app.js
+          node --check engine/long-play-runner.js
           node --check artifacts/runtime.js
           node --check engine/story-atlas.js
           node --check engine/world-state-bridge.js
@@ -74,6 +75,10 @@ jobs:
           if (atlas.includes("addEventListener('geehub:environmental-transition'")) throw new Error('Atmosphere changes must not teleport the story pin');
           if (!atlas.includes('storyMapRoute') || !atlas.includes("detail.type === 'ROUTE_OPEN'") || !atlasCss.includes('.story-atlas.route-open')) throw new Error('Visible autonomous route rendering is missing');
           if (!autonomy.includes('MAX_STORY_SECTIONS')) throw new Error('Narrative needs a bounded live history');
+          const longPlay = fs.readFileSync('engine/long-play-runner.js', 'utf8');
+          if (!longPlay.includes("const next=Number((prior+increment).toFixed(2))")) throw new Error('Long Play must not cap cumulative scale');
+          if (!longPlay.includes("engineState.active_region=region.id")) throw new Error('Long Play must synchronize the current world location');
+          if (!longPlay.includes("worldState.activeRecording='./recordings/'+recording.id+'.json'")) throw new Error('Long Play must promote its recording into the shared world state');
           if (!runtime.includes('type: item?.type || item?.kind') || !runtime.includes('body: item?.body ?? item?.content')) throw new Error('Archive renderer cannot normalize legacy and new artifacts');
           if (!bridge.includes("['ATMOSPHERE','MEMORY','ROUTE OPEN','CROSSING']")) throw new Error('Live world phase labels are out of sync');
           if (!autonomy.includes('raw.githubusercontent.com/Ardhtor/GEEHUB/main/engine/state.json')) throw new Error('Browser must hydrate from the newest persistent world ledger');
@@ -97,13 +102,15 @@ jobs:
           console.log('Validated ' + world.regions.length + ' world broadcasts, map destinations, and interface assets.');
           NODE
       - name: Validate Python tools
-        run: python -m py_compile engine/run_world.py hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py hub/test-world-engine.py
+        run: python -m py_compile engine/run_world.py hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py hub/test-world-engine.py hub/test-long-play-runner.py
       - name: Run portable jam regression test
         run: python hub/test-validate-jams.py
       - name: Run UI registry validator regression test
         run: python hub/test-validate-ui-registry.py
       - name: Run persistent world engine regression test
         run: python hub/test-world-engine.py
+      - name: Run graph-driven Long Play regression test
+        run: python hub/test-long-play-runner.py
       - name: Validate constellation registry
         run: python hub/validate-projects.py hub/projects.json
       - name: Validate browser repository links

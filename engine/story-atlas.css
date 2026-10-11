@@ -22,3 +22,31 @@
 .game-console .story-atlas-foot{padding:.48rem .85rem;background:#050607;font-size:.56rem}
 .game-console .game-screen{background:#030405}
 @media(min-width:800px){.game-console .story-atlas-map svg{max-height:360px}}
+
+
+/* A route is a world decision made visible, not a second location pin. */
+#storyMapRoute path{
+  stroke-opacity:.9;
+  animation:geehub-route-flow 12s linear infinite;
+  filter:drop-shadow(0 0 1.1px rgba(232,211,161,.46));
+}
+#storyMapRouteArrival circle{
+  animation:geehub-route-arrival 2.8s ease-in-out infinite;
+  transform-box:fill-box;
+  transform-origin:center;
+}
+.story-atlas.route-open .story-atlas-state{
+  color:#e8d3a1;
+  text-shadow:0 0 10px rgba(232,211,161,.24);
+}
+.story-atlas.route-open .story-atlas-head{
+  background:linear-gradient(90deg,rgba(232,211,161,.055),transparent 70%);
+}
+@keyframes geehub-route-flow{to{stroke-dashoffset:-36}}
+@keyframes geehub-route-arrival{
+  0%,100%{opacity:.5}
+  50%{opacity:1}
+}
+@media(prefers-reduced-motion:reduce){
+  #storyMapRoute path,#storyMapRouteArrival circle{animation:none}
+}

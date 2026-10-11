@@ -9,6 +9,7 @@
   const FAST_TICK_MS = 6200;
   const FIRST_TICK_MS = 7600;
   const MAX_HISTORY = 80;
+  const MAX_STORY_SECTIONS = 14;
   let timer = null;
   let booted = false;
 
@@ -113,7 +114,11 @@
   function quietAppend(speaker, paragraph) {
     const el = document.getElementById('gameNarrative');
     if (!el || !paragraph) return;
-    const update = () => { el.textContent = (el.textContent || '').trimEnd() + '\n\n' + speaker + '\n\n' + paragraph; };
+    const update = () => {
+      const combined = (el.textContent || '').trimEnd() + '\n\n' + speaker + '\n\n' + paragraph;
+      const sections = combined.split(/\n\n(?=(?:SETH|NICK) \/ )/).filter(Boolean);
+      el.textContent = sections.slice(-MAX_STORY_SECTIONS).join('\n\n');
+    };
     if (window.GEEHUB_SCREEN_PUNCTURE?.quietNarrativeUpdate) {
       window.GEEHUB_SCREEN_PUNCTURE.quietNarrativeUpdate(update);
     } else update();

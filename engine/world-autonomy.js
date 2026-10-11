@@ -465,7 +465,7 @@
       at:event.time || now(),
       source:'persistent-engine'
     }));
-    const externalHistory = external.slice(-MAX_HISTORY).map(event => ({
+    const externalHistory = external.slice(0, MAX_HISTORY).map(event => ({
       id:event.id || ('persistent-external-' + (event.at || 'unknown')),
       type:event.type || 'PERSISTED',
       title:event.title || 'WORLD / ' + (event.region_id || event.to || 'PLACE'),

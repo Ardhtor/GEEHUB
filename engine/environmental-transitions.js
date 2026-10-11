@@ -119,7 +119,8 @@
     transition(stage === 'NEW BASELINE' ? 'NEW BASELINE' : stage === 'GROWTH' || stage === 'MUTATION' || stage === 'CORRUPTION' ? 'BALLOONING' : stage === 'STRESS' ? 'PRESSURE' : 'SWELL');
   });
   document.addEventListener('geehub:world-encounter', event => {
-    if (event.detail?.source !== 'restore') transition('NOTICE');
+    const source = event.detail?.source;
+    if (source && !['restore','autonomous'].includes(source)) transition('NOTICE');
   });
 
   window.GEEHUB_ENVIRONMENT = {transition, read, stages:() => stages.map(s => ({...s}))};

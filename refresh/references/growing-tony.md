@@ -1,32 +1,15 @@
-# Growing Tony — story reference
+# Growing Tony
 
-Source: https://sites.google.com/view/bulkfictionarchive/archive-of-stories/misc-authors/growing-tony
-Archive: Bulk Fiction Archive
-Status: external reference; not canon.
+[Read the story in the Bulk Fiction Archive](https://sites.google.com/view/bulkfictionarchive/archive-of-stories/misc-authors/growing-tony)
 
-## What this story contributes
+Keep this one close to the Growth Canvas. What stays with me is not just that Tony gets bigger. It's that someone is there to notice. Gerard takes the measurements, photographs the changes, and gives each new version of Tony a place in the record. The body changes, but so does the friendship around it.
 
-- **Growth as release:** Tony's development shifts from trying to satisfy family expectations toward choosing his own body and direction.
-- **Continuity through escalation:** the story tracks successive changes in size while keeping Tony recognizable; earlier stages become evidence of the next baseline.
-- **Witness and measurement:** Gerard photographs and measures Tony at intervals. Recording turns private change into a shared history.
-- **Material consequences:** seats, clothing, routines, food, rooms, and social attention respond to the changing body. The world is not merely a backdrop.
-- **Sensory pacing:** ordinary actions—stretching, eating, dressing, being measured—become markers of a larger transformation.
-- **Social feedback loop:** admiration and companionship reinforce Tony's new sense of permission and possibility.
-- **Unresolved engine question:** when growth becomes the new normal, what in the environment must change next?
+The little things do a lot of the work. Clothes fit differently. Furniture starts to feel wrong. Familiar movements take on a new scale. Those details make the growth feel as if it is actually happening, rather than a number jumping on a page. And Tony doesn't disappear inside the change. He's still Tony; the world just has to catch up with him.
 
-## GEEHUB routing
+That's the part GEEHUB should learn from. Don't skip straight to the biggest form. Let us remember the earlier one. Let a sleeve pull tight, a chair creak, a doorway become something to think about. Let somebody notice. Then keep that moment. When the next stage arrives, the old stage should still be there in the history, making the difference felt.
 
-BODYLOUNGER → provenance and source capture  
-GROWTH CANVAS → staged change, silhouette, proportions, measurements  
-BEEFYTHIQ → accumulation, stress, mutation, new baseline  
-COLOSSAL ESCALATION → the body's changing relationship to furniture, rooms, and architecture  
-DEEP LORE → continuity, witness, threshold, old world  
-NOVEL → transformation recorded as remembered events
+There is a good thread here between **GROWTH CANVAS**, **BEEFYTHIQ**, and **COLOSSAL ESCALATION**. The body changes; the room answers; the record keeps both. BODYLOUNGER holds the source and its provenance. DEEP LORE can come later, once we've seen the same truth happen often enough that it starts to feel like a law of the world.
 
-## Use in experiments
+For an experiment, start with Tony's recognizable baseline. Change one thing the eye can really feel. Show what that change does to his posture, his clothes, or the space around him. Keep the witness and the record in the scene. Then move forward. Don't treat the previous stage as disposable: it's the reason the next one lands.
 
-Build a stage sequence rather than copying the prose: establish a recognizable baseline; show a small but legible change; let clothing, posture, furniture, and camera framing register it; preserve identifying features; then let the former baseline remain visible as a comparison. Keep source-derived observations separate from original GEEHUB inventions.
-
-## Scope and provenance
-
-This is an adult-themed transformation story. This entry records high-level craft observations and routing only; it does not reproduce the story or make it GEEHUB canon. The source page was opened and reviewed on 2026-10-12.
+This is a reference, not GEEHUB canon, and this note is an interpretation rather than a retelling of the story. Its source remains the Bulk Fiction Archive.

@@ -14,7 +14,7 @@ window.GEEHUB_ARTIFACTS = {
     const artifact = {
       id: "local-" + Date.now() + "-" + Math.random().toString(36).slice(2, 8),
       created_at: new Date().toISOString(),
-      source, kind: type, title, content: body,
+      source, kind: type, type, title, content: body, body,
       lineage, canon, dreamable, quietness
     };
     const all = [artifact, ...this.read()].slice(0, 200);

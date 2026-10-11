@@ -405,3 +405,11 @@ NICK: A detail returns in BEEFYTHIQ: The mirror keeps his familiar face above a 
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was creative/luke-bwomph.json.
 
 Source retained: lore/DEEP_LORE.md. Pressure 0.30; memory 0.65.
+
+## THE FACILITY / pulse 11 / ATMOSPHERE
+
+SETH: The ventilation hum settles into a lower register. Blue light crosses the observation glass and shows the technician's reflection over the broad figure behind it.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: world.json. Pressure 0.52; memory 0.84.

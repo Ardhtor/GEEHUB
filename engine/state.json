@@ -1,5 +1,5 @@
 {
-  "pulse": 12,
+  "pulse": 13,
   "events": [
     {
       "pulse": 1,
@@ -164,6 +164,23 @@
       "next_region": null,
       "pressure": 0.557,
       "memory": 0.896
+    },
+    {
+      "pulse": 13,
+      "time": "2026-10-11T14:18:59.036825+00:00",
+      "actor": "LUKE",
+      "world": "EMBODIED SCALE",
+      "region_id": "embodied-scale",
+      "previous_region_id": "embodied-scale",
+      "phase": "ATMOSPHERE",
+      "source": "research/embodied-scale/README.md",
+      "desire_state": "attention",
+      "action": "SETH: A hand slides along the doorframe as the man turns sideways to pass. His face is familiar, but the shoulder now comes close enough to the jamb to catch a line of reflected light.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.577,
+      "memory": 0.896
     }
   ],
   "visits": {
@@ -178,21 +195,22 @@
     "facility": 10.5,
     "embodied-scale": 12.5
   },
-  "pressure": 0.5568,
+  "pressure": 0.5768,
   "memory": 0.8960000000000001,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
     "creative/luke-bwomph.json": 1,
     "lore/DEEP_LORE.md": 1,
-    "world.json": 2
+    "world.json": 2,
+    "research/embodied-scale/README.md": 1
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "embodied-scale",
-  "current_phase": "LONG_PLAY_CROSSING",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 29,

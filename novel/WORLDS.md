@@ -421,3 +421,11 @@ NICK: A detail returns in THE FACILITY: A rail beside the doorway has been moved
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was world.json.
 
 Source retained: world.json. Pressure 0.56; memory 0.90.
+
+## EMBODIED SCALE / pulse 13 / ATMOSPHERE
+
+SETH: A hand slides along the doorframe as the man turns sideways to pass. His face is familiar, but the shoulder now comes close enough to the jamb to catch a line of reflected light.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: research/embodied-scale/README.md. Pressure 0.58; memory 0.90.

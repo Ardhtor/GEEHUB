@@ -77,3 +77,11 @@ NICK: A detail returns in THE FACILITY: A rail beside the doorway has been moved
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was world.json.
 
 Rule: comparison can become differentiation
+
+### Pulse 13 — ATMOSPHERE / EMBODIED SCALE / 2026-10-11T14:18:59.036825+00:00
+
+SETH: A hand slides along the doorframe as the man turns sideways to pass. His face is familiar, but the shoulder now comes close enough to the jamb to catch a line of reflected light.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

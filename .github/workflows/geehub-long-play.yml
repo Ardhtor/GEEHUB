@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "*/15 * * * *"
 
+concurrency:
+  group: geehub-main-world-writer
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -30,4 +34,5 @@ jobs:
           git config user.email "actions@github.com"
           git add hub/long-play-state.json hub/agent-reaction-history.json hub/recordings hub/image-jobs.json hub/render-jobs.json hub/exchange.json
           git diff --cached --quiet || git commit -m "GEEHUB long play cycle"
+          git pull --rebase origin main
           git push

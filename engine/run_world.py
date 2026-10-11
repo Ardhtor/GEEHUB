@@ -140,20 +140,24 @@ def choose_source(region, state):
 
     preference = {
         "discovery": ["world.json", "README.md", "novel/REWRITTEN_OPENING.md"],
-        "veyrthalis": ["lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md", "lore/DEEP_LORE.md"],
-        "complex": ["novel/REWRITTEN_OPENING.md", "world.json", "projects.json"],
-        "growth": ["creative/luke-bwomph.json", "research/embodied-scale/README.md"],
-        "beefythiq": ["creative/luke-bwomph.json", "lore/DEEP_LORE.md"],
-        "bodylounger": ["records.json", "archive/male-harem/README.md"],
-        "deep-lore": ["lore/DEEP_LORE.md", "novel/REWRITTEN_OPENING.md"],
-        "luke-bwomph": ["creative/luke-bwomph.json", "research/embodied-scale/colossal-escalation.json"],
-        "colossal-escalation": ["research/embodied-scale/colossal-escalation.json", "world.json"],
-        "kingdom-land": ["geo-cyberspace/kingdom-land.json", "world.json"],
+        "veyrthalis": ["lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md", "lore/DEEP_LORE.md", "world.json"],
+        "complex": ["novel/REWRITTEN_OPENING.md", "world.json", "projects.json", "README.md", "lore/DEEP_LORE.md"],
+        "growth": ["creative/luke-bwomph.json", "research/embodied-scale/README.md", "world.json"],
+        "beefythiq": ["creative/luke-bwomph.json", "lore/DEEP_LORE.md", "research/embodied-scale/colossal-escalation.json"],
+        "bodylounger": ["records.json", "archive/male-harem/README.md", "novel/REWRITTEN_OPENING.md"],
+        "deep-lore": ["lore/DEEP_LORE.md", "novel/REWRITTEN_OPENING.md", "world.json"],
+        "luke-bwomph": ["creative/luke-bwomph.json", "research/embodied-scale/colossal-escalation.json", "novel/REWRITTEN_OPENING.md"],
+        "colossal-escalation": ["research/embodied-scale/colossal-escalation.json", "world.json", "creative/luke-bwomph.json"],
+        "kingdom-land": ["geo-cyberspace/kingdom-land.json", "world.json", "README.md"],
     }
     used = state.setdefault("source_counts", {})
-    for candidate in preference.get(region.get("id"), []):
-        if (ROOT / candidate).is_file():
-            return candidate
+    preferred = [
+        candidate for candidate in preference.get(region.get("id"), [])
+        if (ROOT / candidate).is_file()
+    ]
+    if preferred:
+        # Re-enter the same place from a different source when possible.
+        return min(enumerate(preferred), key=lambda row: (int(used.get(row[1], 0)), row[0]))[1]
 
     tokens = [token for token in (region.get("id", "") + " " + region.get("name", "")).lower().replace("/", " ").replace("-", " ").split() if len(token) > 3]
     candidates = []
@@ -318,6 +322,8 @@ def main():
             state["phase"] = 0
             current_id = target_id
             current = target
+            # Source lineage follows the destination actually entered, not the origin room.
+            source = choose_source(current, state)
             if relation is None:
                 candidates = route_candidates(current_id, world, state)
                 relation = candidates[0]["edge"] if candidates else None

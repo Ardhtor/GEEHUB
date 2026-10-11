@@ -55,17 +55,8 @@
     const previous = read();
     if (places.some(p => p.id === previous.current)) current = previous.current;
     render();
-    document.addEventListener('geehub:world-history', e => {
-      const detail = e.detail || {};
-      const stage = String(detail.stage || '').toUpperCase();
-      const found = places.find(p => p.stage === stage);
-      if (found) { current = found.id; render(); save(); }
-    });
-    document.addEventListener('geehub:environmental-transition', e => {
-      const stage = String(e.detail?.stage || '').toUpperCase();
-      const found = places.find(p => p.stage === stage);
-      if (found) { current = found.id; render(); save(); }
-    });
+    // Atmosphere and morph stages change the room, not the story's geographic location.
+    // The pin moves only on an explicit geehub:story-location event.
     document.addEventListener('geehub:story-location', e => {
       const found = places.find(p => p.id === e.detail?.id);
       if (found) { current = found.id; render(); save(); }

@@ -58,11 +58,20 @@
   document.addEventListener('geehub:world-response', render);
   document.addEventListener('geehub:world-encounter', render);
   document.addEventListener('geehub:story-location', render);
-  fetch(DATA + '?ts=' + Date.now(), {cache:'no-store'})
-    .then(response => {
-      if (!response.ok) throw new Error('world-state unavailable');
-      return response.json();
-    })
-    .then(state => { baseState = state; render(); })
-    .catch(() => { host.textContent = 'WORLD STATE OFFLINE.'; });
+  const sources = [
+    'https://raw.githubusercontent.com/Ardhtor/GEEHUB/main/hub/world-state.json?ts=' + Date.now(),
+    DATA + '?ts=' + Date.now()
+  ];
+  (async () => {
+    for (const url of sources) {
+      try {
+        const response = await fetch(url, {cache:'no-store', mode:'cors'});
+        if (!response.ok) continue;
+        baseState = await response.json();
+        render();
+        return;
+      } catch (_) {}
+    }
+    host.textContent = 'WORLD STATE OFFLINE.';
+  })();
 })();

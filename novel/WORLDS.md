@@ -397,3 +397,11 @@ SETH: The floor answers a shift of weight with a low sound. A chair stays where 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: creative/luke-bwomph.json. Pressure 0.26; memory 0.59.
+
+## BEEFYTHIQ / pulse 10 / MEMORY
+
+NICK: A detail returns in BEEFYTHIQ: The mirror keeps his familiar face above a wider chest. A doorway that fitted yesterday sits closer to the shoulder today; the room records the difference as a new baseline.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was creative/luke-bwomph.json.
+
+Source retained: lore/DEEP_LORE.md. Pressure 0.30; memory 0.65.

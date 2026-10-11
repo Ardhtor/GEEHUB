@@ -1,5 +1,5 @@
 {
-  "pulse": 9,
+  "pulse": 10,
   "events": [
     {
       "pulse": 1,
@@ -113,6 +113,23 @@
       "next_region": null,
       "pressure": 0.26,
       "memory": 0.585
+    },
+    {
+      "pulse": 10,
+      "time": "2026-10-11T03:13:38.833394+00:00",
+      "actor": "TYLER",
+      "world": "BEEFYTHIQ",
+      "region_id": "beefythiq",
+      "previous_region_id": "beefythiq",
+      "phase": "MEMORY",
+      "source": "lore/DEEP_LORE.md",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in BEEFYTHIQ: The mirror keeps his familiar face above a wider chest. A doorway that fitted yesterday sits closer to the shoulder today; the room records the difference as a new baseline.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was creative/luke-bwomph.json.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.3,
+      "memory": 0.645
     }
   ],
   "visits": {
@@ -123,18 +140,19 @@
     "complex": 0,
     "beefythiq": 8
   },
-  "pressure": 0.26,
-  "memory": 0.5850000000000001,
+  "pressure": 0.3,
+  "memory": 0.645,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
-    "creative/luke-bwomph.json": 1
+    "creative/luke-bwomph.json": 1,
+    "lore/DEEP_LORE.md": 1
   },
   "next_region": null,
-  "phase": 1,
+  "phase": 2,
   "active_region": "beefythiq",
-  "current_phase": "ATMOSPHERE",
-  "current_desire_state": "attention",
-  "current_question": "What does this place do while nobody intervenes?",
-  "current_narrative_rule": "approach extends geography",
+  "current_phase": "MEMORY",
+  "current_desire_state": "recognition",
+  "current_question": "Which detail remains from the prior state?",
+  "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null
 }

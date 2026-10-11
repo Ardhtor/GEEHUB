@@ -205,14 +205,16 @@
     "beefythiq": 1,
     "facility": 3,
     "embodied-scale": 3,
-    "luke-bwomph": 2
+    "luke-bwomph": 2,
+    "growth": 3
   },
   "last_visits": {
     "complex": 0,
     "beefythiq": 8,
     "facility": 10.5,
     "embodied-scale": 12.5,
-    "luke-bwomph": 13.5
+    "luke-bwomph": 13.5,
+    "growth": 14.5
   },
   "pressure": 0.5968,
   "memory": 0.8960000000000001,
@@ -224,29 +226,42 @@
     "research/embodied-scale/README.md": 1
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "luke-bwomph",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "growth",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 30,
-    "agent": "chase",
-    "previous_region_id": "embodied-scale",
-    "region_id": "luke-bwomph",
-    "region_name": "LUKE // BWOMPH",
-    "relation": "THE BAR GYM REMEMBERS",
+    "cycle": 31,
+    "agent": "luke",
+    "previous_region_id": "luke-bwomph",
+    "region_id": "growth",
+    "region_name": "GROWTH CANVAS",
+    "relation": "HYPEER BASELINE",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 4.38,
-    "scale": 4.42,
-    "recording": "scheduled-recording-00030",
-    "at": "2026-10-11T15:44:18.901Z"
+    "previous_scale": 4.42,
+    "scale": 4.45,
+    "recording": "scheduled-recording-00031",
+    "at": "2026-10-11T19:45:22.908Z"
   },
-  "last_world_change": "2026-10-11T15:44:18.901Z",
-  "scale": 4.42,
+  "last_world_change": "2026-10-11T19:45:22.908Z",
+  "scale": 4.45,
   "external_events": [
+    {
+      "id": "long-play-00031",
+      "type": "CROSSING",
+      "title": "LUKE // BWOMPH → GROWTH CANVAS",
+      "body": "The world crossed \"HYPEER BASELINE\". Scale increased from 4.42× to 4.45×; the earlier location and baseline remain recorded.",
+      "from": "luke-bwomph",
+      "to": "growth",
+      "previous_region_id": "luke-bwomph",
+      "region_id": "growth",
+      "relation": "HYPEER BASELINE",
+      "source": "long-play",
+      "at": "2026-10-11T19:45:22.908Z"
+    },
     {
       "id": "long-play-00030",
       "type": "CROSSING",

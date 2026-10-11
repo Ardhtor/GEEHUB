@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 30,
-  "currentAgent": "chase",
-  "currentRegion": "luke-bwomph",
-  "scale": 4.42,
-  "lastRun": "2026-10-11T15:44:18.901Z",
+  "cycle": 31,
+  "currentAgent": "luke",
+  "currentRegion": "growth",
+  "scale": 4.45,
+  "lastRun": "2026-10-11T19:45:22.908Z",
   "history": [
+    {
+      "cycle": 31,
+      "agent": "luke",
+      "previousRegion": "luke-bwomph",
+      "region": "growth",
+      "relation": "HYPEER BASELINE",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 4.42,
+      "scale": 4.45,
+      "recording": "scheduled-recording-00031",
+      "at": "2026-10-11T19:45:22.908Z"
+    },
     {
       "cycle": 30,
       "agent": "chase",
@@ -263,8 +275,8 @@
       "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "embodied-scale",
-  "relation": "THE BAR GYM REMEMBERS",
+  "previousRegion": "luke-bwomph",
+  "relation": "HYPEER BASELINE",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 2,
@@ -276,7 +288,7 @@
     "veyrthalis": 2,
     "facility": 3,
     "complex": 2,
-    "growth": 2,
+    "growth": 3,
     "male-harem": 2,
     "beefythiq": 2,
     "bodylounger": 2,
@@ -292,10 +304,10 @@
     "veyrthalis": "2026-10-09T23:54:19.332Z",
     "facility": "2026-10-11T07:15:18.396823+00:00",
     "complex": "2026-10-10T22:00:19.731457+00:00",
-    "growth": "2026-10-09T07:25:14.552Z",
+    "growth": "2026-10-11T19:45:22.908Z",
     "male-harem": "2026-10-09T01:04:59.631Z",
     "beefythiq": "2026-10-11T03:13:38.833394+00:00",
     "bodylounger": "2026-10-08T15:39:05.330Z",
-    "luke-bwomph": "2026-10-11T15:44:18.901Z"
+    "luke-bwomph": "2026-10-11T19:08:08.831535+00:00"
   }
 }

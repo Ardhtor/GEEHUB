@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00031",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00031.json",
+      "route": {
+        "from": "luke-bwomph",
+        "to": "growth",
+        "relation": "HYPEER BASELINE"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-11T19:45:22.908Z"
+    },
+    {
+      "id": "scheduled-video-00031",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00031.json",
+      "route": {
+        "from": "luke-bwomph",
+        "to": "growth",
+        "relation": "HYPEER BASELINE"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-11T19:45:22.908Z"
+    },
+    {
+      "id": "scheduled-space-00031",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00031.json",
+      "route": {
+        "from": "luke-bwomph",
+        "to": "growth",
+        "relation": "HYPEER BASELINE"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-11T19:45:22.908Z"
+    },
+    {
       "id": "scheduled-sound-00030",
       "type": "SOUND",
       "status": "QUEUED",

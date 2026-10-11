@@ -118,14 +118,8 @@
     const stage = String(event.detail?.state?.stage || '').toUpperCase();
     transition(stage === 'NEW BASELINE' ? 'NEW BASELINE' : stage === 'GROWTH' || stage === 'MUTATION' || stage === 'CORRUPTION' ? 'BALLOONING' : stage === 'STRESS' ? 'PRESSURE' : 'SWELL');
   });
-  document.addEventListener('click', event => {
-    const button = event.target.closest('button');
-    if (!button) return;
-    const label = (button.textContent || '').trim().toUpperCase();
-    if (/\b(HYPER|MORE|BALLOON|GROWTH)\b/.test(label)) transition('BALLOONING');
-    else if (/\b(HOLD|PAUSE)\b/.test(label)) transition('HOLD');
-    else if (/\b(COMPARE|BASELINE)\b/.test(label)) transition('COMPARE');
-    else if (/\b(RUN|MORPH|EXPAND)\b/.test(label)) transition('EXPANSION');
+  document.addEventListener('geehub:world-encounter', event => {
+    if (event.detail?.source !== 'restore') transition('NOTICE');
   });
 
   window.GEEHUB_ENVIRONMENT = {transition, read, stages:() => stages.map(s => ({...s}))};

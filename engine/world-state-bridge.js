@@ -16,7 +16,7 @@
     try { return window.GEEHUB_WORLD?.getRegion?.(id)?.name || id || 'UNSET'; } catch { return id || 'UNSET'; }
   }
   function phaseName(phase) {
-    return ['ARRIVAL','ENVIRONMENT','MEMORY','ROUTE OPEN'][Number(phase) || 0] || 'ARRIVAL';
+    return ['ATMOSPHERE','MEMORY','ROUTE OPEN','CROSSING'][Number(phase) || 0] || 'ATMOSPHERE';
   }
   function render() {
     if (!baseState) return;

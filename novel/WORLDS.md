@@ -413,3 +413,11 @@ SETH: The ventilation hum settles into a lower register. Blue light crosses the 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: world.json. Pressure 0.52; memory 0.84.
+
+## THE FACILITY / pulse 12 / MEMORY
+
+NICK: A detail returns in THE FACILITY: A rail beside the doorway has been moved outward by one measured increment. The old measurement remains beside the new one; the man is the same, the clearance is not.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was world.json.
+
+Source retained: world.json. Pressure 0.56; memory 0.90.

@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000012",
+  "created_at": "2026-10-11T07:15:18.396823+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "MEMORY / THE FACILITY / world.json",
+  "content": "NICK: A detail returns in THE FACILITY: A rail beside the doorway has been moved outward by one measured increment. The old measurement remains beside the new one; the man is the same, the clearance is not.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was world.json.",
+  "production_note": "The world resolved its memory rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 12,
+    "actor": "TYLER",
+    "world": "THE FACILITY",
+    "region_id": "facility",
+    "source": "world.json",
+    "phase": "MEMORY",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

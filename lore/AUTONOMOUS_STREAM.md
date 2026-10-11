@@ -69,3 +69,11 @@ SETH: The ventilation hum settles into a lower register. Blue light crosses the 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 12 — MEMORY / THE FACILITY / 2026-10-11T07:15:18.396823+00:00
+
+NICK: A detail returns in THE FACILITY: A rail beside the doorway has been moved outward by one measured increment. The old measurement remains beside the new one; the man is the same, the clearance is not.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was world.json.
+
+Rule: comparison can become differentiation

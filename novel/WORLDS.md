@@ -381,3 +381,11 @@ SETH: A line becomes visible between THE COMPLEX and BEEFYTHIQ. The archive name
 NICK: Accumulation changes the scale of a room until architecture starts responding. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: novel/REWRITTEN_OPENING.md. Pressure 0.36; memory 0.56.
+
+## BEEFYTHIQ / pulse 8 / CROSSING
+
+NICK: The world crosses the route from THE COMPLEX into BEEFYTHIQ. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: Accumulation → stress → mutation → new baseline. Relation carried forward: MASS BECOMES WEATHER.
+
+Source retained: novel/REWRITTEN_OPENING.md. Pressure 0.24; memory 0.59.

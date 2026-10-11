@@ -1,5 +1,5 @@
 {
-  "pulse": 7,
+  "pulse": 8,
   "events": [
     {
       "pulse": 1,
@@ -79,30 +79,44 @@
       "next_region": "beefythiq",
       "pressure": 0.36,
       "memory": 0.56
+    },
+    {
+      "pulse": 8,
+      "time": "2026-10-11T01:01:43.030436+00:00",
+      "actor": "JOSEPH",
+      "world": "BEEFYTHIQ",
+      "region_id": "beefythiq",
+      "previous_region_id": "complex",
+      "phase": "CROSSING",
+      "source": "novel/REWRITTEN_OPENING.md",
+      "desire_state": "continuity",
+      "action": "NICK: The world crosses the route from THE COMPLEX into BEEFYTHIQ. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: Accumulation → stress → mutation → new baseline. Relation carried forward: MASS BECOMES WEATHER.",
+      "narrative_rule": "meaningful change becomes an outward-facing signal",
+      "relation": "MASS BECOMES WEATHER",
+      "next_region": null,
+      "pressure": 0.24,
+      "memory": 0.585
     }
   ],
   "visits": {
-    "complex": 1
+    "complex": 1,
+    "beefythiq": 1
   },
   "last_visits": {
-    "complex": 0
+    "complex": 0,
+    "beefythiq": 8
   },
-  "pressure": 0.36,
-  "memory": 0.56,
+  "pressure": 0.24,
+  "memory": 0.5850000000000001,
   "source_counts": {
-    "novel/REWRITTEN_OPENING.md": 3
+    "novel/REWRITTEN_OPENING.md": 4
   },
-  "next_region": "beefythiq",
-  "phase": 3,
-  "active_region": "complex",
-  "current_phase": "ROUTE_OPEN",
-  "current_desire_state": "tension",
-  "current_question": "Which existing relation now becomes traversable?",
-  "current_narrative_rule": "arrival activates aftermath",
-  "next_relation": {
-    "title": "MASS BECOMES WEATHER",
-    "text": "Accumulation changes the scale of a room until architecture starts responding.",
-    "from": "beefythiq",
-    "to": "complex"
-  }
+  "next_region": null,
+  "phase": 0,
+  "active_region": "beefythiq",
+  "current_phase": "CROSSING",
+  "current_desire_state": "continuity",
+  "current_question": "What can change without erasing where it came from?",
+  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "next_relation": null
 }

@@ -112,6 +112,27 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue the retained world state"
+    },
+    {
+      "id": "world-production-000008",
+      "created_at": "2026-10-11T01:01:43.030436+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "CROSSING / BEEFYTHIQ / novel/REWRITTEN_OPENING.md",
+      "content": "NICK: The world crosses the route from THE COMPLEX into BEEFYTHIQ. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: Accumulation → stress → mutation → new baseline. Relation carried forward: MASS BECOMES WEATHER.",
+      "production_note": "The world resolved its crossing rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 8,
+        "actor": "JOSEPH",
+        "world": "BEEFYTHIQ",
+        "region_id": "beefythiq",
+        "source": "novel/REWRITTEN_OPENING.md",
+        "phase": "CROSSING",
+        "relation": "MASS BECOMES WEATHER"
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
     }
   ]
 }

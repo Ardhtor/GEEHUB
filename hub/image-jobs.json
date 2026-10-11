@@ -2,6 +2,17 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00027",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00027.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "DEEP LORE / LONG PLAY / TYLER",
+      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00027. Preserve region deep-lore and inherited geography. Adult male human subject tyler at 4.18x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
+      "created": "2026-10-11T02:13:28.262Z"
+    },
+    {
       "id": "scheduled-image-00026",
       "status": "QUEUED",
       "type": "IMAGE",

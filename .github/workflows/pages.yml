@@ -31,14 +31,42 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+
+      - name: Check whether Pages is enabled
+        id: pages
+        uses: actions/github-script@v7
         with:
-          enablement: true
+          script: |
+            try {
+              await github.rest.repos.getPages({
+                owner: context.repo.owner,
+                repo: context.repo.repo
+              });
+              core.setOutput('enabled', 'true');
+            } catch (error) {
+              if (error.status === 404) {
+                core.warning('GitHub Pages is not enabled for this repository. Source changes are committed; deployment will resume after Pages is enabled in Settings > Pages.');
+                core.setOutput('enabled', 'false');
+              } else {
+                throw error;
+              }
+            }
+
+      - name: Setup Pages
+        if: steps.pages.outputs.enabled == 'true'
+        uses: actions/configure-pages@v5
+
       - name: Upload site
+        if: steps.pages.outputs.enabled == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
+
       - name: Deploy
+        if: steps.pages.outputs.enabled == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Report skipped deployment
+        if: steps.pages.outputs.enabled != 'true'
+        run: echo "GEEHUB code checks and persistent world runs continue; static Pages hosting is pending repository configuration."

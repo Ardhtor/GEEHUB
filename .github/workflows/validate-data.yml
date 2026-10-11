@@ -42,6 +42,7 @@ jobs:
       - name: Check browser script syntax
         run: |
           node --check app.js
+          node --check artifacts/runtime.js
           node --check engine/story-atlas.js
           node --check engine/world-state-bridge.js
           node --check engine/screen-puncture.js
@@ -64,6 +65,16 @@ jobs:
           const placeMap = JSON.parse(app.slice(mapStart, mapEnd));
           const broadcasts = JSON.parse(app.slice(broadcastStart, broadcastEnd));
           const autonomy = fs.readFileSync('engine/world-autonomy.js', 'utf8');
+          const atlas = fs.readFileSync('engine/story-atlas.js', 'utf8');
+          const atlasCss = fs.readFileSync('engine/story-atlas.css', 'utf8');
+          const runtime = fs.readFileSync('artifacts/runtime.js', 'utf8');
+          const bridge = fs.readFileSync('engine/world-state-bridge.js', 'utf8');
+          if (!app.includes("source!=='restore')syncStoryLocation(n.id,n.name)")) throw new Error('World encounters must update the story map pin');
+          if (atlas.includes("addEventListener('geehub:environmental-transition'")) throw new Error('Atmosphere changes must not teleport the story pin');
+          if (!atlas.includes('storyMapRoute') || !atlas.includes("detail.type === 'ROUTE_OPEN'") || !atlasCss.includes('.story-atlas.route-open')) throw new Error('Visible autonomous route rendering is missing');
+          if (!autonomy.includes('MAX_STORY_SECTIONS')) throw new Error('Narrative needs a bounded live history');
+          if (!runtime.includes('type: item?.type || item?.kind') || !runtime.includes('body: item?.body ?? item?.content')) throw new Error('Archive renderer cannot normalize legacy and new artifacts');
+          if (!bridge.includes("['ATMOSPHERE','MEMORY','ROUTE OPEN','CROSSING']")) throw new Error('Live world phase labels are out of sync');
           const enterStart = app.indexOf('function deriveWorldResponse');
           const enterEnd = app.indexOf('function triggerHit()', enterStart);
           const encounterLogic = app.slice(enterStart, enterEnd);
@@ -82,11 +93,13 @@ jobs:
           console.log('Validated ' + world.regions.length + ' world broadcasts, map destinations, and interface assets.');
           NODE
       - name: Validate Python tools
-        run: python -m py_compile engine/run_world.py hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py
+        run: python -m py_compile engine/run_world.py hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py hub/test-world-engine.py
       - name: Run portable jam regression test
         run: python hub/test-validate-jams.py
       - name: Run UI registry validator regression test
         run: python hub/test-validate-ui-registry.py
+      - name: Run persistent world engine regression test
+        run: python hub/test-world-engine.py
       - name: Validate constellation registry
         run: python hub/validate-projects.py hub/projects.json
       - name: Validate browser repository links

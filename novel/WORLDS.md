@@ -389,3 +389,11 @@ NICK: The world crosses the route from THE COMPLEX into BEEFYTHIQ. The earlier p
 SETH: Accumulation → stress → mutation → new baseline. Relation carried forward: MASS BECOMES WEATHER.
 
 Source retained: novel/REWRITTEN_OPENING.md. Pressure 0.24; memory 0.59.
+
+## BEEFYTHIQ / pulse 9 / ATMOSPHERE
+
+SETH: The floor answers a shift of weight with a low sound. A chair stays where it was while the distance between chair, doorway, and the man standing there acquires a different scale.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: creative/luke-bwomph.json. Pressure 0.26; memory 0.59.

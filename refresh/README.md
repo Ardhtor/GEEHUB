@@ -1,25 +1,27 @@
-# GEEHUB Refresh — The Living Atlas
+# GEEHUB — The Living Atlas
 
-The voice is part of the engine, not a layer of documentation placed over it. The interface should sound like someone present in the world, noticing a specific thing as it happens. Avoid canned status reports, taxonomic bullet points, and generic phrases like “world altered.” Let the land answer through concrete details. Let the record keep what actually happened. Technical labels may orient the user, but the story itself should never sound like a system describing its own features.
+The refresh is now a narrative workspace, not a decorative demo page. Open it at the repository's GitHub Pages route `/refresh/` after Pages deploys the latest commit.
 
-A clean, standalone entry point for the next GEEHUB iteration. This is an additive build; it does not replace the existing hub.
+## What it does now
 
-## Open
-- GitHub Pages path: `/refresh/` (after the repository's Pages deployment updates)
-- Source: `refresh/index.html`
+- Keeps a persistent illustrated map beside the current scene. Choosing an action moves the story pin and changes the scene.
+- Lets the world answer through four actions: listen, follow, leave a mark, or cross a threshold.
+- Records visits and user-written notes in browser local storage. Records survive a return to the road.
+- Exports the local memory ledger as a Markdown file for safekeeping or importing into the production archive.
+- Loads a curated set of actual GEEHUB corpus documents from the public repository at runtime. Search can inspect the loaded source text, and selected passages can be opened in the scene.
+- Keeps external references distinct from canon and links source entries back to the repository.
+- Uses the canon's continuity principles in the story surface: form and memory, return without erasure, and a world that learns through being inhabited.
 
-## Core behavior
-- A persistent illustrated terrain map with a pin that follows the current story location.
-- RUN advances the world and records an event.
-- Four in-world choices alter the route and continue the scene in a natural, observant voice.
-- The session ledger keeps moments from the scene in browser local storage; records should read like remembered events, not diagnostic logs.
-- Reset returns the story to arrival without deleting the ledger.
-- Responsive layout, no external libraries, and no network calls.
+## Voice
 
-## Continuity grammar
-`ACCUMULATE → CHARACTERIZE → CONTACT → ACT → ALTER → RECORD → ACCUMULATE`
+The scene should sound like someone inside the place noticing what happens. Avoid diagnostic narration (“world altered”), fake system certainty, generic inspirational copy, and taxonomy masquerading as story. The interface can label controls; the world itself should speak through particular sounds, objects, gestures, spatial changes, and remembered details.
 
-The map is always present. The story moves across it. Each encounter changes the current state and can be kept as a memory artifact.
+## Current limits
 
-## Next integration pass
-Connect the event ledger to GEEHUB's canonical corpus/state schema and Dropbox production tree; add real map/assets and media-native chapter artifacts while retaining provenance for source, derived, generated, and canon material.
+The interface is static HTML and client-side JavaScript. Browser memory is local to the browser/device; it is not yet a shared cloud ledger and does not automatically write into GitHub or Dropbox. The corpus panel fetches selected public repository files when online. Source excerpts are presented as archive material, not silently absorbed into canon. Dropbox synchronization and a true model-backed, corpus-derived authoring loop remain future integration work.
+
+## Canonical loop
+
+`PYYRO → WORLD → SEEP → POETRY → DEEP LORE → NOVEL → PYYRO`
+
+A scene leaves residue. A memory can become a rule only after the world has had a chance to prove it. The novel is not a report about the world; it is one of the ways the world remembers.

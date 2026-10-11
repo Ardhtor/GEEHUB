@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
+  "activeRecording": "./recordings/scheduled-recording-00028.json",
   "activeEncounter": {
-    "regionId": "complex",
-    "regionName": "THE COMPLEX",
+    "regionId": "facility",
+    "regionName": "THE FACILITY",
     "subject": {
-      "agent": "luke",
-      "scale": 3,
-      "physiqueState": "elongated massive baseline"
+      "agent": "andrew",
+      "scale": 4.26,
+      "physiqueState": "growing baseline / identity continuous"
     },
-    "intent": "LUKE / MASSIVE BASELINE / LONGER PHYSIQUE / FAMILIAR USE OF MASS",
+    "intent": "LONG PLAY / BEEFYTHIQ → THE FACILITY / ANDREW",
     "continuity": [
       "face",
       "identity",
@@ -21,11 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "greater overall length",
-      "greater reach",
-      "more usable leverage",
-      "room clearance recalibrated"
-    ]
+      "scale 4.18× → 4.26×",
+      "BEEFYTHIQ → THE FACILITY",
+      "relation: THE ROOM GETS SMALLER",
+      "room clearance recalibrated",
+      "previous baselines retained"
+    ],
+    "previousRegionId": "beefythiq"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -35,5 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-08T16:22:32Z"
+  "snapshot": "2026-10-11T03:19:02.754Z",
+  "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
+  "livePlay": {
+    "cycle": 28,
+    "agent": "andrew",
+    "previousRegionId": "beefythiq",
+    "regionId": "facility",
+    "relation": "THE ROOM GETS SMALLER",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "previousScale": 4.18,
+    "scale": 4.26,
+    "recording": "scheduled-recording-00028",
+    "at": "2026-10-11T03:19:02.754Z"
+  }
 }

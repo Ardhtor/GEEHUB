@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00028",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "facility",
+  "position": {
+    "x": 80,
+    "y": 57,
+    "z": 0
+  },
+  "camera": {
+    "x": 80,
+    "y": 57,
+    "z": 1.7,
+    "heading": 284,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 4.26,
+    "priorScale": 4.18,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 4.26,
+    "clearance": 0.2347,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 0.3,
+    "relation": "THE ROOM GETS SMALLER"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "beefythiq",
+      "name": "BEEFYTHIQ"
+    },
+    {
+      "type": "region",
+      "id": "facility",
+      "name": "THE FACILITY"
+    },
+    {
+      "type": "relation",
+      "title": "THE ROOM GETS SMALLER"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 4.18,
+      "to": 4.26
+    },
+    {
+      "property": "location.regionId",
+      "from": "beefythiq",
+      "to": "facility",
+      "relation": "THE ROOM GETS SMALLER"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.2392,
+      "to": 0.2347
+    }
+  ],
+  "intent": "LONG PLAY / BEEFYTHIQ → THE FACILITY / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 28,
+    "previousRegionId": "beefythiq",
+    "regionId": "facility",
+    "relation": "THE ROOM GETS SMALLER",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 4.18,
+    "scaleBaselineTo": 4.26
+  },
+  "timestamp": "2026-10-11T03:19:02.754Z"
+}

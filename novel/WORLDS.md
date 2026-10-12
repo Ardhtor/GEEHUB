@@ -453,3 +453,11 @@ SETH: Luke stands in familiar bar-gym light, mirrors clouded at their edges and 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: creative/luke-bwomph.json. Pressure 0.64; memory 0.90.
+
+## DEEP LORE / pulse 17 / ATMOSPHERE
+
+SETH: Several scratches on the wall resolve into marks made at different times. Dust sits in the baseboard groove beside a small object someone left and did not retrieve.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: lore/DEEP_LORE.md. Pressure 0.66; memory 0.90.

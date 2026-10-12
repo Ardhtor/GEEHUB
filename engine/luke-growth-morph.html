@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GEEHUB // LUKE GROWTH MORPH</title>
+<style>
+:root{color-scheme:dark;--bg:#080b0f;--panel:#10171d;--line:#2a3943;--ink:#e7edf0;--muted:#8b9aa5;--cyan:#86dce5;--amber:#d7ad78}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 22%,#20313b 0,#0b1117 48%,#07090c 100%);color:var(--ink);font:14px/1.4 system-ui,sans-serif}.shell{max-width:1280px;margin:auto;padding:20px}.head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding-bottom:16px;border-bottom:1px solid var(--line)}.eyebrow{font:10px ui-monospace,monospace;letter-spacing:.2em;color:var(--cyan)}h1{font-size:clamp(25px,4vw,44px);font-weight:500;letter-spacing:.04em;margin:5px 0}p{margin:4px 0;color:var(--muted)}.status{font:10px ui-monospace,monospace;color:var(--cyan);padding-top:7px;white-space:nowrap}.layout{display:grid;grid-template-columns:minmax(0,1fr) 315px;gap:14px;margin-top:14px}.stage{position:relative;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:#0b1117;min-height:640px}canvas{width:100%;height:100%;min-height:640px;display:block;touch-action:none}.overlay{position:absolute;top:15px;left:16px;pointer-events:none}.overlay strong{display:block;font-size:11px;letter-spacing:.13em;font-weight:500}.overlay small{color:var(--muted);font:10px ui-monospace,monospace}.controls{border:1px solid var(--line);border-radius:9px;background:#0b1117;padding:17px}.controls h2{font-size:12px;font-weight:500;letter-spacing:.12em;margin:0 0 5px}.sub{font-size:11px;color:var(--muted);margin-bottom:18px}.group{border-top:1px solid #24313a;padding-top:12px;margin-top:12px}.groupname{font:10px ui-monospace,monospace;color:var(--cyan);letter-spacing:.14em;margin-bottom:8px}.ctrl{margin:11px 0}.ctrl label{display:flex;justify-content:space-between;gap:8px;font-size:11px;margin-bottom:6px}.ctrl output{color:var(--cyan);font-variant-numeric:tabular-nums}input[type=range]{width:100%;accent-color:var(--cyan)}.buttons{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px}button{cursor:pointer;border:1px solid #3a4d58;border-radius:4px;background:#16242c;color:var(--ink);padding:10px 11px;font:10px ui-monospace,monospace;letter-spacing:.06em}button:hover{border-color:var(--cyan);color:var(--cyan)}button.primary{background:#17373c;border-color:#4b8991}.timeline{margin-top:14px;border:1px solid var(--line);border-radius:8px;background:#0b1117;padding:14px 16px}.timeline-head{display:flex;justify-content:space-between;font:10px ui-monospace,monospace;color:var(--muted);margin-bottom:9px}.timeline input{width:100%;accent-color:var(--cyan)}.marks{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-top:10px}.mark{height:3px;background:#25343e}.mark.on{background:var(--cyan)}.note{font-size:10px;color:var(--muted);margin-top:13px}.foot{font:10px ui-monospace,monospace;color:#627682;margin-top:14px}.toast{color:var(--amber);font-size:11px;margin-top:10px;min-height:30px}@media(max-width:800px){.shell{padding:12px}.layout{grid-template-columns:1fr}.stage,canvas{min-height:510px}.controls{display:grid;grid-template-columns:1fr 1fr;gap:0 15px}.controls h2,.sub,.buttons,.toast,.note{grid-column:1/-1}.group{min-width:0}.head{flex-direction:column}.status{padding:0}}
+</style></head><body><main class="shell">
+<header class="head"><div><div class="eyebrow">GEEHUB / CHARACTER WORKSHOP</div><h1>LUKE — GROWTH MORPH</h1><p>Same man. New baseline. Every change remains adjustable.</p></div><div class="status">● PROCEDURAL CHARACTER / BUILD 02</div></header>
+<div class="layout"><section class="stage"><canvas id="view" aria-label="Interactive three dimensional male character growth model"></canvas><div class="overlay"><strong>LUKE / CONTINUITY STUDY</strong><small>DRAG TO ORBIT · WHEEL TO ZOOM</small></div></section>
+<aside class="controls"><h2>BODY STATE</h2><div class="sub">Change mass first. Tune the silhouette after.</div>
+<div class="group"><div class="groupname">UPPER FRAME</div>
+<div class="ctrl"><label for="shoulders">Shoulder width <output id="shouldersOut">1.00×</output></label><input id="shoulders" type="range" min=".85" max="1.9" step=".01" value="1"></div>
+<div class="ctrl"><label for="traps">Traps <output id="trapsOut">1.00×</output></label><input id="traps" type="range" min=".7" max="2.2" step=".01" value="1"></div>
+<div class="ctrl"><label for="chest">Chest depth <output id="chestOut">1.00×</output></label><input id="chest" type="range" min=".8" max="2" step=".01" value="1"></div></div>
+<div class="group"><div class="groupname">ARMS</div>
+<div class="ctrl"><label for="biceps">Biceps <output id="bicepsOut">1.00×</output></label><input id="biceps" type="range" min=".75" max="2.8" step=".01" value="1"></div>
+<div class="ctrl"><label for="triceps">Triceps <output id="tricepsOut">1.00×</output></label><input id="triceps" type="range" min=".75" max="2.8" step=".01" value="1"></div>
+<div class="ctrl"><label for="forearms">Forearms <output id="forearmsOut">1.00×</output></label><input id="forearms" type="range" min=".75" max="2.3" step=".01" value="1"></div></div>
+<div class="group"><div class="groupname">LOWER FRAME</div>
+<div class="ctrl"><label for="thighs">Thighs <output id="thighsOut">1.00×</output></label><input id="thighs" type="range" min=".8" max="2.2" step=".01" value="1"></div>
+<div class="ctrl"><label for="calves">Calves <output id="calvesOut">1.00×</output></label><input id="calves" type="range" min=".8" max="1.9" step=".01" value="1"></div>
+<div class="ctrl"><label for="definition">Definition <output id="definitionOut">0.45</output></label><input id="definition" type="range" min="0" max="1" step=".01" value=".45"></div></div>
+<div class="buttons"><button class="primary" id="grow">GROW / 5 SEC</button><button id="reset">BASELINE</button><button id="export">EXPORT STATE</button></div><div id="toast" class="toast">Growth changes the silhouette; identity markers remain fixed.</div><div class="note">This is a procedural blocking model, not Luke's final production mesh. Replace the neutral head and body with his approved source mesh when available.</div></aside></div>
+<section class="timeline"><div class="timeline-head"><span>GROWTH TIMELINE</span><span id="stageName">01 / BASELINE</span></div><input id="timeline" type="range" min="0" max="100" value="0" aria-label="Growth timeline"><div class="marks"><div class="mark on"></div><div class="mark"></div><div class="mark"></div><div class="mark"></div><div class="mark"></div></div></section>
+<div class="foot">GEEHUB / MORPH SYSTEM / PRESERVE THE MAN THROUGH THE CHANGE</div></main>
+<script type="module">
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
+const canvas=document.querySelector('#view'),scene=new THREE.Scene();scene.background=new THREE.Color('#0b1117');scene.fog=new THREE.Fog('#0b1117',10,22);
+const camera=new THREE.PerspectiveCamera(34,1,.1,100);camera.position.set(4.4,3.4,9.4);
+const renderer=new THREE.WebGLRenderer({canvas,antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.1;
+scene.add(new THREE.HemisphereLight(0xcce7ef,0x20242c,2.0));
+function light(color,intensity,pos){const l=new THREE.DirectionalLight(color,intensity);l.position.set(...pos);l.castShadow=true;scene.add(l)}light(0xffdfc1,3.4,[4,7,5]);light(0x62d6e5,3.0,[-5,3,-4]);light(0xa8c9ff,1.2,[-2,5,4]);
+const floorMat=new THREE.MeshStandardMaterial({color:'#101820',roughness:.78,metalness:.12});const floor=new THREE.Mesh(new THREE.CircleGeometry(5,64),floorMat);floor.rotation.x=-Math.PI/2;floor.position.y=-2.62;floor.receiveShadow=true;scene.add(floor);const grid=new THREE.GridHelper(10,40,'#29434e','#182932');grid.position.y=-2.61;scene.add(grid);
+const skin=new THREE.MeshStandardMaterial({color:'#ad785e',roughness:.43,metalness:.01});const lightSkin=new THREE.MeshStandardMaterial({color:'#bd8b70',roughness:.4});const shadowSkin=new THREE.MeshStandardMaterial({color:'#875944',roughness:.48});const shortsMat=new THREE.MeshStandardMaterial({color:'#252b31',roughness:.78});
+const root=new THREE.Group();scene.add(root);const body=new THREE.Group();root.add(body);
+function ball(name,pos,scale,mat=skin,parent=body){const m=new THREE.Mesh(new THREE.SphereGeometry(1,40,28),mat);m.name=name;m.position.set(...pos);m.scale.set(...scale);m.castShadow=true;m.receiveShadow=true;parent.add(m);return m}
+function limb(name,a,b,r1,r2,mat=skin,parent=body){const v1=new THREE.Vector3(...a),v2=new THREE.Vector3(...b),d=v2.clone().sub(v1);const m=new THREE.Mesh(new THREE.CylinderGeometry(r2,r1,d.length(),32,1),mat);m.name=name;m.position.copy(v1.add(v2).multiplyScalar(.5));m.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),d.normalize());m.castShadow=true;m.receiveShadow=true;parent.add(m);return m}
+const pelvis=ball('Pelvis',[0,-.55,0],[.48,.48,.29],shortsMat);
+const abdomen=ball('Torso',[0,.45,0],[.62,1.02,.34],skin);
+const chest=ball('Pectoral mass',[0,.92,.04],[.7,.48,.39],lightSkin);
+const abs1=ball('Abdominal form',[0,.1,.105],[.42,.56,.27],skin);
+const neck=limb('Neck',[0,1.12,0],[0,1.55,0],.19,.17,skin);
+const head=ball('Head / identity anchor',[0,1.82,0],[.28,.39,.27],lightSkin);
+const jaw=ball('Jaw',[0,1.63,.045],[.235,.19,.24],skin);
+const hair=ball('Hair',[0,2.06,-.015],[.29,.19,.28],shadowSkin);
+const earL=ball('Ear L',[-.285,1.82,0],[.055,.09,.045],skin),earR=ball('Ear R',[.285,1.82,0],[.055,.09,.045],skin);
+const eyeL=ball('Eye L',[-.105,1.87,.245],[.035,.022,.012],shadowSkin),eyeR=ball('Eye R',[.105,1.87,.245],[.035,.022,.012],shadowSkin);
+const armParts=[],legs=[];
+for(const s of [-1,1]){
+ const sh=ball('Deltoid '+s,[s*.73,.91,0],[.31,.34,.31],lightSkin);
+ const upper=limb('Upper arm '+s,[s*.76,.77,0],[s*.87,-.04,.015],.22,.19,skin);
+ const bi=ball('Biceps '+s,[s*.82,.34,.19],[.205,.42,.18],lightSkin);
+ const tri=ball('Triceps '+s,[s*.88,.34,-.16],[.19,.43,.16],shadowSkin);
+ const elbow=ball('Elbow '+s,[s*.87,-.08,.01],[.17,.17,.17],skin);
+ const fore=limb('Forearm '+s,[s*.87,-.12,.015],[s*.98,-.85,.045],.17,.115,skin);
+ const flex=ball('Forearm muscle '+s,[s*.93,-.43,.12],[.15,.34,.13],lightSkin);
+ const hand=ball('Hand '+s,[s*.99,-1.02,.055],[.13,.19,.09],skin);
+ for(let j=0;j<4;j++)ball('Finger '+s+' '+j,[s*(.91+j*.05),-1.21,.07],[.035,.13,.035],skin);
+ armParts.push({s,sh,upper,bi,tri,elbow,fore,flex,hand});
+ const thigh=limb('Thigh '+s,[s*.28,-.72,0],[s*.32,-1.55,.02],.28,.22,skin);
+ const quad=ball('Quadriceps '+s,[s*.31,-1.13,.16],[.255,.49,.22],lightSkin);
+ const ham=ball('Hamstring '+s,[s*.32,-1.15,-.13],[.21,.43,.15],shadowSkin);
+ const knee=ball('Knee '+s,[s*.32,-1.57,.04],[.19,.19,.19],skin);
+ const calf=limb('Calf '+s,[s*.32,-1.65,0],[s*.33,-2.35,-.035],.18,.11,skin);
+ const gast=ball('Calf muscle '+s,[s*.33,-1.96,-.02],[.18,.33,.16],lightSkin);
+ const foot=ball('Foot '+s,[s*.34,-2.48,.14],[.16,.11,.29],skin);
+ legs.push({s,thigh,quad,ham,knee,calf,gast,foot});
+}
+const defaults={shoulders:1,traps:1,chest:1,biceps:1,triceps:1,forearms:1,thighs:1,calves:1,definition:.45};let state={...defaults},from={...state},to={shoulders:1.55,traps:1.55,chest:1.42,biceps:2.05,triceps:1.9,forearms:1.5,thighs:1.65,calves:1.38,definition:.68},running=false,start=0;
+function apply(){body.scale.x=1;chest.scale.set(.7*state.chest,.48*state.chest,.39*state.chest);abs1.scale.z=.27*(.85+.15*state.chest);for(const p of armParts){const s=p.s;p.sh.position.x=s*.73*state.shoulders;p.sh.scale.set(.31*state.shoulders,.34*state.shoulders,.31*state.shoulders);p.upper.position.x=s*.76*state.shoulders;p.upper.scale.x=.22*state.biceps;p.upper.scale.z=.20*state.triceps;p.bi.position.x=s*.82*state.shoulders;p.bi.scale.set(.205*state.biceps,.42*state.biceps,.18*state.biceps);p.tri.position.x=s*.88*state.shoulders;p.tri.scale.set(.19*state.triceps,.43*state.triceps,.16*state.triceps);p.fore.position.x=s*.91*state.shoulders;p.fore.scale.x=state.forearms;p.flex.position.x=s*.93*state.shoulders;p.flex.scale.set(.15*state.forearms,.34*state.forearms,.13*state.forearms);p.hand.position.x=s*.99*state.shoulders}
+for(const p of legs){const s=p.s;p.thigh.scale.x=.28*state.thighs;p.quad.scale.set(.255*state.thighs,.49*state.thighs,.22*state.thighs);p.ham.scale.set(.21*state.thighs,.43*state.thighs,.15*state.thighs);p.calf.scale.x=.18*state.calves;p.gast.scale.set(.18*state.calves,.33*state.calves,.16*state.calves)}
+const d=state.definition;skin.roughness=.5-.13*d;lightSkin.roughness=.48-.13*d;shadowSkin.roughness=.54-.12*d;document.querySelectorAll('input[type=range]').forEach(i=>{const k=i.id;if(k in state){i.value=state[k];document.querySelector('#'+k+'Out').textContent=k==='definition'?state[k].toFixed(2):state[k].toFixed(2)+'×'}});const pct=+document.querySelector('#timeline').value;const idx=Math.min(4,Math.floor(pct/20));document.querySelector('#stageName').textContent=['01 / BASELINE','02 / AWAKENING','03 / EXPANSION','04 / OVERLOAD','05 / NEW BASELINE'][idx];document.querySelectorAll('.mark').forEach((m,i)=>m.classList.toggle('on',i<=idx))}
+Object.keys(state).forEach(k=>document.querySelector('#'+k).addEventListener('input',e=>{state[k]=+e.target.value;running=false;apply()}));
+document.querySelector('#timeline').addEventListener('input',e=>{const t=+e.target.value/100;Object.keys(state).forEach(k=>state[k]=from[k]+(to[k]-from[k])*t);running=false;apply()});
+document.querySelector('#grow').onclick=()=>{from={...state};start=performance.now();running=true;document.querySelector('#toast').textContent='Growth in progress. The same identity anchor remains in place.'};
+document.querySelector('#reset').onclick=()=>{running=false;state={...defaults};from={...state};document.querySelector('#timeline').value=0;apply();document.querySelector('#toast').textContent='Baseline restored.'};
+document.querySelector('#export').onclick=()=>{const data={engine:'GEEHUB LUKE GROWTH MORPH',version:2,created:new Date().toISOString(),character:'Luke / provisional procedural blocking model',identityAnchors:['head','jaw','hair','ears','eyes'],morphs:{...state},timeline:+document.querySelector('#timeline').value};const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));a.download='luke-growth-morph-state.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);document.querySelector('#toast').textContent='Character morph state exported as JSON.'};
+let drag=false,lx=0,ly=0,ry=.2,rx=0;canvas.addEventListener('pointerdown',e=>{drag=true;lx=e.clientX;ly=e.clientY;canvas.setPointerCapture(e.pointerId)});canvas.addEventListener('pointerup',()=>drag=false);canvas.addEventListener('pointermove',e=>{if(!drag)return;ry+=(e.clientX-lx)*.008;rx=Math.max(-.4,Math.min(.4,rx+(e.clientY-ly)*.005));lx=e.clientX;ly=e.clientY});canvas.addEventListener('wheel',e=>{camera.position.multiplyScalar(e.deltaY>0?1.06:.94);camera.position.clampLength(5,14);e.preventDefault()},{passive:false});
+function resize(){const r=canvas.getBoundingClientRect();renderer.setSize(r.width,r.height,false);camera.aspect=r.width/r.height;camera.updateProjectionMatrix()}new ResizeObserver(resize).observe(canvas);resize();apply();
+function frame(now){requestAnimationFrame(frame);if(running){const t=Math.min(1,(now-start)/5000),s=t*t*(3-2*t);Object.keys(state).forEach(k=>state[k]=from[k]+(to[k]-from[k])*s);document.querySelector('#timeline').value=Math.round(t*100);apply();if(t>=1){running=false;document.querySelector('#toast').textContent='New baseline reached. Adjust any region or export the state.'}}root.rotation.y=ry;root.rotation.x=rx;renderer.render(scene,camera)}requestAnimationFrame(frame);
+</script></body></html>

@@ -1,0 +1,39 @@
+name: Luke Growth Morph Render
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout GEEHUB
+        uses: actions/checkout@v4
+
+      - name: Install Blender
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y blender
+
+      - name: Build animated scene and render MP4 with sound
+        env:
+          GEEHUB_OUTPUT: ${{ runner.temp }}/geehub-luke-growth
+          GEEHUB_RENDER: "1"
+          GEEHUB_FAST_RENDER: "1"
+        run: |
+          blender --background --python engine/blender_luke_growth.py 2>&1 | tee "${{ runner.temp }}/blender-render.log"
+
+      - name: Upload scene, MP4, sound and render log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: geehub-luke-growth-render
+          path: |
+            ${{ runner.temp }}/geehub-luke-growth/
+            ${{ runner.temp }}/blender-render.log
+          if-no-files-found: warn
+          retention-days: 14

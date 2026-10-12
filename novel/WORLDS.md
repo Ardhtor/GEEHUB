@@ -445,3 +445,11 @@ SETH: Cool blue light moves along the wall and catches the shoulder line of a fa
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: research/embodied-scale/README.md. Pressure 0.62; memory 0.90.
+
+## LUKE // BWOMPH / pulse 16 / ATMOSPHERE
+
+SETH: Luke stands in familiar bar-gym light, mirrors clouded at their edges and chalk pressed into the rubber floor. His shoulders fill more of the tank top, while his face remains his own.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: creative/luke-bwomph.json. Pressure 0.64; memory 0.90.

@@ -4,11 +4,17 @@ Render MP4 + generated sound: GEEHUB_RENDER=1 blender --background --python engi
 Output folder: GEEHUB_OUTPUT=/path/to/folder
 This is a procedural full-body stand-in. Swap in the approved Luke mesh when available.
 """
-import bpy, math, os, wave, struct
+import bpy, math, os, wave, struct, json
 from mathutils import Vector
 
 OUT=os.environ.get("GEEHUB_OUTPUT",os.path.abspath("./geehub_luke_growth_output"))
 DO_RENDER=os.environ.get("GEEHUB_RENDER","0")=="1"
+STATE_PATH=os.environ.get("GEEHUB_MORPH_STATE","")
+MORPHS={}
+if STATE_PATH and os.path.isfile(STATE_PATH):
+    with open(STATE_PATH,"r",encoding="utf-8") as sf:
+        MORPHS=json.load(sf).get("morphs",{})
+    print("Imported Geehub morph state:",STATE_PATH,MORPHS)
 os.makedirs(OUT,exist_ok=True)
 BLEND=os.path.join(OUT,"luke_growth_morph.blend")
 VIDEO=os.path.join(OUT,"luke_growth_morph.mp4")
@@ -76,13 +82,13 @@ def animate_scale(obj,factor,axis='xyz'):
         if 'y' in axis:obj.scale.y*=mul
         if 'z' in axis:obj.scale.z*=mul
         obj.keyframe_insert(data_path="scale",frame=frame)
-animate_scale(chest,1.42,'xz');animate_scale(traps,1.55,'xyz')
-for o in parts["shoulders"]:animate_scale(o,1.62,'xz')
-for o in parts["biceps"]:animate_scale(o,2.0,'xyz')
-for o in parts["triceps"]:animate_scale(o,1.82,'xyz')
-for o in parts["forearms"]:animate_scale(o,1.48,'xz')
-for o in parts["thighs"]:animate_scale(o,1.62,'xz')
-for o in parts["calves"]:animate_scale(o,1.38,'xz')
+animate_scale(chest,float(MORPHS.get('chest',1.42)),'xz');animate_scale(traps,float(MORPHS.get('traps',1.55)),'xyz')
+for o in parts['shoulders']:animate_scale(o,float(MORPHS.get('shoulders',1.62)),'xz')
+for o in parts['biceps']:animate_scale(o,float(MORPHS.get('biceps',2.0)),'xyz')
+for o in parts['triceps']:animate_scale(o,float(MORPHS.get('triceps',1.82)),'xyz')
+for o in parts['forearms']:animate_scale(o,float(MORPHS.get('forearms',1.48)),'xz')
+for o in parts['thighs']:animate_scale(o,float(MORPHS.get('thighs',1.62)),'xz')
+for o in parts['calves']:animate_scale(o,float(MORPHS.get('calves',1.38)),'xz')
 # Scene set
 floor_mat=mat("Studio / graphite",(.018,.027,.035),.72,.12)
 bpy.ops.mesh.primitive_plane_add(size=200,location=(0,-2.52,0));floor=bpy.context.object;floor.name="Studio floor";floor.data.materials.append(floor_mat)
@@ -120,7 +126,7 @@ bpy.ops.wm.save_as_mainfile(filepath=BLEND)
 with open(os.path.join(OUT,"luke-growth-manifest.txt"),"w",encoding="utf-8") as f:
     f.write("GEEHUB / LUKE GROWTH MORPH\n")
     f.write("Project: luke_growth_morph.blend\nAudio: growth_atmosphere.wav\nVideo: luke_growth_morph.mp4 (when rendered)\n")
-    f.write("Head identity anchor is not animated. Regional body volumes animate from baseline to expanded state.\n")
+    f.write("Head identity anchor is not animated. Regional body volumes animate from baseline to expanded state.\nBrowser state import: set GEEHUB_MORPH_STATE to luke-growth-morph-state.json.\nImported morph values control chest, traps, shoulders, biceps, triceps, forearms, thighs, and calves.\n")
 if DO_RENDER:
     sc.render.image_settings.file_format="FFMPEG";sc.render.ffmpeg.format="MPEG4";sc.render.ffmpeg.codec="H264";sc.render.ffmpeg.audio_codec="AAC";sc.render.ffmpeg.audio_channels="MONO";sc.render.filepath=VIDEO;sc.cycles.samples=32
     bpy.ops.render.render(animation=True);bpy.ops.wm.save_as_mainfile(filepath=BLEND)

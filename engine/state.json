@@ -276,7 +276,8 @@
     "luke-bwomph": 3,
     "growth": 3,
     "deep-lore": 3,
-    "male-harem": 3
+    "male-harem": 3,
+    "colossal-escalation": 3
   },
   "last_visits": {
     "complex": 0,
@@ -286,10 +287,11 @@
     "luke-bwomph": 15.5,
     "growth": 14.5,
     "deep-lore": 16.5,
-    "male-harem": 17.5
+    "male-harem": 17.5,
+    "colossal-escalation": 18.5
   },
   "pressure": 0.6768000000000001,
-  "memory": 0.908,
+  "memory": 0.9199999999999999,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
     "creative/luke-bwomph.json": 3,
@@ -299,29 +301,42 @@
     "archive/male-harem/README.md": 1
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "male-harem",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "colossal-escalation",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 34,
-    "agent": "joseph",
-    "previous_region_id": "deep-lore",
-    "region_id": "male-harem",
-    "region_name": "MALE HAREM",
-    "relation": "A RELATIONSHIP HAS GEOMETRY",
+    "cycle": 35,
+    "agent": "chase",
+    "previous_region_id": "male-harem",
+    "region_id": "colossal-escalation",
+    "region_name": "COLOSSAL ESCALATION",
+    "relation": "MASS WITHOUT AMNESIA",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 4.58,
-    "scale": 4.7,
-    "recording": "scheduled-recording-00034",
-    "at": "2026-10-12T09:47:39.180Z"
+    "previous_scale": 4.7,
+    "scale": 4.74,
+    "recording": "scheduled-recording-00035",
+    "at": "2026-10-12T19:42:33.958Z"
   },
-  "last_world_change": "2026-10-12T09:47:39.180Z",
-  "scale": 4.7,
+  "last_world_change": "2026-10-12T19:42:33.958Z",
+  "scale": 4.74,
   "external_events": [
+    {
+      "id": "long-play-00035",
+      "type": "CROSSING",
+      "title": "MALE HAREM → COLOSSAL ESCALATION",
+      "body": "The world crossed \"MASS WITHOUT AMNESIA\". Scale increased from 4.70× to 4.74×; the earlier location and baseline remain recorded.",
+      "from": "male-harem",
+      "to": "colossal-escalation",
+      "previous_region_id": "male-harem",
+      "region_id": "colossal-escalation",
+      "relation": "MASS WITHOUT AMNESIA",
+      "source": "long-play",
+      "at": "2026-10-12T19:42:33.958Z"
+    },
     {
       "id": "long-play-00034",
       "type": "CROSSING",

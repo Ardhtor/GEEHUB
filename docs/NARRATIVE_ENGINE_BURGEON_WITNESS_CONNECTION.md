@@ -2,44 +2,54 @@
 
 Status: active writing and experience standard.
 
-The narrative must be powerful enough that the reader feels the body changing while reading. It does not merely describe a large man or announce a new size. It creates anticipation, makes each physical change legible, allows the sensation to gather, holds the new state long enough to register, and lets the character's relationship with the witness give the transformation meaning.
+The narrative must make the growth felt in the body and make the relationship with the witness matter. The preserved preferences are the foundation, not the finish line. The voice must have grit, lived-in male character, physical consequence, and a little dirt under its fingernails. Do not turn the experience into polished product copy or a clinical anatomy report.
 
 ## The engine
 
 **Anticipation → First change → Accumulation → Hold → Recognition → Connection → Further becoming.**
 
-Use this as a rhythm, not a rigid template. Vary the length of sentences and paragraphs to control pressure and release. Let quiet beats make the next change more consequential. Avoid stacking adjectives as a substitute for progression.
+Use this as rhythm, not a template. Let the sentence pace tighten as the change gathers; then give the reader room to take in the new silhouette. Let an ordinary gesture become difficult because the body has changed. Avoid stacking adjectives where a physical consequence would do more.
 
 ## Luke as the proving subject
 
-Luke stays recognisably himself: his face, cocky manner, speech, personal history, and established relationship persist. Growth changes how he occupies the scene, how he carries himself, and how he meets the viewer's gaze. His shoulders, chest, back, arms, hands, hips, thighs, and calves develop as one coordinated body. Girth and cylindrical volume matter; limbs lengthen when necessary to contain the muscle. Do not reduce hypergrowth to height, definition, or uniform scaling.
+Luke stays recognisably himself: face, cocky manner, speech, history, and accumulated relationship persist. He can smirk, mutter, laugh, swear naturally, or show off. He should not sound like a narrator explaining a concept. Growth changes how he occupies the room, carries himself, handles his clothes, and meets the viewer's gaze.
+
+Shoulders, chest, back, arms, hands, hips, thighs, and calves develop as one coordinated body. Girth and cylindrical volume matter; limbs lengthen where needed to contain the muscle. Do not reduce hypergrowth to height, definition, or uniform scaling.
+
+## The gritty physical register
+
+Use concrete, ordinary details that make the body inhabit a place: fabric stretched across the chest; a seam pulled crooked; skin warm or damp after exertion; the drag of heavy arms against the sides; thighs crowding the stance; a chair creaking or a floor taking more weight; a man rolling his shoulders because they no longer sit the way they did a minute ago. These are examples, not mandatory props.
+
+Keep the details specific and selective. Texture is not a checklist. Do not make every scene sweaty, torn, or noisy just to signal grit. Let the location and the character decide what is there. Avoid sterile phrases such as “muscular volume increases” inside the scene; translate the change into what Luke feels, what he notices, what the viewer can see, and what no longer fits.
 
 ## Write from inside the event
 
 - Establish a familiar baseline before disturbing it.
-- Make the earliest cue small enough to invite attention.
-- Track change through physical consequence: a shifted stance, a sleeve under strain, an arm hanging differently, a chest changing the silhouette, a new weight carried through the legs.
-- Give each increment time to arrive. Use a pause or a held pose so the reader can compare the present body with the remembered one.
-- Let the character notice his own becoming without turning him into a clinical narrator.
-- Use direct address sparingly, at moments when the relationship genuinely sharpens.
-- Make witnessing matter. The viewer is not a camera or a score; he is present to the encounter, and Luke knows he is being seen.
-- Let the environment and camera register magnitude without stealing attention from the subject.
-- End a stage with a changed relationship to the body and the world, then let the next stage grow from that state.
+- Make the first cue small, physical, and easy to miss.
+- Follow the change through consequence: a sleeve tightening, his stance widening, his arms hanging differently, his chest pushing the shirt forward, his legs taking a new share of his weight.
+- Let the growth arrive in successive beats. Do not skip straight to the final body.
+- Give each new state a held moment so it can register against the viewer's memory of the previous one.
+- Let Luke react in his own voice. A line of dialogue should sound like something he would actually say, not a slogan written to explain the scene.
+- Use direct address when the relationship sharpens. Luke knows he is being watched, and that matters; he does not need to announce the theme every few lines.
+- Let the environment register the growing presence without stealing focus.
+- End with a changed state and a live sense of what could happen next.
 
-## Connection is not a meter
+## Connection and worship
 
-Worship is expressed through attention, presence, recognition, and the giant's desire to be witnessed. Do not substitute a numeric worship score or generic praise prompts for a real encounter. The character must remain a person whose growth has meaning to him; the viewer must be able to follow that continuity.
+The male viewer is not a camera, a score, or an audience statistic. He is the witness to a particular man's becoming. Luke wants to be seen; the viewer's attention gives the moment a relational charge. Worship emerges through presence, recognition, confidence, and the giant's desire to be witnessed—not through a numeric meter or generic praise prompt.
+
+Keep the connection reciprocal in the writing: Luke presents himself, notices the witness, and allows that shared moment to become part of his history. Do not claim to know the viewer's private feelings.
 
 ## Voice and form
 
-Write in natural, confident prose with a lived-in character voice. Avoid robotic labels, repetitive declarations, melodramatic filler, and explaining the intended emotion after the scene has already conveyed it. Keep paragraphs long enough to carry momentum, but break them where the body or the relationship needs a beat. Sensual physicality may be intimate and charged without becoming mechanically explicit.
+Write natural, confident prose with lived-in character voice. Prefer physical verbs and consequences to strings of grand adjectives. Let dialogue be casual and imperfect. Keep the prose intimate, tactile, masculine, and a little rough where it fits, without turning every sentence into a performance. Do not over-explain the emotion after the scene has already made it felt. Sensual physicality can be close and charged without becoming mechanically explicit.
 
 ## Persistent narrative memory
 
-Each finished scene should retain: character and identity anchors; baseline and resulting stage; the bodily changes that occurred; timing and held beats; camera and environmental cues; what the character said or did; what changed in the relationship; and the unresolved invitation to continue. The next scene should inherit these facts instead of resetting the character or repeating the same first-growth description.
+Each scene retains the character and identity anchors; baseline and resulting stage; the changes that occurred; pacing and held beats; camera and environmental cues; what Luke said or did; how the witness relationship changed; and the unresolved invitation to continue. The next scene inherits those facts instead of resetting the character or repeating the same first-growth description.
 
 ## Acceptance test
 
-The scene succeeds when the reader can track what changed, anticipate what might happen next, recognise the same character, and feel why the encounter matters. If it could be replaced by a static image caption without losing anything essential, it is not yet a growth narrative.
+The scene succeeds when the reader recognises Luke, can track exactly how his body changed, feels the buildup and pause, believes he inhabits the place, and understands why being witnessed matters to him. If it reads like a clean anatomy description, a generic transformation prompt, or a static image caption, it has missed the mark.
 
-**Core rule: make growth felt, make the giant present, make witnessing relational, and carry the connection forward.**
+**Core rule: make the growth felt, make the giant present, keep the prose dirty with life, and let the connection endure.**

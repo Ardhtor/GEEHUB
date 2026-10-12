@@ -25,6 +25,7 @@ jobs:
           GEEHUB_RENDER: "1"
           GEEHUB_FAST_RENDER: "1"
         run: |
+          set -o pipefail
           blender --background --python engine/blender_luke_growth.py 2>&1 | tee "${{ runner.temp }}/blender-render.log"
 
       - name: Upload scene, MP4, sound and render log

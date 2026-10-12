@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00034",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00034.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "male-harem",
+        "relation": "A RELATIONSHIP HAS GEOMETRY"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-12T09:47:39.180Z"
+    },
+    {
+      "id": "scheduled-video-00034",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00034.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "male-harem",
+        "relation": "A RELATIONSHIP HAS GEOMETRY"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-12T09:47:39.180Z"
+    },
+    {
+      "id": "scheduled-space-00034",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00034.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "male-harem",
+        "relation": "A RELATIONSHIP HAS GEOMETRY"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-12T09:47:39.180Z"
+    },
+    {
       "id": "scheduled-sound-00033",
       "type": "SOUND",
       "status": "QUEUED",

@@ -29,6 +29,40 @@
   const clamp = n => Math.max(1, Math.min(3.4, n));
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (_) {} };
   const el = (id) => document.getElementById(id);
+  function publish(beat, kind = "growth") {
+    const detail = {
+      source: "luke-burgeon",
+      type: kind,
+      actor: "LUKE",
+      title: beat?.title || "LUKE / STATE RETAINED",
+      text: beat?.text || s.unresolved,
+      stage: s.stage,
+      held: s.held,
+      witness: s.witness,
+      body: clone(s.body),
+      unresolved: s.unresolved,
+      at: now()
+    };
+    document.dispatchEvent(new CustomEvent("geehub:hyper-morph", {detail}));
+    if (window.GEEHUB_ARTIFACTS?.emit) {
+      window.GEEHUB_ARTIFACTS.emit({
+        type: "GROWTH MORPH",
+        title: "LUKE / " + detail.title,
+        body: detail.text + "\\n\\nRETAINED STATE — stage " + s.stage +
+          "; shoulders " + s.body.shoulders.toFixed(2) +
+          "; chest " + s.body.chest.toFixed(2) +
+          "; arms " + s.body.arms.toFixed(2) +
+          "; legs " + s.body.legs.toFixed(2) +
+          "; witness " + s.witness + ". " + s.unresolved,
+        source: "engine/luke-burgeon-engine.js",
+        lineage: {engine: "luke-burgeon", stage: s.stage, held: s.held, body: clone(s.body)},
+        canon: "active",
+        dreamable: true,
+        quietness: "medium"
+      });
+    }
+    document.dispatchEvent(new CustomEvent("geehub:luke-state", {detail}));
+  }
   function ensure() {
     if (el("lukeBurgeon")) return;
     const host = el("hulumscaveForge") || document.querySelector(".world");
@@ -80,7 +114,7 @@
       s.history = s.history.slice(0,12);
       s.witness += 1;
     }
-    save(); render(b);
+    save(); render(b); publish(b, "growth");
   }
   function hold() {
     s.held = true;
@@ -88,10 +122,10 @@
     s.unresolved = "the current form is held; the next advance will cross into a new scale";
     s.history.unshift({at:now(),stage:s.stage,beat:"WITNESS HOLD",choice:s.lastChoice,text:"The current form remains visible without being replaced by another change."});
     s.history = s.history.slice(0,12);
-    save(); render();
+    save(); render(); publish({title:"WITNESS HOLD", text:"The current form remains visible without being replaced by another change."}, "witness-hold");
   }
   function reset() {
-    s = clone(base); save(); render();
+    s = clone(base); save(); render(); publish({title:"INSTANCE RESET", text:"Luke returns to the stored baseline for a new growth pass."}, "reset");
   }
   function render(beat) {
     const b = beat || (s.held ? {title:"THE MOMENT HELD",text:"Luke remains in the new outline long enough for it to register.",reason:s.lastChoice,part:"presence"} : s.history[0] || {title:"LUKE IS HERE",text:"The next change will start from the body he already has, not from a reset.",reason:s.lastChoice,part:"presence"});

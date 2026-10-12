@@ -117,3 +117,11 @@ SETH: Several scratches on the wall resolve into marks made at different times. 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 18 — ATMOSPHERE / MALE HAREM / 2026-10-12T19:22:23.347147+00:00
+
+SETH: Late light crosses high windows and the worn edges of gym benches. A shirt rests over a chair, and familiar footsteps turn a man's attention toward the doorway.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

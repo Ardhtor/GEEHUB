@@ -35,3 +35,8 @@ The important commentary around the build is part of the implementation. When a 
 ## Future directions
 
 A later version can promote saved jams into real issue templates, create project briefs automatically, hand visual briefs to Blender workflows, and connect semantic growth to a real Beefythiq graph. Those additions should remain downstream of the tiny loop above. The front door should stay simple.
+
+
+## Play archive
+
+`FUR_AND_THUNDER_PLAY_ARCHIVE.md` preserves the Fur and Thunder pantheon roster, the cabin as a recurring convergence point, relationship threads, and loose scene seeds for unexpected character chemistry. Treat it as a living play branch rather than rigid canon or a physics document.

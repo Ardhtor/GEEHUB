@@ -240,7 +240,8 @@
     "facility": 3,
     "embodied-scale": 3,
     "luke-bwomph": 3,
-    "growth": 3
+    "growth": 3,
+    "deep-lore": 3
   },
   "last_visits": {
     "complex": 0,
@@ -248,7 +249,8 @@
     "facility": 10.5,
     "embodied-scale": 12.5,
     "luke-bwomph": 15.5,
-    "growth": 14.5
+    "growth": 14.5,
+    "deep-lore": 16.5
   },
   "pressure": 0.6368,
   "memory": 0.8960000000000001,
@@ -260,29 +262,42 @@
     "research/embodied-scale/README.md": 2
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "luke-bwomph",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "deep-lore",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 32,
-    "agent": "tyler",
-    "previous_region_id": "growth",
-    "region_id": "luke-bwomph",
-    "region_name": "LUKE // BWOMPH",
-    "relation": "HYPEER BASELINE",
+    "cycle": 33,
+    "agent": "andrew",
+    "previous_region_id": "luke-bwomph",
+    "region_id": "deep-lore",
+    "region_name": "DEEP LORE",
+    "relation": "THE FACE REMAINS",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 4.45,
-    "scale": 4.5,
-    "recording": "scheduled-recording-00032",
-    "at": "2026-10-11T23:31:49.473Z"
+    "previous_scale": 4.5,
+    "scale": 4.58,
+    "recording": "scheduled-recording-00033",
+    "at": "2026-10-12T02:39:57.240Z"
   },
-  "last_world_change": "2026-10-11T23:31:49.473Z",
-  "scale": 4.5,
+  "last_world_change": "2026-10-12T02:39:57.240Z",
+  "scale": 4.58,
   "external_events": [
+    {
+      "id": "long-play-00033",
+      "type": "CROSSING",
+      "title": "LUKE // BWOMPH → DEEP LORE",
+      "body": "The world crossed \"THE FACE REMAINS\". Scale increased from 4.50× to 4.58×; the earlier location and baseline remain recorded.",
+      "from": "luke-bwomph",
+      "to": "deep-lore",
+      "previous_region_id": "luke-bwomph",
+      "region_id": "deep-lore",
+      "relation": "THE FACE REMAINS",
+      "source": "long-play",
+      "at": "2026-10-12T02:39:57.240Z"
+    },
     {
       "id": "long-play-00032",
       "type": "CROSSING",

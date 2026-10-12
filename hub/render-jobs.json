@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00033",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00033.json",
+      "route": {
+        "from": "luke-bwomph",
+        "to": "deep-lore",
+        "relation": "THE FACE REMAINS"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-12T02:39:57.240Z"
+    },
+    {
+      "id": "scheduled-video-00033",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00033.json",
+      "route": {
+        "from": "luke-bwomph",
+        "to": "deep-lore",
+        "relation": "THE FACE REMAINS"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-12T02:39:57.240Z"
+    },
+    {
+      "id": "scheduled-space-00033",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00033.json",
+      "route": {
+        "from": "luke-bwomph",
+        "to": "deep-lore",
+        "relation": "THE FACE REMAINS"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-12T02:39:57.240Z"
+    },
+    {
       "id": "scheduled-sound-00032",
       "type": "SOUND",
       "status": "QUEUED",

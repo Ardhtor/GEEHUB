@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-11T23:31:49.473Z",
+  "generated": "2026-10-12T02:39:57.240Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00033",
+      "at": "2026-10-12T02:39:57.240Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / LUKE // BWOMPH → DEEP LORE / ANDREW",
+      "body": "The world crossed the existing relation \"THE FACE REMAINS\" from LUKE // BWOMPH into DEEP LORE. Scale increased from 4.50× to 4.58×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00033",
+      "live": true,
+      "regionId": "deep-lore",
+      "previousRegionId": "luke-bwomph",
+      "relation": "THE FACE REMAINS"
+    },
     {
       "id": "scheduled-long-play-00032",
       "at": "2026-10-11T23:31:49.473Z",

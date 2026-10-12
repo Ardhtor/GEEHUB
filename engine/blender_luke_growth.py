@@ -9,6 +9,7 @@ from mathutils import Vector
 
 OUT=os.environ.get("GEEHUB_OUTPUT",os.path.abspath("./geehub_luke_growth_output"))
 DO_RENDER=os.environ.get("GEEHUB_RENDER","0")=="1"
+FAST_RENDER=os.environ.get("GEEHUB_FAST_RENDER","0")=="1"
 STATE_PATH=os.environ.get("GEEHUB_MORPH_STATE","")
 MORPHS={}
 if STATE_PATH and os.path.isfile(STATE_PATH):
@@ -98,7 +99,11 @@ def area(name,loc,power,color,size):
     o=bpy.data.objects.new(name,d);bpy.context.collection.objects.link(o);o.location=loc;o.rotation_euler=(Vector((0,0,0))-o.location).to_track_quat("-Z","Y").to_euler()
 area("Key / warm", (3,4,4),850,(1,.75,.58),4);area("Rim / cyan",(-3,2,-3),1100,(.18,.72,1),3);area("Fill",(-2,4,2),500,(.68,.83,1),4)
 cd=bpy.data.cameras.new("Luke portrait camera");cam=bpy.data.objects.new("Luke portrait camera",cd);bpy.context.collection.objects.link(cam);cam.location=(3.5,.05,9.5);cam.rotation_euler=(Vector((0,-.05,0))-cam.location).to_track_quat("-Z","Y").to_euler();cd.lens=58
-sc=bpy.context.scene;sc.camera=cam;sc.render.engine="CYCLES";sc.cycles.samples=24;sc.render.resolution_x=720;sc.render.resolution_y=900;sc.render.resolution_percentage=100;sc.render.fps=24;sc.frame_start=1;sc.frame_end=121;sc.render.image_settings.file_format="PNG";sc.view_settings.view_transform="AgX"
+sc=bpy.context.scene;sc.camera=cam;sc.render.engine="CYCLES";sc.cycles.samples=24;sc.render.resolution_x=720;sc.render.resolution_y=900;sc.render.resolution_percentage=100;sc.render.fps=24;
+if FAST_RENDER:
+    sc.render.engine="BLENDER_EEVEE_NEXT"
+    sc.render.resolution_x=480;sc.render.resolution_y=600;sc.cycles.samples=8
+sc.frame_start=1;sc.frame_end=121;sc.render.image_settings.file_format="PNG";sc.view_settings.view_transform="AgX"
 # Smooth morph curves.
 for ob in bpy.data.objects:
     if ob.animation_data and ob.animation_data.action:
@@ -129,6 +134,7 @@ with open(os.path.join(OUT,"luke-growth-manifest.txt"),"w",encoding="utf-8") as 
     f.write("Head identity anchor is not animated. Regional body volumes animate from baseline to expanded state.\nBrowser state import: set GEEHUB_MORPH_STATE to luke-growth-morph-state.json.\nImported morph values control chest, traps, shoulders, biceps, triceps, forearms, thighs, and calves.\n")
 if DO_RENDER:
     sc.render.image_settings.file_format="FFMPEG";sc.render.ffmpeg.format="MPEG4";sc.render.ffmpeg.codec="H264";sc.render.ffmpeg.audio_codec="AAC";sc.render.ffmpeg.audio_channels="MONO";sc.render.filepath=VIDEO;sc.cycles.samples=32
+    if FAST_RENDER: sc.render.engine="BLENDER_EEVEE_NEXT";sc.render.resolution_x=480;sc.render.resolution_y=600
     bpy.ops.render.render(animation=True);bpy.ops.wm.save_as_mainfile(filepath=BLEND)
 print("LUKE MORPH PROJECT:",BLEND);print("SOUND BED:",AUDIO)
 if DO_RENDER:print("GROWTH VIDEO:",VIDEO)

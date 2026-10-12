@@ -62,6 +62,7 @@
       });
     }
     document.dispatchEvent(new CustomEvent("geehub:luke-state", {detail}));
+    try { window.renderArtifacts?.(); window.dreamFromArtifacts?.(); window.renderPlane?.(); } catch (_) {}
   }
   function ensure() {
     if (el("lukeBurgeon")) return;

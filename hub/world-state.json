@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00038.json",
+  "activeRecording": "./recordings/scheduled-recording-00039.json",
   "activeEncounter": {
-    "regionId": "complex",
-    "regionName": "THE COMPLEX",
+    "regionId": "beefythiq",
+    "regionName": "BEEFYTHIQ",
     "subject": {
-      "agent": "andrew",
-      "scale": 4.9,
+      "agent": "joseph",
+      "scale": 5.02,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / COLOSSAL ESCALATION → THE COMPLEX / ANDREW",
+    "intent": "LONG PLAY / THE COMPLEX → BEEFYTHIQ / JOSEPH",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 4.82× → 4.90×",
-      "COLOSSAL ESCALATION → THE COMPLEX",
-      "relation: THE HORIZON MOVES",
+      "scale 4.90× → 5.02×",
+      "THE COMPLEX → BEEFYTHIQ",
+      "relation: MASS BECOMES WEATHER",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "colossal-escalation"
+    "previousRegionId": "complex"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-13T16:23:10.831Z",
+  "snapshot": "2026-10-13T21:28:05.644Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 38,
-    "agent": "andrew",
-    "previousRegionId": "colossal-escalation",
-    "regionId": "complex",
-    "relation": "THE HORIZON MOVES",
+    "cycle": 39,
+    "agent": "joseph",
+    "previousRegionId": "complex",
+    "regionId": "beefythiq",
+    "relation": "MASS BECOMES WEATHER",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 4.82,
-    "scale": 4.9,
-    "recording": "scheduled-recording-00038",
-    "at": "2026-10-13T16:23:10.831Z"
+    "previousScale": 4.9,
+    "scale": 5.02,
+    "recording": "scheduled-recording-00039",
+    "at": "2026-10-13T21:28:05.644Z"
   }
 }

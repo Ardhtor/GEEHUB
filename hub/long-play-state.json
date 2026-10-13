@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 36,
-  "currentAgent": "luke",
-  "currentRegion": "muscle-myth",
-  "scale": 4.77,
-  "lastRun": "2026-10-13T01:38:32.685Z",
+  "cycle": 37,
+  "currentAgent": "tyler",
+  "currentRegion": "colossal-escalation",
+  "scale": 4.82,
+  "lastRun": "2026-10-13T08:30:11.341Z",
   "history": [
+    {
+      "cycle": 37,
+      "agent": "tyler",
+      "previousRegion": "muscle-myth",
+      "region": "colossal-escalation",
+      "relation": "THE CITY LEARNS HIS NAME",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 4.77,
+      "scale": 4.82,
+      "recording": "scheduled-recording-00037",
+      "at": "2026-10-13T08:30:11.341Z"
+    },
     {
       "cycle": 36,
       "agent": "luke",
@@ -335,13 +347,13 @@
       "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "colossal-escalation",
+  "previousRegion": "muscle-myth",
   "relation": "THE CITY LEARNS HIS NAME",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 3,
     "kingdom-land": 2,
-    "colossal-escalation": 3,
+    "colossal-escalation": 4,
     "embodied-scale": 3,
     "discovery": 2,
     "muscle-myth": 3,
@@ -357,7 +369,7 @@
   "lastRegionAt": {
     "deep-lore": "2026-10-12T09:39:23.509936+00:00",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
-    "colossal-escalation": "2026-10-13T01:34:58.076991+00:00",
+    "colossal-escalation": "2026-10-13T08:30:11.341Z",
     "embodied-scale": "2026-10-11T14:18:59.036825+00:00",
     "discovery": "2026-10-10T11:19:11.226Z",
     "muscle-myth": "2026-10-13T01:38:32.685Z",

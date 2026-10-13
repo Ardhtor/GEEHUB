@@ -477,3 +477,11 @@ SETH: The view retreats from doorway to building while the man's face remains re
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: research/embodied-scale/colossal-escalation.json. Pressure 0.70; memory 0.92.
+
+## COLOSSAL ESCALATION / pulse 20 / ATMOSPHERE
+
+SETH: The view retreats from doorway to building while the man's face remains recognizable. The first threshold stays visible at the bottom of the scene as a scale memory.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: research/embodied-scale/colossal-escalation.json. Pressure 0.72; memory 0.94.

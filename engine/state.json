@@ -303,7 +303,7 @@
     }
   ],
   "visits": {
-    "complex": 1,
+    "complex": 3,
     "beefythiq": 1,
     "facility": 3,
     "embodied-scale": 3,
@@ -315,7 +315,7 @@
     "muscle-myth": 3
   },
   "last_visits": {
-    "complex": 0,
+    "complex": 20.5,
     "beefythiq": 8,
     "facility": 10.5,
     "embodied-scale": 12.5,
@@ -327,7 +327,7 @@
     "muscle-myth": 19.5
   },
   "pressure": 0.7168000000000001,
-  "memory": 0.944,
+  "memory": 0.956,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
     "creative/luke-bwomph.json": 3,
@@ -338,29 +338,42 @@
     "research/embodied-scale/colossal-escalation.json": 2
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "colossal-escalation",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "complex",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 37,
-    "agent": "tyler",
-    "previous_region_id": "muscle-myth",
-    "region_id": "colossal-escalation",
-    "region_name": "COLOSSAL ESCALATION",
-    "relation": "THE CITY LEARNS HIS NAME",
+    "cycle": 38,
+    "agent": "andrew",
+    "previous_region_id": "colossal-escalation",
+    "region_id": "complex",
+    "region_name": "THE COMPLEX",
+    "relation": "THE HORIZON MOVES",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 4.77,
-    "scale": 4.82,
-    "recording": "scheduled-recording-00037",
-    "at": "2026-10-13T08:30:11.341Z"
+    "previous_scale": 4.82,
+    "scale": 4.9,
+    "recording": "scheduled-recording-00038",
+    "at": "2026-10-13T16:23:10.831Z"
   },
-  "last_world_change": "2026-10-13T08:30:11.341Z",
-  "scale": 4.82,
+  "last_world_change": "2026-10-13T16:23:10.831Z",
+  "scale": 4.9,
   "external_events": [
+    {
+      "id": "long-play-00038",
+      "type": "CROSSING",
+      "title": "COLOSSAL ESCALATION → THE COMPLEX",
+      "body": "The world crossed \"THE HORIZON MOVES\". Scale increased from 4.82× to 4.90×; the earlier location and baseline remain recorded.",
+      "from": "colossal-escalation",
+      "to": "complex",
+      "previous_region_id": "colossal-escalation",
+      "region_id": "complex",
+      "relation": "THE HORIZON MOVES",
+      "source": "long-play",
+      "at": "2026-10-13T16:23:10.831Z"
+    },
     {
       "id": "long-play-00037",
       "type": "CROSSING",

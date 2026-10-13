@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00038",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00038.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "COLOSSAL ESCALATION → THE COMPLEX / ANDREW",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00038. Travel from COLOSSAL ESCALATION into THE COMPLEX through the relation \"THE HORIZON MOVES\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 4.82× to 4.90× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-10-13T16:23:10.831Z",
+      "lineage": {
+        "from": "colossal-escalation",
+        "to": "complex",
+        "relation": "THE HORIZON MOVES",
+        "cycle": 38
+      }
+    },
+    {
       "id": "scheduled-image-00037",
       "status": "QUEUED",
       "type": "IMAGE",

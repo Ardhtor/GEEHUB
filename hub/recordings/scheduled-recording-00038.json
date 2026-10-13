@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00038",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "complex",
+  "position": {
+    "x": 55,
+    "y": 51,
+    "z": 0
+  },
+  "camera": {
+    "x": 55,
+    "y": 51,
+    "z": 1.7,
+    "heading": 154,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 4.9,
+    "priorScale": 4.82,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 4.9,
+    "clearance": 0.2041,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 0.7168000000000001,
+    "relation": "THE HORIZON MOVES"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "colossal-escalation",
+      "name": "COLOSSAL ESCALATION"
+    },
+    {
+      "type": "region",
+      "id": "complex",
+      "name": "THE COMPLEX"
+    },
+    {
+      "type": "relation",
+      "title": "THE HORIZON MOVES"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 4.82,
+      "to": 4.9
+    },
+    {
+      "property": "location.regionId",
+      "from": "colossal-escalation",
+      "to": "complex",
+      "relation": "THE HORIZON MOVES"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.2075,
+      "to": 0.2041
+    }
+  ],
+  "intent": "LONG PLAY / COLOSSAL ESCALATION → THE COMPLEX / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 38,
+    "previousRegionId": "colossal-escalation",
+    "regionId": "complex",
+    "relation": "THE HORIZON MOVES",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 4.82,
+    "scaleBaselineTo": 4.9
+  },
+  "timestamp": "2026-10-13T16:23:10.831Z"
+}

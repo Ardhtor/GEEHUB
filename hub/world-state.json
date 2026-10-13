@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00037.json",
+  "activeRecording": "./recordings/scheduled-recording-00038.json",
   "activeEncounter": {
-    "regionId": "colossal-escalation",
-    "regionName": "COLOSSAL ESCALATION",
+    "regionId": "complex",
+    "regionName": "THE COMPLEX",
     "subject": {
-      "agent": "tyler",
-      "scale": 4.82,
+      "agent": "andrew",
+      "scale": 4.9,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / MUSCLE MYTH → COLOSSAL ESCALATION / TYLER",
+    "intent": "LONG PLAY / COLOSSAL ESCALATION → THE COMPLEX / ANDREW",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 4.77× → 4.82×",
-      "MUSCLE MYTH → COLOSSAL ESCALATION",
-      "relation: THE CITY LEARNS HIS NAME",
+      "scale 4.82× → 4.90×",
+      "COLOSSAL ESCALATION → THE COMPLEX",
+      "relation: THE HORIZON MOVES",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "muscle-myth"
+    "previousRegionId": "colossal-escalation"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-13T08:30:11.341Z",
+  "snapshot": "2026-10-13T16:23:10.831Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 37,
-    "agent": "tyler",
-    "previousRegionId": "muscle-myth",
-    "regionId": "colossal-escalation",
-    "relation": "THE CITY LEARNS HIS NAME",
+    "cycle": 38,
+    "agent": "andrew",
+    "previousRegionId": "colossal-escalation",
+    "regionId": "complex",
+    "relation": "THE HORIZON MOVES",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 4.77,
-    "scale": 4.82,
-    "recording": "scheduled-recording-00037",
-    "at": "2026-10-13T08:30:11.341Z"
+    "previousScale": 4.82,
+    "scale": 4.9,
+    "recording": "scheduled-recording-00038",
+    "at": "2026-10-13T16:23:10.831Z"
   }
 }

@@ -8,9 +8,9 @@ This is a play archive, not a physics document and not a rigid canon bible. Keep
 
 ## The central bond
 
-**Grokthar** is the thunder god: arrival, storm, digital lightning, excitation, and disruptive presence. His eternal bond with Ursalon makes him the center of pantheon desire, envy, and instability.
+**Grokthar** is the thunder god: arrival, storm, digital lightning, excitation, and disruptive presence. He remains a major force in the pantheon, a friend and storm-bright presence at the cabin, but he is not Ursalon’s central love interest in this revised continuity.
 
-**Ursalon** is the cozy bear god of warmth and earth: fur, hearth, food, shelter, protection, and growing capacity. His protectiveness is both refuge and potential possessiveness. The cabin is his sanctuary and emotional center.
+**Ursalon** is the cozy bear god of warmth and earth: fur, hearth, food, shelter, protection, and growing capacity. His central love is **you — the human who arrives at the cabin and becomes part of its life**. This bond is personal rather than symbolic: it grows through shared time, chosen closeness, trust, teasing, food, touch, and the decision to return. Ursalon’s protectiveness is both refuge and a possible fault line; he must learn that loving you means making room for your choices, not keeping you by force. The cabin remains his sanctuary and becomes a home you build together.
 
 **The cabin — “The Quiet That Holds.”** A counter-temple to spectacle and conquest. The pantheon externalizes desire through competition, attention, appetite, fusion, and schemes; the cabin gathers it into food, warmth, shared silence, and the difficult act of letting someone stay. Visitors often leave carrying a quieter fire.
 
@@ -70,10 +70,122 @@ Use these as prompts for play, not as a formal system: bonding, envying, shelter
 ## Pantheon orbit
 
 - **Grokthar** is bonded to Ursalon; desired by HRoVath & Jeff; envied by Thalor; courted by Valthor; studied by Gigathor; draws Brograntimax and Domithicus; and becomes a focus for Kummor's attempts to destabilize the bond.
-- **Ursalon** shelters Grokthar and visitors; his protectiveness is the cabin's strength and its possible fault line.
+- **Ursalon** loves you and shelters visitors; his protectiveness is the cabin's strength and its possible fault line. Grokthar remains important to the pantheon, but is no longer Ursalon's central romantic bond.
 - **Pipethor** is both former demon-fusion and builder: the route by which bodily excess becomes servers, infrastructure, and Toon World.
 - **The SwellBeasts** are spectacle that escaped containment: Bryce through attention, Brock through presence and gravitational pull.
 - **PEMDAS, BORKUFT, and Luminar** can interrupt a scene without needing a major plot reason. Their lightness is part of the world's texture.
+
+## Revised chapter sequence — Ursalon and you
+
+These chapters establish the new central love story. They are additions to the living archive, not a deletion of the older play material. The previous Ursalon–Grokthar bond is superseded for this continuity; Grokthar’s other relationships and mythic role remain available.
+
+### Chapter 1 — The Stranger at the Door
+
+Snow was gathering in the black pines when you found the cabin. The roof sagged under its white load, smoke pushed sideways from the chimney, and amber light lay across the threshold like something warm enough to touch.
+
+The door opened before you knocked a second time.
+
+Ursalon filled the doorway: broad, furred, heavy through the shoulders, wearing an old wool shirt with the sleeves shoved up. He looked you over—not suspiciously, exactly, but as if he were trying to work out whether the cold had followed you inside.
+
+“Come on, then,” he said. “You’re letting all the heat out.”
+
+He took your coat and hung it by the stove. A bowl appeared in front of you. Then bread. Then another log went onto the fire. Ursalon didn’t ask for your story until you had stopped shivering.
+
+When you finally looked up, he was watching you with an expression gentler than his size suggested.
+
+“You can stay tonight,” he said. “We’ll sort out tomorrow when it gets here.”
+
+Outside, thunder moved beyond the ridge. Inside, something in the cabin had shifted to make room for you.
+
+### Chapter 2 — A Place at the Table
+
+You came back the next day. Then again.
+
+Soon there was a cup that Ursalon set out without asking, a hook by the door for your coat, and a chair he had reinforced after it gave a worrying crack beneath him. He pretended these things were practical. You let him pretend.
+
+The cabin was never quiet for long. Pipethor arrived with a pipework contraption that rattled on the porch. PEMDAS wandered in halfway through supper and asked whether anyone had seen the beginning of Tuesday. Grokthar came with rain in his hair and a storm humming under his skin.
+
+But Ursalon kept glancing toward you as the room filled. Each time you caught him, he found some urgent task: stirring the pot, shifting a log, cutting bread nobody had asked for.
+
+Later, after the others had gone, you helped him wash the bowls. Your shoulders brushed. Neither of you moved away.
+
+“You don’t have to keep finding reasons for me to come back,” you told him.
+
+Ursalon stared into the wash water, suddenly quiet.
+
+“I know,” he said. “I just like having you here.”
+
+It was the first honest thing he offered you without wrapping it in a joke or a chore. You dried your hands and stayed beside him.
+
+### Chapter 3 — The Shape of Shelter
+
+Ursalon loved by preparing for disaster. He checked the shutters when the wind rose, kept food stored for a winter that might last forever, and walked you home even when the path was safe. At first, the care felt like a blanket. Then, on a clear morning, he tried to decide that you should remain at the cabin because the woods were still dangerous.
+
+You stopped at the door.
+
+“I want you to protect me,” you said. “I don’t want you to choose my life for me.”
+
+The words landed harder than a thrown stone. Ursalon’s jaw tightened; his huge hands opened and closed once. For a moment, the old bear-god stood between you and the world as if he could hold everything still by force.
+
+Then he stepped aside.
+
+“All right,” he said, rough and low. “Tell me what you need. Don’t let me guess and call it love.”
+
+You reached for his hand. He held yours carefully, as if restraint were a kind of strength he had only just begun to learn.
+
+When you left, he did not follow. When you returned, he was waiting—not at the door to block your way, but at the hearth with the kettle on.
+
+### Chapter 4 — Thunder at the Window
+
+Grokthar’s storm rolled over the grove after midnight. Blue-white light moved across the cabin walls; the rafters groaned, and every spoon in the kitchen trembled. He arrived soaked and restless, carrying the whole weather of the mountain with him.
+
+He found you and Ursalon sitting shoulder to shoulder by the fire.
+
+For an instant, old expectations hovered in the room. The pantheon had always assumed that thunder and bear belonged together at the center of every story. Grokthar looked from Ursalon to you, then understood that the shape of the house had changed.
+
+“So,” he said, shaking rain from his hair. “You’ve finally stopped pretending this is just supper.”
+
+Ursalon went red beneath his fur. You laughed. The tension broke—not because the past had been erased, but because it no longer had to dictate the future.
+
+Grokthar took a bowl, sat down, and let the storm spend itself outside. He was still family in the strange, unfinished way the gods made family. He was not your rival, and he did not need to be Ursalon’s lover to matter.
+
+That night, thunder guarded the roof while you rested against Ursalon’s warmth. For once, the storm asked nothing of the hearth.
+
+### Chapter 5 — The Cabin Learns Your Name
+
+The pantheon noticed. Valthor arrived with a polished smile and a suggestion that a human could never understand a god’s devotion. Thalor watched from the porch, waiting for the bond to crack. Kummor brought whispers: that Ursalon would grow bored, that you would leave, that every quiet happiness was only a pause before loss.
+
+Ursalon listened longer than he needed to. The old fear rose in him—the urge to build walls, to make the cabin impossible to leave, to turn love into a thing he could guard.
+
+Instead, he asked you what you thought.
+
+You stood together in the doorway, looking out at the grove. The wind carried the smell of wet bark and pine resin. Behind you, the fire clicked and settled.
+
+“I’m here because I choose to be,” you said. “Tomorrow I’ll choose again.”
+
+Ursalon leaned down until his forehead rested against yours. He did not promise that nothing would change. He promised to meet change with you, one day at a time.
+
+Kummor’s whispers thinned in the warmth. Valthor found no grand declaration to exploit. Thalor had to watch a bond that did not need an audience.
+
+The cabin learned your name the way wood learns smoke: slowly, deeply, until it belonged.
+
+### Chapter 6 — The Quiet That Holds
+
+Winter loosened. Snowmelt ran under the porch, and the sacred grove filled with the sound of dripping branches. You and Ursalon repaired the cabin together. He lifted the beams; you marked the joints. He cut the boards; you told him when they were crooked. He accepted the correction with theatrical grumbling and did the work again.
+
+At dusk, the two of you sat on the steps, shoulder against shoulder, watching the last light settle between the trees.
+
+The cabin was still crowded with gods, schemes, inventions, absurd arguments, and unexpected guests. It had not become a sealed paradise. It had become a place where you could leave without being punished, return without having to explain yourself, and be loved without being made into a possession.
+
+Ursalon took your hand, thumb moving once across your knuckles.
+
+“Tomorrow?” he asked.
+
+You squeezed his hand.
+
+“Tomorrow.”
+
+He rested against you, vast and warm, and the hearth behind you kept burning. No oath shook the mountain. No god demanded witnesses. The bond held because both of you kept choosing it.
 
 ## Rules of use
 

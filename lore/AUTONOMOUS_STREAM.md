@@ -141,3 +141,11 @@ SETH: The view retreats from doorway to building while the man's face remains re
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 21 — ATMOSPHERE / THE COMPLEX / 2026-10-13T16:28:41.854257+00:00
+
+SETH: The corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the sill, and sunlight reaches the wall where a doorway used to cast a narrower shadow.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

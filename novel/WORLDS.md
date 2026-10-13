@@ -493,3 +493,11 @@ SETH: The corridor smells faintly of cedar and warm electronics. A mug has left 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: projects.json. Pressure 0.74; memory 0.96.
+
+## BEEFYTHIQ / pulse 22 / ATMOSPHERE
+
+SETH: The floor answers a shift of weight with a low sound. A chair stays where it was while the distance between chair, doorway, and the man standing there acquires a different scale.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: lore/DEEP_LORE.md. Pressure 0.76; memory 0.97.

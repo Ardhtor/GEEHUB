@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00035.json",
+  "activeRecording": "./recordings/scheduled-recording-00036.json",
   "activeEncounter": {
-    "regionId": "colossal-escalation",
-    "regionName": "COLOSSAL ESCALATION",
+    "regionId": "muscle-myth",
+    "regionName": "MUSCLE MYTH",
     "subject": {
-      "agent": "chase",
-      "scale": 4.74,
+      "agent": "luke",
+      "scale": 4.77,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / MALE HAREM → COLOSSAL ESCALATION / CHASE",
+    "intent": "LONG PLAY / COLOSSAL ESCALATION → MUSCLE MYTH / LUKE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 4.70× → 4.74×",
-      "MALE HAREM → COLOSSAL ESCALATION",
-      "relation: MASS WITHOUT AMNESIA",
+      "scale 4.74× → 4.77×",
+      "COLOSSAL ESCALATION → MUSCLE MYTH",
+      "relation: THE CITY LEARNS HIS NAME",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "male-harem"
+    "previousRegionId": "colossal-escalation"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-12T19:42:33.958Z",
+  "snapshot": "2026-10-13T01:38:32.685Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 35,
-    "agent": "chase",
-    "previousRegionId": "male-harem",
-    "regionId": "colossal-escalation",
-    "relation": "MASS WITHOUT AMNESIA",
+    "cycle": 36,
+    "agent": "luke",
+    "previousRegionId": "colossal-escalation",
+    "regionId": "muscle-myth",
+    "relation": "THE CITY LEARNS HIS NAME",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 4.7,
-    "scale": 4.74,
-    "recording": "scheduled-recording-00035",
-    "at": "2026-10-12T19:42:33.958Z"
+    "previousScale": 4.74,
+    "scale": 4.77,
+    "recording": "scheduled-recording-00036",
+    "at": "2026-10-13T01:38:32.685Z"
   }
 }

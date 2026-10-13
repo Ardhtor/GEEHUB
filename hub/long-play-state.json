@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 35,
-  "currentAgent": "chase",
-  "currentRegion": "colossal-escalation",
-  "scale": 4.74,
-  "lastRun": "2026-10-12T19:42:33.958Z",
+  "cycle": 36,
+  "currentAgent": "luke",
+  "currentRegion": "muscle-myth",
+  "scale": 4.77,
+  "lastRun": "2026-10-13T01:38:32.685Z",
   "history": [
+    {
+      "cycle": 36,
+      "agent": "luke",
+      "previousRegion": "colossal-escalation",
+      "region": "muscle-myth",
+      "relation": "THE CITY LEARNS HIS NAME",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 4.74,
+      "scale": 4.77,
+      "recording": "scheduled-recording-00036",
+      "at": "2026-10-13T01:38:32.685Z"
+    },
     {
       "cycle": 35,
       "agent": "chase",
@@ -323,8 +335,8 @@
       "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "male-harem",
-  "relation": "MASS WITHOUT AMNESIA",
+  "previousRegion": "colossal-escalation",
+  "relation": "THE CITY LEARNS HIS NAME",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 3,
@@ -332,7 +344,7 @@
     "colossal-escalation": 3,
     "embodied-scale": 3,
     "discovery": 2,
-    "muscle-myth": 2,
+    "muscle-myth": 3,
     "veyrthalis": 2,
     "facility": 3,
     "complex": 2,
@@ -345,10 +357,10 @@
   "lastRegionAt": {
     "deep-lore": "2026-10-12T09:39:23.509936+00:00",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
-    "colossal-escalation": "2026-10-12T19:42:33.958Z",
+    "colossal-escalation": "2026-10-13T01:34:58.076991+00:00",
     "embodied-scale": "2026-10-11T14:18:59.036825+00:00",
     "discovery": "2026-10-10T11:19:11.226Z",
-    "muscle-myth": "2026-10-10T05:15:11.253Z",
+    "muscle-myth": "2026-10-13T01:38:32.685Z",
     "veyrthalis": "2026-10-09T23:54:19.332Z",
     "facility": "2026-10-11T07:15:18.396823+00:00",
     "complex": "2026-10-10T22:00:19.731457+00:00",

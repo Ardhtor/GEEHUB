@@ -517,3 +517,11 @@ SETH: A hand slides along the doorframe as the man turns sideways to pass. His f
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: research/embodied-scale/README.md. Pressure 0.80; memory 0.97.
+
+## DISCOVERY / pulse 25 / ATMOSPHERE
+
+SETH: Rain shifts across the northern road. A loose sign turns twice against its post, and water gathers in the wagon ruts while the amber tree line stays distant.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: README.md. Pressure 0.82; memory 0.97.

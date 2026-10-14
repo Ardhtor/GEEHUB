@@ -173,3 +173,11 @@ SETH: A hand slides along the doorframe as the man turns sideways to pass. His f
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 25 — ATMOSPHERE / DISCOVERY / 2026-10-14T10:32:58.433817+00:00
+
+SETH: Rain shifts across the northern road. A loose sign turns twice against its post, and water gathers in the wagon ruts while the amber tree line stays distant.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

@@ -1,5 +1,5 @@
 {
-  "pulse": 22,
+  "pulse": 23,
   "events": [
     {
       "pulse": 1,
@@ -334,6 +334,23 @@
       "next_region": null,
       "pressure": 0.757,
       "memory": 0.968
+    },
+    {
+      "pulse": 23,
+      "time": "2026-10-14T00:38:20.503775+00:00",
+      "actor": "LUKE",
+      "world": "THE FACILITY",
+      "region_id": "facility",
+      "previous_region_id": "facility",
+      "phase": "ATMOSPHERE",
+      "source": "world.json",
+      "desire_state": "attention",
+      "action": "SETH: The ventilation hum settles into a lower register. Blue light crosses the observation glass and shows the technician's reflection over the broad figure behind it.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.777,
+      "memory": 0.97
     }
   ],
   "visits": {
@@ -360,22 +377,22 @@
     "colossal-escalation": 19.5,
     "muscle-myth": 19.5
   },
-  "pressure": 0.7568000000000001,
+  "pressure": 0.7768000000000002,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
     "creative/luke-bwomph.json": 3,
     "lore/DEEP_LORE.md": 3,
-    "world.json": 2,
+    "world.json": 3,
     "research/embodied-scale/README.md": 2,
     "archive/male-harem/README.md": 1,
     "research/embodied-scale/colossal-escalation.json": 2,
     "projects.json": 1
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "facility",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

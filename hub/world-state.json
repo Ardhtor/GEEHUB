@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00041.json",
+  "activeRecording": "./recordings/scheduled-recording-00042.json",
   "activeEncounter": {
-    "regionId": "embodied-scale",
-    "regionName": "EMBODIED SCALE",
+    "regionId": "discovery",
+    "regionName": "DISCOVERY",
     "subject": {
-      "agent": "luke",
-      "scale": 5.09,
+      "agent": "tyler",
+      "scale": 5.14,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / THE FACILITY → EMBODIED SCALE / LUKE",
+    "intent": "LONG PLAY / EMBODIED SCALE → DISCOVERY / TYLER",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 5.06× → 5.09×",
-      "THE FACILITY → EMBODIED SCALE",
-      "relation: THE FLOOR REPLIES",
+      "scale 5.09× → 5.14×",
+      "EMBODIED SCALE → DISCOVERY",
+      "relation: SCALE HAS HISTORY",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "facility"
+    "previousRegionId": "embodied-scale"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-14T05:27:26.139Z",
+  "snapshot": "2026-10-14T10:32:06.675Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 41,
-    "agent": "luke",
-    "previousRegionId": "facility",
-    "regionId": "embodied-scale",
-    "relation": "THE FLOOR REPLIES",
+    "cycle": 42,
+    "agent": "tyler",
+    "previousRegionId": "embodied-scale",
+    "regionId": "discovery",
+    "relation": "SCALE HAS HISTORY",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 5.06,
-    "scale": 5.09,
-    "recording": "scheduled-recording-00041",
-    "at": "2026-10-14T05:27:26.139Z"
+    "previousScale": 5.09,
+    "scale": 5.14,
+    "recording": "scheduled-recording-00042",
+    "at": "2026-10-14T10:32:06.675Z"
   }
 }

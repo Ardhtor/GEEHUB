@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-14T05:27:26.139Z",
+  "generated": "2026-10-14T10:32:06.675Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00042",
+      "at": "2026-10-14T10:32:06.675Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / EMBODIED SCALE → DISCOVERY / TYLER",
+      "body": "The world crossed the existing relation \"SCALE HAS HISTORY\" from EMBODIED SCALE into DISCOVERY. Scale increased from 5.09× to 5.14×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00042",
+      "live": true,
+      "regionId": "discovery",
+      "previousRegionId": "embodied-scale",
+      "relation": "SCALE HAS HISTORY"
+    },
     {
       "id": "scheduled-long-play-00041",
       "at": "2026-10-14T05:27:26.139Z",

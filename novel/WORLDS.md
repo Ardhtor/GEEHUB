@@ -541,3 +541,11 @@ SETH: Several scratches on the wall resolve into marks made at different times. 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: lore/DEEP_LORE.md. Pressure 0.86; memory 0.97.
+
+## LUKE // BWOMPH / pulse 28 / ATMOSPHERE
+
+SETH: Luke stands in familiar bar-gym light, mirrors clouded at their edges and chalk pressed into the rubber floor. His shoulders fill more of the tank top, while his face remains his own.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: creative/luke-bwomph.json. Pressure 0.88; memory 0.97.

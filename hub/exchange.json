@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-14T10:32:06.675Z",
+  "generated": "2026-10-14T15:31:35.460Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00043",
+      "at": "2026-10-14T15:31:35.460Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / DISCOVERY → VEYRTHALIS / ANDREW",
+      "body": "The world crossed the existing relation \"THE DOOR REMEMBERS\" from DISCOVERY into VEYRTHALIS. Scale increased from 5.14× to 5.22×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00043",
+      "live": true,
+      "regionId": "veyrthalis",
+      "previousRegionId": "discovery",
+      "relation": "THE DOOR REMEMBERS"
+    },
     {
       "id": "scheduled-long-play-00042",
       "at": "2026-10-14T10:32:06.675Z",

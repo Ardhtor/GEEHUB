@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 39,
-  "currentAgent": "joseph",
-  "currentRegion": "beefythiq",
-  "scale": 5.02,
-  "lastRun": "2026-10-13T21:28:05.644Z",
+  "cycle": 40,
+  "currentAgent": "chase",
+  "currentRegion": "facility",
+  "scale": 5.06,
+  "lastRun": "2026-10-14T00:34:03.120Z",
   "history": [
+    {
+      "cycle": 40,
+      "agent": "chase",
+      "previousRegion": "beefythiq",
+      "region": "facility",
+      "relation": "THE ROOM GETS SMALLER",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 5.02,
+      "scale": 5.06,
+      "recording": "scheduled-recording-00040",
+      "at": "2026-10-14T00:34:03.120Z"
+    },
     {
       "cycle": 39,
       "agent": "joseph",
@@ -371,8 +383,8 @@
       "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "complex",
-  "relation": "MASS BECOMES WEATHER",
+  "previousRegion": "beefythiq",
+  "relation": "THE ROOM GETS SMALLER",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 3,
@@ -382,7 +394,7 @@
     "discovery": 2,
     "muscle-myth": 3,
     "veyrthalis": 2,
-    "facility": 3,
+    "facility": 4,
     "complex": 3,
     "growth": 3,
     "male-harem": 3,
@@ -398,11 +410,11 @@
     "discovery": "2026-10-10T11:19:11.226Z",
     "muscle-myth": "2026-10-13T01:38:32.685Z",
     "veyrthalis": "2026-10-09T23:54:19.332Z",
-    "facility": "2026-10-11T07:15:18.396823+00:00",
+    "facility": "2026-10-14T00:34:03.120Z",
     "complex": "2026-10-13T16:28:41.854257+00:00",
     "growth": "2026-10-11T22:57:11.402234+00:00",
     "male-harem": "2026-10-12T19:22:23.347147+00:00",
-    "beefythiq": "2026-10-13T21:28:05.644Z",
+    "beefythiq": "2026-10-13T21:30:17.657086+00:00",
     "bodylounger": "2026-10-08T15:39:05.330Z",
     "luke-bwomph": "2026-10-12T02:15:58.216878+00:00"
   }

@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00045",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00045.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "DEEP LORE → LUKE // BWOMPH / CHASE",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00045. Travel from DEEP LORE into LUKE // BWOMPH through the relation \"THE FACE REMAINS\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 5.34× to 5.38× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-10-14T22:42:32.459Z",
+      "lineage": {
+        "from": "deep-lore",
+        "to": "luke-bwomph",
+        "relation": "THE FACE REMAINS",
+        "cycle": 45
+      }
+    },
+    {
       "id": "scheduled-image-00044",
       "status": "QUEUED",
       "type": "IMAGE",

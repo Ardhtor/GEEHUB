@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00048",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00048.json",
+      "route": {
+        "from": "complex",
+        "to": "beefythiq",
+        "relation": "MASS BECOMES WEATHER"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-15T11:09:51.153Z"
+    },
+    {
+      "id": "scheduled-video-00048",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00048.json",
+      "route": {
+        "from": "complex",
+        "to": "beefythiq",
+        "relation": "MASS BECOMES WEATHER"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-15T11:09:51.153Z"
+    },
+    {
+      "id": "scheduled-space-00048",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00048.json",
+      "route": {
+        "from": "complex",
+        "to": "beefythiq",
+        "relation": "MASS BECOMES WEATHER"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-15T11:09:51.153Z"
+    },
+    {
       "id": "scheduled-sound-00047",
       "type": "SOUND",
       "status": "QUEUED",

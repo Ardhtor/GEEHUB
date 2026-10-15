@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00051",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "male-harem",
+  "position": {
+    "x": 76,
+    "y": 25,
+    "z": 0
+  },
+  "camera": {
+    "x": 76,
+    "y": 25,
+    "z": 1.7,
+    "heading": 93,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 5.73,
+    "priorScale": 5.7,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 5.73,
+    "clearance": 0.1745,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 0.9768000000000003,
+    "relation": "THE WITNESS STAYS"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "embodied-scale",
+      "name": "EMBODIED SCALE"
+    },
+    {
+      "type": "region",
+      "id": "male-harem",
+      "name": "MALE HAREM"
+    },
+    {
+      "type": "relation",
+      "title": "THE WITNESS STAYS"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 5.7,
+      "to": 5.73
+    },
+    {
+      "property": "location.regionId",
+      "from": "embodied-scale",
+      "to": "male-harem",
+      "relation": "THE WITNESS STAYS"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1754,
+      "to": 0.1745
+    }
+  ],
+  "intent": "LONG PLAY / EMBODIED SCALE → MALE HAREM / LUKE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 51,
+    "previousRegionId": "embodied-scale",
+    "regionId": "male-harem",
+    "relation": "THE WITNESS STAYS",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 5.7,
+    "scaleBaselineTo": 5.73
+  },
+  "timestamp": "2026-10-15T22:37:36.508Z"
+}

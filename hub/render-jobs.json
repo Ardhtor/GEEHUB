@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00051",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00051.json",
+      "route": {
+        "from": "embodied-scale",
+        "to": "male-harem",
+        "relation": "THE WITNESS STAYS"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-15T22:37:36.508Z"
+    },
+    {
+      "id": "scheduled-video-00051",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00051.json",
+      "route": {
+        "from": "embodied-scale",
+        "to": "male-harem",
+        "relation": "THE WITNESS STAYS"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-15T22:37:36.508Z"
+    },
+    {
+      "id": "scheduled-space-00051",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00051.json",
+      "route": {
+        "from": "embodied-scale",
+        "to": "male-harem",
+        "relation": "THE WITNESS STAYS"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-15T22:37:36.508Z"
+    },
+    {
       "id": "scheduled-sound-00050",
       "type": "SOUND",
       "status": "QUEUED",

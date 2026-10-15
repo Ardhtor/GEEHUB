@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00047",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "complex",
+  "position": {
+    "x": 55,
+    "y": 51,
+    "z": 0
+  },
+  "camera": {
+    "x": 55,
+    "y": 51,
+    "z": 1.7,
+    "heading": 1,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "tyler",
+    "scale": 5.46,
+    "priorScale": 5.41,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 5.46,
+    "clearance": 0.1832,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 0.8968000000000003,
+    "relation": "KISS = CONTINUITY"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "growth",
+      "name": "GROWTH CANVAS"
+    },
+    {
+      "type": "region",
+      "id": "complex",
+      "name": "THE COMPLEX"
+    },
+    {
+      "type": "relation",
+      "title": "KISS = CONTINUITY"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 5.41,
+      "to": 5.46
+    },
+    {
+      "property": "location.regionId",
+      "from": "growth",
+      "to": "complex",
+      "relation": "KISS = CONTINUITY"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1848,
+      "to": 0.1832
+    }
+  ],
+  "intent": "LONG PLAY / GROWTH CANVAS → THE COMPLEX / TYLER",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 47,
+    "previousRegionId": "growth",
+    "regionId": "complex",
+    "relation": "KISS = CONTINUITY",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 5.41,
+    "scaleBaselineTo": 5.46
+  },
+  "timestamp": "2026-10-15T05:48:01.937Z"
+}

@@ -1,5 +1,5 @@
 {
-  "pulse": 32,
+  "pulse": 33,
   "events": [
     {
       "pulse": 1,
@@ -504,6 +504,23 @@
       "next_region": null,
       "pressure": 0.957,
       "memory": 0.97
+    },
+    {
+      "pulse": 33,
+      "time": "2026-10-15T19:26:46.354076+00:00",
+      "actor": "LUKE",
+      "world": "EMBODIED SCALE",
+      "region_id": "embodied-scale",
+      "previous_region_id": "embodied-scale",
+      "phase": "ATMOSPHERE",
+      "source": "research/embodied-scale/README.md",
+      "desire_state": "attention",
+      "action": "SETH: A hand slides along the doorframe as the man turns sideways to pass. His face is familiar, but the shoulder now comes close enough to the jamb to catch a line of reflected light.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.977,
+      "memory": 0.97
     }
   ],
   "visits": {
@@ -534,14 +551,14 @@
     "discovery": 24.5,
     "veyrthalis": 25.5
   },
-  "pressure": 0.9568000000000003,
+  "pressure": 0.9768000000000003,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
     "creative/luke-bwomph.json": 4,
     "lore/DEEP_LORE.md": 4,
     "world.json": 4,
-    "research/embodied-scale/README.md": 4,
+    "research/embodied-scale/README.md": 5,
     "archive/male-harem/README.md": 1,
     "research/embodied-scale/colossal-escalation.json": 3,
     "projects.json": 2,
@@ -549,9 +566,9 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 1
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "embodied-scale",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

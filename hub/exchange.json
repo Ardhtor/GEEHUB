@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-14T22:42:32.459Z",
+  "generated": "2026-10-15T00:57:51.765Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00046",
+      "at": "2026-10-15T00:57:51.765Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / LUKE // BWOMPH → GROWTH CANVAS / LUKE",
+      "body": "The world crossed the existing relation \"HYPEER BASELINE\" from LUKE // BWOMPH into GROWTH CANVAS. Scale increased from 5.38× to 5.41×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00046",
+      "live": true,
+      "regionId": "growth",
+      "previousRegionId": "luke-bwomph",
+      "relation": "HYPEER BASELINE"
+    },
     {
       "id": "scheduled-long-play-00045",
       "at": "2026-10-14T22:42:32.459Z",

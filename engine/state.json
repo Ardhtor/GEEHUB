@@ -1,5 +1,5 @@
 {
-  "pulse": 28,
+  "pulse": 29,
   "events": [
     {
       "pulse": 1,
@@ -436,6 +436,23 @@
       "next_region": null,
       "pressure": 0.877,
       "memory": 0.97
+    },
+    {
+      "pulse": 29,
+      "time": "2026-10-15T00:58:23.599900+00:00",
+      "actor": "LUKE",
+      "world": "GROWTH CANVAS",
+      "region_id": "growth",
+      "previous_region_id": "growth",
+      "phase": "ATMOSPHERE",
+      "source": "research/embodied-scale/README.md",
+      "desire_state": "attention",
+      "action": "SETH: Cool blue light moves along the wall and catches the shoulder line of a familiar silhouette. The bench and floor markings remain still while the body occupies more of the frame.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.897,
+      "memory": 0.97
     }
   ],
   "visits": {
@@ -466,14 +483,14 @@
     "discovery": 24.5,
     "veyrthalis": 25.5
   },
-  "pressure": 0.8768000000000002,
+  "pressure": 0.8968000000000003,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
     "creative/luke-bwomph.json": 4,
     "lore/DEEP_LORE.md": 4,
     "world.json": 3,
-    "research/embodied-scale/README.md": 3,
+    "research/embodied-scale/README.md": 4,
     "archive/male-harem/README.md": 1,
     "research/embodied-scale/colossal-escalation.json": 2,
     "projects.json": 1,
@@ -481,9 +498,9 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 1
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "growth",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

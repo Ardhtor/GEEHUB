@@ -245,3 +245,11 @@ SETH: A hand slides along the doorframe as the man turns sideways to pass. His f
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 34 — ATMOSPHERE / MALE HAREM / 2026-10-15T22:38:49.760538+00:00
+
+SETH: Late light crosses high windows and the worn edges of gym benches. A shirt rests over a chair, and familiar footsteps turn a man's attention toward the doorway.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

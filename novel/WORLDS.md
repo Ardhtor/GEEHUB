@@ -589,3 +589,11 @@ SETH: A hand slides along the doorframe as the man turns sideways to pass. His f
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: research/embodied-scale/README.md. Pressure 0.98; memory 0.97.
+
+## MALE HAREM / pulse 34 / ATMOSPHERE
+
+SETH: Late light crosses high windows and the worn edges of gym benches. A shirt rests over a chair, and familiar footsteps turn a man's attention toward the doorway.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: archive/male-harem/README.md. Pressure 1.00; memory 0.97.

@@ -1,5 +1,5 @@
 {
-  "pulse": 29,
+  "pulse": 30,
   "events": [
     {
       "pulse": 1,
@@ -453,6 +453,23 @@
       "next_region": null,
       "pressure": 0.897,
       "memory": 0.97
+    },
+    {
+      "pulse": 30,
+      "time": "2026-10-15T05:49:05.359014+00:00",
+      "actor": "LUKE",
+      "world": "THE COMPLEX",
+      "region_id": "complex",
+      "previous_region_id": "complex",
+      "phase": "ATMOSPHERE",
+      "source": "projects.json",
+      "desire_state": "attention",
+      "action": "SETH: The corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the sill, and sunlight reaches the wall where a doorway used to cast a narrower shadow.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.917,
+      "memory": 0.97
     }
   ],
   "visits": {
@@ -483,7 +500,7 @@
     "discovery": 24.5,
     "veyrthalis": 25.5
   },
-  "pressure": 0.8968000000000003,
+  "pressure": 0.9168000000000003,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
@@ -493,14 +510,14 @@
     "research/embodied-scale/README.md": 4,
     "archive/male-harem/README.md": 1,
     "research/embodied-scale/colossal-escalation.json": 2,
-    "projects.json": 1,
+    "projects.json": 2,
     "README.md": 1,
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 1
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "complex",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

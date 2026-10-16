@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00055",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "male-harem",
+  "position": {
+    "x": 76,
+    "y": 25,
+    "z": 0
+  },
+  "camera": {
+    "x": 76,
+    "y": 25,
+    "z": 1.7,
+    "heading": 185,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "chase",
+    "scale": 6.02,
+    "priorScale": 5.98,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 6.02,
+    "clearance": 0.1661,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE ARCHIVE OPENS A ROOM"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "bodylounger",
+      "name": "BODYLOUNGER"
+    },
+    {
+      "type": "region",
+      "id": "male-harem",
+      "name": "MALE HAREM"
+    },
+    {
+      "type": "relation",
+      "title": "THE ARCHIVE OPENS A ROOM"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 5.98,
+      "to": 6.02
+    },
+    {
+      "property": "location.regionId",
+      "from": "bodylounger",
+      "to": "male-harem",
+      "relation": "THE ARCHIVE OPENS A ROOM"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1672,
+      "to": 0.1661
+    }
+  ],
+  "intent": "LONG PLAY / BODYLOUNGER → MALE HAREM / CHASE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 55,
+    "previousRegionId": "bodylounger",
+    "regionId": "male-harem",
+    "relation": "THE ARCHIVE OPENS A ROOM",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 5.98,
+    "scaleBaselineTo": 6.02
+  },
+  "timestamp": "2026-10-16T14:53:25.369Z"
+}

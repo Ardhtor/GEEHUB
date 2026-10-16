@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00054",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00054.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "MALE HAREM → BODYLOUNGER / JOSEPH",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00054. Travel from MALE HAREM into BODYLOUNGER through the relation \"THE ARCHIVE OPENS A ROOM\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 5.86× to 5.98× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-10-16T10:08:05.384Z",
+      "lineage": {
+        "from": "male-harem",
+        "to": "bodylounger",
+        "relation": "THE ARCHIVE OPENS A ROOM",
+        "cycle": 54
+      }
+    },
+    {
       "id": "scheduled-image-00053",
       "status": "QUEUED",
       "type": "IMAGE",

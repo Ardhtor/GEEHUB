@@ -552,7 +552,8 @@
     "colossal-escalation": 4,
     "muscle-myth": 3,
     "discovery": 3,
-    "veyrthalis": 3
+    "veyrthalis": 3,
+    "bodylounger": 3
   },
   "last_visits": {
     "complex": 29.5,
@@ -566,7 +567,8 @@
     "colossal-escalation": 19.5,
     "muscle-myth": 19.5,
     "discovery": 24.5,
-    "veyrthalis": 25.5
+    "veyrthalis": 25.5,
+    "bodylounger": 34.5
   },
   "pressure": 0.9968000000000004,
   "memory": 0.97,
@@ -583,29 +585,42 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 1
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "male-harem",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "bodylounger",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 51,
-    "agent": "luke",
-    "previous_region_id": "embodied-scale",
-    "region_id": "male-harem",
-    "region_name": "MALE HAREM",
-    "relation": "THE WITNESS STAYS",
+    "cycle": 52,
+    "agent": "tyler",
+    "previous_region_id": "male-harem",
+    "region_id": "bodylounger",
+    "region_name": "BODYLOUNGER",
+    "relation": "THE ARCHIVE OPENS A ROOM",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 5.7,
-    "scale": 5.73,
-    "recording": "scheduled-recording-00051",
-    "at": "2026-10-15T22:37:36.508Z"
+    "previous_scale": 5.73,
+    "scale": 5.78,
+    "recording": "scheduled-recording-00052",
+    "at": "2026-10-16T00:48:03.476Z"
   },
-  "last_world_change": "2026-10-15T22:37:36.508Z",
-  "scale": 5.73,
+  "last_world_change": "2026-10-16T00:48:03.476Z",
+  "scale": 5.78,
   "external_events": [
+    {
+      "id": "long-play-00052",
+      "type": "CROSSING",
+      "title": "MALE HAREM → BODYLOUNGER",
+      "body": "The world crossed \"THE ARCHIVE OPENS A ROOM\". Scale increased from 5.73× to 5.78×; the earlier location and baseline remain recorded.",
+      "from": "male-harem",
+      "to": "bodylounger",
+      "previous_region_id": "male-harem",
+      "region_id": "bodylounger",
+      "relation": "THE ARCHIVE OPENS A ROOM",
+      "source": "long-play",
+      "at": "2026-10-16T00:48:03.476Z"
+    },
     {
       "id": "long-play-00051",
       "type": "CROSSING",

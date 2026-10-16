@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 51,
-  "currentAgent": "luke",
-  "currentRegion": "male-harem",
-  "scale": 5.73,
-  "lastRun": "2026-10-15T22:37:36.508Z",
+  "cycle": 52,
+  "currentAgent": "tyler",
+  "currentRegion": "bodylounger",
+  "scale": 5.78,
+  "lastRun": "2026-10-16T00:48:03.476Z",
   "history": [
+    {
+      "cycle": 52,
+      "agent": "tyler",
+      "previousRegion": "male-harem",
+      "region": "bodylounger",
+      "relation": "THE ARCHIVE OPENS A ROOM",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 5.73,
+      "scale": 5.78,
+      "recording": "scheduled-recording-00052",
+      "at": "2026-10-16T00:48:03.476Z"
+    },
     {
       "cycle": 51,
       "agent": "luke",
@@ -515,8 +527,8 @@
       "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "embodied-scale",
-  "relation": "THE WITNESS STAYS",
+  "previousRegion": "male-harem",
+  "relation": "THE ARCHIVE OPENS A ROOM",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 4,
@@ -531,7 +543,7 @@
     "growth": 4,
     "male-harem": 4,
     "beefythiq": 4,
-    "bodylounger": 2,
+    "bodylounger": 3,
     "luke-bwomph": 4
   },
   "lastRegionAt": {
@@ -545,9 +557,9 @@
     "facility": "2026-10-15T15:38:50.207837+00:00",
     "complex": "2026-10-15T05:49:05.359014+00:00",
     "growth": "2026-10-15T00:58:23.599900+00:00",
-    "male-harem": "2026-10-15T22:37:36.508Z",
+    "male-harem": "2026-10-15T22:38:49.760538+00:00",
     "beefythiq": "2026-10-15T11:15:06.356116+00:00",
-    "bodylounger": "2026-10-08T15:39:05.330Z",
+    "bodylounger": "2026-10-16T00:48:03.476Z",
     "luke-bwomph": "2026-10-14T22:42:44.460440+00:00"
   }
 }

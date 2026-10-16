@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-15T22:37:36.508Z",
+  "generated": "2026-10-16T00:48:03.476Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00052",
+      "at": "2026-10-16T00:48:03.476Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / MALE HAREM → BODYLOUNGER / TYLER",
+      "body": "The world crossed the existing relation \"THE ARCHIVE OPENS A ROOM\" from MALE HAREM into BODYLOUNGER. Scale increased from 5.73× to 5.78×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00052",
+      "live": true,
+      "regionId": "bodylounger",
+      "previousRegionId": "male-harem",
+      "relation": "THE ARCHIVE OPENS A ROOM"
+    },
     {
       "id": "scheduled-long-play-00051",
       "at": "2026-10-15T22:37:36.508Z",

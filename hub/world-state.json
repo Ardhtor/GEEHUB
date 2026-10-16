@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00051.json",
+  "activeRecording": "./recordings/scheduled-recording-00052.json",
   "activeEncounter": {
-    "regionId": "male-harem",
-    "regionName": "MALE HAREM",
+    "regionId": "bodylounger",
+    "regionName": "BODYLOUNGER",
     "subject": {
-      "agent": "luke",
-      "scale": 5.73,
+      "agent": "tyler",
+      "scale": 5.78,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / EMBODIED SCALE → MALE HAREM / LUKE",
+    "intent": "LONG PLAY / MALE HAREM → BODYLOUNGER / TYLER",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 5.70× → 5.73×",
-      "EMBODIED SCALE → MALE HAREM",
-      "relation: THE WITNESS STAYS",
+      "scale 5.73× → 5.78×",
+      "MALE HAREM → BODYLOUNGER",
+      "relation: THE ARCHIVE OPENS A ROOM",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "embodied-scale"
+    "previousRegionId": "male-harem"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-15T22:37:36.508Z",
+  "snapshot": "2026-10-16T00:48:03.476Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 51,
-    "agent": "luke",
-    "previousRegionId": "embodied-scale",
-    "regionId": "male-harem",
-    "relation": "THE WITNESS STAYS",
+    "cycle": 52,
+    "agent": "tyler",
+    "previousRegionId": "male-harem",
+    "regionId": "bodylounger",
+    "relation": "THE ARCHIVE OPENS A ROOM",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 5.7,
-    "scale": 5.73,
-    "recording": "scheduled-recording-00051",
-    "at": "2026-10-15T22:37:36.508Z"
+    "previousScale": 5.73,
+    "scale": 5.78,
+    "recording": "scheduled-recording-00052",
+    "at": "2026-10-16T00:48:03.476Z"
   }
 }

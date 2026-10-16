@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00055.json",
+  "activeRecording": "./recordings/scheduled-recording-00056.json",
   "activeEncounter": {
-    "regionId": "male-harem",
-    "regionName": "MALE HAREM",
+    "regionId": "colossal-escalation",
+    "regionName": "COLOSSAL ESCALATION",
     "subject": {
-      "agent": "chase",
-      "scale": 6.02,
+      "agent": "luke",
+      "scale": 6.05,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / BODYLOUNGER → MALE HAREM / CHASE",
+    "intent": "LONG PLAY / MALE HAREM → COLOSSAL ESCALATION / LUKE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 5.98× → 6.02×",
-      "BODYLOUNGER → MALE HAREM",
-      "relation: THE ARCHIVE OPENS A ROOM",
+      "scale 6.02× → 6.05×",
+      "MALE HAREM → COLOSSAL ESCALATION",
+      "relation: MASS WITHOUT AMNESIA",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "bodylounger"
+    "previousRegionId": "male-harem"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-16T14:53:25.369Z",
+  "snapshot": "2026-10-16T18:42:23.701Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 55,
-    "agent": "chase",
-    "previousRegionId": "bodylounger",
-    "regionId": "male-harem",
-    "relation": "THE ARCHIVE OPENS A ROOM",
+    "cycle": 56,
+    "agent": "luke",
+    "previousRegionId": "male-harem",
+    "regionId": "colossal-escalation",
+    "relation": "MASS WITHOUT AMNESIA",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 5.98,
-    "scale": 6.02,
-    "recording": "scheduled-recording-00055",
-    "at": "2026-10-16T14:53:25.369Z"
+    "previousScale": 6.02,
+    "scale": 6.05,
+    "recording": "scheduled-recording-00056",
+    "at": "2026-10-16T18:42:23.701Z"
   }
 }

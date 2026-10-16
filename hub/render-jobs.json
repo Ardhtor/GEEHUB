@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00056",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00056.json",
+      "route": {
+        "from": "male-harem",
+        "to": "colossal-escalation",
+        "relation": "MASS WITHOUT AMNESIA"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-16T18:42:23.701Z"
+    },
+    {
+      "id": "scheduled-video-00056",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00056.json",
+      "route": {
+        "from": "male-harem",
+        "to": "colossal-escalation",
+        "relation": "MASS WITHOUT AMNESIA"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-16T18:42:23.701Z"
+    },
+    {
+      "id": "scheduled-space-00056",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00056.json",
+      "route": {
+        "from": "male-harem",
+        "to": "colossal-escalation",
+        "relation": "MASS WITHOUT AMNESIA"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-16T18:42:23.701Z"
+    },
+    {
       "id": "scheduled-sound-00055",
       "type": "SOUND",
       "status": "QUEUED",

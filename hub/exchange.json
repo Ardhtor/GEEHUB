@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-16T18:42:23.701Z",
+  "generated": "2026-10-16T21:46:02.125Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00057",
+      "at": "2026-10-16T21:46:02.125Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / COLOSSAL ESCALATION → MUSCLE MYTH / TYLER",
+      "body": "The world crossed the existing relation \"THE CITY LEARNS HIS NAME\" from COLOSSAL ESCALATION into MUSCLE MYTH. Scale increased from 6.05× to 6.10×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00057",
+      "live": true,
+      "regionId": "muscle-myth",
+      "previousRegionId": "colossal-escalation",
+      "relation": "THE CITY LEARNS HIS NAME"
+    },
     {
       "id": "scheduled-long-play-00056",
       "at": "2026-10-16T18:42:23.701Z",

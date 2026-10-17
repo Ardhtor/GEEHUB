@@ -317,3 +317,11 @@ SETH: Several scratches on the wall resolve into marks made at different times. 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 43 — ATMOSPHERE / DISCOVERY / 2026-10-17T09:08:14.766945+00:00
+
+SETH: Rain shifts across the northern road. A loose sign turns twice against its post, and water gathers in the wagon ruts while the amber tree line stays distant.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

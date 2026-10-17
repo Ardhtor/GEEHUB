@@ -661,3 +661,11 @@ SETH: Several scratches on the wall resolve into marks made at different times. 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: lore/DEEP_LORE.md. Pressure 1.00; memory 0.97.
+
+## DISCOVERY / pulse 43 / ATMOSPHERE
+
+SETH: Rain shifts across the northern road. A loose sign turns twice against its post, and water gathers in the wagon ruts while the amber tree line stays distant.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: README.md. Pressure 1.00; memory 0.97.

@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-17T16:14:19.946Z",
+  "generated": "2026-10-17T18:34:29.341Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00063",
+      "at": "2026-10-17T18:34:29.341Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / DISCOVERY → THE COMPLEX / ANDREW",
+      "body": "The world crossed the existing relation \"THE WORLD LEAVES A TRACE\" from DISCOVERY into THE COMPLEX. Scale increased from 6.42× to 6.50×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00063",
+      "live": true,
+      "regionId": "complex",
+      "previousRegionId": "discovery",
+      "relation": "THE WORLD LEAVES A TRACE"
+    },
     {
       "id": "scheduled-long-play-00062",
       "at": "2026-10-17T16:14:19.946Z",

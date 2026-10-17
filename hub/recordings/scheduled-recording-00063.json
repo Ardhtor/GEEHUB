@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00063",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "complex",
+  "position": {
+    "x": 55,
+    "y": 51,
+    "z": 0
+  },
+  "camera": {
+    "x": 55,
+    "y": 51,
+    "z": 1.7,
+    "heading": 9,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 6.5,
+    "priorScale": 6.42,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 6.5,
+    "clearance": 0.1538,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE WORLD LEAVES A TRACE"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "discovery",
+      "name": "DISCOVERY"
+    },
+    {
+      "type": "region",
+      "id": "complex",
+      "name": "THE COMPLEX"
+    },
+    {
+      "type": "relation",
+      "title": "THE WORLD LEAVES A TRACE"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 6.42,
+      "to": 6.5
+    },
+    {
+      "property": "location.regionId",
+      "from": "discovery",
+      "to": "complex",
+      "relation": "THE WORLD LEAVES A TRACE"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1558,
+      "to": 0.1538
+    }
+  ],
+  "intent": "LONG PLAY / DISCOVERY → THE COMPLEX / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 63,
+    "previousRegionId": "discovery",
+    "regionId": "complex",
+    "relation": "THE WORLD LEAVES A TRACE",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 6.42,
+    "scaleBaselineTo": 6.5
+  },
+  "timestamp": "2026-10-17T18:34:29.341Z"
+}

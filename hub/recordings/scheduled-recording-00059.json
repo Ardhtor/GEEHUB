@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00059",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "deep-lore",
+  "position": {
+    "x": 35,
+    "y": 69,
+    "z": 0
+  },
+  "camera": {
+    "x": 35,
+    "y": 69,
+    "z": 1.7,
+    "heading": 277,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "joseph",
+    "scale": 6.3,
+    "priorScale": 6.18,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 6.3,
+    "clearance": 0.1587,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE NAME SURVIVES THE SCALE"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "colossal-escalation",
+      "name": "COLOSSAL ESCALATION"
+    },
+    {
+      "type": "region",
+      "id": "deep-lore",
+      "name": "DEEP LORE"
+    },
+    {
+      "type": "relation",
+      "title": "THE NAME SURVIVES THE SCALE"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 6.18,
+      "to": 6.3
+    },
+    {
+      "property": "location.regionId",
+      "from": "colossal-escalation",
+      "to": "deep-lore",
+      "relation": "THE NAME SURVIVES THE SCALE"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1618,
+      "to": 0.1587
+    }
+  ],
+  "intent": "LONG PLAY / COLOSSAL ESCALATION → DEEP LORE / JOSEPH",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 59,
+    "previousRegionId": "colossal-escalation",
+    "regionId": "deep-lore",
+    "relation": "THE NAME SURVIVES THE SCALE",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 6.18,
+    "scaleBaselineTo": 6.3
+  },
+  "timestamp": "2026-10-17T04:38:59.470Z"
+}

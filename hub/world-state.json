@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00058.json",
+  "activeRecording": "./recordings/scheduled-recording-00059.json",
   "activeEncounter": {
-    "regionId": "colossal-escalation",
-    "regionName": "COLOSSAL ESCALATION",
+    "regionId": "deep-lore",
+    "regionName": "DEEP LORE",
     "subject": {
-      "agent": "andrew",
-      "scale": 6.18,
+      "agent": "joseph",
+      "scale": 6.3,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / MUSCLE MYTH → COLOSSAL ESCALATION / ANDREW",
+    "intent": "LONG PLAY / COLOSSAL ESCALATION → DEEP LORE / JOSEPH",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 6.10× → 6.18×",
-      "MUSCLE MYTH → COLOSSAL ESCALATION",
-      "relation: THE CITY LEARNS HIS NAME",
+      "scale 6.18× → 6.30×",
+      "COLOSSAL ESCALATION → DEEP LORE",
+      "relation: THE NAME SURVIVES THE SCALE",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "muscle-myth"
+    "previousRegionId": "colossal-escalation"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-17T00:13:40.776Z",
+  "snapshot": "2026-10-17T04:38:59.470Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 58,
-    "agent": "andrew",
-    "previousRegionId": "muscle-myth",
-    "regionId": "colossal-escalation",
-    "relation": "THE CITY LEARNS HIS NAME",
+    "cycle": 59,
+    "agent": "joseph",
+    "previousRegionId": "colossal-escalation",
+    "regionId": "deep-lore",
+    "relation": "THE NAME SURVIVES THE SCALE",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 6.1,
-    "scale": 6.18,
-    "recording": "scheduled-recording-00058",
-    "at": "2026-10-17T00:13:40.776Z"
+    "previousScale": 6.18,
+    "scale": 6.3,
+    "recording": "scheduled-recording-00059",
+    "at": "2026-10-17T04:38:59.470Z"
   }
 }

@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00059",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00059.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "COLOSSAL ESCALATION → DEEP LORE / JOSEPH",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00059. Travel from COLOSSAL ESCALATION into DEEP LORE through the relation \"THE NAME SURVIVES THE SCALE\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 6.18× to 6.30× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-10-17T04:38:59.470Z",
+      "lineage": {
+        "from": "colossal-escalation",
+        "to": "deep-lore",
+        "relation": "THE NAME SURVIVES THE SCALE",
+        "cycle": 59
+      }
+    },
+    {
       "id": "scheduled-image-00058",
       "status": "QUEUED",
       "type": "IMAGE",

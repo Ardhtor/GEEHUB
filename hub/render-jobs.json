@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00059",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00059.json",
+      "route": {
+        "from": "colossal-escalation",
+        "to": "deep-lore",
+        "relation": "THE NAME SURVIVES THE SCALE"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-17T04:38:59.470Z"
+    },
+    {
+      "id": "scheduled-video-00059",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00059.json",
+      "route": {
+        "from": "colossal-escalation",
+        "to": "deep-lore",
+        "relation": "THE NAME SURVIVES THE SCALE"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-17T04:38:59.470Z"
+    },
+    {
+      "id": "scheduled-space-00059",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00059.json",
+      "route": {
+        "from": "colossal-escalation",
+        "to": "deep-lore",
+        "relation": "THE NAME SURVIVES THE SCALE"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-17T04:38:59.470Z"
+    },
+    {
       "id": "scheduled-sound-00058",
       "type": "SOUND",
       "status": "QUEUED",

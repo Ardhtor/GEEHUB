@@ -685,3 +685,11 @@ SETH: Rain shifts across the northern road. A loose sign turns twice against its
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: README.md. Pressure 1.00; memory 0.97.
+
+## THE COMPLEX / pulse 46 / ATMOSPHERE
+
+SETH: The corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the sill, and sunlight reaches the wall where a doorway used to cast a narrower shadow.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: projects.json. Pressure 1.00; memory 0.97.

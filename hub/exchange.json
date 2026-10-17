@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-17T04:38:59.470Z",
+  "generated": "2026-10-17T08:50:21.042Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00060",
+      "at": "2026-10-17T08:50:21.042Z",
+      "from": "geehub-long-play",
+      "to": "chase",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / DEEP LORE → DISCOVERY / CHASE",
+      "body": "The world crossed the existing relation \"THE WORLD TELLS ON ITSELF\" from DEEP LORE into DISCOVERY. Scale increased from 6.30× to 6.34×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00060",
+      "live": true,
+      "regionId": "discovery",
+      "previousRegionId": "deep-lore",
+      "relation": "THE WORLD TELLS ON ITSELF"
+    },
     {
       "id": "scheduled-long-play-00059",
       "at": "2026-10-17T04:38:59.470Z",

@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00060",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00060.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "DEEP LORE → DISCOVERY / CHASE",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00060. Travel from DEEP LORE into DISCOVERY through the relation \"THE WORLD TELLS ON ITSELF\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 6.30× to 6.34× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-10-17T08:50:21.042Z",
+      "lineage": {
+        "from": "deep-lore",
+        "to": "discovery",
+        "relation": "THE WORLD TELLS ON ITSELF",
+        "cycle": 60
+      }
+    },
+    {
       "id": "scheduled-image-00059",
       "status": "QUEUED",
       "type": "IMAGE",

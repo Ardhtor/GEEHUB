@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00060",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "discovery",
+  "position": {
+    "x": 78,
+    "y": 83,
+    "z": 0
+  },
+  "camera": {
+    "x": 78,
+    "y": 83,
+    "z": 1.7,
+    "heading": 300,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "chase",
+    "scale": 6.34,
+    "priorScale": 6.3,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 6.34,
+    "clearance": 0.1577,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE WORLD TELLS ON ITSELF"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "deep-lore",
+      "name": "DEEP LORE"
+    },
+    {
+      "type": "region",
+      "id": "discovery",
+      "name": "DISCOVERY"
+    },
+    {
+      "type": "relation",
+      "title": "THE WORLD TELLS ON ITSELF"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 6.3,
+      "to": 6.34
+    },
+    {
+      "property": "location.regionId",
+      "from": "deep-lore",
+      "to": "discovery",
+      "relation": "THE WORLD TELLS ON ITSELF"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1587,
+      "to": 0.1577
+    }
+  ],
+  "intent": "LONG PLAY / DEEP LORE → DISCOVERY / CHASE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 60,
+    "previousRegionId": "deep-lore",
+    "regionId": "discovery",
+    "relation": "THE WORLD TELLS ON ITSELF",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 6.3,
+    "scaleBaselineTo": 6.34
+  },
+  "timestamp": "2026-10-17T08:50:21.042Z"
+}

@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00059.json",
+  "activeRecording": "./recordings/scheduled-recording-00060.json",
   "activeEncounter": {
-    "regionId": "deep-lore",
-    "regionName": "DEEP LORE",
+    "regionId": "discovery",
+    "regionName": "DISCOVERY",
     "subject": {
-      "agent": "joseph",
-      "scale": 6.3,
+      "agent": "chase",
+      "scale": 6.34,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / COLOSSAL ESCALATION → DEEP LORE / JOSEPH",
+    "intent": "LONG PLAY / DEEP LORE → DISCOVERY / CHASE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 6.18× → 6.30×",
-      "COLOSSAL ESCALATION → DEEP LORE",
-      "relation: THE NAME SURVIVES THE SCALE",
+      "scale 6.30× → 6.34×",
+      "DEEP LORE → DISCOVERY",
+      "relation: THE WORLD TELLS ON ITSELF",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "colossal-escalation"
+    "previousRegionId": "deep-lore"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-17T04:38:59.470Z",
+  "snapshot": "2026-10-17T08:50:21.042Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 59,
-    "agent": "joseph",
-    "previousRegionId": "colossal-escalation",
-    "regionId": "deep-lore",
-    "relation": "THE NAME SURVIVES THE SCALE",
+    "cycle": 60,
+    "agent": "chase",
+    "previousRegionId": "deep-lore",
+    "regionId": "discovery",
+    "relation": "THE WORLD TELLS ON ITSELF",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 6.18,
-    "scale": 6.3,
-    "recording": "scheduled-recording-00059",
-    "at": "2026-10-17T04:38:59.470Z"
+    "previousScale": 6.3,
+    "scale": 6.34,
+    "recording": "scheduled-recording-00060",
+    "at": "2026-10-17T08:50:21.042Z"
   }
 }

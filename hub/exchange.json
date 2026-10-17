@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-17T18:34:29.341Z",
+  "generated": "2026-10-17T21:00:10.585Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00064",
+      "at": "2026-10-17T21:00:10.585Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / THE COMPLEX → GROWTH CANVAS / JOSEPH",
+      "body": "The world crossed the existing relation \"KISS = CONTINUITY\" from THE COMPLEX into GROWTH CANVAS. Scale increased from 6.50× to 6.62×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00064",
+      "live": true,
+      "regionId": "growth",
+      "previousRegionId": "complex",
+      "relation": "KISS = CONTINUITY"
+    },
     {
       "id": "scheduled-long-play-00063",
       "at": "2026-10-17T18:34:29.341Z",

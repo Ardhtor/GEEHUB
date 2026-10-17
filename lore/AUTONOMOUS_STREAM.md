@@ -309,3 +309,11 @@ SETH: The view retreats from doorway to building while the man's face remains re
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 42 — ATMOSPHERE / DEEP LORE / 2026-10-17T04:53:46.104124+00:00
+
+SETH: Several scratches on the wall resolve into marks made at different times. Dust sits in the baseboard groove beside a small object someone left and did not retrieve.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

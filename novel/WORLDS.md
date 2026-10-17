@@ -653,3 +653,11 @@ SETH: The view retreats from doorway to building while the man's face remains re
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: research/embodied-scale/colossal-escalation.json. Pressure 1.00; memory 0.97.
+
+## DEEP LORE / pulse 42 / ATMOSPHERE
+
+SETH: Several scratches on the wall resolve into marks made at different times. Dust sits in the baseboard groove beside a small object someone left and did not retrieve.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: lore/DEEP_LORE.md. Pressure 1.00; memory 0.97.

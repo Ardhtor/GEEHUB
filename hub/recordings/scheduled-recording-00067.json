@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00067",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "facility",
+  "position": {
+    "x": 80,
+    "y": 57,
+    "z": 0
+  },
+  "camera": {
+    "x": 80,
+    "y": 57,
+    "z": 1.7,
+    "heading": 101,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "tyler",
+    "scale": 6.74,
+    "priorScale": 6.69,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 6.74,
+    "clearance": 0.1484,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE FLOOR REPLIES"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "embodied-scale",
+      "name": "EMBODIED SCALE"
+    },
+    {
+      "type": "region",
+      "id": "facility",
+      "name": "THE FACILITY"
+    },
+    {
+      "type": "relation",
+      "title": "THE FLOOR REPLIES"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 6.69,
+      "to": 6.74
+    },
+    {
+      "property": "location.regionId",
+      "from": "embodied-scale",
+      "to": "facility",
+      "relation": "THE FLOOR REPLIES"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1495,
+      "to": 0.1484
+    }
+  ],
+  "intent": "LONG PLAY / EMBODIED SCALE → THE FACILITY / TYLER",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 67,
+    "previousRegionId": "embodied-scale",
+    "regionId": "facility",
+    "relation": "THE FLOOR REPLIES",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 6.69,
+    "scaleBaselineTo": 6.74
+  },
+  "timestamp": "2026-10-18T05:56:57.749Z"
+}

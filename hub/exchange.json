@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-18T01:05:28.910Z",
+  "generated": "2026-10-18T05:56:57.749Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00067",
+      "at": "2026-10-18T05:56:57.749Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / EMBODIED SCALE → THE FACILITY / TYLER",
+      "body": "The world crossed the existing relation \"THE FLOOR REPLIES\" from EMBODIED SCALE into THE FACILITY. Scale increased from 6.69× to 6.74×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00067",
+      "live": true,
+      "regionId": "facility",
+      "previousRegionId": "embodied-scale",
+      "relation": "THE FLOOR REPLIES"
+    },
     {
       "id": "scheduled-long-play-00066",
       "at": "2026-10-18T01:05:28.910Z",

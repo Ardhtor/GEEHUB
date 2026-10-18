@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00067",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00067.json",
+      "route": {
+        "from": "embodied-scale",
+        "to": "facility",
+        "relation": "THE FLOOR REPLIES"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-18T05:56:57.749Z"
+    },
+    {
+      "id": "scheduled-video-00067",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00067.json",
+      "route": {
+        "from": "embodied-scale",
+        "to": "facility",
+        "relation": "THE FLOOR REPLIES"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-18T05:56:57.749Z"
+    },
+    {
+      "id": "scheduled-space-00067",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00067.json",
+      "route": {
+        "from": "embodied-scale",
+        "to": "facility",
+        "relation": "THE FLOOR REPLIES"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-18T05:56:57.749Z"
+    },
+    {
       "id": "scheduled-sound-00066",
       "type": "SOUND",
       "status": "QUEUED",

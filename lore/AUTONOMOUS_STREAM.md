@@ -373,3 +373,11 @@ SETH: A hand slides along the doorframe as the man turns sideways to pass. His f
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 50 — ATMOSPHERE / THE FACILITY / 2026-10-18T05:57:57.831740+00:00
+
+SETH: The ventilation hum settles into a lower register. Blue light crosses the observation glass and shows the technician's reflection over the broad figure behind it.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

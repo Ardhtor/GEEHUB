@@ -1,5 +1,5 @@
 {
-  "pulse": 54,
+  "pulse": 55,
   "events": [
     {
       "pulse": 1,
@@ -878,6 +878,23 @@
       "next_region": null,
       "pressure": 1,
       "memory": 0.97
+    },
+    {
+      "pulse": 55,
+      "time": "2026-10-18T21:56:10.056391+00:00",
+      "actor": "LUKE",
+      "world": "DEEP LORE",
+      "region_id": "deep-lore",
+      "previous_region_id": "deep-lore",
+      "phase": "ATMOSPHERE",
+      "source": "lore/DEEP_LORE.md",
+      "desire_state": "attention",
+      "action": "SETH: Several scratches on the wall resolve into marks made at different times. Dust sits in the baseboard groove beside a small object someone left and did not retrieve.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 0.97
     }
   ],
   "visits": {
@@ -910,12 +927,12 @@
     "veyrthalis": 43.5,
     "bodylounger": 36.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
     "creative/luke-bwomph.json": 8,
-    "lore/DEEP_LORE.md": 6,
+    "lore/DEEP_LORE.md": 7,
     "world.json": 6,
     "research/embodied-scale/README.md": 6,
     "archive/male-harem/README.md": 4,
@@ -926,9 +943,9 @@
     "index.html": 2
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "deep-lore",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 67,
-  "currentAgent": "tyler",
-  "currentRegion": "facility",
-  "scale": 6.74,
-  "lastRun": "2026-10-18T05:56:57.749Z",
+  "cycle": 68,
+  "currentAgent": "andrew",
+  "currentRegion": "beefythiq",
+  "scale": 6.82,
+  "lastRun": "2026-10-18T10:52:36.544Z",
   "history": [
+    {
+      "cycle": 68,
+      "agent": "andrew",
+      "previousRegion": "facility",
+      "region": "beefythiq",
+      "relation": "THE ROOM GETS SMALLER",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 6.74,
+      "scale": 6.82,
+      "recording": "scheduled-recording-00068",
+      "at": "2026-10-18T10:52:36.544Z"
+    },
     {
       "cycle": 67,
       "agent": "tyler",
@@ -707,8 +719,8 @@
       "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "embodied-scale",
-  "relation": "THE FLOOR REPLIES",
+  "previousRegion": "facility",
+  "relation": "THE ROOM GETS SMALLER",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 5,
@@ -722,7 +734,7 @@
     "complex": 5,
     "growth": 5,
     "male-harem": 6,
-    "beefythiq": 4,
+    "beefythiq": 5,
     "bodylounger": 4,
     "luke-bwomph": 5
   },
@@ -734,11 +746,11 @@
     "discovery": "2026-10-17T16:19:23.921595+00:00",
     "muscle-myth": "2026-10-16T21:46:36.866542+00:00",
     "veyrthalis": "2026-10-17T12:59:34.103778+00:00",
-    "facility": "2026-10-18T05:56:57.749Z",
+    "facility": "2026-10-18T05:57:57.831740+00:00",
     "complex": "2026-10-17T18:44:37.803466+00:00",
     "growth": "2026-10-17T21:03:06.583492+00:00",
     "male-harem": "2026-10-16T14:54:03.838187+00:00",
-    "beefythiq": "2026-10-15T11:15:06.356116+00:00",
+    "beefythiq": "2026-10-18T10:52:36.544Z",
     "bodylounger": "2026-10-16T10:09:04.317942+00:00",
     "luke-bwomph": "2026-10-17T23:09:32.126372+00:00"
   }

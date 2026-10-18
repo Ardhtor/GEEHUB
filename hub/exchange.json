@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-18T05:56:57.749Z",
+  "generated": "2026-10-18T10:52:36.544Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00068",
+      "at": "2026-10-18T10:52:36.544Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / THE FACILITY → BEEFYTHIQ / ANDREW",
+      "body": "The world crossed the existing relation \"THE ROOM GETS SMALLER\" from THE FACILITY into BEEFYTHIQ. Scale increased from 6.74× to 6.82×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00068",
+      "live": true,
+      "regionId": "beefythiq",
+      "previousRegionId": "facility",
+      "relation": "THE ROOM GETS SMALLER"
+    },
     {
       "id": "scheduled-long-play-00067",
       "at": "2026-10-18T05:56:57.749Z",

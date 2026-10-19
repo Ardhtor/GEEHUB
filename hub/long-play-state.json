@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 75,
-  "currentAgent": "chase",
-  "currentRegion": "veyrthalis",
-  "scale": 7.3,
-  "lastRun": "2026-10-19T10:20:49.865Z",
+  "cycle": 76,
+  "currentAgent": "luke",
+  "currentRegion": "deep-lore",
+  "scale": 7.33,
+  "lastRun": "2026-10-19T17:07:20.015Z",
   "history": [
+    {
+      "cycle": 76,
+      "agent": "luke",
+      "previousRegion": "veyrthalis",
+      "region": "deep-lore",
+      "relation": "DEPARTURE LEAVES A SHAPE",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 7.3,
+      "scale": 7.33,
+      "recording": "scheduled-recording-00076",
+      "at": "2026-10-19T17:07:20.015Z"
+    },
     {
       "cycle": 75,
       "agent": "chase",
@@ -803,11 +815,11 @@
       "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "discovery",
-  "relation": "THE DOOR REMEMBERS",
+  "previousRegion": "veyrthalis",
+  "relation": "DEPARTURE LEAVES A SHAPE",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
-    "deep-lore": 6,
+    "deep-lore": 7,
     "kingdom-land": 2,
     "colossal-escalation": 6,
     "embodied-scale": 6,
@@ -823,13 +835,13 @@
     "luke-bwomph": 6
   },
   "lastRegionAt": {
-    "deep-lore": "2026-10-18T21:56:10.056391+00:00",
+    "deep-lore": "2026-10-19T17:07:20.015Z",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
     "colossal-escalation": "2026-10-17T00:15:41.583480+00:00",
     "embodied-scale": "2026-10-18T01:06:45.175175+00:00",
     "discovery": "2026-10-19T04:46:27.829762+00:00",
     "muscle-myth": "2026-10-16T21:46:36.866542+00:00",
-    "veyrthalis": "2026-10-19T10:20:49.865Z",
+    "veyrthalis": "2026-10-19T10:38:45.693175+00:00",
     "facility": "2026-10-18T05:57:57.831740+00:00",
     "complex": "2026-10-18T14:26:40.761515+00:00",
     "growth": "2026-10-18T17:30:09.937832+00:00",

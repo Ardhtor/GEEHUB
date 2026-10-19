@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-19T10:20:49.865Z",
+  "generated": "2026-10-19T17:07:20.015Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00076",
+      "at": "2026-10-19T17:07:20.015Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / VEYRTHALIS → DEEP LORE / LUKE",
+      "body": "The world crossed the existing relation \"DEPARTURE LEAVES A SHAPE\" from VEYRTHALIS into DEEP LORE. Scale increased from 7.30× to 7.33×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00076",
+      "live": true,
+      "regionId": "deep-lore",
+      "previousRegionId": "veyrthalis",
+      "relation": "DEPARTURE LEAVES A SHAPE"
+    },
     {
       "id": "scheduled-long-play-00075",
       "at": "2026-10-19T10:20:49.865Z",

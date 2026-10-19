@@ -893,7 +893,7 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
+      "pressure": 1,
       "memory": 0.97
     }
   ],
@@ -909,7 +909,7 @@
     "colossal-escalation": 6,
     "muscle-myth": 4,
     "discovery": 5,
-    "veyrthalis": 4,
+    "veyrthalis": 5,
     "bodylounger": 4
   },
   "last_visits": {
@@ -924,10 +924,10 @@
     "colossal-escalation": 40.5,
     "muscle-myth": 39.5,
     "discovery": 44.5,
-    "veyrthalis": 43.5,
+    "veyrthalis": 55.5,
     "bodylounger": 36.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
@@ -943,29 +943,42 @@
     "index.html": 2
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "deep-lore",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "veyrthalis",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 72,
-    "agent": "tyler",
-    "previous_region_id": "luke-bwomph",
-    "region_id": "deep-lore",
-    "region_name": "DEEP LORE",
-    "relation": "THE FACE REMAINS",
+    "cycle": 73,
+    "agent": "andrew",
+    "previous_region_id": "deep-lore",
+    "region_id": "veyrthalis",
+    "region_name": "VEYRTHALIS",
+    "relation": "DEPARTURE LEAVES A SHAPE",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 7.01,
-    "scale": 7.06,
-    "recording": "scheduled-recording-00072",
-    "at": "2026-10-18T21:55:18.329Z"
+    "previous_scale": 7.06,
+    "scale": 7.14,
+    "recording": "scheduled-recording-00073",
+    "at": "2026-10-19T00:02:36.053Z"
   },
-  "last_world_change": "2026-10-18T21:55:18.329Z",
-  "scale": 7.06,
+  "last_world_change": "2026-10-19T00:02:36.053Z",
+  "scale": 7.14,
   "external_events": [
+    {
+      "id": "long-play-00073",
+      "type": "CROSSING",
+      "title": "DEEP LORE → VEYRTHALIS",
+      "body": "The world crossed \"DEPARTURE LEAVES A SHAPE\". Scale increased from 7.06× to 7.14×; the earlier location and baseline remain recorded.",
+      "from": "deep-lore",
+      "to": "veyrthalis",
+      "previous_region_id": "deep-lore",
+      "region_id": "veyrthalis",
+      "relation": "DEPARTURE LEAVES A SHAPE",
+      "source": "long-play",
+      "at": "2026-10-19T00:02:36.053Z"
+    },
     {
       "id": "long-play-00072",
       "type": "CROSSING",

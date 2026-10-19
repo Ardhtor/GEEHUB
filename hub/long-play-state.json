@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 72,
-  "currentAgent": "tyler",
-  "currentRegion": "deep-lore",
-  "scale": 7.06,
-  "lastRun": "2026-10-18T21:55:18.329Z",
+  "cycle": 73,
+  "currentAgent": "andrew",
+  "currentRegion": "veyrthalis",
+  "scale": 7.14,
+  "lastRun": "2026-10-19T00:02:36.053Z",
   "history": [
+    {
+      "cycle": 73,
+      "agent": "andrew",
+      "previousRegion": "deep-lore",
+      "region": "veyrthalis",
+      "relation": "DEPARTURE LEAVES A SHAPE",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 7.06,
+      "scale": 7.14,
+      "recording": "scheduled-recording-00073",
+      "at": "2026-10-19T00:02:36.053Z"
+    },
     {
       "cycle": 72,
       "agent": "tyler",
@@ -767,8 +779,8 @@
       "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "luke-bwomph",
-  "relation": "THE FACE REMAINS",
+  "previousRegion": "deep-lore",
+  "relation": "DEPARTURE LEAVES A SHAPE",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 6,
@@ -777,7 +789,7 @@
     "embodied-scale": 6,
     "discovery": 5,
     "muscle-myth": 4,
-    "veyrthalis": 4,
+    "veyrthalis": 5,
     "facility": 6,
     "complex": 6,
     "growth": 6,
@@ -787,13 +799,13 @@
     "luke-bwomph": 6
   },
   "lastRegionAt": {
-    "deep-lore": "2026-10-18T21:55:18.329Z",
+    "deep-lore": "2026-10-18T21:56:10.056391+00:00",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
     "colossal-escalation": "2026-10-17T00:15:41.583480+00:00",
     "embodied-scale": "2026-10-18T01:06:45.175175+00:00",
     "discovery": "2026-10-17T16:19:23.921595+00:00",
     "muscle-myth": "2026-10-16T21:46:36.866542+00:00",
-    "veyrthalis": "2026-10-17T12:59:34.103778+00:00",
+    "veyrthalis": "2026-10-19T00:02:36.053Z",
     "facility": "2026-10-18T05:57:57.831740+00:00",
     "complex": "2026-10-18T14:26:40.761515+00:00",
     "growth": "2026-10-18T17:30:09.937832+00:00",

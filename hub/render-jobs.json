@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00073",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00073.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "veyrthalis",
+        "relation": "DEPARTURE LEAVES A SHAPE"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-19T00:02:36.053Z"
+    },
+    {
+      "id": "scheduled-video-00073",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00073.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "veyrthalis",
+        "relation": "DEPARTURE LEAVES A SHAPE"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-19T00:02:36.053Z"
+    },
+    {
+      "id": "scheduled-space-00073",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00073.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "veyrthalis",
+        "relation": "DEPARTURE LEAVES A SHAPE"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-19T00:02:36.053Z"
+    },
+    {
       "id": "scheduled-sound-00072",
       "type": "SOUND",
       "status": "QUEUED",

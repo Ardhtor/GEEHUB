@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00076.json",
+  "activeRecording": "./recordings/scheduled-recording-00077.json",
   "activeEncounter": {
-    "regionId": "deep-lore",
-    "regionName": "DEEP LORE",
+    "regionId": "male-harem",
+    "regionName": "MALE HAREM",
     "subject": {
-      "agent": "luke",
-      "scale": 7.33,
+      "agent": "tyler",
+      "scale": 7.38,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / VEYRTHALIS → DEEP LORE / LUKE",
+    "intent": "LONG PLAY / DEEP LORE → MALE HAREM / TYLER",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 7.30× → 7.33×",
-      "VEYRTHALIS → DEEP LORE",
-      "relation: DEPARTURE LEAVES A SHAPE",
+      "scale 7.33× → 7.38×",
+      "DEEP LORE → MALE HAREM",
+      "relation: A RELATIONSHIP HAS GEOMETRY",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "veyrthalis"
+    "previousRegionId": "deep-lore"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-19T17:07:20.015Z",
+  "snapshot": "2026-10-19T21:33:13.591Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 76,
-    "agent": "luke",
-    "previousRegionId": "veyrthalis",
-    "regionId": "deep-lore",
-    "relation": "DEPARTURE LEAVES A SHAPE",
+    "cycle": 77,
+    "agent": "tyler",
+    "previousRegionId": "deep-lore",
+    "regionId": "male-harem",
+    "relation": "A RELATIONSHIP HAS GEOMETRY",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 7.3,
-    "scale": 7.33,
-    "recording": "scheduled-recording-00076",
-    "at": "2026-10-19T17:07:20.015Z"
+    "previousScale": 7.33,
+    "scale": 7.38,
+    "recording": "scheduled-recording-00077",
+    "at": "2026-10-19T21:33:13.591Z"
   }
 }

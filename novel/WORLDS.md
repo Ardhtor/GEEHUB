@@ -773,3 +773,11 @@ SETH: Fog threads between amber trunks and softens the stone base of the Digitor
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md. Pressure 1.00; memory 0.97.
+
+## DISCOVERY / pulse 57 / ATMOSPHERE
+
+SETH: Rain shifts across the northern road. A loose sign turns twice against its post, and water gathers in the wagon ruts while the amber tree line stays distant.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: README.md. Pressure 1.00; memory 0.97.

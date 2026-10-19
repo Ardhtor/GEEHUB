@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00075",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00075.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-19T10:20:49.865Z"
+    },
+    {
+      "id": "scheduled-video-00075",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00075.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-19T10:20:49.865Z"
+    },
+    {
+      "id": "scheduled-space-00075",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00075.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-19T10:20:49.865Z"
+    },
+    {
       "id": "scheduled-sound-00074",
       "type": "SOUND",
       "status": "QUEUED",

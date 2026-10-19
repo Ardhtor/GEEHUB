@@ -1,5 +1,5 @@
 {
-  "pulse": 55,
+  "pulse": 56,
   "events": [
     {
       "pulse": 1,
@@ -895,6 +895,23 @@
       "next_region": null,
       "pressure": 1,
       "memory": 0.97
+    },
+    {
+      "pulse": 56,
+      "time": "2026-10-19T00:06:31.421636+00:00",
+      "actor": "LUKE",
+      "world": "VEYRTHALIS",
+      "region_id": "veyrthalis",
+      "previous_region_id": "veyrthalis",
+      "phase": "ATMOSPHERE",
+      "source": "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+      "desire_state": "attention",
+      "action": "SETH: Fog threads between amber trunks and softens the stone base of the Digitorium. Blue windows brighten one after another above wet steps, and the Procession remains quiet on its bridge.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 0.97
     }
   ],
   "visits": {
@@ -927,7 +944,7 @@
     "veyrthalis": 55.5,
     "bodylounger": 36.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
@@ -939,13 +956,13 @@
     "research/embodied-scale/colossal-escalation.json": 5,
     "projects.json": 4,
     "README.md": 3,
-    "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 2,
+    "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 3,
     "index.html": 2
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "veyrthalis",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

@@ -421,3 +421,11 @@ SETH: Several scratches on the wall resolve into marks made at different times. 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 56 — ATMOSPHERE / VEYRTHALIS / 2026-10-19T00:06:31.421636+00:00
+
+SETH: Fog threads between amber trunks and softens the stone base of the Digitorium. Blue windows brighten one after another above wet steps, and the Procession remains quiet on its bridge.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

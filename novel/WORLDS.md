@@ -765,3 +765,11 @@ SETH: Several scratches on the wall resolve into marks made at different times. 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: lore/DEEP_LORE.md. Pressure 1.00; memory 0.97.
+
+## VEYRTHALIS / pulse 56 / ATMOSPHERE
+
+SETH: Fog threads between amber trunks and softens the stone base of the Digitorium. Blue windows brighten one after another above wet steps, and the Procession remains quiet on its bridge.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md. Pressure 1.00; memory 0.97.

@@ -813,3 +813,11 @@ SETH: Old monitor glass reflects saved images and dates. A browser page remains 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: index.html. Pressure 1.00; memory 0.97.
+
+## MALE HAREM / pulse 62 / ATMOSPHERE
+
+SETH: Late light crosses high windows and the worn edges of gym benches. A shirt rests over a chair, and familiar footsteps turn a man's attention toward the doorway.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: archive/male-harem/README.md. Pressure 1.00; memory 0.97.

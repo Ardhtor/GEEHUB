@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000062",
+  "created_at": "2026-10-20T05:23:54.464857+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ATMOSPHERE / MALE HAREM / archive/male-harem/README.md",
+  "content": "SETH: Late light crosses high windows and the worn edges of gym benches. A shirt rests over a chair, and familiar footsteps turn a man's attention toward the doorway.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+  "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 62,
+    "actor": "LUKE",
+    "world": "MALE HAREM",
+    "region_id": "male-harem",
+    "source": "archive/male-harem/README.md",
+    "phase": "ATMOSPHERE",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

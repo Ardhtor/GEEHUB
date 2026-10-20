@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00083",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00083.json",
+      "route": {
+        "from": "colossal-escalation",
+        "to": "muscle-myth",
+        "relation": "THE CITY LEARNS HIS NAME"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-20T22:41:41.989Z"
+    },
+    {
+      "id": "scheduled-video-00083",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00083.json",
+      "route": {
+        "from": "colossal-escalation",
+        "to": "muscle-myth",
+        "relation": "THE CITY LEARNS HIS NAME"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-20T22:41:41.989Z"
+    },
+    {
+      "id": "scheduled-space-00083",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00083.json",
+      "route": {
+        "from": "colossal-escalation",
+        "to": "muscle-myth",
+        "relation": "THE CITY LEARNS HIS NAME"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-20T22:41:41.989Z"
+    },
+    {
       "id": "scheduled-sound-00082",
       "type": "SOUND",
       "status": "QUEUED",

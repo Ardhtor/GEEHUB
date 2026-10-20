@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00080",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00080.json",
+      "route": {
+        "from": "male-harem",
+        "to": "bodylounger",
+        "relation": "THE ARCHIVE OPENS A ROOM"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-20T10:19:46.021Z"
+    },
+    {
+      "id": "scheduled-video-00080",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00080.json",
+      "route": {
+        "from": "male-harem",
+        "to": "bodylounger",
+        "relation": "THE ARCHIVE OPENS A ROOM"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-20T10:19:46.021Z"
+    },
+    {
+      "id": "scheduled-space-00080",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00080.json",
+      "route": {
+        "from": "male-harem",
+        "to": "bodylounger",
+        "relation": "THE ARCHIVE OPENS A ROOM"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-20T10:19:46.021Z"
+    },
+    {
       "id": "scheduled-sound-00079",
       "type": "SOUND",
       "status": "QUEUED",

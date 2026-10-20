@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00082",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "colossal-escalation",
+  "position": {
+    "x": 48,
+    "y": 37,
+    "z": 0
+  },
+  "camera": {
+    "x": 48,
+    "y": 37,
+    "z": 1.7,
+    "heading": 86,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "tyler",
+    "scale": 7.7,
+    "priorScale": 7.65,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 7.7,
+    "clearance": 0.1299,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "MASS WITHOUT AMNESIA"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "male-harem",
+      "name": "MALE HAREM"
+    },
+    {
+      "type": "region",
+      "id": "colossal-escalation",
+      "name": "COLOSSAL ESCALATION"
+    },
+    {
+      "type": "relation",
+      "title": "MASS WITHOUT AMNESIA"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 7.65,
+      "to": 7.7
+    },
+    {
+      "property": "location.regionId",
+      "from": "male-harem",
+      "to": "colossal-escalation",
+      "relation": "MASS WITHOUT AMNESIA"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1307,
+      "to": 0.1299
+    }
+  ],
+  "intent": "LONG PLAY / MALE HAREM → COLOSSAL ESCALATION / TYLER",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 82,
+    "previousRegionId": "male-harem",
+    "regionId": "colossal-escalation",
+    "relation": "MASS WITHOUT AMNESIA",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 7.65,
+    "scaleBaselineTo": 7.7
+  },
+  "timestamp": "2026-10-20T19:31:19.567Z"
+}

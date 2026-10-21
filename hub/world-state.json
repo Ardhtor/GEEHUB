@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00087.json",
+  "activeRecording": "./recordings/scheduled-recording-00088.json",
   "activeEncounter": {
-    "regionId": "embodied-scale",
-    "regionName": "EMBODIED SCALE",
+    "regionId": "facility",
+    "regionName": "THE FACILITY",
     "subject": {
-      "agent": "tyler",
-      "scale": 8.02,
+      "agent": "andrew",
+      "scale": 8.1,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / COLOSSAL ESCALATION → EMBODIED SCALE / TYLER",
+    "intent": "LONG PLAY / EMBODIED SCALE → THE FACILITY / ANDREW",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 7.97× → 8.02×",
-      "COLOSSAL ESCALATION → EMBODIED SCALE",
-      "relation: THE OLD WORLD FITS NO MORE",
+      "scale 8.02× → 8.10×",
+      "EMBODIED SCALE → THE FACILITY",
+      "relation: THE FLOOR REPLIES",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "colossal-escalation"
+    "previousRegionId": "embodied-scale"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-21T16:56:38.306Z",
+  "snapshot": "2026-10-21T20:31:01.420Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 87,
-    "agent": "tyler",
-    "previousRegionId": "colossal-escalation",
-    "regionId": "embodied-scale",
-    "relation": "THE OLD WORLD FITS NO MORE",
+    "cycle": 88,
+    "agent": "andrew",
+    "previousRegionId": "embodied-scale",
+    "regionId": "facility",
+    "relation": "THE FLOOR REPLIES",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 7.97,
-    "scale": 8.02,
-    "recording": "scheduled-recording-00087",
-    "at": "2026-10-21T16:56:38.306Z"
+    "previousScale": 8.02,
+    "scale": 8.1,
+    "recording": "scheduled-recording-00088",
+    "at": "2026-10-21T20:31:01.420Z"
   }
 }

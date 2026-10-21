@@ -1148,14 +1148,14 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
+      "pressure": 1,
       "memory": 0.97
     }
   ],
   "visits": {
     "complex": 6,
     "beefythiq": 5,
-    "facility": 6,
+    "facility": 7,
     "embodied-scale": 7,
     "luke-bwomph": 6,
     "growth": 6,
@@ -1170,7 +1170,7 @@
   "last_visits": {
     "complex": 51.5,
     "beefythiq": 50.5,
-    "facility": 49.5,
+    "facility": 70.5,
     "embodied-scale": 69.5,
     "luke-bwomph": 53.5,
     "growth": 52.5,
@@ -1182,7 +1182,7 @@
     "veyrthalis": 57.5,
     "bodylounger": 62.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 4,
@@ -1198,29 +1198,42 @@
     "index.html": 4
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "embodied-scale",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "facility",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 87,
-    "agent": "tyler",
-    "previous_region_id": "colossal-escalation",
-    "region_id": "embodied-scale",
-    "region_name": "EMBODIED SCALE",
-    "relation": "THE OLD WORLD FITS NO MORE",
+    "cycle": 88,
+    "agent": "andrew",
+    "previous_region_id": "embodied-scale",
+    "region_id": "facility",
+    "region_name": "THE FACILITY",
+    "relation": "THE FLOOR REPLIES",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 7.97,
-    "scale": 8.02,
-    "recording": "scheduled-recording-00087",
-    "at": "2026-10-21T16:56:38.306Z"
+    "previous_scale": 8.02,
+    "scale": 8.1,
+    "recording": "scheduled-recording-00088",
+    "at": "2026-10-21T20:31:01.420Z"
   },
-  "last_world_change": "2026-10-21T16:56:38.306Z",
-  "scale": 8.02,
+  "last_world_change": "2026-10-21T20:31:01.420Z",
+  "scale": 8.1,
   "external_events": [
+    {
+      "id": "long-play-00088",
+      "type": "CROSSING",
+      "title": "EMBODIED SCALE → THE FACILITY",
+      "body": "The world crossed \"THE FLOOR REPLIES\". Scale increased from 8.02× to 8.10×; the earlier location and baseline remain recorded.",
+      "from": "embodied-scale",
+      "to": "facility",
+      "previous_region_id": "embodied-scale",
+      "region_id": "facility",
+      "relation": "THE FLOOR REPLIES",
+      "source": "long-play",
+      "at": "2026-10-21T20:31:01.420Z"
+    },
     {
       "id": "long-play-00087",
       "type": "CROSSING",

@@ -885,3 +885,11 @@ SETH: A hand slides along the doorframe as the man turns sideways to pass. His f
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: research/embodied-scale/README.md. Pressure 1.00; memory 0.97.
+
+## THE FACILITY / pulse 71 / ATMOSPHERE
+
+SETH: The ventilation hum settles into a lower register. Blue light crosses the observation glass and shows the technician's reflection over the broad figure behind it.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: world.json. Pressure 1.00; memory 0.97.

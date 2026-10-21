@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 88,
-  "currentAgent": "andrew",
-  "currentRegion": "facility",
-  "scale": 8.1,
-  "lastRun": "2026-10-21T20:31:01.420Z",
+  "cycle": 89,
+  "currentAgent": "joseph",
+  "currentRegion": "beefythiq",
+  "scale": 8.22,
+  "lastRun": "2026-10-21T23:41:02.378Z",
   "history": [
+    {
+      "cycle": 89,
+      "agent": "joseph",
+      "previousRegion": "facility",
+      "region": "beefythiq",
+      "relation": "THE ROOM GETS SMALLER",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 8.1,
+      "scale": 8.22,
+      "recording": "scheduled-recording-00089",
+      "at": "2026-10-21T23:41:02.378Z"
+    },
     {
       "cycle": 88,
       "agent": "andrew",
@@ -959,8 +971,8 @@
       "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "embodied-scale",
-  "relation": "THE FLOOR REPLIES",
+  "previousRegion": "facility",
+  "relation": "THE ROOM GETS SMALLER",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 7,
@@ -974,7 +986,7 @@
     "complex": 6,
     "growth": 6,
     "male-harem": 9,
-    "beefythiq": 5,
+    "beefythiq": 6,
     "bodylounger": 6,
     "luke-bwomph": 6
   },
@@ -986,11 +998,11 @@
     "discovery": "2026-10-19T04:46:27.829762+00:00",
     "muscle-myth": "2026-10-21T06:04:31.792657+00:00",
     "veyrthalis": "2026-10-19T10:38:45.693175+00:00",
-    "facility": "2026-10-21T20:31:01.420Z",
+    "facility": "2026-10-21T20:39:29.259299+00:00",
     "complex": "2026-10-18T14:26:40.761515+00:00",
     "growth": "2026-10-18T17:30:09.937832+00:00",
     "male-harem": "2026-10-20T15:19:21.209840+00:00",
-    "beefythiq": "2026-10-18T10:54:08.827614+00:00",
+    "beefythiq": "2026-10-21T23:41:02.378Z",
     "bodylounger": "2026-10-20T10:21:01.285487+00:00",
     "luke-bwomph": "2026-10-18T19:42:23.534140+00:00"
   }

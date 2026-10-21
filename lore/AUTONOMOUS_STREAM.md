@@ -549,3 +549,11 @@ SETH: The ventilation hum settles into a lower register. Blue light crosses the 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 72 — ATMOSPHERE / BEEFYTHIQ / 2026-10-21T23:41:57.807909+00:00
+
+SETH: The floor answers a shift of weight with a low sound. A chair stays where it was while the distance between chair, doorway, and the man standing there acquires a different scale.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

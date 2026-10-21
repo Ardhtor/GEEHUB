@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00087",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "embodied-scale",
+  "position": {
+    "x": 64,
+    "y": 38,
+    "z": 0
+  },
+  "camera": {
+    "x": 64,
+    "y": 38,
+    "z": 1.7,
+    "heading": 201,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "tyler",
+    "scale": 8.02,
+    "priorScale": 7.97,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 8.02,
+    "clearance": 0.1247,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE OLD WORLD FITS NO MORE"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "colossal-escalation",
+      "name": "COLOSSAL ESCALATION"
+    },
+    {
+      "type": "region",
+      "id": "embodied-scale",
+      "name": "EMBODIED SCALE"
+    },
+    {
+      "type": "relation",
+      "title": "THE OLD WORLD FITS NO MORE"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 7.97,
+      "to": 8.02
+    },
+    {
+      "property": "location.regionId",
+      "from": "colossal-escalation",
+      "to": "embodied-scale",
+      "relation": "THE OLD WORLD FITS NO MORE"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1255,
+      "to": 0.1247
+    }
+  ],
+  "intent": "LONG PLAY / COLOSSAL ESCALATION → EMBODIED SCALE / TYLER",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 87,
+    "previousRegionId": "colossal-escalation",
+    "regionId": "embodied-scale",
+    "relation": "THE OLD WORLD FITS NO MORE",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 7.97,
+    "scaleBaselineTo": 8.02
+  },
+  "timestamp": "2026-10-21T16:56:38.306Z"
+}

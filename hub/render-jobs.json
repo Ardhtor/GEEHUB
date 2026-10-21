@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00087",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00087.json",
+      "route": {
+        "from": "colossal-escalation",
+        "to": "embodied-scale",
+        "relation": "THE OLD WORLD FITS NO MORE"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-21T16:56:38.306Z"
+    },
+    {
+      "id": "scheduled-video-00087",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00087.json",
+      "route": {
+        "from": "colossal-escalation",
+        "to": "embodied-scale",
+        "relation": "THE OLD WORLD FITS NO MORE"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-21T16:56:38.306Z"
+    },
+    {
+      "id": "scheduled-space-00087",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00087.json",
+      "route": {
+        "from": "colossal-escalation",
+        "to": "embodied-scale",
+        "relation": "THE OLD WORLD FITS NO MORE"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-21T16:56:38.306Z"
+    },
+    {
       "id": "scheduled-sound-00086",
       "type": "SOUND",
       "status": "QUEUED",

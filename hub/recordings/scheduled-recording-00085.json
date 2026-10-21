@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00085",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "muscle-myth",
+  "position": {
+    "x": 52,
+    "y": 84,
+    "z": 0
+  },
+  "camera": {
+    "x": 52,
+    "y": 84,
+    "z": 1.7,
+    "heading": 155,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "chase",
+    "scale": 7.94,
+    "priorScale": 7.9,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 7.94,
+    "clearance": 0.1259,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE CITY LEARNS HIS NAME"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "colossal-escalation",
+      "name": "COLOSSAL ESCALATION"
+    },
+    {
+      "type": "region",
+      "id": "muscle-myth",
+      "name": "MUSCLE MYTH"
+    },
+    {
+      "type": "relation",
+      "title": "THE CITY LEARNS HIS NAME"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 7.9,
+      "to": 7.94
+    },
+    {
+      "property": "location.regionId",
+      "from": "colossal-escalation",
+      "to": "muscle-myth",
+      "relation": "THE CITY LEARNS HIS NAME"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1266,
+      "to": 0.1259
+    }
+  ],
+  "intent": "LONG PLAY / COLOSSAL ESCALATION → MUSCLE MYTH / CHASE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 85,
+    "previousRegionId": "colossal-escalation",
+    "regionId": "muscle-myth",
+    "relation": "THE CITY LEARNS HIS NAME",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 7.9,
+    "scaleBaselineTo": 7.94
+  },
+  "timestamp": "2026-10-21T06:03:59.311Z"
+}

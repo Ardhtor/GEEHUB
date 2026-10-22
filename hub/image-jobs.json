@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00093",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00093.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "LUKE // BWOMPH → EMBODIED SCALE / ANDREW",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00093. Travel from LUKE // BWOMPH into EMBODIED SCALE through the relation \"THE BAR GYM REMEMBERS\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 8.34× to 8.42× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-10-22T17:59:38.356Z",
+      "lineage": {
+        "from": "luke-bwomph",
+        "to": "embodied-scale",
+        "relation": "THE BAR GYM REMEMBERS",
+        "cycle": 93
+      }
+    },
+    {
       "id": "scheduled-image-00092",
       "status": "QUEUED",
       "type": "IMAGE",

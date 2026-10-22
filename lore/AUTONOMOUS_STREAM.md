@@ -581,3 +581,11 @@ SETH: Luke stands in familiar bar-gym light, mirrors clouded at their edges and 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 76 — ATMOSPHERE / EMBODIED SCALE / 2026-10-22T18:01:05.385596+00:00
+
+SETH: A hand slides along the doorframe as the man turns sideways to pass. His face is familiar, but the shoulder now comes close enough to the jamb to catch a line of reflected light.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

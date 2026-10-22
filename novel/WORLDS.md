@@ -901,3 +901,11 @@ SETH: The floor answers a shift of weight with a low sound. A chair stays where 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: creative/luke-bwomph.json. Pressure 1.00; memory 0.97.
+
+## THE COMPLEX / pulse 73 / ATMOSPHERE
+
+SETH: The corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the sill, and sunlight reaches the wall where a doorway used to cast a narrower shadow.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: novel/REWRITTEN_OPENING.md. Pressure 1.00; memory 0.97.

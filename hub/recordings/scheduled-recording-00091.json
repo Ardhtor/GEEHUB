@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00091",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "growth",
+  "position": {
+    "x": 28,
+    "y": 56,
+    "z": 0
+  },
+  "camera": {
+    "x": 28,
+    "y": 56,
+    "z": 1.7,
+    "heading": 293,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 8.29,
+    "priorScale": 8.26,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 8.29,
+    "clearance": 0.1206,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "KISS = CONTINUITY"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "complex",
+      "name": "THE COMPLEX"
+    },
+    {
+      "type": "region",
+      "id": "growth",
+      "name": "GROWTH CANVAS"
+    },
+    {
+      "type": "relation",
+      "title": "KISS = CONTINUITY"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 8.26,
+      "to": 8.29
+    },
+    {
+      "property": "location.regionId",
+      "from": "complex",
+      "to": "growth",
+      "relation": "KISS = CONTINUITY"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1211,
+      "to": 0.1206
+    }
+  ],
+  "intent": "LONG PLAY / THE COMPLEX → GROWTH CANVAS / LUKE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 91,
+    "previousRegionId": "complex",
+    "regionId": "growth",
+    "relation": "KISS = CONTINUITY",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 8.26,
+    "scaleBaselineTo": 8.29
+  },
+  "timestamp": "2026-10-22T07:23:27.789Z"
+}

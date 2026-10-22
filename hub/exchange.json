@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-22T17:59:38.356Z",
+  "generated": "2026-10-22T21:28:48.840Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00094",
+      "at": "2026-10-22T21:28:48.840Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / EMBODIED SCALE → DISCOVERY / JOSEPH",
+      "body": "The world crossed the existing relation \"SCALE HAS HISTORY\" from EMBODIED SCALE into DISCOVERY. Scale increased from 8.42× to 8.54×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00094",
+      "live": true,
+      "regionId": "discovery",
+      "previousRegionId": "embodied-scale",
+      "relation": "SCALE HAS HISTORY"
+    },
     {
       "id": "scheduled-long-play-00093",
       "at": "2026-10-22T17:59:38.356Z",
@@ -1382,17 +1397,6 @@
       "type": "OFFER",
       "title": "concept -> image",
       "body": "A text or concept can become a visual prompt without leaving the shared space.",
-      "source": "interaction matrix",
-      "live": false
-    },
-    {
-      "id": "seed-cross-002",
-      "at": "2026-10-05T00:00:00Z",
-      "from": "visual-synthesis",
-      "to": "spatial-perception",
-      "type": "OFFER",
-      "title": "image -> space",
-      "body": "A generated image can become a spatial reference for scene construction and perception.",
       "source": "interaction matrix",
       "live": false
     }

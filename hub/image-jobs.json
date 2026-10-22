@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00092",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00092.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "GROWTH CANVAS → LUKE // BWOMPH / TYLER",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00092. Travel from GROWTH CANVAS into LUKE // BWOMPH through the relation \"HYPEER BASELINE\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 8.29× to 8.34× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-10-22T13:07:23.356Z",
+      "lineage": {
+        "from": "growth",
+        "to": "luke-bwomph",
+        "relation": "HYPEER BASELINE",
+        "cycle": 92
+      }
+    },
+    {
       "id": "scheduled-image-00091",
       "status": "QUEUED",
       "type": "IMAGE",

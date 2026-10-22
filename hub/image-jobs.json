@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00090",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00090.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "BEEFYTHIQ → THE COMPLEX / CHASE",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00090. Travel from BEEFYTHIQ into THE COMPLEX through the relation \"MASS BECOMES WEATHER\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 8.22× to 8.26× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-10-22T01:55:35.517Z",
+      "lineage": {
+        "from": "beefythiq",
+        "to": "complex",
+        "relation": "MASS BECOMES WEATHER",
+        "cycle": 90
+      }
+    },
+    {
       "id": "scheduled-image-00089",
       "status": "QUEUED",
       "type": "IMAGE",

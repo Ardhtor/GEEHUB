@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00098",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "growth",
+  "position": {
+    "x": 28,
+    "y": 56,
+    "z": 0
+  },
+  "camera": {
+    "x": 28,
+    "y": 56,
+    "z": 1.7,
+    "heading": 94,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 8.74,
+    "priorScale": 8.66,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 8.74,
+    "clearance": 0.1144,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "HYPEER BASELINE"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "luke-bwomph",
+      "name": "LUKE // BWOMPH"
+    },
+    {
+      "type": "region",
+      "id": "growth",
+      "name": "GROWTH CANVAS"
+    },
+    {
+      "type": "relation",
+      "title": "HYPEER BASELINE"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 8.66,
+      "to": 8.74
+    },
+    {
+      "property": "location.regionId",
+      "from": "luke-bwomph",
+      "to": "growth",
+      "relation": "HYPEER BASELINE"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1155,
+      "to": 0.1144
+    }
+  ],
+  "intent": "LONG PLAY / LUKE // BWOMPH → GROWTH CANVAS / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 98,
+    "previousRegionId": "luke-bwomph",
+    "regionId": "growth",
+    "relation": "HYPEER BASELINE",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 8.66,
+    "scaleBaselineTo": 8.74
+  },
+  "timestamp": "2026-10-23T14:48:09.380Z"
+}

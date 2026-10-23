@@ -1335,12 +1335,12 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
+      "pressure": 1,
       "memory": 0.97
     }
   ],
   "visits": {
-    "complex": 7,
+    "complex": 8,
     "beefythiq": 6,
     "facility": 7,
     "embodied-scale": 8,
@@ -1355,7 +1355,7 @@
     "bodylounger": 6
   },
   "last_visits": {
-    "complex": 72.5,
+    "complex": 81.5,
     "beefythiq": 71.5,
     "facility": 70.5,
     "embodied-scale": 75.5,
@@ -1369,7 +1369,7 @@
     "veyrthalis": 77.5,
     "bodylounger": 62.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 5,
@@ -1385,29 +1385,42 @@
     "index.html": 4
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "growth",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "complex",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 98,
-    "agent": "andrew",
-    "previous_region_id": "luke-bwomph",
-    "region_id": "growth",
-    "region_name": "GROWTH CANVAS",
-    "relation": "HYPEER BASELINE",
+    "cycle": 99,
+    "agent": "joseph",
+    "previous_region_id": "growth",
+    "region_id": "complex",
+    "region_name": "THE COMPLEX",
+    "relation": "KISS = CONTINUITY",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 8.66,
-    "scale": 8.74,
-    "recording": "scheduled-recording-00098",
-    "at": "2026-10-23T14:48:09.380Z"
+    "previous_scale": 8.74,
+    "scale": 8.86,
+    "recording": "scheduled-recording-00099",
+    "at": "2026-10-23T18:58:50.062Z"
   },
-  "last_world_change": "2026-10-23T14:48:09.380Z",
-  "scale": 8.74,
+  "last_world_change": "2026-10-23T18:58:50.062Z",
+  "scale": 8.86,
   "external_events": [
+    {
+      "id": "long-play-00099",
+      "type": "CROSSING",
+      "title": "GROWTH CANVAS → THE COMPLEX",
+      "body": "The world crossed \"KISS = CONTINUITY\". Scale increased from 8.74× to 8.86×; the earlier location and baseline remain recorded.",
+      "from": "growth",
+      "to": "complex",
+      "previous_region_id": "growth",
+      "region_id": "complex",
+      "relation": "KISS = CONTINUITY",
+      "source": "long-play",
+      "at": "2026-10-23T18:58:50.062Z"
+    },
     {
       "id": "long-play-00098",
       "type": "CROSSING",

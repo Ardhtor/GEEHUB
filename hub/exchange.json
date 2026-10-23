@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-23T00:07:43.002Z",
+  "generated": "2026-10-23T04:54:59.481Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00096",
+      "at": "2026-10-23T04:54:59.481Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / VEYRTHALIS → DEEP LORE / LUKE",
+      "body": "The world crossed the existing relation \"DEPARTURE LEAVES A SHAPE\" from VEYRTHALIS into DEEP LORE. Scale increased from 8.58× to 8.61×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00096",
+      "live": true,
+      "regionId": "deep-lore",
+      "previousRegionId": "veyrthalis",
+      "relation": "DEPARTURE LEAVES A SHAPE"
+    },
     {
       "id": "scheduled-long-play-00095",
       "at": "2026-10-23T00:07:43.002Z",
@@ -1391,17 +1406,6 @@
       "title": "Kirk / Perception in Real Time",
       "body": "The Blender repository arrives carrying a perceptual model where growth changes the room and the room becomes evidence.",
       "source": "Ardhtor/PgkKKGLu966",
-      "live": false
-    },
-    {
-      "id": "seed-linux-001",
-      "at": "2026-10-05T00:00:00Z",
-      "from": "linux-material",
-      "to": "geehub",
-      "type": "ARRIVAL",
-      "title": "Material Reference",
-      "body": "The media repository arrives carrying an image asset and a pointer to an external primary file.",
-      "source": "Ardhtor/LINUX_S",
       "live": false
     }
   ]

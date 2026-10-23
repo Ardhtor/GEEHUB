@@ -1,5 +1,5 @@
 {
-  "pulse": 79,
+  "pulse": 80,
   "events": [
     {
       "pulse": 1,
@@ -1303,6 +1303,23 @@
       "next_region": null,
       "pressure": 1,
       "memory": 0.97
+    },
+    {
+      "pulse": 80,
+      "time": "2026-10-23T10:08:28.917928+00:00",
+      "actor": "LUKE",
+      "world": "LUKE // BWOMPH",
+      "region_id": "luke-bwomph",
+      "previous_region_id": "luke-bwomph",
+      "phase": "ATMOSPHERE",
+      "source": "creative/luke-bwomph.json",
+      "desire_state": "attention",
+      "action": "SETH: Luke stands in familiar bar-gym light, mirrors clouded at their edges and chalk pressed into the rubber floor. His shoulders fill more of the tank top, while his face remains his own.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 0.97
     }
   ],
   "visits": {
@@ -1335,11 +1352,11 @@
     "veyrthalis": 77.5,
     "bodylounger": 62.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 5,
-    "creative/luke-bwomph.json": 10,
+    "creative/luke-bwomph.json": 11,
     "lore/DEEP_LORE.md": 9,
     "world.json": 9,
     "research/embodied-scale/README.md": 9,
@@ -1351,9 +1368,9 @@
     "index.html": 4
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "luke-bwomph",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

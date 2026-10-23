@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 96,
-  "currentAgent": "luke",
-  "currentRegion": "deep-lore",
-  "scale": 8.61,
-  "lastRun": "2026-10-23T04:54:59.481Z",
+  "cycle": 97,
+  "currentAgent": "tyler",
+  "currentRegion": "luke-bwomph",
+  "scale": 8.66,
+  "lastRun": "2026-10-23T09:50:31.974Z",
   "history": [
+    {
+      "cycle": 97,
+      "agent": "tyler",
+      "previousRegion": "deep-lore",
+      "region": "luke-bwomph",
+      "relation": "THE FACE REMAINS",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 8.61,
+      "scale": 8.66,
+      "recording": "scheduled-recording-00097",
+      "at": "2026-10-23T09:50:31.974Z"
+    },
     {
       "cycle": 96,
       "agent": "luke",
@@ -1055,8 +1067,8 @@
       "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "veyrthalis",
-  "relation": "DEPARTURE LEAVES A SHAPE",
+  "previousRegion": "deep-lore",
+  "relation": "THE FACE REMAINS",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 8,
@@ -1072,10 +1084,10 @@
     "male-harem": 9,
     "beefythiq": 6,
     "bodylounger": 6,
-    "luke-bwomph": 7
+    "luke-bwomph": 8
   },
   "lastRegionAt": {
-    "deep-lore": "2026-10-23T04:54:59.481Z",
+    "deep-lore": "2026-10-23T05:00:54.706186+00:00",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
     "colossal-escalation": "2026-10-21T11:55:46.159901+00:00",
     "embodied-scale": "2026-10-22T18:01:05.385596+00:00",
@@ -1088,6 +1100,6 @@
     "male-harem": "2026-10-20T15:19:21.209840+00:00",
     "beefythiq": "2026-10-21T23:41:57.807909+00:00",
     "bodylounger": "2026-10-20T10:21:01.285487+00:00",
-    "luke-bwomph": "2026-10-22T13:09:59.321816+00:00"
+    "luke-bwomph": "2026-10-23T09:50:31.974Z"
   }
 }

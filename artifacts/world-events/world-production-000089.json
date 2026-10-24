@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000089",
+  "created_at": "2026-10-24T19:50:10.629338+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ATMOSPHERE / VEYRTHALIS / lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+  "content": "SETH: Fog threads between amber trunks and softens the stone base of the Digitorium. Blue windows brighten one after another above wet steps, and the Procession remains quiet on its bridge.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+  "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 89,
+    "actor": "LUKE",
+    "world": "VEYRTHALIS",
+    "region_id": "veyrthalis",
+    "source": "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+    "phase": "ATMOSPHERE",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

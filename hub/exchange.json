@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-24T19:30:43.192Z",
+  "generated": "2026-10-24T21:56:00.367Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00107",
+      "at": "2026-10-24T21:56:00.367Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / VEYRTHALIS → DEEP LORE / TYLER",
+      "body": "The world crossed the existing relation \"DEPARTURE LEAVES A SHAPE\" from VEYRTHALIS into DEEP LORE. Scale increased from 9.25× to 9.30×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00107",
+      "live": true,
+      "regionId": "deep-lore",
+      "previousRegionId": "veyrthalis",
+      "relation": "DEPARTURE LEAVES A SHAPE"
+    },
     {
       "id": "scheduled-long-play-00106",
       "at": "2026-10-24T19:30:43.192Z",
@@ -1427,18 +1442,6 @@
       "body": "Scheduled play inherited the world and advanced scale from 2.90× to 2.98×. A spatial recording and renderer jobs were created.",
       "source": "GEEHUB scheduled runner",
       "artifact": "scheduled-recording-00008",
-      "live": true
-    },
-    {
-      "id": "scheduled-long-play-00007",
-      "at": "2026-10-06T19:33:36.979Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / VEY RTHALIS / TYLER",
-      "body": "Scheduled play inherited the world and advanced scale from 2.85× to 2.90×. A spatial recording and renderer jobs were created.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00007",
       "live": true
     }
   ]

@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 106,
-  "currentAgent": "luke",
-  "currentRegion": "veyrthalis",
-  "scale": 9.25,
-  "lastRun": "2026-10-24T19:30:43.192Z",
+  "cycle": 107,
+  "currentAgent": "tyler",
+  "currentRegion": "deep-lore",
+  "scale": 9.3,
+  "lastRun": "2026-10-24T21:56:00.367Z",
   "history": [
+    {
+      "cycle": 107,
+      "agent": "tyler",
+      "previousRegion": "veyrthalis",
+      "region": "deep-lore",
+      "relation": "DEPARTURE LEAVES A SHAPE",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 9.25,
+      "scale": 9.3,
+      "recording": "scheduled-recording-00107",
+      "at": "2026-10-24T21:56:00.367Z"
+    },
     {
       "cycle": 106,
       "agent": "luke",
@@ -1117,21 +1129,13 @@
       "scale": 2.98,
       "recording": "scheduled-recording-00008",
       "at": "2026-10-06T23:18:00.949Z"
-    },
-    {
-      "cycle": 7,
-      "agent": "tyler",
-      "region": "veyrthalis",
-      "scale": 2.9,
-      "recording": "scheduled-recording-00007",
-      "at": "2026-10-06T19:33:36.979Z"
     }
   ],
-  "previousRegion": "discovery",
-  "relation": "THE DOOR REMEMBERS",
+  "previousRegion": "veyrthalis",
+  "relation": "DEPARTURE LEAVES A SHAPE",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
-    "deep-lore": 8,
+    "deep-lore": 9,
     "kingdom-land": 2,
     "colossal-escalation": 9,
     "embodied-scale": 9,
@@ -1147,13 +1151,13 @@
     "luke-bwomph": 8
   },
   "lastRegionAt": {
-    "deep-lore": "2026-10-23T05:00:54.706186+00:00",
+    "deep-lore": "2026-10-24T21:56:00.367Z",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
     "colossal-escalation": "2026-10-21T11:55:46.159901+00:00",
     "embodied-scale": "2026-10-24T14:23:55.031288+00:00",
     "discovery": "2026-10-24T17:32:28.100586+00:00",
     "muscle-myth": "2026-10-21T06:04:31.792657+00:00",
-    "veyrthalis": "2026-10-24T19:30:43.192Z",
+    "veyrthalis": "2026-10-24T19:50:10.629338+00:00",
     "facility": "2026-10-24T10:46:30.622340+00:00",
     "complex": "2026-10-23T19:17:59.943393+00:00",
     "growth": "2026-10-23T15:08:07.871227+00:00",

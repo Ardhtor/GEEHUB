@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 100,
-  "currentAgent": "chase",
-  "currentRegion": "beefythiq",
-  "scale": 8.9,
-  "lastRun": "2026-10-23T22:00:56.151Z",
+  "cycle": 101,
+  "currentAgent": "luke",
+  "currentRegion": "facility",
+  "scale": 8.93,
+  "lastRun": "2026-10-24T00:44:25.844Z",
   "history": [
+    {
+      "cycle": 101,
+      "agent": "luke",
+      "previousRegion": "beefythiq",
+      "region": "facility",
+      "relation": "THE ROOM GETS SMALLER",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 8.9,
+      "scale": 8.93,
+      "recording": "scheduled-recording-00101",
+      "at": "2026-10-24T00:44:25.844Z"
+    },
     {
       "cycle": 100,
       "agent": "chase",
@@ -1093,18 +1105,10 @@
       "scale": 2.58,
       "recording": "scheduled-recording-00002",
       "at": "2026-10-05T09:32:56.651Z"
-    },
-    {
-      "cycle": 1,
-      "agent": "luke",
-      "region": "bodylounger",
-      "scale": 2.53,
-      "recording": "scheduled-recording-00001",
-      "at": "2026-10-05T02:26:05.874Z"
     }
   ],
-  "previousRegion": "complex",
-  "relation": "MASS BECOMES WEATHER",
+  "previousRegion": "beefythiq",
+  "relation": "THE ROOM GETS SMALLER",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 8,
@@ -1114,7 +1118,7 @@
     "discovery": 7,
     "muscle-myth": 6,
     "veyrthalis": 7,
-    "facility": 7,
+    "facility": 8,
     "complex": 8,
     "growth": 8,
     "male-harem": 9,
@@ -1130,11 +1134,11 @@
     "discovery": "2026-10-22T21:40:02.667094+00:00",
     "muscle-myth": "2026-10-21T06:04:31.792657+00:00",
     "veyrthalis": "2026-10-23T00:12:03.281613+00:00",
-    "facility": "2026-10-21T20:39:29.259299+00:00",
+    "facility": "2026-10-24T00:44:25.844Z",
     "complex": "2026-10-23T19:17:59.943393+00:00",
     "growth": "2026-10-23T15:08:07.871227+00:00",
     "male-harem": "2026-10-20T15:19:21.209840+00:00",
-    "beefythiq": "2026-10-23T22:00:56.151Z",
+    "beefythiq": "2026-10-23T22:32:35.445882+00:00",
     "bodylounger": "2026-10-20T10:21:01.285487+00:00",
     "luke-bwomph": "2026-10-23T10:08:28.917928+00:00"
   }

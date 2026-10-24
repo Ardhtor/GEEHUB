@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-23T22:00:56.151Z",
+  "generated": "2026-10-24T00:44:25.844Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00101",
+      "at": "2026-10-24T00:44:25.844Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / BEEFYTHIQ → THE FACILITY / LUKE",
+      "body": "The world crossed the existing relation \"THE ROOM GETS SMALLER\" from BEEFYTHIQ into THE FACILITY. Scale increased from 8.90× to 8.93×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00101",
+      "live": true,
+      "regionId": "facility",
+      "previousRegionId": "beefythiq",
+      "relation": "THE ROOM GETS SMALLER"
+    },
     {
       "id": "scheduled-long-play-00100",
       "at": "2026-10-23T22:00:56.151Z",
@@ -1409,18 +1424,6 @@
       "body": "Scheduled play inherited the world and advanced scale from 2.53× to 2.58×. A spatial recording and renderer jobs were created.",
       "source": "GEEHUB scheduled runner",
       "artifact": "scheduled-recording-00002",
-      "live": true
-    },
-    {
-      "id": "scheduled-long-play-00001",
-      "at": "2026-10-05T02:26:05.874Z",
-      "from": "geehub-long-play",
-      "to": "luke",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / BODYLOUNGER / LUKE",
-      "body": "Scheduled play inherited the world and advanced scale from 2.50× to 2.53×. A spatial recording and renderer jobs were created.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00001",
       "live": true
     }
   ]

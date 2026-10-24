@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 101,
-  "currentAgent": "luke",
-  "currentRegion": "facility",
-  "scale": 8.93,
-  "lastRun": "2026-10-24T00:44:25.844Z",
+  "cycle": 102,
+  "currentAgent": "tyler",
+  "currentRegion": "beefythiq",
+  "scale": 8.98,
+  "lastRun": "2026-10-24T05:06:48.649Z",
   "history": [
+    {
+      "cycle": 102,
+      "agent": "tyler",
+      "previousRegion": "facility",
+      "region": "beefythiq",
+      "relation": "THE ROOM GETS SMALLER",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 8.93,
+      "scale": 8.98,
+      "recording": "scheduled-recording-00102",
+      "at": "2026-10-24T05:06:48.649Z"
+    },
     {
       "cycle": 101,
       "agent": "luke",
@@ -1097,17 +1109,9 @@
       "scale": 2.66,
       "recording": "scheduled-recording-00003",
       "at": "2026-10-05T18:51:01.299Z"
-    },
-    {
-      "cycle": 2,
-      "agent": "tyler",
-      "region": "beefythiq",
-      "scale": 2.58,
-      "recording": "scheduled-recording-00002",
-      "at": "2026-10-05T09:32:56.651Z"
     }
   ],
-  "previousRegion": "beefythiq",
+  "previousRegion": "facility",
   "relation": "THE ROOM GETS SMALLER",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
@@ -1122,7 +1126,7 @@
     "complex": 8,
     "growth": 8,
     "male-harem": 9,
-    "beefythiq": 7,
+    "beefythiq": 8,
     "bodylounger": 6,
     "luke-bwomph": 8
   },
@@ -1134,11 +1138,11 @@
     "discovery": "2026-10-22T21:40:02.667094+00:00",
     "muscle-myth": "2026-10-21T06:04:31.792657+00:00",
     "veyrthalis": "2026-10-23T00:12:03.281613+00:00",
-    "facility": "2026-10-24T00:44:25.844Z",
+    "facility": "2026-10-24T01:09:46.484273+00:00",
     "complex": "2026-10-23T19:17:59.943393+00:00",
     "growth": "2026-10-23T15:08:07.871227+00:00",
     "male-harem": "2026-10-20T15:19:21.209840+00:00",
-    "beefythiq": "2026-10-23T22:32:35.445882+00:00",
+    "beefythiq": "2026-10-24T05:06:48.649Z",
     "bodylounger": "2026-10-20T10:21:01.285487+00:00",
     "luke-bwomph": "2026-10-23T10:08:28.917928+00:00"
   }

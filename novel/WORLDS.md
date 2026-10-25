@@ -1053,3 +1053,11 @@ SETH: Luke stands in familiar bar-gym light, mirrors clouded at their edges and 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: creative/luke-bwomph.json. Pressure 1.00; memory 0.97.
+
+## GROWTH CANVAS / pulse 92 / ATMOSPHERE
+
+SETH: Cool blue light moves along the wall and catches the shoulder line of a familiar silhouette. The bench and floor markings remain still while the body occupies more of the frame.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: research/embodied-scale/README.md. Pressure 1.00; memory 0.97.

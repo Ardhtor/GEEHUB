@@ -1876,6 +1876,27 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue the retained world state"
+    },
+    {
+      "id": "world-production-000092",
+      "created_at": "2026-10-25T05:12:19.202907+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / GROWTH CANVAS / research/embodied-scale/README.md",
+      "content": "SETH: Cool blue light moves along the wall and catches the shoulder line of a familiar silhouette. The bench and floor markings remain still while the body occupies more of the frame.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 92,
+        "actor": "LUKE",
+        "world": "GROWTH CANVAS",
+        "region_id": "growth",
+        "source": "research/embodied-scale/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
     }
   ]
 }

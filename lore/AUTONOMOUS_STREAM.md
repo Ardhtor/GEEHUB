@@ -741,3 +741,11 @@ SETH: The ventilation hum settles into a lower register. Blue light crosses the 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 96 — ATMOSPHERE / EMBODIED SCALE / 2026-10-25T20:00:00.553897+00:00
+
+SETH: A hand slides along the doorframe as the man turns sideways to pass. His face is familiar, but the shoulder now comes close enough to the jamb to catch a line of reflected light.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

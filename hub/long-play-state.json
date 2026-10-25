@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 108,
-  "currentAgent": "andrew",
-  "currentRegion": "luke-bwomph",
-  "scale": 9.38,
-  "lastRun": "2026-10-25T00:10:31.055Z",
+  "cycle": 109,
+  "currentAgent": "joseph",
+  "currentRegion": "growth",
+  "scale": 9.5,
+  "lastRun": "2026-10-25T04:46:44.400Z",
   "history": [
+    {
+      "cycle": 109,
+      "agent": "joseph",
+      "previousRegion": "luke-bwomph",
+      "region": "growth",
+      "relation": "HYPEER BASELINE",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 9.38,
+      "scale": 9.5,
+      "recording": "scheduled-recording-00109",
+      "at": "2026-10-25T04:46:44.400Z"
+    },
     {
       "cycle": 108,
       "agent": "andrew",
@@ -1125,18 +1137,10 @@
       "scale": 3.14,
       "recording": "scheduled-recording-00010",
       "at": "2026-10-07T09:19:55.313Z"
-    },
-    {
-      "cycle": 9,
-      "agent": "joseph",
-      "region": "discovery",
-      "scale": 3.1,
-      "recording": "scheduled-recording-00009",
-      "at": "2026-10-07T02:38:04.282Z"
     }
   ],
-  "previousRegion": "deep-lore",
-  "relation": "THE FACE REMAINS",
+  "previousRegion": "luke-bwomph",
+  "relation": "HYPEER BASELINE",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 9,
@@ -1148,7 +1152,7 @@
     "veyrthalis": 8,
     "facility": 9,
     "complex": 8,
-    "growth": 8,
+    "growth": 9,
     "male-harem": 9,
     "beefythiq": 8,
     "bodylounger": 6,
@@ -1164,10 +1168,10 @@
     "veyrthalis": "2026-10-24T19:50:10.629338+00:00",
     "facility": "2026-10-24T10:46:30.622340+00:00",
     "complex": "2026-10-23T19:17:59.943393+00:00",
-    "growth": "2026-10-23T15:08:07.871227+00:00",
+    "growth": "2026-10-25T04:46:44.400Z",
     "male-harem": "2026-10-20T15:19:21.209840+00:00",
     "beefythiq": "2026-10-24T05:56:40.051038+00:00",
     "bodylounger": "2026-10-20T10:21:01.285487+00:00",
-    "luke-bwomph": "2026-10-25T00:10:31.055Z"
+    "luke-bwomph": "2026-10-25T00:28:53.015758+00:00"
   }
 }

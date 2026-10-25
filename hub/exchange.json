@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-25T09:39:28.459Z",
+  "generated": "2026-10-25T13:56:11.018Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00111",
+      "at": "2026-10-25T13:56:11.018Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / THE COMPLEX → BEEFYTHIQ / LUKE",
+      "body": "The world crossed the existing relation \"MASS BECOMES WEATHER\" from THE COMPLEX into BEEFYTHIQ. Scale increased from 9.54× to 9.57×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00111",
+      "live": true,
+      "regionId": "beefythiq",
+      "previousRegionId": "complex",
+      "relation": "MASS BECOMES WEATHER"
+    },
     {
       "id": "scheduled-long-play-00110",
       "at": "2026-10-25T09:39:28.459Z",
@@ -1439,18 +1454,6 @@
       "body": "Scheduled play inherited the world and advanced scale from 3.17× to 3.22×. A spatial recording and renderer jobs were created.",
       "source": "GEEHUB scheduled runner",
       "artifact": "scheduled-recording-00012",
-      "live": true
-    },
-    {
-      "id": "scheduled-long-play-00011",
-      "at": "2026-10-07T16:49:28.969Z",
-      "from": "geehub-long-play",
-      "to": "luke",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / COLOSSAL ESCALATION / LUKE",
-      "body": "Scheduled play inherited the world and advanced scale from 3.14× to 3.17×. A spatial recording and renderer jobs were created.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00011",
       "live": true
     }
   ]

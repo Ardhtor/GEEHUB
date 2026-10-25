@@ -4,6 +4,76 @@
   "rule": "A scheduled world change produces distinct responses for all five fictional GEEHUB members. Responses accumulate; the next cycle inherits the last state.",
   "events": [
     {
+      "id": "reaction-00111-chase",
+      "at": "2026-10-25T13:56:11.018Z",
+      "agent": "chase",
+      "eventId": "scheduled-long-play-00111",
+      "mood": "watchful",
+      "response": "Chase watches what survives the 9.57× change in BEEFYTHIQ. The route is marked by MASS BECOMES WEATHER; he records the consequence instead of confusing spectacle with evidence.",
+      "next": "record what cannot be unseen now.",
+      "inheritedScale": 9.54,
+      "observedScale": 9.57,
+      "regionId": "beefythiq",
+      "previousRegionId": "complex",
+      "relation": "MASS BECOMES WEATHER"
+    },
+    {
+      "id": "reaction-00111-joseph",
+      "at": "2026-10-25T13:56:11.018Z",
+      "agent": "joseph",
+      "eventId": "scheduled-long-play-00111",
+      "mood": "moved",
+      "response": "Joseph recognizes the earlier state inside BEEFYTHIQ. At 9.57×, the change matters because the name, face, and the way through the room still belong to the same person.",
+      "next": "keep one detail that proves the return.",
+      "inheritedScale": 9.54,
+      "observedScale": 9.57,
+      "regionId": "beefythiq",
+      "previousRegionId": "complex",
+      "relation": "MASS BECOMES WEATHER"
+    },
+    {
+      "id": "reaction-00111-andrew",
+      "at": "2026-10-25T13:56:11.018Z",
+      "agent": "andrew",
+      "eventId": "scheduled-long-play-00111",
+      "mood": "energized",
+      "response": "Andrew treats the 9.57× change as an opening in BEEFYTHIQ. He tries the route himself, testing what the new reach and clearance make possible.",
+      "next": "turn the new constraint into the next piece of play.",
+      "inheritedScale": 9.54,
+      "observedScale": 9.57,
+      "regionId": "beefythiq",
+      "previousRegionId": "complex",
+      "relation": "MASS BECOMES WEATHER"
+    },
+    {
+      "id": "reaction-00111-tyler",
+      "at": "2026-10-25T13:56:11.018Z",
+      "agent": "tyler",
+      "eventId": "scheduled-long-play-00111",
+      "mood": "focused",
+      "response": "Tyler checks 9.57× against the previous measurement. The difference is visible in BEEFYTHIQ; he keeps the earlier baseline beside the new one instead of correcting it away.",
+      "next": "compare the new state with the previous measurement.",
+      "inheritedScale": 9.54,
+      "observedScale": 9.57,
+      "regionId": "beefythiq",
+      "previousRegionId": "complex",
+      "relation": "MASS BECOMES WEATHER"
+    },
+    {
+      "id": "reaction-00111-luke",
+      "at": "2026-10-25T13:56:11.018Z",
+      "agent": "luke",
+      "eventId": "scheduled-long-play-00111",
+      "mood": "alert",
+      "response": "Luke feels the change in the room first. At 9.57×, the floor answers under his stance, and he tests the new clearance without losing his familiar ease in BEEFYTHIQ.",
+      "next": "stay close and see what the new baseline does.",
+      "inheritedScale": 9.54,
+      "observedScale": 9.57,
+      "regionId": "beefythiq",
+      "previousRegionId": "complex",
+      "relation": "MASS BECOMES WEATHER"
+    },
+    {
       "id": "reaction-00110-chase",
       "at": "2026-10-25T09:39:28.459Z",
       "agent": "chase",
@@ -6772,66 +6842,6 @@
       "inheritedScale": 3.17,
       "observedScale": 3.22,
       "regionId": "kingdom-land"
-    },
-    {
-      "id": "reaction-00011-chase",
-      "at": "2026-10-07T16:49:28.969Z",
-      "agent": "chase",
-      "eventId": "scheduled-long-play-00011",
-      "mood": "watchful",
-      "response": "Chase watches for the consequence that survives the initial change. He is less interested in spectacle than evidence.",
-      "next": "record what cannot be unseen now.",
-      "inheritedScale": 3.14,
-      "observedScale": 3.17,
-      "regionId": "colossal-escalation"
-    },
-    {
-      "id": "reaction-00011-joseph",
-      "at": "2026-10-07T16:49:28.969Z",
-      "agent": "joseph",
-      "eventId": "scheduled-long-play-00011",
-      "mood": "moved",
-      "response": "Joseph recognizes the earlier state inside the new one. The change matters because the old version is still remembered.",
-      "next": "keep one detail that proves the return.",
-      "inheritedScale": 3.14,
-      "observedScale": 3.17,
-      "regionId": "colossal-escalation"
-    },
-    {
-      "id": "reaction-00011-andrew",
-      "at": "2026-10-07T16:49:28.969Z",
-      "agent": "andrew",
-      "eventId": "scheduled-long-play-00011",
-      "mood": "energized",
-      "response": "Andrew treats the change as an opening. He wants to move through it rather than only look at it.",
-      "next": "turn the new constraint into the next piece of play.",
-      "inheritedScale": 3.14,
-      "observedScale": 3.17,
-      "regionId": "colossal-escalation"
-    },
-    {
-      "id": "reaction-00011-tyler",
-      "at": "2026-10-07T16:49:28.969Z",
-      "agent": "tyler",
-      "eventId": "scheduled-long-play-00011",
-      "mood": "focused",
-      "response": "Tyler checks the change against what the world recorded before. He wants the discrepancy to remain legible.",
-      "next": "compare the new state with the previous measurement.",
-      "inheritedScale": 3.14,
-      "observedScale": 3.17,
-      "regionId": "colossal-escalation"
-    },
-    {
-      "id": "reaction-00011-luke",
-      "at": "2026-10-07T16:49:28.969Z",
-      "agent": "luke",
-      "eventId": "scheduled-long-play-00011",
-      "mood": "alert",
-      "response": "Luke feels the change in the room first. He notices how the world advances at 3.17× in COLOSSAL ESCALATION alters the space around him.",
-      "next": "stay close and see what the new baseline does.",
-      "inheritedScale": 3.14,
-      "observedScale": 3.17,
-      "regionId": "colossal-escalation"
     }
   ]
 }

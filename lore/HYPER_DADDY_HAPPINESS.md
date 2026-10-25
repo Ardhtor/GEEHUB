@@ -53,3 +53,8 @@ Before accepting a GEEHUB output, ask:
 5. Does the result create a new baseline that can be revisited and developed?
 
 If it only makes a man bigger, it is incomplete. If it makes his happiness consequential, GEEHUB is working.
+
+
+## Recognition principle
+
+Masculine recognition is the social seed of hypermasculine expansion. Men notice one another through specific expressions, posture, timing, familiarity, admiration, rivalry, affection, and curiosity. The encounter begins before explanation: *there you are*. Daddy happiness is one powerful expression of this recognition—the pleasure of seeing another man and making room for him to flourish. Each encounter can become a relationship, ritual, memory, and new world-state. See [Male Recognition Engine](MALE_RECOGNITION_ENGINE.md) for the recursive system.

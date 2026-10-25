@@ -4,6 +4,76 @@
   "rule": "A scheduled world change produces distinct responses for all five fictional GEEHUB members. Responses accumulate; the next cycle inherits the last state.",
   "events": [
     {
+      "id": "reaction-00114-chase",
+      "at": "2026-10-25T22:28:29.844Z",
+      "agent": "chase",
+      "eventId": "scheduled-long-play-00114",
+      "mood": "watchful",
+      "response": "Chase watches what survives the 9.82× change in DISCOVERY. The route is marked by SCALE HAS HISTORY; he records the consequence instead of confusing spectacle with evidence.",
+      "next": "record what cannot be unseen now.",
+      "inheritedScale": 9.7,
+      "observedScale": 9.82,
+      "regionId": "discovery",
+      "previousRegionId": "embodied-scale",
+      "relation": "SCALE HAS HISTORY"
+    },
+    {
+      "id": "reaction-00114-joseph",
+      "at": "2026-10-25T22:28:29.844Z",
+      "agent": "joseph",
+      "eventId": "scheduled-long-play-00114",
+      "mood": "moved",
+      "response": "Joseph recognizes the earlier state inside DISCOVERY. At 9.82×, the change matters because the name, face, and the way through the room still belong to the same person.",
+      "next": "keep one detail that proves the return.",
+      "inheritedScale": 9.7,
+      "observedScale": 9.82,
+      "regionId": "discovery",
+      "previousRegionId": "embodied-scale",
+      "relation": "SCALE HAS HISTORY"
+    },
+    {
+      "id": "reaction-00114-andrew",
+      "at": "2026-10-25T22:28:29.844Z",
+      "agent": "andrew",
+      "eventId": "scheduled-long-play-00114",
+      "mood": "energized",
+      "response": "Andrew treats the 9.82× change as an opening in DISCOVERY. He tries the route himself, testing what the new reach and clearance make possible.",
+      "next": "turn the new constraint into the next piece of play.",
+      "inheritedScale": 9.7,
+      "observedScale": 9.82,
+      "regionId": "discovery",
+      "previousRegionId": "embodied-scale",
+      "relation": "SCALE HAS HISTORY"
+    },
+    {
+      "id": "reaction-00114-tyler",
+      "at": "2026-10-25T22:28:29.844Z",
+      "agent": "tyler",
+      "eventId": "scheduled-long-play-00114",
+      "mood": "focused",
+      "response": "Tyler checks 9.82× against the previous measurement. The difference is visible in DISCOVERY; he keeps the earlier baseline beside the new one instead of correcting it away.",
+      "next": "compare the new state with the previous measurement.",
+      "inheritedScale": 9.7,
+      "observedScale": 9.82,
+      "regionId": "discovery",
+      "previousRegionId": "embodied-scale",
+      "relation": "SCALE HAS HISTORY"
+    },
+    {
+      "id": "reaction-00114-luke",
+      "at": "2026-10-25T22:28:29.844Z",
+      "agent": "luke",
+      "eventId": "scheduled-long-play-00114",
+      "mood": "alert",
+      "response": "Luke feels the change in the room first. At 9.82×, the floor answers under his stance, and he tests the new clearance without losing his familiar ease in DISCOVERY.",
+      "next": "stay close and see what the new baseline does.",
+      "inheritedScale": 9.7,
+      "observedScale": 9.82,
+      "regionId": "discovery",
+      "previousRegionId": "embodied-scale",
+      "relation": "SCALE HAS HISTORY"
+    },
+    {
       "id": "reaction-00113-chase",
       "at": "2026-10-25T19:59:11.425Z",
       "agent": "chase",
@@ -6802,66 +6872,6 @@
       "inheritedScale": 3.42,
       "observedScale": 3.46,
       "regionId": "bodylounger"
-    },
-    {
-      "id": "reaction-00014-chase",
-      "at": "2026-10-08T08:00:57.619Z",
-      "agent": "chase",
-      "eventId": "scheduled-long-play-00014",
-      "mood": "watchful",
-      "response": "Chase watches for the consequence that survives the initial change. He is less interested in spectacle than evidence.",
-      "next": "record what cannot be unseen now.",
-      "inheritedScale": 3.3,
-      "observedScale": 3.42,
-      "regionId": "luke-bwomph"
-    },
-    {
-      "id": "reaction-00014-joseph",
-      "at": "2026-10-08T08:00:57.619Z",
-      "agent": "joseph",
-      "eventId": "scheduled-long-play-00014",
-      "mood": "moved",
-      "response": "Joseph recognizes the earlier state inside the new one. The change matters because the old version is still remembered.",
-      "next": "keep one detail that proves the return.",
-      "inheritedScale": 3.3,
-      "observedScale": 3.42,
-      "regionId": "luke-bwomph"
-    },
-    {
-      "id": "reaction-00014-andrew",
-      "at": "2026-10-08T08:00:57.619Z",
-      "agent": "andrew",
-      "eventId": "scheduled-long-play-00014",
-      "mood": "energized",
-      "response": "Andrew treats the change as an opening. He wants to move through it rather than only look at it.",
-      "next": "turn the new constraint into the next piece of play.",
-      "inheritedScale": 3.3,
-      "observedScale": 3.42,
-      "regionId": "luke-bwomph"
-    },
-    {
-      "id": "reaction-00014-tyler",
-      "at": "2026-10-08T08:00:57.619Z",
-      "agent": "tyler",
-      "eventId": "scheduled-long-play-00014",
-      "mood": "focused",
-      "response": "Tyler checks the change against what the world recorded before. He wants the discrepancy to remain legible.",
-      "next": "compare the new state with the previous measurement.",
-      "inheritedScale": 3.3,
-      "observedScale": 3.42,
-      "regionId": "luke-bwomph"
-    },
-    {
-      "id": "reaction-00014-luke",
-      "at": "2026-10-08T08:00:57.619Z",
-      "agent": "luke",
-      "eventId": "scheduled-long-play-00014",
-      "mood": "alert",
-      "response": "Luke feels the change in the room first. He notices how the world advances at 3.42× in LUKE // BWOMPH alters the space around him.",
-      "next": "stay close and see what the new baseline does.",
-      "inheritedScale": 3.3,
-      "observedScale": 3.42,
-      "regionId": "luke-bwomph"
     }
   ]
 }

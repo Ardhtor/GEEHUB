@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00113.json",
+  "activeRecording": "./recordings/scheduled-recording-00114.json",
   "activeEncounter": {
-    "regionId": "embodied-scale",
-    "regionName": "EMBODIED SCALE",
+    "regionId": "discovery",
+    "regionName": "DISCOVERY",
     "subject": {
-      "agent": "andrew",
-      "scale": 9.7,
+      "agent": "joseph",
+      "scale": 9.82,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / THE FACILITY → EMBODIED SCALE / ANDREW",
+    "intent": "LONG PLAY / EMBODIED SCALE → DISCOVERY / JOSEPH",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 9.62× → 9.70×",
-      "THE FACILITY → EMBODIED SCALE",
-      "relation: THE FLOOR REPLIES",
+      "scale 9.70× → 9.82×",
+      "EMBODIED SCALE → DISCOVERY",
+      "relation: SCALE HAS HISTORY",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "facility"
+    "previousRegionId": "embodied-scale"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-25T19:59:11.425Z",
+  "snapshot": "2026-10-25T22:28:29.844Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 113,
-    "agent": "andrew",
-    "previousRegionId": "facility",
-    "regionId": "embodied-scale",
-    "relation": "THE FLOOR REPLIES",
+    "cycle": 114,
+    "agent": "joseph",
+    "previousRegionId": "embodied-scale",
+    "regionId": "discovery",
+    "relation": "SCALE HAS HISTORY",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 9.62,
-    "scale": 9.7,
-    "recording": "scheduled-recording-00113",
-    "at": "2026-10-25T19:59:11.425Z"
+    "previousScale": 9.7,
+    "scale": 9.82,
+    "recording": "scheduled-recording-00114",
+    "at": "2026-10-25T22:28:29.844Z"
   }
 }

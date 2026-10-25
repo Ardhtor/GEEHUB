@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00113",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "embodied-scale",
+  "position": {
+    "x": 64,
+    "y": 38,
+    "z": 0
+  },
+  "camera": {
+    "x": 64,
+    "y": 38,
+    "z": 1.7,
+    "heading": 79,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 9.7,
+    "priorScale": 9.62,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 9.7,
+    "clearance": 0.1031,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE FLOOR REPLIES"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "facility",
+      "name": "THE FACILITY"
+    },
+    {
+      "type": "region",
+      "id": "embodied-scale",
+      "name": "EMBODIED SCALE"
+    },
+    {
+      "type": "relation",
+      "title": "THE FLOOR REPLIES"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 9.62,
+      "to": 9.7
+    },
+    {
+      "property": "location.regionId",
+      "from": "facility",
+      "to": "embodied-scale",
+      "relation": "THE FLOOR REPLIES"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.104,
+      "to": 0.1031
+    }
+  ],
+  "intent": "LONG PLAY / THE FACILITY → EMBODIED SCALE / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 113,
+    "previousRegionId": "facility",
+    "regionId": "embodied-scale",
+    "relation": "THE FLOOR REPLIES",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 9.62,
+    "scaleBaselineTo": 9.7
+  },
+  "timestamp": "2026-10-25T19:59:11.425Z"
+}

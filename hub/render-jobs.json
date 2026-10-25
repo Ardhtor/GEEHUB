@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00108",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00108.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "luke-bwomph",
+        "relation": "THE FACE REMAINS"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-25T00:10:31.055Z"
+    },
+    {
+      "id": "scheduled-video-00108",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00108.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "luke-bwomph",
+        "relation": "THE FACE REMAINS"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-25T00:10:31.055Z"
+    },
+    {
+      "id": "scheduled-space-00108",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00108.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "luke-bwomph",
+        "relation": "THE FACE REMAINS"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-25T00:10:31.055Z"
+    },
+    {
       "id": "scheduled-sound-00107",
       "type": "SOUND",
       "status": "QUEUED",
@@ -3873,33 +3915,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-07T02:38:04.282Z"
-    },
-    {
-      "id": "scheduled-sound-00008",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00008.json",
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-06T23:18:00.949Z"
-    },
-    {
-      "id": "scheduled-video-00008",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00008.json",
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-06T23:18:00.949Z"
-    },
-    {
-      "id": "scheduled-space-00008",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00008.json",
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-06T23:18:00.949Z"
     }
   ]
 }

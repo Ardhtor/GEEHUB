@@ -1918,6 +1918,27 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue the retained world state"
+    },
+    {
+      "id": "world-production-000094",
+      "created_at": "2026-10-25T14:12:47.595583+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / BEEFYTHIQ / research/embodied-scale/colossal-escalation.json",
+      "content": "SETH: The floor answers a shift of weight with a low sound. A chair stays where it was while the distance between chair, doorway, and the man standing there acquires a different scale.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 94,
+        "actor": "LUKE",
+        "world": "BEEFYTHIQ",
+        "region_id": "beefythiq",
+        "source": "research/embodied-scale/colossal-escalation.json",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
     }
   ]
 }

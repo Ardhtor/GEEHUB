@@ -33,3 +33,13 @@ The RUN action is therefore not a button that launches an unrelated demonstratio
 The interface should increasingly become visual-first: places, bodies, motion, video, sound, artifacts, and environmental changes carry meaning before explanatory text does.
 
 The desired result is not a dashboard about a world. It is a place that behaves like the world it contains.
+
+## Shared Inertia: the feeling between user and narrator
+
+The canonical relational specification is [SHARED_INERTIA_NARRATOR_SIGNAL.md](SHARED_INERTIA_NARRATOR_SIGNAL.md). The sensation engine should not merely display information or narrate over an event. It should make the user feel that a witness is attending to the same evolving world, that user choices materially affect what follows, and that the encounter leaves a residue to return to.
+
+Chase / c.w. sachs is the situated witness inside the record. His continuity must come from real corpus, archive, or persistent state. He retains his own voice and can notice, hesitate, be surprised, or leave a moment quiet. Seth-and-Nick's direct, physically observant broadcast energy remains a broad style reference and established co-narration format where applicable; do not flatten the narrator system or impersonate real people. Long environmental prose belongs in the scene/broadcast layer while the interface remains visual-first.
+
+For Hulum's Cave / Shared Inertia, the body, camera, environment, light, sound, and timing form one event. Preserve identity while scale changes; let height, reach, limb length, muscle volume, stance, and spatial occupation develop coherently. The room establishes a baseline, the camera responds, sound carries timing, and pauses make anticipation possible. A source-led reconstruction is complete only after an actual clip has been inspected, a new output rendered, and the result compared against that source.
+
+Each RUN should leave a specific trace where the implementation supports it: prior state, selected change, resulting state, artifact/media reference, and the next unresolved possibility. A conceptual signal is not a working renderer; record unimplemented mechanisms honestly.

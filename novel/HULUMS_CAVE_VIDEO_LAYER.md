@@ -46,3 +46,14 @@ For each source clip, keep a paired record:
 The original Bwomph of shared inertia must be discovered in the actual source material before it is formalized as canon. It may be a useful working hypothesis, but it is not a substitute for observing the files. Electric light, paired figures, overlays, and other effects are not fidelity by themselves; include them only where the source supports them or where a deliberate transformation calls for them.
 
 **Current source-access status (2026-10-26):** the inspected GEEHUB repository contains build notes, scene recipes, procedural video code, and Bwomph manifests, but no original Hulum's Cave video files. A search of the connected Dropbox workspace for “Hulum's Cave,” “Hulumscave,” “Bwomph,” and “Hulum cave videos” returned no matches. Therefore source-specific shot analysis and feeling extraction remain pending until the original clips or a source folder/link are available. Do not claim frame-level fidelity before that comparison has happened.
+
+
+## Continuous climax — the experience never returns to neutral
+
+**Core rule:** sustain an accumulating climax. Do not treat intensity as a single peak followed by a full reset. Each event changes the baseline from which the next event develops. The experience should keep becoming more consequential while retaining enough contrast for the audience to feel each change.
+
+Use a rolling cycle: **charge → anticipation → impact → resonance → altered baseline → renewed charge**. The resonance is not an ending; it is the material of the next charge. A held pose, camera drift, lighting afterimage, room response, sound tail, or subtle bodily adjustment can keep the experience alive between larger events. Escalation can come from scale, duration, closeness, synchronization, spatial transformation, density, or emotional recognition—not just making everything louder or larger.
+
+Keep a continuous memory of momentum across cuts and scenes. Camera, figures, environment, light, and sound should feel like parts of one evolving event. Let contrast and brief stillness sharpen the next rise, but do not erase the accumulated history. Vary the shape of each climax so the sequence remains alive rather than mechanically repeating a crescendo. The ending of a clip should feel like a threshold into the next state, not a return to the beginning.
+
+For source reproduction, this is a creative direction to test against the actual Hulum's Cave files, not a claim that every source clip already follows this pattern. Preserve source-specific behavior first; use continuous escalation as the generative rule for new material and as a hypothesis when comparing originals.

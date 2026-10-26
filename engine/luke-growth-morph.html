@@ -25,11 +25,11 @@
 <div class="foot">GEEHUB / MORPH SYSTEM / PRESERVE THE MAN THROUGH THE CHANGE</div></main>
 <script type="module">
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-const canvas=document.querySelector('#view'),scene=new THREE.Scene();scene.background=new THREE.Color('#0b1117');scene.fog=new THREE.Fog('#0b1117',10,22);
+const canvas=document.querySelector('#view'),scene=new THREE.Scene();scene.background=new THREE.Color('#07121d');scene.fog=new THREE.Fog('#07121d',10,22);
 const camera=new THREE.PerspectiveCamera(34,1,.1,100);camera.position.set(4.4,3.4,9.4);
 const renderer=new THREE.WebGLRenderer({canvas,antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.1;
 scene.add(new THREE.HemisphereLight(0xcce7ef,0x20242c,2.0));
-function light(color,intensity,pos){const l=new THREE.DirectionalLight(color,intensity);l.position.set(...pos);l.castShadow=true;scene.add(l)}light(0xffdfc1,3.4,[4,7,5]);light(0x62d6e5,3.0,[-5,3,-4]);light(0xa8c9ff,1.2,[-2,5,4]);
+function light(color,intensity,pos){const l=new THREE.DirectionalLight(color,intensity);l.position.set(...pos);l.castShadow=true;scene.add(l)}light(0xb9dfff,2.5,[4,7,5]);light(0x38d9ff,3.5,[-5,3,-4]);light(0x789cff,1.8,[-2,5,4]);
 const floorMat=new THREE.MeshStandardMaterial({color:'#101820',roughness:.78,metalness:.12});const floor=new THREE.Mesh(new THREE.CircleGeometry(5,64),floorMat);floor.rotation.x=-Math.PI/2;floor.position.y=-2.62;floor.receiveShadow=true;scene.add(floor);const grid=new THREE.GridHelper(10,40,'#29434e','#182932');grid.position.y=-2.61;scene.add(grid);
 const skin=new THREE.MeshStandardMaterial({color:'#ad785e',roughness:.43,metalness:.01});const lightSkin=new THREE.MeshStandardMaterial({color:'#bd8b70',roughness:.4});const shadowSkin=new THREE.MeshStandardMaterial({color:'#875944',roughness:.48});const shortsMat=new THREE.MeshStandardMaterial({color:'#252b31',roughness:.78});
 const root=new THREE.Group();scene.add(root);const body=new THREE.Group();root.add(body);

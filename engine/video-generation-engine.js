@@ -10,7 +10,7 @@
     <section class="gh-video-forge">
       <div class="ghvf-head"><div><div class="eyebrow">GEEHUB / VIDEO ENGINE</div><h2>HULUM'S CAVE — MOTION FORGE</h2><p>Generate a moving CGI scene with an original procedural soundtrack.</p></div><span class="ghvf-live" id="ghvfStatus">ENGINE READY</span></div>
       <div class="ghvf-stage"><canvas id="ghvfCanvas" width="1280" height="720" aria-label="Live procedural CGI preview"></canvas><div class="ghvf-overlay"><span id="ghvfShot">SHOT 01 / INDUSTRIAL ROOM</span><span id="ghvfClock">00:00</span></div></div>
-      <div class="ghvf-controls"><label>SCENE<select id="ghvfScene"><option value="bond">Leather / Steel</option><option value="growth">Growth Morph</option><option value="facility">Observation Room</option></select></label><label>DURATION<select id="ghvfDuration"><option value="8">8 seconds</option><option value="12" selected>12 seconds</option><option value="20">20 seconds</option></select></label><label>SOUND<select id="ghvfSound"><option value="industrial">Industrial drone</option><option value="dark">Dark ambient</option><option value="room">Room tone</option></select></label><button id="ghvfPreview" type="button">PREVIEW</button><button id="ghvfRender" class="ghvf-primary" type="button">RENDER VIDEO + SOUND</button></div>
+      <div class="ghvf-controls"><label>SCENE<select id="ghvfScene"><option value="bond">Leather / Steel</option><option value="growth">Growth Morph</option><option value="facility">Observation Room</option><option value="inertia">Shared Inertia</option></select></label><label>DURATION<select id="ghvfDuration"><option value="8">8 seconds</option><option value="12" selected>12 seconds</option><option value="20">20 seconds</option></select></label><label>SOUND<select id="ghvfSound"><option value="industrial">Industrial drone</option><option value="dark">Dark ambient</option><option value="room">Room tone</option></select></label><button id="ghvfPreview" type="button">PREVIEW</button><button id="ghvfRender" class="ghvf-primary" type="button">RENDER VIDEO + SOUND</button></div>
       <div class="ghvf-foot"><span>1280 × 720 / 24 FPS / ORIGINAL SYNTH SOUND</span><a id="ghvfDownload" hidden>save rendered video ↗</a></div>
     </section>`;
   const canvas = $('#ghvfCanvas'), ctx = canvas.getContext('2d');
@@ -22,18 +22,18 @@
   function poly(points,fill,stroke=null,lw=1){ctx.beginPath();points.forEach((p,i)=>i?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]));ctx.closePath();ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.lineWidth=lw;ctx.strokeStyle=stroke;ctx.stroke();}}
   function line(points,color,width=2){ctx.beginPath();points.forEach((p,i)=>i?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]));ctx.strokeStyle=color;ctx.lineWidth=width;ctx.stroke();}
   function bg(t){
-    const g=ctx.createLinearGradient(0,0,W,H);g.addColorStop(0,'#11161b');g.addColorStop(.52,'#272521');g.addColorStop(1,'#090d12');ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
-    ctx.fillStyle='rgba(28,110,154,.17)';ctx.fillRect(0,0,210,H);
-    ctx.fillStyle='rgba(223,146,68,.12)';ctx.fillRect(W-340,0,340,H);
+    const g=ctx.createLinearGradient(0,0,W,H);g.addColorStop(0,'#071522');g.addColorStop(.52,'#122a3b');g.addColorStop(1,'#03080e');ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
+    ctx.fillStyle='rgba(35,192,255,.20)';ctx.fillRect(0,0,210,H);
+    ctx.fillStyle='rgba(75,111,255,.12)';ctx.fillRect(W-340,0,340,H);
     for(let i=0;i<8;i++){const x=80+i*165;line([[x,80],[x+Math.sin(t*.4+i)*8,590]],'rgba(180,190,191,.09)',2);}
     for(let i=0;i<7;i++){const y=110+i*78;line([[0,y],[W,y]],'rgba(180,190,191,.06)',1);}
     poly([[0,540],[W,495],[W,H],[0,H]],'#17191b');
-    for(let i=0;i<9;i++){const x=(i*179+Math.sin(t*.3+i)*8)%W;line([[x,545],[x-150,720]],'rgba(186,153,111,.10)',2);}
+    for(let i=0;i<9;i++){const x=(i*179+Math.sin(t*.3+i)*8)%W;line([[x,545],[x-150,720]],'rgba(66,190,255,.12)',2);}
     ctx.fillStyle='rgba(5,8,11,.52)';ctx.fillRect(0,0,W,52);
     ctx.fillStyle='#a5b4b9';ctx.font='16px monospace';ctx.fillText('GEEHUB / VISUAL MEMORY / TAKE 01',28,32);
   }
   function man(x,y,s,t,variant,scene){
-    const breath=Math.sin(t*2.2+variant)*4, grow=scene==='growth'?1+0.16*ease((t%8)/8):1;
+    const phase=t*1.7+variant*.12, breath=Math.sin(phase)*4, grow=scene==='growth'?1+0.16*ease((t%8)/8):1;
     ctx.save();ctx.translate(x,y);ctx.scale(s*grow,s);
     const skin=variant===0?'#777b7a':'#666d70',hi=variant===0?'#a0a09a':'#898f90',shade='#343b3f';
     // legs and boots
@@ -54,7 +54,7 @@
     ellipse(-8,-181,3,2,'#111719');ellipse(8,-181,3,2,'#111719');
     line([[-8,-164],[0,-160],[8,-164]],'#41484a',2);
     // arms with clear mass
-    const swing=Math.sin(t*1.7+variant)*7;
+    const swing=Math.sin(t*1.7)*7;
     line([[-55,-102],[-78,-67+breath],[-87+swing,-10],[-82+swing,28]],shade,30);
     line([[-55,-102],[-78,-67+breath],[-87+swing,-10]],skin,24);
     line([[-87+swing,-10],[-82+swing,28]],hi,20);
@@ -78,19 +78,19 @@
   function draw(t){
     const scene=$('#ghvfScene').value;bg(t);
     // overhead fluorescent panels and floor haze
-    for(let i=0;i<3;i++){ctx.fillStyle='rgba(209,177,131,'+(0.05+0.025*Math.sin(t*1.4+i))+')';ctx.fillRect(150+i*410,55,190,8);}
-    const haze=ctx.createRadialGradient(660,420,10,660,420,430);haze.addColorStop(0,'rgba(108,132,140,.08)');haze.addColorStop(1,'rgba(5,7,9,0)');ctx.fillStyle=haze;ctx.fillRect(0,60,W,H-60);
+    for(let i=0;i<3;i++){ctx.fillStyle='rgba(99,202,255,'+(0.055+0.025*Math.sin(t*1.4+i))+')';ctx.fillRect(150+i*410,55,190,8);}
+    const haze=ctx.createRadialGradient(660,420,10,660,420,430);haze.addColorStop(0,'rgba(54,176,255,.12)');haze.addColorStop(1,'rgba(5,7,9,0)');ctx.fillStyle=haze;ctx.fillRect(0,60,W,H-60);
     // steel bench / restraint rail
     ctx.fillStyle='#343a3d';ctx.fillRect(230,435,610,20);ctx.fillStyle='#111619';ctx.fillRect(250,455,18,110);ctx.fillRect(805,455,18,110);
-    line([[235,442],[840,442]],'#879093',2);
-    man(scene==='bond'?500:490,415,1.02,t,0,scene);
-    man(scene==='bond'?850:790,408,.91,t,1,scene);
+    line([[235,442],[840,442]],'#58cfff',2);
+    man(scene==='bond'?500:scene==='inertia'?470:490,415,1.02,t,0,scene);
+    man(scene==='bond'?850:scene==='inertia'?810:790,408,.91,t,1,scene);
     if(scene==='growth'){
       // retained outline makes the morph legible against a remembered baseline
       ctx.save();ctx.globalAlpha=.17;ctx.setLineDash([8,8]);ctx.strokeStyle='#c4a16c';ctx.lineWidth=3;ctx.beginPath();ctx.ellipse(490,280,105,205,0,0,Math.PI*2);ctx.stroke();ctx.restore();
       ctx.fillStyle='#c5a36f';ctx.font='15px monospace';ctx.fillText('PREVIOUS BASELINE RETAINED',36,675);
     }
-    if(scene==='bond'){
+    if(scene==='inertia'){const drift=Math.sin(t*.65)*38;ctx.save();ctx.globalAlpha=.38;ctx.strokeStyle='#37d9ff';ctx.lineWidth=3;ctx.beginPath();ctx.ellipse(640+drift,315,260+Math.sin(t)*12,170,0,0,Math.PI*2);ctx.stroke();ctx.beginPath();ctx.ellipse(640-drift*.6,315,190,122,0,0,Math.PI*2);ctx.stroke();ctx.restore();ctx.fillStyle='#76e1ff';ctx.font='15px monospace';ctx.fillText('SHARED INERTIA / MOTION MEMORY',36,675);ctx.strokeStyle='rgba(55,217,255,.32)';ctx.lineWidth=3;ctx.strokeRect(90,92,1100,480);} else if(scene==='bond'){
       ctx.fillStyle='#a6aeb0';ctx.font='14px monospace';ctx.fillText('LEATHER / STEEL / TRUST',36,675);
     } else if(scene==='facility'){
       ctx.fillStyle='#6bb7d1';ctx.font='14px monospace';ctx.fillText('OBSERVATION GLASS / SUBJECT PRESENT',36,675);

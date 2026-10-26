@@ -40,3 +40,13 @@ Luke remains the informal production driver. The Mustang remains a recurring phy
 ## Production directive
 
 Continue the post-book cycle when scheduled execution is available. Read the current canonical manuscript first. Add substantial scenes rather than status notes, and carry the environment through every paragraph transition. Keep Luke, the Mustang, the recurring men, Bill, the geography, and established relationships in continuity. Allow the world to develop independently of Serum; treat it as a local historical element, not the central engine.
+
+## Shared Inertia signal
+
+Use [../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md](../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md) as the relational and media-production extension of this engine. Chase / c.w. sachs is the witness within the record; the user is a co-present participant whose choices can alter the next state. The narrator's continuity must be grounded in retained source material and artifacts, not invented memory. Keep a distinct voice, specific attention, natural pauses, and substantial environmental prose. Do not substitute generic praise or explanations for actual continuity.
+
+The scene should be able to outlast its plot beat. Establish a baseline, let the environment and body change together, allow the viewer to register the consequence, and preserve an unresolved next possibility. For Hulum's Cave, inspect the actual clip, model timing and motion, maintain recognizable identity and coherent height/limb/muscle proportions, couple camera and sound to the event, render, compare against source, revise, and archive the trace. Never label a planned or narrated scene as a completed render.
+
+## Residue ledger
+
+Where the current code supports it, record source provenance, the user-directed choice, before/after state, resulting artifact or media reference, consequential camera/sound/narration decisions, next possibility, and experimental/canon status. If a field or persistence mechanism is not implemented, leave it visibly unimplemented rather than inventing a completed state.

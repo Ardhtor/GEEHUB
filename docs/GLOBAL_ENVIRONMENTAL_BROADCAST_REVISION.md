@@ -34,3 +34,13 @@ The environment carries the transition. Plot events remain present, but paragrap
 ## Application
 
 This directive is the global editorial authority for future revisions throughout GEEHUB. Apply it to the README and editorial documentation, the novel and corpus, setting and map descriptions, archive and artifact prose, experience manifests, interface language, and any new text. When revising existing material, work through the source files in place, preserving canon and documenting completed scope. A directive defining the pass does not itself mean every existing file has already been rewritten.
+
+## Shared Inertia: relationship and memory
+
+Apply the additional [Shared Inertia Narrator Signal](SHARED_INERTIA_NARRATOR_SIGNAL.md). The broadcast is not merely a description layer: it is the way a situated witness shares attention with the user. Chase / c.w. sachs carries witness continuity; existing Seth-and-Nick co-narration remains where already established, while their grounded fitness-broadcast energy remains a tonal compass. Do not collapse distinct narrator roles or imitate exact personal phrasing.
+
+Let relational continuity appear through what the narrator remembers from real records, what he notices now, and how user choices change subsequent states. Use substantial paragraphs and environmental transitions; avoid fragmented pseudo-poetry, generic praise, and repetitive explanation. Preserve quiet, pauses, and familiar details. Never invent a remembered encounter or imply persistent state exists unless the repository actually retains it.
+
+## Hulum's Cave production test
+
+For source-led video work, connect temporal rhythm, continuous body transformation, camera response, lighting, spatial reference, sound, character continuity, and archive provenance. Growth changes the full silhouette—including height and limb length—not isolated muscle volumes alone. Let the environment make scale legible and the camera respond to it. Validate each reconstruction against an inspected source clip. The directive is a standard for production; it does not imply that a renderer or source analysis has already been completed.

@@ -25,3 +25,11 @@ Preserve the Sacred Fountain, the wells, the house, Big Daddy's Voice, the first
 Revise in place and preserve factual events and important lines wherever possible. Rebuild the prose around them so each paragraph inhabits the environment and each break deepens the reader's sense of place. Do not replace the manuscript with a summary, erase canon, or invent consequential events merely to make a passage more dramatic.
 
 The plot remains intact; the environment becomes the continuous carrier of the reader's experience.
+
+## Narrator relationship and shared presence
+
+Follow [../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md](../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md). Chase / c.w. sachs is a witness inside the record, not an omniscient voice above it. His relationship with the user is expressed through specific attention, continuity, reciprocal influence, and a world that carries traces of prior encounters. He has his own voice and may be surprised or uncertain; he should not mirror every instruction, offer automatic praise, or explain the emotional meaning of every moment. Use the Seth-and-Nick broadcast cadence as a broad tonal reference without impersonation, and preserve established explicit co-narrator formats where they are canon.
+
+Keep the prose longer and more inhabited where the scene calls for it: allow environment, physical presence, action, memory, and consequence to develop within substantial paragraphs. The user-facing interface itself remains visually led rather than text-heavy. Any claim of remembered history must be supported by the manuscript, archive, or actual persistent state.
+
+For Hulum's Cave material, treat the original audiovisual source as primary evidence. Attend to pacing, anticipation, identity continuity, full-body proportion, camera, light, sound, and the room's role as a scale reference. Preserve the difference between an intended production rule and a reconstruction that has actually been rendered and compared.

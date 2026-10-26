@@ -19,4 +19,4 @@ GEEHUB_RENDER=1 GEEHUB_MORPH_STATE="./luke-growth-morph-state.json" blender --ba
 
 Set `GEEHUB_OUTPUT` to change the output folder.
 
-The current model is a procedural blocking character, not Luke's final identity mesh. The head is kept unscaled while the body expands. The browser export controls the production animation's regional target multipliers. Blender must be installed locally; the repository commit itself does not execute a render.
+The current model is a procedural blocking character, not Luke's final identity mesh. The browser morph includes an overall stature control that lengthens the body and limbs while counter-scaling the identity landmarks so the head retains its size and recognizable proportions. The browser export controls regional mass targets plus stature. Blender must be installed locally; the repository commit itself does not execute a render.

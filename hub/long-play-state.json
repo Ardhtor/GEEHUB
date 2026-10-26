@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 118,
-  "currentAgent": "andrew",
-  "currentRegion": "bodylounger",
-  "scale": 10.02,
-  "lastRun": "2026-10-26T17:34:17.499Z",
+  "cycle": 119,
+  "currentAgent": "joseph",
+  "currentRegion": "male-harem",
+  "scale": 10.14,
+  "lastRun": "2026-10-26T21:54:13.393Z",
   "history": [
+    {
+      "cycle": 119,
+      "agent": "joseph",
+      "previousRegion": "bodylounger",
+      "region": "male-harem",
+      "relation": "THE ARCHIVE OPENS A ROOM",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 10.02,
+      "scale": 10.14,
+      "recording": "scheduled-recording-00119",
+      "at": "2026-10-26T21:54:13.393Z"
+    },
     {
       "cycle": 118,
       "agent": "andrew",
@@ -1165,17 +1177,9 @@
       "scale": 3.78,
       "recording": "scheduled-recording-00020",
       "at": "2026-10-09T19:49:12.375Z"
-    },
-    {
-      "cycle": 19,
-      "agent": "joseph",
-      "region": "complex",
-      "scale": 3.74,
-      "recording": "scheduled-recording-00019",
-      "at": "2026-10-09T14:33:26.133Z"
     }
   ],
-  "previousRegion": "male-harem",
+  "previousRegion": "bodylounger",
   "relation": "THE ARCHIVE OPENS A ROOM",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
@@ -1189,7 +1193,7 @@
     "facility": 10,
     "complex": 9,
     "growth": 9,
-    "male-harem": 10,
+    "male-harem": 11,
     "beefythiq": 9,
     "bodylounger": 7,
     "luke-bwomph": 9
@@ -1205,9 +1209,9 @@
     "facility": "2026-10-25T17:41:08.788992+00:00",
     "complex": "2026-10-25T09:53:39.644212+00:00",
     "growth": "2026-10-25T05:12:19.202907+00:00",
-    "male-harem": "2026-10-26T11:28:42.363513+00:00",
+    "male-harem": "2026-10-26T21:54:13.393Z",
     "beefythiq": "2026-10-25T14:12:47.595583+00:00",
-    "bodylounger": "2026-10-26T17:34:17.499Z",
+    "bodylounger": "2026-10-26T17:37:08.293317+00:00",
     "luke-bwomph": "2026-10-25T00:28:53.015758+00:00"
   }
 }

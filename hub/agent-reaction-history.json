@@ -4,6 +4,76 @@
   "rule": "A scheduled world change produces distinct responses for all five fictional GEEHUB members. Responses accumulate; the next cycle inherits the last state.",
   "events": [
     {
+      "id": "reaction-00119-chase",
+      "at": "2026-10-26T21:54:13.393Z",
+      "agent": "chase",
+      "eventId": "scheduled-long-play-00119",
+      "mood": "watchful",
+      "response": "Chase watches what survives the 10.14× change in MALE HAREM. The route is marked by THE ARCHIVE OPENS A ROOM; he records the consequence instead of confusing spectacle with evidence.",
+      "next": "record what cannot be unseen now.",
+      "inheritedScale": 10.02,
+      "observedScale": 10.14,
+      "regionId": "male-harem",
+      "previousRegionId": "bodylounger",
+      "relation": "THE ARCHIVE OPENS A ROOM"
+    },
+    {
+      "id": "reaction-00119-joseph",
+      "at": "2026-10-26T21:54:13.393Z",
+      "agent": "joseph",
+      "eventId": "scheduled-long-play-00119",
+      "mood": "moved",
+      "response": "Joseph recognizes the earlier state inside MALE HAREM. At 10.14×, the change matters because the name, face, and the way through the room still belong to the same person.",
+      "next": "keep one detail that proves the return.",
+      "inheritedScale": 10.02,
+      "observedScale": 10.14,
+      "regionId": "male-harem",
+      "previousRegionId": "bodylounger",
+      "relation": "THE ARCHIVE OPENS A ROOM"
+    },
+    {
+      "id": "reaction-00119-andrew",
+      "at": "2026-10-26T21:54:13.393Z",
+      "agent": "andrew",
+      "eventId": "scheduled-long-play-00119",
+      "mood": "energized",
+      "response": "Andrew treats the 10.14× change as an opening in MALE HAREM. He tries the route himself, testing what the new reach and clearance make possible.",
+      "next": "turn the new constraint into the next piece of play.",
+      "inheritedScale": 10.02,
+      "observedScale": 10.14,
+      "regionId": "male-harem",
+      "previousRegionId": "bodylounger",
+      "relation": "THE ARCHIVE OPENS A ROOM"
+    },
+    {
+      "id": "reaction-00119-tyler",
+      "at": "2026-10-26T21:54:13.393Z",
+      "agent": "tyler",
+      "eventId": "scheduled-long-play-00119",
+      "mood": "focused",
+      "response": "Tyler checks 10.14× against the previous measurement. The difference is visible in MALE HAREM; he keeps the earlier baseline beside the new one instead of correcting it away.",
+      "next": "compare the new state with the previous measurement.",
+      "inheritedScale": 10.02,
+      "observedScale": 10.14,
+      "regionId": "male-harem",
+      "previousRegionId": "bodylounger",
+      "relation": "THE ARCHIVE OPENS A ROOM"
+    },
+    {
+      "id": "reaction-00119-luke",
+      "at": "2026-10-26T21:54:13.393Z",
+      "agent": "luke",
+      "eventId": "scheduled-long-play-00119",
+      "mood": "alert",
+      "response": "Luke feels the change in the room first. At 10.14×, the floor answers under his stance, and he tests the new clearance without losing his familiar ease in MALE HAREM.",
+      "next": "stay close and see what the new baseline does.",
+      "inheritedScale": 10.02,
+      "observedScale": 10.14,
+      "regionId": "male-harem",
+      "previousRegionId": "bodylounger",
+      "relation": "THE ARCHIVE OPENS A ROOM"
+    },
+    {
       "id": "reaction-00118-chase",
       "at": "2026-10-26T17:34:17.499Z",
       "agent": "chase",
@@ -6852,66 +6922,6 @@
       "inheritedScale": 3.74,
       "observedScale": 3.78,
       "regionId": "facility"
-    },
-    {
-      "id": "reaction-00019-chase",
-      "at": "2026-10-09T14:33:26.133Z",
-      "agent": "chase",
-      "eventId": "scheduled-long-play-00019",
-      "mood": "watchful",
-      "response": "Chase watches for the consequence that survives the initial change. He is less interested in spectacle than evidence.",
-      "next": "record what cannot be unseen now.",
-      "inheritedScale": 3.62,
-      "observedScale": 3.74,
-      "regionId": "complex"
-    },
-    {
-      "id": "reaction-00019-joseph",
-      "at": "2026-10-09T14:33:26.133Z",
-      "agent": "joseph",
-      "eventId": "scheduled-long-play-00019",
-      "mood": "moved",
-      "response": "Joseph recognizes the earlier state inside the new one. The change matters because the old version is still remembered.",
-      "next": "keep one detail that proves the return.",
-      "inheritedScale": 3.62,
-      "observedScale": 3.74,
-      "regionId": "complex"
-    },
-    {
-      "id": "reaction-00019-andrew",
-      "at": "2026-10-09T14:33:26.133Z",
-      "agent": "andrew",
-      "eventId": "scheduled-long-play-00019",
-      "mood": "energized",
-      "response": "Andrew treats the change as an opening. He wants to move through it rather than only look at it.",
-      "next": "turn the new constraint into the next piece of play.",
-      "inheritedScale": 3.62,
-      "observedScale": 3.74,
-      "regionId": "complex"
-    },
-    {
-      "id": "reaction-00019-tyler",
-      "at": "2026-10-09T14:33:26.133Z",
-      "agent": "tyler",
-      "eventId": "scheduled-long-play-00019",
-      "mood": "focused",
-      "response": "Tyler checks the change against what the world recorded before. He wants the discrepancy to remain legible.",
-      "next": "compare the new state with the previous measurement.",
-      "inheritedScale": 3.62,
-      "observedScale": 3.74,
-      "regionId": "complex"
-    },
-    {
-      "id": "reaction-00019-luke",
-      "at": "2026-10-09T14:33:26.133Z",
-      "agent": "luke",
-      "eventId": "scheduled-long-play-00019",
-      "mood": "alert",
-      "response": "Luke feels the change in the room first. He notices how the world advances at 3.74× in THE COMPLEX alters the space around him.",
-      "next": "stay close and see what the new baseline does.",
-      "inheritedScale": 3.62,
-      "observedScale": 3.74,
-      "regionId": "complex"
     }
   ]
 }

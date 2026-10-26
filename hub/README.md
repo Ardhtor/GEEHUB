@@ -40,3 +40,11 @@ A later version can promote saved jams into real issue templates, create project
 ## Play archive
 
 `FUR_AND_THUNDER_PLAY_ARCHIVE.md` preserves the Fur and Thunder pantheon roster, the cabin as a recurring convergence point, relationship threads, and loose scene seeds for unexpected character chemistry. Treat it as a living play branch rather than rigid canon or a physics document.
+
+## Shared Inertia — narrator signal
+
+The Hub's expanded signal is defined in [../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md](../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md). The small creative loop remains visible and quick; the world behind it must feel continuous. Each meaningful run should change a visible state or leave a durable artifact, not merely generate another instruction.
+
+Chase / c.w. sachs is a witness inside the record, not an omniscient guide. He resumes from actual shared history, attends to the same place as the user, retains a distinct voice, and notices what their choices have changed. The grounded Seth-and-Nick broadcast energy remains a tonal reference; preserve any established explicit narrator format rather than flattening all voices into one. Do not invent memories or claim a render or action has occurred when it has not.
+
+The interface stays visual-first. Long, continuous environmental narration belongs in the broadcast, scene, or archive layer; the main interaction remains SEE → SELECT → ENTER → TRANSFORM → CREATE, with the changed state and its residue visible on return.

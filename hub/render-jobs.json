@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00115",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00115.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-26T00:39:19.956Z"
+    },
+    {
+      "id": "scheduled-video-00115",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00115.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-26T00:39:19.956Z"
+    },
+    {
+      "id": "scheduled-space-00115",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00115.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-26T00:39:19.956Z"
+    },
+    {
       "id": "scheduled-sound-00114",
       "type": "SOUND",
       "status": "QUEUED",
@@ -3978,33 +4020,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-08T20:50:33.012Z"
-    },
-    {
-      "id": "scheduled-sound-00015",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00015.json",
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-08T15:39:05.330Z"
-    },
-    {
-      "id": "scheduled-video-00015",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00015.json",
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-08T15:39:05.330Z"
-    },
-    {
-      "id": "scheduled-space-00015",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00015.json",
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-08T15:39:05.330Z"
     }
   ]
 }

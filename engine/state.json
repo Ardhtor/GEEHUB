@@ -1607,7 +1607,7 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
+      "pressure": 1,
       "memory": 0.97
     }
   ],
@@ -1623,7 +1623,7 @@
     "colossal-escalation": 9,
     "muscle-myth": 6,
     "discovery": 9,
-    "veyrthalis": 8,
+    "veyrthalis": 9,
     "bodylounger": 6
   },
   "last_visits": {
@@ -1638,10 +1638,10 @@
     "colossal-escalation": 68.5,
     "muscle-myth": 67.5,
     "discovery": 96.5,
-    "veyrthalis": 88.5,
+    "veyrthalis": 97.5,
     "bodylounger": 62.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 6,
@@ -1657,29 +1657,42 @@
     "index.html": 4
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "discovery",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "veyrthalis",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 114,
-    "agent": "joseph",
-    "previous_region_id": "embodied-scale",
-    "region_id": "discovery",
-    "region_name": "DISCOVERY",
-    "relation": "SCALE HAS HISTORY",
+    "cycle": 115,
+    "agent": "chase",
+    "previous_region_id": "discovery",
+    "region_id": "veyrthalis",
+    "region_name": "VEYRTHALIS",
+    "relation": "THE DOOR REMEMBERS",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 9.7,
-    "scale": 9.82,
-    "recording": "scheduled-recording-00114",
-    "at": "2026-10-25T22:28:29.844Z"
+    "previous_scale": 9.82,
+    "scale": 9.86,
+    "recording": "scheduled-recording-00115",
+    "at": "2026-10-26T00:39:19.956Z"
   },
-  "last_world_change": "2026-10-25T22:28:29.844Z",
-  "scale": 9.82,
+  "last_world_change": "2026-10-26T00:39:19.956Z",
+  "scale": 9.86,
   "external_events": [
+    {
+      "id": "long-play-00115",
+      "type": "CROSSING",
+      "title": "DISCOVERY → VEYRTHALIS",
+      "body": "The world crossed \"THE DOOR REMEMBERS\". Scale increased from 9.82× to 9.86×; the earlier location and baseline remain recorded.",
+      "from": "discovery",
+      "to": "veyrthalis",
+      "previous_region_id": "discovery",
+      "region_id": "veyrthalis",
+      "relation": "THE DOOR REMEMBERS",
+      "source": "long-play",
+      "at": "2026-10-26T00:39:19.956Z"
+    },
     {
       "id": "long-play-00114",
       "type": "CROSSING",

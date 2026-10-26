@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 116,
-  "currentAgent": "luke",
-  "currentRegion": "deep-lore",
-  "scale": 9.89,
-  "lastRun": "2026-10-26T05:23:02.191Z",
+  "cycle": 117,
+  "currentAgent": "tyler",
+  "currentRegion": "male-harem",
+  "scale": 9.94,
+  "lastRun": "2026-10-26T11:25:55.436Z",
   "history": [
+    {
+      "cycle": 117,
+      "agent": "tyler",
+      "previousRegion": "deep-lore",
+      "region": "male-harem",
+      "relation": "A RELATIONSHIP HAS GEOMETRY",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 9.89,
+      "scale": 9.94,
+      "recording": "scheduled-recording-00117",
+      "at": "2026-10-26T11:25:55.436Z"
+    },
     {
       "cycle": 116,
       "agent": "luke",
@@ -1157,18 +1169,10 @@
       "scale": 3.62,
       "recording": "scheduled-recording-00018",
       "at": "2026-10-09T07:25:14.552Z"
-    },
-    {
-      "cycle": 17,
-      "agent": "tyler",
-      "region": "male-harem",
-      "scale": 3.54,
-      "recording": "scheduled-recording-00017",
-      "at": "2026-10-09T01:04:59.631Z"
     }
   ],
-  "previousRegion": "veyrthalis",
-  "relation": "DEPARTURE LEAVES A SHAPE",
+  "previousRegion": "deep-lore",
+  "relation": "A RELATIONSHIP HAS GEOMETRY",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 10,
@@ -1181,13 +1185,13 @@
     "facility": 10,
     "complex": 9,
     "growth": 9,
-    "male-harem": 9,
+    "male-harem": 10,
     "beefythiq": 9,
     "bodylounger": 6,
     "luke-bwomph": 9
   },
   "lastRegionAt": {
-    "deep-lore": "2026-10-26T05:23:02.191Z",
+    "deep-lore": "2026-10-26T05:27:24.265923+00:00",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
     "colossal-escalation": "2026-10-21T11:55:46.159901+00:00",
     "embodied-scale": "2026-10-25T20:00:00.553897+00:00",
@@ -1197,7 +1201,7 @@
     "facility": "2026-10-25T17:41:08.788992+00:00",
     "complex": "2026-10-25T09:53:39.644212+00:00",
     "growth": "2026-10-25T05:12:19.202907+00:00",
-    "male-harem": "2026-10-20T15:19:21.209840+00:00",
+    "male-harem": "2026-10-26T11:25:55.436Z",
     "beefythiq": "2026-10-25T14:12:47.595583+00:00",
     "bodylounger": "2026-10-20T10:21:01.285487+00:00",
     "luke-bwomph": "2026-10-25T00:28:53.015758+00:00"

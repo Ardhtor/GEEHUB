@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00117",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00117.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "DEEP LORE → MALE HAREM / TYLER",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00117. Travel from DEEP LORE into MALE HAREM through the relation \"A RELATIONSHIP HAS GEOMETRY\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 9.89× to 9.94× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-10-26T11:25:55.436Z",
+      "lineage": {
+        "from": "deep-lore",
+        "to": "male-harem",
+        "relation": "A RELATIONSHIP HAS GEOMETRY",
+        "cycle": 117
+      }
+    },
+    {
       "id": "scheduled-image-00116",
       "status": "QUEUED",
       "type": "IMAGE",

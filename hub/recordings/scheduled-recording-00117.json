@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00117",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "male-harem",
+  "position": {
+    "x": 76,
+    "y": 25,
+    "z": 0
+  },
+  "camera": {
+    "x": 76,
+    "y": 25,
+    "z": 1.7,
+    "heading": 171,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "tyler",
+    "scale": 9.94,
+    "priorScale": 9.89,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 9.94,
+    "clearance": 0.1006,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "A RELATIONSHIP HAS GEOMETRY"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "deep-lore",
+      "name": "DEEP LORE"
+    },
+    {
+      "type": "region",
+      "id": "male-harem",
+      "name": "MALE HAREM"
+    },
+    {
+      "type": "relation",
+      "title": "A RELATIONSHIP HAS GEOMETRY"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 9.89,
+      "to": 9.94
+    },
+    {
+      "property": "location.regionId",
+      "from": "deep-lore",
+      "to": "male-harem",
+      "relation": "A RELATIONSHIP HAS GEOMETRY"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.1011,
+      "to": 0.1006
+    }
+  ],
+  "intent": "LONG PLAY / DEEP LORE → MALE HAREM / TYLER",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 117,
+    "previousRegionId": "deep-lore",
+    "regionId": "male-harem",
+    "relation": "A RELATIONSHIP HAS GEOMETRY",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 9.89,
+    "scaleBaselineTo": 9.94
+  },
+  "timestamp": "2026-10-26T11:25:55.436Z"
+}

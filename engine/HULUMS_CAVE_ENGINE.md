@@ -73,3 +73,24 @@ The preview is the dominant surface. Keep controls compact and secondary: **Seed
 
 ## Production boundary
 The available repository notes describe the desired grammar, but the original Hulum's Cave source clips were not present in the inspected material. This design therefore encodes the existing GEEHUB interpretation and should be calibrated against supplied source clips when available; it does not claim exact frame-by-frame replication yet.
+
+
+## Juh-Bungus — living growth subject
+The engine's first character-led scene is **Juh-Bungus**: an adult male bodybuilding figure whose growth is the event, not a decorative effect layered over a static portrait. The source reference establishes the baseline: recognizable face and hair, huge chest and deltoids, thick arms, dense legs, white athletic shorts, socks and trainers, against dark vertical gym panels.
+
+### Growth rule
+- Preserve identity, face, hair, expression, clothing, and camera axis across phases.
+- Grow as a connected body: chest expansion carries shoulder-girdle width; shoulder growth carries upper-arm volume; torso scale carries pelvis, thighs, calves, and total height with it.
+- Extend limb length as the body grows. Avoid the compressed, self-imploded look: keep neck, waist, elbows, knees, and ankles legible between enlarged masses.
+- Keep the feet planted and let stance, fabric tension, and the framing respond to increasing scale. The camera may subtly retreat to preserve the full-body read, then settle.
+- Animate the transformation continuously with eased interpolation and a held final pose. No random pulsing, floating muscles, isolated swelling, or sparkle/fog effects as substitutes for anatomy.
+
+### First sequence
+1. **Baseline** — hold the full-body reference composition long enough to register identity.
+2. **Load** — chest and deltoids broaden first; upper back, arms, and traps follow with slight temporal lag.
+3. **Carry-through** — torso length, arm reach, thigh mass, calves, and height catch up in one coherent wave; shorts and stance respond naturally.
+4. **Settle** — the body stops changing; residual breath, weight shift, fabric tension, and camera settle communicate the new scale.
+5. **Afterimage** — hold the larger silhouette without cutting away. The viewer should feel the same person occupying more of the world.
+
+### Hub integration
+Juh-Bungus belongs as a playable scene/character state inside GEEHUB, not a new dashboard or an effects preset. A growth pass must create a distinct saved phase with its reference, phase parameters, and continuity notes so the next pass grows from the latest state rather than restarting from the baseline. The current cave prototype does not yet implement this character animation; this section defines the next build target, not a claim that the growth renderer already exists.

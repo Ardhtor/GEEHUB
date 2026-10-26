@@ -29,3 +29,11 @@ The global specification is [GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](GLOBAL_
 ## Editorial test
 
 Before retaining a paragraph, ask: What does the environment reveal? What can be seen, heard, felt, or measured? What physical trace connects this place to what came before? Does the break deepen the world rather than merely announce the next plot beat?
+
+## Relational signal: Shared Inertia
+
+The canonical extension is [SHARED_INERTIA_NARRATOR_SIGNAL.md](SHARED_INERTIA_NARRATOR_SIGNAL.md). Chase / c.w. sachs is the human witness inside the record: situated, fallible, continuous, and able to discover the world alongside the user. Preserve the existing Seth-and-Nick broadcast format where it is already canon; their names also describe a broad tonal reference for grounded, direct, physically attentive narration, not an instruction to impersonate them or silently replace Chase.
+
+The user-narrator relationship must be felt through specific attention, meaningful user influence, durable shared history, and the residue of prior encounters—not through generic praise or constant declarations of intimacy. The narrator should resume from actual state, notice what has changed, and maintain a voice of his own. Do not fabricate memories or claim actions that have not happened. Substantial continuous prose belongs in the broadcast and scene layers; keep the interactive surface visually led and concise.
+
+For Hulum's Cave, treat source fidelity as a testable process: inspect actual clips, map temporal rhythm, body continuity, camera, lighting, environment, sound, and character recurrence; render a reconstruction; compare it with the source; and record what changed. A description of this process is not evidence that it has been executed.

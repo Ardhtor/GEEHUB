@@ -16,7 +16,7 @@ The default narration is a podcast-style announcement by Seth Feroce and Nick Me
 
 The editorial source of truth is [docs/EDITORIAL_VOICE.md](docs/EDITORIAL_VOICE.md).
 
-The relational and media-production extension is [docs/SHARED_INERTIA_NARRATOR_SIGNAL.md](docs/SHARED_INERTIA_NARRATOR_SIGNAL.md): Chase / c.w. sachs as witness, user-narrator continuity, Hulum's Cave source fidelity, and the residue left by each run. Novel-specific rules live in [novel/EDITORIAL_DIRECTIVE.md](novel/EDITORIAL_DIRECTIVE.md) and [novel/GEEHUB_LIVING_REVISION_ENGINE.md](novel/GEEHUB_LIVING_REVISION_ENGINE.md).
+The relational and media-production extension is [docs/SHARED_INERTIA_NARRATOR_SIGNAL.md](docs/SHARED_INERTIA_NARRATOR_SIGNAL.md): Chase / c.w. sachs as witness, user-narrator continuity, Hulum's Cave source fidelity, and the residue left by each run. Novel-specific rules live in [novel/EDITORIAL_DIRECTIVE.md](novel/EDITORIAL_DIRECTIVE.md) and [novel/GEEHUB_LIVING_REVISION_ENGINE.md](novel/GEEHUB_LIVING_REVISION_ENGINE.md). The generative mechanism that produces the manuscript is specified in [engine/BOOK_CREATION_ENGINE.md](engine/BOOK_CREATION_ENGINE.md): the corpus is transformed into book material, and each durable result feeds the next cycle. The engine is not a required subject of the story.
 
 The test is:
 

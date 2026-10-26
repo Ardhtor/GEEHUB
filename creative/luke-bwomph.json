@@ -78,7 +78,7 @@
   ],
   "continuityRule": "Growth reveals more Luke rather than replacing Luke.",
   "sacralLaw": "The muscle is memory; the new baseline is remembrance; the Bwomph is the moment remembrance becomes visible.",
-  "generationRule": "Each state inherits the immediately preceding baseline and preserves face, identity, setting, and prior visual memory.",
+  "generationRule": "Each state inherits the immediately preceding baseline and preserves face, identity, setting, and prior visual memory. Default visual treatment is cold electric: cyan rim light, steel-blue fill, graphite shadows, and restrained white specular highlights; apply consistently across male-model assets and growth phases.",
   "proceduralGeneration": {
     "enabled": true,
     "model": "delta-based inheritance",
@@ -118,5 +118,33 @@
     "levelsGeneratedThisRun": 1,
     "canonicalNote": "BWOMPH-006 advances the inherited baseline through proportional stature, limb length, and chest/shoulder convergence."
   },
-  "nextEvent": "BWOMPH-007"
+  "nextEvent": "BWOMPH-007",
+  "visualDirection": {
+    "persistentStyle": "cold electric interpretation of male bodybuilding models",
+    "lighting": [
+      "cold cyan rim light",
+      "steel-blue fill",
+      "restrained white highlights",
+      "deep graphite shadows"
+    ],
+    "environment": [
+      "dark industrial gym",
+      "subtle CRT/electric glow",
+      "hard-surface reflections",
+      "haze used sparingly"
+    ],
+    "rendering": [
+      "sculptural realistic anatomy",
+      "clear silhouette separation",
+      "high-contrast cinematic framing",
+      "muscle volume readable under cool light"
+    ],
+    "continuity": [
+      "retain each model's recognizable face",
+      "preserve prior phase as the inherited baseline",
+      "lengthen limbs when height increases",
+      "keep shoulder, chest, arm and leg mass proportionally integrated"
+    ],
+    "application": "Apply to every male-model viewport, generated reference, growth phase, and production render by default unless a scene explicitly calls for another lighting treatment."
+  }
 }

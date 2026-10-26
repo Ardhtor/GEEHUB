@@ -4,6 +4,76 @@
   "rule": "A scheduled world change produces distinct responses for all five fictional GEEHUB members. Responses accumulate; the next cycle inherits the last state.",
   "events": [
     {
+      "id": "reaction-00116-chase",
+      "at": "2026-10-26T05:23:02.191Z",
+      "agent": "chase",
+      "eventId": "scheduled-long-play-00116",
+      "mood": "watchful",
+      "response": "Chase watches what survives the 9.89× change in DEEP LORE. The route is marked by DEPARTURE LEAVES A SHAPE; he records the consequence instead of confusing spectacle with evidence.",
+      "next": "record what cannot be unseen now.",
+      "inheritedScale": 9.86,
+      "observedScale": 9.89,
+      "regionId": "deep-lore",
+      "previousRegionId": "veyrthalis",
+      "relation": "DEPARTURE LEAVES A SHAPE"
+    },
+    {
+      "id": "reaction-00116-joseph",
+      "at": "2026-10-26T05:23:02.191Z",
+      "agent": "joseph",
+      "eventId": "scheduled-long-play-00116",
+      "mood": "moved",
+      "response": "Joseph recognizes the earlier state inside DEEP LORE. At 9.89×, the change matters because the name, face, and the way through the room still belong to the same person.",
+      "next": "keep one detail that proves the return.",
+      "inheritedScale": 9.86,
+      "observedScale": 9.89,
+      "regionId": "deep-lore",
+      "previousRegionId": "veyrthalis",
+      "relation": "DEPARTURE LEAVES A SHAPE"
+    },
+    {
+      "id": "reaction-00116-andrew",
+      "at": "2026-10-26T05:23:02.191Z",
+      "agent": "andrew",
+      "eventId": "scheduled-long-play-00116",
+      "mood": "energized",
+      "response": "Andrew treats the 9.89× change as an opening in DEEP LORE. He tries the route himself, testing what the new reach and clearance make possible.",
+      "next": "turn the new constraint into the next piece of play.",
+      "inheritedScale": 9.86,
+      "observedScale": 9.89,
+      "regionId": "deep-lore",
+      "previousRegionId": "veyrthalis",
+      "relation": "DEPARTURE LEAVES A SHAPE"
+    },
+    {
+      "id": "reaction-00116-tyler",
+      "at": "2026-10-26T05:23:02.191Z",
+      "agent": "tyler",
+      "eventId": "scheduled-long-play-00116",
+      "mood": "focused",
+      "response": "Tyler checks 9.89× against the previous measurement. The difference is visible in DEEP LORE; he keeps the earlier baseline beside the new one instead of correcting it away.",
+      "next": "compare the new state with the previous measurement.",
+      "inheritedScale": 9.86,
+      "observedScale": 9.89,
+      "regionId": "deep-lore",
+      "previousRegionId": "veyrthalis",
+      "relation": "DEPARTURE LEAVES A SHAPE"
+    },
+    {
+      "id": "reaction-00116-luke",
+      "at": "2026-10-26T05:23:02.191Z",
+      "agent": "luke",
+      "eventId": "scheduled-long-play-00116",
+      "mood": "alert",
+      "response": "Luke feels the change in the room first. At 9.89×, the floor answers under his stance, and he tests the new clearance without losing his familiar ease in DEEP LORE.",
+      "next": "stay close and see what the new baseline does.",
+      "inheritedScale": 9.86,
+      "observedScale": 9.89,
+      "regionId": "deep-lore",
+      "previousRegionId": "veyrthalis",
+      "relation": "DEPARTURE LEAVES A SHAPE"
+    },
+    {
       "id": "reaction-00115-chase",
       "at": "2026-10-26T00:39:19.956Z",
       "agent": "chase",
@@ -6822,66 +6892,6 @@
       "inheritedScale": 3.49,
       "observedScale": 3.54,
       "regionId": "male-harem"
-    },
-    {
-      "id": "reaction-00016-chase",
-      "at": "2026-10-08T20:50:33.012Z",
-      "agent": "chase",
-      "eventId": "scheduled-long-play-00016",
-      "mood": "watchful",
-      "response": "Chase watches for the consequence that survives the initial change. He is less interested in spectacle than evidence.",
-      "next": "record what cannot be unseen now.",
-      "inheritedScale": 3.46,
-      "observedScale": 3.49,
-      "regionId": "beefythiq"
-    },
-    {
-      "id": "reaction-00016-joseph",
-      "at": "2026-10-08T20:50:33.012Z",
-      "agent": "joseph",
-      "eventId": "scheduled-long-play-00016",
-      "mood": "moved",
-      "response": "Joseph recognizes the earlier state inside the new one. The change matters because the old version is still remembered.",
-      "next": "keep one detail that proves the return.",
-      "inheritedScale": 3.46,
-      "observedScale": 3.49,
-      "regionId": "beefythiq"
-    },
-    {
-      "id": "reaction-00016-andrew",
-      "at": "2026-10-08T20:50:33.012Z",
-      "agent": "andrew",
-      "eventId": "scheduled-long-play-00016",
-      "mood": "energized",
-      "response": "Andrew treats the change as an opening. He wants to move through it rather than only look at it.",
-      "next": "turn the new constraint into the next piece of play.",
-      "inheritedScale": 3.46,
-      "observedScale": 3.49,
-      "regionId": "beefythiq"
-    },
-    {
-      "id": "reaction-00016-tyler",
-      "at": "2026-10-08T20:50:33.012Z",
-      "agent": "tyler",
-      "eventId": "scheduled-long-play-00016",
-      "mood": "focused",
-      "response": "Tyler checks the change against what the world recorded before. He wants the discrepancy to remain legible.",
-      "next": "compare the new state with the previous measurement.",
-      "inheritedScale": 3.46,
-      "observedScale": 3.49,
-      "regionId": "beefythiq"
-    },
-    {
-      "id": "reaction-00016-luke",
-      "at": "2026-10-08T20:50:33.012Z",
-      "agent": "luke",
-      "eventId": "scheduled-long-play-00016",
-      "mood": "alert",
-      "response": "Luke feels the change in the room first. He notices how the world advances at 3.49× in BEEFYTHIQ alters the space around him.",
-      "next": "stay close and see what the new baseline does.",
-      "inheritedScale": 3.46,
-      "observedScale": 3.49,
-      "regionId": "beefythiq"
     }
   ]
 }

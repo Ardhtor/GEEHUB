@@ -47,6 +47,14 @@ Use [../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md](../docs/SHARED_INERTIA_NARRATOR_
 
 The scene should be able to outlast its plot beat. Establish a baseline, let the environment and body change together, allow the viewer to register the consequence, and preserve an unresolved next possibility. For Hulum's Cave, inspect the actual clip, model timing and motion, maintain recognizable identity and coherent height/limb/muscle proportions, couple camera and sound to the event, render, compare against source, revise, and archive the trace. Never label a planned or narrated scene as a completed render.
 
+
+## The book-creation engine
+
+The governing specification is [../engine/BOOK_CREATION_ENGINE.md](../engine/BOOK_CREATION_ENGINE.md). This is the engine of the book's creation, not a machine that the book must describe. The corpus, source encounters, associations, revisions, narrator, accumulated artifacts, and transformation rules generate the manuscript. The manuscript is an output; after a cycle, its new material returns to the corpus and changes the conditions of the next cycle.
+
+For each revision pass, retrieve grounded material, locate an active pressure, form traceable associations, perform a concrete transformation, compose actual manuscript text, validate continuity and canon status, and leave residue for the next pass. Do not substitute an explanation of the engine, a plan, or a summary for new or revised book material. The environmental broadcast and character continuity rules govern the prose produced by this process; they are editorial constraints within the engine, not the engine's subject.
+
+
 ## Residue ledger
 
 Where the current code supports it, record source provenance, the user-directed choice, before/after state, resulting artifact or media reference, consequential camera/sound/narration decisions, next possibility, and experimental/canon status. If a field or persistence mechanism is not implemented, leave it visibly unimplemented rather than inventing a completed state.

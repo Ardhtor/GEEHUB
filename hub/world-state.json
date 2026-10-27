@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00123.json",
+  "activeRecording": "./recordings/scheduled-recording-00124.json",
   "activeEncounter": {
-    "regionId": "male-harem",
-    "regionName": "MALE HAREM",
+    "regionId": "colossal-escalation",
+    "regionName": "COLOSSAL ESCALATION",
     "subject": {
-      "agent": "andrew",
-      "scale": 10.34,
+      "agent": "joseph",
+      "scale": 10.46,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / BODYLOUNGER → MALE HAREM / ANDREW",
+    "intent": "LONG PLAY / MALE HAREM → COLOSSAL ESCALATION / JOSEPH",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 10.26× → 10.34×",
-      "BODYLOUNGER → MALE HAREM",
-      "relation: THE ARCHIVE OPENS A ROOM",
+      "scale 10.34× → 10.46×",
+      "MALE HAREM → COLOSSAL ESCALATION",
+      "relation: MASS WITHOUT AMNESIA",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "bodylounger"
+    "previousRegionId": "male-harem"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-27T18:22:11.791Z",
+  "snapshot": "2026-10-27T22:31:25.836Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 123,
-    "agent": "andrew",
-    "previousRegionId": "bodylounger",
-    "regionId": "male-harem",
-    "relation": "THE ARCHIVE OPENS A ROOM",
+    "cycle": 124,
+    "agent": "joseph",
+    "previousRegionId": "male-harem",
+    "regionId": "colossal-escalation",
+    "relation": "MASS WITHOUT AMNESIA",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 10.26,
-    "scale": 10.34,
-    "recording": "scheduled-recording-00123",
-    "at": "2026-10-27T18:22:11.791Z"
+    "previousScale": 10.34,
+    "scale": 10.46,
+    "recording": "scheduled-recording-00124",
+    "at": "2026-10-27T22:31:25.836Z"
   }
 }

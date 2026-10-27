@@ -304,7 +304,8 @@
       "the-complex",
       "media-tools",
       "discovery",
-      "beefythiq"
+      "beefythiq",
+      "information-portability"
     ],
     "tags": [
       "sensation",
@@ -312,7 +313,10 @@
       "continuity",
       "visual",
       "world",
-      "run"
+      "run",
+      "portability",
+      "provenance",
+      "exchange"
     ]
   },
   {
@@ -340,6 +344,27 @@
       "memory",
       "continuity",
       "sensation-engine"
+    ]
+  },
+  {
+    "id": "information-portability",
+    "name": "Information Portability Contract",
+    "status": "active",
+    "kind": "governance",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/docs/INFORMATION_PORTABILITY.md",
+    "description": "Rules for carrying consequential decisions across canonical docs, Atlas registries, executable behavior, state and artifact records, peer repositories, and the durable media corpus.",
+    "related": [
+      "sensation-engine",
+      "vision-workspace",
+      "shared-interaction-space"
+    ],
+    "tags": [
+      "portability",
+      "memory",
+      "provenance",
+      "exchange",
+      "continuity"
     ]
   }
 ]

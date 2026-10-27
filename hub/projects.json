@@ -387,7 +387,13 @@
       "continuity",
       "visual",
       "world",
-      "run"
+      "run",
+      "portability",
+      "provenance",
+      "exchange"
+    ],
+    "related": [
+      "information-portability"
     ]
   },
   {
@@ -420,6 +426,21 @@
       "exchange",
       "continuity",
       "sensation-engine"
+    ]
+  },
+  {
+    "id": "information-portability",
+    "name": "Information Portability Contract",
+    "group": "engine",
+    "status": "active",
+    "summary": "Canonical rule for porting consequential information into every affected GEEHUB layer, then verifying it can be found, acted on, preserved, and returned.",
+    "path": "../docs/INFORMATION_PORTABILITY.md",
+    "tags": [
+      "portability",
+      "memory",
+      "provenance",
+      "exchange",
+      "continuity"
     ]
   }
 ]

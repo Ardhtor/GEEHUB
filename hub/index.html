@@ -14,7 +14,8 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
 <h1>Pick a door. Kick it open.</h1>
 <p class="muted">Press a button. Get a collision. Make the tiny version.</p>
 <div class="hero">
-<button id="surprise" class="btn primary">SURPRISE ME</button>
+<button id="surprise" class="btn">SURPRISE ME</button>
+<button id="prophecy" class="btn primary">PROPHETIC RUN</button>
 <button id="body" class="btn">FOCUS: BODY</button>
 <button id="luke" class="btn">LOVE POTION 11: LUKE</button>
 <button id="saved" class="btn">SHOW SAVED</button>
@@ -110,7 +111,7 @@ const P=[
 ['The Gods','god','incubating','deities, symbols, myths, and artifacts',['gods','canon']],
 ['Blender Stand / 3D Workspace','3d','incubating','models, scenes, cameras, and visual output',['blender','3d']],
 ['ModernTexts','research','active','accessible GitHub repository in the current workspace constellation',['repository','texts','research'],'https://github.com/Ardhtor/ModernTexts'],
-['LINUX_S','tool','active','accessible GitHub repository in the current workspace constellation',['repository','linux','systems'],'https://github.com/Ardhtor/LINUX_S']
+['LINUX_S','tool','active','accessible GitHub repository in the current workspace constellation',['repository','linux','systems'],'https://github.com/Ardhtor/LINUX_S'],
 ['Male Harem Virtual Space','visual','active','Living visual roster and shared virtual environment built from original muscular source photographs and generated group scenes, with focus on presence, mass, continuity, and extreme-size studies of Office Tank + Posing Trunks.',["visual","muscle","harem","growth","archive","extreme-size"]],
 ['Adult Gay Visual Loop','visual','active','Swipe-first adult gay visual discovery space for adult-only source material, visual attraction, muscular presence, continuity, tagging, provenance, and recommendation. One swipe advances the archive while attention signals shape what appears next.',["adult","gay","visual","swipe","discovery","muscle","archive"]],
 ['The Measure Between Us','story','active','Film chapter and character-repository lab; Chase leads while each fictional adaptation gets an independent action lane.',["film","story","agency","collaboration"]],
@@ -175,9 +176,43 @@ function jam(){const a=pick(P.filter(p=>p.group!=='archive'));const pool=P.filte
 function bodyMode(){ $('#artifact').hidden=true; $('#text').textContent=pick(bodyLines); $('#meta').textContent='FOCUS: BODY · form, scale, presence, consequence.'; setActions([{id:'study',label:'MAKE A BODY STUDY',fn:()=>artifact({id:'body',name:'Body Focus',group:'3d'},{id:'blender',name:'Blender Stand',group:'3d'},'studies')},{id:'again',label:'AGAIN',fn:bodyMode}]); }
 function lukeMode(){const line=pick(lukeLines);const title='Luke — Love Potion 11';const brief=''+line+' Create a gentle encounter with Luke: slow pace, low pressure, mutual affection, and no required transformation. Let one small moment of recognition carry the scene. Preserve Luke\'s identity and agency; allow change only if it arises naturally from the encounter.';const saved=savedJams().filter(isPortableJam);saved.unshift({schemaVersion:1,title,brief,createdAt:new Date().toISOString(),from:['luke','love-potion-11']});localStorage.setItem('geehub-jams',JSON.stringify(saved.slice(0,40)));$('#text').textContent=brief;$('#meta').textContent='LOVE POTION 11 · LUKE · gentle / slow / mutual / continuous.';$('#artifact').hidden=false;$('#artifact').innerHTML='<b>'+esc(title)+'</b><p>'+esc(brief)+'</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="download" class="btn">DOWNLOAD BRIEF</button><button id="again" class="btn">STAY WITH LUKE</button></div>';$('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Copied.').catch(()=>{});$('#download').onclick=()=>{const blob=new Blob([title+'\n\n'+brief+'\n\nSchema version: 1\nSource nodes: luke, love-potion-11\nCreated: '+new Date().toISOString()+'\n'],{type:'text/plain'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='luke-love-potion-11.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),0);};$('#again').onclick=lukeMode;$('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});}
 function artifact(a,b,v){const m=pick(media),c=pick(constraints);const title=`${a.name} / ${b.name} — Tiny Study`;const brief=`${a.name} ${v} ${b.name}. Build a ${m} where the shared constraint is: ${c}. Start with the simplest possible version, then make exactly one element stranger.`;const saved=savedJams();saved.unshift({schemaVersion:1,title,brief,createdAt:new Date().toISOString(),from:[a.id,b.id]});localStorage.setItem('geehub-jams',JSON.stringify(saved.filter(isPortableJam).slice(0,40)));$('#artifact').hidden=false;$('#artifact').innerHTML=`<b>${esc(title)}</b><p>${esc(brief)}</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="download" class="btn">DOWNLOAD BRIEF</button><button id="again" class="btn">MAKE ANOTHER</button></div>`;$('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Copied. Now make the tiny version.').catch(()=>$('#meta').textContent='Saved here; the brief is visible above.');$('#download').onclick=()=>{const blob=new Blob([`${title}\n\n${brief}\n\nSchema version: 1\nSource nodes: ${a.id}, ${b.id}\nCreated: ${new Date().toISOString()}\n`],{type:'text/plain'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='geehub-brief.txt';link.click();setTimeout(()=>URL.revokeObjectURL(url),0);$('#meta').textContent='Downloaded a plain-text brief with provenance.';};$('#again').onclick=jam;$('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});}
+function propheticMode(){
+  const active=P.filter(p=>p.status==='active'&&p.group!=='archive');
+  const a=pick(active.length?active:P), pool=P.filter(p=>p.id!==a.id);
+  const b=pick(pool.length?pool:[a]);
+  const signs=[
+    'The next form is already present as a pressure inside the current state.',
+    'An old image returns, but this time it changes the room around it.',
+    'A remembered detail becomes a rule the world can no longer ignore.',
+    'Two separate lineages discover that they have been building toward the same encounter.',
+    'The environment begins to answer the body instead of merely containing it.'
+  ];
+  const moves=[
+    'Create a short moving scene in which one physical detail changes the entire space.',
+    'Build a modular asset study, then use it as the seed for a new environment.',
+    'Make a three-beat video: recognition, transformation, return. Preserve identity across all three.',
+    'Turn the encounter into a place that can be revisited, with its changed state still visible.',
+    'Render the next baseline and keep the previous state as a memory beside it.'
+  ];
+  const sign=pick(signs), move=pick(moves);
+  const title='PROPHECY / '+a.name+' × '+b.name;
+  const brief=sign+' '+a.name+' meets '+b.name+'. '+move+' The result must be a visible artifact, not a description of an artifact. Record the source nodes, what changed, and what the next run inherits.';
+  const saved=savedJams().filter(isPortableJam);
+  saved.unshift({schemaVersion:1,title,brief,createdAt:new Date().toISOString(),from:[a.id,b.id,'prophetic-run']});
+  localStorage.setItem('geehub-jams',JSON.stringify(saved.slice(0,40)));
+  $('#text').textContent=sign;
+  $('#meta').textContent='PROPHECY · '+a.name+' × '+b.name+' · a direction, not a fixed destiny.';
+  $('#artifact').hidden=false;
+  $('#artifact').innerHTML='<b>'+esc(title)+'</b><p>'+esc(brief)+'</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="download" class="btn">DOWNLOAD BRIEF</button><button id="again" class="btn">FOLLOW THE SIGN</button><button id="openSource" class="btn">OPEN FIRST NODE</button></div>';
+  $('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Prophetic brief copied.').catch(()=>$('#meta').textContent='Brief remains visible above.');
+  $('#download').onclick=()=>{const blob=new Blob([title+'\\n\\n'+brief+'\\n\\nSource nodes: '+a.id+', '+b.id+'\\nCreated: '+new Date().toISOString()+'\\n'],{type:'text/plain'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='geehub-prophecy.txt';link.click();setTimeout(()=>URL.revokeObjectURL(url),0);};
+  $('#again').onclick=propheticMode;
+  $('#openSource').onclick=()=>focusProject(a);
+  $('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
 function exportSaved(){const data=savedJams().filter(isPortableJam);const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='geehub-jams.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),0);$('#meta').textContent=data.length?`Exported ${data.length} saved jam${data.length===1?'':'s'}.`:'No portable saved jams to export.';}
 function importSaved(file){const reader=new FileReader();reader.onload=()=>{try{const incoming=JSON.parse(reader.result);if(!Array.isArray(incoming))throw new Error('Expected an array');const current=savedJams().filter(isPortableJam);const seen=new Set(current.map(x=>`${x.title}\u0000${x.createdAt}`));let rejected=0;const accepted=incoming.filter(isPortableJam).filter(x=>{const k=`${x.title}\u0000${x.createdAt}`;if(seen.has(k))return false;seen.add(k);return true;});rejected=incoming.length-accepted.length-(incoming.filter(x=>isPortableJam(x)).length-accepted.length);const merged=[...accepted,...current].slice(0,40);localStorage.setItem('geehub-jams',JSON.stringify(merged));$('#meta').textContent=`Imported ${accepted.length} new jam${accepted.length===1?'':'s'}; ${merged.length} saved total${rejected?` · skipped ${rejected} invalid`:''}.`;}catch{ $('#meta').textContent='Import failed: choose a geehub-jams.json export.'; }};reader.readAsText(file);}
-$('#surprise').onclick=jam;$('#body').onclick=bodyMode;$('#luke').onclick=lukeMode;document.getElementById('synthesis').onclick=()=>{location.href='./synthesis.html'};document.getElementById('drive').onclick=()=>{location.href='./drive.html'};$('#saved').onclick=()=>{const s=savedJams().filter(isPortableJam);$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} portable saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#export').onclick=exportSaved;$('#import').onclick=()=>$('#importFile').click();$('#importFile').onchange=e=>{if(e.target.files[0])importSaved(e.target.files[0]);e.target.value='';};$('#search').oninput=e=>{query=e.target.value;render();renderAtlas();};$('#statusFilter').onchange=e=>{statusFilter=e.target.value;render();renderAtlas();};
+$('#surprise').onclick=jam;$('#prophecy').onclick=propheticMode;$('#body').onclick=bodyMode;$('#luke').onclick=lukeMode;document.getElementById('synthesis').onclick=()=>{location.href='./synthesis.html'};document.getElementById('drive').onclick=()=>{location.href='./drive.html'};$('#saved').onclick=()=>{const s=savedJams().filter(isPortableJam);$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} portable saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#export').onclick=exportSaved;$('#import').onclick=()=>$('#importFile').click();$('#importFile').onchange=e=>{if(e.target.files[0])importSaved(e.target.files[0]);e.target.value='';};$('#search').oninput=e=>{query=e.target.value;render();renderAtlas();};$('#statusFilter').onchange=e=>{statusFilter=e.target.value;render();renderAtlas();};
 render();renderAtlas();jam();
 </script>
 </body>

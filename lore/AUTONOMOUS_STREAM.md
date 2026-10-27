@@ -813,3 +813,11 @@ SETH: Late light crosses high windows and the worn edges of gym benches. A shirt
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 105 — ATMOSPHERE / BODYLOUNGER / 2026-10-27T12:45:55.748848+00:00
+
+SETH: Old monitor glass reflects saved images and dates. A browser page remains open beside another record, and the fan draws a dry line of dust past the keyboard.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

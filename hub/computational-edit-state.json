@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "computational-edit-world-memory",
+  "title": "COMPUTATIONAL EDIT / WORLD MEMORY LINK",
+  "createdAt": "2026-10-27",
+  "status": "prototype",
+  "principle": "COMPUTATION TRANSFORMS INHERITED WORLD MATERIAL; IT DOES NOT DECORATE AN EMPTY CANVAS.",
+  "entry": "./computational-edit.html",
+  "inputs": [
+    {
+      "path": "./world-state.json",
+      "role": "current location, active encounter, scale and continuity"
+    },
+    {
+      "path": "./visual_memory.json",
+      "role": "visual sequence, temporal memory, core gesture and return-to-origin"
+    },
+    {
+      "path": "../PROPHECY.md",
+      "role": "presence → contact → change → memory → return"
+    }
+  ],
+  "transformationContract": {
+    "read": "Load current world state and visual memory before choosing a transformation.",
+    "preserve": [
+      "stable region IDs",
+      "character identity",
+      "recording lineage",
+      "prior baselines",
+      "source provenance"
+    ],
+    "transform": [
+      "camera geometry",
+      "spatial composition",
+      "recursive form",
+      "temporal rhythm",
+      "environmental response"
+    ],
+    "record": "Store source state, deterministic seed, transformation parameters, and resulting artifact together.",
+    "return": "The next run begins from the latest recorded result, not from a blank scene."
+  },
+  "initialPrototype": "The procedural canvas is the first rendering surface. It currently uses seeded geometry and pointer-responsive framing; direct asset ingestion and persistence remain the next implementation stage.",
+  "nextImplementation": "Bind the canvas to world-state.json and visual_memory.json, then derive the next render from the active encounter and visual-memory sequence."
+}

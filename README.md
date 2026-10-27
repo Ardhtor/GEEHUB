@@ -134,6 +134,12 @@ Preserve that reasoning where it changes the build: README prose, code comments,
 
 Do not copy the conversation into the repository. Preserve the decisions that change the system.
 
+## Information portability
+
+Durable decisions must be ported wherever they affect discovery, behavior, state, or production—not left stranded in chat or a single document. The canonical procedure is [docs/INFORMATION_PORTABILITY.md](docs/INFORMATION_PORTABILITY.md). When a decision changes the engine, update the relevant implementation and its consumers as well as the documentation. Keep `projects.json` and `hub/projects.json` coherent, preserve provenance and canon/experiment status, and return artifacts and state through the shared interaction space. Use GitHub for compact rules, records, metadata, and code; use the connected Dropbox `/GEEHUB` corpus for durable production media and `/GEEHUB/corpus/exchange/` for exchange media.
+
+Completion means the next relevant process can discover the information, act on it, preserve the result, and return it to the shared world without needing the original conversation.
+
 ## Run locally
 
 ```bash

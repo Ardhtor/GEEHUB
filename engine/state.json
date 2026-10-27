@@ -1726,7 +1726,7 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
+      "pressure": 1,
       "memory": 0.97
     }
   ],
@@ -1743,7 +1743,7 @@
     "muscle-myth": 6,
     "discovery": 9,
     "veyrthalis": 9,
-    "bodylounger": 8
+    "bodylounger": 9
   },
   "last_visits": {
     "complex": 92.5,
@@ -1758,9 +1758,9 @@
     "muscle-myth": 67.5,
     "discovery": 96.5,
     "veyrthalis": 97.5,
-    "bodylounger": 102.5
+    "bodylounger": 104.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 6,
@@ -1776,29 +1776,42 @@
     "index.html": 6
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "male-harem",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "bodylounger",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 121,
-    "agent": "luke",
-    "previous_region_id": "bodylounger",
-    "region_id": "male-harem",
-    "region_name": "MALE HAREM",
+    "cycle": 122,
+    "agent": "tyler",
+    "previous_region_id": "male-harem",
+    "region_id": "bodylounger",
+    "region_name": "BODYLOUNGER",
     "relation": "THE ARCHIVE OPENS A ROOM",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 10.18,
-    "scale": 10.21,
-    "recording": "scheduled-recording-00121",
-    "at": "2026-10-27T06:42:15.872Z"
+    "previous_scale": 10.21,
+    "scale": 10.26,
+    "recording": "scheduled-recording-00122",
+    "at": "2026-10-27T12:43:41.517Z"
   },
-  "last_world_change": "2026-10-27T06:42:15.872Z",
-  "scale": 10.21,
+  "last_world_change": "2026-10-27T12:43:41.517Z",
+  "scale": 10.26,
   "external_events": [
+    {
+      "id": "long-play-00122",
+      "type": "CROSSING",
+      "title": "MALE HAREM → BODYLOUNGER",
+      "body": "The world crossed \"THE ARCHIVE OPENS A ROOM\". Scale increased from 10.21× to 10.26×; the earlier location and baseline remain recorded.",
+      "from": "male-harem",
+      "to": "bodylounger",
+      "previous_region_id": "male-harem",
+      "region_id": "bodylounger",
+      "relation": "THE ARCHIVE OPENS A ROOM",
+      "source": "long-play",
+      "at": "2026-10-27T12:43:41.517Z"
+    },
     {
       "id": "long-play-00121",
       "type": "CROSSING",

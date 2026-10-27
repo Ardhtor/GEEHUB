@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-27T06:42:15.872Z",
+  "generated": "2026-10-27T12:43:41.517Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00122",
+      "at": "2026-10-27T12:43:41.517Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / MALE HAREM → BODYLOUNGER / TYLER",
+      "body": "The world crossed the existing relation \"THE ARCHIVE OPENS A ROOM\" from MALE HAREM into BODYLOUNGER. Scale increased from 10.21× to 10.26×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00122",
+      "live": true,
+      "regionId": "bodylounger",
+      "previousRegionId": "male-harem",
+      "relation": "THE ARCHIVE OPENS A ROOM"
+    },
     {
       "id": "scheduled-long-play-00121",
       "at": "2026-10-27T06:42:15.872Z",
@@ -1472,18 +1487,6 @@
       "body": "Scheduled play inherited the world and advanced scale from 3.86× to 3.94×. A spatial recording and renderer jobs were created.",
       "source": "GEEHUB scheduled runner",
       "artifact": "scheduled-recording-00023",
-      "live": true
-    },
-    {
-      "id": "scheduled-long-play-00022",
-      "at": "2026-10-10T05:15:11.253Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / MUSCLE MYTH / TYLER",
-      "body": "Scheduled play inherited the world and advanced scale from 3.81× to 3.86×. A spatial recording and renderer jobs were created.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00022",
       "live": true
     }
   ]

@@ -27,6 +27,8 @@ GEEHUB does not merely describe what might happen next. It detects what is alrea
 9. **Make RUN consequential.** RUN should advance the current state, expose a meaningful change, and preserve the result. It should not simply refresh a dashboard or repeat a summary.
 10. **Let the artifact speak first.** The interface should feel like entering a living place: a central working space, visible creations, a camera or observation point, and a clear way to continue. Keep explanatory text subordinate to the work.
 
+11. **Port every consequential signal.** When a discovery or instruction changes future behavior, carry its durable meaning into every affected layer: canonical rule, Atlas entry, executable path, state/artifact record, peer-repository exchange, and durable media corpus as applicable. Link consumers to the source of truth, preserve provenance, and verify the information can be found and used without the original conversation. Follow [the Information Portability Contract](docs/INFORMATION_PORTABILITY.md).
+
 ## The prophetic question
 
 Before each action, ask:

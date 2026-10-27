@@ -1,5 +1,5 @@
 {
-  "pulse": 103,
+  "pulse": 104,
   "events": [
     {
       "pulse": 1,
@@ -1711,6 +1711,23 @@
       "next_region": null,
       "pressure": 1,
       "memory": 0.97
+    },
+    {
+      "pulse": 104,
+      "time": "2026-10-27T06:44:42.900511+00:00",
+      "actor": "LUKE",
+      "world": "MALE HAREM",
+      "region_id": "male-harem",
+      "previous_region_id": "male-harem",
+      "phase": "ATMOSPHERE",
+      "source": "archive/male-harem/README.md",
+      "desire_state": "attention",
+      "action": "SETH: Late light crosses high windows and the worn edges of gym benches. A shirt rests over a chair, and familiar footsteps turn a man's attention toward the doorway.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 0.97
     }
   ],
   "visits": {
@@ -1743,7 +1760,7 @@
     "veyrthalis": 97.5,
     "bodylounger": 102.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 6,
@@ -1751,7 +1768,7 @@
     "lore/DEEP_LORE.md": 12,
     "world.json": 12,
     "research/embodied-scale/README.md": 13,
-    "archive/male-harem/README.md": 9,
+    "archive/male-harem/README.md": 10,
     "research/embodied-scale/colossal-escalation.json": 10,
     "projects.json": 5,
     "README.md": 7,
@@ -1759,9 +1776,9 @@
     "index.html": 6
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "male-harem",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

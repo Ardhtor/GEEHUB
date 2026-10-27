@@ -36,3 +36,4 @@ Before each action, ask:
 **What is already trying to become real here, and what is the smallest decisive transformation that will let us see it?**
 
 Then make that transformation, preserve its memory, and continue from the new world it creates.
+12. **Compute from inherited material.** Visual engines must load the current world state and visual-memory corpus before rendering. The active encounter, stable region identity, prior baselines, and temporal sequence are inputs to transformation—not labels added after an unrelated render. Preserve source paths, deterministic parameters, and output lineage in a durable state record. A render that cannot yet consume the real assets must declare itself a prototype and identify the next binding step. See [the Computational Edit World-Memory Contract](hub/computational-edit-state.json).

@@ -37,7 +37,9 @@
     host.style.cssText = "margin:28px 0;padding:clamp(18px,3vw,32px);background:linear-gradient(145deg,#0d1720,#101216 65%,#14202a);border:1px solid #33424e;border-radius:16px;color:#e9f0f5;font:inherit;position:relative;overflow:hidden";
     const encounter = document.querySelector(".encounter");
     const main = document.querySelector("main.world") || document.querySelector("main") || document.body;
-    main.insertBefore(host, encounter || main.firstChild);
+    const header = main.querySelector(".top");
+    if (header && header.parentNode === main) header.insertAdjacentElement("afterend", host);
+    else main.insertBefore(host, encounter || main.firstChild);
     render(host);
   };
   function render(host) {

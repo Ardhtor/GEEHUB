@@ -19,7 +19,7 @@ Status: active prototype; runtime state is functional in the browser. Mythic des
 
 ## Runtime contract
 
-The `engine/lineage-pantheon.js` module inserts a visible Pantheon panel immediately below the main header. It opens on a playable encounter, not an empty dashboard. Five branching scenes feature the cow, Gumshoe, Solid Snake, the boys, Daddy, the old gods, Swolebeasts, and Hulum's Cave. Each scene offers three choices and a NEXT ENCOUNTER control. Choosing an outcome advances the cycle, preserves the result in event history, and emits an artifact into the existing GEEHUB artifact runtime when that runtime is available. It provides:
+The `engine/lineage-pantheon.js` module inserts a visible Pantheon panel immediately below the main header. It opens on a playable encounter, not an empty dashboard. Its form includes a cinematic inline-SVG scene stage, a restrained cold-electric palette, responsive editorial typography, encounter progress, clear choice cards, reduced-motion support, and visible outcome treatment. Five branching scenes feature the cow, Gumshoe, Solid Snake, the boys, Daddy, the old gods, Swolebeasts, and Hulum's Cave. Each scene offers three choices and a NEXT ENCOUNTER control. Choosing an outcome advances the cycle, preserves the result in event history, and emits an artifact into the existing GEEHUB artifact runtime when that runtime is available. It provides:
 - **PLAYABLE ENCOUNTERS:** choose among three outcomes, receive an authored scene consequence, and leave a trace in the existing artifact system.
 - **GROW BASELINE:** advances the scale variable while retaining Luke as the identity-preserving growth anchor.
 - **SHARED INERTIA:** adds a temporal trace without replacing earlier events.

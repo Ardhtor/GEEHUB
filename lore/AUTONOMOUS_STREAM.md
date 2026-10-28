@@ -837,3 +837,11 @@ SETH: The view retreats from doorway to building while the man's face remains re
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 108 — ATMOSPHERE / MUSCLE MYTH / 2026-10-28T01:47:04.748290+00:00
+
+SETH: Amber light collects along the carved shoulder of a figure in the recessed arch. Resin-dark beams reflect a dull shine where generations of hands have passed.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

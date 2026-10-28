@@ -442,5 +442,20 @@
       "exchange",
       "continuity"
     ]
+  },
+  {
+    "id": "lineage-pantheon",
+    "name": "LINEAGE PANTHEON",
+    "group": "myth",
+    "status": "active",
+    "summary": "RUN-driven lineage state: Swolebeasts mass + Hulum's Cave shared inertia, with Gee continuity and Luke identity-preserving growth. Local state persists and exports.",
+    "path": "../lore/LINEAGE_PANTHEON.md",
+    "tags": [
+      "myth",
+      "pantheon",
+      "shared-inertia",
+      "growth",
+      "persistent-state"
+    ]
   }
 ]

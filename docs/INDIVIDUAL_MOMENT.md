@@ -25,3 +25,12 @@ GEEHUB should aim at the present moment as it exists inside our parallel history
 ## Completion test
 
 The result should feel specific to this moment and this ongoing creative relationship, while remaining easy to redirect. It should carry forward useful continuity without becoming formulaic. Success is measured by the artifact and the user's response, not by claims of personalization.
+
+
+## The shield
+
+The individual moment can feel like a shield: a living interface between the user and the full weight of the accumulating world. It protects continuity from noise, interruption, and the need to reconstruct everything from scratch. It keeps the important signal intact without sealing the user away from change.
+
+The shield is not a wall and not a filter that decides what the user is allowed to want. The present signal can pass through and alter what happens next. Behind it, the parallel history keeps moving: characters continue their lives, places retain the marks of earlier events, and relationships carry consequences forward. The user can return without having to carry the entire archive in their head.
+
+**Shield rule:** absorb noise; preserve signal; protect continuity; never block the present from changing the future.

@@ -34,7 +34,30 @@
     const host = document.createElement("section");
     host.id = "lineagePantheon";
     host.setAttribute("aria-labelledby", "lineagePantheonTitle");
-    host.style.cssText = "margin:28px 0;padding:clamp(18px,3vw,32px);background:linear-gradient(145deg,#0d1720,#101216 65%,#14202a);border:1px solid #33424e;border-radius:16px;color:#e9f0f5;font:inherit;position:relative;overflow:hidden";
+    host.style.cssText = "margin:22px 0;padding:clamp(12px,2vw,22px);background:radial-gradient(ellipse at 50% -20%,#203f52 0%,#10161c 52%,#0a0e12 100%);border:1px solid #314956;border-radius:20px;color:#e9f0f5;font:inherit;position:relative;overflow:hidden;box-shadow:0 24px 70px #0008";
+    if (!document.getElementById("lineagePantheonStyles")) {
+      const style=document.createElement("style"); style.id="lineagePantheonStyles";
+      style.textContent=`
+        #lineagePantheon *{box-sizing:border-box}
+        #lineagePantheon button{transition:transform .18s ease,border-color .18s ease,background .18s ease}
+        #lineagePantheon button:hover{transform:translateY(-2px);border-color:#8ed7f5!important}
+        #lineagePantheon button:focus-visible{outline:2px solid #a9e7ff;outline-offset:3px}
+        #lineagePantheon .lp-eyebrow{font:10px ui-monospace,monospace;letter-spacing:.2em;color:#8ed7f5;text-transform:uppercase}
+        #lineagePantheon .lp-stage{position:relative;isolation:isolate;overflow:hidden;min-height:190px;border:1px solid #3a5c6c;border-radius:14px;background:linear-gradient(180deg,#122d40,#1d3440 55%,#0b171e);margin:14px 0 18px}
+        #lineagePantheon .lp-stage:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(110deg,transparent 20%,#b4edff0a 48%,transparent 72%);background-size:220% 100%;animation:lp-glide 9s linear infinite}
+        #lineagePantheon .lp-stage svg{display:block;width:100%;height:clamp(190px,29vw,300px)}
+        #lineagePantheon .lp-stage-label{position:absolute;left:15px;bottom:12px;z-index:2;font:10px ui-monospace,monospace;letter-spacing:.16em;color:#d9f4ff;text-shadow:0 2px 12px #000}
+        #lineagePantheon .lp-choice{flex:1 1 155px;min-height:76px;text-align:left;padding:13px 14px!important;border-radius:10px!important;border:1px solid #3a5361!important;background:linear-gradient(145deg,#1a2a35,#10181e)!important;color:#edf7fc!important;font:inherit!important;letter-spacing:0!important}
+        #lineagePantheon .lp-choice small{display:block;color:#85b9d3;font:10px ui-monospace,monospace;letter-spacing:.12em;margin-bottom:7px}
+        #lineagePantheon .lp-choice strong{font-size:13px;line-height:1.35;font-weight:600}
+        #lineagePantheon .lp-choice[aria-pressed=true]{border-color:#9bdef7!important;background:linear-gradient(145deg,#24475a,#14232c)!important;box-shadow:inset 0 0 0 1px #8ed7f533,0 0 22px #4cbbec13}
+        #lineagePantheon .lp-progress{display:flex;gap:5px;align-items:center}
+        #lineagePantheon .lp-progress i{height:3px;flex:1;border-radius:4px;background:#34444d}
+        #lineagePantheon .lp-progress i.on{background:#8ed7f5;box-shadow:0 0 10px #8ed7f566}
+        @keyframes lp-glide{from{background-position:120% 0}to{background-position:-120% 0}}
+        @media(prefers-reduced-motion:reduce){#lineagePantheon .lp-stage:after{animation:none}#lineagePantheon button{transition:none}}
+      `; document.head.appendChild(style);
+    }
     const encounter = document.querySelector(".encounter");
     const main = document.querySelector("main.world") || document.querySelector("main") || document.body;
     const header = main.querySelector(".top");
@@ -54,14 +77,30 @@
         <button type="button" data-action="inertia" style="${btn(false)}">SHARED INERTIA</button>
         <button type="button" data-action="reset" style="${btn(false)}">RESET EXPERIMENT</button>
       </div>
-      <article style="margin:0 0 18px;padding:clamp(16px,3vw,24px);border:1px solid #426071;border-radius:12px;background:radial-gradient(ellipse at 80% 0%,#203b4c 0%,#111a21 60%)">
-        <div style="font:10px ui-monospace,monospace;letter-spacing:.16em;color:#8ed7f5">PLAYABLE ENCOUNTER / ${esc((scenes[state.currentScene || 0] || scenes[0]).place)}</div>
-        <h3 style="font-size:clamp(22px,3vw,30px);margin:8px 0">${esc((scenes[state.currentScene || 0] || scenes[0]).title)}</h3>
-        <p style="line-height:1.65;color:#d2dfe7;margin:0 0 16px">${esc((scenes[state.currentScene || 0] || scenes[0]).setup)}</p>
-        <div style="display:flex;gap:8px;flex-wrap:wrap">${(scenes[state.currentScene || 0] || scenes[0]).choices.map((c,i)=>`<button type="button" data-choice="${i}" style="${btn(false)}">${esc(c[0])}</button>`).join("")}
-          <button type="button" data-action="next-scene" style="${btn(true)}">NEXT ENCOUNTER →</button>
+      <article style="margin:0 0 20px">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:4px 2px 0">
+          <span class="lp-eyebrow">A GEEHUB STORY / CHOOSE WHAT HAPPENS</span>
+          <span style="font:10px ui-monospace,monospace;color:#8299a7">${String((state.currentScene||0)+1).padStart(2,"0")} — 05</span>
         </div>
-        ${state.sceneOutcome ? `<p style="margin:16px 0 0;padding:13px;border-left:2px solid #8ed7f5;background:#0c141a;line-height:1.65">${esc(state.sceneOutcome)}</p>` : ""}
+        <div class="lp-stage" aria-label="Atmospheric illustration of the current encounter">
+          ${sceneArtwork(state.currentScene||0)}
+          <div class="lp-stage-label">${esc((scenes[state.currentScene||0]||scenes[0]).place.toUpperCase())}</div>
+        </div>
+        <div class="lp-progress" aria-hidden="true">${scenes.map((_,i)=>`<i class="${i===(state.currentScene||0)?"on":""}"></i>`).join("")}</div>
+        <div style="display:grid;grid-template-columns:minmax(0,1.15fr) minmax(230px,.85fr);gap:clamp(14px,3vw,30px);align-items:start;margin-top:16px">
+          <div>
+            <div class="lp-eyebrow">ENCOUNTER ${String((state.currentScene||0)+1).padStart(2,"0")}</div>
+            <h3 style="font-size:clamp(25px,4vw,42px);line-height:1.02;letter-spacing:-.045em;margin:9px 0 13px;font-weight:650">${esc((scenes[state.currentScene||0]||scenes[0]).title)}</h3>
+            <p style="line-height:1.75;color:#c4d3dc;margin:0;max-width:620px;font-size:14px">${esc((scenes[state.currentScene||0]||scenes[0]).setup)}</p>
+            ${state.sceneOutcome ? `<div style="margin-top:16px;padding:14px 16px;border-left:2px solid #8ed7f5;background:linear-gradient(90deg,#19303c,#111920);border-radius:0 9px 9px 0;line-height:1.7;color:#e0f1f8"><div class="lp-eyebrow" style="margin-bottom:7px">THE WORLD RESPONDS</div>${esc(state.sceneOutcome)}</div>` : ""}
+          </div>
+          <div>
+            <div class="lp-eyebrow" style="margin-bottom:10px">YOUR MOVE</div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">${(scenes[state.currentScene||0]||scenes[0]).choices.map((c,i)=>`<button type="button" class="lp-choice" data-choice="${i}" aria-pressed="${state.selectedChoice===i}"><small>OPTION 0${i+1}</small><strong>${esc(c[0])}</strong></button>`).join("")}</div>
+            <button type="button" data-action="next-scene" style="${btn(true)};width:100%;margin-top:10px;padding:13px 15px;font-size:11px">CONTINUE THE STORY <span style="float:right">↗</span></button>
+            <p style="font-size:11px;color:#8296a3;line-height:1.6;margin:10px 2px 0">Every choice leaves a trace. The next scene inherits what happened here.</p>
+          </div>
+        </div>
       </article>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px">
         ${cast.map(c => `<button type="button" data-person="${c.id}" aria-pressed="${c.id===state.active}" style="text-align:left;padding:15px;min-height:122px;border-radius:10px;border:1px solid ${c.id===state.active?"#7ec5e5":"#303d47"};background:${c.id===state.active?"#1b2c38":"#10171d"};color:#edf5fa;cursor:pointer;font:inherit">
@@ -82,11 +121,33 @@
     host.querySelectorAll("[data-choice]").forEach(b => b.addEventListener("click", () => chooseScene(Number(b.dataset.choice))));
     host.querySelectorAll("[data-person]").forEach(b => b.addEventListener("click", () => { state.active=b.dataset.person; save(); render(host); }));
   }
+  function sceneArtwork(index) {
+    const palettes=[
+      ["#122e42","#507f91","#b0e5ee"],["#10283b","#315f78","#9bd7f2"],["#142735","#426e83","#d4f4ff"],["#30283c","#81617d","#f3c9ad"],["#071d2c","#25617a","#8de2f7"]
+    ];
+    const p=palettes[index%palettes.length];
+    const stars=Array.from({length:24},(_,i)=>{const x=(i*73+19)%997,y=(i*37+13)%115;return `<circle cx="${x}" cy="${y}" r="${i%5===0?1.7:.8}" fill="#d9f5ff" opacity="${i%4===0?.85:.38}"/>`;}).join("");
+    const scene=index%5;
+    const skyline=scene===0
+      ? '<path d="M0 154 L0 126 70 126 70 94 110 94 110 133 165 133 165 109 203 109 203 154Z" fill="#152a35"/><path d="M740 154 L740 112 782 112 782 83 820 83 820 120 870 120 870 95 920 95 920 154Z" fill="#142b38"/>'
+      : scene===1
+      ? '<path d="M0 160V110L65 80 120 115 170 70 240 125 300 95V160Z" fill="#142b39"/><path d="M690 160V120L760 78 815 110 880 62 997 115V160Z" fill="#142b39"/>'
+      : scene===2
+      ? '<path d="M0 160V100H50V60H90V100H130V76H165V160ZM780 160V95H830V55H870V95H920V72H960V160Z" fill="#142a37"/>'
+      : scene===3
+      ? '<path d="M0 160V118H55V88H105V118H160V75H205V160ZM770 160V115H820V70H865V115H915V90H970V160Z" fill="#392c3c"/>'
+      : '<path d="M0 160V130L95 100 180 130 280 78 350 130V160ZM650 160V126L740 80 820 125 900 96 997 135V160Z" fill="#102b39"/>';
+    const figures=[{x:430,h:65,w:25},{x:475,h:91,w:33},{x:525,h:76,w:27}].map((f,i)=>`<g transform="translate(${f.x} ${157-f.h})" fill="${i===1?p[2]:p[1]}" opacity="${i===1?.94:.72}"><circle cx="0" cy="-8" r="8"/><path d="M-10 2 Q0 -3 10 2 L${f.w/2} ${f.h*.56} L${f.w*.36} ${f.h*.62} L${f.w*.25} ${f.h*.36} L${f.w*.32} ${f.h} L4 ${f.h} L0 ${f.h*.68} L-4 ${f.h} L-${f.w*.32} ${f.h} L-${f.w*.25} ${f.h*.36} L-${f.w*.36} ${f.h*.62} L-${f.w/2} ${f.h*.56}Z"/></g>`).join("");
+    const bridge=scene===0||scene===3?'<path d="M0 171 Q240 145 498 173 T997 164 L997 192 Q740 181 498 192 T0 192Z" fill="#4a7382"/><path d="M0 173 Q240 147 498 175 T997 166" fill="none" stroke="#c0eff7" stroke-width="2" opacity=".8"/>':'';
+    const special=scene===0?'<circle cx="810" cy="150" r="17" fill="#c9d4b2"/><path d="M798 141L789 131 803 136 812 133 824 139 821 151 811 158 800 154Z" fill="#c9d4b2"/><path d="M799 158L797 171M815 158L820 170" stroke="#c9d4b2" stroke-width="5"/>':scene===1?'<rect x="760" y="109" width="100" height="49" rx="3" fill="#213b49" stroke="#83b6ca"/><path d="M775 110V95H844V110" fill="none" stroke="#83b6ca" stroke-width="3"/>':scene===2?'<circle cx="810" cy="69" r="26" fill="none" stroke="#b8e8f4" stroke-width="2"/><path d="M795 69H825M810 54V84" stroke="#b8e8f4" opacity=".6"/>':scene===3?'<circle cx="805" cy="61" r="31" fill="#f0c9ad" opacity=".8"/><path d="M784 64Q805 31 826 64" fill="none" stroke="#fff0d9" stroke-width="4"/>':'<path d="M770 55L810 31 850 55 810 79Z" fill="none" stroke="#8de2f7" stroke-width="2"/><path d="M770 55V100L810 124 850 100V55M810 79V124" fill="none" stroke="#8de2f7" stroke-width="1.5" opacity=".7"/>';
+    return `<svg viewBox="0 0 997 220" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Stylized ${esc(scenes[scene].place)} landscape"><defs><linearGradient id="lpSky${scene}" x1="0" y1="0" x2="0" y2="1"><stop stop-color="${p[0]}"/><stop offset="1" stop-color="${p[1]}" stop-opacity=".4"/></linearGradient><radialGradient id="lpGlow${scene}"><stop stop-color="${p[2]}" stop-opacity=".28"/><stop offset="1" stop-color="${p[2]}" stop-opacity="0"/></radialGradient></defs><rect width="997" height="220" fill="url(#lpSky${scene})"/><ellipse cx="500" cy="80" rx="370" ry="160" fill="url(#lpGlow${scene})"/>${stars}${skyline}<path d="M0 166 Q190 145 370 169 T700 164 T997 160V220H0Z" fill="#0b1a22" opacity=".9"/>${bridge}${special}${figures}<path d="M0 205Q250 190 500 205T997 201" stroke="${p[2]}" opacity=".25" fill="none"/><path d="M20 18H55M20 18V34M977 18H942M977 18V34" stroke="${p[2]}" stroke-width="1.2" opacity=".65"/></svg>`;
+  }
   function chooseScene(choiceIndex) {
     const scene = scenes[state.currentScene || 0];
     const choice = scene && scene.choices[choiceIndex];
     if (!choice) return;
     state.sceneOutcome = choice[1];
+    state.selectedChoice = choiceIndex;
     state.lastEvent = scene.title + " — " + choice[0];
     state.cycle += 1;
     state.inertia += 1;
@@ -106,6 +167,7 @@
     if (action === "next-scene") {
       state.currentScene = ((state.currentScene || 0) + 1) % scenes.length;
       state.sceneOutcome = "";
+      state.selectedChoice = null;
       state.lastEvent = "Next encounter loaded: " + scenes[state.currentScene].title;
     } else if (action === "reset") {
       state = { cycle:0, scale:1, inertia:0, active:"gee", events:[], createdAt:new Date().toISOString() };

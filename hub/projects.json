@@ -457,5 +457,20 @@
       "growth",
       "persistent-state"
     ]
+  },
+  {
+    "id": "hubby",
+    "name": "Hubby",
+    "group": "character",
+    "status": "active",
+    "summary": "Warm smiling teal giant; a persistent visual identity and parallel-history character seed. Original image record and continuity rules.",
+    "path": "../lore/HUBBY.md",
+    "tags": [
+      "character",
+      "visual-artifact",
+      "giant",
+      "continuity",
+      "growth"
+    ]
   }
 ]

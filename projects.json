@@ -382,5 +382,28 @@
       "male-harem-virtual-space",
       "sensation-engine"
     ]
+  },
+  {
+    "id": "hubby",
+    "name": "Hubby",
+    "status": "active",
+    "kind": "character-artifact",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/HUBBY.md",
+    "description": "Warm, smiling teal giant; photorealistic fantasy strongman visual artifact with identity-preserving growth and a shared domestic parallel-history seed.",
+    "related": [
+      "lineage-pantheon",
+      "sensation-engine",
+      "the-complex",
+      "male-harem-virtual-space"
+    ],
+    "tags": [
+      "hubby",
+      "character",
+      "visual-artifact",
+      "giant",
+      "continuity",
+      "growth"
+    ]
   }
 ]

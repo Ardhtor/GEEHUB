@@ -1197,3 +1197,11 @@ SETH: The view retreats from doorway to building while the man's face remains re
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: research/embodied-scale/colossal-escalation.json. Pressure 1.00; memory 0.97.
+
+## MUSCLE MYTH / pulse 110 / ATMOSPHERE
+
+SETH: Amber light collects along the carved shoulder of a figure in the recessed arch. Resin-dark beams reflect a dull shine where generations of hands have passed.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: world.json. Pressure 1.00; memory 0.97.

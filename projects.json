@@ -366,5 +366,21 @@
       "exchange",
       "continuity"
     ]
+  },
+  {
+    "id": "lineage-pantheon",
+    "name": "Lineage Pantheon",
+    "status": "active",
+    "kind": "engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/LINEAGE_PANTHEON.md",
+    "description": "Functional local-first pantheon runtime connecting Swolebeasts physical presence, Hulum's Cave shared inertia, Gee continuity, Luke identity-preserving growth, and the mythic lineage.",
+    "related": [
+      "beefythiq",
+      "muscle-myth",
+      "vision-workspace",
+      "male-harem-virtual-space",
+      "sensation-engine"
+    ]
   }
 ]

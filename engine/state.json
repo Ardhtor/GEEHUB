@@ -1,5 +1,5 @@
 {
-  "pulse": 110,
+  "pulse": 111,
   "events": [
     {
       "pulse": 1,
@@ -1830,6 +1830,23 @@
       "next_region": null,
       "pressure": 1,
       "memory": 0.97
+    },
+    {
+      "pulse": 111,
+      "time": "2026-10-28T20:19:56.548026+00:00",
+      "actor": "LUKE",
+      "world": "COLOSSAL ESCALATION",
+      "region_id": "colossal-escalation",
+      "previous_region_id": "colossal-escalation",
+      "phase": "ATMOSPHERE",
+      "source": "research/embodied-scale/colossal-escalation.json",
+      "desire_state": "attention",
+      "action": "SETH: The view retreats from doorway to building while the man's face remains recognizable. The first threshold stays visible at the bottom of the scene as a scale memory.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 0.97
     }
   ],
   "visits": {
@@ -1862,7 +1879,7 @@
     "veyrthalis": 97.5,
     "bodylounger": 104.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 0.97,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 6,
@@ -1871,16 +1888,16 @@
     "world.json": 14,
     "research/embodied-scale/README.md": 13,
     "archive/male-harem/README.md": 11,
-    "research/embodied-scale/colossal-escalation.json": 12,
+    "research/embodied-scale/colossal-escalation.json": 13,
     "projects.json": 5,
     "README.md": 7,
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 7,
     "index.html": 7
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "colossal-escalation",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

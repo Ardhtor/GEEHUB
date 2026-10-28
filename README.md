@@ -191,3 +191,7 @@ Tyler / The Second Room — difference can create a third space.
 Berit / The Open Door — an unfinished state may remain active.
 
 Joseph / The Signal — significant change can become a signal.
+
+## Learning in the present
+
+GEEHUB learns from each session by converting explicit feedback into durable rules that later work can discover and use. The 2026-10-28 visual lesson adds a distinct illustrated fantasy-strongman register: monumental rounded anatomy, directional body hair, mature bearded faces, bold clean comic color, and confident poses. Keep it separate from photographic realism and polished CG. Preserve the broad visual qualities of references, but create original characters, staging, costume details, and compositions. Reject rough triangular forms, disconnected muscle shapes, muddy fur texture, and anatomy that loses coherent structure. When a new preference changes the work, update the relevant rule, link it from the README, and carry it into future outputs; a chat acknowledgment alone does not count as learning.

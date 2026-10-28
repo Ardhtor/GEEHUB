@@ -198,3 +198,8 @@ GEEHUB learns from each session by converting explicit feedback into durable rul
 
 GEEHUB's experience target is individually attuned to the present creative moment, not just broad preferences. See [docs/INDIVIDUAL_MOMENT.md](docs/INDIVIDUAL_MOMENT.md): read the latest signal first, use relevant continuity selectively, make a concrete artifact, preserve precise corrections, and learn only at the appropriate scope.
 The individual-moment principle means the shared parallel history: recurring people, places, artifacts, and systems continue living forward in the creative world, with remembered encounters and consequences. The user's present signal shapes what happens next; it does not erase the world's continuity. See [docs/INDIVIDUAL_MOMENT.md](docs/INDIVIDUAL_MOMENT.md).
+
+
+## Innervation
+
+The soundtrack acts on the world instead of narrating feelings about it. **SIGNAL → BODY/SPACE RESPONSE → ACTION → SONIC RESIDUE → NEXT SIGNAL.** Each cue must initiate movement, alter pace, reveal presence, change spatial scale, reconnect a historical moment, mark a threshold, or establish a motif. See [engine/INNERVATION_ENGINE.md](engine/INNERVATION_ENGINE.md) for the action contract and cue output.

@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-28T08:06:48.657Z",
+  "generated": "2026-10-28T15:08:06.158Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00127",
+      "at": "2026-10-28T15:08:06.158Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / COLOSSAL ESCALATION → MUSCLE MYTH / TYLER",
+      "body": "The world crossed the existing relation \"THE CITY LEARNS HIS NAME\" from COLOSSAL ESCALATION into MUSCLE MYTH. Scale increased from 10.53× to 10.58×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00127",
+      "live": true,
+      "regionId": "muscle-myth",
+      "previousRegionId": "colossal-escalation",
+      "relation": "THE CITY LEARNS HIS NAME"
+    },
     {
       "id": "scheduled-long-play-00126",
       "at": "2026-10-28T08:06:48.657Z",
@@ -1488,18 +1503,6 @@
       "regionId": "facility",
       "previousRegionId": "beefythiq",
       "relation": "THE ROOM GETS SMALLER"
-    },
-    {
-      "id": "scheduled-long-play-00027",
-      "at": "2026-10-11T02:13:28.262Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / DEEP LORE / TYLER",
-      "body": "Scheduled play inherited the world and advanced scale from 4.13× to 4.18×. A spatial recording and renderer jobs were created.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00027",
-      "live": true
     }
   ]
 }

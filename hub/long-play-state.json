@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 126,
-  "currentAgent": "luke",
-  "currentRegion": "colossal-escalation",
-  "scale": 10.53,
-  "lastRun": "2026-10-28T08:06:48.657Z",
+  "cycle": 127,
+  "currentAgent": "tyler",
+  "currentRegion": "muscle-myth",
+  "scale": 10.58,
+  "lastRun": "2026-10-28T15:08:06.158Z",
   "history": [
+    {
+      "cycle": 127,
+      "agent": "tyler",
+      "previousRegion": "colossal-escalation",
+      "region": "muscle-myth",
+      "relation": "THE CITY LEARNS HIS NAME",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 10.53,
+      "scale": 10.58,
+      "recording": "scheduled-recording-00127",
+      "at": "2026-10-28T15:08:06.158Z"
+    },
     {
       "cycle": 126,
       "agent": "luke",
@@ -1197,17 +1209,9 @@
       "scale": 4.26,
       "recording": "scheduled-recording-00028",
       "at": "2026-10-11T03:19:02.754Z"
-    },
-    {
-      "cycle": 27,
-      "agent": "tyler",
-      "region": "deep-lore",
-      "scale": 4.18,
-      "recording": "scheduled-recording-00027",
-      "at": "2026-10-11T02:13:28.262Z"
     }
   ],
-  "previousRegion": "muscle-myth",
+  "previousRegion": "colossal-escalation",
   "relation": "THE CITY LEARNS HIS NAME",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
@@ -1216,7 +1220,7 @@
     "colossal-escalation": 11,
     "embodied-scale": 10,
     "discovery": 9,
-    "muscle-myth": 7,
+    "muscle-myth": 8,
     "veyrthalis": 9,
     "facility": 10,
     "complex": 9,
@@ -1229,10 +1233,10 @@
   "lastRegionAt": {
     "deep-lore": "2026-10-26T05:27:24.265923+00:00",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
-    "colossal-escalation": "2026-10-28T08:06:48.657Z",
+    "colossal-escalation": "2026-10-28T08:11:39.590354+00:00",
     "embodied-scale": "2026-10-25T20:00:00.553897+00:00",
     "discovery": "2026-10-25T22:30:13.894295+00:00",
-    "muscle-myth": "2026-10-28T01:47:04.748290+00:00",
+    "muscle-myth": "2026-10-28T15:08:06.158Z",
     "veyrthalis": "2026-10-26T00:44:09.588604+00:00",
     "facility": "2026-10-25T17:41:08.788992+00:00",
     "complex": "2026-10-25T09:53:39.644212+00:00",

@@ -19,14 +19,14 @@ Status: active prototype; runtime state is functional in the browser. Mythic des
 
 ## Runtime contract
 
-The `engine/lineage-pantheon.js` module inserts a visible Pantheon panel into the main world. It provides:
-- **RUN LINEAGE:** advances a persistent cycle and selects the next lineage member.
+The `engine/lineage-pantheon.js` module inserts a visible Pantheon panel immediately below the main header. It opens on a playable encounter, not an empty dashboard. Five branching scenes feature the cow, Gumshoe, Solid Snake, the boys, Daddy, the old gods, Swolebeasts, and Hulum's Cave. Each scene offers three choices and a NEXT ENCOUNTER control. Choosing an outcome advances the cycle, preserves the result in event history, and emits an artifact into the existing GEEHUB artifact runtime when that runtime is available. It provides:
+- **PLAYABLE ENCOUNTERS:** choose among three outcomes, receive an authored scene consequence, and leave a trace in the existing artifact system.
 - **GROW BASELINE:** advances the scale variable while retaining Luke as the identity-preserving growth anchor.
 - **SHARED INERTIA:** adds a temporal trace without replacing earlier events.
 - **RESET EXPERIMENT:** resets local simulation state only, not this canon document.
 - **EXPORT STATE JSON:** downloads the current state and event history.
 
-State is stored in browser localStorage under `geehub.lineage-pantheon.v1`. It is local to that browser/profile and is not yet synchronized across devices or repositories. The current scale multiplier is a simulation parameter, not a measured 3D body scale. This module does not claim to render video or connect to the Hulum's Cave source corpus.
+State is stored in browser localStorage under `geehub.lineage-pantheon.v1`. It is local to that browser/profile and is not yet synchronized across devices or repositories. The current scale multiplier is a simulation parameter, not a measured 3D body scale. This module does not yet render video or directly reconstruct Hulum's Cave source clips; scene choices are narrative/interaction outputs that can feed the existing artifact pipeline.
 
 ## Transformation loop
 

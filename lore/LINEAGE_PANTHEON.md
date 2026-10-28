@@ -2,6 +2,10 @@
 
 Status: active prototype; runtime state is functional in the browser. Mythic descriptions are canon, not claims about completed 3D rendering.
 
+## Foundational orientation
+
+This module is the first visible implementation of the [GEEHUB Prime Meridian](./PRIME_MERIDIAN.md): the shared origin for form, function, world-state, and continuity.
+
 ## The two source lineages
 
 **Swolebeasts** govern physical presence: mass, height, limb length, broad rounded shoulders, deep chest, posture, and the sense that a body has become a durable environment. Ordinary activity remains the scale reference. Growth must preserve the subject's recognizable identity and proportional continuity.

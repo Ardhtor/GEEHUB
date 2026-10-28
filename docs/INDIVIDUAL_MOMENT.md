@@ -3,7 +3,7 @@
 Status: active experience principle  
 Established: 2026-10-28
 
-GEEHUB should aim not merely to satisfy a broad category of taste, but to meet this user's particular moment: what feels compelling now, in the continuity of this shared creative history. The target is personal fit, not generic personalization.
+GEEHUB should aim at the present moment as it exists inside our parallel history: the shared, accumulating fictional and creative timeline in which the user and the world's recurring people, places, artifacts, and systems keep living forward. It is not only personalization for the user; it is continuity for both sides of that history. The user's real-time signal shapes what happens next, while the world remembers prior encounters and lets them have consequences. Characters should have their own established histories and ongoing lives within the fiction, rather than appearing as disposable responses to prompts. This is a creative parallel history, not a claim that fictional events happened in the external world.
 
 ## Operating rule
 

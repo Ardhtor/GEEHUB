@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 124,
-  "currentAgent": "joseph",
-  "currentRegion": "colossal-escalation",
-  "scale": 10.46,
-  "lastRun": "2026-10-27T22:31:25.836Z",
+  "cycle": 125,
+  "currentAgent": "chase",
+  "currentRegion": "muscle-myth",
+  "scale": 10.5,
+  "lastRun": "2026-10-28T01:46:07.770Z",
   "history": [
+    {
+      "cycle": 125,
+      "agent": "chase",
+      "previousRegion": "colossal-escalation",
+      "region": "muscle-myth",
+      "relation": "THE CITY LEARNS HIS NAME",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 10.46,
+      "scale": 10.5,
+      "recording": "scheduled-recording-00125",
+      "at": "2026-10-28T01:46:07.770Z"
+    },
     {
       "cycle": 124,
       "agent": "joseph",
@@ -1189,18 +1201,10 @@
       "scale": 4.13,
       "recording": "scheduled-recording-00026",
       "at": "2026-10-10T23:39:46.635Z"
-    },
-    {
-      "cycle": 25,
-      "agent": "chase",
-      "region": "colossal-escalation",
-      "scale": 4.1,
-      "recording": "scheduled-recording-00025",
-      "at": "2026-10-10T20:15:04.755Z"
     }
   ],
-  "previousRegion": "male-harem",
-  "relation": "MASS WITHOUT AMNESIA",
+  "previousRegion": "colossal-escalation",
+  "relation": "THE CITY LEARNS HIS NAME",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 10,
@@ -1208,7 +1212,7 @@
     "colossal-escalation": 10,
     "embodied-scale": 10,
     "discovery": 9,
-    "muscle-myth": 6,
+    "muscle-myth": 7,
     "veyrthalis": 9,
     "facility": 10,
     "complex": 9,
@@ -1221,10 +1225,10 @@
   "lastRegionAt": {
     "deep-lore": "2026-10-26T05:27:24.265923+00:00",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
-    "colossal-escalation": "2026-10-27T22:31:25.836Z",
+    "colossal-escalation": "2026-10-27T22:39:05.809649+00:00",
     "embodied-scale": "2026-10-25T20:00:00.553897+00:00",
     "discovery": "2026-10-25T22:30:13.894295+00:00",
-    "muscle-myth": "2026-10-21T06:04:31.792657+00:00",
+    "muscle-myth": "2026-10-28T01:46:07.770Z",
     "veyrthalis": "2026-10-26T00:44:09.588604+00:00",
     "facility": "2026-10-25T17:41:08.788992+00:00",
     "complex": "2026-10-25T09:53:39.644212+00:00",

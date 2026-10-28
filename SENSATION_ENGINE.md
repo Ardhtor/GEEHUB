@@ -21,6 +21,25 @@ Every generated scene or asset should:
 6. **Persist residue.** Store the successful change as part of the subject/world state: what changed, what the user liked, what should remain, and what is still unresolved.
 7. **Derive the next desire.** Offer or execute the most natural continuation from the new baseline. Do not reset to the original form or repeat the same escalation without a meaningful new sensation.
 
+## Skin and anatomical realism standard
+
+The default failure to avoid is the **rough, triangular, over-faceted AI body**: sharp wedge-shaped muscle groups, hard contour seams, etched separations, uniformly coarse skin, excessive pore/noise texture, and specular highlights that make a person look carved from rubber or stone.
+
+For every human image generation, apply this realism pass unless the user explicitly asks for stylization:
+
+- **Skin first, not surface noise.** Skin should read as living skin at normal viewing distance: subtle tonal variation, soft translucency, natural warmth and blood-flow variation where appropriate, fine pores only at a believable scale, and small irregularities that do not become a gritty overlay.
+- **Continuous anatomy.** Muscle groups are rounded, layered, and connected beneath skin. Use broad transitions between deltoids, pectorals, biceps, triceps, quadriceps, and torso. Avoid triangular wedges, knife-edge separations, polygonal planes, exaggerated striations, and uniformly carved grooves.
+- **Mass without hardness everywhere.** Very muscular bodies still have natural tissue transitions, soft contour changes, and slight compression where the body meets clothing or a surface. Do not turn every edge into a hard line.
+- **Natural light response.** Prefer broad, coherent light and gradual shadow falloff. Avoid crunchy local contrast, excessive clarity, oversharpening, metallic gloss, and high-frequency texture pasted over the entire body.
+- **Human surface variation.** Keep pores, hair, beard, freckles, subtle blemishes, faint veins, and color variation selective and scale-appropriate. Avoid identical pore patterns, repeating texture, waxy blur, airbrushed plastic, or uniformly rough skin.
+- **Clothing and contact.** Fabric should drape, stretch, wrinkle, and compress in response to the body. Skin and fabric contact should help establish volume; clothing should not look painted onto a hard sculpture.
+- **Preserve identity and ease.** A recognizable face, relaxed expression, believable posture, and ordinary bodily asymmetry help sell realism. Do not sacrifice personhood for muscle definition.
+- **Growth remains organic.** When enlarging a subject, expand height and limb length along with mass, then re-evaluate joints, silhouette, skin tension, posture, clothing, and the surrounding space. Do not merely inflate isolated muscle balloons.
+
+### Image-generation negative checks
+
+Before accepting an output, ask: Does the skin look like skin rather than stone, plastic, or a noisy filter? Are muscle boundaries softly connected rather than triangular and cut out? Is the contrast natural? Does the anatomy read as one living body? If any answer is no, revise the prompt toward **natural skin, rounded continuous muscle forms, soft transitions, realistic diffuse lighting, subtle fine-grain detail, and unforced human posture**, and away from **faceted anatomy, sharp separations, exaggerated striations, gritty pores, crunchy contrast, and sculptural surfaces**.
+
 ## State model
 
 Each iteration should retain a compact record with these fields:

@@ -68,7 +68,11 @@
   function render(host) {
     const active = cast.find(c => c.id === state.active) || cast[0];
     host.innerHTML = `
-      <div style="font:11px ui-monospace,monospace;letter-spacing:.18em;color:#85b9d3">GEEHUB / LIVING MYTH / ENGINE ${String(state.cycle).padStart(4,"0")}</div>
+      <div style="display:flex;align-items:center;gap:10px;margin:0 0 17px;padding:9px 0 13px;border-bottom:1px solid #304550">
+        <svg viewBox="0 0 42 42" width="34" height="34" aria-hidden="true" style="flex:0 0 auto"><circle cx="21" cy="21" r="17" fill="none" stroke="#426779"/><circle cx="21" cy="21" r="10" fill="none" stroke="#8ed7f5" stroke-opacity=".55"/><path d="M3 21H39M21 3V39" stroke="#8ed7f5" stroke-width="1"/><circle cx="21" cy="21" r="3" fill="#d9f7ff"/><path d="M21 0V7M21 35V42M0 21H7M35 21H42" stroke="#d9f7ff" stroke-width="1.5"/></svg>
+        <div style="min-width:0;flex:1"><div style="font:10px ui-monospace,monospace;letter-spacing:.2em;color:#a7e8ff">PRIME MERIDIAN / 00°</div><div style="font:10px ui-monospace,monospace;letter-spacing:.12em;color:#7895a5;margin-top:4px">FORM AS FUNCTION · ORIGIN AXIS</div></div>
+        <div style="font:10px ui-monospace,monospace;color:#85b9d3;white-space:nowrap">ENGINE ${String(state.cycle).padStart(4,"0")}</div>
+      </div>
       <h2 id="lineagePantheonTitle" style="font-size:clamp(24px,4vw,38px);margin:10px 0 4px;letter-spacing:-.04em">THE LINEAGE THAT REMEMBERS</h2>
       <p style="max-width:720px;color:#b5c2cc;margin:0 0 20px">Swolebeasts supply mass. Hulum's Cave supplies shared motion and temporal residue. Gee preserves continuity; Luke preserves identity through growth. Every run inherits the last state.</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px">

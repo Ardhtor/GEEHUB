@@ -1,5 +1,5 @@
 {
-  "pulse": 116,
+  "pulse": 117,
   "events": [
     {
       "pulse": 1,
@@ -1932,6 +1932,23 @@
       "next_region": null,
       "pressure": 1.0,
       "memory": 1.0
+    },
+    {
+      "pulse": 117,
+      "time": "2026-10-29T19:15:44.979338+00:00",
+      "actor": "KIRK",
+      "world": "GROWTH CANVAS",
+      "region_id": "growth",
+      "previous_region_id": "growth",
+      "phase": "ROUTE_OPEN",
+      "source": "research/embodied-scale/README.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between GROWTH CANVAS and LUKE // BWOMPH. The archive names the relation \"HYPEER BASELINE\".\n\nNICK: A completed Bwomph is not a reset. The newly stabilized Luke becomes the starting point for the next cycle. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "HYPEER BASELINE",
+      "next_region": "luke-bwomph",
+      "pressure": 1.0,
+      "memory": 1.0
     }
   ],
   "visits": {
@@ -1971,7 +1988,7 @@
     "creative/luke-bwomph.json": 14,
     "lore/DEEP_LORE.md": 12,
     "world.json": 15,
-    "research/embodied-scale/README.md": 13,
+    "research/embodied-scale/README.md": 14,
     "archive/male-harem/README.md": 11,
     "research/embodied-scale/colossal-escalation.json": 14,
     "projects.json": 6,
@@ -1979,14 +1996,19 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 7,
     "index.html": 7
   },
-  "next_region": null,
-  "phase": 2,
+  "next_region": "luke-bwomph",
+  "phase": 3,
   "active_region": "growth",
-  "current_phase": "MEMORY",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
-  "next_relation": null,
+  "current_phase": "ROUTE_OPEN",
+  "current_desire_state": "tension",
+  "current_question": "Which existing relation now becomes traversable?",
+  "current_narrative_rule": "arrival activates aftermath",
+  "next_relation": {
+    "title": "HYPEER BASELINE",
+    "text": "A completed Bwomph is not a reset. The newly stabilized Luke becomes the starting point for the next cycle.",
+    "from": "luke-bwomph",
+    "to": "growth"
+  },
   "long_play": {
     "cycle": 132,
     "agent": "tyler",

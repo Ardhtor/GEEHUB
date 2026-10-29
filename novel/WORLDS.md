@@ -1253,3 +1253,11 @@ NICK: A detail returns in GROWTH CANVAS: Fabric settles across a broader back wh
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was creative/luke-bwomph.json.
 
 Source retained: creative/luke-bwomph.json. Pressure 1.00; memory 1.00.
+
+## GROWTH CANVAS / pulse 117 / ROUTE_OPEN
+
+SETH: A line becomes visible between GROWTH CANVAS and LUKE // BWOMPH. The archive names the relation "HYPEER BASELINE".
+
+NICK: A completed Bwomph is not a reset. The newly stabilized Luke becomes the starting point for the next cycle. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: research/embodied-scale/README.md. Pressure 1.00; memory 1.00.

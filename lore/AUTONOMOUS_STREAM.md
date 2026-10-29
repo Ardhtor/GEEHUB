@@ -909,3 +909,11 @@ NICK: A detail returns in GROWTH CANVAS: Fabric settles across a broader back wh
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was creative/luke-bwomph.json.
 
 Rule: comparison can become differentiation
+
+### Pulse 117 — ROUTE_OPEN / GROWTH CANVAS / 2026-10-29T19:15:44.979338+00:00
+
+SETH: A line becomes visible between GROWTH CANVAS and LUKE // BWOMPH. The archive names the relation "HYPEER BASELINE".
+
+NICK: A completed Bwomph is not a reset. The newly stabilized Luke becomes the starting point for the next cycle. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

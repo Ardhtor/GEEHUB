@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000117",
+  "created_at": "2026-10-29T19:15:44.979338+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ROUTE_OPEN / GROWTH CANVAS / research/embodied-scale/README.md",
+  "content": "SETH: A line becomes visible between GROWTH CANVAS and LUKE // BWOMPH. The archive names the relation \"HYPEER BASELINE\".\n\nNICK: A completed Bwomph is not a reset. The newly stabilized Luke becomes the starting point for the next cycle. The current place remains visible; the route is open, but nobody has crossed it yet.",
+  "production_note": "The world resolved its route_open rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 117,
+    "actor": "KIRK",
+    "world": "GROWTH CANVAS",
+    "region_id": "growth",
+    "source": "research/embodied-scale/README.md",
+    "phase": "ROUTE_OPEN",
+    "relation": "HYPEER BASELINE"
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

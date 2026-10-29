@@ -90,3 +90,10 @@ An iteration is successful when:
 ## Short operator instruction
 
 **Read the current state. Identify the desired feeling. Transform the current baseline. Embody the change. Deliver a satisfying payoff. Save what worked. Continue from the new state.**
+
+## Reusable character-growth preset
+
+The canonical operational preset for Luke is [`engine/presets/luke-growth-priority.json`](engine/presets/luke-growth-priority.json). Use it whenever a request says **“Grow Luke,” “Next growth phase,” “Fuse Luke with this reference,”** or equivalent. It converts the user's growth direction into an explicit, reusable generation contract rather than leaving it as chat-only guidance.
+
+The preset gives the user's latest correction priority, treats the latest accepted image as the minimum baseline, scales height and limb length together with muscular mass, and preserves Luke's recognizable identity through reference fusion. It includes a visible-growth requirement, proportion priorities, style and anatomy checks, rejection conditions, and a portable-result record so each accepted phase becomes the next baseline. Reference fusion changes Luke's design and scale without replacing his face or personhood.
+

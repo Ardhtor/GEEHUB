@@ -166,14 +166,17 @@
   {
     "id": "media-tools",
     "name": "Media Tools",
-    "status": "exploration",
+    "status": "active",
     "kind": "tooling",
-    "repo": null,
-    "description": "Content-aware enhancement, video/image processing, tracking, and visual experimentation.",
+    "repo": "Ardhtor/GEEHUB",
+    "description": "Operational source-inspection interface for original motion references. Opens animated image/video sources, exposes browser playback and frame stepping, and preserves provenance in corpus/exchange records.",
     "related": [
       "growth-canvas",
-      "vision-workspace"
-    ]
+      "vision-workspace",
+      "sensation-engine",
+      "inspect-2026-10-29-growth-motion"
+    ],
+    "path": "/engine/media-inspector.html"
   },
   {
     "id": "discovery",

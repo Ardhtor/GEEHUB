@@ -1,0 +1,37 @@
+{
+  "id": "inspect-2026-10-29-growth-motion",
+  "title": "INSPECT / Growth Motion Source Pair",
+  "created_at": "2026-10-29",
+  "status": "experiment",
+  "operation": "inspect",
+  "method": "Browser-native image/video decoding; no source transformation.",
+  "sources": [
+    {
+      "id": "source-growth-webp",
+      "file": "/GEEHUB/tumblr_m84vl86IvT1rcki9eo1_1280.webp",
+      "type": "image/webp",
+      "bytes": 2190908,
+      "dropbox_url": "https://www.dropbox.com/scl/fi/dwrgr4ji9w9r3f4nmneg6/tumblr_m84vl86IvT1rcki9eo1_1280.webp?rlkey=pwghrnky6izbnozfdkqv07zx9&dl=0",
+      "role": "Animated image reference; inspect timing, silhouette, and transformation cues."
+    },
+    {
+      "id": "source-growth-mov",
+      "file": "/GEEHUB/growth_comission.mov",
+      "type": "video/quicktime",
+      "bytes": 14372784,
+      "dropbox_url": "https://www.dropbox.com/scl/fi/6ism2uh1d9wr3xwdp27k2/growth_comission.mov?rlkey=xmzc3mac7a9hcz3vp14nq7iqt&dl=0",
+      "role": "Primary motion reference; inspect frame progression, camera, proportions, and continuity."
+    }
+  ],
+  "interface": "/engine/media-inspector.html",
+  "interface_url": "https://github.com/Ardhtor/GEEHUB/blob/main/engine/media-inspector.html",
+  "verified": [
+    "Both source files exist in Dropbox and their byte sizes were returned by Dropbox.",
+    "Dedicated one-click controls were committed to the GEEHUB Media Inspector."
+  ],
+  "unresolved": [
+    "The source bytes have not yet been decoded for model-side frame-by-frame analysis.",
+    "Dropbox may refuse browser-native inline playback for the MOV; local-file fallback is available."
+  ],
+  "next_action": "Open the inspector, load each source, record visible timing and body/camera cues, then convert the findings into a reusable motion recipe without replacing the original files."
+}

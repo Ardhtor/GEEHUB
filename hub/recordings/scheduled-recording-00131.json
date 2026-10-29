@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00131",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "complex",
+  "position": {
+    "x": 55,
+    "y": 51,
+    "z": 0
+  },
+  "camera": {
+    "x": 55,
+    "y": 51,
+    "z": 1.7,
+    "heading": 133,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 10.85,
+    "priorScale": 10.82,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 10.85,
+    "clearance": 0.0922,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE HORIZON MOVES"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "colossal-escalation",
+      "name": "COLOSSAL ESCALATION"
+    },
+    {
+      "type": "region",
+      "id": "complex",
+      "name": "THE COMPLEX"
+    },
+    {
+      "type": "relation",
+      "title": "THE HORIZON MOVES"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 10.82,
+      "to": 10.85
+    },
+    {
+      "property": "location.regionId",
+      "from": "colossal-escalation",
+      "to": "complex",
+      "relation": "THE HORIZON MOVES"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0924,
+      "to": 0.0922
+    }
+  ],
+  "intent": "LONG PLAY / COLOSSAL ESCALATION → THE COMPLEX / LUKE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 131,
+    "previousRegionId": "colossal-escalation",
+    "regionId": "complex",
+    "relation": "THE HORIZON MOVES",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 10.82,
+    "scaleBaselineTo": 10.85
+  },
+  "timestamp": "2026-10-29T12:51:02.981Z"
+}

@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-28T20:18:06.306Z",
+  "generated": "2026-10-29T00:14:55.066Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00129",
+      "at": "2026-10-29T00:14:55.066Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / COLOSSAL ESCALATION → MUSCLE MYTH / JOSEPH",
+      "body": "The world crossed the existing relation \"THE CITY LEARNS HIS NAME\" from COLOSSAL ESCALATION into MUSCLE MYTH. Scale increased from 10.66× to 10.78×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00129",
+      "live": true,
+      "regionId": "muscle-myth",
+      "previousRegionId": "colossal-escalation",
+      "relation": "THE CITY LEARNS HIS NAME"
+    },
     {
       "id": "scheduled-long-play-00128",
       "at": "2026-10-28T20:18:06.306Z",
@@ -1488,21 +1503,6 @@
       "regionId": "luke-bwomph",
       "previousRegionId": "embodied-scale",
       "relation": "THE BAR GYM REMEMBERS"
-    },
-    {
-      "id": "scheduled-long-play-00029",
-      "at": "2026-10-11T09:01:56.770Z",
-      "from": "geehub-long-play",
-      "to": "joseph",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / THE FACILITY → EMBODIED SCALE / JOSEPH",
-      "body": "The world crossed the existing relation \"THE FLOOR REPLIES\" from THE FACILITY into EMBODIED SCALE. Scale increased from 4.26× to 4.38×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00029",
-      "live": true,
-      "regionId": "embodied-scale",
-      "previousRegionId": "facility",
-      "relation": "THE FLOOR REPLIES"
     }
   ]
 }

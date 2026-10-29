@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-29T12:51:02.981Z",
+  "generated": "2026-10-29T18:52:24.660Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00132",
+      "at": "2026-10-29T18:52:24.660Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / THE COMPLEX → GROWTH CANVAS / TYLER",
+      "body": "The world crossed the existing relation \"KISS = CONTINUITY\" from THE COMPLEX into GROWTH CANVAS. Scale increased from 10.85× to 10.90×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00132",
+      "live": true,
+      "regionId": "growth",
+      "previousRegionId": "complex",
+      "relation": "KISS = CONTINUITY"
+    },
     {
       "id": "scheduled-long-play-00131",
       "at": "2026-10-29T12:51:02.981Z",
@@ -1488,21 +1503,6 @@
       "regionId": "deep-lore",
       "previousRegionId": "luke-bwomph",
       "relation": "THE FACE REMAINS"
-    },
-    {
-      "id": "scheduled-long-play-00032",
-      "at": "2026-10-11T23:31:49.473Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / GROWTH CANVAS → LUKE // BWOMPH / TYLER",
-      "body": "The world crossed the existing relation \"HYPEER BASELINE\" from GROWTH CANVAS into LUKE // BWOMPH. Scale increased from 4.45× to 4.50×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00032",
-      "live": true,
-      "regionId": "luke-bwomph",
-      "previousRegionId": "growth",
-      "relation": "HYPEER BASELINE"
     }
   ]
 }

@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00131.json",
+  "activeRecording": "./recordings/scheduled-recording-00132.json",
   "activeEncounter": {
-    "regionId": "complex",
-    "regionName": "THE COMPLEX",
+    "regionId": "growth",
+    "regionName": "GROWTH CANVAS",
     "subject": {
-      "agent": "luke",
-      "scale": 10.85,
+      "agent": "tyler",
+      "scale": 10.9,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / COLOSSAL ESCALATION → THE COMPLEX / LUKE",
+    "intent": "LONG PLAY / THE COMPLEX → GROWTH CANVAS / TYLER",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 10.82× → 10.85×",
-      "COLOSSAL ESCALATION → THE COMPLEX",
-      "relation: THE HORIZON MOVES",
+      "scale 10.85× → 10.90×",
+      "THE COMPLEX → GROWTH CANVAS",
+      "relation: KISS = CONTINUITY",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "colossal-escalation"
+    "previousRegionId": "complex"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-29T12:51:02.981Z",
+  "snapshot": "2026-10-29T18:52:24.660Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 131,
-    "agent": "luke",
-    "previousRegionId": "colossal-escalation",
-    "regionId": "complex",
-    "relation": "THE HORIZON MOVES",
+    "cycle": 132,
+    "agent": "tyler",
+    "previousRegionId": "complex",
+    "regionId": "growth",
+    "relation": "KISS = CONTINUITY",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 10.82,
-    "scale": 10.85,
-    "recording": "scheduled-recording-00131",
-    "at": "2026-10-29T12:51:02.981Z"
+    "previousScale": 10.85,
+    "scale": 10.9,
+    "recording": "scheduled-recording-00132",
+    "at": "2026-10-29T18:52:24.660Z"
   }
 }

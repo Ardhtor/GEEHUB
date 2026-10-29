@@ -877,3 +877,11 @@ SETH: Amber light collects along the carved shoulder of a figure in the recessed
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 113 — ATMOSPHERE / COLOSSAL ESCALATION / 2026-10-29T06:19:28.514809+00:00
+
+SETH: The view retreats from doorway to building while the man's face remains recognizable. The first threshold stays visible at the bottom of the scene as a scale memory.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

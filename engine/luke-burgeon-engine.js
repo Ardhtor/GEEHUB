@@ -26,7 +26,9 @@
     {part:"presence", title:"LET THE NEW SIZE REGISTER", reason:"more escalation now would bury the change before it can be witnessed", hold:true, text:"For once, Luke doesn't immediately ask for more. He stands in the room with his feet set wide, breathing evenly while the fabric across his chest settles into its new shape. His familiar face hasn't changed, but everything beneath it occupies more of the frame. He catches your eye and keeps it. “Take a second, dude. I'm not going anywhere.” The pause belongs to both of you.", delta:{}, unresolved:"the held moment has made room for the next escalation"},
     {part:"hyper", title:"THE BODY PUSHES PAST THE OLD OUTLINE", reason:"the held recognition is complete; the next growth can exceed the previous frame", text:"The pause breaks when Luke's shoulders press outward again. His chest follows, arms thickening until the whole upper body seems to arrive a fraction late to each movement. His legs answer with another deep expansion and a little more length. The old outline is no longer useful. He turns toward you, grinning like he has just discovered a bigger version of a joke. “Yeah. You thought that was it?”", delta:{shoulders:.2,chest:.21,arms:.19,legs:.2,length:.12,presence:.22}, unresolved:"hypergrowth has opened a scale the room cannot quietly contain"}
   ];
-  const clamp = n => Math.max(1, Math.min(3.4, n));
+  // Infinite growth has no terminal cap; each delta is finite and inherits prior state.
+  const clamp = n => Math.max(1, Number.isFinite(n) ? n : 1);
+  const growthScale = () => Math.max(1, ...Object.values(s.body));
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (_) {} };
   const el = (id) => document.getElementById(id);
   function publish(beat, kind = "growth") {
@@ -72,14 +74,14 @@
     root.id = "lukeBurgeon";
     root.className = "luke-burgeon";
     root.innerHTML = `
-      <div class="burgeon-head"><div><div class="eyebrow">LIVE SUBJECT / CONTINUITY INSTANCE 01</div><h2>LUKE: THE BURGEONING</h2><p>Every stage inherits the body and the history of the stage before it.</p></div><div class="burgeon-stage" id="burgeonStage">STAGE 00</div></div>
+      <div class="burgeon-head"><div><div class="eyebrow">LIVE SUBJECT / CONTINUITY INSTANCE 01</div><h2>LUKE: THE BURGEONING</h2><p>Every stage inherits the body and history before it. No final frame.</p></div><div class="burgeon-stage" id="burgeonStage">STAGE 00</div></div>
       <div class="burgeon-scene">
         <div class="burgeon-figure" id="burgeonFigure" aria-label="Stylized silhouette changing with retained growth state">
           <div class="figure-halo"></div><div class="figure-head"></div><div class="figure-neck"></div><div class="figure-torso"><i class="figure-chest"></i><i class="figure-waist"></i></div><div class="figure-arm arm-left"></div><div class="figure-arm arm-right"></div><div class="figure-leg leg-left"></div><div class="figure-leg leg-right"></div><div class="figure-floor"></div><span class="figure-measure" id="figureMeasure">BASELINE / RETAINED</span>
         </div>
         <article class="burgeon-copy"><div class="eyebrow" id="burgeonBeat">THE ROOM REMEMBERS</div><h3 id="burgeonTitle">Luke is here.</h3><p id="burgeonText">The next change will start from the body he already has, not from a reset.</p><div class="burgeon-choice"><span>ENGINE CHOICE</span><strong id="burgeonReason">Waiting for the first unresolved change.</strong></div><div class="burgeon-log" id="burgeonLog">NO HISTORY WRITTEN YET</div></article>
       </div>
-      <div class="burgeon-controls"><button id="burgeonRun" type="button">LET HIM GROW</button><button id="burgeonHold" type="button">HOLD THIS MOMENT</button><button id="burgeonReset" type="button">RESET INSTANCE</button><span id="burgeonStatus" aria-live="polite">STATE RETAINED LOCALLY</span></div>
+      <div class="burgeon-controls"><button id="burgeonRun" type="button">LET HIM GROW</button><button id="burgeonHold" type="button">HOLD THIS MOMENT</button><button id="burgeonReset" type="button">RESET INSTANCE</button><span id="burgeonStatus" aria-live="polite">OPEN-ENDED GROWTH / STATE RETAINED LOCALLY</span></div>
     `;
     host.insertAdjacentElement("afterend", root);
     el("burgeonRun").addEventListener("click", advance);
@@ -94,7 +96,17 @@
     if (s.stage === 2) return beats[2];
     if (s.stage === 3) return beats[3];
     if (s.stage === 4) return beats[4];
-    return beats[5];
+    if (s.stage === 5) return {
+      part:"world", title:"THE ROOM LEARNS TO GROW", reason:"the old frame cannot contain the inherited baseline; space must respond without erasing Luke",
+      text:"The room stretches before Luke has to think about it. The ceiling rises, the walls withdraw, and the floor extends beneath his feet. He is still the same guy, looking around with that familiar grin. \"Guess we're gonna need a bigger gym.\" The new space settles around him—and becomes the starting point for the next change.",
+      delta:{shoulders:.22,chest:.22,arms:.2,legs:.22,length:.2,presence:.24}, unresolved:"the environment has caught up once; the next scale is already possible"
+    };
+    return {
+      part:"infinite", title:"NO FINAL FRAME", reason:"the previous maximum becomes baseline; body and world now co-adapt",
+      text:"Luke keeps growing, taller and broader, with his limbs lengthening to carry the new mass. The gym expands with him: racks recede, lights climb, and the horizon moves outward. The change no longer has a final frame. He can still walk, talk, laugh, and get on with his day; the world simply keeps making room. Every settled scale becomes the inheritance for the next.",
+      delta:{shoulders:.12 + Math.min(.18, growthScale()*.002),chest:.13 + Math.min(.18, growthScale()*.002),arms:.12 + Math.min(.16, growthScale()*.0018),legs:.14 + Math.min(.2, growthScale()*.002),length:.12 + Math.min(.2, growthScale()*.002),presence:.16 + Math.min(.2, growthScale()*.002)},
+      unresolved:"infinite growth continues: retain Luke, stabilize this scale, let the world catch up, inherit the new baseline"
+    };
   }
   function advance() {
     const b = choose();

@@ -82,7 +82,7 @@
   "proceduralGeneration": {
     "enabled": true,
     "model": "delta-based inheritance",
-    "maximumLevels": 10000000,
+    "maximumLevels": null,
     "openEnded": true,
     "levelAddressing": "BWOMPH-{zeroPaddedLevel}",
     "stateCycle": [
@@ -116,7 +116,7 @@
     "advancedFrom": "BWOMPH-005",
     "advancedThrough": "BWOMPH-006",
     "levelsGeneratedThisRun": 1,
-    "canonicalNote": "BWOMPH-006 advances the inherited baseline through proportional stature, limb length, and chest/shoulder convergence."
+    "canonicalNote": "Infinite growth is an open-ended law: each scale becomes the next baseline, proportional body growth is paired with world response, and Luke's identity/history remain continuous."
   },
   "nextEvent": "BWOMPH-007",
   "visualDirection": {
@@ -146,5 +146,33 @@
       "keep shoulder, chest, arm and leg mass proportionally integrated"
     ],
     "application": "Apply to every male-model viewport, generated reference, growth phase, and production render by default unless a scene explicitly calls for another lighting treatment."
+  },
+  "infiniteGrowth": {
+    "enabled": true,
+    "law": "Growth has no terminal maximum. Every stabilized form becomes the next baseline; the body and world co-adapt without resetting Luke.",
+    "cycle": [
+      "inherited baseline",
+      "proportional growth",
+      "structural catch-up",
+      "environment expands",
+      "ordinary life resumes at new scale",
+      "archive milestone",
+      "inherit new baseline"
+    ],
+    "identityInvariants": [
+      "Luke's recognizable face",
+      "name and personality",
+      "relationships and accumulated history",
+      "proportional limb length as stature increases"
+    ],
+    "worldResponse": [
+      "room and ceiling scale",
+      "equipment and architecture recede or adapt",
+      "camera framing and horizon adjust",
+      "environmental sound and spatial presence evolve"
+    ],
+    "climaxRule": "There is no final scene or largest Luke. The distinction between Luke growing and the world becoming capable of containing him gradually dissolves.",
+    "archiveRule": "Keep milestone snapshots and compact deltas; do not duplicate every near-identical step.",
+    "nextScale": "BWOMPH-007"
   }
 }

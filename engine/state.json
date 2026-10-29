@@ -1913,7 +1913,7 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
+      "pressure": 1,
       "memory": 0.97
     },
     {
@@ -1930,8 +1930,8 @@
       "narrative_rule": "comparison can become differentiation",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     },
     {
       "pulse": 117,
@@ -1947,8 +1947,8 @@
       "narrative_rule": "arrival activates aftermath",
       "relation": "HYPEER BASELINE",
       "next_region": "luke-bwomph",
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     }
   ],
   "visits": {
@@ -1956,7 +1956,7 @@
     "beefythiq": 9,
     "facility": 10,
     "embodied-scale": 10,
-    "luke-bwomph": 9,
+    "luke-bwomph": 10,
     "growth": 10,
     "deep-lore": 10,
     "male-harem": 13,
@@ -1971,7 +1971,7 @@
     "beefythiq": 93.5,
     "facility": 94.5,
     "embodied-scale": 95.5,
-    "luke-bwomph": 90.5,
+    "luke-bwomph": 117.5,
     "growth": 114.5,
     "deep-lore": 98.5,
     "male-harem": 105.5,
@@ -1981,8 +1981,8 @@
     "veyrthalis": 97.5,
     "bodylounger": 104.5
   },
-  "pressure": 1.0,
-  "memory": 1.0,
+  "pressure": 1,
+  "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 6,
     "creative/luke-bwomph.json": 14,
@@ -1996,35 +1996,43 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 7,
     "index.html": 7
   },
-  "next_region": "luke-bwomph",
-  "phase": 3,
-  "active_region": "growth",
-  "current_phase": "ROUTE_OPEN",
+  "next_region": null,
+  "phase": 0,
+  "active_region": "luke-bwomph",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "tension",
   "current_question": "Which existing relation now becomes traversable?",
   "current_narrative_rule": "arrival activates aftermath",
-  "next_relation": {
-    "title": "HYPEER BASELINE",
-    "text": "A completed Bwomph is not a reset. The newly stabilized Luke becomes the starting point for the next cycle.",
-    "from": "luke-bwomph",
-    "to": "growth"
-  },
+  "next_relation": null,
   "long_play": {
-    "cycle": 132,
-    "agent": "tyler",
-    "previous_region_id": "complex",
-    "region_id": "growth",
-    "region_name": "GROWTH CANVAS",
-    "relation": "KISS = CONTINUITY",
+    "cycle": 133,
+    "agent": "andrew",
+    "previous_region_id": "growth",
+    "region_id": "luke-bwomph",
+    "region_name": "LUKE // BWOMPH",
+    "relation": "HYPEER BASELINE",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 10.85,
-    "scale": 10.9,
-    "recording": "scheduled-recording-00132",
-    "at": "2026-10-29T18:52:24.660Z"
+    "previous_scale": 10.9,
+    "scale": 10.98,
+    "recording": "scheduled-recording-00133",
+    "at": "2026-10-29T23:10:38.818Z"
   },
-  "last_world_change": "2026-10-29T18:52:24.660Z",
-  "scale": 10.9,
+  "last_world_change": "2026-10-29T23:10:38.818Z",
+  "scale": 10.98,
   "external_events": [
+    {
+      "id": "long-play-00133",
+      "type": "CROSSING",
+      "title": "GROWTH CANVAS → LUKE // BWOMPH",
+      "body": "The world crossed \"HYPEER BASELINE\". Scale increased from 10.90× to 10.98×; the earlier location and baseline remain recorded.",
+      "from": "growth",
+      "to": "luke-bwomph",
+      "previous_region_id": "growth",
+      "region_id": "luke-bwomph",
+      "relation": "HYPEER BASELINE",
+      "source": "long-play",
+      "at": "2026-10-29T23:10:38.818Z"
+    },
     {
       "id": "long-play-00132",
       "type": "CROSSING",
@@ -3311,19 +3319,6 @@
       "relation": "A RELATIONSHIP HAS GEOMETRY",
       "source": "long-play",
       "at": "2026-10-12T09:47:39.180Z"
-    },
-    {
-      "id": "long-play-00033",
-      "type": "CROSSING",
-      "title": "LUKE // BWOMPH → DEEP LORE",
-      "body": "The world crossed \"THE FACE REMAINS\". Scale increased from 4.50× to 4.58×; the earlier location and baseline remain recorded.",
-      "from": "luke-bwomph",
-      "to": "deep-lore",
-      "previous_region_id": "luke-bwomph",
-      "region_id": "deep-lore",
-      "relation": "THE FACE REMAINS",
-      "source": "long-play",
-      "at": "2026-10-12T02:39:57.240Z"
     }
   ]
 }

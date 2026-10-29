@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-29T00:14:55.066Z",
+  "generated": "2026-10-29T05:59:50.315Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00130",
+      "at": "2026-10-29T05:59:50.315Z",
+      "from": "geehub-long-play",
+      "to": "chase",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / MUSCLE MYTH → COLOSSAL ESCALATION / CHASE",
+      "body": "The world crossed the existing relation \"THE CITY LEARNS HIS NAME\" from MUSCLE MYTH into COLOSSAL ESCALATION. Scale increased from 10.78× to 10.82×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00130",
+      "live": true,
+      "regionId": "colossal-escalation",
+      "previousRegionId": "muscle-myth",
+      "relation": "THE CITY LEARNS HIS NAME"
+    },
     {
       "id": "scheduled-long-play-00129",
       "at": "2026-10-29T00:14:55.066Z",
@@ -1488,21 +1503,6 @@
       "regionId": "growth",
       "previousRegionId": "luke-bwomph",
       "relation": "HYPEER BASELINE"
-    },
-    {
-      "id": "scheduled-long-play-00030",
-      "at": "2026-10-11T15:44:18.901Z",
-      "from": "geehub-long-play",
-      "to": "chase",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / EMBODIED SCALE → LUKE // BWOMPH / CHASE",
-      "body": "The world crossed the existing relation \"THE BAR GYM REMEMBERS\" from EMBODIED SCALE into LUKE // BWOMPH. Scale increased from 4.38× to 4.42×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00030",
-      "live": true,
-      "regionId": "luke-bwomph",
-      "previousRegionId": "embodied-scale",
-      "relation": "THE BAR GYM REMEMBERS"
     }
   ]
 }

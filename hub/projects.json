@@ -472,5 +472,27 @@
       "continuity",
       "growth"
     ]
+  },
+  {
+    "id": "media-tools",
+    "name": "Media Inspector",
+    "group": "engine",
+    "status": "active",
+    "summary": "Source-first inspection of animated WebP and video references; browser playback, frame stepping, and provenance-preserving motion analysis.",
+    "path": "../engine/media-inspector.html",
+    "tags": [
+      "inspect",
+      "motion",
+      "video",
+      "animation",
+      "provenance",
+      "growth",
+      "source"
+    ],
+    "related": [
+      "sensation-engine",
+      "vision-workspace",
+      "inspect-2026-10-29-growth-motion"
+    ]
   }
 ]

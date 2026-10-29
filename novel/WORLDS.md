@@ -1261,3 +1261,11 @@ SETH: A line becomes visible between GROWTH CANVAS and LUKE // BWOMPH. The archi
 NICK: A completed Bwomph is not a reset. The newly stabilized Luke becomes the starting point for the next cycle. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: research/embodied-scale/README.md. Pressure 1.00; memory 1.00.
+
+## LUKE // BWOMPH / pulse 118 / ATMOSPHERE
+
+SETH: Luke stands in familiar bar-gym light, mirrors clouded at their edges and chalk pressed into the rubber floor. His shoulders fill more of the tank top, while his face remains his own.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: creative/luke-bwomph.json. Pressure 1.00; memory 1.00.

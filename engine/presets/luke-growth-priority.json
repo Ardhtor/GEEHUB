@@ -1,0 +1,79 @@
+{
+  "id": "luke-growth-priority",
+  "name": "Luke — Growth Priority",
+  "version": 1,
+  "status": "active",
+  "subject": "Luke",
+  "purpose": "Generate the next continuous growth phase from Luke's latest accepted visual state, prioritizing the user's requested direction over conservative defaults.",
+  "invoke": [
+    "Grow Luke",
+    "Next growth phase",
+    "Fuse Luke with this reference",
+    "Continue Luke's transformation"
+  ],
+  "continuity": {
+    "identity_lock": true,
+    "preserve": [
+      "recognizable face and facial proportions",
+      "beard, hair, expression, and established personality",
+      "existing pose or scene details that remain relevant",
+      "the latest accepted size and silhouette as the minimum baseline"
+    ],
+    "never_reset_to_original": true,
+    "latest_user_direction_has_priority": true,
+    "reference_fusion": "Use the new reference as a source of physical design, material, silhouette, or mood. Fuse its useful traits into Luke while keeping Luke recognizably Luke; do not replace his identity with the reference subject."
+  },
+  "growth": {
+    "mode": "continuous_progressive_escalation",
+    "priority_order": [
+      "height and total stature",
+      "limb length and usable reach",
+      "rounded shoulder width and depth",
+      "deep, wide, full pectorals",
+      "upper-arm and forearm volume",
+      "torso thickness and coherent abdominal mass",
+      "thigh, hamstring, and calf volume",
+      "hands, feet, joints, and posture scaled to match"
+    ],
+    "scale_all_dimensions_together": true,
+    "avoid_compact_or_squat_result": true,
+    "avoid_isolated_inflated_muscle_balloons": true,
+    "silhouette_goal": "towering, monumental, broad and deep through the upper body, with long limbs and massive legs; physically coherent even at impossible fantasy scale",
+    "growth_delta": "Make a clearly visible increase from the latest accepted state. Do not choose a tiny or merely cosmetic change unless the user specifically requests subtlety."
+  },
+  "visual_style": {
+    "default": "lifelike fantasy-strongman with clean, confident visual readability",
+    "body": "rounded continuous muscle forms, connected anatomy, natural tissue transitions, realistic skin or explicitly requested reference material",
+    "expression": "warm, relaxed, self-assured, and recognizably Luke",
+    "pose": "comfortable and grounded; communicate mass through balance, reach, contact, and spatial relationships",
+    "camera": "low-angle or near-field perspective when it strengthens the scale",
+    "environment": "show believable scale cues and reactions to Luke's size",
+    "clothing": "preserve established clothing when appropriate; make fabric drape, stretch, wrinkle, and compress around the enlarged body",
+    "lighting": "coherent broad light and gradual shadow falloff"
+  },
+  "negative_checks": [
+    "Do not change Luke's face into the reference subject's face.",
+    "Do not shrink height or shorten arms and legs to fit the frame.",
+    "Do not preserve old proportions at the expense of the requested growth.",
+    "Do not turn connected muscle into sharp triangular wedges or disconnected spheres.",
+    "Do not default to photorealism when the user explicitly wants illustrated or CG styling.",
+    "Do not repeat the same scale change without adding a meaningful new stage.",
+    "Do not treat previous output size as a ceiling."
+  ],
+  "acceptance_test": [
+    "Luke remains recognizable.",
+    "The growth is visibly greater than the latest accepted baseline.",
+    "Height and limb length grow alongside muscular mass.",
+    "Shoulders, chest, arms, torso, thighs, and calves read as one coherent body.",
+    "The chosen reference is fused into the design without replacing Luke.",
+    "The result visibly follows the user's most recent correction."
+  ],
+  "portable_result": {
+    "record_prior_state": true,
+    "record_changes": true,
+    "record_user_preference": true,
+    "save_new_state_as_next_baseline": true,
+    "status_default": "experiment",
+    "artifact_filename_pattern": "luke-growth-{sequence}-{short-description}"
+  }
+}

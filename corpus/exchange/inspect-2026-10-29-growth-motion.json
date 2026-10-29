@@ -27,11 +27,13 @@
   "interface_url": "https://github.com/Ardhtor/GEEHUB/blob/main/engine/media-inspector.html",
   "verified": [
     "Both source files exist in Dropbox and their byte sizes were returned by Dropbox.",
-    "Dedicated one-click controls were committed to the GEEHUB Media Inspector."
+    "Dedicated one-click controls were committed to the GEEHUB Media Inspector.",
+    "Media Inspector now samples evenly spaced frames from a loaded video and displays a contact sheet locally.",
+    "Media Inspector exports a timestamped motion-recipe JSON with fields for silhouette, camera, growth progression, tempo, continuity, lighting, and distinctive events."
   ],
   "unresolved": [
-    "The source bytes have not yet been decoded for model-side frame-by-frame analysis.",
-    "Dropbox may refuse browser-native inline playback for the MOV; local-file fallback is available."
+    "Dropbox may refuse browser-native inline playback for the MOV; local-file fallback is available.",
+    "Frame-level analysis still requires the source to load successfully in the browser; Dropbox inline playback may be blocked."
   ],
-  "next_action": "Open the inspector, load each source, record visible timing and body/camera cues, then convert the findings into a reusable motion recipe without replacing the original files."
+  "next_action": "Open the original MOV in the inspector, click SAMPLE MOTION, review the contact sheet, and export the motion recipe."
 }

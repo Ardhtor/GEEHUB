@@ -203,3 +203,8 @@ The individual-moment principle means the shared parallel history: recurring peo
 ## Innervation
 
 The soundtrack acts on the world instead of narrating feelings about it. **SIGNAL → BODY/SPACE RESPONSE → ACTION → SONIC RESIDUE → NEXT SIGNAL.** Each cue must initiate movement, alter pace, reveal presence, change spatial scale, reconnect a historical moment, mark a threshold, or establish a motif. See [engine/INNERVATION_ENGINE.md](engine/INNERVATION_ENGINE.md) for the action contract and cue output.
+
+## Luke growth tool
+
+The reusable generation contract is [`engine/presets/luke-growth-priority.json`](engine/presets/luke-growth-priority.json), linked to the [Sensation Engine](SENSATION_ENGINE.md) and Luke's [character workspace](creative/measure-between-us/repos/luke-inside/README.md). Use **“Grow Luke,” “Next growth phase,”** or **“Fuse Luke with this reference”** to invoke its direction in a generation workflow. The latest accepted state is the starting point; the user's requested growth takes priority over conservative defaults. Height and limb length rise with mass, Luke's identity remains continuous, and each accepted result becomes the next baseline.
+

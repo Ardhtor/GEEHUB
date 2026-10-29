@@ -15,3 +15,10 @@ Luke is not only the mystery Chase discovers. He gets to decide what the change 
 ## Guardrails
 
 The Luke in this workspace is a fictional adaptation. The supplied image is a visual reference, not proof of appearance or a claim about the real account holder. This file does not speak as or for that person.
+
+## Growth-priority preset
+
+Use the reusable preset at [`engine/presets/luke-growth-priority.json`](../../../../engine/presets/luke-growth-priority.json) for image-generation and reference-fusion requests. Invocation phrases include **“Grow Luke,” “Next growth phase,”** and **“Fuse Luke with this reference.”**
+
+The latest accepted Luke state is the minimum baseline, never a ceiling. Prioritize height and limb length alongside mass; then increase rounded shoulder width, deep full pecs, arms, torso, thighs, and calves as one coherent anatomy. Keep Luke's recognizable face, beard, warmth, and personhood. When fusing a reference, borrow its scale, material, silhouette, or mood without substituting its identity for Luke's. Make a clearly visible next-stage change unless the user asks for subtlety. Record the new state and the user's correction so the next phase inherits them.
+

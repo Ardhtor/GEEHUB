@@ -1245,3 +1245,11 @@ SETH: Cool blue light moves along the wall and catches the shoulder line of a fa
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: creative/luke-bwomph.json. Pressure 1.00; memory 0.97.
+
+## GROWTH CANVAS / pulse 116 / MEMORY
+
+NICK: A detail returns in GROWTH CANVAS: Fabric settles across a broader back when the man rolls his shoulders. The former outline remains visible on the floor, and the new stance rests beyond it without erasing it.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was creative/luke-bwomph.json.
+
+Source retained: creative/luke-bwomph.json. Pressure 1.00; memory 1.00.

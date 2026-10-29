@@ -2380,6 +2380,27 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue the retained world state"
+    },
+    {
+      "id": "world-production-000116",
+      "created_at": "2026-10-29T19:08:11.661417+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "MEMORY / GROWTH CANVAS / creative/luke-bwomph.json",
+      "content": "NICK: A detail returns in GROWTH CANVAS: Fabric settles across a broader back when the man rolls his shoulders. The former outline remains visible on the floor, and the new stance rests beyond it without erasing it.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was creative/luke-bwomph.json.",
+      "production_note": "The world resolved its memory rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 116,
+        "actor": "TYLER",
+        "world": "GROWTH CANVAS",
+        "region_id": "growth",
+        "source": "creative/luke-bwomph.json",
+        "phase": "MEMORY",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
     }
   ]
 }

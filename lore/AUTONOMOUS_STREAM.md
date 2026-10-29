@@ -901,3 +901,11 @@ SETH: Cool blue light moves along the wall and catches the shoulder line of a fa
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 116 — MEMORY / GROWTH CANVAS / 2026-10-29T19:08:11.661417+00:00
+
+NICK: A detail returns in GROWTH CANVAS: Fabric settles across a broader back when the man rolls his shoulders. The former outline remains visible on the floor, and the new stance rests beyond it without erasing it.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was creative/luke-bwomph.json.
+
+Rule: comparison can become differentiation

@@ -1,5 +1,5 @@
 {
-  "pulse": 115,
+  "pulse": 116,
   "events": [
     {
       "pulse": 1,
@@ -1915,6 +1915,23 @@
       "next_region": null,
       "pressure": 1.0,
       "memory": 0.97
+    },
+    {
+      "pulse": 116,
+      "time": "2026-10-29T19:08:11.661417+00:00",
+      "actor": "TYLER",
+      "world": "GROWTH CANVAS",
+      "region_id": "growth",
+      "previous_region_id": "growth",
+      "phase": "MEMORY",
+      "source": "creative/luke-bwomph.json",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in GROWTH CANVAS: Fabric settles across a broader back when the man rolls his shoulders. The former outline remains visible on the floor, and the new stance rests beyond it without erasing it.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was creative/luke-bwomph.json.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0
     }
   ],
   "visits": {
@@ -1948,10 +1965,10 @@
     "bodylounger": 104.5
   },
   "pressure": 1.0,
-  "memory": 0.97,
+  "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 6,
-    "creative/luke-bwomph.json": 13,
+    "creative/luke-bwomph.json": 14,
     "lore/DEEP_LORE.md": 12,
     "world.json": 15,
     "research/embodied-scale/README.md": 13,
@@ -1963,12 +1980,12 @@
     "index.html": 7
   },
   "next_region": null,
-  "phase": 1,
+  "phase": 2,
   "active_region": "growth",
-  "current_phase": "ATMOSPHERE",
-  "current_desire_state": "attention",
-  "current_question": "What does this place do while nobody intervenes?",
-  "current_narrative_rule": "approach extends geography",
+  "current_phase": "MEMORY",
+  "current_desire_state": "recognition",
+  "current_question": "Which detail remains from the prior state?",
+  "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null,
   "long_play": {
     "cycle": 132,

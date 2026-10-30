@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00136.json",
+  "activeRecording": "./recordings/scheduled-recording-00137.json",
   "activeEncounter": {
-    "regionId": "veyrthalis",
-    "regionName": "VEYRTHALIS",
+    "regionId": "deep-lore",
+    "regionName": "DEEP LORE",
     "subject": {
-      "agent": "luke",
-      "scale": 11.17,
+      "agent": "tyler",
+      "scale": 11.22,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / DISCOVERY → VEYRTHALIS / LUKE",
+    "intent": "LONG PLAY / VEYRTHALIS → DEEP LORE / TYLER",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 11.14× → 11.17×",
-      "DISCOVERY → VEYRTHALIS",
-      "relation: THE DOOR REMEMBERS",
+      "scale 11.17× → 11.22×",
+      "VEYRTHALIS → DEEP LORE",
+      "relation: DEPARTURE LEAVES A SHAPE",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "discovery"
+    "previousRegionId": "veyrthalis"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-30T15:57:26.821Z",
+  "snapshot": "2026-10-30T20:40:08.005Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 136,
-    "agent": "luke",
-    "previousRegionId": "discovery",
-    "regionId": "veyrthalis",
-    "relation": "THE DOOR REMEMBERS",
+    "cycle": 137,
+    "agent": "tyler",
+    "previousRegionId": "veyrthalis",
+    "regionId": "deep-lore",
+    "relation": "DEPARTURE LEAVES A SHAPE",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 11.14,
-    "scale": 11.17,
-    "recording": "scheduled-recording-00136",
-    "at": "2026-10-30T15:57:26.821Z"
+    "previousScale": 11.17,
+    "scale": 11.22,
+    "recording": "scheduled-recording-00137",
+    "at": "2026-10-30T20:40:08.005Z"
   }
 }

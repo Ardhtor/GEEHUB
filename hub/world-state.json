@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00134.json",
+  "activeRecording": "./recordings/scheduled-recording-00135.json",
   "activeEncounter": {
-    "regionId": "embodied-scale",
-    "regionName": "EMBODIED SCALE",
+    "regionId": "discovery",
+    "regionName": "DISCOVERY",
     "subject": {
-      "agent": "joseph",
-      "scale": 11.1,
+      "agent": "chase",
+      "scale": 11.14,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / LUKE // BWOMPH → EMBODIED SCALE / JOSEPH",
+    "intent": "LONG PLAY / EMBODIED SCALE → DISCOVERY / CHASE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 10.98× → 11.10×",
-      "LUKE // BWOMPH → EMBODIED SCALE",
-      "relation: THE BAR GYM REMEMBERS",
+      "scale 11.10× → 11.14×",
+      "EMBODIED SCALE → DISCOVERY",
+      "relation: SCALE HAS HISTORY",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "luke-bwomph"
+    "previousRegionId": "embodied-scale"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-30T02:38:17.484Z",
+  "snapshot": "2026-10-30T09:01:56.775Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 134,
-    "agent": "joseph",
-    "previousRegionId": "luke-bwomph",
-    "regionId": "embodied-scale",
-    "relation": "THE BAR GYM REMEMBERS",
+    "cycle": 135,
+    "agent": "chase",
+    "previousRegionId": "embodied-scale",
+    "regionId": "discovery",
+    "relation": "SCALE HAS HISTORY",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 10.98,
-    "scale": 11.1,
-    "recording": "scheduled-recording-00134",
-    "at": "2026-10-30T02:38:17.484Z"
+    "previousScale": 11.1,
+    "scale": 11.14,
+    "recording": "scheduled-recording-00135",
+    "at": "2026-10-30T09:01:56.775Z"
   }
 }

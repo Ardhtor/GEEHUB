@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00135",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "discovery",
+  "position": {
+    "x": 78,
+    "y": 83,
+    "z": 0
+  },
+  "camera": {
+    "x": 78,
+    "y": 83,
+    "z": 1.7,
+    "heading": 225,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "chase",
+    "scale": 11.14,
+    "priorScale": 11.1,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 11.14,
+    "clearance": 0.0898,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "SCALE HAS HISTORY"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "embodied-scale",
+      "name": "EMBODIED SCALE"
+    },
+    {
+      "type": "region",
+      "id": "discovery",
+      "name": "DISCOVERY"
+    },
+    {
+      "type": "relation",
+      "title": "SCALE HAS HISTORY"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 11.1,
+      "to": 11.14
+    },
+    {
+      "property": "location.regionId",
+      "from": "embodied-scale",
+      "to": "discovery",
+      "relation": "SCALE HAS HISTORY"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0901,
+      "to": 0.0898
+    }
+  ],
+  "intent": "LONG PLAY / EMBODIED SCALE → DISCOVERY / CHASE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 135,
+    "previousRegionId": "embodied-scale",
+    "regionId": "discovery",
+    "relation": "SCALE HAS HISTORY",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 11.1,
+    "scaleBaselineTo": 11.14
+  },
+  "timestamp": "2026-10-30T09:01:56.775Z"
+}

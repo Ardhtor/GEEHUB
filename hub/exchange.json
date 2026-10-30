@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-29T23:10:38.818Z",
+  "generated": "2026-10-30T02:38:17.484Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00134",
+      "at": "2026-10-30T02:38:17.484Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / LUKE // BWOMPH → EMBODIED SCALE / JOSEPH",
+      "body": "The world crossed the existing relation \"THE BAR GYM REMEMBERS\" from LUKE // BWOMPH into EMBODIED SCALE. Scale increased from 10.98× to 11.10×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00134",
+      "live": true,
+      "regionId": "embodied-scale",
+      "previousRegionId": "luke-bwomph",
+      "relation": "THE BAR GYM REMEMBERS"
+    },
     {
       "id": "scheduled-long-play-00133",
       "at": "2026-10-29T23:10:38.818Z",
@@ -1488,21 +1503,6 @@
       "regionId": "colossal-escalation",
       "previousRegionId": "male-harem",
       "relation": "MASS WITHOUT AMNESIA"
-    },
-    {
-      "id": "scheduled-long-play-00034",
-      "at": "2026-10-12T09:47:39.180Z",
-      "from": "geehub-long-play",
-      "to": "joseph",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / DEEP LORE → MALE HAREM / JOSEPH",
-      "body": "The world crossed the existing relation \"A RELATIONSHIP HAS GEOMETRY\" from DEEP LORE into MALE HAREM. Scale increased from 4.58× to 4.70×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00034",
-      "live": true,
-      "regionId": "male-harem",
-      "previousRegionId": "deep-lore",
-      "relation": "A RELATIONSHIP HAS GEOMETRY"
     }
   ]
 }

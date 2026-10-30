@@ -1285,3 +1285,11 @@ SETH: Rain shifts across the northern road. A loose sign turns twice against its
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: novel/REWRITTEN_OPENING.md. Pressure 1.00; memory 1.00.
+
+## VEYRTHALIS / pulse 121 / ATMOSPHERE
+
+SETH: Fog threads between amber trunks and softens the stone base of the Digitorium. Blue windows brighten one after another above wet steps, and the Procession remains quiet on its bridge.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md. Pressure 1.00; memory 1.00.

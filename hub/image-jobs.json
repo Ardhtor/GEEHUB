@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00136",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00136.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "DISCOVERY → VEYRTHALIS / LUKE",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00136. Travel from DISCOVERY into VEYRTHALIS through the relation \"THE DOOR REMEMBERS\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 11.14× to 11.17× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-10-30T15:57:26.821Z",
+      "lineage": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS",
+        "cycle": 136
+      }
+    },
+    {
       "id": "scheduled-image-00135",
       "status": "QUEUED",
       "type": "IMAGE",

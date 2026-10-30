@@ -1293,3 +1293,11 @@ SETH: Fog threads between amber trunks and softens the stone base of the Digitor
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md. Pressure 1.00; memory 1.00.
+
+## DEEP LORE / pulse 122 / ATMOSPHERE
+
+SETH: Several scratches on the wall resolve into marks made at different times. Dust sits in the baseboard groove beside a small object someone left and did not retrieve.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: lore/DEEP_LORE.md. Pressure 1.00; memory 1.00.

@@ -1,13 +1,12 @@
 -- GEEHUB / DaVinci Resolve Free bridge
 -- Run from Workspace > Scripts > Utility inside DaVinci Resolve.
--- This script runs in Resolve's own Lua environment; it does not require Studio's
--- external scripting permission.
+-- Safe to run more than once: existing bins are reused, not deleted.
 
 local function report(message)
     print("[GEEHUB] " .. tostring(message))
 end
 
-local function safe_call(label, fn)
+local function call(label, fn)
     local ok, result = pcall(fn)
     if not ok then
         report(label .. " failed: " .. tostring(result))
@@ -17,79 +16,138 @@ local function safe_call(label, fn)
 end
 
 if resolve == nil then
-    report("Resolve scripting context is missing. Run this from Workspace > Scripts.")
+    report("No Resolve scripting context. Run this from Workspace > Scripts.")
     return
 end
 
-local manager = safe_call("GetProjectManager", function()
+local manager = call("GetProjectManager", function()
     return resolve:GetProjectManager()
 end)
-
-if manager == nil then
-    report("Could not access the project manager.")
+if not manager then
+    report("Cannot access the Project Manager.")
     return
 end
 
-local project_name = "GEEHUB Growth Studio"
-local project = safe_call("CreateProject", function()
-    return manager:CreateProject(project_name)
+local projectName = "GEEHUB Growth Studio"
+local project = call("GetCurrentProject", function()
+    return manager:GetCurrentProject()
 end)
 
-if project == nil then
-    -- Never overwrite or reset an existing project. If it already exists,
-    -- use the currently open project only when its name matches exactly.
-    local current = safe_call("GetCurrentProject", function()
-        return manager:GetCurrentProject()
+if not project or project:GetName() ~= projectName then
+    project = call("CreateProject", function()
+        return manager:CreateProject(projectName)
     end)
-    if current ~= nil and current:GetName() == project_name then
-        project = current
-        report("Using the existing GEEHUB Growth Studio project.")
-    else
-        report("Could not create the project. A project with that name may already exist; open it and run again.")
-        return
-    end
-else
-    report("Created project: " .. project_name)
 end
 
-local pool = safe_call("GetMediaPool", function()
+if not project then
+    report("Could not create or open the GEEHUB project. Check whether a project with that name already exists.")
+    return
+end
+
+report("Project: " .. project:GetName())
+
+local pool = call("GetMediaPool", function()
     return project:GetMediaPool()
 end)
-
-if pool == nil then
-    report("Project opened, but the media pool was unavailable.")
+if not pool then
+    report("Media Pool API is unavailable.")
     return
 end
 
-local folders = { "01_SOURCE", "02_FRAMES", "03_GROWTH_PASSES", "04_COMPOSITES", "05_EXPORTS" }
-local root = safe_call("GetRootFolder", function()
+local root = call("GetRootFolder", function()
     return pool:GetRootFolder()
 end)
-
-if root == nil then
-    report("Project opened, but the root media-pool folder was unavailable.")
+if not root then
+    report("Could not retrieve the Media Pool root folder.")
     return
 end
 
-local created = 0
-for _, name in ipairs(folders) do
-    local folder = safe_call("CreateFolder " .. name, function()
-        return pool:CreateFolder(name)
-    end)
-    if folder ~= nil then created = created + 1 end
+local selected = call("SetCurrentFolder(root)", function()
+    return pool:SetCurrentFolder(root)
+end)
+if selected == false then
+    report("Resolve refused to select the Media Pool root folder.")
+    return
 end
 
-local timeline_name = "GEEHUB_GROWTH_SEQUENCE"
-local timeline = safe_call("CreateEmptyTimeline", function()
-    return pool:CreateEmptyTimeline(timeline_name)
+local names = {
+    "01_SOURCE",
+    "02_FRAMES",
+    "03_GROWTH_PASSES",
+    "04_COMPOSITES",
+    "05_EXPORTS"
+}
+
+local function findFolder(parent, name)
+    local children = call("GetSubFolderList", function()
+        return parent:GetSubFolderList()
+    end) or {}
+    for _, folder in ipairs(children) do
+        local folderName = call("GetName", function()
+            return folder:GetName()
+        end)
+        if folderName == name then return folder end
+    end
+    return nil
+end
+
+local created, reused, failed = 0, 0, 0
+for _, name in ipairs(names) do
+    local folder = findFolder(root, name)
+    if folder then
+        reused = reused + 1
+        report("Already exists: " .. name)
+    else
+        call("Select root before " .. name, function()
+            return pool:SetCurrentFolder(root)
+        end)
+        folder = call("CreateFolder " .. name, function()
+            return pool:CreateFolder(name)
+        end)
+        if folder then
+            created = created + 1
+            report("Created: " .. name)
+        else
+            -- Verify whether Resolve created it despite returning no handle.
+            folder = findFolder(root, name)
+            if folder then
+                reused = reused + 1
+                report("Created and verified: " .. name)
+            else
+                failed = failed + 1
+                report("Could not create: " .. name)
+            end
+        end
+    end
+end
+
+local timelineName = "GEEHUB_GROWTH_SEQUENCE"
+local currentTimeline = call("GetCurrentTimeline", function()
+    return project:GetCurrentTimeline()
+end)
+if not currentTimeline or currentTimeline:GetName() ~= timelineName then
+    local timeline = call("CreateEmptyTimeline", function()
+        return pool:CreateEmptyTimeline(timelineName)
+    end)
+    if timeline then
+        report("Created timeline: " .. timelineName)
+    else
+        report("Timeline not created; it may already exist. Existing project timeline was left untouched.")
+    end
+else
+    report("Using existing timeline: " .. timelineName)
+end
+
+call("Restore root folder selection", function()
+    return pool:SetCurrentFolder(root)
 end)
 
-if timeline ~= nil then
-    report("Created timeline: " .. timeline_name)
-else
-    report("Timeline was not created (it may already exist).")
+local verified = 0
+for _, name in ipairs(names) do
+    if findFolder(root, name) then verified = verified + 1 end
 end
 
-report("Setup complete. Created " .. tostring(created) .. " media bins.")
-report("Import the source clip into 01_SOURCE, then build the edit on GEEHUB_GROWTH_SEQUENCE.")
-report("GEEHUB does not render body growth yet; this bridge prepares Resolve for editorial, compositing, and export.")
+report("BIN CHECK: " .. tostring(verified) .. "/5 verified in the Media Pool root.")
+report("New bins: " .. tostring(created) .. "; existing bins: " .. tostring(reused) .. "; failures: " .. tostring(failed))
+report("If bins are still not visible, open the Edit page and enable View > Show Media Pool.")
+report("This bridge organizes Resolve; GEEHUB's automatic body-growth renderer is still under development.")

@@ -17,6 +17,16 @@ A source person remains recognizably the same person while their body changes ov
 7. **Validation** — identity drift, landmark jitter, proportion discontinuity, clipping, and scene-contact checks.
 8. **Archive** — immutable source, state snapshots, render settings, outputs, and lineage.
 
+## Implemented geometry slice
+
+The new core/growth-mesh.js module turns a tracked source frame plus baseline and target body states into explicit target landmarks. It extends the ankle-to-knee segment from the stature channel, the knee-to-hip segment from thigh length, the hip-center-to-neck/shoulder segment from torso length, the shoulder span horizontally, and each arm segment from its parent joint. The ankles remain fixed. The face-center anchor follows the neck without changing its offset and is excluded from the body-mesh anchor list.
+
+The mapper reports the requested stature ratio, the projected stature measured from the mapped landmarks, and any anchors that leave the normalized frame so a director can request a camera reframe instead of silently clipping the subject. renderGrowthMesh passes mapped body anchors to the existing piecewise-affine Canvas warp when a caller supplies a valid body-only triangle mesh.
+
+Chest depth and regional mass channels are deliberately deferred. They require segmentation-derived silhouette geometry, depth, or a 3D body representation; this module does not fake them with centerline landmarks. Face pixels are protected only when the caller's triangle mesh excludes the face region. Automatic segmentation, landmark detection, and mesh generation are not implemented here.
+
+Focused tests live in core/growth-mesh.test.js and cover baseline stability, articulated segment scaling, shoulder width, face offset, ground contact, reframe detection, invalid growth, and the supplied-triangle render call.
+
 ## First implementation boundary
 
 This branch establishes the product contract and deterministic growth-state core. It does **not** claim to solve photorealistic video deformation yet. The renderer is an adapter boundary: it can later connect to a native 3D character pipeline, a generative video model, or a hybrid tracked-compositing system without changing the growth-state model.
@@ -32,12 +42,12 @@ Use a short portrait source clip. Establish a baseline state, create at least th
 
 ## Runtime
 
-The core is dependency-free JavaScript (ES modules). It can run in a browser or Node. Renderer adapters must implement the contract described in `core/renderer-contract.md`.
+The core is dependency-free JavaScript (ES modules). It can run in a browser or Node. Renderer adapters must implement the contract described in core/renderer-contract.md.
 
 ## Development sequence
 
 - **Slice 001:** project model, state interpolation, continuity validation.
 - **Slice 002:** source-video ingest and frame/landmark tracking.
 - **Slice 003:** identity-locked body segmentation and 2D/3D correspondence.
-- **Slice 004:** body deformation solver and garment response.
+- **Slice 004:** articulated growth-landmark mapping and caller-supplied triangle warp; automatic masks and temporal mesh tracking remain open.
 - **Slice 005:** temporal render, validation, and export.

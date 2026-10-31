@@ -22,6 +22,16 @@ A frame is a surface carrying evidence of a body. A sequence is a body changing 
 
 The intended sensation is escalation with continuity. Scale may become startling; identity must remain. Growth should be felt in the whole scene, not merely in a swollen patch of pixels. The room may become too small. Fabric may pull. The camera may need to look upward. Yet every consequence must arise from a coherent state, not from arbitrary distortion.
 
+## 2026-10-31 — The body acquires an articulated measure
+
+The measuring frame now converts a tracked source pose and two approved body states into a second set of joint positions. The feet remain planted. Stature lengthens the lower leg; thigh length changes the segment above the knee; torso length carries the neck and shoulders upward; shoulder breadth and arm length can be adjusted independently. The face center travels with the neck without changing its offset, and it is kept outside the body-mesh anchor list.
+
+The mapped joints can now be handed to the existing triangle-warp primitive when a caller supplies a body-only mesh. The instrument also measures the resulting projected height and marks any joint that leaves the frame. That gives the director evidence for a camera reframe instead of letting the subject disappear beyond the image. Chest depth and regional mass remain beyond this instrument until a silhouette mask, depth estimate, or 3D body representation is available.
+
+This is a geometry pass, not an automatic body scan. Four focused Node tests exercise baseline stability, articulated segment scaling, shoulder breadth, face offset, ground contact, frame-bound detection, invalid growth, and the supplied-triangle render call. No source footage has been processed, no segmentation model has run, and no Resolve render has been verified.
+
+The next construction is the bridge manifest: one versioned record through which source media, tracked frames, creative intent, render jobs, and resulting artifacts can pass without losing their lineage.
+
 ## Chronicle rule
 
 Every future entry must be grounded in repository changes, tested behavior, user-confirmed runtime results, or clearly labeled proposals. Do not write an implementation as if it has run. Do not turn missing capabilities into lore that disguises their absence. The narrative is the machine's construction record, and the construction record is part of the machine.

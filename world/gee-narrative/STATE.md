@@ -2,6 +2,12 @@
 
 Updated: 2026-10-31
 
+## New mirror layer committed
+- `scripts/sync-macos.sh` performs a guarded fast-forward update, installs all Resolve Lua scripts, and refreshes Dropbox exchange folders when available.
+- `SYNC.md` documents the one-sweep local mirror workflow and its safety boundaries.
+- `.github/workflows/package-geehub.yml` packages a portable snapshot on branch pushes and manual workflow dispatch.
+- The mirror is pull-based: the user must run the local sync command. GitHub cannot directly write to the Mac without a local agent and explicit machine access.
+
 ## Confirmed working
 - GitHub repository and the `growth-video-studio-foundation` branch are available for development.
 - Resolve Free Lua Console is active on the user's Mac.

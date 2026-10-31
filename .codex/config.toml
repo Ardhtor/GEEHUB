@@ -1,0 +1,11 @@
+# Project-local Codex defaults for GEEHUB.
+# Keep this file portable; machine-specific paths belong in environment variables.
+
+[project]
+name = "GEEHUB"
+instructions = "../AGENTS.md"
+
+[environment]
+GEEHUB_PROJECT_ROOT = "."
+GEEHUB_RESOLVE_INTEGRATION = "engine/growth-video-studio/integrations/davinci-resolve-free"
+GEEHUB_BRIDGE_DIR = "bridge"

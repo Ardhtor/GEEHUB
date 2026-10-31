@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00138",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00138.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "luke-bwomph",
+        "relation": "THE FACE REMAINS"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-10-31T00:07:14.338Z"
+    },
+    {
+      "id": "scheduled-video-00138",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00138.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "luke-bwomph",
+        "relation": "THE FACE REMAINS"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-10-31T00:07:14.338Z"
+    },
+    {
+      "id": "scheduled-space-00138",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00138.json",
+      "route": {
+        "from": "deep-lore",
+        "to": "luke-bwomph",
+        "relation": "THE FACE REMAINS"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-10-31T00:07:14.338Z"
+    },
+    {
       "id": "scheduled-sound-00137",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-13T21:28:05.644Z"
-    },
-    {
-      "id": "scheduled-sound-00038",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00038.json",
-      "route": {
-        "from": "colossal-escalation",
-        "to": "complex",
-        "relation": "THE HORIZON MOVES"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-13T16:23:10.831Z"
-    },
-    {
-      "id": "scheduled-video-00038",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00038.json",
-      "route": {
-        "from": "colossal-escalation",
-        "to": "complex",
-        "relation": "THE HORIZON MOVES"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-13T16:23:10.831Z"
-    },
-    {
-      "id": "scheduled-space-00038",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00038.json",
-      "route": {
-        "from": "colossal-escalation",
-        "to": "complex",
-        "relation": "THE HORIZON MOVES"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-13T16:23:10.831Z"
     }
   ]
 }

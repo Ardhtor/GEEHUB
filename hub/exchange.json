@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-30T20:40:08.005Z",
+  "generated": "2026-10-31T00:07:14.338Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00138",
+      "at": "2026-10-31T00:07:14.338Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / DEEP LORE → LUKE // BWOMPH / ANDREW",
+      "body": "The world crossed the existing relation \"THE FACE REMAINS\" from DEEP LORE into LUKE // BWOMPH. Scale increased from 11.22× to 11.30×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00138",
+      "live": true,
+      "regionId": "luke-bwomph",
+      "previousRegionId": "deep-lore",
+      "relation": "THE FACE REMAINS"
+    },
     {
       "id": "scheduled-long-play-00137",
       "at": "2026-10-30T20:40:08.005Z",
@@ -1488,21 +1503,6 @@
       "regionId": "beefythiq",
       "previousRegionId": "complex",
       "relation": "MASS BECOMES WEATHER"
-    },
-    {
-      "id": "scheduled-long-play-00038",
-      "at": "2026-10-13T16:23:10.831Z",
-      "from": "geehub-long-play",
-      "to": "andrew",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / COLOSSAL ESCALATION → THE COMPLEX / ANDREW",
-      "body": "The world crossed the existing relation \"THE HORIZON MOVES\" from COLOSSAL ESCALATION into THE COMPLEX. Scale increased from 4.82× to 4.90×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00038",
-      "live": true,
-      "regionId": "complex",
-      "previousRegionId": "colossal-escalation",
-      "relation": "THE HORIZON MOVES"
     }
   ]
 }

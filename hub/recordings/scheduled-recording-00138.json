@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00138",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "luke-bwomph",
+  "position": {
+    "x": 36,
+    "y": 38,
+    "z": 0
+  },
+  "camera": {
+    "x": 36,
+    "y": 38,
+    "z": 1.7,
+    "heading": 294,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 11.3,
+    "priorScale": 11.22,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 11.3,
+    "clearance": 0.0885,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE FACE REMAINS"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "deep-lore",
+      "name": "DEEP LORE"
+    },
+    {
+      "type": "region",
+      "id": "luke-bwomph",
+      "name": "LUKE // BWOMPH"
+    },
+    {
+      "type": "relation",
+      "title": "THE FACE REMAINS"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 11.22,
+      "to": 11.3
+    },
+    {
+      "property": "location.regionId",
+      "from": "deep-lore",
+      "to": "luke-bwomph",
+      "relation": "THE FACE REMAINS"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0891,
+      "to": 0.0885
+    }
+  ],
+  "intent": "LONG PLAY / DEEP LORE → LUKE // BWOMPH / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 138,
+    "previousRegionId": "deep-lore",
+    "regionId": "luke-bwomph",
+    "relation": "THE FACE REMAINS",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 11.22,
+    "scaleBaselineTo": 11.3
+  },
+  "timestamp": "2026-10-31T00:07:14.338Z"
+}

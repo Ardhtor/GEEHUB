@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00141",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "beefythiq",
+  "position": {
+    "x": 47,
+    "y": 17,
+    "z": 0
+  },
+  "camera": {
+    "x": 47,
+    "y": 17,
+    "z": 1.7,
+    "heading": 3,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 11.49,
+    "priorScale": 11.46,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 11.49,
+    "clearance": 0.087,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "MASS BECOMES WEATHER"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "complex",
+      "name": "THE COMPLEX"
+    },
+    {
+      "type": "region",
+      "id": "beefythiq",
+      "name": "BEEFYTHIQ"
+    },
+    {
+      "type": "relation",
+      "title": "MASS BECOMES WEATHER"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 11.46,
+      "to": 11.49
+    },
+    {
+      "property": "location.regionId",
+      "from": "complex",
+      "to": "beefythiq",
+      "relation": "MASS BECOMES WEATHER"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0873,
+      "to": 0.087
+    }
+  ],
+  "intent": "LONG PLAY / THE COMPLEX → BEEFYTHIQ / LUKE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 141,
+    "previousRegionId": "complex",
+    "regionId": "beefythiq",
+    "relation": "MASS BECOMES WEATHER",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 11.46,
+    "scaleBaselineTo": 11.49
+  },
+  "timestamp": "2026-10-31T17:11:44.918Z"
+}

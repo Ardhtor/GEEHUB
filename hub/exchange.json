@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-31T11:57:42.637Z",
+  "generated": "2026-10-31T17:11:44.918Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00141",
+      "at": "2026-10-31T17:11:44.918Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / THE COMPLEX → BEEFYTHIQ / LUKE",
+      "body": "The world crossed the existing relation \"MASS BECOMES WEATHER\" from THE COMPLEX into BEEFYTHIQ. Scale increased from 11.46× to 11.49×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00141",
+      "live": true,
+      "regionId": "beefythiq",
+      "previousRegionId": "complex",
+      "relation": "MASS BECOMES WEATHER"
+    },
     {
       "id": "scheduled-long-play-00140",
       "at": "2026-10-31T11:57:42.637Z",
@@ -1488,21 +1503,6 @@
       "regionId": "discovery",
       "previousRegionId": "embodied-scale",
       "relation": "SCALE HAS HISTORY"
-    },
-    {
-      "id": "scheduled-long-play-00041",
-      "at": "2026-10-14T05:27:26.139Z",
-      "from": "geehub-long-play",
-      "to": "luke",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / THE FACILITY → EMBODIED SCALE / LUKE",
-      "body": "The world crossed the existing relation \"THE FLOOR REPLIES\" from THE FACILITY into EMBODIED SCALE. Scale increased from 5.06× to 5.09×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00041",
-      "live": true,
-      "regionId": "embodied-scale",
-      "previousRegionId": "facility",
-      "relation": "THE FLOOR REPLIES"
     }
   ]
 }

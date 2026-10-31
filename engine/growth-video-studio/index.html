@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GEEHUB / Growth Video Studio</title>
+  <link rel="stylesheet" href="./studio.css">
+</head>
+<body>
+  <main class="studio">
+    <header class="topbar">
+      <div><span class="eyebrow">GEEHUB / FIRST-PARTY VIDEO PRODUCT</span><h1>GROWTH VIDEO STUDIO</h1></div>
+      <div class="build">PROTOTYPE 001 <i></i> LOCAL SESSION</div>
+    </header>
+
+    <section class="workspace">
+      <div class="viewer-wrap">
+        <div class="viewer-head"><span>01 / SOURCE & CONTINUITY</span><span id="sourceStatus">NO SOURCE LOADED</span></div>
+        <div class="viewer" id="viewer">
+          <div class="empty" id="emptyState"><b>DROP SOURCE VIDEO</b><span>or choose a local file below</span></div>
+          <video id="sourceVideo" playsinline controls></video>
+          <div class="viewer-mark">GEEHUB / SOURCE VIEW</div>
+        </div>
+        <div class="source-controls">
+          <label class="file-button">LOAD VIDEO<input id="sourceFile" type="file" accept="video/*"></label>
+          <button id="captureFrame" disabled>CAPTURE BASELINE FRAME</button>
+          <span id="videoMeta">Waiting for source</span>
+        </div>
+        <div class="scrub-row"><label for="scrub">SOURCE TIME</label><input id="scrub" type="range" min="0" max="1000" value="0" disabled><output id="timeReadout">00:00.00</output></div>
+      </div>
+
+      <aside class="side">
+        <div class="panel-head"><span>02 / GROWTH STATE</span><span id="stateCount">00 STATES</span></div>
+        <div class="state-strip" id="stateStrip"><span class="state-chip active">BASELINE</span></div>
+        <div class="panel-body">
+          <div class="lock-row"><span>IDENTITY CONTINUITY</span><b><i></i> LOCKED BY DESIGN</b></div>
+          <p class="note">These controls define the transformation target. They do not alter source pixels in this prototype.</p>
+          <div class="control-group">
+            <div class="group-title">FRAME & HEIGHT</div>
+            <label>Stature <output data-out="stature">1.00×</output><input data-region="stature" type="range" min="1" max="2.4" step=".01" value="1"></label>
+            <label>Torso length <output data-out="torsoLength">1.00×</output><input data-region="torsoLength" type="range" min="1" max="2.2" step=".01" value="1"></label>
+            <label>Shoulder span <output data-out="shoulderSpan">1.00×</output><input data-region="shoulderSpan" type="range" min="1" max="2.8" step=".01" value="1"></label>
+            <label>Chest depth <output data-out="chestDepth">1.00×</output><input data-region="chestDepth" type="range" min="1" max="2.8" step=".01" value="1"></label>
+          </div>
+          <div class="control-group">
+            <div class="group-title">LIMB LENGTH & MASS</div>
+            <label>Arm length <output data-out="armLength">1.00×</output><input data-region="armLength" type="range" min="1" max="2.5" step=".01" value="1"></label>
+            <label>Arm mass <output data-out="armMass">1.00×</output><input data-region="armMass" type="range" min="1" max="3" step=".01" value="1"></label>
+            <label>Thigh length <output data-out="thighLength">1.00×</output><input data-region="thighLength" type="range" min="1" max="2.5" step=".01" value="1"></label>
+            <label>Thigh mass <output data-out="thighMass">1.00×</output><input data-region="thighMass" type="range" min="1" max="3" step=".01" value="1"></label>
+            <label>Calf mass <output data-out="calfMass">1.00×</output><input data-region="calfMass" type="range" min="1" max="3" step=".01" value="1"></label>
+          </div>
+          <div class="actions"><button id="saveState" class="primary">SAVE GROWTH STATE</button><button id="resetState">RESET TARGET</button></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="bottom">
+      <div class="timeline-panel">
+        <div class="panel-head"><span>03 / EVIDENCE TIMELINE</span><span>STATE-TO-STATE CONTINUITY</span></div>
+        <div id="timeline" class="timeline"><div class="timeline-empty">Capture a source frame, then save successive growth states. Each state becomes a new point in the transformation history.</div></div>
+      </div>
+      <div class="archive-panel">
+        <div class="panel-head"><span>04 / SESSION ARCHIVE</span><span id="archiveStatus">NOT EXPORTED</span></div>
+        <p>Export the source reference, baseline frame, approved growth states and timing metadata as one portable project manifest.</p>
+        <button id="exportProject" class="primary" disabled>EXPORT PROJECT MANIFEST</button>
+        <p class="fine">This export is a project description, not a rendered growth video. Pixel deformation and temporal compositing are the next renderer milestone.</p>
+      </div>
+    </section>
+    <footer><span>GEEHUB / GROWTH VIDEO STUDIO</span><span>THE SOURCE IS PRESERVED. EACH CHANGE HAS A PARENT.</span></footer>
+  </main>
+  <script type="module" src="./studio.js"></script>
+</body>
+</html>

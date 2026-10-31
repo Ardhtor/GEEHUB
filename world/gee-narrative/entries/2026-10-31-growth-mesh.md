@@ -2,7 +2,7 @@
 
 ## What changed
 
-Added core/growth-mesh.js and its focused tests. The mapper converts a tracked source frame plus baseline and target body states into target joint positions. Stature extends the ankle-to-knee segment, thigh length extends knee-to-hip, torso length carries the neck and shoulders relative to the hip center, shoulder span widens the shoulder pair, and arm length extends both arm segments. Ankles remain fixed. The face center follows the neck with its original offset and is excluded from the body-mesh anchor list. A render helper forwards mapped body anchors to the existing triangle warp when a caller supplies a valid body-only mesh.
+Added core/growth-mesh.js and its focused tests. The mapper converts a tracked source frame plus baseline and target body states into target joint positions. Stature extends the ankle-to-knee segment, thigh length extends knee-to-hip, torso length carries the neck and shoulders relative to the hip center, shoulder span widens the shoulder pair, and arm length extends both arm segments. Ankles remain fixed. The face center follows the neck with its original offset and is excluded from the body-mesh anchor list. A render helper forwards mapped body anchors to the existing triangle warp when a caller supplies a valid body-only mesh. The broader test run also led to a correction in growth-curve validation order so a decreasing channel is reported as a cumulative regression before the minimum-scale check.
 
 ## What it can do now
 
@@ -10,7 +10,7 @@ It can calculate target positions for the supported 2D landmarks, report project
 
 ## Evidence
 
-Focused Node tests: 4 passed, 0 failed. The tests cover baseline stability, segment scaling, shoulder width, face offset, fixed ankles, out-of-frame detection, growth validation, and the triangle-render call. No source video, segmentation model, or Resolve runtime was used.
+Focused geometry tests: 4 passed, 0 failed. A temporary local core harness ran 15 of 15 current core test cases. The broader run exposed a growth-curve diagnostic-order issue; validation now reports cumulative regression before the minimum-scale bound. The geometry tests cover baseline stability, segment scaling, shoulder width, face offset, fixed ankles, out-of-frame detection, growth validation, and the triangle-render call. No source video, segmentation model, or Resolve runtime was used.
 
 ## What remains unresolved
 

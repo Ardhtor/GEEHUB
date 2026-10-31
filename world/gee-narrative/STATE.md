@@ -8,7 +8,7 @@ Updated: 2026-10-31
 - renderGrowthMesh forwards the mapped body anchors to the existing piecewise-affine Canvas warp when the caller supplies a valid body-only triangle mesh. It does not create masks or triangles.
 - The mapper reports projected stature and out-of-frame anchors, allowing the next stage to request a camera reframe rather than silently clipping the subject.
 - Chest depth and arm/thigh/calf mass remain deferred until segmentation-derived silhouette geometry, depth, or 3D geometry is available.
-- Four focused Node tests pass in a local harness against the current growth-state, landmark-track, and mesh-warp module interfaces. Resolve and full video runtime behavior remain unverified.
+- Four focused geometry tests pass, and a temporary local core harness ran 15 of 15 current core test cases. The first full run exposed a growth-curve diagnostic-order issue; the validator now reports a decreasing channel as a cumulative-growth regression before applying the minimum-scale check. GitHub reports no status checks for the geometry commit. Resolve and full video runtime behavior remain unverified.
 
 ## Resolve operator added
 - GEEHUB_Operator.lua performs a one-run project audit, inventories media and timelines, probes available Resolve API capabilities, ensures a review bin structure, and adds missing editorial tracks/stage markers without deleting source media or existing timeline clips.

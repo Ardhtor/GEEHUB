@@ -10,7 +10,7 @@ const CHANNELS = ["height", "torso", "shoulders", "arms", "legs"];
 
 function finiteScale(value, name) {
   if (!Number.isFinite(value) || value < 1) {
-    throw new TypeError(`${name} must be a finite scale >= 1`);
+    throw new TypeError(name + " must be a finite scale >= 1");
   }
   return value;
 }
@@ -22,11 +22,13 @@ export function normalizeGrowthCurve(keys) {
 
   const normalized = keys.map((key, index) => {
     if (!Number.isFinite(key.time) || key.time < 0) {
-      throw new TypeError(`growth key ${index} has invalid time`);
+      throw new TypeError("growth key " + index + " has invalid time");
     }
     const values = {};
     for (const channel of CHANNELS) {
-      values[channel] = finiteScale(key[channel] ?? 1, channel);
+      const value = key[channel] ?? 1;
+      if (!Number.isFinite(value)) throw new TypeError(channel + " must be finite");
+      values[channel] = value;
     }
     return { time: key.time, ...values };
   }).sort((a, b) => a.time - b.time);
@@ -37,9 +39,13 @@ export function normalizeGrowthCurve(keys) {
     }
     for (const channel of CHANNELS) {
       if (normalized[i][channel] < normalized[i - 1][channel]) {
-        throw new RangeError(`${channel} growth must be cumulative`);
+        throw new RangeError(channel + " growth must be cumulative");
       }
     }
+  }
+
+  for (const key of normalized) {
+    for (const channel of CHANNELS) finiteScale(key[channel], channel);
   }
   return normalized;
 }
@@ -57,7 +63,6 @@ export function evaluateGrowthCurve(keys, time) {
   const a = curve[nextIndex - 1];
   const b = curve[nextIndex];
   const t = (time - a.time) / (b.time - a.time);
-  // Smoothstep eases the rate of change while keeping every channel monotonic.
   const eased = t * t * (3 - 2 * t);
   const result = { time };
   for (const channel of CHANNELS) {

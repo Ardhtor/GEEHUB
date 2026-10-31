@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-10-31T05:47:10.901Z",
+  "generated": "2026-10-31T11:57:42.637Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00140",
+      "at": "2026-10-31T11:57:42.637Z",
+      "from": "geehub-long-play",
+      "to": "chase",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / GROWTH CANVAS → THE COMPLEX / CHASE",
+      "body": "The world crossed the existing relation \"KISS = CONTINUITY\" from GROWTH CANVAS into THE COMPLEX. Scale increased from 11.42× to 11.46×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00140",
+      "live": true,
+      "regionId": "complex",
+      "previousRegionId": "growth",
+      "relation": "KISS = CONTINUITY"
+    },
     {
       "id": "scheduled-long-play-00139",
       "at": "2026-10-31T05:47:10.901Z",
@@ -1488,21 +1503,6 @@
       "regionId": "embodied-scale",
       "previousRegionId": "facility",
       "relation": "THE FLOOR REPLIES"
-    },
-    {
-      "id": "scheduled-long-play-00040",
-      "at": "2026-10-14T00:34:03.120Z",
-      "from": "geehub-long-play",
-      "to": "chase",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / BEEFYTHIQ → THE FACILITY / CHASE",
-      "body": "The world crossed the existing relation \"THE ROOM GETS SMALLER\" from BEEFYTHIQ into THE FACILITY. Scale increased from 5.02× to 5.06×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00040",
-      "live": true,
-      "regionId": "facility",
-      "previousRegionId": "beefythiq",
-      "relation": "THE ROOM GETS SMALLER"
     }
   ]
 }

@@ -2,6 +2,10 @@
 
 Updated: 2026-10-31
 
+## Resolve operator added
+- `GEEHUB_Operator.lua` performs a one-run project audit, inventories media and timelines, probes available Resolve API capabilities, ensures a review bin structure, and adds missing editorial tracks/stage markers without deleting source media or existing timeline clips.
+- The operator writes a JSON audit to Dropbox `GEEHUB/Bridge/outgoing/resolve-audit.json`, falling back to the Mac Desktop. Runtime execution has not yet been confirmed.
+
 ## New mirror layer committed
 - `scripts/sync-macos.sh` performs a guarded fast-forward update, installs all Resolve Lua scripts, and refreshes Dropbox exchange folders when available.
 - `SYNC.md` documents the one-sweep local mirror workflow and its safety boundaries.

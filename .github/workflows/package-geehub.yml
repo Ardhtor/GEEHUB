@@ -1,0 +1,45 @@
+name: Package GEEHUB mirror
+
+on:
+  push:
+    branches: [growth-video-studio-foundation]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout GEEHUB
+        uses: actions/checkout@v4
+        with:
+          ref: growth-video-studio-foundation
+          fetch-depth: 1
+
+      - name: Build one-sweep package
+        run: |
+          mkdir -p dist/GEEHUB
+          git archive --format=tar HEAD | tar -xf - -C dist/GEEHUB
+          cp scripts/sync-macos.sh dist/GEEHUB/sync-macos.sh
+          cat > dist/README-FIRST.txt <<'EOF'
+          GEEHUB one-sweep mirror package
+
+          Preferred: clone the repository once, then run:
+            ./scripts/sync-macos.sh
+
+          This package is a portable snapshot. Extract it into a clean folder.
+          To receive future updates, use a git checkout and the sync script.
+          Open the repository root in Codex. Restart Resolve after syncing.
+          EOF
+          cd dist
+          zip -qr GEEHUB-macos.zip GEEHUB README-FIRST.txt
+
+      - name: Upload package artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: GEEHUB-macos
+          path: dist/GEEHUB-macos.zip
+          if-no-files-found: error
+          retention-days: 30

@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-ROOT="$(cd "$(dirname "$0")/../../../../.." && pwd)"
+ROOT="$(cd "$(dirname "$0")/../../../../" && pwd)"
 INTEGRATION="$ROOT/engine/growth-video-studio/integrations/davinci-resolve-free"
 RESOLVE_SCRIPTS="$HOME/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Utility"
 DROPBOX_ROOT="${GEEHUB_DROPBOX_ROOT:-}"
@@ -21,8 +21,7 @@ for script in "$INTEGRATION"/*.lua; do
 done
 
 if [[ -n "$DROPBOX_ROOT" ]]; then
-  mkdir -p "$DROPBOX_ROOT/GEEHUB/Bridge"
-  mkdir -p "$DROPBOX_ROOT/GEEHUB/Assets" "$DROPBOX_ROOT/GEEHUB/Exports"
+  mkdir -p "$DROPBOX_ROOT/GEEHUB/Bridge" "$DROPBOX_ROOT/GEEHUB/Assets" "$DROPBOX_ROOT/GEEHUB/Exports"
   cat > "$DROPBOX_ROOT/GEEHUB/Bridge/README.txt" <<'EOF'
 GEEHUB Dropbox bridge
 Assets: place source assets and approved reference material here.

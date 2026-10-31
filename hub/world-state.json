@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00142.json",
+  "activeRecording": "./recordings/scheduled-recording-00143.json",
   "activeEncounter": {
-    "regionId": "facility",
-    "regionName": "THE FACILITY",
+    "regionId": "beefythiq",
+    "regionName": "BEEFYTHIQ",
     "subject": {
-      "agent": "tyler",
-      "scale": 11.54,
+      "agent": "andrew",
+      "scale": 11.62,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / BEEFYTHIQ → THE FACILITY / TYLER",
+    "intent": "LONG PLAY / THE FACILITY → BEEFYTHIQ / ANDREW",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 11.49× → 11.54×",
-      "BEEFYTHIQ → THE FACILITY",
+      "scale 11.54× → 11.62×",
+      "THE FACILITY → BEEFYTHIQ",
       "relation: THE ROOM GETS SMALLER",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "beefythiq"
+    "previousRegionId": "facility"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-10-31T20:28:11.760Z",
+  "snapshot": "2026-10-31T23:38:27.744Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 142,
-    "agent": "tyler",
-    "previousRegionId": "beefythiq",
-    "regionId": "facility",
+    "cycle": 143,
+    "agent": "andrew",
+    "previousRegionId": "facility",
+    "regionId": "beefythiq",
     "relation": "THE ROOM GETS SMALLER",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 11.49,
-    "scale": 11.54,
-    "recording": "scheduled-recording-00142",
-    "at": "2026-10-31T20:28:11.760Z"
+    "previousScale": 11.54,
+    "scale": 11.62,
+    "recording": "scheduled-recording-00143",
+    "at": "2026-10-31T23:38:27.744Z"
   }
 }

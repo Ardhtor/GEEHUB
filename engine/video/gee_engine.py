@@ -101,10 +101,16 @@ def render_job(job_id: str, manifest: dict) -> None:
     audio_file = manifest.get("audio_file")
     audio_path = None
     if audio_file:
-        candidate = (out_dir / audio_file).resolve()
-        assets_root = (out_dir / "assets").resolve()
-        if candidate.is_relative_to(assets_root) and candidate.is_file():
-            audio_path = candidate
+        # Only read user-supplied score files from the explicit engine asset drop folder.
+        relative = Path(str(audio_file))
+        source = (HERE / relative).resolve()
+        allowed_assets = (HERE / "assets").resolve()
+        if source.is_relative_to(allowed_assets) and source.is_file():
+            target_assets = out_dir / "assets"
+            target_assets.mkdir(exist_ok=True)
+            copied = target_assets / source.name
+            shutil.copy2(source, copied)
+            audio_path = copied
 
     tone = f"sine=frequency=38:sample_rate=48000:duration={duration}"
     if audio_path:

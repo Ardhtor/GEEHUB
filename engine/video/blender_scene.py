@@ -62,18 +62,6 @@ def area_light(name, location, energy, color, size, target=(0, 0, 1.8)):
     return obj
 
 
-def animate_growth(obj, start_frame, end_frame, radial_factor, length_factor=1.0):
-    base = obj.scale.copy()
-    obj.scale = base
-    obj.keyframe_insert(data_path="scale", frame=start_frame)
-    obj.scale = (base.x * radial_factor, base.y * radial_factor, base.z * length_factor)
-    obj.keyframe_insert(data_path="scale", frame=end_frame)
-    if obj.animation_data and obj.animation_data.action:
-        for curve in obj.animation_data.action.fcurves:
-            for key in curve.keyframe_points:
-                key.interpolation = "BEZIER"
-
-
 def build_character(growth_ceiling, start_frame, end_frame):
     skin = material("SUBJECT / warm stone skin", (0.37, 0.43, 0.45), metallic=0.06, roughness=0.34, subsurface=0.04)
     shadow = material("SUBJECT / shadow definition", (0.17, 0.22, 0.25), metallic=0.08, roughness=0.42)
@@ -111,7 +99,6 @@ def build_character(growth_ceiling, start_frame, end_frame):
         part(label + " foot", (side * 0.33, -0.18, 0.09), (0.18, 0.34, 0.10), shadow, 1.12)
 
     for obj, radial, length in objects:
-        animate_growth(obj, start_frame, end_frame, 1.0, 1.0)
         base = obj.scale.copy()
         obj.scale = base
         obj.keyframe_insert(data_path="scale", frame=start_frame)
@@ -152,7 +139,7 @@ def build_scene(manifest, output_path):
     scene.render.filepath = str(output_path)
     scene.render.film_transparent = False
     scene.render.image_settings.color_mode = "RGB"
-    scene.render.engine = "BLENDER_EEVEE_NEXT" if "BLENDER_EEVEE_NEXT" in bpy.types.RenderSettings.bl_rna.properties["engine"].enum_items.keys() else "BLENDER_EEVEE"
+    available_engines = {item.identifier for item in bpy.types.RenderSettings.bl_rna.properties["engine"].enum_items}\n    scene.render.engine = "BLENDER_EEVEE_NEXT" if "BLENDER_EEVEE_NEXT" in available_engines else "BLENDER_EEVEE"
     scene.render.filepath = str(output_path)
     scene.render.use_file_extension = True
     scene.view_settings.view_transform = "AgX"
@@ -182,16 +169,24 @@ def build_scene(manifest, output_path):
     camera_data = bpy.data.cameras.new("Director camera")
     camera = bpy.data.objects.new("Director camera", camera_data)
     scene.collection.objects.link(camera)
-    camera.location = (3.0, -9.5, 2.8)
+    camera_mode = manifest.get("direction", {}).get("camera", "medium")
+    if camera_mode == "low":
+        camera.location = (3.0, -9.5, 1.95)
+        camera_data.lens = 45
+    elif camera_mode == "close":
+        camera.location = (2.0, -7.0, 2.7)
+        camera_data.lens = 55
+    else:
+        camera.location = (3.0, -10.0, 3.2)
+        camera_data.lens = 48
     aim(camera, (0, 0, 1.65))
-    camera_data.lens = 48
     scene.camera = camera
     camera.keyframe_insert(data_path="location", frame=1)
-    camera.location = (2.3, -8.6, 2.65)
-    camera.keyframe_insert(data_path="location", frame=total_frames)
-    camera.location = (3.0, -9.5, 2.8)
-    camera.keyframe_insert(data_path="location", frame=1)
+    camera.keyframe_insert(data_path="rotation_euler", frame=1)
+    camera.location = (camera.location.x * 0.88, camera.location.y * 0.91, camera.location.z - 0.12)
     aim(camera, (0, 0, 1.65))
+    camera.keyframe_insert(data_path="location", frame=total_frames)
+    camera.keyframe_insert(data_path="rotation_euler", frame=total_frames)
 
     # The final third holds the phase-four form; no further scaling keys are added.
     scene.frame_set(1)

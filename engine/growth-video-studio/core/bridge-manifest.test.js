@@ -142,6 +142,6 @@ test("manifest validation detects broken references and event history", () => {
   corrupted.events.pop();
   const result = validateBridgeManifest(corrupted);
   assert.equal(result.valid, false);
-  assert.ok(result.errors.some(error => error.includes("missing frame set")));
+  assert.ok(result.errors.some(error => error.includes("missing or duplicate frame set")));
   assert.ok(result.errors.some(error => error.includes("Event history")));
 });

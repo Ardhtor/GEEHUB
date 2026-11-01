@@ -9,12 +9,13 @@ A local macOS production runner for GEEHUB. The browser Studio prepares a produc
 - Blender 4.x
 - FFmpeg
 
-Install with Homebrew:
+Run the included setup script from Terminal:
 
 ```bash
-brew install --cask blender
-brew install ffmpeg
+bash setup_mac.sh
 ```
+
+It installs Blender and FFmpeg through Homebrew and checks the result. Or install manually with `brew install --cask blender` and `brew install ffmpeg`.
 
 If Blender is installed as an application but is not on PATH, the runner also checks `/Applications/Blender.app/Contents/MacOS/Blender`.
 
@@ -46,4 +47,4 @@ Renders are saved under `~/Movies/GEEHUB/`. The local API exposes `/health`, `/r
 
 ## Optional soundtrack
 
-Copy the audio file into `engine/video/assets/` in the repository checkout. In the Studio PREP panel, enter its filename (for example `quthbert.mp3`). The engine copies that asset into the render folder and mixes it with the generated low-frequency bed. The local API never reads arbitrary filesystem paths supplied by a browser.
+Copy the audio file into `engine/video/assets/` in the repository checkout. In the Studio PREP panel, enter its filename (for example `quthbert.mp3`). The assets folder is git-ignored so private recordings are not committed. The engine copies that asset into the render folder and mixes it with the generated low-frequency bed. The local API never reads arbitrary filesystem paths supplied by a browser.

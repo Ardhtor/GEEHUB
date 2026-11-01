@@ -1029,3 +1029,11 @@ SETH: Rain shifts across the northern road. A loose sign turns twice against its
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 132 — ATMOSPHERE / VEYRTHALIS / 2026-11-01T22:40:30.513537+00:00
+
+SETH: Fog threads between amber trunks and softens the stone base of the Digitorium. Blue windows brighten one after another above wet steps, and the Procession remains quiet on its bridge.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

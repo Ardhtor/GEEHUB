@@ -209,7 +209,7 @@ export function failBridgeRenderJob(manifest, jobId, error) {
   });
 }
 
-/** Complete a running job only when its reserved output has a verified digest. */
+/** Complete a running job when its reserved output has a caller-supplied SHA-256 digest. The manifest checks digest format; it never reads media bytes. */
 export function completeBridgeRenderJob(manifest, jobId, artifactInput) {
   const job = manifest.renderJobs.find(item => item.id === jobId);
   if (!job) throw new Error("Unknown render job: " + jobId);

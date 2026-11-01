@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00147",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "veyrthalis",
+  "position": {
+    "x": 22,
+    "y": 82,
+    "z": 0
+  },
+  "camera": {
+    "x": 22,
+    "y": 82,
+    "z": 1.7,
+    "heading": 141,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "tyler",
+    "scale": 11.86,
+    "priorScale": 11.81,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 11.86,
+    "clearance": 0.0843,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE DOOR REMEMBERS"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "discovery",
+      "name": "DISCOVERY"
+    },
+    {
+      "type": "region",
+      "id": "veyrthalis",
+      "name": "VEYRTHALIS"
+    },
+    {
+      "type": "relation",
+      "title": "THE DOOR REMEMBERS"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 11.81,
+      "to": 11.86
+    },
+    {
+      "property": "location.regionId",
+      "from": "discovery",
+      "to": "veyrthalis",
+      "relation": "THE DOOR REMEMBERS"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0847,
+      "to": 0.0843
+    }
+  ],
+  "intent": "LONG PLAY / DISCOVERY → VEYRTHALIS / TYLER",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 147,
+    "previousRegionId": "discovery",
+    "regionId": "veyrthalis",
+    "relation": "THE DOOR REMEMBERS",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 11.81,
+    "scaleBaselineTo": 11.86
+  },
+  "timestamp": "2026-11-01T20:51:42.556Z"
+}

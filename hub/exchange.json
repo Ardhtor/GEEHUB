@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-01T16:40:53.029Z",
+  "generated": "2026-11-01T20:51:42.556Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00147",
+      "at": "2026-11-01T20:51:42.556Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / DISCOVERY → VEYRTHALIS / TYLER",
+      "body": "The world crossed the existing relation \"THE DOOR REMEMBERS\" from DISCOVERY into VEYRTHALIS. Scale increased from 11.81× to 11.86×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00147",
+      "live": true,
+      "regionId": "veyrthalis",
+      "previousRegionId": "discovery",
+      "relation": "THE DOOR REMEMBERS"
+    },
     {
       "id": "scheduled-long-play-00146",
       "at": "2026-11-01T16:40:53.029Z",
@@ -1488,21 +1503,6 @@
       "regionId": "beefythiq",
       "previousRegionId": "complex",
       "relation": "MASS BECOMES WEATHER"
-    },
-    {
-      "id": "scheduled-long-play-00047",
-      "at": "2026-10-15T05:48:01.937Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / GROWTH CANVAS → THE COMPLEX / TYLER",
-      "body": "The world crossed the existing relation \"KISS = CONTINUITY\" from GROWTH CANVAS into THE COMPLEX. Scale increased from 5.41× to 5.46×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00047",
-      "live": true,
-      "regionId": "complex",
-      "previousRegionId": "growth",
-      "relation": "KISS = CONTINUITY"
     }
   ]
 }

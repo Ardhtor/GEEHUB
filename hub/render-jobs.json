@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00147",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00147.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-01T20:51:42.556Z"
+    },
+    {
+      "id": "scheduled-video-00147",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00147.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-01T20:51:42.556Z"
+    },
+    {
+      "id": "scheduled-space-00147",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00147.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-01T20:51:42.556Z"
+    },
+    {
       "id": "scheduled-sound-00146",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-15T11:09:51.153Z"
-    },
-    {
-      "id": "scheduled-sound-00047",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00047.json",
-      "route": {
-        "from": "growth",
-        "to": "complex",
-        "relation": "KISS = CONTINUITY"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-15T05:48:01.937Z"
-    },
-    {
-      "id": "scheduled-video-00047",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00047.json",
-      "route": {
-        "from": "growth",
-        "to": "complex",
-        "relation": "KISS = CONTINUITY"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-15T05:48:01.937Z"
-    },
-    {
-      "id": "scheduled-space-00047",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00047.json",
-      "route": {
-        "from": "growth",
-        "to": "complex",
-        "relation": "KISS = CONTINUITY"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-15T05:48:01.937Z"
     }
   ]
 }

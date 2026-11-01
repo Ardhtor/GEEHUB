@@ -2185,8 +2185,8 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     }
   ],
   "visits": {
@@ -2201,7 +2201,7 @@
     "colossal-escalation": 13,
     "muscle-myth": 9,
     "discovery": 11,
-    "veyrthalis": 10,
+    "veyrthalis": 11,
     "bodylounger": 9
   },
   "last_visits": {
@@ -2216,10 +2216,10 @@
     "colossal-escalation": 112.5,
     "muscle-myth": 111.5,
     "discovery": 130.5,
-    "veyrthalis": 120.5,
+    "veyrthalis": 131.5,
     "bodylounger": 104.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 7,
@@ -2235,29 +2235,42 @@
     "index.html": 7
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "discovery",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "veyrthalis",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 146,
-    "agent": "luke",
-    "previous_region_id": "embodied-scale",
-    "region_id": "discovery",
-    "region_name": "DISCOVERY",
-    "relation": "SCALE HAS HISTORY",
+    "cycle": 147,
+    "agent": "tyler",
+    "previous_region_id": "discovery",
+    "region_id": "veyrthalis",
+    "region_name": "VEYRTHALIS",
+    "relation": "THE DOOR REMEMBERS",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 11.78,
-    "scale": 11.81,
-    "recording": "scheduled-recording-00146",
-    "at": "2026-11-01T16:40:53.029Z"
+    "previous_scale": 11.81,
+    "scale": 11.86,
+    "recording": "scheduled-recording-00147",
+    "at": "2026-11-01T20:51:42.556Z"
   },
-  "last_world_change": "2026-11-01T16:40:53.029Z",
-  "scale": 11.81,
+  "last_world_change": "2026-11-01T20:51:42.556Z",
+  "scale": 11.86,
   "external_events": [
+    {
+      "id": "long-play-00147",
+      "type": "CROSSING",
+      "title": "DISCOVERY → VEYRTHALIS",
+      "body": "The world crossed \"THE DOOR REMEMBERS\". Scale increased from 11.81× to 11.86×; the earlier location and baseline remain recorded.",
+      "from": "discovery",
+      "to": "veyrthalis",
+      "previous_region_id": "discovery",
+      "region_id": "veyrthalis",
+      "relation": "THE DOOR REMEMBERS",
+      "source": "long-play",
+      "at": "2026-11-01T20:51:42.556Z"
+    },
     {
       "id": "long-play-00146",
       "type": "CROSSING",
@@ -3544,19 +3557,6 @@
       "relation": "MASS BECOMES WEATHER",
       "source": "long-play",
       "at": "2026-10-15T11:09:51.153Z"
-    },
-    {
-      "id": "long-play-00047",
-      "type": "CROSSING",
-      "title": "GROWTH CANVAS → THE COMPLEX",
-      "body": "The world crossed \"KISS = CONTINUITY\". Scale increased from 5.41× to 5.46×; the earlier location and baseline remain recorded.",
-      "from": "growth",
-      "to": "complex",
-      "previous_region_id": "growth",
-      "region_id": "complex",
-      "relation": "KISS = CONTINUITY",
-      "source": "long-play",
-      "at": "2026-10-15T05:48:01.937Z"
     }
   ]
 }

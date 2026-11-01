@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import math
 import shutil
 import subprocess
 import sys
@@ -48,8 +47,7 @@ def luma(rgb: bytes, width: int, height: int) -> list[int]:
     return out
 
 
-def frame_stream(source: Path, width: int, fps: float):
-    height = max(2, int(round(width * probe(source)["height"] / probe(source)["width"] / 2) * 2))
+def frame_stream(source: Path, width: int, height: int, fps: float):
     frame_bytes = width * height * 3
     command = [executable("ffmpeg"), "-v", "error", "-i", str(source), "-vf",
                f"fps={fps},scale={width}:{height}:flags=area", "-f", "rawvideo",
@@ -81,7 +79,7 @@ def analyze(source: Path, sample_fps: float, sample_width: int, cut_threshold: f
     frame_count = 0
     grid_w, grid_h = sample_width // 2, scaled_height // 2
 
-    for index, current, _, _ in frame_stream(source, sample_width, sample_fps):
+    for index, current, _, _ in frame_stream(source, sample_width, scaled_height, sample_fps):
         timestamp = index / sample_fps
         frame_count += 1
         if previous is None:

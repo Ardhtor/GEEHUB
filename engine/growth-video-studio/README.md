@@ -27,6 +27,17 @@ Chest depth and regional mass channels are deliberately deferred. They require s
 
 Focused tests live in core/growth-mesh.test.js and cover baseline stability, articulated segment scaling, shoulder width, face offset, ground contact, reframe detection, invalid growth, and the supplied-triangle render call.
 
+## AI creative-workstation framework
+
+The studio now has a first executable layer for AI-directed construction:
+- `core/creative-project.js` provides a versioned graph for source media, shots, subjects, masks, geometry, materials, assets, effects, camera, lighting, audio, transitions, composites and renders. Source nodes are immutable; changes append operation records and project versions.
+- `core/capability-registry.js` provides adapter registration and runtime capability discovery. A capability is available only when a real adapter registers it; unavailable tools are surfaced as blockers.
+- `core/director-planner.js` converts natural-language directions into semantic operations and capability requirements. Its current interpreter is a deterministic starter parser, not a connected LLM.
+- The Studio UI now includes an AI Director command surface. It records a draft creative-operation graph and reports which tools would be needed. The manifest export includes the graph and plan.
+- Focused tests were added for graph lineage, immutable sources, direction decomposition, and honest capability blocking. They have been committed but have not yet been run in a verified runtime.
+
+This creates the shared project language and orchestration boundary for editing, constructing assets, effects, and scene changes. It does not yet execute generative video, segmentation, garment simulation, environment reaction, or final rendering. No provider is registered by default, so the UI correctly reports those operations as waiting for connected tools.
+
 ## First implementation boundary
 
 This branch establishes the product contract and deterministic growth-state core. It does **not** claim to solve photorealistic video deformation yet. The renderer is an adapter boundary: it can later connect to a native 3D character pipeline, a generative video model, or a hybrid tracked-compositing system without changing the growth-state model.

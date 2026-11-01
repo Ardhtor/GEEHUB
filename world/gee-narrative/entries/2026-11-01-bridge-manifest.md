@@ -8,7 +8,7 @@ Jobs can move from queued to running and then to completed or failed. Completion
 
 ## What it can do now
 
-It can create and validate versioned exchange records, register measured frame-set references, queue the existing GEEHUB growth render-job format, record job execution state, and link a verified output artifact to its source and job.
+It can create and validate versioned exchange records, register measured frame-set references, queue the existing GEEHUB growth render-job format, record job execution state, and link an output artifact carrying a caller-supplied SHA-256 digest to its source and job. The manifest does not itself hash or inspect the file.
 
 ## Evidence
 

@@ -20,10 +20,10 @@ footer{padding:10px 16px;border-top:1px solid var(--line);display:flex;justify-c
 </style></head>
 <body>
 <header><div class="brand">GEEHUB <b>// STUDIO</b></div><div class="status" id="status">DIRECTOR READY</div><div>PROJECT / THE NEW BASELINE</div></header>
-<nav class="tabs" aria-label="Studio pages"><button class="active" data-page="media">MEDIA</button><button data-page="edit">EDIT</button><button data-page="fusion">FUSION</button><button data-page="color">COLOR</button><button data-page="fairlight">FAIRLIGHT</button><button data-page="deliver">DELIVER</button></nav>
+<nav class="tabs" aria-label="Studio pages"><button class="active" data-page="prep">PREP</button><button data-page="media">MEDIA</button><button data-page="edit">EDIT</button><button data-page="fusion">FUSION</button><button data-page="color">COLOR</button><button data-page="fairlight">FAIRLIGHT</button><button data-page="deliver">DELIVER</button></nav>
 <main>
 <section class="work">
-<div class="viewer"><canvas id="picture" width="1280" height="720"></canvas><div class="viewmeta"><span id="shotLabel">SHOT 01 / ARRIVAL</span><span>DIRECTOR'S VIEW / CONTINUOUS TAKE</span></div><div class="caption" id="caption">He notices the new weight before he understands it.</div><div class="timecode" id="timecode">00:00:00:00</div></div>
+<section id="prepDesk" class="timeline" style="margin:0 0 12px;padding:12px;display:grid;gap:10px"><div class="timeline-head" style="padding:0 0 8px"><span>AI PRODUCTION WORKBENCH / PREPARATION IS THE ENGINE</span><span id="prepStatus">AWAITING CREATIVE BRIEF</span></div><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:6px" id="prepStages"><div class="clip">01 / CONCEPT</div><div class="clip">02 / STORY</div><div class="clip">03 / DIRECTION</div><div class="clip">04 / SCENES</div><div class="clip">05 / ASSETS</div><div class="clip">06 / MOTION</div><div class="clip">07 / SOUND</div><div class="clip">08 / EDIT PLAN</div></div><div style="display:flex;gap:8px;flex-wrap:wrap"><button id="buildPrep" class="create-button">BUILD PRODUCTION PACKAGE</button><button id="exportPrep">EXPORT PREPARATION / JSON</button></div><div id="prepOutput" style="color:#9fb2bd;white-space:pre-wrap;line-height:1.65">The director develops the premise, emotional arc, scene progression, shot language, character and environment requirements, motion instructions, sound design and assembly plan. The package becomes the production memory for the video.</div></section><div class="viewer"><canvas id="picture" width="1280" height="720"></canvas><div class="viewmeta"><span id="shotLabel">SHOT 01 / ARRIVAL</span><span>DIRECTOR'S VIEW / CONTINUOUS TAKE</span></div><div class="caption" id="caption">He notices the new weight before he understands it.</div><div class="timecode" id="timecode">00:00:00:00</div></div>
 <div class="transport"><button id="play">PLAY</button><button id="stop">STOP</button><button id="createVideo" class="create-button">DIRECT &amp; CREATE VIDEO</button><button id="record" class="primary">RENDER FULL TAKE</button><label>POSITION</label><input id="scrub" type="range" min="0" max="45" step=".01" value="0"><span id="elapsed">00:00 / 00:45</span><a id="renderLink" class="hidden" download>save video</a></div>
 <div class="timeline"><div class="timeline-head"><span>MASTER TIMELINE / 24 FPS</span><span id="timelineState">45.00 SEC / 5 SCENES / 1 CONTINUOUS GROWTH PASS</span></div><div class="ruler"><span>00:00</span><span>00:09</span><span>00:18</span><span>00:27</span><span>00:36</span><span>00:45</span></div>
 <div class="track"><div class="trackname">V1 / PICTURE</div><div class="tracklane"><div class="clip" style="width:100%">MASTER TAKE · CAMERA / SUBJECT / ENVIRONMENT</div></div></div>
@@ -48,7 +48,7 @@ footer{padding:10px 16px;border-top:1px solid var(--line);display:flex;justify-c
 <script>
 (()=>{'use strict';
 const $=s=>document.querySelector(s),canvas=$('#picture'),ctx=canvas.getContext('2d'),W=canvas.width,H=canvas.height;
-const state={duration:45,t:0,playing:false,raf:0,recorder:null,chunks:[],audio:null,rendering:false,ceiling:3.8,videoUrl:null,audioUrl:null,videoReady:false};
+const state={duration:45,t:0,playing:false,raf:0,recorder:null,chunks:[],audio:null,rendering:false,ceiling:3.8,videoUrl:null,audioUrl:null,videoReady:false,prepPackage:null};
 const scenes=[
 {from:0,to:.1556,name:'ARRIVAL',caption:'He notices the new weight before he understands it.',note:'Establish the man, the room, and the first involuntary change.'},
 {from:.1556,to:.3556,name:'RECOGNITION',caption:'He looks down, then back at the reflection. Something has shifted.',note:'The body begins to register its new proportions. The camera stays with him.'},
@@ -133,12 +133,65 @@ $('#camera').addEventListener('change',()=>draw(state.t));
 $('#sourceVideo').addEventListener('change',e=>{const f=e.target.files&&e.target.files[0];if(!f)return;if(state.videoUrl)URL.revokeObjectURL(state.videoUrl);state.videoUrl=URL.createObjectURL(f);const v=$('#sourcePlayer');v.src=state.videoUrl;v.load();v.onloadeddata=()=>{state.videoReady=true;$('#status').textContent='SOURCE FOOTAGE LOADED';$('#engineNote').textContent='SOURCE VIDEO / CONTINUITY COMPOSITE';draw(state.t)};v.onerror=()=>{$('#status').textContent='SOURCE VIDEO COULD NOT BE READ';state.videoReady=false}});
 $('#sourceAudio').addEventListener('change',e=>{const f=e.target.files&&e.target.files[0];if(!f)return;if(state.audioUrl)URL.revokeObjectURL(state.audioUrl);state.audioUrl=URL.createObjectURL(f);const a=$('#scorePlayer');a.src=state.audioUrl;a.load();$('#status').textContent='SCORE LOADED';$('#engineNote').textContent='SOURCE SCORE + PROCEDURAL SOUND BED'});
 
-$('.tabs').addEventListener('click',e=>{let b=e.target.closest('button[data-page]');if(!b)return;$('.tabs').querySelectorAll('button').forEach(x=>x.classList.toggle('active',x===b));const pages={media:['MEDIA / SOURCE','Import and inspect original footage and sound before direction.'],edit:['EDIT / CONTINUOUS TAKE','The master take remains continuous. Scene markers annotate it without cutting the growth record.'],fusion:['FUSION / BODY RESPONSE','Procedural body, fabric, lighting, camera and environmental response are generated together.'],color:['COLOR / CLINICAL BLUE','Cold clinical light, controlled shadow, restrained amber measurement traces.'],fairlight:['FAIRLIGHT / SOUND DESIGN','A low mechanical bed and breath-like room tone accompany the full take.'],deliver:['DELIVER / FULL DURATION','Export the full-duration WebM, director script and reproducible render automation.']};$('#pageTitle').textContent=pages[b.dataset.page][0];$('#directorNote').textContent=pages[b.dataset.page][1]});
+$('.tabs').addEventListener('click',e=>{let b=e.target.closest('button[data-page]');if(!b)return;$('.tabs').querySelectorAll('button').forEach(x=>x.classList.toggle('active',x===b));const pages={prep:['AI PRODUCTION WORKBENCH','AI develops the production package before the render: concept, story, direction, scenes, asset requirements, motion, sound and assembly.'],media:['MEDIA / SOURCE','Import and inspect original footage and sound before direction.'],edit:['EDIT / CONTINUOUS TAKE','The master take remains continuous. Scene markers annotate it without cutting the growth record.'],fusion:['FUSION / BODY RESPONSE','Procedural body, fabric, lighting, camera and environmental response are generated together.'],color:['COLOR / CLINICAL BLUE','Cold clinical light, controlled shadow, restrained amber measurement traces.'],fairlight:['FAIRLIGHT / SOUND DESIGN','A low mechanical bed and breath-like room tone accompany the full take.'],deliver:['DELIVER / FULL DURATION','Export the full-duration WebM, director script and reproducible render automation.']};$('#prepDesk').style.display=b.dataset.page==='prep'?'grid':'none';$('#pageTitle').textContent=pages[b.dataset.page][0];$('#directorNote').textContent=pages[b.dataset.page][1]});
 function makeAudio(ac,duration){const dest=ac.createMediaStreamDestination(),master=ac.createGain();master.gain.value=.55;master.connect(dest);const osc=ac.createOscillator(),low=ac.createOscillator(),lfo=ac.createOscillator(),lg=ac.createGain(),filter=ac.createBiquadFilter(),gain=ac.createGain();osc.type='sawtooth';osc.frequency.value=49;low.type='sine';low.frequency.value=31;lfo.frequency.value=.13;lg.gain.value=8;lfo.connect(lg);lg.connect(osc.frequency);filter.type='lowpass';filter.frequency.value=145;gain.gain.value=.045;osc.connect(filter);filter.connect(gain);gain.connect(master);const lowGain=ac.createGain();lowGain.gain.value=.19;low.connect(lowGain);lowGain.connect(master);osc.start();low.start();lfo.start();return{stream:dest.stream,stop(){osc.stop();low.stop();lfo.stop();ac.close()}}}
 async function render(){if(state.rendering)return;pause();state.rendering=true;$('#record').disabled=true;$('#status').textContent='RECORDING / FULL DURATION';$('#recordState').textContent='CAPTURING';const duration=state.duration;const AC=window.AudioContext||window.webkitAudioContext;if(!AC||!window.MediaRecorder){$('#status').textContent='BROWSER EXPORT UNSUPPORTED';state.rendering=false;$('#record').disabled=false;return}
  const ac=new AC();await ac.resume();const sound=makeAudio(ac,duration),video=canvas.captureStream(24),tracks=[...video.getVideoTracks(),...sound.stream.getAudioTracks()];const sourceVideo=$('#sourcePlayer'),score=$('#scorePlayer');if(state.videoReady){try{sourceVideo.currentTime=0;await sourceVideo.play();const vs=sourceVideo.captureStream?sourceVideo.captureStream():null;if(vs)tracks.push(...vs.getAudioTracks())}catch(e){}}if(score.src){try{score.currentTime=0;await score.play();const as=score.captureStream?score.captureStream():null;if(as)tracks.push(...as.getAudioTracks())}catch(e){}}const stream=new MediaStream(tracks);const mime=['video/webm;codecs=vp9,opus','video/webm;codecs=vp8,opus','video/webm'].find(x=>MediaRecorder.isTypeSupported(x));if(!mime){$('#status').textContent='WEBM UNAVAILABLE';sound.stop();state.rendering=false;$('#record').disabled=false;return}
  state.chunks=[];const recorder=new MediaRecorder(stream,{mimeType:mime,videoBitsPerSecond:6000000,audioBitsPerSecond:128000});state.recorder=recorder;const result=new Promise(resolve=>{recorder.ondataavailable=e=>{if(e.data.size)state.chunks.push(e.data)};recorder.onstop=()=>resolve(new Blob(state.chunks,{type:mime}))});recorder.start(250);state.t=0;const started=performance.now();function capture(now){const t=Math.min(duration,(now-started)/1000);state.t=t;if(state.videoReady&&sourceVideo.duration>0&&Number.isFinite(sourceVideo.duration)){const target=t%sourceVideo.duration;if(Math.abs(sourceVideo.currentTime-target)>.25)sourceVideo.currentTime=target}draw(t);if(t<duration){requestAnimationFrame(capture)}else{recorder.stop();video.getTracks().forEach(x=>x.stop())}}requestAnimationFrame(capture);const blob=await result;sound.stop();stream.getTracks().forEach(x=>x.stop());const url=URL.createObjectURL(blob),a=$('#renderLink');a.href=url;a.download='GEEHUB-The-New-Baseline-'+duration+'s.webm';a.textContent='SAVE VIDEO / '+(blob.size/1048576).toFixed(1)+' MB';a.classList.remove('hidden');$('#sourcePlayer').pause();$('#scorePlayer').pause();$('#status').textContent='RENDER COMPLETE';$('#recordState').textContent='FULL TAKE SAVED';$('#engineNote').textContent='WEBM / '+duration+' SEC / '+(blob.size/1048576).toFixed(1)+' MB';$('#record').disabled=false;state.rendering=false;draw(duration)}
 $('#record').addEventListener('click',()=>render().catch(e=>{$('#status').textContent='RENDER ERROR / '+e.message;$('#record').disabled=false;state.rendering=false}));
+
+function buildProductionPackage(){
+ const brief=$('#story').value.trim()||'A subject undergoes a continuous physical transformation and discovers a new presence.';
+ const dur=state.duration,ceiling=state.ceiling,camera=$('#camera').value;
+ const concept='A controlled, intimate transformation in which the subject becomes increasingly imposing without losing recognizable identity.';
+ const production={
+  project:'GEEHUB / '+(brief.slice(0,54).toUpperCase()),brief,format:{duration_seconds:dur,fps:24,frame:'16:9',growth_ceiling:ceiling,phase_limit:4},
+  concept:{logline:brief,emotional_arc:['uncertainty','recognition','strain','acceptance','deliberate display'],visual_principle:'slightly off-putting emphasis; intimate scale; grounded physical continuity'},
+  continuity:{identity:'Preserve the recognizable face and baseline identity throughout',body:'Track height, limb length, torso, shoulders, chest, arms and legs proportionally',surface:'Realistic skin response, fabric tension, contact shadow and environmental interaction',record:'Retain uninterrupted source-duration evidence and per-frame timecode'},
+  direction:{camera,language:['establishing full-body scale','intimate observation','slow controlled push-in','continuous locked growth passage','phase-four hold','three-quarter reveal'],movement:'Movement evolves from mechanical precision toward heavier organic confidence'},
+  scenes:[
+   {id:1,name:'BASELINE / THE ROOM',share:.1556,action:'Establish subject, identity, room geometry and scale references',camera:'wide, still, slight low angle'},
+   {id:2,name:'RECOGNITION',share:.2,action:'Subject notices the first physical deviation; tests posture and balance',camera:'slow push toward face and upper body'},
+   {id:3,name:'CONTINUOUS TRANSFORMATION',share:.3555,action:'Sustain full-duration growth; record silhouette, breath, tension, clothing and balance',camera:'continuous take; no growth cutaways'},
+   {id:4,name:'PHASE FOUR / HOLD',share:.1556,action:'Stop at the defined ceiling; settle the new baseline',camera:'hold; measured orbit or three-quarter angle'},
+   {id:5,name:'DISPLAY / REVEAL',share:.1333,action:'Subject begins to enjoy the new form and deliberately shows it',camera:'slow reveal; close enough to preserve intimacy'}
+  ],
+  asset_requirements:[
+   {type:'character reference',purpose:'identity and baseline body proportions',generation:'front, three-quarter and side views with consistent face and anatomy'},
+   {type:'environment',purpose:'room geometry, floor contact, scale references',generation:'clinical industrial interior with cold blue light and restrained amber accents'},
+   {type:'wardrobe',purpose:'fabric response and fit progression',generation:'consistent garment, material detail, tension and deformation states'},
+   {type:'growth states',purpose:'intermediate visual continuity',generation:'ordered phase references from baseline through phase four, never skipping intermediate states'},
+   {type:'camera and lighting',purpose:'consistent spatial and photographic grammar',generation:'locked lens and lighting reference across all stages'}
+  ],
+  motion:{primary:'continuous physically legible transformation',secondary:['breathing','posture adjustment','weight shift','muscle tension','fabric stretch','foot and floor contact','micro-expression'],constraint:'phase four is the maximum; do not inflate into phase six'},
+  sound:{layers:['original score','room tone','low mechanical resonance','breath and fabric detail','subtle transition accents'],rule:'music follows the emotional arc and remains synchronized to the uninterrupted growth duration'},
+  assembly:{tracks:['V1 source / generated picture','V2 growth and compositing','V3 titles and data overlays','A1 original score','A2 designed effects','M1 timecode and continuity records'],deliverables:['full-duration master','scene renders','source and generated assets','continuity report','editable timeline','director script','automation specification']},
+  production_note:'This package is a preparation and direction specification. Each asset, shot and motion pass must be generated or sourced, inspected, then assembled; this JSON alone is not a rendered video.'
+ };
+ state.prepPackage=production;
+ const out=[
+  'PROJECT / '+production.project,
+  'CONCEPT / '+concept,
+  'EMOTIONAL ARC / '+production.concept.emotional_arc.join(' → '),
+  '',
+  'SCENE PLAN',
+  ...production.scenes.map(x=>String(x.id).padStart(2,'0')+' / '+x.name+' — '+x.action+' ['+Math.round(x.share*dur)+'s]'),
+  '',
+  'ASSET GENERATION',
+  ...production.asset_requirements.map(x=>'• '+x.type+' — '+x.purpose),
+  '',
+  'MOTION / '+production.motion.primary,
+  'CONTINUITY / '+production.continuity.identity+'; '+production.continuity.body,
+  'SOUND / '+production.sound.layers.join(' · '),
+  'ASSEMBLY / '+production.assembly.tracks.join(' · '),
+  '',
+  'PRODUCTION STATE / PACKAGE BUILT — ASSET GENERATION AND SHOT EXECUTION REQUIRED'
+ ].join('\n');
+ $('#prepOutput').textContent=out;$('#prepStatus').textContent='DIRECTOR PACKAGE BUILT / '+production.asset_requirements.length+' ASSET CLASSES';
+ $('#status').textContent='PRODUCTION PACKAGE READY';
+}
+$('#buildPrep').addEventListener('click',buildProductionPackage);
+$('#exportPrep').addEventListener('click',()=>{if(!state.prepPackage)buildProductionPackage();download('GEEHUB-production-package.json',JSON.stringify(state.prepPackage,null,2),'application/json')});
 function directAndCreate(){
  pause();state.t=0;
  const brief=$('#story').value.trim()||'A man encounters an impossible change and discovers a new physical presence.';

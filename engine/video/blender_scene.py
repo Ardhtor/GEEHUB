@@ -171,20 +171,32 @@ def build_scene(manifest, output_path):
     camera = bpy.data.objects.new("Director camera", camera_data)
     scene.collection.objects.link(camera)
     camera_mode = manifest.get("direction", {}).get("camera", "medium")
-    if camera_mode == "low":
-        camera.location = (3.0, -9.5, 1.95)
-        camera_data.lens = 45
-    elif camera_mode == "close":
-        camera.location = (2.0, -7.0, 2.7)
-        camera_data.lens = 55
-    else:
-        camera.location = (3.0, -10.0, 3.2)
-        camera_data.lens = 48
-    aim(camera, (0, 0, 1.65))
+    camera_data.lens = 45 if camera_mode == "low" else 55 if camera_mode == "close" else 48
     scene.camera = camera
-    camera.keyframe_insert(data_path="location", frame=1)
-    camera.keyframe_insert(data_path="rotation_euler", frame=1)
-    camera.location = (camera.location.x * 0.88, camera.location.y * 0.91, camera.location.z - 0.12)
+    camera_shots = [
+        (3.0, -10.0, 3.15),
+        (1.7, -8.6, 2.55),
+        (2.2, -9.0, 2.35),
+        (3.1, -10.2, 2.05),
+        (3.8, -9.8, 2.45),
+    ]
+    if camera_mode == "low":
+        camera_shots = [(x, y, z - 0.55) for x, y, z in camera_shots]
+    elif camera_mode == "close":
+        camera_shots = [(x * 0.78, y * 0.82, z) for x, y, z in camera_shots]
+
+    directed_scenes = manifest.get("scenes", [])
+    if not directed_scenes:
+        directed_scenes = [{"share": 0.2} for _ in range(5)]
+    cursor = 0.0
+    for index, shot in enumerate(directed_scenes):
+        frame = max(1, min(total_frames, int(cursor * total_frames) + 1))
+        camera.location = camera_shots[min(index, len(camera_shots) - 1)]
+        aim(camera, (0, 0, 1.65))
+        camera.keyframe_insert(data_path="location", frame=frame)
+        camera.keyframe_insert(data_path="rotation_euler", frame=frame)
+        cursor += max(0.0, float(shot.get("share", 1.0 / len(directed_scenes))))
+    camera.location = camera_shots[-1]
     aim(camera, (0, 0, 1.65))
     camera.keyframe_insert(data_path="location", frame=total_frames)
     camera.keyframe_insert(data_path="rotation_euler", frame=total_frames)

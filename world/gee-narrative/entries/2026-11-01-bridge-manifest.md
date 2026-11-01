@@ -15,7 +15,8 @@ It can create and validate versioned exchange records, register measured frame-s
 - New implementation: `engine/growth-video-studio/core/bridge-manifest.js`.
 - New tests: `engine/growth-video-studio/core/bridge-manifest.test.js` (eight cases authored).
 - CI workflow: `.github/workflows/package-geehub.yml` now runs `npm test` using Node 22 before packaging.
-- The GitHub commit-status endpoint returned no status checks for the workflow-file commit. The tests have not yet been confirmed as executed by CI.
+- A temporary Node 22.16.0 harness using copies of the branch module and required core dependencies ran the eight bridge tests: 8 passed, 0 failed. `node --check` passed for the module and test file.
+- The full studio `npm test` suite was not run. The GitHub commit-status endpoint returned no status checks, so the workflow's CI execution remains unverified.
 
 ## What remains unresolved
 

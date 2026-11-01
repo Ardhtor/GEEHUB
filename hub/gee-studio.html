@@ -145,7 +145,7 @@ function buildProductionPackage(){
  const dur=state.duration,ceiling=state.ceiling,camera=$('#camera').value;
  const concept='A controlled, intimate transformation in which the subject becomes increasingly imposing without losing recognizable identity.';
  const production={
-  project:'GEEHUB / '+(brief.slice(0,54).toUpperCase()),brief,audio_file:($('#scoreAsset')?.value.trim()?('assets/'+$('#scoreAsset').value.trim().split(/[\\\\/]/).pop()):null),format:{duration_seconds:dur,fps:24,frame:'16:9',growth_ceiling:ceiling,phase_limit:4},
+  project:'GEEHUB / '+(brief.slice(0,54).toUpperCase()),brief,audio_file:($('#scoreAsset')?.value.trim()?('assets/'+$('#scoreAsset').value.trim().replaceAll(String.fromCharCode(92),'/').split('/').pop()):null),format:{duration_seconds:dur,fps:24,frame:'16:9',growth_ceiling:ceiling,phase_limit:4},
   concept:{logline:brief,emotional_arc:['uncertainty','recognition','strain','acceptance','deliberate display'],visual_principle:'slightly off-putting emphasis; intimate scale; grounded physical continuity'},
   continuity:{identity:'Preserve the recognizable face and baseline identity throughout',body:'Track height, limb length, torso, shoulders, chest, arms and legs proportionally',surface:'Realistic skin response, fabric tension, contact shadow and environmental interaction',record:'Retain uninterrupted source-duration evidence and per-frame timecode'},
   direction:{camera,language:['establishing full-body scale','intimate observation','slow controlled push-in','continuous locked growth passage','phase-four hold','three-quarter reveal'],movement:'Movement evolves from mechanical precision toward heavier organic confidence'},

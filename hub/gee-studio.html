@@ -23,7 +23,7 @@ footer{padding:10px 16px;border-top:1px solid var(--line);display:flex;justify-c
 <nav class="tabs" aria-label="Studio pages"><button class="active" data-page="prep">PREP</button><button data-page="media">MEDIA</button><button data-page="edit">EDIT</button><button data-page="fusion">FUSION</button><button data-page="color">COLOR</button><button data-page="fairlight">FAIRLIGHT</button><button data-page="deliver">DELIVER</button></nav>
 <main>
 <section class="work">
-<section id="prepDesk" class="timeline" style="margin:0 0 12px;padding:12px;display:grid;gap:10px"><div class="timeline-head" style="padding:0 0 8px"><span>AI PRODUCTION WORKBENCH / PREPARATION IS THE ENGINE</span><span id="prepStatus">AWAITING CREATIVE BRIEF</span></div><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:6px" id="prepStages"><div class="clip">01 / CONCEPT</div><div class="clip">02 / STORY</div><div class="clip">03 / DIRECTION</div><div class="clip">04 / SCENES</div><div class="clip">05 / ASSETS</div><div class="clip">06 / MOTION</div><div class="clip">07 / SOUND</div><div class="clip">08 / EDIT PLAN</div></div><div style="display:flex;gap:8px;flex-wrap:wrap"><button id="buildPrep" class="create-button">BUILD PRODUCTION PACKAGE</button><button id="exportPrep">EXPORT PREPARATION / JSON</button></div><div id="prepOutput" style="color:#9fb2bd;white-space:pre-wrap;line-height:1.65">The director develops the premise, emotional arc, scene progression, shot language, character and environment requirements, motion instructions, sound design and assembly plan. The package becomes the production memory for the video.</div></section><div class="viewer"><canvas id="picture" width="1280" height="720"></canvas><div class="viewmeta"><span id="shotLabel">SHOT 01 / ARRIVAL</span><span>DIRECTOR'S VIEW / CONTINUOUS TAKE</span></div><div class="caption" id="caption">He notices the new weight before he understands it.</div><div class="timecode" id="timecode">00:00:00:00</div></div>
+<section id="prepDesk" class="timeline" style="margin:0 0 12px;padding:12px;display:grid;gap:10px"><div class="timeline-head" style="padding:0 0 8px"><span>AI PRODUCTION WORKBENCH / PREPARATION IS THE ENGINE</span><span id="prepStatus">AWAITING CREATIVE BRIEF</span></div><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:6px" id="prepStages"><div class="clip">01 / CONCEPT</div><div class="clip">02 / STORY</div><div class="clip">03 / DIRECTION</div><div class="clip">04 / SCENES</div><div class="clip">05 / ASSETS</div><div class="clip">06 / MOTION</div><div class="clip">07 / SOUND</div><div class="clip">08 / EDIT PLAN</div></div><div style="display:flex;gap:8px;flex-wrap:wrap"><button id="buildPrep" class="create-button">BUILD PRODUCTION PACKAGE</button><button id="exportPrep">EXPORT PREPARATION / JSON</button><button id="runEngine" class="primary">RUN LOCAL PRODUCTION ENGINE</button></div><div id="engineStatus" style="color:#d7b27a">LOCAL ENGINE / NOT CONNECTED · START engine/video/gee_engine.py serve</div><a id="engineDownload" class="hidden" download="GEEHUB-master.mp4" style="color:#a8e8ff">DOWNLOAD RENDERED MASTER</a><div id="prepOutput" style="color:#9fb2bd;white-space:pre-wrap;line-height:1.65">The director develops the premise, emotional arc, scene progression, shot language, character and environment requirements, motion instructions, sound design and assembly plan. The package becomes the production memory for the video.</div></section><div class="viewer"><canvas id="picture" width="1280" height="720"></canvas><div class="viewmeta"><span id="shotLabel">SHOT 01 / ARRIVAL</span><span>DIRECTOR'S VIEW / CONTINUOUS TAKE</span></div><div class="caption" id="caption">He notices the new weight before he understands it.</div><div class="timecode" id="timecode">00:00:00:00</div></div>
 <div class="transport"><button id="play">PLAY</button><button id="stop">STOP</button><button id="createVideo" class="create-button">DIRECT &amp; CREATE VIDEO</button><button id="record" class="primary">RENDER FULL TAKE</button><label>POSITION</label><input id="scrub" type="range" min="0" max="45" step=".01" value="0"><span id="elapsed">00:00 / 00:45</span><a id="renderLink" class="hidden" download>save video</a></div>
 <div class="timeline"><div class="timeline-head"><span>MASTER TIMELINE / 24 FPS</span><span id="timelineState">45.00 SEC / 5 SCENES / 1 CONTINUOUS GROWTH PASS</span></div><div class="ruler"><span>00:00</span><span>00:09</span><span>00:18</span><span>00:27</span><span>00:36</span><span>00:45</span></div>
 <div class="track"><div class="trackname">V1 / PICTURE</div><div class="tracklane"><div class="clip" style="width:100%">MASTER TAKE · CAMERA / SUBJECT / ENVIRONMENT</div></div></div>
@@ -192,6 +192,33 @@ function buildProductionPackage(){
 }
 $('#buildPrep').addEventListener('click',buildProductionPackage);
 $('#exportPrep').addEventListener('click',()=>{if(!state.prepPackage)buildProductionPackage();download('GEEHUB-production-package.json',JSON.stringify(state.prepPackage,null,2),'application/json')});
+async function runLocalEngine(){
+ const status=$('#engineStatus'),button=$('#runEngine'),link=$('#engineDownload');
+ button.disabled=true;link.classList.add('hidden');status.textContent='CONNECTING TO LOCAL BLENDER / FFMPEG ENGINE…';
+ try{
+  const base='http://127.0.0.1:8765';
+  const health=await fetch(base+'/health',{cache:'no-store'}).then(r=>r.json());
+  if(!health.ready)throw new Error('Engine found, but Blender or FFmpeg is missing. Install both, then run python3 engine/video/gee_engine.py doctor.');
+  if(!state.prepPackage)buildProductionPackage();
+  status.textContent='SENDING DIRECTOR PACKAGE TO BLENDER…';
+  const started=await fetch(base+'/render',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(state.prepPackage)}).then(async r=>{const j=await r.json();if(!r.ok)throw new Error(j.error||'Render request failed');return j});
+  let done=false;
+  while(!done){
+   await new Promise(resolve=>setTimeout(resolve,2000));
+   const job=await fetch(base+'/status?id='+encodeURIComponent(started.job_id),{cache:'no-store'}).then(r=>r.json());
+   status.textContent='LOCAL RENDER / '+job.state.toUpperCase()+' / '+(job.progress||0)+'% — '+(job.message||'');
+   if(job.state==='failed')throw new Error(job.message||'Local render failed');
+   if(job.state==='complete'){
+    link.href=base+'/download?id='+encodeURIComponent(started.job_id);
+    link.classList.remove('hidden');status.textContent='MASTER READY / '+(job.report?.duration_seconds||state.duration)+' SEC / '+((job.report?.size_bytes||0)/1048576).toFixed(1)+' MB';
+    $('#status').textContent='LOCAL MASTER RENDERED';done=true;
+   }
+  }
+ }catch(e){status.textContent='ENGINE / '+e.message;$('#status').textContent='ENGINE NEEDS ATTENTION'}
+ finally{button.disabled=false}
+}
+$('#runEngine').addEventListener('click',runLocalEngine);
+
 function directAndCreate(){
  pause();state.t=0;
  const brief=$('#story').value.trim()||'A man encounters an impossible change and discovers a new physical presence.';

@@ -18,6 +18,15 @@ jobs:
           ref: growth-video-studio-foundation
           fetch-depth: 1
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run growth video core tests
+        working-directory: engine/growth-video-studio
+        run: npm test
+
       - name: Build one-sweep package
         run: |
           mkdir -p dist/GEEHUB

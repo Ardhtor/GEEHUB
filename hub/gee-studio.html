@@ -50,14 +50,14 @@ footer{padding:10px 16px;border-top:1px solid var(--line);display:flex;justify-c
 const $=s=>document.querySelector(s),canvas=$('#picture'),ctx=canvas.getContext('2d'),W=canvas.width,H=canvas.height;
 const state={duration:45,t:0,playing:false,raf:0,recorder:null,chunks:[],audio:null,rendering:false,ceiling:3.8};
 const scenes=[
-{at:0,end:7,name:'ARRIVAL',caption:'He notices the new weight before he understands it.',note:'Establish the man, the room, and the first involuntary change.'},
-{at:7,end:16,name:'RECOGNITION',caption:'He looks down, then back at the reflection. Something has shifted.',note:'The body begins to register its new proportions. The camera stays with him.'},
-{at:16,end:32,name:'SUSTAINED GROWTH',caption:'The change continues. Breath, balance, fabric and posture all respond.',note:'One uninterrupted inflation passage. Measurements are sampled throughout.'},
-{at:32,end:39,name:'PHASE FOUR / HOLD',caption:'The growth settles. He discovers that he likes what he has become.',note:'The phase-four ceiling is locked. The new baseline is retained.'},
-{at:39,end:45,name:'DISPLAY',caption:'He turns slowly, letting the room—and the camera—take in the result.',note:'A quiet, confident display. The final state is held rather than inflated further.'}
+{from:0,to:.1556,name:'ARRIVAL',caption:'He notices the new weight before he understands it.',note:'Establish the man, the room, and the first involuntary change.'},
+{from:.1556,to:.3556,name:'RECOGNITION',caption:'He looks down, then back at the reflection. Something has shifted.',note:'The body begins to register its new proportions. The camera stays with him.'},
+{from:.3556,to:.7111,name:'SUSTAINED GROWTH',caption:'The change continues. Breath, balance, fabric and posture all respond.',note:'One uninterrupted inflation passage. Measurements are sampled throughout.'},
+{from:.7111,to:.8667,name:'PHASE FOUR / HOLD',caption:'The growth settles. He discovers that he likes what he has become.',note:'The phase-four ceiling is locked. The new baseline is retained.'},
+{from:.8667,to:1,name:'DISPLAY',caption:'He turns slowly, letting the room—and the camera—take in the result.',note:'A quiet, confident display. The final state is held rather than inflated further.'}
 ];
 function fmt(s){const m=Math.floor(s/60),sec=Math.floor(s%60),f=Math.floor((s%1)*24);return String(m).padStart(2,'0')+':'+String(sec).padStart(2,'0')+':'+String(f).padStart(2,'0')}
-function growth(t){const a=16,b=32,u=Math.max(0,Math.min(1,(t-a)/(b-a)));return t<a?1:t<b?1+(state.ceiling-1)*(u*u*(3-2*u)):state.ceiling}
+function growth(t){const a=state.duration*.3556,b=state.duration*.7111,u=Math.max(0,Math.min(1,(t-a)/(b-a)));return t<a?1:t<b?1+(state.ceiling-1)*(u*u*(3-2*u)):state.ceiling}
 function sceneAt(t){const p=t/Math.max(1,state.duration);return scenes.find(s=>p>=s.from&&p<s.to)||scenes[scenes.length-1]}
 function path(points,fill,stroke='#26343b',lw=2){ctx.beginPath();points.forEach((p,i)=>i?ctx.lineTo(...p):ctx.moveTo(...p));ctx.closePath();ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=lw;ctx.stroke()}}
 function ellipse(x,y,rx,ry,fill,stroke=null,lw=1){ctx.beginPath();ctx.ellipse(x,y,rx,ry,0,0,Math.PI*2);ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=lw;ctx.stroke()}}
@@ -142,11 +142,11 @@ function directAndCreate(){
  const lower=brief.toLowerCase();
  const subject=lower.includes('machine')?'the machine-born figure':lower.includes('giant')?'the giant':lower.includes('man')?'the man':'the subject';
  const arc=[
-  {from:0,to:.14,name:'THE ROOM',caption:'The room holds its breath. '+subject+' enters the frame.',note:'Wide establishing shot. Establish scale, room tone and baseline proportions.'},
-  {from:.14,to:.34,name:'FIRST DEVIATION',caption:'A small movement reveals that the old proportions no longer quite apply.',note:'Slow push-in. First measurable deviation; preserve the face and baseline reference.'},
-  {from:.34,to:.72,name:'CONTINUOUS GROWTH',caption:'The change gathers force. Every second remains visible; the camera refuses to look away.',note:'One uninterrupted growth passage. Track silhouette, posture, breath, clothing tension and scale.'},
-  {from:.72,to:.88,name:'PHASE FOUR / STILLNESS',caption:'At the limit, the movement stops. The new form settles into itself.',note:'Lock phase four. Hold long enough to register the new baseline; no escalation beyond the ceiling.'},
-  {from:.88,to:1,name:'THE REVEAL',caption:'He turns toward the light, then toward the camera. The new presence is deliberate.',note:'Slow three-quarter reveal, restrained confidence, slightly unsettling intimacy.'}
+  {from:0,to:.1556,name:'THE ROOM',caption:'The room holds its breath. '+subject+' enters the frame.',note:'Wide establishing shot. Establish scale, room tone and baseline proportions.'},
+  {from:.1556,to:.3556,name:'FIRST DEVIATION',caption:'A small movement reveals that the old proportions no longer quite apply.',note:'Slow push-in. First measurable deviation; preserve the face and baseline reference.'},
+  {from:.3556,to:.7111,name:'CONTINUOUS GROWTH',caption:'The change gathers force. Every second remains visible; the camera refuses to look away.',note:'One uninterrupted growth passage. Track silhouette, posture, breath, clothing tension and scale.'},
+  {from:.7111,to:.8667,name:'PHASE FOUR / STILLNESS',caption:'At the limit, the movement stops. The new form settles into itself.',note:'Lock phase four. Hold long enough to register the new baseline; no escalation beyond the ceiling.'},
+  {from:.8667,to:1,name:'THE REVEAL',caption:'He turns toward the light, then toward the camera. The new presence is deliberate.',note:'Slow three-quarter reveal, restrained confidence, slightly unsettling intimacy.'}
  ];
  scenes.splice(0,scenes.length,...arc);
  $('#pageTitle').textContent='DIRECTOR / '+(lower.includes('machine')?'MACHINE TO BEAST':'THE NEW BASELINE');

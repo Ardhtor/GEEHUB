@@ -16,4 +16,5 @@ echo "Checking the engine..."
 python3 gee_engine.py doctor
 echo
 echo "Start the local engine with:"
-echo "python3 gee_engine.py serve"
+echo "Starting the local Studio bridge..."
+python3 gee_engine.py serve

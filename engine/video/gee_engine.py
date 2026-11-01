@@ -117,9 +117,9 @@ def render_job(job_id: str, manifest: dict) -> None:
         ffmpeg_cmd = [
             ffmpeg, "-y", "-i", str(silent_video), "-i", str(audio_path),
             "-f", "lavfi", "-i", tone,
-            "-filter_complex", "[1:a]volume=0.72[music];[2:a]volume=0.075[bed];[music][bed]amix=inputs=2:duration=first:dropout_transition=2[a]",
+            "-filter_complex", f"[1:a]volume=0.72,apad=pad_dur={duration},atrim=duration={duration}[music];[2:a]volume=0.075[bed];[music][bed]amix=inputs=2:duration=longest,atrim=duration={duration}[a]",
             "-map", "0:v:0", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
-            "-shortest", str(final_video),
+            "-t", str(duration), str(final_video),
         ]
     else:
         ffmpeg_cmd = [

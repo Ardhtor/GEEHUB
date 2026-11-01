@@ -46,4 +46,4 @@ Renders are saved under `~/Movies/GEEHUB/`. The local API exposes `/health`, `/r
 
 ## Optional soundtrack
 
-The Studio can pass a local soundtrack path in a production manifest. The local API never reads arbitrary paths supplied by a browser; soundtrack files must be placed in the project folder and referenced from there. This keeps the local render service constrained to the GEEHUB project workspace.
+Copy the audio file into `engine/video/assets/` in the repository checkout. In the Studio PREP panel, enter its filename (for example `quthbert.mp3`). The engine copies that asset into the render folder and mixes it with the generated low-frequency bed. The local API never reads arbitrary filesystem paths supplied by a browser.

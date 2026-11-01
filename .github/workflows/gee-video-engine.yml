@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Compile engine Python
-        run: python -m py_compile engine/video/gee_engine.py engine/video/blender_scene.py
+        run: python -m py_compile engine/video/gee_engine.py engine/video/blender_scene.py engine/video/analyze_source.py
       - name: Validate example production manifest
         run: python -m json.tool engine/video/manifest.example.json > /dev/null
       - name: Confirm engine documentation and assets

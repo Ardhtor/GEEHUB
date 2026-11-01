@@ -32,6 +32,16 @@ This is a geometry pass, not an automatic body scan. Four focused tests exercise
 
 The next construction is the bridge manifest: one versioned record through which source media, tracked frames, creative intent, render jobs, and resulting artifacts can pass without losing their lineage.
 
+## 2026-11-01 — The bridge receives its first numbered envelope
+
+The exchange bench now has a versioned manifest: `engine/growth-video-studio/core/bridge-manifest.js`. It gives the source clip an immutable identity, then records measured frame sets, render-job references, output destinations, and the artifacts that eventually return. Each change creates a new revision and leaves an event behind, so a later worker can tell which state it received and what happened after it.
+
+The first job can only enter the queue if it is the existing GEEHUB growth-render-job format, contains both growth states and landmark evidence, and describes the same source name, duration, and dimensions as the protected source record. Its job JSON and rendered output have separate exchange paths. The manifest reserves those paths, refusing collisions with source footage or other frame assets. A running job may finish only by returning an artifact at its reserved destination with a SHA-256 digest. Failure remains a recorded failure; it does not become an empty success.
+
+Eight focused tests now describe the contract: source immutability, revision branching, frame-set registration, source matching, output-path reservation, successful completion, explicit failure, and corruption detection. The packaging workflow has also been given a Node 22 test step before it creates the portable mirror. The repository status endpoint did not expose a check result for that workflow commit, so the tests are written but not yet reported as executed by CI.
+
+The envelope is not yet a courier. The module stores URIs and metadata; it does not move media bytes, write to Dropbox, read from Resolve, or render a frame. No local application was touched in this pass. The next instrument belongs at the Resolve door: a small Lua consumer that can inspect a manifest safely, report what it understands, and leave source media and existing edits untouched.
+
 ## Chronicle rule
 
 Every future entry must be grounded in repository changes, tested behavior, user-confirmed runtime results, or clearly labeled proposals. Do not write an implementation as if it has run. Do not turn missing capabilities into lore that disguises their absence. The narrative is the machine's construction record, and the construction record is part of the machine.

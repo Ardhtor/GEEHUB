@@ -42,3 +42,13 @@ Renders are saved under `~/Movies/GEEHUB/`. The local API exposes `/health`, `/r
 ## Optional soundtrack
 
 Copy the audio file into `engine/video/assets/` in the repository checkout. In the Studio PREP panel, enter its filename (for example `quthbert.mp3`). The assets folder is git-ignored so private recordings are not committed. The engine copies that asset into the render folder and mixes it with the generated low-frequency bed. The local API never reads arbitrary filesystem paths supplied by a browser.
+
+## Analyze reference footage
+
+The source-analysis pass now runs independently of Blender and produces timestamped JSON for shot planning:
+
+```bash
+python3 analyze_source.py /path/to/reference.mp4 --fps 2 --width 320 --output analysis.json
+```
+
+It uses FFprobe for media metadata and FFmpeg to sample frames. The report records frame-change energy, likely cuts, coarse image-space movement cues, and held / slow / active intervals. See [SOURCE_ANALYSIS.md](SOURCE_ANALYSIS.md) for interpretation limits and the planned Studio integration. The analysis is deliberately separate from rendering: inspect and curate the reference track before using it to direct a new scene.

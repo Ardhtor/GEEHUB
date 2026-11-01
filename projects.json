@@ -408,5 +408,20 @@
       "continuity",
       "growth"
     ]
+  },
+  {
+    "id": "geehub-studio",
+    "name": "GEEHUB Studio",
+    "status": "prototype",
+    "kind": "video-editor",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/hub/gee-studio.html",
+    "description": "Browser-native video production prototype with director-authored scene progression, continuous time-coded growth recording, editable take duration, generated soundtrack, WebM render, and script/automation export.",
+    "related": [
+      "media-tools",
+      "sensation-engine",
+      "growth-canvas",
+      "beefythiq"
+    ]
   }
 ]

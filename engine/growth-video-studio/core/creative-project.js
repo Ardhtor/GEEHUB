@@ -12,8 +12,8 @@ export const NODE_TYPES = Object.freeze([
 ]);
 
 const clone = value => structuredClone(value);
-const id = prefix => prefix + "-" + globalThis.crypto?.randomUUID?.() ||
-  prefix + "-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
+const id = prefix => prefix + "-" + (globalThis.crypto?.randomUUID?.() ??
+  Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8));
 
 export function createCreativeProject({ name = "Untitled GEEHUB Project", source = null } = {}) {
   const now = new Date().toISOString();

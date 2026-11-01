@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080b10"><title>GEEHUB STUDIO // DIRECTOR</title>
+<style>
+:root{color-scheme:dark;--bg:#080b10;--panel:#10151c;--line:#27323d;--muted:#82909d;--ice:#a8e8ff;--amber:#d7b27a;--violet:#a99bff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#e4edf3;font:12px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace;overflow-x:hidden}
+button,input,select{font:inherit}button{background:#17232d;border:1px solid #3b5262;color:#e8f6ff;padding:8px 12px;cursor:pointer;letter-spacing:.08em}button:hover{border-color:var(--ice);background:#203746}button:disabled{opacity:.4;cursor:wait}
+header{height:58px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;border-bottom:1px solid var(--line);background:#0c1118;gap:12px}
+.brand{letter-spacing:.2em;color:var(--ice)}.brand b{color:#fff;font-weight:500}.status{color:#9cc7d9}.status:before{content:"";display:inline-block;width:6px;height:6px;background:#8bd8ac;border-radius:50%;margin-right:8px;box-shadow:0 0 9px #8bd8ac}
+.tabs{display:flex;gap:3px;padding:8px 14px;border-bottom:1px solid var(--line);background:#0b1016}.tabs button{border:0;background:transparent;color:#80909e}.tabs button.active{color:#fff;background:#1a2834;border-bottom:1px solid var(--ice)}
+main{padding:12px;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:12px}.work{min-width:0}.viewer{position:relative;background:#02060b;border:1px solid #314352;aspect-ratio:16/9;min-height:280px;overflow:hidden}.viewer canvas{width:100%;height:100%;display:block}.viewmeta{position:absolute;inset:12px 14px auto;display:flex;justify-content:space-between;color:#83a7bb;font-size:10px;pointer-events:none}.timecode{position:absolute;right:14px;bottom:12px;background:#05090ddc;padding:5px 8px;color:#d9f5ff}.caption{position:absolute;left:16px;bottom:14px;color:#b4c6d0;text-shadow:0 2px 8px #000;max-width:65%}
+.transport{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:10px 0}.transport input[type=range]{flex:1;min-width:100px;accent-color:var(--ice)}.transport label{color:var(--muted)}.primary{background:#dceef4;color:#091017;border-color:#dceef4;font-weight:700}.danger{border-color:#805f57;color:#ffb5a8}
+.timeline{border:1px solid var(--line);background:#0d1218;margin-top:8px}.timeline-head{display:flex;justify-content:space-between;align-items:center;padding:9px 12px;border-bottom:1px solid var(--line);color:#a5bac8}.ruler{height:24px;display:flex;justify-content:space-between;padding:4px 12px;color:#617483;font-size:10px;border-bottom:1px solid #1d2831}.track{display:grid;grid-template-columns:86px 1fr;min-height:47px;border-bottom:1px solid #1d2831}.track:last-child{border-bottom:0}.trackname{padding:12px 8px;color:#8598a7;border-right:1px solid #1d2831;font-size:10px}.tracklane{position:relative;padding:5px 8px;background-image:linear-gradient(90deg,transparent 24.8%,#1a2731 25%,transparent 25.2%,transparent 49.8%,#1a2731 50%,transparent 50.2%,transparent 74.8%,#1a2731 75%,transparent 75.2%)}.clip{height:34px;border:1px solid #47748a;background:linear-gradient(90deg,#173548,#1d2c39);padding:8px 10px;color:#d6f3ff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:relative}.clip.growth{background:linear-gradient(90deg,#233e4b,#665b43);border-color:#9c8b69}.clip.audio{background:linear-gradient(90deg,#302b50,#433b68);border-color:#8173bc}.playhead{position:absolute;top:0;bottom:0;width:1px;background:#f2d5a0;z-index:3;pointer-events:none;box-shadow:0 0 8px #f2d5a0}
+.side{border:1px solid var(--line);background:var(--panel);padding:14px;align-self:start;display:grid;gap:13px}.eyebrow{font-size:9px;letter-spacing:.18em;color:#7f9bab}.side h2{font-size:14px;font-weight:500;letter-spacing:.1em;margin:2px 0}.side p{color:#91a0ab;margin:0}.field{display:grid;gap:5px;color:#91a0ab}.field input,.field select,.field textarea{width:100%;background:#080d13;border:1px solid #2b3945;color:#e2edf3;padding:8px}.field textarea{min-height:92px;resize:vertical}.field input[type=range]{padding:0;accent-color:var(--ice)}.readout{border-top:1px solid var(--line);padding-top:10px;display:grid;gap:6px}.readout div{display:flex;justify-content:space-between;color:#8295a2}.readout b{color:#d4e9f1;font-weight:500}.notice{color:#c6a97d;font-size:10px;line-height:1.5}
+footer{padding:10px 16px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#667c8b;font-size:10px}
+#renderLink{color:var(--ice)}.hidden{display:none!important}
+@media(max-width:850px){main{grid-template-columns:1fr}.side{grid-row:1}.viewer{min-height:220px}header{padding:0 10px}}
+</style></head>
+<body>
+<header><div class="brand">GEEHUB <b>// STUDIO</b></div><div class="status" id="status">DIRECTOR READY</div><div>PROJECT / THE NEW BASELINE</div></header>
+<nav class="tabs" aria-label="Studio pages"><button class="active" data-page="media">MEDIA</button><button data-page="edit">EDIT</button><button data-page="fusion">FUSION</button><button data-page="color">COLOR</button><button data-page="fairlight">FAIRLIGHT</button><button data-page="deliver">DELIVER</button></nav>
+<main>
+<section class="work">
+<div class="viewer"><canvas id="picture" width="1280" height="720"></canvas><div class="viewmeta"><span id="shotLabel">SHOT 01 / ARRIVAL</span><span>DIRECTOR'S VIEW / CONTINUOUS TAKE</span></div><div class="caption" id="caption">He notices the new weight before he understands it.</div><div class="timecode" id="timecode">00:00:00:00</div></div>
+<div class="transport"><button id="play">PLAY</button><button id="stop">STOP</button><button id="record" class="primary">RENDER FULL TAKE</button><label>POSITION</label><input id="scrub" type="range" min="0" max="45" step=".01" value="0"><span id="elapsed">00:00 / 00:45</span><a id="renderLink" class="hidden" download>save video</a></div>
+<div class="timeline"><div class="timeline-head"><span>MASTER TIMELINE / 24 FPS</span><span id="timelineState">45.00 SEC / 5 SCENES / 1 CONTINUOUS GROWTH PASS</span></div><div class="ruler"><span>00:00</span><span>00:09</span><span>00:18</span><span>00:27</span><span>00:36</span><span>00:45</span></div>
+<div class="track"><div class="trackname">V1 / PICTURE</div><div class="tracklane"><div class="clip" style="width:100%">MASTER TAKE · CAMERA / SUBJECT / ENVIRONMENT</div></div></div>
+<div class="track"><div class="trackname">V2 / GROWTH</div><div class="tracklane"><div class="clip growth" style="width:78%;margin-left:10%">SUSTAINED INFLATION · PHASE 01 → PHASE 04 / HOLD</div></div></div>
+<div class="track"><div class="trackname">A1 / SCORE</div><div class="tracklane"><div class="clip audio" style="width:100%">ORIGINAL LOW-FREQUENCY SCORE · ROOM TONE · MECHANICAL RESONANCE</div></div></div>
+<div class="track"><div class="trackname">M1 / MEMORY</div><div class="tracklane"><div class="clip" style="width:100%;background:linear-gradient(90deg,#1c2932,#29343c)">BASELINE / CONTINUOUS TIMECODE / GROWTH MEASUREMENTS</div></div></div>
+<div class="playhead" id="playhead" style="left:86px"></div></div>
+</section>
+<aside class="side">
+<div><div class="eyebrow">CREATIVE DIRECTOR / GEEHUB</div><h2 id="pageTitle">THE NEW BASELINE</h2><p id="directorNote">A man discovers that his body is changing. He begins to enjoy the new presence, then deliberately shows it off. The camera remains close enough to witness the duration.</p></div>
+<label class="field">TAKE DURATION <select id="duration"><option value="30">30 seconds</option><option value="45" selected>45 seconds</option><option value="60">60 seconds</option><option value="90">90 seconds</option></select></label>
+<label class="field">GROWTH CEILING / PHASE FOUR <input id="ceiling" type="range" min="2.2" max="4.8" step=".1" value="3.8"><b id="ceilingValue">3.8×</b></label>
+<label class="field">CAMERA DISTANCE <select id="camera"><option value="close">Intimate / close</option><option value="medium">Medium / full figure</option><option value="low">Low angle / monumental</option></select></label>
+<label class="field">DIRECTION / STORY<textarea id="story">He begins uncertain, notices the change, and tests his new strength. The growth is continuous and measured. At phase four he stops growing, admires the result, and turns to show the new silhouette. Slightly unsettling, but beautiful and intentional.</textarea></label>
+<div class="readout"><div><span>GROWTH RECORD</span><b>CONTINUOUS / NO CUTAWAY</b></div><div><span>MAX PHASE</span><b>04 / LOCKED</b></div><div><span>MEASUREMENTS</span><b id="measure">1.00× / BASELINE</b></div><div><span>RECORD STATE</span><b id="recordState">READY</b></div></div>
+<div class="notice">The take preserves its full authored duration. The final growth ceiling is phase four; no runaway phase-six escalation. Render creates a real WebM recording in this browser.</div>
+<button id="script" type="button">EXPORT DIRECTOR'S SCRIPT</button>
+<button id="automation" type="button">EXPORT RENDER AUTOMATION</button>
+</aside>
+</main>
+<footer><span>GEEHUB STUDIO / FIRST EXECUTABLE EDITOR PASS</span><span>MEDIA → EDIT → FUSION → COLOR → FAIRLIGHT → DELIVER</span><span id="engineNote">LOCAL RENDER / WEBM / 24 FPS</span></footer>
+<script>
+(()=>{'use strict';
+const $=s=>document.querySelector(s),canvas=$('#picture'),ctx=canvas.getContext('2d'),W=canvas.width,H=canvas.height;
+const state={duration:45,t:0,playing:false,raf:0,recorder:null,chunks:[],audio:null,rendering:false,ceiling:3.8};
+const scenes=[
+{at:0,end:7,name:'ARRIVAL',caption:'He notices the new weight before he understands it.',note:'Establish the man, the room, and the first involuntary change.'},
+{at:7,end:16,name:'RECOGNITION',caption:'He looks down, then back at the reflection. Something has shifted.',note:'The body begins to register its new proportions. The camera stays with him.'},
+{at:16,end:32,name:'SUSTAINED GROWTH',caption:'The change continues. Breath, balance, fabric and posture all respond.',note:'One uninterrupted inflation passage. Measurements are sampled throughout.'},
+{at:32,end:39,name:'PHASE FOUR / HOLD',caption:'The growth settles. He discovers that he likes what he has become.',note:'The phase-four ceiling is locked. The new baseline is retained.'},
+{at:39,end:45,name:'DISPLAY',caption:'He turns slowly, letting the room—and the camera—take in the result.',note:'A quiet, confident display. The final state is held rather than inflated further.'}
+];
+function fmt(s){const m=Math.floor(s/60),sec=Math.floor(s%60),f=Math.floor((s%1)*24);return String(m).padStart(2,'0')+':'+String(sec).padStart(2,'0')+':'+String(f).padStart(2,'0')}
+function growth(t){const a=16,b=32,u=Math.max(0,Math.min(1,(t-a)/(b-a)));return t<a?1:t<b?1+(state.ceiling-1)*(u*u*(3-2*u)):state.ceiling}
+function sceneAt(t){return scenes.find(s=>t>=s.at&&t<s.end)||scenes[scenes.length-1]}
+function path(points,fill,stroke='#26343b',lw=2){ctx.beginPath();points.forEach((p,i)=>i?ctx.lineTo(...p):ctx.moveTo(...p));ctx.closePath();ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=lw;ctx.stroke()}}
+function ellipse(x,y,rx,ry,fill,stroke=null,lw=1){ctx.beginPath();ctx.ellipse(x,y,rx,ry,0,0,Math.PI*2);ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=lw;ctx.stroke()}}
+function line(points,color,width){ctx.beginPath();points.forEach((p,i)=>i?ctx.lineTo(...p):ctx.moveTo(...p));ctx.strokeStyle=color;ctx.lineWidth=width;ctx.lineCap='round';ctx.lineJoin='round';ctx.stroke()}
+function draw(t){
+ const g=growth(t),pulse=Math.sin(t*1.7)*.012,breath=Math.sin(t*2.2)*2.6,scene=sceneAt(t),close=$('#camera').value==='close',low=$('#camera').value==='low';
+ const scale=low?1.08:close?1.28:1.0,cx=close?W*.54:W*.5,baseY=low?H*.92:H*.88;
+ const bg=ctx.createLinearGradient(0,0,W,H);bg.addColorStop(0,'#0b1823');bg.addColorStop(.48,'#17212a');bg.addColorStop(1,'#03070c');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);
+ // observation-room architecture, subtly misaligned
+ for(let i=0;i<8;i++){let x=i*180-20+Math.sin(t*.13+i)*3;line([[x,0],[x+Math.sin(t*.07+i)*7,H]],'rgba(142,183,199,.12)',2)}
+ for(let i=0;i<6;i++){let y=100+i*104;line([[0,y],[W,y+Math.sin(t*.17+i)*2]],'rgba(142,183,199,.08)',1)}
+ ctx.fillStyle='rgba(87,175,213,.12)';ctx.fillRect(90,70,16,H-140);ctx.fillRect(W-110,70,18,H-140);
+ // floor grid and contact shadow
+ ctx.fillStyle='#10171d';ctx.fillRect(0,H*.82,W,H*.18);
+ for(let i=0;i<12;i++)line([[W/2+(i-6)*95,H*.82],[W/2+(i-6)*170,H]],'rgba(115,153,168,.12)',1);
+ ellipse(cx,baseY-5,170*g*scale,17,'rgba(0,0,0,.45)');
+ // camera frame drifts subtly, intentionally not perfectly centered
+ const drift=Math.sin(t*.21)*5+(scene.name==='DISPLAY'?Math.sin(t*.5)*3:0);
+ ctx.save();ctx.translate(drift,0);
+ // body proportions expand continuously; long limbs rise with mass
+ const torsoW=66*g*scale,torsoH=125*Math.pow(g,.28)*scale,shoulder=torsoW*1.34,headR=22*scale;
+ const top=baseY-torsoH-90*scale,shoulderY=top+headR*2+18*scale,hipY=baseY-135*scale;
+ // legs, with proportional length increase
+ const legLen=170*Math.pow(g,.17)*scale,thigh=25*g*scale;
+ line([[cx-24*scale,hipY],[cx-35*scale,hipY+legLen*.55],[cx-40*scale,baseY-10]],'#343e45',thigh*2.1);
+ line([[cx+24*scale,hipY],[cx+35*scale,hipY+legLen*.55],[cx+40*scale,baseY-10]],'#343e45',thigh*2.1);
+ line([[cx-24*scale,hipY],[cx-35*scale,hipY+legLen*.55],[cx-40*scale,baseY-10]],'#89969b',thigh*1.65);
+ line([[cx+24*scale,hipY],[cx+35*scale,hipY+legLen*.55],[cx+40*scale,baseY-10]],'#7e8c91',thigh*1.65);
+ // torso silhouette and chest
+ path([[cx-shoulder,shoulderY],[cx-torsoW*.72,shoulderY-16*scale],[cx-torsoW*.48,top+torsoH*.18],[cx-torsoW*.58,hipY],[cx+torsoW*.58,hipY],[cx+torsoW*.48,top+torsoH*.18],[cx+torsoW*.72,shoulderY-16*scale],[cx+shoulder,shoulderY]],'#59676d','#26343b',3);
+ ellipse(cx-shoulder*.39,shoulderY+torsoH*.12,torsoW*.53,torsoH*.22,'#9aa6a7','#39464b',2);
+ ellipse(cx+shoulder*.39,shoulderY+torsoH*.12,torsoW*.53,torsoH*.22,'#859397','#39464b',2);
+ line([[cx,shoulderY+8],[cx,hipY-8]],'rgba(24,32,37,.8)',4);
+ // abdomen forms
+ for(let i=0;i<3;i++){let y=shoulderY+torsoH*(.43+i*.13);ellipse(cx-15*scale,y,13*g*scale,8*scale,'#69777c');ellipse(cx+15*scale,y,13*g*scale,8*scale,'#617076')}
+ // neck and head
+ path([[cx-13*scale,top+headR*1.4],[cx-11*scale,top+headR*2.2],[cx+11*scale,top+headR*2.2],[cx+13*scale,top+headR*1.4]],'#77868a');
+ ellipse(cx,top+headR,headR,headR*1.2,'#a3acad','#344147',2);
+ ellipse(cx-7*scale,top+headR*.92,2.2*scale,2,'#172027');ellipse(cx+7*scale,top+headR*.92,2.2*scale,2,'#172027');
+ line([[cx-6*scale,top+headR*1.48],[cx,top+headR*1.55],[cx+6*scale,top+headR*1.48]],'#5a686c',2);
+ // arms hang, then lift slightly as he begins to show off
+ const armLift=scene.name==='DISPLAY'?Math.sin((t-39)*.55)*12:scene.name==='RECOGNITION'?Math.sin(t*.6)*4:0;
+ const armW=15*g*scale,armOut=shoulder+armW*.55;
+ line([[cx-shoulder*.84,shoulderY],[cx-armOut,shoulderY+torsoH*.34],[cx-armOut-4*scale,hipY+armLift],[cx-armOut-2*scale,baseY-30*scale+armLift]],'#364148',armW*2.1);
+ line([[cx+shoulder*.84,shoulderY],[cx+armOut,shoulderY+torsoH*.34],[cx+armOut+4*scale,hipY-armLift],[cx+armOut+2*scale,baseY-30*scale-armLift]],'#364148',armW*2.1);
+ line([[cx-shoulder*.84,shoulderY],[cx-armOut,shoulderY+torsoH*.34],[cx-armOut-4*scale,hipY+armLift]],'#929fa1',armW*1.55);
+ line([[cx+shoulder*.84,shoulderY],[cx+armOut,shoulderY+torsoH*.34],[cx+armOut+4*scale,hipY-armLift]],'#879598',armW*1.55);
+ // fabric bands show stretch under load
+ ctx.strokeStyle='rgba(205,216,210,.55)';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(cx-torsoW*.78,shoulderY+torsoH*.4);ctx.quadraticCurveTo(cx,shoulderY+torsoH*.5,cx+torsoW*.78,shoulderY+torsoH*.4);ctx.stroke();
+ ctx.restore();
+ // faint offset baseline ghost creates deliberate unease while preserving comparison
+ if(t>=16){ctx.save();ctx.globalAlpha=.10;ctx.setLineDash([8,10]);ctx.strokeStyle='#e0bd86';ctx.lineWidth=2;ctx.beginPath();ctx.ellipse(cx,baseY-220*scale,78*scale,180*scale,0,0,Math.PI*2);ctx.stroke();ctx.restore()}
+ // data overlays / actual continuous measurements
+ ctx.fillStyle='#9ab5c5';ctx.font='15px monospace';ctx.fillText('SUBJECT / CONTINUITY LOCK',30,38);ctx.fillStyle='#d8bd8c';ctx.fillText('GROWTH '+g.toFixed(2)+'× / PHASE '+(t<16?'01':t<32?'02–04':'04'),30,64);
+ // subtle misregistration and scan pulse
+ if(Math.sin(t*3.1)>.985){ctx.fillStyle='rgba(176,225,240,.08)';ctx.fillRect(0,Math.floor((t*97)%H),W,2)}
+ const vign=ctx.createRadialGradient(W/2,H/2,150,W/2,H/2,780);vign.addColorStop(0,'rgba(0,0,0,0)');vign.addColorStop(1,'rgba(0,0,0,.55)');ctx.fillStyle=vign;ctx.fillRect(0,0,W,H);
+ $('#shotLabel').textContent='SHOT '+String(scenes.indexOf(scene)+1).padStart(2,'0')+' / '+scene.name;
+ $('#caption').textContent=scene.caption;$('#timecode').textContent=fmt(t);$('#measure').textContent=g.toFixed(2)+'× / '+(t<16?'BASELINE':t<32?'INFLATION':'PHASE FOUR');
+ $('#elapsed').textContent='00:'+String(Math.floor(t)).padStart(2,'0')+' / 00:'+String(state.duration).padStart(2,'0');
+ $('#scrub').value=t;
+ const lane=$('.timeline'),ph=$('#playhead');ph.style.left='86px';ph.style.transform='translateX('+(Math.max(0,Math.min(1,t/state.duration))*Math.max(0,lane.clientWidth-110))+'px)';
+}
+function tick(){if(!state.playing)return;state.t=Math.min(state.duration,state.t+1/24);draw(state.t);if(state.t>=state.duration){pause();return}state.raf=requestAnimationFrame(tick)}
+function play(){if(state.playing)return;state.playing=true;$('#play').textContent='PAUSE';let last=performance.now();function loop(now){if(!state.playing)return;let delta=Math.min(.1,(now-last)/1000);last=now;state.t=Math.min(state.duration,state.t+delta);draw(state.t);if(state.t>=state.duration){pause();return}state.raf=requestAnimationFrame(loop)}state.raf=requestAnimationFrame(loop)}
+function pause(){state.playing=false;cancelAnimationFrame(state.raf);$('#play').textContent='PLAY'}
+$('#play').addEventListener('click',()=>state.playing?pause():play());
+$('#stop').addEventListener('click',()=>{pause();state.t=0;draw(0)});
+$('#scrub').addEventListener('input',e=>{pause();state.t=Number(e.target.value);draw(state.t)});
+$('#duration').addEventListener('change',e=>{state.duration=Number(e.target.value);scenes[4].end=state.duration;$('#timelineState').textContent=state.duration.toFixed(2)+' SEC / 5 SCENES / 1 CONTINUOUS GROWTH PASS';draw(state.t)});
+$('#ceiling').addEventListener('input',e=>{state.ceiling=Number(e.target.value);$('#ceilingValue').textContent=state.ceiling.toFixed(1)+'×';draw(state.t)});
+$('#camera').addEventListener('change',()=>draw(state.t));
+$('.tabs').addEventListener('click',e=>{let b=e.target.closest('button[data-page]');if(!b)return;$('.tabs').querySelectorAll('button').forEach(x=>x.classList.toggle('active',x===b));const pages={media:['MEDIA / SOURCE','Import and inspect original footage and sound before direction.'],edit:['EDIT / CONTINUOUS TAKE','The master take remains continuous. Scene markers annotate it without cutting the growth record.'],fusion:['FUSION / BODY RESPONSE','Procedural body, fabric, lighting, camera and environmental response are generated together.'],color:['COLOR / CLINICAL BLUE','Cold clinical light, controlled shadow, restrained amber measurement traces.'],fairlight:['FAIRLIGHT / SOUND DESIGN','A low mechanical bed and breath-like room tone accompany the full take.'],deliver:['DELIVER / FULL DURATION','Export the full-duration WebM, director script and reproducible render automation.']};$('#pageTitle').textContent=pages[b.dataset.page][0];$('#directorNote').textContent=pages[b.dataset.page][1]});
+function makeAudio(ac,duration){const dest=ac.createMediaStreamDestination(),master=ac.createGain();master.gain.value=.55;master.connect(dest);const osc=ac.createOscillator(),low=ac.createOscillator(),lfo=ac.createOscillator(),lg=ac.createGain(),filter=ac.createBiquadFilter(),gain=ac.createGain();osc.type='sawtooth';osc.frequency.value=49;low.type='sine';low.frequency.value=31;lfo.frequency.value=.13;lg.gain.value=8;lfo.connect(lg);lg.connect(osc.frequency);filter.type='lowpass';filter.frequency.value=145;gain.gain.value=.045;osc.connect(filter);filter.connect(gain);gain.connect(master);const lowGain=ac.createGain();lowGain.gain.value=.19;low.connect(lowGain);lowGain.connect(master);osc.start();low.start();lfo.start();return{stream:dest.stream,stop(){osc.stop();low.stop();lfo.stop();ac.close()}}}
+async function render(){if(state.rendering)return;pause();state.rendering=true;$('#record').disabled=true;$('#status').textContent='RECORDING / FULL DURATION';$('#recordState').textContent='CAPTURING';const duration=state.duration;const AC=window.AudioContext||window.webkitAudioContext;if(!AC||!window.MediaRecorder){$('#status').textContent='BROWSER EXPORT UNSUPPORTED';state.rendering=false;$('#record').disabled=false;return}
+ const ac=new AC();await ac.resume();const sound=makeAudio(ac,duration),video=canvas.captureStream(24),stream=new MediaStream([...video.getVideoTracks(),...sound.stream.getAudioTracks()]);const mime=['video/webm;codecs=vp9,opus','video/webm;codecs=vp8,opus','video/webm'].find(x=>MediaRecorder.isTypeSupported(x));if(!mime){$('#status').textContent='WEBM UNAVAILABLE';sound.stop();state.rendering=false;$('#record').disabled=false;return}
+ state.chunks=[];const recorder=new MediaRecorder(stream,{mimeType:mime,videoBitsPerSecond:6000000,audioBitsPerSecond:128000});state.recorder=recorder;const result=new Promise(resolve=>{recorder.ondataavailable=e=>{if(e.data.size)state.chunks.push(e.data)};recorder.onstop=()=>resolve(new Blob(state.chunks,{type:mime}))});recorder.start(250);state.t=0;const started=performance.now();function capture(now){const t=Math.min(duration,(now-started)/1000);state.t=t;draw(t);if(t<duration){requestAnimationFrame(capture)}else{recorder.stop();video.getTracks().forEach(x=>x.stop())}}requestAnimationFrame(capture);const blob=await result;sound.stop();stream.getTracks().forEach(x=>x.stop());const url=URL.createObjectURL(blob),a=$('#renderLink');a.href=url;a.download='GEEHUB-The-New-Baseline-'+duration+'s.webm';a.textContent='SAVE VIDEO / '+(blob.size/1048576).toFixed(1)+' MB';a.classList.remove('hidden');$('#status').textContent='RENDER COMPLETE';$('#recordState').textContent='FULL TAKE SAVED';$('#engineNote').textContent='WEBM / '+duration+' SEC / '+(blob.size/1048576).toFixed(1)+' MB';$('#record').disabled=false;state.rendering=false;draw(duration)}
+$('#record').addEventListener('click',()=>render().catch(e=>{$('#status').textContent='RENDER ERROR / '+e.message;$('#record').disabled=false;state.rendering=false}));
+function download(name,text,type){const blob=new Blob([text],{type}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+$('#script').addEventListener('click',()=>{const script={project:'GEEHUB / THE NEW BASELINE',director:'GEEHUB',duration_seconds:state.duration,frame_rate:24,continuous_growth_record:true,phase_ceiling:4,growth_ceiling:state.ceiling,camera:$('#camera').value,story:$('#story').value,scenes:scenes.map(s=>({...s})),recording_contract:{preserve_full_duration:true,no_growth_cutaways:true,retain_baseline_reference:true,timecode_per_frame:true,measure_growth_continuously:true},aesthetic:{mood:'slightly off-putting, intimate, clinical, monumental',lighting:'cold blue with restrained amber measurement accents',sound:'low mechanical drone and room resonance'}};download('GEEHUB-directors-script.json',JSON.stringify(script,null,2),'application/json')});
+$('#automation').addEventListener('click',()=>{const script=`// GEEHUB RENDER AUTOMATION / browser console or Studio automation hook
+// This automation reproduces the current authored take. It does not replace the editable project.
+(async()=>{
+ const studio=window.GEEHUB_STUDIO;
+ if(!studio) throw new Error('Open GEEHUB Studio first');
+ await studio.render();
+})();`;download('GEEHUB-render-automation.js',script,'text/javascript')});
+window.GEEHUB_STUDIO={render,play,pause,draw,state,scenes};state.ceiling=Number($('#ceiling').value);draw(0);
+})();
+</script></body></html>

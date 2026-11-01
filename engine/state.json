@@ -2134,14 +2134,14 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     }
   ],
   "visits": {
     "complex": 11,
     "beefythiq": 11,
-    "facility": 11,
+    "facility": 12,
     "embodied-scale": 11,
     "luke-bwomph": 11,
     "growth": 11,
@@ -2156,7 +2156,7 @@
   "last_visits": {
     "complex": 124.5,
     "beefythiq": 127.5,
-    "facility": 126.5,
+    "facility": 128.5,
     "embodied-scale": 118.5,
     "luke-bwomph": 122.5,
     "growth": 123.5,
@@ -2168,7 +2168,7 @@
     "veyrthalis": 120.5,
     "bodylounger": 104.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 7,
@@ -2184,29 +2184,42 @@
     "index.html": 7
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "beefythiq",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "facility",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 143,
-    "agent": "andrew",
-    "previous_region_id": "facility",
-    "region_id": "beefythiq",
-    "region_name": "BEEFYTHIQ",
+    "cycle": 144,
+    "agent": "joseph",
+    "previous_region_id": "beefythiq",
+    "region_id": "facility",
+    "region_name": "THE FACILITY",
     "relation": "THE ROOM GETS SMALLER",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 11.54,
-    "scale": 11.62,
-    "recording": "scheduled-recording-00143",
-    "at": "2026-10-31T23:38:27.744Z"
+    "previous_scale": 11.62,
+    "scale": 11.74,
+    "recording": "scheduled-recording-00144",
+    "at": "2026-11-01T02:37:47.944Z"
   },
-  "last_world_change": "2026-10-31T23:38:27.744Z",
-  "scale": 11.62,
+  "last_world_change": "2026-11-01T02:37:47.944Z",
+  "scale": 11.74,
   "external_events": [
+    {
+      "id": "long-play-00144",
+      "type": "CROSSING",
+      "title": "BEEFYTHIQ → THE FACILITY",
+      "body": "The world crossed \"THE ROOM GETS SMALLER\". Scale increased from 11.62× to 11.74×; the earlier location and baseline remain recorded.",
+      "from": "beefythiq",
+      "to": "facility",
+      "previous_region_id": "beefythiq",
+      "region_id": "facility",
+      "relation": "THE ROOM GETS SMALLER",
+      "source": "long-play",
+      "at": "2026-11-01T02:37:47.944Z"
+    },
     {
       "id": "long-play-00143",
       "type": "CROSSING",
@@ -3493,19 +3506,6 @@
       "relation": "THE FACE REMAINS",
       "source": "long-play",
       "at": "2026-10-14T22:42:32.459Z"
-    },
-    {
-      "id": "long-play-00044",
-      "type": "CROSSING",
-      "title": "VEYRTHALIS → DEEP LORE",
-      "body": "The world crossed \"DEPARTURE LEAVES A SHAPE\". Scale increased from 5.22× to 5.34×; the earlier location and baseline remain recorded.",
-      "from": "veyrthalis",
-      "to": "deep-lore",
-      "previous_region_id": "veyrthalis",
-      "region_id": "deep-lore",
-      "relation": "DEPARTURE LEAVES A SHAPE",
-      "source": "long-play",
-      "at": "2026-10-14T19:43:49.320Z"
     }
   ]
 }

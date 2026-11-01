@@ -139,7 +139,8 @@ def build_scene(manifest, output_path):
     scene.render.filepath = str(output_path)
     scene.render.film_transparent = False
     scene.render.image_settings.color_mode = "RGB"
-    available_engines = {item.identifier for item in bpy.types.RenderSettings.bl_rna.properties["engine"].enum_items}\n    scene.render.engine = "BLENDER_EEVEE_NEXT" if "BLENDER_EEVEE_NEXT" in available_engines else "BLENDER_EEVEE"
+    available_engines = {item.identifier for item in bpy.types.RenderSettings.bl_rna.properties["engine"].enum_items}
+    scene.render.engine = "BLENDER_EEVEE_NEXT" if "BLENDER_EEVEE_NEXT" in available_engines else "BLENDER_EEVEE"
     scene.render.filepath = str(output_path)
     scene.render.use_file_extension = True
     scene.view_settings.view_transform = "AgX"

@@ -2,6 +2,14 @@
 
 Updated: 2026-10-31
 
+## Versioned media bridge manifest added — 2026-11-01
+- `engine/growth-video-studio/core/bridge-manifest.js` defines `geehub.media-bridge` schema version 1. It records the immutable source, typed frame-set references, portable render-job exchange paths, output artifacts, and append-only revision events.
+- Frame sets preserve source lineage, frame ranges, dimensions, FPS, and optional SHA-256 checksums. The manifest rejects duplicate IDs, path collisions, broken frame-set references, invalid state transitions, and inconsistent artifact lineage.
+- Render jobs are queued only when an existing `geehub.growth-render-job` payload contains growth states and landmark evidence and its source name, duration, and dimensions match the immutable source record. Job JSON and output paths are separate; the output path cannot collide with source or other exchange assets.
+- Jobs can be marked running, failed, or completed. A completed job must provide an artifact at its reserved output URI with a SHA-256 digest. Failed jobs remain explicit and create no artifact.
+- Eight focused tests were added in `core/bridge-manifest.test.js`. The package workflow now installs Node 22 and runs `npm test` before building the mirror. The GitHub status endpoint returned no status checks for the workflow-file commit; test execution is therefore not yet verified.
+- This is a portable manifest contract only. No Dropbox bytes were exchanged, no Resolve Lua consumer was run, and no video was rendered. Local Mac/Resolve/Dropbox behavior remains unverified.
+
 ## Growth geometry increment added
 - engine/growth-video-studio/core/growth-mesh.js maps validated tracked landmarks from baseline to target body states. Stature extends the ankle-to-knee segment; thigh length extends knee-to-hip; torso length extends the hip-center-to-neck/shoulder offsets; shoulder span widens the shoulder pair; arm length extends both arm segments.
 - Both ankles remain fixed. The face-center anchor follows the neck without changing its offset and is excluded from the body-mesh anchor list.
@@ -45,9 +53,9 @@ Updated: 2026-10-31
 - Live two-way synchronization between Codex, GitHub, Resolve, and Dropbox.
 
 ## Next construction targets
-1. Define a versioned bridge manifest for source media, generated frames, render jobs, and output status.
-2. Add a Resolve-side watcher/import script that consumes manifests safely, without overwriting source media.
-3. Connect segmentation/tracking output to face-excluding mesh generation and the new landmark mapper.
+1. Add a Resolve Free Lua consumer for the versioned bridge manifest, beginning with safe inspection of incoming render-job records and a machine-readable audit response.
+2. Add a local exchange writer/reader that serializes the portable render job and verifies source/output checksums without replacing source footage.
+3. Connect segmentation/tracking output to face-excluding mesh generation and the landmark mapper.
 4. Run a short per-frame deformation pass with temporal validation and camera-reframe feedback.
 5. Validate an end-to-end clip before expanding the pipeline.
 

@@ -23,7 +23,7 @@ export function createCreativeProject({ name = "Untitled GEEHUB Project", source
   } : null;
   return {
     schema: PROJECT_SCHEMA, id: id("project"), name, createdAt: now, updatedAt: now,
-    head: "v000", versions: [{ id: "v000", parent: null, label: "Original", createdAt: now, operationIds: [] }],
+    head: "v000", versions: [{ id: "v000", parent: null, label: "Original", createdAt: now, operationIds: [], snapshot: { nodes: sourceNode ? [clone(sourceNode)] : [], edges: [], assets: [], renderJobs: [] } }],
     nodes: sourceNode ? [sourceNode] : [], edges: [], operations: [],
     assets: [], renderJobs: [], preferences: { preserveSource: true, preserveIdentity: true, preserveMotion: true }
   };
@@ -84,18 +84,18 @@ export function applyCreativeOperation(project, operation) {
       break;
     }
     case "add-asset": {
-      next.assets.push({ id: payload.asset.id || id("asset"), ...clone(payload.asset), createdAt: now });
+      next.assets.push({ ...clone(payload.asset), id: payload.asset.id || id("asset"), createdAt: now });
       break;
     }
     case "add-render-job": {
-      next.renderJobs.push({ id: payload.job.id || id("render"), status: "queued", ...clone(payload.job), createdAt: now });
+      next.renderJobs.push({ ...clone(payload.job), id: payload.job.id || id("render"), status: "queued", createdAt: now });
       break;
     }
     default: throw new Error("Unsupported operation: " + operation.type);
   }
   const record = { id: operation.id, type: operation.type, intent: operation.intent || "", payload, createdAt: now, parentVersion: prior.id };
   next.operations.push(record);
-  next.versions.push({ id: versionId, parent: prior.id, label: operation.label || operation.intent || operation.type, createdAt: now, operationIds: [operation.id] });
+  next.versions.push({ id: versionId, parent: prior.id, label: operation.label || operation.intent || operation.type, createdAt: now, operationIds: [operation.id], snapshot: { nodes: clone(next.nodes), edges: clone(next.edges), assets: clone(next.assets), renderJobs: clone(next.renderJobs) } });
   next.head = versionId;
   next.updatedAt = now;
   const result = validateCreativeProject(next);
@@ -107,6 +107,8 @@ export function branchCreativeProject(project, versionId, label = "Alternative")
   if (!project.versions.some(version => version.id === versionId)) throw new Error("Unknown version");
   const branch = clone(project);
   branch.head = versionId;
+  const snapshot = project.versions.find(version => version.id === versionId).snapshot;
+  if (snapshot) { branch.nodes = clone(snapshot.nodes); branch.edges = clone(snapshot.edges); branch.assets = clone(snapshot.assets); branch.renderJobs = clone(snapshot.renderJobs); }
   branch.updatedAt = new Date().toISOString();
   branch.branchLabel = label;
   return branch;
@@ -122,7 +124,8 @@ export function getProjectSnapshot(project, versionId = project.head) {
     cursor = cursor.parent ? project.versions.find(item => item.id === cursor.parent) : null;
   }
   const operations = project.operations.filter(operation => lineage.has(operationVersion(project, operation.id)));
-  return { version: clone(version), nodes: clone(project.nodes), edges: clone(project.edges), assets: clone(project.assets), operations: clone(operations) };
+  const snapshot = version.snapshot ?? { nodes: project.nodes, edges: project.edges, assets: project.assets, renderJobs: project.renderJobs };
+  return { version: clone(version), nodes: clone(snapshot.nodes), edges: clone(snapshot.edges), assets: clone(snapshot.assets), renderJobs: clone(snapshot.renderJobs), operations: clone(operations) };
 }
 function operationVersion(project, operationId) {
   return project.versions.find(version => version.operationIds.includes(operationId))?.id;

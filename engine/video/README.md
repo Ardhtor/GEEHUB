@@ -9,13 +9,7 @@ A local macOS production runner for GEEHUB. The browser Studio prepares a produc
 - Blender 4.x
 - FFmpeg
 
-Run the included setup script from Terminal:
-
-```bash
-bash setup_mac.sh
-```
-
-It installs Blender and FFmpeg through Homebrew, checks both, and starts the local Studio bridge. Leave that Terminal window open while using GEEHUB. Or install manually with `brew install --cask blender` and `brew install ffmpeg`, then start the bridge with `python3 gee_engine.py serve`.
+On macOS, double-click `Start-GEEHUB-Engine.command`. It runs the setup script, installs Blender and FFmpeg through Homebrew, checks both, and starts the local Studio bridge. Leave its Terminal window open while using GEEHUB. If macOS blocks the downloaded launcher, open Terminal in this folder and run `bash setup_mac.sh`. Or install manually with `brew install --cask blender` and `brew install ffmpeg`, then start the bridge with `python3 gee_engine.py serve`.
 
 If Blender is installed as an application but is not on PATH, the runner also checks `/Applications/Blender.app/Contents/MacOS/Blender`.
 

@@ -1,0 +1,29 @@
+name: GEEHUB Video Engine Checks
+
+on:
+  push:
+    paths:
+      - "engine/video/**"
+      - ".github/workflows/gee-video-engine.yml"
+  pull_request:
+    paths:
+      - "engine/video/**"
+      - ".github/workflows/gee-video-engine.yml"
+  workflow_dispatch:
+
+jobs:
+  syntax-and-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile engine Python
+        run: python -m py_compile engine/video/gee_engine.py engine/video/blender_scene.py
+      - name: Validate example production manifest
+        run: python -m json.tool engine/video/manifest.example.json > /dev/null
+      - name: Confirm engine documentation and assets
+        run: |
+          test -f engine/video/README.md
+          test -d engine/video/assets

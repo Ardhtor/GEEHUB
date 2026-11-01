@@ -25,4 +25,5 @@ test("branching selects an earlier version without deleting later work", () => {
   assert.equal(branch.head, "v000");
   assert.equal(project.head, "v001");
   assert.equal(project.versions.length, 2);
+  assert.equal(branch.nodes.length, 0);
 });

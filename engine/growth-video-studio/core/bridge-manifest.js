@@ -59,7 +59,7 @@ export function createBridgeManifest({ projectId, projectVersion = "v000", sourc
   const manifest = {
     schema: BRIDGE_SCHEMA,
     schemaVersion: BRIDGE_SCHEMA_VERSION,
-    id: manifestId || makeId("bridge"),
+    id: nonEmpty(manifestId) ? manifestId : makeId("bridge"),
     project: { id: projectId, version: projectVersion },
     revision: 0,
     parentRevision: null,
@@ -135,15 +135,22 @@ export function queueBridgeRenderJob(manifest, {
       portableJob.schemaVersion !== 1 || portableJob.status !== "ready-for-renderer") {
     throw new TypeError("A validated GEEHUB growth render job is required");
   }
-  if (!portableJob.source || portableJob.source.name !== manifest.source.name ||
-      portableJob.source.width !== manifest.source.width ||
-      portableJob.source.height !== manifest.source.height ||
-      Math.abs(portableJob.source.duration - manifest.source.duration) > 1e-6) {
+  const jobSource = portableJob.source;
+  if (!jobSource || jobSource.name !== manifest.source.name ||
+      jobSource.width !== manifest.source.width ||
+      jobSource.height !== manifest.source.height ||
+      !Number.isFinite(jobSource.duration) ||
+      Math.abs(jobSource.duration - manifest.source.duration) > 1e-6) {
     throw new Error("Render job source does not match the immutable bridge source");
   }
   if (!Array.isArray(portableJob.growthStates) || portableJob.growthStates.length < 2 ||
       !Array.isArray(portableJob.landmarkFrames) || portableJob.landmarkFrames.length < 2) {
     throw new Error("Render job must contain growth states and landmark evidence");
+  }
+  if (!portableJob.output || !positiveInt(portableJob.output.width) ||
+      !positiveInt(portableJob.output.height) || !Number.isFinite(portableJob.output.fps) ||
+      portableJob.output.fps <= 0) {
+    throw new TypeError("Render job output format is incomplete");
   }
   if (!Array.isArray(inputFrameSetIds) || new Set(inputFrameSetIds).size !== inputFrameSetIds.length) {
     throw new TypeError("Frame-set references must be a unique array");
@@ -247,9 +254,13 @@ export function validateBridgeManifest(manifest) {
   if (!Number.isInteger(manifest?.revision) || manifest.revision < 0) errors.push("Manifest revision is invalid");
   if (manifest?.revision === 0 && manifest.parentRevision !== null) errors.push("Initial revision cannot have a parent");
   if (manifest?.revision > 0 && manifest.parentRevision !== manifest.revision - 1) errors.push("Parent revision is inconsistent");
+  if (!nonEmpty(manifest?.createdAt) || !nonEmpty(manifest?.updatedAt)) errors.push("Manifest timestamps are incomplete");
   try { assertSource(manifest?.source); } catch (error) { errors.push(error.message); }
   if (manifest?.source?.immutable !== true) errors.push("Source reference must remain immutable");
 
+  for (const field of ["frameSets", "renderJobs", "artifacts", "events"]) {
+    if (!Array.isArray(manifest?.[field])) errors.push(field + " must be an array");
+  }
   const frameSets = Array.isArray(manifest?.frameSets) ? manifest.frameSets : [];
   const jobs = Array.isArray(manifest?.renderJobs) ? manifest.renderJobs : [];
   const artifacts = Array.isArray(manifest?.artifacts) ? manifest.artifacts : [];
@@ -257,6 +268,7 @@ export function validateBridgeManifest(manifest) {
   const frameIds = new Set();
   const jobIds = new Set();
   const artifactIds = new Set();
+  const assetIds = new Set(manifest?.source?.id ? [manifest.source.id] : []);
   const uris = new Map();
 
   const reserve = (uri, owner) => {
@@ -267,8 +279,9 @@ export function validateBridgeManifest(manifest) {
   if (manifest?.source?.uri) reserve(manifest.source.uri, "source");
 
   for (const frameSet of frameSets) {
-    if (!nonEmpty(frameSet.id) || frameIds.has(frameSet.id)) errors.push("Missing or duplicate frame-set id: " + frameSet.id);
+    if (!nonEmpty(frameSet.id) || frameIds.has(frameSet.id) || assetIds.has(frameSet.id)) errors.push("Missing or duplicate frame-set id: " + frameSet.id);
     frameIds.add(frameSet.id);
+    assetIds.add(frameSet.id);
     if (!FRAME_SET_ROLES.includes(frameSet.role)) errors.push("Unknown frame-set role: " + frameSet.role);
     if (frameSet.sourceAssetId !== manifest?.source?.id) errors.push("Frame set has a foreign source reference: " + frameSet.id);
     if (!positiveInt(frameSet.frameCount) || !Number.isInteger(frameSet.firstFrame) ||
@@ -276,6 +289,7 @@ export function validateBridgeManifest(manifest) {
         frameSet.lastFrame - frameSet.firstFrame + 1 !== frameSet.frameCount) errors.push("Invalid frame range: " + frameSet.id);
     if (!positiveInt(frameSet.width) || !positiveInt(frameSet.height) ||
         !Number.isFinite(frameSet.fps) || frameSet.fps <= 0) errors.push("Invalid frame-set format: " + frameSet.id);
+    if (frameSet.checksum !== null && frameSet.checksum !== undefined && !sha256(frameSet.checksum)) errors.push("Invalid frame-set checksum: " + frameSet.id);
     if (frameSet.immutable !== true) errors.push("Frame set must be immutable: " + frameSet.id);
     reserve(frameSet.uri, "frame-set " + frameSet.id);
   }
@@ -285,21 +299,28 @@ export function validateBridgeManifest(manifest) {
     if (!nonEmpty(job.id) || jobIds.has(job.id)) errors.push("Missing or duplicate render-job id: " + job.id);
     jobIds.add(job.id);
     jobsById.set(job.id, job);
+    if (job.jobSchema !== "geehub.growth-render-job" || job.jobSchemaVersion !== 1) errors.push("Unsupported render-job schema: " + job.id);
     if (job.sourceAssetId !== manifest?.source?.id) errors.push("Render job has a foreign source reference: " + job.id);
     if (!JOB_STATUSES.includes(job.status)) errors.push("Unknown render-job status: " + job.id);
-    if (!Array.isArray(job.inputFrameSetIds) || job.inputFrameSetIds.some(id => !frameIds.has(id))) errors.push("Render job references a missing frame set: " + job.id);
+    if (!Array.isArray(job.inputFrameSetIds) ||
+        new Set(job.inputFrameSetIds).size !== job.inputFrameSetIds.length ||
+        job.inputFrameSetIds.some(id => !frameIds.has(id))) errors.push("Render job references a missing or duplicate frame set: " + job.id);
     if (job.status === "completed" && !nonEmpty(job.artifactId)) errors.push("Completed job has no artifact reference: " + job.id);
     if (job.status !== "completed" && job.artifactId !== null) errors.push("Non-completed job references an artifact: " + job.id);
-    if (job.status === "running" && !nonEmpty(job.startedAt)) errors.push("Running job has no start time: " + job.id);
-    if (job.status === "failed" && (!nonEmpty(job.startedAt) || !nonEmpty(job.error))) errors.push("Failed job lacks start time or error: " + job.id);
-    if (job.status === "completed" && !nonEmpty(job.completedAt)) errors.push("Completed job has no completion time: " + job.id);
+    if (job.status === "queued" && (job.startedAt !== null || job.completedAt !== null)) errors.push("Queued job has execution timestamps: " + job.id);
+    if (job.status === "running" && (!nonEmpty(job.startedAt) || job.completedAt !== null || job.error !== null)) errors.push("Running job state is inconsistent: " + job.id);
+    if (job.status === "failed" && (!nonEmpty(job.startedAt) || !nonEmpty(job.error) || job.completedAt !== null)) errors.push("Failed job lacks start time or error: " + job.id);
+    if (job.status === "completed" && (!nonEmpty(job.startedAt) || !nonEmpty(job.completedAt) || job.error !== null)) errors.push("Completed job state is inconsistent: " + job.id);
+    if (!job.output || !positiveInt(job.output.width) || !positiveInt(job.output.height) ||
+        !Number.isFinite(job.output.fps) || job.output.fps <= 0) errors.push("Render job output format is incomplete: " + job.id);
     reserve(job.jobUri, "job " + job.id);
     reserve(job.outputUri, "output " + job.id);
   }
 
   for (const artifact of artifacts) {
-    if (!nonEmpty(artifact.id) || artifactIds.has(artifact.id)) errors.push("Missing or duplicate artifact id: " + artifact.id);
+    if (!nonEmpty(artifact.id) || artifactIds.has(artifact.id) || assetIds.has(artifact.id)) errors.push("Missing or duplicate artifact id: " + artifact.id);
     artifactIds.add(artifact.id);
+    assetIds.add(artifact.id);
     const job = jobsById.get(artifact.jobId);
     if (!job || job.status !== "completed" || job.artifactId !== artifact.id) errors.push("Artifact has no matching completed job: " + artifact.id);
     if (artifact.sourceAssetId !== manifest?.source?.id) errors.push("Artifact has a foreign source reference: " + artifact.id);

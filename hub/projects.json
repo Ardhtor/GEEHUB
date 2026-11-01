@@ -494,5 +494,28 @@
       "vision-workspace",
       "inspect-2026-10-29-growth-motion"
     ]
+  },
+  {
+    "id": "geehub-studio",
+    "name": "GEEHUB Studio",
+    "group": "tool",
+    "status": "prototype",
+    "summary": "A DaVinci-inspired browser-native production surface. GEEHUB authors the plot, scenes, camera direction, continuous growth take and sound; the user receives the rendered video before the reproducible script and automation.",
+    "path": "./gee-studio.html",
+    "tags": [
+      "video",
+      "editor",
+      "timeline",
+      "direction",
+      "render",
+      "continuous-recording",
+      "sensation-engine"
+    ],
+    "related": [
+      "media-tools",
+      "sensation-engine",
+      "growth-canvas",
+      "beefythiq"
+    ]
   }
 ]

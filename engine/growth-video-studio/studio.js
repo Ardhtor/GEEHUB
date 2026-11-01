@@ -1,11 +1,15 @@
 import { BASELINE, REGIONS, createGrowthState, createChildState, validateGrowthSequence } from "./core/growth-state.js";
 import { GROWTH_DIRECTOR, directorSession } from "./core/growth-director.js";
+import { createCreativeProject, applyCreativeOperation } from "./core/creative-project.js";
+import { CapabilityRegistry } from "./core/capability-registry.js";
+import { interpretCreativeDirection, compileDirectorPlan } from "./core/director-planner.js";
 
 const $ = selector => document.querySelector(selector);
 const video = $("#sourceVideo");
 const fileInput = $("#sourceFile");
 const scrub = $("#scrub");
-const state = { sourceUrl:null, sourceName:null, duration:0, baselineFrame:null, states:[], sourceMeta:null, director:directorSession() };
+const state = { sourceUrl:null, sourceName:null, duration:0, baselineFrame:null, states:[], sourceMeta:null, director:directorSession(), project:null, lastPlan:null };
+const capabilities = new CapabilityRegistry();
 
 $("#directorStatus").textContent = GROWTH_DIRECTOR.name.toUpperCase() + " / ACTIVE";
 
@@ -34,6 +38,10 @@ fileInput.addEventListener("change", () => {
   state.sourceUrl = URL.createObjectURL(file);
   state.sourceName = file.name;
   state.director = directorSession(file.name);
+  state.project = createCreativeProject({ name:file.name.replace(/\.[^.]+$/, "") + " / GEEHUB", source:{ name:file.name, mediaType:file.type, size:file.size, immutable:true } });
+  state.lastPlan = null;
+  $("#planStatus").textContent = "SOURCE REGISTERED";
+  $("#directorPlan").textContent = "Source registered as an immutable project node. Describe the creative changes you want.";
   video.src = state.sourceUrl;
   video.load();
   $("#emptyState").hidden = true;
@@ -107,6 +115,31 @@ $("#saveState").addEventListener("click", () => {
 
 $("#resetState").addEventListener("click", () => setTargets(state.states.at(-1)?.body ?? BASELINE));
 
+$("#planDirection").addEventListener("click", () => {
+  try {
+    const direction = interpretCreativeDirection($("#directorPrompt").value);
+    const plan = compileDirectorPlan(direction, capabilities);
+    state.lastPlan = plan;
+    if (state.project) {
+      for (const action of direction.actions) {
+        const nodeType = action.action.includes("construct-new") ? "asset" : action.action.includes("reshape-edit") ? "shot" : action.action.includes("render") ? "render" : "effect";
+        const nodeId = "intent-" + action.id;
+        state.project = applyCreativeOperation(state.project, { id:"record-" + action.id, type:"add-node", intent:direction.sourceText, label:"Draft: " + action.action, payload:{node:{id:nodeId,type:nodeType,name:action.action.replaceAll("-"," "),enabled:true,status:"planned",intent:direction.sourceText,requiredCapabilities:plan.missingByAction.find(item=>item.action===action.action)?.missing ?? []}} });
+      }
+    }
+    const missing = plan.capabilityReport.missing;
+    $("#planStatus").textContent = plan.canExecute ? "READY TO EXECUTE" : missing.length + " CAPABILITIES NOT CONNECTED";
+    const rows = plan.direction.actions.map(action => {
+      const gaps = plan.missingByAction.find(item => item.action === action.action)?.missing ?? [];
+      return `<div class="plan-action"><b>${action.action.replaceAll("-"," ").toUpperCase()}</b><span>${gaps.length ? "WAITING FOR TOOLS" : "READY"}</span></div>`;
+    }).join("");
+    $("#directorPlan").innerHTML = `<div class="plan-summary">${plan.direction.actions.length} CREATIVE OPERATIONS / ${plan.direction.constraints.length} CONTINUITY RULES</div><div class="plan-actions">${rows}</div><div class="plan-warning">${missing.length ? "NOT YET EXECUTABLE — " + missing.join(" · ") : "All required capabilities are connected."}</div><div class="plan-constraints">PRESERVE: ${plan.direction.constraints.join(" / ")}</div>`;
+  } catch(error) {
+    $("#planStatus").textContent = "DIRECTION NEEDS ATTENTION";
+    $("#directorPlan").textContent = error.message;
+  }
+});
+
 $("#exportProject").addEventListener("click", () => {
   const validation = validateGrowthSequence(state.states);
   if (!validation.valid) { $("#archiveStatus").textContent = "VALIDATION FAILED"; return; }
@@ -119,6 +152,8 @@ $("#exportProject").addEventListener("click", () => {
     source:{name:state.sourceName,metadata:state.sourceMeta},
     baselineFrame:state.baselineFrame,
     growthStates:state.states,
+    creativeProject:state.project,
+    directorPlan:state.lastPlan,
     validation,
     renderStatus:"not-rendered",
     note:"Director-authored project manifest. Pixel deformation and temporal rendering require a connected video renderer."

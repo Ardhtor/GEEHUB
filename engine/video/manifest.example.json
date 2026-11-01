@@ -1,0 +1,54 @@
+{
+  "project": "GEEHUB / THE NEW BASELINE",
+  "format": {
+    "duration_seconds": 45,
+    "fps": 24,
+    "growth_ceiling": 3.8,
+    "phase_limit": 4
+  },
+  "brief": "A man encounters an impossible change and discovers a new physical presence.",
+  "direction": {
+    "camera": "low",
+    "movement": "mechanical precision gradually becomes heavier, confident movement"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "name": "Baseline / the room",
+      "share": 0.1556
+    },
+    {
+      "id": 2,
+      "name": "Recognition",
+      "share": 0.2
+    },
+    {
+      "id": 3,
+      "name": "Continuous transformation",
+      "share": 0.3555
+    },
+    {
+      "id": 4,
+      "name": "Phase four / hold",
+      "share": 0.1556
+    },
+    {
+      "id": 5,
+      "name": "Display / reveal",
+      "share": 0.1333
+    }
+  ],
+  "continuity": {
+    "identity": "Preserve recognizable identity",
+    "growth_record": "Continuous; no cutaways",
+    "phase_limit": 4
+  },
+  "sound": {
+    "layers": [
+      "score",
+      "room tone",
+      "low mechanical resonance",
+      "breath and fabric detail"
+    ]
+  }
+}

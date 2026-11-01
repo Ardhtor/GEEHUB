@@ -15,7 +15,7 @@ Run the included setup script from Terminal:
 bash setup_mac.sh
 ```
 
-It installs Blender and FFmpeg through Homebrew and checks the result. Or install manually with `brew install --cask blender` and `brew install ffmpeg`.
+It installs Blender and FFmpeg through Homebrew, checks both, and starts the local Studio bridge. Leave that Terminal window open while using GEEHUB. Or install manually with `brew install --cask blender` and `brew install ffmpeg`, then start the bridge with `python3 gee_engine.py serve`.
 
 If Blender is installed as an application but is not on PATH, the runner also checks `/Applications/Blender.app/Contents/MacOS/Blender`.
 

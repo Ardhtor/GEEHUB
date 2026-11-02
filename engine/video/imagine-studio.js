@@ -2,7 +2,7 @@
 "use strict";
 const $=id=>document.getElementById(id);
 const API="http://127.0.0.1:8787";
-let mode="text", sourceData=null, activeJob=null, finalBlob=null, finalUrl=null, startAt=0;
+let mode="text", sourceData=null, activeJob=null, finalBlob=null, finalUrl=null, startAt=0, naiveMode=true, rawPrompt="";
 const history=[];
 function status(message){$("jobStatus").textContent=message;}
 function workerState(ok,message){$("workerLight").classList.toggle("online",ok);$("workerStatus").textContent=message;}
@@ -13,8 +13,26 @@ $("sourceImage").addEventListener("change",async e=>{const file=e.target.files?.
 $("removeImage").addEventListener("click",()=>{sourceData=null;$("sourceImage").value="";$("sourcePreview").hidden=true;$("removeImage").hidden=true;document.querySelector(".image-drop-inner").hidden=false;});
 $("aspect").addEventListener("change",()=>{$("stageMeta").textContent=$("aspect").value+" / 420P / 06 SEC";$("stageScreen").style.aspectRatio=$("aspect").value.replace(":","/");});
 function slug(s){return (s||"geehub-imagine").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,48)||"geehub-imagine";}
+function interpretNaively(raw){
+ const s=raw.trim(); if(!s)return s;
+ const lower=s.toLowerCase();
+ const motion=/(walk|run|turn|look|reach|lift|sit|stand|breathe|grow|bend|fall|rise|move|dance|fight|embrace|approach|retreat|transform|open|close|flow|drift|sway|shake|stretch)/.test(lower);
+ const environment=/(forest|woods|tree|wind|water|rain|snow|smoke|fire|room|street|ocean|mountain|sky|building)/.test(lower);
+ const physical=/(body|muscle|arm|leg|hand|face|skin|cloth|fabric|hair)/.test(lower);
+ const additions=[
+  "Treat the sentence above as the complete creative intention; do not ask for missing production details.",
+  "Make one coherent six-second event with continuous motion, not a slideshow or a sequence of unrelated shots.",
+  "Choose a restrained camera angle and movement that make the action easy to read; keep the subject visible and spatially consistent.",
+  motion ? "Animate the stated action from a clear beginning through a readable middle to a natural settling point; use believable weight, momentum and follow-through." : "Invent a small, plausible physical action that expresses the idea without changing its subject or premise.",
+  environment ? "Let the environment respond subtly and continuously to the event; maintain stable geography and consistent lighting." : "Give the scene a coherent, understated environment and consistent lighting.",
+  physical ? "Preserve anatomy, proportions, identity and material continuity; use natural deformation and grounded contact." : "Keep shapes, identity, materials and spatial relationships consistent throughout.",
+  "Avoid abrupt cuts, frozen poses, rubbery motion, extra limbs, sudden redesigns, text overlays and unnecessary spectacle."
+ ];
+ return s+"\n\nGEEHUB NAIVE ACTION DIRECTION: "+additions.join(" ");
+}
+$("naiveToggle").addEventListener("click",()=>{naiveMode=!naiveMode;$("naiveToggle").textContent=naiveMode?"ON":"OFF";$("naiveToggle").classList.toggle("active",naiveMode);$("naiveToggle").setAttribute("aria-pressed",String(naiveMode));});
 async function generate(){
- const prompt=$("prompt").value.trim();if(!prompt&&!sourceData){status("ADD A SHOT DESCRIPTION OR FIRST FRAME");return;}
+ rawPrompt=$("prompt").value.trim();const prompt=naiveMode?interpretNaively(rawPrompt):rawPrompt;if(!prompt&&!sourceData){status("ADD A SHOT DESCRIPTION OR FIRST FRAME");return;}
  $("generate").disabled=true;$("resultActions").hidden=true;$("stagePlaceholder").hidden=true;$("resultVideo").hidden=true;overlay(true,"STARTING GENERATION","Sending six-second shot request",8);startAt=Date.now();status("SUBMITTING / IMAGINE 1.5 LITE");
  try{
   const payload={prompt,mode,sourceImage:sourceData,aspectRatio:$("aspect").value,duration:6,resolution:"480p",generateAudio:$("audio").checked};
@@ -43,13 +61,13 @@ async function showResult(data){
  $("resultVideo").src=URL.createObjectURL(finalBlob);$("resultVideo").hidden=false;$("stagePlaceholder").hidden=true;
  $("downloadVideo").href=URL.createObjectURL(finalBlob);$("downloadVideo").download=data.filename||"geehub-imagine-420p.mp4";
  $("resultActions").hidden=false;$("jobTime").textContent=((Date.now()-startAt)/1000).toFixed(0)+" SEC";status("READY · 420P MP4 / 6 SECONDS");
- const item={id:data.jobId,title:$("prompt").value.trim().slice(0,68)||"Image animation",filename:data.filename,videoUrl:finalUrl,createdAt:new Date().toISOString(),blob:finalBlob};
+ const item={id:data.jobId,title:rawPrompt.slice(0,68)||"Image animation",filename:data.filename,videoUrl:finalUrl,createdAt:new Date().toISOString(),blob:finalBlob};
  history.unshift(item);renderHistory();
- if(window.GEEHUB_PRODUCTION?.publish){window.GEEHUB_PRODUCTION.publish({id:data.jobId,title:item.title,kind:"video",blob:finalBlob,filename:item.filename,source:"GEEHUB Imagine Engine",lineage:{mode,aspectRatio:$("aspect").value,model:"grok-imagine-video-1.5-lite"},simulation_state:{duration:6,output:"420p",providerRender:"480p",generateAudio:$("audio").checked,prompt:$("prompt").value},canon:"experiment"}).catch(()=>{});}
+ if(window.GEEHUB_PRODUCTION?.publish){window.GEEHUB_PRODUCTION.publish({id:data.jobId,title:item.title,kind:"video",blob:finalBlob,filename:item.filename,source:"GEEHUB Imagine Engine",lineage:{mode,aspectRatio:$("aspect").value,model:"grok-imagine-video-1.5-lite"},simulation_state:{duration:6,output:"420p",providerRender:"480p",generateAudio:$("audio").checked,prompt:rawPrompt,interpretedPrompt:prompt,naiveMode},canon:"experiment"}).catch(()=>{});}
 }
 function renderHistory(){$("historyCount").textContent=history.length+" CLIP"+(history.length===1?"":"S");$("historyList").innerHTML="";history.forEach(item=>{const card=document.createElement("button");card.className="history-card";card.type="button";const v=document.createElement("video");v.src=item.videoUrl;v.muted=true;v.preload="metadata";const b=document.createElement("b");b.textContent=item.title||"Untitled";const sm=document.createElement("small");sm.textContent="420P · 00:06";card.append(v,b,sm);card.addEventListener("click",()=>{ $("resultVideo").src=item.videoUrl;$("resultVideo").hidden=false;$("stagePlaceholder").hidden=true;finalBlob=item.blob;finalUrl=item.videoUrl;$("resultActions").hidden=false;$("downloadVideo").href=URL.createObjectURL(item.blob);$("downloadVideo").download=item.filename;});$("historyList").append(card);});}
 $("generate").addEventListener("click",generate);
 $("newShot").addEventListener("click",()=>{$("prompt").focus();$("resultActions").hidden=true;status("READY FOR ANOTHER SHOT");});
-$("saveProduct").addEventListener("click",async()=>{if(!finalBlob)return;try{await window.GEEHUB_PRODUCTION?.publish({id:activeJob||("imagine-save-"+Date.now()),title:$("prompt").value.trim().slice(0,68)||"Imagine video",kind:"video",blob:finalBlob,filename:"geehub-imagine-420p.mp4",source:"GEEHUB Imagine Engine",canon:"experiment",simulation_state:{duration:6,output:"420p",prompt:$("prompt").value}});status("PRODUCT ADDED TO GEEHUB OUTBOX");}catch(e){status("SAVE QUEUED LOCALLY · "+e.message);}});
+$("saveProduct").addEventListener("click",async()=>{if(!finalBlob)return;try{await window.GEEHUB_PRODUCTION?.publish({id:activeJob||("imagine-save-"+Date.now()),title:rawPrompt.slice(0,68)||"Imagine video",kind:"video",blob:finalBlob,filename:"geehub-imagine-420p.mp4",source:"GEEHUB Imagine Engine",canon:"experiment",simulation_state:{duration:6,output:"420p",prompt:rawPrompt,naiveMode}});status("PRODUCT ADDED TO GEEHUB OUTBOX");}catch(e){status("SAVE QUEUED LOCALLY · "+e.message);}});
 checkWorker();
 })();

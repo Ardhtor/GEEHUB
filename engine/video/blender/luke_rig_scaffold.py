@@ -85,7 +85,7 @@ for side,s in [("L",-1),("R",1)]:
         drv=fc.driver; drv.type="SCRIPTED"
         var=drv.variables.new(); var.name="blend"; var.type="SINGLE_PROP"
         var.targets[0].id=rig; var.targets[0].data_path='["'+prop+'"]'
-        drv.expression="blend"
+        drv.expression="max(0.0, min(1.0, blend))"
 for n in ["chest","upper_arm.L","upper_arm.R"]:
     pb=rig.pose.bones[n]; pb.rotation_mode="XYZ"; pb.keyframe_insert(data_path="rotation_euler",frame=1,group="Rig_Sanity")
     pb.rotation_euler[1]=math.radians(4 if n=="chest" else (-7 if n.endswith(".L") else 7)); pb.keyframe_insert(data_path="rotation_euler",frame=90,group="Rig_Sanity")
@@ -126,7 +126,7 @@ fc=growth.driver_add("value")
 drv=fc.driver; drv.type="SCRIPTED"
 var=drv.variables.new(); var.name="phase4"; var.type="SINGLE_PROP"
 var.targets[0].id=rig; var.targets[0].data_path='["phase4_growth"]'
-drv.expression="phase4"
+drv.expression="max(0.0, min(1.0, phase4))"
 rig.keyframe_insert(data_path='["phase4_growth"]',frame=1,group="Phase4_Growth")
 rig["phase4_growth"]=1.0
 rig.keyframe_insert(data_path='["phase4_growth"]',frame=110,group="Phase4_Growth")

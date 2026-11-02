@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090c0e">
+<title>GEEHUB // IMAGINE</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="./imagine-studio.css">
+</head>
+<body class="imagine-body">
+<main class="imagine-shell">
+<header class="imagine-top">
+  <a class="imagine-back" href="../index.html">← GEEHUB / WORLD</a>
+  <div class="imagine-mark">IMAGINE <span>ENGINE 01</span></div>
+  <div class="imagine-status"><i id="workerLight"></i><span id="workerStatus">WORKER CHECKING</span></div>
+</header>
+<section class="imagine-layout">
+  <aside class="imagine-controls">
+    <div class="imagine-kicker">SHORT-FORM VIDEO SYNTHESIS</div>
+    <h1>Make a moment.</h1>
+    <p class="imagine-intro">Describe the action. Give it a first frame if you have one. GEEHUB builds a six-second moving shot and files the result.</p>
+    <div class="imagine-mode">
+      <button class="mode active" data-mode="text" type="button">TEXT TO VIDEO</button>
+      <button class="mode" data-mode="image" type="button">IMAGE TO VIDEO</button>
+    </div>
+    <label class="imagine-label" for="prompt">THE SHOT</label>
+    <textarea id="prompt" rows="5" maxlength="1800" placeholder="A slow camera push toward a figure standing in a dark amber forest. Wind moves the canopy; the figure shifts his weight and looks toward the camera. Natural body mechanics, continuous movement, cinematic light."></textarea>
+    <div class="prompt-hint">Subject · action · camera · lighting · atmosphere · sound</div>
+    <div id="imageDrop" class="image-drop" hidden>
+      <input id="sourceImage" type="file" accept="image/png,image/jpeg,image/webp">
+      <div class="image-drop-inner"><span>＋</span><b>ADD FIRST FRAME</b><small>PNG / JPG / WEBP · UP TO 8 MB</small></div>
+      <img id="sourcePreview" alt="Source frame preview" hidden>
+      <button id="removeImage" type="button" hidden>REMOVE FRAME</button>
+    </div>
+    <div class="imagine-label">SHOT FORMAT</div>
+    <div class="format-grid">
+      <label>ASPECT RATIO<select id="aspect"><option value="16:9">16:9 Widescreen</option><option value="9:16">9:16 Portrait</option><option value="1:1">1:1 Square</option><option value="4:3">4:3 Classic</option></select></label>
+      <label>OUTPUT<select id="resolution"><option value="420p" selected>420p · GEEHUB</option></select></label>
+    </div>
+    <div class="duration-row"><span>DURATION</span><strong>00:06</strong><span class="duration-lock">FIXED SIX-SECOND PASS</span></div>
+    <div class="audio-row"><div><b>GENERATED SOUND</b><small>Atmosphere, action sounds and speech when appropriate</small></div><label class="switch"><input id="audio" type="checkbox" checked><span></span></label></div>
+    <div class="model-row"><span>GENERATION MODEL</span><strong>IMAGINE 1.5 LITE</strong></div>
+    <button id="generate" class="generate-button" type="button"><span>GENERATE VIDEO</span><i>↗</i></button>
+    <div class="cost-note">Provider render: 480p · 6 sec. GEEHUB transcodes to 420p after generation.</div>
+  </aside>
+  <section class="imagine-stage">
+    <div class="stage-head"><span>OUTPUT MONITOR</span><span id="stageMeta">16:9 / 420P / 06 SEC</span></div>
+    <div class="stage-screen" id="stageScreen">
+      <div class="stage-placeholder" id="stagePlaceholder">
+        <div class="aperture"><span></span><span></span><span></span></div>
+        <div class="placeholder-title">A place for the next moment</div>
+        <div class="placeholder-sub">YOUR GENERATED CLIP WILL APPEAR HERE</div>
+      </div>
+      <video id="resultVideo" controls playsinline hidden></video>
+      <div id="renderOverlay" class="render-overlay" hidden>
+        <div class="render-orbit"></div><b id="renderTitle">BUILDING THE SHOT</b><span id="renderMessage">Preparing generation</span><div class="render-track"><i id="renderProgress"></i></div>
+      </div>
+    </div>
+    <div class="stage-footer"><span id="jobStatus">READY WHEN YOU ARE</span><span id="jobTime">—</span></div>
+    <div class="result-actions" id="resultActions" hidden>
+      <a id="downloadVideo" class="result-download" download="geehub-imagine-420p.mp4">DOWNLOAD MP4 ↓</a>
+      <button id="saveProduct" type="button">SAVE TO GEEHUB PRODUCTION</button>
+      <button id="newShot" type="button">NEW SHOT ↗</button>
+    </div>
+    <div class="imagine-history">
+      <div class="history-head"><span>SHOT HISTORY</span><span id="historyCount">0 CLIPS</span></div>
+      <div id="historyList" class="history-list"><div class="history-empty">Completed shots will collect here.</div></div>
+    </div>
+  </section>
+</section>
+<footer class="imagine-footer"><span>GEEHUB / IMAGINE ENGINE</span><span>SIMULATION BECOMES MOTION · MOTION BECOMES AN ARTIFACT</span><a href="../docs/DROPBOX_PRODUCTION_PIPELINE.md">PRODUCTION PIPELINE ↗</a></footer>
+</main>
+<script src="../engine/artifacts/dropbox-production.js"></script>
+<script src="./imagine-studio.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geehub.local/schemas/project-production.schema.json",
+  "title": "GEEHUB Production Metadata",
+  "type": "object",
+  "required": ["project_id", "content_rating", "character_policy", "pipeline"],
+  "properties": {
+    "project_id": {"type": "string", "minLength": 1},
+    "content_rating": {
+      "type": "string",
+      "enum": ["general", "teen", "mature", "adult"]
+    },
+    "character_policy": {
+      "type": "object",
+      "required": ["sexualized_characters_must_be_adults"],
+      "properties": {
+        "sexualized_characters_must_be_adults": {"const": true},
+        "adult_status_source": {"type": "string"},
+        "real_person_reference_permissions": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "pipeline": {
+      "type": "object",
+      "required": ["rig", "deformation_layers", "wardrobe_is_separate"],
+      "properties": {
+        "rig": {"type": "string"},
+        "deformation_layers": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "wardrobe_is_separate": {"const": true},
+        "export_preserves_rating": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "stage_cap": {"type": ["integer", "null"], "minimum": 1, "maximum": 4},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

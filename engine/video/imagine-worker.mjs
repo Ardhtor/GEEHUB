@@ -56,7 +56,7 @@ async function runJob(job,payload){
  }catch(e){job.status="failed";job.error=e.message;job.message="Generation stopped";}
 }
 const server=http.createServer(async(req,res)=>{
- if(req.method==="OPTIONS"){send(res,204,"");return;}
+ if(req.method==="OPTIONS"){res.writeHead(204,{"Access-Control-Allow-Origin":"*","Access-Control-Allow-Methods":"GET,POST,OPTIONS","Access-Control-Allow-Headers":"Content-Type"});res.end();return;}
  const url=new URL(req.url,"http://127.0.0.1:"+PORT);
  try{
   if(req.method==="GET"&&url.pathname==="/health"){send(res,200,{ok:true,model:"grok-imagine-video-1.5-lite",duration:6,providerResolution:"480p",outputResolution:"420p",dropboxConfigured:!!process.env.GEEHUB_DROPBOX_DIR});return;}

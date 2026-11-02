@@ -61,3 +61,14 @@ the model resembles Luke, the weights deform cleanly, or the motion matches the
 reference clip. Those require visual review and source-footage measurements. The
 diagnostic frames are review artifacts, not a substitute for the continuous final
 video.
+
+
+## Coordinate-space correction
+
+The body primitives are joined under the pelvis object. The generator now applies the
+joined object's location, rotation, and scale before voxel remeshing and skinning.
+This normalizes the mesh to world-origin coordinates so armature weights and the
+phase-four regional envelopes use the same coordinate basis. The validator now checks
+the normalized object origin and full-height world-space bounds. This correction is
+important: without it, the phase-four chest/torso/limb masks can be displaced relative
+to the actual body.

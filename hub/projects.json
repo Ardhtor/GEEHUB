@@ -555,5 +555,20 @@
       "provenance",
       "simulation"
     ]
+  },
+  {
+    "id": "imagine-video-studio",
+    "name": "Imagine Video Studio",
+    "group": "engine",
+    "status": "prototype",
+    "summary": "Six-second prompt/image-to-video studio with a 420p MP4 finishing pass and Dropbox production output.",
+    "path": "../engine/video/imagine-studio.html",
+    "tags": [
+      "video",
+      "imagine",
+      "420p",
+      "mp4",
+      "production"
+    ]
   }
 ]

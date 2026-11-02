@@ -64,3 +64,19 @@ mesh, rig = build_rigged_character(animate=True)
 ```
 
 This creates a fused smooth anatomical mesh, a hierarchical deform skeleton, and distance-weighted vertex groups. It is currently a foundation module rather than the default render path. Validate deformation in Blender before switching production scenes to it; in particular inspect shoulder, hip, elbow, and knee transitions.
+
+
+## Select the unified rigged character
+
+The Blender scene runner now supports an opt-in armature-driven character path. Add these fields to a production manifest:
+
+```json
+{
+  "character_model": "rigged",
+  "format": {
+    "rig_growth_ceiling": 1.35
+  }
+}
+```
+
+Omit `character_model` or set it to `blockout` to retain the original fast blocking character. The rigged path places the stage floor beneath the full-height mesh and keys growth only between the existing growth start/end frames, holding the final shape afterwards. The rigged path is experimental until rendered and inspected in Blender; confirm shoulders, hips, elbows, knees, silhouette and floor contact before production use. The rig growth ceiling is clamped to 1.0–1.8 independently of the original blockout ceiling.

@@ -90,3 +90,17 @@ For GEEHUB, that means the next implementation should separate animator controls
 deformation bones, introduce FK/IK blending rather than IK-only handles, and add
 joint-specific corrective deformation. Those are architectural targets; neither
 reference establishes the exact proprietary setup used by Hulum's Cave.
+
+
+## Animator-facing controls added
+
+The scaffold now exposes rig-level custom properties for arm FK/IK blending,
+leg FK/IK blending, and phase-four growth. Each limb IK constraint is driven by
+the corresponding blend property, so setting a blend to 0 leaves the chain in FK
+and setting it to 1 enables IK. The phase-four shape key is driven by a single
+0–1 rig property; its keyframes are on that property rather than buried on the
+mesh shape key. The validator checks that these driver connections exist.
+
+This is a functional control layer in the generated scene, but it still needs
+execution in Blender and visual review. It is not yet a full animator picker,
+space-switching system, or source-fitted deformation rig.

@@ -63,6 +63,17 @@ ik_constraints = [
 ]
 check("limb_ik_present", len(ik_constraints) >= 4,
       "Expected arm and leg IK constraints; found %d." % len(ik_constraints))
+check("fk_ik_blend_controls",
+      "arm_ik_blend" in rig and "leg_ik_blend" in rig,
+      "Expected rig-level arm_ik_blend and leg_ik_blend controls.")
+rig_driver_paths = [d.data_path for d in (rig.animation_data.drivers if rig.animation_data else [])]
+check("ik_blend_drivers", sum("IK_FK_BLEND" in p and p.endswith(".influence") for p in rig_driver_paths) >= 4,
+      "Expected each limb IK constraint to be driven by the FK/IK blend controls.")
+shape_anim = body.data.shape_keys.animation_data if body.data.shape_keys else None
+shape_driver_paths = [d.data_path for d in (shape_anim.drivers if shape_anim else [])]
+check("phase4_growth_driver",
+      any('key_blocks["PHASE_04_GROWTH"].value' in p for p in shape_driver_paths),
+      "Expected the phase-four shape key to be driven by the rig-level control.")
 
 action = rig.animation_data.action if rig.animation_data else None
 check("sanity_action_exists", action is not None,

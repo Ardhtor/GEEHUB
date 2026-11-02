@@ -50,3 +50,17 @@ The first Bwomph is not merely a size jump. It is the instant two bodies, the ca
 
 ### Verification boundary
 The code and build notes were committed to the repository. The browser video forge has not been launched in a live browser in this turn, so the new scene has not yet been rendered or playback-tested. The original Hulum's Cave source videos were not available in the files inspected here; this pass deepens the existing GEEHUB implementation and production notes rather than claiming a frame-by-frame analysis of unseen originals.
+
+
+## 2026-11-01 — Unified rig foundation
+
+### Repository inspection
+Confirmed that the local Blender + FFmpeg runner, source-footage analyzer, browser Studio bridge, and procedural growth scene already exist. The current Blender blocking character is assembled from separate ellipsoids and limb primitives. That is useful for fast layout but does not yet provide the continuous deformable surface and skeleton expected from a Maya-style character workflow.
+
+### Change committed
+- Added `engine/video/rigged_character.py`.
+- The module builds a single fused metaball-derived anatomical surface, converts it to a smooth mesh, creates a hierarchical deform skeleton, and assigns normalized distance-based vertex weights.
+- Includes an optional simple growth animation pass and returns the mesh and armature for downstream scene construction.
+
+### Verification boundary
+The new module is committed but has not been executed inside Blender in this session. It is a rig/geometry foundation, not yet wired into the production renderer's default character path. Next engineering step: run it in Blender, inspect deformation at shoulders/hips/elbows/knees, correct weight falloff, then integrate it into `blender_scene.py` and the Studio manifest.

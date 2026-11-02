@@ -1,0 +1,79 @@
+{
+  "id": "luke-natural-awakening-six-second",
+  "title": "Luke — The First Quiet Morning",
+  "version": 1,
+  "status": "ready-for-render",
+  "canon": "experiment",
+  "subject": "Luke",
+  "source_scene": "novel/LUKE_NATURAL_AWAKENING.md",
+  "duration_seconds": 6,
+  "output": {
+    "provider_resolution": "480p",
+    "delivery_resolution": "420p",
+    "format": "mp4",
+    "aspect_ratio": "16:9",
+    "audio": true
+  },
+  "generation_mode": "image-to-video-or-text-to-video",
+  "prompt": "A single continuous, naturalistic six-second shot in a quiet timber-and-stone bedroom at early morning. Luke, an unmistakably adult, very large and long-limbed muscular man at his established stage-four baseline, wakes naturally without being called. Preserve his established face, beard, hair, and identity. He lies still for a beat with calm breathing, then slowly sits up, places his feet on the floor, and looks toward the open window. His proportions remain coherent: long arms and legs, broad rounded shoulders and deep chest, realistic joints and natural skin. He does not suddenly grow or change shape in this shot. Cool daylight, soft linen, cedar surfaces, restrained low camera near the foot of the bed, subtle body-weight response in the mattress and floor, continuous motion, grounded timing, no cuts, no posing, no spectacle.",
+  "action_beats": [
+    {
+      "start": 0,
+      "end": 1.2,
+      "action": "Quiet breathing; eyes open naturally; no external cue."
+    },
+    {
+      "start": 1.2,
+      "end": 3.2,
+      "action": "Luke slowly sits up with realistic weight and balance."
+    },
+    {
+      "start": 3.2,
+      "end": 4.8,
+      "action": "He places both feet on the floor; the mattress and floor respond subtly."
+    },
+    {
+      "start": 4.8,
+      "end": 6,
+      "action": "He looks toward the window and settles into the morning."
+    }
+  ],
+  "camera": {
+    "shot": "single continuous medium-wide shot",
+    "movement": "very slow restrained push-in",
+    "angle": "low near foot of bed",
+    "cuts": 0
+  },
+  "sound": {
+    "ambience": [
+      "soft room tone",
+      "distant water in a pipe",
+      "faint birds outside",
+      "quiet fabric movement"
+    ],
+    "music": "none",
+    "dialogue": "none"
+  },
+  "continuity": {
+    "current_stage": 4,
+    "preserve_identity": true,
+    "preserve_latest_accepted_baseline": true,
+    "no_growth_in_this_shot": true,
+    "stage_five_trigger": "only after later observable, consequential change; never from this shot alone"
+  },
+  "negative_prompt": [
+    "identity drift",
+    "shortened limbs",
+    "compressed squat proportions",
+    "rubbery movement",
+    "extra limbs",
+    "sharp triangular muscle wedges",
+    "disconnected muscle balloons",
+    "sudden size change",
+    "stage-six overinflation",
+    "rapid camera motion",
+    "cuts",
+    "text overlays",
+    "forced waking"
+  ]
+}

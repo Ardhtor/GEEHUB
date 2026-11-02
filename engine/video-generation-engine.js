@@ -103,7 +103,7 @@
     }
     if(scene==='growth'||scene==='luke'){
       // retained outline makes the morph legible against a remembered baseline
-      ctx.save();ctx.globalAlpha=.17;ctx.setLineDash([8,8]);ctx.strokeStyle='#c4a16c';ctx.lineWidth=3;ctx.beginPath();ctx.ellipse(490,280,105,205,0,0,Math.PI*2);ctx.stroke();ctx.restore();
+      ctx.save();ctx.globalAlpha=.17;ctx.setLineDash([8,8]);ctx.strokeStyle='#c4a16c';ctx.lineWidth=3;ctx.beginPath();ctx.ellipse(scene==='luke'?640:490,280,105,205,0,0,Math.PI*2);ctx.stroke();ctx.restore();
       ctx.fillStyle='#c5a36f';ctx.font='15px monospace';ctx.fillText(scene==='luke'?'LUKE / PREVIOUS BASELINE RETAINED':'PREVIOUS BASELINE RETAINED',36,675);
     }
     if(scene==='inertia'){const drift=Math.sin(t*.65)*38;ctx.save();ctx.globalAlpha=.38;ctx.strokeStyle='#37d9ff';ctx.lineWidth=3;ctx.beginPath();ctx.ellipse(640+drift,315,260+Math.sin(t)*12,170,0,0,Math.PI*2);ctx.stroke();ctx.beginPath();ctx.ellipse(640-drift*.6,315,190,122,0,0,Math.PI*2);ctx.stroke();ctx.restore();ctx.fillStyle='#76e1ff';ctx.font='15px monospace';ctx.fillText('SHARED INERTIA / MOTION MEMORY',36,675);ctx.strokeStyle='rgba(55,217,255,.32)';ctx.lineWidth=3;ctx.strokeRect(90,92,1100,480);} else if(scene==='bond'){

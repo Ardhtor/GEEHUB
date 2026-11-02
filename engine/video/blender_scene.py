@@ -146,23 +146,36 @@ def build_scene(manifest, output_path):
     scene.view_settings.view_transform = "AgX"
     scene.world.color = (0.018, 0.026, 0.035)
 
+    character_model = str(manifest.get("character_model", "blockout")).lower()
+    use_rigged_character = character_model == "rigged"
+    room_floor_z = -1.25 if use_rigged_character else -0.035
     floor_mat = material("ROOM / graphite floor", (0.025, 0.043, 0.055), metallic=0.25, roughness=0.4)
     wall_mat = material("ROOM / blue-grey architecture", (0.035, 0.075, 0.095), metallic=0.18, roughness=0.52)
-    bpy.ops.mesh.primitive_plane_add(size=200, location=(0, 0, -0.035))
+    bpy.ops.mesh.primitive_plane_add(size=200, location=(0, 0, room_floor_z))
     floor = bpy.context.object
     floor.name = "Infinite graphite floor"
     floor.data.materials.append(floor_mat)
 
     # Architectural uprights and a deliberately sparse observation room.
     for x in (-3.8, -2.2, 2.2, 3.8):
-        bpy.ops.mesh.primitive_cube_add(size=1, location=(x, 1.8, 2.2))
+        bpy.ops.mesh.primitive_cube_add(size=1, location=(x, 1.8, room_floor_z + 2.2))
         pillar = bpy.context.object
         pillar.name = "Observation room / vertical beam"
         pillar.dimensions = (0.08, 0.10, 4.4)
         bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
         pillar.data.materials.append(wall_mat)
 
-    build_character(ceiling, start_frame, end_frame)
+    if use_rigged_character:
+        from rigged_character import build_rigged_character
+        rig_growth = max(1.0, min(1.8, float(fmt.get("rig_growth_ceiling", 1.35))))
+        build_rigged_character(
+            animate=True,
+            start_frame=start_frame,
+            end_frame=end_frame,
+            growth_ceiling=rig_growth,
+        )
+    else:
+        build_character(ceiling, start_frame, end_frame)
     area_light("Key / cold softbox", ( -3.5, -4.5, 6.5), 1250, (0.62, 0.82, 1.0), 5)
     area_light("Rim / ice blue", (3.8, 1.8, 4.6), 1650, (0.30, 0.68, 1.0), 3)
     area_light("Warm contour", (2.0, -3.0, 2.2), 420, (1.0, 0.68, 0.42), 2.4)

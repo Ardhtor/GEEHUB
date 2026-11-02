@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#100f0c">
+<title>GEEHUB // THE SACRED CORRIDOR</title>
+<link rel="stylesheet" href="./sacred-corridor.css">
+</head>
+<body>
+<main class="corridor-shell">
+  <header class="masthead"><a href="../../index.html">GEEHUB</a><span>THE SACRED CORRIDOR</span><span id="clock">THE HOUSE IS QUIET</span></header>
+  <section class="world-view" aria-label="The Sacred Corridor">
+    <canvas id="corridor" aria-label="An atmospheric view down a long timber and stone corridor"></canvas>
+    <div class="grain"></div><div class="vignette"></div>
+    <div class="scene-label"><span id="room-index">THRESHOLD / 01</span><h1 id="room-title">THE HOUSE IS QUIET</h1><p id="room-copy">Daylight rests on the stone. Somewhere beyond the walls, water moves.</p></div>
+    <div class="presence" id="presence"><span class="presence-light"></span><span id="presence-copy">A man is awake further down the passage.</span></div>
+    <div class="scene-actions"><button id="listen" type="button">LISTEN</button><button id="advance" type="button">WALK FORWARD</button></div>
+  </section>
+  <section class="lower">
+    <div class="thresholds"><div class="section-kicker">DOORWAYS / OPEN ROOMS</div><div id="doors" class="door-list"></div></div>
+    <aside class="inhabitant"><div class="section-kicker">PRESENCE / CURRENTLY NEARBY</div><div id="man-name" class="man-name">THE BUILDER</div><p id="man-description">He has been here long enough to know which floorboards speak.</p><div class="man-traits" id="man-traits">PATIENT · OBSERVANT · PRACTICAL</div></aside>
+  </section>
+  <footer><span>CONTINUITY IS KEPT HERE</span><span id="record">VISIT 01 / NO RECORDS DISTURBED</span></footer>
+</main>
+<script src="./sacred-corridor.js"></script>
+</body>
+</html>

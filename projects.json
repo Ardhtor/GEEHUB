@@ -486,5 +486,28 @@
       "mp4",
       "dropbox"
     ]
+  },
+  {
+    "id": "sacred-corridor",
+    "name": "The Sacred Corridor",
+    "status": "active",
+    "kind": "experience",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/experiences/sacred-corridor/index.html",
+    "description": "An explorable, quiet architectural heart of GEEHUB where adult men meet, work, train, think, form relationships and leave persistent traces. Luke's growth remains open-ended from his current stage four.",
+    "related": [
+      "male-stud",
+      "lineage-pantheon",
+      "male-harem-virtual-space",
+      "sensation-engine"
+    ],
+    "tags": [
+      "sacred-corridor",
+      "world",
+      "adult-men",
+      "continuity",
+      "Luke",
+      "growth"
+    ]
   }
 ]

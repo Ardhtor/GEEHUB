@@ -40,3 +40,24 @@ References used to shape the engineering target:
 - *Fur Less*, Computer Graphics World — low-resolution animation rig followed by muscle/skin rig for jiggle, flex and sliding: https://www.cgw.com/Publications/CGW/2010/Volume-33-Issue-9-October-2010-/Fur-Less.aspx
 
 These are technical analogues, not evidence that Hulum's Cave used the same rig. Exact matching still requires frame-by-frame inspection of the reference videos and the supplied source clip.
+
+
+## Structural validation and diagnostic renders
+
+After generating the scene, run the validator from the folder containing the saved
+`.blend` file:
+
+```bash
+blender --background Luke_Rig_Scaffold.blend --python validate_luke_rig.py
+```
+
+The validator checks the fused body mesh, armature binding, core skeleton, IK
+constraints, sanity action, camera, and the phase-four-only growth control. It then
+renders four diagnostic stills at frames 1, 90, 110, and 180 into
+`GEEHUB_DIAGNOSTICS/` and writes `rig_validation.json`.
+
+A PASS means the expected scene structure exists and renders. It does **not** mean
+the model resembles Luke, the weights deform cleanly, or the motion matches the
+reference clip. Those require visual review and source-footage measurements. The
+diagnostic frames are review artifacts, not a substitute for the continuous final
+video.

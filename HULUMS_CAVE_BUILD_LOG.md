@@ -76,3 +76,17 @@ The new module is committed but has not been executed inside Blender in this ses
 
 ### Verification boundary
 The integration is committed but has not been executed in Blender in this environment. The rigged path remains experimental. Required next check: run `python3 gee_engine.py doctor`, render the example manifest, and inspect the silhouette, mesh continuity, weight deformation at joints, growth passage and floor contact. Do not treat the rigged path as production-validated until that render has been inspected.
+
+## 2026-11-02 — Dropbox video library made canonical
+
+### Source-of-truth correction
+Dropbox videos are the standard GEEHUB source material, not optional references. The Dropbox library is authoritative; local copies are staging/cache only and must retain a traceable link to the original Dropbox item.
+
+### Dropbox discovery
+Located source candidates in the connected Dropbox library, including `SnapVid.Net_YPBbLkvp9AQAKdpS_672p.mp4` and `WhatsApp Video 2026-10-31 at 02.10.14.mp4`. These are identified as Dropbox files; their visual contents have not yet been inspected in this step.
+
+### Documentation change
+Updated `engine/video/README.md` to establish Dropbox-first source selection, source identity preservation, and lineage through `01_SOURCE/`, `02_FRAMES/`, `03_GROWTH_PASSES/`, `04_COMPOSITES/`, and `05_EXPORTS/`.
+
+### Implementation boundary
+The current analyzer still accepts a local filesystem path. A Dropbox video therefore needs to be available through Dropbox desktop sync or staged locally before analysis. Direct Dropbox-to-engine ingestion remains an implementation task and is not claimed as complete.

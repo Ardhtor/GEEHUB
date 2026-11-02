@@ -446,5 +446,29 @@
       "8-bit",
       "environment"
     ]
+  },
+  {
+    "id": "dropbox-production-stream",
+    "name": "Dropbox Production Stream",
+    "status": "prototype",
+    "kind": "production-engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/engine/artifacts/dropbox-production.js",
+    "description": "Local-first product persistence bridge. Generated artifacts are queued with provenance and simulation lineage, then written into the Dropbox-synced GEEHUB folder with payloads and manifests.",
+    "related": [
+      "sensation-engine",
+      "information-portability",
+      "arboreal-audio",
+      "geehub-studio",
+      "media-tools"
+    ],
+    "tags": [
+      "dropbox",
+      "production",
+      "artifacts",
+      "provenance",
+      "persistence",
+      "simulation"
+    ]
   }
 ]

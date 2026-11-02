@@ -2,7 +2,7 @@
 "use strict";
 const $=id=>document.getElementById(id);
 const API="http://127.0.0.1:8787";
-let mode="text", sourceData=null, activeJob=null, finalBlob=null, finalUrl=null, startAt=0, naiveMode=true, rawPrompt="";
+let mode="text", sourceData=null, activeJob=null, finalBlob=null, finalUrl=null, startAt=0, naiveMode=true, rawPrompt="", interpretedPrompt="";
 const history=[];
 function status(message){$("jobStatus").textContent=message;}
 function workerState(ok,message){$("workerLight").classList.toggle("online",ok);$("workerStatus").textContent=message;}
@@ -32,10 +32,10 @@ function interpretNaively(raw){
 }
 $("naiveToggle").addEventListener("click",()=>{naiveMode=!naiveMode;$("naiveToggle").textContent=naiveMode?"ON":"OFF";$("naiveToggle").classList.toggle("active",naiveMode);$("naiveToggle").setAttribute("aria-pressed",String(naiveMode));});
 async function generate(){
- rawPrompt=$("prompt").value.trim();const prompt=naiveMode?interpretNaively(rawPrompt):rawPrompt;if(!prompt&&!sourceData){status("ADD A SHOT DESCRIPTION OR FIRST FRAME");return;}
+ rawPrompt=$("prompt").value.trim();interpretedPrompt=naiveMode?interpretNaively(rawPrompt):rawPrompt;if(!interpretedPrompt&&!sourceData){status("ADD A SHOT DESCRIPTION OR FIRST FRAME");return;}
  $("generate").disabled=true;$("resultActions").hidden=true;$("stagePlaceholder").hidden=true;$("resultVideo").hidden=true;overlay(true,"STARTING GENERATION","Sending six-second shot request",8);startAt=Date.now();status("SUBMITTING / IMAGINE 1.5 LITE");
  try{
-  const payload={prompt,mode,sourceImage:sourceData,aspectRatio:$("aspect").value,duration:6,resolution:"480p",generateAudio:$("audio").checked};
+  const payload={prompt:interpretedPrompt,mode,sourceImage:sourceData,aspectRatio:$("aspect").value,duration:6,resolution:"480p",generateAudio:$("audio").checked};
   const response=await fetch(API+"/generate",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
   const data=await response.json();if(!response.ok)throw new Error(data.error||"Generation request failed");
   activeJob=data.jobId;status("GENERATING / "+activeJob.slice(0,8).toUpperCase());await poll(activeJob);
@@ -63,7 +63,7 @@ async function showResult(data){
  $("resultActions").hidden=false;$("jobTime").textContent=((Date.now()-startAt)/1000).toFixed(0)+" SEC";status("READY · 420P MP4 / 6 SECONDS");
  const item={id:data.jobId,title:rawPrompt.slice(0,68)||"Image animation",filename:data.filename,videoUrl:finalUrl,createdAt:new Date().toISOString(),blob:finalBlob};
  history.unshift(item);renderHistory();
- if(window.GEEHUB_PRODUCTION?.publish){window.GEEHUB_PRODUCTION.publish({id:data.jobId,title:item.title,kind:"video",blob:finalBlob,filename:item.filename,source:"GEEHUB Imagine Engine",lineage:{mode,aspectRatio:$("aspect").value,model:"grok-imagine-video-1.5-lite"},simulation_state:{duration:6,output:"420p",providerRender:"480p",generateAudio:$("audio").checked,prompt:rawPrompt,interpretedPrompt:prompt,naiveMode},canon:"experiment"}).catch(()=>{});}
+ if(window.GEEHUB_PRODUCTION?.publish){window.GEEHUB_PRODUCTION.publish({id:data.jobId,title:item.title,kind:"video",blob:finalBlob,filename:item.filename,source:"GEEHUB Imagine Engine",lineage:{mode,aspectRatio:$("aspect").value,model:"grok-imagine-video-1.5-lite"},simulation_state:{duration:6,output:"420p",providerRender:"480p",generateAudio:$("audio").checked,prompt:rawPrompt,interpretedPrompt,naiveMode},canon:"experiment"}).catch(()=>{});}
 }
 function renderHistory(){$("historyCount").textContent=history.length+" CLIP"+(history.length===1?"":"S");$("historyList").innerHTML="";history.forEach(item=>{const card=document.createElement("button");card.className="history-card";card.type="button";const v=document.createElement("video");v.src=item.videoUrl;v.muted=true;v.preload="metadata";const b=document.createElement("b");b.textContent=item.title||"Untitled";const sm=document.createElement("small");sm.textContent="420P · 00:06";card.append(v,b,sm);card.addEventListener("click",()=>{ $("resultVideo").src=item.videoUrl;$("resultVideo").hidden=false;$("stagePlaceholder").hidden=true;finalBlob=item.blob;finalUrl=item.videoUrl;$("resultActions").hidden=false;$("downloadVideo").href=URL.createObjectURL(item.blob);$("downloadVideo").download=item.filename;});$("historyList").append(card);});}
 $("generate").addEventListener("click",generate);

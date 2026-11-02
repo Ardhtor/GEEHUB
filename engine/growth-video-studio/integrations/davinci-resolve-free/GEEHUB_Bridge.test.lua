@@ -101,4 +101,37 @@ test("rejects missing temporal identity constraints", function()
     assert(#errors > 0)
 end)
 
+test("reports a missing source without throwing", function()
+    local manifest = fixture()
+    manifest.source = nil
+    local result = bridge.validateManifest(manifest)
+    assert(not result.valid)
+end)
+
+test("accepts an artifact at its completed job output URI", function()
+    local manifest = fixture()
+    local job = manifest.renderJobs[1]
+    job.status = "completed"
+    job.startedAt = "2026-11-02T00:00:01Z"
+    job.completedAt = "2026-11-02T00:00:02Z"
+    job.artifactId = "artifact-test"
+    manifest.revision = 3
+    manifest.parentRevision = 2
+    manifest.updatedAt = "2026-11-02T00:00:02Z"
+    manifest.events = {
+        { revision = 0, type = "manifest-created", at = "2026-11-02T00:00:00Z" },
+        { revision = 1, type = "render-job-queued", at = "2026-11-02T00:00:00Z" },
+        { revision = 2, type = "render-job-started", at = "2026-11-02T00:00:01Z" },
+        { revision = 3, type = "render-artifact-recorded", at = "2026-11-02T00:00:02Z" }
+    }
+    manifest.artifacts = {{
+        id = "artifact-test", jobId = job.id, sourceAssetId = manifest.source.id,
+        uri = job.outputUri, mediaType = "video/mp4",
+        checksumAlgorithm = "sha256", checksum = string.rep("a", 64),
+        immutable = true
+    }}
+    local result = bridge.validateManifest(manifest)
+    assert(result.valid, table.concat(result.errors, "; "))
+end)
+
 print("GEEHUB Bridge Lua tests complete.")

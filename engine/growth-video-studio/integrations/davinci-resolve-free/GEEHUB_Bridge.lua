@@ -62,6 +62,7 @@ local function validateManifest(manifest)
     end
 
     local source = manifest.source
+    local sourceId = type(source) == "table" and source.id or nil
     if type(source) ~= "table" or not nonEmpty(source.id) or
        not nonEmpty(source.name) or not nonEmpty(source.uri) or
        type(source.duration) ~= "number" or source.duration <= 0 or
@@ -105,7 +106,7 @@ local function validateManifest(manifest)
             if not nonEmpty(frame.id) or frameIds[frame.id] then add("Missing or duplicate frame-set id") end
             if nonEmpty(frame.id) then frameIds[frame.id] = true end
             if not roles[frame.role] then add("Unknown frame-set role: " .. tostring(frame.role)) end
-            if frame.sourceAssetId ~= source.id then add("Frame set has a foreign source reference") end
+            if frame.sourceAssetId ~= sourceId then add("Frame set has a foreign source reference") end
             if not positiveInteger(frame.frameCount) or type(frame.firstFrame) ~= "number" or
                frame.firstFrame < 0 or frame.firstFrame % 1 ~= 0 or
                type(frame.lastFrame) ~= "number" or
@@ -134,7 +135,7 @@ local function validateManifest(manifest)
             if job.jobSchema ~= "geehub.growth-render-job" or job.jobSchemaVersion ~= 1 then
                 add("Unsupported render-job schema: " .. tostring(job.id))
             end
-            if job.sourceAssetId ~= source.id then add("Render job has a foreign source reference: " .. tostring(job.id)) end
+            if job.sourceAssetId ~= sourceId then add("Render job has a foreign source reference: " .. tostring(job.id)) end
             if not statuses[job.status] then add("Unknown render-job status: " .. tostring(job.id)) end
             if type(job.inputFrameSetIds) ~= "table" then
                 add("Render job frame-set references are missing: " .. tostring(job.id))
@@ -189,12 +190,11 @@ local function validateManifest(manifest)
             if not job or job.status ~= "completed" or job.artifactId ~= artifact.id then
                 add("Artifact has no matching completed job: " .. tostring(artifact.id))
             end
-            if artifact.sourceAssetId ~= source.id then add("Artifact has a foreign source reference") end
+            if artifact.sourceAssetId ~= sourceId then add("Artifact has a foreign source reference") end
             if job and artifact.uri ~= job.outputUri then add("Artifact URI differs from reserved output") end
             if not nonEmpty(artifact.mediaType) or artifact.checksumAlgorithm ~= "sha256" or
                not sha256(artifact.checksum) then add("Artifact integrity metadata is incomplete") end
             if artifact.immutable ~= true then add("Artifact is not immutable") end
-            reserve(artifact.uri, "artifact " .. tostring(artifact.id))
         end
     end
     for _, job in ipairs(jobs) do

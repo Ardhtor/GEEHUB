@@ -14,13 +14,13 @@
     const persp=1/(1+zz*.018);
     return {x:cx+x*unit*persp,y:base-y*unit*persp,z:zz,scale:persp};
   }
-  function ellipsoid(center,radii,material,detail=24){
+  function ellipsoid(center,radii,material,detail=32){
     const verts=[],faces=[],rings=Math.max(12,Math.floor(detail*.62)),seg=detail;
     for(let r=0;r<=rings;r++){const v=r/rings,phi=Math.PI*v;for(let s=0;s<seg;s++){const u=s/seg*Math.PI*2;verts.push(V(center[0]+Math.cos(u)*Math.sin(phi)*radii[0],center[1]+Math.cos(phi)*radii[1],center[2]+Math.sin(u)*Math.sin(phi)*radii[2]));}}
     for(let r=0;r<rings;r++)for(let s=0;s<seg;s++){const a=r*seg+s,b=r*seg+(s+1)%seg,c=(r+1)*seg+(s+1)%seg,d=(r+1)*seg+s;faces.push([a,b,d],[b,c,d]);}
     return {verts,faces,material};
   }
-  function tapered(a,b,rA,rB,material,detail=18){
+  function tapered(a,b,rA,rB,material,detail=24){
     const axis=norm(sub(b,a)),ref=Math.abs(axis[1])>.92?V(1,0,0):V(0,1,0),u=norm(cross(axis,ref)),v=norm(cross(axis,u)),verts=[],faces=[],rings=8;
     for(let j=0;j<=rings;j++){const f=j/rings,center=add(a,mul(sub(b,a),f)),radius=rA*(1-f)+rB*f;for(let i=0;i<detail;i++){const ang=i/detail*Math.PI*2,offset=add(mul(u,Math.cos(ang)*radius),mul(v,Math.sin(ang)*radius));verts.push(add(center,offset));}}
     for(let j=0;j<rings;j++)for(let i=0;i<detail;i++){const a0=j*detail+i,b0=j*detail+(i+1)%detail,c=(j+1)*detail+(i+1)%detail,d=(j+1)*detail+i;faces.push([a0,b0,d],[b0,c,d]);}
@@ -90,7 +90,7 @@
       const hex=tri.material||skin;
       ctx.beginPath();ctx.moveTo(p[f[0]].x,p[f[0]].y);ctx.lineTo(p[f[1]].x,p[f[1]].y);ctx.lineTo(p[f[2]].x,p[f[2]].y);ctx.closePath();
       // Soft, material-specific lighting; slight tonal separation retains the mesh's volume.
-      ctx.fillStyle=hex;ctx.globalAlpha=.66+.34*shade;ctx.fill();ctx.globalAlpha=1;
+      const raw=parseInt(hex.slice(1),16),rr=(raw>>16)&255,gg=(raw>>8)&255,bb=raw&255,k=.42+.58*shade;ctx.fillStyle='rgb('+Math.round(rr*k)+','+Math.round(gg*k)+','+Math.round(bb*k)+')';ctx.fill();
     }
     // Fine face landmarks and clothing seams sit on top of the mesh rather than replacing it.
     const head=project(V(0,top+.67,.30),cx,base,unit,t),faceScale=head.scale;

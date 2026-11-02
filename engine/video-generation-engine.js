@@ -94,7 +94,7 @@
       ctx.save();ctx.translate(640,0);ctx.scale(1/roomScale,1);ctx.translate(-640,0);
       ctx.strokeStyle='rgba(70,196,235,.24)';ctx.lineWidth=3;ctx.strokeRect(90,92,1100,480);
       for(let i=0;i<5;i++){const xx=170+i*235;line([[xx,90],[xx-35*roomScale,560]],'rgba(91,193,225,.15)',2);}
-      man(640,415,1.14,t,0,scene);
+      if(window.GEEHUB_LUKE_RIG)window.GEEHUB_LUKE_RIG.render(ctx,t,{width:W,height:H,x:640,base:615});else man(640,415,1.14,t,0,scene);
       ctx.restore();
       ctx.fillStyle='#76d8ed';ctx.font='15px monospace';ctx.fillText('LUKE / INHERITED BODY STATE / ROOM ADAPTATION '+roomScale.toFixed(2)+'x',36,675);
     } else {

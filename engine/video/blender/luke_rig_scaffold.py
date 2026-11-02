@@ -30,8 +30,12 @@ bpy.ops.object.select_all(action="DESELECT")
 for o in parts:o.select_set(True)
 bpy.context.view_layer.objects.active=parts[0]; bpy.ops.object.join()
 body=bpy.context.object; body.name="Luke_Body_Surface"
+# Joining primitives keeps the active pelvis object origin by default. Apply its
+# transform so mesh coordinates, shape-key envelopes, and armature coordinates
+# all use the same world-origin basis.
+bpy.ops.object.transform_apply(location=True,rotation=True,scale=True)
 rm=body.modifiers.new("Anatomy_Voxel_Fusion","REMESH"); rm.mode="VOXEL"; rm.voxel_size=.035; bpy.ops.object.modifier_apply(modifier=rm.name)
-sm=body.modifiers.new("Surface_Smoothing","SMOOTH"); sm.factor=1.15; sm.iterations=4; bpy.ops.object.modifier_apply(modifier=sm.name)
+sm=body.modifiers.new("Surface_Smoothing","SMOOTH"); sm.factor=.65; sm.iterations=4; bpy.ops.object.modifier_apply(modifier=sm.name)
 for p in body.data.polygons:p.use_smooth=True
 ad=bpy.data.armatures.new("Luke_Rig_Data"); rig=bpy.data.objects.new("Luke_Rig",ad); scene.collection.objects.link(rig)
 bpy.context.view_layer.objects.active=rig; rig.select_set(True); bpy.ops.object.mode_set(mode="EDIT")

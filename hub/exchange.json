@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-02T16:36:12.712Z",
+  "generated": "2026-11-02T23:42:13.127Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00151",
+      "at": "2026-11-02T23:42:13.127Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / GROWTH CANVAS → THE COMPLEX / LUKE",
+      "body": "The world crossed the existing relation \"KISS = CONTINUITY\" from GROWTH CANVAS into THE COMPLEX. Scale increased from 12.10× to 12.13×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00151",
+      "live": true,
+      "regionId": "complex",
+      "previousRegionId": "growth",
+      "relation": "KISS = CONTINUITY"
+    },
     {
       "id": "scheduled-long-play-00150",
       "at": "2026-11-02T16:36:12.712Z",
@@ -1488,21 +1503,6 @@
       "regionId": "bodylounger",
       "previousRegionId": "male-harem",
       "relation": "THE ARCHIVE OPENS A ROOM"
-    },
-    {
-      "id": "scheduled-long-play-00051",
-      "at": "2026-10-15T22:37:36.508Z",
-      "from": "geehub-long-play",
-      "to": "luke",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / EMBODIED SCALE → MALE HAREM / LUKE",
-      "body": "The world crossed the existing relation \"THE WITNESS STAYS\" from EMBODIED SCALE into MALE HAREM. Scale increased from 5.70× to 5.73×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00051",
-      "live": true,
-      "regionId": "male-harem",
-      "previousRegionId": "embodied-scale",
-      "relation": "THE WITNESS STAYS"
     }
   ]
 }

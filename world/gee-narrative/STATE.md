@@ -5,8 +5,8 @@ Updated: 2026-11-02
 ## Resolve Free bridge consumer added — 2026-11-02
 - `engine/growth-video-studio/integrations/davinci-resolve-free/GEEHUB_Bridge.lua` is a read-only consumer for `geehub.media-bridge` schema version 1. It reads the incoming manifest and referenced portable render-job JSON from the local Dropbox mirror, validates source identity, frame-set references, job state, required face/source-motion/ground-contact/connected-mesh/temporal constraints, and output-path availability.
 - `dropbox://GEEHUB/...` references map beneath the configured Dropbox root. Unsupported URI schemes and path traversal are rejected. A queued job is marked ready only when its job JSON agrees with the immutable source, preserves the required identity constraints, and its reserved output file does not already exist.
-- The consumer writes `Bridge/outgoing/resolve-bridge-audit.json` or a Desktop fallback. It does not import clips, create timelines, start rendering, or modify source media. `ready-for-local-renderer` is a validated handoff status, not proof that a renderer exists or ran.
-- Seven Lua tests cover manifest validation, URI collision detection, Dropbox URI mapping/path traversal, successful job inspection, existing-output refusal, source mismatch, and required identity constraints. The package workflow now installs Lua 5.4, checks syntax with `luac5.4 -p`, and runs the Lua tests before packaging. These checks are configured but have not yet been observed on a completed GitHub Actions run.
+- The consumer writes `Bridge/outgoing/resolve-bridge-audit.json` or a Desktop fallback. It does not import clips, create timelines, start rendering, or modify source media. `ready-for-local-renderer` is a validated handoff status, not proof that a renderer exists or ran. Validation now tolerates an absent source by reporting a structured error and recognizes that a completed artifact intentionally reuses its job's reserved output URI.
+- Nine Lua tests cover manifest validation, URI collision detection, Dropbox URI mapping/path traversal, successful job inspection, existing-output refusal, source mismatch, required identity constraints, safe handling of a missing source, and completed-artifact URI reuse. The package workflow installed Lua 5.4, passed `luac5.4 -p`, passed all Lua tests, passed the Node core suite, and completed package build/upload on 2026-11-02 (Actions run `41519716150`).
 - The installer creates `Bridge/incoming` and `Bridge/outgoing` for the consumer. Resolve runtime behavior, Dropbox sync, and actual frame rendering remain unverified. The user must sync/install the repository, restart Resolve, and run Workspace > Scripts > Utility > GEEHUB_Bridge with a version-1 manifest and job JSON present.
 
 
@@ -68,3 +68,6 @@ Updated: 2026-11-02
 5. Validate an end-to-end clip before expanding the pipeline.
 
 Each item changes status only when evidence exists.
+
+## Repository validation note — 2026-11-02
+- The separate `Validate GEEHUB data` workflow still fails at `Validate browser repository links`. Its current errors report stale embedded project tuples for `information-portability`, `lineage-pantheon`, `hubby`, and `media-tools`. The Node core suite and the Resolve bridge package workflow pass independently; this registry issue is outside the media-bridge change and remains open.

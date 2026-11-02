@@ -22,3 +22,21 @@ This is a neutral anatomy blockout, not a faithful Luke likeness or finished Hul
 6. Fit motion and timing to source; render and review a diagnostic before full export.
 
 The target is the user's stated reference: early Maya-era, fully three-dimensional character animation with continuous body deformation, stable recognizable identity, deliberate camera framing, and uncanny but coherent physical presence. This reproduces broad production characteristics, not a proprietary source model or rig.
+
+## Hulum's Cave target translation
+
+The public search did not surface a verifiable Hulum's Cave technical breakdown, so this implementation is guided by the visual target you named and by documented Maya-era character-TD techniques. The important rigging layers are not just a skeleton: facial and body deformation, sliding skin, volume-preserving shoulder/hip behavior, secondary jiggle, and corrective blend shapes. A 2010 character-TD reel documents these as separate systems (facial deformation, skin sliding, spherical radial-basis-function joints, dynamic transforms, GPU blend shapes, jiggle and wrap deformers). A production feature-film workflow also describes animating with a fast low-resolution rig first, then transferring the motion to a muscle/skin rig for flex, jiggle and sliding before caching for render.
+
+GEEHUB's next rig iterations should therefore add, in this order:
+1. **Animator controls:** clean FK/IK controls, pole vectors, foot/hand spaces, spine controls, picker and switch logic.
+2. **Corrective deformation:** shoulder, chest, elbow, hip and knee corrective shapes; volume preservation through joint rotations.
+3. **Muscle layer:** muscle bulge and sliding under the skin, driven by joint angles and stretch, with phase-four growth as a separate global deformation control.
+4. **Secondary motion:** damped jiggle and soft-tissue settling, never replacing the underlying skeletal motion.
+5. **Facial identity rig:** jaw, eyes, brows and expression shapes fitted to the actual source subject.
+6. **Two-rig workflow:** low-cost animation proxy for blocking, then a higher-detail deformation rig for final render.
+
+References used to shape the engineering target:
+- Chad Vernon, *Character TD Reel 2010* — facial deformation, skin sliding, SRBF joints, dynamic transforms, blend shapes, jiggle and wrap deformers: https://vimeo.com/13353565
+- *Fur Less*, Computer Graphics World — low-resolution animation rig followed by muscle/skin rig for jiggle, flex and sliding: https://www.cgw.com/Publications/CGW/2010/Volume-33-Issue-9-October-2010-/Fur-Less.aspx
+
+These are technical analogues, not evidence that Hulum's Cave used the same rig. Exact matching still requires frame-by-frame inspection of the reference videos and the supplied source clip.

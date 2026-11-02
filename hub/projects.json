@@ -570,5 +570,20 @@
       "mp4",
       "production"
     ]
+  },
+  {
+    "id": "sacred-corridor",
+    "name": "The Sacred Corridor",
+    "group": "experience",
+    "status": "active",
+    "summary": "Quiet, explorable architectural heart of GEEHUB: a living passage with connected rooms, adult male inhabitants, Luke's continuing growth, and encounter-driven continuity.",
+    "path": "../experiences/sacred-corridor/index.html",
+    "tags": [
+      "sacred-corridor",
+      "world",
+      "adult-men",
+      "continuity",
+      "growth"
+    ]
   }
 ]

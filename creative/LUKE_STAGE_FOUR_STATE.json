@@ -1,0 +1,37 @@
+{
+  "id": "luke-natural-awakening-stage-four",
+  "subject": "Luke",
+  "updated_at": "2026-11-02",
+  "canon": "experiment",
+  "world": "The Sacred Corridor",
+  "current_stage": 4,
+  "stage_status": "active",
+  "awakening": "self-directed",
+  "continuity": {
+    "identity_locked": true,
+    "face_and_personality": "preserve",
+    "baseline": "latest accepted stage-four state",
+    "growth_ceiling": null,
+    "stage_six_avoidance": "do not overinflate or compress proportions"
+  },
+  "behavior": {
+    "wake_without_prompt": true,
+    "natural_pacing": true,
+    "ordinary_actions_before_escalation": true,
+    "environment_continues_independently": true,
+    "interactions_are_mutual_and_unforced": true
+  },
+  "growth_observation": {
+    "stage_five": "emergent only after a visible, consequential change is observed",
+    "require_evidence": [
+      "reach",
+      "clearance",
+      "balance",
+      "movement",
+      "environmental response"
+    ],
+    "preserve_previous_baseline": true,
+    "never_advance_stage_from_prose_alone": true
+  },
+  "next_run": "continue the morning in the workshop; allow an ordinary task or encounter to create the next meaningful observation"
+}

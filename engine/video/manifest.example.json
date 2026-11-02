@@ -4,7 +4,8 @@
     "duration_seconds": 45,
     "fps": 24,
     "growth_ceiling": 3.8,
-    "phase_limit": 4
+    "phase_limit": 4,
+    "rig_growth_ceiling": 1.35
   },
   "brief": "A man encounters an impossible change and discovers a new physical presence.",
   "direction": {
@@ -50,5 +51,6 @@
       "low mechanical resonance",
       "breath and fabric detail"
     ]
-  }
+  },
+  "character_model": "rigged"
 }

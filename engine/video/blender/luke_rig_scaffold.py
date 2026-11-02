@@ -81,6 +81,35 @@ def aim(o,p):o.rotation_euler=(Vector(p)-o.location).to_track_quat("-Z","Y").to_
 bpy.ops.object.camera_add(location=(3.6,-7.8,2.3)); cam=bpy.context.object; cam.name="Camera_Diagnostic"; aim(cam,(0,0,1.4)); cam.data.lens=55; scene.camera=cam
 for name,loc,power,size in [("Key",(-3,-4,5),900,4),("Fill",(4,-2,3),500,3),("Rim",(0,3,4),1100,3)]:
     bpy.ops.object.light_add(type="AREA",location=loc); lamp=bpy.context.object; lamp.name=name; lamp.data.energy=power; lamp.data.shape="DISK"; lamp.data.size=size; aim(lamp,(0,0,1.4))
+
+# Phase-four growth shape: a single capped, continuous deformation target.
+# The timing below is a rig test only; replace it with source-derived timing.
+keys=body.shape_key_add(name="Basis")
+growth=body.shape_key_add(name="PHASE_04_GROWTH")
+growth.slider_min=0.0; growth.slider_max=1.0
+for i,v in enumerate(body.data.vertices):
+    co=v.co.copy()
+    z=co.z
+    # Regional envelopes: torso/chest, shoulders/arms, legs. Smooth transitions.
+    torso=math.exp(-((z-1.78)/.55)**2)
+    chest=math.exp(-((z-1.98)/.27)**2)
+    shoulders=math.exp(-((z-2.12)/.32)**2)
+    limbs=math.exp(-((z-1.45)/.95)**2)
+    radial=1.0 + .13*torso + .09*chest + .07*shoulders + .035*limbs
+    # Preserve the centerline; broaden proportionally rather than inflating uniformly.
+    growth.data[i].co.x=co.x*radial
+    growth.data[i].co.y=co.y*(1.0+.10*torso+.11*chest+.045*limbs)
+    growth.data[i].co.z=.06 + (z-.06)*1.045
+growth.value=0.0; growth.keyframe_insert(data_path="value",frame=1,group="Phase4_Growth")
+growth.value=1.0; growth.keyframe_insert(data_path="value",frame=110,group="Phase4_Growth")
+growth.keyframe_insert(data_path="value",frame=180,group="Phase4_Growth")
+# Clamp the UI control to phase four; no phase-five/six shape exists in this rig.
+rig["growth_stage_max"]=4
+rig["phase4_growth_note"]="Single capped growth shape. Test timing only; retime from source."
+scene.timeline_markers.new("GROWTH_BEGIN_TEST",frame=1)
+scene.timeline_markers.new("PHASE_04_REACHED_TEST",frame=110)
+scene.timeline_markers.new("PHASE_04_HOLD",frame=180)
+
 scene.render.filepath="//luke_rig_diagnostic.mp4"; scene.frame_set(1)
 path=Path(bpy.path.abspath("//Luke_Rig_Scaffold.blend")); bpy.ops.wm.save_as_mainfile(filepath=str(path))
 print("Saved Blender rig scaffold:",path)

@@ -80,3 +80,11 @@ The Blender scene runner now supports an opt-in armature-driven character path. 
 ```
 
 Omit `character_model` or set it to `blockout` to retain the original fast blocking character. The rigged path places the stage floor beneath the full-height mesh and keys growth only between the existing growth start/end frames, holding the final shape afterwards. The rigged path is experimental until rendered and inspected in Blender; confirm shoulders, hips, elbows, knees, silhouette and floor contact before production use. The rig growth ceiling is clamped to 1.0–1.8 independently of the original blockout ceiling.
+
+## Dropbox video source of truth
+
+Dropbox is the canonical video library for GEEHUB. Reference footage and user-supplied source videos must be located and selected from Dropbox first; do not substitute web examples, generated stills, or locally improvised clips when a Dropbox source exists. Preserve the original Dropbox file and its identity as the source record.
+
+For local production, use a synced or explicitly staged working copy in the project's `01_SOURCE/` area. Treat that folder as a working cache, not a competing source of truth. Keep the original filename and record the Dropbox path or file ID, source duration, frame rate, dimensions, and any selected time ranges in the production manifest/report. Derived frames belong in `02_FRAMES/`; analysis and shot annotations should remain traceable to the same source; transformation passes belong in `03_GROWTH_PASSES/`; composites in `04_COMPOSITES/`; and final renders in `05_EXPORTS/`.
+
+The source-analysis command accepts a local path, so a Dropbox video must be available through the user's synced Dropbox folder or staged into `01_SOURCE/` before analysis. Do not claim direct Dropbox-to-render ingestion until that connector path is implemented and tested.

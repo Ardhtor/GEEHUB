@@ -2236,8 +2236,8 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     }
   ],
   "visits": {
@@ -2246,7 +2246,7 @@
     "facility": 12,
     "embodied-scale": 12,
     "luke-bwomph": 12,
-    "growth": 11,
+    "growth": 12,
     "deep-lore": 12,
     "male-harem": 13,
     "colossal-escalation": 13,
@@ -2261,7 +2261,7 @@
     "facility": 128.5,
     "embodied-scale": 129.5,
     "luke-bwomph": 133.5,
-    "growth": 123.5,
+    "growth": 134.5,
     "deep-lore": 132.5,
     "male-harem": 105.5,
     "colossal-escalation": 112.5,
@@ -2270,7 +2270,7 @@
     "veyrthalis": 131.5,
     "bodylounger": 104.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 7,
@@ -2286,29 +2286,42 @@
     "index.html": 7
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "luke-bwomph",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "growth",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 149,
-    "agent": "joseph",
-    "previous_region_id": "deep-lore",
-    "region_id": "luke-bwomph",
-    "region_name": "LUKE // BWOMPH",
-    "relation": "THE FACE REMAINS",
+    "cycle": 150,
+    "agent": "chase",
+    "previous_region_id": "luke-bwomph",
+    "region_id": "growth",
+    "region_name": "GROWTH CANVAS",
+    "relation": "HYPEER BASELINE",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 11.94,
-    "scale": 12.06,
-    "recording": "scheduled-recording-00149",
-    "at": "2026-11-02T06:42:06.477Z"
+    "previous_scale": 12.06,
+    "scale": 12.1,
+    "recording": "scheduled-recording-00150",
+    "at": "2026-11-02T16:36:12.712Z"
   },
-  "last_world_change": "2026-11-02T06:42:06.477Z",
-  "scale": 12.06,
+  "last_world_change": "2026-11-02T16:36:12.712Z",
+  "scale": 12.1,
   "external_events": [
+    {
+      "id": "long-play-00150",
+      "type": "CROSSING",
+      "title": "LUKE // BWOMPH → GROWTH CANVAS",
+      "body": "The world crossed \"HYPEER BASELINE\". Scale increased from 12.06× to 12.10×; the earlier location and baseline remain recorded.",
+      "from": "luke-bwomph",
+      "to": "growth",
+      "previous_region_id": "luke-bwomph",
+      "region_id": "growth",
+      "relation": "HYPEER BASELINE",
+      "source": "long-play",
+      "at": "2026-11-02T16:36:12.712Z"
+    },
     {
       "id": "long-play-00149",
       "type": "CROSSING",
@@ -3595,19 +3608,6 @@
       "relation": "THE WITNESS STAYS",
       "source": "long-play",
       "at": "2026-10-15T22:37:36.508Z"
-    },
-    {
-      "id": "long-play-00050",
-      "type": "CROSSING",
-      "title": "THE FACILITY → EMBODIED SCALE",
-      "body": "The world crossed \"THE FLOOR REPLIES\". Scale increased from 5.66× to 5.70×; the earlier location and baseline remain recorded.",
-      "from": "facility",
-      "to": "embodied-scale",
-      "previous_region_id": "facility",
-      "region_id": "embodied-scale",
-      "relation": "THE FLOOR REPLIES",
-      "source": "long-play",
-      "at": "2026-10-15T19:25:47.995Z"
     }
   ]
 }

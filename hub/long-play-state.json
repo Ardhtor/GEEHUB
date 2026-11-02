@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 149,
-  "currentAgent": "joseph",
-  "currentRegion": "luke-bwomph",
-  "scale": 12.06,
-  "lastRun": "2026-11-02T06:42:06.477Z",
+  "cycle": 150,
+  "currentAgent": "chase",
+  "currentRegion": "growth",
+  "scale": 12.1,
+  "lastRun": "2026-11-02T16:36:12.712Z",
   "history": [
+    {
+      "cycle": 150,
+      "agent": "chase",
+      "previousRegion": "luke-bwomph",
+      "region": "growth",
+      "relation": "HYPEER BASELINE",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 12.06,
+      "scale": 12.1,
+      "recording": "scheduled-recording-00150",
+      "at": "2026-11-02T16:36:12.712Z"
+    },
     {
       "cycle": 149,
       "agent": "joseph",
@@ -1197,22 +1209,10 @@
       "scale": 5.73,
       "recording": "scheduled-recording-00051",
       "at": "2026-10-15T22:37:36.508Z"
-    },
-    {
-      "cycle": 50,
-      "agent": "chase",
-      "previousRegion": "facility",
-      "region": "embodied-scale",
-      "relation": "THE FLOOR REPLIES",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 5.66,
-      "scale": 5.7,
-      "recording": "scheduled-recording-00050",
-      "at": "2026-10-15T19:25:47.995Z"
     }
   ],
-  "previousRegion": "deep-lore",
-  "relation": "THE FACE REMAINS",
+  "previousRegion": "luke-bwomph",
+  "relation": "HYPEER BASELINE",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 12,
@@ -1224,7 +1224,7 @@
     "veyrthalis": 11,
     "facility": 12,
     "complex": 11,
-    "growth": 11,
+    "growth": 12,
     "male-harem": 13,
     "beefythiq": 11,
     "bodylounger": 9,
@@ -1240,10 +1240,10 @@
     "veyrthalis": "2026-11-01T22:40:30.513537+00:00",
     "facility": "2026-11-01T06:42:08.038224+00:00",
     "complex": "2026-10-31T13:30:28.751118+00:00",
-    "growth": "2026-10-31T06:51:09.524545+00:00",
+    "growth": "2026-11-02T16:36:12.712Z",
     "male-harem": "2026-10-27T18:37:41.454096+00:00",
     "beefythiq": "2026-11-01T00:21:03.894149+00:00",
     "bodylounger": "2026-10-27T12:45:55.748848+00:00",
-    "luke-bwomph": "2026-11-02T06:42:06.477Z"
+    "luke-bwomph": "2026-11-02T09:13:55.100541+00:00"
   }
 }

@@ -52,3 +52,15 @@ python3 analyze_source.py /path/to/reference.mp4 --fps 2 --width 320 --output an
 ```
 
 It uses FFprobe for media metadata and FFmpeg to sample frames. The report records frame-change energy, likely cuts, coarse image-space movement cues, and held / slow / active intervals. See [SOURCE_ANALYSIS.md](SOURCE_ANALYSIS.md) for interpretation limits and the planned Studio integration. The analysis is deliberately separate from rendering: inspect and curate the reference track before using it to direct a new scene.
+
+
+## Rigged character foundation
+
+The first renderer pass uses separate procedural body parts for fast blocking. A unified, armature-driven alternative now lives in `rigged_character.py`. From Blender's Python console or another scene script:
+
+```python
+from rigged_character import build_rigged_character
+mesh, rig = build_rigged_character(animate=True)
+```
+
+This creates a fused smooth anatomical mesh, a hierarchical deform skeleton, and distance-weighted vertex groups. It is currently a foundation module rather than the default render path. Validate deformation in Blender before switching production scenes to it; in particular inspect shoulder, hip, elbow, and knee transitions.

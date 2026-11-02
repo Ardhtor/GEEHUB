@@ -9,6 +9,14 @@ GEEHUB contains a population of intelligent, physically substantial adult men. T
 
 **Population rule:** individuality before uniformity; continuity before escalation; intelligence expressed through action.
 
+## The Sacred Corridor
+
+The Sacred Corridor is the central passage through which the population encounters itself and changes. It is at once a physical place, a social institution, a narrative spine and a continuous growth mechanism. Men enter with distinct identities; they meet, observe, compete, teach, build, inherit and transform. The corridor records what passes through it.
+
+It should feel inhabited and consequential: monumental architecture, long sightlines, thresholds, adjoining chambers, workspaces, training spaces, family rooms and places of quiet observation. It is not a sterile menu or a linear level-selection screen. Its rooms are produced by the lives and activities of the men who use it.
+
+The corridor is sacred because continuity is protected there. Every encounter can leave a trace; no man's history is casually overwritten. Its architecture can expand as the population and its accumulated history expand.
+
 ## Character record
 
 Every persistent male character should carry these fields:
@@ -41,7 +49,8 @@ Lineage is a major continuity mechanism: fathers, sons, brothers, cousins, uncle
 
 - Keep adult anatomy coherent and individual. Preserve recognizable face, stature, limb length, joint placement, mass distribution and skin/material response across shots.
 - Muscularity can be pronounced and stylized, but growth must follow a readable anatomical path. Do not solve every change by scaling the whole body.
-- Keep the current Luke transformation track capped at phase four. Phase four is a stable target, not a cue to inflate into later stages.
+- **Luke's growth is unbounded.** Stage four is his current recorded stage, not a ceiling, final form or maximum. The system must permit continued growth beyond stage four without skipping intermediate states or losing identity, anatomy, proportion, movement quality or visual continuity. Future stages are discovered and recorded as they occur; do not invent a terminal stage.
+- Growth is cumulative and stateful: preserve each prior stage, the transition that produced the next one, and the visual/physical differences between them. Growth may change mass and proportion, but must not erase Luke's recognizable face or turn every body part into uniform scale inflation.
 - Animate weight, momentum, balance, muscle response, breathing and follow-through. A pose is not a substitute for motion.
 - Preserve wardrobe fit and cloth behavior as the body moves. Treat clothing, props and environment as separate modular assets.
 - Adult sensuality and erotic confidence may be part of characterization and presentation. All sexualized characters must be unambiguously adults; real-person likeness requires appropriate permission. This baseline does not override the restrictions of any external generation or rendering service.

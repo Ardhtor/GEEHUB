@@ -18,6 +18,7 @@
     $("lesRun").onclick=()=>{const b=$("burgeonRun");if(b)b.click();};
     $("lesRender").onclick=render;
     window.addEventListener("geehub:luke-state",e=>adopt(e.detail));
+    document.addEventListener("geehub:luke-state",e=>adopt(e.detail));
     window.addEventListener("storage",e=>{if(e.key===KEY)adopt(read());});
     draw(); loop();
   }
@@ -38,6 +39,7 @@
     for(let i=0;i<8;i++){const y=285+i*i*7;c.beginPath();c.moveTo(0,y);c.lineTo(W,y);c.stroke();}
     c.fillStyle="#101a20";c.beginPath();c.moveTo(0,260);c.lineTo(W,260);c.lineTo(W,H);c.lineTo(0,H);c.fill();
     for(let i=0;i<4;i++){c.fillStyle="rgba(112,213,245,.22)";c.fillRect(230+i*275,70,170,8);}
+    if(window.GEEHUB_LUKE_RIG){window.GEEHUB_LUKE_RIG.render(c,t,{width:W,height:H,x:640,base:615});}else{
     const cx=640, floor=625, h=clamp(300+body.length*44,344,610), torsoW=clamp(72+body.shoulders*30,100,250), chestW=clamp(60+body.chest*26,86,220), legW=clamp(23+body.legs*11,34,105), armW=clamp(18+body.arms*10,28,94), headY=floor-h-20, torsoTop=headY+100, torsoBottom=floor-h*.43;
     const cam=clamp(1+(scale-1)*.025,1,1.23);c.save();c.translate(cx,floor);c.scale(cam,cam);c.translate(-cx,-floor);
     // shadow and legs with knee/calf articulation
@@ -61,6 +63,7 @@
     c.fillStyle="#263b48";c.beginPath();c.moveTo(cx-torsoW*.7,torsoTop+4);c.quadraticCurveTo(cx,torsoTop-28,cx+torsoW*.7,torsoTop+4);c.lineTo(cx+torsoW*.55,torsoBottom-10);c.quadraticCurveTo(cx,torsoBottom+5,cx-torsoW*.55,torsoBottom-10);c.closePath();c.fill();
     c.strokeStyle="rgba(205,225,230,.48)";c.lineWidth=3;c.beginPath();c.moveTo(cx-torsoW*.35,torsoTop+5);c.lineTo(cx,torsoTop+35);c.lineTo(cx+torsoW*.35,torsoTop+5);c.stroke();
     c.restore();
+    }
     // camera metadata and subtle CRT grain
     c.fillStyle="rgba(0,0,0,.55)";c.fillRect(0,0,W,42);c.fillStyle="#a8c5d0";c.font="16px monospace";c.fillText("GEEHUB / LUKE ENCOUNTER / PERSISTENT CGI TAKE",26,27);
     c.fillStyle="rgba(0,0,0,.62)";c.fillRect(0,H-38,W,38);c.fillStyle="#a8c5d0";c.fillText("CAM 01   24 FPS   ROOM ADAPTATION "+room.toFixed(2)+"x   BODY "+scale.toFixed(2)+"x",26,H-14);

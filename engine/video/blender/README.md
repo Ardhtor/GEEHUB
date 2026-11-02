@@ -72,3 +72,21 @@ phase-four regional envelopes use the same coordinate basis. The validator now c
 the normalized object origin and full-height world-space bounds. This correction is
 important: without it, the phase-four chest/torso/limb masks can be displaced relative
 to the actual body.
+
+
+## Additional Maya-era rigging references
+
+The next step beyond the current IK scaffold is a genuine animator-facing control rig,
+not more arbitrary body scaling. Two useful documented patterns:
+
+- Antony Ward's Maya character-rig workflow covers joint placement, IK/FK, smooth
+  binding, joint-influence cleanup, and corrective blend shapes:
+  https://www.creativebloq.com/3d-world/maya-tutorial-rig-character-posing-9134476
+- Scott Xiong's 2012 expression-deformation rig demonstrates joint-driven deformation
+  and a control rig separated from the raw skeleton:
+  https://scottxiong.com/character-rig-with-expression-deformation/
+
+For GEEHUB, that means the next implementation should separate animator controls from
+deformation bones, introduce FK/IK blending rather than IK-only handles, and add
+joint-specific corrective deformation. Those are architectural targets; neither
+reference establishes the exact proprietary setup used by Hulum's Cave.

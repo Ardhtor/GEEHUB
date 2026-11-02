@@ -1,6 +1,14 @@
 # GEEHUB construction state
 
-Updated: 2026-10-31
+Updated: 2026-11-02
+
+## Resolve Free bridge consumer added — 2026-11-02
+- `engine/growth-video-studio/integrations/davinci-resolve-free/GEEHUB_Bridge.lua` is a read-only consumer for `geehub.media-bridge` schema version 1. It reads the incoming manifest and referenced portable render-job JSON from the local Dropbox mirror, validates source identity, frame-set references, job state, required face/source-motion/ground-contact/connected-mesh/temporal constraints, and output-path availability.
+- `dropbox://GEEHUB/...` references map beneath the configured Dropbox root. Unsupported URI schemes and path traversal are rejected. A queued job is marked ready only when its job JSON agrees with the immutable source, preserves the required identity constraints, and its reserved output file does not already exist.
+- The consumer writes `Bridge/outgoing/resolve-bridge-audit.json` or a Desktop fallback. It does not import clips, create timelines, start rendering, or modify source media. `ready-for-local-renderer` is a validated handoff status, not proof that a renderer exists or ran.
+- Seven Lua tests cover manifest validation, URI collision detection, Dropbox URI mapping/path traversal, successful job inspection, existing-output refusal, source mismatch, and required identity constraints. The package workflow now installs Lua 5.4, checks syntax with `luac5.4 -p`, and runs the Lua tests before packaging. These checks are configured but have not yet been observed on a completed GitHub Actions run.
+- The installer creates `Bridge/incoming` and `Bridge/outgoing` for the consumer. Resolve runtime behavior, Dropbox sync, and actual frame rendering remain unverified. The user must sync/install the repository, restart Resolve, and run Workspace > Scripts > Utility > GEEHUB_Bridge with a version-1 manifest and job JSON present.
+
 
 ## Versioned media bridge manifest added — 2026-11-01
 - `engine/growth-video-studio/core/bridge-manifest.js` defines `geehub.media-bridge` schema version 1. It records the immutable source, typed frame-set references, portable render-job exchange paths, output artifacts, and append-only revision events.
@@ -53,10 +61,10 @@ Updated: 2026-10-31
 - Live two-way synchronization between Codex, GitHub, Resolve, and Dropbox.
 
 ## Next construction targets
-1. Add a Resolve Free Lua consumer for the versioned bridge manifest, beginning with safe inspection of incoming render-job records and a machine-readable audit response.
-2. Add a local exchange writer/reader that serializes the portable render job and verifies source/output checksums without replacing source footage.
-3. Connect segmentation/tracking output to face-excluding mesh generation and the landmark mapper.
-4. Run a short per-frame deformation pass with temporal validation and camera-reframe feedback.
+1. Add a local exchange writer/reader that stages the manifest and portable job JSON, calculates real file checksums, and refuses source/output collisions.
+2. Connect segmentation/tracking output to face-excluding mesh generation and the landmark mapper.
+3. Run a short per-frame deformation pass with temporal validation and camera-reframe feedback.
+4. Return rendered frames and verified artifacts to Resolve without replacing source footage.
 5. Validate an end-to-end clip before expanding the pipeline.
 
 Each item changes status only when evidence exists.

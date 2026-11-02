@@ -213,6 +213,7 @@ report.summary = {
 
 -- Compare with the previous audit. This gives GEEHUB observable signals
 -- about what changed locally without asking the user to diagnose it.
+local home = os.getenv("HOME") or ""
 local priorPath = home .. "/Library/CloudStorage/Dropbox/GEEHUB/Bridge/outgoing/resolve-audit.json"
 local previousFile = io.open(priorPath, "r")
 local function priorNumber(source, key)
@@ -258,7 +259,6 @@ report.observation_policy = {
 }
 
 local output = json(report)
-local home = os.getenv("HOME") or ""
 local candidates = {
     home .. "/Library/CloudStorage/Dropbox/GEEHUB/Bridge/outgoing/resolve-audit.json",
     home .. "/Desktop/GEEHUB-resolve-audit.json"

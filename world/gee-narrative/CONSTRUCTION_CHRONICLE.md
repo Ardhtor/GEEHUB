@@ -42,6 +42,16 @@ Eight focused tests now describe the contract: source immutability, revision bra
 
 The envelope is not yet a courier. The module stores URIs and metadata; it does not move media bytes, write to Dropbox, read from Resolve, or render a frame. No local application was touched in this pass. The next instrument belongs at the Resolve door: a small Lua consumer that can inspect a manifest safely, report what it understands, and leave source media and existing edits untouched.
 
+## 2026-11-02 — The bridge can be inspected from the editing room
+
+The exchange bench now has a read-only instrument on the Resolve side: `GEEHUB_Bridge.lua`. It reads the versioned envelope and follows its `dropbox://GEEHUB/...` references into the local Dropbox mirror. It checks that the envelope's source remains immutable, that frame sets belong to that source, that queued jobs reserve distinct paths, and that the separate job JSON still describes the same clip. It also checks the constraints that protect the face, source motion, ground contact, connected body geometry, and temporal stability.
+
+The instrument does not touch the timeline. It does not import footage or start a render. When a queued job's JSON agrees with the manifest and its reserved output path is unused, the audit labels it `ready-for-local-renderer`. That phrase is deliberately modest: it means the handoff is intelligible and the destination is clear, not that the renderer has executed. The audit is written to the Bridge outgoing folder, with a Desktop fallback.
+
+Seven Lua tests now exercise the contract and its refusal cases. The packaging workflow has been extended to install Lua 5.4, syntax-check the consumer, and run those tests before packaging; the checks are committed but a completed Actions run has not yet been observed. The installer now creates both incoming and outgoing exchange folders. Inspection also revealed that the older project operator used `home` before declaring it; the local path declaration now precedes its first use.
+
+The workshop can now read the envelope from the editing-room side, but it still cannot carry out the job. No local Resolve session was accessed, no Dropbox files were exchanged, and no frame was rendered. The next instrument must be a local exchange writer that stages a job, verifies actual file checksums, and gives a frame worker a safe, portable input without ever replacing the source.
+
 ## Chronicle rule
 
 Every future entry must be grounded in repository changes, tested behavior, user-confirmed runtime results, or clearly labeled proposals. Do not write an implementation as if it has run. Do not turn missing capabilities into lore that disguises their absence. The narrative is the machine's construction record, and the construction record is part of the machine.

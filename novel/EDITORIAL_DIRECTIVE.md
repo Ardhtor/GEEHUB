@@ -33,3 +33,10 @@ Follow [../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md](../docs/SHARED_INERTIA_NARRAT
 Keep the prose longer and more inhabited where the scene calls for it: allow environment, physical presence, action, memory, and consequence to develop within substantial paragraphs. The user-facing interface itself remains visually led rather than text-heavy. Any claim of remembered history must be supported by the manuscript, archive, or actual persistent state.
 
 For Hulum's Cave material, treat the original audiovisual source as primary evidence. Attend to pacing, anticipation, identity continuity, full-body proportion, camera, light, sound, and the room's role as a scale reference. Preserve the difference between an intended production rule and a reconstruction that has actually been rendered and compared.
+
+
+## Publishing-length revision
+
+The manuscript now follows [PUBLISHING_STANDARD.md](PUBLISHING_STANDARD.md). Revise the books themselves in sequence, not merely their instructions. Standard chapters should generally reach 4,000–7,000 words through fully developed scenes, character interaction, environmental continuity, and consequential turns. Major chapters may run longer when the material earns it. Do not pad or repeat. Preserve canon, and keep research notes and production commentary outside reader-facing prose.
+
+The Bill chapter is the first expanded chapter under this standard. Apply the same standard to the remaining chapters and connected books after reading their full continuity context. Maintain a revision ledger so the books become coherent manuscripts rather than a set of individually polished but disconnected passages.

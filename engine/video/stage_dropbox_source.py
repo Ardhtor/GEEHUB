@@ -49,9 +49,10 @@ def resolve_source(value: str) -> tuple[Path, Path | None]:
         source = candidate.resolve()
         for root in dropbox_roots():
             try:
+                source.relative_to(root)
                 return source, root
-            except OSError:
-                pass
+            except ValueError:
+                continue
         return source, None
 
     roots = dropbox_roots()

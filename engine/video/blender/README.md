@@ -104,3 +104,12 @@ mesh shape key. The validator checks that these driver connections exist.
 This is a functional control layer in the generated scene, but it still needs
 execution in Blender and visual review. It is not yet a full animator picker,
 space-switching system, or source-fitted deformation rig.
+
+
+## Content-rating baseline
+
+GEEHUB's adult-capable production baseline is defined in
+`engine/video/NSFW_PRODUCTION_BASELINE.md`. It treats NSFW as a first-class project
+classification and keeps rig anatomy, wardrobe, deformation, camera, and export
+metadata modular. All sexualized characters must be unambiguously adult; the Luke
+reproduction pass retains its phase-four growth cap.

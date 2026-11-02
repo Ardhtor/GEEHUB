@@ -21,7 +21,7 @@ for script in "$INTEGRATION"/*.lua; do
 done
 
 if [[ -n "$DROPBOX_ROOT" ]]; then
-  mkdir -p "$DROPBOX_ROOT/GEEHUB/Bridge" "$DROPBOX_ROOT/GEEHUB/Assets" "$DROPBOX_ROOT/GEEHUB/Exports"
+  mkdir -p "$DROPBOX_ROOT/GEEHUB/Bridge/incoming" "$DROPBOX_ROOT/GEEHUB/Bridge/outgoing" "$DROPBOX_ROOT/GEEHUB/Assets" "$DROPBOX_ROOT/GEEHUB/Exports"
   cat > "$DROPBOX_ROOT/GEEHUB/Bridge/README.txt" <<'EOF'
 GEEHUB Dropbox bridge
 Assets: place source assets and approved reference material here.
@@ -33,7 +33,7 @@ EOF
 else
   CANDIDATE="$HOME/Library/CloudStorage/Dropbox"
   if [[ -d "$CANDIDATE" ]]; then
-    mkdir -p "$CANDIDATE/GEEHUB/Bridge" "$CANDIDATE/GEEHUB/Assets" "$CANDIDATE/GEEHUB/Exports"
+    mkdir -p "$CANDIDATE/GEEHUB/Bridge/incoming" "$CANDIDATE/GEEHUB/Bridge/outgoing" "$CANDIDATE/GEEHUB/Assets" "$CANDIDATE/GEEHUB/Exports"
     echo "Dropbox folders configured at: $CANDIDATE/GEEHUB"
   else
     echo "Dropbox folder not detected. Set GEEHUB_DROPBOX_ROOT and rerun to enable the Dropbox bridge."

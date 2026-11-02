@@ -19,6 +19,12 @@ The script creates a project named **GEEHUB Growth Studio**, a starter timeline,
 
 Import the source video into `01_SOURCE`. Use the timeline `GEEHUB_GROWTH_SEQUENCE` for editing. Keep generated frame sequences and passes in their named bins, then composite and finish in Resolve.
 
+## Versioned bridge inspection
+
+`GEEHUB_Bridge.lua` is a read-only Resolve Free consumer for `geehub.media-bridge` schema version 1. It reads the incoming manifest and referenced portable render-job JSON from the local Dropbox mirror, checks source identity, frame-set references, job state, required face/motion/ground-contact/connected-mesh/temporal constraints, and output-path collisions, then writes a machine-readable audit. It does not import media or start a render. A queued job can be marked ready for a local renderer, but no renderer is included in this step.
+
+Default input: `~/Library/CloudStorage/Dropbox/GEEHUB/Bridge/incoming/manifest.json`. Default report: `~/Library/CloudStorage/Dropbox/GEEHUB/Bridge/outgoing/resolve-bridge-audit.json`. Run **Workspace > Scripts > Utility > GEEHUB_Bridge** inside Resolve after installing the integration.
+
 ## What this integration currently does
 
 - Creates a dedicated Resolve project and starter media-pool structure.

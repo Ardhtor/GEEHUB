@@ -27,6 +27,15 @@ jobs:
         working-directory: engine/growth-video-studio
         run: npm test
 
+      - name: Set up Lua 5.4
+        run: sudo apt-get update && sudo apt-get install -y lua5.4
+
+      - name: Validate Resolve Free bridge consumer
+        working-directory: engine/growth-video-studio/integrations/davinci-resolve-free
+        run: |
+          luac5.4 -p GEEHUB_Bridge.lua
+          lua5.4 GEEHUB_Bridge.test.lua
+
       - name: Build one-sweep package
         run: |
           mkdir -p dist/GEEHUB

@@ -67,11 +67,25 @@ for v in body.data.vertices:
 mod=body.modifiers.new("Armature_Deformation","ARMATURE"); mod.object=rig
 body.parent=rig; body.matrix_parent_inverse=rig.matrix_world.inverted()
 bpy.context.view_layer.objects.active=rig; bpy.ops.object.mode_set(mode="POSE")
+# Animator-facing blend controls: 0 = FK, 1 = IK.
+rig["arm_ik_blend"]=1.0
+rig["leg_ik_blend"]=1.0
+rig.id_properties_ui("arm_ik_blend").update(min=0.0,max=1.0,default=1.0,
+    description="Arm FK/IK blend: 0 is FK, 1 is IK")
+rig.id_properties_ui("leg_ik_blend").update(min=0.0,max=1.0,default=1.0,
+    description="Leg FK/IK blend: 0 is FK, 1 is IK")
 for side,s in [("L",-1),("R",1)]:
     for chain,loc,poleloc in [("forearm."+side,(s*.91,-.02,1.18),(s*1.35,-.1,1.7)),("shin."+side,(s*.20,-.05,.09),(s*.55,-.15,.5))]:
         target=bpy.data.objects.new("CTRL_"+chain+"_IK",None); scene.collection.objects.link(target); target.empty_display_type="SPHERE"; target.empty_display_size=.07; target.location=loc
         pole=bpy.data.objects.new("CTRL_"+chain+"_POLE",None); scene.collection.objects.link(pole); pole.empty_display_type="CIRCLE"; pole.empty_display_size=.09; pole.location=poleloc
-        c=rig.pose.bones[chain].constraints.new("IK"); c.target=target; c.pole_target=pole; c.chain_count=2
+        c=rig.pose.bones[chain].constraints.new("IK"); c.name="IK_FK_BLEND"
+        c.target=target; c.pole_target=pole; c.chain_count=2
+        prop="arm_ik_blend" if chain.startswith("forearm") else "leg_ik_blend"
+        fc=c.driver_add("influence")
+        drv=fc.driver; drv.type="SCRIPTED"
+        var=drv.variables.new(); var.name="blend"; var.type="SINGLE_PROP"
+        var.targets[0].id=rig; var.targets[0].data_path='["'+prop+'"]'
+        drv.expression="blend"
 for n in ["chest","upper_arm.L","upper_arm.R"]:
     pb=rig.pose.bones[n]; pb.rotation_mode="XYZ"; pb.keyframe_insert(data_path="rotation_euler",frame=1,group="Rig_Sanity")
     pb.rotation_euler[1]=math.radians(4 if n=="chest" else (-7 if n.endswith(".L") else 7)); pb.keyframe_insert(data_path="rotation_euler",frame=90,group="Rig_Sanity")
@@ -104,9 +118,19 @@ for i,v in enumerate(body.data.vertices):
     growth.data[i].co.x=co.x*radial
     growth.data[i].co.y=co.y*(1.0+.10*torso+.11*chest+.045*limbs)
     growth.data[i].co.z=.06 + (z-.06)*1.045
-growth.value=0.0; growth.keyframe_insert(data_path="value",frame=1,group="Phase4_Growth")
-growth.value=1.0; growth.keyframe_insert(data_path="value",frame=110,group="Phase4_Growth")
-growth.keyframe_insert(data_path="value",frame=180,group="Phase4_Growth")
+# Expose phase-four growth as one rig-level control, driven into the shape key.
+rig["phase4_growth"]=0.0
+rig.id_properties_ui("phase4_growth").update(min=0.0,max=1.0,default=0.0,
+    description="Phase-four growth only; 0 = base, 1 = phase-four maximum")
+fc=growth.driver_add("value")
+drv=fc.driver; drv.type="SCRIPTED"
+var=drv.variables.new(); var.name="phase4"; var.type="SINGLE_PROP"
+var.targets[0].id=rig; var.targets[0].data_path='["phase4_growth"]'
+drv.expression="phase4"
+rig.keyframe_insert(data_path='["phase4_growth"]',frame=1,group="Phase4_Growth")
+rig["phase4_growth"]=1.0
+rig.keyframe_insert(data_path='["phase4_growth"]',frame=110,group="Phase4_Growth")
+rig.keyframe_insert(data_path='["phase4_growth"]',frame=180,group="Phase4_Growth")
 # Clamp the UI control to phase four; no phase-five/six shape exists in this rig.
 rig["growth_stage_max"]=4
 rig["phase4_growth_note"]="Single capped growth shape. Test timing only; retime from source."

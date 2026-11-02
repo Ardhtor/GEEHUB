@@ -470,5 +470,21 @@
       "persistence",
       "simulation"
     ]
+  },
+  {
+    "id": "imagine-video-studio",
+    "name": "Imagine Video Studio",
+    "status": "prototype",
+    "kind": "video-generation",
+    "path": "/engine/video/imagine-studio.html",
+    "description": "Grok Imagine-inspired six-second text/image-to-video workflow. Generates at 480p, finishes a 420p MP4 with FFmpeg, and files the video plus provenance manifest in Dropbox.",
+    "tags": [
+      "video",
+      "imagine",
+      "420p",
+      "six-second",
+      "mp4",
+      "dropbox"
+    ]
   }
 ]

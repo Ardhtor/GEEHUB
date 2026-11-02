@@ -34,6 +34,13 @@ check("armature_exists", rig is not None and rig.type == "ARMATURE")
 
 arm_mods = [m for m in body.modifiers if m.type == "ARMATURE" and m.object == rig]
 check("body_deforms_from_rig", bool(arm_mods), "Expected Armature modifier targeting Luke_Rig.")
+check("body_origin_normalized", body.location.length < 1e-5,
+      "Body object origin should be at world origin so shape-key envelopes align.")
+bbox = [body.matrix_world @ __import__("mathutils").Vector(corner) for corner in body.bound_box]
+z_min = min(v.z for v in bbox)
+z_max = max(v.z for v in bbox)
+check("body_world_height", z_min < 0.20 and z_max > 2.50,
+      "Expected a full-height world-space mesh; bounds z=[%.3f, %.3f]." % (z_min, z_max))
 
 required_bones = [
     "root", "pelvis", "spine", "chest", "neck", "head",

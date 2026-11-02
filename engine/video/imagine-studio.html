@@ -23,9 +23,10 @@
       <button class="mode active" data-mode="text" type="button">TEXT TO VIDEO</button>
       <button class="mode" data-mode="image" type="button">IMAGE TO VIDEO</button>
     </div>
-    <label class="imagine-label" for="prompt">THE SHOT</label>
-    <textarea id="prompt" rows="5" maxlength="1800" placeholder="A slow camera push toward a figure standing in a dark amber forest. Wind moves the canopy; the figure shifts his weight and looks toward the camera. Natural body mechanics, continuous movement, cinematic light."></textarea>
-    <div class="prompt-hint">Subject · action · camera · lighting · atmosphere · sound</div>
+    <div class="naive-row"><div><b>NAIVE ACTION</b><small>Give it a simple idea. GEEHUB handles the shot.</small></div><button id="naiveToggle" class="naive-toggle active" type="button" aria-pressed="true">ON</button></div>
+    <label class="imagine-label" for="prompt">WHAT HAPPENS?</label>
+    <textarea id="prompt" rows="5" maxlength="1800" placeholder="A man walks through the woods. A tree bends in the wind. A room slowly changes."></textarea>
+    <div class="prompt-hint">Plain language is enough. One action is enough.</div>
     <div id="imageDrop" class="image-drop" hidden>
       <input id="sourceImage" type="file" accept="image/png,image/jpeg,image/webp">
       <div class="image-drop-inner"><span>＋</span><b>ADD FIRST FRAME</b><small>PNG / JPG / WEBP · UP TO 8 MB</small></div>

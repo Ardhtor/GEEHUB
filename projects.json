@@ -423,5 +423,28 @@
       "growth-canvas",
       "beefythiq"
     ]
+  },
+  {
+    "id": "arboreal-audio",
+    "name": "Arboreal Audio",
+    "status": "active",
+    "kind": "engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/engine/audio/tree_soundboard.html",
+    "description": "Native procedural forest sound engine: canopy wind, leaf rustle, branch creak, hollow trunk knocks, root groans, adjustable environmental parameters, 8-bit texture, and an evolving ambience loop integrated into the living-world interface.",
+    "related": [
+      "vision-workspace",
+      "sensation-engine",
+      "veyrthalis",
+      "media-tools"
+    ],
+    "tags": [
+      "audio",
+      "soundscape",
+      "forest",
+      "procedural",
+      "8-bit",
+      "environment"
+    ]
   }
 ]

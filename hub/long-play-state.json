@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 148,
-  "currentAgent": "andrew",
-  "currentRegion": "deep-lore",
-  "scale": 11.94,
-  "lastRun": "2026-11-02T00:27:00.668Z",
+  "cycle": 149,
+  "currentAgent": "joseph",
+  "currentRegion": "luke-bwomph",
+  "scale": 12.06,
+  "lastRun": "2026-11-02T06:42:06.477Z",
   "history": [
+    {
+      "cycle": 149,
+      "agent": "joseph",
+      "previousRegion": "deep-lore",
+      "region": "luke-bwomph",
+      "relation": "THE FACE REMAINS",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 11.94,
+      "scale": 12.06,
+      "recording": "scheduled-recording-00149",
+      "at": "2026-11-02T06:42:06.477Z"
+    },
     {
       "cycle": 148,
       "agent": "andrew",
@@ -1197,22 +1209,10 @@
       "scale": 5.7,
       "recording": "scheduled-recording-00050",
       "at": "2026-10-15T19:25:47.995Z"
-    },
-    {
-      "cycle": 49,
-      "agent": "joseph",
-      "previousRegion": "beefythiq",
-      "region": "facility",
-      "relation": "THE ROOM GETS SMALLER",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 5.54,
-      "scale": 5.66,
-      "recording": "scheduled-recording-00049",
-      "at": "2026-10-15T15:37:03.491Z"
     }
   ],
-  "previousRegion": "veyrthalis",
-  "relation": "DEPARTURE LEAVES A SHAPE",
+  "previousRegion": "deep-lore",
+  "relation": "THE FACE REMAINS",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 12,
@@ -1228,10 +1228,10 @@
     "male-harem": 13,
     "beefythiq": 11,
     "bodylounger": 9,
-    "luke-bwomph": 11
+    "luke-bwomph": 12
   },
   "lastRegionAt": {
-    "deep-lore": "2026-11-02T00:27:00.668Z",
+    "deep-lore": "2026-11-02T01:52:24.020809+00:00",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
     "colossal-escalation": "2026-10-29T06:19:28.514809+00:00",
     "embodied-scale": "2026-11-01T13:50:03.752554+00:00",
@@ -1244,6 +1244,6 @@
     "male-harem": "2026-10-27T18:37:41.454096+00:00",
     "beefythiq": "2026-11-01T00:21:03.894149+00:00",
     "bodylounger": "2026-10-27T12:45:55.748848+00:00",
-    "luke-bwomph": "2026-10-31T00:49:37.081056+00:00"
+    "luke-bwomph": "2026-11-02T06:42:06.477Z"
   }
 }

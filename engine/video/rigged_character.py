@@ -155,15 +155,26 @@ def _make_armature(mesh, name):
     return rig
 
 
-def build_rigged_character(name="GEEHUB / rigged base", animate=False):
-    """Create and return (unified_mesh, armature); safe to call in a clean scene."""
+def build_rigged_character(name="GEEHUB / rigged base", animate=False,
+                           start_frame=1, end_frame=120, growth_ceiling=1.22):
+    """Create and return (unified_mesh, armature); safe to call in a clean scene.
+
+    Animation is keyed only across the requested growth passage and holds its
+    final form afterwards. growth_ceiling is clamped to a restrained 1.0–1.8.
+    """
     mesh = _anatomy_surface(name)
     rig = _make_armature(mesh, name)
     if animate:
         scene = bpy.context.scene
-        scene.frame_start = 1
-        scene.frame_end = 120
-        for frame, amount in ((1, 1.0), (48, 1.12), (84, 1.22), (120, 1.22)):
+        start_frame = max(1, int(start_frame))
+        end_frame = max(start_frame + 1, int(end_frame))
+        ceiling = max(1.0, min(1.8, float(growth_ceiling)))
+        scene.frame_start = min(scene.frame_start, start_frame)
+        scene.frame_end = max(scene.frame_end, end_frame)
+        keyframes = ((start_frame, 1.0),
+                     (int(start_frame + (end_frame - start_frame) * .42), 1.0 + (ceiling - 1.0) * .48),
+                     (end_frame, ceiling))
+        for frame, amount in keyframes:
             scene.frame_set(frame)
             for bone_name in ("chest", "spine", "pelvis"):
                 bone = rig.pose.bones.get(bone_name)

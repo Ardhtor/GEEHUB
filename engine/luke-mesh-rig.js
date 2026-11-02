@@ -81,7 +81,7 @@
       for(const f of mesh.faces){
         const a=mesh.verts[f[0]],b=mesh.verts[f[1]],c=mesh.verts[f[2]],n=norm(cross(sub(b,a),sub(c,a)));
         const facing=dot(n,light),z=(pts[f[0]].z+pts[f[1]].z+pts[f[2]].z)/3;
-        triangles.push({pts,f,z,shade:clamp(.34+Math.max(0,facing)*.66,.25,1)});
+        triangles.push({pts,f,z,material:mesh.material,shade:clamp(.34+Math.max(0,facing)*.66,.25,1)});
       }
     }
     triangles.sort((a,b)=>a.z-b.z);

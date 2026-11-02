@@ -1,0 +1,105 @@
+{
+  "id": "luke-hubby-reproduction-pass-001",
+  "title": "Luke — continuous phase-four reproduction pass",
+  "status": "production_target",
+  "status_note": "This is an executable-direction contract, not a completed render. The source clip is present in Dropbox; the 3D reconstruction and final render remain unverified.",
+  "source": {
+    "provider": "dropbox",
+    "path": "/SnapVid.Net_YPBbLkvp9AQAKdpS_672p.mp4",
+    "media_type": "video/mp4",
+    "role": "primary performance and proportion reference",
+    "rule": "Inspect the actual footage before setting timing, camera, pose, or body measurements. Do not substitute a generic character or invented movement."
+  },
+  "subject": {
+    "identity": "Luke / hubby",
+    "identity_lock": true,
+    "preserve": [
+      "recognizable face and head proportions",
+      "hair, beard, expression, and established visual identity",
+      "original performance, pose language, and continuity wherever the source permits",
+      "natural relaxed confidence"
+    ]
+  },
+  "transformation": {
+    "mode": "continuous_temporal_deformation",
+    "maximum_phase": 4,
+    "phase_four_is_terminal": true,
+    "phase_six_forbidden": true,
+    "growth_profile": "smooth progressive increase, then settle and hold",
+    "priority": [
+      "height and stature",
+      "limb length and reach",
+      "rounded shoulder width and depth",
+      "deep, full pectorals",
+      "upper arms and forearms",
+      "torso thickness with coherent waist and abdomen",
+      "thighs, hamstrings, and calves",
+      "hands, feet, joints, and stance scaled coherently"
+    ],
+    "proportionality": "All body regions must deform together. Do not shorten limbs, compress the torso, or create isolated inflated muscle shapes.",
+    "user_direction": "Keep the phase-four scale. Magnify at that stage without over-fattening or escalating into phase six. Preserve the preferred chest fullness while maintaining coherent proportions."
+  },
+  "surface_and_wardrobe": {
+    "skin": "high-detail realistic skin with natural pore scale, subtle subsurface response, and coherent light falloff",
+    "anatomy": "rounded connected muscle forms; no triangular faceting, disconnected spheres, or paper-cutout silhouettes",
+    "clothing": "retain the source wardrobe where possible; cloth must stretch, wrinkle, compress, and remain attached through deformation"
+  },
+  "animation": {
+    "must_be_temporally_continuous": true,
+    "retain_source_timing": true,
+    "preserve_performance": true,
+    "secondary_motion": [
+      "breathing",
+      "posture and balance adjustment",
+      "muscle settling",
+      "cloth tension and folds",
+      "foot contact and weight transfer"
+    ],
+    "final_hold": "Allow the phase-four result to settle and remain visible; do not immediately cut away."
+  },
+  "camera_and_environment": {
+    "camera": "derive framing, angle, distance, and movement from the source clip; use low-angle emphasis only where supported by the reference",
+    "continuity": "camera motion must remain temporally smooth and preserve subject readability",
+    "environment": "retain source environment as the spatial scale reference unless a deliberate reconstruction is required",
+    "lighting": "match source direction and softness before adding stylization"
+  },
+  "audio": {
+    "preserve_source_audio": true,
+    "mixing": "retain useful original ambience and performance sounds; add music or designed sound only as a separate synchronized layer"
+  },
+  "pipeline": [
+    "inspect source video and extract representative frames",
+    "record source duration, frame rate, framing, pose, and camera movement",
+    "establish identity-locked character geometry and a deformable skeletal rig",
+    "fit baseline proportions to the source",
+    "author continuous phase-one-to-phase-four deformation",
+    "validate silhouette and identity at intermediate frames",
+    "simulate cloth and secondary motion",
+    "match camera and lighting",
+    "render a short diagnostic segment",
+    "compare diagnostic frames against the source",
+    "revise deformation and timing",
+    "render the full continuous take",
+    "preserve source audio and mix synchronized sound",
+    "review the exported video and save the verified master to Dropbox"
+  ],
+  "acceptance_tests": [
+    "face and identity remain recognizable throughout",
+    "growth is continuous with no size jumps between frames",
+    "phase four is the maximum and remains stable at the end",
+    "height and limb length increase alongside mass",
+    "chest fullness is retained without disproportionate fattening",
+    "skin, cloth, joints, and contact remain coherent",
+    "camera and source performance remain temporally aligned",
+    "the final export is opened and visually checked before being called complete"
+  ],
+  "deliverables": [
+    "source observation sheet",
+    "identity-locked 3D character and rig",
+    "phase-four deformation animation",
+    "diagnostic render",
+    "full-resolution continuous master",
+    "continuity and comparison report"
+  ],
+  "next_action": "Transfer the Dropbox source into the render workspace, inspect it frame-by-frame, and establish the identity-locked baseline before building the rig."
+}

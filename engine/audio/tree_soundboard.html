@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEEHUB — Arboreal Soundboard</title>
+<style>
+:root{color-scheme:dark;--bg:#101714;--panel:#19231d;--line:#35453a;--ink:#e1e8dc;--muted:#9eac9e;--accent:#b7c78a}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 0%,#26372b 0,#101714 65%);color:var(--ink);font:15px/1.45 system-ui,sans-serif;min-height:100vh}
+main{max-width:920px;margin:auto;padding:28px 20px 42px}header{display:flex;justify-content:space-between;align-items:end;gap:16px;border-bottom:1px solid var(--line);padding-bottom:18px}
+h1{font-weight:500;letter-spacing:.08em;font-size:22px;margin:0}header p{color:var(--muted);margin:5px 0 0;font-size:13px}.status{font:11px ui-monospace,monospace;color:var(--accent);letter-spacing:.1em}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:22px 0}
+button{background:linear-gradient(145deg,#26372b,#19231d);border:1px solid var(--line);border-radius:10px;color:var(--ink);padding:15px;text-align:left;cursor:pointer;min-height:92px}
+button:hover{border-color:var(--accent)}button:active{transform:translateY(1px)}button strong{display:block;font-size:15px;font-weight:550}button small{display:block;color:var(--muted);margin-top:5px;font-size:12px}
+button.active{border-color:var(--accent);box-shadow:inset 0 0 0 1px #b7c78a55;background:#2b3b2b}
+.panel{background:#151e19cc;border:1px solid var(--line);border-radius:12px;padding:18px;margin-top:14px}
+.controls{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.control label{display:flex;justify-content:space-between;color:var(--muted);font-size:12px;margin-bottom:8px}
+input[type=range]{width:100%;accent-color:var(--accent)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.actions button{min-height:0;padding:10px 14px;text-align:center}.primary{background:#34452f;border-color:#7d9365}.hint{color:var(--muted);font-size:12px;margin:14px 0 0}
+footer{margin-top:22px;color:#778578;font-size:11px;letter-spacing:.06em}
+@media(max-width:650px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.controls{grid-template-columns:1fr 1fr}header{align-items:start;flex-direction:column}}
+</style></head>
+<body><main>
+<header><div><h1>ARBoreal / 01</h1><p>Procedural tree acoustics · GEEHUB native soundboard</p></div><div class="status" id="status">ENGINE STANDBY</div></header>
+<section class="grid" id="pads">
+<button data-sound="canopy"><strong>Canopy wind</strong><small>Wide, soft leaf movement</small></button>
+<button data-sound="rustle"><strong>Leaf rustle</strong><small>Dry close-up foliage</small></button>
+<button data-sound="creak"><strong>Branch creak</strong><small>Slow timber strain</small></button>
+<button data-sound="knock"><strong>Trunk knocks</strong><small>Hollow wood impacts</small></button>
+<button data-sound="groan"><strong>Root groan</strong><small>Low shifting wood</small></button>
+<button data-sound="forest"><strong>Night grove</strong><small>Layered, continuous forest bed</small></button>
+</section>
+<section class="panel"><div class="controls">
+<div class="control"><label for="wind">Wind <output id="windv">48%</output></label><input id="wind" type="range" min="0" max="100" value="48"></div>
+<div class="control"><label for="density">Leaf density <output id="densityv">55%</output></label><input id="density" type="range" min="0" max="100" value="55"></div>
+<div class="control"><label for="depth">Wood resonance <output id="depthv">62%</output></label><input id="depth" type="range" min="0" max="100" value="62"></div>
+</div><div class="actions">
+<button class="primary" id="loop">Start forest loop</button><button id="stop">Stop all</button><button id="eight">8-bit texture: OFF</button>
+</div><p class="hint">Select a sound to trigger it. The forest loop evolves continuously; controls reshape the sound in real time. Audio is synthesized locally in the browser—no samples or network connection.</p></section>
+<footer>GEEHUB AUDIO SYSTEM · SYNTHESIS PROTOTYPE · NO EXTERNAL ASSETS</footer>
+</main>
+<script>
+(()=>{
+let ctx=null, master=null, active=[], loopTimer=null, loopOn=false, bit8=false;
+const $=id=>document.getElementById(id);
+const status=t=>$('status').textContent=t;
+function engine(){if(!ctx){ctx=new (window.AudioContext||window.webkitAudioContext)();master=ctx.createGain();master.gain.value=.72;master.connect(ctx.destination)}if(ctx.state==='suspended')ctx.resume();return ctx}
+function val(id){return Number($(id).value)/100}
+function noiseBuffer(seconds=2){const c=engine(),b=c.createBuffer(1,Math.floor(c.sampleRate*seconds),c.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;return b}
+function track(node){active.push(node);return node}
+function env(g,t,dur,peak=1){g.gain.cancelScheduledValues(t);g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(Math.max(.0002,peak),t+.04);g.gain.exponentialRampToValueAtTime(.0001,t+dur)}
+function filter(type,f,q=1){const n=engine().createBiquadFilter();n.type=type;n.frequency.value=f;n.Q.value=q;return n}
+function addBitcrush(node){if(!bit8)return node;const sh=engine().createWaveShaper(),curve=new Float32Array(256);for(let i=0;i<256;i++){const x=i*2/255-1;curve[i]=Math.round(x*15)/15}sh.curve=curve;sh.oversample='none';node.connect(sh);return sh}
+function hiss({duration=2,cut=1800,high=9000,peak=.25,rate=1}={}){const c=engine(),src=track(c.createBufferSource()),f=filter('bandpass',cut,.7),g=c.createGain();src.buffer=noiseBuffer(duration+0.2);src.playbackRate.value=rate;f.frequency.setValueAtTime(cut,c.currentTime);f.frequency.exponentialRampToValueAtTime(high,c.currentTime+duration);src.connect(f);const out=addBitcrush(g);f.connect(g);out.connect(master);env(g,c.currentTime,duration,peak);src.start();src.stop(c.currentTime+duration+.05);src.onended=()=>{src.disconnect();f.disconnect();g.disconnect();out!==g&&out.disconnect()}}
+function tone({freq=100,duration=1,wave='sine',peak=.2,slide=null}={}){const c=engine(),o=track(c.createOscillator()),g=c.createGain();o.type=wave;o.frequency.setValueAtTime(freq,c.currentTime);if(slide)o.frequency.exponentialRampToValueAtTime(slide,c.currentTime+duration);const out=addBitcrush(g);o.connect(g);out.connect(master);env(g,c.currentTime,duration,peak);o.start();o.stop(c.currentTime+duration+.04);o.onended=()=>{o.disconnect();g.disconnect();out!==g&&out.disconnect()}}
+function canopy(){const w=val('wind');hiss({duration:3+Math.random()*3,cut:250+500*w,high:1500+5000*w,peak:.08+.2*w,rate:.6+w*.8})}
+function rustle(){const d=val('density');for(let i=0;i<3+Math.round(d*9);i++)setTimeout(()=>hiss({duration:.12+Math.random()*.45,cut:1300+Math.random()*2800,high:4000+Math.random()*3500,peak:.025+d*.08,rate:.7+Math.random()*.9}),Math.random()*500)}
+function creak(){const d=val('depth');tone({freq:100+Math.random()*50,duration:1.5+Math.random()*2,wave:'sawtooth',peak:.045+d*.1,slide:45+Math.random()*25});hiss({duration:1.2,cut:400,high:1100,peak:.04+d*.05,rate:.35})}
+function knock(){const d=val('depth');tone({freq:95+Math.random()*35,duration:.25,wave:'triangle',peak:.15+d*.2,slide:38});setTimeout(()=>tone({freq:55+Math.random()*25,duration:.35,wave:'sine',peak:.08+d*.1,slide:30}),90)}
+function groan(){const d=val('depth');tone({freq:65+Math.random()*18,duration:3,wave:'triangle',peak:.1+d*.16,slide:28});tone({freq:34,duration:2.4,wave:'sine',peak:.04+d*.08,slide:24})}
+const sounds={canopy,rustle,creak,knock,groan};
+function trigger(name){engine();sounds[name]?.();status('PLAYING / '+name.toUpperCase());document.querySelectorAll('[data-sound]').forEach(b=>b.classList.toggle('active',b.dataset.sound===name));}
+function forest(){canopy();setTimeout(rustle,500+Math.random()*1000);if(Math.random()<.6)setTimeout(creak,1200+Math.random()*1400);if(Math.random()<.22)setTimeout(knock,1800+Math.random()*1800)}
+function startLoop(){engine();if(loopOn)return;loopOn=true;$('loop').textContent='Forest loop: ON';status('FOREST LOOP / RUNNING');forest();loopTimer=setInterval(forest,3000)}
+function stop(){loopOn=false;clearInterval(loopTimer);loopTimer=null;active.forEach(n=>{try{n.stop?.()}catch(e){}});active=[];if(master&&ctx){master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setTargetAtTime(.0001,ctx.currentTime,.04);setTimeout(()=>{if(master&&ctx){master.gain.setTargetAtTime(.72,ctx.currentTime,.08)}},180)}$('loop').textContent='Start forest loop';document.querySelectorAll('[data-sound]').forEach(b=>b.classList.remove('active'));status('ENGINE STANDBY')}
+document.querySelectorAll('[data-sound]').forEach(b=>b.addEventListener('click',()=>trigger(b.dataset.sound)));
+$('loop').addEventListener('click',startLoop);$('stop').addEventListener('click',stop);
+$('eight').addEventListener('click',()=>{bit8=!bit8;$('eight').textContent='8-bit texture: '+(bit8?'ON':'OFF')});
+['wind','density','depth'].forEach(id=>$(id).addEventListener('input',()=>$(id+'v').textContent=$(id).value+'%'));
+})();
+</script></body></html>

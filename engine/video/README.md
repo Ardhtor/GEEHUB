@@ -88,3 +88,18 @@ Dropbox is the canonical video library for GEEHUB. Reference footage and user-su
 For local production, use a synced or explicitly staged working copy in the project's `01_SOURCE/` area. Treat that folder as a working cache, not a competing source of truth. Keep the original filename and record the Dropbox path or file ID, source duration, frame rate, dimensions, and any selected time ranges in the production manifest/report. Derived frames belong in `02_FRAMES/`; analysis and shot annotations should remain traceable to the same source; transformation passes belong in `03_GROWTH_PASSES/`; composites in `04_COMPOSITES/`; and final renders in `05_EXPORTS/`.
 
 The source-analysis command accepts a local path, so a Dropbox video must be available through the user's synced Dropbox folder or staged into `01_SOURCE/` before analysis. Do not claim direct Dropbox-to-render ingestion until that connector path is implemented and tested.
+
+
+## Dropbox source staging workaround
+
+The preferred bridge for the local production engine is the Dropbox desktop sync folder. This avoids routing large videos through ChatGPT attachments or Adobe's restricted external-URL ingestion. Dropbox remains canonical; GEEHUB makes a separate, SHA-256-verified working copy in `01_SOURCE/` and writes a `.source.json` provenance sidecar. The source is never moved, renamed, or modified.
+
+On macOS, install and sign in to the Dropbox desktop app, then make the chosen video available offline. From the video engine folder:
+
+```bash
+python3 stage_dropbox_source.py "relative/path/from/Dropbox/video.mp4" --project "/path/to/GEEHUB/project"
+```
+
+If Dropbox is installed in a non-standard location, set `GEEHUB_DROPBOX_ROOT` to the synced Dropbox folder. An absolute path to a file inside the synced Dropbox folder is also accepted. The command refuses unsupported extensions, missing/offline files, and files that are still syncing; it never overwrites an existing staged file.
+
+After staging, pass the reported `staged_video` path to `analyze_source.py`. This is a local-sync bridge, not yet a direct Dropbox API/OAuth integration. Adobe's video tools still cannot consume Dropbox temporary download URLs directly; the local Blender/FFmpeg engine does not need Adobe for source analysis or rendering.

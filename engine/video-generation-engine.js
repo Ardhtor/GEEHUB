@@ -10,7 +10,7 @@
     <section class="gh-video-forge">
       <div class="ghvf-head"><div><div class="eyebrow">GEEHUB / VIDEO ENGINE</div><h2>HULUM'S CAVE — MOTION FORGE</h2><p>Generate a moving CGI scene with an original procedural soundtrack.</p></div><span class="ghvf-live" id="ghvfStatus">ENGINE READY</span></div>
       <div class="ghvf-stage"><canvas id="ghvfCanvas" width="1280" height="720" aria-label="Live procedural CGI preview"></canvas><div class="ghvf-overlay"><span id="ghvfShot">SHOT 01 / INDUSTRIAL ROOM</span><span id="ghvfClock">00:00</span></div></div>
-      <div class="ghvf-controls"><label>SCENE<select id="ghvfScene"><option value="bond">Leather / Steel</option><option value="growth">Growth Morph</option><option value="facility">Observation Room</option><option value="inertia">Shared Inertia</option></select></label><label>DURATION<select id="ghvfDuration"><option value="8">8 seconds</option><option value="12" selected>12 seconds</option><option value="20">20 seconds</option></select></label><label>SOUND<select id="ghvfSound"><option value="industrial">Industrial drone</option><option value="dark">Dark ambient</option><option value="room">Room tone</option></select></label><button id="ghvfPreview" type="button">PREVIEW</button><button id="ghvfRender" class="ghvf-primary" type="button">RENDER VIDEO + SOUND</button></div>
+      <div class="ghvf-controls"><label>SCENE<select id="ghvfScene"><option value="bond">Leather / Steel</option><option value="growth">Growth Morph</option><option value="luke">Luke / Burgeon Encounter</option><option value="facility">Observation Room</option><option value="inertia">Shared Inertia</option></select></label><label>DURATION<select id="ghvfDuration"><option value="8">8 seconds</option><option value="12" selected>12 seconds</option><option value="20">20 seconds</option></select></label><label>SOUND<select id="ghvfSound"><option value="industrial">Industrial drone</option><option value="dark">Dark ambient</option><option value="room">Room tone</option></select></label><button id="ghvfPreview" type="button">PREVIEW</button><button id="ghvfRender" class="ghvf-primary" type="button">RENDER VIDEO + SOUND</button></div>
       <div class="ghvf-foot"><span>1280 × 720 / 24 FPS / ORIGINAL SYNTH SOUND</span><a id="ghvfDownload" hidden>save rendered video ↗</a></div>
     </section>`;
   const canvas = $('#ghvfCanvas'), ctx = canvas.getContext('2d');
@@ -34,7 +34,11 @@
   }
   function man(x,y,s,t,variant,scene){
     const phase=t*1.7+variant*.12, breath=Math.sin(phase)*4, grow=scene==='growth'?1+0.16*ease((t%8)/8):1;
-    ctx.save();ctx.translate(x,y);ctx.scale(s*grow,s);
+    let retained={}; if(scene==='luke'&&variant===0){try{retained=JSON.parse(localStorage.getItem('geehub-luke-burgeon-v1')||'{}').body||{};}catch{}}
+    const shoulders=Math.max(1,Number(retained.shoulders||1)),chest=Math.max(1,Number(retained.chest||1)),arms=Math.max(1,Number(retained.arms||1)),legs=Math.max(1,Number(retained.legs||1)),length=Math.max(1,Number(retained.length||1));
+    const widthFactor=scene==='luke'&&variant===0?clamp(.72+(shoulders-1)*.16+(chest-1)*.13+(arms-1)*.10+(legs-1)*.08,.72,2.5):1;
+    const heightFactor=scene==='luke'&&variant===0?clamp(.82+(length-1)*.22+(legs-1)*.12,.82,2.4):1;
+    ctx.save();ctx.translate(x,y);ctx.scale(s*grow*widthFactor,s*heightFactor);
     const skin=variant===0?'#777b7a':'#666d70',hi=variant===0?'#a0a09a':'#898f90',shade='#343b3f';
     // legs and boots
     poly([[-36,70],[-4,72],[2,200],[-10,250],[-43,250],[-47,201]],shade);
@@ -83,12 +87,24 @@
     // steel bench / restraint rail
     ctx.fillStyle='#343a3d';ctx.fillRect(230,435,610,20);ctx.fillStyle='#111619';ctx.fillRect(250,455,18,110);ctx.fillRect(805,455,18,110);
     line([[235,442],[840,442]],'#58cfff',2);
-    man(scene==='bond'?500:scene==='inertia'?470:490,415,1.02,t,0,scene);
-    man(scene==='bond'?850:scene==='inertia'?810:790,408,.91,t,1,scene);
-    if(scene==='growth'){
+    if(scene==='luke'){
+      let retained={};try{retained=JSON.parse(localStorage.getItem('geehub-luke-burgeon-v1')||'{}').body||{};}catch{}
+      const magnitude=Math.max(1,...Object.values(retained).map(Number).filter(Number.isFinite));
+      const roomScale=clamp(1+(magnitude-1)*.13,1,2.8);
+      ctx.save();ctx.translate(640,0);ctx.scale(1/roomScale,1);ctx.translate(-640,0);
+      ctx.strokeStyle='rgba(70,196,235,.24)';ctx.lineWidth=3;ctx.strokeRect(90,92,1100,480);
+      for(let i=0;i<5;i++){const xx=170+i*235;line([[xx,90],[xx-35*roomScale,560]],'rgba(91,193,225,.15)',2);}
+      man(640,415,1.14,t,0,scene);
+      ctx.restore();
+      ctx.fillStyle='#76d8ed';ctx.font='15px monospace';ctx.fillText('LUKE / INHERITED BODY STATE / ROOM ADAPTATION '+roomScale.toFixed(2)+'x',36,675);
+    } else {
+      man(scene==='bond'?500:scene==='inertia'?470:490,415,1.02,t,0,scene);
+      man(scene==='bond'?850:scene==='inertia'?810:790,408,.91,t,1,scene);
+    }
+    if(scene==='growth'||scene==='luke'){
       // retained outline makes the morph legible against a remembered baseline
       ctx.save();ctx.globalAlpha=.17;ctx.setLineDash([8,8]);ctx.strokeStyle='#c4a16c';ctx.lineWidth=3;ctx.beginPath();ctx.ellipse(490,280,105,205,0,0,Math.PI*2);ctx.stroke();ctx.restore();
-      ctx.fillStyle='#c5a36f';ctx.font='15px monospace';ctx.fillText('PREVIOUS BASELINE RETAINED',36,675);
+      ctx.fillStyle='#c5a36f';ctx.font='15px monospace';ctx.fillText(scene==='luke'?'LUKE / PREVIOUS BASELINE RETAINED':'PREVIOUS BASELINE RETAINED',36,675);
     }
     if(scene==='inertia'){const drift=Math.sin(t*.65)*38;ctx.save();ctx.globalAlpha=.38;ctx.strokeStyle='#37d9ff';ctx.lineWidth=3;ctx.beginPath();ctx.ellipse(640+drift,315,260+Math.sin(t)*12,170,0,0,Math.PI*2);ctx.stroke();ctx.beginPath();ctx.ellipse(640-drift*.6,315,190,122,0,0,Math.PI*2);ctx.stroke();ctx.restore();ctx.fillStyle='#76e1ff';ctx.font='15px monospace';ctx.fillText('SHARED INERTIA / MOTION MEMORY',36,675);ctx.strokeStyle='rgba(55,217,255,.32)';ctx.lineWidth=3;ctx.strokeRect(90,92,1100,480);} else if(scene==='bond'){
       ctx.fillStyle='#a6aeb0';ctx.font='14px monospace';ctx.fillText('LEATHER / STEEL / TRUST',36,675);

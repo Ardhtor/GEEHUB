@@ -64,3 +64,15 @@ Confirmed that the local Blender + FFmpeg runner, source-footage analyzer, brows
 
 ### Verification boundary
 The new module is committed but has not been executed inside Blender in this session. It is a rig/geometry foundation, not yet wired into the production renderer's default character path. Next engineering step: run it in Blender, inspect deformation at shoulders/hips/elbows/knees, correct weight falloff, then integrate it into `blender_scene.py` and the Studio manifest.
+
+
+## 2026-11-02 — Renderer integration / rigged character path
+
+### Changes committed
+- Parameterized the rigged character's growth animation with renderer-supplied start frame, end frame, and a restrained growth ceiling.
+- Integrated the rigged character into `engine/video/blender_scene.py` behind the manifest option `character_model: "rigged"`; the existing separate-part blockout remains the default when the option is omitted.
+- Adjusted the observation-room floor and uprights for the rigged mesh's full-height coordinate range.
+- Updated the example manifest to demonstrate the rigged path and documented the opt-in switch and validation requirements.
+
+### Verification boundary
+The integration is committed but has not been executed in Blender in this environment. The rigged path remains experimental. Required next check: run `python3 gee_engine.py doctor`, render the example manifest, and inspect the silhouette, mesh continuity, weight deformation at joints, growth passage and floor contact. Do not treat the rigged path as production-validated until that render has been inspected.

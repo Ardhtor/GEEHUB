@@ -73,6 +73,7 @@ def _anatomy_surface(name="GEEHUB / unified humanoid"):
         _add_blob(meta, "ankle." + tag, (side * .38, -.01, -.91), .16, (.62, .62, .76))
         _add_blob(meta, "foot." + tag, (side * .38, -.20, -1.02), .20, (.66, 1.55, .48))
 
+    bpy.ops.object.select_all(action="DESELECT")
     bpy.context.view_layer.objects.active = obj
     obj.select_set(True)
     bpy.ops.object.convert(target="MESH")
@@ -115,9 +116,9 @@ def _make_armature(mesh, name):
     arm_data = bpy.data.armatures.new(name + " / skeleton")
     rig = bpy.data.objects.new(name + " / rig", arm_data)
     bpy.context.collection.objects.link(rig)
+    bpy.ops.object.select_all(action="DESELECT")
     bpy.context.view_layer.objects.active = rig
     rig.select_set(True)
-    mesh.select_set(False)
     bpy.ops.object.mode_set(mode="EDIT")
     bones = {}
     for bone_name, (head, tail, parent_name) in specs.items():

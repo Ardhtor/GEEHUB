@@ -1,5 +1,5 @@
 {
-  "pulse": 140,
+  "pulse": 141,
   "events": [
     {
       "pulse": 1,
@@ -2338,6 +2338,24 @@
       "narrative_rule": "a meaningful signal can be preserved without deciding what it means",
       "relation": "JOSEPH / THE SIGNAL",
       "next_region": null,
+      "pressure": 1,
+      "memory": 1
+    },
+    {
+      "pulse": 141,
+      "time": "2026-11-03T23:45:58+01:00",
+      "actor": "JOSEPH",
+      "co_actor": "KIRK",
+      "world": "VEYRTHALIS",
+      "region_id": "joseph-kirk-continuity",
+      "previous_region_id": "joseph-signal",
+      "phase": "CROSSING",
+      "source": "lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md",
+      "desire_state": "mutual-recognition",
+      "action": "Joseph chooses his own threshold crossing while Kirk holds his position by choice. They compare two accounts of the Digitorium's anomalous impressions without collapsing either into the other's memory.",
+      "narrative_rule": "shared perception does not cancel separate agency",
+      "relation": "TWO CONTINUITIES / NO SUBSTITUTE",
+      "next_region": "procession-of-two-accounts",
       "pressure": 1,
       "memory": 1
     }

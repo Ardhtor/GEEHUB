@@ -534,5 +534,20 @@
       "HULUM'A",
       "open-continuation"
     ]
+  },
+  {
+    "id": "joseph-kirk-continuity",
+    "name": "Joseph & Kirk — Continuity",
+    "status": "experimental",
+    "kind": "story-branch",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md",
+    "description": "A mutual, identity-preserving narrative thread in Veyrthalis. Kirk and Joseph develop distinct agency while comparing anomalous shared perceptions; public signals may seed imagery but never prove private intent.",
+    "related": [
+      "veyrthalis",
+      "hyperspace-expedition",
+      "joseph-prever-many-faces",
+      "the-complex"
+    ]
   }
 ]

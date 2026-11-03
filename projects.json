@@ -549,5 +549,22 @@
       "joseph-prever-many-faces",
       "the-complex"
     ]
+  },
+  {
+    "id": "asset-intake-2026-11-03",
+    "name": "GEEHUB Asset Intake — November 2026",
+    "status": "active",
+    "kind": "production-index",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/production/intake/2026-11-03/ASSET_PURPOSE_ATLAS.md",
+    "description": "Working purpose map and first production cards for new Dropbox uploads: character identity references, motion sources, growth grammar, story text, promotional tooling, Resolve operator and video-studio specification. Originals remain in Dropbox; filename inference is separated from verified visual inspection.",
+    "related": [
+      "media-tools",
+      "geehub-studio",
+      "imagine-video-studio",
+      "luke-growth",
+      "joseph-kirk-continuity",
+      "veyrthalis"
+    ]
   }
 ]

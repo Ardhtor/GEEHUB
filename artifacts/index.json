@@ -2978,6 +2978,26 @@
       "canon": "production",
       "dreamable": true,
       "next_action": "inspect media and generate verified shot records"
+    },
+    {
+      "id": "joseph-kirk-story-runtime-2026-11-04",
+      "created_at": "2026-11-04T00:00:00+01:00",
+      "source": "GEEHUB story compilation",
+      "kind": "story-engine",
+      "title": "JOSEPH & KIRK / EXECUTABLE STORY MODEL",
+      "content": "Encoded the Hyperspace Expedition and The Second Heart as a 23-beat structured narrative with character and place models, story mechanics, independent witness accounts, choice tracking, and unresolved-state protections. Added a Python runtime to advance beats and persist story state. Original prose remains preserved in its source Markdown files.",
+      "lineage": {
+        "actor": "GEEHUB",
+        "world": "VEYRTHALIS",
+        "region_id": "joseph-kirk-continuity",
+        "source": "lore/veyrthalis/joseph_kirk_story.json",
+        "runtime": "engine/stories/joseph_kirk_runtime.py",
+        "phase": "EXECUTION",
+        "relation": "TWO CONTINUITIES / NO SUBSTITUTE"
+      },
+      "canon": "experimental",
+      "dreamable": true,
+      "next_action": "execute and expand The Procession of Two Accounts"
     }
   ]
 }

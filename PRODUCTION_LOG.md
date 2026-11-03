@@ -64,3 +64,14 @@ This is the durable resume point for repository work. Update it after meaningful
 - Added implementation rules: identity, pose, growth, expression, camera and cloth remain separate channels; verify true shape change against normalized multi-view silhouettes.
 - No claim that Hulum's private rig, Maya node graph, or generative model has been recovered. The supplied clips remain pose references, not verified growth demonstrations.
 - Next: build proportion landmarks and reusable pose states, then prototype and validate the unified GEEHUB character deformation path.
+
+
+## 2026-11-04 — Hulum's Cave character system design
+
+- Re-read the video-engine README, unified rig foundation, Blender scene integration, source analyzer and Hulum's Cave build log.
+- Audited the current rig: it has a fused metaball-derived mesh and distance-based three-bone weighting, but no animator-facing FK/IK controls, twist distribution, pose-space correctives or independent regional growth profiles. Its present growth pass scales torso and limb bones; this remains a blockout experiment, not a validated muscle-growth system.
+- Rechecked Dropbox source records. Located the two canonical filenames and their same-sized ` (1)` copies. Original and duplicate sizes match pairwise, but equal sizes do not prove byte identity; content-hash/media comparison remains open. The chat-uploaded clips must not be assumed identical to Dropbox originals without comparison.
+- Added `media/HULUMS_CAVE_CHARACTER_SYSTEM_DESIGN_2026-11-04.md`: character data model, proportion landmarks, structural rig, skinning/corrective stages, independent regional growth driver, pose grammar, reference-analysis upgrade, manifest proposal and ten acceptance tests.
+- Design decision: validate fixed-size deformation first; implement growth only after pose, joint spacing and silhouette remain stable. Identity, proportions, pose, growth, expression, wardrobe and shot remain independent channels.
+- Verification boundary: design document committed; no Blender execution, deformation render, Dropbox hash comparison or direct Dropbox-to-engine ingestion has been completed in this pass.
+- Next: compare Dropbox source pairs by content hash and media probe; add a source/annotation manifest; then run the rig acceptance poses in Blender before changing the growth implementation.

@@ -54,3 +54,13 @@ This is the durable resume point for repository work. Update it after meaningful
 - Clip 3333 has a related opening and sustained flex, then opens the arms and turns to an oblique / near-side view in its final second.
 - Added explicit interval tags for future analysis: `POSE`, `CAMERA_CROP`, `ORIENTATION`, `EXPRESSION`, `TRUE_SHAPE_CHANGE`, `UNCERTAIN`.
 - Refined rule: apparent size changes caused by pose, perspective, crop or orientation are not growth. Only label true shape change after comparable landmarks and silhouette regions have been normalized.
+
+
+### Hulum's Cave — mechanical rig / deformation reference
+
+- Added `media/HULUMS_CAVE_RIG_DEFORMATION_SPEC.md`, translating the supplied creator shorthand into a structured GEEHUB technical reference.
+- Separated reported pipeline-era claims and inferred Maya mechanics from facts directly visible in the two supplied clips.
+- Captured the proposed biped foundation, sculpted growth targets, regional controls, corrective deformation, optional cloth / secondary systems, animation grammar, and provisional title-era classification.
+- Added implementation rules: identity, pose, growth, expression, camera and cloth remain separate channels; verify true shape change against normalized multi-view silhouettes.
+- No claim that Hulum's private rig, Maya node graph, or generative model has been recovered. The supplied clips remain pose references, not verified growth demonstrations.
+- Next: build proportion landmarks and reusable pose states, then prototype and validate the unified GEEHUB character deformation path.

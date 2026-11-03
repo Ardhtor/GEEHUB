@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00152",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "beefythiq",
+  "position": {
+    "x": 47,
+    "y": 17,
+    "z": 0
+  },
+  "camera": {
+    "x": 47,
+    "y": 17,
+    "z": 1.7,
+    "heading": 256,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "tyler",
+    "scale": 12.18,
+    "priorScale": 12.13,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 12.18,
+    "clearance": 0.0821,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "MASS BECOMES WEATHER"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "complex",
+      "name": "THE COMPLEX"
+    },
+    {
+      "type": "region",
+      "id": "beefythiq",
+      "name": "BEEFYTHIQ"
+    },
+    {
+      "type": "relation",
+      "title": "MASS BECOMES WEATHER"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 12.13,
+      "to": 12.18
+    },
+    {
+      "property": "location.regionId",
+      "from": "complex",
+      "to": "beefythiq",
+      "relation": "MASS BECOMES WEATHER"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0824,
+      "to": 0.0821
+    }
+  ],
+  "intent": "LONG PLAY / THE COMPLEX → BEEFYTHIQ / TYLER",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 152,
+    "previousRegionId": "complex",
+    "regionId": "beefythiq",
+    "relation": "MASS BECOMES WEATHER",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 12.13,
+    "scaleBaselineTo": 12.18
+  },
+  "timestamp": "2026-11-03T04:04:22.478Z"
+}

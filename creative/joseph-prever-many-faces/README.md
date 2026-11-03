@@ -23,3 +23,7 @@ These are the established story faces. A separate facet board marks new interpre
 The local character repo seed is in `repo/`. Its first issue gives Joseph an objective before the next descent, allowing him to initiate a consequential action. Each proposal can return to GEEHUB through a reviewable change; the user chooses what becomes shared canon.
 
 This is a fictional work workspace, not a biography or a claim that Joseph has a GitHub account or has agreed to participate. It is local and uncommitted.
+
+## New shared chapter
+
+The Joseph–Kirk narrative now has a dedicated experimental chapter: [The Second Heart](../../lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md). Joseph initiates his own crossing; Kirk develops an independent method for interpreting the chamber. Their bond remains mutual without making either man a substitute for the other. The “YES JOEY” post appears only as an uncertain image within Kirk's vision, not as proof of private contact.

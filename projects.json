@@ -566,5 +566,19 @@
       "joseph-kirk-continuity",
       "veyrthalis"
     ]
+  },
+  {
+    "id": "joseph-kirk-runtime",
+    "name": "Joseph–Kirk Story Runtime",
+    "status": "prototype",
+    "kind": "story-engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/engine/stories/joseph_kirk_runtime.py",
+    "description": "Executable story model for Veyrthalis: 23 narrative beats, character agency, separate witness accounts, decision-to-sensation chamber logic, and unresolved mystery safeguards.",
+    "related": [
+      "joseph-kirk-continuity",
+      "veyrthalis",
+      "sensation-engine"
+    ]
   }
 ]

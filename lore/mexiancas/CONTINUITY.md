@@ -44,12 +44,12 @@
 
 ## Production handoff
 
-**Last completed:** Volume I — *The First Account*, Chapters I–X, consolidated into the GEEHUB chronicle.  
-**Current stopping point:** the Assembly has received the first traveller's returned account and unknown dark disc. The question “Who else is making a world?” is now active.  
-**Next writing operation:** begin Volume II with the disc's examination and the emergence of individual Mexianca narrators. Let the examination produce a concrete event and a new place; do not resolve the disc's meaning prematurely.  
+**Last completed:** Volume I — *The First Account*, Chapters I–X, and Volume II — *The Disc and the Other Shore*, Chapters I–VIII, committed to GEEHUB.  
+**Current stopping point:** Volume II has reached the first exchange with an unnamed speaker in a room beyond a seam in the western corridor. The speaker asks the Hall to leave a place for them. A second chair has appeared beside the dark disc and is warm, though no one has sat in it.  
+**Next writing operation:** continue Volume II with the first deliberate response to the unnamed speaker. Introduce the first named individual from the other side only through their own chosen account; preserve uncertainty around the disc's marks and the warm chair.  
 **Next systems operation:** add a browsable Mexiancas entry point to the GEEHUB world interface, then connect its chapter/artifact index to the shared artifact ledger and Dropbox production stream.  
-**Media state:** no media assets have yet been produced for this project.  
-**Dropbox state:** searched Dropbox for “Mexiancas” and found no existing matching files. Verified `/GEEHUB` exists and contains empty `worlds/` and `chapters/` directories, plus `production/`, `state/`, `assets/`, and other established folders. The chronicle is currently committed to GitHub only; no Dropbox file or folder has been created.
+**Media state:** no media assets have yet been produced for this project. The dark disc, western seam, and second chair are candidate artifacts for later visual production.  
+**Dropbox state:** searched Dropbox for “Mexiancas” and found no existing matching files. Verified `/GEEHUB` exists and contains empty `worlds/` and `chapters/` directories, plus `production/`, `state/`, `assets/`, and other established folders. The chronicle is currently committed to GitHub only; no Dropbox file or folder has been created. Volume II is stored as `lore/mexiancas/CHRONICLE_II.md`.
 
 ## Session rule
 

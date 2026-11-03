@@ -12,4 +12,4 @@ This is the durable resume point for repository work. Update it after meaningful
 - Added `lore/mexiancas/CONTINUITY.md` — current canon, sequence, writing rules, and exact handoff.
 - Current story position: first traveller has returned from HULUM'A carrying a dark disc. The Assembly's open question is “Who else is making a world?”
 - Next: write Volume II from the disc examination; then build a browsable entry point and connect artifacts to shared state.
-- Dropbox: not yet verified or updated. Do not assume GitHub commits imply Dropbox synchronization.
+- Dropbox checked: `/GEEHUB` exists; `worlds/` and `chapters/` are currently empty; `production/` and `state/` also exist. Search for “Mexiancas” returned no existing files. No Dropbox mutations were made; GitHub commits do not imply Dropbox synchronization.

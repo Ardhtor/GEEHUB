@@ -1,0 +1,70 @@
+{
+  "schema": "geehub.hulums-cave-annotation.v1",
+  "source_id": "replace-with-source-register-id",
+  "source_path": "replace-with-exact-dropbox-path",
+  "source_sha256": null,
+  "media": {
+    "duration_seconds": null,
+    "fps_num": null,
+    "fps_den": null,
+    "width": null,
+    "height": null,
+    "codec": null,
+    "rotation_degrees": null
+  },
+  "analysis_version": "manual-first-pass",
+  "sampling": {
+    "timestamps_seconds": [],
+    "frame_ids": []
+  },
+  "shots": [
+    {
+      "shot_id": "shot-001",
+      "start_seconds": null,
+      "end_seconds": null,
+      "cut_confidence": null,
+      "camera": {
+        "view": "unknown",
+        "height": "unknown",
+        "movement": "unknown",
+        "framing": "unknown",
+        "confidence": null
+      },
+      "pose_states": [
+        {
+          "start_seconds": null,
+          "end_seconds": null,
+          "label": "UNCERTAIN",
+          "landmarks": {},
+          "landmark_confidence": {},
+          "notes": ""
+        }
+      ],
+      "shape_change": {
+        "label": "UNCERTAIN",
+        "confidence": null,
+        "comparable_pose": false,
+        "camera_normalized": false,
+        "evidence_frames": [],
+        "notes": ""
+      },
+      "wardrobe": {
+        "items": [],
+        "fit_observations": [],
+        "confidence": null
+      },
+      "lighting": {
+        "key_direction": "unknown",
+        "temperature_contrast": "unknown",
+        "notes": ""
+      },
+      "reviewer_notes": ""
+    }
+  ],
+  "review_status": "unreviewed",
+  "limitations": [
+    "Do not infer hidden anatomy or identity from low-confidence landmarks.",
+    "Do not label growth from a single view or from unnormalized framing.",
+    "Pose, camera, crop, orientation and expression changes must be separated from true shape change."
+  ]
+}

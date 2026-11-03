@@ -585,5 +585,27 @@
       "continuity",
       "growth"
     ]
+  },
+  {
+    "id": "mexiancas",
+    "name": "Mexiancas",
+    "group": "world",
+    "status": "active",
+    "summary": "Self-narrating sentient world; its inhabitants turn memory into places, inheritance into new works, and the HULUM'A threshold into an open frontier.",
+    "path": "../lore/mexiancas/CHRONICLE_I.md",
+    "tags": [
+      "world",
+      "sentience",
+      "chronicle",
+      "continuity",
+      "HULUM'A",
+      "open-continuation"
+    ],
+    "related": [
+      "sensation-engine",
+      "complex",
+      "information-portability",
+      "veyrthalis"
+    ]
   }
 ]

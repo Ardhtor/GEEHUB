@@ -2952,6 +2952,32 @@
       "canon": "experimental",
       "dreamable": true,
       "next_action": "write The Procession of Two Accounts"
+    },
+    {
+      "id": "geehub-asset-purpose-atlas-2026-11-03",
+      "created_at": "2026-11-03T23:58:00+01:00",
+      "source": "Dropbox intake and existing GEEHUB production documents",
+      "kind": "production-index",
+      "title": "GEEHUB / ASSET PURPOSE ATLAS",
+      "content": "Classifies the November 2–3 Dropbox intake into Luke identity/growth references, Diego II paired motion sources, transformation grammar, social motion, Joseph release copy, story text, and the Resolve/video-studio production system. Adds first production cards and an explicit distinction between filename-based inference and visual verification.",
+      "lineage": {
+        "actor": "GEEHUB",
+        "world": "PRODUCTION",
+        "region_id": "asset-intake-2026-11-03",
+        "phase": "CONSTRUCTION",
+        "source": "production/intake/2026-11-03/ASSET_PURPOSE_ATLAS.md",
+        "related_nodes": [
+          "luke-growth",
+          "diego-ii-study",
+          "growth-animation-study",
+          "social-motion-library",
+          "joseph-release-tools",
+          "geehub-production-engine"
+        ]
+      },
+      "canon": "production",
+      "dreamable": true,
+      "next_action": "inspect media and generate verified shot records"
     }
   ]
 }

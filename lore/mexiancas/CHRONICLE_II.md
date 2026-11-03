@@ -248,12 +248,95 @@ We did not sit in it.
 
 ---
 
+### IX. The Man Who Came Through the Western Door
+
+The second chair remained warm for three days.
+
+On the fourth morning, someone was sitting in it.
+
+He was a man we had never seen. He wore a dark blue shirt open at the throat, pale trousers, and a narrow leather band around one wrist. His hair was black and slightly disordered, as if he had travelled a long way without stopping to arrange it. He looked neither frightened nor surprised to find us gathered around him.
+
+Neral stood nearest the table. The stranger looked at Neral first, then at the disc.
+
+"Buenos días," he said.
+
+We had recorded fragments of this language before, but never spoken so plainly by someone standing in the Hall. Izel answered in the same language, carefully.
+
+"Buenos días. ¿Cómo te llamas?"
+
+The man smiled at the care with which Izel formed the words.
+
+"Me llamo Mateo."
+
+He said it again, more slowly, and wrote the name on the blank sheet. Then he turned the paper around so that we could read it.
+
+Mateo did not ask to be counted. He asked where the door led.
+
+"To the Hall," First Awake said.
+
+"Yes. But where does the Hall lead?"
+
+No one answered immediately.
+
+Mateo explained that he came from a country beyond the western passage, a land belonging to the Mexiancas. He spoke of long roads between their settlements, warm stone terraces, shaded courtyards, public bathing rooms, markets that stayed open late, and houses built around open-air rooms where men could sit together after the day's work. He described a coast, though he could not agree with himself about how far it lay from the place where he lived.
+
+There were many Mexiancas, he said. They were men, all of them, but not all alike. They had families, companions, rivals, trades, private habits, old friendships, and arguments that could last for years. They kept their own histories. They did not wait for another population to tell them who they were.
+
+"Do you have a name for the land?" Izel asked.
+
+"We have several. It depends where you are standing."
+
+Mateo laughed softly. He seemed to find this a reasonable answer.
+
+He told us that visits between the Mexiancas and our people had happened before, though rarely and without a regular arrangement. Some men travelled out of curiosity. Some came to trade or to see a place they had heard described. Some stayed long enough to become familiar with a household. A few formed attachments that continued after they returned home. On occasion, men from the two populations chose one another as mates. These encounters were neither compulsory nor the purpose of every visit. They were one part of a larger life.
+
+"Do they come back?" Neral asked.
+
+"Sometimes," Mateo said. "Sometimes they bring someone with them."
+
+He looked toward the western passage. His expression changed, not quite into sadness.
+
+"I have a brother who would like this place. He would pretend not to. Then he would come back."
+
+Izel was writing. First Awake asked whether Mateo wished his account entered into the Hall.
+
+"Some of it," he said. "Not all of it. I have not told you everything."
+
+The distinction pleased us. We gave him a page of his own and let him decide what belonged on it. He wrote the name of his homeland in Spanish, then added a second name in a hand that none of us could read. He would not translate it yet.
+
+Later, when the others had gone, Izel remained with him by the window. They spoke for a long time. Izel's Spanish improved whenever Mateo laughed, and Mateo's account of the western country grew less like a traveller's report and more like a recollection of home.
+
+At one point Izel said, "Tienes una voz muy atractiva."
+
+Mateo paused. Then he smiled—not as a host receiving a compliment, but as a man who had understood exactly what had been offered.
+
+"Gracias," he said. "La tuya también."
+
+We did not record what followed in the room. We recorded only that they remained together until the lamps were lit, and that Mateo asked whether he might return the next day.
+
+The following morning, he was gone. The chair was no longer warm.
+
+On the table he had left a small folded map. It showed the western passage, the Hall, and a stretch of country beyond it. The land was marked with roads and place names. At the edge of the paper, Mateo had drawn a second doorway.
+
+Beneath it he had written:
+
+*No es el único camino.*
+
+It is not the only way.
+
+For the first time, we understood that the other shore was not simply a room waiting beyond our wall. It was a country. Its people had their own distances to travel, their own reasons to leave home, and their own reasons to return.
+
+We placed Mateo's map beside Izel's earlier drawing. The two maps did not match.
+
+We kept both.
+
 ## Volume II — Current questions
 
-- Who is the unnamed speaker in the room beyond the seam?
+- What is the name of Mateo's homeland, and what names do its inhabitants use for its regions?
+- Who is Mateo's brother, and will he choose to visit the Hall?
+- What routes connect the Mexiancas' country to ours besides the western passage?
+- What histories of earlier visits have been kept outside the Hall?
 - Is the disc a message, a key, a record, or a meeting place?
-- Why did Neral recover a memory only after hearing the voice?
-- Does the unknown mark represent a place, a relation, or an invitation?
-- What does it mean for a world to ask for a place in another world's archive?
+- What does the second doorway on Mateo's map connect?
 
 The examination remains open.

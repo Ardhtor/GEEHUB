@@ -1069,3 +1069,11 @@ SETH: The corridor smells faintly of cedar and warm electronics. A mug has left 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 137 — ATMOSPHERE / BEEFYTHIQ / 2026-11-03T09:20:24.853241+00:00
+
+SETH: The floor answers a shift of weight with a low sound. A chair stays where it was while the distance between chair, doorway, and the man standing there acquires a different scale.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

@@ -1,5 +1,5 @@
 {
-  "pulse": 136,
+  "pulse": 137,
   "events": [
     {
       "pulse": 1,
@@ -2272,6 +2272,23 @@
       "next_region": null,
       "pressure": 1,
       "memory": 1
+    },
+    {
+      "pulse": 137,
+      "time": "2026-11-03T09:20:24.853241+00:00",
+      "actor": "LUKE",
+      "world": "BEEFYTHIQ",
+      "region_id": "beefythiq",
+      "previous_region_id": "beefythiq",
+      "phase": "ATMOSPHERE",
+      "source": "research/embodied-scale/colossal-escalation.json",
+      "desire_state": "attention",
+      "action": "SETH: The floor answers a shift of weight with a low sound. A chair stays where it was while the distance between chair, doorway, and the man standing there acquires a different scale.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0
     }
   ],
   "visits": {
@@ -2304,7 +2321,7 @@
     "veyrthalis": 131.5,
     "bodylounger": 104.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 8,
@@ -2313,16 +2330,16 @@
     "world.json": 17,
     "research/embodied-scale/README.md": 17,
     "archive/male-harem/README.md": 11,
-    "research/embodied-scale/colossal-escalation.json": 14,
+    "research/embodied-scale/colossal-escalation.json": 15,
     "projects.json": 7,
     "README.md": 8,
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 9,
     "index.html": 7
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "beefythiq",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

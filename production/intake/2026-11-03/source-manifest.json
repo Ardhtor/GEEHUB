@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "intake_id": "geehub-intake-2026-11-03",
+  "source_of_truth": "Dropbox originals",
+  "status": "classified_by_filename_and_available_text; visual_inspection_pending",
+  "projects": [
+    {
+      "id": "luke-growth",
+      "assets": [
+        "lukemurpu (1).png",
+        "video_ref_frame-tghats-really-sweet-but-i-was-hoping-hed-look-like (1).jpg",
+        "large.AgataBrutemuscleMuskver.jpg.c130d3279586f1612a9f1c30a120935f (1).png",
+        "ChatGPT Image Oct 30, 2026, 01_10_52 AM (1).png"
+      ],
+      "next": "LUKE-BASELINE-01"
+    },
+    {
+      "id": "diego-ii-study",
+      "assets": [
+        "Diego II by androphileworld on DeviantArt (1).mp4",
+        "Diego II by androphileworld(1) (1).mp4"
+      ],
+      "next": "DIEGO-II-COMPARE-01"
+    },
+    {
+      "id": "growth-animation-study",
+      "assets": [
+        "StoreRoom Muscle Growth Cartoon - Pornhubcom (1).mp4"
+      ],
+      "next": "GROWTH-GRAMMAR-01"
+    },
+    {
+      "id": "social-motion-library",
+      "assets": [
+        "SnapVid.Net_YPBbLkvp9AQAKdpS_672p (1).mp4",
+        "SaveTwitter.Net_GxhHt_t1HnLPJBUK_(770p) (1).mp4",
+        "SaveTwitter.Net_2u6kwzki516UNGa__(720p) (1).mp4",
+        "SaveTwitter.Net_ELrm90QFkcHUnMCR_(540p) (1).mp4",
+        "WhatsApp Video 2026-10-31 at 02.10.14 (1).mp4"
+      ],
+      "next": "SOCIAL-MOTION-01"
+    },
+    {
+      "id": "unclassified-motion",
+      "assets": [
+        "3333.mp4",
+        "Untitled (1).mp4",
+        "8989898989 (1).mov",
+        "fqAOWGFgQmONZDAe (1).mp4",
+        "P01CIk5YICtSGu1g (1).mp4",
+        "eRNrg5RmvcCFSyGl (1).mp4",
+        "Z5lPLcrOXt8dKZOW (1).mp4"
+      ],
+      "next": "INTAKE-3333"
+    },
+    {
+      "id": "joseph-release-tools",
+      "assets": [
+        "Joseph_FOMO_Promo_Engine (1).md"
+      ],
+      "next": "adapt only after release facts are supplied"
+    },
+    {
+      "id": "story-text-candidate",
+      "assets": [
+        "The Song of tEe sword (1).docx"
+      ],
+      "next": "SWORD-TEXT-01"
+    },
+    {
+      "id": "geehub-production-engine",
+      "assets": [
+        "GEEHUB_Operator.lua",
+        "GEEHUB — Video Production System.paper"
+      ],
+      "next": "source manifest and shot cards"
+    }
+  ],
+  "policy": {
+    "originals_immutable": true,
+    "filename_inference_is_not_visual_verification": true,
+    "paid_generation_requires_explicit_cost_approval": true
+  }
+}

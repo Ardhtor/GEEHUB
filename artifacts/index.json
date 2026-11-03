@@ -2884,6 +2884,34 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue the retained world state"
+    },
+    {
+      "id": "joseph-signal-yes-joey-2026-11-01",
+      "created_at": "2026-11-03T23:44:57+01:00",
+      "source": "User-provided X post selection",
+      "source_url": "https://t.co/MoPXjcKhEQ",
+      "kind": "relational-signal",
+      "title": "JOSEPH / YES JOEY",
+      "content": "Blake Brock (@CumPassionately) published the text “YES JOEY” on November 1, 2026, with a 3-second Grok Imagine video. The selected page showed 189 views. This is preserved as a public signal and creative prompt; the record does not establish whether Joey saw it, how he interpreted it, or what prompted it.",
+      "lineage": {
+        "actor": "JOSEPH",
+        "world": "THE SIGNAL",
+        "related_nodes": [
+          "joseph",
+          "the-complex",
+          "vision-workspace"
+        ],
+        "phase": "MEMORY",
+        "source_author": "Blake Brock (@CumPassionately)",
+        "source_platform": "X",
+        "source_date": "2026-11-01",
+        "media": "3-second Grok Imagine video",
+        "views_at_capture": 189
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "quietness": "high",
+      "next_action": "Let the signal recur through the novel as an unresolved observation; do not invent a response or claim receipt."
     }
   ]
 }

@@ -32,3 +32,16 @@ This is the durable resume point for repository work. Update it after meaningful
 - Spanish appears as natural dialogue between Mateo and Izel.
 - Mateo leaves a map showing a second doorway and mentions a brother who may visit. These become the next narrative threads.
 - Volume II is now at Chapter IX. Dropbox remains unchanged; this production is verified in GitHub only.
+
+
+## 2026-11-03 — Hulum's Cave first video readings
+
+- Inspected both supplied clips, `22.mp4` and `3333.mp4`, at sampled intervals. Each is 6.04 seconds, 24 fps, 448 × 672.
+- Added `media/HULUMS_CAVE_FIRST_READINGS_2026-11-03.md` as the first visual-reading record.
+- Main observation: both clips primarily present an already extreme adult male CG character through deliberate flexing and pose changes; sampled frames do not establish progressive volumetric growth.
+- Clip 22 emphasizes a frontal full-body stance and repeated flexing. Clip 3333 shares the opening language and adds a more oblique / side-oriented ending that reveals body depth.
+- Recorded character silhouette, cool blue-green body / warm amber gym contrast, low frontal camera, shorts continuity, pose sequence, confidence limits, and direct GEEHUB implementation lessons.
+- Production distinction established: identity / proportions, performance / pose, and shot / lighting must be separate controllable layers. Pose changes must not be mistaken for growth.
+- No claims made about Hulum's private Maya rig, node graph, AI model, LoRA, or simulation stack.
+- Next: inspect every frame, quantify silhouette landmarks, classify pose vs camera vs true shape change, then reconcile local source copies against Dropbox originals and record Dropbox provenance.
+- Dropbox was not modified in this pass.

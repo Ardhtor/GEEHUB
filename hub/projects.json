@@ -607,5 +607,22 @@
       "information-portability",
       "veyrthalis"
     ]
+  },
+  {
+    "id": "joseph-kirk-continuity",
+    "name": "Joseph & Kirk — Continuity",
+    "group": "story",
+    "status": "experimental",
+    "summary": "A dedicated Veyrthalis story branch for Joseph and Kirk: mutual bond, independent agency, shared perceptions, and the unresolved second heartbeat.",
+    "path": "../lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md",
+    "tags": [
+      "joseph",
+      "kirk",
+      "veyrthalis",
+      "relationship",
+      "shared-perception",
+      "novel",
+      "experimental"
+    ]
   }
 ]

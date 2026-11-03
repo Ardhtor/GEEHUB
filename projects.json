@@ -580,5 +580,21 @@
       "veyrthalis",
       "sensation-engine"
     ]
+  },
+  {
+    "id": "rites-of-growth",
+    "name": "The Rites of Growth",
+    "status": "active",
+    "kind": "mythic-book",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/growth/THE_RITES_OF_GROWTH.md",
+    "description": "Six-stage book of growth as rites of passage: Calling, First Enlargement, Resistance, Investiture, Magnification, and the Unbounded Threshold. Preserves identity, proportion, agency and Luke's phase-four continuity.",
+    "related": [
+      "beefythiq",
+      "growth-canvas",
+      "mass1v1ng",
+      "lineage-pantheon",
+      "sensation-engine"
+    ]
   }
 ]

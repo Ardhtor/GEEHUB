@@ -71,3 +71,32 @@ Not established: Maya use, skeleton hierarchy, blendShape layout, skinning metho
 ## Next reading
 
 Inspect all frames of both clips, compare silhouette landmarks over time, and classify each interval as pose change, camera / crop change, or genuine shape change. Then compare against the Dropbox source library and add each original file's Dropbox path / ID before treating the local copies as canonical production sources.
+
+
+## Second pass — denser temporal read
+
+A second contact-sheet pass sampled 24 evenly spaced frames per clip (approximately every 0.26 seconds). This refines the initial eight-frame reading:
+
+### Clip 22 — timing notes
+- 0.00–0.80 s: frontal stance; arms travel outward from the lowered position.
+- 1.04–2.61 s: arms rise into a wide / double-biceps presentation, with small changes in head angle and expression.
+- 2.87–3.65 s: arms lower and hands move toward the waist; the pose becomes a compact hands-at-hips display.
+- 3.91–4.43 s: arms reopen and rise again.
+- 4.70–6.04 s: returns to the double-biceps presentation and holds it through the end.
+- The repeated return to the same flex is a deliberate pose loop / reprise. No stable monotonic increase in body dimensions is apparent.
+
+### Clip 3333 — timing notes
+- 0.00–1.30 s: frontal stance with a gradual arm and torso presentation change.
+- 1.57–2.35 s: arms spread, then rise toward the flex.
+- 2.61–4.43 s: sustained double-biceps display; framing is tighter and the upper body dominates.
+- 4.70–4.96 s: arms open / lower as the character resets.
+- 5.22–6.04 s: turns into an oblique and then near-side profile, exposing torso depth and the relationship between chest, arm, waist, hip and thigh.
+- The final turn is a view-change, not a demonstrated growth event.
+
+### Temporal continuity observations
+The clips preserve a recognizable overall character design, clothing, color treatment and gym environment. At the same time, sampled frames show small variations in face, expression, hand / forearm placement, muscle contour and framing. Treat these as image-sequence continuity tolerances to study, not proof of a shared deform rig. The character's apparent size and mass can change with arm position, camera crop and orientation; future measurements must normalize for those factors before classifying growth.
+
+### Updated practical rule
+For GEEHUB reference analysis, tag every interval with one or more explicit labels:
+`POSE`, `CAMERA_CROP`, `ORIENTATION`, `EXPRESSION`, `TRUE_SHAPE_CHANGE`, `UNCERTAIN`.
+Only use `TRUE_SHAPE_CHANGE` when comparable landmarks and silhouette regions change after accounting for pose, perspective and framing.

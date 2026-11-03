@@ -2912,6 +2912,26 @@
       "dreamable": true,
       "quietness": "high",
       "next_action": "Let the signal recur through the novel as an unresolved observation; do not invent a response or claim receipt."
+    },
+    {
+      "id": "joseph-kirk-second-heart-2026-11-03",
+      "created_at": "2026-11-03T23:45:58+01:00",
+      "source": "GEEHUB narrative development from user direction",
+      "kind": "world-production",
+      "title": "THE SECOND HEART / JOSEPH & KIRK",
+      "content": "The Digitorium presents Kirk and Joseph with two separate chambers. Kirk learns to name his perceptions without outsourcing them; Joseph chooses and initiates his own crossing. They establish a method for comparing anomalous impressions while preserving disagreement and personal agency. The second heartbeat remains unresolved.",
+      "lineage": {
+        "actor": "JOSEPH",
+        "co_actor": "KIRK",
+        "world": "VEYRTHALIS",
+        "region_id": "joseph-kirk-continuity",
+        "source": "lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md",
+        "phase": "CROSSING",
+        "relation": "TWO CONTINUITIES / NO SUBSTITUTE"
+      },
+      "canon": "experimental",
+      "dreamable": true,
+      "next_action": "continue with The Procession of Two Accounts"
     }
   ]
 }

@@ -1,30 +1,37 @@
 # GEEHUB construction state
 
-Updated: 2026-11-02
+Updated: 2026-11-03
+
+## Local media exchange staging added — 2026-11-03
+- engine/growth-video-studio/core/bridge-exchange.js adds a Node 22 filesystem adapter for geehub.media-bridge v1. It maps dropbox://GEEHUB/... URIs under a configured local Dropbox root, rejects traversal, encoded path segments, and symlinked exchange paths, and requires a real source file.
+- Staging hashes the actual source bytes with SHA-256 and compares them with the immutable source checksum when the manifest declares one. It validates the portable render-job source, output dimensions/FPS, minimum growth/landmark evidence, and face/motion/ground-contact/connected-mesh/temporal constraints.
+- The adapter writes the job JSON first and the manifest last with exclusive file creation. It refuses existing manifest, job, or output destinations, and removes the newly written job if manifest creation fails. It never creates the render output or modifies the source.
+- tools/stage-bridge-exchange.js exposes the adapter as a command-line operation; npm run stage:bridge prints a JSON receipt containing the observed source, job, and manifest SHA-256 digests and resolved exchange paths.
+- Focused tests cover URI traversal, successful staging, source checksum mismatch, output collision, existing manifest refusal, symlinked exchange directory refusal, and disabled face protection. These tests are committed and included in npm test; runtime status must be taken from the resulting GitHub Actions run.
+- This is the first filesystem-backed exchange writer, not a renderer. It has not been run against the user's Dropbox mirror or Mac. It does not yet calculate checksums for completed rendered output, move image sequences, or import media into Resolve.
 
 ## Resolve Free bridge consumer added — 2026-11-02
-- `engine/growth-video-studio/integrations/davinci-resolve-free/GEEHUB_Bridge.lua` is a read-only consumer for `geehub.media-bridge` schema version 1. It reads the incoming manifest and referenced portable render-job JSON from the local Dropbox mirror, validates source identity, frame-set references, job state, required face/source-motion/ground-contact/connected-mesh/temporal constraints, and output-path availability.
-- `dropbox://GEEHUB/...` references map beneath the configured Dropbox root. Unsupported URI schemes and path traversal are rejected. A queued job is marked ready only when its job JSON agrees with the immutable source, preserves the required identity constraints, and its reserved output file does not already exist.
-- The consumer writes `Bridge/outgoing/resolve-bridge-audit.json` or a Desktop fallback. It does not import clips, create timelines, start rendering, or modify source media. `ready-for-local-renderer` is a validated handoff status, not proof that a renderer exists or ran. Validation now tolerates an absent source by reporting a structured error and recognizes that a completed artifact intentionally reuses its job's reserved output URI.
-- Nine Lua tests cover manifest validation, URI collision detection, Dropbox URI mapping/path traversal, successful job inspection, existing-output refusal, source mismatch, required identity constraints, safe handling of a missing source, and completed-artifact URI reuse. The package workflow installed Lua 5.4, passed `luac5.4 -p`, passed all Lua tests, passed the Node core suite, and completed package build/upload on 2026-11-02 (Actions run `41519716150`).
-- The installer creates `Bridge/incoming` and `Bridge/outgoing` for the consumer. Resolve runtime behavior, Dropbox sync, and actual frame rendering remain unverified. The user must sync/install the repository, restart Resolve, and run Workspace > Scripts > Utility > GEEHUB_Bridge with a version-1 manifest and job JSON present.
-
+- engine/growth-video-studio/integrations/davinci-resolve-free/GEEHUB_Bridge.lua is a read-only consumer for geehub.media-bridge schema version 1. It reads the incoming manifest and referenced portable render-job JSON from the local Dropbox mirror, validates source identity, frame-set references, job state, required face/source-motion/ground-contact/connected-mesh/temporal constraints, and output-path availability.
+- dropbox://GEEHUB/... references map beneath the configured Dropbox root. Unsupported URI schemes and path traversal are rejected. A queued job is marked ready only when its job JSON agrees with the immutable source, preserves the required identity constraints, and its reserved output file does not already exist.
+- The consumer writes Bridge/outgoing/resolve-bridge-audit.json or a Desktop fallback. It does not import clips, create timelines, start rendering, or modify source media. ready-for-local-renderer is a validated handoff status, not proof that a renderer exists or ran. Validation now tolerates an absent source by reporting a structured error and recognizes that a completed artifact intentionally reuses its own render job's reserved output URI.
+- Nine Lua tests cover manifest validation, URI collision detection, Dropbox URI mapping/path traversal, successful job inspection, existing-output refusal, source mismatch, required identity constraints, safe handling of a missing source, and completed-artifact URI reuse. The package workflow installed Lua 5.4, passed luac5.4 -p, passed all Lua tests, passed the Node core suite, and completed package build/upload on 2026-11-02 (Actions run 41519716150).
+- The installer creates Bridge/incoming and Bridge/outgoing for the consumer. Resolve runtime behavior, Dropbox sync, and actual frame rendering remain unverified. The user must sync/install the repository, restart Resolve, and run Workspace > Scripts > Utility > GEEHUB_Bridge with a version-1 manifest and job JSON present.
 
 ## Versioned media bridge manifest added — 2026-11-01
-- `engine/growth-video-studio/core/bridge-manifest.js` defines `geehub.media-bridge` schema version 1. It records the immutable source, typed frame-set references, portable render-job exchange paths, output artifacts, and append-only revision events.
+- engine/growth-video-studio/core/bridge-manifest.js defines geehub.media-bridge schema version 1. It records the immutable source, typed frame-set references, portable render-job exchange paths, output artifacts, and append-only revision events.
 - Frame sets preserve source lineage, frame ranges, dimensions, FPS, and optional SHA-256 checksums. The manifest rejects duplicate IDs, path collisions, broken frame-set references, invalid state transitions, and inconsistent artifact lineage.
-- Render jobs are queued only when an existing `geehub.growth-render-job` payload contains growth states and landmark evidence and its source name, duration, and dimensions match the immutable source record. Job JSON and output paths are separate; the output path cannot collide with source or other exchange assets.
+- Render jobs are queued only when an existing geehub.growth-render-job payload contains growth states and landmark evidence and its source name, duration, and dimensions match the immutable source record. Job JSON and output paths are separate; the output path cannot collide with source or other exchange assets.
 - Jobs can be marked running, failed, or completed. A completed job must provide an artifact at its reserved output URI with a caller-supplied SHA-256 digest. The manifest validates digest format only; a worker must calculate the checksum from the actual file. Failed jobs remain explicit and create no artifact.
-- Eight focused tests are in `core/bridge-manifest.test.js`. A temporary Node 22.16.0 harness using branch copies of the bridge module and its required core dependencies ran all eight tests: 8 passed, 0 failed. `node --check` passed for the bridge module and test file. The full studio `npm test` suite was not run. The package workflow now installs Node 22 and runs `npm test` before building the mirror, but the GitHub status endpoint returned no checks for the latest branch commit, so CI execution remains unverified.
+- Eight focused tests are in core/bridge-manifest.test.js. A temporary Node 22.16.0 harness using branch copies of the bridge module and its required core dependencies ran all eight tests: 8 passed, 0 failed. node --check passed for the bridge module and test file. The full studio npm test suite was not run. The package workflow now installs Node 22 and runs npm test before building the mirror, but the GitHub status endpoint returned no checks for the latest branch commit, so CI execution remains unverified.
 - This is a portable manifest contract only. No Dropbox bytes were exchanged, no Resolve Lua consumer was run, and no video was rendered. Local Mac/Resolve/Dropbox behavior remains unverified.
 
 ## Growth geometry increment added
-- engine/growth-video-studio/core/growth-mesh.js maps validated tracked landmarks from baseline to target body states. Stature extends the ankle-to-knee segment; thigh length extends knee-to-hip; torso length extends the hip-center-to-neck/shoulder offsets; shoulder span widens the shoulder pair; arm length extends both arm segments.
+- engine/growth-video-studio/core/growth-mesh.js maps validated tracked landmarks from baseline to target body states. Stature extends the ankle-to-knee segment; thigh length extends knee-to-hip; torso length extends the hip-center-to-neck/shoulder segment; shoulder span widens the shoulder pair; arm length extends both arm segments.
 - Both ankles remain fixed. The face-center anchor follows the neck without changing its offset and is excluded from the body-mesh anchor list.
 - renderGrowthMesh forwards the mapped body anchors to the existing piecewise-affine Canvas warp when the caller supplies a valid body-only triangle mesh. It does not create masks or triangles.
-- The mapper reports projected stature and out-of-frame anchors, allowing the next stage to request a camera reframe rather than silently clipping the subject.
+- The mapper reports projected stature and out-of-frame anchors, allowing the next step to request a camera reframe instead of silently clipping the subject.
 - Chest depth and arm/thigh/calf mass remain deferred until segmentation-derived silhouette geometry, depth, or 3D geometry is available.
-- Four focused geometry tests pass, and a temporary local core harness ran 15 of 15 current core test cases. The first full run exposed a growth-curve diagnostic-order issue; the validator now reports a decreasing channel as a cumulative-growth regression before applying the minimum-scale check. GitHub reports no status checks for the geometry commit. Resolve and full video runtime behavior remain unverified.
+- Four focused geometry tests pass, and a temporary local core harness ran 15 of 15 current core test cases. The first full run exposed a growth-curve diagnostic-order issue; the validator now reports a decreasing channel as a cumulative-growth regression before applying the minimum-scale check. Resolve and full video runtime behavior remain unverified.
 
 ## Resolve operator added
 - GEEHUB_Operator.lua performs a one-run project audit, inventories media and timelines, probes available Resolve API capabilities, ensures a review bin structure, and adds missing editorial tracks/stage markers without deleting source media or existing timeline clips.
@@ -61,7 +68,7 @@ Updated: 2026-11-02
 - Live two-way synchronization between Codex, GitHub, Resolve, and Dropbox.
 
 ## Next construction targets
-1. Add a local exchange writer/reader that stages the manifest and portable job JSON, calculates real file checksums, and refuses source/output collisions.
+1. Add a frame-sequence exchange worker that ingests segmentation/landmark evidence and verifies frame dimensions, frame ordering, source lineage, and temporal continuity.
 2. Connect segmentation/tracking output to face-excluding mesh generation and the landmark mapper.
 3. Run a short per-frame deformation pass with temporal validation and camera-reframe feedback.
 4. Return rendered frames and verified artifacts to Resolve without replacing source footage.
@@ -70,4 +77,4 @@ Updated: 2026-11-02
 Each item changes status only when evidence exists.
 
 ## Repository validation note — 2026-11-02
-- The separate `Validate GEEHUB data` workflow still fails at `Validate browser repository links`. Its current errors report stale embedded project tuples for `information-portability`, `lineage-pantheon`, `hubby`, and `media-tools`. The Node core suite and the Resolve bridge package workflow pass independently; this registry issue is outside the media-bridge change and remains open.
+- The separate Validate GEEHUB data workflow still fails at Validate browser repository links. Its current errors report stale embedded project tuples for information-portability, lineage-pantheon, hubby, and media-tools. The Node core suite and the Resolve bridge package workflow pass independently; this registry issue is outside the media-bridge change and remains open.

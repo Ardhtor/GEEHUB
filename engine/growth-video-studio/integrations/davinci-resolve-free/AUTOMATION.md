@@ -6,18 +6,18 @@ GEEHUB uses GitHub as the canonical source for code and project instructions, Co
 
 From the repository root:
 
-```bash
+~~~bash
 chmod +x engine/growth-video-studio/integrations/davinci-resolve-free/install-macos.sh
 ./engine/growth-video-studio/integrations/davinci-resolve-free/install-macos.sh
-```
+~~~
 
-The installer copies all integration Lua scripts into Resolve's per-user Utility scripts directory. If Dropbox is installed in its standard macOS location, it creates `GEEHUB/Bridge/incoming`, `GEEHUB/Bridge/outgoing`, `GEEHUB/Assets`, and `GEEHUB/Exports`. For a nonstandard Dropbox location:
+The installer copies all integration Lua scripts into Resolve's per-user Utility scripts directory. If Dropbox is installed in its standard macOS location, it creates GEEHUB/Bridge/incoming, GEEHUB/Bridge/outgoing, GEEHUB/Assets, and GEEHUB/Exports. For a nonstandard Dropbox location:
 
-```bash
+~~~bash
 GEEHUB_DROPBOX_ROOT="/path/to/Dropbox" ./engine/growth-video-studio/integrations/davinci-resolve-free/install-macos.sh
-```
+~~~
 
-Open the repository root in Codex. Codex reads `AGENTS.md` and the project-local `.codex/config.toml`; reusable workflows live under `.agents/skills/`.
+Open the repository root in Codex. Codex reads AGENTS.md and the project-local .codex/config.toml; reusable workflows live under .agents/skills/.
 
 ## What is automated
 
@@ -28,9 +28,20 @@ Open the repository root in Codex. Codex reads `AGENTS.md` and the project-local
 
 ## Inspect a versioned bridge manifest in Resolve
 
-Place the version-1 manifest at `GEEHUB/Bridge/incoming/manifest.json` and each queued job JSON at the `jobUri` recorded in that manifest. The URI form `dropbox://GEEHUB/...` maps to the corresponding path under the local Dropbox root. The Resolve Utility script `GEEHUB_Bridge` validates manifest lineage, job/source agreement, identity-preserving render constraints, and whether the reserved output path is still unused. It writes `GEEHUB/Bridge/outgoing/resolve-bridge-audit.json` or a Desktop fallback.
+Place the version-1 manifest at GEEHUB/Bridge/incoming/manifest.json and each queued job JSON at the jobUri recorded in that manifest. The URI form dropbox://GEEHUB/... maps to the corresponding path under the local Dropbox root. The Resolve Utility script GEEHUB_Bridge validates manifest lineage, job/source agreement, identity-preserving render constraints, and whether the reserved output path is still unused. It writes GEEHUB/Bridge/outgoing/resolve-bridge-audit.json or a Desktop fallback.
 
-Run it from **Workspace > Scripts > Utility > GEEHUB_Bridge** inside Resolve. The default manifest path can be overridden with `GEEHUB_BRIDGE_MANIFEST`; the Dropbox root can be overridden with `GEEHUB_DROPBOX_ROOT`. This is read-only inspection: it does not import clips, start rendering, or modify timelines. A job marked `ready-for-local-renderer` is only a validated handoff, not evidence that a renderer has run.
+Run it from Workspace > Scripts > Utility > GEEHUB_Bridge inside Resolve. The default manifest path can be overridden with GEEHUB_BRIDGE_MANIFEST; the Dropbox root can be overridden with GEEHUB_DROPBOX_ROOT. This is read-only inspection: it does not import clips, start rendering, or modify timelines. A job marked ready-for-local-renderer is only a validated handoff, not evidence that a renderer has run.
+
+## Stage an exchange from Node
+
+Node 22 can now write the local handoff without opening Resolve. Prepare the version-one manifest JSON and its matching geehub.growth-render-job JSON, then run from engine/growth-video-studio:
+
+~~~bash
+GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \
+  npm run stage:bridge -- ./manifest.json ./render-job.json render-job-id
+~~~
+
+The staging command calculates the source SHA-256 from the actual file, verifies a declared digest, writes the job JSON and then the manifest using exclusive creation, and prints a JSON receipt. It refuses symlinked exchange directories and any existing manifest, job, or output path. It does not render, create the output, or modify the source. Archive the previous incoming manifest/job files before staging another exchange.
 
 ## What still requires a local action
 

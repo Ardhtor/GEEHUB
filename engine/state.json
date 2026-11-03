@@ -2304,15 +2304,15 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     }
   ],
   "visits": {
     "complex": 12,
     "beefythiq": 12,
     "facility": 13,
-    "embodied-scale": 12,
+    "embodied-scale": 13,
     "luke-bwomph": 12,
     "growth": 12,
     "deep-lore": 12,
@@ -2327,7 +2327,7 @@
     "complex": 135.5,
     "beefythiq": 136.5,
     "facility": 137.5,
-    "embodied-scale": 129.5,
+    "embodied-scale": 138.5,
     "luke-bwomph": 133.5,
     "growth": 134.5,
     "deep-lore": 132.5,
@@ -2338,7 +2338,7 @@
     "veyrthalis": 131.5,
     "bodylounger": 104.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 8,
@@ -2354,29 +2354,42 @@
     "index.html": 7
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "facility",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "embodied-scale",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 153,
-    "agent": "andrew",
-    "previous_region_id": "beefythiq",
-    "region_id": "facility",
-    "region_name": "THE FACILITY",
-    "relation": "THE ROOM GETS SMALLER",
+    "cycle": 154,
+    "agent": "joseph",
+    "previous_region_id": "facility",
+    "region_id": "embodied-scale",
+    "region_name": "EMBODIED SCALE",
+    "relation": "THE FLOOR REPLIES",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 12.18,
-    "scale": 12.26,
-    "recording": "scheduled-recording-00153",
-    "at": "2026-11-03T11:57:35.768Z"
+    "previous_scale": 12.26,
+    "scale": 12.38,
+    "recording": "scheduled-recording-00154",
+    "at": "2026-11-03T19:25:20.857Z"
   },
-  "last_world_change": "2026-11-03T11:57:35.768Z",
-  "scale": 12.26,
+  "last_world_change": "2026-11-03T19:25:20.857Z",
+  "scale": 12.38,
   "external_events": [
+    {
+      "id": "long-play-00154",
+      "type": "CROSSING",
+      "title": "THE FACILITY → EMBODIED SCALE",
+      "body": "The world crossed \"THE FLOOR REPLIES\". Scale increased from 12.26× to 12.38×; the earlier location and baseline remain recorded.",
+      "from": "facility",
+      "to": "embodied-scale",
+      "previous_region_id": "facility",
+      "region_id": "embodied-scale",
+      "relation": "THE FLOOR REPLIES",
+      "source": "long-play",
+      "at": "2026-11-03T19:25:20.857Z"
+    },
     {
       "id": "long-play-00153",
       "type": "CROSSING",
@@ -3663,19 +3676,6 @@
       "relation": "THE ARCHIVE OPENS A ROOM",
       "source": "long-play",
       "at": "2026-10-16T14:53:25.369Z"
-    },
-    {
-      "id": "long-play-00054",
-      "type": "CROSSING",
-      "title": "MALE HAREM → BODYLOUNGER",
-      "body": "The world crossed \"THE ARCHIVE OPENS A ROOM\". Scale increased from 5.86× to 5.98×; the earlier location and baseline remain recorded.",
-      "from": "male-harem",
-      "to": "bodylounger",
-      "previous_region_id": "male-harem",
-      "region_id": "bodylounger",
-      "relation": "THE ARCHIVE OPENS A ROOM",
-      "source": "long-play",
-      "at": "2026-10-16T10:08:05.384Z"
     }
   ]
 }

@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-03T11:57:35.768Z",
+  "generated": "2026-11-03T19:25:20.857Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00154",
+      "at": "2026-11-03T19:25:20.857Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / THE FACILITY → EMBODIED SCALE / JOSEPH",
+      "body": "The world crossed the existing relation \"THE FLOOR REPLIES\" from THE FACILITY into EMBODIED SCALE. Scale increased from 12.26× to 12.38×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00154",
+      "live": true,
+      "regionId": "embodied-scale",
+      "previousRegionId": "facility",
+      "relation": "THE FLOOR REPLIES"
+    },
     {
       "id": "scheduled-long-play-00153",
       "at": "2026-11-03T11:57:35.768Z",
@@ -1487,21 +1502,6 @@
       "live": true,
       "regionId": "male-harem",
       "previousRegionId": "bodylounger",
-      "relation": "THE ARCHIVE OPENS A ROOM"
-    },
-    {
-      "id": "scheduled-long-play-00054",
-      "at": "2026-10-16T10:08:05.384Z",
-      "from": "geehub-long-play",
-      "to": "joseph",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / MALE HAREM → BODYLOUNGER / JOSEPH",
-      "body": "The world crossed the existing relation \"THE ARCHIVE OPENS A ROOM\" from MALE HAREM into BODYLOUNGER. Scale increased from 5.86× to 5.98×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00054",
-      "live": true,
-      "regionId": "bodylounger",
-      "previousRegionId": "male-harem",
       "relation": "THE ARCHIVE OPENS A ROOM"
     }
   ]

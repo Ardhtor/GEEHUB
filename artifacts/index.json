@@ -2932,6 +2932,26 @@
       "canon": "experimental",
       "dreamable": true,
       "next_action": "continue with The Procession of Two Accounts"
+    },
+    {
+      "id": "joseph-kirk-story-index-2026-11-03",
+      "created_at": "2026-11-03T23:55:00+01:00",
+      "source": "GEEHUB narrative indexing",
+      "kind": "story-index",
+      "title": "JOSEPH & KIRK / STORY INDEX",
+      "content": "Reading order and continuity index for the experimental Veyrthalis branch: Hyperspace Expedition → The Second Heart → The Procession of Two Accounts (seed). Links the YES JOEY public signal, Joseph character workspace, artifact ledger, and engine state. Dropbox uploads are recorded as unclassified intake until reviewed.",
+      "lineage": {
+        "actor": "JOSEPH",
+        "co_actor": "KIRK",
+        "world": "VEYRTHALIS",
+        "region_id": "joseph-kirk-continuity",
+        "source": "lore/veyrthalis/JOSEPH_KIRK_INDEX.md",
+        "phase": "MEMORY",
+        "relation": "TWO ACCOUNTS / DISTINCT CONTINUITIES"
+      },
+      "canon": "experimental",
+      "dreamable": true,
+      "next_action": "write The Procession of Two Accounts"
     }
   ]
 }

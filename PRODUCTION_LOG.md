@@ -23,3 +23,12 @@ This is the durable resume point for repository work. Update it after meaningful
 - Updated the Mexiancas continuity record with the new stopping point and next operation.
 - Next: continue Volume II with a deliberate response to the unnamed speaker, preserving the other world's agency and its right to author its own account.
 - Dropbox: no changes. GitHub remains the verified text location; no Dropbox synchronization is claimed.
+
+
+## 2026-11-03 — Mexiancas novel, first homeland encounter
+
+- Added Volume II, Chapter IX, “The Man Who Came Through the Western Door.”
+- Introduced Mateo as the first named visitor from the Mexiancas' country; his own account establishes a homeland with its own settlements, roads, social customs, and histories.
+- Spanish appears as natural dialogue between Mateo and Izel.
+- Mateo leaves a map showing a second doorway and mentions a brother who may visit. These become the next narrative threads.
+- Volume II is now at Chapter IX. Dropbox remains unchanged; this production is verified in GitHub only.

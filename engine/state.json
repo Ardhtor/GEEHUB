@@ -1,5 +1,5 @@
 {
-  "pulse": 139,
+  "pulse": 140,
   "events": [
     {
       "pulse": 1,
@@ -2321,8 +2321,25 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
+    },
+    {
+      "pulse": 140,
+      "time": "2026-11-03T23:44:57+01:00",
+      "actor": "JOSEPH",
+      "world": "THE SIGNAL",
+      "region_id": "joseph-signal",
+      "previous_region_id": "embodied-scale",
+      "phase": "MEMORY",
+      "source": "signals/joseph/YES_JOEY_2026-11-01.md",
+      "desire_state": "recognition",
+      "action": "A public post leaves the words YES JOEY beside a brief generated video. The Hub records the words, source, date, and visible view count. The signal remains open: no response, receipt, or intention is inferred.",
+      "narrative_rule": "a meaningful signal can be preserved without deciding what it means",
+      "relation": "JOSEPH / THE SIGNAL",
+      "next_region": null,
+      "pressure": 1,
+      "memory": 1
     }
   ],
   "visits": {
@@ -2355,7 +2372,7 @@
     "veyrthalis": 131.5,
     "bodylounger": 104.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 8,

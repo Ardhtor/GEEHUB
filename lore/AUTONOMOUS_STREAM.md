@@ -1061,3 +1061,11 @@ SETH: Cool blue light moves along the wall and catches the shoulder line of a fa
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 136 — ATMOSPHERE / THE COMPLEX / 2026-11-03T01:49:40.579835+00:00
+
+SETH: The corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the sill, and sunlight reaches the wall where a doorway used to cast a narrower shadow.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

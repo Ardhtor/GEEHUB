@@ -7,7 +7,7 @@ Updated: 2026-11-03
 - Staging hashes the actual source bytes with SHA-256 and compares them with the immutable source checksum when the manifest declares one. It validates the portable render-job source, output dimensions/FPS, minimum growth/landmark evidence, and face/motion/ground-contact/connected-mesh/temporal constraints.
 - The adapter writes the job JSON first and the manifest last with exclusive file creation. It refuses existing manifest, job, or output destinations, and removes the newly written job if manifest creation fails. It never creates the render output or modifies the source.
 - tools/stage-bridge-exchange.js exposes the adapter as a command-line operation; npm run stage:bridge prints a JSON receipt containing the observed source, job, and manifest SHA-256 digests and resolved exchange paths.
-- Focused tests cover URI traversal, successful staging, source checksum mismatch, output collision, existing manifest refusal, symlinked exchange directory refusal, and disabled face protection. These tests are committed and included in npm test; runtime status must be taken from the resulting GitHub Actions run.
+- Seven focused tests cover URI traversal, successful staging, source checksum mismatch, output collision, existing manifest refusal, symlinked exchange directory refusal, and disabled face protection. GitHub Actions run 41711149701 completed successfully: all 42 Node core tests passed, all nine Resolve Lua tests passed, Lua 5.4 syntax validation passed, and the portable package was built and uploaded.
 - This is the first filesystem-backed exchange writer, not a renderer. It has not been run against the user's Dropbox mirror or Mac. It does not yet calculate checksums for completed rendered output, move image sequences, or import media into Resolve.
 
 ## Resolve Free bridge consumer added — 2026-11-02
@@ -76,5 +76,5 @@ Updated: 2026-11-03
 
 Each item changes status only when evidence exists.
 
-## Repository validation note — 2026-11-02
-- The separate Validate GEEHUB data workflow still fails at Validate browser repository links. Its current errors report stale embedded project tuples for information-portability, lineage-pantheon, hubby, and media-tools. The Node core suite and the Resolve bridge package workflow pass independently; this registry issue is outside the media-bridge change and remains open.
+## Repository validation note — 2026-11-03
+- The separate Validate GEEHUB data workflow still fails at Validate browser repository links (Actions run 41711149548). It reports stale embedded project tuples for information-portability, lineage-pantheon, hubby, and media-tools. The Growth Video Studio package workflow passed independently on the same commit; this registry issue is outside the media-bridge change and remains open.

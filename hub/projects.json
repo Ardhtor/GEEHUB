@@ -656,5 +656,20 @@
       "continuity",
       "simulation"
     ]
+  },
+  {
+    "id": "rites-of-growth",
+    "name": "The Rites of Growth",
+    "group": "lore",
+    "status": "active",
+    "summary": "A six-rite mythic book describing growth as passage, ordeal, recognition and return.",
+    "path": "../lore/growth/THE_RITES_OF_GROWTH.md",
+    "tags": [
+      "growth",
+      "rites",
+      "book",
+      "myth",
+      "continuity"
+    ]
   }
 ]

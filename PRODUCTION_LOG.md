@@ -75,3 +75,9 @@ This is the durable resume point for repository work. Update it after meaningful
 - Design decision: validate fixed-size deformation first; implement growth only after pose, joint spacing and silhouette remain stable. Identity, proportions, pose, growth, expression, wardrobe and shot remain independent channels.
 - Verification boundary: design document committed; no Blender execution, deformation render, Dropbox hash comparison or direct Dropbox-to-engine ingestion has been completed in this pass.
 - Next: compare Dropbox source pairs by content hash and media probe; add a source/annotation manifest; then run the rig acceptance poses in Blender before changing the growth implementation.
+
+### Source traceability artifacts
+
+- Added `media/HULUMS_CAVE_SOURCE_REGISTER.json` with the four located Dropbox records, stable file IDs, exact paths, sizes, modification times and explicit pending duplicate-comparison status.
+- Added `media/HULUMS_CAVE_SOURCE_ANNOTATION_TEMPLATE.json` for shot, camera, pose, landmark confidence, shape-change evidence, wardrobe and lighting annotations.
+- Hashes and full media probes remain null by design; no binary download or hash comparison was completed. The register prevents guessed metadata from becoming source canon.

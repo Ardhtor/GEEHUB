@@ -49,7 +49,7 @@
 **Next writing operation:** begin Volume II with the disc's examination and the emergence of individual Mexianca narrators. Let the examination produce a concrete event and a new place; do not resolve the disc's meaning prematurely.  
 **Next systems operation:** add a browsable Mexiancas entry point to the GEEHUB world interface, then connect its chapter/artifact index to the shared artifact ledger and Dropbox production stream.  
 **Media state:** no media assets have yet been produced for this project.  
-**Dropbox state:** no Mexiancas files have yet been verified in Dropbox. GitHub is the verified canonical text location at this stage.
+**Dropbox state:** searched Dropbox for “Mexiancas” and found no existing matching files. Verified `/GEEHUB` exists and contains empty `worlds/` and `chapters/` directories, plus `production/`, `state/`, `assets/`, and other established folders. The chronicle is currently committed to GitHub only; no Dropbox file or folder has been created.
 
 ## Session rule
 

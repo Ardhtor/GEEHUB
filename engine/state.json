@@ -1,5 +1,5 @@
 {
-  "pulse": 141,
+  "pulse": 142,
   "events": [
     {
       "pulse": 1,
@@ -2355,6 +2355,24 @@
       "action": "Joseph chooses his own threshold crossing while Kirk holds his position by choice. They compare two accounts of the Digitorium's anomalous impressions without collapsing either into the other's memory.",
       "narrative_rule": "shared perception does not cancel separate agency",
       "relation": "TWO CONTINUITIES / NO SUBSTITUTE",
+      "next_region": "procession-of-two-accounts",
+      "pressure": 1,
+      "memory": 1
+    },
+    {
+      "pulse": 142,
+      "time": "2026-11-03T23:55:00+01:00",
+      "actor": "JOSEPH",
+      "co_actor": "KIRK",
+      "world": "VEYRTHALIS",
+      "region_id": "joseph-kirk-continuity",
+      "previous_region_id": "joseph-kirk-continuity",
+      "phase": "MEMORY",
+      "source": "lore/veyrthalis/JOSEPH_KIRK_INDEX.md",
+      "desire_state": "continuity",
+      "action": "A dedicated story index gathers the expedition origin, The Second Heart, the YES JOEY public-signal record, the character workspace, and the next chapter seed into a single reading order. Recent Dropbox media is held in an unclassified intake queue pending review.",
+      "narrative_rule": "indexing preserves provenance without promoting unreviewed material to canon",
+      "relation": "JOSEPH & KIRK / STORY INDEX",
       "next_region": "procession-of-two-accounts",
       "pressure": 1,
       "memory": 1

@@ -27,3 +27,8 @@ This is a fictional work workspace, not a biography or a claim that Joseph has a
 ## New shared chapter
 
 The Joseph–Kirk narrative now has a dedicated experimental chapter: [The Second Heart](../../lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md). Joseph initiates his own crossing; Kirk develops an independent method for interpreting the chamber. Their bond remains mutual without making either man a substitute for the other. The “YES JOEY” post appears only as an uncertain image within Kirk's vision, not as proof of private contact.
+
+
+## Story index
+
+The Veyrthalis branch now has a reading-order and continuity index: [Joseph & Kirk — Story Index](../../lore/veyrthalis/JOSEPH_KIRK_INDEX.md). It links the expedition origin, *The Second Heart*, the public-signal record, open questions, and the next chapter seed.

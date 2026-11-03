@@ -45,3 +45,12 @@ This is the durable resume point for repository work. Update it after meaningful
 - No claims made about Hulum's private Maya rig, node graph, AI model, LoRA, or simulation stack.
 - Next: inspect every frame, quantify silhouette landmarks, classify pose vs camera vs true shape change, then reconcile local source copies against Dropbox originals and record Dropbox provenance.
 - Dropbox was not modified in this pass.
+
+
+### Hulum's Cave readings — denser temporal pass
+
+- Re-sampled both six-second clips at 24 evenly spaced points (about 0.26-second spacing) and expanded the first-reading document.
+- Clip 22 has a clear pose rhythm: lowered stance → arms spread / double-biceps → hands-at-waist reset → repeat flex hold.
+- Clip 3333 has a related opening and sustained flex, then opens the arms and turns to an oblique / near-side view in its final second.
+- Added explicit interval tags for future analysis: `POSE`, `CAMERA_CROP`, `ORIENTATION`, `EXPRESSION`, `TRUE_SHAPE_CHANGE`, `UNCERTAIN`.
+- Refined rule: apparent size changes caused by pose, perspective, crop or orientation are not growth. Only label true shape change after comparable landmarks and silhouette regions have been normalized.

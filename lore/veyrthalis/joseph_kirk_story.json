@@ -1,0 +1,345 @@
+{
+  "schema": "geehub.story-runtime/v1",
+  "id": "joseph-kirk-continuity",
+  "title": "Joseph & Kirk — The Second Heart",
+  "world": "Veyrthalis",
+  "status": "experimental",
+  "source_texts": [
+    "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+    "lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md",
+    "signals/joseph/YES_JOEY_2026-11-01.md"
+  ],
+  "characters": {
+    "kirk": {
+      "agency": "independent",
+      "arc": [
+        "receives anomalous impressions",
+        "names his own perceptions",
+        "compares accounts without surrendering authorship"
+      ],
+      "current_state": "chooses to cross after Joseph"
+    },
+    "joseph": {
+      "agency": "independent",
+      "arc": [
+        "anchors Kirk in the immediate moment",
+        "questions the ancient presence",
+        "chooses and initiates his own crossing"
+      ],
+      "current_state": "stands in the inner chamber"
+    },
+    "traveler_3": {
+      "agency": "independent",
+      "identity": "unresolved",
+      "current_state": "one of four arrivals"
+    },
+    "traveler_4": {
+      "agency": "independent",
+      "identity": "unresolved",
+      "current_state": "one of four arrivals; transformation association not assigned"
+    }
+  },
+  "places": {
+    "subterranean_labyrinth": {
+      "type": "route",
+      "connects": [
+        "valley_city"
+      ]
+    },
+    "valley_city": {
+      "type": "city",
+      "property": "integrated with an ancient living presence",
+      "connects": [
+        "digitorium",
+        "black_tree_path"
+      ]
+    },
+    "black_tree_path": {
+      "type": "passage",
+      "features": [
+        "black trees",
+        "geometric branches"
+      ],
+      "connects": [
+        "digitorium"
+      ]
+    },
+    "digitorium": {
+      "type": "living_architecture",
+      "features": [
+        "suspended lights",
+        "translucent interfaces",
+        "nested chambers",
+        "four arrival patterns"
+      ],
+      "mechanisms": [
+        "translates decisions into architecture and sensation",
+        "records sequences while preserving uncertainty"
+      ],
+      "connects": [
+        "inner_chamber",
+        "dark_threshold",
+        "light_threshold"
+      ]
+    },
+    "inner_chamber": {
+      "type": "nested_chamber",
+      "occupant": "joseph"
+    },
+    "dark_threshold": {
+      "type": "threshold",
+      "choice_required": true
+    },
+    "light_threshold": {
+      "type": "threshold",
+      "choice_required": true
+    },
+    "procession": {
+      "type": "unresolved_route",
+      "next_chapter": "procession_of_two_accounts"
+    },
+    "binding": {
+      "type": "unresolved_place"
+    },
+    "temple_of_moon": {
+      "type": "unresolved_place"
+    },
+    "box_lukes_box": {
+      "type": "unresolved_place"
+    }
+  },
+  "chapters": [
+    {
+      "id": "hyperspace_expedition",
+      "title": "The Hyperspace Expedition / The Digitorium",
+      "source": "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+      "beats": [
+        {
+          "id": "descent",
+          "event": "Four men descend through a subterranean labyrinth.",
+          "place": "subterranean_labyrinth"
+        },
+        {
+          "id": "arrival",
+          "event": "They reach a vast valley city integrated with an ancient living presence.",
+          "place": "valley_city"
+        },
+        {
+          "id": "city_response",
+          "event": "Lights move in coordinated waves; an illuminated path leads to the subterranean entrance.",
+          "place": "valley_city"
+        },
+        {
+          "id": "return_claim",
+          "event": "The voice says they have returned to a place from which they were never entirely absent.",
+          "place": "valley_city",
+          "certainty": "voice_claim"
+        },
+        {
+          "id": "black_tree_passage",
+          "event": "The four follow a path through black trees toward the immense chamber.",
+          "place": "black_tree_path"
+        },
+        {
+          "id": "access_granted",
+          "event": "The Digitorium registers four arrivals, three continuities, and one unresolved transformation.",
+          "place": "digitorium"
+        },
+        {
+          "id": "presence_revealed",
+          "event": "The city is revealed as a small portion of an enormous living form.",
+          "place": "digitorium"
+        },
+        {
+          "id": "memory_examined",
+          "event": "Kirk experiences anomalous impressions; Joseph calls him back to the immediate moment.",
+          "actors": [
+            "kirk",
+            "joseph"
+          ]
+        },
+        {
+          "id": "four_patterns",
+          "event": "Three light patterns remain stable; a fourth expands.",
+          "place": "digitorium"
+        },
+        {
+          "id": "second_heartbeat",
+          "event": "A second heart begins beating beneath the city.",
+          "place": "valley_city",
+          "unresolved": true
+        }
+      ]
+    },
+    {
+      "id": "the_second_heart",
+      "title": "The Second Heart / The room that listened",
+      "source": "lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md",
+      "beats": [
+        {
+          "id": "lights_return",
+          "event": "Darkness withdraws in layers; suspended lights return as an uneven pulse.",
+          "place": "digitorium"
+        },
+        {
+          "id": "separate_contact",
+          "event": "Kirk and Joseph touch the rail separately; two lines of light travel to different apertures.",
+          "actors": [
+            "kirk",
+            "joseph"
+          ],
+          "mechanic": "separate_continuities"
+        },
+        {
+          "id": "two_doors",
+          "event": "The chamber opens two doors and declares: TWO CONTINUITIES. TWO WITNESSES. NO SUBSTITUTE.",
+          "place": "digitorium"
+        },
+        {
+          "id": "signal_vision",
+          "event": "Kirk sees a corridor, daylight, and the words YES JOEY; the vision has no verified sender or recipient.",
+          "actors": [
+            "kirk"
+          ],
+          "source": "signals/joseph/YES_JOEY_2026-11-01.md",
+          "certainty": "associative_vision"
+        },
+        {
+          "id": "account_recorded",
+          "event": "Kirk describes the sequence; Joseph asks for exact order and the chamber preserves uncertainty.",
+          "actors": [
+            "kirk",
+            "joseph"
+          ],
+          "mechanic": "independent_testimony"
+        },
+        {
+          "id": "joseph_chooses",
+          "event": "Joseph chooses to cross the dark threshold alone.",
+          "actors": [
+            "joseph"
+          ],
+          "choice": "joseph_crosses"
+        },
+        {
+          "id": "inner_chamber",
+          "event": "The wall becomes transparent; Joseph enters the nested chamber and stops the rising lines with a raised hand.",
+          "actors": [
+            "joseph"
+          ],
+          "place": "inner_chamber"
+        },
+        {
+          "id": "kirk_waits",
+          "event": "Kirk resists the reflex to follow immediately and lets Joseph retain his chosen space.",
+          "actors": [
+            "kirk"
+          ],
+          "mechanic": "agency_respected"
+        },
+        {
+          "id": "what_you_carry",
+          "event": "Joseph names his own memory, the people he remembers, what he does not know, and his right to decide what comes next.",
+          "actors": [
+            "joseph"
+          ]
+        },
+        {
+          "id": "translation_discovered",
+          "event": "The delayed echo reveals that the chamber translates decisions into architecture and sensation rather than reading minds.",
+          "place": "digitorium",
+          "mechanic": "decision_to_sensation"
+        },
+        {
+          "id": "kirk_chooses",
+          "event": "Joseph invites Kirk; Kirk crosses only after deciding for himself.",
+          "actors": [
+            "kirk",
+            "joseph"
+          ],
+          "choice": "kirk_crosses"
+        },
+        {
+          "id": "returning_mark",
+          "event": "The corridor reappears with an open window; YES JOEY is replaced by a handwritten line returning changed.",
+          "place": "digitorium"
+        },
+        {
+          "id": "second_heart_waits",
+          "event": "The heartbeat sounds between them without imitating either pulse.",
+          "unresolved": true
+        }
+      ]
+    }
+  ],
+  "mechanics": {
+    "separate_continuities": {
+      "rule": "Each character owns their own memories, perceptions, and decisions.",
+      "invariant": true
+    },
+    "independent_testimony": {
+      "rule": "Record each account separately; compare sequence and concrete details; preserve disagreement.",
+      "invariant": true
+    },
+    "decision_to_sensation": {
+      "rule": "The Digitorium translates a decision into architecture and sensation; it does not establish mind-reading.",
+      "invariant": true
+    },
+    "agency_respected": {
+      "rule": "No character is moved through a consequential threshold without their own choice.",
+      "invariant": true
+    },
+    "unresolved_mystery": {
+      "rule": "Unknown causes remain unknown until a later story event supplies evidence.",
+      "invariant": true
+    },
+    "signal_provenance": {
+      "rule": "Public posts can seed fictional imagery but never establish private receipt, intent, or response.",
+      "invariant": true
+    }
+  },
+  "unresolved": {
+    "second_heartbeat": {
+      "owner": null,
+      "status": "unknown"
+    },
+    "unresolved_transformation": {
+      "traveler": null,
+      "status": "unassigned"
+    },
+    "meaning_of_returned": {
+      "status": "unknown"
+    },
+    "digitorium_origin": {
+      "status": "unknown"
+    },
+    "procession_routes": {
+      "status": "not_yet_written"
+    }
+  },
+  "next_chapter": {
+    "id": "procession_of_two_accounts",
+    "title": "The Procession of Two Accounts",
+    "status": "seed",
+    "premise": "Four travelers leave the Digitorium by different routes. Kirk and Joseph compare non-identical accounts; the discrepancy becomes a clue that distinct memories can meet without merging.",
+    "required_events": [
+      "four_routes_open",
+      "separate_observations",
+      "accounts_recorded",
+      "discrepancy_detected",
+      "shared_inquiry_begins"
+    ],
+    "do_not_resolve": [
+      "second_heartbeat_owner",
+      "unresolved_transformation_identity"
+    ]
+  },
+  "continuity_invariants": [
+    "Kirk and Joseph remain distinct people with mutual, identity-continuous connection.",
+    "Both characters initiate consequential actions.",
+    "Shared visions are story events, not proof of shared private thoughts.",
+    "The YES JOEY post remains an unresolved public observation.",
+    "The second heartbeat remains unidentified.",
+    "This is experimental fiction and does not speak for real-world Joseph Prever."
+  ]
+}

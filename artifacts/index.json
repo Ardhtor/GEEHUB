@@ -2998,6 +2998,30 @@
       "canon": "experimental",
       "dreamable": true,
       "next_action": "execute and expand The Procession of Two Accounts"
+    },
+    {
+      "id": "rites-of-growth-book-2026-11-04",
+      "created_at": "2026-11-04T00:04:00+01:00",
+      "source": "GEEHUB mythic writing",
+      "kind": "book",
+      "title": "THE RITES OF GROWTH / A BOOK OF SIX PASSAGES",
+      "content": "A six-rite book: The Calling of the Measure; The First Enlargement; The Ordeal of Resistance; The Investiture of Form; The Passage of Magnification; The Unbounded Threshold. Growth is treated as continuity-bearing passage, not a compulsory escalation ladder. Luke's phase-four form remains a valid persistent state.",
+      "lineage": {
+        "actor": "GEEHUB",
+        "world": "THE HALL OF THE GREAT MEASURE",
+        "region_id": "rites-of-growth",
+        "source": "lore/growth/THE_RITES_OF_GROWTH.md",
+        "phase": "INVESTITURE",
+        "related_nodes": [
+          "beefythiq",
+          "growth-canvas",
+          "mass1v1ng",
+          "lineage-pantheon"
+        ]
+      },
+      "canon": "experimental",
+      "dreamable": true,
+      "next_action": "develop each rite into scenes, witnesses, objects and stage-specific visual/motion grammar"
     }
   ]
 }

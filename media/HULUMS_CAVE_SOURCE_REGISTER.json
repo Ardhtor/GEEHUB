@@ -1,0 +1,54 @@
+{
+  "schema": "geehub.hulums-cave-source-register.v1",
+  "source_of_truth": "Dropbox",
+  "comparison_status": "pending",
+  "records": [
+    {
+      "source_id": "hc-snapvid-original",
+      "path": "/SnapVid.Net_YPBbLkvp9AQAKdpS_672p.mp4",
+      "dropbox_file_id": "id:tbdqPXHGULQAAAAAAAABIA",
+      "size_bytes": 1685453,
+      "last_modified": "2026-10-31T19:10:37Z",
+      "role": "canonical_original",
+      "sha256": null,
+      "media_probe": null
+    },
+    {
+      "source_id": "hc-snapvid-copy-1",
+      "path": "/SnapVid.Net_YPBbLkvp9AQAKdpS_672p (1).mp4",
+      "dropbox_file_id": "id:tbdqPXHGULQAAAAAAAACOw",
+      "size_bytes": 1685453,
+      "last_modified": "2026-11-02T20:16:41Z",
+      "role": "possible_duplicate",
+      "compare_with": "hc-snapvid-original",
+      "sha256": null,
+      "media_probe": null
+    },
+    {
+      "source_id": "hc-whatsapp-original",
+      "path": "/WhatsApp Video 2026-10-31 at 02.10.14.mp4",
+      "dropbox_file_id": "id:tbdqPXHGULQAAAAAAAABIQ",
+      "size_bytes": 1045260,
+      "last_modified": "2026-10-31T19:10:37Z",
+      "role": "canonical_original",
+      "sha256": null,
+      "media_probe": null
+    },
+    {
+      "source_id": "hc-whatsapp-copy-1",
+      "path": "/WhatsApp Video 2026-10-31 at 02.10.14 (1).mp4",
+      "dropbox_file_id": "id:tbdqPXHGULQAAAAAAAACRA",
+      "size_bytes": 1045260,
+      "last_modified": "2026-11-02T20:16:48Z",
+      "role": "possible_duplicate",
+      "compare_with": "hc-whatsapp-original",
+      "sha256": null,
+      "media_probe": null
+    }
+  ],
+  "rules": [
+    "Do not delete or merge records based on matching filenames or file sizes.",
+    "Compare SHA-256 and media probe metadata before declaring duplicates.",
+    "Keep Dropbox as canonical source; local staged files are working copies only."
+  ]
+}

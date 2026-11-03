@@ -1,5 +1,5 @@
 {
-  "pulse": 142,
+  "pulse": 143,
   "events": [
     {
       "pulse": 1,
@@ -2374,6 +2374,23 @@
       "narrative_rule": "indexing preserves provenance without promoting unreviewed material to canon",
       "relation": "JOSEPH & KIRK / STORY INDEX",
       "next_region": "procession-of-two-accounts",
+      "pressure": 1,
+      "memory": 1
+    },
+    {
+      "pulse": 143,
+      "time": "2026-11-03T23:58:00+01:00",
+      "actor": "GEEHUB",
+      "world": "PRODUCTION INTAKE",
+      "region_id": "asset-intake-2026-11-03",
+      "previous_region_id": "joseph-kirk-continuity",
+      "phase": "CONSTRUCTION",
+      "source": "production/intake/2026-11-03/ASSET_PURPOSE_ATLAS.md",
+      "desire_state": "make",
+      "action": "The Dropbox intake is assigned working purposes: Luke identity and growth references, paired Diego II motion sources, transformation grammar, social-motion library, Joseph release-copy engine, sword-text candidate, Resolve operator, and the video-studio product specification. First production cards turn the classifications into reviewable work.",
+      "narrative_rule": "infer purpose to create a useful production path while preserving source provenance and uncertainty",
+      "relation": "MIXED MEDIA / ONE PRODUCTION CORPUS",
+      "next_region": "inspect-and-assemble",
       "pressure": 1,
       "memory": 1
     }

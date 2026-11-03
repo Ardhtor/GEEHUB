@@ -641,5 +641,20 @@
       "joseph-kirk-continuity",
       "veyrthalis"
     ]
+  },
+  {
+    "id": "joseph-kirk-runtime",
+    "name": "Joseph–Kirk Story Runtime",
+    "group": "story-engine",
+    "status": "prototype",
+    "summary": "Executable Veyrthalis narrative model: characters, places, event beats, independent choices, witness records and unresolved mysteries.",
+    "path": "../engine/stories/joseph_kirk_runtime.py",
+    "tags": [
+      "story",
+      "runtime",
+      "veyrthalis",
+      "continuity",
+      "simulation"
+    ]
   }
 ]

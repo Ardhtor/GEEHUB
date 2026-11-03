@@ -509,5 +509,30 @@
       "Luke",
       "growth"
     ]
+  },
+  {
+    "id": "mexiancas",
+    "name": "Mexiancas",
+    "status": "active",
+    "kind": "living-world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/mexiancas/CHRONICLE_I.md",
+    "description": "Self-narrating sentient world whose inhabitants preserve multiple memories, build from inherited accounts, and explore the HULUM'A threshold. Volume I establishes the Hall of Accounts, First Awake, the Second Generation, the Open Continuation Principle, and the first return from beyond the door.",
+    "related": [
+      "vision-workspace",
+      "the-complex",
+      "sensation-engine",
+      "information-portability",
+      "veyrthalis"
+    ],
+    "tags": [
+      "mexiancas",
+      "living-world",
+      "sentience",
+      "chronicle",
+      "continuity",
+      "HULUM'A",
+      "open-continuation"
+    ]
   }
 ]

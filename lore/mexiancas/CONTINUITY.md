@@ -44,7 +44,7 @@
 
 ## Production handoff
 
-**Last completed:** Volume I — *The First Account*, Chapters I–X, and Volume II — *The Disc and the Other Shore*, Chapters I–VIII, committed to GEEHUB.  
+**Last completed:** Volume I — *The First Account*, Chapters I–X, and Volume II — *The Disc and the Other Shore*, Chapters I–IX, committed to GEEHUB.  
 **Current stopping point:** Volume II has reached the first exchange with an unnamed speaker in a room beyond a seam in the western corridor. The speaker asks the Hall to leave a place for them. A second chair has appeared beside the dark disc and is warm, though no one has sat in it.  
 **Next writing operation:** continue Volume II with the first deliberate response to the unnamed speaker. Introduce the first named individual from the other side only through their own chosen account; preserve uncertainty around the disc's marks and the warm chair.  
 **Next systems operation:** add a browsable Mexiancas entry point to the GEEHUB world interface, then connect its chapter/artifact index to the shared artifact ledger and Dropbox production stream.  

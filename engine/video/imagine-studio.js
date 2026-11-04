@@ -2,8 +2,25 @@
 "use strict";
 const $=id=>document.getElementById(id);
 const API="http://127.0.0.1:8787";
-let mode="text", sourceData=null, activeJob=null, finalBlob=null, finalUrl=null, startAt=0, naiveMode=true, rawPrompt="", interpretedPrompt="";
+let mode="text", sourceData=null, activeJob=null, finalBlob=null, finalUrl=null, startAt=0, naiveMode=true, rawPrompt="", interpretedPrompt="", activePreset=null;
 const history=[];
+const titanPreset=window.GEEHUB_VIDEO_PRESETS?.["teal-titan-golds-on-5th"];
+function loadTealTitan(){
+ if(!titanPreset)return;
+ activePreset=titanPreset;mode="text";sourceData=null;
+ document.querySelectorAll(".mode").forEach(b=>b.classList.toggle("active",b.dataset.mode==="text"));
+ $("imageDrop").hidden=true;
+ $("prompt").value=titanPreset.prompt;
+ $("aspect").value=titanPreset.aspectRatio||"16:9";
+ $("audio").checked=!!titanPreset.generateAudio;
+ $("stageMeta").textContent=$("aspect").value+" / 420P / 06 SEC";
+ $("stageScreen").style.aspectRatio="16/9";
+ naiveMode=false;$("naiveToggle").textContent="OFF";$("naiveToggle").classList.remove("active");$("naiveToggle").setAttribute("aria-pressed","false");
+ $("jobStatus").textContent="PROJECT PRESET LOADED / "+titanPreset.title;
+ $("prompt").focus();
+}
+$("loadTealTitan")?.addEventListener("click",loadTealTitan);
+if(new URLSearchParams(location.search).get("project")==="teal-titan-golds-on-5th")loadTealTitan();
 function status(message){$("jobStatus").textContent=message;}
 function workerState(ok,message){$("workerLight").classList.toggle("online",ok);$("workerStatus").textContent=message;}
 function overlay(show,title="BUILDING THE SHOT",message="Preparing generation",progress=5){$("renderOverlay").hidden=!show;$("renderTitle").textContent=title;$("renderMessage").textContent=message;$("renderProgress").style.width=progress+"%";}
@@ -61,13 +78,13 @@ async function showResult(data){
  $("resultVideo").src=URL.createObjectURL(finalBlob);$("resultVideo").hidden=false;$("stagePlaceholder").hidden=true;
  $("downloadVideo").href=URL.createObjectURL(finalBlob);$("downloadVideo").download=data.filename||"geehub-imagine-420p.mp4";
  $("resultActions").hidden=false;$("jobTime").textContent=((Date.now()-startAt)/1000).toFixed(0)+" SEC";status("READY · 420P MP4 / 6 SECONDS");
- const item={id:data.jobId,title:rawPrompt.slice(0,68)||"Image animation",filename:data.filename,videoUrl:finalUrl,createdAt:new Date().toISOString(),blob:finalBlob};
+ const item={id:data.jobId,title:activePreset?.title||rawPrompt.slice(0,68)||"Image animation",filename:data.filename,videoUrl:finalUrl,createdAt:new Date().toISOString(),blob:finalBlob};
  history.unshift(item);renderHistory();
  if(window.GEEHUB_PRODUCTION?.publish){window.GEEHUB_PRODUCTION.publish({id:data.jobId,title:item.title,kind:"video",blob:finalBlob,filename:item.filename,source:"GEEHUB Imagine Engine",lineage:{mode,aspectRatio:$("aspect").value,model:"grok-imagine-video-1.5-lite"},simulation_state:{duration:6,output:"420p",providerRender:"480p",generateAudio:$("audio").checked,prompt:rawPrompt,interpretedPrompt,naiveMode},canon:"experiment"}).catch(()=>{});}
 }
 function renderHistory(){$("historyCount").textContent=history.length+" CLIP"+(history.length===1?"":"S");$("historyList").innerHTML="";history.forEach(item=>{const card=document.createElement("button");card.className="history-card";card.type="button";const v=document.createElement("video");v.src=item.videoUrl;v.muted=true;v.preload="metadata";const b=document.createElement("b");b.textContent=item.title||"Untitled";const sm=document.createElement("small");sm.textContent="420P · 00:06";card.append(v,b,sm);card.addEventListener("click",()=>{ $("resultVideo").src=item.videoUrl;$("resultVideo").hidden=false;$("stagePlaceholder").hidden=true;finalBlob=item.blob;finalUrl=item.videoUrl;$("resultActions").hidden=false;$("downloadVideo").href=URL.createObjectURL(item.blob);$("downloadVideo").download=item.filename;});$("historyList").append(card);});}
 $("generate").addEventListener("click",generate);
 $("newShot").addEventListener("click",()=>{$("prompt").focus();$("resultActions").hidden=true;status("READY FOR ANOTHER SHOT");});
-$("saveProduct").addEventListener("click",async()=>{if(!finalBlob)return;try{await window.GEEHUB_PRODUCTION?.publish({id:activeJob||("imagine-save-"+Date.now()),title:rawPrompt.slice(0,68)||"Imagine video",kind:"video",blob:finalBlob,filename:"geehub-imagine-420p.mp4",source:"GEEHUB Imagine Engine",canon:"experiment",simulation_state:{duration:6,output:"420p",prompt:rawPrompt,naiveMode}});status("PRODUCT ADDED TO GEEHUB OUTBOX");}catch(e){status("SAVE QUEUED LOCALLY · "+e.message);}});
+$("saveProduct").addEventListener("click",async()=>{if(!finalBlob)return;try{await window.GEEHUB_PRODUCTION?.publish({id:activeJob||("imagine-save-"+Date.now()),title:activePreset?.title||rawPrompt.slice(0,68)||"Imagine video",kind:"video",blob:finalBlob,filename:"geehub-imagine-420p.mp4",source:"GEEHUB Imagine Engine",canon:"experiment",simulation_state:{duration:6,output:"420p",prompt:rawPrompt,naiveMode,project:activePreset?.id||null},lineage:activePreset?.lineage||null});status("PRODUCT ADDED TO GEEHUB OUTBOX");}catch(e){status("SAVE QUEUED LOCALLY · "+e.message);}});
 checkWorker();
 })();

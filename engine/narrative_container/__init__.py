@@ -1,0 +1,1 @@
+"""GEEHUB narrative container."""

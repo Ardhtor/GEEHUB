@@ -40,7 +40,6 @@ def transmit_music_window(
             "source": source_narrative,
             "recipient": recipient,
             "destination": destination_narrative,
-            "created_at": track_manifest.get("captured_at", event["track_id"]),
             "version": 1,
             "context": "Music-program event; track=" + event["track_id"],
             "payload": payload,

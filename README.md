@@ -126,6 +126,17 @@ The Blender workspace connects abstract systems to actual 3D production: models,
 
 When a connected Blender workflow is available, the Atlas should point to it rather than isolate it.
 
+## Growth Video Studio
+
+The identity-preserving video pipeline is documented in
+[engine/growth-video-studio/README.md](engine/growth-video-studio/README.md).
+Its frame-sequence intake worker now validates ordered, source-matched frame
+evidence and verifies the actual checksums and PNG dimensions of supplied body
+and face masks. This is an evidence gate, not an automatic segmentation model
+or a video renderer. Construction evidence and remaining blockers are recorded
+in [world/gee-narrative/STATE.md](world/gee-narrative/STATE.md) and
+[world/gee-narrative/CONSTRUCTION_CHRONICLE.md](world/gee-narrative/CONSTRUCTION_CHRONICLE.md).
+
 ## Commentary as memory
 
 The conversations that produce GEEHUB contain decisions that are easy to lose: what was added, what failed, what aesthetic mattered, what the next experiment was for, and which concepts belong together.

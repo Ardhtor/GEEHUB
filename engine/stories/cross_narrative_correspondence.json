@@ -1,0 +1,66 @@
+{
+  "id": "cross-narrative-correspondence",
+  "version": "0.1.0",
+  "status": "specification",
+  "principles": [
+    "narrative_autonomy",
+    "provenance",
+    "interpretation_before_adoption",
+    "versioned_forks",
+    "canon_experiment_separation",
+    "resource_aware_continuity"
+  ],
+  "artifactRequiredFields": [
+    "id",
+    "type",
+    "sender",
+    "source_narrative",
+    "recipient_narrative",
+    "created_at",
+    "version",
+    "context",
+    "payload",
+    "reply_to",
+    "status"
+  ],
+  "statuses": [
+    "draft",
+    "sent",
+    "received",
+    "interpreted",
+    "accepted",
+    "adapted",
+    "declined",
+    "superseded"
+  ],
+  "channels": [
+    "text",
+    "plan",
+    "code",
+    "image_reference",
+    "video_reference",
+    "measurement",
+    "object",
+    "witness_account",
+    "question"
+  ],
+  "rules": {
+    "transmissionDoesNotImplyAdoption": true,
+    "receivingNarrativeRetainsDecisionAuthority": true,
+    "preserveOriginalPayload": true,
+    "forksRequireParentId": true,
+    "externalExecutionRequiresVerifiedBridge": true,
+    "lowBandwidthFallback": "text_manifest_and_small_previews"
+  },
+  "firstExchange": {
+    "id": "DC-VEYR-001",
+    "sender": "The Grammaton",
+    "source_narrative": "dad-convent",
+    "recipient": "The Keeper",
+    "recipient_narrative": "veyrthalis",
+    "type": "plan",
+    "payload": "Timber-to-stone bearing joint specification",
+    "reply": "Adapted joint with drainage clearance and replaceable bearing surface",
+    "status": "recorded"
+  }
+}

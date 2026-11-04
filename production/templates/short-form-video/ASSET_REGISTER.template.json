@@ -1,0 +1,59 @@
+{
+  "schema": "geehub.asset-register/1",
+  "project": "TODO",
+  "status": "source-pending",
+  "assets": [
+    {
+      "id": "source-video",
+      "kind": "video",
+      "required": true,
+      "status": "not-located",
+      "storage": "Dropbox original",
+      "destination": "01_SOURCE/",
+      "verification": [
+        "path-or-file-id",
+        "filename",
+        "sha256",
+        "duration",
+        "fps",
+        "dimensions"
+      ]
+    },
+    {
+      "id": "identity-references",
+      "kind": "image-reference-set",
+      "required": true,
+      "status": "pending-source-inspection",
+      "destination": "02_FRAMES/"
+    },
+    {
+      "id": "growth-states",
+      "kind": "image-sequence",
+      "required": false,
+      "status": "not-generated",
+      "destination": "03_GROWTH_PASSES/"
+    },
+    {
+      "id": "composite-master",
+      "kind": "video",
+      "required": true,
+      "status": "not-rendered",
+      "destination": "04_COMPOSITES/"
+    },
+    {
+      "id": "audio",
+      "kind": "audio",
+      "required": false,
+      "status": "not-selected",
+      "destination": "06_AUDIO/"
+    },
+    {
+      "id": "final-master",
+      "kind": "video",
+      "required": true,
+      "status": "not-rendered",
+      "destination": "05_EXPORTS/"
+    }
+  ],
+  "provenanceRule": "Do not mark a source as inspected or an output as rendered until the actual media has been opened and verified."
+}

@@ -61,20 +61,29 @@ Updated: 2026-11-03
 - Automatic person/body segmentation and face-excluding mask generation.
 - Automatic body landmark detection and confidence tracking.
 - Segmentation-derived mesh triangulation and temporally stable mesh tracking across frames.
-- A frame worker that samples growth states, maps landmarks, renders every source frame, and validates temporal continuity.
+- A per-frame deformation/render worker that samples growth states, maps landmarks, warps every source frame, and validates the rendered sequence.
 - Garment and environment response driven by measured contact and depth.
 - Automated frame import from a render worker into Resolve.
 - Final growth-video rendering and export.
 - Live two-way synchronization between Codex, GitHub, Resolve, and Dropbox.
 
 ## Next construction targets
-1. Add a frame-sequence exchange worker that ingests segmentation/landmark evidence and verifies frame dimensions, frame ordering, source lineage, and temporal continuity.
-2. Connect segmentation/tracking output to face-excluding mesh generation and the landmark mapper.
-3. Run a short per-frame deformation pass with temporal validation and camera-reframe feedback.
-4. Return rendered frames and verified artifacts to Resolve without replacing source footage.
-5. Validate an end-to-end clip before expanding the pipeline.
+1. Connect the verified frame-sequence audit to bridge-manifest frame sets for segmentation and landmarks, then require those sets in queued render jobs.
+2. Connect a real segmentation/tracking producer and verify face-excluding mask semantics rather than relying only on producer declarations.
+3. Generate face-excluding mesh triangulation and a temporally stable mesh track.
+4. Run a short per-frame deformation pass with temporal validation and camera-reframe feedback.
+5. Return rendered frames and verified artifacts to Resolve without replacing source footage.
 
 Each item changes status only when evidence exists.
 
 ## Repository validation note — 2026-11-03
 - The separate Validate GEEHUB data workflow still fails at Validate browser repository links (Actions run 41711149548). It reports stale embedded project tuples for information-portability, lineage-pantheon, hubby, and media-tools. The Growth Video Studio package workflow passed independently on the same commit; this registry issue is outside the media-bridge change and remains open.
+
+
+## Frame-sequence intake worker added — 2026-11-04
+- engine/growth-video-studio/core/frame-sequence.js defines geehub.frame-sequence schema version 1. It validates fixed-FPS frame numbering and timestamps without sorting away input-order mistakes; source identity and immutability; source/frame dimensions; required identity and articulated landmarks; identity/pose confidence; landmark-track gaps and frame-to-frame discontinuity; and segmentation lineage.
+- Each frame can reference separate body and face PNG masks. The body mask must declare face exclusion and the face mask must declare identity protection. Mask URIs must be safe, unique Dropbox GEEHUB references; declared dimensions and SHA-256 formats are checked.
+- core/frame-sequence-worker.js verifies the actual referenced files beneath the configured Dropbox root. It refuses symlinked path components, hashes the actual PNG bytes, and checks the PNG signature and IHDR dimensions against the source sequence. It returns a machine-readable audit and performs no writes.
+- tools/inspect-frame-sequence.js exposes the worker as npm run inspect:frames. A sequence is marked ready-for-geometry only when frame evidence is structurally complete and every body/face mask file passes checksum and dimension verification.
+- Seven focused tests passed under Node 22.16.0 in a temporary harness: ordered/source-matched sequence acceptance; out-of-order, source, and dimension rejection; landmark-only pending state; identity/confidence/temporal failure; actual PNG checksum/dimension verification; checksum mismatch refusal; and symlink refusal. Syntax checks passed for the new core modules and CLI.
+- This worker does not run a segmentation model, decode mask pixels, prove that the body mask truly excludes the face, generate a mesh, deform frames, or render a video. The face-exclusion and identity-protection flags remain producer assertions. Local Dropbox/Resolve runtime has not been exercised.

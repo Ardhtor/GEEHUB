@@ -81,5 +81,5 @@ GitHub holds this compact production specification and its manifests. Dropbox re
 
 ## Current state
 
-The creative brief and shot progression are established. No original video has been verified or staged in this repository during this build. No render is claimed. The next production action is to locate the source in the connected Dropbox corpus, then inspect its frames and lock Marcus's baseline.
+The creative brief and shot progression are established. Dropbox search found three plausible source candidates: `/SnapVid.Net_YPBbLkvp9AQAKdpS_672p.mp4`, `/WhatsApp Video 2026-10-31 at 02.10.14.mp4`, and `/grouba (1)/colossal_giant_bodybuilder.mp4`. Their metadata is recorded in `production.json`; none has been visually verified as the Teal Titan source yet. No render is claimed. The next production action is to inspect the candidate videos and lock Marcus's baseline from the correct source.
 

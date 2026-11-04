@@ -3135,6 +3135,34 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue the retained world state"
+    },
+    {
+      "id": "teal-titan-production-overhaul-2026-11-04",
+      "created_at": "2026-11-04T19:11:00+01:00",
+      "source": "GEEHUB production overhaul from user direction",
+      "kind": "production-overhaul",
+      "title": "THE TEAL TITAN / GEEHUB VIDEO PRODUCTION VERTICAL",
+      "content": "Created a registered six-second 420p production project for The Teal Titan of Gold's on 5th. Added Marcus continuity locks, six-stage shot design, extended voiceover, asset register, machine-readable production manifest, Imagine Engine preset and UI loader, project Atlas entries, and README integration. Dropbox search located three plausible source videos; metadata is recorded but none has been visually verified as the correct source. No generated master is claimed.",
+      "production_note": "The Imagine Studio can load the Teal Titan project preset and publish the resulting MP4 with project lineage to the shared Dropbox outbox. The original source remains authoritative in Dropbox.",
+      "lineage": {
+        "actor": "GEEHUB",
+        "world": "GOLD'S ON 5TH",
+        "region_id": "teal-titan-golds-on-5th",
+        "phase": "CONSTRUCTION",
+        "source": "production/projects/teal-titan-golds-on-5th/README.md",
+        "related_nodes": [
+          "geehub-studio",
+          "imagine-video-studio",
+          "beefythiq",
+          "growth-canvas",
+          "media-tools",
+          "dropbox-production-stream"
+        ]
+      },
+      "canon": "experimental",
+      "dreamable": true,
+      "quietness": "medium",
+      "next_action": "Visually verify the three Dropbox source candidates, lock Marcus's baseline, and generate the six-second 420p master."
     }
   ]
 }

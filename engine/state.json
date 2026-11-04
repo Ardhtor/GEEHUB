@@ -2427,7 +2427,7 @@
     "male-harem": 13,
     "colossal-escalation": 13,
     "muscle-myth": 9,
-    "discovery": 11,
+    "discovery": 12,
     "veyrthalis": 11,
     "bodylounger": 9
   },
@@ -2442,7 +2442,7 @@
     "male-harem": 105.5,
     "colossal-escalation": 112.5,
     "muscle-myth": 111.5,
-    "discovery": 130.5,
+    "discovery": 146.5,
     "veyrthalis": 131.5,
     "bodylounger": 104.5
   },
@@ -2462,29 +2462,42 @@
     "index.html": 7
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "embodied-scale",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "discovery",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 154,
-    "agent": "joseph",
-    "previous_region_id": "facility",
-    "region_id": "embodied-scale",
-    "region_name": "EMBODIED SCALE",
-    "relation": "THE FLOOR REPLIES",
+    "cycle": 155,
+    "agent": "chase",
+    "previous_region_id": "embodied-scale",
+    "region_id": "discovery",
+    "region_name": "DISCOVERY",
+    "relation": "SCALE HAS HISTORY",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 12.26,
-    "scale": 12.38,
-    "recording": "scheduled-recording-00154",
-    "at": "2026-11-03T19:25:20.857Z"
+    "previous_scale": 12.38,
+    "scale": 12.42,
+    "recording": "scheduled-recording-00155",
+    "at": "2026-11-04T00:09:05.383Z"
   },
-  "last_world_change": "2026-11-03T19:25:20.857Z",
-  "scale": 12.38,
+  "last_world_change": "2026-11-04T00:09:05.383Z",
+  "scale": 12.42,
   "external_events": [
+    {
+      "id": "long-play-00155",
+      "type": "CROSSING",
+      "title": "EMBODIED SCALE → DISCOVERY",
+      "body": "The world crossed \"SCALE HAS HISTORY\". Scale increased from 12.38× to 12.42×; the earlier location and baseline remain recorded.",
+      "from": "embodied-scale",
+      "to": "discovery",
+      "previous_region_id": "embodied-scale",
+      "region_id": "discovery",
+      "relation": "SCALE HAS HISTORY",
+      "source": "long-play",
+      "at": "2026-11-04T00:09:05.383Z"
+    },
     {
       "id": "long-play-00154",
       "type": "CROSSING",
@@ -3771,19 +3784,6 @@
       "relation": "MASS WITHOUT AMNESIA",
       "source": "long-play",
       "at": "2026-10-16T18:42:23.701Z"
-    },
-    {
-      "id": "long-play-00055",
-      "type": "CROSSING",
-      "title": "BODYLOUNGER → MALE HAREM",
-      "body": "The world crossed \"THE ARCHIVE OPENS A ROOM\". Scale increased from 5.98× to 6.02×; the earlier location and baseline remain recorded.",
-      "from": "bodylounger",
-      "to": "male-harem",
-      "previous_region_id": "bodylounger",
-      "region_id": "male-harem",
-      "relation": "THE ARCHIVE OPENS A ROOM",
-      "source": "long-play",
-      "at": "2026-10-16T14:53:25.369Z"
     }
   ],
   "last_action": "read-the-rites-of-growth"

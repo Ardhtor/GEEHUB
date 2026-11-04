@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-03T19:25:20.857Z",
+  "generated": "2026-11-04T00:09:05.383Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00155",
+      "at": "2026-11-04T00:09:05.383Z",
+      "from": "geehub-long-play",
+      "to": "chase",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / EMBODIED SCALE → DISCOVERY / CHASE",
+      "body": "The world crossed the existing relation \"SCALE HAS HISTORY\" from EMBODIED SCALE into DISCOVERY. Scale increased from 12.38× to 12.42×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00155",
+      "live": true,
+      "regionId": "discovery",
+      "previousRegionId": "embodied-scale",
+      "relation": "SCALE HAS HISTORY"
+    },
     {
       "id": "scheduled-long-play-00154",
       "at": "2026-11-03T19:25:20.857Z",
@@ -1488,21 +1503,6 @@
       "regionId": "colossal-escalation",
       "previousRegionId": "male-harem",
       "relation": "MASS WITHOUT AMNESIA"
-    },
-    {
-      "id": "scheduled-long-play-00055",
-      "at": "2026-10-16T14:53:25.369Z",
-      "from": "geehub-long-play",
-      "to": "chase",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / BODYLOUNGER → MALE HAREM / CHASE",
-      "body": "The world crossed the existing relation \"THE ARCHIVE OPENS A ROOM\" from BODYLOUNGER into MALE HAREM. Scale increased from 5.98× to 6.02×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00055",
-      "live": true,
-      "regionId": "male-harem",
-      "previousRegionId": "bodylounger",
-      "relation": "THE ARCHIVE OPENS A ROOM"
     }
   ]
 }

@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 154,
-  "currentAgent": "joseph",
-  "currentRegion": "embodied-scale",
-  "scale": 12.38,
-  "lastRun": "2026-11-03T19:25:20.857Z",
+  "cycle": 155,
+  "currentAgent": "chase",
+  "currentRegion": "discovery",
+  "scale": 12.42,
+  "lastRun": "2026-11-04T00:09:05.383Z",
   "history": [
+    {
+      "cycle": 155,
+      "agent": "chase",
+      "previousRegion": "embodied-scale",
+      "region": "discovery",
+      "relation": "SCALE HAS HISTORY",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 12.38,
+      "scale": 12.42,
+      "recording": "scheduled-recording-00155",
+      "at": "2026-11-04T00:09:05.383Z"
+    },
     {
       "cycle": 154,
       "agent": "joseph",
@@ -1197,29 +1209,17 @@
       "scale": 6.05,
       "recording": "scheduled-recording-00056",
       "at": "2026-10-16T18:42:23.701Z"
-    },
-    {
-      "cycle": 55,
-      "agent": "chase",
-      "previousRegion": "bodylounger",
-      "region": "male-harem",
-      "relation": "THE ARCHIVE OPENS A ROOM",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 5.98,
-      "scale": 6.02,
-      "recording": "scheduled-recording-00055",
-      "at": "2026-10-16T14:53:25.369Z"
     }
   ],
-  "previousRegion": "facility",
-  "relation": "THE FLOOR REPLIES",
+  "previousRegion": "embodied-scale",
+  "relation": "SCALE HAS HISTORY",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 12,
     "kingdom-land": 2,
     "colossal-escalation": 13,
     "embodied-scale": 13,
-    "discovery": 11,
+    "discovery": 12,
     "muscle-myth": 9,
     "veyrthalis": 11,
     "facility": 13,
@@ -1234,8 +1234,8 @@
     "deep-lore": "2026-11-02T01:52:24.020809+00:00",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
     "colossal-escalation": "2026-10-29T06:19:28.514809+00:00",
-    "embodied-scale": "2026-11-03T19:25:20.857Z",
-    "discovery": "2026-11-01T18:50:17.146066+00:00",
+    "embodied-scale": "2026-11-03T22:28:08.526791+00:00",
+    "discovery": "2026-11-04T00:09:05.383Z",
     "muscle-myth": "2026-10-29T00:16:44.152588+00:00",
     "veyrthalis": "2026-11-01T22:40:30.513537+00:00",
     "facility": "2026-11-03T17:15:50.237520+00:00",
@@ -1244,6 +1244,9 @@
     "male-harem": "2026-10-27T18:37:41.454096+00:00",
     "beefythiq": "2026-11-03T09:20:24.853241+00:00",
     "bodylounger": "2026-10-27T12:45:55.748848+00:00",
-    "luke-bwomph": "2026-11-02T09:13:55.100541+00:00"
+    "luke-bwomph": "2026-11-02T09:13:55.100541+00:00",
+    "joseph-signal": "2026-11-03T23:44:57+01:00",
+    "joseph-kirk-continuity": "2026-11-03T23:55:00+01:00",
+    "asset-intake-2026-11-03": "2026-11-03T23:58:00+01:00"
   }
 }

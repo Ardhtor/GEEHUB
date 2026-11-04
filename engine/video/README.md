@@ -114,3 +114,8 @@ After staging, pass the reported `staged_video` path to `analyze_source.py`. Thi
 The short-form generator lives at `../video/imagine-studio.html`. It requests six-second 480p clips, finishes them at 420p, and publishes the actual video Blob through the shared Dropbox production outbox when connected. Project presets live in `presets/` and are loaded by the Imagine interface; they carry the project ID, prompt, continuity locks, and anchor times into the generated artifact's provenance. The Teal Titan preset is `presets/teal-titan-golds-on-5th.json`, with its browser loader at `presets/teal-titan-golds-on-5th.js`.
 
 The Imagine generator and the Blender/FFmpeg scene runner are distinct production paths. Imagine is the short-form text/image-to-video route; Blender is the local procedural 3D route. Neither should claim the other path's output. Both should preserve the original Dropbox source, use the shared production outbox, and distinguish a prepared package from an actual rendered file. The Imagine browser expects a separate worker on port 8787; that worker is not included in this repository. Its exact request/response contract and acceptance tests are documented in [IMAGINE_WORKER_CONTRACT.md](IMAGINE_WORKER_CONTRACT.md). The Blender/FFmpeg engine on port 8765 is not a drop-in replacement for that service.
+
+
+## Verified source staging
+
+The Teal Titan project includes a Dropbox staging runbook at `production/projects/teal-titan-golds-on-5th/STAGING.md`. It documents local Dropbox discovery, visual source selection, checksum-verified staging, FFprobe metadata, six-frame extraction and explicit stop conditions. Use it as the reference procedure when adapting staging to other short-form projects.

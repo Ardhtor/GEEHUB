@@ -3142,7 +3142,7 @@
       "source": "GEEHUB production overhaul from user direction",
       "kind": "production-overhaul",
       "title": "THE TEAL TITAN / GEEHUB VIDEO PRODUCTION VERTICAL",
-      "content": "Created a registered six-second 420p production project for The Teal Titan of Gold's on 5th. Added Marcus continuity locks, six-stage shot design, extended voiceover, asset register, machine-readable production manifest, Imagine Engine preset and UI loader, project Atlas entries, and README integration. Dropbox search located three plausible source videos; metadata is recorded but none has been visually verified as the correct source. No generated master is claimed.",
+      "content": "Created and registered the Teal Titan six-second 420p production project. Added Marcus continuity locks, six-stage shot design, extended voiceover, asset register, machine-readable manifest, Imagine Engine preset, six-state UI monitor, source-candidate preview links, named export handling, project Atlas entries, and worker contract with acceptance tests. Dropbox search found three plausible source videos; metadata and preview links are recorded but none has been visually verified as the correct source. The port-8787 Imagine worker is an external dependency absent from the repository; the port-8765 Blender/FFmpeg engine is a distinct local 3D route. No master render is claimed.",
       "production_note": "The Imagine Studio can load the Teal Titan project preset and publish the resulting MP4 with project lineage to the shared Dropbox outbox. The original source remains authoritative in Dropbox.",
       "lineage": {
         "actor": "GEEHUB",
@@ -3162,7 +3162,7 @@
       "canon": "experimental",
       "dreamable": true,
       "quietness": "medium",
-      "next_action": "Visually verify the three Dropbox source candidates, lock Marcus's baseline, and generate the six-second 420p master."
+      "next_action": "Inspect the three Dropbox source candidates, choose the matching original, stage a SHA-256-verified working copy, then generate and review the six-second master."
     }
   ]
 }

@@ -68,6 +68,7 @@ GitHub holds this compact production specification and its manifests. Dropbox re
 - [Machine-readable production manifest](production.json)
 - [Asset register and provenance gates](ASSET_REGISTER.json)
 - [Imagine Engine preset](../../../engine/video/presets/teal-titan-golds-on-5th.json)
+- [Imagine worker contract and acceptance tests](../../../engine/video/IMAGINE_WORKER_CONTRACT.md)
 
 ## Deliverables
 
@@ -81,5 +82,5 @@ GitHub holds this compact production specification and its manifests. Dropbox re
 
 ## Current state
 
-The creative brief and shot progression are established. Dropbox search found three plausible source candidates: `/SnapVid.Net_YPBbLkvp9AQAKdpS_672p.mp4`, `/WhatsApp Video 2026-10-31 at 02.10.14.mp4`, and `/grouba (1)/colossal_giant_bodybuilder.mp4`. Their metadata is recorded in `production.json`; none has been visually verified as the Teal Titan source yet. No render is claimed. The next production action is to inspect the candidate videos and lock Marcus's baseline from the correct source.
+The creative brief and shot progression are established. Dropbox search found three plausible source candidates: `/SnapVid.Net_YPBbLkvp9AQAKdpS_672p.mp4`, `/WhatsApp Video 2026-10-31 at 02.10.14.mp4`, and `/grouba (1)/colossal_giant_bodybuilder.mp4`. Their metadata is recorded in `production.json`; none has been visually verified as the Teal Titan source yet. No render is claimed. The Imagine Studio now loads a six-state project monitor and exposes the three Dropbox preview candidates. Its port-8787 worker is a separate dependency not included in this repository; the local Blender engine on port 8765 is a different production path. The next production action is to visually inspect the Dropbox candidates, select the correct source, and lock Marcus's baseline.
 

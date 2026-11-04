@@ -10,7 +10,21 @@ function loadTealTitan(){
  activePreset=titanPreset;mode="text";sourceData=null;
  document.querySelectorAll(".mode").forEach(b=>b.classList.toggle("active",b.dataset.mode==="text"));
  $("imageDrop").hidden=true;
+ $("sourceImage").value="";$("sourcePreview").hidden=true;$("removeImage").hidden=true;document.querySelector(".image-drop-inner").hidden=false;
  $("prompt").value=titanPreset.prompt;
+ $("projectPanel").hidden=false;
+ const stageWrap=$("projectStages");stageWrap.replaceChildren();
+ (titanPreset.stages||[]).forEach(stage=>{
+  const card=document.createElement("div");card.className="project-stage";
+  const time=document.createElement("small");time.textContent=stage.time;
+  const name=document.createElement("b");name.textContent=stage.name;
+  const detail=document.createElement("span");detail.textContent=stage.detail;
+  card.append(time,name,detail);stageWrap.append(card);
+ });
+ const sourceWrap=$("projectSources");sourceWrap.replaceChildren();
+ (titanPreset.sourceCandidates||[]).forEach(source=>{
+  const link=document.createElement("a");link.className="project-source";link.href=source.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=source.name+" / "+source.status;sourceWrap.append(link);
+ });
  $("aspect").value=titanPreset.aspectRatio||"16:9";
  $("audio").checked=!!titanPreset.generateAudio;
  $("stageMeta").textContent=$("aspect").value+" / 420P / 06 SEC";
@@ -75,16 +89,17 @@ async function poll(id){
 }
 async function showResult(data){
  overlay(false);finalUrl=API+data.videoPath;const r=await fetch(finalUrl);if(!r.ok)throw new Error("Finished video could not be downloaded");finalBlob=await r.blob();
+ const outputName=activePreset?.id==="teal-titan-golds-on-5th"?"teal-titan-golds-on-5th-420p.mp4":(data.filename||"geehub-imagine-420p.mp4");
  $("resultVideo").src=URL.createObjectURL(finalBlob);$("resultVideo").hidden=false;$("stagePlaceholder").hidden=true;
- $("downloadVideo").href=URL.createObjectURL(finalBlob);$("downloadVideo").download=data.filename||"geehub-imagine-420p.mp4";
+ $("downloadVideo").href=URL.createObjectURL(finalBlob);$("downloadVideo").download=outputName;
  $("resultActions").hidden=false;$("jobTime").textContent=((Date.now()-startAt)/1000).toFixed(0)+" SEC";status("READY · 420P MP4 / 6 SECONDS");
- const item={id:data.jobId,title:activePreset?.title||rawPrompt.slice(0,68)||"Image animation",filename:data.filename,videoUrl:finalUrl,createdAt:new Date().toISOString(),blob:finalBlob};
+ const item={id:data.jobId,title:activePreset?.title||rawPrompt.slice(0,68)||"Image animation",filename:outputName,videoUrl:finalUrl,createdAt:new Date().toISOString(),blob:finalBlob};
  history.unshift(item);renderHistory();
  if(window.GEEHUB_PRODUCTION?.publish){window.GEEHUB_PRODUCTION.publish({id:data.jobId,title:item.title,kind:"video",blob:finalBlob,filename:item.filename,source:"GEEHUB Imagine Engine",lineage:{mode,aspectRatio:$("aspect").value,model:"grok-imagine-video-1.5-lite",...(activePreset?.lineage||{})},simulation_state:{duration:6,output:"420p",providerRender:"480p",generateAudio:$("audio").checked,prompt:rawPrompt,interpretedPrompt,naiveMode,project:activePreset?.id||null},canon:"experiment"}).catch(()=>{});}
 }
 function renderHistory(){$("historyCount").textContent=history.length+" CLIP"+(history.length===1?"":"S");$("historyList").innerHTML="";history.forEach(item=>{const card=document.createElement("button");card.className="history-card";card.type="button";const v=document.createElement("video");v.src=item.videoUrl;v.muted=true;v.preload="metadata";const b=document.createElement("b");b.textContent=item.title||"Untitled";const sm=document.createElement("small");sm.textContent="420P · 00:06";card.append(v,b,sm);card.addEventListener("click",()=>{ $("resultVideo").src=item.videoUrl;$("resultVideo").hidden=false;$("stagePlaceholder").hidden=true;finalBlob=item.blob;finalUrl=item.videoUrl;$("resultActions").hidden=false;$("downloadVideo").href=URL.createObjectURL(item.blob);$("downloadVideo").download=item.filename;});$("historyList").append(card);});}
 $("generate").addEventListener("click",generate);
 $("newShot").addEventListener("click",()=>{$("prompt").focus();$("resultActions").hidden=true;status("READY FOR ANOTHER SHOT");});
-$("saveProduct").addEventListener("click",async()=>{if(!finalBlob)return;try{await window.GEEHUB_PRODUCTION?.publish({id:activeJob||("imagine-save-"+Date.now()),title:activePreset?.title||rawPrompt.slice(0,68)||"Imagine video",kind:"video",blob:finalBlob,filename:"geehub-imagine-420p.mp4",source:"GEEHUB Imagine Engine",canon:"experiment",simulation_state:{duration:6,output:"420p",prompt:rawPrompt,naiveMode,project:activePreset?.id||null},lineage:activePreset?.lineage||null});status("PRODUCT ADDED TO GEEHUB OUTBOX");}catch(e){status("SAVE QUEUED LOCALLY · "+e.message);}});
+$("saveProduct").addEventListener("click",async()=>{if(!finalBlob)return;try{await window.GEEHUB_PRODUCTION?.publish({id:activeJob||("imagine-save-"+Date.now()),title:activePreset?.title||rawPrompt.slice(0,68)||"Imagine video",kind:"video",blob:finalBlob,filename:activePreset?.id==="teal-titan-golds-on-5th"?"teal-titan-golds-on-5th-420p.mp4":"geehub-imagine-420p.mp4",source:"GEEHUB Imagine Engine",canon:"experiment",simulation_state:{duration:6,output:"420p",prompt:rawPrompt,naiveMode,project:activePreset?.id||null},lineage:activePreset?.lineage||null});status("PRODUCT ADDED TO GEEHUB OUTBOX");}catch(e){status("SAVE QUEUED LOCALLY · "+e.message);}});
 checkWorker();
 })();

@@ -61,6 +61,14 @@ The source joke timings (0.0, 1.1 and 3.2 seconds) are preserved as anchor beats
 
 GitHub holds this compact production specification and its manifests. Dropbox remains the source of truth for video, images, audio and rendered media. The original source is never overwritten.
 
+## Production documents
+
+- [Six-second shot design](SHOT_DESIGN.md)
+- [Extended trailer voiceover](VOICEOVER.md)
+- [Machine-readable production manifest](production.json)
+- [Asset register and provenance gates](ASSET_REGISTER.json)
+- [Imagine Engine preset](../../../engine/video/presets/teal-titan-golds-on-5th.json)
+
 ## Deliverables
 
 - Six-second 420p MP4 master.

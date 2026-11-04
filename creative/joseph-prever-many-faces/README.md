@@ -32,3 +32,12 @@ The Joseph–Kirk narrative now has a dedicated experimental chapter: [The Secon
 ## Story index
 
 The Veyrthalis branch now has a reading-order and continuity index: [Joseph & Kirk — Story Index](../../lore/veyrthalis/JOSEPH_KIRK_INDEX.md). It links the expedition origin, *The Second Heart*, the public-signal record, open questions, and the next chapter seed.
+
+
+## Chapter II — The Procession of Two Accounts
+
+The next shared chapter is [The Procession of Two Accounts](../../lore/veyrthalis/THE_PROCESSION_OF_TWO_ACCOUNTS.md). The four travelers choose separate routes from the Digitorium and meet at the Procession. Joseph chooses to observe the lower city independently before comparing accounts; Kirk tests the corridor image without turning it into evidence about another person's thoughts. The four witnesses record different sequences, especially the position and timing of a bell. Their accounts reveal a blank centre that none has entered. The Binding threshold is visible beyond the Procession but remains uncrossed.
+
+The chapter advances Joseph's agency through an observable choice while leaving his larger objective open. Kirk and Joseph choose to continue side by side, but neither claims the other's memory. The second heartbeat and the identity of the unresolved transformation remain unknown.
+
+The structured model and runtime now include all three chapters, 37 beats, and four separate witness accounts. The public YES JOEY post remains a public observation and narrative seed only; it does not establish Joey's awareness, intention, receipt, or response.

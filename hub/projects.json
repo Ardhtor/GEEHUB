@@ -349,7 +349,7 @@
     "name": "Joseph Prever - Many Faces",
     "group": "character-workspace",
     "status": "incubating",
-    "summary": "Source-grounded character exploration tied to the experimental Veyrthalis expedition; proposed facets remain distinct from established scenes.",
+    "summary": "Source-grounded fictional character workspace for Joseph in the experimental Veyrthalis expedition; now includes his independent observation and boundary-setting in The Procession of Two Accounts, while larger motives and real-person claims remain separate.",
     "path": "../creative/joseph-prever-many-faces/README.md",
     "tags": [
       "character",
@@ -613,8 +613,8 @@
     "name": "Joseph & Kirk — Continuity",
     "group": "story",
     "status": "experimental",
-    "summary": "A dedicated Veyrthalis story branch for Joseph and Kirk: mutual bond, independent agency, shared perceptions, and the unresolved second heartbeat.",
-    "path": "../lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md",
+    "summary": "Experimental Veyrthalis story branch: four travelers choose separate routes and preserve four independent accounts at the Procession; Kirk and Joseph continue by mutual choice while the unentered centre and second heartbeat remain unresolved.",
+    "path": "../lore/veyrthalis/JOSEPH_KIRK_INDEX.md",
     "tags": [
       "joseph",
       "kirk",

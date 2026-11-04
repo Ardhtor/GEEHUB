@@ -205,6 +205,15 @@
       "worker": "http://127.0.0.1:8765",
       "renderer": "Blender + FFmpeg",
       "note": "separate procedural 3D pipeline; not a drop-in Imagine worker"
+    },
+    "sourceReview": {
+      "ui": "engine/video/source-review.html",
+      "method": "browser-local-video-contact-sheet",
+      "purpose": "inspect Dropbox desktop-synced video without uploading it; sample six frames and export source-review JSON",
+      "limitations": [
+        "browser file picker does not expose absolute path",
+        "SHA-256 is computed later by stage_dropbox_source.py"
+      ]
     }
   }
 }

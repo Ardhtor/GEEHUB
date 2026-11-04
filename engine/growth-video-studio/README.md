@@ -50,6 +50,36 @@ If the manifest has exactly one queued job, the final id argument can be omitted
 
 The module records references and lineage; it does not copy video bytes, write frame sequences, invoke Resolve, or render pixels. Tests are in core/bridge-manifest.test.js and core/bridge-exchange.test.js.
 
+## Frame-sequence intake and local verification
+
+The frame-sequence intake contract is `core/frame-sequence.js`, schema
+`geehub.frame-sequence` version 1. It accepts per-frame evidence from an
+external segmentation/tracking producer and validates contiguous frame numbers,
+fixed-FPS timestamps, source lineage, frame dimensions, identity and articulated
+landmarks, confidence, and temporal continuity. Segmentation records must name
+separate body and face PNG masks. The body-mask descriptor must declare
+`excludesFace: true`; the face-mask descriptor must declare
+`protectsIdentity: true`.
+
+`core/frame-sequence-worker.js` verifies the referenced mask files beneath the
+configured Dropbox root. It refuses symlinked paths, checks each actual
+SHA-256 digest, and reads the PNG signature and IHDR dimensions. Run the audit
+with Node 22:
+
+~~~bash
+GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \
+  npm run inspect:frames -- ./frame-sequence.json
+~~~
+
+A successful audit reports `ready-for-geometry`. This means the sequence,
+mask files, checksums, and declared dimensions agree. It does **not** mean a
+segmentation model ran or that mask pixels were semantically inspected:
+face-exclusion and identity-protection remain producer declarations, and the
+worker neither decodes nor changes image pixels. No frame deformation or video
+render is performed by this intake step. Seven focused tests cover ordering,
+source lineage, dimensions, identity confidence, temporal discontinuity,
+checksum verification, and symlink refusal.
+
 ## AI creative-workstation framework
 
 The studio now has a first executable layer for AI-directed construction:

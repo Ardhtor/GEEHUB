@@ -3142,7 +3142,7 @@
       "source": "GEEHUB production overhaul from user direction",
       "kind": "production-overhaul",
       "title": "THE TEAL TITAN / GEEHUB VIDEO PRODUCTION VERTICAL",
-      "content": "Created and registered the Teal Titan six-second 420p production project. Added Marcus continuity locks, six-stage shot design, extended voiceover, asset register, machine-readable manifest, Imagine Engine preset, six-state UI monitor, source-candidate preview links, named export handling, project Atlas entries, and worker contract with acceptance tests. Dropbox search found three plausible source videos; metadata and preview links are recorded but none has been visually verified as the correct source. The port-8787 Imagine worker is an external dependency absent from the repository; the port-8765 Blender/FFmpeg engine is a distinct local 3D route. No master render is claimed.",
+      "content": "Created and registered the Teal Titan six-second 420p production project. Added Marcus continuity locks, six-stage shot design, extended voiceover, asset register, machine-readable manifest, Imagine Engine preset, six-state UI monitor, source-candidate preview links, named export handling, project Atlas entries, and worker contract with acceptance tests. Dropbox search found three plausible source videos; metadata and preview links are recorded but none has been visually verified as the correct source. The port-8787 Imagine worker is an external dependency absent from the repository; the port-8765 Blender/FFmpeg engine is a distinct local 3D route. No master render is claimed. Added a reusable short-form video project template (README, JSON Schema, shot-design template and asset-register template). Added a browser-local source-review page that opens locally synced Dropbox videos, samples six frames and exports source-review JSON without uploading the original. The Teal Titan project links to Imagine Studio, Source Review and the separate local 3D Studio.",
       "production_note": "The Imagine Studio can load the Teal Titan project preset and publish the resulting MP4 with project lineage to the shared Dropbox outbox. The original source remains authoritative in Dropbox.",
       "lineage": {
         "actor": "GEEHUB",
@@ -3162,7 +3162,7 @@
       "canon": "experimental",
       "dreamable": true,
       "quietness": "medium",
-      "next_action": "Inspect the three Dropbox source candidates, choose the matching original, stage a SHA-256-verified working copy, then generate and review the six-second master."
+      "next_action": "Use Source Review to inspect the three Dropbox candidates; select the correct original; stage it with SHA-256 verification; then run and review the six-second generation."
     }
   ]
 }

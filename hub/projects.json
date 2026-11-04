@@ -671,5 +671,22 @@
       "myth",
       "continuity"
     ]
+  },
+  {
+    "id": "dad-convent",
+    "name": "The Dad Convent",
+    "group": "world",
+    "status": "active",
+    "summary": "A continuously expanding residential estate and construction culture. Residents plan, build, repair, inhabit, and record halls, workshops, residential wings, recreation buildings, roads, gardens, and shared infrastructure.",
+    "path": "../lore/dad-convent/README.md",
+    "tags": [
+      "world",
+      "construction",
+      "settlement",
+      "building",
+      "adult-male",
+      "continuity",
+      "registry"
+    ]
   }
 ]

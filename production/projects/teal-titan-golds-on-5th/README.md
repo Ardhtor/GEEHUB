@@ -61,6 +61,10 @@ The source joke timings (0.0, 1.1 and 3.2 seconds) are preserved as anchor beats
 
 GitHub holds this compact production specification and its manifests. Dropbox remains the source of truth for video, images, audio and rendered media. The original source is never overwritten.
 
+## Open the production surface
+
+[Open Imagine Studio with the Teal Titan preset loaded](../../../engine/video/imagine-studio.html?project=teal-titan-golds-on-5th). The project panel displays the six escalation stages and links to the three Dropbox source candidates. [Open the local 3D Studio](../../../hub/gee-studio.html) for the separate Blender/FFmpeg path.
+
 ## Production documents
 
 - [Six-second shot design](SHOT_DESIGN.md)

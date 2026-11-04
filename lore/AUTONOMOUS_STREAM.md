@@ -1117,3 +1117,11 @@ SETH: Rain shifts across the northern road. A loose sign turns twice against its
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 152 — ATMOSPHERE / THE COMPLEX / 2026-11-04T23:29:43.614313+00:00
+
+SETH: The corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the sill, and sunlight reaches the wall where a doorway used to cast a narrower shadow.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

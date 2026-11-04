@@ -7,7 +7,8 @@
   "source_texts": [
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
     "lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md",
-    "signals/joseph/YES_JOEY_2026-11-01.md"
+    "signals/joseph/YES_JOEY_2026-11-01.md",
+    "lore/veyrthalis/THE_PROCESSION_OF_TWO_ACCOUNTS.md"
   ],
   "characters": {
     "kirk": {
@@ -17,7 +18,7 @@
         "names his own perceptions",
         "compares accounts without surrendering authorship"
       ],
-      "current_state": "chooses to cross after Joseph"
+      "current_state": "chooses the root passage, records the window and bell sequence, and elects to continue beside Joseph without merging accounts"
     },
     "joseph": {
       "agency": "independent",
@@ -26,17 +27,17 @@
         "questions the ancient presence",
         "chooses and initiates his own crossing"
       ],
-      "current_state": "stands in the inner chamber"
+      "current_state": "chooses the water stair to observe independently, records the basin and pulse sequence, and elects to continue alongside Kirk"
     },
     "traveler_3": {
       "agency": "independent",
       "identity": "unresolved",
-      "current_state": "one of four arrivals"
+      "current_state": "chooses the upper glass causeway and records a lantern beneath the bridge and a bell above it"
     },
     "traveler_4": {
       "agency": "independent",
       "identity": "unresolved",
-      "current_state": "one of four arrivals; transformation association not assigned"
+      "current_state": "chooses the unmarked passage and records delayed footsteps and uncertain bell timing"
     }
   },
   "places": {
@@ -95,8 +96,21 @@
       "choice_required": true
     },
     "procession": {
-      "type": "unresolved_route",
-      "next_chapter": "procession_of_two_accounts"
+      "type": "bridge_and_account_hall",
+      "connects": [
+        "root_passage",
+        "water_stair",
+        "glass_causeway",
+        "unmarked_passage",
+        "binding_threshold"
+      ],
+      "features": [
+        "four parallel stone bands",
+        "dark account table",
+        "four separate witness plates",
+        "unentered central blank"
+      ],
+      "function": "allows separate route memories to be compared without merging them"
     },
     "binding": {
       "type": "unresolved_place"
@@ -106,6 +120,65 @@
     },
     "box_lukes_box": {
       "type": "unresolved_place"
+    },
+    "root_passage": {
+      "type": "route",
+      "connects": [
+        "procession"
+      ],
+      "features": [
+        "cedar-lined corridor",
+        "narrow window",
+        "blank screen"
+      ],
+      "chosen_by": "kirk"
+    },
+    "water_stair": {
+      "type": "route",
+      "connects": [
+        "procession"
+      ],
+      "features": [
+        "nineteen wet steps",
+        "dry basin",
+        "hand impression in brass"
+      ],
+      "chosen_by": "joseph"
+    },
+    "glass_causeway": {
+      "type": "route",
+      "connects": [
+        "procession"
+      ],
+      "features": [
+        "translucent bridge",
+        "brass studs",
+        "lantern visible beneath glass"
+      ],
+      "chosen_by": "traveler_3"
+    },
+    "unmarked_passage": {
+      "type": "route",
+      "connects": [
+        "procession"
+      ],
+      "features": [
+        "unlit stone passage",
+        "delayed footsteps",
+        "rising stair"
+      ],
+      "chosen_by": "traveler_4"
+    },
+    "unentered_centre": {
+      "type": "unvisited_space",
+      "status": "unentered",
+      "owner": null,
+      "relation_to_second_heartbeat": "unknown"
+    },
+    "binding_threshold": {
+      "type": "threshold",
+      "choice_required": true,
+      "status": "seen_not_crossed"
     }
   },
   "chapters": [
@@ -270,6 +343,112 @@
           "unresolved": true
         }
       ]
+    },
+    {
+      "id": "procession_of_two_accounts",
+      "title": "The Procession of Two Accounts",
+      "source": "lore/veyrthalis/THE_PROCESSION_OF_TWO_ACCOUNTS.md",
+      "beats": [
+        {
+          "id": "four_routes_open",
+          "event": "The Digitorium opens four distinct departures: root passage, water stair, glass causeway, and unmarked passage.",
+          "place": "digitorium"
+        },
+        {
+          "id": "kirk_chooses_root",
+          "event": "Kirk independently chooses the root passage to test the corridor image without treating it as evidence about another person's thoughts.",
+          "actors": [
+            "kirk"
+          ],
+          "actor": "kirk",
+          "choice": "kirk_takes_root_route",
+          "place": "root_passage"
+        },
+        {
+          "id": "joseph_chooses_water",
+          "event": "Joseph chooses the water stair so he can observe the lower city before comparing accounts.",
+          "actors": [
+            "joseph"
+          ],
+          "actor": "joseph",
+          "choice": "joseph_takes_water_route",
+          "place": "water_stair"
+        },
+        {
+          "id": "traveler_three_chooses_glass",
+          "event": "The third traveler chooses the upper glass causeway and observes a lantern moving beneath the bridge.",
+          "actors": [
+            "traveler_3"
+          ],
+          "actor": "traveler_3",
+          "choice": "traveler_3_takes_glass_route",
+          "place": "glass_causeway"
+        },
+        {
+          "id": "traveler_four_chooses_unmarked",
+          "event": "The fourth traveler chooses the unmarked passage, stops rather than following an unexplained footstep, and selects his own turn.",
+          "actors": [
+            "traveler_4"
+          ],
+          "actor": "traveler_4",
+          "choice": "traveler_4_takes_unmarked_route",
+          "place": "unmarked_passage"
+        },
+        {
+          "id": "separate_observations",
+          "event": "Each traveler records a distinct sequence of surfaces, sounds, and decisions; no route supplies a complete account.",
+          "mechanic": "separate_continuities"
+        },
+        {
+          "id": "procession_convergence",
+          "event": "The four routes open onto different entrances of the Procession bridge and account hall.",
+          "place": "procession"
+        },
+        {
+          "id": "accounts_recorded",
+          "event": "Kirk, Joseph, and the two unnamed travelers place their accounts on four separate plates before hearing the others.",
+          "mechanic": "independent_testimony"
+        },
+        {
+          "id": "discrepancy_detected",
+          "event": "The bell is heard in different positions and at different points in the four sequences; the accounts do not yield a single chronology.",
+          "mechanic": "parallel_accounts"
+        },
+        {
+          "id": "blank_centre_revealed",
+          "event": "The four route lines bend around a central space none of the travelers entered; its purpose and relation to the second heartbeat remain unknown.",
+          "place": "unentered_centre",
+          "unresolved": true
+        },
+        {
+          "id": "joseph_chooses_parallel_walk",
+          "event": "Joseph offers to continue alongside Kirk without deciding what their shared route means for either of them.",
+          "actors": [
+            "joseph"
+          ],
+          "actor": "joseph",
+          "choice": "joseph_chooses_parallel_continuation"
+        },
+        {
+          "id": "kirk_chooses_parallel_walk",
+          "event": "Kirk accepts company while preserving the difference between their routes and memories.",
+          "actors": [
+            "kirk"
+          ],
+          "actor": "kirk",
+          "choice": "kirk_chooses_parallel_continuation"
+        },
+        {
+          "id": "binding_seen_not_crossed",
+          "event": "The travelers see the marked Binding threshold beyond the Procession but do not cross it yet.",
+          "place": "binding_threshold"
+        },
+        {
+          "id": "second_heartbeat_waits",
+          "event": "The second heartbeat moves in apparent direction without revealing its source or owner.",
+          "unresolved": true
+        }
+      ]
     }
   ],
   "mechanics": {
@@ -296,6 +475,14 @@
     "signal_provenance": {
       "rule": "Public posts can seed fictional imagery but never establish private receipt, intent, or response.",
       "invariant": true
+    },
+    "parallel_accounts": {
+      "rule": "Each witness account remains separately authored. Compare sequence and concrete details without synthesizing a common memory.",
+      "invariant": true
+    },
+    "unentered_space": {
+      "rule": "A blank or unvisited place remains unknown until a traveler chooses to enter and observes it; do not assign it as the source of the second heartbeat.",
+      "invariant": true
     }
   },
   "unresolved": {
@@ -314,24 +501,34 @@
       "status": "unknown"
     },
     "procession_routes": {
-      "status": "not_yet_written"
+      "status": "charted",
+      "accounts": "four_separate_records",
+      "note": "All four routes reach the Procession by different entrances; their sequences remain distinct."
+    },
+    "unentered_centre": {
+      "status": "unvisited",
+      "purpose": "unknown",
+      "relation_to_second_heartbeat": "unknown"
+    },
+    "binding_threshold": {
+      "status": "seen_not_crossed"
     }
   },
   "next_chapter": {
-    "id": "procession_of_two_accounts",
-    "title": "The Procession of Two Accounts",
+    "id": "the_unentered_place",
+    "title": "The Unentered Place",
     "status": "seed",
-    "premise": "Four travelers leave the Digitorium by different routes. Kirk and Joseph compare non-identical accounts; the discrepancy becomes a clue that distinct memories can meet without merging.",
+    "premise": "The four accounts reveal a central space that every route approaches but none enters. The travelers must decide whether and how to approach it without allowing the city's architecture to dictate what they remember.",
     "required_events": [
-      "four_routes_open",
-      "separate_observations",
-      "accounts_recorded",
-      "discrepancy_detected",
-      "shared_inquiry_begins"
+      "return_to_the_blank_centre",
+      "independent_choice_to_approach",
+      "new_observations_recorded_separately",
+      "binding_threshold_confronted"
     ],
     "do_not_resolve": [
       "second_heartbeat_owner",
-      "unresolved_transformation_identity"
+      "unresolved_transformation_identity",
+      "purpose_of_unentered_centre"
     ]
   },
   "continuity_invariants": [
@@ -340,6 +537,66 @@
     "Shared visions are story events, not proof of shared private thoughts.",
     "The YES JOEY post remains an unresolved public observation.",
     "The second heartbeat remains unidentified.",
-    "This is experimental fiction and does not speak for real-world Joseph Prever."
+    "This is experimental fiction and does not speak for real-world Joseph Prever.",
+    "The four travelers choose four distinct routes; no route is assigned by the city.",
+    "The Procession holds four separate accounts and never merges their memories.",
+    "The unentered centre remains unknown and is not assumed to be the source of the second heartbeat.",
+    "The Binding threshold is seen but not crossed in The Procession of Two Accounts."
+  ],
+  "witness_accounts": [
+    {
+      "witness": "kirk",
+      "route": "root_passage",
+      "observation": "Cedar corridor, three glass squares, narrow window, blank screen; one bell note behind the wall before the window.",
+      "sequence": [
+        "root_passage",
+        "three_glass_squares",
+        "window",
+        "blank_screen",
+        "bell_before_window"
+      ],
+      "merged": false
+    },
+    {
+      "witness": "joseph",
+      "route": "water_stair",
+      "observation": "Nineteen wet steps, dry basin with two rings, shallow channel, hand impression in brass; heartbeat through stair and floor; bell above after the basin.",
+      "sequence": [
+        "water_stair",
+        "dry_basin",
+        "two_rings",
+        "hand_impression",
+        "heartbeat",
+        "bell_after_basin"
+      ],
+      "merged": false
+    },
+    {
+      "witness": "traveler_3",
+      "route": "glass_causeway",
+      "observation": "Dry translucent bridge, lantern moving beneath the glass, bell above before the far arch.",
+      "sequence": [
+        "glass_causeway",
+        "lantern_beneath",
+        "bell_above",
+        "far_arch"
+      ],
+      "merged": false
+    },
+    {
+      "witness": "traveler_4",
+      "route": "unmarked_passage",
+      "observation": "Unlit passage, delayed footstep, a footstep ahead, chosen left turn, rising stair, door held by light; bell timing uncertain.",
+      "sequence": [
+        "unmarked_passage",
+        "delayed_footstep",
+        "footstep_ahead",
+        "left_turn",
+        "rising_stair",
+        "light_held_door",
+        "bell_uncertain"
+      ],
+      "merged": false
+    }
   ]
 }

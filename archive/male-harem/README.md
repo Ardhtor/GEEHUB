@@ -44,3 +44,5 @@ Active. Visual experiments continue. Extreme-size studies of the two growingest 
 ## Emergent language principle
 
 The archive does not impose a fixed vocabulary on its subjects or material. Terms arise from images, encounters, stories, transformations, and recurring distinctions. Record a term with the passage or artifact that gave rise to it; preserve who used it and in what context when known. Repetition may reveal a shared meaning, but do not force unrelated uses into one definition. Meanings remain provisional and may change as the world develops. Characters and communities may coin, contest, borrow, or abandon terms. The archive observes before naming and treats its glossary as an evolving record of the world's own language, not a taxonomy imposed from outside.
+
+Language capture protocol: [`language/README.md`](language/README.md). This protocol records source-grounded expressions without pre-populating a glossary.

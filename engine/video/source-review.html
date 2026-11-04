@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090c0e">
+<title>GEEHUB // SOURCE REVIEW</title>
+<link rel="stylesheet" href="./source-review.css">
+</head>
+<body>
+<main class="shell">
+<header><a href="./imagine-studio.html">← IMAGINE STUDIO</a><div class="brand">GEEHUB <span>// SOURCE REVIEW</span></div><span class="status">LOCAL MEDIA / NO UPLOAD</span></header>
+<section class="intro"><div class="eyebrow">REFERENCE FOOTAGE / FRAME INSPECTION</div><h1>Look at the source.</h1><p>Choose a video from your locally synced Dropbox folder. It stays in this browser; nothing is uploaded. GEEHUB samples six frames so you can identify the right source and record the exact visual reference.</p></section>
+<section class="source-select">
+<label for="sourceFile">SOURCE VIDEO</label>
+<input id="sourceFile" type="file" accept="video/*">
+<label for="dropboxPath">DROPBOX PATH / OPTIONAL</label>
+<input id="dropboxPath" type="text" placeholder="/GEEHUB/production/.../source.mp4">
+<label for="projectId">PROJECT ID</label>
+<input id="projectId" type="text" value="teal-titan-golds-on-5th">
+<div class="hint">Open the file picker and navigate to your Dropbox desktop-synced folder. Select the original video; do not move or rename it.</div>
+</section>
+<section id="reviewArea" hidden>
+<div class="metadata" id="metadata"></div>
+<div class="player-wrap"><video id="sourceVideo" controls playsinline preload="metadata"></video></div>
+<div class="frame-head"><span>REFERENCE CONTACT SHEET / SIX CHECKPOINTS</span><button id="captureFrames" type="button">CAPTURE AGAIN</button></div>
+<div id="frames" class="frames"></div>
+<div class="actions"><button id="downloadReport" type="button">DOWNLOAD SOURCE REPORT JSON</button><button id="copyReport" type="button">COPY REPORT</button></div>
+</section>
+<footer><span>GEEHUB / SOURCE ANALYSIS</span><span>THE ORIGINAL IS NEVER MODIFIED</span><a href="./IMAGINE_WORKER_CONTRACT.md">WORKER CONTRACT ↗</a></footer>
+</main>
+<script src="./source-review.js"></script>
+</body>
+</html>

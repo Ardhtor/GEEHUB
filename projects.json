@@ -621,5 +621,22 @@
       "building",
       "registry"
     ]
+  },
+  {
+    "id": "teal-titan-golds-on-5th",
+    "name": "The Teal Titan of Gold's on 5th",
+    "status": "active",
+    "kind": "video-production",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/production/projects/teal-titan-golds-on-5th/README.md",
+    "description": "Six-second 420p transformation short with six-stage continuous escalation, Marcus identity and balanced pectoral continuity locks, Imagine Engine preset, and Dropbox production handoff.",
+    "related": [
+      "geehub-studio",
+      "imagine-video-studio",
+      "beefythiq",
+      "growth-canvas",
+      "media-tools",
+      "dropbox-production-stream"
+    ]
   }
 ]

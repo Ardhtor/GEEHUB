@@ -11,11 +11,61 @@
       "type": "animation",
       "medium": "Maya (redo of older work)",
       "description": "Public release of a male growth animation. Starts similarly to an older version but diverges quickly. Creator notes being a big fan of 'the neighbor'. Explicit male muscle growth content.",
-      "labels": ["male-growth", "animation", "maya", "hulums-cave", "nsfw", "daddy-growth"],
+      "labels": [
+        "male-growth",
+        "animation",
+        "maya",
+        "hulums-cave",
+        "nsfw",
+        "daddy-growth"
+      ],
       "status": "public-release",
       "provenance": "Direct from @HulumsCave on X, 2026-09-21. High engagement (1.8k likes, 24k views at time of capture).",
-      "related": ["bodylounger", "male-harem-virtual-space", "beefythiq", "muscle-myth", "media-tools"],
+      "related": [
+        "bodylounger",
+        "male-harem-virtual-space",
+        "beefythiq",
+        "muscle-myth",
+        "media-tools"
+      ],
       "adult_content": true
+    },
+    {
+      "id": "gravesbeef-image-31-2026-11-04",
+      "title": "Image (31)",
+      "creator": "GravesBeef",
+      "source_url": null,
+      "archive_url": null,
+      "date": "2026-11-04",
+      "captured_at": "2026-11-04T00:36:39Z",
+      "type": "image",
+      "medium": "Digital image; 832 × 1248 px; 363.28 KB",
+      "description": "New DeviantArt submission by GravesBeef. The supplied page selection reports no description. No visual subject description is inferred because the image itself was not included in the capture.",
+      "labels": [
+        "gravesbeef",
+        "visual-archive",
+        "image-31",
+        "male-muscle-growth",
+        "transformation-reference"
+      ],
+      "platform": "DeviantArt",
+      "platform_status": "Trial NoAI",
+      "views_at_capture": 1,
+      "comments_at_capture": 0,
+      "related_collections": [
+        "Bigger muscles",
+        "Just Macho",
+        "Morphs and Pictures"
+      ],
+      "status": "metadata-captured",
+      "provenance": "Metadata transcribed from the user's selected DeviantArt page text on 2026-11-04. The page URL and image binary were not present in the supplied selection; do not treat this record as an archived image file.",
+      "related": [
+        "male-harem-virtual-space",
+        "beefythiq",
+        "mass1v1ng",
+        "growth-canvas",
+        "bodylounger"
+      ]
     }
   ]
 }

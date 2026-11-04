@@ -103,3 +103,10 @@ python3 stage_dropbox_source.py "relative/path/from/Dropbox/video.mp4" --project
 If Dropbox is installed in a non-standard location, set `GEEHUB_DROPBOX_ROOT` to the synced Dropbox folder. An absolute path to a file inside the synced Dropbox folder is also accepted. The command refuses unsupported extensions, missing/offline files, and files that are still syncing; it never overwrites an existing staged file.
 
 After staging, pass the reported `staged_video` path to `analyze_source.py`. This is a local-sync bridge, not yet a direct Dropbox API/OAuth integration. Adobe's video tools still cannot consume Dropbox temporary download URLs directly; the local Blender/FFmpeg engine does not need Adobe for source analysis or rendering.
+
+
+## Six-second Imagine Studio projects
+
+The short-form generator lives at `../video/imagine-studio.html`. It requests six-second 480p clips, finishes them at 420p, and publishes the actual video Blob through the shared Dropbox production outbox when connected. Project presets live in `presets/` and are loaded by the Imagine interface; they carry the project ID, prompt, continuity locks, and anchor times into the generated artifact's provenance. The Teal Titan preset is `presets/teal-titan-golds-on-5th.json`, with its browser loader at `presets/teal-titan-golds-on-5th.js`.
+
+The Imagine generator and the Blender/FFmpeg scene runner are distinct production paths. Imagine is the short-form text/image-to-video route; Blender is the local procedural 3D route. Neither should claim the other path's output. Both should preserve the original Dropbox source, use the shared production outbox, and distinguish a prepared package from an actual rendered file.

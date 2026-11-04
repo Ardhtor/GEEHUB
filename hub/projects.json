@@ -688,5 +688,22 @@
       "continuity",
       "registry"
     ]
+  },
+  {
+    "id": "teal-titan-golds-on-5th",
+    "name": "The Teal Titan of Gold's on 5th",
+    "group": "video-project",
+    "status": "active",
+    "summary": "Six-second 420p transformation short: Marcus becomes a balanced teal titan at Gold's on 5th. Character continuity, six-stage escalation, Imagine Engine preset and Dropbox production tree.",
+    "path": "../production/projects/teal-titan-golds-on-5th/README.md",
+    "tags": [
+      "video",
+      "transformation",
+      "Marcus",
+      "teal-titan",
+      "420p",
+      "six-second",
+      "Dropbox"
+    ]
   }
 ]

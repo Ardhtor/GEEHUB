@@ -113,6 +113,10 @@ Dream material is downstream of the ledger. It is residue, not a second idea gen
 
 The active short-form production example is [The Teal Titan of Gold's on 5th](production/projects/teal-titan-golds-on-5th/README.md). Its six-second 420p project record defines Marcus's continuity, six escalating visual states, balanced pectoral growth, shot timing, review gates, and Dropbox folder structure. The [Imagine Engine preset](engine/video/presets/teal-titan-golds-on-5th.json) loads directly into [GEEHUB Imagine Studio](engine/video/imagine-studio.html). The original video remains a Dropbox source; this project record does not claim it has been located or rendered.
 
+## Reusable video production standard
+
+New short-form video projects should start from [the GEEHUB short-form production template](production/templates/short-form-video/README.md), with a machine-readable manifest schema, shot-design template, asset register and explicit source/render/review status gates. The Teal Titan is the first project using this production vertical; the template makes the workflow reusable rather than a one-off.
+
 ## The archive
 
 The BodyLounger Research Archive is the first major working application. It is a local-first, metadata-first browser for tracing the historical web ecosystem around BodyLounger, Sarge's Locker, Hulum's Cave, muscle-growth animation, related creators, labels, and archival sources.

@@ -8,7 +8,8 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
     "lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md",
     "signals/joseph/YES_JOEY_2026-11-01.md",
-    "lore/veyrthalis/THE_PROCESSION_OF_TWO_ACCOUNTS.md"
+    "lore/veyrthalis/THE_PROCESSION_OF_TWO_ACCOUNTS.md",
+    "lore/veyrthalis/THE_UNENTERED_PLACE.md"
   ],
   "characters": {
     "kirk": {
@@ -449,6 +450,82 @@
           "unresolved": true
         }
       ]
+    },
+    {
+      "id": "the_unentered_place",
+      "title": "The Unentered Place",
+      "source": "lore/veyrthalis/THE_UNENTERED_PLACE.md",
+      "beats": [
+        {
+          "id": "binding_passage_entered",
+          "event": "The four travelers enter the passage beyond the Binding threshold and choose their own positions and pace.",
+          "place": "binding_passage"
+        },
+        {
+          "id": "four_recesses_found",
+          "event": "Four blank stone discs occupy recesses at the first landing; the travelers decline to assign them a purpose.",
+          "place": "first_landing"
+        },
+        {
+          "id": "joseph_inspects_chamber",
+          "event": "Joseph chooses to inspect the lower chamber with the third traveler while Kirk and the fourth traveler remain at the landing.",
+          "actors": [
+            "joseph",
+            "traveler_3"
+          ],
+          "choice": "joseph_inspects_lower_chamber"
+        },
+        {
+          "id": "empty_bowl_observed",
+          "event": "Four columns surround a plinth with an empty bowl; four floor lines stop short of its centre.",
+          "place": "lower_chamber"
+        },
+        {
+          "id": "separate_sensations",
+          "event": "Joseph feels the heartbeat through the floor while the third traveler reports it at the translucent column; they preserve the difference.",
+          "mechanic": "parallel_accounts"
+        },
+        {
+          "id": "landing_accounts_compared",
+          "event": "Kirk and the fourth traveler describe the dust line from their own positions; Joseph reports the chamber without claiming Kirk witnessed it.",
+          "mechanic": "independent_testimony"
+        },
+        {
+          "id": "binding_panel_seen",
+          "event": "A wall panel bearing a related square-and-oval mark appears; differing sightlines are tested without claiming knowledge of what lies behind it.",
+          "place": "binding_panel"
+        },
+        {
+          "id": "panel_left_closed",
+          "event": "Joseph and Kirk independently choose not to force the panel after its seam shifts slightly; waiting yields no opening.",
+          "actors": [
+            "joseph",
+            "kirk"
+          ],
+          "choice": "leave_panel_closed"
+        },
+        {
+          "id": "four_approaches_recorded",
+          "event": "The four travelers repeat separate observations from chosen positions; the accounts remain in separate grooves.",
+          "mechanic": "parallel_accounts"
+        },
+        {
+          "id": "fifth_groove_appears",
+          "event": "A fifth groove appears without an identified witness or known purpose; the travelers leave it empty.",
+          "place": "fifth_groove",
+          "unresolved": true
+        },
+        {
+          "id": "return_to_procession",
+          "event": "The travelers choose to return to the Procession, carrying four new accounts and leaving the fifth groove unused.",
+          "place": "procession"
+        },
+        {
+          "id": "heartbeat_unresolved",
+          "event": "The second heartbeat seems to change location but supplies no evidence of an owner or source.",
+          "unresolved": true
+        }
+      ]
     }
   ],
   "mechanics": {
@@ -515,20 +592,21 @@
     }
   },
   "next_chapter": {
-    "id": "the_unentered_place",
-    "title": "The Unentered Place",
+    "id": "the_fifth_groove",
+    "title": "The Fifth Groove",
     "status": "seed",
-    "premise": "The four accounts reveal a central space that every route approaches but none enters. The travelers must decide whether and how to approach it without allowing the city's architecture to dictate what they remember.",
+    "premise": "A fifth channel appears in the record without an identified witness. The travelers investigate how an account can be preserved before its author is known, without inventing a fifth traveler or assigning the second heartbeat.",
     "required_events": [
-      "return_to_the_blank_centre",
-      "independent_choice_to_approach",
-      "new_observations_recorded_separately",
-      "binding_threshold_confronted"
+      "return_to_the_fifth_groove",
+      "compare_the_empty_channel_from_separate_positions",
+      "preserve_the_absence_of_an_author",
+      "choose_the_next_route_without_city_assignment"
     ],
     "do_not_resolve": [
       "second_heartbeat_owner",
       "unresolved_transformation_identity",
-      "purpose_of_unentered_centre"
+      "purpose_of_the_empty_bowl",
+      "whether_a_fifth_witness_exists"
     ]
   },
   "continuity_invariants": [
@@ -541,7 +619,9 @@
     "The four travelers choose four distinct routes; no route is assigned by the city.",
     "The Procession holds four separate accounts and never merges their memories.",
     "The unentered centre remains unknown and is not assumed to be the source of the second heartbeat.",
-    "The Binding threshold is seen but not crossed in The Procession of Two Accounts."
+    "The Binding threshold is seen but not crossed in The Procession of Two Accounts.",
+    "The fifth groove remains unassigned; do not assume a fifth witness exists.",
+    "The Binding panel remains closed in The Unentered Place; a seam movement is not permission to cross."
   ],
   "witness_accounts": [
     {

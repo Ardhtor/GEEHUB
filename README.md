@@ -109,6 +109,10 @@ Dream material is downstream of the ledger. It is residue, not a second idea gen
 
 [Open GEEHUB Studio](hub/gee-studio.html) — the first executable video-production surface. GEEHUB authors the scene progression and direction, records one continuous timed growth take, generates a synchronized procedural score, and exports a WebM. The current browser prototype also exports the director's script and a reproducible render-automation stub. It is an initial production vertical slice, not yet a full DaVinci Resolve replacement; media ingestion, multitrack source editing, advanced compositing, color grading, and full audio mixing remain subsequent build stages.
 
+## Current video production / Teal Titan
+
+The active short-form production example is [The Teal Titan of Gold's on 5th](production/projects/teal-titan-golds-on-5th/README.md). Its six-second 420p project record defines Marcus's continuity, six escalating visual states, balanced pectoral growth, shot timing, review gates, and Dropbox folder structure. The [Imagine Engine preset](engine/video/presets/teal-titan-golds-on-5th.json) loads directly into [GEEHUB Imagine Studio](engine/video/imagine-studio.html). The original video remains a Dropbox source; this project record does not claim it has been located or rendered.
+
 ## The archive
 
 The BodyLounger Research Archive is the first major working application. It is a local-first, metadata-first browser for tracing the historical web ecosystem around BodyLounger, Sarge's Locker, Hulum's Cave, muscle-growth animation, related creators, labels, and archival sources.

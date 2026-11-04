@@ -67,7 +67,7 @@ This project follows the [reusable GEEHUB short-form video template](../../templ
 
 ## Open the production surface
 
-[Open Imagine Studio with the Teal Titan preset loaded](../../../engine/video/imagine-studio.html?project=teal-titan-golds-on-5th). The project panel displays the six escalation stages and links to the three Dropbox source candidates. [Open the local 3D Studio](../../../hub/gee-studio.html) for the separate Blender/FFmpeg path.
+[Open Imagine Studio with the Teal Titan preset loaded](../../../engine/video/imagine-studio.html?project=teal-titan-golds-on-5th). The project panel displays the six escalation stages and links to the three Dropbox source candidates. [Open Source Review](../../../engine/video/source-review.html?project=teal-titan-golds-on-5th) to inspect a locally synced Dropbox video in the browser, capture six frames, and export a source report without uploading the video. [Open the local 3D Studio](../../../hub/gee-studio.html) for the separate Blender/FFmpeg path.
 
 ## Production documents
 

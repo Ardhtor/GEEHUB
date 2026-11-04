@@ -1,0 +1,167 @@
+{
+  "schema": "geehub.video-project/1",
+  "id": "teal-titan-golds-on-5th",
+  "title": "The Teal Titan of Gold's on 5th",
+  "status": "active-production-design",
+  "canon": "experimental",
+  "created": "2026-11-04",
+  "subject": {
+    "id": "marcus-teal-titan",
+    "name": "Marcus",
+    "fictional": true,
+    "adult": true,
+    "continuity": "identity-locked-to-verified-source-when-available"
+  },
+  "world": {
+    "id": "golds-on-5th",
+    "name": "Gold's on 5th",
+    "timeOfDay": "golden-hour-into-evening",
+    "tone": "deadpan-comic-documentary"
+  },
+  "format": {
+    "masterDurationSeconds": 6,
+    "frameRate": 24,
+    "frameCount": 144,
+    "aspectRatio": "16:9",
+    "providerResolution": "480p",
+    "deliveryResolution": "420p",
+    "container": "mp4",
+    "audio": true
+  },
+  "creativeBrief": "Marcus takes three dry scoops of an experimental pre-workout. His skin turns vivid teal and his physique escalates continuously into a monumental, balanced bodybuilder form. The gym responds with understated reverence. He never stops posing.",
+  "continuityLocks": {
+    "skinColor": "saturated blue-green teal; not emerald or cyan",
+    "identity": "preserve verified adult face, head shape, hair and distinguishing features",
+    "pecs": "bilateral pectoral growth stays balanced; width, projection and thickness increase together",
+    "anatomy": "rounded connected muscle groups; continuous deltoid-pectoral-arm and torso transitions",
+    "scale": "height and limb length increase with muscular mass; retain joints and grounded stance",
+    "surface": "living skin, subtle tonal variation, soft natural highlights; no stone, rubber, metallic gloss or gritty overlays",
+    "wardrobe": "fabric responds to increasing volume and tension; retain a readable chest silhouette",
+    "finalState": "monumental new baseline; pose held through the final frames"
+  },
+  "escalation": [
+    {
+      "stage": 0,
+      "time": [
+        0,
+        0.6
+      ],
+      "name": "The Scoop",
+      "body": "baseline adult body; teal colour begins spreading across skin",
+      "pose": "neutral gym stance",
+      "environment": "Gold's on 5th at golden hour"
+    },
+    {
+      "stage": 1,
+      "time": [
+        0.6,
+        1.1
+      ],
+      "name": "Density",
+      "body": "deltoids round out; shoulders widen; traps begin to rise",
+      "pose": "small posture adjustment"
+    },
+    {
+      "stage": 2,
+      "time": [
+        1.1,
+        2
+      ],
+      "name": "The Double Biceps",
+      "body": "biceps and triceps enlarge; pecs broaden symmetrically; forearms thicken",
+      "pose": "double-biceps pose",
+      "anchor": "1.1 seconds"
+    },
+    {
+      "stage": 3,
+      "time": [
+        2,
+        3.2
+      ],
+      "name": "Proportion Failure",
+      "body": "chest deepens and widens evenly; lats flare; traps form a second ridge; quads and calves expand",
+      "pose": "transition into most-muscular",
+      "anchor": "3.2 seconds"
+    },
+    {
+      "stage": 4,
+      "time": [
+        3.2,
+        4.5
+      ],
+      "name": "The Roar",
+      "body": "full-body mass resolves; height, limb length and total silhouette increase together",
+      "pose": "roar during a controlled flex",
+      "environmentResponse": "subtle gym reactions; rack settles; nearby lifter applauds"
+    },
+    {
+      "stage": 5,
+      "time": [
+        4.5,
+        6
+      ],
+      "name": "Natural Light Source",
+      "body": "final teal titan physique; chest remains balanced; arms, traps and legs fully resolved",
+      "pose": "confident most-muscular into held display",
+      "lighting": "golden rim light against cool gym interior"
+    }
+  ],
+  "camera": {
+    "primary": "low three-quarter full-body view",
+    "secondary": "brief readable chest-and-arm emphasis without losing full-body continuity",
+    "motion": "one continuous forward drift with no arbitrary cuts",
+    "lensFeel": "moderate wide, natural perspective, no fisheye distortion"
+  },
+  "sound": {
+    "music": "original cinematic low-frequency build",
+    "effects": [
+      "pre-workout container rattle",
+      "subtle fabric tension",
+      "low gym-room resonance",
+      "weight-rack settling",
+      "crowd applause",
+      "short controlled roar"
+    ],
+    "mix": "dry deadpan narration sits above the score; preserve gym ambience"
+  },
+  "voiceover": {
+    "shortCut": "Six-second visual sequence; use concise title/impact narration or generated sound only",
+    "extendedCut": "30–45 second deadpan movie-trailer narration is a separate editorial version, not forced into the six-second master"
+  },
+  "reviewGates": [
+    "face continuity",
+    "teal colour consistency",
+    "balanced pectoral growth",
+    "continuous anatomical transitions",
+    "height and limb-length scaling",
+    "fabric response",
+    "gym spatial response",
+    "final pose readable in last 0.5 seconds"
+  ],
+  "source": {
+    "authority": "Dropbox",
+    "status": "not-yet-located-or-verified",
+    "requiredMetadata": [
+      "Dropbox path or file ID",
+      "original filename",
+      "SHA-256",
+      "duration",
+      "frame rate",
+      "dimensions",
+      "selected frame timestamps"
+    ]
+  },
+  "storage": {
+    "root": "/GEEHUB/production/projects/teal-titan-golds-on-5th",
+    "folders": [
+      "01_SOURCE",
+      "02_FRAMES",
+      "03_GROWTH_PASSES",
+      "04_COMPOSITES",
+      "05_EXPORTS",
+      "06_AUDIO",
+      "07_MANIFESTS"
+    ]
+  },
+  "nextAction": "Locate the original source video in Dropbox; stage a checksum-verified working copy; inspect frames and lock the Marcus identity baseline."
+}

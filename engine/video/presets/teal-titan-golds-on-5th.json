@@ -1,0 +1,27 @@
+{
+  "schema": "geehub.imagine-preset/1",
+  "id": "teal-titan-golds-on-5th",
+  "title": "The Teal Titan of Gold's on 5th",
+  "projectPath": "production/projects/teal-titan-golds-on-5th/production.json",
+  "duration": 6,
+  "aspectRatio": "16:9",
+  "resolution": "420p",
+  "providerResolution": "480p",
+  "generateAudio": true,
+  "prompt": "A single continuous six-second cinematic gym transformation at Gold's on 5th during golden hour. Marcus, a clearly adult bodybuilder, begins as a recognisable man and progressively becomes an enormous vivid teal strongman. The blue-green teal colour spreads across his skin first. His shoulders and rounded deltoids widen, then his traps rise, then he hits a double-biceps pose at 1.1 seconds as his biceps, triceps and forearms enlarge. His chest expands dramatically but symmetrically: both pectorals increase together in width, projection and thickness and remain balanced throughout. From 2.0 to 3.2 seconds his lats flare, traps form a second ridge, and his enormous thighs and calves catch up. At 3.2 seconds he transitions into a controlled most-muscular flex and roar. The final 1.5 seconds reveal a monumental, proportionally coherent teal titan under warm golden rim light and cool gym lights, holding the pose. Preserve one face and one continuous body identity, connected rounded anatomy, living skin, believable joints, increasing height and limb length, natural fabric tension and grounded floor contact. Deadpan comic documentary tone; subtle gym reactions only. One coherent continuous event, no unrelated cuts, no text, no logos, no extra limbs, no triangular or detached muscle shapes, no stone or rubber skin, no fisheye distortion.",
+  "continuityLocks": [
+    "adult identity and face continuity",
+    "saturated blue-green teal skin",
+    "bilateral pectoral balance",
+    "rounded connected anatomy",
+    "height and limb length scale with mass",
+    "natural fabric response",
+    "held final silhouette"
+  ],
+  "anchorTimes": [
+    0,
+    1.1,
+    3.2
+  ],
+  "storageRoot": "/GEEHUB/production/projects/teal-titan-golds-on-5th"
+}

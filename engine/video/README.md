@@ -43,6 +43,10 @@ Renders are saved under `~/Movies/GEEHUB/`. The local API exposes `/health`, `/r
 
 Copy the audio file into `engine/video/assets/` in the repository checkout. In the Studio PREP panel, enter its filename (for example `quthbert.mp3`). The assets folder is git-ignored so private recordings are not committed. The engine copies that asset into the render folder and mixes it with the generated low-frequency bed. The local API never reads arbitrary filesystem paths supplied by a browser.
 
+## Browser-based source review
+
+Open `source-review.html` from the video engine to inspect a video selected from the locally synced Dropbox folder without uploading it. The page reads browser metadata, samples six timestamped frames into a contact sheet, lets the user seek to each frame, and exports a JSON source-review report. The browser file picker does not expose the absolute local path and this first pass does not compute SHA-256; enter the Dropbox path manually and use `stage_dropbox_source.py` for checksum-verified staging. This is a source-inspection workaround, not direct cloud ingestion.
+
 ## Analyze reference footage
 
 The source-analysis pass now runs independently of Blender and produces timestamped JSON for shot planning:

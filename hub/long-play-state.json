@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 157,
-  "currentAgent": "tyler",
-  "currentRegion": "deep-lore",
-  "scale": 12.5,
-  "lastRun": "2026-11-04T14:49:56.382Z",
+  "cycle": 158,
+  "currentAgent": "andrew",
+  "currentRegion": "complex",
+  "scale": 12.58,
+  "lastRun": "2026-11-04T21:09:24.863Z",
   "history": [
+    {
+      "cycle": 158,
+      "agent": "andrew",
+      "previousRegion": "discovery",
+      "region": "complex",
+      "relation": "THE WORLD LEAVES A TRACE",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 12.5,
+      "scale": 12.58,
+      "recording": "scheduled-recording-00158",
+      "at": "2026-11-04T21:09:24.863Z"
+    },
     {
       "cycle": 157,
       "agent": "tyler",
@@ -1197,22 +1209,10 @@
       "scale": 6.3,
       "recording": "scheduled-recording-00059",
       "at": "2026-10-17T04:38:59.470Z"
-    },
-    {
-      "cycle": 58,
-      "agent": "andrew",
-      "previousRegion": "muscle-myth",
-      "region": "colossal-escalation",
-      "relation": "THE CITY LEARNS HIS NAME",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 6.1,
-      "scale": 6.18,
-      "recording": "scheduled-recording-00058",
-      "at": "2026-10-17T00:13:40.776Z"
     }
   ],
-  "previousRegion": "veyrthalis",
-  "relation": "DEPARTURE LEAVES A SHAPE",
+  "previousRegion": "discovery",
+  "relation": "THE WORLD LEAVES A TRACE",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 13,
@@ -1223,7 +1223,7 @@
     "muscle-myth": 9,
     "veyrthalis": 12,
     "facility": 13,
-    "complex": 12,
+    "complex": 13,
     "growth": 12,
     "male-harem": 13,
     "beefythiq": 12,
@@ -1235,11 +1235,11 @@
     "kingdom-land": "2026-10-10T23:39:46.635Z",
     "colossal-escalation": "2026-10-29T06:19:28.514809+00:00",
     "embodied-scale": "2026-11-03T22:28:08.526791+00:00",
-    "discovery": "2026-11-04T02:39:03.202928+00:00",
+    "discovery": "2026-11-04T17:54:25.221825+00:00",
     "muscle-myth": "2026-10-29T00:16:44.152588+00:00",
     "veyrthalis": "2026-11-04T09:55:16.973830+00:00",
     "facility": "2026-11-03T17:15:50.237520+00:00",
-    "complex": "2026-11-03T01:49:40.579835+00:00",
+    "complex": "2026-11-04T21:09:24.863Z",
     "growth": "2026-11-02T19:36:03.800341+00:00",
     "male-harem": "2026-10-27T18:37:41.454096+00:00",
     "beefythiq": "2026-11-03T09:20:24.853241+00:00",
@@ -1248,6 +1248,7 @@
     "joseph-signal": "2026-11-03T23:44:57+01:00",
     "joseph-kirk-continuity": "2026-11-03T23:55:00+01:00",
     "asset-intake-2026-11-03": "2026-11-03T23:58:00+01:00",
-    "procession-of-two-accounts": "2026-11-04T12:02:15+01:00"
+    "procession-of-two-accounts": "2026-11-04T12:02:15+01:00",
+    "the-unentered-place": "2026-11-04T18:08:00+01:00"
   }
 }

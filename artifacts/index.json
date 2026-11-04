@@ -3064,6 +3064,31 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue the retained world state"
+    },
+    {
+      "id": "joseph-kirk-procession-two-accounts-2026-11-04",
+      "created_at": "2026-11-04T12:02:15+01:00",
+      "source": "GEEHUB narrative development from user direction",
+      "kind": "story-chapter",
+      "title": "THE PROCESSION OF TWO ACCOUNTS / JOSEPH & KIRK",
+      "content": "Four travelers choose distinct routes from the Digitorium and meet at the Procession. Their separate accounts place the bell at different points in time and space; the discrepancy reveals an unentered centre without resolving its purpose. Joseph and Kirk choose to continue alongside one another while retaining separate memories. The Binding threshold is seen but not crossed.",
+      "lineage": {
+        "actor": "JOSEPH",
+        "co_actor": "KIRK",
+        "witnesses": [
+          "traveler_3",
+          "traveler_4"
+        ],
+        "world": "VEYRTHALIS",
+        "region_id": "procession-of-two-accounts",
+        "source": "lore/veyrthalis/THE_PROCESSION_OF_TWO_ACCOUNTS.md",
+        "phase": "CROSSING",
+        "relation": "FOUR ROUTES / FOUR ACCOUNTS / ONE UNENTERED CENTRE"
+      },
+      "canon": "experimental",
+      "dreamable": true,
+      "quietness": "high",
+      "next_action": "approach the unentered centre through an independently chosen route while preserving the unknown heartbeat and unassigned transformation"
     }
   ]
 }

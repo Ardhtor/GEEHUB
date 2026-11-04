@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00156",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00156.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-04T06:28:24.182Z"
+    },
+    {
+      "id": "scheduled-video-00156",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00156.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-04T06:28:24.182Z"
+    },
+    {
+      "id": "scheduled-space-00156",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00156.json",
+      "route": {
+        "from": "discovery",
+        "to": "veyrthalis",
+        "relation": "THE DOOR REMEMBERS"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-04T06:28:24.182Z"
+    },
+    {
       "id": "scheduled-sound-00155",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-16T21:46:02.125Z"
-    },
-    {
-      "id": "scheduled-sound-00056",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00056.json",
-      "route": {
-        "from": "male-harem",
-        "to": "colossal-escalation",
-        "relation": "MASS WITHOUT AMNESIA"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-16T18:42:23.701Z"
-    },
-    {
-      "id": "scheduled-video-00056",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00056.json",
-      "route": {
-        "from": "male-harem",
-        "to": "colossal-escalation",
-        "relation": "MASS WITHOUT AMNESIA"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-16T18:42:23.701Z"
-    },
-    {
-      "id": "scheduled-space-00056",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00056.json",
-      "route": {
-        "from": "male-harem",
-        "to": "colossal-escalation",
-        "relation": "MASS WITHOUT AMNESIA"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-16T18:42:23.701Z"
     }
   ]
 }

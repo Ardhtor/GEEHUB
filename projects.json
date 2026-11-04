@@ -596,5 +596,30 @@
       "lineage-pantheon",
       "sensation-engine"
     ]
+  },
+  {
+    "id": "dad-convent",
+    "name": "The Dad Convent",
+    "status": "active",
+    "kind": "world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dad-convent/README.md",
+    "description": "An expanding adult-male residential settlement whose central culture is collective construction: workshops, halls, residential wings, an Iron Room, bathhouse, service court, roads, gardens, and a Registry preserving every build phase.",
+    "related": [
+      "the-complex",
+      "muscle-myth",
+      "beefythiq",
+      "sensation-engine",
+      "male-stud"
+    ],
+    "tags": [
+      "world",
+      "construction",
+      "settlement",
+      "adult-male",
+      "lineage",
+      "building",
+      "registry"
+    ]
   }
 ]

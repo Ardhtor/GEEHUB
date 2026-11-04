@@ -64,6 +64,18 @@ Seven focused tests have been added for URI safety, successful staging, source-d
 
 The workshop has moved from a numbered envelope to a sealed handoff. The source remains where it was; the outgoing image has not yet been made. The next instrument is a frame-sequence worker that can accept measured masks and landmarks, verify their ordering and continuity, and return an auditable set of frames to the bridge.
 
+## 2026-11-04 — The frame-sequence bench receives its first inspection instrument
+
+The workshop now has a frame-sequence intake contract and a local file inspector. The contract does not reorder its evidence to make a damaged sequence appear orderly. Frame numbers must arrive contiguously; timestamps must follow the declared frame rate; every observation must point back to the same immutable source and preserve the source dimensions. The track carries both the articulated body anchors and the smaller set of facial identity anchors. Confidence, missing joints, abrupt motion, and timing gaps are all visible before geometry is allowed to proceed.
+
+The segmentation producer leaves two separate references at each frame: a body mask and a face mask. Their paths must be unique, their declared dimensions must match the source, and each carries a SHA-256 digest. The body-mask record declares that it excludes the face; the face-mask record declares that it protects identity. Those declarations are not mistaken for proof. The local inspector follows each Dropbox URI beneath the configured root, refuses symlinked paths, hashes the actual file bytes, and reads the PNG signature and IHDR dimensions. Only a structurally complete sequence whose mask files pass those checks is labeled ready-for-geometry.
+
+Seven focused tests passed under Node 22.16.0. They include a complete two-frame sequence, deliberate frame reordering, source and dimension mismatch, a landmark-only sequence awaiting segmentation, identity loss, abrupt landmark motion, real PNG checksum and dimension checks, checksum mismatch, and symlink refusal. Syntax checks passed for the two core modules and the command-line inspector. The command is exposed as `npm run inspect:frames`.
+
+This instrument is a gatekeeper, not a sculptor. No segmentation model ran. The worker does not decode mask pixels or prove that a declared face-excluding mask actually excludes the face; it does not create a mesh, deform an image, or render a clip. It has not been run against the user's Dropbox mirror or Resolve session. Its evidence is local test evidence only.
+
+The next passage connects the inspected sequence to the bridge manifest's typed frame sets, so the same verified segmentation and landmark records can become explicit inputs to a render job without losing their source lineage. After that, the workshop still needs a real segmentation producer and a mesh whose triangles remain stable from frame to frame.
+
 ## Chronicle rule
 
 Every future entry must be grounded in repository changes, tested behavior, user-confirmed runtime results, or clearly labeled proposals. Do not write an implementation as if it has run. Do not turn missing capabilities into lore that disguises their absence. The narrative is the machine's construction record, and the construction record is part of the machine.

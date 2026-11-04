@@ -69,6 +69,10 @@ This project follows the [reusable GEEHUB short-form video template](../../templ
 
 [Open Imagine Studio with the Teal Titan preset loaded](../../../engine/video/imagine-studio.html?project=teal-titan-golds-on-5th). The project panel displays the six escalation stages and links to the three Dropbox source candidates. [Open Source Review](../../../engine/video/source-review.html?project=teal-titan-golds-on-5th) to inspect a locally synced Dropbox video in the browser, capture six frames, and export a source report without uploading the video. [Open the local 3D Studio](../../../hub/gee-studio.html) for the separate Blender/FFmpeg path.
 
+## Source staging
+
+Follow the [Dropbox source staging runbook](STAGING.md) before any growth pass. It covers local Dropbox paths, visual candidate selection, checksum-verified staging, FFprobe metadata, six extracted review frames, baseline locking and sync verification. It explicitly preserves the original source.
+
 ## Production documents
 
 - [Six-second shot design](SHOT_DESIGN.md)
@@ -77,6 +81,7 @@ This project follows the [reusable GEEHUB short-form video template](../../templ
 - [Asset register and provenance gates](ASSET_REGISTER.json)
 - [Imagine Engine preset](../../../engine/video/presets/teal-titan-golds-on-5th.json)
 - [Imagine worker contract and acceptance tests](../../../engine/video/IMAGINE_WORKER_CONTRACT.md)
+- [Dropbox source staging runbook](STAGING.md)
 
 ## Deliverables
 

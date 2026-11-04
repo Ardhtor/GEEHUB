@@ -49,3 +49,12 @@ The Dropbox root contains recent media uploads, including `/3333.mp4` (modified 
 ## Canon policy
 
 This branch remains experimental until reconciled with the older Veyrthalis material. Public posts, generated imagery, and fictional character impressions must remain distinguishable from evidence about real people's private thoughts or actions.
+
+
+## Chapter III — The Unentered Place
+
+[The Unentered Place](THE_UNENTERED_PLACE.md) continues from the Binding passage. The four travelers examine a lower chamber with four columns, an empty bowl, and a moving blue thread. They compare new observations without assigning causes. A panel associated by shape with Binding remains closed; the travelers choose not to treat a slight change in its seam as permission to open it. A fifth groove appears beside their four accounts and is deliberately left empty. The second heartbeat and the purpose of the chamber remain unknown.
+
+## Next chapter seed — The Fifth Groove
+
+A fifth channel appears in the record without an identified witness. The next chapter should investigate how an account can be preserved before its author is known, while resisting the temptation to invent a fifth traveler or assign the heartbeat. The travelers' next movement remains a choice, not an instruction from the city.

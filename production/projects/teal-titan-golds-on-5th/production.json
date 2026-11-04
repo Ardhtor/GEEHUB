@@ -192,5 +192,19 @@
       "07_MANIFESTS"
     ]
   },
-  "nextAction": "Locate the original source video in Dropbox; stage a checksum-verified working copy; inspect frames and lock the Marcus identity baseline."
+  "nextAction": "Open the three Dropbox preview candidates from the Imagine Studio project panel; select the actual Teal Titan source; stage a SHA-256-verified copy; inspect frames and lock Marcus's baseline. Then generate through the port-8787 Imagine worker or use the distinct local Blender route.",
+  "productionIntegrations": {
+    "imagineStudio": {
+      "ui": "engine/video/imagine-studio.html",
+      "preset": "engine/video/presets/teal-titan-golds-on-5th.js",
+      "worker": "http://127.0.0.1:8787",
+      "workerImplementation": "external dependency; not in repository"
+    },
+    "local3d": {
+      "ui": "hub/gee-studio.html",
+      "worker": "http://127.0.0.1:8765",
+      "renderer": "Blender + FFmpeg",
+      "note": "separate procedural 3D pipeline; not a drop-in Imagine worker"
+    }
+  }
 }

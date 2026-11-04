@@ -1,5 +1,5 @@
 {
-  "pulse": 149,
+  "pulse": 150,
   "events": [
     {
       "pulse": 1,
@@ -2470,6 +2470,28 @@
       "next_region": "the-unentered-place",
       "pressure": 1,
       "memory": 1
+    },
+    {
+      "pulse": 150,
+      "time": "2026-11-04T18:08:00+01:00",
+      "actor": "JOSEPH",
+      "co_actor": "KIRK",
+      "witnesses": [
+        "traveler_3",
+        "traveler_4"
+      ],
+      "world": "VEYRTHALIS",
+      "region_id": "the-unentered-place",
+      "previous_region_id": "procession-of-two-accounts",
+      "phase": "CROSSING",
+      "source": "lore/veyrthalis/THE_UNENTERED_PLACE.md",
+      "desire_state": "careful-approach",
+      "action": "The four travelers examine the lower chamber and the Binding panel from independent positions. Joseph chooses a limited inspection; Kirk and the fourth traveler keep separate observations. The panel remains closed, and a fifth groove appears without an assigned witness.",
+      "narrative_rule": "an opening is not permission; an unassigned record does not prove another witness exists",
+      "relation": "FOUR OBSERVERS / FOUR ACCOUNTS / FIFTH GROOVE UNASSIGNED",
+      "next_region": "the-fifth-groove",
+      "pressure": 1,
+      "memory": 1
     }
   ],
   "visits": {
@@ -2517,10 +2539,10 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 10,
     "index.html": 7
   },
-  "next_region": null,
+  "next_region": "the-fifth-groove",
   "phase": 0,
-  "active_region": "deep-lore",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "active_region": "the-unentered-place",
+  "current_phase": "CROSSING",
   "current_desire_state": "mutual-recognition",
   "current_question": "What lies in the blank centre that none of the four routes entered?",
   "current_narrative_rule": "a shared place can hold distinct witness accounts without merging them",
@@ -3842,5 +3864,5 @@
       "at": "2026-10-17T00:13:40.776Z"
     }
   ],
-  "last_action": "write-the-procession-of-two-accounts"
+  "last_action": "write-the-unentered-place"
 }

@@ -1,0 +1,305 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geehub.local/schemas/short-form-video-project.schema.json",
+  "title": "GEEHUB Short-Form Video Project",
+  "type": "object",
+  "required": [
+    "schema",
+    "id",
+    "title",
+    "status",
+    "subject",
+    "format",
+    "creativeBrief",
+    "continuityLocks",
+    "escalation",
+    "source",
+    "storage",
+    "nextAction"
+  ],
+  "properties": {
+    "schema": {
+      "const": "geehub.video-project/1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "brief",
+        "source-pending",
+        "source-verified",
+        "staged",
+        "design-approved",
+        "ready-to-generate",
+        "rendering",
+        "rendered",
+        "reviewed",
+        "delivered"
+      ]
+    },
+    "canon": {
+      "enum": [
+        "experimental",
+        "canon",
+        "archived"
+      ]
+    },
+    "subject": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "fictional",
+        "adult"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "fictional": {
+          "type": "boolean"
+        },
+        "adult": {
+          "type": "boolean"
+        },
+        "continuity": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "world": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "timeOfDay": {
+          "type": "string"
+        },
+        "tone": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "format": {
+      "type": "object",
+      "required": [
+        "masterDurationSeconds",
+        "frameRate",
+        "aspectRatio",
+        "providerResolution",
+        "deliveryResolution",
+        "container"
+      ],
+      "properties": {
+        "masterDurationSeconds": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "frameRate": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "frameCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "aspectRatio": {
+          "type": "string"
+        },
+        "providerResolution": {
+          "type": "string"
+        },
+        "deliveryResolution": {
+          "type": "string"
+        },
+        "container": {
+          "type": "string"
+        },
+        "audio": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    "creativeBrief": {
+      "type": "string",
+      "minLength": 1
+    },
+    "continuityLocks": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "escalation": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "time",
+          "name",
+          "body"
+        ],
+        "properties": {
+          "stage": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "time": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            ],
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "name": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "pose": {
+            "type": "string"
+          },
+          "anchor": {
+            "type": "string"
+          },
+          "environment": {
+            "type": "string"
+          },
+          "environmentResponse": {
+            "type": "string"
+          },
+          "lighting": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "camera": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "sound": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "reviewGates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "authority",
+        "status"
+      ],
+      "properties": {
+        "authority": {
+          "const": "Dropbox"
+        },
+        "status": {
+          "enum": [
+            "not-located",
+            "candidate-files-located-not-visually-verified",
+            "verified",
+            "staged"
+          ]
+        },
+        "candidates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "verification"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "path_display": {
+                "type": "string"
+              },
+              "file_id": {
+                "type": "string"
+              },
+              "size_bytes": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "verification": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "requiredMetadata": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "storage": {
+      "type": "object",
+      "required": [
+        "root",
+        "folders"
+      ],
+      "properties": {
+        "root": {
+          "type": "string"
+        },
+        "folders": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "productionIntegrations": {
+      "type": "object"
+    },
+    "nextAction": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": true
+}

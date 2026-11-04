@@ -107,7 +107,7 @@ Dream material is downstream of the ledger. It is residue, not a second idea gen
 
 ## GEEHUB Studio
 
-[Open GEEHUB Studio](hub/gee-studio.html) — the first executable video-production surface. GEEHUB authors the scene progression and direction, records one continuous timed growth take, generates a synchronized procedural score, and exports a WebM. The current browser prototype also exports the director's script and a reproducible render-automation stub. It is an initial production vertical slice, not yet a full DaVinci Resolve replacement; media ingestion, multitrack source editing, advanced compositing, color grading, and full audio mixing remain subsequent build stages.
+[Open GEEHUB Studio](hub/gee-studio.html) — the Blender/FFmpeg director and continuous-take workbench. [Open GEEHUB Imagine Studio](engine/video/imagine-studio.html) — the six-second, 420p short-form generation surface, with image-to-video, naive-action direction, shot history, and Dropbox product persistence. Both feed the shared production corpus. The Teal Titan is the first fully indexed project preset, with its own character continuity, shot design, voiceover, asset register, and Dropbox production tree. These are production vertical slices, not a full DaVinci Resolve replacement; advanced multitrack editing, verified source-frame analysis inside the Imagine interface, and direct Dropbox API ingestion remain future integrations.
 
 ## Current video production / Teal Titan
 

@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00157",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "deep-lore",
+  "position": {
+    "x": 35,
+    "y": 69,
+    "z": 0
+  },
+  "camera": {
+    "x": 35,
+    "y": 69,
+    "z": 1.7,
+    "heading": 11,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "tyler",
+    "scale": 12.5,
+    "priorScale": 12.45,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 12.5,
+    "clearance": 0.08,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "DEPARTURE LEAVES A SHAPE"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "veyrthalis",
+      "name": "VEYRTHALIS"
+    },
+    {
+      "type": "region",
+      "id": "deep-lore",
+      "name": "DEEP LORE"
+    },
+    {
+      "type": "relation",
+      "title": "DEPARTURE LEAVES A SHAPE"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 12.45,
+      "to": 12.5
+    },
+    {
+      "property": "location.regionId",
+      "from": "veyrthalis",
+      "to": "deep-lore",
+      "relation": "DEPARTURE LEAVES A SHAPE"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0803,
+      "to": 0.08
+    }
+  ],
+  "intent": "LONG PLAY / VEYRTHALIS → DEEP LORE / TYLER",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 157,
+    "previousRegionId": "veyrthalis",
+    "regionId": "deep-lore",
+    "relation": "DEPARTURE LEAVES A SHAPE",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 12.45,
+    "scaleBaselineTo": 12.5
+  },
+  "timestamp": "2026-11-04T14:49:56.382Z"
+}

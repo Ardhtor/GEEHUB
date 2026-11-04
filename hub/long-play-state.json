@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 156,
-  "currentAgent": "luke",
-  "currentRegion": "veyrthalis",
-  "scale": 12.45,
-  "lastRun": "2026-11-04T06:28:24.182Z",
+  "cycle": 157,
+  "currentAgent": "tyler",
+  "currentRegion": "deep-lore",
+  "scale": 12.5,
+  "lastRun": "2026-11-04T14:49:56.382Z",
   "history": [
+    {
+      "cycle": 157,
+      "agent": "tyler",
+      "previousRegion": "veyrthalis",
+      "region": "deep-lore",
+      "relation": "DEPARTURE LEAVES A SHAPE",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 12.45,
+      "scale": 12.5,
+      "recording": "scheduled-recording-00157",
+      "at": "2026-11-04T14:49:56.382Z"
+    },
     {
       "cycle": 156,
       "agent": "luke",
@@ -1197,25 +1209,13 @@
       "scale": 6.18,
       "recording": "scheduled-recording-00058",
       "at": "2026-10-17T00:13:40.776Z"
-    },
-    {
-      "cycle": 57,
-      "agent": "tyler",
-      "previousRegion": "colossal-escalation",
-      "region": "muscle-myth",
-      "relation": "THE CITY LEARNS HIS NAME",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 6.05,
-      "scale": 6.1,
-      "recording": "scheduled-recording-00057",
-      "at": "2026-10-16T21:46:02.125Z"
     }
   ],
-  "previousRegion": "discovery",
-  "relation": "THE DOOR REMEMBERS",
+  "previousRegion": "veyrthalis",
+  "relation": "DEPARTURE LEAVES A SHAPE",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
-    "deep-lore": 12,
+    "deep-lore": 13,
     "kingdom-land": 2,
     "colossal-escalation": 13,
     "embodied-scale": 13,
@@ -1231,13 +1231,13 @@
     "luke-bwomph": 12
   },
   "lastRegionAt": {
-    "deep-lore": "2026-11-02T01:52:24.020809+00:00",
+    "deep-lore": "2026-11-04T14:49:56.382Z",
     "kingdom-land": "2026-10-10T23:39:46.635Z",
     "colossal-escalation": "2026-10-29T06:19:28.514809+00:00",
     "embodied-scale": "2026-11-03T22:28:08.526791+00:00",
     "discovery": "2026-11-04T02:39:03.202928+00:00",
     "muscle-myth": "2026-10-29T00:16:44.152588+00:00",
-    "veyrthalis": "2026-11-04T06:28:24.182Z",
+    "veyrthalis": "2026-11-04T09:55:16.973830+00:00",
     "facility": "2026-11-03T17:15:50.237520+00:00",
     "complex": "2026-11-03T01:49:40.579835+00:00",
     "growth": "2026-11-02T19:36:03.800341+00:00",
@@ -1247,6 +1247,7 @@
     "luke-bwomph": "2026-11-02T09:13:55.100541+00:00",
     "joseph-signal": "2026-11-03T23:44:57+01:00",
     "joseph-kirk-continuity": "2026-11-03T23:55:00+01:00",
-    "asset-intake-2026-11-03": "2026-11-03T23:58:00+01:00"
+    "asset-intake-2026-11-03": "2026-11-03T23:58:00+01:00",
+    "procession-of-two-accounts": "2026-11-04T12:02:15+01:00"
   }
 }

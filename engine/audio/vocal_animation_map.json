@@ -69,5 +69,24 @@
     "Use relative within-recording normalization rather than universal male frequency thresholds.",
     "Require an explicit scene binding before applying a vocal event to a character.",
     "Retain source file, sample offset and analysis parameters for every event."
-  ]
+  ],
+  "gestures": {
+    "pitch_glide": {
+      "drives": "continuous_transition_curve",
+      "motion": "follow measured pitch trajectory with eased interpolation"
+    },
+    "pulsed_resonance": {
+      "drives": "repeated_deformation_envelope",
+      "motion": "use measured amplitude pulses as bounded repeated motion"
+    },
+    "irregular_resonance": {
+      "drives": "micro_motion_texture",
+      "motion": "apply restrained nonuniform vibration without changing silhouette"
+    },
+    "sustained_resonance": {
+      "drives": "resonance_hold",
+      "motion": "maintain a stable held pose with subtle amplitude modulation"
+    }
+  },
+  "gesture_policy": "Gesture labels are acoustic heuristics. Use them as motion hints only; do not infer emotion, intent, identity, anatomy, or body scale."
 }

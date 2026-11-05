@@ -765,5 +765,27 @@
       "roles",
       "organisation"
     ]
+  },
+  {
+    "id": "geehub-compendium",
+    "name": "GEEHUB Compendium",
+    "group": "archive",
+    "status": "active",
+    "summary": "Connected world directory for registered projects, places, stories, systems, research, media, inhabitants' workplaces, and institutional records. Searchable by field, status, text, and tags; preserves source paths and explicit relationships.",
+    "path": "./compendium.html",
+    "tags": [
+      "compendium",
+      "index",
+      "discovery",
+      "provenance",
+      "world",
+      "registry"
+    ],
+    "related": [
+      "common-room",
+      "workplace-efficiency",
+      "sensation-engine",
+      "information-portability"
+    ]
   }
 ]

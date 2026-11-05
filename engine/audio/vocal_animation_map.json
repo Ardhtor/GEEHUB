@@ -1,0 +1,53 @@
+{
+  "schema": "geehub.vocal-animation-map.v1",
+  "principle": "Audio controls timing and envelopes; continuity controls anatomy and shape.",
+  "features": {
+    "f0_hz": {
+      "drives": "motion_modulation_rate",
+      "normalization": "relative_to_track_median",
+      "smoothing_ms": 80
+    },
+    "pitch_glide_ratio": {
+      "drives": "transition_curve",
+      "normalization": "clamped_signed",
+      "smoothing_ms": 120
+    },
+    "periodicity": {
+      "drives": "resonance_hold",
+      "normalization": "0_to_1",
+      "smoothing_ms": 100
+    },
+    "h1_h2_db": {
+      "drives": "timbre_weight",
+      "normalization": "relative_to_track_median",
+      "smoothing_ms": 160
+    },
+    "spectral_flatness": {
+      "drives": "secondary_motion_texture",
+      "normalization": "0_to_1",
+      "smoothing_ms": 120
+    },
+    "spectral_centroid_hz": {
+      "drives": "surface_vibration_detail",
+      "normalization": "relative_to_track_median",
+      "smoothing_ms": 140
+    },
+    "amplitude": {
+      "drives": "deformation_envelope",
+      "normalization": "track_rms_percentile",
+      "smoothing_ms": 180
+    },
+    "breath_noise_proxy": {
+      "drives": "release_and_micro_motion",
+      "normalization": "0_to_1",
+      "smoothing_ms": 160
+    }
+  },
+  "guards": [
+    "Do not infer body size, sex, age or identity from vocal frequency.",
+    "Do not alter established proportions from acoustic features alone.",
+    "Use relative within-recording normalization rather than universal male frequency thresholds.",
+    "Require an explicit scene binding before applying a vocal event to a character.",
+    "Retain source file, sample offset and analysis parameters for every event."
+  ]
+}

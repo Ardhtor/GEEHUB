@@ -41,6 +41,16 @@
       "drives": "release_and_micro_motion",
       "normalization": "0_to_1",
       "smoothing_ms": 160
+    },
+    "subharmonic_ratio": {
+      "drives": "roughness_and_weight_variation",
+      "normalization": "relative_to_track_median",
+      "smoothing_ms": 140
+    },
+    "roughness_proxy": {
+      "drives": "micro_deformation_texture",
+      "normalization": "0_to_1",
+      "smoothing_ms": 120
     }
   },
   "guards": [

@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00161",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "embodied-scale",
+  "position": {
+    "x": 64,
+    "y": 38,
+    "z": 0
+  },
+  "camera": {
+    "x": 64,
+    "y": 38,
+    "z": 1.7,
+    "heading": 103,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 12.77,
+    "priorScale": 12.74,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 12.77,
+    "clearance": 0.0783,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE BAR GYM REMEMBERS"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "luke-bwomph",
+      "name": "LUKE // BWOMPH"
+    },
+    {
+      "type": "region",
+      "id": "embodied-scale",
+      "name": "EMBODIED SCALE"
+    },
+    {
+      "type": "relation",
+      "title": "THE BAR GYM REMEMBERS"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 12.74,
+      "to": 12.77
+    },
+    {
+      "property": "location.regionId",
+      "from": "luke-bwomph",
+      "to": "embodied-scale",
+      "relation": "THE BAR GYM REMEMBERS"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0785,
+      "to": 0.0783
+    }
+  ],
+  "intent": "LONG PLAY / LUKE // BWOMPH → EMBODIED SCALE / LUKE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 161,
+    "previousRegionId": "luke-bwomph",
+    "regionId": "embodied-scale",
+    "relation": "THE BAR GYM REMEMBERS",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 12.74,
+    "scaleBaselineTo": 12.77
+  },
+  "timestamp": "2026-11-05T16:42:38.452Z"
+}

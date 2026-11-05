@@ -737,5 +737,33 @@
       "delegation",
       "collaboration"
     ]
+  },
+  {
+    "id": "workplace-charter",
+    "name": "Workplace Charter",
+    "group": "system",
+    "status": "active",
+    "summary": "Operating principles for inhabitant work, assignment, handoffs, departmental participation, and autonomy.",
+    "path": "./workplace-charter.md",
+    "tags": [
+      "workplace",
+      "governance",
+      "handoffs",
+      "inhabitants"
+    ]
+  },
+  {
+    "id": "workplace-departments",
+    "name": "Workplace Departments",
+    "group": "system",
+    "status": "active",
+    "summary": "Initial directory of six working departments and their responsibilities and example work.",
+    "path": "./departments.json",
+    "tags": [
+      "workplace",
+      "departments",
+      "roles",
+      "organisation"
+    ]
   }
 ]

@@ -1133,3 +1133,11 @@ SETH: Cool blue light moves along the wall and catches the shoulder line of a fa
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 154 — ATMOSPHERE / LUKE // BWOMPH / 2026-11-05T11:37:53.445599+00:00
+
+SETH: Luke stands in familiar bar-gym light, mirrors clouded at their edges and chalk pressed into the rubber floor. His shoulders fill more of the tank top, while his face remains his own.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

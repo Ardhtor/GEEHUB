@@ -64,7 +64,7 @@ This is a code path and file contract, not yet a running service. A local audio 
 
 ## Vocal frequency input
 
-Nonverbal vocalisation is a first-class sound source alongside rhythm, score and environmental audio. The Vocal Frequency Atlas (`engine/vocal_frequency_atlas.py`) analyses real recordings frame by frame and exports a time-aligned atlas plus reusable excerpts.
+Nonverbal vocalisation is a first-class sound source alongside rhythm, score and environmental audio. The Vocal Frequency Atlas (`engine/audio/vocal_frequency_atlas.py`) analyses real recordings frame by frame and exports a time-aligned atlas plus reusable excerpts.
 
 The scene system reads the acoustic signal as continuous control data:
 - F0 and pitch glide → modulation, transition timing and motion contour.

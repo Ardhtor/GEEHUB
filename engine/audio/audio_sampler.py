@@ -137,6 +137,13 @@ def analyse_file(source: str|Path, output_dir: str|Path, sample_count: int=12,
         "frame_size":FRAME,"hop_size":HOP,"estimated_bpm":estimate_tempo(frames),"frame_count":len(frames)},
       "cues":build_cues(frames,duration),
       "samples":extract_samples(source,samples,frames,output/"samples",max(0,sample_count))}
+    if vocal_stem:
+        from engine.audio.vocal_frequency_atlas import build_atlas
+        vocal_output=output/"vocal_atlas"
+        vocal_manifest=build_atlas(str(vocal_stem),str(vocal_output),vocal_label)
+        manifest["vocal_atlas"]={"manifest":"vocal_atlas/vocal_frequency_atlas.json",
+          "id":vocal_manifest["id"],"curated_label":vocal_manifest["curated_label"],
+          "cue_count":len(vocal_manifest["cues"])}
     output.mkdir(parents=True,exist_ok=True)
     (output/"track_manifest.json").write_text(json.dumps(manifest,indent=2),encoding="utf-8")
     (output/"analysis_frames.json").write_text(json.dumps(frames,indent=2),encoding="utf-8")
@@ -145,10 +152,13 @@ def analyse_file(source: str|Path, output_dir: str|Path, sample_count: int=12,
 def main() -> None:
     p=argparse.ArgumentParser(description="Analyse a track and extract reusable GEEHUB samples")
     p.add_argument("audio_file"); p.add_argument("--out",default="geehub_audio_pass")
-    p.add_argument("--sample-count",type=int,default=12); a=p.parse_args()
-    m=analyse_file(a.audio_file,a.out,a.sample_count)
+    p.add_argument("--sample-count",type=int,default=12)
+    p.add_argument("--vocal-stem",default=None,help="Optional isolated vocal stem for frequency analysis")
+    p.add_argument("--vocal-label",default="vocalisation",help="Curator label; e.g. male_moaning")
+    a=p.parse_args()
+    m=analyse_file(a.audio_file,a.out,a.sample_count,a.vocal_stem,a.vocal_label)
     print(json.dumps({"track_id":m["id"],"duration_ms":m["duration_ms"],
       "estimated_bpm":m["analysis"]["estimated_bpm"],"cue_count":len(m["cues"]),
-      "sample_count":len(m["samples"]),"output":str(Path(a.out).resolve())},indent=2))
+      "sample_count":len(m["samples"]),"vocal_atlas":m.get("vocal_atlas"),"output":str(Path(a.out).resolve())},indent=2))
 
 if __name__ == "__main__": main()

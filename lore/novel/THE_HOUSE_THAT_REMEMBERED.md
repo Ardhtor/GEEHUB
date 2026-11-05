@@ -1,159 +1,19 @@
 # THE HOUSE THAT REMEMBERED
 
-The house remembered before anyone entered it.
+The house remembered before anyone entered it, and its memory was not limited to what had already happened. It remembered footsteps that had not happened yet, the pressure of a hand that had not reached the banister, and the faint disturbance a person would leave in a room before that person had ever crossed its threshold. At three in the morning, Joseph saw the first window open on the second floor. A pale rectangle appeared in the darkness, then another beneath it, then another, until the windows were illuminating one by one and the entire building stood against the forest like an enormous machine waking from sleep. The trees around it were black shapes in the night, their upper branches barely visible against the sky, while the lit windows gave the house a depth that its exterior could not explain. Luke stopped beside Joseph and looked up at the building. "That's new."
 
-It remembered footsteps that had not happened yet.
+The front door was already open. They entered, and the warmth inside met them before they had crossed the threshold. It was not the warmth of a heated building or a room recently occupied; it was the particular warmth of a place where somebody had been living for a very long time, where the walls had absorbed years of ordinary presence and continued to hold it after the people had gone. The hallway extended farther than the outside architecture allowed, its floorboards running toward a dim interior distance that should not have fitted inside the house. Portraits covered the walls, but none showed faces. They showed moments instead: a hand opening a door, a man sitting beside a window, two figures walking through rain, a book left open on a table, and a room just before somebody entered it. Luke stopped at one frame and touched its surface. The image changed, becoming a picture of Luke touching the frame at that very moment. He pulled his hand away, but the image remained, preserving the contact as though it had always been part of the portrait. "Don't touch anything," Joseph said. "Wasn't planning on it."
 
-Joseph saw the first window open at three in the morning. A pale rectangle appeared on the second floor, then another beneath it, then another. One by one the windows became illuminated until the entire building stood against the forest like an enormous machine waking from sleep.
+A floorboard creaked upstairs. They looked toward the staircase, and after a pause another creak sounded from higher up, followed by footsteps that moved slowly and heavily toward the landing. The sound travelled through the house with an unusual clarity, as though the hallway had been built to carry it. Chase appeared at the top of the stairs, but older, much older, and carrying the same book. He looked down at them without surprise. "You've come too early." Joseph asked, "For what?" Chase turned his attention toward the back of the house, where the corridor continued into a darkness that seemed deeper than the absence of light. "The house hasn't finished remembering you." The lights went out before Joseph could ask what that meant. For a moment there was no visible room, no staircase, and no sound beyond their breathing. When the lights returned, the hallway was gone.
 
-Luke stopped beside him.
+Joseph stood inside a room he recognized immediately: his own room, as it had been years before. Everything was present, down to the placement of the objects and the particular shadows that gathered around them at that hour. The room did not feel reconstructed from a description; it felt as though the years between then and now had simply been folded away. Luke was gone. Joseph moved toward the door, but before he touched it someone spoke behind him. "You always leave this room too quickly." Joseph turned and saw another Joseph sitting on the bed. He was not younger or older, and he did not appear to be a copy assembled from an imperfect memory. He was a version who had remained, held in the exact atmosphere of the room and looking at Joseph with a calm familiarity that made the distinction difficult to bear. "What are you?" Joseph asked. The other Joseph looked at him. "I am what the house remembers when you forget."
 
-"That's new."
+The other Joseph stood, and the room began to shift around them. The walls moved backward, the ceiling rose, and the window opened onto a sequence of places that occupied the same view without cancelling one another: first the forest, then the city, then the city beneath the fountain, then the Digitorium, and finally the moonless road. Each place retained its own light and distance, yet all of them could be seen through the same window as if the house had found a way to make geography coexist with memory. Joseph began to understand that the house was not storing memories as pictures or preserving them as records. It was storing continuities. Every place that had ever mattered had become a room; every person who had ever returned had left another version behind; every unfinished thing had remained alive somewhere, not necessarily waiting in the past but continuing along a route the present had not yet found.
 
-The front door was already open.
+The other Joseph opened the door. Beyond it stood Luke, then Chase, then the procession, followed by hundreds of figures Joseph had never seen. Behind them stretched an enormous corridor, its doors extending into darkness in every direction. Some were tiny, scarcely larger than cupboards, while others rose higher than buildings; several had finished frames and visible handles, but others were still being built, with timber supports and unfinished panels extending into the dark. The corridor carried the sound of distant work: the measured knock of construction, the movement of heavy materials, and voices speaking from places too far away to distinguish. The house was expanding. Luke looked back at Joseph and gave him the brief, familiar greeting, "Yo." Joseph smiled and walked toward him. They moved together into the corridor, leaving the room behind without closing its door.
 
-They entered.
+Behind them, the house remembered their footsteps. Ahead, somewhere beyond the last visible door, something was constructing another world, and the sound of that work travelled through the corridor as though the building itself were listening. For the first time, Joseph understood the real danger of a living archive: it did not preserve the past; it gave the past somewhere to go. They reached the final door, which had no handle and no visible hinge. A sentence had been carved into the wood, its letters deep enough to hold the shadows: **WHAT YOU REMEMBER CAN CONTINUE.** Joseph placed his hand against it, and the door opened.
 
-Inside, the house was warm. Not heated. Warm in the way a place becomes warm when somebody has been living there for a very long time.
+Beyond it was morning, but not the morning outside. This was a new morning, spreading across a world still being assembled beneath a copper sky. Mountains stood unfinished along the horizon, their ridges ending in pale exposed stone; rivers moved through valleys that had no names, and vast wooden structures rose from the ground like the bones of impossible houses. Far away, the moon hung beneath the horizon, visible where the land should have hidden it. Someone was building a city, someone was building a forest, and someone was building a road that crossed the open country toward a distant line of light. The construction did not look abandoned or mechanical. It carried the steady purpose of people making a place where other people would eventually live. Somewhere beyond the visible world, a voice was reading the next chapter aloud.
 
-The hallway extended farther than the outside architecture allowed.
-
-Portraits covered the walls. None showed faces. They showed moments: a hand opening a door, a man sitting beside a window, two figures walking through rain, a book left open on a table, a room before somebody entered it.
-
-Luke touched one of the frames.
-
-The image changed.
-
-Now it showed Luke touching the frame.
-
-He pulled his hand away.
-
-The image remained.
-
-"Don't touch anything," Joseph said.
-
-"Wasn't planning on it."
-
-A floorboard creaked upstairs.
-
-They looked at each other.
-
-Then another creak.
-
-Then footsteps.
-
-Slow. Heavy. Descending.
-
-Chase appeared at the top of the stairs, but older. Much older. He carried the same book.
-
-"You've come too early."
-
-"For what?" Joseph asked.
-
-Chase looked toward the back of the house.
-
-"The house hasn't finished remembering you."
-
-The lights went out.
-
-When they returned, the hallway was gone.
-
-Joseph stood inside a room he recognized immediately: his own room, as it had been years before. Everything was present. Every object. Every shadow. Even the particular silence.
-
-Luke was gone.
-
-Joseph reached for the door.
-
-Before he touched it, someone spoke behind him.
-
-"You always leave this room too quickly."
-
-Joseph turned.
-
-Another Joseph was sitting on the bed.
-
-Not younger. Not older. A version who had remained.
-
-"What are you?"
-
-The other Joseph looked at him calmly.
-
-"I am what the house remembers when you forget."
-
-He stood.
-
-The room shifted. Walls moved backward. The ceiling became higher. The window opened onto the forest, then the city, then the city beneath the fountain, then the Digitorium, then the moonless road. All of them existed simultaneously beyond the glass.
-
-Joseph understood that the house was not storing memories.
-
-It was storing continuities.
-
-Every place that had ever mattered had become a room. Every person who had ever returned had left another version behind. Every unfinished thing had remained alive somewhere.
-
-The other Joseph opened the door.
-
-Beyond it stood Luke. Then Chase. Then the procession. Then hundreds of figures Joseph had never seen.
-
-Behind them stretched an enormous corridor.
-
-Doors extended into darkness. Some were tiny. Some were larger than buildings. Some were still being built.
-
-The house was expanding.
-
-Luke looked back.
-
-"Yo."
-
-Joseph smiled.
-
-They walked together.
-
-Behind them, the house remembered their footsteps.
-
-Ahead, somewhere beyond the last door, something was constructing another world.
-
-For the first time, Joseph understood the real danger of a living archive.
-
-It did not preserve the past.
-
-It gave the past somewhere to go.
-
-They reached the final door.
-
-There was no handle.
-
-Only a sentence carved into the wood:
-
-WHAT YOU REMEMBER CAN CONTINUE.
-
-Joseph placed his hand against it.
-
-The door opened.
-
-Beyond it was morning.
-
-Not the morning outside.
-
-A new morning.
-
-A world still being assembled.
-
-Mountains stood unfinished beneath a copper sky. Rivers moved through valleys that had no names. Vast wooden structures rose from the ground like the bones of impossible houses. Far away, the moon hung beneath the horizon.
-
-Someone was building a city.
-
-Someone was building a forest.
-
-Someone was building a road.
-
-And somewhere beyond the visible world, a voice was reading the next chapter aloud.
-
-Joseph stepped forward.
-
-Luke followed.
-
-Chase closed the book.
-
-The house behind them became quiet.
-
-Then it began remembering the new world.
+Joseph stepped forward, and Luke followed. Chase remained at the threshold long enough to look once more into the book, then closed it. The house behind them became quiet, its windows dimming until the building was once again only a shape among the trees. For a moment it seemed that the memory had ended, that the rooms and corridors had finally settled into stillness. Then, somewhere inside the walls, a floorboard creaked beneath a footstep that had not yet happened, and the house began remembering the new world.

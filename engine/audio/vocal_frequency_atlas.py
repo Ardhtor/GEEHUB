@@ -246,7 +246,8 @@ def build_atlas(source: str, output: str, label: str = "vocalisation",
     atlas = {
         "schema": "geehub.vocal-frequency-atlas.v1",
         "id": track_id or source_path.stem.lower().replace(" ", "-"),
-        "source": str(source_path), "asset_ref": str(source_path),\n        "source_sha256": source_hash,
+        "source": str(source_path), "asset_ref": str(source_path),
+        "source_sha256": source_hash,
         "curated_label": label, "label_origin": "user_or_curator_supplied",
         "duration_ms": round(len(samples)*1000/rate),
         "analysis": {

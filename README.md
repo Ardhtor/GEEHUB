@@ -10,7 +10,7 @@ The hub is not a pile of files. It records what happened, what changed, what rem
 
 ## The voice
 
-GEEHUB is edited as one continuous announcement.
+GEEHUB is edited as one continuous announcement carried in substantial, connected paragraphs. Across the hub, default prose should develop an idea, scene, observation, or production decision over several complete sentences before moving to a new paragraph. Avoid staccato lineation, isolated sentence fragments, and list-shaped prose. Keep lists, labels, metadata, code, and genuinely sequential instructions structured when their function requires it; the longer-paragraph rule governs narrative and explanatory prose.
 
 The default narration is a podcast-style announcement by Seth Feroce and Nick Mercx. Every paragraph break and scene transition should introduce non-plot information about the environment—geography, architecture, light, atmosphere, spatial depth, surfaces, ambient sound, weather, distance, and scale. Line breaks are environmental descriptors, not plot beats. Preserve canon and events; let the changing world carry the reader through them. See [docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md).
 

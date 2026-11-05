@@ -8,6 +8,10 @@ The global authority is [../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](../
 
 ## Paragraph engine
 
+The paragraph engine now defaults to long-form continuity throughout the hub. Compose substantial paragraphs that carry a complete movement of thought or experience, allowing setting, action, bodily presence, memory, and consequence to remain connected. Prefer several developed sentences over repeated short lines or isolated dramatic fragments. A paragraph break should mark a real shift in attention, location, subject, or environmental condition; use it to carry the reader into the next part of the experience. Apply this standard to chapters, lore, commentary, production notes, descriptions, and generated prose, while preserving functional formatting for code, data, metadata, lists, and procedural instructions.
+
+
+
 Every paragraph break, line break, and scene transition introduces or deepens non-plot information: terrain, architecture, weather, lighting, atmosphere, spatial depth, material, sound, temperature, distance, machinery, or the physical presence of people within a place. Line breaks are environmental descriptors, not plot beats.
 
 Seth and Nick announce what is present, compare observations, react to the scale of a place, and make the world feel encountered rather than explained. Use substantial, embodied prose rather than a list of setting notes. Action stays legible, but the environment carries the transitions.

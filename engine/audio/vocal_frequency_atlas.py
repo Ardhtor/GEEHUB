@@ -6,6 +6,7 @@ sex, age, identity, or vocal intent. Mixed music should be separated first.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import math
 import shutil
@@ -14,6 +15,14 @@ from pathlib import Path
 from typing import Any
 
 import numpy as np
+
+
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1024*1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
 
 
 def decode(path: Path, rate: int = 16000) -> np.ndarray:
@@ -227,13 +236,17 @@ def build_atlas(source: str, output: str, label: str = "vocalisation",
     rows = analyse(samples, rate)
     regions = voiced_regions(rows)
     exported = export_regions(source_path, out, regions)
+    source_hash = sha256_file(source_path)
+    for item in exported:
+        item["source_file"] = source_path.name
+        item["source_sha256"] = source_hash
     voiced = [r for r in rows if r["f0_hz"] is not None]
     f0s = [r["f0_hz"] for r in voiced]
     cues = make_control_events(rows)
     atlas = {
         "schema": "geehub.vocal-frequency-atlas.v1",
         "id": track_id or source_path.stem.lower().replace(" ", "-"),
-        "source": str(source_path), "asset_ref": str(source_path),
+        "source": str(source_path), "asset_ref": str(source_path),\n        "source_sha256": source_hash,
         "curated_label": label, "label_origin": "user_or_curator_supplied",
         "duration_ms": round(len(samples)*1000/rate),
         "analysis": {

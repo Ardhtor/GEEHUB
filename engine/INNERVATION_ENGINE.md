@@ -47,3 +47,16 @@ A useful innervation pass produces:
 - the residue or motif carried forward.
 
 **Operating principle: sound is not commentary on the action. Sound is one of the mechanisms that makes the action happen.**
+
+
+## Audio sampling adapter
+
+The operational sampling adapter is `engine/audio_sampler.py`, documented in `engine/MUSIC_SAMPLING.md`. It reads real audio through FFmpeg, extracts onset-centred WAV excerpts, estimates tempo from energy-flux autocorrelation, and emits a `music_program.json` compatible with the existing narrative music program.
+
+Sampling does not replace interpretation. The sampler reports where the signal changes; Innervation assigns those changes a job in the scene. The Sensation Engine then embodies that job against the current continuity state. Authored score instructions remain available and override generic automatic cues where necessary.
+
+The complete path is now:
+
+`audio file → decode / analyse → reusable samples + timed cues → MusicProgram → Innervation/Sensation interpretation → narrative ledger → scene/video actions`
+
+This is a code path and file contract, not yet a running service. A local audio file and FFmpeg are still required to produce a real sample set. Dropbox persistence remains a separate production step.

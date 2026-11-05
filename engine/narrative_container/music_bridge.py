@@ -31,11 +31,11 @@ def transmit_music_window(
             "intensity": event["intensity"],
             "section": event["section"],
             "target": event["target"],
-            "music_position_ms": event["at_ms"],
+            "music_position_ms": event["at_ms"],\n            "acoustic_profile": event.get("acoustic_profile"),
         }
         ledger.add({
             "id": artifact_id,
-            "kind": "text",
+            "kind": "music_event" if event.get("acoustic_profile") else "text",
             "sender": sender,
             "source": source_narrative,
             "recipient": recipient,

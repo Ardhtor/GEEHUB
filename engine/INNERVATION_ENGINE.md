@@ -60,3 +60,21 @@ The complete path is now:
 `audio file → decode / analyse → reusable samples + timed cues → MusicProgram → Innervation/Sensation interpretation → narrative ledger → scene/video actions`
 
 This is a code path and file contract, not yet a running service. A local audio file and FFmpeg are still required to produce a real sample set. Dropbox persistence remains a separate production step.
+
+
+## Vocal frequency input
+
+Nonverbal vocalisation is a first-class sound source alongside rhythm, score and environmental audio. The Vocal Frequency Atlas (`engine/vocal_frequency_atlas.py`) analyses real recordings frame by frame and exports a time-aligned atlas plus reusable excerpts.
+
+The scene system reads the acoustic signal as continuous control data:
+- F0 and pitch glide → modulation, transition timing and motion contour.
+- Periodicity and harmonic balance → resonance/roughness character.
+- Spectral flatness and zero-crossing rate → breath/noise texture proxies.
+- RMS envelope → intensity, hold and release.
+- LPC formant candidates → timbral identity cues, treated as approximate measurements.
+
+These features do not identify sex, age, identity or intent. A label such as `male_moaning` is curator-supplied. Do not infer it from pitch. Mixed tracks should be analysed from a separated vocal stem when possible.
+
+The atlas emits `cues` in the existing MusicProgram schema. The existing music bridge now preserves each `acoustic_profile` in the ledger payload, so vocal resonance, rhythmic events and authored score cues share one timeline and provenance model.
+
+**Embodiment rule:** acoustic energy controls the envelope and timing of a deformation or movement; it does not dictate anatomy. Existing subject proportions and continuity remain authoritative.

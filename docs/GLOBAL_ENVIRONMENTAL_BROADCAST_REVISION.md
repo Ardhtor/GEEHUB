@@ -14,6 +14,10 @@ Seth and Nick should announce what can be seen, heard, felt, measured, or inferr
 
 ## Formatting and continuity
 
+The hub-wide paragraph standard is long-form continuity. Write prose in substantial paragraphs that carry a complete movement of thought or experience, generally using several connected sentences before a break. Keep related action, observation, physical detail, memory, and consequence together rather than splitting them into short dramatic lines. Break when the focus or environment meaningfully changes, and use that transition to deepen context. This applies to all prose surfaces, including documentation, lore, research, production records, interface descriptions, captions, and generated narrative. Functional structures such as headings, lists, metadata, code, tables, and step-by-step procedures remain structured where needed; do not disguise prose as a list.
+
+
+
 - Use paragraphs as environmental descriptors, not isolated plot beats.
 - Let scene transitions travel through changes in light, weather, architecture, sound, terrain, distance, material, or atmosphere.
 - Keep the plot and established events intact. This is a presentation-layer revision, not permission to erase canon or invent consequential events.

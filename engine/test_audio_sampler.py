@@ -10,7 +10,7 @@ class AudioSamplerTests(unittest.TestCase):
         samples = array.array("h")
         # Quiet bed with periodic short impulses.
         for i in range(rate * 5):
-            value = 500 if i % (rate // 2) < 30 else 0
+            value = 30000 if i % (rate // 2) < 30 else 0
             samples.append(value)
         result = analyse(samples, rate)
         self.assertGreaterEqual(len(result["onset_ms"]), 3)

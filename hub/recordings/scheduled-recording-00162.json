@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00162",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "discovery",
+  "position": {
+    "x": 78,
+    "y": 83,
+    "z": 0
+  },
+  "camera": {
+    "x": 78,
+    "y": 83,
+    "z": 1.7,
+    "heading": 126,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "tyler",
+    "scale": 12.82,
+    "priorScale": 12.77,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 12.82,
+    "clearance": 0.078,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "SCALE HAS HISTORY"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "embodied-scale",
+      "name": "EMBODIED SCALE"
+    },
+    {
+      "type": "region",
+      "id": "discovery",
+      "name": "DISCOVERY"
+    },
+    {
+      "type": "relation",
+      "title": "SCALE HAS HISTORY"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 12.77,
+      "to": 12.82
+    },
+    {
+      "property": "location.regionId",
+      "from": "embodied-scale",
+      "to": "discovery",
+      "relation": "SCALE HAS HISTORY"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0783,
+      "to": 0.078
+    }
+  ],
+  "intent": "LONG PLAY / EMBODIED SCALE → DISCOVERY / TYLER",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 162,
+    "previousRegionId": "embodied-scale",
+    "regionId": "discovery",
+    "relation": "SCALE HAS HISTORY",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 12.77,
+    "scaleBaselineTo": 12.82
+  },
+  "timestamp": "2026-11-05T22:23:31.225Z"
+}

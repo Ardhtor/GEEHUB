@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00162",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00162.json",
+      "route": {
+        "from": "embodied-scale",
+        "to": "discovery",
+        "relation": "SCALE HAS HISTORY"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-05T22:23:31.225Z"
+    },
+    {
+      "id": "scheduled-video-00162",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00162.json",
+      "route": {
+        "from": "embodied-scale",
+        "to": "discovery",
+        "relation": "SCALE HAS HISTORY"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-05T22:23:31.225Z"
+    },
+    {
+      "id": "scheduled-space-00162",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00162.json",
+      "route": {
+        "from": "embodied-scale",
+        "to": "discovery",
+        "relation": "SCALE HAS HISTORY"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-05T22:23:31.225Z"
+    },
+    {
       "id": "scheduled-sound-00161",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-17T18:34:29.341Z"
-    },
-    {
-      "id": "scheduled-sound-00062",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00062.json",
-      "route": {
-        "from": "veyrthalis",
-        "to": "discovery",
-        "relation": "THE DOOR REMEMBERS"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-17T16:14:19.946Z"
-    },
-    {
-      "id": "scheduled-video-00062",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00062.json",
-      "route": {
-        "from": "veyrthalis",
-        "to": "discovery",
-        "relation": "THE DOOR REMEMBERS"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-17T16:14:19.946Z"
-    },
-    {
-      "id": "scheduled-space-00062",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00062.json",
-      "route": {
-        "from": "veyrthalis",
-        "to": "discovery",
-        "relation": "THE DOOR REMEMBERS"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-17T16:14:19.946Z"
     }
   ]
 }

@@ -92,6 +92,7 @@ class MusicProgram:
             "mode": cue.kind,
             "instruction": cue.instruction,
             "target": cue.target,
+            "acoustic_profile": cue.acoustic_profile,
         }
 
 

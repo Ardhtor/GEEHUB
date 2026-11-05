@@ -17,7 +17,8 @@ class MusicCue:
     intensity: float
     instruction: str
     target: str = "narrative"
-    section: str = ""\n    acoustic_profile: dict[str, Any] | None = None
+    section: str = ""
+    acoustic_profile: dict[str, Any] | None = None
 
     @classmethod
     def from_dict(cls, raw: dict[str, Any]) -> "MusicCue":
@@ -32,7 +33,7 @@ class MusicCue:
             raise ValueError("Every cue needs an instruction")
         return cls(at_ms, str(raw.get("kind", "phrase")), intensity,
                    instruction, str(raw.get("target", "narrative")),
-                   str(raw.get("section", "")))
+                   str(raw.get("section", "")), raw.get("acoustic_profile"))
 
 
 class MusicProgram:
@@ -68,7 +69,8 @@ class MusicProgram:
                 "intensity": cue.intensity,
                 "section": cue.section,
                 "target": cue.target,
-                "instruction": cue.instruction,\n                "acoustic_profile": getattr(cue, "acoustic_profile", None),
+                "instruction": cue.instruction,
+                "acoustic_profile": cue.acoustic_profile,
             }
             for index, cue in enumerate(self.cues)
             if after_ms < cue.at_ms <= position_ms

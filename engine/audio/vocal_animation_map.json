@@ -51,6 +51,16 @@
       "drives": "micro_deformation_texture",
       "normalization": "0_to_1",
       "smoothing_ms": 120
+    },
+    "formant_candidates_hz": {
+      "drives": "vocal_resonance_colour",
+      "normalization": "relative_to_track_median",
+      "smoothing_ms": 180
+    },
+    "harmonic_peaks": {
+      "drives": "resonance_density",
+      "normalization": "relative_harmonic_balance",
+      "smoothing_ms": 140
     }
   },
   "guards": [

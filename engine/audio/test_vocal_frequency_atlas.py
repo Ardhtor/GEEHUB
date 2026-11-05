@@ -18,6 +18,7 @@ class VocalAtlasTests(unittest.TestCase):
         events = make_control_events(rows)
         self.assertTrue(events)
         self.assertIn("formant_candidates_hz", events[0]["acoustic_profile"])
+        self.assertEqual(events[0]["gesture"], "sustained_resonance")
         manifest = {"id": "vocal-test", "asset_ref": "test.wav",
                     "duration_ms": 1000, "cues": events[:1]}
         program = load_program(manifest)

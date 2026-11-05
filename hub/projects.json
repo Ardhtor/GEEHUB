@@ -708,18 +708,19 @@
   },
   {
     "id": "workplace-efficiency",
-    "name": "Workplace Efficiency / Workbench",
+    "name": "Inhabitant Workplace",
     "group": "tool",
     "status": "active",
-    "summary": "Local-first operations surface for quick capture, prioritized work, daily focus, resolution tracking, and durable decision/artifact traces with portable JSON handoff.",
+    "summary": "A personal workplace station for each GEEHUB inhabitant: identity, role, department, shift status, assigned work, daily priorities, and handoff records. Designed for the people using the world, not its repository maintainers.",
     "path": "./workbench.html",
     "tags": [
-      "operations",
-      "work",
-      "tasks",
-      "focus",
-      "artifacts",
-      "continuity"
+      "inhabitants",
+      "workplace",
+      "roles",
+      "shifts",
+      "assignments",
+      "handoffs",
+      "efficiency"
     ]
   }
 ]

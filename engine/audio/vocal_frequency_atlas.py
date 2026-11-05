@@ -164,6 +164,52 @@ def voiced_regions(rows: list[dict[str, Any]], min_ms: int = 180) -> list[dict[s
     return regions
 
 
+def gesture_segments(rows: list[dict[str, Any]], gap_ms: int = 60) -> list[dict[str, Any]]:
+    """Describe measured voiced gestures without assigning emotional or speaker meaning."""
+    active = [row for row in rows if row["voiced"] and row["periodicity"] >= 0.25]
+    if not active:
+        return []
+    groups: list[list[dict[str, Any]]] = []
+    current = [active[0]]
+    for row in active[1:]:
+        if row["at_ms"] - current[-1]["at_ms"] > gap_ms:
+            groups.append(current)
+            current = [row]
+        else:
+            current.append(row)
+    groups.append(current)
+
+    segments = []
+    for index, group in enumerate(groups, 1):
+        pitches = np.asarray([r["f0_hz"] for r in group], dtype=float)
+        levels = np.asarray([r["rms"] for r in group], dtype=float)
+        roughness = float(np.median([r["roughness_proxy"] for r in group]))
+        pitch_span = float((np.max(pitches) - np.min(pitches)) / max(np.median(pitches), 1.0))
+        level_cv = float(np.std(levels) / max(np.mean(levels), 1e-9))
+        if pitch_span >= 0.18:
+            gesture = "pitch_glide"
+        elif level_cv >= 0.35:
+            gesture = "pulsed_resonance"
+        elif roughness >= 0.55:
+            gesture = "irregular_resonance"
+        else:
+            gesture = "sustained_resonance"
+        segments.append({
+            "id": f"gesture-{index:03d}",
+            "start_ms": group[0]["at_ms"],
+            "end_ms": group[-1]["at_ms"] + 40,
+            "duration_ms": group[-1]["at_ms"] - group[0]["at_ms"] + 40,
+            "gesture": gesture,
+            "frame_count": len(group),
+            "median_f0_hz": round(float(np.median(pitches)), 2),
+            "f0_span_ratio": round(pitch_span, 4),
+            "amplitude_variation": round(level_cv, 4),
+            "median_roughness_proxy": round(roughness, 4),
+            "classification": "acoustic_heuristic",
+        })
+    return segments
+
+
 def export_regions(source: Path, out: Path,
                    regions: list[dict[str, int]]) -> list[dict[str, Any]]:
     folder = out/"vocal_samples"
@@ -243,6 +289,7 @@ def build_atlas(source: str, output: str, label: str = "vocalisation",
     voiced = [r for r in rows if r["f0_hz"] is not None]
     f0s = [r["f0_hz"] for r in voiced]
     cues = make_control_events(rows)
+    gestures = gesture_segments(rows)
     atlas = {
         "schema": "geehub.vocal-frequency-atlas.v1",
         "id": track_id or source_path.stem.lower().replace(" ", "-"),
@@ -259,12 +306,14 @@ def build_atlas(source: str, output: str, label: str = "vocalisation",
             "regions_detected": len(regions),
         },
         "samples": exported, "frames": rows,
+        "gesture_segments": gestures,
         "control_events": cues, "cues": cues,
         "provenance": "FFmpeg mono decode; autocorrelation F0; harmonic/subharmonic measures; LPC formant candidates; spectral noise proxies",
         "limitations": [
             "F0 does not identify sex, age, identity, or vocal intent.",
             "Formant candidates are approximate LPC resonances, not validated phonetic formants.",
             "Breath/noise is a spectral proxy and may include instruments or recording noise.",
+            "Gesture labels are threshold-based acoustic descriptions, not emotion or intent labels.",
             "Mixed music should be separated into a vocal stem before interpreting results as vocal features.",
         ],
     }

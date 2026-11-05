@@ -1,0 +1,28 @@
+name: GEEHUB Audio Tests
+
+on:
+  push:
+    paths:
+      - "engine/audio/**"
+      - "engine/narrative_container/music_program.py"
+      - ".github/workflows/audio-tests.yml"
+  pull_request:
+    paths:
+      - "engine/audio/**"
+      - "engine/narrative_container/music_program.py"
+      - ".github/workflows/audio-tests.yml"
+
+jobs:
+  audio-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install analysis dependency
+        run: python -m pip install --upgrade numpy
+      - name: Run audio and vocal-atlas tests
+        run: |
+          python -m unittest engine.audio.test_audio_sampler
+          python -m unittest engine.audio.test_vocal_frequency_atlas

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "departments": [
+    {
+      "id": "construction-maintenance",
+      "name": "Construction & Maintenance",
+      "purpose": "Build, repair, and maintain shared spaces, facilities, and infrastructure.",
+      "workExamples": [
+        "Build a room or public space",
+        "Repair a shared facility",
+        "Maintain tools and equipment"
+      ]
+    },
+    {
+      "id": "archives-records",
+      "name": "Archives & Records",
+      "purpose": "Preserve provenance, documents, memory, and discoverable knowledge.",
+      "workExamples": [
+        "Catalogue an artifact",
+        "Record a decision",
+        "Recover a previous project state"
+      ]
+    },
+    {
+      "id": "production-media",
+      "name": "Production & Media",
+      "purpose": "Create and finish visual, audio, video, event, and editorial work.",
+      "workExamples": [
+        "Produce a video sequence",
+        "Prepare a soundscape",
+        "Publish a finished artifact"
+      ]
+    },
+    {
+      "id": "research-discovery",
+      "name": "Research & Discovery",
+      "purpose": "Investigate questions, test methods, and bring useful findings into the world.",
+      "workExamples": [
+        "Research a subject",
+        "Test a prototype",
+        "Prepare a reference brief"
+      ]
+    },
+    {
+      "id": "provisioning-hospitality",
+      "name": "Provisioning & Hospitality",
+      "purpose": "Coordinate supplies, shared resources, welcome, and practical support.",
+      "workExamples": [
+        "Organize shared supplies",
+        "Welcome a new inhabitant",
+        "Coordinate a communal event"
+      ]
+    },
+    {
+      "id": "civic-office",
+      "name": "Civic Office",
+      "purpose": "Coordinate notices, standards, scheduling, and work crossing departmental boundaries.",
+      "workExamples": [
+        "Publish a notice",
+        "Resolve a coordination issue",
+        "Arrange cross-department work"
+      ]
+    }
+  ]
+}

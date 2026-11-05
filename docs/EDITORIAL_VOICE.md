@@ -4,6 +4,8 @@ GEEHUB is a continuous environmental broadcast narrated in a podcast-style excha
 
 ## Paragraphs and line breaks
 
+Default to longer, fully developed paragraphs across GEEHUB. A paragraph should hold a continuous stretch of thought or experience, allowing observation, action, physical detail, memory, and consequence to develop together. Prefer several connected sentences over a sequence of short standalone lines. Start a new paragraph when attention, place, subject, or the direction of thought genuinely changes, and let the transition carry useful environmental or contextual information. Do not manufacture breaks for emphasis or rhythm. This applies to narrative, lore, research commentary, production notes, descriptions, and explanatory prose; retain compact labels, lists, code, tables, and machine-readable structures where they are functionally necessary.
+
 Every paragraph break, line break, and scene transition should introduce or deepen non-plot information: geography, architecture, weather, light, color, spatial depth, surfaces, ambient sound, temperature, distance, machinery, atmosphere, or the physical presence of people within a place.
 
 Line breaks are environmental descriptors, not plot beats. Action can occur within a paragraph, but the reader's movement through the prose is carried by the changing world. Environmental description is the medium of the narration, not decoration around it.

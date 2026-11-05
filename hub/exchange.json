@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-05T01:28:44.883Z",
+  "generated": "2026-11-05T08:26:38.585Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00160",
+      "at": "2026-11-05T08:26:38.585Z",
+      "from": "geehub-long-play",
+      "to": "chase",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / GROWTH CANVAS → LUKE // BWOMPH / CHASE",
+      "body": "The world crossed the existing relation \"HYPEER BASELINE\" from GROWTH CANVAS into LUKE // BWOMPH. Scale increased from 12.70× to 12.74×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00160",
+      "live": true,
+      "regionId": "luke-bwomph",
+      "previousRegionId": "growth",
+      "relation": "HYPEER BASELINE"
+    },
     {
       "id": "scheduled-long-play-00159",
       "at": "2026-11-05T01:28:44.883Z",
@@ -1488,21 +1503,6 @@
       "regionId": "veyrthalis",
       "previousRegionId": "discovery",
       "relation": "THE DOOR REMEMBERS"
-    },
-    {
-      "id": "scheduled-long-play-00060",
-      "at": "2026-10-17T08:50:21.042Z",
-      "from": "geehub-long-play",
-      "to": "chase",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / DEEP LORE → DISCOVERY / CHASE",
-      "body": "The world crossed the existing relation \"THE WORLD TELLS ON ITSELF\" from DEEP LORE into DISCOVERY. Scale increased from 6.30× to 6.34×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00060",
-      "live": true,
-      "regionId": "discovery",
-      "previousRegionId": "deep-lore",
-      "relation": "THE WORLD TELLS ON ITSELF"
     }
   ]
 }

@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00160",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00160.json",
+      "route": {
+        "from": "growth",
+        "to": "luke-bwomph",
+        "relation": "HYPEER BASELINE"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-05T08:26:38.585Z"
+    },
+    {
+      "id": "scheduled-video-00160",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00160.json",
+      "route": {
+        "from": "growth",
+        "to": "luke-bwomph",
+        "relation": "HYPEER BASELINE"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-05T08:26:38.585Z"
+    },
+    {
+      "id": "scheduled-space-00160",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00160.json",
+      "route": {
+        "from": "growth",
+        "to": "luke-bwomph",
+        "relation": "HYPEER BASELINE"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-05T08:26:38.585Z"
+    },
+    {
       "id": "scheduled-sound-00159",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-17T12:49:35.277Z"
-    },
-    {
-      "id": "scheduled-sound-00060",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00060.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "discovery",
-        "relation": "THE WORLD TELLS ON ITSELF"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-17T08:50:21.042Z"
-    },
-    {
-      "id": "scheduled-video-00060",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00060.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "discovery",
-        "relation": "THE WORLD TELLS ON ITSELF"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-17T08:50:21.042Z"
-    },
-    {
-      "id": "scheduled-space-00060",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00060.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "discovery",
-        "relation": "THE WORLD TELLS ON ITSELF"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-17T08:50:21.042Z"
     }
   ]
 }

@@ -2,298 +2,72 @@
 
 ## A post-book cycle
 
-*Quotidian scenes after Book I, arranged around Luke's habit of turning ordinary life into production.*
+*Quotidian scenes after Book I, arranged around Luke's habit of turning ordinary life into production. This revision preserves the established events and relationships while allowing each day to unfold in longer, continuous paragraphs.*
 
 ### Episode I — Out Behind the House
-     The afternoon settled around Luke's Mustang, the old fence, and the four men sitting behind the house with nowhere they needed to be. Luke passed the smoke around while the sun lowered itself over the enormous field. Tyler made fun of Luke's driving. Kirk said he had never actually seen Tyler drive the Mustang. Joseph said that was because Tyler would probably try to race the moon. Luke laughed and told them they were all idiots. Nobody went anywhere. The Mustang remained beneath the trees, dusty from the road, ready whenever Luke finally decided to move. They stayed until Bill called them in for dinner.
+
+The afternoon settled around Luke's Mustang, the old fence, and the four men sitting behind the house with nowhere they needed to be. The field beyond the fence had been taking the sun all day, and now its color was beginning to deepen from green into a muted gold that reached the tree line in long, uneven bands. Dust still clung to the Mustang from the road; a little dried mud marked the wheel arches, and the metal held the last warmth of the drive. Luke passed the smoke around while Tyler made fun of his driving, claiming that Luke treated every bend as an invitation to test the car. Kirk said he had never actually seen Tyler drive the Mustang, which Joseph considered a compelling reason not to let him try. Tyler insisted he would be perfectly capable of it, and Joseph said that was exactly what worried him, because Tyler would probably try to race the moon if it appeared over the field at the right moment. Luke laughed and told them they were all idiots, but he did not get up or suggest that they go anywhere. The conversation wandered back over old roads, bad turns, and the things each man claimed to remember differently, while the evening slowly gathered in the grass. Nobody needed to win the argument, and nobody needed to turn the afternoon into an event. The Mustang remained beneath the trees, ready whenever Luke finally decided to move, and they stayed where they were until Bill called them in for dinner.
 
 ### Episode II — Luke Runs Production
-     By the following week Luke had quietly taken over production. Nobody had elected him. He simply began carrying a notebook, asking where things were, deciding which road they would take, and telling everyone what time they needed to leave.
 
-     “What are we making?” Tyler asked.
+By the following week Luke had quietly taken over production, although nobody had elected him and he would have denied the appointment if anyone had tried to give it a formal name. He simply began carrying a notebook, asking where things were, deciding which road they would take, and telling everyone what time they needed to leave. The notebook was an ordinary one, its cover already bent at the corners from being carried around, but Luke treated it as if the day would become noticeably less manageable without it. One morning, while the kitchen was still cool and the windows held a faint reflection of the trees, Tyler watched him write something down and asked, “What are we making?” Luke looked at him over the notebook. “The day.” Tyler stared at him for a moment. “That's not an answer.” “Sure it is.” Kirk came in carrying coffee, and Joseph followed him, still buttoning his shirt as he crossed the room. Bill was already at the table, where the morning light fell across the cups and the folded newspaper. Luke opened the notebook and announced, “We're going to town. Then we're getting food. Then we're fixing the Mustang. Then we're going to the river. Then we'll see.” Joseph smiled into his coffee. “Somebody's gotta drive production.”
 
-     Luke looked at him.
-
-     “The day.”
-
-     Tyler stared.
-
-     “That's not an answer.”
-
-     “Sure it is.”
-
-     Kirk came in carrying coffee. Joseph followed him, still buttoning his shirt. Bill was already at the table. Luke opened the notebook.
-
-     “We're going to town. Then we're getting food. Then we're fixing the Mustang. Then we're going to the river. Then we'll see.”
-
-     Joseph smiled.
-
-     “Somebody's gotta drive production.”
-
-     Outside, the Mustang waited near the fence.
-
-     Luke's power was not command. It was momentum. He noticed when everyone had been sitting too long, found the next road, decided when lunch was late, and turned an empty afternoon into something they could remember.
-
-     Bill eventually noticed.
-
-     “You're directing us.”
-
-     Luke looked offended.
-
-     “Nah.”
-
-     “You have a schedule.”
-
-     “So?”
-
-     “You have assigned seating in the car.”
-
-     “That's because Tyler complains about the window.”
-
-     Tyler looked up.
-
-     “I do not.”
-
-     Luke pointed at him.
-
-     “See?”
-
-     Bill laughed.
-
-     Luke closed the notebook.
-
-     “Come on. We're wasting daylight.”
-
-     They followed him outside.
-
-     The Mustang started on the first try.
-
-     Luke smiled.
-
-     “Good car.”
-
-     And production began.
+Outside, the Mustang waited near the fence, its windshield reflecting the pale sky and the long horizontal line of the field. Luke's power was not command so much as momentum: he noticed when everyone had been sitting too long, found the next road, decided when lunch was late, and turned an empty afternoon into something they could remember without insisting that it had been important. Bill eventually noticed the pattern. “You're directing us,” he said, watching Luke check the notebook again. Luke looked offended. “Nah.” Bill pointed out that he had a schedule, and Luke answered, “So?” Then Bill mentioned the assigned seating in the car, which Luke defended on the grounds that Tyler complained about the window. Tyler looked up from the table. “I do not.” Luke pointed at him. “See?” Bill laughed, and the argument dissolved before anyone could make a serious case of it. Luke closed the notebook, put it under his arm, and told them they were wasting daylight. They followed him outside, where the air had warmed and the Mustang's doors had begun to reflect the bright yard. The engine started on the first try. Luke listened for a moment, smiled, and said, “Good car.” Production began.
 
 ### Episode III — The Grocery Run
-     The grocery trip became longer than it needed to be because nobody could agree on what counted as dinner. Luke pushed the cart while Tyler kept putting things back. Kirk stood in the aisle reading labels with the solemnity of a scholar. Joseph disappeared and returned with something Bill had specifically said they did not need. Bill looked into the cart and sighed.
 
-     “We're feeding five men,” he said. “Not opening a restaurant.”
-
-     They laughed, and for once there was no larger purpose hiding behind the laughter. They were simply hungry.
+The grocery trip became longer than it needed to be because nobody could agree on what counted as dinner, and the disagreement seemed to grow more elaborate with every aisle they entered. Luke pushed the cart while Tyler kept putting things back, usually after announcing that the item had been unnecessary from the beginning. Kirk stood in the aisle reading labels with the solemnity of a scholar comparing two difficult manuscripts, turning each package over to inspect the ingredients and serving sizes. Joseph disappeared around the end of an aisle and returned with something Bill had specifically said they did not need, setting it in the cart with the confidence of a man who believed the matter had already been settled. Bill looked into the cart and sighed. “We're feeding five men,” he said. “Not opening a restaurant.” The cart was already carrying enough food to suggest that the distinction had become academic: vegetables, bread, meat, several things nobody could remember choosing, and the additional item Joseph had brought back. Luke moved the cart aside so another shopper could pass, then asked whether anyone had actually decided what they wanted to eat. Tyler named one thing, Kirk suggested another, and Joseph proposed combining them in a way that made Bill close his eyes for a second. They laughed, and for once there was no larger purpose hiding behind the laughter. They were simply hungry, standing beneath the flat white lights of a supermarket and trying to decide what five men should have for dinner. By the time they reached the checkout, the argument had become part of the outing, and nobody could remember which person had started it.
 
 ### Episode IV — The Mustang Won't Start
-     The Mustang refused to start on Tuesday. Luke stood in front of it with his hands on his hips. Tyler came outside. Then Kirk. Then Joseph. Within ten minutes all four men were standing around the engine offering increasingly confident advice. None of them knew what they were talking about. Bill watched from the porch.
 
-     “Have any of you considered asking the car what it wants?” he called.
+The Mustang refused to start on Tuesday, and Luke stood in front of it with his hands on his hips as though the car had personally broken an agreement. The morning was clear, with a little chill still held beneath the trees, and the open hood made the familiar shape of the car look temporarily unfinished. Tyler came outside first, drawn by the repeated turn of the ignition. Kirk followed, then Joseph, until all four men were standing around the engine offering increasingly confident advice. None of them knew what they were talking about, but that did not prevent each suggestion from being delivered with the assurance of a specialist. Bill watched from the porch, where the shade kept the boards cool beneath his feet. “Have any of you considered asking the car what it wants?” he called. Luke ignored him and leaned farther over the engine bay. The others began testing things, passing tools back and forth, and disagreeing about whether the problem was electrical, mechanical, or simply the result of Luke expecting too much from a car that had already carried them across half the country. Grease found its way onto their hands and sleeves, and the work became less orderly as the afternoon went on. They argued, laughed, tried things, and went back to the beginning whenever a confident diagnosis failed to produce a result.
 
-     Luke ignored him.
-
-     They spent the afternoon trying things, arguing, laughing, and getting dirty. At sunset the Mustang finally started. Luke turned it off immediately.
-
-     “Don't push it,” he said.
-
-     Nobody did. They left it there overnight.
+At sunset the Mustang finally started. The engine caught unevenly, shuddered for a moment, and then settled into a low, familiar idle that made all four men stop talking. Luke looked at the others, reached through the open window, and turned it off immediately. “Don't push it,” he said. Nobody did. The hood remained open while they put the tools away and wiped their hands, and the car was left where it stood overnight beneath the trees. Luke walked around it once before going inside, looking at the front end and the tires as if he were checking that the Mustang had returned to itself. Bill asked from the porch whether the problem had been fixed. Luke said they had made progress, which was not the same as an answer, and Bill accepted it with a nod. The next morning would tell them whether the car agreed.
 
 ### Episode V — The Laundry
-     Laundry became an afternoon because the house had accumulated more clothes than anyone admitted owning. Shirts crossed the backs of chairs. Socks appeared in impossible places. Luke insisted that somebody had stolen one of his shirts. Tyler said Luke owned three identical shirts and therefore had no legal basis for the accusation.
 
-     Joseph folded slowly. Kirk folded perfectly. Bill folded while telling a story so long that everyone forgot how it began.
-
-     By evening the four men were wearing clothes that had been warm from the dryer. Nobody called this an important moment. It was important anyway.
+Laundry became an afternoon because the house had accumulated more clothes than anyone admitted owning, and the pile had spread beyond the laundry room into the ordinary paths between bedrooms and the kitchen. Shirts crossed the backs of chairs, towels occupied the edge of the sofa, and socks appeared in impossible places, including one that Tyler found beside the porch door and claimed could not possibly belong to him. Luke insisted that somebody had stolen one of his shirts. Tyler said Luke owned three identical shirts and therefore had no legal basis for the accusation, especially when nobody could tell which shirt he was talking about. Joseph folded slowly, taking care with each sleeve and smoothing the fabric across his knee before setting it down. Kirk folded perfectly, producing neat stacks that made the rest of the room look more disorganized by comparison. Bill folded while telling a story so long that everyone forgot how it began, although he remembered every detail and seemed pleased that the others had lost the thread. The dryer turned steadily behind them, adding a low mechanical rhythm to the conversation, and the warm air that escaped whenever someone opened its door carried the clean scent of detergent into the hallway. Luke tried to sort the shirts by owner, but the system failed almost immediately when Tyler moved a pile and Joseph found one of Luke's shirts among Kirk's things. By evening the four men were wearing clothes that had been warm from the dryer, and the house had regained its chairs, tables, and walking space. Nobody called this an important moment. It was important anyway, because the work had made the house comfortable again and left everyone with the quiet satisfaction of having finished something together.
 
 ### Episode VI — Rain
-     Rain arrived hard enough to erase the far field. Luke cancelled production without admitting he had cancelled anything. The Mustang stayed under cover. The men occupied the kitchen, then the porch, then the living room, moving whenever the weather changed the quality of the room.
 
-     Tyler watched the rain for an hour.
-
-     “We're not doing anything.”
-
-     Luke looked over.
-
-     “That's the episode.”
-
-     Bill laughed so hard he had to put down his coffee.
+Rain arrived hard enough to erase the far field, first as a dark band moving across the open country and then as a dense sheet that blurred the fence, the trees, and the road beyond the property. Luke cancelled production without admitting he had cancelled anything. The Mustang stayed under cover, its roof ticking softly as the first heavy drops reached the shelter, and the men occupied the kitchen, then the porch, then the living room, moving whenever the weather changed the quality of the room. The kitchen was bright and close, full of the smell of coffee and whatever had been left warming on the stove; the porch was cooler, with rain blowing in at an angle and collecting in the shallow grooves between the boards; the living room held the muted light of the windows and the steady sound of water running from the roof. Tyler watched the rain for an hour, following the shifting boundary where the field disappeared and reappeared behind the moving sheets of water. “We're not doing anything,” he said eventually. Luke looked over from his chair. “That's the episode.” Bill laughed so hard he had to put down his coffee, and Joseph asked whether Luke intended to write that down in the notebook. Luke said he might, although he did not reach for it. The afternoon continued without a schedule, and the rain did not seem to mind. By the time the weather began to clear, the men had spent several hours in the same house without needing to invent a reason for staying there.
 
 ### Episode VII — The Chair
-     There was one chair everyone avoided because it had become Bill's without anyone deciding it. One afternoon Luke sat in it.
 
-     Bill stopped in the doorway.
-
-     “That's my chair.”
-
-     Luke looked around.
-
-     “It says your name?”
-
-     “No.”
-
-     “Then how am I supposed to know?”
-
-     Bill considered this.
-
-     “You know.”
-
-     Luke got up.
-
-     Bill sat down.
-
-     Nobody discussed the matter again.
-
-     Years later, they would remember it as one of the first times the house felt completely inhabited.
+There was one chair everyone avoided because it had become Bill's without anyone deciding it should be. It stood near the window, angled toward the room rather than the television, with the light falling across one arm in the afternoon and the floorboards beneath it worn slightly darker from years of use. Nobody had put Bill's name on it, and nobody had announced a rule, but the others had learned to leave it alone. One afternoon Luke came through the room, saw the chair empty, and sat down. Bill stopped in the doorway. “That's my chair.” Luke looked around as if expecting to find some identifying mark. “It says your name?” “No.” “Then how am I supposed to know?” Bill considered this, looking at Luke with the patience of someone who had watched the same argument arrive in several different forms. “You know.” Luke held his position for another second, then got up. Bill crossed the room and sat down without ceremony, settling into the chair as if the interruption had been no more than a brief adjustment to the furniture. Nobody discussed the matter again. The chair remained Bill's, and the house continued to organize itself around small habits that had never needed to become formal rules. Years later, they would remember it as one of the first times the house felt completely inhabited, not because anything extraordinary had happened, but because every person and every object seemed to have found a place in the ordinary arrangement of the day.
 
 ### Episode VIII — Breakfast
-     Breakfast happened late. Joseph cooked eggs. Kirk made coffee. Tyler stood barefoot in the doorway while Luke searched for a clean shirt.
 
-     Bill was already eating.
-
-     “You boys move like you're crossing a continent.”
-
-     Luke came downstairs.
-
-     “We are.”
-
-     Bill looked toward the enormous windows.
-
-     “Fair enough.”
-
-     They ate together while the morning opened over the country.
+Breakfast happened late, after the morning had already begun to brighten the windows and warm the kitchen floor. Joseph cooked eggs while Kirk made coffee, moving between the counter and the stove with the practiced coordination of people who had prepared food in the same room often enough to know where the other person would reach. Tyler stood barefoot in the doorway, not quite awake and not yet willing to commit to a task, while Luke searched for a clean shirt upstairs. Bill was already eating, seated at the table with his cup close to his hand and the window open just enough to let the cool air move through the room. “You boys move like you're crossing a continent,” he said when Luke finally came downstairs. Luke looked toward the table, then toward the enormous windows, beyond which the country was opening under a clear morning sky. “We are.” Bill followed his glance. “Fair enough.” They ate together while the morning gathered strength outside, the conversation moving from the previous day's rain to the Mustang and then to what might be needed from town. Joseph set another plate on the table, Kirk poured more coffee, and Tyler finally found a place to sit. Nothing about the breakfast required a plan, but Luke listened to the conversation as though the next part of the day might emerge from it. For a while, the only production was the ordinary work of eating, passing things across the table, and letting the morning arrive.
 
 ### Episode IX — The Long Drive
-     Luke drove without explaining where they were going. The road continued beyond the point where anyone expected it to. Fields became woods. Woods became hills. Hills became another country.
 
-     Tyler eventually asked where they were.
-
-     Luke shrugged.
-
-     “Production.”
-
-     Joseph laughed from the back seat. Kirk had fallen asleep against the window. The Mustang carried them through miles of country that did not need to become a story.
-
-     That was precisely why Luke kept driving.
+Luke drove without explaining where they were going, taking the Mustang out along the long road while the others argued about music and the proper volume for a drive that had not been announced as a trip. The road continued beyond the point where anyone expected it to, passing fields that widened into stretches of open country before the tree line gathered close enough to make the road feel narrower. Woods became hills, and hills gave way to another country whose boundaries were not obvious from the passenger seat. Tyler eventually asked where they were. Luke shrugged. “Production.” Joseph laughed from the back seat, while Kirk had fallen asleep against the window, his head moving slightly with the motion of the car. The Mustang carried them through miles of country that did not need to become a story, and Luke did not point out landmarks or explain what he had intended to find. He kept driving because the road was there, because the afternoon was long, and because the others had gradually stopped asking how far they had to go. The music changed twice, the conversation rose and fell, and the light moved across the dashboard as the car passed through gaps in the trees. That was precisely why Luke kept driving: the day could remain open without becoming empty, and the men could share a stretch of time without having to agree on what it meant.
 
 ### Episode X — Nothing To Do
-     Nothing happened.
 
-     They sat around.
-
-     Someone opened a window. Someone closed it. Tyler changed the music. Joseph complained about the volume. Kirk laughed. Bill fell asleep.
-
-     Luke looked around the room and wrote one sentence in his notebook:
-
-     *Nothing to do.*
-
-     Then he underlined it.
+Nothing happened, and the house seemed to have arranged itself around that fact. The men sat in the living room without deciding who had chosen the room or how long they intended to stay there. Someone opened a window, someone else closed it when the air became cool, and Tyler changed the music after listening to the same track long enough to decide that everyone had heard it enough times. Joseph complained about the volume, Kirk laughed, and Bill fell asleep in his chair with his cup still resting on the table beside him. Luke looked around the room, taking in the familiar arrangement of furniture, the shoes near the doorway, the light on the floor, and the Mustang visible through the window between the trees. He opened his notebook and wrote one sentence on the next blank page: *Nothing to do.* Then he underlined it. Tyler noticed and asked whether Luke was documenting their lack of activity. Luke closed the notebook without answering. The sentence remained there, more complete than any schedule he could have written, because it described a day in which nobody needed to be somewhere else. The afternoon continued at its own pace, and the house held them without asking for a result.
 
 ### Episode XI — Another Evening
-     Another evening arrived without asking whether they had accomplished anything. The men ate outside. Luke leaned against the Mustang. Tyler threw a piece of grass at him. Joseph and Kirk talked quietly near the fence while Bill watched the sky darken.
 
-     The enormous country remained beyond them.
-
-     For once nobody needed to cross it.
+Another evening arrived without asking whether they had accomplished anything. The men ate outside while the last light moved along the fence and the trees began to merge into a darker band beyond the yard. Luke leaned against the Mustang, one shoulder resting against the car while he listened to Tyler throw out jokes from the other side of the table. Tyler picked up a piece of grass and tossed it at him, and Luke looked down at it as though it were a challenge that deserved a formal response. Joseph and Kirk talked quietly near the fence, close enough to hear one another without raising their voices, while Bill watched the sky darken over the enormous field. The food remained on the table for a while after everyone had finished, and nobody hurried to clear it. The air cooled gradually, carrying the smell of the grass and the faint metallic scent of the car beneath the trees. Beyond the yard, the country remained open and immense, but its distance no longer felt like an invitation or a demand. For once nobody needed to cross it. They could let the evening become dark around them and stay where they were.
 
 ### Episode XII — The Porch Light
-     Luke turned on the porch light before anyone asked him to. That became the whole event.
 
-     They had been outside long enough that the dark had changed the shape of the yard. The light made a small yellow territory around the house, and beyond it the field disappeared.
-
-     Joseph came out carrying two cups.
-
-     Kirk followed with a blanket.
-
-     Tyler sat on the steps.
-
-     Bill looked through the screen door.
-
-     “You boys planning on staying out there?”
-
-     Luke looked at the darkness.
-
-     “Yeah.”
-
-     Bill nodded.
-
-     “All right.”
-
-     He left the door open.
+Luke turned on the porch light before anyone asked him to, and that became the whole event. They had been outside long enough that the dark had changed the shape of the yard, softening the fence and making the trees beyond it appear farther away than they had during the day. The light made a small yellow territory around the house, revealing the steps, the porch boards, and the familiar objects left near the door, while the field beyond the edge of its reach disappeared into darkness. Joseph came out carrying two cups, moving carefully so that neither spilled, and Kirk followed with a blanket that he placed across the back of a chair. Tyler sat on the steps with his elbows resting on his knees, looking out toward the place where the road vanished. Bill looked through the screen door and asked, “You boys planning on staying out there?” Luke looked toward the darkness. “Yeah.” Bill nodded. “All right.” He left the door open. The warm interior remained visible behind the screen, and the light from the kitchen reached partway across the porch, joining the yellow circle above them. Nobody needed to explain why they were staying. The porch had become a place between the house and the country, sheltered but open, and the evening could continue there for as long as they wanted.
 
 ### Episode XIII — The Gas Station
-     Luke needed gas. That was the entire reason for leaving.
 
-     The Mustang rolled down the long road while the others argued about music. At the station, Luke disappeared inside and came back with drinks nobody had requested. Tyler took his anyway.
-
-     They stood beside the car in the bright artificial light, four men in a place that belonged to nobody, watching trucks pass along the distant highway.
-
-     Joseph leaned against Kirk.
-
-     Kirk did not move away.
-
-     Luke noticed.
-
-     He said nothing.
-
-     Production continued.
+Luke needed gas, which was the entire reason for leaving, and the Mustang rolled down the long road while the others argued about music as though the choice might determine the quality of the whole journey. The station appeared after a stretch of dark road, its bright artificial lights standing apart from the surrounding fields and making the forecourt look almost theatrical against the night. Luke pulled up beside the pump and went inside, returning with drinks nobody had requested. Tyler took his anyway, Joseph reached for one before asking what it was, and Kirk read the label while leaning against the side of the car. They stood beside the Mustang in the artificial light, four men in a place that belonged to nobody, watching trucks pass along the distant highway. The pumps clicked and hummed, and the open forecourt carried the smell of fuel, warm pavement, and the cold air moving in from the road. Joseph leaned against Kirk. Kirk did not move away. Luke noticed, but he said nothing; the moment did not need to be announced or converted into an explanation. Tyler was still talking about the music, and the drinks were beginning to sweat in their hands. Luke replaced the pump handle, closed the fuel door, and looked once toward the road. Production continued, not because the gas station had become a destination, but because even a necessary stop could become part of the shared record.
 
 ### Episode XIV — The Afternoon Nap
-     After lunch, everyone fell asleep in different parts of the house.
 
-     Luke slept on the couch. Tyler disappeared upstairs. Kirk took the chair by the window. Joseph sat beside him until he fell asleep too. Bill remained awake long enough to walk through the rooms and listen to the house breathing around them.
-
-     He did not wake anyone.
-
-     Outside, the Mustang cooled beneath the trees.
-
-     Nothing needed fixing.
-
-     Nothing needed explaining.
+After lunch, everyone fell asleep in different parts of the house, and the quiet arrived gradually as the conversations ended and the rooms settled into the warmer part of the day. Luke slept on the couch with one arm across his chest, the television dark and the curtains allowing a broad strip of light to reach the floor. Tyler disappeared upstairs, leaving the door partly open, while Kirk took the chair by the window and settled into it with the ease of someone who had intended to read but had become tired before opening the book. Joseph sat beside him for a while, speaking quietly until he fell asleep too, close enough that the chair and the small table beside it seemed to have become one shared corner of the room. Bill remained awake long enough to walk through the house and listen to it breathing around them: the low refrigerator hum from the kitchen, the occasional movement of a branch against the outside wall, the distant settling sound of the Mustang cooling beneath the trees. He paused at the doorway of each room, checked that nobody needed anything, and continued without waking them. Outside, the car stood in the shade, its metal gradually losing the warmth of the morning. Nothing needed fixing, and nothing needed explaining. Bill returned to his own room and let the afternoon remain undisturbed.
 
 ### Episode XV — The Shirt
-     Luke wore the same shirt three days in a row.
 
-     Tyler finally said something.
-
-     “You own a washing machine.”
-
-     Luke looked down at himself.
-
-     “It's still good.”
-
-     “It has become part of you.”
-
-     Joseph laughed.
-
-     Kirk shook his head.
-
-     Bill, from the kitchen, called out:
-
-     “He's right.”
-
-     Luke looked toward the kitchen.
-
-     “Traitors.”
-
-     He changed the shirt.
-
-     The old one stayed over the back of a chair until morning.
+Luke wore the same shirt three days in a row, and Tyler finally decided that the matter could no longer be left unmentioned. “You own a washing machine,” he said, looking at Luke across the room. Luke looked down at himself as though he had only just become aware of what he was wearing. “It's still good.” Tyler said it had become part of him, which made Joseph laugh and Kirk shake his head. Bill, from the kitchen, called out, “He's right.” Luke looked toward the kitchen. “Traitors.” The shirt was not especially unusual, which was part of Tyler's argument: Luke owned several that looked almost identical, and there was no practical reason to keep returning to this one. Luke eventually changed it, although he did so with the air of someone conceding a point that had not been properly argued. The old shirt stayed over the back of a chair until morning, where it remained visible from the hallway and briefly became another object around which the house organized its small conversations. By the next day it had been collected with the laundry, and the matter was finished. Nobody needed to make a rule about it.
 
 ### Episode XVI — The Smallest Production
-     Luke opened his notebook one evening and found that he had nothing written on the next page.
 
-     He stared at it.
-
-     Then he looked around.
-
-     Tyler was talking. Joseph was listening. Kirk was laughing at something Bill had said. The Mustang was visible through the window. The house was warm. Outside, the enormous country had gone dark.
-
-     Luke closed the notebook.
-
-     “We're done.”
-
-     Tyler looked over.
-
-     “Done with what?”
-
-     Luke smiled.
-
-     “Nothing.”
-
-     And that became the smallest production they ever made: a day that did not need to become anything else.
+Luke opened his notebook one evening and found that he had nothing written on the next page. The room was warm, and the windows had turned dark enough to reflect the interior back at itself: the lamps, the furniture, the men sitting in their usual places, and the Mustang visible beyond the glass beneath the trees. Luke stared at the blank page for a while, then looked around. Tyler was talking, Joseph was listening, and Kirk was laughing at something Bill had said. Their conversation moved easily from one subject to another, without anyone trying to bring it back to a point. The house held the familiar sounds of the evening, the quiet movement of people who knew where things belonged, and the low background noises that had become part of its ordinary life. Outside, the enormous country had gone dark, but it remained present beyond the windows, extending farther than the light could show. Luke closed the notebook. “We're done.” Tyler looked over. “Done with what?” Luke smiled. “Nothing.” And that became the smallest production they ever made: a day that did not need to become anything else, recorded not by a schedule or a finished project but by the fact that they had been there together and would recognize the shape of it when they remembered.

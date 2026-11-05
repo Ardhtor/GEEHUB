@@ -105,7 +105,9 @@ def build_cues(frames: list[dict[str, float]], duration_ms: int) -> list[dict[st
 
 def extract_samples(source: Path, samples: Any, frames: list[dict[str,float]], output: Path,
                     count: int=12, seconds: float=1.6) -> list[dict[str,Any]]:
-    output.mkdir(parents=True,exist_ok=True); ranked=sorted(frames,key=lambda f:f["spectral_flux"],reverse=True)
+    output.mkdir(parents=True,exist_ok=True)
+    if count <= 0: return []
+    ranked=sorted(frames,key=lambda f:f["spectral_flux"],reverse=True)
     duration=len(samples)/RATE; chosen=[]
     for f in ranked:
         start=max(0.0,min(max(0.0,duration-seconds),f["at_ms"]/1000-seconds*.25))

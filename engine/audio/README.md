@@ -33,7 +33,7 @@ one synthesizes sound; the other listens to imported music and samples it.
 
 ## Vocal Frequency Atlas
 
-Nonverbal vocalisation is now a separate analysis source, not a speech-recognition category or a fixed low-pitch effect. See `vocal_frequency_atlas.py` and `VOCAL_FREQUENCY_ATLAS.md`.
+Nonverbal vocalisation is now a separate analysis source, not a speech-recognition category or a fixed low-pitch effect. See `vocal_frequency_atlas.py` and `../VOCAL_FREQUENCY_ATLAS.md`.
 
 Use the music sampler on the full track for rhythm, energy and reusable transient samples. Use the Vocal Frequency Atlas on an isolated vocal stem for F0, harmonic/subharmonic structure, periodicity, roughness, LPC formant candidates, breath/noise proxies and amplitude envelope. Both emit timed cues for the same MusicProgram and narrative bridge.
 

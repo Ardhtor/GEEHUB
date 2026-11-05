@@ -26,11 +26,12 @@ The label is supplied by the curator. Pitch alone cannot establish sex, age, ide
 - Noise texture: spectral flatness and zero-crossing rate as proxies for breath/noise and roughness.
 - Envelope: RMS amplitude per frame.
 - Temporal shape: pitch glide, sustained regions, interruptions and releases.
+- Gesture segmentation: contiguous voiced passages are grouped and described as `pitch_glide`, `pulsed_resonance`, `irregular_resonance`, or `sustained_resonance` using measured pitch span, amplitude variation and periodicity. Each segment includes its time bounds and the values that produced the heuristic label.
 
 ## Animation contract
 
-Acoustic measurements are control signals, not literal body instructions. The downstream scene system maps them to continuous parameters: deformation envelope, motion amplitude, hold duration, secondary movement, camera response and transition timing. The system must preserve established body proportions and avoid adding a visual event without a corresponding signal event.
+Acoustic measurements are control signals, not literal body instructions. Gesture labels are threshold-based motion hints, not emotional or intent labels. The downstream scene system maps them to continuous parameters: deformation envelope, motion amplitude, hold duration, secondary movement, camera response and transition timing. The system must preserve established body proportions and avoid adding a visual event without a corresponding signal event.
 
 ## Integration
 
-The output writes `vocal_frequency_atlas.json` and WAV excerpts under `vocal_samples/`. Each control event uses the same timed-cue vocabulary as `MusicProgram`; the narrative bridge can therefore carry it without creating a parallel timeline system. Music sampling, authored scores and vocal features coexist. A track can drive the scene through rhythm while its vocal stem independently drives resonance and deformation.
+The output writes `vocal_frequency_atlas.json`, WAV excerpts under `vocal_samples/`, and a `gesture_segments` collection for reusable animation staging. Each control event uses the same timed-cue vocabulary as `MusicProgram`; the narrative bridge can therefore carry it without creating a parallel timeline system. Music sampling, authored scores and vocal features coexist. A track can drive the scene through rhythm while its vocal stem independently drives resonance and deformation.

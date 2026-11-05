@@ -29,3 +29,12 @@ changes, emits a MusicProgram-compatible cue manifest, and extracts provenance-
 tagged WAV clips into a local output folder. See `MUSIC_SAMPLING_ENGINE.md`
 for the full workflow. This is separate from the procedural soundboard above:
 one synthesizes sound; the other listens to imported music and samples it.
+
+
+## Vocal Frequency Atlas
+
+Nonverbal vocalisation is now a separate analysis source, not a speech-recognition category or a fixed low-pitch effect. See `vocal_frequency_atlas.py` and `VOCAL_FREQUENCY_ATLAS.md`.
+
+Use the music sampler on the full track for rhythm, energy and reusable transient samples. Use the Vocal Frequency Atlas on an isolated vocal stem for F0, harmonic/subharmonic structure, periodicity, roughness, LPC formant candidates, breath/noise proxies and amplitude envelope. Both emit timed cues for the same MusicProgram and narrative bridge.
+
+The `male_moaning` label is supplied by the curator. The analyser does not infer sex, age, identity or intent from pitch. Full-resolution acoustic frames are retained in the atlas; control events are reduced to 100 ms intervals for the ledger.

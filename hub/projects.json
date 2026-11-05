@@ -722,5 +722,20 @@
       "handoffs",
       "efficiency"
     ]
+  },
+  {
+    "id": "common-room",
+    "name": "The Common Room",
+    "group": "world",
+    "status": "active",
+    "summary": "Inhabitant-facing shared workplace for membership, shift presence, notices, work requests, acceptance, completion, and help offers. Portable shared-board exchange is implemented; live server synchronization remains a future integration.",
+    "path": "./common-room.html",
+    "tags": [
+      "inhabitants",
+      "workplace",
+      "social",
+      "delegation",
+      "collaboration"
+    ]
   }
 ]

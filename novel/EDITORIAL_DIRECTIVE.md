@@ -6,6 +6,10 @@ The global rule is documented in [../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISIO
 
 ## Paragraphs and breaks
 
+Use longer, continuous paragraphs as the default throughout the manuscript and connected GEEHUB prose. Each paragraph should sustain a complete stretch of attention, allowing atmosphere, movement, physical sensation, memory, character presence, thought, and consequence to develop together across several sentences. Avoid frequent one-sentence paragraphs, isolated fragments, and line breaks used only for dramatic emphasis. Break when the scene's focus, spatial position, speaker, or environmental condition genuinely changes, and let the new paragraph establish that change. Preserve dialogue formatting where clarity requires it, but do not turn narration into screenplay beats or a stack of decorative fragments.
+
+
+
 Every paragraph break and scene transition should be driven by non-plot information: environment, geography, architecture, weather, light, color, spatial depth, surfaces, sound, temperature, distance, machinery, atmosphere, and the physical presence of people within a place. Line breaks are environmental descriptors, not isolated plot beats.
 
 Use substantial paragraphs. Keep atmosphere, movement, physical sensation, memory, character presence, thought, and consequence together when they belong to the same stretch of experience. Let the setting carry transitions. Avoid object inventories, screenplay beats, ornamental fragments, and explanatory padding.

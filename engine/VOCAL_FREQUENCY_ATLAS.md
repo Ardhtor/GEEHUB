@@ -20,6 +20,8 @@ The label is supplied by the curator. Pitch alone cannot establish sex, age, ide
 - F0: autocorrelation-based fundamental frequency and its movement over time.
 - Periodicity: strength of periodic structure, useful for voiced/rough transitions.
 - Harmonics: amplitudes at successive multiples of F0; H1-H2 is retained as a rough spectral-shape measure.
+- Subharmonics: energy near half the estimated F0, retained as a rough irregular-phonation indicator.
+- Roughness: inverse periodicity as a coarse measure of unstable or noisy voicing.
 - Formant candidates: approximate LPC resonances, retained as candidates rather than definitive phonetic formants.
 - Noise texture: spectral flatness and zero-crossing rate as proxies for breath/noise and roughness.
 - Envelope: RMS amplitude per frame.

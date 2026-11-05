@@ -71,7 +71,7 @@ def analyse(samples: array.array, rate: int, window_ms: int = 100) -> dict[str, 
         lo = max(0, i - 12)
         local = flux[lo:i]
         baseline = sum(local) / max(1, len(local))
-        threshold = max(0.012, baseline * 2.4)
+        threshold = max(0.003, baseline * 2.4)
         if flux[i] >= threshold and flux[i] >= flux[i - 1] and flux[i] > flux[i + 1]:
             if not onsets or i - onsets[-1] >= min_gap:
                 onsets.append(i)

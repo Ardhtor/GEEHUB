@@ -233,7 +233,8 @@ def export_regions(source: Path, out: Path,
     return exported
 
 
-def make_control_events(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def make_control_events(rows: list[dict[str, Any]],
+                       segments: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
     events = []
     previous_f0 = None
     # Keep a full-resolution feature curve in the atlas, but emit control cues
@@ -264,6 +265,8 @@ def make_control_events(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "target": "embodiment",
             "instruction": "Use the measured vocal envelope as a continuous deformation and motion-control signal; preserve the subject's established proportions.",
             "acoustic_profile": profile,
+            "gesture": next((segment["gesture"] for segment in (segments or [])
+                             if segment["start_ms"] <= row["at_ms"] < segment["end_ms"]), None),
         })
     return events
 
@@ -288,8 +291,8 @@ def build_atlas(source: str, output: str, label: str = "vocalisation",
         item["source_sha256"] = source_hash
     voiced = [r for r in rows if r["f0_hz"] is not None]
     f0s = [r["f0_hz"] for r in voiced]
-    cues = make_control_events(rows)
     gestures = gesture_segments(rows)
+    cues = make_control_events(rows, gestures)
     atlas = {
         "schema": "geehub.vocal-frequency-atlas.v1",
         "id": track_id or source_path.stem.lower().replace(" ", "-"),

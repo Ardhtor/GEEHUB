@@ -10,7 +10,7 @@ Run:
 
 ```bash
 python -m pip install numpy
-python engine/vocal_frequency_atlas.py "/path/to/vocal-stem.wav" --out "/path/to/atlas" --label male_moaning
+python -m engine.audio.vocal_frequency_atlas "/path/to/vocal-stem.wav" --out "/path/to/atlas" --label male_moaning
 ```
 
 The label is supplied by the curator. Pitch alone cannot establish sex, age, identity or intent. For mixed music, use a vocal stem or isolated recording; otherwise instrument harmonics can be mistaken for vocal features.

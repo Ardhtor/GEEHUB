@@ -125,7 +125,8 @@ def extract_samples(source: Path, samples: Any, frames: list[dict[str,float]], o
           "selection":"spectral-flux peak with temporal spacing"})
     return manifest
 
-def analyse_file(source: str|Path, output_dir: str|Path, sample_count: int=12,\n                 vocal_stem: str|Path|None=None, vocal_label: str="vocalisation") -> dict[str,Any]:
+def analyse_file(source: str|Path, output_dir: str|Path, sample_count: int=12,
+                 vocal_stem: str|Path|None=None, vocal_label: str="vocalisation") -> dict[str,Any]:
     source=Path(source).expanduser().resolve(); output=Path(output_dir).expanduser().resolve()
     if not source.is_file(): raise FileNotFoundError(source)
     samples=decode_audio(source); frames=analyse_frames(samples)

@@ -35,6 +35,33 @@ function uriTaken(manifest, uri) {
     manifest.artifacts.some(item => item.uri === uri);
 }
 
+
+function requiredFrameSetErrors(inputFrameSetIds, frameSets) {
+  const errors = [];
+  const selected = (Array.isArray(frameSets) ? frameSets : [])
+    .filter(frameSet => Array.isArray(inputFrameSetIds) && inputFrameSetIds.includes(frameSet.id));
+  const segmentation = selected.filter(frameSet => frameSet.role === "segmentation");
+  const landmarks = selected.filter(frameSet => frameSet.role === "landmarks");
+  if (segmentation.length !== 1) errors.push("requires exactly one segmentation frame set");
+  if (landmarks.length !== 1) errors.push("requires exactly one landmarks frame set");
+  if (segmentation.length === 1 && landmarks.length === 1) {
+    const a = segmentation[0];
+    const b = landmarks[0];
+    if (!sha256(a.checksum) || !sha256(b.checksum)) {
+      errors.push("segmentation and landmarks frame sets require SHA-256 checksums");
+    }
+    for (const key of ["firstFrame", "lastFrame", "frameCount", "width", "height", "fps"]) {
+      if (a[key] !== b[key]) {
+        errors.push("segmentation and landmarks frame sets disagree on " + key);
+      }
+    }
+    if (!nonEmpty(a.metadata?.sequenceId) || a.metadata.sequenceId !== b.metadata?.sequenceId) {
+      errors.push("segmentation and landmarks frame sets must share a sequenceId");
+    }
+  }
+  return errors;
+}
+
 function appendRevision(manifest, type, details, apply) {
   const current = validateBridgeManifest(manifest);
   if (!current.valid) throw new TypeError("Cannot mutate invalid bridge manifest: " + current.errors.join("; "));
@@ -159,6 +186,8 @@ export function queueBridgeRenderJob(manifest, {
   for (const frameSetId of inputFrameSetIds) {
     if (!available.has(frameSetId)) throw new Error("Unknown input frame set: " + frameSetId);
   }
+  const requiredInputErrors = requiredFrameSetErrors(inputFrameSetIds, manifest.frameSets);
+  if (requiredInputErrors.length) throw new Error("Render job " + requiredInputErrors.join("; "));
   if (!nonEmpty(renderer)) throw new TypeError("Renderer name is required");
 
   const job = {
@@ -305,6 +334,7 @@ export function validateBridgeManifest(manifest) {
     if (!Array.isArray(job.inputFrameSetIds) ||
         new Set(job.inputFrameSetIds).size !== job.inputFrameSetIds.length ||
         job.inputFrameSetIds.some(id => !frameIds.has(id))) errors.push("Render job references a missing or duplicate frame set: " + job.id);
+    requiredFrameSetErrors(job.inputFrameSetIds, frameSets).forEach(message => errors.push(message + ": " + job.id));
     if (job.status === "completed" && !nonEmpty(job.artifactId)) errors.push("Completed job has no artifact reference: " + job.id);
     if (job.status !== "completed" && job.artifactId !== null) errors.push("Non-completed job references an artifact: " + job.id);
     if (job.status === "queued" && (job.startedAt !== null || job.completedAt !== null)) errors.push("Queued job has execution timestamps: " + job.id);

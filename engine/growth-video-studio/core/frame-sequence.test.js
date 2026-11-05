@@ -8,6 +8,8 @@ import { deflateSync } from "node:zlib";
 import { REQUIRED_ANCHORS } from "./landmark-track.js";
 import { validateFrameSequencePackage } from "./frame-sequence.js";
 import { inspectFrameSequenceFiles } from "./frame-sequence-worker.js";
+import { prepareFrameSequenceBridgeInputs } from "./frame-sequence-bridge.js";
+import { createBridgeManifest, validateBridgeManifest } from "./bridge-manifest.js";
 
 const identityAnchors = ["leftEye", "rightEye", "nose", "chin"];
 const allAnchors = [...new Set([...REQUIRED_ANCHORS, ...identityAnchors])];
@@ -136,6 +138,55 @@ test("verifies actual PNG checksums and dimensions before geometry handoff", asy
   assert.equal(audit.fileVerification.checked, 4);
   assert.equal(audit.fileVerification.verified, 4);
   assert.equal(audit.pixelSemanticsVerified, false);
+});
+
+test("prepares typed bridge frame sets from a file-verified sequence audit", async t => {
+  const f = await fixture(t);
+  const audit = await inspectFrameSequenceFiles(f.sequence, { dropboxRoot: f.root });
+  const manifest = createBridgeManifest({
+    projectId: "project-frame-sequence",
+    source: {
+      id: f.sequence.source.id,
+      name: f.sequence.source.name,
+      uri: f.sequence.source.uri,
+      duration: f.sequence.source.duration,
+      width: f.sequence.source.width,
+      height: f.sequence.source.height,
+      immutable: true
+    }
+  });
+  const prepared = prepareFrameSequenceBridgeInputs(manifest, f.sequence, audit, {
+    segmentationUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/segmentation.json",
+    landmarksUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/landmarks.json"
+  });
+  assert.equal(prepared.manifest.frameSets.length, 2);
+  assert.deepEqual(prepared.manifest.frameSets.map(item => item.role), ["segmentation", "landmarks"]);
+  assert.equal(prepared.manifest.frameSets[0].metadata.sequenceId, f.sequence.id);
+  assert.equal(prepared.documents[0].checksum, prepared.manifest.frameSets[0].checksum);
+  assert.equal(prepared.documents[1].checksum, prepared.manifest.frameSets[1].checksum);
+  assert.equal(JSON.parse(prepared.documents[0].content).frames.length, 2);
+  assert.equal(JSON.parse(prepared.documents[1].content).frames.length, 2);
+  assert.equal(prepared.pixelSemanticsVerified, false);
+  assert.equal(validateBridgeManifest(prepared.manifest).valid, true);
+});
+
+test("refuses bridge registration when mask audit evidence is incomplete", async t => {
+  const f = await fixture(t);
+  const audit = await inspectFrameSequenceFiles(f.sequence, { dropboxRoot: f.root });
+  audit.fileVerification.verified -= 1;
+  const manifest = createBridgeManifest({
+    projectId: "project-frame-sequence",
+    source: {
+      id: f.sequence.source.id, name: f.sequence.source.name,
+      uri: f.sequence.source.uri, duration: f.sequence.source.duration,
+      width: f.sequence.source.width, height: f.sequence.source.height,
+      immutable: true
+    }
+  });
+  assert.throws(() => prepareFrameSequenceBridgeInputs(manifest, f.sequence, audit, {
+    segmentationUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/segmentation.json",
+    landmarksUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/landmarks.json"
+  }), /Every body and face mask must pass file verification/);
 });
 
 test("blocks a mask whose actual checksum differs from its descriptor", async t => {

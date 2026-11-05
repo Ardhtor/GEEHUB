@@ -43,11 +43,31 @@ function manifest() {
     manifestId: "bridge-1"
   });
 }
+function withRequiredFrameSets(manifestValue) {
+  let current = addBridgeFrameSet(manifestValue, {
+    id: "segmentation-1", role: "segmentation",
+    uri: "dropbox://GEEHUB/FrameEvidence/segmentation-1.json",
+    firstFrame: 0, lastFrame: 1, frameCount: 2,
+    width: 720, height: 1280, fps: 24, checksum: "a".repeat(64),
+    metadata: { sequenceId: "sequence-1" }
+  });
+  current = addBridgeFrameSet(current, {
+    id: "landmarks-1", role: "landmarks",
+    uri: "dropbox://GEEHUB/FrameEvidence/landmarks-1.json",
+    firstFrame: 0, lastFrame: 1, frameCount: 2,
+    width: 720, height: 1280, fps: 24, checksum: "b".repeat(64),
+    metadata: { sequenceId: "sequence-1" }
+  });
+  return current;
+}
 function queue(manifestValue) {
-  return queueBridgeRenderJob(manifestValue, {
+  const prepared = manifestValue.frameSets.some(item => item.role === "segmentation")
+    ? manifestValue : withRequiredFrameSets(manifestValue);
+  return queueBridgeRenderJob(prepared, {
     id: "render-1",
     jobUri: "dropbox://GEEHUB/Bridge/incoming/render-1.json",
     portableJob: portableJob(),
+    inputFrameSetIds: ["segmentation-1", "landmarks-1"],
     outputUri: "dropbox://GEEHUB/Exports/source-growth.mp4",
     renderer: "resolve-free"
   });
@@ -85,10 +105,20 @@ test("rejects a frame set that would reuse the source URI", () => {
 
 test("queues only a render job tied to the immutable source", () => {
   const result = queue(manifest());
-  assert.equal(result.revision, 1);
+  assert.equal(result.revision, 3);
   assert.equal(result.renderJobs[0].status, "queued");
   assert.equal(result.renderJobs[0].sourceAssetId, "source-1");
   assert.equal(validateBridgeManifest(result).valid, true);
+});
+
+test("refuses to queue a render job without typed segmentation and landmark inputs", () => {
+  assert.throws(() => queueBridgeRenderJob(manifest(), {
+    id: "render-missing-evidence",
+    jobUri: "dropbox://GEEHUB/Bridge/incoming/missing-evidence.json",
+    portableJob: portableJob(),
+    inputFrameSetIds: [],
+    outputUri: "dropbox://GEEHUB/Exports/missing-evidence.mp4"
+  }), /exactly one segmentation frame set; requires exactly one landmarks frame set/);
 });
 
 test("rejects mismatched source and duplicate output paths", () => {
@@ -118,7 +148,7 @@ test("a running render records a checksummed artifact at its reserved output", (
     checksum: "a".repeat(64),
     metadata: { width: 720, height: 1280, fps: 24 }
   });
-  assert.equal(current.revision, 3);
+  assert.equal(current.revision, 5);
   assert.equal(current.renderJobs[0].status, "completed");
   assert.equal(current.renderJobs[0].artifactId, "artifact-1");
   assert.equal(current.artifacts[0].jobId, "render-1");

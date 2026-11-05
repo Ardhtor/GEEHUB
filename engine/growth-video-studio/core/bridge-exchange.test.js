@@ -4,7 +4,7 @@ import { createHash } from "node:crypto";
 import { mkdtemp, mkdir, writeFile, readFile, lstat, symlink, rm } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
-import { createBridgeManifest, queueBridgeRenderJob } from "./bridge-manifest.js";
+import { createBridgeManifest, addBridgeFrameSet, queueBridgeRenderJob } from "./bridge-manifest.js";
 import { stageBridgeExchange, resolveDropboxUri } from "./bridge-exchange.js";
 
 const sourceBytes = "immutable source video bytes";
@@ -36,6 +36,13 @@ async function fixture(t) {
   await mkdir(path.dirname(sourcePath), { recursive: true });
   await writeFile(sourcePath, sourceBytes);
   const payload = portableJob();
+  const segmentationContent = JSON.stringify({ schema: "geehub.frame-set-evidence", role: "segmentation" }) + "\n";
+  const landmarksContent = JSON.stringify({ schema: "geehub.frame-set-evidence", role: "landmarks" }) + "\n";
+  const segmentationPath = path.join(root, "GEEHUB", "FrameEvidence", "segmentation-test.json");
+  const landmarksPath = path.join(root, "GEEHUB", "FrameEvidence", "landmarks-test.json");
+  await mkdir(path.dirname(segmentationPath), { recursive: true });
+  await writeFile(segmentationPath, segmentationContent);
+  await writeFile(landmarksPath, landmarksContent);
   let manifest = createBridgeManifest({
     projectId: "project-test",
     source: {
@@ -49,16 +56,30 @@ async function fixture(t) {
     },
     manifestId: "bridge-test"
   });
+  manifest = addBridgeFrameSet(manifest, {
+    id: "segmentation-test", role: "segmentation",
+    uri: "dropbox://GEEHUB/FrameEvidence/segmentation-test.json",
+    firstFrame: 0, lastFrame: 1, frameCount: 2, width: 720, height: 1280, fps: 24,
+    checksum: createHash("sha256").update(segmentationContent).digest("hex"),
+    metadata: { sequenceId: "sequence-test" }
+  });
+  manifest = addBridgeFrameSet(manifest, {
+    id: "landmarks-test", role: "landmarks",
+    uri: "dropbox://GEEHUB/FrameEvidence/landmarks-test.json",
+    firstFrame: 0, lastFrame: 1, frameCount: 2, width: 720, height: 1280, fps: 24,
+    checksum: createHash("sha256").update(landmarksContent).digest("hex"),
+    metadata: { sequenceId: "sequence-test" }
+  });
   manifest = queueBridgeRenderJob(manifest, {
     id: "render-test",
     jobUri: "dropbox://GEEHUB/Bridge/incoming/render-test.json",
     portableJob: payload,
-    inputFrameSetIds: [],
+    inputFrameSetIds: ["segmentation-test", "landmarks-test"],
     outputUri: "dropbox://GEEHUB/Exports/render-test.mp4",
     renderer: "resolve-free"
   });
   t.after(() => rm(temp, { recursive: true, force: true }));
-  return { temp, root, sourcePath, manifest, payload };
+  return { temp, root, sourcePath, manifest, payload, segmentationPath, landmarksPath };
 }
 
 test("maps Dropbox URIs below the configured root and rejects traversal", () => {
@@ -86,6 +107,8 @@ test("stages a verified source, job JSON, and manifest without creating the outp
   assert.equal(receipt.declaredSourceChecksum, sourceChecksum);
   assert.equal(receipt.status, "staged");
   assert.equal(receipt.outputCreated, false);
+  assert.equal(receipt.frameSetVerification.checked, 2);
+  assert.equal(receipt.frameSetVerification.verified, 2);
   assert.equal(await readFile(f.sourcePath, "utf8"), sourceBytes);
   await assert.rejects(lstat(receipt.outputPath), { code: "ENOENT" });
 });
@@ -98,6 +121,24 @@ test("refuses a source whose actual SHA-256 differs from the manifest", async t 
     portableJob: f.payload, dropboxRoot: f.root
   }), /does not match/);
   await assert.rejects(lstat(resolveDropboxUri("dropbox://GEEHUB/Bridge/incoming/manifest.json", f.root)), { code: "ENOENT" });
+});
+
+test("refuses a missing input frame-set sidecar", async t => {
+  const f = await fixture(t);
+  await rm(f.segmentationPath);
+  await assert.rejects(stageBridgeExchange({
+    manifest: f.manifest, jobId: "render-test",
+    portableJob: f.payload, dropboxRoot: f.root
+  }), /Input frame-set file is missing/);
+});
+
+test("refuses an input frame-set sidecar with the wrong checksum", async t => {
+  const f = await fixture(t);
+  await writeFile(f.landmarksPath, "tampered evidence");
+  await assert.rejects(stageBridgeExchange({
+    manifest: f.manifest, jobId: "render-test",
+    portableJob: f.payload, dropboxRoot: f.root
+  }), /SHA-256 does not match/);
 });
 
 test("refuses to overwrite a reserved output file", async t => {

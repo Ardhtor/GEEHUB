@@ -85,7 +85,7 @@ local function validateManifest(manifest)
     local jobs = type(manifest.renderJobs) == "table" and manifest.renderJobs or {}
     local artifacts = type(manifest.artifacts) == "table" and manifest.artifacts or {}
     local events = type(manifest.events) == "table" and manifest.events or {}
-    local frameIds, jobIds, artifactIds = {}, {}, {}
+    local frameIds, frameSetById, jobIds, artifactIds = {}, {}, {}, {}
     local uris = {}
 
     local function reserve(uri, owner)
@@ -104,7 +104,7 @@ local function validateManifest(manifest)
             add("Frame-set entry must be an object")
         else
             if not nonEmpty(frame.id) or frameIds[frame.id] then add("Missing or duplicate frame-set id") end
-            if nonEmpty(frame.id) then frameIds[frame.id] = true end
+            if nonEmpty(frame.id) then frameIds[frame.id] = true; frameSetById[frame.id] = frame end
             if not roles[frame.role] then add("Unknown frame-set role: " .. tostring(frame.role)) end
             if frame.sourceAssetId ~= sourceId then add("Frame set has a foreign source reference") end
             if not positiveInteger(frame.frameCount) or type(frame.firstFrame) ~= "number" or
@@ -121,6 +121,9 @@ local function validateManifest(manifest)
                 add("Invalid frame-set checksum: " .. tostring(frame.id))
             end
             if frame.immutable ~= true then add("Frame set is not immutable: " .. tostring(frame.id)) end
+            if (frame.role == "segmentation" or frame.role == "landmarks") and not sha256(frame.checksum) then
+                add("Required frame set checksum is missing or invalid: " .. tostring(frame.id))
+            end
             reserve(frame.uri, "frame set " .. tostring(frame.id))
         end
     end
@@ -141,12 +144,35 @@ local function validateManifest(manifest)
                 add("Render job frame-set references are missing: " .. tostring(job.id))
             else
                 local seen = {}
+                local roleCounts = { segmentation = 0, landmarks = 0 }
+                local selectedByRole = {}
                 for _, frameId in ipairs(job.inputFrameSetIds) do
                     if seen[frameId] or not frameIds[frameId] then
                         add("Render job references a missing or duplicate frame set: " .. tostring(job.id))
                         break
                     end
                     seen[frameId] = true
+                    local frameSet = frameSetById[frameId]
+                    if frameSet and roleCounts[frameSet.role] ~= nil then
+                        roleCounts[frameSet.role] = roleCounts[frameSet.role] + 1
+                        selectedByRole[frameSet.role] = frameSet
+                    end
+                end
+                if roleCounts.segmentation ~= 1 or roleCounts.landmarks ~= 1 then
+                    add("Render job requires exactly one segmentation and one landmarks frame set: " .. tostring(job.id))
+                else
+                    local segmentation = selectedByRole.segmentation
+                    local landmarks = selectedByRole.landmarks
+                    for _, key in ipairs({ "firstFrame", "lastFrame", "frameCount", "width", "height", "fps" }) do
+                        if segmentation[key] ~= landmarks[key] then
+                            add("Segmentation and landmarks frame sets disagree on " .. key .. ": " .. tostring(job.id))
+                        end
+                    end
+                    local segmentationSequence = type(segmentation.metadata) == "table" and segmentation.metadata.sequenceId or nil
+                    local landmarksSequence = type(landmarks.metadata) == "table" and landmarks.metadata.sequenceId or nil
+                    if not nonEmpty(segmentationSequence) or segmentationSequence ~= landmarksSequence then
+                        add("Segmentation and landmarks frame sets must share a sequenceId: " .. tostring(job.id))
+                    end
                 end
             end
             if type(job.output) ~= "table" or not positiveInteger(job.output.width) or

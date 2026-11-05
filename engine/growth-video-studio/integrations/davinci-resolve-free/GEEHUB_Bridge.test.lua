@@ -10,12 +10,25 @@ local function fixture()
         source = { id = "source-test", name = "source.mp4",
             uri = "dropbox://GEEHUB/Assets/source.mp4", duration = 2,
             width = 720, height = 1280, immutable = true },
-        frameSets = {},
+        frameSets = {
+            { id = "segmentation-test", role = "segmentation",
+                uri = "dropbox://GEEHUB/FrameEvidence/segmentation.json",
+                sourceAssetId = "source-test", firstFrame = 0, lastFrame = 1,
+                frameCount = 2, width = 720, height = 1280, fps = 24,
+                checksum = string.rep("a", 64), immutable = true,
+                metadata = { sequenceId = "sequence-test" } },
+            { id = "landmarks-test", role = "landmarks",
+                uri = "dropbox://GEEHUB/FrameEvidence/landmarks.json",
+                sourceAssetId = "source-test", firstFrame = 0, lastFrame = 1,
+                frameCount = 2, width = 720, height = 1280, fps = 24,
+                checksum = string.rep("b", 64), immutable = true,
+                metadata = { sequenceId = "sequence-test" } }
+        },
         renderJobs = {{
             id = "render-test",
             jobUri = "dropbox://GEEHUB/Bridge/incoming/render-test.json",
             jobSchema = "geehub.growth-render-job", jobSchemaVersion = 1,
-            sourceAssetId = "source-test", inputFrameSetIds = {},
+            sourceAssetId = "source-test", inputFrameSetIds = { "segmentation-test", "landmarks-test" },
             outputUri = "dropbox://GEEHUB/Exports/render-test.mp4",
             output = { width = 720, height = 1280, fps = 24, format = "mp4" },
             renderer = "resolve-free", status = "queued",
@@ -57,6 +70,14 @@ test("rejects URI collisions", function()
     local result = bridge.validateManifest(manifest)
     assert(not result.valid)
     assert(table.concat(result.errors, "; "):find("URI collision", 1, true))
+end)
+
+test("requires typed segmentation and landmark frame sets", function()
+    local manifest = fixture()
+    manifest.renderJobs[1].inputFrameSetIds = {}
+    local result = bridge.validateManifest(manifest)
+    assert(not result.valid)
+    assert(table.concat(result.errors, "; "):find("requires exactly one segmentation", 1, true))
 end)
 
 test("maps Dropbox URIs and blocks traversal", function()

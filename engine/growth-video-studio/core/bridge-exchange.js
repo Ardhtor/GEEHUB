@@ -202,6 +202,30 @@ export async function stageBridgeExchange({
     throw new Error("Source SHA-256 does not match the immutable manifest checksum");
   }
 
+  const verifiedFrameSets = [];
+  for (const frameSetId of job.inputFrameSetIds) {
+    const frameSet = manifest.frameSets.find(item => item.id === frameSetId);
+    if (!frameSet || !frameSet.checksum) {
+      throw new Error("Input frame set is missing a SHA-256 checksum: " + frameSetId);
+    }
+    const frameSetPath = resolveDropboxUri(frameSet.uri, root);
+    const frameSetStat = await inspectNoSymlinkPath(root, frameSetPath, true);
+    if (!frameSetStat || !frameSetStat.isFile()) {
+      throw new Error("Input frame-set file is missing or is not a regular file: " + frameSetId);
+    }
+    const checksum = await hashFile(frameSetPath);
+    if (checksum !== frameSet.checksum.toLowerCase()) {
+      throw new Error("Input frame-set SHA-256 does not match its manifest descriptor: " + frameSetId);
+    }
+    verifiedFrameSets.push({
+      id: frameSet.id,
+      role: frameSet.role,
+      uri: frameSet.uri,
+      path: frameSetPath,
+      checksum
+    });
+  }
+
   await ensureSafeDirectory(root, path.dirname(jobPath));
   await ensureSafeDirectory(root, path.dirname(manifestPath));
   await ensureSafeDirectory(root, path.dirname(outputPath));
@@ -243,6 +267,7 @@ export async function stageBridgeExchange({
     sourcePath,
     sourceChecksum,
     declaredSourceChecksum: manifest.source.checksum || null,
+    frameSetVerification: { checked: job.inputFrameSetIds.length, verified: verifiedFrameSets.length, frameSets: verifiedFrameSets },
     outputUri: job.outputUri,
     outputPath,
     outputCreated: false

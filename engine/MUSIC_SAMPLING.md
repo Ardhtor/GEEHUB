@@ -34,3 +34,10 @@ The output directory contains reusable audio excerpts and a timed music program.
 ## Current limits
 
 This first implementation analyses amplitude dynamics and transient timing. It does not yet perform source separation, key/chord recognition, instrument classification, speech transcription, or semantic music understanding. Tempo is an estimate and can be ambiguous for rubato, half-time, double-time, or sparse material. The cue instructions are intentionally generic; scene-specific meaning comes from the Innervation/Sensation layer and the user's direction.
+
+
+## Vocal-frequency extension
+
+For nonverbal vocalisation, use `engine/vocal_frequency_atlas.py` and `engine/VOCAL_FREQUENCY_ATLAS.md`. This is not a replacement for music sampling: the original sampler still extracts musical transients and broad energy phases, while the Vocal Frequency Atlas extracts voiced regions and their acoustic structure.
+
+Both produce timed cue data accepted by `MusicProgram`. The bridge preserves optional per-event `acoustic_profile` fields. A mixed track can therefore contribute rhythm and energy while an isolated vocal stem contributes pitch, harmonic, formant-candidate, breath/noise-proxy and amplitude-envelope controls.

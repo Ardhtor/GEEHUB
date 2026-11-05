@@ -17,7 +17,7 @@ The sampling layer reconnects the existing `INNERVATION_ENGINE`, `SENSATION_ENGI
 ## Run
 
 ```bash
-python engine/audio_sampler.py "/path/to/track.wav" --out "/path/to/output" --track-id "track-001"
+python engine/audio/audio_sampler.py "/path/to/track.wav" --out "/path/to/output" --track-id "track-001"
 ```
 
 The output directory contains reusable audio excerpts and a timed music program. The program can be loaded by the existing `MusicProgram` and transmitted by `music_bridge.transmit_music_window` into the narrative correspondence ledger.
@@ -38,6 +38,6 @@ This first implementation analyses amplitude dynamics and transient timing. It d
 
 ## Vocal-frequency extension
 
-For nonverbal vocalisation, use `engine/vocal_frequency_atlas.py` and `engine/VOCAL_FREQUENCY_ATLAS.md`. This is not a replacement for music sampling: the original sampler still extracts musical transients and broad energy phases, while the Vocal Frequency Atlas extracts voiced regions and their acoustic structure.
+For nonverbal vocalisation, use `engine/audio/vocal_frequency_atlas.py` and `engine/VOCAL_FREQUENCY_ATLAS.md`. This is not a replacement for music sampling: the original sampler still extracts musical transients and broad energy phases, while the Vocal Frequency Atlas extracts voiced regions and their acoustic structure.
 
 Both produce timed cue data accepted by `MusicProgram`. The bridge preserves optional per-event `acoustic_profile` fields. A mixed track can therefore contribute rhythm and energy while an isolated vocal stem contributes pitch, harmonic, formant-candidate, breath/noise-proxy and amplitude-envelope controls.

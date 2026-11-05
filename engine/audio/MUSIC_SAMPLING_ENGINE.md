@@ -8,7 +8,7 @@ this sampler analyses imported tracks and extracts reusable local clips.
 
 Requires Python 3.10+ and ffmpeg on PATH. No Python packages are required.
 
-    python -m engine.audio.audio_sampler "/path/to/track.mp3" --out "/path/to/pass"
+    python -m engine.audio.audio_sampler "/path/to/track.mp3" --out "/path/to/pass" --vocal-stem "/path/to/vocal-stem.wav" --vocal-label male_moaning
 
 Outputs:
 - track_manifest.json: track identity, hash, duration, tempo estimate, measured

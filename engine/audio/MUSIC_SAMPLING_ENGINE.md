@@ -35,3 +35,18 @@ SIGNAL -> BODY/SPACE RESPONSE -> ACTION -> SONIC RESIDUE -> NEXT SIGNAL.
 
 The existing MusicProgram and music_bridge.py remain downstream event and
 correspondence layers. This sampler generates their manifest input.
+
+
+## Vocal-frequency companion
+
+The original sampler remains the full-mix rhythm and transient analyser. The companion `vocal_frequency_atlas.py` is for an isolated vocal recording or separated vocal stem. It exports voiced-region WAV excerpts and a `vocal_frequency_atlas.json` manifest with the same `id`, `asset_ref`, `duration_ms`, and `cues` contract required by `MusicProgram`.
+
+Run:
+
+    python -m engine.audio.vocal_frequency_atlas "/path/to/vocal-stem.wav" --out "/path/to/pass/vocals" --label male_moaning
+
+Install NumPy for the vocal analyser:
+
+    python -m pip install numpy
+
+It measures F0 movement, harmonics, subharmonic ratio, periodicity/roughness, LPC formant candidates, spectral centroid/flatness, zero-crossing rate and RMS envelope. It does not classify speaker sex or identity. Use the curated label only as source metadata.

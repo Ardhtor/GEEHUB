@@ -76,9 +76,20 @@ mask files, checksums, and declared dimensions agree. It does **not** mean a
 segmentation model ran or that mask pixels were semantically inspected:
 face-exclusion and identity-protection remain producer declarations, and the
 worker neither decodes nor changes image pixels. No frame deformation or video
-render is performed by this intake step. Seven focused tests cover ordering,
-source lineage, dimensions, identity confidence, temporal discontinuity,
-checksum verification, and symlink refusal.
+render is performed by this intake step.
+
+`core/frame-sequence-bridge.js` converts a successful local audit into two
+typed, checksummed bridge frame sets: `segmentation` and `landmarks`. It
+returns the exact JSON sidecar contents and their SHA-256 digests, together
+with a new manifest revision. The caller must persist those sidecars at the
+returned Dropbox URIs before staging. Render jobs now require exactly one
+segmentation and one landmark frame set from the same sequence, with matching
+frame range, dimensions, FPS, and checksums. `stageBridgeExchange` verifies
+the actual sidecar files and hashes before it writes the job and manifest.
+This closes the metadata handoff, but the sidecar writer/CLI and semantic mask
+inspection remain open. The frame-sequence suite now includes the bridge
+conversion and incomplete-audit refusal cases; the complete package workflow
+passed 54 Node tests and 10 Resolve Lua tests on 2026-11-05.
 
 ## AI creative-workstation framework
 

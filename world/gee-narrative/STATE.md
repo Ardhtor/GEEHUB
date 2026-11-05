@@ -1,6 +1,15 @@
 # GEEHUB construction state
 
-Updated: 2026-11-03
+Updated: 2026-11-05
+
+## Verified frame-sequence evidence connected to the media bridge — 2026-11-05
+- engine/growth-video-studio/core/frame-sequence-bridge.js adds prepareFrameSequenceBridgeInputs(). It accepts only a structurally ready, source-matched frame sequence and a successful local file audit; it rechecks frame range, format, body/face mask count, mask URIs, checksums, and dimensions before preparing two typed sidecar documents.
+- The adapter returns a new media-bridge manifest revision with segmentation and landmarks frame sets. Each frame set carries the source asset id, sequence id, frame range, dimensions, FPS, and a SHA-256 digest of the exact JSON sidecar content. The sidecar documents preserve per-frame mask references/checksums and landmark/confidence data. They explicitly retain pixelSemanticsVerified=false.
+- queueBridgeRenderJob() and validateBridgeManifest() now require exactly one segmentation and one landmarks input frame set for every render job. The pair must share a sequence id, frame range, dimensions, FPS, and valid SHA-256 digests.
+- bridge-exchange.js now verifies the actual input frame-set files beneath the local Dropbox root before staging. It refuses missing/non-regular files, symlinks, missing digests, or bytes whose SHA-256 differs from the manifest. The receipt records the verified frame-set paths and digests.
+- The Resolve Lua inspector mirrors the required typed-role, checksum, sequence-id, and matching-format checks. Its fixture now includes the required segmentation and landmark inputs.
+- GitHub Actions run 42098046049 completed successfully on commit 71dd954230a4a9787e711907e17d7bc6f4ff987f: 54/54 Node core tests passed, 10/10 Resolve Lua tests passed, Lua 5.4 syntax validation passed, and the portable package was built and uploaded.
+- The adapter prepares sidecar content but does not write it to Dropbox. A local writer/CLI must persist the exact returned content at each URI before stage:bridge is run. No local Mac, Dropbox, or Resolve runtime was accessed. Mask pixel semantics and actual face exclusion remain unverified.
 
 ## Local media exchange staging added — 2026-11-03
 - engine/growth-video-studio/core/bridge-exchange.js adds a Node 22 filesystem adapter for geehub.media-bridge v1. It maps dropbox://GEEHUB/... URIs under a configured local Dropbox root, rejects traversal, encoded path segments, and symlinked exchange paths, and requires a real source file.
@@ -68,7 +77,7 @@ Updated: 2026-11-03
 - Live two-way synchronization between Codex, GitHub, Resolve, and Dropbox.
 
 ## Next construction targets
-1. Connect the verified frame-sequence audit to bridge-manifest frame sets for segmentation and landmarks, then require those sets in queued render jobs.
+1. Add a safe local writer/CLI that persists the returned segmentation and landmark sidecars, writes a revisioned manifest only after the sidecars are present, and feeds the same evidence into stage:bridge.
 2. Connect a real segmentation/tracking producer and verify face-excluding mask semantics rather than relying only on producer declarations.
 3. Generate face-excluding mesh triangulation and a temporally stable mesh track.
 4. Run a short per-frame deformation pass with temporal validation and camera-reframe feedback.

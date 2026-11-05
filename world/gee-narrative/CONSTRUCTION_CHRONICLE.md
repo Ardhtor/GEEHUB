@@ -76,6 +76,18 @@ This instrument is a gatekeeper, not a sculptor. No segmentation model ran. The 
 
 The next passage connects the inspected sequence to the bridge manifest's typed frame sets, so the same verified segmentation and landmark records can become explicit inputs to a render job without losing their source lineage. After that, the workshop still needs a real segmentation producer and a mesh whose triangles remain stable from frame to frame.
 
+## 2026-11-05 — The measured sequence enters the bridge
+
+The frame-sequence bench can now hand its verified measurements to the numbered envelope. A new adapter accepts the source-matched sequence and the local mask-file audit, then prepares two distinct sidecar records: one for segmentation and one for landmarks. The first preserves the per-frame body and face mask references, their checksums, the segmentation producer, and its confidence. The second carries the face and body landmarks with identity and pose confidence. Both records retain the same source, frame range, dimensions, frame rate, and sequence identity. Their exact JSON bytes are hashed before the manifest receives the corresponding typed frame-set entries.
+
+The queue has become stricter. A render job can no longer be admitted with a loose landmark array and no segmentation record: it must name exactly one segmentation frame set and one landmark frame set, and those two must describe the same sequence and the same temporal and spatial format. The Resolve inspector applies the same rule when it reads the envelope. At the local exchange bench, the courier now opens each referenced sidecar, refuses missing or non-regular files and symlinks, hashes the actual bytes, and compares them with the manifest before it writes the job and envelope. The returned receipt lists the files it verified.
+
+The adapter returns the exact sidecar contents and their intended Dropbox URIs; it does not write those documents itself. The next local instrument must persist them safely before staging. The file audit still proves only that the PNG headers, dimensions, and bytes match their declared checksums. It does not inspect mask pixels, establish that the body mask truly excludes the face, or generate geometry. No Dropbox mirror or Resolve session was accessed during this construction pass, and no frame was deformed or rendered.
+
+The package workflow on commit 71dd954230a4a9787e711907e17d7bc6f4ff987f completed successfully on 2026-11-05. Its Node suite passed all 54 tests; the Resolve Lua suite passed all 10 tests; Lua 5.4 syntax validation passed; and the portable package was built and uploaded. The separate repository-data validator still reports four stale embedded project tuples: information-portability, lineage-pantheon, hubby, and media-tools. That registry failure is outside the media pipeline and remains independently recorded.
+
+The workshop now has a measured route from inspected masks and landmarks into a render-job contract, with checksums carried across the threshold. The next instrument is a safe local sidecar writer that persists those exact records and produces the next manifest revision without replacing earlier evidence.
+
 ## Chronicle rule
 
 Every future entry must be grounded in repository changes, tested behavior, user-confirmed runtime results, or clearly labeled proposals. Do not write an implementation as if it has run. Do not turn missing capabilities into lore that disguises their absence. The narrative is the machine's construction record, and the construction record is part of the machine.

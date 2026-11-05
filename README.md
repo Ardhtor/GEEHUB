@@ -130,11 +130,14 @@ When a connected Blender workflow is available, the Atlas should point to it rat
 
 The identity-preserving video pipeline is documented in
 [engine/growth-video-studio/README.md](engine/growth-video-studio/README.md).
-Its frame-sequence intake worker now validates ordered, source-matched frame
+Its frame-sequence intake worker validates ordered, source-matched frame
 evidence and verifies the actual checksums and PNG dimensions of supplied body
-and face masks. This is an evidence gate, not an automatic segmentation model
-or a video renderer. Construction evidence and remaining blockers are recorded
-in [world/gee-narrative/STATE.md](world/gee-narrative/STATE.md) and
+and face masks. A verified audit can now be converted into checksummed
+segmentation and landmark frame-set inputs; render jobs require both, and
+local staging re-hashes their sidecar files before accepting the handoff. This
+is still an evidence gate, not an automatic segmentation model or a video
+renderer. Construction evidence and remaining blockers are recorded in
+[world/gee-narrative/STATE.md](world/gee-narrative/STATE.md) and
 [world/gee-narrative/CONSTRUCTION_CHRONICLE.md](world/gee-narrative/CONSTRUCTION_CHRONICLE.md).
 
 ## Commentary as memory

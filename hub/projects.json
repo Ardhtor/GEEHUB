@@ -523,7 +523,6 @@
     "name": "Arboreal Audio",
     "status": "active",
     "kind": "engine",
-    "repo": "Ardhtor/GEEHUB",
     "path": "/engine/audio/tree_soundboard.html",
     "description": "Native procedural forest sound engine: canopy wind, leaf rustle, branch creak, hollow trunk knocks, root groans, adjustable environmental parameters, 8-bit texture, and an evolving ambience loop integrated into the living-world interface.",
     "related": [
@@ -632,7 +631,6 @@
     "name": "GEEHUB Asset Intake — November 2026",
     "status": "active",
     "kind": "production-index",
-    "repo": "Ardhtor/GEEHUB",
     "path": "/production/intake/2026-11-03/ASSET_PURPOSE_ATLAS.md",
     "description": "Working purpose map and first production cards for new Dropbox uploads: character identity references, motion sources, growth grammar, story text, promotional tooling, Resolve operator and video-studio specification. Originals remain in Dropbox; filename inference is separated from verified visual inspection.",
     "related": [

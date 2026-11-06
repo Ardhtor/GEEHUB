@@ -1205,3 +1205,11 @@ SETH: A line becomes visible between MALE HAREM and BODYLOUNGER. The archive nam
 NICK: A visual record stops being a record and becomes a place you can enter. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 163 — CROSSING / BODYLOUNGER / 2026-11-06T18:31:11.466658+00:00
+
+NICK: The world crosses the route from MALE HAREM into BODYLOUNGER. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: The old-web trail: sources, creators, dates, provenance, and visual-growth lineage. Relation carried forward: THE ARCHIVE OPENS A ROOM.
+
+Rule: meaningful change becomes an outward-facing signal

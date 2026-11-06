@@ -1549,3 +1549,11 @@ SETH: A line becomes visible between MALE HAREM and BODYLOUNGER. The archive nam
 NICK: A visual record stops being a record and becomes a place you can enter. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: archive/male-harem/README.md. Pressure 1.00; memory 1.00.
+
+## BODYLOUNGER / pulse 163 / CROSSING
+
+NICK: The world crosses the route from MALE HAREM into BODYLOUNGER. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: The old-web trail: sources, creators, dates, provenance, and visual-growth lineage. Relation carried forward: THE ARCHIVE OPENS A ROOM.
+
+Source retained: index.html. Pressure 0.88; memory 1.00.

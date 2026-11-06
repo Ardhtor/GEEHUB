@@ -1,5 +1,5 @@
 {
-  "pulse": 162,
+  "pulse": 163,
   "events": [
     {
       "pulse": 1,
@@ -2696,6 +2696,23 @@
       "next_region": "bodylounger",
       "pressure": 1.0,
       "memory": 1.0
+    },
+    {
+      "pulse": 163,
+      "time": "2026-11-06T18:31:11.466658+00:00",
+      "actor": "JOSEPH",
+      "world": "BODYLOUNGER",
+      "region_id": "bodylounger",
+      "previous_region_id": "male-harem",
+      "phase": "CROSSING",
+      "source": "index.html",
+      "desire_state": "continuity",
+      "action": "NICK: The world crosses the route from MALE HAREM into BODYLOUNGER. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: The old-web trail: sources, creators, dates, provenance, and visual-growth lineage. Relation carried forward: THE ARCHIVE OPENS A ROOM.",
+      "narrative_rule": "meaningful change becomes an outward-facing signal",
+      "relation": "THE ARCHIVE OPENS A ROOM",
+      "next_region": null,
+      "pressure": 0.88,
+      "memory": 1.0
     }
   ],
   "visits": {
@@ -2711,7 +2728,7 @@
     "muscle-myth": 9,
     "discovery": 13,
     "veyrthalis": 13,
-    "bodylounger": 10
+    "bodylounger": 11
   },
   "last_visits": {
     "complex": 151.5,
@@ -2726,9 +2743,9 @@
     "muscle-myth": 111.5,
     "discovery": 155.5,
     "veyrthalis": 156.5,
-    "bodylounger": 159.5
+    "bodylounger": 163
   },
-  "pressure": 1.0,
+  "pressure": 0.88,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -2741,21 +2758,16 @@
     "projects.json": 8,
     "README.md": 10,
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
-    "index.html": 7
+    "index.html": 8
   },
-  "next_region": "bodylounger",
-  "phase": 3,
-  "active_region": "male-harem",
-  "current_phase": "ROUTE_OPEN",
-  "current_desire_state": "tension",
-  "current_question": "Which existing relation now becomes traversable?",
-  "current_narrative_rule": "arrival activates aftermath",
-  "next_relation": {
-    "title": "THE ARCHIVE OPENS A ROOM",
-    "text": "A visual record stops being a record and becomes a place you can enter.",
-    "from": "bodylounger",
-    "to": "male-harem"
-  },
+  "next_region": null,
+  "phase": 0,
+  "active_region": "bodylounger",
+  "current_phase": "CROSSING",
+  "current_desire_state": "continuity",
+  "current_question": "What can change without erasing where it came from?",
+  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "next_relation": null,
   "long_play": {
     "cycle": 167,
     "agent": "tyler",

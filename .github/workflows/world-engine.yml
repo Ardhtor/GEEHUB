@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'engine/run_world.py'
+      - 'engine/run_world.py'\n      - 'engine/campus_life.py'\n      - 'worlds/northgate-university/**'
       - 'engine/world-autonomy.js'
       - 'world.json'
       - 'corpus/**'
@@ -155,7 +155,7 @@ jobs:
               python engine/run_world.py
               python engine/check_performance.py world
             fi
-            git add engine/state.json lore/AUTONOMOUS_STREAM.md novel/WORLDS.md artifacts/ dropbox_outbox/
+            git add engine/state.json engine/campus-life.json lore/AUTONOMOUS_STREAM.md novel/WORLDS.md worlds/northgate-university/CAMPUS_LIFE.md artifacts/ dropbox_outbox/
             if [ -d assets/geography/generated ]; then
               git add assets/geography/generated/
             fi

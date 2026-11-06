@@ -88,6 +88,16 @@ The package workflow on commit 71dd954230a4a9787e711907e17d7bc6f4ff987f complete
 
 The workshop now has a measured route from inspected masks and landmarks into a render-job contract, with checksums carried across the threshold. The next instrument is a safe local sidecar writer that persists those exact records and produces the next manifest revision without replacing earlier evidence.
 
+## 2026-11-06 — The measured evidence is written into the archive
+
+The two records prepared by the frame-sequence adapter no longer need to remain in memory or be copied by hand. A new registration instrument, `core/frame-sequence-registration.js`, takes the segmentation and landmark sidecars and checks them against the manifest that will own them. It confirms the source and sequence identity, the frame range, dimensions, frame rate, role, and the digest of the exact JSON bytes. A record that has been changed after preparation cannot pass through the door.
+
+The instrument writes into a revisioned shelf beneath the local GEEHUB Dropbox mirror. It creates each sidecar exclusively, reads the file back, and calculates its checksum again. Only after both sidecars agree with their declared digests does it write the new manifest revision. Existing files are left untouched. Symlinked directories are refused. If a later step fails, cleanup is limited to files created by this run whose contents still match the expected digest. The command `npm run register:frames` repeats the mask-file inspection before registration, so it does not rely on a stale audit document.
+
+Four focused tests now cover a successful registration, altered sidecar content, preservation of an existing file, and refusal of a symlinked evidence directory. The package workflow will provide the authoritative run result for this commit. The local Mac and Dropbox mirror have not been accessed, and Resolve has not consumed the new manifest. The new revision contains the typed segmentation and landmark inputs but does not yet contain a queued render job. Mask pixels are still not semantically inspected; face exclusion remains an assertion carried by the producer. No deformation or video export has occurred.
+
+The archive now has a guarded place for measured evidence, and the manifest is published only after its two companions are present and verified. The next instrument is a render-job preparer that takes this exact revision, builds the growth-state and landmark payload against it, and queues a job without weakening the source, face, motion, ground-contact, or temporal constraints.
+
 ## Chronicle rule
 
 Every future entry must be grounded in repository changes, tested behavior, user-confirmed runtime results, or clearly labeled proposals. Do not write an implementation as if it has run. Do not turn missing capabilities into lore that disguises their absence. The narrative is the machine's construction record, and the construction record is part of the machine.

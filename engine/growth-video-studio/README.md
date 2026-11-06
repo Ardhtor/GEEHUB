@@ -102,7 +102,9 @@ It writes revisioned segmentation and landmark sidecars beneath
 `Bridge/evidence/` and a new manifest beneath
 `Bridge/incoming/frame-sequences/`. Optional URI overrides are available
 through `GEEHUB_FRAME_SEGMENTATION_URI`, `GEEHUB_FRAME_LANDMARKS_URI`, and
-`GEEHUB_FRAME_MANIFEST_URI`. The JSON receipt reports actual file digests and
+`GEEHUB_FRAME_MANIFEST_URI`. The package workflow on 2026-11-06 passed all 58 Node tests, all 10 Resolve Lua tests, Lua 5.4 syntax validation, and the portable package build/upload (Actions run 42283074728).
+
+The JSON receipt reports actual file digests and
 the registered manifest path. The new manifest contains the two typed frame
 sets but does not yet queue a render job. Pixel semantics and face exclusion
 remain unverified producer assertions; no image pixels are decoded or changed.

@@ -1573,3 +1573,11 @@ NICK: A detail returns in BODYLOUNGER: The date on an older record comes into fo
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was index.html.
 
 Source retained: index.html. Pressure 0.94; memory 1.00.
+
+## BODYLOUNGER / pulse 166 / ROUTE_OPEN
+
+SETH: A line becomes visible between BODYLOUNGER and MALE HAREM. The archive names the relation "THE ARCHIVE OPENS A ROOM".
+
+NICK: A visual record stops being a record and becomes a place you can enter. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: index.html. Pressure 1.00; memory 1.00.

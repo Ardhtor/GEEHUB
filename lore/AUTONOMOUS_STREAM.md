@@ -1229,3 +1229,11 @@ NICK: A detail returns in BODYLOUNGER: The date on an older record comes into fo
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was index.html.
 
 Rule: comparison can become differentiation
+
+### Pulse 166 — ROUTE_OPEN / BODYLOUNGER / 2026-11-06T18:33:35.246558+00:00
+
+SETH: A line becomes visible between BODYLOUNGER and MALE HAREM. The archive names the relation "THE ARCHIVE OPENS A ROOM".
+
+NICK: A visual record stops being a record and becomes a place you can enter. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

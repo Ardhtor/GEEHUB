@@ -132,10 +132,12 @@ The identity-preserving video pipeline is documented in
 [engine/growth-video-studio/README.md](engine/growth-video-studio/README.md).
 Its frame-sequence intake worker validates ordered, source-matched frame
 evidence and verifies the actual checksums and PNG dimensions of supplied body
-and face masks. A verified audit can now be converted into checksummed
-segmentation and landmark frame-set inputs; render jobs require both, and
-local staging re-hashes their sidecar files before accepting the handoff. This
-is still an evidence gate, not an automatic segmentation model or a video
+and face masks. The local `register:frames` command reruns that audit, writes
+checksummed segmentation and landmark sidecars without overwriting existing
+evidence, then publishes a new versioned manifest only after both files pass
+read-back verification. Render jobs require both typed inputs, and local
+staging re-hashes their sidecar files before accepting the handoff. This is
+still an evidence gate, not an automatic segmentation model or a video
 renderer. Construction evidence and remaining blockers are recorded in
 [world/gee-narrative/STATE.md](world/gee-narrative/STATE.md) and
 [world/gee-narrative/CONSTRUCTION_CHRONICLE.md](world/gee-narrative/CONSTRUCTION_CHRONICLE.md).

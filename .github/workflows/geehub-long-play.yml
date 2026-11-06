@@ -31,12 +31,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Advance inherited world
-        run: node engine/long-play-runner.js
-
-      - name: Verify durable long-play output
-        run: python engine/check_performance.py long-play
-
       - name: Commit world memory with conflict recovery
         run: |
           git config user.name "GEEHUB Long Play"

@@ -59,6 +59,17 @@ def check_world():
     require((ROOT / "dropbox_outbox" / f"{artifact_id}.json").is_file(),
             "latest artifact is not staged in the Dropbox outbox")
 
+    campus = load("engine/campus-life.json")
+    campus_event = campus.get("last_event") or {}
+    require(int(campus.get("cycle", 0)) > 0, "campus life has not advanced")
+    require(campus_event.get("status") == "OCCURRED", "latest campus event was not performed")
+    require((ROOT / "worlds/northgate-university/CAMPUS_LIFE.md").is_file(),
+            "campus life manuscript missing")
+    require(campus_event.get("region") in region_ids,
+            "campus event points to an unknown region")
+    require(bool(campus_event.get("participants")),
+            "campus event has no participants")
+    print(f"CAMPUS PASS | cycle={campus['cycle']} | event={campus_event.get('title')} | participants={len(campus_event['participants'])}")
     print(f"WORLD PASS | pulse={pulse} | region={event['region_id']} | phase={event.get('phase')}")
     print(f"ARTIFACT PASS | {artifact_id} | source={source} | ledger=present | outbox=present")
 

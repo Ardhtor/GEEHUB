@@ -1,0 +1,7 @@
+# ATHLETIC COMMONS
+
+The Athletic Commons is Northgate's centre for physical culture. It combines a well-equipped gymnasium, swimming pool, indoor track, weight rooms, recovery suites, and outdoor training lawns in a large brick-and-glass complex. Its atmosphere is disciplined but relaxed. Training groups work at their own pace, coaches pay attention to technique and recovery, and the halls are full of familiar greetings rather than shouted commands. The university's strongest athletes are admired, but the Commons makes room for beginners, returning students, and people whose interests are simply to feel stronger and more at home in their bodies.
+
+The main hall has high windows, timber roof trusses, broad mirrors, and a long view toward the playing fields. Beyond it, the pool is lit by daylight filtered through blue glass. There are benches for watching practice, a small café, and a covered terrace where teams and friends gather after training. The changing rooms are clean, spacious, and designed for ordinary use; the recovery wing includes stretching rooms, quiet seating, and a sports therapy studio.
+
+The Commons is a meeting place as much as a facility. Students arrive in pairs and groups, recognise one another across the floor, and make plans for dinner or a walk back to the dormitories. Its central principle is continuity: training should add to a person's life, not consume it.

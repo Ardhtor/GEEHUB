@@ -115,6 +115,22 @@ AMBIENCE = {
         "Fresh bread is cooling at the end of the oak table. Soup, roasted vegetables, fruit, and water are set out beneath the high windows, with the courtyard doors open to the evening air.",
         "A late arrival finds a place without ceremony. The conversation continues around the table, and a serving bowl is passed down to make room for one more.",
     ),
+    "northgate-university": (
+        "Northgate University rises above the reservoir beneath old trees and open sky. The central quad is green and broad, enclosed by pale stone lecture halls, brick laboratories, timber galleries and workshops whose windows reveal models, instruments and small machines.",
+        "Adult male students cross the grass in loose groups, carrying books, sketch rolls and coffee. Music drifts from a rehearsal room while a group gathers beneath the trees to argue over a design. The campus is busy without being hurried.",
+    ),
+    "founders-dormitory": (
+        "Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.",
+        "Someone has returned from the library with a stack of books; another is making supper; two friends are carrying a model upstairs. The residential houses have different habits, but each makes room for its people.",
+    ),
+    "athletic-commons": (
+        "The Athletic Commons is a broad brick-and-glass complex with high timber trusses, bright training floors, a swimming pool, indoor track and recovery rooms. Adult male students train in small groups or alone, greeting familiar faces between sets.",
+        "Beyond the weight rooms, the pool catches blue daylight and the outdoor lawns open toward the playing fields. Friends gather at the café after training, stretch on the terrace and make plans for dinner.",
+    ),
+    "northgate-library": (
+        "Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.",
+        "At night the lamps make the reading hall feel like a ship anchored in the dark. Students browse the archive, review films, share discoveries and return to familiar window seats.",
+    ),
 }
 
 
@@ -174,6 +190,10 @@ def choose_source(region, state):
         "cat-gardens": ["worlds/cat-gardens/README.md", "world.json"],
         "bluewater-quay": ["worlds/bluewater-quay/README.md", "world.json"],
         "common-table": ["worlds/common-table/README.md", "world.json"],
+        "northgate-university": ["worlds/northgate-university/README.md", "world.json"],
+        "founders-dormitory": ["worlds/founders-dormitory/README.md", "world.json"],
+        "athletic-commons": ["worlds/athletic-commons/README.md", "world.json"],
+        "northgate-library": ["worlds/northgate-library/README.md", "world.json"],
     }
     used = state.setdefault("source_counts", {})
     preferred = [

@@ -103,11 +103,10 @@ function inspectPreparedRegistration(prepared, manifestUri) {
       throw new Error("Segmentation and landmark sidecars describe different sequences");
     }
 
-    const frameSet = manifest.frameSets.find(item =>
-      item.id === prepared.frameSetIds.find(id => manifest.frameSets.some(candidate =>
-        candidate.id === id && candidate.role === role
-      )) && item.role === role
+    const frameSetId = prepared.frameSetIds.find(id =>
+      manifest.frameSets.some(candidate => candidate.id === id && candidate.role === role)
     );
+    const frameSet = manifest.frameSets.find(item => item.id === frameSetId && item.role === role);
     if (!frameSet || frameSet.uri !== document.uri ||
         frameSet.checksum?.toLowerCase() !== checksum ||
         frameSet.sourceAssetId !== manifest.source.id ||
@@ -198,15 +197,22 @@ async function inspectNoSymlinkPath(root, target) {
 
 async function writeExclusive(filePath, content) {
   const handle = await open(filePath, "wx", 0o600);
+  let failure = null;
   try {
     await handle.writeFile(content, "utf8");
     await handle.sync();
   } catch (error) {
-    await handle.close().catch(() => {});
-    await rm(filePath, { force: true }).catch(() => {});
-    throw error;
+    failure = error;
   }
-  await handle.close();
+  try {
+    await handle.close();
+  } catch (error) {
+    failure ||= error;
+  }
+  if (failure) {
+    await rm(filePath, { force: true }).catch(() => {});
+    throw failure;
+  }
 }
 
 async function verifyWrittenFile(root, filePath, expectedChecksum) {

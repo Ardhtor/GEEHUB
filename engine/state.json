@@ -1,5 +1,5 @@
 {
-  "pulse": 166,
+  "pulse": 167,
   "events": [
     {
       "pulse": 1,
@@ -2764,6 +2764,23 @@
       "next_region": "male-harem",
       "pressure": 1.0,
       "memory": 1.0
+    },
+    {
+      "pulse": 167,
+      "time": "2026-11-06T18:33:49.601971+00:00",
+      "actor": "JOSEPH",
+      "world": "MALE HAREM",
+      "region_id": "male-harem",
+      "previous_region_id": "bodylounger",
+      "phase": "CROSSING",
+      "source": "archive/male-harem/README.md",
+      "desire_state": "continuity",
+      "action": "NICK: The world crosses the route from BODYLOUNGER into MALE HAREM. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: Living roster, presence, mass, continuity, and extreme-size visual studies. Relation carried forward: THE ARCHIVE OPENS A ROOM.",
+      "narrative_rule": "meaningful change becomes an outward-facing signal",
+      "relation": "THE ARCHIVE OPENS A ROOM",
+      "next_region": null,
+      "pressure": 0.88,
+      "memory": 1.0
     }
   ],
   "visits": {
@@ -2774,7 +2791,7 @@
     "luke-bwomph": 13,
     "growth": 13,
     "deep-lore": 14,
-    "male-harem": 15,
+    "male-harem": 16,
     "colossal-escalation": 13,
     "muscle-myth": 9,
     "discovery": 13,
@@ -2789,14 +2806,14 @@
     "luke-bwomph": 153.5,
     "growth": 152.5,
     "deep-lore": 157.5,
-    "male-harem": 159.5,
+    "male-harem": 167,
     "colossal-escalation": 112.5,
     "muscle-myth": 111.5,
     "discovery": 155.5,
     "veyrthalis": 156.5,
     "bodylounger": 163
   },
-  "pressure": 1.0,
+  "pressure": 0.88,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -2804,26 +2821,21 @@
     "lore/DEEP_LORE.md": 17,
     "world.json": 18,
     "research/embodied-scale/README.md": 19,
-    "archive/male-harem/README.md": 15,
+    "archive/male-harem/README.md": 16,
     "research/embodied-scale/colossal-escalation.json": 15,
     "projects.json": 8,
     "README.md": 10,
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 11
   },
-  "next_region": "male-harem",
-  "phase": 3,
-  "active_region": "bodylounger",
-  "current_phase": "ROUTE_OPEN",
-  "current_desire_state": "tension",
-  "current_question": "Which existing relation now becomes traversable?",
-  "current_narrative_rule": "arrival activates aftermath",
-  "next_relation": {
-    "title": "THE ARCHIVE OPENS A ROOM",
-    "text": "A visual record stops being a record and becomes a place you can enter.",
-    "from": "bodylounger",
-    "to": "male-harem"
-  },
+  "next_region": null,
+  "phase": 0,
+  "active_region": "male-harem",
+  "current_phase": "CROSSING",
+  "current_desire_state": "continuity",
+  "current_question": "What can change without erasing where it came from?",
+  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "next_relation": null,
   "long_play": {
     "cycle": 167,
     "agent": "tyler",

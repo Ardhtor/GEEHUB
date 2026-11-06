@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { mkdtemp, mkdir, readFile, rm, symlink, writeFile } from "node:fs/promises";
+import { mkdtemp, mkdir, readFile, readdir, rm, symlink, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { deflateSync } from "node:zlib";
@@ -295,5 +295,5 @@ test("refuses symlinked evidence directories before writing sidecars", async t =
     dropboxRoot: f.root,
     manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r2.json"
   }), /symlink/);
-  assert.deepEqual(await (await import("node:fs/promises")).readdir(outside), []);
+  assert.deepEqual(await readdir(outside), []);
 });

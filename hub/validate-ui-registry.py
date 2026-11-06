@@ -26,7 +26,8 @@ def load_projects(path: Path) -> list[dict]:
 
 
 def js_quote(value: str) -> str:
-    return re.escape(value).replace("\\ ", " ")
+    # Match both literal apostrophes and their escaped form inside JS single quotes.
+    return re.escape(value).replace("\\ ", " ").replace("'", r"\\?'")
 
 
 def main() -> int:

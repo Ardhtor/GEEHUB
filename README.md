@@ -32,6 +32,14 @@ A small idea can remain in the hub. A useful prototype gets an executable or bro
 
 GEEHUB is both an index and a production scaffold.
 
+## Runtime performance
+
+The autonomous world and Long Play workflows now run fail-fast durability checks through `engine/check_performance.py`. The world check verifies that the latest pulse has a valid region and source, a matching event artifact, a ledger entry, manuscript/stream outputs, and a staged production outbox record. The Long Play check verifies the latest cycle's recording, graph route, image request, three render requests, and shared exchange event. Queued image/video/sound jobs are explicitly counted as queued; they are never reported as completed renders.
+
+Both scheduled writers recover from concurrent updates by rebuilding from the latest main-branch state before retrying persistence. Run the checks locally with `python engine/check_performance.py world`, `python engine/check_performance.py long-play`, or `python engine/check_performance.py all`.
+
+The current local Imagine worker is a separate service on port 8787 and requires Node, FFmpeg, and an xAI API key. GitHub Actions Dropbox persistence separately requires the `DROPBOX_ACCESS_TOKEN` secret. Until those dependencies are configured and their health checks pass, GEEHUB can preserve world events and production requests but must not claim autonomous video rendering or cloud Dropbox delivery.
+
 ## Vision
 
 The project is moving toward vision: many nodes becoming one visible, navigable, living space.

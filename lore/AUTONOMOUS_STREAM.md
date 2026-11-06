@@ -1277,3 +1277,11 @@ NICK: A detail returns in THE COMMON TABLE: A late arrival finds a place without
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/common-table/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 172 — ROUTE_OPEN / THE COMMON TABLE / 2026-11-06T18:38:27.062621+00:00
+
+SETH: A line becomes visible between THE COMMON TABLE and CEDAR HOUSE. The archive names the relation "A TABLE IS SET".
+
+NICK: A route through the kitchen turns an arrival into a shared meal without requiring an invitation speech. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

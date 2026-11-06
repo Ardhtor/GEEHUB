@@ -1621,3 +1621,11 @@ NICK: A detail returns in THE COMMON TABLE: A late arrival finds a place without
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/common-table/README.md.
 
 Source retained: worlds/common-table/README.md. Pressure 1.00; memory 1.00.
+
+## THE COMMON TABLE / pulse 172 / ROUTE_OPEN
+
+SETH: A line becomes visible between THE COMMON TABLE and CEDAR HOUSE. The archive names the relation "A TABLE IS SET".
+
+NICK: A route through the kitchen turns an arrival into a shared meal without requiring an invitation speech. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: worlds/common-table/README.md. Pressure 1.00; memory 1.00.

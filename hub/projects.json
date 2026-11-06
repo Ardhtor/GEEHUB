@@ -613,7 +613,7 @@
     "id": "joseph-kirk-continuity",
     "name": "Joseph & Kirk — Continuity",
     "group": "story",
-    "status": "experimental",
+    "status": "incubating",
     "summary": "Experimental Veyrthalis story branch: four travelers choose separate routes and preserve four independent accounts at the Procession; Kirk and Joseph continue by mutual choice while the unentered centre and second heartbeat remain unresolved.",
     "path": "../lore/veyrthalis/JOSEPH_KIRK_INDEX.md",
     "tags": [
@@ -623,6 +623,7 @@
       "relationship",
       "shared-perception",
       "novel",
+      "experimental",
       "experimental"
     ]
   },
@@ -642,7 +643,15 @@
       "veyrthalis"
     ],
     "group": "production",
-    "summary": "Working purpose map and first production cards for new Dropbox uploads: character identity references, motion sources, growth grammar, story text, promotional tooling, Resolve operator and video-studio specification. Originals remain in Dropbox; filename inference is separated from verified visual inspection."
+    "summary": "Working purpose map and first production cards for new Dropbox uploads: character identity references, motion sources, growth grammar, story text, promotional tooling, Resolve operator and video-studio specification. Originals remain in Dropbox; filename inference is separated from verified visual inspection.",
+    "tags": [
+      "production",
+      "asset-intake",
+      "provenance",
+      "video",
+      "dropbox",
+      "workflow"
+    ]
   },
   {
     "id": "joseph-kirk-runtime",

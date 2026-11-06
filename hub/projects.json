@@ -539,7 +539,9 @@
       "procedural",
       "8-bit",
       "environment"
-    ]
+    ],
+    "group": "engine",
+    "summary": "Native procedural forest sound engine: canopy wind, leaf rustle, branch creak, hollow trunk knocks, root groans, adjustable environmental parameters, 8-bit texture, and an evolving ambience loop integrated into the living-world interface."
   },
   {
     "id": "dropbox-production-stream",

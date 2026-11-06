@@ -1221,3 +1221,11 @@ SETH: Old monitor glass reflects saved images and dates. A browser page remains 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 165 — MEMORY / BODYLOUNGER / 2026-11-06T18:31:44.913058+00:00
+
+NICK: A detail returns in BODYLOUNGER: The date on an older record comes into focus. A related page opens in the archive without replacing the first; both views remain available as evidence.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was index.html.
+
+Rule: comparison can become differentiation

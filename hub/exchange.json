@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-05T22:23:31.225Z",
+  "generated": "2026-11-06T02:44:38.964Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00163",
+      "at": "2026-11-06T02:44:38.964Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / DISCOVERY → VEYRTHALIS / ANDREW",
+      "body": "The world crossed the existing relation \"THE DOOR REMEMBERS\" from DISCOVERY into VEYRTHALIS. Scale increased from 12.82× to 12.90×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00163",
+      "live": true,
+      "regionId": "veyrthalis",
+      "previousRegionId": "discovery",
+      "relation": "THE DOOR REMEMBERS"
+    },
     {
       "id": "scheduled-long-play-00162",
       "at": "2026-11-05T22:23:31.225Z",
@@ -1488,21 +1503,6 @@
       "regionId": "growth",
       "previousRegionId": "complex",
       "relation": "KISS = CONTINUITY"
-    },
-    {
-      "id": "scheduled-long-play-00063",
-      "at": "2026-10-17T18:34:29.341Z",
-      "from": "geehub-long-play",
-      "to": "andrew",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / DISCOVERY → THE COMPLEX / ANDREW",
-      "body": "The world crossed the existing relation \"THE WORLD LEAVES A TRACE\" from DISCOVERY into THE COMPLEX. Scale increased from 6.42× to 6.50×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00063",
-      "live": true,
-      "regionId": "complex",
-      "previousRegionId": "discovery",
-      "relation": "THE WORLD LEAVES A TRACE"
     }
   ]
 }

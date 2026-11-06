@@ -640,7 +640,9 @@
       "luke-growth",
       "joseph-kirk-continuity",
       "veyrthalis"
-    ]
+    ],
+    "group": "production",
+    "summary": "Working purpose map and first production cards for new Dropbox uploads: character identity references, motion sources, growth grammar, story text, promotional tooling, Resolve operator and video-studio specification. Originals remain in Dropbox; filename inference is separated from verified visual inspection."
   },
   {
     "id": "joseph-kirk-runtime",

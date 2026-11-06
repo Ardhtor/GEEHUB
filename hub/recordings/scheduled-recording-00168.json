@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00168",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "common-table",
+  "position": {
+    "x": 50,
+    "y": 8,
+    "z": 0
+  },
+  "camera": {
+    "x": 50,
+    "y": 8,
+    "z": 1.7,
+    "heading": 264,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 13.22,
+    "priorScale": 13.14,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 13.22,
+    "clearance": 0.0756,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 0.9400000000000001,
+    "relation": "ROOM FOR ONE MORE"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "male-harem",
+      "name": "MALE HAREM"
+    },
+    {
+      "type": "region",
+      "id": "common-table",
+      "name": "THE COMMON TABLE"
+    },
+    {
+      "type": "relation",
+      "title": "ROOM FOR ONE MORE"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 13.14,
+      "to": 13.22
+    },
+    {
+      "property": "location.regionId",
+      "from": "male-harem",
+      "to": "common-table",
+      "relation": "ROOM FOR ONE MORE"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0761,
+      "to": 0.0756
+    }
+  ],
+  "intent": "LONG PLAY / MALE HAREM → THE COMMON TABLE / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 168,
+    "previousRegionId": "male-harem",
+    "regionId": "common-table",
+    "relation": "ROOM FOR ONE MORE",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 13.14,
+    "scaleBaselineTo": 13.22
+  },
+  "timestamp": "2026-11-06T18:35:57.193Z"
+}

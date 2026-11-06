@@ -191,6 +191,46 @@
       "size": 1.04,
       "path": "./worlds/common-table/README.md",
       "description": "A generous oak dining hall with seasonal food, fresh bread, a courtyard, and room for newcomers to settle in at their own pace."
+    },
+    {
+      "id": "northgate-university",
+      "name": "NORTHGATE UNIVERSITY",
+      "kind": "MEN'S UNIVERSITY",
+      "x": 49,
+      "y": 92,
+      "size": 1.18,
+      "path": "./worlds/northgate-university/README.md",
+      "description": "A residential university for adult men, with a green central quad, lecture halls, studios, workshops, music rooms and a lively campus culture."
+    },
+    {
+      "id": "founders-dormitory",
+      "name": "FOUNDERS DORMITORY",
+      "kind": "RESIDENTIAL COLLEGE",
+      "x": 34,
+      "y": 91,
+      "size": 1.12,
+      "path": "./worlds/founders-dormitory/README.md",
+      "description": "A welcoming men's dormitory with private rooms, shared kitchens, common rooms, a courtyard and a greenhouse."
+    },
+    {
+      "id": "athletic-commons",
+      "name": "ATHLETIC COMMONS",
+      "kind": "SPORT / TRAINING",
+      "x": 65,
+      "y": 94,
+      "size": 1.1,
+      "path": "./worlds/athletic-commons/README.md",
+      "description": "A university gymnasium, pool, indoor track, weight rooms, recovery suites and outdoor training lawns."
+    },
+    {
+      "id": "northgate-library",
+      "name": "NORTHGATE LIBRARY",
+      "kind": "LIBRARY / MEDIA",
+      "x": 48,
+      "y": 76,
+      "size": 1.08,
+      "path": "./worlds/northgate-library/README.md",
+      "description": "An oak-galleried university library with reading rooms, archives, editing suites, sound collections and late-night study."
     }
   ],
   "pleasureBits": [
@@ -409,6 +449,42 @@
       "text": "A place is made at the oak table; the newcomer can join the conversation or simply eat and listen.",
       "from": "common-table",
       "to": "male-harem"
+    },
+    {
+      "title": "NORTHGATE OPENS ITS QUAD",
+      "text": "A tree-lined avenue climbs from the reservoir into a campus of lecture halls, workshops, music rooms and green courtyards.",
+      "from": "bluewater-quay",
+      "to": "northgate-university"
+    },
+    {
+      "title": "ROOMS ABOVE THE QUADRANGLE",
+      "text": "The covered walk leads to a residential college where students share kitchens, common rooms, projects and the small rituals of daily life.",
+      "from": "northgate-university",
+      "to": "founders-dormitory"
+    },
+    {
+      "title": "STRENGTH WITHOUT CONFLICT",
+      "text": "The athletic grounds welcome students for training, swimming, recovery and companionship; physical culture is part of a balanced campus life.",
+      "from": "northgate-university",
+      "to": "athletic-commons"
+    },
+    {
+      "title": "THE LATE LAMPS OF NORTHGATE",
+      "text": "A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work.",
+      "from": "northgate-university",
+      "to": "northgate-library"
+    },
+    {
+      "title": "THE DORM GARDEN PATH",
+      "text": "A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day.",
+      "from": "founders-dormitory",
+      "to": "cat-gardens"
+    },
+    {
+      "title": "CAMPUS AFTER HOURS",
+      "text": "Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening.",
+      "from": "northgate-library",
+      "to": "common-table"
     }
   ],
   "embodiment": {

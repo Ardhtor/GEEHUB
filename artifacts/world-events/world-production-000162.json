@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000162",
+  "created_at": "2026-11-06T18:31:00.546738+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ROUTE_OPEN / MALE HAREM / archive/male-harem/README.md",
+  "content": "SETH: A line becomes visible between MALE HAREM and BODYLOUNGER. The archive names the relation \"THE ARCHIVE OPENS A ROOM\".\n\nNICK: A visual record stops being a record and becomes a place you can enter. The current place remains visible; the route is open, but nobody has crossed it yet.",
+  "production_note": "The world resolved its route_open rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 162,
+    "actor": "KIRK",
+    "world": "MALE HAREM",
+    "region_id": "male-harem",
+    "source": "archive/male-harem/README.md",
+    "phase": "ROUTE_OPEN",
+    "relation": "THE ARCHIVE OPENS A ROOM"
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

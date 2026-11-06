@@ -1,5 +1,5 @@
 {
-  "pulse": 161,
+  "pulse": 162,
   "events": [
     {
       "pulse": 1,
@@ -2679,6 +2679,23 @@
       "next_region": null,
       "pressure": 1.0,
       "memory": 1.0
+    },
+    {
+      "pulse": 162,
+      "time": "2026-11-06T18:31:00.546738+00:00",
+      "actor": "KIRK",
+      "world": "MALE HAREM",
+      "region_id": "male-harem",
+      "previous_region_id": "male-harem",
+      "phase": "ROUTE_OPEN",
+      "source": "archive/male-harem/README.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between MALE HAREM and BODYLOUNGER. The archive names the relation \"THE ARCHIVE OPENS A ROOM\".\n\nNICK: A visual record stops being a record and becomes a place you can enter. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "THE ARCHIVE OPENS A ROOM",
+      "next_region": "bodylounger",
+      "pressure": 1.0,
+      "memory": 1.0
     }
   ],
   "visits": {
@@ -2719,21 +2736,26 @@
     "lore/DEEP_LORE.md": 17,
     "world.json": 18,
     "research/embodied-scale/README.md": 19,
-    "archive/male-harem/README.md": 14,
+    "archive/male-harem/README.md": 15,
     "research/embodied-scale/colossal-escalation.json": 15,
     "projects.json": 8,
     "README.md": 10,
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 7
   },
-  "next_region": null,
-  "phase": 2,
+  "next_region": "bodylounger",
+  "phase": 3,
   "active_region": "male-harem",
-  "current_phase": "MEMORY",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
-  "next_relation": null,
+  "current_phase": "ROUTE_OPEN",
+  "current_desire_state": "tension",
+  "current_question": "Which existing relation now becomes traversable?",
+  "current_narrative_rule": "arrival activates aftermath",
+  "next_relation": {
+    "title": "THE ARCHIVE OPENS A ROOM",
+    "text": "A visual record stops being a record and becomes a place you can enter.",
+    "from": "bodylounger",
+    "to": "male-harem"
+  },
   "long_play": {
     "cycle": 167,
     "agent": "tyler",

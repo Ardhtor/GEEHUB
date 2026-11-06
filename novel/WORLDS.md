@@ -1541,3 +1541,11 @@ NICK: A detail returns in MALE HAREM: Two men stand close while disagreeing abou
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was archive/male-harem/README.md.
 
 Source retained: archive/male-harem/README.md. Pressure 1.00; memory 1.00.
+
+## MALE HAREM / pulse 162 / ROUTE_OPEN
+
+SETH: A line becomes visible between MALE HAREM and BODYLOUNGER. The archive names the relation "THE ARCHIVE OPENS A ROOM".
+
+NICK: A visual record stops being a record and becomes a place you can enter. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: archive/male-harem/README.md. Pressure 1.00; memory 1.00.

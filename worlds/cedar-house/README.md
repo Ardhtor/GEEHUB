@@ -1,0 +1,7 @@
+# CEDAR HOUSE
+
+Cedar House is the first place in GEEHUB where nobody has to arrive with a purpose. It sits just beyond the Complex, built from dark cedar, pale plaster, thick beams, and broad windows that hold the last warm light of afternoon. The front door is almost always open. Inside, the rooms are generous without being grand: a long kitchen, a deep sitting room, a reading alcove, a covered porch, and bedrooms looking into a sheltered garden. The house is maintained rather than perfected. There are blankets folded over chair backs, boots drying by the entrance, books left open, and a kettle that seems to be in use at every hour.
+
+The house has a social rhythm rather than a programme. Someone is making food; someone else is repairing a chair or looking through old photographs. Visitors can sit quietly and become part of the room before they decide what to say. The kitchen table is the centre of the place, large enough for a crowded meal and sturdy enough to hold maps, sketches, camera parts, and a half-finished model of the surrounding district. The house remembers who has stayed, what they brought, and which conversations were left open, but it never demands an explanation for a return.
+
+A cedar path leads from the porch to the Complex, while a narrower footpath reaches the Cat Gardens. At night, low lamps illuminate the steps and the warm rectangles of the windows. Cedar House is a place to recover one's bearings, share a meal, and discover that the world has room for an unplanned afternoon.

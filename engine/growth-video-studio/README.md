@@ -79,17 +79,33 @@ worker neither decodes nor changes image pixels. No frame deformation or video
 render is performed by this intake step.
 
 `core/frame-sequence-bridge.js` converts a successful local audit into two
-typed, checksummed bridge frame sets: `segmentation` and `landmarks`. It
-returns the exact JSON sidecar contents and their SHA-256 digests, together
-with a new manifest revision. The caller must persist those sidecars at the
-returned Dropbox URIs before staging. Render jobs now require exactly one
-segmentation and one landmark frame set from the same sequence, with matching
-frame range, dimensions, FPS, and checksums. `stageBridgeExchange` verifies
-the actual sidecar files and hashes before it writes the job and manifest.
-This closes the metadata handoff, but the sidecar writer/CLI and semantic mask
-inspection remain open. The frame-sequence suite now includes the bridge
-conversion and incomplete-audit refusal cases; the complete package workflow
-passed 54 Node tests and 10 Resolve Lua tests on 2026-11-05.
+typed, checksummed bridge frame sets: `segmentation` and `landmarks`. The
+adapter returns the exact JSON sidecar contents and a new manifest revision.
+
+`core/frame-sequence-registration.js` now persists those documents safely.
+It checks the sidecar schema, source and sequence lineage, frame range, format,
+and exact content digests against the prepared manifest. It writes each file
+with exclusive creation, reads it back, verifies its actual SHA-256, and writes
+the versioned manifest last. Existing destinations and symlinked directories
+are refused; if a later write fails, files created by that run are removed only
+when their bytes still match the expected digest.
+
+Run the complete local registration pass with Node 22:
+
+~~~bash
+GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \\
+  npm run register:frames -- ./manifest.json ./frame-sequence.json
+~~~
+
+The command reruns the mask-file audit rather than trusting a saved audit JSON.
+It writes revisioned segmentation and landmark sidecars beneath
+`Bridge/evidence/` and a new manifest beneath
+`Bridge/incoming/frame-sequences/`. Optional URI overrides are available
+through `GEEHUB_FRAME_SEGMENTATION_URI`, `GEEHUB_FRAME_LANDMARKS_URI`, and
+`GEEHUB_FRAME_MANIFEST_URI`. The JSON receipt reports actual file digests and
+the registered manifest path. The new manifest contains the two typed frame
+sets but does not yet queue a render job. Pixel semantics and face exclusion
+remain unverified producer assertions; no image pixels are decoded or changed.
 
 ## AI creative-workstation framework
 

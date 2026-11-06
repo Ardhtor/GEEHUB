@@ -1,5 +1,5 @@
 {
-  "pulse": 167,
+  "pulse": 168,
   "events": [
     {
       "pulse": 1,
@@ -2781,6 +2781,23 @@
       "next_region": null,
       "pressure": 0.88,
       "memory": 1.0
+    },
+    {
+      "pulse": 168,
+      "time": "2026-11-06T18:34:01.396968+00:00",
+      "actor": "LUKE",
+      "world": "MALE HAREM",
+      "region_id": "male-harem",
+      "previous_region_id": "male-harem",
+      "phase": "ATMOSPHERE",
+      "source": "archive/male-harem/README.md",
+      "desire_state": "attention",
+      "action": "SETH: Late light crosses high windows and the worn edges of gym benches. A shirt rests over a chair, and familiar footsteps turn a man's attention toward the doorway.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.9,
+      "memory": 1.0
     }
   ],
   "visits": {
@@ -2813,7 +2830,7 @@
     "veyrthalis": 156.5,
     "bodylounger": 163
   },
-  "pressure": 0.88,
+  "pressure": 0.9,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -2821,7 +2838,7 @@
     "lore/DEEP_LORE.md": 17,
     "world.json": 18,
     "research/embodied-scale/README.md": 19,
-    "archive/male-harem/README.md": 16,
+    "archive/male-harem/README.md": 17,
     "research/embodied-scale/colossal-escalation.json": 15,
     "projects.json": 8,
     "README.md": 10,
@@ -2829,12 +2846,12 @@
     "index.html": 11
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "male-harem",
-  "current_phase": "CROSSING",
-  "current_desire_state": "continuity",
-  "current_question": "What can change without erasing where it came from?",
-  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 167,

@@ -1,0 +1,7 @@
+# LANTERN MARKET
+
+Lantern Market occupies a covered arcade at the meeting of three old streets. Its roof is a high lattice of timber and glass, and the lanterns hanging beneath it are lit at dusk in amber, blue, and soft ivory. The market is not a frantic trading floor. It is a neighbourhood promenade: small food counters, fruit stalls, a bookbinder, a flower seller, a repair bench, a record shop, and a narrow room where local makers leave objects that are still being worked on. The stalls are individual and recognisable. Their owners remember what people came looking for, but a visitor is equally welcome to wander without buying anything.
+
+A fountain stands in the central court. Water slips over dark stone into a shallow basin, where reflections from the lanterns move across the ceiling. Tables and benches are placed around it, with enough room for people to gather without blocking the walkways. At the far end, a music stall sometimes plays records at a low volume; the sound travels through the arcade without overwhelming conversation. The smell of warm bread, citrus peel, coffee, and rain on the paving gives the place its ordinary sense of life.
+
+The market connects Cedar House to Bluewater Quay and the old archive road. It is a useful place to meet, exchange discoveries, leave a note, or pick up something needed for a project. Its best hours are early evening, when the lanterns come on and the whole arcade seems to become a room shared by the district.

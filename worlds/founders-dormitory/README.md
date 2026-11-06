@@ -1,0 +1,7 @@
+# FOUNDERS DORMITORY
+
+Founders Dormitory is a residential college for adult male students, set around a sheltered quadrangle of brick, oak, and climbing ivy. The rooms are comfortable rather than austere: proper beds, desks with good lamps, built-in wardrobes, bookshelves, shared kitchens, laundry rooms, and wide windows overlooking the quad. Each floor has a common room with sofas, a television, a record player, and a long table where residents leave their projects between sessions. The building feels inhabited. There are shoes by the door, mugs drying beside the sink, jackets on chair backs, and the low murmur of people coming and going.
+
+The dormitory is organised into small residential houses, each with its own character. Some residents are early risers who take breakfast together; others return late from workshops, rehearsals, the library, or the athletic grounds. Friendships form through repetition: lending a book, sharing food, helping carry a model upstairs, waiting for someone after a long day. The resident advisers are older students who know when to organise an event and when to leave the common room alone.
+
+A covered passage connects Founders to the university quad and the dining hall. The rear garden has benches, a small greenhouse, and a quiet path that joins the Cat Gardens. Residents can be sociable without being constantly on display. A room is private, a common room is shared, and the courtyard belongs to everyone.

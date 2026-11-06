@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { mkdtemp, mkdir, rm, symlink, writeFile } from "node:fs/promises";
+import { mkdtemp, mkdir, readFile, rm, symlink, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { deflateSync } from "node:zlib";
@@ -9,6 +9,7 @@ import { REQUIRED_ANCHORS } from "./landmark-track.js";
 import { validateFrameSequencePackage } from "./frame-sequence.js";
 import { inspectFrameSequenceFiles } from "./frame-sequence-worker.js";
 import { prepareFrameSequenceBridgeInputs } from "./frame-sequence-bridge.js";
+import { registerFrameSequenceBridgeInputs } from "./frame-sequence-registration.js";
 import { createBridgeManifest, validateBridgeManifest } from "./bridge-manifest.js";
 
 const identityAnchors = ["leftEye", "rightEye", "nose", "chin"];
@@ -89,6 +90,26 @@ async function fixture(t, sequence = makeSequence()) {
     }
   }
   return { temp, root, bytes, sequence };
+}
+
+async function preparedRegistration(f) {
+  const audit = await inspectFrameSequenceFiles(f.sequence, { dropboxRoot: f.root });
+  const manifest = createBridgeManifest({
+    projectId: "project-frame-sequence",
+    source: {
+      id: f.sequence.source.id,
+      name: f.sequence.source.name,
+      uri: f.sequence.source.uri,
+      duration: f.sequence.source.duration,
+      width: f.sequence.source.width,
+      height: f.sequence.source.height,
+      immutable: true
+    }
+  });
+  return prepareFrameSequenceBridgeInputs(manifest, f.sequence, audit, {
+    segmentationUri: "dropbox://GEEHUB/Bridge/evidence/sequence-01/r2/segmentation.json",
+    landmarksUri: "dropbox://GEEHUB/Bridge/evidence/sequence-01/r2/landmarks.json"
+  });
 }
 
 test("accepts ordered source-matched frames with complete identity and mask evidence", () => {
@@ -210,4 +231,69 @@ test("refuses symlinked mask files", async t => {
   const audit = await inspectFrameSequenceFiles(f.sequence, { dropboxRoot: f.root });
   assert.equal(audit.readyForGeometry, false);
   assert.ok(audit.errors.some(error => error.detail?.includes("symlink")));
+});
+
+
+test("writes and verifies both sidecars before publishing a new manifest revision", async t => {
+  const f = await fixture(t);
+  const prepared = await preparedRegistration(f);
+  const receipt = await registerFrameSequenceBridgeInputs({
+    prepared,
+    dropboxRoot: f.root,
+    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r2.json"
+  });
+  assert.equal(receipt.status, "registered");
+  assert.equal(receipt.manifestRevision, 2);
+  assert.equal(receipt.pixelSemanticsVerified, false);
+  assert.equal(receipt.sidecars.length, 2);
+  const storedManifest = JSON.parse(await readFile(receipt.manifestPath, "utf8"));
+  assert.equal(storedManifest.revision, prepared.manifest.revision);
+  assert.equal(validateBridgeManifest(storedManifest).valid, true);
+  for (const sidecar of receipt.sidecars) {
+    const bytes = await readFile(sidecar.path);
+    assert.equal(sha(bytes), sidecar.checksum);
+    assert.equal(sidecar.bytes, bytes.length);
+  }
+});
+
+test("refuses altered sidecar content before writing any evidence", async t => {
+  const f = await fixture(t);
+  const prepared = await preparedRegistration(f);
+  prepared.documents[0].content += "tampered";
+  await assert.rejects(registerFrameSequenceBridgeInputs({
+    prepared,
+    dropboxRoot: f.root,
+    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r2.json"
+  }), /checksum is incorrect/);
+  const target = path.join(f.root, "GEEHUB", "Bridge", "evidence", "sequence-01", "r2", "segmentation.json");
+  await assert.rejects(readFile(target), { code: "ENOENT" });
+});
+
+test("refuses to overwrite an existing sidecar and preserves its bytes", async t => {
+  const f = await fixture(t);
+  const prepared = await preparedRegistration(f);
+  const target = path.join(f.root, "GEEHUB", "Bridge", "evidence", "sequence-01", "r2", "segmentation.json");
+  await mkdir(path.dirname(target), { recursive: true });
+  await writeFile(target, "preserve existing evidence");
+  await assert.rejects(registerFrameSequenceBridgeInputs({
+    prepared,
+    dropboxRoot: f.root,
+    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r2.json"
+  }), /already exists/);
+  assert.equal(await readFile(target, "utf8"), "preserve existing evidence");
+});
+
+test("refuses symlinked evidence directories before writing sidecars", async t => {
+  const f = await fixture(t);
+  const prepared = await preparedRegistration(f);
+  const bridgeDirectory = path.join(f.root, "GEEHUB", "Bridge");
+  const outside = path.join(f.temp, "outside-bridge");
+  await mkdir(outside);
+  await symlink(outside, bridgeDirectory, "dir");
+  await assert.rejects(registerFrameSequenceBridgeInputs({
+    prepared,
+    dropboxRoot: f.root,
+    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r2.json"
+  }), /symlink/);
+  assert.deepEqual(await (await import("node:fs/promises")).readdir(outside), []);
 });

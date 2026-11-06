@@ -1253,3 +1253,11 @@ SETH: Late light crosses high windows and the worn edges of gym benches. A shirt
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 169 — MEMORY / MALE HAREM / 2026-11-06T18:34:22.897123+00:00
+
+NICK: A detail returns in MALE HAREM: Two men stand close while disagreeing about dinner; one reaches around the other for a mug. The shared room has learned their distances through repetition.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was archive/male-harem/README.md.
+
+Rule: comparison can become differentiation

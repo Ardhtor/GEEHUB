@@ -3520,6 +3520,27 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue the retained world state"
+    },
+    {
+      "id": "world-production-000169",
+      "created_at": "2026-11-06T18:34:22.897123+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "MEMORY / MALE HAREM / archive/male-harem/README.md",
+      "content": "NICK: A detail returns in MALE HAREM: Two men stand close while disagreeing about dinner; one reaches around the other for a mug. The shared room has learned their distances through repetition.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was archive/male-harem/README.md.",
+      "production_note": "The world resolved its memory rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 169,
+        "actor": "TYLER",
+        "world": "MALE HAREM",
+        "region_id": "male-harem",
+        "source": "archive/male-harem/README.md",
+        "phase": "MEMORY",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
     }
   ]
 }

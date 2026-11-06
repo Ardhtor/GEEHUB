@@ -1,5 +1,5 @@
 {
-  "pulse": 168,
+  "pulse": 169,
   "events": [
     {
       "pulse": 1,
@@ -2798,6 +2798,23 @@
       "next_region": null,
       "pressure": 0.9,
       "memory": 1.0
+    },
+    {
+      "pulse": 169,
+      "time": "2026-11-06T18:34:22.897123+00:00",
+      "actor": "TYLER",
+      "world": "MALE HAREM",
+      "region_id": "male-harem",
+      "previous_region_id": "male-harem",
+      "phase": "MEMORY",
+      "source": "archive/male-harem/README.md",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in MALE HAREM: Two men stand close while disagreeing about dinner; one reaches around the other for a mug. The shared room has learned their distances through repetition.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was archive/male-harem/README.md.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.94,
+      "memory": 1.0
     }
   ],
   "visits": {
@@ -2830,7 +2847,7 @@
     "veyrthalis": 156.5,
     "bodylounger": 163
   },
-  "pressure": 0.9,
+  "pressure": 0.9400000000000001,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -2838,7 +2855,7 @@
     "lore/DEEP_LORE.md": 17,
     "world.json": 18,
     "research/embodied-scale/README.md": 19,
-    "archive/male-harem/README.md": 17,
+    "archive/male-harem/README.md": 18,
     "research/embodied-scale/colossal-escalation.json": 15,
     "projects.json": 8,
     "README.md": 10,
@@ -2846,12 +2863,12 @@
     "index.html": 11
   },
   "next_region": null,
-  "phase": 1,
+  "phase": 2,
   "active_region": "male-harem",
-  "current_phase": "ATMOSPHERE",
-  "current_desire_state": "attention",
-  "current_question": "What does this place do while nobody intervenes?",
-  "current_narrative_rule": "approach extends geography",
+  "current_phase": "MEMORY",
+  "current_desire_state": "recognition",
+  "current_question": "Which detail remains from the prior state?",
+  "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null,
   "long_play": {
     "cycle": 167,

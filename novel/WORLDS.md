@@ -1597,3 +1597,11 @@ SETH: Late light crosses high windows and the worn edges of gym benches. A shirt
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: archive/male-harem/README.md. Pressure 0.90; memory 1.00.
+
+## MALE HAREM / pulse 169 / MEMORY
+
+NICK: A detail returns in MALE HAREM: Two men stand close while disagreeing about dinner; one reaches around the other for a mug. The shared room has learned their distances through repetition.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was archive/male-harem/README.md.
+
+Source retained: archive/male-harem/README.md. Pressure 0.94; memory 1.00.

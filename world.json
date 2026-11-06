@@ -141,6 +141,56 @@
       "size": 1.34,
       "path": "./creative/luke-bwomph.json",
       "description": "Luke's bar-gym growth cycle: baseline → pressure → Bwomph → Hypeer acceleration → stabilization → new baseline. Identity persists while scale changes."
+    },
+    {
+      "id": "cedar-house",
+      "name": "CEDAR HOUSE",
+      "kind": "COMMON HOUSE",
+      "x": 11,
+      "y": 47,
+      "size": 1.12,
+      "path": "./worlds/cedar-house/README.md",
+      "description": "A warm cedar home with a generous kitchen, deep sitting room, sheltered porch, reading alcove, and an open door for unhurried visits."
+    },
+    {
+      "id": "lantern-market",
+      "name": "LANTERN MARKET",
+      "kind": "NEIGHBOURHOOD ARCADE",
+      "x": 88,
+      "y": 18,
+      "size": 1.08,
+      "path": "./worlds/lantern-market/README.md",
+      "description": "A covered timber-and-glass arcade of food stalls, books, flowers, records, small makers, a fountain, and lantern-lit places to meet."
+    },
+    {
+      "id": "cat-gardens",
+      "name": "CAT GARDENS",
+      "kind": "GARDENS / LUCK",
+      "x": 10,
+      "y": 68,
+      "size": 1.1,
+      "path": "./worlds/cat-gardens/README.md",
+      "description": "Sheltered courtyards shared with resident cats; warm steps, water bowls, catmint, quiet benches, and a local sign of good luck."
+    },
+    {
+      "id": "bluewater-quay",
+      "name": "BLUEWATER QUAY",
+      "kind": "WATERSIDE / REST",
+      "x": 91,
+      "y": 72,
+      "size": 1.16,
+      "path": "./worlds/bluewater-quay/README.md",
+      "description": "A calm reservoir promenade with a boathouse, tea room, wooden landings, reeds, long benches, and an open horizon."
+    },
+    {
+      "id": "common-table",
+      "name": "THE COMMON TABLE",
+      "kind": "PUBLIC DINING HALL",
+      "x": 50,
+      "y": 8,
+      "size": 1.04,
+      "path": "./worlds/common-table/README.md",
+      "description": "A generous oak dining hall with seasonal food, fresh bread, a courtyard, and room for newcomers to settle in at their own pace."
     }
   ],
   "pleasureBits": [
@@ -311,6 +361,54 @@
       "text": "Scale can change radically while Luke's recognizable identity remains the continuity anchor.",
       "from": "luke-bwomph",
       "to": "deep-lore"
+    },
+    {
+      "title": "THE HOUSE KEEPS A LIGHT ON",
+      "text": "The cedar porch offers a warm place to return to after the noise of the district.",
+      "from": "complex",
+      "to": "cedar-house"
+    },
+    {
+      "title": "A TABLE IS SET",
+      "text": "A route through the kitchen turns an arrival into a shared meal without requiring an invitation speech.",
+      "from": "cedar-house",
+      "to": "common-table"
+    },
+    {
+      "title": "THE LANTERNS COME ON",
+      "text": "As evening gathers, the market gives the district a public room made of food, light, music, and familiar faces.",
+      "from": "common-table",
+      "to": "lantern-market"
+    },
+    {
+      "title": "GOOD LUCK HAS WHISKERS",
+      "text": "A cat crosses the garden path and settles in the last warm patch of sun; the city takes it as a small sign of good fortune.",
+      "from": "cedar-house",
+      "to": "cat-gardens"
+    },
+    {
+      "title": "THE WATER OPENS THE VIEW",
+      "text": "A quieter path leads from the market to the reservoir, where the city can be seen without being crowded.",
+      "from": "lantern-market",
+      "to": "bluewater-quay"
+    },
+    {
+      "title": "THE CAT KNOWS THE WAY HOME",
+      "text": "Cats move between sheltered courtyards and familiar doorsteps, making the gardens feel connected to the neighbourhood.",
+      "from": "cat-gardens",
+      "to": "cedar-house"
+    },
+    {
+      "title": "THE QUAY RETURNS TO TOWN",
+      "text": "The shoreline path leads back toward the lanterns and the evening tables.",
+      "from": "bluewater-quay",
+      "to": "lantern-market"
+    },
+    {
+      "title": "ROOM FOR ONE MORE",
+      "text": "A place is made at the oak table; the newcomer can join the conversation or simply eat and listen.",
+      "from": "common-table",
+      "to": "male-harem"
     }
   ],
   "embodiment": {

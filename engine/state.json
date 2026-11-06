@@ -2626,8 +2626,8 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     }
   ],
   "visits": {
@@ -2638,7 +2638,7 @@
     "luke-bwomph": 13,
     "growth": 13,
     "deep-lore": 14,
-    "male-harem": 13,
+    "male-harem": 14,
     "colossal-escalation": 13,
     "muscle-myth": 9,
     "discovery": 13,
@@ -2653,14 +2653,14 @@
     "luke-bwomph": 153.5,
     "growth": 152.5,
     "deep-lore": 157.5,
-    "male-harem": 105.5,
+    "male-harem": 158.5,
     "colossal-escalation": 112.5,
     "muscle-myth": 111.5,
     "discovery": 155.5,
     "veyrthalis": 156.5,
     "bodylounger": 104.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -2676,29 +2676,42 @@
     "index.html": 7
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "deep-lore",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "male-harem",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 164,
-    "agent": "joseph",
-    "previous_region_id": "veyrthalis",
-    "region_id": "deep-lore",
-    "region_name": "DEEP LORE",
-    "relation": "DEPARTURE LEAVES A SHAPE",
+    "cycle": 165,
+    "agent": "chase",
+    "previous_region_id": "deep-lore",
+    "region_id": "male-harem",
+    "region_name": "MALE HAREM",
+    "relation": "A RELATIONSHIP HAS GEOMETRY",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 12.9,
-    "scale": 13.02,
-    "recording": "scheduled-recording-00164",
-    "at": "2026-11-06T09:57:08.685Z"
+    "previous_scale": 13.02,
+    "scale": 13.06,
+    "recording": "scheduled-recording-00165",
+    "at": "2026-11-06T17:22:31.727Z"
   },
-  "last_world_change": "2026-11-06T09:57:08.685Z",
-  "scale": 13.02,
+  "last_world_change": "2026-11-06T17:22:31.727Z",
+  "scale": 13.06,
   "external_events": [
+    {
+      "id": "long-play-00165",
+      "type": "CROSSING",
+      "title": "DEEP LORE → MALE HAREM",
+      "body": "The world crossed \"A RELATIONSHIP HAS GEOMETRY\". Scale increased from 13.02× to 13.06×; the earlier location and baseline remain recorded.",
+      "from": "deep-lore",
+      "to": "male-harem",
+      "previous_region_id": "deep-lore",
+      "region_id": "male-harem",
+      "relation": "A RELATIONSHIP HAS GEOMETRY",
+      "source": "long-play",
+      "at": "2026-11-06T17:22:31.727Z"
+    },
     {
       "id": "long-play-00164",
       "type": "CROSSING",
@@ -3985,19 +3998,6 @@
       "relation": "THE BAR GYM REMEMBERS",
       "source": "long-play",
       "at": "2026-10-18T01:05:28.910Z"
-    },
-    {
-      "id": "long-play-00065",
-      "type": "CROSSING",
-      "title": "GROWTH CANVAS → LUKE // BWOMPH",
-      "body": "The world crossed \"HYPEER BASELINE\". Scale increased from 6.62× to 6.66×; the earlier location and baseline remain recorded.",
-      "from": "growth",
-      "to": "luke-bwomph",
-      "previous_region_id": "growth",
-      "region_id": "luke-bwomph",
-      "relation": "HYPEER BASELINE",
-      "source": "long-play",
-      "at": "2026-10-17T23:09:14.970Z"
     }
   ],
   "last_action": "write-the-unentered-place"

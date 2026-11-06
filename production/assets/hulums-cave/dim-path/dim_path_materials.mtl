@@ -1,0 +1,35 @@
+# HULUM'S CAVE / DIM PATH MATERIALS
+newmtl basalt_dark
+Kd 0.025 0.045 0.055
+Ka 0.006 0.010 0.014
+Ks 0.08 0.10 0.12
+Ns 18
+d 1
+
+newmtl slate
+Kd 0.055 0.075 0.082
+Ka 0.008 0.012 0.016
+Ks 0.12 0.14 0.16
+Ns 24
+d 1
+
+newmtl rock
+Kd 0.035 0.050 0.058
+Ka 0.006 0.009 0.012
+Ks 0.06 0.07 0.08
+Ns 10
+d 1
+
+newmtl water
+Kd 0.035 0.13 0.16
+Ka 0.008 0.018 0.025
+Ks 0.42 0.55 0.62
+Ns 96
+d 0.58
+
+newmtl mist
+Kd 0.22 0.36 0.40
+Ka 0.04 0.08 0.10
+Ks 0.0 0.0 0.0
+Ns 1
+d 0.16

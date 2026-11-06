@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 165,
-  "currentAgent": "chase",
-  "currentRegion": "male-harem",
-  "scale": 13.06,
-  "lastRun": "2026-11-06T17:22:31.727Z",
+  "cycle": 166,
+  "currentAgent": "luke",
+  "currentRegion": "bodylounger",
+  "scale": 13.09,
+  "lastRun": "2026-11-06T18:24:34.309Z",
   "history": [
+    {
+      "cycle": 166,
+      "agent": "luke",
+      "previousRegion": "male-harem",
+      "region": "bodylounger",
+      "relation": "THE ARCHIVE OPENS A ROOM",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 13.06,
+      "scale": 13.09,
+      "recording": "scheduled-recording-00166",
+      "at": "2026-11-06T18:24:34.309Z"
+    },
     {
       "cycle": 165,
       "agent": "chase",
@@ -1197,22 +1209,10 @@
       "scale": 6.74,
       "recording": "scheduled-recording-00067",
       "at": "2026-10-18T05:56:57.749Z"
-    },
-    {
-      "cycle": 66,
-      "agent": "luke",
-      "previousRegion": "luke-bwomph",
-      "region": "embodied-scale",
-      "relation": "THE BAR GYM REMEMBERS",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 6.66,
-      "scale": 6.69,
-      "recording": "scheduled-recording-00066",
-      "at": "2026-10-18T01:05:28.910Z"
     }
   ],
-  "previousRegion": "deep-lore",
-  "relation": "A RELATIONSHIP HAS GEOMETRY",
+  "previousRegion": "male-harem",
+  "relation": "THE ARCHIVE OPENS A ROOM",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 14,
@@ -1227,7 +1227,7 @@
     "growth": 13,
     "male-harem": 14,
     "beefythiq": 12,
-    "bodylounger": 9,
+    "bodylounger": 10,
     "luke-bwomph": 13
   },
   "lastRegionAt": {
@@ -1241,9 +1241,9 @@
     "facility": "2026-11-03T17:15:50.237520+00:00",
     "complex": "2026-11-04T23:29:43.614313+00:00",
     "growth": "2026-11-05T03:41:58.190046+00:00",
-    "male-harem": "2026-11-06T17:22:31.727Z",
+    "male-harem": "2026-11-06T18:23:13.136101+00:00",
     "beefythiq": "2026-11-03T09:20:24.853241+00:00",
-    "bodylounger": "2026-10-27T12:45:55.748848+00:00",
+    "bodylounger": "2026-11-06T18:24:34.309Z",
     "luke-bwomph": "2026-11-05T11:37:53.445599+00:00",
     "joseph-signal": "2026-11-03T23:44:57+01:00",
     "joseph-kirk-continuity": "2026-11-03T23:55:00+01:00",

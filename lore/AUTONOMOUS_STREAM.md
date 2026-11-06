@@ -1213,3 +1213,11 @@ NICK: The world crosses the route from MALE HAREM into BODYLOUNGER. The earlier 
 SETH: The old-web trail: sources, creators, dates, provenance, and visual-growth lineage. Relation carried forward: THE ARCHIVE OPENS A ROOM.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 164 — ATMOSPHERE / BODYLOUNGER / 2026-11-06T18:31:25.317824+00:00
+
+SETH: Old monitor glass reflects saved images and dates. A browser page remains open beside another record, and the fan draws a dry line of dust past the keyboard.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

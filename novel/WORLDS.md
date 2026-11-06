@@ -1557,3 +1557,11 @@ NICK: The world crosses the route from MALE HAREM into BODYLOUNGER. The earlier 
 SETH: The old-web trail: sources, creators, dates, provenance, and visual-growth lineage. Relation carried forward: THE ARCHIVE OPENS A ROOM.
 
 Source retained: index.html. Pressure 0.88; memory 1.00.
+
+## BODYLOUNGER / pulse 164 / ATMOSPHERE
+
+SETH: Old monitor glass reflects saved images and dates. A browser page remains open beside another record, and the fan draws a dry line of dust past the keyboard.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: index.html. Pressure 0.90; memory 1.00.

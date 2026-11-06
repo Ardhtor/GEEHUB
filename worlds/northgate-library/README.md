@@ -1,0 +1,7 @@
+# NORTHGATE LIBRARY
+
+Northgate Library occupies the oldest building on the university quad. Its entrance opens into a high reading hall lined with oak galleries, green-shaded lamps, deep window seats, and long tables worn smooth by generations of students. The collection spans engineering, literature, philosophy, architecture, history, natural science, art, music, and the university's own growing archive of films and digital work. A quiet upper floor holds rare books and handwritten notebooks; the lower level contains editing suites, scanning stations, a small sound library, and rooms for collaborative research.
+
+The library is not silent in every corner. There are conversation rooms for group work, a media room where students review films, and a small café near the courtyard doors. The staff know the regulars and can often locate an obscure reference from a half-remembered description. Students leave notes in the margins of shared project boards, recommend books to one another, and return to the same window seats at different stages of their lives.
+
+At night, the lamps make the reading hall feel like a ship anchored in the dark. The library stays open late during examination periods, but it is also a place to browse without an assignment. Its archive connects university research to the wider GEEHUB memory-world, allowing discoveries made in one place to become material for another.

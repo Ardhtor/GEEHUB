@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00168.json",
+  "activeRecording": "./recordings/scheduled-recording-00169.json",
   "activeEncounter": {
-    "regionId": "common-table",
-    "regionName": "THE COMMON TABLE",
+    "regionId": "cedar-house",
+    "regionName": "CEDAR HOUSE",
     "subject": {
-      "agent": "andrew",
-      "scale": 13.22,
+      "agent": "joseph",
+      "scale": 13.34,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / MALE HAREM → THE COMMON TABLE / ANDREW",
+    "intent": "LONG PLAY / THE COMMON TABLE → CEDAR HOUSE / JOSEPH",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 13.14× → 13.22×",
-      "MALE HAREM → THE COMMON TABLE",
-      "relation: ROOM FOR ONE MORE",
+      "scale 13.22× → 13.34×",
+      "THE COMMON TABLE → CEDAR HOUSE",
+      "relation: A TABLE IS SET",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "male-harem"
+    "previousRegionId": "common-table"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-06T18:35:57.193Z",
+  "snapshot": "2026-11-06T22:16:24.309Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 168,
-    "agent": "andrew",
-    "previousRegionId": "male-harem",
-    "regionId": "common-table",
-    "relation": "ROOM FOR ONE MORE",
+    "cycle": 169,
+    "agent": "joseph",
+    "previousRegionId": "common-table",
+    "regionId": "cedar-house",
+    "relation": "A TABLE IS SET",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 13.14,
-    "scale": 13.22,
-    "recording": "scheduled-recording-00168",
-    "at": "2026-11-06T18:35:57.193Z"
+    "previousScale": 13.22,
+    "scale": 13.34,
+    "recording": "scheduled-recording-00169",
+    "at": "2026-11-06T22:16:24.309Z"
   }
 }

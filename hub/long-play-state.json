@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 168,
-  "currentAgent": "andrew",
-  "currentRegion": "common-table",
-  "scale": 13.22,
-  "lastRun": "2026-11-06T18:35:57.193Z",
+  "cycle": 169,
+  "currentAgent": "joseph",
+  "currentRegion": "cedar-house",
+  "scale": 13.34,
+  "lastRun": "2026-11-06T22:16:24.309Z",
   "history": [
+    {
+      "cycle": 169,
+      "agent": "joseph",
+      "previousRegion": "common-table",
+      "region": "cedar-house",
+      "relation": "A TABLE IS SET",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 13.22,
+      "scale": 13.34,
+      "recording": "scheduled-recording-00169",
+      "at": "2026-11-06T22:16:24.309Z"
+    },
     {
       "cycle": 168,
       "agent": "andrew",
@@ -1197,22 +1209,10 @@
       "scale": 6.98,
       "recording": "scheduled-recording-00070",
       "at": "2026-10-18T17:29:11.428Z"
-    },
-    {
-      "cycle": 69,
-      "agent": "joseph",
-      "previousRegion": "beefythiq",
-      "region": "complex",
-      "relation": "MASS BECOMES WEATHER",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 6.82,
-      "scale": 6.94,
-      "recording": "scheduled-recording-00069",
-      "at": "2026-10-18T14:24:00.091Z"
     }
   ],
-  "previousRegion": "male-harem",
-  "relation": "ROOM FOR ONE MORE",
+  "previousRegion": "common-table",
+  "relation": "A TABLE IS SET",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 14,
@@ -1229,7 +1229,8 @@
     "beefythiq": 12,
     "bodylounger": 11,
     "luke-bwomph": 13,
-    "common-table": 1
+    "common-table": 1,
+    "cedar-house": 1
   },
   "lastRegionAt": {
     "deep-lore": "2026-11-06T15:17:54.601671+00:00",
@@ -1251,6 +1252,7 @@
     "asset-intake-2026-11-03": "2026-11-03T23:58:00+01:00",
     "procession-of-two-accounts": "2026-11-04T12:02:15+01:00",
     "the-unentered-place": "2026-11-04T18:08:00+01:00",
-    "common-table": "2026-11-06T18:35:57.193Z"
+    "common-table": "2026-11-06T18:38:27.062621+00:00",
+    "cedar-house": "2026-11-06T22:16:24.309Z"
   }
 }

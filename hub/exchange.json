@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-06T18:35:57.193Z",
+  "generated": "2026-11-06T22:16:24.309Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00169",
+      "at": "2026-11-06T22:16:24.309Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / THE COMMON TABLE → CEDAR HOUSE / JOSEPH",
+      "body": "The world crossed the existing relation \"A TABLE IS SET\" from THE COMMON TABLE into CEDAR HOUSE. Scale increased from 13.22× to 13.34×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00169",
+      "live": true,
+      "regionId": "cedar-house",
+      "previousRegionId": "common-table",
+      "relation": "A TABLE IS SET"
+    },
     {
       "id": "scheduled-long-play-00168",
       "at": "2026-11-06T18:35:57.193Z",
@@ -1488,21 +1503,6 @@
       "regionId": "growth",
       "previousRegionId": "complex",
       "relation": "KISS = CONTINUITY"
-    },
-    {
-      "id": "scheduled-long-play-00069",
-      "at": "2026-10-18T14:24:00.091Z",
-      "from": "geehub-long-play",
-      "to": "joseph",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / BEEFYTHIQ → THE COMPLEX / JOSEPH",
-      "body": "The world crossed the existing relation \"MASS BECOMES WEATHER\" from BEEFYTHIQ into THE COMPLEX. Scale increased from 6.82× to 6.94×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00069",
-      "live": true,
-      "regionId": "complex",
-      "previousRegionId": "beefythiq",
-      "relation": "MASS BECOMES WEATHER"
     }
   ]
 }

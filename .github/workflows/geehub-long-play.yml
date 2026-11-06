@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'engine/long-play-runner.js'
+      - 'engine/check_performance.py'
       - '.github/workflows/geehub-long-play.yml'
   workflow_dispatch:
   schedule:
@@ -32,6 +33,9 @@ jobs:
 
       - name: Advance inherited world
         run: node engine/long-play-runner.js
+
+      - name: Verify durable long-play output
+        run: python engine/check_performance.py long-play
 
       - name: Commit world memory
         run: |

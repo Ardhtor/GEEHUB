@@ -37,6 +37,9 @@ jobs:
       - name: Run world engine
         run: python engine/run_world.py
 
+      - name: Verify durable world production
+        run: python engine/check_performance.py world
+
       - name: Pull queued Adobe geography assets
         env:
           DROPBOX_ACCESS_TOKEN: ${{ secrets.DROPBOX_ACCESS_TOKEN }}

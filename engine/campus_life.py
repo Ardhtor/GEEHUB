@@ -56,10 +56,10 @@ def main():
         attendance[person] = int(attendance.get(person, 0)) + 1
     state["daily_rhythm"] = "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."
     STATE.parent.mkdir(parents=True, exist_ok=True)
-    STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\\n", encoding="utf-8")
+    STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     LOG.parent.mkdir(parents=True, exist_ok=True)
     with LOG.open("a", encoding="utf-8") as handle:
-        handle.write(f"\\n## {title} — cycle {cycle:05d}\\n\\n{prose}\\n\\nParticipants: {', '.join(people)}. Location: {region}. Recorded: {now}.\\n")
+        handle.write(f"\n## {title} — cycle {cycle:05d}\n\n{prose}\n\nParticipants: {', '.join(people)}. Location: {region}. Recorded: {now}.\n")
     print(f"CAMPUS LIFE PASS | cycle={cycle} | pulse={pulse} | {title} | participants={len(people)}")
 
 if __name__ == "__main__":

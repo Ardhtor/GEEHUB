@@ -1,6 +1,22 @@
 {
-  "cycle": 3,
+  "cycle": 4,
   "events": [
+    {
+      "id": "northgate-campus-00004",
+      "cycle": 4,
+      "world_pulse": 173,
+      "at": "2026-11-06T23:32:36.157704+00:00",
+      "region": "northgate-library",
+      "title": "THE LATE READING ROOM",
+      "kind": "research",
+      "participants": [
+        "Marek Ionescu",
+        "Elliot Ward",
+        "Noah Bell"
+      ],
+      "description": "The oak reading hall settles into its evening rhythm. A student edits a short film in the lower media suite while two others compare notes at a green-shaded lamp. Someone finds a reference that had eluded the group all week and quietly sends the page number around.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00003",
       "cycle": 3,
@@ -53,25 +69,25 @@
   ],
   "attendance": {
     "Dan Roman": 3,
-    "Marek Ionescu": 2,
-    "Elliot Ward": 2,
-    "Noah Bell": 2,
+    "Marek Ionescu": 3,
+    "Elliot Ward": 3,
+    "Noah Bell": 3,
     "Adrian Varga": 1
   },
   "last_event": {
-    "id": "northgate-campus-00003",
-    "cycle": 3,
-    "world_pulse": 172,
-    "at": "2026-11-06T18:38:27.094362+00:00",
-    "region": "athletic-commons",
-    "title": "THE EVENING TRAINING GROUP",
-    "kind": "training",
+    "id": "northgate-campus-00004",
+    "cycle": 4,
+    "world_pulse": 173,
+    "at": "2026-11-06T23:32:36.157704+00:00",
+    "region": "northgate-library",
+    "title": "THE LATE READING ROOM",
+    "kind": "research",
     "participants": [
-      "Dan Roman",
-      "Noah Bell",
-      "Adrian Varga"
+      "Marek Ionescu",
+      "Elliot Ward",
+      "Noah Bell"
     ],
-    "description": "The training group gathers beneath the high timber roof. They move through warm-ups, careful sets and recovery work, trading observations about technique. Afterward they linger by the pool windows, making plans to walk back to the dormitory together.",
+    "description": "The oak reading hall settles into its evening rhythm. A student edits a short film in the lower media suite while two others compare notes at a green-shaded lamp. Someone finds a reference that had eluded the group all week and quietly sends the page number around.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

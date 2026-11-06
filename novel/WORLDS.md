@@ -1629,3 +1629,11 @@ SETH: A line becomes visible between THE COMMON TABLE and CEDAR HOUSE. The archi
 NICK: A route through the kitchen turns an arrival into a shared meal without requiring an invitation speech. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: worlds/common-table/README.md. Pressure 1.00; memory 1.00.
+
+## CEDAR HOUSE / pulse 173 / ATMOSPHERE
+
+SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/cedar-house/README.md. Pressure 1.00; memory 1.00.

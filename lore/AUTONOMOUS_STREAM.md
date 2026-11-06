@@ -1285,3 +1285,11 @@ SETH: A line becomes visible between THE COMMON TABLE and CEDAR HOUSE. The archi
 NICK: A route through the kitchen turns an arrival into a shared meal without requiring an invitation speech. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 173 — ATMOSPHERE / CEDAR HOUSE / 2026-11-06T23:32:36.106331+00:00
+
+SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

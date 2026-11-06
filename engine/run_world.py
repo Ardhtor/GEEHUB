@@ -36,7 +36,7 @@ LEGACY_WORLD_MAP = {
     "THE COMPLEX": "complex",
 }
 PHYSICAL_REGIONS = {"growth", "beefythiq", "embodied-scale", "colossal-escalation", "luke-bwomph"}
-MEMORY_REGIONS = {"bodylounger", "deep-lore", "discovery", "veyrthalis", "kingdom-land"}
+MEMORY_REGIONS = {"bodylounger", "deep-lore", "discovery", "veyrthalis", "kingdom-land", "cedar-house", "cat-gardens"}
 
 AMBIENCE = {
     "discovery": (
@@ -95,6 +95,26 @@ AMBIENCE = {
         "Luke stands in familiar bar-gym light, mirrors clouded at their edges and chalk pressed into the rubber floor. His shoulders fill more of the tank top, while his face remains his own.",
         "He rolls his arms loose, tests the turn between bench and rack, and gives the reflection the same small nod. The new baseline appears through movement, not replacement.",
     ),
+    "cedar-house": (
+        "The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.",
+        "Someone has set an extra place at the kitchen table. The house is busy with ordinary things—bread cooling, a chair being repaired, a book left open—and nobody is asked to explain why they came.",
+    ),
+    "lantern-market": (
+        "The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.",
+        "A record plays softly near the bookbinder's stall. People pause at the fountain, exchange small discoveries, and make room for someone arriving from the quay.",
+    ),
+    "cat-gardens": (
+        "A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.",
+        "Another cat crosses the path and chooses the bench beside the reading court. The residents call it good luck, leave the animal its space, and continue their afternoon a little more lightly.",
+    ),
+    "bluewater-quay": (
+        "The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.",
+        "A rowboat rocks gently against its rope. Someone sits on the long bench with a book while the city lights begin to appear across the water.",
+    ),
+    "common-table": (
+        "Fresh bread is cooling at the end of the oak table. Soup, roasted vegetables, fruit, and water are set out beneath the high windows, with the courtyard doors open to the evening air.",
+        "A late arrival finds a place without ceremony. The conversation continues around the table, and a serving bowl is passed down to make room for one more.",
+    ),
 }
 
 
@@ -149,6 +169,11 @@ def choose_source(region, state):
         "luke-bwomph": ["creative/luke-bwomph.json", "research/embodied-scale/colossal-escalation.json", "novel/REWRITTEN_OPENING.md"],
         "colossal-escalation": ["research/embodied-scale/colossal-escalation.json", "world.json", "creative/luke-bwomph.json"],
         "kingdom-land": ["geo-cyberspace/kingdom-land.json", "world.json", "README.md"],
+        "cedar-house": ["worlds/cedar-house/README.md", "world.json"],
+        "lantern-market": ["worlds/lantern-market/README.md", "world.json"],
+        "cat-gardens": ["worlds/cat-gardens/README.md", "world.json"],
+        "bluewater-quay": ["worlds/bluewater-quay/README.md", "world.json"],
+        "common-table": ["worlds/common-table/README.md", "world.json"],
     }
     used = state.setdefault("source_counts", {})
     preferred = [

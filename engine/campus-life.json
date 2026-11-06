@@ -1,0 +1,43 @@
+{
+  "cycle": 1,
+  "events": [
+    {
+      "id": "northgate-campus-00001",
+      "cycle": 1,
+      "world_pulse": 170,
+      "at": "2026-11-06T18:36:40.250458+00:00",
+      "region": "northgate-university",
+      "title": "THE QUAD BETWEEN LECTURES",
+      "kind": "study",
+      "participants": [
+        "Dan Roman",
+        "Marek Ionescu",
+        "Elliot Ward"
+      ],
+      "description": "A group of students leaves the engineering lecture hall together. One carries a model under his arm; another is still explaining why the bridge supports need to be moved. They settle beneath the plane trees and the discussion becomes less formal, turning into plans for the afternoon.",
+      "status": "OCCURRED"
+    }
+  ],
+  "attendance": {
+    "Dan Roman": 1,
+    "Marek Ionescu": 1,
+    "Elliot Ward": 1
+  },
+  "last_event": {
+    "id": "northgate-campus-00001",
+    "cycle": 1,
+    "world_pulse": 170,
+    "at": "2026-11-06T18:36:40.250458+00:00",
+    "region": "northgate-university",
+    "title": "THE QUAD BETWEEN LECTURES",
+    "kind": "study",
+    "participants": [
+      "Dan Roman",
+      "Marek Ionescu",
+      "Elliot Ward"
+    ],
+    "description": "A group of students leaves the engineering lecture hall together. One carries a model under his arm; another is still explaining why the bridge supports need to be moved. They settle beneath the plane trees and the discussion becomes less formal, turning into plans for the afternoon.",
+    "status": "OCCURRED"
+  },
+  "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."
+}

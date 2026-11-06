@@ -1605,3 +1605,11 @@ NICK: A detail returns in MALE HAREM: Two men stand close while disagreeing abou
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was archive/male-harem/README.md.
 
 Source retained: archive/male-harem/README.md. Pressure 0.94; memory 1.00.
+
+## THE COMMON TABLE / pulse 170 / ATMOSPHERE
+
+SETH: Fresh bread is cooling at the end of the oak table. Soup, roasted vegetables, fruit, and water are set out beneath the high windows, with the courtyard doors open to the evening air.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/common-table/README.md. Pressure 0.96; memory 1.00.

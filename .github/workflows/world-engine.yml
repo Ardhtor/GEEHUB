@@ -4,7 +4,9 @@ on:
   push:
     branches: [main]
     paths:
-      - 'engine/run_world.py'\n      - 'engine/campus_life.py'\n      - 'worlds/northgate-university/**'
+      - 'engine/run_world.py'
+      - 'engine/campus_life.py'
+      - 'worlds/northgate-university/**'
       - 'engine/world-autonomy.js'
       - 'world.json'
       - 'corpus/**'
@@ -36,6 +38,9 @@ jobs:
 
       - name: Run world engine
         run: python engine/run_world.py
+
+      - name: Let Northgate campus live
+        run: python engine/campus_life.py
 
       - name: Verify durable world production
         run: python engine/check_performance.py world
@@ -153,6 +158,7 @@ jobs:
               echo "Main advanced during this run; rebuilding from the latest state."
               git reset --hard origin/main
               python engine/run_world.py
+              python engine/campus_life.py
               python engine/check_performance.py world
             fi
             git add engine/state.json engine/campus-life.json lore/AUTONOMOUS_STREAM.md novel/WORLDS.md worlds/northgate-university/CAMPUS_LIFE.md artifacts/ dropbox_outbox/

@@ -222,9 +222,9 @@ def main() -> None:
     existing = target.read_text(encoding="utf-8")
     title = title.strip()
     if relative == "novel/BOOK_I_CONTINUATION_03.md":
-        chapter_numbers = re.findall(r"^## Chapter ([IVXLCDM]+)\\b", existing, flags=re.MULTILINE)
+        chapter_numbers = re.findall(r"^## Chapter ([IVXLCDM]+)\b", existing, flags=re.MULTILINE)
         next_number = max((roman_to_int(value) for value in chapter_numbers), default=0) + 1
-        title = re.sub(r"^Chapter\\s+[IVXLCDM]+\\s*[:.\\-]?\\s*", "", title, flags=re.IGNORECASE)
+        title = re.sub(r"^Chapter\s+[IVXLCDM]+\s*[:.\-]?\s*", "", title, flags=re.IGNORECASE)
         title = f"Chapter {int_to_roman(next_number)}: {title}"
     heading = f"## {title}"
     if heading.casefold() in existing.casefold():

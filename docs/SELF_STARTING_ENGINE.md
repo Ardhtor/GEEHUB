@@ -20,7 +20,9 @@ In the GitHub repository, open **Settings → Secrets and variables → Actions*
    usage limit on that project before enabling the schedule.
 2. Add a repository variable named `TRACTUS_MODEL` containing a model ID that
    is enabled for that API project and supports the Responses API.
-3. Confirm that GitHub Actions is enabled for the repository and that the
+3. Add a repository variable named `TRACTUS_AUTONOMY_ENABLED` and set it to
+   `false` initially.
+4. Confirm that GitHub Actions is enabled for the repository and that the
    workflow is allowed to write repository contents.
 
 Do not put the API key in a file, workflow variable, commit, or issue. The
@@ -29,11 +31,12 @@ workflow reads it only from the Actions secret store.
 ## Starting and checking it
 
 Open **Actions → The Tractus — self-starting engine**. Choose **Run workflow**.
-For the first run, set `dry_run` to true. A dry run calls the model and checks
-the proposed chapter but does not edit or commit anything. Once that succeeds,
-run it again with `dry_run` false. The scheduled workflow then runs every six
-hours (at minute 17), provided the repository's Actions settings and API
-configuration remain valid.
+For the first run, leave `TRACTUS_AUTONOMY_ENABLED=false` and manually run the
+workflow with `dry_run` set to true. A dry run calls the model and checks the
+proposed chapter but does not edit or commit anything. After a successful dry
+run, set `TRACTUS_AUTONOMY_ENABLED=true`. The scheduled workflow then runs
+every six hours (at minute 17). Until that explicit switch is enabled, scheduled
+runs exit without calling the model or creating commits.
 
 The run log reports whether the engine created a commit, skipped because there
 was no worthwhile continuation, or stopped because configuration or validation
@@ -67,6 +70,8 @@ manuscript or lore file.
 - A concurrency lock prevents overlapping scheduled/manual runs.
 - The runner refuses to mix generated work with a dirty checkout.
 - The workflow has repository-content write permission only.
+- Scheduled commits remain disabled until `TRACTUS_AUTONOMY_ENABLED=true`;
+  manual dry runs are allowed while the switch is off.
 
 This remains a bounded narrative writer, not unrestricted repository control.
 The fifteen-minute world engine supplies recurring world activity; the six-hour

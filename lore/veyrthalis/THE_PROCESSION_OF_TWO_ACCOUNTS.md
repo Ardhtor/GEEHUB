@@ -241,6 +241,18 @@ They stood at the threshold until each had decided whether to continue. Then the
 Behind them, the Procession kept the space between its lines.
 
 
+## V. The bridge as a living surface
+
+The Procession changed as the four men remained beside the table. The bridge was not moving, but its materials seemed to disclose more of their history under the shifting light. The dark blocks had shallow depressions where generations of hands might have rested. The brass rails were worn brightest at the height of a relaxed palm. In the pale band of stone, tiny grains caught the light like mica. The unfinished band was not rough everywhere; in places it had been polished by contact, while other sections still held the faint parallel marks of a tool.
+
+Kirk walked the length of the bridge without crossing into the central blank. He noticed that the arches were not evenly spaced. One was broad and low, another narrow and high, and a third had been repaired with stones of a slightly different colour. The bridge had a bodily quality: it invited a particular pace, then interrupted it, then gave the walker room again. It seemed designed by someone who understood that a passage was not merely a distance between two points. A passage also altered the person moving through it.
+
+Joseph joined him at the rail. Far below, the amber fog moved through the valley in slow folds. It gathered around the black trees, lifted from the roofs, and thinned where the city opened into a long avenue. The view had the depth of a remembered place, although neither man could say that he had been there before. The roofs were slate-dark and steep, with small blue windows set deep into the walls. A narrow plume of smoke rose from one courtyard and dissolved before reaching the bridge. Somewhere below, a dog barked once. The sound was so ordinary that both men turned toward it.
+
+The third traveler had found a shallow recess in the parapet. Inside it lay a small piece of green glass, smooth on one side and fractured on the other. He held it up to the light. Through the smooth face the valley appeared darker; through the fractured face it separated into several small scenes, each one slightly displaced. He returned it to the recess without claiming it as an instrument or a message. The fourth traveler noticed a narrow groove beneath the rail, filled with dust and a single pale fibre. He left both where they were.
+
+For the first time, the Procession felt less like a mechanism for sorting their memories and more like a public place that had been used for a long time. Its architecture had accommodated meetings, departures, repairs, pauses, and people whose names were no longer present. The four men did not need to know who had built it in order to feel the weight of its use. They could add their own passage without pretending to be its first visitors.
+
 ## Coda — The bridge after the footsteps
 
 After the four men passed beneath the Binding arch, the Procession did not rearrange itself to make their routes look like one. The four bands continued across the bridge, each carrying the small marks left by a different pair of boots. Where the paths came close, the stone was worn a little more deeply; where they separated, a narrow ridge remained between them. The table kept the accounts in the order they had been given. It did not choose which one was the truest.

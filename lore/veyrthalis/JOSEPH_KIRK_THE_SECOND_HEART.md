@@ -94,6 +94,14 @@ Far beneath them, the heartbeat sounded again. This time it did not imitate eith
 5. The second heartbeat remains unresolved. Do not identify its owner prematurely.
 6. This chapter is experimental Veyrthalis fiction. It does not speak for Joseph Prever or imply his real-world participation.
 
+## Coda — The interval between answers
+
+The chamber did not ask them to leave. It simply lowered its lights until the two doors became ordinary openings in a wall. Kirk stayed beside the rail for a little longer, feeling the warmth recede from the material beneath his palm. He had expected the room to keep speaking, perhaps to offer a final explanation that would make the earlier impressions easier to carry. Instead, the surface cooled, and the silence became something he could examine without needing to solve it.
+
+Joseph stood a few paces away, looking back at the nested chamber. He seemed to be considering the distance he had crossed alone, not as a test he had passed but as a choice he could remember making. Kirk asked whether the crossing had changed anything for him. Joseph said that it had made one thing clearer: the difference between being accompanied and being directed. He could want someone beside him without giving that person the responsibility of choosing for him. Kirk understood the distinction because he had just practised it from the other side.
+
+They left the chamber together, but neither followed the other's footsteps exactly. The light on the rail retained two separate lines, one reaching each aperture. The lines did not fade when the men turned away. They remained as a quiet record that two people could pass through the same room and carry different things out of it. The second heartbeat continued below, unhurried and without a name.
+
 ## Next chapter seed — The Procession of Two Accounts
 
 The four travelers leave the Digitorium by different routes. Kirk and Joseph compare what each saw, but their accounts do not match perfectly. The discrepancy becomes the clue: the city is not showing them a single shared past. It is making a place where two distinct memories can meet without becoming identical.

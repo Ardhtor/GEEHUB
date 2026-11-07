@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0.0",
+  "corpus": "THE TRACTUS",
+  "index_state": "seed",
+  "note": "Seed manifest of repository sources confirmed in project continuity. Expand by inspecting repository contents; do not infer unlisted files.",
+  "records": [
+    {
+      "id": "TRACTUS.INDEX",
+      "type": "architecture",
+      "title": "The Tractus Index",
+      "path": "lore/TRACTUS_INDEX.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "defines",
+          "target": "TRACTUS.SYSTEM"
+        },
+        {
+          "type": "interfaces_with",
+          "target": "TRACTUS.OBSERVATORY"
+        },
+        {
+          "type": "indexes",
+          "target": "NORTHGATE.LION_GATE"
+        }
+      ]
+    },
+    {
+      "id": "NORTHGATE.LION_GATE",
+      "type": "place_and_threshold",
+      "title": "Northgate Lion Gate — The Dimension Beyond the Arch",
+      "path": "lore/NORTHGATE_LION_GATE.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "located_at",
+          "target": "NORTHGATE.UNIVERSITY"
+        },
+        {
+          "type": "opens_into",
+          "target": "TRACTUS.DIMENSION"
+        },
+        {
+          "type": "connected_to",
+          "target": "NORTHGATE.CENTRAL_SQUARE"
+        }
+      ]
+    },
+    {
+      "id": "TRACTUS.DEEP_LORE",
+      "type": "continuity_archive",
+      "title": "Deep Lore",
+      "path": "lore/DEEP_LORE.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "preserves",
+          "target": "TRACTUS.CANON"
+        },
+        {
+          "type": "references",
+          "target": "NORTHGATE.LION_GATE"
+        }
+      ]
+    },
+    {
+      "id": "NORTHGATE.MEN_INTIMACY",
+      "type": "social_lore",
+      "title": "Men of Northgate — Intimacy",
+      "path": "lore/MEN_OF_NORTHGATE_INTIMACY.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "situated_in",
+          "target": "NORTHGATE.UNIVERSITY"
+        },
+        {
+          "type": "part_of",
+          "target": "NORTHGATE.SOCIAL_LIFE"
+        }
+      ]
+    }
+  ],
+  "unresolved_addresses": [
+    {
+      "id": "TRACTUS.SYSTEM",
+      "type": "system",
+      "status": "conceptual"
+    },
+    {
+      "id": "TRACTUS.OBSERVATORY",
+      "type": "interface",
+      "status": "prototype"
+    },
+    {
+      "id": "TRACTUS.DIMENSION",
+      "type": "world",
+      "status": "developing"
+    },
+    {
+      "id": "NORTHGATE.UNIVERSITY",
+      "type": "institution",
+      "status": "developing"
+    },
+    {
+      "id": "NORTHGATE.CENTRAL_SQUARE",
+      "type": "place",
+      "status": "developing"
+    },
+    {
+      "id": "NORTHGATE.SOCIAL_LIFE",
+      "type": "social_system",
+      "status": "developing"
+    },
+    {
+      "id": "TRACTUS.CANON",
+      "type": "continuity_set",
+      "status": "conceptual"
+    }
+  ],
+  "relationship_types": [
+    "defines",
+    "indexes",
+    "located_at",
+    "opens_into",
+    "connected_to",
+    "preserves",
+    "references",
+    "situated_in",
+    "part_of"
+  ],
+  "rules": {
+    "stable_ids": true,
+    "preserve_source_files": true,
+    "source_paths_are_repository_relative": true,
+    "unresolved_targets_must_remain_explicit": true,
+    "inferred_relationships_require_provenance": true,
+    "reindexing_must_be_idempotent": true
+  }
+}

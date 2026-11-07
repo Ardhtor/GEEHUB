@@ -152,38 +152,42 @@ function validatePortableJob(payload, manifest, job) {
     }
   }
   const evidence = payload.frameEvidence;
-  if (!evidence || evidence.schema !== "geehub.render-frame-evidence" ||
-      evidence.schemaVersion !== 1 || evidence.pixelSemanticsVerified !== false) {
-    add("Portable render job frame-evidence reference is missing or invalid");
-  } else {
-    const selected = (job.inputFrameSetIds || []).map(id =>
-      manifest.frameSets.find(item => item.id === id)).filter(Boolean);
-    const segmentation = selected.find(item => item.role === "segmentation");
-    const landmarks = selected.find(item => item.role === "landmarks");
-    if (!segmentation || !landmarks) {
-      add("Portable render job does not resolve both registered evidence frame sets");
+  // frameEvidence is an additive extension to the v1 job payload. New jobs
+  // must carry it at queue time; older queued v1 jobs remain stageable.
+  if (evidence !== undefined && evidence !== null) {
+    if (evidence.schema !== "geehub.render-frame-evidence" ||
+        evidence.schemaVersion !== 1 || evidence.pixelSemanticsVerified !== false) {
+      add("Portable render job frame-evidence reference is invalid");
     } else {
-      const expected = {
-        sequenceId: segmentation.metadata?.sequenceId,
-        segmentationFrameSetId: segmentation.id,
-        landmarksFrameSetId: landmarks.id,
-        segmentationChecksum: segmentation.checksum,
-        landmarksChecksum: landmarks.checksum,
-        firstFrame: segmentation.firstFrame,
-        lastFrame: segmentation.lastFrame,
-        frameCount: segmentation.frameCount,
-        width: segmentation.width,
-        height: segmentation.height,
-        fps: segmentation.fps
-      };
-      for (const [field, value] of Object.entries(expected)) {
-        if (evidence[field] !== value) {
-          add("Portable render job frame evidence disagrees with manifest on " + field);
+      const selected = (job.inputFrameSetIds || []).map(id =>
+        manifest.frameSets.find(item => item.id === id)).filter(Boolean);
+      const segmentation = selected.find(item => item.role === "segmentation");
+      const landmarks = selected.find(item => item.role === "landmarks");
+      if (!segmentation || !landmarks) {
+        add("Portable render job does not resolve both registered evidence frame sets");
+      } else {
+        const expected = {
+          sequenceId: segmentation.metadata?.sequenceId,
+          segmentationFrameSetId: segmentation.id,
+          landmarksFrameSetId: landmarks.id,
+          segmentationChecksum: segmentation.checksum,
+          landmarksChecksum: landmarks.checksum,
+          firstFrame: segmentation.firstFrame,
+          lastFrame: segmentation.lastFrame,
+          frameCount: segmentation.frameCount,
+          width: segmentation.width,
+          height: segmentation.height,
+          fps: segmentation.fps
+        };
+        for (const [field, value] of Object.entries(expected)) {
+          if (evidence[field] !== value) {
+            add("Portable render job frame evidence disagrees with manifest on " + field);
+          }
         }
-      }
-      if (!Array.isArray(payload.landmarkFrames) ||
-          payload.landmarkFrames.length !== segmentation.frameCount) {
-        add("Portable render job landmark observations do not cover the registered frame range");
+        if (!Array.isArray(payload.landmarkFrames) ||
+            payload.landmarkFrames.length !== segmentation.frameCount) {
+          add("Portable render job landmark observations do not cover the registered frame range");
+        }
       }
     }
   }

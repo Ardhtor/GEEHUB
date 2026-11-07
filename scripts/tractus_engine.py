@@ -195,6 +195,10 @@ def int_to_roman(number: int) -> str:
 
 def main() -> None:
     dry_run = os.getenv("TRACTUS_DRY_RUN", "false").lower() == "true"
+    enabled = os.getenv("TRACTUS_AUTONOMY_ENABLED", "false").lower() == "true"
+    if not enabled and not dry_run:
+        print("TRACTUS ENGINE: autonomous commits are disabled; complete a manual dry run, then enable TRACTUS_AUTONOMY_ENABLED.")
+        return
     api_key = os.getenv("OPENAI_API_KEY", "").strip()
     model = os.getenv("TRACTUS_MODEL", "").strip()
     if not api_key:

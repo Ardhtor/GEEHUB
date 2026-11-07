@@ -62,7 +62,7 @@ The Coach is an adult fictional character whose coaching role expands from instr
 
 The Institute of Becoming is an emerging university-like setting with residential quarters, dining halls, lecture rooms, workshops, gardens, and shared gathering spaces. Its inhabitants develop independent interests, friendships, customs, and projects. Its buildings respond to accumulated use and changing needs. The dining hall, in particular, expresses the institution's culture of abundance and hospitality.
 
-The narrative queue may continue this branch through `lore/DEEP_LORE.md`. Additions should use substantial connected paragraphs, introduce meaningful environmental and social detail, preserve existing Northgate and Tractus institutions, and avoid treating the Institute as a replacement for them. Its relationship to Northgate and the wider Tractus should emerge through people, exchange, visits, and shared history.
+The narrative queue may continue this branch through `lore/INSTITUTE_OF_BECOMING.md`. Additions should use substantial connected paragraphs, introduce meaningful environmental and social detail, preserve existing Northgate and Tractus institutions, and avoid treating the Institute as a replacement for them. Its relationship to Northgate and the wider Tractus should emerge through people, exchange, visits, and shared history.
 
 ## Runtime integration
 

@@ -21,7 +21,7 @@ The Tractus contains many kinds of male intimacy. Some encounters are brief and 
 The following seasons should keep this life present in the narrative rather than confining it to a single chapter. Let couples meet in ordinary places, let attraction sometimes become sex, let established partners continue to enjoy one another, and let the aftermath matter: a shared shower, a borrowed shirt, a missed breakfast, a tender disagreement, a new confidence, or a decision to remain friends. These are events in the Tractus. They are not detachable decorations, and their inscription belongs to the same moment as their occurrence.
 
 
-## After Training
+## Training
 
 The group began almost accidentally, in the changing rooms above the athletic commons, where a handful of regulars had developed the habit of staying behind after the evening session. They were conspicuous men: broad through the shoulders, thick-legged, strong from years of lifting, and generally more comfortable being looked at than they admitted. Their training briefs were part of that confidence. They liked the close athletic cut, the clean lines, the bright colours that appeared in the sports shops each season, and the small rituals of choosing what to wear before a session. The subject might have remained ordinary gym conversation if one of them had not made a joke about how seriously they discussed their underwear while pretending to be entirely serious about everything else.
 

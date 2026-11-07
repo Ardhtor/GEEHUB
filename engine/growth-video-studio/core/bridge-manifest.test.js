@@ -34,6 +34,18 @@ function portableJob() {
     settings: { fps: 24 }
   });
   assert.equal(result.valid, true);
+  result.job.frameEvidence = {
+    schema: "geehub.render-frame-evidence",
+    schemaVersion: 1,
+    sequenceId: "sequence-1",
+    segmentationFrameSetId: "segmentation-1",
+    landmarksFrameSetId: "landmarks-1",
+    segmentationChecksum: "a".repeat(64),
+    landmarksChecksum: "b".repeat(64),
+    firstFrame: 0, lastFrame: 1, frameCount: 2,
+    width: 720, height: 1280, fps: 24,
+    pixelSemanticsVerified: false
+  };
   return result.job;
 }
 function manifest() {

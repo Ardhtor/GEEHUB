@@ -100,6 +100,45 @@
           "target": "NORTHGATE.SOCIAL_LIFE"
         }
       ]
+    },
+    {
+      "id": "BEEFYTHIQ.BIOGRAPHIES",
+      "type": "character_system",
+      "title": "Beefythiq Biographies",
+      "path": "lore/BEEFYTHIQ_BIOGRAPHIES.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "develops",
+          "target": "BEEFYTHIQ.GROWTH_CANVAS"
+        }
+      ]
+    },
+    {
+      "id": "GEATISH.COMPANY",
+      "type": "narrative_chronicle",
+      "title": "Beowulf and the Geatish Company",
+      "path": "lore/BEOWULF_AND_THE_GEATISH_COMPANY.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "situated_in",
+          "target": "GEATISH.SETTLEMENTS"
+        }
+      ]
+    },
+    {
+      "id": "HUBBY.CHARACTER",
+      "type": "character_continuity",
+      "title": "Hubby",
+      "path": "lore/HUBBY.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "part_of",
+          "target": "BEEFYTHIQ.WORLD"
+        }
+      ]
     }
   ],
   "unresolved_addresses": [
@@ -149,7 +188,8 @@
     "references",
     "situated_in",
     "part_of",
-    "features"
+    "features",
+    "develops"
   ],
   "rules": {
     "stable_ids": true,

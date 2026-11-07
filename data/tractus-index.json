@@ -160,6 +160,31 @@
           "target": "TRACTUS.WAND"
         }
       ]
+    },
+    {
+      "id": "NORTHGATE.GREAT_FEAST",
+      "type": "social_institution_and_chronicle",
+      "title": "The Great Feast of Northgate",
+      "path": "lore/NORTHGATE_THE_GREAT_FEAST.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "situated_in",
+          "target": "NORTHGATE.UNIVERSITY"
+        },
+        {
+          "type": "part_of",
+          "target": "NORTHGATE.SOCIAL_LIFE"
+        },
+        {
+          "type": "brings_together",
+          "target": "GEATISH.COMPANY"
+        },
+        {
+          "type": "features",
+          "target": "NORTHGATE.AI_COACH"
+        }
+      ]
     }
   ],
   "unresolved_addresses": [
@@ -197,6 +222,11 @@
       "id": "TRACTUS.CANON",
       "type": "continuity_set",
       "status": "conceptual"
+    },
+    {
+      "id": "NORTHGATE.GREAT_FEAST",
+      "type": "recurring_social_institution",
+      "status": "active"
     }
   ],
   "relationship_types": [
@@ -211,7 +241,8 @@
     "part_of",
     "features",
     "develops",
-    "uses"
+    "uses",
+    "brings_together"
   ],
   "rules": {
     "stable_ids": true,

@@ -6,6 +6,7 @@
     "test": "node --test core/*.test.js",
     "stage:bridge": "node tools/stage-bridge-exchange.js",
     "inspect:frames": "node tools/inspect-frame-sequence.js",
-    "register:frames": "node tools/register-frame-sequence.js"
+    "register:frames": "node tools/register-frame-sequence.js",
+    "prepare:render": "node tools/prepare-bridge-render-job.js"
   }
 }

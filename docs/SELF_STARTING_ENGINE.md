@@ -12,6 +12,8 @@ In the GitHub repository, open **Settings → Secrets and variables → Actions*
 
 1. Add a repository secret named `OPENAI_API_KEY` containing an API key for an
    OpenAI API project. This is separate from a ChatGPT subscription.
+   API usage is billed separately by the API provider; set an API budget or
+   usage limit on that project before enabling the schedule.
 2. Add a repository variable named `TRACTUS_MODEL` containing a model ID that
    is enabled for that API project and supports the Responses API.
 3. Confirm that GitHub Actions is enabled for the repository and that the

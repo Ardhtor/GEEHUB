@@ -36,6 +36,9 @@
       "world",
       "continuity",
       "canon"
+    ],
+    "related": [
+      "atlas"
     ]
   },
   {
@@ -911,6 +914,28 @@
       "vision-workspace",
       "tractus-continuity",
       "the-complex"
+    ]
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "group": "character",
+    "status": "incubating",
+    "path": "../lore/ATLAS.md",
+    "summary": "A large, warm, confident man adored by other big men; his story grows through mutual admiration, friendship, shared gatherings, and belonging.",
+    "tags": [
+      "atlas",
+      "character",
+      "adult-men",
+      "friendship",
+      "admiration",
+      "community",
+      "tractus"
+    ],
+    "related": [
+      "sensation-engine",
+      "arthur-and-fingerlands",
+      "institute-of-becoming"
     ]
   }
 ]

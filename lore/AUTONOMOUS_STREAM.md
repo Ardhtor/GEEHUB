@@ -1429,3 +1429,11 @@ SETH: Northgate University rises above the reservoir beneath old trees and open 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 191 — MEMORY / NORTHGATE UNIVERSITY / 2026-11-07T21:04:13.307808+00:00
+
+NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the grass in loose groups, carrying books, sketch rolls and coffee. Music drifts from a rehearsal room while a group gathers beneath the trees to argue over a design. The campus is busy without being hurried.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.
+
+Rule: comparison can become differentiation

@@ -4327,6 +4327,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000191",
+      "created_at": "2026-11-07T21:04:13.307808+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "NORTHGATE UNIVERSITY",
+      "content": "NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the grass in loose groups, carrying books, sketch rolls and coffee. Music drifts from a rehearsal room while a group gathers beneath the trees to argue over a design. The campus is busy without being hurried.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.",
+      "lineage": {
+        "event_id": "world-pulse-000191",
+        "event": {
+          "id": "world-pulse-000191",
+          "pulse": 191,
+          "time": "2026-11-07T21:04:13.307808+00:00",
+          "actor": "TYLER",
+          "world": "NORTHGATE UNIVERSITY",
+          "region_id": "northgate-university",
+          "previous_region_id": "northgate-university",
+          "phase": "MEMORY",
+          "source": "worlds/northgate-university/README.md",
+          "desire_state": "recognition",
+          "action": "NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the grass in loose groups, carrying books, sketch rolls and coffee. Music drifts from a rehearsal room while a group gathers beneath the trees to argue over a design. The campus is busy without being hurried.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.",
+          "narrative_rule": "comparison can become differentiation",
+          "relation": null,
+          "next_region": null,
+          "pressure": 0.94,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-07T21:04:13.307808+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000191",
+      "created_at": "2026-11-07T21:04:13.307808+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "MEMORY / NORTHGATE UNIVERSITY / worlds/northgate-university/README.md",
+      "content": "NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the grass in loose groups, carrying books, sketch rolls and coffee. Music drifts from a rehearsal room while a group gathers beneath the trees to argue over a design. The campus is busy without being hurried.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.",
+      "production_note": "The world resolved its memory rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 191,
+        "actor": "TYLER",
+        "world": "NORTHGATE UNIVERSITY",
+        "region_id": "northgate-university",
+        "source": "worlds/northgate-university/README.md",
+        "phase": "MEMORY",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00022",
+      "created_at": "2026-11-07T21:04:13.354651+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE FILM ARCHIVE CLUB",
+      "content": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+      "lineage": {
+        "event_id": "northgate-campus-00022",
+        "event": {
+          "id": "northgate-campus-00022",
+          "cycle": 22,
+          "world_pulse": 191,
+          "at": "2026-11-07T21:04:13.354651+00:00",
+          "region": "northgate-library",
+          "title": "THE FILM ARCHIVE CLUB",
+          "kind": "film",
+          "participants": [
+            "Elliot Ward",
+            "Marek Ionescu",
+            "Adrian Varga"
+          ],
+          "description": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-07T21:04:13.354651+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

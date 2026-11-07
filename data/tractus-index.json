@@ -79,6 +79,27 @@
           "target": "NORTHGATE.SOCIAL_LIFE"
         }
       ]
+    },
+    {
+      "id": "NORTHGATE.29_INCHES",
+      "type": "story_arc",
+      "title": "29 Inches",
+      "path": "lore/29_INCHES.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "situated_in",
+          "target": "NORTHGATE.UNIVERSITY"
+        },
+        {
+          "type": "features",
+          "target": "NORTHGATE.MEN_INTIMACY"
+        },
+        {
+          "type": "part_of",
+          "target": "NORTHGATE.SOCIAL_LIFE"
+        }
+      ]
     }
   ],
   "unresolved_addresses": [
@@ -127,7 +148,8 @@
     "preserves",
     "references",
     "situated_in",
-    "part_of"
+    "part_of",
+    "features"
   ],
   "rules": {
     "stable_ids": true,

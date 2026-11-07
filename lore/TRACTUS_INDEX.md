@@ -63,3 +63,58 @@ The first implementation should be modest and real. It should read a maintained 
 The interface must never claim that an object is indexed when it has only been mentioned in an unrecorded conversation. It must distinguish indexed records from illustrative prototypes, linked sources from copied content, and confirmed relationships from suggestions. A visible address should resolve to something real or clearly state that its source has not yet been connected.
 
 The purpose is continuity with movement. The user should be able to enter through one passage and emerge somewhere unexpected without losing the thread that brought them there. The Tractus Index makes memory navigable, makes relationships visible and gives each new inscription a place in the world.
+
+
+## The Address Chamber
+
+When the index opens in chat, it should feel like entering a small, well-lit chamber inside a much larger structure. The selected address occupies the centre. Its title is visible, its identifier is quietly printed beneath it, and a short account describes what the object is in the world. Around it are the nearest doors: source, parent, inhabitants, locations, related passages, history and open questions. The user should not need to understand the underlying data model to move through it. The structure is legible because each connection says what kind of passage it offers.
+
+The chamber remembers the route taken through it. If the user opens the Lion Gate, follows the threshold into the dimension, enters Northgate University and then visits Founders Dormitory, a small path remains available: Lion Gate → Dimension → Northgate → Founders. Returning to an earlier address should not erase the discoveries made along the way. A selected address can be pinned while another is inspected, allowing comparison without losing the first object.
+
+## A Record Has a Shape
+
+The seed manifest in `data/tractus-index.json` is the first concrete address register. It is deliberately small. It identifies confirmed source files and keeps conceptual destinations explicit rather than pretending that every idea already has a file. Each record can grow toward the following common shape:
+
+```json
+{
+  "id": "NORTHGATE.LION_GATE",
+  "type": "place_and_threshold",
+  "title": "Northgate Lion Gate",
+  "aliases": ["Lion Gate", "The Four Lions"],
+  "path": "lore/NORTHGATE_LION_GATE.md",
+  "status": "active",
+  "state": 1,
+  "provenance": {
+    "kind": "repository_file",
+    "repository": "Ardhtor/GEEHUB",
+    "path": "lore/NORTHGATE_LION_GATE.md"
+  },
+  "relationships": [
+    {
+      "type": "opens_into",
+      "target": "TRACTUS.DIMENSION",
+      "certainty": "explicit"
+    }
+  ]
+}
+```
+
+This shape is a contract, not a demand that every field be filled immediately. Optional information stays absent or explicitly unknown. A record may point to a repository file, a conversation passage, a media asset or an external storage object. The source kind must be stated so that the interface knows how to open it. A repository path can be linked directly; a conversation passage may require a conversation reference; a media asset may open a preview or its storage location.
+
+## The Numbering Principle
+
+Numbers identify revisions and sequences; they should never be mistaken for the meaning of a thing. The address `NORTHGATE.LION_GATE` remains stable while its state advances from one revision to another. A state entry records the change, its source, its time when known and the addresses affected. This permits the Tractus to answer both “what is the Lion Gate?” and “what changed when the dimension beyond it was established?”
+
+A state transition is explicit. It may add a relationship, revise a description, promote an experiment, resolve a contradiction or create a new object. The transition should be small enough to inspect and large enough to matter. Several changes made together can share one event identifier while retaining their individual affected addresses. The resulting history is a sequence of understandable inscriptions rather than a mysterious overwritten present.
+
+## The First Indexing Pass
+
+The first indexing pass should proceed from known repository sources, not from guesses about the entire archive. It registers the index chapter, the Lion Gate chapter, the Deep Lore archive and the Northgate intimacy chapter as source-backed records. It also records the larger concepts they point toward as unresolved or developing addresses. The seed manifest is therefore useful immediately, while remaining honest about its limited coverage.
+
+The next pass can inspect the repository tree and add confirmed files in batches. Each new record should be checked against existing identifiers and source paths before insertion. Duplicate titles do not necessarily mean duplicate objects; two different chapters may share a name, while one chapter may have several aliases. The canonical identifier and provenance decide identity. A review queue catches uncertain matches instead of merging them automatically.
+
+## What the Index Refuses to Do
+
+The index does not turn every association into canon. It does not confuse a search match with a relationship, a proposed address with a resolved source, or a generated description with an existing artifact. It does not silently rewrite old passages to make the present appear consistent. It does not hide uncertainty behind polished interface language.
+
+This restraint is what allows the rest of the system to be imaginative. The world can expand without losing its bearings because its memory distinguishes what has been written, what has been inferred, what is being developed and what remains open. The Index is not a cage around the Tractus. It is the set of doors that lets the Tractus become larger while remaining traversable.

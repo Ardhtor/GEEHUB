@@ -282,42 +282,45 @@ local function validatePortableJob(payload, manifest, job)
         end
     end
     local evidence = payload.frameEvidence
-    if type(evidence) ~= "table" or evidence.schema ~= "geehub.render-frame-evidence" or
-       evidence.schemaVersion ~= 1 or evidence.pixelSemanticsVerified ~= false then
-        add("Portable render job frame-evidence reference is missing or invalid")
-    else
-        local selected = {}
-        for _, frameId in ipairs(job.inputFrameSetIds or {}) do
-            for _, frameSet in ipairs(manifest.frameSets or {}) do
-                if frameSet.id == frameId then selected[frameSet.role] = frameSet end
-            end
-        end
-        local segmentation = selected.segmentation
-        local landmarks = selected.landmarks
-        if not segmentation or not landmarks then
-            add("Portable render job does not resolve both registered evidence frame sets")
+    -- New queue operations require this extension; legacy v1 jobs remain readable.
+    if evidence ~= nil then
+        if type(evidence) ~= "table" or evidence.schema ~= "geehub.render-frame-evidence" or
+           evidence.schemaVersion ~= 1 or evidence.pixelSemanticsVerified ~= false then
+            add("Portable render job frame-evidence reference is invalid")
         else
-            local expected = {
-                sequenceId = type(segmentation.metadata) == "table" and segmentation.metadata.sequenceId or nil,
-                segmentationFrameSetId = segmentation.id,
-                landmarksFrameSetId = landmarks.id,
-                segmentationChecksum = segmentation.checksum,
-                landmarksChecksum = landmarks.checksum,
-                firstFrame = segmentation.firstFrame,
-                lastFrame = segmentation.lastFrame,
-                frameCount = segmentation.frameCount,
-                width = segmentation.width,
-                height = segmentation.height,
-                fps = segmentation.fps
-            }
-            for key, value in pairs(expected) do
-                if evidence[key] ~= value then
-                    add("Portable render job frame evidence disagrees with manifest on " .. key)
+            local selected = {}
+            for _, frameId in ipairs(job.inputFrameSetIds or {}) do
+                for _, frameSet in ipairs(manifest.frameSets or {}) do
+                    if frameSet.id == frameId then selected[frameSet.role] = frameSet end
                 end
             end
-            if type(payload.landmarkFrames) ~= "table" or
-               #payload.landmarkFrames ~= segmentation.frameCount then
-                add("Portable render job landmark observations do not cover the registered frame range")
+            local segmentation = selected.segmentation
+            local landmarks = selected.landmarks
+            if not segmentation or not landmarks then
+                add("Portable render job does not resolve both registered evidence frame sets")
+            else
+                local expected = {
+                    sequenceId = type(segmentation.metadata) == "table" and segmentation.metadata.sequenceId or nil,
+                    segmentationFrameSetId = segmentation.id,
+                    landmarksFrameSetId = landmarks.id,
+                    segmentationChecksum = segmentation.checksum,
+                    landmarksChecksum = landmarks.checksum,
+                    firstFrame = segmentation.firstFrame,
+                    lastFrame = segmentation.lastFrame,
+                    frameCount = segmentation.frameCount,
+                    width = segmentation.width,
+                    height = segmentation.height,
+                    fps = segmentation.fps
+                }
+                for key, value in pairs(expected) do
+                    if evidence[key] ~= value then
+                        add("Portable render job frame evidence disagrees with manifest on " .. key)
+                    end
+                end
+                if type(payload.landmarkFrames) ~= "table" or
+                   #payload.landmarkFrames ~= segmentation.frameCount then
+                    add("Portable render job landmark observations do not cover the registered frame range")
+                end
             end
         end
     end

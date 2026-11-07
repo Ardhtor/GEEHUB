@@ -1,6 +1,25 @@
 {
-  "cycle": 24,
+  "cycle": 25,
   "events": [
+    {
+      "id": "northgate-campus-00025",
+      "cycle": 25,
+      "world_pulse": 194,
+      "at": "2026-11-07T22:15:44.183703+00:00",
+      "region": "northgate-university",
+      "title": "THE NORTHGATE MATCH",
+      "kind": "sport",
+      "participants": [
+        "Noah Bell",
+        "Adrian Varga",
+        "Dan Roman"
+      ],
+      "description": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-07T22:15:44.183703+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00024",
       "cycle": 24,
@@ -415,29 +434,28 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 18,
+    "Dan Roman": 19,
     "Marek Ionescu": 13,
     "Elliot Ward": 15,
-    "Noah Bell": 15,
-    "Adrian Varga": 15
+    "Noah Bell": 16,
+    "Adrian Varga": 16
   },
   "last_event": {
-    "id": "northgate-campus-00024",
-    "cycle": 24,
-    "world_pulse": 193,
-    "at": "2026-11-07T22:14:33.780950+00:00",
-    "region": "founders-dormitory",
-    "title": "A ROOM FULL OF PROJECTS",
-    "kind": "making",
+    "id": "northgate-campus-00025",
+    "cycle": 25,
+    "world_pulse": 194,
+    "at": "2026-11-07T22:15:44.183703+00:00",
+    "region": "northgate-university",
+    "title": "THE NORTHGATE MATCH",
+    "kind": "sport",
     "participants": [
-      "Dan Roman",
-      "Marek Ionescu",
+      "Noah Bell",
       "Adrian Varga",
-      "Elliot Ward"
+      "Dan Roman"
     ],
-    "description": "The common room becomes a temporary studio. A half-built model occupies the long table, a laptop plays back a rough edit, and someone is sketching a set of stairs on the back of an envelope. Each person contributes a different skill; by midnight the project has a direction.",
+    "description": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-07T22:14:33.780950+00:00",
+    "occurred_at": "2026-11-07T22:15:44.183703+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

@@ -1453,3 +1453,11 @@ NICK: The world crosses the route from NORTHGATE UNIVERSITY into ATHLETIC COMMON
 SETH: A university gymnasium, pool, indoor track, weight rooms, recovery suites and outdoor training lawns. Relation carried forward: STRENGTH WITHOUT CONFLICT.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 194 — ATMOSPHERE / ATHLETIC COMMONS / 2026-11-07T22:15:44.144800+00:00
+
+SETH: The Athletic Commons is a broad brick-and-glass complex with high timber trusses, bright training floors, a swimming pool, indoor track and recovery rooms. Adult male students train in small groups or alone, greeting familiar faces between sets.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

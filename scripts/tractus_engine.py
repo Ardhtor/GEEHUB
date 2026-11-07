@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.error
@@ -157,6 +158,30 @@ continuation, return an object with skip=true and a brief reason instead.
     return result
 
 
+def roman_to_int(value: str) -> int:
+    values = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
+    total = 0
+    previous = 0
+    for char in reversed(value.upper()):
+        number = values.get(char, 0)
+        total += -number if number < previous else number
+        previous = max(previous, number)
+    return total
+
+
+def int_to_roman(number: int) -> str:
+    pairs = (
+        (1000, "M"), (900, "CM"), (500, "D"), (400, "CD"),
+        (100, "C"), (90, "XC"), (50, "L"), (40, "XL"),
+        (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I"),
+    )
+    result = []
+    for value, numeral in pairs:
+        count, number = divmod(number, value)
+        result.append(numeral * count)
+    return "".join(result)
+
+
 def main() -> None:
     dry_run = os.getenv("TRACTUS_DRY_RUN", "false").lower() == "true"
     api_key = os.getenv("OPENAI_API_KEY", "").strip()
@@ -195,7 +220,13 @@ def main() -> None:
 
     target = ROOT / relative
     existing = target.read_text(encoding="utf-8")
-    heading = f"## {title.strip()}"
+    title = title.strip()
+    if relative == "novel/BOOK_I_CONTINUATION_03.md":
+        chapter_numbers = re.findall(r"^## Chapter ([IVXLCDM]+)\\b", existing, flags=re.MULTILINE)
+        next_number = max((roman_to_int(value) for value in chapter_numbers), default=0) + 1
+        title = re.sub(r"^Chapter\\s+[IVXLCDM]+\\s*[:.\\-]?\\s*", "", title, flags=re.IGNORECASE)
+        title = f"Chapter {int_to_roman(next_number)}: {title}"
+    heading = f"## {title}"
     if heading.casefold() in existing.casefold():
         print("TRACTUS ENGINE: this chapter title already exists; skipping.")
         return

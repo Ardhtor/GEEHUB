@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00169.json",
+  "activeRecording": "./recordings/scheduled-recording-00170.json",
   "activeEncounter": {
-    "regionId": "cedar-house",
-    "regionName": "CEDAR HOUSE",
+    "regionId": "cat-gardens",
+    "regionName": "CAT GARDENS",
     "subject": {
-      "agent": "joseph",
-      "scale": 13.34,
+      "agent": "chase",
+      "scale": 13.38,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / THE COMMON TABLE → CEDAR HOUSE / JOSEPH",
+    "intent": "LONG PLAY / CEDAR HOUSE → CAT GARDENS / CHASE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 13.22× → 13.34×",
-      "THE COMMON TABLE → CEDAR HOUSE",
-      "relation: A TABLE IS SET",
+      "scale 13.34× → 13.38×",
+      "CEDAR HOUSE → CAT GARDENS",
+      "relation: GOOD LUCK HAS WHISKERS",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "common-table"
+    "previousRegionId": "cedar-house"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-06T22:16:24.309Z",
+  "snapshot": "2026-11-07T02:14:28.526Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 169,
-    "agent": "joseph",
-    "previousRegionId": "common-table",
-    "regionId": "cedar-house",
-    "relation": "A TABLE IS SET",
+    "cycle": 170,
+    "agent": "chase",
+    "previousRegionId": "cedar-house",
+    "regionId": "cat-gardens",
+    "relation": "GOOD LUCK HAS WHISKERS",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 13.22,
-    "scale": 13.34,
-    "recording": "scheduled-recording-00169",
-    "at": "2026-11-06T22:16:24.309Z"
+    "previousScale": 13.34,
+    "scale": 13.38,
+    "recording": "scheduled-recording-00170",
+    "at": "2026-11-07T02:14:28.526Z"
   }
 }

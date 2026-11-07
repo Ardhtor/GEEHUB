@@ -1725,3 +1725,11 @@ SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/lantern-market/README.md. Pressure 0.90; memory 1.00.
+
+## LANTERN MARKET / pulse 185 / MEMORY
+
+NICK: A detail returns in LANTERN MARKET: A record plays softly near the bookbinder's stall. People pause at the fountain, exchange small discoveries, and make room for someone arriving from the quay.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/lantern-market/README.md.
+
+Source retained: worlds/lantern-market/README.md. Pressure 0.94; memory 1.00.

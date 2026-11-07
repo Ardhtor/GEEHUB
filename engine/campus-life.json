@@ -1,6 +1,22 @@
 {
-  "cycle": 15,
+  "cycle": 16,
   "events": [
+    {
+      "id": "northgate-campus-00016",
+      "cycle": 16,
+      "world_pulse": 185,
+      "at": "2026-11-07T18:50:50.354252+00:00",
+      "region": "athletic-commons",
+      "title": "THE EVENING TRAINING GROUP",
+      "kind": "training",
+      "participants": [
+        "Dan Roman",
+        "Noah Bell",
+        "Adrian Varga"
+      ],
+      "description": "The training group gathers beneath the high timber roof. They move through warm-ups, careful sets and recovery work, trading observations about technique. Afterward they linger by the pool windows, making plans to walk back to the dormitory together.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00015",
       "cycle": 15,
@@ -246,27 +262,26 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 12,
+    "Dan Roman": 13,
     "Marek Ionescu": 9,
     "Elliot Ward": 10,
-    "Noah Bell": 9,
-    "Adrian Varga": 8
+    "Noah Bell": 10,
+    "Adrian Varga": 9
   },
   "last_event": {
-    "id": "northgate-campus-00015",
-    "cycle": 15,
-    "world_pulse": 184,
-    "at": "2026-11-07T18:50:09.859912+00:00",
-    "region": "founders-dormitory",
-    "title": "SUPPER IN THE COMMON KITCHEN",
-    "kind": "dormitory",
+    "id": "northgate-campus-00016",
+    "cycle": 16,
+    "world_pulse": 185,
+    "at": "2026-11-07T18:50:50.354252+00:00",
+    "region": "athletic-commons",
+    "title": "THE EVENING TRAINING GROUP",
+    "kind": "training",
     "participants": [
       "Dan Roman",
-      "Marek Ionescu",
-      "Elliot Ward",
-      "Noah Bell"
+      "Noah Bell",
+      "Adrian Varga"
     ],
-    "description": "The kitchen fills gradually. Someone has put rice on, another is chopping vegetables, and a third is trying to rescue a pan from yesterday. The conversation moves between coursework, a new record, and who has borrowed the good screwdriver. Nobody eats alone unless he wants to.",
+    "description": "The training group gathers beneath the high timber roof. They move through warm-ups, careful sets and recovery work, trading observations about technique. Afterward they linger by the pool windows, making plans to walk back to the dormitory together.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

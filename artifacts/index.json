@@ -3856,6 +3856,27 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue the retained world state"
+    },
+    {
+      "id": "world-production-000185",
+      "created_at": "2026-11-07T18:50:50.330512+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "MEMORY / LANTERN MARKET / worlds/lantern-market/README.md",
+      "content": "NICK: A detail returns in LANTERN MARKET: A record plays softly near the bookbinder's stall. People pause at the fountain, exchange small discoveries, and make room for someone arriving from the quay.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/lantern-market/README.md.",
+      "production_note": "The world resolved its memory rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 185,
+        "actor": "TYLER",
+        "world": "LANTERN MARKET",
+        "region_id": "lantern-market",
+        "source": "worlds/lantern-market/README.md",
+        "phase": "MEMORY",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
     }
   ]
 }

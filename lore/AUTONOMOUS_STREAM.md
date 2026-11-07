@@ -1357,3 +1357,11 @@ NICK: A detail returns in BLUEWATER QUAY: A rowboat rocks gently against its rop
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/bluewater-quay/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 182 — ROUTE_OPEN / BLUEWATER QUAY / 2026-11-07T17:28:22.606847+00:00
+
+SETH: A line becomes visible between BLUEWATER QUAY and LANTERN MARKET. The archive names the relation "THE WATER OPENS THE VIEW".
+
+NICK: A quieter path leads from the market to the reservoir, where the city can be seen without being crowded. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

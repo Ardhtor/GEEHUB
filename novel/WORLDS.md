@@ -1701,3 +1701,11 @@ NICK: A detail returns in BLUEWATER QUAY: A rowboat rocks gently against its rop
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/bluewater-quay/README.md.
 
 Source retained: worlds/bluewater-quay/README.md. Pressure 0.94; memory 1.00.
+
+## BLUEWATER QUAY / pulse 182 / ROUTE_OPEN
+
+SETH: A line becomes visible between BLUEWATER QUAY and LANTERN MARKET. The archive names the relation "THE WATER OPENS THE VIEW".
+
+NICK: A quieter path leads from the market to the reservoir, where the city can be seen without being crowded. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: worlds/bluewater-quay/README.md. Pressure 1.00; memory 1.00.

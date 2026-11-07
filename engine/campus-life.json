@@ -1,6 +1,22 @@
 {
-  "cycle": 12,
+  "cycle": 13,
   "events": [
+    {
+      "id": "northgate-campus-00013",
+      "cycle": 13,
+      "world_pulse": 182,
+      "at": "2026-11-07T17:28:22.647644+00:00",
+      "region": "northgate-library",
+      "title": "THE ARCHIVE IS OPEN",
+      "kind": "archive",
+      "participants": [
+        "Marek Ionescu",
+        "Elliot Ward",
+        "Dan Roman"
+      ],
+      "description": "A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00012",
       "cycle": 12,
@@ -197,26 +213,26 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 9,
-    "Marek Ionescu": 6,
-    "Elliot Ward": 7,
+    "Dan Roman": 10,
+    "Marek Ionescu": 7,
+    "Elliot Ward": 8,
     "Noah Bell": 8,
     "Adrian Varga": 8
   },
   "last_event": {
-    "id": "northgate-campus-00012",
-    "cycle": 12,
-    "world_pulse": 181,
-    "at": "2026-11-07T17:21:16.041770+00:00",
-    "region": "northgate-university",
-    "title": "THE NORTHGATE MATCH",
-    "kind": "sport",
+    "id": "northgate-campus-00013",
+    "cycle": 13,
+    "world_pulse": 182,
+    "at": "2026-11-07T17:28:22.647644+00:00",
+    "region": "northgate-library",
+    "title": "THE ARCHIVE IS OPEN",
+    "kind": "archive",
     "participants": [
-      "Noah Bell",
-      "Adrian Varga",
+      "Marek Ionescu",
+      "Elliot Ward",
       "Dan Roman"
     ],
-    "description": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
+    "description": "A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

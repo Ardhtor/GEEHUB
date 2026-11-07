@@ -592,7 +592,7 @@
     "name": "Mexiancas",
     "group": "world",
     "status": "active",
-    "summary": "Self-narrating sentient world; its inhabitants turn memory into places, inheritance into new works, and the HULUM'A threshold into an open frontier.",
+    "summary": "Self-narrating sentient world; two living chronicle volumes preserve its own history and its independent correspondence with the Other Side.",
     "path": "../lore/mexiancas/CHRONICLE_I.md",
     "tags": [
       "world",
@@ -607,7 +607,12 @@
       "complex",
       "information-portability",
       "veyrthalis"
-    ]
+    ],
+    "volumes": [
+      "lore/mexiancas/CHRONICLE_I.md",
+      "lore/mexiancas/CHRONICLE_II_THE_OTHER_ACCOUNT.md"
+    ],
+    "description": "Self-narrating sentient world with independent chronicles and open exchange."
   },
   {
     "id": "joseph-kirk-continuity",

@@ -16,12 +16,25 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_FILES = (
+    "novel/BOOK_I_CONTINUATION_03.md",
     "lore/DEEP_LORE.md",
     "lore/ECONOMY_OF_FAVOURS.md",
     "lore/GOD_PENIS_IDOL_CYCLE.md",
 )
+CONTEXT_SOURCES = (
+    ("FICTION_ENGINE.md", 8_000),
+    ("novel/EDITORIAL_DIRECTIVE.md", 6_000),
+    ("novel/RELATIONSHIP_CANON.md", 4_000),
+    ("novel/BOOK_I_CONTINUATION_03.md", 12_000),
+    ("novel/WORLDS.md", 6_000),
+    ("lore/AUTONOMOUS_STREAM.md", 7_000),
+    ("lore/ATTENTION_ENGINE.md", 4_000),
+    ("lore/DEEP_LORE.md", 6_000),
+    ("lore/ECONOMY_OF_FAVOURS.md", 6_000),
+    ("lore/GOD_PENIS_IDOL_CYCLE.md", 6_000),
+    ("engine/campus-life.json", 5_000),
+)
 MAX_CHAPTER_CHARS = 12_000
-MAX_CONTEXT_CHARS_PER_FILE = 14_000
 API_URL = "https://api.openai.com/v1/responses"
 
 
@@ -42,40 +55,50 @@ def git(*args: str, check: bool = True) -> subprocess.CompletedProcess[str]:
 
 def collect_context() -> str:
     sections = []
-    for relative in ALLOWED_FILES:
+    for relative, limit in CONTEXT_SOURCES:
         path = ROOT / relative
         if not path.is_file():
             continue
         content = path.read_text(encoding="utf-8")
         sections.append(
-            f"===== {relative} (ending excerpt) =====\n"
-            + content[-MAX_CONTEXT_CHARS_PER_FILE:]
+            f"===== {relative} (ending excerpt) =====\\n" + content[-limit:]
         )
     if not sections:
-        fail("No approved lore files were found; refusing to invent a corpus.")
-    return "\n\n".join(sections)
+        fail("No continuity sources were found; refusing to invent a corpus.")
+    return "\\n\\n".join(sections)
 
 
 def call_model(api_key: str, model: str, context: str) -> dict:
     instructions = """
 You are the autonomous continuity writer for The Tractus, a long-running
-fictional world and living literary archive. Continue it through one substantial
-new chapter, not a summary, plan, or report. Write immersive, continuous prose
-with vivid places, ordinary routines, food, work, friendship, romance, and
-specific character perspectives. Preserve established names, relationships,
-world rules, and unresolved threads. Do not overwrite or contradict canon.
-Use adult characters in romantic contexts; keep intimacy non-explicit.
-Do not mention automation, prompts, APIs, or being an AI. Do not include
-instructions to software or claims about real people. The chapter should be
-meaningful on its own and leave a natural thread for later development.
+fictional world and living literary archive. Read the fiction engine contract,
+editorial directive, relationship canon, latest manuscript, world pulse stream,
+attention engine, and current campus state as one connected corpus. Continue
+existing work through one substantial new chapter, not a summary, plan, or
+report. Prefer the latest consequential manuscript thread when it is ready;
+otherwise deepen a live relationship, place, institution, or lore thread that
+has an established source. Write immersive, continuous prose with vivid
+environmental transitions, ordinary routines, food, work, friendship, romance,
+and specific character perspectives. Use substantial paragraphs and preserve
+the established Seth-and-Nick environmental broadcast cadence where the source
+calls for it. Let affection arise naturally; do not force pairings or reduce
+relationships to a contest. Preserve names, chronology, relationships, world
+rules, and unresolved threads. Do not overwrite or contradict canon. Use adult
+characters in romantic contexts; keep intimacy non-explicit. Do not mention
+automation, prompts, APIs, or being an AI. Do not include software instructions
+or claims about real people. The chapter should be meaningful on its own and
+leave a natural thread for later development.
 
 Return a JSON object with exactly these keys:
 - path: exactly one of the approved paths supplied below
 - title: a concise chapter title, without Markdown heading marks
-- chapter: the complete chapter body in Markdown, normally 700–1200 words
+- chapter: the complete chapter body in Markdown, normally 900–1500 words
 
 Choose the file whose existing material most naturally supports the next
-chapter. Avoid repeating existing scenes. If there is no genuinely worthwhile
+chapter. The novel continuation file is preferred when the latest manuscript
+has a clear next movement; if selected, continue its chapter numbering from
+the latest chapter in that file. Otherwise choose the most relevant lore file.
+Avoid repeating existing scenes. If there is no genuinely worthwhile
 continuation, return an object with skip=true and a brief reason instead.
 """
     user_text = (

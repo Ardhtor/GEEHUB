@@ -85,9 +85,10 @@ editorial directive, relationship canon, latest manuscript, world pulse stream,
 attention engine, current campus state, and narrative queue as one connected
 corpus. Use the queue as a guide to live threads, not as a rigid plot outline. Continue
 existing work through one substantial new chapter, not a summary, plan, or
-report. Prefer the latest consequential manuscript thread when it is ready;
-otherwise deepen a live relationship, place, institution, or lore thread that
-has an established source. Write immersive, continuous prose with vivid
+report. Follow the highest-priority live lane in the queue. Romance and
+domestic life currently lead, followed by the manuscript and campus. Continue
+the latest manuscript thread when its consequence is urgent; otherwise deepen
+the lane with the strongest established source. Write immersive, continuous prose with vivid
 environmental transitions, ordinary routines, food, work, friendship, romance,
 and specific character perspectives. Use substantial paragraphs and preserve
 the established Seth-and-Nick environmental broadcast cadence where the source
@@ -230,8 +231,8 @@ def main() -> None:
     if len(chapter) > MAX_CHAPTER_CHARS:
         fail("Chapter body exceeds the 55,000 character safety limit.")
     if relative == "novel/BOOK_I_CONTINUATION_03.md":
-        if not 3_500 <= word_count <= 5_500:
-            fail("Novel chapter must contain 3,500–5,500 words under the publishing standard.")
+        if not 4_000 <= word_count <= 7_000:
+            fail("Novel chapter must contain 4,000–7,000 words under the publishing standard.")
     elif not 900 <= word_count <= 1_500:
         fail("Lore addition must contain 900–1,500 words.")
     if chapter.startswith("#"):

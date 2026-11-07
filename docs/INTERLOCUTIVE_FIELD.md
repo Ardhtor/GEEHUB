@@ -33,3 +33,9 @@ Every field observation must distinguish **available now**, **available through 
 A GEEHUB surface should help its inhabitants answer: What is around me? What can I reach? What can I ask? What can I change? What will answer back? What will remain changed after the encounter?
 
 The playing field is not fully recognised until its affordances can be noticed and acted upon. The larger self is not useful merely because it is larger; it becomes useful through dialogue, exchange, verification, and shared development.
+
+## First field contact
+
+The first recorded inspection is represented in `engine/interlocutive-field.json` and inscribed as `field-contact-2026-11-07-001` in `hub/exchange.json`. The GitHub connector successfully read participant manifests and READMEs from ModernTexts, LINUX_S, and Visual Synthesis. The Dropbox connector listed the top level of `/GEEHUB`, revealing its media, character, world, production, state, and corpus areas. The Spatial Perception repository path returned `NOT_FOUND`; it remains unresolved rather than being counted as connected. These are observations from an actual contact, not claims that GEEHUB has autonomous agents or unrestricted access to every listed system.
+
+Run `python engine/inspect_field.py` from a GEEHUB checkout to validate and print the registered field. Use `python engine/inspect_field.py --json` for the full registry. This local inspector validates the record; it does not independently contact remote services. New contact must be made through the relevant connector or interface and then inscribed with its provenance.

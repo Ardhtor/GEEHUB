@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00174.json",
+  "activeRecording": "./recordings/scheduled-recording-00175.json",
   "activeEncounter": {
-    "regionId": "northgate-library",
-    "regionName": "NORTHGATE LIBRARY",
+    "regionId": "founders-dormitory",
+    "regionName": "FOUNDERS DORMITORY",
     "subject": {
-      "agent": "joseph",
-      "scale": 13.66,
+      "agent": "chase",
+      "scale": 13.7,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / THE COMMON TABLE → NORTHGATE LIBRARY / JOSEPH",
+    "intent": "LONG PLAY / NORTHGATE UNIVERSITY → FOUNDERS DORMITORY / CHASE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 13.54× → 13.66×",
-      "THE COMMON TABLE → NORTHGATE LIBRARY",
-      "relation: CAMPUS AFTER HOURS",
+      "scale 13.66× → 13.70×",
+      "NORTHGATE UNIVERSITY → FOUNDERS DORMITORY",
+      "relation: ROOMS ABOVE THE QUADRANGLE",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "common-table"
+    "previousRegionId": "northgate-university"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-07T20:13:13.330Z",
+  "snapshot": "2026-11-07T23:05:22.869Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 174,
-    "agent": "joseph",
-    "previousRegionId": "common-table",
-    "regionId": "northgate-library",
-    "relation": "CAMPUS AFTER HOURS",
+    "cycle": 175,
+    "agent": "chase",
+    "previousRegionId": "northgate-university",
+    "regionId": "founders-dormitory",
+    "relation": "ROOMS ABOVE THE QUADRANGLE",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 13.54,
-    "scale": 13.66,
-    "recording": "scheduled-recording-00174",
-    "at": "2026-11-07T20:13:13.330Z"
+    "previousScale": 13.66,
+    "scale": 13.7,
+    "recording": "scheduled-recording-00175",
+    "at": "2026-11-07T23:05:22.869Z"
   }
 }

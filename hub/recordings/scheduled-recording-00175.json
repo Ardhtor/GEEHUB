@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00175",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "founders-dormitory",
+  "position": {
+    "x": 34,
+    "y": 91,
+    "z": 0
+  },
+  "camera": {
+    "x": 34,
+    "y": 91,
+    "z": 1.7,
+    "heading": 65,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "chase",
+    "scale": 13.7,
+    "priorScale": 13.66,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 13.7,
+    "clearance": 0.073,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 0.88,
+    "relation": "ROOMS ABOVE THE QUADRANGLE"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "northgate-university",
+      "name": "NORTHGATE UNIVERSITY"
+    },
+    {
+      "type": "region",
+      "id": "founders-dormitory",
+      "name": "FOUNDERS DORMITORY"
+    },
+    {
+      "type": "relation",
+      "title": "ROOMS ABOVE THE QUADRANGLE"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 13.66,
+      "to": 13.7
+    },
+    {
+      "property": "location.regionId",
+      "from": "northgate-university",
+      "to": "founders-dormitory",
+      "relation": "ROOMS ABOVE THE QUADRANGLE"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0732,
+      "to": 0.073
+    }
+  ],
+  "intent": "LONG PLAY / NORTHGATE UNIVERSITY → FOUNDERS DORMITORY / CHASE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 175,
+    "previousRegionId": "northgate-university",
+    "regionId": "founders-dormitory",
+    "relation": "ROOMS ABOVE THE QUADRANGLE",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 13.66,
+    "scaleBaselineTo": 13.7
+  },
+  "timestamp": "2026-11-07T23:05:22.869Z"
+}

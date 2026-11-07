@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00175",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00175.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "NORTHGATE UNIVERSITY → FOUNDERS DORMITORY / CHASE",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00175. Travel from NORTHGATE UNIVERSITY into FOUNDERS DORMITORY through the relation \"ROOMS ABOVE THE QUADRANGLE\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 13.66× to 13.70× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-07T23:05:22.869Z",
+      "lineage": {
+        "from": "northgate-university",
+        "to": "founders-dormitory",
+        "relation": "ROOMS ABOVE THE QUADRANGLE",
+        "cycle": 175
+      }
+    },
+    {
       "id": "scheduled-image-00174",
       "status": "QUEUED",
       "type": "IMAGE",

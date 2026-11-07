@@ -136,8 +136,10 @@ sequence id. The command reads the registered sidecars from the local Dropbox
 mirror, reconstructs the frame sequence, and rechecks every referenced body
 and face PNG checksum and dimension before writing a new job JSON and queued
 manifest into the bundle directory using exclusive creation. It prints the subsequent `stage:bridge` command.
-Staging rechecks the actual sidecar files before the Resolve inspector can
-audit the job. The Resolve integration remains a read-only handoff inspector;
+New queue operations require the exact frame-evidence reference; older
+version-one payloads without that additive field remain stageable. Staging
+rechecks the actual sidecar files before the Resolve inspector can audit the
+job. The Resolve integration remains a read-only handoff inspector;
 no local render is claimed by job preparation.
 
 ## AI creative-workstation framework

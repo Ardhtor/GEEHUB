@@ -125,7 +125,7 @@ explicitly unverified.
 With Node 22, prepare a local bundle after registration:
 
 ~~~bash
-GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \\
+GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \
   npm run prepare:render -- ./registered-manifest.json ./growth-states.json render-phase-01 ./BridgeJobs/render-phase-01
 ~~~
 

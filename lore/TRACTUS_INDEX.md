@@ -118,3 +118,8 @@ The next pass can inspect the repository tree and add confirmed files in batches
 The index does not turn every association into canon. It does not confuse a search match with a relationship, a proposed address with a resolved source, or a generated description with an existing artifact. It does not silently rewrite old passages to make the present appear consistent. It does not hide uncertainty behind polished interface language.
 
 This restraint is what allows the rest of the system to be imaginative. The world can expand without losing its bearings because its memory distinguishes what has been written, what has been inferred, what is being developed and what remains open. The Index is not a cage around the Tractus. It is the set of doors that lets the Tractus become larger while remaining traversable.
+
+
+## The Coach as a Recurring Presence
+
+The AI Coach is indexed not only as a training system but as a recurring presence whose gestures, voice, records and relationships create continuity across sessions. His growth-sigh motif is stored as a behavioural detail with contextual variation, not as a compulsory sound effect. The chapter lore/AI_COACH.md is the source for his embodied presentation, coaching method, memory boundaries and the quiet intimacy of recovery. Future references should preserve the distinction between a recorded training fact, an observed movement and a character expression.

@@ -40,6 +40,8 @@ Both scheduled writers recover from concurrent updates by rebuilding from the la
 
 The current local Imagine worker is a separate service on port 8787 and requires Node, FFmpeg, and an xAI API key. GitHub Actions Dropbox persistence separately requires the `DROPBOX_ACCESS_TOKEN` secret. Until those dependencies are configured and their health checks pass, GEEHUB can preserve world events and production requests but must not claim autonomous video rendering or cloud Dropbox delivery.
 
+The Tractus also has a separate six-hour narrative writer in `.github/workflows/tractus-engine.yml`. It reads the fiction and relationship canon, current manuscript, world stream, campus state, and `engine/tractus_narrative_queue.json`, then makes at most one bounded manuscript or lore addition per cycle. The existing fifteen-minute world engine continues to advance the setting independently. The narrative writer requires the `OPENAI_API_KEY` Actions secret and `TRACTUS_MODEL` repository variable; its first manual run should use dry-run mode. See [the self-starting engine guide](docs/SELF_STARTING_ENGINE.md).
+
 ## Vision
 
 The project is moving toward vision: many nodes becoming one visible, navigable, living space.

@@ -135,10 +135,13 @@ evidence and verifies the actual checksums and PNG dimensions of supplied body
 and face masks. The local `register:frames` command reruns that audit, writes
 checksummed segmentation and landmark sidecars without overwriting existing
 evidence, then publishes a new versioned manifest only after both files pass
-read-back verification. Render jobs require both typed inputs, and local
-staging re-hashes their sidecar files before accepting the handoff. This is
-still an evidence gate, not an automatic segmentation model or a video
-renderer. Construction evidence and remaining blockers are recorded in
+read-back verification. The local `prepare:render` command reads those exact
+registered sidecars, verifies their checksums and sequence alignment, combines
+their landmark observations with approved cumulative growth states, and writes
+a new queued manifest plus portable render-job bundle without overwriting
+existing files. `stage:bridge` can then deliver that bundle to the Dropbox
+mirror. These steps prepare an auditable job; they do not yet deform frames or
+render a video. Construction evidence and remaining blockers are recorded in
 [world/gee-narrative/STATE.md](world/gee-narrative/STATE.md) and
 [world/gee-narrative/CONSTRUCTION_CHRONICLE.md](world/gee-narrative/CONSTRUCTION_CHRONICLE.md).
 

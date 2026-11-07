@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "purpose": "Give each autonomous narrative cycle a grounded next direction without forcing a predetermined plot.",
-  "selection_rule": "Choose the highest-priority lane with a live consequence, then rotate among the remaining lanes over later cycles. Romance and domestic life currently lead. The main manuscript remains eligible when its next scene is urgent or when no higher-priority thread is ready. Do not repeat a scene merely to fill a cycle.",
+  "selection_rule": "Choose the highest-priority lane with a live consequence, then rotate among the remaining lanes over later cycles. Adult romance, gay intimacy, and domestic life remain active narrative material rather than occasional exceptions. The main manuscript remains eligible when its next scene is urgent or when no higher-priority thread is ready. Do not repeat a scene merely to fill a cycle.",
   "active_lanes": [
     {
       "id": "main-manuscript",
@@ -13,9 +13,9 @@
     {
       "id": "romance-and-domestic-life",
       "priority": 1,
-      "target": "lore/ECONOMY_OF_FAVOURS.md",
-      "state": "Ivo and Mara have begun a relationship and have shared a quiet breakfast, a market visit, and the lentil stew that began their first conversation. Emil and Tomas have exchanged a spare key as a practical sign of trust. Nick and Seth have considered the difference between an audience and a witness.",
-      "next_pressure": "Let relationships deepen through ordinary shared life, including meeting friends, family histories, small disagreements, travel, cooking, and decisions about how much of a private relationship becomes visible in public."
+      "target": "lore/MEN_OF_NORTHGATE_INTIMACY.md",
+      "state": "Northgate's adult residents have an open culture of gay intimacy. Emil and Tomas have an established domestic and sexual relationship; Marek and Adrian have begun a physical relationship; Dan Roman and Noah Bell have chosen to become intimate. Privacy, consent, and distinct relationship rhythms are established. See lore/MEN_OF_NORTHGATE_INTIMACY.md.",
+      "next_pressure": "Keep adult gay intimacy frequent and integrated into ordinary life: recurring sex and affection between established partners, new consensual encounters, domestic mornings, dates, friendship, sexual-health care, and the consequences of closeness. Keep all characters adults, preserve privacy, and give each relationship its own character."
     },
     {
       "id": "northgate-campus",
@@ -56,9 +56,9 @@
   "standing_constraints": [
     "Treat every named romantic character as an individual; do not force pairings.",
     "All romantic characters are adults.",
-    "Affection can be vivid and physical without becoming explicit.",
     "Preserve chronology, source fidelity, and established relationships.",
     "Distinguish canon from speculation and do not silently turn experiments into facts.",
-    "Every cycle should make one meaningful change or skip cleanly."
+    "Every cycle should make one meaningful change or skip cleanly.",
+    "All sexual encounters are between consenting adults; keep intimate details private unless the participants choose otherwise."
   ]
 }

@@ -113,3 +113,9 @@ Outside, the city made a quiet adjustment. A doorway widened. A bench shifted aw
 The Serum had given them another rule.
 
 The city had begun to learn how to use it.
+
+## The measures between measurements
+
+By late afternoon the tailor's workshop had become a meeting place. The front windows were open, and the smell of warm cloth, chalk, cedar hangers, and the street's cooking fires moved through the room together. Luke stood on the low fitting platform while the tailor checked the new yoke, then asked him to raise his arms, turn, reach forward, and breathe deeply. The shirt followed without pinching. It was a small success, but everyone could see the difference between a garment that merely covered a changed body and one that allowed the body to live in it. Tyler watched the shoulder seam settle into place and nodded.
+
+They walked back through the upper district with the sample folded over Luke's arm. The city was making its own quiet adjustments: a carpenter measuring a doorway, two students shifting a heavy bench, a delivery man leaving a longer package beside the tailor's entrance. None of these changes was dramatic on its own. Together they formed a kind of civic intelligence, a willingness to notice what had become difficult and make it easier without turning the person into a problem. Luke understood that the measure of a man could not be reduced to the dimensions of his body. It also included the quality of the spaces that learned to receive him.

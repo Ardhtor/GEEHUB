@@ -239,3 +239,9 @@ Above us, the house continued its evening noises. Pipes shifted. A door shut. So
 For once, nobody asked the machine what came next.
 
 We had something to do in the morning.
+
+## The house in the pause
+
+We left the photograph on the wall until the light changed. Nobody suggested that we should take it down, and nobody tried to make the machine explain why the seam had appeared beneath the shelves. The room had become unusually easy to inhabit. Harlan sat on the floor with his back against the cabinet, turning a small carpenter's pencil between his fingers. Tyler stood near the window, looking out at the yard. Luke had gone to make coffee, and I could hear the cupboard door, the tap, the spoon touching the inside of a mug. These sounds did not interrupt the discovery. They gave it a place to settle.
+
+When Luke came back, he set the mugs down one by one, taking care not to cover the photograph or the shirt. Steam rose into the cooler air near the window. We drank without speaking for a while. The seam remained where it was, a thin line beneath the shelves, neither more nor less important because we had chosen not to open it tonight. I began to understand that waiting was not an absence of action. It was the part of the work in which the people involved became ready to act without turning their impatience into evidence. Tomorrow we would bring the braces, the lights, and the right tools. Tonight we let the house keep its secret while we sat together in the room it had already given us.

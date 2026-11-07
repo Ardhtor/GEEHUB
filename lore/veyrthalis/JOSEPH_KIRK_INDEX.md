@@ -59,3 +59,7 @@ This branch remains experimental until reconciled with the older Veyrthalis mate
 ## Chapter IV — The Fifth Groove
 
 [The Fifth Groove](THE_FIFTH_GROOVE.md) is now written. The travelers return to the lower chamber, inspect the fifth channel from separate positions, and record its emptiness without inventing an absent witness. They discover construction marks and add attributed annotations to their earlier accounts. A wooden door is found but remains unopened. The next seed is *The Measure of Return*.
+
+## Expanded-presence editorial pass — 2026-11-07
+
+Chapters I–IV have received a sensory and relational deepening pass: warmth carried by surfaces, ordinary city life around the expedition, distinct witness perception, and more generous time around the characters' choices. Chapters V–VII in the adjacent Veyrthalis sequence have also been expanded with environmental and interpersonal passages. The additions preserve the experimental status of the Joseph/Kirk branch, keep the four accounts distinct, and do not treat fictional material as evidence about real people. This is one completed batch in a continuing corpus-wide pass; it does not imply that every GEEHUB text has been revised.

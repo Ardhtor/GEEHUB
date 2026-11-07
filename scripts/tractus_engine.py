@@ -97,10 +97,11 @@ Return a JSON object with exactly these keys:
 - title: a concise chapter title, without Markdown heading marks
 - chapter: for the novel, a full 3,500–5,500-word chapter; for lore, a 900–1,500-word addition. Use Markdown.
 
-Choose the file whose existing material most naturally supports the next
-chapter. The novel continuation file is preferred when the latest manuscript
-has a clear next movement; if selected, continue its chapter numbering from
-the latest chapter in that file. Otherwise choose the most relevant lore file.
+Choose the highest-priority live lane in the narrative queue, while preserving
+an urgent continuation in the main manuscript when it cannot reasonably wait.
+Romance and domestic life are currently the first priority. If the novel file is
+selected, continue its chapter numbering from the latest chapter in that file.
+Otherwise choose the most relevant lore file.
 Avoid repeating existing scenes. If there is no genuinely worthwhile
 continuation, return an object with skip=true and a brief reason instead.
 """

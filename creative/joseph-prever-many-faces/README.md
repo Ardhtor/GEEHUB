@@ -48,3 +48,8 @@ The structured model and runtime now include all three chapters, 37 beats, and f
 [The Unentered Place](../../lore/veyrthalis/THE_UNENTERED_PLACE.md) follows the four travelers beyond the Procession. Joseph and the third traveler inspect a chamber with four columns and an empty bowl; Kirk and the fourth traveler independently examine the landing and the dust line. They exchange accounts, test their observations from different positions, and leave the Binding panel closed rather than mistaking a slight seam movement for permission. A fifth groove appears and remains unused. The second heartbeat, the chamber's purpose, and the identity of any possible fifth witness remain unresolved.
 
 The next seed is *The Fifth Groove*: investigate the empty channel without assuming that a fifth witness exists. The public YES JOEY record remains separate from all fictional events and establishes nothing about Joey Prever's awareness, intention, receipt, or response.
+
+
+## Chapter IV — The Fifth Groove
+
+The fourth narrative chapter is [The Fifth Groove](../../lore/veyrthalis/THE_FIFTH_GROOVE.md). The travelers return to the lower chamber and inspect the empty channel without assigning it to an invented witness. They examine the chamber's construction, preserve separate observations, and add attributed annotations without overwriting their earlier accounts. A wooden door is discovered but remains unopened. The second heartbeat, the fifth groove's purpose, and the identity of any possible fifth witness remain unresolved.

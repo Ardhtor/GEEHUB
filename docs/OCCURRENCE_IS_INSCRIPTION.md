@@ -16,6 +16,6 @@ The narrative writer does not sit downstream as a separate memory clerk. It read
 
 The law applies equally to quiet and dramatic activity. A meal is not less real than a battle; a repair is not less consequential than a voyage; a private decision may change the world without becoming public spectacle. Inscription does not require publicity. Privacy and consent determine which details are shared, while the existence of an event and its permitted trace remain joined.
 
-This is not a claim that every possible event in every fictional place is currently being simulated. Only events produced by an active Tractus process or deliberately authored into the corpus are recorded. When such an event is created, however, occurrence and inscription are one operation.
+This is not a claim that every possible event in every fictional place is currently being simulated. Only events passed through the shared inscription operation, or deliberately added to the canonical activity stream, are recorded. When such an event is created, however, occurrence and inscription are one operation.
 
 **The world does not happen first and remember afterward. The world happens as memory taking form.**

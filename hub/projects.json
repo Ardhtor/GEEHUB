@@ -395,7 +395,8 @@
     "related": [
       "information-portability",
       "tractus-continuity",
-      "institute-of-becoming"
+      "institute-of-becoming",
+      "arthur-and-fingerlands"
     ]
   },
   {
@@ -888,6 +889,28 @@
     "related": [
       "institute-of-becoming",
       "tractus-continuity"
+    ]
+  },
+  {
+    "id": "arthur-and-fingerlands",
+    "name": "Arthur and the Fingerlands",
+    "group": "world",
+    "status": "incubating",
+    "path": "../lore/ARTHUR_AND_FINGERLANDS.md",
+    "summary": "Arthur begins as a single finger and grows continuously into a giant landmark whose changing scale generates the geography, settlements, and stories of the Fingerlands.",
+    "tags": [
+      "arthur",
+      "fingerlands",
+      "character",
+      "world",
+      "growth",
+      "tractus",
+      "continuity"
+    ],
+    "related": [
+      "vision-workspace",
+      "tractus-continuity",
+      "the-complex"
     ]
   }
 ]

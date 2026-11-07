@@ -1389,3 +1389,11 @@ NICK: A detail returns in LANTERN MARKET: A record plays softly near the bookbin
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/lantern-market/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 186 — ATMOSPHERE / NORTHGATE LIBRARY / 2026-11-07T20:13:27.511070+00:00
+
+SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

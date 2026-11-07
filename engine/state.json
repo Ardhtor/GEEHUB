@@ -1,5 +1,5 @@
 {
-  "pulse": 185,
+  "pulse": 186,
   "events": [
     {
       "pulse": 1,
@@ -3087,6 +3087,28 @@
       "next_region": null,
       "pressure": 0.94,
       "memory": 1
+    },
+    {
+      "id": "world-pulse-000186",
+      "pulse": 186,
+      "time": "2026-11-07T20:13:27.511070+00:00",
+      "actor": "LUKE",
+      "world": "NORTHGATE LIBRARY",
+      "region_id": "northgate-library",
+      "previous_region_id": "northgate-library",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/northgate-library/README.md",
+      "desire_state": "attention",
+      "action": "SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.96,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-07T20:13:27.511070+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -3135,7 +3157,7 @@
     "lantern-market": 183,
     "northgate-library": 185.5
   },
-  "pressure": 0.9400000000000001,
+  "pressure": 0.9600000000000001,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -3155,15 +3177,16 @@
     "worlds/founders-dormitory/README.md": 1,
     "worlds/northgate-university/README.md": 3,
     "worlds/bluewater-quay/README.md": 4,
-    "worlds/lantern-market/README.md": 3
+    "worlds/lantern-market/README.md": 3,
+    "worlds/northgate-library/README.md": 1
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "northgate-library",
-  "current_phase": "LONG_PLAY_CROSSING",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 174,

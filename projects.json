@@ -44,12 +44,12 @@
   },
   {
     "id": "vision-workspace",
-    "name": "Vision / Living Workspace",
+    "name": "The Tractus — Living Workspace",
     "status": "active",
     "kind": "interface",
     "repo": "Ardhtor/GEEHUB",
     "path": "/",
-    "description": "Living world/memory engine: the visible entry point where scenes, video, books, characters, places, artifacts, and encounters persist as a connected changing world. The Hub is experienced rather than merely navigated; RUN continues the world.",
+    "description": "The Tractus living world/memory engine: the visible entry point where scenes, video, books, characters, places, artifacts, and encounters persist as a connected changing world. The Hub is experienced rather than merely navigated; RUN continues the world.",
     "related": [
       "sensation-engine",
       "the-complex",

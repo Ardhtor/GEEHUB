@@ -22,6 +22,10 @@ The test is:
 
 `WHAT HAPPENED → WHAT DO WE SEE → WHAT CHANGED → WHAT REMAINS`
 
+## Occurrence is inscription
+
+The Tractus does not separate activity from its memory. Every event produced by an active world process is assigned one identity and inscribed at the moment it occurs; the activity stream, artifacts, regional logs, and narrative are projections of that same event. The world pulse and Northgate campus engines share `engine/inscription.py`, while `engine/activity.jsonl` carries the chronological history. Historical pulses and campus events are unified by `engine/migrate_activity.py`. See [Occurrence Is Inscription](docs/OCCURRENCE_IS_INSCRIPTION.md).
+
 ## The build
 
 The working loop is:

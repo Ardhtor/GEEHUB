@@ -188,6 +188,36 @@ export function queueBridgeRenderJob(manifest, {
   }
   const requiredInputErrors = requiredFrameSetErrors(inputFrameSetIds, manifest.frameSets);
   if (requiredInputErrors.length) throw new Error("Render job " + requiredInputErrors.join("; "));
+  const selectedFrameSets = manifest.frameSets.filter(item => inputFrameSetIds.includes(item.id));
+  const segmentationSet = selectedFrameSets.find(item => item.role === "segmentation");
+  const landmarksSet = selectedFrameSets.find(item => item.role === "landmarks");
+  const evidence = portableJob.frameEvidence;
+  if (!evidence || evidence.schema !== "geehub.render-frame-evidence" ||
+      evidence.schemaVersion !== 1 || evidence.pixelSemanticsVerified !== false) {
+    throw new TypeError("Render job must retain an explicit, unverified frame-evidence reference");
+  }
+  const expectedEvidence = {
+    sequenceId: segmentationSet.metadata?.sequenceId,
+    segmentationFrameSetId: segmentationSet.id,
+    landmarksFrameSetId: landmarksSet.id,
+    segmentationChecksum: segmentationSet.checksum,
+    landmarksChecksum: landmarksSet.checksum,
+    firstFrame: segmentationSet.firstFrame,
+    lastFrame: segmentationSet.lastFrame,
+    frameCount: segmentationSet.frameCount,
+    width: segmentationSet.width,
+    height: segmentationSet.height,
+    fps: segmentationSet.fps
+  };
+  for (const [field, expected] of Object.entries(expectedEvidence)) {
+    if (evidence[field] !== expected) {
+      throw new Error("Render job frame evidence disagrees with registered frame sets on " + field);
+    }
+  }
+  if (!Array.isArray(portableJob.landmarkFrames) ||
+      portableJob.landmarkFrames.length !== segmentationSet.frameCount) {
+    throw new Error("Render job landmark observations must cover the registered frame range");
+  }
   if (!nonEmpty(renderer)) throw new TypeError("Renderer name is required");
 
   const job = {

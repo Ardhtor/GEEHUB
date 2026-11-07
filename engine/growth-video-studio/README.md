@@ -109,6 +109,35 @@ the registered manifest path. The new manifest contains the two typed frame
 sets but does not yet queue a render job. Pixel semantics and face exclusion
 remain unverified producer assertions; no image pixels are decoded or changed.
 
+## Registered-evidence render-job preparation
+
+`core/bridge-render-job.js` reads the exact segmentation and landmark sidecar
+text associated with one registered sequence. It checks each sidecar's
+SHA-256 against the manifest, verifies source/sequence/frame-range agreement,
+requires separate body and face mask references, and confirms that the
+landmark observations cover the same ordered timestamps. It then combines
+those observations with at least two approved cumulative growth states,
+preserving the identity, source-motion, ground-contact, connected-mesh, and
+temporal constraints. The queued job records the exact segmentation and
+landmark frame-set IDs, checksums, sequence, and format. Pixel semantics remain
+explicitly unverified.
+
+With Node 22, prepare a local bundle after registration:
+
+~~~bash
+GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \\
+  npm run prepare:render -- ./registered-manifest.json ./growth-states.json render-phase-01 ./BridgeJobs/render-phase-01
+~~~
+
+The growth-state JSON may be an array or an object with a `states` array.
+If the manifest contains multiple registered sequences, append the desired
+sequence id. The command reads the registered sidecars from the local Dropbox
+mirror and writes a new job JSON and queued manifest into the bundle directory
+using exclusive creation. It prints the subsequent `stage:bridge` command.
+Staging rechecks the actual sidecar files before the Resolve inspector can
+audit the job. The Resolve integration remains a read-only handoff inspector;
+no local render is claimed by job preparation.
+
 ## AI creative-workstation framework
 
 The studio now has a first executable layer for AI-directed construction:

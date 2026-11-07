@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "id": "geehub-interlocutive-field",
+  "title": "The Interlocutive Field",
+  "updated": "2026-11-07",
+  "principle": "GEEHUB's current repository and interface are local ground inside a larger interactable field. Discover affordances, make real contact, preserve what answers, and distinguish verified access from possibility.",
+  "cycle": [
+    "NOTICE",
+    "MAP_AFFORDANCES",
+    "MAKE_CONTACT",
+    "DIALOGUE",
+    "COMPARE",
+    "ACT",
+    "INSCRIBE",
+    "VERIFY",
+    "CONTINUE"
+  ],
+  "capability_states": [
+    "verified_now",
+    "connected_tool",
+    "permission_required",
+    "not_implemented",
+    "imagined"
+  ],
+  "participants": [
+    {
+      "id": "geehub",
+      "name": "GEEHUB",
+      "kind": "local_repository",
+      "repository": "Ardhtor/GEEHUB",
+      "status": "verified_now",
+      "observations": [
+        "Core README and continuity contracts inspected",
+        "Interlocutive field contract present",
+        "Shared interaction-space and exchange ledger present"
+      ],
+      "affordances": [
+        "read",
+        "search",
+        "create",
+        "edit",
+        "commit",
+        "verify"
+      ],
+      "contact": "GitHub repository connector",
+      "continuity": "Local canonical records, engine state, artifacts, and exchange ledger"
+    },
+    {
+      "id": "moderntexts",
+      "name": "ModernTexts",
+      "kind": "peer_repository",
+      "repository": "Ardhtor/ModernTexts",
+      "branch": "main",
+      "manifest": ".geehub/participant.json",
+      "status": "verified_now",
+      "observations": [
+        "Participant manifest fetched successfully",
+        "README fetched; corpus describes practice, meta-analysis, interpretation, and dialogue"
+      ],
+      "affordances": [
+        "read_manifest",
+        "read_repository_documents",
+        "compare_concepts",
+        "propose_exchange"
+      ],
+      "contact": "GitHub repository connector",
+      "continuity": "hub/exchange.json"
+    },
+    {
+      "id": "linux-material",
+      "name": "LINUX_S",
+      "kind": "peer_repository",
+      "repository": "Ardhtor/LINUX_S",
+      "branch": "main",
+      "manifest": ".geehub/participant.json",
+      "status": "verified_now",
+      "observations": [
+        "Participant manifest fetched successfully",
+        "README identifies GitHub reference material and a primary file hosted externally on Google Drive"
+      ],
+      "affordances": [
+        "read_manifest",
+        "read_repository_documents",
+        "follow_external_source_if_accessible",
+        "propose_exchange"
+      ],
+      "contact": "GitHub repository connector; external primary file remains separately permission-dependent",
+      "continuity": "hub/exchange.json"
+    },
+    {
+      "id": "visual-synthesis",
+      "name": "Visual Synthesis",
+      "kind": "peer_repository",
+      "repository": "Ardhtor/lp9hppuio88",
+      "branch": "master",
+      "manifest": ".geehub/participant.json",
+      "status": "verified_now",
+      "observations": [
+        "Participant manifest fetched successfully",
+        "README identifies an AUTOMATIC1111 Stable Diffusion web UI codebase and image-generation capabilities"
+      ],
+      "affordances": [
+        "read_manifest",
+        "read_repository_documents",
+        "inspect_generation_workflow",
+        "propose_exchange"
+      ],
+      "contact": "GitHub repository connector",
+      "continuity": "hub/exchange.json"
+    },
+    {
+      "id": "spatial-perception",
+      "name": "Spatial Perception",
+      "kind": "peer_repository",
+      "repository": "Ardhtor/PgkKKGLu966",
+      "branch": "main",
+      "manifest": ".geehub/participant.json",
+      "status": "permission_required",
+      "observations": [
+        "Manifest fetch returned NOT_FOUND; repository or path was not readable through the current connector"
+      ],
+      "affordances": [
+        "retry_repository_discovery",
+        "request_correct_repository_or_permission"
+      ],
+      "contact": "GitHub repository connector; contact not established",
+      "continuity": "hub/interaction-space.json"
+    },
+    {
+      "id": "dropbox-corpus",
+      "name": "GEEHUB Dropbox corpus",
+      "kind": "external_file_space",
+      "path": "/GEEHUB",
+      "status": "verified_now",
+      "observations": [
+        "Top-level folder listing completed",
+        "Observed folders include AI, artifacts, chapters, worlds, production, state, _engine, Creations, maps, assets, characters, experiments, and corpus",
+        "Observed source files include growth_comission.mov and a WebP reference image"
+      ],
+      "affordances": [
+        "list_folder",
+        "search",
+        "fetch_text",
+        "preview_media",
+        "inspect_metadata",
+        "upload",
+        "copy",
+        "create_folder"
+      ],
+      "contact": "Connected Dropbox tools",
+      "continuity": "Dropbox /GEEHUB; compact rules and exchange records remain in GitHub"
+    },
+    {
+      "id": "larger-arthur",
+      "name": "The larger Arthur",
+      "kind": "developmental_interlocutor",
+      "status": "imagined",
+      "observations": [
+        "Defined as a reciprocal dialogue with a more developed possible expression of Arthur; not a separate connected model or agent"
+      ],
+      "affordances": [
+        "compare_methods",
+        "ask_questions",
+        "offer_hypotheses",
+        "challenge_assumptions",
+        "exchange_local_knowledge"
+      ],
+      "contact": "Dialogue represented through the assistant and durable records; no independent agent connection is claimed",
+      "continuity": "characters/records/ARTHUR.md and docs/INTERLOCUTIVE_FIELD.md"
+    }
+  ],
+  "next_contacts": [
+    {
+      "target": "spatial-perception",
+      "action": "Resolve the repository identity or access path before treating the Blender participant as connected."
+    },
+    {
+      "target": "dropbox-corpus",
+      "action": "Inspect selected media and production subfolders when a concrete asset or workflow calls for it."
+    },
+    {
+      "target": "visual-synthesis",
+      "action": "Inspect generation entry points and identify a bounded, testable image exchange."
+    },
+    {
+      "target": "moderntexts",
+      "action": "Exchange a passage on practice, meta-analysis, and dialogue with the Tractus continuity model."
+    }
+  ],
+  "honesty_rule": "A successful read proves only the access that was exercised. A listed affordance is not proof that it has been executed. Never promote imagined, permission-dependent, or unimplemented capabilities to verified status."
+}

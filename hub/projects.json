@@ -393,7 +393,9 @@
       "exchange"
     ],
     "related": [
-      "information-portability"
+      "information-portability",
+      "tractus-continuity",
+      "institute-of-becoming"
     ]
   },
   {
@@ -824,6 +826,48 @@
       "lineage-pantheon",
       "rites-of-growth",
       "sensation-engine"
+    ]
+  },
+  {
+    "id": "tractus-continuity",
+    "name": "Tractus Continuity Contract",
+    "group": "engine",
+    "status": "active",
+    "summary": "Canonical continuity model connecting GEEHUB event inscription, world state, narrative generation, queue, artifacts, Atlas discovery, and cross-repository exchange.",
+    "path": "../docs/TRACTUS_CONTINUITY_CONTRACT.md",
+    "tags": [
+      "tractus",
+      "continuity",
+      "passages",
+      "provenance",
+      "canon",
+      "governance"
+    ],
+    "related": [
+      "sensation-engine",
+      "information-portability",
+      "vision-workspace"
+    ]
+  },
+  {
+    "id": "institute-of-becoming",
+    "name": "The Institute of Becoming",
+    "group": "world",
+    "status": "incubating",
+    "summary": "Emerging Tractus institution centered on the Coach, its university and residential spaces, hospitality, inhabitants, and architecture shaped by accumulated use. Incubating story branch, not yet promoted to established canon.",
+    "path": "../lore/DEEP_LORE.md",
+    "tags": [
+      "institute",
+      "coach",
+      "university",
+      "world",
+      "story",
+      "continuity"
+    ],
+    "related": [
+      "tractus-continuity",
+      "sensation-engine",
+      "vision-workspace"
     ]
   }
 ]

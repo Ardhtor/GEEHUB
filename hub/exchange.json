@@ -1,9 +1,22 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-07T20:13:13.330Z",
+  "generated": "2026-11-07T22:16:26Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "field-contact-2026-11-07-001",
+      "at": "2026-11-07T22:16:26Z",
+      "from": "geehub-interlocutive-field",
+      "to": "moderntexts+linux-material+visual-synthesis+dropbox-corpus",
+      "type": "ENCOUNTER",
+      "title": "THE FIELD ANSWERS / FIRST CONTACT",
+      "body": "The field was contacted through real repository and Dropbox interfaces. ModernTexts, LINUX_S, and Visual Synthesis participant manifests and READMEs were read. Dropbox /GEEHUB top-level folders and source files were listed. Spatial Perception returned NOT_FOUND and remains unresolved. The exchange establishes contact and observed affordances, not autonomous agents or untested capabilities.",
+      "source": "GitHub and Dropbox connector inspection",
+      "artifact": "engine/interlocutive-field.json",
+      "live": true,
+      "relation": "NOTICE → CONTACT → COMPARE → INSCRIBE"
+    },
     {
       "id": "scheduled-long-play-00174",
       "at": "2026-11-07T20:13:13.330Z",

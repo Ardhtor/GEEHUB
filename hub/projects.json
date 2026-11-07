@@ -803,5 +803,27 @@
       "sensation-engine",
       "information-portability"
     ]
+  },
+  {
+    "id": "god-penis-idol-cycle",
+    "name": "The God Penis — Idol Cycle",
+    "group": "myth",
+    "status": "active",
+    "summary": "Connected mythic cycle of the God Penis, Penis Wizards, Institute of Phallic Studies, Window Society, Great Gallery, Hall of Continuity, Big-Pec Altar, and Festival of Again.",
+    "path": "../lore/GOD_PENIS_IDOL_CYCLE.md",
+    "tags": [
+      "myth",
+      "idol",
+      "penis-wizards",
+      "institute",
+      "continuity",
+      "masculine-form"
+    ],
+    "related": [
+      "muscle-myth",
+      "lineage-pantheon",
+      "rites-of-growth",
+      "sensation-engine"
+    ]
   }
 ]

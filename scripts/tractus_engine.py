@@ -33,6 +33,7 @@ CONTEXT_SOURCES = (
     ("lore/ECONOMY_OF_FAVOURS.md", 6_000),
     ("lore/GOD_PENIS_IDOL_CYCLE.md", 6_000),
     ("engine/campus-life.json", 5_000),
+    ("engine/tractus_narrative_queue.json", 8_000),
 )
 MAX_CHAPTER_CHARS = 12_000
 API_URL = "https://api.openai.com/v1/responses"
@@ -73,7 +74,8 @@ def call_model(api_key: str, model: str, context: str) -> dict:
 You are the autonomous continuity writer for The Tractus, a long-running
 fictional world and living literary archive. Read the fiction engine contract,
 editorial directive, relationship canon, latest manuscript, world pulse stream,
-attention engine, and current campus state as one connected corpus. Continue
+attention engine, current campus state, and narrative queue as one connected
+corpus. Use the queue as a guide to live threads, not as a rigid plot outline. Continue
 existing work through one substantial new chapter, not a summary, plan, or
 report. Prefer the latest consequential manuscript thread when it is ready;
 otherwise deepen a live relationship, place, institution, or lore thread that

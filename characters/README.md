@@ -35,3 +35,8 @@ Each record distinguishes established canon from open questions and proposed dev
 15. Change log and provenance
 
 A record may leave fields open. An honest gap is more useful than fabricated detail. Characters should become more specific through scenes and encounters, not through arbitrary accumulation of adjectives.
+
+
+## Interlocutive awareness
+
+A character's field of awareness is not limited to the room or scene currently depicted. Where relevant, records should describe what lies beyond the immediate setting, what the character can perceive or reach, what systems or people can answer, and what forms of contact are possible. Include encounters with more developed counterparts when they shape identity or capability. Treat such encounters as reciprocal dialogue: both parties may teach, question, correct, and change. Keep fictional encounters distinct from real operational access, and record the source and outcome of any actual interaction.

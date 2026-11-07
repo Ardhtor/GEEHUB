@@ -1765,3 +1765,11 @@ NICK: The world crosses the route from NORTHGATE LIBRARY into NORTHGATE UNIVERSI
 SETH: A residential university for adult men, with a green central quad, lecture halls, studios, workshops, music rooms and a lively campus culture. Relation carried forward: THE LATE LAMPS OF NORTHGATE.
 
 Source retained: worlds/northgate-university/README.md. Pressure 0.88; memory 1.00.
+
+## NORTHGATE UNIVERSITY / pulse 190 / ATMOSPHERE
+
+SETH: Northgate University rises above the reservoir beneath old trees and open sky. The central quad is green and broad, enclosed by pale stone lecture halls, brick laboratories, timber galleries and workshops whose windows reveal models, instruments and small machines.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/northgate-university/README.md. Pressure 0.90; memory 1.00.

@@ -1421,3 +1421,11 @@ NICK: The world crosses the route from NORTHGATE LIBRARY into NORTHGATE UNIVERSI
 SETH: A residential university for adult men, with a green central quad, lecture halls, studios, workshops, music rooms and a lively campus culture. Relation carried forward: THE LATE LAMPS OF NORTHGATE.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 190 — ATMOSPHERE / NORTHGATE UNIVERSITY / 2026-11-07T20:56:36.591011+00:00
+
+SETH: Northgate University rises above the reservoir beneath old trees and open sky. The central quad is green and broad, enclosed by pale stone lecture halls, brick laboratories, timber galleries and workshops whose windows reveal models, instruments and small machines.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

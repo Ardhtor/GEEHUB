@@ -133,6 +133,13 @@ test("rejects missing temporal identity constraints", function()
     assert(#errors > 0)
 end)
 
+test("keeps legacy v1 render payloads readable without the additive frame-evidence field", function()
+    local payload = portableJob()
+    payload.frameEvidence = nil
+    local errors = bridge.validatePortableJob(payload, fixture(), fixture().renderJobs[1])
+    assert(#errors == 0, table.concat(errors, "; "))
+end)
+
 test("rejects a portable job whose evidence points at another sequence", function()
     local payload = portableJob()
     payload.frameEvidence.sequenceId = "different-sequence"

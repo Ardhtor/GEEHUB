@@ -1,5 +1,5 @@
 {
-  "pulse": 195,
+  "pulse": 196,
   "events": [
     {
       "pulse": 1,
@@ -3307,6 +3307,28 @@
       "occurred_at": "2026-11-07T22:15:54.768117+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000196",
+      "pulse": 196,
+      "time": "2026-11-07T22:26:58.685195+00:00",
+      "actor": "KIRK",
+      "world": "ATHLETIC COMMONS",
+      "region_id": "athletic-commons",
+      "previous_region_id": "athletic-commons",
+      "phase": "ROUTE_OPEN",
+      "source": "worlds/athletic-commons/README.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between ATHLETIC COMMONS and NORTHGATE UNIVERSITY. The archive names the relation \"STRENGTH WITHOUT CONFLICT\".\n\nNICK: The athletic grounds welcome students for training, swimming, recovery and companionship; physical culture is part of a balanced campus life. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "STRENGTH WITHOUT CONFLICT",
+      "next_region": "northgate-university",
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-07T22:26:58.685195+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -3357,7 +3379,7 @@
     "northgate-library": 185.5,
     "athletic-commons": 193
   },
-  "pressure": 0.9400000000000001,
+  "pressure": 1.0,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -3379,16 +3401,21 @@
     "worlds/bluewater-quay/README.md": 4,
     "worlds/lantern-market/README.md": 3,
     "worlds/northgate-library/README.md": 3,
-    "worlds/athletic-commons/README.md": 3
+    "worlds/athletic-commons/README.md": 4
   },
-  "next_region": null,
-  "phase": 2,
+  "next_region": "northgate-university",
+  "phase": 3,
   "active_region": "athletic-commons",
-  "current_phase": "MEMORY",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
-  "next_relation": null,
+  "current_phase": "ROUTE_OPEN",
+  "current_desire_state": "tension",
+  "current_question": "Which existing relation now becomes traversable?",
+  "current_narrative_rule": "arrival activates aftermath",
+  "next_relation": {
+    "title": "STRENGTH WITHOUT CONFLICT",
+    "text": "The athletic grounds welcome students for training, swimming, recovery and companionship; physical culture is part of a balanced campus life.",
+    "from": "northgate-university",
+    "to": "athletic-commons"
+  },
   "long_play": {
     "cycle": 174,
     "agent": "joseph",

@@ -51,7 +51,11 @@ lore file.
   engine, campus state, and `engine/tractus_narrative_queue.json`.
 - The queue keeps the main manuscript, romance and domestic life, Northgate
   campus, the idol cycle, and institutional worldbuilding available as distinct
-  continuation lanes.
+  continuation lanes. Romance and domestic life currently have first priority.
+- Recent commits are supplied to the selector so it can rotate between lanes
+  instead of repeatedly writing into the same destination.
+- Manuscript chapters are automatically numbered from the latest chapter and
+  target 3,500–5,500 words; lore additions target 900–1,500 words.
 - The model cannot choose arbitrary paths, edit code or workflows, delete files,
   or execute commands.
 - Chapter output is limited to 12,000 characters and checked before writing.

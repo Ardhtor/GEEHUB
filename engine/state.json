@@ -3109,7 +3109,8 @@
     "founders-dormitory": 1,
     "northgate-university": 1,
     "bluewater-quay": 1,
-    "lantern-market": 1
+    "lantern-market": 1,
+    "northgate-library": 1
   },
   "last_visits": {
     "complex": 151.5,
@@ -3131,7 +3132,8 @@
     "founders-dormitory": 174.5,
     "northgate-university": 175.5,
     "bluewater-quay": 179,
-    "lantern-market": 183
+    "lantern-market": 183,
+    "northgate-library": 185.5
   },
   "pressure": 0.9400000000000001,
   "memory": 1,
@@ -3157,28 +3159,41 @@
   },
   "next_region": null,
   "phase": 0,
-  "active_region": "common-table",
+  "active_region": "northgate-library",
   "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "recognition",
   "current_question": "Which detail remains from the prior state?",
   "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null,
   "long_play": {
-    "cycle": 173,
-    "agent": "andrew",
-    "previous_region_id": "lantern-market",
-    "region_id": "common-table",
-    "region_name": "THE COMMON TABLE",
-    "relation": "THE LANTERNS COME ON",
+    "cycle": 174,
+    "agent": "joseph",
+    "previous_region_id": "common-table",
+    "region_id": "northgate-library",
+    "region_name": "NORTHGATE LIBRARY",
+    "relation": "CAMPUS AFTER HOURS",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 13.46,
-    "scale": 13.54,
-    "recording": "scheduled-recording-00173",
-    "at": "2026-11-07T19:38:53.326Z"
+    "previous_scale": 13.54,
+    "scale": 13.66,
+    "recording": "scheduled-recording-00174",
+    "at": "2026-11-07T20:13:13.330Z"
   },
-  "last_world_change": "2026-11-07T19:38:53.326Z",
-  "scale": 13.54,
+  "last_world_change": "2026-11-07T20:13:13.330Z",
+  "scale": 13.66,
   "external_events": [
+    {
+      "id": "long-play-00174",
+      "type": "CROSSING",
+      "title": "THE COMMON TABLE → NORTHGATE LIBRARY",
+      "body": "The world crossed \"CAMPUS AFTER HOURS\". Scale increased from 13.54× to 13.66×; the earlier location and baseline remain recorded.",
+      "from": "common-table",
+      "to": "northgate-library",
+      "previous_region_id": "common-table",
+      "region_id": "northgate-library",
+      "relation": "CAMPUS AFTER HOURS",
+      "source": "long-play",
+      "at": "2026-11-07T20:13:13.330Z"
+    },
     {
       "id": "long-play-00173",
       "type": "CROSSING",
@@ -4465,19 +4480,6 @@
       "relation": "THE DOOR REMEMBERS",
       "source": "long-play",
       "at": "2026-10-19T10:20:49.865Z"
-    },
-    {
-      "id": "long-play-00074",
-      "type": "CROSSING",
-      "title": "VEYRTHALIS → DISCOVERY",
-      "body": "The world crossed \"THE DOOR REMEMBERS\". Scale increased from 7.14× to 7.26×; the earlier location and baseline remain recorded.",
-      "from": "veyrthalis",
-      "to": "discovery",
-      "previous_region_id": "veyrthalis",
-      "region_id": "discovery",
-      "relation": "THE DOOR REMEMBERS",
-      "source": "long-play",
-      "at": "2026-10-19T04:45:04.669Z"
     }
   ],
   "last_action": "write-the-unentered-place"

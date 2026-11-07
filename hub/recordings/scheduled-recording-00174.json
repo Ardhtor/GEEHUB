@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00174",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "northgate-library",
+  "position": {
+    "x": 48,
+    "y": 76,
+    "z": 0
+  },
+  "camera": {
+    "x": 48,
+    "y": 76,
+    "z": 1.7,
+    "heading": 42,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "joseph",
+    "scale": 13.66,
+    "priorScale": 13.54,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 13.66,
+    "clearance": 0.0732,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 0.9400000000000001,
+    "relation": "CAMPUS AFTER HOURS"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "common-table",
+      "name": "THE COMMON TABLE"
+    },
+    {
+      "type": "region",
+      "id": "northgate-library",
+      "name": "NORTHGATE LIBRARY"
+    },
+    {
+      "type": "relation",
+      "title": "CAMPUS AFTER HOURS"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 13.54,
+      "to": 13.66
+    },
+    {
+      "property": "location.regionId",
+      "from": "common-table",
+      "to": "northgate-library",
+      "relation": "CAMPUS AFTER HOURS"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0739,
+      "to": 0.0732
+    }
+  ],
+  "intent": "LONG PLAY / THE COMMON TABLE → NORTHGATE LIBRARY / JOSEPH",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 174,
+    "previousRegionId": "common-table",
+    "regionId": "northgate-library",
+    "relation": "CAMPUS AFTER HOURS",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 13.54,
+    "scaleBaselineTo": 13.66
+  },
+  "timestamp": "2026-11-07T20:13:13.330Z"
+}

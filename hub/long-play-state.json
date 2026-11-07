@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 173,
-  "currentAgent": "andrew",
-  "currentRegion": "common-table",
-  "scale": 13.54,
-  "lastRun": "2026-11-07T19:38:53.326Z",
+  "cycle": 174,
+  "currentAgent": "joseph",
+  "currentRegion": "northgate-library",
+  "scale": 13.66,
+  "lastRun": "2026-11-07T20:13:13.330Z",
   "history": [
+    {
+      "cycle": 174,
+      "agent": "joseph",
+      "previousRegion": "common-table",
+      "region": "northgate-library",
+      "relation": "CAMPUS AFTER HOURS",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 13.54,
+      "scale": 13.66,
+      "recording": "scheduled-recording-00174",
+      "at": "2026-11-07T20:13:13.330Z"
+    },
     {
       "cycle": 173,
       "agent": "andrew",
@@ -1197,22 +1209,10 @@
       "scale": 7.3,
       "recording": "scheduled-recording-00075",
       "at": "2026-10-19T10:20:49.865Z"
-    },
-    {
-      "cycle": 74,
-      "agent": "joseph",
-      "previousRegion": "veyrthalis",
-      "region": "discovery",
-      "relation": "THE DOOR REMEMBERS",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 7.14,
-      "scale": 7.26,
-      "recording": "scheduled-recording-00074",
-      "at": "2026-10-19T04:45:04.669Z"
     }
   ],
-  "previousRegion": "lantern-market",
-  "relation": "THE LANTERNS COME ON",
+  "previousRegion": "common-table",
+  "relation": "CAMPUS AFTER HOURS",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 14,
@@ -1235,7 +1235,8 @@
     "founders-dormitory": 1,
     "northgate-university": 1,
     "bluewater-quay": 1,
-    "lantern-market": 1
+    "lantern-market": 1,
+    "northgate-library": 1
   },
   "lastRegionAt": {
     "deep-lore": "2026-11-06T15:17:54.601671+00:00",
@@ -1263,6 +1264,7 @@
     "founders-dormitory": "2026-11-07T10:37:23.529680+00:00",
     "northgate-university": "2026-11-07T16:59:59.740482+00:00",
     "bluewater-quay": "2026-11-07T17:28:22.606847+00:00",
-    "lantern-market": "2026-11-07T18:50:50.330512+00:00"
+    "lantern-market": "2026-11-07T18:50:50.330512+00:00",
+    "northgate-library": "2026-11-07T20:13:13.330Z"
   }
 }

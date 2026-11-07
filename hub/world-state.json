@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00173.json",
+  "activeRecording": "./recordings/scheduled-recording-00174.json",
   "activeEncounter": {
-    "regionId": "common-table",
-    "regionName": "THE COMMON TABLE",
+    "regionId": "northgate-library",
+    "regionName": "NORTHGATE LIBRARY",
     "subject": {
-      "agent": "andrew",
-      "scale": 13.54,
+      "agent": "joseph",
+      "scale": 13.66,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / LANTERN MARKET → THE COMMON TABLE / ANDREW",
+    "intent": "LONG PLAY / THE COMMON TABLE → NORTHGATE LIBRARY / JOSEPH",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 13.46× → 13.54×",
-      "LANTERN MARKET → THE COMMON TABLE",
-      "relation: THE LANTERNS COME ON",
+      "scale 13.54× → 13.66×",
+      "THE COMMON TABLE → NORTHGATE LIBRARY",
+      "relation: CAMPUS AFTER HOURS",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "lantern-market"
+    "previousRegionId": "common-table"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-07T19:38:53.326Z",
+  "snapshot": "2026-11-07T20:13:13.330Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 173,
-    "agent": "andrew",
-    "previousRegionId": "lantern-market",
-    "regionId": "common-table",
-    "relation": "THE LANTERNS COME ON",
+    "cycle": 174,
+    "agent": "joseph",
+    "previousRegionId": "common-table",
+    "regionId": "northgate-library",
+    "relation": "CAMPUS AFTER HOURS",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 13.46,
-    "scale": 13.54,
-    "recording": "scheduled-recording-00173",
-    "at": "2026-11-07T19:38:53.326Z"
+    "previousScale": 13.54,
+    "scale": 13.66,
+    "recording": "scheduled-recording-00174",
+    "at": "2026-11-07T20:13:13.330Z"
   }
 }

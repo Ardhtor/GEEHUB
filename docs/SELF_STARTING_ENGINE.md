@@ -50,15 +50,16 @@ manuscript or lore file.
   continuation, `DEEP_LORE.md`, `ECONOMY_OF_FAVOURS.md`, or
   `GOD_PENIS_IDOL_CYCLE.md`.
 - Read-only context includes the fiction-engine contract, editorial and
-  relationship canon, the current manuscript, world pulse stream, attention
-  engine, campus state, and `engine/tractus_narrative_queue.json`.
+  publishing standards, relationship canon, asset register, current manuscript,
+  world pulse stream, attention engine, campus state, and
+  `engine/tractus_narrative_queue.json`.
 - The queue keeps the main manuscript, romance and domestic life, Northgate
   campus, the idol cycle, and institutional worldbuilding available as distinct
   continuation lanes. Romance and domestic life currently have first priority.
 - Recent commits are supplied to the selector so it can rotate between lanes
   instead of repeatedly writing into the same destination.
 - Manuscript chapters are automatically numbered from the latest chapter and
-  target 3,500–5,500 words; lore additions target 900–1,500 words.
+  target 4,000–7,000 words; lore additions target 900–1,500 words.
 - The model cannot choose arbitrary paths, edit code or workflows, delete files,
   or execute commands.
 - Chapter output is limited to 42,000 characters and checked before writing.

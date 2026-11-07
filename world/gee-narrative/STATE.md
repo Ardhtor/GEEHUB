@@ -1,6 +1,17 @@
 # GEEHUB construction state
 
-Updated: 2026-11-06
+Updated: 2026-11-07
+
+## Registered-evidence render-job preparation added — 2026-11-07
+- `engine/growth-video-studio/core/bridge-render-job.js` prepares a queued render job from the exact registered segmentation and landmark sidecar bytes. It verifies each sidecar's SHA-256, schema, role, source/sequence identity, frame range, dimensions, FPS, ordered frame numbers, and strictly increasing timestamps before using the observations.
+- The segmentation sidecar must retain separate body and face mask references, valid mask checksums, and the producer declarations for face exclusion and identity protection. The landmark sidecar must contain the required articulated and facial anchors with normalized coordinates and adequate identity/pose confidence. Segmentation and landmark timestamps must agree frame by frame.
+- Approved cumulative growth states pass through the existing `createRenderJob()` validation. The resulting payload retains the source, growth states, landmark observations, and all identity/source-motion/ground-contact/connected-mesh/temporal constraints. Its `frameEvidence` record names the exact segmentation and landmark frame-set IDs, sidecar checksums, sequence, frame range, format, and `pixelSemanticsVerified=false`.
+- `queueBridgeRenderJob()` now refuses a payload whose frame-evidence reference differs from the selected registered frame sets. The local staging worker and Resolve Free inspector independently recheck that reference before accepting the handoff.
+- `tools/prepare-bridge-render-job.js` and `npm run prepare:render` read the registered manifest and sidecars from the local Dropbox mirror, combine them with a JSON file of approved growth states, and write a new queued manifest plus portable job JSON into a bundle directory using exclusive creation. The receipt prints the next `stage:bridge` command. Multiple registered sequences require an explicit sequence id.
+- `render-job.js` now preserves fractional frame rates, including 23.976 FPS, rather than rejecting them as non-integer values. This keeps the output timing aligned with common source-video rates.
+- GitHub Actions run 42409044042 completed successfully on commit 8999de383039c003e024cfb25a595ca55d8bb278: 67/67 Node tests passed; 11/11 Resolve Lua tests passed; Lua 5.4 syntax validation, the new CLI syntax check and help smoke test, and portable package build/upload all passed.
+- The separate Validate GEEHUB data run 42409043847 still fails its UI registry check for stale embedded project tuples: `information-portability`, `lineage-pantheon`, `hubby`, and `media-tools`. This is outside the Growth Video Studio pipeline.
+- The local Mac, Dropbox mirror, and Resolve session were not accessed. The new command has CI syntax/help coverage but has not been run against the user's files. No image pixels were changed or rendered. Mask pixel semantics and actual face exclusion remain unverified producer assertions; no renderer is connected yet.
 
 ## Local frame-evidence registration added — 2026-11-06
 - `engine/growth-video-studio/core/frame-sequence-registration.js` persists the two sidecar documents returned by `prepareFrameSequenceBridgeInputs()`. It validates each JSON sidecar against its manifest frame set, sequence/source identity, frame range, format, and exact SHA-256 digest before writing.
@@ -84,11 +95,11 @@ Updated: 2026-11-06
 - Live two-way synchronization between Codex, GitHub, Resolve, and Dropbox.
 
 ## Next construction targets
-1. Add a safe local writer/CLI that persists the returned segmentation and landmark sidecars, writes a revisioned manifest only after the sidecars are present, and feeds the same evidence into stage:bridge.
-2. Connect a real segmentation/tracking producer and verify face-excluding mask semantics rather than relying only on producer declarations.
-3. Generate face-excluding mesh triangulation and a temporally stable mesh track.
-4. Run a short per-frame deformation pass with temporal validation and camera-reframe feedback.
-5. Return rendered frames and verified artifacts to Resolve without replacing source footage.
+1. Connect a real segmentation and landmark producer, then add pixel-level mask inspection so face exclusion is measured rather than merely declared.
+2. Generate a face-excluding body mesh from verified masks and maintain vertex/triangle correspondence across adjacent frames.
+3. Build a first per-frame deformation worker that consumes the queued job, samples cumulative growth states, maps articulated landmarks, and warps a test frame without touching the source.
+4. Add temporal validation and scene response for silhouette stability, clothing, ground contact, camera clearance, and occlusion.
+5. Return rendered frames and a checksummed video artifact to the bridge, then verify Resolve import and export behavior.
 
 Each item changes status only when evidence exists.
 

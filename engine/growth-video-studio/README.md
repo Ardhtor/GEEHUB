@@ -119,8 +119,9 @@ landmark observations cover the same ordered timestamps. It then combines
 those observations with at least two approved cumulative growth states,
 preserving the identity, source-motion, ground-contact, connected-mesh, and
 temporal constraints. The queued job records the exact segmentation and
-landmark frame-set IDs, checksums, sequence, and format. Pixel semantics remain
-explicitly unverified.
+landmark frame-set IDs, checksums, sequence, and format. The source frame rate
+is preserved, including fractional rates such as 23.976 FPS. Pixel semantics
+remain explicitly unverified.
 
 With Node 22, prepare a local bundle after registration:
 

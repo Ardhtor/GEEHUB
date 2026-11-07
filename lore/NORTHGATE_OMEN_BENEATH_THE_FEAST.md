@@ -61,3 +61,48 @@ The world remains inhabited while the mystery gathers. The next feast may be war
 The Tractus does not force the door open.
 
 It records that something, somewhere, has begun to knock.
+
+
+## The Fourth Knock
+
+The fourth knock came during breakfast, which was an inconvenience to everyone and therefore harder to dismiss.
+
+The Long Table was full. Rain tapped the high windows; the cooks were bringing out fresh bread; two students from the engineering house were arguing amiably over a bridge calculation. Dan Roman had arrived with his hair still damp from the morning, and one of the Geats was explaining why smoked fish should never be served cold. The coach sat near the end of the table in a dark training shirt, broad forearms resting beside his cup. He had slept badly, though he had not said so.
+
+The sound came from below the floor.
+
+Knock.
+
+A pause long enough for the room to resume its ordinary noise.
+
+Knock.
+
+This time the spoons stopped. A third knock followed, softer than the first two. Then nothing.
+
+The coach lowered his cup. He did not stand up at once. He looked around the table, meeting the eyes of the men who had heard it, and gave a small, almost apologetic sigh. “Well,” he said, “that’s new.”
+
+It was the kind of remark that let everyone breathe again. Someone laughed, not very loudly. The cook at the serving hatch called out that the eggs were getting cold. The room began to move, but nobody quite returned to the conversation they had been having.
+
+The observatory group met after breakfast in a narrow room above the old map library. They brought no weapons and made no grand declaration. They brought a notebook, a floor plan, a lantern, a listening instrument from engineering, and the blank card from the catalogue drawer. The card had cooled overnight. Its lion-paw impression was still there, but now a second mark had appeared beside it: four short parallel lines, like the trace of a claw dragged lightly across stone.
+
+The engineer placed the listening instrument against the floor. At first it registered the ordinary building: pipes, distant footsteps, the slow contraction of old timber. Then, beneath these familiar sounds, it found a low pulse. Not a voice. Not machinery. A repeated pressure, spaced too widely to be mistaken for a running motor.
+
+The archivist asked whether it might be water moving through an undocumented channel. The engineer said it might. The Geat said that in his country a hall sometimes made a sound before it remembered who had built it. Nobody wrote that down as an explanation. They wrote it down as a witness's comparison.
+
+At noon the university carried on. The coach led a session in the strength hall and corrected a student's stance with the same patient attention as the day before. He remembered the student's preferred grip, asked whether the shoulder felt better, and made no reference to the knocks. At the end of the session he stayed behind to put the equipment away. His shoulders rose and fell with a long, tired breath. For a moment he looked toward the eastern wall, as if he could hear through it.
+
+Then he turned off the lights.
+
+That afternoon, the map changed again. The line beneath the university no longer withdrew from the Wand's cursor. It remained still, faintly visible, and at its farthest point a small mark appeared. It resembled neither a door nor a room. It looked like a table viewed from above, with a single place set at its head.
+
+The map offered no route to it.
+
+In the evening, the cooks found one extra bowl on the shelf beside the Long Table. It was clean, dry and made of the same dark ceramic as the others, except that no one recognised it. There was no name beneath it, no maker's stamp, no sign of age. The kitchen steward set it aside rather than throw it away.
+
+At supper, nobody mentioned the bowl. The men ate, talked, and passed the bread. Outside, rain softened to mist. The four lions held their places at the gate.
+
+Northgate had not been invaded. No one had been taken. Nothing had demanded an answer.
+
+But the table beneath the university had acquired a place setting.
+
+And somewhere below the foundations, the knocking stopped.

@@ -1413,3 +1413,11 @@ SETH: A line becomes visible between NORTHGATE LIBRARY and NORTHGATE UNIVERSITY.
 NICK: A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 189 — CROSSING / NORTHGATE UNIVERSITY / 2026-11-07T20:32:40.848781+00:00
+
+NICK: The world crosses the route from NORTHGATE LIBRARY into NORTHGATE UNIVERSITY. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: A residential university for adult men, with a green central quad, lecture halls, studios, workshops, music rooms and a lively campus culture. Relation carried forward: THE LATE LAMPS OF NORTHGATE.
+
+Rule: meaningful change becomes an outward-facing signal

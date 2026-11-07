@@ -25,7 +25,10 @@ jobs:
 
       - name: Run growth video core tests
         working-directory: engine/growth-video-studio
-        run: npm test
+        run: |
+          npm test
+          node --check tools/prepare-bridge-render-job.js
+          npm run prepare:render -- --help
 
       - name: Set up Lua 5.4
         run: sudo apt-get update && sudo apt-get install -y lua5.4

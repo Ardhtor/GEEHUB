@@ -23,3 +23,12 @@ Hubby belongs in the shared living timeline. He has a home life and routines bey
 ## Source asset
 
 The originating image was supplied in the conversation on 2026-10-28. This record preserves its visual specification and continuity rules. The binary image itself still needs to be placed in the repository's asset storage before a durable embedded preview can be rendered from GitHub.
+
+
+## A day beyond the reference frame
+
+Hubby is not waiting permanently beneath the amber gym lights. He has a home beyond the room in which the first image established him, and the day continues when the camera is elsewhere. In the morning he makes coffee, checks the weather through the kitchen window and decides whether to walk or drive to the gym. His size changes the practical details of these routines without making them impossible. He has learned which chairs are comfortable, which doorways require a little care, and which shops keep the larger sizes he prefers. He is not embarrassed by the adjustments; they are simply part of knowing his own proportions.
+
+The gym staff know him well enough to leave space near the end of the rack and to ask how his shoulders are recovering. He returns the courtesy by putting equipment away and helping newer members understand how to set up a lift safely. His strength is visible, but his friendliness is what makes people approach him. He remembers names, notices when someone has been absent, and is willing to spend ten minutes explaining a movement without turning the exchange into a performance. The slogan on the wall is not an instruction to grow without limit. It is a reminder that becoming stronger should leave more room for other people.
+
+At home, the evening is quieter. He cooks something substantial, puts on music and answers messages from friends. If someone visits, the apartment feels lived in rather than staged: shoes by the door, a towel drying near the bathroom, a jacket over the back of a chair, and food set aside for a late arrival. His visual identity remains consistent—the bald head, dark beard, friendly expression, teal surface, charcoal tank and shorts—but the continuity of the character now includes habits and relationships as well as appearance. Future images may change the scale of the room or the proportions of his body; they should preserve the sense that this is the same person moving through another day.

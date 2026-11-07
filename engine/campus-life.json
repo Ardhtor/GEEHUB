@@ -1,6 +1,22 @@
 {
-  "cycle": 7,
+  "cycle": 8,
   "events": [
+    {
+      "id": "northgate-campus-00008",
+      "cycle": 8,
+      "world_pulse": 177,
+      "at": "2026-11-07T16:56:21.966403+00:00",
+      "region": "athletic-commons",
+      "title": "OPEN GYM AND RECOVERY",
+      "kind": "training",
+      "participants": [
+        "Dan Roman",
+        "Adrian Varga",
+        "Noah Bell"
+      ],
+      "description": "The Commons holds an open session for anyone who wants to train. Experienced students help newcomers set up safely, and the recovery wing stays busy with stretching and quiet conversation. The strongest presence in the room is not a contest; it is the ease of people who know one another.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00007",
       "cycle": 7,
@@ -116,26 +132,26 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 5,
+    "Dan Roman": 6,
     "Marek Ionescu": 4,
     "Elliot Ward": 4,
-    "Noah Bell": 5,
-    "Adrian Varga": 4
+    "Noah Bell": 6,
+    "Adrian Varga": 5
   },
   "last_event": {
-    "id": "northgate-campus-00007",
-    "cycle": 7,
-    "world_pulse": 176,
-    "at": "2026-11-07T16:39:16.958034+00:00",
-    "region": "founders-dormitory",
-    "title": "THE COURTYARD AFTER RAIN",
-    "kind": "social",
+    "id": "northgate-campus-00008",
+    "cycle": 8,
+    "world_pulse": 177,
+    "at": "2026-11-07T16:56:21.966403+00:00",
+    "region": "athletic-commons",
+    "title": "OPEN GYM AND RECOVERY",
+    "kind": "training",
     "participants": [
-      "Marek Ionescu",
-      "Noah Bell",
-      "Adrian Varga"
+      "Dan Roman",
+      "Adrian Varga",
+      "Noah Bell"
     ],
-    "description": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+    "description": "The Commons holds an open session for anyone who wants to train. Experienced students help newcomers set up safely, and the recovery wing stays busy with stretching and quiet conversation. The strongest presence in the room is not a contest; it is the ease of people who know one another.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

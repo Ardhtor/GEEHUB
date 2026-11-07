@@ -36,10 +36,17 @@ def check_world():
     require(bool(world.get("regions")), "world.json has no regions")
     require(bool(state.get("events")), "world state has no events")
 
+    activity_path = ROOT / "engine" / "activity.jsonl"
+    require(activity_path.is_file(), "canonical activity stream missing")
+    activity_records = [json.loads(line) for line in activity_path.read_text(encoding="utf-8").splitlines() if line.strip()]
+    activity_ids = {item.get("id") for item in activity_records}
+
     event = state["events"][-1]
     pulse = int(state.get("pulse", 0))
     require(pulse > 0 and int(event.get("pulse", -1)) == pulse,
             "world pulse and latest event do not agree")
+    require(f"world-pulse-{pulse:06d}" in activity_ids,
+            "latest world occurrence is not inscribed in the canonical activity stream")
     region_ids = {item.get("id") for item in world["regions"]}
     require(event.get("region_id") in region_ids,
             f"latest event points to unknown region: {event.get('region_id')}")
@@ -62,7 +69,9 @@ def check_world():
     campus = load("engine/campus-life.json")
     campus_event = campus.get("last_event") or {}
     require(int(campus.get("cycle", 0)) > 0, "campus life has not advanced")
-    require(campus_event.get("status") == "OCCURRED", "latest campus event was not performed")
+    require(campus_event.get("status") in ("OCCURRED", "OCCURRED_AND_INSCRIBED"), "latest campus event was not performed")
+    require(campus_event.get("id") in activity_ids,
+            "latest campus occurrence is not inscribed in the canonical activity stream")
     require((ROOT / "worlds/northgate-university/CAMPUS_LIFE.md").is_file(),
             "campus life manuscript missing")
     require(campus_event.get("region") in region_ids,

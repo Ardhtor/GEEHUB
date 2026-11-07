@@ -106,3 +106,46 @@ The Idol Cycle is connected to:
 - **The Institute of Phallic Studies** — its five houses, Window Society, Great Gallery, Hall of Continuity, and Assembly of Forms.
 
 The cycle remains open. The next movement begins with the Second Archive expedition and the empty platform in the photographed chamber.
+
+
+## XIII. The Time-of-Death Shock
+
+The phrase **time-of-death shock** entered the Institute's vocabulary through a set of witness notes in the Second Archive. It described the peculiar rupture that occurs when a person who has been present, speaking, eating, working, and occupying an ordinary place in the world is suddenly understood to have died. The shock is not only sorrow. It is the collision between two incompatible pictures: the person as everyone remembers him a moment earlier, and the irreversible fact that he is no longer alive. The clock continues, the room remains furnished, the light falls across the same table, but the shared world has changed.
+
+The oldest account concerns Oren Halvek, a senior custodian who had spent decades preserving the Idol Tradition. He was an elderly man, known for his patience with apprentices and his habit of correcting catalogue entries in a narrow, precise hand. During a quiet evening in the circular archive, he finished a conversation with two younger keepers, set down his pencil, and rested in his chair. When they realised that he had died, the room did not immediately become dramatic. One keeper called his name. The other reached for the medical bell. A page remained half-written beneath his hand. The ordinary details became unbearable precisely because they had not changed.
+
+The witness notes call this interval *the stopped minute*, although the minute itself had not stopped. Each witness remembered it differently. One remembered the ticking clock. Another remembered the sound of rain against the high windows. The youngest keeper remembered the pencil rolling from the edge of the desk and falling onto the floor. Later, all three agreed that the room seemed to have become larger and more distant, as if the familiar objects had been moved a great distance away without changing position. The archive preserved these accounts together rather than choosing one as definitive.
+
+The Institute's historians do not treat the event as supernatural proof. The time-of-death shock is a human experience, and the documents are testimony rather than evidence of a power belonging to the idol. Its importance to the Idol Cycle lies in the question it creates: what happens to a tradition when one of the people who carried it can no longer speak? The answer cannot be that the object replaces him. The object remains; the person does not. The distinction became a corrective to the grander language of the mythology.
+
+## XIV. The Empty Chair at the Assembly
+
+At the next Assembly of Forms, Oren's chair was left empty beside the long table. No ceremonial substitute was placed there. His pencil, carefully sharpened, rested beside the open catalogue he had been correcting. Professor Vale spoke briefly about the records Oren had preserved, but the most important contribution came from one of the younger keepers, who explained that Oren had taught him to record uncertainty without disguising it. A damaged inscription should be marked as damaged. A doubtful date should remain doubtful. A story should not be made more convincing by pretending that its gaps are filled.
+
+The assembly changed its programme. Instead of presenting a new interpretation of the God Penis, the researchers read passages from Oren's catalogues and compared them with the surviving objects. They found small corrections in the margins, notes about repairs, and references to conversations that had never been formally recorded. His work had been distributed through the archive so thoroughly that it was difficult to identify a single document as his principal achievement. The Institute began to understand that continuity is often made from small acts of care repeated over many years.
+
+The Window Society later adopted a custom called the Empty Chair Record. When a member of the community dies, the chair is not filled immediately during the first gathering held in their memory. The group records what the person contributed, what remains unfinished, and which questions they left behind. The chair is then returned to ordinary use. It is not a shrine and not a claim that the dead remain physically present. It is a temporary acknowledgement that the community must learn how to continue without pretending that nothing has changed.
+
+## XV. The Idol Does Not Answer
+
+A rumour spread among visitors that Oren had died while working near the God Penis and that the idol had somehow taken him. The rumour was rejected by the archivists. There was no evidence for it, and it confused proximity with cause. The Institute issued a short statement distinguishing the death of a custodian from the legends attached to the object. The God Penis could remain a mythic symbol of presence and transformation without being made responsible for every event that occurred in its vicinity.
+
+This decision mattered. The Institute had to establish whether its mythology could accommodate grief without converting grief into spectacle. The answer was found in the archive itself. The keepers added Oren's final catalogue entry, preserved the unfinished page, and left the uncertain details uncertain. They did not invent a final message for him. They did not claim that the idol had spoken. They recorded the people who were there and the work he had actually done.
+
+In the Great Gallery, a small inscription was added to the unfinished pedestal: **A measure can be inherited. A life cannot be repeated.** It did not replace the central maxim of the Penis Wizards. It stood beside it, giving the tradition a necessary limit. The body may become monument in art and story, but no monument makes a person immortal. The living are responsible for remembering the dead accurately, and for continuing the work without claiming to become them.
+
+## XVI. The Second Archive Expedition
+
+Oren's notes contained a reference to the empty platform in the old photographs. He had marked the image with a small question: *Was the absence deliberate?* The question had been overlooked because the surrounding catalogue dealt with repairs to the circular chamber. Now the expedition team returned to it. They compared the photograph with a later floor plan and discovered that the platform had been moved several feet between the two records. The object itself remained undocumented. The absence was not solved, but it had become more precisely located in time.
+
+The expedition was reorganised around this clue. The historians would trace the platform's relocation. The digital artists would produce a sequence of reconstructions, each labelled by the evidence supporting it. The sculptors would build a neutral model of the platform without inventing the missing object. The Window Society would collect interpretations from the residents, preserving disagreement as part of the record. The Penis Wizards would oversee the catalogue and ensure that no attractive theory was quietly promoted into fact.
+
+The expedition's first destination is an abandoned civic building whose plan resembles the circular archive. The team has not yet established whether it was the original headquarters or a later institution inspired by it. The building is now used as a municipal storehouse. Its interior has been altered, but a curved foundation wall survives beneath a newer partition. The team has requested permission to examine it. The next chapter begins at the threshold, with the old plan in one hand and Oren's pencilled question in the other.
+
+## XVII. The Continuity of Witness
+
+The time-of-death shock becomes part of GEEHUB's wider continuity principle. A death is not a transformation into a larger or more powerful version of the same person. It is an irreversible absence in the living community. What can continue are records, relationships, practices, stories, and responsibilities. The archive does not abolish loss; it gives the living a way to carry what can truthfully be carried.
+
+This principle also changes the way the Institute presents the God Penis. The idol's legendary scale is no longer treated as a promise that everything can be enlarged indefinitely. The mythology has a boundary: bodies change, images change, institutions change, and people die. The work of continuity is not to deny those limits but to make something meaningful within them. The Festival of Again therefore includes a quiet opening hour devoted to the names of people whose work shaped the Institute and who are no longer alive. Their names are read alongside the titles of unfinished projects, not as if the projects could replace them, but as a reminder that the living inherit obligations as well as achievements.
+
+The cycle now carries two linked maxims. The first belongs to the Penis Wizards: **measure carefully; remember generously; alter nothing without leaving a trace.** The second was added after Oren Halvek's death: **a measure can be inherited; a life cannot be repeated.** Together they define the limits and responsibilities of the Idol Tradition.

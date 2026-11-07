@@ -14,15 +14,15 @@
       "id": "romance-and-domestic-life",
       "priority": 1,
       "target": "lore/ECONOMY_OF_FAVOURS.md",
-      "state": "Ivo and Mara have begun a relationship; Emil and Tomas have shared a dance and a quieter form of recognition. Nick and Seth have considered the difference between an audience and a witness.",
-      "next_pressure": "Advance affection through ordinary shared life: cooking, returning home, errands, small promises, uncertainty, humour, and chosen acts of care. Give each relationship its own pace and chemistry."
+      "state": "Ivo and Mara have begun a relationship and have shared a quiet breakfast, a market visit, and the lentil stew that began their first conversation. Emil and Tomas have exchanged a spare key as a practical sign of trust. Nick and Seth have considered the difference between an audience and a witness.",
+      "next_pressure": "Let relationships deepen through ordinary shared life, including meeting friends, family histories, small disagreements, travel, cooking, and decisions about how much of a private relationship becomes visible in public."
     },
     {
       "id": "northgate-campus",
       "priority": 3,
       "target": "lore/DEEP_LORE.md",
-      "state": "Northgate University, Founders Dormitory, the athletic commons, library, archive room, and shared kitchen are active. Dan Roman, Marek Ionescu, Elliot Ward, Noah Bell, and Adrian Varga are established adult students.",
-      "next_pressure": "Let the campus become a lived social world with classes, meals, workshops, clubs, training, friendships, flirtation, and the gradual discovery of new places."
+      "state": "Northgate University is an open campus integrated with the city. Its Long Table, Founders Dormitory, athletic commons, map library, print room, winter garden, covered arcade, workshops, and seasonal calendar are established. Dan Roman, Marek Ionescu, Elliot Ward, Noah Bell, and Adrian Varga are adult students.",
+      "next_pressure": "Turn the campus description into recurring scenes: first classes, shared meals, workshop collaborations, training, clubs, evening walks, seasonal events, and distinct friendships. Let Dan Roman develop beyond his first impression."
     },
     {
       "id": "idol-cycle-and-older-gods",

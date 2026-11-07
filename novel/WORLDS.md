@@ -1749,3 +1749,11 @@ NICK: A detail returns in NORTHGATE LIBRARY: At night the lamps make the reading
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-library/README.md.
 
 Source retained: worlds/northgate-library/README.md. Pressure 1.00; memory 1.00.
+
+## NORTHGATE LIBRARY / pulse 188 / ROUTE_OPEN
+
+SETH: A line becomes visible between NORTHGATE LIBRARY and NORTHGATE UNIVERSITY. The archive names the relation "THE LATE LAMPS OF NORTHGATE".
+
+NICK: A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: worlds/northgate-library/README.md. Pressure 1.00; memory 1.00.

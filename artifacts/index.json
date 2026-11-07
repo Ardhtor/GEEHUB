@@ -4057,6 +4057,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000188",
+      "created_at": "2026-11-07T20:24:04.570776+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "NORTHGATE LIBRARY",
+      "content": "SETH: A line becomes visible between NORTHGATE LIBRARY and NORTHGATE UNIVERSITY. The archive names the relation \"THE LATE LAMPS OF NORTHGATE\".\n\nNICK: A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "lineage": {
+        "event_id": "world-pulse-000188",
+        "event": {
+          "id": "world-pulse-000188",
+          "pulse": 188,
+          "time": "2026-11-07T20:24:04.570776+00:00",
+          "actor": "KIRK",
+          "world": "NORTHGATE LIBRARY",
+          "region_id": "northgate-library",
+          "previous_region_id": "northgate-library",
+          "phase": "ROUTE_OPEN",
+          "source": "worlds/northgate-library/README.md",
+          "desire_state": "tension",
+          "action": "SETH: A line becomes visible between NORTHGATE LIBRARY and NORTHGATE UNIVERSITY. The archive names the relation \"THE LATE LAMPS OF NORTHGATE\".\n\nNICK: A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work. The current place remains visible; the route is open, but nobody has crossed it yet.",
+          "narrative_rule": "arrival activates aftermath",
+          "relation": "THE LATE LAMPS OF NORTHGATE",
+          "next_region": "northgate-university",
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-07T20:24:04.570776+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000188",
+      "created_at": "2026-11-07T20:24:04.570776+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ROUTE_OPEN / NORTHGATE LIBRARY / worlds/northgate-library/README.md",
+      "content": "SETH: A line becomes visible between NORTHGATE LIBRARY and NORTHGATE UNIVERSITY. The archive names the relation \"THE LATE LAMPS OF NORTHGATE\".\n\nNICK: A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "production_note": "The world resolved its route_open rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 188,
+        "actor": "KIRK",
+        "world": "NORTHGATE LIBRARY",
+        "region_id": "northgate-library",
+        "source": "worlds/northgate-library/README.md",
+        "phase": "ROUTE_OPEN",
+        "relation": "THE LATE LAMPS OF NORTHGATE"
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00019",
+      "created_at": "2026-11-07T20:24:04.615991+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE MUSIC SOCIETY REHEARSAL",
+      "content": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+      "lineage": {
+        "event_id": "northgate-campus-00019",
+        "event": {
+          "id": "northgate-campus-00019",
+          "cycle": 19,
+          "world_pulse": 188,
+          "at": "2026-11-07T20:24:04.615991+00:00",
+          "region": "northgate-university",
+          "title": "THE MUSIC SOCIETY REHEARSAL",
+          "kind": "music",
+          "participants": [
+            "Adrian Varga",
+            "Elliot Ward",
+            "Dan Roman"
+          ],
+          "description": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-07T20:24:04.615991+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

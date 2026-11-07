@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000188",
+  "created_at": "2026-11-07T20:24:04.570776+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ROUTE_OPEN / NORTHGATE LIBRARY / worlds/northgate-library/README.md",
+  "content": "SETH: A line becomes visible between NORTHGATE LIBRARY and NORTHGATE UNIVERSITY. The archive names the relation \"THE LATE LAMPS OF NORTHGATE\".\n\nNICK: A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work. The current place remains visible; the route is open, but nobody has crossed it yet.",
+  "production_note": "The world resolved its route_open rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 188,
+    "actor": "KIRK",
+    "world": "NORTHGATE LIBRARY",
+    "region_id": "northgate-library",
+    "source": "worlds/northgate-library/README.md",
+    "phase": "ROUTE_OPEN",
+    "relation": "THE LATE LAMPS OF NORTHGATE"
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

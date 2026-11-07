@@ -1,6 +1,22 @@
 {
-  "cycle": 5,
+  "cycle": 6,
   "events": [
+    {
+      "id": "northgate-campus-00006",
+      "cycle": 6,
+      "world_pulse": 175,
+      "at": "2026-11-07T10:37:23.581312+00:00",
+      "region": "northgate-university",
+      "title": "THE MUSIC SOCIETY REHEARSAL",
+      "kind": "music",
+      "participants": [
+        "Adrian Varga",
+        "Elliot Ward",
+        "Dan Roman"
+      ],
+      "description": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00005",
       "cycle": 5,
@@ -84,26 +100,26 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 4,
+    "Dan Roman": 5,
     "Marek Ionescu": 3,
-    "Elliot Ward": 3,
+    "Elliot Ward": 4,
     "Noah Bell": 4,
-    "Adrian Varga": 2
+    "Adrian Varga": 3
   },
   "last_event": {
-    "id": "northgate-campus-00005",
-    "cycle": 5,
-    "world_pulse": 174,
-    "at": "2026-11-07T03:15:33.792441+00:00",
-    "region": "athletic-commons",
-    "title": "THE BODY CULTURE CONVERSATION",
-    "kind": "body-culture",
+    "id": "northgate-campus-00006",
+    "cycle": 6,
+    "world_pulse": 175,
+    "at": "2026-11-07T10:37:23.581312+00:00",
+    "region": "northgate-university",
+    "title": "THE MUSIC SOCIETY REHEARSAL",
+    "kind": "music",
     "participants": [
-      "Dan Roman",
-      "Noah Bell",
-      "Adrian Varga"
+      "Adrian Varga",
+      "Elliot Ward",
+      "Dan Roman"
     ],
-    "description": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+    "description": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

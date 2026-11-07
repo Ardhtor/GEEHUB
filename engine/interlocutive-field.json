@@ -24,6 +24,27 @@
   ],
   "participants": [
     {
+      "id": "hewn-threshold",
+      "name": "The Hewn Threshold",
+      "kind": "local_browser_interface",
+      "path": "experiences/hewn-threshold/index.html",
+      "status": "verified_now",
+      "observations": [
+        "Static browser application committed with semantic HTML, responsive CSS, and dependency-free JavaScript",
+        "Application reads engine/interlocutive-field.json and displays participant observations, affordances, contact routes, and capability states",
+        "Local inscriptions persist in browser storage and can be exported as JSON; no remote ledger write is claimed"
+      ],
+      "affordances": [
+        "read_field_registry",
+        "filter_and_inspect_participants",
+        "navigate_crossing_sequence",
+        "create_local_inscription",
+        "export_local_inscriptions"
+      ],
+      "contact": "Serve the repository over HTTP; see experiences/hewn-threshold/README.md",
+      "continuity": "docs/INTERLOCUTIVE_FIELD.md; hub/exchange.json; local browser storage"
+    },
+    {
       "id": "geehub",
       "name": "GEEHUB",
       "kind": "local_repository",

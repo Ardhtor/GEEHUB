@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - 'engine/run_world.py'
+      - 'engine/inscription.py'
+      - 'engine/migrate_activity.py'
+      - 'engine/campus_life.py'
       - 'engine/campus_life.py'
       - 'worlds/northgate-university/**'
       - 'engine/world-autonomy.js'
@@ -41,6 +44,9 @@ jobs:
 
       - name: Let Northgate campus live
         run: python engine/campus_life.py
+
+      - name: Unify occurrence and inscription history
+        run: python engine/migrate_activity.py
 
       - name: Verify durable world production
         run: python engine/check_performance.py world
@@ -161,7 +167,7 @@ jobs:
               python engine/campus_life.py
               python engine/check_performance.py world
             fi
-            git add engine/state.json engine/campus-life.json lore/AUTONOMOUS_STREAM.md novel/WORLDS.md worlds/northgate-university/CAMPUS_LIFE.md artifacts/ dropbox_outbox/
+            git add engine/state.json engine/campus-life.json engine/activity.jsonl lore/AUTONOMOUS_STREAM.md novel/WORLDS.md worlds/northgate-university/CAMPUS_LIFE.md artifacts/ dropbox_outbox/
             if [ -d assets/geography/generated ]; then
               git add assets/geography/generated/
             fi

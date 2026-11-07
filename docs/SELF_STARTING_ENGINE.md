@@ -62,7 +62,7 @@ manuscript or lore file.
   target 4,000–7,000 words; lore additions target 900–1,500 words.
 - The model cannot choose arbitrary paths, edit code or workflows, delete files,
   or execute commands.
-- Chapter output is limited to 42,000 characters and checked before writing.
+- Chapter output is limited to 55,000 characters and checked before writing.
 - The workflow checks Python syntax, validates both JSON inputs, and runs the
   chapter-numbering tests before contacting the model.
 - Pushes retry against the latest branch state; a rebase conflict stops safely

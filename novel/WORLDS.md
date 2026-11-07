@@ -1709,3 +1709,11 @@ SETH: A line becomes visible between BLUEWATER QUAY and LANTERN MARKET. The arch
 NICK: A quieter path leads from the market to the reservoir, where the city can be seen without being crowded. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: worlds/bluewater-quay/README.md. Pressure 1.00; memory 1.00.
+
+## LANTERN MARKET / pulse 183 / CROSSING
+
+NICK: The world crosses the route from BLUEWATER QUAY into LANTERN MARKET. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: A covered timber-and-glass arcade of food stalls, books, flowers, records, small makers, a fountain, and lantern-lit places to meet. Relation carried forward: THE WATER OPENS THE VIEW.
+
+Source retained: worlds/lantern-market/README.md. Pressure 0.88; memory 1.00.

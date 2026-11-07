@@ -1,6 +1,22 @@
 {
-  "cycle": 13,
+  "cycle": 14,
   "events": [
+    {
+      "id": "northgate-campus-00014",
+      "cycle": 14,
+      "world_pulse": 183,
+      "at": "2026-11-07T18:25:04.025583+00:00",
+      "region": "northgate-university",
+      "title": "THE QUAD BETWEEN LECTURES",
+      "kind": "study",
+      "participants": [
+        "Dan Roman",
+        "Marek Ionescu",
+        "Elliot Ward"
+      ],
+      "description": "A group of students leaves the engineering lecture hall together. One carries a model under his arm; another is still explaining why the bridge supports need to be moved. They settle beneath the plane trees and the discussion becomes less formal, turning into plans for the afternoon.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00013",
       "cycle": 13,
@@ -213,26 +229,26 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 10,
-    "Marek Ionescu": 7,
-    "Elliot Ward": 8,
+    "Dan Roman": 11,
+    "Marek Ionescu": 8,
+    "Elliot Ward": 9,
     "Noah Bell": 8,
     "Adrian Varga": 8
   },
   "last_event": {
-    "id": "northgate-campus-00013",
-    "cycle": 13,
-    "world_pulse": 182,
-    "at": "2026-11-07T17:28:22.647644+00:00",
-    "region": "northgate-library",
-    "title": "THE ARCHIVE IS OPEN",
-    "kind": "archive",
+    "id": "northgate-campus-00014",
+    "cycle": 14,
+    "world_pulse": 183,
+    "at": "2026-11-07T18:25:04.025583+00:00",
+    "region": "northgate-university",
+    "title": "THE QUAD BETWEEN LECTURES",
+    "kind": "study",
     "participants": [
+      "Dan Roman",
       "Marek Ionescu",
-      "Elliot Ward",
-      "Dan Roman"
+      "Elliot Ward"
     ],
-    "description": "A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.",
+    "description": "A group of students leaves the engineering lecture hall together. One carries a model under his arm; another is still explaining why the bridge supports need to be moved. They settle beneath the plane trees and the discussion becomes less formal, turning into plans for the afternoon.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

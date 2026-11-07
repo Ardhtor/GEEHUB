@@ -4,6 +4,8 @@ import datetime as dt
 import json
 from pathlib import Path
 
+from inscription import inscribe_event
+
 ROOT = Path(__file__).resolve().parents[1]
 STATE = ROOT / "engine" / "campus-life.json"
 LOG = ROOT / "worlds" / "northgate-university" / "CAMPUS_LIFE.md"
@@ -48,6 +50,7 @@ def main():
         "description": prose,
         "status": "OCCURRED"
     }
+    event = inscribe_event(event, "northgate-campus-engine")
     state["cycle"] = cycle
     state["last_event"] = event
     state.setdefault("events", []).insert(0, event)

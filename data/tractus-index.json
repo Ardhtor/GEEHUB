@@ -185,6 +185,35 @@
           "target": "NORTHGATE.AI_COACH"
         }
       ]
+    },
+    {
+      "id": "NORTHGATE.COMMON_LIFE",
+      "type": "social_world_and_completion_framework",
+      "title": "Northgate Common Life",
+      "path": "lore/NORTHGATE_COMMON_LIFE.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "situated_in",
+          "target": "NORTHGATE.UNIVERSITY"
+        },
+        {
+          "type": "part_of",
+          "target": "NORTHGATE.SOCIAL_LIFE"
+        },
+        {
+          "type": "connects",
+          "target": "NORTHGATE.GREAT_FEAST"
+        },
+        {
+          "type": "connects",
+          "target": "NORTHGATE.AI_COACH"
+        },
+        {
+          "type": "defines",
+          "target": "TRACTUS.COMPLETION_RULE"
+        }
+      ]
     }
   ],
   "unresolved_addresses": [
@@ -227,6 +256,11 @@
       "id": "NORTHGATE.GREAT_FEAST",
       "type": "recurring_social_institution",
       "status": "active"
+    },
+    {
+      "id": "TRACTUS.COMPLETION_RULE",
+      "type": "operating_principle",
+      "status": "active"
     }
   ],
   "relationship_types": [
@@ -242,7 +276,8 @@
     "features",
     "develops",
     "uses",
-    "brings_together"
+    "brings_together",
+    "connects"
   ],
   "rules": {
     "stable_ids": true,

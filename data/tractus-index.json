@@ -239,6 +239,23 @@
           "target": "NORTHGATE.AI_COACH"
         }
       ]
+    },
+    {
+      "id": "TRACTUS.TWO_TEMPO_WORK_ENGINE",
+      "type": "work_orchestration_design",
+      "title": "The Two-Tempo Work Engine",
+      "path": "lore/TRACTUS_TWO_TEMPO_WORK_ENGINE.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "defines",
+          "target": "TRACTUS.COMPLETION_RULE"
+        },
+        {
+          "type": "part_of",
+          "target": "TRACTUS.SYSTEM"
+        }
+      ]
     }
   ],
   "unresolved_addresses": [

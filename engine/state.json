@@ -2932,8 +2932,8 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     },
     {
       "pulse": 177,
@@ -2949,8 +2949,8 @@
       "narrative_rule": "comparison can become differentiation",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     },
     {
       "pulse": 178,
@@ -2966,8 +2966,8 @@
       "narrative_rule": "arrival activates aftermath",
       "relation": "NORTHGATE OPENS ITS QUAD",
       "next_region": "bluewater-quay",
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     },
     {
       "pulse": 179,
@@ -2984,7 +2984,7 @@
       "relation": "NORTHGATE OPENS ITS QUAD",
       "next_region": null,
       "pressure": 0.88,
-      "memory": 1.0
+      "memory": 1
     },
     {
       "pulse": 180,
@@ -3001,7 +3001,7 @@
       "relation": null,
       "next_region": null,
       "pressure": 0.9,
-      "memory": 1.0
+      "memory": 1
     },
     {
       "pulse": 181,
@@ -3018,7 +3018,7 @@
       "relation": null,
       "next_region": null,
       "pressure": 0.94,
-      "memory": 1.0
+      "memory": 1
     },
     {
       "pulse": 182,
@@ -3034,8 +3034,8 @@
       "narrative_rule": "arrival activates aftermath",
       "relation": "THE WATER OPENS THE VIEW",
       "next_region": "lantern-market",
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     },
     {
       "pulse": 183,
@@ -3052,7 +3052,7 @@
       "relation": "THE WATER OPENS THE VIEW",
       "next_region": null,
       "pressure": 0.88,
-      "memory": 1.0
+      "memory": 1
     },
     {
       "pulse": 184,
@@ -3069,7 +3069,7 @@
       "relation": null,
       "next_region": null,
       "pressure": 0.9,
-      "memory": 1.0
+      "memory": 1
     },
     {
       "pulse": 185,
@@ -3086,7 +3086,7 @@
       "relation": null,
       "next_region": null,
       "pressure": 0.94,
-      "memory": 1.0
+      "memory": 1
     }
   ],
   "visits": {
@@ -3103,7 +3103,7 @@
     "discovery": 13,
     "veyrthalis": 13,
     "bodylounger": 11,
-    "common-table": 1,
+    "common-table": 2,
     "cedar-house": 1,
     "cat-gardens": 1,
     "founders-dormitory": 1,
@@ -3125,7 +3125,7 @@
     "discovery": 155.5,
     "veyrthalis": 156.5,
     "bodylounger": 163,
-    "common-table": 169.5,
+    "common-table": 185.5,
     "cedar-house": 172.5,
     "cat-gardens": 173.5,
     "founders-dormitory": 174.5,
@@ -3134,7 +3134,7 @@
     "lantern-market": 183
   },
   "pressure": 0.9400000000000001,
-  "memory": 1.0,
+  "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
     "creative/luke-bwomph.json": 20,
@@ -3156,29 +3156,42 @@
     "worlds/lantern-market/README.md": 3
   },
   "next_region": null,
-  "phase": 2,
-  "active_region": "lantern-market",
-  "current_phase": "MEMORY",
+  "phase": 0,
+  "active_region": "common-table",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "recognition",
   "current_question": "Which detail remains from the prior state?",
   "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null,
   "long_play": {
-    "cycle": 172,
-    "agent": "tyler",
-    "previous_region_id": "founders-dormitory",
-    "region_id": "northgate-university",
-    "region_name": "NORTHGATE UNIVERSITY",
-    "relation": "ROOMS ABOVE THE QUADRANGLE",
+    "cycle": 173,
+    "agent": "andrew",
+    "previous_region_id": "lantern-market",
+    "region_id": "common-table",
+    "region_name": "THE COMMON TABLE",
+    "relation": "THE LANTERNS COME ON",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 13.41,
-    "scale": 13.46,
-    "recording": "scheduled-recording-00172",
-    "at": "2026-11-07T15:35:13.258Z"
+    "previous_scale": 13.46,
+    "scale": 13.54,
+    "recording": "scheduled-recording-00173",
+    "at": "2026-11-07T19:38:53.326Z"
   },
-  "last_world_change": "2026-11-07T15:35:13.258Z",
-  "scale": 13.46,
+  "last_world_change": "2026-11-07T19:38:53.326Z",
+  "scale": 13.54,
   "external_events": [
+    {
+      "id": "long-play-00173",
+      "type": "CROSSING",
+      "title": "LANTERN MARKET → THE COMMON TABLE",
+      "body": "The world crossed \"THE LANTERNS COME ON\". Scale increased from 13.46× to 13.54×; the earlier location and baseline remain recorded.",
+      "from": "lantern-market",
+      "to": "common-table",
+      "previous_region_id": "lantern-market",
+      "region_id": "common-table",
+      "relation": "THE LANTERNS COME ON",
+      "source": "long-play",
+      "at": "2026-11-07T19:38:53.326Z"
+    },
     {
       "id": "long-play-00172",
       "type": "CROSSING",
@@ -4465,19 +4478,6 @@
       "relation": "THE DOOR REMEMBERS",
       "source": "long-play",
       "at": "2026-10-19T04:45:04.669Z"
-    },
-    {
-      "id": "long-play-00073",
-      "type": "CROSSING",
-      "title": "DEEP LORE → VEYRTHALIS",
-      "body": "The world crossed \"DEPARTURE LEAVES A SHAPE\". Scale increased from 7.06× to 7.14×; the earlier location and baseline remain recorded.",
-      "from": "deep-lore",
-      "to": "veyrthalis",
-      "previous_region_id": "deep-lore",
-      "region_id": "veyrthalis",
-      "relation": "DEPARTURE LEAVES A SHAPE",
-      "source": "long-play",
-      "at": "2026-10-19T00:02:36.053Z"
     }
   ],
   "last_action": "write-the-unentered-place"

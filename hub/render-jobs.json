@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00173",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00173.json",
+      "route": {
+        "from": "lantern-market",
+        "to": "common-table",
+        "relation": "THE LANTERNS COME ON"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-07T19:38:53.326Z"
+    },
+    {
+      "id": "scheduled-video-00173",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00173.json",
+      "route": {
+        "from": "lantern-market",
+        "to": "common-table",
+        "relation": "THE LANTERNS COME ON"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-07T19:38:53.326Z"
+    },
+    {
+      "id": "scheduled-space-00173",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00173.json",
+      "route": {
+        "from": "lantern-market",
+        "to": "common-table",
+        "relation": "THE LANTERNS COME ON"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-07T19:38:53.326Z"
+    },
+    {
       "id": "scheduled-sound-00172",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-19T04:45:04.669Z"
-    },
-    {
-      "id": "scheduled-sound-00073",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00073.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "veyrthalis",
-        "relation": "DEPARTURE LEAVES A SHAPE"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-19T00:02:36.053Z"
-    },
-    {
-      "id": "scheduled-video-00073",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00073.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "veyrthalis",
-        "relation": "DEPARTURE LEAVES A SHAPE"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-19T00:02:36.053Z"
-    },
-    {
-      "id": "scheduled-space-00073",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00073.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "veyrthalis",
-        "relation": "DEPARTURE LEAVES A SHAPE"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-19T00:02:36.053Z"
     }
   ]
 }

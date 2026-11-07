@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00173",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "common-table",
+  "position": {
+    "x": 50,
+    "y": 8,
+    "z": 0
+  },
+  "camera": {
+    "x": 50,
+    "y": 8,
+    "z": 1.7,
+    "heading": 19,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 13.54,
+    "priorScale": 13.46,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 13.54,
+    "clearance": 0.0739,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 0.9400000000000001,
+    "relation": "THE LANTERNS COME ON"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "lantern-market",
+      "name": "LANTERN MARKET"
+    },
+    {
+      "type": "region",
+      "id": "common-table",
+      "name": "THE COMMON TABLE"
+    },
+    {
+      "type": "relation",
+      "title": "THE LANTERNS COME ON"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 13.46,
+      "to": 13.54
+    },
+    {
+      "property": "location.regionId",
+      "from": "lantern-market",
+      "to": "common-table",
+      "relation": "THE LANTERNS COME ON"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0743,
+      "to": 0.0739
+    }
+  ],
+  "intent": "LONG PLAY / LANTERN MARKET → THE COMMON TABLE / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 173,
+    "previousRegionId": "lantern-market",
+    "regionId": "common-table",
+    "relation": "THE LANTERNS COME ON",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 13.46,
+    "scaleBaselineTo": 13.54
+  },
+  "timestamp": "2026-11-07T19:38:53.326Z"
+}

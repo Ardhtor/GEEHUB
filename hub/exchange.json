@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-07T15:35:13.258Z",
+  "generated": "2026-11-07T19:38:53.326Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00173",
+      "at": "2026-11-07T19:38:53.326Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / LANTERN MARKET → THE COMMON TABLE / ANDREW",
+      "body": "The world crossed the existing relation \"THE LANTERNS COME ON\" from LANTERN MARKET into THE COMMON TABLE. Scale increased from 13.46× to 13.54×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00173",
+      "live": true,
+      "regionId": "common-table",
+      "previousRegionId": "lantern-market",
+      "relation": "THE LANTERNS COME ON"
+    },
     {
       "id": "scheduled-long-play-00172",
       "at": "2026-11-07T15:35:13.258Z",
@@ -1488,21 +1503,6 @@
       "regionId": "discovery",
       "previousRegionId": "veyrthalis",
       "relation": "THE DOOR REMEMBERS"
-    },
-    {
-      "id": "scheduled-long-play-00073",
-      "at": "2026-10-19T00:02:36.053Z",
-      "from": "geehub-long-play",
-      "to": "andrew",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / DEEP LORE → VEYRTHALIS / ANDREW",
-      "body": "The world crossed the existing relation \"DEPARTURE LEAVES A SHAPE\" from DEEP LORE into VEYRTHALIS. Scale increased from 7.06× to 7.14×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00073",
-      "live": true,
-      "regionId": "veyrthalis",
-      "previousRegionId": "deep-lore",
-      "relation": "DEPARTURE LEAVES A SHAPE"
     }
   ]
 }

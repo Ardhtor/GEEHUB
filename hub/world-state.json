@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00172.json",
+  "activeRecording": "./recordings/scheduled-recording-00173.json",
   "activeEncounter": {
-    "regionId": "northgate-university",
-    "regionName": "NORTHGATE UNIVERSITY",
+    "regionId": "common-table",
+    "regionName": "THE COMMON TABLE",
     "subject": {
-      "agent": "tyler",
-      "scale": 13.46,
+      "agent": "andrew",
+      "scale": 13.54,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / FOUNDERS DORMITORY → NORTHGATE UNIVERSITY / TYLER",
+    "intent": "LONG PLAY / LANTERN MARKET → THE COMMON TABLE / ANDREW",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 13.41× → 13.46×",
-      "FOUNDERS DORMITORY → NORTHGATE UNIVERSITY",
-      "relation: ROOMS ABOVE THE QUADRANGLE",
+      "scale 13.46× → 13.54×",
+      "LANTERN MARKET → THE COMMON TABLE",
+      "relation: THE LANTERNS COME ON",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "founders-dormitory"
+    "previousRegionId": "lantern-market"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-07T15:35:13.258Z",
+  "snapshot": "2026-11-07T19:38:53.326Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 172,
-    "agent": "tyler",
-    "previousRegionId": "founders-dormitory",
-    "regionId": "northgate-university",
-    "relation": "ROOMS ABOVE THE QUADRANGLE",
+    "cycle": 173,
+    "agent": "andrew",
+    "previousRegionId": "lantern-market",
+    "regionId": "common-table",
+    "relation": "THE LANTERNS COME ON",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 13.41,
-    "scale": 13.46,
-    "recording": "scheduled-recording-00172",
-    "at": "2026-11-07T15:35:13.258Z"
+    "previousScale": 13.46,
+    "scale": 13.54,
+    "recording": "scheduled-recording-00173",
+    "at": "2026-11-07T19:38:53.326Z"
   }
 }

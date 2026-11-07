@@ -2,9 +2,9 @@
 > 
 > Serum remains in the archive as secondary lore; the world is carried by place, experience, relationships, memory, and change.
 
-# GEEHUB
+# THE TRACTUS
 
-GEEHUB is the living workspace for archives, tools, games, fictional worlds, visual systems, research, media, and the repositories that grow out of them.
+The Tractus is the living workspace for archives, tools, games, fictional worlds, visual systems, research, media, and the repositories that grow out of them.
 
 The hub is not a pile of files. It records what happened, what changed, what remains, and what the next process can use. The interface, corpus, artifacts, source history, and repository structure all carry memory.
 
@@ -113,13 +113,13 @@ The artifact ledger lives at [artifacts/index.json](artifacts/index.json). World
 Dream material is downstream of the ledger. It is residue, not a second idea generator.
 
 
-## GEEHUB Studio
+## The Tractus Studio
 
-[Open GEEHUB Studio](hub/gee-studio.html) — the Blender/FFmpeg director and continuous-take workbench. [Open GEEHUB Imagine Studio](engine/video/imagine-studio.html) — the six-second, 420p short-form generation surface, with image-to-video, naive-action direction, shot history, and Dropbox product persistence. Both feed the shared production corpus. The Teal Titan is the first fully indexed project preset, with its own character continuity, shot design, voiceover, asset register, and Dropbox production tree. These are production vertical slices, not a full DaVinci Resolve replacement; advanced multitrack editing, verified source-frame analysis inside the Imagine interface, and direct Dropbox API ingestion remain future integrations.
+[Open The Tractus Studio](hub/gee-studio.html) — the Blender/FFmpeg director and continuous-take workbench. [Open The Tractus Imagine Studio](engine/video/imagine-studio.html) — the six-second, 420p short-form generation surface, with image-to-video, naive-action direction, shot history, and Dropbox product persistence. Both feed the shared production corpus. The Teal Titan is the first fully indexed project preset, with its own character continuity, shot design, voiceover, asset register, and Dropbox production tree. These are production vertical slices, not a full DaVinci Resolve replacement; advanced multitrack editing, verified source-frame analysis inside the Imagine interface, and direct Dropbox API ingestion remain future integrations.
 
 ## Current video production / Teal Titan
 
-The active short-form production example is [The Teal Titan of Gold's on 5th](production/projects/teal-titan-golds-on-5th/README.md). Its six-second 420p project record defines Marcus's continuity, six escalating visual states, balanced pectoral growth, shot timing, review gates, and Dropbox folder structure. The [Imagine Engine preset](engine/video/presets/teal-titan-golds-on-5th.json) loads directly into [GEEHUB Imagine Studio](engine/video/imagine-studio.html). The original video remains a Dropbox source; this project record does not claim it has been located or rendered.
+The active short-form production example is [The Teal Titan of Gold's on 5th](production/projects/teal-titan-golds-on-5th/README.md). Its six-second 420p project record defines Marcus's continuity, six escalating visual states, balanced pectoral growth, shot timing, review gates, and Dropbox folder structure. The [Imagine Engine preset](engine/video/presets/teal-titan-golds-on-5th.json) loads directly into [The Tractus Imagine Studio](engine/video/imagine-studio.html). The original video remains a Dropbox source; this project record does not claim it has been located or rendered.
 
 ## Reusable video production standard
 
@@ -229,3 +229,8 @@ The soundtrack acts on the world instead of narrating feelings about it. **SIGNA
 
 The reusable generation contract is [`engine/presets/luke-growth-priority.json`](engine/presets/luke-growth-priority.json), linked to the [Sensation Engine](SENSATION_ENGINE.md) and Luke's [character workspace](creative/measure-between-us/repos/luke-inside/README.md). Use **“Grow Luke,” “Next growth phase,”** or **“Fuse Luke with this reference”** to invoke its direction in a generation workflow. The latest accepted state is the starting point; the user's requested growth takes priority over conservative defaults. Height and limb length rise with mass, Luke's identity remains continuous, and each accepted result becomes the next baseline.
 
+
+
+## Name and continuity
+
+The canonical name of this living world and its creative system is **The Tractus**. The existing GitHub repository remains at `Ardhtor/GEEHUB` for now, so existing links, scripts, integrations, and archived references continue to work. In-world narration, new interfaces, new documents, and future project-facing titles should use **The Tractus**. GEEHUB is retained only as the historical repository name and as a legacy term when describing earlier development.

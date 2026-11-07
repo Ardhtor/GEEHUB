@@ -1477,3 +1477,11 @@ SETH: A line becomes visible between ATHLETIC COMMONS and NORTHGATE UNIVERSITY. 
 NICK: The athletic grounds welcome students for training, swimming, recovery and companionship; physical culture is part of a balanced campus life. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 197 — CROSSING / NORTHGATE UNIVERSITY / 2026-11-07T22:27:09.099305+00:00
+
+NICK: The world crosses the route from ATHLETIC COMMONS into NORTHGATE UNIVERSITY. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: A residential university for adult men, with a green central quad, lecture halls, studios, workshops, music rooms and a lively campus culture. Relation carried forward: STRENGTH WITHOUT CONFLICT.
+
+Rule: meaningful change becomes an outward-facing signal

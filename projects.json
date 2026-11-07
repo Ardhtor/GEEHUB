@@ -696,7 +696,8 @@
     "related": [
       "tractus-continuity",
       "vision-workspace",
-      "sensation-engine"
+      "sensation-engine",
+      "the-coach"
     ],
     "tags": [
       "institute",
@@ -704,6 +705,26 @@
       "university",
       "world",
       "story",
+      "continuity"
+    ]
+  },
+  {
+    "id": "the-coach",
+    "name": "The Coach",
+    "status": "incubating",
+    "kind": "character",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/INSTITUTE_OF_BECOMING.md#the-coach",
+    "description": "The Institute of Becoming's founding coach: an imposing, warm, good-humoured American presence whose coaching develops into encouragement, hospitality, and making room for others' ambitions.",
+    "related": [
+      "institute-of-becoming",
+      "tractus-continuity"
+    ],
+    "tags": [
+      "character",
+      "coach",
+      "institute",
+      "tractus",
       "continuity"
     ]
   }

@@ -12,7 +12,7 @@ export function createRenderJob({source,growthStates,landmarkFrames,settings={}}
   const tracking=validateLandmarkTrack(landmarkFrames,settings.tracking);
   if (!tracking.valid) errors.push(...tracking.errors.map(e=>`Tracking: ${e}`));
   const fps=settings.fps??24;
-  if (!Number.isInteger(fps)||fps<1||fps>120) errors.push("FPS must be an integer from 1 to 120");
+  if (!Number.isFinite(fps)||fps<=0||fps>120) errors.push("FPS must be a finite number greater than 0 and at most 120");
   if (errors.length) return {valid:false,errors,job:null};
   return {
     valid:true,errors:[],

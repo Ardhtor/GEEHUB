@@ -240,3 +240,12 @@ They stood at the threshold until each had decided whether to continue. Then the
 
 Behind them, the Procession kept the space between its lines.
 
+
+## Coda — The bridge after the footsteps
+
+After the four men passed beneath the Binding arch, the Procession did not rearrange itself to make their routes look like one. The four bands continued across the bridge, each carrying the small marks left by a different pair of boots. Where the paths came close, the stone was worn a little more deeply; where they separated, a narrow ridge remained between them. The table kept the accounts in the order they had been given. It did not choose which one was the truest.
+
+The third traveler looked back once. From the far side, the bridge seemed shorter, though he knew the distance had not changed. The fourth traveler noticed that the bell could no longer be heard. Joseph listened for it and heard only the low movement of air beneath the arches. Kirk could still remember the note, but not its exact place in the sequence. He wrote down that loss as carefully as he had written down the sound itself.
+
+They did not make a plan for the Binding passage while standing in it. They agreed only to remember the four approaches and to return to the Procession if their next observations required comparison. Joseph and Kirk continued beside one another, close enough to speak, with enough space between them for either to stop. The city held both conditions without asking them to explain the arrangement.
+

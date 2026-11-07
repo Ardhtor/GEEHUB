@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import { open, lstat, mkdir, realpath, readFile, rm } from "node:fs/promises";
 import path from "node:path";
 import { resolveDropboxUri } from "../core/bridge-exchange.js";
+import { inspectFrameSequenceFiles } from "../core/frame-sequence-worker.js";
 import { prepareBridgeRenderJob } from "../core/bridge-render-job.js";
 
 const usage = [
@@ -97,6 +98,57 @@ async function main() {
   }
   const segmentationSidecar = await readSafeDropboxText(segmentation[0].uri, dropboxRoot);
   const landmarksSidecar = await readSafeDropboxText(landmarks[0].uri, dropboxRoot);
+  const segmentationDocument = JSON.parse(segmentationSidecar);
+  const landmarksDocument = JSON.parse(landmarksSidecar);
+  if (!Array.isArray(segmentationDocument.frames) ||
+      !Array.isArray(landmarksDocument.frames) ||
+      segmentationDocument.frames.length !== landmarksDocument.frames.length) {
+    throw new Error("Registered segmentation and landmark sidecars have different frame counts");
+  }
+  const sequence = {
+    schema: "geehub.frame-sequence",
+    schemaVersion: 1,
+    id: segmentationDocument.sequenceId,
+    source: manifest.source,
+    format: {
+      width: segmentationDocument.width,
+      height: segmentationDocument.height,
+      fps: segmentationDocument.fps,
+      frameCount: segmentationDocument.frameCount
+    },
+    firstFrame: segmentationDocument.firstFrame,
+    startTimeSeconds: segmentationDocument.frames[0]?.timeSeconds ?? 0,
+    frames: segmentationDocument.frames.map((frame, index) => {
+      const landmarks = landmarksDocument.frames[index];
+      return {
+        frame: frame.frame,
+        timeSeconds: frame.timeSeconds,
+        sourceAssetId: manifest.source.id,
+        width: segmentationDocument.width,
+        height: segmentationDocument.height,
+        identityConfidence: landmarks?.identityConfidence,
+        poseConfidence: landmarks?.poseConfidence,
+        landmarks: landmarks?.landmarks,
+        segmentation: {
+          sourceAssetId: manifest.source.id,
+          frame: frame.frame,
+          width: segmentationDocument.width,
+          height: segmentationDocument.height,
+          model: frame.model,
+          confidence: frame.confidence,
+          bodyMask: { ...frame.bodyMask, role: "body", width: segmentationDocument.width, height: segmentationDocument.height },
+          faceMask: { ...frame.faceMask, role: "face", width: segmentationDocument.width, height: segmentationDocument.height }
+        }
+      };
+    })
+  };
+  const maskAudit = await inspectFrameSequenceFiles(sequence, { dropboxRoot });
+  if (!maskAudit.readyForGeometry) {
+    const details = maskAudit.errors.map(item =>
+      typeof item === "string" ? item : (item.code || "mask-error") + ": " + (item.detail || "")
+    ).join("; ");
+    throw new Error("Registered mask files failed reinspection: " + details);
+  }
   const jobSlug = slug(jobId);
   const jobUri = process.env.GEEHUB_RENDER_JOB_URI ||
     "dropbox://GEEHUB/Bridge/incoming/jobs/" + jobSlug + ".json";
@@ -163,6 +215,11 @@ async function main() {
     manifestFile: manifestPath,
     jobUri,
     outputUri,
+    maskAudit: {
+      checked: maskAudit.fileVerification.checked,
+      verified: maskAudit.fileVerification.verified,
+      pixelSemanticsVerified: maskAudit.pixelSemanticsVerified
+    },
     pixelSemanticsVerified: false,
     nextCommand: "npm run stage:bridge -- " + shellQuote(manifestPath) + " " +
       shellQuote(jobPath) + " " + shellQuote(prepared.jobId)

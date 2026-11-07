@@ -10,13 +10,14 @@
 1. [Hyperspace Expedition](HYPERSPACE_EXPEDITION_2026-09-21.md) — the four travelers reach the valley city and enter the Digitorium; the second heartbeat begins.
 2. [The Second Heart](JOSEPH_KIRK_THE_SECOND_HEART.md) — Chapter I, “The room that listened.” The chamber separates their paths; Joseph chooses his own crossing and Kirk begins to distinguish his perceptions from the chamber's translations.
 3. [The Procession of Two Accounts](THE_PROCESSION_OF_TWO_ACCOUNTS.md) — Chapter II. The four travelers choose four routes, meet at the Procession, and preserve four non-identical accounts. Kirk and Joseph choose to continue beside one another without making their memories identical.
-4. **The Unentered Place** — next chapter seed. The four accounts reveal a central space that none of the travelers entered; the Binding threshold has been seen but not crossed.
+4. [The Unentered Place](THE_UNENTERED_PLACE.md) — Chapter III. The four travelers examine the lower chamber, leave the Binding panel closed, and find a fifth groove with no identified author.
+5. [The Fifth Groove](THE_FIFTH_GROOVE.md) — Chapter IV. They return to inspect the empty channel, examine the chamber's construction, annotate their separate accounts, and discover an unopened wooden door.
 
 ## Linked records
 
 - [YES JOEY — public signal record](../../signals/joseph/YES_JOEY_2026-11-01.md) — a public X post preserved as an unresolved observation and narrative seed. It does not establish Joey's awareness, intention, receipt, or response.
 - [Joseph Prever — Many Faces workspace](../../creative/joseph-prever-many-faces/README.md) — source boundaries, established facets, proposals, and development lane.
-- [Structured story model](joseph_kirk_story.json) — three chapters, 37 beats, four independent witness accounts, route choices, and unresolved-state safeguards.
+- [Structured story model](joseph_kirk_story.json) — four narrative chapters plus the expedition origin, 59 beats, four independent witness accounts, route choices, and unresolved-state safeguards.
 - [Story runtime](../../engine/stories/joseph_kirk_runtime.py) — executable progression and separate-account handling.
 - [Artifact ledger](../../artifacts/index.json) — durable artifact records for the signal, Chapter I, story index, runtime, and Chapter II.
 - [Engine state](../../engine/state.json) — pulse 149 records the four-route procession and the unentered centre.
@@ -55,6 +56,6 @@ This branch remains experimental until reconciled with the older Veyrthalis mate
 
 [The Unentered Place](THE_UNENTERED_PLACE.md) continues from the Binding passage. The four travelers examine a lower chamber with four columns, an empty bowl, and a moving blue thread. They compare new observations without assigning causes. A panel associated by shape with Binding remains closed; the travelers choose not to treat a slight change in its seam as permission to open it. A fifth groove appears beside their four accounts and is deliberately left empty. The second heartbeat and the purpose of the chamber remain unknown.
 
-## Next chapter seed — The Fifth Groove
+## Chapter IV — The Fifth Groove
 
-A fifth channel appears in the record without an identified witness. The next chapter should investigate how an account can be preserved before its author is known, while resisting the temptation to invent a fifth traveler or assign the heartbeat. The travelers' next movement remains a choice, not an instruction from the city.
+[The Fifth Groove](THE_FIFTH_GROOVE.md) is now written. The travelers return to the lower chamber, inspect the fifth channel from separate positions, and record its emptiness without inventing an absent witness. They discover construction marks and add attributed annotations to their earlier accounts. A wooden door is found but remains unopened. The next seed is *The Measure of Return*.

@@ -632,3 +632,19 @@ This is why the Deep Lore cannot be reduced to a catalogue of rules. The rules a
 The final lesson of the fountain was written nowhere. It was carried by the twelve men when they walked toward the distant city, and because they carried it, the lesson entered every room they subsequently entered. A story is not finished when its final sentence is written. It is finished only when nothing in it can cause another story to happen. The Hub therefore remains deliberately unfinished. Every archive is a possible threshold. Every threshold is a possible event. Every event leaves residue. Every residue can seep into another world. Every world can return changed. And when it returns, the old version remains somewhere behind it, not as a discarded draft but as evidence that the new world has a history.
 
 The fountain is still running. Nobody can say where the water begins. Nobody can say how far beneath the city the ancient presence extends. Nobody can say who will pull the next stop. But somewhere in the Hub, a door has just appeared where there was previously only a wall, and on the other side of it somebody is already writing.
+
+---
+
+## XVIII. THE LAW OF THE IDOL
+
+The God Penis enters the Deep Lore as a fictional mythic measure of masculine presence, aspiration, representation, and communal memory. It does not replace the existing pantheon or reduce the body to a single measurement. Its tradition gathers witnesses, makers, athletes, historians, and keepers around an image whose meaning changes as it passes between generations.
+
+The Idol Cycle distinguishes the historical object, the traditions attached to it, and the mythic figure produced by collective imagination. The Penis Wizards preserve those distinctions. Their task is to measure carefully, remember generously, and leave a trace whenever an interpretation changes.
+
+The Big-Pec Altar and the God Penis are related but not identical. The altar attends to the living presence of an individual; the idol names a communal reference point. Both obey the same continuity law: **the body is the monument, but the person remains present within it.**
+
+The Institute of Phallic Studies gives this mythology a social world: its five houses, the Window Society, the Assembly of Forms, the Great Gallery, the Hall of Continuity, and the Festival of Again. The unfinished pedestal is a deliberate threshold. Each generation adds a record without closing the work.
+
+The cycle is preserved in [GOD_PENIS_IDOL_CYCLE.md](./GOD_PENIS_IDOL_CYCLE.md). Its next unresolved trace is the empty platform in the photographs of the Second Archive. The absence is retained rather than filled by speculation.
+
+IDOL → ASSEMBLY → WITNESS → INTERPRETATION → CONTRIBUTION → ARCHIVE → AGAIN

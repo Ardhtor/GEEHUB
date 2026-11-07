@@ -1,5 +1,5 @@
 {
-  "pulse": 192,
+  "pulse": 193,
   "events": [
     {
       "pulse": 1,
@@ -3241,6 +3241,28 @@
       "occurred_at": "2026-11-07T22:14:21.939442+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000193",
+      "pulse": 193,
+      "time": "2026-11-07T22:14:33.749250+00:00",
+      "actor": "JOSEPH",
+      "world": "ATHLETIC COMMONS",
+      "region_id": "athletic-commons",
+      "previous_region_id": "northgate-university",
+      "phase": "CROSSING",
+      "source": "worlds/athletic-commons/README.md",
+      "desire_state": "continuity",
+      "action": "NICK: The world crosses the route from NORTHGATE UNIVERSITY into ATHLETIC COMMONS. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A university gymnasium, pool, indoor track, weight rooms, recovery suites and outdoor training lawns. Relation carried forward: STRENGTH WITHOUT CONFLICT.",
+      "narrative_rule": "meaningful change becomes an outward-facing signal",
+      "relation": "STRENGTH WITHOUT CONFLICT",
+      "next_region": null,
+      "pressure": 0.88,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-07T22:14:33.749250+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -3264,7 +3286,8 @@
     "northgate-university": 2,
     "bluewater-quay": 1,
     "lantern-market": 1,
-    "northgate-library": 1
+    "northgate-library": 1,
+    "athletic-commons": 1
   },
   "last_visits": {
     "complex": 151.5,
@@ -3287,9 +3310,10 @@
     "northgate-university": 189,
     "bluewater-quay": 179,
     "lantern-market": 183,
-    "northgate-library": 185.5
+    "northgate-library": 185.5,
+    "athletic-commons": 193
   },
-  "pressure": 1.0,
+  "pressure": 0.88,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -3310,21 +3334,17 @@
     "worlds/northgate-university/README.md": 7,
     "worlds/bluewater-quay/README.md": 4,
     "worlds/lantern-market/README.md": 3,
-    "worlds/northgate-library/README.md": 3
+    "worlds/northgate-library/README.md": 3,
+    "worlds/athletic-commons/README.md": 1
   },
-  "next_region": "athletic-commons",
-  "phase": 3,
-  "active_region": "northgate-university",
-  "current_phase": "ROUTE_OPEN",
-  "current_desire_state": "tension",
-  "current_question": "Which existing relation now becomes traversable?",
-  "current_narrative_rule": "arrival activates aftermath",
-  "next_relation": {
-    "title": "STRENGTH WITHOUT CONFLICT",
-    "text": "The athletic grounds welcome students for training, swimming, recovery and companionship; physical culture is part of a balanced campus life.",
-    "from": "northgate-university",
-    "to": "athletic-commons"
-  },
+  "next_region": null,
+  "phase": 0,
+  "active_region": "athletic-commons",
+  "current_phase": "CROSSING",
+  "current_desire_state": "continuity",
+  "current_question": "What can change without erasing where it came from?",
+  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "next_relation": null,
   "long_play": {
     "cycle": 174,
     "agent": "joseph",

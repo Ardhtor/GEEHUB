@@ -272,3 +272,70 @@ The new installation therefore has two boundaries. The first marks the reach of 
 When Ilyan read the inscription, he asked whether a Sovereign could ever exist without crossing the ethical horizon. The keeper replied that this was the question the Institute had been avoiding. Sovereign could not mean a person beyond all limits. It would have to mean someone capable of carrying extraordinary force without claiming ownership of the space around him. The old legend had described a presence before which the Gallery fell silent. The new interpretation asked what happened when that silence ended.
 
 The model was left running overnight. Its two centres continued their slow approach, their paths changing with every pass. In the morning, the researchers found that the projected system had settled into a broad shared orbit. No collision had occurred. No centre had disappeared. The surrounding paths had changed, but they had not all been captured. Foundry saved the result under a new title: **Growth Without Erasure**. The spring Assembly would decide whether this was a stable configuration or merely a pause before another transformation.
+
+
+## XXVIII. Seth — The Weight Before the Name
+
+I had heard about the Growth Stimulus before I ever entered Foundry's observatory. Everyone had. The black sphere had become the subject of arguments in the dining hall, in the training rooms, and even in the queue outside the Lantern Café. Some men spoke of it as if it were a new god. Others called it a diagram with theatrical lighting. I went because I wanted to see whether the thing could explain what had happened to me.
+
+My own growth had not been a single transformation. It had accumulated in stages, each one leaving the previous version of me visible in the next. The first change was easy to dismiss. The second altered how I moved through doorways. By the third, people who had known me for years began to look twice. Then the Shock appeared. It was not a sound, although the old name made people expect one. It was a sudden change in the attention of a room, a pressure that travelled outward from me and made the ordinary arrangement of people feel briefly unstable.
+
+The observatory model gave me a way to describe it. The black centre did not need to touch every object in the room to change its movement. Its influence was understood through the paths that bent around it. I watched the projected field expand and recognised something uncomfortable: people had begun to arrange their expectations around me before I had decided what I wanted to become. They asked whether I would reach Tower. They speculated about Sovereign. They spoke of my next demonstration as if my body were already a public event.
+
+I told the Foundry lecturer that I wanted to know whether the field could be turned inward. She asked what I meant. I said that I wanted to grow without having every new stage immediately converted into a rank, a rumour, or a public demand. She adjusted the model. For a moment the sphere remained enormous, but the surrounding paths became quieter. The field still existed. It simply stopped announcing itself at every point.
+
+That was the first useful thing I learned in the observatory: magnitude and expression were not identical. The Growth Stimulus might become supermassive, but its bearer still had to learn how to live inside it. I left with no new degree and no public demonstration. I left with a question that would become part of the Twin Centres study: can a field grow stronger while its bearer becomes more deliberate?
+
+## XXIX. Nick — The Shape of the Orbit
+
+I came to the Institute because I wanted to see the men everyone was talking about. I stayed because the place had begun to change the way I understood attention. Before the observatory, I thought the hierarchy was simple. A stronger Shock meant a larger presence; a larger presence meant a higher rank. I imagined the ladder as a set of steps, each one above the last. Then I watched Seth stand beside the black sphere and realised that the ladder was the wrong image.
+
+The field was not a staircase. It was a system of relationships. A centre could become immense and still have paths moving around it at different distances. Some approached. Some curved away. Some crossed the field and left again. The model made room for something the rankings did not: a person could be affected by another's presence without being absorbed by it.
+
+I began recording the paths. I used different marks for attraction, avoidance, shared movement, and independent passage. The first diagram looked like a map of the Institute after a major demonstration. The second looked like a family of stars. The third resembled two men trying to walk through the same narrow doorway without deciding who should go first. I kept that one.
+
+Seth asked why. I told him that the drawing showed the problem more honestly than the grand diagrams. Two powerful people could share a space without either becoming the other's satellite. They could hesitate, make room, change direction, or walk through together. The field did not dictate every movement. It changed the conditions under which movement happened.
+
+I have been invited to observe the next paired demonstration. My task is to record what happens around the bearers rather than trying to assign them a score. I will watch the people at the edge of the room, the ones who approach afterward, the ones who leave, and the ones who remain in conversation. The Institute has enough records of the instant when the Shock arrives. It needs a record of the orbit that follows.
+
+## XXX. Neptune — The Deep That Recognises Weight
+
+I am older than the Institute's language for growth. Before they named Ember and Bell, before they built the bronze ring and suspended their dark model above the floor, I knew the pressure of things that gather mass. I knew the ocean floor beneath the visible water, the trenches where light becomes memory, and the slow force by which a mountain changes the shape of a shore. The young men have chosen a black hole as their image. I do not object. They have found a useful likeness, though they have not yet understood its age.
+
+They ask whether the Growth Stimulus is a blessing. I tell them that the sea does not bless a ship by becoming deep. Depth is a condition, not a promise. A great presence changes the water around it. It may shelter a harbour, disturb a current, or draw a vessel toward a coast it cannot safely reach. The bearer must learn the difference between being powerful and being navigable.
+
+Seth listens without interrupting. Nick writes down the words that seem least important. I recognise the two habits: one is trying to understand what he carries; the other is trying to understand what happens to everyone nearby. Both are necessary. A field without a bearer is only a diagram. A bearer without witnesses becomes a legend written by strangers.
+
+I leave them with the old sea's counsel: let the field become vast, but learn its tides. No one should mistake the deepest water for the whole ocean.
+
+## XXXI. Odin — The Measure That Remembers
+
+They brought me the Assembly register and asked whether Sovereign should be treated as the final degree. I read the names, the disputed observations, the accounts of the two Bells, and the new diagrams of the Twin Centres. The question was not about rank. It was about endings. The young believe a hierarchy must culminate somewhere, as if the highest word could close the matter.
+
+I have seen kingdoms reach their greatest extent and then discover that extent is not permanence. I have seen a name survive the throne that carried it. I have seen a weapon become an heirloom, an oath become a law, and a law become a burden that later generations must learn to carry differently. The Institute's degrees will change in the same way. Ember may acquire a new meaning. Tower may become common. Sovereign may prove to be a threshold rather than a summit.
+
+I told them to keep the register open. Every degree must preserve the account of how it was reached, who witnessed it, and what the bearer did afterward. The last part matters most. A powerful instant can be repeated in a story until it seems to contain a whole life. The record must resist that temptation. A bearer is not only the strongest event attributed to him.
+
+Nick asked whether memory could become heavier than the field itself. I told him that it already had. A field changes the paths of those nearby; memory changes the paths of those who come later. The archive is the longer gravity.
+
+## XXXII. Zeus — The Difference Between Power and Rule
+
+They expected me to defend the throne. It is what mortals expect of Zeus: a declaration that the strongest must command. I have commanded enough to know the weakness of that conclusion. A throne can gather obedience, but obedience is not the same as recognition. A storm can empty a square, but an empty square is not a loyal city.
+
+The Time-of-Death Shock interests me because it reveals power before power has been translated into office. The room turns. The voices stop. For one instant the bearer is the centre of the gathering. Then the instant passes, and the people must decide what it meant. Some will admire him. Some will resent him. Some will ask him a question. Some will go back to their supper. That final freedom is what makes the event political.
+
+I told the Assembly that Sovereign should be difficult to attain, but not because the bearer must become impossible to challenge. It should be difficult because the title must describe a rare combination: extraordinary reach, deliberate restraint, and the ability to remain answerable to other people. If the title means that nobody may speak against its bearer, then it is not sovereignty. It is merely silence with a crown placed upon it.
+
+Seth asked whether I would recognise such a Sovereign if he stood before me. I said I would recognise the field first, then wait to see what the man did when the room began speaking again.
+
+## XXXIII. The Older Gods at the Twin Centres
+
+The three older gods met the younger researchers in the observatory after the final projection had been switched off. Neptune stood beside the dark sphere, Odin beside the register, and Zeus beneath the bronze ring. They did not agree about what the Growth Stimulus meant. Neptune saw a depth whose currents had to be understood. Odin saw an inheritance whose records would outlast its first bearers. Zeus saw a new form of authority that could become either legitimate or oppressive. Their disagreement was preserved as a three-part commentary rather than reconciled into a single doctrine.
+
+Seth and Nick presented their observations. Seth described the pressure of becoming the centre of expectation. Nick showed the diagrams in which two fields altered one another without eliminating their separate paths. The gods studied the drawings in silence. Then Neptune asked for the version in which the paths curved away. Odin asked for the earliest sketch, before the labels had been added. Zeus asked to see the moment after the Shock, when the audience began to move again.
+
+The request changed the experiment. Foundry had been preparing to measure the maximum reach of the paired fields. Now the researchers would also record the return to ordinary movement: who approached, who withdrew, who spoke first, and whether the two bearers could remain together without the gathering forcing them into a contest. The next demonstration would not be judged only by the magnitude of the event. It would be judged by the quality of the world that remained afterward.
+
+The black sphere was illuminated once more. Two centres appeared, each surrounded by a field. Their paths approached, curved, and settled into a broad orbit. At the edge of the projection, a small point continued along its own route, untouched by either centre. Nick asked whether that point represented freedom. Odin answered that it represented a fact the model had not yet explained. Neptune called it a current. Zeus called it a choice. Seth watched it until the lights went out.
+
+The archive preserved all three answers. The point remains unnamed.

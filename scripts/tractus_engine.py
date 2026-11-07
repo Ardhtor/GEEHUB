@@ -67,6 +67,13 @@ def collect_context() -> str:
         )
     if not sections:
         fail("No continuity sources were found; refusing to invent a corpus.")
+    recent = git(
+        "log", "-6", "--format=%h %s", "--", *ALLOWED_FILES, check=False
+    ).stdout.strip()
+    sections.append(
+        "===== Recent changes to approved narrative destinations =====\n"
+        + (recent or "No previous narrative-engine commits are recorded.")
+    )
     return "\n\n".join(sections)
 
 
@@ -99,8 +106,11 @@ Return a JSON object with exactly these keys:
 
 Choose the highest-priority live lane in the narrative queue, while preserving
 an urgent continuation in the main manuscript when it cannot reasonably wait.
-Romance and domestic life are currently the first priority. If the novel file is
-selected, continue its chapter numbering from the latest chapter in that file.
+Romance and domestic life are currently the first priority. Avoid selecting
+the same destination repeatedly when another high-priority lane has a live
+consequence; use the recent destination commits supplied in the context to
+rotate. If the novel file is selected, continue its chapter numbering from the
+latest chapter in that file.
 Otherwise choose the most relevant lore file.
 Avoid repeating existing scenes. If there is no genuinely worthwhile
 continuation, return an object with skip=true and a brief reason instead.

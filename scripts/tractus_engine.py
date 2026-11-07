@@ -8,7 +8,6 @@ from __future__ import annotations
 
 import json
 import os
-import re
 import subprocess
 import sys
 import urllib.error
@@ -166,7 +165,7 @@ def main() -> None:
         fail("Chapter body length is outside the 1,000–12,000 character limit.")
     if chapter.startswith("#"):
         fail("Chapter body must not supply its own top-level title.")
-    if "'''" in chapter or "<script" in chapter.casefold() or "<iframe" in chapter.casefold():
+    if (chr(96) * 3) in chapter or "<script" in chapter.casefold() or "<iframe" in chapter.casefold():
         fail("Chapter body contains a disallowed embedded-code construct.")
 
     target = ROOT / relative

@@ -24,6 +24,7 @@ ALLOWED_FILES = (
 )
 CONTEXT_SOURCES = (
     ("FICTION_ENGINE.md", 8_000),
+    ("docs/TRACTUS_CONTINUITY_CONTRACT.md", 6_000),
     ("novel/EDITORIAL_DIRECTIVE.md", 6_000),
     ("novel/PUBLISHING_STANDARD.md", 6_000),
     ("novel/RELATIONSHIP_CANON.md", 4_000),
@@ -83,7 +84,10 @@ def collect_context() -> str:
 def call_model(api_key: str, model: str, context: str) -> dict:
     instructions = """
 You are the autonomous continuity writer for The Tractus, a long-running
-fictional world and living literary archive. Read the fiction engine contract,
+fictional world and living literary archive. The governing continuity model is
+docs/TRACTUS_CONTINUITY_CONTRACT.md: GEEHUB is the living workspace, Tractus is
+its continuity model, and each passage inherits prior state while preserving
+provenance and canon boundaries. Read that contract alongside the fiction engine contract,
 editorial directive, publishing standard, relationship canon, asset register,
 latest manuscript, world pulse stream, attention engine, current campus state,
 and narrative queue as one connected corpus. Use the queue as a guide to live threads, not as a rigid plot outline. Continue

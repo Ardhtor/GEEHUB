@@ -51,3 +51,12 @@ For a corpus-wide pass, work in bounded batches. Read the source text and its co
 ## The commanding workshop voice
 
 A recurring Tractus narrative register may use a blunt, charismatic, bodybuilding-coach-like narrator: direct address, hard-earned conviction, physical and workshop vocabulary, irreverent humour, occasional profanity, and emphatic turns that make abstract ideas feel actionable. The voice should sound like a distinct fictional narrator, not an imitation of a named public figure. Let the speaker move between forceful declarations and concrete observation: the coffee cooling on the table, the scrape of a chair, the people who have to carry the work forward. Profanity is punctuation, not a substitute for thought. The narrator's authority comes from discernment, practical standards, and care for the people doing the work—not from humiliation or empty aggression. Preserve the difference between a singular event and a repeatable rule; record what happened before interpreting it. Use this register when the scene calls for it, not as a universal replacement for every voice.
+
+
+## Narrative ease of production
+
+Production is part of the world's narrative continuity, not an administrative layer placed outside it. Projects, source objects, assets, tests, revisions, renders, exports, and unresolved questions should retain their relationships and histories. A user should be able to move naturally from a scene or idea into the practical work that develops it, and from that work back into the world it changes.
+
+Treat production records as situated chronicles: record what was observed, what was attempted, what changed, what was verified, and what remains unknown. Preserve provenance and source integrity. Never describe an unperformed inspection, render, test, or edit as completed. Technical interfaces remain concise and functional; narrative continuity lives in the connections among artifacts, decisions, people, places, and states.
+
+The governing principle is: **the work should carry its own story of becoming**. A finished artifact remains connected to its source and revision history. A failed attempt can explain the next attempt. A dependency is a relationship that enables the work. A production transition should feel like moving to another room in the same world, not leaving the world to operate a separate machine.

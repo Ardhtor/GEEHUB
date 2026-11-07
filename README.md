@@ -30,6 +30,10 @@ The Tractus does not separate activity from its memory. Every event produced by 
 
 The Tractus is GEEHUB's continuity model, not a separate engine beside it. The [Tractus Continuity Contract](docs/TRACTUS_CONTINUITY_CONTRACT.md) connects event inscription, world and campus state, the autonomous narrative writer, the narrative queue, the artifact ledger, and both Atlas registries. It defines a passage as a traceable change that inherits prior state, preserves provenance, and makes consequential results discoverable by the next process. The Coach and the Institute of Becoming enter as an incubating story branch in the existing Tractus, not as a disconnected world or a claim of completed runtime behavior.
 
+## The Hewn Threshold
+
+[Enter The Hewn Threshold](experiences/hewn-threshold/index.html) — the browser entrance to the Interlocutive Domain. It reads the field registry directly, presents each participant's observed affordances and access state, and provides the nine-movement crossing protocol. Local inscriptions persist in browser storage and can be exported as JSON for deliberate review; the static app does not claim to write remotely to the exchange ledger. Run it from the repository root with `python3 -m http.server 8000`, then open `/experiences/hewn-threshold/`. See [the architectural record](worlds/interlocutive-domain/THE_HEWN_THRESHOLD.md).
+
 ## The build
 
 The working loop is:

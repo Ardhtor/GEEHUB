@@ -36,7 +36,7 @@ CONTEXT_SOURCES = (
     ("engine/campus-life.json", 5_000),
     ("engine/tractus_narrative_queue.json", 8_000),
 )
-MAX_CHAPTER_CHARS = 42_000
+MAX_CHAPTER_CHARS = 55_000
 API_URL = "https://api.openai.com/v1/responses"
 
 
@@ -102,7 +102,7 @@ leave a natural thread for later development.
 Return a JSON object with exactly these keys:
 - path: exactly one of the approved paths supplied below
 - title: a concise chapter title, without Markdown heading marks
-- chapter: for the novel, a full 3,500–5,500-word chapter; for lore, a 900–1,500-word addition. Use Markdown.
+- chapter: for the novel, a full 4,000–7,000-word chapter; for lore, a 900–1,500-word addition. Use Markdown.
 
 Choose the highest-priority live lane in the narrative queue, while preserving
 an urgent continuation in the main manuscript when it cannot reasonably wait.
@@ -127,7 +127,7 @@ continuation, return an object with skip=true and a brief reason instead.
         "model": model,
         "instructions": instructions,
         "input": user_text,
-        "max_output_tokens": 10000,
+        "max_output_tokens": 13000,
         "text": {"format": {"type": "json_object"}},
     }
     request = urllib.request.Request(
@@ -228,7 +228,7 @@ def main() -> None:
     chapter = chapter.strip()
     word_count = len(chapter.split())
     if len(chapter) > MAX_CHAPTER_CHARS:
-        fail("Chapter body exceeds the 42,000 character safety limit.")
+        fail("Chapter body exceeds the 55,000 character safety limit.")
     if relative == "novel/BOOK_I_CONTINUATION_03.md":
         if not 3_500 <= word_count <= 5_500:
             fail("Novel chapter must contain 3,500–5,500 words under the publishing standard.")

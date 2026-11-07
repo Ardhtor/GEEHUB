@@ -31,6 +31,7 @@ CONTEXT_SOURCES = (
     ("novel/BOOK_I_CONTINUATION_03.md", 12_000),
     ("novel/WORLDS.md", 6_000),
     ("lore/AUTONOMOUS_STREAM.md", 7_000),
+    ("engine/activity.jsonl", 12_000),
     ("lore/ATTENTION_ENGINE.md", 4_000),
     ("lore/DEEP_LORE.md", 6_000),
     ("lore/ECONOMY_OF_FAVOURS.md", 6_000),

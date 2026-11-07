@@ -1637,3 +1637,11 @@ SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen,
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/cedar-house/README.md. Pressure 1.00; memory 1.00.
+
+## CAT GARDENS / pulse 174 / ATMOSPHERE
+
+SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/cat-gardens/README.md. Pressure 1.00; memory 1.00.

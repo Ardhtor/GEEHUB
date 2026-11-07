@@ -1,5 +1,5 @@
 {
-  "pulse": 173,
+  "pulse": 174,
   "events": [
     {
       "pulse": 1,
@@ -2883,6 +2883,23 @@
       "next_region": null,
       "pressure": 1,
       "memory": 1
+    },
+    {
+      "pulse": 174,
+      "time": "2026-11-07T03:15:33.740742+00:00",
+      "actor": "LUKE",
+      "world": "CAT GARDENS",
+      "region_id": "cat-gardens",
+      "previous_region_id": "cat-gardens",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/cat-gardens/README.md",
+      "desire_state": "attention",
+      "action": "SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0
     }
   ],
   "visits": {
@@ -2921,7 +2938,7 @@
     "cedar-house": 172.5,
     "cat-gardens": 173.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -2936,12 +2953,13 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 11,
     "worlds/common-table/README.md": 3,
-    "worlds/cedar-house/README.md": 1
+    "worlds/cedar-house/README.md": 1,
+    "worlds/cat-gardens/README.md": 1
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "cat-gardens",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

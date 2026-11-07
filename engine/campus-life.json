@@ -1,6 +1,22 @@
 {
-  "cycle": 4,
+  "cycle": 5,
   "events": [
+    {
+      "id": "northgate-campus-00005",
+      "cycle": 5,
+      "world_pulse": 174,
+      "at": "2026-11-07T03:15:33.792441+00:00",
+      "region": "athletic-commons",
+      "title": "THE BODY CULTURE CONVERSATION",
+      "kind": "body-culture",
+      "participants": [
+        "Dan Roman",
+        "Noah Bell",
+        "Adrian Varga"
+      ],
+      "description": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00004",
       "cycle": 4,
@@ -68,26 +84,26 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 3,
+    "Dan Roman": 4,
     "Marek Ionescu": 3,
     "Elliot Ward": 3,
-    "Noah Bell": 3,
-    "Adrian Varga": 1
+    "Noah Bell": 4,
+    "Adrian Varga": 2
   },
   "last_event": {
-    "id": "northgate-campus-00004",
-    "cycle": 4,
-    "world_pulse": 173,
-    "at": "2026-11-06T23:32:36.157704+00:00",
-    "region": "northgate-library",
-    "title": "THE LATE READING ROOM",
-    "kind": "research",
+    "id": "northgate-campus-00005",
+    "cycle": 5,
+    "world_pulse": 174,
+    "at": "2026-11-07T03:15:33.792441+00:00",
+    "region": "athletic-commons",
+    "title": "THE BODY CULTURE CONVERSATION",
+    "kind": "body-culture",
     "participants": [
-      "Marek Ionescu",
-      "Elliot Ward",
-      "Noah Bell"
+      "Dan Roman",
+      "Noah Bell",
+      "Adrian Varga"
     ],
-    "description": "The oak reading hall settles into its evening rhythm. A student edits a short film in the lower media suite while two others compare notes at a green-shaded lamp. Someone finds a reference that had eluded the group all week and quietly sends the page number around.",
+    "description": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

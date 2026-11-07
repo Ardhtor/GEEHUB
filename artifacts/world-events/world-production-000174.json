@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000174",
+  "created_at": "2026-11-07T03:15:33.740742+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ATMOSPHERE / CAT GARDENS / worlds/cat-gardens/README.md",
+  "content": "SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+  "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 174,
+    "actor": "LUKE",
+    "world": "CAT GARDENS",
+    "region_id": "cat-gardens",
+    "source": "worlds/cat-gardens/README.md",
+    "phase": "ATMOSPHERE",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

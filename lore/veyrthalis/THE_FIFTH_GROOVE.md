@@ -140,4 +140,18 @@ Kirk stood beneath the high window. The second heartbeat was quiet, or too far a
 
 He chose to leave.
 
+## VI. The long attention
+
+The chamber had a way of making short distances feel generous. The walk from the table to the low arch took only a few seconds, but the light changed several times along the floor, and each change revealed another texture in the stone. Near the table, the surface was polished and cool. At the arch it became granular, with small dark inclusions that caught against the soles of their boots. The men began to walk more slowly, not because the passage was difficult, but because there was more to notice when they stopped treating it as empty space between events.
+
+Kirk returned to the table once more before leaving. He leaned over the fifth groove and saw that the dust was not a uniform layer. It had gathered more thickly at one end, where the stone dipped almost imperceptibly. A tiny pale fibre lay across the channel. It could have come from clothing, a plant, or some material used in the chamber's construction. He did not lift it. He drew the groove as he saw it, including the fibre and the uneven dust, then wrote the date of the observation in the margin of his notebook. The drawing was not the groove; it was the trace of his attention to it.
+
+Joseph waited at the arch, turning the folded note in his hand. The paper had softened along its creases. He unfolded it and read the lines again, noticing that the phrase “author not established” occupied more space than the description of the groove itself. The imbalance pleased him. It meant the record was giving its greatest emphasis to the limit of what they knew, rather than dressing the unknown in a more attractive name. He added the pale seam as a separate observation and left the meaning blank.
+
+The third traveler came to stand beside Kirk. They looked at the four channels, then at the fifth. The table seemed less like a device now than a piece of furniture in a room that had been used for generations. Its edges bore small dents. One corner had been repaired with a darker stone. There was a faint circular stain near the far plate, perhaps left by a vessel. The table had a history that did not begin with their arrival, and it would continue to have one after they left. That thought made the empty groove feel less like a riddle waiting for them and more like a feature whose place in the larger structure had not yet been discovered.
+
+They stepped back together. The chamber did not brighten, close, or offer a final sign. Its ordinary details remained: the seam in the wall, the shelf, the dry bowl, the dust in the groove, the pale thread of light inside the column. The heartbeat was absent for several minutes, then returned so softly that only Joseph noticed it. He did not call the others back. He made a note and let the moment remain his own.
+
+At the upper passage, Kirk paused and looked behind him. The table was still visible through the arch, but its proportions had changed with the distance. The fifth groove was now a fine line among other lines. He could no longer see the fibre. He could still remember where it lay. He understood that returning would mean more than finding the same room again. It would mean bringing back a changed observer, with a different arrangement of attention, and checking what had altered in the room rather than assuming that everything had.
+
 **The next passage:** *The Return Without a Map* — Joseph returns toward the Digitorium by a route of his own choosing. Kirk follows a different line. Their next meeting must be made, not guaranteed by the city. The fifth groove remains unassigned.

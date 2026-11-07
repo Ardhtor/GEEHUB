@@ -40,7 +40,8 @@
       "muscle-myth",
       "facility",
       "vision-workspace",
-      "arthur-and-fingerlands"
+      "arthur-and-fingerlands",
+      "atlas"
     ]
   },
   {
@@ -741,6 +742,20 @@
       "vision-workspace",
       "sensation-engine",
       "the-complex"
+    ]
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "status": "incubating",
+    "kind": "character",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/ATLAS.md",
+    "description": "A large, warm, confident man whose presence is warmly adored by other big men; a character defined by mutual admiration, companionship, and belonging.",
+    "related": [
+      "sensation-engine",
+      "arthur-and-fingerlands",
+      "institute-of-becoming"
     ]
   }
 ]

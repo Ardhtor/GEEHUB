@@ -44,6 +44,13 @@
       "target": "lore/BEOWULF_AND_THE_GEATISH_COMPANY.md",
       "state": "Beowulf and his adult Geatish company have arrived by sea, been welcomed at Northgate, and begun establishing the Geatish House. Heorot, the mere, and the dragon's hoard remain faithful to the old poem while opening new questions about hospitality, courage, inheritance, and strength in public service.",
       "next_pressure": "Develop the Geats as distinct people through recurring life at Northgate and the Geatish House. Let Wiglaf's leadership emerge without simply replacing Beowulf. Explore the ship's repair, the first winter gathering, the company's encounter with the university ensemble, and how the old story is preserved by people who were not there."
+    },
+    {
+      "id": "diabound-kernel",
+      "priority": 3,
+      "target": "lore/DIABOUND_KERNEL.md",
+      "state": "Diabound Kernel is a living, intelligent, rideable creature roosting beside the Geatish House. Wiglaf has formed the first bond and completed a short flight over the river. Its wings, serpent-tail, chest-eye, shadow concealment, Helical Shockwave, and potential evolution are established; its consent and freedom are foundational.",
+      "next_pressure": "Write recurring interactions and routines: feeding, grooming by permission, harness fitting, ground travel, first longer flight, encounters with cats and campus residents, and Diabound's own choices about routes and companions. Keep its agency visible and do not make combat the default growth mechanism."
     }
   ],
   "standing_constraints": [

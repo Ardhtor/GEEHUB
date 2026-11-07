@@ -900,7 +900,7 @@
     "group": "world",
     "status": "incubating",
     "path": "../lore/ARTHUR_AND_FINGERLANDS.md",
-    "summary": "Arthur begins as a single finger and grows continuously into a giant landmark whose changing scale generates the geography, settlements, and stories of the Fingerlands.",
+    "summary": "Arthur is both the first hero of the Fingerlands and the GEEHUB metascript: the written form of the felt method for entering, interpreting, continuously extending, and verifying the repository.",
     "tags": [
       "arthur",
       "fingerlands",
@@ -908,7 +908,11 @@
       "world",
       "growth",
       "tractus",
-      "continuity"
+      "continuity",
+      "metascript",
+      "felt-method",
+      "repository-method",
+      "editing-protocol"
     ],
     "related": [
       "vision-workspace",

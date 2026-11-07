@@ -55,7 +55,9 @@
       "the-complex",
       "discovery",
       "media-tools",
-      "veyrthalis"
+      "veyrthalis",
+      "tractus-continuity",
+      "institute-of-becoming"
     ]
   },
   {
@@ -659,6 +661,50 @@
       "the-complex",
       "sensation-engine",
       "male-harem-virtual-space"
+    ]
+  },
+  {
+    "id": "tractus-continuity",
+    "name": "Tractus Continuity Contract",
+    "status": "active",
+    "kind": "governance",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/docs/TRACTUS_CONTINUITY_CONTRACT.md",
+    "description": "Canonical continuity model connecting GEEHUB's event inscription, world state, narrative writer, queue, artifact ledger, Atlas registries, and cross-repository exchange. Defines traceable passages and canon boundaries.",
+    "related": [
+      "vision-workspace",
+      "sensation-engine",
+      "information-portability"
+    ],
+    "tags": [
+      "tractus",
+      "continuity",
+      "passages",
+      "provenance",
+      "canon",
+      "governance"
+    ]
+  },
+  {
+    "id": "institute-of-becoming",
+    "name": "The Institute of Becoming",
+    "status": "incubating",
+    "kind": "story-world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/DEEP_LORE.md",
+    "description": "Emerging institutional story branch within the Tractus: the Coach, residential and academic spaces, dining culture, inhabitants, and architecture that changes through accumulated use. Remains incubating until reconciled with established world canon.",
+    "related": [
+      "tractus-continuity",
+      "vision-workspace",
+      "sensation-engine"
+    ],
+    "tags": [
+      "institute",
+      "coach",
+      "university",
+      "world",
+      "story",
+      "continuity"
     ]
   }
 ]

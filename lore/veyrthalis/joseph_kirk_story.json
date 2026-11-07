@@ -9,7 +9,8 @@
     "lore/veyrthalis/JOSEPH_KIRK_THE_SECOND_HEART.md",
     "signals/joseph/YES_JOEY_2026-11-01.md",
     "lore/veyrthalis/THE_PROCESSION_OF_TWO_ACCOUNTS.md",
-    "lore/veyrthalis/THE_UNENTERED_PLACE.md"
+    "lore/veyrthalis/THE_UNENTERED_PLACE.md",
+    "lore/veyrthalis/THE_FIFTH_GROOVE.md"
   ],
   "characters": {
     "kirk": {
@@ -19,7 +20,7 @@
         "names his own perceptions",
         "compares accounts without surrendering authorship"
       ],
-      "current_state": "chooses the root passage, records the window and bell sequence, and elects to continue beside Joseph without merging accounts"
+      "current_state": "proposes recording the fifth groove's emptiness without treating it as an absent person's testimony; adds a later annotation while preserving his first account"
     },
     "joseph": {
       "agency": "independent",
@@ -28,17 +29,17 @@
         "questions the ancient presence",
         "chooses and initiates his own crossing"
       ],
-      "current_state": "chooses the water stair to observe independently, records the basin and pulse sequence, and elects to continue alongside Kirk"
+      "current_state": "examines how the chamber's records are made and revised; adds an attributed correction without overwriting his first account"
     },
     "traveler_3": {
       "agency": "independent",
       "identity": "unresolved",
-      "current_state": "chooses the upper glass causeway and records a lantern beneath the bridge and a bell above it"
+      "current_state": "records the limits of his observation of the moving light and the wall's construction marks"
     },
     "traveler_4": {
       "agency": "independent",
       "identity": "unresolved",
-      "current_state": "chooses the unmarked passage and records delayed footsteps and uncertain bell timing"
+      "current_state": "maps construction seams and makes the counting method explicit before comparing the wall notches"
     }
   },
   "places": {
@@ -180,6 +181,24 @@
       "type": "threshold",
       "choice_required": true,
       "status": "seen_not_crossed"
+    },
+    "fifth_groove": {
+      "type": "unassigned_record_channel",
+      "status": "empty",
+      "author": null,
+      "location": "unentered_centre",
+      "purpose": "unknown"
+    },
+    "lower_wooden_door": {
+      "type": "unopened_door",
+      "status": "observed_not_tested",
+      "material": "dark wood",
+      "features": [
+        "pale central strip",
+        "air gap beneath",
+        "cedar and rain scent"
+      ],
+      "connects": []
     }
   },
   "chapters": [
@@ -526,6 +545,76 @@
           "unresolved": true
         }
       ]
+    },
+    {
+      "id": "the_fifth_groove",
+      "title": "The Fifth Groove",
+      "source": "lore/veyrthalis/THE_FIFTH_GROOVE.md",
+      "beats": [
+        {
+          "id": "return_to_the_fifth_groove",
+          "event": "The four travelers return to the lower chamber and find the fifth channel still empty and undisturbed.",
+          "place": "unentered_centre"
+        },
+        {
+          "id": "four_positions",
+          "event": "Each traveler inspects the groove from a separate position and records a different visible property without correcting the others.",
+          "actors": [
+            "kirk",
+            "joseph",
+            "traveler_3",
+            "traveler_4"
+          ],
+          "mechanic": "independent_testimony"
+        },
+        {
+          "id": "absence_not_witness",
+          "event": "The travelers distinguish recording an empty channel from placing an invented absent person's testimony inside it.",
+          "place": "fifth_groove",
+          "mechanic": "unresolved_mystery"
+        },
+        {
+          "id": "separate_absence_record",
+          "event": "They make a separate note naming the four present witnesses and stating that the groove's author and purpose are unknown.",
+          "mechanic": "parallel_accounts"
+        },
+        {
+          "id": "wall_notches",
+          "event": "Four travelers observe a line of construction notches; they agree on nine clear marks and one uncertain endpoint after making the counting method explicit.",
+          "place": "unentered_centre"
+        },
+        {
+          "id": "construction_seams",
+          "event": "The group identifies seams and material joins that suggest the chamber was assembled and repaired at different times.",
+          "place": "unentered_centre"
+        },
+        {
+          "id": "annotate_accounts",
+          "event": "Each traveler adds an attributed correction or limitation to his earlier account without overwriting the original entry.",
+          "mechanic": "independent_testimony"
+        },
+        {
+          "id": "heartbeat_separate_observations",
+          "event": "The heartbeat is heard, felt, or not perceived from different positions; no common source is assigned.",
+          "unresolved": true
+        },
+        {
+          "id": "wooden_door_found",
+          "event": "A dark wooden door with a pale central strip is found behind a low shelf; it remains unopened and untested.",
+          "place": "lower_wooden_door"
+        },
+        {
+          "id": "choose_own_approach",
+          "event": "The travelers state different preferred next observations and agree to proceed in sequence without a vote or city assignment.",
+          "actors": [
+            "kirk",
+            "joseph",
+            "traveler_3",
+            "traveler_4"
+          ],
+          "mechanic": "agency_respected"
+        }
+      ]
     }
   ],
   "mechanics": {
@@ -589,24 +678,36 @@
     },
     "binding_threshold": {
       "status": "seen_not_crossed"
+    },
+    "fifth_witness": {
+      "identity": null,
+      "status": "not_established",
+      "note": "The fifth groove is an observed channel, not evidence that a fifth traveler exists."
+    },
+    "fifth_groove_purpose": {
+      "status": "unknown"
+    },
+    "lower_wooden_door": {
+      "status": "observed_not_opened"
     }
   },
   "next_chapter": {
-    "id": "the_fifth_groove",
-    "title": "The Fifth Groove",
+    "id": "the_measure_of_return",
+    "title": "The Measure of Return",
     "status": "seed",
-    "premise": "A fifth channel appears in the record without an identified witness. The travelers investigate how an account can be preserved before its author is known, without inventing a fifth traveler or assigning the second heartbeat.",
+    "premise": "The four travelers return to the table after approaching the wooden door by their own chosen methods. They examine what makes a place recognisable after departure: measured distance, repeated sound, remembered surface, or a change visible only through comparison.",
     "required_events": [
-      "return_to_the_fifth_groove",
-      "compare_the_empty_channel_from_separate_positions",
-      "preserve_the_absence_of_an_author",
-      "choose_the_next_route_without_city_assignment"
+      "approach_wooden_door_by_independent_choices",
+      "return_to_the_table",
+      "compare_a_place_before_and_after_departure",
+      "preserve_separate_accounts"
     ],
     "do_not_resolve": [
       "second_heartbeat_owner",
-      "unresolved_transformation_identity",
-      "purpose_of_the_empty_bowl",
-      "whether_a_fifth_witness_exists"
+      "fifth_groove_purpose",
+      "fifth_witness_identity",
+      "empty_bowl_purpose",
+      "unresolved_transformation_identity"
     ]
   },
   "continuity_invariants": [

@@ -133,6 +133,19 @@ test("refuses to queue a render job without typed segmentation and landmark inpu
   }), /exactly one segmentation frame set; requires exactly one landmarks frame set/);
 });
 
+test("refuses a render job whose frame-evidence reference differs from its registered inputs", () => {
+  const current = withRequiredFrameSets(manifest());
+  const payload = portableJob();
+  payload.frameEvidence.sequenceId = "another-sequence";
+  assert.throws(() => queueBridgeRenderJob(current, {
+    id: "render-evidence-mismatch",
+    jobUri: "dropbox://GEEHUB/Bridge/incoming/evidence-mismatch.json",
+    portableJob: payload,
+    inputFrameSetIds: ["segmentation-1", "landmarks-1"],
+    outputUri: "dropbox://GEEHUB/Exports/evidence-mismatch.mp4"
+  }), /frame evidence disagrees/);
+});
+
 test("rejects mismatched source and duplicate output paths", () => {
   const root = manifest();
   const wrong = portableJob();

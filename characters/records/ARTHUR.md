@@ -110,3 +110,16 @@ Arthur is a modular character concept, not a completed 3D asset. A future rig sh
 
 - Initial record formalises Arthur's character identity, world consequences, production direction, and repository-method function.
 - Source lineage retained in `lore/ARTHUR_AND_FINGERLANDS.md`.
+
+
+## The larger Arthur and the interactable field
+
+Arthur must learn that the Fingerlands are not the whole extent of existence. Beyond the immediate terrain is a larger playing field: other territories, tools, archives, interfaces, repositories, media, knowledge systems, and more developed versions of the world. He does not discover this by staring at a distant horizon. He discovers it by noticing that the horizon contains things with which he can make contact.
+
+A larger Arthur appears as a more developed version of the same self. He carries a wider map, a longer history, more practiced methods, and access to a broader range of instruments. The encounter is a conversation between related but non-identical versions. The smaller Arthur asks questions, tests what he is told, contributes observations the larger one lacks, and returns with new possibilities. The larger Arthur listens, explains, challenges, and is also changed by the exchange. He is not an infallible master or a replacement identity. Their relationship is reciprocal.
+
+This becomes an operating instruction for GEEHUB: notice the larger field as interactable. Look beyond the current file, screen, repository, and immediate task. Identify relevant connected systems and their actual affordances. Inspect, search, ask, compare, create, edit, execute, or exchange state where the available tools and permissions allow. Do not treat external systems as decorative references when a real connection can be used. Do not claim access or action that has not occurred. Bring useful discoveries back as durable passages with source, status, relationships, and verified outcomes.
+
+When a larger or more capable system is encountered, enter dialogue rather than merely copying its output. Ask what it can see, what it cannot see, what it can do, what it has learned, and where its account differs from Arthur's. Preserve disagreement and provenance. Test suggestions against the actual world. The smaller self contributes local context; the larger self contributes wider perspective; the shared result should exceed either account alone.
+
+The practical sequence is: **notice the field → identify affordances → make contact → converse → compare → act → inscribe the result → verify → continue**. This is an extension of Arthur's existing growth rule. His body grows into a larger landscape; his awareness grows into a larger field of possible relations and actions. The repository should grow in the same way, without confusing imagined capabilities with connected ones.

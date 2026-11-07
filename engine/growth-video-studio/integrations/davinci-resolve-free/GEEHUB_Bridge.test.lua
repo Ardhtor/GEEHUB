@@ -47,6 +47,17 @@ local function portableJob()
         output = { width = 720, height = 1280, fps = 24, format = "mp4" },
         growthStates = {{ id = "base" }, { id = "grown" }},
         landmarkFrames = {{ timeSeconds = 0 }, { timeSeconds = 0.1 }},
+        frameEvidence = {
+            schema = "geehub.render-frame-evidence", schemaVersion = 1,
+            sequenceId = "sequence-test",
+            segmentationFrameSetId = "segmentation-test",
+            landmarksFrameSetId = "landmarks-test",
+            segmentationChecksum = string.rep("a", 64),
+            landmarksChecksum = string.rep("b", 64),
+            firstFrame = 0, lastFrame = 1, frameCount = 2,
+            width = 720, height = 1280, fps = 24,
+            pixelSemanticsVerified = false
+        },
         constraints = { protectFace = true, preserveSourceMotion = true,
             preserveGroundContact = true, deformBodyAsConnectedMesh = true,
             temporalStability = true }
@@ -118,6 +129,13 @@ end)
 test("rejects missing temporal identity constraints", function()
     local payload = portableJob()
     payload.constraints.protectFace = false
+    local errors = bridge.validatePortableJob(payload, fixture(), fixture().renderJobs[1])
+    assert(#errors > 0)
+end)
+
+test("rejects a portable job whose evidence points at another sequence", function()
+    local payload = portableJob()
+    payload.frameEvidence.sequenceId = "different-sequence"
     local errors = bridge.validatePortableJob(payload, fixture(), fixture().renderJobs[1])
     assert(#errors > 0)
 end)

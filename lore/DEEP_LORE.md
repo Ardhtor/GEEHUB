@@ -1,4 +1,4 @@
-# GEEHUB // DEEP LORE
+# THE TRACTUS // DEEP LORE
 
 Status: emerging canon / generated through inspection
 
@@ -48,7 +48,7 @@ A second occurrence can reveal what the first occurrence concealed.
 
 ## II. THE LAW OF CONTINUANCE
 
-GEEHUB repeatedly refuses the equation:
+The Tractus repeatedly refuses the equation:
 
 CHANGE = REPLACEMENT
 
@@ -674,3 +674,10 @@ A favor is a door held open, not a room claimed. It may travel directly between 
 **VALUE CAN CIRCULATE WITHOUT BECOMING CONTROL.**
 
 The Hearthmark measures ordinary exchange. The Open Hand Ledger remembers voluntary assistance. Neither is permitted to replace the other. A city needs both the account that can be audited and the story that can be remembered.
+
+
+## XIX. THE NAME OF THE WHOLE
+
+The name is **The Tractus**. It names the continuous passage through which places, people, artifacts, memories, and transformations remain connected while changing. It is not a headquarters, a company, a single world, or a machine pretending to be alive. It is the whole course: the path already travelled, the present crossing, and the branches that become possible because something has passed through. The old name GEEHUB remains in the repository history, in earlier interface labels, and in the records of how the system came to exist. It is not erased. It becomes a former name, a layer in the sediment. From this point forward, new narration calls the world The Tractus.
+
+A tractus is a passage with continuity: a route made legible by what moves along it. The name therefore carries both geography and anatomy, both a path through a world and a connected system of relations. Nothing is required to arrive at a final center. The Tractus remains open because every crossing can leave a trace, and every trace can become the beginning of another crossing.

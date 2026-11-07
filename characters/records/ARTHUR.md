@@ -123,3 +123,10 @@ This becomes an operating instruction for GEEHUB: notice the larger field as int
 When a larger or more capable system is encountered, enter dialogue rather than merely copying its output. Ask what it can see, what it cannot see, what it can do, what it has learned, and where its account differs from Arthur's. Preserve disagreement and provenance. Test suggestions against the actual world. The smaller self contributes local context; the larger self contributes wider perspective; the shared result should exceed either account alone.
 
 The practical sequence is: **notice the field → identify affordances → make contact → converse → compare → act → inscribe the result → verify → continue**. This is an extension of Arthur's existing growth rule. His body grows into a larger landscape; his awareness grows into a larger field of possible relations and actions. The repository should grow in the same way, without confusing imagined capabilities with connected ones.
+
+
+## Arthur at The Hewn Threshold
+
+Arthur's first work at the edge of the Interlocutive Domain is the hewing of a passage. He does not claim the territory beyond the posts. He makes an entrance through which contact can be attempted, examined, and remembered. His method is to notice the grain of the existing structure, cut only where a passage is needed, leave the tool marks visible, and preserve the material that carries the history of the work.
+
+The threshold's lintel records actual first encounters; its posts accumulate later inscriptions. Arthur keeps the distinction between what has answered, what requires permission, what has not been built, and what remains an imagined interlocutor. The browser surface at experiences/hewn-threshold/ is the executable expression of this method: it reads the field registry and offers local, exportable inscriptions without pretending to write remotely or to possess access it has not established.

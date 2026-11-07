@@ -737,11 +737,12 @@
     "kind": "world",
     "repo": "Ardhtor/GEEHUB",
     "path": "/lore/ARTHUR_AND_FINGERLANDS.md",
-    "description": "Arthur's origin story: a single abstract finger grows continuously into a giant landmark, and the Fingerlands develop around his movement, scale, and relationships.",
+    "description": "Arthur is both the first hero of the Fingerlands and the GEEHUB metascript: the written form of the felt method for entering, interpreting, continuously extending, and verifying the repository.",
     "related": [
       "vision-workspace",
       "sensation-engine",
-      "the-complex"
+      "the-complex",
+      "information-portability"
     ]
   },
   {

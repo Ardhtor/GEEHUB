@@ -24,8 +24,8 @@ function portableJob() {
       sequenceId: "sequence-test",
       segmentationFrameSetId: "segmentation-test",
       landmarksFrameSetId: "landmarks-test",
-      segmentationChecksum: createHash("sha256").update(JSON.stringify({ schema: "geehub.frame-set-evidence", role: "segmentation" }) + "\\n").digest("hex"),
-      landmarksChecksum: createHash("sha256").update(JSON.stringify({ schema: "geehub.frame-set-evidence", role: "landmarks" }) + "\\n").digest("hex"),
+      segmentationChecksum: createHash("sha256").update(JSON.stringify({ schema: "geehub.frame-set-evidence", role: "segmentation" }) + "\n").digest("hex"),
+      landmarksChecksum: createHash("sha256").update(JSON.stringify({ schema: "geehub.frame-set-evidence", role: "landmarks" }) + "\n").digest("hex"),
       firstFrame: 0, lastFrame: 1, frameCount: 2, width: 720, height: 1280, fps: 24,
       pixelSemanticsVerified: false
     },

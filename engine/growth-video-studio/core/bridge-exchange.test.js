@@ -19,6 +19,16 @@ function portableJob() {
     output: { width: 720, height: 1280, fps: 24, format: "mp4" },
     growthStates: [{ id: "baseline" }, { id: "grown" }],
     landmarkFrames: [{ timeSeconds: 0 }, { timeSeconds: 0.1 }],
+    frameEvidence: {
+      schema: "geehub.render-frame-evidence", schemaVersion: 1,
+      sequenceId: "sequence-test",
+      segmentationFrameSetId: "segmentation-test",
+      landmarksFrameSetId: "landmarks-test",
+      segmentationChecksum: createHash("sha256").update(JSON.stringify({ schema: "geehub.frame-set-evidence", role: "segmentation" }) + "\\n").digest("hex"),
+      landmarksChecksum: createHash("sha256").update(JSON.stringify({ schema: "geehub.frame-set-evidence", role: "landmarks" }) + "\\n").digest("hex"),
+      firstFrame: 0, lastFrame: 1, frameCount: 2, width: 720, height: 1280, fps: 24,
+      pixelSemanticsVerified: false
+    },
     constraints: {
       protectFace: true,
       preserveSourceMotion: true,

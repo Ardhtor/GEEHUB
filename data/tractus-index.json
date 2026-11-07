@@ -139,6 +139,27 @@
           "target": "BEEFYTHIQ.WORLD"
         }
       ]
+    },
+    {
+      "id": "NORTHGATE.AI_COACH",
+      "type": "embodied_ai",
+      "title": "The AI Coach",
+      "path": "lore/AI_COACH.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "situated_in",
+          "target": "NORTHGATE.UNIVERSITY"
+        },
+        {
+          "type": "part_of",
+          "target": "NORTHGATE.ATHLETIC_COMMONS"
+        },
+        {
+          "type": "uses",
+          "target": "TRACTUS.WAND"
+        }
+      ]
     }
   ],
   "unresolved_addresses": [
@@ -189,7 +210,8 @@
     "situated_in",
     "part_of",
     "features",
-    "develops"
+    "develops",
+    "uses"
   ],
   "rules": {
     "stable_ids": true,

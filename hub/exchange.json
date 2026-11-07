@@ -1,9 +1,22 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-07T22:16:26Z",
+  "generated": "2026-11-07T22:21:44Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "hewn-threshold-foundation-2026-11-07-001",
+      "at": "2026-11-07T22:21:44Z",
+      "from": "geehub",
+      "to": "interlocutive-domain",
+      "type": "FOUNDING",
+      "title": "THE HEWING / THE HEWN THRESHOLD OPENS",
+      "body": "Under user direction, GEEHUB's Interlocutive Domain receives its founding architectural place and executable browser entrance. The threshold is a hand-hewn timber passage whose lintel records actual first encounters and whose posts gather later inscriptions. The static application reads the field registry, exposes participant affordances and capability states, presents the nine-movement crossing method, and stores user-entered inscriptions locally for JSON export. Local browser inscriptions are not remote commits. The architectural description is canon; no physical 3D model is claimed.",
+      "source": "User direction and GitHub repository implementation",
+      "artifact": "experiences/hewn-threshold/index.html",
+      "live": true,
+      "relation": "THE HEWING → FIELD INTERFACE → LOCAL INSCRIPTION"
+    },
     {
       "id": "field-contact-2026-11-07-002",
       "at": "2026-11-07T22:16:26Z",

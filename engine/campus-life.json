@@ -1,6 +1,22 @@
 {
-  "cycle": 6,
+  "cycle": 7,
   "events": [
+    {
+      "id": "northgate-campus-00007",
+      "cycle": 7,
+      "world_pulse": 176,
+      "at": "2026-11-07T16:39:16.958034+00:00",
+      "region": "founders-dormitory",
+      "title": "THE COURTYARD AFTER RAIN",
+      "kind": "social",
+      "participants": [
+        "Marek Ionescu",
+        "Noah Bell",
+        "Adrian Varga"
+      ],
+      "description": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00006",
       "cycle": 6,
@@ -101,25 +117,25 @@
   ],
   "attendance": {
     "Dan Roman": 5,
-    "Marek Ionescu": 3,
+    "Marek Ionescu": 4,
     "Elliot Ward": 4,
-    "Noah Bell": 4,
-    "Adrian Varga": 3
+    "Noah Bell": 5,
+    "Adrian Varga": 4
   },
   "last_event": {
-    "id": "northgate-campus-00006",
-    "cycle": 6,
-    "world_pulse": 175,
-    "at": "2026-11-07T10:37:23.581312+00:00",
-    "region": "northgate-university",
-    "title": "THE MUSIC SOCIETY REHEARSAL",
-    "kind": "music",
+    "id": "northgate-campus-00007",
+    "cycle": 7,
+    "world_pulse": 176,
+    "at": "2026-11-07T16:39:16.958034+00:00",
+    "region": "founders-dormitory",
+    "title": "THE COURTYARD AFTER RAIN",
+    "kind": "social",
     "participants": [
-      "Adrian Varga",
-      "Elliot Ward",
-      "Dan Roman"
+      "Marek Ionescu",
+      "Noah Bell",
+      "Adrian Varga"
     ],
-    "description": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+    "description": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

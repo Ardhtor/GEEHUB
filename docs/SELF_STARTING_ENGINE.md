@@ -38,7 +38,7 @@ configuration remain valid.
 The run log reports whether the engine created a commit, skipped because there
 was no worthwhile continuation, or stopped because configuration or validation
 failed. The commit appears in the ordinary Git history and links to the changed
-lore file.
+manuscript or lore file.
 
 ## Operating boundaries
 
@@ -58,9 +58,9 @@ lore file.
   target 3,500–5,500 words; lore additions target 900–1,500 words.
 - The model cannot choose arbitrary paths, edit code or workflows, delete files,
   or execute commands.
-- Chapter output is limited to 12,000 characters and checked before writing.
-- The workflow compiles the Python runner and validates the campus JSON before
-  contacting the model.
+- Chapter output is limited to 42,000 characters and checked before writing.
+- The workflow checks Python syntax, validates both JSON inputs, and runs the
+  chapter-numbering tests before contacting the model.
 - Pushes retry against the latest branch state; a rebase conflict stops safely
   instead of overwriting concurrent work.
 - Existing chapters are never replaced. Duplicate chapter headings are skipped.

@@ -737,12 +737,18 @@
     "kind": "world",
     "repo": "Ardhtor/GEEHUB",
     "path": "/lore/ARTHUR_AND_FINGERLANDS.md",
-    "description": "Arthur is both the first hero of the Fingerlands and the GEEHUB metascript: the written form of the felt method for entering, interpreting, continuously extending, and verifying the repository.",
+    "description": "Arthur is the first hero of the Fingerlands and the GEEHUB metascript: a detailed character record preserving his embodied identity, world, transformation continuity, and the felt method for repository development.",
     "related": [
       "vision-workspace",
       "sensation-engine",
       "the-complex",
       "information-portability"
+    ],
+    "character_record": "characters/records/ARTHUR.md",
+    "tags": [
+      "character-record",
+      "metascript",
+      "felt-method"
     ]
   },
   {
@@ -752,11 +758,41 @@
     "kind": "character",
     "repo": "Ardhtor/GEEHUB",
     "path": "/lore/ATLAS.md",
-    "description": "A large, warm, confident man whose presence is warmly adored by other big men; a character defined by mutual admiration, companionship, and belonging.",
+    "description": "A large, warm, confident man adored by other big men; detailed record of his physical identity, temperament, reciprocal relationships, social world, and continuity.",
     "related": [
       "sensation-engine",
       "arthur-and-fingerlands",
       "institute-of-becoming"
+    ],
+    "character_record": "characters/records/ATLAS.md",
+    "tags": [
+      "character-record",
+      "social-continuity"
+    ]
+  },
+  {
+    "id": "character-records",
+    "name": "GEEHUB Character Records",
+    "status": "active",
+    "kind": "canon-system",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/characters/",
+    "description": "Shared character-record standard and detailed, continuity-preserving records for GEEHUB inhabitants. Records connect identity, embodiment, temperament, voice, relationships, places, history, transformation, production requirements, canon status, and provenance.",
+    "related": [
+      "arthur-and-fingerlands",
+      "atlas",
+      "the-coach",
+      "institute-of-becoming",
+      "sensation-engine"
+    ],
+    "tags": [
+      "characters",
+      "records",
+      "canon",
+      "continuity",
+      "embodiment",
+      "relationships",
+      "production"
     ]
   }
 ]

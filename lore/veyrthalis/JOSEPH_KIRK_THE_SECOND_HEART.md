@@ -79,6 +79,16 @@ The chamber's voice spoke once more.
 
 Far beneath them, the heartbeat sounded again. This time it did not imitate either man's pulse. It waited between them, leaving room for both.
 
+## The warmth left in the rail
+
+After the heartbeat had passed, the rail kept the impression of their hands. It was not an imprint in the ordinary sense; there were no fingerprints, no visible marks. The material simply held a little warmth where each man had rested his palm, and the warmth spread outward very slowly, meeting the cooler length of the rail in a soft gradient. Kirk watched the boundary travel. He had the strange feeling that the chamber was becoming more legible as it became less spectacular. The great lights, the transparent walls, the voice that had spoken without air: all of that had been immense, but this small change was something he could stay with.
+
+Joseph returned to the rail and placed his hand beside the place where his warmth remained. He did not cover it. The new warmth appeared as a second field, close enough to touch the first without erasing its edge. Kirk smiled at the precision of it. He had expected a sign, perhaps another line of light or a phrase cut into the wall. Instead the room had given them a difference that could be felt by moving a hand a few inches. The two warm places were not identical, and neither needed to become the other.
+
+They began to notice the chamber's lesser sounds. A faint ticking travelled inside the wall, followed by a soft wooden settling somewhere above the ceiling. The floor gave a low response when either man shifted his weight. The air carried the mineral scent of the room, but underneath it was a trace of cedar, as if a door in another part of the structure had recently been opened. The place was not silent between its great events. It was full of small continuities, each one too ordinary to demand interpretation and too particular to be mistaken for nothing.
+
+Kirk asked Joseph whether he wanted to return to the threshold. Joseph said not yet. He wanted to remember the room without making the room perform again. They stood together for a while, looking at the two apertures and the pale lines that had reached them. The second heartbeat did not return on command. It remained elsewhere, or between places, or beyond the limits of their hearing. Their attention widened around that absence. There was more to the chamber than what it chose to show, and more to their meeting than what either could explain.
+
 ## Character movement
 
 - **Kirk:** moves from relying on Joseph as an anchor toward testing and naming his own perceptions. He can ask for closeness without surrendering authorship of his experience.

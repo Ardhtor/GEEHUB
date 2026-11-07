@@ -39,7 +39,8 @@
       "beefythiq",
       "muscle-myth",
       "facility",
-      "vision-workspace"
+      "vision-workspace",
+      "arthur-and-fingerlands"
     ]
   },
   {
@@ -726,6 +727,20 @@
       "institute",
       "tractus",
       "continuity"
+    ]
+  },
+  {
+    "id": "arthur-and-fingerlands",
+    "name": "Arthur and the Fingerlands",
+    "status": "incubating",
+    "kind": "world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/ARTHUR_AND_FINGERLANDS.md",
+    "description": "Arthur's origin story: a single abstract finger grows continuously into a giant landmark, and the Fingerlands develop around his movement, scale, and relationships.",
+    "related": [
+      "vision-workspace",
+      "sensation-engine",
+      "the-complex"
     ]
   }
 ]

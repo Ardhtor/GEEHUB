@@ -1,0 +1,45 @@
+name: The Tractus — self-starting engine
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Generate and validate without committing"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tractus-autonomous-engine
+  cancel-in-progress: false
+
+jobs:
+  continue-the-tractus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the living corpus
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate one continuity-safe contribution
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TRACTUS_MODEL: ${{ vars.TRACTUS_MODEL }}
+          TRACTUS_DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        run: python scripts/tractus_engine.py
+
+      - name: Push the engine's own commit
+        if: success()
+        run: git push origin HEAD:${GITHUB_REF_NAME}

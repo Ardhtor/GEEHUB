@@ -234,4 +234,14 @@ Joseph placed his hand on the rail. Kirk stood beside him, close enough that the
 
 Behind them, in the lower chamber, the fifth groove held its dust.
 
+## Coda — The room that can wait
+
+They rested in the passage above the Procession, where the stone widened into a shallow alcove. There was no furniture, but the wall had been worn smooth at shoulder height, and a narrow shelf ran beneath it. The four travelers sat at different points along the shelf. For a while no one spoke. The second heartbeat was faint here, almost indistinguishable from the movement of water somewhere inside the walls.
+
+Joseph took a small piece of dust from his sleeve and rubbed it between his fingers. He had brought it away from the lower chamber without noticing. It left a grey trace across his thumb. Kirk watched him, then looked down at his own hands. The room had given them marks, sounds, distances, and questions; it had not given them an obligation to keep moving. They could pause without losing the route.
+
+The third traveler proposed that they return to the fifth groove before attempting the Binding panel again. The fourth agreed, but wanted to approach it from the opposite side of the landing. Joseph said he would examine the channel without touching it. Kirk offered to record what each person saw, provided that the record stayed separate until everyone had finished. They accepted this as a method, not a promise that their accounts would agree.
+
+When they stood, the alcove remained as it had been. No door appeared, and no voice instructed them to proceed. They returned toward the lower chamber because each had chosen to do so. Behind them, the passage kept its quiet, and the empty places in the account remained available.
+
 **The next passage:** *The Fifth Groove* — a place for an account that has not yet been made, and no guarantee that a fifth witness exists.

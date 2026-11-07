@@ -9,6 +9,8 @@ import datetime as dt
 import json
 from pathlib import Path
 
+from inscription import inscribe_event
+
 ROOT = Path(__file__).resolve().parents[1]
 STATE_PATH = ROOT / "engine" / "state.json"
 LORE_PATH = ROOT / "lore" / "AUTONOMOUS_STREAM.md"
@@ -375,6 +377,7 @@ def main():
 
     source_counts[source] = int(source_counts.get(source, 0)) + 1
     event = {
+        "id": f"world-pulse-{pulse:06d}",
         "pulse": pulse,
         "time": now,
         "actor": actor,
@@ -390,7 +393,9 @@ def main():
         "next_region": state.get("next_region"),
         "pressure": round(float(state["pressure"]), 3),
         "memory": round(float(state["memory"]), 3),
+        "status": "OCCURRED",
     }
+    event = inscribe_event(event, "tractus-world-engine")
     state["pulse"] = pulse
     state["active_region"] = current_id
     state["current_phase"] = phase

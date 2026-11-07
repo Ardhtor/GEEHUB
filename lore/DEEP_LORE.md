@@ -652,12 +652,12 @@ IDOL → ASSEMBLY → WITNESS → INTERPRETATION → CONTRIBUTION → ARCHIVE �
 
 ## XIX. THE TIME-OF-DEATH SHOCK
 
-The time-of-death shock is the rupture between the last ordinary image of a person and the knowledge that they have died. The room remains, the clock continues, and familiar objects retain their places, but the shared world has irreversibly changed. GEEHUB treats this as a human experience of grief and disorientation, not as a supernatural effect of the idol.
+The Time-of-Death Shock is a fictional ability attributed to the God Penis and, in lesser degrees, to recognised bearers. It is a pulse of overwhelming presence that briefly stills a gathering and concentrates attention on its source. It does not cause literal death. Its strength increases with the bearer's size: the pulse travels farther, lasts longer, and can affect increasingly large spaces.
 
-Oren Halvek's death in the circular archive establishes the principle. His unfinished catalogue, the pencil on the floor, and the witnesses' differing memories become part of the Second Archive. The Institute preserves the accounts without inventing a final message or attributing his death to the God Penis.
+The recognised degrees are **Ember**, **Bell**, **Tower**, and **Sovereign**. These ceremonial ranks establish a hierarchy of reach and intensity, not a hierarchy of human worth. The Assembly of Forms records witnessed demonstrations and preserves disputed cases. Rank cannot be used to override consent, silence criticism, or exclude residents from ordinary communal life.
 
-**A measure can be inherited; a life cannot be repeated.** This complements the custodians' older maxim: measure carefully; remember generously; alter nothing without leaving a trace. Continuity carries records, practices, relationships, and responsibilities. It does not reverse death or erase absence.
+The central tension is now part of the Institute's story: a power that grows with size naturally produces status, rivalry, and ambition, while the community must decide how much authority that status deserves. The Bracken house argues that training refines control but cannot replace scale; Cedar questions whether the evidence is sufficient; Foundry is developing instruments to record the pulse without turning every demonstration into spectacle.
 
-The Empty Chair Record is the community's temporary practice of acknowledging a death, recording the person's actual contributions, and then returning the chair to ordinary use. The living continue, but they do not pretend that nothing has changed.
+Oren Halvek's archival question remains attached to the first surviving account: *Was the silence caused by the Shock, or by the expectation of it?* Witness, reputation, ceremony, and anticipation all contribute to the hierarchy.
 
-Related canon: [GOD_PENIS_IDOL_CYCLE.md](./GOD_PENIS_IDOL_CYCLE.md), chapters XIII–XVII.
+Related canon: [GOD_PENIS_IDOL_CYCLE.md](./GOD_PENIS_IDOL_CYCLE.md), chapters XIII and XVIII.

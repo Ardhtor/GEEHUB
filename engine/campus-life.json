@@ -1,6 +1,22 @@
 {
-  "cycle": 9,
+  "cycle": 10,
   "events": [
+    {
+      "id": "northgate-campus-00010",
+      "cycle": 10,
+      "world_pulse": 179,
+      "at": "2026-11-07T17:02:02.626040+00:00",
+      "region": "northgate-university",
+      "title": "THE CLUBS AND SOCIETIES FAIR",
+      "kind": "community",
+      "participants": [
+        "Dan Roman",
+        "Elliot Ward",
+        "Noah Bell"
+      ],
+      "description": "Tables appear beneath the arcade: architecture, music, rowing, film, natural history, computing and the old debating society. New students drift between them while returning members explain what they actually do, rather than reciting polished pitches.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00009",
       "cycle": 9,
@@ -148,26 +164,26 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 6,
+    "Dan Roman": 7,
     "Marek Ionescu": 5,
-    "Elliot Ward": 5,
-    "Noah Bell": 6,
+    "Elliot Ward": 6,
+    "Noah Bell": 7,
     "Adrian Varga": 6
   },
   "last_event": {
-    "id": "northgate-campus-00009",
-    "cycle": 9,
-    "world_pulse": 178,
-    "at": "2026-11-07T16:59:59.787458+00:00",
-    "region": "northgate-library",
-    "title": "THE FILM ARCHIVE CLUB",
-    "kind": "film",
+    "id": "northgate-campus-00010",
+    "cycle": 10,
+    "world_pulse": 179,
+    "at": "2026-11-07T17:02:02.626040+00:00",
+    "region": "northgate-university",
+    "title": "THE CLUBS AND SOCIETIES FAIR",
+    "kind": "community",
     "participants": [
+      "Dan Roman",
       "Elliot Ward",
-      "Marek Ionescu",
-      "Adrian Varga"
+      "Noah Bell"
     ],
-    "description": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+    "description": "Tables appear beneath the arcade: architecture, music, rowing, film, natural history, computing and the old debating society. New students drift between them while returning members explain what they actually do, rather than reciting polished pitches.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

@@ -1677,3 +1677,11 @@ SETH: A line becomes visible between NORTHGATE UNIVERSITY and BLUEWATER QUAY. Th
 NICK: A tree-lined avenue climbs from the reservoir into a campus of lecture halls, workshops, music rooms and green courtyards. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: worlds/northgate-university/README.md. Pressure 1.00; memory 1.00.
+
+## BLUEWATER QUAY / pulse 179 / CROSSING
+
+NICK: The world crosses the route from NORTHGATE UNIVERSITY into BLUEWATER QUAY. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: A calm reservoir promenade with a boathouse, tea room, wooden landings, reeds, long benches, and an open horizon. Relation carried forward: NORTHGATE OPENS ITS QUAD.
+
+Source retained: worlds/bluewater-quay/README.md. Pressure 0.88; memory 1.00.

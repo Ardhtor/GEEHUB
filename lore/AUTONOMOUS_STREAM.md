@@ -1333,3 +1333,11 @@ SETH: A line becomes visible between NORTHGATE UNIVERSITY and BLUEWATER QUAY. Th
 NICK: A tree-lined avenue climbs from the reservoir into a campus of lecture halls, workshops, music rooms and green courtyards. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 179 — CROSSING / BLUEWATER QUAY / 2026-11-07T17:02:02.588996+00:00
+
+NICK: The world crosses the route from NORTHGATE UNIVERSITY into BLUEWATER QUAY. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: A calm reservoir promenade with a boathouse, tea room, wooden landings, reeds, long benches, and an open horizon. Relation carried forward: NORTHGATE OPENS ITS QUAD.
+
+Rule: meaningful change becomes an outward-facing signal

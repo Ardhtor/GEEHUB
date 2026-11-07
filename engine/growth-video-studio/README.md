@@ -133,8 +133,9 @@ GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \
 The growth-state JSON may be an array or an object with a `states` array.
 If the manifest contains multiple registered sequences, append the desired
 sequence id. The command reads the registered sidecars from the local Dropbox
-mirror and writes a new job JSON and queued manifest into the bundle directory
-using exclusive creation. It prints the subsequent `stage:bridge` command.
+mirror, reconstructs the frame sequence, and rechecks every referenced body
+and face PNG checksum and dimension before writing a new job JSON and queued
+manifest into the bundle directory using exclusive creation. It prints the subsequent `stage:bridge` command.
 Staging rechecks the actual sidecar files before the Resolve inspector can
 audit the job. The Resolve integration remains a read-only handoff inspector;
 no local render is claimed by job preparation.

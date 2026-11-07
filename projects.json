@@ -643,5 +643,22 @@
       "media-tools",
       "dropbox-production-stream"
     ]
+  },
+  {
+    "id": "god-penis-idol-cycle",
+    "name": "The God Penis — Idol Cycle",
+    "status": "active",
+    "kind": "mythic-story-cycle",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/GOD_PENIS_IDOL_CYCLE.md",
+    "description": "Fictional mythic cycle connecting the God Penis, Penis Wizards, Institute of Phallic Studies, Window Society, Great Gallery, Hall of Continuity, Big-Pec Altar, and Festival of Again. Distinguishes historical evidence, cultural tradition, and in-world legend.",
+    "related": [
+      "muscle-myth",
+      "facility",
+      "beefythiq",
+      "the-complex",
+      "sensation-engine",
+      "male-harem-virtual-space"
+    ]
   }
 ]

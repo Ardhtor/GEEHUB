@@ -36,7 +36,7 @@ CONTEXT_SOURCES = (
     ("engine/campus-life.json", 5_000),
     ("engine/tractus_narrative_queue.json", 8_000),
 )
-MAX_CHAPTER_CHARS = 12_000
+MAX_CHAPTER_CHARS = 42_000
 API_URL = "https://api.openai.com/v1/responses"
 
 
@@ -95,7 +95,7 @@ leave a natural thread for later development.
 Return a JSON object with exactly these keys:
 - path: exactly one of the approved paths supplied below
 - title: a concise chapter title, without Markdown heading marks
-- chapter: the complete chapter body in Markdown, normally 900–1500 words
+- chapter: for the novel, a full 3,500–5,500-word chapter; for lore, a 900–1,500-word addition. Use Markdown.
 
 Choose the file whose existing material most naturally supports the next
 chapter. The novel continuation file is preferred when the latest manuscript
@@ -116,7 +116,7 @@ continuation, return an object with skip=true and a brief reason instead.
         "model": model,
         "instructions": instructions,
         "input": user_text,
-        "max_output_tokens": 3500,
+        "max_output_tokens": 10000,
         "text": {"format": {"type": "json_object"}},
     }
     request = urllib.request.Request(
@@ -211,8 +211,14 @@ def main() -> None:
     if not isinstance(chapter, str):
         fail("Chapter body is missing.")
     chapter = chapter.strip()
-    if not 1_000 <= len(chapter) <= MAX_CHAPTER_CHARS:
-        fail("Chapter body length is outside the 1,000–12,000 character limit.")
+    word_count = len(chapter.split())
+    if len(chapter) > MAX_CHAPTER_CHARS:
+        fail("Chapter body exceeds the 42,000 character safety limit.")
+    if relative == "novel/BOOK_I_CONTINUATION_03.md":
+        if not 3_500 <= word_count <= 5_500:
+            fail("Novel chapter must contain 3,500–5,500 words under the publishing standard.")
+    elif not 900 <= word_count <= 1_500:
+        fail("Lore addition must contain 900–1,500 words.")
     if chapter.startswith("#"):
         fail("Chapter body must not supply its own top-level title.")
     if (chr(96) * 3) in chapter or "<script" in chapter.casefold() or "<iframe" in chapter.casefold():

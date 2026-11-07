@@ -1373,3 +1373,11 @@ NICK: The world crosses the route from BLUEWATER QUAY into LANTERN MARKET. The e
 SETH: A covered timber-and-glass arcade of food stalls, books, flowers, records, small makers, a fountain, and lantern-lit places to meet. Relation carried forward: THE WATER OPENS THE VIEW.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 184 — ATMOSPHERE / LANTERN MARKET / 2026-11-07T18:50:09.826671+00:00
+
+SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

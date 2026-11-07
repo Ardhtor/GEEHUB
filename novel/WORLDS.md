@@ -1717,3 +1717,11 @@ NICK: The world crosses the route from BLUEWATER QUAY into LANTERN MARKET. The e
 SETH: A covered timber-and-glass arcade of food stalls, books, flowers, records, small makers, a fountain, and lantern-lit places to meet. Relation carried forward: THE WATER OPENS THE VIEW.
 
 Source retained: worlds/lantern-market/README.md. Pressure 0.88; memory 1.00.
+
+## LANTERN MARKET / pulse 184 / ATMOSPHERE
+
+SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/lantern-market/README.md. Pressure 0.90; memory 1.00.

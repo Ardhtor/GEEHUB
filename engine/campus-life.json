@@ -1,6 +1,23 @@
 {
-  "cycle": 14,
+  "cycle": 15,
   "events": [
+    {
+      "id": "northgate-campus-00015",
+      "cycle": 15,
+      "world_pulse": 184,
+      "at": "2026-11-07T18:50:09.859912+00:00",
+      "region": "founders-dormitory",
+      "title": "SUPPER IN THE COMMON KITCHEN",
+      "kind": "dormitory",
+      "participants": [
+        "Dan Roman",
+        "Marek Ionescu",
+        "Elliot Ward",
+        "Noah Bell"
+      ],
+      "description": "The kitchen fills gradually. Someone has put rice on, another is chopping vegetables, and a third is trying to rescue a pan from yesterday. The conversation moves between coursework, a new record, and who has borrowed the good screwdriver. Nobody eats alone unless he wants to.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00014",
       "cycle": 14,
@@ -229,26 +246,27 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 11,
-    "Marek Ionescu": 8,
-    "Elliot Ward": 9,
-    "Noah Bell": 8,
+    "Dan Roman": 12,
+    "Marek Ionescu": 9,
+    "Elliot Ward": 10,
+    "Noah Bell": 9,
     "Adrian Varga": 8
   },
   "last_event": {
-    "id": "northgate-campus-00014",
-    "cycle": 14,
-    "world_pulse": 183,
-    "at": "2026-11-07T18:25:04.025583+00:00",
-    "region": "northgate-university",
-    "title": "THE QUAD BETWEEN LECTURES",
-    "kind": "study",
+    "id": "northgate-campus-00015",
+    "cycle": 15,
+    "world_pulse": 184,
+    "at": "2026-11-07T18:50:09.859912+00:00",
+    "region": "founders-dormitory",
+    "title": "SUPPER IN THE COMMON KITCHEN",
+    "kind": "dormitory",
     "participants": [
       "Dan Roman",
       "Marek Ionescu",
-      "Elliot Ward"
+      "Elliot Ward",
+      "Noah Bell"
     ],
-    "description": "A group of students leaves the engineering lecture hall together. One carries a model under his arm; another is still explaining why the bridge supports need to be moved. They settle beneath the plane trees and the discussion becomes less formal, turning into plans for the afternoon.",
+    "description": "The kitchen fills gradually. Someone has put rice on, another is chopping vegetables, and a third is trying to rescue a pan from yesterday. The conversation moves between coursework, a new record, and who has borrowed the good screwdriver. Nobody eats alone unless he wants to.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

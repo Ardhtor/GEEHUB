@@ -256,3 +256,7 @@ GEEHUB's current repository and interface are local ground, not the edge of its 
 
 Arthur's metascript includes a dialogue with a larger, more developed version of himself. The larger Arthur is an interlocutor, not an authority to imitate blindly. Each can question, teach, correct, and change the other. This encounter models how GEEHUB should relate to its future capacities and the systems around it: converse, compare states, test possibilities, preserve distinct sources, and integrate only verified results. Documentation must distinguish what is available now, connected through a tool, permission-dependent, not yet implemented, or imagined.
 The field is registered in [engine/interlocutive-field.json](engine/interlocutive-field.json); inspect its current recorded contacts with `python engine/inspect_field.py` from a repository checkout. This validates the local registry and does not itself re-contact remote services. The first real contact and the Dropbox AI foundation documents are recorded in [the field contract](docs/INTERLOCUTIVE_FIELD.md).
+
+## Recent chapter
+
+[It's a Hapax Legomenon](novel/CHAPTER_XL_ITS_A_HAPAX_LEGOMENON.md) — a forceful workshop-floor chapter about singular discoveries, disciplined recordkeeping, and getting back to the work.

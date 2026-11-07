@@ -715,3 +715,8 @@ Diabound Kernel is established in the Tractus as a living, intelligent, rideable
 ## XXIV. MEN OF NORTHGATE: INTIMACY AS DAILY LIFE
 
 Northgate's adult residents have an open, ordinary culture of gay intimacy. Men form partnerships, date, have sex and male-male intercourse, share domestic routines, and sometimes choose casual encounters. Consent, privacy, and personal agency are treated as ordinary conditions of adult life, not as exceptional plot devices. The campus allows desire to be visible without turning private encounters into public property. Emil and Tomas, Marek and Adrian, and the developing connection between Dan Roman and Noah Bell each have distinct rhythms; none is required to follow the same model. The full chapter, including the Long Table, dormitory life, sexual-health support, and the relationships beyond Northgate, is recorded in [The Rooms Above the Arcade](MEN_OF_NORTHGATE_INTIMACY.md).
+
+
+## XXV. THE LION GATE
+
+Northgate's principal entrance is marked by four granite lions, two on each side of the great arch. The outer pair look toward the city; the inner pair turn toward the university. Their presence signifies welcome, steadiness, memory, and the threshold between public life and the inhabited campus. The gate is an open meeting place rather than a checkpoint. Its full architectural and narrative specification is recorded in [The Lion Gate](NORTHGATE_LION_GATE.md). The lions should recur as a stable landmark through arrivals, departures, seasons, reunions, and ordinary campus life.

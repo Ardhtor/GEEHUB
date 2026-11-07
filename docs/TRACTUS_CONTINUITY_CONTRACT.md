@@ -75,3 +75,10 @@ The world engine continues to inscribe world events through its existing event p
 A Tractus passage is connected when the relevant GEEHUB systems can discover its source, understand its status, continue from its resulting state, preserve its artifact, and return the result to the shared world without relying on the original conversation.
 
 **GEEHUB is the living workspace. Tractus is its continuity. A passage is how one becomes the next.**
+
+
+## The interlocutive field and larger-self dialogue
+
+Continuity does not stop at the repository boundary. GEEHUB must notice its larger playing field—including connected tools, repositories, source media, external knowledge, the user's wider creative environment, and more developed possible forms of itself—as a set of potential interactions. The field is operationally relevant when its affordances can be identified and contacted through real interfaces. Read [The Interlocutive Field](INTERLOCUTIVE_FIELD.md) for the canonical procedure.
+
+The larger-self pattern is reciprocal dialogue, not unilateral imitation. A local character or process may consult a more developed counterpart, compare their states and capacities, ask questions, contribute local discoveries, test suggestions, and integrate verified results. Preserve distinct identities and provenance. Every interaction must distinguish live capability from permission-dependent access, unimplemented possibility, and fiction. A proposed connection is not a working connection; an imagined conversation is not an executed tool call.

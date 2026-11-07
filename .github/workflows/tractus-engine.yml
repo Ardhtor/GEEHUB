@@ -38,6 +38,7 @@ jobs:
           python -c "compile(open('scripts/tractus_engine.py', encoding='utf-8').read(), 'scripts/tractus_engine.py', 'exec')"
           python -m json.tool engine/campus-life.json > /dev/null
           python -m json.tool engine/tractus_narrative_queue.json > /dev/null
+          python -B -m unittest discover -s scripts -p 'test_*.py'
 
       - name: Generate one continuity-safe contribution
         env:

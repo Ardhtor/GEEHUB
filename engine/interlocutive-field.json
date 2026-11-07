@@ -135,7 +135,12 @@
       "observations": [
         "Top-level folder listing completed",
         "Observed folders include AI, artifacts, chapters, worlds, production, state, _engine, Creations, maps, assets, characters, experiments, and corpus",
-        "Observed source files include growth_comission.mov and a WebP reference image"
+        "Observed source files include growth_comission.mov and a WebP reference image",
+        "The /GEEHUB/corpus folder was inspected and returned no immediate children.",
+        "The /GEEHUB/AI folder contains three Paper documents: GEEHUB AI Build 0.1, Coach: The Presence Charter, and Live Wand Session 001.",
+        "The AI build document specifies a Tractus/Wand/runtime architecture but explicitly states that its proposed source tree has not yet been created.",
+        "The Live Wand Session records supervised conversational execution and a simulated ledger, not a deployed service.",
+        "The /GEEHUB/characters folder contains Dima Romanov — Physique Study.paper; its text records visual observations and explicitly leaves measurements unestablished."
       ],
       "affordances": [
         "list_folder",
@@ -145,7 +150,8 @@
         "inspect_metadata",
         "upload",
         "copy",
-        "create_folder"
+        "create_folder",
+        "read_paper_documents"
       ],
       "contact": "Connected Dropbox tools",
       "continuity": "Dropbox /GEEHUB; compact rules and exchange records remain in GitHub"
@@ -167,9 +173,97 @@
       ],
       "contact": "Dialogue represented through the assistant and durable records; no independent agent connection is claimed",
       "continuity": "characters/records/ARTHUR.md and docs/INTERLOCUTIVE_FIELD.md"
+    },
+    {
+      "id": "ai-foundation",
+      "name": "GEEHUB AI — Build 0.1",
+      "kind": "architecture_document",
+      "location": "Dropbox:/GEEHUB/AI/GEEHUB AI — Build 0.1.paper",
+      "status": "verified_now",
+      "observations": [
+        "Full document fetched and read",
+        "Specifies Tractus event storage, prime-coded record classes, Wand operations, retrieval, model adapter, evaluation, and permission gates",
+        "Its source tree is explicitly unimplemented in Dropbox"
+      ],
+      "affordances": [
+        "read",
+        "compare_with_repository",
+        "port_specification",
+        "implement_source_scaffold"
+      ],
+      "contact": "Connected Dropbox fetch",
+      "continuity": "engine/interlocutive-field.json"
+    },
+    {
+      "id": "wand-session-001",
+      "name": "GEEHUB AI — Live Wand Session 001",
+      "kind": "supervised_session_record",
+      "location": "Dropbox:/GEEHUB/AI/GEEHUB AI — Live Wand Session 001.paper",
+      "status": "verified_now",
+      "observations": [
+        "Full session record fetched and read",
+        "Defines REST, POINT, INSPECT, DISCOVER, MAKE, RENDER, receipt states and BWOMPH feedback",
+        "Explicitly distinguishes supervised design execution from deployed runtime"
+      ],
+      "affordances": [
+        "read",
+        "port_interaction_contract",
+        "prototype_cursor",
+        "verify_receipts"
+      ],
+      "contact": "Connected Dropbox fetch",
+      "continuity": "engine/interlocutive-field.json"
+    },
+    {
+      "id": "coach-presence",
+      "name": "Coach — The Presence Charter",
+      "kind": "character_document",
+      "location": "Dropbox:/GEEHUB/AI/GEEHUB — Coach_ The Presence Charter.paper",
+      "status": "verified_now",
+      "observations": [
+        "Full charter fetched and read",
+        "Defines Coach as a cross-corpus adult character whose presence is additive and does not overwrite existing canon"
+      ],
+      "affordances": [
+        "read",
+        "link_character_record",
+        "extend_presence_to_relevant_files"
+      ],
+      "contact": "Connected Dropbox fetch",
+      "continuity": "characters/records and future cross-corpus presence links"
+    },
+    {
+      "id": "dima-romanov-study",
+      "name": "Dima Romanov — Physique Study",
+      "kind": "character_reference_document",
+      "location": "Dropbox:/GEEHUB/characters/Dima Romanov — Physique Study.paper",
+      "status": "verified_now",
+      "observations": [
+        "Full study fetched and read",
+        "Records visible physique characteristics while explicitly avoiding unsupported exact measurements"
+      ],
+      "affordances": [
+        "read",
+        "preserve_visual_reference",
+        "link_to_character_record"
+      ],
+      "contact": "Connected Dropbox fetch",
+      "continuity": "Dropbox:/GEEHUB/characters/"
     }
   ],
   "next_contacts": [
+    {
+      "target": "ai-foundation",
+      "action": "Port the Dropbox AI 0.1 architecture into an executable, tested source scaffold while preserving its honest provider/runtime boundary."
+    },
+    {
+      "target": "wand-session-001",
+      "action": "Translate the supervised Wand heartbeat and cursor-state contract into a small, accessible interface prototype only after the event and operation contracts are implemented."
+    },
+    {
+      "target": "coach-presence",
+      "action": "Link the Coach Presence Charter to the canonical character record and preserve its cross-corpus presence rule."
+    },
     {
       "target": "spatial-perception",
       "action": "Resolve the repository identity or access path before treating the Blender participant as connected."

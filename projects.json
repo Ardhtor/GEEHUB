@@ -533,7 +533,12 @@
       "continuity",
       "HULUM'A",
       "open-continuation"
-    ]
+    ],
+    "volumes": [
+      "lore/mexiancas/CHRONICLE_I.md",
+      "lore/mexiancas/CHRONICLE_II_THE_OTHER_ACCOUNT.md"
+    ],
+    "summary": "Self-narrating sentient world; two living chronicle volumes preserve its own history and its independent correspondence with the Other Side."
   },
   {
     "id": "joseph-kirk-continuity",

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "purpose": "Give each autonomous narrative cycle a grounded next direction without forcing a predetermined plot.",
+  "selection_rule": "Choose one lane whose latest state has a live consequence. Prefer the main manuscript when its last scene is ready to continue. Otherwise rotate among relationship, campus, lore, and institutional threads. Do not repeat a scene merely to fill a cycle.",
+  "active_lanes": [
+    {
+      "id": "main-manuscript",
+      "priority": 1,
+      "target": "novel/BOOK_I_CONTINUATION_03.md",
+      "state": "The latest chapter is LXXII, The Door Left Open. The first man has returned from beneath the seventh well carrying the eyes of the darkness. Continue with the consequences of his return and the altered house; allow the characters to respond before escalating again.",
+      "next_pressure": "What does the returned man remember, what has changed in his relationship with Luke and Joseph, and how does the house accommodate a person who is both familiar and newly changed?"
+    },
+    {
+      "id": "romance-and-domestic-life",
+      "priority": 2,
+      "target": "lore/ECONOMY_OF_FAVOURS.md",
+      "state": "Ivo and Mara have begun a relationship; Emil and Tomas have shared a dance and a quieter form of recognition. Nick and Seth have considered the difference between an audience and a witness.",
+      "next_pressure": "Advance affection through ordinary shared life: cooking, returning home, errands, small promises, uncertainty, humour, and chosen acts of care. Give each relationship its own pace and chemistry."
+    },
+    {
+      "id": "northgate-campus",
+      "priority": 3,
+      "target": "lore/DEEP_LORE.md",
+      "state": "Northgate University, Founders Dormitory, the athletic commons, library, archive room, and shared kitchen are active. Dan Roman, Marek Ionescu, Elliot Ward, Noah Bell, and Adrian Varga are established adult students.",
+      "next_pressure": "Let the campus become a lived social world with classes, meals, workshops, clubs, training, friendships, flirtation, and the gradual discovery of new places."
+    },
+    {
+      "id": "idol-cycle-and-older-gods",
+      "priority": 4,
+      "target": "lore/GOD_PENIS_IDOL_CYCLE.md",
+      "state": "Ilyan and Soren have become twin centres of a changing field; Seth, Nick, and the older gods have examined the difference between influence, recognition, and rule.",
+      "next_pressure": "Continue from the older gods' and Seth and Nick's perspectives. Explore consequence and interpretation rather than repeating the same account of power."
+    },
+    {
+      "id": "deep-lore-and-institutions",
+      "priority": 5,
+      "target": "lore/DEEP_LORE.md",
+      "state": "The Tractus contains the Dad Convent, the Institute of Phallic Studies, the favor economy, the city gardens, and a growing network of universities, dormitories, workshops, and gathering places.",
+      "next_pressure": "Connect institutions through people moving between them. Let buildings, meals, work, customs, and recurring objects preserve continuity."
+    }
+  ],
+  "standing_constraints": [
+    "Treat every named romantic character as an individual; do not force pairings.",
+    "All romantic characters are adults.",
+    "Affection can be vivid and physical without becoming explicit.",
+    "Preserve chronology, source fidelity, and established relationships.",
+    "Distinguish canon from speculation and do not silently turn experiments into facts.",
+    "Every cycle should make one meaningful change or skip cleanly."
+  ]
+}

@@ -66,6 +66,10 @@ It preserves superseded plans rather than erasing them. A building's history rem
 
 The first phase is an estate survey and core infrastructure plan. The main house, yard, garage, workshop, orchard, and approach road are established. The Great Hall and the connected service court are the first major expansion priorities. The first build-day narrative is recorded separately in `FIRST_BUILD_DAY.md`; the active programme is in `BUILD_PROGRAM.md`.
 
+### New narrative developments
+
+The connected novel now includes **The Road to the Convent** (Chapter XXXVI), in which the Dad Convent collaborates with the Facility on a durable shared road and settlement plan. **Dan Roman Arrives** (Chapter XXXVII) introduces Dan as a fictional Romanian adult resident: athletic, broad-built, handsome, practically minded, and interested in training environments and architecture. **The University of the Long Table** (Chapter XXXVIII) establishes the university commons, its first schools, the dormitory district, and Dan's contribution to the movement programme. These chapters extend the settlement without replacing the original household roles or the existing construction programme.
+
 ### Connections
 
 - Parent setting: GEEHUB / The Living World

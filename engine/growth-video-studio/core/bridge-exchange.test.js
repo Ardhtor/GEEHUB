@@ -151,6 +151,17 @@ test("refuses an input frame-set sidecar with the wrong checksum", async t => {
   }), /SHA-256 does not match/);
 });
 
+test("keeps legacy v1 render payloads stageable without the additive frame-evidence field", async t => {
+  const f = await fixture(t);
+  delete f.payload.frameEvidence;
+  const receipt = await stageBridgeExchange({
+    manifest: f.manifest, jobId: "render-test",
+    portableJob: f.payload, dropboxRoot: f.root
+  });
+  assert.equal(receipt.status, "staged");
+  assert.equal(receipt.frameSetVerification.verified, 2);
+});
+
 test("refuses stale frame-evidence references before writing an exchange", async t => {
   const f = await fixture(t);
   f.payload.frameEvidence.sequenceId = "stale-sequence";

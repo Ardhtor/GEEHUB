@@ -53,3 +53,9 @@ At dusk, he stood on the eastern balcony with a mug of coffee. The grey cat appe
 The cat remained.
 
 For the first time since his arrival, Dan looked entirely at home.
+
+## A place begins to recognise him
+
+The next morning Dan found that someone had left a second cup beside the planter on the eastern balcony. It was clean, turned upside down against the dew, and placed far enough from the grey cat's usual step that it would not be knocked over. He did not know who had put it there. He brought his own coffee outside and stood for a while in the cool air, watching the university wake below him. A delivery cart rattled over the courtyard stones. Someone opened the gymnasium doors, and the first broad stripe of sunlight crossed the training floor exactly where he had hoped it would.
+
+He began to recognise the sounds of the place: the library's side door closing with a soft wooden click, the kitchen extractor starting before breakfast, the distant thud of a ball in the athletic commons. The city was not yet familiar, but it had begun to acquire a pattern that he could carry in his head. When Joseph came up the steps, Dan moved the spare cup aside and made room on the ledge. They spoke about the roof trusses, then about the best route to the river, then about nothing in particular. The conversation did not need to justify itself. Dan had arrived as a new person with work to offer; now the place was beginning to return the offer in the form of small recognitions.

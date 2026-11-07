@@ -214,6 +214,31 @@
           "target": "TRACTUS.COMPLETION_RULE"
         }
       ]
+    },
+    {
+      "id": "NORTHGATE.OMEN_BENEATH_THE_FEAST",
+      "type": "ominous_story_arc",
+      "title": "The Omen Beneath the Feast",
+      "path": "lore/NORTHGATE_OMEN_BENEATH_THE_FEAST.md",
+      "status": "developing",
+      "relationships": [
+        {
+          "type": "situated_in",
+          "target": "NORTHGATE.UNIVERSITY"
+        },
+        {
+          "type": "follows",
+          "target": "NORTHGATE.GREAT_FEAST"
+        },
+        {
+          "type": "references",
+          "target": "NORTHGATE.LION_GATE"
+        },
+        {
+          "type": "connects",
+          "target": "NORTHGATE.AI_COACH"
+        }
+      ]
     }
   ],
   "unresolved_addresses": [
@@ -277,7 +302,8 @@
     "develops",
     "uses",
     "brings_together",
-    "connects"
+    "connects",
+    "follows"
   ],
   "rules": {
     "stable_ids": true,

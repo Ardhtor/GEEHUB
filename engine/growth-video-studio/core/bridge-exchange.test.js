@@ -151,6 +151,16 @@ test("refuses an input frame-set sidecar with the wrong checksum", async t => {
   }), /SHA-256 does not match/);
 });
 
+test("refuses stale frame-evidence references before writing an exchange", async t => {
+  const f = await fixture(t);
+  f.payload.frameEvidence.sequenceId = "stale-sequence";
+  await assert.rejects(stageBridgeExchange({
+    manifest: f.manifest, jobId: "render-test",
+    portableJob: f.payload, dropboxRoot: f.root
+  }), /frame evidence disagrees/);
+  await assert.rejects(lstat(resolveDropboxUri("dropbox://GEEHUB/Bridge/incoming/manifest.json", f.root)), { code: "ENOENT" });
+});
+
 test("refuses to overwrite a reserved output file", async t => {
   const f = await fixture(t);
   const output = resolveDropboxUri(f.manifest.renderJobs[0].outputUri, f.root);

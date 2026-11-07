@@ -61,11 +61,11 @@ def collect_context() -> str:
             continue
         content = path.read_text(encoding="utf-8")
         sections.append(
-            f"===== {relative} (ending excerpt) =====\\n" + content[-limit:]
+            f"===== {relative} (ending excerpt) =====\n" + content[-limit:]
         )
     if not sections:
         fail("No continuity sources were found; refusing to invent a corpus.")
-    return "\\n\\n".join(sections)
+    return "\n\n".join(sections)
 
 
 def call_model(api_key: str, model: str, context: str) -> dict:

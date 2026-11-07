@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "purpose": "Give each autonomous narrative cycle a grounded next direction without forcing a predetermined plot.",
-  "selection_rule": "Choose one lane whose latest state has a live consequence. Prefer the main manuscript when its last scene is ready to continue. Otherwise rotate among relationship, campus, lore, and institutional threads. Do not repeat a scene merely to fill a cycle.",
+  "selection_rule": "Choose the highest-priority lane with a live consequence, then rotate among the remaining lanes over later cycles. Romance and domestic life currently lead. The main manuscript remains eligible when its next scene is urgent or when no higher-priority thread is ready. Do not repeat a scene merely to fill a cycle.",
   "active_lanes": [
     {
       "id": "main-manuscript",
-      "priority": 1,
+      "priority": 2,
       "target": "novel/BOOK_I_CONTINUATION_03.md",
       "state": "The latest chapter is LXXII, The Door Left Open. The first man has returned from beneath the seventh well carrying the eyes of the darkness. Continue with the consequences of his return and the altered house; allow the characters to respond before escalating again.",
       "next_pressure": "What does the returned man remember, what has changed in his relationship with Luke and Joseph, and how does the house accommodate a person who is both familiar and newly changed?"
     },
     {
       "id": "romance-and-domestic-life",
-      "priority": 2,
+      "priority": 1,
       "target": "lore/ECONOMY_OF_FAVOURS.md",
       "state": "Ivo and Mara have begun a relationship; Emil and Tomas have shared a dance and a quieter form of recognition. Nick and Seth have considered the difference between an audience and a witness.",
       "next_pressure": "Advance affection through ordinary shared life: cooking, returning home, errands, small promises, uncertainty, humour, and chosen acts of care. Give each relationship its own pace and chemistry."

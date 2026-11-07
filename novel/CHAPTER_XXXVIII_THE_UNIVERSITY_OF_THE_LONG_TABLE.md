@@ -37,3 +37,9 @@ By the time it reached Luke, it had become a proposal.
 The Hub saved the napkin as an architectural artifact.
 
 The University of the Long Table had opened without a grand ceremony. Its first achievement was not a building or a programme. It was a table at which people who had not known one another could sit long enough to begin making something together.
+
+## The table after supper
+
+Long after the plates had been cleared, the university remained awake in small, separate pockets. A few students carried the architectural napkin to the studio and pinned it beside the elevation drawings. Two instructors continued their argument about the library's upper windows, but the argument had softened into a shared attempt to find the right angle. In the kitchen, someone was wrapping the remaining bread for the morning. The smell of baked apples lingered in the hall, joined now by coffee and the faint mineral scent of rain beginning outside.
+
+Dan returned to the Long Table to collect his notebook. The room looked different without the crowd, though the evidence of the gathering remained: a pale ring from a glass, a crumb caught in the grain, a chair left slightly out of line. He set the notebook down and traced the route of the proposed roof beam with one finger. The drawing had become more precise because other people had touched it. He thought of the cup on the balcony, the cat beside the planter, and the way Joseph had made room for him in conversation without making a ceremony of it. A university, he realised, was not only a place where knowledge was delivered. It was a place where people could remain in one another's company long enough for an idea to change shape.

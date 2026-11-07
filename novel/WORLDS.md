@@ -1781,3 +1781,11 @@ NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the gr
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.
 
 Source retained: worlds/northgate-university/README.md. Pressure 0.94; memory 1.00.
+
+## NORTHGATE UNIVERSITY / pulse 192 / ROUTE_OPEN
+
+SETH: A line becomes visible between NORTHGATE UNIVERSITY and ATHLETIC COMMONS. The archive names the relation "STRENGTH WITHOUT CONFLICT".
+
+NICK: The athletic grounds welcome students for training, swimming, recovery and companionship; physical culture is part of a balanced campus life. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: worlds/northgate-university/README.md. Pressure 1.00; memory 1.00.

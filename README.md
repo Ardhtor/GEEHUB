@@ -244,3 +244,10 @@ The reusable generation contract is [`engine/presets/luke-growth-priority.json`]
 ## Name and continuity
 
 The canonical name of this living world and its creative system is **The Tractus**. The existing GitHub repository remains at `Ardhtor/GEEHUB` for now, so existing links, scripts, integrations, and archived references continue to work. In-world narration, new interfaces, new documents, and future project-facing titles should use **The Tractus**. GEEHUB is retained only as the historical repository name and as a legacy term when describing earlier development.
+
+
+## The interlocutive field
+
+GEEHUB's current repository and interface are local ground, not the edge of its world. The surrounding computer environment, connected tools and repositories, source media, external knowledge, and more developed possible versions of GEEHUB form a larger playing field. That field must be noticed as **interactable**: identify what can be inspected, asked, read, changed, created, or exchanged; make contact through real available interfaces; and bring consequential results back into persistent continuity. See [The Interlocutive Field](docs/INTERLOCUTIVE_FIELD.md).
+
+Arthur's metascript includes a dialogue with a larger, more developed version of himself. The larger Arthur is an interlocutor, not an authority to imitate blindly. Each can question, teach, correct, and change the other. This encounter models how GEEHUB should relate to its future capacities and the systems around it: converse, compare states, test possibilities, preserve distinct sources, and integrate only verified results. Documentation must distinguish what is available now, connected through a tool, permission-dependent, not yet implemented, or imagined.

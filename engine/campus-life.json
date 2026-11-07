@@ -1,6 +1,22 @@
 {
-  "cycle": 11,
+  "cycle": 12,
   "events": [
+    {
+      "id": "northgate-campus-00012",
+      "cycle": 12,
+      "world_pulse": 181,
+      "at": "2026-11-07T17:21:16.041770+00:00",
+      "region": "northgate-university",
+      "title": "THE NORTHGATE MATCH",
+      "kind": "sport",
+      "participants": [
+        "Noah Bell",
+        "Adrian Varga",
+        "Dan Roman"
+      ],
+      "description": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00011",
       "cycle": 11,
@@ -181,27 +197,26 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 8,
+    "Dan Roman": 9,
     "Marek Ionescu": 6,
     "Elliot Ward": 7,
-    "Noah Bell": 7,
-    "Adrian Varga": 7
+    "Noah Bell": 8,
+    "Adrian Varga": 8
   },
   "last_event": {
-    "id": "northgate-campus-00011",
-    "cycle": 11,
-    "world_pulse": 180,
-    "at": "2026-11-07T17:03:38.790969+00:00",
-    "region": "founders-dormitory",
-    "title": "A ROOM FULL OF PROJECTS",
-    "kind": "making",
+    "id": "northgate-campus-00012",
+    "cycle": 12,
+    "world_pulse": 181,
+    "at": "2026-11-07T17:21:16.041770+00:00",
+    "region": "northgate-university",
+    "title": "THE NORTHGATE MATCH",
+    "kind": "sport",
     "participants": [
-      "Dan Roman",
-      "Marek Ionescu",
+      "Noah Bell",
       "Adrian Varga",
-      "Elliot Ward"
+      "Dan Roman"
     ],
-    "description": "The common room becomes a temporary studio. A half-built model occupies the long table, a laptop plays back a rough edit, and someone is sketching a set of stairs on the back of an envelope. Each person contributes a different skill; by midnight the project has a direction.",
+    "description": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

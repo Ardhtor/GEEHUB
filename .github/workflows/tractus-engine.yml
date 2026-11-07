@@ -44,6 +44,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           TRACTUS_MODEL: ${{ vars.TRACTUS_MODEL }}
+          TRACTUS_AUTONOMY_ENABLED: ${{ vars.TRACTUS_AUTONOMY_ENABLED || 'false' }}
           TRACTUS_DRY_RUN: ${{ inputs.dry_run || 'false' }}
         run: python scripts/tractus_engine.py
 

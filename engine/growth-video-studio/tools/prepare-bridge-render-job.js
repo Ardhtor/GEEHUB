@@ -116,6 +116,9 @@ async function main() {
   });
 
   const requestedPath = path.resolve(requestedBundle);
+  if (!path.basename(requestedPath) || path.basename(requestedPath) === "." || path.basename(requestedPath) === "..") {
+    throw new TypeError("Bundle directory must be a named child of its parent directory");
+  }
   await mkdir(path.dirname(requestedPath), { recursive: true });
   const parent = await realpath(path.dirname(requestedPath));
   const bundleDirectory = path.join(parent, path.basename(requestedPath));
@@ -148,6 +151,7 @@ async function main() {
     throw error;
   }
 
+  const shellQuote = value => "'" + String(value).replace(/'/g, "'\\''") + "'";
   process.stdout.write(JSON.stringify({
     schema: "geehub.render-job-preparation-receipt.v1",
     status: "prepared",
@@ -160,8 +164,8 @@ async function main() {
     jobUri,
     outputUri,
     pixelSemanticsVerified: false,
-    nextCommand: "npm run stage:bridge -- " + JSON.stringify(manifestPath) + " " +
-      JSON.stringify(jobPath) + " " + JSON.stringify(prepared.jobId)
+    nextCommand: "npm run stage:bridge -- " + shellQuote(manifestPath) + " " +
+      shellQuote(jobPath) + " " + shellQuote(prepared.jobId)
   }, null, 2) + "\n");
 }
 

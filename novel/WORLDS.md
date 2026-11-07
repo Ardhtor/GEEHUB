@@ -1669,3 +1669,11 @@ NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the gr
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.
 
 Source retained: worlds/northgate-university/README.md. Pressure 1.00; memory 1.00.
+
+## NORTHGATE UNIVERSITY / pulse 178 / ROUTE_OPEN
+
+SETH: A line becomes visible between NORTHGATE UNIVERSITY and BLUEWATER QUAY. The archive names the relation "NORTHGATE OPENS ITS QUAD".
+
+NICK: A tree-lined avenue climbs from the reservoir into a campus of lecture halls, workshops, music rooms and green courtyards. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: worlds/northgate-university/README.md. Pressure 1.00; memory 1.00.

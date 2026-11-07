@@ -1,6 +1,22 @@
 {
-  "cycle": 8,
+  "cycle": 9,
   "events": [
+    {
+      "id": "northgate-campus-00009",
+      "cycle": 9,
+      "world_pulse": 178,
+      "at": "2026-11-07T16:59:59.787458+00:00",
+      "region": "northgate-library",
+      "title": "THE FILM ARCHIVE CLUB",
+      "kind": "film",
+      "participants": [
+        "Elliot Ward",
+        "Marek Ionescu",
+        "Adrian Varga"
+      ],
+      "description": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00008",
       "cycle": 8,
@@ -133,25 +149,25 @@
   ],
   "attendance": {
     "Dan Roman": 6,
-    "Marek Ionescu": 4,
-    "Elliot Ward": 4,
+    "Marek Ionescu": 5,
+    "Elliot Ward": 5,
     "Noah Bell": 6,
-    "Adrian Varga": 5
+    "Adrian Varga": 6
   },
   "last_event": {
-    "id": "northgate-campus-00008",
-    "cycle": 8,
-    "world_pulse": 177,
-    "at": "2026-11-07T16:56:21.966403+00:00",
-    "region": "athletic-commons",
-    "title": "OPEN GYM AND RECOVERY",
-    "kind": "training",
+    "id": "northgate-campus-00009",
+    "cycle": 9,
+    "world_pulse": 178,
+    "at": "2026-11-07T16:59:59.787458+00:00",
+    "region": "northgate-library",
+    "title": "THE FILM ARCHIVE CLUB",
+    "kind": "film",
     "participants": [
-      "Dan Roman",
-      "Adrian Varga",
-      "Noah Bell"
+      "Elliot Ward",
+      "Marek Ionescu",
+      "Adrian Varga"
     ],
-    "description": "The Commons holds an open session for anyone who wants to train. Experienced students help newcomers set up safely, and the recovery wing stays busy with stretching and quiet conversation. The strongest presence in the room is not a contest; it is the ease of people who know one another.",
+    "description": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

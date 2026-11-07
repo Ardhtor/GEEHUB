@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_FILES = (
     "novel/BOOK_I_CONTINUATION_03.md",
     "lore/DEEP_LORE.md",
+    "lore/INSTITUTE_OF_BECOMING.md",
     "lore/ECONOMY_OF_FAVOURS.md",
     "lore/GOD_PENIS_IDOL_CYCLE.md",
 )
@@ -35,6 +36,7 @@ CONTEXT_SOURCES = (
     ("engine/activity.jsonl", 12_000),
     ("lore/ATTENTION_ENGINE.md", 4_000),
     ("lore/DEEP_LORE.md", 6_000),
+    ("lore/INSTITUTE_OF_BECOMING.md", 7_000),
     ("lore/ECONOMY_OF_FAVOURS.md", 6_000),
     ("lore/GOD_PENIS_IDOL_CYCLE.md", 6_000),
     ("engine/campus-life.json", 5_000),

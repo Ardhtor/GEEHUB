@@ -912,13 +912,16 @@
       "metascript",
       "felt-method",
       "repository-method",
-      "editing-protocol"
+      "editing-protocol",
+      "character-record"
     ],
     "related": [
       "vision-workspace",
       "tractus-continuity",
       "the-complex"
-    ]
+    ],
+    "character_record": "characters/records/ARTHUR.md",
+    "description": "Arthur is the first hero of the Fingerlands and the GEEHUB metascript: a detailed character record preserving his embodied identity, world, transformation continuity, and the felt method for repository development."
   },
   {
     "id": "atlas",
@@ -934,12 +937,41 @@
       "friendship",
       "admiration",
       "community",
-      "tractus"
+      "tractus",
+      "character-record",
+      "social-continuity"
     ],
     "related": [
       "sensation-engine",
       "arthur-and-fingerlands",
       "institute-of-becoming"
+    ],
+    "character_record": "characters/records/ATLAS.md",
+    "description": "A large, warm, confident man adored by other big men; detailed record of his physical identity, temperament, reciprocal relationships, social world, and continuity."
+  },
+  {
+    "id": "character-records",
+    "name": "GEEHUB Character Records",
+    "status": "active",
+    "kind": "canon-system",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/characters/",
+    "description": "Shared character-record standard and detailed, continuity-preserving records for GEEHUB inhabitants. Records connect identity, embodiment, temperament, voice, relationships, places, history, transformation, production requirements, canon status, and provenance.",
+    "related": [
+      "arthur-and-fingerlands",
+      "atlas",
+      "the-coach",
+      "institute-of-becoming",
+      "sensation-engine"
+    ],
+    "tags": [
+      "characters",
+      "records",
+      "canon",
+      "continuity",
+      "embodiment",
+      "relationships",
+      "production"
     ]
   }
 ]

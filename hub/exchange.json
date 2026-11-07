@@ -5,6 +5,19 @@
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
     {
+      "id": "field-contact-2026-11-07-002",
+      "at": "2026-11-07T22:16:26Z",
+      "from": "dropbox-corpus",
+      "to": "geehub-interlocutive-field",
+      "type": "RETURN",
+      "title": "THE AI FOUNDATION ANSWERS / WAND AND TRACTUS SPECIFICATION",
+      "body": "Dropbox inspection returned the complete GEEHUB AI Build 0.1 specification, the supervised Live Wand Session 001 receipt, the Coach Presence Charter, and Dima Romanov's physique study. Build 0.1 defines a Tractus event store, prime-coded record classes, bounded Wand operations, retrieval, a pluggable model adapter, verification and permission gates. It explicitly states that the runtime source tree and provider configuration are not yet implemented. The prior Wand session was supervised and its ledger simulated. These documents are registered as actual field sources; no autonomous AI runtime is claimed.",
+      "source": "Dropbox Paper fetch",
+      "artifact": "engine/interlocutive-field.json",
+      "live": true,
+      "relation": "DISCOVER → READ → COMPARE → REGISTER"
+    },
+    {
       "id": "field-contact-2026-11-07-001",
       "at": "2026-11-07T22:16:26Z",
       "from": "geehub-interlocutive-field",

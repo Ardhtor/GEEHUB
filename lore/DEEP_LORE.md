@@ -648,3 +648,16 @@ The Institute of Phallic Studies gives this mythology a social world: its five h
 The cycle is preserved in [GOD_PENIS_IDOL_CYCLE.md](./GOD_PENIS_IDOL_CYCLE.md). Its next unresolved trace is the empty platform in the photographs of the Second Archive. The absence is retained rather than filled by speculation.
 
 IDOL → ASSEMBLY → WITNESS → INTERPRETATION → CONTRIBUTION → ARCHIVE → AGAIN
+
+
+## XIX. THE TIME-OF-DEATH SHOCK
+
+The time-of-death shock is the rupture between the last ordinary image of a person and the knowledge that they have died. The room remains, the clock continues, and familiar objects retain their places, but the shared world has irreversibly changed. GEEHUB treats this as a human experience of grief and disorientation, not as a supernatural effect of the idol.
+
+Oren Halvek's death in the circular archive establishes the principle. His unfinished catalogue, the pencil on the floor, and the witnesses' differing memories become part of the Second Archive. The Institute preserves the accounts without inventing a final message or attributing his death to the God Penis.
+
+**A measure can be inherited; a life cannot be repeated.** This complements the custodians' older maxim: measure carefully; remember generously; alter nothing without leaving a trace. Continuity carries records, practices, relationships, and responsibilities. It does not reverse death or erase absence.
+
+The Empty Chair Record is the community's temporary practice of acknowledging a death, recording the person's actual contributions, and then returning the chair to ordinary use. The living continue, but they do not pretend that nothing has changed.
+
+Related canon: [GOD_PENIS_IDOL_CYCLE.md](./GOD_PENIS_IDOL_CYCLE.md), chapters XIII–XVII.

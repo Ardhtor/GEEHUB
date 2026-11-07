@@ -2898,8 +2898,8 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0
+      "pressure": 1,
+      "memory": 1
     }
   ],
   "visits": {
@@ -2918,7 +2918,8 @@
     "bodylounger": 11,
     "common-table": 1,
     "cedar-house": 1,
-    "cat-gardens": 1
+    "cat-gardens": 1,
+    "founders-dormitory": 1
   },
   "last_visits": {
     "complex": 151.5,
@@ -2936,9 +2937,10 @@
     "bodylounger": 163,
     "common-table": 169.5,
     "cedar-house": 172.5,
-    "cat-gardens": 173.5
+    "cat-gardens": 173.5,
+    "founders-dormitory": 174.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -2957,29 +2959,42 @@
     "worlds/cat-gardens/README.md": 1
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "cat-gardens",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "founders-dormitory",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 170,
-    "agent": "chase",
-    "previous_region_id": "cedar-house",
-    "region_id": "cat-gardens",
-    "region_name": "CAT GARDENS",
-    "relation": "GOOD LUCK HAS WHISKERS",
+    "cycle": 171,
+    "agent": "luke",
+    "previous_region_id": "cat-gardens",
+    "region_id": "founders-dormitory",
+    "region_name": "FOUNDERS DORMITORY",
+    "relation": "THE DORM GARDEN PATH",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 13.34,
-    "scale": 13.38,
-    "recording": "scheduled-recording-00170",
-    "at": "2026-11-07T02:14:28.526Z"
+    "previous_scale": 13.38,
+    "scale": 13.41,
+    "recording": "scheduled-recording-00171",
+    "at": "2026-11-07T08:55:40.646Z"
   },
-  "last_world_change": "2026-11-07T02:14:28.526Z",
-  "scale": 13.38,
+  "last_world_change": "2026-11-07T08:55:40.646Z",
+  "scale": 13.41,
   "external_events": [
+    {
+      "id": "long-play-00171",
+      "type": "CROSSING",
+      "title": "CAT GARDENS → FOUNDERS DORMITORY",
+      "body": "The world crossed \"THE DORM GARDEN PATH\". Scale increased from 13.38× to 13.41×; the earlier location and baseline remain recorded.",
+      "from": "cat-gardens",
+      "to": "founders-dormitory",
+      "previous_region_id": "cat-gardens",
+      "region_id": "founders-dormitory",
+      "relation": "THE DORM GARDEN PATH",
+      "source": "long-play",
+      "at": "2026-11-07T08:55:40.646Z"
+    },
     {
       "id": "long-play-00170",
       "type": "CROSSING",
@@ -4266,19 +4281,6 @@
       "relation": "THE FACE REMAINS",
       "source": "long-play",
       "at": "2026-10-18T21:55:18.329Z"
-    },
-    {
-      "id": "long-play-00071",
-      "type": "CROSSING",
-      "title": "GROWTH CANVAS → LUKE // BWOMPH",
-      "body": "The world crossed \"HYPEER BASELINE\". Scale increased from 6.98× to 7.01×; the earlier location and baseline remain recorded.",
-      "from": "growth",
-      "to": "luke-bwomph",
-      "previous_region_id": "growth",
-      "region_id": "luke-bwomph",
-      "relation": "HYPEER BASELINE",
-      "source": "long-play",
-      "at": "2026-10-18T19:36:33.500Z"
     }
   ],
   "last_action": "write-the-unentered-place"

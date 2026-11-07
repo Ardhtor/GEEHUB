@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00171",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00171.json",
+      "route": {
+        "from": "cat-gardens",
+        "to": "founders-dormitory",
+        "relation": "THE DORM GARDEN PATH"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-07T08:55:40.646Z"
+    },
+    {
+      "id": "scheduled-video-00171",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00171.json",
+      "route": {
+        "from": "cat-gardens",
+        "to": "founders-dormitory",
+        "relation": "THE DORM GARDEN PATH"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-07T08:55:40.646Z"
+    },
+    {
+      "id": "scheduled-space-00171",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00171.json",
+      "route": {
+        "from": "cat-gardens",
+        "to": "founders-dormitory",
+        "relation": "THE DORM GARDEN PATH"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-07T08:55:40.646Z"
+    },
+    {
       "id": "scheduled-sound-00170",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-18T21:55:18.329Z"
-    },
-    {
-      "id": "scheduled-sound-00071",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00071.json",
-      "route": {
-        "from": "growth",
-        "to": "luke-bwomph",
-        "relation": "HYPEER BASELINE"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-18T19:36:33.500Z"
-    },
-    {
-      "id": "scheduled-video-00071",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00071.json",
-      "route": {
-        "from": "growth",
-        "to": "luke-bwomph",
-        "relation": "HYPEER BASELINE"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-18T19:36:33.500Z"
-    },
-    {
-      "id": "scheduled-space-00071",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00071.json",
-      "route": {
-        "from": "growth",
-        "to": "luke-bwomph",
-        "relation": "HYPEER BASELINE"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-18T19:36:33.500Z"
     }
   ]
 }

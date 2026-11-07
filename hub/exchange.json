@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-07T02:14:28.526Z",
+  "generated": "2026-11-07T08:55:40.646Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00171",
+      "at": "2026-11-07T08:55:40.646Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / CAT GARDENS → FOUNDERS DORMITORY / LUKE",
+      "body": "The world crossed the existing relation \"THE DORM GARDEN PATH\" from CAT GARDENS into FOUNDERS DORMITORY. Scale increased from 13.38× to 13.41×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00171",
+      "live": true,
+      "regionId": "founders-dormitory",
+      "previousRegionId": "cat-gardens",
+      "relation": "THE DORM GARDEN PATH"
+    },
     {
       "id": "scheduled-long-play-00170",
       "at": "2026-11-07T02:14:28.526Z",
@@ -1488,21 +1503,6 @@
       "regionId": "deep-lore",
       "previousRegionId": "luke-bwomph",
       "relation": "THE FACE REMAINS"
-    },
-    {
-      "id": "scheduled-long-play-00071",
-      "at": "2026-10-18T19:36:33.500Z",
-      "from": "geehub-long-play",
-      "to": "luke",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / GROWTH CANVAS → LUKE // BWOMPH / LUKE",
-      "body": "The world crossed the existing relation \"HYPEER BASELINE\" from GROWTH CANVAS into LUKE // BWOMPH. Scale increased from 6.98× to 7.01×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00071",
-      "live": true,
-      "regionId": "luke-bwomph",
-      "previousRegionId": "growth",
-      "relation": "HYPEER BASELINE"
     }
   ]
 }

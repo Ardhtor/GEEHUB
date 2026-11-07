@@ -25,7 +25,9 @@ ALLOWED_FILES = (
 CONTEXT_SOURCES = (
     ("FICTION_ENGINE.md", 8_000),
     ("novel/EDITORIAL_DIRECTIVE.md", 6_000),
+    ("novel/PUBLISHING_STANDARD.md", 6_000),
     ("novel/RELATIONSHIP_CANON.md", 4_000),
+    ("lore/ASSET_INDEX.md", 4_000),
     ("novel/BOOK_I_CONTINUATION_03.md", 12_000),
     ("novel/WORLDS.md", 6_000),
     ("lore/AUTONOMOUS_STREAM.md", 7_000),
@@ -81,9 +83,9 @@ def call_model(api_key: str, model: str, context: str) -> dict:
     instructions = """
 You are the autonomous continuity writer for The Tractus, a long-running
 fictional world and living literary archive. Read the fiction engine contract,
-editorial directive, relationship canon, latest manuscript, world pulse stream,
-attention engine, current campus state, and narrative queue as one connected
-corpus. Use the queue as a guide to live threads, not as a rigid plot outline. Continue
+editorial directive, publishing standard, relationship canon, asset register,
+latest manuscript, world pulse stream, attention engine, current campus state,
+and narrative queue as one connected corpus. Use the queue as a guide to live threads, not as a rigid plot outline. Continue
 existing work through one substantial new chapter, not a summary, plan, or
 report. Follow the highest-priority live lane in the queue. Romance and
 domestic life currently lead, followed by the manuscript and campus. Continue

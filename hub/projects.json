@@ -867,7 +867,27 @@
     "related": [
       "tractus-continuity",
       "sensation-engine",
-      "vision-workspace"
+      "vision-workspace",
+      "the-coach"
+    ]
+  },
+  {
+    "id": "the-coach",
+    "name": "The Coach",
+    "group": "character",
+    "status": "incubating",
+    "path": "../lore/INSTITUTE_OF_BECOMING.md#the-coach",
+    "summary": "Founding coach of the Institute of Becoming; warm, imposing, good-humoured, and oriented toward encouragement, hospitality, and making room for others' ambitions.",
+    "tags": [
+      "character",
+      "coach",
+      "institute",
+      "tractus",
+      "continuity"
+    ],
+    "related": [
+      "institute-of-becoming",
+      "tractus-continuity"
     ]
   }
 ]

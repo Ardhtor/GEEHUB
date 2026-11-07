@@ -1,0 +1,36 @@
+{
+  "id": "activity-world-pulse-000195",
+  "created_at": "2026-11-07T22:15:54.768117+00:00",
+  "source": "tractus-world-engine",
+  "kind": "activity-event",
+  "title": "ATHLETIC COMMONS",
+  "content": "NICK: A detail returns in ATHLETIC COMMONS: Beyond the weight rooms, the pool catches blue daylight and the outdoor lawns open toward the playing fields. Friends gather at the café after training, stretch on the terrace and make plans for dinner.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/athletic-commons/README.md.",
+  "lineage": {
+    "event_id": "world-pulse-000195",
+    "event": {
+      "id": "world-pulse-000195",
+      "pulse": 195,
+      "time": "2026-11-07T22:15:54.768117+00:00",
+      "actor": "TYLER",
+      "world": "ATHLETIC COMMONS",
+      "region_id": "athletic-commons",
+      "previous_region_id": "athletic-commons",
+      "phase": "MEMORY",
+      "source": "worlds/athletic-commons/README.md",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in ATHLETIC COMMONS: Beyond the weight rooms, the pool catches blue daylight and the outdoor lawns open toward the playing fields. Friends gather at the café after training, stretch on the terrace and make plans for dinner.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/athletic-commons/README.md.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.94,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-07T22:15:54.768117+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
+    }
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue from this event's changed world state"
+}

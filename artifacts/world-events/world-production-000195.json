@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000195",
+  "created_at": "2026-11-07T22:15:54.768117+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "MEMORY / ATHLETIC COMMONS / worlds/athletic-commons/README.md",
+  "content": "NICK: A detail returns in ATHLETIC COMMONS: Beyond the weight rooms, the pool catches blue daylight and the outdoor lawns open toward the playing fields. Friends gather at the café after training, stretch on the terrace and make plans for dinner.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/athletic-commons/README.md.",
+  "production_note": "The world resolved its memory rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 195,
+    "actor": "TYLER",
+    "world": "ATHLETIC COMMONS",
+    "region_id": "athletic-commons",
+    "source": "worlds/athletic-commons/README.md",
+    "phase": "MEMORY",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

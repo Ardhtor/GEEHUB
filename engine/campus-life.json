@@ -1,6 +1,23 @@
 {
-  "cycle": 10,
+  "cycle": 11,
   "events": [
+    {
+      "id": "northgate-campus-00011",
+      "cycle": 11,
+      "world_pulse": 180,
+      "at": "2026-11-07T17:03:38.790969+00:00",
+      "region": "founders-dormitory",
+      "title": "A ROOM FULL OF PROJECTS",
+      "kind": "making",
+      "participants": [
+        "Dan Roman",
+        "Marek Ionescu",
+        "Adrian Varga",
+        "Elliot Ward"
+      ],
+      "description": "The common room becomes a temporary studio. A half-built model occupies the long table, a laptop plays back a rough edit, and someone is sketching a set of stairs on the back of an envelope. Each person contributes a different skill; by midnight the project has a direction.",
+      "status": "OCCURRED"
+    },
     {
       "id": "northgate-campus-00010",
       "cycle": 10,
@@ -164,26 +181,27 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 7,
-    "Marek Ionescu": 5,
-    "Elliot Ward": 6,
+    "Dan Roman": 8,
+    "Marek Ionescu": 6,
+    "Elliot Ward": 7,
     "Noah Bell": 7,
-    "Adrian Varga": 6
+    "Adrian Varga": 7
   },
   "last_event": {
-    "id": "northgate-campus-00010",
-    "cycle": 10,
-    "world_pulse": 179,
-    "at": "2026-11-07T17:02:02.626040+00:00",
-    "region": "northgate-university",
-    "title": "THE CLUBS AND SOCIETIES FAIR",
-    "kind": "community",
+    "id": "northgate-campus-00011",
+    "cycle": 11,
+    "world_pulse": 180,
+    "at": "2026-11-07T17:03:38.790969+00:00",
+    "region": "founders-dormitory",
+    "title": "A ROOM FULL OF PROJECTS",
+    "kind": "making",
     "participants": [
       "Dan Roman",
-      "Elliot Ward",
-      "Noah Bell"
+      "Marek Ionescu",
+      "Adrian Varga",
+      "Elliot Ward"
     ],
-    "description": "Tables appear beneath the arcade: architecture, music, rowing, film, natural history, computing and the old debating society. New students drift between them while returning members explain what they actually do, rather than reciting polished pitches.",
+    "description": "The common room becomes a temporary studio. A half-built model occupies the long table, a laptop plays back a rough edit, and someone is sketching a set of stairs on the back of an envelope. Each person contributes a different skill; by midnight the project has a direction.",
     "status": "OCCURRED"
   },
   "daily_rhythm": "A living residential campus: lectures, meals, training, study, music, clubs, sport and shared projects."

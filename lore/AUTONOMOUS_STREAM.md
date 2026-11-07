@@ -1341,3 +1341,11 @@ NICK: The world crosses the route from NORTHGATE UNIVERSITY into BLUEWATER QUAY.
 SETH: A calm reservoir promenade with a boathouse, tea room, wooden landings, reeds, long benches, and an open horizon. Relation carried forward: NORTHGATE OPENS ITS QUAD.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 180 — ATMOSPHERE / BLUEWATER QUAY / 2026-11-07T17:03:38.732401+00:00
+
+SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

@@ -234,6 +234,18 @@ Joseph placed his hand on the rail. Kirk stood beside him, close enough that the
 
 Behind them, in the lower chamber, the fifth groove held its dust.
 
+## VI. The architecture of waiting
+
+The landing had a smell that none of them had noticed on the first descent. It was faintly sweet, like old timber warmed by afternoon sun, with a cooler mineral note beneath it. The third traveler found that the wall beside the four recesses was not entirely smooth. Its surface had been rubbed down in long vertical strokes, leaving shallow channels that caught the light. The fourth traveler traced one of these channels with his eyes. It widened near the floor, narrowed at shoulder height, and disappeared behind the arch. It might have been made by water, repeated contact, or a tool. They recorded the shape and left the cause open.
+
+Joseph sat on the lowest step. The stone was broad enough to support him comfortably, and its front edge had been rounded by use. Kirk stood nearby, looking into the lower chamber. He could see the four columns from where he was, though the empty bowl remained partly hidden by the arch. The blue thread inside the translucent column moved slowly upward, paused, and returned along a seam that had not been visible from the first position. It looked almost like a thought changing its route, but Kirk did not say so. He watched the light itself, allowing the resemblance to remain a resemblance.
+
+The fourth traveler found a narrow ledge beside the landing. It held a thin layer of dust except for a small oval where something had once rested. The oval was too shallow to establish the object's size or weight. It might have been a cup, a tool, a stone, or something that had left no recognizable outline. He showed the others, and they gathered around without touching it. The mark was an absence in the dust, but unlike the fifth groove it had a boundary. Even so, the boundary could not tell them what had been removed.
+
+They began to understand the difference between a room that waits and a room that demands. Nothing here compelled them to fill the recesses, enter the centre, touch the bowl, or open the panel. The architecture made certain actions possible and others difficult; it did not turn possibility into obligation. Joseph looked at the four blank discs and said that perhaps the most important thing they could do was leave them blank until they had something of their own to place there. Kirk agreed, though he wondered whether the discs had ever been intended for records at all.
+
+The second heartbeat came again, faint enough that the four men noticed it at different times. It moved through the stone like a vibration travelling beneath a floor in another building. The sound did not gather them into one sensation. It gave each man a reason to pause, and the pause became a shared interval without becoming a shared perception. When it passed, Joseph rose from the step. He did not announce that they were ready. He simply asked whether the others wanted to continue. One by one, they chose.
+
 ## Coda — The room that can wait
 
 They rested in the passage above the Procession, where the stone widened into a shallow alcove. There was no furniture, but the wall had been worn smooth at shoulder height, and a narrow shelf ran beneath it. The four travelers sat at different points along the shelf. For a while no one spoke. The second heartbeat was faint here, almost indistinguishable from the movement of water somewhere inside the walls.

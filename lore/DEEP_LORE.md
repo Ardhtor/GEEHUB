@@ -663,3 +663,14 @@ Oren Halvek's archival question remains attached to the first surviving account:
 The Assembly of Degrees, the Two Bells exhibition, and the Civic Compact extend the system into public life. The Compact establishes the rule **reach is not rule**: rank measures the ability, not personal worth or automatic authority. Refusal, independent witnessing, and disputed results remain part of the record.
 
 Related canon: [GOD_PENIS_IDOL_CYCLE.md](./GOD_PENIS_IDOL_CYCLE.md), chapters XIII and XVIII–XXI.
+
+
+## XX. THE LAW OF THE OPEN HAND
+
+The world has more than one kind of wealth. Coin allows strangers to exchange goods. Wages recognise labour. Credit moves resources through time. Gifts and favors create relationships that cannot be reduced to a price. The Common Ledger preserves these distinctions so that generosity does not become disguised debt.
+
+A favor is a door held open, not a room claimed. It may travel directly between two people, or pass through a circle and return to the neighbourhood in another form. The person who receives help is not owned by the person who gave it. The person who cannot repay is not expelled from the circle. This is the law of the Open Hand:
+
+**VALUE CAN CIRCULATE WITHOUT BECOMING CONTROL.**
+
+The Hearthmark measures ordinary exchange. The Open Hand Ledger remembers voluntary assistance. Neither is permitted to replace the other. A city needs both the account that can be audited and the story that can be remembered.

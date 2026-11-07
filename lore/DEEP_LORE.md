@@ -660,4 +660,6 @@ The central tension is now part of the Institute's story: a power that grows wit
 
 Oren Halvek's archival question remains attached to the first surviving account: *Was the silence caused by the Shock, or by the expectation of it?* Witness, reputation, ceremony, and anticipation all contribute to the hierarchy.
 
-Related canon: [GOD_PENIS_IDOL_CYCLE.md](./GOD_PENIS_IDOL_CYCLE.md), chapters XIII and XVIII.
+The Assembly of Degrees, the Two Bells exhibition, and the Civic Compact extend the system into public life. The Compact establishes the rule **reach is not rule**: rank measures the ability, not personal worth or automatic authority. Refusal, independent witnessing, and disputed results remain part of the record.
+
+Related canon: [GOD_PENIS_IDOL_CYCLE.md](./GOD_PENIS_IDOL_CYCLE.md), chapters XIII and XVIII–XXI.

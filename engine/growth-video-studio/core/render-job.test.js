@@ -18,6 +18,22 @@ test("creates a render-ready manifest only with source, growth, and tracking evi
   assert.equal(result.job.status,"ready-for-renderer");
   assert.equal(result.job.constraints.protectFace,true);
 });
+test("preserves fractional source frame rates such as 23.976 fps",()=>{
+  const base=createGrowthState(BASELINE,{id:"fractional-base"});
+  const grown=createChildState(base,{
+    stature:1.1,torsoLength:1.05,armLength:1.1,thighLength:1.1,
+    shoulderSpan:1.15,chestDepth:1.1,armMass:1.1,thighMass:1.1,calfMass:1.05
+  },{id:"fractional-grown"});
+  const result=createRenderJob({
+    source:{name:"source.mp4",duration:2,width:720,height:1280},
+    growthStates:[base,grown],
+    landmarkFrames:[frame(0),frame(1/23.976)],
+    settings:{fps:23.976}
+  });
+  assert.equal(result.valid,true);
+  assert.equal(result.job.output.fps,23.976);
+});
+
 test("blocks incomplete evidence",()=>{
   const result=createRenderJob({source:{name:"source.mp4"},growthStates:[],landmarkFrames:[]});
   assert.equal(result.valid,false);

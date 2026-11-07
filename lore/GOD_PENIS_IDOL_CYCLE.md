@@ -339,3 +339,32 @@ The request changed the experiment. Foundry had been preparing to measure the ma
 The black sphere was illuminated once more. Two centres appeared, each surrounded by a field. Their paths approached, curved, and settled into a broad orbit. At the edge of the projection, a small point continued along its own route, untouched by either centre. Nick asked whether that point represented freedom. Odin answered that it represented a fact the model had not yet explained. Neptune called it a current. Zeus called it a choice. Seth watched it until the lights went out.
 
 The archive preserved all three answers. The point remains unnamed.
+
+
+## XXXIV. Seth and Nick — The Point Beyond the Orbit
+
+Seth noticed the point again when the observatory was nearly empty. The bronze ring had been lowered, the dark sphere had gone quiet, and the projection had returned to its simplest form: two centres, two fields, a broad orbit, and the small mark at the edge that none of the instruments could explain. It was not moving away. It was not approaching. It continued along a route that seemed to have been present before the researchers built their model. Seth leaned closer to the glass and asked Nick whether he had changed the scale.
+
+Nick shook his head. He had checked the calibration twice. The point remained the same distance from the outer line, though the line itself shifted whenever the two fields changed. He had tried removing the bearers from the projection, but the point remained. He had tried removing the orbit, and it remained. He had tried displaying the earliest measurements, before the Assembly had agreed on the names Ember and Bell. The point was there too, faintly recorded in the margin of an observation that had originally been dismissed as instrument noise.
+
+“That means it was never outside the experiment,” Seth said. “We only decided what counted as inside.”
+
+Nick turned the register toward him. The old observation had been written by a junior recorder who had since left the Institute. Beside the faint mark was a note: *unregistered movement, no apparent source*. The recorder had not called it a third centre. He had not called it an error. He had simply preserved what he saw. Seth liked the restraint of that. It was the kind of record that could survive a fashionable explanation.
+
+They invited Neptune, Odin, and Zeus back the following afternoon. The gods studied the projection without speaking. Neptune asked whether the point followed a current. Odin asked whether the original recorder had left any other notes. Zeus asked whether the point could be approached. Nick answered that the instruments could follow it but could not establish that it was a body, a bearer, or even a location. The projection represented a relation, not necessarily an object. It might be a route through the field, a witness beyond the model, or a limit in the way the Institute understood its own measurements.
+
+Zeus was dissatisfied. “If it has no name, how do you know it matters?”
+
+“Because it remains when we remove the things we thought made it,” Nick said.
+
+Odin looked at the old register. “Then the first duty is not to name it. The first duty is to preserve the observation.”
+
+Neptune stood beside the dark sphere. “A current is not diminished because a sailor has not charted it. But a sailor who names every current before he has felt it will mistake the map for the sea.”
+
+Seth watched the two centres rotate. Their fields altered one another, but neither absorbed the other. The unnamed point kept its route. He thought about the gatherings after a Shock, when people moved back into ordinary conversation and the bearer had to discover what remained of his influence once the silence had ended. The point seemed to belong to that interval: the movement that continued without permission from the centre.
+
+The next demonstration was changed. The Institute would not attempt to draw the point inward, assign it a rank, or treat it as a hidden bearer. Instead, the Assembly would invite independent observers to record what happened around the paired fields. Some would watch the bearers. Others would watch the people at the edge of the room. A few would record the exits, the unoccupied chairs, and the routes taken by those who chose to leave. The result would be a map of the whole gathering rather than a portrait of its strongest members.
+
+Before they left, Nick added a new line to the register: *The point remains unclassified. Its persistence is established; its nature is not.* Seth read it and nodded. The sentence did not solve the mystery. It gave the mystery a place where it could remain without being turned into somebody's possession.
+
+The observatory lights went out one by one. In the final pane, the two centres faded first. The orbit disappeared after them. The small point remained for another moment, moving steadily through the dark, and then the glass reflected only the two men standing beside the register.

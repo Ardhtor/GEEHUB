@@ -92,7 +92,7 @@ def main() -> int:
         assert state["active_region"] == "beefythiq", "active location did not persist"
         assert len({pulses[i]["source"] for i in range(3)}) == 3, "source material did not rotate"
         assert len(list((root / "artifacts" / "world-events").glob("*.json"))) == 4
-        assert len(list((root / "dropbox_outbox").glob("*.json"))) == 4
+        assert len(list((root / "dropbox_outbox").glob("*.json"))) == 8, "expected one canonical event outbox record and one world-production projection per pulse"
         assert "Pulse 4" in (root / "lore" / "AUTONOMOUS_STREAM.md").read_text(encoding="utf-8")
         assert "pulse 4 / CROSSING" in (root / "novel" / "WORLDS.md").read_text(encoding="utf-8")
 

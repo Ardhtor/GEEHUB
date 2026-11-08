@@ -17,6 +17,7 @@ const API_KEY = process.env.OPENAI_API_KEY || "";
 const MODEL = process.env.GEEHUB_MODEL || "";
 const API_URL = process.env.GEEHUB_RESPONSES_URL || "https://api.openai.com/v1/responses";
 const MAX_BODY = 48_000;
+const PARTICIPANTS = new Set(["luke","tyler","andrew","joseph","chase","teal-titan","marcus","arthur"]);
 const MIME = {".html":"text/html; charset=utf-8",".js":"text/javascript; charset=utf-8",".mjs":"text/javascript; charset=utf-8",".css":"text/css; charset=utf-8",".json":"application/json; charset=utf-8",".md":"text/markdown; charset=utf-8",".svg":"image/svg+xml",".png":"image/png",".jpg":"image/jpeg",".jpeg":"image/jpeg",".webp":"image/webp"};
 
 const readOptional = async relative => {
@@ -86,7 +87,8 @@ async function generateTurn(input) {
   let output = data.output_text || (data.output||[]).flatMap(x=>x.content||[]).filter(x=>x.type==="output_text").map(x=>x.text).join("\n");
   if(!output) throw new Error("Model returned no text.");
   const result=JSON.parse(output);
-  if(!result || typeof result.utterance!=="string" || typeof result.speaker!=="string") throw new Error("Model response did not match the dialogue contract.");
+  if(!result || ["speaker","utterance","emotional_tone","consequence","next_speaker"].some(key=>typeof result[key]!=="string")) throw new Error("Model response did not match the dialogue contract.");
+  if(result.utterance.length>1800 || result.consequence.length>1200) throw new Error("Model response exceeded the dialogue size limits.");
   const allowed=new Set(input.participants);
   if(!allowed.has(result.speaker)) throw new Error("Model selected a speaker outside this scene.");
   if(input.preferredSpeaker && result.speaker!==input.preferredSpeaker) throw new Error("Model did not use the requested next speaker.");
@@ -141,7 +143,7 @@ const server=http.createServer(async(req,res)=>{
   if(req.method==="POST" && url.pathname==="/api/geehub/turn"){
     try{
       const input=await bodyOf(req);
-      const participants=Array.isArray(input.participants)?input.participants.filter(x=>typeof x==="string").slice(0,8):[];
+      const participants=Array.isArray(input.participants)?[...new Set(input.participants.filter(x=>typeof x==="string"&&PARTICIPANTS.has(x)))].slice(0,8):[];
       if(!participants.length) return send(res,400,{error:"A scene needs at least one participant."});
       const result=await generateTurn({scene:input.scene||{},history:Array.isArray(input.history)?input.history.slice(-12):[],participants,preferredSpeaker:participants.includes(input.preferredSpeaker)?input.preferredSpeaker:""});
       return send(res,200,result);

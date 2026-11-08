@@ -1,0 +1,306 @@
+{
+  "schema": "geehub.video-timeline/1",
+  "project_id": "hulums-lab-serum-60s",
+  "timebase": {
+    "fps": 24,
+    "frame_count": 1440,
+    "timecode_format": "seconds"
+  },
+  "duration_seconds": 60,
+  "growth_model": "continuous_morph",
+  "plotlines": [
+    "institutional-containment",
+    "triggered-metamorphosis"
+  ],
+  "stages": [
+    {
+      "id": "baseline",
+      "start_seconds": 0,
+      "end_seconds": 6,
+      "label": "Ordinary laboratory state",
+      "function": "establish",
+      "required_visible": [
+        "Recognisable adult fictional face and body",
+        "Athletic baseline proportions",
+        "Laboratory and observation-room environment established",
+        "Clothing fits normally"
+      ],
+      "camera": {
+        "description": "Medium-wide establish",
+        "movement": "Slow push-in",
+        "framing": "Full subject and laboratory context",
+        "continuity": "Single continuous take"
+      },
+      "growth": {
+        "active": false,
+        "rate": "none"
+      },
+      "notes": "Extract baseline identity frame at 3.0 seconds."
+    },
+    {
+      "id": "trigger",
+      "start_seconds": 6,
+      "end_seconds": 10,
+      "label": "Serum activation",
+      "function": "trigger",
+      "required_visible": [
+        "Clear causal action with vial or serum apparatus",
+        "First subtle skin flush or vascular response",
+        "Face remains recognisable"
+      ],
+      "camera": {
+        "description": "Closer medium shot",
+        "movement": "Gentle push-in",
+        "framing": "Upper body and causal action",
+        "continuity": "Camera move remains continuous"
+      },
+      "growth": {
+        "active": true,
+        "rate": "subtle onset",
+        "regions": [
+          "skin tone",
+          "vascular detail"
+        ]
+      },
+      "sound_cues": [
+        "Vial handling",
+        "Activation tone",
+        "Laboratory room tone"
+      ],
+      "notes": "Make the causal event unambiguous without a hard cut."
+    },
+    {
+      "id": "onset",
+      "start_seconds": 10,
+      "end_seconds": 18,
+      "label": "Onset of continuous growth",
+      "function": "sustain",
+      "required_visible": [
+        "Deltoids begin to round",
+        "Chest begins gentle outward expansion",
+        "Shoulders broaden",
+        "Fabric tension appears at shoulders and chest"
+      ],
+      "camera": {
+        "description": "Upper-body three-quarter view",
+        "movement": "Slow orbit or controlled push-in",
+        "framing": "Maintain face, shoulders and chest together",
+        "continuity": "One uninterrupted morph"
+      },
+      "growth": {
+        "active": true,
+        "rate": "slow continuous",
+        "regions": [
+          "deltoids",
+          "pectorals",
+          "shoulders"
+        ]
+      },
+      "sound_cues": [
+        "Low continuous tonal bed",
+        "Subtle fabric tension"
+      ],
+      "notes": "Extract continuity frame at 12.0 seconds."
+    },
+    {
+      "id": "early-growth",
+      "start_seconds": 18,
+      "end_seconds": 32,
+      "label": "Early continuous growth",
+      "function": "sustain",
+      "required_visible": [
+        "Balanced bilateral pectoral growth in width, projection and thickness",
+        "Arms thicken in proportion",
+        "Traps rise progressively",
+        "Clothing stress increases without obscuring anatomical continuity"
+      ],
+      "camera": {
+        "description": "Lingering upper-body and three-quarter views",
+        "movement": "Slow lateral move with deliberate holds",
+        "framing": "Preserve face and connected shoulder-chest-arm anatomy",
+        "continuity": "No hard cuts in the growth passage"
+      },
+      "growth": {
+        "active": true,
+        "rate": "steady continuous",
+        "regions": [
+          "pectorals",
+          "deltoids",
+          "biceps",
+          "triceps",
+          "forearms",
+          "traps"
+        ]
+      },
+      "environment_response": [
+        "Wardrobe tension becomes legible"
+      ],
+      "sound_cues": [
+        "Continuous low-frequency bed",
+        "Fabric strain detail"
+      ],
+      "notes": "Extract continuity frame at 25.0 seconds. This is a semantic interval, not a separate render state."
+    },
+    {
+      "id": "main-growth",
+      "start_seconds": 32,
+      "end_seconds": 48,
+      "label": "Main continuous growth passage",
+      "function": "escalate",
+      "required_visible": [
+        "Chest becomes dominant while remaining bilaterally balanced",
+        "Lats flare and back widens",
+        "Thighs and overall scale increase",
+        "Clothing stretches and begins to fail",
+        "Environmental scale shift becomes unmistakable",
+        "All intimate anatomy remains non-explicit and covered"
+      ],
+      "camera": {
+        "description": "Lingering medium and close-to-medium views with periodic full-body scale checks",
+        "movement": "Slow orbit and low-angle drift",
+        "framing": "Alternate detail emphasis with readable body-to-room scale",
+        "continuity": "No hard cuts; match all camera movement to the continuous deformation"
+      },
+      "growth": {
+        "active": true,
+        "rate": "sustained escalation",
+        "regions": [
+          "pectorals",
+          "lats",
+          "traps",
+          "arms",
+          "torso",
+          "quadriceps",
+          "calves",
+          "height",
+          "limb proportions"
+        ]
+      },
+      "environment_response": [
+        "Observation-room equipment provides scale reference",
+        "Clothing tension becomes severe",
+        "Room begins to feel undersized"
+      ],
+      "sound_cues": [
+        "Layered low-frequency swell",
+        "Fabric stress",
+        "Subtle room resonance"
+      ],
+      "notes": "Extract continuity frame at 42.0 seconds. Regional growth curves must overlap smoothly rather than activate as discrete jumps."
+    },
+    {
+      "id": "escalation",
+      "start_seconds": 48,
+      "end_seconds": 55,
+      "label": "Escalation and environmental failure",
+      "function": "escalate",
+      "required_visible": [
+        "Extreme but balanced proportions",
+        "Clothing rupture or severe distortion handled non-explicitly",
+        "Secondary settling motion in skin and musculature",
+        "Subject visibly exceeds the original spatial and wardrobe scale"
+      ],
+      "camera": {
+        "description": "Wider scale-revealing view with brief matched detail emphasis",
+        "movement": "Slow pull-back or low-angle reveal",
+        "framing": "Subject and laboratory architecture share the frame",
+        "continuity": "Preserve one continuous transformation state across reframing"
+      },
+      "growth": {
+        "active": true,
+        "rate": "final escalation easing toward plateau",
+        "regions": [
+          "whole body",
+          "height",
+          "chest",
+          "back",
+          "arms",
+          "legs"
+        ]
+      },
+      "environment_response": [
+        "Wardrobe failure",
+        "Observation-room scale contrast",
+        "Equipment vibration or settling"
+      ],
+      "sound_cues": [
+        "Material strain",
+        "Low room resonance",
+        "Equipment settling"
+      ],
+      "notes": "No graphic nudity; preserve coverage and keep environmental reaction subordinate to the continuous body event."
+    },
+    {
+      "id": "terminal",
+      "start_seconds": 55,
+      "end_seconds": 60,
+      "label": "Terminal hyper-form hold",
+      "function": "hold",
+      "required_visible": [
+        "Monumental balanced adult physique",
+        "Final pose readable for the full hold",
+        "Subtle breathing and residual settling",
+        "New scale remains legible against laboratory environment"
+      ],
+      "camera": {
+        "description": "Heroic low-angle full-body view",
+        "movement": "Slow pull-back resolving into a hold",
+        "framing": "Full silhouette and room scale",
+        "continuity": "Hold through final frame; no early cutaway"
+      },
+      "growth": {
+        "active": false,
+        "rate": "settled new baseline with residual breathing"
+      },
+      "environment_response": [
+        "Laboratory remains visibly underscaled"
+      ],
+      "sound_cues": [
+        "Score resolves",
+        "Room tone remains audible",
+        "Subtle breath and settling"
+      ],
+      "notes": "The ending is a new baseline, not an unresolved continuation."
+    }
+  ],
+  "identity_locks": {
+    "face": "02_FRAMES/identity-lock-003s.png",
+    "baseline_body": "02_FRAMES/identity-lock-003s.png",
+    "early_growth": "02_FRAMES/continuity-012s.png",
+    "mid_growth": "02_FRAMES/continuity-025s.png",
+    "late_growth": "02_FRAMES/continuity-042s.png",
+    "notes": "Frame paths are planned extraction targets, not files already generated. Confirm adult fictional subject identity and continuity before production."
+  },
+  "file_data": {
+    "source": {
+      "path": "01_SOURCE/",
+      "verification_status": "unverified"
+    },
+    "growth_passes": [],
+    "frames": [
+      "02_FRAMES/identity-lock-003s.png",
+      "02_FRAMES/continuity-012s.png",
+      "02_FRAMES/continuity-025s.png",
+      "02_FRAMES/continuity-042s.png"
+    ],
+    "audio": [],
+    "exports": []
+  },
+  "continuity_policy": {
+    "continuous_event": true,
+    "cuts_allowed": false,
+    "hold_final_state": true,
+    "notes": "One continuous morph across 60 seconds. The seven stages are descriptive timing overlays, not hard cuts or independent model swaps. If a technical reframing is required, preserve the exact growth state and temporal interpolation."
+  },
+  "evidence": {
+    "source_inspected": false,
+    "claims": [
+      {
+        "claim": "All seven stages and their time ranges are a user-provided production example, not extracted timings from an existing Hulum's Cave video.",
+        "status": "creator-stated",
+        "source_ref": "User-provided 60-second timeline brief",
+        "notes": "Treat as production design, not historical source analysis."
+      }
+    ]
+  }
+}

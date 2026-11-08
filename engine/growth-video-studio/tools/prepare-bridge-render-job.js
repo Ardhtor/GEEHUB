@@ -49,6 +49,17 @@ async function readSafeDropboxText(uri, root) {
   return readFile(target, "utf8");
 }
 
+function matchesRegisteredMaskAudit(registered, actual) {
+  if (!registered) return true;
+  return registered.encoding === actual.encoding &&
+    registered.pixelDataVerified === true &&
+    registered.faceExclusionVerified === true &&
+    registered.pairsChecked === actual.pairsChecked &&
+    registered.disjointPairs === actual.disjointPairs &&
+    registered.overlapPixels === actual.overlapPixels &&
+    JSON.stringify(registered.frames) === JSON.stringify(actual.frames);
+}
+
 async function writeExclusive(filePath, content) {
   let handle;
   try {
@@ -149,6 +160,13 @@ async function main() {
     ).join("; ");
     throw new Error("Registered mask files failed reinspection: " + details);
   }
+  if (!matchesRegisteredMaskAudit(segmentationDocument.maskPixelAudit, {
+    ...maskAudit.maskPixelAudit,
+    pixelDataVerified: maskAudit.pixelDataVerified,
+    faceExclusionVerified: maskAudit.faceExclusionVerified
+  })) {
+    throw new Error("Registered mask-pixel audit differs from the re-inspected mask files");
+  }
   const jobSlug = slug(jobId);
   const jobUri = process.env.GEEHUB_RENDER_JOB_URI ||
     "dropbox://GEEHUB/Bridge/incoming/jobs/" + jobSlug + ".json";
@@ -161,6 +179,11 @@ async function main() {
     landmarksSidecar,
     growthStates,
     sequenceId,
+    maskPixelAudit: {
+      ...maskAudit.maskPixelAudit,
+      pixelDataVerified: maskAudit.pixelDataVerified,
+      faceExclusionVerified: maskAudit.faceExclusionVerified
+    },
     jobId,
     jobUri,
     outputUri,
@@ -218,6 +241,11 @@ async function main() {
     maskAudit: {
       checked: maskAudit.fileVerification.checked,
       verified: maskAudit.fileVerification.verified,
+      pixelDataVerified: maskAudit.pixelDataVerified,
+      faceExclusionVerified: maskAudit.faceExclusionVerified,
+      pairsChecked: maskAudit.maskPixelAudit.pairsChecked,
+      disjointPairs: maskAudit.maskPixelAudit.disjointPairs,
+      overlapPixels: maskAudit.maskPixelAudit.overlapPixels,
       pixelSemanticsVerified: maskAudit.pixelSemanticsVerified
     },
     pixelSemanticsVerified: false,

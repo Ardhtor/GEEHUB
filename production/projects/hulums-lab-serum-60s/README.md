@@ -35,7 +35,9 @@ The MP4 is written to 05_EXPORTS/; the editable Blender scene is written to 04_C
 - Keyframed, eased shape-key values derived from the seven timeline intervals.
 - Bilateral pectoral deformation from one shared symmetric control.
 - A fitted sleeveless top and training shorts with matching timeline-driven deformation keys.
-- A continuous camera orbit/push/pull keyed to the same timeline.
+- A continuous camera orbit/push/pull that widens with the evolving silhouette while retaining its focal length.
+- A face-preserving whole-body influence mask.
+- An automatically generated `07_MANIFESTS/growth_measurements.json` report with evaluated mesh bounds at six checkpoints.
 - A reusable Blender project and an H.264 MP4 render.
 
 ## Current limitations
@@ -44,4 +46,4 @@ This is an executable procedural prototype, not a finished Hulum's Cave-quality 
 
 The project remains explicitly adult and fictional. Intimate anatomy is not modeled or rendered. Source media and identity-lock frames remain absent until a verified source is supplied and inspected.
 
-The first preview is the acceptance gate: inspect silhouette, body proportions, bilateral balance, camera framing, floor contact, and continuity before running the full master.
+The full-duration low-resolution preview is the acceptance gate: inspect silhouette, body proportions, bilateral balance, camera framing, floor contact, and continuity. The generated measurement report helps distinguish actual geometry change from camera-only change, but visual review remains essential.

@@ -44,7 +44,8 @@ function png(width, height, role) {
     for (let x = 0; x < width; x += 1) {
       const face = x >= 6 && x <= 9 && y >= 2 && y <= 5;
       const body = x >= 2 && x <= width - 3 && y >= 7 && y <= height - 3;
-      rows[row + 1 + x] = (role === "face" ? face : body) ? 255 : 0;
+      const foreground = role === "face" ? face : role === "body" ? body : false;
+      rows[row + 1 + x] = foreground ? 255 : 0;
     }
   }
   return Buffer.concat([signature, chunk("IHDR", ihdr), chunk("IDAT", deflateSync(rows)), chunk("IEND", Buffer.alloc(0))]);

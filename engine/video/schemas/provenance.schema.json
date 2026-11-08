@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geehub.local/schemas/provenance.schema.json",
+  "title": "GEEHUB Media Provenance Record",
+  "type": "object",
+  "required": [
+    "schema",
+    "project_id",
+    "assets"
+  ],
+  "properties": {
+    "schema": {
+      "const": "geehub.provenance/1"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "role",
+          "origin",
+          "verification_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "source",
+              "reference",
+              "frame",
+              "audio",
+              "growth-pass",
+              "composite",
+              "export",
+              "project-file",
+              "other"
+            ]
+          },
+          "origin": {
+            "type": "object",
+            "required": [
+              "provider",
+              "filename"
+            ],
+            "properties": {
+              "provider": {
+                "type": "string"
+              },
+              "path": {
+                "type": "string"
+              },
+              "file_id": {
+                "type": "string"
+              },
+              "filename": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "acquired_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "last_modified": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "size_bytes": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          },
+          "integrity": {
+            "type": "object",
+            "properties": {
+              "algorithm": {
+                "const": "sha256"
+              },
+              "digest": {
+                "type": "string",
+                "pattern": "^[a-fA-F0-9]{64}$"
+              },
+              "verified_at": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "additionalProperties": false
+          },
+          "media_metadata": {
+            "type": "object",
+            "properties": {
+              "duration_seconds": {
+                "type": "number",
+                "minimum": 0
+              },
+              "fps": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "width": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "height": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "video_codec": {
+                "type": "string"
+              },
+              "audio_codec": {
+                "type": "string"
+              },
+              "audio_present": {
+                "type": "boolean"
+              }
+            },
+            "additionalProperties": false
+          },
+          "verification_status": {
+            "type": "string",
+            "enum": [
+              "unverified",
+              "metadata-only",
+              "checksum-verified",
+              "media-inspected"
+            ]
+          },
+          "derived_from": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "preservation_policy": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

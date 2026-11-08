@@ -62,3 +62,14 @@ For each revision pass, retrieve grounded material, locate an active pressure, f
 ## Residue ledger
 
 Where the current code supports it, record source provenance, the user-directed choice, before/after state, resulting artifact or media reference, consequential camera/sound/narration decisions, next possibility, and experimental/canon status. If a field or persistence mechanism is not implemented, leave it visibly unimplemented rather than inventing a completed state.
+
+
+## Narrative ease of production
+
+Production is a first-class form of continuity. A project should carry its own passage from encounter to artifact: source, observation, interpretation, experiment, revision, verification, and release. These are not disconnected administrative statuses; they are the history of how the work became what it is. Keep the path navigable in both directions. From an artifact, a reader can return to its source and decisions; from a source, a maker can see what has been derived and what remains possible.
+
+When composing new prose, let the practical work enter naturally through the scene. A character can make a measurement, discover a structural problem, move a piece of furniture, test a material, inspect a frame, or revise an object. The action should be legible as production and consequential within the world. Do not pause the story to explain a workflow that can be embodied in what people do. Conversely, do not hide technical facts inside atmosphere: dimensions, versions, file identities, test outcomes, and unresolved states must remain precise where they matter.
+
+Every production pass leaves a residue record: source reference; user direction; observed facts; interpretation; files or assets changed; before and after state; verification performed; open questions; and the next operation made possible. Keep this record concise and machine-readable where the runtime supports it, with a human-readable account attached. If persistence is not implemented, say so. Do not simulate a completed ledger by writing as though a future system already exists.
+
+The practical test is simple: can someone arrive at the project midway through its life, understand what is here, see why it took this form, and continue without first reconstructing the whole history from chat? If not, the production structure is not yet carrying enough of the narrative.

@@ -110,9 +110,10 @@ const server=http.createServer(async(req,res)=>{
       const input=await bodyOf(req);
       const event=input.event;
       if(!event || typeof event!=="object" || Array.isArray(event)) return send(res,400,{error:"An event object is required."});
-      if(typeof event.id!=="string" || !event.id.trim()) return send(res,400,{error:"A stable event.id is required."});
+      if(typeof event.id!=="string" || !/^[A-Za-z0-9][A-Za-z0-9._-]{0,159}$/.test(event.id)) return send(res,400,{error:"A safe stable event.id is required."});
       if(typeof event.at!=="string" || !Number.isFinite(Date.parse(event.at))) return send(res,400,{error:"A valid event.at timestamp is required."});
-      if(typeof event.type!=="string" || !event.type.trim()) return send(res,400,{error:"A typed event.type is required."});
+      if(!["ARRIVAL","NOTICE","ENCOUNTER","OFFER","TRANSFORM","RETURN","MEMORY","UTTERANCE"].includes(event.type)) return send(res,400,{error:"event.type is not in the shared exchange contract."});
+      if(typeof event.title!=="string" || typeof event.body!=="string" || event.title.length>2000 || event.body.length>12000) return send(res,400,{error:"Event title/body are required and must stay within the inscription limits."});
       const result=await inscribeOccurrence(event);
       return send(res,200,result);
     }catch(error){return send(res,error.message==="Invalid JSON"?400:500,{error:error.message||"Inscription failed"});}

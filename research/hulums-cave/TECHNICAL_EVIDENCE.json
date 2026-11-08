@@ -84,6 +84,74 @@
       "creator_statement": "While looking for source files lost with NewTumbl, creator found footage thought lost after a corrupt hard drive.",
       "source": "https://www.patreon.com/hulumscave/posts/silver-linings-84337220",
       "status": "recovery announcement verified; exact recovered works and files need identification"
+    },
+    {
+      "id": "flash-games-origin",
+      "work": "Flash Games (Archive)",
+      "date": "2023-07-06",
+      "layer": "historical-toolchain",
+      "creator_statement": "The creator says the first animated growth they watched was Flash animation by an artist using the name Sephiroth, which motivated the creator to learn Flash.",
+      "source": "https://www.patreon.com/hulumscave/posts/flash-games-85678874",
+      "status": "public excerpt verified; individual games and original SWF files locked; no gameplay inspection",
+      "questions": [
+        "Which game is the earliest creator-authored SWF?",
+        "Which Flash authoring/runtime version and timeline structure are present in the SWFs?",
+        "Which assets are vector shapes, raster images, embedded audio, or scripted motion?"
+      ]
+    },
+    {
+      "id": "flash-games-ruffle",
+      "work": "Play my old flash games!",
+      "date": "2024-04-25",
+      "layer": "legacy-runtime-preservation",
+      "creator_statement": "The creator says the old Flash games can be played through an online Ruffle SWF player without installing an app.",
+      "source": "https://www.patreon.com/hulumscave/posts/play-my-old-103053283",
+      "status": "public excerpt verified; actual SWF URLs are hidden behind locked post; runtime/gameplay not inspected"
+    },
+    {
+      "id": "quick-growth-archive-link",
+      "work": "Quick Growth (Archive)",
+      "date": "2023-06-08",
+      "layer": "video-archive-retrieval",
+      "source": "https://www.patreon.com/hulumscave/posts/quick-growth-84281684",
+      "external_archive": "https://mega.nz/file/yZQ3wbTC",
+      "status": "Creator post exposes a MEGA archive link; research browser cannot open the MEGA file; no visual or technical observations made"
+    },
+    {
+      "id": "daddy-growth-archive-links",
+      "work": "Daddy Growth Parts 1 & 2 (Archive)",
+      "date": "2023-06-08",
+      "layer": "video-archive-retrieval",
+      "source": "https://www.patreon.com/hulumscave/posts/daddy-growth-1-2-84269204",
+      "external_archives": [
+        "https://mega.nz/file/eQhlFILa",
+        "https://mega.nz/file/vI4ETKab"
+      ],
+      "status": "Creator post exposes separate MEGA links for both parts; research browser cannot open the MEGA files; no visual or technical observations made"
+    },
+    {
+      "id": "forest-set-reuse",
+      "work": "The Forest (Archive)",
+      "date": "2023-06-21",
+      "layer": "environment-reuse",
+      "creator_statement": "The creator identifies this as the original Forest Growth and says the same set was used again for the Tarzan growth video.",
+      "source": "https://www.patreon.com/hulumscave/posts/forest-archive-85070066",
+      "status": "creator statement verified; archive media locked; comparison of original and reused set pending",
+      "questions": [
+        "Which geometry and props persist between the two works?",
+        "What changes in camera, lighting, foliage density, materials, and atmosphere?",
+        "Are changes scene rebuilds or set dressing and lighting adjustments?"
+      ]
+    },
+    {
+      "id": "ultrasize-archive-2023",
+      "work": "Ultra Size 1 & 2 / Ultra Size 3, 4 & 5 archives",
+      "date": "2023-06-27",
+      "layer": "comic-archive-recovery",
+      "creator_statement": "The creator states that Ultra Size 1 and 2 were being brought back and that the remaining installments 3, 4, and 5 were available; the public archive excerpts expose the collection titles but the individual comic links are locked.",
+      "source": "https://www.patreon.com/hulumscave/posts/ultra-size-1-2-85223367",
+      "related_source": "https://www.patreon.com/hulumscave/posts/ultra-size-3-4-5-85306577",
+      "status": "archive existence and chapter grouping verified; page payloads and exact MEGA/host URLs not inspected"
     }
   ],
   "material_inspection_fields": [

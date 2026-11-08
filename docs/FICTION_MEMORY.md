@@ -52,7 +52,7 @@ Chase/C.W. Sachs functions as an observer-author: recording events helps turn th
 
 Joseph belongs to the emotional continuity of the fiction, including the separation-and-return thread and the statement “I love you and I miss you.”
 
-## GEEHUB Memory Rule
+## Beefythiq Divine Myth\n\nThe developing myth **The Gods Lust After Beefythiq** records the first divine transmissions: Zeus, Neptune, Hercules, and Ares become distinct hosts of the same transformative principle. Their bodies change according to their domains and temperaments, while their identities remain continuous. Athena begins to understand Beefythiq as an adaptive network rather than a simple infection. The canon is preserved in [`docs/MYTH_THE_GODS_LUST_AFTER_BEEFYTHIQ.md`](MYTH_THE_GODS_LUST_AFTER_BEEFYTHIQ.md). Its open thread is the ancient presence beneath Olympus that responds to the spread.\n\n## GEEHUB Memory Rule
 
 Do not reduce this fiction to a plot summary.
 

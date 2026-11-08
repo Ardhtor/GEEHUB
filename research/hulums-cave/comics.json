@@ -47,6 +47,31 @@
       "id": "hc-forum-thread",
       "url": "https://archive.musclegrowth.net/threads/11751-p7.html",
       "status": "surviving forum archive; contains direct blog links and publication dates"
+    },
+    {
+      "id": "hc-quickie-video-post",
+      "url": "http://hulumscave.blogspot.com/2009/10/test-quickie.html",
+      "status": "forum-linked-exact-url; archived-page-and-video-payload-unverified"
+    },
+    {
+      "id": "hc-october-25-second-video",
+      "url": "http://hulumscave.blogspot.com/2009/10/",
+      "status": "forum-link-truncated; visible slug suffix d-i-think.html; exact URL unresolved"
+    },
+    {
+      "id": "hc-november-3-short-video",
+      "url": "http://hulumscave.blogspot.com/2009/11/",
+      "status": "forum-link-truncated; visible slug suffix n-sometin.html; exact URL unresolved"
+    },
+    {
+      "id": "hc-the-bully-mov",
+      "url": "https://www.box.net/shared/static/yz3u77msfe.mov",
+      "status": "historical-forum-link; current file availability and provenance unverified"
+    },
+    {
+      "id": "hc-quickie-derivative",
+      "url": "https://www.musclegrowth.org/forum/showthread.php?p=113391",
+      "status": "creator-approved-derivative-discussion; archived thread URL and media payload not yet verified"
     }
   ]
 }

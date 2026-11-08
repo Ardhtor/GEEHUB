@@ -157,3 +157,21 @@ The 2009 forum archive also preserves contemporary reader responses: Chapter 1 w
 Recovery status: forum-referenced comic; original post URLs reconstructed; Wayback captures and page images/media payloads not yet verified. Next step is to query Wayback CDX for each exact URL, inspect all timestamped captures, then follow image-host URLs from recovered HTML. Record each page image separately, preserving original order and dimensions. A missing image payload must remain marked missing; never reconstruct it from descriptions and label it recovered.
 
 Source: https://archive.musclegrowth.net/threads/11751-p7.html
+
+
+## Additional 2009 forum evidence — site migration, The Bully, and reuse
+
+A broader search result from the same archived Evolution Forum thread exposes earlier posts on 29 September 2009. Hulumulu says they are archiving older work on a new site while continuing to post new work. This is an important clue for the deleted-site problem: the 2009 Blogspot was not necessarily the first or only home for the catalogue; it may have been a migration destination or a companion archive. Search the old site/domain history and linked file hosts as well as Blogspot captures.
+
+The thread identifies The Bully as a particularly memorable earlier video. A forum participant links a QuickTime MOV hosted at Box.net (https://www.box.net/shared/static/yz3u77msfe.mov) and discusses it as The Bully. Another participant explicitly describes the animation's phase 3 and its final positioning. Hulumulu also says the creator is happy for another animator to make a video using the Quickie animation, provided the animation work is credited, and asks whether it can be reposted on the blog. This is direct evidence of an early collaborative/remix practice and a creator-approved credit condition for that specific reuse at that time; it is not blanket permission to reuse other works.
+
+The same thread records audience discussion of The Bully's asymmetrical character dynamic and resistance to a conventional revenge-of-the-nerd ending. Treat this as contemporary reception and interpretation, not an authoritative synopsis. It suggests that preserving the original ending and character relation matters when reconstructing the work.
+
+New recovery targets:
+- The Bully QuickTime MOV, historically linked at Box.net: https://www.box.net/shared/static/yz3u77msfe.mov (current availability and provenance not verified).
+- The 29 September 2009 statement about a new site and archiving older work: recover the preceding forum page(s) in the same thread to capture the exact site URL and any earlier catalogue links.
+- Quickie animation and its derivative/remix thread: locate the 31 October 2009 forum thread linked from the archive, then record the original animation, derivative, credit, and repost relationship separately.
+
+Archive note: direct Wayback page and CDX requests for the reconstructed Ultrasize Chapter 1 URL were attempted in this research pass, but the web retrieval interface returned an internal access error. This is not evidence that no Wayback capture exists. The archive status remains unverified until queried through the Wayback interface or another archive index.
+
+Source: https://archive.musclegrowth.net/threads/11751-p7.html

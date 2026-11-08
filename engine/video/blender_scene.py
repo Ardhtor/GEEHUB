@@ -231,6 +231,7 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
         bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
         pillar.data.materials.append(wall_mat)
 
+    diagnostic_objects = []
     if use_rigged_character:
         from rigged_character import build_rigged_character
         rig_growth = max(1.0, min(1.8, float(fmt.get("rig_growth_ceiling", 1.35))))
@@ -240,10 +241,12 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
             end_frame=end_frame,
             growth_ceiling=rig_growth,
         )
+        diagnostic_objects.append(mesh)
         if timeline:
-            from timeline_growth import animate_timeline_growth
+            from timeline_growth import animate_timeline_growth, write_growth_diagnostics
             animate_timeline_growth(mesh, timeline, growth_profile)
             top, shorts = build_wardrobe()
+            diagnostic_objects.extend([top, shorts])
             animate_timeline_growth(top, timeline, growth_profile)
             animate_timeline_growth(shorts, timeline, growth_profile)
     else:
@@ -302,6 +305,10 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
         blend_path = Path(save_blend_path)
         blend_path.parent.mkdir(parents=True, exist_ok=True)
         bpy.ops.wm.save_as_mainfile(filepath=str(blend_path))
+    if timeline and diagnostic_objects:
+        from timeline_growth import write_growth_diagnostics
+        report_path = output_path.parent.parent / "07_MANIFESTS" / "growth_measurements.json"
+        write_growth_diagnostics(diagnostic_objects, timeline, report_path)
     if preview_seconds:
         scene.frame_end = min(total_frames, max(1, int(preview_seconds * fps)))
     bpy.ops.render.render(animation=True)

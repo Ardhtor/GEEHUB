@@ -1549,3 +1549,11 @@ SETH: A line becomes visible between BLUEWATER QUAY and LANTERN MARKET. The arch
 NICK: A quieter path leads from the market to the reservoir, where the city can be seen without being crowded. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 206 — ATMOSPHERE / LANTERN MARKET / 2026-11-08T22:23:04.167714+00:00
+
+SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

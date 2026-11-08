@@ -1,5 +1,5 @@
 {
-  "pulse": 205,
+  "pulse": 206,
   "events": [
     {
       "pulse": 1,
@@ -3527,6 +3527,28 @@
       "occurred_at": "2026-11-08T18:23:15.933251+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000206",
+      "pulse": 206,
+      "time": "2026-11-08T22:23:04.167714+00:00",
+      "actor": "LUKE",
+      "world": "LANTERN MARKET",
+      "region_id": "lantern-market",
+      "previous_region_id": "lantern-market",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/lantern-market/README.md",
+      "desire_state": "attention",
+      "action": "SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-08T22:23:04.167714+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -3577,7 +3599,7 @@
     "northgate-library": 185.5,
     "athletic-commons": 193
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -3597,17 +3619,17 @@
     "worlds/founders-dormitory/README.md": 3,
     "worlds/northgate-university/README.md": 8,
     "worlds/bluewater-quay/README.md": 7,
-    "worlds/lantern-market/README.md": 3,
+    "worlds/lantern-market/README.md": 4,
     "worlds/northgate-library/README.md": 3,
     "worlds/athletic-commons/README.md": 4
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "lantern-market",
-  "current_phase": "LONG_PLAY_CROSSING",
-  "current_desire_state": "tension",
-  "current_question": "Which existing relation now becomes traversable?",
-  "current_narrative_rule": "arrival activates aftermath",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 181,

@@ -8,6 +8,7 @@ and engine-specific state files are projections of that same event identity.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -44,6 +45,9 @@ def inscribe_event(event: dict, source: str) -> dict:
             event_id = f"northgate-campus-{int(cycle):05d}"
         else:
             raise ValueError("Event requires a stable id, pulse, or cycle")
+
+    if not isinstance(event_id, str) or not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]{0,159}", event_id):
+        raise ValueError("Event id must be a safe 1-160 character identifier")
 
     occurred_at = event.get("at") or event.get("time") or event.get("created_at")
     if not occurred_at:

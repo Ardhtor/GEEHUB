@@ -243,3 +243,8 @@ Known comic URLs:
 - http://hulumscave.blogspot.com/2009/11/ultrasize-chapter-3.html
 
 Source: https://archive.musclegrowth.net/threads/11751-p7.html
+
+
+### Correction to earlier URL notation
+
+The November 3, 2009 Blogspot path is **not** a verified exact URL. The archived forum text truncates the beginning of the slug and only exposes the ending `n-sometin.html`. The correct catalog entry is the month-level prefix `http://hulumscave.blogspot.com/2009/11/` with status `slug unresolved`; do not use or cite a fabricated complete URL. The same caution applies to the October 25 second video, whose visible slug suffix is `d-i-think.html`.

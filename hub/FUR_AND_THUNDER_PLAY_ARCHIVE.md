@@ -14,6 +14,10 @@ This is a play archive, not a physics document and not a rigid canon bible. Keep
 
 **The cabin — “The Quiet That Holds.”** A counter-temple to spectacle and conquest. The pantheon externalizes desire through competition, attention, appetite, fusion, and schemes; the cabin gathers it into food, warmth, shared silence, and the difficult act of letting someone stay. Visitors often leave carrying a quieter fire.
 
+## Companion mythology
+
+The pantheon's foundational legends, relic traditions, origin cycles, and disputed histories are maintained in [The Legends of the Overworld Pantheon](PANTHEON_LEGENDS.md). The legends are living traditions, not fixed biographies; use them to seed scenes and let later play complicate them.
+
 ## Character roster
 
 - **Privathor** — privacy and the veil; lonely, restrained, quietly envious of the central bond; seeks warmth after failing to find it elsewhere.

@@ -12,7 +12,7 @@
     if(!event)return;
     state.lastEvent={id:event.id||String(Date.now()),type:event.type||'CHANGE',title:event.title||'WORLD CHANGE',at:Date.now()};
     state.turn=Number(state.turn||0)+1;
-    state.active=agents[(state.turn-1)%agents.length];
+    state.active=agents.includes(event.to) ? event.to : agents[(state.turn-1)%agents.length];
 
     state.intent={
       luke:'inspect presence and environmental response',
@@ -37,6 +37,6 @@
   window.GEEHUB_REACTION_CONSEQUENCE={apply,state:()=>read()};
   window.addEventListener('geehub:interaction',e=>{
     const x=e.detail;
-    if(x && ['ENCOUNTER','TRANSFORM','RETURN','MEMORY'].includes(x.type)) apply(x);
+    if(x && ['ENCOUNTER','TRANSFORM','RETURN','MEMORY','UTTERANCE'].includes(x.type)) apply(x);
   });
 })();

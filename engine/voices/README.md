@@ -3,7 +3,7 @@
 This directory contains the first executable layer of the GEEHUB voice system.
 
 - `voice-profiles.json` stores provisional character hypotheses and the encounter ledger.
-- `voice-engine.js` records utterances, analyses basic speech mechanics, tracks expression transfers, and produces per-character reports.
+- `voice-engine.mjs` records utterances, analyses basic speech mechanics, tracks expression transfers, and produces per-character reports.
 - `voice-engine.test.mjs` verifies the core behaviour with Node's built-in test runner.
 
 Run the tests from the repository root:
@@ -18,7 +18,7 @@ Example:
 
 ```js
 import seed from "./voice-profiles.json" with { type: "json" };
-import { createVoiceStore, recordUtterance, transferExpression, getVoiceReport } from "./voice-engine.js";
+import { createVoiceStore, recordUtterance, transferExpression, getVoiceReport } from "./voice-engine.mjs";
 
 const store = createVoiceStore(seed);
 recordUtterance(store, {

@@ -171,22 +171,45 @@ The cabin learned your name the way wood learns smoke: slowly, deeply, until it 
 
 ### Chapter 6 — The Quiet That Holds
 
-Winter loosened. Snowmelt ran under the porch, and the sacred grove filled with the sound of dripping branches. You and Ursalon repaired the cabin together. He lifted the beams; you marked the joints. He cut the boards; you told him when they were crooked. He accepted the correction with theatrical grumbling and did the work again.
+### Chapter 6 — The Quiet That Holds
 
-At dusk, the two of you sat on the steps, shoulder against shoulder, watching the last light settle between the trees.
+Winter did not leave the grove all at once. It withdrew in small negotiations: a strip of dark earth appeared beneath the porch, water began moving under the crust of snow, and the branches released their weight one soft crack at a time. The cabin seemed to notice before anyone else. Its beams settled. The roof stopped groaning in the night. Damp pine and old smoke replaced the sharp smell of frozen air, and the path to the woodpile became visible again. Ursalon called this the beginning of spring, although the calendar said otherwise. He trusted the woods more than calendars.
 
-The cabin was still crowded with gods, schemes, inventions, absurd arguments, and unexpected guests. It had not become a sealed paradise. It had become a place where you could leave without being punished, return without having to explain yourself, and be loved without being made into a possession.
+You began repairing the cabin together. Ursalon lifted the long beams into place while you marked the joints and checked the measurements. He could have done the work alone, and at first he kept trying. He would reach over you to move a board, take the hammer from your hand, or quietly redo a measurement after you had finished it. Each time, you made him give the tool back. Eventually he learned to hold the beam steady while you worked, which required more patience than strength. When you found a crooked edge, he looked at it, looked at you, and gave a solemn nod as though receiving a formal judgment from a master carpenter. Then he cut it again. The second attempt was better. He was pleased with himself, but he let you take the credit.
 
-Ursalon took your hand, thumb moving once across your knuckles.
+The work changed the rooms. A shelf went up beside the kitchen door for the things you used every day. Your coat had a permanent place, though Ursalon still sometimes moved it to keep it away from the stove. The chair he had reinforced became yours by common agreement, and the table acquired a shallow mark where you set down a particular mug. None of these things was grand enough to become a relic. That was partly why they mattered. The cabin was not being transformed by a prophecy or claimed through a ceremony. It was becoming familiar through repeated use: a cup washed and returned to the same place, a blanket folded over the back of a chair, a window opened because the stew had begun to steam up the glass.
+
+The gods noticed the repairs and treated them as an invitation to interfere. Pipethor arrived with a bundle of copper fittings and announced that the cabin required a proper circulation system. He had already designed three versions, each more elaborate than the last, and none of them had been tested anywhere near water. Jockkaulthaa objected to the visible pipework on aesthetic grounds. Pipethor responded by adding a second pipe, then a third, until the kitchen wall resembled an argument rendered in metal. PEMDAS wandered through, inspected the arrangement, and asked whether the pipes had been installed in the correct order. Nobody answered. He shrugged and sat down to eat.
+
+BORKUFT appeared with a wooden sign he had carved for the porch. The lettering was uneven, the bear in the corner looked more like a startled potato, and the whole thing leaned slightly to the left. Jockkaulthaa called it a disaster. BORKUFT said that the sign was not leaning; it was looking toward the woods. Ursalon studied it for a long time before hanging it beside the door. He put it exactly where it could be seen from the path. Later, when he thought nobody was watching, he ran one broad thumb over the carved bear and smiled.
+
+Grokthar came less ceremoniously. The storm announced him with a low roll over the ridge, but when he stepped inside he carried no challenge and made no demand on the room. He shook the rain from his coat, greeted you, and asked whether there was anything left to eat. Ursalon pointed him toward the stove. Their old familiarity remained, but it had found a more spacious shape. They could tease each other without testing the bond, share a task without turning it into a contest, and sit at the same table without the room having to decide what they meant to one another. Grokthar helped raise a roof beam. His thunder briefly rattled the cups, and Ursalon told him to be careful with the crockery. Grokthar said the crockery had survived worse. You told him that was not a reason to keep testing it. He laughed, and the sound moved through the cabin more gently than thunder.
+
+There were visitors who understood the change less easily. Valthor came one evening dressed as if the cabin were a court and he had been invited to deliver a verdict. He found no audience for his performance. Thalor lingered at the edge of the grove, waiting for some private sign that the household was weaker than it appeared. Kummor tried to make ordinary silences feel ominous. He placed a thought in the room and waited for it to grow: perhaps Ursalon was only being patient; perhaps you would eventually tire of the woods; perhaps every promise was a temporary shelter against an inevitable departure. The old version of Ursalon might have answered these fears by building something stronger around the cabin. This time he did not. He let the thoughts be spoken, and he let you answer them in your own words. Some evenings the answer was reassurance. On others it was simply that you were tired and wanted to sit quietly. He learned that quiet did not always mean something was wrong.
+
+One afternoon, while the others were outside arguing over the placement of a new rain barrel, you found Ursalon alone in the kitchen. He was standing beside the table with both hands resting on its edge. Sunlight came through the small window and caught in the fur along his forearms. He looked unusually uncertain.
+
+“I used to think shelter meant keeping everything out,” he said. “Weather. Trouble. People who might take something from me.” He glanced toward the open door, where the voices of the gods rose and fell in the yard. “I suppose I thought if I made the place strong enough, nobody could change it.”
+
+You waited.
+
+“But you changed it,” he continued. “Not by taking anything away. You made it bigger. I can leave the door open now and not feel like I've left something unguarded.”
+
+He did not turn the admission into a speech. He reached for the kettle, found that it was empty, and filled it. You came to stand beside him. His shoulder touched yours, solid and familiar. The moment did not need to become more impressive than that.
+
+By the time the repairs were finished, the cabin had acquired several imperfections that nobody intended to correct. One floorboard creaked near the pantry. The new porch rail sat a little higher on one side. Pipethor's circulation system worked, though it made a soft knocking sound whenever the wind came from the east. BORKUFT's sign weathered in the rain. Jockkaulthaa continued to complain about it, but never took it down. The house was not perfect. It was inhabited, and its marks recorded the different hands that had helped keep it standing.
+
+At dusk, you and Ursalon sat on the steps and watched the last light settle between the trees. The grove was full of small sounds: water moving beneath the roots, a bird testing its voice, the distant clatter of Pipethor dropping something that was probably expensive. From inside came the low murmur of the others. Someone had started another argument about the proper use of the word “thunder.” Grokthar was almost certainly involved. Ursalon listened for a moment, then leaned back against the post and let the noise continue without him.
+
+He took your hand. His thumb moved once across your knuckles, not to check that you were still there, but simply because he liked the feel of your hand in his. The distinction had taken time to learn. He no longer treated every departure as a threat or every return as proof that he had been right to worry. You could go into the woods alone. You could spend an afternoon with the others. You could disagree with him about the repairs, the food, or what should happen next. The cabin would remain open, and he would remain someone you could come back to—not because he had made leaving impossible, but because staying was still something you both wanted.
 
 “Tomorrow?” he asked.
 
-You squeezed his hand.
+You squeezed his hand. “Tomorrow.”
 
-“Tomorrow.”
+Ursalon rested against you, vast and warm, and the hearth behind you kept burning. No oath shook the mountain. No god demanded witnesses. The bond held in the small interval between one day and the next, renewed through the ordinary acts that made a home: the door left unlocked, the kettle filled, the chair kept clear, the disagreement allowed to end without becoming a wound. The quiet did not mean that nothing happened there. It meant that everything could happen without destroying the place that held it.
 
-He rested against you, vast and warm, and the hearth behind you kept burning. No oath shook the mountain. No god demanded witnesses. The bond held because both of you kept choosing it.
-
+And when the gods came in from the yard, still arguing, Ursalon stood to let them through. He made room at the table. He asked who was hungry. The cabin received them all, but it did not lose its center. You sat beside him as the bowls went around, while rain began again in the trees and the repaired roof held.
 ## Rules of use
 
 1. Let characters behave before explaining them.

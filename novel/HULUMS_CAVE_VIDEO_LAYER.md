@@ -57,3 +57,14 @@ Use a rolling cycle: **charge → anticipation → impact → resonance → alte
 Keep a continuous memory of momentum across cuts and scenes. Camera, figures, environment, light, and sound should feel like parts of one evolving event. Let contrast and brief stillness sharpen the next rise, but do not erase the accumulated history. Vary the shape of each climax so the sequence remains alive rather than mechanically repeating a crescendo. The ending of a clip should feel like a threshold into the next state, not a return to the beginning.
 
 For source reproduction, this is a creative direction to test against the actual Hulum's Cave files, not a claim that every source clip already follows this pattern. Preserve source-specific behavior first; use continuous escalation as the generative rule for new material and as a hypothesis when comparing originals.
+
+
+## Production as narrative continuity
+
+The production path should read as a continuous passage through the same world, not as a detour into administration. The original clip is the source encounter; the inspection record is the first account of what was noticed; the frame sequence is the temporal evidence; the rig and scene are working interpretations; the render is a new artifact; the comparison is the encounter between source and interpretation; the revision is the consequence. Keep these stages linked so a person can move from any result back to the evidence and forward to the next operation.
+
+For each source, preserve a stable identity and an append-only lineage. Record the original filename and available technical properties, inspection status, observed sequence, hypotheses, derived assets, render versions, comparison notes, and unresolved questions. Distinguish direct observation from interpretation and planned work from completed work. A generated clip must never overwrite its source. A revised rig must not erase the version that produced an earlier render. When a stage has not happened, show it as pending rather than filling the gap with invented detail.
+
+The interface should expose the next useful action in context: inspect frames, mark a transition, establish a body landmark, test a camera, build a rig component, render a short sample, compare two versions, or archive a decision. The action is functional; its surrounding history supplies the narrative ease. A user should feel that they are continuing an encounter, not filling out a production form.
+
+The current source-access statement above remains authoritative: original Hulum's Cave clips were not present in the inspected repository or located in the connected Dropbox search at the time recorded. This section defines the production method; it does not claim that source-specific inspection or reconstruction has since occurred.

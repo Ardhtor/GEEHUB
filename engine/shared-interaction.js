@@ -174,22 +174,23 @@
     render();
     setInterval(async()=>{
       try{
-        const r=await fetch('./hub/exchange.json?ts='+Date.now(),{cache:'no-store'});
-        if(r.ok){
-          const d=await r.json(),next=Array.isArray(d.events)?d.events:[];
-          const prior=new Set(eventList().map(event=>event.id));
-          const additions=next.filter(event=>event?.id&&!prior.has(event.id));
-          const inscribed=await loadInscribedActivity();
-          inscribed.forEach(event=>{if(event?.id&&!prior.has(event.id))additions.push(event);});
-          const merged=new Map();
-          [...state.events,...next,...inscribed].forEach(event=>{if(event?.id)merged.set(event.id,event);});
-          state.events=[...merged.values()].sort((a,b)=>Number(b.at||b.occurred_at||0)-Number(a.at||a.occurred_at||0));
-          if(additions.length){
-            const newest=additions.sort((a,b)=>stamp(b.at||b.occurred_at)-stamp(a.at||a.occurred_at))[0];
-            if(newest)bus.emit({...newest,at:newest.at||newest.occurred_at});
-          }
-          render();
+        let next=[];
+        try{
+          const response=await fetch('./hub/exchange.json?ts='+Date.now(),{cache:'no-store'});
+          if(response.ok){const data=await response.json();next=Array.isArray(data.events)?data.events:[];}
+        }catch{}
+        const inscribed=await loadInscribedActivity();
+        const prior=new Set(eventList().map(event=>event.id));
+        const additions=new Map();
+        [...next,...inscribed].forEach(event=>{if(event?.id&&!prior.has(event.id))additions.set(event.id,event);});
+        const merged=new Map();
+        [...state.events,...next,...inscribed].forEach(event=>{if(event?.id)merged.set(event.id,event);});
+        state.events=[...merged.values()].sort((a,b)=>stamp(b.at||b.occurred_at)-stamp(a.at||a.occurred_at));
+        if(additions.size){
+          const newest=[...additions.values()].sort((a,b)=>stamp(b.at||b.occurred_at)-stamp(a.at||a.occurred_at))[0];
+          if(newest)bus.emit({...newest,at:newest.at||newest.occurred_at});
         }
+        render();
       }catch{}
     },8000);
   }

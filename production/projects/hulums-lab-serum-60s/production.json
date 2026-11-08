@@ -66,6 +66,7 @@
   "timelineManifest": "07_MANIFESTS/timeline.json",
   "provenanceManifest": "07_MANIFESTS/provenance.json",
   "assetRegisterManifest": "07_MANIFESTS/asset_register.json",
+  "growthProfileManifest": "07_MANIFESTS/growth_profile.json",
   "plotlines": [
     "institutional-containment",
     "triggered-metamorphosis"

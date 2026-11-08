@@ -109,13 +109,28 @@ def check_long_play():
     renders = [job for job in render_jobs.get("jobs", [])
                if job.get("id", "").endswith(f"-{cycle:05d}")]
     require(len(renders) == 3, "current cycle does not have SPACE, VIDEO and SOUND jobs")
+    activity_path = ROOT / "engine" / "activity.jsonl"
+    require(activity_path.is_file(), "canonical activity stream missing for Long Play")
+    activity_records = [json.loads(line) for line in activity_path.read_text(encoding="utf-8").splitlines() if line.strip()]
+    occurrence_id = f"scheduled-long-play-{cycle:05d}"
+    require(any(item.get("id") == occurrence_id for item in activity_records),
+            "canonical Long Play occurrence is not inscribed")
+    event_artifact_id = f"activity-{occurrence_id}"
+    event_artifact = ROOT / "artifacts" / "activity-events" / f"{occurrence_id}.json"
+    require(event_artifact.is_file(), f"missing canonical Long Play artifact: {event_artifact_id}")
+    artifact_ledger = load("artifacts/index.json")
+    ledger_ids = {item.get("id") for item in artifact_ledger.get("artifacts", [])}
+    require(event_artifact_id in ledger_ids, "Long Play event artifact is absent from ledger")
+    require((ROOT / "dropbox_outbox" / f"{occurrence_id}.json").is_file(),
+            "Long Play event is not staged in the Dropbox outbox")
+
     exchange_event = next((item for item in exchange.get("events", [])
                            if item.get("id") == f"scheduled-long-play-{cycle:05d}"), None)
     require(exchange_event is not None, "current cycle is absent from shared exchange")
 
     queued = sum(1 for job in [image, *renders] if job.get("status") == "QUEUED")
     completed = sum(1 for job in [image, *renders] if job.get("status") == "COMPLETED")
-    print(f"LONG PLAY PASS | cycle={cycle} | recording={recording_id} | exchange=present")
+    print(f"LONG PLAY PASS | cycle={cycle} | recording={recording_id} | exchange=present | inscription=present")
     print(f"MEDIA PIPELINE | queued={queued} | completed={completed} | total={1 + len(renders)}")
     if queued:
         print("MEDIA NOTE | queued jobs are requests, not rendered media; a worker must complete them.")

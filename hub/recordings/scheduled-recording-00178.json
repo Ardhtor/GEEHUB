@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00178",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "common-table",
+  "position": {
+    "x": 50,
+    "y": 8,
+    "z": 0
+  },
+  "camera": {
+    "x": 50,
+    "y": 8,
+    "z": 1.7,
+    "heading": 134,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 13.86,
+    "priorScale": 13.78,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 13.86,
+    "clearance": 0.0722,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "A TABLE IS SET"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "cedar-house",
+      "name": "CEDAR HOUSE"
+    },
+    {
+      "type": "region",
+      "id": "common-table",
+      "name": "THE COMMON TABLE"
+    },
+    {
+      "type": "relation",
+      "title": "A TABLE IS SET"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 13.78,
+      "to": 13.86
+    },
+    {
+      "property": "location.regionId",
+      "from": "cedar-house",
+      "to": "common-table",
+      "relation": "A TABLE IS SET"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0726,
+      "to": 0.0722
+    }
+  ],
+  "intent": "LONG PLAY / CEDAR HOUSE → THE COMMON TABLE / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 178,
+    "previousRegionId": "cedar-house",
+    "regionId": "common-table",
+    "relation": "A TABLE IS SET",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 13.78,
+    "scaleBaselineTo": 13.86
+  },
+  "timestamp": "2026-11-08T16:22:02.774Z"
+}

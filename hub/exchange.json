@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-08T09:31:18.045Z",
+  "generated": "2026-11-08T16:22:02.774Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00178",
+      "at": "2026-11-08T16:22:02.774Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / CEDAR HOUSE → THE COMMON TABLE / ANDREW",
+      "body": "The world crossed the existing relation \"A TABLE IS SET\" from CEDAR HOUSE into THE COMMON TABLE. Scale increased from 13.78× to 13.86×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00178",
+      "live": true,
+      "regionId": "common-table",
+      "previousRegionId": "cedar-house",
+      "relation": "A TABLE IS SET"
+    },
     {
       "id": "scheduled-long-play-00177",
       "at": "2026-11-08T09:31:18.045Z",
@@ -1482,21 +1497,6 @@
       "regionId": "colossal-escalation",
       "previousRegionId": "male-harem",
       "relation": "MASS WITHOUT AMNESIA"
-    },
-    {
-      "id": "scheduled-long-play-00081",
-      "at": "2026-10-20T15:18:13.392Z",
-      "from": "geehub-long-play",
-      "to": "luke",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / BODYLOUNGER → MALE HAREM / LUKE",
-      "body": "The world crossed the existing relation \"THE ARCHIVE OPENS A ROOM\" from BODYLOUNGER into MALE HAREM. Scale increased from 7.62× to 7.65×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00081",
-      "live": true,
-      "regionId": "male-harem",
-      "previousRegionId": "bodylounger",
-      "relation": "THE ARCHIVE OPENS A ROOM"
     }
   ]
 }

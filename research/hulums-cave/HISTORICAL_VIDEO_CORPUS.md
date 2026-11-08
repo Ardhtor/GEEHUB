@@ -175,3 +175,25 @@ New recovery targets:
 Archive note: direct Wayback page and CDX requests for the reconstructed Ultrasize Chapter 1 URL were attempted in this research pass, but the web retrieval interface returned an internal access error. This is not evidence that no Wayback capture exists. The archive status remains unverified until queried through the Wayback interface or another archive index.
 
 Source: https://archive.musclegrowth.net/threads/11751-p7.html
+
+
+## Recovered exact Blogspot references from the forum link graph
+
+The surviving forum archive exposes two exact October 25, 2009 post paths. The first is `http://hulumscave.blogspot.com/2009/10/test-quickie.html`. The second is shown only as a truncated path ending `d-i-think.html`; its full slug is not recoverable from the visible archived text, so it remains unresolved. The same thread identifies the first video as “Quickie” in a later post, and a creator-approved derivative was posted by another animator on the forum on October 31. Hulumulu explicitly approved the derivative with credit for the animation work and offered to make additional animations for the collaborator. This is a documented example of modular animation being supplied for another artist's downstream video work.
+
+The forum's November 3, 2009 post links a short new video with a partially visible slug ending `n-sometin.html`; the beginning of the slug is truncated in the archived text. Do not normalize this to a guessed title. The November 2 Chapter 3 announcement also says the creator was waiting on a ten-hour render before releasing several new videos. This is a creator-reported render duration, not a verified render-engine benchmark.
+
+Contemporary responses distinguish at least two qualities worth investigating in the actual files: one viewer calls the bathroom growth video cinematic despite describing it as a straightforward muscle morph; another calls the Quickie video a favorite. These are audience descriptions only. The source video contents, exact scene order, and sound remain uninspected.
+
+A November 1 discussion of The Bully is particularly revealing about narrative design. One viewer asks for a conventional reversal in which the smaller character gets revenge; another argues that the original's refusal of a standard “revenge of the nerd” scenario is precisely what makes it distinctive. This is evidence that the work's unusual power dynamic was noticed by its audience. Preserve the original ending and character relationship as unknown until the video itself is recovered; do not rewrite the premise from audience requests.
+
+New confirmed/reconstructed targets:
+- Quickie video post: http://hulumscave.blogspot.com/2009/10/test-quickie.html
+- Second October 25 video post: `http://hulumscave.blogspot.com/2009/10/[slug unresolved; visible suffix d-i-think.html]`
+- November 3 short video post: `http://hulumscave.blogspot.com/2009/11/[slug unresolved; visible suffix n-sometin.html]`
+- Quickie derivative discussion: https://www.musclegrowth.org/forum/showthread.php?p=113391 (forum archive may preserve this under its own thread URL; exact archived target still to be located)
+- The Bully MOV: https://www.box.net/shared/static/yz3u77msfe.mov (historical forum link; current availability unverified)
+
+The forum archive identifies itself as a direct download of the Evolution Forum at closure and preserves posts from 2004–2014. Adjacent pages 6, 8, and 9 of this thread are next targets; the web retrieval interface currently fails to open those exact page URLs, so this is a retrieval limitation, not evidence that those pages are absent.
+
+Source: https://archive.musclegrowth.net/threads/11751-p7.html

@@ -1,0 +1,138 @@
+{
+  "schema": "geehub.hulums-cave.technical-evidence.v1",
+  "scope": "Creator-documented and video-inspection targets for rigging/deformation, lighting/atmosphere, materials/textures, scene construction and rendering.",
+  "evidence_policy": "Creator statements are recorded as statements. Visual properties remain unverified until the actual video or WIP image is inspected. Do not infer private scene implementation.",
+  "records": [
+    {
+      "id": "bedroom-growth-technical-study",
+      "work": "Bedroom Growth Technical Study (Archive)",
+      "date": "2023-06-09",
+      "layer": "rigging-deformation",
+      "creator_statement": "Lower-resolution render used while working on body movements with pinning/locking body parts; creator says the technique is used frequently now.",
+      "source": "https://www.patreon.com/hulumscave/posts/bedroom-growth-84293264",
+      "status": "technical statement verified; video access linked; frame-level inspection pending",
+      "questions": [
+        "Which body regions are pinned or locked?",
+        "How are constraints blended, released, or transferred?",
+        "Is the technique used for contact stability, pose control, growth deformation, or several purposes?",
+        "What rig implementation is actually visible or disclosed?"
+      ]
+    },
+    {
+      "id": "atmosphere-volume",
+      "work": "Atmosphere volume",
+      "date": "2023-01-29",
+      "layer": "lighting-atmosphere",
+      "creator_statement": "Atmosphere volume is used to make renders look more realistic, with longer render time accepted as the trade-off.",
+      "source": "https://www.patreon.com/hulumscave/posts/atmosphere-77922144",
+      "status": "creator statement verified; full post locked",
+      "questions": [
+        "How does volume affect depth separation and light visibility?",
+        "What density, color, falloff and light interaction are visible?",
+        "What is the actual renderer and volume implementation?"
+      ]
+    },
+    {
+      "id": "laboratory-night-lighting",
+      "work": "Laboratory Growth / I decided to go with night time",
+      "date": "2023-09-09",
+      "layer": "lighting-environment",
+      "creator_statement": "Creator chose a night-time direction; final scene rendering was expected before sound work the following week.",
+      "source": "https://www.patreon.com/hulumscave/posts/i-decided-to-go-89020199",
+      "status": "production statement verified; attached images locked; final clip inspection pending"
+    },
+    {
+      "id": "laboratory-wip-images",
+      "work": "Laboratory Growth WIP images",
+      "date": "2023-09-05",
+      "layer": "environment-materials-lighting",
+      "source": "https://www.patreon.com/hulumscave/posts/laboratory-wip-88823860",
+      "status": "WIP image set exists; locked in public crawl; visual inspection pending"
+    },
+    {
+      "id": "devil-throne-maya-set",
+      "work": "Deal with the Devil scene / devil and throne set",
+      "date": "2023-10-09",
+      "layer": "set-pipeline",
+      "creator_statement": "The devil and throne set was moved into Maya and was ready for animation.",
+      "source": "https://www.patreon.com/hulumscave/posts/next-scene-is-90663150",
+      "status": "creator statement verified; scene images locked"
+    },
+    {
+      "id": "loft-set-reuse",
+      "work": "Loft Growth",
+      "date": "2023-06-19",
+      "layer": "environment-reuse",
+      "creator_statement": "An earlier Loft set was brought back while the Laboratory Growth scene poll was underway.",
+      "source": "https://www.patreon.com/hulumscave/posts/loft-growth-84825490",
+      "status": "creator statement verified; set comparison pending"
+    },
+    {
+      "id": "woods-1080p",
+      "work": "in the woods (1080p version)",
+      "date": "2023-03-24",
+      "layer": "render-delivery",
+      "creator_statement": "A higher-quality 1080p version was made following audience preference in a quality trade-off poll.",
+      "source": "https://www.patreon.com/hulumscave/posts/in-woods-1080p-80495067",
+      "status": "post excerpt verified; original and 1080p files require matched inspection"
+    },
+    {
+      "id": "old-footage-found",
+      "work": "Old footage found",
+      "date": "2023-06-09",
+      "layer": "source-recovery",
+      "creator_statement": "While looking for source files lost with NewTumbl, creator found footage thought lost after a corrupt hard drive.",
+      "source": "https://www.patreon.com/hulumscave/posts/silver-linings-84337220",
+      "status": "recovery announcement verified; exact recovered works and files need identification"
+    }
+  ],
+  "material_inspection_fields": [
+    "skin reflectance and specular width",
+    "roughness variation",
+    "subsurface-scattering cues",
+    "pore/noise frequency and scale",
+    "sweat/gloss response",
+    "cloth weave, folds and stretch",
+    "hair/fur response",
+    "wood, metal, plastic, concrete surface properties",
+    "UV/texture detail versus geometry, lighting or compression",
+    "consistency of material response across shots"
+  ],
+  "rig_inspection_fields": [
+    "stable body landmarks",
+    "joint and limb continuity",
+    "pinned/locked regions",
+    "constraint blending and release",
+    "contact and collision",
+    "foot sliding",
+    "deformation boundaries",
+    "corrective shapes and silhouette preservation"
+  ],
+  "lighting_inspection_fields": [
+    "key/fill/rim",
+    "practical light sources",
+    "direction and softness",
+    "color temperature",
+    "shadow density",
+    "bounce and exposure",
+    "volumetric density and falloff",
+    "depth separation and contrast"
+  ],
+  "render_inspection_fields": [
+    "resolution and frame rate",
+    "sampling and noise",
+    "motion blur",
+    "depth of field",
+    "denoising",
+    "compositing",
+    "color grading",
+    "platform encoding"
+  ],
+  "next_actions": [
+    "Inspect the Bedroom Growth Technical Study video and timestamp every pinning/locking example.",
+    "Retrieve and compare the Atmosphere volume example and final Laboratory Growth night scene.",
+    "Compare Loft Growth set reuse with its final video and WIP images.",
+    "Compare in the woods original with the 1080p version at matched frames.",
+    "Inspect materials only from recovered image/video evidence; no guessed shader recipes."
+  ]
+}

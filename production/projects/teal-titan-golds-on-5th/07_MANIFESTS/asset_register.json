@@ -1,81 +1,105 @@
 {
-  "schema": "geehub.asset-register/1",
-  "project": "teal-titan-golds-on-5th",
-  "status": "candidate-review-required",
+  "schema": "geehub.asset-register/2",
+  "project_id": "teal-titan-golds-on-5th",
   "assets": [
     {
-      "id": "source-video",
-      "kind": "video",
+      "id": "dropbox-snapvid-candidate",
+      "kind": "source-video",
       "required": true,
-      "status": "candidate-files-located-not-visually-verified",
-      "storage": "Dropbox / original",
+      "status": "metadata-only-unverified",
+      "storage": "Dropbox canonical",
       "destination": "01_SOURCE/",
       "verification": [
-        "path-or-file-id",
-        "filename",
-        "sha256",
-        "duration",
-        "fps",
-        "dimensions"
+        "Dropbox path and file ID present",
+        "Filename and byte size recorded",
+        "SHA-256 pending",
+        "Duration, fps and dimensions pending",
+        "Visual identity pending"
       ],
-      "candidates": [
-        {
-          "name": "SnapVid.Net_YPBbLkvp9AQAKdpS_672p.mp4",
-          "path_display": "/SnapVid.Net_YPBbLkvp9AQAKdpS_672p.mp4",
-          "file_id": "id:tbdqPXHGULQAAAAAAAABIA",
-          "size_bytes": 1685453,
-          "last_modified": "2026-10-31T19:10:37Z",
-          "match": "filename search for SnapVid",
-          "verification": "metadata only; visual identity and relevance unconfirmed"
-        },
-        {
-          "name": "WhatsApp Video 2026-10-31 at 02.10.14.mp4",
-          "path_display": "/WhatsApp Video 2026-10-31 at 02.10.14.mp4",
-          "file_id": "id:tbdqPXHGULQAAAAAAAABIQ",
-          "size_bytes": 1045260,
-          "last_modified": "2026-10-31T19:10:37Z",
-          "match": "filename search for WhatsApp",
-          "verification": "metadata only; visual identity and relevance unconfirmed"
-        },
-        {
-          "name": "colossal_giant_bodybuilder.mp4",
-          "path_display": "/grouba (1)/colossal_giant_bodybuilder.mp4",
-          "file_id": "id:tbdqPXHGULQAAAAAAAABVQ",
-          "size_bytes": 2910510,
-          "last_modified": "2026-11-02T20:16:06Z",
-          "match": "filename search for giant",
-          "verification": "metadata only; visual identity and relevance unconfirmed"
-        }
-      ]
+      "source_ref": "07_MANIFESTS/provenance.json#dropbox-snapvid-candidate",
+      "notes": "Candidate only; do not stage as approved reference until opened and inspected."
+    },
+    {
+      "id": "dropbox-whatsapp-candidate",
+      "kind": "source-video",
+      "required": true,
+      "status": "metadata-only-unverified",
+      "storage": "Dropbox canonical",
+      "destination": "01_SOURCE/",
+      "verification": [
+        "Dropbox path and file ID present",
+        "Filename and byte size recorded",
+        "SHA-256 pending",
+        "Duration, fps and dimensions pending",
+        "Visual identity pending"
+      ],
+      "source_ref": "07_MANIFESTS/provenance.json#dropbox-whatsapp-candidate",
+      "notes": "Candidate only; do not stage as approved reference until opened and inspected."
+    },
+    {
+      "id": "dropbox-colossal-candidate",
+      "kind": "source-video",
+      "required": false,
+      "status": "metadata-only-unverified",
+      "storage": "Dropbox canonical",
+      "destination": "01_SOURCE/",
+      "verification": [
+        "Dropbox path and file ID present",
+        "Filename and byte size recorded",
+        "SHA-256 pending",
+        "Duration, fps and dimensions pending",
+        "Visual identity pending"
+      ],
+      "source_ref": "07_MANIFESTS/provenance.json#dropbox-colossal-candidate",
+      "notes": "Candidate only; visual relevance remains unconfirmed."
     },
     {
       "id": "marcus-baseline",
       "kind": "image-reference-set",
       "required": true,
       "status": "pending-source-inspection",
-      "destination": "02_FRAMES/"
+      "destination": "02_FRAMES/",
+      "verification": [
+        "Verified source identity",
+        "Face/head continuity",
+        "Skin tone and body proportions"
+      ]
     },
     {
       "id": "growth-states",
-      "kind": "image-sequence",
+      "kind": "continuous-growth-pass",
       "required": true,
       "status": "not-generated",
       "destination": "03_GROWTH_PASSES/",
-      "count": 6
+      "verification": [
+        "Timeline-driven regional deformation",
+        "No stage-boundary discontinuity",
+        "Rig deformation review"
+      ]
     },
     {
       "id": "composite-master",
-      "kind": "video",
+      "kind": "continuous-composite",
       "required": true,
       "status": "not-rendered",
-      "destination": "04_COMPOSITES/"
+      "destination": "04_COMPOSITES/",
+      "verification": [
+        "Continuous six-second event",
+        "Camera continuity",
+        "Environmental response timing"
+      ]
     },
     {
-      "id": "score",
+      "id": "audio-design",
       "kind": "audio",
       "required": false,
-      "status": "not-selected",
-      "destination": "06_AUDIO/"
+      "status": "design-in-manifest",
+      "destination": "06_AUDIO/",
+      "verification": [
+        "Source/derived audio separation",
+        "Cue synchronization",
+        "Mix review"
+      ]
     },
     {
       "id": "final-master",
@@ -83,10 +107,9 @@
       "required": true,
       "status": "not-rendered",
       "destination": "05_EXPORTS/",
-      "format": "MP4",
-      "resolution": "420p",
-      "duration_seconds": 6
+      "files": [],
+      "notes": "Delivery specification remains in production.json."
     }
   ],
-  "provenanceRule": "Never mark a source as inspected or an output as rendered until the actual media has been opened and verified."
+  "provenance_rule": "Dropbox is canonical. Never mark source as inspected or output as rendered until the actual media has been opened and verified."
 }

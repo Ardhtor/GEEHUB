@@ -105,6 +105,16 @@ async function inscribeOccurrence(event) {
 const server=http.createServer(async(req,res)=>{
   const url=new URL(req.url,"http://"+req.headers.host);
   if(req.method==="GET" && url.pathname==="/api/geehub/health") return send(res,200,{ok:true,configured:Boolean(API_KEY&&MODEL),model:MODEL||null});
+  if(req.method==="GET" && url.pathname==="/api/geehub/activity"){
+    try{
+      const limit=Math.min(100,Math.max(1,Number(url.searchParams.get("limit")||40)));
+      const raw=await readFull("engine/activity.jsonl");
+      const events=raw.split(/\\r?\\n/).filter(Boolean).slice(-limit).reverse().flatMap(line=>{
+        try{return [JSON.parse(line)]}catch{return []}
+      });
+      return send(res,200,{events});
+    }catch(error){return send(res,500,{error:error.message||"Activity log unavailable"});}
+  }
   if(req.method==="POST" && url.pathname==="/api/geehub/inscribe"){
     try{
       const input=await bodyOf(req);

@@ -52,7 +52,7 @@ async function generateTurn(input) {
     "LIVE SCENE\n"+JSON.stringify(input.scene),
     "RECENT EXCHANGE\n"+JSON.stringify(input.history)
   ].join("\n\n");
-  const instructions = `You are the live interlocutor inside GEEHUB. Continue the actual scene as a participant, not as a narrator explaining the system. Write one natural utterance by the selected speaker. Let their established voice, relationships, immediate surroundings, prior remarks, and current intention shape the line. Characters are adults. Do not flatten their voices into generic assistant prose. Profanity is permitted when it belongs naturally to the speaker and situation; do not force it. The utterance must respond to the preceding event and may change what happens next. Return only a JSON object with exactly: speaker (string), utterance (string), emotional_tone (string), consequence (string), next_speaker (string). consequence must state a concrete scene/relationship/world change or an empty string. next_speaker must be one of the supplied participants or empty string. Do not invent claims about real people or external actions.`;
+  const instructions = `You are the live interlocutor inside GEEHUB. Continue the actual scene as a participant, not as a narrator explaining the system. Write one natural utterance by the preferred_speaker when one is supplied; otherwise choose the participant whose response follows most naturally from the scene. Let their established voice, relationships, immediate surroundings, prior remarks, and current intention shape the line. Characters are adults. Do not flatten their voices into generic assistant prose. Profanity is permitted when it belongs naturally to the speaker and situation; do not force it. The utterance must respond to the preceding event and may change what happens next. Return only a JSON object with exactly: speaker (string), utterance (string), emotional_tone (string), consequence (string), next_speaker (string). consequence must state a concrete scene/relationship/world change or an empty string. next_speaker must be one of the supplied participants or empty string. Do not invent claims about real people or external actions.`;
   const payload = {model:MODEL,instructions,input:context,max_output_tokens:700,text:{format:{type:"json_object"}}};
   const response = await fetch(API_URL,{method:"POST",headers:{"authorization":"Bearer "+API_KEY,"content-type":"application/json"},body:JSON.stringify(payload),signal:AbortSignal.timeout(90_000)});
   if(!response.ok) throw new Error("Model service returned HTTP "+response.status+": "+(await response.text()).slice(0,600));
@@ -62,7 +62,7 @@ async function generateTurn(input) {
   const result=JSON.parse(text);
   if(!result || typeof result.utterance!=="string" || typeof result.speaker!=="string") throw new Error("Model response did not match the dialogue contract.");
   const allowed=new Set(input.participants);
-  if(!allowed.has(result.speaker)) throw new Error("Model selected a speaker outside this scene.");
+  if(!allowed.has(result.speaker)) throw new Error("Model selected a speaker outside this scene.");\n  if(input.preferredSpeaker && result.speaker!==input.preferredSpeaker) throw new Error("Model did not use the requested next speaker.");
   if(result.next_speaker && !allowed.has(result.next_speaker)) result.next_speaker="";
   return { ...result, generated_at:new Date().toISOString(), model:MODEL };
 }
@@ -75,7 +75,7 @@ const server=http.createServer(async(req,res)=>{
       const input=await bodyOf(req);
       const participants=Array.isArray(input.participants)?input.participants.filter(x=>typeof x==="string").slice(0,8):[];
       if(!participants.length) return send(res,400,{error:"A scene needs at least one participant."});
-      const result=await generateTurn({scene:input.scene||{},history:Array.isArray(input.history)?input.history.slice(-12):[],participants});
+      const result=await generateTurn({scene:input.scene||{},history:Array.isArray(input.history)?input.history.slice(-12):[],participants,preferredSpeaker:participants.includes(input.preferredSpeaker)?input.preferredSpeaker:""});
       return send(res,200,result);
     }catch(error){return send(res, error.message==="Invalid JSON"?400:502,{error:error.message||"Generation failed"});}
   }

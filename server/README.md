@@ -13,7 +13,7 @@ node server/geehub-server.mjs
 OPENAI_API_KEY=your_api_key GEEHUB_MODEL=your_enabled_model node server/geehub-server.mjs
 ```
 
-Then open `http://127.0.0.1:8788`. Keep the API key in the server environment only. It is never sent to the browser or committed to the repository. The service binds to localhost by default. Set `GEEHUB_HOST` deliberately before exposing it to another machine; add authentication and deployment-level rate limits before public hosting.
+Then open `http://127.0.0.1:8788` for the main hub, or `http://127.0.0.1:8788/hub/index.html` for the Project Atlas and jammer. Keep any API key in the server environment only. It is never sent to the browser or committed to the repository. The service binds to localhost by default. Set `GEEHUB_HOST` deliberately before exposing it to another machine; add authentication and deployment-level rate limits before public hosting.
 
 ## Boundaries
 

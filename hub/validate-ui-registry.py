@@ -7,7 +7,7 @@ import re
 import sys
 from pathlib import Path
 
-REPO_RE = re.compile(r"^[^/\\s]+/[^/\\s]+$")
+REPO_RE = re.compile(r"^[^/\s]+/[^/\s]+$")
 
 
 def load_projects(path: Path) -> list[dict]:

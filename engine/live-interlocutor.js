@@ -50,6 +50,7 @@
     anchor.after(root);
     root.querySelector("#liveInterlocutorNext").addEventListener("click",()=>nextTurn());
     state.history.forEach(renderLine);
+    void checkHealth();
     if(!state.history.length){
       const intro=document.createElement("p");
       intro.textContent="The next line will belong to the scene, not to a fixed reaction table.";
@@ -165,6 +166,14 @@
     setStatus("NEW ENCOUNTER");
     void nextTurn();
   });
+  async function checkHealth(){
+    try{
+      const response=await fetch("/api/geehub/health",{cache:"no-store"});
+      if(!response.ok)throw new Error("Local runtime unavailable");
+      const health=await response.json();
+      setStatus(health.configured?"MODEL READY / "+(health.model||"CONNECTED"):"SERVER READY / MODEL NOT CONFIGURED");
+    }catch{setStatus("LOCAL RUNTIME NOT CONNECTED");}
+  }
   async function seedWorldScene(){
     if(restored.scene)return;
     try{

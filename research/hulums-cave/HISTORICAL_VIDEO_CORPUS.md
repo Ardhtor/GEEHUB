@@ -294,3 +294,36 @@ This pass did not locate a public creator statement that names specific texture 
 For every recovered clip, capture: (a) rig/control clues — stable landmarks, joint behavior, pinning, constraint-like holds, contact, foot sliding, deformation boundaries, corrective shapes; (b) lighting — key/fill/rim, practicals, direction, softness, color temperature, shadow density, bounce, volumetrics, exposure and contrast; (c) materials — skin, cloth, hair, environment surfaces, reflectance, roughness, subsurface cues, texture frequency and scale; (d) render — resolution, frame rate, sampling/noise, motion blur, depth of field, denoising, compositing and encode; (e) evidence — timestamp, frame capture, source post, confidence and alternative explanations. A visually convincing result should be reverse-engineered from measured frame evidence rather than from assumptions about the creator's software.
 
 The technical record now treats **rigging/deformation, lighting/atmosphere, textures/materials, and render/finishing** as independent but interacting layers. This is not a side note to the video catalogue; it is part of the main historical reconstruction.
+
+
+## Additional archive retrieval — Flash, Ultra Size, Quick Growth, Daddy Growth (8 November 2026)
+
+### Flash Games: origin and runtime preservation
+
+The July 6, 2023 creator post **Flash Games (Archive)** provides a useful historical origin statement: the creator says the first animated growth they watched was Flash animation by an artist using the name **Sephiroth**, and that this experience motivated them to learn Flash. This is creator-authored provenance for the Flash period, but it does not establish that Sephiroth authored Hulum's own first game or identify any specific game title. The post itself is locked in the public crawl.
+
+A separate April 25, 2024 post, **Play my old flash games!**, says the games can be played through an online **Ruffle SWF player** without installing an application. This is a concrete preservation/runtime lead. The actual SWF links are hidden behind the locked post, so no game has yet been launched or inspected. The next technical pass should preserve each original SWF, record its file hash and metadata, test it in Ruffle, and document title screen, controls, timeline behavior, vector/raster assets, embedded audio, and scripted interactions. Do not substitute a recreation for an original SWF.
+
+Sources: https://www.patreon.com/hulumscave/posts/flash-games-85678874 and https://www.patreon.com/hulumscave/posts/play-my-old-103053283
+
+### Ultra Size: five-installment archive lead
+
+The creator's June 2023 Patreon archive separates **Ultra Size 1 & 2 (Archive)** from **Ultra Size 3, 4 & 5**. The first post says the creator had reread the early installments and considered rebooting the story as a full animation. The second identifies 3, 4, and 5 as the remaining installments “for now.” A related **Ultra Size Prequal (Archive)** post says the series was being backed up on MEGA and explicitly notes that videos of installments 3, 4, and 5 existed while 1 and 2 were not available to the creator at that moment. The exact individual comic links are hidden in locked post content, and the public crawl does not expose page images. These posts establish a five-part series/archive structure and a distinction between comic installments and video adaptations; they do not establish the content of any missing page.
+
+Sources: https://www.patreon.com/hulumscave/posts/ultra-size-1-2-85223367 ; https://www.patreon.com/hulumscave/posts/ultra-size-3-4-5-85306577 ; https://www.patreon.com/hulumscave/posts/ultra-size-84910296
+
+### Additional direct video archive links
+
+The June 8, 2023 **Quick Growth (Archive)** post exposes a direct MEGA file link: https://mega.nz/file/yZQ3wbTC. The same day's **Daddy Growth Part 1 & 2 (Archive)** post exposes separate MEGA links for Part 1 (https://mega.nz/file/eQhlFILa) and Part 2 (https://mega.nz/file/vI4ETKab). The research browser could not open these MEGA destinations, so they are now concrete retrieval targets, not recovered videos. No frame, audio, rig, lighting, or material observations are claimed.
+
+Sources: https://www.patreon.com/hulumscave/posts/quick-growth-84281684 ; https://www.patreon.com/hulumscave/posts/daddy-growth-1-2-84269204
+
+### Forest set reuse: a stronger production clue
+
+The June 21, 2023 **The Forest (Archive)** post identifies the work as the original Forest Growth and says the same set was used again for the Tarzan growth video. This is more specific than a thematic reference: it is creator-confirmed reuse of an environment asset/set across two works. The actual media remains locked, so the comparison still needs inspection. When available, compare persistent geometry and props separately from foliage dressing, camera placement, light direction, atmospheric depth, surface materials, and character scale. This is a useful test case for GEEHUB's reusable-set system.
+
+Source: https://www.patreon.com/hulumscave/posts/forest-archive-85070066
+
+### Access boundary
+
+The public archive now exposes several direct external archive URLs, but the MEGA viewer did not open them in this research environment. The Patreon post text and link targets are evidence of archive existence only. No downloads, page images, SWFs, or video frames have been recovered in this pass. Continue through creator-authorized access and keep all media inspection pending until the actual files are available.

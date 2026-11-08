@@ -60,9 +60,16 @@ def main() -> int:
 
         repo = project.get("repo")
         if repo:
-            if not isinstance(repo, str) or not REPO_RE.fullmatch(repo):
+            if not isinstance(repo, str):
                 failures.append(f"{project_id}: invalid repo selector")
-            elif project.get("path") != f"https://github.com/{repo}":
+            elif repo.startswith("https://github.com/"):
+                expected_url = repo.rstrip("/")
+            elif REPO_RE.fullmatch(repo):
+                expected_url = f"https://github.com/{repo}"
+            else:
+                failures.append(f"{project_id}: invalid repo selector")
+                continue
+            if project.get("path") != expected_url:
                 failures.append(f"{project_id}: repo/path mismatch")
 
     if failures:

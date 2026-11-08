@@ -1,0 +1,89 @@
+{
+  "project": "GEEHUB Growth Study 001",
+  "version": 2,
+  "status": {
+    "source_script": "created",
+    "python_syntax_check": "passed",
+    "blender_execution": "not_run_blender_not_installed",
+    "voxel_remesh_validation": "pending",
+    "weight_validation": "pending",
+    "render_validation": "pending"
+  },
+  "target": "Blender 4.x",
+  "character": {
+    "type": "adult_male_study_figure",
+    "wardrobe": "dark training trunks",
+    "skin_geometry": "single voxel-fused surface from overlapping body and muscle volumes",
+    "separate_objects": ["hair cap", "eyes", "ears", "training trunks", "waistband"],
+    "voxel_size": 0.022,
+    "surface_relax": {"modifier": "SMOOTH", "factor": 0.8, "iterations": 3}
+  },
+  "rig": {
+    "object": "GROWTH_RIG — master control",
+    "master_property": "growth",
+    "range": [0.0, 1.0],
+    "deformation_method": "armature modifier with three-nearest-bone inverse-distance blended vertex weights",
+    "growth_axes": "bone-local cross-section axes",
+    "known_limitations": [
+      "nearest-bone weights are heuristic and require visual validation",
+      "no corrective shapes or muscle sliding",
+      "hands and feet are blockout forms without finger or toe articulation",
+      "facial performance is not implemented"
+    ]
+  },
+  "timeline": {
+    "frame_start": 1,
+    "frame_end": 108,
+    "stages": [
+      {"frame": 1, "name": "REST", "growth": 0.0},
+      {"frame": 36, "name": "STAGE_01 — activation", "growth": 0.28},
+      {"frame": 72, "name": "STAGE_02 — expansion", "growth": 0.62},
+      {"frame": 108, "name": "STAGE_03 — full study", "growth": 1.0}
+    ]
+  },
+  "lighting": {
+    "key": "large warm softbox",
+    "fill": "cool bounce",
+    "rim": "rear cyan separation",
+    "top": "rectangular strip",
+    "atmosphere": "optional low-density volume for A/B comparison"
+  },
+  "materials": {
+    "skin": "procedural placeholder with tonal noise and subtle bump",
+    "cloth": "procedural placeholder with fine noise and bump",
+    "hair": "dark charcoal placeholder",
+    "eyes": "dark umber placeholder",
+    "production_status": "not yet calibrated against validated renders"
+  },
+  "render": {
+    "engine_preference": ["BLENDER_EEVEE_NEXT", "BLENDER_EEVEE", "CYCLES"],
+    "resolution": [1080, 1350],
+    "preview_frames": [1, 108],
+    "output_format": "PNG"
+  },
+  "research_principles": [
+    {
+      "topic": "body deformation and part locking",
+      "source": "https://www.patreon.com/hulumscave/posts/bedroom-growth-84293264",
+      "implementation": "explicit anatomy-to-bone mapping; creator's actual method remains unknown"
+    },
+    {
+      "topic": "atmospheric volume and render cost",
+      "source": "https://www.patreon.com/hulumscave/posts/atmosphere-77922144",
+      "implementation": "optional volume object retained as an independent render variable"
+    },
+    {
+      "topic": "reusable set and animation pipeline",
+      "source": "https://www.patreon.com/hulumscave/posts/next-scene-is-90663150",
+      "implementation": "character, clothing, environment, and lighting remain separately organized"
+    }
+  ],
+  "next_pass": [
+    "execute in Blender and visually inspect voxel surface",
+    "correct joint silhouette and nearest-bone deformation",
+    "add corrective shapes and joint-volume preservation",
+    "calibrate layered skin and cloth materials using rendered A/B tests",
+    "add facial and finger controls",
+    "produce a short animated preview after rig validation"
+  ]
+}

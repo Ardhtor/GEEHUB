@@ -144,7 +144,7 @@
       button.disabled=false;
     }
   }
-  bus.on(event=>{
+  bus.on(async event=>{
     if(!event)return;
     if(event.type==="UTTERANCE"){
       if(event.inscription_source!=="hub-api"||state.history.some(item=>item.eventId===event.id))return;
@@ -162,6 +162,7 @@
     state.scene={...state.scene,event:event.body||event.title||event.type,source:event.source||"GEEHUB",regionId:event.regionId||state.scene.regionId};
     if(Array.isArray(event.participants)&&event.participants.length)state.participants=event.participants.filter(id=>names[id]);
     if(names[event.to])state.nextSpeaker=event.to;
+    await refreshWorldScene();
     saveSession();
     setStatus("NEW ENCOUNTER");
     void nextTurn();
@@ -174,16 +175,26 @@
       setStatus(health.configured?"MODEL READY / "+(health.model||"CONNECTED"):"SERVER READY / MODEL NOT CONFIGURED");
     }catch{setStatus("LOCAL RUNTIME NOT CONNECTED");}
   }
-  async function seedWorldScene(){
-    if(restored.scene)return;
+  async function refreshWorldScene(){
     try{
       const response=await fetch("./hub/world-state.json?ts="+Date.now(),{cache:"no-store"});
       if(!response.ok)return;
       const world=await response.json();
       const encounter=world.activeEncounter||{};
-      state.scene={...state.scene,location:encounter.regionName||"The common room",activeEncounter:encounter,intent:encounter.intent||"",continuity:encounter.continuity||[],latestDelta:encounter.delta||[],recording:world.activeRecording||null};
+      state.scene={
+        ...state.scene,
+        location:encounter.regionName||state.scene.location||"The common room",
+        activeEncounter:encounter,
+        intent:encounter.intent||state.scene.intent||"",
+        continuity:encounter.continuity||state.scene.continuity||[],
+        latestDelta:encounter.delta||state.scene.latestDelta||[],
+        recording:world.activeRecording||state.scene.recording||null
+      };
       saveSession();
     }catch{}
+  }
+  async function seedWorldScene(){
+    if(!restored.scene)await refreshWorldScene();
   }
   document.addEventListener("DOMContentLoaded",()=>{mount();void seedWorldScene();});
   window.GEEHUB_LIVE_INTERLOCUTOR={next:nextTurn,state:()=>JSON.parse(JSON.stringify(state))};

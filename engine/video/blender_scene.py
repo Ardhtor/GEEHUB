@@ -112,26 +112,33 @@ def build_character(growth_ceiling, start_frame, end_frame):
                     key.interpolation = "BEZIER"
 
 
-def build_scene(manifest, output_path):
+def build_scene(manifest, output_path, timeline=None, preview_seconds=None):
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     bpy.ops.object.select_all(action="SELECT")
     bpy.ops.object.delete(use_global=False)
     for datablocks in (bpy.data.meshes, bpy.data.curves, bpy.data.cameras, bpy.data.lights, bpy.data.materials):
         pass
 
     fmt = manifest.get("format", {})
-    duration = max(10, min(600, int(fmt.get("duration_seconds", 45))))
-    fps = int(fmt.get("fps", 24))
+    duration = max(1, min(600, int(fmt.get("duration_seconds", fmt.get("masterDurationSeconds", 45)))))
+    fps = int(fmt.get("fps", fmt.get("frameRate", 24)))
     ceiling = max(1.1, min(4.8, float(fmt.get("growth_ceiling", 3.8))))
-    total_frames = duration * fps
-    start_frame = int(total_frames * 0.3556)
-    end_frame = int(total_frames * 0.7111)
+    total_frames = int(timeline.get("timebase", {}).get("frame_count", duration * fps)) if timeline else duration * fps
+    start_frame = int(total_frames * 0.16)
+    end_frame = int(total_frames * 0.92)
+    if timeline:
+        active_stages = [stage for stage in timeline.get("stages", []) if stage.get("growth", {}).get("active")]
+        if active_stages:
+            start_frame = max(1, int(active_stages[0]["start_seconds"] * fps) + 1)
+            end_frame = min(total_frames, int(active_stages[-1]["end_seconds"] * fps))
     scene = bpy.context.scene
     scene.frame_start = 1
     scene.frame_end = total_frames
     scene.render.fps = fps
-    scene.render.resolution_x = 1280
-    scene.render.resolution_y = 720
-    scene.render.resolution_percentage = 100
+    scene.render.resolution_x = int(fmt.get("width", 1920))
+    scene.render.resolution_y = int(fmt.get("height", 1080))
+    scene.render.resolution_percentage = 45 if preview_seconds else 100
     scene.render.image_settings.file_format = "FFMPEG"
     scene.render.ffmpeg.format = "MPEG4"
     scene.render.ffmpeg.codec = "H264"
@@ -168,12 +175,15 @@ def build_scene(manifest, output_path):
     if use_rigged_character:
         from rigged_character import build_rigged_character
         rig_growth = max(1.0, min(1.8, float(fmt.get("rig_growth_ceiling", 1.35))))
-        build_rigged_character(
-            animate=True,
+        mesh, rig = build_rigged_character(
+            animate=timeline is None,
             start_frame=start_frame,
             end_frame=end_frame,
             growth_ceiling=rig_growth,
         )
+        if timeline:
+            from timeline_growth import animate_timeline_growth
+            animate_timeline_growth(mesh, timeline)
     else:
         build_character(ceiling, start_frame, end_frame)
     area_light("Key / cold softbox", ( -3.5, -4.5, 6.5), 1250, (0.62, 0.82, 1.0), 5)
@@ -198,23 +208,28 @@ def build_scene(manifest, output_path):
     elif camera_mode == "close":
         camera_shots = [(x * 0.78, y * 0.82, z) for x, y, z in camera_shots]
 
-    directed_scenes = manifest.get("scenes", [])
-    if not directed_scenes:
-        directed_scenes = [{"share": 0.2} for _ in range(5)]
-    cursor = 0.0
-    for index, shot in enumerate(directed_scenes):
-        frame = max(1, min(total_frames, int(cursor * total_frames) + 1))
-        camera.location = camera_shots[min(index, len(camera_shots) - 1)]
+    if timeline:
+        from timeline_growth import animate_timeline_camera
+        animate_timeline_camera(camera, timeline)
+    else:
+        directed_scenes = manifest.get("scenes", [])
+        if not directed_scenes:
+            directed_scenes = [{"share": 0.2} for _ in range(5)]
+        cursor = 0.0
+        for index, shot in enumerate(directed_scenes):
+            frame = max(1, min(total_frames, int(cursor * total_frames) + 1))
+            camera.location = camera_shots[min(index, len(camera_shots) - 1)]
+            aim(camera, (0, 0, 1.65))
+            camera.keyframe_insert(data_path="location", frame=frame)
+            camera.keyframe_insert(data_path="rotation_euler", frame=frame)
+            cursor += max(0.0, float(shot.get("share", 1.0 / len(directed_scenes))))
+        camera.location = camera_shots[-1]
         aim(camera, (0, 0, 1.65))
-        camera.keyframe_insert(data_path="location", frame=frame)
-        camera.keyframe_insert(data_path="rotation_euler", frame=frame)
-        cursor += max(0.0, float(shot.get("share", 1.0 / len(directed_scenes))))
-    camera.location = camera_shots[-1]
-    aim(camera, (0, 0, 1.65))
-    camera.keyframe_insert(data_path="location", frame=total_frames)
-    camera.keyframe_insert(data_path="rotation_euler", frame=total_frames)
+        camera.keyframe_insert(data_path="location", frame=total_frames)
+        camera.keyframe_insert(data_path="rotation_euler", frame=total_frames)
 
     # The final third holds the phase-four form; no further scaling keys are added.
+    scene.frame_end = min(total_frames, max(1, int(preview_seconds * fps))) if preview_seconds else total_frames
     scene.frame_set(1)
     scene.render.image_settings.color_mode = "RGB"
     scene.camera.data.dof.use_dof = True
@@ -228,10 +243,13 @@ def main():
     argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
     parser = argparse.ArgumentParser()
     parser.add_argument("--manifest", required=True)
+    parser.add_argument("--timeline")
     parser.add_argument("--output", required=True)
+    parser.add_argument("--preview-seconds", type=float)
     args = parser.parse_args(argv)
     manifest = json.loads(Path(args.manifest).read_text(encoding="utf-8"))
-    build_scene(manifest, Path(args.output))
+    timeline = json.loads(Path(args.timeline).read_text(encoding="utf-8")) if args.timeline else None
+    build_scene(manifest, Path(args.output), timeline=timeline, preview_seconds=args.preview_seconds)
 
 
 if __name__ == "__main__":

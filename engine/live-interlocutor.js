@@ -8,7 +8,8 @@
   const KEY="geehub-live-interlocutor-v1";
   const people=["teal-titan","joey","marcus","arthur"];
   const names={"teal-titan":"Teal Titan",joey:"Joey",marcus:"Marcus",arthur:"Arthur",luke:"Luke",tyler:"Tyler",andrew:"Andrew",joseph:"Joseph",chase:"Chase"};
-  const state={busy:false,history:[],scene:{location:"The common room",event:"The men have gathered."},participants:[...people],lastSpeaker:null};
+  let restored={};try{restored=JSON.parse(localStorage.getItem(KEY)||"{}")}catch{}
+  const state={busy:false,history:Array.isArray(restored.history)?restored.history.slice(-12):[],scene:restored.scene||{location:"The common room",event:"The men have gathered."},participants:Array.isArray(restored.participants)?restored.participants: [...people],lastSpeaker:restored.lastSpeaker||null};
   const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   let root;
   function mount(){
@@ -47,6 +48,7 @@
     state.scene={...state.scene,event:event.body||event.title||event.type,source:event.source||"GEEHUB"};
     if(Array.isArray(event.participants)&&event.participants.length)state.participants=event.participants.filter(id=>names[id]);
     if(root)root.querySelector("#liveInterlocutorStatus").textContent="NEW ENCOUNTER";
+    nextTurn();
   });
   document.addEventListener("DOMContentLoaded",mount);
   window.GEEHUB_LIVE_INTERLOCUTOR={next:nextTurn,state:()=>JSON.parse(JSON.stringify(state))};

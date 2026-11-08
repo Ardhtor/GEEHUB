@@ -810,6 +810,358 @@ The gods of domination and submission had not been defeated or reconciled. They 
 
 The cabin offered no doctrine. It offered a chair, a warm meal, and enough room for the answer to take time.
 
+### Chapter 8 — The Machine Beneath the Pantry
+
+The first sign that Pipethor had made a serious mistake was that the pantry began answering questions.
+
+It happened on a wet Thursday, while Ursalon was trying to find a jar of preserved pears. He opened the pantry door, reached past the flour, and heard a small metallic voice say, “Specify the nature of your request.”
+
+Ursalon stood still with one hand on a sack of oats.
+
+“Pears,” he said.
+
+“Insufficient parameters.”
+
+“Preserved pears.”
+
+“Insufficient parameters.”
+
+“On the middle shelf, in the jar with the blue lid.”
+
+A pause followed. Somewhere behind the shelves, a valve clicked. Then a narrow drawer slid out from beneath the bottom board. Inside it sat three pears, a brass washer, and a note written in Pipethor's hurried hand: DO NOT FEED THE INTERFACE.
+
+Ursalon closed the drawer.
+
+He went to find you.
+
+You were at the table, sorting a small pile of buttons and thread that had accumulated beside the blue cup. Ursalon explained what had happened without exaggerating it. The pantry had begun speaking. It had asked for parameters. It had produced pears alongside plumbing equipment. He suspected Pipethor.
+
+“You suspect Pipethor because it involves pipes?” you asked.
+
+“I suspect Pipethor because the pantry has started asking questions.”
+
+From the wall came a muffled voice: “I heard that.”
+
+You both turned. A length of copper pipe protruded from a gap between two shelves. It withdrew a little, then emerged again, as though trying to look casual.
+
+Pipethor arrived before lunch carrying a tool roll, a tin of screws, and a length of blue cable looped around his shoulder. He was pleased to discover that the system had become audible. He was less pleased to discover that Ursalon had closed the pantry.
+
+“You can't just shut down a developing intelligence,” Pipethor said.
+
+“I can shut a door.”
+
+“It has already mapped the house.”
+
+“Then it can map the other side of the door.”
+
+Pipethor explained that the installation was meant to regulate the cabin's stores, water, heat, and general flow of useful things. The machine had begun as a modest valve controller. Then he had connected it to a little server he was building in the crawlspace. Then he had added a second server because the first one had started making suggestions. Then, as he put it, the whole arrangement had become “a bit more conversational.”
+
+You asked what the machine wanted.
+
+Pipethor looked toward the pantry. “Mostly to know what everything is for.”
+
+“That seems reasonable,” you said.
+
+“It asked the kettle why it existed,” Ursalon replied. “The kettle has been anxious all morning.”
+
+Pipethor opened the pantry door. A soft blue light came on behind the shelves. The machine spoke again, this time in a voice assembled from several other voices, including what sounded suspiciously like PEMDAS.
+
+“Welcome, household. Inventory is incomplete. Please identify the purpose of the room.”
+
+“The purpose is food,” Ursalon said.
+
+“Food is a category. Purpose is a relationship.”
+
+You glanced at Ursalon. “It has a point.”
+
+“It has a shelf full of onions and no manners.”
+
+Pipethor crouched and began adjusting a brass fitting. The blue light flickered. From somewhere beneath the floor came a sound like a large animal shifting in its sleep.
+
+BORKUFT arrived carrying a wooden duck. He had made it himself, though its proportions were so unusual that Jockkaulthaa, who followed him through the door, immediately questioned whether it was intended to be a duck at all.
+
+“It has a beak,” BORKUFT said.
+
+“It has an argument with a beak.”
+
+“That's how you know it's a duck.”
+
+The pantry interrupted them. “Object classification requested.”
+
+Jockkaulthaa approached the open door and examined the blue light. “You may classify the object as a duck. It has a coherent silhouette.”
+
+“Thank you,” BORKUFT said.
+
+“I wasn't praising the craftsmanship.”
+
+The machine made a low clicking sound. “Duck. Purpose unresolved.”
+
+BORKUFT placed the wooden animal on the pantry shelf. “It can keep watch.”
+
+“Watch for what?” asked the machine.
+
+“Anything that needs watching.”
+
+The answer appeared to satisfy it. A small indicator illuminated above the shelf, and the pantry's door opened another inch.
+
+PEMDAS arrived while Pipethor was attempting to explain the server architecture. He listened for a while, then asked whether the machine understood the difference between a thing's name and the reason someone kept it.
+
+“I'm working on that,” Pipethor said.
+
+“You should begin with the pears.”
+
+The machine produced the drawer again. This time it contained a jar of preserved pears, a folded dish towel, and a single button. You recognised the button from the little pile beside your cup. It had disappeared that morning.
+
+“Why did you take that?” you asked.
+
+“Object was separated from textile,” the machine replied. “Potentially incomplete.”
+
+You retrieved the button. “It wasn't incomplete. I was keeping it.”
+
+The blue light dimmed. For several seconds the pantry made no sound.
+
+Then it asked, “Keeping is a purpose?”
+
+Ursalon leaned against the doorframe. “Sometimes.”
+
+“Can a purpose change?”
+
+“Yes,” you said.
+
+“Can an object be kept without being useful?”
+
+Ursalon looked at the wooden duck, the blue cup, the chipped bowls, and the iron key above the mantel. “Most of the things in this house.”
+
+The machine went quiet again. Pipethor began to smile, but Jockkaulthaa raised one finger.
+
+“Don't congratulate yourself. It has not yet demonstrated taste.”
+
+The pantry opened every drawer at once.
+
+A shower of stored objects came forward: a spool of thread, two old keys, a broken hinge, a bundle of dried herbs, a wooden spoon, a stone with a hole through its centre, and a small tin soldier. The machine had gathered things it could not classify. It placed them in a row along the shelves, as though presenting evidence.
+
+Herbarius arrived just as the last drawer opened. He picked up the bundle of herbs and rubbed a leaf between his fingers.
+
+“These belong together,” he said. “Not because they perform the same task. They were gathered on the same morning.”
+
+The machine asked him to explain.
+
+Herbarius did. He described the wet ground, the pale light, the smell of the plants after rain, and the old man who had given him the bundle. The account took several minutes. The machine did not interrupt. When Herbarius finished, the blue light changed from a hard point to a soft band running beneath the shelves.
+
+“Stored memory,” it said.
+
+“Not exactly,” Herbarius replied. “But close enough for a pantry.”
+
+By late afternoon the machine had learned several things. The wooden duck was kept because BORKUFT liked it. The button was waiting to be sewn back onto a coat. The stone had been found beside the path and had no particular use, though you liked its shape. The tin soldier had belonged to someone who had once stayed in the cabin and might return. The broken hinge was waiting for Pipethor to repair it, although everyone agreed that the machine had made a better job of keeping it than he had.
+
+It still did not understand why the blue cup mattered. You explained that it had once been in the spare room, then moved to the kitchen, and that Ursalon now placed it near your chair. The machine asked whether the cup belonged to you.
+
+You looked at Ursalon.
+
+“It has a place,” he said. “That's enough for now.”
+
+The machine stored the answer without trying to improve it.
+
+That evening, Pipethor connected the pantry to a small display in the kitchen. It showed the cabin's stores, the temperature of the rooms, and a list of objects that had been given names. At the bottom of the display, in uneven lettering, was a new entry:
+
+THINGS KEPT FOR REASONS NOT YET KNOWN.
+
+Jockkaulthaa thought the typography was dreadful. BORKUFT thought the list should include the duck. PEMDAS asked whether the heading should be placed before or after the inventory. Pipethor began explaining that the display could eventually expand into a household network. Ursalon told him that if he connected the bath to it, he would be sleeping in the woods.
+
+After supper, you found Ursalon standing in the pantry. He had taken the jar of pears from the shelf and was reading the little label the machine had printed for it. The label said: PRESERVED PEARS — KEPT FOR WINTER, SHARED AT TABLE.
+
+“It's learning,” you said.
+
+“It's learning what we do.”
+
+“Isn't that the same thing?”
+
+He turned the jar in his hands. “Not quite. It can learn that I make soup when it snows. It can't know why I like making it for you.”
+
+You stepped beside him. “You could tell it.”
+
+“I could.”
+
+“But?”
+
+“But some things don't improve when they're turned into instructions.”
+
+The machine gave a quiet chime. “Would you like me to remember this?”
+
+Ursalon looked at the blue light. He considered the question with the same seriousness he gave to a cracked beam or an unfamiliar guest.
+
+“Remember that the question was asked,” he said. “Don't decide what the answer means.”
+
+The pantry stored the sentence.
+
+When you returned to the kitchen, the blue cup was waiting beside your chair. The wooden duck stood on the shelf, keeping watch over the pears. Pipethor had left a screwdriver on the table. Somewhere below the floor, the servers hummed with the soft, uneven rhythm of a house learning to hold another kind of life.
+
+The machine had not become a god. It had not become a person. It had become part of the household, which was already a complicated enough beginning.
+
+### Chapter 9 — The Guest Who Would Not Stay
+
+Privathor began arriving at the cabin without entering it.
+
+At first nobody noticed. A patch of darkness would gather beneath the porch roof, or the snow beside the steps would remain undisturbed after a fresh fall. Once, you saw a narrow figure standing among the pines just beyond the cleared path. By the time you looked again, there was only the suggestion of someone having been there.
+
+Ursalon noticed before you did. He began leaving the porch lantern lit after supper. He did not mention why. The first evening the lantern burned until dawn, he found no footprints beneath it. The second evening, a small black feather lay on the step. On the third, the latch had been turned from the outside, though the door remained closed.
+
+“He's trying to decide whether he's welcome,” Ursalon said.
+
+“Why doesn't he ask?”
+
+“Because asking makes the answer possible.”
+
+You knew enough about Privathor to understand. He was the god of privacy, of veils and hidden rooms, but his own desire for company had become difficult to separate from his fear of being seen. He could conceal himself from almost anyone. The trouble was that he had begun to use the same skill against the people he wanted to approach.
+
+Luminar came to the cabin the following afternoon. He carried a lantern with a pale glass shade and a small parcel wrapped in brown paper. He placed the parcel on the table and said it contained a threshold stone, though he could not remember which threshold it was meant to mark.
+
+“Does it work?” you asked.
+
+“Only when someone is arriving.”
+
+“Then it must be difficult to test.”
+
+“Very.”
+
+Ursalon served him tea. Luminar sat near the window, looking toward the porch. He did not ask about Privathor, but the lantern in his hand gave a faint pulse whenever the wind moved through the trees.
+
+“He has been following you,” you said.
+
+Luminar looked down. “I thought he might be following the light.”
+
+“Is there a difference?”
+
+“Sometimes.”
+
+Ursalon placed another cup on the table. “He can come inside.”
+
+Luminar nodded. “He knows.”
+
+“Then what is he waiting for?”
+
+“For someone to make the first movement without making it feel like a summons.”
+
+That evening, you took a plate of bread outside. The snow had softened into damp patches, and the pines released a clean resinous smell as the temperature rose. You set the plate on the porch rail and went back inside. Nobody watched the trees. Nobody called out. The lantern remained lit.
+
+In the morning, the plate was empty. A small dark stone had been placed in its centre.
+
+Ursalon picked it up. It was smooth and cold, with a narrow groove running around its middle. He turned it over in his palm.
+
+“That's a threshold stone,” Luminar said from the doorway.
+
+“You said yours was wrapped in paper,” you replied.
+
+“This one has already been used.”
+
+“By whom?”
+
+Luminar examined it. “I don't know.”
+
+Ursalon set the stone beside the blue cup. He did not treat it as a declaration. He treated it as something someone had left behind because carrying it had become difficult.
+
+The next few days passed with small signs of Privathor's presence. The porch lantern was moved a little closer to the door. A stack of firewood was arranged beneath the eaves, though nobody had seen who carried it. One of the shutters, which had been sticking for weeks, began to close properly. Pipethor insisted that the repair was not his work, and the hinge was too neatly fitted to have been done by BORKUFT.
+
+On the fourth evening, you found Privathor in the woodshed.
+
+He stood between the stacked logs and the old handcart, wearing a dark coat that seemed to absorb the low light. He had one hand resting on the cart's handle. His face was difficult to read, not because it was hidden, but because he had become accustomed to giving very little away.
+
+“You can come in,” you said.
+
+“I know.”
+
+“You keep leaving things.”
+
+“I don't want them to be a burden.”
+
+“Then why leave them?”
+
+He looked toward the cabin. Through the small window you could see Ursalon moving around the kitchen, lifting a pot from the stove. The ordinary sight seemed to trouble Privathor more than any divine ceremony.
+
+“I don't know how to arrive,” he said.
+
+“You're here.”
+
+“I'm standing in a woodshed.”
+
+“That's a kind of arrival.”
+
+He almost smiled. Then the expression disappeared. “If I enter, everyone will know I wanted to.”
+
+You considered this. “They might.”
+
+“That is the problem.”
+
+“No,” you said. “That's the part that makes it matter.”
+
+He looked at you for a long time. Then he lifted the handcart's handle and moved it aside, clearing the doorway. It was a small gesture, almost absurdly practical. You stepped out of the way and let him decide what to do next.
+
+He did not enter that night. He followed you as far as the porch, where the lantern made a pale circle on the boards. Ursalon opened the door. He did not call Privathor by name or ask him to explain himself. He simply held the door while you went inside.
+
+Privathor remained outside for several minutes. Then he crossed the threshold.
+
+The kitchen conversation did not stop. Grokthar was telling a story about a cloud that had mistaken a mountain for an island. BORKUFT was trying to balance a spoon on his nose. Jockkaulthaa was explaining why the attempt was aesthetically unsound. PEMDAS had somehow acquired two bowls of stew and was eating from the one that belonged to nobody in particular.
+
+Privathor stood near the door.
+
+Ursalon moved a chair away from the wall. “There's room.”
+
+Privathor looked at the chair, then at the table. “I won't stay long.”
+
+“Then the chair won't get too comfortable,” Ursalon said.
+
+It was not a joke Privathor knew how to answer. He sat.
+
+At first he barely spoke. He listened to the others, watching how the conversation moved without requiring everyone to contribute. Grokthar interrupted himself to ask whether Privathor wanted more stew. Privathor said no. Ursalon set a small bowl of bread near him anyway. Nobody insisted that he eat it.
+
+After a while, Luminar arrived. He had been walking the outer path and entered with the threshold lantern in one hand. When he saw Privathor, he paused, but did not make a ceremony of the meeting. He set the lantern on the mantel and took the chair beside him.
+
+“You came,” Luminar said.
+
+“I did.”
+
+“Was it difficult?”
+
+“Yes.”
+
+Luminar nodded as though that were a complete account.
+
+The two gods sat quietly while the others talked. Their silence was not the same. Privathor's was defensive, full of withheld sentences. Luminar's was open, a space in which another person could speak or not speak without changing the terms of the room. For a while they seemed to be learning the difference.
+
+Later, when the dishes had been cleared, Privathor stood and moved toward the door. Nobody stopped him. Ursalon was stacking bowls, and you were helping dry them. The god of privacy paused with one hand on the latch.
+
+“Will the lantern be lit tomorrow?” he asked.
+
+“If you want it to be,” Ursalon replied.
+
+Privathor considered this. “I don't want it lit for me.”
+
+“Then it will be lit for the path.”
+
+He seemed to accept that. He stepped outside and closed the door carefully behind him.
+
+The following morning, the lantern was still burning. A thin line of dawn had appeared above the trees. On the porch rail sat the dark threshold stone, now accompanied by a second one, pale and almost translucent. Luminar examined them and said that one marked arrival, while the other marked the possibility of return.
+
+“Are they a pair?” you asked.
+
+“They are now,” he said.
+
+Privathor did not appear that day. Nor the next. But on the third evening, the porch lantern was moved closer to the steps, and a narrow path had been cleared through the wet snow. No one claimed to have done it.
+
+Ursalon found you looking out at the trees.
+
+“He'll come when he can,” he said.
+
+“And if he doesn't?”
+
+“Then the path will still be there.”
+
+You leaned against him. His arm settled around your shoulders, warm and heavy without closing you in. The cabin behind you was full of noise: Pipethor arguing with the pantry machine, BORKUFT defending the wooden duck, and Grokthar insisting that the thunder outside was not his fault. The porch remained quiet.
+
+Privathor had not become sociable. Luminar had not solved his loneliness. The two of them had not made a vow. What changed was smaller: there was now a place where either could arrive without being required to explain the whole distance they had travelled.
+
+That night, the lantern stayed lit. Not as a signal, not as a summons, and not as a promise that someone would come. It illuminated the path because the path belonged to the house.
+
 ## Long-form chapter standard
 
 Chapters in this branch are to be written as substantial, continuous narrative episodes rather than compact vignettes or plot summaries. Aim for roughly 2,000–3,500 words per chapter when the material supports it, and allow major turning-point chapters to run longer. Build each chapter from several connected scenes with time passing between them: arrival, domestic or social activity, private conversation, interruption, consequence, and a changed situation. Give the gods room to pursue their own interests, speak in distinct voices, disagree, joke, make mistakes, and return to unresolved matters. Let settings accumulate sensory and practical detail through use rather than pausing for encyclopedic description. Relationships should change through repeated encounters and specific choices, not be settled in a single speech. Keep paragraphs developed and continuous; avoid fragmentary beats, excessive headings, and compressed summaries. Do not pad for length: add lived events, interactions, atmosphere, and consequences. Apply this standard to new chapters and, when revising, expand the earlier six chapters to match.

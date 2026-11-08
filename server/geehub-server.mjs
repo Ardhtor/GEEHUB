@@ -109,7 +109,7 @@ const server=http.createServer(async(req,res)=>{
     try{
       const limit=Math.min(100,Math.max(1,Number(url.searchParams.get("limit")||40)));
       const raw=await readFull("engine/activity.jsonl");
-      const events=raw.split(/\\r?\\n/).filter(Boolean).slice(-limit).reverse().flatMap(line=>{
+      const events=raw.split(/\r?\n/).filter(Boolean).slice(-limit).reverse().flatMap(line=>{
         try{return [JSON.parse(line)]}catch{return []}
       });
       return send(res,200,{events});

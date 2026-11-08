@@ -113,7 +113,7 @@ When you finished, he lifted the pot from the hook and served himself. He ate wi
 
 “Gods have a poor understanding of visiting hours.”
 
-As if summoned by the remark, a low roll of thunder travelled along the ridge. Ursalon glanced up at the ceiling.
+As if summoned by the remark, a low roll of thunder traveled along the ridge. Ursalon glanced up at the ceiling.
 
 “That'll be Grokthar,” he said. “He never learned to arrive quietly.”
 
@@ -155,7 +155,7 @@ Inside, the kettle began to sing. The cabin had made room for one more morning, 
 
 You came back the next day. Then again.
 
-At first you told yourself it was practical. The weather remained poor, the path was familiar, and Ursalon had made it clear that the spare room was available. But the reasons became less convincing as the days passed. You began to recognise the different sounds of the cabin: the low knock of a log settling in the hearth, the scrape of Ursalon's chair, the kettle's rising whistle, and the soft thud of his boots when he came in from the woodpile.
+At first you told yourself it was practical. The weather remained poor, the path was familiar, and Ursalon had made it clear that the spare room was available. But the reasons became less convincing as the days passed. You began to recognize the different sounds of the cabin: the low knock of a log settling in the hearth, the scrape of Ursalon's chair, the kettle's rising whistle, and the soft thud of his boots when he came in from the woodpile.
 
 Soon there was a cup that Ursalon set out without asking, a hook by the door for your coat, and a chair he had reinforced after it gave a worrying crack beneath him. He pretended these things were practical. You let him pretend.
 
@@ -261,7 +261,7 @@ At last, he stepped aside.
 
 You reached for his hand. He held yours carefully, as if restraint were a kind of strength he had only just begun to learn.
 
-He walked with you to the porch but did not follow down the path. Before you left, he pointed out a section where the snow had drifted over a shallow drop. He showed you how to recognise the darker ice near the creek and told you where the trail narrowed. He gave you the information without turning it into an argument. You thanked him and went.
+He walked with you to the porch but did not follow down the path. Before you left, he pointed out a section where the snow had drifted over a shallow drop. He showed you how to recognize the darker ice near the creek and told you where the trail narrowed. He gave you the information without turning it into an argument. You thanked him and went.
 
 The walk was uneventful. You returned two hours later with cold cheeks and a branch of winter berries you had found near the ridge. Ursalon was splitting wood. He looked up at the sound of your steps, then returned his attention to the log. You could see the effort it took not to ask whether you had been safe every minute.
 
@@ -317,7 +317,7 @@ Grokthar stood on the porch, soaked through, with his hair bright from the storm
 
 Grokthar stepped inside and shook rain from his cloak. Ursalon took the case from him and set it on the bench. You brought a towel. Grokthar accepted it with a theatrical bow, then rubbed his hair until it stood in every direction.
 
-He found you and Ursalon sitting shoulder to shoulder by the fire. For an instant, old expectations hovered in the room. The pantheon had always assumed that thunder and bear belonged together at the centre of every story. Their closeness was familiar to the other gods: a storm that found its shelter, a hearth that welcomed the sky. People had repeated the image so often that it had begun to resemble a law.
+He found you and Ursalon sitting shoulder to shoulder by the fire. For an instant, old expectations hovered in the room. The pantheon had always assumed that thunder and bear belonged together at the center of every story. Their closeness was familiar to the other gods: a storm that found its shelter, a hearth that welcomed the sky. People had repeated the image so often that it had begun to resemble a law.
 
 Grokthar looked from Ursalon to you, then understood that the shape of the house had changed.
 
@@ -596,7 +596,7 @@ Potestas turned to him. “A vow is not a coat one removes when the weather chan
 
 “It is the answer.”
 
-Privathor lowered his gaze. His fingers had closed around the edge of his sleeve. You recognised the gesture from the cabin: the small movement he made when he wanted to leave but did not want anyone to notice that he wanted it.
+Privathor lowered his gaze. His fingers had closed around the edge of his sleeve. You recognized the gesture from the cabin: the small movement he made when he wanted to leave but did not want anyone to notice that he wanted it.
 
 Ursalon shifted beside you. He did not speak for Privathor. He only moved half a step, making it easier for him to see the exit.
 
@@ -622,7 +622,7 @@ Potestas returned to his chair. “You would make every bond conditional.”
 
 “Every living bond is conditional,” Ursalon said. “That's why it has to be renewed.”
 
-The ceremony began anyway. Potestas had prepared for disagreement as a feature of the event, not a reason to abandon it. A broad circle had been cut into the floor, with places marked for each participant. At its centre stood a low black dais. The first declaration would be Potestas's: he would claim the right to command. Militthor would pledge disciplined service. Copthorus would enforce the boundaries. Gigathor would design the structure that joined them.
+The ceremony began anyway. Potestas had prepared for disagreement as a feature of the event, not a reason to abandon it. A broad circle had been cut into the floor, with places marked for each participant. At its center stood a low black dais. The first declaration would be Potestas's: he would claim the right to command. Militthor would pledge disciplined service. Copthorus would enforce the boundaries. Gigathor would design the structure that joined them.
 
 One by one, the gods were invited forward.
 
@@ -630,7 +630,7 @@ Militthor stepped into the circle and spoke with the clarity of a soldier giving
 
 Copthorus followed. He pledged to distinguish permission from trespass, order from disorder, and consequence from revenge. Potestas accepted him too. The keys at Copthorus's belt rang once, though nobody had touched them.
 
-Gigathor approached with his diagrams. He offered planning, foresight, and the ability to turn desire into an organised undertaking. Potestas placed a hand over the portfolio. The pages rearranged themselves into a single branching design. Gigathor looked delighted.
+Gigathor approached with his diagrams. He offered planning, foresight, and the ability to turn desire into an organized undertaking. Potestas placed a hand over the portfolio. The pages rearranged themselves into a single branching design. Gigathor looked delighted.
 
 Then came the unexpected difficulty. Potestas called for Privathor.
 
@@ -678,7 +678,7 @@ Ursalon looked at him. “Grokthar.”
 
 Potestas considered him. “Kneel.”
 
-The word travelled through the chamber like a dropped blade.
+The word traveled through the chamber like a dropped blade.
 
 Grokthar looked at him for a long moment. The storm behind his eyes gathered, but he did not release it. Then, with deliberate calm, he lowered himself onto one knee.
 
@@ -702,7 +702,7 @@ Ursalon stepped into the circle. He did not kneel. He did not challenge Potestas
 
 “This is what you keep missing,” he said. “Yielding can be powerful. Command can be generous. But neither is real when the person involved has no room to answer.”
 
-Domithicus began to laugh softly. The sound spread through the chamber, not mocking exactly, but delighted by the strange shape the ritual had taken. He moved to the centre of the circle and crouched to inspect the red lines.
+Domithicus began to laugh softly. The sound spread through the chamber, not mocking exactly, but delighted by the strange shape the ritual had taken. He moved to the center of the circle and crouched to inspect the red lines.
 
 “They're waiting for a second part,” he said. “The pattern thinks the first declaration was a beginning.”
 
@@ -756,7 +756,7 @@ Privathor stepped away from the pillar. He approached the circle and looked down
 
 Copthorus opened his ledger again, turned to a clean page, and wrote that sentence down.
 
-The gathering did not end in a battle. Potestas was capable of one, and Grokthar was more than willing to provide the weather, but the hall had begun to lose its certainty. The red lines faded in uneven sections. Some of the kneeling figures on the pillars remained bowed; others seemed to straighten by a fraction. The black dais cracked down its centre, revealing a second channel beneath it, narrow and silver, which ran back toward the entrance.
+The gathering did not end in a battle. Potestas was capable of one, and Grokthar was more than willing to provide the weather, but the hall had begun to lose its certainty. The red lines faded in uneven sections. Some of the kneeling figures on the pillars remained bowed; others seemed to straighten by a fraction. The black dais cracked down its center, revealing a second channel beneath it, narrow and silver, which ran back toward the entrance.
 
 Gigathor stared at the exposed design. He was already thinking about how it might be rebuilt.
 
@@ -914,7 +914,7 @@ PEMDAS arrived while Pipethor was attempting to explain the server architecture.
 
 “You should begin with the pears.”
 
-The machine produced the drawer again. This time it contained a jar of preserved pears, a folded dish towel, and a single button. You recognised the button from the little pile beside your cup. It had disappeared that morning.
+The machine produced the drawer again. This time it contained a jar of preserved pears, a folded dish towel, and a single button. You recognized the button from the little pile beside your cup. It had disappeared that morning.
 
 “Why did you take that?” you asked.
 
@@ -942,7 +942,7 @@ The machine went quiet again. Pipethor began to smile, but Jockkaulthaa raised o
 
 The pantry opened every drawer at once.
 
-A shower of stored objects came forward: a spool of thread, two old keys, a broken hinge, a bundle of dried herbs, a wooden spoon, a stone with a hole through its centre, and a small tin soldier. The machine had gathered things it could not classify. It placed them in a row along the shelves, as though presenting evidence.
+A shower of stored objects came forward: a spool of thread, two old keys, a broken hinge, a bundle of dried herbs, a wooden spoon, a stone with a hole through its center, and a small tin soldier. The machine had gathered things it could not classify. It placed them in a row along the shelves, as though presenting evidence.
 
 Herbarius arrived just as the last drawer opened. He picked up the bundle of herbs and rubbed a leaf between his fingers.
 
@@ -1048,7 +1048,7 @@ Luminar nodded. “He knows.”
 
 That evening, you took a plate of bread outside. The snow had softened into damp patches, and the pines released a clean resinous smell as the temperature rose. You set the plate on the porch rail and went back inside. Nobody watched the trees. Nobody called out. The lantern remained lit.
 
-In the morning, the plate was empty. A small dark stone had been placed in its centre.
+In the morning, the plate was empty. A small dark stone had been placed in its center.
 
 Ursalon picked it up. It was smooth and cold, with a narrow groove running around its middle. He turned it over in his palm.
 
@@ -1162,7 +1162,7 @@ Ursalon found you looking out at the trees.
 
 You leaned against him. His arm settled around your shoulders, warm and heavy without closing you in. The cabin behind you was full of noise: Pipethor arguing with the pantry machine, BORKUFT defending the wooden duck, and Grokthar insisting that the thunder outside was not his fault. The porch remained quiet.
 
-Privathor had not become sociable. Luminar had not solved his loneliness. The two of them had not made a vow. What changed was smaller: there was now a place where either could arrive without being required to explain the whole distance they had travelled.
+Privathor had not become sociable. Luminar had not solved his loneliness. The two of them had not made a vow. What changed was smaller: there was now a place where either could arrive without being required to explain the whole distance they had traveled.
 
 That night, the lantern stayed lit. Not as a signal, not as a summons, and not as a promise that someone would come. It illuminated the path because the path belonged to the house.
 
@@ -1284,7 +1284,7 @@ By midday the clearing was crowded. Brandon arrived in a long coat and looked ov
 
 “Strength is not only what you lift,” Brandon said. “It is what you can carry without making a performance of it.”
 
-Brograntimax nodded as though the remark had been made in his honour.
+Brograntimax nodded as though the remark had been made in his honor.
 
 Brandon continued, “And it is knowing when to put the thing down.”
 
@@ -1428,7 +1428,7 @@ He came closer. “Those we can put down.”
 
 ### Chapter 11 — The Root and the Hidden Road
 
-Herbarius found the first black root beneath the old well. It was not a root in the ordinary sense. It had the colour of wet ink and the texture of something grown in a place where sunlight had never been. It emerged between two stones at the bottom of the well, curled around the old iron bucket chain, and disappeared into a crack too narrow for a hand.
+Herbarius found the first black root beneath the old well. It was not a root in the ordinary sense. It had the color of wet ink and the texture of something grown in a place where sunlight had never been. It emerged between two stones at the bottom of the well, curled around the old iron bucket chain, and disappeared into a crack too narrow for a hand.
 
 Herbarius had been collecting water for his preparations when he noticed it. He did not pull it free. He touched it with the back of one finger, listened, and then covered the well again.
 
@@ -1500,7 +1500,7 @@ The group returned to the well before noon. Ursalon insisted on coming, carrying
 
 At the well, the three crows were waiting. They stood along the rim, their heads angled toward the opening. When Deeporak approached, one flew away. The other two remained.
 
-He crouched beside the stones and held the black seed above the opening. A faint line of light appeared beneath the well cover. It travelled down the chain, entered the water, and vanished.
+He crouched beside the stones and held the black seed above the opening. A faint line of light appeared beneath the well cover. It traveled down the chain, entered the water, and vanished.
 
 The receiver in Pipethor's hand began to chatter.
 
@@ -1570,7 +1570,7 @@ Herbarius examined the roots around it. “It's a wound.”
 
 “Both can be true,” Deeporak said.
 
-He reached into the crack. The darkness accepted his hand. A line of symbols appeared along his wrist, then travelled up his arm and disappeared beneath his sleeve.
+He reached into the crack. The darkness accepted his hand. A line of symbols appeared along his wrist, then traveled up his arm and disappeared beneath his sleeve.
 
 Ursalon stepped forward. “What did it take?”
 
@@ -1606,7 +1606,7 @@ Pipethor was already thinking about how to contain the signal. Herbarius was thi
 
 Deeporak hesitated. “I don't know.”
 
-They did not enter the passage. Instead, Herbarius marked the ground with three small stones and planted a ring of bitter herbs around the crack. Pipethor placed a receiver outside the ring, tuned to detect movement without transmitting anything back. Deeporak buried the black seed at the centre, but before covering it he spoke a name into the earth. You did not hear the name clearly. It sounded like a word that had been used often and then deliberately put away.
+They did not enter the passage. Instead, Herbarius marked the ground with three small stones and planted a ring of bitter herbs around the crack. Pipethor placed a receiver outside the ring, tuned to detect movement without transmitting anything back. Deeporak buried the black seed at the center, but before covering it he spoke a name into the earth. You did not hear the name clearly. It sounded like a word that had been used often and then deliberately put away.
 
 The light beneath the roots dimmed.
 
@@ -1631,7 +1631,7 @@ Later, you found Deeporak outside near the woodpile. He was holding the small bl
 
 “Why didn't you?”
 
-“Because I wanted to see whether it would recognise me.”
+“Because I wanted to see whether it would recognize me.”
 
 “Did it?”
 
@@ -1805,7 +1805,7 @@ Copthorus entered the answers into the register. PEMDAS watched him with mild in
 
 He remained on the step for two hours. When he finally entered, he did so because Ursalon had brought him a bowl of soup and asked whether he wanted to eat inside. Copthorus did not record the invitation.
 
-By late afternoon the gate had acquired a queue. The line included two travelling craftsmen, a messenger who had come to ask Grokthar about a storm, and a small animal that Militthor could not classify. The animal passed through the bars without touching them and settled beneath the porch. Copthorus marked it as an unregistered entry.
+By late afternoon the gate had acquired a queue. The line included two traveling craftsmen, a messenger who had come to ask Grokthar about a storm, and a small animal that Militthor could not classify. The animal passed through the bars without touching them and settled beneath the porch. Copthorus marked it as an unregistered entry.
 
 “You cannot register a squirrel,” BORKUFT said.
 
@@ -1843,7 +1843,7 @@ He looked up. “You think I am trying to control the household.”
 
 He closed the book. “You have no idea what it is like to be responsible for a group of powerful men who believe that every limit is an insult.”
 
-You did not answer immediately. Outside, Grokthar was laughing at something. The sound travelled through the open window and made the room feel less formal.
+You did not answer immediately. Outside, Grokthar was laughing at something. The sound traveled through the open window and made the room feel less formal.
 
 “Perhaps,” you said. “But the people here aren't a unit under your command.”
 
@@ -1889,7 +1889,7 @@ Militthor's shoulders stiffened. “You cannot assess a system after one day.”
 
 “I can assess a gate that stops people reaching the front door.”
 
-“It does not stop them. It organises them.”
+“It does not stop them. It organizes them.”
 
 “It makes them wait in the rain.”
 
@@ -1983,7 +1983,7 @@ That evening, the cabin received three visitors. None was asked to declare a pur
 
 The door opened and closed as it always had. The house remained safe, though not because every person had been made to wait outside. It was safe because the people within it had begun to understand what they were responsible for.
 
-### Chapter 13 — The Duck at the Centre of the World
+### Chapter 13 — The Duck at the center of the World
 
 The duck disappeared during breakfast.
 
@@ -2001,7 +2001,7 @@ Jockkaulthaa looked up from his tea. “Perhaps it has finally left.”
 
 “That's not leaving. That's being taken.”
 
-The accusation travelled through the cabin faster than the news itself. Pipethor was asked whether he had moved it while repairing the pantry display. He had not. Grokthar was asked whether a gust of wind might have carried it away. He said that he could move a wooden duck with thunder, but had not done so. PEMDAS was asked whether he had seen it. He said he had seen many things that morning, including a spoon, two clouds, and a man who had forgotten why he entered a room.
+The accusation traveled through the cabin faster than the news itself. Pipethor was asked whether he had moved it while repairing the pantry display. He had not. Grokthar was asked whether a gust of wind might have carried it away. He said that he could move a wooden duck with thunder, but had not done so. PEMDAS was asked whether he had seen it. He said he had seen many things that morning, including a spoon, two clouds, and a man who had forgotten why he entered a room.
 
 “Was the duck among them?” BORKUFT asked.
 

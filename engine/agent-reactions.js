@@ -26,7 +26,7 @@
     chase:{mood:'watchful',attention:'what actually happened',disposition:['observant','decisive','dry','narrative-minded']}
   };
 
-  const names={luke:'Luke',tyler:'Tyler',andrew:'Andrew',joseph:'Joseph',chase:'Chase'};
+  const names={luke:'Luke',tyler:'Tyler',andrew:'Andrew',joseph:'Joey',chase:'Chase'};
 
   function detect(event){
     const text=(String(event?.title||'')+' '+String(event?.body||'')).toLowerCase();
@@ -75,6 +75,21 @@
 
   function handle(event){
     if(!event || ['ARRIVAL','NOTICE'].includes(event.type))return;
+    if(event.type==='UTTERANCE'){
+      const id=event.from;
+      if(!names[id])return;
+      const a=state.agents[id]||{mood:fallback[id].mood,attention:fallback[id].attention,history:[]};
+      const before=a.mood;
+      a.mood=event.emotional_tone||a.mood;
+      a.history=Array.isArray(a.history)?a.history:[];
+      const rec={eventId:event.id||String(Date.now()),at:Date.now(),beforeMood:before,mood:a.mood,response:event.body||event.title||'A line enters the room.',next:event.consequence||'Wait for the next response.'};
+      a.history.unshift(rec);a.history=a.history.slice(0,12);
+      state.agents[id]=a;
+      state.events.unshift({agent:id,...rec,title:event.title||'DIALOGUE'});
+      state.events=state.events.slice(0,60);
+      save();render();
+      return;
+    }
     const features=detect(event);
     Object.keys(names).forEach(id=>react(id,event,features));
     state.events=state.events.slice(0,60);

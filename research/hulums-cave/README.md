@@ -20,3 +20,7 @@ The first inspected clips, 22.mp4 and 3333.mp4, are pose-showcase references rat
 Retrieve original media in priority order: The Forest / in the woods, Laboratory Growth, Loft Growth with sound, Flash Games / Old Shorts, then the long WIP-to-final project sequences. Preserve originals, compute checksums, probe media metadata, extract contact sheets and audio features, and annotate each shot with timestamps. Use the Dropbox source register as the canonical file identity record.
 
 - INTRINSIC_PLOTLINES.json — five recurring narrative structures encoded for Discovery Engine classification and production planning.
+
+- INTRINSIC_PLOTLINES.json — five recurring narrative structures encoded for Discovery Engine classification and production planning.
+- [Timeline integration guide](../../engine/video/HULUMS_CAVE_TIMELINE_INTEGRATION.md) — plotline semantics, manifest structure, and rig/renderer mapping.
+- [Long-form timeline example](../../engine/video/templates/long-form-continuous-timeline.example.json) — illustrative 642-second template; timing is not a claim about a specific source video.

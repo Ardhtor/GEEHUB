@@ -14,7 +14,7 @@ The humour is played straight. The transformation is not a slideshow: each stage
 
 ## Character lineage
 
-The production subject name **Marcus** is the working fictional incarnation used by this Gold's on 5th short. The wider GEEHUB character is **Teal Titan**, whose user-established creative lineage personifies the combined creative libido of Hulum's Cave and Joey. This is a creative premise, not a claim about either person's private feelings, endorsement, or collaboration. The character record is [TEAL_TITAN.md](../../../../characters/records/TEAL_TITAN.md); the machine-readable source sequence and evidence boundaries are in [TEAL_TITAN_LINEAGE.json](../../../../research/relationships/TEAL_TITAN_LINEAGE.json). Dropbox `22`, `3333`, `4444`, and the anticipated fifth video must be treated as distinct source records. Do not infer the contents of an uninspected file from its filename or sequence position.
+The production subject name **Marcus** is the working fictional incarnation used by this Gold's on 5th short. The wider GEEHUB character is **Teal Titan**, whose user-established creative lineage personifies the combined creative libido of Hulum's Cave and Joey. This is a creative premise, not a claim about either person's private feelings, endorsement, or collaboration. The character record is [TEAL_TITAN.md](../../../characters/records/TEAL_TITAN.md); the machine-readable source sequence and evidence boundaries are in [TEAL_TITAN_LINEAGE.json](../../../research/relationships/TEAL_TITAN_LINEAGE.json). Dropbox `22`, `3333`, `4444`, and the anticipated fifth video must be treated as distinct source records. Do not infer the contents of an uninspected file from its filename or sequence position.
 
 ## Visual continuity locks
 

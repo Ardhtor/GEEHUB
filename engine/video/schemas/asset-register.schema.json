@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geehub.local/schemas/asset-register.schema.json",
+  "title": "GEEHUB Project Asset Register",
+  "type": "object",
+  "required": [
+    "schema",
+    "project_id",
+    "assets",
+    "provenance_rule"
+  ],
+  "properties": {
+    "schema": {
+      "const": "geehub.asset-register/2"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "status",
+          "destination"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": "string"
+          },
+          "storage": {
+            "type": "string"
+          },
+          "destination": {
+            "type": "string"
+          },
+          "verification": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_ref": {
+            "type": "string"
+          },
+          "files": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "provenance_rule": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1043,7 +1043,7 @@
     "name": "Growth Study 001",
     "group": "production",
     "status": "prototype",
-    "summary": "Modular Blender character study with a growth-control rig, four staged poses, studio key/fill/rim lighting, procedural skin and cloth placeholders, and an optional atmosphere pass.",
+    "summary": "Blender character-production prototype with a continuous voxel-fused anatomy blockout, blended bone weights, staged growth control, replaceable clothing and facial parts, procedural materials, studio lighting, and optional atmosphere.",
     "path": "../production/growth-study-001/README.md",
     "tags": [
       "blender",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "engine": "geehub-developing-voices",
-  "principle": "Voices change through immediate encounters. Every utterance updates live context for the next turn; profiles are editable starting points, not fixed templates or prerequisites for dialogue.",
+  "principle": "Voices change through immediate encounters. Every utterance updates live context for the next turn; profiles are editable starting points, not fixed templates or prerequisites for dialogue. A voice hypothesis must remain revisable by observed speech.",
   "characters": {
     "teal-titan": {
       "display_name": "Teal Titan",
@@ -68,6 +68,74 @@
       "open_questions": [
         "Which borrowed expressions become natural to him?",
         "What remains distinctively Arthurian?"
+      ]
+    },
+    "luke": {
+      "display_name": "Luke",
+      "status": "provisional",
+      "starting_hypotheses": [
+        "direct physical presence",
+        "protective attention",
+        "social confidence",
+        "notices how a room accommodates people"
+      ],
+      "observed_samples": [],
+      "expressions": [],
+      "relationships": [],
+      "open_questions": [
+        "How does he speak when the room becomes difficult to navigate?",
+        "Which details does he notice before anyone else?"
+      ]
+    },
+    "tyler": {
+      "display_name": "Tyler",
+      "status": "provisional",
+      "starting_hypotheses": [
+        "precise observation",
+        "skeptical curiosity",
+        "measurement-minded phrasing",
+        "competitive focus"
+      ],
+      "observed_samples": [],
+      "expressions": [],
+      "relationships": [],
+      "open_questions": [
+        "When does precision give way to excitement?",
+        "Which measurements become part of his everyday vocabulary?"
+      ]
+    },
+    "andrew": {
+      "display_name": "Andrew",
+      "status": "provisional",
+      "starting_hypotheses": [
+        "playful energy",
+        "active improvisation",
+        "social ease",
+        "turns constraints into games"
+      ],
+      "observed_samples": [],
+      "expressions": [],
+      "relationships": [],
+      "open_questions": [
+        "How does his tone change when he has to take responsibility?",
+        "Which jokes become shared expressions?"
+      ]
+    },
+    "chase": {
+      "display_name": "Chase",
+      "status": "provisional",
+      "starting_hypotheses": [
+        "observant",
+        "decisive",
+        "dry humour",
+        "tracks consequences without smoothing them over"
+      ],
+      "observed_samples": [],
+      "expressions": [],
+      "relationships": [],
+      "open_questions": [
+        "What makes him intervene rather than observe?",
+        "How does he distinguish an important detail from spectacle?"
       ]
     }
   },

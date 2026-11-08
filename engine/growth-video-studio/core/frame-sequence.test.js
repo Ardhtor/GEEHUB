@@ -279,7 +279,7 @@ test("blocks a mask whose actual checksum differs from its descriptor", async t 
   mask.checksum = "b".repeat(64);
   const audit = await inspectFrameSequenceFiles(f.sequence, { dropboxRoot: f.root });
   assert.equal(audit.readyForGeometry, false);
-  assert.ok(audit.errors.some(error => error.code === "mask-file-verification-failed"));
+  assert.ok(audit.errors.some(error => error.code === "mask-checksum-mismatch"));
 });
 
 test("refuses symlinked mask files", async t => {

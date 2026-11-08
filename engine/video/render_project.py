@@ -100,6 +100,7 @@ def main() -> int:
         blender, "--background", "--python", str(HERE / "blender_scene.py"), "--",
         "--manifest", str(project / "production.json"),
         "--timeline", str(project / "07_MANIFESTS" / "timeline.json"),
+        "--growth-profile", str(project / "07_MANIFESTS" / "growth_profile.json"),
         "--output", str(output),
         "--save-blend", str(blend),
     ]

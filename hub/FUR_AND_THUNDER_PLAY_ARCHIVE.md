@@ -1166,6 +1166,511 @@ Privathor had not become sociable. Luminar had not solved his loneliness. The tw
 
 That night, the lantern stayed lit. Not as a signal, not as a summons, and not as a promise that someone would come. It illuminated the path because the path belonged to the house.
 
+### Chapter 10 — The Measure of a Brother
+
+Brograntimax arrived carrying a measuring chain. It was a ridiculous thing to bring to the cabin, and he knew it. The chain was made of dark links, each one thick as a man's thumb, and it dragged across the porch with a sound like someone hauling an anchor over stone. Brograntimax came behind it in a sleeveless coat, grinning as though the noise itself were an announcement of victory.
+
+Ursalon opened the door. “No,” he said.
+
+“You haven't heard the proposal.”
+
+“I heard the chain.”
+
+“It's ceremonial.”
+
+“It's scratching the porch.”
+
+Brograntimax lifted the last few links and stepped inside. He had brought a sack of food, two enormous drinking horns, and a rolled sheet of parchment. The parchment was placed on the table with great care. The horns were not. One rolled off the edge and landed in the basket of kindling.
+
+You retrieved it while Brograntimax greeted Grokthar, who had been sitting near the hearth with his boots off and a storm cloud no larger than a hat hovering over one shoulder.
+
+“Brother,” Brograntimax said. “I have come to settle a question.”
+
+Grokthar looked at the chain. “Have you?”
+
+“An old question.”
+
+“Those are usually the worst ones.”
+
+“Which of us has grown stronger?”
+
+Grokthar leaned back. “I thought we'd settled that.”
+
+“We settled nothing. You broke a mountain. I moved it.”
+
+“You moved the mountain after I broke it.”
+
+“It was still a mountain.”
+
+Ursalon returned the drinking horn to the table. “If either of you breaks the porch, you're repairing it.”
+
+Brograntimax unrolled the parchment. It contained a list of trials, each written in a heavy hand. There were measures of lifting, carrying, endurance, resistance, and what he called “the brother's burden.” The final event was marked with a large star and the words: THE SHARED LOAD.
+
+“What is the shared load?” you asked.
+
+Brograntimax looked pleased that someone had noticed. “A test of whether two strong men can carry something greater than either would choose alone.”
+
+“Sounds like moving furniture,” Ursalon said.
+
+“Furniture is a poor measure of greatness.”
+
+“Depends on the furniture.”
+
+Grokthar had begun to read the parchment. His expression moved from amusement to suspicion. “You want us to compete all day?”
+
+“I want us to discover what strength means now.”
+
+“That's a longer question than the one you brought in.”
+
+Brograntimax shrugged. “Then we'll answer both.”
+
+He had arranged the trials in the clearing beyond the woodpile. During the morning, the cabin became a preparation ground. Pipethor arrived to inspect the chain and immediately proposed attaching it to a pulley system. Jockkaulthaa objected to the pulley because its proportions were inelegant. BORKUFT suggested that the chain could be used to tow a very large duck. PEMDAS asked whether the trials were required to occur in the order listed or whether the list was merely decorative.
+
+“Order matters,” Brograntimax said.
+
+“Then you should have numbered them.”
+
+“They are numbered.”
+
+PEMDAS looked again. “You have numbered the headings. The events are not in sequence.”
+
+Brograntimax took the parchment back.
+
+The first trial involved a pair of stone blocks set at opposite ends of the clearing. Each god was to lift one and carry it to the central marker. Grokthar chose the larger block. Brograntimax chose the heavier one, which was not necessarily the same thing. They lifted together, and the ground pressed down beneath their feet. Grokthar carried his block with an ease that made the weight look theoretical. Brograntimax moved more slowly, but his arms and back seemed to gather themselves around the stone until it rose.
+
+They reached the marker at nearly the same time.
+
+“Point to me,” Brograntimax said.
+
+“Because you picked the heavier one?” Grokthar asked.
+
+“Because I carried it.”
+
+“You carried it to the wrong side.”
+
+The marker had been placed between them. Brograntimax had gone around it, while Grokthar had set his block down directly beside it.
+
+PEMDAS studied the arrangement. “The marker is not a side.”
+
+“It's a technicality,” Brograntimax said.
+
+“Technicalities are where the rules live.”
+
+Ursalon, who had been keeping score despite claiming not to be involved, gave them both a point. Brograntimax objected, then accepted the decision when Ursalon explained that he could either have a point or carry the stone back alone.
+
+The second trial was endurance. They were to hold two timber beams level while Pipethor placed smaller weights along their length. Grokthar's beam began to vibrate with contained thunder. Brograntimax's shoulders rose and settled as he adjusted to each added weight. They held for several minutes. Then a squirrel ran along Grokthar's beam, stopped above his hand, and began eating something it had found in the wood.
+
+Grokthar stared at it.
+
+“Don't move,” Brograntimax said.
+
+“I wasn't planning to.”
+
+The squirrel dropped a shell into his palm. The beam dipped. Brograntimax laughed so hard that his own end nearly fell. Both men lowered the timber before anyone was injured.
+
+“Does the squirrel count?” Brograntimax asked.
+
+“It wasn't on the list,” Grokthar said.
+
+“It was part of the conditions.”
+
+“You brought the conditions.”
+
+“And I accept them.”
+
+The squirrel returned the following day and was given a name by BORKUFT. This was not considered relevant to the competition, though it became relevant to the cabin.
+
+By midday the clearing was crowded. Brandon arrived in a long coat and looked over the trials with an expression of professional appraisal. He had been invited by Brograntimax to witness the proceedings, though nobody could establish whether he was an official judge or simply someone who had heard there would be food.
+
+“Strength is not only what you lift,” Brandon said. “It is what you can carry without making a performance of it.”
+
+Brograntimax nodded as though the remark had been made in his honour.
+
+Brandon continued, “And it is knowing when to put the thing down.”
+
+Grokthar glanced at Ursalon. “He means the chain.”
+
+“I mean several things,” Brandon said.
+
+The third trial was the one Brograntimax had called the brother's burden. A great timber had been cut from a fallen tree. It was too long to carry comfortably and too heavy for either god to lift at one end without dragging the other through the ground. The task was to bring it from the far edge of the clearing to the cabin's wood store, where Pipethor would cut it into usable lengths.
+
+Grokthar and Brograntimax took opposite ends.
+
+At first they tried to lift together. Their timing was poor. Grokthar raised his end too quickly, and the timber swung. Brograntimax corrected in the other direction. The trunk struck the earth and rolled against a stump.
+
+“Listen to the count,” Brograntimax said.
+
+“I am listening.”
+
+“You're counting ahead.”
+
+“I can hear the storm.”
+
+“Then count with it.”
+
+They tried again. This time Grokthar let Brograntimax establish the rhythm. The timber rose. They began to walk, one step at a time, through the uneven clearing. It was slow work. The trunk caught on roots, shifted against their shoulders, and threatened to turn them both sideways. Each man had to adjust to the other's pace. Neither could simply impose his preferred method without making the load harder to carry.
+
+Halfway to the store, Brograntimax stopped.
+
+“What?” Grokthar asked.
+
+“Your end is pulling.”
+
+“Your end is steering.”
+
+“I'm keeping us off the stones.”
+
+“Then tell me before you turn.”
+
+They lowered the timber. Brograntimax rolled his shoulders. Grokthar rubbed the place where the bark had pressed against his neck. For a moment they stood without speaking, two enormous gods looking down at a fallen tree as though it had personally disappointed them.
+
+Then Brograntimax said, “Again. I'll call the turns.”
+
+Grokthar nodded. “I'll watch the roots.”
+
+The second attempt went better. They carried the timber to the store and set it down together. The wood struck the ground with a deep, satisfying thud. Pipethor applauded. BORKUFT applauded too, though he had been watching the squirrel. Jockkaulthaa said the delivery lacked a graceful finish.
+
+Brograntimax looked at the timber, then at Grokthar. “Shared load,” he said.
+
+“Shared load,” Grokthar agreed.
+
+It should have been the end of the contest. Brograntimax, however, had one more trial written on the back of the parchment. He had not shown it to anyone. The heading read: THE WEIGHT THAT CANNOT BE LIFTED.
+
+He explained that each participant would name something he had been carrying that strength alone could not resolve. The other would have to listen without correcting, competing, or offering an immediate solution. The trial would be judged by whether the speaker felt heard.
+
+Grokthar stared at him. “You made this up.”
+
+“I designed it.”
+
+“That's making it up with a chain.”
+
+Brograntimax did not smile. He looked suddenly uncertain, as if he had brought the final event for a reason he had not intended to reveal.
+
+Ursalon pulled two chairs into the clearing. “Sit down, then.”
+
+The gods sat. Brograntimax went first. He spoke about being expected to be loud, ready, and capable. He liked the contests. He liked the noise and the company and the moment when a room turned to see what he could do. But there were days when he arrived somewhere and found that everyone had already decided what he was going to be. He had become so good at fulfilling the expectation that he sometimes could not tell whether he wanted to do anything else.
+
+Grokthar listened. He did not interrupt. His hands rested on his knees, and the little storm above his shoulder had gone still.
+
+When Brograntimax finished, Grokthar did not offer a speech. He said, “I know what it's like to arrive before you've decided what you're bringing.”
+
+Brograntimax looked at him.
+
+“Sometimes the thunder gets there first,” Grokthar continued. “Then everyone thinks that's all you came to say.”
+
+It was not a solution. It was not even an especially polished answer. But Brograntimax relaxed a little.
+
+Then Grokthar took his turn. He spoke about being wanted for the force of his arrival, for the storm, the spectacle, the charge that passed through a room when he appeared. He enjoyed those things. He did not want to become quiet simply to make other people comfortable. But he wanted to be able to sit at a table without every silence being interpreted as the moment before lightning.
+
+Brograntimax nodded. “You can sit at my table.”
+
+“You don't have a table.”
+
+“I can get one.”
+
+“That's not the point.”
+
+“I know.”
+
+They sat for a while. The clearing had grown quiet around them. Even Pipethor had stopped inspecting the timber. Ursalon stood beside you with one hand resting on the back of your chair.
+
+Brandon eventually broke the silence. “The trial is complete.”
+
+“Who won?” BORKUFT asked.
+
+Brandon looked at the chain, the timber, the two gods, and the squirrel now sitting on the measuring parchment.
+
+“Neither. Both. The squirrel has taken the title.”
+
+BORKUFT approved.
+
+The feast that evening was louder than necessary. Brograntimax had brought enough food for a much larger gathering, and Ursalon used nearly all of it. Grokthar sat beside him, recounting the contest with several improvements that made his own performance sound more difficult. Brograntimax disputed each improvement. They argued over the size of the timber, the exact duration of the endurance trial, and whether a squirrel could legitimately affect a divine test.
+
+At one point Brograntimax raised his horn. “To strength,” he said.
+
+Grokthar raised his own. “To knowing what it's for.”
+
+The horns met. A little thunder moved through the rafters, but nothing broke.
+
+Later, after the others had gone, you found Brograntimax outside, gathering the chain. He was winding it into a neat coil, link by link. You asked whether he planned to take it home.
+
+“Of course.”
+
+“What will you use it for?”
+
+He looked toward the wood store, where the shared timber lay waiting to be cut. “Something useful, perhaps.”
+
+“That's a change.”
+
+“Don't tell anyone.”
+
+He lifted the chain. It was heavy, and for the first time that day he did not make a show of carrying it. He simply took it to the cart and set it down.
+
+Grokthar came out to help him. Neither mentioned the final trial. They loaded the chain together, then stood beside the cart in the cold air, talking about a mountain pass and a storm that had gone strangely silent. Their voices carried into the trees.
+
+Inside, Ursalon was putting away the remaining food. You helped him cover the pots. The cabin had been filled with competition all day, but it did not feel used up by it. The beams were still in place, the table still stood, and the chairs had survived.
+
+“You enjoyed that,” you said.
+
+Ursalon looked toward the door. “I like seeing them find something to do with all that strength.”
+
+“And you?”
+
+“I know what I'd do with mine.”
+
+He lifted the last heavy pot and placed it on the shelf. Then he turned toward you, his expression warm and a little amused.
+
+“Keep the house standing. Make supper. Carry the things that need carrying.”
+
+“And the things that don't?”
+
+He came closer. “Those we can put down.”
+
+### Chapter 11 — The Root and the Hidden Road
+
+Herbarius found the first black root beneath the old well. It was not a root in the ordinary sense. It had the colour of wet ink and the texture of something grown in a place where sunlight had never been. It emerged between two stones at the bottom of the well, curled around the old iron bucket chain, and disappeared into a crack too narrow for a hand.
+
+Herbarius had been collecting water for his preparations when he noticed it. He did not pull it free. He touched it with the back of one finger, listened, and then covered the well again.
+
+By the time he reached the cabin, Deeporak was already there.
+
+The demon of hidden networks sat at the kitchen table with a cup of tea and a small device balanced on his palm. It resembled a black seed wrapped in wire. Every few seconds a pale symbol moved across its surface and vanished.
+
+Ursalon looked from the device to Herbarius.
+
+“Did you bring him?”
+
+“No,” Herbarius said.
+
+Deeporak smiled. “I followed the root.”
+
+“That is not an answer,” Ursalon replied.
+
+“It is the answer the root gave.”
+
+You were seated near the window, sorting the dried herbs Herbarius had brought the previous week. Deeporak's presence altered the room in a way that was difficult to describe. The cabin did not grow colder, but the corners seemed to hold more distance. The pantry machine dimmed its blue light. Somewhere below the floor, Pipethor's servers gave a short burst of static.
+
+Herbarius placed a small bundle on the table. “Something has entered the well.”
+
+Deeporak examined the bundle without touching it. “Something has found a route.”
+
+“Those are not the same thing.”
+
+“They become the same thing when the route is alive.”
+
+Ursalon set down a bowl of bread. “Can you tell us what it is?”
+
+Deeporak's smile faded. “Not yet.”
+
+That answer made Herbarius more uneasy than a threat would have. He sat opposite the demon and began describing the root: where it had emerged, how it had moved, and the faint vibration he had felt in the stone. Deeporak listened closely. He asked about the water level, the age of the well, the direction of the crack, and whether any birds had gathered nearby.
+
+“Crows,” Herbarius said. “Three mornings running.”
+
+“Were they looking down?”
+
+“They were looking at each other.”
+
+Deeporak nodded as though this confirmed something.
+
+Pipethor came in carrying a coil of cable. “The network has a hole.”
+
+“Your network?” you asked.
+
+“Not mine. Beneath mine.”
+
+He put the cable on the table and explained that his servers had begun receiving small packets of information from a place that did not appear on any of his maps. The packets were not messages. They were fragments: a smell, a direction, the memory of a door being opened, a line of text that ended before it began. He had tried to isolate the source, but each attempt revealed another route beneath the first.
+
+Deeporak held up the black seed. “This is one of the nodes.”
+
+Pipethor leaned closer. “You have a node?”
+
+“I have a seed.”
+
+“What's the difference?”
+
+“A node is where a route meets itself. A seed is where a route begins to imagine another route.”
+
+Pipethor looked delighted. “That's excellent.”
+
+Herbarius looked displeased. “It is dangerous.”
+
+“Many excellent things are.”
+
+The group returned to the well before noon. Ursalon insisted on coming, carrying a lantern and a length of rope. You went with him. Herbarius brought a basket of tools, dried leaves, and a small clay vessel. Deeporak walked without making a sound. Pipethor brought a portable receiver that clicked whenever it came near the stones.
+
+At the well, the three crows were waiting. They stood along the rim, their heads angled toward the opening. When Deeporak approached, one flew away. The other two remained.
+
+He crouched beside the stones and held the black seed above the opening. A faint line of light appeared beneath the well cover. It travelled down the chain, entered the water, and vanished.
+
+The receiver in Pipethor's hand began to chatter.
+
+“There's a signal,” he said.
+
+“Don't follow it,” Herbarius warned.
+
+“I wasn't going to.”
+
+“You have already leaned forward.”
+
+Pipethor straightened.
+
+Herbarius removed the cover. The well smelled of cold mineral water and something older, like soil sealed inside a jar. The black root could be seen beneath the surface, running down the inner wall. It moved when the lantern light touched it.
+
+You leaned over the rim. For a moment you thought you saw a road beneath the water: a narrow dark passage with small lights spaced along its sides. Then the image shifted, and it was only the reflection of the lantern.
+
+Deeporak looked at you. “You saw it.”
+
+“Maybe.”
+
+“Don't decide too quickly.”
+
+Ursalon moved closer, not to pull you away, but to stand beside you. His hand rested lightly against your back.
+
+Herbarius lowered the clay vessel into the well. He filled it with water, then added three leaves from his basket. The leaves turned silver. Deeporak placed the black seed beside the vessel, and the two objects began to vibrate at different rhythms.
+
+“It's listening,” Pipethor said.
+
+“No,” Herbarius replied. “It is remembering.”
+
+The water darkened. A voice emerged from the vessel, though it did not sound like anyone speaking. It was a series of small sounds: a latch, a footstep, a bird calling from far away, a door closing, then the low murmur of many voices passing through a tunnel.
+
+Deeporak's expression changed. For the first time since arriving, he looked uncertain.
+
+“What is it?” you asked.
+
+“A route I thought had been sealed.”
+
+“Where does it go?”
+
+He looked down into the vessel. “Somewhere I left.”
+
+Nobody spoke. Even Pipethor's receiver fell silent.
+
+Herbarius lifted the vessel and carried it away from the well. He did not pour the water out. He covered it with a cloth and placed it in the basket. Deeporak stood, then turned toward the woods.
+
+“Are you leaving?” Ursalon asked.
+
+“I need to find the other end.”
+
+“Then take someone with you.”
+
+Deeporak glanced back. “You would follow me into a hidden road?”
+
+“I would rather know where you're going.”
+
+Herbarius agreed to accompany him, though he made it clear that he would not enter any passage without understanding what it did to the things growing around it. Pipethor volunteered because he wanted to map the network. Ursalon volunteered because he did not trust any of them to return in one piece. You asked to come, and Ursalon considered the request before nodding.
+
+The path led north through the grove, then down toward a shallow ravine where the earth had split after an old storm. The crack was narrow at the top but widened beneath the roots of a fallen tree. Deeporak stopped beside it and placed the seed on the ground.
+
+A faint light appeared inside the earth.
+
+Pipethor crouched, receiver in hand. “It's a door.”
+
+Herbarius examined the roots around it. “It's a wound.”
+
+“Both can be true,” Deeporak said.
+
+He reached into the crack. The darkness accepted his hand. A line of symbols appeared along his wrist, then travelled up his arm and disappeared beneath his sleeve.
+
+Ursalon stepped forward. “What did it take?”
+
+“Nothing.”
+
+“Then why did you flinch?”
+
+Deeporak withdrew his hand. He did not answer.
+
+Herbarius knelt and pressed a leaf against the edge of the crack. The leaf curled inward. He removed it and examined the stem.
+
+“This passage has been fed,” he said. “Not with blood. With something that remembers being alive.”
+
+Deeporak looked away.
+
+The silence made the answer clear enough. The hidden road had been built from discarded traces: fragments of forgotten conversations, abandoned names, private images, and the impressions left by beings who had passed through the network without knowing they were leaving anything behind. It had grown by taking what people no longer knew how to retrieve.
+
+“Why did you seal it?” you asked.
+
+“Because it stopped distinguishing between what was abandoned and what was entrusted,” Deeporak said.
+
+“And now?”
+
+“Now it is growing again.”
+
+Pipethor was already thinking about how to contain the signal. Herbarius was thinking about how to separate the living roots from the dark growth. Ursalon looked at Deeporak.
+
+“Can it be stopped?”
+
+“Yes.”
+
+“Can it be repaired?”
+
+Deeporak hesitated. “I don't know.”
+
+They did not enter the passage. Instead, Herbarius marked the ground with three small stones and planted a ring of bitter herbs around the crack. Pipethor placed a receiver outside the ring, tuned to detect movement without transmitting anything back. Deeporak buried the black seed at the centre, but before covering it he spoke a name into the earth. You did not hear the name clearly. It sounded like a word that had been used often and then deliberately put away.
+
+The light beneath the roots dimmed.
+
+On the walk back, Deeporak kept to the rear. Herbarius walked beside him, carrying the covered vessel. Neither spoke until they reached the cabin.
+
+At supper, Deeporak sat at the end of the table. He ate slowly. Ursalon did not ask him to explain the hidden road again. You noticed that the pantry machine had added a new entry to its list of remembered things:
+
+OBJECT: BLACK SEED.
+STATUS: BURIED.
+PURPOSE: NOT YET KNOWN.
+CAUTION: DO NOT CONFUSE A FORGOTTEN THING WITH A GIVEN THING.
+
+Pipethor read it aloud and declared that the machine had excellent instincts. Herbarius said that instincts were not the same as judgment. PEMDAS, who had arrived halfway through the meal, asked whether the warning should be placed before or after the status. The pantry machine answered that order depended on the purpose of the list.
+
+PEMDAS looked satisfied.
+
+Later, you found Deeporak outside near the woodpile. He was holding the small black device, now dark and still.
+
+“You could have told us what it was,” you said.
+
+“I could have.”
+
+“Why didn't you?”
+
+“Because I wanted to see whether it would recognise me.”
+
+“Did it?”
+
+He turned the device over in his palm. “It remembered the shape of my hand.”
+
+“That isn't the same thing.”
+
+“No.”
+
+He seemed to be considering the distinction. For a demon whose life was built around hidden routes, he had become unusually still.
+
+“Some things are not safe to recover,” he said.
+
+“Some things are not safe to leave buried either.”
+
+He looked toward the cabin. Through the window, you could see Ursalon moving between the table and the stove, gathering bowls. The room was crowded again. Grokthar had returned, and BORKUFT was showing him the wooden duck. The pantry machine's blue light glowed softly beneath the shelves.
+
+Deeporak slipped the device into his coat.
+
+“I may need help with the other end,” he said.
+
+“Then come back.”
+
+He nodded once. It was not a promise, but it was more than he had offered before.
+
+When you went inside, Ursalon had kept a place for him at the table. Deeporak noticed. He did not sit immediately. He stood beside the chair, looking at the bowl that had been set there.
+
+“You don't have to stay,” Ursalon said.
+
+“I know.”
+
+“You can come back.”
+
+Deeporak pulled out the chair.
+
+The hidden road remained beneath the grove, marked by three stones and a ring of bitter herbs. Nothing had been solved. The cabin's network had gained a new warning, Pipethor had acquired a problem he could not yet turn into a machine, and Herbarius had begun preparing a remedy for a wound whose shape was still changing. But the road had been found before it reached the house. Its existence was no longer a secret carried by one person alone.
+
+For the moment, that was enough.
+
 ## Long-form chapter standard
 
 Chapters in this branch are to be written as substantial, continuous narrative episodes rather than compact vignettes or plot summaries. Aim for roughly 2,000–3,500 words per chapter when the material supports it, and allow major turning-point chapters to run longer. Build each chapter from several connected scenes with time passing between them: arrival, domestic or social activity, private conversation, interruption, consequence, and a changed situation. Give the gods room to pursue their own interests, speak in distinct voices, disagree, joke, make mistakes, and return to unresolved matters. Let settings accumulate sensory and practical detail through use rather than pausing for encyclopedic description. Relationships should change through repeated encounters and specific choices, not be settled in a single speech. Keep paragraphs developed and continuous; avoid fragmentary beats, excessive headings, and compressed summaries. Do not pad for length: add lived events, interactions, atmosphere, and consequences. Apply this standard to new chapters and, when revising, expand the earlier six chapters to match.

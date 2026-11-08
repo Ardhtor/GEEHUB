@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00176",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "cat-gardens",
+  "position": {
+    "x": 10,
+    "y": 68,
+    "z": 0
+  },
+  "camera": {
+    "x": 10,
+    "y": 68,
+    "z": 1.7,
+    "heading": 88,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "luke",
+    "scale": 13.73,
+    "priorScale": 13.7,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 13.73,
+    "clearance": 0.0728,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE DORM GARDEN PATH"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "founders-dormitory",
+      "name": "FOUNDERS DORMITORY"
+    },
+    {
+      "type": "region",
+      "id": "cat-gardens",
+      "name": "CAT GARDENS"
+    },
+    {
+      "type": "relation",
+      "title": "THE DORM GARDEN PATH"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 13.7,
+      "to": 13.73
+    },
+    {
+      "property": "location.regionId",
+      "from": "founders-dormitory",
+      "to": "cat-gardens",
+      "relation": "THE DORM GARDEN PATH"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.073,
+      "to": 0.0728
+    }
+  ],
+  "intent": "LONG PLAY / FOUNDERS DORMITORY → CAT GARDENS / LUKE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 176,
+    "previousRegionId": "founders-dormitory",
+    "regionId": "cat-gardens",
+    "relation": "THE DORM GARDEN PATH",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 13.7,
+    "scaleBaselineTo": 13.73
+  },
+  "timestamp": "2026-11-08T02:31:23.996Z"
+}

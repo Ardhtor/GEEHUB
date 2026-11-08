@@ -211,6 +211,301 @@ Ursalon rested against you, vast and warm, and the hearth behind you kept burnin
 
 And when the gods came in from the yard, still arguing, Ursalon stood to let them through. He made room at the table. He asked who was hungry. The cabin received them all, but it did not lose its center. You sat beside him as the bowls went around, while rain began again in the trees and the repaired roof held.
 
+
+### Chapter 7 — The Gods of Domination and Submission
+
+The invitation arrived in a black envelope that had not been carried by a messenger. It was simply on the kitchen table one morning, laid neatly beside Ursalon's bread knife, with a dark red seal pressed into the paper. The seal showed a crown resting on an open hand. No name had been written beneath it.
+
+Ursalon turned the envelope over twice before opening it. He had been making breakfast, and the smell of toasted rye and hot honey still filled the kitchen. You sat at the table with a mug between your hands, watching him examine the seal as though it might bite.
+
+“Do you know who sent it?” you asked.
+
+“I know who wants me to think he sent it.”
+
+He broke the seal. Inside was a single card, thick and smooth, with lettering that seemed to deepen when the light moved across it.
+
+*Potestas requests the presence of the household at the Hall of the Lower Crown. A gathering will be held to establish the proper order between those who command and those who yield.*
+
+Ursalon read it again, then placed it on the table.
+
+“Sounds like Potestas,” you said.
+
+“Sounds like he wants everyone to call him master before the soup is served.”
+
+From the doorway, Grokthar laughed. He had arrived without knocking, as usual, and was leaning against the frame with a damp cloak over one shoulder. A small storm turned quietly behind his eyes.
+
+“Go,” he said. “I want to see what he thinks proper order looks like.”
+
+Ursalon gave him a level look. “You want to see whether the ceiling falls down.”
+
+“That too.”
+
+The Hall of the Lower Crown had been buried beneath a ridge long before the cabin was built. Its entrance was a cleft between two slabs of black stone, almost hidden by thorn and winter ivy. The old steps descended farther than the eye could follow. At the bottom, the passage opened into a chamber whose ceiling was held up by pillars carved as kneeling figures. Their backs were bowed beneath stone crowns. Along the walls, reliefs showed kings receiving tribute, armies lowering their banners, and immense beings standing above crowds with one hand raised.
+
+The room had been built to make visitors feel small. Potestas had understood architecture as an instrument of authority long before he understood conversation.
+
+He stood at the far end beneath a crown of dark metal. He was not the largest god present, but the chamber had been arranged around him so that size seemed irrelevant. His robes fell in severe, heavy folds. His hands rested on the arms of a black chair, and every few moments the stone beneath his feet gave a faint shudder, as if something ancient were turning in its sleep.
+
+Militthor stood to his right in a formal coat, posture exact, expression unreadable. Copthorus occupied the other side, carrying a narrow ledger and a set of iron keys. Gigathor had brought a portfolio of diagrams. Domithicus watched the ceiling with the distant interest of someone listening to a frequency nobody else could hear. Privathor stood near a pillar where the light failed to reach him. He had come, though he seemed to wish that attendance could be mistaken for absence.
+
+Potestas greeted Ursalon with a slight movement of his head. His eyes passed over you, then returned.
+
+“So this is the household,” he said.
+
+“This is the person I came with,” Ursalon replied. “The household is whoever has a place at our table.”
+
+Potestas smiled without warmth. “A sentimental definition. We are here to discuss something more durable.”
+
+He rose. The hall seemed to rise with him.
+
+“Every world has an order,” he began. “Someone gives direction. Someone receives it. Someone bears the burden. Someone is permitted to decide what the burden means. Pretending otherwise does not abolish power. It merely leaves power in the hands of those too dishonest to name it.”
+
+Militthor approved with a small nod. Copthorus opened his ledger. Gigathor began making notes.
+
+Potestas continued. “There are gods who command, gods who submit, gods who guard the boundary, and gods who test it. These are not passing moods. They are stations. A pantheon without stations becomes a crowd.”
+
+“And a crowd is difficult to control,” Grokthar said.
+
+“A crowd is difficult to govern,” Potestas corrected.
+
+“Same headache.”
+
+A few of the younger spirits laughed. Potestas waited until they stopped.
+
+He described a ceremony that would bind the gathered gods into a formal hierarchy. Each would declare the authority they claimed and the authority they were willing to yield. The declarations would be recorded in Copthorus's ledger, witnessed by Militthor, and sealed beneath the Lower Crown. The arrangement, Potestas promised, would prevent rivalry, clarify obligations, and end the wasteful uncertainty that came whenever one god challenged another.
+
+Gigathor liked the proposal immediately. He had already begun sketching a structure in which authority could be assigned, measured, and reviewed. Militthor saw a chain of command. Copthorus saw enforceable rules. Potestas saw the old world returning to its proper shape.
+
+Privathor saw the iron keys.
+
+He had been silent throughout the speech. Now he looked toward the narrow doors behind the throne, where the passage back to the surface disappeared into darkness.
+
+“What happens,” he asked, “when someone changes their mind?”
+
+Potestas turned to him. “A vow is not a coat one removes when the weather changes.”
+
+“That wasn't my question.”
+
+“It is the answer.”
+
+Privathor lowered his gaze. His fingers had closed around the edge of his sleeve. You recognised the gesture from the cabin: the small movement he made when he wanted to leave but did not want anyone to notice that he wanted it.
+
+Ursalon shifted beside you. He did not speak for Privathor. He only moved half a step, making it easier for him to see the exit.
+
+Potestas descended from the platform. “You mistake submission for weakness,” he said. “You mistake command for cruelty. The world is full of beings who long to be relieved of decision. They want a stronger will to guide them. They want rules that do not dissolve whenever they become inconvenient. They want to kneel and know that the ground beneath them will not move.”
+
+“Some do,” Domithicus murmured. “Some want to kneel because the floor is interesting.”
+
+Nobody knew whether he was joking.
+
+Potestas ignored him. “There is dignity in yielding. There is dignity in command. Both require discipline.”
+
+Ursalon finally answered. “Then why are you asking for a permanent oath before anyone has even tried the arrangement?”
+
+The hall went still.
+
+Potestas regarded him with a look of old recognition. “Because temporary obedience is not order.”
+
+“No,” Ursalon said. “But chosen obedience can be.”
+
+It was a simple distinction, and the hall disliked it. The pillars seemed to draw the cold inward. Militthor's shoulders squared. Copthorus closed his ledger halfway, keeping one finger between the pages.
+
+Potestas returned to his chair. “You would make every bond conditional.”
+
+“Every living bond is conditional,” Ursalon said. “That's why it has to be renewed.”
+
+The ceremony began anyway. Potestas had prepared for disagreement as a feature of the event, not a reason to abandon it. A broad circle had been cut into the floor, with places marked for each participant. At its centre stood a low black dais. The first declaration would be Potestas's: he would claim the right to command. Militthor would pledge disciplined service. Copthorus would enforce the boundaries. Gigathor would design the structure that joined them.
+
+One by one, the gods were invited forward.
+
+Militthor stepped into the circle and spoke with the clarity of a soldier giving his name before a formation. He offered discipline, vigilance, and the strength to hold a line when others faltered. Potestas accepted the declaration. A thin band of red light appeared around Militthor's wrist, then settled beneath his sleeve.
+
+Copthorus followed. He pledged to distinguish permission from trespass, order from disorder, and consequence from revenge. Potestas accepted him too. The keys at Copthorus's belt rang once, though nobody had touched them.
+
+Gigathor approached with his diagrams. He offered planning, foresight, and the ability to turn desire into an organised undertaking. Potestas placed a hand over the portfolio. The pages rearranged themselves into a single branching design. Gigathor looked delighted.
+
+Then came the unexpected difficulty. Potestas called for Privathor.
+
+The god of privacy remained beside his pillar.
+
+“You have a place in the order,” Potestas said. “Your gift is the veil. You will decide what remains concealed, and what must be revealed to preserve the hierarchy.”
+
+Privathor looked at the open circle. “You want me to guard secrets for you.”
+
+“I want you to give secrecy a purpose.”
+
+“And if the secret belongs to someone who does not wish to reveal it?”
+
+“Then you will judge whether their refusal serves the order.”
+
+Privathor's face became very still. It was the expression of someone who had heard a familiar offer dressed in ceremonial language. He had spent ages being valued for what he could conceal, rarely for what he wished to keep for himself.
+
+“I won't,” he said.
+
+Potestas's voice lowered. “You were invited because you have a place here.”
+
+“Having a place isn't the same as belonging to you.”
+
+The red lines in the floor brightened. Copthorus looked down at his ledger. Militthor watched Potestas, waiting for an instruction that did not come.
+
+You stepped forward before the silence could harden.
+
+“What exactly is being offered here?” you asked. “A way for people to explore authority, or a way for Potestas to own the answer?”
+
+Potestas turned toward you. “You speak as though authority is a private game.”
+
+“No. I think it matters enough that the people involved should understand what they're agreeing to.”
+
+He looked toward Ursalon. “You have brought domestic sentiment into a matter of divine consequence.”
+
+Ursalon's expression did not change. “The domestic is where consequence lives after the ceremony is over.”
+
+That earned a quiet laugh from Grokthar. He had been leaning against a pillar, arms folded, watching the proceedings with increasing impatience. Now he pushed away from the stone.
+
+“I'll try it,” he said.
+
+Ursalon looked at him. “Grokthar.”
+
+“Not the oath. The exercise.” Grokthar entered the circle and faced Potestas. “You want to command? Give me an instruction. I'll decide whether I accept it.”
+
+Potestas considered him. “Kneel.”
+
+The word travelled through the chamber like a dropped blade.
+
+Grokthar looked at him for a long moment. The storm behind his eyes gathered, but he did not release it. Then, with deliberate calm, he lowered himself onto one knee.
+
+The chamber responded at once. The red lines surged. The carved figures along the pillars seemed to bend lower. Potestas's crown caught a dull glow, and the air filled with the sound of distant stone doors opening.
+
+Grokthar remained kneeling. He looked neither humiliated nor conquered. He looked attentive, amused, and entirely present.
+
+“Again,” Potestas said.
+
+“No,” Grokthar replied.
+
+The storm in the ceiling stopped.
+
+Potestas's expression tightened. “You have already submitted.”
+
+“I agreed to one instruction. You received what I offered. You don't get to turn it into everything.”
+
+Grokthar rose. The red light around the circle flickered, unable to decide whether the act had been completed or broken. For the first time that evening, Potestas looked uncertain.
+
+Ursalon stepped into the circle. He did not kneel. He did not challenge Potestas's height or attempt to overpower him. He simply stood beside Grokthar, a broad, steady presence, and placed one hand on the thunder god's shoulder.
+
+“This is what you keep missing,” he said. “Yielding can be powerful. Command can be generous. But neither is real when the person involved has no room to answer.”
+
+Domithicus began to laugh softly. The sound spread through the chamber, not mocking exactly, but delighted by the strange shape the ritual had taken. He moved to the centre of the circle and crouched to inspect the red lines.
+
+“They're waiting for a second part,” he said. “The pattern thinks the first declaration was a beginning.”
+
+Gigathor knelt beside him, examining the geometry. “It requires a reciprocal declaration.”
+
+“Does it?” asked Copthorus.
+
+Gigathor traced one of the lines with a finger. “The design has two channels. One records the authority offered. The other records the authority retained by the person offering it. Potestas has covered the second channel with the dais.”
+
+Everyone looked at the black platform.
+
+Potestas did not move.
+
+The room had been built around a single direction of power. Its architecture could represent command flowing downward, but it had no proper place for an answer to travel upward. The ceremony had not been designed to record a mutual agreement. It had been designed to make the first declaration permanent.
+
+Copthorus closed his ledger.
+
+“I cannot enforce an agreement that has not been made,” he said.
+
+Militthor glanced at him. “The ceremony is already in progress.”
+
+“Then the ceremony can stop.”
+
+“You would abandon the chain of command?”
+
+“I would refuse to pretend that a chain is a covenant.”
+
+For a moment the two gods stood facing each other, discipline and law separated by a narrow strip of stone. Then Militthor removed the red band from his wrist. It came away without resistance. He placed it on the floor between them.
+
+“I offered service,” he said. “I did not offer my judgment.”
+
+Potestas rose so quickly that the chair struck the wall behind him. The sound rolled through the chamber. His shadow climbed the pillars, spreading over the carved figures until their stone crowns disappeared beneath it.
+
+“You have all mistaken restraint for virtue,” he said. “The world does not hold together because everyone is free to reconsider. It holds because someone accepts the burden of command.”
+
+“Sometimes,” Ursalon replied. “And sometimes it holds because someone strong enough to command decides not to.”
+
+Potestas's gaze moved to him. “You would have them choose you?”
+
+“No.”
+
+“Then what do you want?”
+
+Ursalon glanced around the circle. “I want them to choose themselves. If they choose to serve, let them serve. If they choose to lead, let them lead. If they want to kneel, make sure they can stand again.”
+
+There was no thunder in the answer. That made it harder to dismiss.
+
+Privathor stepped away from the pillar. He approached the circle and looked down at the place where his name had been carved. Then he took a small dark key from inside his sleeve and placed it beside the red band Militthor had removed.
+
+“I will keep the veil,” he said. “But I will not make it your property. A secret belongs first to the one who entrusted it.”
+
+Copthorus opened his ledger again, turned to a clean page, and wrote that sentence down.
+
+The gathering did not end in a battle. Potestas was capable of one, and Grokthar was more than willing to provide the weather, but the hall had begun to lose its certainty. The red lines faded in uneven sections. Some of the kneeling figures on the pillars remained bowed; others seemed to straighten by a fraction. The black dais cracked down its centre, revealing a second channel beneath it, narrow and silver, which ran back toward the entrance.
+
+Gigathor stared at the exposed design. He was already thinking about how it might be rebuilt.
+
+Potestas looked at the crack with an expression that was not quite anger. Beneath the ancient pride there was something older: a fear that if command could be refused, then he might have to discover what people wanted from him when they were no longer compelled to obey.
+
+Ursalon saw it. He did not approach.
+
+“You could come to the cabin,” he said. “Not to rule it. Not to test anyone. Just to eat.”
+
+Potestas looked at him as if the invitation were an insult.
+
+“Your hearth is not a throne.”
+
+“No,” Ursalon said. “That's why people can sit around it.”
+
+The gods began to leave in small groups. Militthor and Copthorus walked together, arguing quietly about whether the ceremony had been unlawful from its beginning or had become unlawful when its terms changed. Gigathor carried his diagrams under one arm and was already proposing a revised structure. Domithicus drifted after him, humming the pattern of the two channels. Grokthar waited near the entrance, letting a little rain fall from his fingertips onto the stone.
+
+Privathor remained beside you.
+
+“Do you think he will change?” he asked.
+
+“I don't know.”
+
+“Good,” he said. “I would rather not be given another certainty today.”
+
+He left with Luminar, who had appeared at the top of the steps carrying a lantern. The light did not force the darkness away. It simply made the next step visible.
+
+When you returned to the cabin, the evening had grown cold. Ursalon went straight to the kitchen and began preparing something substantial. Grokthar helped bring in the wood, though he insisted that a small burst of lightning would have been quicker. You told him the woodpile was not a weather problem. He said it could become one.
+
+Later, after supper, the conversation returned to the Lower Crown. Militthor admitted that he had liked the clarity of the ceremony. Copthorus said clarity was not the same as justice. Gigathor argued that a properly designed reciprocal structure could preserve hierarchy while allowing withdrawal. BORKUFT asked whether that meant someone could be in charge on Mondays and be a potato on Tuesdays. Jockkaulthaa objected that this was not a serious contribution. PEMDAS said it was at least a consistent schedule.
+
+Ursalon listened while he cleared the table. He did not offer a final ruling. When the argument became too loud, he put another loaf of bread in the middle and let the room settle around it.
+
+Near midnight, a knock sounded at the door.
+
+Potestas stood outside without his crown. The black metal was tucked beneath one arm. He looked less immense without it, though still formidable. His robes were dusty from the descent, and a thin crack ran along one of his rings.
+
+“I have come to see this hearth,” he said.
+
+Ursalon stepped aside.
+
+Potestas entered. Nobody bowed. Nobody announced him. BORKUFT shifted a chair with his foot, making room at the table. Potestas looked at the offered seat, then at Ursalon.
+
+“Is this where you expect me to sit?”
+
+“It's where the chair is.”
+
+For a long moment Potestas seemed unable to decide whether he had been insulted. Then he sat.
+
+The crown remained beneath his chair. He did not put it on the table, and nobody asked him to explain himself. Ursalon served him stew. Copthorus poured water. Militthor resumed an argument about discipline. Grokthar made a dry remark about the crown being a rather uncomfortable hat. Potestas ignored him, though one corner of his mouth moved.
+
+You watched the old god eat. He did not become gentle in an evening. He did not surrender his ambition or apologise for the hall. But he accepted the bowl without demanding that anyone kneel to deliver it. For that night, it was enough.
+
+The gods of domination and submission had not been defeated or reconciled. They had been given a more difficult question. What does it mean to command someone who can refuse? What does it mean to yield without disappearing? And what kind of strength can survive the moment when the person kneeling chooses to stand?
+
+The cabin offered no doctrine. It offered a chair, a warm meal, and enough room for the answer to take time.
+
 ## Long-form chapter standard
 
 Chapters in this branch are to be written as substantial, continuous narrative episodes rather than compact vignettes or plot summaries. Aim for roughly 2,000–3,500 words per chapter when the material supports it, and allow major turning-point chapters to run longer. Build each chapter from several connected scenes with time passing between them: arrival, domestic or social activity, private conversation, interruption, consequence, and a changed situation. Give the gods room to pursue their own interests, speak in distinct voices, disagree, joke, make mistakes, and return to unresolved matters. Let settings accumulate sensory and practical detail through use rather than pausing for encyclopedic description. Relationships should change through repeated encounters and specific choices, not be settled in a single speech. Keep paragraphs developed and continuous; avoid fragmentary beats, excessive headings, and compressed summaries. Do not pad for length: add lived events, interactions, atmosphere, and consequences. Apply this standard to new chapters and, when revising, expand the earlier six chapters to match.

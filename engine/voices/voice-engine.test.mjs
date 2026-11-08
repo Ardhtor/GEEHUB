@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 const seed = JSON.parse(readFileSync(new URL("./voice-profiles.json", import.meta.url), "utf8"));
-import { createVoiceStore, analyseSample, recordUtterance, recordEncounter, transferExpression, getVoiceReport, exportVoiceStore } from "./voice-engine.js";
+import { createVoiceStore, analyseSample, recordUtterance, recordEncounter, transferExpression, getVoiceReport, exportVoiceStore } from "./voice-engine.mjs";
 
 test("analyses sentence rhythm and profanity without assigning personality", () => {
   const result = analyseSample("That's fucking enormous. What the hell happened?");

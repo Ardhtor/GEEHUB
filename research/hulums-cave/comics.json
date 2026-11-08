@@ -59,11 +59,6 @@
       "status": "forum-link-truncated; visible slug suffix d-i-think.html; exact URL unresolved"
     },
     {
-      "id": "hc-november-3-short-video",
-      "url": "http://hulumscave.blogspot.com/2009/11/",
-      "status": "forum-link-truncated; visible slug suffix n-sometin.html; exact URL unresolved"
-    },
-    {
       "id": "hc-the-bully-mov",
       "url": "https://www.box.net/shared/static/yz3u77msfe.mov",
       "status": "historical-forum-link; current file availability and provenance unverified"
@@ -72,6 +67,11 @@
       "id": "hc-quickie-derivative",
       "url": "https://www.musclegrowth.org/forum/showthread.php?p=113391",
       "status": "creator-approved-derivative-discussion; archived thread URL and media payload not yet verified"
+    },
+    {
+      "id": "hc-november-3-short-video",
+      "url": "http://hulumscave.blogspot.com/2009/11/n-sometin.html",
+      "status": "exact-forum-linked-url-reconstructed; page-and-video-payload-unverified"
     }
   ]
 }

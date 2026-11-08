@@ -112,7 +112,7 @@ def build_character(growth_ceiling, start_frame, end_frame):
                     key.interpolation = "BEZIER"
 
 
-def build_scene(manifest, output_path, timeline=None, preview_seconds=None):
+def build_scene(manifest, output_path, timeline=None, preview_seconds=None, save_blend_path=None):
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     bpy.ops.object.select_all(action="SELECT")
@@ -236,6 +236,10 @@ def build_scene(manifest, output_path, timeline=None, preview_seconds=None):
     scene.camera.data.dof.focus_distance = 9.8
     scene.camera.data.dof.aperture_fstop = 8.0
     scene.render.filepath = str(output_path)
+    if save_blend_path:
+        blend_path = Path(save_blend_path)
+        blend_path.parent.mkdir(parents=True, exist_ok=True)
+        bpy.ops.wm.save_as_mainfile(filepath=str(blend_path))
     bpy.ops.render.render(animation=True)
 
 
@@ -246,10 +250,12 @@ def main():
     parser.add_argument("--timeline")
     parser.add_argument("--output", required=True)
     parser.add_argument("--preview-seconds", type=float)
+    parser.add_argument("--save-blend")
     args = parser.parse_args(argv)
     manifest = json.loads(Path(args.manifest).read_text(encoding="utf-8"))
     timeline = json.loads(Path(args.timeline).read_text(encoding="utf-8")) if args.timeline else None
-    build_scene(manifest, Path(args.output), timeline=timeline, preview_seconds=args.preview_seconds)
+    build_scene(manifest, Path(args.output), timeline=timeline,
+                preview_seconds=args.preview_seconds, save_blend_path=args.save_blend)
 
 
 if __name__ == "__main__":

@@ -272,7 +272,7 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
 
     if timeline:
         from timeline_growth import animate_timeline_camera
-        animate_timeline_camera(camera, timeline)
+        animate_timeline_camera(camera, timeline, growth_profile)
     else:
         directed_scenes = manifest.get("scenes", [])
         if not directed_scenes:

@@ -9,7 +9,7 @@
   const people=["teal-titan","joey","marcus","arthur"];
   const names={"teal-titan":"Teal Titan",joey:"Joey",marcus:"Marcus",arthur:"Arthur",luke:"Luke",tyler:"Tyler",andrew:"Andrew",joseph:"Joseph",chase:"Chase"};
   let restored={};try{restored=JSON.parse(localStorage.getItem(KEY)||"{}")}catch{}
-  const state={busy:false,history:Array.isArray(restored.history)?restored.history.slice(-12):[],scene:restored.scene||{location:"The common room",event:"The men have gathered."},participants:Array.isArray(restored.participants)?restored.participants: [...people],lastSpeaker:restored.lastSpeaker||null};
+  const state={busy:false,history:Array.isArray(restored.history)?restored.history.slice(-12):[],scene:restored.scene||{location:"The common room",event:"The men have gathered."},participants:Array.isArray(restored.participants)?restored.participants: [...people],lastSpeaker:restored.lastSpeaker||null,nextSpeaker:restored.nextSpeaker||null};
   const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   let root;
   function mount(){
@@ -31,10 +31,10 @@
     state.busy=true;const button=root.querySelector("#liveInterlocutorNext"),status=root.querySelector("#liveInterlocutorStatus");
     button.disabled=true;status.textContent="IN THE SCENE";
     try{
-      const response=await fetch("/api/geehub/turn",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({scene:state.scene,history:state.history,participants:state.participants})});
+      const response=await fetch("/api/geehub/turn",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({scene:state.scene,history:state.history,participants:state.participants,preferredSpeaker:state.nextSpeaker})});
       const result=await response.json();if(!response.ok)throw new Error(result.error||"The live model is unavailable.");
       const item={speaker:result.speaker,utterance:result.utterance,emotional_tone:result.emotional_tone||"",consequence:result.consequence||"",at:result.generated_at};
-      state.history.push(item);state.history=state.history.slice(-12);state.lastSpeaker=item.speaker;
+      state.history.push(item);state.history=state.history.slice(-12);state.lastSpeaker=item.speaker;state.nextSpeaker=result.next_speaker||null;
       state.scene.event=item.consequence||item.utterance;
       state.scene.lastUtterance=item.utterance;
       renderLine(item);

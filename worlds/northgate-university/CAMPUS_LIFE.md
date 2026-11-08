@@ -208,3 +208,9 @@ Participants: Dan Roman, Adrian Varga, Noah Bell. Location: athletic-commons. Re
 The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.
 
 Participants: Elliot Ward, Marek Ionescu, Adrian Varga. Location: northgate-library. Recorded: 2026-11-08T18:12:39.730545+00:00.
+
+## THE CLUBS AND SOCIETIES FAIR — cycle 00036
+
+Tables appear beneath the arcade: architecture, music, rowing, film, natural history, computing and the old debating society. New students drift between them while returning members explain what they actually do, rather than reciting polished pitches.
+
+Participants: Dan Roman, Elliot Ward, Noah Bell. Location: northgate-university. Recorded: 2026-11-08T18:23:16.002837+00:00.

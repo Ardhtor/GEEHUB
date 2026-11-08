@@ -1,6 +1,25 @@
 {
-  "cycle": 30,
+  "cycle": 31,
   "events": [
+    {
+      "id": "northgate-campus-00031",
+      "cycle": 31,
+      "world_pulse": 200,
+      "at": "2026-11-08T05:52:38.928965+00:00",
+      "region": "athletic-commons",
+      "title": "THE BODY CULTURE CONVERSATION",
+      "kind": "body-culture",
+      "participants": [
+        "Dan Roman",
+        "Noah Bell",
+        "Adrian Varga"
+      ],
+      "description": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-08T05:52:38.928965+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00030",
       "cycle": 30,
@@ -530,28 +549,28 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 23,
+    "Dan Roman": 24,
     "Marek Ionescu": 17,
     "Elliot Ward": 19,
-    "Noah Bell": 19,
-    "Adrian Varga": 17
+    "Noah Bell": 20,
+    "Adrian Varga": 18
   },
   "last_event": {
-    "id": "northgate-campus-00030",
-    "cycle": 30,
-    "world_pulse": 199,
-    "at": "2026-11-08T01:31:35.146483+00:00",
-    "region": "northgate-library",
-    "title": "THE LATE READING ROOM",
-    "kind": "research",
+    "id": "northgate-campus-00031",
+    "cycle": 31,
+    "world_pulse": 200,
+    "at": "2026-11-08T05:52:38.928965+00:00",
+    "region": "athletic-commons",
+    "title": "THE BODY CULTURE CONVERSATION",
+    "kind": "body-culture",
     "participants": [
-      "Marek Ionescu",
-      "Elliot Ward",
-      "Noah Bell"
+      "Dan Roman",
+      "Noah Bell",
+      "Adrian Varga"
     ],
-    "description": "The oak reading hall settles into its evening rhythm. A student edits a short film in the lower media suite while two others compare notes at a green-shaded lamp. Someone finds a reference that had eluded the group all week and quietly sends the page number around.",
+    "description": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-08T01:31:35.146483+00:00",
+    "occurred_at": "2026-11-08T05:52:38.928965+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

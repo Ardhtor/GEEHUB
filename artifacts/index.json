@@ -5162,6 +5162,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000200",
+      "created_at": "2026-11-08T05:52:38.887925+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "CAT GARDENS",
+      "content": "SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "lineage": {
+        "event_id": "world-pulse-000200",
+        "event": {
+          "id": "world-pulse-000200",
+          "pulse": 200,
+          "time": "2026-11-08T05:52:38.887925+00:00",
+          "actor": "LUKE",
+          "world": "CAT GARDENS",
+          "region_id": "cat-gardens",
+          "previous_region_id": "cat-gardens",
+          "phase": "ATMOSPHERE",
+          "source": "worlds/cat-gardens/README.md",
+          "desire_state": "attention",
+          "action": "SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+          "narrative_rule": "approach extends geography",
+          "relation": null,
+          "next_region": null,
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-08T05:52:38.887925+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000200",
+      "created_at": "2026-11-08T05:52:38.887925+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / CAT GARDENS / worlds/cat-gardens/README.md",
+      "content": "SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 200,
+        "actor": "LUKE",
+        "world": "CAT GARDENS",
+        "region_id": "cat-gardens",
+        "source": "worlds/cat-gardens/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00031",
+      "created_at": "2026-11-08T05:52:38.928965+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE BODY CULTURE CONVERSATION",
+      "content": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+      "lineage": {
+        "event_id": "northgate-campus-00031",
+        "event": {
+          "id": "northgate-campus-00031",
+          "cycle": 31,
+          "world_pulse": 200,
+          "at": "2026-11-08T05:52:38.928965+00:00",
+          "region": "athletic-commons",
+          "title": "THE BODY CULTURE CONVERSATION",
+          "kind": "body-culture",
+          "participants": [
+            "Dan Roman",
+            "Noah Bell",
+            "Adrian Varga"
+          ],
+          "description": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-08T05:52:38.928965+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

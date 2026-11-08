@@ -85,3 +85,33 @@ This replaces the earlier uncertain suffix notation. The URL is forum-linked, bu
 A 2019 Reddit post by a user says Hulumscave's website files had been taken down and that they were trying to locate the first Flash game; the post says one game was still findable and asks for the first game. This is a single user's lost-media report, not a definitive inventory of what survived. It establishes that the disappearance was noticed by fans and that at least one Flash-game lead circulated outside the original site. The specific surviving-game link should be recovered from the post's comments or linked text before adding it as a verified asset.
 
 Source: https://www.reddit.com/r/u_girthandpower/comments/bu5s3o/
+
+
+## 2026 public-facing community and redistribution traces
+
+### Creator identity and public channels
+
+The current Patreon public page identifies the project as Hulum's Cave and describes the creator's practice as making CG growth images and animations for 15 years. The public profile is the strongest current creator-controlled identity anchor located in this pass. Search results show a matching Bluesky profile, hulumscave.bsky.social, whose bio describes male growth animations and points to the Patreon. Record Bluesky as a public channel lead; do not infer a complete posting history from the profile card alone.
+
+### Current audience footprint
+
+A current Patreon search snapshot reports 236 posts and approximately 405 paid members. These are volatile platform counters and should be stored with retrieval date if added to a longitudinal series, not treated as fixed historical facts. An earlier About-page crawl reported a different member count, illustrating why snapshots must be dated and not compared as exact audience growth without consistent collection methods.
+
+### Community redistribution and discovery
+
+A public Telegram analytics index for a channel titled Daily Dose Of Male Muscle Growth contains posts tagged #HulumsCave, including Quick Gym Growth and later Locker Room Growth. This is evidence that Hulum's Cave work is being indexed/reposted in a wider male muscle-growth media stream. It is not evidence that the channel is creator-authorized, affiliated, or a reliable source of originals. Use it only as a discovery clue for title/date/platform circulation; do not treat reposts as the canonical source or copy restricted media from it.
+
+### 2019 lost-media discussion
+
+A Reddit post dated 28 May 2019 says the site's files had been taken down, the poster could not find information about the blog owner, and they were looking for the first Flash game while noting that one game could still be found. This is a single user report, but it provides a dated community memory of the site's disappearance. It suggests the Flash games may have had separate distribution paths or surviving mirrors. The exact linked game and comments need recovery before any specific file is catalogued.
+
+### Research interpretation
+
+The community footprint has at least three layers: the original creator-to-fan channels (forum posts, blog, Patreon, Bluesky); peer-to-peer circulation and collaboration (forum derivatives and reposts); and later rediscovery/lost-media activity (Reddit and third-party indexes). These layers must remain separate in the provenance model. A work's appearance in a repost channel does not establish creator approval, and a fan's lost-media recollection does not establish the completeness of the archive.
+
+Sources:
+- Patreon public page: https://www.patreon.com/hulumscave
+- Patreon About: https://www.patreon.com/hulumscave/about
+- Bluesky profile: https://bsky.app/profile/hulumscave.bsky.social
+- Reddit lost-media post: https://www.reddit.com/r/u_girthandpower/comments/bu5s3o/
+- Third-party Telegram channel index: https://telemetr.io/en/channels/2247363601-muscle_growth

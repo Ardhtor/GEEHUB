@@ -973,5 +973,28 @@
       "relationships",
       "production"
     ]
+  },
+  {
+    "id": "developing-voices",
+    "name": "Developing Voices",
+    "group": "engine",
+    "status": "active",
+    "summary": "Bottom-up voice development for GEEHUB inhabitants. Tracks individual speech mechanics, social behaviour, acquired expressions, emotional registers, and linguistic history through recurring encounters.",
+    "path": "../docs/DEVELOPING_VOICES.md",
+    "tags": [
+      "characters",
+      "voice",
+      "dialogue",
+      "language",
+      "social-continuity",
+      "narrative"
+    ],
+    "related": [
+      "character-records",
+      "tractus-continuity",
+      "sensation-engine",
+      "teal-titan-golds-on-5th",
+      "arthur-and-fingerlands"
+    ]
   }
 ]

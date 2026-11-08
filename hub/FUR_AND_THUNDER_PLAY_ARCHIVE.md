@@ -210,6 +210,11 @@ You squeezed his hand. “Tomorrow.”
 Ursalon rested against you, vast and warm, and the hearth behind you kept burning. No oath shook the mountain. No god demanded witnesses. The bond held in the small interval between one day and the next, renewed through the ordinary acts that made a home: the door left unlocked, the kettle filled, the chair kept clear, the disagreement allowed to end without becoming a wound. The quiet did not mean that nothing happened there. It meant that everything could happen without destroying the place that held it.
 
 And when the gods came in from the yard, still arguing, Ursalon stood to let them through. He made room at the table. He asked who was hungry. The cabin received them all, but it did not lose its center. You sat beside him as the bowls went around, while rain began again in the trees and the repaired roof held.
+
+## Long-form chapter standard
+
+Chapters in this branch are to be written as substantial, continuous narrative episodes rather than compact vignettes or plot summaries. Aim for roughly 2,000–3,500 words per chapter when the material supports it, and allow major turning-point chapters to run longer. Build each chapter from several connected scenes with time passing between them: arrival, domestic or social activity, private conversation, interruption, consequence, and a changed situation. Give the gods room to pursue their own interests, speak in distinct voices, disagree, joke, make mistakes, and return to unresolved matters. Let settings accumulate sensory and practical detail through use rather than pausing for encyclopedic description. Relationships should change through repeated encounters and specific choices, not be settled in a single speech. Keep paragraphs developed and continuous; avoid fragmentary beats, excessive headings, and compressed summaries. Do not pad for length: add lived events, interactions, atmosphere, and consequences. Apply this standard to new chapters and, when revising, expand the earlier six chapters to match.
+
 ## Rules of use
 
 1. Let characters behave before explaining them.

@@ -37,3 +37,7 @@ These are initial hypotheses, not finished voice profiles. Dialogue samples and 
 Write dialogue as inhabited speech, not as a demonstration of the voice system. Avoid making every character equally witty, equally articulate, equally profane, or equally self-aware. Let conversations contain ordinary remarks, incomplete thoughts, misunderstandings, interruptions, jokes that do not land, and moments when nobody has anything useful to say. Use restrained formatting and let the prose carry the scene without excessive headings, bold emphasis, badges, or decorative labels.
 
 The durable result of each exchange is not merely a transcript. It is any consequential change in familiarity, shared language, relationship, memory, or future expectation. Preserve those changes in the relevant character records and story continuity.
+
+## Executable runtime
+
+The first dependency-free implementation lives in `engine/voices/`. Its JSON seed contains provisional profiles for Teal Titan, Joey, Marcus, and Arthur. The JavaScript module records utterances and encounters, analyses basic speech mechanics, tracks expressions moving between speakers, and exports portable voice state. The analysis is intentionally descriptive rather than diagnostic: it does not infer accent, identity, or personality from a small sample. See `engine/voices/README.md` for usage and `engine/voices/voice-engine.test.mjs` for the test suite. The current store is in memory until a host application persists its exported JSON.

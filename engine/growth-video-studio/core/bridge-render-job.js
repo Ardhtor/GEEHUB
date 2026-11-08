@@ -107,6 +107,29 @@ function validateSegmentationFrames(document) {
   }
 }
 
+function validateMaskPixelAudit(audit, frameSet) {
+  if (audit === undefined || audit === null) return null;
+  if (audit.encoding !== "png/grayscale8/binary" ||
+      audit.pixelDataVerified !== true ||
+      audit.faceExclusionVerified !== true ||
+      audit.pairsChecked !== frameSet.frameCount ||
+      audit.disjointPairs !== frameSet.frameCount ||
+      audit.overlapPixels !== 0 ||
+      !Array.isArray(audit.frames) ||
+      audit.frames.length !== frameSet.frameCount) {
+    throw new Error("Mask pixel audit is incomplete or reports body/face overlap");
+  }
+  audit.frames.forEach((frame, index) => {
+    if (frame.frame !== frameSet.firstFrame + index ||
+        !Number.isInteger(frame.bodyForegroundPixels) || frame.bodyForegroundPixels < 1 ||
+        !Number.isInteger(frame.faceForegroundPixels) || frame.faceForegroundPixels < 1 ||
+        frame.overlapPixels !== 0) {
+      throw new Error("Mask pixel audit has invalid foreground evidence at frame " + (frameSet.firstFrame + index));
+    }
+  });
+  return structuredClone(audit);
+}
+
 function validateLandmarkFrames(document) {
   const required = [...new Set([...REQUIRED_ANCHORS, ...IDENTITY_ANCHORS])];
   for (const frame of document.frames) {
@@ -142,7 +165,8 @@ export function prepareBridgeRenderJob({
   jobId,
   jobUri,
   outputUri,
-  renderer = "resolve-free"
+  renderer = "resolve-free",
+  maskPixelAudit
 } = {}) {
   const manifestValidation = validateBridgeManifest(manifest);
   if (!manifestValidation.valid) {
@@ -157,6 +181,7 @@ export function prepareBridgeRenderJob({
   );
   validateSegmentationFrames(segmentationDocument);
   validateLandmarkFrames(landmarkDocument);
+  const verifiedMaskPixelAudit = validateMaskPixelAudit(maskPixelAudit, selected.segmentation);
 
   for (let index = 0; index < segmentationDocument.frames.length; index += 1) {
     const maskFrame = segmentationDocument.frames[index];
@@ -193,6 +218,9 @@ export function prepareBridgeRenderJob({
     segmentationChecksum: selected.segmentation.checksum,
     landmarksChecksum: selected.landmarks.checksum,
     ...Object.fromEntries(RANGE_FIELDS.map(field => [field, selected.segmentation[field]])),
+    pixelDataVerified: verifiedMaskPixelAudit?.pixelDataVerified === true,
+    faceExclusionVerified: verifiedMaskPixelAudit?.faceExclusionVerified === true,
+    maskPixelAudit: verifiedMaskPixelAudit,
     pixelSemanticsVerified: false
   };
 
@@ -212,6 +240,7 @@ export function prepareBridgeRenderJob({
     sequenceId: selected.segmentation.metadata.sequenceId,
     frameCount: selected.segmentation.frameCount,
     frameSetIds: [selected.segmentation.id, selected.landmarks.id],
+    maskPixelAudit: verifiedMaskPixelAudit,
     pixelSemanticsVerified: false
   };
 }

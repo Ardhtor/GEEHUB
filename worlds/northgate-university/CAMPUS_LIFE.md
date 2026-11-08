@@ -172,3 +172,9 @@ Participants: Dan Roman, Marek Ionescu, Elliot Ward, Noah Bell. Location: founde
 The training group gathers beneath the high timber roof. They move through warm-ups, careful sets and recovery work, trading observations about technique. Afterward they linger by the pool windows, making plans to walk back to the dormitory together.
 
 Participants: Dan Roman, Noah Bell, Adrian Varga. Location: athletic-commons. Recorded: 2026-11-08T00:00:02.642745+00:00.
+
+## THE LATE READING ROOM — cycle 00030
+
+The oak reading hall settles into its evening rhythm. A student edits a short film in the lower media suite while two others compare notes at a green-shaded lamp. Someone finds a reference that had eluded the group all week and quietly sends the page number around.
+
+Participants: Marek Ionescu, Elliot Ward, Noah Bell. Location: northgate-library. Recorded: 2026-11-08T01:31:35.146483+00:00.

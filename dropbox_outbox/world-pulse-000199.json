@@ -1,0 +1,36 @@
+{
+  "id": "activity-world-pulse-000199",
+  "created_at": "2026-11-08T01:31:35.086079+00:00",
+  "source": "tractus-world-engine",
+  "kind": "activity-event",
+  "title": "FOUNDERS DORMITORY",
+  "content": "NICK: A detail returns in FOUNDERS DORMITORY: Someone has returned from the library with a stack of books; another is making supper; two friends are carrying a model upstairs. The residential houses have different habits, but each makes room for its people.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/founders-dormitory/README.md.",
+  "lineage": {
+    "event_id": "world-pulse-000199",
+    "event": {
+      "id": "world-pulse-000199",
+      "pulse": 199,
+      "time": "2026-11-08T01:31:35.086079+00:00",
+      "actor": "TYLER",
+      "world": "FOUNDERS DORMITORY",
+      "region_id": "founders-dormitory",
+      "previous_region_id": "founders-dormitory",
+      "phase": "MEMORY",
+      "source": "worlds/founders-dormitory/README.md",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in FOUNDERS DORMITORY: Someone has returned from the library with a stack of books; another is making supper; two friends are carrying a model upstairs. The residential houses have different habits, but each makes room for its people.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/founders-dormitory/README.md.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-08T01:31:35.086079+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
+    }
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue from this event's changed world state"
+}

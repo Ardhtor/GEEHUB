@@ -27,11 +27,10 @@ class GrowthCurveTests(unittest.TestCase):
         self.assertTrue(all(a <= b for a, b in zip(values, values[1:])))
         self.assertTrue(all(0.0 <= value <= 1.0 for value in values))
 
-    def test_profiles_have_distinct_onsets(self):
-        early = evaluate_profile(DEFAULT_PROFILE, 18)
-        late = evaluate_profile(DEFAULT_PROFILE, 18)
-        self.assertGreater(early["pectorals"], early["calves"])
-        self.assertEqual(early, late)
+    def test_regions_have_distinct_onsets(self):
+        early = evaluate_profile(DEFAULT_PROFILE, 12)
+        self.assertGreater(early["pectorals"], 0.0)
+        self.assertEqual(early["calves"], 0.0)
 
     def test_sampling_matches_60_second_24fps_delivery(self):
         samples = list(sample_profile(DEFAULT_PROFILE, 60, 24))

@@ -90,3 +90,22 @@ Updated `engine/video/README.md` to establish Dropbox-first source selection, so
 
 ### Implementation boundary
 The current analyzer still accepts a local filesystem path. A Dropbox video therefore needs to be available through Dropbox desktop sync or staged locally before analysis. Direct Dropbox-to-engine ingestion remains an implementation task and is not claimed as complete.
+
+
+## 2026-11-08 — Discovery Engine and Teal Titan lineage
+
+### Discovery subsystem committed
+- Added `research/creators/CREATOR_SCHEMA.json` and a seeded `ACTIVE_CREATORS.json` index.
+- Added `research/discovery/DISCOVERY_PROTOCOL.md`, defining Research → Provenance → Relationship → Production, evidence states, source integrity, and the Hulum's Cave historical research spine.
+- Added `scripts/discover_creators.py` for local manual intake and creator-index validation. It explicitly does not claim to run live platform searches.
+- Added `scripts/validate_research.py` for creator, Teal Titan lineage, and Hulum's Cave catalogue validation.
+- Added `docs/FINDING_AND_GENERATING_GROWTH_CONTENT.md` and a conservative SuperWaffle archival research stub.
+
+### Teal Titan canon and source sequence
+- Added `characters/records/TEAL_TITAN.md` and `research/relationships/TEAL_TITAN_LINEAGE.json`.
+- Canon now records Teal Titan as the user's personification of the combined creative libido of Hulum's Cave and Joey. This is explicitly a creative interpretation, not a claim about private feelings, endorsement, or collaboration.
+- The user-defined source sequence is Dropbox `22`, `3333`, `4444`, and an anticipated fifth video. `22` and `3333` have prior working observations; the Dropbox `3333.mp4` object has not yet been checksum-matched to those observations. `4444` and the fifth video remain uninspected / anticipated. No sequence contents are inferred from filenames.
+- The existing Gold's on 5th project retains Marcus as its working fictional subject name and is linked as a production incarnation of the wider Teal Titan concept.
+
+### Verification boundary
+All new JSON records were fetched back from GitHub and parsed successfully. The Python validation scripts are committed but have not yet been executed in a Python runtime in this turn. No Dropbox video was decoded, no audio was extracted, and no new render is claimed.

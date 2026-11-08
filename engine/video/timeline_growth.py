@@ -38,6 +38,9 @@ def _make_region_key(mesh, name, centre, radius, factors):
         q = (delta.x / r.x) ** 2 + (delta.y / r.y) ** 2 + (delta.z / r.z) ** 2
         # Gaussian falloff avoids a hard boundary around each muscle group.
         weight = math.exp(-2.4 * q)
+        # Preserve the head/face as an identity anchor during whole-body scaling.
+        if name == "whole_body" and source.co.z > 2.92:
+            weight *= max(0.0, 1.0 - (source.co.z - 2.92) / 0.30)
         target = c + Vector((delta.x * f.x, delta.y * f.y, delta.z * f.z))
         point.co = source.co.lerp(target, weight)
     return key
@@ -89,23 +92,49 @@ def animate_timeline_growth(mesh, timeline, profile=None):
     return keys
 
 
-def animate_timeline_camera(camera, timeline, target=(0.0, 0.0, 1.25)):
-    """Key a restrained continuous orbit/push/pull from timeline stage boundaries."""
-    stages = timeline["stages"]
+def animate_timeline_camera(camera, timeline, profile=None, target=(0.0, 0.0, 1.25)):
+    """Maintain a continuous orbit while gradually widening for the changing silhouette."""
+    from growth_curves import evaluate_profile
+
     fps = int(timeline.get("timebase", {}).get("fps", 24))
-    total = int(round(float(timeline["duration_seconds"]) * fps))
-    count = max(1, len(stages) - 1)
-    for index, stage in enumerate(stages):
-        frame = max(1, int(round(float(stage["start_seconds"]) * fps)) + 1)
-        phase = index / count
+    duration = float(timeline["duration_seconds"])
+    total = int(round(duration * fps))
+    if profile and profile.get("schema") == "geehub.growth-profile/1":
+        curves = {name: entry["knots"] for name, entry in profile.get("regions", {}).items()}
+    else:
+        curves = DEFAULT_PROFILE
+
+    # Use every authored curve knot plus the timeline endpoints. This lets the
+    # camera respond to anatomical onset without changing lens or cutting away.
+    times = {0.0, max(0.0, (total - 1) / fps)}
+    for knots in curves.values():
+        times.update(float(knot[0]) for knot in knots
+                     if 0.0 <= float(knot[0]) <= (total - 1) / fps)
+    for stage in timeline.get("stages", []):
+        for field in ("start_seconds", "end_seconds"):
+            value = float(stage[field])
+            if 0.0 <= value <= (total - 1) / fps:
+                times.add(value)
+
+    for seconds in sorted(times):
+        values = evaluate_profile(curves, seconds)
+        intensity = max(values.values(), default=0.0)
+        phase = seconds / duration if duration else 0.0
         angle = -0.12 + phase * 0.34
-        radius = 9.0 - 0.55 * min(1.0, phase * 1.4)
-        camera.location = (math.sin(angle) * radius, -math.cos(angle) * radius, 2.35 - 0.35 * phase)
-        camera.rotation_euler = (Vector(target) - camera.location).to_track_quat("-Z", "Y").to_euler()
+        # Widen by moving the camera back, not by changing focal length. The
+        # movement is gradual and keyed on the same timeline as the deformation.
+        radius = 9.0 + 1.8 * intensity
+        camera.location = (
+            math.sin(angle) * radius,
+            -math.cos(angle) * radius,
+            2.35 + 0.45 * intensity,
+        )
+        focus = Vector((target[0], target[1], target[2] + 0.20 * intensity))
+        camera.rotation_euler = (focus - camera.location).to_track_quat("-Z", "Y").to_euler()
+        frame = min(total, max(1, int(round(seconds * fps)) + 1))
         camera.keyframe_insert(data_path="location", frame=frame)
         camera.keyframe_insert(data_path="rotation_euler", frame=frame)
-    camera.keyframe_insert(data_path="location", frame=total)
-    camera.keyframe_insert(data_path="rotation_euler", frame=total)
+
     if camera.animation_data and camera.animation_data.action:
         for curve in camera.animation_data.action.fcurves:
             for point in curve.keyframe_points:

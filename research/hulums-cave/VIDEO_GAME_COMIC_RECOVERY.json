@@ -1,0 +1,130 @@
+{
+  "schema": "geehub.hulums-cave.media-recovery.v1",
+  "scope": "Original Hulum's Cave videos, Flash games, and comics only. Community discussion is used solely to locate primary works.",
+  "evidence_rules": [
+    "A title or post excerpt is not a video inspection.",
+    "Mark locked or inaccessible media as uninspected.",
+    "Do not treat third-party reposts as canonical or authorized.",
+    "Never guess truncated Blogspot slugs.",
+    "Keep videos, games, and comics in separate asset records."
+  ],
+  "videos": [
+    {
+      "id": "hc-the-bully",
+      "title": "The Bully",
+      "kind": "video",
+      "source_url": "https://www.box.net/shared/static/yz3u77msfe.mov",
+      "source_type": "historical forum link",
+      "status": "file availability and provenance unverified"
+    },
+    {
+      "id": "hc-quickie",
+      "title": "Quickie",
+      "kind": "video",
+      "source_url": "http://hulumscave.blogspot.com/2009/10/test-quickie.html",
+      "source_type": "creator-linked Blogspot post",
+      "status": "exact post URL known; page and video payload unverified"
+    },
+    {
+      "id": "hc-oct25-video-2",
+      "title": "October 25, 2009 second video — title unresolved",
+      "kind": "video",
+      "source_url": "http://hulumscave.blogspot.com/2009/10/",
+      "source_type": "truncated forum link",
+      "status": "slug suffix d-i-think.html; exact URL unresolved"
+    },
+    {
+      "id": "hc-nov3-short",
+      "title": "November 3, 2009 short video — title unresolved",
+      "kind": "video",
+      "source_url": "http://hulumscave.blogspot.com/2009/11/",
+      "source_type": "truncated forum link",
+      "status": "slug suffix n-sometin.html; exact URL unresolved"
+    },
+    {
+      "id": "hc-after-glow-growth",
+      "title": "After Glow Growth",
+      "kind": "video",
+      "status": "creator identifies original as LTX; original media retrieval pending"
+    },
+    {
+      "id": "hc-after-glow-growth-mm",
+      "title": "After Glow Growth MM",
+      "kind": "video",
+      "source_url": "https://www.patreon.com/hulumscave/posts/multiple-video-173400472",
+      "status": "creator post text public; media locked; MiniMax comparison; unfinished"
+    },
+    {
+      "id": "hc-camping-growth-wip1",
+      "title": "Camping Growth WIP1",
+      "kind": "video",
+      "source_url": "https://www.patreon.com/hulumscave/posts/multiple-video-173400472",
+      "status": "creator post text public; media locked; WIP; thematic nod to Forest Growth"
+    },
+    {
+      "id": "hc-cock-growth-training-86",
+      "title": "86 Cock Growth Training",
+      "kind": "video",
+      "source_url": "https://www.patreon.com/hulumscave/posts/multiple-video-173400472",
+      "status": "creator post text public; multiple videos; LTX LoRA training method described; media locked"
+    },
+    {
+      "id": "hc-growthmaxxx-final",
+      "title": "GrowthMaxxx — Final Video",
+      "kind": "video",
+      "source_url": "https://www.patreon.com/posts/growthmaxxx-128246237",
+      "status": "May 6, 2025; public excerpt; media locked; Max narration and K Van audio involvement noted"
+    },
+    {
+      "id": "hc-forest-growth",
+      "title": "Forest Growth / The Forest",
+      "kind": "video",
+      "status": "older creator work referenced by Camping Growth; exact original post and media retrieval pending"
+    }
+  ],
+  "games": [
+    {
+      "id": "hc-first-flash-game",
+      "title": "First Hulumscave Flash game — title unknown",
+      "kind": "flash-game",
+      "source_url": "https://www.reddit.com/r/u_girthandpower/comments/bu5s3o/",
+      "status": "2019 lost-media post points to an outbound link labelled 'Still looking for the first flash game! (billy)'; destination not resolved; game not identified"
+    },
+    {
+      "id": "hc-flash-games-archive",
+      "title": "Hulum's Cave Flash Games collection",
+      "kind": "flash-game-collection",
+      "status": "creator archive category known; individual SWF names, filenames, and playable files not yet recovered"
+    }
+  ],
+  "comics": [
+    {
+      "id": "hc-ultrasize-1",
+      "title": "Ultrasize Chapter 1",
+      "kind": "comic",
+      "source_url": "http://hulumscave.blogspot.com/2009/10/ultrasize-chapter-1.html",
+      "status": "creator forum link; page and image payload unverified"
+    },
+    {
+      "id": "hc-ultrasize-2",
+      "title": "Ultrasize Chapter 2",
+      "kind": "comic",
+      "source_url": "http://hulumscave.blogspot.com/2009/10/ultrasize-chapter-2.html",
+      "status": "creator forum link; page and image payload unverified"
+    },
+    {
+      "id": "hc-ultrasize-3",
+      "title": "Ultrasize Chapter 3",
+      "kind": "comic",
+      "source_url": "http://hulumscave.blogspot.com/2009/11/ultrasize-chapter-3.html",
+      "status": "creator forum link; page and image payload unverified"
+    }
+  ],
+  "next_actions": [
+    "Recover the actual Patreon-attached video files through the creator's authorized access route.",
+    "Search creator post archive backwards by video title and WIP/final pairs.",
+    "Resolve the Reddit outbound link for the first Flash game and inspect the SWF metadata.",
+    "Query Internet Archive for the exact Ultrasize post URLs and recover original page images in sequence.",
+    "Locate the creator's earlier site URL from the September 2009 forum migration announcement."
+  ]
+}

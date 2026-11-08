@@ -808,7 +808,22 @@
       "tractus-continuity",
       "sensation-engine",
       "teal-titan-golds-on-5th",
-      "arthur-and-fingerlands"
+      "arthur-and-fingerlands",
+      "voice-engine-runtime"
+    ]
+  },
+  {
+    "id": "voice-engine-runtime",
+    "name": "Voice Engine Runtime",
+    "status": "prototype",
+    "kind": "narrative-tool",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/engine/voices/README.md",
+    "description": "Dependency-free voice-history runtime for recording dialogue observations, analysing basic speech mechanics, tracking expression transfers, and exporting portable character voice state.",
+    "related": [
+      "developing-voices",
+      "character-records",
+      "sensation-engine"
     ]
   }
 ]

@@ -1,6 +1,18 @@
 # GEEHUB construction state
 
-Updated: 2026-11-07
+Updated: 2026-11-08
+
+## Binary mask pixel inspection and face-mask separation added — 2026-11-08
+- `engine/growth-video-studio/core/mask-pixels.js` decodes a deliberately narrow segmentation format: non-interlaced 8-bit grayscale PNG with binary samples (0 background, 255 foreground). It verifies PNG chunk CRCs, decompresses image data, reconstructs PNG filters 0–4, rejects unsupported encodings and soft probability values, and enforces a configurable pixel-count ceiling.
+- `frame-sequence-worker.js` now hashes and decodes the same actual mask bytes. For each frame it requires non-empty body and face foreground and checks that the two masks have zero overlapping foreground pixels. The audit reports foreground counts, normalized foreground ratios, bounding boxes, pair counts, and overlap totals.
+- The audit distinguishes three claims: `pixelDataVerified=true` means all mask pixels were decoded under the declared binary format; `faceExclusionVerified=true` means every supplied body/face pair is non-empty and disjoint; `pixelSemanticsVerified=false` remains explicit because disjoint masks do not independently prove that an upstream model segmented the correct anatomy or labeled every face pixel correctly.
+- `frame-sequence-bridge.js` now refuses incomplete pixel audits and copies the pixel-audit summary into the segmentation sidecar and manifest metadata. The sidecar remains checksummed and immutable through registration.
+- `bridge-render-job.js` accepts and validates a fresh mask-pixel audit when supplied, then carries it into `frameEvidence`. `tools/prepare-bridge-render-job.js` re-decodes the local mask files, compares the result with any registered audit, refuses stale or altered audit evidence, and passes the fresh summary into the queued render job. Legacy registered sidecars without the additive summary remain readable; preparation still performs the fresh file/pixel audit.
+- Tests cover all five PNG row filters, CRC corruption, unsupported RGB encoding, soft values, pixel limits, empty masks, body/face overlap, checksum mismatch, symlink refusal, bridge propagation, stale registered-audit refusal, and render-job evidence.
+- GitHub Actions package run [42519679171](https://github.com/Ardhtor/GEEHUB/actions/runs/42519679171) completed successfully on commit `bea68ab9dd7f769a860e93da844e22d77d761690`: 79/79 Node tests passed; all 12 Resolve Lua tests passed; Lua 5.4 syntax validation passed; the CLI syntax/help checks passed; the portable package built and uploaded.
+- The separate data-validation run [42519679148](https://github.com/Ardhtor/GEEHUB/actions/runs/42519679148) still fails only at the browser repository-link check for four stale embedded project tuples: `information-portability`, `lineage-pantheon`, `hubby`, and `media-tools`. Other validation steps, including jam, UI-registry regression, world-engine, and project tuple checks, passed.
+- No local Mac, Dropbox mirror, or Resolve session was accessed. No source frame was modified or rendered. No segmentation model ran. Pixel-data and pairwise disjointness are verified for test fixtures; anatomical semantic correctness remains unverified, and no connected mesh has yet been generated.
+
 
 ## Registered-evidence render-job preparation added — 2026-11-07
 - `engine/growth-video-studio/core/bridge-render-job.js` prepares a queued render job from the exact registered segmentation and landmark sidecar bytes. It verifies each sidecar's SHA-256, schema, role, source/sequence identity, frame range, dimensions, FPS, ordered frame numbers, and strictly increasing timestamps before using the observations.

@@ -1,10 +1,10 @@
-/** Local file verifier for a GEEHUB frame-sequence envelope. */
+/** Local file and pixel verifier for a GEEHUB frame-sequence envelope. */
 import { createHash } from "node:crypto";
-import { createReadStream } from "node:fs";
-import { lstat, open, realpath } from "node:fs/promises";
+import { lstat, open, readFile, realpath } from "node:fs/promises";
 import path from "node:path";
 import { resolveDropboxUri } from "./bridge-exchange.js";
 import { validateFrameSequencePackage } from "./frame-sequence.js";
+import { decodeBinaryMaskPng } from "./mask-pixels.js";
 
 const within = (root, target) => {
   const relative = path.relative(root, target);
@@ -29,29 +29,24 @@ async function inspectRegularFile(root, target) {
   }
 }
 
-async function readPngDimensions(filePath) {
-  const handle = await open(filePath, "r");
-  try {
-    const header = Buffer.alloc(24);
-    const { bytesRead } = await handle.read(header, 0, header.length, 0);
-    const signature = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
-    if (bytesRead !== 24 || !header.subarray(0, 8).equals(signature) ||
-        header.toString("ascii", 12, 16) !== "IHDR") {
-      throw new Error("Mask is not a PNG with a readable IHDR header");
-    }
-    return { width: header.readUInt32BE(16), height: header.readUInt32BE(20) };
-  } finally {
-    await handle.close();
+function sha256(bytes) {
+  return createHash("sha256").update(bytes).digest("hex");
+}
+
+function countOverlap(first, second) {
+  let overlap = 0;
+  for (let index = 0; index < first.length; index += 1) {
+    if (first[index] === 255 && second[index] === 255) overlap += 1;
   }
+  return overlap;
 }
 
-async function sha256File(filePath) {
-  const hash = createHash("sha256");
-  for await (const chunk of createReadStream(filePath)) hash.update(chunk);
-  return hash.digest("hex");
-}
-
-/** Verify actual mask files, declared checksums, and PNG dimensions. */
+/**
+ * Verify actual mask bytes, binary grayscale pixels, and body/face separation.
+ *
+ * A disjoint pair proves only that the supplied masks do not overlap. It does
+ * not independently prove that the upstream model segmented the right anatomy.
+ */
 export async function inspectFrameSequenceFiles(sequence, { dropboxRoot } = {}) {
   const validation = validateFrameSequencePackage(sequence);
   const errors = [...validation.errors];
@@ -63,14 +58,19 @@ export async function inspectFrameSequenceFiles(sequence, { dropboxRoot } = {}) 
       readyForGeometry: false,
       validation,
       fileVerification: { checked: 0, verified: 0, masks: [] },
-      errors,
-      pixelSemanticsVerified: false
+      maskPixelAudit: { encoding: "png/grayscale8/binary", pairsChecked: 0, disjointPairs: 0, overlapPixels: 0, frames: [] },
+      pixelDataVerified: false,
+      faceExclusionVerified: false,
+      pixelSemanticsVerified: false,
+      errors
     };
   }
   if (typeof dropboxRoot !== "string" || !dropboxRoot.trim()) {
     throw new TypeError("A local Dropbox root is required");
   }
   const root = await realpath(path.resolve(dropboxRoot));
+  const decodedByFrame = new Map();
+
   for (const frame of sequence.frames) {
     for (const role of ["body", "face"]) {
       const mask = frame.segmentation?.[role + "Mask"];
@@ -78,29 +78,92 @@ export async function inspectFrameSequenceFiles(sequence, { dropboxRoot } = {}) 
       try {
         const filePath = resolveDropboxUri(mask.uri, root);
         await inspectRegularFile(root, filePath);
-        const dimensions = await readPngDimensions(filePath);
-        if (dimensions.width !== sequence.format.width || dimensions.height !== sequence.format.height) {
-          throw new Error("PNG dimensions do not match the source frame");
-        }
-        const checksum = await sha256File(filePath);
+        const bytes = await readFile(filePath);
+        const checksum = sha256(bytes);
         if (checksum !== mask.checksum.toLowerCase()) {
-          throw new Error("PNG SHA-256 does not match the segmentation descriptor");
+          const error = new Error("PNG SHA-256 does not match the segmentation descriptor");
+          error.code = "mask-checksum-mismatch";
+          throw error;
+        }
+        const decoded = decodeBinaryMaskPng(bytes);
+        if (decoded.width !== sequence.format.width || decoded.height !== sequence.format.height) {
+          const error = new Error("PNG dimensions do not match the source frame");
+          error.code = "mask-dimensions-mismatch";
+          throw error;
         }
         verifiedMasks.push({
           frame: frame.frame,
           role,
           uri: mask.uri,
           checksum,
-          width: dimensions.width,
-          height: dimensions.height
+          width: decoded.width,
+          height: decoded.height,
+          encoding: decoded.encoding,
+          foregroundPixels: decoded.foregroundPixels,
+          foregroundRatio: decoded.foregroundRatio,
+          bounds: decoded.bounds
         });
+        const pair = decodedByFrame.get(frame.frame) || {};
+        pair[role] = decoded;
+        decodedByFrame.set(frame.frame, pair);
       } catch (error) {
-        errors.push({ frame: frame.frame, role, code: "mask-file-verification-failed", detail: error.message });
+        errors.push({
+          frame: frame.frame,
+          role,
+          code: error.code || "mask-file-verification-failed",
+          detail: error.message
+        });
       }
     }
   }
+
+  let pairsChecked = 0;
+  let disjointPairs = 0;
+  let overlapPixels = 0;
+  const pixelFrames = [];
+  for (const frame of sequence.frames) {
+    const pair = decodedByFrame.get(frame.frame);
+    if (!pair?.body || !pair?.face) continue;
+    pairsChecked += 1;
+    const emptyRoles = [];
+    if (pair.body.foregroundPixels === 0) emptyRoles.push("body");
+    if (pair.face.foregroundPixels === 0) emptyRoles.push("face");
+    if (emptyRoles.length) {
+      errors.push({
+        frame: frame.frame,
+        code: "mask-empty",
+        roles: emptyRoles,
+        detail: "Body and face masks must each contain foreground pixels"
+      });
+    }
+    const overlap = countOverlap(pair.body.pixels, pair.face.pixels);
+    overlapPixels += overlap;
+    if (overlap > 0) {
+      errors.push({
+        frame: frame.frame,
+        code: "body-face-mask-overlap",
+        pixels: overlap,
+        detail: "Body and protected-face masks must be disjoint"
+      });
+    } else {
+      disjointPairs += 1;
+    }
+    pixelFrames.push({
+      frame: frame.frame,
+      bodyForegroundPixels: pair.body.foregroundPixels,
+      faceForegroundPixels: pair.face.foregroundPixels,
+      overlapPixels: overlap
+    });
+  }
+
   const expected = sequence.frames.length * 2;
-  const readyForGeometry = validation.structurallyReady && errors.length === 0 && verifiedMasks.length === expected;
+  const pixelDataVerified = verifiedMasks.length === expected;
+  const faceExclusionVerified = pairsChecked === sequence.frames.length &&
+    disjointPairs === pairsChecked &&
+    !errors.some(error => error.code === "mask-empty");
+  const readyForGeometry = validation.structurallyReady &&
+    errors.length === 0 && pixelDataVerified && faceExclusionVerified;
+
   return {
     schema: "geehub.frame-sequence-audit.v1",
     status: readyForGeometry ? "ready-for-geometry" : "blocked",
@@ -111,8 +174,17 @@ export async function inspectFrameSequenceFiles(sequence, { dropboxRoot } = {}) 
     format: sequence.format,
     validation,
     fileVerification: { checked: expected, verified: verifiedMasks.length, masks: verifiedMasks },
-    errors,
+    maskPixelAudit: {
+      encoding: "png/grayscale8/binary",
+      pairsChecked,
+      disjointPairs,
+      overlapPixels,
+      frames: pixelFrames
+    },
+    pixelDataVerified,
+    faceExclusionVerified,
     pixelSemanticsVerified: false,
-    note: "PNG headers, dimensions, and file checksums are verified. Mask pixel meaning and face exclusion remain producer assertions; no pixels are decoded or altered."
+    errors,
+    note: "Actual grayscale mask pixels are decoded, required to be binary and non-empty, and body/face masks are checked for overlap. Disjointness does not prove that the upstream model segmented the correct anatomy; semantic correctness remains unverified. No image pixels are altered."
   };
 }

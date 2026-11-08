@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regression tests for the dependency-free UI registry validator."""
+"""Regression tests for the single-source browser project registry."""
 from __future__ import annotations
 
 import json
@@ -17,10 +17,19 @@ VALID_PROJECTS = [
         "status": "active",
         "path": "https://github.com/example/demo",
         "repo": "example/demo",
+        "summary": "A test project.",
+        "tags": ["demo"],
     }
 ]
 
-VALID_HTML = "<script>const P=[['Demo Project','tool','active','summary',['demo'],'https://github.com/example/demo']]</script>"
+VALID_HTML = """<script>
+async function loadProjects(){
+  const response=await fetch('./projects.json');
+  const records=await response.json();
+  P=records.map(p=>({...p}));
+  buildEco();render();renderAtlas();jam();
+}
+</script>"""
 
 
 def run_validator(projects: list[dict], html: str) -> subprocess.CompletedProcess[str]:
@@ -42,22 +51,22 @@ def main() -> int:
     passed = run_validator(VALID_PROJECTS, VALID_HTML)
     if passed.returncode != 0:
         print(passed.stdout + passed.stderr)
-        raise AssertionError("valid registry should pass")
+        raise AssertionError("single-source registry should pass")
 
-    missing_tuple = run_validator(VALID_PROJECTS, "<script>const P=[]</script>")
-    if missing_tuple.returncode == 0 or "embedded project tuple" not in missing_tuple.stdout:
-        print(missing_tuple.stdout + missing_tuple.stderr)
-        raise AssertionError("missing embedded tuple should fail")
+    missing_loader = run_validator(VALID_PROJECTS, "<script>const P=[]</script>")
+    if missing_loader.returncode == 0 or "must fetch ./projects.json" not in missing_loader.stdout:
+        print(missing_loader.stdout + missing_loader.stderr)
+        raise AssertionError("missing runtime registry loader should fail")
 
     wrong_repo_url = run_validator(
         [{**VALID_PROJECTS[0], "path": "https://github.com/example/other"}],
         VALID_HTML,
     )
-    if wrong_repo_url.returncode == 0 or "registry path must equal" not in wrong_repo_url.stdout:
+    if wrong_repo_url.returncode == 0 or "repo/path mismatch" not in wrong_repo_url.stdout:
         print(wrong_repo_url.stdout + wrong_repo_url.stderr)
-        raise AssertionError("wrong repository path should fail")
+        raise AssertionError("wrong repository destination should fail")
 
-    print("UI registry validator regression tests passed.")
+    print("UI single-source registry regression tests passed.")
     return 0
 
 

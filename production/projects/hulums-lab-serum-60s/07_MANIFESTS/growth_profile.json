@@ -7,25 +7,314 @@
     "frame_count": 1440
   },
   "interpolation": "cubic-smoothstep-per-segment",
-  "value_range": [0, 1],
+  "value_range": [
+    0,
+    1
+  ],
   "regions": {
-    "pectorals": {"knots": [[0,0],[10,0],[18,0.22],[32,0.53],[48,0.86],[55,1],[60,1]]},
-    "deltoids": {"knots": [[0,0],[10,0],[18,0.18],[32,0.48],[48,0.8],[55,0.96],[60,0.96]]},
-    "traps": {"knots": [[0,0],[14,0],[24,0.12],[32,0.34],[48,0.76],[55,0.94],[60,0.94]]},
-    "arms": {"knots": [[0,0],[16,0],[24,0.16],[32,0.4],[48,0.78],[55,0.96],[60,0.96]]},
-    "lats": {"knots": [[0,0],[22,0],[32,0.24],[48,0.72],[55,0.92],[60,0.92]]},
-    "back": {"knots": [[0,0],[22,0],[32,0.2],[48,0.68],[55,0.9],[60,0.9]]},
-    "torso": {"knots": [[0,0],[16,0],[24,0.12],[32,0.3],[48,0.7],[55,0.9],[60,0.9]]},
-    "quadriceps": {"knots": [[0,0],[26,0],[32,0.16],[48,0.64],[55,0.88],[60,0.88]]},
-    "calves": {"knots": [[0,0],[28,0],[36,0.12],[48,0.56],[55,0.82],[60,0.82]]},
-    "whole_body": {"knots": [[0,0],[38,0],[48,0.36],[55,0.78],[60,0.78]]}
+    "pectorals": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          18,
+          0.22
+        ],
+        [
+          32,
+          0.53
+        ],
+        [
+          48,
+          0.86
+        ],
+        [
+          55,
+          1
+        ],
+        [
+          60,
+          1
+        ]
+      ]
+    },
+    "deltoids": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          18,
+          0.18
+        ],
+        [
+          32,
+          0.48
+        ],
+        [
+          48,
+          0.8
+        ],
+        [
+          55,
+          0.96
+        ],
+        [
+          60,
+          0.96
+        ]
+      ]
+    },
+    "traps": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          24,
+          0.12
+        ],
+        [
+          32,
+          0.34
+        ],
+        [
+          48,
+          0.76
+        ],
+        [
+          55,
+          0.94
+        ],
+        [
+          60,
+          0.94
+        ]
+      ]
+    },
+    "arms": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          24,
+          0.16
+        ],
+        [
+          32,
+          0.4
+        ],
+        [
+          48,
+          0.78
+        ],
+        [
+          55,
+          0.96
+        ],
+        [
+          60,
+          0.96
+        ]
+      ]
+    },
+    "lats": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          32,
+          0.24
+        ],
+        [
+          48,
+          0.72
+        ],
+        [
+          55,
+          0.92
+        ],
+        [
+          60,
+          0.92
+        ]
+      ]
+    },
+    "back": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          32,
+          0.2
+        ],
+        [
+          48,
+          0.68
+        ],
+        [
+          55,
+          0.9
+        ],
+        [
+          60,
+          0.9
+        ]
+      ]
+    },
+    "torso": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          24,
+          0.12
+        ],
+        [
+          32,
+          0.3
+        ],
+        [
+          48,
+          0.7
+        ],
+        [
+          55,
+          0.9
+        ],
+        [
+          60,
+          0.9
+        ]
+      ]
+    },
+    "quadriceps": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          26,
+          0
+        ],
+        [
+          32,
+          0.16
+        ],
+        [
+          48,
+          0.64
+        ],
+        [
+          55,
+          0.88
+        ],
+        [
+          60,
+          0.88
+        ]
+      ]
+    },
+    "calves": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          36,
+          0.12
+        ],
+        [
+          48,
+          0.56
+        ],
+        [
+          55,
+          0.82
+        ],
+        [
+          60,
+          0.82
+        ]
+      ]
+    },
+    "whole_body": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          48,
+          0.36
+        ],
+        [
+          55,
+          0.78
+        ],
+        [
+          60,
+          0.78
+        ]
+      ]
+    }
   },
   "deformation": {
     "method": "gaussian-local-shape-keys",
     "description": "Each regional curve drives a separate spatially weighted shape key on the unified skin mesh. The curve is sampled at every output frame; regions have independent onset, acceleration and plateau.",
     "preserve_identity": true,
     "bilateral_symmetry": true,
-    "wardrobe_response": "The same regional shape-key controls are applied to the fitted garment meshes. This is a geometric prototype, not cloth simulation.",
+    "wardrobe_response": "The fitted torso shell, training shorts and paired shoulder straps receive the same regional shape-key controls as the skin. This is a geometric fit/tension proxy, not cloth simulation or tearing.",
     "environment_response": "Not yet simulated; architecture remains a scale reference.",
     "secondary_motion": "Not yet simulated."
   },

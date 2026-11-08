@@ -213,9 +213,9 @@
   },
   "continuity_policy": {
     "continuous_event": true,
-    "cuts_allowed": true,
+    "cuts_allowed": false,
     "hold_final_state": false,
-    "notes": "Semantic stages do not require cuts. A camera or scene cut may occur if source evidence or production design requires it; deformation continuity must remain explicit."
+    "notes": "The transformation is represented as one continuous event. Stage boundaries are semantic intervals, not editorial cuts; if a source contains cuts, record them as shot events without resetting the growth state."
   },
   "evidence": {
     "source_inspected": false,

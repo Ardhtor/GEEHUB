@@ -109,3 +109,19 @@ The current analyzer still accepts a local filesystem path. A Dropbox video ther
 
 ### Verification boundary
 All new JSON records were fetched back from GitHub and parsed successfully. The Python validation scripts are committed but have not yet been executed in a Python runtime in this turn. No Dropbox video was decoded, no audio was extracted, and no new render is claimed.
+
+
+## 2026-11-08 — Rigging, structure, and experiential synthesis
+
+### Research document committed
+- Added `research/hulums-cave/RIGGING_STRUCTURE_EXPERIENCE.md` and indexed it from the Hulum's Cave corpus README.
+- The synthesis translates the supplied historical/technical account into a source-verifiable research framework: continuous deformation, scenario choreography, duration and attention, camera grammar, environmental feedback, sound synchronization, and a ten-layer per-video extraction method.
+- It defines Forest, Laboratory Growth, Loft Growth with sound, Flash Games / Old Shorts, remake pairs, and recent hybrid experiments as concrete comparison batches.
+
+### Engineering translation
+- The existing rigged-character prototype is positioned as a testable response to the continuity problem, not as a claim that Hulum's Cave used the same internal rig.
+- Maya, dynamic cloth/fluid milestones, morph-target methods, and exact long-form runtimes remain attributed research leads until tied to creator statements or directly inspected media.
+- Teal Titan's character continuity is separated from source-file identity and camera/pose effects. The character preset should carry temporal, spatial, and sound behavior as well as a target silhouette.
+
+### Verification boundary
+The document and index were committed. No new Forest, Laboratory, or Loft video/audio file was decoded in this step. Existing source observations remain limited to the previously sampled short clips; the Dropbox `3333.mp4` identity remains unverified against the earlier local sample.

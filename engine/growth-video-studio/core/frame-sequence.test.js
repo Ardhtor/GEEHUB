@@ -251,6 +251,9 @@ test("prepares typed bridge frame sets from a file-verified sequence audit", asy
   assert.equal(JSON.parse(prepared.documents[0].content).frames.length, 2);
   assert.equal(JSON.parse(prepared.documents[1].content).frames.length, 2);
   assert.equal(prepared.pixelSemanticsVerified, false);
+  const segmentationDocument = JSON.parse(prepared.documents[0].content);
+  assert.equal(segmentationDocument.maskPixelAudit.faceExclusionVerified, true);
+  assert.equal(segmentationDocument.maskPixelAudit.overlapPixels, 0);
   assert.equal(validateBridgeManifest(prepared.manifest).valid, true);
 });
 

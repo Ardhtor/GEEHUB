@@ -1,0 +1,119 @@
+{
+  "schema": "geehub.video-project/1",
+  "id": "hulums-lab-serum-60s",
+  "title": "Laboratory Serum — 60s Continuous",
+  "status": "production-design",
+  "canon": "experimental",
+  "created": "2026-11-08",
+  "subject": {
+    "id": "adult-fictional-laboratory-subject",
+    "name": "Laboratory Subject",
+    "fictional": true,
+    "adult": true,
+    "continuity": "identity-locked-to-verified-source-when-available"
+  },
+  "world": {
+    "id": "clinical-observation-room",
+    "name": "Laboratory / Observation Room",
+    "timeOfDay": "controlled-clinical-lighting",
+    "tone": "clinical-transformation-study"
+  },
+  "format": {
+    "masterDurationSeconds": 60,
+    "frameRate": 24,
+    "frameCount": 1440,
+    "aspectRatio": "16:9",
+    "providerResolution": "1920x1080",
+    "deliveryResolution": "1920x1080",
+    "container": "mp4",
+    "audio": true
+  },
+  "creativeBrief": "An adult fictional athletic subject undergoes a clearly triggered laboratory transformation into an extreme, balanced hyper-muscular form. The transformation remains continuous for the full 60-second take; camera, wardrobe, room response and sound all track the same event. Intimate anatomy remains non-explicit and covered.",
+  "content_rating": "mature",
+  "character_policy": {
+    "sexualized_characters_must_be_adults": true,
+    "adult_status_source": "Production brief specifies an adult fictional subject.",
+    "real_person_reference_permissions": "Use only fictional character designs or verified references with appropriate permission."
+  },
+  "pipeline": {
+    "rig": "timeline-driven continuous deformation rig; regional controls required",
+    "deformation_layers": [
+      "identity",
+      "skin-response",
+      "deltoids",
+      "pectorals",
+      "arms",
+      "traps",
+      "back",
+      "torso",
+      "legs",
+      "height-and-proportion",
+      "wardrobe-response",
+      "secondary-motion"
+    ],
+    "wardrobe_is_separate": true,
+    "export_preserves_rating": true
+  },
+  "stage_cap": null,
+  "timelineManifest": "07_MANIFESTS/timeline.json",
+  "provenanceManifest": "07_MANIFESTS/provenance.json",
+  "assetRegisterManifest": "07_MANIFESTS/asset_register.json",
+  "plotlines": [
+    "institutional-containment",
+    "triggered-metamorphosis"
+  ],
+  "timelineSemantics": "Seven semantic intervals overlay one continuous 60-second deformation event. No hard cuts in the growth passage.",
+  "continuityLocks": {
+    "face": "Preserve adult fictional identity across all frames.",
+    "pectoralBalance": "Left/right growth remains balanced in width, projection and thickness.",
+    "anatomy": "Continuous transitions across shoulder, chest, arm, back and torso.",
+    "scale": "Body mass, height and limb proportions develop coherently.",
+    "wardrobe": "Separate cloth simulation or deformation layer; maintain non-explicit coverage.",
+    "terminal": "Hold the new baseline through the final frame."
+  },
+  "sound": {
+    "music": "Original restrained low-frequency laboratory build",
+    "effects": [
+      "serum vial handling",
+      "activation tone",
+      "low continuous transformation texture",
+      "fabric tension",
+      "equipment resonance",
+      "equipment settling",
+      "breathing"
+    ],
+    "mix": "Preserve laboratory room tone; synchronize material and environmental cues to visible deformation."
+  },
+  "reviewGates": [
+    "adult fictional identity verified",
+    "face continuity",
+    "bilateral pectoral balance",
+    "regional deformation continuity",
+    "no stage-boundary discontinuities",
+    "wardrobe coverage",
+    "laboratory scale response",
+    "audio synchronization",
+    "final hold lasts full five seconds"
+  ],
+  "source": {
+    "authority": "Dropbox or explicitly supplied source",
+    "status": "no source attached to this project",
+    "requiredMetadata": [
+      "original filename",
+      "provider path or file ID",
+      "SHA-256",
+      "duration",
+      "frame rate",
+      "dimensions",
+      "audio presence",
+      "selected frame timestamps"
+    ],
+    "candidates": []
+  },
+  "storage": {
+    "root": "/GEEHUB/production/projects/hulums-lab-serum-60s",
+    "canonical": "Dropbox",
+    "policy": "Original source media remains immutable; derived frames, passes and exports are versioned separately."
+  },
+  "notes": "This is a production design. No source media, identity frames, rig outputs or final renders are claimed to exist yet."
+}

@@ -34,6 +34,12 @@ The Tractus is GEEHUB's continuity model, not a separate engine beside it. The [
 
 [Enter The Hewn Threshold](experiences/hewn-threshold/index.html) — the browser entrance to the Interlocutive Domain. It reads the field registry directly, presents each participant's observed affordances and access state, and provides the nine-movement crossing protocol. Local inscriptions persist in browser storage and can be exported as JSON for deliberate review; the static app does not claim to write remotely to the exchange ledger. Run it from the repository root with `python3 -m http.server 8000`, then open `/experiences/hewn-threshold/`. See [the architectural record](worlds/interlocutive-domain/THE_HEWN_THRESHOLD.md).
 
+## Live world runtime
+
+The main interface now has a live interlocutor path. Each encounter can initiate a model-generated line, which is added to the scene and carried into the next turn. The local service keeps the API credential server-side and reads the current canon, voice hypotheses, agents, and world state for each request. This is separate from the scheduled Tractus manuscript writer.
+
+To run it, configure `OPENAI_API_KEY` and `GEEHUB_MODEL` in the local environment, then start `node server/geehub-server.mjs` and open `http://127.0.0.1:8788`. See [the live runtime guide](server/README.md) and [the architecture](docs/LIVING_RUNTIME.md). Without the local service and a valid model configuration, the live dialogue surface reports that the model is unavailable; it does not fabricate a conversation.
+
 ## The build
 
 The working loop is:

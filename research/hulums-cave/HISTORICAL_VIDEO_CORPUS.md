@@ -139,3 +139,21 @@ Then connect accepted findings to engine/video/analyze_source.py, the rigged cha
 - Private Maya scene/rig/LoRA details: unknown unless explicitly disclosed by the creator or supported by source files.
 
 **Governing principle:** Hulum's Cave's videos are the historical evidence. The archive tells us where to look; the videos tell us what happened.
+
+
+## Early blog comics and deleted-site recovery
+
+A surviving 2009 forum archive provides direct historical evidence that Hulumulu published a comic called *Ultrasize* on the Hulumscave Blogspot site. On 9 October 2009 the creator announced Chapter 1 and said Chapters 2 and 3 would follow that weekend. The same thread records Chapter 2 on 27 October and Chapter 3 on 2 November. These entries establish publication and chapter sequence; the comic pages themselves have not yet been recovered or inspected in this research pass.
+
+Known original post URLs, reconstructed from the forum's direct links:
+- *Ultrasize* Chapter 1: http://hulumscave.blogspot.com/2009/10/ultrasize-chapter-1.html
+- *Ultrasize* Chapter 2: http://hulumscave.blogspot.com/2009/10/ultrasize-chapter-2.html
+- *Ultrasize* Chapter 3: http://hulumscave.blogspot.com/2009/11/ultrasize-chapter-3.html
+
+The same 2009 thread links two additional Blogspot video posts on 25 October and a short video post on 3 November. Their original slugs are not fully legible in the surviving search excerpt; do not guess them. Recover those URLs from the original archived forum page before searching for captures.
+
+The 2009 forum archive also preserves contemporary reader responses: Chapter 1 was explicitly identified as a comic; Chapter 3 was discussed as an ongoing story; and a bathroom growth animation was singled out for cinematic quality. These are reception clues, not substitutes for direct inspection.
+
+Recovery status: forum-referenced comic; original post URLs reconstructed; Wayback captures and page images/media payloads not yet verified. Next step is to query Wayback CDX for each exact URL, inspect all timestamped captures, then follow image-host URLs from recovered HTML. Record each page image separately, preserving original order and dimensions. A missing image payload must remain marked missing; never reconstruct it from descriptions and label it recovered.
+
+Source: https://archive.musclegrowth.net/threads/11751-p7.html

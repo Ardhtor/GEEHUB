@@ -38,8 +38,6 @@ const bodyOf = req => new Promise((resolve,reject)=>{
   req.on("end",()=>{try{resolve(JSON.parse(raw||"{}"));}catch{reject(new Error("Invalid JSON"));}});
   req.on("error",reject);
 });
-function safeString(value,max=4000){return typeof value==="string"?value.slice(0,max):"";}
-
 async function generateTurn(input) {
   if(!API_KEY || !MODEL) throw new Error("Configure OPENAI_API_KEY and GEEHUB_MODEL on the server.");
   const [canon,profiles,worldRaw,agents,history,exchangeRaw,mapRaw] = await Promise.all([
@@ -59,23 +57,23 @@ async function generateTurn(input) {
   const recording=recordingRef && !recordingRef.split("/").includes("..")
     ? await readOptional("hub/"+recordingRef) : "";
   const context = [
-    "CANON\\n"+canon,
-    "VOICE STARTING POINTS (hypotheses, not rigid templates)\\n"+profiles,
-    "CURRENT WORLD STATE\\n"+JSON.stringify(worldState),
-    "PERSISTENT SPATIAL MAP\\n"+JSON.stringify(map),
-    "ACTIVE RECORDING\\n"+recording,
-    "AGENTS\\n"+agents,
-    "RECENT INSCRIBED ACTIVITY\\n"+history,
-    "SHARED EXCHANGE LEDGER (newest entries)\\n"+recentExchange,
-    "LIVE SCENE\\n"+JSON.stringify(input.scene),
-    "RECENT GENERATED DIALOGUE\\n"+JSON.stringify(input.history)
-  ].join("\\n\\n");
+    "CANON\n"+canon,
+    "VOICE STARTING POINTS (hypotheses, not rigid templates)\n"+profiles,
+    "CURRENT WORLD STATE\n"+JSON.stringify(worldState),
+    "PERSISTENT SPATIAL MAP\n"+JSON.stringify(map),
+    "ACTIVE RECORDING\n"+recording,
+    "AGENTS\n"+agents,
+    "RECENT INSCRIBED ACTIVITY\n"+history,
+    "SHARED EXCHANGE LEDGER (newest entries)\n"+recentExchange,
+    "LIVE SCENE\n"+JSON.stringify(input.scene),
+    "RECENT GENERATED DIALOGUE\n"+JSON.stringify(input.history)
+  ].join("\n\n");
   const instructions = `You are the live interlocutor inside GEEHUB. Continue the actual scene as a participant, not as a narrator explaining the system. Write one natural utterance by preferred_speaker when supplied; otherwise choose the participant whose response follows most naturally. Let established voice, relationships, immediate surroundings, prior remarks, current intention, and the actual persistent map shape the line. Characters are fictional adults. Joseph is Joey Prever in this continuity; use the Joey voice hypothesis for participant id joseph. Voices are evolving hypotheses, not rigid templates. Profanity is permitted when natural to the speaker and situation; do not force it. The utterance must respond to the preceding event and may change what happens next. Return only a JSON object with exactly: speaker, utterance, emotional_tone, consequence, next_speaker. All values are strings. consequence must describe a concrete scene, relationship, or world change, or be empty. next_speaker must be one of the supplied participants or empty. Do not claim that an external production job completed unless the scene explicitly contains a verified result.`;
   const payload = {model:MODEL,instructions,input:context,max_output_tokens:700,text:{format:{type:"json_object"}}};
   const response = await fetch(API_URL,{method:"POST",headers:{"authorization":"Bearer "+API_KEY,"content-type":"application/json"},body:JSON.stringify(payload),signal:AbortSignal.timeout(90_000)});
   if(!response.ok) throw new Error("Model service returned HTTP "+response.status+": "+(await response.text()).slice(0,600));
   const data = await response.json();
-  let output = data.output_text || (data.output||[]).flatMap(x=>x.content||[]).filter(x=>x.type==="output_text").map(x=>x.text).join("\\n");
+  let output = data.output_text || (data.output||[]).flatMap(x=>x.content||[]).filter(x=>x.type==="output_text").map(x=>x.text).join("\n");
   if(!output) throw new Error("Model returned no text.");
   const result=JSON.parse(output);
   if(!result || typeof result.utterance!=="string" || typeof result.speaker!=="string") throw new Error("Model response did not match the dialogue contract.");

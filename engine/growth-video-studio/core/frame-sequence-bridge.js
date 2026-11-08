@@ -1,7 +1,8 @@
 /**
  * Convert a locally verified frame sequence into typed media-bridge inputs.
  * The returned sidecar documents must be written to their URIs before staging.
- * Mask bytes are verified by frame-sequence-worker; pixel semantics are not.
+ * Binary mask pixels and body/face disjointness are verified by frame-sequence-worker.
+ * The upstream model's anatomical segmentation accuracy remains unverified.
  */
 import { createHash } from "node:crypto";
 import { addBridgeFrameSet, validateBridgeManifest } from "./bridge-manifest.js";
@@ -62,7 +63,13 @@ export function prepareFrameSequenceBridgeInputs(
   if (audit?.schema !== "geehub.frame-sequence-audit.v1" ||
       audit.status !== "ready-for-geometry" || audit.readyForGeometry !== true ||
       audit.sequenceId !== sequence.id || audit.sourceAssetId !== manifest.source.id ||
-      audit.pixelSemanticsVerified !== false || audit.errors?.length !== 0) {
+      audit.pixelSemanticsVerified !== false ||
+      audit.pixelDataVerified !== true || audit.faceExclusionVerified !== true ||
+      audit.maskPixelAudit?.encoding !== "png/grayscale8/binary" ||
+      audit.maskPixelAudit?.pairsChecked !== sequence.frames.length ||
+      audit.maskPixelAudit?.disjointPairs !== sequence.frames.length ||
+      audit.maskPixelAudit?.overlapPixels !== 0 ||
+      audit.errors?.length !== 0) {
     throw new Error("A successful, source-matched frame-sequence file audit is required");
   }
   if (!sameFormat(audit.format || {}, sequence.format || {}) ||
@@ -104,6 +111,10 @@ export function prepareFrameSequenceBridgeInputs(
     seen.add(key);
   }
   if (seen.size !== expectedMaskCount) throw new Error("Frame-sequence mask audit is incomplete");
+  if (maskAudit.masks.some(mask => mask.encoding !== "png/grayscale8/binary" ||
+      !Number.isInteger(mask.foregroundPixels) || mask.foregroundPixels < 1)) {
+    throw new Error("Every mask must have decoded, non-empty binary pixel evidence");
+  }
 
   if (!safeDropboxUri(segmentationUri) || !safeDropboxUri(landmarksUri) ||
       segmentationUri === landmarksUri) {
@@ -126,6 +137,15 @@ export function prepareFrameSequenceBridgeInputs(
     sourceAssetId: sequence.source.id,
     ...range,
     pixelSemanticsVerified: false,
+    maskPixelAudit: {
+      encoding: audit.maskPixelAudit.encoding,
+      pixelDataVerified: audit.pixelDataVerified,
+      faceExclusionVerified: audit.faceExclusionVerified,
+      pairsChecked: audit.maskPixelAudit.pairsChecked,
+      disjointPairs: audit.maskPixelAudit.disjointPairs,
+      overlapPixels: audit.maskPixelAudit.overlapPixels,
+      frames: structuredClone(audit.maskPixelAudit.frames)
+    },
     frames: sequence.frames.map(frame => ({
       frame: frame.frame,
       timeSeconds: frame.timeSeconds,

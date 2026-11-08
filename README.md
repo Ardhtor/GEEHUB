@@ -34,6 +34,12 @@ The Tractus is GEEHUB's continuity model, not a separate engine beside it. The [
 
 [Enter The Hewn Threshold](experiences/hewn-threshold/index.html) — the browser entrance to the Interlocutive Domain. It reads the field registry directly, presents each participant's observed affordances and access state, and provides the nine-movement crossing protocol. Local inscriptions persist in browser storage and can be exported as JSON for deliberate review; the static app does not claim to write remotely to the exchange ledger. Run it from the repository root with `python3 -m http.server 8000`, then open `/experiences/hewn-threshold/`. See [the architectural record](worlds/interlocutive-domain/THE_HEWN_THRESHOLD.md).
 
+## Live continuity
+
+The main interface now routes generated dialogue through the shared interaction bus. Each utterance is inscribed by the canonical writer into the append-only activity log and artifact ledger; the shared room polls the activity endpoint for new events, and the creation pipeline receives the resulting dialogue artifact. The current world state, persistent map, active recording, voice hypotheses, and recent exchange history are supplied as generation context.
+
+Run the local service with `node server/geehub-server.mjs`. Configure `OPENAI_API_KEY` and `GEEHUB_MODEL` in the server environment to enable generated dialogue. See [the runtime guide](server/README.md) and [the living-runtime architecture](docs/LIVING_RUNTIME.md). Durable local inscription works independently of model configuration. Dropbox delivery still requires connecting the local GEEHUB folder through the production panel.
+
 ## Live world runtime
 
 The main interface now has a live interlocutor path. Each encounter can initiate a model-generated line, which is added to the scene and carried into the next turn. The local service keeps the API credential server-side and reads the current canon, voice hypotheses, agents, and world state for each request. This is separate from the scheduled Tractus manuscript writer.

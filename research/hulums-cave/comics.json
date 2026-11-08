@@ -35,6 +35,26 @@
       "evidence": "forum-post-by-creator",
       "recovery_status": "forum-referenced-url-reconstructed; archived-page-and-images-unverified",
       "notes": "Creator announced Chapter 3 on the forum; contemporary readers describe it as an ongoing story."
+    },
+    {
+      "id": "hc-ultrasize-chapter-4",
+      "title": "Ultra Size — Chapter 4",
+      "creator": "Hulumulu / Hulum's Cave",
+      "kind": "comic-chapter",
+      "evidence": "creator-archive-post",
+      "original_url": "https://www.patreon.com/hulumscave/posts/ultra-size-3-4-5-85306577",
+      "recovery_status": "archive-existence-verified; individual chapter link hidden in locked post; page images unverified",
+      "notes": "Grouped with installments 3 and 5 in the creator's June 2023 archive post."
+    },
+    {
+      "id": "hc-ultrasize-chapter-5",
+      "title": "Ultra Size — Chapter 5",
+      "creator": "Hulumulu / Hulum's Cave",
+      "kind": "comic-chapter",
+      "evidence": "creator-archive-post",
+      "original_url": "https://www.patreon.com/hulumscave/posts/ultra-size-3-4-5-85306577",
+      "recovery_status": "archive-existence-verified; individual chapter link hidden in locked post; page images unverified",
+      "notes": "Grouped with installments 3 and 4 in the creator's June 2023 archive post."
     }
   ],
   "archive_targets": [
@@ -72,6 +92,21 @@
       "id": "hc-november-3-short-video",
       "url": "http://hulumscave.blogspot.com/2009/11/",
       "status": "forum-link-truncated; visible slug suffix n-sometin.html; exact full URL unresolved"
+    },
+    {
+      "id": "hc-ultrasize-archive-1-2",
+      "url": "https://www.patreon.com/hulumscave/posts/ultra-size-1-2-85223367",
+      "status": "creator archive post confirms Ultra Size 1 and 2 were brought back; exact file links and page images hidden"
+    },
+    {
+      "id": "hc-ultrasize-archive-3-5",
+      "url": "https://www.patreon.com/hulumscave/posts/ultra-size-3-4-5-85306577",
+      "status": "creator archive post confirms installments 3, 4, and 5; exact file links and page images hidden"
+    },
+    {
+      "id": "hc-ultrasize-prequal",
+      "url": "https://www.patreon.com/hulumscave/posts/ultra-size-84910296",
+      "status": "creator says Ultra Size series was being backed up on MEGA; mentions video files of installments 3, 4, and 5"
     }
   ]
 }

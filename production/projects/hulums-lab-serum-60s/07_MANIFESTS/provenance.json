@@ -1,0 +1,6 @@
+{
+  "schema": "geehub.provenance/1",
+  "project_id": "hulums-lab-serum-60s",
+  "assets": [],
+  "preservation_policy": "No source assets have been attached or verified. When supplied, preserve the original, record provider identity and metadata, compute SHA-256, and only then mark as inspected."
+}

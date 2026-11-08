@@ -185,6 +185,9 @@ export function prepareFrameSequenceBridgeInputs(
     sequenceId: sequence.id,
     evidenceSchema: "geehub.frame-set-evidence.v1",
     auditSchema: audit.schema,
+    pixelDataVerified: true,
+    faceExclusionVerified: true,
+    maskEncoding: audit.maskPixelAudit.encoding,
     pixelSemanticsVerified: false
   };
 

@@ -1,0 +1,230 @@
+{
+  "schema": "geehub.video-timeline/1",
+  "project_id": "example-long-form-growth-study",
+  "timebase": {
+    "fps": 24,
+    "frame_count": 15408,
+    "timecode_format": "seconds"
+  },
+  "duration_seconds": 642,
+  "growth_model": "continuous_morph",
+  "plotlines": [
+    "institutional-containment",
+    "triggered-metamorphosis"
+  ],
+  "stages": [
+    {
+      "id": "baseline",
+      "start_seconds": 0,
+      "end_seconds": 18.5,
+      "label": "Ordinary laboratory state",
+      "function": "establish",
+      "required_visible": [
+        "Character identity",
+        "Ordinary proportions",
+        "Laboratory environment"
+      ],
+      "camera": {
+        "description": "Medium-wide establishing view",
+        "movement": "Slow establish",
+        "framing": "Character and room readable",
+        "continuity": "No implied cut"
+      },
+      "growth": {
+        "active": false,
+        "rate": "none"
+      },
+      "notes": "Illustrative timing only; not extracted from a Hulum's Cave source."
+    },
+    {
+      "id": "trigger",
+      "start_seconds": 18.5,
+      "end_seconds": 27,
+      "label": "Experiment activation",
+      "function": "trigger",
+      "required_visible": [
+        "Causal action",
+        "First subtle visible response"
+      ],
+      "camera": {
+        "description": "Medium framing",
+        "movement": "Gentle push-in",
+        "framing": "Subject remains identifiable",
+        "continuity": "Continuous event"
+      },
+      "growth": {
+        "active": true,
+        "rate": "onset"
+      },
+      "sound_cues": [
+        "Activation cue"
+      ],
+      "notes": "Illustrative timing only."
+    },
+    {
+      "id": "early-growth",
+      "start_seconds": 27,
+      "end_seconds": 95,
+      "label": "Early continuous transformation",
+      "function": "sustain",
+      "required_visible": [
+        "First connected regional changes",
+        "Clothing tension begins"
+      ],
+      "camera": {
+        "description": "Medium to three-quarter framing",
+        "movement": "Slow move or hold",
+        "framing": "Keep baseline comparison readable",
+        "continuity": "No arbitrary cutaways"
+      },
+      "growth": {
+        "active": true,
+        "rate": "slow continuous",
+        "regions": [
+          "shoulders",
+          "chest",
+          "arms"
+        ]
+      },
+      "environment_response": [
+        "Early wardrobe response"
+      ],
+      "sound_cues": [
+        "Low continuous texture",
+        "Fabric response"
+      ],
+      "notes": "Illustrative timing only."
+    },
+    {
+      "id": "main-growth",
+      "start_seconds": 95,
+      "end_seconds": 480,
+      "label": "Main continuous transformation passage",
+      "function": "sustain",
+      "required_visible": [
+        "Connected anatomical deformation",
+        "Progressive scale change",
+        "Environmental response accumulates"
+      ],
+      "camera": {
+        "description": "Alternating lingering holds and slow camera movement",
+        "movement": "Measured and continuous",
+        "framing": "Preserve identity and scale references",
+        "continuity": "Long unbroken passage preferred"
+      },
+      "growth": {
+        "active": true,
+        "rate": "sustained continuous",
+        "regions": [
+          "chest",
+          "back",
+          "shoulders",
+          "arms",
+          "torso",
+          "legs"
+        ]
+      },
+      "environment_response": [
+        "Clothing and room begin to register scale"
+      ],
+      "sound_cues": [
+        "Continuous sound bed",
+        "Timed deformation and material cues"
+      ],
+      "notes": "Illustrative timing only; no claim that a particular source uses this exact duration or structure."
+    },
+    {
+      "id": "escalation",
+      "start_seconds": 480,
+      "end_seconds": 580,
+      "label": "Environmental escalation",
+      "function": "escalate",
+      "required_visible": [
+        "Extreme scale becomes unmistakable",
+        "Clothing or spatial limits register"
+      ],
+      "camera": {
+        "description": "Wider scale-revealing framing",
+        "movement": "Slow reveal or pull-back",
+        "framing": "Body and environment share frame",
+        "continuity": "Preserve motion continuity"
+      },
+      "growth": {
+        "active": true,
+        "rate": "accelerating or sustained",
+        "regions": [
+          "whole body",
+          "height",
+          "limbs"
+        ]
+      },
+      "environment_response": [
+        "Wardrobe failure or spatial constraint",
+        "Room-scale comparison"
+      ],
+      "sound_cues": [
+        "Material stress cues",
+        "Environmental response"
+      ],
+      "notes": "Illustrative timing only."
+    },
+    {
+      "id": "terminal-or-continuing",
+      "start_seconds": 580,
+      "end_seconds": 642,
+      "label": "New baseline or unresolved continuation",
+      "function": "continue",
+      "required_visible": [
+        "Final scale or ongoing change legible",
+        "Ending policy explicit"
+      ],
+      "camera": {
+        "description": "Held scale-revealing frame",
+        "movement": "Hold or slow pull-back",
+        "framing": "Preserve subject and environment",
+        "continuity": "Do not imply resolution unless the source resolves"
+      },
+      "growth": {
+        "active": true,
+        "rate": "continuing or settling"
+      },
+      "environment_response": [
+        "World remains visibly affected"
+      ],
+      "sound_cues": [
+        "Sound bed resolves or continues"
+      ],
+      "notes": "Choose hold versus continuation from the actual work; this template does not predetermine the ending."
+    }
+  ],
+  "identity_locks": {
+    "face": "path to verified identity frame",
+    "body": "path to verified proportion reference",
+    "wardrobe": "path to verified clothing reference"
+  },
+  "file_data": {
+    "source": {
+      "verification_status": "unverified"
+    },
+    "growth_passes": [],
+    "frames": [],
+    "audio": [],
+    "exports": []
+  },
+  "continuity_policy": {
+    "continuous_event": true,
+    "cuts_allowed": true,
+    "hold_final_state": false,
+    "notes": "Semantic stages do not require cuts. A camera or scene cut may occur if source evidence or production design requires it; deformation continuity must remain explicit."
+  },
+  "evidence": {
+    "source_inspected": false,
+    "claims": [
+      {
+        "claim": "All timestamps and stage durations in this file are illustrative template values",
+        "status": "inferred",
+        "notes": "Not extracted from any specific Hulum's Cave video. Replace every timing and stage description with source-specific observations before treating it as analysis."
+      }
+    ]
+  }
+}

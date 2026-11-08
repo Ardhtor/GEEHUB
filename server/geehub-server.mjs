@@ -63,7 +63,8 @@ async function generateTurn(input) {
   const result=JSON.parse(text);
   if(!result || typeof result.utterance!=="string" || typeof result.speaker!=="string") throw new Error("Model response did not match the dialogue contract.");
   const allowed=new Set(input.participants);
-  if(!allowed.has(result.speaker)) throw new Error("Model selected a speaker outside this scene.");\n  if(input.preferredSpeaker && result.speaker!==input.preferredSpeaker) throw new Error("Model did not use the requested next speaker.");
+  if(!allowed.has(result.speaker)) throw new Error("Model selected a speaker outside this scene.");
+  if(input.preferredSpeaker && result.speaker!==input.preferredSpeaker) throw new Error("Model did not use the requested next speaker.");
   if(result.next_speaker && !allowed.has(result.next_speaker)) result.next_speaker="";
   return { ...result, generated_at:new Date().toISOString(), model:MODEL };
 }

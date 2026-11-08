@@ -248,3 +248,49 @@ Source: https://archive.musclegrowth.net/threads/11751-p7.html
 ### Correction to earlier URL notation
 
 The November 3, 2009 Blogspot path is **not** a verified exact URL. The archived forum text truncates the beginning of the slug and only exposes the ending `n-sometin.html`. The correct catalog entry is the month-level prefix `http://hulumscave.blogspot.com/2009/11/` with status `slug unresolved`; do not use or cite a fabricated complete URL. The same caution applies to the October 25 second video, whose visible slug suffix is `d-i-think.html`.
+
+
+## Rigging, lighting, materials and render craft — focused technical pass (8 November 2026)
+
+These are now first-class research dimensions alongside the videos' motion and staging. The creator's public posts provide several unusually concrete clues. They are not enough to reconstruct the original Maya scenes, but they establish which techniques should be investigated in the source media and WIP imagery.
+
+### Rigging and deformation: a confirmed body-pinning technique
+
+The June 9, 2023 archive post **Bedroom Growth Technical Study (Archive)** is the strongest technical disclosure located in this pass. Hulum's Cave says the video was rendered at lower resolution while working on body movements using **pinning/locking body parts**, and adds that the technique is used frequently now. This is direct creator evidence of a reusable movement/deformation method. It should be investigated as a foundational control strategy: selected body regions or landmarks remain constrained while other regions move, stretch, rotate, or deform. The actual implementation (Maya constraints, rig controls, simulation pins, mesh pinning, or another method) is not stated; do not label it as a specific rig architecture until source files or further creator statements establish that.
+
+Research extraction for this technique should record which body regions appear fixed, which are allowed to move, how constraints transition or release, whether the method is used for contact/pose stability or growth deformation, and whether it preserves silhouette, joint placement, and character identity. Compare the technical-study video with later works to identify recurring movement patterns. Source: https://www.patreon.com/hulumscave/posts/bedroom-growth-84293264
+
+### Lighting and atmosphere: deliberate volumetric rendering
+
+The January 29, 2023 post **Atmosphere volume** states that the creator uses atmosphere volume to make renders look more realistic, while acknowledging the longer render time. This is direct evidence that volumetric atmosphere was an intentional rendering choice, not merely an incidental fog effect. Inspect the relevant video and preview images for depth separation, visible light shafts, haze density, contrast falloff, subject/background separation, and how the volume responds to practical lights. The exact renderer, volume shader, sampling settings, and lighting arrangement are not identified in the public excerpt. Source: https://www.patreon.com/hulumscave/posts/atmosphere-77922144
+
+The September 9, 2023 post **I decided to go with night time :-) ** belongs to the Laboratory Growth production sequence. Its visible excerpt says the creator expected to finish rendering the last scene over the weekend and do sound early the following week. This confirms that the night-time choice was part of a staged production workflow, with final rendering and sound handled as distinct finishing steps. The attached images are locked in the public crawl, so no claim about their actual lighting design is made here. Source: https://www.patreon.com/hulumscave/posts/i-decided-to-go-89020199
+
+### Set construction and scene migration
+
+The October 9, 2023 **Next Scene is built!** post says the devil and throne set had been moved into Maya and was ready for animation. This establishes a concrete pipeline event: environment/set assets were transferred into Maya before animation. It makes the devil/throne scene a useful target for studying environment geometry, scale relationships, material continuity, and how a prebuilt set is staged around characters. The public excerpt does not identify the source application or transfer format. Source: https://www.patreon.com/hulumscave/posts/next-scene-is-90663150
+
+The June 19, 2023 **Loft Growth** post says an earlier Loft set was brought back while the creator waited for a poll to finish on the Laboratory Growth scene. This is evidence of set reuse across projects or production periods. It suggests a useful comparison: determine what remains stable in a reused environment and what is rebuilt, re-lit, retextured, or reframed for the new video. The post's detailed description and images are locked. Source: https://www.patreon.com/hulumscave/posts/loft-growth-84825490
+
+### Resolution, render quality and finishing choices
+
+The June 9 technical study explicitly used a lower-resolution render for a technique test. The March 24, 2023 **in the woods (1080p version)** post records a quality-versus-delivery trade-off poll and says the majority preferred the higher quality. The creator's excerpt indicates a higher-quality 1080p version was produced after feedback. Treat resolution as an authored production decision: distinguish test renders, work-in-progress previews, final master, and platform delivery encode. Do not assume every WIP image/video shares the final material, lighting, sampling, or compositing quality. Source: https://www.patreon.com/hulumscave/posts/in-woods-1080p-80495067
+
+### Texture and material research: current evidence boundary
+
+This pass did not locate a public creator statement that names specific texture maps, shaders, skin materials, UV methods, subsurface settings, displacement, roughness, or bump workflows. The absence of those terms in visible excerpts is not evidence that the work lacks material complexity. Texture/material analysis must therefore proceed visually from the actual videos, recovered WIP images, and any legitimately available source files. For each subject and environment, record skin response under key/fill/rim light, specular width and intensity, roughness variation, subsurface scattering cues, pore/noise scale, color breakup, sweat or gloss, cloth weave and folds, hair/fur response, wood/metal/plastic/concrete surface variation, and whether apparent detail is geometry, texture, lighting, compression, or generative artifact. Keep observations distinct from guesses about shader nodes or texture maps.
+
+### High-priority source set for technical inspection
+
+1. **Bedroom Growth Technical Study (Archive)** — direct pinning/locking disclosure; lower-resolution technique test.
+2. **Atmosphere volume** — explicit volumetric-atmosphere and render-time disclosure.
+3. **Laboratory Growth WIP images / Laboratory Growth final / night-time decision** — staged environment, lighting choice, WIP-to-final comparison.
+4. **Loft Growth and Loft Growth (with sound) Final** — reused set and final presentation.
+5. **The Forest / in the woods (1080p version)** — environment, atmospheric depth, render-quality comparison; also compare with the later Camping Growth lineage only after both actual videos are available.
+6. **Deal with the Devil / Devil and throne scene** — Maya set migration, environment staging, and character-to-set scale.
+
+### Technical inspection template added to the corpus
+
+For every recovered clip, capture: (a) rig/control clues — stable landmarks, joint behavior, pinning, constraint-like holds, contact, foot sliding, deformation boundaries, corrective shapes; (b) lighting — key/fill/rim, practicals, direction, softness, color temperature, shadow density, bounce, volumetrics, exposure and contrast; (c) materials — skin, cloth, hair, environment surfaces, reflectance, roughness, subsurface cues, texture frequency and scale; (d) render — resolution, frame rate, sampling/noise, motion blur, depth of field, denoising, compositing and encode; (e) evidence — timestamp, frame capture, source post, confidence and alternative explanations. A visually convincing result should be reverse-engineered from measured frame evidence rather than from assumptions about the creator's software.
+
+The technical record now treats **rigging/deformation, lighting/atmosphere, textures/materials, and render/finishing** as independent but interacting layers. This is not a side note to the video catalogue; it is part of the main historical reconstruction.

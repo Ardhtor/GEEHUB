@@ -851,7 +851,7 @@
     "kind": "production",
     "repo": "Ardhtor/GEEHUB",
     "path": "/production/growth-study-001/README.md",
-    "description": "Procedural Blender character-and-studio prototype with modular anatomy volumes, a master growth control, staged progression, four-point lighting, and separate material/atmosphere tests.",
+    "description": "Procedural Blender character-production prototype. V2 fuses anatomical source volumes into a continuous skin surface, adds blended nearest-bone weights, preserves the master growth stages, and keeps lighting, materials, clothing, and atmosphere independently testable.",
     "related": [
       "hulums-cave",
       "beefythiq",

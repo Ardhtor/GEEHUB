@@ -994,7 +994,28 @@
       "tractus-continuity",
       "sensation-engine",
       "teal-titan-golds-on-5th",
-      "arthur-and-fingerlands"
+      "arthur-and-fingerlands",
+      "voice-engine-runtime"
+    ]
+  },
+  {
+    "id": "voice-engine-runtime",
+    "name": "Voice Engine Runtime",
+    "group": "engine",
+    "status": "prototype",
+    "summary": "Executable voice-history layer: dialogue observations, speech-mechanics analysis, expression transfers, encounter records, and portable character voice state.",
+    "path": "../engine/voices/README.md",
+    "tags": [
+      "voice",
+      "runtime",
+      "dialogue",
+      "character",
+      "social-continuity"
+    ],
+    "related": [
+      "developing-voices",
+      "character-records",
+      "sensation-engine"
     ]
   }
 ]

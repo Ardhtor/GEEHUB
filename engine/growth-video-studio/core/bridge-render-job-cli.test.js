@@ -5,6 +5,7 @@ import { createHash } from "node:crypto";
 import { mkdtemp, mkdir, readFile, lstat, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
+import { deflateSync } from "node:zlib";
 import { fileURLToPath } from "node:url";
 import { createBridgeManifest, addBridgeFrameSet } from "./bridge-manifest.js";
 import { createGrowthState, createChildState, BASELINE } from "./growth-state.js";
@@ -21,30 +22,66 @@ const sequenceId = "cli-sequence";
 const range = { firstFrame: 0, lastFrame: 1, frameCount: 2, width: 16, height: 24, fps: 24 };
 const anchors = [...new Set([...REQUIRED_ANCHORS, "leftEye", "rightEye", "nose", "chin"])];
 
-function pngHeader(width, height) {
-  const bytes = Buffer.alloc(24);
-  Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]).copy(bytes, 0);
-  Buffer.from("IHDR", "ascii").copy(bytes, 12);
-  bytes.writeUInt32BE(width, 16);
-  bytes.writeUInt32BE(height, 20);
-  return bytes;
+function crc32(bytes) {
+  let crc = 0xffffffff;
+  for (const byte of bytes) {
+    crc ^= byte;
+    for (let bit = 0; bit < 8; bit += 1) crc = (crc >>> 1) ^ (crc & 1 ? 0xedb88320 : 0);
+  }
+  return (crc ^ 0xffffffff) >>> 0;
+}
+
+function chunk(type, data) {
+  const name = Buffer.from(type, "ascii");
+  const length = Buffer.alloc(4); length.writeUInt32BE(data.length);
+  const checksum = Buffer.alloc(4);
+  checksum.writeUInt32BE(crc32(Buffer.concat([name, data])));
+  return Buffer.concat([length, name, data, checksum]);
+}
+
+function pngMask(width, height, role) {
+  const signature = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
+  const ihdr = Buffer.alloc(13);
+  ihdr.writeUInt32BE(width, 0);
+  ihdr.writeUInt32BE(height, 4);
+  ihdr[8] = 8;
+  ihdr[9] = 0;
+  const rows = Buffer.alloc(height * (width + 1));
+  for (let y = 0; y < height; y += 1) {
+    const row = y * (width + 1);
+    for (let x = 0; x < width; x += 1) {
+      const face = x >= 6 && x <= 9 && y >= 2 && y <= 5;
+      const body = x >= 2 && x <= width - 3 && y >= 7 && y <= height - 3;
+      rows[row + 1 + x] = (role === "face" ? face : body) ? 255 : 0;
+    }
+  }
+  return Buffer.concat([
+    signature,
+    chunk("IHDR", ihdr),
+    chunk("IDAT", deflateSync(rows)),
+    chunk("IEND", Buffer.alloc(0))
+  ]);
 }
 
 async function fixture(t) {
   const temp = await mkdtemp(path.join(os.tmpdir(), "geehub-render-job-cli-"));
   t.after(() => rm(temp, { recursive: true, force: true }));
   const root = path.join(temp, "Dropbox");
-  const png = pngHeader(source.width, source.height);
-  const maskFilePaths = [];
+  const pngByRole = {
+    body: pngMask(source.width, source.height, "body"),
+    face: pngMask(source.width, source.height, "face")
+  };
+  const maskFiles = [];
   const frames = [0, 1].map(frame => {
     const makeMask = role => {
       const uri = "dropbox://GEEHUB/FrameEvidence/" + role + "-" + frame + ".png";
       const relative = uri.slice("dropbox://GEEHUB/".length);
       const filePath = path.join(root, "GEEHUB", ...relative.split("/"));
-      maskFilePaths.push(filePath);
+      const bytes = pngByRole[role];
+      maskFiles.push({ filePath, bytes });
       return {
         uri,
-        checksum: sha(png),
+        checksum: sha(bytes),
         ...(role === "body" ? { excludesFace: true } : { protectsIdentity: true })
       };
     };
@@ -57,9 +94,9 @@ async function fixture(t) {
       faceMask: makeMask("face")
     };
   });
-  for (const filePath of maskFilePaths) {
-    await mkdir(path.dirname(filePath), { recursive: true });
-    await writeFile(filePath, png);
+  for (const file of maskFiles) {
+    await mkdir(path.dirname(file.filePath), { recursive: true });
+    await writeFile(file.filePath, file.bytes);
   }
   const segmentationDocument = {
     schema: "geehub.frame-set-evidence", schemaVersion: 1, role: "segmentation",
@@ -106,7 +143,7 @@ async function fixture(t) {
   const bundlePath = path.join(temp, "bundle");
   await writeFile(manifestPath, JSON.stringify(manifest, null, 2));
   await writeFile(growthPath, JSON.stringify([baseline, grown], null, 2));
-  return { temp, root, manifestPath, growthPath, bundlePath, maskFilePaths };
+  return { temp, root, manifestPath, growthPath, bundlePath, maskFilePaths: maskFiles.map(file => file.filePath) };
 }
 
 function runCli(f) {
@@ -125,7 +162,14 @@ test("preparation CLI rechecks actual masks and writes a queued job bundle", asy
   const receipt = JSON.parse(result.stdout);
   assert.equal(receipt.status, "prepared");
   assert.deepEqual(receipt.maskAudit, {
-    checked: 4, verified: 4, pixelSemanticsVerified: false
+    checked: 4,
+    verified: 4,
+    pixelDataVerified: true,
+    faceExclusionVerified: true,
+    pairsChecked: 2,
+    disjointPairs: 2,
+    overlapPixels: 0,
+    pixelSemanticsVerified: false
   });
   const job = JSON.parse(await readFile(receipt.jobFile, "utf8"));
   const manifest = JSON.parse(await readFile(receipt.manifestFile, "utf8"));

@@ -1,0 +1,141 @@
+# Hulum's Cave — Historical Video Corpus
+
+**Purpose:** Make Hulum's Cave's own video history the primary research spine for GEEHUB's video, character, growth, sound, and continuity systems.
+
+**Status:** Active, source-led historical extraction. This document separates creator-documented facts, public archive metadata, directly inspected video evidence, and engineering hypotheses. It is an evolving corpus, not a definitive account of the creator's private production methods.
+
+## Why this corpus exists
+
+Hulum's Cave is not merely a visual style reference. The creator describes a 15-year practice of CG growth images and animation. The public Patreon archive exposes a substantial sequence of finished videos, work-in-progress posts, archived older works, technical experiments, and a later transition into generative video. GEEHUB should reconstruct that development as a history of works and techniques, then use the actual videos as primary evidence for motion, staging, character continuity, sound, and production grammar.
+
+The corpus is organized around individual works and their production histories. Other creators are comparative references only.
+
+## Evidence classes
+
+- **Creator statement:** a direct statement by Hulum's Cave in a public post or profile.
+- **Archive metadata:** title, date, sequence number, or post type visible in the creator's public archive.
+- **Video observation:** a property directly visible or audible in an inspected source file, with timestamps and evidence frames.
+- **Engineering interpretation:** a proposed explanation or implementation derived from observations; never presented as knowledge of private project files.
+- **Unverified lead:** a title, date, or technique that requires the original post, video, or creator confirmation.
+
+A title and a work-in-progress label do not establish what a video looks or sounds like. A date in the public archive is a post date, not necessarily a creation date.
+
+## Historical outline
+
+### Early archive and foundational works
+
+The creator profile states that they have been making CG growth images and animations for 15 years. The public archive preserves older works and categories including Flash Games, Old Shorts, The Forest, Ultra Size 1 & 2, Ultra Size 3, 4 & 5, Marine Growth, Locker Room Growth (Archive), Hairy Grower (Archive), Quality Assurance Growth Counsellor (Archive), Bulls Gym Series (Archive), Max-Gazm (Archive), Valentine's Day Growth (Archive), Bedroom Growth Technical Study (Archive), Quick Growth (Archive), and Daddy Growth Part 1 & 2 (Archive).
+
+These titles establish a rich early catalogue and recurring settings or formats. They do not, by themselves, establish chronology within the period, software, rig architecture, exact story content, or whether a work was originally Flash, Maya, or another format. The older Flash Games and Old Shorts archive entries are high-priority retrieval targets: locate original playable files and videos before attempting recreation.
+
+### Forest, laboratory, and long-form scene development
+
+The archive includes a sustained Forest Growth work-in-progress sequence, posts about audio, successive WIPs, and a final video titled in the woods, including a 1080p version. It also includes Laboratory Growth with multiple WIP posts, a “+40sec of growth” update, lighting and time-of-day decisions, and a final release. Other entries include Loft Growth with sound, Storeroom Growth, Glory Hole Growth, and Ultra Size works.
+
+This is a significant research cluster because it preserves not only finished titles but production decisions and intermediate versions. The forest sequence is a direct historical ancestor worth comparing with the creator's much later statement that Camping Growth has a slight nod to an old forest growth video, while explicitly not being a reboot. The laboratory sequence may reveal how growth duration, staging, environment, lighting, and sound were developed together. Archive labels alone do not prove exact visual or audio behavior; inspect the posts and media.
+
+### Recurring settings, remakes, and character-led projects
+
+The public archive shows a concentration of repeatable settings and revisited formats: Locker Room Growth, Storeroom Growth, Bedroom Growth Remake, Bed Growth Remake, Office Growth Remake, Hairy Grower Reboot, Fantasy/Transformation Growth, Deal with the Devil, Bus Stop Growth, Daddy Growth, Edging Growth, and GrowthMaxxx.
+
+Study this period as a project genealogy rather than a flat title list. Remakes and reboots provide comparison pairs: they can reveal what the creator deliberately retained, changed, simplified, or improved. WIP sequences can expose the order in which scenes, characters, animation, audio, and final editing were developed. GrowthMaxxx is especially important because it has a long WIP trail and a documented final release on 6 May 2025; the public final post notes that Max narrates the last part and credits a patron who had contributed audio to Edging Growth.
+
+A 4 September 2024 public post marks Fantasy/Transformation Growth as finished and says the creator wanted to take it further but was returning to a larger project. A 1 April 2024 Deal with the Devil P2 WIP post includes a production-time/support update. These are creator statements about project context, not direct evidence of scene content.
+
+### Generative and hybrid experiments
+
+The public archive shows Growth Serum X WIP posts beginning in July 2025, followed by a long sequence of WIP updates and a final release. It also records New Model Tests, CG Training Vids, Bed Growth AI, Military Growth, Storeroom Growth Experiment, Quick Gym Growth, After Glow Growth, Neighborhood Growth, and a public redo of Daddy Growth.
+
+A later creator update explicitly describes Gym Growth as a quick LTX test using a new LoRA. The most recent multi-video update describes an LTX LoRA trained for a specific growth effect and used across multiple videos; experiments comparing MiniMax with an earlier LTX version of After Glow Growth; a focus on reference images to keep motion fluid; and a new Camping Growth WIP. The creator says Camping Growth has a slight nod to an old forest growth video but is not a reboot.
+
+This supports a documented transition in practice: from long-running CG animation to generative/hybrid workflows using reference images, model-specific experiments, and custom LoRAs. It does not establish that all recent work is fully AI-generated or that a mechanical rig has been replaced in every case.
+
+### Current serialized work and continuity
+
+The public archive includes numbered projects such as Blackridge 1, Blackridge 2, and Growing with Coach, with WIP and final posts. The Blackridge 2 final post describes adding an officer's climax and foreshadowing a character named Bane from the first video, then returning to Growing with Coach. This is direct evidence of cross-installment character continuity and deliberate foreshadowing in at least this series.
+
+The latest multi-video update identifies three numbered items: 86 Cock Growth Training, 85 After Glow Growth MM, and 84 Camping Growth WIP1. Capture these as archive identifiers, not as an exact chronology of production without further evidence.
+
+## Directly inspected GEEHUB source readings
+
+The repository's media/HULUMS_CAVE_FIRST_READINGS_2026-11-03.md records two supplied short vertical clips, 22.mp4 and 3333.mp4, both 6.04 seconds, 24 fps, 448×672, sampled at 8 and then 24 frames. The observed character is an adult bald, bearded, blue-green male figure in dark grey shorts, staged in a warm industrial-gym environment. The camera is predominantly low and frontal. The action is a sequence of deliberate bodybuilding poses: arms lowered, raised/spread, double-biceps display, hands-at-waist reset, repeated flex hold; the second clip ends with an oblique/near-side turn.
+
+The critical finding is that these two clips are pose showcases, not verified progressive growth animations. Apparent changes in size must not be mislabeled as growth: arm position, orientation, framing, and camera crop change the apparent silhouette. The clips provide useful character, pose, and staging evidence, but do not reveal the creator's private rig or software stack.
+
+Dropbox currently contains /3333.mp4 (file id id:tbdqPXHGULQAAAAAAAACSg, 2,340,964 bytes) and a separate source register for the SnapVid and WhatsApp clips. The repository's media/HULUMS_CAVE_SOURCE_REGISTER.json records the latter as canonical originals with same-size possible duplicates. Matching size or filename is not proof of duplication. The 22.mp4 file was not found by exact-name Dropbox search during this pass. The existence of /3333.mp4 does not prove it is byte-for-byte identical to the earlier inspected local clip; verify checksum and media metadata.
+
+## Extraction program: every video becomes a historical specimen
+
+For every work, build a linked record with these layers:
+
+1. **Identity and provenance:** canonical title, alternate titles, archive post URL, post date, work number if present, original filename, Dropbox file ID/path, checksum, media probe, access/inspection status.
+2. **Production genealogy:** WIP posts in order, setup posts, technical notes, revisions, final post, public release, remake/reboot relationships, sequel/prequel relationships, character links, and known collaborators.
+3. **Temporal structure:** shot boundaries, timestamps, cuts, holds, transitions, loops, repeated poses, acceleration/deceleration, and duration of each growth or transformation passage.
+4. **Camera and staging:** shot size, camera height, lens/perspective cues, axis, movement, subject position, crop changes, environment geometry, and relation between subject and room.
+5. **Character and deformation:** identity anchors, base proportions, pose states, regional shape changes, height/limb changes, silhouette landmarks, facial continuity, wardrobe, cloth response, and secondary motion.
+6. **Sound:** whether sound exists, source/music/effects/voice, onset timing, texture, pitch, rhythm, stretch/strain cues, room tone, silence, mix level, and how audio changes across WIPs/final versions.
+7. **Render/material language:** geometry, shading, skin response, muscle transitions, clothing materials, lighting, shadows, reflections, background, render artifacts, resolution, compression, and visible post-processing.
+8. **Narrative and sensation:** premise, trigger, cause-and-effect, character relationships, escalation logic, emotional pacing, held payoff, and what the ending leaves unresolved. This layer must follow the actual clip rather than generic assumptions.
+9. **Technical inference:** possible rig, deformation, simulation, compositing, or generative method, each with explicit confidence and alternative explanations.
+10. **GEEHUB translation:** reusable assets, pose controls, growth curves, camera recipes, audio motifs, reference-image strategy, continuity locks, and test cases.
+
+## Comparative extraction rules
+
+- Compare a remake with its earlier version at matched story beats and camera views.
+- Compare WIP and final versions to identify what changed during production.
+- Compare old and new versions of the same character to identify persistent identity anchors.
+- Separate actual deformation from pose, camera, crop, perspective, and orientation.
+- Preserve sound as a first-class temporal channel. Never infer that a clip is silent from an image-only preview.
+- Record exact timestamps and evidence frame IDs for every claim about motion.
+- Mark inaccessible or locked media as uninspected. Public metadata can establish that a post exists, not what its video contains.
+- Do not reverse-engineer proprietary files or claim certainty about hidden production methods from rendered output alone.
+
+## Priority extraction batches
+
+**Batch A — early foundations:** Flash Games, Old Shorts, The Forest, Ultra Size 1–5, Marine Growth, Loft Growth, and the earliest archived character/setting projects. Retrieve original playable files and source videos; establish actual chronology and toolchain.
+
+**Batch B — long-form CG development:** Forest Growth WIPs and final, Laboratory Growth WIPs and final, Storeroom Growth, Locker Room Growth, Glory Hole Growth. Extract growth duration, staging, camera, sound, and scene construction.
+
+**Batch C — remakes and project genealogy:** Bedroom/Bed, Office, Locker Room, Storeroom remakes; Hairy Grower Reboot; Daddy Growth; Deal with the Devil; Bus Stop Growth; Edging Growth; GrowthMaxxx. Pair each WIP sequence with its final video.
+
+**Batch D — generative transition:** Growth Serum X, New Model Tests, CG Training Vids, Bed Growth AI, Military Growth, Quick Gym Growth, After Glow, Neighborhood Growth, Daddy Growth public redo. Extract reference-frame use, model/LoRA disclosures, fluidity strategies, and differences between source and generated motion.
+
+**Batch E — current serialized work:** Blackridge 1/2, Growing with Coach, Camping Growth, After Glow Growth MM, and training experiments. Extract serial continuity, character reuse, narrative callbacks, and current model comparisons.
+
+## Immediate engineering consequences for GEEHUB
+
+The first priority is not another generic creator-search script. It is a source-to-corpus extractor that ingests Hulum's Cave archive posts and original media into a durable project genealogy. Build:
+- research/hulums-cave/works.json — normalized work catalogue and relations;
+- research/hulums-cave/post-index.json — archive posts, dates, titles, WIP/final role, and links;
+- research/hulums-cave/annotations/ — one timestamped annotation per source video;
+- research/hulums-cave/relations.json — remake, sequel, reboot, reference, character, and technique links;
+- scripts/extract_hulums_archive.py — imports permitted public metadata and local/Dropbox source manifests without bypassing access controls;
+- scripts/validate_hulums_corpus.py — checks provenance, chronology, evidence class, timestamps, and unresolved claims.
+
+Then connect accepted findings to engine/video/analyze_source.py, the rigged character path, Imagine presets, audio design, and the production template. The historical corpus remains the authority; production presets are derived interpretations.
+
+## Public source register
+
+- Creator profile and stated 15-year CG practice: https://www.patreon.com/hulumscave/about
+- Creator archive sitemap (year-grouped post chronology): https://www.patreon.com/hulumscave/sitemap
+- Fantasy/Transformation Growth — Final Video (4 September 2024): https://www.patreon.com/hulumscave/posts/fantasy-growth-111378864
+- Deal with the Devil P2 — Video WIP 4 (1 April 2024): https://www.patreon.com/hulumscave/posts/deal-with-devil-101449167
+- GrowthMaxxx Final Video! (6 May 2025): https://www.patreon.com/posts/growthmaxxx-128246237
+- Growth Serum X Video WIP 1 (17 July 2025): https://www.patreon.com/hulumscave/posts/growth-serum-x-1-134297752
+- Growth Serum X Video WIP 2 (2 August 2025): https://www.patreon.com/posts/growth-serum-x-2-135582371
+- Multiple Video Update (2026; creator's LTX/LoRA, MiniMax, After Glow, and Camping Growth notes): https://www.patreon.com/hulumscave/posts/multiple-video-173400472
+- 89 Blackridge 2 — Final Video (2026 archive): https://www.patreon.com/hulumscave/posts/89-blackridge-2-169196706
+
+**Access note:** Patreon may lock the full post or video behind membership. This corpus uses only visible public metadata and text. It does not claim to have inspected locked video payloads.
+
+## Current state
+
+- Historical archive chronology: first-pass extraction completed from the public sitemap.
+- Creator-stated pipeline transition: partially documented from public posts.
+- Two short supplied clips: first-pass visual and temporal reading exists in media/HULUMS_CAVE_FIRST_READINGS_2026-11-03.md.
+- Dropbox source manifest: partially populated; /3333.mp4 confirmed present; exact 22.mp4 not found by name in current search.
+- Full historical video-by-video extraction: pending original media retrieval and inspection.
+- Audio extraction: pending direct access to original audio tracks.
+- Private Maya scene/rig/LoRA details: unknown unless explicitly disclosed by the creator or supported by source files.
+
+**Governing principle:** Hulum's Cave's videos are the historical evidence. The archive tells us where to look; the videos tell us what happened.

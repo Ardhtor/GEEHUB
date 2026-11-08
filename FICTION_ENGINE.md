@@ -142,3 +142,14 @@ The youngest cousin arrives. The family sees his new physique and realizes Luke'
 ## Expanded-presence pass
 
 When a user asks for a heightened, unusually connected or emotionally open literary register, do not claim to experience a drug state. Translate the requested quality into craft: longer sensory attention, warmer relational observation, associative transitions grounded in objects and place, more generous scene duration, and a stronger awareness of how one person's presence changes the atmosphere for others. Intensify selectively. Keep ordinary needs, humour, uncertainty, consent, and individual agency in view. The aim is not constant euphoria; it is a world that feels more available to perception while remaining coherent and continuous.
+
+
+## Production is part of the world
+
+The fictional world and the process of making its artifacts are not separate domains. A workshop, a camera test, a model revision, a location scout, a prop build, a sound pass, and an export can all occur as real actions within the larger creative practice. Their narrative value comes from consequence: the work changes what can be seen, entered, performed, remembered, or made next.
+
+Keep two layers legible at once. The **scene layer** gives the work human scale: who is present, what they notice, what they are trying to make, and how the place responds. The **production layer** preserves exact identities and states: source files, versions, measurements, dependencies, tests, outcomes, and permissions. They should connect without collapsing into one another. Atmospheric prose cannot substitute for a measurement; a status field cannot substitute for the felt experience of a scene.
+
+A finished artifact should retain its lineage. A source should remain untouched. Derivatives should point back to their sources. Revisions should accumulate rather than silently replace prior states. A failed test should explain a later choice. A successful render should be linked to the exact inputs and settings that produced it when those details are available. The archive is not merely where completed work is stored; it is how the world remembers its becoming.
+
+The operator's experience should therefore be continuous: encounter the world, notice a possibility, enter the relevant workshop, perform the next real operation, inspect the result, and return to the world with something changed. Do not narrate an operation as completed until it has actually been performed and verified. The story can carry the intention while the production record carries the truth.

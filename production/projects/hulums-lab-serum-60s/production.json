@@ -26,7 +26,13 @@
     "providerResolution": "1920x1080",
     "deliveryResolution": "1920x1080",
     "container": "mp4",
-    "audio": true
+    "audio": true,
+    "duration_seconds": 60,
+    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "growth_ceiling": 3.8,
+    "rig_growth_ceiling": 1
   },
   "creativeBrief": "An adult fictional athletic subject undergoes a clearly triggered laboratory transformation into an extreme, balanced hyper-muscular form. The transformation remains continuous for the full 60-second take; camera, wardrobe, room response and sound all track the same event. Intimate anatomy remains non-explicit and covered.",
   "content_rating": "mature",
@@ -36,18 +42,20 @@
     "real_person_reference_permissions": "Use only fictional character designs or verified references with appropriate permission."
   },
   "pipeline": {
-    "rig": "timeline-driven continuous deformation rig; regional controls required",
+    "rig": "engine/video/rigged_character.py + engine/video/timeline_growth.py",
     "deformation_layers": [
       "identity",
       "skin-response",
-      "deltoids",
       "pectorals",
-      "arms",
+      "deltoids",
       "traps",
+      "arms",
+      "lats",
       "back",
       "torso",
-      "legs",
-      "height-and-proportion",
+      "quadriceps",
+      "calves",
+      "whole-body scale",
       "wardrobe-response",
       "secondary-motion"
     ],
@@ -115,5 +123,7 @@
     "canonical": "Dropbox",
     "policy": "Original source media remains immutable; derived frames, passes and exports are versioned separately."
   },
-  "notes": "This is a production design. No source media, identity frames, rig outputs or final renders are claimed to exist yet."
+  "notes": "This is a production design. No source media, identity frames, rig outputs or final renders are claimed to exist yet.",
+  "character_model": "rigged",
+  "renderEntryPoint": "render_project.py"
 }

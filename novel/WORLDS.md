@@ -1869,3 +1869,11 @@ SETH: Fresh bread is cooling at the end of the oak table. Soup, roasted vegetabl
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/common-table/README.md. Pressure 1.00; memory 1.00.
+
+## BLUEWATER QUAY / pulse 203 / ATMOSPHERE
+
+SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/bluewater-quay/README.md. Pressure 1.00; memory 1.00.

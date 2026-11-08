@@ -1525,3 +1525,11 @@ SETH: Fresh bread is cooling at the end of the oak table. Soup, roasted vegetabl
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 203 — ATMOSPHERE / BLUEWATER QUAY / 2026-11-08T18:05:28.957580+00:00
+
+SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

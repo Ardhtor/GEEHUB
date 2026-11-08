@@ -27,6 +27,7 @@ def main() -> int:
         root = Path(folder)
         (root / "engine").mkdir()
         shutil.copy2(ENGINE_SOURCE, root / "engine" / "run_world.py")
+        shutil.copy2(ROOT / "engine" / "inscription.py", root / "engine" / "inscription.py")
         (root / "novel").mkdir()
         (root / "novel" / "REWRITTEN_OPENING.md").write_text("The Complex keeps its first room.\n", encoding="utf-8")
         (root / "README.md").write_text("A root record for source rotation.\n", encoding="utf-8")

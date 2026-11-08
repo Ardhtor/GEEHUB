@@ -81,7 +81,7 @@ These chapters establish the new central love story. They are additions to the l
 
 ### Chapter 1 — The Stranger at the Door
 
-Snow was gathering in the black pines when you found the cabin. The roof sagged under its white load, smoke pushed sideways from the chimney, and amber light lay across the threshold like something warm enough to touch.
+Snow was gathering in the black pines when you found the cabin. The roof sagged under its white load, smoke pushed sideways from the chimney, and amber light lay across the threshold like something warm enough to touch. You had been walking for longer than you intended. The path had narrowed, then disappeared beneath drifts, and the trees had begun to repeat themselves in a way that made distance difficult to judge. You had nearly turned back when you saw the chimney.
 
 The door opened before you knocked a second time.
 
@@ -89,83 +89,387 @@ Ursalon filled the doorway: broad, furred, heavy through the shoulders, wearing 
 
 “Come on, then,” he said. “You’re letting all the heat out.”
 
-He took your coat and hung it by the stove. A bowl appeared in front of you. Then bread. Then another log went onto the fire. Ursalon didn’t ask for your story until you had stopped shivering.
+He stepped aside. You crossed the threshold and felt the temperature change at once. The cabin smelled of cedar smoke, damp wool, and something rich simmering in a pot. A fire occupied most of the hearth. Its light moved over shelves crowded with jars, wooden bowls, old tools, and objects that looked as though they had been collected from several different centuries. Above the mantel hung a large iron key. Beside it, someone had placed a small carved bird with one wing missing.
 
-When you finally looked up, he was watching you with an expression gentler than his size suggested.
+Ursalon took your coat and hung it near the stove, leaving enough room between it and the fire that it would dry without scorching. He found a blanket, placed it around your shoulders, and guided you toward a chair. The chair creaked when you sat. Ursalon glanced at it.
 
-“You can stay tonight,” he said. “We’ll sort out tomorrow when it gets here.”
+“It'll hold,” he said. “Mostly.”
 
-Outside, thunder moved beyond the ridge. Inside, something in the cabin had shifted to make room for you.
+He put a bowl in front of you. Then bread. Then a small dish of honey, as if the first two offerings had been insufficient. He did not ask for your story until you had stopped shivering. Even then, he asked only where you had come from and whether anyone else was on the path.
+
+You told him what you could. The details sounded less important in the warmth. Ursalon listened without interrupting, occasionally nodding, occasionally looking toward the window when the wind pressed against it. He seemed to understand that a person could arrive carrying more than a bag, and that not everything needed to be unpacked on the first evening.
+
+When you finished, he lifted the pot from the hook and served himself. He ate with an appetite that made the room feel more ordinary. There was something reassuring about the way he broke bread, wiped the spoon, and checked the fire between mouthfuls. He did not perform hospitality. He practised it.
+
+“You live here alone?” you asked.
+
+“Usually.”
+
+“Usually?”
+
+“Gods have a poor understanding of visiting hours.”
+
+As if summoned by the remark, a low roll of thunder travelled along the ridge. Ursalon glanced up at the ceiling.
+
+“That'll be Grokthar,” he said. “He never learned to arrive quietly.”
+
+A blue flash briefly illuminated the snow beyond the window. Something enormous moved through the clouds, though you could not tell whether it was a figure or only the shape of the storm. Ursalon continued eating. The thunder passed without bringing anyone to the door.
+
+After supper he showed you the spare room. It was small but carefully kept, with a thick quilt, a wooden chest, and a window looking toward the grove. There was a chipped blue cup on the sill. You asked whether it belonged to someone.
+
+“Used to,” Ursalon said. “Nobody's claimed it.”
+
+He said it casually, but he did not remove it. You wondered how many things in the cabin had once belonged to visitors who had not returned. The thought made the room feel less like a refuge and more like a place with a history.
+
+“You can stay tonight,” he said. “We'll sort out tomorrow when it gets here.”
+
+He stood in the doorway a moment longer than necessary. His size made the little room seem smaller, but his manner did not. He asked whether the blanket was warm enough, whether the window rattled, whether you needed another log. You said you were fine. He nodded, then seemed to remember something.
+
+“There's a bell beside the bed. Pull it if you need me.”
+
+“Do you sleep?”
+
+“When the house allows it.”
+
+He left the door partly open. From the kitchen came the sound of him moving dishes, closing cupboards, and settling the fire. You heard him pause once outside your room, then continue down the hall.
+
+Sleep came slowly. The wind pressed at the shutters, and somewhere beyond the trees thunder muttered again. But the cabin held its warmth. The floorboards creaked as the house cooled, and the fire gave a low, steady sound from the other room. You found yourself listening for Ursalon's movements, not because you were afraid he might leave, but because the sounds made the unfamiliar place easier to understand.
+
+In the morning, you woke to the smell of coffee and bread. Ursalon was already outside, clearing snow from the steps. He had wrapped a scarf around his neck, though the cold did not seem to trouble him. When he saw you at the door, he leaned on the shovel.
+
+“Morning. You hungry?”
+
+You nodded.
+
+“Good. There's enough.”
+
+He returned to the snow. You watched him work, moving the drifts with patient, economical strength. The path he cleared ran from the porch toward the trees, then bent out of sight. He did not ask you to stay. He did not ask you to leave. He simply made the path passable.
+
+Inside, the kettle began to sing. The cabin had made room for one more morning, and Ursalon seemed content to let the day decide what came next.
 
 ### Chapter 2 — A Place at the Table
 
 You came back the next day. Then again.
 
+At first you told yourself it was practical. The weather remained poor, the path was familiar, and Ursalon had made it clear that the spare room was available. But the reasons became less convincing as the days passed. You began to recognise the different sounds of the cabin: the low knock of a log settling in the hearth, the scrape of Ursalon's chair, the kettle's rising whistle, and the soft thud of his boots when he came in from the woodpile.
+
 Soon there was a cup that Ursalon set out without asking, a hook by the door for your coat, and a chair he had reinforced after it gave a worrying crack beneath him. He pretended these things were practical. You let him pretend.
 
-The cabin was never quiet for long. Pipethor arrived with a pipework contraption that rattled on the porch. PEMDAS wandered in halfway through supper and asked whether anyone had seen the beginning of Tuesday. Grokthar came with rain in his hair and a storm humming under his skin.
+The first time you helped prepare supper, he watched you cut vegetables with an expression of mild concern.
 
-But Ursalon kept glancing toward you as the room filled. Each time you caught him, he found some urgent task: stirring the pot, shifting a log, cutting bread nobody had asked for.
+“You've got the knife backwards,” he said.
 
-Later, after the others had gone, you helped him wash the bowls. Your shoulders brushed. Neither of you moved away.
+“I don't.”
 
-“You don’t have to keep finding reasons for me to come back,” you told him.
+“You're holding it like you're expecting it to apologise.”
+
+You turned the knife around and continued. Ursalon made a sound that might have been a laugh. He took the larger pot from the shelf and began chopping onions with a speed that seemed unnecessary. When you asked why he used so many, he said that onions were the foundation of civilisation. You suggested that civilisation might benefit from fewer of them. He added another.
+
+The cabin was never quiet for long. Pipethor arrived one afternoon with a pipework contraption that rattled on the porch. He had built it from copper, black iron, and a length of something that looked suspiciously like a garden hose. He insisted it was a device for improving the flow of warm water through the kitchen. Ursalon asked whether it had been tested.
+
+“Of course,” Pipethor said.
+
+“Where?”
+
+Pipethor paused. “In principle.”
+
+Ursalon let him install it anyway, provided he kept the fittings away from the stove. The device produced a steady knocking sound for the rest of the evening. Pipethor considered this a promising sign.
+
+PEMDAS wandered in halfway through supper and asked whether anyone had seen the beginning of Tuesday. Nobody had. He sat down, accepted a bowl, and announced that the day seemed to be proceeding in the wrong order. Pipethor tried to explain his machine. PEMDAS listened with grave attention, then asked whether the pipes had been installed before the water. Pipethor said that was an unhelpful question.
+
+Grokthar came with rain in his hair and a storm humming under his skin. He brought a gust of cold air through the doorway and a sack of apples from somewhere beyond the ridge. His greeting to Ursalon was familiar and loud. They exchanged a few remarks about the weather, the state of the roof, and a mountain path that Grokthar had apparently split with lightning. Then Grokthar noticed you.
+
+“So this is the new regular,” he said.
+
+“I have a name,” you replied.
+
+“Good. Makes it easier to invite you to things.”
+
+Ursalon gave him a look. Grokthar grinned and took a seat. The room adjusted around him. He was a different kind of presence from Ursalon: restless, bright, and difficult to ignore. Yet he did not displace the cabin's slower rhythm. He ate, told a story about a storm that had become confused with a flock of migrating birds, and listened when you asked him what thunder sounded like from inside a cloud.
+
+But Ursalon kept glancing toward you as the room filled. Each time you caught him, he found some urgent task: stirring the pot, shifting a log, cutting bread nobody had asked for. When Grokthar teased him about the extra loaf, Ursalon said that some people had appetites worth planning for. He did not look at anyone when he said it.
+
+Later, after the others had gone, you helped him wash the bowls. The kitchen had grown warm and close. Water ran over the crockery; steam gathered on the window. Ursalon stood beside you, drying each dish with a cloth that was too small for his hands. Your shoulders brushed. Neither of you moved away.
+
+“You don't have to keep finding reasons for me to come back,” you told him.
 
 Ursalon stared into the wash water, suddenly quiet.
 
 “I know,” he said. “I just like having you here.”
 
-It was the first honest thing he offered you without wrapping it in a joke or a chore. You dried your hands and stayed beside him.
+It was the first honest thing he offered you without wrapping it in a joke or a chore. You dried your hands and stayed beside him. He did not reach for you immediately. Instead, he placed the last bowl on the shelf and stood there, considering the space between you.
+
+“You make the place feel different,” he said.
+
+“Different how?”
+
+“Hard to explain.” He glanced around the kitchen. “I used to know exactly where everything belonged. Now I keep finding things that ought to be closer to you.”
+
+You smiled. “Like the cup?”
+
+“Like the cup.”
+
+He looked embarrassed by the admission. You touched his arm, just above the wrist. His fur was warm beneath your fingers. He looked down at your hand, then back at you, and the moment became quiet enough for the fire to be heard in the next room.
+
+A few days later, you found that he had moved the blue cup from the spare room to the kitchen shelf beside his own. He had washed it carefully. When you asked whether someone had claimed it, he said, “Seems like it has.”
+
+You did not ask him to explain. You used it the next morning, and he watched you drink from it with a small, private satisfaction. The place at the table was no longer merely available. It had begun to be expected.
 
 ### Chapter 3 — The Shape of Shelter
 
-Ursalon loved by preparing for disaster. He checked the shutters when the wind rose, kept food stored for a winter that might last forever, and walked you home even when the path was safe. At first, the care felt like a blanket. Then, on a clear morning, he tried to decide that you should remain at the cabin because the woods were still dangerous.
+Ursalon loved by preparing for disaster. He checked the shutters when the wind rose, kept food stored for a winter that might last forever, and walked you home even when the path was safe. He knew which branches were likely to fall in a storm and which stretches of the creek became dangerous after heavy rain. If you mentioned being cold, another blanket appeared. If you were tired, he found a reason to finish the day's work early. His care was practical, abundant, and sometimes difficult to refuse.
 
-You stopped at the door.
+At first, it felt like a blanket. You came to appreciate the way he noticed small things: when your boots needed drying, when the kettle was nearly empty, when you had gone quiet because the room had become too crowded. He did not always understand what you needed, but he was willing to make an attempt. There was a generosity in that willingness.
 
-“I want you to protect me,” you said. “I don’t want you to choose my life for me.”
+The trouble began with a walk.
 
-The words landed harder than a thrown stone. Ursalon’s jaw tightened; his huge hands opened and closed once. For a moment, the old bear-god stood between you and the world as if he could hold everything still by force.
+The morning was clear, the snow had hardened overnight, and sunlight fell through the pines in long, pale bands. You wanted to take the upper path alone. Ursalon looked toward the ridge and said the trail would be slippery. You told him you knew the route. He said the creek had risen. You reminded him that you had crossed it many times.
 
-Then he stepped aside.
+“I'll come with you,” he said.
 
-“All right,” he said, rough and low. “Tell me what you need. Don’t let me guess and call it love.”
+“I'd like to go by myself.”
+
+He frowned, not in anger but in the concentrated concern that came over him whenever he imagined something going wrong. He suggested another route, then another day. When you reached for your coat, he moved it away from the door and said that the weather might turn.
+
+You stopped.
+
+“Ursalon.”
+
+He looked at you.
+
+“I want you to protect me,” you said. “I don't want you to choose my life for me.”
+
+The words landed harder than a thrown stone. Ursalon's jaw tightened; his huge hands opened and closed once. For a moment, the old bear-god stood between you and the world as if he could hold everything still by force.
+
+“I know the woods,” he said.
+
+“I know you do.”
+
+“You don't know what comes through that pass.”
+
+“Then tell me. Don't decide for me.”
+
+He looked toward the window. Beyond it, the trees stood quiet beneath the morning light. You could see him trying to distinguish the danger outside from the fear that had begun to live inside him. He had spent so long treating shelter as a duty that he had not noticed when the duty started to make decisions on your behalf.
+
+At last, he stepped aside.
+
+“All right,” he said, rough and low. “Tell me what you need. Don't let me guess and call it love.”
 
 You reached for his hand. He held yours carefully, as if restraint were a kind of strength he had only just begun to learn.
 
-When you left, he did not follow. When you returned, he was waiting—not at the door to block your way, but at the hearth with the kettle on.
+He walked with you to the porch but did not follow down the path. Before you left, he pointed out a section where the snow had drifted over a shallow drop. He showed you how to recognise the darker ice near the creek and told you where the trail narrowed. He gave you the information without turning it into an argument. You thanked him and went.
+
+The walk was uneventful. You returned two hours later with cold cheeks and a branch of winter berries you had found near the ridge. Ursalon was splitting wood. He looked up at the sound of your steps, then returned his attention to the log. You could see the effort it took not to ask whether you had been safe every minute.
+
+“Find anything?” he asked.
+
+You showed him the berries.
+
+“Those grow up there?”
+
+“Near the old stones.”
+
+He set down the axe and came to look. Together you examined the small red clusters. He told you which ones were edible and which ones would make you ill. He did not say that he had been worried. You did not pretend that the walk had been a test. It was simply something you had done, and something he had allowed you to do.
+
+That evening he apologised. It was not a polished apology. He spoke slowly, stopping to find the right words.
+
+“I thought if I kept you from danger, I could keep anything bad from happening,” he said. “But I can't promise that. And I don't want you to have to become smaller so I can feel useful.”
+
+You sat beside him on the hearth rug. The firelight caught in the thick fur along his arms.
+
+“I don't need you to stop caring,” you said. “I need you to trust me.”
+
+He nodded. “I'll have to practise.”
+
+“You will.”
+
+The next morning, he asked whether you wanted company on the walk to the creek. You said yes. He took the basket, and you carried the small knife. When the path narrowed, he offered his hand rather than taking your arm. You accepted it.
+
+There were still moments when his worry returned. He sometimes stood at the window longer than necessary when you were out. He sometimes prepared more food than the two of you could eat. But he began to ask before intervening. The change was small enough that a visitor might not have noticed it. You noticed.
+
+When you left, he did not follow. When you returned, he was waiting—not at the door to block your way, but at the hearth with the kettle on. The cabin remained a shelter. It had simply learned to leave the door open.
 
 ### Chapter 4 — Thunder at the Window
 
-Grokthar’s storm rolled over the grove after midnight. Blue-white light moved across the cabin walls; the rafters groaned, and every spoon in the kitchen trembled. He arrived soaked and restless, carrying the whole weather of the mountain with him.
+Grokthar's storm rolled over the grove after midnight. Blue-white light moved across the cabin walls; the rafters groaned, and every spoon in the kitchen trembled. The first thunderclap was so close that the window glass gave a sharp little rattle. You woke beneath the quilt and listened. There was no fear in the sound exactly, but there was a presence in it, an immense awareness moving across the mountain.
 
-He found you and Ursalon sitting shoulder to shoulder by the fire.
+Ursalon was already awake. You found him sitting on the edge of the bed, listening to the roof.
 
-For an instant, old expectations hovered in the room. The pantheon had always assumed that thunder and bear belonged together at the center of every story. Grokthar looked from Ursalon to you, then understood that the shape of the house had changed.
+“He's early,” he said.
 
-“So,” he said, shaking rain from his hair. “You’ve finally stopped pretending this is just supper.”
+“Does he always arrive like this?”
+
+“Only when he thinks he's being subtle.”
+
+A second flash lit the room. Somewhere outside, a voice called out, followed by a burst of laughter. Ursalon stood, pulled on his heavy shirt, and went to open the door. A gust of rain swept into the hallway.
+
+Grokthar stood on the porch, soaked through, with his hair bright from the storm. He carried a long wooden case under one arm. Small arcs of blue light moved over its hinges.
+
+“Evening,” he said.
+
+“It's the middle of the night,” Ursalon replied.
+
+“That's when storms are best.”
+
+Grokthar stepped inside and shook rain from his cloak. Ursalon took the case from him and set it on the bench. You brought a towel. Grokthar accepted it with a theatrical bow, then rubbed his hair until it stood in every direction.
+
+He found you and Ursalon sitting shoulder to shoulder by the fire. For an instant, old expectations hovered in the room. The pantheon had always assumed that thunder and bear belonged together at the centre of every story. Their closeness was familiar to the other gods: a storm that found its shelter, a hearth that welcomed the sky. People had repeated the image so often that it had begun to resemble a law.
+
+Grokthar looked from Ursalon to you, then understood that the shape of the house had changed.
+
+“So,” he said, “you've finally stopped pretending this is just supper.”
 
 Ursalon went red beneath his fur. You laughed. The tension broke—not because the past had been erased, but because it no longer had to dictate the future.
 
-Grokthar took a bowl, sat down, and let the storm spend itself outside. He was still family in the strange, unfinished way the gods made family. He was not your rival, and he did not need to be Ursalon’s lover to matter.
+Grokthar took a bowl, sat down, and let the storm spend itself outside. He told you about a ridge where lightning had struck the same stone seven times in one evening. Each strike had left a different mark, and the last had opened a seam through which a strange blue moss had begun to grow. He had brought a sample in the wooden case.
 
-That night, thunder guarded the roof while you rested against Ursalon’s warmth. For once, the storm asked nothing of the hearth.
+Ursalon opened it carefully. Inside, nestled in a bed of dark cloth, lay a small stone veined with pale light. It pulsed faintly, like a heartbeat seen through ice.
+
+“Don't put that near the pipes,” Ursalon said.
+
+“Why?”
+
+“Because I don't want to know what happens.”
+
+Grokthar looked offended. “It is perfectly stable.”
+
+From the kitchen came a metallic knock. Pipethor's earlier plumbing contraption answered with three quick taps.
+
+Grokthar looked at Ursalon. Ursalon looked at the ceiling.
+
+“Not tonight,” he said.
+
+The three of you spent the next hour examining the stone. Grokthar explained how the lightning had found the seam. Ursalon asked practical questions about whether it would heat the shelf, crack the table, or attract more storms. You asked whether the moss could be grown in an ordinary pot. Grokthar admitted he had not considered that. It was the first time he had looked at you with genuine curiosity rather than as the new person in Ursalon's life.
+
+“Would you like to see the ridge?” he asked.
+
+“If the weather is safe.”
+
+Grokthar grinned. “I can arrange safe.”
+
+Ursalon gave him a warning look.
+
+“Safer,” Grokthar amended.
+
+Later, when the storm had moved beyond the grove, Grokthar stood by the window and watched the last flashes disappear over the ridge. He seemed quieter than when he had arrived.
+
+“The others will talk,” he said.
+
+“They already do,” Ursalon replied.
+
+“They'll say the cabin has changed.”
+
+“It has.”
+
+“They'll say you have changed.”
+
+Ursalon glanced at you. “I hope so.”
+
+Grokthar turned from the window. There was no bitterness in his expression, though something old and complicated moved beneath the surface. He and Ursalon had shared years of weather, work, and strange divine emergencies. They knew one another's habits too well to mistake familiarity for a simple thing. But neither of them needed to preserve an old arrangement merely because the pantheon had grown accustomed to telling it.
+
+“You know,” Grokthar said, “I never liked being called the other half of anything.”
+
+Ursalon snorted. “You liked it when it sounded impressive.”
+
+“I like sounding impressive.”
+
+“You like hearing yourself.”
+
+“That too.”
+
+You watched them exchange the kind of insults that only worked when affection had already made them safe. Grokthar picked up the wooden case and moved it away from the window. Ursalon offered him a blanket. He accepted it, then sat on the floor with his back against the hearth.
+
+He was still family in the strange, unfinished way the gods made family. He was not your rival, and he did not need to be Ursalon's lover to matter. His place in the cabin had not been removed. It had simply stopped being the only story people could tell about him.
+
+That night, thunder guarded the roof while you rested against Ursalon's warmth. Grokthar slept near the hearth, one arm over his eyes, while the blue-veined stone glimmered faintly inside its case. For once, the storm asked nothing of the hearth.
 
 ### Chapter 5 — The Cabin Learns Your Name
 
-The pantheon noticed. Valthor arrived with a polished smile and a suggestion that a human could never understand a god’s devotion. Thalor watched from the porch, waiting for the bond to crack. Kummor brought whispers: that Ursalon would grow bored, that you would leave, that every quiet happiness was only a pause before loss.
+The pantheon noticed before either of you announced anything. It noticed because the cabin began to behave differently. Ursalon kept a second place set even when he knew you would be away. Your coat remained on its hook. The blue cup stayed beside his own. When visitors arrived, he introduced you without qualification, and when they asked what you were to him, he no longer looked for a convenient answer.
 
-Ursalon listened longer than he needed to. The old fear rose in him—the urge to build walls, to make the cabin impossible to leave, to turn love into a thing he could guard.
+The first to make a spectacle of it was Valthor.
 
-Instead, he asked you what you thought.
+He arrived on a mild afternoon in a dark coat that moved as though wind were permanently caught in its lining. His smile was polished, his boots were clean, and he carried a bottle of amber liquor he claimed had been distilled from the last sunset of a forgotten kingdom. Ursalon accepted the bottle but did not praise it.
 
-You stood together in the doorway, looking out at the grove. The wind carried the smell of wet bark and pine resin. Behind you, the fire clicked and settled.
+Valthor looked around the kitchen. “You've made a domestic arrangement of yourself.”
 
-“I’m here because I choose to be,” you said. “Tomorrow I’ll choose again.”
+“I live here,” Ursalon said.
+
+“Of course. But one expects more from a god of the hearth than a collection of chairs and a reliable soup.”
+
+“Then you should have brought a better soup.”
+
+You were at the table sorting a small pile of herbs Herbarius had left. Valthor gave you a courteous nod, then turned his attention back to Ursalon.
+
+“A human life is brief,” he said. “You must be careful what you build your eternity around.”
+
+Ursalon continued cutting bread. “I don't build my life around eternity.”
+
+Valthor's smile faltered. “No?”
+
+“I build it around who's here.”
+
+The answer was so plain that Valthor could not find an elegant way to challenge it. He stayed for a drink, complimented the fire, and left before supper. The bottle remained unopened on the shelf for several weeks.
+
+Thalor was less direct. He appeared at the edge of the grove in the late afternoon, claiming he had come to inspect the old boundary stones. He spent an hour walking the perimeter, touching the markers, and asking questions that sounded practical until they were heard together. Was Ursalon still visiting the northern ridge? Had Grokthar changed his habits? Did the cabin now receive guests by invitation, or had its doors become permanently open?
+
+Ursalon answered what he wished and ignored the rest. Thalor watched you carry a basket from the garden and asked whether you understood how much attention a divine household attracted.
+
+“I understand that people keep arriving,” you said.
+
+“That is not what I meant.”
+
+“I know.”
+
+Thalor's expression tightened. He had expected either uncertainty or defensiveness. Your refusal to provide either left him with nothing to work against. He departed before sunset, but you saw him looking back once from the path.
+
+Kummor brought a different kind of trouble. He did not arrive openly. Instead, he left small disturbances in familiar places: a cold patch beside the bed, a whisper in the pantry, a dream in which the cabin door would not open. He wanted ordinary moments to become evidence of danger. If Ursalon was quiet, perhaps he was withdrawing. If he was attentive, perhaps he was trying to keep you. If he went out alone, perhaps he had found someone else to protect. Every gesture could be turned into its opposite.
+
+For a few days the whispers worked. You noticed yourself listening too closely to Ursalon's silences. He noticed you becoming watchful and began to worry that he had done something wrong. The cabin grew tense in a way that neither of you could name.
+
+One evening, while you were putting away the dishes, Ursalon asked whether you wanted to talk. You said you were not sure. He waited. The old fear rose in him—the urge to build walls, to make the cabin impossible to leave, to turn love into a thing he could guard. Instead, he asked whether something had happened.
+
+You told him about the dreams. You told him how they had made ordinary things seem uncertain. He listened, his face growing serious, but he did not dismiss the feeling or immediately promise to fix it.
+
+“Do you think they're true?” he asked.
+
+“I think they're getting into my head.”
+
+“That's not the same thing.”
+
+“No.”
+
+He sat beside you. “Then let's not let them answer for us.”
+
+The two of you went through the day slowly. You spoke about the things that had actually happened: the walk you had taken, the disagreement about the shutters, the afternoon he had spent helping Pipethor repair the water system, the fact that he had forgotten to buy flour. None of it was dramatic. The details mattered because they belonged to you, not to Kummor.
+
+The next morning, Ursalon found a dark mark on the inside of the pantry door. It resembled a handprint, but the fingers were too long and the palm seemed to continue into the wood. He did not scrape it away. He called Grokthar.
+
+The thunder god arrived before noon, followed by Herbarius carrying a bundle of rosemary, ash bark, and dried flowers. Grokthar examined the mark without touching it. Herbarius crouched near the floor and pressed one of the herbs against the grain. The smell of crushed leaves filled the kitchen.
+
+“Kummor,” Herbarius said. “He has been feeding on uncertainty.”
+
+“Can you remove it?” you asked.
+
+“I can make it visible,” Herbarius replied. “Removing it will depend on whether the house is willing to stop listening.”
+
+Ursalon looked at the mark. “It's my house.”
+
+Herbarius shook his head. “Not entirely anymore.”
+
+You placed your hand against the door. The wood felt cold beneath your palm. You thought about the dreams, the little suspicions, and the way they had made you question things you had already chosen. Then you thought about the cup beside Ursalon's, the repaired chair, the open path, and the fact that you could leave and return without being made to account for yourself.
+
+The mark loosened. A thin black thread emerged from the wood and curled toward the floor. Grokthar caught it in a small flash of lightning. It vanished with a sound like a breath being drawn through teeth.
+
+Kummor's influence thinned, though nobody pretended the demon had been defeated forever.
+
+That evening, you and Ursalon stood together in the doorway, looking out at the grove. The wind carried the smell of wet bark and pine resin. Behind you, the fire clicked and settled. Valthor's bottle remained unopened. Thalor's footprints had disappeared from the path. Somewhere beyond the ridge, Grokthar's storm moved slowly across the horizon.
+
+“I'm here because I choose to be,” you said. “Tomorrow I'll choose again.”
 
 Ursalon leaned down until his forehead rested against yours. He did not promise that nothing would change. He promised to meet change with you, one day at a time.
 
-Kummor’s whispers thinned in the warmth. Valthor found no grand declaration to exploit. Thalor had to watch a bond that did not need an audience.
+Kummor's whispers thinned in the warmth. Valthor found no grand declaration to exploit. Thalor had to watch a bond that did not need an audience.
 
 The cabin learned your name the way wood learns smoke: slowly, deeply, until it belonged.
 

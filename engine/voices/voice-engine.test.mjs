@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import seed from "./voice-profiles.json" with { type: "json" };
+import { readFileSync } from "node:fs";
+const seed = JSON.parse(readFileSync(new URL("./voice-profiles.json", import.meta.url), "utf8"));
 import { createVoiceStore, analyseSample, recordUtterance, recordEncounter, transferExpression, getVoiceReport, exportVoiceStore } from "./voice-engine.js";
 
 test("analyses sentence rhythm and profanity without assigning personality", () => {

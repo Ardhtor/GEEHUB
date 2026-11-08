@@ -1877,3 +1877,11 @@ SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/bluewater-quay/README.md. Pressure 1.00; memory 1.00.
+
+## BLUEWATER QUAY / pulse 204 / MEMORY
+
+NICK: A detail returns in BLUEWATER QUAY: A rowboat rocks gently against its rope. Someone sits on the long bench with a book while the city lights begin to appear across the water.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/bluewater-quay/README.md.
+
+Source retained: worlds/bluewater-quay/README.md. Pressure 1.00; memory 1.00.

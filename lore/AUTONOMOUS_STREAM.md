@@ -1533,3 +1533,11 @@ SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 204 — MEMORY / BLUEWATER QUAY / 2026-11-08T18:12:39.668579+00:00
+
+NICK: A detail returns in BLUEWATER QUAY: A rowboat rocks gently against its rope. Someone sits on the long bench with a book while the city lights begin to appear across the water.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/bluewater-quay/README.md.
+
+Rule: comparison can become differentiation

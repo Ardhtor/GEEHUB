@@ -1,6 +1,25 @@
 {
-  "cycle": 34,
+  "cycle": 35,
   "events": [
+    {
+      "id": "northgate-campus-00035",
+      "cycle": 35,
+      "world_pulse": 204,
+      "at": "2026-11-08T18:12:39.730545+00:00",
+      "region": "northgate-library",
+      "title": "THE FILM ARCHIVE CLUB",
+      "kind": "film",
+      "participants": [
+        "Elliot Ward",
+        "Marek Ionescu",
+        "Adrian Varga"
+      ],
+      "description": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-08T18:12:39.730545+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00034",
       "cycle": 34,
@@ -607,27 +626,27 @@
   ],
   "attendance": {
     "Dan Roman": 26,
-    "Marek Ionescu": 18,
-    "Elliot Ward": 20,
+    "Marek Ionescu": 19,
+    "Elliot Ward": 21,
     "Noah Bell": 22,
-    "Adrian Varga": 21
+    "Adrian Varga": 22
   },
   "last_event": {
-    "id": "northgate-campus-00034",
-    "cycle": 34,
-    "world_pulse": 203,
-    "at": "2026-11-08T18:05:28.996462+00:00",
-    "region": "athletic-commons",
-    "title": "OPEN GYM AND RECOVERY",
-    "kind": "training",
+    "id": "northgate-campus-00035",
+    "cycle": 35,
+    "world_pulse": 204,
+    "at": "2026-11-08T18:12:39.730545+00:00",
+    "region": "northgate-library",
+    "title": "THE FILM ARCHIVE CLUB",
+    "kind": "film",
     "participants": [
-      "Dan Roman",
-      "Adrian Varga",
-      "Noah Bell"
+      "Elliot Ward",
+      "Marek Ionescu",
+      "Adrian Varga"
     ],
-    "description": "The Commons holds an open session for anyone who wants to train. Experienced students help newcomers set up safely, and the recovery wing stays busy with stretching and quiet conversation. The strongest presence in the room is not a contest; it is the ease of people who know one another.",
+    "description": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-08T18:05:28.996462+00:00",
+    "occurred_at": "2026-11-08T18:12:39.730545+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

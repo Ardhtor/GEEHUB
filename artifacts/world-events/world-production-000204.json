@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000204",
+  "created_at": "2026-11-08T18:12:39.668579+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "MEMORY / BLUEWATER QUAY / worlds/bluewater-quay/README.md",
+  "content": "NICK: A detail returns in BLUEWATER QUAY: A rowboat rocks gently against its rope. Someone sits on the long bench with a book while the city lights begin to appear across the water.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/bluewater-quay/README.md.",
+  "production_note": "The world resolved its memory rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 204,
+    "actor": "TYLER",
+    "world": "BLUEWATER QUAY",
+    "region_id": "bluewater-quay",
+    "source": "worlds/bluewater-quay/README.md",
+    "phase": "MEMORY",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

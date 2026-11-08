@@ -1,5 +1,5 @@
 {
-  "pulse": 203,
+  "pulse": 204,
   "events": [
     {
       "pulse": 1,
@@ -3483,6 +3483,28 @@
       "occurred_at": "2026-11-08T18:05:28.957580+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000204",
+      "pulse": 204,
+      "time": "2026-11-08T18:12:39.668579+00:00",
+      "actor": "TYLER",
+      "world": "BLUEWATER QUAY",
+      "region_id": "bluewater-quay",
+      "previous_region_id": "bluewater-quay",
+      "phase": "MEMORY",
+      "source": "worlds/bluewater-quay/README.md",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in BLUEWATER QUAY: A rowboat rocks gently against its rope. Someone sits on the long bench with a book while the city lights begin to appear across the water.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/bluewater-quay/README.md.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-08T18:12:39.668579+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -3534,7 +3556,7 @@
     "athletic-commons": 193
   },
   "pressure": 1.0,
-  "memory": 1,
+  "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
     "creative/luke-bwomph.json": 20,
@@ -3552,18 +3574,18 @@
     "worlds/cat-gardens/README.md": 2,
     "worlds/founders-dormitory/README.md": 3,
     "worlds/northgate-university/README.md": 8,
-    "worlds/bluewater-quay/README.md": 5,
+    "worlds/bluewater-quay/README.md": 6,
     "worlds/lantern-market/README.md": 3,
     "worlds/northgate-library/README.md": 3,
     "worlds/athletic-commons/README.md": 4
   },
   "next_region": null,
-  "phase": 1,
+  "phase": 2,
   "active_region": "bluewater-quay",
-  "current_phase": "ATMOSPHERE",
-  "current_desire_state": "attention",
-  "current_question": "What does this place do while nobody intervenes?",
-  "current_narrative_rule": "approach extends geography",
+  "current_phase": "MEMORY",
+  "current_desire_state": "recognition",
+  "current_question": "Which detail remains from the prior state?",
+  "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null,
   "long_play": {
     "cycle": 180,

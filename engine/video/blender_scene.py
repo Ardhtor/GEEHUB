@@ -112,6 +112,65 @@ def build_character(growth_ceiling, start_frame, end_frame):
                     key.interpolation = "BEZIER"
 
 
+
+def ring_shell(name, rings, material_slot, segments=32):
+    """Build a closed, low-poly garment shell from elliptical torso/thigh rings."""
+    vertices = []
+    faces = []
+    for cx, cy, z, rx, ry in rings:
+        for index in range(segments):
+            angle = 2.0 * math.pi * index / segments
+            vertices.append((cx + math.cos(angle) * rx, cy + math.sin(angle) * ry, z))
+    for ring in range(len(rings) - 1):
+        for index in range(segments):
+            a = ring * segments + index
+            b = ring * segments + (index + 1) % segments
+            c = (ring + 1) * segments + (index + 1) % segments
+            d = (ring + 1) * segments + index
+            faces.append((a, b, c, d))
+    faces.append(tuple(reversed(range(segments))))
+    faces.append(tuple((len(rings) - 1) * segments + index for index in range(segments)))
+    data = bpy.data.meshes.new(name + " / mesh")
+    data.from_pydata(vertices, [], faces)
+    data.materials.append(material_slot)
+    data.update()
+    obj = bpy.data.objects.new(name, data)
+    bpy.context.scene.collection.objects.link(obj)
+    for poly in data.polygons:
+        poly.use_smooth = True
+    solid = obj.modifiers.new("Textile thickness", "SOLIDIFY")
+    solid.thickness = 0.025
+    bevel = obj.modifiers.new("Soft garment edges", "BEVEL")
+    bevel.width = 0.018
+    bevel.segments = 2
+    return obj
+
+
+def build_wardrobe():
+    """Create a fitted sleeveless top and shorts that share the body growth timeline."""
+    textile = material("WARDROBE / graphite compression fabric", (0.018, 0.045, 0.055), metallic=0.02, roughness=0.72)
+    top = ring_shell(
+        "WARDROBE / fitted sleeveless training top",
+        [
+            (0, 0.0, 1.62, 0.47, 0.31),
+            (0, 0.0, 1.84, 0.55, 0.35),
+            (0, 0.0, 2.12, 0.76, 0.42),
+            (0, 0.0, 2.42, 0.69, 0.39),
+            (0, 0.0, 2.73, 0.48, 0.32),
+        ],
+        textile,
+    )
+    shorts = ring_shell(
+        "WARDROBE / fitted training shorts",
+        [
+            (0, 0.0, 1.10, 0.48, 0.34),
+            (0, 0.0, 0.91, 0.53, 0.38),
+            (0, 0.0, 0.68, 0.58, 0.39),
+        ],
+        textile,
+    )
+    return top, shorts
+
 def build_scene(manifest, output_path, timeline=None, preview_seconds=None, save_blend_path=None):
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -184,6 +243,9 @@ def build_scene(manifest, output_path, timeline=None, preview_seconds=None, save
         if timeline:
             from timeline_growth import animate_timeline_growth
             animate_timeline_growth(mesh, timeline)
+            top, shorts = build_wardrobe()
+            animate_timeline_growth(top, timeline)
+            animate_timeline_growth(shorts, timeline)
     else:
         build_character(ceiling, start_frame, end_frame)
     area_light("Key / cold softbox", ( -3.5, -4.5, 6.5), 1250, (0.62, 0.82, 1.0), 5)

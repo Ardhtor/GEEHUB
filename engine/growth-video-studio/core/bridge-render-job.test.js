@@ -98,6 +98,27 @@ test("prepares a queued job from checksummed segmentation, landmarks, and growth
   assert.equal(validateBridgeManifest(result.manifest).valid, true);
 });
 
+test("carries verified binary-mask and face-exclusion evidence into the render job", () => {
+  const maskPixelAudit = {
+    encoding: "png/grayscale8/binary",
+    pixelDataVerified: true,
+    faceExclusionVerified: true,
+    pairsChecked: 2,
+    disjointPairs: 2,
+    overlapPixels: 0,
+    frames: [0, 1].map(frame => ({
+      frame, bodyForegroundPixels: 180, faceForegroundPixels: 16, overlapPixels: 0
+    }))
+  };
+  const result = prepare({ maskPixelAudit });
+  assert.equal(result.portableJob.frameEvidence.pixelDataVerified, true);
+  assert.equal(result.portableJob.frameEvidence.faceExclusionVerified, true);
+  assert.deepEqual(result.portableJob.frameEvidence.maskPixelAudit, maskPixelAudit);
+  assert.throws(() => prepare({
+    maskPixelAudit: { ...maskPixelAudit, overlapPixels: 1 }
+  }), /body\/face overlap/);
+});
+
 test("does not mutate the registered parent manifest", () => {
   const documents = makeDocuments();
   const manifest = makeManifest(documents);

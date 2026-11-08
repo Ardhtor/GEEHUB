@@ -851,7 +851,7 @@
     "kind": "production",
     "repo": "Ardhtor/GEEHUB",
     "path": "/production/growth-study-001/README.md",
-    "description": "Procedural Blender character-production prototype. V2 fuses anatomical source volumes into a continuous skin surface, adds blended nearest-bone weights, preserves the master growth stages, and keeps lighting, materials, clothing, and atmosphere independently testable.",
+    "description": "Growth Club: a colorful training-floor showcase with connected-body anatomy, staged growth control, gym props, visual stage lamps, animated halo, dual cameras, and adjustable club lighting.",
     "related": [
       "hulums-cave",
       "beefythiq",

@@ -1,0 +1,77 @@
+{
+  "project": "GEEHUB Growth Study 001",
+  "version": 3,
+  "title": "Growth Club",
+  "status": {
+    "source_script": "created",
+    "python_syntax_check": "passed",
+    "blender_execution": "not_run_blender_not_installed",
+    "render_validation": "pending",
+    "rig_validation": "pending",
+    "driver_validation": "pending"
+  },
+  "character_base": "V2 voxel-fused adult male anatomy blockout with blended nearest-bone weights",
+  "controls": {
+    "rig_object": "GROWTH_RIG — master control",
+    "growth": {
+      "range": [0.0, 1.0],
+      "stages": [
+        {"frame": 1, "label": "REST", "value": 0.0},
+        {"frame": 36, "label": "WARM", "value": 0.28},
+        {"frame": 72, "label": "BUILD", "value": 0.62},
+        {"frame": 108, "label": "MAX", "value": 1.0}
+      ]
+    },
+    "club_energy": {
+      "range": [0.0, 2.0],
+      "default": 1.0,
+      "drives": ["key light", "fill light", "rim light", "top strip", "cyan practical", "amber practical"]
+    }
+  },
+  "environment": {
+    "name": "Growth Club Training Floor",
+    "style": "colorful neighborhood training club; midnight teal, deep blue, cyan and amber accents",
+    "elements": [
+      "central presentation podium",
+      "cyan and amber podium rings",
+      "animated lime halo",
+      "neon-style GROWTH CLUB wall sign",
+      "training bench",
+      "dumbbell rack and dumbbells",
+      "four labeled stage lamps",
+      "framed wall bays and practical light strips"
+    ]
+  },
+  "cameras": [
+    {"name": "CAM_GrowthClub_Hero", "role": "default wide showcase"},
+    {"name": "CAM_GrowthClub_Closeup", "role": "anatomy and material inspection"}
+  ],
+  "lighting": {
+    "key": "warm softbox",
+    "fill": "cool blue bounce",
+    "rim": "cyan separation",
+    "top": "warm strip",
+    "atmosphere": "optional subtle club haze",
+    "lighting_control": "club_energy custom property"
+  },
+  "render": {
+    "engine_preference": ["BLENDER_EEVEE_NEXT", "BLENDER_EEVEE", "CYCLES"],
+    "resolution": [1600, 1200],
+    "preview_frames": [1, 108],
+    "output_format": "PNG"
+  },
+  "limitations": [
+    "Blender execution and output are not yet validated",
+    "body is a connected blockout, not production topology",
+    "bone weights are heuristic and need joint inspection",
+    "no corrective shapes, muscle sliding, facial performance, detailed hands, or cloth simulation",
+    "custom properties and timeline provide controls; this is not yet a standalone game"
+  ],
+  "next_steps": [
+    "execute in Blender and inspect renders",
+    "validate club lighting drivers and animated halo",
+    "correct joint deformation",
+    "upgrade skin, cloth, hair, and footwear materials",
+    "add camera motion and a short showcase sequence"
+  ]
+}

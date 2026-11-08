@@ -1018,5 +1018,24 @@
       "character-records",
       "sensation-engine"
     ]
+  },
+  {
+    "id": "hulums-cave",
+    "name": "Hulum's Cave — Central Lineage",
+    "group": "archive",
+    "status": "active",
+    "summary": "Central, cumulative research and production lineage: early comics and games, Maya-era CG growth animation, serialized stories, environments, sound, collaborations, remakes, and generative video. Each iteration adds source-grounded research and links its findings into GEEHUB.",
+    "path": "../research/hulums-cave/README.md",
+    "tags": [
+      "central",
+      "hulumscave",
+      "archive",
+      "comics",
+      "animation",
+      "growth",
+      "video",
+      "continuity",
+      "production"
+    ]
   }
 ]

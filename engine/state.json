@@ -3482,7 +3482,7 @@
     "cat-gardens": 2,
     "founders-dormitory": 2,
     "northgate-university": 3,
-    "bluewater-quay": 1,
+    "bluewater-quay": 2,
     "lantern-market": 2,
     "northgate-library": 1,
     "athletic-commons": 1
@@ -3506,7 +3506,7 @@
     "cat-gardens": 199.5,
     "founders-dormitory": 197.5,
     "northgate-university": 197,
-    "bluewater-quay": 179,
+    "bluewater-quay": 202.5,
     "lantern-market": 202.5,
     "northgate-library": 185.5,
     "athletic-commons": 193
@@ -3537,28 +3537,41 @@
   },
   "next_region": null,
   "phase": 0,
-  "active_region": "lantern-market",
+  "active_region": "bluewater-quay",
   "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 179,
-    "agent": "joseph",
-    "previous_region_id": "common-table",
-    "region_id": "lantern-market",
-    "region_name": "LANTERN MARKET",
-    "relation": "THE LANTERNS COME ON",
+    "cycle": 180,
+    "agent": "chase",
+    "previous_region_id": "lantern-market",
+    "region_id": "bluewater-quay",
+    "region_name": "BLUEWATER QUAY",
+    "relation": "THE WATER OPENS THE VIEW",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 13.86,
-    "scale": 13.98,
-    "recording": "scheduled-recording-00179",
-    "at": "2026-11-08T18:01:09.500Z"
+    "previous_scale": 13.98,
+    "scale": 14.02,
+    "recording": "scheduled-recording-00180",
+    "at": "2026-11-08T18:01:26.316Z"
   },
-  "last_world_change": "2026-11-08T18:01:09.500Z",
-  "scale": 13.98,
+  "last_world_change": "2026-11-08T18:01:26.316Z",
+  "scale": 14.02,
   "external_events": [
+    {
+      "id": "long-play-00180",
+      "type": "CROSSING",
+      "title": "LANTERN MARKET → BLUEWATER QUAY",
+      "body": "The world crossed \"THE WATER OPENS THE VIEW\". Scale increased from 13.98× to 14.02×; the earlier location and baseline remain recorded.",
+      "from": "lantern-market",
+      "to": "bluewater-quay",
+      "previous_region_id": "lantern-market",
+      "region_id": "bluewater-quay",
+      "relation": "THE WATER OPENS THE VIEW",
+      "source": "long-play",
+      "at": "2026-11-08T18:01:26.316Z"
+    },
     {
       "id": "long-play-00179",
       "type": "CROSSING",
@@ -4845,19 +4858,6 @@
       "relation": "THE ARCHIVE OPENS A ROOM",
       "source": "long-play",
       "at": "2026-10-20T15:18:13.392Z"
-    },
-    {
-      "id": "long-play-00080",
-      "type": "CROSSING",
-      "title": "MALE HAREM → BODYLOUNGER",
-      "body": "The world crossed \"THE ARCHIVE OPENS A ROOM\". Scale increased from 7.58× to 7.62×; the earlier location and baseline remain recorded.",
-      "from": "male-harem",
-      "to": "bodylounger",
-      "previous_region_id": "male-harem",
-      "region_id": "bodylounger",
-      "relation": "THE ARCHIVE OPENS A ROOM",
-      "source": "long-play",
-      "at": "2026-10-20T10:19:46.021Z"
     }
   ],
   "last_action": "write-the-unentered-place"

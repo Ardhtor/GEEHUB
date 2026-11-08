@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00179.json",
+  "activeRecording": "./recordings/scheduled-recording-00180.json",
   "activeEncounter": {
-    "regionId": "lantern-market",
-    "regionName": "LANTERN MARKET",
+    "regionId": "bluewater-quay",
+    "regionName": "BLUEWATER QUAY",
     "subject": {
-      "agent": "joseph",
-      "scale": 13.98,
+      "agent": "chase",
+      "scale": 14.02,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / THE COMMON TABLE → LANTERN MARKET / JOSEPH",
+    "intent": "LONG PLAY / LANTERN MARKET → BLUEWATER QUAY / CHASE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 13.86× → 13.98×",
-      "THE COMMON TABLE → LANTERN MARKET",
-      "relation: THE LANTERNS COME ON",
+      "scale 13.98× → 14.02×",
+      "LANTERN MARKET → BLUEWATER QUAY",
+      "relation: THE WATER OPENS THE VIEW",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "common-table"
+    "previousRegionId": "lantern-market"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-08T18:01:09.500Z",
+  "snapshot": "2026-11-08T18:01:26.316Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 179,
-    "agent": "joseph",
-    "previousRegionId": "common-table",
-    "regionId": "lantern-market",
-    "relation": "THE LANTERNS COME ON",
+    "cycle": 180,
+    "agent": "chase",
+    "previousRegionId": "lantern-market",
+    "regionId": "bluewater-quay",
+    "relation": "THE WATER OPENS THE VIEW",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 13.86,
-    "scale": 13.98,
-    "recording": "scheduled-recording-00179",
-    "at": "2026-11-08T18:01:09.500Z"
+    "previousScale": 13.98,
+    "scale": 14.02,
+    "recording": "scheduled-recording-00180",
+    "at": "2026-11-08T18:01:26.316Z"
   }
 }

@@ -73,6 +73,8 @@
       live:true,
       scene:state.scene
     };
+    item.eventId=event.id;
+    saveSession();
     bus.emit(event);
     try{
       const response=await fetch("/api/geehub/inscribe",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({event})});
@@ -142,7 +144,20 @@
     }
   }
   bus.on(event=>{
-    if(!event||!["NOTICE","ENCOUNTER","OFFER","TRANSFORM","RETURN","MEMORY"].includes(event.type))return;
+    if(!event)return;
+    if(event.type==="UTTERANCE"){
+      if(event.inscription_source!=="hub-api"||state.history.some(item=>item.eventId===event.id))return;
+      const item={eventId:event.id,speaker:event.from,utterance:event.utterance||event.body||"",emotional_tone:event.emotional_tone||"",consequence:event.consequence||"",at:event.at,inscription:"durable"};
+      state.history.push(item);state.history=state.history.slice(-12);
+      state.lastSpeaker=item.speaker;
+      state.nextSpeaker=names[event.to]?event.to:null;
+      state.scene={...state.scene,event:item.consequence||item.utterance,lastUtterance:item.utterance};
+      saveSession();renderLine(item);
+      setStatus("REMOTE TURN / RECEIVED");
+      if(state.nextSpeaker)void nextTurn();
+      return;
+    }
+    if(!["NOTICE","ENCOUNTER","OFFER","TRANSFORM","RETURN","MEMORY"].includes(event.type))return;
     state.scene={...state.scene,event:event.body||event.title||event.type,source:event.source||"GEEHUB",regionId:event.regionId||state.scene.regionId};
     if(Array.isArray(event.participants)&&event.participants.length)state.participants=event.participants.filter(id=>names[id]);
     if(names[event.to])state.nextSpeaker=event.to;

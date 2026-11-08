@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00177",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00177.json",
+      "route": {
+        "from": "cat-gardens",
+        "to": "cedar-house",
+        "relation": "GOOD LUCK HAS WHISKERS"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-08T09:31:18.045Z"
+    },
+    {
+      "id": "scheduled-video-00177",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00177.json",
+      "route": {
+        "from": "cat-gardens",
+        "to": "cedar-house",
+        "relation": "GOOD LUCK HAS WHISKERS"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-08T09:31:18.045Z"
+    },
+    {
+      "id": "scheduled-space-00177",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00177.json",
+      "route": {
+        "from": "cat-gardens",
+        "to": "cedar-house",
+        "relation": "GOOD LUCK HAS WHISKERS"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-08T09:31:18.045Z"
+    },
+    {
       "id": "scheduled-sound-00176",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-20T00:41:53.145Z"
-    },
-    {
-      "id": "scheduled-sound-00077",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00077.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "male-harem",
-        "relation": "A RELATIONSHIP HAS GEOMETRY"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-19T21:33:13.591Z"
-    },
-    {
-      "id": "scheduled-video-00077",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00077.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "male-harem",
-        "relation": "A RELATIONSHIP HAS GEOMETRY"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-19T21:33:13.591Z"
-    },
-    {
-      "id": "scheduled-space-00077",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00077.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "male-harem",
-        "relation": "A RELATIONSHIP HAS GEOMETRY"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-19T21:33:13.591Z"
     }
   ]
 }

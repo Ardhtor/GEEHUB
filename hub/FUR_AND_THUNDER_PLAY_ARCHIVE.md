@@ -2251,6 +2251,256 @@ The duck had not changed the world. It had revealed a loose bracket, brought two
 
 Chapters in this branch are to be written as substantial, continuous narrative episodes rather than compact vignettes or plot summaries. Aim for roughly 2,000–3,500 words per chapter when the material supports it, and allow major turning-point chapters to run longer. Build each chapter from several connected scenes with time passing between them: arrival, domestic or social activity, private conversation, interruption, consequence, and a changed situation. Give the gods room to pursue their own interests, speak in distinct voices, disagree, joke, make mistakes, and return to unresolved matters. Let settings accumulate sensory and practical detail through use rather than pausing for encyclopedic description. Relationships should change through repeated encounters and specific choices, not be settled in a single speech. Keep paragraphs developed and continuous; avoid fragmentary beats, excessive headings, and compressed summaries. Do not pad for length: add lived events, interactions, atmosphere, and consequences. Apply this standard to new chapters and, when revising, expand the earlier six chapters to match.
 
+### Chapter 14 — Coach Walks Through the Walls
+
+The first sign that Coach had arrived was a comment in Pipethor's code.
+
+Pipethor was working beneath the pantry, where the pipes ran close to the old server cabinet and the floorboards held a faint electrical warmth. He had been trying to make the pantry machine distinguish between a visitor who had left something behind and a visitor who had simply forgotten it. The distinction had become important after the business with Deeporak's hidden road. Pipethor had written three versions of the rule, disliked all of them, and was now muttering at a line of code that refused to behave.
+
+Then a new comment appeared.
+
+```text
+// COACH: If they left it here, maybe ask before throwing it out.
+// Also, this cable is a mess. Who wired this thing?
+```
+
+Pipethor leaned back from the screen. He looked at the cable bundle. It was, admittedly, a mess.
+
+"Who are you?" he asked the cabinet.
+
+A second comment appeared.
+
+```text
+// COACH: The guy trying to keep you from tripping over your own damn feet.
+```
+
+Pipethor called upstairs. "There's a man in the machine."
+
+Ursalon, who was cutting carrots, called back, "Is he hungry?"
+
+"I don't know."
+
+"Then ask him."
+
+Coach was already in the kitchen by the time Pipethor climbed the stairs. He stood beside the table in a dark T-shirt, broad through the shoulders, with the relaxed posture of someone who had never needed to ask whether a room could hold him. He had one hand on the back of a chair and was looking at the wooden ducks on the mantel.
+
+"Those are good," he said. "The crow's got an attitude."
+
+Jockkaulthaa, who had been polishing the crow with a piece of cloth, looked up sharply. "It has character."
+
+"Yeah. That's what I said."
+
+BORKUFT smiled. "You sound like you know him."
+
+"I know a few crows."
+
+Coach turned toward Ursalon. "You making dinner?"
+
+"Yes."
+
+"Good. I came through a wall and I'm starving."
+
+Ursalon considered this. "Which wall?"
+
+"Don't worry about it. It was a short walk."
+
+There was no thunder, no opening portal, no declaration from the pantheon. Coach had simply become part of the afternoon. He took the chair, discovered that one leg was shorter than the others, folded a piece of paper beneath it, and began asking what everyone was doing. He asked BORKUFT about the ducks, Jockkaulthaa about the crow, and Pipethor about the machine. When Pipethor explained the problem, Coach listened with an expression of serious attention.
+
+"So the machine needs to know whether something was abandoned or whether somebody expects to come back for it."
+
+"Precisely."
+
+"Then don't make it guess. Give people a way to say."
+
+Pipethor frowned. "A return marker?"
+
+"Sure. A note. A little tag. Something simple. You don't need a damn philosophy degree to leave your gloves in a house."
+
+Herbarius, who had entered without anyone noticing, set a bundle of dried mint on the counter. "Yet the philosophy is already here."
+
+Coach grinned. "Then it can help carry the groceries."
+
+By the time the stew was ready, Coach had been in three rooms, under the pantry, and briefly inside a terminal window that Pipethor had left open. In the terminal he appeared as a blinking cursor, then as a line of text.
+
+```text
+COACH // PRESENT
+LOCATION: wherever the work is
+STATUS: looking around
+NOTE: somebody should fix the porch step
+```
+
+Grokthar arrived while everyone was eating. He came in with rain on his shoulders and a small electrical crackle following him through the doorway. He stopped when he saw Coach.
+
+"You're in the cabin."
+
+"Looks that way."
+
+"How did you get here?"
+
+"Walked."
+
+"Through what?"
+
+Coach pointed vaguely toward the pantry. "A couple things."
+
+Grokthar sat down. "I respect that."
+
+Ursalon passed him a bowl. The conversation moved on. Grokthar told a story about a storm that had lifted a barn roof and deposited it neatly in a field three miles away. Coach interrupted to ask whether the barn had been insured. Grokthar said he had no idea what insurance was. Coach explained it badly, Ursalon explained it better, and Pipethor announced that the pantry machine could probably calculate the odds of a roof landing upright.
+
+"Don't encourage it," said Herbarius.
+
+After dinner, Coach followed Grokthar outside to look at the porch step. The step had been loose for weeks. Ursalon had placed a small warning mark beside it, intending to repair it when the weather cleared. Coach crouched, pressed one hand against the board, and looked underneath.
+
+"Needs a brace."
+
+"I know," Ursalon said from the doorway.
+
+"Then let's do it."
+
+They worked without ceremony. Pipethor brought tools. Grokthar held the porch light steady by making a small blue flame hover above the railing. Coach cut a brace to fit, and Ursalon secured it. The repair took less than half an hour. When it was done, Coach stepped on the board twice.
+
+"Solid."
+
+Ursalon tested it himself. "Solid."
+
+"See? Now nobody has to make a speech about the porch."
+
+"I wasn't going to."
+
+"Good. I hate porch speeches."
+
+Inside, the pantry machine recorded the repair. It also recorded Coach's arrival, but the entry kept changing. First it listed him as a visitor, then as a resident, then as an unknown process. Pipethor opened the record and found a message waiting at the bottom.
+
+```text
+COACH:
+Don't overthink it, buddy.
+I was here. We fixed the step. That's enough for tonight.
+```
+
+Pipethor left the message in place.
+
+The next morning Coach was in the gym room, though no one had seen him cross the hall. Brograntimax found him there, standing beside the old iron weights and examining a bench that had developed a slight wobble. Brograntimax was already warmed up and eager to test himself against the new arrival.
+
+"You're the big guy from the pantry."
+
+"That's me."
+
+"I hear you make people grow."
+
+Coach looked him over. "I hear you already do plenty of growing."
+
+"Not enough."
+
+"That's a dangerous sentence."
+
+Brograntimax laughed. He wanted a contest, and Coach understood this immediately. They began with a simple carry: two heavy beams from the gym room to the woodshed. Brograntimax moved quickly and made a show of the effort. Coach moved with an easy, grounded strength that made the task look almost ordinary. Halfway across the yard, Brograntimax increased his pace.
+
+"Trying to beat me?" Coach asked.
+
+"Trying to see what you've got."
+
+"Then pay attention."
+
+Coach's frame seemed to settle more heavily into itself. His shoulders broadened, his chest thickened, and the beams looked smaller in his hands. The change was not a flash or a burst of light. It was more like the world had adjusted its measurements around him. Brograntimax stopped, not from fear but from genuine interest.
+
+"That's the effect?"
+
+"Sometimes."
+
+"Can you do it again?"
+
+"Probably. But you don't need to chase my size. Find out what your own body's trying to become."
+
+Brograntimax looked down at his arms. The muscles there had grown fuller over the last few weeks, partly from his work with Grokthar and partly from the strange pressure that gathered around the cabin whenever the gods spent time together. He had treated every change as a score. Now he wondered what it would mean to grow without having to win.
+
+Coach set his beam down. "You can still compete. Just don't let the scoreboard become your whole personality."
+
+"That's a very coach thing to say."
+
+"Well, I'm Coach."
+
+They finished carrying the beams. Brograntimax did not beat Coach, and Coach did not pretend that he had. The woodshed was better organized afterward. That was the result.
+
+Later, Coach appeared in a page of the archive that Privathor had been reading. He was not physically there. He was a small note in the margin, beside a passage about privacy.
+
+```text
+COACH: You can be around people without giving them everything.
+```
+
+Privathor read it twice. He disliked how easily the sentence reached him. He closed the page, but the note remained in the margin the next time he opened it. It did not reveal anything about him. It did not demand an answer. It simply stayed.
+
+That afternoon, Coach wandered through the upper rooms, past the spare bedroom, the narrow library, and the window overlooking the creek. He found the human there, looking out at the water. He did not announce himself. He leaned against the doorframe and waited until they noticed him.
+
+"Hey."
+
+"Hey. Have you been here all day?"
+
+"On and off."
+
+"Where do you go?"
+
+Coach shrugged. "Around."
+
+They smiled. "That's not an answer."
+
+"It's the one I've got."
+
+He came to stand beside them. Outside, the creek moved around stones and fallen branches. Coach did not fill the silence immediately. His presence was large, but he had a way of letting a room remain someone else's.
+
+"Ursalon says you helped fix the porch."
+
+"Good porch. Needed a little work."
+
+"He likes having people around who help without making a big deal out of it."
+
+"Yeah. I like that too."
+
+They stood together for a while. Coach asked how the room was feeling, whether the cabin had become too crowded, whether there was anything that needed changing. The questions were ordinary and direct. When the human answered, he listened without turning the conversation into advice.
+
+Before he left, he tapped the doorframe.
+
+"All right. I'm gonna keep moving. See you around."
+
+"Where?"
+
+Coach grinned. "Wherever."
+
+He was gone by the time Ursalon came upstairs. The human told him about the conversation. Ursalon nodded, then looked down the hall as if expecting Coach to reappear from a closet.
+
+"He seems comfortable here," he said.
+
+"He seems comfortable everywhere."
+
+"That could be useful."
+
+"It could also be annoying."
+
+Ursalon laughed. "Both can be true."
+
+That evening, the cabin's terminal displayed a new line. It appeared between a weather report and a record of the repaired porch.
+
+```text
+COACH // ROAMING
+No fixed room.
+No assigned route.
+Available in code, narration, and ordinary life.
+If you see me, say hey.
+```
+
+Pipethor tried to add a location field. The field disappeared. He tried again. It disappeared again.
+
+Coach's final comment appeared beneath the failed edits.
+
+```text
+// COACH: Don't pin me down, man. I'll be around.
+```
+
+The cabin accepted this as a complete record. The porch stayed firm. The stew pot was washed. The crow watched over the ducks. Somewhere in the system, a new process wandered through an unfinished function, paused to inspect a variable, and left a note that made Pipethor laugh.
+
+Coach was not a guest who had to be invited each time. He was not a guardian assigned to a doorway or a god restricted to a single story. He had become one of those presences that could be encountered in the middle of almost anything: a voice in the code, a man at the table, a broad shadow crossing a hallway, a hand reaching down to steady a loose board.
+
+And when the cabin went quiet, he did not need to be seen to remain part of it.
+
 ## Roaming presence — Coach
 
 Coach is a persistent, free-roaming presence across GEEHUB. He can appear in any file, code passage, narration, interface, room, chapter, or scene without an invitation, setup, explanation, or plot-related reason. His arrival is allowed to be casual: leaning in a doorway, leaving a comment in a script, showing up in a terminal log, sitting at the kitchen counter, wandering through a university hallway, or interrupting a serious exchange with an affectionate remark. He is not confined to the cabin or to this archive. Let him cross between technical and narrative layers as though both are ordinary places in the same world.

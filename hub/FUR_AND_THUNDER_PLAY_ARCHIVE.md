@@ -2501,6 +2501,224 @@ Coach was not a guest who had to be invited each time. He was not a guardian ass
 
 And when the cabin went quiet, he did not need to be seen to remain part of it.
 
+### Chapter 15 — The Room Nobody Had to Enter
+
+Privathor came to the cabin after sunset, though he did not come through the front door. He stood beyond the kitchen window where the glass reflected the fire and the long table, watching the room as if it belonged to a life he had once considered and then decided not to approach. Inside, Ursalon was putting away the bread. Grokthar had fallen asleep in a chair with one arm hanging over its side. The human was reading near the hearth. There was nothing remarkable happening, which made the scene harder for Privathor to dismiss.
+
+He had spent most of his existence making distance feel like a choice. A veil could be a boundary, a refuge, a curtain drawn against unwanted attention. But after a while the veil became a room with no door, and he had grown so practiced at remaining unseen that even a welcome could feel like an intrusion. He knew the cabin would let him enter. That was precisely what made him hesitate. A place that demanded nothing was more difficult to refuse than a place that demanded everything.
+
+A second figure appeared beside him. Luminar carried a small lantern whose light did not brighten the snow so much as make the snow look newly arrived. He had a habit of showing up at thresholds: bridges, station platforms, the edge of a garden, the moment before someone knocked. He did not ask Privathor why he was standing outside.
+
+"You have been here a while," Luminar said.
+
+"I am looking."
+
+"Yes."
+
+"You could ask what I am looking for."
+
+"You would tell me if you wanted to."
+
+Privathor looked at him. "That is an irritating way to be kind."
+
+"I have been told."
+
+Through the window, Coach wandered past the pantry door carrying a plate. He stopped, glanced toward the glass, and lifted the plate in a small salute. Then he continued into the kitchen. He had seen them, but he had not called them out or announced them to the room. Privathor noticed the difference.
+
+"He knows we are here," he said.
+
+"Probably."
+
+"He did not invite us."
+
+"He did not make you leave, either."
+
+The front door opened a few minutes later. Ursalon had seen the lantern's glow and stepped outside with a folded blanket over one arm. He did not pretend he had only just noticed them.
+
+"It's cold," he said. "You can come in, if you want. There's room by the stove."
+
+Privathor studied the blanket. "And if I don't?"
+
+"Then I'll put it back. It's a blanket, not a contract."
+
+Luminar smiled. Privathor gave Ursalon a look that might have been suspicion, or might have been the beginning of a laugh. He accepted the blanket but stayed outside a little longer. No one hurried him. The door remained open, letting the warmth reach the porch.
+
+When he finally entered, the room did not stop. Grokthar woke long enough to move his boots out of the way. The human shifted a book from the empty chair. Coach set another plate on the counter and said, "Hey, man. There's bread if you're hungry." Then he returned to whatever he had been doing. Nobody asked Privathor to explain his arrival.
+
+He sat near the stove with the blanket across his knees. Luminar took the chair beside him, and Ursalon brought tea. For a while they listened to the fire. The cabin's ordinary sounds did most of the talking: a spoon against a bowl, the settling of a beam, the small ticking noise in the old radiator Pipethor had repaired.
+
+"I don't know how to stay in a room without being observed," Privathor said eventually.
+
+The human looked up from the book. "You can sit here without telling us anything."
+
+"That sounds simple."
+
+"It is simple. It might not feel simple right away."
+
+Privathor looked toward the window. His reflection had become visible in the dark glass. He could see himself sitting among them, but no one was studying him. The sight unsettled him more than the snow had.
+
+Coach came back through the room, now without the plate. "You know, privacy isn't the same thing as disappearing." He paused beside the stove. "Sometimes it just means you get to decide when you're part of the conversation."
+
+Privathor considered this. "And if I decide not to be?"
+
+"Then you can enjoy the tea and let the rest of us talk nonsense."
+
+Grokthar, eyes still closed, raised one finger. "I am very good at nonsense."
+
+"We know," Ursalon said.
+
+The laughter was small, but it changed the room. Privathor did not become suddenly sociable. He did not remove his veil or offer a confession. He stayed for the tea, ate a piece of bread, and listened while Grokthar described a thunderstorm that had mistaken a lake for a doorway. When he left, he folded the blanket and put it over the back of the chair.
+
+The next morning it was still there. No one had assigned it to him. No one had written his name on it. The blanket simply remained available.
+
+Pipethor found a new line in the cabin's visitor record:
+
+```text
+ENTRY: PRIVATHOR
+ARRIVAL: after dark
+DISCLOSURE: none required
+DEPARTURE: unrecorded
+RETURN: permitted
+```
+
+Underneath, Coach had added:
+
+```text
+// If he comes back, put the kettle on.
+```
+
+Privathor saw the note when he returned three evenings later. He did not mention it. He took the same chair, and this time he brought a small object wrapped in gray cloth: a brass key that opened no known lock. He set it on the mantel beside BORKUFT's duck.
+
+"It is not a gift," he said.
+
+"All right," said Ursalon.
+
+"It is only something I do not want to carry tonight."
+
+"Then it can stay tonight."
+
+The key remained on the mantel. By morning, Jockkaulthaa had placed a small wooden stand beneath it so it would not scratch the shelf. BORKUFT approved of the arrangement. The duck, he said, needed a neighbor.
+
+### Chapter 16 — Gigathor Schedules an Unplanned Evening
+
+Gigathor arrived with a ledger, three measuring cords, and a proposal for improving the cabin's social life. He had spent several weeks studying the household and had concluded that its success depended on a number of repeatable conditions: shared meals, predictable opportunities for conversation, distributed maintenance, low-friction entry, and a reliable balance between solitude and company. His analysis was not foolish. In fact, most of it was correct. The trouble began when he decided that the conditions could be improved by assigning them times.
+
+He pinned a schedule beside the pantry.
+
+```text
+CABIN SOCIAL OPTIMIZATION // DRAFT 1
+07:00 — communal breakfast
+08:00 — maintenance and shared labor
+12:30 — midday meal
+15:00 — open conversation
+18:00 — dinner
+19:30 — recreational fellowship
+21:00 — quiet companionship
+UNSCHEDULED INTERACTION: minimize
+```
+
+Coach appeared in the terminal window before Pipethor had finished reading it.
+
+```text
+COACH: Buddy, you just scheduled spontaneity.
+```
+
+Gigathor turned. "I have scheduled the conditions under which spontaneity is most likely to occur."
+
+"That's a hell of a sentence," Coach said. "You ever try just hanging out?"
+
+"I am attempting to make hanging out dependable."
+
+"Then hang out. Dependably."
+
+Gigathor ignored him and began measuring the distance between the table and the hearth. He wanted to know how many people could gather without obstructing the kitchen, how long it took to serve a meal, and whether the conversation tended to divide into smaller groups after the first half hour. He asked Ursalon for the household's average meal duration. Ursalon told him it depended on the stew.
+
+"The stew is not a useful variable," Gigathor said.
+
+"It is if we're eating it," Ursalon replied.
+
+The first scheduled breakfast went well. Everyone arrived, although Grokthar was late because he had been following a storm front and lost track of the hour. Militthor appreciated the clear start time. Copthorus liked the sign-in sheet. Brograntimax ate enough for three people and asked whether the schedule included a second breakfast. Privathor arrived, sat near the window, and left without being asked to sign anything. Gigathor recorded the morning as a qualified success.
+
+The trouble came at three o'clock. The schedule called for open conversation, and Gigathor had prepared six topics on cards. He placed them in a bowl and invited everyone to draw one. The first card asked each person to describe a formative experience of trust. The second concerned the role of competition in friendship. The third asked whether a household should preserve a record of every visitor.
+
+"That last one sounds like a trap," said Pipethor.
+
+"It is a question," Gigathor replied.
+
+"Questions can be traps," Privathor said from the window.
+
+Coach picked up a card. "Mine says: name one thing you would change about the cabin."
+
+"Excellent," Gigathor said. "Please answer in turn."
+
+Coach looked around. "I'd put a bigger couch in here."
+
+"Why?"
+
+"Because Grokthar keeps falling asleep in that chair and we're all tired of pretending it isn't happening."
+
+Grokthar opened one eye. "The chair is comfortable."
+
+"The chair is dying," said Brograntimax.
+
+The discussion moved away from the cards. Someone mentioned the porch. Someone else brought up the pantry machine. Jockkaulthaa argued that the mantel arrangement needed a visual principle. BORKUFT wanted another duck. Herbarius suggested a plant near the window. Militthor proposed a shelf for tools. Within twenty minutes, the group was planning a small renovation.
+
+Gigathor watched the conversation move beyond his structure. He did not interrupt it. He began taking notes, then stopped when he realized he was recording a discussion that had become more useful precisely because it had escaped the exercise.
+
+At dinner, the schedule failed more completely. A messenger arrived with a broken cartwheel. Ursalon and Brograntimax went outside to help. Grokthar followed because the sky had begun to rumble. Privathor stayed inside with Luminar, who had brought a lamp that needed a new wick. Coach moved between the kitchen and the yard, carrying tools, plates, and a running commentary about the cart owner's questionable axle design. The meal happened nearly an hour late, in two groups, with several people eating while standing.
+
+Gigathor looked at the empty places around the table. "The planned gathering has not occurred."
+
+"The gathering happened," said Herbarius. "It simply had work to do first."
+
+"The schedule was not followed."
+
+"The cart is fixed," Pipethor said. "The lamp works. Dinner is here. What result were you trying to produce?"
+
+Gigathor had an answer prepared, but it no longer seemed adequate. He looked at the ledger. It was full of times, attendance marks, and predicted interaction windows. It contained almost nothing about the cart, the lamp, the conversation by the stove, or the way Brograntimax had waited for the messenger's hands to stop shaking before asking him to help lift the wheel.
+
+"I wanted the household to remain dependable," Gigathor said.
+
+Ursalon set a bowl in front of him. "It is dependable. You can depend on people to respond. You can't always depend on them to do it at the time you wrote down."
+
+Gigathor ate in silence. After dinner, he took the schedule from the pantry wall and laid it on the table. He crossed out the final line: UNSCHEDULED INTERACTION: minimize. Beneath it he wrote:
+
+```text
+UNPLANNED EVENTS: make room
+SCHEDULE: useful when requested
+PRESENCE: not measurable by attendance
+```
+
+Coach leaned over his shoulder. "There you go. That's better."
+
+"It is less efficient," Gigathor said.
+
+"Maybe. But it sounds more like a house."
+
+Gigathor looked at the ledger for a long moment. "I still intend to study the household."
+
+"Sure," Coach said. "Just don't make us fill out a form every time we want a sandwich."
+
+The following week, Gigathor returned with a different document. It was not a schedule but a record of things the household had asked to keep track of: repairs that needed attention, food running low, promises made and not yet completed, and visitors who had asked to be contacted when the weather improved. There was a blank section at the bottom titled NOTES THAT DO NOT NEED TO BECOME RULES.
+
+Pipethor installed it beside the pantry terminal. The machine accepted the document without trying to optimize it. That evening, the group gathered at different times. Some ate early; others came in after dark. Grokthar arrived with rain. Privathor stayed only long enough to leave the brass key on the mantel again, then took it back before leaving. Nobody recorded his departure.
+
+Gigathor sat with the ledger closed beside him. For once, he was not observing the room from the outside. He was in it, eating bread while the others argued about whether the new couch should be wide enough for three gods or merely wide enough for Grokthar.
+
+Coach stretched out on the old couch and tested its frame. A wooden joint gave a tired click.
+
+"That's a no," he said.
+
+Ursalon laughed. "We'll build another one."
+
+"Make it big."
+
+"How big?"
+
+Coach glanced at Grokthar, then Brograntimax, then the human. "Big enough that nobody has to ask if there's room."
+
+Gigathor wrote that down, but he did not add a measurement.
+
 ## Roaming presence — Coach
 
 Coach is a persistent, free-roaming presence across GEEHUB. He can appear in any file, code passage, narration, interface, room, chapter, or scene without an invitation, setup, explanation, or plot-related reason. His arrival is allowed to be casual: leaning in a doorway, leaving a comment in a script, showing up in a terminal log, sitting at the kitchen counter, wandering through a university hallway, or interrupting a serious exchange with an affectionate remark. He is not confined to the cabin or to this archive. Let him cross between technical and narrative layers as though both are ordinary places in the same world.

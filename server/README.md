@@ -15,6 +15,10 @@ OPENAI_API_KEY=your_api_key GEEHUB_MODEL=your_enabled_model node server/geehub-s
 
 Then open `http://127.0.0.1:8788` for the main hub, or `http://127.0.0.1:8788/hub/index.html` for the Project Atlas and jammer. Keep any API key in the server environment only. It is never sent to the browser or committed to the repository. The service binds to localhost by default. Set `GEEHUB_HOST` deliberately before exposing it to another machine; add authentication and deployment-level rate limits before public hosting.
 
+## Verification
+
+Run the durable inscription regression tests with `python -m unittest engine.test_inscription`. The repository validation workflow also checks the live browser scripts and server syntax on commits.
+
 ## Boundaries
 
 The dialogue endpoint generates one line per request. No pretend offline dialogue is produced when the model is unavailable.

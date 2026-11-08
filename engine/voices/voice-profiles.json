@@ -1,43 +1,74 @@
 {
   "schema_version": 1,
   "engine": "geehub-developing-voices",
-  "principle": "Profiles are provisional hypotheses refined by observed dialogue. Never invent an accent, biography, or speech habit without evidence.",
+  "principle": "Voices change through immediate encounters. Every utterance updates live context for the next turn; profiles are editable starting points, not fixed templates or prerequisites for dialogue.",
   "characters": {
     "teal-titan": {
       "display_name": "Teal Titan",
       "status": "provisional",
-      "starting_hypotheses": ["relaxed confidence", "economical phrasing", "dry humour", "comfortable silence"],
+      "starting_hypotheses": [
+        "relaxed confidence",
+        "economical phrasing",
+        "dry humour",
+        "comfortable silence"
+      ],
       "observed_samples": [],
       "expressions": [],
       "relationships": [],
-      "open_questions": ["How does his register change with Joey?", "What does he sound like when genuinely unsettled?"]
+      "open_questions": [
+        "How does his register change with Joey?",
+        "What does he sound like when genuinely unsettled?"
+      ]
     },
     "joey": {
       "display_name": "Joey",
       "status": "provisional",
-      "starting_hypotheses": ["responsive rhythm", "conversational improvisation", "intimate teasing", "variable register by company"],
+      "starting_hypotheses": [
+        "responsive rhythm",
+        "conversational improvisation",
+        "intimate teasing",
+        "variable register by company"
+      ],
       "observed_samples": [],
       "expressions": [],
       "relationships": [],
-      "open_questions": ["Which phrases are distinctly his?", "How does he speak when he stops joking?"]
+      "open_questions": [
+        "Which phrases are distinctly his?",
+        "How does he speak when he stops joking?"
+      ]
     },
     "marcus": {
       "display_name": "Marcus",
       "status": "provisional",
-      "starting_hypotheses": ["directness", "social expressiveness", "competitive banter", "comic amplification"],
+      "starting_hypotheses": [
+        "directness",
+        "social expressiveness",
+        "competitive banter",
+        "comic amplification"
+      ],
       "observed_samples": [],
       "expressions": [],
       "relationships": [],
-      "open_questions": ["Which gym expressions originate with him?", "How does he behave outside the gym?"]
+      "open_questions": [
+        "Which gym expressions originate with him?",
+        "How does he behave outside the gym?"
+      ]
     },
     "arthur": {
       "display_name": "Arthur",
       "status": "provisional",
-      "starting_hypotheses": ["precise observation", "attention to conversational function", "language acquisition through encounters"],
+      "starting_hypotheses": [
+        "precise observation",
+        "attention to conversational function",
+        "language acquisition through encounters"
+      ],
       "observed_samples": [],
       "expressions": [],
       "relationships": [],
-      "open_questions": ["Which borrowed expressions become natural to him?", "What remains distinctively Arthurian?"]
+      "open_questions": [
+        "Which borrowed expressions become natural to him?",
+        "What remains distinctively Arthurian?"
+      ]
     }
   },
   "encounters": []

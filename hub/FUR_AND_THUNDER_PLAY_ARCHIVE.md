@@ -1671,6 +1671,582 @@ The hidden road remained beneath the grove, marked by three stones and a ring of
 
 For the moment, that was enough.
 
+### Chapter 12 — The Rules of the Open Gate
+
+Militthor arrived at the cabin with six men, a regulation book, and a gate.
+
+The gate was not attached to anything. It had been carried in sections and assembled on the path, where it now stood between two pine trees with a brass latch and a small plaque bearing the words ENTRY BY PERMISSION. The six men had formed a line behind it. They wore dark coats, carried no visible weapons, and appeared to have been instructed not to look at the cabin until they were addressed.
+
+Ursalon watched from the porch.
+
+“Is that ours?” you asked.
+
+“I hope not.”
+
+Militthor approached with the regulation book tucked beneath one arm. He was immaculate, as usual. His boots were clean despite the muddy path, and his coat sat so precisely across his shoulders that it seemed to have been measured while he stood at attention.
+
+“I have brought an improvement,” he said.
+
+Ursalon looked at the gate. “To the trees?”
+
+“To the approach.”
+
+“The approach to what?”
+
+“The cabin.”
+
+“People already know how to walk up it.”
+
+“They know how to walk. They do not know when they are permitted to enter.”
+
+Ursalon considered this. “They knock.”
+
+“Knocking is a custom, not a system.”
+
+“It has worked.”
+
+Militthor opened the regulation book. He had developed a procedure for arrivals, visitors, deliveries, emergencies, and disputes. The gate would establish a boundary between the outside world and the household. Visitors would state their purpose, receive a classification, and wait for an escort if required. Those with unresolved grievances would be directed to a separate waiting area. Those who had previously caused damage would be subject to supervised entry.
+
+“You have invented a border,” you said.
+
+“I have formalised an existing one.”
+
+“Where does the border end?”
+
+Militthor gestured toward the gate. “There.”
+
+“And where does the cabin begin?”
+
+“Beyond it.”
+
+Ursalon folded his arms. “The cabin begins wherever someone is welcomed.”
+
+Militthor looked at him with a restrained expression of professional patience. “That is a sentimental definition.”
+
+“It is the one we use.”
+
+Copthorus emerged from behind the line carrying a smaller book. He had been assigned to oversee the practical enforcement of the new rules. Unlike Militthor, he seemed pleased by the arrangement. He inspected the latch, tested its resistance, and asked whether the gate could be locked from both sides.
+
+“It can,” Militthor said.
+
+“Good. We should also establish a record of departures.”
+
+“Why?”
+
+“To know who is still inside.”
+
+Ursalon looked at you. You could see him trying to decide whether the question deserved an answer.
+
+Grokthar arrived just then, walking up the path with a sack over one shoulder. He stopped before the gate.
+
+“What's this?”
+
+“An entry-control structure,” Militthor replied.
+
+“Does it control the entry?”
+
+“It regulates it.”
+
+Grokthar reached for the latch. Copthorus stepped forward.
+
+“State your purpose.”
+
+“I'm bringing pears.”
+
+“Are they declared?”
+
+“They're in a sack.”
+
+“That's not a declaration.”
+
+Grokthar looked at the sack, then at Copthorus. “I can declare them pears.”
+
+“Origin?”
+
+“A tree.”
+
+“Location?”
+
+“Outside.”
+
+“Ownership?”
+
+“Whoever ate them last.”
+
+Militthor closed his eyes briefly. Grokthar opened the gate and walked through. The latch made a neat metallic click behind him.
+
+“That,” Militthor said, “is precisely the problem.”
+
+“No,” Ursalon replied. “That's Grokthar.”
+
+The first day of the new system was not a success, though Militthor recorded it as an initial trial. BORKUFT arrived carrying a basket of mushrooms and was classified as a provision-bearing visitor. Jockkaulthaa objected to the classification because the mushrooms had not been arranged according to any recognisable aesthetic principle. BORKUFT ate one while they argued. The gate's register listed him as a possible food hazard.
+
+PEMDAS arrived without announcing himself and sat on the outside step. Copthorus asked him to state his purpose.
+
+“I'm sitting.”
+
+“Purpose of the visit?”
+
+“To sit.”
+
+“Duration?”
+
+“Until I stop.”
+
+“Expected time of departure?”
+
+“When I leave.”
+
+Copthorus entered the answers into the register. PEMDAS watched him with mild interest, then asked whether the register had a category for people who had no particular business.
+
+“It has a general category,” Copthorus said.
+
+“Then I suppose I'm general.”
+
+He remained on the step for two hours. When he finally entered, he did so because Ursalon had brought him a bowl of soup and asked whether he wanted to eat inside. Copthorus did not record the invitation.
+
+By late afternoon the gate had acquired a queue. The line included two travelling craftsmen, a messenger who had come to ask Grokthar about a storm, and a small animal that Militthor could not classify. The animal passed through the bars without touching them and settled beneath the porch. Copthorus marked it as an unregistered entry.
+
+“You cannot register a squirrel,” BORKUFT said.
+
+“We can register its presence.”
+
+“Does it have to sign?”
+
+“If necessary.”
+
+The squirrel ran off with the end of the measuring cord.
+
+Militthor took the regulation book inside. He had expected resistance from Grokthar and perhaps some disorder from BORKUFT, but the others' response troubled him more. Nobody seemed to understand that he was trying to prevent harm. They treated the gate as an inconvenience, a joke, or an invitation to debate. He had seen what happened when a gathering had no structure. He had watched a dispute become a feud because no one had authority to intervene. He had seen powerful beings use charm and appetite to make their own desires seem like everyone else's.
+
+He did not want the cabin to become another place where the loudest person decided what was allowed.
+
+You found him at the kitchen table, studying the register. The pantry machine had illuminated its blue strip and was displaying the day's entries. It had created a new category: PEOPLE WHO HAVE BEEN ASKED TO EXPLAIN WHY THEY ARE HERE.
+
+Militthor read it twice.
+
+“That's not a useful category,” he said.
+
+“It seems fairly accurate,” you replied.
+
+“Accuracy is not the same as usefulness.”
+
+“Neither is order.”
+
+He looked up. “You think I am trying to control the household.”
+
+“I think you're trying to make sure nothing bad happens.”
+
+“Those are not mutually exclusive.”
+
+“No. But they're not identical either.”
+
+He closed the book. “You have no idea what it is like to be responsible for a group of powerful men who believe that every limit is an insult.”
+
+You did not answer immediately. Outside, Grokthar was laughing at something. The sound travelled through the open window and made the room feel less formal.
+
+“Perhaps,” you said. “But the people here aren't a unit under your command.”
+
+Militthor's expression tightened. “A group without rules is vulnerable.”
+
+“A group without choice is something else.”
+
+He looked toward the gate. “And when someone arrives intending harm?”
+
+“Then we respond to what they do.”
+
+“After they have entered?”
+
+“Sometimes before. Sometimes at the door. But you have to know the difference between a guest and an enemy.”
+
+Copthorus came in with the register. “There is a question about the departure procedure.”
+
+Militthor turned. “What question?”
+
+“Several people have left without notifying me.”
+
+“Who?”
+
+“Grokthar. PEMDAS. BORKUFT. The squirrel.”
+
+“The squirrel is not a visitor.”
+
+“It has entered the grounds.”
+
+Militthor pressed his fingers against the bridge of his nose. You could see that he was trying not to laugh, and that the effort made him more irritated.
+
+Ursalon entered carrying a tray. “I've made a decision.”
+
+Militthor straightened. “What decision?”
+
+“The gate can stay until tomorrow.”
+
+Copthorus looked satisfied.
+
+“Then we're taking it down,” Ursalon continued.
+
+Militthor's shoulders stiffened. “You cannot assess a system after one day.”
+
+“I can assess a gate that stops people reaching the front door.”
+
+“It does not stop them. It organises them.”
+
+“It makes them wait in the rain.”
+
+Ursalon set the tray on the table. He had brought bread, soup, and a plate of pears from Grokthar's sack. “I understand why you built it. I know you want the cabin to be safe. But safety cannot mean that everyone has to prove they deserve to come inside.”
+
+Militthor looked at the food. “And what would you have me do when someone comes here to cause harm?”
+
+“Help us decide what to do. Stay at the door if you need to. Ask questions. Watch carefully. But don't turn every arrival into a trial.”
+
+Copthorus glanced at the register. “We could retain a record of serious incidents.”
+
+“That might be useful,” you said. “If the record is about what happened, rather than who someone is forever.”
+
+Militthor considered the distinction. His whole profession had been built around categories that persisted: authorised, unauthorised, reliable, dangerous, disciplined, insubordinate. A record that could change was less satisfying to him than a permanent classification. It was also more honest.
+
+The following morning, the gate was still standing. Militthor had not dismantled it. Instead, he had removed the plaque and placed it on the table. He had also rewritten the first page of the regulation book.
+
+The new rule was brief: ANYONE MAY APPROACH THE HOUSE. ENTRY MAY BE REFUSED WHEN THERE IS A REASON. A REASON MUST BE STATED.
+
+Copthorus read it and frowned. “That leaves a lot to judgement.”
+
+“Yes,” Militthor said.
+
+“Whose judgement?”
+
+“The people present.”
+
+“What if they disagree?”
+
+“Then they will have to speak.”
+
+Copthorus seemed to find this considerably less efficient than the original system. He did, however, accept the assignment of keeping watch when the cabin was empty. He would no longer record every departure, but he could keep an account of damage, threats, and repairs. The register became a record of events rather than a list of permissions.
+
+The gate itself was dismantled after breakfast. Pipethor took the hinges, Jockkaulthaa kept the brass latch because he thought it might be useful in a sculpture, and BORKUFT carried one of the posts away to make a perch for the squirrel. Militthor watched them work. He did not help at first. Then he noticed that one of the posts was splitting along the grain and stepped forward to show Pipethor how to brace it.
+
+“You could have told me that yesterday,” Pipethor said.
+
+“I did not know you were going to cut it.”
+
+“I didn't know either.”
+
+Militthor gave him a look.
+
+By noon the path was open again. There was no plaque, no register at the entrance, and no line of waiting visitors. The cabin's front step had been swept clean. The porch lantern stood where it had always stood.
+
+Militthor remained for lunch. He sat with his back to the wall, where he could see both the door and the window. It was a habit he did not seem prepared to abandon. Copthorus sat opposite him, still dissatisfied with the new arrangement.
+
+“What happens if a dangerous person arrives?” Copthorus asked.
+
+Ursalon passed him the bread. “Then we'll deal with that person.”
+
+“And if we cannot agree?”
+
+“Then we'll keep talking until we know what we're doing.”
+
+“That is not a procedure.”
+
+“No,” Ursalon said. “It's a responsibility.”
+
+Militthor ate in silence. Later, he helped repair the porch step, which had been loosened by the gate's installation. He measured the board twice, cut it once, and fitted it with a precision that Pipethor privately admired. When the work was finished, Militthor tested the step with his full weight.
+
+“It will hold,” he said.
+
+Ursalon nodded. “Good.”
+
+Militthor looked at the open path. “I still think the household needs a system.”
+
+“It has one.”
+
+“What is it?”
+
+Ursalon glanced toward the kitchen, where you were putting away the bowls and Grokthar was arguing with BORKUFT about whether pears could be used as ammunition.
+
+“We notice when someone needs help. We ask before deciding for them. We remember what happened. We leave room for people to change.”
+
+Militthor looked dissatisfied, but he did not disagree.
+
+Before leaving, he took the old plaque from the table and turned it over. On the blank side he wrote: REPAIRS, WATCH, AND WEATHER. He fixed it to the inside of the woodshed, where it could serve as a reminder of practical work rather than a warning to visitors.
+
+Copthorus read the new inscription.
+
+“It's a poor title,” he said.
+
+“Suggest a better one.”
+
+Copthorus thought for a moment. “Household duties.”
+
+Militthor considered it. “Acceptable.”
+
+That evening, the cabin received three visitors. None was asked to declare a purpose. One needed a dry place to sit. One had come to return a borrowed tool. The third had no particular reason and stayed for supper.
+
+The door opened and closed as it always had. The house remained safe, though not because every person had been made to wait outside. It was safe because the people within it had begun to understand what they were responsible for.
+
+### Chapter 13 — The Duck at the Centre of the World
+
+The duck disappeared during breakfast.
+
+BORKUFT had placed it on the mantel the previous evening, directly beneath the old iron key. It was a wooden duck with a crooked beak, a broad body, and one wing that sat slightly higher than the other. Jockkaulthaa had called it an unresolved design problem. BORKUFT had called it his finest work. Ursalon had allowed it to remain on the mantel because it made the room look occupied even when nobody was there.
+
+In the morning, the mantel was empty.
+
+BORKUFT stood before it with both hands on his hips. “Someone has taken the duck.”
+
+Jockkaulthaa looked up from his tea. “Perhaps it has finally left.”
+
+“Ducks don't leave.”
+
+“Wooden ducks can be carried.”
+
+“That's not leaving. That's being taken.”
+
+The accusation travelled through the cabin faster than the news itself. Pipethor was asked whether he had moved it while repairing the pantry display. He had not. Grokthar was asked whether a gust of wind might have carried it away. He said that he could move a wooden duck with thunder, but had not done so. PEMDAS was asked whether he had seen it. He said he had seen many things that morning, including a spoon, two clouds, and a man who had forgotten why he entered a room.
+
+“Was the duck among them?” BORKUFT asked.
+
+“I don't remember.”
+
+“That is not helpful.”
+
+“It wasn't intended to be.”
+
+Jockkaulthaa began an investigation. He inspected the mantel, the floor, the nearby shelves, and the angle of the window. He asked everyone to remain where they were while he reconstructed the duck's last known position. BORKUFT followed him closely, offering details that were not always relevant.
+
+“The beak pointed toward the door.”
+
+“Why?”
+
+“It likes the door.”
+
+“Objects do not like doors.”
+
+“This one does.”
+
+Jockkaulthaa wrote that down.
+
+The pantry machine had registered the duck as an object of unresolved purpose. It displayed its last known location and a small diagram of the mantel. Beneath the diagram it had added: POSSIBLE MOVEMENT: VOLUNTARY OR INVOLUNTARY.
+
+BORKUFT read the line and looked pleased. “It might have gone for a walk.”
+
+Jockkaulthaa refused to entertain this possibility. He had already established three categories of suspect: those who had reason to move the duck, those who could have moved the duck, and those who might have moved the duck without remembering. PEMDAS appeared in all three categories.
+
+The search spread into the rest of the house. Ursalon checked the pantry, the cupboards, and the space behind the stove. Grokthar looked beneath the porch. Pipethor inspected the crawlspace, where he found a loose washer, two old nails, and a small packet of seeds that he could not explain. None of them found the duck.
+
+By midmorning, BORKUFT had become quiet. He sat on the hearth rug, turning a small piece of wood between his fingers. It was not another duck. It was a rough block he had been shaping into a companion for the first one.
+
+You sat beside him.
+
+“Are you upset?”
+
+“A little.”
+
+“Because it was taken?”
+
+“Because I hadn't finished telling it what the house was like.”
+
+You looked at the unfinished block. “You were going to make another?”
+
+“I was going to make a friend.”
+
+Jockkaulthaa, who had been listening from the table, put down his pencil. “You could make a more refined version.”
+
+BORKUFT shook his head. “It wasn't supposed to be refined.”
+
+“I understand that. I am suggesting improvement.”
+
+“It was already right.”
+
+Jockkaulthaa looked at the empty mantel. He had spent the morning treating the duck as a problem to solve, a missing object with a location that could be calculated. He had not considered that BORKUFT had made it because he wanted something in the house that was his own, something that could sit in the room without needing to be useful or impressive.
+
+“Perhaps,” he said, “I have been looking for the wrong thing.”
+
+The investigation changed direction. Instead of asking who had moved the duck, Jockkaulthaa asked who had last touched it. BORKUFT remembered setting it on the mantel. You remembered wiping dust from its back the previous afternoon. Ursalon remembered moving the iron key to make room. Pipethor remembered that the pantry's new cable had been run behind the mantel, but insisted he had not touched the duck.
+
+That left the wall.
+
+Pipethor removed the small panel behind the mantel. Inside was a narrow gap between the stonework and the old timber frame. The cable passed through it, then descended toward the crawlspace. A faint scraping sound came from within.
+
+Grokthar crouched and listened.
+
+“Something's in there.”
+
+“Is it alive?” BORKUFT asked.
+
+“Not in the usual way.”
+
+The sound came again. A soft knock, then a dragging noise.
+
+Pipethor reached into the gap and pulled out a length of cable. Attached to it was a small brass hook, which had caught the duck's raised wing. The cable had slowly drawn the wooden figure into the wall, where it had become wedged between the stone and a support beam.
+
+BORKUFT leaned forward. “There!”
+
+Pipethor tried to pull it free, but the wing had caught. He stopped when he felt the wood begin to strain.
+
+“Don't break it,” BORKUFT said.
+
+“I know.”
+
+“It's delicate.”
+
+Jockkaulthaa looked at the duck's broad body. “It is not delicate.”
+
+“It can be.”
+
+Ursalon brought a small lamp. Pipethor loosened the cable, and Jockkaulthaa reached into the gap with a narrow wooden tool. Together they eased the wing away from the hook. The duck came free with a little shower of dust and a dry click.
+
+BORKUFT received it in both hands. One edge of the raised wing had been scratched. Otherwise it was unharmed.
+
+He held it close, inspecting the damage. “It went into the wall.”
+
+“It was pulled into the wall,” Pipethor said.
+
+“Maybe it wanted to see the inside.”
+
+Jockkaulthaa looked at him. “You are determined to give it a life.”
+
+“It's got one.”
+
+Nobody argued. The pantry machine illuminated its blue strip and displayed a new entry: DUCK — RECOVERED. CONDITION: MINOR DAMAGE. LOCATION: RETURNED TO MANTEL.
+
+Then, after a pause, it added: EXPERIENCE: UNKNOWN.
+
+BORKUFT smiled. “That's right.”
+
+The incident might have ended there, but Pipethor discovered that the cable had been pulling against the old timber frame for several days. It had not caused structural damage, but it had loosened a bracket that supported the mantel. The duck had revealed a problem that nobody would otherwise have noticed.
+
+Ursalon asked Pipethor to repair it. Pipethor agreed, provided he could reroute the cable through a proper conduit. Jockkaulthaa offered to redesign the bracket. Militthor, who had come to return a measuring tool, suggested a maintenance record. Copthorus asked whether the duck should be included as the object that revealed the defect.
+
+“It's not a maintenance officer,” BORKUFT said.
+
+“It has performed a useful function.”
+
+“It was sitting.”
+
+PEMDAS considered the distinction. “Many useful things are sitting.”
+
+The repair took the rest of the morning. The mantel was lifted away from the wall, the old bracket removed, and a stronger support fitted in its place. Pipethor routed the cable through a narrow channel. Jockkaulthaa adjusted the bracket's visible edge so that it sat cleanly beneath the stone. Militthor measured the finished work. Ursalon tested it by placing a heavy iron pot on the mantel.
+
+The pot remained in place.
+
+BORKUFT watched the entire operation with the duck held against his chest. When the work was finished, he placed the figure back on the mantel. This time it stood a little farther from the wall, with its beak pointing toward the kitchen.
+
+Jockkaulthaa examined the arrangement.
+
+“The angle is better,” he said.
+
+BORKUFT looked at him. “You like it?”
+
+“I like that it has a position.”
+
+“That's almost the same thing.”
+
+“No,” Jockkaulthaa said. “But it is close.”
+
+In the afternoon, BORKUFT returned to his unfinished block. He worked slowly, shaving small curls from the wood and testing the shape with his thumb. Jockkaulthaa sat opposite him, sketching a second figure. He had decided to make a bird with a longer neck and a more balanced body. BORKUFT told him that it looked too serious. Jockkaulthaa replied that seriousness was not a defect. They disagreed for nearly an hour.
+
+At last BORKUFT held up his block. It had begun to resemble a duck, though the beak was too short and the body was almost spherical.
+
+Jockkaulthaa looked at it.
+
+“It's not finished,” BORKUFT said.
+
+“I can see that.”
+
+“Don't judge it yet.”
+
+“I wasn't.”
+
+“You were thinking.”
+
+“I am allowed to think.”
+
+BORKUFT passed him the carving knife. “Then help.”
+
+Jockkaulthaa took the knife. He showed BORKUFT how to make a clean cut along the neck, then handed it back before the work became too precise. They continued together. One shaped the body, the other the beak. The second duck became neither a copy nor a correction of the first. It was a companion with its own awkwardness.
+
+When evening came, the two figures stood on the mantel. The original had a crooked wing and a broad body. The new one had a short neck and a beak that leaned slightly to the left. Jockkaulthaa arranged them so that they faced each other.
+
+BORKUFT moved them apart.
+
+“They need room,” he said.
+
+Jockkaulthaa adjusted the spacing by a fraction. “There.”
+
+Ursalon brought supper to the table. Grokthar had returned with a story about a thunderhead that had become trapped between two hills. Pipethor was explaining the new cable route. Militthor had written a short maintenance note and left it beside the pantry display. Copthorus had added a line about the recovered duck, but the machine had moved the entry into a category called HOUSEHOLD EVENTS.
+
+The blue strip glowed. The machine asked whether the duck should be assigned a permanent location.
+
+BORKUFT answered before anyone else could.
+
+“No. It can move.”
+
+The machine paused.
+
+“Understood. Location may change.”
+
+“Good,” BORKUFT said.
+
+Later, when the others had gone to bed, you found Jockkaulthaa standing before the mantel. He was looking at the two ducks with his hands clasped behind his back.
+
+“You like them,” you said.
+
+“I have not decided.”
+
+“You made one.”
+
+“I made an attempt.”
+
+“You helped BORKUFT finish his.”
+
+“That was a separate matter.”
+
+You waited. Jockkaulthaa looked toward the kitchen, where BORKUFT had left a small pile of wood shavings on the table. He seemed to be searching for a way to describe something without making it sound sentimental.
+
+“He makes things without first asking whether they deserve to exist,” he said.
+
+“Is that unusual?”
+
+“For me, yes.”
+
+You looked at the ducks. Their shapes were uneven. Their little wooden bodies held the marks of the hands that had made them. They were not valuable, except that the people in the room had decided to keep them.
+
+Jockkaulthaa touched the edge of the mantel. “I think I shall make another.”
+
+“For BORKUFT?”
+
+“For the shelf.”
+
+“That sounds like a gift.”
+
+“It is a contribution to the collection.”
+
+You left him to consider the distinction.
+
+In the morning, a third bird appeared on the mantel. It was not a duck. It was a narrow wooden crow, carefully carved, with one wing held slightly away from its body. Jockkaulthaa had placed it between the two ducks, facing the room rather than either of them.
+
+BORKUFT found it first.
+
+He studied the crow for a long time, then looked toward Jockkaulthaa, who was pretending to inspect the pantry display.
+
+“It's good,” BORKUFT said.
+
+“I know.”
+
+“It's a little severe.”
+
+“It's a crow.”
+
+“Crows can be friendly.”
+
+“Some can.”
+
+BORKUFT moved the crow a little closer to the ducks. Jockkaulthaa let him.
+
+The mantel had become a small gathering of figures, each made for a different reason. None had been commissioned. None had been judged necessary. They occupied a shelf above the hearth, where the light moved across them during the day and the warmth of the fire reached their wooden bodies at night.
+
+The duck had not changed the world. It had revealed a loose bracket, brought two companions into a shared piece of work, and given the pantry machine another entry it could not fully explain. In the cabin, that was often how a world changed: something small went missing, everyone looked for it, and by the time it returned there was more room on the shelf.
+
 ## Long-form chapter standard
 
 Chapters in this branch are to be written as substantial, continuous narrative episodes rather than compact vignettes or plot summaries. Aim for roughly 2,000–3,500 words per chapter when the material supports it, and allow major turning-point chapters to run longer. Build each chapter from several connected scenes with time passing between them: arrival, domestic or social activity, private conversation, interruption, consequence, and a changed situation. Give the gods room to pursue their own interests, speak in distinct voices, disagree, joke, make mistakes, and return to unresolved matters. Let settings accumulate sensory and practical detail through use rather than pausing for encyclopedic description. Relationships should change through repeated encounters and specific choices, not be settled in a single speech. Keep paragraphs developed and continuous; avoid fragmentary beats, excessive headings, and compressed summaries. Do not pad for length: add lived events, interactions, atmosphere, and consequences. Apply this standard to new chapters and, when revising, expand the earlier six chapters to match.

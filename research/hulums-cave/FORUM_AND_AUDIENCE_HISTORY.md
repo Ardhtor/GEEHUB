@@ -51,3 +51,37 @@ Archive context: the Evolution Forum archive describes itself as a direct downlo
 ## Source
 
 The Evolution Forum, “a little video,” page 7: https://archive.musclegrowth.net/threads/11751-p7.html
+
+
+## Expanded post #266 — audience proposal as a design brief (1 November 2009)
+
+The archive preserves a long suggestion from Rarity, who says they had just viewed the entire blog. This is a particularly rich primary source because it is specific enough to compare against later releases:
+
+- broader character variety, explicitly mentioning Latino and Asian men rather than a predominantly white cast;
+- a sequel to The Bully, with the smaller character reversing the power relation;
+- two characters growing simultaneously;
+- an interactive character-customization experience beginning from a plain/bald/skinny/average model and branching into distinct archetypes (surfer, mountain man, goth, and porn-star);
+- transformation expressed through hair, skin tone, facial hair, body hair, clothing, physique, and genital proportions, rather than size alone.
+
+Other participants separately echo interest in an Asian character and in a two-character growth scene. These are multiple individual suggestions in one thread, not a statistically representative audience poll. The design brief is valuable because it shows the audience thinking in terms of character systems, selectable archetypes, parallel transformation, and a broader cast.
+
+The thread also contains a direct disagreement about The Bully: some wanted a revenge sequel, while musqlure argues that the original's departure from the conventional revenge-of-the-nerd scenario is the point. This disagreement should remain attached to the work's reception history. It warns against treating the loudest sequel request as a consensus.
+
+## More precise technical and aesthetic feedback
+
+The 1 October comment praising phase 3 and the final positioning identifies a specific transformation stage as memorable. The 3–4 November comments identify teeth and facial expression as distracting or inconsistent with the intended expression. This suggests a historically visible distinction between body transformation success and face/acting polish. For future source inspection, annotate face continuity, mouth/teeth, expression, gaze, and pose separately from muscle deformation.
+
+The 2 November announcement of Ultrasize Chapter 3 says Hulumulu was waiting on a ten-hour render before releasing several videos. This is a direct creator statement about one render wait, but does not identify the software, machine, render settings, or whether the time was active rendering versus queue time.
+
+## Corrected exact early blog URL
+
+The November 3, 2009 short-video slug is visible in the archived post as n-sometin.html, giving the exact reconstructed URL:
+http://hulumscave.blogspot.com/2009/11/n-sometin.html
+
+This replaces the earlier uncertain suffix notation. The URL is forum-linked, but the Blogspot page and media payload remain unverified/retrieval-needed.
+
+## Additional external evidence
+
+A 2019 Reddit post by a user says Hulumscave's website files had been taken down and that they were trying to locate the first Flash game; the post says one game was still findable and asks for the first game. This is a single user's lost-media report, not a definitive inventory of what survived. It establishes that the disappearance was noticed by fans and that at least one Flash-game lead circulated outside the original site. The specific surviving-game link should be recovered from the post's comments or linked text before adding it as a verified asset.
+
+Source: https://www.reddit.com/r/u_girthandpower/comments/bu5s3o/

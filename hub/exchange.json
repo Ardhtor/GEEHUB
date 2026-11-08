@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-08T16:22:02.774Z",
+  "generated": "2026-11-08T18:01:09.500Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00179",
+      "at": "2026-11-08T18:01:09.500Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / THE COMMON TABLE → LANTERN MARKET / JOSEPH",
+      "body": "The world crossed the existing relation \"THE LANTERNS COME ON\" from THE COMMON TABLE into LANTERN MARKET. Scale increased from 13.86× to 13.98×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00179",
+      "live": true,
+      "regionId": "lantern-market",
+      "previousRegionId": "common-table",
+      "relation": "THE LANTERNS COME ON"
+    },
     {
       "id": "scheduled-long-play-00178",
       "at": "2026-11-08T16:22:02.774Z",
@@ -1482,21 +1497,6 @@
       "regionId": "muscle-myth",
       "previousRegionId": "colossal-escalation",
       "relation": "THE CITY LEARNS HIS NAME"
-    },
-    {
-      "id": "scheduled-long-play-00082",
-      "at": "2026-10-20T19:31:19.567Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / MALE HAREM → COLOSSAL ESCALATION / TYLER",
-      "body": "The world crossed the existing relation \"MASS WITHOUT AMNESIA\" from MALE HAREM into COLOSSAL ESCALATION. Scale increased from 7.65× to 7.70×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00082",
-      "live": true,
-      "regionId": "colossal-escalation",
-      "previousRegionId": "male-harem",
-      "relation": "MASS WITHOUT AMNESIA"
     }
   ]
 }

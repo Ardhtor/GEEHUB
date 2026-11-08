@@ -1043,7 +1043,7 @@
     "name": "Growth Study 001",
     "group": "production",
     "status": "prototype",
-    "summary": "Blender character-production prototype with a continuous voxel-fused anatomy blockout, blended bone weights, staged growth control, replaceable clothing and facial parts, procedural materials, studio lighting, and optional atmosphere.",
+    "summary": "Growth Club is a colorful training-floor character showcase with connected anatomy, growth-stage control, gym props, stage lamps, animated halo, dual cameras, and adjustable lighting.",
     "path": "../production/growth-study-001/README.md",
     "tags": [
       "blender",

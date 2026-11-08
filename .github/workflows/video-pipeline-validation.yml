@@ -1,0 +1,26 @@
+name: GEEHUB video pipeline validation
+
+on:
+  push:
+    paths:
+      - "engine/video/**"
+      - "production/projects/hulums-lab-serum-60s/**"
+      - ".github/workflows/video-pipeline-validation.yml"
+  pull_request:
+    paths:
+      - "engine/video/**"
+      - "production/projects/hulums-lab-serum-60s/**"
+      - ".github/workflows/video-pipeline-validation.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile Python modules
+        run: python -m compileall -q engine/video
+      - name: Validate Laboratory Serum timeline and project
+        run: python engine/video/render_project.py --validate-only

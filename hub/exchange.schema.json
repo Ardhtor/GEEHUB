@@ -33,7 +33,8 @@
         "OFFER",
         "TRANSFORM",
         "RETURN",
-        "MEMORY"
+        "MEMORY",
+        "UTTERANCE"
       ]
     },
     "title": {

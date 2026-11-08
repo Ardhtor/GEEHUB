@@ -68,6 +68,8 @@ def main() -> int:
     parser.add_argument("--output", type=Path, help="Override MP4 output path")
     parser.add_argument("--preview-seconds", type=float, default=8.0,
                         help="Render a low-resolution opening preview; use 0 for the full master")
+    parser.add_argument("--validate-only", action="store_true",
+                        help="Validate project manifests without requiring Blender")
     args = parser.parse_args()
     project = args.project.resolve()
     try:
@@ -75,6 +77,11 @@ def main() -> int:
     except (OSError, ValueError, KeyError, json.JSONDecodeError) as exc:
         print(f"PROJECT VALIDATION FAILED: {exc}", file=sys.stderr)
         return 2
+
+    print("Validated project:", manifest.get("title"))
+    print("Timeline:", len(timeline["stages"]), "stages;", timeline["timebase"]["frame_count"], "frames")
+    if args.validate_only:
+        return 0
 
     blender = find_blender(args.blender)
     if not blender:
@@ -98,8 +105,6 @@ def main() -> int:
     ]
     if preview:
         command.extend(["--preview-seconds", str(preview)])
-    print("Validated project:", manifest.get("title"))
-    print("Timeline:", len(timeline["stages"]), "stages;", timeline["timebase"]["frame_count"], "frames")
     print("Blender:", blender)
     print("Mode:", f"{preview:g}-second low-resolution preview" if preview else "full master render")
     print("Output:", output)

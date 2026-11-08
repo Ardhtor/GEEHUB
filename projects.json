@@ -794,5 +794,21 @@
       "relationships",
       "production"
     ]
+  },
+  {
+    "id": "developing-voices",
+    "name": "Developing Voices",
+    "status": "active",
+    "kind": "narrative-engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/docs/DEVELOPING_VOICES.md",
+    "description": "Bottom-up character voice development: speech mechanics, behaviour, acquired language, emotional variation, linguistic history, and iterative dialogue testing.",
+    "related": [
+      "character-records",
+      "tractus-continuity",
+      "sensation-engine",
+      "teal-titan-golds-on-5th",
+      "arthur-and-fingerlands"
+    ]
   }
 ]

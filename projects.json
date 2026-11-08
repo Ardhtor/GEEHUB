@@ -68,13 +68,14 @@
     "status": "active",
     "kind": "world",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
-    "description": "A foggy dark expanse with Florentine/Victorian roots, the Digitorium, Procession, Binding, Temple of Moon, and layered mythic spaces. Includes an experimental hyperspace expedition record awaiting reconciliation with older lore.",
+    "path": "/lore/veyrthalis/THE_EYE_AND_THE_WESTERN_QUARTER.md",
+    "description": "Veyrthalis: a persistent inhabited city at the edge of the Foggy Dark Expanse, with the Digitorium, Procession, Binding, and an observation system carried by the crow, residents, and Merrow Vale. Current continuity chapter establishes the Eye of the City, western-quarter survivability and availability, and the investigation beneath the Digitorium.",
     "related": [
       "the-complex",
       "muscle-myth",
       "vision-workspace",
-      "hyperspace-expedition"
+      "hyperspace-expedition",
+      "the-eye-and-the-western-quarter"
     ]
   },
   {

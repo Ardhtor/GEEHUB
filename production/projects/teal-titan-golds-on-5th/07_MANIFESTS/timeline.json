@@ -1,0 +1,277 @@
+{
+  "schema": "geehub.video-timeline/1",
+  "project_id": "teal-titan-golds-on-5th",
+  "timebase": {
+    "fps": 24,
+    "frame_count": 144,
+    "timecode_format": "seconds"
+  },
+  "duration_seconds": 6,
+  "growth_model": "continuous_rig",
+  "plotlines": [
+    "triggered-metamorphosis"
+  ],
+  "stages": [
+    {
+      "id": "baseline-trigger",
+      "start_seconds": 0,
+      "end_seconds": 0.6,
+      "label": "The Scoop",
+      "function": "establish",
+      "required_visible": [
+        "Recognizable adult fictional subject at baseline",
+        "Gold's on 5th environment",
+        "Experimental pre-workout action"
+      ],
+      "camera": {
+        "description": "Low three-quarter full-body view",
+        "movement": "Continuous forward drift begins",
+        "framing": "Full body and gym context",
+        "continuity": "No editorial cut required"
+      },
+      "growth": {
+        "active": false,
+        "rate": "baseline"
+      },
+      "sound_cues": [
+        "Pre-workout container rattle",
+        "Gym room tone"
+      ],
+      "notes": "The existing production manifest combines baseline and trigger in this opening interval; keep the visual cause legible."
+    },
+    {
+      "id": "trigger-onset",
+      "start_seconds": 0.6,
+      "end_seconds": 1.1,
+      "label": "Density",
+      "function": "trigger",
+      "required_visible": [
+        "Teal colour begins to register",
+        "Deltoids and shoulders begin changing",
+        "Face and head remain identity-locked"
+      ],
+      "camera": {
+        "description": "Low three-quarter view",
+        "movement": "Forward drift continues",
+        "framing": "Full body remains readable",
+        "continuity": "One continuous shot"
+      },
+      "growth": {
+        "active": true,
+        "rate": "subtle onset",
+        "regions": [
+          "skin tone",
+          "deltoids",
+          "shoulders",
+          "traps"
+        ]
+      },
+      "environment_response": [],
+      "sound_cues": [
+        "Low gym-room resonance",
+        "Subtle fabric tension"
+      ],
+      "notes": "Transformation onset; retain continuous interpolation between baseline and the first visible change."
+    },
+    {
+      "id": "early-growth",
+      "start_seconds": 1.1,
+      "end_seconds": 2,
+      "label": "The Double Biceps",
+      "function": "sustain",
+      "required_visible": [
+        "Biceps and triceps enlarge",
+        "Pectorals broaden symmetrically",
+        "Forearms thicken",
+        "Double-biceps pose remains readable"
+      ],
+      "camera": {
+        "description": "Low three-quarter full-body view with brief upper-body emphasis",
+        "movement": "No discontinuous camera jump",
+        "framing": "Keep torso and arms visible",
+        "continuity": "One continuous shot"
+      },
+      "growth": {
+        "active": true,
+        "rate": "steady continuous",
+        "regions": [
+          "biceps",
+          "triceps",
+          "pectorals",
+          "forearms",
+          "shoulders"
+        ]
+      },
+      "environment_response": [
+        "Wardrobe tension begins to register"
+      ],
+      "sound_cues": [
+        "Fabric detail",
+        "Low-frequency build"
+      ],
+      "notes": "Pose anchor at 1.1 seconds is a choreography reference, not a cut."
+    },
+    {
+      "id": "proportion-escalation",
+      "start_seconds": 2,
+      "end_seconds": 3.2,
+      "label": "Proportion Failure",
+      "function": "escalate",
+      "required_visible": [
+        "Chest deepens and widens evenly",
+        "Lats flare",
+        "Traps form a second ridge",
+        "Quads and calves expand"
+      ],
+      "camera": {
+        "description": "Low three-quarter full-body view",
+        "movement": "Forward drift continues",
+        "framing": "Preserve full-body scale comparison",
+        "continuity": "One continuous shot"
+      },
+      "growth": {
+        "active": true,
+        "rate": "accelerating but continuous",
+        "regions": [
+          "pectorals",
+          "lats",
+          "traps",
+          "quadriceps",
+          "calves",
+          "arms"
+        ]
+      },
+      "environment_response": [
+        "Nearby gym objects provide scale reference"
+      ],
+      "sound_cues": [
+        "Low mechanical resonance",
+        "Cloth strain"
+      ],
+      "notes": "The existing production manifest anchors the transition into most-muscular at 3.2 seconds."
+    },
+    {
+      "id": "full-body-escalation",
+      "start_seconds": 3.2,
+      "end_seconds": 4.5,
+      "label": "The Roar",
+      "function": "escalate",
+      "required_visible": [
+        "Full-body mass resolves",
+        "Height and limb length increase with mass",
+        "Anatomical transitions remain connected",
+        "Controlled flex and roar"
+      ],
+      "camera": {
+        "description": "Low three-quarter full-body view",
+        "movement": "Continuous forward drift",
+        "framing": "Maintain body-to-room scale",
+        "continuity": "One continuous shot"
+      },
+      "growth": {
+        "active": true,
+        "rate": "final continuous escalation",
+        "regions": [
+          "whole body",
+          "height",
+          "limb proportions",
+          "chest",
+          "arms",
+          "legs"
+        ]
+      },
+      "environment_response": [
+        "Rack settles",
+        "Nearby lifter reacts"
+      ],
+      "sound_cues": [
+        "Weight-rack settling",
+        "Short controlled roar",
+        "Gym ambience"
+      ],
+      "notes": "Environmental reactions are timed to visible scale changes, not used as substitute shots."
+    },
+    {
+      "id": "new-baseline-hold",
+      "start_seconds": 4.5,
+      "end_seconds": 6,
+      "label": "Natural Light Source",
+      "function": "hold",
+      "required_visible": [
+        "Final teal titan physique",
+        "Balanced chest and connected anatomy",
+        "Confident most-muscular display",
+        "Final pose readable through last frame"
+      ],
+      "camera": {
+        "description": "Low three-quarter full-body view",
+        "movement": "Forward drift resolves into a held display",
+        "framing": "Full-body silhouette against gym interior",
+        "continuity": "Hold final state to end"
+      },
+      "growth": {
+        "active": false,
+        "rate": "growth settles into held new baseline"
+      },
+      "environment_response": [
+        "Subtle gym reverence",
+        "Golden rim light against cool interior"
+      ],
+      "sound_cues": [
+        "Original low-frequency score resolves",
+        "Preserve gym ambience",
+        "Applause"
+      ],
+      "notes": "This project resolves into a held new baseline; do not classify this six-second cut as escalation-without-closure."
+    }
+  ],
+  "identity_locks": {
+    "face": "Preserve verified adult fictional face reference when source inspection is complete; current source candidates remain unverified.",
+    "skin_tone": "Saturated blue-green teal; not emerald or cyan.",
+    "chest_balance": "Bilateral pectoral growth remains balanced in width, projection and thickness.",
+    "anatomy": "Rounded connected deltoid-pectoral-arm and torso transitions.",
+    "source_sequence": "See research/relationships/TEAL_TITAN_LINEAGE.json; source files must be checksum-matched before identity claims."
+  },
+  "file_data": {
+    "source": {
+      "path": "01_SOURCE/",
+      "provider": "Dropbox",
+      "verification_status": "unverified"
+    },
+    "growth_passes": [],
+    "frames": [],
+    "audio": [],
+    "exports": [
+      "05_EXPORTS/"
+    ]
+  },
+  "continuity_policy": {
+    "continuous_event": true,
+    "cuts_allowed": false,
+    "hold_final_state": true,
+    "notes": "Stages are semantic/timecode overlays across a continuous six-second animation. They do not imply hard edits or discontinuous model swaps."
+  },
+  "evidence": {
+    "source_inspected": false,
+    "claims": [
+      {
+        "claim": "Six-second duration, 24 fps, 144 frames and stage boundaries",
+        "status": "observed",
+        "source_ref": "production.json",
+        "notes": "Copied from the current Teal Titan production manifest."
+      },
+      {
+        "claim": "The scene is a triggered metamorphosis",
+        "status": "inferred",
+        "source_ref": "production.json",
+        "notes": "Production brief specifies experimental pre-workout as the causal event."
+      },
+      {
+        "claim": "Continuous one-shot camera and continuous growth",
+        "status": "creator-stated",
+        "source_ref": "production.json",
+        "notes": "These are production design requirements, not verified properties of an existing Hulum's Cave video."
+      }
+    ]
+  }
+}

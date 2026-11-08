@@ -1,0 +1,115 @@
+[
+  {
+    "id": "hulums-cave",
+    "display_name": "Hulum's Cave",
+    "aliases": [
+      "HulumsCave",
+      "Hulum"
+    ],
+    "status": "active",
+    "verification": "observed",
+    "platforms": [
+      {
+        "platform": "X",
+        "handle": "HulumsCave",
+        "url": "https://x.com/HulumsCave",
+        "notes": "Public creator outlet; current activity should be rechecked at each research run."
+      },
+      {
+        "platform": "Patreon",
+        "handle": "hulumscave",
+        "url": "https://www.patreon.com/hulumscave",
+        "notes": "Public archive, project updates, WIPs and member video posts."
+      }
+    ],
+    "sources": [
+      {
+        "type": "primary",
+        "url": "https://www.patreon.com/hulumscave/about",
+        "accessed": "2026-11-08",
+        "notes": "Public creator profile; creator describes a long-running CG growth-animation practice."
+      },
+      {
+        "type": "archive",
+        "url": "https://www.patreon.com/hulumscave/sitemap",
+        "accessed": "2026-11-08",
+        "notes": "Public post sitemap used for historical project chronology."
+      }
+    ],
+    "style_tags": [
+      "male-growth",
+      "muscle-growth",
+      "maya-era-cg",
+      "continuous-expansion",
+      "character-led",
+      "sound-led",
+      "wip-to-final"
+    ],
+    "relationship_to_geehub": "Primary historical and production reference. Hulum's Cave chronology informs the video research corpus and Teal Titan's visual/temporal lineage; it is not treated as evidence of creator endorsement or collaboration.",
+    "first_seen": "2022-03-27",
+    "last_verified": "2026-11-08",
+    "notes": "The supplied first_seen date is retained as an index datum, not asserted as the creator's actual founding date. Public metadata and locked video content must be distinguished."
+  },
+  {
+    "id": "superwaffle",
+    "display_name": "SuperWaffle Productions",
+    "aliases": [
+      "SuperWaffle",
+      "Super Waffle"
+    ],
+    "status": "historical",
+    "verification": "archived",
+    "platforms": [],
+    "sources": [
+      {
+        "type": "archive",
+        "url": "https://swfchan.com",
+        "accessed": "2026-11-08",
+        "notes": "Archive surface for historical Flash-era material; individual work provenance must be verified before attribution."
+      }
+    ],
+    "style_tags": [
+      "flash-era",
+      "3d",
+      "muscle-growth",
+      "historical-animation"
+    ],
+    "relationship_to_geehub": "Comparative historical influence for early interactive/short-form growth animation. Keep subordinate to the Hulum's Cave historical spine.",
+    "first_seen": "2014-01-01",
+    "last_verified": "2026-11-08",
+    "notes": "Year-level date normalized to January 1 as a machine-readable placeholder; not an exact first-publication date."
+  },
+  {
+    "id": "maxmuscle3d",
+    "display_name": "MaxMuscle3D",
+    "aliases": [
+      "MaxMuscle3D"
+    ],
+    "status": "unknown",
+    "verification": "observed",
+    "platforms": [
+      {
+        "platform": "X",
+        "handle": "MaxMuscle3D",
+        "url": "https://x.com/MaxMuscle3D",
+        "notes": "Public preview surface; account status should be checked on each run."
+      },
+      {
+        "platform": "Patreon",
+        "url": "https://www.patreon.com/MaxMuscles3D",
+        "notes": "Creator page; current availability and activity require revalidation."
+      }
+    ],
+    "sources": [],
+    "style_tags": [
+      "daz3d",
+      "continuous-growth",
+      "hyper-muscle",
+      "experiment-narrative"
+    ],
+    "relationship_to_geehub": "Contemporary comparative reference for progressive growth staging; not a substitute for direct Hulum's Cave source analysis.",
+    "first_seen": "2024-01-01",
+    "last_verified": "2026-11-08",
+    "notes": "Year-level first_seen is approximate and should be replaced when a dated primary source is found."
+  }
+]

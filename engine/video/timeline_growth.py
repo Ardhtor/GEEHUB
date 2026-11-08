@@ -204,5 +204,5 @@ def write_growth_diagnostics(objects, timeline, output_path):
     }
     destination = Path(output_path)
     destination.parent.mkdir(parents=True, exist_ok=True)
-    destination.write_text(json.dumps(report, indent=2) + "\\n", encoding="utf-8")
+    destination.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     return report

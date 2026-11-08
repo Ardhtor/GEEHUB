@@ -5,6 +5,7 @@
  * Run: OPENAI_API_KEY=... GEEHUB_MODEL=<responses-api-model> node server/geehub-server.mjs
  */
 import http from "node:http";
+import { spawn } from "node:child_process";
 import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -67,9 +68,39 @@ async function generateTurn(input) {
   return { ...result, generated_at:new Date().toISOString(), model:MODEL };
 }
 
+async function inscribeOccurrence(event) {
+  const python = process.env.GEEHUB_PYTHON || (process.platform === "win32" ? "python" : "python3");
+  return await new Promise((resolve,reject)=>{
+    const child=spawn(python,["engine/inscription.py","hub-api"],{cwd:ROOT,stdio:["pipe","pipe","pipe"]});
+    let stdout="",stderr="";
+    child.stdout.setEncoding("utf8"); child.stderr.setEncoding("utf8");
+    child.stdout.on("data",chunk=>stdout+=chunk);
+    child.stderr.on("data",chunk=>stderr+=chunk);
+    child.on("error",reject);
+    child.on("close",code=>{
+      let result; try { result=JSON.parse(stdout); } catch { return reject(new Error(stderr||"Inscription worker returned invalid output.")); }
+      if(code!==0 || !result.ok) return reject(new Error(result.error||stderr||"Inscription failed."));
+      resolve(result);
+    });
+    child.stdin.end(JSON.stringify(event));
+  });
+}
+
 const server=http.createServer(async(req,res)=>{
   const url=new URL(req.url,"http://"+req.headers.host);
   if(req.method==="GET" && url.pathname==="/api/geehub/health") return send(res,200,{ok:true,configured:Boolean(API_KEY&&MODEL),model:MODEL||null});
+  if(req.method==="POST" && url.pathname==="/api/geehub/inscribe"){
+    try{
+      const input=await bodyOf(req);
+      const event=input.event;
+      if(!event || typeof event!=="object" || Array.isArray(event)) return send(res,400,{error:"An event object is required."});
+      if(typeof event.id!=="string" || !event.id.trim()) return send(res,400,{error:"A stable event.id is required."});
+      if(typeof event.at!=="string" || !Number.isFinite(Date.parse(event.at))) return send(res,400,{error:"A valid event.at timestamp is required."});
+      if(typeof event.type!=="string" || !event.type.trim()) return send(res,400,{error:"A typed event.type is required."});
+      const result=await inscribeOccurrence(event);
+      return send(res,200,result);
+    }catch(error){return send(res,error.message==="Invalid JSON"?400:500,{error:error.message||"Inscription failed"});}
+  }
   if(req.method==="POST" && url.pathname==="/api/geehub/turn"){
     try{
       const input=await bodyOf(req);

@@ -29,7 +29,9 @@
   function eventList(){
     let local=[];
     try{local=JSON.parse(localStorage.getItem('geehub-interaction-events')||'[]')}catch{}
-    return [...state.events,...local].sort((a,b)=>Number(b.at||0)-Number(a.at||0)).slice(0,32);
+    const unique=new Map();
+    [...state.events,...local].forEach(event=>{if(event?.id)unique.set(event.id,event);});
+    return [...unique.values()].sort((a,b)=>Number(b.at||0)-Number(a.at||0)).slice(0,32);
   }
 
   function render(){
@@ -140,6 +142,15 @@
     },true);
   }
 
+  async function loadInscribedActivity(){
+    try{
+      const response=await fetch('/api/geehub/activity?limit=80&ts='+Date.now(),{cache:'no-store'});
+      if(!response.ok)return [];
+      const data=await response.json();
+      return Array.isArray(data.events)?data.events:[];
+    }catch{return [];}
+  }
+
   async function load(){
     try{
       const [m,a]=await Promise.all([
@@ -155,16 +166,28 @@
       const r=await fetch('./hub/exchange.json?ts='+Date.now(),{cache:'no-store'});
       if(r.ok){const d=await r.json();state.events=Array.isArray(d.events)?d.events:[];}
     }catch{}
+    const inscribed=await loadInscribedActivity();
+    const merged=new Map();
+    [...state.events,...inscribed].forEach(event=>{if(event?.id)merged.set(event.id,event);});
+    state.events=[...merged.values()].sort((a,b)=>Number(b.at||b.occurred_at||0)-Number(a.at||a.occurred_at||0));
     render();
     setInterval(async()=>{
       try{
         const r=await fetch('./hub/exchange.json?ts='+Date.now(),{cache:'no-store'});
         if(r.ok){
           const d=await r.json(),next=Array.isArray(d.events)?d.events:[];
-          if(JSON.stringify(next)!==JSON.stringify(state.events)){
-            state.events=next;render();
-            bus.emit({id:'exchange-refresh-'+Date.now(),from:'exchange',to:'geehub',type:'ARRIVAL',title:'New exchange arrived',body:'The shared ledger changed.',source:'hub/exchange.json',live:true});
+          const prior=new Set(eventList().map(event=>event.id));
+          const additions=next.filter(event=>event?.id&&!prior.has(event.id));
+          const inscribed=await loadInscribedActivity();
+          inscribed.forEach(event=>{if(event?.id&&!prior.has(event.id))additions.push(event);});
+          const merged=new Map();
+          [...state.events,...next,...inscribed].forEach(event=>{if(event?.id)merged.set(event.id,event);});
+          state.events=[...merged.values()].sort((a,b)=>Number(b.at||b.occurred_at||0)-Number(a.at||a.occurred_at||0));
+          if(additions.length){
+            const newest=additions.sort((a,b)=>Date.parse(b.at||b.occurred_at||0)-Date.parse(a.at||a.occurred_at||0))[0];
+            if(newest)bus.emit({...newest,at:newest.at||newest.occurred_at});
           }
+          render();
         }
       }catch{}
     },8000);

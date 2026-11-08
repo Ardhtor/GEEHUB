@@ -177,6 +177,9 @@ test("preparation CLI rechecks actual masks and writes a queued job bundle", asy
   assert.equal(manifest.renderJobs[0].status, "queued");
   assert.equal(job.frameEvidence.sequenceId, sequenceId);
   assert.equal(job.frameEvidence.pixelSemanticsVerified, false);
+  assert.equal(job.frameEvidence.pixelDataVerified, true);
+  assert.equal(job.frameEvidence.faceExclusionVerified, true);
+  assert.equal(job.frameEvidence.maskPixelAudit.overlapPixels, 0);
   assert.equal(job.landmarkFrames.length, 2);
 });
 

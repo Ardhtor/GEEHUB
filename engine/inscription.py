@@ -8,6 +8,7 @@ and engine-specific state files are projections of that same event identity.
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -103,3 +104,20 @@ def inscribe_event(event: dict, source: str) -> dict:
     OUTBOX.mkdir(parents=True, exist_ok=True)
     _write_json(OUTBOX / f"{event_id}.json", artifact)
     return record
+
+
+def main() -> int:
+    """Read one event from stdin and inscribe it through the canonical path."""
+    source = sys.argv[1] if len(sys.argv) > 1 else "hub-api"
+    try:
+        event = json.load(sys.stdin)
+        record = inscribe_event(event, source=source)
+        print(json.dumps({"ok": True, "event": record}, ensure_ascii=False))
+        return 0
+    except Exception as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, ensure_ascii=False))
+        return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

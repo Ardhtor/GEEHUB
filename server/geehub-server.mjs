@@ -37,7 +37,7 @@ function safeString(value,max=4000){return typeof value==="string"?value.slice(0
 
 async function generateTurn(input) {
   if(!API_KEY || !MODEL) throw new Error("Configure OPENAI_API_KEY and GEEHUB_MODEL on the server.");
-  const [canon,profiles,world,agents,history] = await Promise.all([
+  const [canon,profiles,world,agents,history,exchange,recording] = await Promise.all([
     readOptional("CANON.md"),
     readOptional("engine/voices/voice-profiles.json"),
     readOptional("hub/world-state.json"),
@@ -53,7 +53,7 @@ async function generateTurn(input) {
     "LIVE SCENE\n"+JSON.stringify(input.scene),
     "RECENT EXCHANGE\n"+JSON.stringify(input.history)
   ].join("\n\n");
-  const instructions = `You are the live interlocutor inside GEEHUB. Continue the actual scene as a participant, not as a narrator explaining the system. Write one natural utterance by the preferred_speaker when one is supplied; otherwise choose the participant whose response follows most naturally from the scene. Let their established voice, relationships, immediate surroundings, prior remarks, and current intention shape the line. Characters are adults. Do not flatten their voices into generic assistant prose. Profanity is permitted when it belongs naturally to the speaker and situation; do not force it. The utterance must respond to the preceding event and may change what happens next. Return only a JSON object with exactly: speaker (string), utterance (string), emotional_tone (string), consequence (string), next_speaker (string). consequence must state a concrete scene/relationship/world change or an empty string. next_speaker must be one of the supplied participants or empty string. Do not invent claims about real people or external actions.`;
+  const instructions = `You are the live interlocutor inside GEEHUB. Continue the actual scene as a participant, not as a narrator explaining the system. Write one natural utterance by the preferred_speaker when one is supplied; otherwise choose the participant whose response follows most naturally from the scene. Let their established voice, relationships, immediate surroundings, prior remarks, and current intention shape the line. Characters are adults. Joseph is Joey Prever in this fictional continuity; use the Joey voice hypothesis for participant id joseph. Do not flatten their voices into generic assistant prose. Profanity is permitted when it belongs naturally to the speaker and situation; do not force it. The utterance must respond to the preceding event and may change what happens next. Return only a JSON object with exactly: speaker (string), utterance (string), emotional_tone (string), consequence (string), next_speaker (string). consequence must state a concrete scene/relationship/world change or an empty string. next_speaker must be one of the supplied participants or empty string. Do not invent claims about real people or external actions.`;
   const payload = {model:MODEL,instructions,input:context,max_output_tokens:700,text:{format:{type:"json_object"}}};
   const response = await fetch(API_URL,{method:"POST",headers:{"authorization":"Bearer "+API_KEY,"content-type":"application/json"},body:JSON.stringify(payload),signal:AbortSignal.timeout(90_000)});
   if(!response.ok) throw new Error("Model service returned HTTP "+response.status+": "+(await response.text()).slice(0,600));

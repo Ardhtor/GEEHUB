@@ -1,0 +1,289 @@
+{
+  "schema": "geehub.hulums-cave.works.v1",
+  "authority": "research/hulums-cave/HISTORICAL_VIDEO_CORPUS.md",
+  "evidence_policy": "Archive titles and public post metadata are not substitutes for inspecting source video. Unknown dates, tools, content, and relationships remain unknown.",
+  "works": [
+    {
+      "id": "hc-early-flash-games",
+      "title": "Flash Games (Archive)",
+      "period": "early archive",
+      "kind": "playable-archive",
+      "status": "retrieval-needed",
+      "evidence": "archive-metadata",
+      "notes": "Locate original SWF/project files and playable context; do not infer the full video toolchain from this title."
+    },
+    {
+      "id": "hc-old-shorts",
+      "title": "Old Shorts (Archive)",
+      "period": "early archive",
+      "kind": "video-collection",
+      "status": "retrieval-needed",
+      "evidence": "archive-metadata"
+    },
+    {
+      "id": "hc-forest",
+      "title": "The Forest / Forest Growth / in the woods",
+      "period": "early archive",
+      "kind": "growth-video-series",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "archive-metadata",
+      "related": [
+        "hc-camping-growth"
+      ],
+      "notes": "Archive contains WIP sequence, audio work, final video, and 1080p version. Creator later described Camping Growth as a nod to an old forest growth video, not a reboot."
+    },
+    {
+      "id": "hc-ultra-size",
+      "title": "Ultra Size Prequal; Ultra Size 1 & 2; Ultra Size 3, 4 & 5",
+      "period": "early archive",
+      "kind": "growth-video-series",
+      "status": "retrieval-needed",
+      "evidence": "archive-metadata"
+    },
+    {
+      "id": "hc-marine-growth",
+      "title": "Marine Growth (Archive)",
+      "period": "early archive",
+      "kind": "growth-video",
+      "status": "retrieval-needed",
+      "evidence": "archive-metadata"
+    },
+    {
+      "id": "hc-laboratory-growth",
+      "title": "Laboratory Growth",
+      "period": "archive sequence",
+      "kind": "long-form-growth-video",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "archive-metadata",
+      "notes": "Multiple WIP posts, a +40-second growth update, lighting/time-of-day notes, and a final post are visible in the archive."
+    },
+    {
+      "id": "hc-loft-growth",
+      "title": "Loft Growth",
+      "period": "archive sequence",
+      "kind": "growth-video",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "archive-metadata",
+      "notes": "Final post explicitly labels the video as with sound."
+    },
+    {
+      "id": "hc-storeroom-growth",
+      "title": "Storeroom Growth",
+      "period": "archive sequence",
+      "kind": "growth-video",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "archive-metadata",
+      "notes": "Multiple WIPs, scene redo, and final release provide a production comparison set."
+    },
+    {
+      "id": "hc-locker-room-growth",
+      "title": "Locker Room Growth",
+      "period": "archive sequence",
+      "kind": "growth-video",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "archive-metadata",
+      "notes": "Archive and later remake/release entries should be paired."
+    },
+    {
+      "id": "hc-deal-with-the-devil",
+      "title": "Deal with the Devil; Deal with the Devil Part 2",
+      "period": "2024 archive sequence",
+      "kind": "narrative-growth-series",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "creator-post-metadata",
+      "notes": "WIP sequence and sequel/prequel structure; public WIP post dated 1 April 2024."
+    },
+    {
+      "id": "hc-fantasy-transformation",
+      "title": "Fantasy/Transformation Growth",
+      "period": "2024",
+      "kind": "transformation-video",
+      "status": "metadata-indexed",
+      "evidence": "creator-statement",
+      "notes": "Final post dated 4 September 2024; creator says they wanted to take it further but returned to a larger project."
+    },
+    {
+      "id": "hc-bedroom-remake",
+      "title": "Bedroom Growth Remake / Bed Growth Remake",
+      "period": "archive sequence",
+      "kind": "remake-pair",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "archive-metadata"
+    },
+    {
+      "id": "hc-office-remake",
+      "title": "Office Growth Remake",
+      "period": "archive sequence",
+      "kind": "remake",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "archive-metadata"
+    },
+    {
+      "id": "hc-hairy-grower-reboot",
+      "title": "Hairy Grower Reboot",
+      "period": "archive sequence",
+      "kind": "reboot",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "archive-metadata"
+    },
+    {
+      "id": "hc-bus-stop-growth",
+      "title": "Bus Stop Growth",
+      "period": "archive sequence",
+      "kind": "growth-video",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "archive-metadata"
+    },
+    {
+      "id": "hc-edging-growth",
+      "title": "Edging Growth",
+      "period": "2025 archive sequence",
+      "kind": "growth-video",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "creator-post-metadata",
+      "notes": "WIP sequence and final release; later GrowthMaxxx final post credits a patron who contributed audio to this work."
+    },
+    {
+      "id": "hc-growthmaxxx",
+      "title": "GrowthMaxxx",
+      "period": "2025",
+      "kind": "long-form-character-project",
+      "status": "metadata-indexed",
+      "evidence": "creator-statement",
+      "notes": "Long WIP sequence; final post dated 6 May 2025, notes Max narration in the final portion and patron audio contribution."
+    },
+    {
+      "id": "hc-growth-serum-x",
+      "title": "Growth Serum X",
+      "period": "2025-2026 archive sequence",
+      "kind": "generative-or-hybrid-project",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "creator-post-metadata",
+      "notes": "WIP 1 dated 17 July 2025; WIP 2 dated 2 August 2025; later WIP sequence and final post visible in archive."
+    },
+    {
+      "id": "hc-military-growth",
+      "title": "Military Growth",
+      "period": "generative/hybrid archive sequence",
+      "kind": "growth-video",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "archive-metadata"
+    },
+    {
+      "id": "hc-quick-gym-growth",
+      "title": "Quick Gym Growth / Gym Growth public release",
+      "period": "generative/hybrid archive sequence",
+      "kind": "short-video-experiment",
+      "status": "metadata-indexed",
+      "evidence": "creator-statement",
+      "notes": "Creator describes Gym Growth as a quick LTX test using a new LoRA."
+    },
+    {
+      "id": "hc-after-glow",
+      "title": "After Glow Growth; After Glow Growth MM",
+      "period": "generative/hybrid archive sequence",
+      "kind": "comparison-pair",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "creator-statement",
+      "notes": "Creator says original used LTX and later version tested MiniMax, with reference images used to improve fluidity."
+    },
+    {
+      "id": "hc-neighborhood-growth",
+      "title": "Neighborhood Growth",
+      "period": "generative/hybrid archive sequence",
+      "kind": "growth-video",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "archive-metadata"
+    },
+    {
+      "id": "hc-daddy-growth",
+      "title": "Daddy Growth; Daddy Growth public redo",
+      "period": "archive and current public release",
+      "kind": "remake-pair",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "creator-statement",
+      "notes": "Creator describes public release as a redo of an older Maya-era video that begins similarly but diverges."
+    },
+    {
+      "id": "hc-blackridge",
+      "title": "Blackridge 1 and Blackridge 2",
+      "period": "2026 archive sequence",
+      "kind": "serialized-narrative-series",
+      "status": "metadata-indexed-video-inspection-needed",
+      "evidence": "creator-statement",
+      "notes": "Blackridge 2 final post describes an officer's climax and foreshadowing Bane from the first video."
+    },
+    {
+      "id": "hc-growing-with-coach",
+      "title": "Growing with Coach",
+      "period": "2026 archive sequence",
+      "kind": "serialized-project",
+      "status": "work-in-progress",
+      "evidence": "archive-metadata"
+    },
+    {
+      "id": "hc-camping-growth",
+      "title": "Camping Growth",
+      "period": "2026 archive sequence",
+      "kind": "generative-video-project",
+      "status": "work-in-progress",
+      "evidence": "creator-statement",
+      "related": [
+        "hc-forest"
+      ],
+      "notes": "Creator describes an alien-zap trigger and explicitly says it nods to an old forest growth video without being a reboot."
+    }
+  ],
+  "inspected_clips": [
+    {
+      "id": "hc-clip-22",
+      "filename": "22.mp4",
+      "duration_seconds": 6.04,
+      "fps": 24,
+      "width": 448,
+      "height": 672,
+      "status": "first-pass-visual-reading",
+      "reading": "media/HULUMS_CAVE_FIRST_READINGS_2026-11-03.md",
+      "classification": "pose-showcase-not-verified-growth"
+    },
+    {
+      "id": "hc-clip-3333",
+      "filename": "3333.mp4",
+      "duration_seconds": 6.04,
+      "fps": 24,
+      "width": 448,
+      "height": 672,
+      "status": "first-pass-visual-reading",
+      "reading": "media/HULUMS_CAVE_FIRST_READINGS_2026-11-03.md",
+      "classification": "pose-showcase-not-verified-growth",
+      "dropbox_path": "/3333.mp4",
+      "dropbox_file_id": "id:tbdqPXHGULQAAAAAAAACSg",
+      "dropbox_size_bytes": 2340964
+    }
+  ],
+  "relationships": [
+    {
+      "from": "hc-forest",
+      "to": "hc-camping-growth",
+      "type": "creator-described-nod-not-remake"
+    },
+    {
+      "from": "hc-after-glow",
+      "to": "hc-after-glow",
+      "type": "creator-described-model-comparison",
+      "detail": "LTX original compared with MiniMax follow-up"
+    },
+    {
+      "from": "hc-blackridge",
+      "to": "hc-blackridge",
+      "type": "sequel-continuity",
+      "detail": "Blackridge 2 foreshadows Bane from first installment"
+    },
+    {
+      "from": "hc-edging-growth",
+      "to": "hc-growthmaxxx",
+      "type": "audio-collaboration-link",
+      "detail": "GrowthMaxxx final post credits patron audio contributor associated with Edging Growth"
+    }
+  ]
+}

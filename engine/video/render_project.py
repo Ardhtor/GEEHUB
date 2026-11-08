@@ -85,9 +85,10 @@ def main() -> int:
     composites = project / "04_COMPOSITES"
     exports.mkdir(parents=True, exist_ok=True)
     composites.mkdir(parents=True, exist_ok=True)
-    output = args.output.resolve() if args.output else exports / "Laboratory-Serum-60s.mp4"
-    blend = composites / "Laboratory-Serum-60s.blend"
     preview = args.preview_seconds if args.preview_seconds and args.preview_seconds > 0 else None
+    default_name = f"Laboratory-Serum-preview-{preview:g}s.mp4" if preview else "Laboratory-Serum-60s.mp4"
+    output = args.output.resolve() if args.output else exports / default_name
+    blend = composites / "Laboratory-Serum-60s.blend"
     command = [
         blender, "--background", "--python", str(HERE / "blender_scene.py"), "--",
         "--manifest", str(project / "production.json"),

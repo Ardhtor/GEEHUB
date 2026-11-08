@@ -87,8 +87,8 @@ def main() -> int:
     parser.add_argument("--project", type=Path, default=DEFAULT_PROJECT)
     parser.add_argument("--blender", help="Blender executable path (or command name)")
     parser.add_argument("--output", type=Path, help="Override MP4 output path")
-    parser.add_argument("--preview-seconds", type=float, default=8.0,
-                        help="Render a low-resolution opening preview; use 0 for the full master")
+    parser.add_argument("--preview-seconds", type=float, default=60.0,
+                        help="Render a low-resolution full-duration preview; use 0 for the full-resolution master")
     parser.add_argument("--validate-only", action="store_true",
                         help="Validate project manifests without requiring Blender")
     args = parser.parse_args()

@@ -32,12 +32,21 @@ function chunk(type, data) {
   return Buffer.concat([length, name, data, checksum]);
 }
 
-function png(width, height) {
+function png(width, height, role) {
   const signature = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
   const ihdr = Buffer.alloc(13);
   ihdr.writeUInt32BE(width, 0); ihdr.writeUInt32BE(height, 4);
   ihdr[8] = 8; ihdr[9] = 0;
   const rows = Buffer.alloc(height * (width + 1));
+  for (let y = 0; y < height; y += 1) {
+    const row = y * (width + 1);
+    rows[row] = 0;
+    for (let x = 0; x < width; x += 1) {
+      const face = x >= 6 && x <= 9 && y >= 2 && y <= 5;
+      const body = x >= 2 && x <= width - 3 && y >= 7 && y <= height - 3;
+      rows[row + 1 + x] = (role === "face" ? face : body) ? 255 : 0;
+    }
+  }
   return Buffer.concat([signature, chunk("IHDR", ihdr), chunk("IDAT", deflateSync(rows)), chunk("IEND", Buffer.alloc(0))]);
 }
 
@@ -78,10 +87,14 @@ async function fixture(t, sequence = makeSequence()) {
   const temp = await mkdtemp(path.join(os.tmpdir(), "geehub-frame-sequence-"));
   t.after(() => rm(temp, { recursive: true, force: true }));
   const root = path.join(temp, "Dropbox");
-  const bytes = png(sequence.format.width, sequence.format.height);
+  const bytesByRole = {
+    body: png(sequence.format.width, sequence.format.height, "body"),
+    face: png(sequence.format.width, sequence.format.height, "face")
+  };
   for (const frame of sequence.frames) {
     for (const role of ["body", "face"]) {
       const mask = frame.segmentation[role + "Mask"];
+      const bytes = bytesByRole[role];
       mask.checksum = sha(bytes);
       const relative = mask.uri.slice("dropbox://GEEHUB/".length);
       const file = path.join(root, "GEEHUB", ...relative.split("/"));
@@ -89,7 +102,7 @@ async function fixture(t, sequence = makeSequence()) {
       await writeFile(file, bytes);
     }
   }
-  return { temp, root, bytes, sequence };
+  return { temp, root, bytes: bytesByRole.face, bytesByRole, sequence };
 }
 
 async function preparedRegistration(f) {
@@ -158,7 +171,57 @@ test("verifies actual PNG checksums and dimensions before geometry handoff", asy
   assert.equal(audit.readyForGeometry, true);
   assert.equal(audit.fileVerification.checked, 4);
   assert.equal(audit.fileVerification.verified, 4);
+  assert.equal(audit.pixelDataVerified, true);
+  assert.equal(audit.faceExclusionVerified, true);
+  assert.equal(audit.maskPixelAudit.pairsChecked, 2);
+  assert.equal(audit.maskPixelAudit.disjointPairs, 2);
+  assert.equal(audit.maskPixelAudit.overlapPixels, 0);
+  assert.ok(audit.fileVerification.masks.every(mask => mask.foregroundPixels > 0));
   assert.equal(audit.pixelSemanticsVerified, false);
+});
+
+test("blocks a body mask that overlaps the protected face mask", async t => {
+  const f = await fixture(t);
+  const frame = f.sequence.frames[0];
+  const bodyMask = frame.segmentation.bodyMask;
+  const faceMask = frame.segmentation.faceMask;
+  const bodyPath = path.join(f.root, "GEEHUB", ...bodyMask.uri.slice("dropbox://GEEHUB/".length).split("/"));
+  await writeFile(bodyPath, f.bytesByRole.face);
+  bodyMask.checksum = sha(f.bytesByRole.face);
+  const audit = await inspectFrameSequenceFiles(f.sequence, { dropboxRoot: f.root });
+  assert.equal(audit.readyForGeometry, false);
+  assert.equal(audit.faceExclusionVerified, false);
+  assert.ok(audit.errors.some(error => error.code === "body-face-mask-overlap"));
+});
+
+test("blocks empty masks and refuses soft grayscale probability masks", async t => {
+  const f = await fixture(t);
+  const faceMask = f.sequence.frames[0].segmentation.faceMask;
+  const facePath = path.join(f.root, "GEEHUB", ...faceMask.uri.slice("dropbox://GEEHUB/".length).split("/"));
+  const empty = png(f.sequence.format.width, f.sequence.format.height, "empty");
+  await writeFile(facePath, empty);
+  faceMask.checksum = sha(empty);
+  let audit = await inspectFrameSequenceFiles(f.sequence, { dropboxRoot: f.root });
+  assert.ok(audit.errors.some(error => error.code === "mask-empty"));
+
+  const softPixels = Buffer.alloc(f.sequence.format.width * f.sequence.format.height);
+  softPixels[0] = 127;
+  const soft = (() => {
+    const signature = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
+    const ihdr = Buffer.alloc(13);
+    ihdr.writeUInt32BE(f.sequence.format.width, 0);
+    ihdr.writeUInt32BE(f.sequence.format.height, 4);
+    ihdr[8] = 8; ihdr[9] = 0;
+    const rows = Buffer.alloc(f.sequence.format.height * (f.sequence.format.width + 1));
+    for (let y = 0; y < f.sequence.format.height; y += 1) {
+      rows.set(softPixels.subarray(y * f.sequence.format.width, (y + 1) * f.sequence.format.width), y * (f.sequence.format.width + 1) + 1);
+    }
+    return Buffer.concat([signature, chunk("IHDR", ihdr), chunk("IDAT", deflateSync(rows)), chunk("IEND", Buffer.alloc(0))]);
+  })();
+  await writeFile(facePath, soft);
+  faceMask.checksum = sha(soft);
+  audit = await inspectFrameSequenceFiles(f.sequence, { dropboxRoot: f.root });
+  assert.ok(audit.errors.some(error => error.code === "mask-pixel-values-not-binary"));
 });
 
 test("prepares typed bridge frame sets from a file-verified sequence audit", async t => {

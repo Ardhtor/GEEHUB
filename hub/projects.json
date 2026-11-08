@@ -972,7 +972,9 @@
       "embodiment",
       "relationships",
       "production"
-    ]
+    ],
+    "group": "archive",
+    "summary": "Shared character-record standard and detailed, continuity-preserving records for GEEHUB inhabitants. Records connect identity, embodiment, temperament, voice, relationships, places, history, transformation, production requirements, canon status, and provenance."
   },
   {
     "id": "developing-voices",

@@ -23,6 +23,11 @@ const readOptional = async relative => {
   try { return (await readFile(path.join(ROOT, relative), "utf8")).slice(-12_000); }
   catch { return ""; }
 };
+const readFull = async relative => {
+  try { return await readFile(path.join(ROOT, relative), "utf8"); }
+  catch { return ""; }
+};
+const parseJson = (value, fallback={}) => { try { return JSON.parse(value || ""); } catch { return fallback; } };
 const send = (res, status, data, type="application/json; charset=utf-8") => {
   res.writeHead(status, {"content-type":type,"cache-control":"no-store","x-content-type-options":"nosniff"});
   res.end(type.startsWith("application/json") ? JSON.stringify(data) : data);

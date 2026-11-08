@@ -843,5 +843,20 @@
       "the-complex",
       "male-harem-virtual-space"
     ]
+  },
+  {
+    "id": "growth-study-001",
+    "name": "GEEHUB Growth Study 001",
+    "status": "prototype",
+    "kind": "production",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/production/growth-study-001/README.md",
+    "description": "Procedural Blender character-and-studio prototype with modular anatomy volumes, a master growth control, staged progression, four-point lighting, and separate material/atmosphere tests.",
+    "related": [
+      "hulums-cave",
+      "beefythiq",
+      "growth-canvas",
+      "growth-tools"
+    ]
   }
 ]

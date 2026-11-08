@@ -2,7 +2,7 @@
 
 This project is now wired to GEEHUB's local Blender scene builder. It is no longer only a shot brief: the timeline can drive a unified rigged humanoid mesh, regional shape-key deformation, a continuous camera arc, a saved Blender scene, and an MP4 render.
 
-The production is 60 seconds at 24 fps (1,440 frames), with seven contiguous semantic stages. The regional shape-key controller expands the pectorals symmetrically, deltoids, traps, arms, lats, back, torso, quadriceps, calves, and overall body envelope. The camera follows the same stage timebase. Stage boundaries do not create cuts or reset the deformation.
+The production is 60 seconds at 24 fps (1,440 frames), with seven contiguous semantic stages. The regional shape-key controller expands the pectorals symmetrically, deltoids, traps, arms, lats, back, torso, quadriceps, calves, and overall body envelope. The camera widens gradually in response to the maximum active regional growth value, preserving the same lens and continuous spatial relationship. Stage boundaries do not create cuts or reset the deformation.
 
 ## Run it locally
 
@@ -12,7 +12,7 @@ Requirements: Blender 4.x and Python 3.10+. From the GEEHUB repository root:
 python3 engine/video/render_project.py
 ```
 
-This first renders an eight-second, low-resolution preview and saves the full-length editable scene to 04_COMPOSITES/Laboratory-Serum-60s.blend. Inspect the preview before committing to the full render.
+This first renders the complete 60-second transformation at low resolution, so the entire growth passage can be judged rather than only its opening. It also saves the full-length editable scene to 04_COMPOSITES/Laboratory-Serum-60s.blend. Inspect the preview before committing to the full-resolution render.
 
 To render the complete 60-second, 1920×1080 master:
 

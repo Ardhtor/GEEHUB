@@ -1,4 +1,5 @@
 const fs=require('fs');
+const {spawnSync}=require('child_process');
 
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const write=(p,v)=>{
@@ -375,3 +376,30 @@ write(jobsPath,renderJobs);
 write(exchangePath,exchange);
 write(worldStatePath,worldState);
 write(engineStatePath,engineState);
+
+// The cycle is not complete until its occurrence has passed through the same
+// canonical inscriber used by the world pulse and interactive hub.
+const occurrence={
+  id:'scheduled-long-play-'+String(cycle).padStart(5,'0'),
+  at:now,
+  type:'LONG_PLAY_CROSSING',
+  title:'LONG PLAY / '+previousRegion.name+' → '+region.name+' / '+agent.toUpperCase(),
+  description:'The world crossed "'+relationTitle+'" from '+previousRegion.name+' into '+region.name+'. Scale advanced from '+prior.toFixed(2)+'× to '+next.toFixed(2)+'× while earlier locations and baselines remain recorded.',
+  cycle,
+  agent,
+  previous_region_id:previousRegion.id,
+  region_id:region.id,
+  relation:relationTitle,
+  scale_from:prior,
+  scale_to:next,
+  recording:recording.id,
+  source_nodes:[previousRegion.id,region.id,agent],
+  next_action:'Continue from the new region and inherited scale baseline.'
+};
+const python=process.env.GEEHUB_PYTHON||(process.platform==='win32'?'python':'python3');
+const inscription=spawnSync(python,['engine/inscription.py','long-play-runner'],{cwd:process.cwd(),input:JSON.stringify(occurrence),encoding:'utf8'});
+if(inscription.error)throw inscription.error;
+let inscriptionResult;
+try{inscriptionResult=JSON.parse(inscription.stdout||'{}');}catch{throw new Error('Long Play inscriber returned invalid output: '+(inscription.stderr||''));}
+if(inscription.status!==0||!inscriptionResult.ok)throw new Error('Long Play occurrence was not inscribed: '+(inscriptionResult.error||inscription.stderr||'unknown error'));
+process.stdout.write('INSCRIBED | '+inscriptionResult.event.id+' | activity + artifact ledger + outbox\\n');

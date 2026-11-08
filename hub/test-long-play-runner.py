@@ -28,6 +28,7 @@ def main() -> int:
         root = Path(folder)
         (root / "engine").mkdir()
         shutil.copy2(RUNNER, root / "engine" / "long-play-runner.js")
+        shutil.copy2(ROOT / "engine" / "inscription.py", root / "engine" / "inscription.py")
         for directory in ("hub", "hub/recordings", "hub/recordings", "engine"):
             (root / directory).mkdir(parents=True, exist_ok=True)
 
@@ -164,6 +165,13 @@ def main() -> int:
         assert len(images["jobs"]) == 1 and images["jobs"][0]["lineage"]["to"] == "growth"
         assert len(reactions["events"]) == 5, "all five independent agent reactions were not recorded"
         assert exchange["events"][0]["relation"] == "THE SCALE HAS HISTORY"
+        activity = [json.loads(line) for line in (root / "engine" / "activity.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
+        occurrence_id = "scheduled-long-play-00028"
+        assert any(item["id"] == occurrence_id for item in activity), "canonical Long Play occurrence was not written"
+        assert (root / "artifacts" / "activity-events" / f"{occurrence_id}.json").is_file(), "canonical Long Play artifact missing"
+        ledger = json.loads((root / "artifacts" / "index.json").read_text(encoding="utf-8"))
+        assert any(item["id"] == f"activity-{occurrence_id}" for item in ledger["artifacts"]), "Long Play artifact missing from ledger"
+        assert (root / "dropbox_outbox" / f"{occurrence_id}.json").is_file(), "Long Play artifact missing from outbox"
 
     print("Long Play checks passed: graph routing, cumulative scale, identity continuity, shared state, and reactions")
     return 0

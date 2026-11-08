@@ -56,58 +56,54 @@ The frame-sequence intake contract is `core/frame-sequence.js`, schema
 `geehub.frame-sequence` version 1. It accepts per-frame evidence from an
 external segmentation/tracking producer and validates contiguous frame numbers,
 fixed-FPS timestamps, source lineage, frame dimensions, identity and articulated
-landmarks, confidence, and temporal continuity. Segmentation records must name
-separate body and face PNG masks. The body-mask descriptor must declare
-`excludesFace: true`; the face-mask descriptor must declare
+landmarks, confidence, and temporal continuity. Segmentation records name
+separate body and face PNG masks. The body-mask descriptor declares
+`excludesFace: true`; the face-mask descriptor declares
 `protectsIdentity: true`.
 
-`core/frame-sequence-worker.js` verifies the referenced mask files beneath the
-configured Dropbox root. It refuses symlinked paths, checks each actual
-SHA-256 digest, and reads the PNG signature and IHDR dimensions. Run the audit
-with Node 22:
+`core/mask-pixels.js` and `core/frame-sequence-worker.js` now inspect actual
+mask pixels. The accepted mask format is deliberately explicit: non-interlaced,
+8-bit grayscale PNG, with samples exactly 0 (background) or 255 (foreground).
+The decoder verifies PNG chunk CRCs, decompresses image data, and reconstructs
+all five standard PNG row filters. It rejects palette/RGB/alpha encodings,
+soft probability values, empty masks, corrupt chunks, and unsafe dimensions
+rather than guessing how to interpret them.
+
+For each frame, the worker checks the body and face masks are both non-empty
+and have zero overlapping foreground pixels. It records foreground counts,
+bounding boxes, and overlap counts. A successful audit reports
+`pixelDataVerified: true` and `faceExclusionVerified: true`; it still reports
+`pixelSemanticsVerified: false`. Disjoint masks prove that the supplied body
+and face regions do not overlap. They do not independently prove that the
+upstream model found the correct anatomy or that every face pixel was labeled
+correctly. No source image pixels are altered.
+
+Run the audit with Node 22:
 
 ~~~bash
 GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \
   npm run inspect:frames -- ./frame-sequence.json
 ~~~
 
-A successful audit reports `ready-for-geometry`. This means the sequence,
-mask files, checksums, and declared dimensions agree. It does **not** mean a
-segmentation model ran or that mask pixels were semantically inspected:
-face-exclusion and identity-protection remain producer declarations, and the
-worker neither decodes nor changes image pixels. No frame deformation or video
-render is performed by this intake step.
+A successful audit reports `ready-for-geometry` only after sequence structure,
+actual mask bytes, binary pixel values, non-empty foreground, and body/face
+disjointness all pass. The audit's pixel summary is copied into the registered
+segmentation sidecar. The bridge adapter refuses a fabricated or incomplete
+pixel audit. During render-job preparation, the worker re-decodes the local
+mask files and compares the result with the registered summary; a changed mask
+or stale pixel audit blocks the job. The resulting render job carries the
+fresh pixel audit as evidence while retaining
+`pixelSemanticsVerified: false`.
 
-`core/frame-sequence-bridge.js` converts a successful local audit into two
-typed, checksummed bridge frame sets: `segmentation` and `landmarks`. The
-adapter returns the exact JSON sidecar contents and a new manifest revision.
+`core/frame-sequence-bridge.js` converts a successful audit into two typed,
+checksummed bridge frame sets: `segmentation` and `landmarks`.
+`core/frame-sequence-registration.js` persists those documents safely,
+verifies their actual checksums, and publishes the manifest revision last.
 
-`core/frame-sequence-registration.js` now persists those documents safely.
-It checks the sidecar schema, source and sequence lineage, frame range, format,
-and exact content digests against the prepared manifest. It writes each file
-with exclusive creation, reads it back, verifies its actual SHA-256, and writes
-the versioned manifest last. Existing destinations and symlinked directories
-are refused; if a later write fails, files created by that run are removed only
-when their bytes still match the expected digest.
-
-Run the complete local registration pass with Node 22:
-
-~~~bash
-GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \\
-  npm run register:frames -- ./manifest.json ./frame-sequence.json
-~~~
-
-The command reruns the mask-file audit rather than trusting a saved audit JSON.
-It writes revisioned segmentation and landmark sidecars beneath
-`Bridge/evidence/` and a new manifest beneath
-`Bridge/incoming/frame-sequences/`. Optional URI overrides are available
-through `GEEHUB_FRAME_SEGMENTATION_URI`, `GEEHUB_FRAME_LANDMARKS_URI`, and
-`GEEHUB_FRAME_MANIFEST_URI`. The package workflow on 2026-11-06 passed all 58 Node tests, all 10 Resolve Lua tests, Lua 5.4 syntax validation, and the portable package build/upload (Actions run 42283321927).
-
-The JSON receipt reports actual file digests and
-the registered manifest path. The new manifest contains the two typed frame
-sets but does not yet queue a render job. Pixel semantics and face exclusion
-remain unverified producer assertions; no image pixels are decoded or changed.
+The decoder is not a segmentation model and does not detect a face. It verifies
+the format and internal relationship of masks supplied by an upstream producer.
+A future model or independent detector must establish anatomical correctness
+before the system can claim semantic face protection.
 
 ## Registered-evidence render-job preparation
 

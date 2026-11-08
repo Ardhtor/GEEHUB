@@ -1,5 +1,9 @@
 """Unit tests for the renderer-independent GEEHUB growth curve engine."""
 import unittest
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from growth_curves import (
     DEFAULT_PROFILE,

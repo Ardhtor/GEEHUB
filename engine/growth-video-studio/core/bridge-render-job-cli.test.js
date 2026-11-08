@@ -101,6 +101,17 @@ async function fixture(t) {
   const segmentationDocument = {
     schema: "geehub.frame-set-evidence", schemaVersion: 1, role: "segmentation",
     sequenceId, sourceAssetId: source.id, ...range, pixelSemanticsVerified: false,
+    maskPixelAudit: {
+      encoding: "png/grayscale8/binary",
+      pixelDataVerified: true,
+      faceExclusionVerified: true,
+      pairsChecked: 2,
+      disjointPairs: 2,
+      overlapPixels: 0,
+      frames: [0, 1].map(frame => ({
+        frame, bodyForegroundPixels: 180, faceForegroundPixels: 16, overlapPixels: 0
+      }))
+    },
     frames
   };
   const landmarksDocument = {
@@ -181,6 +192,22 @@ test("preparation CLI rechecks actual masks and writes a queued job bundle", asy
   assert.equal(job.frameEvidence.faceExclusionVerified, true);
   assert.equal(job.frameEvidence.maskPixelAudit.overlapPixels, 0);
   assert.equal(job.landmarkFrames.length, 2);
+});
+
+test("preparation CLI refuses a registered pixel audit that no longer matches the files", async t => {
+  const f = await fixture(t);
+  const sidecarPath = path.join(f.root, "GEEHUB", "Bridge", "evidence", "segmentation.json");
+  const sidecar = JSON.parse(await readFile(sidecarPath, "utf8"));
+  sidecar.maskPixelAudit.frames[0].bodyForegroundPixels += 1;
+  const sidecarText = JSON.stringify(sidecar, null, 2) + "\n";
+  await writeFile(sidecarPath, sidecarText);
+  const manifest = JSON.parse(await readFile(f.manifestPath, "utf8"));
+  manifest.frameSets.find(item => item.id === "cli-segmentation").checksum = sha(sidecarText);
+  await writeFile(f.manifestPath, JSON.stringify(manifest, null, 2));
+  const result = runCli(f);
+  assert.equal(result.status, 1);
+  assert.match(result.stderr, /pixel audit differs from the re-inspected mask files/);
+  await assert.rejects(lstat(f.bundlePath), { code: "ENOENT" });
 });
 
 test("preparation CLI refuses a mask changed after registration", async t => {

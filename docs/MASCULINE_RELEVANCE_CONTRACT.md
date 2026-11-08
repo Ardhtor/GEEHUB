@@ -78,7 +78,7 @@ Forbidden:
 }
 ```
 
-## current-world.json (single source of truth)
+## current-world.json (authoritative runtime projection)
 
 ```json
 {
@@ -110,7 +110,7 @@ Forbidden:
 }
 ```
 
-Every RUN, SAVE, ACCEPT, CROSSING, and worker completion rewrites this file through the kernel only.
+`engine/activity.jsonl` remains the canonical historical event stream. `current-world.json` is the authoritative, rebuildable projection of accepted events and current runtime conditions; it is not a second historical ledger. Existing files such as `engine/state.json` and world/campus state must be reconciled through explicit adapters or migration before this projection is declared operational. No subsystem may silently become a competing authority. Every RUN, SAVE, ACCEPT, CROSSING, and worker completion updates the projection through the shared kernel only.
 
 ## Masculine operators (executable preferences)
 
@@ -263,3 +263,38 @@ The Tractus keeps what happened.
 The house answers what changed.
 The next process begins from what remains.
 ```
+
+
+## Global male-only fictional scope
+
+The fictional world-building emphasis of this contract is male-only spaces across the full GEEHUB geography. This is a setting and membership rule for fictional places, not a claim about real-world populations or a restriction on real-world access.
+
+The scope includes, where appropriate, households, universities, residential halls, fraternities, gyms, workshops, studios, clubs, pantheons, territories, institutions, settlements, and purpose-built communal spaces. Each space should have a legible identity, an understood membership boundary, and a reason for existing beyond its label. Populate these settings with men whose relationships, routines, work, customs, ambitions, and histories give the place its character. Do not default to a mixed social environment when developing a space explicitly established as male-only.
+
+Male-only does not mean culturally uniform. The global geography should contain distinct societies and institutions shaped by their own histories, climates, materials, customs, architecture, economies, and forms of fellowship. A gym in one region should not feel like a renamed gym elsewhere; a residential institution should carry the habits and history of its inhabitants. Differences should be specific and internally coherent rather than decorative stereotypes.
+
+## Global geography and inter-place continuity
+
+No place exists in isolation. Every place belongs to a larger geography; every man belongs to a history; every encounter has the possibility of changing both.
+
+Give each region a stable identity and relationships to neighboring regions, routes, institutions, and shared resources. Places may exchange visitors, inhabitants, goods, techniques, stories, challenges, and traditions. They may compete, collaborate, host one another, or disagree. These crossings must leave traceable consequences in both the local record and the wider world when the consequences affect both.
+
+Global continuity must not flatten local identity. Preserve each place's vocabulary, customs, visual language, social arrangements, and historical memory while allowing contact to change them. Record the source of an imported custom or relationship; distinguish inheritance from imitation and exchange from takeover.
+
+## Inhabitant development
+
+Recurring male characters have lives that continue beyond the scene in which they appear. Preserve stable identity while allowing development in physical condition, competence, skills, friendships, rivalries, habits, possessions, responsibilities, ambitions, and personal history. Development should arise through choices, practice, relationships, environment, and time—not arbitrary resets or unexplained escalation.
+
+A character's development may change the places he inhabits: equipment is adjusted, rooms are reorganized, routines become customary, responsibilities are reassigned, new facilities are built, and relationships alter how shared spaces are used. Conversely, places and institutions should shape their inhabitants through opportunity, constraint, teaching, tradition, and shared work.
+
+Keep distinct records for established canon, proposed development, and experimental alternatives. A character sheet is not a substitute for lived passages; a passage should contribute relevant changes back to the character and world records.
+
+## State authority and recovery
+
+The historical event stream and the current-world projection have different jobs. The event stream answers what happened and in what order. The current-world projection answers what the world is like now. The projection must be reproducible from the event stream plus explicitly versioned initial conditions, accepted state inputs, and documented migration rules.
+
+Before runtime integration is considered complete, identify every existing state file and define whether it is canonical input, a regional projection, a cache, a compatibility view, or deprecated data. Reconcile existing world and campus state rather than silently replacing it. Recovery must be tested by rebuilding the current projection from persisted records without relying on the original conversation or an in-memory session.
+
+## Expanded completion test
+
+A globally connected passage is complete when its local consequences are inscribed, affected characters and places inherit the relevant changes, any cross-region consequences are propagated, canon status is explicit, and the next process can recover the resulting state from persisted records. A passage need not affect the whole world; its scope should match its actual consequences.

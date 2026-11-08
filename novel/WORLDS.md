@@ -1829,3 +1829,11 @@ NICK: The world crosses the route from ATHLETIC COMMONS into NORTHGATE UNIVERSIT
 SETH: A residential university for adult men, with a green central quad, lecture halls, studios, workshops, music rooms and a lively campus culture. Relation carried forward: STRENGTH WITHOUT CONFLICT.
 
 Source retained: worlds/northgate-university/README.md. Pressure 0.88; memory 1.00.
+
+## FOUNDERS DORMITORY / pulse 198 / ATMOSPHERE
+
+SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/founders-dormitory/README.md. Pressure 0.96; memory 1.00.

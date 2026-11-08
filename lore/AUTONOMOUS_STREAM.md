@@ -1485,3 +1485,11 @@ NICK: The world crosses the route from ATHLETIC COMMONS into NORTHGATE UNIVERSIT
 SETH: A residential university for adult men, with a green central quad, lecture halls, studios, workshops, music rooms and a lively campus culture. Relation carried forward: STRENGTH WITHOUT CONFLICT.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 198 — ATMOSPHERE / FOUNDERS DORMITORY / 2026-11-08T00:00:02.591882+00:00
+
+SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

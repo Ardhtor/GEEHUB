@@ -1,0 +1,161 @@
+[
+  {
+    "id": "domestic-intrusion",
+    "name": "Domestic Intrusion",
+    "core_tension": "A familiar private space becomes inadequate as an irreversible transformation changes the body's scale and relation to the room.",
+    "typical_settings": [
+      "bedroom",
+      "loft",
+      "office",
+      "neighborhood house",
+      "domestic interior"
+    ],
+    "trigger_types": [
+      "serum",
+      "unexplained force",
+      "encounter",
+      "ongoing condition"
+    ],
+    "functions": [
+      "establish",
+      "trigger",
+      "sustain",
+      "register",
+      "escalate",
+      "hold or continue"
+    ],
+    "signals": [
+      "ordinary domestic baseline",
+      "furniture or architecture becomes a scale reference",
+      "clothing and movement constrained",
+      "witness or second character may be present"
+    ],
+    "counter_signals": [
+      "space is already an experimental containment environment"
+    ]
+  },
+  {
+    "id": "institutional-containment",
+    "name": "Institutional / Experimental Containment",
+    "core_tension": "A controlled institution attempts to contain, measure, or direct a transformation that exceeds its intended limits.",
+    "typical_settings": [
+      "laboratory",
+      "military facility",
+      "prison",
+      "locker room",
+      "controlled gym"
+    ],
+    "trigger_types": [
+      "experiment",
+      "serum",
+      "training protocol",
+      "institutional procedure",
+      "force"
+    ],
+    "functions": [
+      "establish protocol",
+      "trigger",
+      "sustain",
+      "measure or witness",
+      "containment failure",
+      "hold or continue"
+    ],
+    "signals": [
+      "institutional props or procedures",
+      "observation or supervision",
+      "room equipment used as scale",
+      "containment becomes inadequate"
+    ],
+    "counter_signals": [
+      "setting is primarily domestic without institutional framing"
+    ]
+  },
+  {
+    "id": "triggered-metamorphosis",
+    "name": "Triggered Metamorphosis",
+    "core_tension": "A causal event converts an ordinary baseline into a prolonged transformation with consequences.",
+    "typical_settings": [
+      "any recognizable baseline setting"
+    ],
+    "trigger_types": [
+      "serum",
+      "spell",
+      "deal",
+      "app",
+      "experiment",
+      "unexplained force"
+    ],
+    "functions": [
+      "baseline",
+      "trigger",
+      "extended transformation",
+      "environmental and clothing response",
+      "new baseline or continuation"
+    ],
+    "signals": [
+      "identifiable trigger",
+      "clear before/after baseline",
+      "continuous central event",
+      "causal consequences"
+    ],
+    "counter_signals": [
+      "transformation has no identifiable onset or trigger"
+    ]
+  },
+  {
+    "id": "remake-refinement",
+    "name": "Remake / Refinement Loop",
+    "core_tension": "A stable scenario or premise is revisited while execution, duration, animation, simulation, camera, or sound is refined.",
+    "typical_settings": [
+      "reused location or scenario",
+      "recurring character premise"
+    ],
+    "trigger_types": [
+      "remake",
+      "reboot",
+      "redo",
+      "technical study"
+    ],
+    "functions": [
+      "identify source version",
+      "identify invariant premise",
+      "compare revisions",
+      "record new capabilities",
+      "map final differences"
+    ],
+    "signals": [
+      "creator identifies remake or redo",
+      "shared title/premise/characters",
+      "earlier and later media both available"
+    ],
+    "counter_signals": [
+      "similar title without evidence of a remake relationship"
+    ]
+  },
+  {
+    "id": "escalation-without-closure",
+    "name": "Escalation Without Closure",
+    "core_tension": "The transformation itself remains the payoff; the ending preserves extreme scale or ongoing change rather than resolving into a conventional final form.",
+    "typical_settings": [
+      "any"
+    ],
+    "trigger_types": [
+      "ongoing growth",
+      "unresolved transformation"
+    ],
+    "functions": [
+      "sustain",
+      "escalate",
+      "hold or continue"
+    ],
+    "signals": [
+      "long transformation passage",
+      "ending at extreme scale",
+      "explicit ongoing growth",
+      "no narrative reset"
+    ],
+    "counter_signals": [
+      "a clearly resolved final form and conventional closure"
+    ]
+  }
+]

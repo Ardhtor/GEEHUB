@@ -12,8 +12,8 @@
   const state={
     busy:false,
     history:Array.isArray(restored.history)?restored.history.slice(-12):[],
-    scene:restored.scene||{location:"The common room",event:"The men have gathered."},
-    participants:Array.isArray(restored.participants)?restored.participants:participants,
+    scene:restored.scene||{event:"The men have gathered."},
+    participants:[...new Set([...participants,...(Array.isArray(restored.participants)?restored.participants:[])])],
     lastSpeaker:restored.lastSpeaker||null,
     nextSpeaker:restored.nextSpeaker||null
   };
@@ -165,6 +165,17 @@
     setStatus("NEW ENCOUNTER");
     void nextTurn();
   });
-  document.addEventListener("DOMContentLoaded",mount);
+  async function seedWorldScene(){
+    if(restored.scene)return;
+    try{
+      const response=await fetch("./hub/world-state.json?ts="+Date.now(),{cache:"no-store"});
+      if(!response.ok)return;
+      const world=await response.json();
+      const encounter=world.activeEncounter||{};
+      state.scene={...state.scene,location:encounter.regionName||"The common room",activeEncounter:encounter,intent:encounter.intent||"",continuity:encounter.continuity||[],latestDelta:encounter.delta||[],recording:world.activeRecording||null};
+      saveSession();
+    }catch{}
+  }
+  document.addEventListener("DOMContentLoaded",()=>{mount();void seedWorldScene();});
   window.GEEHUB_LIVE_INTERLOCUTOR={next:nextTurn,state:()=>JSON.parse(JSON.stringify(state))};
 })();

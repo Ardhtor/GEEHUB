@@ -194,7 +194,7 @@ def build_scene(manifest, output_path, timeline=None, preview_seconds=None, save
     camera = bpy.data.objects.new("Director camera", camera_data)
     scene.collection.objects.link(camera)
     camera_mode = manifest.get("direction", {}).get("camera", "medium")
-    camera_data.lens = 45 if camera_mode == "low" else 55 if camera_mode == "close" else 48
+    camera_data.lens = 35 if timeline else (45 if camera_mode == "low" else 55 if camera_mode == "close" else 48)
     scene.camera = camera
     camera_shots = [
         (3.0, -10.0, 3.15),
@@ -229,7 +229,7 @@ def build_scene(manifest, output_path, timeline=None, preview_seconds=None, save
         camera.keyframe_insert(data_path="rotation_euler", frame=total_frames)
 
     # The final third holds the phase-four form; no further scaling keys are added.
-    scene.frame_end = min(total_frames, max(1, int(preview_seconds * fps))) if preview_seconds else total_frames
+    scene.frame_end = total_frames
     scene.frame_set(1)
     scene.render.image_settings.color_mode = "RGB"
     scene.camera.data.dof.use_dof = True
@@ -240,6 +240,8 @@ def build_scene(manifest, output_path, timeline=None, preview_seconds=None, save
         blend_path = Path(save_blend_path)
         blend_path.parent.mkdir(parents=True, exist_ok=True)
         bpy.ops.wm.save_as_mainfile(filepath=str(blend_path))
+    if preview_seconds:
+        scene.frame_end = min(total_frames, max(1, int(preview_seconds * fps)))
     bpy.ops.render.render(animation=True)
 
 

@@ -1037,5 +1037,26 @@
       "continuity",
       "production"
     ]
+  },
+  {
+    "id": "growth-study-001",
+    "name": "Growth Study 001",
+    "group": "production",
+    "status": "prototype",
+    "summary": "Modular Blender character study with a growth-control rig, four staged poses, studio key/fill/rim lighting, procedural skin and cloth placeholders, and an optional atmosphere pass.",
+    "path": "../production/growth-study-001/README.md",
+    "tags": [
+      "blender",
+      "rigging",
+      "growth",
+      "lighting",
+      "materials",
+      "production"
+    ],
+    "related": [
+      "hulums-cave",
+      "beefythiq",
+      "growth-tools"
+    ]
   }
 ]

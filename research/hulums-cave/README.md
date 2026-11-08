@@ -3,6 +3,7 @@
 This directory is the source-led historical record for Hulum's Cave. It takes precedence over generic creator discovery when the task concerns Hulum's Cave, its videos, or the development of its production methods.
 
 - HISTORICAL_VIDEO_CORPUS.md — historical synthesis, evidence policy, extraction schema, and priority research batches.
+- RIGGING_STRUCTURE_EXPERIENCE.md — detailed synthesis of rigging/deformation requirements, scenario choreography, experiential grammar, sound, and GEEHUB production consequences.
 - works.json — normalized catalogue of works, currently known relationships, inspected clips, and status.
 - post-index.json — curated public archive post index with canonical URLs and post roles.
 - annotations/ — timestamped visual/audio annotations for individual original videos (to be populated).

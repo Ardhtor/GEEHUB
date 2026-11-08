@@ -1,10 +1,10 @@
-# Developing Voices — engine
+# Developing Voices — instantaneous runtime
 
-This directory contains the first executable layer of the GEEHUB voice system.
+The voice engine is a synchronous context transition. Each line is applied as it is written, and the returned context is already the context for the next line. There is no sample queue, waiting period, scheduled analysis, or separate profile-building pass.
 
-- `voice-profiles.json` stores provisional character hypotheses and the encounter ledger.
-- `voice-engine.mjs` records utterances, analyses basic speech mechanics, tracks expression transfers, and produces per-character reports.
-- `voice-engine.test.mjs` verifies the core behaviour with Node's built-in test runner.
+- `voice-profiles.json` supplies editable starting hypotheses for Teal Titan, Joey, Marcus, and Arthur.
+- `voice-engine.mjs` applies each utterance to the shared scene, speaker history, participant relationships, and recent conversational state.
+- `voice-engine.test.mjs` verifies that a turn changes the next-turn context immediately.
 
 Run the tests from the repository root:
 
@@ -12,28 +12,24 @@ Run the tests from the repository root:
 node --test engine/voices/voice-engine.test.mjs
 ```
 
-The analysis is deliberately modest. It counts words, sentence lengths, contractions, recurring terms, and a small profanity vocabulary. It does not infer accent, identity, emotion, or personality from text. Scene and emotion labels are supplied as context by the writer. Profiles begin as provisional hypotheses and should be revised only when actual dialogue supports the change.
-
-Example:
+The host or language model writes the actual next utterance. The runtime does not pretend to be a language model or independently invent dialogue. Its job is to make the context transition explicit and immediate, so the next generation step inherits the changed situation. The return value from `applyTurn` contains `next_context`; pass that directly into the next generation step.
 
 ```js
 import seed from "./voice-profiles.json" with { type: "json" };
-import { createVoiceStore, recordUtterance, transferExpression, getVoiceReport } from "./voice-engine.mjs";
+import { createVoiceStore, applyTurn } from "./voice-engine.mjs";
 
 const store = createVoiceStore(seed);
-recordUtterance(store, {
+const first = applyTurn(store, {
   characterId: "marcus",
   text: "That was fucking enormous.",
   scene: "Gold's on 5th",
-  emotion: "excited"
+  participants: ["teal-titan", "joey", "arthur"],
+  emotion: "impressed",
+  consequence: "The room reads the profanity as emphasis and admiration, not hostility."
 });
-transferExpression(store, {
-  expression: "That's the point.",
-  origin: "teal-titan",
-  adopters: ["joey", "arthur"],
-  context: "A recurring correction during a group conversation"
-});
-console.log(getVoiceReport(store, "marcus"));
+
+// first.next_context is the live context for the very next line.
+const contextForNextLine = first.next_context;
 ```
 
-The store is an in-memory data structure. Export it with `exportVoiceStore` and persist the returned JSON through the host application's storage layer. The engine itself does not silently write to disk or a remote service.
+The engine keeps lightweight descriptive analysis for editorial inspection, but analysis does not gate or delay the transition. It does not infer accent, identity, or personality from word counts. A durable change in the scene should be supplied as `consequence`; expression transfers remain explicit editorial decisions rather than guesses. The store is in memory until a host application persists its exported JSON.

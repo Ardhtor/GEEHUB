@@ -1,0 +1,96 @@
+{
+  "schema": "geehub.character-lineage/1",
+  "id": "teal-titan",
+  "display_name": "Teal Titan",
+  "entity_type": "fictional_character",
+  "canon_status": "user-established",
+  "creative_definition": "A personification of the combined creative libido of Hulum's Cave and Joey, as established by the user for GEEHUB.",
+  "interpretation_boundary": "This is a creative interpretation within GEEHUB. It does not assert either person's private feelings, intentions, endorsement, or collaboration.",
+  "creator_relationships": [
+    {
+      "entity_id": "hulums-cave",
+      "relation": "creative-lineage",
+      "evidence": "user-established canon; supported as a visual/historical reference by the Hulum's Cave research corpus",
+      "verification": "interpretive"
+    },
+    {
+      "entity_id": "joey-prever",
+      "relation": "creative-lineage",
+      "evidence": "user-established canon",
+      "verification": "interpretive"
+    }
+  ],
+  "source_sequence": [
+    {
+      "id": "teal-titan-22",
+      "source_name": "22",
+      "storage": "Dropbox",
+      "sequence": 1,
+      "status": "referenced-by-user",
+      "inspection_status": "previously sampled in GEEHUB source reading; exact Dropbox binary not checksum-matched",
+      "role": "early visual and pose reference"
+    },
+    {
+      "id": "teal-titan-3333",
+      "source_name": "3333",
+      "storage": "Dropbox",
+      "sequence": 2,
+      "status": "located-by-filename",
+      "dropbox_path": "/3333.mp4",
+      "dropbox_file_id": "id:tbdqPXHGULQAAAAAAAACSg",
+      "size_bytes": 2340964,
+      "inspection_status": "Dropbox preview/fetch did not provide usable video payload; existing source reading is not yet checksum-linked to this Dropbox object",
+      "role": "visual and pose reference; source identity requires checksum verification"
+    },
+    {
+      "id": "teal-titan-4444",
+      "source_name": "4444",
+      "storage": "Dropbox",
+      "sequence": 3,
+      "status": "referenced-by-user",
+      "inspection_status": "not yet independently located or inspected",
+      "role": "forthcoming sequence reference; do not infer contents"
+    },
+    {
+      "id": "teal-titan-05",
+      "source_name": "fifth video (working designation)",
+      "storage": "pending",
+      "sequence": 4,
+      "status": "anticipated",
+      "inspection_status": "not received",
+      "role": "future continuation; create record only after receipt"
+    }
+  ],
+  "continuity_dimensions": [
+    "face-and-head",
+    "neck-and-shoulder-structure",
+    "height-and-limb-proportions",
+    "mass-distribution",
+    "silhouette",
+    "clothing",
+    "pose-vocabulary",
+    "camera-and-framing",
+    "environment",
+    "motion-timing",
+    "sound-and-vocal-texture"
+  ],
+  "relationship_types": [
+    "depicts",
+    "continues",
+    "references",
+    "derived_from",
+    "interpreted_as"
+  ],
+  "source_integrity_rules": [
+    "Never infer visual contents from a filename or sequence number.",
+    "Record Dropbox path, file ID, byte size, SHA-256, duration, frame rate, dimensions, and audio stream details when available.",
+    "Do not merge a local copy with a Dropbox object until checksum identity is verified.",
+    "Separate character continuity from camera, pose, crop, perspective, and orientation effects.",
+    "The fifth source remains anticipated until received."
+  ],
+  "production_links": {
+    "project": "production/projects/teal-titan-golds-on-5th/",
+    "historical_reference": "research/hulums-cave/",
+    "creator_index": "research/creators/ACTIVE_CREATORS.json"
+  }
+}

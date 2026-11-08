@@ -40,12 +40,17 @@ const bodyOf = req => new Promise((resolve,reject)=>{
 });
 async function generateTurn(input) {
   if(!API_KEY || !MODEL) throw new Error("Configure OPENAI_API_KEY and GEEHUB_MODEL on the server.");
-  const [canon,profiles,worldRaw,agents,history,exchangeRaw,mapRaw] = await Promise.all([
+  const [canon,fictionMemory,relationshipCanon,profiles,worldRaw,agents,reactionHistory,history,socialSpace,tealTitanLineage,exchangeRaw,mapRaw] = await Promise.all([
     readOptional("CANON.md"),
+    readOptional("docs/FICTION_MEMORY.md"),
+    readOptional("novel/RELATIONSHIP_CANON.md"),
     readOptional("engine/voices/voice-profiles.json"),
     readFull("hub/world-state.json"),
     readOptional("hub/agents.json"),
+    readOptional("hub/agent-reaction-history.json"),
     readOptional("engine/activity.jsonl"),
+    readOptional("hub/social-cyberspace.json"),
+    readOptional("research/relationships/TEAL_TITAN_LINEAGE.json"),
     readFull("hub/exchange.json"),
     readFull("hub/spatial-world.json")
   ]);
@@ -58,11 +63,16 @@ async function generateTurn(input) {
     ? await readOptional("hub/"+recordingRef) : "";
   const context = [
     "CANON\n"+canon,
+    "FICTION MEMORY\n"+fictionMemory,
+    "RELATIONSHIP CANON\n"+relationshipCanon,
     "VOICE STARTING POINTS (hypotheses, not rigid templates)\n"+profiles,
     "CURRENT WORLD STATE\n"+JSON.stringify(worldState),
     "PERSISTENT SPATIAL MAP\n"+JSON.stringify(map),
     "ACTIVE RECORDING\n"+recording,
     "AGENTS\n"+agents,
+    "RECENT AGENT REACTION HISTORY\n"+reactionHistory,
+    "SOCIAL CYBERSPACE / CONNECTION STATUS\n"+socialSpace,
+    "TEAL TITAN LINEAGE / CREATIVE BOUNDARIES\n"+tealTitanLineage,
     "RECENT INSCRIBED ACTIVITY\n"+history,
     "SHARED EXCHANGE LEDGER (newest entries)\n"+recentExchange,
     "LIVE SCENE\n"+JSON.stringify(input.scene),

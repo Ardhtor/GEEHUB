@@ -25,13 +25,14 @@
 
   const person=id=>state.agents?.agents?.find(a=>a.id===id)||null;
   const participant=id=>state.manifest?.participants?.find(p=>p.id===id)||null;
+  const stamp=value=>typeof value==='number'?value:(Date.parse(value)||Number(value)||0);
 
   function eventList(){
     let local=[];
     try{local=JSON.parse(localStorage.getItem('geehub-interaction-events')||'[]')}catch{}
     const unique=new Map();
     [...state.events,...local].forEach(event=>{if(event?.id)unique.set(event.id,event);});
-    return [...unique.values()].sort((a,b)=>Number(b.at||0)-Number(a.at||0)).slice(0,32);
+    return [...unique.values()].sort((a,b)=>stamp(b.at||b.occurred_at)-stamp(a.at||a.occurred_at)).slice(0,32);
   }
 
   function render(){
@@ -169,7 +170,7 @@
     const inscribed=await loadInscribedActivity();
     const merged=new Map();
     [...state.events,...inscribed].forEach(event=>{if(event?.id)merged.set(event.id,event);});
-    state.events=[...merged.values()].sort((a,b)=>Number(b.at||b.occurred_at||0)-Number(a.at||a.occurred_at||0));
+    state.events=[...merged.values()].sort((a,b)=>stamp(b.at||b.occurred_at)-stamp(a.at||a.occurred_at));
     render();
     setInterval(async()=>{
       try{
@@ -184,7 +185,7 @@
           [...state.events,...next,...inscribed].forEach(event=>{if(event?.id)merged.set(event.id,event);});
           state.events=[...merged.values()].sort((a,b)=>Number(b.at||b.occurred_at||0)-Number(a.at||a.occurred_at||0));
           if(additions.length){
-            const newest=additions.sort((a,b)=>Date.parse(b.at||b.occurred_at||0)-Date.parse(a.at||a.occurred_at||0))[0];
+            const newest=additions.sort((a,b)=>stamp(b.at||b.occurred_at)-stamp(a.at||a.occurred_at))[0];
             if(newest)bus.emit({...newest,at:newest.at||newest.occurred_at});
           }
           render();

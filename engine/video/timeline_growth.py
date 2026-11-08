@@ -63,7 +63,7 @@ def animate_timeline_growth(mesh, timeline):
     current = {region: 0.0 for region in REGIONS}
     for stage in timeline["stages"]:
         start = max(1, int(round(float(stage["start_seconds"]) * fps)) + 1)
-        end = max(start + 1, int(round(float(stage["end_seconds"]) * fps)) + 1)
+        end = max(start + 1, int(round(float(stage["end_seconds"]) * fps)))
         growth = stage.get("growth", {})
         active = set(growth.get("regions", []))
         if growth.get("active"):

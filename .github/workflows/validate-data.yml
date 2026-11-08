@@ -42,6 +42,7 @@ jobs:
       - name: Check browser script syntax
         run: |
           node --check app.js
+          node --check server/geehub-server.mjs
           node --check engine/long-play-runner.js
           node --check artifacts/runtime.js
           node --check engine/story-atlas.js
@@ -102,7 +103,7 @@ jobs:
           console.log('Validated ' + world.regions.length + ' world broadcasts, map destinations, and interface assets.');
           NODE
       - name: Validate Python tools
-        run: python -m py_compile engine/run_world.py hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py hub/test-world-engine.py hub/test-long-play-runner.py
+        run: python -m py_compile engine/inscription.py engine/run_world.py hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py hub/test-world-engine.py hub/test-long-play-runner.py
       - name: Run portable jam regression test
         run: python hub/test-validate-jams.py
       - name: Run UI registry validator regression test

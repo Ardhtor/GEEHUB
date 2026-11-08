@@ -7,6 +7,8 @@ stages remain descriptive and never cause step changes in the body.
 from __future__ import annotations
 
 import math
+import json
+from pathlib import Path
 import bpy
 from mathutils import Vector
 
@@ -141,3 +143,66 @@ def animate_timeline_camera(camera, timeline, profile=None, target=(0.0, 0.0, 1.
                 point.interpolation = "BEZIER"
                 point.handle_left_type = "AUTO_CLAMPED"
                 point.handle_right_type = "AUTO_CLAMPED"
+
+
+def write_growth_diagnostics(objects, timeline, output_path):
+    """Measure evaluated mesh bounds at key continuity checkpoints."""
+    fps = int(timeline.get("timebase", {}).get("fps", 24))
+    duration = float(timeline["duration_seconds"])
+    total_frames = int(round(duration * fps))
+    checkpoint_seconds = (0.0, 12.0, 25.0, 42.0, 55.0, (total_frames - 1) / fps)
+    scene = bpy.context.scene
+    records = []
+    baselines = {}
+
+    for seconds in checkpoint_seconds:
+        frame = min(total_frames, max(1, int(round(seconds * fps)) + 1))
+        scene.frame_set(frame)
+        bpy.context.view_layer.update()
+        depsgraph = bpy.context.evaluated_depsgraph_get()
+        measurements = {}
+        for obj in objects:
+            evaluated = obj.evaluated_get(depsgraph)
+            evaluated_mesh = evaluated.to_mesh()
+            try:
+                points = [evaluated.matrix_world @ vertex.co for vertex in evaluated_mesh.vertices]
+                if not points:
+                    continue
+                minimum = [min(point[axis] for point in points) for axis in range(3)]
+                maximum = [max(point[axis] for point in points) for axis in range(3)]
+                dimensions = [maximum[axis] - minimum[axis] for axis in range(3)]
+                name = obj.name
+                if name not in baselines:
+                    baselines[name] = dimensions
+                base = baselines[name]
+                measurements[name] = {
+                    "bounds_min": [round(value, 5) for value in minimum],
+                    "bounds_max": [round(value, 5) for value in maximum],
+                    "dimensions_xyz": [round(value, 5) for value in dimensions],
+                    "ratio_to_baseline_xyz": [
+                        round(dimensions[i] / base[i], 5) if base[i] else None
+                        for i in range(3)
+                    ],
+                }
+            finally:
+                evaluated.to_mesh_clear()
+        records.append({
+            "seconds": round((frame - 1) / fps, 5),
+            "frame": frame,
+            "objects": measurements,
+        })
+
+    scene.frame_set(1)
+    report = {
+        "schema": "geehub.growth-measurements/1",
+        "project_id": timeline.get("project_id"),
+        "fps": fps,
+        "duration_seconds": duration,
+        "method": "evaluated-mesh world-space bounding boxes",
+        "checkpoints": records,
+        "interpretation": "Measurements verify that the evaluated geometry changes over time; they do not establish anatomical realism or visual quality.",
+    }
+    destination = Path(output_path)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.write_text(json.dumps(report, indent=2) + "\\n", encoding="utf-8")
+    return report

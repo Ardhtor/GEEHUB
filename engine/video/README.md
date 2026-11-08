@@ -85,6 +85,38 @@ The Blender scene runner now supports an opt-in armature-driven character path. 
 
 Omit `character_model` or set it to `blockout` to retain the original fast blocking character. The rigged path places the stage floor beneath the full-height mesh and keys growth only between the existing growth start/end frames, holding the final shape afterwards. The rigged path is experimental until rendered and inspected in Blender; confirm shoulders, hips, elbows, knees, silhouette and floor contact before production use. The rig growth ceiling is clamped to 1.0–1.8 independently of the original blockout ceiling.
 
+## Continuous regional growth renderer
+
+The project `hulums-lab-serum-60s` uses the unified skin mesh and a frame-driven deformation pass rather than the older independent-part blockout. Its renderer reads three project manifests: `production.json`, `07_MANIFESTS/timeline.json`, and `07_MANIFESTS/growth_profile.json`.
+
+The growth profile defines ten independent anatomical channels (pectorals, deltoids, traps, arms, lats, back, torso, quadriceps, calves and whole-body scale). Each channel has its own timed knots. The pure-Python evaluator applies cubic smoothstep between knots, samples every output frame, and writes those values to spatially weighted Blender shape keys. The resulting deformation is continuous across the seven narrative stages; stage labels do not directly switch the body between discrete sizes. The same controls are currently applied to the fitted garment shells.
+
+Run a low-resolution opening preview from the repository root:
+
+```bash
+python3 engine/video/render_project.py --preview-seconds 8
+```
+
+Run the complete 60-second render:
+
+```bash
+python3 engine/video/render_project.py --preview-seconds 0
+```
+
+Validate the project manifests without starting Blender:
+
+```bash
+python3 engine/video/render_project.py --validate-only
+```
+
+The curve evaluator has standalone unit tests:
+
+```bash
+python3 -m unittest discover -s engine/video/tests -v
+```
+
+This is now an executable geometry-animation prototype, not a finished character-animation system. It creates regional shape-key deformation on a procedural fused mesh; it does not yet provide a sculpted identity-matched character, muscle/fascia simulation, true cloth simulation, collision-driven room damage, secondary skin motion, or a designed/synchronized soundtrack. Those are separate systems, not hidden capabilities of the timeline. The first Blender preview must be rendered and visually inspected before treating the deformation as approved.
+
 ## Dropbox video source of truth
 
 Dropbox is the canonical video library for GEEHUB. Reference footage and user-supplied source videos must be located and selected from Dropbox first; do not substitute web examples, generated stills, or locally improvised clips when a Dropbox source exists. Preserve the original Dropbox file and its identity as the source record.

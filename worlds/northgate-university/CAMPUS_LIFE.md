@@ -184,3 +184,9 @@ Participants: Marek Ionescu, Elliot Ward, Noah Bell. Location: northgate-library
 After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.
 
 Participants: Dan Roman, Noah Bell, Adrian Varga. Location: athletic-commons. Recorded: 2026-11-08T05:52:38.928965+00:00.
+
+## THE MUSIC SOCIETY REHEARSAL — cycle 00032
+
+A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.
+
+Participants: Adrian Varga, Elliot Ward, Dan Roman. Location: northgate-university. Recorded: 2026-11-08T13:09:12.177846+00:00.

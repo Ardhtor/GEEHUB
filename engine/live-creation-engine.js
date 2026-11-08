@@ -82,4 +82,5 @@
 
   render();
   window.addEventListener('storage', render);
+  window.addEventListener('geehub:artifact-created', render);
 })();

@@ -80,6 +80,30 @@
       "title": "Forest Growth / The Forest",
       "kind": "video",
       "status": "older creator work referenced by Camping Growth; exact original post and media retrieval pending"
+    },
+    {
+      "id": "hc-quick-growth-archive",
+      "title": "Quick Growth (Archive)",
+      "kind": "video",
+      "source_url": "https://www.patreon.com/hulumscave/posts/quick-growth-84281684",
+      "external_archive_url": "https://mega.nz/file/yZQ3wbTC",
+      "status": "Creator Patreon post exposes a MEGA archive link; MEGA file could not be opened by the research interface; media remains uninspected."
+    },
+    {
+      "id": "hc-daddy-growth-part-1",
+      "title": "Daddy Growth Part 1",
+      "kind": "video",
+      "source_url": "https://www.patreon.com/hulumscave/posts/daddy-growth-1-2-84269204",
+      "external_archive_url": "https://mega.nz/file/eQhlFILa",
+      "status": "Creator Patreon archive post exposes a MEGA link; file could not be opened by research interface; media remains uninspected."
+    },
+    {
+      "id": "hc-daddy-growth-part-2",
+      "title": "Daddy Growth Part 2",
+      "kind": "video",
+      "source_url": "https://www.patreon.com/hulumscave/posts/daddy-growth-1-2-84269204",
+      "external_archive_url": "https://mega.nz/file/vI4ETKab",
+      "status": "Creator Patreon archive post exposes a MEGA link; file could not be opened by research interface; media remains uninspected."
     }
   ],
   "games": [
@@ -88,13 +112,14 @@
       "title": "First Hulumscave Flash game — title unknown",
       "kind": "flash-game",
       "source_url": "https://www.reddit.com/r/u_girthandpower/comments/bu5s3o/",
-      "status": "2019 lost-media post points to an outbound link labelled 'Still looking for the first flash game! (billy)'; destination not resolved; game not identified"
+      "status": "2019 lost-media post points to an outbound link labelled 'Still looking for the first flash game! (billy)'; destination not resolved; game not identified; separate creator post confirms the old games were intended to be playable in Ruffle, but does not identify this first title in the public excerpt."
     },
     {
       "id": "hc-flash-games-archive",
       "title": "Hulum's Cave Flash Games collection",
       "kind": "flash-game-collection",
-      "status": "creator archive category known; individual SWF names, filenames, and playable files not yet recovered"
+      "status": "Creator archive post dated July 6, 2023; public excerpt says the creator's first watched animated growth was Flash work by an artist using the name Sephiroth, which motivated learning Flash. A later April 25, 2024 creator post says the old games can be played through the online Ruffle SWF player. Individual game names, SWF filenames, and playable files remain locked/unrecovered.",
+      "source_url": "https://www.patreon.com/hulumscave/posts/flash-games-85678874"
     }
   ],
   "comics": [
@@ -103,24 +128,34 @@
       "title": "Ultrasize Chapter 1",
       "kind": "comic",
       "source_url": "http://hulumscave.blogspot.com/2009/10/ultrasize-chapter-1.html",
-      "status": "creator forum link; page and image payload unverified"
+      "status": "creator forum link; page and image payload unverified; 2023 creator archive post titled Ultra Size 1 & 2 (Archive) confirms the pair was re-uploaded/relinked, but public text is locked and the media payload was not inspected."
     },
     {
       "id": "hc-ultrasize-2",
       "title": "Ultrasize Chapter 2",
       "kind": "comic",
       "source_url": "http://hulumscave.blogspot.com/2009/10/ultrasize-chapter-2.html",
-      "status": "creator forum link; page and image payload unverified"
+      "status": "creator forum link; page and image payload unverified; 2023 creator archive post titled Ultra Size 1 & 2 (Archive) confirms the pair was re-uploaded/relinked, but public text is locked and the media payload was not inspected."
     },
     {
       "id": "hc-ultrasize-3",
       "title": "Ultrasize Chapter 3",
       "kind": "comic",
       "source_url": "http://hulumscave.blogspot.com/2009/11/ultrasize-chapter-3.html",
-      "status": "creator forum link; page and image payload unverified"
+      "status": "creator forum link; page and image payload unverified; 2023 creator archive post titled Ultra Size 3, 4 & 5 confirms remaining installments were archived/relinked; media payload not inspected."
+    },
+    {
+      "id": "hc-ultrasize-4-5",
+      "title": "Ultra Size Chapters 4 & 5",
+      "kind": "comic",
+      "source_url": "https://www.patreon.com/hulumscave/posts/ultra-size-3-4-5-85306577",
+      "status": "Creator archive post lists installments 3, 4, and 5 as remaining installments; exact individual links hidden in locked post; page images not inspected."
     }
   ],
   "next_actions": [
+    "Follow the creator-posted MEGA links for Quick Growth and Daddy Growth Parts 1–2 through an authorized browser/download route; preserve original files and metadata before inspection.",
+    "Recover the creator's SWF files from the Flash Games archive and test them in Ruffle; record each SWF filename, title screen, controls, frame rate, and asset inventory.",
+    "Resolve the locked Ultra Size archive links and compare them with the three reconstructed 2009 Blogspot chapter URLs.",
     "Recover the actual Patreon-attached video files through the creator's authorized access route.",
     "Search creator post archive backwards by video title and WIP/final pairs.",
     "Resolve the Reddit outbound link for the first Flash game and inspect the SWF metadata.",

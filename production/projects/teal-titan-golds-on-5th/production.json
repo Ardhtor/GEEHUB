@@ -215,5 +215,11 @@
         "SHA-256 is computed later by stage_dropbox_source.py"
       ]
     }
-  }
+  },
+  "timelineManifest": "07_MANIFESTS/timeline.json",
+  "provenanceManifest": "07_MANIFESTS/provenance.json",
+  "plotlines": [
+    "triggered-metamorphosis"
+  ],
+  "timelineSemantics": "Stages are time-coded descriptive overlays; the underlying six-second growth event is continuous and must not be rendered as separate hard-cut model states."
 }

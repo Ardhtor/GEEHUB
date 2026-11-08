@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geehub.local/schemas/plotline.schema.json",
+  "title": "GEEHUB Intrinsic Plotline Classification",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "core_tension",
+    "functions"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "enum": [
+        "domestic-intrusion",
+        "institutional-containment",
+        "triggered-metamorphosis",
+        "remake-refinement",
+        "escalation-without-closure"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "core_tension": {
+      "type": "string"
+    },
+    "typical_settings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trigger_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "functions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "counter_signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

@@ -121,7 +121,7 @@
     local.unshift(e);localStorage.setItem('geehub-interaction-events',JSON.stringify(local.slice(0,24)));
   }
 
-  bus.on(e=>{if(['ENCOUNTER','OFFER','TRANSFORM','RETURN','MEMORY'].includes(e.type)){persistLocal(e);render();}});
+  bus.on(e=>{if(['ENCOUNTER','OFFER','TRANSFORM','RETURN','MEMORY','UTTERANCE'].includes(e.type)){persistLocal(e);render();}});
 
   const runButton=document.querySelector('#runWorld');
   if(runButton){

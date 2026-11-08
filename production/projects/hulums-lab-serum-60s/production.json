@@ -2,7 +2,7 @@
   "schema": "geehub.video-project/1",
   "id": "hulums-lab-serum-60s",
   "title": "Laboratory Serum — 60s Continuous",
-  "status": "production-design",
+  "status": "executable-prototype",
   "canon": "experimental",
   "created": "2026-11-08",
   "subject": {
@@ -123,7 +123,7 @@
     "canonical": "Dropbox",
     "policy": "Original source media remains immutable; derived frames, passes and exports are versioned separately."
   },
-  "notes": "This is a production design. No source media, identity frames, rig outputs or final renders are claimed to exist yet.",
+  "notes": "Timeline-driven Blender prototype is implemented in engine/video/blender_scene.py and engine/video/timeline_growth.py. Render with engine/video/render_project.py. The first preview and Blender scene must still be generated locally and visually reviewed; no render is claimed to exist yet.",
   "character_model": "rigged",
   "renderEntryPoint": "render_project.py"
 }

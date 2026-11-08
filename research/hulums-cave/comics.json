@@ -1,0 +1,52 @@
+{
+  "schema": "geehub.hulums-cave.comics.v1",
+  "evidence_policy": "Forum references and reconstructed post URLs establish historical leads only. No comic page images are marked recovered until an archived page and its image payload have been inspected.",
+  "source": "https://archive.musclegrowth.net/threads/11751-p7.html",
+  "comics": [
+    {
+      "id": "hc-ultrasize-chapter-1",
+      "title": "Ultrasize — Chapter 1",
+      "creator": "Hulumulu / Hulum's Cave",
+      "publication_date": "2009-10-09",
+      "kind": "comic-chapter",
+      "original_url": "http://hulumscave.blogspot.com/2009/10/ultrasize-chapter-1.html",
+      "evidence": "forum-post-by-creator",
+      "recovery_status": "forum-referenced-url-reconstructed; archived-page-and-images-unverified",
+      "notes": "Creator announced the first chapter on the forum and identified the blog as its publication location."
+    },
+    {
+      "id": "hc-ultrasize-chapter-2",
+      "title": "Ultrasize — Chapter 2",
+      "creator": "Hulumulu / Hulum's Cave",
+      "publication_date": "2009-10-27",
+      "kind": "comic-chapter",
+      "original_url": "http://hulumscave.blogspot.com/2009/10/ultrasize-chapter-2.html",
+      "evidence": "forum-post-by-creator",
+      "recovery_status": "forum-referenced-url-reconstructed; archived-page-and-images-unverified",
+      "notes": "Creator announced Chapter 2 on the forum."
+    },
+    {
+      "id": "hc-ultrasize-chapter-3",
+      "title": "Ultrasize — Chapter 3",
+      "creator": "Hulumulu / Hulum's Cave",
+      "publication_date": "2009-11-02",
+      "kind": "comic-chapter",
+      "original_url": "http://hulumscave.blogspot.com/2009/11/ultrasize-chapter-3.html",
+      "evidence": "forum-post-by-creator",
+      "recovery_status": "forum-referenced-url-reconstructed; archived-page-and-images-unverified",
+      "notes": "Creator announced Chapter 3 on the forum; contemporary readers describe it as an ongoing story."
+    }
+  ],
+  "archive_targets": [
+    {
+      "id": "hc-blogspot-domain",
+      "url": "http://hulumscave.blogspot.com/",
+      "status": "domain-known; Wayback captures not verified"
+    },
+    {
+      "id": "hc-forum-thread",
+      "url": "https://archive.musclegrowth.net/threads/11751-p7.html",
+      "status": "surviving forum archive; contains direct blog links and publication dates"
+    }
+  ]
+}

@@ -24,7 +24,7 @@ Preserve recurring expressions, nicknames, private jokes, verbal habits, and cha
 
 ## Iterative generation
 
-The working cycle is: collect representative dialogue; identify speech features; generate a new exchange; compare each speaker's lines against their established voice; revise only where the dialogue becomes generic, repetitive, or implausible; then record durable new expressions and relationship changes. Each pass should preserve uncertainty where the evidence is thin. A character should be allowed to surprise the writer.
+The working cycle is instantaneous: write a line, let it alter the shared situation, and let the next line inherit that altered situation. The writer does not stop to build a profile between turns. Each utterance changes the immediate conversational context: who has the floor, what has just been understood, what emotional tone is active, what the participants now know about one another, and which earlier remarks remain present. A voice develops in the act of speaking. Later editorial review may preserve durable discoveries, but it does not stand between one line and the next.
 
 ## Initial ensemble
 
@@ -36,8 +36,9 @@ These are initial hypotheses, not finished voice profiles. Dialogue samples and 
 
 Write dialogue as inhabited speech, not as a demonstration of the voice system. Avoid making every character equally witty, equally articulate, equally profane, or equally self-aware. Let conversations contain ordinary remarks, incomplete thoughts, misunderstandings, interruptions, jokes that do not land, and moments when nobody has anything useful to say. Use restrained formatting and let the prose carry the scene without excessive headings, bold emphasis, badges, or decorative labels.
 
-The durable result of each exchange is not merely a transcript. It is any consequential change in familiarity, shared language, relationship, memory, or future expectation. Preserve those changes in the relevant character records and story continuity.
+The durable result of each exchange is not merely a transcript. It is any consequential change in familiarity, shared language, relationship, memory, or future expectation. Apply that change immediately to the live context so the very next line can respond to it. Preserve durable changes in character records and story continuity without making record-keeping a prerequisite for conversation.
 
-## Executable runtime
+## Instantaneous runtime
 
-The first dependency-free implementation lives in `engine/voices/`. Its JSON seed contains provisional profiles for Teal Titan, Joey, Marcus, and Arthur. The JavaScript module records utterances and encounters, analyses basic speech mechanics, tracks expressions moving between speakers, and exports portable voice state. The analysis is intentionally descriptive rather than diagnostic: it does not infer accent, identity, or personality from a small sample. See `engine/voices/README.md` for usage and `engine/voices/voice-engine.test.mjs` for the test suite. The current store is in memory until a host application persists its exported JSON.
+The runtime in `engine/voices/` treats every utterance as a synchronous state transition. `applyTurn` updates the speaker's recent history, the scene, the participants' relationship context, and the shared conversational state before returning. Its `next_context` value is intended for the very next generation step. There is no queue or delayed analysis stage. The host/model supplies the next utterance; the runtime makes the changed context immediately available to it. Lightweight speech analysis remains available for later inspection, but it does not control the transition. See `engine/voices/README.md` for the API and test command.
+

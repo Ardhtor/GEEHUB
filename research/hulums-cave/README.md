@@ -24,3 +24,5 @@ Retrieve original media in priority order: The Forest / in the woods, Laboratory
 - INTRINSIC_PLOTLINES.json — five recurring narrative structures encoded for Discovery Engine classification and production planning.
 - [Timeline integration guide](../../engine/video/HULUMS_CAVE_TIMELINE_INTEGRATION.md) — plotline semantics, manifest structure, and rig/renderer mapping.
 - [Long-form timeline example](../../engine/video/templates/long-form-continuous-timeline.example.json) — illustrative 642-second template; timing is not a claim about a specific source video.
+
+- comics.json — normalized index of early Hulum's Cave blog comic chapters, with forum evidence, reconstructed original URLs, and explicit recovery status.

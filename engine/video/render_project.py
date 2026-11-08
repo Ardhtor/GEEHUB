@@ -1,0 +1,110 @@
+#!/usr/bin/env python3
+"""Render a GEEHUB project folder through the local Blender timeline pipeline."""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+DEFAULT_PROJECT = HERE.parent.parent / "production" / "projects" / "hulums-lab-serum-60s"
+
+
+def find_blender(override: str | None) -> str | None:
+    if override:
+        return override if Path(override).exists() else shutil.which(override)
+    configured = os.environ.get("GEEHUB_BLENDER")
+    if configured and Path(configured).exists():
+        return configured
+    found = shutil.which("blender")
+    if found:
+        return found
+    for candidate in (
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "/opt/homebrew/bin/blender",
+        "/usr/local/bin/blender",
+    ):
+        if Path(candidate).exists():
+            return candidate
+    return None
+
+
+def validate(project: Path) -> tuple[dict, dict]:
+    manifest_path = project / "production.json"
+    timeline_path = project / "07_MANIFESTS" / "timeline.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    timeline = json.loads(timeline_path.read_text(encoding="utf-8"))
+    fmt = manifest["format"]
+    fps = int(timeline["timebase"]["fps"])
+    duration = float(timeline["duration_seconds"])
+    expected_frames = int(round(duration * fps))
+    if int(timeline["timebase"]["frame_count"]) != expected_frames:
+        raise ValueError("Timeline frame_count does not equal duration_seconds × fps")
+    if int(fmt.get("fps", fmt.get("frameRate", fps))) != fps:
+        raise ValueError("Project and timeline frame rates differ")
+    if abs(float(fmt.get("duration_seconds", fmt.get("masterDurationSeconds", duration))) - duration) > 0.001:
+        raise ValueError("Project and timeline durations differ")
+    previous = 0.0
+    for stage in timeline["stages"]:
+        start, end = float(stage["start_seconds"]), float(stage["end_seconds"])
+        if abs(start - previous) > 0.001 or end <= start:
+            raise ValueError(f"Timeline gap, overlap, or invalid interval at stage {stage.get('id')}")
+        previous = end
+    if abs(previous - duration) > 0.001:
+        raise ValueError("Last stage does not end at project duration")
+    if manifest.get("character_model") != "rigged":
+        raise ValueError("This project is configured for the unified rigged character")
+    return manifest, timeline
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--project", type=Path, default=DEFAULT_PROJECT)
+    parser.add_argument("--blender", help="Blender executable path (or command name)")
+    parser.add_argument("--output", type=Path, help="Override MP4 output path")
+    parser.add_argument("--preview-seconds", type=float, default=8.0,
+                        help="Render a low-resolution opening preview; use 0 for the full master")
+    args = parser.parse_args()
+    project = args.project.resolve()
+    try:
+        manifest, timeline = validate(project)
+    except (OSError, ValueError, KeyError, json.JSONDecodeError) as exc:
+        print(f"PROJECT VALIDATION FAILED: {exc}", file=sys.stderr)
+        return 2
+
+    blender = find_blender(args.blender)
+    if not blender:
+        print("BLENDER NOT FOUND. Install Blender 4.x or pass --blender /path/to/blender.", file=sys.stderr)
+        return 3
+
+    exports = project / "05_EXPORTS"
+    composites = project / "04_COMPOSITES"
+    exports.mkdir(parents=True, exist_ok=True)
+    composites.mkdir(parents=True, exist_ok=True)
+    output = args.output.resolve() if args.output else exports / "Laboratory-Serum-60s.mp4"
+    blend = composites / "Laboratory-Serum-60s.blend"
+    preview = args.preview_seconds if args.preview_seconds and args.preview_seconds > 0 else None
+    command = [
+        blender, "--background", "--python", str(HERE / "blender_scene.py"), "--",
+        "--manifest", str(project / "production.json"),
+        "--timeline", str(project / "07_MANIFESTS" / "timeline.json"),
+        "--output", str(output),
+        "--save-blend", str(blend),
+    ]
+    if preview:
+        command.extend(["--preview-seconds", str(preview)])
+    print("Validated project:", manifest.get("title"))
+    print("Timeline:", len(timeline["stages"]), "stages;", timeline["timebase"]["frame_count"], "frames")
+    print("Blender:", blender)
+    print("Mode:", f"{preview:g}-second low-resolution preview" if preview else "full master render")
+    print("Output:", output)
+    print("Scene file:", blend)
+    return subprocess.run(command, check=False).returncode
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

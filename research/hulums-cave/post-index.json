@@ -1,0 +1,107 @@
+{
+  "schema": "geehub.hulums-cave.post-index.v1",
+  "source": "https://www.patreon.com/hulumscave/sitemap",
+  "note": "Curated index of publicly visible post records. Archive post dates are dates of publication, not necessarily dates of production. Locked post/video contents remain uninspected unless separately available.",
+  "posts": [
+    {
+      "id": "post-about",
+      "title": "Creator profile",
+      "date": null,
+      "role": "creator-history",
+      "url": "https://www.patreon.com/hulumscave/about",
+      "evidence": "creator-statement",
+      "extracts": [
+        "Creator states a 15-year history of CG growth images and animations."
+      ]
+    },
+    {
+      "id": "post-fantasy-final",
+      "title": "Fantasy/Transformation Growth - Final Video",
+      "date": "2024-09-04",
+      "role": "final-video",
+      "url": "https://www.patreon.com/hulumscave/posts/fantasy-growth-111378864",
+      "evidence": "public-post-text",
+      "extracts": [
+        "Creator says the video is finished.",
+        "Creator wanted to take it further but was returning to a larger project."
+      ]
+    },
+    {
+      "id": "post-deal-devil-p2-wip4",
+      "title": "Deal with the Devil P2 - Video WIP 4",
+      "date": "2024-04-01",
+      "role": "work-in-progress",
+      "url": "https://www.patreon.com/hulumscave/posts/deal-with-devil-101449167",
+      "evidence": "public-post-text",
+      "extracts": [
+        "Creator thanks supporters and discusses wanting to spend more time making videos and fewer gigs."
+      ]
+    },
+    {
+      "id": "post-growthmaxxx-final",
+      "title": "GrowthMaxxx Final Video!",
+      "date": "2025-05-06",
+      "role": "final-video",
+      "url": "https://www.patreon.com/posts/growthmaxxx-128246237",
+      "evidence": "public-post-text",
+      "extracts": [
+        "Max narrates the final part.",
+        "A patron who contributed audio for Edging Growth offered to help with audio."
+      ]
+    },
+    {
+      "id": "post-growth-serum-x-wip1",
+      "title": "Growth Serum X Video WIP 1",
+      "date": "2025-07-17",
+      "role": "work-in-progress",
+      "url": "https://www.patreon.com/hulumscave/posts/growth-serum-x-1-134297752",
+      "evidence": "public-archive-metadata"
+    },
+    {
+      "id": "post-growth-serum-x-wip2",
+      "title": "Growth Serum X Video WIP 2",
+      "date": "2025-08-02",
+      "role": "work-in-progress",
+      "url": "https://www.patreon.com/posts/growth-serum-x-2-135582371",
+      "evidence": "public-archive-metadata"
+    },
+    {
+      "id": "post-multiple-video-update",
+      "title": "Multiple Video Update",
+      "date": null,
+      "role": "creator-technical-update",
+      "url": "https://www.patreon.com/hulumscave/posts/multiple-video-173400472",
+      "evidence": "public-post-text",
+      "extracts": [
+        "Creator describes an LTX LoRA used across several videos.",
+        "Creator compares MiniMax with an earlier LTX version of After Glow Growth.",
+        "Creator says reference images were used to improve fluidity.",
+        "Camping Growth is described as a new WIP with a nod to an old forest growth video, not a reboot.",
+        "Post refers to works numbered 84, 85, and 86."
+      ]
+    },
+    {
+      "id": "post-blackridge-2-final",
+      "title": "89 Blackridge 2 - Final Video",
+      "date": null,
+      "role": "final-video",
+      "url": "https://www.patreon.com/hulumscave/posts/89-blackridge-2-169196706",
+      "evidence": "public-post-text",
+      "extracts": [
+        "Creator describes adding an officer's climax and foreshadowing Bane, a character from the first video.",
+        "Creator says they are returning to Growing with Coach."
+      ]
+    },
+    {
+      "id": "post-archive-sitemap",
+      "title": "Hulum's Cave public archive sitemap",
+      "date": null,
+      "role": "archive-index",
+      "url": "https://www.patreon.com/hulumscave/sitemap",
+      "evidence": "public-archive-metadata",
+      "extracts": [
+        "Archive includes year navigation for 2023–2026 and titles for WIPs, final videos, remakes, archive collections, and technical updates."
+      ]
+    }
+  ]
+}

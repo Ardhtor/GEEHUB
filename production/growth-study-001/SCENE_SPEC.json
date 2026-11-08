@@ -1,0 +1,83 @@
+{
+  "project": "GEEHUB Growth Study 001",
+  "status": {
+    "source_script": "created",
+    "python_syntax_check": "passed",
+    "blender_execution": "not_run_blender_not_installed",
+    "render_validation": "pending"
+  },
+  "target": "Blender 4.x",
+  "character": {
+    "type": "adult_male_study_figure",
+    "wardrobe": "dark training trunks",
+    "construction": "modular ellipsoid anatomy volumes",
+    "materials": ["skin_procedural_placeholder", "cloth_procedural_placeholder", "hair", "eyes"]
+  },
+  "rig": {
+    "object": "GROWTH_RIG — master control",
+    "master_property": "growth",
+    "range": [0.0, 1.0],
+    "deformation_method": "one-bone vertex group per modular volume with armature modifier",
+    "driven_sections": ["spine", "pelvis", "upper arms", "forearms", "thighs", "calves"],
+    "scaling_axes": "bone-local cross-section axes",
+    "known_limitations": [
+      "blockout volumes are not a final connected anatomical mesh",
+      "joint continuity and corrective shapes require review",
+      "no facial animation or hand articulation in this pass"
+    ]
+  },
+  "timeline": {
+    "frame_start": 1,
+    "frame_end": 108,
+    "stages": [
+      {"frame": 1, "name": "REST", "growth": 0.0},
+      {"frame": 36, "name": "STAGE_01 — activation", "growth": 0.28},
+      {"frame": 72, "name": "STAGE_02 — expansion", "growth": 0.62},
+      {"frame": 108, "name": "STAGE_03 — full study", "growth": 1.0}
+    ]
+  },
+  "environment": {
+    "set": "dark studio with floor, backdrop, and low turntable",
+    "camera": "orthographic three-quarter front",
+    "lights": [
+      "warm large softbox key",
+      "cool bounce fill",
+      "rear separation rim",
+      "top rectangular strip"
+    ],
+    "atmosphere": "optional low-density volume object for A/B render comparison"
+  },
+  "render": {
+    "engine_preference": ["BLENDER_EEVEE_NEXT", "BLENDER_EEVEE", "CYCLES"],
+    "resolution": [1080, 1350],
+    "preview_frames": [1, 108],
+    "output_format": "PNG"
+  },
+  "research_principles": [
+    {
+      "topic": "body deformation",
+      "source": "https://www.patreon.com/hulumscave/posts/bedroom-growth-84293264",
+      "source_claim": "creator described experimenting with body movement using pinning/locking body parts",
+      "implementation": "separate named deformation volumes; exact source implementation remains unknown"
+    },
+    {
+      "topic": "atmosphere and render cost",
+      "source": "https://www.patreon.com/hulumscave/posts/atmosphere-77922144",
+      "source_claim": "creator described atmosphere volume as increasing realism while increasing render time",
+      "implementation": "optional atmosphere volume, independently switchable"
+    },
+    {
+      "topic": "scene construction and animation readiness",
+      "source": "https://www.patreon.com/hulumscave/posts/next-scene-is-90663150",
+      "source_claim": "creator described moving a devil and throne set into Maya, ready for animation",
+      "implementation": "character and environment separated for set reuse"
+    }
+  ],
+  "next_pass": [
+    "run Blender build and inspect preview renders",
+    "repair gaps and joint deformation",
+    "test lighting with and without atmosphere",
+    "separate geometry, material, and lighting contributions to skin appearance",
+    "add motion and camera continuity"
+  ]
+}

@@ -1,6 +1,6 @@
 # GEEHUB live model runtime
 
-This local service serves the repository and exposes two bounded endpoints: `POST /api/geehub/turn` for live dialogue and `POST /api/geehub/inscribe` for durable occurrence writing. The dialogue endpoint adds canonical world and voice context, calls the configured Responses API model, validates the returned speaker, and returns one utterance plus its consequence. The inscription endpoint validates a typed event and passes it to `engine/inscription.py`, the same writer used by the scheduled engines.
+This local service serves the repository and exposes three bounded endpoints: `POST /api/geehub/turn` for live dialogue, `POST /api/geehub/inscribe` for durable occurrence writing, and `GET /api/geehub/activity` for the newest inscribed events. The dialogue endpoint adds canonical world and voice context, calls the configured Responses API model, validates the returned speaker, and returns one utterance plus its consequence. The inscription endpoint validates a typed event and passes it to `engine/inscription.py`, the same writer used by the scheduled engines. That writer appends to `engine/activity.jsonl`, updates the artifact ledger and activity-event archive, and writes a Dropbox outbox record. The activity endpoint returns the newest records so the shared room can receive cross-session events.
 
 ## Run
 

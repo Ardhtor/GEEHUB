@@ -1,0 +1,88 @@
+{
+  "schema": "geehub.asset-register/2",
+  "project_id": "hulums-lab-serum-60s",
+  "assets": [
+    {
+      "id": "source-video",
+      "kind": "source-video",
+      "required": false,
+      "status": "not-supplied",
+      "destination": "01_SOURCE/",
+      "verification": [
+        "Original source identity",
+        "SHA-256",
+        "Duration/fps/dimensions",
+        "Audio presence"
+      ]
+    },
+    {
+      "id": "identity-locks",
+      "kind": "frame-reference-set",
+      "required": true,
+      "status": "planned-not-extracted",
+      "destination": "02_FRAMES/",
+      "files": [
+        "02_FRAMES/identity-lock-003s.png",
+        "02_FRAMES/continuity-012s.png",
+        "02_FRAMES/continuity-025s.png",
+        "02_FRAMES/continuity-042s.png"
+      ],
+      "verification": [
+        "Face continuity",
+        "Body proportions",
+        "Timestamp provenance"
+      ]
+    },
+    {
+      "id": "growth-pass",
+      "kind": "continuous-deformation-sequence",
+      "required": true,
+      "status": "not-generated",
+      "destination": "03_GROWTH_PASSES/",
+      "verification": [
+        "1440 frames",
+        "Smooth regional curves",
+        "No boundary discontinuities"
+      ]
+    },
+    {
+      "id": "composite",
+      "kind": "continuous-take",
+      "required": true,
+      "status": "not-generated",
+      "destination": "04_COMPOSITES/",
+      "verification": [
+        "60-second duration",
+        "Continuous camera/deformation",
+        "Environmental response"
+      ]
+    },
+    {
+      "id": "audio",
+      "kind": "audio-stems",
+      "required": false,
+      "status": "design-only",
+      "destination": "06_AUDIO/",
+      "verification": [
+        "Cue timing",
+        "Source/derived separation",
+        "Mix review"
+      ]
+    },
+    {
+      "id": "master",
+      "kind": "delivery-video",
+      "required": true,
+      "status": "not-rendered",
+      "destination": "05_EXPORTS/",
+      "verification": [
+        "1920x1080",
+        "24 fps",
+        "60 seconds",
+        "Audio sync",
+        "SHA-256"
+      ]
+    }
+  ],
+  "provenance_rule": "Do not promote planned or missing assets to verified, inspected, or rendered status."
+}

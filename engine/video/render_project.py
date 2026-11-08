@@ -10,6 +10,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from growth_curves import validate_profile
+
 HERE = Path(__file__).resolve().parent
 DEFAULT_PROJECT = HERE.parent.parent / "production" / "projects" / "hulums-lab-serum-60s"
 
@@ -38,6 +40,8 @@ def validate(project: Path) -> tuple[dict, dict]:
     timeline_path = project / "07_MANIFESTS" / "timeline.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     timeline = json.loads(timeline_path.read_text(encoding="utf-8"))
+    profile_path = project / "07_MANIFESTS" / "growth_profile.json"
+    profile = json.loads(profile_path.read_text(encoding="utf-8"))
     fmt = manifest["format"]
     fps = int(timeline["timebase"]["fps"])
     duration = float(timeline["duration_seconds"])
@@ -58,6 +62,23 @@ def validate(project: Path) -> tuple[dict, dict]:
         raise ValueError("Last stage does not end at project duration")
     if manifest.get("character_model") != "rigged":
         raise ValueError("This project is configured for the unified rigged character")
+    if profile.get("schema") != "geehub.growth-profile/1":
+        raise ValueError("Growth profile schema is invalid")
+    if profile.get("project_id") != timeline.get("project_id"):
+        raise ValueError("Growth profile project_id does not match timeline")
+    if float(profile.get("duration_seconds", -1)) != duration:
+        raise ValueError("Growth profile duration does not match timeline")
+    if int(profile.get("timebase", {}).get("fps", -1)) != fps:
+        raise ValueError("Growth profile fps does not match timeline")
+    if int(profile.get("timebase", {}).get("frame_count", -1)) != expected_frames:
+        raise ValueError("Growth profile frame_count does not match timeline")
+    curves = {name: entry["knots"] for name, entry in profile.get("regions", {}).items()}
+    curve_errors = validate_profile(curves)
+    if curve_errors:
+        raise ValueError("Invalid growth profile: " + "; ".join(curve_errors))
+    required_regions = {"pectorals", "deltoids", "traps", "arms", "lats", "back", "torso", "quadriceps", "calves", "whole_body"}
+    if set(curves) != required_regions:
+        raise ValueError("Growth profile regions do not match the renderer deformation channels")
     return manifest, timeline
 
 

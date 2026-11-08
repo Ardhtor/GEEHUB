@@ -169,7 +169,11 @@ def build_wardrobe():
         ],
         textile,
     )
-    return top, shorts
+    straps = [
+        limb("WARDROBE / left shoulder strap", (-0.52, -0.31, 2.47), (-0.52, 0.31, 2.47), 0.075, textile),
+        limb("WARDROBE / right shoulder strap", (0.52, -0.31, 2.47), (0.52, 0.31, 2.47), 0.075, textile),
+    ]
+    return top, shorts, straps
 
 def build_scene(manifest, output_path, timeline=None, growth_profile=None, preview_seconds=None, save_blend_path=None):
     output_path = Path(output_path)
@@ -245,10 +249,10 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
         if timeline:
             from timeline_growth import animate_timeline_growth, write_growth_diagnostics
             animate_timeline_growth(mesh, timeline, growth_profile)
-            top, shorts = build_wardrobe()
-            diagnostic_objects.extend([top, shorts])
-            animate_timeline_growth(top, timeline, growth_profile)
-            animate_timeline_growth(shorts, timeline, growth_profile)
+            top, shorts, straps = build_wardrobe()
+            diagnostic_objects.extend([top, shorts, *straps])
+            for garment in [top, shorts, *straps]:
+                animate_timeline_growth(garment, timeline, growth_profile)
     else:
         build_character(ceiling, start_frame, end_frame)
     area_light("Key / cold softbox", ( -3.5, -4.5, 6.5), 1250, (0.62, 0.82, 1.0), 5)

@@ -9,6 +9,7 @@ on:
       - 'style.css'
       - 'world.json'
       - 'engine/**'
+      - 'server/**'
       - 'validate-records.py'
       - '.github/workflows/validate-data.yml'
   pull_request:

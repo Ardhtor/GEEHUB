@@ -34,7 +34,7 @@ The MP4 is written to 05_EXPORTS/; the editable Blender scene is written to 04_C
 - Regional shape keys with spatial falloff, so the same surface expands rather than swapping between separate models.
 - Keyframed, eased shape-key values derived from the seven timeline intervals.
 - Bilateral pectoral deformation from one shared symmetric control.
-- A fitted sleeveless top and training shorts with matching timeline-driven deformation keys.
+- A fitted torso shell, training shorts and paired shoulder straps with matching timeline-driven deformation keys.
 - A continuous camera orbit/push/pull that widens with the evolving silhouette while retaining its focal length.
 - A face-preserving whole-body influence mask.
 - An automatically generated `07_MANIFESTS/growth_measurements.json` report with evaluated mesh bounds at six checkpoints.

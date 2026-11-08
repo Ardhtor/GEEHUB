@@ -125,3 +125,12 @@ All new JSON records were fetched back from GitHub and parsed successfully. The 
 
 ### Verification boundary
 The document and index were committed. No new Forest, Laboratory, or Loft video/audio file was decoded in this step. Existing source observations remain limited to the previously sampled short clips; the Dropbox `3333.mp4` identity remains unverified against the earlier local sample.
+
+
+## 2026-11-08 — Regional deformation, continuity camera and measured preview
+
+The Laboratory Serum passage has moved beyond a stage-only timing description. Ten regional growth channels now drive spatially weighted shape keys on the unified skin mesh and fitted wardrobe geometry. The head receives an explicit attenuation mask under whole-body scaling so the face remains an identity anchor. The torso shell, shorts and paired shoulder straps share the deformation timeline; this is still a geometric garment proxy, not a cloth solver.
+
+The camera now reads the same growth profile as the body. It makes a gradual orbit and widens by moving back as the largest active regional channel increases, keeping focal length constant. The default preview now covers the full sixty seconds at reduced resolution; an eight-second opening preview would not have shown the main transformation.
+
+After Blender constructs the scene, it measures evaluated world-space bounds for the skin and garment objects at 0, 12, 25, 42, 55 and the final frame, writing `07_MANIFESTS/growth_measurements.json`. This is a geometry-change diagnostic, not a realism score. The project still requires a real Blender render and visual review; no render is claimed by this repository update.

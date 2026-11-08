@@ -52,7 +52,14 @@ def animate_timeline_growth(mesh, timeline, profile=None):
     frame_count = int(timeline.get("timebase", {}).get("frame_count", round(duration * fps)))
     if frame_count != round(duration * fps):
         raise ValueError("Timeline frame_count must equal duration_seconds × fps")
-    selected_profile = profile or DEFAULT_PROFILE
+    if profile and profile.get("schema") == "geehub.growth-profile/1":
+        selected_profile = {name: entry["knots"] for name, entry in profile.get("regions", {}).items()}
+        if profile.get("project_id") != timeline.get("project_id"):
+            raise ValueError("Growth profile project_id does not match timeline")
+        if int(profile.get("timebase", {}).get("fps", fps)) != fps:
+            raise ValueError("Growth profile fps does not match timeline")
+    else:
+        selected_profile = profile or DEFAULT_PROFILE
     errors = validate_profile(selected_profile)
     if errors:
         raise ValueError("Invalid growth profile: " + "; ".join(errors))

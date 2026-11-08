@@ -7,7 +7,7 @@
  */
 
 const clone = (value) => JSON.parse(JSON.stringify(value));
-const words = (text) => (String(text).toLowerCase().match(/[\\p{L}\\p{N}'’-]+/gu) || []);
+const words = (text) => (String(text).toLowerCase().match(/[\p{L}\p{N}'’-]+/gu) || []);
 const sentenceParts = (text) => String(text).split(/[.!?]+/).map(s => s.trim()).filter(Boolean);
 const PROFANITY = new Set(["fuck", "fucking", "shit", "bullshit", "damn", "hell", "ass", "asshole", "bastard", "crap"]);
 
@@ -26,7 +26,7 @@ export function analyseSample(text) {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 8)
     .map(([term, count]) => ({ term, count }));
-  const contractions = (String(text).match(/\\b(?:\w+['’](?:t|re|ve|ll|d|m)|ain't|y'all)\\b/gi) || []).length;
+  const contractions = (String(text).match(/\b(?:\w+['’](?:t|re|ve|ll|d|m)|ain't|y'all)\b/gi) || []).length;
   const profanity = tokens.filter(token => PROFANITY.has(token));
   return {
     word_count: tokens.length,

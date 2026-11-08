@@ -3,10 +3,10 @@
 Test target: Blender 4.x. Run from Blender's Scripting workspace or with:
     blender --background --python geehub_growth_study_v3.py
 
-This V2 pass fuses overlapping anatomical volumes into one continuous skin
-blockout and assigns blended weights from the nearest bone segments. The
-armature's growth custom property still drives staged transverse expansion.
-It remains a prototype: no corrective shapes, muscle sliding, or skinning pass.
+V3 turns the V2 connected-body blockout into a colorful training-club showcase.
+It adds replaceable gym props, a neon-style sign, four stage lamps, an animated
+halo, hero and close-up cameras, and a club_energy lighting control. Blender
+execution and visual validation are still required.
 """
 
 import bpy
@@ -575,8 +575,8 @@ def animate_growth(rig):
         for fcurve in rig.animation_data.action.fcurves:
             for key in fcurve.keyframe_points:
                 key.interpolation = 'BEZIER'
-    for frame, label in ((1, "REST"), (36, "STAGE_01 — activation"),
-                         (72, "STAGE_02 — expansion"), (108, "STAGE_03 — full study")):
+    for frame, label in ((1, "REST"), (36, "WARM"),
+                         (72, "BUILD"), (108, "MAX")):
         scene.timeline_markers.new(label, frame=frame)
 
 

@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""Check that the browser registry exposes the declared constellation links.
-
-The hub keeps a machine-readable registry in projects.json and a deliberately
-self-contained browser surface in index.html. This check does not require the
-browser to run; it prevents the two files from silently drifting on the small
-set of fields that affect project discovery and cross-repository navigation.
-"""
+"""Validate the browser atlas against its single machine-readable registry."""
 from __future__ import annotations
 
 import json
@@ -13,11 +7,11 @@ import re
 import sys
 from pathlib import Path
 
+REPO_RE = re.compile(r"^[^/\\s]+/[^/\\s]+$")
+
 
 def load_projects(path: Path) -> list[dict]:
     raw = json.loads(path.read_text(encoding="utf-8"))
-    # projects.json currently stores the array as a JSON string for the simple
-    # static host. Accept both that shape and a direct array for future cleanup.
     if isinstance(raw, str):
         raw = json.loads(raw)
     if not isinstance(raw, list):
@@ -25,50 +19,51 @@ def load_projects(path: Path) -> list[dict]:
     return raw
 
 
-def js_quote(value: str) -> str:
-    # Match both literal apostrophes and their escaped form inside JS single quotes.
-    return re.escape(value).replace("\\ ", " ").replace("'", r"\\?'")
-
-
 def main() -> int:
     root = Path(__file__).resolve().parent
     projects_path = Path(sys.argv[1]) if len(sys.argv) > 1 else root / "projects.json"
     index_path = Path(sys.argv[2]) if len(sys.argv) > 2 else root / "index.html"
-
     projects = load_projects(projects_path)
     html = index_path.read_text(encoding="utf-8")
     failures: list[str] = []
 
-    for project in projects:
-        project_id = project.get("id", "<unknown>")
-        name = project.get("name")
-        group = project.get("group")
-        status = project.get("status")
-        if not all(isinstance(value, str) and value for value in (name, group, status)):
-            failures.append(f"{project_id}: missing name, group, or status")
-            continue
+    # The browser must load the registry at runtime; no second project tuple
+    # array is permitted in the page.
+    if "fetch('./projects.json'" not in html:
+        failures.append("hub/index.html must fetch ./projects.json at runtime")
+    if "P=records.map" not in html or "buildEco();render();renderAtlas();jam();" not in html:
+        failures.append("browser does not normalize and render the loaded registry")
+    if "const P=[" in html:
+        failures.append("embedded project registry remains in hub/index.html")
 
-        # The embedded P array stores these discovery fields in this order.
-        # Summaries intentionally remain browser-specific copy so the static
-        # doorway can stay short without becoming a second canonical archive.
-        tuple_pattern = (
-            rf"\['{js_quote(name)}','{js_quote(group)}','{js_quote(status)}',"
-        )
-        if not re.search(tuple_pattern, html):
-            failures.append(f"{project_id}: embedded project tuple is missing or stale")
+    seen: set[str] = set()
+    for index, project in enumerate(projects):
+        if not isinstance(project, dict):
+            failures.append(f"entry {index} is not an object")
+            continue
+        project_id = project.get("id")
+        if not isinstance(project_id, str) or not project_id.strip():
+            failures.append(f"entry {index} has no stable id")
+        elif project_id in seen:
+            failures.append(f"duplicate project id: {project_id}")
+        else:
+            seen.add(project_id)
+
+        for field in ("name", "group", "status", "summary", "path"):
+            value = project.get(field)
+            if not isinstance(value, str) or not value.strip():
+                failures.append(f"{project_id or index}: missing or invalid {field}")
+
+        tags = project.get("tags")
+        if not isinstance(tags, list) or not tags:
+            failures.append(f"{project_id or index}: tags must be a non-empty array")
 
         repo = project.get("repo")
-        if not repo:
-            continue
-        expected_url = f"https://github.com/{repo}"
-        if project.get("path") != expected_url:
-            failures.append(
-                f"{project_id}: registry path must equal {expected_url}"
-            )
-        if expected_url not in html:
-            failures.append(
-                f"{project_id}: {expected_url} is missing from index.html"
-            )
+        if repo:
+            if not isinstance(repo, str) or not REPO_RE.fullmatch(repo):
+                failures.append(f"{project_id}: invalid repo selector")
+            elif project.get("path") != f"https://github.com/{repo}":
+                failures.append(f"{project_id}: repo/path mismatch")
 
     if failures:
         print("UI registry validation failed:")
@@ -76,8 +71,8 @@ def main() -> int:
             print(f"- {failure}")
         return 1
 
-    print(f"UI registry valid: {len(projects)} project records checked; "
-          f"{sum(1 for p in projects if p.get('repo'))} repository links checked.")
+    print(f"UI registry valid: {len(projects)} records loaded from one source; "
+          f"{sum(1 for p in projects if p.get('repo'))} repository destinations checked.")
     return 0
 
 

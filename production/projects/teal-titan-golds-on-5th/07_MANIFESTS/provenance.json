@@ -1,0 +1,49 @@
+{
+  "schema": "geehub.provenance/1",
+  "project_id": "teal-titan-golds-on-5th",
+  "assets": [
+    {
+      "id": "dropbox-snapvid-candidate",
+      "role": "source",
+      "origin": {
+        "provider": "Dropbox",
+        "path": "/SnapVid.Net_YPBbLkvp9AQAKdpS_672p.mp4",
+        "file_id": "id:tbdqPXHGULQAAAAAAAABIA",
+        "filename": "SnapVid.Net_YPBbLkvp9AQAKdpS_672p.mp4",
+        "last_modified": "2026-10-31T19:10:37Z",
+        "size_bytes": 1685453
+      },
+      "verification_status": "metadata-only",
+      "notes": "Candidate from existing production manifest; visual identity and relevance unconfirmed."
+    },
+    {
+      "id": "dropbox-whatsapp-candidate",
+      "role": "source",
+      "origin": {
+        "provider": "Dropbox",
+        "path": "/WhatsApp Video 2026-10-31 at 02.10.14.mp4",
+        "file_id": "id:tbdqPXHGULQAAAAAAAABIQ",
+        "filename": "WhatsApp Video 2026-10-31 at 02.10.14.mp4",
+        "last_modified": "2026-10-31T19:10:37Z",
+        "size_bytes": 1045260
+      },
+      "verification_status": "metadata-only",
+      "notes": "Candidate from existing production manifest; visual identity and relevance unconfirmed."
+    },
+    {
+      "id": "dropbox-colossal-candidate",
+      "role": "source",
+      "origin": {
+        "provider": "Dropbox",
+        "path": "/grouba (1)/colossal_giant_bodybuilder.mp4",
+        "file_id": "id:tbdqPXHGULQAAAAAAAABVQ",
+        "filename": "colossal_giant_bodybuilder.mp4",
+        "last_modified": "2026-11-02T20:16:06Z",
+        "size_bytes": 2910510
+      },
+      "verification_status": "metadata-only",
+      "notes": "Candidate from existing production manifest; visual identity and relevance unconfirmed."
+    }
+  ],
+  "preservation_policy": "Dropbox is canonical. Never move, rename, overwrite, or mark a candidate as inspected until its media has been opened and its identity verified. Stage a separate SHA-256-verified working copy in 01_SOURCE/."
+}

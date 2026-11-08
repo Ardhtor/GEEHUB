@@ -67,6 +67,7 @@
       title:(names[item.speaker]||item.speaker)+" speaks",
       body:item.utterance,
       utterance:item.utterance,
+      emotional_tone:item.emotional_tone,
       consequence:item.consequence,
       source:"GEEHUB live model",
       live:true,

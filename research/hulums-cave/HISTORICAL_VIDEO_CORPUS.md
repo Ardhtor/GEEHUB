@@ -197,3 +197,49 @@ New confirmed/reconstructed targets:
 The forum archive identifies itself as a direct download of the Evolution Forum at closure and preserves posts from 2004–2014. Adjacent pages 6, 8, and 9 of this thread are next targets; the web retrieval interface currently fails to open those exact page URLs, so this is a retrieval limitation, not evidence that those pages are absent.
 
 Source: https://archive.musclegrowth.net/threads/11751-p7.html
+
+
+## Focused retrieval update — 8 November 2026
+
+### Latest public video batch: post #86 / #85 / #84
+
+A creator-authored Patreon post titled “Multiple Video Update” is dated October 26, 2026. It announces three new videos and gives useful production notes:
+
+- **86 Cock Growth Training** — a set of videos made using an LTX LoRA trained for a specific growth effect. The creator says the LoRA was used in many videos, and that experiments with MiniMax were tried but put on hold because satisfactory results could be achieved without that approach. The post says the last two results were especially pleasing. Individual video titles and media are locked behind membership; do not infer their visual contents from the label.
+- **85 After Glow Growth MM** — a MiniMax comparison against an earlier After Glow Growth made with LTX. The creator says the work tests methods based on good reference images to keep motion fluid, and calls the result useful but unfinished. This is a valuable comparison pair: recurring character/video concept, different generation system, and an explicit motion-continuity objective.
+- **84 Camping Growth WIP1** — a camping scenario in which a man is zapped by aliens and grows uncontrollably. The creator explicitly says it nods to the much older Forest Growth video but is not a reboot. This establishes a creator-confirmed thematic lineage, not a shot-for-shot remake.
+
+Source: https://www.patreon.com/hulumscave/posts/multiple-video-173400472
+Access status: public post text visible; attached videos and new link/password are locked. No video-level observation is claimed.
+
+### GrowthMaxxx final — production and audio credit
+
+The May 6, 2025 final post confirms that Max narrates the final section. It also credits K Van, a patron who previously supplied audio for Edging Growth, for offering help. This makes the audio contribution a cross-project production link. Retrieve and inspect the final video and compare its narration/audio mix with Edging Growth; do not infer what K Van contributed beyond the creator's stated credit.
+
+Source: https://www.patreon.com/posts/growthmaxxx-128246237
+Access status: public excerpt visible; media locked.
+
+### Priority video retrieval order revised
+
+1. Obtain and inspect the actual files for **86 Cock Growth Training**, **85 After Glow Growth MM**, and **84 Camping Growth WIP1**, preserving the creator's access link only through the creator's own membership route.
+2. Retrieve both **After Glow Growth** (LTX original) and **After Glow Growth MM** (MiniMax comparison) for matched-scene analysis: reference-image quality, identity stability, motion fluidity, temporal artifacts, and unfinished-versus-final status.
+3. Retrieve the older **Forest Growth** and compare it with Camping Growth WIP1 only after both videos are inspected.
+4. Retrieve **GrowthMaxxx** final and the relevant **Edging Growth** version to study narration and audio continuity.
+5. Work backward through creator-posted final videos and their WIP sequences; prioritize actual video files over forum discussion or secondary reposts.
+
+### Game recovery — status unresolved
+
+The May 28, 2019 Reddit lost-media post contains a link whose displayed text is “Still looking for the first flash game! (billy)” and says that one Hulumscave game could be found there. The post itself does not expose the destination URL in the available search extract. The first game is therefore not identified or recovered. Treat “billy” as a lead embedded in the link label, not a confirmed game title or character. Next step is to resolve the post's outbound link and inspect its destination, then search the linked page's comments and archive snapshots for the SWF filename and original Hulumscave URL.
+
+Source: https://www.reddit.com/r/u_girthandpower/comments/bu5s3o/
+
+### Comic recovery — primary target remains Ultrasize
+
+The 2009 Evolution Forum thread confirms creator-posted links to **Ultrasize Chapters 1, 2, and 3**, with Chapter 3 announced on November 2. The comic should be retrieved as page images or source files, not reconstructed from comments. Preserve page order, image dimensions, text, and chapter title pages. The thread also links **The Bully** as a MOV video, so it belongs in the video register rather than the comic register.
+
+Known comic URLs:
+- http://hulumscave.blogspot.com/2009/10/ultrasize-chapter-1.html
+- http://hulumscave.blogspot.com/2009/10/ultrasize-chapter-2.html
+- http://hulumscave.blogspot.com/2009/11/ultrasize-chapter-3.html
+
+Source: https://archive.musclegrowth.net/threads/11751-p7.html

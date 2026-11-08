@@ -171,7 +171,7 @@ def build_wardrobe():
     )
     return top, shorts
 
-def build_scene(manifest, output_path, timeline=None, preview_seconds=None, save_blend_path=None):
+def build_scene(manifest, output_path, timeline=None, growth_profile=None, preview_seconds=None, save_blend_path=None):
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     bpy.ops.object.select_all(action="SELECT")
@@ -242,10 +242,10 @@ def build_scene(manifest, output_path, timeline=None, preview_seconds=None, save
         )
         if timeline:
             from timeline_growth import animate_timeline_growth
-            animate_timeline_growth(mesh, timeline)
+            animate_timeline_growth(mesh, timeline, growth_profile)
             top, shorts = build_wardrobe()
-            animate_timeline_growth(top, timeline)
-            animate_timeline_growth(shorts, timeline)
+            animate_timeline_growth(top, timeline, growth_profile)
+            animate_timeline_growth(shorts, timeline, growth_profile)
     else:
         build_character(ceiling, start_frame, end_frame)
     area_light("Key / cold softbox", ( -3.5, -4.5, 6.5), 1250, (0.62, 0.82, 1.0), 5)
@@ -312,13 +312,15 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--manifest", required=True)
     parser.add_argument("--timeline")
+    parser.add_argument("--growth-profile")
     parser.add_argument("--output", required=True)
     parser.add_argument("--preview-seconds", type=float)
     parser.add_argument("--save-blend")
     args = parser.parse_args(argv)
     manifest = json.loads(Path(args.manifest).read_text(encoding="utf-8"))
     timeline = json.loads(Path(args.timeline).read_text(encoding="utf-8")) if args.timeline else None
-    build_scene(manifest, Path(args.output), timeline=timeline,
+    growth_profile = json.loads(Path(args.growth_profile).read_text(encoding="utf-8")) if args.growth_profile else None
+    build_scene(manifest, Path(args.output), timeline=timeline, growth_profile=growth_profile,
                 preview_seconds=args.preview_seconds, save_blend_path=args.save_blend)
 
 

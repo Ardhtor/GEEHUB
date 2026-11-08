@@ -34,12 +34,13 @@ The MP4 is written to 05_EXPORTS/; the editable Blender scene is written to 04_C
 - Regional shape keys with spatial falloff, so the same surface expands rather than swapping between separate models.
 - Keyframed, eased shape-key values derived from the seven timeline intervals.
 - Bilateral pectoral deformation from one shared symmetric control.
+- A fitted sleeveless top and training shorts with matching timeline-driven deformation keys.
 - A continuous camera orbit/push/pull keyed to the same timeline.
 - A reusable Blender project and an H.264 MP4 render.
 
 ## Current limitations
 
-This is an executable procedural prototype, not a finished Hulum's Cave-quality asset. The base is a neutral generated humanoid, not a source-fitted likeness. The deformation is spatially weighted shape-key expansion, not a full muscle simulation or corrective sculpt system. Clothing simulation, detailed face rigging, secondary soft-tissue dynamics, environmental breakage, and designed sound cues are not yet implemented in the Blender scene. The current local renderer supplies a simple low-frequency audio bed only through the separate GEEHUB engine route; this direct project renderer produces the Blender picture pass.
+This is an executable procedural prototype, not a finished Hulum's Cave-quality asset. The base is a neutral generated humanoid, not a source-fitted likeness. The deformation is spatially weighted shape-key expansion, not a full muscle simulation or corrective sculpt system. Physical cloth simulation/tearing, detailed face rigging, secondary soft-tissue dynamics, environmental breakage, and designed sound cues are not yet implemented in the Blender scene. The fitted wardrobe is a shape-key-driven prototype, not a cloth solver. The current local renderer supplies a simple low-frequency audio bed only through the separate GEEHUB engine route; this direct project renderer produces the Blender picture pass.
 
 The project remains explicitly adult and fictional. Intimate anatomy is not modeled or rendered. Source media and identity-lock frames remain absent until a verified source is supplied and inspected.
 

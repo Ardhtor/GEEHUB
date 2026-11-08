@@ -825,5 +825,23 @@
       "character-records",
       "sensation-engine"
     ]
+  },
+  {
+    "id": "hulums-cave",
+    "name": "Hulum's Cave — Central Research and Production Lineage",
+    "status": "active",
+    "kind": "central-lineage",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/research/hulums-cave/README.md",
+    "description": "Central, cumulative historical and production lineage for Hulum's Cave: comics, games, CG growth animation, serialized characters, environments, sound, collaborations, remakes, and generative experiments. Every iteration appends source-grounded research and preserves provenance.",
+    "related": [
+      "bodylounger",
+      "media-tools",
+      "discovery",
+      "beefythiq",
+      "growth-canvas",
+      "the-complex",
+      "male-harem-virtual-space"
+    ]
   }
 ]

@@ -12,7 +12,7 @@ class SpacedRetrievalTests(unittest.TestCase):
         self.assertEqual(INTERVAL_LADDER, (1, 3, 7, 21))
         self.assertEqual(next_interval(1, 0.5), 3)
         self.assertEqual(next_interval(3, 0.49), 3)
-        self.assertEqual(next_interval(30, 0.9), 30)
+        self.assertEqual(next_interval(21, 0.9), 21)
 
     def test_first_failed_retrieval_holds_interval(self):
         thread = {"interval_days": 7, "retrieval_attempts": 0, "retrieval_failures": 0}

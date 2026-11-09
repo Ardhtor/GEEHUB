@@ -192,3 +192,8 @@ Associated artifact records are added in [The Working Artifacts of Tractus](TRAC
 ## Artifact Chronicles — Second Cabinet
 
 [The Artifact Chronicles — Second Cabinet](TRACTUS_ARTIFACT_CHRONICLES_II.md) carries the November 9 expansion artifacts through later use: the north arcade mortar sample, Mateo's seed card, the two versions of Hrothgar's clearing song, the Dad Convent beam reused in a secondary rack, the repeated Northgate bridge test, and the Veyrthalis route copy that remains untravelled. Each entry preserves its state boundary. A sample is not a repair; an object is not permission to use it; a failed test is not discarded; a copied route is not a journey. These chronicles provide concrete return points for later chapters.
+
+
+## Teal Titan — Gold's on 5th
+
+The Teal Titan's Gold's on 5th story cycle is indexed at [the project production home](../production/projects/teal-titan-golds-on-5th/README.md) and [the character record](../characters/records/TEAL_TITAN.md). Chapter IV, [The Exhibition of One Man](../production/projects/teal-titan-golds-on-5th/CHAPTER_04_THE_EXHIBITION.md), advances the Stage 4 storyline through a public display of six production studies. It records the gym's response to Marcus's scale, the difference between a character reference and a finished render, and the need to distinguish camera perspective from physical change. The user-designated Stage 4 form remains the current state; the production timeline's internal six-part sequence is not a declaration that the character has advanced to a later canonical stage.

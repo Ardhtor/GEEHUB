@@ -218,3 +218,74 @@ In Hrothgar, the hall will record more than victories. It will preserve the ordi
 The Common Table will extend its docket into a network of practical exchanges. The Bluewater Quay will build instruments for the university and the market. The Oak Thread will connect repairs, designs, and knowledge across distance. The archive will keep every source distinct while allowing the connections to multiply.
 
 No single chapter owns the future. Each place has work waiting in the morning.
+
+
+## XIII. Hrothgar — The Hall After the Feast
+
+The men of Hrothgar had long been remembered for what they could endure: the winter crossing, the night watch, the contest, the difficult road. They did not abandon those accounts. They began, instead, to record the quieter work that made endurance possible.
+
+The change began with a late delivery, an over-salted stew, and an argument between two men who had worked together for months. One accused the other of leaving him to finish a job alone. The other admitted that he had been caring for his brother and had not known how to say so without making his private life a public matter. The missing tool was found beneath a folded tarp. They ate, then repaired the disagreement without pretending it had not hurt.
+
+The scribe recorded no private details. He wrote only that the work would be divided differently next time, and that absence should invite a question before it invited a judgment. The hall began to understand that anger was not always courage, silence was not always indifference, and speaking was not the price of belonging.
+
+A side room acquired a kettle, two mismatched chairs, and a shelf of books. Men used it to talk about training, fathers, old friends, uncertain futures, and the loneliness of being known by name but not by habit. No one called it a sanctuary. It was a room where a man could sit down without having to become a story.
+
+## XIV. Northgate — The Workshop Term
+
+Northgate's first shared workshop term began with an impossible timetable. Engineering students were assigned to the old gym, literature students to the fabrication room, and the athletic commons received a table large enough for drawings, food, and a disassembled rowing mechanism. Their common question was practical: how does a place support the bodies and minds that use it?
+
+The first project was a movable courtyard bench. Students interviewed groundskeepers and cleaners before drawing anything. They measured paths, watched where people rested, and discovered that the favored place was a narrow strip of shade beside the library. A literature student described its afternoon life; an engineering student translated the account into requirements; the athletics group tested seat height; a city carpenter taught them a repairable joint.
+
+The first prototype blocked a service route. They dismantled it, labeled the parts, corrected the measurements, and built a narrower frame with replaceable slats. The final bench was not a monument. It was handsome because its construction made sense. It was installed beside the library, where a student soon left a book to save a place for a friend.
+
+The instructors kept the disciplines distinct. Engineering did not become poetry, and poetry did not become a load calculation. Each supplied something the other could not.
+
+## XV. Veyrthalis — The Glass That Returned
+
+The smoked glass remained on the Digitorium sill for nine nights. By day it reflected the room with a slight delay; by night it showed the window as it had appeared hours earlier. On the tenth morning the delay vanished, but a small image remained in its lower corner: a wooden table, a cup, and a hand beside an open book.
+
+That afternoon a courier arrived from Northgate with workshop plans. In one drawing's margin was the same room, the same cup, and the same hand. The courier had copied the sketch from an older plan whose author was unknown. The scribes did not declare the glass a portal. They began tracing the drawings' provenance.
+
+One line led to the Oak Thread, another to an archive copy, and another ended at a page whose ink had faded before its author could be identified. The question changed from where the glass led to how an image could travel farther than the person who first made it.
+
+Herbarius called it an instrument of transmission. Privathor suggested it might also be an instrument of omission. Coach, visiting with a crate of hinges, told the scribes not to lose the drawing. Whatever the glass was, it seemed to have a better filing system than they did.
+
+## XVI. The Cabin — A Path That Fits
+
+Daddy's growth had made the cabin more comfortable indoors, but the path to the woodshed remained narrow and uneven. He discovered this while carrying split wood. The basket tilted; several pieces rolled into the wet grass. Coach retrieved them and pointed out that the cabin had widened its rooms without widening the route.
+
+Ursalon walked the path, marking the places where water collected. Brograntimax proposed moving a large stone. Daddy refused to move the old oak's roots for the sake of a demonstration. They widened the path around them instead. Pipethor designed a shallow drain, and the Bluewater Quay sent adjustable metal edging.
+
+The first section held water. They lifted it, changed the base, and tried again. Daddy carried the heavy stones, but nobody made the work a test of his strength. When the path was finished, he walked it with the basket. The woodshed door opened without catching his shoulder.
+
+"That's better," he said.
+
+The path was not a monument to his size. It was an ordinary improvement made by people who had noticed what daily life required.
+
+## XVII. The Observation Ring — A Measure That Refuses
+
+Gigathor's Reciprocity Index could record shared labor, repeated visits, exchanges of materials, and unequal obligations. It could count the hours Coach spent at the cabin, but not why he stayed after the work was done. It could list Ursalon's meals and shelter, but not the difference between an invitation and an obligation.
+
+Gigathor called this a technical problem. Privathor called it a category error. Potestas called it weakness. Kummor suggested that a bond which could not be measured was imaginary.
+
+Bryce and Brock offered an observation. Their attention-fed forms had grown whenever an audience gathered, but lately they had spent time together without an audience. Their growth had not stopped; it had changed. They were learning to coordinate their presence without competing for every eye in the room. They declined to have their friendship turned into a score.
+
+The index was revised. It would record observable exchanges and mark what it could not infer. A blank field would not mean zero. No relationship would be ranked by the number of entries available to the archive. Coach read the revision and said, "Good. Now it knows what it doesn't know."
+
+## XVIII. The Oak Thread — A Repair in Transit
+
+A crate of quay fittings arrived at Northgate with two conflicting measurements. The packing slip described shorter pieces than the manifest. The receiving clerk opened a repair docket instead of assigning blame. The quay sent the original drawing; Northgate sent photographs; Pipethor compared the fittings with the workshop joints.
+
+Dan Roman found that the crate had been repacked at the Convent after a storm damaged its casing. The Convent had shortened the frame to protect the fittings, but the updated measurement had not reached the manifest. The object had survived because someone altered it; the record had failed because the alteration was not carried forward.
+
+The Oak Thread adopted a new practice: any modification made in transit would travel with the object as a dated note, including the reason and the responsible workshop. The original design would remain preserved beside the altered design. Neither would silently overwrite the other.
+
+The fittings were installed after a small adjustment. The Convent's packing method entered the transport manual. The discrepancy became useful without being excused. The Oak Thread learned that continuity was not the absence of change, but the practice of carrying change honestly from one hand to the next.
+
+## XIX. The Next Shelf
+
+The archive created a shelf for works too connected to remain in one catalog: the Gilgamesh tablet, the Veyrthalis glass drawings, Hrothgar's remembrance ledger, Northgate's workshop plans, and the Oak Thread repair docket. They remained separate records, each with its own origin and uncertainty.
+
+A visitor asked why the archive did not make one master account. The archivist replied that a master account could be useful, but it could also make every difference look like an error. The shelf preserved routes between records without pretending they had always belonged together.
+
+At closing, the lamp remained over the shelf. Beyond the archive, Hrothgar's men finished their meal; Northgate's bench held three students and a stack of books; Veyrthalis's glass reflected an empty room; Daddy carried the last basket of wood along the widened path; the quay's makers drew a better hinge. Nothing had concluded. The worlds had acquired another day of work.

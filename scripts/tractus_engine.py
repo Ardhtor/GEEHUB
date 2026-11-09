@@ -18,7 +18,11 @@ import urllib.request
 from datetime import timedelta
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "engine"))
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from engine.inscription import inscribe, inscribe_event
 from tractus_memory import (
     advance_thread,
     append_jsonl,

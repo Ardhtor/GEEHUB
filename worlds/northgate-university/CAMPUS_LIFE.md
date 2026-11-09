@@ -400,3 +400,9 @@ Participants: Dan Roman, Marek Ionescu, Elliot Ward. Location: northgate-univers
 The kitchen fills gradually. Someone has put rice on, another is chopping vegetables, and a third is trying to rescue a pan from yesterday. The conversation moves between coursework, a new record, and who has borrowed the good screwdriver. Nobody eats alone unless he wants to.
 
 Participants: Dan Roman, Marek Ionescu, Elliot Ward, Noah Bell. Location: founders-dormitory. Recorded: 2026-11-09T18:53:01.417728+00:00.
+
+## THE EVENING TRAINING GROUP — cycle 00068
+
+The training group gathers beneath the high timber roof. They move through warm-ups, careful sets and recovery work, trading observations about technique. Afterward they linger by the pool windows, making plans to walk back to the dormitory together.
+
+Participants: Dan Roman, Noah Bell, Adrian Varga. Location: athletic-commons. Recorded: 2026-11-09T18:55:34.524146+00:00.

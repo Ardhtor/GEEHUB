@@ -1,5 +1,5 @@
 {
-  "pulse": 236,
+  "pulse": 237,
   "events": [
     {
       "pulse": 1,
@@ -4209,6 +4209,28 @@
       "occurred_at": "2026-11-09T18:53:01.309152+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000237",
+      "pulse": 237,
+      "time": "2026-11-09T18:55:34.452524+00:00",
+      "actor": "LUKE",
+      "world": "FOUNDERS DORMITORY",
+      "region_id": "founders-dormitory",
+      "previous_region_id": "founders-dormitory",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/founders-dormitory/README.md",
+      "desire_state": "attention",
+      "action": "SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.9,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T18:55:34.452524+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -4259,7 +4281,7 @@
     "northgate-library": 211,
     "athletic-commons": 193
   },
-  "pressure": 0.88,
+  "pressure": 0.9,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -4276,7 +4298,7 @@
     "worlds/common-table/README.md": 8,
     "worlds/cedar-house/README.md": 9,
     "worlds/cat-gardens/README.md": 12,
-    "worlds/founders-dormitory/README.md": 4,
+    "worlds/founders-dormitory/README.md": 5,
     "worlds/northgate-university/README.md": 11,
     "worlds/bluewater-quay/README.md": 8,
     "worlds/lantern-market/README.md": 4,
@@ -4284,12 +4306,12 @@
     "worlds/athletic-commons/README.md": 4
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "founders-dormitory",
-  "current_phase": "CROSSING",
-  "current_desire_state": "continuity",
-  "current_question": "What can change without erasing where it came from?",
-  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 186,

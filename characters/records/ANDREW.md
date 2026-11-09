@@ -92,3 +92,13 @@ Andrew's baseball teammates are part of his social world, not a faceless crowd. 
 
 **Growth direction:** Andrew learns to translate his unusual associations without apologising for them, to let others decline an invitation, and to make room for the oddness of the people around him as well.
 
+
+## Coaching Joey — moonlit bullpen
+
+In *The Unplanned Convergence*, Chapters XXVII–XXX, Andrew witnesses Joey's Stage Four transformation and a pitch that exceeds his own in force and speed. Andrew responds with curiosity and practical coaching. He builds a target, observes release mechanics, varies distance and effort, and asks Joey to repeat a controlled pitch rather than simply throw harder.
+
+This develops Andrew's established athletic discipline and his tendency to make an unusual idea testable. He does not become diminished by Joey's scale; his knowledge of baseball gives him a meaningful role. He learns to coach at a scale that requires new equipment and careful inspection, while preserving the ordinary rules of practice: repeatability, placement, recovery, and attention to the person learning.
+
+Andrew's next open task is to reduce the target size and test Joey's repeatability. The temporary receiving frame must be inspected before another full-effort session.
+
+**Linked events:** MOONLIT_PITCH_01; MOUND_STUDY_01; MOONLIT_PITCH_02; THE_MOONLIT_BULLPEN_01.

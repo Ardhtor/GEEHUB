@@ -19,12 +19,12 @@
   function save(){localStorage.setItem(KEY,JSON.stringify(state));}
 
   const fallback={
-    luke:{mood:'present',attention:'the person and the room',disposition:['direct','protective','body-aware','social']},
-    tyler:{mood:'curious',attention:'measurable change',disposition:['curious','skeptical','precise','competitive']},
-    andrew:{mood:'ready',attention:'what happens next',disposition:['playful','active','improvisational','social']},
-    joseph:{mood:'reflective',attention:'continuity and meaning',disposition:['intimate','interpretive','memory-driven','associative']},
-    chase:{mood:'watchful',attention:'what actually happened',disposition:['observant','decisive','dry','narrative-minded']},
-    gabe:{mood:'transformative',attention:'how attention and pressure change the next baseline',disposition:['process-aware','identity-conscious','growth-driven','social-signal-sensitive']}
+    luke:{mood:'present',attention:'the person and the room',temperament:'warm, direct, physically attentive; the first to make room',disposition:['direct','protective','body-aware','social']},
+    tyler:{mood:'curious',attention:'measurable change',temperament:'curious, exacting, dryly funny; wants the result to hold up',disposition:['curious','skeptical','precise','competitive']},
+    andrew:{mood:'ready',attention:'what happens next',temperament:'playful, active, improvisational; makes beginnings feel possible',disposition:['playful','active','improvisational','social']},
+    joseph:{mood:'reflective',attention:'continuity and meaning',temperament:'reflective, intimate, associative; keeps continuity alive through small details',disposition:['intimate','interpretive','memory-driven','associative']},
+    chase:{mood:'watchful',attention:'what actually happened',temperament:'watchful, restrained, decisive; remembers the consequence',disposition:['observant','decisive','dry','narrative-minded']},
+    gabe:{mood:'transformative',attention:'how attention and pressure change the next baseline',temperament:'reflective, self-aware, socially sensitive; attentive to transformation',disposition:['process-aware','identity-conscious','growth-driven','social-signal-sensitive']}
   };
 
   const names={luke:'Luke',tyler:'Tyler',andrew:'Andrew',joseph:'Joey',chase:'Chase',gabe:'Gabe'};
@@ -120,7 +120,8 @@
       '<div class="reaction-grid">'+ids.map(id=>{
         const a=state.agents[id]||{mood:model?.agents?.[id]?.mood||fallback[id].mood,attention:model?.agents?.[id]?.attention||fallback[id].attention,history:[]};
         const latest=a.history?.[0];
-        return '<article class="reaction-card '+esc(id)+'"><div class="reaction-card-top"><strong>'+names[id].toUpperCase()+'</strong><span>'+esc(a.mood||'present').toUpperCase()+'</span></div><p class="reaction-response">'+esc(latest?.response||'Waiting for the next change.')+'</p><div class="reaction-next"><span>NEXT</span>'+esc(latest?.next||'Notice what enters the room.')+'</div><small>ATTENTION / '+esc(a.attention)+'</small></article>';
+        const temperament=model?.agents?.[id]?.temperament||fallback[id].temperament||'';
+        return '<article class="reaction-card '+esc(id)+'"><div class="reaction-card-top"><strong>'+names[id].toUpperCase()+'</strong><span>'+esc(a.mood||'present').toUpperCase()+'</span></div><p class="reaction-response">'+esc(latest?.response||'Waiting for the next change.')+'</p><div class="reaction-next"><span>NEXT</span>'+esc(latest?.next||'Notice what enters the room.')+'</div><small>ATTENTION / '+esc(a.attention)+'</small><small>TEMPERAMENT / '+esc(temperament)+'</small></article>';
       }).join('')+'</div>';
   }
 

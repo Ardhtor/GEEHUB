@@ -277,3 +277,167 @@ Chase turned first. There was no one behind them.
 In the window, the seventh figure remained.
 
 Then the lights in the suite dimmed, and the reflection became ordinary glass again.
+
+
+# The House Rules
+## Thursday — evening service
+
+The Grand Meridian did not announce its rules. It allowed a man to discover them through the small embarrassments of getting something wrong. A guest who entered the dining room in a dressing gown would be received with the same courtesy as any other, but the table would be moved to a quieter corner and the Director of Standards would appear before the meal was finished. A man who left his key in the door would find it returned to his pocket. A guest who asked for a room change would be shown three alternatives, each more comfortable than the last, and would eventually discover that all three opened onto the same corridor. The hotel rarely refused a request. It altered the conditions under which the request could be understood.
+
+There were rules printed in the guest handbook, of course: meal hours, pool etiquette, quiet periods, the use of the gymnasium, the arrangements for laundry and pressing. The handbook was bound in dark green leather and placed beside the telephone in every suite. Its language was concise and welcoming. It made no mention of the weekly reset, the seventh floor, the service level beneath the gym, or the fact that a guest could sometimes hear his own voice speaking from a room he had not entered.
+
+The men had begun to understand that the printed rules were the least important ones.
+
+At half past seven, the six of them came down for dinner. The gym remained closed. The pool had been reopened, but the mosaic wall was covered by a temporary screen, supposedly to protect it during cleaning. The Director had sent a note to Luke's suite apologising for the disruption and inviting the party to dine in the private room. The invitation was written in a hand that looked familiar to Chase, though he could not place it.
+
+The private dining room was not especially large. It had a long oval table, dark panelling, a fireplace that was never lit, and windows overlooking the hotel's inner court. The room was designed to make conversation feel confidential. Its acoustics softened the edges of speech, and the staff entered through a side door that closed without a sound. A small framed print hung above the mantel: a view of the Grand Meridian from the road, seen in winter, before the present gardens had been planted. The hotel in the picture had an additional wing.
+
+Marco, the head chef, came in to explain the menu. He was a broad, careful man with a precise knowledge of ingredients and a habit of remembering what each guest had left uneaten. He described a first course of roasted mushrooms, a clear broth with herbs, and a main dish of slow-cooked beef with potatoes and winter greens. Andrew asked whether there was anything substantial after that. Marco said there could be. Andrew asked whether that meant there was or there could be. Marco considered him, then said he would arrange something.
+
+"He's the only person here who answers a question properly," Andrew said after Marco had gone.
+
+"He answered a different question," Tyler replied.
+
+"That's still better than most people."
+
+Luke looked at the framed print. "There's another wing."
+
+Joseph followed his gaze. "There are several things in that picture that aren't here now."
+
+Chase took a photograph. In the image, the hotel stood beneath a clear sky, its windows dark. A man was visible on the upper balcony. He was leaning on the balustrade, looking down towards the road. The figure was too far away to make out, but he seemed to be wearing the same dark suit as the man who had appeared in the breakfast-room garden.
+
+"That's him," Chase said.
+
+Gabe did not look at the photograph. "No. That's where he was."
+
+The distinction unsettled the table. Luke asked what he meant, but Gabe could not explain it. He had the sense that the picture was not showing a past moment so much as preserving a position in which someone had once stood. The hotel had been built around that position, room by room, corridor by corridor, until the man in the picture no longer needed to move.
+
+The meal arrived. For a while, they ate. The broth was excellent, the beef tender, the greens sharply seasoned. Marco had sent a second plate for Andrew without being asked. Andrew accepted it with a nod and, for the first time that evening, seemed entirely content. Luke and Joseph disagreed about whether the hotel's courtesy was genuine. Tyler argued that sincerity was not a useful category when the staff were following instructions from an authority they could not describe. Chase said that a photograph could establish what had happened in a room but not why. Gabe listened, occasionally adding a sentence that made the others return to a point they thought they had settled.
+
+The conversation turned to the first Monday.
+
+No one could agree on what they had done that morning. Luke remembered waking in Room 214, but the room number might have belonged to another day. Tyler remembered a breakfast menu that had not yet appeared in the current cycle. Chase had a photograph of the lobby with six men in it, although he could not remember taking it. Andrew was certain he had already been to the baseball field. Joseph remembered a promise made in the lift, but not who had made it. Gabe remembered the smell of wet cedar in a corridor that had no windows.
+
+They tried to arrange these fragments into a chronology. Every time they placed one event, another shifted. It was not that the memories were false. They were incomplete in a way that made them dangerous. Each man could be certain of a detail and still be wrong about the world around it.
+
+"We keep treating the week as if it were a sequence," Tyler said. "Maybe it isn't."
+
+"What is it, then?" Luke asked.
+
+"A set of conditions that repeat."
+
+"That's a sequence with better vocabulary," Andrew said.
+
+Tyler ignored him. "If the same conditions produce different traces, then we need to stop asking what happened on a particular day and start asking what remains true across the repetitions."
+
+Chase placed his phone on the table. "The photographs remain."
+
+"Some of them."
+
+"The service book remains," Joseph said.
+
+"Not reliably," Luke replied.
+
+Gabe looked towards the side door. "The hotel remembers us differently."
+
+The door opened. The senior butler entered carrying a small tray. There was no food on it, only six folded cards, each bearing a room number. He placed one beside each man.
+
+"These are the arrangements for tomorrow," he said.
+
+Luke turned his card over. It showed Room 214.
+
+Tyler's showed Room 218. Chase's, 220. Gabe's, 216. Andrew's, 222. Joseph's, 224.
+
+"Why are we being moved?" Luke asked.
+
+"Your current rooms are being prepared."
+
+"Prepared for what?"
+
+The butler looked at the six cards. "For your return."
+
+"We haven't checked out."
+
+"No."
+
+"Then why prepare them?"
+
+The butler paused. "Because the rooms are occupied."
+
+Andrew pushed his card away. "We're sitting here."
+
+"Yes."
+
+"Then who's in our rooms?"
+
+The butler did not answer. His gaze went briefly to the Director of Standards, who had entered behind him and was standing just inside the side door. The Director looked at the cards, then at the men.
+
+"The hotel has arranged a change of accommodation," he said. "It is a routine matter."
+
+"Nothing about this place is routine," Luke replied.
+
+"Routine is not the same as ordinary."
+
+The Director collected the unused cards. He did not ask the men to comply. He merely waited, as though the decision had already been entered into the hotel's records and the conversation were a courtesy extended to those who had not yet read them.
+
+Joseph kept his card.
+
+The butler noticed. "You should not retain that."
+
+"Why?"
+
+"It may cause confusion."
+
+"To whom?"
+
+The butler looked at him for a moment. "To the person who is already in your room."
+
+No one moved. The Director's face remained composed, but the silence had altered his authority. He was no longer simply a man enforcing standards. He was a man standing beside a rule he did not wish to explain.
+
+The butler gathered the remaining cards and left. The Director followed him. The side door closed.
+
+Andrew broke the silence. "I'm not sleeping in a room with myself."
+
+"Maybe it isn't you," Chase said.
+
+"That makes it worse."
+
+Tyler took Joseph's card and examined it under the table light. The number was printed cleanly, but beneath it, almost invisible, was a second impression: a larger number, pressed into the card from behind. Tyler tilted it until the mark became legible. It read 30.
+
+He passed it to Luke.
+
+Luke looked at the number and then at the others. None of them spoke. The hotel had given them rooms for tomorrow, but the number on the card did not belong to a room. It belonged to a measurement, or a count, or a height. They could not agree which.
+
+When they left the private dining room, the framed print above the mantel had changed. The additional wing was no longer in the picture. The man on the balcony was closer, his hands resting on the stone rail. He appeared to be looking directly at them.
+
+Chase took another photograph. The image showed an empty balcony.
+
+The six men went upstairs together. At the lift, Joseph held the card in his closed hand. The doors opened. Inside, the mirror reflected the six of them and the ordinary brass fittings. The lift began to rise.
+
+At the third floor, it stopped.
+
+No one had pressed the button.
+
+The doors opened onto a corridor none of them recognised. It was wide, carpeted in dark teal, and lit by wall lamps set unusually high. At its far end stood a single door, taller than the others in the hotel. A brass plate had been fixed to it, but the lettering had been turned towards the wall.
+
+The lift waited.
+
+Luke stepped forward. Tyler caught his arm.
+
+"Not tonight," Tyler said.
+
+Luke looked at him, then at the corridor. For once, he did not insist.
+
+The doors closed. The lift continued upwards, carrying them to their rooms. At the fourth floor, the display briefly showed a number that was not part of the hotel's numbering system. It showed 30, then returned to 4.
+
+In his suite, Joseph placed the card on the desk and left the lights on. He did not sleep immediately. He listened to the pipes, the distant movement of the lifts, and the soft, regular sounds of the hotel settling around him. Sometime after midnight, a knock came from the adjoining room.
+
+He opened the door.
+
+The adjoining room was empty. It had been prepared with fresh linen, a glass of water, a pressed shirt, and a pair of shoes set neatly beside the wardrobe. On the bedside table lay a second room card. It bore the same number as his own, but the impression beneath it was deeper.
+
+Joseph picked it up. The card was warm.
+
+From somewhere beyond the wall came a man's voice, low and unhurried. It did not call Joseph by name. It simply said, "You have kept your place."
+
+Joseph stood in the doorway until the voice stopped. Then he returned to his room and placed both cards side by side. In the morning, he would show the others. He was certain of that. He was less certain that he would remember why.

@@ -137,7 +137,7 @@ jobs:
           if (!social.personalityReferencePolicy || !social.personalityReferencePolicy.includes('Do not infer private traits')) {
             throw new Error('Personality-reference evidence boundary missing.');
           }
-          console.log('Followed sources, five voice mappings, six personality states, reciprocal dynamics, Andrew's physical and baseball canon, and both ensemble chapters verified.');
+          console.log('Followed sources, five voice mappings, six personality states, reciprocal dynamics, Andrew physical and baseball canon, and both ensemble chapters verified.');
           NODE
       - name: Validate world broadcast and map coverage
         run: |

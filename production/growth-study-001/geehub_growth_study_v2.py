@@ -1117,7 +1117,7 @@ def configure_render():
             scene.render.engine = 'BLENDER_EEVEE'
         except Exception:
             scene.render.engine = 'CYCLES'
-    scene.render.resolution_x, scene.render.resolution_y = 1080, 1350
+    scene.render.resolution_x, scene.render.resolution_y = 1080, 1620
     scene.render.resolution_percentage = PREVIEW_RESOLUTION
     scene.render.image_settings.file_format = 'PNG'
     scene.render.image_settings.color_mode = 'RGBA'

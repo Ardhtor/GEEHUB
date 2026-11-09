@@ -123,3 +123,10 @@ This restraint is what allows the rest of the system to be imaginative. The worl
 ## The Coach as a Recurring Presence
 
 The AI Coach is indexed not only as a training system but as a recurring presence whose gestures, voice, records and relationships create continuity across sessions. His growth-sigh motif is stored as a behavioural detail with contextual variation, not as a compulsory sound effect. The chapter lore/AI_COACH.md is the source for his embodied presentation, coaching method, memory boundaries and the quiet intimacy of recovery. Future references should preserve the distinction between a recorded training fact, an observed movement and a character expression.
+
+## Seth and Nick — Big-Pec Growth Pair
+
+The paired growth branch is source-backed at `lore/SETH_AND_NICK_GROWTH_PAIR.md`. It preserves Seth and Nick as distinct adult character anchors and records the Heorot Flesh Workshop scene in which Seth interrupts the build to demand a complete, mobile, recognisable body rather than a static collection of muscle shapes. The file connects character continuity to whole-body rigging, soft-tissue response, clothing, movement, floor contact, and environmental scale.
+
+Seth's interruption is a recurring narrative behavior: he may enter a scene already underway, identify a concrete weakness, and redirect the next test. The portrayal is fictionalized for GEEHUB and is not a transcript or a claim about the real person's words. The branch develops the established Beefythiq biography material and cross-references the Geatish/Heorot setting. Its Flesh Dynamics concept remains a developing Tractus system rather than a separate implemented 3D engine.
+

@@ -56,7 +56,8 @@ def _write_json(path: Path, value: dict) -> None:
 def _activity_lock():
     """Serialize inscription projections across processes and concurrent autosaves."""
     ACTIVITY_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with ACTIVITY_LOG.open("a+", encoding="utf-8") as handle:
+    lock_path = ACTIVITY_LOG.with_name(ACTIVITY_LOG.name + ".lock")
+    with lock_path.open("a+", encoding="utf-8") as handle:
         fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
         try:
             yield

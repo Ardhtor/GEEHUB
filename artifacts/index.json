@@ -6431,7 +6431,7 @@
       "source": "user-supplied GEEHUB story passages and assistant-authored bilingual continuation",
       "kind": "story-chapter",
       "title": "The Jar of Almost-Names",
-      "content": "Four chronological movements record Lexor's arrival, the next morning and day, Privathor's third-morning departure and voluntary return, and the fourth day. On the fourth day, Brograntimax repairs the stove-side chair without his measuring chain; it is available to anyone and reserved for nobody. The fourth-day scene is written in Portuguese with an Aramaic literary parallel in Hebrew square script. The jar's function and Lexor's withdrawn name remain unresolved.",
+      "content": "Five chronological movements now record Lexor's arrival, the next morning and day, Privathor's third-morning departure and voluntary return, the fourth-day chair repair, and the fifth-day language exchange. The fifth day introduces a shared notebook in Portuguese, experimental literary Aramaic in Hebrew square script, and Coach's English working phrases. The notebook marks uncertainty and refuses forced equivalence; Privathor is recorded as present without being translated into an interpretation. The jar remains still and unresolved.",
       "lineage": {
         "world": "The Cabin",
         "story": "cabin-continuity",
@@ -6453,10 +6453,11 @@
       },
       "canon": "developing",
       "dreamable": true,
-      "continuity": "The chapter preserves four successive movements. Privathor remains free to leave and return; the chair is maintained but not reserved. The jar's function, the name Lexor tried to withdraw, and any meaning of the pebble's small movement remain unknown.",
+      "continuity": "The fifth day adds a shared language notebook and a practice of translation without erasure. Privathor returns voluntarily, stays through supper, and leaves without promising to return. The repaired chair remains available to anyone. The jar does not move; its function and Lexor's withdrawn name remain unresolved. Aramaic constructions are literary experiments, not attested quotations.",
       "languages": [
         "Portuguese",
-        "Aramaic (Hebrew square script; literary adaptation)"
+        "Aramaic (literary experimental composition; Hebrew square script; working transliteration and Portuguese gloss)",
+        "English (Coach's working phrases)"
       ]
     },
     {
@@ -7295,7 +7296,7 @@
           "relation": "GOOD LUCK HAS WHISKERS",
           "next_region": null,
           "pressure": 0.88,
-          "memory": 1.0,
+          "memory": 1,
           "status": "OCCURRED_AND_INSCRIBED",
           "occurred_at": "2026-11-09T17:07:59.172698+00:00",
           "inscription": "same-event",
@@ -7386,7 +7387,7 @@
           "relation": null,
           "next_region": null,
           "pressure": 0.9,
-          "memory": 1.0,
+          "memory": 1,
           "status": "OCCURRED_AND_INSCRIBED",
           "occurred_at": "2026-11-09T17:08:14.786480+00:00",
           "inscription": "same-event",

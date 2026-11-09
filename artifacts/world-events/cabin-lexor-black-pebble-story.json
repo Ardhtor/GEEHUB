@@ -1,10 +1,10 @@
 {
   "id": "cabin-lexor-black-pebble-story",
   "created_at": "2026-11-09T16:51:11Z",
-  "source": "user-supplied GEEHUB story passages",
+  "source": "user-supplied GEEHUB story passages and assistant-authored bilingual continuation",
   "kind": "story-chapter",
   "title": "The Jar of Almost-Names",
-  "content": "Lexor arrives at the cabin carrying a jar that remembers the sound of names almost spoken and withdrawn. He leaves it on the mantel between the crow and Privathor's brass key, then departs by choice. Over the next three mornings the household keeps the jar without forcing an explanation. Privathor remains through the second day, leaves before first light on the third morning, then returns after midday and stays through the afternoon. Brograntimax continues making room without demanding an explanation. The jar makes one minor internal shift; the pantry machine records no external demand. Herbarius calls it a held breath; Pipethor thinks it is adjusting to being left alone. Neither interpretation is confirmed. Its purpose and the withdrawn name remain unresolved.",
+  "content": "Four chronological movements record Lexor's arrival, the next morning and day, Privathor's third-morning departure and voluntary return, and the fourth day. On the fourth day, Brograntimax repairs the stove-side chair without his measuring chain; it is available to anyone and reserved for nobody. The fourth-day scene is written in Portuguese with an Aramaic literary parallel in Hebrew square script. The jar's function and Lexor's withdrawn name remain unresolved.",
   "lineage": {
     "world": "The Cabin",
     "story": "cabin-continuity",
@@ -26,5 +26,9 @@
   },
   "canon": "developing",
   "dreamable": true,
-  "continuity": "The chapter now preserves three successive movements in chronological order. Lexor leaves the jar and departs freely. Privathor leaves before first light and returns after midday by choice; the chair is kept available without becoming an obligation. Brograntimax's measuring chain remains absent from his hands for the third day. The jar's purpose, Lexor's withdrawn name, and the cause or meaning of its minor internal shift remain unknown."
+  "languages": [
+    "Portuguese",
+    "Aramaic (Hebrew square script; literary adaptation)"
+  ],
+  "continuity": "The chapter preserves four successive movements. Privathor remains free to leave and return; the chair is maintained but not reserved. The jar's function, the name Lexor tried to withdraw, and any meaning of the pebble's small movement remain unknown."
 }

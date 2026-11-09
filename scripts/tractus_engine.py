@@ -397,7 +397,6 @@ prediction_error. No prediction error means skip=true.
         updated_thread if item["thread_id"] == retrieval["thread_id"] else item
         for item in updated_schedule["threads"]
     ]
-    updated_state["last_snapshot_source_commit"] = "pending-current-commit"
     SCHEDULE_PATH.write_text(json.dumps(updated_schedule, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     RETRIEVAL_STATE_PATH.write_text(json.dumps(updated_state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     commit_changes(f"Tractus: {title}")

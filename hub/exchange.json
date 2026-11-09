@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-09T00:06:48.160Z",
+  "generated": "2026-11-09T06:38:12.105Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00183",
+      "at": "2026-11-09T06:38:12.105Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / BLUEWATER QUAY → NORTHGATE UNIVERSITY / ANDREW",
+      "body": "The world crossed the existing relation \"NORTHGATE OPENS ITS QUAD\" from BLUEWATER QUAY into NORTHGATE UNIVERSITY. Scale increased from 14.10× to 14.18×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00183",
+      "live": true,
+      "regionId": "northgate-university",
+      "previousRegionId": "bluewater-quay",
+      "relation": "NORTHGATE OPENS ITS QUAD"
+    },
     {
       "id": "scheduled-long-play-00182",
       "at": "2026-11-09T00:06:48.160Z",
@@ -1482,21 +1497,6 @@
       "regionId": "embodied-scale",
       "previousRegionId": "colossal-escalation",
       "relation": "THE OLD WORLD FITS NO MORE"
-    },
-    {
-      "id": "scheduled-long-play-00086",
-      "at": "2026-10-21T11:53:47.190Z",
-      "from": "geehub-long-play",
-      "to": "luke",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / MUSCLE MYTH → COLOSSAL ESCALATION / LUKE",
-      "body": "The world crossed the existing relation \"THE CITY LEARNS HIS NAME\" from MUSCLE MYTH into COLOSSAL ESCALATION. Scale increased from 7.94× to 7.97×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00086",
-      "live": true,
-      "regionId": "colossal-escalation",
-      "previousRegionId": "muscle-myth",
-      "relation": "THE CITY LEARNS HIS NAME"
     }
   ]
 }

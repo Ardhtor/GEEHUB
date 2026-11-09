@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00183",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "northgate-university",
+  "position": {
+    "x": 49,
+    "y": 92,
+    "z": 0
+  },
+  "camera": {
+    "x": 49,
+    "y": 92,
+    "z": 1.7,
+    "heading": 249,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 14.18,
+    "priorScale": 14.1,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 14.18,
+    "clearance": 0.0705,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "NORTHGATE OPENS ITS QUAD"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "bluewater-quay",
+      "name": "BLUEWATER QUAY"
+    },
+    {
+      "type": "region",
+      "id": "northgate-university",
+      "name": "NORTHGATE UNIVERSITY"
+    },
+    {
+      "type": "relation",
+      "title": "NORTHGATE OPENS ITS QUAD"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 14.1,
+      "to": 14.18
+    },
+    {
+      "property": "location.regionId",
+      "from": "bluewater-quay",
+      "to": "northgate-university",
+      "relation": "NORTHGATE OPENS ITS QUAD"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0709,
+      "to": 0.0705
+    }
+  ],
+  "intent": "LONG PLAY / BLUEWATER QUAY → NORTHGATE UNIVERSITY / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 183,
+    "previousRegionId": "bluewater-quay",
+    "regionId": "northgate-university",
+    "relation": "NORTHGATE OPENS ITS QUAD",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 14.1,
+    "scaleBaselineTo": 14.18
+  },
+  "timestamp": "2026-11-09T06:38:12.105Z"
+}

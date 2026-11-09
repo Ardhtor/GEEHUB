@@ -25,7 +25,7 @@ These are visual timing anchors, not recovered motion-capture markers. The impor
 
 ## Build interpretation
 
-The action requires arm IK targets that can move independently, elbow pole targets that preserve the outward bend, and a planted leg IK setup so the feet do not slide while the upper body poses. The arm chain includes a clavicle link so the shoulder girdle can participate in the IK solution. Each leg uses a foot target and knee pole. The pose driver object `CTRL_VIDEO6_DRIVER` animates both hand targets and both elbow poles through one reusable action.
+The action requires arm IK targets that can move independently, elbow pole targets that preserve the outward bend, and a planted leg IK setup so the feet do not slide while the upper body poses. The arm chain includes a clavicle link so the shoulder girdle can participate in the IK solution. Each leg uses a foot target and knee pole. The pose driver object `CTRL_VIDEO6_DRIVER` animates both hand targets and both elbow poles through one reusable action. Arm and leg IK explicitly solve target position; wrist orientation remains a separate calibration because the source provides only a frontal view.
 
 The body should preserve the same base silhouette across the clip. Do not encode the source's small generative frame-to-frame muscle-shape fluctuations as actual volume animation. Instead, reproduce stable visual mass, arm trajectory, held flex, and release. The video shows only one camera view: it does not reveal depth, hidden elbow trajectory, actual joint centers, or a physically measured skeleton. Those aspects must be inferred and checked against anatomy.
 

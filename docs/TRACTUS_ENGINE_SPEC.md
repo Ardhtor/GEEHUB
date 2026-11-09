@@ -53,3 +53,12 @@ The Tractus workflow runs the new unit tests and science checks before asking th
 - Sound cues change declared tempo, attention, action availability, or fictional/interface state; no physiological effect is claimed.
 - Environmental detail supports a scene but does not replace character intention or empathy.
 - A local or cloud production capability is not claimed until its actual health checks pass.
+
+
+## Additional perspective: narrative and cue execution
+
+The companion review adds practical refinements without replacing the adopted architecture. The writer treats each cycle as another look at established material: it retains existing relationships and unresolved facts, distinguishes observation from prediction error, and produces no more than one bounded addition per cycle. Narrative uses substantial connected American-English paragraphs and makes the sequence of event, visible evidence, change, and remainder legible. Environmental detail is selected for its connection to character intention and scene action; it is not inserted mechanically at every paragraph break. Seth may appear as a roaming in-world observer, with Nick as a second commentator when useful, but the manuscript is not required to become a podcast transcript.
+
+Innervation now names four reusable cue patterns: lock-in, threshold, reveal, and recall. They are optional patterns layered onto the existing scene-first action contract. The v2 schema and runtime validator check their timing and state consequences. A cue still cannot claim playback or physiological effect unless the corresponding production and evidence actually exist.
+
+The source review also proposes an observation for rejected writer output. The current implementation enforces rejection before any canon write and emits the reason in the workflow log; it does not yet promise that every preflight failure is itself appended to the activity ledger. This distinction remains explicit until a durable, non-recursive rejection-event path is tested.

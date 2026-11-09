@@ -59,6 +59,26 @@ class TractusScienceTests(unittest.TestCase):
         self.assertTrue(validate_writer_output({"canon_additions": [{"id": "a"}]}))
         self.assertTrue(validate_writer_output({"retrieval": {}, "canon_additions": [{"id": "a"}, {"id": "b"}]}))
 
+    def test_cue_patterns_enforce_action_contracts(self):
+        base = {
+            "cue_id": "cue-1", "event_id": "event-1", "timestamp": "2026-11-09T19:00:00Z",
+            "signal": "door opens", "bpm": 72, "phase": "off_beat", "duration_beats": 4,
+            "target_response": "turn", "spatial_change": "presence revealed",
+            "action": "Luke turns toward Berit", "sonic_residue": "two boot echoes",
+            "state_change": {"presence_before": ["luke"], "presence_after": ["luke", "berit"]},
+            "pattern": "reveal",
+        }
+        self.assertEqual(validate_cue(base), [])
+        base["pattern"] = "recall"
+        self.assertTrue(any("recalled_cue_id" in error for error in validate_cue(base)))
+        base["pattern"] = "threshold"
+        self.assertTrue(any("tempo drop" in error for error in validate_cue(base)))
+
+    def test_writer_output_rejects_claimed_completion_of_queued_jobs(self):
+        output = {"retrieval": {}, "canon_additions": [{"path": "lore/test.md"}],
+                  "jobs": [{"status": "QUEUED", "claimed_completed": True}]}
+        self.assertTrue(any("queued media job" in error for error in validate_writer_output(output)))
+
     def test_experiment_promotion_requires_explicit_event(self):
         records = [
             {"canon_version_id": "v1", "entity": "lore/test.md", "created_by_event_id": "e1", "status": "experiment"},

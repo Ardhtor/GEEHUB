@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 from engine.inscription import inscribe, inscribe_event, validate_event
+from engine.tractus_science import validate_writer_output
 from tractus_memory import advance_thread, append_jsonl, iso_utc, parent_revision, pick_next, read_jsonl, sha256_text, utc_now
 
 ALLOWED_FILES = ("novel/BOOK_I_CONTINUATION_03.md", "lore/DEEP_LORE.md",
@@ -159,15 +160,35 @@ characters_and_locations, unresolved, last_change, prediction, confidence (0..1)
     return result
 
 def verify_and_write(key,model,retrieval,schedule,state,dry):
-    prompt="""Verify blind retrieval against the supplied canon. Return skip, reason, retrieval_score
-(0..1), verified_retrieval_snapshot (exactly three objects), and surprise with expected,
-observed, prediction_error, prediction_error_type, severity, update_reason, what_remains,
-evidence_event_ids, source_paths. Also return recall_review with accurate, missed, contradicted
-arrays. Score below 0.5 cannot update canon. If there is no
-specific prediction error, skip=true. Never manufacture surprise. If writing, also return
-path, title, chapter. Tie environmental details to character intention and concrete action."""
+    prompt="""You are the Tractus narrative writer for GEEHUB. Treat this pass as an additional look at established material, not a replacement for it. Do not invent canon: a new version requires a concrete prediction error, provenance, and a verified retrieval score of at least 0.5. If a required field is absent, return an observation/skip rather than filling the gap.
+
+VOICE AND SCENE CRAFT
+Write substantial, connected American-English paragraphs. Develop each scene through what happened, what is seen, what changed, and what remains. Avoid staccato fragments and list-shaped narrative. Use concrete environmental detail—geography, architecture, light, atmosphere, surfaces, ambient sound, weather, distance, and scale—when it sharpens a character's immediate goal or changes how the scene is perceived; do not mechanically decorate every paragraph. Seth may wander into the narration as an in-world observer, with Nick as a second commentator when useful, but do not force a transcript or imitate any real person's distinctive voice. Preserve established relationships, unresolved questions, and existing canon unless evidence supports a specific change.
+
+STEP 1 — BLIND RECALL
+Before reading canon, use only the prior retrieval snapshot. Recall three open threads, who is where, what remains unresolved, what changed last time, and what you expect next. Preserve uncertainty.
+
+STEP 2 — CHECK
+Now compare that recall against the supplied canon and activity evidence for the selected thread. Return retrieval_score (0..1), verified_retrieval_snapshot (exactly three objects), and recall_review with accurate, missed, and contradicted arrays. Score below 0.5 cannot update canon. If there is no specific prediction error, skip=true. Never manufacture surprise.
+
+STEP 3 — WRITE
+If writing, return at most ONE bounded addition with path, title, chapter, and surprise fields: expected, observed, prediction_error, prediction_error_type, severity, update_reason, what_remains, evidence_event_ids, and source_paths. Tie environmental details to character intention and concrete action. Make the sequence of event, visible evidence, change, and remainder legible.
+
+STEP 4 — INNERVATION (only if adding a cue)
+Every cue must have BPM 30–300, phase (on_beat/off_beat/break/silence), duration, target_response (pause/step/turn/breath/reach/stillness), a before/after state change, an action, and concrete sonic residue. Optional patterns: lock_in = 4–8 steady on-beat pulses for step/breath; threshold = break, tempo drop of at least 15 BPM, and at least two beats of silence for pause/stillness; reveal = off-beat accent plus presence change for turn/reach; recall = return to a prior BPM/motif and log recalled_cue_id for breath/stillness. No mood-only cues.
+
+CONSTRAINTS
+Canon and experiment remain distinct. Queued media jobs are queued, never completed renders. Do not claim autonomous video rendering or Dropbox delivery unless health checks pass. Do not copy conversation into the repository; preserve only decisions that change the system."""
     result=call_model(key,model,prompt,"Blind retrieval, completed before canon inspection:\n"+
         json.dumps(retrieval,ensure_ascii=False)+"\n\nCurrent canon and provenance:\n"+collect_context())
+    output_contract = {
+        "retrieval": retrieval,
+        "canon_additions": [] if result.get("skip") is True else [result],
+        "jobs": result.get("jobs", []),
+    }
+    output_errors = validate_writer_output(output_contract)
+    if output_errors:
+        fail("Writer output rejected: " + "; ".join(output_errors))
     try: score=float(result.get("retrieval_score"))
     except (TypeError,ValueError): fail("Verification missing retrieval_score.")
     if not 0<=score<=1: fail("retrieval_score out of range.")

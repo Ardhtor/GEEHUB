@@ -126,6 +126,14 @@
         "scale_after": {}
       },
       "additionalProperties": true
+    },
+    "pattern": {
+      "enum": [
+        "lock_in",
+        "threshold",
+        "reveal",
+        "recall"
+      ]
     }
   },
   "additionalProperties": false

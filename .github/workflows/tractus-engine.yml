@@ -18,7 +18,7 @@ on:
         description: "Generate and validate without committing"
         required: false
         type: boolean
-        default: false
+        default: true
 
 permissions:
   contents: write

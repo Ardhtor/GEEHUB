@@ -90,3 +90,15 @@ Use steady isochronous pulses when a scene needs a stable movement reference. Us
 BPM is a design parameter for composition and interaction. It is not evidence that a particular listener's neural systems were measured or that a precise biological response is guaranteed. The practical rhythmic range is broad; individual synchronization varies.
 
 The experience loop is `PERCEIVE → CHOOSE → ACT → STATE CHANGE → NEW PERCEPTION`. Sound participates in that loop: a cue changes timing or action, and the changed action alters what the interface or scene presents next. If playback is unavailable, produce a timed cue sheet and mark it as specified, not played.
+
+
+## Reusable cue patterns
+
+These patterns are optional compositional templates, not a replacement for the existing scene-first Innervation rules. Each cue still needs a concrete trigger, tempo, phase, target action, before/after state, and sonic residue.
+
+- **Lock-in:** 4–8 steady on-beat pulses at one BPM; target \`step\` or \`breath\`. Use when travel, work, or crossing needs a stable movement reference.
+- **Threshold:** a rhythmic break, a tempo drop of at least 15 BPM, and at least two beats of silence; target \`pause\` or \`stillness\`. Use at doors, crossings, and reveals.
+- **Reveal:** an off-beat accent that changes who is present; target \`turn\` or \`reach\`. Use when a person or signal enters the scene.
+- **Recall:** return to a prior cue's BPM and motif; target \`breath\` or \`stillness\`, and record \`recalled_cue_id\` so the historical link is explicit.
+
+The v2 cue schema accepts an optional \`pattern\` field with these four values. The validator checks the pattern's phase, duration, state change, and response. Continuous mood-only drones remain non-actionable unless they acquire a timed cue and a visible or narrative consequence.

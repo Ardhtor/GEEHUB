@@ -145,3 +145,23 @@ Durable state:
 - The six friends contribute distinct forms of attention without being reduced to an audience.
 
 Continuity checks: Joey remains distinct from Joseph; his thirty-foot Stage Four form follows his existing character record; Andrew's athletic discipline and practical, playful coaching remain consistent. The new scenes preserve prior sound recordings and add new versions rather than replacing them.
+
+
+## Learning pass — Chapters Thirty-One to Thirty-Three
+
+These chapters loosen the scene structure and let visual references enter ordinary life without turning every image into a literal identity claim.
+
+Chapter XXXI uses GLA-014, Better Things Together, as a mood reference for shared food, warmth, and unforced companionship. The depicted men are not identified as story characters. The baseball travels from field to kitchen and becomes a continuity object.
+
+Chapter XXXII uses GLA-011 as Joey's industrial-gym atmosphere and low-angle presentation reference. GLA-012 remains a separate blue-giant comparator. The chapter explicitly distinguishes camera exaggeration from anatomy and uses both low and eye-level views. The existing face, hands, neck, clothing, and room continuity remain important.
+
+Chapter XXXIII uses GLA-013 as an open-ground scale reference, not as Joey's identity. Rain moves the practice indoors. The friends make FIELD IN THE RAIN from the gate, latch, and glove recordings. An open training ground emerges from their different practical needs but remains an unfinished proposal.
+
+New state:
+- FIELD IN THE RAIN: working music piece; preserves the gate, latch, and glove sound layers.
+- Joey's scuffed baseball now links field, kitchen, gym, and music room.
+- A future open training ground has several distinct requirements: level throwing ground, storage, fixed camera platform, shade/food area, and wind recording.
+- Joey's ordinary-sized presence is shown as a chosen way to share space, not a loss of his full form.
+- The Library atlas grows to fifteen inspected images; five new entries are cross-referenced by the novel.
+
+The three chapters were read against the current atlas entries. Image names and visual descriptions are retained as references, not treated as proof of real-world identity or relationship.

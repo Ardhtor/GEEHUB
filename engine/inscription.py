@@ -7,9 +7,13 @@ and engine-specific state files are projections of that same event identity.
 """
 from __future__ import annotations
 
+import fcntl
 import json
+import os
 import re
 import sys
+import tempfile
+from contextlib import contextmanager
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,8 +30,48 @@ def _read_json(path: Path, fallback: dict) -> dict:
 
 
 def _write_json(path: Path, value: dict) -> None:
+    """Replace a JSON projection atomically so interrupted writes leave no partial file."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    fd, temporary = tempfile.mkstemp(prefix=path.name + ".", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            handle.write(json.dumps(value, indent=2, ensure_ascii=False) + "\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary, path)
+        try:
+            directory_fd = os.open(path.parent, os.O_RDONLY)
+            try:
+                os.fsync(directory_fd)
+            finally:
+                os.close(directory_fd)
+        except OSError:
+            pass
+    finally:
+        if os.path.exists(temporary):
+            os.unlink(temporary)
+
+
+@contextmanager
+def _activity_lock():
+    """Serialize inscription projections across processes and concurrent autosaves."""
+    ACTIVITY_LOG.parent.mkdir(parents=True, exist_ok=True)
+    with ACTIVITY_LOG.open("a+", encoding="utf-8") as handle:
+        fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
+        try:
+            yield
+        finally:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
+
+
+def _ensure_json(path: Path, value: dict) -> None:
+    if path.is_file():
+        try:
+            if _read_json(path, {}) == value:
+                return
+        except (OSError, json.JSONDecodeError):
+            pass
+    _write_json(path, value)
 
 
 
@@ -54,8 +98,8 @@ def inscribe(event: dict, source: str) -> dict:
     candidate["at"] = candidate.get("timestamp") or candidate.get("at")
     return inscribe_event(candidate, source=source)
 
-def inscribe_event(event: dict, source: str) -> dict:
-    """Persist an occurred event once, returning its canonical inscription."""
+def _inscribe_event_locked(event: dict, source: str) -> dict:
+    """Persist an occurred event once while the activity lock is held."""
     if not isinstance(event, dict) or not source:
         raise ValueError("An event object and source are required")
 
@@ -86,19 +130,28 @@ def inscribe_event(event: dict, source: str) -> dict:
         "status": "OCCURRED_AND_INSCRIBED",
     })
 
-    ACTIVITY_LOG.parent.mkdir(parents=True, exist_ok=True)
-    existing_ids = set()
+    existing_records = {}
     if ACTIVITY_LOG.exists():
         with ACTIVITY_LOG.open("r", encoding="utf-8") as handle:
-            for line in handle:
-                try:
-                    existing_ids.add(json.loads(line).get("id"))
-                except json.JSONDecodeError:
+            for line_number, line in enumerate(handle, 1):
+                if not line.strip():
                     continue
+                try:
+                    previous = json.loads(line)
+                except json.JSONDecodeError as exc:
+                    raise ValueError(f"Corrupt activity log at line {line_number}: {exc}") from exc
+                if isinstance(previous, dict) and previous.get("id"):
+                    existing_records[previous["id"]] = previous
 
-    if event_id not in existing_ids:
+    if event_id in existing_records:
+        if existing_records[event_id] != record:
+            raise ValueError(f"Event ID conflict: {event_id} already exists with different content")
+        record = existing_records[event_id]
+    else:
         with ACTIVITY_LOG.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps(record, ensure_ascii=False, separators=(",", ":")) + "\n")
+            handle.flush()
+            os.fsync(handle.fileno())
 
     artifact = {
         "id": f"activity-{event_id}",
@@ -115,8 +168,7 @@ def inscribe_event(event: dict, source: str) -> dict:
 
     ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
     artifact_path = ARTIFACT_DIR / f"{event_id}.json"
-    if not artifact_path.exists():
-        _write_json(artifact_path, artifact)
+    _ensure_json(artifact_path, artifact)
 
     ledger = _read_json(ARTIFACT_INDEX, {
         "version": 2,
@@ -130,8 +182,14 @@ def inscribe_event(event: dict, source: str) -> dict:
         _write_json(ARTIFACT_INDEX, ledger)
 
     OUTBOX.mkdir(parents=True, exist_ok=True)
-    _write_json(OUTBOX / f"{event_id}.json", artifact)
+    _ensure_json(OUTBOX / f"{event_id}.json", artifact)
     return record
+
+
+def inscribe_event(event: dict, source: str) -> dict:
+    """Lock the append-only event stream and all of its derived projections."""
+    with _activity_lock():
+        return _inscribe_event_locked(event, source)
 
 
 def main() -> int:

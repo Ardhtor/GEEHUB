@@ -102,6 +102,27 @@
         "evidenceSource": "direct user instruction on 2026-11-09",
         "boundaries": "Do not infer team, position, playing level, exact measurements, regional origin, accent, or private details from the public profile."
       }
+    },
+    {
+      "character": "joseph",
+      "publicName": "Joey Prever",
+      "account": "joeyprever",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@joeyprever",
+      "role": "personality and voice reference",
+      "priority": "high",
+      "canonSource": "characters/records/JOSEPH.md",
+      "currentCharacterFoundation": [
+        "music-connected",
+        "reflective",
+        "continuity-minded"
+      ],
+      "reviewStatus": "channel-identified-video-review-pending",
+      "userEstablishedMapping": {
+        "accountIdentification": "Joey's YouTube channel is @joeyprever",
+        "evidenceSource": "direct user correction on 2026-11-09",
+        "boundary": "The account mapping does not establish private feelings, intentions, or relationship facts. Review public videos and descriptions before adding account-derived traits."
+      }
     }
   ],
   "interpretationProtocol": [

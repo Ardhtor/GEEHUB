@@ -10,7 +10,6 @@ on:
       - 'world.json'
       - 'engine/**'
       - 'characters/**'
-      - 'characters/**'
       - 'research/creators/**'
       - 'server/**'
       - 'validate-records.py'
@@ -24,6 +23,7 @@ on:
       - 'world.json'
       - 'engine/**'
       - 'characters/**'
+      - 'novel/**'
       - 'research/creators/**'
       - 'validate-records.py'
       - '.github/workflows/validate-data.yml'
@@ -100,10 +100,28 @@ jobs:
             throw new Error('Gabe must be represented in the named-agent and reaction systems.');
           }
           if (agents.agents.length !== 6) throw new Error('Expected six named agents after adding Gabe.');
+          const expanded = ['luke','tyler','chase','gabe','andrew'];
+          for (const id of expanded) {
+            const p = reactions.agents[id];
+            const file = 'characters/records/'+id.toUpperCase()+'.md';
+            const record = fs.readFileSync(file, 'utf8');
+            if (!p || !p.temperament || !p.coreDrive || !p.blindSpot || !p.vulnerability || !p.humour || !p.affection || !p.conflictStyle || !p.repairStyle || !p.growth) {
+              throw new Error('Personality dynamics incomplete: '+id);
+            }
+            if (!record.includes('## Personality growth —') || !record.includes('## Repeatable personal details')) {
+              throw new Error('Expanded character record missing: '+id);
+            }
+          }
+          if (!reactions.agents.joseph || !reactions.relationshipDynamics || !reactions.relationshipDynamics.luke_tyler) {
+            throw new Error('Reciprocal relationship dynamics missing.');
+          }
+          if (!fs.existsSync('novel/chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md')) {
+            throw new Error('Ensemble personality chapter missing.');
+          }
           if (!social.personalityReferencePolicy || !social.personalityReferencePolicy.includes('Do not infer private traits')) {
             throw new Error('Personality-reference evidence boundary missing.');
           }
-          console.log('Followed sources, five voice-reference mappings, character records, and Gabe reaction state verified.');
+          console.log('Followed sources, five mapped voice references, six expanded personality states, reciprocal dynamics, and ensemble chapter verified.');
           NODE
       - name: Validate world broadcast and map coverage
         run: |

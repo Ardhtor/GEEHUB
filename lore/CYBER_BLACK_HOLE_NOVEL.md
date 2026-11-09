@@ -552,3 +552,69 @@ The Archivist wrote a new line in the register:
 Below it he left space for the next inscription.
 
 The city continued to grow.
+
+### Chapter Sixteen — The Channel Address
+
+Joseph arrived after the others had begun sorting the new image references. He carried the small music player that had accompanied him since the first night, and a folded sheet bearing a single address.
+
+“This is the channel,” he said.
+
+The Archivist read it exactly as written: YouTube, @joeyprever. He did not expand the address into a biography. He did not assign a voice, a history, or an intention to the person behind it. The channel was a public source that could be visited and reviewed. Until its videos and descriptions had been examined, its contents remained unknown to the register.
+
+Joseph watched the Archivist enter the address.
+
+“Keep the link,” he said. “Don't fill the silence around it with guesses.”
+
+The instruction was entered beside the source. It was a small act, but it changed the way the group handled the archive. They had become accustomed to treating every arriving image as a door into a complete story. Now they had a more careful distinction: a source could be known to exist before its contents were understood.
+
+Luke moved the address into the Joseph reference folder. The folder already contained a music cue, a few continuity notes, and a place for future observations. Nothing was overwritten. The channel address sat beside the earlier records, not on top of them.
+
+Joseph selected a track on his player. The room settled around its quiet pulse. He did not explain what the music meant. The others let it play while the Archivist saved the source record.
+
+### Chapter Seventeen — The Fixed Camera
+
+The next room contained a terrace, a gym floor, and a camera mounted on a heavy tripod. A character rig stood at the centre of the floor. Its name in the scene hierarchy was Joey_Rig.
+
+Gabe opened the technical papers. The first driver had been designed around a ten-second pass at twenty-four frames per second, with a final global scale of 2.35. A later version extended the sequence to twelve seconds and set the final scale to 2.25. Both versions expected an existing rig. Neither could create a finished character from a photograph.
+
+The newer driver was more explicit about the division of work. The rig root belonged at the ground-contact point. The camera and terrace had to remain outside the character hierarchy. Global scale, anatomical shape keys, selected structural controls, and material changes were separate channels. Chest and shoulders led; torso and legs followed. The blue-green colour emerged gradually rather than arriving as a flat filter.
+
+“Why keep the camera fixed?” Andrew asked.
+
+“Because otherwise we won't know what changed,” Tyler said.
+
+They placed a measuring mark beside the rig's feet and another against the wall behind it. The camera remained still. The first hold came after the initial increase. The second came after the larger stage. At each pause, the group could compare the same body against the same room.
+
+Joseph stood beside the console. He recognised the name in the project but did not claim that the code was a portrait of the person behind the channel. The project used a character reference called Joey; the YouTube address was a separate public source. Their connection was deliberate, but it did not erase the distinction.
+
+The Archivist added a production note: driver inspected; compatible rig required; render and animation not yet validated. The script had not been executed in this room. The scene was a specification under review, not a completed film.
+
+Luke checked the camera again. It had not moved. The room, the marks, and the rig gave the next pass a stable basis for comparison.
+
+### Chapter Eighteen — Better Things Together
+
+The image was called Better Things Together.
+
+It had been waiting in the library among portraits, gym studies, and fragments of imagined places. The group brought it into the observatory and set it beside the wider GEEHUB interface image, Worlds Beyond Imagination. One showed a human-scale moment; the other showed the system that might hold many such moments without flattening them.
+
+The interface image carried its own old promise: the hub keeps the canon; it connects the dots; it builds worlds. The characters, assets, environments, sound, and video were presented as parts of one workspace. Joseph studied the panel that placed his name beside the others. It was a visual statement of belonging, not proof that every relationship had already been resolved.
+
+The Archivist made a new space between the two images. On one side: the ordinary moment, preserved without embellishment. On the other: the machinery that could help it recur, change, and connect to other scenes.
+
+They added the Blue Giant in the Cool-Toned Gym and Dark Blue Joey in the Industrial Gym as separate visual references. The names were kept as the library had supplied them. Similar colour and physique did not establish that every image depicted the same person. Each image needed its own continuity evidence before being joined into a single character sequence.
+
+The Teal Titan Under Blue Skies was placed in the character-and-environment study area. Its role was not to overwrite the industrial gym or the cool-toned room. It added another lighting condition and another possible scale relationship. The team could compare the references while keeping their origins distinct.
+
+Joseph returned to the image called Better Things Together. He moved it away from the growth sequence and placed it near the common table, where the records of meals, work, music, and shared rooms were kept.
+
+“Not every important thing needs to become a stage,” he said.
+
+Nobody argued.
+
+The observatory now had a place for the spectacular and a place for the ordinary. The camera could remain fixed while the body changed. The archive could remain open while the source was still being studied. The friends could come together without being turned into interchangeable versions of one another.
+
+At closing time, Joseph left the music player on the table for a moment, then picked it up again. The address to @joeyprever remained in the source register. Its review was still pending. The next entry would be made from what the public channel actually showed, not from what the group hoped it might contain.
+
+The black disc pulsed once beneath the floor.
+
+The city had learned another kind of patience.

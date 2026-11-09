@@ -129,3 +129,94 @@ The damaged parapet remained visible. It reminded the readers that even a lastin
 The deep-lore record remains open. Future chapters may explore the flood account alongside the convent's water records; the Cedar Forest alongside the Oak Thread's ethics of material use; the friendship of Gilgamesh and Enkidu alongside Hrothgar's male emotional life; and the return to Uruk alongside the university's questions about public works and inherited responsibility.
 
 The epic must remain recognizable as the story of Gilgamesh and Enkidu. GEEHUB may converse with it, reinterpret its implications, and allow its themes to alter the living worlds, but it must not erase its ancient setting or claim the original story as a GEEHUB invention.
+
+
+## The flood tablet and the work of remembering
+
+The flood account entered the university through a disagreement about what a record can promise. A student had copied the story of Utnapishtim into a notebook and written beneath it: *Someone survived, therefore the world was saved.* The sentence was neat, confident, and wrong in a way that the seminar could not leave alone.
+
+Dan Roman asked what the sentence had left out. The student looked again at the page. It had left out the people who did not survive, the cities that did not return, the animals and fields and ordinary arrangements of life that could not simply be restored. It had made survival sound like a verdict on everyone else.
+
+The older account was read aloud again. The flood was not reduced to a lesson in preparedness. It remained immense, bewildering, and morally difficult. Utnapishtim's survival did not make him the owner of the dead. His story carried a burden as well as a distinction: he had crossed an event that could not be made ordinary by telling it.
+
+The Hrothgar men took up the question in their own hall. Their custom had been to record a man's name when he completed a difficult undertaking, repaired a public object, or gave another man shelter. They added a second column: who had been absent, whose work had gone unrecorded, and what could not be repaired. The new column was not a monument to sorrow. It was a protection against the easy triumph of the survivor.
+
+One of the men objected that the record would become too heavy to maintain. Another replied that a record which could not bear the truth was only decoration. They settled on a modest practice. At the end of each season, the keeper would read the names aloud, including the names of men whose work had been interrupted or whose contribution had never been finished. No one would be required to explain a private grief. The names would be enough.
+
+In the City With Cats, the flood story acquired a different life. The Lantern Market's water-keepers began to preserve accounts of wells, drains, cisterns, and the small channels that carried rain away from the crowded streets. Their ledger included repairs that had prevented disaster, but also places where water had entered homes and damaged stock. A cat slept on the open ledger one afternoon, leaving a faint print in the dust beside a list of repaired gutters. The keeper did not erase it. He drew a small circle around the mark and entered the date.
+
+The market's practical lesson was not that every flood could be prevented. It was that neglect often announced itself in small sounds: a blocked grate, a damp wall, a smell under the floorboards, a neighbor who stopped bringing his baskets through the lower lane. The epic's great waters made the small warnings legible.
+
+At the Convent, Dan Roman found an old water schedule written in several hands. The earliest entries were formal; later ones were cramped and practical. Someone had added notes about a cracked basin, a leaking roof, and the number of buckets needed after a hard rain. Dan copied the schedule without correcting its uneven spelling. He understood that the document was not merely about water. It was a record of men who had kept a building habitable across years they could not have predicted.
+
+The flood tablet therefore became a question asked differently in each place. At the university: what does a survivor owe to the truth? In Hrothgar: how do men remember without turning grief into a performance? In the market: which small repairs protect a whole neighborhood? At the Convent: how does maintenance become a form of continuity? The answers did not merge. Their differences were kept.
+
+## The cedar account of Herbarius
+
+Herbarius took the Cedar Forest story into the Redwood records and refused to let the account become a simple argument for either conquest or untouched wilderness. He asked the keepers to describe the forest as a living system of relations: old trees, young growth, fallen trunks, fungi, soil, birds, insects, water, paths, and the men who entered it for particular purposes.
+
+The first report was too clean. It described timber yield and walking distance, but not the smell after rain or the way a fallen tree made a bridge for smaller growth. The second report was too romantic. It treated every human presence as a wound and every untouched place as a complete answer. Herbarius returned both.
+
+A third report began with a practical question: what can be taken without destroying the conditions of renewal? The answer depended on the place, the season, the tree, the route of removal, and the obligations that followed. A fallen cedar was not automatically waste. A standing cedar was not automatically available. The record had to name what was known and admit what remained uncertain.
+
+The Digitorium received a copy. Its scribes placed the report beside the cedar shaving already held in the sealed drawer. They added no claim of sacred provenance. Instead, they recorded the chain of custody: who had collected the shaving, where it had been stored, who had handled it, and which details were observation rather than inference. The distinction pleased the oldest scribe. He said that reverence without accuracy could become another form of theft.
+
+In the Observation Ring, the report unsettled the gods who preferred clean measures. Gigathor wanted a formula for sustainable taking. Herbarius gave him a set of questions instead. Gigathor complained that questions did not scale. Coach, who had been listening from the doorway, said that neither did a forest if you cut it down faster than it grew.
+
+The joke passed around the room, but the record remained. The Cedar Forest became a place that could be visited in thought without being treated as an inexhaustible storehouse. Its guardian was remembered as part of the epic's moral difficulty, not turned into a convenient villain whose defeat excused everything that followed.
+
+## Enkidu's place at the table
+
+The Long Table began to notice how often the story was told from Gilgamesh's side. His power, his fear, his journey, and his return made a strong narrative line. Enkidu could become the instrument of Gilgamesh's transformation, which was another way of making him disappear.
+
+A group of students proposed a reading evening devoted to Enkidu's life before Uruk, his first encounter with the city, his friendship, his role in the journey, and the particular force of his death. They did not pretend to recover a complete biography from fragments. They wanted to keep the surviving parts from being swallowed by the king's story.
+
+They began with the wild. Enkidu's life outside the city was not treated as ignorance waiting for correction. It involved knowledge of animals, water, terrain, bodily need, and the patterns of a world that did not revolve around walls. His arrival in Uruk changed him, but the city changed too. The encounter was reciprocal, even when the old narrative gave more attention to the king.
+
+At the Hrothgar hall, a man listening to the reading said that a friend can introduce you to a world without becoming responsible for every choice you make inside it. Another said that friendship sometimes begins with a contest because neither man yet knows how to approach the other. A third said that the contest only matters if both men are free to stop.
+
+They did not turn Enkidu into a model of perfect emotional conduct. He could be fierce, mistaken, loyal, and vulnerable. He could act from conviction and still suffer the consequences. The point was to allow him the same complexity granted to Gilgamesh.
+
+The evening ended without a formal conclusion. The men ate together, cleared the table, and left the chairs where they were. One stayed behind to help the student librarian repair a loose leg. The repair took longer than expected. They spoke about nothing important while they worked, and then, without announcing a change in subject, the man mentioned a friend he had lost years before.
+
+The librarian did not ask for the story immediately. He held the chair steady. The man tightened the joint. Their silence was not empty, and it did not require either of them to perform grief correctly.
+
+## The return to Uruk: a city after the hero
+
+The return to Uruk became a civic study rather than a royal conclusion. The students walked the perimeter of their own campus and made a list of the things that allowed a place to endure: drains, kitchens, benches, doors that closed properly, shaded routes, reliable records, public rooms, clean water, people who knew how to repair what others used.
+
+They compared the list with the walls of Uruk. The comparison was not exact. A modern university was not an ancient city, and the epic was not a building manual. Yet the question traveled: what does a powerful person leave that remains useful when he is gone?
+
+The answer was not simply a monument. A monument could preserve a name while leaving the living with nothing they could use. The students began documenting ordinary infrastructure and the people who maintained it. They interviewed groundskeepers, cooks, librarians, custodians, coaches, and repair workers. They recorded the difference between a structure that looked complete and one that actually served its inhabitants.
+
+Coach appeared in one of the interviews without having been invited. He was carrying a box of replacement hinges. He listened to a student explain the project and said, "If you want to know whether a place is strong, watch what happens when something breaks." Then he set the box down and helped replace a hinge on the archive room door.
+
+The door had been sticking for months. Afterward, it opened without scraping the floor.
+
+The students entered the repair in the record. They did not name Coach as a founder or turn the moment into a legend. They noted the hinge, the date, the materials, and the fact that the door now opened freely. The work was allowed to remain useful without becoming grand.
+
+Gilgamesh returned to Uruk and saw the walls. GEEHUB's readers returned to their own rooms and saw the doors, tables, pipes, paths, and records that made those rooms possible. The scale differed. The responsibility did not vanish.
+
+## A tablet left unfinished
+
+At the Digitorium, a young scribe began a tablet titled *What Gilgamesh Could Not Keep*. He wrote of Enkidu, of the Cedar Forest, of the journey to Utnapishtim, and of the return. He wrote carefully, then stopped before the final line.
+
+The senior scribe asked whether the tablet was damaged.
+
+"No," the young man said. "I don't know what the last line should be."
+
+"Then don't write it yet."
+
+The tablet was placed on a shelf with a note giving the date and the reason it remained unfinished. Weeks passed. Other scribes added references, questions, and small corrections to the commentary around it. No one supplied the missing line.
+
+The unfinished tablet traveled through the Oak Thread as a copy, not as an object. In the university it became an example in a class on responsible interpretation. In Hrothgar it was read aloud during the seasonal remembrance. At the Convent, Dan Roman copied its note into the water ledger's margin, beside a record of a repair that had been started but not completed. In the cabin, Daddy heard about it and said that some things were better left open until you had something honest to put there.
+
+Coach looked at the empty space and nodded. "A blank isn't always a failure. Sometimes it's where the next guy gets to do his part."
+
+The scribe returned to the tablet the following spring. He did not finish it with a maxim. He added a short account of the shelf, the readers who had visited it, and the fact that the tablet had changed because people had continued to think beside it. Then he left a space beneath the entry.
+
+The record was complete enough to be used and unfinished enough to receive what came next.
+
+## Continuity note
+
+These chapters extend the Gilgamesh material through flood memory, ecological restraint, Enkidu's independent significance, civic maintenance, and the ethics of unfinished records. They do not replace the ancient epic's sequence or claim that GEEHUB's characters belong to its original world. The connections are acts of reading and worldbuilding. Future entries should preserve that distinction while allowing the epic to keep changing the conduct of the places that remember it.

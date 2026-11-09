@@ -14,7 +14,10 @@ import math
 import os
 from mathutils import Vector
 
-PROJECT_NAME = "GEEHUB_Growth_Study_001_V2_3"
+PROJECT_NAME = "GEEHUB_Growth_Study_001_V2_4"
+VIDEO6_START_FRAME = 216
+VIDEO6_END_FRAME = 360
+VIDEO6_FPS = 24
 RUN_START_FRAME = 108
 RUN_CYCLE_START = 112
 RUN_CYCLE_END = 208
@@ -117,6 +120,133 @@ def add_bone(arm_data, name, head, tail, parent=None, connected=False, deform=Tr
     return bone
 
 
+def create_empty_control(name, rig, collection, location, display='SPHERE', size=0.12):
+    obj = bpy.data.objects.new(name, None)
+    collection.objects.link(obj)
+    obj.parent = rig
+    obj.location = location
+    obj.empty_display_type = display
+    obj.empty_display_size = size
+    obj.show_in_front = True
+    obj.hide_render = True
+    obj["rig_control"] = True
+    return obj
+
+
+def drive_control_location(control, driver_object, property_prefix):
+    for axis, suffix in enumerate(("x", "y", "z")):
+        prop = f"{property_prefix}_{suffix}"
+        curve = control.driver_add("location", axis)
+        driver = curve.driver
+        driver.type = 'SCRIPTED'
+        variable = driver.variables.new()
+        variable.name = "target_value"
+        variable.type = 'SINGLE_PROP'
+        target = variable.targets[0]
+        target.id = driver_object
+        target.data_path = f'["{prop}"]'
+        driver.expression = "target_value"
+
+
+def drive_ik_influence(constraint, rig, property_name):
+    curve = constraint.driver_add("influence")
+    driver = curve.driver
+    driver.type = 'SCRIPTED'
+    variable = driver.variables.new()
+    variable.name = "ik_blend"
+    variable.type = 'SINGLE_PROP'
+    target = variable.targets[0]
+    target.id = rig
+    target.data_path = f'["{property_name}"]'
+    driver.expression = "ik_blend"
+
+
+def build_ik_control_objects(rig):
+    collection = bpy.data.collections.new("RIG_CONTROLS — IK targets and video motion")
+    bpy.context.scene.collection.children.link(collection)
+
+    video_driver = bpy.data.objects.new("CTRL_VIDEO6_DRIVER", None)
+    collection.objects.link(video_driver)
+    video_driver.parent = rig
+    video_driver.empty_display_type = 'PLAIN_AXES'
+    video_driver.empty_display_size = 0.16
+    video_driver.hide_render = True
+    video_driver.hide_set(True)
+    video_driver["purpose"] = "single action source for Video 6 hand and elbow target curves"
+
+    for side, sign in (("L", -1), ("R", 1)):
+        for label, prefix, location, display in (
+            ("Hand_IK", f"hand_{side}", (sign * 0.60, -0.02, 0.82), "SPHERE"),
+            ("Elbow_Pole", f"pole_{side}", (sign * 0.88, -0.78, 1.30), "CIRCLE"),
+        ):
+            control = create_empty_control(
+                f"CTRL_{label}.{side}", rig, collection, location,
+                display, 0.13 if label == "Hand_IK" else 0.10)
+            drive_control_location(control, video_driver, prefix)
+
+        foot = create_empty_control(
+            f"CTRL_Foot_IK.{side}", rig, collection,
+            (sign * 0.23, -0.22, 0.07), "CUBE", 0.12)
+        foot["pivot_note"] = "ankle-to-toe endpoint; preserve planted sole contact"
+
+        knee = create_empty_control(
+            f"CTRL_Knee_Pole.{side}", rig, collection,
+            (sign * 0.46, -0.72, 0.43), "CIRCLE", 0.11)
+        knee["pivot_note"] = "knee bend direction; adjust after Blender pose review"
+
+        heel = create_empty_control(
+            f"CTRL_Heel_Pivot.{side}", rig, collection,
+            (sign * 0.23, 0.105, 0.065), "CIRCLE", 0.075)
+        heel["pivot_note"] = "heel roll reference pivot; separate from IK endpoint"
+
+        toe = create_empty_control(
+            f"CTRL_Toe_Pivot.{side}", rig, collection,
+            (sign * 0.23, -0.235, 0.065), "CIRCLE", 0.075)
+        toe["pivot_note"] = "toe roll reference pivot; separate from IK endpoint"
+
+    rig["ik_control_collection"] = collection.name
+    rig["video6_driver_object"] = video_driver.name
+    rig["ik_control_objects"] = 13
+
+
+def add_limb_ik_constraints(rig):
+    for side in ("L", "R"):
+        hand = rig.pose.bones.get(f"hand.{side}")
+        hand_target = bpy.data.objects.get(f"CTRL_Hand_IK.{side}")
+        elbow_pole = bpy.data.objects.get(f"CTRL_Elbow_Pole.{side}")
+        if hand is not None and hand_target is not None and elbow_pole is not None:
+            ik = hand.constraints.new('IK')
+            ik.name = f"IK_Arm.{side} — clavicle to hand"
+            ik.target = hand_target
+            ik.pole_target = elbow_pole
+            ik.chain_count = 4
+            ik.iterations = 128
+            ik.use_stretch = False
+            ik.use_tail = True
+            ik.pole_angle = 0.0
+            drive_ik_influence(ik, rig, "arm_ik")
+
+        foot = rig.pose.bones.get(f"foot.{side}")
+        foot_target = bpy.data.objects.get(f"CTRL_Foot_IK.{side}")
+        knee_pole = bpy.data.objects.get(f"CTRL_Knee_Pole.{side}")
+        if foot is not None and foot_target is not None and knee_pole is not None:
+            ik = foot.constraints.new('IK')
+            ik.name = f"IK_Leg.{side} — thigh to foot"
+            ik.target = foot_target
+            ik.pole_target = knee_pole
+            ik.chain_count = 3
+            ik.iterations = 128
+            ik.use_stretch = False
+            ik.use_tail = True
+            ik.pole_angle = 0.0
+            drive_ik_influence(ik, rig, "leg_ik")
+
+    rig["ik_system"] = (
+        "hand IK targets with elbow poles; foot IK targets with knee poles; "
+        "independent arm_ik and leg_ik influence switches"
+    )
+
+
 def build_rig():
     arm_data = bpy.data.armatures.new("Growth Study — Control Skeleton")
     rig = bpy.data.objects.new("GROWTH_RIG — master control", arm_data)
@@ -129,8 +259,12 @@ def build_rig():
     add_bone(arm_data, "neck", (0, 0, 1.55), (0, 0, 1.83), "spine")
     add_bone(arm_data, "head", (0, 0, 1.80), (0, 0, 2.12), "neck")
     for side, sign in (("L", -1), ("R", 1)):
+        add_bone(arm_data, f"clavicle.{side}",
+                 (sign * 0.10, 0, 1.60), (sign * 0.34, 0, 1.57),
+                 "spine", False, True)
         add_bone(arm_data, f"upper_arm.{side}",
-                 (sign * 0.34, 0, 1.57), (sign * 0.49, 0, 1.25), "spine")
+                 (sign * 0.34, 0, 1.57), (sign * 0.49, 0, 1.25),
+                 f"clavicle.{side}", True)
         add_bone(arm_data, f"forearm.{side}",
                  (sign * 0.49, 0, 1.25), (sign * 0.57, 0, 0.98),
                  f"upper_arm.{side}", True)
@@ -199,7 +333,20 @@ def build_rig():
             target.id = rig
             target.data_path = '["growth"]'
             driver.expression = f"1.0 + ({gain:.4f} * growth)"
-    rig["instructions"] = "Adjust custom property 'growth' from 0 to 1. Timeline keys are staged."
+    # Independent IK switches. FK is available by setting a channel to zero.
+    rig["arm_ik"] = 1.0
+    rig["leg_ik"] = 1.0
+    rig.id_properties_ui("arm_ik").update(
+        min=0.0, max=1.0, description="Arm IK blend: 1 = hand/pole controls, 0 = FK")
+    rig.id_properties_ui("leg_ik").update(
+        min=0.0, max=1.0, description="Leg IK blend: 1 = planted foot controls, 0 = FK")
+    build_ik_control_objects(rig)
+    add_limb_ik_constraints(rig)
+
+    rig["instructions"] = (
+        "Adjust growth 0–1. Use CTRL_Hand_IK and CTRL_Foot_IK targets. "
+        "arm_ik and leg_ik switch between IK and FK."
+    )
     return rig
 
 
@@ -608,6 +755,16 @@ def build_environment():
     run_camera_data.lens = 100.0
     run_camera["purpose"] = "fixed perspective view down the retreat lane"
 
+    video_camera_data = bpy.data.cameras.new("CAM_Video6")
+    video_camera = bpy.data.objects.new("CAM_Video6", video_camera_data)
+    bpy.context.collection.objects.link(video_camera)
+    video_camera.location = (0.0, -6.8, 1.45)
+    aim_at(video_camera, (0.0, 0.0, 1.08))
+    video_camera_data.type = 'PERSP'
+    video_camera_data.sensor_fit = 'VERTICAL'
+    video_camera_data.lens = 55.0
+    video_camera["purpose"] = "low frontal perspective matched to Library Video 6"
+
     runway_mat = make_principled(
         "MAT_RunwayGuide — muted teal", (0.025, 0.16, 0.17, 1),
         roughness=0.42, metallic=0.28)
@@ -675,6 +832,15 @@ def animate_run_away(rig):
     run_action = bpy.data.actions.new("RUN_AWAY — turn, gait, and retreat")
     anim_data.action = run_action
     rig.rotation_mode = 'XYZ'
+
+    # Locomotion retains its current FK gait. Video6 later restores IK for the
+    # posed upper body and planted feet.
+    rig["arm_ik"] = 0.0
+    rig.keyframe_insert(data_path='["arm_ik"]', frame=RUN_START_FRAME,
+                        group="IK-FK Switches")
+    rig["leg_ik"] = 0.0
+    rig.keyframe_insert(data_path='["leg_ik"]', frame=RUN_START_FRAME,
+                        group="IK-FK Switches")
 
     # Turn the character away from the fixed camera, then travel down the lane.
     rig.location = (0.0, 0.0, 0.0)
@@ -812,6 +978,136 @@ def animate_run_away(rig):
             marker.camera = run_camera
 
 
+def build_video6_pose_action(rig):
+    """Rebuild the observed six-second front bodybuilding pose sequence.
+
+    Source: Library file generated_video6(1).mp4, 448x672, 24 fps,
+    6.0417 seconds. Keys follow the visible frontal pose changes. Depth and
+    hidden joint motion are inferred because this is not multi-view mocap.
+    """
+    scene = bpy.context.scene
+    driver_object = bpy.data.objects.get("CTRL_VIDEO6_DRIVER")
+    if driver_object is None:
+        raise RuntimeError("Video6 action requires CTRL_VIDEO6_DRIVER.")
+
+    pose_keys = [
+        (216, (-0.66, -0.05, 0.84), (0.66, -0.05, 0.84),
+         (-0.82, -0.78, 1.28), (0.82, -0.78, 1.28)),
+        (240, (-0.68, -0.06, 0.86), (0.68, -0.06, 0.86),
+         (-0.84, -0.78, 1.30), (0.84, -0.78, 1.30)),
+        (252, (-0.82, -0.07, 1.12), (0.82, -0.07, 1.12),
+         (-0.92, -0.82, 1.40), (0.92, -0.82, 1.40)),
+        (264, (-1.06, -0.08, 1.46), (1.06, -0.08, 1.46),
+         (-1.02, -0.88, 1.47), (1.02, -0.88, 1.47)),
+        (270, (-1.10, -0.08, 1.48), (1.10, -0.08, 1.48),
+         (-1.03, -0.90, 1.48), (1.03, -0.90, 1.48)),
+        (282, (-0.78, -0.10, 1.73), (0.78, -0.10, 1.73),
+         (-1.02, -0.92, 1.56), (1.02, -0.92, 1.56)),
+        (294, (-0.76, -0.10, 1.74), (0.76, -0.10, 1.74),
+         (-1.02, -0.92, 1.56), (1.02, -0.92, 1.56)),
+        (324, (-0.76, -0.10, 1.74), (0.76, -0.10, 1.74),
+         (-1.02, -0.92, 1.56), (1.02, -0.92, 1.56)),
+        (336, (-1.02, -0.08, 1.53), (1.02, -0.08, 1.53),
+         (-0.98, -0.88, 1.48), (0.98, -0.88, 1.48)),
+        (348, (-1.11, -0.08, 1.47), (1.11, -0.08, 1.47),
+         (-0.98, -0.88, 1.48), (0.98, -0.88, 1.48)),
+        (360, (-1.10, -0.08, 1.46), (1.10, -0.08, 1.46),
+         (-0.98, -0.88, 1.48), (0.98, -0.88, 1.48)),
+    ]
+
+    rig_anim = rig.animation_data_create()
+    rig_action = bpy.data.actions.new("VIDEO6_RIG_STATE — front pose and planted feet")
+    rig_anim.action = rig_action
+    rig.rotation_mode = 'XYZ'
+    for frame in (VIDEO6_START_FRAME, VIDEO6_END_FRAME):
+        rig.location = (0.0, 0.0, 0.0)
+        rig.rotation_euler = (0.0, 0.0, 0.0)
+        rig.keyframe_insert(data_path="location", frame=frame, group="Video6 Root Lock")
+        rig.keyframe_insert(data_path="rotation_euler", frame=frame, group="Video6 Root Lock")
+        rig["arm_ik"] = 1.0
+        rig["leg_ik"] = 1.0
+        rig.keyframe_insert(data_path='["arm_ik"]', frame=frame, group="Video6 IK Mode")
+        rig.keyframe_insert(data_path='["leg_ik"]', frame=frame, group="Video6 IK Mode")
+
+    head = rig.pose.bones.get("head")
+    if head is not None:
+        head.rotation_mode = 'XYZ'
+        for frame, angle in ((VIDEO6_START_FRAME, 0.0), (282, -0.035),
+                             (324, -0.035), (VIDEO6_END_FRAME, 0.0)):
+            head.rotation_euler = (angle, 0.0, 0.0)
+            head.keyframe_insert(data_path="rotation_euler", frame=frame,
+                                 group="Video6 Head Performance")
+
+    # Fists close during the double-biceps hold and soften on release.
+    for side in ("L", "R"):
+        for digit in ("thumb", "index", "middle", "ring", "pinky"):
+            proximal = rig.pose.bones.get(f"{digit}_01.{side}")
+            distal = rig.pose.bones.get(f"{digit}_02.{side}")
+            if proximal is None or distal is None:
+                continue
+            proximal.rotation_mode = 'XYZ'
+            distal.rotation_mode = 'XYZ'
+            for frame, curl in ((216, 0.08), (264, 0.10), (282, 0.42),
+                                (324, 0.44), (348, 0.20), (360, 0.18)):
+                proximal.rotation_euler = (curl, 0.0, 0.0)
+                distal.rotation_euler = (curl * 0.72, 0.0, 0.0)
+                proximal.keyframe_insert(data_path="rotation_euler", frame=frame,
+                                         group="Video6 Finger Curl")
+                distal.keyframe_insert(data_path="rotation_euler", frame=frame,
+                                       group="Video6 Finger Curl")
+
+    rig_anim.action = None
+    rig_track = rig_anim.nla_tracks.new()
+    rig_track.name = "03_VIDEO6_RIG_STATE — root and IK mode"
+    rig_strip = rig_track.strips.new(
+        "VIDEO6 — reset to frontal stance", VIDEO6_START_FRAME, rig_action)
+    rig_strip.blend_type = 'REPLACE'
+    rig_strip.extrapolation = 'HOLD_FORWARD'
+    rig_strip.influence = 1.0
+
+    helper_anim = driver_object.animation_data_create()
+    helper_action = bpy.data.actions.new("VIDEO6_POSE — hand targets and elbow poles")
+    helper_anim.action = helper_action
+    for frame, hand_l, hand_r, pole_l, pole_r in pose_keys:
+        values = {
+            "hand_L_x": hand_l[0], "hand_L_y": hand_l[1], "hand_L_z": hand_l[2],
+            "hand_R_x": hand_r[0], "hand_R_y": hand_r[1], "hand_R_z": hand_r[2],
+            "pole_L_x": pole_l[0], "pole_L_y": pole_l[1], "pole_L_z": pole_l[2],
+            "pole_R_x": pole_r[0], "pole_R_y": pole_r[1], "pole_R_z": pole_r[2],
+        }
+        for property_name, value in values.items():
+            driver_object[property_name] = value
+            driver_object.keyframe_insert(
+                data_path=f'["{property_name}"]', frame=frame,
+                group="Video6 Hand and Elbow Targets")
+
+    helper_anim.action = None
+    helper_track = helper_anim.nla_tracks.new()
+    helper_track.name = "VIDEO6_POSE — reference matched hand targets"
+    helper_strip = helper_track.strips.new(
+        "VIDEO6 — arms rise, double biceps, open", VIDEO6_START_FRAME, helper_action)
+    helper_strip.blend_type = 'REPLACE'
+    helper_strip.extrapolation = 'HOLD_FORWARD'
+    helper_strip.influence = 1.0
+
+    video_camera = bpy.data.objects.get("CAM_Video6")
+    if video_camera is not None:
+        marker = scene.timeline_markers.new(
+            "VIDEO6 — front bodybuilding pose", frame=VIDEO6_START_FRAME)
+        marker.camera = video_camera
+
+    scene.frame_end = VIDEO6_END_FRAME
+    for frame, label in (
+        (216, "VIDEO6 — neutral stance"),
+        (264, "VIDEO6 — arms wide"),
+        (282, "VIDEO6 — double biceps"),
+        (324, "VIDEO6 — flex hold"),
+        (348, "VIDEO6 — open and release"),
+        (360, "VIDEO6 — end pose"),
+    ):
+        scene.timeline_markers.new(label, frame=frame)
+
+
 def configure_render():
     scene = bpy.context.scene
     try:
@@ -844,9 +1140,16 @@ def save_and_render():
     blend_path = os.path.join(base_dir, PROJECT_NAME + ".blend")
     bpy.ops.wm.save_as_mainfile(filepath=blend_path)
     if RENDER_PREVIEWS:
-        for frame, filename in ((1, "growth_stage_00_rest.png"),
-                                (108, "growth_stage_03_full.png"),
-                                (RUN_CYCLE_END, "run_away_retreat_endpoint.png")):
+        for frame, filename in (
+            (1, "growth_stage_00_rest.png"),
+            (108, "growth_stage_03_full.png"),
+            (RUN_CYCLE_END, "run_away_retreat_endpoint.png"),
+            (VIDEO6_START_FRAME, "video6_pose_00_neutral.png"),
+            (264, "video6_pose_01_arms_wide.png"),
+            (282, "video6_pose_02_double_biceps.png"),
+            (324, "video6_pose_03_flex_hold.png"),
+            (360, "video6_pose_04_release.png"),
+        ):
             scene.frame_set(frame)
             scene.render.filepath = os.path.join(render_dir, filename)
             bpy.ops.render.render(write_still=True)
@@ -862,6 +1165,7 @@ def main():
     build_environment()
     animate_growth(rig)
     animate_run_away(rig)
+    build_video6_pose_action(rig)
     configure_render()
     bpy.context.scene.frame_set(1)
     save_and_render()

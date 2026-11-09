@@ -16,3 +16,17 @@ Character continuity is measured across face and head, neck and shoulders, heigh
 The current Gold's on 5th production, with Marcus as its working fictional subject name, is a production incarnation of the Teal Titan concept. The production brief remains a separate project specification; it does not replace the source sequence or the character's wider lineage.
 
 See `TEAL_TITAN_LINEAGE.json` for the machine-readable source sequence and evidence boundaries.
+
+
+## Theme song and Stage 4 designation
+
+The user designates the following YouTube track as the Teal Titan's theme song, with the alternate character/sequence title **“Joey at Stage 4 Muscle Bwomph Growth”**:
+
+- [The Teal Titan — YouTube](https://www.youtube.com/watch?v=PJuBIuQeZ2M)
+- Playlist: [user-supplied sequence, index 91](https://www.youtube.com/watch?v=PJuBIuQeZ2M&list=PLjPx8lSKXSwDHG3Y_jsx8XRC5XNTp-rUJ&index=91)
+
+This is a user-designated musical association in the fictional character's canon. The track's audio has not been independently inspected here; retain the supplied link as the authoritative reference and do not invent musical characteristics.
+
+A six-second video was also supplied in this conversation as a visual reference for the Stage 4 / “Muscle Bwomph Growth” designation. It depicts a monumental blue-green, heavily muscled adult figure in gray shorts, standing and posing in a warmly lit gym. The file contains H.264 video at 448 × 672, 24 fps, AAC stereo audio at 48 kHz, and an MJPEG poster stream. Duration: 6.041667 seconds. SHA-256: `15b1d4332993bed2b4c88d35429a079dd6b7023e4a4fb612a95e2333fd98bbde`. This is a conversation-supplied reference, not yet archived in Dropbox or the repository. Its presence does not verify that the audio is the linked YouTube track.
+
+The Stage 4 label is retained as the user's creative designation. It does not replace the six-stage production timeline; it identifies the character moment/association the user wants emphasized.

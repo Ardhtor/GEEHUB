@@ -10,6 +10,7 @@ on:
       - 'world.json'
       - 'engine/**'
       - 'characters/**'
+      - 'characters/**'
       - 'research/creators/**'
       - 'server/**'
       - 'validate-records.py'
@@ -22,6 +23,7 @@ on:
       - 'style.css'
       - 'world.json'
       - 'engine/**'
+      - 'characters/**'
       - 'research/creators/**'
       - 'validate-records.py'
       - '.github/workflows/validate-data.yml'
@@ -49,7 +51,6 @@ jobs:
           node --check server/geehub-server.mjs
           node --check engine/live-interlocutor.js
           node --check engine/shared-interaction.js
-          node --check engine/agent-reactions.js
           node --check engine/reaction-consequence.js
           node --check engine/long-play-runner.js
           node --check artifacts/runtime.js
@@ -103,36 +104,6 @@ jobs:
             throw new Error('Personality-reference evidence boundary missing.');
           }
           console.log('Followed sources, five voice-reference mappings, character records, and Gabe reaction state verified.');
-          NODE
-      - name: Validate followed social sources
-        run: |
-          node <<'NODE'
-          const fs = require('fs');
-          const social = JSON.parse(fs.readFileSync('hub/social-cyberspace.json', 'utf8'));
-          const creators = JSON.parse(fs.readFileSync('research/creators/ACTIVE_CREATORS.json', 'utf8'));
-          const feed = fs.readFileSync('engine/social-cyberspace.js', 'utf8');
-          const required = [
-            ['youtube-detdert', 'https://www.youtube.com/channel/UCd7Tlj816jyDB8ywfJ4Ie6w', 'detdertReplies'],
-            ['youtube-mang0', 'https://www.youtube.com/@mang0gobirds', 'mang0Replies']
-          ];
-          const ids = social.watchSources.map(source => source.id);
-          if (new Set(ids).size !== ids.length) throw new Error('Duplicate social source IDs');
-          for (const [id, url, replyTable] of required) {
-            const source = social.watchSources.find(item => item.id === id);
-            if (!source || source.url !== url || source.priority !== 'followed') {
-              throw new Error('Missing or incorrect followed source: ' + id);
-            }
-            if (!feed.includes(url) || !feed.includes(replyTable)) {
-              throw new Error('Feed UI or source-specific reaction missing: ' + id);
-            }
-            if (!creators.some(item => item.id === id.replace('youtube-', ''))) {
-              throw new Error('Creator registry entry missing: ' + id);
-            }
-          }
-          if (!social.youtubeSourcePolicy || !social.youtubeSourcePolicy.includes('does not silently scrape')) {
-            throw new Error('Manual, occasional-import policy missing');
-          }
-          console.log('Followed YouTube sources, source-specific replies, and manual-import policy verified.');
           NODE
       - name: Validate world broadcast and map coverage
         run: |

@@ -770,3 +770,16 @@ This is a form of trust that does not demand performance. It grows through repea
 **THE READY CHAIR = AVAILABLE PLACE − CLAIM OF OWNERSHIP.**
 
 The law is not that someone will always come back. The law is that leaving does not cancel the welcome, and returning does not create a debt. A room can witness a person's presence without claiming the person as its own.
+
+
+## XXX. THE LAW OF REPAIR WITHOUT CLAIM
+
+An object can be cared for without being claimed by the person who repairs it.
+
+On the Cabin's fourth day, Brograntimax notices that the stove-side chair has begun to loosen. He repairs the joint with a wooden peg and leaves the chair in its familiar place. He does not reserve it for Privathor, demand thanks, or turn the repair into a promise. The chair becomes more dependable and remains available to everyone.
+
+The distinction is important. The ready chair preserves welcome; the repair preserves use. Neither creates ownership. Maintenance is not a way to bind a visitor to a household. It is the work that allows a shared place to remain hospitable after the visitor has gone.
+
+**REPAIR WITHOUT CLAIM = CARE + CONTINUED USE − OWNERSHIP.**
+
+The chair is repaired, not reserved. The house is kept, not possessed. A useful world is sustained by people who notice what is loosening and quietly make it sound again.

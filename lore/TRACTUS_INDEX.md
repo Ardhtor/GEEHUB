@@ -130,3 +130,12 @@ The paired growth branch is source-backed at `lore/SETH_AND_NICK_GROWTH_PAIR.md`
 
 Seth's interruption is a recurring narrative behavior: he may enter a scene already underway, identify a concrete weakness, and redirect the next test. The portrayal is fictionalized for GEEHUB and is not a transcript or a claim about the real person's words. The branch develops the established Beefythiq biography material and cross-references the Geatish/Heorot setting. Its Flesh Dynamics concept remains a developing Tractus system rather than a separate implemented 3D engine.
 
+
+
+## The Cabin — The Jar of Almost-Names
+
+The Cabin is now an addressable place at `worlds/cabin/README.md`, distinct from Cedar House. Its chronicle, [The Jar of Almost-Names](../worlds/cabin/LEXOR_AND_THE_BLACK_PEBBLE.md), preserves two scenes in chronological order: Lexor's arrival on the first evening, then the next morning and the day that follows. Lexor's source-grounded character record is `characters/records/LEXOR.md`.
+
+The jar remains on the mantel between the crow and Privathor's brass key. The floating black pebble, the pantry machine's records, the porch lantern, the ducks, and BORKUFT's wooden button are retained as material details. Lexor keeps names almost given and withdrawn; he once gave a name he believed should never have been given, then tried to take it back. The identity of that name, what was named, and the jar's function remain unresolved. Herbarius calls it a held breath, which is preserved as his interpretation rather than a confirmed explanation.
+
+The chapter's central continuity is modest and consequential: Lexor leaves because he is free to leave; Privathor stays through the following day; Brograntimax begins making room without demanding disclosure. The Cabin does not turn privacy into a puzzle to be solved. It provides a place where an unfinished sentence can remain unfinished.

@@ -49,3 +49,14 @@ A stage advances only when its deliverable exists. Record dated changes below ea
 ## Change log
 
 - 2026-11-07 — Established the persistent asset register and added the Giant Joey visual-sheet / modular-model specification. Source reference remains unverified in the current workspace.
+
+
+## Curated visual source shelf — Gravesbeef DeviantArt Favourites
+
+**Source:** [Gravesbeef favourites](https://www.deviantart.com/gravesbeef/favourites)  
+**Priority:** user-designated seminal reference source.  
+**Production status:** page-level access returned 403 on 2026-11-09; individual items have not yet been inspected or catalogued.  
+**Interpretation:** treat the collection as a user-curated atlas of visual interests and influences. Do not infer its contents from unrelated search results.  
+**Use:** when items become accessible, catalogue original artist/title/URL, visible attributes, stated medium, and reuse restrictions. Separate source artwork from user interpretation and GEEHUB production proposals.  
+**Connected branches:** Luke and the Teal Titan; Veyrthalis growth mythology; Dad Convent scale and architecture; Northgate body culture; Tractus gods and transformations.  
+**Detailed record:** `research/DEVIANTART_FAVOURITES_SOURCE.md`.

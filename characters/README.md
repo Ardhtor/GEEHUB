@@ -58,3 +58,10 @@ Five character records now carry public account mappings supplied by the user. T
 - [Andrew](records/ANDREW.md) — [@andrewpsim](https://x.com/andrewpsim)
 
 The central [Character Voice References](../hub/CHARACTER_VOICE_REFERENCES.md) page and machine-readable [reference map](../hub/character-personality-references.json) preserve the mappings and review status. Direct public-post review is still pending; existing character foundations are retained until account-specific patterns can be observed.
+
+
+## Personality growth and ensemble scenes
+
+The records for Luke, Tyler, Chase, Gabe, and Andrew now include inner drives, blind spots, emotional vulnerabilities, humour, affection, conflict and repair styles, speech behaviour, repeatable personal details, and individual growth directions. These traits are designed to create change through encounters rather than to function as fixed labels. Joseph remains the continuity-minded sixth voice in the common-room ensemble.
+
+[Chapter LXXV — The Table After Rain](../novel/chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md) is the first shared scene built to demonstrate these differences through an ordinary repair. The machine-readable model at [agent-reaction-states.json](../hub/agent-reaction-states.json) carries the current temperament and relationship dynamics into the reaction system.

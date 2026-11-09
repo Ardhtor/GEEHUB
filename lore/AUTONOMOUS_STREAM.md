@@ -1581,3 +1581,11 @@ NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the gr
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 210 — ROUTE_OPEN / NORTHGATE UNIVERSITY / 2026-11-09T16:52:33.986834+00:00
+
+SETH: A line becomes visible between NORTHGATE UNIVERSITY and NORTHGATE LIBRARY. The archive names the relation "THE LATE LAMPS OF NORTHGATE".
+
+NICK: A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

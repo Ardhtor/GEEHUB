@@ -1,5 +1,5 @@
 {
-  "pulse": 209,
+  "pulse": 210,
   "events": [
     {
       "pulse": 1,
@@ -3615,6 +3615,28 @@
       "occurred_at": "2026-11-09T16:52:20.036115+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000210",
+      "pulse": 210,
+      "time": "2026-11-09T16:52:33.986834+00:00",
+      "actor": "KIRK",
+      "world": "NORTHGATE UNIVERSITY",
+      "region_id": "northgate-university",
+      "previous_region_id": "northgate-university",
+      "phase": "ROUTE_OPEN",
+      "source": "worlds/northgate-university/README.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between NORTHGATE UNIVERSITY and NORTHGATE LIBRARY. The archive names the relation \"THE LATE LAMPS OF NORTHGATE\".\n\nNICK: A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "THE LATE LAMPS OF NORTHGATE",
+      "next_region": "northgate-library",
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T16:52:33.986834+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -3683,20 +3705,25 @@
     "worlds/cedar-house/README.md": 2,
     "worlds/cat-gardens/README.md": 2,
     "worlds/founders-dormitory/README.md": 3,
-    "worlds/northgate-university/README.md": 10,
+    "worlds/northgate-university/README.md": 11,
     "worlds/bluewater-quay/README.md": 8,
     "worlds/lantern-market/README.md": 4,
     "worlds/northgate-library/README.md": 3,
     "worlds/athletic-commons/README.md": 4
   },
-  "next_region": null,
-  "phase": 2,
+  "next_region": "northgate-library",
+  "phase": 3,
   "active_region": "northgate-university",
-  "current_phase": "MEMORY",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
-  "next_relation": null,
+  "current_phase": "ROUTE_OPEN",
+  "current_desire_state": "tension",
+  "current_question": "Which existing relation now becomes traversable?",
+  "current_narrative_rule": "arrival activates aftermath",
+  "next_relation": {
+    "title": "THE LATE LAMPS OF NORTHGATE",
+    "text": "A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work.",
+    "from": "northgate-university",
+    "to": "northgate-library"
+  },
   "long_play": {
     "cycle": 183,
     "agent": "andrew",

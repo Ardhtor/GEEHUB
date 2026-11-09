@@ -757,3 +757,16 @@ The household gives the jar a place without making it the centre of every conver
 **THE ALMOST-NAME = NEAR-UTTERANCE + WITHDRAWAL + REMAINING TRACE.**
 
 The law is not that every silence conceals a secret waiting to be extracted. It is that restraint can itself have history. Memory may preserve the fact that something was almost said without forcing its completion. A hospitable place can hold the object, keep the path lit, and allow the person who carried it to leave.
+
+
+## XXIX. THE LAW OF THE READY CHAIR
+
+A place can remain available without making a claim on the person who uses it.
+
+The Cabin's stove-side chair is left ready for Privathor. He may arrive, sit, leave before first light, and return after the midday meal. None of these movements is treated as a promise owed to the household. The folded blanket and rinsed cup are evidence of a visit, not proof that he must stay. The chair remains useful whether it is occupied or empty.
+
+This is a form of trust that does not demand performance. It grows through repeated, ordinary acts: a place kept clear, a cup set out, a door left unlatched, a greeting that does not require an explanation. The person is not made responsible for the house's hope that he will return. The house simply remains hospitable.
+
+**THE READY CHAIR = AVAILABLE PLACE − CLAIM OF OWNERSHIP.**
+
+The law is not that someone will always come back. The law is that leaving does not cancel the welcome, and returning does not create a debt. A room can witness a person's presence without claiming the person as its own.

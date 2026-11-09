@@ -54,116 +54,6 @@
       "last_written_at": null
     },
     {
-      "thread_id": "northgate-campus",
-      "last_retrieved_at": null,
-      "next_due_at": "2026-11-09T00:00:00Z",
-      "interval_days": 1,
-      "successful_recalls": 0,
-      "last_recall_score": null,
-      "last_revision_id": null,
-      "status": "open",
-      "interval_ladder": [
-        1,
-        3,
-        7,
-        14,
-        30
-      ],
-      "retrieval_attempts": 0,
-      "retrieval_failures": 0,
-      "needs_repair": false,
-      "last_retrieval": null,
-      "last_written_at": null
-    },
-    {
-      "thread_id": "idol-cycle-and-older-gods",
-      "last_retrieved_at": null,
-      "next_due_at": "2026-11-09T00:00:00Z",
-      "interval_days": 1,
-      "successful_recalls": 0,
-      "last_recall_score": null,
-      "last_revision_id": null,
-      "status": "open",
-      "interval_ladder": [
-        1,
-        3,
-        7,
-        14,
-        30
-      ],
-      "retrieval_attempts": 0,
-      "retrieval_failures": 0,
-      "needs_repair": false,
-      "last_retrieval": null,
-      "last_written_at": null
-    },
-    {
-      "thread_id": "deep-lore-and-institutions",
-      "last_retrieved_at": null,
-      "next_due_at": "2026-11-09T00:00:00Z",
-      "interval_days": 1,
-      "successful_recalls": 0,
-      "last_recall_score": null,
-      "last_revision_id": null,
-      "status": "open",
-      "interval_ladder": [
-        1,
-        3,
-        7,
-        14,
-        30
-      ],
-      "retrieval_attempts": 0,
-      "retrieval_failures": 0,
-      "needs_repair": false,
-      "last_retrieval": null,
-      "last_written_at": null
-    },
-    {
-      "thread_id": "beowulf-and-geatish-company",
-      "last_retrieved_at": null,
-      "next_due_at": "2026-11-09T00:00:00Z",
-      "interval_days": 1,
-      "successful_recalls": 0,
-      "last_recall_score": null,
-      "last_revision_id": null,
-      "status": "open",
-      "interval_ladder": [
-        1,
-        3,
-        7,
-        14,
-        30
-      ],
-      "retrieval_attempts": 0,
-      "retrieval_failures": 0,
-      "needs_repair": false,
-      "last_retrieval": null,
-      "last_written_at": null
-    },
-    {
-      "thread_id": "diabound-kernel",
-      "last_retrieved_at": null,
-      "next_due_at": "2026-11-09T00:00:00Z",
-      "interval_days": 1,
-      "successful_recalls": 0,
-      "last_recall_score": null,
-      "last_revision_id": null,
-      "status": "open",
-      "interval_ladder": [
-        1,
-        3,
-        7,
-        14,
-        30
-      ],
-      "retrieval_attempts": 0,
-      "retrieval_failures": 0,
-      "needs_repair": false,
-      "last_retrieval": null,
-      "last_written_at": null
-    },
-    {
       "thread_id": "cabin-lexor-and-privathor",
       "last_retrieved_at": null,
       "next_due_at": "2026-11-09T00:00:00Z",
@@ -185,5 +75,6 @@
       "last_retrieval": null,
       "last_written_at": null
     }
-  ]
+  ],
+  "note": "Initial retrieval set is deliberately limited to three live threads. Add another lane only when it is included in a verified retrieval snapshot."
 }

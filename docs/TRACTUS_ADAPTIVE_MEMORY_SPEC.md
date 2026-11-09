@@ -65,12 +65,11 @@ The system changes interface state, timing, and available actions. Descriptions 
 
 A cue is a timed control signal, not a mood label. Every actionable cue records:
 
-- `cue_id`, `source_id`, `bpm` (30–300 when periodic; null for non-periodic sound);
-- `phase` (`on_beat`, `off_beat`, `break`, `silence`) and `duration_beats`;
+- `cue_id`, `source_id`, and `bpm` (30–300 as the timing reference);
+- `phase`: `on_beat`, `off_beat`, `break`, or `silence`;
 - `target_response`: `step`, `breath`, `turn`, `pause`, `reach`, or `stillness`;
-- `synchrony_mode`: `entrain`, `offset`, `break`, or `free`;
-- `trigger`, `action`, `state_before`, `state_after`;
-- `next_cue_allowed`, and concrete `sonic_residue`.
+- `duration_beats`, `trigger`, `action`, and a `state_change` object with before/after values;
+- optional `silence_beats` and concrete `sonic_residue`.
 
 Use steady isochronous pulses when the scene requires stable synchronization. Use phase shifts, missing beats, or silence when a threshold should interrupt expectation. A cue is rejected if it has no observable action or state consequence. BPM is a design parameter, not a claim that a specific neural response has been measured.
 

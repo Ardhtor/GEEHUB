@@ -23,7 +23,7 @@ class CanonPromotionIntegrationTests(unittest.TestCase):
         digest = hashlib.sha256(self.entity.read_bytes()).hexdigest()
         baseline_event = {"id": "baseline-event", "type": "observation"}
         evidence_event = {"id": "evidence-001", "type": "canon_update", "canon_path": "lore/sample.md", "source_paths": ["lore/sample.md"]}
-        self.activity.write_text(json.dumps(baseline_event) + "\n", encoding="utf-8")
+        self.activity.write_text(json.dumps(baseline_event) + "\n" + json.dumps(evidence_event) + "\n", encoding="utf-8")
         baseline = {
             "canon_version_id": "experiment-001",
             "entity": "lore/sample.md",

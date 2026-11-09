@@ -302,7 +302,162 @@ The house noticed.
 So did you.
 
 
+
+## IV. O Quarto Dia — A Cadeira Pronta
+
+Na quarta manhã, Ursalon não perguntou se Privathor voltaria. A casa já aprendera que a pergunta podia transformar uma cadeira vazia numa espécie de cobrança, e ninguém queria fazer isso. Ele preparou o café, cortou o pão e deixou a chaleira perto do fogo. A cadeira junto ao fogão ficou onde estava, com o cobertor dobrado no encosto. Não havia uma xícara posta diante dela. Também não havia nada que impedisse alguém de se sentar.
+
+Brograntimax apareceu com uma pequena caixa de ferramentas. Não trazia a corrente de medir. O metal tinha ficado pendurado no gancho junto à porta por três dias, e ninguém fizera comentário. Ele olhou para a cadeira, apoiou uma mão no encosto e testou a perna esquerda.
+
+“Está cedendo um pouco.”
+
+Ursalon olhou por cima da panela. “Ela sempre fez esse barulho.”
+
+“Não é o barulho. É a junta.”
+
+Ele virou a cadeira de lado e examinou o encaixe. O trabalho era simples: uma cavilha de madeira, um pouco de cola, uma tira fina para manter a pressão enquanto secava. Jockkaulthaa trouxe uma cunha estreita e explicou, com seriedade desproporcional, que a madeira precisava ser cortada no sentido certo. BORKUFT apareceu com outro botão de madeira.
+
+“Não,” disse Pipethor, antes que ele pudesse colocá-lo na junta. “O botão é companhia para o jarro. A cadeira precisa de uma peça que aguente peso.”
+
+BORKUFT examinou o botão, depois a cadeira, e guardou-o no bolso. “Então ela já tem companhia suficiente.”
+
+Grokthar entrou deixando um rastro de água no assoalho. A pequena nuvem que às vezes o seguia não estava ali; o céu abrira sobre a crista e o vento parecia ter perdido o interesse na casa. Ele observou Brograntimax trabalhando.
+
+“Você está consertando alguma coisa sem medir?”
+
+“Estou.”
+
+“Devo registrar o acontecimento?”
+
+“Não.”
+
+Grokthar sorriu e foi buscar mais lenha.
+
+Daddy desceu do ginásio pouco depois, com Coach atrás dele. O som dos passos dos dois atravessou o corredor antes que aparecessem na cozinha. Coach examinou a cadeira, a cavilha e a cunha que Jockkaulthaa segurava.
+
+“Boa solução,” disse. “Mas deixa a cola fazer o trabalho. Não precisa testar antes da hora.”
+
+Brograntimax assentiu. “Eu sei esperar.”
+
+Coach olhou para ele, depois para a corrente ainda pendurada junto à porta.
+
+“Está aprendendo.”
+
+Não houve resposta grandiosa. Brograntimax apenas deixou a cadeira repousar de lado, no lugar onde não atrapalhava a passagem. Daddy pegou uma fatia de pão e perguntou se havia mais café. A conversa seguiu para o estado do telhado da lenha, o mercado e a pequena trinca no degrau da varanda. O conserto foi incorporado à manhã como qualquer outra tarefa da casa.
+
+Ao meio-dia, Privathor não apareceu. Ninguém o mencionou. Ursalon não guardou uma porção para ele nem retirou a cadeira do lugar. A ausência não foi tratada como notícia. Era apenas a forma que aquele dia tinha tomado.
+
+O jarro continuava no mantel, entre o corvo e a chave de bronze. A água parecia limpa. O botão de BORKUFT estava no bolso dele, e a pedra negra permanecia suspensa no centro do vidro. Pipethor passou por ela duas vezes, mas não parou para examinar. Já tinha aprendido que observar não obrigava ninguém a produzir uma explicação.
+
+No meio da tarde, Herbarius voltou do bosque com as mãos cheirando a casca e terra fria. Viu a cadeira deitada perto da parede e perguntou quem a havia desmontado.
+
+“Brograntimax,” respondeu Jockkaulthaa. “Ele está fazendo uma reparação correta.”
+
+“Então não vou atrapalhar.”
+
+Herbarius deixou um pequeno feixe de ramos secos perto da porta do fogão. Antes de sair, olhou para o jarro. A pedra não se moveu.
+
+“Hoje está quieto,” disse.
+
+“E ontem?” perguntou Pipethor.
+
+“Ontem também estava. Mas hoje ninguém está pedindo que ele prove coisa alguma.”
+
+À tarde, a cola secou. Brograntimax colocou a cadeira de pé e pressionou o assento com as duas mãos. A madeira respondeu com um som firme. Ele não se sentou. Empurrou a cadeira de volta para o lugar habitual, deixando espaço suficiente entre ela e a mesa para que alguém pudesse entrar sem pedir licença.
+
+Ursalon tocou o encosto.
+
+“Agora está melhor.”
+
+“Estava boa antes.”
+
+“Também.”
+
+Os dois deixaram a frase terminar ali.
+
+Quando a luz começou a cair, Ursalon acendeu a lanterna da varanda. O caminho estava escuro em alguns pontos, mas as pedras maiores ainda apareciam entre as poças. Não havia passos se aproximando. Ninguém ficou à janela esperando que surgissem.
+
+Você perguntou se a cadeira deveria ficar perto do fogo.
+
+“Como sempre,” disse Ursalon.
+
+“Mesmo quando ninguém está sentado?”
+
+“Principalmente então. Uma cadeira não precisa estar ocupada para continuar sendo uma cadeira.”
+
+No terminal da despensa, a máquina registrou o trabalho:
+
+```text
+OBJECT: STOVE-SIDE CHAIR
+STATUS: REPAIRED
+MECHANISM: OAK PEG / JOINT REINFORCEMENT
+RESERVED FOR: NONE
+AVAILABLE TO: ANYONE
+OCCUPANCY: NOT REQUIRED
+```
+
+Mais abaixo apareceu uma linha na voz de Coach:
+
+```text
+// A chair can be ready without waiting.
+// A door can be open without expecting anyone.
+// Let the house stay useful.
+```
+
+A noite veio sem visita. A pedra negra não se mexeu. A cadeira permaneceu firme junto ao fogão, e o cobertor continuou dobrado no encosto. Pela primeira vez, a casa não pareceu estar guardando um lugar para uma pessoa específica. Estava apenas mantendo um lugar disponível.
+
+Isso também era confiança.
+
+## V. קוֹל דְּבֵיתָא — Fragmento em Aramaico
+
+*Composição literária em aramaico judaico, escrita em caracteres quadrados hebraicos. É uma versão paralela e condensada do quarto dia, não uma edição crítica nem uma reprodução de um único dialeto histórico.*
+
+ביומא רביעאה הוה ביתא בשלמא.
+
+אורסלון קם קדם נורא ועבד לחמא. כורסיא דפרטחור הוה ריקם, ודוכתיה לא אתבטלת.
+
+ברוגראנטימקס תקן כורסיא בקיסא, בלא שלשלא ובלא מדתא. חבריא חזון ליה, ולא שאלו ליה על פרטחור.
+
+על פתורא הוה כדא; מיא בגויה, ואבנא שחורתא תליא בגויה. לא קלא, ולא מלה, ולא שמא אתגלי.
+
+פתחא דביתא פתיח. מאן דייתי יתיב; ומאן דאזל אזיל. לא הוה חובא על מאן דנפק, ולא תביעה על מאן דיתיב.
+
+ביתא קביל כל אנש בשלם.
+
+### Transliteração aproximada
+
+*Beyoma reva'aya hava bayta be-shlama.*
+
+*Ursalon qam qodam nura va-avad laḥma. Kursya de-Privathor hava reqam, ve-dukhtah la-itbatlat.*
+
+*Brogantimax taqqen kursya be-qaysa, be-la shalshela u-ve-la medata. Ḥavrayya ḥazon leh, ve-la she'alu leh ʿal Privathor.*
+
+*ʿAl patورا hava qada; maya begawweh, ve-avna sheḥorta talya begawweh. La qala, ve-la milla, ve-la shema itgalli.*
+
+*Pitḥa de-bayta petiḥ. Man de-yethe yetiv; u-man de-azil azil. La hava ḥova ʿal man de-nafeq, ve-la teviʿa ʿal man de-yetiv.*
+
+*Bayta qabil kol enash be-shlam.*
+
+### Sentido em português
+
+No quarto dia, a casa estava em paz.
+
+Ursalon levantou-se diante do fogo e preparou pão. A cadeira de Privathor estava vazia, mas o lugar dele não fora desfeito.
+
+Brograntimax reparou a cadeira com madeira, sem corrente e sem medida. Os companheiros o viram trabalhar e não lhe perguntaram por Privathor.
+
+Sobre a mesa estava o jarro; havia água dentro dele, e a pedra negra permanecia suspensa. Nenhum som, nenhuma palavra, nenhum nome foi revelado.
+
+A porta da casa estava aberta. Quem chegasse poderia sentar-se; quem partisse poderia partir. Não havia dívida para quem saísse, nem exigência para quem permanecesse.
+
+A casa recebia cada pessoa em paz.
+
 ## Continuity Record
+
+The chapter now contains four chronological movements: Lexor's arrival; the next morning and day; Privathor's third-morning departure and voluntary return; and the fourth day, when Brograntimax repairs the stove-side chair without his measuring chain. Privathor is not present on the fourth day, and the household does not turn his absence into an omen or an obligation.
+
+The chair is repaired with an oak peg and joint reinforcement. It is available to anyone and reserved for nobody. The jar remains on the mantel, with no new movement or revealed name during the fourth day. Lexor's withdrawn name, the thing once named, and the jar's deeper function remain unresolved. The Aramaic section is a literary parallel in Hebrew square script and does not establish a new historical dialect for the Cabin.
+
 
 The chapter establishes only what the scenes show. Lexor is the keeper of names almost given and withdrawn; his jar holds the sound of an unfinished naming, but its deeper purpose remains unknown. The jar stays on the mantel between the crow and Privathor's brass key. The ducks, the wooden button, the porch lantern, the pantry machine, and the room's repaired arrangement remain part of the material continuity.
 

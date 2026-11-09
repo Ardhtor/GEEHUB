@@ -81,3 +81,8 @@ Next scenes should test these traits in less orderly circumstances: Luke must ac
 ## The Hotel at the Edge of the Week
 
 [The Hotel at the Edge of the Week — Book I: The Sevenfold Guest](THE_HOTEL_AT_THE_EDGE_OF_THE_WEEK.md) establishes the Grand Meridian as an enclosed all-male hotel in which Monday through Sunday recur. The guests and staff are men. Ordinary episodic memory resets at the weekly boundary, while metaxic residue persists through reflections, thresholds, dreams, sounds, altered objects, repeated phrases, and impossible recognition. Luke, Tyler, Chase, Gabe, Andrew, and Joseph begin to compare these traces without assuming that any one interpretation is correct. The seventh door, the seventh man in Chase's photograph, the blue-marked baseball, and Joseph's note remain unresolved. The novel is active development; its first book is not complete.
+
+
+## Grand Meridian — Joey's true role and the weekly sentence
+
+The hotel novel now includes [The Director of Standards](THE_DIRECTOR_OF_STANDARDS.md), with a fictionalized Stanley Tucci as the sole *Devil Wears Prada* carryover, and [The Last Checkout](THE_LAST_CHECKOUT.md), which establishes Joey as the devilish authority behind the repeating week. Joey deliberately restrains the men's perception: he appears ordinary-sized under direct observation but can reveal his actual thirty-foot Stage Four Teal Titan form at will. The loop is his sentence, sustained by his manipulation and by the men's repeated denial of his true scale and their own fictional crimes. The finale confronts both sides of responsibility. See [Joey's character record](../characters/records/JOEY.md) and [Grand Meridian Continuity Atlas](THE_GRAND_MERIDIAN_CONTINUITY_ATLAS.md).

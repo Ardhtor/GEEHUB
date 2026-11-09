@@ -112,7 +112,7 @@ test("rejects non-binary masks, changed dimensions, and discontinuous frame orde
 
 test("reports insufficient coverage instead of inventing a mesh for an over-resolved grid", () => {
   const result = buildStableMaskMesh([frame(0), frame(1)], {
-    columns: 64, rows: 64, minTriangles: 1
+    columns: 64, rows: 64, minTriangles: 600
   });
   assert.equal(result.status, "insufficient-coverage");
   assert.equal(result.topologyStable, false);

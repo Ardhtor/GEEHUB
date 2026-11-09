@@ -1733,3 +1733,11 @@ NICK: A detail returns in CAT GARDENS: Another cat crosses the path and chooses 
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cat-gardens/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 229 — ATMOSPHERE / CEDAR HOUSE / 2026-11-09T17:51:04.091164+00:00
+
+SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

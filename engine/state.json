@@ -1,5 +1,5 @@
 {
-  "pulse": 228,
+  "pulse": 229,
   "events": [
     {
       "pulse": 1,
@@ -4033,6 +4033,28 @@
       "occurred_at": "2026-11-09T17:47:28.974082+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000229",
+      "pulse": 229,
+      "time": "2026-11-09T17:51:04.091164+00:00",
+      "actor": "LUKE",
+      "world": "CEDAR HOUSE",
+      "region_id": "cedar-house",
+      "previous_region_id": "cedar-house",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/cedar-house/README.md",
+      "desire_state": "attention",
+      "action": "SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T17:51:04.091164+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -4083,7 +4105,7 @@
     "northgate-library": 211,
     "athletic-commons": 193
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -4098,7 +4120,7 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 11,
     "worlds/common-table/README.md": 8,
-    "worlds/cedar-house/README.md": 6,
+    "worlds/cedar-house/README.md": 7,
     "worlds/cat-gardens/README.md": 8,
     "worlds/founders-dormitory/README.md": 3,
     "worlds/northgate-university/README.md": 11,
@@ -4108,12 +4130,12 @@
     "worlds/athletic-commons/README.md": 4
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "cedar-house",
-  "current_phase": "LONG_PLAY_CROSSING",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 186,

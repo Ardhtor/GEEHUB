@@ -168,3 +168,7 @@ The document also establishes four fictional access categories for papers: publi
 ## The Fog Week
 
 [The Fog Week](TRACTUS_THE_FOG_WEEK.md) carries the artifact chronicles and men's papers into one connected sequence of events. A failing key ring brings Tomas and Neral into a second shared shift; token eighteen is clarified as communal; Rovan's bridge report redirects a supply journey; Pel and Aven test the Moon Temple bell amendment; Orven's observation method changes a trainee's record; the silk repair is worn at Hrothgar supper; the Cabin letter is protected without being opened; and Dan Roman's map alters the repair yard's cart design. The closing register keeps each consequence active rather than declaring the week resolved. The chapters are linked through documents, objects, routes, and ordinary decisions, with unresolved work carried forward into later writing.
+
+## Tractus Particles
+
+[Tractus Particles](TRACTUS_PARTICLES.md) is a collection of compact, independently readable continuity fragments: a key loop, a warm bowl, a laundry token, a delayed bell, a sharpened pencil, a curled report, a cart's narrow turn, an unopened letter, and other small events. Each particle is brief enough to encounter on its own, while recurring people and objects connect it to the larger chronicles. Particles can later expand into scenes, papers, maps, voices, or interactive artifacts without discarding their original state.

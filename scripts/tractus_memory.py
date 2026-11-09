@@ -83,7 +83,7 @@ def advance_thread(
         "last_recall_score": round(recall_score, 3),
         "last_retrieval": {
             "score": round(recall_score, 3),
-            "result": "success" if recall_score >= 0.8 else "needs_repair",
+            "result": "success" if recall_score >= 0.5 else "needs_repair",
         },
     })
     return result

@@ -92,3 +92,7 @@ The canonical implementation rules are in [docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md]
 A retrieval happens before the writer opens the source corpus. Phase A reads only the prior retrieval snapshot and due schedule. Phase B then opens canon and verifies the recall. A meaningful prediction error is required for a canon update; a no-surprise pass may record retrieval and advance the spaced schedule but cannot append narrative canon. The first run is a bootstrap-only snapshot and does not write a chapter.
 
 Narrative retrieval intervals expand through 1, 3, 7, and 21 days. Workflow triggers are merely opportunities to check due state; they do not authorize constant writing. Track last retrieved, successful recall, and last written as separate values.
+
+### Prediction-error vocabulary
+
+Every canon update records a concrete mismatch type (`who`, `where`, `when`, `why`, or `how`) and severity (`low`, `medium`, or `high`). The writer must use these controlled values so the event validator can distinguish a genuine prediction error from a mood label or vague statement of surprise.

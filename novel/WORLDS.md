@@ -2181,3 +2181,11 @@ SETH: Northgate University rises above the reservoir beneath old trees and open 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/northgate-university/README.md. Pressure 0.90; memory 1.00.
+
+## NORTHGATE UNIVERSITY / pulse 242 / MEMORY
+
+NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the grass in loose groups, carrying books, sketch rolls and coffee. Music drifts from a rehearsal room while a group gathers beneath the trees to argue over a design. The campus is busy without being hurried.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.
+
+Source retained: worlds/northgate-university/README.md. Pressure 0.94; memory 1.00.

@@ -71,3 +71,8 @@ The Teal Titan's dedicated production narrative now contains [Chapter IV — The
 The five user-mapped records have been expanded with personal motives, contradictions, vulnerabilities, humour, affection, conflict and repair styles, speech habits, repeatable details, and growth directions. Their public account references remain designated creative sources, not verified accounts of the real people's personalities. The [character reaction model](../hub/agent-reaction-states.json) now carries six distinct temperaments and reciprocal relationship dynamics.
 
 Next scenes should test these traits in less orderly circumstances: Luke must accept help; Tyler must choose between being right and being understood; Chase must ask to be included before the moment has passed; Gabe must refuse a response that would dictate his next baseline; Andrew must stay when nobody wants an activity; Joseph must allow a new account to alter an old memory.
+
+
+## Andrew — baseball and eccentricity
+
+[Chapter LXXVI — The Field Has Its Own Echo](chapters/CHAPTER_LXXVI_THE_FIELD_HAS_ITS_OWN_ECHO.md) establishes Andrew in his baseball environment: a big, muscular Italian player with blue eyes, whose athletic competence coexists with an eccentric system of observations about the sounds and behaviour of the field. The user has established those character facts directly. His position, team, playing level, hometown, accent, and exact measurements remain open. His linked public account remains a separate voice reference, not evidence for these fictional details.

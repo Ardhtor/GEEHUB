@@ -276,3 +276,8 @@ The field is registered in [engine/interlocutive-field.json](engine/interlocutiv
 ## Tractus engine integrity
 
 The adopted [Tractus Engine Specification](docs/TRACTUS_ENGINE_SPEC.md) adds versioned canon validation, a 1/3/7/14/30-day retrieval ladder, tempo-tagged Innervation cue checks, and a `tractus-science` fail-fast test mode. Historical activity records remain valid. The v2 canon-version ledger starts empty rather than fabricating provenance; the first enabled writer run captures unverified baselines as experiments, and autonomous canon additions remain observations until an operator explicitly promotes a reviewed baseline with `scripts/promote_canon_version.py` and existing activity evidence. Run `python engine/check_performance.py tractus-science` to validate the new contracts.
+
+
+## Execution paths
+
+The cross-system implementation map is [GEEHUB Execution Paths](docs/GEEHUB_EXECUTION_PATHS.md). It identifies reusable runtimes, new adapters, tool dependencies, test commands and acceptance gates across Institute events, body continuity, residences, voice, visual production, sound and cross-world passages. The first Institute event adapter is `engine/institute_events.py`; its regression suite is `engine/test_institute_events.py`.

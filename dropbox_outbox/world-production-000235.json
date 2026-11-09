@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000235",
+  "created_at": "2026-11-09T18:52:48.950463+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ROUTE_OPEN / CAT GARDENS / worlds/cat-gardens/README.md",
+  "content": "SETH: A line becomes visible between CAT GARDENS and FOUNDERS DORMITORY. The archive names the relation \"THE DORM GARDEN PATH\".\n\nNICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.",
+  "production_note": "The world resolved its route_open rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 235,
+    "actor": "KIRK",
+    "world": "CAT GARDENS",
+    "region_id": "cat-gardens",
+    "source": "worlds/cat-gardens/README.md",
+    "phase": "ROUTE_OPEN",
+    "relation": "THE DORM GARDEN PATH"
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

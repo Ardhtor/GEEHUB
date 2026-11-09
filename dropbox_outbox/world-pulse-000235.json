@@ -1,0 +1,36 @@
+{
+  "id": "activity-world-pulse-000235",
+  "created_at": "2026-11-09T18:52:48.950463+00:00",
+  "source": "tractus-world-engine",
+  "kind": "activity-event",
+  "title": "CAT GARDENS",
+  "content": "SETH: A line becomes visible between CAT GARDENS and FOUNDERS DORMITORY. The archive names the relation \"THE DORM GARDEN PATH\".\n\nNICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.",
+  "lineage": {
+    "event_id": "world-pulse-000235",
+    "event": {
+      "id": "world-pulse-000235",
+      "pulse": 235,
+      "time": "2026-11-09T18:52:48.950463+00:00",
+      "actor": "KIRK",
+      "world": "CAT GARDENS",
+      "region_id": "cat-gardens",
+      "previous_region_id": "cat-gardens",
+      "phase": "ROUTE_OPEN",
+      "source": "worlds/cat-gardens/README.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between CAT GARDENS and FOUNDERS DORMITORY. The archive names the relation \"THE DORM GARDEN PATH\".\n\nNICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "THE DORM GARDEN PATH",
+      "next_region": "founders-dormitory",
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T18:52:48.950463+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
+    }
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue from this event's changed world state"
+}

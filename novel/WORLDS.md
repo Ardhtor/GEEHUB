@@ -2125,3 +2125,11 @@ NICK: A detail returns in CAT GARDENS: Another cat crosses the path and chooses 
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cat-gardens/README.md.
 
 Source retained: worlds/cat-gardens/README.md. Pressure 0.94; memory 1.00.
+
+## CAT GARDENS / pulse 235 / ROUTE_OPEN
+
+SETH: A line becomes visible between CAT GARDENS and FOUNDERS DORMITORY. The archive names the relation "THE DORM GARDEN PATH".
+
+NICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: worlds/cat-gardens/README.md. Pressure 1.00; memory 1.00.

@@ -388,3 +388,9 @@ Participants: Noah Bell, Adrian Varga, Dan Roman. Location: northgate-university
 A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.
 
 Participants: Marek Ionescu, Elliot Ward, Dan Roman. Location: northgate-library. Recorded: 2026-11-09T18:45:03.455797+00:00.
+
+## THE QUAD BETWEEN LECTURES — cycle 00066
+
+A group of students leaves the engineering lecture hall together. One carries a model under his arm; another is still explaining why the bridge supports need to be moved. They settle beneath the plane trees and the discussion becomes less formal, turning into plans for the afternoon.
+
+Participants: Dan Roman, Marek Ionescu, Elliot Ward. Location: northgate-university. Recorded: 2026-11-09T18:52:49.005940+00:00.

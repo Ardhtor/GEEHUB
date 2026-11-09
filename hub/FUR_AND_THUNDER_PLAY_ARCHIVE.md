@@ -3198,6 +3198,239 @@ Pipethor looked over. "Why?"
 
 Coach grinned from the doorway. "Now that's what I like to hear."
 
+### Chapter 21 — The Next Measure
+
+Daddy's new clothes arrived folded in a long canvas bundle. The tailor had followed the measurements from the market, added room through the shoulders, and reinforced the seams with a second line of stitching. Daddy unfolded the largest shirt on the kitchen table. It was broad enough to cover the back of a chair.
+
+Coach came in carrying coffee. "That's more like it."
+
+"You say that every time."
+
+"Because every time, you get bigger."
+
+Daddy held the shirt against himself. The fit looked promising, though he knew it might not last. He had grown again over the previous few days. His chest had deepened, his shoulders spread farther across his frame, and his arms had become heavier even when relaxed. The muscles of his back gave his posture a new breadth. His legs had thickened with them, leaving him balanced and steady rather than top-heavy. He put the shirt on carefully. The sleeves reached his elbows, and the fabric settled across his chest without straining.
+
+"There," Ursalon said. "A shirt that fits."
+
+Daddy looked down. "For the moment."
+
+"We'll take the moment," Coach said.
+
+The morning's training session was not about lifting the heaviest weight. Coach had set out the equipment they already had: the reinforced rack, the oak platform, the old dumbbells, and the heavy carry beams. He wanted Daddy to learn how the new frame moved through familiar tasks. Brograntimax joined them, partly to train and partly because he wanted to see whether Daddy's strength had changed as quickly as his size.
+
+They began with controlled carries. Daddy lifted one beam, walked the length of the gym, turned, and returned it to the stand. His hands covered more of the wood than before. The weight that had once required concentration now moved with a calm, steady rhythm. Coach watched his footing and asked him to repeat the turn in the other direction.
+
+"Don't just learn how to go forward," Coach said. "Learn how to bring all that mass around without knocking the whole room sideways."
+
+Daddy gave him a look. "I'm not knocking anything over."
+
+A dumbbell rolled off the bench.
+
+Brograntimax picked it up. "The room disagrees."
+
+They laughed. Daddy tried the turn again, more slowly. This time he cleared the bench and returned the beam without disturbing anything. Coach nodded.
+
+"That's it. Strength is useful when you can place it."
+
+Brograntimax took his own turn. His build had continued to develop, though he was still considerably smaller than Daddy. He carried the beam with a show of effort, then set it down and looked toward Daddy.
+
+"I used to think the point was to get as big as possible."
+
+"You still think that?" Daddy asked.
+
+"Some days."
+
+"Nothing wrong with wanting to grow. Just give yourself something to do with it."
+
+Coach leaned against the rack. "That's the whole deal. Build the body, build the judgment to go with it."
+
+After training, Pipethor brought the latest notes from the pantry terminal. He had been tracking the relationship between Daddy's growth and the changes around the cabin. The record was practical rather than ceremonial: clothing sizes, chair dimensions, door clearance, platform condition, and the amount of space needed for ordinary movement. He had added a new column for things that were working well and should not be changed.
+
+"Why keep that column?" Daddy asked.
+
+"Because every time something needs reinforcing, we start talking as if the whole place is failing. It isn't. Some things are working. We should remember those too."
+
+Daddy read the page. The oak chair was holding. The gym platform was stable. The new shirt fit. The widened pantry entrance was still sufficient. The porch remained firm. The old couch had survived the rearrangement, and the human still liked sitting there in the evening.
+
+"Keep that," Daddy said. "I don't want every record to be a list of what needs fixing."
+
+Pipethor added a line.
+
+```text
+DADDY / HOUSEHOLD FIT
+WORKING: oak chair, gym platform, porch, widened pantry
+IN PROGRESS: clothing rotation, upper doorway clearance
+PRESERVE: familiar rooms, shared routines, ordinary use
+```
+
+That afternoon, Daddy spent time with the human on the porch. The chair was wide enough for him now, and the railing had been reinforced where his forearms rested. The trees moved in the wind. Somewhere in the woods, Grokthar was making a low conversation out of distant thunder.
+
+"Coach thinks I should keep training," Daddy said.
+
+"Do you want to?"
+
+"Yes. But I want more than the training room. I like being here. I like cooking, going to the market, helping Ursalon, sitting around with everyone. I don't want my whole life to become a series of measurements."
+
+The human nodded. "Then don't let it."
+
+Daddy looked at his hands. They were larger than they had been when he first arrived, with thick fingers and broad palms. He could feel the weight of his body differently now. He was beginning to understand how much space he occupied, not as a problem but as something he had to move through thoughtfully.
+
+"I think the next change is going to be a big one," he said.
+
+"How can you tell?"
+
+"The same way you can tell a storm is coming. Everything feels like it's making room before it happens."
+
+Coach appeared at the porch door. "You two talking about the next stage?"
+
+"A little," Daddy said.
+
+"Good. I brought the updated training notes."
+
+Daddy looked at him. "You ever take a day off?"
+
+"I wander. That's different."
+
+The three of them stayed outside until the light faded. No one took another measurement. The next stage could wait until morning.
+
+### Chapter 22 — The Cabin's New Scale
+
+The next change came before dawn. Daddy woke when the bed shifted beneath him, not because it was breaking but because his body had grown enough to change how he occupied it. His shoulders were wider, his chest fuller, and his arms had gained another substantial measure of thickness. His back pressed more firmly into the mattress. His legs extended farther down the bed, and when he sat up, the frame gave a long wooden creak.
+
+He remained still for a moment, listening.
+
+The cabin was quiet. The hearth had gone low. A branch scraped gently against the window. He stood, tested his balance, and crossed to the mirror. His reflection looked familiar, but the scale had changed again. The shirt from the market was tight across the upper back. His arms hung heavier at his sides, and his shoulders nearly filled the mirror's width.
+
+"Well," he said quietly. "There it is."
+
+He dressed in the largest shirt he had and went downstairs. Coach was already at the kitchen counter, reading the pantry terminal.
+
+"Morning, Daddy."
+
+"Morning. You knew? "
+
+Coach turned the screen toward him. A new line had appeared overnight.
+
+```text
+DADDY // GROWTH EVENT
+Frame expansion detected.
+Previous clothing fit: exceeded.
+Current room clearance: adequate, with reduced margin.
+Recommended: reassess doorway and gym turning space.
+```
+
+Coach shrugged. "The house noticed."
+
+Daddy poured coffee. "The house needs to mind its business."
+
+"It's a very observant house."
+
+Ursalon came in and looked from the terminal to Daddy. He did not seem alarmed. He walked around him once, checking the shoulder clearance near the pantry entrance.
+
+"We should widen the upper doorway before it becomes inconvenient," he said.
+
+"I can still get through," Daddy replied.
+
+"I know. I'd rather do the work while it's easy."
+
+That was the difference between the cabin and a place that merely tolerated him. No one waited for a problem to become a crisis. They noticed, talked, and made a sensible adjustment. Pipethor marked the doorway for a new frame. Ursalon found the oak pieces left over from the gym platform. Coach went to get his tools, then wandered into the terminal long enough to leave a comment.
+
+```text
+// COACH: Give the big man some clearance. He's got places to be.
+```
+
+The work took most of the morning. They widened the upper doorway and adjusted the trim. Daddy helped hold the frame while Ursalon secured it, then stood back to test the passage. He walked through without turning sideways. It was a small improvement, but he appreciated it.
+
+In the gym, the new scale was more obvious. Daddy's shoulders made the space between the rack and the wall feel narrow. His arms required more room during carries, and his steps had become heavier. Pipethor moved one storage stand and shifted the dumbbells to a lower shelf. Coach checked the platform, then asked Daddy to walk a slow circuit around the room.
+
+"How's that feel?"
+
+"Good. A little tighter on the turn."
+
+"Then we change the turn. The room doesn't get to decide how you move."
+
+Brograntimax joined them. He had been working on controlled strength and had begun to value technique more than the old contests. He watched Daddy complete the circuit, then took the same route.
+
+"I can see why you wanted more space," he said.
+
+"You might need it yourself one day," Daddy replied.
+
+Brograntimax smiled. "I wouldn't mind."
+
+"Then keep working. But don't measure your future against mine."
+
+Coach tapped the side of the rack. "That's the rule. Everybody gets their own line."
+
+They spent the afternoon adjusting the room rather than testing another maximum. The platform was checked, the rack was secured, and the carry beams were moved to a position where Daddy could reach them without twisting. The work was ordinary, but it established a new principle for the cabin: equipment should adapt to the person using it, and the person should not have to prove anything by risking a bad movement.
+
+That evening, the human found Daddy in the kitchen preparing food with Ursalon. His new shirt had been loosened at the collar. He was chopping vegetables with careful, deliberate movements, his broad shoulders moving beneath the fabric.
+
+"You got bigger again," they said.
+
+Daddy looked down at himself. "Seems that way."
+
+"How does it feel?"
+
+"Good. Strange in places. I have to remember how wide I am when I turn around."
+
+The human moved beside him and took over the bowl. Daddy handed them the chopped vegetables.
+
+"I like that you're still doing this," they said.
+
+"Making dinner?"
+
+"All of it. Growing, training, changing the house. But still being here with everybody."
+
+Daddy smiled. "That's the part I don't want to lose."
+
+Coach wandered in, opened a cupboard, and stared at the shelf.
+
+"Who put the mugs up there?"
+
+Ursalon looked over. "You did."
+
+"Well, I can't reach them now."
+
+Daddy laughed. "You're not the one who's growing."
+
+"I can still have a growth spurt."
+
+"Then we'll widen the cupboard for you too," Ursalon said.
+
+Coach took a mug from the lower shelf. "That's hospitality."
+
+Dinner was served at the large table. Daddy sat in the oak chair, BORKUFT beside him, and the others arranged themselves around the room. Grokthar told a story about a storm that had split around a mountain and reunited over the lake. Jockkaulthaa proposed a new arrangement for the mantel. Privathor listened from his usual quiet place. Gigathor made a note about the revised room dimensions, then closed the ledger when he realized no one had asked him to calculate anything.
+
+After the meal, Daddy stood beside the hearth. His size was becoming a feature of the cabin's architecture, but the household had not reorganized itself around him alone. The table remained shared. The kitchen remained busy. The others still came and went. His growth had changed the scale of the place without changing its purpose.
+
+Pipethor's terminal recorded the new state:
+
+```text
+DADDY // CURRENT STATE
+Growth: continuing
+Frame: substantially expanded
+Movement: controlled and adapting
+Clothing: custom rotation required
+Cabin clearance: revised
+Gym: reconfigured for safe use
+Household role: unchanged
+Future direction: open
+```
+
+Coach added a final line.
+
+```text
+// COACH: Next time, let's build ahead of the growth instead of chasing it.
+```
+
+Daddy read it, then looked around the room. He liked the sound of that. Not a finish line, not a ceiling, and not a contest. A future that could be built as it arrived.
+
+### Future development — Daddy
+
+Use the current Fur and Thunder assets as the foundation for Daddy's next stages: the cabin, porch, kitchen, pantry terminal, gym room, oak platform and chair, market, custom canvas clothing, and the existing cast. Do not introduce a new facility or a new supporting cast merely to make the growth feel larger. Let the current locations evolve through practical modifications and recurring use.
+
+Daddy's next trajectory is from a massive, well-balanced adult frame toward a room-scale presence, with architectural consequences developing gradually. Keep his chest, shoulders, arms, back, and legs growing together; retain mobility, body awareness, humor, and the steady, affectionate personality already established. Coach remains a roaming training companion and commentator. Brograntimax provides a peer relationship rather than a rival who must be defeated. Ursalon and the household help the cabin adapt without making Daddy the center of every scene. The human relationship remains warm and grounded. Growth should create new situations, not replace ordinary life.
+
 ### Daddy — continuity record
 
 Daddy is a distinct adult masculine presence in the Fur and Thunder world. His defining qualities are warmth, steadiness, confidence, practical affection, dry humor, and a naturally protective manner that does not override other people's choices. His title is simply Daddy; do not force an additional name or backstory unless one emerges naturally in play.

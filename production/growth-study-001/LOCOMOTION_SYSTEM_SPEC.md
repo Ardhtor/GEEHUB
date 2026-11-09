@@ -1,6 +1,6 @@
 # GEEHUB Growth Study 001 — Locomotion System
 
-Status: V2.3 run-away action authored in the procedural builder. Blender execution and visual gait validation remain pending.
+Status: V2.4 includes IK/FK control foundations and a separate Video6 pose sequence. Blender execution and all pose/gait validation remain pending.
 
 ## Motion requirement
 
@@ -36,3 +36,10 @@ In Blender, open the NLA Editor and locate 02_LOCOMOTION — run away. Mute it t
 ## Current boundary
 
 The script now contains the authored action and NLA-track setup, but Blender has not been run here. Do not call the gait validated or production-ready until the track behavior, axis directions, ground contact, and endpoint render have been checked in Blender.
+
+
+## V2.4 rigging update
+
+The armature now includes a clavicle link between the spine and upper arm. Each arm IK chain is four bones long (hand, forearm, upper arm, clavicle), with a hand target and elbow pole. Each leg IK chain is three bones long (foot, calf, thigh), with a planted-foot target and knee pole. IK influence is driven by the independent `arm_ik` and `leg_ik` properties. The run-away action switches those systems off and uses its existing FK channels; the Video6 pose action restores IK to keep the stance and feet controlled.
+
+The rig also carries separate heel and toe pivot reference controls. These are not yet a complete foot-roll system. Blender's Rigify reference specifies a fuller leg chain including thigh, shin, foot, toe and a heel pivot; the current custom rig is moving toward that structure, but FK/IK snapping and full pivot roll remain next-pass work.

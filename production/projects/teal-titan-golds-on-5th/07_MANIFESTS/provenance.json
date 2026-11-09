@@ -43,6 +43,43 @@
       },
       "verification_status": "metadata-only",
       "notes": "Candidate from existing production manifest; visual identity and relevance unconfirmed."
+    },
+    {
+      "id": "user-designated-teal-titan-theme-song",
+      "role": "character-theme-song",
+      "origin": {
+        "provider": "YouTube",
+        "url": "https://www.youtube.com/watch?v=PJuBIuQeZ2M",
+        "playlist_url": "https://www.youtube.com/watch?v=PJuBIuQeZ2M&list=PLjPx8lSKXSwDHG3Y_jsx8XRC5XNTp-rUJ&index=91",
+        "playlist_index": 91,
+        "title": "The Teal Titan",
+        "alternate_title": "Joey at Stage 4 Muscle Bwomph Growth"
+      },
+      "verification_status": "user-designated-link-audio-not-independently-inspected",
+      "notes": "User explicitly identifies this as Teal Titan's theme song. Do not infer audio content."
+    },
+    {
+      "id": "conversation-stage4-video",
+      "role": "visual-reference",
+      "origin": {
+        "provider": "ChatGPT conversation upload",
+        "filename": "generated_video6.mp4",
+        "sha256": "15b1d4332993bed2b4c88d35429a079dd6b7023e4a4fb612a95e2333fd98bbde",
+        "duration_seconds": 6.041667,
+        "video": {
+          "codec": "H.264",
+          "width": 448,
+          "height": 672,
+          "frame_rate": 24
+        },
+        "audio": {
+          "codec": "AAC",
+          "sample_rate": 48000,
+          "channels": 2
+        }
+      },
+      "verification_status": "opened-sampled-and-hashed-session-file-not-archived",
+      "notes": "User designation: Joey at Stage 4 Muscle Bwomph Growth. Embedded audio is not verified as the linked YouTube theme song."
     }
   ],
   "preservation_policy": "Dropbox is canonical. Never move, rename, overwrite, or mark a candidate as inspected until its media has been opened and its identity verified. Stage a separate SHA-256-verified working copy in 01_SOURCE/."

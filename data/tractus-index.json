@@ -326,7 +326,12 @@
           "type": "references",
           "target": "TRACTUS.DEEP_LORE"
         }
-      ]
+      ],
+      "languages": [
+        "Portuguese",
+        "Aramaic (Hebrew square script; literary adaptation)"
+      ],
+      "state": "Four chronological movements; fourth-day passage written in Portuguese with a parallel Aramaic literary rendering. The jar's function and Lexor's withdrawn name remain unresolved."
     },
     {
       "id": "CABIN.BLACK_PEBBLE_JAR",

@@ -1091,12 +1091,18 @@ def build_video6_pose_action(rig):
     helper_strip.influence = 1.0
 
     video_camera = bpy.data.objects.get("CAM_Video6")
-    if video_camera is not None:
-        marker = scene.timeline_markers.new(
-            "VIDEO6 — front bodybuilding pose", frame=VIDEO6_START_FRAME)
-        marker.camera = video_camera
-
-    scene.frame_end = VIDEO6_END_FRAME
+    video_scene = bpy.data.scenes.new("VIDEO6_POSE_STUDY")
+    # Link the same character, controls, materials, lighting, and set into a
+    # separate scene. Each scene evaluates the shared animation at its own
+    # frame range, so the run-away sequence never teleports into the pose clip.
+    for obj in list(scene.objects):
+        video_scene.collection.objects.link(obj)
+    video_scene.camera = video_camera
+    video_scene.world = scene.world
+    video_scene.frame_start = VIDEO6_START_FRAME
+    video_scene.frame_end = VIDEO6_END_FRAME
+    video_scene["source_reference"] = "Library: generated_video6(1).mp4"
+    video_scene["purpose"] = "isolated frontal pose-reference action; independent of RUN_AWAY"
     for frame, label in (
         (216, "VIDEO6 — neutral stance"),
         (264, "VIDEO6 — arms wide"),
@@ -1105,7 +1111,7 @@ def build_video6_pose_action(rig):
         (348, "VIDEO6 — open and release"),
         (360, "VIDEO6 — end pose"),
     ):
-        scene.timeline_markers.new(label, frame=frame)
+        video_scene.timeline_markers.new(label, frame=frame)
 
 
 def configure_render():
@@ -1124,6 +1130,18 @@ def configure_render():
     scene.render.film_transparent = False
     scene.view_settings.view_transform = 'AgX'
     scene.render.filepath = "//renders/"
+
+    video_scene = bpy.data.scenes.get("VIDEO6_POSE_STUDY")
+    if video_scene is not None:
+        video_scene.render.engine = scene.render.engine
+        video_scene.render.resolution_x = scene.render.resolution_x
+        video_scene.render.resolution_y = scene.render.resolution_y
+        video_scene.render.resolution_percentage = scene.render.resolution_percentage
+        video_scene.render.image_settings.file_format = 'PNG'
+        video_scene.render.image_settings.color_mode = 'RGBA'
+        video_scene.render.film_transparent = scene.render.film_transparent
+        video_scene.view_settings.view_transform = scene.view_settings.view_transform
+        video_scene.render.filepath = "//renders/video6/"
 
 
 def save_and_render():
@@ -1144,15 +1162,26 @@ def save_and_render():
             (1, "growth_stage_00_rest.png"),
             (108, "growth_stage_03_full.png"),
             (RUN_CYCLE_END, "run_away_retreat_endpoint.png"),
-            (VIDEO6_START_FRAME, "video6_pose_00_neutral.png"),
-            (264, "video6_pose_01_arms_wide.png"),
-            (282, "video6_pose_02_double_biceps.png"),
-            (324, "video6_pose_03_flex_hold.png"),
-            (360, "video6_pose_04_release.png"),
         ):
             scene.frame_set(frame)
             scene.render.filepath = os.path.join(render_dir, filename)
-            bpy.ops.render.render(write_still=True)
+            bpy.ops.render.render(write_still=True, scene=scene.name)
+
+        video_scene = bpy.data.scenes.get("VIDEO6_POSE_STUDY")
+        if video_scene is not None:
+            video_render_dir = os.path.join(render_dir, "video6")
+            os.makedirs(video_render_dir, exist_ok=True)
+            for frame, filename in (
+                (VIDEO6_START_FRAME, "video6_pose_00_neutral.png"),
+                (264, "video6_pose_01_arms_wide.png"),
+                (282, "video6_pose_02_double_biceps.png"),
+                (324, "video6_pose_03_flex_hold.png"),
+                (360, "video6_pose_04_release.png"),
+            ):
+                video_scene.frame_set(frame)
+                video_scene.render.filepath = os.path.join(video_render_dir, filename)
+                bpy.ops.render.render(write_still=True, scene=video_scene.name)
+
     scene.frame_set(1)
     scene.render.filepath = os.path.join(render_dir, "")
     bpy.ops.wm.save_as_mainfile(filepath=blend_path)

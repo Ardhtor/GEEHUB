@@ -154,6 +154,8 @@ def call_model(api_key: str, model: str, instructions: str, user_text: str) -> d
 def bootstrap_retrieval(api_key: str, model: str, schedule: dict, dry_run: bool) -> None:
     """Seed the first recall card without producing a narrative/canon update."""
     context = collect_context()
+    scheduled_ids = [item["thread_id"] for item in schedule.get("threads", [])]
+    context = "Scheduled thread IDs: " + json.dumps(scheduled_ids) + "\n\n" + context
     instructions = """
 You are preparing the first retrieval snapshot for The Tractus. This is a
 one-time bootstrap, not a narrative-writing pass. Read the supplied canon and
@@ -164,7 +166,8 @@ expected_next_consequence, and source_paths. Include only facts supported by
 the supplied source. Do not write prose chapters or invent facts.
 
 Return JSON with exactly: retrieval_snapshot (array of three objects),
-source_commit (string), bootstrap_note (string).
+source_commit (string), bootstrap_note (string). The three thread_id values
+must match the supplied scheduled thread IDs exactly.
 """
     result = call_model(api_key, model, instructions, context)
     snapshot = result.get("retrieval_snapshot")
@@ -173,6 +176,10 @@ source_commit (string), bootstrap_note (string).
     for item in snapshot:
         if not isinstance(item, dict) or not item.get("thread_id") or not item.get("open_threads"):
             fail("Bootstrap retrieval snapshot contains an incomplete thread.")
+    expected_ids = set(scheduled_ids)
+    actual_ids = {item.get("thread_id") for item in snapshot if isinstance(item, dict)}
+    if actual_ids != expected_ids:
+        fail("Bootstrap snapshot thread IDs must match the scheduled retrieval threads.")
     state = read_json(RETRIEVAL_STATE_PATH)
     state.update({
         "bootstrap_required": False,
@@ -197,6 +204,9 @@ def blind_retrieve(api_key: str, model: str, schedule: dict, state: dict) -> dic
         print("TRACTUS ENGINE: no retrieval thread is due; no model call or canon write.")
         return None
     due_ids = {item["thread_id"] for item in due}
+    snapshot_ids = {item.get("thread_id") for item in state.get("retrieval_snapshot", [])}
+    if not due_ids.issubset(snapshot_ids):
+        fail("A due thread is missing from the prior retrieval snapshot; bootstrap or repair the snapshot first.")
     instructions = """
 You are in Phase A, blind retrieval. You MUST NOT inspect, request, infer from,
 or reconstruct the current canon. The only memory available is the supplied
@@ -234,6 +244,8 @@ def verify_and_write(
 ) -> None:
     """Open canon only after blind retrieval has completed."""
     context = collect_context()
+    scheduled_ids = [item["thread_id"] for item in schedule.get("threads", [])]
+    context = "Scheduled thread IDs: " + json.dumps(scheduled_ids) + "\n\n" + context
     instructions = """
 You are in Phase B: verify blind retrieval against the supplied current canon.
 The blind retrieval object was produced in a separate prior model call without
@@ -456,9 +468,13 @@ def main() -> None:
         fail("Working tree is not clean; refusing to mix unrelated changes.")
 
     schedule = read_json(SCHEDULE_PATH)
+    expected_ids = set(scheduled_ids)
+    actual_ids = {item.get("thread_id") for item in snapshot if isinstance(item, dict)}
+    if actual_ids != expected_ids:
+        fail("Bootstrap snapshot thread IDs must match the scheduled retrieval threads.")
     state = read_json(RETRIEVAL_STATE_PATH)
     if state.get("bootstrap_required") is True:
-        bootstrap_retrieval(api_key, model, dry_run)
+        bootstrap_retrieval(api_key, model, schedule, dry_run)
         return
 
     retrieval = blind_retrieve(api_key, model, schedule, state)

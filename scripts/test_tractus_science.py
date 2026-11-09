@@ -54,6 +54,9 @@ class TractusScienceTests(unittest.TestCase):
         self.assertEqual(validate_thread(thread), [])
         thread["interval_days"] = 21
         self.assertTrue(any("interval_days" in error for error in validate_thread(thread)))
+        thread["interval_days"] = 30
+        thread["last_written_at"] = "2026-11-09T18:00:00Z"
+        self.assertTrue(any("retrieval block" in error for error in validate_thread(thread)))
 
     def test_writer_requires_retrieval_and_one_addition(self):
         self.assertTrue(validate_writer_output({"canon_additions": [{"id": "a"}]}))
@@ -76,7 +79,7 @@ class TractusScienceTests(unittest.TestCase):
 
     def test_writer_output_rejects_claimed_completion_of_queued_jobs(self):
         output = {"retrieval": {}, "canon_additions": [{"path": "lore/test.md"}],
-                  "jobs": [{"status": "QUEUED", "claimed_completed": True}]}
+                  "jobs": [{"status": "queued", "claimed_completed": True}]}
         self.assertTrue(any("queued media job" in error for error in validate_writer_output(output)))
 
     def test_experiment_promotion_requires_explicit_event(self):

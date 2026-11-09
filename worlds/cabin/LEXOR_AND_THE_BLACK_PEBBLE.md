@@ -410,7 +410,7 @@ Isso também era confiança.
 
 ## V. קוֹל דְּבֵיתָא — Fragmento em Aramaico
 
-*Composição literária em aramaico judaico, escrita em caracteres quadrados hebraicos. É uma versão paralela e condensada do quarto dia, não uma edição crítica nem uma reprodução de um único dialeto histórico.*
+*Adaptação literária em aramaico, escrita em caracteres quadrados hebraicos. É uma versão paralela e condensada do quarto dia, não uma edição crítica nem uma reconstrução de um único dialeto histórico.*
 
 ביומא רביעאה הוה ביתא בשלמא.
 

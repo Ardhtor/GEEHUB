@@ -398,3 +398,157 @@ The route steadied.
 Far below, a door opened onto darkness filled with distant lights. Some lights were familiar. Others had no names. None moved toward the six until they had chosen to look.
 
 The Cyber Black Hole had begun to gather a city. Now it was waiting to see what kind of visitors the city would become.
+
+### Chapter Eleven — The Man from Gold's on 5th
+
+The seventh route opened the following afternoon. It led upward into a bright urban gym. Through the glass frontage, traffic moved along a broad avenue. A sign above the entrance read GOLD'S ON 5TH.
+
+A man stood near the centre of the training floor. His presence seemed to alter the room's proportions. The teal light around him was subtle, more like reflected colour than an effect laid over his body. He wore the confidence of someone accustomed to being watched, but he was not performing for the empty gym. He was studying photographs pinned beside the mirror.
+
+“Marcus,” Luke said, recognising the character record.
+
+The man turned. “You know the name. That isn't the same as knowing the story.”
+
+“Fair enough,” Luke replied.
+
+Marcus showed them six production studies marked Stage 4. Each used a different camera distance or angle. Beside them someone had written: ONE SUBJECT — NO ASSUMED ADVANCEMENT.
+
+“Someone has been careful,” Gabe said.
+
+“Someone learned that a dramatic camera can make a man look changed when the lens is the thing that moved,” Marcus replied. “I want the next set to show what is actually different.”
+
+They compared shoulder width, head scale, stance, clothing tension, and the distance between subject and camera. Marcus rejected one frame because perspective exaggerated the torso. He kept another because body, clothing, and background agreed.
+
+At the end, he placed one photograph face down.
+
+“That one stays unresolved,” he said. “I don't know what it proves yet.”
+
+The Archivist entered. “Then the register will say unresolved.”
+
+Marcus nodded. “Good. I won't have the archive deciding my next stage for me.”
+
+### Chapter Twelve — Dan Roman's Map
+
+Dan Roman arrived through the workshop carrying a folded map and a narrow measuring rod. His coat was damp at the shoulders. He greeted the others with a quiet nod, then laid the map across the workbench. Its paper was marked with streets, service lanes, a river crossing, and small corrections in the margins.
+
+“Your city has been drawing itself without checking the ground,” he said.
+
+Chase moved closer. “What did you find?”
+
+“Three routes that meet on the map but not in the street. One bridge too narrow for the cart. A stairway that ends at a wall.”
+
+Andrew looked toward the door. “That seems like a problem.”
+
+“It is a problem. That's why I brought the map.”
+
+Dan explained that new districts had been joined by visual resemblance rather than tested routes. A warehouse had been placed near the river because two buildings looked similar in separate images. The map had made them neighbours, but the ground between them was soft and uneven. A straight path crossed a drainage channel.
+
+The group went outside. Dan measured while Luke and Andrew tested the ground. Tyler marked the unsafe turn. Gabe recorded distances. Joseph listened for the change in sound where paving gave way to hollow ground. Chase compared each observation with the paper map.
+
+They found the drainage channel exactly where Dan had predicted. The bridge was not unusable, but the cart could not pass with its current load. A detour ran along the old stone wall and reached the warehouse from the north.
+
+Dan drew the detour in pencil.
+
+“Now the map describes a route that exists,” he said.
+
+The Archivist added the corrected path to the register. The first route remained visible as an earlier proposal, crossed through with a date and a reason. It was not erased. It had been useful enough to reveal the error.
+
+Dan folded the map. “A place is not connected because two names sit beside each other. Someone has to be able to get there.”
+
+### Chapter Thirteen — The Shore That Kept Its Name
+
+The next arrivals came from the east, where the city had been growing beyond the river. A delegation crossed the bridge carrying seed boxes, woven bags, and a painted wooden disc. They introduced themselves as Mexiancas. Their land lay beyond the new city, across a broad shore and cultivated ground. They had come to discuss a road that had appeared too close to their gardens.
+
+Mateo walked at the front. He carried a seed card protected inside folded cloth. He greeted the Archivist but addressed the six friends directly.
+
+“We heard the city was connecting everything,” he said. “We came to make sure it did not connect our land by mistake.”
+
+The words were calm. The meaning was not negotiable.
+
+Gabe brought out Dan's corrected map. Mateo studied it, then pointed to a line running along the gardens.
+
+“That road is not ours. It may pass near us. It may not become the name of our shore.”
+
+Chase opened a fresh sheet. “Show us the boundary as you understand it.”
+
+Mateo named the water, the cultivated strip, the old footpath, and the place where the ground changed beneath the trees. Another member of the delegation added a local name missing from the city's map. A third explained that the seed in Mateo's card came from their homeland and was not a sample for the city's collection.
+
+The six listened. They did not rename the shore. They did not take the seed. They revised the road so that it followed the agreed edge and left the gardens under Mexiancas custody.
+
+Later, Mateo showed them the seed card. It recorded the plant's name, the family that had carried it, and the season in which it had been gathered. A second name appeared beside the first, written by a local keeper. Neither name replaced the other.
+
+Joseph noticed the space between them.
+
+“Two names can remain side by side,” he said.
+
+Mateo smiled. “That is why we came.”
+
+The Archivist opened a new address for the shore, with the Mexiancas' own account attached as its primary source. The city gained a neighbour, not an annex.
+
+### Chapter Fourteen — The Covered Lumber Store
+
+The western district was loud with work. A crew had begun building a covered lumber store beside a broad yard. Posts stood in prepared sockets. A base frame had been laid out, and temporary braces held the first upright sections in position. The men worked with the measured concentration of a team that knew the structure was not finished simply because it had begun to stand.
+
+The crew called the place the Dad Convent. The name had travelled ahead of the building and acquired several explanations, none of which the crew considered necessary to settle before the work was done.
+
+Brograntimax stood beside the lumber stack, checking the beam register. He recognised the measuring cord from the workshop and asked Dan to compare the latest dimensions against the yard plan.
+
+Dan did so. One post was slightly out of line. It was not a dramatic failure, but it would have pulled the roof frame away from square if they had continued.
+
+“Hold the brace,” Brograntimax called.
+
+Andrew and Luke steadied the frame while two crew members loosened the fixing. Tyler checked the vertical line. Gabe read out the measurement. Chase marked the correction. Joseph carried the revised figure to the register.
+
+The post was reset. The brace stayed in place.
+
+Nobody called the building complete.
+
+At midday the crew ate at a long table beneath a temporary awning. The food was simple: bread, beans, roasted vegetables, and a large pot of stew. Conversation moved from timber prices to a broken wheel, then to a story about a man who had tried to carry a beam alone and had been persuaded to use a trolley. Andrew laughed hard enough to spill a little water.
+
+Marcus arrived late from Gold's on 5th. He had brought photographs showing the yard from three fixed camera positions. The crew pinned them beside the beam register so later inspections could compare the same corners and joints.
+
+The Archivist watched the records accumulate.
+
+“Every district is teaching the city how to remember,” he said.
+
+Brograntimax closed the register. “Then let it remember that the roof is still unfinished.”
+
+### Chapter Fifteen — The Black Hole Has a Boundary
+
+That evening the six original friends returned to the observatory with Marcus, Dan, Mateo, and Brograntimax. The room was crowded, but nobody had been asked to surrender a chair. A second table had appeared beside the first. The map covered both.
+
+The Cyber Black Hole was visible through the glass floor. Its darkness was no longer a single circle. It had depth and structure: a central well, a slow ring of light, and countless small paths entering from the surrounding districts. Some paths were bright because their sources were well established. Others were dim because they were proposals or incomplete accounts.
+
+At the edge of the ring, one light moved toward the centre and then stopped.
+
+The Archivist enlarged it. A small card appeared, bearing a name and a fragment of an image. No source was attached. No context was recorded.
+
+“Can we bring it in?” Andrew asked.
+
+“We can preserve the fact that it appeared,” the Archivist said. “We cannot pretend to know what it means.”
+
+“Then leave the door open,” Joseph said, “but don't decide who is behind it.”
+
+The card remained at the edge of the ring. Its light did not vanish. It simply waited.
+
+Marcus leaned over the map. “The same rule should apply to the stages. Don't promote a possibility into a fact because the next picture looks impressive.”
+
+Dan pointed to the roads. “And don't connect places until someone checks the route.”
+
+Mateo rested one hand on the seed card. “And don't call a neighbour's land part of your city.”
+
+Brograntimax looked around the room. “And don't call a building finished while the braces are still holding it up.”
+
+The six friends looked at one another. Their first meeting had been strange, almost accidental. Now the city had become a place where others could arrive with their own records, boundaries, and plans. The gathering had grown, but the original six had not become its owners.
+
+Luke placed the unfinished notebook at the centre of the table. Its blank face was still blank. Around it lay the map, the seed card, the beam register, the gym photographs, and the measuring cord.
+
+The black disc gave a low, steady pulse.
+
+The Archivist wrote a new line in the register:
+
+**Convergence does not cancel the boundary. It gives each boundary a place in the whole.**
+
+Below it he left space for the next inscription.
+
+The city continued to grow.

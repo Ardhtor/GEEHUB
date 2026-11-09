@@ -109,6 +109,52 @@
       "destination": "05_EXPORTS/",
       "files": [],
       "notes": "Delivery specification remains in production.json."
+    },
+    {
+      "id": "user-designated-teal-titan-theme-song",
+      "kind": "external-music-reference",
+      "required": false,
+      "status": "user-designated-reference-link",
+      "title": "The Teal Titan",
+      "alternate_title": "Joey at Stage 4 Muscle Bwomph Growth",
+      "url": "https://www.youtube.com/watch?v=PJuBIuQeZ2M",
+      "playlist_url": "https://www.youtube.com/watch?v=PJuBIuQeZ2M&list=PLjPx8lSKXSwDHG3Y_jsx8XRC5XNTp-rUJ&index=91",
+      "playlist_index": 91,
+      "destination": "06_AUDIO/",
+      "verification": [
+        "User explicitly designated this as the character theme song",
+        "Track audio not independently inspected"
+      ],
+      "notes": "Preserve as a user-selected musical association. Do not infer track characteristics or claim the uploaded clip contains this track."
+    },
+    {
+      "id": "conversation-stage4-video",
+      "kind": "visual-reference-video",
+      "required": false,
+      "status": "received-in-conversation-not-archived",
+      "filename": "generated_video6.mp4",
+      "destination": "01_SOURCE/ pending Dropbox archival",
+      "duration_seconds": 6.041667,
+      "video": {
+        "codec": "H.264",
+        "width": 448,
+        "height": 672,
+        "frame_rate": 24
+      },
+      "audio": {
+        "codec": "AAC",
+        "sample_rate": 48000,
+        "channels": 2
+      },
+      "sha256": "15b1d4332993bed2b4c88d35429a079dd6b7023e4a4fb612a95e2333fd98bbde",
+      "user_designation": "Joey at Stage 4 Muscle Bwomph Growth",
+      "verification": [
+        "Video opened and visually sampled",
+        "Technical metadata read",
+        "SHA-256 computed",
+        "Embedded audio not matched to YouTube theme song"
+      ],
+      "notes": "Depicts a monumental blue-green adult bodybuilder posing in a warmly lit gym. Preserve the uploaded file as a separate visual reference; do not substitute it for a Dropbox canonical source."
     }
   ],
   "provenance_rule": "Dropbox is canonical. Never mark source as inspected or output as rendered until the actual media has been opened and verified."

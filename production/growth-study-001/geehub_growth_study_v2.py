@@ -102,10 +102,11 @@ def add_uv_form(name, location, scale, material, bone_name, rig,
     return obj
 
 
-def add_bone(arm_data, name, head, tail, parent=None, connected=False):
+def add_bone(arm_data, name, head, tail, parent=None, connected=False, deform=True):
     bone = arm_data.edit_bones.new(name)
     bone.head = head
     bone.tail = tail
+    bone.use_deform = deform
     if parent:
         bone.parent = arm_data.edit_bones.get(parent)
         bone.use_connect = connected
@@ -132,6 +133,20 @@ def build_rig():
         add_bone(arm_data, f"hand.{side}",
                  (sign * 0.57, 0, 0.98), (sign * 0.60, -0.02, 0.82),
                  f"forearm.{side}", True)
+        # Non-deforming digit controls are staged now; geometry is added in
+        # the dedicated modular hand/foot pass so the fused skin stays stable.
+        for digit, offset, spread in (("thumb", 0.070, 0.060),
+                                      ("index", 0.040, 0.010),
+                                      ("middle", 0.010, 0.000),
+                                      ("ring", -0.020, -0.008),
+                                      ("pinky", -0.048, -0.020)):
+            base = (sign * (0.60 + offset), -0.025, 0.82)
+            mid = (sign * (0.60 + offset + spread * 0.45), -0.035, 0.775)
+            tip = (sign * (0.60 + offset + spread), -0.045, 0.735)
+            add_bone(arm_data, f"{digit}_01.{side}", base, mid,
+                     f"hand.{side}", False, False)
+            add_bone(arm_data, f"{digit}_02.{side}", mid, tip,
+                     f"{digit}_01.{side}", True, False)
         add_bone(arm_data, f"thigh.{side}",
                  (sign * 0.18, 0, 0.88), (sign * 0.22, 0, 0.47), "pelvis")
         add_bone(arm_data, f"calf.{side}",
@@ -140,6 +155,18 @@ def build_rig():
         add_bone(arm_data, f"foot.{side}",
                  (sign * 0.23, 0, 0.10), (sign * 0.23, -0.22, 0.07),
                  f"calf.{side}", True)
+        for digit, offset, length in (("big_toe", -sign * 0.035, 0.105),
+                                      ("toe_02", -sign * 0.010, 0.090),
+                                      ("toe_03", sign * 0.012, 0.082),
+                                      ("toe_04", sign * 0.032, 0.073),
+                                      ("toe_05", sign * 0.052, 0.062)):
+            base = (sign * 0.23 + offset, -0.255, 0.065)
+            mid = (sign * 0.23 + offset, -0.255 - length * 0.55, 0.055)
+            tip = (sign * 0.23 + offset, -0.255 - length, 0.048)
+            add_bone(arm_data, f"{digit}_01.{side}", base, mid,
+                     f"foot.{side}", False, False)
+            add_bone(arm_data, f"{digit}_02.{side}", mid, tip,
+                     f"{digit}_01.{side}", True, False)
     bpy.ops.object.mode_set(mode='OBJECT')
     rig.show_in_front = True
     rig.data.display_type = 'OCTAHEDRAL'
@@ -273,6 +300,21 @@ def build_character(rig):
         v(f"TMP_Foot_{side}", (sign * 0.23, -0.115, 0.075),
           (0.105, 0.22, 0.075))
 
+    # Preserve every named anatomy source as a hidden, replaceable build module.
+    # The visible body is still fused for silhouette continuity; the source kit
+    # remains available for per-region edits and later appendage replacement.
+    source_collection = bpy.data.collections.new("SOURCE_ANATOMY_MODULES — replaceable kit")
+    bpy.context.scene.collection.children.link(source_collection)
+    for source_obj in volumes:
+        module = source_obj.copy()
+        module.data = source_obj.data.copy()
+        module.name = "SRC_" + source_obj.name.replace("TMP_", "")
+        source_collection.objects.link(module)
+        module.hide_render = True
+        module.hide_set(True)
+        module["component_type"] = "replaceable_anatomy_source"
+        module["source_name"] = source_obj.name
+
     set_active(volumes[0])
     for obj in volumes:
         obj.select_set(True)
@@ -295,7 +337,7 @@ def build_character(rig):
     body["construction"] = "overlapping anatomical volumes fused with voxel remesh"
     body["voxel_size"] = BODY_VOXEL_SIZE
     body["weighting"] = "three-nearest-bone inverse-distance blend"
-    body["known_limitations"] = "anatomical blockout only; no corrective shapes, muscle sliding, or skin simulation"
+    body["known_limitations"] = "anatomical blockout only; digit geometry, corrective shapes, muscle sliding, and skin simulation remain pending"
 
     add_uv_form("BODY_HairCap", (0, 0.005, 2.115),
                 (0.158, 0.16, 0.10), hair, "head", rig)
@@ -309,8 +351,9 @@ def build_character(rig):
     trim = make_principled("MAT_Seam — muted steel", (0.10, 0.20, 0.21, 1), 0.48, 0.22)
     add_uv_form("CLOTH_Waistband", (0, -0.018, 0.995),
                 (0.348, 0.235, 0.035), trim, "pelvis", rig)
-    rig["study"] = "001 V2 — continuous surface and blended weights"
-    rig["geometry_mode"] = "voxel_fused_body"
+    rig["study"] = "001 V2.1 — continuous surface, source modules, and appendage controls"
+    rig["appendage_controls"] = "non-deforming finger and toe chains staged for modular geometry pass"
+    rig["geometry_mode"] = "voxel_fused_body_with_hidden_source_modules"
     rig["body_object"] = body.name
 
 

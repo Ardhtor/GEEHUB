@@ -16,17 +16,17 @@ class CanonPromotionIntegrationTests(unittest.TestCase):
         self.root = Path(self.temp.name)
         self.versions = self.root / "engine" / "canon_versions.jsonl"
         self.activity = self.root / "engine" / "activity.jsonl"
-        self.entity = self.root / "lore" / "sample.md"
+        self.entity = self.root / "novel" / "BOOK_I_CONTINUATION_03.md"
         self.entity.parent.mkdir(parents=True)
         self.versions.parent.mkdir(parents=True)
         self.entity.write_text("Reviewed baseline.\n", encoding="utf-8")
         digest = hashlib.sha256(self.entity.read_bytes()).hexdigest()
         baseline_event = {"id": "baseline-event", "type": "observation"}
-        evidence_event = {"id": "evidence-001", "type": "canon_update", "canon_path": "lore/sample.md", "source_paths": ["lore/sample.md"]}
+        evidence_event = {"id": "evidence-001", "type": "canon_update", "canon_path": "novel/BOOK_I_CONTINUATION_03.md", "source_paths": ["novel/BOOK_I_CONTINUATION_03.md"]}
         self.activity.write_text(json.dumps(baseline_event) + "\n" + json.dumps(evidence_event) + "\n", encoding="utf-8")
         baseline = {
             "canon_version_id": "experiment-001",
-            "entity": "lore/sample.md",
+            "entity": "novel/BOOK_I_CONTINUATION_03.md",
             "prior_version_id": None,
             "created_by_event_id": "baseline-event",
             "content_sha256": digest,
@@ -39,7 +39,6 @@ class CanonPromotionIntegrationTests(unittest.TestCase):
             patch.object(promotion, "ROOT", self.root),
             patch.object(promotion, "VERSIONS", self.versions),
             patch.object(promotion, "ACTIVITY", self.activity),
-            patch.object(promotion, "ALLOWED_ENTITIES", {"lore/sample.md"}),
         ]
         for item in self.stack:
             item.start()

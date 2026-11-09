@@ -142,3 +142,35 @@ Five additional images were inspected and assigned bounded reference roles. The 
 ## Batch 3 status
 
 Five additional images were visually inspected and added. The atlas now contains fifteen entries across three batches, out of the 234-file inventory. These images directly informed *The Unplanned Convergence*, Chapters XXXI–XXXIII. References are used as visual evidence and mood sources with identity and provenance boundaries preserved.
+
+
+## Batch 4 — setting, growth, and social reference images
+
+### GLA-016 — Facility Growth: Week by Week
+- **Library file:** `Facility Growth: Week by Week.png`
+- **Visual observation:** Multi-panel illustrated sequence inside a training facility. Two adult men discuss a growth process; later panels show one man's physique expanding over several marked intervals, with the facility recurring around them.
+- **Use:** Narrative reference for growth as a social and temporal process: conversation, early change, later recognition, and belonging. The image's specific dialogue and implied schedule are not adopted as Joey's canon.
+
+### GLA-017 — Twilight Mountain Lodge Estate
+- **Library file:** `Twilight Mountain Lodge Estate.png`
+- **Visual observation:** Large timber lodge at twilight, illuminated windows, covered galleries, central fountain court, substantial dining room, library/lounge interiors, and a dark luxury car at the entrance.
+- **Use:** Architectural and atmosphere reference for Ridge House, a new fictional destination in Chapters XXXIV and XXXV. The story uses the timber structure, warm interior light, courtyard, dining room and layered circulation, while establishing its own geography and ownership.
+
+### GLA-018 — Colossal Gym Titans' Friendly Fist Bump
+- **Library file:** `Colossal Gym Titans’ Friendly Fist Bump.png`
+- **Visual observation:** Two extremely muscular adult men in a bright gym, meeting in a friendly fist bump. One wears a dark polo and the other a blue patterned shirt. Their expressions and posture communicate ease and mutual recognition.
+- **Use:** Social gesture and scale reference for Joey and Marcus greeting one another. The depicted people are not identified as the story characters.
+
+### GLA-019 — Giant Growth Phases Infographic
+- **Library file:** `Giant Growth Phases Infographic.png`
+- **Visual observation:** Five-stage progression from current form through joint expansion, limb lengthening, structural integration and a new baseline. Detail panels emphasize neck/traps, chest/ribcage, shoulders, arms/elbows, hands, hips/glutes, legs/knees and feet.
+- **Use:** Growth-continuity reference. The sequence informs staged review and proportional follow-through, especially hands, feet, joints and neck. Its labels and figures are visual concepts, not validated measurements or an automatic stage assignment for Joey.
+
+### GLA-020 — Giant Bodybuilder in Gritty Locker Room
+- **Library file:** `Giant Bodybuilder in Gritty Locker Room.png`
+- **Visual observation:** Locker-room interior with numbered metal lockers, tiled floor, a narrow bench and hard practical lighting. Two adult men occupy the space; one is depicted at an extraordinary scale while the other sits nearby.
+- **Use:** Environment reference for the ordinary after-session life of a gym: lockers, towels, benches, equipment, waiting and conversation. The depicted people are not identified as story characters.
+
+## Batch 4 status
+
+Five additional images were visually inspected and assigned specific reference roles. The atlas now contains twenty entries across four batches, from the 234-file inventory. These images directly informed *The Unplanned Convergence*, Chapters XXXIV–XXXVI. The lodge, growth sequence, locker room and friendly greeting are treated as separate reusable design references, not as evidence of real-world identities.

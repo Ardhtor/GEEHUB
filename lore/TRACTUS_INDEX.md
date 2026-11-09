@@ -245,3 +245,10 @@ Joey's arc continues in [The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md), 
 ## The Grand Meridian — Joey, the Teal Titan, and the repeating week
 
 The hotel novel's central mechanism is now explicit. Joey is the devilish authority who engineered the circumstances of the men's fictional crimes and maintains the repeating week as a sentence. He controls his thirty-foot Stage Four Teal Titan form and can reveal it whenever he chooses, while restraining the men's perception so that he appears ordinary-sized when directly observed. The loop ends when they recognize his complete physical presence and confront their own actions and Joey's manipulation. The sole *Devil Wears Prada* carryover is a fictionalized Stanley Tucci as Director of Standards. Main material: [The Hotel at the Edge of the Week](../novel/THE_HOTEL_AT_THE_EDGE_OF_THE_WEEK.md), [The Grand Meridian — The Second Week](../novel/THE_GRAND_MERIDIAN_SECOND_WEEK.md), [The Director of Standards](../novel/THE_DIRECTOR_OF_STANDARDS.md), [The Last Checkout](../novel/THE_LAST_CHECKOUT.md), [Joey's character record](../characters/records/JOEY.md), and [Continuity Atlas](../novel/THE_GRAND_MERIDIAN_CONTINUITY_ATLAS.md).
+
+
+## Interleaved composition — Read and write together
+
+The [Tractus Story Learning Engine](../docs/TRACTUS_STORY_LEARNING_ENGINE.md) now specifies interleaved composition: read the active passage and relevant records, write a small continuation, reread it in context, compare it with source state, revise, and continue. This is a live editorial loop rather than a claim of autonomous background execution.
+
+[The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md), Chapter XXV, demonstrates the method. Andrew's established baseball discipline and eccentric associative thinking are read from his character record and expressed through a field recording session. The field, gate, glove, and new recording become linked state; the scene does not replace his character record with a one-scene personality summary.

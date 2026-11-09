@@ -45,7 +45,7 @@ Retrieval snapshot is a cache, not canon. It must cite the source revision or ev
 
 The narrative workflow may still be triggered every six hours, but a trigger is not permission to write. A thread is eligible only when its `next_due_at` is reached. The expanding interval is:
 
-`1 day → 3 days → 7 days → 14 days → 30 days`
+`1 day → 3 days → 7 days → 21 days`
 
 After a successful recall (score ≥ 0.5), advance to the next interval. After a failed recall (score < 0.5), keep the current interval; after two consecutive failures, reset to 1 day and flag the thread `needs_repair`. Never mark an unverified recall as successful. Store `last_retrieved_at`, `next_due_at`, `interval_days`, `successful_recalls`, `retrieval_attempts`, `retrieval_failures`, `needs_repair`, `last_recall_score`, and `last_revision_id` per thread. Prioritize threads that are due and have consequential open material. Track last retrieved and successfully recalled separately from last written.
 

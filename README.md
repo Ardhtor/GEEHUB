@@ -249,7 +249,7 @@ The individual-moment principle means the shared parallel history: recurring peo
 
 ## Innervation
 
-The soundtrack acts on the world instead of narrating feelings about it. **SIGNAL → BODY/SPACE RESPONSE → ACTION → SONIC RESIDUE → NEXT SIGNAL.** Each cue must initiate movement, alter pace, reveal presence, change spatial scale, reconnect a historical moment, mark a threshold, or establish a motif. Actionable cues now carry BPM, phase, target response, synchronization mode, and before/after state under [the Innervation cue schema](engine/schemas/innervation-cue.schema.json). See [engine/INNERVATION_ENGINE.md](engine/INNERVATION_ENGINE.md) for the action contract and cue output.
+The soundtrack acts on the world instead of narrating feelings about it. **SIGNAL → BODY/SPACE RESPONSE → ACTION → SONIC RESIDUE → NEXT SIGNAL.** Each cue must initiate movement, alter pace, reveal presence, change spatial scale, reconnect a historical moment, mark a threshold, or establish a motif. Actionable cues now carry BPM, phase, target response, synchronization mode, and before/after state under [the Innervation v2 cue schema](engine/schemas/innervation-cue-v2.schema.json). See [engine/INNERVATION_ENGINE.md](engine/INNERVATION_ENGINE.md) for the action contract and cue output.
 
 ## Luke growth tool
 
@@ -275,4 +275,4 @@ The field is registered in [engine/interlocutive-field.json](engine/interlocutiv
 
 ## Tractus engine integrity
 
-The adopted [Tractus Engine Specification](docs/TRACTUS_ENGINE_SPEC.md) adds versioned canon validation, a 1/3/7/14/30-day retrieval ladder, tempo-tagged Innervation cue checks, and a `tractus-science` fail-fast test mode. Historical activity records remain valid. The v2 canon-version ledger starts empty rather than fabricating provenance; the first enabled writer run captures unverified baselines as experiments, and autonomous canon additions remain observations until an operator explicitly promotes a reviewed baseline with `scripts/promote_canon_version.py` and existing activity evidence. Run `python engine/check_performance.py tractus-science` to validate the new contracts.
+The adopted [Tractus Engine Specification](docs/TRACTUS_ENGINE_SPEC.md) adds versioned canon validation, a 1/3/7/21-day retrieval ladder, tempo-tagged Innervation cue checks, and a `tractus-science` fail-fast test mode. Historical activity records remain valid. The v2 canon-version ledger starts empty rather than fabricating provenance; the first enabled writer run captures unverified baselines as experiments, and autonomous canon additions remain observations until an operator explicitly promotes a reviewed baseline with `scripts/promote_canon_version.py` and existing activity evidence. Run `python engine/check_performance.py tractus-science` to validate the new contracts.

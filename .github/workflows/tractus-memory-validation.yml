@@ -15,6 +15,10 @@ on:
       - "engine/retrieval_*.json"
       - "engine/schemas/*.json"
       - "engine/INNERVATION_ENGINE.md"
+      - "engine/user-response-loop.js"
+      - "engine/agent-reactions.js"
+      - "engine/reaction-consequence.js"
+      - "index.html"
       - "docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md"
   pull_request:
     paths:
@@ -37,6 +41,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Check browser interaction modules
+        run: |
+          node --check engine/user-response-loop.js
+          node --check engine/agent-reactions.js
+          node --check engine/reaction-consequence.js
       - name: Compile Tractus modules
         run: |
           python -c "compile(open('scripts/tractus_engine.py', encoding='utf-8').read(), 'scripts/tractus_engine.py', 'exec')"

@@ -10,7 +10,7 @@
   const members=[
     {id:'luke',name:'Luke',tone:'He starts with the person, then notices how the room makes space for him.',reply:p=>/video|youtube|image|visual|photo|render/i.test(p.text+' '+p.url)?'I want to see the person in the whole scene—the stance, the room, and what caught your eye. Don’t separate him from the space around him.':'I’m here with it. Tell me what made you stop and bring this one into the room.'},
     {id:'tyler',name:'Tyler',tone:'He checks what changed, what stayed constant, and whether the result holds up.',reply:p=>/build|make|design|engine|code|tool|work|measure|test/i.test(p.text+' '+p.url)?'Good. What is the part we can actually test? I want the source, the variable, and a result we can repeat.':'There’s probably a detail worth following here. Let’s not call an impression evidence before we have looked closely.'},
-    {id:'andrew',name:'Andrew',tone:'He turns an opening into something the group can try together.',reply:p=>'All right, this gives us somewhere to start. Who’s trying it first? We can adjust once it’s moving.'},
+    {id:'andrew',name:'Andrew',tone:'A big, blue-eyed Italian baseball player whose eccentric mind takes strange but deliberate routes.',reply:p=>'Wait. There is something odd about this. It reminds me of the third bounce at the field—hang on, I can explain. Probably. Anyway, are you coming to practice?'},
     {id:'joseph',name:'Joey',tone:'He follows the memory attached to an object, song, or return without forcing its meaning.',reply:p=>/memory|remember|old|return|story|song|relationship/i.test(p.text+' '+p.url)?'This brings an earlier part of the story back into the room. I want to keep the connection without deciding too soon what it means.':'I’ll keep this beside the other things you have brought in. The connection may become clearer when something else returns.'},
     {id:'chase',name:'Chase',tone:'He notices the detail that changes the sequence and keeps the record honest.',reply:p=>'I’ll keep the source attached and separate what it shows from what we think it means. There may be a second detail worth noticing later.'},
     {id:'gabe',name:'Gabe',tone:'He asks how being seen changes the person, not only the image.',reply:p=>'I’m interested in what happens after this is seen. The response can become part of the next change, but it does not get to choose the whole person.'}
@@ -91,12 +91,12 @@
         'tyler-personality':'That is the reference attached to me. Bring in a specific post and I’ll look at its wording, rhythm, and response pattern rather than guessing from the handle.',
         'chase-personality':'Keep the source intact. A profile gives us a direction; the posts are what let us distinguish a real pattern from an assumption.',
         'gabe-personality':'This is the voice reference connected to my Growth Canvas. I want the actual posts before deciding what can become part of my character.',
-        'andrew-personality':'All right, that's my reference door. Bring one of the posts in and we can work from the actual exchange.'
+        'andrew-personality':'That is the public account you connected to me. I am a big baseball player with a fairly unusual way of thinking, so bring an actual post and let us see what fits without guessing.'
       };
       const ericReplies={
         luke:'I notice the stance and the way the physique occupies its space. Keep the proportions and the physical presence in view.',
         tyler:'I want the mechanics: range of motion, leverage, execution, and progression. The image is a reference, not a complete training plan.',
-        andrew:'There is something practical to take into the gym space here. Let’s turn the reference into a movement or scene we can actually test.',
+        andrew:'I want to know whether this would work on a baseball field. The gym is one thing; try carrying that strength through a full swing and a long afternoon outside.',
         joseph:'The longer arc interests me: how one baseline becomes another, and which details make the development feel continuous.',
         chase:'I’ll archive the reference and separate visible details from interpretation. A pose can show proportion; it cannot tell us an entire training history.'
       };

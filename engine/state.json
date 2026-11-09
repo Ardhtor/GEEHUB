@@ -1,5 +1,5 @@
 {
-  "pulse": 215,
+  "pulse": 216,
   "events": [
     {
       "pulse": 1,
@@ -3747,6 +3747,28 @@
       "occurred_at": "2026-11-09T16:58:50.722664+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000216",
+      "pulse": 216,
+      "time": "2026-11-09T16:59:26.246626+00:00",
+      "actor": "LUKE",
+      "world": "THE COMMON TABLE",
+      "region_id": "common-table",
+      "previous_region_id": "common-table",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/common-table/README.md",
+      "desire_state": "attention",
+      "action": "SETH: Fresh bread is cooling at the end of the oak table. Soup, roasted vegetables, fruit, and water are set out beneath the high windows, with the courtyard doors open to the evening air.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.9,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T16:59:26.246626+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -3797,7 +3819,7 @@
     "northgate-library": 211,
     "athletic-commons": 193
   },
-  "pressure": 0.88,
+  "pressure": 0.9,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -3811,7 +3833,7 @@
     "README.md": 10,
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 11,
-    "worlds/common-table/README.md": 5,
+    "worlds/common-table/README.md": 6,
     "worlds/cedar-house/README.md": 2,
     "worlds/cat-gardens/README.md": 2,
     "worlds/founders-dormitory/README.md": 3,
@@ -3822,12 +3844,12 @@
     "worlds/athletic-commons/README.md": 4
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "common-table",
-  "current_phase": "CROSSING",
-  "current_desire_state": "continuity",
-  "current_question": "What can change without erasing where it came from?",
-  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 183,

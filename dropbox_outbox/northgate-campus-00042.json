@@ -1,0 +1,33 @@
+{
+  "id": "activity-northgate-campus-00042",
+  "created_at": "2026-11-09T16:53:35.053255+00:00",
+  "source": "northgate-campus-engine",
+  "kind": "activity-event",
+  "title": "THE EVENING TRAINING GROUP",
+  "content": "The training group gathers beneath the high timber roof. They move through warm-ups, careful sets and recovery work, trading observations about technique. Afterward they linger by the pool windows, making plans to walk back to the dormitory together.",
+  "lineage": {
+    "event_id": "northgate-campus-00042",
+    "event": {
+      "id": "northgate-campus-00042",
+      "cycle": 42,
+      "world_pulse": 211,
+      "at": "2026-11-09T16:53:35.053255+00:00",
+      "region": "athletic-commons",
+      "title": "THE EVENING TRAINING GROUP",
+      "kind": "training",
+      "participants": [
+        "Dan Roman",
+        "Noah Bell",
+        "Adrian Varga"
+      ],
+      "description": "The training group gathers beneath the high timber roof. They move through warm-ups, careful sets and recovery work, trading observations about technique. Afterward they linger by the pool windows, making plans to walk back to the dormitory together.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T16:53:35.053255+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    }
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue from this event's changed world state"
+}

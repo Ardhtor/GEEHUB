@@ -1,4 +1,4 @@
-# GEEHUB Growth Study 001 — V2
+# GEEHUB Growth Study 001 — V2.1 Appendage Preparation
 
 V2 addresses the first prototype's largest visual limitation: the body was made from separate ellipsoids. This pass fuses overlapping body volumes into one connected skin blockout, then assigns each remeshed vertex blended weights from its three nearest armature bone segments.
 
@@ -9,7 +9,7 @@ V2 addresses the first prototype's largest visual limitation: the body was made 
 - `README_V2.md` — production notes.
 
 ## What V2 changes
-The torso, pelvis, neck, head, pectoral masses, deltoids, biceps, triceps, forearms, hands, abdominal landmarks, obliques, thighs, quadriceps, calves, and feet are assembled from intersecting source volumes. Blender's voxel remesh converts them into one continuous surface. A light Smooth modifier relaxes the voxel surface. Vertex weights are then calculated from distance to armature bone segments, with each vertex blended across its three nearest deform bones. Hair, eyes, ears, and clothing remain separate replaceable objects.
+The torso, pelvis, neck, head, pectoral masses, deltoids, biceps, triceps, forearms, hands, abdominal landmarks, obliques, thighs, quadriceps, calves, and feet are assembled from intersecting source volumes. Blender's voxel remesh converts them into one continuous surface. A light Smooth modifier relaxes the voxel surface. Vertex weights are then calculated from distance to armature bone segments, with each vertex blended across its three nearest deform bones. Hair, eyes, ears, and clothing remain separate replaceable objects. V2.1 also preserves the named pre-fusion anatomy volumes in the hidden `SOURCE_ANATOMY_MODULES — replaceable kit` collection, so the connected render surface does not destroy the modular source assembly.
 
 The four growth stages and lighting/material setup remain. The optional atmosphere volume is independently switchable. V1 is retained as a fallback and comparison baseline.
 
@@ -38,4 +38,7 @@ This is a procedural blockout, not a finished anatomical character. Fusion remov
 3. Inspect blended weights in rest and all growth stages.
 4. Add corrective shapes and joint-volume preservation.
 5. Calibrate layered skin and cloth materials under the existing lights.
-6. Add facial expression, finger articulation, camera motion, and a short rendered sequence after deformation is stable.
+6. Build separate palm, finger, sole, and toe geometry modules; bind digit meshes to the staged controls and validate joint spacing.
+7. Add facial expression, camera motion, and a short rendered sequence after appendage and body deformation are stable.
+
+See `APPENDAGE_SYSTEM_SPEC.md` for the modular appendage construction plan and Library photo direction.

@@ -87,7 +87,7 @@ def ensure_baselines():
             if old.get("content_sha256")!=digest: fail("Untracked canon change; reconcile baseline: "+rel)
             continue
         event_id="tractus-baseline-"+hashlib.sha256((rel+digest+commit).encode()).hexdigest()[:16]
-        inscribe_event({"id":event_id,"at":iso_utc(),"type":"OBSERVATION",
+        inscribe_event({"id":event_id,"at":iso_utc(),"type":"observation",
             "title":"Tractus experimental canon baseline",
             "description":"Existing repository text captured as an experimental baseline. It is not canon until reviewed and explicitly promoted.",
             "canon_path":rel,"content_sha256":digest,
@@ -145,13 +145,13 @@ def blind_retrieve(key,model,schedule,state):
     if not due_ids.issubset(snapshot_ids): fail("Due thread missing from prior retrieval snapshot.")
     prompt="""Blind retrieval phase. Do not inspect or infer from current canon. Use only the prior
 retrieval snapshot. Return retrieval_id, thread_id, recalled_threads (exactly three),
-characters_and_locations, unresolved, prediction, confidence (0..1). Preserve uncertainty."""
+characters_and_locations, unresolved, last_change, prediction, confidence (0..1). Preserve uncertainty."""
     result=call_model(key,model,prompt,json.dumps({"due_threads":due,"prior_retrieval_snapshot":state.get("retrieval_snapshot",[])}))
     if result.get("thread_id") not in due_ids: fail("Blind retrieval selected a non-due thread.")
     if not isinstance(result.get("recalled_threads"),list) or len(result["recalled_threads"])!=3:
         fail("Blind retrieval must recall exactly three threads.")
-    if not isinstance(result.get("retrieval_id"),str) or not isinstance(result.get("prediction"),str):
-        fail("Blind retrieval missing ID or prediction.")
+    if not isinstance(result.get("retrieval_id"),str) or not isinstance(result.get("prediction"),str) or not isinstance(result.get("last_change"),str):
+        fail("Blind retrieval missing ID, last_change, or prediction.")
     try: confidence=float(result.get("confidence"))
     except (TypeError,ValueError): fail("Blind retrieval confidence must be numeric.")
     if not 0<=confidence<=1: fail("Blind retrieval confidence out of range.")
@@ -162,7 +162,8 @@ def verify_and_write(key,model,retrieval,schedule,state,dry):
     prompt="""Verify blind retrieval against the supplied canon. Return skip, reason, retrieval_score
 (0..1), verified_retrieval_snapshot (exactly three objects), and surprise with expected,
 observed, prediction_error, prediction_error_type, severity, update_reason, what_remains,
-evidence_event_ids, source_paths. Score below 0.8 cannot update canon. If there is no
+evidence_event_ids, source_paths. Also return recall_review with accurate, missed, contradicted
+arrays. Score below 0.5 cannot update canon. If there is no
 specific prediction error, skip=true. Never manufacture surprise. If writing, also return
 path, title, chapter. Tie environmental details to character intention and concrete action."""
     result=call_model(key,model,prompt,"Blind retrieval, completed before canon inspection:\n"+
@@ -170,14 +171,23 @@ path, title, chapter. Tie environmental details to character intention and concr
     try: score=float(result.get("retrieval_score"))
     except (TypeError,ValueError): fail("Verification missing retrieval_score.")
     if not 0<=score<=1: fail("retrieval_score out of range.")
-    if score<0.8:
+    if score<0.5:
         result["skip"]=True
-        result["reason"]="Recall score below 0.8; record observation and repair thread before canon changes."
+        result["reason"]="Recall score below 0.5; record observation and repair thread before canon changes."
     snap=result.get("verified_retrieval_snapshot")
     if not isinstance(snap,list) or len(snap)!=3: fail("Verification must return three updated retrieval snapshots.")
+    review=result.get("recall_review")
+    if not isinstance(review,dict) or any(not isinstance(review.get(k),list) for k in ("accurate","missed","contradicted")):
+        fail("Verification must return recall_review with accurate, missed, and contradicted arrays.")
     now=utc_now()
     thread=next(x for x in schedule["threads"] if x["thread_id"]==retrieval["thread_id"])
-    updated_thread=advance_thread(thread,now,score,tuple(schedule.get("intervals_days",[1,3,7,21])))
+    updated_thread=advance_thread(thread,now,score,tuple(schedule.get("intervals_days",[1,3,7,14,30])))
+    updated_thread["last_retrieval"]={
+        "recalled_without_looking":retrieval["recalled_threads"],
+        "missed":review["missed"],"accurate":review["accurate"],
+        "contradicted":review["contradicted"],"last_change":retrieval["last_change"],
+        "score":round(score,3),
+    }
     updated_schedule=dict(schedule)
     updated_schedule["threads"]=[updated_thread if x["thread_id"]==retrieval["thread_id"] else x for x in schedule["threads"]]
     updated_state=dict(state)
@@ -273,10 +283,16 @@ path, title, chapter. Tie environmental details to character intention and concr
         "severity":surprise["severity"],"what_remains":surprise["what_remains"],"evidence_event_ids":surprise["evidence_event_ids"],
         "source_paths":sources,"update_reason":surprise["update_reason"],"source_event_id":event_id,
         "created_at":iso_utc(now),"status":"CANON_REVISION"})
-    append_jsonl(CANON_VERSIONS_LOG,{"canon_version_id":version_id,"entity":path,"prior_version_id":prior["canon_version_id"],
+    for version in versions:
+        if version.get("canon_version_id")==prior["canon_version_id"]:
+            version["status"]="superseded"
+            version["superseded_by"]=version_id
+    versions.append({"canon_version_id":version_id,"entity":path,"prior_version_id":prior["canon_version_id"],
         "created_by_event_id":event_id,"created_at":iso_utc(now),"claim":surprise["update_reason"],
         "what_remains":surprise["what_remains"],"content_sha256":result_sha,"prior_sha256":prior_sha,
-        "baseline":False,"status":"canon"})
+        "baseline":False,"status":"canon","superseded_by":None})
+    CANON_VERSIONS_LOG.write_text("".join(json.dumps(x,ensure_ascii=False,separators=(",",":"))+"\\n" for x in versions),encoding="utf-8")
+    updated_thread["last_canon_version_id"]=version_id
     updated_thread["last_revision_id"]=revision_id
     updated_thread["last_written_at"]=iso_utc(now)
     updated_schedule["threads"]=[updated_thread if x["thread_id"]==retrieval["thread_id"] else x for x in updated_schedule["threads"]]

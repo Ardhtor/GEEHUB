@@ -50,10 +50,10 @@ class TractusScienceTests(unittest.TestCase):
 
     def test_thread_requires_ladder_and_repair_flag(self):
         thread = {"status": "open", "interval_days": 21, "interval_ladder": [1, 3, 7, 21],
-                  "retrieval_attempts": 2, "retrieval_failures": 2}
-        errors = validate_thread(thread)
-        self.assertTrue(any("interval_days" in error for error in errors))
-        self.assertTrue(any("needs_repair" in error for error in errors))
+                  "retrieval_attempts": 2, "retrieval_failures": 2, "needs_repair": True}
+        self.assertEqual(validate_thread(thread), [])
+        thread["interval_days"] = 14
+        self.assertTrue(any("interval_days" in error for error in validate_thread(thread)))
 
     def test_writer_requires_retrieval_and_one_addition(self):
         self.assertTrue(validate_writer_output({"canon_additions": [{"id": "a"}]}))

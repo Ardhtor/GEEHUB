@@ -70,7 +70,7 @@
     state.current={section:detail.section,sectionName:detail.sectionName};
     if(kind==='ACTION')state.lastAction=signal;
     persist();render();
-    bus?.emit({id:'user-'+kind.toLowerCase()+'-'+signal.at,from:'you',to:'geehub',type:'USER_ACTION',title:detail.label,body:detail.sectionName,section:detail.section,category:categoryFor(detail.section),source:'user-response-loop',local:true});
+    bus?.emit({id:'user-'+kind.toLowerCase()+'-'+signal.at,from:'you',to:'geehub',type:'USER_ACTION',title:detail.label,body:detail.sectionName,section:detail.section,category:categoryFor(detail.section),feedback:detail.feedback||null,preference_score:detail.preferenceScore??null,source:'user-response-loop',local:true});
   }
   function feedback(kind){
     if(kind==='clear'){
@@ -81,7 +81,7 @@
     if(kind==='more')state.weights[category]=(state.weights[category]||0)+1;
     if(kind==='less')state.weights[category]=(state.weights[category]||0)-1;
     if(kind==='hold')state.weights[category]=Math.max(1,state.weights[category]||0);
-    record('FEEDBACK',{section,sectionName:state.current?.sectionName||'GEEHUB',label:kind.toUpperCase()+' '+category});
+    record('FEEDBACK',{section,sectionName:state.current?.sectionName||'GEEHUB',label:kind.toUpperCase()+' '+category,feedback:kind,preferenceScore:state.weights[category]||0});
   }
 
   document.addEventListener('click',event=>{

@@ -102,3 +102,12 @@ This develops Andrew's established athletic discipline and his tendency to make 
 Andrew's next open task is to reduce the target size and test Joey's repeatability. The temporary receiving frame must be inspected before another full-effort session.
 
 **Linked events:** MOONLIT_PITCH_01; MOUND_STUDY_01; MOONLIT_PITCH_02; THE_MOONLIT_BULLPEN_01.
+
+
+## Recent shared-life development
+
+Chapters XXXI–XXXIII of *The Unplanned Convergence* extend Andrew's connection with Joey beyond the bullpen. Andrew returns the scuffed baseball to Joey, then accompanies him to the industrial gym, where they use a target camera and compare low-angle presentation with eye-level proportion checks. The low-angle Library image is treated as a camera reference, not anatomical evidence.
+
+Andrew's coaching continues, but he also shares ordinary time: breakfast, gym maintenance, and a rain-delayed afternoon with the others. His practical requirements help shape a possible open training ground: level throwing surface, safe receiving area, and equipment storage. Other men contribute their own needs, so the place remains a shared proposal.
+
+**Linked events:** FIELD IN THE RAIN; MOUND_STUDY_01; MOONLIT_PITCH_02; THE_MOONLIT_BULLPEN_01.

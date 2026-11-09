@@ -19,7 +19,6 @@ from datetime import timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "engine"))
-from inscription import inscribe_event
 from tractus_memory import (
     advance_thread,
     append_jsonl,
@@ -32,7 +31,6 @@ from tractus_memory import (
     utc_now,
 )
 
-ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_FILES = (
     "novel/BOOK_I_CONTINUATION_03.md",
     "lore/DEEP_LORE.md",
@@ -438,7 +436,6 @@ prediction_error. No prediction error means skip=true.
         "retrieval_id": retrieval["retrieval_id"],
         "action": "Append a versioned canon passage.",
     }
-    from inscription import inscribe
     inscribed = inscribe(event, source="scripts/tractus_engine.py")
     if inscribed.get("type") != "canon_update":
         fail("Canon event failed validation and was downgraded; manuscript write aborted.")
@@ -537,10 +534,6 @@ def main() -> None:
         fail("Working tree is not clean; refusing to mix unrelated changes.")
 
     schedule = read_json(SCHEDULE_PATH)
-    expected_ids = set(scheduled_ids)
-    actual_ids = {item.get("thread_id") for item in snapshot if isinstance(item, dict)}
-    if actual_ids != expected_ids:
-        fail("Bootstrap snapshot thread IDs must match the scheduled retrieval threads.")
     state = read_json(RETRIEVAL_STATE_PATH)
     if state.get("bootstrap_required") is True:
         bootstrap_retrieval(api_key, model, schedule, dry_run)

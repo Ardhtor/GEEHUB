@@ -3,7 +3,7 @@
   "version": 2.1,
   "status": {
     "source_script": "created",
-    "python_syntax_check": "passed",
+    "python_syntax_check": "appendage_rig_section_passed_full_script_not_recompiled",
     "blender_execution": "not_run_blender_not_installed",
     "voxel_remesh_validation": "pending",
     "weight_validation": "pending",

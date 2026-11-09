@@ -21,24 +21,35 @@ def parse_time(value: str) -> datetime:
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
+INTERVAL_LADDER = (1, 3, 7, 14, 30)
+
+
 def due_threads(schedule: dict[str, Any], now: datetime | None = None) -> list[dict[str, Any]]:
     current = now or utc_now()
     due = []
     for thread in schedule.get("threads", []):
+        if thread.get("status", "open") != "open":
+            continue
         due_at = thread.get("next_due_at")
         if due_at and parse_time(due_at) <= current:
             due.append(thread)
-    return due
+    return sorted(due, key=lambda item: (item["next_due_at"], int(item.get("successful_recalls", 0))))
 
 
-def next_interval(current_days: int, recall_score: float, intervals: tuple[int, ...] = (1,  3, 7, 21)) -> int:
+def pick_next(schedule: dict[str, Any], now: datetime | None = None, limit: int = 1) -> list[dict[str, Any]]:
+    if limit < 1:
+        raise ValueError("limit must be at least 1")
+    return due_threads(schedule, now)[:limit]
+
+
+def next_interval(current_days: int, recall_score: float, intervals: tuple[int, ...] = INTERVAL_LADDER) -> int:
     if not 0.0 <= recall_score <= 1.0:
         raise ValueError("recall_score must be between 0 and 1")
     if current_days not in intervals:
         current_days = intervals[0]
     index = intervals.index(current_days)
-    if recall_score < 0.8:
-        return intervals[0]
+    if recall_score < 0.5:
+        return current_days
     return intervals[min(index + 1, len(intervals) - 1)]
 
 
@@ -46,16 +57,34 @@ def advance_thread(
     thread: dict[str, Any],
     retrieved_at: datetime,
     recall_score: float,
-    intervals: tuple[int, ...] = (1, 3, 7, 21),
+    intervals: tuple[int, ...] = INTERVAL_LADDER,
 ) -> dict[str, Any]:
-    interval = next_interval(int(thread.get("interval_days", 1)), recall_score, intervals)
+    if not 0.0 <= recall_score <= 1.0:
+        raise ValueError("recall_score must be between 0 and 1")
     result = dict(thread)
+    attempts = int(thread.get("retrieval_attempts", 0)) + 1
+    failures = int(thread.get("retrieval_failures", 0)) + (1 if recall_score < 0.5 else 0)
+    current = int(thread.get("interval_days", 1))
+    if recall_score >= 0.5:
+        interval = next_interval(current, recall_score, intervals)
+        failures = 0
+    elif failures >= 2:
+        interval = intervals[0]
+        result["needs_repair"] = True
+    else:
+        interval = current if current in intervals else intervals[0]
     result.update({
         "last_retrieved_at": iso_utc(retrieved_at),
         "next_due_at": iso_utc(retrieved_at + timedelta(days=interval)),
         "interval_days": interval,
-        "successful_recalls": int(thread.get("successful_recalls", 0)) + (1 if recall_score >= 0.8 else 0),
+        "retrieval_attempts": attempts,
+        "retrieval_failures": failures,
+        "successful_recalls": int(thread.get("successful_recalls", 0)) + (1 if recall_score >= 0.5 else 0),
         "last_recall_score": round(recall_score, 3),
+        "last_retrieval": {
+            "score": round(recall_score, 3),
+            "result": "success" if recall_score >= 0.5 else "needs_repair",
+        },
     })
     return result
 

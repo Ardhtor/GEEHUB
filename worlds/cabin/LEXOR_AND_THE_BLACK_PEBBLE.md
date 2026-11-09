@@ -452,6 +452,157 @@ A porta da casa estava aberta. Quem chegasse poderia sentar-se; quem partisse po
 
 A casa recebia cada pessoa em paz.
 
+
+## VI. O Quinto Dia — A Casa Entre as Línguas
+
+Na quinta manhã, a chuva voltou, fina e constante. Não batia no telhado com força; corria pelas calhas e descia em fios junto às janelas. Ursalon preparava café quando Herbarius entrou trazendo um caderno embrulhado num pano. O caderno não era novo. Tinha a lombada escurecida pelo uso e folhas de espessuras diferentes, algumas escritas da direita para a esquerda, outras da esquerda para a direita.
+
+“Encontrei isto na sala de mapas,” disse Herbarius. “Não é um livro de orações. São notas de viajantes, copistas e pessoas que precisavam entender umas às outras.”
+
+Pipethor apareceu ao ouvir a palavra notas. Abriu o caderno sobre a mesa, mas não tocou nas folhas antes de pedir licença. Havia palavras em português, pequenas sequências em caracteres hebraicos quadrados e transliterações feitas por mãos diferentes. Algumas linhas tinham sido corrigidas tantas vezes que quase não restava espaço entre uma forma e outra.
+
+“Não podemos tratar estas colunas como se fossem espelhos,” disse Pipethor. “Uma palavra pode atravessar de uma língua para outra sem levar consigo toda a casa onde nasceu.”
+
+Ursalon colocou uma xícara ao lado do caderno. “Então começamos com uma palavra pequena.”
+
+Herbarius apontou para uma linha: שלום לצד שלמא, seguida de uma nota em português: paz / inteireza / estar em segurança.
+
+“Há formas próximas em tradições diferentes,” explicou. “Mas não vamos fingir que são a mesma palavra, nem que uma explica a outra. Aqui, o caderno aproxima o hebraico *shalom* e o aramaico *shlama* como parentes de uma família de sentidos. O português *paz* ajuda a começar; não termina a explicação.”
+
+Pipethor escreveu três linhas, deixando espaço entre elas:
+
+*Paz — não apenas ausência de conflito.*
+
+*Shlama — saudação, paz, bem-estar, conforme o contexto.*
+
+*Bayta — casa; mas uma casa também pode ser aquilo que recebe.*
+
+“Essa última parte não está dentro da palavra,” disse Jockkaulthaa, que acabara de entrar.
+
+“Não,” respondeu Pipethor. “Está dentro da cena. É por isso que precisamos das duas coisas.”
+
+BORKUFT trouxe o botão de madeira no bolso e colocou-o ao lado do caderno. “Se cada palavra tem uma casa, onde mora uma palavra que muda de casa?”
+
+Ninguém respondeu imediatamente. A pergunta não parecia um enigma. Parecia uma coisa que alguém poderia perguntar enquanto esperava o pão.
+
+Herbarius leu em voz baixa uma linha aramaica, sem pressa de fazer dela uma cerimônia:
+
+ביתא פתיח לכל אנש.
+
+Pipethor acompanhou com a transliteração que o caderno oferecia, mas avisou que a vocalização era aproximada:
+
+*Bayta petiḥ le-khol enash.*
+
+“Uma casa aberta a toda pessoa,” disse Ursalon em português.
+
+“Ou uma casa está aberta para cada pessoa,” sugeriu Pipethor. “A primeira formulação soa como uma qualidade. A segunda, como uma ação que continua acontecendo.”
+
+Coach surgiu no corredor, ainda com a toalha sobre um ombro, vindo do ginásio com Daddy. Leu as três versões e apontou para a frase portuguesa.
+
+“Keep the door open,” disse. “Mas não transformem isso numa ordem para alguém entrar.”
+
+Ursalon repetiu em português: “Deixar a porta aberta não é mandar ninguém atravessar.”
+
+Herbarius voltou ao aramaico e escreveu uma segunda linha, agora como uma composição literária para a cena, não como citação de uma fonte antiga:
+
+לא בכפיא עאלין, אלא ברעותא.
+
+Pipethor olhou para a construção e fez uma anotação: “Não entram por coerção, mas por vontade.” Depois marcou a frase com um asterisco: *formulação criada para este capítulo; revisar antes de tratá-la como aramaico histórico.*
+
+“Isso também é tradução,” disse Herbarius. “Saber quando uma frase pertence ao texto e quando pertence a quem a está tentando dizer.”
+
+A porta abriu. Privathor estava ali, com a chuva escorrendo da barra do casaco. Não pediu desculpa por ter chegado tarde nem explicou onde estivera. Ursalon afastou uma cadeira da mesa. Era a cadeira reparada, agora firme, mas não havia nada escrito nela que a destinasse a Privathor.
+
+Ele olhou para o caderno.
+
+“Estão estudando nomes?”
+
+“Palavras que conseguem atravessar uma porta,” respondeu Pipethor.
+
+Privathor sentou-se. “E o que acontece com aquilo que não atravessa?”
+
+“Fica onde está,” disse Herbarius. “A menos que queira mover-se.”
+
+Privathor passou os olhos pelas linhas. Parou no português *paz*, depois nos caracteres quadrados, depois na transliteração. Não tentou pronunciá-los.
+
+“Eu conheço a diferença entre uma palavra que me descreve e uma palavra que me deixa em paz,” disse.
+
+Ursalon assentiu. “Não precisamos escrever você no caderno.”
+
+“Podem escrever que estive aqui.”
+
+Pipethor anotou a presença, não uma interpretação. Ao lado do nome de Privathor, deixou em branco a coluna de equivalências.
+
+O jarro permaneceu no mantel. A pedra negra não girou, e ninguém pediu que ela confirmasse o que fora dito. O caderno, por sua vez, começou a ganhar pequenas marcas: uma seta para indicar que a tradução podia voltar ao original; um ponto de interrogação onde duas palavras não coincidiam; uma linha em branco onde a pessoa presente não queria ser definida.
+
+No fim da tarde, Brograntimax entrou, viu a mesa tomada por papéis e perguntou se alguém tinha traduzido a palavra “conserto”. Jockkaulthaa respondeu com três possibilidades e nenhuma delas satisfez Brograntimax. Ele explicou que, para ele, consertar não era apenas reparar uma coisa quebrada. Era fazê-la suportar o uso seguinte.
+
+Pipethor escreveu a frase em português. Herbarius ofereceu uma paráfrase em aramaico literário, marcada como tentativa. Coach acrescentou em inglês: “Make it usable again.” Brograntimax leu as três versões e escolheu não declarar uma vencedora.
+
+“Cada uma segura uma parte,” disse.
+
+A chuva parou pouco antes do jantar. Privathor ficou até depois da refeição e saiu quando quis. Não prometeu voltar. A cadeira ficou no lugar, e o caderno permaneceu aberto na mesa, preso por uma pedra lisa para que a corrente de ar da porta não virasse as páginas.
+
+Na última folha, Pipethor registrou:
+
+    LANGUAGE EXCHANGE / CABIN
+    PORTUGUESE: narrative and domestic speech
+    ARAMAIC: literary parallel; forms marked for review
+    HEBREW SQUARE SCRIPT: writing system used for the Aramaic passage
+    ENGLISH: Coach's working phrases
+    RULE: preserve difference; record uncertainty; do not force equivalence
+
+A casa não se tornou uma língua só. Tornou-se um lugar onde as línguas podiam sentar-se à mesma mesa sem perder suas diferenças.
+
+### Caderno de passagem — Aramaico literário
+
+*O trecho abaixo é uma composição literária criada para acompanhar a cena. Está escrito em caracteres quadrados hebraicos; isso descreve o sistema de escrita, não significa que o texto seja hebraico. A formulação e a vocalização são experimentais e devem ser revistas por um especialista antes de serem usadas como texto histórico ou filológico.*
+
+ביתא פתיח לכל אנש.
+
+מלה עברה מן לישנא ללישנא, ולא אבדת כל דוכתה.
+
+שלמא לאו שתיקותא בלבד, אלא טבא ושלמא בין אנשא.
+
+מאן דייתי ברעותיה יתיב; ומאן דלא בעי, פתחא שביק ליה למיזל.
+
+לא כל מלה מתתרגמא בשלמא. אית מלים דצריכין זמן, ואית מלים דשבקין באתריהון.
+
+### Transliteração de trabalho
+
+*Bayta petiḥ le-khol enash.*
+
+*Milla ʿavrat min lishana le-lishana, ve-la avdat kol dukhtah.*
+
+*Shlama laww shetiquta bilḥod, ella tava u-shlama beyn enasha.*
+
+*Man de-yethe be-raʿuteh yetiv; u-man de-la baʿe, pitḥa shaviq leh le-mezal.*
+
+*La kol milla mettarjema be-shlama. It millin de-tsarikhin zeman, ve-it millin de-shavqin be-atrahon.*
+
+### Sentido em português
+
+A casa está aberta a toda pessoa.
+
+Uma palavra passou de uma língua a outra, mas não perdeu todo o lugar de onde veio.
+
+Shlama não é somente silêncio; pode envolver bem-estar e paz entre pessoas.
+
+Quem chega por vontade própria senta-se; a quem não deseja ficar, a porta deixa partir.
+
+Nem toda palavra se traduz sem resto. Algumas precisam de tempo; outras permanecem onde estão.
+
+### Nota de intercâmbio
+
+O capítulo mantém três níveis distintos: português como língua principal da narrativa; aramaico como composição literária experimental; caracteres hebraicos quadrados como escrita usada para registrar esse aramaico. O inglês aparece como fala funcional de Coach. As aproximações entre *paz*, *shalom* e *shlama* são pistas de leitura, não equivalências perfeitas. A frase aramaica criada para a cena não deve ser confundida com uma citação antiga.
+
+## Continuity Record — atualização do quinto dia
+
+The fifth day adds a shared language notebook and establishes a practice of translation with uncertainty visible. Portuguese remains the chapter's narrative language. Aramaic appears as a literary parallel in Hebrew square script, with working transliteration and Portuguese gloss; experimental constructions are explicitly marked as such. Hebrew is named only as the script tradition in this passage, not misidentified as the language of the Aramaic text. Coach contributes brief English working phrases.
+
+Privathor returns voluntarily, is recorded as present without being assigned a translated identity, stays through supper, and leaves without promising to return. The repaired chair remains available to anyone. The jar does not move and is not used to validate the language exercise. The household's new practice is to preserve differences, annotate uncertainty, and leave untranslated what cannot responsibly be made equivalent.
+
+
 ## Continuity Record
 
 The chapter now contains four chronological movements: Lexor's arrival; the next morning and day; Privathor's third-morning departure and voluntary return; and the fourth day, when Brograntimax repairs the stove-side chair without his measuring chain. Privathor is not present on the fourth day, and the household does not turn his absence into an omen or an obligation.

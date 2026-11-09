@@ -4,9 +4,10 @@
     1,
     3,
     7,
-    21
+    14,
+    30
   ],
-  "policy": "Only due threads may be selected for blind retrieval. Retrieval time and write time are tracked separately. Advance interval after successful verified recall; do not advance on unverified or failed recall.",
+  "policy": "Due threads are recalled before canon is opened. One oldest-due thread is selected per cycle; ties prefer fewer successful recalls. Recall score >= 0.5 advances one step. A score below 0.5 holds the interval; two consecutive failures reset to 1 day and flag needs_repair. Retrieval-only cycles may update the schedule but never canon.",
   "threads": [
     {
       "thread_id": "main-manuscript",
@@ -15,7 +16,19 @@
       "interval_days": 1,
       "successful_recalls": 0,
       "last_recall_score": null,
-      "last_revision_id": null
+      "last_revision_id": null,
+      "status": "open",
+      "interval_ladder": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "retrieval_attempts": 0,
+      "retrieval_failures": 0,
+      "needs_repair": false,
+      "last_retrieval": null
     },
     {
       "thread_id": "romance-and-domestic-life",
@@ -24,7 +37,19 @@
       "interval_days": 1,
       "successful_recalls": 0,
       "last_recall_score": null,
-      "last_revision_id": null
+      "last_revision_id": null,
+      "status": "open",
+      "interval_ladder": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "retrieval_attempts": 0,
+      "retrieval_failures": 0,
+      "needs_repair": false,
+      "last_retrieval": null
     },
     {
       "thread_id": "northgate-campus",
@@ -33,7 +58,19 @@
       "interval_days": 1,
       "successful_recalls": 0,
       "last_recall_score": null,
-      "last_revision_id": null
+      "last_revision_id": null,
+      "status": "open",
+      "interval_ladder": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "retrieval_attempts": 0,
+      "retrieval_failures": 0,
+      "needs_repair": false,
+      "last_retrieval": null
     },
     {
       "thread_id": "idol-cycle-and-older-gods",
@@ -42,7 +79,19 @@
       "interval_days": 1,
       "successful_recalls": 0,
       "last_recall_score": null,
-      "last_revision_id": null
+      "last_revision_id": null,
+      "status": "open",
+      "interval_ladder": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "retrieval_attempts": 0,
+      "retrieval_failures": 0,
+      "needs_repair": false,
+      "last_retrieval": null
     },
     {
       "thread_id": "deep-lore-and-institutions",
@@ -51,7 +100,19 @@
       "interval_days": 1,
       "successful_recalls": 0,
       "last_recall_score": null,
-      "last_revision_id": null
+      "last_revision_id": null,
+      "status": "open",
+      "interval_ladder": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "retrieval_attempts": 0,
+      "retrieval_failures": 0,
+      "needs_repair": false,
+      "last_retrieval": null
     },
     {
       "thread_id": "beowulf-and-geatish-company",
@@ -60,7 +121,19 @@
       "interval_days": 1,
       "successful_recalls": 0,
       "last_recall_score": null,
-      "last_revision_id": null
+      "last_revision_id": null,
+      "status": "open",
+      "interval_ladder": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "retrieval_attempts": 0,
+      "retrieval_failures": 0,
+      "needs_repair": false,
+      "last_retrieval": null
     },
     {
       "thread_id": "diabound-kernel",
@@ -69,7 +142,19 @@
       "interval_days": 1,
       "successful_recalls": 0,
       "last_recall_score": null,
-      "last_revision_id": null
+      "last_revision_id": null,
+      "status": "open",
+      "interval_ladder": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "retrieval_attempts": 0,
+      "retrieval_failures": 0,
+      "needs_repair": false,
+      "last_retrieval": null
     },
     {
       "thread_id": "cabin-lexor-and-privathor",
@@ -78,7 +163,19 @@
       "interval_days": 1,
       "successful_recalls": 0,
       "last_recall_score": null,
-      "last_revision_id": null
+      "last_revision_id": null,
+      "status": "open",
+      "interval_ladder": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "retrieval_attempts": 0,
+      "retrieval_failures": 0,
+      "needs_repair": false,
+      "last_retrieval": null
     }
   ]
 }

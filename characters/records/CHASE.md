@@ -34,3 +34,27 @@ Chase is suited to scenes in which an archive, social exchange, transformation, 
 **Unresolved:** specific biography, accent, habits, and personal history not yet supplied by canon.
 
 The public account is a creative reference for the fictional Chase, not evidence that the real account holder has Chase's fictional biography or endorses the character.
+
+
+## Personality growth — the responsibility of noticing
+
+Chase is not quiet because he has nothing to say. He is often assembling the sequence while other people are reacting to its individual parts. He remembers what was said before the room became tense, which person left before the decision, and which apparently minor detail changed the meaning of the encounter. His mind is narrative without being sentimental: he senses when an event has acquired a consequence that the participants have not yet acknowledged.
+
+He likes accurate records, but not because he believes a record can contain an entire person. He keeps things because people forget, because stories are often simplified after the fact, and because an earlier version may matter later. He is alert to omissions and to the difference between a statement and the interpretation placed around it. He can be trusted with unresolved material because he does not feel compelled to make every loose end look finished.
+
+His strongest contradiction is that he wants to preserve other people's stories while keeping his own interior life difficult to reach. He can become the observer in his own friendships. It is easier for him to describe what happened than to say that it hurt, easier to make a dry remark than to admit he wanted to be invited, easier to keep a place open in the archive than to ask someone to keep a place for him. He knows this tendency and does not always know how to interrupt it.
+
+Chase's humour is economical and often arrives after a pause. He notices absurdity in the structure of an event: the ceremonial meeting that ends with someone looking for a screwdriver, the elaborate explanation undone by a missing key, the man who insists he is not competitive while keeping score. His jokes are not constant. He may say very little for an hour and then deliver the line everyone remembers. He does not enjoy humiliating people; his best humour makes the group recognise itself.
+
+He can be decisive, even severe, when someone tries to rewrite what happened for convenience. Yet his judgement is not infallible. Sometimes he gives an old interpretation too much authority because he has preserved it for so long. Sometimes he treats a person's earlier choice as if it must govern the present. He has to learn that continuity includes revision and that preserving a record does not mean freezing the person inside it.
+
+With Luke, Chase is learning to let practical affection count as communication. With Tyler, he has a productive disagreement about when evidence is complete enough to support a decision. With Andrew, he is coaxed into situations he would otherwise observe from the edge. With Gabe, he takes care to preserve the difference between an earlier baseline and a failed identity. With Joseph, he shares an interest in how memory changes the meaning of a return.
+
+**Voice in practice:** restrained, exact, and often oblique by one degree. He rarely announces that a moment is important; he records the detail that makes its importance apparent. He might say “You came back before anyone asked you to,” and let the sentence stand.
+
+**Growth direction:** from witness to participant; from preserving the past at a distance to allowing himself to be changed by what he records.
+
+## Repeatable personal details
+
+Chase remembers the order in which objects were moved, keeps the first version of a plan beside the revision, and has a habit of standing where he can see both the door and the table. He notices who says goodbye to everyone and who slips out quietly. He sometimes makes a note, closes the notebook, and stays to help with the unrecorded part.
+

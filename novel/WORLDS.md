@@ -1949,3 +1949,11 @@ SETH: Northgate Library opens into an old reading hall of oak galleries, green-s
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/northgate-library/README.md. Pressure 0.90; memory 1.00.
+
+## NORTHGATE LIBRARY / pulse 213 / MEMORY
+
+NICK: A detail returns in NORTHGATE LIBRARY: At night the lamps make the reading hall feel like a ship anchored in the dark. Students browse the archive, review films, share discoveries and return to familiar window seats.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-library/README.md.
+
+Source retained: worlds/northgate-library/README.md. Pressure 0.94; memory 1.00.

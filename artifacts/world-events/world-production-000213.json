@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000213",
+  "created_at": "2026-11-09T16:54:21.672610+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "MEMORY / NORTHGATE LIBRARY / worlds/northgate-library/README.md",
+  "content": "NICK: A detail returns in NORTHGATE LIBRARY: At night the lamps make the reading hall feel like a ship anchored in the dark. Students browse the archive, review films, share discoveries and return to familiar window seats.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-library/README.md.",
+  "production_note": "The world resolved its memory rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 213,
+    "actor": "TYLER",
+    "world": "NORTHGATE LIBRARY",
+    "region_id": "northgate-library",
+    "source": "worlds/northgate-library/README.md",
+    "phase": "MEMORY",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

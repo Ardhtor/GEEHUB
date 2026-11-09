@@ -1,4 +1,4 @@
-# GEEHUB Growth Study 001 — V2.2 Articulated Appendages
+# GEEHUB Growth Study 001 — V2.3 Locomotion and Articulated Appendages
 
 V2 addresses the first prototype's largest visual limitation: the body was made from separate ellipsoids. This pass fuses overlapping body volumes into one connected skin blockout, then assigns each remeshed vertex blended weights from its three nearest armature bone segments.
 
@@ -22,8 +22,13 @@ The script writes a `.blend` project and two PNG preview renders. When run as a 
 
 Select `GROWTH_RIG — master control` and adjust its `growth` custom property between 0 and 1, or use the four timeline stages at frames 1, 36, 72, and 108.
 
+## Locomotion — RUN_AWAY
+The rig carries two independent NLA tracks: 01_GROWTH — independent stage control and 02_LOCOMOTION — run away. The run action turns the figure 180 degrees, drives four 24-frame gait cycles, counter-swings the arms, flexes the knees and ankles, articulates the digits, and moves the rig 9 scene units along world +Y away from the fixed camera. The camera uses a perspective lens matched to the previous starting composition, so the character visibly recedes instead of remaining the same size as with orthographic projection. Mute the locomotion NLA track to disable the retreat; the growth track remains separate.
+
+The run takes place after the four growth stages, from frame 108 through frame 208. The final preview render is run_away_retreat_endpoint.png.
+
 ## Validation
-The full updated script has not yet been recompiled, and Blender execution has not yet been run because Blender is not installed in the authoring environment. Voxel-remesh output, weight quality, render appearance, and animation behavior remain pending Blender validation.
+The full updated script has not yet been recompiled, and Blender execution has not yet been run in this authoring environment. Voxel-remesh output, weight quality, render appearance, and animation behavior remain pending Blender validation.
 
 This is a procedural blockout, not a finished anatomical character. Fusion removes gaps between anatomy volumes but does not provide muscle sliding, corrective shapes, detailed hands, facial performance, or production-quality topology. The nearest-bone weighting is a starting heuristic and must be inspected at shoulders, elbows, hips, and knees.
 
@@ -38,7 +43,8 @@ This is a procedural blockout, not a finished anatomical character. Fusion remov
 3. Inspect blended weights in rest and all growth stages.
 4. Add corrective shapes and joint-volume preservation.
 5. Calibrate layered skin and cloth materials under the existing lights.
-6. Build separate palm, finger, sole, and toe geometry modules; bind digit meshes to the staged controls and validate joint spacing.
-7. Add facial expression, camera motion, and a short rendered sequence after appendage and body deformation are stable.
+6. Validate the RUN_AWAY action: turn direction, gait phase, ground contact, root path, and perspective recession.
+7. Inspect wrist, elbow, hip, knee, ankle, finger, and toe deformation during locomotion.
+8. Add corrective shapes and foot-contact controls before a production animation pass.
 
 See `APPENDAGE_SYSTEM_SPEC.md` for the modular appendage construction plan, Library photo direction, and joint validation gates.

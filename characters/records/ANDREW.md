@@ -111,3 +111,13 @@ Chapters XXXI–XXXIII of *The Unplanned Convergence* extend Andrew's connection
 Andrew's coaching continues, but he also shares ordinary time: breakfast, gym maintenance, and a rain-delayed afternoon with the others. His practical requirements help shape a possible open training ground: level throwing surface, safe receiving area, and equipment storage. Other men contribute their own needs, so the place remains a shared proposal.
 
 **Linked events:** FIELD IN THE RAIN; MOUND_STUDY_01; MOONLIT_PITCH_02; THE_MOONLIT_BULLPEN_01.
+
+## Recent development — Ridge House and Marcus
+
+Chapters XXXIV–XXXVI extend Joey's life beyond the field and music shop. He visits Ridge House with Andrew and the others, helping define it as a shared residence and meeting place rather than a structure built only around his giant form. The proposed outdoor training ground remains a separate facility.
+
+At the gym, Joey reviews staged body development through the five-part visual framework in GLA-019. The review emphasizes proportional continuity and functional movement. His established Stage Four form is not advanced. He repeats a controlled walk, turn and stop while Andrew observes balance and foot contact.
+
+Marcus arrives from Gold's on 5th. Their greeting becomes FRIENDLY_CONTACT_01, a recorded fist bump. Joey and Marcus remain distinct in face, proportions and colour. The encounter develops their friendship without turning either into a copy of the Library image.
+
+**Open threads:** Ridge House inspection and first group visit; materials and drainage for the outdoor training ground; camera platform; repeatability of Joey's controlled movement.

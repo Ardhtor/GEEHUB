@@ -93,3 +93,12 @@ The book's moral resolution must not excuse the men because Joey tempted them, n
 ## Provenance and unresolved matters
 
 The thirty-foot Stage Four reveal, Teal Titan identity, deliberate control of the reveal, Joey's devilish authority, his responsibility for the men's crimes, and the use of the repeating week as a sentence are user-established fictional direction. The precise crimes, their chronology, the full mechanics of Joey's temptation, and whether Joey can ultimately relinquish his authority remain to be dramatized. These are story questions, not facts about any real person.
+
+
+## Convergence field development — moonlit bullpen
+
+In *The Unplanned Convergence*, Chapters XXVII–XXX, Joey reveals his thirty-foot Stage Four Teal Titan form at Andrew's baseball field. His arms expand in proportion with the rest of his body: enormous upper arms, forearms, and hands, while his human face, neck, and coherent anatomy remain recognizable. The moonlit pitch exceeds Andrew's in force and speed. This is a fictional event in the convergence novel and is distinct from claims about any real person or a completed 3D render.
+
+Joey's first full-scale pitch is not treated as proof of perfect control. Andrew builds a temporary target and receiving frame, then coaches him through distance, release line, shoulder path, effort, and placement. Joey demonstrates that he can hit the center square at controlled effort. He chooses to reveal his full form to the others and continue training. The next practice remains open: reduce the target size and test repeatability. Joey keeps one scuffed baseball to bring back.
+
+**Linked events:** MOONLIT_PITCH_01; MOUND_STUDY_01; MOONLIT_PITCH_02; THE_MOONLIT_BULLPEN_01. The temporary receiving frame requires inspection after use.

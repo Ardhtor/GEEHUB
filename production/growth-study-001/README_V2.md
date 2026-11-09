@@ -7,6 +7,7 @@ V2.4 extends the continuous-surface anatomy blockout with replaceable appendage 
 - `geehub_growth_study.py` — V1 modular-volume fallback.
 - `SCENE_SPEC_V2.json` — V2 scene and validation state.
 - `README_V2.md` — production notes.
+- `JOCK_HYPNOSIS_EXPERIENCE_SPEC.md` — dreamlike, ritual-driven jock gym experience design and implementation order.
 
 ## Anatomy and geometry
 The torso, pelvis, neck, head, pectoral masses, deltoids, biceps, triceps, forearms, hands, abdominal landmarks, obliques, thighs, quadriceps, calves, and feet are assembled from intersecting source volumes. Blender's voxel remesh converts them into one continuous surface. A light Smooth modifier relaxes the voxel surface. Vertex weights are then calculated from distance to armature bone segments, with each vertex blended across its three nearest deform bones. Hair, eyes, ears, and clothing remain separate replaceable objects. V2.4 preserves the named pre-fusion anatomy volumes in the hidden `SOURCE_ANATOMY_MODULES — replaceable kit` collection, so the connected render surface does not destroy the modular source assembly.

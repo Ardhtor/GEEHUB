@@ -49,7 +49,8 @@
       "run-away action is procedurally keyed but its gait axes, foot contact, and NLA blending require Blender visual validation",
       "Video6 is a generated single-view clip; arm target keys reproduce visible silhouette and timing but cannot recover hidden depth or calibrated 3D motion",
       "IK pole directions, joint limits, foot plant, and IK/FK behavior require Blender validation",
-      "FK/IK snapping, articulated heel/toe roll pivots, and corrective shoulder/elbow/knee shapes remain unfinished"
+      "FK/IK snapping, articulated heel/toe roll pivots, and corrective shoulder/elbow/knee shapes remain unfinished",
+      "toe and torso reset keys are authored at the Video6 scene boundary but require Blender evaluation to verify the preceding locomotion pose is fully cleared"
     ],
     "appendage_system": {
       "collection": "APPENDAGE_DIGITS — replaceable geometry",
@@ -68,14 +69,15 @@
         "leg": "leg_ik"
       },
       "default": {
-        "arm_ik": 1,
-        "leg_ik": 1
+        "arm_ik": 0,
+        "leg_ik": 0
       },
       "limitations": [
         "pole angles and bend directions need Blender pose validation",
         "FK/IK snapping is not yet implemented",
         "heel and toe pivots are reference controls, not a completed foot-roll mechanism"
-      ]
+      ],
+      "default_mode": "FK to preserve the initial authored rest pose; VIDEO6_POSE_STUDY enables IK for arms and planted feet"
     }
   },
   "timeline": {

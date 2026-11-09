@@ -262,3 +262,8 @@ The [Tractus Story Learning Engine](../docs/TRACTUS_STORY_LEARNING_ENGINE.md) no
 ## The Moonlit Pitch — Chapter XXVII
 
 [The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md), Chapter XXVII, brings Joey into the field as a distinct character from Joseph. Under moonlight, Joey's arms expand into his established Teal Titan Stage Four proportions. He throws a pitch that exceeds Andrew's in force and speed, while accuracy remains a skill to develop. Andrew responds by proposing drills rather than treating strength as the end of the game. The first impact and slower control comparison are retained as MOONLIT_PITCH_01. The mitt requires inspection before another full-effort throw. The [Story Learning Engine](../docs/TRACTUS_STORY_LEARNING_ENGINE.md) records the character distinction, physical continuity, and resulting open threads.
+
+
+## The Moonlit Bullpen — Chapters XXVIII–XXX
+
+[The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md), Chapters XXVIII–XXX, develop Joey and Andrew's baseball connection into a sustained practice. Andrew builds a target and teaches Joey to regulate the enormous force of his Stage Four arm. Chapter XXIX shows Joey's full thirty-foot form under moonlight and establishes a temporary reinforced receiving frame; a controlled pitch reaches the center square. Chapter XXX brings Luke, Tyler, Chase, Gabe, and Joseph to the field, each contributing to the session. Joey chooses to reveal his full form and continue training. The durable records are MOUND_STUDY_01, MOONLIT_PITCH_02, and THE_MOONLIT_BULLPEN_01. The receiving frame remains temporary and inspection-dependent. Joey's and Andrew's character records now carry the resulting state.

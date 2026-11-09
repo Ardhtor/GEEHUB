@@ -1120,5 +1120,40 @@
       "hulums-cave",
       "geehub-studio"
     ]
+  },
+  {
+    "id": "joey-colossus-chronicles",
+    "name": "Joey — The Colossus Chronicles",
+    "group": "story-series",
+    "status": "active",
+    "summary": "Five-volume adult male bodybuilding growth-fantasy saga following Joey from his first training baseline through Stage 5 Colossus and LOVE Ascendant into a new generation of growth; continuous chapters, character records, facility evolution, and relationship continuity.",
+    "path": "../lore/joey-colossus/README.md",
+    "volumes": [
+      "lore/joey-colossus/VOLUME_I_THE_BEGINNING_OF_MORE.md",
+      "lore/joey-colossus/VOLUME_II_THE_MASS_YEARS.md",
+      "lore/joey-colossus/VOLUME_III_COLOSSUS.md",
+      "lore/joey-colossus/VOLUME_IV_LOVE_ASCENDANT.md",
+      "lore/joey-colossus/VOLUME_V_BEYOND_THE_BASELINE.md"
+    ],
+    "character_record": "lore/joey-colossus/CONTINUITY_LEDGER.md",
+    "tags": [
+      "joey",
+      "fiction",
+      "muscle-growth",
+      "bodybuilding",
+      "colossus",
+      "love",
+      "multi-volume",
+      "continuity"
+    ],
+    "related": [
+      "beefythiq",
+      "growth-canvas",
+      "male-harem-virtual-space",
+      "hulums-cave",
+      "institute-of-becoming",
+      "character-records",
+      "sensation-engine"
+    ]
   }
 ]

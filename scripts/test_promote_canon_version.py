@@ -53,7 +53,7 @@ class CanonPromotionIntegrationTests(unittest.TestCase):
             "promote_canon_version.py", "experiment-001",
             "--reviewer", "unit-test-reviewer",
             "--reason", "Evidence supports the reviewed baseline.",
-            "--evidence-event-id", "baseline-event",
+            "--evidence-event-id", "evidence-001",
             *extra,
         ]
         with patch.object(sys, "argv", argv):
@@ -72,7 +72,7 @@ class CanonPromotionIntegrationTests(unittest.TestCase):
         self.assertEqual(promoted["status"], "canon")
         self.assertEqual(promoted["prior_version_id"], "experiment-001")
         self.assertEqual(promoted["promotion_event_id"], promoted["created_by_event_id"])
-        self.assertEqual(promoted["evidence_event_ids"], ["baseline-event"])
+        self.assertEqual(promoted["evidence_event_ids"], ["evidence-001"])
         event = next(item for item in activity if item["id"] == promoted["promotion_event_id"])
         self.assertEqual(event["type"], "canon_promotion")
         self.assertEqual(event["version_id"], promoted["canon_version_id"])

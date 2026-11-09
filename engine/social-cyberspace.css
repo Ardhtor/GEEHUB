@@ -19,3 +19,15 @@
 .social-reply span{font:10px monospace;letter-spacing:.13em;color:#a9c5b8}.social-reply p{margin:7px 0 0;color:#c5d0c9;font-size:12px;line-height:1.65}
 .social-feed-foot{padding:12px 24px;text-align:center;font:9px monospace;letter-spacing:.12em;opacity:.35}
 @media(max-width:600px){.social-compose-bottom{display:block}.social-compose-bottom button{padding:12px 18px;margin-top:8px}.social-feed{padding:0 16px 20px}}
+
+.social-sources{padding:0 24px 18px;border-bottom:1px solid rgba(255,255,255,.08)}
+.social-sources-label{font:9px monospace;letter-spacing:.14em;opacity:.48;margin:4px 0 10px}
+.social-source-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.social-source{display:flex;flex-direction:column;gap:5px;min-width:0;padding:12px 14px;color:#dce2dd;text-decoration:none;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.025)}
+.social-source strong{font-size:11px;letter-spacing:.04em;overflow-wrap:anywhere}
+.social-source span{font:8px monospace;letter-spacing:.12em;opacity:.45}
+.social-source:hover{background:rgba(255,255,255,.06);border-color:rgba(182,208,196,.38)}
+.social-source-note{margin:10px 0 0;font-size:10px;line-height:1.55;opacity:.45}
+.social-compose-bottom select{min-width:220px;max-width:290px;background:#0b0e11;color:#e5e9e5;border:1px solid rgba(255,255,255,.1);padding:10px;font:10px monospace;letter-spacing:.04em}
+.social-post-source{margin-top:6px;font:8px monospace;letter-spacing:.1em;color:#a9c5b8;opacity:.65}
+@media(max-width:700px){.social-source-list{grid-template-columns:1fr}.social-compose-bottom select{width:100%;max-width:none;margin-bottom:8px}}

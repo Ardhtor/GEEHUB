@@ -17,7 +17,7 @@ The run clip occupies frames 108–208. It turns the rig from its initial front-
 
 ## Gait contents
 
-The cycle keys alternate left/right thigh drive, knee recovery, counter-swinging upper arms, flexed forearms, relaxed wrists, a restrained torso rhythm, a light finger grip, and toe articulation. Root motion carries the entire rig through the scene; the camera remains static. The camera uses a 65 mm perspective lens calibrated to the old orthographic starting composition so the figure recedes as it moves away. The backdrop has been moved downrange and a pair of runway guides plus a distant threshold establish direction.
+The cycle keys alternate left/right thigh drive, knee recovery, counter-swinging upper arms, flexed forearms, relaxed wrists, a restrained torso rhythm, a light finger grip, and toe articulation. Root motion carries the entire rig through the scene; the camera remains static. The original orthographic studio camera remains unchanged. A separate fixed 100 mm vertical-fit perspective camera switches in at frame 108 and looks down the retreat lane. The backdrop has been moved downrange and a pair of runway guides plus a distant threshold establish direction.
 
 ## Controls
 

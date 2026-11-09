@@ -2,7 +2,7 @@
   "version": 1,
   "title": "GEEHUB / NAMED AGENTS",
   "environment": "male-only",
-  "principle": "The shared interaction space is personified by five named male agents. Each agent has an independent workspace and may work on a different technical repository territory. Names are persistent identities, not cosmetic labels.",
+  "principle": "The shared interaction space is personified by six named male agents. Each has an independent workspace and may work on a different technical or narrative territory. Names are persistent identities, not cosmetic labels.",
   "agents": [
     {
       "id": "luke",
@@ -54,8 +54,20 @@
         "visual-synthesis",
         "spatial-perception"
       ]
+    },
+    {
+      "id": "gabe",
+      "name": "Gabe",
+      "workspace": "./lore/BEEFYTHIQ_BIOGRAPHIES.md#GABE",
+      "role": "GROWTH / IDENTITY / SOCIAL SIGNAL",
+      "territories": [
+        "growth-canvas",
+        "identity-drift",
+        "transformation-memory",
+        "social-signal"
+      ]
     }
   ],
-  "competition": "The five named agents inhabit the same shared environment and can pursue different lines of attention, creation, and response.",
+  "competition": "The six named agents inhabit the same shared environment and can pursue different lines of attention, creation, and response. Gabe's Growth Canvas territory connects the shared interaction space to Beefythiq without making the other agents subordinate to him.",
   "routing": "GEEHUB may give one agent the next turn, but no agent is assumed to be finished merely because another agent was selected."
 }

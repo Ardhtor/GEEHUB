@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "corpus": "THE TRACTUS",
-  "index_state": "seed",
+  "index_state": "expanded",
   "note": "Seed manifest of repository sources confirmed in project continuity. Expand by inspecting repository contents; do not infer unlisted files.",
   "records": [
     {
@@ -254,6 +254,39 @@
         {
           "type": "part_of",
           "target": "TRACTUS.SYSTEM"
+        }
+      ]
+    },
+    {
+      "id": "BEEFYTHIQ.SETH_NICK_GROWTH_PAIR",
+      "type": "character_and_system_branch",
+      "title": "Seth and Nick — Big-Pec Growth Pair",
+      "aliases": [
+        "Heorot Flesh Workshop",
+        "Seth's Flesh Dynamics interruption"
+      ],
+      "path": "lore/SETH_AND_NICK_GROWTH_PAIR.md",
+      "status": "active_development",
+      "relationships": [
+        {
+          "type": "develops",
+          "target": "BEEFYTHIQ.BIOGRAPHIES",
+          "certainty": "explicit"
+        },
+        {
+          "type": "cross_references",
+          "target": "GEATISH.COMPANY",
+          "certainty": "explicit"
+        },
+        {
+          "type": "develops_concept",
+          "target": "TRACTUS.FLESH_DYNAMICS",
+          "certainty": "explicit"
+        },
+        {
+          "type": "interprets",
+          "target": "TRACTUS.DEEP_LORE",
+          "certainty": "explicit"
         }
       ]
     }

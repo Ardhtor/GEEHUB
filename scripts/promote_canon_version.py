@@ -55,6 +55,12 @@ def main() -> int:
     version = matches[0]
     if version.get("status") != "experiment":
         raise SystemExit("Only an experiment can be promoted.")
+    entity_path = ROOT / version.get("entity", "")
+    if not entity_path.is_file():
+        raise SystemExit("The experiment destination is missing.")
+    current_hash = hashlib.sha256(entity_path.read_bytes()).hexdigest()
+    if current_hash != version.get("content_sha256"):
+        raise SystemExit("The destination changed after the experiment baseline; reconcile it before promotion.")
     activity = read_jsonl(ACTIVITY)
     event_by_id = {item.get("id") or item.get("event_id"): item for item in activity}
     missing = [event_id for event_id in args.evidence_event_id if event_id not in event_by_id]

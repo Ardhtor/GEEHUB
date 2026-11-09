@@ -121,9 +121,17 @@ The prose should not rush to the next clue. Give the men time to eat, train, wor
 
 The fictional men are independent characters. Any names or public-profile references used as creative starting points must not be treated as evidence of real people's private feelings, histories, or personalities. The novel may invent actions and relationships for its fictional versions, but it must keep those inventions inside the fiction.
 
+## Joey and the true cause of the recurrence
+
+Joey is the devilish authority behind the Grand Meridian. He is the Teal Titan incarnate, thirty feet tall at Stage Four of muscle growth. He can reveal his full form whenever he chooses, but he deliberately restrains the men's perception. When they look directly at him, he can appear ordinary-sized; when they look away, he can unfold into his true scale. The body is not a projection, trick of perspective, or accidental growth. The hotel has concealed a physical presence that was already there.
+
+The weekly recurrence is Joey's sentence. He engineered the circumstances of the men's fictional crimes and now maintains the loop as punishment. The men are responsible for the choices they made; Joey is responsible for tempting, arranging, and exploiting the conditions in which those choices were made. He is not an impartial judge. The story must confront his own culpability as well as theirs. The men repeat because they keep reducing the clues to separate anomalies and refusing to accept Joey's complete physical presence. Joey could reveal himself earlier, but chooses to withhold the full truth until the final reckoning. The loop ends when they recognize his full scale and the mutual responsibility behind the sentence. Recognition does not erase the crimes or absolve Joey.
+
+The detailed Joey record is [Joey — The Teal Titan Incarnate](../characters/records/JOEY.md). The climax is [The Last Checkout](THE_LAST_CHECKOUT.md). The sole *Devil Wears Prada* carryover is the fictionalized Stanley Tucci as Director of Standards, described in [The Director of Standards](THE_DIRECTOR_OF_STANDARDS.md). No other characters or plotlines from that film enter the book.
+
 ## Open questions
 
-The seventh man remains unidentified. The face in the future-dated photograph changes according to the observer. Joseph's promise remains unassigned. Room 000 may be a place, a position in the hotel, or a name for an absence. The extra breakfast plate is collected before guests arrive. The porter, concierge, engineer, and chef retain different fragments of the men's previous actions. The missing day may be the interval between Sunday checkout and Monday arrival, a day removed from the calendar, or something more structural. The hotel may be maintaining the recurrence, surviving it, or trying to complete an event that has failed to occur. No answer is established yet.
+The individual crimes and their full chronology remain to be dramatized. The precise extent of Joey's temptation, the first occasion on which the men failed to recognize him, and whether Joey can ultimately relinquish his authority remain unresolved. The seventh man, the extra breakfast plate, the blank room register, and the missing day should now be interpreted in light of Joey's control, while retaining room for discoveries not yet made.
 
 
 ## Tonal architecture — the Grand Meridian and its sole Prada carryover

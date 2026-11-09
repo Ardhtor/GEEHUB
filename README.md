@@ -28,7 +28,7 @@ The Tractus does not separate activity from its memory. Every event produced by 
 
 ## Tractus continuity
 
-The Tractus is GEEHUB's continuity model, not a separate engine beside it. The [Tractus Continuity Contract](docs/TRACTUS_CONTINUITY_CONTRACT.md) connects event inscription, world and campus state, the autonomous narrative writer, the narrative queue, the artifact ledger, and both Atlas registries. It defines a passage as a traceable change that inherits prior state, preserves provenance, and makes consequential results discoverable by the next process. The Coach and the Institute of Becoming enter as an incubating story branch in the existing Tractus, not as a disconnected world or a claim of completed runtime behavior.
+The Tractus is GEEHUB's continuity model, not a separate engine beside it. The [Tractus Continuity Contract](docs/TRACTUS_CONTINUITY_CONTRACT.md) connects event inscription, world and campus state, the autonomous narrative writer, the narrative queue, the artifact ledger, and both Atlas registries. It defines a passage as a traceable change that inherits prior state, preserves provenance, and makes consequential results discoverable by the next process. The [Adaptive Memory Specification](docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md) adds blind retrieval, prediction-error-gated canon revisions, linked version records, and spaced retrieval at 1, 3, 7, and 21 days. The Coach and the Institute of Becoming enter as an incubating story branch in the existing Tractus, not as a disconnected world or a claim of completed runtime behavior.
 
 ## The Hewn Threshold
 
@@ -249,7 +249,7 @@ The individual-moment principle means the shared parallel history: recurring peo
 
 ## Innervation
 
-The soundtrack acts on the world instead of narrating feelings about it. **SIGNAL → BODY/SPACE RESPONSE → ACTION → SONIC RESIDUE → NEXT SIGNAL.** Each cue must initiate movement, alter pace, reveal presence, change spatial scale, reconnect a historical moment, mark a threshold, or establish a motif. See [engine/INNERVATION_ENGINE.md](engine/INNERVATION_ENGINE.md) for the action contract and cue output.
+The soundtrack acts on the world instead of narrating feelings about it. **SIGNAL → BODY/SPACE RESPONSE → ACTION → SONIC RESIDUE → NEXT SIGNAL.** Each cue must initiate movement, alter pace, reveal presence, change spatial scale, reconnect a historical moment, mark a threshold, or establish a motif. Actionable cues now carry BPM, phase, target response, synchronization mode, and before/after state under [the Innervation cue schema](engine/schemas/innervation-cue.schema.json). See [engine/INNERVATION_ENGINE.md](engine/INNERVATION_ENGINE.md) for the action contract and cue output.
 
 ## Luke growth tool
 

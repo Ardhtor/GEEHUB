@@ -50,7 +50,8 @@
       "Video6 is a generated single-view clip; arm target keys reproduce visible silhouette and timing but cannot recover hidden depth or calibrated 3D motion",
       "IK pole directions, joint limits, foot plant, and IK/FK behavior require Blender validation",
       "FK/IK snapping, articulated heel/toe roll pivots, and corrective shoulder/elbow/knee shapes remain unfinished",
-      "toe and torso reset keys are authored at the Video6 scene boundary but require Blender evaluation to verify the preceding locomotion pose is fully cleared"
+      "toe and torso reset keys are authored at the Video6 scene boundary but require Blender evaluation to verify the preceding locomotion pose is fully cleared",
+      "target positions are hand-endpoint screen-space approximations from the front view; wrist orientation and shoulder corrective deformation still require calibration"
     ],
     "appendage_system": {
       "collection": "APPENDAGE_DIGITS — replaceable geometry",
@@ -130,12 +131,15 @@
       "action": "VIDEO6_POSE — reference matched hand targets",
       "frames": {
         "start": 216,
-        "end": 360,
+        "neutral_end": 240,
+        "abduction": 252,
         "arms_wide": 264,
+        "asymmetric_raise": 270,
+        "biceps_fold": 276,
         "double_biceps": 282,
-        "hold_end": 324,
-        "release": 348,
-        "finish": 360
+        "hold_end": 336,
+        "reopen": 348,
+        "neutral_finish": 360
       },
       "independent_track": "VIDEO6_POSE — reference matched hand targets",
       "rig_state_track": "03_VIDEO6_RIG_STATE — root and IK mode",
@@ -228,9 +232,9 @@
       216,
       360
     ],
-    "action": "front stance -> arms rise to wide spread -> double biceps flex and hold -> open arms and release",
+    "action": "neutral stance -> arms abduct -> lateral spread -> screen-right fist rises first -> both arms fold into double biceps -> hold to about 5 seconds -> arms open laterally -> return to neutral by 6 seconds",
     "controls": "CTRL_VIDEO6_DRIVER drives hand targets and elbow poles; foot IK remains planted",
-    "camera": "CAM_Video6 — low frontal perspective",
+    "camera": "CAM_Video6 — 65 mm low frontal perspective, vertical sensor fit, portrait 2:3 render",
     "evidence_limit": "single generated frontal view; no calibrated camera, depth, or physical motion-capture markers; frame-shape flicker treated as generated-image noise"
   }
 }

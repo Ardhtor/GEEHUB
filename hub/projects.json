@@ -1058,5 +1058,42 @@
       "beefythiq",
       "growth-tools"
     ]
+  },
+  {
+    "id": "jock-hypnosis",
+    "name": "Jock Hypnosis — Institute Training Experience",
+    "group": "experience",
+    "status": "prototype",
+    "summary": "An immersive, dreamlike training experience connected to the Institute of Becoming. Sessions, body development, movement studies, friendships, dormitory life, dining, sound, architecture and Tractus memory share continuity.",
+    "path": "../production/growth-study-001/JOCK_HYPNOSIS_EXPERIENCE_SPEC.md",
+    "tags": [
+      "gym",
+      "training",
+      "jock",
+      "growth",
+      "dreamlike",
+      "continuity",
+      "social",
+      "institute"
+    ],
+    "related": [
+      "institute-of-becoming",
+      "the-coach",
+      "growth-study-001",
+      "sensation-engine",
+      "tractus-continuity",
+      "character-records",
+      "developing-voices",
+      "voice-engine-runtime",
+      "media-tools",
+      "geehub-studio",
+      "arboreal-audio",
+      "male-stud",
+      "sacred-corridor",
+      "the-complex",
+      "beefythiq",
+      "mass1v1ng",
+      "muscle-myth"
+    ]
   }
 ]

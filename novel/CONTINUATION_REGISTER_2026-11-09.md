@@ -76,3 +76,8 @@ Next scenes should test these traits in less orderly circumstances: Luke must ac
 ## Andrew — baseball and eccentricity
 
 [Chapter LXXVI — The Field Has Its Own Echo](chapters/CHAPTER_LXXVI_THE_FIELD_HAS_ITS_OWN_ECHO.md) establishes Andrew in his baseball environment: a big, muscular Italian player with blue eyes, whose athletic competence coexists with an eccentric system of observations about the sounds and behaviour of the field. The user has established those character facts directly. His position, team, playing level, hometown, accent, and exact measurements remain open. His linked public account remains a separate voice reference, not evidence for these fictional details.
+
+
+## The Hotel at the Edge of the Week
+
+[The Hotel at the Edge of the Week — Book I: The Sevenfold Guest](THE_HOTEL_AT_THE_EDGE_OF_THE_WEEK.md) establishes the Grand Meridian as an enclosed all-male hotel in which Monday through Sunday recur. The guests and staff are men. Ordinary episodic memory resets at the weekly boundary, while metaxic residue persists through reflections, thresholds, dreams, sounds, altered objects, repeated phrases, and impossible recognition. Luke, Tyler, Chase, Gabe, Andrew, and Joseph begin to compare these traces without assuming that any one interpretation is correct. The seventh door, the seventh man in Chase's photograph, the blue-marked baseball, and Joseph's note remain unresolved. The novel is active development; its first book is not complete.

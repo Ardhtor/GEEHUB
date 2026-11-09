@@ -49,6 +49,8 @@ required_source_tokens = (
     "APPENDAGE_DIGITS — replaceable geometry",
     "CAM_Video6",
     "VIDEO6_POSE_STUDY",
+    "Video6 Torso Reset",
+    "Video6 Toe Reset",
 )
 missing_tokens = [token for token in required_source_tokens if token not in source]
 if missing_tokens:

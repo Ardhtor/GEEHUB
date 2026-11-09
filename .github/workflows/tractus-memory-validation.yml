@@ -15,7 +15,8 @@ on:
       - "engine/retrieval_*.json"
       - "engine/schemas/*.json"
       - "engine/INNERVATION_ENGINE.md"
-      - "engine/user-response-loop.js"
+      - "engine/social-cyberspace.js"
+      - "engine/social-cyberspace.css"
       - "engine/agent-reactions.js"
       - "engine/reaction-consequence.js"
       - "index.html"
@@ -43,7 +44,7 @@ jobs:
           python-version: "3.12"
       - name: Check browser interaction modules
         run: |
-          node --check engine/user-response-loop.js
+          node --check engine/social-cyberspace.js
           node --check engine/agent-reactions.js
           node --check engine/reaction-consequence.js
       - name: Compile Tractus modules

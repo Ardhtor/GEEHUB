@@ -47,3 +47,6 @@ The connected design currently establishes the relationships and registry entrie
 
 
 The Institute's software and production path is tracked in [GEEHUB Execution Paths](../docs/GEEHUB_EXECUTION_PATHS.md), including its first typed event adapter and the sequence for extending continuity into residences, body state, voice, media and other Tractus places.
+
+
+[The Passage Between Buildings](INSTITUTE_THE_PASSAGE_BETWEEN_BUILDINGS.md) carries the first event adapter into the Institute's daily movement between gymnasium, residences, workshops, dining hall and partner campuses.

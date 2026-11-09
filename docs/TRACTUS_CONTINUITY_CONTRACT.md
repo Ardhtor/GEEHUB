@@ -96,3 +96,10 @@ Narrative retrieval intervals expand through 1, 3, 7, and 21 days. Workflow trig
 ### Prediction-error vocabulary
 
 Every canon update records a concrete mismatch type (`who`, `where`, `when`, `why`, or `how`) and severity (`low`, `medium`, or `high`). The writer must use these controlled values so the event validator can distinguish a genuine prediction error from a mood label or vague statement of surprise.
+
+
+## Reciprocal transformation
+
+The governing principle is specified in [lore/RECIPROCAL_TRANSFORMATION.md](../lore/RECIPROCAL_TRANSFORMATION.md). GEEHUB and its user participate in a continuing exchange: user direction changes the shared environment, while the environment returns developed possibilities, consequences, and connections. The user's decisions govern canon and priorities. Tractus may take grounded initiative within delegated scope, but must not convert unsupported inference into user intent or silently overwrite established history.
+
+A meaningful change begins from an inherited state, records the encounter or decision that prompted it, identifies the resulting difference, and propagates only to supported dependent records. Keep uncertain consequences provisional. Preserve prior versions and provenance. Retrieval alone does not authorize canon revision; the adaptive-memory and versioning requirements above remain in force. A change is integrated when its prior state, cause, resulting state, affected relationships, unresolved elements, and next available passage can be traced.

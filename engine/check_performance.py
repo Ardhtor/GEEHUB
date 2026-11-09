@@ -181,6 +181,21 @@ def check_tractus_science():
     version_ids = {item.get("canon_version_id") for item in versions if item.get("canon_version_id")}
 
     activity = load_jsonl("engine/activity.jsonl")
+    activity_by_id = {item.get("id") or item.get("event_id"): item for item in activity}
+    for version in versions:
+        created_id = version.get("created_by_event_id")
+        require(created_id in activity_by_id,
+                f"version {version.get('canon_version_id')} references a missing creation event")
+        promotion_id = version.get("promotion_event_id")
+        if promotion_id:
+            promotion = activity_by_id.get(promotion_id)
+            require(promotion is not None and promotion.get("type") == "canon_promotion",
+                    f"version {version.get('canon_version_id')} has no matching promotion event")
+            require(promotion.get("version_id") == version.get("canon_version_id"),
+                    f"promotion event {promotion_id} targets a different version")
+            evidence_ids = version.get("evidence_event_ids", [])
+            require(bool(evidence_ids) and all(event_id in activity_by_id for event_id in evidence_ids),
+                    f"version {version.get('canon_version_id')} has missing promotion evidence")
     canon_events = [item for item in activity if item.get("type") == "canon_update"]
     for event in canon_events:
         errors = validate_event(event)

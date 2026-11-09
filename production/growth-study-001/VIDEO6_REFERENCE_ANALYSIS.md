@@ -54,3 +54,15 @@ The base rig starts in FK mode to preserve its original rest pose. The Video6 ac
 ## Limitations
 
 The source is a generated single-view video rather than calibrated multi-camera footage or marker-based motion capture. The resulting rig can be matched to its visible screen-space poses and timing, but exact 3D depth trajectories cannot be inferred uniquely. IK pole settings, joint limits, skinning, corrective shapes, and final silhouette fidelity require actual Blender inspection.
+
+
+## Rigging references consulted
+
+The control design follows Blender's documented IK model: the end-effector target controls position, the pole target controls chain bend direction, chain length selects the ancestors included in the solve, and rotation following is an explicit option. This build currently enables position targeting and leaves target rotation disabled; wrist orientation therefore remains a calibration item.
+
+- Blender 4.5 LTS Manual, Inverse Kinematics Constraint: https://docs.blender.org/manual/en/4.5/animation/constraints/tracking/ik_solver.html
+- Blender 4.5 LTS Manual, NLA tracks and strips: https://docs.blender.org/manual/en/4.5/editors/nla/introduction.html
+- Blender 4.5 LTS Manual, Editing NLA strips and visual keying: https://docs.blender.org/manual/en/4.5/editors/nla/editing/strip.html
+- Blender 4.5 LTS Manual, Rigify limb types: https://docs.blender.org/manual/en/4.5/addons/rigging/rigify/rig_types/limbs.html
+
+The references are used as general rig architecture and verification guidance, not as evidence that the current custom rig already behaves identically to Rigify or has been validated in Blender.

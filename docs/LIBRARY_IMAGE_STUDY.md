@@ -200,7 +200,7 @@ The image corpus is a record of reciprocal transformation. The user's visual att
 
 A useful image record is not simply “what is pictured.” It records what the image was used to understand, what it changed in the project, what remains uncertain, and which later images inherit or contradict it.
 
-The next stage is a file-by-file visual pass with stable image IDs, actual thumbnails, source provenance, subject/location tags, and explicit duplicate/variant relationships. Until that pass is complete, categories in this document remain a working map rather than a final annotation of every image.
+The file-by-file visual pass is underway in the [Library Image Atlas](LIBRARY_IMAGE_ATLAS.md). It assigns stable image IDs, records Library file IDs, states why each image is relevant, and keeps private or restricted material out of the project corpus. The first five inspected files are indexed; the remaining inventory is still in progress.
 
 
 ## 12. Referencing Library images inside GEEHUB

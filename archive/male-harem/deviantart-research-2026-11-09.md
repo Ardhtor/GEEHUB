@@ -141,3 +141,22 @@ Official DeviantArt references:
 **Not verified:** original deviation URL and ID, current page state, image contents, gallery completeness, collection membership details, collection owner, profile biography and statistics, tags, current label state, and any rights beyond what the platform's official policy states.
 
 **Next evidence needed:** the exact deviation URL, or the original page selection including its link. A screenshot or original image would allow visual description, but the source URL is necessary for reliable provenance and gallery-level research.
+
+
+## 10. Public access check — 2026-11-09
+
+A scheduled public-page check was attempted on 2026-11-09.
+
+**Direct routes attempted:** the exact profile page, its `/gallery`, `/posts`, and `/favourites` pages, and the public DeviantArt RSS endpoint queried for `GravesBeef`.
+
+**Observed result:** the browsing service returned an access error for each direct route. Exact-handle web searches did not surface a verifiable GravesBeef profile page, deviation, journal, status update, favorite, or collection. Results for unrelated accounts were excluded.
+
+**What this establishes:** this check could not retrieve the requested public content.
+
+**What it does not establish:** it does not establish that the profile was deleted, made private, or had no new posts. No new items can be confirmed or ruled out from this failed retrieval. There is therefore no defensible new visual or thematic analysis for this date.
+
+DeviantArt's own help documentation describes public profile navigation and the Deviants You Watch feed, including separate deviation and post views. Those official pages loaded, but they do not provide GravesBeef-specific content:
+- [DeviantArt browsing help](https://www.deviantartsupport.com/kb/en/browsing)
+- [How to use Deviants You Watch](https://www.deviantartsupport.com/kb/en/article/how-do-i-use-deviants-you-watch)
+
+**Monitoring status:** the scheduled check has been paused because all tested public retrieval paths were unavailable in this run. This is an access limitation, not a conclusion about the profile's visibility or status. Resume only when a reliable public route to the exact profile is available or the user requests another attempt. The archived “Trial NoAI” restriction remains in force.

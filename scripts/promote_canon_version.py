@@ -66,6 +66,18 @@ def main() -> int:
     missing = [event_id for event_id in args.evidence_event_id if event_id not in event_by_id]
     if missing:
         raise SystemExit("Unknown evidence event IDs: " + ", ".join(missing))
+    allowed_evidence_types = {"canon_update", "CANON_REVISION", "narrative_addition"}
+    for evidence_id in args.evidence_event_id:
+        evidence = event_by_id[evidence_id]
+        if evidence_id == version.get("created_by_event_id"):
+            raise SystemExit("The baseline-capture event cannot serve as its own canon evidence.")
+        related_paths = set(evidence.get("source_paths", []))
+        if evidence.get("canon_path"):
+            related_paths.add(evidence["canon_path"])
+        if evidence.get("type") not in allowed_evidence_types or version.get("entity") not in related_paths:
+            raise SystemExit(
+                f"Evidence event {evidence_id} must be a canon/narrative event tied to {version.get('entity')}."
+            )
     if any(item.get("prior_version_id") == args.version_id and item.get("status") == "canon" for item in versions):
         raise SystemExit("This experiment already has a canon promotion.")
     event_id = "tractus-promotion-" + hashlib.sha256(

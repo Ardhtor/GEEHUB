@@ -66,8 +66,8 @@ The system changes interface state, timing, and available actions. Descriptions 
 A cue is a timed control signal, not a mood label. Every actionable cue records:
 
 - `cue_id`, `source_id`, `bpm` (30–300 when periodic; null for non-periodic sound);
-- `phase` in beats or seconds, `duration_ms`, `meter` or pulse interval;
-- `target_response`: `step`, `breath`, `turn`, `pause`, `reach`, `hold`, or a declared action;
+- `phase` (`on_beat`, `off_beat`, `break`, `silence`) and `duration_beats`;
+- `target_response`: `step`, `breath`, `turn`, `pause`, `reach`, or `stillness`;
 - `synchrony_mode`: `entrain`, `offset`, `break`, or `free`;
 - `trigger`, `action`, `state_before`, `state_after`;
 - `next_cue_allowed`, and concrete `sonic_residue`.
@@ -88,7 +88,7 @@ A narrative canon update is accepted only when:
 4. the update is consequential and does not contradict unresolved canon;
 5. the chapter passes existing destination, length, and content validation;
 6. the prior and resulting file hashes are recorded;
-7. the revision and its source event are appended without deleting prior history;
+7. the revision and its source event are recorded without deleting prior history;\n8. an experimental baseline is explicitly reviewed and promoted before the writer may revise it;
 8. the retrieval snapshot and schedule are updated;
 9. all generated files parse and tests pass.
 

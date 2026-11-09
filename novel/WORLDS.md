@@ -2013,3 +2013,11 @@ SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen,
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/cedar-house/README.md. Pressure 0.90; memory 1.00.
+
+## CEDAR HOUSE / pulse 221 / MEMORY
+
+NICK: A detail returns in CEDAR HOUSE: Someone has set an extra place at the kitchen table. The house is busy with ordinary things—bread cooling, a chair being repaired, a book left open—and nobody is asked to explain why they came.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cedar-house/README.md.
+
+Source retained: worlds/cedar-house/README.md. Pressure 0.94; memory 1.00.

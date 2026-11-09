@@ -1669,3 +1669,11 @@ SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen,
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 221 — MEMORY / CEDAR HOUSE / 2026-11-09T17:02:11.079472+00:00
+
+NICK: A detail returns in CEDAR HOUSE: Someone has set an extra place at the kitchen table. The house is busy with ordinary things—bread cooling, a chair being repaired, a book left open—and nobody is asked to explain why they came.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cedar-house/README.md.
+
+Rule: comparison can become differentiation

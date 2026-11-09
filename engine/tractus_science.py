@@ -129,6 +129,8 @@ def validate_version_records(records: list[dict[str, Any]]) -> list[str]:
             errors.append(f"record {index} has invalid canon version status")
         if record.get("status") == "superseded" and not record.get("superseded_by"):
             errors.append(f"superseded version {version_id} is missing superseded_by")
+        if record.get("status") == "canon" and record.get("baseline") is True and not record.get("promotion_event_id"):
+            errors.append(f"baseline experiment {version_id} requires an explicit promotion_event_id")
         if not record.get("entity") or not record.get("created_by_event_id"):
             errors.append(f"version {version_id} is missing entity or created_by_event_id")
         prior = record.get("prior_version_id")

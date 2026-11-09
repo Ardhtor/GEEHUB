@@ -342,3 +342,42 @@
      “Good car.”
 
      And production began.
+
+
+### VIII — The Grounds Beyond the Workshop
+
+The next production began with a drive rather than a meeting. Luke had been talking about the estate for several days, but he had not wanted to turn it into a plan before the men had seen the grounds together. The Mustang took them along the long road beyond the house, past the last row of mailboxes and the fields where the grass had grown high along the fence. The morning was bright but cool, with a pale mist still caught in the lower parts of the trees. Tyler rode beside Luke and kept asking how much further they had to go. Joseph and Kirk sat in the back with a folded site plan between them, while Bill had brought a paper bag of sandwiches and a thermos that he insisted was not optional equipment.
+
+The property opened gradually. First there was the approach road, then the older house, then a wide yard bordered by mature trees. The garage stood to one side with a workshop behind it, and beyond that the ground rose toward an orchard. It was not a finished estate, nor did it pretend to be. There were places where the grass had been worn down by years of use, a shallow drainage line that needed attention, and a stretch of ground where the old fence had begun to lean. The buildings had the particular look of places that had been useful for a long time without anyone having enough time or money to make every part of them orderly.
+
+Luke parked beside the garage. The engine ticked softly as it cooled. He got out and looked across the yard, taking in the distance between the house and workshop, the available turning space, and the line of trees that would determine where any future building could go. Tyler had already opened the garage door and was looking at the tools. Kirk walked the approach road to see where a delivery truck could turn. Joseph moved toward the orchard, checking the slope and the way the ground fell toward the ditch. Bill set the food on the porch and began making coffee as though the first task of the new estate was to establish somewhere for the men to sit.
+
+They did not begin with a grand building. They began with the garage. Tyler sorted the tools into groups, identifying what needed repair, what could be used immediately, and what had been stored without a clear reason. Kirk found a box of fittings and asked whether they belonged to the workshop or the house. Joseph returned with notes about the trees and the drainage. Luke listened to each report, then marked the first work zones on the plan. The site began to make sense as a series of connected activities rather than a collection of buildings: arrival, storage, fabrication, shared meals, recreation, quiet grounds, and the paths that would let people move between them without crossing one another's work.
+
+Bill called them back to the porch for lunch. The sandwiches were thick with roast beef, mustard, and pickles, with sliced tomatoes and cheese wrapped separately so they would not make the bread soggy. They ate in the shade and argued about the position of a future lumber store. Luke wanted it near the workshop. Tyler wanted more room for carts. Kirk pointed out that a delivery vehicle would have to turn around, and Joseph said the proposed corner was where rainwater already collected. Nobody won the discussion. They walked the ground again, moved the proposed footprint, and discovered that the new position made the path from the road simpler as well.
+
+"You've been planning this for a while," Tyler said.
+
+Luke looked at the revised marks. "I've been thinking about it."
+
+"That's not the same thing."
+
+"No. That's why we're here."
+
+The afternoon was spent measuring the garage, checking the roof, and making a list of the equipment that would be needed to establish a safe workshop. The Great Hall remained an idea on paper. The Iron Room remained a future building. The bathhouse had not been designed. Luke wanted all of them, but he began to understand that the estate would be built through a sequence of ordinary decisions, and that an early mistake in drainage or access could make every later building harder to use.
+
+Near sunset, the men walked to the orchard. The grass was long, the old trees stood at uneven intervals, and the light fell through the leaves in broad patches. Joseph stopped beside a tree whose lower branch had been tied back years earlier. He examined the old support and said that it could be repaired. Tyler looked toward the workshop and pointed out where a covered cutting area might go. Kirk calculated how much material could be unloaded without blocking the road. Luke stood between them and looked toward the house.
+
+Bill came up behind him. "You don't have to build the whole thing today."
+
+Luke smiled. "I know."
+
+"Good. Because I brought enough food for one day."
+
+They returned to the house and wrote the first site note. It recorded the existing buildings, the road, the workshop, the orchard, the drainage line, and the first proposed construction zones. It also recorded what they had not yet measured. The note did not describe the estate as complete or ready for expansion. It described a property that could become something more if the men learned how to build it carefully.
+
+The next morning Luke added one line to the top of the notebook:
+
+*The first building is the one that makes the next building possible.*
+
+He circled it, then left the page open on the table. Production had moved beyond the house, but the house remained with them. The Mustang stood outside, the garage door was open, and the old orchard was waiting for a path. Nobody needed to announce that the work had begun. They had already measured the ground.

@@ -21,7 +21,7 @@ def parse_time(value: str) -> datetime:
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
-INTERVAL_LADDER = (1, 3, 7, 14, 30)
+INTERVAL_LADDER = (1, 3, 7, 21)
 
 
 def due_threads(schedule: dict[str, Any], now: datetime | None = None) -> list[dict[str, Any]]:

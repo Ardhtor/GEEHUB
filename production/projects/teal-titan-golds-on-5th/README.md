@@ -20,6 +20,12 @@ The compatibility production manifest remains at the project root. Extended time
 
 The production subject name **Marcus** is the working fictional incarnation used by this Gold's on 5th short. The wider GEEHUB character is **Teal Titan**, whose user-established creative lineage personifies the combined creative libido of Hulum's Cave and Joey. This is a creative premise, not a claim about either person's private feelings, endorsement, or collaboration. The character record is [TEAL_TITAN.md](../../../characters/records/TEAL_TITAN.md); the machine-readable source sequence and evidence boundaries are in [TEAL_TITAN_LINEAGE.json](../../../research/relationships/TEAL_TITAN_LINEAGE.json). Dropbox `22`, `3333`, `4444`, and the anticipated fifth video must be treated as distinct source records. Do not infer the contents of an uninspected file from its filename or sequence position.
 
+## Theme song and Stage 4 reference
+
+The user-designated theme song is [The Teal Titan — YouTube](https://www.youtube.com/watch?v=PJuBIuQeZ2M), also titled in this canon **“Joey at Stage 4 Muscle Bwomph Growth.”** The supplied playlist position is [index 91](https://www.youtube.com/watch?v=PJuBIuQeZ2M&list=PLjPx8lSKXSwDHG3Y_jsx8XRC5XNTp-rUJ&index=91). This is the character's musical association, not a claim about the track's production or lyrics; its audio has not been independently inspected.
+
+A conversation-supplied six-second vertical clip is registered as a provisional Stage 4 visual reference. It shows a monumental blue-green adult bodybuilder in gray shorts, posing in a warmly lit gym. Technical metadata and SHA-256 are recorded in `07_MANIFESTS/asset_register.json` and `provenance.json`. It remains session-supplied and not yet archived in Dropbox. Do not conflate its embedded audio with the YouTube theme-song link.
+
 ## Visual continuity locks
 
 - Teal skin is a saturated blue-green, not emerald green and not cyan.

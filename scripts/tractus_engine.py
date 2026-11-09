@@ -18,7 +18,7 @@ import urllib.request
 from datetime import timedelta
 from pathlib import Path
 
-from tractus_memory import (
+from inscription import inscribe_event\nfrom tractus_memory import (
     advance_thread,
     append_jsonl,
     due_threads,
@@ -175,7 +175,7 @@ source_commit (string), bootstrap_note (string).
     state.update({
         "bootstrap_required": False,
         "last_snapshot_at": iso_utc(),
-        "last_snapshot_source_commit": result.get("source_commit") or git("rev-parse", "HEAD").stdout.strip(),
+        "last_snapshot_source_commit": git("rev-parse", "HEAD").stdout.strip(),
         "retrieval_snapshot": snapshot,
         "last_retrieval_id": None,
         "bootstrap_note": result.get("bootstrap_note", "Initial canon-derived snapshot; no narrative written."),

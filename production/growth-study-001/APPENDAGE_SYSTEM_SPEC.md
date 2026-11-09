@@ -16,7 +16,7 @@ The photographs establish silhouette, proportion, pose, material response, and v
 
 ## Construction principle
 
-Keep two representations available. The visible character uses a continuous skin surface where adjacent anatomical regions need to read as one body. The hidden source kit preserves named replaceable components so an arm, forearm, hand, thigh, calf, palm, finger, foot, or toe can be rebuilt without losing the entire figure. The V2.1 script now preserves the pre-fusion source volumes in `SOURCE_ANATOMY_MODULES — replaceable kit`; this is a geometry source archive, not yet a finished modular export system.
+Keep two representations available. The visible character uses a continuous skin surface where adjacent anatomical regions need to read as one body. The hidden source kit preserves named replaceable components so an arm, forearm, hand, thigh, calf, palm, finger, foot, or toe can be rebuilt without losing the entire figure. The V2.2 script now preserves the pre-fusion source volumes in `SOURCE_ANATOMY_MODULES — replaceable kit`; this is a geometry source archive, not yet a finished modular export system.
 
 Appendages are not generic tapered tubes. Each limb is a connected sequence of volumes with distinct silhouette responsibilities, joint landmarks, and local controls. Keep the shoulder/deltoid transition, upper arm, elbow, forearm, wrist, palm, and digits readable. Likewise preserve hip/thigh, knee, calf, ankle, foot arch, heel, ball, and toes. The largest muscle masses should remain legible without turning the joints into swollen uninterrupted cylinders.
 
@@ -36,7 +36,7 @@ Use the existing three-nearest-bone blend only as an initial weighting heuristic
 
 ## Validation gates
 
-1. Open the V2.1 project in Blender 4.x and verify the hidden source collection can be unhidden, selected, duplicated, and replaced without altering the visible fused body.
+1. Open the V2.2 project in Blender 4.x and verify the hidden source collection can be unhidden, selected, duplicated, and replaced without altering the visible fused body.
 2. Inspect the generated hand and foot digit meshes at the reference silhouette scale; check front, side, three-quarter, and low-angle views.
 3. Check the existing digit weights and bone pivots; correct the joint blend where curling or spreading causes pinching.
 4. Validate wrist, elbow, ankle, knee, thumb, finger, and toe deformation in rest, activation, expansion, and full-study frames.
@@ -45,7 +45,7 @@ Use the existing three-nearest-bone blend only as an initial weighting heuristic
 
 ## Current boundary
 
-The repository has not yet run this V2.1 scene in Blender. Python syntax can be checked independently, but voxel fusion, hidden collection behavior, digit geometry, deformation quality, material response, and renders remain pending visual validation. Do not describe the appendage system as production-ready until those checks pass.
+The repository has not yet run this V2.2 scene in Blender. Python syntax can be checked independently, but voxel fusion, hidden collection behavior, digit geometry, deformation quality, material response, and renders remain pending visual validation. Do not describe the appendage system as production-ready until those checks pass.
 
 
 ## V2.2 additions

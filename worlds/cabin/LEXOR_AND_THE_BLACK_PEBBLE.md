@@ -615,3 +615,96 @@ The chapter establishes only what the scenes show. Lexor is the keeper of names 
 Lexor leaves by choice and does not return the following morning. Privathor remains through the next evening, then visits before first light on the third morning and leaves without waking the house. He returns just after the midday meal and stays through the long afternoon. The blanket is carefully folded, the cup is rinsed and turned to dry, and the chair remains available without becoming a claim on him. Brograntimax has now gone three days without carrying his measuring chain; his first ordinary greeting with Privathor has not become a completed friendship. He makes room without demanding an explanation. Herbarius names the jar a held breath, while Pipethor interprets its minor internal shift as adjustment to being left alone. Both are recorded as character observations, not confirmed mechanisms. The jar records no external demand, and no name is spoken.
 
 The open questions remain open: what name Lexor once gave, what should never have been named, whether the pebble retains one withdrawn name or many, and what—if anything—would happen if someone completed a name aloud. The cabin does not force an answer. Its hospitality is the condition that allows the question to remain.
+
+
+## O Sexto Dia — A frase que voltou
+
+Na manhã do sexto dia, a chuva tinha parado, mas o beiral continuava a pingar sobre a pedra junto à porta. Herbarius abriu a janela da cozinha e deixou entrar o cheiro das folhas molhadas. Ursalon preparava pão tostado e ovos; Pipethor tinha desmontado a pequena válvula da despensa e espalhara as peças sobre um pano limpo. A jarra permanecia no aparador, entre o corvo de madeira e a chave de Privathor. A pedra negra continuava suspensa na água. Ninguém a tinha tocado.
+
+Privathor chegou antes do almoço. Não anunciou uma razão para a visita. Tirou o casaco, pendurou-o junto à entrada e ficou alguns instantes a observar a cadeira que Brograntimax reparara no quarto dia. A madeira estava firme. O assento não rangia. A cadeira continuava disponível para qualquer pessoa, e ninguém tinha escrito nela o nome de quem a usava.
+
+Pipethor viu-o olhar.
+
+— Está melhor — disse. — Não significa que tenha de te esperar.
+
+Privathor passou a mão pela borda do encosto.
+
+— Ainda bem.
+
+Herbarius trouxe o caderno de línguas para a mesa. Desde o quinto dia, uma frase permanecia escrita na primeira página em português: *Podes entrar e sair sem dever à casa uma explicação.* Não era uma regra da casa nem uma frase que alguém tivesse de pronunciar ao chegar. Era uma tentativa de dizer que a hospitalidade podia continuar sem transformar a presença numa obrigação.
+
+— Vamos levá-la para outra língua — disse Herbarius. — Não para provar que as palavras são iguais. Para descobrir o que muda durante a viagem.
+
+Coach entrou com duas canecas e ouviu a frase. Leu-a devagar, primeiro em português, depois em inglês: “You may come and go without owing the house an explanation.” A tradução parecia natural, mas Privathor apontou para uma diferença.
+
+— *May* pode soar como permissão concedida por alguém que tem autoridade para permitir.
+
+— E *podes* também pode soar assim — disse Herbarius. — Depende de quem fala, e de como.
+
+Ursalon pousou o pão no centro da mesa.
+
+— Então não comecem por decidir quem permite. Comecem pelo que a casa faz.
+
+Pipethor escreveu uma primeira versão de trabalho em aramaico literário, usando a escrita hebraica quadrada que o grupo já experimentara no caderno. Não a apresentou como uma inscrição antiga nem como uma forma histórica estabelecida. Era uma tentativa contemporânea, provisória, feita para esta conversa.
+
+### ניסוח ספרותי ניסיוני בארמית
+
+**אתה יכול למיעל ולמיפק, ולא חייב לביתא פירושא על היעדרך.**
+
+### Transliteração de trabalho
+
+*Atah yakhol le-meʿal u-le-mippaq, ve-la ḥayyav le-bayta perusha ʿal heʿedrekh.*
+
+### Retorno ao português
+
+*Podes entrar e sair, e não deves à casa uma explicação da tua ausência.*
+
+A frase tinha regressado diferente. Na primeira versão, a casa não exigia uma explicação. Na versão que voltava, a ausência tornara-se explícita, e a frase parecia falar mais da partida do que da liberdade de entrar. Herbarius rodeou as duas expressões no caderno. Privathor leu as linhas sem pressa.
+
+— A diferença importa — disse. — Não devo uma explicação por ter saído. Mas também não quero que a casa tenha de fingir que não notou a minha ausência.
+
+Ursalon sentou-se.
+
+— A casa pode notar. Só não pode transformar a observação numa cobrança.
+
+Coach escreveu uma segunda formulação em inglês: “The house may notice that you are gone; it does not own the reason.” Herbarius tentou regressar ao português: *A casa pode notar a tua ausência, mas não possui a razão dela.* Privathor gostou da segunda parte, embora achasse que *possui* era demasiado duro para a frase que procuravam.
+
+— Talvez — disse — a casa possa guardar o lugar sem guardar uma dívida.
+
+Pipethor fechou o pequeno estojo dos instrumentos.
+
+— Isso já é outra frase.
+
+— Sim — respondeu Privathor. — Não tentem esconder a mudança.
+
+O caderno ficou aberto na mesa. Foram preservadas as três versões, cada uma com uma nota sobre o que tinha acrescentado ou perdido. O português inicial mantinha a liberdade de entrar e sair sem prestar contas. A versão aramaica experimental tornava a ausência mais visível. O retorno ao português separava a atenção da cobrança. Nenhuma foi declarada tradução perfeita.
+
+Depois do almoço, Privathor ajudou Ursalon a levar lenha para o abrigo exterior. Trabalharam em silêncio durante algum tempo. Quando regressaram, Brograntimax tinha deixado uma pequena peça de carvalho sobre a mesa: uma cunha nova para a porta da cozinha, cortada para impedir que ela batesse quando o vento vinha do oeste. Não era uma lembrança destinada a Privathor. Era uma solução para um incómodo que todos tinham ouvido.
+
+— A porta estava a bater — explicou Brograntimax. — Agora já não bate.
+
+Privathor segurou a cunha e examinou o encaixe.
+
+— Fizeste isto hoje?
+
+— Depois do pequeno-almoço.
+
+— E não escreveste o meu nome.
+
+Brograntimax olhou para ele, sem compreender de imediato.
+
+— A porta não precisava do teu nome.
+
+Privathor assentiu. Levou a cunha até à porta e verificou como se ajustava. O vento empurrou a madeira uma vez, mas a porta ficou quieta. A pequena peça cumpriu o seu trabalho sem pedir que alguém a interpretasse.
+
+Ao fim da tarde, Herbarius acrescentou ao caderno uma última frase, sem a apresentar como equivalente de qualquer das anteriores:
+
+*Uma casa pode lembrar que estiveste aqui sem exigir que expliques por que saíste.*
+
+Privathor leu-a. Não pediu que a retirassem. Também não a assinou.
+
+A jarra permaneceu imóvel no aparador. A pedra negra continuou a girar lentamente no centro da água. O caderno ficou aberto, com as versões lado a lado e as diferenças visíveis. A casa tinha aprendido mais uma maneira de receber alguém: podia notar uma chegada, notar uma partida e conservar ambas sem transformar nenhuma delas numa obrigação.
+
+### Continuity Record — o sexto dia
+
+The sixth day advances the language notebook through a round trip from Portuguese into an explicitly experimental literary Aramaic rendering in Hebrew square script and back into Portuguese. The wording shifts: the return version makes absence explicit, prompting the men to distinguish noticing from demanding an explanation. The formulations are preserved side by side rather than normalized into a false equivalence. The new oak door wedge is an ordinary shared repair, not a gift claimed by or for Privathor. He arrives voluntarily, helps with the wood, and leaves the sentence unsigned. The jar, black pebble, withdrawn name, and its purpose remain unresolved.

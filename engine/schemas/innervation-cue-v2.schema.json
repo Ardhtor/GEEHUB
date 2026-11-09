@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geehub.local/schemas/innervation-cue-v2.schema.json",
+  "title": "Innervation Tempo-Tagged Action Cue v2",
+  "type": "object",
+  "required": [
+    "cue_id",
+    "event_id",
+    "timestamp",
+    "signal",
+    "bpm",
+    "phase",
+    "duration_beats",
+    "target_response",
+    "spatial_change",
+    "action",
+    "sonic_residue",
+    "state_change"
+  ],
+  "properties": {
+    "cue_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "signal": {
+      "type": "string",
+      "minLength": 1
+    },
+    "bpm": {
+      "type": "number",
+      "minimum": 30,
+      "maximum": 300
+    },
+    "phase": {
+      "enum": [
+        "on_beat",
+        "off_beat",
+        "break",
+        "silence"
+      ]
+    },
+    "duration_beats": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "target_response": {
+      "enum": [
+        "pause",
+        "step",
+        "turn",
+        "breath",
+        "reach",
+        "stillness"
+      ]
+    },
+    "spatial_change": {
+      "type": "string",
+      "minLength": 1
+    },
+    "action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sonic_residue": {
+      "type": "string",
+      "minLength": 1
+    },
+    "silence_beats": {
+      "type": "number",
+      "minimum": 0
+    },
+    "recalled_cue_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "state_change": {
+      "type": "object",
+      "properties": {
+        "tempo_before": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "tempo_after": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "routes_before": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "routes_after": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "presence_before": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "presence_after": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scale_before": {},
+        "scale_after": {}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

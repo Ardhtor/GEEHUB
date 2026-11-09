@@ -28,11 +28,14 @@
       "id": "andrew",
       "name": "Andrew",
       "workspace": "./creative/measure-between-us/repos/andrew-field/README.md",
-      "role": "MOVEMENT / PLAY / ACTION",
+      "role": "BASEBALL / ECCENTRICITY / MOVEMENT / PLAY",
       "territories": [
+        "baseball-field",
+        "eccentric-observation",
         "visual-synthesis",
         "linux-material"
-      ]
+      ],
+      "characterRecord": "./characters/records/ANDREW.md"
     },
     {
       "id": "joseph",

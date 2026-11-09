@@ -1,60 +1,69 @@
-/* GEEHUB / SOCIAL CYBERSPACE
-   External social platforms are doors, not the world itself.
-   This surface can draft, queue, and observe locally; live posting occurs only through an authenticated adapter.
+/* GEEHUB / OCCASIONAL POSTS
+   A quiet, local social feed. Nothing reacts to scrolling or ordinary navigation.
+   One member responds when the user deliberately publishes a post.
 */
 (() => {
   const root=document.querySelector('#socialCyberspace');
   if(!root)return;
-  const state={manifest:null,queue:null,active:'instagram'};
+  const KEY='geehub-social-posts-v1';
+  const TURN='geehub-social-reply-turn-v1';
+  const members=[
+    {id:'luke',name:'Luke',tone:'He takes the post in as a presence before deciding what to do with it.',reply:p=>/video|youtube|image|visual|photo|render/i.test(p.text+' '+p.url)?'I’ll look at this as a visual reference. The fact that you brought this particular piece here is worth keeping.':'I’m staying with the thing you chose to put in front of us. There may be more in it than the first glance.'},
+    {id:'tyler',name:'Tyler',tone:'He looks for the detail that can be tested or developed.',reply:p=>/build|make|design|engine|code|tool|work/i.test(p.text)?'I want to see what can be made from this. I’ll keep the useful detail separate from the guesswork.':'I’m looking for the specific detail that gives this post its shape.'},
+    {id:'andrew',name:'Andrew',tone:'He treats the post as an opening for an exchange.',reply:p=>'This gives us something to pick up and move around. I’d rather see where it leads than close it down too quickly.'},
+    {id:'joseph',name:'Joey',tone:'He notices what the post carries forward from earlier moments.',reply:p=>/memory|remember|old|return|story|song|relationship/i.test(p.text+' '+p.url)?'There’s a thread here that feels worth carrying forward. I don’t want to decide its meaning for you.':'I’ll keep this with the other things you’ve brought here. Sometimes the connection appears later.'},
+    {id:'chase',name:'Chase',tone:'He records what was actually shared and leaves the rest open.',reply:p=>'Noted. I’ll keep the post intact and leave room for a more specific reading when there’s more context.'}
+  ];
   const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-  const platformNames={instagram:'INSTAGRAM',facebook:'FACEBOOK',tiktok:'TIKTOK',youtube:'YOUTUBE'};
-
+  const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch{return[]}};
+  let posts=read();
+  if(!posts.length){
+    posts=[{
+      id:'seed-gravesbroden-video',author:'YOU',text:'A video from my channel.',url:'https://www.youtube.com/watch?v=-Iu-1U4qFWs',
+      channel:'https://www.youtube.com/@GravesBroden',at:Date.now(),reply:{agent:'luke',text:'I’ll take this as a visual reference. I haven’t inspected the clip itself here, so I’ll leave its details open until we look at it together.'}
+    }];
+    localStorage.setItem(KEY,JSON.stringify(posts));
+  }
+  const youtubeId=url=>{
+    try{const u=new URL(url);if(!['youtube.com','www.youtube.com','m.youtube.com','youtu.be'].includes(u.hostname))return null;return u.hostname==='youtu.be'?u.pathname.slice(1):u.searchParams.get('v')||u.pathname.match(/\/(?:shorts|embed)\/([^/?]+)/)?.[1]||null}catch{return null}
+  };
+  const ago=at=>{const m=Math.max(0,Math.floor((Date.now()-at)/60000));return m<1?'just now':m<60?m+'m ago':m<1440?Math.floor(m/60)+'h ago':Math.floor(m/1440)+'d ago'};
   function render(){
-    if(!state.manifest||!state.queue)return;
-    const platforms=state.manifest.platforms||{};
-    const agents=state.manifest.agents||{};
-    const recent=state.queue.recent||[];
-    root.innerHTML=
-      '<div class="social-head"><div><div class="eyebrow">CYBERSPACE / SOCIAL</div><h2>THE CORPUS ACTS OUTWARD.</h2><p>Instagram, Facebook, TikTok, and YouTube become external doors. The corpus can prepare media and responses here; authenticated adapters carry them outward and bring signals home.</p></div><div class="social-count">'+recent.length+' QUEUED</div></div>'+
-      '<div class="social-platforms">'+Object.keys(platforms).map(k=>{
-        const p=platforms[k];
-        return '<button class="social-platform '+(state.active===k?'active':'')+'" data-platform="'+k+'" type="button"><span>'+platformNames[k]+'</span><strong>'+esc(p.status).toUpperCase()+'</strong><small>'+esc((p.capabilities||[]).join(' · '))+'</small></button>';
-      }).join('')+'</div>'+
-      '<div class="social-stage"><div class="social-stream"><div class="eyebrow">CORPUS / OUTBOUND SIGNAL</div>'+recent.map(x=>'<article class="social-post"><span>'+esc(x.agent)+' / '+platformNames[x.platform]+'</span><strong>'+esc(x.title)+'</strong><p>'+esc(x.body)+'</p><small>'+esc(x.status)+'</small></article>').join('')+'</div>'+
-      '<aside class="social-agents"><div class="eyebrow">FIVE PRESENCES</div>'+Object.entries(agents).map(([id,a])=>'<button class="social-agent" data-agent="'+id+'" type="button"><strong>'+esc(a.persona)+'</strong><span>'+esc(a.stance)+'</span><small>'+esc((a.channels||[]).map(c=>platformNames[c]).join(' · '))+'</small></button>').join('')+'</aside></div>'+
-      '<div class="social-detail" id="socialDetail">Select a platform or presence. The corpus remains the source; social media is its exterior.</div>';
-    root.querySelectorAll('[data-platform]').forEach(b=>b.addEventListener('click',()=>{
-      state.active=b.dataset.platform;
-      const p=platforms[state.active];
-      root.querySelector('#socialDetail').textContent=platformNames[state.active]+' / '+String(p.status).toUpperCase()+' / '+(p.note||'');
-      root.querySelectorAll('.social-platform').forEach(x=>x.classList.toggle('active',x.dataset.platform===state.active));
-    }));
-    root.querySelectorAll('[data-agent]').forEach(b=>b.addEventListener('click',()=>{
-      const a=agents[b.dataset.agent];
-      root.querySelector('#socialDetail').textContent=a.persona+' / '+a.stance+' / CHANNELS: '+(a.channels||[]).map(c=>platformNames[c]).join(' · ');
-    }));
+    root.innerHTML=`
+      <div class="social-head"><div><div class="eyebrow">GEEHUB / COMMON FEED</div><h2>POST WHEN YOU HAVE SOMETHING.</h2><p>No tracking of every movement. Share a thought, a link, a video, or a piece of work. One of the members may answer.</p></div><div class="social-count">${posts.length} POSTS</div></div>
+      <form class="social-compose" id="socialCompose">
+        <textarea name="text" rows="2" maxlength="1200" placeholder="Write a post for the room…"></textarea>
+        <div class="social-compose-bottom"><input name="url" type="url" placeholder="Add a link (optional)"><button type="submit">POST</button></div>
+      </form>
+      <div class="social-feed">${posts.map(p=>{
+        const id=youtubeId(p.url||'');
+        const member=members.find(m=>m.id===p.reply?.agent);
+        return `<article class="social-feed-post" data-post="${esc(p.id)}">
+          <div class="social-post-meta"><strong>${esc(p.author||'YOU')}</strong><span>${esc(ago(p.at||Date.now()))}</span></div>
+          <p class="social-post-text">${esc(p.text||'')}</p>
+          ${p.url?(id?`<div class="social-video"><iframe src="https://www.youtube-nocookie.com/embed/${esc(id)}" title="Shared YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:`<a class="social-post-link" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.url)}</a>`):''}
+          ${p.channel?`<a class="social-channel-link" href="${esc(p.channel)}" target="_blank" rel="noopener noreferrer">OPEN @GRAVESBRODEN ↗</a>`:''}
+          ${p.reply?`<div class="social-reply"><span>${esc(member?.name||'GEEHUB')}</span><p>${esc(p.reply.text)}</p></div>`:''}
+        </article>`;
+      }).join('')}</div>
+      <div class="social-feed-foot">LOCAL COMMON ROOM · POSTS AND REPLIES STAY IN THIS BROWSER</div>`;
+    root.querySelector('#socialCompose').addEventListener('submit',event=>{
+      event.preventDefault();
+      const form=event.currentTarget;
+      const text=form.elements.text.value.trim();
+      const url=form.elements.url.value.trim();
+      if(!text&&!url)return;
+      if(url){try{const parsed=new URL(url);if(!['http:','https:'].includes(parsed.protocol))return;}catch{return;}}
+      const turn=Number(localStorage.getItem(TURN)||0);
+      const member=members[turn%members.length];
+      const post={id:'post-'+Date.now(),author:'YOU',text,url,at:Date.now(),reply:{agent:member.id,text:member.reply({text,url})}};
+      posts.unshift(post);posts=posts.slice(0,40);
+      localStorage.setItem(KEY,JSON.stringify(posts));
+      localStorage.setItem(TURN,String(turn+1));
+      window.GEEHUB_INTERACTION?.emit({id:post.id,from:'you',to:member.id,type:'USER_POST',title:text.slice(0,90)||'Shared a link',body:text,url,source:'GEEHUB COMMON FEED',local:true});
+      render();
+    });
   }
-
-  async function load(){
-    try{
-      const [m,q]=await Promise.all([
-        fetch('./hub/social-cyberspace.json?ts='+Date.now(),{cache:'no-store'}),
-        fetch('./hub/social-queue.json?ts='+Date.now(),{cache:'no-store'})
-      ]);
-      if(!m.ok||!q.ok)throw new Error('social');
-      state.manifest=await m.json();state.queue=await q.json();render();
-    }catch{root.innerHTML='<div class="interaction-empty">SOCIAL CYBERSPACE OFFLINE.</div>';}
-  }
-
-  window.addEventListener('geehub:interaction',e=>{
-    const event=e.detail||{};
-    if(['ARRIVAL','ENCOUNTER','OFFER','TRANSFORM','RETURN','MEMORY'].includes(event.type)){
-      const platform=state.manifest?.agents?.[event.from]?.channels?.[0]||'instagram';
-      root.dataset.lastEvent=event.id||'';
-      const detail=document.querySelector('#socialDetail');
-      if(detail)detail.textContent='CORPUS SIGNAL: '+(event.title||event.type)+' → SOCIAL DRAFT / '+platformNames[platform];
-    }
-  });
-  load();
-  setInterval(load,20000);
+  render();
+  window.GEEHUB_SOCIAL_FEED={posts:()=>JSON.parse(JSON.stringify(posts)),clear:()=>{posts=[];localStorage.removeItem(KEY);render();}};
 })();

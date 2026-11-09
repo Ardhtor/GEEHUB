@@ -1,0 +1,7 @@
+# THE CABIN
+
+The Cabin is a lived-in home in the Tractus, set among a wooded ridge, a grove, and a path that remains lit after dark. Its rooms are modest and used: a main room with a stove and hearth, a kitchen with a pantry machine, a table for ordinary work, a mantel, an oak bench, and a porch with a lantern. Meltwater darkens the boards when snow begins to thaw. The east window throws morning light across the hearthstones.
+
+The house is maintained through small acts rather than ceremony. Ursalon cooks and repairs; the pantry machine records objects and visits without claiming to understand them; the porch lantern marks an open path. The main room can be rearranged to make passage easier, and the stove-side chair remains available without making anyone explain whether they intend to stay. The ducks, crow, brass key, black-pebble jar, and later a small wooden button share the mantel as ordinary objects.
+
+The Cabin's social continuity is built from unforced presence. People may enter, sit, eat, leave, and return without having to turn each movement into a declaration. Its current chronicle is [The Jar of Almost-Names](LEXOR_AND_THE_BLACK_PEBBLE.md), which records Lexor's arrival and the following day. The jar's purpose remains unresolved; the house makes room for it without making it the main event.

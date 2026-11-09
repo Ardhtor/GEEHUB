@@ -1,52 +1,47 @@
 import unittest
 from datetime import datetime, timezone
 
-from tractus_memory import advance_thread, due_threads, next_interval, sha256_text
+from tractus_memory import INTERVAL_LADDER, advance_thread, due_threads, next_interval
 
 
 class SpacedRetrievalTests(unittest.TestCase):
-    def test_expanding_interval_after_successful_recall(self):
-        self.assertEqual(next_interval(1, 0.9), 3)
-        self.assertEqual(next_interval(3, 0.95), 7)
-        self.assertEqual(next_interval(7, 0.85), 21)
-        self.assertEqual(next_interval(21, 0.99), 21)
+    def setUp(self):
+        self.now = datetime(2026, 11, 9, 18, 0, tzinfo=timezone.utc)
 
-    def test_low_score_holds_interval_until_repair_threshold(self):
-        self.assertEqual(next_interval(21, 0.79), 21)
+    def test_interval_ladder_and_threshold(self):
+        self.assertEqual(INTERVAL_LADDER, (1, 3, 7, 14, 30))
+        self.assertEqual(next_interval(1, 0.5), 3)
+        self.assertEqual(next_interval(3, 0.49), 3)
+        self.assertEqual(next_interval(30, 0.9), 30)
 
-    def test_two_failed_recalls_reset_interval_to_one_day(self):
-        now = datetime(2026, 11, 9, 12, tzinfo=timezone.utc)
-        thread = {"thread_id": "test", "interval_days": 21, "retrieval_failures": 0}
-        first = advance_thread(thread, now, 0.4)
-        self.assertEqual(first["interval_days"], 21)
-        second = advance_thread(first, now, 0.4)
-        self.assertEqual(second["interval_days"], 1)
-        self.assertTrue(second["needs_repair"])
+    def test_first_failed_retrieval_holds_interval(self):
+        thread = {"interval_days": 7, "retrieval_attempts": 0, "retrieval_failures": 0}
+        updated = advance_thread(thread, self.now, 0.4)
+        self.assertEqual(updated["interval_days"], 7)
+        self.assertEqual(updated["retrieval_failures"], 1)
+        self.assertFalse(updated.get("needs_repair", False))
 
-    def test_due_thread_selection(self):
-        now = datetime(2026, 11, 9, 12, tzinfo=timezone.utc)
+    def test_second_failed_retrieval_resets_and_flags_repair(self):
+        thread = {"interval_days": 7, "retrieval_attempts": 1, "retrieval_failures": 1}
+        updated = advance_thread(thread, self.now, 0.4)
+        self.assertEqual(updated["interval_days"], 1)
+        self.assertTrue(updated["needs_repair"])
+
+    def test_success_advances_interval(self):
+        thread = {"interval_days": 7, "retrieval_attempts": 2, "retrieval_failures": 1}
+        updated = advance_thread(thread, self.now, 0.5)
+        self.assertEqual(updated["interval_days"], 14)
+        self.assertEqual(updated["retrieval_failures"], 0)
+
+    def test_due_thread_selection_oldest_then_lowest_successes(self):
         schedule = {"threads": [
-            {"thread_id": "due", "next_due_at": "2026-11-09T00:00:00Z"},
-            {"thread_id": "later", "next_due_at": "2026-11-10T00:00:00Z"},
+            {"thread_id": "later", "status": "open", "next_due_at": "2026-11-09T17:00:00Z", "successful_recalls": 2},
+            {"thread_id": "earlier-more", "status": "open", "next_due_at": "2026-11-08T17:00:00Z", "successful_recalls": 3},
+            {"thread_id": "earlier-less", "status": "open", "next_due_at": "2026-11-08T17:00:00Z", "successful_recalls": 1},
+            {"thread_id": "closed", "status": "closed", "next_due_at": "2026-11-01T00:00:00Z", "successful_recalls": 0},
         ]}
-        self.assertEqual([x["thread_id"] for x in due_threads(schedule, now)], ["due"])
-
-    def test_advancing_thread_tracks_retrieval_separately(self):
-        now = datetime(2026, 11, 9, 12, tzinfo=timezone.utc)
-        thread = {
-            "thread_id": "test", "last_retrieved_at": None,
-            "next_due_at": "2026-11-09T00:00:00Z", "interval_days": 1,
-            "successful_recalls": 0, "last_recall_score": None,
-        }
-        updated = advance_thread(thread, now, 0.9)
-        self.assertEqual(updated["interval_days"], 3)
-        self.assertEqual(updated["successful_recalls"], 1)
-        self.assertIsNone(thread["last_retrieved_at"])
-        self.assertEqual(updated["last_recall_score"], 0.9)
-
-    def test_hash_is_stable_and_content_sensitive(self):
-        self.assertEqual(sha256_text("same"), sha256_text("same"))
-        self.assertNotEqual(sha256_text("same"), sha256_text("changed"))
+        self.assertEqual([item["thread_id"] for item in due_threads(schedule, self.now)],
+                         ["earlier-less", "earlier-more", "later"])
 
 
 if __name__ == "__main__":

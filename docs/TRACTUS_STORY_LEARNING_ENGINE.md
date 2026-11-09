@@ -165,3 +165,21 @@ New state:
 - The Library atlas grows to fifteen inspected images; five new entries are cross-referenced by the novel.
 
 The three chapters were read against the current atlas entries. Image names and visual descriptions are retained as references, not treated as proof of real-world identity or relationship.
+
+## Learning pass — Chapters Thirty-Four to Thirty-Six
+
+The Library now contributes a destination, a staged-growth vocabulary, a locker-room environment, and a social gesture.
+
+GLA-017, Twilight Mountain Lodge Estate, informs Ridge House: timber galleries, a central court, warm dining room, library and service wing. The novel gives the location its own fictional geography and practical requirements. It is not a claim that the pictured property is the story location.
+
+GLA-019, Giant Growth Phases Infographic, informs a five-part review method. The sequence requires joints, neck, hands, feet, hips, legs and torso to develop coherently. It does not advance Joey beyond his established Stage Four state. The rejected hand and shoulder passes are preserved as corrections rather than silently overwritten.
+
+GLA-020, Giant Bodybuilder in Gritty Locker Room, informs the practical aftermath of training: lockers, towels, benches, equipment and conversation. GLA-018, Colossal Gym Titans' Friendly Fist Bump, informs Joey and Marcus's greeting without assigning the depicted identities to either character. GLA-016, Facility Growth: Week by Week, informs the social and temporal dimension of growth, but its dialogue and schedule are not adopted as canon.
+
+New state:
+- Ridge House is an established fictional destination with a dining room, library, covered terrace, service wing and central court.
+- The proposed training ground remains separate from the shared residence.
+- Joey's Stage Four form remains unchanged in canon; the five-stage sequence becomes a review framework, not a stage promotion.
+- FRIENDLY_CONTACT_01 records Joey and Marcus's fist bump.
+- Andrew continues to coach movement, balance, foot contact and repeatability rather than maximum force alone.
+- The Library atlas now contains twenty inspected entries across four batches.

@@ -360,3 +360,162 @@ The first entries were the quay hinge, the Convent roof survey, the Lantern Mark
 The register was tested with an ordinary wooden chair from the Northgate library. It had been repaired twice, moved to three rooms, and used by men who left notes beneath its seat. The history was incomplete, but the register did not confuse incompleteness with uselessness.
 
 Outside, campus lamps came on. The market began its evening trade. The Convent's roof dried beneath a clearing sky. The quay's makers swept the workshop floor. In Hrothgar, a man poured tea for someone who had not asked. The register had not solved continuity. It had made continuity easier to practice. Its next page remained blank.
+
+
+## XXVII. Northgate — The Men Who Kept the Lights On
+
+The power failed during the second week of the workshop term. It began with a flicker in the library's west wing, passed through the athletic commons, and left the old gym in darkness while the campus clock continued to run. The emergency lights came on in the newer buildings. In the older rooms, the men found themselves standing among half-finished projects, open books, and machines that had stopped in the middle of their work.
+
+No one panicked. The facilities crew arrived with lamps and a cart of tools. The students were asked to leave the machines untouched until the circuits had been checked. A young engineer wanted to follow the fault immediately, but the chief electrician told him to begin by asking what had changed. The answer was not dramatic: a temporary heater had been connected to an old outlet, a cable had been moved to make room for a workbench, and a breaker had begun to fail intermittently.
+
+The electrician divided the investigation into sections. One man checked the distribution panel. Another walked the west wing with a meter. A third recorded which rooms had lost power and which remained live. The students followed, not as spectators but as assistants. They learned to label each test, to distinguish a suspected cause from a confirmed one, and to leave a safe route through the rooms.
+
+The failure was traced to an overloaded branch and a damaged connection in a junction box above the old gym corridor. The repair required shutting down part of the building for the evening. The workshop term was interrupted. Instead of treating the interruption as lost time, the instructors moved the class to the library steps and asked each group to explain what it had learned about the building.
+
+One student described the difference between a drawing and a lived system. Another spoke about maintenance as a form of institutional memory. The electrician, who had been listening while coiling a cable, said that buildings were full of decisions made by people who were no longer around to explain them. If the next crew did not record the changes, the building would eventually become a puzzle with live wires in it.
+
+The campus created a shared maintenance archive. It included circuit diagrams, inspection dates, known modifications, photographs of concealed junctions, and the names of the people who had done the work. The archive was not made public in full; safety-sensitive details remained with the facilities crew. But the students could study the history of the systems they depended on.
+
+That night, the lights returned in sequence. The old gym came on last. A rowing mechanism resumed its slow rotation, and the bench prototype stood where the students had left it. The electrician checked the corridor twice before leaving. A student thanked him. He shrugged and said the building would be there tomorrow, which was the point.
+
+The next morning, Northgate's workshop term resumed with a new project: a low-energy lighting assembly for the library's shaded courtyard. It would use replaceable parts, accessible fasteners, and a manual override. The students were told that it must be possible for a future crew to understand the design without having met its makers. They began with the wiring diagram, then went outside to observe where people actually walked after dark.
+
+## XXVIII. Hrothgar — The Winter Assembly
+
+The winter assembly was not a feast and not a contest. It was the meeting at which the men of Hrothgar decided what needed to be carried through the cold months. The stores were counted, roofs inspected, fuel divided, and travel plans compared. The old warriors still sat near the central fire, but the keeper had made room at the table for builders, cooks, messengers, younger men, and those whose work rarely appeared in the songs.
+
+A disagreement arose over the northern road. The bridge was usable, but the approaches had become slick, and one of the support stones had shifted. The men who used the road daily wanted it closed until repairs could be made. The traders argued that a closure would delay food and tools. A young guard suggested that the strongest men should simply escort every cart across.
+
+The keeper asked for measurements. The builders described the shifted stone; the traders listed the deliveries; the guards explained how much weight they could safely support. The meeting did not settle the matter by choosing the most confident speaker. It divided the problem. Light carts could use the bridge under supervision. Heavy loads would take the longer southern route. A repair crew would begin at first light, and the road would be inspected again before the next market day.
+
+After the practical business, the keeper asked whether anyone needed to add something that had not fitted into the reports. A man near the back stood up. He had returned from a long journey and had not slept well since. He did not want advice. He wanted the others to know that he would be quiet for a while and might leave the hall early. The keeper nodded and moved his place nearer the door.
+
+This small accommodation became part of the assembly's record. Not the man's private reason, which he had not offered, but the agreement that a man could remain among his people without explaining every change in his manner. The hall began to recognize that belonging was not the same as constant availability.
+
+The next day, the bridge crew found that the shifted stone had cracked along its underside. The closure was extended. The traders used the southern road, and the guards carried messages between the two routes. The delay cost the market a day, but no cart was lost and no one was injured. When the bridge reopened, the keeper entered the names of the builders and the men who had accepted the detour.
+
+That evening, the returned traveler sat by the fire. He did not speak much. Someone placed a bowl beside him. Later, he helped stack the empty benches. The hall did not ask him to become cheerful. It let him return at his own pace.
+
+## XXIX. Veyrthalis — The House of Measures
+
+Beyond the Digitorium, on a slope where the fog thinned but never entirely lifted, stood a narrow building known as the House of Measures. It had been constructed for surveyors, instrument makers, map copyists, and men who needed to compare observations made at different times. Its windows faced the Dark Expanse. Its lower rooms held tables, calibrated rods, lenses, weights, and drawers of carefully labeled fragments.
+
+The House had been quiet for years. The glass from the Digitorium changed that. Its drawings could not be reconciled with ordinary reflection, and the scribes needed a place where several instruments could be used without crowding the original object. The keeper of the House agreed to receive copies, not the glass itself. He insisted that the original remain under the Digitorium's care.
+
+The first week was spent establishing a baseline. The men measured the angle of the room, the intensity of the lamps, the temperature of the glass copy, and the position of the window. They made drawings by hand and recorded the time of each observation. The image of the table appeared in some copies and not others. A camera obscura produced a faint outline; a polished metal plate showed nothing; a sheet of smoked glass held the cup but not the hand.
+
+A young instrument maker proposed that the image was responding to the observer. The keeper asked him to repeat the test with an empty room. He did. The image appeared anyway. Another scribe proposed that it was responding to the room's history. The keeper asked him to identify which history. The question remained unanswered.
+
+On the eighth night, a storm moved across the Dark Expanse. The fog pressed against the windows and the lamps burned low. One of the rods shifted on its stand. The copy of the glass showed the table again, but this time the hand had moved. It was no longer beside the book. It rested on the open page.
+
+The men did not approach the instrument. They recorded the time, checked the room, and compared the image with every drawing they possessed. No matching hand position existed in the Northgate plans. The scribe who had first noticed the cup returned to the Digitorium and asked for the unfinished tablet's catalog record. The tablet had been copied before the image changed. Its last line remained blank.
+
+The House of Measures began a new register titled *Observations Without a Common Cause*. It was not a declaration of supernatural activity. It was a promise not to force unlike observations into a single explanation. The fog outside thickened, and the men continued their work by lamplight.
+
+## XXX. The Convent — The Room of Returned Things
+
+Dan Roman found the room behind the western stair while looking for a place to store the roof survey. It had once been a storeroom. The shelves held broken hinges, cracked bowls, a bundle of old keys, a small brass bell, two chairs with mismatched legs, and several boxes whose labels had faded. Nothing in it was valuable by the Convent's current accounting, but none of it had been thrown away.
+
+The residents called it the Room of Returned Things. When an object stopped serving its first purpose, it came here until someone decided whether it could be repaired, repurposed, or released. The rule had begun without a formal decision. A man had kept a cracked bowl because it still held nails. Another had stored a bent key because it matched a lock that might someday be found. Over time the room became a record of unfinished practical judgments.
+
+Dan proposed cataloging everything. The residents agreed, with one condition: the catalog must not turn the room into a museum. Objects should remain available for use. The record would identify what was known, what was uncertain, and what repairs had been attempted. It would also state plainly when an object was beyond repair.
+
+The first item was a hinge from the old western door. It had been replaced during the winter roof work, but its pin was still sound. Bluewater Quay sent a maker to examine it. He found that the hinge could be cut down and used on a smaller cabinet. The brass bell was cleaned and returned to the entrance hall. One chair received a new cross-brace. The cracked bowl became a holder for chalk.
+
+The keys were more difficult. No one knew which locks they had served. Dan arranged them on a board and made impressions of their teeth. A locksmith from the market recognized one pattern and found that it matched a cupboard in the lower archive. Inside the cupboard were the original plans for the Convent's water channels, folded into a leather case.
+
+The plans changed the winter repair. They showed an older drain beneath the western wall, one that had been blocked during a renovation. The residents opened the channel and found that it still carried water. The new drainage route was adjusted to reconnect with it. A problem that had seemed recent was revealed to have a longer history.
+
+Dan entered the discovery in the catalog. The Room of Returned Things gained a new shelf for drawings and small mechanisms. It remained a working room. Men continued to bring objects there without knowing what they would become. The archive did not demand that every broken thing be restored. It only asked that the decision be made with care.
+
+## XXXI. The Cabin — The Long Table Outside
+
+The first warm evening arrived after a week of rain. Daddy carried the long table from the common room to the clearing beyond the porch. It was heavy enough that he could have moved it alone, but he waited for Coach and Ursalon. The three of them took the legs, lifted together, and walked it slowly along the widened path.
+
+The table had been built for the cabin's growing household. Its surface held marks from meals, repairs, maps, and the occasional argument conducted over a plate of food. Outside, it looked larger against the trees. Daddy checked the ground before setting it down. One leg rested on a stone; another needed a small wooden shim.
+
+Brograntimax arrived with benches and immediately began comparing their dimensions. He proposed a contest to see who could carry the most seats. Coach told him that the contest could wait until after the table was level. Brograntimax grumbled, then helped.
+
+As the evening went on, men arrived from the market, the quay, and the nearby road. Dan Roman brought the Convent's old water plans. A Northgate student carried the courtyard lighting diagram. A Hrothgar messenger brought a report on the bridge. Nobody had been summoned for a council. They had come because the cabin had become a place where people could bring unfinished work and find a surface large enough to lay it out.
+
+The conversation moved between practical matters and ordinary life. The lighting diagram needed a weatherproof housing. The bridge crew wanted a better method for marking temporary closures. The Convent's drain had revealed an older route that might be useful elsewhere. Someone asked whether the quay could make a folding stand for the House of Measures. The makers began sketching on the back of a menu.
+
+Daddy listened more than he spoke. His growth had made him physically imposing, but the table gave him another role: host, builder, and the man who knew where the extra plates were kept. When a visitor stood to leave, Daddy asked whether he had eaten enough for the walk home. The visitor said he had. Daddy wrapped two pieces of bread anyway.
+
+Later, after the guests had gone, Coach and Daddy carried the table back under the porch roof. They left the benches outside. The next gathering would not need to begin from an empty clearing. The cabin had acquired a second common room, open to weather and the passing paths.
+
+## XXXII. The Observation Ring — The Petition of the Minor Gods
+
+The lesser gods came to the Observation Ring with a petition. They were tired of appearing only when a larger power required a service, a joke, a warning, or a brief demonstration. They wanted histories of their own.
+
+The request unsettled the established order. Some of the major gods believed that a god's significance should be measured by the scale of the domain. Others argued that a minor domain could affect an entire world precisely because it was overlooked. Pipethor pointed out that pipes were rarely discussed until they failed. Privathor said that privacy was often treated as absence by those who benefited from intrusion. Herbarius observed that a seed did not become unimportant because it was small.
+
+The petitioners included the god of thresholds between rooms, the keeper of lost fasteners, the patron of late meals, and a quiet figure associated with the moment when a man decides to return a borrowed object. None could command a storm or raise a mountain. Each governed a recurring act that made life more workable.
+
+Gigathor proposed a hierarchy of domains. The petitioners rejected it. They did not want a larger share of power; they wanted their actions to be visible in the records. The argument continued until Potestas asked whether a god who governed a returned screwdriver could possibly stand beside a god of domination.
+
+Coach, who had been leaning against the Ring's outer rail, said that the screwdriver was probably more useful on most days.
+
+The room laughed, including some of the gods who had opposed the petition. The keeper of the Ring proposed a new practice: the archive would record divine appearances by consequence rather than spectacle. A god who prevented a door from slamming, preserved a private conversation, or helped a man find his way back to a borrowed tool could receive an entry equal in care to a god who altered the weather.
+
+Potestas did not agree, but he did not prevent the record from being changed. The minor gods began submitting accounts. Their first collection was called *The Small Powers That Hold*. It included no miracles. It described a repaired latch, a remembered meal, a lamp left burning, a quiet refusal, and a key returned before anyone had to ask.
+
+## XXXIII. The Oak Thread — The Route That Became a Place
+
+The Oak Thread had been understood as a route between worlds. Its custodians were beginning to suspect that it had become a place in its own right. The evidence was small: a rest platform appeared between two familiar crossings; a weather shelter stood where no builder remembered placing it; a post carried notices written in hands from different cities.
+
+The custodians did not announce a new realm. They mapped the platform, tested its supports, and asked travelers whether they had used it before. Some remembered passing through a grove. Others recalled a covered bridge. One man described a room with a cedar floor and a window that looked toward the sea. Their accounts did not agree.
+
+The platform had one consistent feature: people arrived there when they needed to stop. A courier rested after carrying a fragile instrument. A student waited for a message from Northgate. A Convent resident sat with a parcel of repaired keys. A Hrothgar messenger slept through an entire watch and woke to find that someone had left food beside him.
+
+The custodians began maintaining the place. They repaired the shelter roof, marked safe routes, and created a small table for messages that could be collected by the next traveler. They did not ask who had built it. The question mattered, but the platform was already being used.
+
+The first permanent object was a bench made from spare cedar. Its joints were designed at Bluewater Quay and assembled by a carpenter from Northgate. A small brass plate recorded the date and the names of the makers. Beneath it, someone later scratched a sentence: *You may stop here without explaining why.*
+
+The Oak Thread had acquired a resting place. Its purpose was no longer only to connect destinations. It could also hold a traveler between them.
+
+## XXXIV. Gilgamesh — Enkidu's Name in the City
+
+The second Gilgamesh reading began with a disagreement over the memorial. The students had proposed a public inscription naming Gilgamesh and Enkidu together. A visiting scribe argued that the inscription would be too neat. Their lives were not symmetrical, their roles were not identical, and the story did not grant them equal time. A joint inscription could honor Enkidu while still making him an attachment to the king.
+
+The class returned to the tablets. They read the passages that described Enkidu's life beyond the city, his encounter with Gilgamesh, their shared journey, and the grief that followed his death. They discussed the danger of treating a friendship as a device that exists only to improve the surviving friend.
+
+A student proposed a separate reading room named for Enkidu. Another suggested that the city should preserve a path through the gardens, a place where people could walk without being required to speak. A third argued that memorials should not turn the dead into instructions for the living.
+
+They settled on a modest project. The university would establish an open reading collection on friendship, grief, wilderness, and the meeting of unlike lives. It would include the Gilgamesh tablets, commentary, travel writing, and accounts written by people who had lost friends. The collection would not claim to represent Enkidu. It would keep the questions around his life available.
+
+The first item placed on the shelf was a copy of the unfinished tablet. The blank line remained. Beside it, a student wrote a note: *Enkidu is not only what Gilgamesh lost. He is also the life he lived.*
+
+The note was not treated as a final interpretation. It was entered as one reader's contribution. The next reader might disagree. That was the point of keeping the collection open.
+
+## XXXV. The Archive — A Day of Simultaneous Work
+
+The archive's first open day began with too many people and not enough tables. Northgate sent students; Hrothgar sent two record keepers; the Convent sent Dan Roman; Bluewater Quay sent a maker with a case of hinges; the Digitorium sent a copyist; the City With Cats sent a market clerk carrying the silk trader's docket. The cabin sent Coach, Daddy, and Ursalon, who arrived with food.
+
+The archive had expected a sequence of presentations. Instead, the visitors began working. The quay maker examined a loose cabinet door. Dan compared the Convent's old drainage plans with the archive's building survey. The market clerk corrected a miscopied weight in a trade ledger. The Hrothgar keepers asked how the archive distinguished a witness account from an official ruling. The Digitorium copyist requested a better sleeve for the smoked-glass drawings.
+
+The room became noisy in a useful way. People moved between tables, asked for tools, borrowed pencils, and discovered that several records referred to the same object under different names. One chair had been listed as a Northgate library fixture, a Convent donation, and an Oak Thread transfer. It was the same chair, but the archive had no continuous chain of custody.
+
+The catalogers did not erase the three entries. They created a shared object record and preserved each local description. The chair's history now included the library, the Convent, and the route between them. It had not become more important. It had become easier to understand.
+
+At midday, Coach opened the food. Daddy helped move the tables to make room for everyone. Ursalon sat near the door and welcomed the men as they arrived. The archive's director looked at the crowded room and admitted that the planned program had failed.
+
+Coach said, "Looks like the work showed up anyway."
+
+By evening, the loose door had been repaired, the drainage plans had been compared, the glass drawings had a protective sleeve, and the trade ledger had a corrected entry. The shared object record was still incomplete. The archive closed with more questions than it had opened with, but the questions now had people attached to them.
+
+## XXXVI. The Register of Consequences
+
+The archivists realized that their catalog recorded objects and events more reliably than it recorded what followed them. A bridge repair appeared as a completed task. The catalog did not show that traders changed their routes, that a guard's watch became shorter, or that a man who had feared the crossing began using it again. A new bench appeared as an installation. The record did not show who sat there after receiving difficult news.
+
+They created the Register of Consequences. It would not attempt to capture every effect. Instead, it would collect observations made after a change: what became easier, what became harder, who used the result, what unexpected problem appeared, and what should be reviewed later.
+
+The first entries concerned the Hrothgar bridge, Northgate's courtyard bench, the Convent drainage channel, and Daddy's widened path. The bridge had reduced travel time but required a new inspection schedule. The bench had become a meeting point but obstructed the grounds crew's preferred route for a cart. The Convent drain worked, though its outlet needed clearing after heavy rain. Daddy's path was safer, but the woodshed door still needed a wider latch.
+
+The register made no attempt to declare these outcomes successes or failures. Each change had consequences that continued beyond its completion date. The record would be revisited in a season, then again in a year.
+
+Gilgamesh's return to Uruk was added as a literary entry. The city walls endured in the story, but the epic also left readers with questions about grief, power, friendship, and the ordinary lives that continued beyond the king's journey. The register did not claim to measure an ancient city's actual outcomes. It recorded the questions the story had brought into GEEHUB's present.
+
+The final field was titled *What remains to be noticed*. It was left blank on every first entry. The archivists wanted the next observation to come from someone who had used the change, not from the person who had designed it.
+
+The register was carried to the Oak Thread platform and placed on the cedar bench. Travelers could read it, add a dated observation, or leave it untouched. The worlds had begun to understand that a story did not end when its chapter closed. It continued in the behavior of people who had encountered it.

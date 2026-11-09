@@ -23,7 +23,7 @@ The script writes a `.blend` project and two PNG preview renders. When run as a 
 Select `GROWTH_RIG — master control` and adjust its `growth` custom property between 0 and 1, or use the four timeline stages at frames 1, 36, 72, and 108.
 
 ## Locomotion — RUN_AWAY
-The rig carries two independent NLA tracks: 01_GROWTH — independent stage control and 02_LOCOMOTION — run away. The run action turns the figure 180 degrees, drives four 24-frame gait cycles, counter-swings the arms, flexes the knees and ankles, articulates the digits, and moves the rig 9 scene units along world +Y away from the fixed camera. The camera uses a perspective lens matched to the previous starting composition, so the character visibly recedes instead of remaining the same size as with orthographic projection. Mute the locomotion NLA track to disable the retreat; the growth track remains separate.
+The rig carries two independent NLA tracks: 01_GROWTH — independent stage control and 02_LOCOMOTION — run away. The run action turns the figure 180 degrees, drives four 24-frame gait cycles, counter-swings the arms, flexes the knees and ankles, articulates the digits, and moves the rig 9 scene units along world +Y away from the fixed camera. The original orthographic studio camera remains unchanged. A separate fixed perspective camera takes over at frame 108 for the retreat, so the character visibly recedes while the original growth-study framing is preserved. Mute the locomotion NLA track to disable the retreat; the growth track remains separate.
 
 The run takes place after the four growth stages, from frame 108 through frame 208. The final preview render is run_away_retreat_endpoint.png.
 

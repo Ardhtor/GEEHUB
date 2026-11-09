@@ -1965,3 +1965,11 @@ SETH: A line becomes visible between NORTHGATE LIBRARY and THE COMMON TABLE. The
 NICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: worlds/northgate-library/README.md. Pressure 1.00; memory 1.00.
+
+## THE COMMON TABLE / pulse 215 / CROSSING
+
+NICK: The world crosses the route from NORTHGATE LIBRARY into THE COMMON TABLE. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: A generous oak dining hall with seasonal food, fresh bread, a courtyard, and room for newcomers to settle in at their own pace. Relation carried forward: CAMPUS AFTER HOURS.
+
+Source retained: worlds/common-table/README.md. Pressure 0.88; memory 1.00.

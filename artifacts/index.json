@@ -6544,6 +6544,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000215",
+      "created_at": "2026-11-09T16:58:50.722664+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "THE COMMON TABLE",
+      "content": "NICK: The world crosses the route from NORTHGATE LIBRARY into THE COMMON TABLE. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A generous oak dining hall with seasonal food, fresh bread, a courtyard, and room for newcomers to settle in at their own pace. Relation carried forward: CAMPUS AFTER HOURS.",
+      "lineage": {
+        "event_id": "world-pulse-000215",
+        "event": {
+          "id": "world-pulse-000215",
+          "pulse": 215,
+          "time": "2026-11-09T16:58:50.722664+00:00",
+          "actor": "JOSEPH",
+          "world": "THE COMMON TABLE",
+          "region_id": "common-table",
+          "previous_region_id": "northgate-library",
+          "phase": "CROSSING",
+          "source": "worlds/common-table/README.md",
+          "desire_state": "continuity",
+          "action": "NICK: The world crosses the route from NORTHGATE LIBRARY into THE COMMON TABLE. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A generous oak dining hall with seasonal food, fresh bread, a courtyard, and room for newcomers to settle in at their own pace. Relation carried forward: CAMPUS AFTER HOURS.",
+          "narrative_rule": "meaningful change becomes an outward-facing signal",
+          "relation": "CAMPUS AFTER HOURS",
+          "next_region": null,
+          "pressure": 0.88,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-09T16:58:50.722664+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000215",
+      "created_at": "2026-11-09T16:58:50.722664+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "CROSSING / THE COMMON TABLE / worlds/common-table/README.md",
+      "content": "NICK: The world crosses the route from NORTHGATE LIBRARY into THE COMMON TABLE. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A generous oak dining hall with seasonal food, fresh bread, a courtyard, and room for newcomers to settle in at their own pace. Relation carried forward: CAMPUS AFTER HOURS.",
+      "production_note": "The world resolved its crossing rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 215,
+        "actor": "JOSEPH",
+        "world": "THE COMMON TABLE",
+        "region_id": "common-table",
+        "source": "worlds/common-table/README.md",
+        "phase": "CROSSING",
+        "relation": "CAMPUS AFTER HOURS"
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00046",
+      "created_at": "2026-11-09T16:58:50.796852+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE COURTYARD AFTER RAIN",
+      "content": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+      "lineage": {
+        "event_id": "northgate-campus-00046",
+        "event": {
+          "id": "northgate-campus-00046",
+          "cycle": 46,
+          "world_pulse": 215,
+          "at": "2026-11-09T16:58:50.796852+00:00",
+          "region": "founders-dormitory",
+          "title": "THE COURTYARD AFTER RAIN",
+          "kind": "social",
+          "participants": [
+            "Marek Ionescu",
+            "Noah Bell",
+            "Adrian Varga"
+          ],
+          "description": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-09T16:58:50.796852+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

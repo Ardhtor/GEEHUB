@@ -1,0 +1,36 @@
+{
+  "id": "activity-world-pulse-000215",
+  "created_at": "2026-11-09T16:58:50.722664+00:00",
+  "source": "tractus-world-engine",
+  "kind": "activity-event",
+  "title": "THE COMMON TABLE",
+  "content": "NICK: The world crosses the route from NORTHGATE LIBRARY into THE COMMON TABLE. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A generous oak dining hall with seasonal food, fresh bread, a courtyard, and room for newcomers to settle in at their own pace. Relation carried forward: CAMPUS AFTER HOURS.",
+  "lineage": {
+    "event_id": "world-pulse-000215",
+    "event": {
+      "id": "world-pulse-000215",
+      "pulse": 215,
+      "time": "2026-11-09T16:58:50.722664+00:00",
+      "actor": "JOSEPH",
+      "world": "THE COMMON TABLE",
+      "region_id": "common-table",
+      "previous_region_id": "northgate-library",
+      "phase": "CROSSING",
+      "source": "worlds/common-table/README.md",
+      "desire_state": "continuity",
+      "action": "NICK: The world crosses the route from NORTHGATE LIBRARY into THE COMMON TABLE. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A generous oak dining hall with seasonal food, fresh bread, a courtyard, and room for newcomers to settle in at their own pace. Relation carried forward: CAMPUS AFTER HOURS.",
+      "narrative_rule": "meaningful change becomes an outward-facing signal",
+      "relation": "CAMPUS AFTER HOURS",
+      "next_region": null,
+      "pressure": 0.88,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T16:58:50.722664+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
+    }
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue from this event's changed world state"
+}

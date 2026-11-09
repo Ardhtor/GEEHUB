@@ -1095,5 +1095,30 @@
       "mass1v1ng",
       "muscle-myth"
     ]
+  },
+  {
+    "id": "tractus-execution-paths",
+    "name": "GEEHUB Execution Paths",
+    "group": "engine",
+    "status": "active",
+    "summary": "Implementation map connecting existing GEEHUB runtimes to next executable paths, tool requirements, tests and honest completion gates.",
+    "path": "../docs/GEEHUB_EXECUTION_PATHS.md",
+    "tags": [
+      "implementation",
+      "runtime",
+      "tools",
+      "continuity",
+      "testing",
+      "production"
+    ],
+    "related": [
+      "tractus-continuity",
+      "institute-of-becoming",
+      "jock-hypnosis",
+      "growth-study-001",
+      "voice-engine-runtime",
+      "hulums-cave",
+      "geehub-studio"
+    ]
   }
 ]

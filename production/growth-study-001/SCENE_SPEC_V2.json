@@ -1,6 +1,6 @@
 {
-  "project": "GEEHUB Growth Study 001 — V2.3",
-  "version": 2.3,
+  "project": "GEEHUB Growth Study 001 — V2.4",
+  "version": 2.4,
   "status": {
     "source_script": "created",
     "python_syntax_check": "not_recompiled_after_V2_3_locomotion_update",
@@ -45,7 +45,10 @@
       "digit meshes are separate replaceable geometry with two-segment weights, but bending poses and joint volume preservation remain unvalidated",
       "hidden source anatomy modules are preserved for replacement, but require visibility/export workflow validation",
       "facial performance is not implemented",
-      "run-away action is procedurally keyed but its gait axes, foot contact, and NLA blending require Blender visual validation"
+      "run-away action is procedurally keyed but its gait axes, foot contact, and NLA blending require Blender visual validation",
+      "Video6 is a generated single-view clip; arm target keys reproduce visible silhouette and timing but cannot recover hidden depth or calibrated 3D motion",
+      "IK pole directions, joint limits, foot plant, and IK/FK behavior require Blender validation",
+      "FK/IK snapping, articulated heel/toe roll pivots, and corrective shoulder/elbow/knee shapes remain unfinished"
     ],
     "appendage_system": {
       "collection": "APPENDAGE_DIGITS — replaceable geometry",
@@ -53,11 +56,30 @@
       "controls": "two deform bones per digit with blended proximal/distal weights",
       "palm_and_foot": "remain integrated with the fused body surface",
       "validation": "pending Blender execution and pose review"
+    },
+    "clavicle_chain": "clavicle link between spine and upper arm, included in arm IK chain",
+    "ik_fk": {
+      "arm_chain": "hand -> forearm -> upper_arm -> clavicle (four-bone IK chain)",
+      "leg_chain": "foot -> calf -> thigh (three-bone IK chain)",
+      "controls": "hand IK targets and elbow poles; foot IK targets and knee poles; heel/toe pivot reference controls",
+      "switches": {
+        "arm": "arm_ik",
+        "leg": "leg_ik"
+      },
+      "default": {
+        "arm_ik": 1,
+        "leg_ik": 1
+      },
+      "limitations": [
+        "pole angles and bend directions need Blender pose validation",
+        "FK/IK snapping is not yet implemented",
+        "heel and toe pivots are reference controls, not a completed foot-roll mechanism"
+      ]
     }
   },
   "timeline": {
     "frame_start": 1,
-    "frame_end": 208,
+    "frame_end": 360,
     "stages": [
       {
         "frame": 1,
@@ -100,6 +122,22 @@
       "animation": "alternating thigh drive, knee recovery, counter-swinging arms, torso rhythm, wrist/finger grip, toe articulation",
       "independence": "separate NLA track from the growth-stage custom-property action",
       "validation": "pending Blender execution, gait review, and ground-contact checks"
+    },
+    "video6": {
+      "action": "VIDEO6_POSE — reference matched hand targets",
+      "frames": {
+        "start": 216,
+        "end": 360,
+        "arms_wide": 264,
+        "double_biceps": 282,
+        "hold_end": 324,
+        "release": 348,
+        "finish": 360
+      },
+      "independent_track": "VIDEO6_POSE — reference matched hand targets",
+      "rig_state_track": "03_VIDEO6_RIG_STATE — root and IK mode",
+      "camera": "CAM_Video6",
+      "validation": "pending Blender execution and frame-by-frame comparison"
     }
   },
   "lighting": {
@@ -124,15 +162,20 @@
     ],
     "resolution": [
       1080,
-      1350
+      1620
     ],
     "preview_frames": [
       1,
       108,
-      208
+      208,
+      216,
+      264,
+      282,
+      324,
+      360
     ],
     "output_format": "PNG",
-    "camera": "original orthographic studio camera retained; a separate fixed 100 mm vertical-fit perspective camera switches in at frame 108 to show natural recession"
+    "camera": "growth: original orthographic study camera; run-away: CAM_RunAway perspective; Video6 pose: CAM_Video6 low frontal perspective"
   },
   "research_principles": [
     {
@@ -152,14 +195,30 @@
     }
   ],
   "next_pass": [
-    "execute V2.3 in Blender and verify both NLA tracks are present and independently editable",
-    "inspect the run-away turn, alternating gait, hand grip, toe motion, and nine-unit root path",
-    "verify the perspective camera preserves the starting composition and makes the figure visibly recede",
-    "correct joint silhouette and nearest-bone deformation across shoulders, elbows, wrists, hips, knees, ankles, and digits",
-    "add corrective shapes and foot-contact controls",
-    "calibrate layered skin and cloth materials using rendered A/B tests",
-    "validate hidden source-module visibility and replacement workflow",
-    "add facial controls",
-    "produce a short animated preview after rig validation"
-  ]
+    "run the V2.4 script in Blender 4.x and verify IK targets, pole targets, constraints, drivers, and NLA tracks",
+    "check neutral IK targets against rest-pose joint positions and correct pole angles",
+    "compare Video6 pose preview frames with the source clip at matched timestamps",
+    "test wide-arm, double-biceps, release, planted feet, and digit curl without silhouette collapse",
+    "implement FK/IK snapping and a true heel/toe roll mechanism",
+    "add corrective shoulder, elbow, wrist, hip, knee, ankle, and digit shape keys",
+    "validate the run-away gait independently from the Video6 pose action",
+    "produce a rendered MP4 pose-reference preview only after Blender scene validation"
+  ],
+  "video6_reference": {
+    "library_file": "generated_video6(1).mp4",
+    "resolution": [
+      448,
+      672
+    ],
+    "fps": 24,
+    "duration_seconds": 6.0417,
+    "timeline_frames": [
+      216,
+      360
+    ],
+    "action": "front stance -> arms rise to wide spread -> double biceps flex and hold -> open arms and release",
+    "controls": "CTRL_VIDEO6_DRIVER drives hand targets and elbow poles; foot IK remains planted",
+    "camera": "CAM_Video6 — low frontal perspective",
+    "evidence_limit": "single generated frontal view; no calibrated camera, depth, or physical motion-capture markers; frame-shape flicker treated as generated-image noise"
+  }
 }

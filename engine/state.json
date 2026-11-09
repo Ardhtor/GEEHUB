@@ -1,5 +1,5 @@
 {
-  "pulse": 223,
+  "pulse": 224,
   "events": [
     {
       "pulse": 1,
@@ -3923,6 +3923,28 @@
       "occurred_at": "2026-11-09T17:07:59.172698+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000224",
+      "pulse": 224,
+      "time": "2026-11-09T17:08:14.786480+00:00",
+      "actor": "LUKE",
+      "world": "CAT GARDENS",
+      "region_id": "cat-gardens",
+      "previous_region_id": "cat-gardens",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/cat-gardens/README.md",
+      "desire_state": "attention",
+      "action": "SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.9,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T17:08:14.786480+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -3973,7 +3995,7 @@
     "northgate-library": 211,
     "athletic-commons": 193
   },
-  "pressure": 0.88,
+  "pressure": 0.9,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -3989,7 +4011,7 @@
     "index.html": 11,
     "worlds/common-table/README.md": 8,
     "worlds/cedar-house/README.md": 6,
-    "worlds/cat-gardens/README.md": 3,
+    "worlds/cat-gardens/README.md": 4,
     "worlds/founders-dormitory/README.md": 3,
     "worlds/northgate-university/README.md": 11,
     "worlds/bluewater-quay/README.md": 8,
@@ -3998,12 +4020,12 @@
     "worlds/athletic-commons/README.md": 4
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "cat-gardens",
-  "current_phase": "CROSSING",
-  "current_desire_state": "continuity",
-  "current_question": "What can change without erasing where it came from?",
-  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 183,

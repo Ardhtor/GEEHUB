@@ -2037,3 +2037,11 @@ NICK: The world crosses the route from CEDAR HOUSE into CAT GARDENS. The earlier
 SETH: Sheltered courtyards shared with resident cats; warm steps, water bowls, catmint, quiet benches, and a local sign of good luck. Relation carried forward: GOOD LUCK HAS WHISKERS.
 
 Source retained: worlds/cat-gardens/README.md. Pressure 0.88; memory 1.00.
+
+## CAT GARDENS / pulse 224 / ATMOSPHERE
+
+SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/cat-gardens/README.md. Pressure 0.90; memory 1.00.

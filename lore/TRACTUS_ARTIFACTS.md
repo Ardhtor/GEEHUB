@@ -283,3 +283,8 @@ When an artifact changes hands, record both the transfer and its consequence. Wh
 **Open questions:** whether Veylan will return to the final threshold; how his new aim changes with experience.
 
 These records add objects that already have narrative consequences. They do not claim that a live artifact database or visual asset has been generated. A later production pass can create modular drawings and previews, each linked to the stable address above.
+
+
+## The Second Cabinet Chronicle
+
+[The Artifact Chronicles — Second Cabinet](TRACTUS_ARTIFACT_CHRONICLES_II.md) follows the maintenance sample, Mateo's seed, Hrothgar's clearing song, the Dad Convent beam, the Northgate test frame, and the Veyrthalis route copy into later scenes. The chronicle is the narrative companion to the artifact register above. It records how objects change through use while retaining the limits and provenance of their earlier states.

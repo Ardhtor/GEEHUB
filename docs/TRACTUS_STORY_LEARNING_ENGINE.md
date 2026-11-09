@@ -95,3 +95,17 @@ The loop may move between the novel, character records, artifacts, particles, ma
 The immediate reread is not merely proofreading. It is how the story discovers what it has just made true. If a new detail creates a consequence, the next passage should be allowed to respond to it. If it conflicts with established material, pause and reconcile it before extending the conflict.
 
 A chapter is complete only after its prose and its resulting continuity state have both been checked. A successful file write is not itself proof that the story learned.
+
+
+## Learning pass — Chapter Twenty-Six
+
+The second field visit tests rather than repeats Chapter Twenty-Five. The visit changes from morning to evening and from dry conditions to damp metal; Joseph initiates the return, while Andrew practices leaving a suggestion unspoken until invited. The gate's hinge and latch are recorded separately. Two glove takes are retained because they express different actions: a catch and a waiting hand. The new working mix, SECOND_SOUNDING_01, coexists with BETWEEN_TRACKS_03; neither supersedes the other.
+
+Continuity consequences:
+- The baseball field remains a playing space, not a studio annex.
+- The gate is now a recurring sound source with at least two recorded conditions.
+- Andrew's initiative develops toward shared timing and consent rather than constant forward motion.
+- Joseph's recording practice includes comparison, selection, and restraint.
+- The latch sound remains an open thread for a later arrangement.
+
+Read-back check: the new chapter was compared with Chapter Twenty-Five and Andrew's character record. It uses the established eccentric testing method and the documented growth direction from momentum as reflex toward momentum as shared choice. The scene adds a specific instance; it does not rewrite the character record as a universal trait.

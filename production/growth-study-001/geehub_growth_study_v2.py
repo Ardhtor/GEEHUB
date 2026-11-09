@@ -3,7 +3,7 @@
 Test target: Blender 4.x. Run from Blender's Scripting workspace or with:
     blender --background --python geehub_growth_study_v2.py
 
-This V2.3 pass fuses overlapping anatomical volumes into one continuous skin
+This V2.4 pass fuses overlapping anatomical volumes into one continuous skin
 blockout and assigns blended weights from the nearest bone segments. The
 armature's growth custom property still drives staged transverse expansion.
 It remains a prototype: no corrective shapes, muscle sliding, or skinning pass.
@@ -314,7 +314,7 @@ def build_rig():
     rig.show_in_front = True
     rig.data.display_type = 'OCTAHEDRAL'
     rig["growth"] = 0.0
-    rig["study"] = "001 V2.3 — articulated appendages and locomotion"
+    rig["study"] = "001 V2.4 — IK/FK controls, articulated appendages, and Video6 pose match"
     rig.id_properties_ui("growth").update(
         min=0.0, max=1.0, soft_min=0.0, soft_max=1.0,
         description="Master growth control: 0 = rest, 1 = full study stage")
@@ -654,7 +654,7 @@ def build_character(rig):
     trim = make_principled("MAT_Seam — muted steel", (0.10, 0.20, 0.21, 1), 0.48, 0.22)
     add_uv_form("CLOTH_Waistband", (0, -0.018, 0.995),
                 (0.348, 0.235, 0.035), trim, "pelvis", rig)
-    rig["study"] = "001 V2.3 — continuous surface, articulated appendages, and locomotion"
+    rig["study"] = "001 V2.4 — continuous surface, IK/FK rig, and Video6 pose match"
     rig["appendage_controls"] = "deforming two-segment finger and toe chains weighted to individual digit meshes"
     rig["geometry_mode"] = "voxel_fused_body_with_hidden_source_modules_and_separate_digit_meshes"
     rig["body_object"] = body.name

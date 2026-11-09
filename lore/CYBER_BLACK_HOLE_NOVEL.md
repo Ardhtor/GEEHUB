@@ -278,3 +278,123 @@ Luke placed the card beside the notebook.
 In the central shaft, the blue light descended another level.
 
 And somewhere below the city, the Cyber Black Hole received the first night of their arrival.
+
+### Chapter Seven — The Observatory of Images
+
+The next morning, the six returned to Geehub Central and found the upper gallery open. It had become an observatory overnight. Not a telescope room, exactly, but a long chamber of dark timber, blue glass, and suspended image panels. At one end, a broad screen showed the Living Corpus Dashboard: a central wand, a registry, recent inscriptions, and a large RUN control. At the other, the Holographic Observatory presented a seated figure among books and floating world panels. Between them, the Dark Expanse Interface opened onto a cinematic landscape with maps, character cards, and a console.
+
+“They're three versions of the same place,” Gabe said.
+
+“Not quite,” Luke replied. He moved closer to the dashboard. “This one is for doing. You can see the state and the controls.”
+
+Joseph stood before the holographic room. “This one is for being in it.”
+
+Tyler looked toward the dark landscape. “And that one's for going somewhere.”
+
+The Archivist, who had appeared without sound, nodded. “Keep all three. A world needs a home, a workbench, and a horizon.”
+
+The panels brightened as the men approached. They were not empty templates. Each held references from the Library, and each reference opened a different kind of passage. Some led to characters. Some led to places. Some led to old experiments whose status had never been settled.
+
+A portrait appeared in cool blue light: the Blue Giant in the Cool-Toned Gym. The camera sat low, close to the subject, and the gym behind him fell into darkness. His grey sweatpants and broad upper-body silhouette were distinct against the cool environment.
+
+Andrew studied it. “That's a strong entrance.”
+
+“It's a particular visual identity,” Luke said. “Not a colour effect to put on everybody.”
+
+The next panel showed Luke's growth material: Next Stage, Neon Overdrive, Final Form. The sequence looked dramatic, but the Archivist placed a fine line between the images.
+
+“Same character only where continuity supports it,” he said. “A stage title is not proof. Compare the face, head, neck, body proportions, clothing, camera, and setting. Keep the differences visible.”
+
+Luke examined the frames. “Then the sequence needs its own record. No shortcuts.”
+
+A third panel opened on a warm, crowded cellar. Barrels lined the walls. A keeper stood among them in a white shirt and dark suspenders, holding a bottle beneath a hanging lantern. The room felt occupied even before anyone spoke.
+
+Tyler leaned toward it. “That place has a job. It isn't just a background.”
+
+“Provisions,” Gabe said. “Storage. Someone has to keep track of what comes in and what goes out.”
+
+The Archivist added the cellar to the city's map, but left its keeper unnamed. The image was a place and costume reference, not an identity assignment.
+
+At the far end of the gallery, the monochrome porch photograph appeared beside a blank catalogue card. It held the quality of an old photograph found in a household drawer: a seated figure, timber boards, hard sunlight, deep shadow. No date or location was attached.
+
+Joseph read the empty fields. “We don't fill these because the picture makes us curious.”
+
+“No,” said the Archivist. “Unknown is a real entry.”
+
+The image dimmed, but the blank card remained.
+
+### Chapter Eight — The Thread and the Engine
+
+The gallery's central wall opened to reveal two great images.
+
+The first was Linia Eterna, the god of continuity. Threads crossed generations and events, connecting things without making them identical. The second was the Corruption Engine: a sequence of seed, desire, growth, stress, mutation, corruption, and new baseline.
+
+The images did not merge. Their light met at the centre and ran alongside itself.
+
+“Which one is the black hole?” Chase asked.
+
+“Neither,” Joseph said. “One keeps the line. The other changes what the line can carry.”
+
+The Archivist placed a small object between the panels: a length of blue thread, wound around a dark wooden spindle. It was the same thread Gabe had found on the desk the night before.
+
+“Continuity without change becomes preservation without life,” he said. “Change without continuity becomes replacement. Geehub needs both, and it must know which is happening.”
+
+Andrew took the spindle and passed it to Luke. Luke tied the thread around the notebook from the unfinished desk. The notebook's faceless drawing gained a thin outline around the head, but no features.
+
+“Still not a person,” Luke said.
+
+“Not until the reference supports one,” the Archivist replied.
+
+The thread passed from Luke to Tyler, from Tyler to Chase, from Chase to Gabe, and from Gabe to Joseph. Each added one small mark to the notebook: a place, a movement, a sound, a question, a return. None wrote a name.
+
+When Joseph closed the cover, the disc in the lower chamber pulsed once. The city gained a new street.
+
+### Chapter Nine — A Place for Ordinary Things
+
+The new street led to a kitchen and a workshop joined by a covered passage. The kitchen was busy. A muscular chef worked at a long counter, sleeves rolled, while another man carried a tray toward a side table. Outside, an athlete sat with a snack after training. Beyond the terrace doors, a man rested in a leather armchair, looking out toward a garden.
+
+The six watched for a while.
+
+“It's strange,” Andrew said. “The archive has all these enormous transformations, but this is what makes the place feel inhabited.”
+
+“Because people have to live between the stages,” Gabe said.
+
+The chef placed a bowl of food on the table. The men found seats. Nobody made a speech about the importance of the meal. They ate, passed the bread, argued mildly over whether the coffee had been left too long, and listened to the kitchen's ordinary sounds.
+
+Afterward, they crossed to the workshop. A broad timber beam lay on trestles. A measuring cord, a pencil, and a small metal square rested beside it. The Archivist explained that the room had grown from the same family of workshop and construction references already present in the Library. It had not copied a particular private room or claimed to reproduce a real person's home. It had taken the visible material language—wood, tools, durable construction—and made a new place from it.
+
+Chase measured the beam. Luke checked the square. Andrew held the far end steady. Tyler marked the cut. Gabe wrote the dimensions into a work order. Joseph found a place for the finished piece in the room's growing register.
+
+The work took most of the afternoon.
+
+When they returned to the kitchen, the meal had been cleared, but six cups remained on the table. Each had a different mark on its base. The cups were not assigned to them. They were simply there, ready for whoever came next.
+
+### Chapter Ten — The Seventh Route
+
+At dusk, the six returned to the observatory. The map now showed a seventh route descending from Geehub Central into the black shaft. It had not appeared on the first night. Its line was faint and interrupted, as though the city had not yet decided whether it could support the passage.
+
+The Archivist set the black disc on the table.
+
+“Your arrival made the route visible,” he said. “It did not make the route safe.”
+
+“What is down there?” Tyler asked.
+
+“Unsorted material. Unfinished encounters. References without enough context. Stories that have not found their people. People who have not chosen whether they want a story.”
+
+Andrew frowned. “Then why open it?”
+
+“Because the city cannot grow only from what is already understood.”
+
+Joseph listened to the low pulse beneath the floor. “We can look without claiming everything we see.”
+
+The Archivist nodded. “That is the next rule.”
+
+They stood around the map. The seventh route flickered. Luke placed the notebook beside it. Gabe set down the work order. Chase laid the folded map flat. Andrew rested his glove on the table. Tyler placed the mirror beside the disc. Joseph let the music player fall silent.
+
+The objects formed no key and no code. They were evidence of what the six had done since arriving: observed, measured, eaten, listened, disagreed, and returned.
+
+The route steadied.
+
+Far below, a door opened onto darkness filled with distant lights. Some lights were familiar. Others had no names. None moved toward the six until they had chosen to look.
+
+The Cyber Black Hole had begun to gather a city. Now it was waiting to see what kind of visitors the city would become.

@@ -3,7 +3,7 @@
   "version": 2.4,
   "status": {
     "source_script": "created",
-    "python_syntax_check": "static_validation_workflow_added_pending_run",
+    "python_syntax_check": "workflow_added_no_status_check_returned_yet",
     "blender_execution": "not_run_blender_not_available_in_authoring_environment",
     "voxel_remesh_validation": "pending",
     "weight_validation": "pending",

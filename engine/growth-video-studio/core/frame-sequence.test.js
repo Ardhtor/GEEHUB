@@ -179,6 +179,12 @@ test("verifies actual PNG checksums and dimensions before geometry handoff", asy
   assert.equal(audit.maskPixelAudit.overlapPixels, 0);
   assert.ok(audit.fileVerification.masks.every(mask => mask.foregroundPixels > 0));
   assert.equal(audit.pixelSemanticsVerified, false);
+  assert.equal(audit.meshReady, true);
+  assert.equal(audit.maskMesh.status, "ready");
+  assert.equal(audit.maskMesh.topologyStable, true);
+  assert.equal(audit.maskMesh.frames.length, 2);
+  assert.ok(audit.maskMesh.triangles.length > 0);
+  assert.equal(audit.maskMesh.evidence.pixelSemanticsVerified, false);
 });
 
 test("blocks a body mask that overlaps the protected face mask", async t => {

@@ -14,7 +14,7 @@ The durable records now have separate jobs:
 - `engine/revision_history.jsonl` — file-level revision lineage, retrieval ID, before/after SHA-256, prediction, observation, error, and reason.
 - `engine/activity.jsonl` — append-only occurrence and observation history.
 
-A version can only extend an existing version whose status is `canon`. Superseded versions remain in the version ledger and point to their successor. An experiment is not promoted by persistence alone. No historical versions are fabricated during migration.
+A version can only extend an existing version whose status is `canon`. The version ledger is append-only: each new version points to its prior version, and promotion creates a new canon version rather than rewriting the experiment record. An experiment is not promoted by persistence alone. No historical versions are fabricated during migration.
 
 The current version ledger begins empty because the repository did not contain evidence-backed v2 version records. On the first enabled writer run, existing approved destinations are captured as `experiment` baselines with matching observation events; no narrative file is changed by this capture. The autonomous writer records an observation and holds a proposed canon change while the destination's latest version remains experimental. An operator must review the source and explicitly promote the baseline with `python scripts/promote_canon_version.py VERSION_ID --reviewer REVIEWER --reason REASON --evidence-event-id EVENT_ID`. The evidence IDs must already exist in `engine/activity.jsonl`. Only then can that destination accept another autonomous canon revision.
 
@@ -22,7 +22,7 @@ The current version ledger begins empty because the repository did not contain e
 
 The six-hour workflow trigger is not permission to write. The writer first recalls from the prior retrieval snapshot, without opening canon. It then checks the recall against the source corpus. The first bootstrap pass only creates a retrieval snapshot and cannot write narrative.
 
-The interval ladder is `1 → 3 → 7 → 14 → 30 days`. One oldest-due open thread is selected per cycle; ties prefer the thread with fewer successful recalls. A recall score of at least 0.5 advances one interval. A score below 0.5 holds the current interval. Two consecutive failures reset the interval to one day and set `needs_repair`. A score below 0.5 cannot produce a canon addition. A successful recall without prediction error may update retrieval state but does not change canon.
+The interval ladder is `1 → 3 → 7 → 21 days`. One oldest-due open thread is selected per cycle; ties prefer the thread with fewer successful recalls. A recall score of at least 0.8 advances one interval. A score below 0.8 holds the current interval. Two consecutive failures reset the interval to one day and set `needs_repair`. A score below 0.8 cannot produce a canon addition. A successful recall without prediction error may update retrieval state but does not change canon.
 
 ## Innervation cues
 

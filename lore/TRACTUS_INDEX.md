@@ -257,3 +257,8 @@ The [Tractus Story Learning Engine](../docs/TRACTUS_STORY_LEARNING_ENGINE.md) no
 ## The Second Sounding — Chapter XXVI
 
 [The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md), Chapter XXVI, returns Joseph and Andrew to the baseball field at dusk. The second visit tests the gate and glove recordings under changed conditions. Joseph initiates the return; Andrew learns to leave a possible suggestion open until invited. Both glove takes are preserved, and the new mix is saved as SECOND_SOUNDING_01 alongside BETWEEN_TRACKS_03. The field remains a baseball field, not a converted studio. The latch sound is left as an open thread. The learning pass is recorded in the [Story Learning Engine](../docs/TRACTUS_STORY_LEARNING_ENGINE.md).
+
+
+## The Moonlit Pitch — Chapter XXVII
+
+[The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md), Chapter XXVII, brings Joey into the field as a distinct character from Joseph. Under moonlight, Joey's arms expand into his established Teal Titan Stage Four proportions. He throws a pitch that exceeds Andrew's in force and speed, while accuracy remains a skill to develop. Andrew responds by proposing drills rather than treating strength as the end of the game. The first impact and slower control comparison are retained as MOONLIT_PITCH_01. The mitt requires inspection before another full-effort throw. The [Story Learning Engine](../docs/TRACTUS_STORY_LEARNING_ENGINE.md) records the character distinction, physical continuity, and resulting open threads.

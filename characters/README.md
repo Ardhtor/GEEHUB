@@ -40,3 +40,8 @@ A record may leave fields open. An honest gap is more useful than fabricated det
 ## Interlocutive awareness
 
 A character's field of awareness is not limited to the room or scene currently depicted. Where relevant, records should describe what lies beyond the immediate setting, what the character can perceive or reach, what systems or people can answer, and what forms of contact are possible. Include encounters with more developed counterparts when they shape identity or capability. Treat such encounters as reciprocal dialogue: both parties may teach, question, correct, and change. Keep fictional encounters distinct from real operational access, and record the source and outcome of any actual interaction.
+
+
+## Lexor
+
+The source-grounded character record for [Lexor](records/LEXOR.md) is now present. It identifies him as the god who keeps names almost given and then taken back, preserves only the facts established by his first cabin appearance, and marks his former naming, the thing named, and the jar's mechanism as unresolved.

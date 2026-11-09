@@ -46,6 +46,8 @@ test("builds a fixed-index mesh shared by adjacent moving mask frames", () => {
   const result = buildStableMaskMesh([frame(0), frame(1, 1)], { columns: 6, rows: 8 });
   assert.equal(result.status, "ready");
   assert.equal(result.topologyStable, true);
+  assert.equal(result.connected, true);
+  assert.equal(result.coverage.connectedComponents, 1);
   assert.equal(result.frames.length, 2);
   assert.ok(result.triangles.length > 0);
   assert.equal(result.vertexIds.length, 63);
@@ -110,12 +112,23 @@ test("rejects non-binary masks, changed dimensions, and discontinuous frame orde
   );
 });
 
+test("reports disconnected topology when an over-resolved grid fragments into islands", () => {
+  const result = buildStableMaskMesh([frame(0), frame(1)], {
+    columns: 64, rows: 64, minTriangles: 1
+  });
+  assert.equal(result.status, "disconnected");
+  assert.equal(result.topologyStable, true);
+  assert.equal(result.connected, false);
+  assert.ok(result.coverage.connectedComponents > 1);
+});
+
 test("reports insufficient coverage when the configured stable-triangle minimum is not met", () => {
   const result = buildStableMaskMesh([frame(0), frame(1)], {
-    columns: 64, rows: 64, minTriangles: 600
+    columns: 2, rows: 2, minTriangles: 9
   });
   assert.equal(result.status, "insufficient-coverage");
   assert.equal(result.topologyStable, true);
+  assert.equal(result.connected, true);
   assert.ok(result.triangles.length > 0);
-  assert.ok(result.triangles.length < 600);
+  assert.ok(result.triangles.length < 9);
 });

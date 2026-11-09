@@ -26,6 +26,15 @@ The user-designated theme song is [The Teal Titan — YouTube](https://www.youtu
 
 A conversation-supplied six-second vertical clip is registered as a provisional Stage 4 visual reference. It shows a monumental blue-green adult bodybuilder in gray shorts, posing in a warmly lit gym. Technical metadata and SHA-256 are recorded in `07_MANIFESTS/asset_register.json` and `provenance.json`. It remains session-supplied and not yet archived in Dropbox. Do not conflate its embedded audio with the YouTube theme-song link.
 
+## Narrative chapters
+
+The character now has a prose cycle alongside the production specification. These chapters treat Joey's long-distance relationship context as part of the fictional character's emotional architecture without claiming to know Joey's private thoughts or intentions.
+
+- [I — The Distance Between Two Rooms](CHAPTER_01_THE_DISTANCE_BETWEEN_ROOMS.md): the theme-song signal, Stage 4 stillness, two rooms separated by distance, and the importance of leaving the reunion unresolved.
+- [II — The Ledger That Did Not Read Messages](CHAPTER_02_THE_LEDGER_THAT_DID_NOT_READ_MESSAGES.md): the men establish a room archive that distinguishes observation, supplied evidence, interpretation, and what remains private.
+
+The Jewish Ukrainian context named by the user is treated as personal inheritance, not a licence to invent religious practice, family history, language fluency, migration history, or political beliefs. Future cultural details should be grounded in what the user chooses to add. The fictional gym archive records the room and stops at the threshold of private correspondence.
+
 ## Visual continuity locks
 
 - Teal skin is a saturated blue-green, not emerald green and not cyan.
@@ -110,4 +119,3 @@ Follow the [Dropbox source staging runbook](STAGING.md) before any growth pass. 
 ## Current state
 
 The creative brief and shot progression are established. Dropbox search found three plausible source candidates: `/SnapVid.Net_YPBbLkvp9AQAKdpS_672p.mp4`, `/WhatsApp Video 2026-10-31 at 02.10.14.mp4`, and `/grouba (1)/colossal_giant_bodybuilder.mp4`. Their metadata is recorded in `production.json`; none has been visually verified as the Teal Titan source yet. No render is claimed. The Imagine Studio now loads a six-state project monitor and exposes the three Dropbox preview candidates. Its port-8787 worker is a separate dependency not included in this repository; the local Blender engine on port 8765 is a different production path. The next production action is to visually inspect the Dropbox candidates, select the correct source, and lock Marcus's baseline.
-

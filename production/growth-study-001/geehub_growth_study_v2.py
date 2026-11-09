@@ -591,11 +591,22 @@ def build_environment():
     bpy.context.collection.objects.link(camera)
     camera.location = (3.1, -6.7, 2.4)
     aim_at(camera, (0, 0, 1.08))
-    # Perspective lens is matched to the previous orthographic framing at the
-    # starting distance, then naturally lets the runner recede in the frame.
-    camera_data.type = 'PERSP'
-    camera_data.lens = 65.0
-    bpy.context.scene.camera = camera
+    # Preserve the original orthographic studio camera and use a
+    # separate perspective camera only for the retreat sequence.
+    camera_data.type = 'ORTHO'
+    camera_data.ortho_scale = 2.75
+    scene = bpy.context.scene
+    scene.camera = camera
+
+    run_camera_data = bpy.data.cameras.new("CAM_RunAway")
+    run_camera = bpy.data.objects.new("CAM_RunAway", run_camera_data)
+    bpy.context.collection.objects.link(run_camera)
+    run_camera.location = (0.0, -7.5, 2.6)
+    aim_at(run_camera, (0.0, 0.0, 1.1))
+    run_camera_data.type = 'PERSP'
+    run_camera_data.sensor_fit = 'VERTICAL'
+    run_camera_data.lens = 100.0
+    run_camera["purpose"] = "fixed perspective view down the retreat lane"
 
     runway_mat = make_principled(
         "MAT_RunwayGuide — muted teal", (0.025, 0.16, 0.17, 1),
@@ -790,12 +801,15 @@ def animate_run_away(rig):
     )
 
     scene.frame_end = RUN_CYCLE_END
+    run_camera = bpy.data.objects.get("CAM_RunAway")
     for frame, label in (
         (RUN_START_FRAME, "RUN_AWAY — turn away"),
         (RUN_CYCLE_START, "RUN_AWAY — gait begins"),
         (RUN_CYCLE_END, "RUN_AWAY — retreat endpoint"),
     ):
-        scene.timeline_markers.new(label, frame=frame)
+        marker = scene.timeline_markers.new(label, frame=frame)
+        if frame == RUN_START_FRAME and run_camera is not None:
+            marker.camera = run_camera
 
 
 def configure_render():

@@ -2133,3 +2133,11 @@ SETH: A line becomes visible between CAT GARDENS and FOUNDERS DORMITORY. The arc
 NICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: worlds/cat-gardens/README.md. Pressure 1.00; memory 1.00.
+
+## FOUNDERS DORMITORY / pulse 236 / CROSSING
+
+NICK: The world crosses the route from CAT GARDENS into FOUNDERS DORMITORY. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: A welcoming men's dormitory with private rooms, shared kitchens, common rooms, a courtyard and a greenhouse. Relation carried forward: THE DORM GARDEN PATH.
+
+Source retained: worlds/founders-dormitory/README.md. Pressure 0.88; memory 1.00.

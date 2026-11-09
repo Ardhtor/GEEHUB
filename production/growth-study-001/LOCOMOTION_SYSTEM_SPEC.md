@@ -30,7 +30,7 @@ In Blender, open the NLA Editor and locate 02_LOCOMOTION — run away. Mute it t
 3. Scrub the 24-frame gait cycle at multiple phases; verify the opposing leg/arm movement is readable.
 4. Check foot clearance, heel strike, toe-off, and floor penetration against the ground plane.
 5. Inspect knee, ankle, hip, shoulder, elbow, wrist, hand, finger, and toe deformation during the cycle.
-6. Verify root translation proceeds along world +Y and the perspective camera shows natural recession.
+6. Verify the camera marker switches to CAM_RunAway at frame 108, root translation proceeds along world +Y, and the runner stays centered while naturally receding.
 7. Render and read back frames 1, 108, and 208. Record Blender execution, animation evaluation, and render validation separately.
 
 ## Current boundary

@@ -196,6 +196,14 @@ def check_tractus_science():
             evidence_ids = version.get("evidence_event_ids", [])
             require(bool(evidence_ids) and all(event_id in activity_by_id for event_id in evidence_ids),
                     f"version {version.get('canon_version_id')} has missing promotion evidence")
+            for evidence_id in evidence_ids:
+                evidence = activity_by_id[evidence_id]
+                related_paths = set(evidence.get("source_paths", []))
+                if evidence.get("canon_path"):
+                    related_paths.add(evidence["canon_path"])
+                require(evidence.get("type") in {"canon_update", "CANON_REVISION", "narrative_addition"}
+                        and version.get("entity") in related_paths,
+                        f"promotion evidence {evidence_id} is not a canon/narrative event for {version.get('entity')}")
     canon_events = [item for item in activity if item.get("type") == "canon_update"]
     for event in canon_events:
         errors = validate_event(event)

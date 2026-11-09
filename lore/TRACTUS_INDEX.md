@@ -151,3 +151,9 @@ The governing principle is documented in [Reciprocal Transformation](RECIPROCAL_
 The first connected artifact cabinet is documented in [The Working Artifacts of Tractus](TRACTUS_ARTIFACTS.md). It introduces the Northgate passage key, Founders Dormitory laundry token, Digitorium silk trader's docket, Cabin chair repair ticket, Hrothgar Hall supper ledger, Observation Ring blue card, Moon Temple bell schedule, the letter that crossed the arcade, and the empty place card. These are working objects rather than decorative props: each has a use, a custody history, relationships, and a capacity to change what happens next.
 
 The artifacts deliberately connect settings that might otherwise remain separate. The silk docket and letter carry material from the Digitorium into the tailor's room and Hrothgar Hall. The Cabin repair ticket makes a physical repair part of the continuity between Brograntimax, Privathor, Lexor, and Herbarius. The blue card gives the Tractus principle of retaining earlier accounts an in-world teaching form. Future chapters should bring these objects back through use, transfer, repair, loss, return, and reinterpretation. Their histories should accumulate without being silently overwritten.
+
+
+## Artifact Chronicles
+
+The artifacts are now active in [The Artifact Chronicles](TRACTUS_ARTIFACT_CHRONICLES.md). These scenes follow the Northgate key through a rainy shift, the Founders laundry token through another Tuesday, Rovan's late supper at Hrothgar, the Moon Temple bell delay, Orven's blue observation cards, the Cabin's unclaimed button and cloth, the silk sample's second life as a garment repair, and the empty place card's temporary journey from cabinet to hall. Each scene produces a concrete event and a continuity consequence. The objects are used by people who do not know they are making an archive; the archive preserves what their use changes.
+

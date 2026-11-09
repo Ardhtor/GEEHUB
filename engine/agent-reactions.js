@@ -84,7 +84,7 @@
   }
 
   function handle(event){
-    if(!event || ['ARRIVAL','NOTICE'].includes(event.type))return;
+    if(!event || ['ARRIVAL','NOTICE','USER_POST'].includes(event.type))return;
     if(event.type==='UTTERANCE'){
       const id=event.from;
       if(!names[id])return;

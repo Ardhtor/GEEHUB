@@ -6,6 +6,7 @@ on:
       - "engine/**"
       - "scripts/tractus_*.py"
       - "scripts/test_tractus_*.py"
+      - "scripts/test_promote_canon_version.py"
       - "scripts/promote_canon_version.py"
       - "docs/TRACTUS_ENGINE_SPEC.md"
       - ".github/workflows/tractus-engine.yml"

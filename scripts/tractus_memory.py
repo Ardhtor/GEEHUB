@@ -21,7 +21,7 @@ def parse_time(value: str) -> datetime:
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
-INTERVAL_LADDER = (1, 3, 7, 21)
+INTERVAL_LADDER = (1, 3, 7, 14, 30)
 
 
 def due_threads(schedule: dict[str, Any], now: datetime | None = None) -> list[dict[str, Any]]:
@@ -33,7 +33,7 @@ def due_threads(schedule: dict[str, Any], now: datetime | None = None) -> list[d
         due_at = thread.get("next_due_at")
         if due_at and parse_time(due_at) <= current:
             due.append(thread)
-    return sorted(due, key=lambda item: (item["next_due_at"], int(item.get("successful_recalls", 0))))
+    return sorted(due, key=lambda item: (item["next_due_at"], int(item.get("retrieval_successes", item.get("successful_recalls", 0)))))
 
 
 def pick_next(schedule: dict[str, Any], now: datetime | None = None, limit: int = 1) -> list[dict[str, Any]]:
@@ -80,6 +80,7 @@ def advance_thread(
         "retrieval_attempts": attempts,
         "retrieval_failures": failures,
         "successful_recalls": int(thread.get("successful_recalls", 0)) + (1 if recall_score >= 0.5 else 0),
+        "retrieval_successes": int(thread.get("retrieval_successes", thread.get("successful_recalls", 0))) + (1 if recall_score >= 0.5 else 0),
         "last_recall_score": round(recall_score, 3),
         "last_retrieval": {
             "score": round(recall_score, 3),

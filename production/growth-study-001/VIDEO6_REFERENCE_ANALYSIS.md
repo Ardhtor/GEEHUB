@@ -36,7 +36,7 @@ The body should preserve the same base silhouette across the clip. Do not encode
 - `CTRL_Heel_Pivot.L/R` and `CTRL_Toe_Pivot.L/R`: pivot references for the next foot-roll implementation.
 - `arm_ik` and `leg_ik`: independent IK/FK influence channels.
 
-The Video6 action is housed in a separate Blender scene named `VIDEO6_POSE_STUDY` with its own 216–360 frame range and low frontal camera. It shares the character, rig, controls, and environment objects, but its timeline is independent of the main growth/run-away scene. This prevents an unwanted transition between the two distinct motion studies.
+The base rig starts in FK mode to preserve its original rest pose. The Video6 action switches both arm and leg IK on for hand targeting and planted-foot control. The Video6 action is housed in a separate Blender scene named `VIDEO6_POSE_STUDY` with its own 216–360 frame range and low frontal camera. It shares the character, rig, controls, and environment objects, but its timeline is independent of the main growth/run-away scene. This prevents an unwanted transition between the two distinct motion studies.
 
 ## Validation required
 

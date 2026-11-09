@@ -78,3 +78,15 @@ These features do not identify sex, age, identity or intent. A label such as `ma
 The atlas emits `cues` in the existing MusicProgram schema. The existing music bridge now preserves each `acoustic_profile` in the ledger payload, so vocal resonance, rhythmic events and authored score cues share one timeline and provenance model.
 
 **Embodiment rule:** acoustic energy controls the envelope and timing of a deformation or movement; it does not dictate anatomy. Existing subject proportions and continuity remain authoritative.
+
+
+
+## Tempo, phase, and action coupling
+
+A cue is a timed control signal, not a mood label. Every actionable cue specifies BPM (30–300 when periodic), phase, duration, target response (step, breath, turn, pause, reach, or hold), synchronization mode, trigger, action, before/after state, next cue allowed, and concrete sonic residue. The machine-readable contract is `engine/schemas/innervation-cue.schema.json`.
+
+Use steady isochronous pulses when a scene needs a stable movement reference. Use a phase offset, missing beat, rhythmic break, or silence when a threshold should interrupt expectation. The target is a concrete action, not a generic emotion. A cue is rejected if it changes neither action nor available state. A valid residue might be a changed walking cadence, a route becoming available, a route closing, a pause being held, or a different cue becoming eligible.
+
+BPM is a design parameter for composition and interaction. It is not evidence that a particular listener's neural systems were measured or that a precise biological response is guaranteed. The practical rhythmic range is broad; individual synchronization varies.
+
+The experience loop is `PERCEIVE → CHOOSE → ACT → STATE CHANGE → NEW PERCEPTION`. Sound participates in that loop: a cue changes timing or action, and the changed action alters what the interface or scene presents next. If playback is unavailable, produce a timed cue sheet and mark it as specified, not played.

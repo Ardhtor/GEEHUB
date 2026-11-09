@@ -51,6 +51,13 @@
       "target": "lore/DIABOUND_KERNEL.md",
       "state": "Diabound Kernel is a living, intelligent, rideable creature roosting beside the Geatish House. Wiglaf has formed the first bond and completed a short flight over the river. Its wings, serpent-tail, chest-eye, shadow concealment, Helical Shockwave, and potential evolution are established; its consent and freedom are foundational.",
       "next_pressure": "Write recurring interactions and routines: feeding, grooming by permission, harness fitting, ground travel, first longer flight, encounters with cats and campus residents, and Diabound's own choices about routes and companions. Keep its agency visible and do not make combat the default growth mechanism."
+    },
+    {
+      "id": "cabin-lexor-and-privathor",
+      "priority": 2,
+      "target": "worlds/cabin/LEXOR_AND_THE_BLACK_PEBBLE.md",
+      "state": "The Jar of Almost-Names now contains three chronological movements. Lexor left the jar on the mantel and departed by choice. Privathor stayed through the second day, left before first light on the third morning, and returned after midday; he remained through the afternoon. Brograntimax has gone three days without his measuring chain. The black pebble made one minor internal shift; the pantry machine recorded no external demand. The jar's purpose and Lexor's withdrawn name remain unresolved.",
+      "next_pressure": "Continue the Cabin's fourth day without forcing a revelation. Let Ursalon, Privathor, Brograntimax, Grokthar, Pipethor, Jockkaulthaa, BORKUFT, Herbarius, Daddy and Coach remain active through ordinary routines. Preserve Privathor's freedom to leave and return without turning the chair into an obligation. Let Brograntimax's changed spacing show through practical gestures rather than a declaration. Keep the jar's internal shift small and unexplained; no name is spoken unless a later character freely chooses to speak it."
     }
   ],
   "standing_constraints": [

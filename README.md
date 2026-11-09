@@ -272,3 +272,7 @@ The field is registered in [engine/interlocutive-field.json](engine/interlocutiv
 ## Recent chapter
 
 [It's a Hapax Legomenon](novel/CHAPTER_XL_ITS_A_HAPAX_LEGOMENON.md) — a forceful workshop-floor chapter about singular discoveries, disciplined recordkeeping, and getting back to the work.
+
+## Tractus engine integrity
+
+The adopted [Tractus Engine Specification](docs/TRACTUS_ENGINE_SPEC.md) adds versioned canon validation, a 1/3/7/14/30-day retrieval ladder, tempo-tagged Innervation cue checks, and a `tractus-science` fail-fast test mode. Historical activity records remain valid. The v2 canon-version ledger starts empty rather than fabricating provenance; autonomous canon additions are held as observations until an evidence-backed baseline exists for the destination. Run `python engine/check_performance.py tractus-science` to validate the new contracts.

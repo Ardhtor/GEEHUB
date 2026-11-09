@@ -69,5 +69,45 @@ class InscriptionTests(unittest.TestCase):
         self.assertFalse(self.log.exists())
 
 
+    def test_invalid_canon_update_is_downgraded_to_observation(self):
+        event = {
+            "event_id": "canon-test-invalid",
+            "timestamp": "2026-11-09T18:00:00Z",
+            "type": "canon_update",
+            "prediction": {"expected": "Luke travels alone"},
+            "observation": {"happened": "Berit is already there"},
+            "prediction_error": {"present": False},
+            "prior_version_id": "canon-luke-014",
+            "change": {
+                "canon_version_id": "canon-luke-015",
+                "what_changed": "Luke has a witness",
+                "what_remains": "The northern road",
+            },
+        }
+        result = inscription.inscribe(event, "unit-test")
+        self.assertEqual(result["type"], "observation")
+        self.assertEqual(result["downgraded_from"], "canon_update")
+        self.assertTrue(result["downgrade_reasons"])
+        self.assertEqual(json.loads(self.log.read_text().splitlines()[0])["type"], "observation")
+
+    def test_valid_canon_update_is_inscribed(self):
+        event = {
+            "event_id": "canon-test-valid",
+            "timestamp": "2026-11-09T18:00:00Z",
+            "type": "canon_update",
+            "prediction": {"expected": "Luke travels alone"},
+            "observation": {"happened": "Berit is already there"},
+            "prediction_error": {"present": True, "type": "who", "severity": "medium"},
+            "prior_version_id": "canon-luke-014",
+            "change": {
+                "canon_version_id": "canon-luke-015",
+                "what_changed": "Luke has a witness",
+                "what_remains": "The northern road",
+            },
+        }
+        result = inscription.inscribe(event, "unit-test")
+        self.assertEqual(result["type"], "canon_update")
+        self.assertEqual(result["id"], "canon-test-valid")
+
 if __name__ == "__main__":
     unittest.main()

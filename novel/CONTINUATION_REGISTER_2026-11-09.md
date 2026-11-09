@@ -52,3 +52,8 @@ These chapters and records were written into the GitHub repository during this p
 The post-book domestic cycle continues through [Episode VIII — The Grounds Beyond the Workshop](THE_GOD_DADDIES_AFTER_THE_ROAD.md). The family moves from household production to a measured estate survey, without pretending that the future buildings are already constructed.
 
 The Tractus's second artifact cabinet is recorded in [The Artifact Chronicles — Second Cabinet](../lore/TRACTUS_ARTIFACT_CHRONICLES_II.md). Its scenes return to the report, seed, song, beam, test frame, and copied route, showing how new evidence changes an object's use without overwriting its earlier state.
+
+
+## Added body-culture reference
+
+[Eric Janicki — User-Selected Reference](../research/ERIC_JANICKI_REFERENCE.md) records the user's interest in Eric Janicki as a public training and physique reference. Northgate's Long Table chapter now names this reference within its discussion of coaching media and visual interpretation. Exact clips should be added individually when selected; the fictional students' observations must not be attributed to the real person.

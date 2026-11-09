@@ -104,6 +104,7 @@ class InscriptionTests(unittest.TestCase):
                 "what_changed": "Luke has a witness",
                 "what_remains": "The northern road",
             },
+            "provenance": {"author": "unit-test"},
         }
         result = inscription.inscribe(event, "unit-test")
         self.assertEqual(result["type"], "canon_update")

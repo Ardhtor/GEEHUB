@@ -70,9 +70,18 @@
       if(url){try{const parsed=new URL(url);if(!['http:','https:'].includes(parsed.protocol))return;}catch{return;}}
       const turn=Number(localStorage.getItem(TURN)||0);
       const member=members[turn%members.length];
+      const ericReplies={
+        luke:'I notice the stance and the way the physique occupies its space. Keep the proportions and the physical presence in view.',
+        tyler:'I want the mechanics: range of motion, leverage, execution, and progression. The image is a reference, not a complete training plan.',
+        andrew:'There is something practical to take into the gym space here. Let’s turn the reference into a movement or scene we can actually test.',
+        joseph:'The longer arc interests me: how one baseline becomes another, and which details make the development feel continuous.',
+        chase:'I’ll archive the reference and separate visible details from interpretation. A pose can show proportion; it cannot tell us an entire training history.'
+      };
       const replyText=source==='eric'
-        ? 'I’ll keep this as a bodybuilding reference: movement, proportion, training detail, and the way a physique is developed over time. I won’t treat an image alone as a complete training plan.'
-        : member.reply({text,url,source});
+        ? ericReplies[member.id]
+        : source==='x'&&!text
+          ? 'I have the X link, but not the post text. I’ll keep it attached here; paste the words or a short excerpt when you want a response to its actual content.'
+          : member.reply({text,url,source});
       const post={id:'post-'+Date.now(),author:'YOU',text,url,source,sourceName:sourceRef?.label||'OTHER SOURCE',at:Date.now(),reply:{agent:member.id,text:replyText}};
       posts.unshift(post);posts=posts.slice(0,40);
       localStorage.setItem(KEY,JSON.stringify(posts));

@@ -330,6 +330,78 @@ We placed Mateo's map beside Izel's earlier drawing. The two maps did not match.
 
 We kept both.
 
+
+### X. The Letter That Crossed the Western Passage
+
+Mateo returned two days after the folded map had been placed beside Izel's drawing. He did not arrive through the second doorway. He came by the western passage, carrying a small cloth bag and a letter folded into four parts. The Hall's observers had begun to recognize the sound of his steps, though they did not claim that this made his arrival predictable. He paused at the threshold, looked toward the table where the maps had been left, and smiled when he saw that neither had been removed.
+
+"You kept them," he said.
+
+"We said we would," Izel answered.
+
+Mateo placed the letter on the table but kept one hand on it. He had brought no demand that it be read. The paper was thick, with a rough edge where it had been torn from a larger sheet. The writing was in Spanish, but the hand was different from Mateo's: more angular, with several words joined in a way Izel had not yet learned to read quickly.
+
+"Is it from your brother?" Neral asked.
+
+Mateo nodded. "He wanted to know whether I had found the place I was looking for."
+
+"Did you tell him?"
+
+"I said I had found a room, but that the room was connected to more rooms than I expected."
+
+Izel laughed. "That is accurate."
+
+Mateo unfolded the letter. He did not read it aloud immediately. He looked over the lines as though checking whether he still agreed with the person who had written them. Then he explained that his brother had heard about the Hall through an earlier traveller, someone who had returned home with a story about a corridor that changed its length when a person remembered a place differently. His brother did not believe the story in full, but he had kept it. He was curious about the maps, and more curious about whether Mateo had found anyone who would allow him to describe the homeland without treating it as a curiosity.
+
+"Would he come here?" Izel asked.
+
+"He might. He says he wants to know whether the western passage is as narrow as I described it."
+
+"That is a practical question."
+
+"He will pretend it is the only question."
+
+Mateo smiled, and the men at the table recognized the affection inside the complaint. He would not promise that his brother would visit. The letter did not establish a date or a decision. It established that the possibility had travelled beyond the first visitor and had reached another household.
+
+They spent the afternoon examining the maps. Mateo identified a road that followed a ridge above the warm stone terraces. He explained that the road was used by market carts during the dry season and by people travelling between settlements when the lower ground flooded. He showed them where a traveller could find water, where the road became steep, and where two different names were used for the same crossing. One name belonged to the local settlement. The other was used by people who came from farther west. Neither was wrong, but each carried a different sense of distance.
+
+Izel asked whether the map should show both.
+
+"Yes," Mateo said. "But not one beneath the other, as if one is the proper name and the other is a mistake. Put them beside each other."
+
+The cartographers made the change. The older map remained untouched. A new copy included the two names, with a note explaining who used each and where the account had come from. The Hall was beginning to understand that maps could preserve disagreement without requiring the land to choose one version.
+
+At the window, Mateo and Izel continued their conversation in Spanish. Izel was more fluent than during the first visit, but Mateo still slowed his speech when he wanted to be precise. They spoke about the market streets, the shaded courtyards, and the habit of sitting outside after work. Mateo described the smell of warm stone after a brief rain and the way the evening vendors lit their stalls one by one. Izel asked whether the houses were built around the courtyards or whether the courtyards had emerged between houses over time.
+
+"Both," Mateo said. "Some were planned. Others came from people making a place where there had been an empty space."
+
+"Like this Hall."
+
+"Maybe. But your empty spaces are older."
+
+Izel looked toward the western passage. "We do not know how old."
+
+Mateo did not press him. Instead he showed Izel a small object from the cloth bag: a smooth dark seed, oval and heavy, with a pale line along one side. It came from a tree near his home. He had not brought it as a key or proof of the country. It was simply something he had picked up while walking and thought he might show to the men who had asked what grew there.
+
+The seed was placed on a blank card. The card received the source, the place, and Mateo's permission to keep a record of the object. He did not give permission for the seed to be planted. That distinction was recorded too. The Hall had learned not to turn every object into an instruction.
+
+As evening approached, Mateo asked whether he could stay for supper. Izel said that the kitchen was already preparing enough food. The men made rice, beans, grilled peppers, and a thick vegetable stew. Mateo helped with the peppers, explaining how his family roasted them over a flame and covered them briefly so that the skins could be removed. The kitchen filled with a warm, smoky smell. When the food was ready, he sat beside Izel and told the others that his brother would probably ask whether the Hall had a good place to sleep.
+
+"Does he like travelling?" Neral asked.
+
+"He likes arriving," Mateo replied. "The travelling is what he complains about."
+
+The table laughed. It was the first time Mateo had spoken about his brother as someone whose habits could be recognized by people who had never met him. The brother was still absent, but he had begun to take shape through details rather than a formal description.
+
+After supper, Mateo folded the letter and placed it in his own bag. He did not leave it with the archive. He said he might bring a copy later if his brother agreed. The Hall recorded only that a letter had arrived, that Mateo had read it, and that its author had not yet consented to have the contents preserved. The men did not need to know every word in order to understand that a connection had been made.
+
+When Mateo departed, Izel walked with him to the western passage. Neither man asked the other to promise a return. Mateo said he would write to his brother and describe the maps. Izel said he would leave the second chair near the window, not reserved but available. Mateo smiled at the distinction.
+
+The chair remained by the window after he left. The maps lay side by side on the table. The seed rested on its card, and the letter had gone back with its owner. The Hall had received another piece of the western country without claiming the right to keep everything that came through the door.
+
+The second doorway remained only a line on the map. The brother had not visited. The country beyond the passage remained larger than Mateo's account. The Hall had learned that a route could begin as a question, pass through a letter, and remain open without requiring anyone to travel it.
+
+
 ## Volume II — Current questions
 
 - What is the name of Mateo's homeland, and what names do its inhabitants use for its regions?

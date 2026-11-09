@@ -16,7 +16,7 @@ The durable records now have separate jobs:
 
 A version can only extend an existing version whose status is `canon`. Superseded versions remain in the version ledger and point to their successor. An experiment is not promoted by persistence alone. No historical versions are fabricated during migration.
 
-The current version ledger begins empty because the repository did not contain evidence-backed v2 version records. This is deliberate. The autonomous writer records an observation and holds a proposed canon change when its destination has no proven prior canon version. An operator must establish or explicitly promote a baseline before that destination can accept another autonomous canon revision.
+The current version ledger begins empty because the repository did not contain evidence-backed v2 version records. On the first enabled writer run, existing approved destinations are captured as `experiment` baselines with matching observation events; no narrative file is changed by this capture. The autonomous writer records an observation and holds a proposed canon change while the destination's latest version remains experimental. An operator must review the source and explicitly promote the baseline with `python scripts/promote_canon_version.py VERSION_ID --reviewer REVIEWER --reason REASON --evidence-event-id EVENT_ID`. The evidence IDs must already exist in `engine/activity.jsonl`. Only then can that destination accept another autonomous canon revision.
 
 ## Spaced retrieval
 

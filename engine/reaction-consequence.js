@@ -37,6 +37,6 @@
   window.GEEHUB_REACTION_CONSEQUENCE={apply,state:()=>read()};
   window.addEventListener('geehub:interaction',e=>{
     const x=e.detail;
-    if(x && ['ENCOUNTER','TRANSFORM','RETURN','MEMORY','UTTERANCE'].includes(x.type)) apply(x);
+    if(x && ['ENCOUNTER','TRANSFORM','RETURN','MEMORY','UTTERANCE','USER_ACTION','USER_FOCUS'].includes(x.type)) apply(x);
   });
 })();

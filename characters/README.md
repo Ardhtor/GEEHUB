@@ -45,3 +45,16 @@ A character's field of awareness is not limited to the room or scene currently d
 ## Lexor
 
 The source-grounded character record for [Lexor](records/LEXOR.md) is now present. It identifies him as the god who keeps names almost given and then taken back, preserves only the facts established by his first cabin appearance, and marks his former naming, the thing named, and the jar's mechanism as unresolved.
+
+
+## User-designated personality and voice references
+
+Five character records now carry public account mappings supplied by the user. These are creative references, not claims about the account holders' private personalities or endorsement.
+
+- [Luke](records/LUKE.md) — [@PaapaMurph](https://x.com/PaapaMurph)
+- [Tyler](records/TYLER.md) — [@TylerALedbetter](https://x.com/TylerALedbetter)
+- [Chase](records/CHASE.md) — [@c.w.sachs](https://www.instagram.com/c.w.sachs/)
+- [Gabe](records/GABE.md) — [@river_m_g](https://www.instagram.com/river_m_g/)
+- [Andrew](records/ANDREW.md) — [@andrewpsim](https://x.com/andrewpsim)
+
+The central [Character Voice References](../hub/CHARACTER_VOICE_REFERENCES.md) page and machine-readable [reference map](../hub/character-personality-references.json) preserve the mappings and review status. Direct public-post review is still pending; existing character foundations are retained until account-specific patterns can be observed.

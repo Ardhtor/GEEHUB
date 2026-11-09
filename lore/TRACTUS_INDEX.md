@@ -144,3 +144,10 @@ The chapter's central continuity is modest and consequential: Lexor leaves becau
 ## Reciprocal Transformation
 
 The governing principle is documented in [Reciprocal Transformation](RECIPROCAL_TRANSFORMATION.md). Tractus changes as it is changed: encounters may alter characters, places, institutions, language, mythology, interfaces, and production systems. Changes propagate only through supported dependencies, preserve provenance and prior states, and remain subject to user direction. The principle defines bounded initiative rather than unrestricted autonomous authorship.
+
+
+## Working Artifacts
+
+The first connected artifact cabinet is documented in [The Working Artifacts of Tractus](TRACTUS_ARTIFACTS.md). It introduces the Northgate passage key, Founders Dormitory laundry token, Digitorium silk trader's docket, Cabin chair repair ticket, Hrothgar Hall supper ledger, Observation Ring blue card, Moon Temple bell schedule, the letter that crossed the arcade, and the empty place card. These are working objects rather than decorative props: each has a use, a custody history, relationships, and a capacity to change what happens next.
+
+The artifacts deliberately connect settings that might otherwise remain separate. The silk docket and letter carry material from the Digitorium into the tailor's room and Hrothgar Hall. The Cabin repair ticket makes a physical repair part of the continuity between Brograntimax, Privathor, Lexor, and Herbarius. The blue card gives the Tractus principle of retaining earlier accounts an in-world teaching form. Future chapters should bring these objects back through use, transfer, repair, loss, return, and reinterpretation. Their histories should accumulate without being silently overwritten.

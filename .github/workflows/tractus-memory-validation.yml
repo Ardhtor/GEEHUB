@@ -1,0 +1,46 @@
+name: Tractus adaptive memory validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/tractus_engine.py"
+      - "scripts/tractus_memory.py"
+      - "scripts/test_tractus_*.py"
+      - "engine/retrieval_*.json"
+      - "engine/schemas/*.json"
+      - "engine/INNERVATION_ENGINE.md"
+      - "docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md"
+  pull_request:
+    paths:
+      - "scripts/tractus_engine.py"
+      - "scripts/tractus_memory.py"
+      - "scripts/test_tractus_*.py"
+      - "engine/retrieval_*.json"
+      - "engine/schemas/*.json"
+      - "engine/INNERVATION_ENGINE.md"
+      - "docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile Tractus modules
+        run: |
+          python -c "compile(open('scripts/tractus_engine.py', encoding='utf-8').read(), 'scripts/tractus_engine.py', 'exec')"
+          python -c "compile(open('scripts/tractus_memory.py', encoding='utf-8').read(), 'scripts/tractus_memory.py', 'exec')"
+      - name: Validate JSON contracts
+        run: |
+          python -m json.tool engine/retrieval_schedule.json > /dev/null
+          python -m json.tool engine/retrieval_state.json > /dev/null
+          python -m json.tool engine/schemas/tractus-revision.schema.json > /dev/null
+          python -m json.tool engine/schemas/innervation-cue.schema.json > /dev/null
+      - name: Run Tractus tests
+        run: python -B -m unittest discover -s scripts -p 'test_*.py'

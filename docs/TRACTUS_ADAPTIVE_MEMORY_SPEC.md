@@ -27,7 +27,7 @@ Required fields:
 - `created_at`: UTC timestamp.
 - `status`: `CANON_REVISION`, `DRAFT`, or `RETRIEVAL_ONLY`.
 
-A revision requires non-empty `prediction`, `observation`, `prediction_error`, and `update_reason`, plus source paths and any available activity-event IDs. Existing approved canon files receive immutable baseline version records before the writer is allowed to revise them. Every later version points to its prior version and stores the resulting content hash. Both version logs are append-only; supersession is represented by a new record, never by rewriting an earlier line. The error must be a concrete difference, not a generic statement that the scene was surprising. No prediction error means no canon update.
+A revision requires non-empty `prediction`, `observation`, `prediction_error`, and `update_reason`, plus source paths and any available activity-event IDs. Existing approved canon files receive immutable baseline version records before the writer is allowed to revise them. Every later version points to its prior version and stores the resulting content hash. Activity history and revision history are append-only. The canon-version ledger retains each version and updates only its status metadata when a successor supersedes it; narrative content is never overwritten. The error must be a concrete difference, not a generic statement that the scene was surprising. No prediction error means no canon update.
 
 ## 2. Retrieval before inspection
 

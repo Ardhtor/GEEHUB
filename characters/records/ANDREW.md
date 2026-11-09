@@ -121,3 +121,13 @@ At the gym, Joey reviews staged body development through the five-part visual fr
 Marcus arrives from Gold's on 5th. Their greeting becomes FRIENDLY_CONTACT_01, a recorded fist bump. Joey and Marcus remain distinct in face, proportions and colour. The encounter develops their friendship without turning either into a copy of the Library image.
 
 **Open threads:** Ridge House inspection and first group visit; materials and drainage for the outdoor training ground; camera platform; repeatability of Joey's controlled movement.
+
+## Coaching and shared-place development
+
+Andrew accompanies Joey and the group to Ridge House, where he separates the needs of a shared residence from those of the proposed giant-scale training ground. His requirements include level throwing ground, a receiving area, equipment storage and a safe camera position.
+
+In the gym, Andrew uses the five-stage Library growth infographic as a proportional review framework. He checks the neck, shoulders, hands, feet, hips, knees and balance rather than focusing only on chest and arm size. Joey catches a hand-proportion error before Andrew does; both treat correction as ordinary practice.
+
+Marcus's arrival creates a new social connection. Andrew observes Joey and Marcus greeting each other with a friendly fist bump, then asks Joey to repeat a slow walk-and-turn test. Andrew's coaching remains practical and collaborative.
+
+**Linked events:** FRIENDLY_CONTACT_01; Ridge House inspection; staged growth continuity review; Joey's controlled movement test.

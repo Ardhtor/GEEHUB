@@ -358,3 +358,9 @@ Participants: Marek Ionescu, Noah Bell, Adrian Varga. Location: founders-dormito
 The Commons holds an open session for anyone who wants to train. Experienced students help newcomers set up safely, and the recovery wing stays busy with stretching and quiet conversation. The strongest presence in the room is not a contest; it is the ease of people who know one another.
 
 Participants: Dan Roman, Adrian Varga, Noah Bell. Location: athletic-commons. Recorded: 2026-11-09T17:51:04.164229+00:00.
+
+## THE FILM ARCHIVE CLUB — cycle 00061
+
+The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.
+
+Participants: Elliot Ward, Marek Ionescu, Adrian Varga. Location: northgate-library. Recorded: 2026-11-09T18:18:13.845018+00:00.

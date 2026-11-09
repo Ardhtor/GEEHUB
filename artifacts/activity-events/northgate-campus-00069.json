@@ -1,0 +1,33 @@
+{
+  "id": "activity-northgate-campus-00069",
+  "created_at": "2026-11-09T18:55:45.422323+00:00",
+  "source": "northgate-campus-engine",
+  "kind": "activity-event",
+  "title": "THE LATE READING ROOM",
+  "content": "The oak reading hall settles into its evening rhythm. A student edits a short film in the lower media suite while two others compare notes at a green-shaded lamp. Someone finds a reference that had eluded the group all week and quietly sends the page number around.",
+  "lineage": {
+    "event_id": "northgate-campus-00069",
+    "event": {
+      "id": "northgate-campus-00069",
+      "cycle": 69,
+      "world_pulse": 238,
+      "at": "2026-11-09T18:55:45.422323+00:00",
+      "region": "northgate-library",
+      "title": "THE LATE READING ROOM",
+      "kind": "research",
+      "participants": [
+        "Marek Ionescu",
+        "Elliot Ward",
+        "Noah Bell"
+      ],
+      "description": "The oak reading hall settles into its evening rhythm. A student edits a short film in the lower media suite while two others compare notes at a green-shaded lamp. Someone finds a reference that had eluded the group all week and quietly sends the page number around.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T18:55:45.422323+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    }
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue from this event's changed world state"
+}

@@ -1,5 +1,5 @@
 {
-  "pulse": 237,
+  "pulse": 238,
   "events": [
     {
       "pulse": 1,
@@ -4231,6 +4231,28 @@
       "occurred_at": "2026-11-09T18:55:34.452524+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000238",
+      "pulse": 238,
+      "time": "2026-11-09T18:55:45.354524+00:00",
+      "actor": "TYLER",
+      "world": "FOUNDERS DORMITORY",
+      "region_id": "founders-dormitory",
+      "previous_region_id": "founders-dormitory",
+      "phase": "MEMORY",
+      "source": "worlds/founders-dormitory/README.md",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in FOUNDERS DORMITORY: Someone has returned from the library with a stack of books; another is making supper; two friends are carrying a model upstairs. The residential houses have different habits, but each makes room for its people.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/founders-dormitory/README.md.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.94,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T18:55:45.354524+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -4281,7 +4303,7 @@
     "northgate-library": 211,
     "athletic-commons": 193
   },
-  "pressure": 0.9,
+  "pressure": 0.9400000000000001,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -4298,7 +4320,7 @@
     "worlds/common-table/README.md": 8,
     "worlds/cedar-house/README.md": 9,
     "worlds/cat-gardens/README.md": 12,
-    "worlds/founders-dormitory/README.md": 5,
+    "worlds/founders-dormitory/README.md": 6,
     "worlds/northgate-university/README.md": 11,
     "worlds/bluewater-quay/README.md": 8,
     "worlds/lantern-market/README.md": 4,
@@ -4306,12 +4328,12 @@
     "worlds/athletic-commons/README.md": 4
   },
   "next_region": null,
-  "phase": 1,
+  "phase": 2,
   "active_region": "founders-dormitory",
-  "current_phase": "ATMOSPHERE",
-  "current_desire_state": "attention",
-  "current_question": "What does this place do while nobody intervenes?",
-  "current_narrative_rule": "approach extends geography",
+  "current_phase": "MEMORY",
+  "current_desire_state": "recognition",
+  "current_question": "Which detail remains from the prior state?",
+  "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null,
   "long_play": {
     "cycle": 186,

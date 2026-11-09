@@ -2149,3 +2149,11 @@ SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/founders-dormitory/README.md. Pressure 0.90; memory 1.00.
+
+## FOUNDERS DORMITORY / pulse 238 / MEMORY
+
+NICK: A detail returns in FOUNDERS DORMITORY: Someone has returned from the library with a stack of books; another is making supper; two friends are carrying a model upstairs. The residential houses have different habits, but each makes room for its people.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/founders-dormitory/README.md.
+
+Source retained: worlds/founders-dormitory/README.md. Pressure 0.94; memory 1.00.

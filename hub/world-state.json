@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00183.json",
+  "activeRecording": "./recordings/scheduled-recording-00184.json",
   "activeEncounter": {
-    "regionId": "northgate-university",
-    "regionName": "NORTHGATE UNIVERSITY",
+    "regionId": "founders-dormitory",
+    "regionName": "FOUNDERS DORMITORY",
     "subject": {
-      "agent": "andrew",
-      "scale": 14.18,
+      "agent": "joseph",
+      "scale": 14.3,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / BLUEWATER QUAY → NORTHGATE UNIVERSITY / ANDREW",
+    "intent": "LONG PLAY / CAT GARDENS → FOUNDERS DORMITORY / JOSEPH",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 14.10× → 14.18×",
-      "BLUEWATER QUAY → NORTHGATE UNIVERSITY",
-      "relation: NORTHGATE OPENS ITS QUAD",
+      "scale 14.18× → 14.30×",
+      "CAT GARDENS → FOUNDERS DORMITORY",
+      "relation: THE DORM GARDEN PATH",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "bluewater-quay"
+    "previousRegionId": "cat-gardens"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-09T06:38:12.105Z",
+  "snapshot": "2026-11-09T17:27:42.580Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 183,
-    "agent": "andrew",
-    "previousRegionId": "bluewater-quay",
-    "regionId": "northgate-university",
-    "relation": "NORTHGATE OPENS ITS QUAD",
+    "cycle": 184,
+    "agent": "joseph",
+    "previousRegionId": "cat-gardens",
+    "regionId": "founders-dormitory",
+    "relation": "THE DORM GARDEN PATH",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 14.1,
-    "scale": 14.18,
-    "recording": "scheduled-recording-00183",
-    "at": "2026-11-09T06:38:12.105Z"
+    "previousScale": 14.18,
+    "scale": 14.3,
+    "recording": "scheduled-recording-00184",
+    "at": "2026-11-09T17:27:42.580Z"
   }
 }

@@ -28,7 +28,8 @@
       "retrieval_attempts": 0,
       "retrieval_failures": 0,
       "needs_repair": false,
-      "last_retrieval": null
+      "last_retrieval": null,
+      "last_written_at": null
     },
     {
       "thread_id": "romance-and-domestic-life",
@@ -49,7 +50,8 @@
       "retrieval_attempts": 0,
       "retrieval_failures": 0,
       "needs_repair": false,
-      "last_retrieval": null
+      "last_retrieval": null,
+      "last_written_at": null
     },
     {
       "thread_id": "northgate-campus",
@@ -70,7 +72,8 @@
       "retrieval_attempts": 0,
       "retrieval_failures": 0,
       "needs_repair": false,
-      "last_retrieval": null
+      "last_retrieval": null,
+      "last_written_at": null
     },
     {
       "thread_id": "idol-cycle-and-older-gods",
@@ -91,7 +94,8 @@
       "retrieval_attempts": 0,
       "retrieval_failures": 0,
       "needs_repair": false,
-      "last_retrieval": null
+      "last_retrieval": null,
+      "last_written_at": null
     },
     {
       "thread_id": "deep-lore-and-institutions",
@@ -112,7 +116,8 @@
       "retrieval_attempts": 0,
       "retrieval_failures": 0,
       "needs_repair": false,
-      "last_retrieval": null
+      "last_retrieval": null,
+      "last_written_at": null
     },
     {
       "thread_id": "beowulf-and-geatish-company",
@@ -133,7 +138,8 @@
       "retrieval_attempts": 0,
       "retrieval_failures": 0,
       "needs_repair": false,
-      "last_retrieval": null
+      "last_retrieval": null,
+      "last_written_at": null
     },
     {
       "thread_id": "diabound-kernel",
@@ -154,7 +160,8 @@
       "retrieval_attempts": 0,
       "retrieval_failures": 0,
       "needs_repair": false,
-      "last_retrieval": null
+      "last_retrieval": null,
+      "last_written_at": null
     },
     {
       "thread_id": "cabin-lexor-and-privathor",
@@ -175,7 +182,8 @@
       "retrieval_attempts": 0,
       "retrieval_failures": 0,
       "needs_repair": false,
-      "last_retrieval": null
+      "last_retrieval": null,
+      "last_written_at": null
     }
   ]
 }

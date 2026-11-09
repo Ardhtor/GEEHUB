@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "corpus": "THE TRACTUS",
   "index_state": "expanded",
-  "note": "Seed manifest of repository sources confirmed in project continuity. Expand by inspecting repository contents; do not infer unlisted files.",
+  "note": "Expanded source-backed Tractus manifest. Keep uncertain functions and withheld names explicitly unresolved; do not infer unlisted facts.",
   "records": [
     {
       "id": "TRACTUS.INDEX",
@@ -289,6 +289,78 @@
           "certainty": "explicit"
         }
       ]
+    },
+    {
+      "id": "CABIN.PLACE",
+      "type": "place",
+      "title": "The Cabin",
+      "path": "worlds/cabin/README.md",
+      "status": "active",
+      "relationships": [
+        {
+          "type": "features",
+          "target": "CABIN.LEXOR_BLACK_PEBBLE_CHAPTER"
+        }
+      ]
+    },
+    {
+      "id": "CABIN.LEXOR_BLACK_PEBBLE_CHAPTER",
+      "type": "story_chapter",
+      "title": "The Jar of Almost-Names",
+      "path": "worlds/cabin/LEXOR_AND_THE_BLACK_PEBBLE.md",
+      "status": "developing",
+      "relationships": [
+        {
+          "type": "situated_in",
+          "target": "CABIN.PLACE"
+        },
+        {
+          "type": "features",
+          "target": "CHARACTER.LEXOR"
+        },
+        {
+          "type": "features",
+          "target": "CABIN.BLACK_PEBBLE_JAR"
+        },
+        {
+          "type": "references",
+          "target": "TRACTUS.DEEP_LORE"
+        }
+      ]
+    },
+    {
+      "id": "CABIN.BLACK_PEBBLE_JAR",
+      "type": "unresolved_artifact",
+      "title": "Jar of Almost-Names",
+      "path": "worlds/cabin/LEXOR_AND_THE_BLACK_PEBBLE.md",
+      "status": "unresolved",
+      "relationships": [
+        {
+          "type": "situated_in",
+          "target": "CABIN.PLACE"
+        },
+        {
+          "type": "introduced_in",
+          "target": "CABIN.LEXOR_BLACK_PEBBLE_CHAPTER"
+        }
+      ]
+    },
+    {
+      "id": "CHARACTER.LEXOR",
+      "type": "character_profile",
+      "title": "Lexor",
+      "path": "characters/records/LEXOR.md",
+      "status": "introduced",
+      "relationships": [
+        {
+          "type": "introduced_in",
+          "target": "CABIN.LEXOR_BLACK_PEBBLE_CHAPTER"
+        },
+        {
+          "type": "features",
+          "target": "CABIN.BLACK_PEBBLE_JAR"
+        }
+      ]
     }
   ],
   "unresolved_addresses": [
@@ -336,6 +408,16 @@
       "id": "TRACTUS.COMPLETION_RULE",
       "type": "operating_principle",
       "status": "active"
+    },
+    {
+      "id": "CABIN.JAR_PURPOSE",
+      "type": "open_question",
+      "status": "unresolved"
+    },
+    {
+      "id": "LEXOR.WITHDRAWN_NAME",
+      "type": "withheld_name",
+      "status": "unresolved"
     }
   ],
   "relationship_types": [
@@ -353,7 +435,8 @@
     "uses",
     "brings_together",
     "connects",
-    "follows"
+    "follows",
+    "introduced_in"
   ],
   "rules": {
     "stable_ids": true,

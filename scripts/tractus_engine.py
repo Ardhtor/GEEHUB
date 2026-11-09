@@ -151,6 +151,56 @@ def call_model(api_key: str, model: str, instructions: str, user_text: str) -> d
     return result
 
 
+def ensure_canon_baselines(dry_run: bool) -> bool:
+    """Capture unproven existing destinations as experiments, never as canon."""
+    versions = read_jsonl(CANON_VERSIONS_LOG)
+    known_paths = {item.get("entity") for item in versions}
+    additions = []
+    for relative in ALLOWED_FILES:
+        target = ROOT / relative
+        if relative in known_paths or not target.is_file():
+            continue
+        content = target.read_text(encoding="utf-8")
+        content_hash = sha256_text(content)
+        version_id = "canon-experiment-" + hashlib.sha256(
+            (relative + content_hash).encode("utf-8")
+        ).hexdigest()[:20]
+        event_id = "tractus-baseline-observation-" + hashlib.sha256(
+            (relative + content_hash).encode("utf-8")
+        ).hexdigest()[:16]
+        additions.append({
+            "canon_version_id": version_id,
+            "entity": relative,
+            "prior_version_id": None,
+            "created_by_event_id": event_id,
+            "created_at": iso_utc(),
+            "claim": "Existing destination captured as an unverified baseline; historical event lineage has not been established.",
+            "what_remains": "Requires source review and an explicit promotion event before autonomous canon updates.",
+            "content_sha256": content_hash,
+            "baseline": True,
+            "status": "experiment",
+        })
+    if not additions:
+        return False
+    if dry_run:
+        print(f"TRACTUS ENGINE DRY RUN: {len(additions)} unverified canon baselines would be recorded as experiments; no files changed.")
+        return False
+    for item in additions:
+        inscribe_event({
+            "id": item["created_by_event_id"],
+            "at": item["created_at"],
+            "type": "observation",
+            "title": "Unverified canon baseline captured",
+            "description": item["claim"],
+            "canon_path": item["entity"],
+            "content_sha256": item["content_sha256"],
+            "canon_version_id": item["canon_version_id"],
+            "action": "Hold as experiment pending source review and explicit promotion.",
+        }, source="scripts/tractus_engine.py")
+        append_jsonl(CANON_VERSIONS_LOG, item)
+    return True
+
+
 def bootstrap_retrieval(api_key: str, model: str, schedule: dict, dry_run: bool) -> None:
     """Seed the first recall card without producing a narrative/canon update."""
     context = collect_context()
@@ -536,6 +586,9 @@ def main() -> None:
         fail("TRACTUS_MODEL is not configured in repository Actions variables.")
     if git("status", "--porcelain").stdout.strip():
         fail("Working tree is not clean; refusing to mix unrelated changes.")
+
+    if ensure_canon_baselines(dry_run):
+        commit_changes("Tractus: capture unverified canon baselines as experiments")
 
     schedule = read_json(SCHEDULE_PATH)
     state = read_json(RETRIEVAL_STATE_PATH)

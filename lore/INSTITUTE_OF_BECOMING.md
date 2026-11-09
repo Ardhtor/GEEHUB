@@ -44,3 +44,6 @@ The connected design currently establishes the relationships and registry entrie
 
 [The First Living Build](INSTITUTE_THE_FIRST_LIVING_BUILD.md) follows the five programmers as their separate prototypes become the Institute's first usable shared ledger.
 
+
+
+The Institute's software and production path is tracked in [GEEHUB Execution Paths](../docs/GEEHUB_EXECUTION_PATHS.md), including its first typed event adapter and the sequence for extending continuity into residences, body state, voice, media and other Tractus places.

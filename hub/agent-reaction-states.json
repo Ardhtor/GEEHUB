@@ -102,6 +102,27 @@
         "DECISION",
         "CONSEQUENCE"
       ]
+    },
+    "gabe": {
+      "mood": "transformative",
+      "attention": "how attention, pressure, and social response change a person's next baseline",
+      "disposition": [
+        "process-aware",
+        "identity-conscious",
+        "growth-driven",
+        "social-signal-sensitive"
+      ],
+      "tells": [
+        "compares present and earlier baselines",
+        "notices how others respond to a change",
+        "names the pressure that altered the next state"
+      ],
+      "reactionBias": [
+        "GROWTH CANVAS",
+        "IDENTITY",
+        "SOCIAL SIGNAL",
+        "NEW BASELINE"
+      ]
     }
   }
 }

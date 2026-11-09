@@ -291,7 +291,7 @@ path, title, chapter. Tie environmental details to character intention and concr
         "created_by_event_id":event_id,"created_at":iso_utc(now),"claim":surprise["update_reason"],
         "what_remains":surprise["what_remains"],"content_sha256":result_sha,"prior_sha256":prior_sha,
         "baseline":False,"status":"canon","superseded_by":None})
-    CANON_VERSIONS_LOG.write_text("".join(json.dumps(x,ensure_ascii=False,separators=(",",":"))+"\\n" for x in versions),encoding="utf-8")
+    CANON_VERSIONS_LOG.write_text("".join(json.dumps(x,ensure_ascii=False,separators=(",",":"))+"\n" for x in versions),encoding="utf-8")
     updated_thread["last_canon_version_id"]=version_id
     updated_thread["last_revision_id"]=revision_id
     updated_thread["last_written_at"]=iso_utc(now)

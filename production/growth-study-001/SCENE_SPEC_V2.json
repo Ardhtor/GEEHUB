@@ -81,7 +81,24 @@
       ],
       "default_mode": "FK to preserve the initial authored rest pose; VIDEO6_POSE_STUDY enables IK for arms and planted feet",
       "location_targeting": "Explicit use_location=True and use_rotation=False on arm and leg IK constraints; wrist orientation remains a separate calibration task"
-    }
+    },
+    "reference_standards": [
+      {
+        "topic": "inverse kinematics target and pole behavior",
+        "source": "https://docs.blender.org/manual/en/4.5/animation/constraints/tracking/ik_solver.html",
+        "usage": "separate hand/foot position targets, pole targets, chain lengths, explicit use_location and rotation settings"
+      },
+      {
+        "topic": "NLA action tracks",
+        "source": "https://docs.blender.org/manual/en/4.5/editors/nla/introduction.html",
+        "usage": "separate growth, locomotion, and Video6 action layers"
+      },
+      {
+        "topic": "Rigify limb architecture",
+        "source": "https://docs.blender.org/manual/en/4.5/addons/rigging/rigify/rig_types/limbs.html",
+        "usage": "limb and foot control hierarchy as a reference for the custom rig"
+      }
+    ]
   },
   "timeline": {
     "frame_start": 1,

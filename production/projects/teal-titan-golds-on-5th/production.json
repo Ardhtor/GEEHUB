@@ -122,7 +122,16 @@
       "crowd applause",
       "short controlled roar"
     ],
-    "mix": "dry deadpan narration sits above the score; preserve gym ambience"
+    "mix": "dry deadpan narration sits above the score; preserve gym ambience",
+    "themeSong": {
+      "title": "The Teal Titan",
+      "alternateTitle": "Joey at Stage 4 Muscle Bwomph Growth",
+      "userDesignated": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=PJuBIuQeZ2M",
+      "playlistUrl": "https://www.youtube.com/watch?v=PJuBIuQeZ2M&list=PLjPx8lSKXSwDHG3Y_jsx8XRC5XNTp-rUJ&index=91",
+      "playlistIndex": 91,
+      "audioInspection": "not independently inspected; preserve user-supplied link as reference"
+    }
   },
   "voiceover": {
     "shortCut": "Six-second visual sequence; use concise title/impact narration or generated sound only",
@@ -222,5 +231,26 @@
     "triggered-metamorphosis"
   ],
   "timelineSemantics": "Stages are time-coded descriptive overlays; the underlying six-second growth event is continuous and must not be rendered as separate hard-cut model states.",
-  "assetRegisterManifest": "07_MANIFESTS/asset_register.json"
+  "assetRegisterManifest": "07_MANIFESTS/asset_register.json",
+  "references": {
+    "stage4ConversationVideo": {
+      "filename": "generated_video6.mp4",
+      "status": "received-in-conversation; not archived to Dropbox",
+      "userDesignation": "Joey at Stage 4 Muscle Bwomph Growth",
+      "durationSeconds": 6.041667,
+      "video": {
+        "codec": "H.264",
+        "width": 448,
+        "height": 672,
+        "frameRate": 24
+      },
+      "audio": {
+        "codec": "AAC",
+        "sampleRate": 48000,
+        "channels": 2
+      },
+      "sha256": "15b1d4332993bed2b4c88d35429a079dd6b7023e4a4fb612a95e2333fd98bbde",
+      "note": "Visual reference depicts a monumental blue-green adult bodybuilder posing in a warmly lit gym. Embedded audio is not verified as the linked YouTube theme song."
+    }
+  }
 }

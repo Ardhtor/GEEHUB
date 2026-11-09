@@ -106,7 +106,7 @@ def main() -> int:
         "evidence_event_ids": args.evidence_event_id,
     }
     with VERSIONS.open("a", encoding="utf-8") as handle:
-        handle.write(json.dumps(promoted, ensure_ascii=False, separators=(",", ":")) + "\\n")
+        handle.write(json.dumps(promoted, ensure_ascii=False, separators=(",", ":")) + "\n")
     print(f"Promoted {args.version_id} to canon via {event_id}.")
     return 0
 

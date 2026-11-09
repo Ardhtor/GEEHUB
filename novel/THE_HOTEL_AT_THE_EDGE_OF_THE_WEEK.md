@@ -63,3 +63,217 @@ The novel proceeds by allowing each repeated week to change the men's understand
 ## Governing revelation — Joey and the repeating week
 
 The definitive continuation is [The Grand Meridian — The Second Week](THE_GRAND_MERIDIAN_SECOND_WEEK.md), followed by [The Director of Standards](THE_DIRECTOR_OF_STANDARDS.md) and [The Last Checkout](THE_LAST_CHECKOUT.md). Joey is the devilish authority behind the hotel, responsible for engineering the circumstances of the men's fictional crimes and maintaining the weekly sentence. He can reveal his actual thirty-foot Stage Four Teal Titan form whenever he chooses, but deliberately restrains the men's perception; to direct observation he can appear ordinary-sized, while his full body can unfold when they look away. The loop breaks when they recognize his true physical presence and confront both their choices and his manipulation. See [Joey's character record](../characters/records/JOEY.md) and the [Grand Meridian Continuity Atlas](THE_GRAND_MERIDIAN_CONTINUITY_ATLAS.md).
+
+
+# The Weight of an Empty Room
+## Thursday — after breakfast
+
+The gymnasium occupied the western wing of the Grand Meridian, where the building's older stone foundations met a newer structure of glass, dark timber, and brushed steel. It was large enough to feel like a private athletic club and quiet enough, in the early hours, to suggest that the hotel had built it for a single permanent member. There were racks of dumbbells, benches, cable stations, a line of treadmills facing the gardens, and a lifting platform set beneath a high ceiling crossed by black beams. The mirrors were immaculate. The floor had been laid in broad, dark squares, each one capable of absorbing the impact of a heavy bar without transmitting much sound to the rooms above.
+
+Luke liked the place because its rules were legible. A bar had a weight. A repetition either happened or did not. A body adapted to the work it performed. Tyler liked the machines because their settings could be recorded and compared. Andrew liked the free-weight area and the open floor, where he could move without feeling observed. Chase preferred the cardio machines near the windows, from which he could photograph the grounds without appearing to do so. Gabe drifted between stations, never quite following a programme, while Joseph tended to arrive early and leave after the others, as though he were keeping an appointment with the room itself.
+
+That morning, the gym was occupied by all six of them, but the room felt crowded in a way that had nothing to do with its dimensions.
+
+Andrew had taken the bench nearest the lifting platform. He was working through a set with an easy, unhurried concentration, the kind that made his strength look less like a performance than a familiar occupation. Luke stood nearby, checking the collars on a bar. Tyler was entering their previous numbers into his phone. Chase had the camera open, though he had not yet taken a picture. Gabe was looking at the ceiling. Joseph stood by the water station, studying the reflection in its dark glass.
+
+"Did any of you hear that last night?" Andrew asked.
+
+"Hear what?" said Luke.
+
+"Something moving above the room. Not footsteps. More like furniture."
+
+Tyler glanced up. "The room above us is a guest suite."
+
+"Was anyone staying there?"
+
+"The occupancy board said no."
+
+Andrew set the bar down. "Then the board is wrong."
+
+"Or you heard the service lift," Tyler said.
+
+"It wasn't the lift."
+
+Gabe lowered his eyes from the beams. "I heard it too."
+
+The conversation stopped, not because anyone doubted Gabe, but because he rarely volunteered a statement so plainly. He walked to the centre of the gym and stood beneath the black beams. The light there was a little dimmer. In the mirror behind him, the platform appeared to extend farther than it did in the room, as though the reflected floor continued into a second gymnasium beyond the wall.
+
+Chase raised his phone. "Hold still."
+
+The photograph showed Gabe beneath the beams. It also showed a long vertical shadow behind him, reaching from the floor to a point beyond the top of the frame. Chase looked over his shoulder. There was no one there. He took another photograph. The shadow had moved closer, though Gabe had not.
+
+"That's not a person," Tyler said.
+
+"Didn't say it was."
+
+Luke crossed the floor and stood beside Gabe. The mirror showed both men. For an instant Luke's reflection seemed shorter than his body, while the shadow behind Gabe broadened across the wall. Luke turned. The wall was empty.
+
+"Enough," he said, though it was unclear whether he meant the photograph, the mirror, or the thing they were all refusing to name.
+
+Andrew rose from the bench and walked to the platform. He placed one hand on the bar and looked towards the high ceiling. "If somebody's up there, come down."
+
+The gym's ventilation system clicked off. The sudden quiet was so complete that they could hear the faint electrical hum of the treadmills. Then the platform gave a small, deep vibration. The plates on the bar shifted against one another with a sound like a bell heard through a wall.
+
+Andrew stepped back.
+
+The ventilation resumed. Somewhere in the building, a lift began to move.
+
+Tyler examined the platform. "The vibration came from below."
+
+"There's a basement?" Luke asked.
+
+"Not on the plans."
+
+"Then where does the platform sit?"
+
+Tyler looked at the floor. "I don't know."
+
+They searched the edges of the room. The rubber flooring was fitted tightly around the platform, but at the rear corner a narrow line had opened between two panels. It was not a crack. It was a seam, straight and deliberate, running beneath the platform and disappearing under the wall. Chase crouched to photograph it. The camera focused on the floor, then shifted by itself to a point several inches above the seam.
+
+In the image, the line was not narrow. It was a gap wide enough for a man to stand in, and beyond it lay a dark space with a low ceiling. A strip of teal light crossed the darkness. Something immense seemed to be resting there, not moving, its shape suggested by the way the light broke around it.
+
+Chase lowered the phone. The floor was seamless again.
+
+"Show us," Joseph said.
+
+Chase passed him the device. Joseph looked at the image for a long time. "That's underneath us."
+
+"There's no basement," Tyler repeated.
+
+"Maybe there isn't one now," said Gabe.
+
+They left the platform alone. The hotel had a way of making a man feel foolish for investigating an anomaly, and then more foolish for pretending he had not seen it. Luke proposed they ask the engineer. Tyler wanted the building plans. Chase wanted to preserve the photographs before they changed. Andrew wanted to find the access point. Joseph said nothing, but when they left the gym he looked back through the glass doors and watched the empty platform.
+
+The service corridor behind the gym was narrow and warmly lit, with cream walls, brass handles, and a carpet chosen to soften the sound of staff movement. It joined the athletic wing to the laundry, the kitchen stores, and the old lift bank. The men had passed its entrance many times without noticing it. Now the door stood open.
+
+The senior butler was inside, speaking with the engineer. A maintenance trolley had been parked beside them. On it lay a section of dark flooring, a length of cable, and a small brass plate bearing the same circle-and-line mark they had found on the blue-green cup.
+
+The engineer was a quiet man whose uniform always seemed slightly dusty, even when he had just changed. He held a folded plan against the wall and traced a route with one finger. The butler listened without interrupting.
+
+"That corridor isn't on the current plan," Tyler said.
+
+The engineer turned. "It is on the old one."
+
+"Where does it go?"
+
+"That depends on when you ask."
+
+Luke stepped closer. "We found a seam under the lifting platform."
+
+The engineer looked at him, then at the butler. The butler's expression remained composed, but his fingers tightened around the service book.
+
+"Was it open?" he asked.
+
+"For a moment."
+
+"Did you see anything?"
+
+Chase showed him the photograph. The butler studied it without surprise. The engineer looked away.
+
+"That's the old service level," the butler said.
+
+"You know where it is?" Joseph asked.
+
+"I know where it was."
+
+"Was?"
+
+The butler closed the book. "The hotel has several ways of describing a place that no longer appears on its plans."
+
+The engineer folded the drawing and put it beneath his arm. "You shouldn't go looking for it."
+
+Andrew gave a short laugh. "That's usually how we know where to look."
+
+The engineer did not smile. "The old level was built to carry loads the public floors were never designed to support. It had its own lift, its own power, its own storage rooms. There were foundations beneath the foundations. The hotel was larger before the renovation."
+
+"How much larger?" Tyler asked.
+
+The engineer considered the corridor. "Not in the way you're thinking."
+
+The butler interrupted him. "The Director has asked that the gym remain closed for inspection."
+
+"When?" Luke asked.
+
+"Now."
+
+"We're standing in it."
+
+"And you are leaving it."
+
+The instruction was delivered without force. That made it harder to resist. The men walked back towards the public corridor, but Joseph remained behind for a moment. He looked at the brass plate on the trolley.
+
+"Who is the circle for?" he asked.
+
+The butler did not answer.
+
+"And the line?"
+
+The butler looked at him. "A mark for a door that opens in only one direction."
+
+Joseph followed the others.
+
+By midday the gym had been closed, its doors secured with a discreet brass chain. The hotel offered the men an alternative room on the second floor, smaller but well equipped, with a view of the pool. The Director of Standards personally explained that the closure was temporary and that the hotel regretted any inconvenience. He was perfectly courteous. He did not mention the vibration, the photographs, or the service level.
+
+The men spent the afternoon at the pool. It was a long indoor space beneath a glass roof, with pale stone around the water and a row of dark wooden loungers. The light moved slowly across the surface. At the far end, a tiled wall depicted a procession of figures carrying vessels towards a doorway. The figures were all men, their faces worn almost smooth by age and water.
+
+Andrew swam several lengths. Luke sat at the edge with his feet in the water. Tyler read the pool's depth markings. Chase reviewed his photographs. Gabe lay on a lounger with his eyes closed. Joseph stood beneath the tiled procession.
+
+"Look at their hands," Joseph said.
+
+The others turned. The figures in the mosaic held bowls, keys, folded cloths, and small round objects. One carried a cup with a blue-green rim. Another held a book. At the end of the procession, the final figure was much taller than the rest, though the artist had placed him at the same distance. His head nearly touched the top of the doorway.
+
+"That's new," Chase said.
+
+"How do you know?" Tyler asked.
+
+"Because I photographed this wall yesterday."
+
+He found the picture. The procession was there, but the final figure was absent. The doorway stood empty.
+
+Andrew climbed out of the pool. Water ran from his shoulders onto the stone. "So the picture changes."
+
+"Or the photograph does," Tyler replied.
+
+"Does that make it better?"
+
+"No."
+
+Gabe opened his eyes. "The man at the end isn't entering."
+
+"What is he doing?" Luke asked.
+
+"Waiting for the others to notice that the doorway is too small."
+
+Joseph touched the mosaic. The tile was warm beneath his fingertips. For a moment he felt a pressure from the other side, not a hand against his but something broad and patient, resting against the wall as though the entire hotel were a door.
+
+He stepped back.
+
+The mosaic had returned to its earlier state. The final figure was gone. Only the empty doorway remained.
+
+That evening, the Director ordered the pool lights dimmed and the gym doors checked. The butler returned to the service corridor and found the maintenance trolley empty. The brass plate had been removed. In its place lay a single sheet of paper, folded twice. It contained no writing, only an impression pressed into the fibres: the outline of a very large hand, palm open, fingers relaxed. The scale was impossible to determine. The paper had been folded to fit a pocket, but the impression continued across the creases.
+
+He placed it inside his service book.
+
+At nine, the six men gathered in Luke's suite. They compared what they had seen and tried to make a sequence from it. The seventh place at breakfast, the cup, the shadow in the gym, the hidden service level, the changing mosaic. Tyler wrote the events in order. Chase arranged the photographs. Gabe described the sound beneath the platform. Andrew argued that the hotel was not hiding a room so much as hiding the dimensions of the room. Joseph returned to the phrase from the service book: a place was not an invitation, but an admission that someone had already arrived.
+
+Luke listened until they had exhausted the evidence.
+
+"Tomorrow," he said, "we go back to the gym."
+
+Tyler shook his head. "It'll be closed."
+
+"Then we find another way in."
+
+"That isn't a plan."
+
+"It's the beginning of one."
+
+Andrew leaned back in his chair. "I want to see what happens if we stop looking away."
+
+No one answered immediately. Outside, the windows reflected the six men in the room. For a moment, the reflection showed a seventh figure standing behind them, broad enough to fill the space between the walls. The figure's shoulders rose above the doorframe. Its head was outside the reflected room, beyond the ceiling line.
+
+Chase turned first. There was no one behind them.
+
+In the window, the seventh figure remained.
+
+Then the lights in the suite dimmed, and the reflection became ordinary glass again.

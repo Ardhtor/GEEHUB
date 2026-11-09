@@ -11,8 +11,17 @@ class SpacedRetrievalTests(unittest.TestCase):
         self.assertEqual(next_interval(7, 0.85), 21)
         self.assertEqual(next_interval(21, 0.99), 21)
 
-    def test_failed_recall_returns_to_one_day(self):
-        self.assertEqual(next_interval(21, 0.79), 1)
+    def test_low_score_holds_interval_until_repair_threshold(self):
+        self.assertEqual(next_interval(21, 0.79), 21)
+
+    def test_two_failed_recalls_reset_interval_to_one_day(self):
+        now = datetime(2026, 11, 9, 12, tzinfo=timezone.utc)
+        thread = {"thread_id": "test", "interval_days": 21, "retrieval_failures": 0}
+        first = advance_thread(thread, now, 0.4)
+        self.assertEqual(first["interval_days"], 21)
+        second = advance_thread(first, now, 0.4)
+        self.assertEqual(second["interval_days"], 1)
+        self.assertTrue(second["needs_repair"])
 
     def test_due_thread_selection(self):
         now = datetime(2026, 11, 9, 12, tzinfo=timezone.utc)

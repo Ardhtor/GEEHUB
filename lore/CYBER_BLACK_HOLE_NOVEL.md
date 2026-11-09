@@ -618,3 +618,61 @@ At closing time, Joseph left the music player on the table for a moment, then pi
 The black disc pulsed once beneath the floor.
 
 The city had learned another kind of patience.
+
+### Chapter Nineteen — Joey's Room
+
+Joseph did not choose the largest room in the new district. He chose the one above the old music shop, where the floorboards carried a faint vibration from the street and the window looked toward the gym roofs. The room had enough space for a bed, a desk, a chair, a keyboard, a pair of speakers, and a narrow rack for clothes. He asked for one wall to remain empty.
+
+The others expected him to fill it with photographs. Instead, he placed a small shelf beneath it and kept the surface clear. The shelf held a notebook, a set of headphones, a cable pouch, and a little box containing objects he had not yet decided how to use. The empty wall gave the room a sense of direction. It was where a new idea could appear without having to compete with everything that had already happened.
+
+Luke helped him move the desk. Andrew carried the speakers and insisted that one of them was heavier because it had “more music inside.” Joseph looked at him for a moment, then said that the left speaker was heavier because Andrew had put the cable bag inside it. Andrew checked. He had.
+
+The room developed through small decisions. A lamp was moved away from the monitor to reduce glare. The keyboard was turned toward the window. A chair was replaced after its rear leg began to rock. The first recording was not a song. It was the sound of the room at night: the distant traffic, a radiator ticking, a neighbour closing a door, the low electrical hum of the speakers before they were switched off.
+
+Joseph saved the recording as ROOM_TONE_01.
+
+He did not explain why. The Archivist recorded the filename and left the meaning open.
+
+### Chapter Twenty — A Body Learns the Room
+
+The growth rig was brought upstairs only after the room had been measured. The team did not want the transformation to become a floating figure detached from its surroundings. They wanted a character who could stand at the desk, reach the keyboard, sit in the chair, cross the room, and still belong to the same architecture as the first frame.
+
+The initial model was checked from the ground upward. The rig origin sat at the feet. The floor contact was tested. The chair, desk, keyboard, speakers, and window were placed outside the character hierarchy so they would remain fixed while the body changed. A mark on the wall gave the camera a stable reference. The camera itself was locked.
+
+At the first stage Joey's shoulders broadened slightly and his chest gained depth. The change was visible in the shirt, but the collar still sat naturally around the neck. His arms developed more volume without swallowing the hands. The torso followed more slowly. The legs gained supporting mass so the enlarged upper body did not appear to float above an unchanged frame.
+
+The first hold lasted long enough for the group to inspect the result. They checked the silhouette from the front, side, and three-quarter view. One frame was rejected because the shoulder control had pulled the upper arm out of its socket. Another was rejected because the material shift had flattened the skin into a single blue-green surface. The approved pass retained texture and gradual colour emergence.
+
+At the second hold, Joey stood beside the desk. The keyboard remained at its original height. The chair had not moved. The room now made the scale change legible: the same man, in the same place, occupying more of the space.
+
+The Archivist marked the sequence as a review render, not a final animation. The driver still required a compatible rig, correctly named controls, and a render test. The code described a method. The body had to prove that the method worked.
+
+Joseph watched the playback once without comment. Then he asked for a version in which the camera remained completely still from beginning to end.
+
+“That is the one we can compare,” Tyler said.
+
+### Chapter Twenty-One — The Space Between Tracks
+
+The first recording session took place after midnight. Joseph had arranged the tracks in a loose sequence, leaving gaps between them. There was a short instrumental passage, a field recording from the street, a piano phrase that stopped before resolving, and a low rhythmic pulse that seemed to belong to the building rather than to the speakers.
+
+He called the project BETWEEN_TRACKS.
+
+The others entered one at a time. Gabe listened from the chair. Chase stood near the window and watched the traffic lights change. Andrew sat on the floor with his back against the wall, tapping a slow rhythm against his baseball glove. Luke leaned against the doorframe. Tyler asked whether the room tone had been recorded before or after the radiator began ticking.
+
+Joseph replayed the sequence.
+
+The gaps were not empty. They gave each sound somewhere to end. The street recording opened a distance between the piano and the pulse. The unfinished phrase made the listener aware of the moment when a melody might have continued but did not. Nobody tried to fill it.
+
+When the track ended, Andrew tapped the glove once more.
+
+“Keep that,” Joseph said.
+
+It was the first contribution that came from someone else. Andrew's small sound became a marker at the end of the sequence. It was not polished into a drum hit. Its roughness remained.
+
+The Archivist created a record for the session and linked it to the room, the keyboard, the street recording, and the glove. Joseph added a note: no final mix yet. The track was still changing.
+
+Later, he opened the channel reference folder and checked the address he had given the group: @joeyprever. The folder remained a source pointer, not a substitute for his own fictional development. Until public videos could be reviewed directly, no invented channel habits would be attributed to it. Joseph closed the folder and returned to the music.
+
+The city outside had grown quiet. In the room above the shop, the speakers held the last trace of the pulse. Joey saved a second version and named it BETWEEN_TRACKS_02.
+
+The empty wall remained empty. It had become part of the composition.

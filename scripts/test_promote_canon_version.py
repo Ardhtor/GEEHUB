@@ -7,6 +7,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import promote_canon_version as promotion
+from engine.tractus_science import validate_version_records
 
 
 class CanonPromotionIntegrationTests(unittest.TestCase):
@@ -75,6 +76,7 @@ class CanonPromotionIntegrationTests(unittest.TestCase):
         event = next(item for item in activity if item["id"] == promoted["promotion_event_id"])
         self.assertEqual(event["type"], "canon_promotion")
         self.assertEqual(event["version_id"], promoted["canon_version_id"])
+        self.assertEqual(validate_version_records(versions), [])
 
     def test_promotion_rejects_changed_source_file(self):
         self.entity.write_text("Changed after baseline.\n", encoding="utf-8")

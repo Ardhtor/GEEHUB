@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geehub.local/schemas/tractus-revision.schema.json",
+  "title": "Tractus Revision Record",
+  "type": "object",
+  "required": [
+    "revision_id",
+    "parent_revision_id",
+    "canon_path",
+    "prior_sha256",
+    "result_sha256",
+    "retrieval_id",
+    "prediction",
+    "observation",
+    "prediction_error",
+    "update_reason",
+    "source_event_id",
+    "created_at",
+    "status"
+  ],
+  "properties": {
+    "revision_id": {
+      "type": "string",
+      "minLength": 8
+    },
+    "parent_revision_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "canon_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prior_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "result_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "retrieval_id": {
+      "type": "string",
+      "minLength": 8
+    },
+    "prediction": {
+      "type": "string",
+      "minLength": 8
+    },
+    "observation": {
+      "type": "string",
+      "minLength": 8
+    },
+    "prediction_error": {
+      "type": "string",
+      "minLength": 8
+    },
+    "update_reason": {
+      "type": "string",
+      "minLength": 8
+    },
+    "source_event_id": {
+      "type": "string",
+      "minLength": 8
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "CANON_REVISION",
+        "DRAFT",
+        "RETRIEVAL_ONLY"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

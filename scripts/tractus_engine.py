@@ -151,7 +151,7 @@ def call_model(api_key: str, model: str, instructions: str, user_text: str) -> d
     return result
 
 
-def bootstrap_retrieval(api_key: str, model: str, dry_run: bool) -> None:
+def bootstrap_retrieval(api_key: str, model: str, schedule: dict, dry_run: bool) -> None:
     """Seed the first recall card without producing a narrative/canon update."""
     context = collect_context()
     instructions = """

@@ -85,13 +85,23 @@
       "priority": "high",
       "canonSource": "characters/records/ANDREW.md",
       "currentCharacterFoundation": [
-        "playful",
-        "active",
+        "eccentric",
+        "Italian",
+        "large muscular baseball athlete",
+        "blue-eyed",
+        "associative",
+        "deadpan",
         "improvisational",
-        "social",
-        "action-oriented"
+        "team-oriented"
       ],
-      "reviewStatus": "profile-unavailable-post-level-review-pending"
+      "reviewStatus": "profile-unavailable-post-level-review-pending",
+      "userEstablishedCanon": {
+        "nationalityOrIdentity": "Italian",
+        "physicalDescription": "big, muscular male baseball player with blue eyes",
+        "eccentricity": "genuinely eccentric; unusual but internally connected associations",
+        "evidenceSource": "direct user instruction on 2026-11-09",
+        "boundaries": "Do not infer team, position, playing level, exact measurements, regional origin, accent, or private details from the public profile."
+      }
     }
   ],
   "interpretationProtocol": [

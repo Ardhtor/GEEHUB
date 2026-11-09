@@ -747,3 +747,54 @@ Nobody declared the track complete.
 Before leaving, Joseph wrote the next session date on the sleeve. The Archivist linked the date to the room, the track, the glove, and the people who had been present. It left the ending open.
 
 The story had learned three things that week: a sound could change meaning when it moved; a correction could create a new route; and memory worked best when it remained attached to the people and places that had made it. The next chapter would begin in a city that had already changed.
+
+
+### Chapter Twenty-Five — The Field Takes the Measure
+
+Andrew did not take Joseph to the gym. He took him to the baseball field.
+
+The invitation arrived as a message with no explanation: bring the recording, wear shoes you can stand in, and do not expect the speakers to help. Joseph nearly asked what that meant. Then he remembered that Andrew's ideas often made sense only after they had been put into motion.
+
+The field was empty when they arrived. The grass held a thin layer of morning damp. A groundskeeper was dragging a line across the infield, and the metal gate made a low double sound when Andrew pushed it open.
+
+Andrew walked the perimeter first. He checked the fence, the dugout, the bases, and the patch of ground where the grass gave way to dirt. He moved with the economy of someone who knew the dimensions through repetition. His shoulders and arms carried the relaxed strength of an athlete between plays. He did not perform for the empty stands. He was simply at home there.
+
+Joseph set the recorder on the bench.
+
+“You brought me here for the sound?”
+
+“Not just the sound.”
+
+Andrew took the baseball from his pocket and rolled it between his palms. He pointed to the fence, then to the dugout roof, then to the open space behind home plate. He described how the same impact changed depending on where it landed. A ball against the fence gave a sharp metallic answer. A ball into the dirt disappeared quickly. A ball caught cleanly in the glove carried a little pocket of air with it.
+
+Then he said the field was like a room with no ceiling.
+
+Joseph looked across the grass. The comparison seemed strange until he listened. Wind crossed the open space without meeting a wall. The fence interrupted it in narrow bands. Somewhere beyond the outfield, a truck changed gears. The groundskeeper's drag made a steady rasp, then stopped.
+
+Andrew threw the ball gently against the fence. The sound rang out and returned thinner.
+
+He caught it on the rebound.
+
+“That's the part,” he said. “It comes back different.”
+
+Joseph recorded the second impact. Then the glove. Then the gate. Andrew repeated each action at different distances, not to make a perfect sample but to discover what changed. His eccentric sequence of comparisons had a method inside it. He was testing the field by asking it the same question in several places.
+
+The Archivist opened the existing record for Andrew before adding anything. The character was already established as a muscular Italian baseball player with blue eyes, disciplined in the game and unusual in his associations. The new scene did not need to announce those traits again. It could let them operate. Andrew knew how to move around the field; he also knew how to make an unexpected connection and stay with it until somebody else could hear what he meant.
+
+Joseph played the recordings back. The fence sounded distant. The glove sounded close. The gate had a hinge-note that could almost have belonged to the music shop door.
+
+Andrew heard it too.
+
+“There's your bridge,” he said.
+
+Joseph placed the gate sound before the piano phrase. It was rougher than the shop recording, but it opened the track outward. The music no longer belonged only to the room above the shop. It had a field in it.
+
+They saved the session as FIELD_NOTES_01. Andrew wrote the date on the back of the recording sleeve, then drew a small diamond beside it. He did not explain the mark. Joseph asked whether it meant the baseball field.
+
+“It means we can come back and check.”
+
+The Archivist linked the new recording to Andrew's character record, the field, the gate, the glove, and BETWEEN_TRACKS_03. It did not turn one morning into a permanent personality summary. It recorded the actions that had occurred and left the next visit open.
+
+On the walk back, Andrew stopped to retrieve the ball from the grass. Joseph had already started thinking about a second recording: the same gate at dusk, the same fence after rain, the same glove in a different hand.
+
+The field had not become a studio. It remained a place where Andrew played. The music had entered it briefly, and now the next visit would have something to compare.

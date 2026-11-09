@@ -14,7 +14,11 @@ import math
 import os
 from mathutils import Vector
 
-PROJECT_NAME = "GEEHUB_Growth_Study_001_V2"
+PROJECT_NAME = "GEEHUB_Growth_Study_001_V2_3"
+RUN_START_FRAME = 108
+RUN_CYCLE_START = 112
+RUN_CYCLE_END = 208
+RUN_RETREAT_DISTANCE = 9.0
 USE_VOLUME = True
 RENDER_PREVIEWS = True
 PREVIEW_RESOLUTION = 100
@@ -536,7 +540,7 @@ def build_environment():
     floor = bpy.context.object
     floor.name = "ENV_StudioFloor"
     floor.data.materials.append(floor_mat)
-    bpy.ops.mesh.primitive_plane_add(size=200, location=(0, 3.0, 3.0), rotation=(math.radians(90), 0, 0))
+    bpy.ops.mesh.primitive_plane_add(size=200, location=(0, 14.0, 3.0), rotation=(math.radians(90), 0, 0))
     wall = bpy.context.object
     wall.name = "ENV_Backdrop"
     wall.data.materials.append(wall_mat)
@@ -587,9 +591,35 @@ def build_environment():
     bpy.context.collection.objects.link(camera)
     camera.location = (3.1, -6.7, 2.4)
     aim_at(camera, (0, 0, 1.08))
-    camera_data.type = 'ORTHO'
-    camera_data.ortho_scale = 2.75
+    # Perspective lens is matched to the previous orthographic framing at the
+    # starting distance, then naturally lets the runner recede in the frame.
+    camera_data.type = 'PERSP'
+    camera_data.lens = 65.0
     bpy.context.scene.camera = camera
+
+    runway_mat = make_principled(
+        "MAT_RunwayGuide — muted teal", (0.025, 0.16, 0.17, 1),
+        roughness=0.42, metallic=0.28)
+    for side, x in (("L", -1.15), ("R", 1.15)):
+        bpy.ops.mesh.primitive_cube_add(size=1, location=(x, 5.7, 0.006))
+        guide = bpy.context.object
+        guide.name = f"ENV_RunAwayGuide.{side}"
+        guide.scale = (0.018, 15.5, 0.008)
+        bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+        guide.data.materials.append(runway_mat)
+    # A distant threshold gives the retreat an actual destination.
+    frame_parts = (
+        ("Left", (-1.28, 12.0, 1.50), (0.07, 0.10, 3.0)),
+        ("Right", (1.28, 12.0, 1.50), (0.07, 0.10, 3.0)),
+        ("Header", (0.0, 12.0, 3.0), (2.63, 0.10, 0.08)),
+    )
+    for label, location, scale in frame_parts:
+        bpy.ops.mesh.primitive_cube_add(size=1, location=location)
+        part = bpy.context.object
+        part.name = f"ENV_RunAwayThreshold_{label}"
+        part.scale = scale
+        bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+        part.data.materials.append(metal_mat)
 
 
 def animate_growth(rig):
@@ -604,6 +634,167 @@ def animate_growth(rig):
                 key.interpolation = 'BEZIER'
     for frame, label in ((1, "REST"), (36, "STAGE_01 — activation"),
                          (72, "STAGE_02 — expansion"), (108, "STAGE_03 — full study")):
+        scene.timeline_markers.new(label, frame=frame)
+
+
+
+def animate_run_away(rig):
+    """Add a separate NLA locomotion layer that turns and runs away from camera.
+
+    Growth and locomotion are kept on independent NLA tracks. The growth track
+    holds its last selected stage while the run action animates object motion
+    and pose bones, so the two systems can be edited independently.
+    """
+    scene = bpy.context.scene
+    anim_data = rig.animation_data_create()
+    growth_action = anim_data.action
+    if growth_action is None:
+        raise RuntimeError("Growth action must exist before run-away animation is built.")
+
+    # Stash the growth action on its own NLA track before creating locomotion.
+    anim_data.action = None
+    growth_track = anim_data.nla_tracks.new()
+    growth_track.name = "01_GROWTH — independent stage control"
+    growth_strip = growth_track.strips.new(
+        "GROWTH_STAGES — REST to FULL", GROWTH_KEYS[0][0], growth_action)
+    growth_strip.blend_type = 'REPLACE'
+    growth_strip.extrapolation = 'HOLD_FORWARD'
+    growth_strip.influence = 1.0
+
+    run_action = bpy.data.actions.new("RUN_AWAY — turn, gait, and retreat")
+    anim_data.action = run_action
+    rig.rotation_mode = 'XYZ'
+
+    # Turn the character away from the fixed camera, then travel down the lane.
+    rig.location = (0.0, 0.0, 0.0)
+    rig.rotation_euler = (0.0, 0.0, 0.0)
+    rig.keyframe_insert(data_path="rotation_euler", frame=RUN_START_FRAME,
+                        group="Run Root Motion")
+    rig.rotation_euler.z = math.pi
+    rig.keyframe_insert(data_path="rotation_euler", frame=RUN_CYCLE_START,
+                        group="Run Root Motion")
+    rig.keyframe_insert(data_path="rotation_euler", frame=RUN_CYCLE_END,
+                        group="Run Root Motion")
+
+    # Four complete 24-frame gait cycles. Opposed arms and legs alternate;
+    # knees flex during recovery, wrists stay loose, and digits retain a light
+    # running grip. The character's identity and scale are not camera-animated.
+    frame = RUN_CYCLE_START
+    while frame <= RUN_CYCLE_END:
+        progress = (frame - RUN_CYCLE_START) / (RUN_CYCLE_END - RUN_CYCLE_START)
+        phase = ((frame - RUN_CYCLE_START) / 24.0) * (2.0 * math.pi)
+        swing = math.sin(phase)
+        recovery = max(0.0, swing)
+        opposite_recovery = max(0.0, -swing)
+
+        rig.location = (
+            0.0,
+            RUN_RETREAT_DISTANCE * progress,
+            0.035 * max(0.0, math.sin(phase * 2.0))
+        )
+        rig.keyframe_insert(data_path="location", frame=frame,
+                            group="Run Root Motion")
+
+        pose = rig.pose.bones
+        rotations = {
+            "thigh.L": (0.58 * swing, 0.0, 0.0),
+            "thigh.R": (-0.58 * swing, 0.0, 0.0),
+            "calf.L": (0.12 + 0.58 * opposite_recovery, 0.0, 0.0),
+            "calf.R": (0.12 + 0.58 * recovery, 0.0, 0.0),
+            "foot.L": (-0.18 * recovery + 0.10 * opposite_recovery, 0.0, 0.0),
+            "foot.R": (0.18 * opposite_recovery - 0.10 * recovery, 0.0, 0.0),
+            "upper_arm.L": (-0.48 * swing, 0.0, 0.0),
+            "upper_arm.R": (0.48 * swing, 0.0, 0.0),
+            "forearm.L": (0.62 + 0.12 * opposite_recovery, 0.0, 0.0),
+            "forearm.R": (0.62 + 0.12 * recovery, 0.0, 0.0),
+            "hand.L": (0.06, 0.0, 0.0),
+            "hand.R": (0.06, 0.0, 0.0),
+            "pelvis": (0.055 * math.cos(phase * 2.0), 0.0, 0.0),
+            "spine": (-0.11 + 0.035 * math.cos(phase * 2.0), 0.0, 0.0),
+            "neck": (0.025 * math.sin(phase), 0.0, 0.0),
+            "head": (-0.025 * math.sin(phase), 0.0, 0.0),
+        }
+        for bone_name, rotation in rotations.items():
+            bone = pose.get(bone_name)
+            if bone is None:
+                continue
+            bone.rotation_mode = 'XYZ'
+            bone.rotation_euler = rotation
+            bone.keyframe_insert(
+                data_path="rotation_euler", frame=frame, group="Run Cycle")
+
+        # Keep the hands slightly closed while running; every finger remains
+        # its own articulated control, not a single rigid mitten.
+        for side in ("L", "R"):
+            for digit in ("thumb", "index", "middle", "ring", "pinky"):
+                proximal = pose.get(f"{digit}_01.{side}")
+                distal = pose.get(f"{digit}_02.{side}")
+                if proximal:
+                    proximal.rotation_mode = 'XYZ'
+                    proximal.rotation_euler[0] = 0.12 + 0.025 * recovery
+                    proximal.keyframe_insert(
+                        data_path="rotation_euler", frame=frame,
+                        group="Run Finger Grip")
+                if distal:
+                    distal.rotation_mode = 'XYZ'
+                    distal.rotation_euler[0] = 0.16 + 0.02 * recovery
+                    distal.keyframe_insert(
+                        data_path="rotation_euler", frame=frame,
+                        group="Run Finger Grip")
+            for digit in ("big_toe", "toe_02", "toe_03", "toe_04", "toe_05"):
+                proximal = pose.get(f"{digit}_01.{side}")
+                distal = pose.get(f"{digit}_02.{side}")
+                if proximal:
+                    proximal.rotation_mode = 'XYZ'
+                    proximal.rotation_euler[0] = 0.035 + 0.04 * recovery
+                    proximal.keyframe_insert(
+                        data_path="rotation_euler", frame=frame,
+                        group="Run Toe Articulation")
+                if distal:
+                    distal.rotation_mode = 'XYZ'
+                    distal.rotation_euler[0] = 0.025 + 0.03 * recovery
+                    distal.keyframe_insert(
+                        data_path="rotation_euler", frame=frame,
+                        group="Run Toe Articulation")
+        frame += 6
+
+    # Keep translation at constant speed and use smooth curves for body motion.
+    for fcurve in run_action.fcurves:
+        for key in fcurve.keyframe_points:
+            if fcurve.data_path == "location" and fcurve.array_index == 1:
+                key.interpolation = 'LINEAR'
+            else:
+                key.interpolation = 'BEZIER'
+
+    # Place the run action on its own NLA track. Growth is a different track
+    # with only a custom-property curve, so both can operate at the same time.
+    anim_data.action = None
+    run_track = anim_data.nla_tracks.new()
+    run_track.name = "02_LOCOMOTION — run away"
+    run_strip = run_track.strips.new(
+        "RUN_AWAY — turn, four strides, and retreat",
+        RUN_START_FRAME, run_action)
+    run_strip.blend_type = 'REPLACE'
+    run_strip.extrapolation = 'HOLD_FORWARD'
+    run_strip.influence = 1.0
+
+    rig["locomotion_action"] = run_action.name
+    rig["locomotion_mode"] = "RUN_AWAY"
+    rig["locomotion_direction"] = "world +Y, away from fixed camera"
+    rig["run_distance"] = RUN_RETREAT_DISTANCE
+    rig["run_cycle_frames"] = 24
+    rig["run_cycle_count"] = 4
+    rig["movement_instructions"] = (
+        "NLA Editor: enable 02_LOCOMOTION — run away. "
+        "Mute this track to disable retreat; growth remains independently controlled."
+    )
+
+    scene.frame_end = RUN_CYCLE_END
+    for frame, label in (
+        (RUN_START_FRAME, "RUN_AWAY — turn away"),
+        (RUN_CYCLE_START, "RUN_AWAY — gait begins"),
+        (RUN_CYCLE_END, "RUN_AWAY — retreat endpoint"),
+    ):
         scene.timeline_markers.new(label, frame=frame)
 
 
@@ -640,7 +831,8 @@ def save_and_render():
     bpy.ops.wm.save_as_mainfile(filepath=blend_path)
     if RENDER_PREVIEWS:
         for frame, filename in ((1, "growth_stage_00_rest.png"),
-                                (108, "growth_stage_03_full.png")):
+                                (108, "growth_stage_03_full.png"),
+                                (RUN_CYCLE_END, "run_away_retreat_endpoint.png")):
             scene.frame_set(frame)
             scene.render.filepath = os.path.join(render_dir, filename)
             bpy.ops.render.render(write_still=True)
@@ -655,6 +847,7 @@ def main():
     build_character(rig)
     build_environment()
     animate_growth(rig)
+    animate_run_away(rig)
     configure_render()
     bpy.context.scene.frame_set(1)
     save_and_render()

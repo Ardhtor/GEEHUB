@@ -1,0 +1,104 @@
+{
+  "schema": "geehub.character-personality-reference/1",
+  "title": "User-designated public voice references",
+  "status": "mapped-public-profile-review-pending",
+  "principle": "The user assigns each public account as a creative personality/voice reference for a fictional GEEHUB character. These mappings are user-directed. Account-derived traits must only be added after the referenced public material has been directly reviewed; until then, character voice remains grounded in established GEEHUB canon.",
+  "evidenceBoundary": {
+    "reviewed": false,
+    "note": "Direct profile pages for X and Instagram were inaccessible to the current web viewer on 2026-11-09. Search indexing did not provide a reliable, representative set of posts for all five accounts. No specific account personality traits are asserted as verified findings.",
+    "nextStep": "Review a representative selection of public posts, captions, replies, and media from each account. Capture source URLs and dates, then identify recurring public-facing cadence, humour, topics, emotional register, conversational stance, and expression. Keep observations separate from character interpretation."
+  },
+  "references": [
+    {
+      "character": "luke",
+      "account": "PaapaMurph",
+      "platform": "x",
+      "url": "https://x.com/PaapaMurph",
+      "role": "personality and voice reference",
+      "priority": "high",
+      "canonSource": "characters/records/LUKE.md",
+      "currentCharacterFoundation": [
+        "direct",
+        "protective",
+        "body-aware",
+        "social",
+        "presence-first"
+      ],
+      "reviewStatus": "profile-unavailable-post-level-review-pending"
+    },
+    {
+      "character": "tyler",
+      "account": "TylerALedbetter",
+      "platform": "x",
+      "url": "https://x.com/TylerALedbetter",
+      "role": "personality and voice reference",
+      "priority": "high",
+      "canonSource": "characters/records/TYLER.md",
+      "currentCharacterFoundation": [
+        "curious",
+        "skeptical",
+        "precise",
+        "quietly competitive",
+        "evidence-led"
+      ],
+      "reviewStatus": "profile-unavailable-post-level-review-pending"
+    },
+    {
+      "character": "chase",
+      "account": "c.w.sachs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/c.w.sachs/",
+      "role": "personality and voice reference",
+      "priority": "high",
+      "canonSource": "characters/records/CHASE.md",
+      "currentCharacterFoundation": [
+        "observant",
+        "decisive",
+        "dry",
+        "narrative-minded",
+        "consequence-aware"
+      ],
+      "reviewStatus": "profile-unavailable-post-level-review-pending"
+    },
+    {
+      "character": "gabe",
+      "account": "river_m_g",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/river_m_g/",
+      "role": "personality and voice reference",
+      "priority": "high",
+      "canonSource": "characters/records/GABE.md",
+      "currentCharacterFoundation": [
+        "transformation-aware",
+        "identity-conscious",
+        "social-signal-sensitive",
+        "growth-driven"
+      ],
+      "reviewStatus": "profile-unavailable-post-level-review-pending"
+    },
+    {
+      "character": "andrew",
+      "account": "andrewpsim",
+      "platform": "x",
+      "url": "https://x.com/andrewpsim",
+      "role": "personality and voice reference",
+      "priority": "high",
+      "canonSource": "characters/records/ANDREW.md",
+      "currentCharacterFoundation": [
+        "playful",
+        "active",
+        "improvisational",
+        "social",
+        "action-oriented"
+      ],
+      "reviewStatus": "profile-unavailable-post-level-review-pending"
+    }
+  ],
+  "interpretationProtocol": [
+    "Quote or paraphrase only the public post being examined, with link and date.",
+    "Observe speech and posting style; do not infer private psychology, health, relationships, or other sensitive details.",
+    "Separate source observation from the GEEHUB character adaptation.",
+    "Do not imitate exact phrases, catchphrases, or distinctive creative expression; translate broad cadence and interaction patterns into original dialogue.",
+    "Keep the existing canon unless the user explicitly requests a change."
+  ]
+}

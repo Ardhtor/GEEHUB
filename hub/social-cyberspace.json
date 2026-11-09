@@ -138,6 +138,25 @@
       "url": "https://www.youtube.com/@GravesBroden",
       "priority": "secondary",
       "role": "User's channel and video archive."
+    },
+    {
+      "id": "youtube-detdert",
+      "platform": "youtube",
+      "account": "Detdert",
+      "channelId": "UCd7Tlj816jyDB8ywfJ4Ie6w",
+      "url": "https://www.youtube.com/channel/UCd7Tlj816jyDB8ywfJ4Ie6w",
+      "priority": "followed",
+      "role": "User-followed gaming creator; League of Legends gameplay and jungler perspective. Import individual public posts or videos by link."
+    },
+    {
+      "id": "youtube-mang0",
+      "platform": "youtube",
+      "account": "Mang0",
+      "handle": "@mang0gobirds",
+      "url": "https://www.youtube.com/@mang0gobirds",
+      "priority": "followed",
+      "role": "User-followed gaming creator; Super Smash Bros. Melee and wider gaming / stream content. Import individual public posts or videos by link."
     }
-  ]
+  ],
+  "youtubeSourcePolicy": "Followed creator channels are kept as source links. The feed does not silently scrape or poll them; the user brings an occasional post or video by link, then one member responds to that shared item."
 }

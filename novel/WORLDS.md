@@ -1997,3 +1997,11 @@ SETH: A line becomes visible between THE COMMON TABLE and CEDAR HOUSE. The archi
 NICK: A route through the kitchen turns an arrival into a shared meal without requiring an invitation speech. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: worlds/common-table/README.md. Pressure 1.00; memory 1.00.
+
+## CEDAR HOUSE / pulse 219 / CROSSING
+
+NICK: The world crosses the route from THE COMMON TABLE into CEDAR HOUSE. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: A warm cedar home with a generous kitchen, deep sitting room, sheltered porch, reading alcove, and an open door for unhurried visits. Relation carried forward: A TABLE IS SET.
+
+Source retained: worlds/cedar-house/README.md. Pressure 0.88; memory 1.00.

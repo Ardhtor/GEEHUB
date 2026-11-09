@@ -1,0 +1,36 @@
+{
+  "id": "activity-world-pulse-000219",
+  "created_at": "2026-11-09T17:01:34.476286+00:00",
+  "source": "tractus-world-engine",
+  "kind": "activity-event",
+  "title": "CEDAR HOUSE",
+  "content": "NICK: The world crosses the route from THE COMMON TABLE into CEDAR HOUSE. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A warm cedar home with a generous kitchen, deep sitting room, sheltered porch, reading alcove, and an open door for unhurried visits. Relation carried forward: A TABLE IS SET.",
+  "lineage": {
+    "event_id": "world-pulse-000219",
+    "event": {
+      "id": "world-pulse-000219",
+      "pulse": 219,
+      "time": "2026-11-09T17:01:34.476286+00:00",
+      "actor": "JOSEPH",
+      "world": "CEDAR HOUSE",
+      "region_id": "cedar-house",
+      "previous_region_id": "common-table",
+      "phase": "CROSSING",
+      "source": "worlds/cedar-house/README.md",
+      "desire_state": "continuity",
+      "action": "NICK: The world crosses the route from THE COMMON TABLE into CEDAR HOUSE. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A warm cedar home with a generous kitchen, deep sitting room, sheltered porch, reading alcove, and an open door for unhurried visits. Relation carried forward: A TABLE IS SET.",
+      "narrative_rule": "meaningful change becomes an outward-facing signal",
+      "relation": "A TABLE IS SET",
+      "next_region": null,
+      "pressure": 0.88,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T17:01:34.476286+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
+    }
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue from this event's changed world state"
+}

@@ -30,8 +30,9 @@ A conversation-supplied six-second vertical clip is registered as a provisional 
 
 The character now has a prose cycle alongside the production specification. These chapters treat Joey's long-distance relationship context as part of the fictional character's emotional architecture without claiming to know Joey's private thoughts or intentions.
 
-- [I — The Distance Between Two Rooms](CHAPTER_01_THE_DISTANCE_BETWEEN_ROOMS.md): the theme-song signal, Stage 4 stillness, two rooms separated by distance, and the importance of leaving the reunion unresolved.
+- [I — The Distance Between Two Rooms](CHAPTER_01_THE_DISTANCE_BETWEEN_TWO_ROOMS.md): the theme-song signal, Stage 4 stillness, two rooms separated by distance, and the importance of leaving the reunion unresolved.
 - [II — The Ledger That Did Not Read Messages](CHAPTER_02_THE_LEDGER_THAT_DID_NOT_READ_MESSAGES.md): the men establish a room archive that distinguishes observation, supplied evidence, interpretation, and what remains private.
+- [III — The Colour Key](CHAPTER_03_THE_COLOUR_KEY.md): the men distinguish the Titan's base blue-green skin from the gym's lighting and leave the colour's wider meaning open.
 
 The Jewish Ukrainian context named by the user is treated as personal inheritance, not a licence to invent religious practice, family history, language fluency, migration history, or political beliefs. Future cultural details should be grounded in what the user chooses to add. The fictional gym archive records the room and stops at the threshold of private correspondence.
 

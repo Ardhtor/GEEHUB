@@ -859,5 +859,44 @@
       "growth-canvas",
       "growth-tools"
     ]
+  },
+  {
+    "id": "jock-hypnosis",
+    "name": "Jock Hypnosis — Institute Training Experience",
+    "status": "prototype",
+    "kind": "connected-experience",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/production/growth-study-001/JOCK_HYPNOSIS_EXPERIENCE_SPEC.md",
+    "description": "Dreamlike, ritual-driven athletic experience inside the Institute of Becoming. Connects the gymnasium, residences, dining hall, character and voice continuity, Growth Study rigging, Growth Canvas, media, sound, and Tractus passages as one persistent world.",
+    "related": [
+      "institute-of-becoming",
+      "the-coach",
+      "growth-study-001",
+      "sensation-engine",
+      "tractus-continuity",
+      "character-records",
+      "developing-voices",
+      "voice-engine-runtime",
+      "media-tools",
+      "geehub-studio",
+      "arboreal-audio",
+      "male-stud",
+      "sacred-corridor",
+      "the-complex",
+      "beefythiq",
+      "mass1v1ng",
+      "muscle-myth"
+    ],
+    "tags": [
+      "gym",
+      "jock",
+      "training",
+      "dreamlike",
+      "hypnotic-rhythm",
+      "growth",
+      "male-social-world",
+      "continuity",
+      "institute"
+    ]
   }
 ]

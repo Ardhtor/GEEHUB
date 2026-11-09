@@ -11,7 +11,7 @@
     {
       "thread_id": "main-manuscript",
       "last_retrieved_at": null,
-      "next_due_at": "2026-11-09T00:00:00Z",
+      "next_due_at": "2026-11-10T18:00:00Z",
       "interval_days": 1,
       "successful_recalls": 0,
       "last_recall_score": null,
@@ -38,7 +38,7 @@
     {
       "thread_id": "romance-and-domestic-life",
       "last_retrieved_at": null,
-      "next_due_at": "2026-11-09T00:00:00Z",
+      "next_due_at": "2026-11-10T18:00:00Z",
       "interval_days": 1,
       "successful_recalls": 0,
       "last_recall_score": null,
@@ -65,7 +65,7 @@
     {
       "thread_id": "cabin-lexor-and-privathor",
       "last_retrieved_at": null,
-      "next_due_at": "2026-11-09T00:00:00Z",
+      "next_due_at": "2026-11-10T18:00:00Z",
       "interval_days": 1,
       "successful_recalls": 0,
       "last_recall_score": null,

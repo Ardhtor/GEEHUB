@@ -11,6 +11,7 @@ from typing import Any
 INTERVAL_LADDER = (1, 3, 7, 14, 30)
 ALLOWED_RESPONSES = {"pause", "step", "turn", "breath", "reach", "stillness"}
 ALLOWED_PHASES = {"on_beat", "off_beat", "break", "silence"}
+ALLOWED_CUE_PATTERNS = {"lock_in", "threshold", "reveal", "recall"}
 
 
 def validate_event(event: dict[str, Any]) -> list[str]:
@@ -47,6 +48,9 @@ def validate_event(event: dict[str, Any]) -> list[str]:
 
 def validate_cue(cue: dict[str, Any]) -> list[str]:
     errors: list[str] = []
+    for field in ("cue_id", "event_id", "timestamp", "signal", "spatial_change", "action", "sonic_residue"):
+        if not isinstance(cue.get(field), str) or not cue[field].strip():
+            errors.append(f"cue {field} is required")
     bpm = cue.get("bpm")
     if not isinstance(bpm, (int, float)) or isinstance(bpm, bool) or not 30 <= bpm <= 300:
         errors.append("cue bpm must be between 30 and 300")
@@ -56,6 +60,9 @@ def validate_cue(cue: dict[str, Any]) -> list[str]:
         errors.append("cue target_response is not an allowed action")
     if not isinstance(cue.get("duration_beats"), (int, float)) or cue.get("duration_beats", 0) <= 0:
         errors.append("cue duration_beats must be positive")
+    pattern = cue.get("pattern")
+    if pattern is not None and pattern not in ALLOWED_CUE_PATTERNS:
+        errors.append("cue pattern must be lock_in, threshold, reveal, or recall")
     state = cue.get("state_change") or {}
     changed = False
     for before_key, after_key in (
@@ -73,6 +80,35 @@ def validate_cue(cue: dict[str, Any]) -> list[str]:
         silence_beats = cue.get("silence_beats", 0)
         if not tempo_changed and not (isinstance(silence_beats, (int, float)) and silence_beats >= 2):
             errors.append("break cue requires a tempo change or at least 2 beats of silence")
+    if pattern == "lock_in":
+        duration = cue.get("duration_beats")
+        if cue.get("phase") != "on_beat" or not isinstance(duration, (int, float)) or not 4 <= duration <= 8:
+            errors.append("lock_in requires an on_beat cue lasting 4–8 beats")
+        if cue.get("target_response") not in {"step", "breath"}:
+            errors.append("lock_in target_response must be step or breath")
+    elif pattern == "threshold":
+        before, after = state.get("tempo_before"), state.get("tempo_after")
+        if cue.get("phase") != "break":
+            errors.append("threshold requires phase=break")
+        if not (isinstance(before, (int, float)) and isinstance(after, (int, float)) and before - after >= 15):
+            errors.append("threshold requires a tempo drop of at least 15 BPM")
+        silence = cue.get("silence_beats", 0)
+        if not isinstance(silence, (int, float)) or silence < 2:
+            errors.append("threshold requires at least 2 beats of silence")
+        if cue.get("target_response") not in {"pause", "stillness"}:
+            errors.append("threshold target_response must be pause or stillness")
+    elif pattern == "reveal":
+        if cue.get("phase") != "off_beat":
+            errors.append("reveal requires phase=off_beat")
+        if state.get("presence_before") == state.get("presence_after"):
+            errors.append("reveal requires a presence change")
+        if cue.get("target_response") not in {"turn", "reach"}:
+            errors.append("reveal target_response must be turn or reach")
+    elif pattern == "recall":
+        if not isinstance(cue.get("recalled_cue_id"), str) or not cue["recalled_cue_id"].strip():
+            errors.append("recall requires recalled_cue_id")
+        if cue.get("target_response") not in {"breath", "stillness"}:
+            errors.append("recall target_response must be breath or stillness")
     return errors
 
 

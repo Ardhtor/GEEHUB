@@ -232,12 +232,13 @@ path, title, chapter. Tie environmental details to character intention and concr
             "description":"A prediction error was found, but the destination remains an experiment or has no reviewed canon version.",
             "thread_id":retrieval["thread_id"],"retrieval_id":retrieval["retrieval_id"],
             "action":"Await explicit operator promotion before changing canon."},source="scripts/tractus_engine.py")
-        SCHEDULE_PATH.write_text(json.dumps(updated_schedule,indent=2,ensure_ascii=False)+"\\n",encoding="utf-8")
-        RETRIEVAL_STATE_PATH.write_text(json.dumps(updated_state,indent=2,ensure_ascii=False)+"\\n",encoding="utf-8")
+        SCHEDULE_PATH.write_text(json.dumps(updated_schedule,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
+        RETRIEVAL_STATE_PATH.write_text(json.dumps(updated_state,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
         commit_changes("Tractus: hold proposed update pending canon review")
         return
     prior=latest_for_path
-    prior_sha=sha256_text((ROOT/path).read_text(encoding="utf-8"))
+    existing=(ROOT/path).read_text(encoding="utf-8")
+    prior_sha=sha256_text(existing)
     title=title.strip()
     if path=="novel/BOOK_I_CONTINUATION_03.md":
         nums=re.findall(r"^## Chapter ([IVXLCDM]+)\\b",existing,flags=re.MULTILINE)

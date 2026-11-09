@@ -1,6 +1,15 @@
 # GEEHUB construction state
 
-Updated: 2026-11-08
+Updated: 2026-11-09
+
+## Stable mask-derived mesh added — 2026-11-09
+- `engine/growth-video-studio/core/mask-mesh.js` builds a fixed-index 2D grid mesh from at least two decoded body/face mask frames. Vertex IDs are assigned by grid row/column; triangle IDs are stable cell/diagonal identifiers. Each frame supplies source-pixel coordinates for the same vertex IDs, mapped across that frame's body-mask bounds.
+- Candidate triangles are retained only when every covered pixel centre is body foreground and protected-face background in every supplied frame. The implementation uses per-row prefix sums for exhaustive scanline coverage checks, rejects body/face overlap and non-binary masks, and reports stable-triangle coverage plus rejection reasons. The common triangle list is conservative: changing silhouettes may remove triangles from the shared topology.
+- `frame-sequence-worker.js` now builds the mesh after the existing checksum, PNG decode, non-empty-mask, and body/face-disjointness checks. The audit returns `maskMesh` and a separate `meshReady` flag. `readyForGeometry` continues to describe successful mask intake; it does not imply that the configured minimum stable-triangle count was reached.
+- Mesh evidence records that retained triangles avoid the supplied face mask, while `pixelSemanticsVerified=false` remains explicit. This does not prove that the upstream producer segmented the correct anatomy or identified every face pixel. The mesh is not yet registered as a bridge frame set, mapped through growth landmarks, or consumed by the pixel renderer.
+- Five focused tests passed in a temporary Node test harness: stable vertex/triangle identities across a one-pixel moving mask, exhaustive triangle coverage against body and face pixels, overlap refusal, invalid pixels/dimensions/frame order, and a minimum-coverage threshold. The frame-sequence integration test was extended to assert that a successful mask audit returns a stable mesh, but the full studio suite was not run in this pass.
+- GitHub commit status for the implementation/test commit exposed no status checks at inspection time. No GitHub Actions pass is claimed. Node syntax checks and the focused mesh tests ran in the local temporary harness; Resolve Lua tests and the full package workflow remain unverified.
+- No local Mac, Dropbox mirror, Resolve session, or user footage was accessed. No source image was altered and no video was rendered.
 
 ## Binary mask pixel inspection and face-mask separation added — 2026-11-08
 - `engine/growth-video-studio/core/mask-pixels.js` decodes a deliberately narrow segmentation format: non-interlaced 8-bit grayscale PNG with binary samples (0 background, 255 foreground). It verifies PNG chunk CRCs, decompresses image data, reconstructs PNG filters 0–4, rejects unsupported encodings and soft probability values, and enforces a configurable pixel-count ceiling.
@@ -108,10 +117,10 @@ Updated: 2026-11-08
 - Live two-way synchronization between Codex, GitHub, Resolve, and Dropbox.
 
 ## Next construction targets
-1. Connect a real segmentation and landmark producer, then add pixel-level mask inspection so face exclusion is measured rather than merely declared.
-2. Generate a face-excluding body mesh from verified masks and maintain vertex/triangle correspondence across adjacent frames.
-3. Build a first per-frame deformation worker that consumes the queued job, samples cumulative growth states, maps articulated landmarks, and warps a test frame without touching the source.
-4. Add temporal validation and scene response for silhouette stability, clothing, ground contact, camera clearance, and occlusion.
+1. Connect a real segmentation and landmark producer, then independently verify anatomical correctness; the current masks remain external producer inputs.
+2. Map the fixed-index mask-mesh vertices through the articulated growth landmarks and test a two-frame warp while preserving the face and untouched background.
+3. Register the mesh topology and per-frame vertex coordinates as typed bridge evidence, then make the queued render job require that exact mesh revision.
+4. Build the per-frame deformation worker and add temporal validation plus scene response for silhouette stability, clothing, ground contact, camera clearance, and occlusion.
 5. Return rendered frames and a checksummed video artifact to the bridge, then verify Resolve import and export behavior.
 
 Each item changes status only when evidence exists.

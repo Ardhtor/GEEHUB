@@ -46,3 +46,9 @@ Active. Visual experiments continue. Extreme-size studies of the two growingest 
 The archive does not impose a fixed vocabulary on its subjects or material. Terms arise from images, encounters, stories, transformations, and recurring distinctions. Record a term with the passage or artifact that gave rise to it; preserve who used it and in what context when known. Repetition may reveal a shared meaning, but do not force unrelated uses into one definition. Meanings remain provisional and may change as the world develops. Characters and communities may coin, contest, borrow, or abandon terms. The archive observes before naming and treats its glossary as an evolving record of the world's own language, not a taxonomy imposed from outside.
 
 Language capture protocol: [`language/README.md`](language/README.md). This protocol records source-grounded expressions without pre-populating a glossary.
+
+## DeviantArt research
+
+- [GravesBeef — Image (31)](gravesbeef-image-31-2026-11-04.md) is currently a metadata-only capture. The deviation URL and image binary were not preserved, so no visual description is yet verified.
+- [DeviantArt Research Dossier](deviantart-research-2026-11-09.md) documents the captured metadata, the three collection labels (Bigger muscles, Just Macho, Morphs and Pictures), official DeviantArt collection mechanics, NoAI handling, source limitations, and the evidence needed for a full visual/gallery study.
+- Preserve the captured label “Trial NoAI” verbatim until the original deviation page is available. Do not use the image as an AI input or derivative-generation source while the NoAI status is present or unresolved.

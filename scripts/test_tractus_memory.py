@@ -12,7 +12,7 @@ class SpacedRetrievalTests(unittest.TestCase):
         self.assertEqual(INTERVAL_LADDER, (1, 3, 7, 14, 30))
         self.assertEqual(next_interval(1, 0.5), 3)
         self.assertEqual(next_interval(3, 0.49), 3)
-        self.assertEqual(next_interval(7, 0.5), 21)
+        self.assertEqual(next_interval(7, 0.5), 14)
         self.assertEqual(next_interval(14, 0.5), 30)
         self.assertEqual(next_interval(30, 0.9), 30)
 

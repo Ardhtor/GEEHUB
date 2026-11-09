@@ -397,6 +397,7 @@ prediction_error. No prediction error means skip=true.
         "status": "CANON_REVISION",
     })
     updated_thread["last_revision_id"] = revision_id
+    updated_thread["last_written_at"] = iso_utc(now)
     updated_schedule["threads"] = [
         updated_thread if item["thread_id"] == retrieval["thread_id"] else item
         for item in updated_schedule["threads"]

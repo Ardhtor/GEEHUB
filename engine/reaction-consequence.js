@@ -10,17 +10,31 @@
 
   function apply(event){
     if(!event)return;
-    state.lastEvent={id:event.id||String(Date.now()),type:event.type||'CHANGE',title:event.title||'WORLD CHANGE',at:Date.now()};
+    state.lastEvent={id:event.id||String(Date.now()),type:event.type||'CHANGE',title:event.title||'WORLD CHANGE',section:event.section||null,category:event.category||null,at:Date.now()};
     state.turn=Number(state.turn||0)+1;
-    state.active=agents.includes(event.to) ? event.to : agents[(state.turn-1)%agents.length];
+    const categoryLane={world:'luke',making:'tyler',people:'andrew',story:'joseph',archive:'chase',exploration:'chase'};
+    const isUserSignal=['USER_ACTION','USER_FOCUS'].includes(event.type);
+    if(isUserSignal && event.feedback==='less'){
+      state.active='chase';
+    }else if(isUserSignal && categoryLane[event.category]){
+      state.active=categoryLane[event.category];
+    }else{
+      state.active=agents.includes(event.to) ? event.to : agents[(state.turn-1)%agents.length];
+    }
+    if(event.feedback){
+      state.preference={category:event.category||'exploration',direction:event.feedback,score:event.preference_score??0,at:Date.now()};
+    }
 
-    state.intent={
-      luke:'inspect presence and environmental response',
-      tyler:'compare inherited state with new state',
-      andrew:'convert the change into an action',
-      joseph:'preserve the meaningful continuity detail',
-      chase:'select the consequence worth carrying forward'
-    }[state.active];
+    const intents={
+      luke:'develop the world or physical environment you entered',
+      tyler:'make the selected tool or sculpting area more capable',
+      andrew:'turn the people-space into a concrete exchange',
+      joseph:'continue the story or relationship thread you selected',
+      chase:'retrieve the relevant archive and preserve its unresolved detail'
+    };
+    state.intent=state.preference?.direction==='less' && isUserSignal
+      ? 'lower the priority of this area without erasing it'
+      : intents[state.active];
 
     state.chain=[
       {agent:'luke',input:'presence',output:'environmental observation'},

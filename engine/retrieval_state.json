@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "bootstrap_required": true,
+  "last_snapshot_at": null,
+  "last_snapshot_source_commit": null,
+  "retrieval_snapshot": [],
+  "last_retrieval_id": null,
+  "note": "Bootstrap only: the first scheduled cycle may inspect canon to create this compact retrieval snapshot, but must not write narrative canon. Subsequent cycles must recall from this snapshot before opening source canon."
+}

@@ -676,3 +676,74 @@ Later, he opened the channel reference folder and checked the address he had giv
 The city outside had grown quiet. In the room above the shop, the speakers held the last trace of the pulse. Joey saved a second version and named it BETWEEN_TRACKS_02.
 
 The empty wall remained empty. It had become part of the composition.
+
+
+### Chapter Twenty-Two — The Story Keeps the Sound
+
+The next morning, Joseph found that the recording had changed while he slept. Not the file itself. The file was exactly where he had left it, with the same name and the same unfinished ending. What had changed was the way he heard it.
+
+Andrew's glove tap had seemed like a small joke at the end of the session. In the morning it sounded like a person arriving. The tap had a soft beginning, a brief hollow body, and a rough edge where the leather folded against itself. It was not a clean percussion sample. It carried the room in it.
+
+Joseph opened BETWEEN_TRACKS_02 and moved the tap away from the final beat. He placed it in the gap before the piano phrase. The whole sequence altered. The piano no longer seemed to begin alone; it seemed to answer something that had already happened.
+
+He saved a third version.
+
+Andrew came upstairs carrying two coffees and the glove. Joseph played the change without explaining it. Andrew listened, then looked at the glove as though it had been used by somebody else.
+
+“You moved it.”
+
+“It was in the wrong place.”
+
+“Was it?”
+
+Joseph played the passage again. Andrew considered the question. He did not ask to have the sound moved back. Instead he put the glove on the desk, beside the keyboard, and said that the next practice might give them another sound worth keeping.
+
+The Archivist added a small entry to the room's record. The glove had moved from Andrew's hand to the desk. Its sound had moved from the end of the track to the space before the piano. The recording had changed because the group had heard it again. The record did not call this a finished composition. It marked the arrangement as a new state.
+
+Later, Tyler noticed that the fixed camera had been left on its stand. The test frame still showed the chair, desk, keyboard, and the empty wall. Joseph had placed the new recording sleeve on the desk, but the sleeve was not in the earlier frame. Tyler asked whether they should preserve the difference.
+
+They made two stills: the original room, and the room after the sleeve arrived. Neither replaced the other. The comparison showed that the room had acquired a history.
+
+The Archivist opened a new page in Tractus. It was not a page of predictions. It recorded the path by which the next scene could know what had happened: the glove, the sound, the changed arrangement, the sleeve, the two images. If another chapter returned to the room, it would find these things there unless somebody moved them.
+
+Joey read the entry and added one sentence: “Don't make the room forget just because we need a clean shot.”
+
+That became the first rule of the room's production notes.
+
+### Chapter Twenty-Three — A Correction Is Also an Event
+
+The first continuity review produced a disagreement. One of the early notes described the room as having six chairs. In the scene itself, there had been six places at the long table downstairs, but only one chair in Joey's room. The number had travelled from one location to another because the two rooms had appeared in the same sequence.
+
+Nobody treated the error as a catastrophe. They went back to the scenes. The downstairs table had six chairs. Joey's room had one chair, later joined by a second when Andrew brought up a folding seat. The record was corrected, but the earlier note remained in the history with a mark showing why it had been superseded.
+
+This mattered more than the number of chairs. The group had discovered that a detail could become false by being carried into the wrong place. A plausible detail was not necessarily a true one.
+
+The Archivist added a distinction to the working register. An event belonged to the scene where it occurred. An inference could travel, but it had to keep its label. A question could remain open without being filled by a convenient answer. When two accounts disagreed, the disagreement itself became part of the record until the evidence settled it.
+
+Chase found another example in the map. The route to the music shop had been drawn as if it were the only entrance. Dan Roman's survey showed a service lane behind the building. The lane was not a secret passage or a dramatic discovery. It was where deliveries arrived, where empty crates were stacked, and where the shopkeeper sometimes left the side door open during the afternoon.
+
+The map changed. The earlier map remained available as the first account.
+
+The new route altered the next day's scene. Gabe arrived with a box of sleeves by the service lane, not the front street. He knew where to put them because the map had changed. A piece of corrected information had become a practical action.
+
+Joey watched the box being carried upstairs. The story had not become more complicated for its own sake. It had become more accurate, and accuracy had made another scene possible.
+
+### Chapter Twenty-Four — What the City Learns
+
+By the end of the week, the city had begun to show the effects of the group's work. The shopkeeper recognized Andrew's glove. The repair yard had a note about the folding chair. The lane behind the music shop appeared on the shared map. The room above the shop had a sound archive and two still images that could be compared. None of these changes was large enough to announce itself as a turning point.
+
+Together they made the city less interchangeable.
+
+The friends began to notice that they were no longer asking the Archivist to remember everything for them. They were leaving usable records in the places where the records mattered. Joseph kept the session notes beside the keyboard. Dan marked routes on the map itself. Andrew wrote the date inside the glove after the first recording session. Tyler placed the camera test beside the growth review. Luke added the name of the gym manager to the building's contact sheet. Gabe made a list of the sleeves still needed.
+
+The Archivist gathered links between the records but did not take custody away from their makers. A memory could have an owner. A correction could have an author. A shared account could remain shared without becoming anonymous.
+
+That evening the group returned to the long table. The city outside the window had acquired a service lane, a repaired sign, and a new lamp near the bridge. The table still had six chairs. Joey brought the latest version of the track and played it at a low volume while the others ate.
+
+The glove tap came before the piano. The piano phrase stopped, as before, but now the pause carried the sound of the room in which it had been made. Andrew tapped the tabletop once, not to add another sound, but to show that he had heard the change.
+
+Nobody declared the track complete.
+
+Before leaving, Joseph wrote the next session date on the sleeve. The Archivist linked the date to the room, the track, the glove, and the people who had been present. It left the ending open.
+
+The story had learned three things that week: a sound could change meaning when it moved; a correction could create a new route; and memory worked best when it remained attached to the people and places that had made it. The next chapter would begin in a city that had already changed.

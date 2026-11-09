@@ -1,6 +1,6 @@
 # GEEHUB Growth Study 001 — Modular Appendage System
 
-Status: V2.1 preparation pass. This document defines the next geometry and rigging pass; it does not claim that Blender has executed or that the appendage meshes are complete.
+Status: V2.2 geometry pass authored. The script now creates twenty separate tapered digit meshes and weights each to its two-segment chain. Blender execution, mesh appearance, joint motion, and contact behavior remain unvalidated.
 
 ## Reference direction
 
@@ -22,11 +22,11 @@ Appendages are not generic tapered tubes. Each limb is a connected sequence of v
 
 ## Hand modules
 
-Create each hand as a palm module plus five independently replaceable digit chains. The palm must carry the broad metacarpal mass and a clear wrist transition. Fingers should have a proximal and distal segment at minimum, with the thumb on an opposing plane and a different sweep from the four fingers. The index, middle, ring, and little fingers should have individual lengths and natural spacing; avoid identical parallel capsules. The current rig has two-segment non-deforming placeholders named `thumb_01/02`, `index_01/02`, `middle_01/02`, `ring_01/02`, and `pinky_01/02` for each side. Replace the placeholders with actual deform controls only after the digit meshes exist and their pivots have been visually checked.
+Create each hand as a palm module plus five independently replaceable digit chains. The palm must carry the broad metacarpal mass and a clear wrist transition. Fingers should have a proximal and distal segment at minimum, with the thumb on an opposing plane and a different sweep from the four fingers. The index, middle, ring, and little fingers should have individual lengths and natural spacing; avoid identical parallel capsules. The current rig has two-segment deform controls named `thumb_01/02`, `index_01/02`, `middle_01/02`, `ring_01/02`, and `pinky_01/02` for each side. The script now creates separate tapered finger meshes weighted across the proximal and distal controls. Inspect the pivots and the palm seam in Blender before accepting the result.
 
 ## Foot modules
 
-Build the foot as heel, arch, midfoot, ball, and toe modules with a continuous skin bridge in the final render. The big toe must have its own direction and broader base; the remaining toes step down in length and volume. Preserve the heel-to-ankle transition and the forefoot spread. The current rig has two-segment non-deforming placeholders for the big toe and four lesser toes on each side. They are layout guides only until geometry, weights, and contact poses are validated.
+Build the foot as heel, arch, midfoot, ball, and toe modules with a continuous skin bridge in the final render. The big toe must have its own direction and broader base; the remaining toes step down in length and volume. Preserve the heel-to-ankle transition and the forefoot spread. The script now creates separate tapered toe meshes, each weighted across its two-segment chain. They remain provisional until the toe spread, sole seam, and ground-contact poses are checked.
 
 ## Rigging and growth
 
@@ -37,8 +37,8 @@ Use the existing three-nearest-bone blend only as an initial weighting heuristic
 ## Validation gates
 
 1. Open the V2.1 project in Blender 4.x and verify the hidden source collection can be unhidden, selected, duplicated, and replaced without altering the visible fused body.
-2. Build the hand and foot modules at the reference silhouette scale; inspect front, side, three-quarter, and low-angle views.
-3. Bind digit geometry to the staged controls; replace non-deforming placeholders only after pivot placement is correct.
+2. Inspect the generated hand and foot digit meshes at the reference silhouette scale; check front, side, three-quarter, and low-angle views.
+3. Check the existing digit weights and bone pivots; correct the joint blend where curling or spreading causes pinching.
 4. Validate wrist, elbow, ankle, knee, thumb, finger, and toe deformation in rest, activation, expansion, and full-study frames.
 5. Compare the Library references under a fixed camera and lighting rig. Keep the camera fixed when judging physical growth.
 6. Read saved scene and render outputs back for integrity. Record Blender execution and render validation separately from Python syntax checks.
@@ -46,3 +46,12 @@ Use the existing three-nearest-bone blend only as an initial weighting heuristic
 ## Current boundary
 
 The repository has not yet run this V2.1 scene in Blender. Python syntax can be checked independently, but voxel fusion, hidden collection behavior, digit geometry, deformation quality, material response, and renders remain pending visual validation. Do not describe the appendage system as production-ready until those checks pass.
+
+
+## V2.2 additions
+
+The procedural builder now creates twenty individually named tapered digit meshes: thumb, index, middle, ring, and pinky on each hand; big toe and four lesser toes on each foot. Each mesh has a proximal and distal vertex group, with weights blending through the joint band. The corresponding two-bone chains are deforming bones. The palm and the foot body remain part of the fused body surface, so digit geometry is modular without leaving a detached wrist or ankle assembly.
+
+The hand layout gives the thumb an opposing sweep and varies each finger's reach and taper. The toe layout gives the big toe a distinct medial position and length hierarchy across the remaining toes. These are authored proportion guides based on the named Library photographs, not measured anatomy from those images. The first Blender inspection must check that the digits emerge cleanly from the palm/forefoot, do not intersect one another, and retain natural spacing at all four growth stages.
+
+Validation must include individual finger curl, finger spread, thumb opposition, toe flexion, flat-foot contact, and a relaxed hand pose. The connected torso/limb skin weights remain a separate heuristic and should not be considered solved by adding digit geometry.

@@ -36,11 +36,11 @@ The body should preserve the same base silhouette across the clip. Do not encode
 - `CTRL_Heel_Pivot.L/R` and `CTRL_Toe_Pivot.L/R`: pivot references for the next foot-roll implementation.
 - `arm_ik` and `leg_ik`: independent IK/FK influence channels.
 
-The Video6 action is separate from RUN_AWAY. The new low frontal camera takes over at frame 216. The source-specific pose action should be treated as an animation clip, not as the underlying source of truth for every other movement.
+The Video6 action is housed in a separate Blender scene named `VIDEO6_POSE_STUDY` with its own 216–360 frame range and low frontal camera. It shares the character, rig, controls, and environment objects, but its timeline is independent of the main growth/run-away scene. This prevents an unwanted transition between the two distinct motion studies.
 
 ## Validation required
 
-1. Run the generator in Blender 4.x and confirm all control objects, IK constraints, pole targets, drivers, and NLA tracks are created.
+1. Run the generator in Blender 4.x and confirm all control objects, IK constraints, pole targets, drivers, NLA tracks, and the separate VIDEO6_POSE_STUDY scene are created.
 2. Confirm neutral IK targets exactly match the rest-pose hand and foot endpoints.
 3. Adjust elbow and knee pole angles until joints bend in the intended anatomical plane.
 4. Render the five key pose frames and compare them side by side with matching source timestamps.

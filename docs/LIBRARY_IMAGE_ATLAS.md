@@ -105,3 +105,40 @@ These five files were retrieved from the Library and visually inspected for the 
 ## Batch 2 status
 
 Five additional images were inspected and assigned bounded reference roles. The atlas now contains ten entries across two batches. This remains a partial atlas of the 234-file inventory. The Joey growth-driver scripts were also read as technical Library documents; they are not images and are not counted in the image total.
+
+
+## Batch 3 — active convergence references
+
+### GLA-011 — Dark Blue Joey in the Industrial Gym
+- **Library file:** `Dark Blue Joey in the Industrial Gym.png`
+- **Library file ID:** `file_00000000204881f59d1be78e2228adfc`
+- **Visual observation:** Low-angle portrait in a dark industrial gym. The subject has dark curly hair, a human face, a very broad chest, enormous upper arms and forearms, and dark shorts. Deep blue lighting affects both skin and room.
+- **Use:** Primary visual atmosphere and camera-angle reference for Joey's industrial-gym presentation. Preserve the face and body continuity only where the project has a confirmed matching character reference; the filename alone is not identity proof.
+- **Production note:** The low camera amplifies the near arm and chest. Use a second eye-level camera for proportion checks; do not mistake perspective exaggeration for anatomical growth.
+
+### GLA-012 — Blue Giant in the Cool-Toned Gym
+- **Library file:** `Blue Giant in the Cool-Toned Gym.png`
+- **Library file ID:** `file_00000000999081f5b7fecd0407668a52`
+- **Visual observation:** Frontal low-to-mid angle portrait, short dark hair, cool teal-blue skin tone, massive chest and arms, gray sweatpants, dark gym.
+- **Use:** Separate blue-giant comparison reference for lighting, material response, and physique scale. Do not merge with GLA-011 or Joey without independent continuity evidence.
+
+### GLA-013 — Teal Titan Under Blue Skies
+- **Library file:** `Teal Titan Under Blue Skies.png`
+- **Library file ID:** `file_00000000262881f5bc3c17ff42dba439`
+- **Visual observation:** Full-body teal giant in an open landscape, bright sky, low camera, broad shoulders and limbs, distinct clothing and facial design.
+- **Use:** Environmental-scale and open-ground study. Kept distinct from Joey's industrial-gym identity.
+
+### GLA-014 — Better Things Together
+- **Library file:** `Better Things Together.png`
+- **Library file ID:** `file_00000000116c81f5b0d151924921d07f`
+- **Visual observation:** Two adult men sharing a quiet moment in a gym-like interior; one holds a mug while the other leans close. The image emphasizes ordinary affection and ease rather than a staged transformation.
+- **Use:** Mood reference for everyday companionship, shared meals, rest, and unforced closeness. It does not establish the identities or real relationship of the depicted men.
+
+### GLA-015 — Beyond Massive: Growth Stage Six
+- **Library file:** `Beyond Massive: Growth Stage Six.png`
+- **Visual observation:** Growth-engine interface framing a very large male figure, with stage labels and continuity language.
+- **Use:** Interface and growth-stage presentation reference. The displayed labels and measurements are image content, not validated character measurements or implemented engine output.
+
+## Batch 3 status
+
+Five additional images were visually inspected and added. The atlas now contains fifteen entries across three batches, out of the 234-file inventory. These images directly informed *The Unplanned Convergence*, Chapters XXXI–XXXIII. References are used as visual evidence and mood sources with identity and provenance boundaries preserved.

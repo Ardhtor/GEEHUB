@@ -33,10 +33,10 @@ The V2.4 rig has separate clavicle, upper-arm, forearm, and hand joints. Each ar
 ## Video 6 pose match
 The Library clip `generated_video6(1).mp4` is 6.0417 seconds, 24 fps, 448×672. The new `VIDEO6_POSE` action reproduces its visible sequence: neutral front stance, arms rise to a broad spread, double-biceps flex, held pose, then arms open and settle. It uses fixed feet, moving hand IK targets, elbow poles, and finger curl. This is a single-view pose reconstruction: depth and hidden joint motion are inferred, not recovered from multi-camera motion capture. The clip's generated imagery has small frame-to-frame shape changes, so the rig preserves one stable character silhouette rather than copying those image artifacts.
 
-The pose action begins at frame 216 and ends at frame 360. A dedicated low frontal camera switches in at frame 216. Preview frames are rendered at the neutral pose, wide-arm pose, double-biceps peak, hold, and release.
+The pose action lives in a separate Blender scene, `VIDEO6_POSE_STUDY`, with its own frame range (216–360) and low frontal camera. The main scene retains the original growth and run-away timeline (frames 1–208), so the two actions do not collide or teleport between sequences. Preview frames are rendered in the pose scene at neutral, wide-arm, double-biceps, hold, and release.
 
 ## Validation
-The updated source will be checked by the repository's static-validation workflow. Blender execution, IK bend direction, skinning, foot contact, and the preview renders remain pending. Voxel-remesh output, weight quality, render appearance, and animation behavior remain pending Blender validation.
+The repository has a static Python source-validation workflow. Blender execution, IK bend direction, skinning, foot contact, independent-scene evaluation, and the preview renders remain pending. Voxel-remesh output, weight quality, render appearance, and animation behavior remain pending Blender validation.
 
 This is a procedural blockout, not a finished anatomical character. Fusion removes gaps between anatomy volumes but does not provide muscle sliding, corrective shapes, detailed hands, facial performance, or production-quality topology. The nearest-bone weighting is a starting heuristic and must be inspected at shoulders, elbows, hips, and knees.
 

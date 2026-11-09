@@ -71,3 +71,27 @@ The story may suggest its own next scene from unresolved threads, but a suggesti
 The current Unplanned Convergence cycle begins with Joey's room above the music shop. The room-tone recording establishes a sound archive; the fixed camera establishes a visual comparison point; the growth-rig review establishes a technical constraint; Andrew's glove tap becomes a contribution to the unfinished track; the empty wall becomes a deliberate compositional space. Future scenes should allow those facts to change the room, the music, the friendships, and the production process. They should not reset the room to an empty stage or treat the first recording as a finished work.
 
 The engine is working when the next chapter could not have been written in exactly the same way before the previous chapter happened.
+
+
+## Interleaved reading and writing
+
+Reading and writing are one operation, not two phases. Compose in small passes, with the corpus open beside the active scene.
+
+For each scene or meaningful paragraph:
+
+1. Read the exact passage being continued, plus the character, place, artifact, and open-thread records it touches.
+2. Write a small continuation that uses those records as live constraints and opportunities.
+3. Read the new text immediately, including the paragraph before and after it. Check voice, chronology, object placement, cause and effect, and whether a character is being reduced to one trait.
+4. Follow every new durable detail back to its source. If it is newly invented, mark it as a fictional event; if it came from a source, preserve provenance; if it is uncertain, keep it uncertain.
+5. Revise the scene while the relevant context is still active. Then continue to the next passage.
+6. At the end of the writing pass, update only the durable records changed by the scene and read those records back alongside the chapter.
+
+This creates a live loop:
+
+**read → write → reread → compare → revise → continue**
+
+The loop may move between the novel, character records, artifacts, particles, maps, and image atlas as needed. It should not mechanically consult every file for every sentence. Read the smallest relevant set deeply, then widen the search when a new name, object, place, or contradiction appears.
+
+The immediate reread is not merely proofreading. It is how the story discovers what it has just made true. If a new detail creates a consequence, the next passage should be allowed to respond to it. If it conflicts with established material, pause and reconcile it before extending the conflict.
+
+A chapter is complete only after its prose and its resulting continuity state have both been checked. A successful file write is not itself proof that the story learned.

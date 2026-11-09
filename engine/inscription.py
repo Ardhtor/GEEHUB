@@ -30,6 +30,30 @@ def _write_json(path: Path, value: dict) -> None:
     path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
+
+def validate_event(event: dict) -> list[str]:
+    """Validate the additive Tractus v2 canon-update contract."""
+    try:
+        from .tractus_science import validate_event as validate_v2_event
+    except ImportError:
+        from tractus_science import validate_event as validate_v2_event
+    return validate_v2_event(event)
+
+
+def inscribe(event: dict, source: str) -> dict:
+    """Validate and inscribe a v2 event; downgrade invalid canon updates safely."""
+    if not isinstance(event, dict):
+        raise ValueError("An event object is required")
+    candidate = dict(event)
+    errors = validate_event(candidate)
+    if errors:
+        candidate["type"] = "observation"
+        candidate["downgraded_from"] = "canon_update"
+        candidate["downgrade_reasons"] = errors
+    candidate["id"] = candidate.get("event_id") or candidate.get("id")
+    candidate["at"] = candidate.get("timestamp") or candidate.get("at")
+    return inscribe_event(candidate, source=source)
+
 def inscribe_event(event: dict, source: str) -> dict:
     """Persist an occurred event once, returning its canonical inscription."""
     if not isinstance(event, dict) or not source:

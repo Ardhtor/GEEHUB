@@ -134,9 +134,10 @@ Its frame-sequence intake worker validates ordered, source-matched frame
 evidence and verifies the actual checksums and PNG dimensions of supplied body
 and face masks. It also decodes the binary mask pixels and builds a conservative
 fixed-index grid mesh whose retained triangles are covered by body foreground
-and avoid protected-face pixels across every supplied frame. The mesh is
-reported separately from mask-intake readiness; semantic correctness of the
-upstream masks remains unverified. The local `register:frames` command reruns
+and avoid protected-face pixels across every supplied frame. A mesh is ready
+only when its common triangles form one edge-connected component and meet the
+minimum coverage threshold. The mesh is reported separately from mask-intake
+readiness; semantic correctness of the upstream masks remains unverified. The local `register:frames` command reruns
 that audit, writes checksummed segmentation and landmark sidecars without
 overwriting existing evidence, then publishes a new versioned manifest only
 after both files pass read-back verification. The local `prepare:render`

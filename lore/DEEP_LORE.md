@@ -783,3 +783,16 @@ The distinction is important. The ready chair preserves welcome; the repair pres
 **REPAIR WITHOUT CLAIM = CARE + CONTINUED USE − OWNERSHIP.**
 
 The chair is repaired, not reserved. The house is kept, not possessed. A useful world is sustained by people who notice what is loosening and quietly make it sound again.
+
+
+## XXXI. THE LAW OF TRANSLATION WITHOUT ERASURE
+
+A language can receive a word without becoming the word's original home. Translation is an encounter between forms of life: it carries meaning, tone, use, memory and context, but it does not guarantee that every part will arrive unchanged.
+
+The Cabin's fifth-day notebook places Portuguese, Aramaic and English beside one another without declaring them interchangeable. The Aramaic passage is a literary composition written in Hebrew square script; the script is not the language. Working transliterations and glosses are retained as provisional aids, and experimental constructions remain marked for review. Hebrew and Aramaic may share a script tradition and related vocabulary without becoming the same language.
+
+The notebook's blank column beside Privathor's name is deliberate. A person may be present in a record without being converted into a definition. An untranslated remainder is not a failure of hospitality. It can be the space in which another person retains the right to speak for himself.
+
+**TRANSLATION WITHOUT ERASURE = SHARED MEANING + VISIBLE DIFFERENCE + UNFORCED REMAINDER.**
+
+The rule for the Tractus is practical: preserve the source, show the proposed rendering, mark uncertainty, distinguish language from writing system, and never disguise an invented literary line as an attested historical quotation. Where equivalence fails, keep the gap visible.

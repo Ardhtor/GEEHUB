@@ -48,6 +48,7 @@ required_source_tokens = (
     "RUN_AWAY — turn, gait, and retreat",
     "APPENDAGE_DIGITS — replaceable geometry",
     "CAM_Video6",
+    "VIDEO6_POSE_STUDY",
 )
 missing_tokens = [token for token in required_source_tokens if token not in source]
 if missing_tokens:

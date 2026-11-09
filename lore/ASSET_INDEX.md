@@ -60,3 +60,12 @@ A stage advances only when its deliverable exists. Record dated changes below ea
 **Use:** when items become accessible, catalogue original artist/title/URL, visible attributes, stated medium, and reuse restrictions. Separate source artwork from user interpretation and GEEHUB production proposals.  
 **Connected branches:** Luke and the Teal Titan; Veyrthalis growth mythology; Dad Convent scale and architecture; Northgate body culture; Tractus gods and transformations.  
 **Detailed record:** `research/DEVIANTART_FAVOURITES_SOURCE.md`.
+
+
+## User-selected training and physique reference — Eric Janicki
+
+**Reference:** [Eric Janicki research record](../research/ERIC_JANICKI_REFERENCE.md)  
+**Public leads:** Eric Janicki Fitness / TorQ-related site, Instagram, and a public 2026 interview are catalogued in the research record.  
+**Use:** training culture, coaching presentation, movement analysis, physique continuity, and visual study of gym media.  
+**Boundary:** Eric Janicki remains a real public figure, not a fictional GEEHUB character. Do not invent his dialogue or personal history, infer private circumstances, or reproduce his work without permission.  
+**Production status:** source shelf established; item-level clip study awaits a selected public post or video.

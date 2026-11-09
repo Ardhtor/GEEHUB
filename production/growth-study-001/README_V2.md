@@ -1,4 +1,4 @@
-# GEEHUB Growth Study 001 — V2.1 Appendage Preparation
+# GEEHUB Growth Study 001 — V2.2 Articulated Appendages
 
 V2 addresses the first prototype's largest visual limitation: the body was made from separate ellipsoids. This pass fuses overlapping body volumes into one connected skin blockout, then assigns each remeshed vertex blended weights from its three nearest armature bone segments.
 
@@ -9,7 +9,7 @@ V2 addresses the first prototype's largest visual limitation: the body was made 
 - `README_V2.md` — production notes.
 
 ## What V2 changes
-The torso, pelvis, neck, head, pectoral masses, deltoids, biceps, triceps, forearms, hands, abdominal landmarks, obliques, thighs, quadriceps, calves, and feet are assembled from intersecting source volumes. Blender's voxel remesh converts them into one continuous surface. A light Smooth modifier relaxes the voxel surface. Vertex weights are then calculated from distance to armature bone segments, with each vertex blended across its three nearest deform bones. Hair, eyes, ears, and clothing remain separate replaceable objects. V2.1 also preserves the named pre-fusion anatomy volumes in the hidden `SOURCE_ANATOMY_MODULES — replaceable kit` collection, so the connected render surface does not destroy the modular source assembly.
+The torso, pelvis, neck, head, pectoral masses, deltoids, biceps, triceps, forearms, hands, abdominal landmarks, obliques, thighs, quadriceps, calves, and feet are assembled from intersecting source volumes. Blender's voxel remesh converts them into one continuous surface. A light Smooth modifier relaxes the voxel surface. Vertex weights are then calculated from distance to armature bone segments, with each vertex blended across its three nearest deform bones. Hair, eyes, ears, and clothing remain separate replaceable objects. V2.2 preserves the named pre-fusion anatomy volumes in the hidden `SOURCE_ANATOMY_MODULES — replaceable kit` collection, so the connected render surface does not destroy the modular source assembly.
 
 The four growth stages and lighting/material setup remain. The optional atmosphere volume is independently switchable. V1 is retained as a fallback and comparison baseline.
 
@@ -23,7 +23,7 @@ The script writes a `.blend` project and two PNG preview renders. When run as a 
 Select `GROWTH_RIG — master control` and adjust its `growth` custom property between 0 and 1, or use the four timeline stages at frames 1, 36, 72, and 108.
 
 ## Validation
-The changed appendage-rig section passed a Python syntax check. The complete V2.1 script has not yet been recompiled, and Blender execution has not yet been run because Blender is not installed in the authoring environment. Voxel-remesh output, weight quality, render appearance, and animation behavior remain pending Blender validation.
+The full updated script has not yet been recompiled, and Blender execution has not yet been run because Blender is not installed in the authoring environment. Voxel-remesh output, weight quality, render appearance, and animation behavior remain pending Blender validation.
 
 This is a procedural blockout, not a finished anatomical character. Fusion removes gaps between anatomy volumes but does not provide muscle sliding, corrective shapes, detailed hands, facial performance, or production-quality topology. The nearest-bone weighting is a starting heuristic and must be inspected at shoulders, elbows, hips, and knees.
 
@@ -41,4 +41,4 @@ This is a procedural blockout, not a finished anatomical character. Fusion remov
 6. Build separate palm, finger, sole, and toe geometry modules; bind digit meshes to the staged controls and validate joint spacing.
 7. Add facial expression, camera motion, and a short rendered sequence after appendage and body deformation are stable.
 
-See `APPENDAGE_SYSTEM_SPEC.md` for the modular appendage construction plan and Library photo direction.
+See `APPENDAGE_SYSTEM_SPEC.md` for the modular appendage construction plan, Library photo direction, and joint validation gates.

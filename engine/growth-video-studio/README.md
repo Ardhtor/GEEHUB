@@ -23,7 +23,7 @@ The new core/growth-mesh.js module turns a tracked source frame plus baseline an
 
 The mapper reports the requested stature ratio, the projected stature measured from the mapped landmarks, and any anchors that leave the normalized frame so a director can request a camera reframe instead of silently clipping the subject. renderGrowthMesh passes mapped body anchors to the existing piecewise-affine Canvas warp when a caller supplies a valid body-only triangle mesh.
 
-Chest depth and regional mass channels are deliberately deferred. They require segmentation-derived silhouette geometry, depth, or a 3D body representation; this module does not fake them with centerline landmarks. Face pixels are protected only when the caller's triangle mesh excludes the face region. Automatic segmentation, landmark detection, and mesh generation are not implemented here.
+Chest depth and regional mass channels are deliberately deferred. They require segmentation-derived silhouette geometry, depth, or a 3D body representation; this module does not fake them with centerline landmarks. Face pixels are protected only when the caller's triangle mesh excludes the face region. This mapper does not create that mesh itself; the separate mask-mesh worker now derives a conservative fixed-index grid from verified body/face masks, but vertex deformation is not yet connected.
 
 Focused tests live in core/growth-mesh.test.js and cover baseline stability, articulated segment scaling, shoulder width, face offset, ground contact, reframe detection, invalid growth, and the supplied-triangle render call.
 
@@ -105,6 +105,16 @@ the format and internal relationship of masks supplied by an upstream producer.
 A future model or independent detector must establish anatomical correctness
 before the system can claim semantic face protection.
 
+## Fixed-topology mask-derived mesh
+
+`core/mask-mesh.js` builds a first 2D correspondence mesh from at least two decoded body/face mask frames. It lays a bounded regular grid over each frame's body-mask bounds and assigns stable row/column vertex IDs. Candidate triangles are retained only when every covered pixel centre is body foreground and protected-face background in every supplied frame. Row-prefix sums make the exhaustive scanline coverage check independent of triangle area.
+
+The output contains one shared triangle index list and topology digest, plus per-frame source-pixel coordinates for the same vertex IDs. This is deliberately conservative: a moving or changing silhouette may remove triangles from the common topology. The result reports candidate/stable counts, coverage ratio, and rejection reasons. If the configured minimum stable-triangle count is not met, the worker returns `insufficient-coverage` rather than claiming a usable mesh.
+
+After a successful mask-file audit, `frame-sequence-worker.js` now builds this mesh and returns it as `maskMesh`, with a separate `meshReady` flag. `readyForGeometry` still means that the sequence and its mask pixels passed intake; it does not imply that enough stable triangles were found. The mesh proves only that its retained triangles lie inside the supplied body masks and outside the supplied face masks. It does not prove anatomical segmentation correctness, so `pixelSemanticsVerified` remains false.
+
+The mesh is not yet registered as a typed bridge frame set, mapped through the articulated growth landmarks, or passed into `renderGrowthMesh`. It is a measured source-space surface, not a deformation or render. Tests in `core/mask-mesh.test.js` cover moving-frame correspondence, exhaustive mask coverage, face exclusion, invalid masks, ordering, and insufficient configured coverage.
+
 ## Registered-evidence render-job preparation
 
 `core/bridge-render-job.js` reads the exact segmentation and landmark sidecar
@@ -171,5 +181,5 @@ The core is dependency-free JavaScript (ES modules). It can run in a browser or 
 - Slice 001: project model, state interpolation, continuity validation.
 - Slice 002: source-video ingest and frame/landmark tracking.
 - Slice 003: identity-locked body segmentation and 2D/3D correspondence.
-- Slice 004: articulated growth-landmark mapping and caller-supplied triangle warp; automatic masks and temporal mesh tracking remain open.
+- Slice 004: articulated growth-landmark mapping, caller-supplied triangle warp, and the first fixed-index mask-derived grid; mapping its vertices through growth and temporal rendering remain open.
 - Slice 005: temporal render, validation, and export.

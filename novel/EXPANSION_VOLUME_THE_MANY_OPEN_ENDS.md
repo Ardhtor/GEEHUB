@@ -289,3 +289,74 @@ The archive created a shelf for works too connected to remain in one catalog: th
 A visitor asked why the archive did not make one master account. The archivist replied that a master account could be useful, but it could also make every difference look like an error. The shelf preserved routes between records without pretending they had always belonged together.
 
 At closing, the lamp remained over the shelf. Beyond the archive, Hrothgar's men finished their meal; Northgate's bench held three students and a stack of books; Veyrthalis's glass reflected an empty room; Daddy carried the last basket of wood along the widened path; the quay's makers drew a better hinge. Nothing had concluded. The worlds had acquired another day of work.
+
+
+## XX. Lantern Market — The Ledger of Small Favors
+
+The silk trader's docket had grown thick enough that its spine no longer closed. It contained orders, weights, colors, debts, repairs, and the names of men who had carried goods through rain. The trader refused to replace it with a cleaner book. The stains and folded corners were part of its evidence.
+
+A dispute over a bolt of blue silk was settled by a porter who remembered the agreement: the trader had promised to hold the cloth, not discount it. The clerk entered the witness account, and the men agreed on a later payment date. Soon the docket held other small favors: a cart repaired before dawn, a delivery carried upstairs, dry cloth lent after a roof leak, a meal sent to a man guarding a stall. These were not debts. They were evidence of how the market remained trustworthy.
+
+The cats moved through the lanes as they always had. One slept on the spice seller's awning; another followed the fishmonger's son along the quay steps. Their presence became a neighborhood sign, not an omen with a fixed meaning. A familiar cat at a doorway suggested that someone had kept the place open, fed it, and noticed what happened nearby.
+
+A young porter asked whether the favors would eventually be priced. The trader shook his head. "Some things keep a market alive because nobody sends an invoice." The porter considered this, then carried a neighbor's basket home.
+
+## XXI. Dan Roman — The Winter Roof
+
+The first winter storm reached the Convent before Dan Roman had finished his roof survey. Wind drove rain beneath the western tiles, and the upper corridor began to smell of wet plaster. The residents had already placed buckets beneath the leaks, moved archive boxes away from the wall, and listed the blocked drain, loose flashing, and swollen window frame.
+
+Dan arrived expecting to direct the repair. Instead, he found a maintenance record made by people who knew the building through daily use. He read it twice and revised his survey to include their observations. The work required a temporary scaffold, new flashing, and a drainage channel. Bluewater Quay supplied metal strips; Northgate sent a student who had worked on the courtyard bench; Pipethor provided a drainage diagram.
+
+The first channel overflowed. The second carried water away from the foundation. The storm lasted two days, and the men took shifts watching the roof and clearing the drain. When the weather cleared, the archive boxes were safe and the stairwell was dry. The plaster still needed work. Dan entered the residents as contributors to the plan and did not put his own name first.
+
+## XXII. Bluewater Quay — The Instrument Makers
+
+The quay's workshop had once produced fittings for ships, gates, and warehouse doors. Now it received requests from Northgate, the Convent, and the Digitorium. Each needed a joint that could move, hold, and be repaired.
+
+The first instrument hinge was too tight and damaged its wooden frame. The second was too loose. The third used a replaceable friction washer and a broad fastening plate. It could be adjusted with an ordinary tool, and its worn part could be replaced without discarding the assembly. The makers left the fasteners visible and stamped their mark beside the repair point.
+
+The Digitorium hinge allowed the scribes to angle the smoked glass without touching its surface. The image of the wooden table did not change, but a different reflection appeared at the edge: a workshop lamp, then a dark window, then nothing. The scribes recorded the observation and sent the wear report back to the quay. The makers revised the washer. Their work had become part of an inquiry without becoming responsible for its answer.
+
+## XXIII. The City With Cats — The Night Route
+
+A storm knocked out the lanterns along the lower market lane. The city did not become dangerous all at once; it became difficult to read. Men returning from the warehouses slowed near the water steps. A baker carried a second lamp, and the night watch moved closer to the covered stalls.
+
+An orange cat crossed the lane and stopped beneath a broken lantern. A porter recognized it from the cooper's doorway and followed the wall. He found the cooper's awning loose, with a heavy beam hanging over the passage. The watch closed the lane and lowered the beam before anyone passed beneath it.
+
+By morning, some said the cat had warned the porter. Others said it had followed its usual route. The watch captain recorded the loose beam, the closure, the repair, and the men who helped. In a separate margin he noted the cat's presence. The city could cherish its signs without pretending to know more than it did.
+
+## XXIV. Gilgamesh — The Measure of the Return
+
+The Long Table held another reading of the return to Uruk. Students were asked to describe the city without beginning with the king's name. They wrote about walls, streets, gates, labor, water, and the lives that continued within them.
+
+The exercise was difficult. Without the returning hero, the city seemed to lose its center. Then the details accumulated. A gate had to be opened and closed. A wall required inspection. Water had to be carried. Goods had to be weighed. Disputes had to be heard. A city was not the possession of the man who could describe it most impressively.
+
+A Hrothgar visitor objected to the phrase "outlast any one person." Public works did not erase the particular men who built them. Their names, skills, mistakes, and friendships mattered. The class amended its notes. Continuity was not an abstraction floating above human lives; it was made by particular people, often without knowing how long their work would last.
+
+The reading ended without a final moral. The clay model of Uruk remained on the table, its damaged parapet visible.
+
+## XXV. Coach — A Walk Through the Records
+
+Coach had appeared in the archive so often that the cataloger considered creating a dedicated entry. Coach objected. He was not a document, and if the archive wanted to know where he had been, it could ask the people who had seen him.
+
+The cataloger pointed out that this would produce inconsistent records.
+
+"Then you'll have to live with inconsistent records," Coach said. "People aren't filing cabinets."
+
+He walked from the Hrothgar ledger to the Northgate workshop plans, then stopped at the Gilgamesh tablet. He read the account of Enkidu, the Cedar Forest, and the return to Uruk. He did not offer a lecture. He asked whether the students had eaten. When they said no, he sent them toward the market and waited while they gathered bread, fruit, and something warm.
+
+At the cabin that evening, he told Daddy that the worlds were getting better at keeping track of what they did to one another. Daddy asked whether that meant they were becoming one world.
+
+Coach shook his head. "Means they can lend each other a hand without moving into the same damn house."
+
+Ursalon laughed from the hearth. Daddy set another place at the table. The archive would have no record of the meal unless someone chose to write one. For once, Coach did not suggest that they should.
+
+## XXVI. The Open Register
+
+The archive's new register held work that crossed between places without forcing it into a single chronology. Each entry carried origin, present location, known changes, unresolved questions, and contributors. A final optional field recorded what the object or account had come to mean in use.
+
+The first entries were the quay hinge, the Convent roof survey, the Lantern Market favor docket, the Hrothgar remembrance ledger, and the copied Gilgamesh tablet. The Veyrthalis glass received a separate entry because the scribes could not establish whether its images were records, reflections, or something else.
+
+The register was tested with an ordinary wooden chair from the Northgate library. It had been repaired twice, moved to three rooms, and used by men who left notes beneath its seat. The history was incomplete, but the register did not confuse incompleteness with uselessness.
+
+Outside, campus lamps came on. The market began its evening trade. The Convent's roof dried beneath a clearing sky. The quay's makers swept the workshop floor. In Hrothgar, a man poured tea for someone who had not asked. The register had not solved continuity. It had made continuity easier to practice. Its next page remained blank.

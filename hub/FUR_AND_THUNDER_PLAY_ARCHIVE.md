@@ -3737,6 +3737,73 @@ Ursalon nodded. "Together."
 
 Coach raised his sandwich. "And after that, breakfast. I'm not renovating on an empty stomach."
 
+### Chapter 25 — The Main Room
+
+The next morning, Daddy stood in the middle of the main room with a mug in one hand and a piece of toast in the other. He had to angle his shoulders slightly to clear the passage between the kitchen and the hearth. It was not difficult. That was the trouble: he could still make nearly every old movement work if he remembered to turn, duck, or step carefully. The cabin had not yet told him no. It was simply asking him to think about himself every time he crossed a room.
+
+Ursalon watched him from the table. "You're doing it again."
+
+"Doing what?"
+
+"Making yourself smaller before anyone asks."
+
+Daddy looked down at his shoulders, then at the narrow passage. "I'm trying not to knock the whole place over."
+
+"Nobody wants you to knock it over," Ursalon said. "But you don't have to apologize to the furniture."
+
+Coach was on the floor beside the pantry terminal, one knee up, reading a maintenance report as if it were the morning paper. "For the record, the furniture started this. Cheap joinery. Weak attitude. No discipline."
+
+"You broke that chair," Brograntimax said.
+
+"I revealed its character."
+
+Daddy laughed, and the sound filled the room more completely than it had a month earlier. He set his mug down and walked the perimeter, studying the beams and the windows. He did not ask for a larger room. He asked where the table should go if they widened the passage, whether the hearth could remain where it was, and how much clear floor they needed between the oak platform and the kitchen door. The questions were ordinary, which made them important.
+
+Pipethor's terminal woke with a low mechanical hum. A plan appeared: not a new cabin, not a grand hall, but the same main room with the circulation made clearer. The table would shift toward the windows. The bench would be shortened and rebuilt from the same oak. One section of wall would open into a wider passage, while the hearth and its stonework stayed untouched. The ceiling beam would be reinforced before anyone moved a thing.
+
+A small line appeared beneath the measurements.
+
+```
+PIPETHOR / HOUSEHOLD WORK ORDER
+READS: 4
+WRITE QUEUE: 1
+BACKUP: VERIFIED
+CONFLICTS: 0
+NOTE FROM COACH: DON'T LET THE BIG GUY DO THE LIFTING ALONE.
+```
+
+"I can lift it," Daddy said.
+
+"I know," Coach replied. "That's why I'm telling you not to. We do this together, or we do it twice."
+
+Brograntimax took the other end of the bench. Ursalon cleared the table. Daddy moved the heavy oak section with them, carefully, listening when the others called the turns. His hands were enormous against the timber now, but they were steady. His arms had thickened again, his chest sat broad beneath the canvas shirt, and the muscles across his back shifted under the fabric as he eased the bench into its new position. Nothing about the work required him to prove how strong he was. The work only required him to pay attention.
+
+They spent the morning making small changes. A shelf moved. A rug was rolled and laid again. The pantry terminal recorded dimensions, then recorded them a second time after Pipethor caught a discrepancy. Coach leaned into the doorway, then disappeared, then reappeared in the terminal's maintenance notes with a suggestion about reinforcing the porch steps. Nobody asked how he had crossed between the two.
+
+By noon the room felt different without feeling unfamiliar. Daddy stood beside the table. His shoulders were now nearly as wide as the space between two of the old chairs, and the new passage gave him enough room to turn without thinking. He looked around at the others, waiting for their judgment.
+
+Ursalon put a hand against the new oak bench. "It still feels like home."
+
+"Good," Daddy said. "I don't want a throne room."
+
+"You'd complain about the service," Brograntimax said.
+
+"I'd complain about the chairs."
+
+Coach came in carrying a second pot of coffee. "Then we're making progress. A man who can fill a room and still complain about the chairs is doing all right."
+
+Later, when the others had gone outside, Daddy remained by the hearth. He could feel the steady pressure of his own growth: the weight across his chest, the breadth of his shoulders, the strength gathering through his arms and legs. It had not stopped. His body was still moving toward a scale none of them could quite measure. But he no longer thought of the cabin as something he would eventually outgrow. They were learning how to change it without losing what made it theirs.
+
+He picked up his mug and called toward the porch. "Coach. Tomorrow, we work on the steps."
+
+Coach's voice came back at once. "Tomorrow, we eat breakfast first."
+
+"That's not a plan."
+
+"It's the foundation of every good plan, Daddy."
+
+And the cabin, with its widened passage and familiar hearth, held the sound of them.
+
 ### Future development — Daddy
 
 Use the current Fur and Thunder assets as the foundation for Daddy's next stages: the cabin, porch, kitchen, pantry terminal, gym room, oak platform and chair, market, custom canvas clothing, and the existing cast. Do not introduce a new facility or a new supporting cast merely to make the growth feel larger. Let the current locations evolve through practical modifications and recurring use.

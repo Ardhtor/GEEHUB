@@ -59,7 +59,7 @@ Validation must include individual finger curl, finger spread, thumb opposition,
 
 ## V2.3 locomotion addition — RUN_AWAY
 
-The builder now creates a separate action named RUN_AWAY — turn, gait, and retreat on its own NLA track, independent of the growth-stage track. The action turns the character away from the fixed camera, runs four repeated 24-frame gait cycles, counter-swings the arms, flexes the knees and ankles, adds a small torso rhythm, gives the hands a light running grip, and includes toe articulation. Root motion travels nine scene units along world +Y. The perspective camera is calibrated to preserve the original starting composition while allowing the character to diminish naturally as he moves away.
+The builder now creates a separate action named RUN_AWAY — turn, gait, and retreat on its own NLA track, independent of the growth-stage track. The action turns the character away from the fixed camera, runs four repeated 24-frame gait cycles, counter-swings the arms, flexes the knees and ankles, adds a small torso rhythm, gives the hands a light running grip, and includes toe articulation. Root motion travels nine scene units along world +Y. The original orthographic studio camera remains unchanged. A separate fixed 100 mm vertical-fit perspective camera switches in at frame 108 and looks down the retreat lane, so the character diminishes naturally as he moves away.
 
 The action begins at frame 108, the turn completes at frame 112, and the retreat ends at frame 208. The final render preview is run_away_retreat_endpoint.png. In Blender's NLA Editor, mute or unmute 02_LOCOMOTION — run away to disable or enable the retreat without replacing the independent 01_GROWTH — independent stage control track.
 

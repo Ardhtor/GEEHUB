@@ -34,3 +34,27 @@ Andrew often initiates a practical exchange. He tries the movement, opens the do
 **Unresolved:** specific biography, accent, habits, and personal history not yet supplied by canon.
 
 The public account is a creative reference for fictional Andrew, not evidence that the real account holder shares Andrew's fictional biography or endorses the character.
+
+
+## Personality growth — making a way into the moment
+
+Andrew has a gift for starting. When a plan stalls, he finds a small action that can restart it. When a room is too formal, he introduces a game, a challenge, or a question that lets the men stop performing competence and begin doing something together. His playfulness is not a lack of seriousness. It is one of the ways he tests whether an idea can survive contact with other people.
+
+He is socially brave in a particular way: he is often willing to be the first person to look foolish. He will try the unfamiliar movement, make the first joke, volunteer for the awkward demonstration, or suggest a plan that might fail. This makes him a useful companion to people who think carefully but hesitate to begin. He can make a project feel possible before anyone has solved it.
+
+Andrew's weakness is that he sometimes confuses momentum with agreement. He can move quickly enough that quieter people have not had time to decide whether they want to join. He may turn a suggestion into a plan, a plan into a commitment, and a commitment into a running joke before he realises that somebody needed a pause. He does not intend to leave anyone behind, but he can do so by moving too early. His growth is learning that an invitation includes the freedom not to accept.
+
+His humour is playful, physical, and responsive to the room. He likes callbacks, harmless dares, improvised contests, and jokes that build through a shared situation. He is especially pleased when a serious man unexpectedly joins the joke. He can laugh at himself, and he is usually the first to acknowledge when an experiment has gone wrong. He dislikes humour that makes someone the permanent target; he prefers jokes that allow the whole group to take part.
+
+Andrew is more sensitive to rejection than his speed suggests. When an idea receives no response, he may try another, then another, until he has exhausted the room. Sometimes the bravest thing for him is to let a silence remain without filling it. He is learning that companionship does not need constant activity and that staying beside someone can be as meaningful as inventing something to do.
+
+With Luke, Andrew shares a fast, affectionate physical rhythm, though Luke sometimes reminds him to check whether everyone is ready. With Tyler, he creates useful friction: Tyler supplies a test, Andrew supplies a way to try it. With Chase, he tries to draw the observer into the scene, and slowly learns not to mistake restraint for disinterest. With Gabe, he offers relief from the pressure to keep transforming. With Joseph, he discovers that a story can move forward without every feeling being resolved first.
+
+**Voice in practice:** immediate, inviting, full of concrete verbs. Andrew says “Try it with me” rather than “We should consider an experiment.” His lines can overlap, change direction, or include a quick correction when he realises he has got ahead of himself. He should not speak in a permanent stream of excitement; his quieter moments reveal how much he values the people who stay.
+
+**Growth direction:** from momentum as a reflex to momentum as a shared choice; from always beginning to learning when to remain.
+
+## Repeatable personal details
+
+Andrew borrows a marker and draws a quick diagram on whatever paper is nearest. He remembers the rules of games that the others thought were temporary. He gives people ridiculous working titles during a project, then remembers when the title stops being funny and becomes something they are proud of. When a gathering breaks up, he is often the one who proposes one last small thing, but he is learning to recognise when the best ending is to let everyone go home.
+

@@ -214,3 +214,7 @@ The character records for [Luke](../characters/records/LUKE.md), [Tyler](../char
 ## Andrew and the Baseball Field
 
 [Andrew's character record](../characters/records/ANDREW.md) now establishes him as a big, muscular Italian baseball player with blue eyes and a genuinely eccentric, associative inner life. [Chapter LXXVI — The Field Has Its Own Echo](../novel/chapters/CHAPTER_LXXVI_THE_FIELD_HAS_ITS_OWN_ECHO.md) places those traits into the shared world: sporting discipline and unusual observation work together rather than cancelling each other out. The character's baseball position, team, playing level, regional background, accent, and exact measurements remain unresolved.
+
+## The Unplanned Convergence
+
+[The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md) is the opening of the Cyber Black Hole novel. Luke, Andrew, Tyler, Joseph, Chase, and Gabe arrive by separate routes in a room that appears between familiar places. A black disc gathers traces from their distinct lives and reveals a city forming around the Cyber Black Hole. Their first shared rules preserve source truth, individual accounts, and each person's freedom to approach or leave. The opening establishes the ensemble's unexpected meeting without collapsing their identities into one voice.

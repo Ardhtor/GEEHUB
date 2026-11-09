@@ -74,6 +74,7 @@ def commit_changes(message):
     print("TRACTUS ENGINE: committed "+git("rev-parse","--short","HEAD").stdout.strip())
 
 def ensure_baselines():
+    """Capture approved files as experiments until an operator reviews them."""
     versions=read_jsonl(CANON_VERSIONS_LOG); latest={}
     for item in versions: latest[item.get("entity")]=item
     commit=git("rev-parse","HEAD").stdout.strip()
@@ -85,11 +86,21 @@ def ensure_baselines():
         if old:
             if old.get("content_sha256")!=digest: fail("Untracked canon change; reconcile baseline: "+rel)
             continue
-        vid="canon-baseline-"+hashlib.sha256((rel+digest+commit).encode()).hexdigest()[:20]
-        append_jsonl(CANON_VERSIONS_LOG,{"canon_version_id":vid,"entity":rel,"prior_version_id":None,
-            "created_by_event_id":None,"created_at":iso_utc(),"claim":"Existing approved canon captured as immutable baseline.",
-            "what_remains":"Prior text remains at source commit.","content_sha256":digest,"source_commit":commit,
-            "baseline":True,"status":"canon"})
+        event_id="tractus-baseline-"+hashlib.sha256((rel+digest+commit).encode()).hexdigest()[:16]
+        inscribe_event({"id":event_id,"at":iso_utc(),"type":"OBSERVATION",
+            "title":"Tractus experimental canon baseline",
+            "description":"Existing repository text captured as an experimental baseline. It is not canon until reviewed and explicitly promoted.",
+            "canon_path":rel,"content_sha256":digest,
+            "action":"Preserve the current file state for human review; no narrative text changed."},
+            source="scripts/tractus_engine.py")
+        vid="experiment-"+hashlib.sha256((rel+digest+commit).encode()).hexdigest()[:20]
+        record={"canon_version_id":vid,"entity":rel,"prior_version_id":None,
+            "created_by_event_id":event_id,"created_at":iso_utc(),
+            "claim":"Existing approved destination captured as an experimental baseline.",
+            "what_remains":"The prior text remains unchanged at the recorded source commit.",
+            "content_sha256":digest,"source_commit":commit,"baseline":True,"status":"experiment"}
+        append_jsonl(CANON_VERSIONS_LOG,record)
+        latest[rel]=record
 
 def roman_to_int(value):
     vals={"I":1,"V":5,"X":10,"L":50,"C":100,"D":500,"M":1000}; total=prev=0
@@ -208,11 +219,25 @@ path, title, chapter. Tie environmental details to character intention and concr
             fail("Unverified provenance path: "+str(source))
 
     versions=read_jsonl(CANON_VERSIONS_LOG)
-    prior=next((x for x in reversed(versions) if x.get("entity")==path and x.get("status")=="canon"),None)
-    if not prior: fail("No immutable canon baseline for "+path+"; run bootstrap.")
-    target=ROOT/path; existing=target.read_text(encoding="utf-8")
-    prior_sha=sha256_text(existing)
-    if prior.get("content_sha256")!=prior_sha: fail("Canon changed outside version ledger; refusing update.")
+    latest_for_path=next((x for x in reversed(versions) if x.get("entity")==path),None)
+    if latest_for_path and latest_for_path.get("content_sha256")!=sha256_text((ROOT/path).read_text(encoding="utf-8")):
+        fail("Canon changed outside version ledger; refusing update.")
+    if not latest_for_path or latest_for_path.get("status")!="canon":
+        if dry:
+            print("DRY RUN: prediction error found, but no reviewed canon baseline exists; no write.")
+            return
+        hold_id="tractus-hold-"+hashlib.sha256((retrieval["retrieval_id"]+iso_utc(now)).encode()).hexdigest()[:16]
+        inscribe_event({"id":hold_id,"at":iso_utc(now),"type":"OBSERVATION",
+            "title":"Tractus update held for canon review",
+            "description":"A prediction error was found, but the destination remains an experiment or has no reviewed canon version.",
+            "thread_id":retrieval["thread_id"],"retrieval_id":retrieval["retrieval_id"],
+            "action":"Await explicit operator promotion before changing canon."},source="scripts/tractus_engine.py")
+        SCHEDULE_PATH.write_text(json.dumps(updated_schedule,indent=2,ensure_ascii=False)+"\\n",encoding="utf-8")
+        RETRIEVAL_STATE_PATH.write_text(json.dumps(updated_state,indent=2,ensure_ascii=False)+"\\n",encoding="utf-8")
+        commit_changes("Tractus: hold proposed update pending canon review")
+        return
+    prior=latest_for_path
+    prior_sha=sha256_text((ROOT/path).read_text(encoding="utf-8"))
     title=title.strip()
     if path=="novel/BOOK_I_CONTINUATION_03.md":
         nums=re.findall(r"^## Chapter ([IVXLCDM]+)\\b",existing,flags=re.MULTILINE)

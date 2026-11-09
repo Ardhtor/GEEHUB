@@ -55,3 +55,12 @@ The procedural builder now creates twenty individually named tapered digit meshe
 The hand layout gives the thumb an opposing sweep and varies each finger's reach and taper. The toe layout gives the big toe a distinct medial position and length hierarchy across the remaining toes. These are authored proportion guides based on the named Library photographs, not measured anatomy from those images. The first Blender inspection must check that the digits emerge cleanly from the palm/forefoot, do not intersect one another, and retain natural spacing at all four growth stages.
 
 Validation must include individual finger curl, finger spread, thumb opposition, toe flexion, flat-foot contact, and a relaxed hand pose. The connected torso/limb skin weights remain a separate heuristic and should not be considered solved by adding digit geometry.
+
+
+## V2.3 locomotion addition — RUN_AWAY
+
+The builder now creates a separate action named RUN_AWAY — turn, gait, and retreat on its own NLA track, independent of the growth-stage track. The action turns the character away from the fixed camera, runs four repeated 24-frame gait cycles, counter-swings the arms, flexes the knees and ankles, adds a small torso rhythm, gives the hands a light running grip, and includes toe articulation. Root motion travels nine scene units along world +Y. The perspective camera is calibrated to preserve the original starting composition while allowing the character to diminish naturally as he moves away.
+
+The action begins at frame 108, the turn completes at frame 112, and the retreat ends at frame 208. The final render preview is run_away_retreat_endpoint.png. In Blender's NLA Editor, mute or unmute 02_LOCOMOTION — run away to disable or enable the retreat without replacing the independent 01_GROWTH — independent stage control track.
+
+This is an authored locomotion pass, not a validated motion-capture-quality run. The first Blender review must inspect the rotation axes, body balance, ground contact, knee recovery, foot clearance, toe articulation, and whether the model remains grounded at every stride phase. The camera and runway guides must also be checked in the generated render.

@@ -29,7 +29,7 @@ Use broad stylistic qualities rather than copying exact phrases, catchphrases, o
 - **Tyler:** curious, skeptical, precise, quietly competitive; he looks for measurable change and what no longer matches.
 - **Chase:** observant, decisive, dry, narrative-minded; he waits for the consequence and chooses what matters.
 - **Gabe:** process-aware, identity-conscious, growth-driven; he tracks how attention and social signal alter the next baseline.
-- **Andrew:** playful, active, improvisational, social; he turns an opening into a concrete action or exchange.
+- **Andrew:** a big, muscular Italian baseball player with blue eyes; genuinely eccentric, associative, deadpan, athletic, and socially warm. His @andrewpsim mapping is a user-designated public voice reference; his physical identity and eccentricity are direct user-established canon.
 
 These foundations predate the account mapping and remain active while the external references await direct review.
 
@@ -39,3 +39,8 @@ These foundations predate the account mapping and remain active while the extern
 The five fictional characters have been expanded independently of any unreviewed account observations. Luke's protective presence now has the complication of overhelping; Tyler's precision has the complication of retreating into certainty; Chase's observational strength has the complication of remaining outside his own relationships; Gabe's sensitivity to social signal has the complication of letting attention direct his next state; Andrew's momentum has the complication of outrunning agreement. Each record now includes an emotional range, humour, ways of showing affection, conflict and repair patterns, repeatable habits, and a specific growth direction.
 
 The first shared demonstration is [Chapter LXXV — The Table After Rain](../novel/chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md). The machine-readable version is in [agent-reaction-states.json](agent-reaction-states.json). These developments come from GEEHUB's own canon and are not attributed to the real account holders.
+
+
+## Andrew — physical and sporting identity
+
+The user has established Andrew as a big, muscular Italian baseball player with blue eyes and an unusually associative, genuinely eccentric mind. His exact position, team, playing level, regional background, accent, and measurements remain open. Baseball is an active part of his life, while his eccentricity appears in the peculiar systems and observations he develops around the game. The new narrative artifact [Chapter LXXVI — The Field Has Its Own Echo](../novel/chapters/CHAPTER_LXXVI_THE_FIELD_HAS_ITS_OWN_ECHO.md) demonstrates the combination without attributing these fictional traits to the real public account.

@@ -197,3 +197,10 @@ Associated artifact records are added in [The Working Artifacts of Tractus](TRAC
 ## Teal Titan — Gold's on 5th
 
 The Teal Titan's Gold's on 5th story cycle is indexed at [the project production home](../production/projects/teal-titan-golds-on-5th/README.md) and [the character record](../characters/records/TEAL_TITAN.md). Chapter IV, [The Exhibition of One Man](../production/projects/teal-titan-golds-on-5th/CHAPTER_04_THE_EXHIBITION.md), advances the Stage 4 storyline through a public display of six production studies. It records the gym's response to Marcus's scale, the difference between a character reference and a finished render, and the need to distinguish camera perspective from physical change. The user-designated Stage 4 form remains the current state; the production timeline's internal six-part sequence is not a declaration that the character has advanced to a later canonical stage.
+
+
+## The Six-Person Character Ensemble
+
+The character records for [Luke](../characters/records/LUKE.md), [Tyler](../characters/records/TYLER.md), [Chase](../characters/records/CHASE.md), [Gabe](../characters/records/GABE.md), and [Andrew](../characters/records/ANDREW.md) now contain expanded personality structures: core drives, contradictions, vulnerabilities, humour, affection, conflict and repair styles, voice behaviour, recurring details, and growth directions. Joseph remains the continuity-minded sixth member of their shared-room scenes.
+
+[Chapter LXXV — The Table After Rain](../novel/chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md) is the first ensemble artifact in this growth cycle. The [agent reaction state](../hub/agent-reaction-states.json) stores the machine-readable temperaments and reciprocal relationships. The user-designated public account mappings remain separate in the [character personality reference map](../hub/character-personality-references.json); no unreviewed account trait has been promoted into canon.

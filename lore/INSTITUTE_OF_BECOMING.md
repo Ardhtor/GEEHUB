@@ -22,3 +22,14 @@ The first principle of the Institute is that development should not require eras
 At the entrance, beneath the name cast into a broad oak lintel, the Coach eventually had three words engraved:
 
 **MAKE ROOM. KEEP GOING.**
+
+## The Gymnasium as a Living Centre
+
+The original gymnasium remains the Institute's physical and social centre, and its training culture now has a connected experience layer in the Tractus: [Jock Hypnosis — Institute Training Experience](../production/growth-study-001/JOCK_HYPNOSIS_EXPERIENCE_SPEC.md), governed by the [Continuity Bridge](../production/growth-study-001/JOCK_HYPNOSIS_CONTINUITY_BRIDGE.md). The gym is not a separate application or an isolated challenge room. It is one of the places through which the Institute remembers its inhabitants.
+
+A training session belongs to the same day as the man's breakfast, his lecture, his workshop, his return to residence, and his evening at the dining hall. When a man develops, the change follows him. His clothes fit differently; familiar equipment meets a changed reach or grip; his posture alters; another inhabitant may notice, offer a spot, challenge him, or simply continue with his own work. The next residential scene can carry the session's fatigue, appetite, conversation, laundry, recovery, or plans for tomorrow. The Institute's buildings also inherit repeated use: equipment moves, storage is added, changing rooms are adapted, and paths between the gym and residences become familiar routes.
+
+The gym's visual and sonic language is deliberately rhythmic. A familiar stance, a sequence of preparation, effort, a held pose, release, and return recurs across days and locations. Each return may disclose a real change in body, relationship, room, or memory. The effect should be absorbing and dreamlike without compelling a fixed sequence: inhabitants and the user remain free to leave the gym, enter another building, or spend the day elsewhere. The experience is an artistic quality of attention, not covert control.
+
+The connected design currently establishes the relationships and registry entries. Shared event inscription and automatic propagation into campus, character, body, and artifact state remain implementation work; specifications must not be mistaken for a running feature.
+

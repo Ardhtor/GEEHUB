@@ -23,6 +23,7 @@ from tractus_memory import (
     advance_thread,
     append_jsonl,
     due_threads,
+    pick_next,
     iso_utc,
     parent_revision,
     read_jsonl,
@@ -191,7 +192,7 @@ source_commit (string), bootstrap_note (string).
 
 def blind_retrieve(api_key: str, model: str, schedule: dict, state: dict) -> dict | None:
     """Recall only from the previous snapshot and due schedule, before canon is read."""
-    due = due_threads(schedule)
+    due = pick_next(schedule, limit=1)
     if not due:
         print("TRACTUS ENGINE: no retrieval thread is due; no model call or canon write.")
         return None
@@ -271,6 +272,9 @@ prediction_error. No prediction error means skip=true.
         fail("Verification must return a numeric retrieval_score.")
     if not 0 <= score <= 1:
         fail("retrieval_score must be between 0 and 1.")
+    if score < 0.5:
+        result["skip"] = True
+        result["reason"] = "Recall score below 0.5; record an observation and repair the thread before canon changes."
     snapshot = result.get("verified_retrieval_snapshot")
     if not isinstance(snapshot, list) or len(snapshot) != 3:
         fail("Verification must return exactly three updated retrieval snapshot objects.")

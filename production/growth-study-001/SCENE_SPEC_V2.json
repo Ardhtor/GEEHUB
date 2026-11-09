@@ -1,6 +1,6 @@
 {
   "project": "GEEHUB Growth Study 001",
-  "version": 2.1,
+  "version": 2.2,
   "status": {
     "source_script": "created",
     "python_syntax_check": "appendage_rig_section_passed_full_script_not_recompiled",
@@ -14,32 +14,68 @@
     "type": "adult_male_study_figure",
     "wardrobe": "dark training trunks",
     "skin_geometry": "single voxel-fused surface from overlapping body and muscle volumes",
-    "separate_objects": ["hair cap", "eyes", "ears", "training trunks", "waistband"],
+    "separate_objects": [
+      "hair cap",
+      "eyes",
+      "ears",
+      "training trunks",
+      "waistband"
+    ],
     "voxel_size": 0.022,
-    "surface_relax": {"modifier": "SMOOTH", "factor": 0.8, "iterations": 3}
+    "surface_relax": {
+      "modifier": "SMOOTH",
+      "factor": 0.8,
+      "iterations": 3
+    }
   },
   "rig": {
     "object": "GROWTH_RIG — master control",
     "master_property": "growth",
-    "range": [0.0, 1.0],
+    "range": [
+      0,
+      1
+    ],
     "deformation_method": "armature modifier with three-nearest-bone inverse-distance blended vertex weights",
     "growth_axes": "bone-local cross-section axes",
     "known_limitations": [
-      "nearest-bone weights are heuristic and require visual validation",
+      "nearest-bone weighting on the fused torso and limb surface remains heuristic and requires visual validation",
       "no corrective shapes or muscle sliding",
-      "hands and feet remain blockout forms; non-deforming two-segment finger and toe control chains are staged but digit geometry and weights are pending",
+      "digit meshes are separate replaceable geometry with two-segment weights, but bending poses and joint volume preservation remain unvalidated",
       "hidden source anatomy modules are preserved for replacement, but require visibility/export workflow validation",
       "facial performance is not implemented"
-    ]
+    ],
+    "appendage_system": {
+      "collection": "APPENDAGE_DIGITS — replaceable geometry",
+      "geometry": "20 separate tapered digit meshes: five fingers per hand and five toes per foot",
+      "controls": "two deform bones per digit with blended proximal/distal weights",
+      "palm_and_foot": "remain integrated with the fused body surface",
+      "validation": "pending Blender execution and pose review"
+    }
   },
   "timeline": {
     "frame_start": 1,
     "frame_end": 108,
     "stages": [
-      {"frame": 1, "name": "REST", "growth": 0.0},
-      {"frame": 36, "name": "STAGE_01 — activation", "growth": 0.28},
-      {"frame": 72, "name": "STAGE_02 — expansion", "growth": 0.62},
-      {"frame": 108, "name": "STAGE_03 — full study", "growth": 1.0}
+      {
+        "frame": 1,
+        "name": "REST",
+        "growth": 0
+      },
+      {
+        "frame": 36,
+        "name": "STAGE_01 — activation",
+        "growth": 0.28
+      },
+      {
+        "frame": 72,
+        "name": "STAGE_02 — expansion",
+        "growth": 0.62
+      },
+      {
+        "frame": 108,
+        "name": "STAGE_03 — full study",
+        "growth": 1
+      }
     ]
   },
   "lighting": {
@@ -57,9 +93,19 @@
     "production_status": "not yet calibrated against validated renders"
   },
   "render": {
-    "engine_preference": ["BLENDER_EEVEE_NEXT", "BLENDER_EEVEE", "CYCLES"],
-    "resolution": [1080, 1350],
-    "preview_frames": [1, 108],
+    "engine_preference": [
+      "BLENDER_EEVEE_NEXT",
+      "BLENDER_EEVEE",
+      "CYCLES"
+    ],
+    "resolution": [
+      1080,
+      1350
+    ],
+    "preview_frames": [
+      1,
+      108
+    ],
     "output_format": "PNG"
   },
   "research_principles": [
@@ -80,11 +126,12 @@
     }
   ],
   "next_pass": [
-    "execute in Blender and visually inspect voxel surface",
-    "correct joint silhouette and nearest-bone deformation",
+    "execute V2.2 in Blender and inspect rest and full-growth body surfaces",
+    "verify all 20 digit meshes are present, correctly mirrored, replaceable, and attached at wrist/foot margins",
+    "test every two-segment digit chain through neutral, curl, spread, and contact poses",
+    "correct joint silhouette and nearest-bone deformation across shoulders, elbows, wrists, hips, knees, ankles, and digits",
     "add corrective shapes and joint-volume preservation",
     "calibrate layered skin and cloth materials using rendered A/B tests",
-    "add modular palm, finger, sole, and toe geometry and bind to staged digit controls",
     "validate hidden source-module visibility and replacement workflow",
     "add facial controls",
     "produce a short animated preview after rig validation"

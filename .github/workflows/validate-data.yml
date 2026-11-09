@@ -9,6 +9,7 @@ on:
       - 'style.css'
       - 'world.json'
       - 'engine/**'
+      - 'characters/**'
       - 'research/creators/**'
       - 'server/**'
       - 'validate-records.py'
@@ -58,6 +59,51 @@ jobs:
           node --check engine/world-autonomy.js
           node --check engine/environmental-transitions.js
           node --check engine/social-cyberspace.js
+          node --check engine/agent-reactions.js
+      - name: Validate followed social sources and character voice references
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const social = JSON.parse(fs.readFileSync('hub/social-cyberspace.json', 'utf8'));
+          const creators = JSON.parse(fs.readFileSync('research/creators/ACTIVE_CREATORS.json', 'utf8'));
+          const voiceMap = JSON.parse(fs.readFileSync('hub/character-personality-references.json', 'utf8'));
+          const agents = JSON.parse(fs.readFileSync('hub/agents.json', 'utf8'));
+          const reactions = JSON.parse(fs.readFileSync('hub/agent-reaction-states.json', 'utf8'));
+          const feed = fs.readFileSync('engine/social-cyberspace.js', 'utf8');
+          const reactionEngine = fs.readFileSync('engine/agent-reactions.js', 'utf8');
+          const followed = [
+            ['youtube-detdert', 'https://www.youtube.com/channel/UCd7Tlj816jyDB8ywfJ4Ie6w', 'detdertReplies'],
+            ['youtube-mang0', 'https://www.youtube.com/@mang0gobirds', 'mang0Replies']
+          ];
+          for (const [id,url,replyTable] of followed) {
+            const source = social.watchSources.find(item => item.id === id);
+            if (!source || source.url !== url || source.priority !== 'followed') throw new Error('Missing followed source: '+id);
+            if (!feed.includes(url) || !feed.includes(replyTable)) throw new Error('Missing feed source or reply: '+id);
+            if (!creators.some(item => item.id === id.replace('youtube-',''))) throw new Error('Missing creator registry entry: '+id);
+          }
+          const mappings = [
+            ['luke','x-paapamurph','https://x.com/PaapaMurph','characters/records/LUKE.md','luke-personality'],
+            ['tyler','x-tyleraledbetter','https://x.com/TylerALedbetter','characters/records/TYLER.md','tyler-personality'],
+            ['chase','instagram-cw-sachs','https://www.instagram.com/c.w.sachs/','characters/records/CHASE.md','chase-personality'],
+            ['gabe','instagram-river-m-g','https://www.instagram.com/river_m_g/','characters/records/GABE.md','gabe-personality'],
+            ['andrew','x-andrewpsim','https://x.com/andrewpsim','characters/records/ANDREW.md','andrew-personality']
+          ];
+          for (const [character,id,url,record,feedId] of mappings) {
+            const mapEntry=voiceMap.references.find(item=>item.character===character && item.url===url);
+            const source=social.watchSources.find(item=>item.id===id && item.url===url && item.priority==='personality-reference');
+            if (!mapEntry || !source) throw new Error('Character reference mapping incomplete: '+character);
+            if (!fs.existsSync(record) || !feed.includes(url) || !feed.includes(feedId)) throw new Error('Character record/feed link missing: '+character);
+            if (!mapEntry.reviewStatus.includes('pending')) throw new Error('Review state must remain explicit: '+character);
+          }
+          if (!agents.agents.some(agent=>agent.id==='gabe') || !reactions.agents.gabe || !reactionEngine.includes("id==='gabe'")) {
+            throw new Error('Gabe must be represented in the named-agent and reaction systems.');
+          }
+          if (agents.agents.length !== 6) throw new Error('Expected six named agents after adding Gabe.');
+          if (!social.personalityReferencePolicy || !social.personalityReferencePolicy.includes('Do not infer private traits')) {
+            throw new Error('Personality-reference evidence boundary missing.');
+          }
+          console.log('Followed sources, five voice-reference mappings, character records, and Gabe reaction state verified.');
+          NODE
       - name: Validate followed social sources
         run: |
           node <<'NODE'

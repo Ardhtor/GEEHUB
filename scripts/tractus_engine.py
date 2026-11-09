@@ -18,6 +18,7 @@ import urllib.request
 from datetime import timedelta
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "engine"))
 from inscription import inscribe_event
 from tractus_memory import (
     advance_thread,

@@ -1,0 +1,26 @@
+name: GEEHUB Growth Study Validation
+
+on:
+  push:
+    paths:
+      - "production/growth-study-001/**"
+      - ".github/workflows/growth-study-validation.yml"
+  pull_request:
+    paths:
+      - "production/growth-study-001/**"
+      - ".github/workflows/growth-study-validation.yml"
+
+jobs:
+  source-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile Blender builder source
+        run: python -m py_compile production/growth-study-001/geehub_growth_study_v2.py
+      - name: Check required rig and action stages
+        run: python production/growth-study-001/validate_growth_study_source.py

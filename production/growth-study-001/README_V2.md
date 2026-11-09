@@ -23,7 +23,7 @@ The script writes a `.blend` project and two PNG preview renders. When run as a 
 Select `GROWTH_RIG — master control` and adjust its `growth` custom property between 0 and 1, or use the four timeline stages at frames 1, 36, 72, and 108.
 
 ## Validation
-Python syntax compilation passed. Blender execution has not yet been run because Blender is not installed in the authoring environment. Voxel-remesh output, weight quality, render appearance, and animation behavior remain pending Blender validation.
+The changed appendage-rig section passed a Python syntax check. The complete V2.1 script has not yet been recompiled, and Blender execution has not yet been run because Blender is not installed in the authoring environment. Voxel-remesh output, weight quality, render appearance, and animation behavior remain pending Blender validation.
 
 This is a procedural blockout, not a finished anatomical character. Fusion removes gaps between anatomy volumes but does not provide muscle sliding, corrective shapes, detailed hands, facial performance, or production-quality topology. The nearest-bone weighting is a starting heuristic and must be inspected at shoulders, elbows, hips, and knees.
 

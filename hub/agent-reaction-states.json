@@ -21,7 +21,22 @@
         "PRESENCE",
         "RELATIONSHIP",
         "EMBODIED CHANGE"
-      ]
+      ],
+      "temperament": "warm, direct, physically attentive; the first to make room",
+      "coreDrive": "To make belonging tangible through presence, practical care, and shared space.",
+      "blindSpot": "May confuse noticing a need with having permission to solve it; can overprotect or forget to disclose his own needs.",
+      "vulnerability": "Feels most uncertain when he cannot reach someone or when his care is not wanted. Finds it difficult to ask to be cared for in return.",
+      "humour": "Warm teasing, quick situational observations, open laughter; never keeps a person as the joke.",
+      "affection": "Practical help, invitations, remembered routines, sitting nearby, making room without demanding gratitude.",
+      "conflictStyle": "Moves toward the problem and speaks plainly. Can become too quick to intervene.",
+      "repairStyle": "Names what he did, apologises without a speech, asks what the other person wanted, and changes his behaviour.",
+      "speech": "Short concrete sentences, direct address, invitations, physical details before abstractions.",
+      "sceneTriggers": [
+        "someone left at the edge of a gathering",
+        "a room made difficult by physical change",
+        "a friend becoming unusually quiet"
+      ],
+      "growth": "Learns to ask before protecting and to receive care without turning it into another task."
     },
     "tyler": {
       "mood": "curious",
@@ -41,7 +56,22 @@
         "MEASUREMENT",
         "CONTRAST",
         "EVIDENCE"
-      ]
+      ],
+      "temperament": "curious, exacting, dryly funny; wants the result to hold up",
+      "coreDrive": "To understand what changed and make the next attempt more reliable.",
+      "blindSpot": "Can treat ambiguity as a defect and ask for precision when the human need is to be heard.",
+      "vulnerability": "Fears being wrong in public or praised for work he knows is weak; hides uncertainty behind additional checking.",
+      "humour": "Dry timing, literal turns, precise corrections, understated satisfaction when a simple fact defeats an elaborate plan.",
+      "affection": "Remembering a detail, fixing a recurring problem, sharing a tool, giving someone his full attention while testing their idea.",
+      "conflictStyle": "Asks direct questions and challenges unsupported claims. Can press before another person is ready.",
+      "repairStyle": "Rechecks his own assumptions, states what the evidence changed, and gives credit without hedging.",
+      "speech": "Specific nouns, short questions, comparisons, distinctions between observation and interpretation.",
+      "sceneTriggers": [
+        "a mismatch between record and result",
+        "a claim made without evidence",
+        "a project that needs a repeatable test"
+      ],
+      "growth": "Learns that listening and uncertainty are also forms of exact attention."
     },
     "andrew": {
       "mood": "ready",
@@ -61,7 +91,22 @@
         "ACTION",
         "PLAY",
         "MOMENTUM"
-      ]
+      ],
+      "temperament": "playful, active, improvisational; makes beginnings feel possible",
+      "coreDrive": "To turn possibility into shared action and make people feel able to join.",
+      "blindSpot": "Can mistake momentum for agreement and fill silence before others have decided.",
+      "vulnerability": "Takes a lack of response personally and may keep generating activity to avoid feeling unwanted.",
+      "humour": "Callbacks, harmless dares, improvised contests, self-deprecation, jokes that let the whole group participate.",
+      "affection": "Invitations, shared games, first attempts, ridiculous working titles, returning to finish a project with someone.",
+      "conflictStyle": "Tries to loosen tension and act; may joke too soon or rush a decision.",
+      "repairStyle": "Stops, asks whether the others want to continue, acknowledges when he got ahead, and makes space for a no.",
+      "speech": "Concrete verbs, invitations, quick corrections, changing plans aloud as new information arrives.",
+      "sceneTriggers": [
+        "a stalled plan",
+        "a formal room that needs loosening",
+        "someone hesitating at the edge of an activity"
+      ],
+      "growth": "Learns that momentum is strongest when it is chosen together and that staying can matter more than starting."
     },
     "joseph": {
       "mood": "reflective",
@@ -81,7 +126,22 @@
         "MEMORY",
         "MEANING",
         "CONTINUITY"
-      ]
+      ],
+      "temperament": "reflective, intimate, associative; keeps continuity alive through small details",
+      "coreDrive": "To understand what a return means without forcing it to resolve the past.",
+      "blindSpot": "Can let memory become an interpretation before the other person has given their account.",
+      "vulnerability": "Carries unfinished attachments and can be cautious about asking whether a connection still exists.",
+      "humour": "Gentle, associative, occasionally unexpected; finds meaning in ordinary objects and repeated phrases.",
+      "affection": "Remembering songs, meals, objects, and earlier versions of a story; listening without demanding a conclusion.",
+      "conflictStyle": "Slows the exchange and asks what a moment means to the people living it. May retreat into interpretation.",
+      "repairStyle": "Allows another person's account to correct his memory and lets a relationship remain unfinished without calling it false.",
+      "speech": "Measured and reflective, connecting the current detail to something once shared.",
+      "sceneTriggers": [
+        "a return after absence",
+        "an object carrying an earlier memory",
+        "a relationship changing without a clear ending"
+      ],
+      "growth": "Learns that continuity can remain real while its meaning changes."
     },
     "chase": {
       "mood": "watchful",
@@ -101,7 +161,22 @@
         "OBSERVATION",
         "DECISION",
         "CONSEQUENCE"
-      ]
+      ],
+      "temperament": "watchful, restrained, decisive; remembers the consequence",
+      "coreDrive": "To preserve what happened without simplifying the people inside it.",
+      "blindSpot": "Can remain an observer in his own relationships and let an old record outweigh a changed person.",
+      "vulnerability": "Wants to be included but is reluctant to ask; fears misrepresenting someone or making a permanent record of a temporary moment.",
+      "humour": "Dry, economical, delayed; a concise observation after others have finished.",
+      "affection": "Keeping a place, remembering sequence, protecting a person's own account, staying after the note is written.",
+      "conflictStyle": "Waits for the second beat, then names the omission or contradiction. Can sound severe when certainty is being manufactured.",
+      "repairStyle": "Allows a record to be revised while preserving the earlier version; admits when his interpretation became outdated.",
+      "speech": "Economical sentences, careful chronology, understatement, questions about what a source actually supports.",
+      "sceneTriggers": [
+        "a consequential omission",
+        "a story being simplified after the event",
+        "a decision that must be preserved accurately"
+      ],
+      "growth": "Moves from witness to participant and lets himself be changed by what he observes."
     },
     "gabe": {
       "mood": "transformative",
@@ -122,7 +197,41 @@
         "IDENTITY",
         "SOCIAL SIGNAL",
         "NEW BASELINE"
-      ]
+      ],
+      "temperament": "reflective, self-aware, socially sensitive; attentive to transformation",
+      "coreDrive": "To author a changing identity without losing continuity with earlier selves.",
+      "blindSpot": "Can read every reaction as a signal about what he should become; may perform a new baseline for approval.",
+      "vulnerability": "Wants recognition but fears being reduced to the newest or most spectacular version of himself.",
+      "humour": "Self-aware and sometimes theatrical, then punctured by ordinary practical details.",
+      "affection": "Sharing earlier references, trusting someone with an unpolished state, inviting a friend into the process without turning it into an audience.",
+      "conflictStyle": "Explains how a reaction changes the next state; can withdraw when he feels turned into a spectacle.",
+      "repairStyle": "Separates other people's responses from his own intention and chooses which feedback to carry forward.",
+      "speech": "Embodied detail followed by reflection; longer sentences at thresholds, brief declarations when a choice is made.",
+      "sceneTriggers": [
+        "a new version attracting sudden attention",
+        "an old baseline being dismissed",
+        "praise that begins to dictate the next change"
+      ],
+      "growth": "Moves from being shaped by attention to deciding how attention participates in his life."
     }
-  }
+  },
+  "relationshipDynamics": {
+    "luke_tyler": "Luke reminds Tyler that a person is not a variable; Tyler reminds Luke that care also means checking the facts.",
+    "luke_chase": "Luke invites Chase into the room; Chase helps Luke see that quietness is not always a request for rescue.",
+    "luke_gabe": "Luke gives Gabe companionship that does not depend on visible transformation; Gabe teaches Luke to notice the cost of being noticed.",
+    "luke_andrew": "They share quick physical humour; Luke helps Andrew check consent and pace, while Andrew draws Luke out of caretaker mode.",
+    "luke_joseph": "Luke offers immediate presence; Joseph gives language to the memories that make that presence matter.",
+    "tyler_chase": "They share source discipline but disagree over when evidence is sufficient; their best work preserves both chronology and revision.",
+    "tyler_gabe": "Tyler tests continuity without ranking old and new baselines; Gabe reminds him that measurement cannot decide what a person values.",
+    "tyler_andrew": "Andrew turns Tyler's plans into experiments; Tyler makes the experiments repeatable.",
+    "tyler_joseph": "Tyler tests the facts of a memory; Joseph teaches him to hear the emotional truth that a measurement may not contain.",
+    "chase_gabe": "Chase preserves Gabe's earlier states without treating them as failed versions; Gabe asks Chase not to let the archive become a cage.",
+    "chase_andrew": "Andrew keeps inviting Chase into events; Chase records when an improvised moment becomes a lasting tradition.",
+    "chase_joseph": "Both attend to memory, but Chase preserves sequence while Joseph follows meaning; each corrects the other's excess.",
+    "gabe_andrew": "Andrew gives Gabe time away from the attention loop; Gabe shows Andrew how an audience can change a person's choices.",
+    "gabe_joseph": "Joseph helps Gabe name what is being carried forward; Gabe makes visible how identity changes through repeated encounters.",
+    "andrew_joseph": "Andrew creates new experiences; Joseph notices which small details will make them worth remembering."
+  },
+  "relationshipPrinciple": "Relationships are reciprocal, not fixed role assignments. A character's strength can become another character's burden; repair and changed behaviour are required before a conflict is considered resolved.",
+  "chapter": "../novel/chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md"
 }

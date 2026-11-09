@@ -100,13 +100,24 @@
         "tiktok",
         "youtube"
       ]
+    },
+    "gabe": {
+      "persona": "GABE",
+      "stance": "TRANSFORMATION / IDENTITY / SOCIAL SIGNAL",
+      "channels": [
+        "instagram",
+        "youtube",
+        "x"
+      ]
     }
   },
   "corpusBehavior": {
     "inbound": "external signal -> NOTICE -> shared interaction",
     "outbound": "artifact/encounter/transform -> social draft -> channel adapter -> external response -> memory",
     "rule": "A social post is an artifact of the corpus, not a replacement for the source work.",
-    "ingestion": "Occasional post -> user shares a public post link -> one member replies -> selected details may be carried into the corpus. No background tracking or automatic scraping while sources remain unconnected."
+    "ingestion": "Occasional post -> user shares a public post link -> one member replies -> selected details may be carried into the corpus. No background tracking or automatic scraping while sources remain unconnected.",
+    "agentCount": 6,
+    "agentNote": "Gabe is a sixth fictional character-agent connected through the Beefythiq Growth Canvas. His presence extends the response roster without replacing the five original shared-room members."
   },
   "storage": {
     "queue": "./hub/social-queue.json",

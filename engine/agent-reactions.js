@@ -35,7 +35,12 @@
       image:/image|visual|render/.test(text),
       memory:/memory|return|record|baseline/.test(text),
       space:/room|space|clearance|door|map|land/.test(text),
-      social:/attention|encounter|luke|tyler|andrew|joseph|chase/.test(text)
+      social:/attention|encounter|luke|tyler|andrew|joseph|chase/.test(text),
+      archive:event?.category==='archive',
+      making:event?.category==='making',
+      people:event?.category==='people',
+      story:event?.category==='story',
+      world:event?.category==='world'
     };
   }
 
@@ -44,25 +49,25 @@
     const before=a.mood;
     let mood=a.mood, response='', next='';
     if(id==='luke'){
-      if(features.scale||features.space){mood='alert';response='He notices the body first, then the room changing around it.';next='stay close enough to see what the new baseline does.';}
+      if(features.scale||features.space||features.making||features.world){mood='alert';response='He notices the body first, then the room changing around it.';next='stay close enough to see what the new baseline does.';}
       else if(features.image){mood='interested';response='He studies the image for the part that feels physically present, not merely generated.';next='push the scene until the environment answers back.';}
-      else {mood='present';response='He stays with the encounter instead of stepping outside it.';next='remain in the room and see what happens next.';}
+      else if(features.people){mood='attentive';response='He notices that you have brought the shared people-space into focus.';next='let the selected people answer in their own way.';}\n      else {mood='present';response='He stays with the encounter instead of stepping outside it.';next='remain in the room and see what happens next.';}
     }else if(id==='tyler'){
-      if(features.scale||features.space){mood='focused';response='He immediately compares the new state with the remembered one.';next='find the measurement that proves the change is real.';}
+      if(features.scale||features.space||features.making||features.world){mood='focused';response='He immediately compares the new state with the remembered one.';next='find the measurement that proves the change is real.';}
       else if(features.image){mood='skeptical';response='He checks whether the image actually preserves the recorded geography.';next='compare the render against the map and recording.';}
-      else {mood='curious';response='He notices a mismatch and keeps watching.';next='identify the variable that changed.';}
+      else if(features.people){mood='analytical';response='He looks for the actual exchange behind the names and status.';next='compare the interaction with the record.';}\n      else {mood='curious';response='He notices a mismatch and keeps watching.';next='identify the variable that changed.';}
     }else if(id==='andrew'){
-      if(features.scale||features.space){mood='energized';response='He treats the changed room as something to move through and test.';next='turn the new constraint into the next piece of play.';}
+      if(features.scale||features.space||features.making||features.world){mood='energized';response='He treats the changed room as something to move through and test.';next='turn the new constraint into the next piece of play.';}
       else if(features.image){mood='amused';response='He wants to see what happens when the new image becomes an environment.';next='make the scene playable instead of static.';}
-      else {mood='ready';response='He looks for the opening created by the change.';next='do something with it.';}
+      else if(features.people){mood='social';response='He treats the selected people-space as an invitation to make something happen.';next='start a concrete exchange.';}\n      else {mood='ready';response='He looks for the opening created by the change.';next='do something with it.';}
     }else if(id==='joseph'){
-      if(features.memory||features.scale){mood='moved';response='He recognizes the old state inside the new one.';next='keep one small detail that proves the past is still here.';}
+      if(features.memory||features.scale||features.archive||features.story){mood='moved';response='He recognizes the old state inside the new one.';next='keep one small detail that proves the past is still here.';}
       else if(features.image){mood='absorbed';response='He looks for the detail that makes the image belong to the world.';next='connect the visual return to something already remembered.';}
-      else {mood='reflective';response='He lets the change settle before deciding what it means.';next='hold the unresolved part open.';}
+      else if(features.people){mood='attentive';response='He follows the relationship you have brought forward without assuming what it means.';next='keep the exchange open and let its meaning develop.';}\n      else {mood='reflective';response='He lets the change settle before deciding what it means.';next='hold the unresolved part open.';}
     }else{
-      if(features.scale||features.space){mood='watchful';response='He waits for the consequence instead of reacting to the spectacle alone.';next='record the first thing that cannot be unseen.';}
+      if(features.scale||features.space||features.making||features.world){mood='watchful';response='He waits for the consequence instead of reacting to the spectacle alone.';next='record the first thing that cannot be unseen.';}
       else if(features.image){mood='decisive';response='He watches for the one visual fact that changes the story.';next='choose the detail worth carrying forward.';}
-      else {mood='alert';response='He notices that something has shifted and refuses to smooth it over.';next='follow the consequence.';}
+      else if(features.archive||features.story){mood='observant';response='He follows the source material you have returned to and checks what it actually supports.';next='carry forward the unresolved detail, not a convenient conclusion.';}\n      else {mood='alert';response='He notices that something has shifted and refuses to smooth it over.';next='follow the consequence.';}
     }
     a.mood=mood;
     a.attention=(model?.agents?.[id]?.attention)||fallback[id].attention;

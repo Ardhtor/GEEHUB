@@ -109,3 +109,17 @@ Continuity consequences:
 - The latch sound remains an open thread for a later arrangement.
 
 Read-back check: the new chapter was compared with Chapter Twenty-Five and Andrew's character record. It uses the established eccentric testing method and the documented growth direction from momentum as reflex toward momentum as shared choice. The scene adds a specific instance; it does not rewrite the character record as a universal trait.
+
+
+## Learning pass — Chapter Twenty-Seven
+
+Joey enters the convergence as a distinct character; he is not merged with Joseph. The moonlit arm expansion follows his established Teal Titan Stage Four continuity. Andrew witnesses the change directly and tests Joey's throwing ability against his own baseball experience.
+
+New state:
+- Joey's expanded arms can generate a pitch exceeding Andrew's in force and speed.
+- Joey's control is not assumed to be perfected by size; target work and practice remain necessary.
+- Andrew responds through curiosity and coaching rather than humiliation or rivalry.
+- The catcher's mitt requires inspection after the first full-effort pitch.
+- MOONLIT_PITCH_01 preserves the first impact and the slower control comparison as separate records.
+
+The chapter was checked against Joey's Teal Titan continuity record and Andrew's established baseball temperament. The distinction between Joey and Joseph is explicit. The event is fictional canon within this novel, not a claim about a real person or a completed 3D render.

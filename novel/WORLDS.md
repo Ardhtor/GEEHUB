@@ -2117,3 +2117,11 @@ SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/cat-gardens/README.md. Pressure 0.90; memory 1.00.
+
+## CAT GARDENS / pulse 234 / MEMORY
+
+NICK: A detail returns in CAT GARDENS: Another cat crosses the path and chooses the bench beside the reading court. The residents call it good luck, leave the animal its space, and continue their afternoon a little more lightly.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cat-gardens/README.md.
+
+Source retained: worlds/cat-gardens/README.md. Pressure 0.94; memory 1.00.

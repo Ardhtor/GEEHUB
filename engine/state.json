@@ -1,5 +1,5 @@
 {
-  "pulse": 233,
+  "pulse": 234,
   "events": [
     {
       "pulse": 1,
@@ -4143,6 +4143,28 @@
       "occurred_at": "2026-11-09T18:30:19.713655+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000234",
+      "pulse": 234,
+      "time": "2026-11-09T18:45:03.380697+00:00",
+      "actor": "TYLER",
+      "world": "CAT GARDENS",
+      "region_id": "cat-gardens",
+      "previous_region_id": "cat-gardens",
+      "phase": "MEMORY",
+      "source": "worlds/cat-gardens/README.md",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in CAT GARDENS: Another cat crosses the path and chooses the bench beside the reading court. The residents call it good luck, leave the animal its space, and continue their afternoon a little more lightly.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cat-gardens/README.md.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.94,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T18:45:03.380697+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -4193,7 +4215,7 @@
     "northgate-library": 211,
     "athletic-commons": 193
   },
-  "pressure": 0.9,
+  "pressure": 0.9400000000000001,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -4209,7 +4231,7 @@
     "index.html": 11,
     "worlds/common-table/README.md": 8,
     "worlds/cedar-house/README.md": 9,
-    "worlds/cat-gardens/README.md": 10,
+    "worlds/cat-gardens/README.md": 11,
     "worlds/founders-dormitory/README.md": 3,
     "worlds/northgate-university/README.md": 11,
     "worlds/bluewater-quay/README.md": 8,
@@ -4218,12 +4240,12 @@
     "worlds/athletic-commons/README.md": 4
   },
   "next_region": null,
-  "phase": 1,
+  "phase": 2,
   "active_region": "cat-gardens",
-  "current_phase": "ATMOSPHERE",
-  "current_desire_state": "attention",
-  "current_question": "What does this place do while nobody intervenes?",
-  "current_narrative_rule": "approach extends geography",
+  "current_phase": "MEMORY",
+  "current_desire_state": "recognition",
+  "current_question": "Which detail remains from the prior state?",
+  "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null,
   "long_play": {
     "cycle": 186,

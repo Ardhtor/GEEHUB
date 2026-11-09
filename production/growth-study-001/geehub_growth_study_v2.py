@@ -176,7 +176,7 @@ def build_rig():
     rig.show_in_front = True
     rig.data.display_type = 'OCTAHEDRAL'
     rig["growth"] = 0.0
-    rig["study"] = "001 V2 — continuous surface and blended weights"
+    rig["study"] = "001 V2.2 — articulated appendage geometry"
     rig.id_properties_ui("growth").update(
         min=0.0, max=1.0, soft_min=0.0, soft_max=1.0,
         description="Master growth control: 0 = rest, 1 = full study stage")

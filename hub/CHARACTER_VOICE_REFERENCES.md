@@ -32,3 +32,10 @@ Use broad stylistic qualities rather than copying exact phrases, catchphrases, o
 - **Andrew:** playful, active, improvisational, social; he turns an opening into a concrete action or exchange.
 
 These foundations predate the account mapping and remain active while the external references await direct review.
+
+
+## Personality development now in canon
+
+The five fictional characters have been expanded independently of any unreviewed account observations. Luke's protective presence now has the complication of overhelping; Tyler's precision has the complication of retreating into certainty; Chase's observational strength has the complication of remaining outside his own relationships; Gabe's sensitivity to social signal has the complication of letting attention direct his next state; Andrew's momentum has the complication of outrunning agreement. Each record now includes an emotional range, humour, ways of showing affection, conflict and repair patterns, repeatable habits, and a specific growth direction.
+
+The first shared demonstration is [Chapter LXXV — The Table After Rain](../novel/chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md). The machine-readable version is in [agent-reaction-states.json](agent-reaction-states.json). These developments come from GEEHUB's own canon and are not attributed to the real account holders.

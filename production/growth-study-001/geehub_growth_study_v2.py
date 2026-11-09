@@ -224,6 +224,8 @@ def add_limb_ik_constraints(rig):
             ik.iterations = 128
             ik.use_stretch = False
             ik.use_tail = True
+            ik.use_location = True
+            ik.use_rotation = False
             ik.pole_angle = 0.0
             drive_ik_influence(ik, rig, "arm_ik")
 
@@ -239,6 +241,8 @@ def add_limb_ik_constraints(rig):
             ik.iterations = 128
             ik.use_stretch = False
             ik.use_tail = True
+            ik.use_location = True
+            ik.use_rotation = False
             ik.pole_angle = 0.0
             drive_ik_influence(ik, rig, "leg_ik")
 
@@ -759,7 +763,7 @@ def build_environment():
     video_camera_data = bpy.data.cameras.new("CAM_Video6")
     video_camera = bpy.data.objects.new("CAM_Video6", video_camera_data)
     bpy.context.collection.objects.link(video_camera)
-    video_camera.location = (0.0, -6.8, 1.45)
+    video_camera.location = (0.0, -6.3, 1.45)
     aim_at(video_camera, (0.0, 0.0, 1.08))
     video_camera_data.type = 'PERSP'
     video_camera_data.sensor_fit = 'VERTICAL'

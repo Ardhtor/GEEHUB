@@ -1,5 +1,5 @@
 {
-  "pulse": 208,
+  "pulse": 209,
   "events": [
     {
       "pulse": 1,
@@ -3593,6 +3593,28 @@
       "occurred_at": "2026-11-09T09:34:10.401173+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000209",
+      "pulse": 209,
+      "time": "2026-11-09T16:52:20.036115+00:00",
+      "actor": "TYLER",
+      "world": "NORTHGATE UNIVERSITY",
+      "region_id": "northgate-university",
+      "previous_region_id": "northgate-university",
+      "phase": "MEMORY",
+      "source": "worlds/northgate-university/README.md",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the grass in loose groups, carrying books, sketch rolls and coffee. Music drifts from a rehearsal room while a group gathers beneath the trees to argue over a design. The campus is busy without being hurried.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T16:52:20.036115+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -3644,7 +3666,7 @@
     "athletic-commons": 193
   },
   "pressure": 1.0,
-  "memory": 1,
+  "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
     "creative/luke-bwomph.json": 20,
@@ -3661,19 +3683,19 @@
     "worlds/cedar-house/README.md": 2,
     "worlds/cat-gardens/README.md": 2,
     "worlds/founders-dormitory/README.md": 3,
-    "worlds/northgate-university/README.md": 9,
+    "worlds/northgate-university/README.md": 10,
     "worlds/bluewater-quay/README.md": 8,
     "worlds/lantern-market/README.md": 4,
     "worlds/northgate-library/README.md": 3,
     "worlds/athletic-commons/README.md": 4
   },
   "next_region": null,
-  "phase": 1,
+  "phase": 2,
   "active_region": "northgate-university",
-  "current_phase": "ATMOSPHERE",
-  "current_desire_state": "attention",
-  "current_question": "What does this place do while nobody intervenes?",
-  "current_narrative_rule": "approach extends geography",
+  "current_phase": "MEMORY",
+  "current_desire_state": "recognition",
+  "current_question": "Which detail remains from the prior state?",
+  "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null,
   "long_play": {
     "cycle": 183,

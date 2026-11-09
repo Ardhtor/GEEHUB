@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000209",
+  "created_at": "2026-11-09T16:52:20.036115+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "MEMORY / NORTHGATE UNIVERSITY / worlds/northgate-university/README.md",
+  "content": "NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the grass in loose groups, carrying books, sketch rolls and coffee. Music drifts from a rehearsal room while a group gathers beneath the trees to argue over a design. The campus is busy without being hurried.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.",
+  "production_note": "The world resolved its memory rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 209,
+    "actor": "TYLER",
+    "world": "NORTHGATE UNIVERSITY",
+    "region_id": "northgate-university",
+    "source": "worlds/northgate-university/README.md",
+    "phase": "MEMORY",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

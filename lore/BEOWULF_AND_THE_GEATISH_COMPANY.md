@@ -157,3 +157,80 @@ Diabound Kernel has become part of this pattern without being reduced to a trans
 At supper, the conversation is no longer dominated by the events of the first arrival. The men discuss repairs, weather, the quality of the new barley, a dispute over a boundary hedge, and whether the southern landing should have a covered storehouse. Stories of the voyage still return, but each telling changes slightly as the company understands what came after it. Asta sometimes looks at the empty chair beneath the harbour drawing and remembers the people who have not yet made the journey. He writes to them with practical detail: how long the crossing takes, what the road is like beyond the landing, where a traveller can sleep, and who will be waiting.
 
 The company is becoming a network without ceasing to be a company. Its strength lies not in keeping every member together, but in making separation survivable and return possible. The next chapter should follow one of these ordinary routes closely enough for the reader to feel its length: the preparation before departure, the changing river, the stop at a settlement, the meal offered by a household, the small repair that delays the boat, and the lamps at the Geatish House when the traveller finally comes home.
+
+
+## The Men Who Had Kept Hrothgar's Hall
+
+Wulfgar returned to the Geatish House near the end of the second thaw, travelling with three men who had once served in Hrothgar's household. They were not a formal embassy. Their arrival had been arranged by letter, and the ship had brought them across the coast because each wanted to see the place Wulfgar had described. The men were adults, experienced in the duties of a great hall, and old enough to know that a journey could be both a practical undertaking and a difficult act of memory. They came with travel chests, a bundle of letters, two good cloaks, and a small instrument wrapped in wool.
+
+In the Tractus account they were entered under the names Eadwine, Hrothmar, and Sigeferth. The names were supplied by the men themselves. Their lives beyond the details they chose to share were not filled in by the archive. Eadwine had kept the hall's stores and knew how to calculate provisions for a winter. Hrothmar had stood at the outer gate and had learned to recognize a visitor by the sound of his boots on the approach. Sigeferth had been one of the men who accompanied the hall's songs, though he did not describe himself as a singer. He said he had been responsible for keeping the music from falling apart when the room grew loud.
+
+Wiglaf received them at the door. Wulfgar introduced each man, then stepped aside so that the visitors could decide where to stand. There was no demand that they salute the empty chair near the hearth or explain their relationship to Beowulf. The chair remained available, and Eadwine sat in it while the others put down their bags. Wulfgar noticed the choice but did not comment. The kettle was already on, and Wulfgar had brought a letter from the Danish coast that needed to be read after supper.
+
+The first evening was occupied by food. Wulfgar and Asta had arranged roast fish, barley, leeks, onions, bread, and a pot of beans with herbs. The newcomers were offered the same meal as everyone else. They ate slowly, looking around the room as the old hall habits returned in unfamiliar forms: who sat near the door, who waited before speaking, who rose to refill the cups, and who seemed most comfortable listening. The Geatish House did not resemble Heorot, but the long table and the shared meal gave the visitors somewhere to begin.
+
+After supper, Sigeferth took the small instrument from its wrapping. Its wood was worn smooth where the fingers rested, and one string had been replaced with a newer length of gut. He tuned it quietly, then played a short phrase that Wulfgar recognized. The melody was not a ceremonial song. It was something the men used to play while the hall was being cleared, when benches were moved and the last cups were gathered. Its simplicity surprised the younger Geats. They had expected an account of the great feasts, the songs of kings, and the stories of battle. Instead they heard the music of a room being put back into order.
+
+Sigeferth stopped before the phrase resolved.
+
+"That's all?" Asta asked.
+
+"For tonight," Sigeferth said.
+
+Hrothmar laughed. It came out too loudly, and he looked embarrassed by it. Wulfgar laughed with him. The sound changed the room more than a speech could have done. The men were no longer being received as carriers of a tragic past. They were allowed to be visitors who could make a joke and be surprised at their own amusement.
+
+The next morning Wiglaf invited them to the Hall of Returning Voices. The winter-garden room had been set aside for testimony from people whose names were not always preserved in the old heroic accounts. Its windows looked toward the river. A table stood in the centre, with paper, ink, and a box for objects that could be recorded without being displayed. The visitors were told that they could speak, write, decline, or revise what they offered. Nothing would be entered under their names without their agreement.
+
+Eadwine began with the stores. He remembered the quantities of grain and salt fish, the number of cups, the repairs required before winter, and the irritation of finding that someone had used the last of the lamp oil without telling the steward. The others laughed at this. He described Hrothgar's household as a place of abundance and strain, where a king's generosity had to be translated into daily work. He had loved the hall, he said, but there had been days when he resented it. He had been tired, hungry, proud, and occasionally afraid that one mistake in the stores would be taken as evidence that he was careless.
+
+"I was not always grateful," he said. "Sometimes I wanted the king to notice how much work it took to keep his generosity visible."
+
+Wiglaf wrote the sentence down and asked whether Eadwine wanted it preserved.
+
+"Yes. It is not disrespect."
+
+Hrothmar spoke next. He had thought of the gate as a boundary between safety and danger, and after Grendel came he had become accustomed to listening for sounds that other men could sleep through. He had not told the younger guards how frightened he was. He believed that a gatekeeper should make the entrance seem secure, even when he no longer believed it was. Once, after a night of fear, he had gone to the river and stood there until dawn. He had been ashamed of the relief he felt when the hall's doors were shut and someone else took the watch.
+
+"Did you tell Hrothgar?" Wiglaf asked.
+
+"No."
+
+"Would he have listened?"
+
+Hrothmar considered the question. "I think he would have. I did not know how to speak to him without making my fear sound like a complaint."
+
+There was no rebuke from the table. Eadwine looked toward him, then put a hand on the older man's shoulder. Hrothmar did not move away. The gesture lasted only a moment, but the archive kept it in the account as part of the meeting: one man had said something difficult, and another had answered without asking him to defend it.
+
+Sigeferth spoke last. He remembered the sound of Heorot before the attacks, when the hall was full of men who knew one another's laughter. He remembered Hrothgar's voice carrying across the room, the harp strings, the scraping benches, and the sudden hush when a story reached a point that everyone knew. When Grendel's visits began, the music stopped. The men could still sing, but the songs had become difficult to begin because everyone heard the empty spaces where a familiar voice should have been.
+
+He had become angry. Not only with the monster, but with the song, with the hall, with men who insisted that courage should make grief disappear. He had once broken the instrument's bridge in frustration and then spent a whole night repairing it. He had not told anyone. He had kept the repaired instrument because he did not want the hall to become a place where only perfect things could be remembered.
+
+When he finished, he was crying. He did not hide his face, and nobody asked him to stop. Wulfgar sat beside him. Eadwine pushed the water jug closer. Hrothmar looked down at his hands, not because he was ashamed of Sigeferth, but because he recognized the feeling and could not yet meet it directly. After a while he looked up.
+
+"I cried too," he said. "At the river. I thought I was the only one."
+
+Sigeferth wiped his face with the heel of his hand. "You were not."
+
+The room did not become solemn beyond what the men could bear. They began talking about the first feast after Grendel's death, about the food that had been served and the way the younger men had laughed too loudly because they were trying to discover whether they were allowed to be happy again. Eadwine remembered that the cooks had run out of clean bowls. Hrothmar remembered a man falling asleep on a bench before the lamps were extinguished. Wulfgar remembered Hrothgar listening to the room for a long time after the others had begun to leave.
+
+"He looked relieved," Wulfgar said. "Then, when he thought nobody was watching, he looked old."
+
+The men sat with that recollection. Hrothgar's grief had not been a private possession, and neither had his relief. The men of his hall had carried pieces of both. They had also carried irritation, delight, desire, envy, loyalty, and the ordinary affection of people who had spent years in one another's company. Their emotional lives were not a single heroic note. They were a whole register of human responses.
+
+That afternoon the visitors walked through the athletic commons. They watched the ensemble practice a coordinated carry, then tried the exercise themselves with a weighted beam. Hrothmar was better at judging the route than anyone expected. Eadwine understood how the load should be balanced. Sigeferth kept time with a rhythm tapped softly on the beam, and the younger men found themselves matching his pace. When the exercise ended, Hrothmar laughed again, this time without apology.
+
+At supper, Sigeferth played the unfinished phrase once more. He added a new ending. It did not sound like the old hall, and he did not pretend that it did. The melody moved through a lower register before returning to the note where it had stopped the previous night. Wulfgar recognized the change and asked why he had altered it.
+
+"Because we are not in Heorot," Sigeferth replied. "And because the song has had time to become something else."
+
+The archive recorded both versions. The first was labelled *The Clearing Song — Heorot Account*. The second was *The Clearing Song — Northgate Return*. They were related, but neither was declared the authentic form. The men had brought a piece of their former home and allowed it to continue in another room.
+
+Before they departed, Hrothmar asked whether the Geatish House would keep a place for them. Wiglaf answered that the house could receive them again, but that nobody would be expected to visit merely to prove loyalty. Wulfgar said he would write when the coast was clear. Eadwine requested a copy of the store ledger form, because he wanted to try a similar record in the Danish household. Sigeferth left the new ending of the song in the Hall of Returning Voices, but kept the instrument with him.
+
+The visitors left with more than a memory of Heorot. They had been heard as men who had lives beyond the old hall, who could be afraid without becoming cowards, who could grieve without losing their humour, and who could offer affection without disguising it as a formal oath. Hrothgar's company had always possessed this range. The Tractus had only needed to give it room.
+
+The Hall of Returning Voices received a new inscription above the table:
+
+*The men who kept the hall also needed a place to be kept.*
+
+The line was not attributed to Hrothgar. It belonged to the men who had spoken.

@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from typing import Any
 
-INTERVAL_LADDER = (1, 3, 7, 14, 30)
+INTERVAL_LADDER = (1, 3, 7, 21)
 ALLOWED_RESPONSES = {"pause", "step", "turn", "breath", "reach", "stillness"}
 ALLOWED_PHASES = {"on_beat", "off_beat", "break", "silence"}
 

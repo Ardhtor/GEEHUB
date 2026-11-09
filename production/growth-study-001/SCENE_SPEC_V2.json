@@ -3,11 +3,13 @@
   "version": 2.3,
   "status": {
     "source_script": "created",
-    "python_syntax_check": "appendage_rig_section_passed_full_script_not_recompiled",
-    "blender_execution": "not_run_blender_not_installed",
+    "python_syntax_check": "not_recompiled_after_V2_3_locomotion_update",
+    "blender_execution": "not_run_blender_not_available_in_authoring_environment",
     "voxel_remesh_validation": "pending",
     "weight_validation": "pending",
-    "render_validation": "pending"
+    "render_validation": "pending",
+    "locomotion_validation": "pending",
+    "camera_switch_validation": "pending"
   },
   "target": "Blender 4.x",
   "character": {

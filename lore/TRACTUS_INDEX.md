@@ -218,3 +218,8 @@ The character records for [Luke](../characters/records/LUKE.md), [Tyler](../char
 ## The Unplanned Convergence
 
 [The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md) is the opening of the Cyber Black Hole novel. Luke, Andrew, Tyler, Joseph, Chase, and Gabe arrive by separate routes in a room that appears between familiar places. A black disc gathers traces from their distinct lives and reveals a city forming around the Cyber Black Hole. Their first shared rules preserve source truth, individual accounts, and each person's freedom to approach or leave. The opening establishes the ensemble's unexpected meeting without collapsing their identities into one voice.
+
+
+## The Grand Meridian — The Hotel at the Edge of the Week
+
+The novel [The Hotel at the Edge of the Week](../novel/THE_HOTEL_AT_THE_EDGE_OF_THE_WEEK.md) is an all-male enclosed-world narrative. The Grand Meridian repeats a seven-day week while the men's ordinary memories reset. The metaxy retains traces of prior cycles in reflections, thresholds, dreams, sounds, altered objects, and phrases that survive without their original context. Its first ensemble is Luke, Tyler, Chase, Gabe, Andrew, and Joseph. The seventh door and the hotel's underlying mechanism remain unresolved. The novel's recurrence rules and metaxy ledger are part of its continuity contract.

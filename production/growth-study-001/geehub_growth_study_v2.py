@@ -334,8 +334,8 @@ def build_rig():
             target.data_path = '["growth"]'
             driver.expression = f"1.0 + ({gain:.4f} * growth)"
     # Independent IK switches. FK is available by setting a channel to zero.
-    rig["arm_ik"] = 1.0
-    rig["leg_ik"] = 1.0
+    rig["arm_ik"] = 0.0
+    rig["leg_ik"] = 0.0
     rig.id_properties_ui("arm_ik").update(
         min=0.0, max=1.0, description="Arm IK blend: 1 = hand/pole controls, 0 = FK")
     rig.id_properties_ui("leg_ik").update(
@@ -1028,6 +1028,31 @@ def build_video6_pose_action(rig):
         rig["leg_ik"] = 1.0
         rig.keyframe_insert(data_path='["arm_ik"]', frame=frame, group="Video6 IK Mode")
         rig.keyframe_insert(data_path='["leg_ik"]', frame=frame, group="Video6 IK Mode")
+
+    # Clear FK rotations held by the preceding run-away action so the
+    # separate Video6 scene begins from a genuine frontal rest pose.
+    for bone_name in ("pelvis", "spine", "neck"):
+        bone = rig.pose.bones.get(bone_name)
+        if bone is not None:
+            bone.rotation_mode = 'XYZ'
+            for frame in (VIDEO6_START_FRAME, VIDEO6_END_FRAME):
+                bone.rotation_euler = (0.0, 0.0, 0.0)
+                bone.keyframe_insert(data_path="rotation_euler", frame=frame,
+                                     group="Video6 Torso Reset")
+
+    # The run action also keys toe curl. Return all toe segments to neutral
+    # before the pose clip so the wide stance remains relaxed and planted.
+    for side in ("L", "R"):
+        for digit in ("big_toe", "toe_02", "toe_03", "toe_04", "toe_05"):
+            for segment in ("01", "02"):
+                toe_bone = rig.pose.bones.get(f"{digit}_{segment}.{side}")
+                if toe_bone is not None:
+                    toe_bone.rotation_mode = 'XYZ'
+                    for frame in (VIDEO6_START_FRAME, VIDEO6_END_FRAME):
+                        toe_bone.rotation_euler = (0.0, 0.0, 0.0)
+                        toe_bone.keyframe_insert(
+                            data_path="rotation_euler", frame=frame,
+                            group="Video6 Toe Reset")
 
     head = rig.pose.bones.get("head")
     if head is not None:

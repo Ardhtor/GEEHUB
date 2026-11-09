@@ -54,3 +54,96 @@ The first god returned to the riverbank. The second walked beyond the north gate
 At the western court, the moved boundary remained visible. At the north gate, a small amount of red earth lay on the stones. The river carried on beneath the bridge.
 
 The gods had not explained themselves. They had given the city two verbs, and the city had discovered that it would need both.
+
+
+## The Second Cycle — The Door That Belonged to Neither
+
+The seam in the western court remained narrow through three days of observation. The guards marked its width at dawn and dusk. The cartographer drew its outline on a separate sheet and placed a second sheet beside it to record changes. The wall did not widen. The sound of the chair moved from one side of the seam to the other, though no one could establish whether the room beyond it was near or far.
+
+The Enveloper returned to the court and stood beside the curve in the wall. He placed one palm against the stone, not to hold it in place but to feel whether the boundary was still moving.
+
+"It is holding," said the gate captain.
+
+"It is changing," the god answered.
+
+"Those cannot both be true."
+
+"They can when the thing being held is allowed to change."
+
+The Incursor arrived from the northern road. His boots carried the same red earth as before, but the compass in his hand now pointed toward the seam rather than beyond the city. He looked at the guards' measurements and asked who had been allowed to approach.
+
+"Only the keepers," the captain said.
+
+"Then you have measured the seam without measuring the encounter."
+
+The captain looked irritated. "We cannot let anyone walk through an unknown opening."
+
+"I did not ask you to let anyone through. I asked you to notice who has been waiting on the other side."
+
+The distinction passed through the court. The guards had treated the seam as a boundary problem. The Incursor treated it as a possible encounter. The Enveloper treated it as a possible change in the court's capacity to receive something. Neither god could prove the other wrong.
+
+At dusk, a sound came through the seam again. The scrape of a chair. Then a pause. Then the soft placement of something on a table.
+
+The cartographer asked whether the sound might be an invitation.
+
+"Perhaps," said the Enveloper.
+
+"Or a warning," said the Incursor.
+
+"Or an ordinary person moving a chair," said the captain.
+
+The three men looked at him. It was the first time anyone had considered that the sound might belong to a person who had no intention of becoming a sign.
+
+The next morning, the seam changed. It did not open, but a thin line of warm air moved into the court. It carried the smell of cedar, bread, and rain drying from wool. One of the guards stepped back. The captain ordered the court cleared, then stopped himself before giving the order. He looked at the cartographer.
+
+"What do we know?"
+
+"That something is on the other side. That it has moved a chair. That it may be near enough for air to pass through. We do not know who it is, whether it intends to cross, or whether the seam is a door."
+
+The captain looked at the gods. The Enveloper had not moved. The Incursor had not raised the compass.
+
+"We can offer a place to speak," the captain said. "Without opening the seam."
+
+The cartographer placed a small table beside the wall. He set down a lamp, a cup of water, and a piece of bread. The court remained clear. No one stood directly in front of the seam. The guards took their places at a distance where they could observe without crowding the passage.
+
+For a long time, nothing happened.
+
+Then the chair scraped again. A man's voice came through the narrow line.
+
+"Is anyone there?"
+
+The captain answered. "Yes."
+
+"Are you going to open it?"
+
+"Not without knowing what you want."
+
+There was a pause. "I don't know whether I want to come through."
+
+"Then we will not ask you to decide yet."
+
+The men waited. The voice did not speak again, but the warm air continued to pass through the seam. The cup remained full. The bread remained on the table. Nothing was taken.
+
+The Incursor lowered his compass. The Enveloper stepped away from the wall.
+
+The captain asked whether the two gods now agreed.
+
+"No," said the Incursor.
+
+"Not completely," said the Enveloper.
+
+"Then what has changed?"
+
+The Incursor looked at the table. "The boundary has become a place where an answer can be offered without requiring a crossing."
+
+The Enveloper added, "And the court has learned that making room is not the same as taking someone in."
+
+The seam remained narrow. The person beyond it had not entered the city, and the city had not entered the room beyond. Yet the court was no longer waiting for the boundary to resolve itself. It had established a way to receive a question.
+
+The bread was left on the table until evening. When the guards returned, it was gone. The cup had been moved a little to the left. The lamp had not been touched.
+
+The cartographer marked the event as **OFFER RECEIVED / SOURCE UNIDENTIFIED / CROSSING NOT OBSERVED**.
+
+The first god approved the wording. The second did not object. The captain requested that the table remain beside the wall.
+
+The gods had not become friends, and the seam had not become a door. But their two movements had produced a third possibility: a threshold that could sustain contact without demanding entry.

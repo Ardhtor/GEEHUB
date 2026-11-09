@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "title": "GEEHUB / SOCIAL CYBERSPACE",
   "principle": "The corpus acts outward. Social channels are external doors through which the shared world can publish, observe, respond, and bring signals home.",
   "platforms": {
@@ -42,6 +42,15 @@
         "video"
       ],
       "note": "Video publishing requires an authorized channel and upload scope."
+    },
+    "x": {
+      "mode": "source-link",
+      "status": "unconnected",
+      "capabilities": [
+        "profile_link",
+        "manual_post_import"
+      ],
+      "note": "Primary user source: @CumPassionately. Automatic observation requires an authorized X integration; until then, individual posts are added by link."
     }
   },
   "agents": {
@@ -96,11 +105,39 @@
   "corpusBehavior": {
     "inbound": "external signal -> NOTICE -> shared interaction",
     "outbound": "artifact/encounter/transform -> social draft -> channel adapter -> external response -> memory",
-    "rule": "A social post is an artifact of the corpus, not a replacement for the source work."
+    "rule": "A social post is an artifact of the corpus, not a replacement for the source work.",
+    "ingestion": "Occasional post -> user shares a public post link -> one member replies -> selected details may be carried into the corpus. No background tracking or automatic scraping while sources remain unconnected."
   },
   "storage": {
     "queue": "./hub/social-queue.json",
     "dropbox": "/GEEHUB/corpus/social/",
-    "mediaRule": "Large media belongs in Dropbox; compact social state belongs in GitHub."
-  }
+    "mediaRule": "Large media belongs in Dropbox; compact social state belongs in GitHub.",
+    "watchSources": "./hub/social-cyberspace.json#watchSources"
+  },
+  "watchSources": [
+    {
+      "id": "x-cumpassionately",
+      "platform": "x",
+      "account": "@CumPassionately",
+      "url": "https://x.com/CumPassionately",
+      "priority": "primary",
+      "role": "User's own occasional posts; primary inbound signal."
+    },
+    {
+      "id": "instagram-eric-janicki",
+      "platform": "instagram",
+      "account": "@ericjanickifitness",
+      "url": "https://www.instagram.com/ericjanickifitness/",
+      "priority": "reference",
+      "role": "Bodybuilding, physique development, training technique, and visual reference."
+    },
+    {
+      "id": "youtube-graves-broden",
+      "platform": "youtube",
+      "account": "@GravesBroden",
+      "url": "https://www.youtube.com/@GravesBroden",
+      "priority": "secondary",
+      "role": "User's channel and video archive."
+    }
+  ]
 }

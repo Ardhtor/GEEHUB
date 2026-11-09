@@ -84,6 +84,14 @@ class InscriptionIOTests(unittest.TestCase):
         artifact = json.loads((self.artifacts / "large-001.json").read_text(encoding="utf-8"))
         self.assertEqual(artifact["content"], payload)
 
+    def test_interrupted_activity_tail_is_truncated_before_next_append(self):
+        self.log.parent.mkdir(parents=True, exist_ok=True)
+        valid = json.dumps({"id": "prior-event", "occurred_at": "2026-11-09T17:00:00Z"}) + "\\n"
+        self.log.write_bytes(valid.encode("utf-8") + b'{"id":"interrupted')
+        inscription.inscribe_event(self.event("recovery-001"), "io-test")
+        rows = [json.loads(line) for line in self.log.read_text(encoding="utf-8").splitlines() if line]
+        self.assertEqual([row["id"] for row in rows], ["prior-event", "recovery-001"])
+
     def test_partial_artifact_is_recovered_from_canonical_event(self):
         self.artifacts.mkdir(parents=True, exist_ok=True)
         (self.artifacts / "interrupted-001.json").write_text('{"partial":', encoding="utf-8")

@@ -342,6 +342,6 @@ export function buildStableMaskMesh(frames, options = {}) {
       topologyAcrossFrames: hasStableTopology ? "identical-triangle-and-vertex-identities" : "no-stable-triangles",
       edgeConnected: connected
     },
-    note: "Triangles are retained only when every covered pixel centre is body foreground and protected-face background in every supplied frame. This proves mask-relative coverage, not anatomical correctness of the upstream masks. No image pixels are altered."
+    note: "Triangles are retained only when every covered pixel centre is body foreground and protected-face background in every supplied frame. A ready mesh must also form one edge-connected component and meet the configured minimum coverage. This proves mask-relative coverage, not anatomical correctness of the upstream masks. No image pixels are altered."
   };
 }

@@ -1,5 +1,5 @@
 {
-  "pulse": 230,
+  "pulse": 231,
   "events": [
     {
       "pulse": 1,
@@ -4077,6 +4077,28 @@
       "occurred_at": "2026-11-09T18:18:13.771801+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000231",
+      "pulse": 231,
+      "time": "2026-11-09T18:25:18.666082+00:00",
+      "actor": "KIRK",
+      "world": "CEDAR HOUSE",
+      "region_id": "cedar-house",
+      "previous_region_id": "cedar-house",
+      "phase": "ROUTE_OPEN",
+      "source": "worlds/cedar-house/README.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between CEDAR HOUSE and CAT GARDENS. The archive names the relation \"GOOD LUCK HAS WHISKERS\".\n\nNICK: A cat crosses the garden path and settles in the last warm patch of sun; the city takes it as a small sign of good fortune. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "GOOD LUCK HAS WHISKERS",
+      "next_region": "cat-gardens",
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T18:25:18.666082+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -4142,7 +4164,7 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 11,
     "worlds/common-table/README.md": 8,
-    "worlds/cedar-house/README.md": 8,
+    "worlds/cedar-house/README.md": 9,
     "worlds/cat-gardens/README.md": 8,
     "worlds/founders-dormitory/README.md": 3,
     "worlds/northgate-university/README.md": 11,
@@ -4151,14 +4173,19 @@
     "worlds/northgate-library/README.md": 7,
     "worlds/athletic-commons/README.md": 4
   },
-  "next_region": null,
-  "phase": 2,
+  "next_region": "cat-gardens",
+  "phase": 3,
   "active_region": "cedar-house",
-  "current_phase": "MEMORY",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
-  "next_relation": null,
+  "current_phase": "ROUTE_OPEN",
+  "current_desire_state": "tension",
+  "current_question": "Which existing relation now becomes traversable?",
+  "current_narrative_rule": "arrival activates aftermath",
+  "next_relation": {
+    "title": "GOOD LUCK HAS WHISKERS",
+    "text": "A cat crosses the garden path and settles in the last warm patch of sun; the city takes it as a small sign of good fortune.",
+    "from": "cedar-house",
+    "to": "cat-gardens"
+  },
   "long_play": {
     "cycle": 186,
     "agent": "luke",

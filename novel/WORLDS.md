@@ -2157,3 +2157,11 @@ NICK: A detail returns in FOUNDERS DORMITORY: Someone has returned from the libr
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/founders-dormitory/README.md.
 
 Source retained: worlds/founders-dormitory/README.md. Pressure 0.94; memory 1.00.
+
+## FOUNDERS DORMITORY / pulse 239 / ROUTE_OPEN
+
+SETH: A line becomes visible between FOUNDERS DORMITORY and NORTHGATE UNIVERSITY. The archive names the relation "ROOMS ABOVE THE QUADRANGLE".
+
+NICK: The covered walk leads to a residential college where students share kitchens, common rooms, projects and the small rituals of daily life. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: worlds/founders-dormitory/README.md. Pressure 1.00; memory 1.00.

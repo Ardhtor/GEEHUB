@@ -201,3 +201,24 @@ The image corpus is a record of reciprocal transformation. The user's visual att
 A useful image record is not simply “what is pictured.” It records what the image was used to understand, what it changed in the project, what remains uncertain, and which later images inherit or contradict it.
 
 The next stage is a file-by-file visual pass with stable image IDs, actual thumbnails, source provenance, subject/location tags, and explicit duplicate/variant relationships. Until that pass is complete, categories in this document remain a working map rather than a final annotation of every image.
+
+
+## 12. Referencing Library images inside GEEHUB
+
+The user has explicitly authorized GEEHUB to reference relevant Library images when the reasoning for the reference is present. This makes the image corpus an active visual reference system, not merely a background study.
+
+A GEEHUB page, character record, location entry, artifact, or production note may therefore point to a Library image when it materially helps explain a design decision. Each reference should carry a short rationale: what visible feature is being referenced, what project question it helps answer, and whether the image is a direct identity reference, a compositional reference, an environmental reference, or a general stylistic influence.
+
+Use the following compact record:
+
+- **Image:** exact Library filename or stable file reference.
+- **Reason:** the visible feature or design problem that makes it relevant.
+- **Use:** identity / proportion / pose / clothing / environment / lighting / composition / interface / symbolism.
+- **Relationship:** reference only, continuity anchor, comparison, or derivative source.
+- **Restriction:** preserve any source label or usage limitation.
+
+Do not make a reference appear stronger than the evidence supports. If the image is only a broad influence, say so. If it establishes a recurring character's appearance, identify the specific visible continuity features. If two images conflict, preserve both and record the discrepancy instead of silently choosing one.
+
+This authorization concerns referencing images in GEEHUB with an accompanying rationale. It does not erase source restrictions or convert a reference into an approved derivative, training source, or redistributed asset. The GravesBeef Image (31) record marked “Trial NoAI” remains restricted. Where the actual Library image cannot be embedded or its stable source link is unavailable, use its exact filename and Library reference rather than inventing a public URL.
+
+The governing rule is simple: every image reference should explain what it contributes to the world.

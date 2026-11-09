@@ -51,7 +51,8 @@
       "IK pole directions, joint limits, foot plant, and IK/FK behavior require Blender validation",
       "FK/IK snapping, articulated heel/toe roll pivots, and corrective shoulder/elbow/knee shapes remain unfinished",
       "toe and torso reset keys are authored at the Video6 scene boundary but require Blender evaluation to verify the preceding locomotion pose is fully cleared",
-      "target positions are hand-endpoint screen-space approximations from the front view; wrist orientation and shoulder corrective deformation still require calibration"
+      "target positions are hand-endpoint screen-space approximations from the front view; wrist orientation and shoulder corrective deformation still require calibration",
+      "wrist orientation is not yet separately keyed through the IK target; source-view fist orientation is approximated by the existing hand/finger pose"
     ],
     "appendage_system": {
       "collection": "APPENDAGE_DIGITS — replaceable geometry",
@@ -78,7 +79,8 @@
         "FK/IK snapping is not yet implemented",
         "heel and toe pivots are reference controls, not a completed foot-roll mechanism"
       ],
-      "default_mode": "FK to preserve the initial authored rest pose; VIDEO6_POSE_STUDY enables IK for arms and planted feet"
+      "default_mode": "FK to preserve the initial authored rest pose; VIDEO6_POSE_STUDY enables IK for arms and planted feet",
+      "location_targeting": "Explicit use_location=True and use_rotation=False on arm and leg IK constraints; wrist orientation remains a separate calibration task"
     }
   },
   "timeline": {
@@ -234,7 +236,7 @@
     ],
     "action": "neutral stance -> arms abduct -> lateral spread -> screen-right fist rises first -> both arms fold into double biceps -> hold to about 5 seconds -> arms open laterally -> return to neutral by 6 seconds",
     "controls": "CTRL_VIDEO6_DRIVER drives hand targets and elbow poles; foot IK remains planted",
-    "camera": "CAM_Video6 — 65 mm low frontal perspective, vertical sensor fit, portrait 2:3 render",
+    "camera": "CAM_Video6 — low frontal 65 mm perspective; camera at y=-6.3; vertical sensor fit; 2:3 render",
     "evidence_limit": "single generated frontal view; no calibrated camera, depth, or physical motion-capture markers; frame-shape flicker treated as generated-image noise"
   }
 }

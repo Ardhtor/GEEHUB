@@ -252,3 +252,8 @@ The hotel novel's central mechanism is now explicit. Joey is the devilish author
 The [Tractus Story Learning Engine](../docs/TRACTUS_STORY_LEARNING_ENGINE.md) now specifies interleaved composition: read the active passage and relevant records, write a small continuation, reread it in context, compare it with source state, revise, and continue. This is a live editorial loop rather than a claim of autonomous background execution.
 
 [The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md), Chapter XXV, demonstrates the method. Andrew's established baseball discipline and eccentric associative thinking are read from his character record and expressed through a field recording session. The field, gate, glove, and new recording become linked state; the scene does not replace his character record with a one-scene personality summary.
+
+
+## The Second Sounding — Chapter XXVI
+
+[The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md), Chapter XXVI, returns Joseph and Andrew to the baseball field at dusk. The second visit tests the gate and glove recordings under changed conditions. Joseph initiates the return; Andrew learns to leave a possible suggestion open until invited. Both glove takes are preserved, and the new mix is saved as SECOND_SOUNDING_01 alongside BETWEEN_TRACKS_03. The field remains a baseball field, not a converted studio. The latch sound is left as an open thread. The learning pass is recorded in the [Story Learning Engine](../docs/TRACTUS_STORY_LEARNING_ENGINE.md).

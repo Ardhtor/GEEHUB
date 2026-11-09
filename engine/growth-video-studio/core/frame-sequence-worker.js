@@ -5,6 +5,7 @@ import path from "node:path";
 import { resolveDropboxUri } from "./bridge-exchange.js";
 import { validateFrameSequencePackage } from "./frame-sequence.js";
 import { decodeBinaryMaskPng } from "./mask-pixels.js";
+import { buildStableMaskMesh } from "./mask-mesh.js";
 
 const within = (root, target) => {
   const relative = path.relative(root, target);
@@ -47,7 +48,7 @@ function countOverlap(first, second) {
  * A disjoint pair proves only that the supplied masks do not overlap. It does
  * not independently prove that the upstream model segmented the right anatomy.
  */
-export async function inspectFrameSequenceFiles(sequence, { dropboxRoot } = {}) {
+export async function inspectFrameSequenceFiles(sequence, { dropboxRoot, meshOptions } = {}) {
   const validation = validateFrameSequencePackage(sequence);
   const errors = [...validation.errors];
   const verifiedMasks = [];
@@ -62,6 +63,9 @@ export async function inspectFrameSequenceFiles(sequence, { dropboxRoot } = {}) 
       pixelDataVerified: false,
       faceExclusionVerified: false,
       pixelSemanticsVerified: false,
+      meshReady: false,
+      maskMesh: null,
+      geometryErrors: [],
       errors
     };
   }
@@ -163,6 +167,27 @@ export async function inspectFrameSequenceFiles(sequence, { dropboxRoot } = {}) 
     !errors.some(error => error.code === "mask-empty");
   const readyForGeometry = validation.structurallyReady &&
     errors.length === 0 && pixelDataVerified && faceExclusionVerified;
+  let maskMesh = null;
+  const geometryErrors = [];
+  if (readyForGeometry) {
+    try {
+      maskMesh = buildStableMaskMesh(sequence.frames.map(frame => {
+        const pair = decodedByFrame.get(frame.frame);
+        return {
+          frame: frame.frame,
+          timeSeconds: frame.timeSeconds,
+          bodyMask: pair.body,
+          faceMask: pair.face
+        };
+      }), meshOptions);
+    } catch (error) {
+      geometryErrors.push({
+        code: error.code || "mask-mesh-build-failed",
+        detail: error.message
+      });
+    }
+  }
+  const meshReady = maskMesh?.status === "ready";
 
   return {
     schema: "geehub.frame-sequence-audit.v1",
@@ -184,6 +209,9 @@ export async function inspectFrameSequenceFiles(sequence, { dropboxRoot } = {}) 
     pixelDataVerified,
     faceExclusionVerified,
     pixelSemanticsVerified: false,
+    meshReady,
+    maskMesh,
+    geometryErrors,
     errors,
     note: "Actual grayscale mask pixels are decoded, required to be binary and non-empty, and body/face masks are checked for overlap. Disjointness does not prove that the upstream model segmented the correct anatomy; semantic correctness remains unverified. No image pixels are altered."
   };

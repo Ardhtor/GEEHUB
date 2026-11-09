@@ -45,3 +45,10 @@ The Cabin should continue the language experiment only when a phrase changes thr
 ## Production note
 
 These chapters and records were written into the GitHub repository during this pass. They are source documents, not Dropbox-synced copies. No claim is made that the DeviantArt page was scraped, that remote social accounts were connected, or that a public GEEHUB site is deployed.
+
+
+## Additional continuity files
+
+The post-book domestic cycle continues through [Episode VIII — The Grounds Beyond the Workshop](THE_GOD_DADDIES_AFTER_THE_ROAD.md). The family moves from household production to a measured estate survey, without pretending that the future buildings are already constructed.
+
+The Tractus's second artifact cabinet is recorded in [The Artifact Chronicles — Second Cabinet](../lore/TRACTUS_ARTIFACT_CHRONICLES_II.md). Its scenes return to the report, seed, song, beam, test frame, and copied route, showing how new evidence changes an object's use without overwriting its earlier state.

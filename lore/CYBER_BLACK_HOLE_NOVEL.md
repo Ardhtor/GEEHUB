@@ -837,3 +837,60 @@ The record was updated with the second sounding, the altered gate, the two retai
 When they left, Andrew locked the gate and checked it once. Joseph captured the latch settling into place. He did not add it to the track yet.
 
 Some sounds could wait until the next time.
+
+
+### Chapter Twenty-Seven — The Moonlit Pitch
+
+The field was closed when they returned, but Andrew had a key for the equipment gate and permission to collect the practice gear. Joseph came with him, carrying the recorder. Joey was already waiting beyond the dugout.
+
+Andrew knew him by sight, but had never watched him throw. Joey stood in the moonlight in gray shorts, his shoulders broad and his arms held loosely at his sides. The night made the proportions difficult to judge. The outfield lamps were off; the moon supplied a pale edge to his outline.
+
+“You said you wanted to see the field again,” Andrew said.
+
+Joey looked toward the mound. “I wanted to see what you call a good pitch.”
+
+Andrew smiled and took the ball. He warmed his shoulder, set his feet, and sent a fast, clean throw toward the catcher's mitt Joseph had placed near the plate. The ball struck the pocket with a sharp report. Andrew's movement was compact and practiced. He did not need to announce what he could do.
+
+Joey watched the ball settle.
+
+“That's a good pitch.”
+
+“Your turn.”
+
+Joey stepped into the moonlight. At first the change was slight: the upper arms thickened beneath the skin, then the shoulders widened as if a deeper structure were unfolding beneath them. The biceps rose in dense, rounded mass. His forearms grew heavier, the tendons and joints remaining legible beneath the expanding muscle. The change traveled through both arms in measured stages, not as a sudden costume or a trick of shadow. His gray shorts and familiar human face remained the same. The field, the mound, and the catcher's mitt supplied the scale.
+
+Andrew stopped smiling for a moment. He looked from Joey's arms to the mitt, then back again.
+
+Joey did not crowd him. He let the transformation finish beneath the moon. The great arms hung at his sides with controlled weight, balanced by the rest of his body. He flexed one hand, opened it, and rolled the shoulder once. The movement sent a quiet pressure through the night air.
+
+“Now?” Joey asked.
+
+Andrew handed him the ball.
+
+Joey took the mound. His first motion was almost restrained. He set his feet, drew the enlarged arm back, and released. The ball crossed the plate with a hard, rising rush and struck the mitt so forcefully that it shifted backward against the fence. The sound arrived a fraction after the ball.
+
+Andrew walked to inspect it. The mitt had held, but its straps had tightened against the frame.
+
+He looked at Joey. “That had more behind it than mine.”
+
+“More arm,” Joey said. “Not more control.”
+
+Andrew turned the ball in his hand. He was not embarrassed. He was interested. He asked Joey to repeat the pitch at half effort, then asked for a slower throw that would show how the new mass changed the release. Joey obliged. The second pitch was easier to read. The third showed that his size could produce speed, but that accuracy still required practice.
+
+Joseph recorded the impacts from behind the plate. The first pitch clipped the microphone with a low burst; the second gave a cleaner report. He saved both, but labelled the first as a scale reference rather than a sound to use in the song.
+
+Andrew placed the ball back in Joey's palm. “We'll have to work on your control.”
+
+Joey glanced at the enormous arm around it. “I was hoping you'd say that.”
+
+The moonlight held along the curve of his shoulders. Andrew stood beside him at the mound, no longer measuring himself against Joey's size. He was already thinking about drills: shorter distance, softer release, target work, then a full pitch only when the mitt and the field were ready. Joey's strength had changed the terms of the game, but it had not made the game unnecessary.
+
+The Archivist read Andrew's baseball record and Joey's Teal Titan continuity record before entering the event. Joey's arms had expanded into the established Stage Four direction; the scene did not invent a new identity or substitute scale for anatomy. Andrew's response followed his established pattern: surprise, then a practical test, then an invitation to train. The first pitch exceeded his in force and speed, while control remained an open skill rather than an automatic consequence of size.
+
+The new event was entered as MOONLIT_PITCH_01. The first impact was retained as a scale reference, the second as a control comparison. The mitt required inspection before another full-effort throw. The field remained Andrew's playing ground, but it had now witnessed Joey's power directly.
+
+Before they left, Andrew placed the ball on the bench and marked the date beside the little diamond. He added a third mark.
+
+Joseph asked what it meant.
+
+“Next time,” Andrew said, “we see if he can put it exactly where he wants.”

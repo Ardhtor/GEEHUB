@@ -6,7 +6,7 @@ on:
     paths:
       - "scripts/tractus_engine.py"
       - "scripts/tractus_memory.py"
-      - "scripts/test_tractus_*.py"
+      - "scripts/test_*.py"
       - "scripts/promote_canon_version.py"
       - "engine/tractus_science.py"
       - "engine/check_performance.py"

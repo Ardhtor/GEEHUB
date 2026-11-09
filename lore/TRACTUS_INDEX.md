@@ -157,3 +157,10 @@ The artifacts deliberately connect settings that might otherwise remain separate
 
 The artifacts are now active in [The Artifact Chronicles](TRACTUS_ARTIFACT_CHRONICLES.md). These scenes follow the Northgate key through a rainy shift, the Founders laundry token through another Tuesday, Rovan's late supper at Hrothgar, the Moon Temple bell delay, Orven's blue observation cards, the Cabin's unclaimed button and cloth, the silk sample's second life as a garment repair, and the empty place card's temporary journey from cabinet to hall. Each scene produces a concrete event and a continuity consequence. The objects are used by people who do not know they are making an archive; the archive preserves what their use changes.
 
+
+
+## The Men's Papers
+
+[The Men's Papers](TRACTUS_MENS_PAPERS.md) extends the artifact cabinet into private notebooks, inventories, correspondence, work orders, training margins, pocket maps, and institutional records. The chronicles follow Privathor's notebook, Lexor's inventory, Herbarius's garden correspondence, Brograntimax's Cabin repairs, Seth and Nick's training records, Dan Roman's pocket map, the coach's spare whistle, an unnamed letter from the upper room, and the repair yard's measuring cord. They preserve the distinction between what a character thinks, what he communicates, and what the archive is permitted to disclose.
+
+The document also establishes four fictional access categories for papers: public, shared, private, and restricted. These categories describe narrative custody and do not claim to implement repository access controls. Its closing continuity instructions carry earlier events forward: the key incident changes the porter crew's practice; the bridge report affects supply travel; the bell amendment is tested in fog; the Cabin letter remains unanswered until its sender chooses otherwise; and the repair-yard measurement informs later work.

@@ -49,10 +49,10 @@ class TractusScienceTests(unittest.TestCase):
         self.assertTrue(any("break cue" in error for error in validate_cue(cue)))
 
     def test_thread_requires_ladder_and_repair_flag(self):
-        thread = {"status": "open", "interval_days": 21, "interval_ladder": [1, 3, 7, 21],
+        thread = {"status": "open", "interval_days": 30, "interval_ladder": [1, 3, 7, 14, 30],
                   "retrieval_attempts": 2, "retrieval_failures": 2, "needs_repair": True}
         self.assertEqual(validate_thread(thread), [])
-        thread["interval_days"] = 30
+        thread["interval_days"] = 21
         self.assertTrue(any("interval_days" in error for error in validate_thread(thread)))
 
     def test_writer_requires_retrieval_and_one_addition(self):

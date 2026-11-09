@@ -37,6 +37,8 @@ jobs:
         run: |
           python -c "compile(open('scripts/tractus_engine.py', encoding='utf-8').read(), 'scripts/tractus_engine.py', 'exec')"
           python -c "compile(open('scripts/tractus_memory.py', encoding='utf-8').read(), 'scripts/tractus_memory.py', 'exec')"
+          python -c "compile(open('scripts/promote_canon_version.py', encoding='utf-8').read(), 'scripts/promote_canon_version.py', 'exec')"
+          python -m json.tool engine/schemas/innervation-cue-v2.schema.json > /dev/null
           python -m json.tool engine/campus-life.json > /dev/null
           python -m json.tool engine/tractus_narrative_queue.json > /dev/null
           python -m json.tool engine/retrieval_schedule.json > /dev/null

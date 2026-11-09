@@ -1,0 +1,36 @@
+{
+  "id": "activity-world-pulse-000222",
+  "created_at": "2026-11-09T17:02:25.625585+00:00",
+  "source": "tractus-world-engine",
+  "kind": "activity-event",
+  "title": "CEDAR HOUSE",
+  "content": "SETH: A line becomes visible between CEDAR HOUSE and CAT GARDENS. The archive names the relation \"GOOD LUCK HAS WHISKERS\".\n\nNICK: A cat crosses the garden path and settles in the last warm patch of sun; the city takes it as a small sign of good fortune. The current place remains visible; the route is open, but nobody has crossed it yet.",
+  "lineage": {
+    "event_id": "world-pulse-000222",
+    "event": {
+      "id": "world-pulse-000222",
+      "pulse": 222,
+      "time": "2026-11-09T17:02:25.625585+00:00",
+      "actor": "KIRK",
+      "world": "CEDAR HOUSE",
+      "region_id": "cedar-house",
+      "previous_region_id": "cedar-house",
+      "phase": "ROUTE_OPEN",
+      "source": "worlds/cedar-house/README.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between CEDAR HOUSE and CAT GARDENS. The archive names the relation \"GOOD LUCK HAS WHISKERS\".\n\nNICK: A cat crosses the garden path and settles in the last warm patch of sun; the city takes it as a small sign of good fortune. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "GOOD LUCK HAS WHISKERS",
+      "next_region": "cat-gardens",
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-09T17:02:25.625585+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
+    }
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue from this event's changed world state"
+}

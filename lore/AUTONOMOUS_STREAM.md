@@ -1677,3 +1677,11 @@ NICK: A detail returns in CEDAR HOUSE: Someone has set an extra place at the kit
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cedar-house/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 222 — ROUTE_OPEN / CEDAR HOUSE / 2026-11-09T17:02:25.625585+00:00
+
+SETH: A line becomes visible between CEDAR HOUSE and CAT GARDENS. The archive names the relation "GOOD LUCK HAS WHISKERS".
+
+NICK: A cat crosses the garden path and settles in the last warm patch of sun; the city takes it as a small sign of good fortune. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

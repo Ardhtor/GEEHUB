@@ -1186,3 +1186,132 @@ The rain continued. The men ate the remaining sandwiches. FIELD IN THE RAIN was 
 That evening Joey took the scuffed baseball from his jacket and placed it beside the piano. Andrew saw it and said nothing. The ball had come from the field, travelled to the kitchen, returned to the gym, and now rested beside the instrument that was learning its sound.
 
 It was no longer only a baseball. It was a small piece of the route between them.
+
+
+### Chapter Thirty-Four — The Lodge Beyond the Ridge
+
+The rain stopped two days later. The men drove beyond the city in two cars, taking the service road that climbed through pine and dark stone. Andrew had marked a level stretch of ground on Dan Roman's map. It lay below a ridge, beyond a stand of trees, with enough open distance for a long throw and enough room to turn a vehicle around without reversing down the slope.
+
+The first sight of the lodge changed the scale of the proposal. It stood farther up the mountain, a broad timber complex with galleries, covered walks, tall windows and a central court. Warm lights were still visible in the rooms although the afternoon had not yet ended. The great beams crossed above the entrance like the ribs of a ship. A fountain occupied the court, and a dark car stood beneath the covered drive.
+
+The Library image Twilight Mountain Lodge Estate had supplied the first impression: a large timber building, amber windows, a central courtyard, a fountain, a long dining room and several smaller lounges. It was not a photograph of this place. The men had found a real location within their fictional geography that carried some of the same qualities. The image remained a design reference; the lodge acquired its own name, its own map and its own practical problems.
+
+They called it Ridge House.
+
+The owner had agreed to let them inspect the grounds. He met them in the entrance hall, where the timber smelled faintly of cedar and the stone floor held the cool of the mountain. He showed them the dining room, the library, the covered terrace and the old service wing. The upper gallery looked down into the court. A broad staircase connected the public rooms to a quieter residential floor.
+
+Joey walked the whole circuit at ordinary scale. He stopped at the gallery rail and looked down at the fountain. He liked the sound of water under the roof. Joseph stood beside him, listening for the echo. Andrew and Tyler had gone outside to inspect the road and the lower field. Luke was measuring the distance between the lodge and the proposed training ground. Gabe had found the kitchen and was asking whether the old ovens still worked. Chase was photographing the timber joints.
+
+The place was not simply a building that could accommodate a giant. It had to work for the men who would use it when Joey was not present. The dining room needed enough tables for a group. The kitchen needed storage. The terrace needed shade. The service wing could hold equipment, cameras and repair materials. The lower field needed drainage and a clear boundary from the road.
+
+Andrew returned with a notebook. “The ground is good. It needs a receiving area and a proper surface.”
+
+“Storage first,” Tyler said. “Otherwise every session starts with carrying everything down the hill.”
+
+“Power and a dry camera position,” Chase added.
+
+Joseph had found a quiet corner beneath the gallery where the sound of the fountain became a steady low note. “And a room where we can listen back.”
+
+Gabe came out of the kitchen with a small plate of bread. “And somewhere to eat before anyone decides to throw a building.”
+
+Joey looked at the lower field through the windows. At full size he would rise beyond the gallery roof. The ridge would give him a clear horizon, but the lodge itself would remain a place for ordinary rooms, doors, cups, beds and conversation. He did not want every visit to become a performance.
+
+“We should keep the house at our scale,” he said. “The field can be made for mine.”
+
+Andrew considered the distinction and wrote it down. Ridge House would remain a shared residence and meeting place. The training ground would be a separate outdoor facility with its own structures, clearances and safety systems. A giant's dimensions would not become the measure of every room.
+
+They ate in the dining room before leaving. The bread was still warm. The owner brought soup, roast vegetables and a large dish of potatoes. Gabe asked for the recipe. Joseph recorded the fountain from the gallery. Luke made a rough plan of the grounds on the back of a receipt. Andrew folded his map and put it in his jacket.
+
+On the drive down, the lodge lights came on behind them. The road curved out of sight, but the place remained in their conversation. It had become a destination with a return route.
+
+
+### Chapter Thirty-Five — Five Changes, One Man
+
+The next practice began with the growth sequence on the gym's main display.
+
+Giant Growth Phases had five panels. The first showed the current form. The second widened the joints and shoulders. The third extended the limbs. The fourth integrated the chest, ribcage and core. The fifth established a new baseline in which the whole body had changed together. The lower studies gave particular attention to the neck, hands, hips, knees and feet. The image was a visual design reference, not a measurement chart, but it corrected a persistent mistake in the way people imagined growth: they noticed the chest first and forgot everything that had to support it.
+
+Andrew stood with his arms folded. “The order matters.”
+
+Joey looked at the final panel. “You think I skipped something?”
+
+“I think the picture is useful because it shows what has to keep up.”
+
+The group had brought the fixed camera, the low stand and the new target measurements. Joey would not be asked to reach a larger maximum. He was already thirty feet tall in his Stage Four form. The purpose of the session was to inspect how that form moved through intermediate changes and how the body held together under ordinary actions.
+
+The gym was quiet. The lockers along the back wall were old, with numbered doors and small vents. A long bench stood between two rows. The Library image Giant Bodybuilder in Gritty Locker Room had helped them choose the material character of the room: scuffed metal, hard light, tiled floor, a narrow bench and the close practical atmosphere of a place used every day. They did not copy its people or assign its depicted men to the story. They used the setting as a reminder that a transformation has to return somewhere afterward.
+
+Joey set his clothes and towel on the bench. He checked the camera marks, then stood on the floor reference. The first pass was his ordinary presentation. The second widened his shoulders and joints. The third extended the arms and legs together, with hands and feet following the change. The fourth deepened the torso and integrated the larger frame. The final hold returned him to the thirty-foot Stage Four form already established in the story.
+
+They watched each pass before continuing. The first attempt at the third stage made the hands too small. Joey noticed it before Andrew did. They rejected the take and repeated it. The second attempt preserved the palms, fingers and wrist proportions. At the fourth stage the neck needed more support and the transition from shoulder to upper arm was too abrupt. They held there, corrected the shape, and ran the pass again.
+
+No one applauded the corrections. They were simply part of the work.
+
+The final image showed Joey standing in the same place, with the same camera and the same floor marks, but the gym seemed much smaller around him. His face remained recognizably his. The neck, shoulders, arms, hands, chest, hips, legs and feet had developed as one connected structure. The skin retained its surface detail. The blue-green tone had deepened gradually rather than appearing as a flat colour layer. The shorts and floor contact remained stable.
+
+Andrew asked him to walk three steps, stop, turn and sit on the reinforced bench. The bench held. Joey rose without using his hands. He opened and closed his fingers, then rolled his shoulders. The movement looked heavy, but it was controlled.
+
+“That is a better result,” Andrew said.
+
+Joey glanced at the display. “Because it is bigger?”
+
+“Because it works.”
+
+The growth sequence had not replaced Joey's established Stage Four state or advanced him to a new canonical stage. It had given the group a more exact vocabulary for inspecting the stages that led into it. They saved the corrected passes beside the rejected attempts, with the reason for each correction attached.
+
+After the session, Joey sat in the locker room with a towel over his shoulders. The bench was no longer large enough to make him comfortable in full form, so he returned to ordinary scale before sitting. Andrew brought him a bottle of water. The two of them watched the final playback on a small monitor.
+
+The screen showed a man becoming enormous. The room around the screen showed two friends reviewing a result, finding a flaw, and deciding what to do next.
+
+Joey preferred the second picture.
+
+
+### Chapter Thirty-Six — The Fist Bump
+
+Marcus arrived at the gym late in the afternoon. He had come from Gold's on 5th, where a new display had drawn a crowd around the entrance. He wore a dark polo and carried a gym bag over one shoulder. His teal-titan presence was familiar to the men, but he did not arrive as a spectacle. He asked whether the coffee machine still worked.
+
+Andrew pointed toward the back room. “It works if you know what you're doing.”
+
+Marcus looked at the machine. “Then I'm in trouble.”
+
+Joey laughed and moved aside to let him through. The two men greeted each other with a firm clasp that turned into a fist bump. It was a small gesture, but their enlarged forearms made it look like a meeting of two heavy pieces of equipment. Both smiled. Neither needed to prove anything.
+
+The Library image Colossal Gym Titans' Friendly Fist Bump had become the visual reference for the encounter: two enormous men, one in a dark polo and one in a patterned blue shirt, meeting at the hand in a bright gym. The story did not assign the depicted faces to Joey or Marcus. It borrowed the scale of the gesture and its uncomplicated friendliness.
+
+Marcus asked to see the new growth sequence. Joey showed him the five panels and the corrected passes. Marcus studied the transition through the shoulders and hands, then pointed to the feet in the final panel.
+
+“People always crop those out.”
+
+“They're difficult to fit in a portrait,” Chase said.
+
+“They're difficult to replace if you get them wrong,” Andrew replied.
+
+Marcus agreed. He had learned to judge a large body by the way it occupied the ground. A broad shoulder could fill a photograph, but balance showed itself at the ankle, in the pressure through the foot and in the way the hips carried the upper body. He walked around the monitor and asked Joey to repeat the three-step test.
+
+Joey did. He rose, stepped forward, turned and stopped. The floor made a low sound beneath him. Marcus watched the movement without speaking, then asked him to repeat it at a slower pace. The second pass was cleaner. Andrew made a note. Joey looked at him.
+
+“Don't write down every time I get something right.”
+
+“I write down the things we need to repeat.”
+
+“That sounds worse.”
+
+“It is more useful.”
+
+The men moved into the locker room. Marcus had brought a box of pastries from the bakery near Gold's. Gabe arrived with sandwiches. The group sat along the benches and talked about the mountain lodge, the open training ground and the prospect of spending a weekend away from the city. Luke wanted to inspect the ridge again. Tyler wanted a materials list. Chase wanted to test the camera platform before anyone used the field. Joseph wanted to record the lodge fountain at night.
+
+Marcus suggested that the first gathering should be ordinary. No public exhibition, no crowd, no attempt to make the whole place respond to Joey's size. They could eat, walk the grounds, inspect the rooms and decide whether the site was worth developing.
+
+Joey liked that. He had spent enough time being treated as the event. He wanted to arrive somewhere and have a room waiting, a meal being made, and a place to put his bag.
+
+The group returned to the main gym floor. Marcus and Joey stood beneath the high windows. Their forms expanded in separate, deliberate progressions. The two giants were not identical. Marcus carried a different outline through the shoulders and torso, and his face remained distinct. Joey's blue-green tone and established proportions remained his own. They stood side by side without merging into one design.
+
+Marcus held out his fist. Joey met it. The contact was gentle. The sound was a low, brief thump that Joseph recorded from the far side of the room.
+
+“Keep that,” Marcus said.
+
+Joseph saved it as FRIENDLY_CONTACT_01. He did not add music. The sound had enough character on its own.
+
+When the men left, Marcus took his bag and the empty pastry box. Joey returned to the locker room to collect his towel. Andrew checked the bench and floor. Nothing had broken. The room looked much as it had before, except for the small mark left by the camera stand and the new recording in Joseph's folder.
+
+The next meeting would be at Ridge House. The men had a place to visit, a sequence to review, and a sound that belonged to the moment when two enormous friends greeted one another without ceremony.

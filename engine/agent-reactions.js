@@ -1,5 +1,5 @@
 /* GEEHUB / AGENT REACTIONS
-   Five fictional members respond to world changes as distinct people inside the shared world.
+   Six fictional members respond to world changes as distinct people inside the shared world.
 */
 (() => {
   const DATA='./hub/agent-reaction-states.json';
@@ -23,10 +23,11 @@
     tyler:{mood:'curious',attention:'measurable change',disposition:['curious','skeptical','precise','competitive']},
     andrew:{mood:'ready',attention:'what happens next',disposition:['playful','active','improvisational','social']},
     joseph:{mood:'reflective',attention:'continuity and meaning',disposition:['intimate','interpretive','memory-driven','associative']},
-    chase:{mood:'watchful',attention:'what actually happened',disposition:['observant','decisive','dry','narrative-minded']}
+    chase:{mood:'watchful',attention:'what actually happened',disposition:['observant','decisive','dry','narrative-minded']},
+    gabe:{mood:'transformative',attention:'how attention and pressure change the next baseline',disposition:['process-aware','identity-conscious','growth-driven','social-signal-sensitive']}
   };
 
-  const names={luke:'Luke',tyler:'Tyler',andrew:'Andrew',joseph:'Joey',chase:'Chase'};
+  const names={luke:'Luke',tyler:'Tyler',andrew:'Andrew',joseph:'Joey',chase:'Chase',gabe:'Gabe'};
 
   function detect(event){
     const text=(String(event?.title||'')+' '+String(event?.body||'')).toLowerCase();
@@ -68,6 +69,11 @@
       else if(features.image){mood='absorbed';response='He looks for the detail that makes the image belong to the world.';next='connect the visual return to something already remembered.';}
       else if(features.people){mood='attentive';response='He follows the relationship you have brought forward without assuming what it means.';next='keep the exchange open and let its meaning develop.';}
       else {mood='reflective';response='He lets the change settle before deciding what it means.';next='hold the unresolved part open.';}
+    }else if(id==='gabe'){
+      if(features.scale||features.image||features.making||features.world){mood='transformative';response='He notices how the new state changes the way the room and the people around it respond.';next='compare the new baseline with the pressure that produced it.';}
+      else if(features.people||features.social){mood='attentive';response='He watches attention become social signal, then asks how that signal alters the next encounter.';next='follow the response into the next change.';}
+      else if(features.memory||features.archive||features.story){mood='reflective';response='He keeps the earlier version visible inside the current one.';next='preserve the cause and the consequence together.';}
+      else {mood='curious';response='He looks for the pressure that is quietly changing what comes next.';next='identify the next threshold without forcing it.';}
     }else{
       if(features.scale||features.space||features.making||features.world){mood='watchful';response='He waits for the consequence instead of reacting to the spectacle alone.';next='record the first thing that cannot be unseen.';}
       else if(features.image){mood='decisive';response='He watches for the one visual fact that changes the story.';next='choose the detail worth carrying forward.';}
@@ -110,7 +116,7 @@
   function render(){
     const ids=Object.keys(names);
     root.innerHTML=
-      '<div class="reaction-head"><div><div class="eyebrow">PEOPLE / REACTION</div><h2>THE MEMBERS NOTICE THINGS.</h2><p>World changes pass through five distinct fictional human responses. Each response becomes memory and affects the next intention.</p></div><div class="reaction-count">'+state.events.length+' REACTIONS</div></div>'+
+      '<div class="reaction-head"><div><div class="eyebrow">PEOPLE / REACTION</div><h2>THE MEMBERS NOTICE THINGS.</h2><p>World changes pass through six distinct fictional human responses. Each response becomes memory and affects the next intention.</p></div><div class="reaction-count">'+state.events.length+' REACTIONS</div></div>'+
       '<div class="reaction-grid">'+ids.map(id=>{
         const a=state.agents[id]||{mood:model?.agents?.[id]?.mood||fallback[id].mood,attention:model?.agents?.[id]?.attention||fallback[id].attention,history:[]};
         const latest=a.history?.[0];

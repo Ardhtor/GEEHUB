@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00185",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00185.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "FOUNDERS DORMITORY → CAT GARDENS / CHASE",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00185. Travel from FOUNDERS DORMITORY into CAT GARDENS through the relation \"THE DORM GARDEN PATH\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 14.30× to 14.34× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-09T17:35:05.586Z",
+      "lineage": {
+        "from": "founders-dormitory",
+        "to": "cat-gardens",
+        "relation": "THE DORM GARDEN PATH",
+        "cycle": 185
+      }
+    },
+    {
       "id": "scheduled-image-00184",
       "status": "QUEUED",
       "type": "IMAGE",

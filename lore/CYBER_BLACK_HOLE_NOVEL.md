@@ -798,3 +798,42 @@ The Archivist linked the new recording to Andrew's character record, the field, 
 On the walk back, Andrew stopped to retrieve the ball from the grass. Joseph had already started thinking about a second recording: the same gate at dusk, the same fence after rain, the same glove in a different hand.
 
 The field had not become a studio. It remained a place where Andrew played. The music had entered it briefly, and now the next visit would have something to compare.
+
+
+### Chapter Twenty-Six — The Second Sounding
+
+Joseph returned to the field three evenings later. This time Andrew had not arranged the visit. Joseph sent a message asking whether the gate would still make the same sound after rain.
+
+Andrew answered with a photograph of the sky above the outfield. No words. The clouds were low, and the light had begun to turn the fence into a dark line.
+
+Joseph brought the recorder, headphones, and the unfinished track. Andrew brought the glove and two balls. He had already checked that the groundskeeper would be finished before they began. The field was not theirs, and Andrew had learned from the first visit to ask before treating a place as a studio.
+
+The gate sounded different. Its hinge-note was lower, and the latch gave a small click after the metal settled. Joseph recorded three openings. Andrew stood several steps away and listened with his eyes half closed, counting the interval between the gate and the latch.
+
+“Last time you put the gate before the piano,” Andrew said. “Tonight the click should come after it.”
+
+Joseph tried the sequence. The piano phrase began, the gate opened beneath it, and the latch answered at the end. The sound made the music seem to arrive somewhere rather than simply begin.
+
+Andrew threw one ball softly against the fence. The first impact was dull from the damp air. The second struck a post and gave a narrow ring. He stopped after that. Joseph had the sound he needed; another repetition would only make the field perform for them.
+
+They listened to the earlier glove recording. It was close and dry, almost domestic. The new fence sound was distant and exposed. Joseph moved it behind the glove, then lowered it until it could be felt more than heard. The track gained a second space: the room above the shop remained intimate, while the field opened behind it.
+
+Andrew watched Joseph work without filling the silence. Once, he reached toward the recorder as if to suggest another take, then lowered his hand. Joseph noticed. He asked whether Andrew had an idea.
+
+“Maybe. But I don't know if you need it.”
+
+That answer stayed with Joseph longer than the proposed sound might have. He saved the current mix before trying anything else. Then he asked Andrew to tap the glove once, slowly, with the ball resting inside it. The sound was softer than the earlier catch. It carried the weight of a hand waiting rather than receiving.
+
+They kept both versions. The first glove tap remained in BETWEEN_TRACKS_03. The new one entered a working copy called SECOND_SOUNDING_01. Neither replaced the other.
+
+On the bench, Andrew drew the little diamond again, then added a second mark beside it. Joseph asked what had changed.
+
+“First one says we can come back. This one says we did.”
+
+The Archivist read the previous chapter before recording the new event. The field had already been established as a recurring place, the gate as a musical bridge, and Andrew's method as repeated comparison. The second visit did not need to rediscover those facts. It tested them under changed conditions: evening instead of morning, damp metal instead of dry, Joseph initiating the visit, Andrew allowing a suggestion to remain unspoken until invited.
+
+The record was updated with the second sounding, the altered gate, the two retained glove takes, and the new working mix. The earlier recording remained intact. The field now had a small history of its own, but it was still a baseball field first.
+
+When they left, Andrew locked the gate and checked it once. Joseph captured the latch settling into place. He did not add it to the track yet.
+
+Some sounds could wait until the next time.

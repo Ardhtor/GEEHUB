@@ -22,7 +22,7 @@ The current version ledger begins empty because the repository did not contain e
 
 The six-hour workflow trigger is not permission to write. The writer first recalls from the prior retrieval snapshot, without opening canon. It then checks the recall against the source corpus. The first bootstrap pass only creates a retrieval snapshot and cannot write narrative.
 
-The interval ladder is `1 → 3 → 7 → 21 days`. One oldest-due open thread is selected per cycle; ties prefer the thread with fewer successful recalls. A recall score of at least 0.8 advances one interval. A score below 0.8 holds the current interval. Two consecutive failures reset the interval to one day and set `needs_repair`. A score below 0.8 cannot produce a canon addition. A successful recall without prediction error may update retrieval state but does not change canon.
+The interval ladder is `1 → 3 → 7 → 21 days`. One oldest-due open thread is selected per cycle; ties prefer the thread with fewer successful recalls. A recall score of at least 0.5 advances one interval. A score below 0.5 holds the current interval. Two consecutive failures reset the interval to one day and set `needs_repair`. A score below 0.5 cannot produce a canon addition. A successful recall without prediction error may update retrieval state but does not change canon.
 
 ## Innervation cues
 

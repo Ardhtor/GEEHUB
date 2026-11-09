@@ -62,7 +62,8 @@ MAX_CHAPTER_CHARS = 55_000
 API_URL = "https://api.openai.com/v1/responses"
 SCHEDULE_PATH = ROOT / "engine/retrieval_schedule.json"
 RETRIEVAL_STATE_PATH = ROOT / "engine/retrieval_state.json"
-REVISION_LOG = ROOT / "engine/canon_versions.jsonl"
+REVISION_LOG = ROOT / "engine/revision_history.jsonl"
+CANON_VERSIONS_LOG = ROOT / "engine/canon_versions.jsonl"
 ACTIVITY_LOG = ROOT / "engine/activity.jsonl"
 
 
@@ -266,8 +267,8 @@ important scene must alter a state, relationship, route, object, or open thread.
 
 Return JSON with: skip (boolean), reason (string), retrieval_score (0..1),
 verified_retrieval_snapshot (array of exactly three objects), surprise (object
-with expected, observed, prediction_error, update_reason), and, only when not
-skipping, path, title, chapter. Do not include a surprise object with empty
+with expected, observed, prediction_error, prediction_error_type, severity,
+update_reason, what_remains), and, only when not skipping, path, title, chapter. Do not include a surprise object with empty
 prediction_error. No prediction error means skip=true.
 """
     user_text = (
@@ -351,11 +352,33 @@ prediction_error. No prediction error means skip=true.
     surprise = result.get("surprise")
     if not isinstance(surprise, dict):
         fail("Canon update requires a structured surprise object.")
-    required_surprise = ("expected", "observed", "prediction_error", "update_reason")
+    required_surprise = ("expected", "observed", "prediction_error", "prediction_error_type", "severity", "update_reason", "what_remains")
     if any(not isinstance(surprise.get(key), str) or len(surprise[key].strip()) < 12 for key in required_surprise):
         fail("Surprise object requires concrete expected, observed, prediction_error, and update_reason fields.")
     if surprise["prediction_error"].strip().casefold() in {"none", "n/a", "no surprise", "unknown"}:
         fail("No prediction error: canon update rejected.")
+
+    versions = read_jsonl(CANON_VERSIONS_LOG)
+    prior_version = next((item for item in reversed(versions)
+                          if item.get("entity") == relative), None)
+    if not prior_version or prior_version.get("status") != "canon":
+        event_id = "tractus-observation-" + hashlib.sha256(retrieval["retrieval_id"].encode()).hexdigest()[:16]
+        inscribe_event({
+            "id": event_id, "at": iso_utc(now), "type": "OBSERVATION",
+            "title": "Tractus update held for canon baseline review",
+            "description": "A prediction error was found, but this destination has no proven prior canon version. No canon text was changed.",
+            "thread_id": retrieval["thread_id"], "retrieval_id": retrieval["retrieval_id"],
+            "retrieval_score": score, "action": "Await an explicit, evidence-backed canon baseline or promotion event."
+        }, source="scripts/tractus_engine.py")
+        if dry_run:
+            print("TRACTUS ENGINE DRY RUN: prediction error found; no proven canon baseline; no canon write.")
+            return
+        SCHEDULE_PATH.write_text(json.dumps(updated_schedule, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        RETRIEVAL_STATE_PATH.write_text(json.dumps(updated_state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        commit_changes("Tractus: hold update pending canon baseline")
+        print("TRACTUS ENGINE: observation recorded; canon update held because no proven prior version exists.")
+        return
+    prior_version_id = prior_version["canon_version_id"]
 
     target = ROOT / relative
     existing = target.read_text(encoding="utf-8")
@@ -386,17 +409,43 @@ prediction_error. No prediction error means skip=true.
     ).hexdigest()[:20]
     event_id = "tractus-event-" + hashlib.sha256(revision_id.encode("utf-8")).hexdigest()[:16]
     revision_records = read_jsonl(REVISION_LOG)
+    canon_version_id = "canon-" + hashlib.sha256(
+        (relative + retrieval["retrieval_id"] + result_sha).encode("utf-8")
+    ).hexdigest()[:20]
     event = {
-        "id": event_id, "at": iso_utc(now), "type": "CANON_REVISION",
-        "title": title, "description": surprise["update_reason"],
-        "canon_path": relative, "revision_id": revision_id,
-        "retrieval_id": retrieval["retrieval_id"], "action": "Append a versioned canon passage."
+        "event_id": event_id,
+        "timestamp": iso_utc(now),
+        "type": "canon_update",
+        "prior_version_id": prior_version_id,
+        "prediction": {"expected": surprise["expected"]},
+        "observation": {"happened": surprise["observed"], "evidence_event_ids": [event_id]},
+        "prediction_error": {
+            "present": True,
+            "type": surprise["prediction_error_type"],
+            "severity": surprise["severity"],
+        },
+        "change": {
+            "what_changed": surprise["update_reason"],
+            "what_remains": surprise["what_remains"],
+            "canon_version_id": canon_version_id,
+        },
+        "provenance": {"author": "tractus_writer", "model": model, "human_reviewed": False},
+        "title": title,
+        "description": surprise["update_reason"],
+        "canon_path": relative,
+        "revision_id": revision_id,
+        "retrieval_id": retrieval["retrieval_id"],
+        "action": "Append a versioned canon passage.",
     }
-    inscribe_event(event, source="scripts/tractus_engine.py")
+    from inscription import inscribe
+    inscribed = inscribe(event, source="scripts/tractus_engine.py")
+    if inscribed.get("type") != "canon_update":
+        fail("Canon event failed validation and was downgraded; manuscript write aborted.")
     append_jsonl(REVISION_LOG, {
         "revision_id": revision_id,
         "parent_revision_id": parent_revision(revision_records, relative),
         "canon_path": relative,
+        "prior_version_id": prior_version_id,
         "prior_sha256": prior_sha,
         "result_sha256": result_sha,
         "retrieval_id": retrieval["retrieval_id"],
@@ -408,6 +457,25 @@ prediction_error. No prediction error means skip=true.
         "created_at": iso_utc(now),
         "status": "CANON_REVISION",
     })
+    for version in versions:
+        if version.get("canon_version_id") == prior_version_id:
+            version["status"] = "superseded"
+            version["superseded_by"] = canon_version_id
+    versions.append({
+        "canon_version_id": canon_version_id,
+        "entity": relative,
+        "prior_version_id": prior_version_id,
+        "created_by_event_id": event_id,
+        "created_at": iso_utc(now),
+        "claim": surprise["update_reason"],
+        "what_remains": surprise["what_remains"],
+        "status": "canon",
+        "superseded_by": None,
+    })
+    CANON_VERSIONS_LOG.write_text(
+        "".join(json.dumps(item, ensure_ascii=False, separators=(",", ":")) + "\n" for item in versions),
+        encoding="utf-8",
+    )
     updated_thread["last_revision_id"] = revision_id
     updated_thread["last_written_at"] = iso_utc(now)
     updated_schedule["threads"] = [

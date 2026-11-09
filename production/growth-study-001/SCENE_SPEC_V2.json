@@ -1,6 +1,6 @@
 {
   "project": "GEEHUB Growth Study 001",
-  "version": 2.2,
+  "version": 2.3,
   "status": {
     "source_script": "created",
     "python_syntax_check": "appendage_rig_section_passed_full_script_not_recompiled",
@@ -42,7 +42,8 @@
       "no corrective shapes or muscle sliding",
       "digit meshes are separate replaceable geometry with two-segment weights, but bending poses and joint volume preservation remain unvalidated",
       "hidden source anatomy modules are preserved for replacement, but require visibility/export workflow validation",
-      "facial performance is not implemented"
+      "facial performance is not implemented",
+      "run-away action is procedurally keyed but its gait axes, foot contact, and NLA blending require Blender visual validation"
     ],
     "appendage_system": {
       "collection": "APPENDAGE_DIGITS — replaceable geometry",
@@ -54,7 +55,7 @@
   },
   "timeline": {
     "frame_start": 1,
-    "frame_end": 108,
+    "frame_end": 208,
     "stages": [
       {
         "frame": 1,
@@ -76,7 +77,28 @@
         "name": "STAGE_03 — full study",
         "growth": 1
       }
-    ]
+    ],
+    "locomotion": {
+      "action": "RUN_AWAY — turn, gait, and retreat",
+      "track": "02_LOCOMOTION — run away",
+      "frames": {
+        "turn_start": 108,
+        "cycle_start": 112,
+        "end": 208
+      },
+      "cycle": {
+        "frames": 24,
+        "count": 4
+      },
+      "root_path": {
+        "direction": "world +Y, away from fixed camera",
+        "distance": 9,
+        "interpolation": "linear"
+      },
+      "animation": "alternating thigh drive, knee recovery, counter-swinging arms, torso rhythm, wrist/finger grip, toe articulation",
+      "independence": "separate NLA track from the growth-stage custom-property action",
+      "validation": "pending Blender execution, gait review, and ground-contact checks"
+    }
   },
   "lighting": {
     "key": "large warm softbox",
@@ -104,9 +126,11 @@
     ],
     "preview_frames": [
       1,
-      108
+      108,
+      208
     ],
-    "output_format": "PNG"
+    "output_format": "PNG",
+    "camera": "perspective 65 mm, calibrated to the prior orthographic starting composition; perspective recession used for run-away depth"
   },
   "research_principles": [
     {
@@ -126,11 +150,11 @@
     }
   ],
   "next_pass": [
-    "execute V2.2 in Blender and inspect rest and full-growth body surfaces",
-    "verify all 20 digit meshes are present, correctly mirrored, replaceable, and attached at wrist/foot margins",
-    "test every two-segment digit chain through neutral, curl, spread, and contact poses",
+    "execute V2.3 in Blender and verify both NLA tracks are present and independently editable",
+    "inspect the run-away turn, alternating gait, hand grip, toe motion, and nine-unit root path",
+    "verify the perspective camera preserves the starting composition and makes the figure visibly recede",
     "correct joint silhouette and nearest-bone deformation across shoulders, elbows, wrists, hips, knees, ankles, and digits",
-    "add corrective shapes and joint-volume preservation",
+    "add corrective shapes and foot-contact controls",
     "calibrate layered skin and cloth materials using rendered A/B tests",
     "validate hidden source-module visibility and replacement workflow",
     "add facial controls",

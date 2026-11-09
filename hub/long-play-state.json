@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 181,
-  "currentAgent": "luke",
-  "currentRegion": "lantern-market",
-  "scale": 14.05,
-  "lastRun": "2026-11-08T20:42:32.614Z",
+  "cycle": 182,
+  "currentAgent": "tyler",
+  "currentRegion": "bluewater-quay",
+  "scale": 14.1,
+  "lastRun": "2026-11-09T00:06:48.160Z",
   "history": [
+    {
+      "cycle": 182,
+      "agent": "tyler",
+      "previousRegion": "lantern-market",
+      "region": "bluewater-quay",
+      "relation": "THE WATER OPENS THE VIEW",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 14.05,
+      "scale": 14.1,
+      "recording": "scheduled-recording-00182",
+      "at": "2026-11-09T00:06:48.160Z"
+    },
     {
       "cycle": 181,
       "agent": "luke",
@@ -1197,21 +1209,9 @@
       "scale": 7.78,
       "recording": "scheduled-recording-00083",
       "at": "2026-10-20T22:41:41.989Z"
-    },
-    {
-      "cycle": 82,
-      "agent": "tyler",
-      "previousRegion": "male-harem",
-      "region": "colossal-escalation",
-      "relation": "MASS WITHOUT AMNESIA",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 7.65,
-      "scale": 7.7,
-      "recording": "scheduled-recording-00082",
-      "at": "2026-10-20T19:31:19.567Z"
     }
   ],
-  "previousRegion": "bluewater-quay",
+  "previousRegion": "lantern-market",
   "relation": "THE WATER OPENS THE VIEW",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
@@ -1234,7 +1234,7 @@
     "cat-gardens": 2,
     "founders-dormitory": 2,
     "northgate-university": 3,
-    "bluewater-quay": 2,
+    "bluewater-quay": 3,
     "lantern-market": 3,
     "northgate-library": 1,
     "athletic-commons": 1
@@ -1264,8 +1264,8 @@
     "cat-gardens": "2026-11-08T05:52:38.887925+00:00",
     "founders-dormitory": "2026-11-08T01:31:35.086079+00:00",
     "northgate-university": "2026-11-07T22:27:09.099305+00:00",
-    "bluewater-quay": "2026-11-08T18:23:15.933251+00:00",
-    "lantern-market": "2026-11-08T20:42:32.614Z",
+    "bluewater-quay": "2026-11-09T00:06:48.160Z",
+    "lantern-market": "2026-11-08T22:23:04.167714+00:00",
     "northgate-library": "2026-11-07T20:24:04.570776+00:00",
     "athletic-commons": "2026-11-07T22:26:58.685195+00:00"
   }

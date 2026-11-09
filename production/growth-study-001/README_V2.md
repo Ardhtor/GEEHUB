@@ -1,6 +1,6 @@
 # GEEHUB Growth Study 001 — V2.4 IK Rig, Video6 Pose Match, and Locomotion
 
-V2.3 builds on the first prototype's continuous anatomy and adds articulated appendages plus a separate run-away action: the body was made from separate ellipsoids. This pass fuses overlapping body volumes into one connected skin blockout, then assigns each remeshed vertex blended weights from its three nearest armature bone segments.
+V2.4 extends the continuous-surface anatomy blockout with replaceable appendage geometry, IK/FK control foundations, the RUN_AWAY locomotion action, and a separate pose-reconstruction scene driven by Library Video 6. The anatomy is still a procedural blockout: Blender must validate the blended weights, joint behavior, and rendered silhouette before the rig can be treated as production-ready.
 
 ## Files
 - `geehub_growth_study_v2.py` — V2 procedural Blender scene generator.
@@ -8,8 +8,8 @@ V2.3 builds on the first prototype's continuous anatomy and adds articulated app
 - `SCENE_SPEC_V2.json` — V2 scene and validation state.
 - `README_V2.md` — production notes.
 
-## What V2 changes
-The torso, pelvis, neck, head, pectoral masses, deltoids, biceps, triceps, forearms, hands, abdominal landmarks, obliques, thighs, quadriceps, calves, and feet are assembled from intersecting source volumes. Blender's voxel remesh converts them into one continuous surface. A light Smooth modifier relaxes the voxel surface. Vertex weights are then calculated from distance to armature bone segments, with each vertex blended across its three nearest deform bones. Hair, eyes, ears, and clothing remain separate replaceable objects. V2.2 preserves the named pre-fusion anatomy volumes in the hidden `SOURCE_ANATOMY_MODULES — replaceable kit` collection, so the connected render surface does not destroy the modular source assembly.
+## Anatomy and geometry
+The torso, pelvis, neck, head, pectoral masses, deltoids, biceps, triceps, forearms, hands, abdominal landmarks, obliques, thighs, quadriceps, calves, and feet are assembled from intersecting source volumes. Blender's voxel remesh converts them into one continuous surface. A light Smooth modifier relaxes the voxel surface. Vertex weights are then calculated from distance to armature bone segments, with each vertex blended across its three nearest deform bones. Hair, eyes, ears, and clothing remain separate replaceable objects. V2.4 preserves the named pre-fusion anatomy volumes in the hidden `SOURCE_ANATOMY_MODULES — replaceable kit` collection, so the connected render surface does not destroy the modular source assembly.
 
 The four growth stages and lighting/material setup remain. The optional atmosphere volume is independently switchable. V1 is retained as a fallback and comparison baseline.
 
@@ -41,7 +41,7 @@ The repository now includes a static Python source-validation workflow; no check
 This is a procedural blockout, not a finished anatomical character. Fusion removes gaps between anatomy volumes but does not provide muscle sliding, corrective shapes, detailed hands, facial performance, or production-quality topology. The nearest-bone weighting is a starting heuristic and must be inspected at shoulders, elbows, hips, and knees.
 
 ## Research connection
-- [Bedroom Growth Technical Study](https://www.patreon.com/hulumscave/posts/bedroom-growth-84293264): the creator described body movement experiments using pinning/locking body parts. V2 keeps anatomical regions and bone controls explicit for later constraint and corrective-shape tests.
+- [Bedroom Growth Technical Study](https://www.patreon.com/hulumscave/posts/bedroom-growth-84293264): the creator described body movement experiments using pinning/locking body parts. The build keeps anatomical regions and bone controls explicit for later constraint and corrective-shape tests.
 - [Atmosphere volume](https://www.patreon.com/hulumscave/posts/atmosphere-77922144): the creator described the realism benefit and render-time cost of atmosphere volume. This scene keeps atmosphere optional.
 - [Next Scene is built!](https://www.patreon.com/hulumscave/posts/next-scene-is-90663150): the creator described moving a devil and throne set into Maya ready for animation. The GEEHUB scene separates character, clothing, environment, and lighting for reuse.
 

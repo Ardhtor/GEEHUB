@@ -18,6 +18,8 @@
     {id:'x',label:'X / @CumPassionately',kind:'YOUR PRIMARY SIGNAL',url:'https://x.com/CumPassionately'},
     {id:'eric',label:'ERIC JANICKI / @ericjanickifitness',kind:'BODYBUILDING REFERENCE',url:'https://www.instagram.com/ericjanickifitness/'},
     {id:'youtube',label:'YOUTUBE / @GravesBroden',kind:'YOUR VIDEO ARCHIVE',url:'https://www.youtube.com/@GravesBroden'},
+    {id:'detdert',label:'DETDERT / YOUTUBE',kind:'FOLLOWED GAMING CREATOR · LEAGUE OF LEGENDS',url:'https://www.youtube.com/channel/UCd7Tlj816jyDB8ywfJ4Ie6w'},
+    {id:'mang0',label:'MANG0 / YOUTUBE',kind:'FOLLOWED GAMING CREATOR · SMASH / GAMING',url:'https://www.youtube.com/@mang0gobirds'},
     {id:'other',label:'OTHER SOURCE',kind:'ADDED POST BY POST',url:''}
   ];
   const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -40,7 +42,7 @@
       <nav class='social-sources' aria-label='Reference and posting sources'>
         <div class='social-sources-label'>SOURCES / OPEN A PROFILE OR SHARE A SPECIFIC POST</div>
         <div class='social-source-list'>${sources.map(s=>`<a class='social-source' href='${esc(s.url||'#')}' ${s.url?'target="_blank" rel="noopener noreferrer"':''}><strong>${esc(s.label)}</strong><span>${esc(s.kind)}</span></a>`).join('')}</div>
-        <p class='social-source-note'>X is the primary source. Eric Janicki is a bodybuilding and training reference. These links are not live account connections; paste a post link below to bring it into the room.</p>
+        <p class='social-source-note'>X is the primary source. Eric Janicki is a bodybuilding and training reference. Detdert and Mang0 are followed YouTube gaming sources. These links are not live account connections; paste a specific post or video link below to bring it into the room.</p>
       </nav>
       <form class='social-compose' id='socialCompose'>
         <textarea name="text" rows="2" maxlength="1200" placeholder="Write a post for the room…"></textarea>
@@ -77,11 +79,29 @@
         joseph:'The longer arc interests me: how one baseline becomes another, and which details make the development feel continuous.',
         chase:'I’ll archive the reference and separate visible details from interpretation. A pose can show proportion; it cannot tell us an entire training history.'
       };
+      const detdertReplies={
+        luke:'This belongs to the game-space. I’ll keep the actual match or clip in view rather than assume what happened from the channel name.',
+        tyler:'For a specific read, I want the sequence: pathing, timing, matchup, and decision. Share the clip and we can separate what is visible from what is inferred.',
+        andrew:'Bring the moment into the room. We can follow the play, the pressure around it, and what the rest of the group notices.',
+        joseph:'Competitive play carries memory—habits, rivalries, adaptation. I’ll keep this particular post attached to its own context.',
+        chase:'Detdert is recorded as a followed League of Legends source. I’ll keep the link intact and avoid inventing match details that are not in the post.'
+      };
+      const mang0Replies={
+        luke:'I’m keeping the play and the player in view together. The clip can be a moment of performance without becoming the whole story.',
+        tyler:'I want the actual exchange: spacing, timing, option choice, and execution. A specific clip gives us something concrete to examine.',
+        andrew:'This is one for the common room. Bring a match, set, or stream moment over and we can see what the group picks up.',
+        joseph:'There is a long memory in competitive play. I’ll keep the individual moment connected to its own history without pretending one clip tells all of it.',
+        chase:'Mang0 is recorded as a followed gaming source. I’ll preserve the source and distinguish observed gameplay from commentary or interpretation.'
+      };
       const replyText=source==='eric'
         ? ericReplies[member.id]
-        : source==='x'&&!text
-          ? 'I have the X link, but not the post text. I’ll keep it attached here; paste the words or a short excerpt when you want a response to its actual content.'
-          : member.reply({text,url,source});
+        : source==='detdert'
+          ? detdertReplies[member.id]
+          : source==='mang0'
+            ? mang0Replies[member.id]
+            : source==='x'&&!text
+              ? 'I have the X link, but not the post text. I’ll keep it attached here; paste the words or a short excerpt when you want a response to its actual content.'
+              : member.reply({text,url,source});
       const post={id:'post-'+Date.now(),author:'YOU',text,url,source,sourceName:sourceRef?.label||'OTHER SOURCE',at:Date.now(),reply:{agent:member.id,text:replyText}};
       posts.unshift(post);posts=posts.slice(0,40);
       localStorage.setItem(KEY,JSON.stringify(posts));

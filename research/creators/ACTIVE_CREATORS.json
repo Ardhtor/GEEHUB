@@ -111,5 +111,84 @@
     "first_seen": "2024-01-01",
     "last_verified": "2026-11-08",
     "notes": "Year-level first_seen is approximate and should be replaced when a dated primary source is found."
+  },
+  {
+    "id": "detdert",
+    "display_name": "Detdert",
+    "aliases": [
+      "detdert",
+      "Detdert"
+    ],
+    "status": "active",
+    "verification": "public-channel-identified",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "handle": "channel/UCd7Tlj816jyDB8ywfJ4Ie6w",
+        "url": "https://www.youtube.com/channel/UCd7Tlj816jyDB8ywfJ4Ie6w",
+        "notes": "User-followed channel. Public channel directory identifies the creator as a Danish Challenger jungler focused on League of Legends; individual video content should be checked at the post level."
+      }
+    ],
+    "sources": [
+      {
+        "type": "channel-directory",
+        "url": "https://www.letsplayindex.com/channels/2029285-detdert",
+        "accessed": "2026-11-09",
+        "notes": "Used to resolve the exact YouTube channel and its public League of Legends focus."
+      }
+    ],
+    "style_tags": [
+      "league-of-legends",
+      "jungler-gameplay",
+      "competitive-gaming",
+      "user-followed-source"
+    ],
+    "relationship_to_geehub": "User-followed YouTube source for occasional gaming posts and match/video references. Do not treat the channel as a GEEHUB fictional character or assume every upload is relevant to the project.",
+    "first_seen": "2026-11-09",
+    "last_verified": "2026-11-09",
+    "notes": "Exact channel identified by stable channel ID. Feed imports individual posts/videos by user-shared link; no automatic channel polling is configured."
+  },
+  {
+    "id": "mang0",
+    "display_name": "Mang0",
+    "aliases": [
+      "Mang0",
+      "mang0",
+      "Mang0GoBirds"
+    ],
+    "status": "active",
+    "verification": "public-channel-identified",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "handle": "@mang0gobirds",
+        "url": "https://www.youtube.com/@mang0gobirds",
+        "notes": "User-followed channel. Public channel directories and video metadata identify the channel with gaming content, including Super Smash Bros. Melee."
+      }
+    ],
+    "sources": [
+      {
+        "type": "channel-directory",
+        "url": "https://vidiq.com/youtube-stats/channel/UCJLpammGMzjc4A2RfBVMbOg/",
+        "accessed": "2026-11-09",
+        "notes": "Identifies the YouTube handle @mang0gobirds and a gaming channel."
+      },
+      {
+        "type": "channel-directory",
+        "url": "https://socialblade.com/youtube/handle/mang0gobirds",
+        "accessed": "2026-11-09",
+        "notes": "Confirms the public channel handle and channel metadata."
+      }
+    ],
+    "style_tags": [
+      "super-smash-bros-melee",
+      "competitive-gaming",
+      "gaming-streams",
+      "user-followed-source"
+    ],
+    "relationship_to_geehub": "User-followed YouTube source for occasional gaming videos and competitive-play references. Not a GEEHUB fictional character.",
+    "first_seen": "2026-11-09",
+    "last_verified": "2026-11-09",
+    "notes": "The matched channel handle is @mang0gobirds. Feed imports individual public posts/videos by user-shared link; no automatic channel polling is configured."
   }
 ]

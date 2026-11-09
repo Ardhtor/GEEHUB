@@ -1685,3 +1685,11 @@ SETH: A line becomes visible between CEDAR HOUSE and CAT GARDENS. The archive na
 NICK: A cat crosses the garden path and settles in the last warm patch of sun; the city takes it as a small sign of good fortune. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 223 — CROSSING / CAT GARDENS / 2026-11-09T17:07:59.172698+00:00
+
+NICK: The world crosses the route from CEDAR HOUSE into CAT GARDENS. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: Sheltered courtyards shared with resident cats; warm steps, water bowls, catmint, quiet benches, and a local sign of good luck. Relation carried forward: GOOD LUCK HAS WHISKERS.
+
+Rule: meaningful change becomes an outward-facing signal

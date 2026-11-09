@@ -1049,3 +1049,140 @@ Andrew put the markers away. He did not answer immediately. Then he handed Joey 
 Joey closed his hand around it. The ball was ordinary, scuffed, and small against his palm. It was also the first piece of equipment that belonged to the next session.
 
 The field lights clicked off one row at a time. The moon remained over the backstop. In the equipment shed, the target frame stood ready for repair, and on Joseph's recorder the new sequence waited beside the older field sounds. The story had acquired a new measure of scale, but it had also acquired a reason to return.
+
+
+### Chapter Thirty-One — Coffee Before the Gym
+
+The next morning did not begin with a transformation.
+
+It began with the kettle making a noise Joseph thought belonged in a song. He stood in the narrow kitchen above the music shop, waiting for the water to boil, while Joey sat at the table with one of Andrew's baseballs beside his cup. The ball had a dark mark across the seam. Joey kept turning it with his thumb.
+
+Andrew came in carrying a paper bag. He had stopped at the bakery on the way over and bought more than anyone could reasonably eat before breakfast. He set it down, looked at the ball, and asked whether Joey had remembered to bring it back.
+
+“I brought it.”
+
+“You were supposed to bring it back to the field.”
+
+“I brought it here first.”
+
+“That isn't the same thing.”
+
+Joey smiled and slid the ball across the table. Andrew caught it without looking. For a moment they were both pleased with the smallness of the exchange. The previous evening had required a reinforced frame, measurements, a protected camera position, and a great deal of moonlight. This morning required only a table and a ball that had not been lost.
+
+Joseph poured the coffee. The room was warm, and the windows had begun to fog at the edges. The music shop below them was not open yet. Somewhere in the building a pipe knocked twice. Joseph listened, then tapped the rhythm against his mug.
+
+Joey asked whether he had been recording.
+
+“Not everything.”
+
+“That's new.”
+
+“I'm learning that a room can just be a room.”
+
+Andrew opened the paper bag. He had brought rolls, fruit, and a little box of pastries that he claimed were for later. They ate without arranging themselves for a photograph. Joey took the last roll and broke it in half when he noticed Andrew had not eaten. Andrew accepted the larger piece, then gave Joey the better half of the pastry.
+
+The Library image called Better Things Together had been pinned above the desk. It showed two men close in an ordinary gym setting, one holding a mug, the other leaning toward him. The image had never established who they were, and the story did not assign it an identity. It had become a reference for a kind of ease: the closeness of men who did not need a grand occasion to look after each other.
+
+Joey glanced at it while he ate. “That's a good picture.”
+
+Joseph followed his gaze. “It's not a portrait of us.”
+
+“I didn't say it was.”
+
+Andrew looked at the image, then at the two cups on the table. “It can still remind us to make breakfast.”
+
+The remark was so ordinary that Joseph laughed. He wrote nothing down. He let the kettle cool and the cups remain where they were.
+
+After breakfast, Andrew took the baseball back. Joey put on his jacket. Joseph went downstairs to open the shop, and the other two walked toward the gym. The day had begun without asking the story to become extraordinary. That, too, was something worth keeping.
+
+
+### Chapter Thirty-Two — The Low Camera
+
+The industrial gym was nearly empty when they arrived. Its high windows admitted a flat blue morning. The racks stood in rows beneath exposed beams, and the rubber floor carried the pale marks of equipment that had been moved and returned. Andrew liked the place because nothing was hidden. A weight either sat on its peg or it did not. A bench either held steady or needed repair.
+
+Joey stood near the mirror. In his ordinary presentation he could pass through the room without drawing the kind of attention his full form would bring. He looked at the photographs Joseph had sent the night before. One was the Library image titled Dark Blue Joey in the Industrial Gym: a low camera looking upward, a dark blue cast over the skin, an immense chest and arms filling the frame, and a face that remained human and composed. Another was Blue Giant in the Cool-Toned Gym, a separate image with a lighter teal-blue tone, gray sweatpants, a different face and head shape, and a more frontal stance.
+
+They were not the same man. Their visual languages could speak to each other, but their identities could not be merged just because both were blue and enormous.
+
+Joey enlarged the first image. “This angle makes the arms look like they arrive before the rest of him.”
+
+“Because the camera is below the chest,” Andrew said. “It makes the near side larger.”
+
+“Would you use it?”
+
+“For a reveal. Not for measuring.”
+
+Andrew took the phone and held it at chest height, then lowered it carefully toward the floor. The difference was immediate. At the higher angle Joey looked broad. At the low angle his shoulders and arms seemed to press into the room. The image had taught them something about presentation, but not about anatomy. A camera could exaggerate scale without changing the body.
+
+They set the phone on a stable low stand and marked the tripod feet with tape. Andrew checked that the frame included Joey's head, shoulders, hands, shorts, and the floor beneath his feet. The same view would be used for each pass. The mirror gave them a second angle, but it would not replace the fixed camera.
+
+Joey changed gradually. The shoulders broadened, the upper arms grew, and the forearms followed. The blue-green tone emerged with the growth, subtle at first, then more apparent where the cool light touched the skin. His familiar face remained. The neck thickened to support the larger frame. His hands grew with the arms, not as detached props but as part of the same body. The shorts stayed the same, giving the camera a constant reference as the body changed around them.
+
+Andrew watched the elbows and shoulders. He had learned that a large arm could hide a poor movement until the weight began to shift. He asked Joey to raise one arm, lower it, rotate the shoulder, and open his hand. Joey followed each instruction. The movement was not a pose for the mirror. It was a way to see whether the new mass belonged to a body that could still move.
+
+They took a break. Joey sat on the bench, his enlarged arms resting across his thighs. The metal creaked once, then held. Andrew checked the bench before sitting beside him.
+
+“Your first pitch last night was all force,” Andrew said.
+
+“And the fourth?”
+
+“Better.”
+
+“Just better?”
+
+“Much better. Don't make me repeat myself.”
+
+Joey laughed. The sound carried toward the empty racks. He looked again at the image on the phone. The low angle made a powerful picture, but he liked the moment after the pose more: the body resting, the hands open, the room visible around him.
+
+Joseph arrived with coffee and a small camera. He had brought the second Library image as a comparison, not as a template. The cool-toned giant's gray sweatpants, shorter hair, and different proportions remained visible in the reference. Joey's own look retained the dark industrial-gym atmosphere and the heavier blue cast of the Joey-named image. They made a note to preserve the distinction in the visual atlas.
+
+When the session ended, Joey returned to ordinary scale. The tape marks remained on the floor. Andrew put the bench back exactly where it had been. Joseph saved two stills: one at the low angle, one at eye level. The first showed presence. The second showed the person who had been standing there.
+
+They left both in the folder.
+
+
+### Chapter Thirty-Three — A Place for the Whole Day
+
+The gym session changed the afternoon, though not in the way Andrew expected.
+
+He had planned another bullpen test. Joey had suggested a smaller target. Joseph wanted to record the gate latch from the field. But the rain began before lunch, and the groundskeeper sent a message saying the grass would be too soft for another full-scale session. Andrew read it, put his phone away, and looked at the others.
+
+“We have the whole day,” Gabe said. “We could use it.”
+
+They went back to the music shop. Luke arrived carrying a bag of groceries. Tyler brought a small repair kit. Chase had the fixed-camera stills. Gabe made sandwiches while Joseph sorted the recordings. Joey sat at the piano and tried the gate sound in a different key. Andrew stood near the window, listening.
+
+The room filled up in the loose way a place does when people know where things are. Luke found the plates without asking. Tyler repaired the loose hinge on the cupboard. Chase moved a chair so that the camera case would not block the door. Gabe cut the sandwiches in half and left the last one for whoever came downstairs. No one was assigned a role. They simply noticed what needed doing.
+
+Joey played the first phrase again. It was not quite a song yet. The gate opened, the latch answered, and the glove tap came in underneath. The field was present, but it no longer sounded like a collection of impacts. It sounded like a place remembered by men who had been there together.
+
+Andrew came over and tapped the table twice. Joey stopped.
+
+“That's the rhythm from the fence,” Andrew said.
+
+Joseph listened again. He moved the second tap back by a fraction. The phrase settled. Joey played it once more, and Andrew nodded.
+
+They called the piece FIELD IN THE RAIN. It was a working title, but no one objected. The track carried the field indoors without pretending the room was the field. Rain touched the window. The kettle came on. Somewhere downstairs the front bell rang, and Joseph went to open the shop.
+
+Later, Joey stood by the window and watched the rain run down the glass. He could have grown to his full size in the room, but he did not. The low ceiling, the old beams, the piano, and the people moving around him were enough. He liked being able to reach for a cup without moving a chair. He liked hearing Andrew laugh from the kitchen. He liked that the men could spend an afternoon together without needing to witness something impossible.
+
+The image of the Teal Titan Under Blue Skies was open on the laptop. Its enormous teal figure stood in a landscape under a bright sky, with a different face, clothing, and overall design from Joey's industrial-gym reference. The image was useful for thinking about environmental scale and the way a giant occupies open ground. It was not Joey's identity. They left it in the atlas as a separate titan study.
+
+Luke came to look. “That one needs a field.”
+
+“Not this field,” Andrew said.
+
+“Somewhere with room.”
+
+Joey looked out at the rain. “Somewhere we can go when the weather clears.”
+
+The idea entered the conversation without becoming a plan too quickly. They talked about an open training ground beyond the city, a place with a long approach road and a low ridge where the men could watch the horizon. Andrew wanted level ground for throwing. Tyler wanted a storage shed. Chase wanted a fixed camera platform. Gabe wanted shade and somewhere to eat. Joseph wanted the sound of wind across the grass.
+
+Joey wanted to know whether the place would still feel like theirs when he stood at full height.
+
+Andrew considered it. “It will if we build it to be used. Not just looked at.”
+
+The rain continued. The men ate the remaining sandwiches. FIELD IN THE RAIN was saved as a new version, and the earlier recordings stayed where they were. The next practice would wait for dry ground. The open-ground idea remained unfinished, but it had acquired several owners and several different needs.
+
+That evening Joey took the scuffed baseball from his jacket and placed it beside the piano. Andrew saw it and said nothing. The ball had come from the field, travelled to the kitchen, returned to the gym, and now rested beside the instrument that was learning its sound.
+
+It was no longer only a baseball. It was a small piece of the route between them.

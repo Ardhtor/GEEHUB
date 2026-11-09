@@ -261,6 +261,7 @@ export function buildStableMaskMesh(frames, options = {}) {
     triangles
   };
   const topologyId = createHash("sha256").update(JSON.stringify(topology)).digest("hex");
+  const hasStableTopology = triangles.length > 0;
   const ready = triangles.length >= minTriangles;
 
   return {
@@ -268,7 +269,7 @@ export function buildStableMaskMesh(frames, options = {}) {
     schemaVersion: 1,
     status: ready ? "ready" : "insufficient-coverage",
     topologyId,
-    topologyStable: ready,
+    topologyStable: hasStableTopology,
     sequence: {
       firstFrame: preparedFrames[0].frame,
       lastFrame: preparedFrames[preparedFrames.length - 1].frame,
@@ -290,9 +291,9 @@ export function buildStableMaskMesh(frames, options = {}) {
     },
     evidence: {
       source: "decoded-binary-body-and-face-masks",
-      faceExclusionVerified: ready,
+      faceExclusionVerified: hasStableTopology,
       pixelSemanticsVerified: false,
-      topologyAcrossFrames: ready ? "identical-triangle-and-vertex-identities" : "insufficient-stable-coverage"
+      topologyAcrossFrames: hasStableTopology ? "identical-triangle-and-vertex-identities" : "no-stable-triangles"
     },
     note: "Triangles are retained only when every covered pixel centre is body foreground and protected-face background in every supplied frame. This proves mask-relative coverage, not anatomical correctness of the upstream masks. No image pixels are altered."
   };

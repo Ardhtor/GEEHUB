@@ -63,7 +63,7 @@ Marco is the head chef. He anchors the daily rhythm through breakfast, lunch, di
 
 Tomas is a groundskeeper who also works around the baseball field. He knows the weather, soil, drainage, tree line, and field maintenance. He is the first staff member to ask Andrew whether the scoreboard should be repaired, though the scoreboard's seven columns may not correspond to any ordinary game.
 
-Mr Vale is the hotel manager. He should appear sparingly. He is not an omniscient villain and should not explain the premise. His job is to make the hotel function. He can be kind, severe, helpful, evasive, or wrong depending on the immediate circumstances. He may know more than Emil, but that does not mean he knows the whole truth.
+Stanley Tucci is the Director of Standards, the sole *Devil Wears Prada* carryover. This is a fictionalized role within the novel, not a claim about the real person's private life or personality. He oversees the presentation of the hotel's luxury, staff appearance, public rooms, menus, and guest experience. He is exacting, dry, elegant, socially perceptive, and unflustered by the hotel's impossible arrangements. He knows how to preserve the appearance of perfection while acknowledging that some irregularities are disclosures rather than defects. He is not the devil and does not control the loop. Joey remains the authority behind the Grand Meridian and the sentence imposed on its guests. No other *Devil Wears Prada* characters, cast members, plotlines, or workplace relationships are imported.
 
 ## Spatial atlas
 
@@ -124,3 +124,12 @@ The fictional men are independent characters. Any names or public-profile refere
 ## Open questions
 
 The seventh man remains unidentified. The face in the future-dated photograph changes according to the observer. Joseph's promise remains unassigned. Room 000 may be a place, a position in the hotel, or a name for an absence. The extra breakfast plate is collected before guests arrive. The porter, concierge, engineer, and chef retain different fragments of the men's previous actions. The missing day may be the interval between Sunday checkout and Monday arrival, a day removed from the calendar, or something more structural. The hotel may be maintaining the recurrence, surviving it, or trying to complete an event that has failed to occur. No answer is established yet.
+
+
+## Tonal architecture — the Grand Meridian and its sole Prada carryover
+
+The Grand Meridian combines the beautiful, inescapable atmosphere of a luxurious hotel prison with the polished standards, dry wit, and exacting presentation associated with the user's Devil Wears Prada reference. The building should be seductive before it is frightening: exceptional service, handsome rooms, excellent food, a gymnasium, pool, library, cinema, ballroom, tailored uniforms, and a programme of events that makes captivity feel like privilege. The hotel should never look shabby merely because it is supernatural. Its luxury is part of its mechanism: it gives the men endless ways to postpone confronting what has happened.
+
+Stanley Tucci is the only Devil Wears Prada carryover, appearing as a fictionalized Director of Standards. His role is to maintain the hotel's immaculate public form and to understand the social theatre of service, taste, hierarchy, and presentation. No other characters or plotlines from that film are included. Tucci is not the devil behind the hotel. Joey is the devilish authority who controls the Grand Meridian's sentence and chooses when to reveal his true Stage Four scale. The distinction between elegant administration and infernal authority must remain clear.
+
+The men are confined not only by architecture but by luxury, routine, status, appetite, distraction, and the promise that tomorrow will be the proper time to confront an unresolved fact. Service should be excellent even when it is sinister. The concierge should be courteous; the dining room should be beautiful; the staff should be professionally composed. The hotel does not need overt menace in every scene. Its seduction is what makes the sentence durable.

@@ -123,3 +123,25 @@ New state:
 - MOONLIT_PITCH_01 preserves the first impact and the slower control comparison as separate records.
 
 The chapter was checked against Joey's Teal Titan continuity record and Andrew's established baseball temperament. The distinction between Joey and Joseph is explicit. The event is fictional canon within this novel, not a claim about a real person or a completed 3D render.
+
+
+## Learning pass — Chapters Twenty-Eight to Thirty
+
+These three chapters extend the moonlit pitch into a sustained shared practice.
+
+Chapter XXVIII establishes a target system and gives Joey a repeatable baseline at reduced effort. Andrew's coaching becomes specific: release line, shoulder path, distance, effort, and result. Joseph's recording practice shifts from collecting loud impacts to preserving useful comparisons.
+
+Chapter XXIX reveals Joey's full thirty-foot Stage Four form under moonlight. The field is prepared with a temporary receiving frame, a protected recording position, and a cleared test area. Full power is deliberately withheld until a reliable baseline exists. The fourth controlled pitch lands in the center square. This is a fictional event in the novel; it is not a completed CG simulation or real-world measurement.
+
+Chapter XXX brings Luke, Tyler, Chase, Gabe, and Joseph to the practice. Each contributes a distinct practical role, while Joey chooses when to reveal his full form and whether to continue. The gathering is recorded as a shared practice, not a spectacle.
+
+Durable state:
+- MOUND_STUDY_01: target dimensions, distance, release observations, and practice sequence.
+- MOONLIT_PITCH_02: full-scale reveal and controlled pitch comparison.
+- THE_MOONLIT_BULLPEN_01: fixed camera, target measurements, receiving-frame inspection, audio takes, and next-session consent.
+- The reinforced receiving frame is temporary and requires inspection after use.
+- Joey keeps one scuffed baseball and is expected to bring it to the next practice.
+- Andrew's coaching role is established through action; Joey's power does not erase the value of training.
+- The six friends contribute distinct forms of attention without being reduced to an audience.
+
+Continuity checks: Joey remains distinct from Joseph; his thirty-foot Stage Four form follows his existing character record; Andrew's athletic discipline and practical, playful coaching remain consistent. The new scenes preserve prior sound recordings and add new versions rather than replacing them.

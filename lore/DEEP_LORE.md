@@ -744,3 +744,16 @@ The world is carried by what happens between its named events. Northgate's dormi
 The chapter Northgate Common Life establishes the social and practical structure that connects these activities. It also establishes a completion rule for creative and technical work. A named idea is not yet a completed artifact. A place needs use and maintenance; a character needs habits, motives and relationships; an event needs consequences; a system needs state, boundaries and a way to correct errors. Completion means that the current form is coherent and usable, not that every future possibility has been closed.
 
 The Tractus must report the state of work honestly. Written design is not executable implementation. Proposed geography is not yet established geography. A source-backed fact is not interchangeable with an inference. Work should be recorded as designed, written, implemented, tested, blocked or unresolved according to what has actually occurred. The world may remain open while its individual artifacts become complete. This is how breadth and follow-through can coexist: every new branch receives enough structure to stand on its own and enough continuity to join the rest.
+
+
+## XXVIII. THE LAW OF THE ALMOST-NAME
+
+A name can approach speech and still be withdrawn. The withdrawal is not an empty space in the record; it is part of the event. The person who stops speaking has made a choice, and the world must preserve that choice without pretending to know the words that were withheld.
+
+The jar Lexor brings to the Cabin remembers the sound of a name almost spoken and then taken back. It does not disclose the name. Lexor says that he once named something that should never have been named, and that the jar remained after he tried to take the name back. The exact name, the thing it named, and the object's deeper operation remain unresolved.
+
+The household gives the jar a place without making it the centre of every conversation. Privathor's objection is retained: some minds should be allowed to change without being stored in glass. Lexor's relief is also retained: he can set down the burden without explaining every silence it contains. Herbarius calls the jar a held breath. That phrase is a witness's interpretation, not a final classification.
+
+**THE ALMOST-NAME = NEAR-UTTERANCE + WITHDRAWAL + REMAINING TRACE.**
+
+The law is not that every silence conceals a secret waiting to be extracted. It is that restraint can itself have history. Memory may preserve the fact that something was almost said without forcing its completion. A hospitable place can hold the object, keep the path lit, and allow the person who carried it to leave.

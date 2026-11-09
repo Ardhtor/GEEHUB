@@ -1,6 +1,6 @@
 # GEEHUB Growth Study 001 — V2.3 Locomotion and Articulated Appendages
 
-V2 addresses the first prototype's largest visual limitation: the body was made from separate ellipsoids. This pass fuses overlapping body volumes into one connected skin blockout, then assigns each remeshed vertex blended weights from its three nearest armature bone segments.
+V2.3 builds on the first prototype's continuous anatomy and adds articulated appendages plus a separate run-away action: the body was made from separate ellipsoids. This pass fuses overlapping body volumes into one connected skin blockout, then assigns each remeshed vertex blended weights from its three nearest armature bone segments.
 
 ## Files
 - `geehub_growth_study_v2.py` — V2 procedural Blender scene generator.

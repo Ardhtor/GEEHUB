@@ -6995,6 +6995,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000220",
+      "created_at": "2026-11-09T17:01:49.110557+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "CEDAR HOUSE",
+      "content": "SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "lineage": {
+        "event_id": "world-pulse-000220",
+        "event": {
+          "id": "world-pulse-000220",
+          "pulse": 220,
+          "time": "2026-11-09T17:01:49.110557+00:00",
+          "actor": "LUKE",
+          "world": "CEDAR HOUSE",
+          "region_id": "cedar-house",
+          "previous_region_id": "cedar-house",
+          "phase": "ATMOSPHERE",
+          "source": "worlds/cedar-house/README.md",
+          "desire_state": "attention",
+          "action": "SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+          "narrative_rule": "approach extends geography",
+          "relation": null,
+          "next_region": null,
+          "pressure": 0.9,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-09T17:01:49.110557+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000220",
+      "created_at": "2026-11-09T17:01:49.110557+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / CEDAR HOUSE / worlds/cedar-house/README.md",
+      "content": "SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 220,
+        "actor": "LUKE",
+        "world": "CEDAR HOUSE",
+        "region_id": "cedar-house",
+        "source": "worlds/cedar-house/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00051",
+      "created_at": "2026-11-09T17:01:49.165640+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE NORTHGATE MATCH",
+      "content": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
+      "lineage": {
+        "event_id": "northgate-campus-00051",
+        "event": {
+          "id": "northgate-campus-00051",
+          "cycle": 51,
+          "world_pulse": 220,
+          "at": "2026-11-09T17:01:49.165640+00:00",
+          "region": "northgate-university",
+          "title": "THE NORTHGATE MATCH",
+          "kind": "sport",
+          "participants": [
+            "Noah Bell",
+            "Adrian Varga",
+            "Dan Roman"
+          ],
+          "description": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-09T17:01:49.165640+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

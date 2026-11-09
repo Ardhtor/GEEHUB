@@ -2005,3 +2005,11 @@ NICK: The world crosses the route from THE COMMON TABLE into CEDAR HOUSE. The ea
 SETH: A warm cedar home with a generous kitchen, deep sitting room, sheltered porch, reading alcove, and an open door for unhurried visits. Relation carried forward: A TABLE IS SET.
 
 Source retained: worlds/cedar-house/README.md. Pressure 0.88; memory 1.00.
+
+## CEDAR HOUSE / pulse 220 / ATMOSPHERE
+
+SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/cedar-house/README.md. Pressure 0.90; memory 1.00.

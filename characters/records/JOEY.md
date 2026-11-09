@@ -116,3 +116,11 @@ The novel's Chapters XXXI–XXXIII now draw directly on the Library atlas.
 Joey's gym continuity now includes a fixed low camera and a second eye-level view. The face, neck, shoulders, arms, hands, shorts, and floor contact remain visible through staged changes. He values the quiet moments after the reveal as well as the full form.
 
 **New linked event:** FIELD IN THE RAIN, a working music piece assembled from the gate, latch, and glove recordings. Joey's scuffed baseball now links the field, kitchen, gym, and music room. A future open training ground is under discussion, with requirements contributed by the men rather than decided by Joey alone.
+
+## Library-led continuation — Ridge House and the gym
+
+Chapters XXXIV–XXXVI use five additional Library references. GLA-017 supplies the timber lodge atmosphere for Ridge House; GLA-019 supplies the five-stage proportional review framework; GLA-020 supplies the practical locker-room environment; GLA-018 supplies the friendly greeting gesture between two enormous gym partners; GLA-016 supplies a social-temporal model for growth without imposing its specific schedule or dialogue.
+
+Joey's canon remains at Stage Four. The new five-stage review is a production and continuity method, not a new transformation state. The gym passes check joints, hands, feet, neck, shoulders, torso, hips and balance. Joey repeats a controlled walk-and-turn test. The chapter preserves his interest in the ordinary time after a transformation as much as the reveal itself.
+
+**New event:** FRIENDLY_CONTACT_01, a brief fist bump between Joey and Marcus, recorded by Joseph without added music. Ridge House becomes a destination for the next group visit.

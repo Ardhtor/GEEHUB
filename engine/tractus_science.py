@@ -27,6 +27,10 @@ def validate_event(event: dict[str, Any]) -> list[str]:
         errors.append("canon_update missing observation.happened")
     if prediction_error.get("present") is not True:
         errors.append("canon_update requires prediction_error.present=true")
+    if prediction_error.get("type") not in {"who", "where", "when", "why", "how"}:
+        errors.append("canon_update prediction_error.type is invalid")
+    if prediction_error.get("severity") not in {"low", "medium", "high"}:
+        errors.append("canon_update prediction_error.severity is invalid")
     if not event.get("prior_version_id"):
         errors.append("canon_update requires prior_version_id")
     if not change.get("canon_version_id"):
@@ -35,6 +39,9 @@ def validate_event(event: dict[str, Any]) -> list[str]:
         errors.append("canon_update missing change.what_changed")
     if not change.get("what_remains"):
         errors.append("canon_update missing change.what_remains")
+    provenance = event.get("provenance") or {}
+    if not provenance.get("author"):
+        errors.append("canon_update missing provenance.author")
     return errors
 
 
@@ -122,4 +129,15 @@ def validate_version_records(records: list[dict[str, Any]]) -> list[str]:
             errors.append(f"record {index} has invalid canon version status")
         if record.get("status") == "superseded" and not record.get("superseded_by"):
             errors.append(f"superseded version {version_id} is missing superseded_by")
+        if not record.get("entity") or not record.get("created_by_event_id"):
+            errors.append(f"version {version_id} is missing entity or created_by_event_id")
+        prior = record.get("prior_version_id")
+        if record.get("status") == "canon" and prior and prior in seen:
+            previous = seen[prior]
+            if previous.get("status") == "experiment" and not record.get("promotion_event_id"):
+                errors.append(f"version {version_id} promotes an experiment without promotion_event_id")
+    for version_id, record in seen.items():
+        successor = record.get("superseded_by")
+        if successor and successor not in seen:
+            errors.append(f"version {version_id} points to unknown superseded_by: {successor}")
     return errors

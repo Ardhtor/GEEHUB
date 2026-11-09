@@ -7541,6 +7541,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000226",
+      "created_at": "2026-11-09T17:25:18.042105+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "CAT GARDENS",
+      "content": "SETH: A line becomes visible between CAT GARDENS and FOUNDERS DORMITORY. The archive names the relation \"THE DORM GARDEN PATH\".\n\nNICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "lineage": {
+        "event_id": "world-pulse-000226",
+        "event": {
+          "id": "world-pulse-000226",
+          "pulse": 226,
+          "time": "2026-11-09T17:25:18.042105+00:00",
+          "actor": "KIRK",
+          "world": "CAT GARDENS",
+          "region_id": "cat-gardens",
+          "previous_region_id": "cat-gardens",
+          "phase": "ROUTE_OPEN",
+          "source": "worlds/cat-gardens/README.md",
+          "desire_state": "tension",
+          "action": "SETH: A line becomes visible between CAT GARDENS and FOUNDERS DORMITORY. The archive names the relation \"THE DORM GARDEN PATH\".\n\nNICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.",
+          "narrative_rule": "arrival activates aftermath",
+          "relation": "THE DORM GARDEN PATH",
+          "next_region": "founders-dormitory",
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-09T17:25:18.042105+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000226",
+      "created_at": "2026-11-09T17:25:18.042105+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ROUTE_OPEN / CAT GARDENS / worlds/cat-gardens/README.md",
+      "content": "SETH: A line becomes visible between CAT GARDENS and FOUNDERS DORMITORY. The archive names the relation \"THE DORM GARDEN PATH\".\n\nNICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "production_note": "The world resolved its route_open rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 226,
+        "actor": "KIRK",
+        "world": "CAT GARDENS",
+        "region_id": "cat-gardens",
+        "source": "worlds/cat-gardens/README.md",
+        "phase": "ROUTE_OPEN",
+        "relation": "THE DORM GARDEN PATH"
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00057",
+      "created_at": "2026-11-09T17:25:18.094371+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE BODY CULTURE CONVERSATION",
+      "content": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+      "lineage": {
+        "event_id": "northgate-campus-00057",
+        "event": {
+          "id": "northgate-campus-00057",
+          "cycle": 57,
+          "world_pulse": 226,
+          "at": "2026-11-09T17:25:18.094371+00:00",
+          "region": "athletic-commons",
+          "title": "THE BODY CULTURE CONVERSATION",
+          "kind": "body-culture",
+          "participants": [
+            "Dan Roman",
+            "Noah Bell",
+            "Adrian Varga"
+          ],
+          "description": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-09T17:25:18.094371+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

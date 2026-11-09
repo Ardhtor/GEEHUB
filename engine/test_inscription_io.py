@@ -86,8 +86,8 @@ class InscriptionIOTests(unittest.TestCase):
 
     def test_interrupted_activity_tail_is_truncated_before_next_append(self):
         self.log.parent.mkdir(parents=True, exist_ok=True)
-        valid = json.dumps({"id": "prior-event", "occurred_at": "2026-11-09T17:00:00Z"}) + "\\n"
-        self.log.write_bytes(valid.encode("utf-8") + b'{"id":"interrupted')
+        valid = json.dumps({"id": "prior-event", "occurred_at": "2026-11-09T17:00:00Z"})
+        self.log.write_bytes(valid.encode("utf-8") + bytes([10]) + b'{"id":"interrupted')
         inscription.inscribe_event(self.event("recovery-001"), "io-test")
         rows = [json.loads(line) for line in self.log.read_text(encoding="utf-8").splitlines() if line]
         self.assertEqual([row["id"] for row in rows], ["prior-event", "recovery-001"])

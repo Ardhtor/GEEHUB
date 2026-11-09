@@ -1,18 +1,22 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://geehub.local/schemas/innervation-cue.schema.json",
-  "title": "Innervation Action Cue",
+  "title": "Innervation Legacy Cue",
   "type": "object",
   "required": [
     "cue_id",
     "source_id",
     "bpm",
     "phase",
+    "duration_ms",
     "target_response",
-    "duration_beats",
+    "synchrony_mode",
     "trigger",
     "action",
-    "state_change"
+    "state_before",
+    "state_after",
+    "next_cue_allowed",
+    "sonic_residue"
   ],
   "properties": {
     "cue_id": {
@@ -29,26 +33,24 @@
       "maximum": 300
     },
     "phase": {
-      "enum": [
-        "on_beat",
-        "off_beat",
-        "break",
-        "silence"
-      ]
+      "type": "number",
+      "minimum": 0
+    },
+    "duration_ms": {
+      "type": "integer",
+      "minimum": 1
     },
     "target_response": {
-      "enum": [
-        "pause",
-        "step",
-        "turn",
-        "breath",
-        "reach",
-        "stillness"
-      ]
+      "type": "string",
+      "minLength": 1
     },
-    "duration_beats": {
-      "type": "number",
-      "exclusiveMinimum": 0
+    "synchrony_mode": {
+      "enum": [
+        "entrain",
+        "offset",
+        "break",
+        "free"
+      ]
     },
     "trigger": {
       "type": "string",
@@ -58,13 +60,21 @@
       "type": "string",
       "minLength": 1
     },
-    "state_change": {
-      "type": "object",
-      "minProperties": 2
+    "state_before": {
+      "type": "object"
     },
-    "silence_beats": {
-      "type": "number",
-      "minimum": 0
+    "state_after": {
+      "type": "object"
+    },
+    "next_cue_allowed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sonic_residue": {
+      "type": "string",
+      "minLength": 1
     }
   },
   "additionalProperties": false

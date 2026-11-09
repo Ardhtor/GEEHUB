@@ -48,6 +48,7 @@ required_source_tokens = (
     "RUN_AWAY — turn, gait, and retreat",
     "APPENDAGE_DIGITS — replaceable geometry",
     "CAM_Video6",
+    "AUTO_CLAMPED",
     "VIDEO6_POSE_STUDY",
     "Video6 Torso Reset",
     "Video6 Toe Reset",

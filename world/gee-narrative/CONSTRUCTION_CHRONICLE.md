@@ -124,6 +124,18 @@ The package workflow completed on commit `bea68ab9dd7f769a860e93da844e22d77d7616
 
 The workshop has now inspected actual mask pixels, but it has not yet built a mesh. The masks are test fixtures, not the user's footage; no local Dropbox or Resolve session was opened, and no source frame was changed. The next instrument must derive a connected triangle field from the body silhouette while excluding the face region, then prove that the same topology and vertex identities can be followed across adjacent frames. Only after that can the articulated growth mapper deform a real pixel surface without tearing or wandering across time.
 
+## 2026-11-09 — The mask bench lays down a common triangle field
+
+The decoded body and face masks now provide more than a pair of measured regions. A new instrument, `core/mask-mesh.js`, lays a bounded rectangular grid across the body silhouette and gives each lattice point a persistent row-and-column identity. Every cell offers two candidate triangles. The instrument tests those triangles against every frame in the supplied sequence, retaining a triangle only when the pixel centres it covers are body foreground and protected-face background throughout the sequence. It uses row-prefix counts to make that coverage test exhaustive without walking every pixel in each triangle separately.
+
+The output is a common index field with one topology digest, stable vertex IDs, stable triangle IDs, and a set of source-pixel coordinates for each frame. When the subject shifts, the grid points follow the changing body bounds while their identities remain fixed. When the silhouette changes too much, the common field becomes sparse; the instrument reports its stable-triangle count and coverage ratio, and can return `insufficient-coverage` when the configured minimum is not met. It does not invent a triangle to fill a gap.
+
+The frame-sequence worker now invokes this instrument after the existing file checksum, PNG decoding, binary-value, non-empty-mask, and body/face-disjointness checks. Its audit carries the resulting `maskMesh` separately from `readyForGeometry`, with `meshReady` indicating whether enough common triangles survived. This distinction matters: mask intake can be valid even when a usable common mesh cannot be found.
+
+Five focused Node tests passed in a temporary harness. They exercise a one-pixel shift across two frames, identical vertex and triangle identities, exhaustive coverage of each retained triangle against both masks, overlap refusal, malformed mask and frame data, and the configured minimum-coverage gate. The frame-sequence integration test was also extended to assert that the file inspector returns a stable mesh, but the full studio test suite and GitHub Actions package workflow were not verified during this pass; the commit status endpoint returned no checks. No local Mac, Dropbox mirror, Resolve session, or user footage was accessed. No source pixels were altered, and no video was rendered.
+
+The mesh is still a source-space surface. It has not yet been attached to the bridge as a typed frame set, and the articulated growth mapper still moves only its tracked anchors, not this grid. The next instrument must transfer those anchor displacements to the stable grid vertices, then prove that a two-frame warp preserves the protected face and leaves the background untouched.
+
 ## Chronicle rule
 
 Every future entry must be grounded in repository changes, tested behavior, user-confirmed runtime results, or clearly labeled proposals. Do not write an implementation as if it has run. Do not turn missing capabilities into lore that disguises their absence. The narrative is the machine's construction record, and the construction record is part of the machine.

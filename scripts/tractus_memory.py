@@ -81,6 +81,7 @@ def advance_thread(
         "retrieval_failures": failures,
         "successful_recalls": int(thread.get("successful_recalls", 0)) + (1 if recall_score >= 0.5 else 0),
         "retrieval_successes": int(thread.get("retrieval_successes", thread.get("successful_recalls", 0))) + (1 if recall_score >= 0.5 else 0),
+        "retrieval_successes": int(thread.get("retrieval_successes", thread.get("successful_recalls", 0))) + (1 if recall_score >= 0.5 else 0),
         "last_recall_score": round(recall_score, 3),
         "last_retrieval": {
             "score": round(recall_score, 3),

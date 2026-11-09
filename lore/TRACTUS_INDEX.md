@@ -209,3 +209,8 @@ The character records for [Luke](../characters/records/LUKE.md), [Tyler](../char
 
 [The Cyber Black Hole of Geehub](CYBER_BLACK_HOLE_OF_GEEHUB.md) names the convergence of friends, images, posts, places, voices, projects, and memories into one connected creative world. Its gravity draws traces into relation without absorbing or flattening the people they refer to. The event horizon preserves provenance and permissions; the accretion disk describes how references become connected scenes, artifacts, and recurring places; the core is Tractus, which records each crossing and its limits. The friends retain distinct identities and independent orbits. Absence is not deletion, and a public reference is not permission to invent private facts or reproduce restricted material.
 
+
+
+## Andrew and the Baseball Field
+
+[Andrew's character record](../characters/records/ANDREW.md) now establishes him as a big, muscular Italian baseball player with blue eyes and a genuinely eccentric, associative inner life. [Chapter LXXVI — The Field Has Its Own Echo](../novel/chapters/CHAPTER_LXXVI_THE_FIELD_HAS_ITS_OWN_ECHO.md) places those traits into the shared world: sporting discipline and unusual observation work together rather than cancelling each other out. The character's baseball position, team, playing level, regional background, accent, and exact measurements remain unresolved.

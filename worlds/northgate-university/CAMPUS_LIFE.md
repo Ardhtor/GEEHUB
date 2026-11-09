@@ -370,3 +370,9 @@ Participants: Elliot Ward, Marek Ionescu, Adrian Varga. Location: northgate-libr
 Tables appear beneath the arcade: architecture, music, rowing, film, natural history, computing and the old debating society. New students drift between them while returning members explain what they actually do, rather than reciting polished pitches.
 
 Participants: Dan Roman, Elliot Ward, Noah Bell. Location: northgate-university. Recorded: 2026-11-09T18:25:18.724806+00:00.
+
+## A ROOM FULL OF PROJECTS — cycle 00063
+
+The common room becomes a temporary studio. A half-built model occupies the long table, a laptop plays back a rough edit, and someone is sketching a set of stairs on the back of an envelope. Each person contributes a different skill; by midnight the project has a direction.
+
+Participants: Dan Roman, Marek Ionescu, Adrian Varga, Elliot Ward. Location: founders-dormitory. Recorded: 2026-11-09T18:29:08.349756+00:00.

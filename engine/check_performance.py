@@ -136,15 +136,81 @@ def check_long_play():
         print("MEDIA NOTE | queued jobs are requests, not rendered media; a worker must complete them.")
 
 
+
+def load_jsonl(relative: str):
+    path = ROOT / relative
+    if not path.exists():
+        return []
+    records = []
+    for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        if not line.strip():
+            continue
+        try:
+            value = json.loads(line)
+        except json.JSONDecodeError as exc:
+            raise RuntimeError(f"invalid JSONL in {relative}:{line_number}: {exc}") from exc
+        require(isinstance(value, dict), f"{relative}:{line_number} must contain a JSON object")
+        records.append(value)
+    return records
+
+
+def check_tractus_science():
+    try:
+        from tractus_science import (
+            INTERVAL_LADDER, validate_cue, validate_event,
+            validate_thread, validate_version_records,
+        )
+    except ImportError:
+        from engine.tractus_science import (
+            INTERVAL_LADDER, validate_cue, validate_event,
+            validate_thread, validate_version_records,
+        )
+
+    schedule = load("engine/retrieval_schedule.json")
+    require(tuple(schedule.get("intervals_days", [])) == INTERVAL_LADDER,
+            f"retrieval ladder must be {list(INTERVAL_LADDER)}")
+    threads = schedule.get("threads", [])
+    require(bool(threads), "retrieval schedule has no threads")
+    for thread in threads:
+        errors = validate_thread(thread)
+        require(not errors, f"thread {thread.get('thread_id')}: {'; '.join(errors)}")
+
+    versions = load_jsonl("engine/canon_versions.jsonl")
+    version_errors = validate_version_records(versions)
+    require(not version_errors, "; ".join(version_errors))
+    version_ids = {item.get("canon_version_id") for item in versions if item.get("canon_version_id")}
+
+    activity = load_jsonl("engine/activity.jsonl")
+    canon_events = [item for item in activity if item.get("type") == "canon_update"]
+    for event in canon_events:
+        errors = validate_event(event)
+        require(not errors, f"event {event.get('event_id') or event.get('id')}: {'; '.join(errors)}")
+        require(event.get("prior_version_id") in version_ids,
+                f"event {event.get('event_id') or event.get('id')} references an unknown prior version")
+        require((event.get("change") or {}).get("canon_version_id") in version_ids,
+                f"event {event.get('event_id') or event.get('id')} has no matching canon version")
+
+    cues = load_jsonl("engine/innervation_cues.jsonl")
+    for cue in cues:
+        errors = validate_cue(cue)
+        require(not errors, f"cue {cue.get('cue_id')}: {'; '.join(errors)}")
+
+    print(
+        f"TRACTUS SCIENCE PASS | threads={len(threads)} | versions={len(versions)} "
+        f"| canon_events={len(canon_events)} | innervation_cues={len(cues)}"
+    )
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("mode", choices=("world", "long-play", "all"))
+    parser.add_argument("mode", choices=("world", "long-play", "tractus-science", "all"))
     args = parser.parse_args()
     try:
         if args.mode in ("world", "all"):
             check_world()
         if args.mode in ("long-play", "all"):
             check_long_play()
+        if args.mode in ("tractus-science", "all"):
+            check_tractus_science()
     except Exception as exc:
         print(f"GEEHUB PERFORMANCE FAIL | {exc}", file=sys.stderr)
         raise SystemExit(1)

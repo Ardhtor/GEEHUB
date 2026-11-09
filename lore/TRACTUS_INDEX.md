@@ -233,3 +233,10 @@ The [Library Image Atlas](../docs/LIBRARY_IMAGE_ATLAS.md) now records ten visual
 ## Joey — The Room Above the Music Shop
 
 Joey's arc continues in [The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md), Chapters XIX–XXI. He establishes a modest room above the music shop, develops a sound practice through field recordings and unfinished musical phrases, and begins a collaborative recording with the six friends. His growth sequence is developed as a fixed-camera, environment-anchored rig study: ground contact, stable furniture and camera, staged upper-body development, anatomical follow-through, readable holds, skin-texture preservation and explicit render validation. The existing Blender drivers remain rig-dependent technical scripts; the novel does not claim that a compatible rig or final render has been produced. The public channel reference `@joeyprever` remains identified but unreviewed, so no channel-derived personality claims are added.
+
+
+## Tractus Story Learning Engine
+
+[The Story Learning Engine](../docs/TRACTUS_STORY_LEARNING_ENGINE.md) defines the self-learning continuity cycle: encounter, extract, classify, compare, revise, propagate, generate consequence, preserve open threads, and verify. It keeps observed events distinct from inference and unknowns; corrections supersede mistaken notes without erasing their history. The engine is an editorial contract, not a claim that an autonomous background process is running.
+
+[The Unplanned Convergence](CYBER_BLACK_HOLE_NOVEL.md) now demonstrates the first active loop in Chapters XXII–XXIV. Andrew's glove tap changes position in Joey's unfinished recording; the room gains a sleeve and comparative stills; a chair-count error is corrected with its history preserved; Dan's service-lane survey changes the route used in a later scene; and the city retains these consequences. Future chapters inherit the altered room, map, track, and relationships rather than resetting them.

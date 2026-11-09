@@ -21,6 +21,13 @@ from engine.inscription import inscribe_event
 
 VERSIONS = ROOT / "engine/canon_versions.jsonl"
 ACTIVITY = ROOT / "engine/activity.jsonl"
+ALLOWED_ENTITIES = {
+    "novel/BOOK_I_CONTINUATION_03.md",
+    "lore/DEEP_LORE.md",
+    "lore/INSTITUTE_OF_BECOMING.md",
+    "lore/ECONOMY_OF_FAVOURS.md",
+    "lore/GOD_PENIS_IDOL_CYCLE.md",
+}
 
 
 def read_jsonl(path: Path) -> list[dict]:
@@ -55,7 +62,10 @@ def main() -> int:
     version = matches[0]
     if version.get("status") != "experiment":
         raise SystemExit("Only an experiment can be promoted.")
-    entity_path = ROOT / version.get("entity", "")
+    entity = version.get("entity", "")
+    if entity not in ALLOWED_ENTITIES or ".." in Path(entity).parts:
+        raise SystemExit("The experiment destination is not on the Tractus allowlist.")
+    entity_path = ROOT / entity
     if not entity_path.is_file():
         raise SystemExit("The experiment destination is missing.")
     current_hash = hashlib.sha256(entity_path.read_bytes()).hexdigest()

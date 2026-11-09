@@ -18,13 +18,14 @@
     const label=el.getAttribute('aria-label')||el.getAttribute('title')||el.dataset?.userResponse||el.textContent||el.getAttribute('href')||el.id||el.tagName;
     return {section:section?.id||'world',sectionName:String(sectionName).trim().slice(0,90),label:String(label).trim().replace(/\s+/g,' ').slice(0,100)};
   };
-  const categoryFor=section=>({
-    world:['worldVisual','storyAtlas','atlas','pyyroRoom'].includes(section)?'world':
-      ['fileSpace','artifactRoom','creations','mindHorizon'].includes(section)?'archive':
-      ['sculptPreview','biggener','assetPlane','hulumscaveForge'].includes(section)?'making':
-      ['sharedInteraction','agentReactions','reactionConsequence','socialCyberspace'].includes(section)?'people':
-      ['gameConsole','textReplyLab','creationDesk','fusionSpace'].includes(section)?'story':'exploration'
-  }[section]||'exploration');
+  const categoryFor=section=>{
+    if(['worldVisual','storyAtlas','atlas','pyyroRoom'].includes(section))return 'world';
+    if(['fileSpace','artifactRoom','creations','mindHorizon'].includes(section))return 'archive';
+    if(['sculptPreview','biggener','assetPlane','hulumscaveForge'].includes(section))return 'making';
+    if(['sharedInteraction','agentReactions','reactionConsequence','socialCyberspace'].includes(section))return 'people';
+    if(['gameConsole','textReplyLab','creationDesk','fusionSpace'].includes(section))return 'story';
+    return 'exploration';
+  };
 
   function persist(){
     state.signals=state.signals.slice(0,32);

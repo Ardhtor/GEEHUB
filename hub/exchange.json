@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-09T17:35:05.586Z",
+  "generated": "2026-11-09T17:50:32.222Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00186",
+      "at": "2026-11-09T17:50:32.222Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / CAT GARDENS → CEDAR HOUSE / LUKE",
+      "body": "The world crossed the existing relation \"GOOD LUCK HAS WHISKERS\" from CAT GARDENS into CEDAR HOUSE. Scale increased from 14.34× to 14.37×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00186",
+      "live": true,
+      "regionId": "cedar-house",
+      "previousRegionId": "cat-gardens",
+      "relation": "GOOD LUCK HAS WHISKERS"
+    },
     {
       "id": "scheduled-long-play-00185",
       "at": "2026-11-09T17:35:05.586Z",
@@ -1482,21 +1497,6 @@
       "regionId": "complex",
       "previousRegionId": "beefythiq",
       "relation": "MASS BECOMES WEATHER"
-    },
-    {
-      "id": "scheduled-long-play-00089",
-      "at": "2026-10-21T23:41:02.378Z",
-      "from": "geehub-long-play",
-      "to": "joseph",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / THE FACILITY → BEEFYTHIQ / JOSEPH",
-      "body": "The world crossed the existing relation \"THE ROOM GETS SMALLER\" from THE FACILITY into BEEFYTHIQ. Scale increased from 8.10× to 8.22×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00089",
-      "live": true,
-      "regionId": "beefythiq",
-      "previousRegionId": "facility",
-      "relation": "THE ROOM GETS SMALLER"
     }
   ]
 }

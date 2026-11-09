@@ -36,11 +36,16 @@ jobs:
         run: |
           python -c "compile(open('scripts/tractus_engine.py', encoding='utf-8').read(), 'scripts/tractus_engine.py', 'exec')"
           python -c "compile(open('scripts/tractus_memory.py', encoding='utf-8').read(), 'scripts/tractus_memory.py', 'exec')"
+          python -c "compile(open('engine/tractus_science.py', encoding='utf-8').read(), 'engine/tractus_science.py', 'exec')"
       - name: Validate JSON contracts
         run: |
           python -m json.tool engine/retrieval_schedule.json > /dev/null
           python -m json.tool engine/retrieval_state.json > /dev/null
           python -m json.tool engine/schemas/tractus-revision.schema.json > /dev/null
           python -m json.tool engine/schemas/innervation-cue.schema.json > /dev/null
+          python -m json.tool engine/schemas/innervation-cue-v2.schema.json > /dev/null
       - name: Run Tractus tests
-        run: python -B -m unittest discover -s scripts -p 'test_*.py'
+        run: |
+          python -B -m unittest discover -s scripts -p 'test_*.py'
+          python -B -m unittest discover -s engine -p 'test_*.py'
+          python engine/check_performance.py tractus-science

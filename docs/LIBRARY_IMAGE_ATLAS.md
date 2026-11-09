@@ -67,3 +67,41 @@ Five files were visually inspected. One is excluded as a private identity-verifi
 ## Next indexing rule
 
 Continue in stable filename order, inspect each image before annotation, and add entries in batches. Where several images depict the same character, place, or transformation, create explicit cross-links only after the visual relationship is supported. Preserve source restrictions and do not assume that similar-looking people are the same person.
+
+## Batch 2 — Novel and character references
+
+These five files were retrieved from the Library and visually inspected for the current novel pass. Their roles below are bounded to visible/reference use; they do not establish the identity or biography of any real person.
+
+### GLA-006 — Blue Giant in the Cool-Toned Gym
+- **Library file:** `Blue Giant in the Cool-Toned Gym.png`
+- **Library file ID:** `file_00000000999081f5b7fecd0407668a52`
+- **Use:** cool-toned gym and physique reference; compare framing, body silhouette, and room scale.
+- **Continuity rule:** keep this as its own reference until a supported visual match connects it to another character sequence.
+
+### GLA-007 — Dark Blue Joey in the Industrial Gym
+- **Library file:** `Dark Blue Joey in the Industrial Gym.png`
+- **Library file ID:** `file_00000000204881f59d1be78e2228adfc`
+- **Use:** Joey-named industrial-gym reference for the novel's Joseph/Joey production thread.
+- **Continuity rule:** the filename is a project label, not proof of a real person's identity. Do not infer that the public YouTube account owner appears in this image.
+
+### GLA-008 — Better Things Together
+- **Library file:** `Better Things Together.png`
+- **Library file ID:** `file_00000000116c81f5b0d151924921d07f`
+- **Use:** ordinary-life and togetherness reference; place near shared rooms, meals, and friendship artifacts rather than treating it as a growth-stage image.
+- **Continuity rule:** use as a tonal and compositional reference, not evidence of a real relationship.
+
+### GLA-009 — Teal Titan Under Blue Skies
+- **Library file:** `Teal Titan Under Blue Skies.png`
+- **Library file ID:** `file_00000000262881f5bc3c17ff42dba439`
+- **Use:** separate teal-titan character/environment study; compare against industrial and gym references without merging them automatically.
+- **Continuity rule:** preserve its distinct lighting and setting context.
+
+### GLA-010 — GEEHUB: Worlds Beyond Imagination
+- **Library file:** `GEEHUB: Worlds Beyond Imagination.png`
+- **Library file ID:** `file_0000000078d48210a9c11b39e7197fdb`
+- **Use:** interface lineage reference showing canon, worlds, characters, assets, creations, and Run as connected workspace functions.
+- **Interpretation:** pair with the Living Corpus Dashboard and Holographic Observatory as complementary interface modes; do not treat a concept image as proof that every depicted function is implemented.
+
+## Batch 2 status
+
+Five additional images were inspected and assigned bounded reference roles. The atlas now contains ten entries across two batches. This remains a partial atlas of the 234-file inventory. The Joey growth-driver scripts were also read as technical Library documents; they are not images and are not counted in the image total.

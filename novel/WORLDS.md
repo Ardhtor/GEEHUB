@@ -1957,3 +1957,11 @@ NICK: A detail returns in NORTHGATE LIBRARY: At night the lamps make the reading
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-library/README.md.
 
 Source retained: worlds/northgate-library/README.md. Pressure 0.94; memory 1.00.
+
+## NORTHGATE LIBRARY / pulse 214 / ROUTE_OPEN
+
+SETH: A line becomes visible between NORTHGATE LIBRARY and THE COMMON TABLE. The archive names the relation "CAMPUS AFTER HOURS".
+
+NICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: worlds/northgate-library/README.md. Pressure 1.00; memory 1.00.

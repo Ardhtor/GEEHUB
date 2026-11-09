@@ -10,6 +10,7 @@ on:
       - 'world.json'
       - 'engine/**'
       - 'characters/**'
+      - 'novel/**'
       - 'research/creators/**'
       - 'server/**'
       - 'validate-records.py'
@@ -118,10 +119,25 @@ jobs:
           if (!fs.existsSync('novel/chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md')) {
             throw new Error('Ensemble personality chapter missing.');
           }
+          const andrew = reactions.agents.andrew;
+          const andrewRecord = fs.readFileSync('characters/records/ANDREW.md', 'utf8');
+          const andrewMap = voiceMap.references.find(item => item.character === 'andrew');
+          if (!andrew.physicalIdentity || andrew.physicalIdentity.identity !== 'Italian' || andrew.physicalIdentity.eyes !== 'blue' || !andrew.physicalIdentity.build.includes('baseball')) {
+            throw new Error('Andrew physical and baseball identity missing.');
+          }
+          if (!andrew.temperament.includes('eccentric') || !andrewRecord.includes('genuinely eccentric') || !andrewRecord.includes('baseball player')) {
+            throw new Error('Andrew eccentricity or baseball canon missing.');
+          }
+          if (!andrewMap.userEstablishedCanon || !andrewMap.userEstablishedCanon.physicalDescription.includes('blue eyes')) {
+            throw new Error('Andrew user-established canon missing from reference map.');
+          }
+          if (!fs.existsSync('novel/chapters/CHAPTER_LXXVI_THE_FIELD_HAS_ITS_OWN_ECHO.md')) {
+            throw new Error('Andrew baseball chapter missing.');
+          }
           if (!social.personalityReferencePolicy || !social.personalityReferencePolicy.includes('Do not infer private traits')) {
             throw new Error('Personality-reference evidence boundary missing.');
           }
-          console.log('Followed sources, five mapped voice references, six expanded personality states, reciprocal dynamics, and ensemble chapter verified.');
+          console.log('Followed sources, five voice mappings, six personality states, reciprocal dynamics, Andrew's physical and baseball canon, and both ensemble chapters verified.');
           NODE
       - name: Validate world broadcast and map coverage
         run: |

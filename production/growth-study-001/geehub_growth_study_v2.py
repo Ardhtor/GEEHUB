@@ -133,20 +133,22 @@ def build_rig():
         add_bone(arm_data, f"hand.{side}",
                  (sign * 0.57, 0, 0.98), (sign * 0.60, -0.02, 0.82),
                  f"forearm.{side}", True)
-        # Non-deforming digit controls are staged now; geometry is added in
-        # the dedicated modular hand/foot pass so the fused skin stays stable.
-        for digit, offset, spread in (("thumb", 0.070, 0.060),
-                                      ("index", 0.040, 0.010),
-                                      ("middle", 0.010, 0.000),
-                                      ("ring", -0.020, -0.008),
-                                      ("pinky", -0.048, -0.020)):
-            base = (sign * (0.60 + offset), -0.025, 0.82)
-            mid = (sign * (0.60 + offset + spread * 0.45), -0.035, 0.775)
-            tip = (sign * (0.60 + offset + spread), -0.045, 0.735)
-            add_bone(arm_data, f"{digit}_01.{side}", base, mid,
-                     f"hand.{side}", False, False)
-            add_bone(arm_data, f"{digit}_02.{side}", mid, tip,
-                     f"{digit}_01.{side}", True, False)
+        # Five independently controllable finger chains per hand.
+        # The palm remains part of the continuous body; digit meshes are
+        # separate replaceable objects built after the fused surface exists.
+        hand_digits = (
+            ("thumb", (0.54, -0.050, 0.825), (0.49, -0.070, 0.775), (0.465, -0.075, 0.735), 0.026, 0.018),
+            ("index", (0.555, -0.060, 0.825), (0.558, -0.068, 0.755), (0.556, -0.070, 0.705), 0.021, 0.014),
+            ("middle", (0.585, -0.062, 0.825), (0.588, -0.070, 0.748), (0.588, -0.072, 0.690), 0.022, 0.014),
+            ("ring", (0.615, -0.060, 0.825), (0.620, -0.068, 0.758), (0.624, -0.070, 0.705), 0.020, 0.013),
+            ("pinky", (0.642, -0.052, 0.825), (0.651, -0.060, 0.772), (0.660, -0.062, 0.730), 0.017, 0.011),
+        )
+        for digit, base, mid, tip, base_radius, tip_radius in hand_digits:
+            mirrored = tuple((sign * p[0], p[1], p[2]) for p in (base, mid, tip))
+            add_bone(arm_data, f"{digit}_01.{side}", mirrored[0], mirrored[1],
+                     f"hand.{side}", False, True)
+            add_bone(arm_data, f"{digit}_02.{side}", mirrored[1], mirrored[2],
+                     f"{digit}_01.{side}", True, True)
         add_bone(arm_data, f"thigh.{side}",
                  (sign * 0.18, 0, 0.88), (sign * 0.22, 0, 0.47), "pelvis")
         add_bone(arm_data, f"calf.{side}",
@@ -155,18 +157,21 @@ def build_rig():
         add_bone(arm_data, f"foot.{side}",
                  (sign * 0.23, 0, 0.10), (sign * 0.23, -0.22, 0.07),
                  f"calf.{side}", True)
-        for digit, offset, length in (("big_toe", -sign * 0.035, 0.105),
-                                      ("toe_02", -sign * 0.010, 0.090),
-                                      ("toe_03", sign * 0.012, 0.082),
-                                      ("toe_04", sign * 0.032, 0.073),
-                                      ("toe_05", sign * 0.052, 0.062)):
-            base = (sign * 0.23 + offset, -0.255, 0.065)
-            mid = (sign * 0.23 + offset, -0.255 - length * 0.55, 0.055)
-            tip = (sign * 0.23 + offset, -0.255 - length, 0.048)
+        foot_digits = (
+            ("big_toe", -0.040, 0.145, 0.030, 0.020),
+            ("toe_02", -0.014, 0.132, 0.024, 0.016),
+            ("toe_03", 0.012, 0.116, 0.022, 0.015),
+            ("toe_04", 0.037, 0.098, 0.019, 0.013),
+            ("toe_05", 0.060, 0.078, 0.016, 0.011),
+        )
+        for digit, x_offset, length, base_radius, tip_radius in foot_digits:
+            base = (sign * (0.23 + x_offset), -0.235, 0.066)
+            mid = (sign * (0.23 + x_offset), -0.235 - length * 0.55, 0.058)
+            tip = (sign * (0.23 + x_offset), -0.235 - length, 0.050)
             add_bone(arm_data, f"{digit}_01.{side}", base, mid,
-                     f"foot.{side}", False, False)
+                     f"foot.{side}", False, True)
             add_bone(arm_data, f"{digit}_02.{side}", mid, tip,
-                     f"{digit}_01.{side}", True, False)
+                     f"{digit}_01.{side}", True, True)
     bpy.ops.object.mode_set(mode='OBJECT')
     rig.show_in_front = True
     rig.data.display_type = 'OCTAHEDRAL'
@@ -245,6 +250,152 @@ def weight_connected_surface(body, rig):
     arm_mod.use_vertex_groups = True
     if hasattr(arm_mod, "use_deform_preserve_volume"):
         arm_mod.use_deform_preserve_volume = True
+
+
+def make_digit_mesh(name, points, base_radius, tip_radius, bone_a,
+                    bone_b, material, rig, collection, ring_count=12):
+    """Create a tapered, two-bone appendage mesh with blended joint weights."""
+    p0, p1, p2 = (Vector(point) for point in points)
+    path = ((0.0, p0), (0.52, p1), (1.0, p2))
+    vertices = []
+    faces = []
+    ring_params = (0.0, 0.12, 0.28, 0.43, 0.52, 0.61, 0.76, 0.90, 1.0)
+
+    def sample(t):
+        if t <= 0.52:
+            local = t / 0.52
+            return p0.lerp(p1, local)
+        local = (t - 0.52) / 0.48
+        return p1.lerp(p2, local)
+
+    for t in ring_params:
+        center = sample(t)
+        tangent = (sample(min(1.0, t + 0.015)) -
+                   sample(max(0.0, t - 0.015))).normalized()
+        reference = Vector((0.0, 1.0, 0.0))
+        if abs(tangent.dot(reference)) > 0.92:
+            reference = Vector((1.0, 0.0, 0.0))
+        axis_u = tangent.cross(reference).normalized()
+        axis_v = tangent.cross(axis_u).normalized()
+        radius = base_radius * (1.0 - t) + tip_radius * t
+        if 0.38 <= t <= 0.66:
+            radius *= 0.97
+        for j in range(ring_count):
+            angle = (2.0 * math.pi * j) / ring_count
+            offset = axis_u * math.cos(angle) + axis_v * math.sin(angle)
+            vertices.append(tuple(center + offset * radius))
+
+    for ring in range(len(ring_params) - 1):
+        for j in range(ring_count):
+            a = ring * ring_count + j
+            b = ring * ring_count + (j + 1) % ring_count
+            c = (ring + 1) * ring_count + (j + 1) % ring_count
+            d = (ring + 1) * ring_count + j
+            faces.append((a, b, c, d))
+
+    start_center = len(vertices)
+    vertices.append(tuple(p0))
+    end_center = len(vertices)
+    vertices.append(tuple(p2))
+    for j in range(ring_count):
+        nxt = (j + 1) % ring_count
+        faces.append((start_center, nxt, j))
+        last = (len(ring_params) - 1) * ring_count
+        faces.append((end_center, last + j, last + nxt))
+
+    mesh = bpy.data.meshes.new(name + " — mesh")
+    mesh.from_pydata(vertices, [], faces)
+    mesh.materials.append(material)
+    mesh.update()
+    obj = bpy.data.objects.new(name, mesh)
+    collection.objects.link(obj)
+    for polygon in mesh.polygons:
+        polygon.use_smooth = True
+
+    proximal = obj.vertex_groups.new(name=bone_a)
+    distal = obj.vertex_groups.new(name=bone_b)
+    for ring, t in enumerate(ring_params):
+        if t <= 0.42:
+            wa, wb = 1.0, 0.0
+        elif t >= 0.62:
+            wa, wb = 0.0, 1.0
+        else:
+            wb = (t - 0.42) / 0.20
+            wa = 1.0 - wb
+        indices = list(range(ring * ring_count, (ring + 1) * ring_count))
+        if wa > 0.0:
+            proximal.add(indices, wa, 'REPLACE')
+        if wb > 0.0:
+            distal.add(indices, wb, 'REPLACE')
+    proximal.add([start_center], 1.0, 'REPLACE')
+    distal.add([end_center], 1.0, 'REPLACE')
+
+    armature = obj.modifiers.new("Appendage Rig — two segment", 'ARMATURE')
+    armature.object = rig
+    armature.use_vertex_groups = True
+    obj["component_type"] = "replaceable_appendage_digit"
+    obj["joint_weights"] = "blended across proximal and distal segment"
+    obj["source"] = "GEEHUB Library proportion references"
+    return obj
+
+
+def build_appendage_digits(rig, skin):
+    """Build ten articulated hand digits and ten articulated toes."""
+    collection = bpy.data.collections.new("APPENDAGE_DIGITS — replaceable geometry")
+    bpy.context.scene.collection.children.link(collection)
+    profiles = {
+        "L": {
+            "hand": [
+                ("thumb", (0.54, -0.050, 0.825), (0.49, -0.070, 0.775), (0.465, -0.075, 0.735), 0.026, 0.018),
+                ("index", (0.555, -0.060, 0.825), (0.558, -0.068, 0.755), (0.556, -0.070, 0.705), 0.021, 0.014),
+                ("middle", (0.585, -0.062, 0.825), (0.588, -0.070, 0.748), (0.588, -0.072, 0.690), 0.022, 0.014),
+                ("ring", (0.615, -0.060, 0.825), (0.620, -0.068, 0.758), (0.624, -0.070, 0.705), 0.020, 0.013),
+                ("pinky", (0.642, -0.052, 0.825), (0.651, -0.060, 0.772), (0.660, -0.062, 0.730), 0.017, 0.011),
+            ],
+            "foot": [
+                ("big_toe",  -0.040, 0.145, 0.030, 0.020),
+                ("toe_02",   -0.014, 0.132, 0.024, 0.016),
+                ("toe_03",    0.012, 0.116, 0.022, 0.015),
+                ("toe_04",    0.037, 0.098, 0.019, 0.013),
+                ("toe_05",    0.060, 0.078, 0.016, 0.011),
+            ],
+        },
+        "R": {
+            "hand": [
+                ("thumb", (0.54, -0.050, 0.825), (0.49, -0.070, 0.775), (0.465, -0.075, 0.735), 0.026, 0.018),
+                ("index", (0.555, -0.060, 0.825), (0.558, -0.068, 0.755), (0.556, -0.070, 0.705), 0.021, 0.014),
+                ("middle", (0.585, -0.062, 0.825), (0.588, -0.070, 0.748), (0.588, -0.072, 0.690), 0.022, 0.014),
+                ("ring", (0.615, -0.060, 0.825), (0.620, -0.068, 0.758), (0.624, -0.070, 0.705), 0.020, 0.013),
+                ("pinky", (0.642, -0.052, 0.825), (0.651, -0.060, 0.772), (0.660, -0.062, 0.730), 0.017, 0.011),
+            ],
+            "foot": [
+                ("big_toe",  -0.040, 0.145, 0.030, 0.020),
+                ("toe_02",   -0.014, 0.132, 0.024, 0.016),
+                ("toe_03",    0.012, 0.116, 0.022, 0.015),
+                ("toe_04",    0.037, 0.098, 0.019, 0.013),
+                ("toe_05",    0.060, 0.078, 0.016, 0.011),
+            ],
+        },
+    }
+    for side, sign in (("L", -1), ("R", 1)):
+        for digit, base, mid, tip, radius0, radius1 in profiles[side]["hand"]:
+            points = [(sign * point[0], point[1], point[2])
+                      for point in (base, mid, tip)]
+            make_digit_mesh(
+                f"APPENDAGE_Hand_{digit}.{side}", points, radius0, radius1,
+                f"{digit}_01.{side}", f"{digit}_02.{side}",
+                skin, rig, collection)
+        for digit, x_offset, length, radius0, radius1 in profiles[side]["foot"]:
+            base = (sign * (0.23 + x_offset), -0.235, 0.066)
+            mid = (sign * (0.23 + x_offset), -0.235 - length * 0.55, 0.058)
+            tip = (sign * (0.23 + x_offset), -0.235 - length, 0.050)
+            make_digit_mesh(
+                f"APPENDAGE_Foot_{digit}.{side}", (base, mid, tip),
+                radius0, radius1, f"{digit}_01.{side}", f"{digit}_02.{side}",
+                skin, rig, collection)
+    rig["appendage_collection"] = collection.name
+    rig["appendage_digit_mesh_count"] = 20
+    rig["appendage_geometry"] = "10 separate hand and 10 separate toe meshes"
 
 
 def build_character(rig):
@@ -333,6 +484,7 @@ def build_character(rig):
     for polygon in body.data.polygons:
         polygon.use_smooth = True
     weight_connected_surface(body, rig)
+    build_appendage_digits(rig, skin)
     body["component_type"] = "connected_anatomy_blockout"
     body["construction"] = "overlapping anatomical volumes fused with voxel remesh"
     body["voxel_size"] = BODY_VOXEL_SIZE
@@ -351,10 +503,11 @@ def build_character(rig):
     trim = make_principled("MAT_Seam — muted steel", (0.10, 0.20, 0.21, 1), 0.48, 0.22)
     add_uv_form("CLOTH_Waistband", (0, -0.018, 0.995),
                 (0.348, 0.235, 0.035), trim, "pelvis", rig)
-    rig["study"] = "001 V2.1 — continuous surface, source modules, and appendage controls"
-    rig["appendage_controls"] = "non-deforming finger and toe chains staged for modular geometry pass"
-    rig["geometry_mode"] = "voxel_fused_body_with_hidden_source_modules"
+    rig["study"] = "001 V2.2 — continuous surface, source modules, and articulated digit meshes"
+    rig["appendage_controls"] = "deforming two-segment finger and toe chains weighted to individual digit meshes"
+    rig["geometry_mode"] = "voxel_fused_body_with_hidden_source_modules_and_separate_digit_meshes"
     rig["body_object"] = body.name
+    rig["appendage_digit_mesh_count"] = 20
 
 
 def aim_at(obj, target):

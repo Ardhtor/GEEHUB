@@ -29,7 +29,13 @@
       "retrieval_failures": 0,
       "needs_repair": false,
       "last_retrieval": null,
-      "last_written_at": null
+      "last_written_at": null,
+      "open_question": "What does the returned man remember, what has changed in his relationship with Luke and Joseph, and how does the house accommodate a person who is both familiar and newly changed?",
+      "target": "novel/BOOK_I_CONTINUATION_03.md",
+      "entity_ids": [],
+      "region": null,
+      "last_canon_version_id": null,
+      "retrieval_successes": 0
     },
     {
       "thread_id": "romance-and-domestic-life",
@@ -51,7 +57,13 @@
       "retrieval_failures": 0,
       "needs_repair": false,
       "last_retrieval": null,
-      "last_written_at": null
+      "last_written_at": null,
+      "open_question": "Keep adult gay intimacy frequent and integrated into ordinary life: recurring sex and affection between established partners, new consensual encounters, domestic mornings, dates, friendship, sexual-health care, and the consequences of closeness. Keep all characters adults, preserve privacy, and give each relationship its own character.",
+      "target": "lore/MEN_OF_NORTHGATE_INTIMACY.md",
+      "entity_ids": [],
+      "region": null,
+      "last_canon_version_id": null,
+      "retrieval_successes": 0
     },
     {
       "thread_id": "cabin-lexor-and-privathor",
@@ -73,7 +85,13 @@
       "retrieval_failures": 0,
       "needs_repair": false,
       "last_retrieval": null,
-      "last_written_at": null
+      "last_written_at": null,
+      "open_question": "Continue the sixth day through a concrete exchange between speakers, not a lecture about language. Let a phrase travel from Portuguese into Aramaic and back, with a changed nuance that the characters notice and discuss. Add another language only when a character, document, visitor or practical need grounds it. Keep the Aramaic explicitly literary and provisional, with Hebrew square script correctly distinguished from Hebrew as a language. Do not force a perfect translation, reveal the jar's purpose, or make Privathor's presence obligatory. Keep the notebook's blank spaces meaningful; ordinary work and domestic life should continue around it.",
+      "target": "worlds/cabin/LEXOR_AND_THE_BLACK_PEBBLE.md",
+      "entity_ids": [],
+      "region": null,
+      "last_canon_version_id": null,
+      "retrieval_successes": 0
     }
   ],
   "note": "Initial retrieval set is deliberately limited to three live threads. Add another lane only when it is included in a verified retrieval snapshot."

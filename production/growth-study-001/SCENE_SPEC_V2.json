@@ -130,7 +130,7 @@
       208
     ],
     "output_format": "PNG",
-    "camera": "perspective 65 mm, calibrated to the prior orthographic starting composition; perspective recession used for run-away depth"
+    "camera": "original orthographic studio camera retained; a separate fixed 100 mm vertical-fit perspective camera switches in at frame 108 to show natural recession"
   },
   "research_principles": [
     {

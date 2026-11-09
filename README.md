@@ -132,16 +132,22 @@ The identity-preserving video pipeline is documented in
 [engine/growth-video-studio/README.md](engine/growth-video-studio/README.md).
 Its frame-sequence intake worker validates ordered, source-matched frame
 evidence and verifies the actual checksums and PNG dimensions of supplied body
-and face masks. The local `register:frames` command reruns that audit, writes
-checksummed segmentation and landmark sidecars without overwriting existing
-evidence, then publishes a new versioned manifest only after both files pass
-read-back verification. The local `prepare:render` command reads those exact
-registered sidecars, verifies their checksums and sequence alignment, combines
-their landmark observations with approved cumulative growth states, rechecks
-the referenced body/face PNG bytes and dimensions, and writes a new queued
-manifest plus portable render-job bundle without overwriting existing files. `stage:bridge` can then deliver that bundle to the Dropbox
-mirror. These steps prepare an auditable job; they do not yet deform frames or
-render a video. Construction evidence and remaining blockers are recorded in
+and face masks. It also decodes the binary mask pixels and builds a conservative
+fixed-index grid mesh whose retained triangles are covered by body foreground
+and avoid protected-face pixels across every supplied frame. The mesh is
+reported separately from mask-intake readiness; semantic correctness of the
+upstream masks remains unverified. The local `register:frames` command reruns
+that audit, writes checksummed segmentation and landmark sidecars without
+overwriting existing evidence, then publishes a new versioned manifest only
+after both files pass read-back verification. The local `prepare:render`
+command reads those exact registered sidecars, verifies their checksums and
+sequence alignment, combines their landmark observations with approved
+cumulative growth states, rechecks the referenced body/face PNG bytes and
+dimensions, and writes a new queued manifest plus portable render-job bundle
+without overwriting existing files. `stage:bridge` can then deliver that
+bundle to the Dropbox mirror. These steps prepare an auditable job and a
+source-space mesh; they do not yet deform frames or render a video.
+Construction evidence and remaining blockers are recorded in
 [world/gee-narrative/STATE.md](world/gee-narrative/STATE.md) and
 [world/gee-narrative/CONSTRUCTION_CHRONICLE.md](world/gee-narrative/CONSTRUCTION_CHRONICLE.md).
 

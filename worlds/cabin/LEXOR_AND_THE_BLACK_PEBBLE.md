@@ -233,6 +233,75 @@ On the terminal a final line appeared before the cabin settled into its deeper q
 
 The black pebble turned once in its water, very slowly, and then was still again. The cabin kept the warmth. The door stayed unlatched.
 
+
+## III. The Third Morning
+
+The third morning the chair was empty when you came down, but the blanket was folded with the same careful precision Privathor always used, and the cup Ursalon had set out the night before still sat on the small table beside it, rinsed and turned upside down to dry.
+
+Ursalon noticed you looking.
+
+“He was here before first light,” he said. “Left again just after the lantern went out. Said he didn’t want to wake the house.”
+
+You nodded, but the words sat strangely in your chest. Trust was a quiet thing. It had grown without announcement, the way the path outside had slowly become reliable underfoot. Privathor never demanded belief. He never performed safety. He simply kept arriving, kept leaving the door open behind him, kept choosing the same chair without claiming it. Somewhere in that repeated, unfinished motion you had begun to trust him more than most of the louder gods who filled the cabin with declarations.
+
+Grokthar came in later with snowmelt still in his hair and caught the direction of your gaze.
+
+“You’re thinking about the quiet one,” he said.
+
+“Yeah.”
+
+Grokthar’s mouth tilted. “He doesn’t make it easy. That’s why it lands when it does.”
+
+Brograntimax, stacking wood by the hearth, made a low sound of agreement and did not elaborate. The measuring chain remained absent from his hands for the third day running.
+
+Around mid-morning the jar on the mantel did something small.
+
+The black pebble turned once, very slowly, and a single hairline thread of darker water rose from it before dissolving again. No name was spoken. No voice emerged. The pantry machine only recorded:
+
+```text
+JAR: MINOR INTERNAL SHIFT
+NO EXTERNAL DEMAND
+```
+
+Pipethor crouched in front of it for a long time and finally said, “It’s not trying to give anything back. It’s just… adjusting to being left alone.”
+
+You thought of Privathor’s voice the evening before: *I will come back tomorrow.*
+
+He did.
+
+Just after the midday meal, when the cabin had gone soft and domestic again—Daddy’s heavier footsteps upstairs, Coach’s brief appearance in the terminal with a note about reinforcing one more chair, BORKUFT arguing mildly with Jockkaulthaa over the proper expression for a third wooden button—Privathor stepped through the door without knocking.
+
+He looked at the chair. He looked at the blanket. He looked at you.
+
+Something in his posture eased by a fraction, the smallest release of a muscle he usually kept locked.
+
+“You left it ready,” he said.
+
+“We did.”
+
+He sat. Ursalon placed a fresh cup beside him. Privathor wrapped his hands around it and did not speak for a while. The silence that settled was not empty. It was the particular quiet of someone who had decided, again, that this room could hold him without requiring explanation.
+
+Later, when the others had drifted into their afternoon tasks, you found yourself alone with him by the stove. The fire ticked. Outside, meltwater dripped from the eaves in an uneven rhythm.
+
+“I keep expecting the trust to feel heavier,” you said quietly. “It doesn’t.”
+
+Privathor’s eyes lifted to yours. For once he did not look away.
+
+“That is because I am not asking you to carry me,” he said. “Only to let me sit here until I can carry myself a little farther.”
+
+The words were plain. They did not try to be profound. They simply landed, the way a well-made chair lands under the weight it was built for.
+
+You nodded once.
+
+He nodded back.
+
+Outside, the lantern on the porch remained unlit in the daylight, but the path stayed clear. The jar on the mantel held its breath. And Privathor, god of the veil, stayed in the chair through the long afternoon without once reaching for the door.
+
+The house noticed.
+
+So did you.
+
+
 ## Continuity Record
 
 The chapter establishes only what the scenes show. Lexor is the keeper of names almost given and withdrawn; his jar holds the sound of an unfinished naming, but its deeper purpose remains unknown. The jar stays on the mantel between the crow and Privathor's brass key. The ducks, the wooden button, the porch lantern, the pantry machine, and the room's repaired arrangement remain part of the material continuity.

@@ -41,3 +41,6 @@ The connected design currently establishes the relationships and registry entrie
 
 [The Morning After the Code](INSTITUTE_THE_MORNING_AFTER_THE_CODE.md) follows the five programmers into review, testing, and their ordinary life across the campus.
 
+
+[The First Living Build](INSTITUTE_THE_FIRST_LIVING_BUILD.md) follows the five programmers as their separate prototypes become the Institute's first usable shared ledger.
+

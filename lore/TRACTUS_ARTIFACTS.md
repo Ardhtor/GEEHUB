@@ -192,3 +192,94 @@ These artifacts are designed to interweave existing GEEHUB settings rather than 
 Future chapters should use these objects in motion. A character should find the key wet after rain, discover the old initials on the token, carry a letter without knowing its full history, or notice that the place card has been returned to the drawer. The object should not appear merely to remind the reader that it exists. Its presence should affect a decision, reveal a relationship, open a route, or alter the next inscription.
 
 When an artifact changes hands, record both the transfer and its consequence. When it is repaired, preserve the damage and the repair. When its meaning changes, keep the earlier meaning visible. When two accounts disagree, let the disagreement remain until an event or a deliberate editorial decision resolves it. The cabinet is a living part of the Tractus because the world keeps using what it remembers.
+
+
+## 12. The North Arcade Maintenance Report
+
+**Address:** `TRACTUS.ARTIFACT.NORTH_ARCADE_REPORT`  
+**Material and form:** folded maintenance slip with a water stain at one corner, followed by Luke's measured site note.  
+**Use:** records a practical request from outside the House and the difference between inspection, temporary clearing, and a permanent repair.  
+**Custody:** House work notebook; copy may be shared with the north arcade caretaker.  
+**Provenance:** Book I, Chapter LXXIV — *The First Report*.  
+**Relations:** the first man, Luke, Tyler, Kirk, Joseph, Neral, the north arcade, drainage channel, eastern threshold.  
+**State history:** initial report received; grate cleared; rigid mortar joint left under observation; sample and return visit pending.  
+**Open questions:** whether the joint can be repaired with a compatible mortar; whether the threshold remains dry through the next rain.
+
+## 13. The Veyrthalis Unapproved Route Copy
+
+**Address:** `VEYRTHALIS.ARTIFACT.UNAPPROVED_ROUTE_COPY`  
+**Material and form:** a careful copy of a faint line on the original map, made under low lantern light; the destination is marked unknown.  
+**Use:** preserves a route that avoids the gates of both families without claiming that it has been travelled.  
+**Custody:** Veyrthalis archive, associated with Luke's copied map and photograph.  
+**Provenance:** Chapter VIII — *The Name Not Restored*.  
+**Relations:** Luke, the older Luke, Martin, the unnamed man, the covered name, the forest beyond the western building.  
+**State history:** observed on the original map; copied by consent; destination remains beyond the page.  
+**Open questions:** who first drew the route; where it leads; whether it is safe or passable; why both families refused to approve it.
+
+## 14. The Cabin Language Notebook — Sixth-Day Leaf
+
+**Address:** `CABIN.ARTIFACT.LANGUAGE_NOTEBOOK_06`  
+**Material and form:** working notebook with Portuguese source wording, an experimental literary Aramaic rendering in Hebrew square script, transliteration, and a Portuguese return translation.  
+**Use:** lets a phrase travel through languages while preserving semantic drift and uncertainty.  
+**Custody:** shared household table; no single resident owns the meaning.  
+**Provenance:** *The Jar of Almost-Names*, sixth day.  
+**Relations:** Herbarius, Pipethor, Ursalon, Coach, Privathor, the repaired door, the jar.  
+**State history:** original phrase about entering and leaving without owing an explanation; experimental Aramaic version foregrounds absence; return translation distinguishes noticing from demanding.  
+**Open questions:** how later speakers will use the phrase; whether a more precise Aramaic rendering can be checked; the jar's purpose and Lexor's withdrawn name remain unrelated unresolved matters.
+
+## 15. Mateo's Seed Card
+
+**Address:** `MEXIANCAS.ARTIFACT.MATEO_SEED_CARD`  
+**Material and form:** a small oval dark seed with a pale line, resting on a labelled blank card.  
+**Use:** a sample from Mateo's homeland, preserved as an object of description rather than an instruction to plant or reproduce it.  
+**Custody:** Hall of Accounts, with Mateo's permission to record the object; planting was not authorized.  
+**Provenance:** Volume II, Chapter X — *The Letter That Crossed the Western Passage*.  
+**Relations:** Mateo, Izel, Neral, the western passage, the two maps, Mateo's brother.  
+**State history:** brought by Mateo; described as gathered near his home; placed on a card; not planted.  
+**Open questions:** the tree's local name and uses; whether Mateo will later authorize further study; whether his brother will visit.
+
+## 16. The Hrothgar Clearing Song — Two Accounts
+
+**Address:** `GEATISH.ARTIFACT.CLEARING_SONG`  
+**Material and form:** a worn small stringed instrument and two attributed melodic versions, one from Heorot and one developed at Northgate.  
+**Use:** carries ordinary hall life and the changes made by memory, grief, travel, and return.  
+**Custody:** the instrument remains with Sigeferth; the two versions are retained in the Hall of Returning Voices.  
+**Provenance:** *Beowulf and the Geatish Company* — *The Men Who Had Kept Hrothgar's Hall*.  
+**Relations:** Wulfgar, Eadwine, Hrothmar, Sigeferth, Wiglaf, Hrothgar's household, Geatish House, Hall of Returning Voices.  
+**State history:** first phrase remembered from Heorot; revised ending developed at Northgate; both versions preserved.  
+**Open questions:** how the new version will change through future gatherings; whether other members of Hrothgar's household remember additional verses.
+
+## 17. The Dad Convent Beam Register
+
+**Address:** `DAD_CONVENT.ARTIFACT.BEAM_REGISTER_02`  
+**Material and form:** a construction ledger identifying each beam, its measured condition, intended position, and reason for reassignment.  
+**Use:** prevents a material decision from disappearing into the apparent progress of a build.  
+**Custody:** Dad Convent Registry.  
+**Provenance:** *Second Build Day — The Covered Lumber Store*.  
+**Relations:** Luke, Tyler, Kirk, Joseph, Bill, Grammaton, Architect, Builder, Keeper, Witness, Heir.  
+**State history:** one twisted beam was withheld from its first planned location; the frame remains braced and unfinished.  
+**Open questions:** whether the beam can be used elsewhere; whether the drainage edge remains stable after rain; when the roof beams can safely be lifted.
+
+## 18. The Northgate Off-Centre Test Frame
+
+**Address:** `NORTHGATE.ARTIFACT.BRIDGE_TEST_FRAME_01`  
+**Material and form:** a saved video or still frame from the first off-centre load test, with date, model version, participants, and test condition attached.  
+**Use:** records early movement at the base of the bridge model and motivates a revised test.  
+**Custody:** Northgate engineering and media suite archive.  
+**Provenance:** *The Long Table After Dark*.  
+**Relations:** Dan Roman, Marek Ionescu, Elliot Ward, Noah Bell, Adrian Varga, engineering lecture, athletic commons.  
+**State history:** centred load had been tested; off-centre load reveals base movement; further testing is required.  
+**Open questions:** deflection at the far end; repeatability under the same conditions; whether the revised joint resolves the movement.
+
+## 19. The Return-to-Measure Record
+
+**Address:** `GROWTH.ARTIFACT.RETURN_BASELINE_VEylan`  
+**Material and form:** paired measurements with the earlier baseline retained beside a later account of changed aims and conditions.  
+**Use:** prevents a new measurement from silently overwriting the history that gives it meaning.  
+**Custody:** Hall of the Great Measure; private and shared portions remain distinguished.  
+**Provenance:** Chapter VII — *The Return to the Measure*.  
+**Relations:** Veylan, the oldest keeper, the measuring cord, mirror, stone bowl, dark surface.  
+**State history:** previous baseline retained; new aim recorded; no passage through the dark surface is presumed.  
+**Open questions:** whether Veylan will return to the final threshold; how his new aim changes with experience.
+
+These records add objects that already have narrative consequences. They do not claim that a live artifact database or visual asset has been generated. A later production pass can create modular drawings and previews, each linked to the stable address above.

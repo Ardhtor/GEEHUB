@@ -23,6 +23,8 @@ At the entrance, beneath the name cast into a broad oak lintel, the Coach eventu
 
 **MAKE ROOM. KEEP GOING.**
 
+[A Morning in the Gymnasium](INSTITUTE_MORNING_THE_GYMNASIUM.md) extends this daily rhythm into a continuous scene.
+
 ## The Gymnasium as a Living Centre
 
 The original gymnasium remains the Institute's physical and social centre, and its training culture now has a connected experience layer in the Tractus: [Jock Hypnosis — Institute Training Experience](../production/growth-study-001/JOCK_HYPNOSIS_EXPERIENCE_SPEC.md), governed by the [Continuity Bridge](../production/growth-study-001/JOCK_HYPNOSIS_CONTINUITY_BRIDGE.md). The gym is not a separate application or an isolated challenge room. It is one of the places through which the Institute remembers its inhabitants.

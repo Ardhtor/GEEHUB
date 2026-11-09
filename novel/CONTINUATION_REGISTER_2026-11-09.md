@@ -86,3 +86,8 @@ Next scenes should test these traits in less orderly circumstances: Luke must ac
 ## Grand Meridian — Joey's true role and the weekly sentence
 
 The hotel novel now includes [The Director of Standards](THE_DIRECTOR_OF_STANDARDS.md), with a fictionalized Stanley Tucci as the sole *Devil Wears Prada* carryover, and [The Last Checkout](THE_LAST_CHECKOUT.md), which establishes Joey as the devilish authority behind the repeating week. Joey deliberately restrains the men's perception: he appears ordinary-sized under direct observation but can reveal his actual thirty-foot Stage Four Teal Titan form at will. The loop is his sentence, sustained by his manipulation and by the men's repeated denial of his true scale and their own fictional crimes. The finale confronts both sides of responsibility. See [Joey's character record](../characters/records/JOEY.md) and [Grand Meridian Continuity Atlas](THE_GRAND_MERIDIAN_CONTINUITY_ATLAS.md).
+
+
+## Grand Meridian — senior butler added
+
+The hotel staff now includes a fictionalized Christopher Meloni as the senior butler. He handles intimate guest service, room preparation, luggage and wardrobe arrangements, private dining, and discreet movement through the service network. His service book can preserve metaxic residue through terse operational notes. He is distinct from Emil Voss the concierge, Rainer the porter, Pavel Soren the engineer, and Stanley Tucci the Director of Standards. Tucci remains the sole *Devil Wears Prada* carryover; Meloni is a separate casting choice for the Grand Meridian. Joey remains the devilish authority behind the weekly sentence.

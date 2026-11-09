@@ -92,6 +92,46 @@ function triangleArea(points) {
   return (b.x - a.x) * (c.y - a.y) - (c.x - a.x) * (b.y - a.y);
 }
 
+function connectedTriangleComponents(triangles) {
+  const adjacency = triangles.map(() => new Set());
+  const edgeOwners = new Map();
+  triangles.forEach((triangle, index) => {
+    for (const [first, second] of [
+      [triangle[0], triangle[1]],
+      [triangle[1], triangle[2]],
+      [triangle[2], triangle[0]]
+    ]) {
+      const key = first < second ? first + ":" + second : second + ":" + first;
+      const owner = edgeOwners.get(key);
+      if (owner === undefined) edgeOwners.set(key, index);
+      else {
+        adjacency[index].add(owner);
+        adjacency[owner].add(index);
+      }
+    }
+  });
+
+  const visited = new Set();
+  const components = [];
+  for (let start = 0; start < triangles.length; start += 1) {
+    if (visited.has(start)) continue;
+    const component = [];
+    const queue = [start];
+    visited.add(start);
+    while (queue.length) {
+      const current = queue.pop();
+      component.push(current);
+      for (const neighbour of adjacency[current]) {
+        if (visited.has(neighbour)) continue;
+        visited.add(neighbour);
+        queue.push(neighbour);
+      }
+    }
+    components.push(component);
+  }
+  return components;
+}
+
 function triangleMaskStatus(frame, points, indices, width, height, prefixes) {
   const triangle = indices.map(index => points[index]);
   if (Math.abs(triangleArea(triangle)) < 1e-8) return "degenerate";
@@ -262,14 +302,18 @@ export function buildStableMaskMesh(frames, options = {}) {
   };
   const topologyId = createHash("sha256").update(JSON.stringify(topology)).digest("hex");
   const hasStableTopology = triangles.length > 0;
-  const ready = triangles.length >= minTriangles;
+  const components = connectedTriangleComponents(triangles);
+  const connected = components.length === 1;
+  const ready = triangles.length >= minTriangles && connected;
+  const status = ready ? "ready" : triangles.length > 0 && !connected ? "disconnected" : "insufficient-coverage";
 
   return {
     schema: "geehub.mask-mesh",
     schemaVersion: 1,
-    status: ready ? "ready" : "insufficient-coverage",
+    status,
     topologyId,
     topologyStable: hasStableTopology,
+    connected,
     sequence: {
       firstFrame: preparedFrames[0].frame,
       lastFrame: preparedFrames[preparedFrames.length - 1].frame,
@@ -287,13 +331,16 @@ export function buildStableMaskMesh(frames, options = {}) {
       candidateTriangles: candidates.length,
       stableTriangles: triangles.length,
       ratio: candidates.length ? triangles.length / candidates.length : 0,
+      connectedComponents: components.length,
+      componentSizes: components.map(component => component.length),
       rejected
     },
     evidence: {
       source: "decoded-binary-body-and-face-masks",
       faceExclusionVerified: hasStableTopology,
       pixelSemanticsVerified: false,
-      topologyAcrossFrames: hasStableTopology ? "identical-triangle-and-vertex-identities" : "no-stable-triangles"
+      topologyAcrossFrames: hasStableTopology ? "identical-triangle-and-vertex-identities" : "no-stable-triangles",
+      edgeConnected: connected
     },
     note: "Triangles are retained only when every covered pixel centre is body foreground and protected-face background in every supplied frame. This proves mask-relative coverage, not anatomical correctness of the upstream masks. No image pixels are altered."
   };

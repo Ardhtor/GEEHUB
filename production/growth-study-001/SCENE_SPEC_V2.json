@@ -10,7 +10,7 @@
     "render_validation": "pending",
     "locomotion_validation": "pending",
     "camera_switch_validation": "pending",
-    "video6_pose_validation": "pending_blender_render_comparison"
+    "video6_pose_validation": "pending_blender_scene_evaluation_and_render_comparison"
   },
   "target": "Blender 4.x",
   "character": {
@@ -80,7 +80,7 @@
   },
   "timeline": {
     "frame_start": 1,
-    "frame_end": 360,
+    "frame_end": 208,
     "stages": [
       {
         "frame": 1,
@@ -138,7 +138,14 @@
       "independent_track": "VIDEO6_POSE — reference matched hand targets",
       "rig_state_track": "03_VIDEO6_RIG_STATE — root and IK mode",
       "camera": "CAM_Video6",
-      "validation": "pending Blender execution and frame-by-frame comparison"
+      "validation": "pending Blender execution and frame-by-frame comparison",
+      "scene": "VIDEO6_POSE_STUDY",
+      "frame_range": [
+        216,
+        360
+      ],
+      "independent_scene": true,
+      "description": "separate scene sharing the rig and environment objects; independent frame range and camera"
     }
   },
   "lighting": {
@@ -168,15 +175,17 @@
     "preview_frames": [
       1,
       108,
-      208,
+      208
+    ],
+    "output_format": "PNG",
+    "camera": "growth: original orthographic study camera; run-away: CAM_RunAway perspective; Video6 pose: CAM_Video6 low frontal perspective",
+    "video6_previews": [
       216,
       264,
       282,
       324,
       360
-    ],
-    "output_format": "PNG",
-    "camera": "growth: original orthographic study camera; run-away: CAM_RunAway perspective; Video6 pose: CAM_Video6 low frontal perspective"
+    ]
   },
   "research_principles": [
     {

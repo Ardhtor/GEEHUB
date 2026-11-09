@@ -54,6 +54,7 @@ jobs:
           python -m json.tool engine/schemas/tractus-revision.schema.json > /dev/null
           python -m json.tool engine/schemas/innervation-cue.schema.json > /dev/null
           python -B -m unittest discover -s scripts -p 'test_*.py'
+          # Includes simulated concurrent I/O, repeated autosaves, large writes, and interrupted-save recovery.
           python -B -m unittest discover -s engine -p 'test_*.py'
           python engine/check_performance.py tractus-science
 

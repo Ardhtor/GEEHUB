@@ -61,7 +61,7 @@ def validate_cue(cue: dict[str, Any]) -> list[str]:
     if not isinstance(cue.get("duration_beats"), (int, float)) or cue.get("duration_beats", 0) <= 0:
         errors.append("cue duration_beats must be positive")
     pattern = cue.get("pattern")
-    if pattern is not None and pattern not in ALLOWED_CUE_PATTERNS:
+    if pattern is not None and (not isinstance(pattern, str) or pattern not in ALLOWED_CUE_PATTERNS):
         errors.append("cue pattern must be lock_in, threshold, reveal, or recall")
     state = cue.get("state_change") or {}
     changed = False
@@ -126,18 +126,30 @@ def validate_thread(thread: dict[str, Any], ladder: tuple[int, ...] = INTERVAL_L
         errors.append("thread retrieval counters are inconsistent")
     if failures >= 2 and thread.get("needs_repair") is not True:
         errors.append("thread with two failed retrievals must be flagged needs_repair")
+    if thread.get("last_written_at") and not isinstance(thread.get("last_retrieval"), dict):
+        errors.append("thread write requires a recorded retrieval block")
     return errors
 
 
 def validate_writer_output(output: dict[str, Any]) -> list[str]:
     errors: list[str] = []
     additions = output.get("canon_additions", [])
+    if not isinstance(additions, list):
+        errors.append("canon_additions must be a list")
+        additions = []
     if additions and not isinstance(output.get("retrieval"), dict):
         errors.append("canon addition requires a retrieval block")
-    if isinstance(additions, list) and len(additions) > 1:
+    if len(additions) > 1:
         errors.append("writer output may contain at most one canon addition per cycle")
-    for job in output.get("jobs", []):
-        if job.get("status") == "QUEUED" and job.get("claimed_completed") is True:
+    jobs = output.get("jobs", [])
+    if not isinstance(jobs, list):
+        errors.append("writer jobs must be a list")
+        jobs = []
+    for index, job in enumerate(jobs):
+        if not isinstance(job, dict):
+            errors.append(f"writer job {index} must be an object")
+            continue
+        if str(job.get("status", "")).upper() == "QUEUED" and job.get("claimed_completed") is True:
             errors.append("queued media job cannot be claimed as completed")
     return errors
 

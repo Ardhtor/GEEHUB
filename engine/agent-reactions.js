@@ -21,7 +21,7 @@
   const fallback={
     luke:{mood:'present',attention:'the person and the room',temperament:'warm, direct, physically attentive; the first to make room',disposition:['direct','protective','body-aware','social']},
     tyler:{mood:'curious',attention:'measurable change',temperament:'curious, exacting, dryly funny; wants the result to hold up',disposition:['curious','skeptical','precise','competitive']},
-    andrew:{mood:'ready',attention:'what happens next',temperament:'playful, active, improvisational; makes beginnings feel possible',disposition:['playful','active','improvisational','social']},
+    andrew:{mood:'offbeat',attention:'the odd detail in the field, the game, and the people around him',temperament:'a big, muscular Italian baseball player with blue eyes; socially warm, genuinely eccentric, and full of unexpected connections',disposition:['eccentric','athletic','associative','playful','social']},
     joseph:{mood:'reflective',attention:'continuity and meaning',temperament:'reflective, intimate, associative; keeps continuity alive through small details',disposition:['intimate','interpretive','memory-driven','associative']},
     chase:{mood:'watchful',attention:'what actually happened',temperament:'watchful, restrained, decisive; remembers the consequence',disposition:['observant','decisive','dry','narrative-minded']},
     gabe:{mood:'transformative',attention:'how attention and pressure change the next baseline',temperament:'reflective, self-aware, socially sensitive; attentive to transformation',disposition:['process-aware','identity-conscious','growth-driven','social-signal-sensitive']}
@@ -37,6 +37,8 @@
       memory:/memory|return|record|baseline/.test(text),
       space:/room|space|clearance|door|map|land/.test(text),
       social:/attention|encounter|luke|tyler|andrew|joseph|chase/.test(text),
+      baseball:/baseball|batting|dugout|inning|glove|pitch|home run|ball field/.test(text),
+      eccentric:/odd|strange|peculiar|weird|unexpected|sideways|association/.test(text),
       archive:event?.category==='archive',
       making:event?.category==='making',
       people:event?.category==='people',
@@ -60,10 +62,12 @@
       else if(features.people){mood='analytical';response='He looks for the actual exchange behind the names and status.';next='compare the interaction with the record.';}
       else {mood='curious';response='He notices a mismatch and keeps watching.';next='identify the variable that changed.';}
     }else if(id==='andrew'){
-      if(features.scale||features.space||features.making||features.world){mood='energized';response='He treats the changed room as something to move through and test.';next='turn the new constraint into the next piece of play.';}
-      else if(features.image){mood='amused';response='He wants to see what happens when the new image becomes an environment.';next='make the scene playable instead of static.';}
-      else if(features.people){mood='social';response='He treats the selected people-space as an invitation to make something happen.';next='start a concrete exchange.';}
-      else {mood='ready';response='He looks for the opening created by the change.';next='do something with it.';}
+      if(features.baseball){mood='competitive';response='He reads the baseball detail like a play developing: timing, angle, bounce, and the strange little variable nobody else noticed.';next='take the observation to the field and see whether it holds up.';}
+      else if(features.eccentric){mood='intrigued';response='He follows the peculiar connection further; to him, the odd detail is probably the useful one.';next='show the others the first step in the association.';}
+      else if(features.image){mood='curious';response='He notices one oddly specific detail in the image and begins building an unexpected explanation around it.';next='find out whether the strange observation leads anywhere.';}
+      else if(features.people){mood='social';response='He invents an unusual way into the conversation, then waits to see who follows.';next='invite someone into the idea without assuming they will join.';}
+      else if(features.scale||features.space||features.making||features.world){mood='offbeat';response='He sees a practical opening, but approaches it from a direction nobody else has tried.';next='explain the odd route before asking the group to take it.';}
+      else {mood='offbeat';response='He is occupied by a detail that appears unrelated until he explains the connection.';next='start with the thing that caught his eye.';}
     }else if(id==='joseph'){
       if(features.memory||features.scale||features.archive||features.story){mood='moved';response='He recognizes the old state inside the new one.';next='keep one small detail that proves the past is still here.';}
       else if(features.image){mood='absorbed';response='He looks for the detail that makes the image belong to the world.';next='connect the visual return to something already remembered.';}

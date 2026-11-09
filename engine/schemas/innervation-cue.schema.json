@@ -8,15 +8,11 @@
     "source_id",
     "bpm",
     "phase",
-    "duration_ms",
     "target_response",
-    "synchrony_mode",
+    "duration_beats",
     "trigger",
     "action",
-    "state_before",
-    "state_after",
-    "next_cue_allowed",
-    "sonic_residue"
+    "state_change"
   ],
   "properties": {
     "cue_id": {
@@ -28,32 +24,31 @@
       "minLength": 1
     },
     "bpm": {
-      "type": [
-        "number",
-        "null"
-      ],
+      "type": "number",
       "minimum": 30,
       "maximum": 300
     },
     "phase": {
-      "type": "number",
-      "minimum": 0
-    },
-    "duration_ms": {
-      "type": "integer",
-      "minimum": 1
+      "enum": [
+        "on_beat",
+        "off_beat",
+        "break",
+        "silence"
+      ]
     },
     "target_response": {
-      "type": "string",
-      "minLength": 1
-    },
-    "synchrony_mode": {
       "enum": [
-        "entrain",
-        "offset",
-        "break",
-        "free"
+        "pause",
+        "step",
+        "turn",
+        "breath",
+        "reach",
+        "stillness"
       ]
+    },
+    "duration_beats": {
+      "type": "number",
+      "exclusiveMinimum": 0
     },
     "trigger": {
       "type": "string",
@@ -63,21 +58,13 @@
       "type": "string",
       "minLength": 1
     },
-    "state_before": {
-      "type": "object"
+    "state_change": {
+      "type": "object",
+      "minProperties": 2
     },
-    "state_after": {
-      "type": "object"
-    },
-    "next_cue_allowed": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "sonic_residue": {
-      "type": "string",
-      "minLength": 1
+    "silence_beats": {
+      "type": "number",
+      "minimum": 0
     }
   },
   "additionalProperties": false

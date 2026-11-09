@@ -36,7 +36,7 @@ The Library clip `generated_video6(1).mp4` is 6.0417 seconds, 24 fps, 448×672. 
 The pose action begins at frame 216 and ends at frame 360. A dedicated low frontal camera switches in at frame 216. Preview frames are rendered at the neutral pose, wide-arm pose, double-biceps peak, hold, and release.
 
 ## Validation
-The full updated script has not yet been recompiled, and Blender execution has not yet been run in this authoring environment. Voxel-remesh output, weight quality, render appearance, and animation behavior remain pending Blender validation.
+The updated source will be checked by the repository's static-validation workflow. Blender execution, IK bend direction, skinning, foot contact, and the preview renders remain pending. Voxel-remesh output, weight quality, render appearance, and animation behavior remain pending Blender validation.
 
 This is a procedural blockout, not a finished anatomical character. Fusion removes gaps between anatomy volumes but does not provide muscle sliding, corrective shapes, detailed hands, facial performance, or production-quality topology. The nearest-bone weighting is a starting heuristic and must be inspected at shoulders, elbows, hips, and knees.
 

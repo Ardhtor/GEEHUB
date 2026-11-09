@@ -39,6 +39,7 @@ class CanonPromotionIntegrationTests(unittest.TestCase):
             patch.object(promotion, "ROOT", self.root),
             patch.object(promotion, "VERSIONS", self.versions),
             patch.object(promotion, "ACTIVITY", self.activity),
+            patch.object(promotion, "ALLOWED_ENTITIES", {"lore/sample.md"}),
         ]
         for item in self.stack:
             item.start()

@@ -65,3 +65,6 @@ The central [Character Voice References](../hub/CHARACTER_VOICE_REFERENCES.md) p
 The records for Luke, Tyler, Chase, Gabe, and Andrew now include inner drives, blind spots, emotional vulnerabilities, humour, affection, conflict and repair styles, speech behaviour, repeatable personal details, and individual growth directions. These traits are designed to create change through encounters rather than to function as fixed labels. Joseph remains the continuity-minded sixth voice in the common-room ensemble.
 
 [Chapter LXXV — The Table After Rain](../novel/chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md) is the first shared scene built to demonstrate these differences through an ordinary repair. The machine-readable model at [agent-reaction-states.json](../hub/agent-reaction-states.json) carries the current temperament and relationship dynamics into the reaction system.
+
+
+Andrew's physical and sporting identity has now been established by the user: a big, muscular Italian baseball player with blue eyes, paired with a genuinely eccentric and associative personality. His position, team, playing level, regional origin, accent, and exact measurements remain open. See [Andrew's record](records/ANDREW.md) and [Chapter LXXVI — The Field Has Its Own Echo](../novel/chapters/CHAPTER_LXXVI_THE_FIELD_HAS_ITS_OWN_ECHO.md).

@@ -284,9 +284,9 @@ prediction_error. No prediction error means skip=true.
         fail("Verification must return a numeric retrieval_score.")
     if not 0 <= score <= 1:
         fail("retrieval_score must be between 0 and 1.")
-    if score < 0.5:
+    if score < 0.8:
         result["skip"] = True
-        result["reason"] = "Recall score below 0.5; record an observation and repair the thread before canon changes."
+        result["reason"] = "Recall score below 0.8; record an observation and repair the thread before canon changes."
     snapshot = result.get("verified_retrieval_snapshot")
     if not isinstance(snapshot, list) or len(snapshot) != 3:
         fail("Verification must return exactly three updated retrieval snapshot objects.")

@@ -9,3 +9,7 @@ Lexor says the jar remembers the sound a name makes when someone almost says it 
 At the Cabin, Lexor accepts Ursalon's welcome, leaves the jar on the mantel between the crow and Privathor's brass key, and departs by choice. His parting words are, "The path is lit." He does not return the following morning. The household allows the object to remain without demanding its explanation.
 
 Continuity rules: preserve Lexor's careful, restrained manner; do not invent the withdrawn name or the thing it named; do not make him a captive of the jar; and do not turn the jar's unresolved function into a confirmed mechanism without a later story event.
+
+## First appearance
+
+[The Jar of Almost-Names](../../worlds/cabin/LEXOR_AND_THE_BLACK_PEBBLE.md) records Lexor's arrival at the Cabin and the following day. Preserve its chronology and leave the withdrawn name unresolved.

@@ -60,11 +60,14 @@ def main() -> int:
     missing = [event_id for event_id in args.evidence_event_id if event_id not in event_by_id]
     if missing:
         raise SystemExit("Unknown evidence event IDs: " + ", ".join(missing))
+    if any(item.get("prior_version_id") == args.version_id and item.get("status") == "canon" for item in versions):
+        raise SystemExit("This experiment already has a canon promotion.")
     event_id = "tractus-promotion-" + hashlib.sha256(
         (args.version_id + args.reviewer + args.reason + "|".join(args.evidence_event_id)).encode("utf-8")
     ).hexdigest()[:16]
     if event_id in event_by_id:
         raise SystemExit("This promotion event already exists.")
+    canon_version_id = "canon-" + hashlib.sha256((args.version_id + event_id).encode("utf-8")).hexdigest()[:20]
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     inscribe_event({
         "id": event_id,
@@ -72,22 +75,32 @@ def main() -> int:
         "type": "canon_promotion",
         "title": "Explicit Tractus canon promotion",
         "description": args.reason,
-        "version_id": args.version_id,
+        "version_id": canon_version_id,
+        "prior_version_id": args.version_id,
         "reviewer": args.reviewer,
         "evidence_event_ids": args.evidence_event_id,
-        "action": "Promote reviewed experiment to canon.",
+        "action": "Promote reviewed experiment to a new canon version.",
     }, source="scripts/promote_canon_version.py")
-    version.update({
+    promoted = {
+        "canon_version_id": canon_version_id,
+        "entity": version["entity"],
+        "prior_version_id": args.version_id,
+        "created_by_event_id": event_id,
+        "created_at": now,
+        "claim": version.get("claim", "Reviewed experimental baseline promoted to canon."),
+        "what_remains": version.get("what_remains", ""),
+        "content_sha256": version.get("content_sha256"),
+        "source_commit": version.get("source_commit"),
+        "prior_sha256": version.get("content_sha256"),
+        "baseline": True,
         "status": "canon",
         "promotion_event_id": event_id,
         "promoted_by": args.reviewer,
         "promotion_reason": args.reason,
         "evidence_event_ids": args.evidence_event_id,
-    })
-    VERSIONS.write_text(
-        "".join(json.dumps(item, ensure_ascii=False, separators=(",", ":")) + "\n" for item in versions),
-        encoding="utf-8",
-    )
+    }
+    with VERSIONS.open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(promoted, ensure_ascii=False, separators=(",", ":")) + "\\n")
     print(f"Promoted {args.version_id} to canon via {event_id}.")
     return 0
 

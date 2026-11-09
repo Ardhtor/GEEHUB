@@ -30,3 +30,15 @@ This is a user-designated musical association in the fictional character's canon
 A six-second video was also supplied in this conversation as a visual reference for the Stage 4 / “Muscle Bwomph Growth” designation. It depicts a monumental blue-green, heavily muscled adult figure in gray shorts, standing and posing in a warmly lit gym. The file contains H.264 video at 448 × 672, 24 fps, AAC stereo audio at 48 kHz, and an MJPEG poster stream. Duration: 6.041667 seconds. SHA-256: `15b1d4332993bed2b4c88d35429a079dd6b7023e4a4fb612a95e2333fd98bbde`. This is a conversation-supplied reference, not yet archived in Dropbox or the repository. Its presence does not verify that the audio is the linked YouTube track.
 
 The Stage 4 label is retained as the user's creative designation. It does not replace the six-stage production timeline; it identifies the character moment/association the user wants emphasized.
+
+
+## Stage 4 story cycle
+
+The Gold's on 5th narrative cycle now has four chapters in the production folder:
+
+1. [The Distance Between Two Rooms](../../production/projects/teal-titan-golds-on-5th/CHAPTER_01_THE_DISTANCE_BETWEEN_TWO_ROOMS.md) — the Stage 4 signal, theme-song association, and distance between rooms.
+2. [The Ledger That Did Not Read Messages](../../production/projects/teal-titan-golds-on-5th/CHAPTER_02_THE_LEDGER_THAT_DID_NOT_READ_MESSAGES.md) — a room archive that preserves observation while leaving private correspondence outside the record.
+3. [The Colour Key](../../production/projects/teal-titan-golds-on-5th/CHAPTER_03_THE_COLOUR_KEY.md) — base teal, illumination, and transformation state are kept distinct.
+4. [The Exhibition of One Man](../../production/projects/teal-titan-golds-on-5th/CHAPTER_04_THE_EXHIBITION.md) — the gym displays the production studies, identifies Stage 4 as the current character state, and records how perspective and room scale affect the image.
+
+The exhibition's six sheets are narrative production studies, not six finished renders. The project has not claimed a completed video master. The Titan's next chapter concerns camera placement and visual continuity from multiple angles, not an automatic escalation to Stage 5.

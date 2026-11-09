@@ -62,3 +62,12 @@ The Tractus's second artifact cabinet is recorded in [The Artifact Chronicles �
 ## Teal Titan — Gold's on 5th
 
 The Teal Titan's dedicated production narrative now contains [Chapter IV — The Exhibition of One Man](../production/projects/teal-titan-golds-on-5th/CHAPTER_04_THE_EXHIBITION.md). The gym displays six production studies and identifies the user's Stage 4 form as the current character reference. The men distinguish observed body continuity from camera perspective, room scale, lighting, and unfinished production work. Stage 4 remains the current designation; no Stage 5 event is implied. The character record and project README link the new chapter.
+
+
+## Character development — six-person ensemble
+
+[Chapter LXXV — The Table After Rain](chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md) gives Luke, Tyler, Chase, Gabe, Andrew, and Joseph a shared repair in which their differing instincts become visible. Luke makes room and learns not to take over; Tyler tests the joint and learns to let the human exchange stand beside the measurement; Chase preserves evidence while choosing to participate; Gabe separates recognition from the pressure to keep changing; Andrew learns to let a pause remain; Joseph carries the history of the room without forcing it to settle the present.
+
+The five user-mapped records have been expanded with personal motives, contradictions, vulnerabilities, humour, affection, conflict and repair styles, speech habits, repeatable details, and growth directions. Their public account references remain designated creative sources, not verified accounts of the real people's personalities. The [character reaction model](../hub/agent-reaction-states.json) now carries six distinct temperaments and reciprocal relationship dynamics.
+
+Next scenes should test these traits in less orderly circumstances: Luke must accept help; Tyler must choose between being right and being understood; Chase must ask to be included before the moment has passed; Gabe must refuse a response that would dictate his next baseline; Andrew must stay when nobody wants an activity; Joseph must allow a new account to alter an old memory.

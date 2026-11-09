@@ -898,5 +898,23 @@
       "continuity",
       "institute"
     ]
+  },
+  {
+    "id": "tractus-execution-paths",
+    "name": "GEEHUB Execution Paths",
+    "status": "active",
+    "kind": "implementation-roadmap",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/docs/GEEHUB_EXECUTION_PATHS.md",
+    "description": "Cross-system implementation map for event propagation, Institute and campus continuity, body/growth state, voice, visual production, sound, cross-world passages, tool dependencies and acceptance tests.",
+    "related": [
+      "tractus-continuity",
+      "institute-of-becoming",
+      "jock-hypnosis",
+      "growth-study-001",
+      "voice-engine-runtime",
+      "hulums-cave",
+      "geehub-studio"
+    ]
   }
 ]

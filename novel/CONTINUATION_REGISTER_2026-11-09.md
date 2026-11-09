@@ -57,3 +57,8 @@ The Tractus's second artifact cabinet is recorded in [The Artifact Chronicles �
 ## Added body-culture reference
 
 [Eric Janicki — User-Selected Reference](../research/ERIC_JANICKI_REFERENCE.md) records the user's interest in Eric Janicki as a public training and physique reference. Northgate's Long Table chapter now names this reference within its discussion of coaching media and visual interpretation. Exact clips should be added individually when selected; the fictional students' observations must not be attributed to the real person.
+
+
+## Teal Titan — Gold's on 5th
+
+The Teal Titan's dedicated production narrative now contains [Chapter IV — The Exhibition of One Man](../production/projects/teal-titan-golds-on-5th/CHAPTER_04_THE_EXHIBITION.md). The gym displays six production studies and identifies the user's Stage 4 form as the current character reference. The men distinguish observed body continuity from camera perspective, room scale, lighting, and unfinished production work. Stage 4 remains the current designation; no Stage 5 event is implied. The character record and project README link the new chapter.

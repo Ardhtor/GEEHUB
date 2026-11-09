@@ -26,9 +26,10 @@ class TractusScienceTests(unittest.TestCase):
             "type": "canon_update",
             "prediction": {"expected": "Luke travels alone"},
             "observation": {"happened": "Berit is already there"},
-            "prediction_error": {"present": True},
+            "prediction_error": {"present": True, "type": "who", "severity": "medium"},
             "prior_version_id": "v1",
             "change": {"canon_version_id": "v2", "what_changed": "company", "what_remains": "road"},
+            "provenance": {"author": "unit-test"},
         }
         self.assertEqual(validate_event(event), [])
 
@@ -58,11 +59,14 @@ class TractusScienceTests(unittest.TestCase):
         self.assertTrue(validate_writer_output({"canon_additions": [{"id": "a"}]}))
         self.assertTrue(validate_writer_output({"retrieval": {}, "canon_additions": [{"id": "a"}, {"id": "b"}]}))
 
-    def test_experiment_promotion_is_not_implicit(self):
+    def test_experiment_promotion_requires_explicit_event(self):
         records = [
-            {"canon_version_id": "v1", "status": "experiment"},
-            {"canon_version_id": "v2", "prior_version_id": "v1", "status": "canon"},
+            {"canon_version_id": "v1", "entity": "lore/test.md", "created_by_event_id": "e1", "status": "experiment"},
+            {"canon_version_id": "v2", "entity": "lore/test.md", "created_by_event_id": "e2",
+             "prior_version_id": "v1", "status": "canon"},
         ]
+        self.assertTrue(any("promotion_event_id" in error for error in validate_version_records(records)))
+        records[1]["promotion_event_id"] = "promotion-e1"
         self.assertEqual(validate_version_records(records), [])
 
 

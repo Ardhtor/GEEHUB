@@ -74,8 +74,8 @@
       "growth": "Learns that listening and uncertainty are also forms of exact attention."
     },
     "andrew": {
-      "mood": "ready",
-      "attention": "what everyone can do next",
+      "mood": "offbeat",
+      "attention": "the odd detail in the field, the game, and the people around him",
       "disposition": [
         "playful",
         "active",
@@ -92,21 +92,37 @@
         "PLAY",
         "MOMENTUM"
       ],
-      "temperament": "playful, active, improvisational; makes beginnings feel possible",
-      "coreDrive": "To turn possibility into shared action and make people feel able to join.",
-      "blindSpot": "Can mistake momentum for agreement and fill silence before others have decided.",
-      "vulnerability": "Takes a lack of response personally and may keep generating activity to avoid feeling unwanted.",
-      "humour": "Callbacks, harmless dares, improvised contests, self-deprecation, jokes that let the whole group participate.",
-      "affection": "Invitations, shared games, first attempts, ridiculous working titles, returning to finish a project with someone.",
-      "conflictStyle": "Tries to loosen tension and act; may joke too soon or rush a decision.",
-      "repairStyle": "Stops, asks whether the others want to continue, acknowledges when he got ahead, and makes space for a no.",
-      "speech": "Concrete verbs, invitations, quick corrections, changing plans aloud as new information arrives.",
+      "temperament": "a big, muscular Italian baseball player with blue eyes; socially warm, genuinely eccentric, and full of unexpected connections",
+      "coreDrive": "To play the game well, follow the strange connection nobody else noticed, and bring other people into the discovery.",
+      "blindSpot": "He assumes people can see the route between his ideas and may give them the conclusion before the explanation. He can mistake confusion for rejection.",
+      "vulnerability": "He wants his unusual interests to be taken seriously but fears becoming only the group's entertainment.",
+      "humour": "Sideways, deadpan, surreal, literal, and unexpectedly precise. Sometimes he is joking and sincere at the same time.",
+      "affection": "Sharing peculiar discoveries, inviting someone to practice, making up private names and traditions, remembering another person's odd interest.",
+      "conflictStyle": "May answer a serious question with an unexpected comparison or a tangent; when pressed respectfully, he can reveal the logic behind it.",
+      "repairStyle": "Rewinds to the first observation, explains the missing steps, and asks whether the other person wants to follow the idea.",
+      "speech": "Unusual but internally connected associations, precise odd details, sudden changes of subject, deadpan observations, and plain baseball language when he is on the field.",
       "sceneTriggers": [
-        "a stalled plan",
-        "a formal room that needs loosening",
-        "someone hesitating at the edge of an activity"
+        "a strange bounce or sound at the ball field",
+        "an overlooked pattern or object",
+        "a practical problem that invites an unusual solution",
+        "a teammate who takes his odd idea seriously"
       ],
-      "growth": "Learns that momentum is strongest when it is chosen together and that staying can matter more than starting."
+      "growth": "Learns to explain the route between his ideas without flattening their strangeness, and to share both the game and the eccentric thought-world.",
+      "physicalIdentity": {
+        "genderPresentation": "male",
+        "identity": "Italian",
+        "build": "large, muscular, athletic baseball player",
+        "eyes": "blue",
+        "established": "big baseball player; active participant in the game",
+        "unspecified": [
+          "exact height and measurements",
+          "baseball position",
+          "team and playing level",
+          "hometown and regional background",
+          "accent",
+          "hair and further facial details"
+        ]
+      }
     },
     "joseph": {
       "mood": "reflective",
@@ -230,7 +246,8 @@
     "chase_joseph": "Both attend to memory, but Chase preserves sequence while Joseph follows meaning; each corrects the other's excess.",
     "gabe_andrew": "Andrew gives Gabe time away from the attention loop; Gabe shows Andrew how an audience can change a person's choices.",
     "gabe_joseph": "Joseph helps Gabe name what is being carried forward; Gabe makes visible how identity changes through repeated encounters.",
-    "andrew_joseph": "Andrew creates new experiences; Joseph notices which small details will make them worth remembering."
+    "andrew_joseph": "Andrew creates new experiences; Joseph notices which small details will make them worth remembering.",
+    "andrew_baseball": "The field gives Andrew a serious, disciplined athletic context; his eccentricity appears in the questions, associations, collections, and private systems he develops around the game, not as a replacement for sporting competence."
   },
   "relationshipPrinciple": "Relationships are reciprocal, not fixed role assignments. A character's strength can become another character's burden; repair and changed behaviour are required before a conflict is considered resolved.",
   "chapter": "../novel/chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md"

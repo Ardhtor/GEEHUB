@@ -156,7 +156,49 @@
       "url": "https://www.youtube.com/@mang0gobirds",
       "priority": "followed",
       "role": "User-followed gaming creator; Super Smash Bros. Melee and wider gaming / stream content. Import individual public posts or videos by link."
+    },
+    {
+      "id": "x-paapamurph",
+      "platform": "x",
+      "account": "@PaapaMurph",
+      "url": "https://x.com/PaapaMurph",
+      "priority": "personality-reference",
+      "role": "User-designated public personality and voice reference for fictional Luke; post-level review pending."
+    },
+    {
+      "id": "x-tyleraledbetter",
+      "platform": "x",
+      "account": "@TylerALedbetter",
+      "url": "https://x.com/TylerALedbetter",
+      "priority": "personality-reference",
+      "role": "User-designated public personality and voice reference for fictional Tyler; post-level review pending."
+    },
+    {
+      "id": "instagram-cw-sachs",
+      "platform": "instagram",
+      "account": "@c.w.sachs",
+      "url": "https://www.instagram.com/c.w.sachs/",
+      "priority": "personality-reference",
+      "role": "User-designated public personality and voice reference for fictional Chase; post-level review pending."
+    },
+    {
+      "id": "instagram-river-m-g",
+      "platform": "instagram",
+      "account": "@river_m_g",
+      "url": "https://www.instagram.com/river_m_g/",
+      "priority": "personality-reference",
+      "role": "User-designated public personality and voice reference for fictional Gabe; post-level review pending."
+    },
+    {
+      "id": "x-andrewpsim",
+      "platform": "x",
+      "account": "@andrewpsim",
+      "url": "https://x.com/andrewpsim",
+      "priority": "personality-reference",
+      "role": "User-designated public personality and voice reference for fictional Andrew; post-level review pending."
     }
   ],
-  "youtubeSourcePolicy": "Followed creator channels are kept as source links. The feed does not silently scrape or poll them; the user brings an occasional post or video by link, then one member responds to that shared item."
+  "youtubeSourcePolicy": "Followed creator channels are kept as source links. The feed does not silently scrape or poll them; the user brings an occasional post or video by link, then one member responds to that shared item.",
+  "personalityReferences": "./hub/character-personality-references.json",
+  "personalityReferencePolicy": "User-designated profiles are creative voice references for fictional characters. Attach individual public posts before deriving account-specific style observations. Do not infer private traits; preserve existing character canon; adapt broad voice patterns into original dialogue."
 }

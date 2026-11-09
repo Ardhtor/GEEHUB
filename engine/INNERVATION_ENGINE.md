@@ -83,7 +83,7 @@ The atlas emits `cues` in the existing MusicProgram schema. The existing music b
 
 ## Tempo, phase, and action coupling
 
-A cue is a timed control signal, not a mood label. Every actionable cue specifies BPM (30–300 when periodic), phase, duration, target response (step, breath, turn, pause, reach, or hold), synchronization mode, trigger, action, before/after state, next cue allowed, and concrete sonic residue. The machine-readable v2 contract is `engine/schemas/innervation-cue-v2.schema.json`, and cue records append to `engine/innervation_cues.jsonl`; runtime checks are enforced by `engine/tractus_science.py`. The unversioned schema remains a compatibility contract.
+A cue is a timed control signal, not a mood label. Every actionable cue specifies BPM (30–300 when periodic), phase, duration, target response (pause, step, turn, breath, reach, or stillness), synchronization mode, trigger, action, before/after state, next cue allowed, and concrete sonic residue. The machine-readable v2 contract is `engine/schemas/innervation-cue-v2.schema.json`, and cue records append to `engine/innervation_cues.jsonl`; runtime checks are enforced by `engine/tractus_science.py`. The unversioned schema remains a compatibility contract.
 
 Use steady isochronous pulses when a scene needs a stable movement reference. Use a phase offset, missing beat, rhythmic break, or silence when a threshold should interrupt expectation. The target is a concrete action, not a generic emotion. A cue is rejected if it changes neither action nor available state. A valid residue might be a changed walking cadence, a route becoming available, a route closing, a pause being held, or a different cue becoming eligible.
 

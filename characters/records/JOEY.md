@@ -102,3 +102,17 @@ In *The Unplanned Convergence*, Chapters XXVII–XXX, Joey reveals his thirty-fo
 Joey's first full-scale pitch is not treated as proof of perfect control. Andrew builds a temporary target and receiving frame, then coaches him through distance, release line, shoulder path, effort, and placement. Joey demonstrates that he can hit the center square at controlled effort. He chooses to reveal his full form to the others and continue training. The next practice remains open: reduce the target size and test repeatability. Joey keeps one scuffed baseball to bring back.
 
 **Linked events:** MOONLIT_PITCH_01; MOUND_STUDY_01; MOONLIT_PITCH_02; THE_MOONLIT_BULLPEN_01. The temporary receiving frame requires inspection after use.
+
+
+## Library-led visual and ordinary-life development
+
+The novel's Chapters XXXI–XXXIII now draw directly on the Library atlas.
+
+- **GLA-011 — Dark Blue Joey in the Industrial Gym:** low-angle, dark blue industrial-gym presentation. This is the primary mood/camera reference for Joey's gym scene; the low angle is treated as perspective, not a measurement of anatomy.
+- **GLA-012 — Blue Giant in the Cool-Toned Gym:** separate comparator for cool teal-blue material, lighting, and physique scale. It is not merged with Joey.
+- **GLA-014 — Better Things Together:** ordinary companionship and shared-meal mood reference. It does not establish the identities or real relationship of the depicted men.
+- **GLA-013 — Teal Titan Under Blue Skies:** separate open-environment scale study, not Joey's identity.
+
+Joey's gym continuity now includes a fixed low camera and a second eye-level view. The face, neck, shoulders, arms, hands, shorts, and floor contact remain visible through staged changes. He values the quiet moments after the reveal as well as the full form.
+
+**New linked event:** FIELD IN THE RAIN, a working music piece assembled from the gate, latch, and glove recordings. Joey's scuffed baseball now links the field, kitchen, gym, and music room. A future open training ground is under discussion, with requirements contributed by the men rather than decided by Joey alone.

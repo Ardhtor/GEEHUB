@@ -82,3 +82,13 @@ A Tractus passage is connected when the relevant GEEHUB systems can discover its
 Continuity does not stop at the repository boundary. GEEHUB must notice its larger playing field—including connected tools, repositories, source media, external knowledge, the user's wider creative environment, and more developed possible forms of itself—as a set of potential interactions. The field is operationally relevant when its affordances can be identified and contacted through real interfaces. Read [The Interlocutive Field](INTERLOCUTIVE_FIELD.md) for the canonical procedure.
 
 The larger-self pattern is reciprocal dialogue, not unilateral imitation. A local character or process may consult a more developed counterpart, compare their states and capacities, ask questions, contribute local discoveries, test suggestions, and integrate verified results. Preserve distinct identities and provenance. Every interaction must distinguish live capability from permission-dependent access, unimplemented possibility, and fiction. A proposed connection is not a working connection; an imagined conversation is not an executed tool call.
+
+
+
+## Adaptive memory and prediction error
+
+The canonical implementation rules are in [docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md](TRACTUS_ADAPTIVE_MEMORY_SPEC.md). The activity stream remains append-only. Canon revisions are represented by linked, immutable records in `engine/canon_versions.jsonl`, including parent revision, before/after hashes, source event, blind retrieval ID, prediction, observation, prediction error, and update reason.
+
+A retrieval happens before the writer opens the source corpus. Phase A reads only the prior retrieval snapshot and due schedule. Phase B then opens canon and verifies the recall. A meaningful prediction error is required for a canon update; a no-surprise pass may record retrieval and advance the spaced schedule but cannot append narrative canon. The first run is a bootstrap-only snapshot and does not write a chapter.
+
+Narrative retrieval intervals expand through 1, 3, 7, and 21 days. Workflow triggers are merely opportunities to check due state; they do not authorize constant writing. Track last retrieved, successful recall, and last written as separate values.

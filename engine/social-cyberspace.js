@@ -12,7 +12,8 @@
     {id:'tyler',name:'Tyler',tone:'He looks for the detail that can be tested or developed.',reply:p=>/build|make|design|engine|code|tool|work/i.test(p.text)?'I want to see what can be made from this. I’ll keep the useful detail separate from the guesswork.':'I’m looking for the specific detail that gives this post its shape.'},
     {id:'andrew',name:'Andrew',tone:'He treats the post as an opening for an exchange.',reply:p=>'This gives us something to pick up and move around. I’d rather see where it leads than close it down too quickly.'},
     {id:'joseph',name:'Joey',tone:'He notices what the post carries forward from earlier moments.',reply:p=>/memory|remember|old|return|story|song|relationship/i.test(p.text+' '+p.url)?'There’s a thread here that feels worth carrying forward. I don’t want to decide its meaning for you.':'I’ll keep this with the other things you’ve brought here. Sometimes the connection appears later.'},
-    {id:'chase',name:'Chase',tone:'He records what was actually shared and leaves the rest open.',reply:p=>'Noted. I’ll keep the post intact and leave room for a more specific reading when there’s more context.'}
+    {id:'chase',name:'Chase',tone:'He records what was actually shared and leaves the rest open.',reply:p=>'Noted. I’ll keep the post intact and leave room for a more specific reading when there’s more context.'},
+    {id:'gabe',name:'Gabe',tone:'He notices how attention, pressure, and social response can change the next baseline.',reply:p=>'The interesting part is what happens after people notice. That response becomes part of the next change.'}
   ];
   const sources=[
     {id:'x',label:'X / @CumPassionately',kind:'YOUR PRIMARY SIGNAL',url:'https://x.com/CumPassionately'},
@@ -20,6 +21,11 @@
     {id:'youtube',label:'YOUTUBE / @GravesBroden',kind:'YOUR VIDEO ARCHIVE',url:'https://www.youtube.com/@GravesBroden'},
     {id:'detdert',label:'DETDERT / YOUTUBE',kind:'FOLLOWED GAMING CREATOR · LEAGUE OF LEGENDS',url:'https://www.youtube.com/channel/UCd7Tlj816jyDB8ywfJ4Ie6w'},
     {id:'mang0',label:'MANG0 / YOUTUBE',kind:'FOLLOWED GAMING CREATOR · SMASH / GAMING',url:'https://www.youtube.com/@mang0gobirds'},
+    {id:'luke-personality',label:'PAAPAMURPH / X',kind:'LUKE / PERSONALITY REFERENCE',url:'https://x.com/PaapaMurph'},
+    {id:'tyler-personality',label:'TYLER LEDBETTER / X',kind:'TYLER / PERSONALITY REFERENCE',url:'https://x.com/TylerALedbetter'},
+    {id:'chase-personality',label:'C.W. SACHS / INSTAGRAM',kind:'CHASE / PERSONALITY REFERENCE',url:'https://www.instagram.com/c.w.sachs/'},
+    {id:'gabe-personality',label:'RIVER M G / INSTAGRAM',kind:'GABE / PERSONALITY REFERENCE',url:'https://www.instagram.com/river_m_g/'},
+    {id:'andrew-personality',label:'ANDREW PSIM / X',kind:'ANDREW / PERSONALITY REFERENCE',url:'https://x.com/andrewpsim'},
     {id:'other',label:'OTHER SOURCE',kind:'ADDED POST BY POST',url:''}
   ];
   const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -42,7 +48,7 @@
       <nav class='social-sources' aria-label='Reference and posting sources'>
         <div class='social-sources-label'>SOURCES / OPEN A PROFILE OR SHARE A SPECIFIC POST</div>
         <div class='social-source-list'>${sources.map(s=>`<a class='social-source' href='${esc(s.url||'#')}' ${s.url?'target="_blank" rel="noopener noreferrer"':''}><strong>${esc(s.label)}</strong><span>${esc(s.kind)}</span></a>`).join('')}</div>
-        <p class='social-source-note'>X is the primary source. Eric Janicki is a bodybuilding and training reference. Detdert and Mang0 are followed YouTube gaming sources. These links are not live account connections; paste a specific post or video link below to bring it into the room.</p>
+        <p class='social-source-note'>X is the primary source. Eric Janicki is a bodybuilding and training reference. Detdert and Mang0 are followed YouTube gaming sources. PaapaMurph, Tyler Ledbetter, c.w.sachs, river_m_g, and andrewpsim are user-designated personality references for Luke, Tyler, Chase, Gabe, and Andrew respectively. Individual posts are still needed before account-specific traits can be reviewed; links are not live account connections.</p>
       </nav>
       <form class='social-compose' id='socialCompose'>
         <textarea name="text" rows="2" maxlength="1200" placeholder="Write a post for the room…"></textarea>
@@ -71,7 +77,22 @@
       if(!text&&!url)return;
       if(url){try{const parsed=new URL(url);if(!['http:','https:'].includes(parsed.protocol))return;}catch{return;}}
       const turn=Number(localStorage.getItem(TURN)||0);
-      const member=members[turn%members.length];
+      const profileTargets={
+        'luke-personality':'luke',
+        'tyler-personality':'tyler',
+        'chase-personality':'chase',
+        'gabe-personality':'gabe',
+        'andrew-personality':'andrew'
+      };
+      const targetId=profileTargets[source];
+      const member=members.find(m=>m.id===(targetId||members[turn%members.length].id))||members[turn%members.length];
+      const profileReplies={
+        'luke-personality':'You have attached this profile to my voice. I’ll use it as a reference, but I want to see actual posts before deciding which parts belong in my cadence.',
+        'tyler-personality':'That is the reference attached to me. Bring in a specific post and I’ll look at its wording, rhythm, and response pattern rather than guessing from the handle.',
+        'chase-personality':'Keep the source intact. A profile gives us a direction; the posts are what let us distinguish a real pattern from an assumption.',
+        'gabe-personality':'This is the voice reference connected to my Growth Canvas. I want the actual posts before deciding what can become part of my character.',
+        'andrew-personality':'All right, that's my reference door. Bring one of the posts in and we can work from the actual exchange.'
+      };
       const ericReplies={
         luke:'I notice the stance and the way the physique occupies its space. Keep the proportions and the physical presence in view.',
         tyler:'I want the mechanics: range of motion, leverage, execution, and progression. The image is a reference, not a complete training plan.',
@@ -93,9 +114,11 @@
         joseph:'There is a long memory in competitive play. I’ll keep the individual moment connected to its own history without pretending one clip tells all of it.',
         chase:'Mang0 is recorded as a followed gaming source. I’ll preserve the source and distinguish observed gameplay from commentary or interpretation.'
       };
-      const replyText=source==='eric'
-        ? ericReplies[member.id]
-        : source==='detdert'
+      const replyText=profileTargets[source]
+        ? profileReplies[source]
+        : source==='eric'
+          ? ericReplies[member.id]
+          : source==='detdert'
           ? detdertReplies[member.id]
           : source==='mang0'
             ? mang0Replies[member.id]

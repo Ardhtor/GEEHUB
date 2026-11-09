@@ -1565,3 +1565,11 @@ SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 208 — ATMOSPHERE / NORTHGATE UNIVERSITY / 2026-11-09T09:34:10.401173+00:00
+
+SETH: Northgate University rises above the reservoir beneath old trees and open sky. The central quad is green and broad, enclosed by pale stone lecture halls, brick laboratories, timber galleries and workshops whose windows reveal models, instruments and small machines.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

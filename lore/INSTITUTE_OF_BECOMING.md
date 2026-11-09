@@ -35,3 +35,6 @@ The gym's visual and sonic language is deliberately rhythmic. A familiar stance,
 
 The connected design currently establishes the relationships and registry entries. Shared event inscription and automatic propagation into campus, character, body, and artifact state remain implementation work; specifications must not be mistaken for a running feature.
 
+
+[The Night They Wrote From Their Own Ends](INSTITUTE_ACID_PROGRAMMING_SESSION.md) is preserved as an experimental Institute chapter: five men develop separate pieces of a shared memory system, then leave the code for sober review.
+

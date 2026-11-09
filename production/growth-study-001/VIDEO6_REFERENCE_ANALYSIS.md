@@ -11,15 +11,17 @@ Observed time beats, translated to the build scene's frames 216–360:
 
 | Source time | Scene frame | Visible pose |
 |---|---:|---|
-| 0.00–1.25 s | 216–246 | Neutral front stance, arms lowered |
-| ~1.50 s | 252 | Arms begin rising away from the torso |
-| ~2.00–2.25 s | 264–270 | Broad lateral arm spread |
+| 0.00–1.00 s | 216–240 | Neutral front stance, arms lowered |
+| ~1.50 s | 252 | Arms begin abducting away from the torso |
+| ~2.00 s | 264 | Broad lateral arm spread |
+| ~2.25 s | 270 | Screen-right fist rises first while the opposite arm remains extended |
+| ~2.50 s | 276 | Both elbows fold toward the double-biceps pose |
 | ~2.75 s | 282 | Double-biceps flex reaches its peak |
-| 3.25–4.50 s | 294–324 | Flex held with small head/torso changes |
-| ~5.00 s | 336 | Arms begin opening from the flex |
-| ~5.50–6.00 s | 348–360 | Wide arm finish and settle |
+| 3.00–5.00 s | 288–336 | Flex held; minor head and expression changes |
+| ~5.50 s | 348 | Arms open laterally again |
+| ~6.00 s | 360 | Arms return to the lowered neutral stance |
 
-These are visual timing anchors, not recovered motion-capture markers. Intermediate curves are eased between these beats.
+These are visual timing anchors, not recovered motion-capture markers. The important asymmetrical transition at 2.25 seconds is preserved: the screen-right fist rises first while the screen-left arm remains extended. The final half-second is also a real return to the lowered stance, not a continued wide-arm hold. Intermediate curves are eased between these beats.
 
 ## Build interpretation
 

@@ -75,6 +75,19 @@ def _ensure_json(path: Path, value: dict) -> None:
     _write_json(path, value)
 
 
+def _repair_activity_tail() -> None:
+    """Drop only an unterminated final JSONL record left by an interrupted append."""
+    if not ACTIVITY_LOG.exists():
+        return
+    with ACTIVITY_LOG.open("r+b") as handle:
+        data = handle.read()
+        if data and data[-1] != 10:
+            last_complete = data.rfind(bytes([10]))
+            handle.truncate(last_complete + 1 if last_complete >= 0 else 0)
+            handle.flush()
+            os.fsync(handle.fileno())
+
+
 
 def validate_event(event: dict) -> list[str]:
     """Validate the additive Tractus v2 canon-update contract."""
@@ -131,6 +144,7 @@ def _inscribe_event_locked(event: dict, source: str) -> dict:
         "status": "OCCURRED_AND_INSCRIBED",
     })
 
+    _repair_activity_tail()
     existing_records = {}
     if ACTIVITY_LOG.exists():
         with ACTIVITY_LOG.open("r", encoding="utf-8") as handle:

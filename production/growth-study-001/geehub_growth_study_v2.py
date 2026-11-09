@@ -136,6 +136,7 @@ def create_empty_control(name, rig, collection, location, display='SPHERE', size
 def drive_control_location(control, driver_object, property_prefix):
     for axis, suffix in enumerate(("x", "y", "z")):
         prop = f"{property_prefix}_{suffix}"
+        driver_object[prop] = float(control.location[axis])
         curve = control.driver_add("location", axis)
         driver = curve.driver
         driver.type = 'SCRIPTED'
@@ -762,7 +763,7 @@ def build_environment():
     aim_at(video_camera, (0.0, 0.0, 1.08))
     video_camera_data.type = 'PERSP'
     video_camera_data.sensor_fit = 'VERTICAL'
-    video_camera_data.lens = 55.0
+    video_camera_data.lens = 65.0
     video_camera["purpose"] = "low frontal perspective matched to Library Video 6"
 
     runway_mat = make_principled(
@@ -991,28 +992,37 @@ def build_video6_pose_action(rig):
         raise RuntimeError("Video6 action requires CTRL_VIDEO6_DRIVER.")
 
     pose_keys = [
-        (216, (-0.66, -0.05, 0.84), (0.66, -0.05, 0.84),
-         (-0.82, -0.78, 1.28), (0.82, -0.78, 1.28)),
-        (240, (-0.68, -0.06, 0.86), (0.68, -0.06, 0.86),
-         (-0.84, -0.78, 1.30), (0.84, -0.78, 1.30)),
-        (252, (-0.82, -0.07, 1.12), (0.82, -0.07, 1.12),
-         (-0.92, -0.82, 1.40), (0.92, -0.82, 1.40)),
-        (264, (-1.06, -0.08, 1.46), (1.06, -0.08, 1.46),
-         (-1.02, -0.88, 1.47), (1.02, -0.88, 1.47)),
-        (270, (-1.10, -0.08, 1.48), (1.10, -0.08, 1.48),
-         (-1.03, -0.90, 1.48), (1.03, -0.90, 1.48)),
-        (282, (-0.78, -0.10, 1.73), (0.78, -0.10, 1.73),
-         (-1.02, -0.92, 1.56), (1.02, -0.92, 1.56)),
-        (294, (-0.76, -0.10, 1.74), (0.76, -0.10, 1.74),
-         (-1.02, -0.92, 1.56), (1.02, -0.92, 1.56)),
-        (324, (-0.76, -0.10, 1.74), (0.76, -0.10, 1.74),
-         (-1.02, -0.92, 1.56), (1.02, -0.92, 1.56)),
-        (336, (-1.02, -0.08, 1.53), (1.02, -0.08, 1.53),
-         (-0.98, -0.88, 1.48), (0.98, -0.88, 1.48)),
-        (348, (-1.11, -0.08, 1.47), (1.11, -0.08, 1.47),
-         (-0.98, -0.88, 1.48), (0.98, -0.88, 1.48)),
-        (360, (-1.10, -0.08, 1.46), (1.10, -0.08, 1.46),
-         (-0.98, -0.88, 1.48), (0.98, -0.88, 1.48)),
+        # Neutral stance: relaxed hands hang beside the thighs.
+        (216, (-0.60, -0.025, 0.84), (0.60, -0.025, 0.84),
+         (-0.82, -0.72, 1.25), (0.82, -0.72, 1.25)),
+        (240, (-0.61, -0.035, 0.86), (0.61, -0.035, 0.86),
+         (-0.84, -0.74, 1.28), (0.84, -0.74, 1.28)),
+        # Arms begin to abduct; elbows remain softly flexed.
+        (252, (-0.67, -0.055, 1.12), (0.67, -0.055, 1.12),
+         (-0.78, -0.82, 1.42), (0.78, -0.82, 1.42)),
+        # Broad lateral spread, approximately horizontal in the source frame.
+        (264, (-0.72, -0.075, 1.50), (0.72, -0.075, 1.50),
+         (-0.83, -0.88, 1.48), (0.83, -0.88, 1.48)),
+        # The source begins the flex asymmetrically: the screen-right fist rises first.
+        (270, (-0.72, -0.075, 1.50), (0.50, -0.10, 1.72),
+         (-0.83, -0.88, 1.48), (0.82, -0.92, 1.55)),
+        # Both arms fold into the double-biceps pose.
+        (276, (-0.54, -0.095, 1.70), (0.54, -0.095, 1.70),
+         (-0.96, -0.92, 1.53), (0.96, -0.92, 1.53)),
+        (282, (-0.46, -0.105, 1.75), (0.46, -0.105, 1.75),
+         (-0.98, -0.94, 1.57), (0.98, -0.94, 1.57)),
+        (294, (-0.46, -0.105, 1.75), (0.46, -0.105, 1.75),
+         (-0.98, -0.94, 1.57), (0.98, -0.94, 1.57)),
+        (324, (-0.46, -0.105, 1.75), (0.46, -0.105, 1.75),
+         (-0.98, -0.94, 1.57), (0.98, -0.94, 1.57)),
+        # The flex is held through approximately five seconds, then the arms open.
+        (336, (-0.46, -0.105, 1.75), (0.46, -0.105, 1.75),
+         (-0.98, -0.94, 1.57), (0.98, -0.94, 1.57)),
+        (348, (-0.72, -0.075, 1.50), (0.72, -0.075, 1.50),
+         (-0.83, -0.88, 1.48), (0.83, -0.88, 1.48)),
+        # Return to the original lowered pose at the end of the clip.
+        (360, (-0.60, -0.025, 0.84), (0.60, -0.025, 0.84),
+         (-0.82, -0.72, 1.25), (0.82, -0.72, 1.25)),
     ]
 
     rig_anim = rig.animation_data_create()
@@ -1106,6 +1116,12 @@ def build_video6_pose_action(rig):
                 data_path=f'["{property_name}"]', frame=frame,
                 group="Video6 Hand and Elbow Targets")
 
+    if helper_anim.action:
+        for fcurve in helper_anim.action.fcurves:
+            for key in fcurve.keyframe_points:
+                key.interpolation = "BEZIER"
+                key.handle_left_type = "AUTO_CLAMPED"
+                key.handle_right_type = "AUTO_CLAMPED"
     helper_anim.action = None
     helper_track = helper_anim.nla_tracks.new()
     helper_track.name = "VIDEO6_POSE — reference matched hand targets"

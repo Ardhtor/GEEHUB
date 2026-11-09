@@ -894,3 +894,158 @@ Before they left, Andrew placed the ball on the bench and marked the date beside
 Joseph asked what it meant.
 
 “Next time,” Andrew said, “we see if he can put it exactly where he wants.”
+
+
+### Chapter Twenty-Eight — The Mound Is Not the Measure
+
+Andrew arrived the next afternoon with a notebook, a tape measure, and a list of things he wanted to test. The moonlit pitch had left the mitt strained and the fence humming faintly where the frame had taken the impact. He had inspected both before deciding what to do next.
+
+Joey came down from the road in an ordinary-sized presentation. He wore the same gray shorts and carried no equipment. The restraint was deliberate. Andrew had asked to work on control, not to stage another reveal.
+
+“First, we make a target,” Andrew said.
+
+He had brought a square of canvas, a wooden frame, and a set of colored cloth markers. The target was not a regulation strike zone. It was a teaching surface, broad enough to show where the ball arrived and simple enough to move. Andrew fixed it to the backstop and marked a central square, two upper corners, and two lower ones.
+
+Joey studied the arrangement. “You made a game out of it.”
+
+“Everything is a game if you keep score.”
+
+Andrew gave him the ball and stood beside the mound. He demonstrated the release slowly, showing where his fingers left the seams and how the wrist followed through. His own pitch was not as forceful as Joey's, but it landed exactly in the central square. He retrieved the ball and handed it over without comment.
+
+Joey tried at half effort. The ball struck the lower-left marker. The frame shivered.
+
+“Too much arm?” Joey asked.
+
+“Too much of the wrong part of the arm. You pulled across the body.”
+
+Joey looked at his shoulder, then repeated the motion without the ball. Andrew moved around him, checking the line from shoulder to elbow to wrist. The expanded musculature made every movement more consequential. A small change in angle carried through a great deal of mass. Joey could generate force almost casually; precision demanded that he learn where to stop.
+
+They worked through the afternoon. Andrew altered the target distance, then reduced the effort, then asked Joey to throw without trying to impress anyone. The results improved. A ball struck the upper-right cloth and stayed there for a moment before dropping. Another passed through the center. Joey missed the lower corner twice, but the misses were closer.
+
+Joseph sat in the dugout with the recorder. He had stopped trying to turn every impact into music. Instead, he kept a quiet sequence of notes: distance, effort, target, result. The sound of practice had become a rhythm of its own. Ball, canvas, retrieval. A pause. Andrew's short correction. Joey's next attempt.
+
+When the sun began to lower, Joey looked toward the open field. “You want to see the full arm again?”
+
+Andrew shook his head. “I want to see the same throw tomorrow. If it changes because you're larger, we'll measure that too.”
+
+Joey smiled. He had expected awe or fear, perhaps a demand to see the transformation again. Andrew had offered him a practice schedule.
+
+They packed the target away. Andrew wrote down the measurements and drew a small diagram of the shoulder line. Joey waited while he finished. The size difference between them had not disappeared, but the conversation had found a scale where both could work.
+
+At the gate, Joey asked whether Andrew had ever coached anyone stronger than himself.
+
+“No,” Andrew said. “But I've coached people who thought strength meant they didn't have to learn.”
+
+Joey considered that. “And what happened to them?”
+
+“They got bored. Or hurt. Sometimes both.”
+
+Joseph saved the practice notes as MOUND_STUDY_01. The target frame was stored beside the equipment shed, with the five cloth markers folded inside it. Tomorrow's session would begin from the same distance and the same central square.
+
+
+### Chapter Twenty-Nine — Thirty Feet of Moonlight
+
+They returned after dark. This time the equipment had been prepared for the change.
+
+Andrew had worked with the groundskeeper to clear a section of the outfield and move the portable practice target away from the fence. The ordinary catcher's mitt remained on the bench; it would not be used for a full-scale throw. In its place stood a reinforced receiving frame with a suspended impact panel and a broad net behind it. It was not a stadium installation. It was a temporary test, built to answer one question without pretending the field could absorb unlimited force.
+
+Joey stood on the grass and looked at the frame. “You made something for me.”
+
+“I made something we can replace if it breaks.”
+
+The moon had cleared the trees. Joey let his ordinary presentation fall away. His shoulders widened first, then the chest and torso followed, the gray shorts remaining a familiar point of reference as the rest of him rose beyond the ordinary proportions of the field. His arms grew with the body, becoming enormous, deeply muscled structures whose weight altered the line of his stance. The biceps and triceps swelled into monumental forms; the forearms thickened, the hands broad enough to close around the ball as though it were a small object. His head remained recognizably human, set above a powerful neck. His feet pressed into the turf. The mound that had seemed substantial beneath Andrew was now a modest rise beside Joey's full thirty-foot Stage Four form.
+
+The moonlight traced the breadth of his shoulders and the rounded architecture of his arms. He did not hide the change. He stood still until Andrew had seen the whole of it.
+
+Andrew looked up. For once, he had no immediate joke. He walked a measured arc around Joey, studying the proportions and the way the enormous arms settled at his sides. He looked at the mound, the target, and the receiving frame.
+
+“That's a lot of arm,” he said at last.
+
+Joey lowered his gaze. “You wanted to see what changed.”
+
+“I did. Now I want to know whether you can still hit the center.”
+
+Joey laughed, and the sound crossed the empty field. He took his place behind the marked line. Andrew had moved the target farther away and widened the safe area. Joseph stood behind the protected recording position, with the microphone set to capture the impact without clipping.
+
+Joey began with a soft throw. Even restrained, the ball traveled with a deep, steady rush. It struck the center panel. The frame moved but held.
+
+Andrew checked the mark. The ball had landed just inside the central square.
+
+“Again,” he called.
+
+The next pitch drifted high. Joey adjusted his shoulder. The third struck the lower edge. The fourth entered the center and stayed there.
+
+Andrew raised one hand. “That's the one.”
+
+Joey looked at the target, then down at Andrew. The difference in scale was now impossible to mistake. Andrew's whole body could have fit inside the span of Joey's forearm, yet he was the one calling the exercise. Joey accepted the instruction without making a performance of it.
+
+They repeated the sequence at several efforts. The first full-power throw was not attempted. Andrew wanted a reliable baseline before they increased force. Joey's great arms could produce a pitch beyond anything Andrew could throw, but the important result was the fourth ball: the one placed deliberately, with no wasted motion.
+
+After the final test, Joey crouched beside the frame. Even that movement required care. His hand approached the ground slowly, and he lifted the ball from the grass with two fingers. He examined the seam and turned it toward the moon.
+
+“Tomorrow,” Andrew said, “we make the target smaller.”
+
+Joey looked at him. “You really aren't going to let me have one night?”
+
+“You had the whole moon. I want the corner.”
+
+Joseph saved the sequence as MOONLIT_PITCH_02. The record separated the first full-scale reveal from the controlled throws. The field's temporary equipment plan, safe distance, and receiving frame were recorded as practical constraints, not as permanent infrastructure. The thirty-foot form was visible to all three men. No one mistook it for a camera trick.
+
+When Joey rose, the grass showed the shallow impressions of his feet. Andrew stepped into one of them and looked at the distance between its edges. He did not compare it with his own shoe. He measured it, wrote the number down, and asked Joey to stand in the same place next time.
+
+The field had become a place where size could be observed without becoming the only subject.
+
+
+### Chapter Thirty — The Men Who Came to Watch
+
+Andrew did not tell the others what they would see. He invited them to a late practice and said only that Joey had agreed to work on his pitching.
+
+Luke arrived first, carrying a folding chair. Tyler came with a small case of measuring tools. Chase brought the camera but kept it packed until everyone agreed on what should be recorded. Gabe arrived with food and a thermos. Joseph brought the audio files. None of them had been asked to react in a particular way.
+
+Joey waited beyond the mound in his ordinary-sized presentation. Andrew was setting out the target markers. The group helped without asking for an explanation. Luke unfolded the chairs; Tyler checked the receiving frame; Chase measured the distance from the protected camera position; Gabe put the food on the bench and told everyone to eat before the session began.
+
+For a while, it was an ordinary gathering. Andrew explained the target system. Joseph played the two recordings from the first night, then the more controlled sequence from the second. The men heard the difference between force and placement. Tyler asked for the measurement sheet. Chase asked whether the camera should remain fixed. Andrew said yes: if they wanted to compare the next session, they needed the same view.
+
+Joey listened from beside the dugout. He was not the center of every conversation. Gabe asked him whether he wanted something to eat. Joey accepted a sandwich and sat with the others. The ordinary presentation did not make him less powerful; it allowed him to be present without requiring the whole evening to revolve around the reveal.
+
+After the meal, Andrew cleared the mound. Joey stood under the moon, and the transformation began again. The men watched his shoulders broaden, his torso rise, and his arms grow into the immense Stage Four proportions. The change was not a flash. It took time, and the men had time to see the sequence: the widening frame, the increasing mass of the upper arms, the deepening forearms, the enormous hands, the familiar human face above it all. Joey reached thirty feet and stood in the field with the same deliberate balance he had shown the night before.
+
+Luke stood. Tyler lowered his measuring tool. Chase kept the camera still. Gabe remained seated, watching Joey's expression rather than only his size. Joseph looked from Joey to Andrew, who had already taken his place beside the target.
+
+Andrew did not shout. “Center square. Same effort as last time.”
+
+Joey threw. The ball struck the central panel.
+
+“Again.”
+
+The next pitch landed high. Andrew called the adjustment. Joey corrected. The third struck the center. Tyler checked the mark and confirmed the result against the previous night's measurement. The group began to understand what Andrew had been teaching: Joey's strength was extraordinary, but a repeatable pitch was made from a sequence of decisions. The target did not care how large the arm was. It recorded where the ball arrived.
+
+After the session, the men gathered around the bench. Chase showed the fixed-camera comparison. Tyler read out the distances. Joseph played the audio. Gabe passed around the remaining food. Luke asked whether Joey could throw from the outfield. Andrew said perhaps, but not until they had tested the receiving equipment again.
+
+Joey looked down at the group. “You have all decided what I should do next.”
+
+“No,” Andrew said. “We've decided what we want to find out. You still get to decide whether you want to do it.”
+
+Joey was quiet for a moment. Then he nodded.
+
+The Archivist recorded the gathering as a shared event rather than a spectacle. Each man contributed a different kind of attention: Luke arranged the space, Tyler measured, Chase maintained the camera, Gabe attended to comfort and food, Joseph preserved sound, and Andrew coached the exercise. Joey chose to reveal his full form and chose to continue the training. The record did not turn their reactions into permanent judgments about his size.
+
+The session received the title THE_MOONLIT_BULLPEN_01. Its linked materials included the fixed camera position, the target measurements, the receiving-frame inspection, the audio takes, and Joey's consent to the next practice. The earlier recordings remained unchanged. A new working sequence was assembled from the controlled pitches, not from the loudest impact.
+
+Later, when the field was empty again, Andrew stayed behind to collect the markers. Joey waited near the gate in his ordinary presentation. He could have left first, but he stayed until Andrew had finished.
+
+“You could throw harder than anyone here,” Andrew said.
+
+“I know.”
+
+“But you came back to hit the square.”
+
+Joey looked across the dark field. “You made the square worth hitting.”
+
+Andrew put the markers away. He did not answer immediately. Then he handed Joey the last ball.
+
+“Keep this one. Next practice, you bring it back.”
+
+Joey closed his hand around it. The ball was ordinary, scuffed, and small against his palm. It was also the first piece of equipment that belonged to the next session.
+
+The field lights clicked off one row at a time. The moon remained over the backstop. In the equipment shed, the target frame stood ready for repair, and on Joseph's recorder the new sequence waited beside the older field sounds. The story had acquired a new measure of scale, but it had also acquired a reason to return.

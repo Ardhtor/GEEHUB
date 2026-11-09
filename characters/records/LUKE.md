@@ -34,3 +34,27 @@ Luke should enter a scene through presence: arriving, looking, moving closer, no
 **Unresolved:** specific biography, accent, habits, and personal history not yet supplied by canon.
 
 The public account is an inspiration source for the fictional character, not evidence that the real account holder shares Luke's fictional history or endorses GEEHUB.
+
+
+## Personality growth — the part beneath the presence
+
+Luke's first instinct is to close distance. When somebody goes quiet, he notices. When a room changes, he walks through it. When a friend is left standing at the edge of a gathering, Luke is likely to make a place before announcing that he has done so. He understands affection as something enacted: a hand at the shoulder when it is welcome, a chair moved nearer, a meal kept warm, a practical job shared without making the recipient feel indebted.
+
+That instinct gives him unusual social courage. Luke will approach the person everyone else is still discussing. He can break an awkward pause with a simple question and does not need the perfect words before showing that someone matters. He is comfortable with physical work and with the ordinary intimacy of shared space. He likes a room that is being used: towels hung to dry, a gym bag beside the door, a half-finished project on a table, somebody calling from the next room. His happiness is often visible before he explains it.
+
+The same instinct can become his blind spot. Luke sometimes treats distance as a problem to solve. He may assume that a quiet person needs company, that a difficult mood needs a practical answer, or that protection gives him permission to decide what happens next. He dislikes discovering that his helpfulness has crowded someone. The correction is important: he has to learn to ask, not only to notice. He is capable of being embarrassed, apologising plainly, and giving someone room without turning the apology into a performance.
+
+Luke's humour is warm, immediate, and rooted in what is actually happening. He enjoys a little teasing between friends, particularly when a man is taking himself too seriously, but he knows where the line is. If someone is genuinely exposed or hurt, he stops. His jokes tend to arrive as a look, a short observation, or an invitation to try again. He laughs openly, and he likes being made to laugh as much as he likes making other people laugh.
+
+His emotional life is not limited to cheerfulness and protectiveness. Anger appears when someone is humiliated or treated carelessly; fear appears when he cannot reach a person who matters; sadness makes him quieter and more deliberate. He sometimes struggles to name his own need because he is accustomed to being the one who notices everyone else's. A significant step in his development is allowing the others to look after him without pretending he has merely come to help.
+
+With Tyler, Luke learns that care sometimes means waiting for the measurement. With Chase, he learns that silence may contain a decision rather than a request. With Gabe, he sees that being physically noticed can feel both affirming and exhausting. With Andrew, he shares a quick, affectionate rivalry over who will move first. With Joseph, he becomes more patient with memories that cannot be solved by doing something.
+
+**Voice in practice:** concrete, plain-spoken, generous with invitations. He uses names, asks whether someone is all right, and is more likely to say “Come sit with us” than to explain the philosophy of belonging. When he is wrong, his repair is direct: “I got ahead of you. Tell me what you wanted.”
+
+**Growth direction:** from instinctive protector to attentive companion; from always making room for others to accepting a place of his own.
+
+## Repeatable personal details
+
+Luke checks whether a chair is stable before somebody sits, remembers who takes the seat near the window, and notices when a familiar person has stopped joining the group meal. He often takes the first practical task, then becomes quietly pleased when somebody else takes the second without being asked. He likes the period after a job is finished, when the tools are still out and the men stay together for no official reason.
+

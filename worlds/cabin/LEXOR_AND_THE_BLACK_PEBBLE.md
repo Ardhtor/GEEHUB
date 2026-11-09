@@ -432,7 +432,7 @@ Isso também era confiança.
 
 *Brogantimax taqqen kursya be-qaysa, be-la shalshela u-ve-la medata. Ḥavrayya ḥazon leh, ve-la she'alu leh ʿal Privathor.*
 
-*ʿAl patورا hava qada; maya begawweh, ve-avna sheḥorta talya begawweh. La qala, ve-la milla, ve-la shema itgalli.*
+*ʿAl patora hava qada; maya begawweh, ve-avna sheḥorta talya begawweh. La qala, ve-la milla, ve-la shema itgalli.*
 
 *Pitḥa de-bayta petiḥ. Man de-yethe yetiv; u-man de-azil azil. La hava ḥova ʿal man de-nafeq, ve-la teviʿa ʿal man de-yetiv.*
 

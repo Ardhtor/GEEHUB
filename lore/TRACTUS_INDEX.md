@@ -187,3 +187,8 @@ The growth myth gains [Chapter VII — The Return to the Measure](growth/CHAPTER
 The user's curated [Gravesbeef DeviantArt favourites](../research/DEVIANTART_FAVOURITES_SOURCE.md) are registered as a high-priority visual and mythic source. Page-level access returned 403 during the current inspection, so no item-level catalogue is claimed. The source is preserved for later inspection through direct links or user-provided material.
 
 Associated artifact records are added in [The Working Artifacts of Tractus](TRACTUS_ARTIFACTS.md): the north arcade report, Veyrthalis route copy, Cabin language notebook, Mateo's seed card, Hrothgar's two song accounts, the Dad Convent beam register, Northgate's off-centre test frame, and Veylan's return-to-measure record. The [Continuation Register](../novel/CONTINUATION_REGISTER_2026-11-09.md) lists the new source files and their next unresolved operations.
+
+
+## Artifact Chronicles — Second Cabinet
+
+[The Artifact Chronicles — Second Cabinet](TRACTUS_ARTIFACT_CHRONICLES_II.md) carries the November 9 expansion artifacts through later use: the north arcade mortar sample, Mateo's seed card, the two versions of Hrothgar's clearing song, the Dad Convent beam reused in a secondary rack, the repeated Northgate bridge test, and the Veyrthalis route copy that remains untravelled. Each entry preserves its state boundary. A sample is not a repair; an object is not permission to use it; a failed test is not discarded; a copied route is not a journey. These chronicles provide concrete return points for later chapters.

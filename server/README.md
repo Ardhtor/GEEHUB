@@ -34,3 +34,6 @@ Open the main hub and use the Tractus / Continuity Inspector. Search a person, p
 
 
 The continuity index also joins the named agent registry, the complete recording archive, live world state, and spatial geography. Agent role/territory/workspace references are retained; transformation records expose their previous and current places, scale baselines, and named relation. Map routes and active-state links are navigable from matching records.
+
+
+The development branch also includes `.github/workflows/geehub-continuity-validation.yml`. It checks Node and Python syntax, validates the world/spatial registry agreement and routes, checks agent/event/artifact IDs, verifies the live recording reference, and parses the activity and recording ledgers. A workflow definition is committed; its execution status must be checked in GitHub Actions.

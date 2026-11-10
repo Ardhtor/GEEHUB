@@ -232,6 +232,10 @@ async function buildContinuityIndex(query, requestedLimit=48) {
     totals:{passages:artifacts.length,encounters:events.length,memories:activity.length,recordings:recordingById.size,places:(world.regions||[]).length,relations:entities.filter(node=>node.kind==="relation").length,matches:matches.length,entityThreads:relevantEntityCount,mapRoutes:mapRoutes.length},
     results:selected.map(({artifactRef,...node})=>node),
     links,
+    map:{
+      regions:(world.regions||[]).map(region=>{const mapped=(spatial.regions||[]).find(item=>item.id===region.id)||{};return {id:region.id,name:region.name||region.id,x:mapped.x??region.x??null,y:mapped.y??region.y??null,kind:region.kind||""};}).filter(region=>Number.isFinite(region.x)&&Number.isFinite(region.y)),
+      routes:mapRoutes
+    },
     truncated:matches.length>selected.length,
     read_only:true
   };

@@ -58,9 +58,10 @@
   document.addEventListener('geehub:world-response', render);
   document.addEventListener('geehub:world-encounter', render);
   document.addEventListener('geehub:story-location', render);
+  // Prefer the exact checkout serving this interface; use GitHub only as a read-only fallback.
   const sources = [
-    'https://raw.githubusercontent.com/Ardhtor/GEEHUB/main/hub/world-state.json?ts=' + Date.now(),
-    DATA + '?ts=' + Date.now()
+    DATA + '?ts=' + Date.now(),
+    'https://raw.githubusercontent.com/Ardhtor/GEEHUB/main/hub/world-state.json?ts=' + Date.now()
   ];
   (async () => {
     for (const url of sources) {

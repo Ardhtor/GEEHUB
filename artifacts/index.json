@@ -9434,6 +9434,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000247",
+      "created_at": "2026-11-10T18:51:23.273653+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "NORTHGATE LIBRARY",
+      "content": "NICK: A detail returns in NORTHGATE LIBRARY: At night the lamps make the reading hall feel like a ship anchored in the dark. Students browse the archive, review films, share discoveries and return to familiar window seats.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-library/README.md.",
+      "lineage": {
+        "event_id": "world-pulse-000247",
+        "event": {
+          "id": "world-pulse-000247",
+          "pulse": 247,
+          "time": "2026-11-10T18:51:23.273653+00:00",
+          "actor": "TYLER",
+          "world": "NORTHGATE LIBRARY",
+          "region_id": "northgate-library",
+          "previous_region_id": "northgate-library",
+          "phase": "MEMORY",
+          "source": "worlds/northgate-library/README.md",
+          "desire_state": "recognition",
+          "action": "NICK: A detail returns in NORTHGATE LIBRARY: At night the lamps make the reading hall feel like a ship anchored in the dark. Students browse the archive, review films, share discoveries and return to familiar window seats.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-library/README.md.",
+          "narrative_rule": "comparison can become differentiation",
+          "relation": null,
+          "next_region": null,
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-10T18:51:23.273653+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000247",
+      "created_at": "2026-11-10T18:51:23.273653+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "MEMORY / NORTHGATE LIBRARY / worlds/northgate-library/README.md",
+      "content": "NICK: A detail returns in NORTHGATE LIBRARY: At night the lamps make the reading hall feel like a ship anchored in the dark. Students browse the archive, review films, share discoveries and return to familiar window seats.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-library/README.md.",
+      "production_note": "The world resolved its memory rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 247,
+        "actor": "TYLER",
+        "world": "NORTHGATE LIBRARY",
+        "region_id": "northgate-library",
+        "source": "worlds/northgate-library/README.md",
+        "phase": "MEMORY",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00078",
+      "created_at": "2026-11-10T18:51:23.347365+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE ARCHIVE IS OPEN",
+      "content": "A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.",
+      "lineage": {
+        "event_id": "northgate-campus-00078",
+        "event": {
+          "id": "northgate-campus-00078",
+          "cycle": 78,
+          "world_pulse": 247,
+          "at": "2026-11-10T18:51:23.347365+00:00",
+          "region": "northgate-library",
+          "title": "THE ARCHIVE IS OPEN",
+          "kind": "archive",
+          "participants": [
+            "Marek Ionescu",
+            "Elliot Ward",
+            "Dan Roman"
+          ],
+          "description": "A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-10T18:51:23.347365+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

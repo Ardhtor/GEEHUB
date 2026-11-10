@@ -180,6 +180,10 @@ test("rejects mismatched frame evidence and missing protected-face pixels", () =
     error => error.code === "mesh-deformation-frame-evidence-mismatch");
   assert.throws(() => buildGrowthDeformationFrame({
     ...args, landmarkFrame: landmarks(0),
+    protectedFaceMask: { ...masks[0].faceMask, frame: 1 }
+  }), error => error.code === "mesh-deformation-face-mask-invalid");
+  assert.throws(() => buildGrowthDeformationFrame({
+    ...args, landmarkFrame: landmarks(0),
     protectedFaceMask: { ...makeMask(28, 30, () => false), frame: 0 }
   }), error => error.code === "mesh-deformation-face-mask-empty");
 });

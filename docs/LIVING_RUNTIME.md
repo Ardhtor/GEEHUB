@@ -25,3 +25,8 @@ Canon, experiments, live session state, and production outputs remain distinguis
 The local server in `server/geehub-server.mjs` supplies the interactive Responses API connection. The browser module in `engine/live-interlocutor.js` supplies the visible conversation surface and synchronous context handoff between turns. It requires a configured API key and model ID on the server. The existing scheduled Tractus writer is not an interactive substitute.
 
 This is a working foundation, not a claim that every modality is already connected. Dialogue inscription and activity polling now use the repository's canonical event writer. Dropbox delivery still requires the user to connect the local GEEHUB folder in a supported desktop browser. Visual/audio perception and the video, sound, and 3D production workers still require their actual providers and independent verification.
+
+
+## Language self-validation
+
+The local runtime exposes `GET /api/geehub/language`, which runs `engine/tractus_language_audit.py` as a read-only audit. It checks that the executable passage grammar matches the continuity contract, validates exchange-event structure and identity, checks narrative-lane fields and targets, checks world-state passage fields, and validates the append-only activity stream including strict canon-update requirements. The interface reports pass, warning, or fail beside the memory feed. This is structural validation: it can detect malformed records and continuity-contract drift, but it does not certify literary quality, factual truth, consent, or whether a narrative decision deserves canon status. It never repairs or promotes material.

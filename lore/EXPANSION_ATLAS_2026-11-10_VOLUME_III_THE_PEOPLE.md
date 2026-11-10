@@ -119,7 +119,7 @@ One evening, Gabe and Chase walk from the Observatory Range toward the Night Arc
 
 They reach the Archive and sit in the reading room without opening a file. The room has its own steady temperature, the soft fan above the stacks, and a narrow strip of evening light on the floor. Gabe stays until he is ready to leave. Chase does not call the visit a breakthrough. The archive records the date, the people present, and the fact that they left together.
 
-## Eight days in the Confluence
+## One week in the Confluence
 
 A life is easier to recognise when it contains repetition. The following sequence follows the characters across one ordinary week during the weeks leading up to Long Week. The dates are not meant to replace the formal calendar. They show how the same places accumulate different uses.
 

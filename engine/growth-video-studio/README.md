@@ -23,7 +23,7 @@ The new core/growth-mesh.js module turns a tracked source frame plus baseline an
 
 The mapper reports the requested stature ratio, the projected stature measured from the mapped landmarks, and any anchors that leave the normalized frame so a director can request a camera reframe instead of silently clipping the subject. renderGrowthMesh passes mapped body anchors to the existing piecewise-affine Canvas warp when a caller supplies a valid body-only triangle mesh.
 
-Chest depth and regional mass channels are deliberately deferred. They require segmentation-derived silhouette geometry, depth, or a 3D body representation; this module does not fake them with centerline landmarks. Face pixels are protected only when the caller's triangle mesh excludes the face region. This mapper does not create that mesh itself; the separate mask-mesh worker now derives a conservative fixed-index grid from verified body/face masks, but vertex deformation is not yet connected.
+Chest depth and regional mass channels are deliberately deferred. They require segmentation-derived silhouette geometry, depth, or a 3D body representation; this module does not fake them with centerline landmarks. Face pixels are protected only when the caller's triangle mesh excludes the face region. The original renderGrowthMesh helper still accepts caller-supplied anchor triangles; the new mesh-deformation module connects the separate mask-mesh grid to the articulated anchors and refuses to render across the supplied protected-face mask.
 
 Focused tests live in core/growth-mesh.test.js and cover baseline stability, articulated segment scaling, shoulder width, face offset, ground contact, reframe detection, invalid growth, and the supplied-triangle render call.
 

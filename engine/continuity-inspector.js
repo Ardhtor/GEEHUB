@@ -3,7 +3,7 @@ const root=document.getElementById("continuityInspector");if(!root)return;
 const form=root.querySelector("#continuitySearch"),input=root.querySelector("#continuityQuery"),results=root.querySelector(".continuity-results"),summary=root.querySelector(".continuity-summary"),state=root.querySelector(".continuity-state");
 const esc=value=>String(value??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const date=value=>{if(!value)return"DATE UNRECORDED";const d=new Date(value);return Number.isNaN(d.getTime())?"DATE UNRECORDED":d.toLocaleString()};
-const kindLabel={passage:"WRITTEN PASSAGE",encounter:"ENCOUNTER",recording:"RECORDING",memory:"WORLD MEMORY",place:"PLACE"};
+const kindLabel={passage:"WRITTEN PASSAGE",encounter:"ENCOUNTER",recording:"RECORDING",memory:"WORLD MEMORY",place:"PLACE",identity:"PERSON / IDENTITY",relation:"RELATION",concept:"CONCEPT THREAD",state:"LIVE WORLD STATE"};
 let activeQuery="";
 async function trace(query){
  activeQuery=query;
@@ -29,6 +29,7 @@ async function trace(query){
    if(node.summary){const body=document.createElement("p");body.className="continuity-body";body.textContent=node.summary;article.append(body)}
    if(node.canon){const canon=document.createElement("span");canon.className="continuity-canon";canon.textContent="CANON / "+node.canon.toUpperCase();article.append(canon)}
    if(node.continuity){const continuity=document.createElement("p");continuity.className="continuity-body continuity-unresolved";continuity.textContent="CONTINUITY / "+node.continuity;article.append(continuity)}
+   if(node.details&&Object.keys(node.details).length){const parts=[];if(node.details.agent)parts.push("PERSON / "+node.details.agent);if(node.details.previousRegionId||node.details.regionId)parts.push("ROUTE / "+(node.details.previousRegionId||"—")+" → "+(node.details.regionId||"—"));if(node.details.relation)parts.push("RELATION / "+node.details.relation);if(node.details.scale!==null&&node.details.scale!==undefined)parts.push("SCALE / "+node.details.scale+"×"+(node.details.previousScale!==null&&node.details.previousScale!==undefined?" FROM "+node.details.previousScale+"×":""));if(node.details.coordinates)parts.push("MAP / "+node.details.coordinates);if(node.details.recording)parts.push("ACTIVE RECORDING / "+node.details.recording);if(parts.length){const detail=document.createElement("div");detail.className="continuity-detail";for(const part of parts){const line=document.createElement("span");line.textContent=part;detail.append(line)}article.append(detail)}}
    if(node.entities?.length){const tags=document.createElement("div");tags.className="continuity-entities";for(const entity of node.entities.slice(0,9)){const tag=document.createElement("span");tag.textContent=String(entity.type||"LINK").toUpperCase()+" / "+entity.value;tags.append(tag)}article.append(tags)}
    if(node.source||node.path){const safePath=Boolean(node.path&&!node.path.startsWith("/")&&!node.path.split("/").includes("..")&&!node.path.startsWith("http:")&&!node.path.startsWith("https:"));const source=document.createElement(safePath?"a":"div");source.className="continuity-source";source.textContent="SOURCE / "+(node.path||node.source);if(safePath){source.href="./"+node.path;source.target="_blank";source.rel="noopener noreferrer"}article.append(source)}
    const related=edges.get(node.id)||[];

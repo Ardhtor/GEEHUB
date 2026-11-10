@@ -121,7 +121,7 @@ async function buildContinuityIndex(query, requestedLimit=48) {
   const artifacts=parseJson(artifactRaw,{artifacts:[]}).artifacts||[];
   const events=parseJson(exchangeRaw,{events:[]}).events||[];
   const world=parseJson(worldRaw,{regions:[]});
-  const activity=activityRaw.split(/\\r?\\n/).filter(Boolean).flatMap(line=>{try{return [JSON.parse(line)]}catch{return []}});
+  const activity=activityRaw.split(/\r?\n/).filter(Boolean).flatMap(line=>{try{return [JSON.parse(line)]}catch{return []}});
   const nodes=[];
   const add=(kind,item)=>{
     if(!item||typeof item!=="object")return;
@@ -134,7 +134,7 @@ async function buildContinuityIndex(query, requestedLimit=48) {
   artifacts.forEach(item=>add("passage",item));
   events.forEach(item=>add("encounter",item));
   activity.forEach(item=>add("memory",item));
-  for(const file of recordingFiles.filter(name=>/^scheduled-recording-[A-Za-z0-9._-]+\\.json$/.test(name))){
+  for(const file of recordingFiles.filter(name=>/^scheduled-recording-[A-Za-z0-9._-]+\.json$/.test(name))){
     try{const item=parseJson(await readFull("hub/recordings/"+file),null);if(item){add("recording",{...item,title:item.intent||item.id,at:item.timestamp,source:"hub/recordings/"+file,path:"hub/recordings/"+file});}}catch{}
   }
   (world.regions||[]).forEach(region=>nodes.push({id:region.id,kind:"place",title:region.name||region.id,at:"",summary:region.description||"",source:region.path||"",canon:"",path:region.path||"",entities:[{type:"place",value:region.id,key:"place:"+region.id.toLowerCase()},{type:"place",value:region.name||region.id,key:"place:"+(region.name||region.id).toLowerCase()}],artifactRef:""}));

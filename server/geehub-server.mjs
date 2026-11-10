@@ -120,11 +120,18 @@ const server=http.createServer(async(req,res)=>{
   if(req.method==="GET" && url.pathname==="/api/geehub/health") return send(res,200,{ok:true,configured:Boolean(API_KEY&&MODEL),model:MODEL||null});
   if(req.method==="GET" && url.pathname==="/api/geehub/system"){
     const memory=process.memoryUsage();
+    const activityRaw=await readFull("engine/activity.jsonl");
+    const activityLines=activityRaw.split(/\\r?\\n/).filter(Boolean);
+    let latestActivity=null;
+    for(let i=activityLines.length-1;i>=0;i--){
+      try{latestActivity=JSON.parse(activityLines[i]);break}catch{}
+    }
     return send(res,200,{
       ok:true,
       runtime:{name:"GEEHUB",pid:process.pid,platform:process.platform,arch:process.arch,node:process.version,uptime_seconds:Math.floor(process.uptime())},
       process_memory_bytes:{rss:memory.rss,heap_total:memory.heapTotal,heap_used:memory.heapUsed,external:memory.external,array_buffers:memory.arrayBuffers},
       host_memory_bytes:{total:os.totalmem(),free:os.freemem()},
+      world_activity:{record_count:activityLines.length,latest:latestActivity?{id:latestActivity.id||null,type:latestActivity.type||null,title:latestActivity.title||null,at:latestActivity.at||latestActivity.occurred_at||null}:null},
       sampled_at:new Date().toISOString()
     });
   }

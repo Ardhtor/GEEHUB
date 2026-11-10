@@ -153,8 +153,9 @@ sequence alignment, combines their landmark observations with approved
 cumulative growth states, rechecks the referenced body/face PNG bytes and
 dimensions, and writes a new queued manifest plus portable render-job bundle
 without overwriting existing files. `stage:bridge` can then deliver that
-bundle to the Dropbox mirror. These steps prepare an auditable job and a
-source-space mesh; they do not yet deform frames or render a video.
+bundle to the Dropbox mirror. These steps prepare auditable jobs and a first per-frame deformation plan;
+a ready plan can reach the Canvas warp, but no source-footage batch or
+finished video has been rendered.
 Construction evidence and remaining blockers are recorded in
 [world/gee-narrative/STATE.md](world/gee-narrative/STATE.md) and
 [world/gee-narrative/CONSTRUCTION_CHRONICLE.md](world/gee-narrative/CONSTRUCTION_CHRONICLE.md).

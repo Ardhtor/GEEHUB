@@ -129,30 +129,29 @@ async function buildContinuityIndex(query, requestedLimit=48) {
     const at=item.at||item.occurred_at||item.timestamp||item.created_at||item.time||"";
     const summary=String(item.body||item.content||item.description||item.intent||item.continuity||"").slice(0,520);
     const entities=continuityEntities(item);
-    nodes.push({id,kind,type:String(item.type||item.kind||""),title:String(item.title||item.name||item.intent||id),at,summary,source:String(item.lineage?.source||item.source||item.inscription_source||item.path||""),canon:String(item.canon||""),path:String(item.path||item.lineage?.source||""),entities,artifactRef:String(item.artifact||"")});
+    nodes.push({id:kind+":"+id,recordId:id,kind,type:String(item.type||item.kind||""),title:String(item.title||item.name||item.intent||id),at,summary,source:String(item.lineage?.source||item.source||item.inscription_source||item.path||""),canon:String(item.canon||""),path:String(item.path||item.lineage?.source||""),entities,artifactRef:String(item.artifact||"")});
   };
   artifacts.forEach(item=>add("passage",item));
   events.forEach(item=>add("encounter",item));
   activity.forEach(item=>add("memory",item));
   const recordingData=await Promise.all(recordingFiles.filter(name=>/^scheduled-recording-[A-Za-z0-9._-]+\.json$/.test(name)).map(async file=>({file,item:parseJson(await readFull("hub/recordings/"+file),null)})));
   for(const {file,item} of recordingData){if(item)add("recording",{...item,title:item.intent||item.id,at:item.timestamp,source:"hub/recordings/"+file,path:"hub/recordings/"+file});}
-  (world.regions||[]).forEach(region=>nodes.push({id:region.id,kind:"place",title:region.name||region.id,at:"",summary:region.description||"",source:region.path||"",canon:"",path:region.path||"",entities:[{type:"place",value:region.id,key:"place:"+region.id.toLowerCase()},{type:"place",value:region.name||region.id,key:"place:"+(region.name||region.id).toLowerCase()}],artifactRef:""}));
+  (world.regions||[]).forEach(region=>nodes.push({id:"place:"+region.id,recordId:region.id,kind:"place",title:region.name||region.id,at:"",summary:region.description||"",source:region.path||"",canon:"",path:region.path||"",entities:[{type:"place",value:region.id,key:"place:"+region.id.toLowerCase()},{type:"place",value:region.name||region.id,key:"place:"+(region.name||region.id).toLowerCase()}],artifactRef:""}));
   const needle=String(query||"").trim().toLowerCase();
   const limit=Math.min(100,Math.max(8,Number(requestedLimit)||48));
   const matches=needle
-    ? nodes.filter(node=>([node.id,node.title,node.summary,node.source,node.canon,node.path].join(" ")+" "+node.entities.map(x=>x.value).join(" ")).toLowerCase().includes(needle))
+    ? nodes.filter(node=>([node.id,node.recordId,node.title,node.summary,node.source,node.canon,node.path].join(" ")+" "+node.entities.map(x=>x.value).join(" ")).toLowerCase().includes(needle))
     : nodes.filter(node=>node.kind==="encounter"||node.kind==="recording"||node.kind==="passage").sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0)).slice(0,12);
   matches.sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0));
   const selected=matches.slice(0,limit);
-  const selectedIds=new Set(selected.map(node=>node.id));
   const links=[];
-  const addLink=(from,to,label)=>{if(from!==to&&!links.some(edge=>edge.from===from&&edge.to===to))links.push({from,to,label});};
+  const addLink=(from,to,label)=>{if(from!==to&&!links.some(edge=>edge.from===from&&edge.to===to)){const target=nodes.find(item=>item.id===to);links.push({from,to,targetId:target?.recordId||to,label});}};
   const recordingIds=new Set(nodes.filter(node=>node.kind==="recording").map(node=>node.id));
   for(const node of selected){
-    if(node.artifactRef&&recordingIds.has(node.artifactRef))addLink(node.id,node.artifactRef,"recorded as");
+    if(node.artifactRef&&recordingIds.has("recording:"+node.artifactRef))addLink(node.id,"recording:"+node.artifactRef,"recorded as");
     if(node.kind==="recording"){
       const event=events.find(item=>item.artifact===node.id);
-      if(event)addLink(node.id,event.id,"inscribed as");
+      if(event)addLink(node.id,"encounter:"+event.id,"inscribed as");
     }
     for(const entity of node.entities){
       const peers=selected.filter(other=>other.id!==node.id&&other.entities.some(item=>item.key===entity.key));

@@ -135,6 +135,21 @@ const server=http.createServer(async(req,res)=>{
       sampled_at:new Date().toISOString()
     });
   }
+  if(req.method==="GET" && url.pathname==="/api/geehub/language"){
+    const python=process.env.GEEHUB_PYTHON||(process.platform==="win32"?"python":"python3");
+    return await new Promise(resolve=>{
+      const child=spawn(python,["engine/tractus_language_audit.py"],{cwd:ROOT,stdio:["ignore","pipe","pipe"]});
+      let stdout="",stderr="";
+      child.stdout.setEncoding("utf8");child.stderr.setEncoding("utf8");
+      child.stdout.on("data",chunk=>{stdout+=chunk;if(stdout.length>1_000_000)child.kill();});
+      child.stderr.on("data",chunk=>stderr+=chunk);
+      child.on("error",error=>resolve(send(res,503,{status:"unavailable",error:error.message})));
+      child.on("close",code=>{
+        try{const report=JSON.parse(stdout);resolve(send(res,code===0?200:500,report));}
+        catch{resolve(send(res,500,{status:"error",error:stderr.slice(0,1200)||"Language audit returned invalid output."}));}
+      });
+    });
+  }
   if(req.method==="GET" && url.pathname==="/api/geehub/activity"){
     try{
       const limit=Math.min(100,Math.max(1,Number(url.searchParams.get("limit")||40)));

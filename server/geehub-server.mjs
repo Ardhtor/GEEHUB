@@ -102,7 +102,7 @@ function continuityEntities(value, prefix="") {
   const add=(type,item)=>{if(typeof item==="string"&&item.trim())found.push({type,value:item.trim(),key:type+":"+item.trim().toLowerCase()});};
   if(!value||typeof value!=="object")return found;
   for(const key of ["agent","actor","to","from"]){add("person",value[key]);}
-  for(const key of ["regionId","previousRegionId","region_id","region","world"]){add("place",value[key]);}
+  for(const key of ["regionId","previousRegionId","region_id","previous_region_id","region","world"]){add("place",value[key]);}
   for(const key of ["relation","story","chapter"]){add(key,value[key]);}
   for(const key of ["source","inscription_source"]){add("source",value[key]);}
   if(Array.isArray(value.characters))value.characters.forEach(x=>add("person",x));
@@ -126,17 +126,16 @@ async function buildContinuityIndex(query, requestedLimit=48) {
   const add=(kind,item)=>{
     if(!item||typeof item!=="object")return;
     const id=String(item.id||item.artifact||kind+"-"+nodes.length);
-    const at=item.at||item.occurred_at||item.timestamp||item.created_at||"";
+    const at=item.at||item.occurred_at||item.timestamp||item.created_at||item.time||"";
     const summary=String(item.body||item.content||item.description||item.intent||item.continuity||"").slice(0,520);
     const entities=continuityEntities(item);
-    nodes.push({id,kind,title:String(item.title||item.name||item.intent||id),at,summary,source:String(item.lineage?.source||item.source||item.inscription_source||item.path||""),canon:String(item.canon||""),path:String(item.path||item.lineage?.source||""),entities,artifactRef:String(item.artifact||"")});
+    nodes.push({id,kind,type:String(item.type||item.kind||""),title:String(item.title||item.name||item.intent||id),at,summary,source:String(item.lineage?.source||item.source||item.inscription_source||item.path||""),canon:String(item.canon||""),path:String(item.path||item.lineage?.source||""),entities,artifactRef:String(item.artifact||"")});
   };
   artifacts.forEach(item=>add("passage",item));
   events.forEach(item=>add("encounter",item));
   activity.forEach(item=>add("memory",item));
-  for(const file of recordingFiles.filter(name=>/^scheduled-recording-[A-Za-z0-9._-]+\.json$/.test(name))){
-    try{const item=parseJson(await readFull("hub/recordings/"+file),null);if(item){add("recording",{...item,title:item.intent||item.id,at:item.timestamp,source:"hub/recordings/"+file,path:"hub/recordings/"+file});}}catch{}
-  }
+  const recordingData=await Promise.all(recordingFiles.filter(name=>/^scheduled-recording-[A-Za-z0-9._-]+\.json$/.test(name)).map(async file=>({file,item:parseJson(await readFull("hub/recordings/"+file),null)})));
+  for(const {file,item} of recordingData){if(item)add("recording",{...item,title:item.intent||item.id,at:item.timestamp,source:"hub/recordings/"+file,path:"hub/recordings/"+file});}
   (world.regions||[]).forEach(region=>nodes.push({id:region.id,kind:"place",title:region.name||region.id,at:"",summary:region.description||"",source:region.path||"",canon:"",path:region.path||"",entities:[{type:"place",value:region.id,key:"place:"+region.id.toLowerCase()},{type:"place",value:region.name||region.id,key:"place:"+(region.name||region.id).toLowerCase()}],artifactRef:""}));
   const needle=String(query||"").trim().toLowerCase();
   const limit=Math.min(100,Math.max(8,Number(requestedLimit)||48));

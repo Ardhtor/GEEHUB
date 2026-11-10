@@ -7,7 +7,7 @@
 import http from "node:http";
 import os from "node:os";
 import { spawn } from "node:child_process";
-import { readFile, stat } from "node:fs/promises";
+import { readFile, stat, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -97,6 +97,79 @@ async function generateTurn(input) {
   return { ...result, generated_at:new Date().toISOString(), model:MODEL };
 }
 
+function continuityEntities(value, prefix="") {
+  const found=[];
+  const add=(type,item)=>{if(typeof item==="string"&&item.trim())found.push({type,value:item.trim(),key:type+":"+item.trim().toLowerCase()});};
+  if(!value||typeof value!=="object")return found;
+  for(const key of ["agent","actor","to","from"]){add("person",value[key]);}
+  for(const key of ["regionId","previousRegionId","region_id","region","world"]){add("place",value[key]);}
+  for(const key of ["relation","story","chapter"]){add(key,value[key]);}
+  for(const key of ["source","inscription_source"]){add("source",value[key]);}
+  if(Array.isArray(value.characters))value.characters.forEach(x=>add("person",x));
+  if(Array.isArray(value.participants))value.participants.forEach(x=>add("person",x));
+  if(Array.isArray(value.anchors))value.anchors.forEach(x=>{if(x?.id)add("place",x.id);if(x?.name)add("place",x.name);if(x?.title)add("relation",x.title);});
+  if(value.lineage&&typeof value.lineage==="object")found.push(...continuityEntities(value.lineage,"lineage."));
+  if(value.subject&&typeof value.subject==="object")found.push(...continuityEntities(value.subject,"subject."));
+  if(value.environment&&typeof value.environment==="object")found.push(...continuityEntities(value.environment,"environment."));
+  return found.filter((item,index,array)=>array.findIndex(other=>other.key===item.key)===index);
+}
+async function buildContinuityIndex(query, requestedLimit=48) {
+  const [artifactRaw,exchangeRaw,worldRaw,activityRaw,recordingFiles]=await Promise.all([
+    readFull("artifacts/index.json"),readFull("hub/exchange.json"),readFull("world.json"),
+    readFull("engine/activity.jsonl"),readdir(path.join(ROOT,"hub/recordings")).catch(()=>[])
+  ]);
+  const artifacts=parseJson(artifactRaw,{artifacts:[]}).artifacts||[];
+  const events=parseJson(exchangeRaw,{events:[]}).events||[];
+  const world=parseJson(worldRaw,{regions:[]});
+  const activity=activityRaw.split(/\\r?\\n/).filter(Boolean).flatMap(line=>{try{return [JSON.parse(line)]}catch{return []}});
+  const nodes=[];
+  const add=(kind,item)=>{
+    if(!item||typeof item!=="object")return;
+    const id=String(item.id||item.artifact||kind+"-"+nodes.length);
+    const at=item.at||item.occurred_at||item.timestamp||item.created_at||"";
+    const summary=String(item.body||item.content||item.description||item.intent||item.continuity||"").slice(0,520);
+    const entities=continuityEntities(item);
+    nodes.push({id,kind,title:String(item.title||item.name||item.intent||id),at,summary,source:String(item.source||item.inscription_source||item.path||""),canon:String(item.canon||""),path:String(item.path||""),entities,artifactRef:String(item.artifact||"")});
+  };
+  artifacts.forEach(item=>add("passage",item));
+  events.forEach(item=>add("encounter",item));
+  activity.forEach(item=>add("memory",item));
+  for(const file of recordingFiles.filter(name=>/^scheduled-recording-[A-Za-z0-9._-]+\\.json$/.test(name))){
+    try{const item=parseJson(await readFull("hub/recordings/"+file),null);if(item){add("recording",{...item,title:item.intent||item.id,at:item.timestamp,source:"hub/recordings/"+file,path:"hub/recordings/"+file});}}catch{}
+  }
+  (world.regions||[]).forEach(region=>nodes.push({id:region.id,kind:"place",title:region.name||region.id,at:"",summary:region.description||"",source:region.path||"",canon:"",path:region.path||"",entities:[{type:"place",value:region.id,key:"place:"+region.id.toLowerCase()},{type:"place",value:region.name||region.id,key:"place:"+(region.name||region.id).toLowerCase()}],artifactRef:""}));
+  const needle=String(query||"").trim().toLowerCase();
+  const limit=Math.min(100,Math.max(8,Number(requestedLimit)||48));
+  const matches=needle
+    ? nodes.filter(node=>([node.id,node.title,node.summary,node.source,node.canon,node.path].join(" ")+" "+node.entities.map(x=>x.value).join(" ")).toLowerCase().includes(needle))
+    : nodes.filter(node=>node.kind==="encounter"||node.kind==="recording"||node.kind==="passage").sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0)).slice(0,12);
+  matches.sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0));
+  const selected=matches.slice(0,limit);
+  const selectedIds=new Set(selected.map(node=>node.id));
+  const links=[];
+  const addLink=(from,to,label)=>{if(from!==to&&!links.some(edge=>edge.from===from&&edge.to===to))links.push({from,to,label});};
+  const recordingIds=new Set(nodes.filter(node=>node.kind==="recording").map(node=>node.id));
+  for(const node of selected){
+    if(node.artifactRef&&recordingIds.has(node.artifactRef))addLink(node.id,node.artifactRef,"recorded as");
+    if(node.kind==="recording"){
+      const event=events.find(item=>item.artifact===node.id);
+      if(event)addLink(node.id,event.id,"inscribed as");
+    }
+    for(const entity of node.entities){
+      const peers=selected.filter(other=>other.id!==node.id&&other.entities.some(item=>item.key===entity.key));
+      for(const peer of peers.slice(0,5))addLink(node.id,peer.id,entity.type+": "+entity.value);
+    }
+  }
+  return {
+    query:String(query||""),
+    totals:{passages:artifacts.length,encounters:events.length,memories:activity.length,recordings:recordingIds.size,places:(world.regions||[]).length,matches:matches.length},
+    results:selected.map(({artifactRef,...node})=>node),
+    links,
+    truncated:matches.length>selected.length,
+    read_only:true
+  };
+}
+
 async function inscribeOccurrence(event) {
   const python = process.env.GEEHUB_PYTHON || (process.platform === "win32" ? "python" : "python3");
   return await new Promise((resolve,reject)=>{
@@ -149,6 +222,13 @@ const server=http.createServer(async(req,res)=>{
         catch{resolve(send(res,500,{status:"error",error:stderr.slice(0,1200)||"Language audit returned invalid output."}));}
       });
     });
+  }
+  if(req.method==="GET" && url.pathname==="/api/geehub/continuity"){
+    try{
+      const query=String(url.searchParams.get("q")||"").slice(0,160);
+      const limit=Math.min(100,Math.max(8,Number(url.searchParams.get("limit")||48)));
+      return send(res,200,await buildContinuityIndex(query,limit));
+    }catch(error){return send(res,500,{error:error.message||"Continuity index unavailable"});}
   }
   if(req.method==="GET" && url.pathname==="/api/geehub/activity"){
     try{

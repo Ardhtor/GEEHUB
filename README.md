@@ -136,8 +136,15 @@ and face masks. It also decodes the binary mask pixels and builds a conservative
 fixed-index grid mesh whose retained triangles are covered by body foreground
 and avoid protected-face pixels across every supplied frame. A mesh is ready
 only when its common triangles form one edge-connected component and meet the
-minimum coverage threshold. The mesh is reported separately from mask-intake
-readiness; semantic correctness of the upstream masks remains unverified. The local `register:frames` command reruns
+minimum coverage threshold. The new `mesh-deformation.js` worker transfers
+articulated growth landmarks onto that fixed-index surface with a distance-
+weighted local affine field. It retains the same vertex and triangle identities
+across frames and blocks foldovers, out-of-frame vertices, and destination
+triangles that cross the protected face mask before passing a ready plan to the
+Canvas warp. The face pixels remain a separate protected layer; the worker does
+not move them. This is a first deformation slice, not a complete compositor:
+semantic correctness of upstream masks, temporal jitter limits, clothing/depth
+response, and local source-footage rendering remain unverified. The local `register:frames` command reruns
 that audit, writes checksummed segmentation and landmark sidecars without
 overwriting existing evidence, then publishes a new versioned manifest only
 after both files pass read-back verification. The local `prepare:render`

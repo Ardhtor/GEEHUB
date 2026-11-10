@@ -916,5 +916,29 @@
       "hulums-cave",
       "geehub-studio"
     ]
+  },
+  {
+    "id": "scale-commons",
+    "name": "The Scale Commons",
+    "status": "active",
+    "kind": "world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/worlds/scale-commons/README.md",
+    "description": "Adult multi-scale social and recreational world within the Colossus campus. Adaptive architecture, scale classes, miniature districts, giant-scale play, and persistent body/environment continuity.",
+    "related": [
+      "size-domination-emulator",
+      "mass1v1ng",
+      "beefythiq",
+      "the-complex"
+    ],
+    "tags": [
+      "world",
+      "scale",
+      "giants",
+      "adult-men",
+      "play",
+      "architecture",
+      "continuity"
+    ]
   }
 ]

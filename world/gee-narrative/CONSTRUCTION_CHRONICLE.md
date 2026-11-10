@@ -139,3 +139,16 @@ The mesh is still a source-space surface. It has not yet been attached to the br
 ## Chronicle rule
 
 Every future entry must be grounded in repository changes, tested behavior, user-confirmed runtime results, or clearly labeled proposals. Do not write an implementation as if it has run. Do not turn missing capabilities into lore that disguises their absence. The narrative is the machine's construction record, and the construction record is part of the machine.
+
+
+## 2026-11-10 — The articulated measures reach the common surface
+
+The fixed triangle field now has a deformation instrument beside it. The new `core/mesh-deformation.js` reads the source-pixel coordinates of the mask mesh and the normalized positions of the tracked body anchors. Around each vertex it fits a distance-weighted local affine field, then carries that vertex toward the target arrangement produced by the existing stature, torso, shoulder, arm, and thigh mapper. The result is not a fresh grid for every image: the row-and-column vertex identities, triangle identities, and topology digest remain those of the shared mask mesh while each frame supplies its own tracked surface.
+
+The instrument checks the shape before it opens the renderer. A triangle may not collapse or reverse its orientation. A used vertex may not leave the image; when growth requires more camera room, the plan is marked `requires-reframe`. The source and destination triangles are both tested against the decoded protected-face mask. If the body surface would paint across that region, the plan is blocked. The face itself is not moved in this pass; it remains a separate protected image region, and the current guard prevents the body warp from covering it.
+
+A sequence builder now accepts one landmark frame, one growth target, and one decoded face mask for every mesh frame. It keeps the common topology and refuses a decrease in any cumulative growth channel between adjacent frames. A ready plan can be handed to the existing piecewise-affine Canvas warp through `renderGrowthDeformationFrame`. Six focused Node tests have been added for baseline identity, articulated surface movement, two-frame topology under source motion, growth regression, the renderer handoff, and mismatched frame or mask evidence. The renderer test uses a controlled Canvas stub to verify that each accepted triangle reaches the draw call; it does not establish browser pixel fidelity or a completed video render.
+
+The package workflow already runs `npm test` on pushes to this branch, but the GitHub status endpoint returned no checks for the implementation commits during this construction pass. The new tests are therefore recorded as authored, not as a verified passing run. The branch's prior geometry and mask-mesh evidence remains intact. No local source footage, Dropbox mirror, Mac, or Resolve session was accessed, and no rendered sequence was produced.
+
+The surface can now receive the body's measured growth without losing its vertex names. What remains is to make that surface a first-class piece of bridge evidence: register its topology digest and per-frame source coordinates, require that exact mesh revision in the queued job, and then add displacement continuity checks before a real frame loop writes any new pixels.

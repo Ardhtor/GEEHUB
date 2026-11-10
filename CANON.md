@@ -64,6 +64,8 @@ EMBODIED SCALE — body/environment perception.
 
 COLOSSAL ESCALATION — scale beyond ordinary architecture.
 
+SCALE COMMONS — shared adult environment for multi-scale play, adaptive architecture, miniature districts, and persistent scale records.
+
 KINGDOM LAND — geographic coordinate layer.
 
 DEEP LORE — residue, law, mythology.
@@ -119,6 +121,8 @@ oversized → room-dominant → building-scale → monumental → landscape-scal
 A previous baseline is never erased.
 
 The old world becomes evidence.
+
+The Scale Commons uses five measured height bands: Elevated (7 to under 10 feet), Colossal (10 to under 25 feet), Monumental (25 to under 100 feet), Titan (100 to under 500 feet), and Continental (500 feet and above). These environmental classes are independent of personal growth stages. No character receives an exact height or class without a recorded measurement.
 
 ## THE HIT
 

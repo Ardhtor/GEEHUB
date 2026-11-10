@@ -2197,3 +2197,11 @@ SETH: The Athletic Commons is a broad brick-and-glass complex with high timber t
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/athletic-commons/README.md. Pressure 0.96; memory 1.00.
+
+## NORTHGATE UNIVERSITY / pulse 244 / ATMOSPHERE
+
+SETH: Northgate University rises above the reservoir beneath old trees and open sky. The central quad is green and broad, enclosed by pale stone lecture halls, brick laboratories, timber galleries and workshops whose windows reveal models, instruments and small machines.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/northgate-university/README.md. Pressure 0.98; memory 1.00.

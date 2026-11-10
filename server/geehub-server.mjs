@@ -150,11 +150,11 @@ async function buildContinuityIndex(query, requestedLimit=48) {
   artifacts.forEach(item=>add("passage",item));
   events.forEach(item=>add("encounter",item));
   activity.forEach(item=>add("memory",item));
-  const recordingData=await Promise.all(recordingFiles.filter(name=>/^[A-Za-z0-9._-]+\.json$/.test(name)).map(async file=>({file,item:parseJson(await readFull("hub/recordings/"+file),null)})));
+  const recordingData=await Promise.all(recordingFiles.filter(name=>/^[A-Za-z0-9._-]+\.json$/.test(name)).map(async file=>{try{return {file,item:parseJson(await readFull("hub/recordings/"+file),null)}}catch{return {file,item:null}}}));
   for(const {file,item} of recordingData){if(item)add("recording",{...item,title:item.intent||item.id,at:item.timestamp,source:"hub/recordings/"+file,path:"hub/recordings/"+file});}
   (world.regions||[]).forEach(region=>{
     const mapped=(spatial.regions||[]).find(item=>item.id===region.id)||{};
-    nodes.push({id:"place:"+region.id,recordId:region.id,kind:"place",title:region.name||region.id,at:"",summary:region.description||"",source:region.path||"",canon:"",continuity:"",path:region.path||"",entities:[{type:"place",value:region.id,key:"place:"+region.id.toLowerCase()},{type:"place",value:region.name||region.id,key:"place:"+(region.name||region.id).toLowerCase()}],details:{regionId:region.id,x:mapped.x??region.x??null,y:mapped.y??region.y??null,kind:region.kind||"",coordinates:mapped.x!=null&&mapped.y!=null?mapped.x+", "+mapped.y:""},artifactRef:""});
+    nodes.push({id:"place:"+region.id,recordId:region.id,kind:"place",title:region.name||region.id,at:"",summary:region.description||"",source:region.path&&region.path!=="#"?region.path:"",canon:"",continuity:"",path:region.path&&region.path!=="#"?region.path:"",entities:[{type:"place",value:region.id,key:"place:"+region.id.toLowerCase()},{type:"place",value:region.name||region.id,key:"place:"+(region.name||region.id).toLowerCase()}],details:{regionId:region.id,x:mapped.x??region.x??null,y:mapped.y??region.y??null,kind:region.kind||"",coordinates:mapped.x!=null&&mapped.y!=null?mapped.x+", "+mapped.y:""},artifactRef:""});
   });
   const active=worldState.activeEncounter||{};
   if(active.regionId||worldState.activeRecording){

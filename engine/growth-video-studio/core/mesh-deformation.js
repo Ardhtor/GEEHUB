@@ -117,8 +117,8 @@ function triangleOverlapsMask(points, mask) {
   return false;
 }
 
-function validateFaceMask(mask, width, height) {
-  if (!mask || mask.width !== width || mask.height !== height ||
+function validateFaceMask(mask, width, height, frameNumber) {
+  if (!mask || mask.frame !== frameNumber || mask.width !== width || mask.height !== height ||
       !(mask.pixels instanceof Uint8Array) || mask.pixels.length !== width * height) {
     fail("mesh-deformation-face-mask-invalid", "A decoded face mask matching the source frame is required");
   }
@@ -153,7 +153,8 @@ export function buildGrowthDeformationFrame({
   epsilonPixels = 2
 }) {
   if (maskMesh?.schema !== "geehub.mask-mesh" || maskMesh.status !== "ready" ||
-      maskMesh.topologyStable !== true || maskMesh.connected !== true) {
+      maskMesh.topologyStable !== true || maskMesh.connected !== true ||
+      !Array.isArray(maskMesh.frames) || maskMesh.frames.length < 2) {
     fail("mesh-deformation-mask-mesh-not-ready", "A connected, stable mask mesh is required");
   }
   if (!Number.isInteger(frameIndex) || frameIndex < 0 || frameIndex >= maskMesh.frames.length) {
@@ -174,11 +175,14 @@ export function buildGrowthDeformationFrame({
       Math.abs(landmarkFrame.timeSeconds - meshFrame.timeSeconds) > 1e-6) {
     fail("mesh-deformation-frame-evidence-mismatch", "Landmarks must match the selected mesh frame and timestamp");
   }
-  if (!Array.isArray(maskMesh.vertexIds) || meshFrame.sourcePoints?.length !== maskMesh.vertexIds.length ||
+  if (!Array.isArray(maskMesh.vertexIds) || new Set(maskMesh.vertexIds).size !== maskMesh.vertexIds.length ||
+      !Array.isArray(maskMesh.triangleIds) || maskMesh.triangleIds.length !== maskMesh.triangles?.length ||
+      typeof maskMesh.topologyId !== "string" || !/^[a-f0-9]{64}$/i.test(maskMesh.topologyId) ||
+      meshFrame.sourcePoints?.length !== maskMesh.vertexIds.length ||
       !Array.isArray(maskMesh.triangles) || maskMesh.triangles.length === 0) {
-    fail("mesh-deformation-topology-invalid", "Mask-mesh vertices and triangles are incomplete");
+    fail("mesh-deformation-topology-invalid", "Mask-mesh vertices, triangle identities, or topology digest are incomplete");
   }
-  validateFaceMask(protectedFaceMask, width, height);
+  validateFaceMask(protectedFaceMask, width, height, meshFrame.frame);
 
   const mapping = buildGrowthTargetLandmarks(landmarkFrame, baselineBody, targetBody);
   const sourceAnchors = GROWTH_MESH_ANCHORS.map(name => ({
@@ -191,6 +195,10 @@ export function buildGrowthDeformationFrame({
     y: mapping.landmarks[name].y * height
   }));
   const sourcePoints = meshFrame.sourcePoints.map(point => ({ x: point.x, y: point.y }));
+  const sourceValidation = validateWarpMesh(sourcePoints, sourcePoints, maskMesh.triangles);
+  if (!sourceValidation.valid) {
+    fail("mesh-deformation-source-mesh-invalid", sourceValidation.errors.join("; "));
+  }
   const targetPoints = sourcePoints.map(point =>
     solveAffineAt(point, sourceAnchors, targetAnchors, epsilonPixels)
   );

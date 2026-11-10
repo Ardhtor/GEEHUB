@@ -1126,14 +1126,15 @@
     "name": "Joey — The Colossus Chronicles",
     "group": "story-series",
     "status": "active",
-    "summary": "Five-volume adult male bodybuilding growth-fantasy saga following Joey from his first training baseline through Stage 5 Colossus and LOVE Ascendant into a new generation of growth; continuous chapters, character records, facility evolution, and relationship continuity.",
+    "summary": "Six-volume adult male bodybuilding growth-fantasy saga following Joey from his first training baseline through Stage 5 Colossus, LOVE Ascendant, and the Scale Commons; continuous chapters, character records, facility evolution, and relationship continuity.",
     "path": "../lore/joey-colossus/README.md",
     "volumes": [
       "lore/joey-colossus/VOLUME_I_THE_BEGINNING_OF_MORE.md",
       "lore/joey-colossus/VOLUME_II_THE_MASS_YEARS.md",
       "lore/joey-colossus/VOLUME_III_COLOSSUS.md",
       "lore/joey-colossus/VOLUME_IV_LOVE_ASCENDANT.md",
-      "lore/joey-colossus/VOLUME_V_BEYOND_THE_BASELINE.md"
+      "lore/joey-colossus/VOLUME_V_BEYOND_THE_BASELINE.md",
+      "lore/joey-colossus/VOLUME_VI_THE_SCALE_COMMONS.md"
     ],
     "character_record": "lore/joey-colossus/CONTINUITY_LEDGER.md",
     "tags": [
@@ -1157,5 +1158,29 @@
     ],
     "writing_engine": "lore/joey-colossus/WRITING_ENGINE.md",
     "continuity_protocol": "Canon → Pressure → Scene → Change → Consequence → Seeds → Next Scene"
+  },
+  {
+    "id": "scale-commons",
+    "name": "The Scale Commons",
+    "group": "world",
+    "status": "active",
+    "summary": "Adult multi-scale social and recreational world within the Colossus campus: adaptive architecture, measured scale classes, miniature districts, giant-scale play, and persistent body/environment continuity.",
+    "path": "../worlds/scale-commons/README.md",
+    "tags": [
+      "world",
+      "scale",
+      "giants",
+      "adult-men",
+      "play",
+      "architecture",
+      "continuity"
+    ],
+    "related": [
+      "joey-colossus-chronicles",
+      "size-domination-emulator",
+      "mass1v1ng",
+      "beefythiq"
+    ],
+    "continuity": "lore/joey-colossus/CONTINUITY_LEDGER.md"
   }
 ]

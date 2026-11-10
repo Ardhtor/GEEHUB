@@ -1,5 +1,5 @@
 {
-  "pulse": 248,
+  "pulse": 249,
   "events": [
     {
       "pulse": 1,
@@ -4473,6 +4473,28 @@
       "occurred_at": "2026-11-10T18:52:28.574012+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000249",
+      "pulse": 249,
+      "time": "2026-11-10T18:57:08.844754+00:00",
+      "actor": "JOSEPH",
+      "world": "THE COMMON TABLE",
+      "region_id": "common-table",
+      "previous_region_id": "northgate-library",
+      "phase": "CROSSING",
+      "source": "worlds/common-table/README.md",
+      "desire_state": "continuity",
+      "action": "NICK: The world crosses the route from NORTHGATE LIBRARY into THE COMMON TABLE. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A generous oak dining hall with seasonal food, fresh bread, a courtyard, and room for newcomers to settle in at their own pace. Relation carried forward: CAMPUS AFTER HOURS.",
+      "narrative_rule": "meaningful change becomes an outward-facing signal",
+      "relation": "CAMPUS AFTER HOURS",
+      "next_region": null,
+      "pressure": 0.88,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-10T18:57:08.844754+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -4489,7 +4511,7 @@
     "discovery": 13,
     "veyrthalis": 13,
     "bodylounger": 11,
-    "common-table": 4,
+    "common-table": 5,
     "cedar-house": 4,
     "cat-gardens": 5,
     "founders-dormitory": 4,
@@ -4513,7 +4535,7 @@
     "discovery": 155.5,
     "veyrthalis": 156.5,
     "bodylounger": 163,
-    "common-table": 215,
+    "common-table": 249,
     "cedar-house": 228.5,
     "cat-gardens": 232,
     "founders-dormitory": 236,
@@ -4523,7 +4545,7 @@
     "northgate-library": 245.5,
     "athletic-commons": 242.5
   },
-  "pressure": 1.0,
+  "pressure": 0.88,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -4537,7 +4559,7 @@
     "README.md": 10,
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 11,
-    "worlds/common-table/README.md": 8,
+    "worlds/common-table/README.md": 9,
     "worlds/cedar-house/README.md": 9,
     "worlds/cat-gardens/README.md": 12,
     "worlds/founders-dormitory/README.md": 7,
@@ -4547,19 +4569,14 @@
     "worlds/northgate-library/README.md": 10,
     "worlds/athletic-commons/README.md": 5
   },
-  "next_region": "common-table",
-  "phase": 3,
-  "active_region": "northgate-library",
-  "current_phase": "ROUTE_OPEN",
-  "current_desire_state": "tension",
-  "current_question": "Which existing relation now becomes traversable?",
-  "current_narrative_rule": "arrival activates aftermath",
-  "next_relation": {
-    "title": "CAMPUS AFTER HOURS",
-    "text": "Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening.",
-    "from": "northgate-library",
-    "to": "common-table"
-  },
+  "next_region": null,
+  "phase": 0,
+  "active_region": "common-table",
+  "current_phase": "CROSSING",
+  "current_desire_state": "continuity",
+  "current_question": "What can change without erasing where it came from?",
+  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "next_relation": null,
   "long_play": {
     "cycle": 189,
     "agent": "joseph",

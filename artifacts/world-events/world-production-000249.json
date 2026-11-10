@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000249",
+  "created_at": "2026-11-10T18:57:08.844754+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "CROSSING / THE COMMON TABLE / worlds/common-table/README.md",
+  "content": "NICK: The world crosses the route from NORTHGATE LIBRARY into THE COMMON TABLE. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A generous oak dining hall with seasonal food, fresh bread, a courtyard, and room for newcomers to settle in at their own pace. Relation carried forward: CAMPUS AFTER HOURS.",
+  "production_note": "The world resolved its crossing rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 249,
+    "actor": "JOSEPH",
+    "world": "THE COMMON TABLE",
+    "region_id": "common-table",
+    "source": "worlds/common-table/README.md",
+    "phase": "CROSSING",
+    "relation": "CAMPUS AFTER HOURS"
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

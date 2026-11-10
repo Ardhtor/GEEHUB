@@ -68,3 +68,7 @@ The records for Luke, Tyler, Chase, Gabe, and Andrew now include inner drives, b
 
 
 Andrew's physical and sporting identity has now been established by the user: a big, muscular Italian baseball player with blue eyes, paired with a genuinely eccentric and associative personality. His position, team, playing level, regional origin, accent, and exact measurements remain open. See [Andrew's record](records/ANDREW.md) and [Chapter LXXVI — The Field Has Its Own Echo](../novel/chapters/CHAPTER_LXXVI_THE_FIELD_HAS_ITS_OWN_ECHO.md).
+
+## Volume III character records
+
+The Confluence's Volume III introduces longer fictional lives and interconnected scenes. Its newly developed records keep provisional additions separate from established identity and source material: [Marcus](records/MARCUS.md) preserves his Gold's on 5th production identity without collapsing it into the wider Teal Titan lineage, and [Dan Roman](records/DAN_ROMAN.md) records a fictional portrait while leaving unsupported real-world biography unresolved. See [Expansion Atlas, Volume III — The People](../lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md) for the connected chapters.

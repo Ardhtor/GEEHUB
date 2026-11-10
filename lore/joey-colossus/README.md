@@ -32,6 +32,12 @@ The volumes are written as actual fiction: continuous scenes, dialogue, training
 
 [WRITING_ENGINE.md](WRITING_ENGINE.md) is the generative protocol for the series. It turns canon into scene pressure, scenes into consequential changes, and those consequences into several independent continuation seeds. It governs long-form drafting, character voices, full-body growth sequences, world expansion, in-world artifacts, branching, anti-repetition, and continuity checks. Use it whenever continuing or expanding the series.
 
+## The wider world
+
+The residence is a beginning, not the boundary of the series. [WORLD_ATLAS_BEYOND_THE_COMMONS.md](WORLD_ATLAS_BEYOND_THE_COMMONS.md) maps the Meridian Basin around the campus: Crownmere, the River Aven, the Long Park, Glassmarket, Foundry Ward, Old Crown, Observatory Rise, Cedar Reach, the Eastern Tablelands, Saltline Coast, and the Northern Ranges. Volume VI begins that outward movement in [Chapter 4 — Sunday Beyond the Gate](VOLUME_VI_THE_SCALE_COMMONS.md). The city has its own institutions, workers, clubs, routines, and unresolved problems; the residents become part of its life rather than the centre of every event.
+
+The larger Tractus atlas is [hub/WORLD_ATLAS.md](../../hub/WORLD_ATLAS.md). It keeps the Colossus Chronicles, Veyrthalis, Mexiancas, the Sacred Corridor, and the other worlds distinct while recording the ways artifacts and encounters can pass between them.
+
 ## Reading order and continuation
 
 Read the volumes in sequence. New chapters should be appended to the relevant volume and summarized in the continuity ledger. Do not overwrite earlier stages to make later ones seem more impressive. Preserve the history of each baseline.

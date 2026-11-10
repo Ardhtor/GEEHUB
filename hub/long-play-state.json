@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 187,
-  "currentAgent": "tyler",
-  "currentRegion": "athletic-commons",
-  "scale": 14.42,
-  "lastRun": "2026-11-10T00:36:43.846Z",
+  "cycle": 188,
+  "currentAgent": "andrew",
+  "currentRegion": "northgate-university",
+  "scale": 14.5,
+  "lastRun": "2026-11-10T07:47:09.343Z",
   "history": [
+    {
+      "cycle": 188,
+      "agent": "andrew",
+      "previousRegion": "athletic-commons",
+      "region": "northgate-university",
+      "relation": "STRENGTH WITHOUT CONFLICT",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 14.42,
+      "scale": 14.5,
+      "recording": "scheduled-recording-00188",
+      "at": "2026-11-10T07:47:09.343Z"
+    },
     {
       "cycle": 187,
       "agent": "tyler",
@@ -1197,21 +1209,9 @@
       "scale": 8.22,
       "recording": "scheduled-recording-00089",
       "at": "2026-10-21T23:41:02.378Z"
-    },
-    {
-      "cycle": 88,
-      "agent": "andrew",
-      "previousRegion": "embodied-scale",
-      "region": "facility",
-      "relation": "THE FLOOR REPLIES",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 8.02,
-      "scale": 8.1,
-      "recording": "scheduled-recording-00088",
-      "at": "2026-10-21T20:31:01.420Z"
     }
   ],
-  "previousRegion": "northgate-university",
+  "previousRegion": "athletic-commons",
   "relation": "STRENGTH WITHOUT CONFLICT",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
@@ -1233,7 +1233,7 @@
     "cedar-house": 4,
     "cat-gardens": 5,
     "founders-dormitory": 4,
-    "northgate-university": 5,
+    "northgate-university": 6,
     "bluewater-quay": 3,
     "lantern-market": 3,
     "northgate-library": 2,
@@ -1263,10 +1263,10 @@
     "cedar-house": "2026-11-09T18:25:18.666082+00:00",
     "cat-gardens": "2026-11-09T18:52:48.950463+00:00",
     "founders-dormitory": "2026-11-09T18:59:23.858586+00:00",
-    "northgate-university": "2026-11-09T20:10:28.242078+00:00",
+    "northgate-university": "2026-11-10T07:47:09.343Z",
     "bluewater-quay": "2026-11-09T01:53:40.585632+00:00",
     "lantern-market": "2026-11-08T22:23:04.167714+00:00",
     "northgate-library": "2026-11-09T16:55:29.287198+00:00",
-    "athletic-commons": "2026-11-10T00:36:43.846Z"
+    "athletic-commons": "2026-11-10T02:45:40.953094+00:00"
   }
 }

@@ -1,0 +1,85 @@
+name: GEEHUB continuity validation
+
+on:
+  push:
+    branches:
+      - geehub/local-runtime-telemetry
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  continuity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check JavaScript syntax
+        run: |
+          node --check server/geehub-server.mjs
+          node --check engine/continuity-inspector.js
+          node --check engine/local-runtime.js
+      - name: Check Python syntax
+        run: python -m py_compile engine/tractus_language_audit.py
+      - name: Validate world and continuity ledgers
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          def load(path):
+              return json.loads(Path(path).read_text(encoding="utf-8"))
+
+          world = load("world.json")
+          spatial = load("hub/spatial-world.json")
+          agents = load("hub/agents.json")
+          exchange = load("hub/exchange.json")
+          artifacts = load("artifacts/index.json")
+          state = load("hub/world-state.json")
+
+          world_regions = {item["id"]: item for item in world["regions"]}
+          map_regions = {item["id"]: item for item in spatial["regions"]}
+          assert world_regions.keys() == map_regions.keys(), "Spatial map and world registry disagree"
+          for region_id, region in world_regions.items():
+              mapped = map_regions[region_id]
+              assert (region["x"], region["y"]) == (mapped["x"], mapped["y"]), f"Coordinate mismatch: {region_id}"
+
+          for route in spatial["routes"]:
+              assert len(route) == 2 and route[0] in map_regions and route[1] in map_regions, f"Invalid route: {route}"
+
+          agent_ids = [item["id"] for item in agents["agents"]]
+          assert len(agent_ids) == len(set(agent_ids)), "Duplicate agent identity"
+
+          event_ids = [item["id"] for item in exchange["events"]]
+          assert len(event_ids) == len(set(event_ids)), "Duplicate exchange event ID"
+          recording_ids = {item["id"] for item in exchange["events"] if item.get("artifact")}
+          assert state["livePlay"]["recording"] in recording_ids, "Live recording is absent from exchange ledger"
+
+          artifact_ids = [item["id"] for item in artifacts["artifacts"]]
+          assert len(artifact_ids) == len(set(artifact_ids)), "Duplicate artifact ID"
+
+          activity_ids = set()
+          activity_path = Path("engine/activity.jsonl")
+          for line_number, line in enumerate(activity_path.read_text(encoding="utf-8").splitlines(), 1):
+              if not line.strip():
+                  continue
+              event = json.loads(line)
+              if event.get("id"):
+                  assert event["id"] not in activity_ids, f"Duplicate activity ID at line {line_number}"
+                  activity_ids.add(event["id"])
+
+          recording_dir = Path("hub/recordings")
+          for recording_path in recording_dir.glob("*.json"):
+              json.loads(recording_path.read_text(encoding="utf-8"))
+
+          print(f"Validated {len(world_regions)} places, {len(spatial['routes'])} routes, {len(agent_ids)} agents, {len(event_ids)} encounters, {len(artifact_ids)} artifacts, {len(activity_ids)} activity records.")
+          PY

@@ -11,7 +11,7 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ALLOWED_EXCHANGE_TYPES = {"ARRIVAL", "NOTICE", "ENCOUNTER", "OFFER", "TRANSFORM", "RETURN", "MEMORY", "UTTERANCE"}
+ALLOWED_EXCHANGE_TYPES = {"ARRIVAL", "NOTICE", "ENCOUNTER", "OFFER", "TRANSFORM", "RETURN", "MEMORY", "UTTERANCE", "FOUNDING"}
 PASSAGE_GRAMMAR = ("ORIGIN", "ENCOUNTER", "PRESSURE", "TRANSFORMATION", "INTEGRATION", "NEW BASELINE", "NEXT PASSAGE")
 ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{0,159}$")
 
@@ -75,6 +75,43 @@ def audit():
                 errors.append(f"{label} is missing {field}"); bad += 1
     counts["exchange_events"] = len(events)
     checks.append({"name":"exchange grammar","records":len(events),"invalid":bad,"status":"fail" if bad else "pass"})
+
+    # A valid record must also describe a coherent transition, not merely
+    # contain syntactically valid fields. Keep provenance and route checks
+    # separate so a failure identifies the layer that needs repair.
+    transition_bad = 0
+    previous_timestamp = None
+    for index, event in enumerate(events):
+        if not isinstance(event, dict):
+            continue
+        label = f"hub/exchange.json events[{index}]"
+        for field in ("source", "artifact"):
+            if not isinstance(event.get(field), str) or not event[field].strip():
+                errors.append(f"{label} is missing provenance field {field}")
+                transition_bad += 1
+        if event.get("type") == "TRANSFORM":
+            origin = event.get("previousRegionId")
+            destination = event.get("regionId")
+            if not isinstance(origin, str) or not origin.strip():
+                errors.append(f"{label} TRANSFORM is missing previousRegionId")
+                transition_bad += 1
+            if not isinstance(destination, str) or not destination.strip():
+                errors.append(f"{label} TRANSFORM is missing regionId")
+                transition_bad += 1
+            if isinstance(origin, str) and isinstance(destination, str) and origin == destination:
+                errors.append(f"{label} TRANSFORM does not change location")
+                transition_bad += 1
+            if not isinstance(event.get("relation"), str) or not event["relation"].strip():
+                errors.append(f"{label} TRANSFORM is missing its carried relation")
+                transition_bad += 1
+        timestamp = event.get("at")
+        if valid_time(timestamp):
+            parsed = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
+            if previous_timestamp is not None and parsed > previous_timestamp:
+                warnings.append("exchange ledger is not ordered newest-first; chronology remains valid but presentation order may be stale")
+            previous_timestamp = parsed
+    counts["exchange_transitions"] = len(events)
+    checks.append({"name":"transition and provenance integrity","records":len(events),"invalid":transition_bad,"status":"fail" if transition_bad else "pass"})
 
     queue = load_json(ROOT / "engine/tractus_narrative_queue.json", errors)
     lanes = queue.get("active_lanes", []) if isinstance(queue, dict) else []

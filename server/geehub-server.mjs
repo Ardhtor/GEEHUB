@@ -140,7 +140,7 @@ async function buildContinuityIndex(query, requestedLimit=48) {
   const needle=String(query||"").trim().toLowerCase();
   const limit=Math.min(100,Math.max(8,Number(requestedLimit)||48));
   const matches=needle
-    ? nodes.filter(node=>([node.id,node.recordId,node.title,node.summary,node.source,node.canon,node.path].join(" ")+" "+node.entities.map(x=>x.value).join(" ")).toLowerCase().includes(needle))
+    ? nodes.filter(node=>([node.id,node.recordId,node.artifactRef,node.title,node.summary,node.source,node.canon,node.path].join(" ")+" "+node.entities.map(x=>x.value).join(" ")).toLowerCase().includes(needle))
     : nodes.filter(node=>node.kind==="encounter"||node.kind==="recording"||node.kind==="passage").sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0)).slice(0,12);
   matches.sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0));
   const selected=matches.slice(0,limit);

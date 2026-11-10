@@ -121,7 +121,7 @@ const server=http.createServer(async(req,res)=>{
   if(req.method==="GET" && url.pathname==="/api/geehub/system"){
     const memory=process.memoryUsage();
     const activityRaw=await readFull("engine/activity.jsonl");
-    const activityLines=activityRaw.split(/\\r?\\n/).filter(Boolean);
+    const activityLines=activityRaw.split(/\r?\n/).filter(Boolean);
     let latestActivity=null;
     for(let i=activityLines.length-1;i>=0;i--){
       try{latestActivity=JSON.parse(activityLines[i]);break}catch{}

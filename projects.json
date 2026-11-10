@@ -975,5 +975,34 @@
       "male-harem-virtual-space",
       "scale-commons"
     ]
+  },
+  {
+    "id": "confluence-expansion",
+    "name": "The Confluence — Expansion Atlas",
+    "status": "active",
+    "kind": "world-system",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/EXPANSION_ATLAS_2026-11-10.md",
+    "description": "A connective inhabited geography linking the Hearthlands, Collegiate Belt, Industrial Marches, Observatory Range, Mythic Verge, and Scale Commons, with persistent institutions, production territories, character continuity, and the RUN memory cycle.",
+    "related": [
+      "vision-workspace",
+      "sensation-engine",
+      "the-complex",
+      "beefythiq",
+      "veyrthalis",
+      "facility",
+      "male-harem-virtual-space",
+      "information-portability",
+      "lineage-pantheon"
+    ],
+    "tags": [
+      "confluence",
+      "worldbuilding",
+      "continuity",
+      "geography",
+      "institutions",
+      "production",
+      "deep-lore"
+    ]
   }
 ]

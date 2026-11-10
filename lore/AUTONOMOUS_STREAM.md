@@ -1869,3 +1869,11 @@ NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the gr
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 246 — ATMOSPHERE / NORTHGATE LIBRARY / 2026-11-10T18:36:44.039728+00:00
+
+SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

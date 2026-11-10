@@ -2213,3 +2213,11 @@ NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the gr
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.
 
 Source retained: worlds/northgate-university/README.md. Pressure 1.00; memory 1.00.
+
+## NORTHGATE LIBRARY / pulse 246 / ATMOSPHERE
+
+SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/northgate-library/README.md. Pressure 1.00; memory 1.00.

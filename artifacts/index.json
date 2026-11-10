@@ -9344,6 +9344,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000246",
+      "created_at": "2026-11-10T18:36:44.039728+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "NORTHGATE LIBRARY",
+      "content": "SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "lineage": {
+        "event_id": "world-pulse-000246",
+        "event": {
+          "id": "world-pulse-000246",
+          "pulse": 246,
+          "time": "2026-11-10T18:36:44.039728+00:00",
+          "actor": "LUKE",
+          "world": "NORTHGATE LIBRARY",
+          "region_id": "northgate-library",
+          "previous_region_id": "northgate-library",
+          "phase": "ATMOSPHERE",
+          "source": "worlds/northgate-library/README.md",
+          "desire_state": "attention",
+          "action": "SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+          "narrative_rule": "approach extends geography",
+          "relation": null,
+          "next_region": null,
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-10T18:36:44.039728+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000246",
+      "created_at": "2026-11-10T18:36:44.039728+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / NORTHGATE LIBRARY / worlds/northgate-library/README.md",
+      "content": "SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 246,
+        "actor": "LUKE",
+        "world": "NORTHGATE LIBRARY",
+        "region_id": "northgate-library",
+        "source": "worlds/northgate-library/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00077",
+      "created_at": "2026-11-10T18:36:44.132338+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE NORTHGATE MATCH",
+      "content": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
+      "lineage": {
+        "event_id": "northgate-campus-00077",
+        "event": {
+          "id": "northgate-campus-00077",
+          "cycle": 77,
+          "world_pulse": 246,
+          "at": "2026-11-10T18:36:44.132338+00:00",
+          "region": "northgate-university",
+          "title": "THE NORTHGATE MATCH",
+          "kind": "sport",
+          "participants": [
+            "Noah Bell",
+            "Adrian Varga",
+            "Dan Roman"
+          ],
+          "description": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-10T18:36:44.132338+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

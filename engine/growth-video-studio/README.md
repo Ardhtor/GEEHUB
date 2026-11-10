@@ -115,6 +115,14 @@ After a successful mask-file audit, `frame-sequence-worker.js` now builds this m
 
 The mesh is not yet registered as a typed bridge frame set, mapped through the articulated growth landmarks, or passed into `renderGrowthMesh`. It is a measured source-space surface, not a deformation or render. Tests in `core/mask-mesh.test.js` cover moving-frame correspondence, exhaustive mask coverage, face exclusion, invalid masks, ordering, and insufficient configured coverage.
 
+## Articulated mask-mesh deformation
+
+`core/mesh-deformation.js` transfers the articulated growth mapper from its sparse landmark anchors onto the stable vertices produced by `core/mask-mesh.js`. It fits a distance-weighted local affine field in source-pixel coordinates, so the same vertex IDs and triangle indices can be evaluated against each frame's own tracked landmarks and source-space mesh coordinates. `buildGrowthDeformationSequence` requires one landmark frame, one approved body target, and one decoded protected-face mask for every mesh frame; growth channels may hold or increase, but cannot regress.
+
+A frame plan is renderable only when its triangles remain non-degenerate and keep their orientation, no used vertex leaves the image, and neither the source nor destination triangles overlap the supplied face mask. A frame that needs camera clearance reports `requires-reframe`; foldovers and face collisions are blocked instead of being drawn. `renderGrowthDeformationFrame` passes only a ready plan to the existing piecewise-affine Canvas warp. The face pixels themselves are not moved by this first slice; the guard prevents the body warp from painting across the protected face region.
+
+Six focused tests cover baseline identity, articulated surface movement, two-frame fixed topology under source motion, cumulative-growth regression, the renderer handoff, and frame/mask evidence mismatch. The fake-canvas test verifies the per-triangle draw calls, not browser pixel output. The local-affine field is a first deformation model: it does not yet model muscle volume, clothing, depth, occlusion, or temporal jitter thresholds, and the mask mesh is not yet registered as a typed bridge frame set.
+
 ## Registered-evidence render-job preparation
 
 `core/bridge-render-job.js` reads the exact segmentation and landmark sidecar

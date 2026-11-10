@@ -114,55 +114,112 @@ function continuityEntities(value, prefix="") {
   return found.filter((item,index,array)=>array.findIndex(other=>other.key===item.key)===index);
 }
 async function buildContinuityIndex(query, requestedLimit=48) {
-  const [artifactRaw,exchangeRaw,worldRaw,activityRaw,recordingFiles]=await Promise.all([
+  const [artifactRaw,exchangeRaw,worldRaw,activityRaw,worldStateRaw,spatialRaw,recordingFiles]=await Promise.all([
     readFull("artifacts/index.json"),readFull("hub/exchange.json"),readFull("world.json"),
-    readFull("engine/activity.jsonl"),readdir(path.join(ROOT,"hub/recordings")).catch(()=>[])
+    readFull("engine/activity.jsonl"),readFull("hub/world-state.json"),readFull("hub/spatial-world.json"),
+    readdir(path.join(ROOT,"hub/recordings")).catch(()=>[])
   ]);
   const artifacts=parseJson(artifactRaw,{artifacts:[]}).artifacts||[];
   const events=parseJson(exchangeRaw,{events:[]}).events||[];
   const world=parseJson(worldRaw,{regions:[]});
+  const worldState=parseJson(worldStateRaw,{});
+  const spatial=parseJson(spatialRaw,{regions:[],routes:[]});
   const activity=activityRaw.split(/\r?\n/).filter(Boolean).flatMap(line=>{try{return [JSON.parse(line)]}catch{return []}});
   const nodes=[];
   const add=(kind,item)=>{
     if(!item||typeof item!=="object")return;
-    const id=String(item.id||item.artifact||kind+"-"+nodes.length);
+    const recordId=String(item.id||item.artifact||kind+"-"+nodes.length);
     const at=item.at||item.occurred_at||item.timestamp||item.created_at||item.time||"";
     const summary=String(item.body||item.content||item.description||item.intent||item.continuity||"").slice(0,520);
     const entities=continuityEntities(item);
-    nodes.push({id:kind+":"+id,recordId:id,kind,type:String(item.type||item.kind||""),title:String(item.title||item.name||item.intent||id),at,summary,source:String(item.lineage?.source||item.source||item.inscription_source||item.path||""),canon:String(item.canon||""),continuity:String(item.continuity||item.production_note||item.next_action||""),path:String(item.path||item.lineage?.source||""),entities,artifactRef:String(item.artifact||"")});
+    const lineage=item.lineage&&typeof item.lineage==="object"?item.lineage:{};
+    const subject=item.subject&&typeof item.subject==="object"?item.subject:{};
+    const environment=item.environment&&typeof item.environment==="object"?item.environment:{};
+    const details={
+      agent:subject.agent||item.agent||item.actor||item.to||lineage.actor||"",
+      scale:subject.scale??lineage.scaleBaselineTo??null,
+      previousScale:subject.priorScale??lineage.scaleBaselineFrom??null,
+      regionId:item.regionId||lineage.regionId||lineage.region_id||"",
+      previousRegionId:item.previousRegionId||lineage.previousRegionId||"",
+      relation:environment.relation||item.relation||lineage.relation||"",
+      deltas:Array.isArray(item.deltas)?item.deltas.slice(0,12):[]
+    };
+    nodes.push({id:kind+":"+recordId,recordId,kind,type:String(item.type||item.kind||""),title:String(item.title||item.name||item.intent||recordId),at,summary,source:String(lineage.source||item.source||item.inscription_source||item.path||""),canon:String(item.canon||""),continuity:String(item.continuity||item.production_note||item.next_action||""),path:String(item.path||lineage.source||""),entities,details,artifactRef:String(item.artifact||"")});
   };
   artifacts.forEach(item=>add("passage",item));
   events.forEach(item=>add("encounter",item));
   activity.forEach(item=>add("memory",item));
   const recordingData=await Promise.all(recordingFiles.filter(name=>/^scheduled-recording-[A-Za-z0-9._-]+\.json$/.test(name)).map(async file=>({file,item:parseJson(await readFull("hub/recordings/"+file),null)})));
   for(const {file,item} of recordingData){if(item)add("recording",{...item,title:item.intent||item.id,at:item.timestamp,source:"hub/recordings/"+file,path:"hub/recordings/"+file});}
-  (world.regions||[]).forEach(region=>nodes.push({id:"place:"+region.id,recordId:region.id,kind:"place",title:region.name||region.id,at:"",summary:region.description||"",source:region.path||"",canon:"",path:region.path||"",entities:[{type:"place",value:region.id,key:"place:"+region.id.toLowerCase()},{type:"place",value:region.name||region.id,key:"place:"+(region.name||region.id).toLowerCase()}],artifactRef:""}));
+  (world.regions||[]).forEach(region=>{
+    const mapped=(spatial.regions||[]).find(item=>item.id===region.id)||{};
+    nodes.push({id:"place:"+region.id,recordId:region.id,kind:"place",title:region.name||region.id,at:"",summary:region.description||"",source:region.path||"",canon:"",continuity:"",path:region.path||"",entities:[{type:"place",value:region.id,key:"place:"+region.id.toLowerCase()},{type:"place",value:region.name||region.id,key:"place:"+(region.name||region.id).toLowerCase()}],details:{regionId:region.id,x:mapped.x??region.x??null,y:mapped.y??region.y??null,kind:region.kind||"",coordinates:mapped.x!=null&&mapped.y!=null?mapped.x+", "+mapped.y:""},artifactRef:""});
+  });
+  const active=worldState.activeEncounter||{};
+  if(active.regionId||worldState.activeRecording){
+    nodes.push({id:"state:current-world",recordId:worldState.id||"geehub-current-world-state",kind:"state",title:"CURRENT WORLD STATE",at:worldState.snapshot||"",summary:String(active.intent||worldState.interpretation||"Current world state"),source:"hub/world-state.json",canon:"live",continuity:Array.isArray(active.continuity)?active.continuity.join(" · "):"",path:"hub/world-state.json",entities:continuityEntities({agent:active.subject?.agent,regionId:active.regionId,previousRegionId:active.previousRegionId,relation:active.relation}),details:{agent:active.subject?.agent||"",scale:active.subject?.scale??null,regionId:active.regionId||"",previousRegionId:active.previousRegionId||"",relation:active.relation||"",recording:String(worldState.activeRecording||"")},artifactRef:String(worldState.activeRecording||"").split("/").pop()?.replace(/\.json$/,"")||""});
+  }
+  const entityNodes=new Map();
+  for(const node of nodes){
+    for(const entity of node.entities||[]){
+      if(!entityNodes.has(entity.key)){
+        const kind=entity.type==="person"?"identity":entity.type==="place"?"place":entity.type==="relation"?"relation":"concept";
+        entityNodes.set(entity.key,{id:"entity:"+entity.key,recordId:entity.value,kind,title:entity.value,at:"",summary:"Shared "+entity.type+" thread",source:"",canon:"",continuity:"",path:"",entities:[entity],details:{entityType:entity.type},artifactRef:""});
+      }
+    }
+  }
+  const entities=[...entityNodes.values()];
+  nodes.push(...entities);
+  const placeIds=new Set(nodes.filter(node=>node.kind==="place").map(node=>node.recordId));
+  const mapRoutes=(spatial.routes||[]).filter(route=>Array.isArray(route)&&route.length===2&&placeIds.has(route[0])&&placeIds.has(route[1]));
   const needle=String(query||"").trim().toLowerCase();
   const limit=Math.min(100,Math.max(8,Number(requestedLimit)||48));
   const matches=needle
-    ? nodes.filter(node=>([node.id,node.recordId,node.artifactRef,node.title,node.summary,node.source,node.canon,node.path].join(" ")+" "+node.entities.map(x=>x.value).join(" ")).toLowerCase().includes(needle))
-    : nodes.filter(node=>node.kind==="encounter"||node.kind==="recording"||node.kind==="passage").sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0)).slice(0,12);
+    ? nodes.filter(node=>([node.id,node.recordId,node.artifactRef,node.title,node.summary,node.source,node.canon,node.path,node.continuity].join(" ")+" "+(node.entities||[]).map(x=>x.value).join(" ")).toLowerCase().includes(needle))
+    : nodes.filter(node=>node.kind==="encounter"||node.kind==="recording"||node.kind==="passage"||node.kind==="state").sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0)).slice(0,16);
   matches.sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0));
   const selected=matches.slice(0,limit);
+  const selectedIds=new Set(selected.map(node=>node.id));
   const links=[];
   const nodeById=new Map(nodes.map(node=>[node.id,node]));
   const linkKeys=new Set();
-  const addLink=(from,to,label)=>{const key=from+"\\u0000"+to;if(from!==to&&!linkKeys.has(key)){linkKeys.add(key);const target=nodeById.get(to);links.push({from,to,targetId:target?.recordId||to,label});}};
-  const recordingIds=new Set(nodes.filter(node=>node.kind==="recording").map(node=>node.id));
+  const addLink=(from,to,label)=>{const key=from+"\u0000"+to;if(from!==to&&!linkKeys.has(key)){linkKeys.add(key);const target=nodeById.get(to);links.push({from,to,targetId:target?.recordId||to,label});}};
+  const recordingById=new Map(nodes.filter(node=>node.kind==="recording").map(node=>[node.recordId,node]));
+  const eventByArtifact=new Map(events.filter(event=>event.artifact).map(event=>[event.artifact,event]));
   for(const node of selected){
-    if(node.artifactRef&&recordingIds.has("recording:"+node.artifactRef))addLink(node.id,"recording:"+node.artifactRef,"recorded as");
-    if(node.kind==="recording"){
-      const event=events.find(item=>item.artifact===node.recordId);
-      if(event)addLink(node.id,"encounter:"+event.id,"inscribed as");
+    for(const entity of node.entities||[]){
+      const entityNode=entityNodes.get(entity.key);
+      if(entityNode)addLink(node.id,entityNode.id,entity.type+": "+entity.value);
     }
-    for(const entity of node.entities){
-      const peers=selected.filter(other=>other.id!==node.id&&other.entities.some(item=>item.key===entity.key));
-      for(const peer of peers.slice(0,5))addLink(node.id,peer.id,entity.type+": "+entity.value);
+    if(node.artifactRef&&recordingById.has(node.artifactRef))addLink(node.id,recordingById.get(node.artifactRef).id,"recorded as");
+    if(node.kind==="recording"){
+      const event=eventByArtifact.get(node.recordId);
+      if(event)addLink(node.id,"encounter:"+event.id,"inscribed as");
+      const previous=node.details?.previousRegionId,current=node.details?.regionId;
+      if(previous&&placeIds.has(previous))addLink(node.id,"place:"+previous,"from");
+      if(current&&placeIds.has(current))addLink(node.id,"place:"+current,"to");
+    }
+    if(node.kind==="encounter"){
+      const event=events.find(item=>item.id===node.recordId);
+      if(event?.artifact&&recordingById.has(event.artifact))addLink(node.id,recordingById.get(event.artifact).id,"recorded in");
+      if(event?.previousRegionId&&placeIds.has(event.previousRegionId))addLink(node.id,"place:"+event.previousRegionId,"from");
+      if(event?.regionId&&placeIds.has(event.regionId))addLink(node.id,"place:"+event.regionId,"to");
+    }
+    if(node.kind==="state"){
+      const activeRecording=String(worldState.activeRecording||"").split("/").pop()?.replace(/\.json$/,"");
+      if(activeRecording&&recordingById.has(activeRecording))addLink(node.id,recordingById.get(activeRecording).id,"active recording");
+      if(node.details.previousRegionId&&placeIds.has(node.details.previousRegionId))addLink(node.id,"place:"+node.details.previousRegionId,"previous location");
+      if(node.details.regionId&&placeIds.has(node.details.regionId))addLink(node.id,"place:"+node.details.regionId,"current location");
     }
   }
+  for(const [from,to] of mapRoutes){
+    const left="place:"+from,right="place:"+to;
+    if(selectedIds.has(left)||selectedIds.has(right)){addLink(left,right,"mapped route");addLink(right,left,"mapped route");}
+  }
+  const relevantEntityCount=entities.filter(entity=>selected.some(node=>(node.entities||[]).some(item=>item.key===entity.entities[0].key))).length;
   return {
     query:String(query||""),
-    totals:{passages:artifacts.length,encounters:events.length,memories:activity.length,recordings:recordingIds.size,places:(world.regions||[]).length,matches:matches.length},
+    totals:{passages:artifacts.length,encounters:events.length,memories:activity.length,recordings:recordingById.size,places:(world.regions||[]).length,relations:entities.filter(node=>node.kind==="relation").length,matches:matches.length,entityThreads:relevantEntityCount,mapRoutes:mapRoutes.length},
     results:selected.map(({artifactRef,...node})=>node),
     links,
     truncated:matches.length>selected.length,

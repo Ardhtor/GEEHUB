@@ -106,7 +106,7 @@ def audit():
                 transition_bad += 1
         timestamp = event.get("at")
         if valid_time(timestamp):
-            parsed = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
+            parsed = datetime.fromisoformat(timestamp.replace("Z", "+00:00")).timestamp()
             if previous_timestamp is not None and parsed > previous_timestamp:
                 warnings.append("exchange ledger is not ordered newest-first; chronology remains valid but presentation order may be stale")
             previous_timestamp = parsed
@@ -150,8 +150,44 @@ def audit():
             for field in ("previousScale", "scale"):
                 if not isinstance(live.get(field), (int, float)) or isinstance(live.get(field), bool):
                     errors.append(f"hub/world-state.json livePlay.{field} must be numeric"); bad += 1
+            encounter = world.get("activeEncounter")
+            if isinstance(encounter, dict):
+                if encounter.get("regionId") != live.get("regionId"):
+                    errors.append("activeEncounter.regionId does not match livePlay.regionId"); bad += 1
+                if encounter.get("previousRegionId") != live.get("previousRegionId"):
+                    errors.append("activeEncounter.previousRegionId does not match livePlay.previousRegionId"); bad += 1
+                subject = encounter.get("subject") or {}
+                agent = subject.get("agent") if isinstance(subject, dict) else None
+                if agent != live.get("agent"):
+                    errors.append("activeEncounter subject does not match livePlay.agent"); bad += 1
+                scale = subject.get("scale") if isinstance(subject, dict) else None
+                if isinstance(scale, (int, float)) and scale != live.get("scale"):
+                    errors.append("activeEncounter subject scale does not match livePlay.scale"); bad += 1
+            else:
+                warnings.append("world state has livePlay but no activeEncounter snapshot")
         else:
             warnings.append("world state has no livePlay passage")
+
+        # Resolve declared world-state resources relative to hub/world-state.json.
+        resource_paths = []
+        for field in ("map", "activeRecording", "canonicalRecording", "rendererContract"):
+            value = world.get(field)
+            if isinstance(value, str) and value.strip():
+                resource_paths.append((field, value))
+        queues = world.get("rendererQueues")
+        if isinstance(queues, dict):
+            for field, value in queues.items():
+                if isinstance(value, str) and value.strip():
+                    resource_paths.append((f"rendererQueues.{field}", value))
+        for field, value in resource_paths:
+            relative = (ROOT / "hub" / value.removeprefix("./")).resolve()
+            try:
+                relative.relative_to(ROOT)
+            except ValueError:
+                errors.append(f"hub/world-state.json {field} escapes the repository root"); bad += 1
+                continue
+            if not relative.is_file():
+                warnings.append(f"hub/world-state.json {field} points to a missing resource: {value}")
     counts["world_state"] = 1 if isinstance(world, dict) else 0
     checks.append({"name":"world-state passage grammar","records":counts["world_state"],"invalid":bad,"status":"fail" if bad else "pass"})
 

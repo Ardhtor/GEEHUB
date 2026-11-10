@@ -191,6 +191,74 @@ def audit():
     counts["world_state"] = 1 if isinstance(world, dict) else 0
     checks.append({"name":"world-state passage grammar","records":counts["world_state"],"invalid":bad,"status":"fail" if bad else "pass"})
 
+    spatial = load_json(ROOT / "hub/spatial-world.json", errors)
+    spatial_bad = 0
+    spatial_regions = spatial.get("regions", []) if isinstance(spatial, dict) else []
+    spatial_ids = set()
+    for index, region in enumerate(spatial_regions):
+        label = f"hub/spatial-world.json regions[{index}]"
+        if not isinstance(region, dict):
+            errors.append(f"{label} must be an object"); spatial_bad += 1; continue
+        region_id = region.get("id")
+        if not isinstance(region_id, str) or not region_id.strip() or region_id in spatial_ids:
+            errors.append(f"{label} has a missing or duplicate region id"); spatial_bad += 1
+        else:
+            spatial_ids.add(region_id)
+        for coordinate in ("x", "y"):
+            value = region.get(coordinate)
+            if not isinstance(value, (int, float)) or isinstance(value, bool) or not 0 <= value <= 100:
+                errors.append(f"{label}.{coordinate} must be a number from 0 to 100"); spatial_bad += 1
+
+    spatial_routes = spatial.get("routes", []) if isinstance(spatial, dict) else []
+    route_ids = set()
+    for index, route in enumerate(spatial_routes):
+        label = f"hub/spatial-world.json routes[{index}]"
+        if not isinstance(route, list) or len(route) != 2 or not all(isinstance(item, str) and item for item in route):
+            errors.append(f"{label} must contain exactly two region ids"); spatial_bad += 1; continue
+        if route[0] not in spatial_ids or route[1] not in spatial_ids:
+            errors.append(f"{label} references an unknown region"); spatial_bad += 1
+        if route[0] == route[1]:
+            errors.append(f"{label} cannot connect a region to itself"); spatial_bad += 1
+        key = tuple(sorted(route))
+        if key in route_ids:
+            errors.append(f"{label} duplicates a route"); spatial_bad += 1
+        route_ids.add(key)
+
+    world_registry = load_json(ROOT / "world.json", errors)
+    registry_regions = world_registry.get("regions", []) if isinstance(world_registry, dict) else []
+    registry_ids = {item.get("id") for item in registry_regions if isinstance(item, dict) and isinstance(item.get("id"), str)}
+    for region_id in sorted(registry_ids - spatial_ids):
+        errors.append(f"world.json region is missing from spatial map: {region_id}"); spatial_bad += 1
+    for region_id in sorted(spatial_ids - registry_ids):
+        warnings.append(f"spatial map region is not present in world.json: {region_id}")
+
+    source = spatial.get("source") if isinstance(spatial, dict) else None
+    if isinstance(source, str) and source.strip():
+        source_path = (ROOT / "hub" / source).resolve()
+        try:
+            source_path.relative_to(ROOT)
+            if not source_path.is_file():
+                errors.append(f"spatial map source does not exist: {source}"); spatial_bad += 1
+        except ValueError:
+            errors.append("spatial map source escapes the repository root"); spatial_bad += 1
+    else:
+        errors.append("spatial map is missing its world.json source"); spatial_bad += 1
+
+    exchange_route_keys = set()
+    for event in events:
+        if isinstance(event, dict) and event.get("type") == "TRANSFORM":
+            origin, destination = event.get("previousRegionId"), event.get("regionId")
+            if origin not in spatial_ids or destination not in spatial_ids:
+                errors.append(f"exchange transition {event.get('id')} references a region absent from the spatial map"); spatial_bad += 1
+            if isinstance(origin, str) and isinstance(destination, str):
+                exchange_route_keys.add(tuple(sorted((origin, destination))))
+    for route in sorted(exchange_route_keys - route_ids):
+        errors.append(f"observed exchange route is missing from spatial map: {route[0]} ↔ {route[1]}"); spatial_bad += 1
+
+    counts["spatial_regions"] = len(spatial_regions)
+    counts["spatial_routes"] = len(spatial_routes)
+    checks.append({"name":"spatial graph and geography alignment","records":len(spatial_regions) + len(spatial_routes),"invalid":spatial_bad,"status":"fail" if spatial_bad else "pass"})
+
     activity_path = ROOT / "engine/activity.jsonl"
     records = 0; bad = 0; activity_ids = set()
     if activity_path.exists():

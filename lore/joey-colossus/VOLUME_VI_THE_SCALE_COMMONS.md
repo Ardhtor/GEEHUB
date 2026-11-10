@@ -51,3 +51,86 @@ The final inscription was placed beside the entrance the following morning:
 **NO FINAL SCALE. NO LOST BASELINE. MAKE ROOM, THEN KEEP BECOMING.**
 
 The Scale Commons became a permanent part of the Colossus campus. Joey continued from his established baseline. Marcus kept the ten-foot threshold in view. The others pursued their own forms of development. The world had grown large enough to hold them, and it remained open to whatever scale came next.
+
+
+## Chapter 4 — Sunday Beyond the Gate
+
+On Sunday, Martin suggested that they leave the campus without deciding in advance where they were going.
+
+It was an unusual proposal only because the group had become so good at planning. Daniel had a list of equipment to inspect in Foundry Ward. Peter had an appointment at Glassmarket. Ellis had been looking at the river circuit, and Marcus wanted to see whether the Tableland's model of the Long Park matched the real thing. Even a casual afternoon had acquired a schedule.
+
+“Let's try walking somewhere before we turn it into a project,” Martin said.
+
+Joey laughed. “You say that as if you aren't going to organize the walk.”
+
+“I'll organize the first five minutes. After that, civilization can take over.”
+
+They left by the High Approach, taking the broad route down from the ridge. The campus receded behind them in stages: first the high windows of the Commons, then the roofline of the Facility, then the timber bridges crossing the upper court. The road curved through a stand of trees and opened onto the Long Park. Below, the lake reflected a white strip of cloud. Farther on, Crownmere spread along the river, its old roofs mixed with the pale arches of the newer station.
+
+Marcus stopped at the first overlook. “We can see the whole way down.”
+
+“Not the whole way,” Ellis said. “Just the part we've learned to look for.”
+
+The path divided beside a stone marker. One branch went toward the formal gardens; the other curved around the lake. Martin chose the longer loop. There was no hurry, and the park was busy enough to make the afternoon feel inhabited. Men were running in pairs, a grounds crew was replacing a section of railing, and a group of older walkers occupied a bench beneath a cedar. Near the water, two men were teaching a friend to row in a narrow practice boat. Their voices carried across the lake, punctuated by the scrape of oars.
+
+The route had been designed with different kinds of movement in mind. A narrow garden path ran close to the water, while the central promenade gave more room to walkers and groups. Ramps followed the gradual slope rather than being added as separate service routes. Joey noticed that the transitions were almost invisible. He could walk with the others without making every turn a negotiation, and smaller groups could use the sheltered paths without feeling pushed aside.
+
+At the Glass Pavilion, Noah announced that civilization had earned coffee.
+
+The café occupied the lower floor; the reading room above it was quiet, with long tables and windows over the lake. Peter found a small display of fabric samples near the entrance and immediately became absorbed in it. Daniel inspected the modular table joints. Martin looked for somewhere with enough chairs for everyone. Joey chose a place near the window where they could watch the promenade.
+
+“You've found a place you like,” Marcus said.
+
+“I've found a place where nobody is asking me to inspect a wall.”
+
+“You'll get over it.”
+
+“I hope not. It sounds useful.”
+
+The joke stayed with them through coffee. Outside, the lake changed colour as the clouds moved. The others talked about the Tableland, the old residence, and the Foundry Open Week. Their conversation gradually shifted from what the campus needed to what they wanted to see in the city. It was a different kind of planning: less about adapting a place to a known group, more about learning who else was already there.
+
+They continued south toward the Aven Steps. The river quarter was louder than the park. Boat sheds stood behind the embankment, their doors open to the afternoon. A row of racing shells rested on supports outside one club, and a group of adult rowers were carrying equipment toward the water. Ellis slowed to watch them. His attention went first to the way they moved the boat together, then to the timing of their steps.
+
+A man in a dark blue rowing shirt noticed him looking.
+
+“Are you the swimmer from the campus?” he asked.
+
+“Ellis,” Ellis replied. “I swim, but I haven't been down here before.”
+
+“Gideon Shaw. Aven Rowing Club.” The man offered his hand. His grip was firm, his voice relaxed. “We saw the new route open last month. It's made it easier for people to come through, but we're still working out how to share the embankment on training mornings.”
+
+Daniel asked what the problem was. Gideon explained that the rowing club needed a clearer equipment crossing between the boat shed and the water. The new promenade had improved access for everyone, but the club's launch routine had not changed with it. At busy times, boats and pedestrians met at the wrong corner.
+
+“That's a design problem,” Daniel said.
+
+“It's also a habit problem,” Gideon answered. “We've used the same route for years. The river doesn't care how long we've used it.”
+
+Adrian would have liked that answer. Daniel took out his phone and marked the location on the public map. He did not promise a solution. He asked when the crew trained, how many boats moved at once, and which part of the route became crowded. Gideon invited him to visit the shed during the next quiet morning.
+
+Ellis and Gideon continued talking about rowing and swimming. Gideon introduced two members of the crew, both of whom had their own opinions about technique. They asked Ellis about the campus movement course, and he asked how they coordinated a turn when the river narrowed. It was not an audition or a recruitment pitch. It was simply the beginning of a conversation between people who paid attention to how bodies moved through space.
+
+Peter had found his own connection. A small shop across from the boat sheds displayed a set of old tailoring patterns in its window. He recognized the maker's mark from a pattern book he had seen in Glassmarket. The owner was away, but a handwritten notice invited visitors to a demonstration the following week. Peter photographed the notice and saved the address.
+
+By late afternoon, they had walked farther than anyone had intended. The Aven Steps led toward Old Crown, where the covered market was closing for the day. Music drifted from the concert hall square. A repair shop was pulling down its shutters. Two men were carrying a large framed photograph into a gallery, arguing amiably about which wall could take it.
+
+Martin looked back toward the ridge. The campus was still visible above the trees, but it no longer filled the view.
+
+“Funny,” he said. “I thought we'd be showing the city what the Commons can do.”
+
+“And instead?” Joey asked.
+
+“Instead the city has been here the whole time.”
+
+Joey looked along the river. He liked the feeling of having arrived somewhere that did not belong to them, somewhere with routines and histories that would continue after they went home. The campus had given them room. Crownmere offered something different: other people to meet, other problems to understand, and places where nobody needed to know their story before they could share an afternoon.
+
+“Let's come back,” he said.
+
+“Which part?” Marcus asked.
+
+Joey glanced at Ellis and Gideon, who were still talking beside the boathouse. Peter was reading the tailoring notice again. Daniel had already added the embankment crossing to his list, though he had promised not to turn the walk into a project.
+
+“All of it,” Joey said. “Not just the places we need.”
+
+They returned by the River Way as the lamps came on along the embankment. On the map at the North Gate, Daniel added the rowing club's crossing as a point to inspect, and Peter saved the tailoring demonstration. Ellis wrote down Gideon's training hours. Martin marked the Long Park loop for another Sunday.
+
+The map had not changed much. The world behind it had.

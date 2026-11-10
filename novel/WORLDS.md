@@ -2189,3 +2189,11 @@ NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the gr
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.
 
 Source retained: worlds/northgate-university/README.md. Pressure 0.94; memory 1.00.
+
+## ATHLETIC COMMONS / pulse 243 / ATMOSPHERE
+
+SETH: The Athletic Commons is a broad brick-and-glass complex with high timber trusses, bright training floors, a swimming pool, indoor track and recovery rooms. Adult male students train in small groups or alone, greeting familiar faces between sets.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/athletic-commons/README.md. Pressure 0.96; memory 1.00.

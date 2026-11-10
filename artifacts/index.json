@@ -9073,6 +9073,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000243",
+      "created_at": "2026-11-10T02:45:40.953094+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "ATHLETIC COMMONS",
+      "content": "SETH: The Athletic Commons is a broad brick-and-glass complex with high timber trusses, bright training floors, a swimming pool, indoor track and recovery rooms. Adult male students train in small groups or alone, greeting familiar faces between sets.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "lineage": {
+        "event_id": "world-pulse-000243",
+        "event": {
+          "id": "world-pulse-000243",
+          "pulse": 243,
+          "time": "2026-11-10T02:45:40.953094+00:00",
+          "actor": "LUKE",
+          "world": "ATHLETIC COMMONS",
+          "region_id": "athletic-commons",
+          "previous_region_id": "athletic-commons",
+          "phase": "ATMOSPHERE",
+          "source": "worlds/athletic-commons/README.md",
+          "desire_state": "attention",
+          "action": "SETH: The Athletic Commons is a broad brick-and-glass complex with high timber trusses, bright training floors, a swimming pool, indoor track and recovery rooms. Adult male students train in small groups or alone, greeting familiar faces between sets.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+          "narrative_rule": "approach extends geography",
+          "relation": null,
+          "next_region": null,
+          "pressure": 0.96,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-10T02:45:40.953094+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000243",
+      "created_at": "2026-11-10T02:45:40.953094+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / ATHLETIC COMMONS / worlds/athletic-commons/README.md",
+      "content": "SETH: The Athletic Commons is a broad brick-and-glass complex with high timber trusses, bright training floors, a swimming pool, indoor track and recovery rooms. Adult male students train in small groups or alone, greeting familiar faces between sets.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 243,
+        "actor": "LUKE",
+        "world": "ATHLETIC COMMONS",
+        "region_id": "athletic-commons",
+        "source": "worlds/athletic-commons/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00074",
+      "created_at": "2026-11-10T02:45:41.071215+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE FILM ARCHIVE CLUB",
+      "content": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+      "lineage": {
+        "event_id": "northgate-campus-00074",
+        "event": {
+          "id": "northgate-campus-00074",
+          "cycle": 74,
+          "world_pulse": 243,
+          "at": "2026-11-10T02:45:41.071215+00:00",
+          "region": "northgate-library",
+          "title": "THE FILM ARCHIVE CLUB",
+          "kind": "film",
+          "participants": [
+            "Elliot Ward",
+            "Marek Ionescu",
+            "Adrian Varga"
+          ],
+          "description": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-10T02:45:41.071215+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

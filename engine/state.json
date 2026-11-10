@@ -1,5 +1,5 @@
 {
-  "pulse": 242,
+  "pulse": 243,
   "events": [
     {
       "pulse": 1,
@@ -4341,6 +4341,28 @@
       "occurred_at": "2026-11-09T20:10:28.242078+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000243",
+      "pulse": 243,
+      "time": "2026-11-10T02:45:40.953094+00:00",
+      "actor": "LUKE",
+      "world": "ATHLETIC COMMONS",
+      "region_id": "athletic-commons",
+      "previous_region_id": "athletic-commons",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/athletic-commons/README.md",
+      "desire_state": "attention",
+      "action": "SETH: The Athletic Commons is a broad brick-and-glass complex with high timber trusses, bright training floors, a swimming pool, indoor track and recovery rooms. Adult male students train in small groups or alone, greeting familiar faces between sets.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.96,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-10T02:45:40.953094+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -4391,7 +4413,7 @@
     "northgate-library": 211,
     "athletic-commons": 242.5
   },
-  "pressure": 0.9400000000000001,
+  "pressure": 0.9600000000000001,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -4413,15 +4435,15 @@
     "worlds/bluewater-quay/README.md": 8,
     "worlds/lantern-market/README.md": 4,
     "worlds/northgate-library/README.md": 7,
-    "worlds/athletic-commons/README.md": 4
+    "worlds/athletic-commons/README.md": 5
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "athletic-commons",
-  "current_phase": "LONG_PLAY_CROSSING",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 187,

@@ -110,7 +110,7 @@ Updated: 2026-11-09
 - Automatic person/body segmentation and face-excluding mask generation.
 - Automatic body landmark detection and confidence tracking.
 - Segmentation-derived mesh triangulation and temporally stable mesh tracking across frames.
-- A per-frame deformation/render worker that samples growth states, maps landmarks, warps every source frame, and validates the rendered sequence.
+- A complete per-frame deformation/render worker that samples growth states, processes actual source frames, and validates a rendered sequence. The first fixed-topology vertex-deformation and Canvas handoff now exist, but no source-footage loop or output sequence has been executed.
 - Garment and environment response driven by measured contact and depth.
 - Automated frame import from a render worker into Resolve.
 - Final growth-video rendering and export.
@@ -136,3 +136,13 @@ Each item changes status only when evidence exists.
 - tools/inspect-frame-sequence.js exposes the worker as npm run inspect:frames. A sequence is marked ready-for-geometry only when frame evidence is structurally complete and every body/face mask file passes checksum and dimension verification.
 - Seven focused tests passed under Node 22.16.0 in a temporary harness: ordered/source-matched sequence acceptance; out-of-order, source, and dimension rejection; landmark-only pending state; identity/confidence/temporal failure; actual PNG checksum/dimension verification; checksum mismatch refusal; and symlink refusal. Syntax checks passed for the new core modules and CLI.
 - This worker does not run a segmentation model, decode mask pixels, prove that the body mask truly excludes the face, generate a mesh, deform frames, or render a video. The face-exclusion and identity-protection flags remain producer assertions. Local Dropbox/Resolve runtime has not been exercised.
+
+
+## Articulated mask-mesh deformation added — 2026-11-10
+- `engine/growth-video-studio/core/mesh-deformation.js` transfers the articulated growth mapper onto the stable mask-derived grid. A distance-weighted local affine least-squares field maps each source-pixel vertex from tracked body anchors to its target position.
+- `buildGrowthDeformationFrame` requires a ready connected mask mesh, matching frame number and timestamp, a complete baseline/target body state, and the decoded protected-face mask for that frame. It retains the mesh's vertex IDs, triangle IDs, topology digest, and triangle index list.
+- A frame is renderable only when source and target triangles are non-degenerate and retain orientation, used vertices remain in frame, and neither source nor destination triangles overlap the protected face mask. Out-of-frame growth returns `requires-reframe`; foldovers and face collisions are blocked.
+- `buildGrowthDeformationSequence` builds one plan per source frame using the same topology and rejects any cumulative growth channel that regresses between adjacent frames. It does not yet enforce per-vertex velocity or acceleration limits, so stable IDs and monotonic growth are not a claim of fully smooth temporal motion.
+- `renderGrowthDeformationFrame` passes only a ready plan to the existing piecewise-affine Canvas warp. Six focused tests cover baseline identity, articulated surface movement, two-frame topology under source motion, growth regression, renderer handoff, and frame/mask evidence mismatch. The renderer test uses a fake Canvas context and verifies draw calls, not browser pixel output.
+- The deformation plan consumes decoded masks and tracked landmarks supplied by the caller. No segmentation model, source video, local Dropbox mirror, Mac, or Resolve session was run. The face pixels are not moved; the guard only prevents the body warp from painting over the supplied protected-face mask. Anatomical mask semantics, temporal jitter thresholds, depth/clothing response, bridge registration of mesh evidence, and actual frame-sequence export remain open.
+- The package workflow is configured to run the new tests through `npm test`; no GitHub status checks were returned for the implementation commits at the time this state entry was written. Runtime and full-pipeline behavior remain unverified.

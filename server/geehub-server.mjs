@@ -5,6 +5,7 @@
  * Run: OPENAI_API_KEY=... GEEHUB_MODEL=<responses-api-model> node server/geehub-server.mjs
  */
 import http from "node:http";
+import os from "node:os";
 import { spawn } from "node:child_process";
 import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
@@ -117,6 +118,16 @@ async function inscribeOccurrence(event) {
 const server=http.createServer(async(req,res)=>{
   const url=new URL(req.url,"http://"+req.headers.host);
   if(req.method==="GET" && url.pathname==="/api/geehub/health") return send(res,200,{ok:true,configured:Boolean(API_KEY&&MODEL),model:MODEL||null});
+  if(req.method==="GET" && url.pathname==="/api/geehub/system"){
+    const memory=process.memoryUsage();
+    return send(res,200,{
+      ok:true,
+      runtime:{name:"GEEHUB",pid:process.pid,platform:process.platform,arch:process.arch,node:process.version,uptime_seconds:Math.floor(process.uptime())},
+      process_memory_bytes:{rss:memory.rss,heap_total:memory.heapTotal,heap_used:memory.heapUsed,external:memory.external,array_buffers:memory.arrayBuffers},
+      host_memory_bytes:{total:os.totalmem(),free:os.freemem()},
+      sampled_at:new Date().toISOString()
+    });
+  }
   if(req.method==="GET" && url.pathname==="/api/geehub/activity"){
     try{
       const limit=Math.min(100,Math.max(1,Number(url.searchParams.get("limit")||40)));

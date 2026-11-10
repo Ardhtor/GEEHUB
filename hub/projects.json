@@ -1126,7 +1126,7 @@
     "name": "Joey — The Colossus Chronicles",
     "group": "story-series",
     "status": "active",
-    "summary": "Six-volume adult male bodybuilding growth-fantasy saga following Joey from his first training baseline through Stage 5 Colossus, LOVE Ascendant, and the Scale Commons; continuous chapters, character records, facility evolution, and relationship continuity.",
+    "summary": "Six-volume adult male bodybuilding growth-fantasy saga following Joey from his first training baseline through Stage 5 Colossus, LOVE Ascendant, and the Scale Commons; now expanding into Crownmere and the Meridian Basin beyond the campus.",
     "path": "../lore/joey-colossus/README.md",
     "volumes": [
       "lore/joey-colossus/VOLUME_I_THE_BEGINNING_OF_MORE.md",
@@ -1154,10 +1154,13 @@
       "hulums-cave",
       "institute-of-becoming",
       "character-records",
-      "sensation-engine"
+      "sensation-engine",
+      "tractus-world-atlas"
     ],
     "writing_engine": "lore/joey-colossus/WRITING_ENGINE.md",
-    "continuity_protocol": "Canon → Pressure → Scene → Change → Consequence → Seeds → Next Scene"
+    "continuity_protocol": "Canon → Pressure → Scene → Change → Consequence → Seeds → Next Scene",
+    "world_atlas": "lore/joey-colossus/WORLD_ATLAS_BEYOND_THE_COMMONS.md",
+    "latest_chapter": "lore/joey-colossus/VOLUME_VI_THE_SCALE_COMMONS.md#chapter-4-sunday-beyond-the-gate"
   },
   {
     "id": "scale-commons",
@@ -1182,5 +1185,31 @@
       "beefythiq"
     ],
     "continuity": "lore/joey-colossus/CONTINUITY_LEDGER.md"
+  },
+  {
+    "id": "tractus-world-atlas",
+    "name": "The Tractus — World Atlas",
+    "group": "world-index",
+    "status": "active",
+    "summary": "Cross-world atlas for independent GEEHUB settings, their local geography, distinct canons, and verified crossings through the shared interaction space.",
+    "path": "../hub/WORLD_ATLAS.md",
+    "tags": [
+      "worlds",
+      "atlas",
+      "geography",
+      "canon",
+      "crossings",
+      "tractus"
+    ],
+    "related": [
+      "sensation-engine",
+      "veyrthalis",
+      "mexiancas",
+      "joey-colossus-chronicles",
+      "male-stud",
+      "sacred-corridor",
+      "facility",
+      "muscle-myth"
+    ]
   }
 ]

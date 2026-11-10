@@ -87,6 +87,12 @@ There are four supported forms of passage:
 
 Every passage records origin, destination, purpose, what changed, what did not change, and where the returned artifact lives. The shared interaction space is the exchange surface; it is not an excuse to collapse the repositories or story canons.
 
+
+
+## Inhabitant activity and independent lives
+
+The Tractus uses the [Inhabitant Life Engine](INHABITANT_LIFE_ENGINE.md) to preserve activity beyond the current scene. Recurring inhabitants develop personal directions, recurring practices, current concerns, social fields, private intervals, and next actions. Shared schedules are invitations rather than compulsory quest lists. The engine is applied locally: Crownmere's clubs, workshops, and civic routines are not copied into Veyrthalis or Mexiancas. Each world keeps its own calendar, institutions, work, customs, and pace. The principle is simple: people continue living when the camera leaves, and later scenes inherit the consequences.
+
 ## How a world becomes larger
 
 A new place is not complete because it has a name. Give it a route of arrival, a physical character, a daily rhythm, people who use it, something made or maintained there, and a reason to return. Then let the place change through use.

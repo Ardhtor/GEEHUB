@@ -109,7 +109,7 @@ Updated: 2026-11-09
 ## Not implemented yet
 - Automatic person/body segmentation and face-excluding mask generation.
 - Automatic body landmark detection and confidence tracking.
-- Segmentation-derived mesh triangulation and temporally stable mesh tracking across frames.
+- Automatic segmentation-derived mesh triangulation and tracking from a model output; the current fixed grid is built from supplied masks.
 - A complete per-frame deformation/render worker that samples growth states, processes actual source frames, and validates a rendered sequence. The first fixed-topology vertex-deformation and Canvas handoff now exist, but no source-footage loop or output sequence has been executed.
 - Garment and environment response driven by measured contact and depth.
 - Automated frame import from a render worker into Resolve.

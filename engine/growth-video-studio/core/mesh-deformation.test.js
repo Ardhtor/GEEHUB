@@ -35,7 +35,7 @@ function maskFrame(number, shift = 0) {
     frame: number,
     timeSeconds: number / 24,
     bodyMask: makeMask(width, height, body),
-    faceMask: makeMask(width, height, face)
+    faceMask: { ...makeMask(width, height, face), frame: number }
   };
 }
 
@@ -180,6 +180,6 @@ test("rejects mismatched frame evidence and missing protected-face pixels", () =
     error => error.code === "mesh-deformation-frame-evidence-mismatch");
   assert.throws(() => buildGrowthDeformationFrame({
     ...args, landmarkFrame: landmarks(0),
-    protectedFaceMask: makeMask(28, 30, () => false)
+    protectedFaceMask: { ...makeMask(28, 30, () => false), frame: 0 }
   }), error => error.code === "mesh-deformation-face-mask-empty");
 });

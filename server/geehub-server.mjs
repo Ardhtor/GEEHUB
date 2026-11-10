@@ -129,7 +129,7 @@ async function buildContinuityIndex(query, requestedLimit=48) {
     const at=item.at||item.occurred_at||item.timestamp||item.created_at||"";
     const summary=String(item.body||item.content||item.description||item.intent||item.continuity||"").slice(0,520);
     const entities=continuityEntities(item);
-    nodes.push({id,kind,title:String(item.title||item.name||item.intent||id),at,summary,source:String(item.source||item.inscription_source||item.path||""),canon:String(item.canon||""),path:String(item.path||""),entities,artifactRef:String(item.artifact||"")});
+    nodes.push({id,kind,title:String(item.title||item.name||item.intent||id),at,summary,source:String(item.lineage?.source||item.source||item.inscription_source||item.path||""),canon:String(item.canon||""),path:String(item.path||item.lineage?.source||""),entities,artifactRef:String(item.artifact||"")});
   };
   artifacts.forEach(item=>add("passage",item));
   events.forEach(item=>add("encounter",item));

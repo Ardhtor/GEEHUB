@@ -161,6 +161,8 @@ The archive treats references as a graph. Records preserve source URL, archive U
 
 The cross-world map is [The Tractus — World Atlas](hub/WORLD_ATLAS.md). It records the independent settings, their local geographies, and the rules for crossings without collapsing their canons. The Colossus Chronicles now extend beyond the Scale Commons into Crownmere and the Meridian Basin; the regional map is [World Atlas — Beyond the Scale Commons](lore/joey-colossus/WORLD_ATLAS_BEYOND_THE_COMMONS.md).
 
+The Confluence's inhabited geography continues in [Volume III — The People](lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md), with separate provisional records for [Marcus](characters/records/MARCUS.md) and [Dan Roman](characters/records/DAN_ROMAN.md). The new volume preserves character boundaries and follows routines, homes, work, and relationships through the shared setting.
+
 The Atlas tracks the working constellation: BEEFYTHIQ, The Complex, Vision / Living Workspace, Veyrthalis, Growth Canvas, Liminal Gains, BIG BRUTEFORCE, Mass1v1ng Growth Framework, The Facility, Muscle Myth, Growth Tools, Media Tools, Discovery Systems, Retro Lab, Writing & Research, and the projects connected to them.
 
 Not every node needs its own repository. The Atlas records the idea first. Repository boundaries follow usefulness and maturity.

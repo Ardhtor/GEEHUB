@@ -217,3 +217,42 @@ Escalation must remain character-specific. Joey's pleasure, curiosity, stubbornn
 When a new passage establishes a larger state, preserve the previous state as dated history. Record what changed, what became newly possible, what stopped working, what had to be rebuilt, and what new story threads appeared. If the exact size is not established in-scene, describe the change without inventing false precision. The next pass starts from the new baseline and may invoke “even bigger” again.
 
 The clause has no predetermined final stage. Its limit is the imaginative and narrative coherence of the next transformation, not the largest number or image previously written. **Bigger is always available; making bigger matter is the writer's responsibility.**
+
+
+### 13.1 How escalation behaves over time
+
+The clause operates at three scales simultaneously. At the **body scale**, Joey's physique continues to develop as an integrated whole. Added mass must alter the relationship between parts: shoulders change the line of the torso; the chest and back change his depth; arms alter his reach and the way he occupies a doorway; legs and hips change his stance, stride, and balance. Do not let one muscle group grow while the rest of him remains frozen unless the story deliberately identifies an uneven phase. His body is a continuous construction, not a collection of disconnected enlargements.
+
+At the **daily-life scale**, the new body must meet the ordinary world. Clothes are cut, tested, rejected, and remade. Furniture is redesigned rather than simply described as broken. Training sessions acquire new preparation and recovery routines. Meals, travel, photographs, shared rooms, and casual gestures all change in practical ways. A new scale should create small scenes as readily as spectacular ones: Joey trying to sit comfortably at breakfast, a tailor pinning a new pattern, a friend moving a bench without being asked, or the group discovering that an old joke no longer works because the old reference point has disappeared.
+
+At the **world scale**, adaptation becomes culture. The residence develops standards, specialist roles, new spaces, and a history of previous solutions. Old equipment is not forgotten; it is kept, modified, displayed, or passed to another resident. The men begin to speak in comparisons that only make sense inside their shared history. The archive records not just how large Joey became, but how the community changed in order to remain a community with him.
+
+### 13.2 The escalation sequence
+
+When invoking “even bigger,” use this sequence as a guide, not a rigid checklist:
+
+1. **Carry forward the last real baseline.** Establish the body Joey has now, including the proportions and abilities earned in earlier chapters.
+2. **Introduce a pressure or discovery.** The next increase should arise from an event, ambition, experiment, training development, personal choice, or unexplained property of the setting—not from an arbitrary announcement.
+3. **Make the change legible.** Give the reader a new comparison: a familiar pose, garment, piece of equipment, doorway, photograph, or remembered interaction now means something different.
+4. **Let Joey experience it.** Include his own response: what surprises him, what delights him, what feels unfamiliar, and what he wants to test next.
+5. **Let other characters respond distinctly.** One man may make a dry joke; another may immediately calculate what needs rebuilding; another may be quietly moved by how pleased Joey is. Their responses reveal their relationships.
+6. **Follow through materially.** Show the fitting, redesign, training adjustment, new routine, or changed use of space. Do not leave the consequences as an abstract promise.
+7. **Record the new baseline.** Preserve the prior state in the chronology and mark the new state as the current one. The next invocation begins here.
+
+### 13.3 Keep the comparisons alive
+
+The most effective comparison is usually with something the reader has already encountered. Revisit an earlier photograph and let the men notice what the frame can no longer contain. Bring back the first custom-made garment and show how modest it looks beside the latest fitting. Return to the original training hall and let its dimensions recall the first stages of the story. Reuse a measurement book, but allow the old pages to become a record of how the entire system of measurement had to evolve.
+
+Do not rely on a constant stream of increasingly enormous numbers. Numbers can be useful when recorded in a scene, but scale is more persuasive when it changes a familiar action. A hand placed on a friend's shoulder, a turn through a corridor, a relaxed stance in the Mirror Room, or the simple act of pulling on a shirt can carry more meaning than an unsupported statistic. Use exact figures only when the story has a reason to measure and a credible record of the measurement.
+
+### 13.4 Escalation without erasure
+
+“Even bigger” must never erase what came before. Joey remembers the earlier body because he lived in it. The men remember helping him train, choosing clothes, taking photographs, and adapting the residence at each previous stage. Those memories are not obsolete; they become affection, humour, expertise, and shared history. A previous limit can remain meaningful even after it has been surpassed.
+
+Nor should every consequence be convenient. A larger scale can create awkwardness, delays, design disagreements, unfamiliar movements, or moments when Joey has to learn his own proportions again. These are not punishments for growth. They are opportunities for character and invention. Let the men solve problems together, and let Joey retain agency in decisions about his body and his environment.
+
+### 13.5 The next-scale test
+
+Before accepting a new escalation scene, ask: What can Joey do now that he could not do before? What familiar thing has changed meaning? What has the residence learned? Which relationship is revealed or altered? What practical adaptation will the reader remember? What new desire becomes possible because of this change?
+
+If the only answer is “he is bigger,” the scene is not finished. Find the event, response, and consequence that make the increase part of the living world. The clause is not a licence for empty inflation. It is a standing engine for discovery.

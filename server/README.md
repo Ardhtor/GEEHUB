@@ -1,6 +1,6 @@
 # GEEHUB live model runtime
 
-This local service serves the repository and exposes three bounded endpoints: `POST /api/geehub/turn` for live dialogue, `POST /api/geehub/inscribe` for durable occurrence writing, and `GET /api/geehub/activity` for the newest inscribed events. The dialogue endpoint adds canonical world and voice context, calls the configured Responses API model, validates the returned speaker, and returns one utterance plus its consequence. The inscription endpoint validates a typed event and passes it to `engine/inscription.py`, the same writer used by the scheduled engines. That writer appends to `engine/activity.jsonl`, updates the artifact ledger and activity-event archive, and writes a Dropbox outbox record. The activity endpoint returns the newest records so the shared room can receive cross-session events.
+This local service serves the repository and exposes bounded endpoints: `GET /api/geehub/health` for service status, `GET /api/geehub/system` for live runtime and memory telemetry, `POST /api/geehub/turn` for live dialogue, `POST /api/geehub/inscribe` for durable occurrence writing, and `GET /api/geehub/activity` for the newest inscribed events. The system endpoint reports Node process RSS/heap/external memory alongside host total/free RAM, platform, architecture, Node version, PID, uptime, and sample time. It is a read-only diagnostic; it does not allocate arbitrary memory or expose process contents. The dialogue endpoint adds canonical world and voice context, calls the configured Responses API model, validates the returned speaker, and returns one utterance plus its consequence. The inscription endpoint validates a typed event and passes it to `engine/inscription.py`, the same writer used by the scheduled engines. That writer appends to `engine/activity.jsonl`, updates the artifact ledger and activity-event archive, and writes a Dropbox outbox record. The activity endpoint returns the newest records so the shared room can receive cross-session events.
 
 ## Run
 
@@ -13,7 +13,7 @@ node server/geehub-server.mjs
 OPENAI_API_KEY=your_api_key GEEHUB_MODEL=your_enabled_model node server/geehub-server.mjs
 ```
 
-Then open `http://127.0.0.1:8788` for the main hub, or `http://127.0.0.1:8788/hub/index.html` for the Project Atlas and jammer. Keep any API key in the server environment only. It is never sent to the browser or committed to the repository. The service binds to localhost by default. Set `GEEHUB_HOST` deliberately before exposing it to another machine; add authentication and deployment-level rate limits before public hosting.
+Then open `http://127.0.0.1:8788` for the main hub, or `http://127.0.0.1:8788/hub/index.html` for the Project Atlas and jammer. Open `http://127.0.0.1:8788/api/geehub/system` to inspect live process and host RAM measurements from the Mac running the service. Keep any API key in the server environment only. It is never sent to the browser or committed to the repository. The service binds to localhost by default. Set `GEEHUB_HOST` deliberately before exposing it to another machine; add authentication and deployment-level rate limits before public hosting.
 
 ## Verification
 

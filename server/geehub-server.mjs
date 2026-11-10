@@ -170,6 +170,9 @@ async function buildContinuityIndex(query, requestedLimit=48) {
     nodes.push(node);
     entityNodes.set(entity.key,node);
   }
+  for(const node of nodes.filter(item=>item.kind==="place")){
+    for(const entity of node.entities||[])entityNodes.set(entity.key,node);
+  }
   for(const node of nodes){
     for(const entity of node.entities||[]){
       if(!entityNodes.has(entity.key)){
@@ -199,7 +202,7 @@ async function buildContinuityIndex(query, requestedLimit=48) {
   for(const node of selected){
     for(const entity of node.entities||[]){
       const entityNode=entityNodes.get(entity.key);
-      if(entityNode)addLink(node.id,entityNode.id,entity.type+": "+entity.value);
+      if(entityNode){addLink(node.id,entityNode.id,entity.type+": "+entity.value);addLink(entityNode.id,node.id,"appears in: "+node.title);}
     }
     if(node.artifactRef&&recordingById.has(node.artifactRef))addLink(node.id,recordingById.get(node.artifactRef).id,"recorded as");
     if(node.kind==="recording"){
@@ -222,9 +225,16 @@ async function buildContinuityIndex(query, requestedLimit=48) {
       if(node.details.regionId&&placeIds.has(node.details.regionId))addLink(node.id,"place:"+node.details.regionId,"current location");
     }
   }
+  const relevantPlaces=new Set();
+  for(const node of selected){
+    if(node.kind==="place")relevantPlaces.add(node.recordId);
+    if(node.details?.regionId)relevantPlaces.add(node.details.regionId);
+    if(node.details?.previousRegionId)relevantPlaces.add(node.details.previousRegionId);
+    for(const entity of node.entities||[])if(entity.type==="place")relevantPlaces.add(entity.value);
+  }
   for(const [from,to] of mapRoutes){
     const left="place:"+from,right="place:"+to;
-    if(selectedIds.has(left)||selectedIds.has(right)){addLink(left,right,"mapped route");addLink(right,left,"mapped route");}
+    if(relevantPlaces.has(from)||relevantPlaces.has(to)){addLink(left,right,"mapped route");addLink(right,left,"mapped route");}
   }
   const relevantEntityCount=entities.filter(entity=>selected.some(node=>(node.entities||[]).some(item=>item.key===entity.entities[0].key))).length;
   return {

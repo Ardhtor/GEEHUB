@@ -37,7 +37,8 @@ async function trace(query){
  try{
   const response=await fetch("/api/geehub/continuity?q="+encodeURIComponent(query)+"&limit=100",{cache:"no-store",headers:{accept:"application/json"}});
   const data=await response.json();if(!response.ok)throw new Error(data.error||"Continuity index unavailable");
-  drawMap(data.map,data.results);\n  const totals=data.totals||{};
+  drawMap(data.map,data.results);
+  const totals=data.totals||{};
   summary.textContent=(totals.matches||0)+" MATCHES · "+(totals.passages||0)+" PASSAGES · "+(totals.encounters||0)+" ENCOUNTERS · "+(totals.recordings||0)+" RECORDINGS · "+(totals.memories||0)+" MEMORIES · "+(totals.places||0)+" PLACES";
   if(!data.results?.length){results.innerHTML='<div class="continuity-empty">No matching records. Try a person, place, relation, or stable artifact ID.</div>';state.dataset.state="empty";state.textContent="NO MATCH";return}
   const nodes=new Map(data.results.map(node=>[node.id,node]));

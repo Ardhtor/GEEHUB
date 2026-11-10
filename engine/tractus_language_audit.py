@@ -312,7 +312,7 @@ def audit():
         if isinstance(event, dict) and isinstance(event.get("artifact"), str):
             exchange_artifact_refs.add(event["artifact"])
     for artifact_ref in sorted(exchange_artifact_refs):
-        if "/" in artifact_ref or "\\\\" in artifact_ref:
+        if "/" in artifact_ref:
             target = (ROOT / artifact_ref).resolve()
         elif artifact_ref in artifact_ids:
             continue

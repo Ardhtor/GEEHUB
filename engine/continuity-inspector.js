@@ -21,13 +21,14 @@ async function trace(query){
   for(const node of data.results){
    const article=document.createElement("article");article.className="continuity-record";article.dataset.kind=node.kind;
    const top=document.createElement("div");top.className="continuity-record-top";
-   const kind=document.createElement("span");kind.className="continuity-kind";kind.textContent=kindLabel[node.kind]||String(node.kind||"RECORD").toUpperCase();
+   const kind=document.createElement("span");kind.className="continuity-kind";kind.textContent=(kindLabel[node.kind]||String(node.kind||"RECORD").toUpperCase())+(node.type?" / "+String(node.type).toUpperCase():"");
    const time=document.createElement("time");time.textContent=date(node.at);top.append(kind,time);
    const title=document.createElement("h3");title.textContent=node.title||node.id;
    const id=document.createElement("code");id.textContent=node.recordId||node.id;
    article.append(top,title,id);
    if(node.summary){const body=document.createElement("p");body.className="continuity-body";body.textContent=node.summary;article.append(body)}
    if(node.canon){const canon=document.createElement("span");canon.className="continuity-canon";canon.textContent="CANON / "+node.canon.toUpperCase();article.append(canon)}
+   if(node.continuity){const continuity=document.createElement("p");continuity.className="continuity-body continuity-unresolved";continuity.textContent="CONTINUITY / "+node.continuity;article.append(continuity)}
    if(node.entities?.length){const tags=document.createElement("div");tags.className="continuity-entities";for(const entity of node.entities.slice(0,9)){const tag=document.createElement("span");tag.textContent=String(entity.type||"LINK").toUpperCase()+" / "+entity.value;tags.append(tag)}article.append(tags)}
    if(node.source||node.path){const safePath=Boolean(node.path&&!node.path.startsWith("/")&&!node.path.split("/").includes("..")&&!node.path.startsWith("http:")&&!node.path.startsWith("https:"));const source=document.createElement(safePath?"a":"div");source.className="continuity-source";source.textContent="SOURCE / "+(node.path||node.source);if(safePath){source.href="./"+node.path;source.target="_blank";source.rel="noopener noreferrer"}article.append(source)}
    const related=edges.get(node.id)||[];

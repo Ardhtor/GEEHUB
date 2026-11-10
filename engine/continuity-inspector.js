@@ -10,7 +10,7 @@ async function trace(query){
  state.dataset.state="loading";state.textContent="TRACING / "+(query||"RECENT");
  results.innerHTML='<div class="continuity-empty">Following the records…</div>';
  try{
-  const response=await fetch("/api/geehub/continuity?q="+encodeURIComponent(query)+"&limit=72",{cache:"no-store",headers:{accept:"application/json"}});
+  const response=await fetch("/api/geehub/continuity?q="+encodeURIComponent(query)+"&limit=100",{cache:"no-store",headers:{accept:"application/json"}});
   const data=await response.json();if(!response.ok)throw new Error(data.error||"Continuity index unavailable");
   const totals=data.totals||{};
   summary.textContent=(totals.matches||0)+" MATCHES · "+(totals.passages||0)+" PASSAGES · "+(totals.encounters||0)+" ENCOUNTERS · "+(totals.recordings||0)+" RECORDINGS · "+(totals.memories||0)+" MEMORIES · "+(totals.places||0)+" PLACES";

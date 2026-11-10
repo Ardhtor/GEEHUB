@@ -192,7 +192,6 @@ async function buildContinuityIndex(query, requestedLimit=48) {
     : nodes.filter(node=>node.kind==="encounter"||node.kind==="recording"||node.kind==="passage"||node.kind==="state").sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0)).slice(0,16);
   matches.sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0));
   const selected=matches.slice(0,limit);
-  const selectedIds=new Set(selected.map(node=>node.id));
   const links=[];
   const nodeById=new Map(nodes.map(node=>[node.id,node]));
   const linkKeys=new Set();

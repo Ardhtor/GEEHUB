@@ -1901,3 +1901,11 @@ NICK: The world crosses the route from NORTHGATE LIBRARY into THE COMMON TABLE. 
 SETH: A generous oak dining hall with seasonal food, fresh bread, a courtyard, and room for newcomers to settle in at their own pace. Relation carried forward: CAMPUS AFTER HOURS.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 250 — ATMOSPHERE / LANTERN MARKET / 2026-11-10T23:45:11.453667+00:00
+
+SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

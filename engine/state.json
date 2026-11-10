@@ -1,5 +1,5 @@
 {
-  "pulse": 249,
+  "pulse": 250,
   "events": [
     {
       "pulse": 1,
@@ -4495,6 +4495,28 @@
       "occurred_at": "2026-11-10T18:57:08.844754+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000250",
+      "pulse": 250,
+      "time": "2026-11-10T23:45:11.453667+00:00",
+      "actor": "LUKE",
+      "world": "LANTERN MARKET",
+      "region_id": "lantern-market",
+      "previous_region_id": "lantern-market",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/lantern-market/README.md",
+      "desire_state": "attention",
+      "action": "SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.96,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-10T23:45:11.453667+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -4545,7 +4567,7 @@
     "northgate-library": 245.5,
     "athletic-commons": 242.5
   },
-  "pressure": 0.94,
+  "pressure": 0.96,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -4565,17 +4587,17 @@
     "worlds/founders-dormitory/README.md": 7,
     "worlds/northgate-university/README.md": 16,
     "worlds/bluewater-quay/README.md": 8,
-    "worlds/lantern-market/README.md": 4,
+    "worlds/lantern-market/README.md": 5,
     "worlds/northgate-library/README.md": 10,
     "worlds/athletic-commons/README.md": 5
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "lantern-market",
-  "current_phase": "LONG_PLAY_CROSSING",
-  "current_desire_state": "continuity",
-  "current_question": "What can change without erasing where it came from?",
-  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 190,

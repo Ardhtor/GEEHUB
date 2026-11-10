@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-09T17:50:32.222Z",
+  "generated": "2026-11-10T00:36:43.846Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00187",
+      "at": "2026-11-10T00:36:43.846Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / NORTHGATE UNIVERSITY → ATHLETIC COMMONS / TYLER",
+      "body": "The world crossed the existing relation \"STRENGTH WITHOUT CONFLICT\" from NORTHGATE UNIVERSITY into ATHLETIC COMMONS. Scale increased from 14.37× to 14.42×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00187",
+      "live": true,
+      "regionId": "athletic-commons",
+      "previousRegionId": "northgate-university",
+      "relation": "STRENGTH WITHOUT CONFLICT"
+    },
     {
       "id": "scheduled-long-play-00186",
       "at": "2026-11-09T17:50:32.222Z",
@@ -1482,21 +1497,6 @@
       "regionId": "growth",
       "previousRegionId": "complex",
       "relation": "KISS = CONTINUITY"
-    },
-    {
-      "id": "scheduled-long-play-00090",
-      "at": "2026-10-22T01:55:35.517Z",
-      "from": "geehub-long-play",
-      "to": "chase",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / BEEFYTHIQ → THE COMPLEX / CHASE",
-      "body": "The world crossed the existing relation \"MASS BECOMES WEATHER\" from BEEFYTHIQ into THE COMPLEX. Scale increased from 8.22× to 8.26×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00090",
-      "live": true,
-      "regionId": "complex",
-      "previousRegionId": "beefythiq",
-      "relation": "MASS BECOMES WEATHER"
     }
   ]
 }

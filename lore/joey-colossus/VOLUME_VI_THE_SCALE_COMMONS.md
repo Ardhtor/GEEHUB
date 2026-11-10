@@ -134,3 +134,70 @@ Joey glanced at Ellis and Gideon, who were still talking beside the boathouse. P
 They returned by the River Way as the lamps came on along the embankment. On the map at the North Gate, Daniel added the rowing club's crossing as a point to inspect, and Peter saved the tailoring demonstration. Ellis wrote down Gideon's training hours. Martin marked the Long Park loop for another Sunday.
 
 The map had not changed much. The world behind it had.
+
+
+## Chapter 5 — The Week Belongs to Everyone
+
+On Monday morning Martin found the old noticeboard leaning against the wall outside the common room. Someone had taken down the previous week's announcements, leaving a few pinholes and a pale rectangle where the paper had protected the timber from the sun. He carried it inside and set it beside the long table.
+
+“We need a board that tells people what's actually happening,” he said. “Not another list of meetings about what we might do.”
+
+Marcus looked over the blank surface. “Then put the people on it, not just the events.”
+
+They began with the things already in motion. Daniel and Adrian had agreed to visit the Aven Rowing Club. Peter had a demonstration to attend in Glassmarket. Ellis wanted to return to the river and see whether the club's early training suited him. Andrew was preparing another controlled throwing session. Martin had the Residents' Cup to organize, while Noah had volunteered to take charge of Sunday's supper. Miles wanted to map a longer running route through the Long Park. Connor had asked whether the swimming pavilion could host an informal evening session.
+
+Marcus wrote the names beside the activities, then added a small note beneath the board: joining was optional. Someone could help, watch, suggest a change, or leave the afternoon free. Nobody had to explain a refusal.
+
+Joey arrived with a cup of coffee and read the board. “Looks like we'll all be in different places.”
+
+“That's usually what happens when people have lives,” Martin said.
+
+Joey laughed and moved a pin so that Andrew's practice no longer overlapped with the proposed equipment inspection. It was a small adjustment, but it made the board useful. By the time they left, it had become a record of things people intended to do rather than a promise that everyone would do them together.
+
+On Tuesday, Daniel and Adrian met Gideon at the Aven Rowing Club before the first crew went out. The embankment was quiet except for the river and the sound of equipment being moved inside the boat shed. Gideon showed them the corner where pedestrians and the rowing crew had been meeting at awkward angles. The problem was not simply a narrow path. The club's launch routine had grown around an older arrangement, and the new promenade had changed the flow of people without changing the habits of the crew.
+
+Daniel watched two rowers carry a shell toward the water. Adrian followed the route with his eyes, noticing where the paving changed and where the turning space disappeared.
+
+“Don't draw anything yet,” Gideon said. “Watch the next crew.”
+
+They did. The second group approached from the opposite side, stopped to let a family pass, then had to reverse the shell to clear a bollard. Nobody was in danger, but the movement was awkward and unnecessarily tiring.
+
+Daniel opened his notebook. “We can test a temporary crossing. No permanent work until the club has tried it.”
+
+Adrian sketched a removable support and a wider turning position. Gideon called over two crew members, who immediately pointed out that the proposed route would be difficult when the paving was wet. The first design was set aside. They walked the route again, this time with the rowers showing them how they actually held the shell and where they needed to turn their bodies.
+
+By noon they had a better plan and no finished structure. Daniel seemed happier with that result than he would have been with a drawing nobody had tested. Adrian took the measurements back to the workshop. Gideon promised to find two crew members for the next trial.
+
+Ellis returned to the river on Wednesday. He had not abandoned swimming, and he was not there to become a rower overnight. He wanted to understand the rhythm of the club and see whether he could learn something about pacing from men who read moving water every morning. Gideon introduced him to the crew without ceremony. They warmed up together, compared the differences between pool turns and river navigation, and argued about whether a technically clean stroke was always the most efficient one in changing conditions.
+
+Ellis listened more than he spoke. When he did offer an observation, one of the rowers tried it on the next outing and returned with a correction. Ellis liked that. The conversation was not a recruitment attempt; it was an exchange between athletes with different habits. He arranged to come back the following week, then left in time for his own afternoon swim.
+
+Miles spent the same morning in the Long Park. He ran the familiar circuit first, then took the northern branch that climbed toward the ridge. A section near the lake had been resurfaced, and he wanted to compare it with the older gravel path. He marked the uneven places and the stretches where a runner could keep a steady pace without cutting across the walking route. Connor met him near the pavilion after his own swim. They walked the route together, discussing whether the pavilion could stay open later for an informal session. Neither had decided what the event should become. They agreed to ask the other swimmers before booking anything.
+
+On Thursday Peter went to Glassmarket for the Guild of Cloth and Measure demonstration. He expected a presentation of new fabrics. Instead, the first hour was spent looking at damaged garments and discussing why they had failed. A seam had been placed where a shoulder needed to rotate; a fastening had been designed for a hand position that many wearers could not comfortably reach; a coat had been made to look impressive while standing still and became difficult to use when its owner sat down.
+
+Peter found himself disagreeing with one of the pattern cutters about how much adjustment a garment should permit. He preferred a stable structure that could be altered carefully. The cutter argued that a good pattern should anticipate change before it arrived. They tested both approaches on a practice jacket. Neither method won outright. Peter left with a new pattern to study and an invitation to return with one of his own designs.
+
+That afternoon, Marcus went back to the Tableland. The model campus had begun to attract visitors who wanted to move buildings around and see what happened. He enjoyed that, but the last session had left him with a problem: people were treating the model as a display of scale rather than a place where someone might actually live. He moved the recreation hall away from the central square and asked two residents to design a route that connected the dormitory, workshop, park, and dining room without forcing every journey through the gallery.
+
+They argued over the position of a footbridge. Marcus let them continue until they found a solution he had not considered. He saved their layout under their names, not his. The model was becoming a record of other people's decisions.
+
+Andrew's practice took place on Friday. He had reduced the target and rebuilt the receiving frame after inspecting the earlier structure. Joey joined him, but the session was not arranged as a demonstration for the rest of the campus. Andrew wanted repeatable throws at controlled effort; Joey wanted to improve his placement without turning every attempt into a spectacle. They worked through a series of throws, stopping to inspect the frame and compare the results. When the final attempt missed the centre, Andrew did not call it a failure. He asked Joey what he had felt at release. Joey described a small change in his shoulder path. They adjusted the next session's notes and packed the equipment away.
+
+Meanwhile, Noah had taken over the kitchen. He was testing a supper menu that could be prepared without keeping everyone waiting for one person to finish cooking. Martin came in to help with the heavy trays and was given the job of tasting a sauce. He offered an opinion with such confidence that Noah made him taste it again without the extra seasoning. Martin accepted the correction. By evening, the kitchen had a workable plan and a list of ingredients for Sunday.
+
+Joey spent part of Saturday by the river with a small recorder. He had been collecting sounds for the music room, and the Aven offered more than the gate, latch, and glove recordings he had used before. He recorded water against the embankment, a boat settling against its supports, footsteps on the lower steps, and the distant calls from the rowing shed. A man who worked nearby asked him not to place the recorder on the public rail where it might be knocked into the water. Joey moved it to the stone ledge and thanked him. The recording became better once he stopped trying to capture the whole river at once.
+
+Sunday supper was noisy in the ordinary way. Noah kept the food moving, Martin told the story of the sauce, and Andrew tried to explain why the smaller target had made the session more interesting. Ellis described the rowing crew's argument about stroke efficiency. Peter laid the practice pattern on the table, careful not to let anyone spill a drink on it. Daniel and Adrian showed Gideon the revised crossing sketch, which he folded into his jacket to take back to the club. Miles and Connor had a route and a possible evening session, but they were waiting for the swimmers to answer before deciding whether to arrange it.
+
+Marcus brought the Tableland layout on a tablet. He showed the new footbridge and the route the two residents had designed. Nobody suggested putting his name over theirs. He looked pleased.
+
+The board outside the common room was almost full. Some activities had finished; others had moved to another week. A few spaces remained blank. Martin stood beside it with a pencil.
+
+“We could fill the rest now,” he said.
+
+Noah shook his head. “Leave room. Someone will think of something.”
+
+Joey looked at the board and then around the table. Nobody had spent the week waiting for him. They had made things, learned things, disagreed, trained, cooked, travelled, and chosen when to be together. The Scale Commons had not become less of a community because its residents had separate plans. It had become one because they could leave, return, and find that the others had continued.
+
+Martin put the pencil down. The blank spaces stayed blank.

@@ -10,7 +10,7 @@
     "origin": "world northwest corner",
     "units": "normalized planning coordinates"
   },
-  "source": "./world.json",
+  "source": "../world.json",
   "rule": "This map is the canonical spatial index. Every scene, recording, image job, and 3D reconstruction should reference region IDs and coordinates instead of inventing geography again.",
   "regions": [
     {
@@ -96,6 +96,51 @@
       "x": 36,
       "y": 38,
       "radius": 5
+    },
+    {
+      "id": "cedar-house",
+      "x": 11,
+      "y": 47
+    },
+    {
+      "id": "lantern-market",
+      "x": 88,
+      "y": 18
+    },
+    {
+      "id": "cat-gardens",
+      "x": 10,
+      "y": 68
+    },
+    {
+      "id": "bluewater-quay",
+      "x": 91,
+      "y": 72
+    },
+    {
+      "id": "common-table",
+      "x": 50,
+      "y": 8
+    },
+    {
+      "id": "northgate-university",
+      "x": 49,
+      "y": 92
+    },
+    {
+      "id": "founders-dormitory",
+      "x": 34,
+      "y": 91
+    },
+    {
+      "id": "athletic-commons",
+      "x": 65,
+      "y": 94
+    },
+    {
+      "id": "northgate-library",
+      "x": 48,
+      "y": 76
     }
   ],
   "routes": [
@@ -194,6 +239,70 @@
     [
       "kingdom-land",
       "facility"
+    ],
+    [
+      "northgate-university",
+      "northgate-library"
+    ],
+    [
+      "athletic-commons",
+      "northgate-university"
+    ],
+    [
+      "cat-gardens",
+      "cedar-house"
+    ],
+    [
+      "founders-dormitory",
+      "cat-gardens"
+    ],
+    [
+      "bluewater-quay",
+      "northgate-university"
+    ],
+    [
+      "lantern-market",
+      "bluewater-quay"
+    ],
+    [
+      "common-table",
+      "lantern-market"
+    ],
+    [
+      "cedar-house",
+      "common-table"
+    ],
+    [
+      "northgate-university",
+      "founders-dormitory"
+    ],
+    [
+      "common-table",
+      "northgate-library"
+    ],
+    [
+      "male-harem",
+      "common-table"
+    ],
+    [
+      "bodylounger",
+      "male-harem"
+    ],
+    [
+      "discovery",
+      "veyrthalis"
+    ],
+    [
+      "embodied-scale",
+      "discovery"
+    ],
+    [
+      "facility",
+      "embodied-scale"
+    ],
+    [
+      "male-harem",
+      "colossal-escalation"
     ]
   ],
   "layers": [

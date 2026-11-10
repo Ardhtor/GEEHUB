@@ -24,14 +24,14 @@ async function trace(query){
    const kind=document.createElement("span");kind.className="continuity-kind";kind.textContent=kindLabel[node.kind]||String(node.kind||"RECORD").toUpperCase();
    const time=document.createElement("time");time.textContent=date(node.at);top.append(kind,time);
    const title=document.createElement("h3");title.textContent=node.title||node.id;
-   const id=document.createElement("code");id.textContent=node.id;
+   const id=document.createElement("code");id.textContent=node.recordId||node.id;
    article.append(top,title,id);
    if(node.summary){const body=document.createElement("p");body.className="continuity-body";body.textContent=node.summary;article.append(body)}
    if(node.canon){const canon=document.createElement("span");canon.className="continuity-canon";canon.textContent="CANON / "+node.canon.toUpperCase();article.append(canon)}
    if(node.entities?.length){const tags=document.createElement("div");tags.className="continuity-entities";for(const entity of node.entities.slice(0,9)){const tag=document.createElement("span");tag.textContent=String(entity.type||"LINK").toUpperCase()+" / "+entity.value;tags.append(tag)}article.append(tags)}
    if(node.source||node.path){const source=document.createElement("div");source.className="continuity-source";source.textContent="SOURCE / "+(node.path||node.source);article.append(source)}
    const related=edges.get(node.id)||[];
-   if(related.length){const nav=document.createElement("div");nav.className="continuity-links";for(const edge of related.slice(0,8)){const peer=nodes.get(edge.to);const button=document.createElement("button");button.type="button";button.dataset.trace=edge.to;button.textContent=edge.label+" → "+(peer?.title||edge.to);nav.append(button)}article.append(nav)}
+   if(related.length){const nav=document.createElement("div");nav.className="continuity-links";for(const edge of related.slice(0,8)){const peer=nodes.get(edge.to);const button=document.createElement("button");button.type="button";button.dataset.trace=edge.targetId||edge.to;button.textContent=edge.label+" → "+(peer?.title||edge.to);nav.append(button)}article.append(nav)}
    results.append(article);
   }
   if(data.truncated){const note=document.createElement("div");note.className="continuity-truncated";note.textContent="Showing the first "+data.results.length+" records. Refine the search to follow a narrower thread.";results.append(note)}

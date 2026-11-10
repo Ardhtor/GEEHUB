@@ -150,7 +150,7 @@ async function buildContinuityIndex(query, requestedLimit=48) {
   for(const node of selected){
     if(node.artifactRef&&recordingIds.has("recording:"+node.artifactRef))addLink(node.id,"recording:"+node.artifactRef,"recorded as");
     if(node.kind==="recording"){
-      const event=events.find(item=>item.artifact===node.id);
+      const event=events.find(item=>item.artifact===node.recordId);
       if(event)addLink(node.id,"encounter:"+event.id,"inscribed as");
     }
     for(const entity of node.entities){

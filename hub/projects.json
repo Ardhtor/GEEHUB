@@ -1154,6 +1154,8 @@
       "institute-of-becoming",
       "character-records",
       "sensation-engine"
-    ]
+    ],
+    "writing_engine": "lore/joey-colossus/WRITING_ENGINE.md",
+    "continuity_protocol": "Canon → Pressure → Scene → Change → Consequence → Seeds → Next Scene"
   }
 ]

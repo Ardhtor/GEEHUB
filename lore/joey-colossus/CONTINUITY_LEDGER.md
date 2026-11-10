@@ -61,6 +61,22 @@ The first outward journey is established in Volume VI, Chapter 4: the group walk
 
 All supporting characters are fictional adult men with independent motives and development.
 
+## Volume VI — Chapter 5: The Week Belongs to Everyone
+
+The first working activity board is installed in the Scale Commons. It records open invitations and concurrent plans without making participation compulsory. The week establishes these developments:
+
+- Daniel and Adrian observe the Aven Rowing Club's embankment crossing with Gideon and two crew members; the first proposed design is rejected after practical feedback, and a revised temporary solution remains to be tested.
+- Ellis joins the rowers for an exchange about river pacing while retaining his swimming practice; he plans to return.
+- Miles maps a Long Park running route. Connor joins him to consider an informal evening swimming session, pending the swimmers' response.
+- Peter attends a Guild of Cloth and Measure demonstration in Glassmarket, disputes a pattern approach constructively, and takes a practice pattern away to study.
+- Marcus facilitates a Tableland planning session and saves a resident-designed layout under its contributors' names.
+- Andrew and Joey repeat a controlled baseball practice with a smaller target and an inspected receiving frame. The next session will use the notes from this trial.
+- Noah develops a communal-supper workflow; Martin assists and accepts a correction during the menu test.
+- Joey records new River Aven sounds for the music room and changes his setup after a local worker points out a practical risk.
+- The Sunday supper brings the separate activities back into conversation. The activity board remains open-ended, with unfilled space deliberately preserved.
+
+These events establish a first trial week, not a compulsory permanent timetable. Each participant retains the right to join, observe, decline, or change direction.
+
 ## Open threads
 
 1. Give Joey a more detailed Stage 6 physical progression with logged visual milestones.

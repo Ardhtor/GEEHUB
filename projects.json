@@ -940,5 +940,40 @@
       "architecture",
       "continuity"
     ]
+  },
+  {
+    "id": "tractus-world-atlas",
+    "name": "The Tractus — World Atlas",
+    "status": "active",
+    "kind": "world-index",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/hub/WORLD_ATLAS.md",
+    "description": "Cross-world atlas of the Tractus: separate fictional canons, local geography, world-specific continuity, and verified artifact, motif, visitor, and method crossings.",
+    "related": [
+      "vision-workspace",
+      "veyrthalis",
+      "mexiancas",
+      "joey-colossus-chronicles",
+      "male-stud",
+      "sacred-corridor",
+      "facility",
+      "muscle-myth"
+    ]
+  },
+  {
+    "id": "joey-colossus-chronicles",
+    "name": "Joey — The Colossus Chronicles",
+    "status": "active",
+    "kind": "story-series",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/joey-colossus/README.md",
+    "description": "Six-volume adult fictional muscle-growth saga, now extending from the Scale Commons through Crownmere and the Meridian Basin.",
+    "related": [
+      "tractus-world-atlas",
+      "beefythiq",
+      "growth-canvas",
+      "male-harem-virtual-space",
+      "scale-commons"
+    ]
   }
 ]

@@ -27,6 +27,10 @@ The volumes are written as actual fiction: continuous scenes, dialogue, training
 - Other characters have agency. They can admire, tease, disagree, compete, collaborate, and pursue their own arcs.
 - The story does not claim knowledge of any real person's private thoughts or feelings. Joey in this series is a fictional character.
 
+## The writing engine
+
+[WRITING_ENGINE.md](WRITING_ENGINE.md) is the generative protocol for the series. It turns canon into scene pressure, scenes into consequential changes, and those consequences into several independent continuation seeds. It governs long-form drafting, character voices, full-body growth sequences, world expansion, in-world artifacts, branching, anti-repetition, and continuity checks. Use it whenever continuing or expanding the series.
+
 ## Reading order and continuation
 
 Read the volumes in sequence. New chapters should be appended to the relevant volume and summarized in the continuity ledger. Do not overwrite earlier stages to make later ones seem more impressive. Preserve the history of each baseline.

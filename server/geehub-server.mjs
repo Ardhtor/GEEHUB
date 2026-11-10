@@ -114,9 +114,9 @@ function continuityEntities(value, prefix="") {
   return found.filter((item,index,array)=>array.findIndex(other=>other.key===item.key)===index);
 }
 async function buildContinuityIndex(query, requestedLimit=48) {
-  const [artifactRaw,exchangeRaw,worldRaw,activityRaw,worldStateRaw,spatialRaw,recordingFiles]=await Promise.all([
+  const [artifactRaw,exchangeRaw,worldRaw,activityRaw,worldStateRaw,spatialRaw,agentsRaw,recordingFiles]=await Promise.all([
     readFull("artifacts/index.json"),readFull("hub/exchange.json"),readFull("world.json"),
-    readFull("engine/activity.jsonl"),readFull("hub/world-state.json"),readFull("hub/spatial-world.json"),
+    readFull("engine/activity.jsonl"),readFull("hub/world-state.json"),readFull("hub/spatial-world.json"),readFull("hub/agents.json"),
     readdir(path.join(ROOT,"hub/recordings")).catch(()=>[])
   ]);
   const artifacts=parseJson(artifactRaw,{artifacts:[]}).artifacts||[];
@@ -124,6 +124,7 @@ async function buildContinuityIndex(query, requestedLimit=48) {
   const world=parseJson(worldRaw,{regions:[]});
   const worldState=parseJson(worldStateRaw,{});
   const spatial=parseJson(spatialRaw,{regions:[],routes:[]});
+  const agents=parseJson(agentsRaw,{agents:[]}).agents||[];
   const activity=activityRaw.split(/\r?\n/).filter(Boolean).flatMap(line=>{try{return [JSON.parse(line)]}catch{return []}});
   const nodes=[];
   const add=(kind,item)=>{
@@ -160,6 +161,15 @@ async function buildContinuityIndex(query, requestedLimit=48) {
     nodes.push({id:"state:current-world",recordId:worldState.id||"geehub-current-world-state",kind:"state",title:"CURRENT WORLD STATE",at:worldState.snapshot||"",summary:String(active.intent||worldState.interpretation||"Current world state"),source:"hub/world-state.json",canon:"live",continuity:Array.isArray(active.continuity)?active.continuity.join(" · "):"",path:"hub/world-state.json",entities:continuityEntities({agent:active.subject?.agent,regionId:active.regionId,previousRegionId:active.previousRegionId,relation:active.relation}),details:{agent:active.subject?.agent||"",scale:active.subject?.scale??null,regionId:active.regionId||"",previousRegionId:active.previousRegionId||"",relation:active.relation||"",recording:String(worldState.activeRecording||"")},artifactRef:String(worldState.activeRecording||"").split("/").pop()?.replace(/\.json$/,"")||""});
   }
   const entityNodes=new Map();
+  for(const agent of agents){
+    const id=String(agent.id||"").trim();
+    if(!id)continue;
+    const workspace=String(agent.workspace||"").replace(/^\.\//,"");
+    const entity={type:"person",value:id,key:"person:"+id.toLowerCase()};
+    const node={id:"identity:"+id,recordId:id,kind:"identity",title:String(agent.name||id),at:"",summary:String(agent.role||"Named GEEHUB agent"),source:workspace,canon:"registered identity",continuity:"Persistent agent identity; workspace and territories are retained in the registry.",path:workspace,entities:[entity],details:{role:String(agent.role||""),territories:Array.isArray(agent.territories)?agent.territories.join(" · "):"",workspace,characterRecord:String(agent.characterRecord||"")},artifactRef:""};
+    nodes.push(node);
+    entityNodes.set(entity.key,node);
+  }
   for(const node of nodes){
     for(const entity of node.entities||[]){
       if(!entityNodes.has(entity.key)){

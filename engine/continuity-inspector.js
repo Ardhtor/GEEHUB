@@ -29,9 +29,7 @@ function drawMap(map,records){
 }
 
 const kindLabel={passage:"WRITTEN PASSAGE",encounter:"ENCOUNTER",recording:"RECORDING",memory:"WORLD MEMORY",place:"PLACE",identity:"PERSON / IDENTITY",relation:"RELATION",concept:"CONCEPT THREAD",state:"LIVE WORLD STATE"};
-let activeQuery="";
 async function trace(query){
- activeQuery=query;
  state.dataset.state="loading";state.textContent="TRACING / "+(query||"RECENT");
  results.innerHTML='<div class="continuity-empty">Following the records…</div>';
  try{

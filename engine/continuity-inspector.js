@@ -29,7 +29,7 @@ async function trace(query){
    if(node.summary){const body=document.createElement("p");body.className="continuity-body";body.textContent=node.summary;article.append(body)}
    if(node.canon){const canon=document.createElement("span");canon.className="continuity-canon";canon.textContent="CANON / "+node.canon.toUpperCase();article.append(canon)}
    if(node.entities?.length){const tags=document.createElement("div");tags.className="continuity-entities";for(const entity of node.entities.slice(0,9)){const tag=document.createElement("span");tag.textContent=String(entity.type||"LINK").toUpperCase()+" / "+entity.value;tags.append(tag)}article.append(tags)}
-   if(node.source||node.path){const source=document.createElement("div");source.className="continuity-source";source.textContent="SOURCE / "+(node.path||node.source);article.append(source)}
+   if(node.source||node.path){const safePath=Boolean(node.path&&!node.path.startsWith("/")&&!node.path.split("/").includes("..")&&!node.path.startsWith("http:")&&!node.path.startsWith("https:"));const source=document.createElement(safePath?"a":"div");source.className="continuity-source";source.textContent="SOURCE / "+(node.path||node.source);if(safePath){source.href="./"+node.path;source.target="_blank";source.rel="noopener noreferrer"}article.append(source)}
    const related=edges.get(node.id)||[];
    if(related.length){const nav=document.createElement("div");nav.className="continuity-links";for(const edge of related.slice(0,8)){const peer=nodes.get(edge.to);const button=document.createElement("button");button.type="button";button.dataset.trace=edge.targetId||edge.to;button.textContent=edge.label+" → "+(peer?.title||edge.to);nav.append(button)}article.append(nav)}
    results.append(article);

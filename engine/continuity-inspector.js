@@ -3,6 +3,31 @@ const root=document.getElementById("continuityInspector");if(!root)return;
 const form=root.querySelector("#continuitySearch"),input=root.querySelector("#continuityQuery"),results=root.querySelector(".continuity-results"),summary=root.querySelector(".continuity-summary"),state=root.querySelector(".continuity-state");
 const esc=value=>String(value??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const date=value=>{if(!value)return"DATE UNRECORDED";const d=new Date(value);return Number.isNaN(d.getTime())?"DATE UNRECORDED":d.toLocaleString()};
+const mapRoot=root.querySelector(".continuity-map svg");
+const svgNS="http://www.w3.org/2000/svg";
+function drawMap(map,records){
+ if(!mapRoot||!map)return;
+ mapRoot.replaceChildren();
+ const regions=map.regions||[],byId=new Map(regions.map(region=>[region.id,region]));
+ const active=new Set();
+ for(const node of records||[]){if(node.kind==="place")active.add(node.recordId);if(node.details?.regionId)active.add(node.details.regionId);if(node.details?.previousRegionId)active.add(node.details.previousRegionId)}
+ const make=(tag,attrs={})=>{const element=document.createElementNS(svgNS,tag);for(const [key,value] of Object.entries(attrs))element.setAttribute(key,String(value));return element};
+ const routes=map.routes||[];
+ for(const route of routes){const a=byId.get(route[0]),b=byId.get(route[1]);if(!a||!b)continue;mapRoot.append(make("line",{x1:a.x,y1:a.y,x2:b.x,y2:b.y,class:"continuity-map-route"}))}
+ for(const region of regions){
+  const group=make("g",{class:"continuity-map-place"+(active.has(region.id)?" is-active":""),tabindex:"0",role:"button","aria-label":"Trace "+region.name});
+  group.append(make("circle",{cx:region.x,cy:region.y,r:active.has(region.id)?2.15:1.25}));
+  const label=make("text",{x:region.x+1.8,y:region.y-1.2});
+  label.textContent=region.name.replace(/^(THE )/,"").slice(0,18);
+  group.append(label);
+  const title=make("title");title.textContent=region.name+" / "+region.id;group.append(title);
+  const follow=()=>{input.value=region.id;trace(region.id)};
+  group.addEventListener("click",follow);
+  group.addEventListener("keydown",event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();follow()}});
+  mapRoot.append(group);
+ }
+}
+
 const kindLabel={passage:"WRITTEN PASSAGE",encounter:"ENCOUNTER",recording:"RECORDING",memory:"WORLD MEMORY",place:"PLACE",identity:"PERSON / IDENTITY",relation:"RELATION",concept:"CONCEPT THREAD",state:"LIVE WORLD STATE"};
 let activeQuery="";
 async function trace(query){
@@ -12,7 +37,7 @@ async function trace(query){
  try{
   const response=await fetch("/api/geehub/continuity?q="+encodeURIComponent(query)+"&limit=100",{cache:"no-store",headers:{accept:"application/json"}});
   const data=await response.json();if(!response.ok)throw new Error(data.error||"Continuity index unavailable");
-  const totals=data.totals||{};
+  drawMap(data.map,data.results);\n  const totals=data.totals||{};
   summary.textContent=(totals.matches||0)+" MATCHES · "+(totals.passages||0)+" PASSAGES · "+(totals.encounters||0)+" ENCOUNTERS · "+(totals.recordings||0)+" RECORDINGS · "+(totals.memories||0)+" MEMORIES · "+(totals.places||0)+" PLACES";
   if(!data.results?.length){results.innerHTML='<div class="continuity-empty">No matching records. Try a person, place, relation, or stable artifact ID.</div>';state.dataset.state="empty";state.textContent="NO MATCH";return}
   const nodes=new Map(data.results.map(node=>[node.id,node]));

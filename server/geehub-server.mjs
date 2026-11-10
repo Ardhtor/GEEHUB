@@ -145,7 +145,9 @@ async function buildContinuityIndex(query, requestedLimit=48) {
   matches.sort((a,b)=>Date.parse(b.at||0)-Date.parse(a.at||0));
   const selected=matches.slice(0,limit);
   const links=[];
-  const addLink=(from,to,label)=>{if(from!==to&&!links.some(edge=>edge.from===from&&edge.to===to)){const target=nodes.find(item=>item.id===to);links.push({from,to,targetId:target?.recordId||to,label});}};
+  const nodeById=new Map(nodes.map(node=>[node.id,node]));
+  const linkKeys=new Set();
+  const addLink=(from,to,label)=>{const key=from+"\\u0000"+to;if(from!==to&&!linkKeys.has(key)){linkKeys.add(key);const target=nodeById.get(to);links.push({from,to,targetId:target?.recordId||to,label});}};
   const recordingIds=new Set(nodes.filter(node=>node.kind==="recording").map(node=>node.id));
   for(const node of selected){
     if(node.artifactRef&&recordingIds.has("recording:"+node.artifactRef))addLink(node.id,"recording:"+node.artifactRef,"recorded as");

@@ -784,7 +784,9 @@
       "atlas",
       "the-coach",
       "institute-of-becoming",
-      "sensation-engine"
+      "sensation-engine",
+      "character-marcus",
+      "character-dan-roman"
     ],
     "tags": [
       "characters",
@@ -993,7 +995,8 @@
       "facility",
       "male-harem-virtual-space",
       "information-portability",
-      "lineage-pantheon"
+      "lineage-pantheon",
+      "confluence-people-volume-iii"
     ],
     "tags": [
       "confluence",
@@ -1003,6 +1006,79 @@
       "institutions",
       "production",
       "deep-lore"
+    ],
+    "volumes": [
+      "lore/EXPANSION_ATLAS_2026-11-10.md",
+      "lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md"
+    ]
+  },
+  {
+    "id": "confluence-people-volume-iii",
+    "name": "The Confluence — Volume III: The People",
+    "status": "incubating",
+    "kind": "story-volume",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md",
+    "description": "Long-form fictional lives in the Confluence: routines, homes, relationships, dialogue, work, and connected character arcs, with source boundaries and provisional additions kept visible.",
+    "related": [
+      "confluence-expansion",
+      "character-records",
+      "character-marcus",
+      "character-dan-roman",
+      "institute-of-becoming",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "confluence",
+      "characters",
+      "fiction",
+      "continuity",
+      "story-volume",
+      "long-form"
+    ]
+  },
+  {
+    "id": "character-marcus",
+    "name": "Marcus — Character Record",
+    "status": "incubating",
+    "kind": "character",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/characters/records/MARCUS.md",
+    "description": "Developing adult fictional character record for Marcus, the working subject name in the Gold's on 5th production; preserves the distinction between this production incarnation and the wider Teal Titan lineage.",
+    "related": [
+      "character-records",
+      "confluence-expansion",
+      "confluence-people-volume-iii",
+      "teal-titan-golds-on-5th"
+    ],
+    "tags": [
+      "character",
+      "marcus",
+      "confluence",
+      "production-continuity",
+      "fiction"
+    ]
+  },
+  {
+    "id": "character-dan-roman",
+    "name": "Dan Roman — Character Record",
+    "status": "incubating",
+    "kind": "character",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/characters/records/DAN_ROMAN.md",
+    "description": "Provisional fictional character record developed for Volume III, centred on material craft, the Material Library, visible repair, and shared design work.",
+    "related": [
+      "character-records",
+      "confluence-expansion",
+      "confluence-people-volume-iii",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "character",
+      "dan-roman",
+      "confluence",
+      "material-craft",
+      "fiction"
     ]
   }
 ]

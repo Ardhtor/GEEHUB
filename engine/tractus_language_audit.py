@@ -285,6 +285,50 @@ def audit():
     counts["spatial_routes"] = len(spatial_routes)
     checks.append({"name":"spatial graph and geography alignment","records":len(spatial_regions) + len(spatial_routes),"invalid":spatial_bad,"status":"fail" if spatial_bad else "pass"})
 
+    ledger = load_json(ROOT / "artifacts/index.json", errors)
+    artifact_items = ledger.get("artifacts", []) if isinstance(ledger, dict) else []
+    artifact_ids = set()
+    artifact_bad = 0
+    for index, artifact in enumerate(artifact_items):
+        label = f"artifacts/index.json artifacts[{index}]"
+        if not isinstance(artifact, dict):
+            errors.append(f"{label} must be an object"); artifact_bad += 1; continue
+        artifact_id = artifact.get("id")
+        if not isinstance(artifact_id, str) or not ID_RE.fullmatch(artifact_id):
+            errors.append(f"{label} has an invalid stable id"); artifact_bad += 1
+        elif artifact_id in artifact_ids:
+            errors.append(f"{label} duplicates id {artifact_id}"); artifact_bad += 1
+        else:
+            artifact_ids.add(artifact_id)
+        for field in ("created_at", "source", "kind", "title", "content", "canon"):
+            value = artifact.get(field)
+            if not isinstance(value, str) or not value.strip():
+                errors.append(f"{label} is missing {field}"); artifact_bad += 1
+        if not valid_time(artifact.get("created_at")):
+            errors.append(f"{label} has an invalid created_at timestamp"); artifact_bad += 1
+
+    exchange_artifact_refs = set()
+    for event in events:
+        if isinstance(event, dict) and isinstance(event.get("artifact"), str):
+            exchange_artifact_refs.add(event["artifact"])
+    for artifact_ref in sorted(exchange_artifact_refs):
+        if "/" in artifact_ref or "\\\\" in artifact_ref:
+            target = (ROOT / artifact_ref).resolve()
+        elif artifact_ref in artifact_ids:
+            continue
+        else:
+            target = (ROOT / "hub" / "recordings" / (artifact_ref + ".json")).resolve()
+        try:
+            target.relative_to(ROOT)
+        except ValueError:
+            errors.append(f"exchange artifact reference escapes the repository root: {artifact_ref}"); artifact_bad += 1
+            continue
+        if not target.is_file():
+            errors.append(f"exchange artifact reference cannot be resolved: {artifact_ref}"); artifact_bad += 1
+    counts["ledger_artifacts"] = len(artifact_items)
+    counts["exchange_artifact_refs"] = len(exchange_artifact_refs)
+    checks.append({"name":"artifact ledger and exchange reference integrity","records":len(artifact_items) + len(exchange_artifact_refs),"invalid":artifact_bad,"status":"fail" if artifact_bad else "pass"})
+
     activity_path = ROOT / "engine/activity.jsonl"
     records = 0; bad = 0; activity_ids = set()
     if activity_path.exists():

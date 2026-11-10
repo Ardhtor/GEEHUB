@@ -1,6 +1,6 @@
 # Joey Colossus — Continuity Ledger
 
-This is the authoritative continuity record for the five-volume cycle. Add dated entries when the story establishes a new fact. Do not invent exact measurements retroactively.
+This is the authoritative continuity record for the six-volume cycle. Add dated entries when the story establishes a new fact. Do not invent exact measurements retroactively.
 
 ## Character identity
 
@@ -22,6 +22,12 @@ This is the authoritative continuity record for the five-volume cycle. Add dated
 | 5 | COLOSSUS / LOVE ASCENDANT | Colossal mass-titan baseline; entire physique developed to fantastical proportions; facility and dormitory adapt. |
 | 6 | Beyond the Baseline | Opens in Volumes IV–V; growth exceeds Stage 5 while continuity and community remain intact. |
 
+## Scale classes
+
+The Scale Commons uses five measured height bands for environmental planning: Elevated (7 feet to under 10 feet), Colossal (10 feet to under 25 feet), Monumental (25 feet to under 100 feet), Titan (100 feet to under 500 feet), and Continental (500 feet and above). These are not growth stages and do not rank residents. Joey's Stage 5 is a narrative growth stage; his exact height in this continuity remains unassigned until measured and recorded. The earlier rough 12-foot and 20-foot examples are not ledger measurements and are not canon.
+
+Marcus, a new adult fictional resident of the Scale Commons, has a recorded initial height of 8 feet 3 inches and begins in the Elevated class. This Marcus is distinct from the working fictional subject named Marcus in the Teal Titan of Gold's on 5th production.
+
 ## Physical description at Stage 5
 
 Joey's physique is extraordinarily massive and balanced across the whole body. Enormous rounded deltoids, a deep and broad chest, immense back width and thickness, massive upper arms and forearms, a powerful trunk, and exceptionally developed thighs and calves. He is not merely leaner or more defined; the defining feature is total-body scale and density. His proportions are fantastical within the fictional setting.
@@ -30,6 +36,7 @@ Joey's physique is extraordinarily massive and balanced across the whole body. E
 
 - **Colossus Facility:** Central training hall, reinforced platforms, modular equipment, Mirror Room/presentation suite, expanded changing rooms, tailoring room, equipment workshop, and central gallery.
 - **Dormitory:** Expanded circulation, larger common room, custom furniture, and a suite suited to Joey's current scale.
+- **Scale Commons:** High Hall, Scale Gates, Tableland miniature campus, Switchback movement course, Mirror Gallery, modular Workshop, and Outer Court. It supports multiple measured scale classes and preserves previous baselines.
 - **Social ritual:** Weekly communal supper.
 - **Records:** Training books, measurement sheets, presentation photographs, equipment plans, and volume manuscripts.
 
@@ -43,6 +50,7 @@ Joey's physique is extraordinarily massive and balanced across the whole body. E
 - **Adrian:** Fair-haired carpenter; joins in Volume V and contributes modular construction skills.
 - **Miles:** Blond distance runner; joins in Volume V and develops movement/recovery expertise.
 - **Connor:** Red-haired former swimmer; joins in Volume V and strengthens the social fabric of the residence.
+- **Marcus (Scale Commons):** New adult fictional resident; begins at 8 feet 3 inches in the Elevated class, enjoys scale challenges and miniature campus design. This is not the Teal Titan production subject.
 
 All supporting characters are fictional adult men with independent motives and development.
 
@@ -54,6 +62,8 @@ All supporting characters are fictional adult men with independent motives and d
 4. Add a dedicated equipment catalogue with designs that evolve alongside the facility.
 5. Continue the weekly supper as a recurring relationship scene.
 6. Give each new resident a personal growth trajectory rather than making the group orbit Joey alone.
+7. Continue Marcus's progress toward the Colossal class without pre-assigning measurements.
+8. Expand the Tableland through resident-designed miniature districts and saved layouts.
 
 ## Editorial guardrails
 

@@ -40,6 +40,12 @@ Joey's physique is extraordinarily massive and balanced across the whole body. E
 - **Social ritual:** Weekly communal supper.
 - **Records:** Training books, measurement sheets, presentation photographs, equipment plans, and volume manuscripts.
 
+## Regional geography
+
+The Colossus campus is located on a high terrace north of Crownmere in the Meridian Basin. The River Aven runs through the city. The established districts are the Long Park, River Quarter, Glassmarket, Foundry Ward, Old Crown, and Observatory Rise. The outer regions are Cedar Reach, the Eastern Tablelands, Saltline Coast (including Merehaven), and the not-yet-fully-mapped Northern Ranges. The canonical regional record is [WORLD_ATLAS_BEYOND_THE_COMMONS.md](WORLD_ATLAS_BEYOND_THE_COMMONS.md).
+
+The first outward journey is established in Volume VI, Chapter 4: the group walks the Long Park and River Quarter, meets the Aven Rowing Club, and records a practical embankment-crossing issue for later design work. Crownmere has an independent civic life; it is not merely an extension of the campus.
+
 ## Supporting cast
 
 - **Martin:** Broad-shouldered, fair-haired former rugby player; outgoing, funny, observant, and loyal. Helps organize the Residents' Cup.
@@ -51,6 +57,7 @@ Joey's physique is extraordinarily massive and balanced across the whole body. E
 - **Miles:** Blond distance runner; joins in Volume V and develops movement/recovery expertise.
 - **Connor:** Red-haired former swimmer; joins in Volume V and strengthens the social fabric of the residence.
 - **Marcus (Scale Commons):** New adult fictional resident; begins at 8 feet 3 inches in the Elevated class, enjoys scale challenges and miniature campus design. This is not the Teal Titan production subject.
+- **Gideon Shaw:** Adult fictional rowing-club captain at the Aven Rowing Club in Crownmere. Relaxed, observant, direct; knows the river routes and the practical needs of his crew. Introduced in Volume VI, Chapter 4.
 
 All supporting characters are fictional adult men with independent motives and development.
 
@@ -64,6 +71,12 @@ All supporting characters are fictional adult men with independent motives and d
 6. Give each new resident a personal growth trajectory rather than making the group orbit Joey alone.
 7. Continue Marcus's progress toward the Colossal class without pre-assigning measurements.
 8. Expand the Tableland through resident-designed miniature districts and saved layouts.
+9. Return to the Aven Rowing Club and resolve the embankment equipment crossing with Daniel and the local crew.
+10. Follow Ellis's growing connection with the river rowers without assuming he will leave swimming behind.
+11. Continue Peter's Glassmarket contact and introduce the Guild of Cloth and Measure through a lived fitting or workshop scene.
+12. Visit Foundry Ward and the Institute for Scale, Movement and Architecture; let Daniel and Adrian encounter methods they do not already know.
+13. Take the group into Cedar Reach or the Eastern Tablelands, establishing the outdoor world through travel and local residents.
+14. Give Crownmere recurring characters, routines, and events that continue when Joey is not present.
 
 ## Editorial guardrails
 

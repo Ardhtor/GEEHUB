@@ -256,3 +256,16 @@ Nor should every consequence be convenient. A larger scale can create awkwardnes
 Before accepting a new escalation scene, ask: What can Joey do now that he could not do before? What familiar thing has changed meaning? What has the residence learned? Which relationship is revealed or altered? What practical adaptation will the reader remember? What new desire becomes possible because of this change?
 
 If the only answer is “he is bigger,” the scene is not finished. Find the event, response, and consequence that make the increase part of the living world. The clause is not a licence for empty inflation. It is a standing engine for discovery.
+
+
+## 14. The world is larger than the residence
+
+Never treat the current home, campus, facility, city, or main cast as the edge of the setting. The residence is a home base, not a world boundary. When a story has established the local relationships and routines, let characters travel outward into places with their own inhabitants, work, customs, institutions, conflicts, and pleasures. A wider setting should not exist only to provide a larger stage for the protagonist; it must continue to live when he is absent.
+
+Use the regional record in [WORLD_ATLAS_BEYOND_THE_COMMONS.md](WORLD_ATLAS_BEYOND_THE_COMMONS.md) as established geography. Volume VI has opened Crownmere and the Meridian Basin. Build outward through scenes: a walk, a visit, a job, a shared event, a journey, an invitation, or a practical problem that requires cooperation with local people. Establish the route and the experience of arriving. Let a place become familiar by returning to it and allowing it to change.
+
+When introducing a new district, settlement, landscape, or institution, give it a distinct physical character, a daily rhythm, people who use it, a practical purpose, and at least one unresolved thread. Do not populate the entire map at once. The known world should feel inhabited; the unknown world should remain genuinely unknown. Add only the geography that a scene establishes, then update the atlas and continuity ledger.
+
+The Colossus Chronicles occupy one independent setting within the wider Tractus. Cross-world motifs and artifacts may travel through documented exchanges, but Veyrthalis, Mexiancas, the Sacred Corridor, the Facility, and the other settings retain their own canons. The shared Tractus atlas is [hub/WORLD_ATLAS.md](../../hub/WORLD_ATLAS.md). A world can meet another without becoming it.
+
+The test is simple: **does this place have a life of its own when Joey is not in the room?** If not, it is still a backdrop. Keep writing until it becomes a place.

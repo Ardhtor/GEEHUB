@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00189.json",
+  "activeRecording": "./recordings/scheduled-recording-00190.json",
   "activeEncounter": {
-    "regionId": "northgate-library",
-    "regionName": "NORTHGATE LIBRARY",
+    "regionId": "lantern-market",
+    "regionName": "LANTERN MARKET",
     "subject": {
-      "agent": "joseph",
-      "scale": 14.62,
+      "agent": "chase",
+      "scale": 14.66,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / NORTHGATE UNIVERSITY → NORTHGATE LIBRARY / JOSEPH",
+    "intent": "LONG PLAY / THE COMMON TABLE → LANTERN MARKET / CHASE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 14.50× → 14.62×",
-      "NORTHGATE UNIVERSITY → NORTHGATE LIBRARY",
-      "relation: THE LATE LAMPS OF NORTHGATE",
+      "scale 14.62× → 14.66×",
+      "THE COMMON TABLE → LANTERN MARKET",
+      "relation: THE LANTERNS COME ON",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "northgate-university"
+    "previousRegionId": "common-table"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-10T16:17:39.831Z",
+  "snapshot": "2026-11-10T21:53:37.945Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 189,
-    "agent": "joseph",
-    "previousRegionId": "northgate-university",
-    "regionId": "northgate-library",
-    "relation": "THE LATE LAMPS OF NORTHGATE",
+    "cycle": 190,
+    "agent": "chase",
+    "previousRegionId": "common-table",
+    "regionId": "lantern-market",
+    "relation": "THE LANTERNS COME ON",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 14.5,
-    "scale": 14.62,
-    "recording": "scheduled-recording-00189",
-    "at": "2026-11-10T16:17:39.831Z"
+    "previousScale": 14.62,
+    "scale": 14.66,
+    "recording": "scheduled-recording-00190",
+    "at": "2026-11-10T21:53:37.945Z"
   }
 }

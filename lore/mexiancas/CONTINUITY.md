@@ -54,3 +54,14 @@
 ## Session rule
 
 Before continuing, read this file and the chronicle. After meaningful work, update the exact stopping point, new canon, unresolved questions, and next operation. Do not report a file, render, upload, or repository action as complete unless the corresponding tool confirms it.
+
+
+## Latest continuation — Volume II, Chapter XI
+
+**Chapter:** [The Workshop That Opened Before the Visitor Returned](CHRONICLE_II_CHAPTER_XI_THE_OPEN_TABLE.md). The Open Table is now an established shared work surface, maintained by its users rather than a permanent staff. Sava maintains measuring instruments; Neral arranged the shelves; Izel prepared permission and provenance cards; First Awake established the rule that an object may teach without becoming the Hall's property.
+
+**New events:** a cracked bowl was examined and returned to its owner; a worn brass instrument was measured but not identified and returned; Mateo's Spanish place-names are being studied without reconstructing words he withheld; an unknown traveller left a note asking to see how the Hall preserves multiple accounts. The original note is protected and returnable; a copy is available for discussion. An unattributed drawing was added to the bowl study, with permission limited to the drawing and not the bowl.
+
+**Canon boundaries:** Mateo has not returned in this chapter. His brother has not visited. The second doorway remains unresolved. The new traveller is not identified. The Open Table's procedures are established through use, but its long-term governance remains open.
+
+**Next operation:** continue with the Hall's response to the unknown traveller and allow Mateo's return to occur on its own timeline. Develop the homeland through further practical details, named places, and individual accounts rather than a single definitive map. Keep permission attached to every borrowed, copied, or retained artifact.

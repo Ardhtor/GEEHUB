@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-10T07:47:09.343Z",
+  "generated": "2026-11-10T16:17:39.831Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00189",
+      "at": "2026-11-10T16:17:39.831Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / NORTHGATE UNIVERSITY → NORTHGATE LIBRARY / JOSEPH",
+      "body": "The world crossed the existing relation \"THE LATE LAMPS OF NORTHGATE\" from NORTHGATE UNIVERSITY into NORTHGATE LIBRARY. Scale increased from 14.50× to 14.62×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00189",
+      "live": true,
+      "regionId": "northgate-library",
+      "previousRegionId": "northgate-university",
+      "relation": "THE LATE LAMPS OF NORTHGATE"
+    },
     {
       "id": "scheduled-long-play-00188",
       "at": "2026-11-10T07:47:09.343Z",
@@ -1482,21 +1497,6 @@
       "regionId": "embodied-scale",
       "previousRegionId": "luke-bwomph",
       "relation": "THE BAR GYM REMEMBERS"
-    },
-    {
-      "id": "scheduled-long-play-00092",
-      "at": "2026-10-22T13:07:23.356Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / GROWTH CANVAS → LUKE // BWOMPH / TYLER",
-      "body": "The world crossed the existing relation \"HYPEER BASELINE\" from GROWTH CANVAS into LUKE // BWOMPH. Scale increased from 8.29× to 8.34×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00092",
-      "live": true,
-      "regionId": "luke-bwomph",
-      "previousRegionId": "growth",
-      "relation": "HYPEER BASELINE"
     }
   ]
 }

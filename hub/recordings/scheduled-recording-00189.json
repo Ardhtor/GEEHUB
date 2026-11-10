@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00189",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "northgate-library",
+  "position": {
+    "x": 48,
+    "y": 76,
+    "z": 0
+  },
+  "camera": {
+    "x": 48,
+    "y": 76,
+    "z": 1.7,
+    "heading": 27,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "joseph",
+    "scale": 14.62,
+    "priorScale": 14.5,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 14.62,
+    "clearance": 0.0684,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE LATE LAMPS OF NORTHGATE"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "northgate-university",
+      "name": "NORTHGATE UNIVERSITY"
+    },
+    {
+      "type": "region",
+      "id": "northgate-library",
+      "name": "NORTHGATE LIBRARY"
+    },
+    {
+      "type": "relation",
+      "title": "THE LATE LAMPS OF NORTHGATE"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 14.5,
+      "to": 14.62
+    },
+    {
+      "property": "location.regionId",
+      "from": "northgate-university",
+      "to": "northgate-library",
+      "relation": "THE LATE LAMPS OF NORTHGATE"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.069,
+      "to": 0.0684
+    }
+  ],
+  "intent": "LONG PLAY / NORTHGATE UNIVERSITY → NORTHGATE LIBRARY / JOSEPH",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 189,
+    "previousRegionId": "northgate-university",
+    "regionId": "northgate-library",
+    "relation": "THE LATE LAMPS OF NORTHGATE",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 14.5,
+    "scaleBaselineTo": 14.62
+  },
+  "timestamp": "2026-11-10T16:17:39.831Z"
+}

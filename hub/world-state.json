@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00188.json",
+  "activeRecording": "./recordings/scheduled-recording-00189.json",
   "activeEncounter": {
-    "regionId": "northgate-university",
-    "regionName": "NORTHGATE UNIVERSITY",
+    "regionId": "northgate-library",
+    "regionName": "NORTHGATE LIBRARY",
     "subject": {
-      "agent": "andrew",
-      "scale": 14.5,
+      "agent": "joseph",
+      "scale": 14.62,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / ATHLETIC COMMONS → NORTHGATE UNIVERSITY / ANDREW",
+    "intent": "LONG PLAY / NORTHGATE UNIVERSITY → NORTHGATE LIBRARY / JOSEPH",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 14.42× → 14.50×",
-      "ATHLETIC COMMONS → NORTHGATE UNIVERSITY",
-      "relation: STRENGTH WITHOUT CONFLICT",
+      "scale 14.50× → 14.62×",
+      "NORTHGATE UNIVERSITY → NORTHGATE LIBRARY",
+      "relation: THE LATE LAMPS OF NORTHGATE",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "athletic-commons"
+    "previousRegionId": "northgate-university"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-10T07:47:09.343Z",
+  "snapshot": "2026-11-10T16:17:39.831Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 188,
-    "agent": "andrew",
-    "previousRegionId": "athletic-commons",
-    "regionId": "northgate-university",
-    "relation": "STRENGTH WITHOUT CONFLICT",
+    "cycle": 189,
+    "agent": "joseph",
+    "previousRegionId": "northgate-university",
+    "regionId": "northgate-library",
+    "relation": "THE LATE LAMPS OF NORTHGATE",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 14.42,
-    "scale": 14.5,
-    "recording": "scheduled-recording-00188",
-    "at": "2026-11-10T07:47:09.343Z"
+    "previousScale": 14.5,
+    "scale": 14.62,
+    "recording": "scheduled-recording-00189",
+    "at": "2026-11-10T16:17:39.831Z"
   }
 }

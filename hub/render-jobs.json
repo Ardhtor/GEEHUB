@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00189",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00189.json",
+      "route": {
+        "from": "northgate-university",
+        "to": "northgate-library",
+        "relation": "THE LATE LAMPS OF NORTHGATE"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-10T16:17:39.831Z"
+    },
+    {
+      "id": "scheduled-video-00189",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00189.json",
+      "route": {
+        "from": "northgate-university",
+        "to": "northgate-library",
+        "relation": "THE LATE LAMPS OF NORTHGATE"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-10T16:17:39.831Z"
+    },
+    {
+      "id": "scheduled-space-00189",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00189.json",
+      "route": {
+        "from": "northgate-university",
+        "to": "northgate-library",
+        "relation": "THE LATE LAMPS OF NORTHGATE"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-10T16:17:39.831Z"
+    },
+    {
       "id": "scheduled-sound-00188",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-22T01:55:35.517Z"
-    },
-    {
-      "id": "scheduled-sound-00089",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00089.json",
-      "route": {
-        "from": "facility",
-        "to": "beefythiq",
-        "relation": "THE ROOM GETS SMALLER"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-21T23:41:02.378Z"
-    },
-    {
-      "id": "scheduled-video-00089",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00089.json",
-      "route": {
-        "from": "facility",
-        "to": "beefythiq",
-        "relation": "THE ROOM GETS SMALLER"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-21T23:41:02.378Z"
-    },
-    {
-      "id": "scheduled-space-00089",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00089.json",
-      "route": {
-        "from": "facility",
-        "to": "beefythiq",
-        "relation": "THE ROOM GETS SMALLER"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-21T23:41:02.378Z"
     }
   ]
 }

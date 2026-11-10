@@ -202,3 +202,18 @@ The series is not a stack of chapters waiting to be summarized. It is a world th
 Joey grows; the men around him respond; their responses alter the residence; the residence creates new routines and opportunities; those routines bring characters together; their relationships change what they want; those desires create the next events.
 
 **The writing writes by changing the conditions from which the next writing must emerge.**
+
+
+## 13. The “Even Bigger” clause
+
+No stage, measurement, silhouette, photograph, piece of equipment, architectural adaptation, or previous description establishes a final upper limit. The phrase **even bigger** is a standing permission to exceed the most recent established scale. It is not a reset, a shortcut, or an instruction to repeat the same reveal with larger adjectives. It authorizes the next genuinely new magnitude of development.
+
+Stage 5 is Joey's colossal baseline, not his endpoint. Every later transformation begins from the body and history already established. If a scene calls for further growth, it may exceed the previous stage by an extraordinary margin, including margins that make earlier assumptions about proportion, strength, movement, clothing, training, and space obsolete. Do not quietly normalize the scale to make the next increase seem plausible. The fantasy may expand its own rules, but it must show the consequences of doing so.
+
+Apply the clause across the whole world. A larger body changes more than a measurement: balance, reach, leverage, posture, movement, recovery, clothing construction, furniture, doorways, transport, training equipment, room dimensions, public presentation, and the habits of the people living alongside him may all need to change. Let the adaptation become part of the story. Show the fitting, redesign, failed attempt, ingenious solution, new custom, or changed relationship that makes the next scale real to the characters.
+
+Escalation must remain character-specific. Joey's pleasure, curiosity, stubbornness, humour, affection, and sense of self continue through every increase. The other men respond according to their own personalities: admiration, competitive interest, practical concern, disbelief, teasing, inspiration, or a desire to discover their own limits. Never replace distinct reactions with a generic chorus. LOVE remains continuous while the scale changes.
+
+When a new passage establishes a larger state, preserve the previous state as dated history. Record what changed, what became newly possible, what stopped working, what had to be rebuilt, and what new story threads appeared. If the exact size is not established in-scene, describe the change without inventing false precision. The next pass starts from the new baseline and may invoke “even bigger” again.
+
+The clause has no predetermined final stage. Its limit is the imaginative and narrative coherence of the next transformation, not the largest number or image previously written. **Bigger is always available; making bigger matter is the writer's responsibility.**

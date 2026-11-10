@@ -39,6 +39,18 @@ def audit():
     checks = []
     counts = {}
 
+    contract_path = ROOT / "docs/TRACTUS_CONTINUITY_CONTRACT.md"
+    try:
+        contract = contract_path.read_text(encoding="utf-8")
+        grammar_line = " → ".join(PASSAGE_GRAMMAR)
+        grammar_ok = grammar_line in contract
+        if not grammar_ok:
+            errors.append("continuity contract passage grammar differs from the executable language definition")
+    except OSError as exc:
+        grammar_ok = False
+        errors.append(f"cannot read continuity contract: {exc}")
+    checks.append({"name":"canon / executable grammar alignment","records":1,"invalid":0 if grammar_ok else 1,"status":"pass" if grammar_ok else "fail"})
+
     exchange = load_json(ROOT / "hub/exchange.json", errors)
     events = exchange.get("events", []) if isinstance(exchange, dict) else []
     seen = set()

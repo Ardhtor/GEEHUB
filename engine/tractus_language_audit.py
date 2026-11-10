@@ -226,11 +226,37 @@ def audit():
 
     world_registry = load_json(ROOT / "world.json", errors)
     registry_regions = world_registry.get("regions", []) if isinstance(world_registry, dict) else []
-    registry_ids = {item.get("id") for item in registry_regions if isinstance(item, dict) and isinstance(item.get("id"), str)}
+    registry_by_id = {item.get("id"): item for item in registry_regions if isinstance(item, dict) and isinstance(item.get("id"), str)}
+    registry_ids = set(registry_by_id)
     for region_id in sorted(registry_ids - spatial_ids):
         errors.append(f"world.json region is missing from spatial map: {region_id}"); spatial_bad += 1
     for region_id in sorted(spatial_ids - registry_ids):
         warnings.append(f"spatial map region is not present in world.json: {region_id}")
+    for region in spatial_regions:
+        if not isinstance(region, dict) or region.get("id") not in registry_by_id:
+            continue
+        source_region = registry_by_id[region["id"]]
+        if region.get("x") != source_region.get("x") or region.get("y") != source_region.get("y"):
+            errors.append(f"spatial map coordinates drift from world.json for region {region['id']}"); spatial_bad += 1
+
+    adjacency = {region_id: set() for region_id in spatial_ids}
+    for route in spatial_routes:
+        if isinstance(route, list) and len(route) == 2 and all(isinstance(item, str) for item in route):
+            if route[0] in adjacency and route[1] in adjacency:
+                adjacency[route[0]].add(route[1])
+                adjacency[route[1]].add(route[0])
+    if spatial_ids:
+        reached = set()
+        pending = [next(iter(spatial_ids))]
+        while pending:
+            region_id = pending.pop()
+            if region_id in reached:
+                continue
+            reached.add(region_id)
+            pending.extend(adjacency.get(region_id, set()) - reached)
+        if reached != spatial_ids:
+            errors.append(f"spatial graph is disconnected; unreachable regions: {', '.join(sorted(spatial_ids - reached))}")
+            spatial_bad += 1
 
     source = spatial.get("source") if isinstance(spatial, dict) else None
     if isinstance(source, str) and source.strip():

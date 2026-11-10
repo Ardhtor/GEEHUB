@@ -149,7 +149,7 @@ async function buildContinuityIndex(query, requestedLimit=48) {
   artifacts.forEach(item=>add("passage",item));
   events.forEach(item=>add("encounter",item));
   activity.forEach(item=>add("memory",item));
-  const recordingData=await Promise.all(recordingFiles.filter(name=>/^scheduled-recording-[A-Za-z0-9._-]+\.json$/.test(name)).map(async file=>({file,item:parseJson(await readFull("hub/recordings/"+file),null)})));
+  const recordingData=await Promise.all(recordingFiles.filter(name=>/^[A-Za-z0-9._-]+\.json$/.test(name)).map(async file=>({file,item:parseJson(await readFull("hub/recordings/"+file),null)})));
   for(const {file,item} of recordingData){if(item)add("recording",{...item,title:item.intent||item.id,at:item.timestamp,source:"hub/recordings/"+file,path:"hub/recordings/"+file});}
   (world.regions||[]).forEach(region=>{
     const mapped=(spatial.regions||[]).find(item=>item.id===region.id)||{};

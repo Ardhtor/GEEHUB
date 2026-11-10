@@ -199,6 +199,12 @@ async function buildContinuityIndex(query, requestedLimit=48) {
   const addLink=(from,to,label)=>{const key=from+"\u0000"+to;if(from!==to&&!linkKeys.has(key)){linkKeys.add(key);const target=nodeById.get(to);links.push({from,to,targetId:target?.recordId||to,label});}};
   const recordingById=new Map(nodes.filter(node=>node.kind==="recording").map(node=>[node.recordId,node]));
   const eventByArtifact=new Map(events.filter(event=>event.artifact).map(event=>[event.artifact,event]));
+  const eventsByAgent=new Map();
+  for(const event of events){const agent=String(event.to||"").toLowerCase();if(!agent)continue;if(!eventsByAgent.has(agent))eventsByAgent.set(agent,[]);eventsByAgent.get(agent).push(event);}
+  for(const list of eventsByAgent.values())list.sort((a,b)=>Date.parse(a.at||0)-Date.parse(b.at||0));
+  const recordingsByAgent=new Map();
+  for(const recording of recordingById.values()){const agent=String(recording.details?.agent||"").toLowerCase();if(!agent)continue;if(!recordingsByAgent.has(agent))recordingsByAgent.set(agent,[]);recordingsByAgent.get(agent).push(recording);}
+  for(const list of recordingsByAgent.values())list.sort((a,b)=>Date.parse(a.at||0)-Date.parse(b.at||0));
   for(const node of selected){
     for(const entity of node.entities||[]){
       const entityNode=entityNodes.get(entity.key);
@@ -217,6 +223,16 @@ async function buildContinuityIndex(query, requestedLimit=48) {
       if(event?.artifact&&recordingById.has(event.artifact))addLink(node.id,recordingById.get(event.artifact).id,"recorded in");
       if(event?.previousRegionId&&placeIds.has(event.previousRegionId))addLink(node.id,"place:"+event.previousRegionId,"from");
       if(event?.regionId&&placeIds.has(event.regionId))addLink(node.id,"place:"+event.regionId,"to");
+      const sequence=eventsByAgent.get(String(event?.to||"").toLowerCase())||[];
+      const index=sequence.findIndex(item=>item.id===node.recordId);
+      if(index>0)addLink(node.id,"encounter:"+sequence[index-1].id,"previous appearance");
+      if(index>=0&&index<sequence.length-1)addLink(node.id,"encounter:"+sequence[index+1].id,"next appearance");
+    }
+    if(node.kind==="recording"){
+      const sequence=recordingsByAgent.get(String(node.details?.agent||"").toLowerCase())||[];
+      const index=sequence.findIndex(item=>item.recordId===node.recordId);
+      if(index>0)addLink(node.id,sequence[index-1].id,"previous recording");
+      if(index>=0&&index<sequence.length-1)addLink(node.id,sequence[index+1].id,"next recording");
     }
     if(node.kind==="state"){
       const activeRecording=String(worldState.activeRecording||"").split("/").pop()?.replace(/\.json$/,"");

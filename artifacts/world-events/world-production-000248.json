@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000248",
+  "created_at": "2026-11-10T18:52:28.574012+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ROUTE_OPEN / NORTHGATE LIBRARY / worlds/northgate-library/README.md",
+  "content": "SETH: A line becomes visible between NORTHGATE LIBRARY and THE COMMON TABLE. The archive names the relation \"CAMPUS AFTER HOURS\".\n\nNICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.",
+  "production_note": "The world resolved its route_open rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 248,
+    "actor": "KIRK",
+    "world": "NORTHGATE LIBRARY",
+    "region_id": "northgate-library",
+    "source": "worlds/northgate-library/README.md",
+    "phase": "ROUTE_OPEN",
+    "relation": "CAMPUS AFTER HOURS"
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "activity-world-pulse-000248",
+  "created_at": "2026-11-10T18:52:28.574012+00:00",
+  "source": "tractus-world-engine",
+  "kind": "activity-event",
+  "title": "NORTHGATE LIBRARY",
+  "content": "SETH: A line becomes visible between NORTHGATE LIBRARY and THE COMMON TABLE. The archive names the relation \"CAMPUS AFTER HOURS\".\n\nNICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.",
+  "lineage": {
+    "event_id": "world-pulse-000248",
+    "event": {
+      "id": "world-pulse-000248",
+      "pulse": 248,
+      "time": "2026-11-10T18:52:28.574012+00:00",
+      "actor": "KIRK",
+      "world": "NORTHGATE LIBRARY",
+      "region_id": "northgate-library",
+      "previous_region_id": "northgate-library",
+      "phase": "ROUTE_OPEN",
+      "source": "worlds/northgate-library/README.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between NORTHGATE LIBRARY and THE COMMON TABLE. The archive names the relation \"CAMPUS AFTER HOURS\".\n\nNICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "CAMPUS AFTER HOURS",
+      "next_region": "common-table",
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-10T18:52:28.574012+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
+    }
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue from this event's changed world state"
+}

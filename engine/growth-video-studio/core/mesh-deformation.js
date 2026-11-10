@@ -49,14 +49,13 @@ function solveAffineAt(point, source, target, epsilonPixels) {
     fail("mesh-deformation-anchor-confidence-insufficient", "Body anchor weights have no usable support");
   }
 
-  const mean = key => weighted.reduce((sum, row) => sum + row[key] * row.weight, 0) / totalWeight;
   const sourceMean = {
     x: weighted.reduce((sum, row) => sum + row.anchor.x * row.weight, 0) / totalWeight,
     y: weighted.reduce((sum, row) => sum + row.anchor.y * row.weight, 0) / totalWeight
   };
   const targetMean = {
-    x: mean("target.x"),
-    y: mean("target.y")
+    x: weighted.reduce((sum, row) => sum + row.target.x * row.weight, 0) / totalWeight,
+    y: weighted.reduce((sum, row) => sum + row.target.y * row.weight, 0) / totalWeight
   };
 
   let xx = 0, xy = 0, yy = 0;

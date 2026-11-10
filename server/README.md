@@ -31,3 +31,6 @@ The hub jammer now attempts this endpoint when it saves a jam. If the hub is ope
 ## Continuity inspection
 
 Open the main hub and use the Tractus / Continuity Inspector. Search a person, place, relation, event, or stable record ID. The API resolves exchange-event references to recording files and returns shared identity/location/relation links between matching records. An empty query displays a small recent-record sample. This endpoint reads repository records only; it does not edit them or promote canon.
+
+
+The continuity index also joins the named agent registry, the complete recording archive, live world state, and spatial geography. Agent role/territory/workspace references are retained; transformation records expose their previous and current places, scale baselines, and named relation. Map routes and active-state links are navigable from matching records.

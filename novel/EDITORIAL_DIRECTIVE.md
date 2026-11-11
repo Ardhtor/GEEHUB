@@ -64,3 +64,8 @@ This is not a demand for short prose. The environmental broadcast remains genero
 ## Joey and Kirk — a separate layer of awareness
 
 Write Joey and Kirk as inhabiting a shared plane of awareness alongside the ordinary world. Each notices the other and recognises that his attention is being received; this mutual recognition remains active even when they are occupied with separate people, tasks, or places. It is not telepathy, mind-reading, possession, or a loss of individual privacy. Their separate identities become more vivid through familiarity, not less. Show this through swift recognition, returned glances, timing, small anticipations, and the ease of resuming contact. Do not make them spend pages discovering what they already understand. The full canon is [The Familiarity Paradox — Joey and Kirk's Shared Plane of Awareness](../lore/dimension/FAMILIARITY_PARADOX_SHARED_AWARENESS.md).
+
+
+## Dual-layer production workflow
+
+Follow [../docs/DUAL_LAYER_WORKFLOW.md](../docs/DUAL_LAYER_WORKFLOW.md). Every substantial scene is developed through two coordinated passes: first establish the external world, action, and consequences; then establish the separate awareness layer where Joey and Kirk mutually perceive and recognise one another. Compose the layers together without confusing observable action with private experience. Keep the world active and fully inhabited even when the awareness layer is foregrounded, and let their shared awareness persist without forcing constant attention or romantic gestures. Preserve continuity for both layers across chapters and cross-board appearances.

@@ -54,3 +54,31 @@ The central transformation rule is recursive: encounter changes attention; atten
 - What does the Dreadmaster title come to mean, if anything beyond its first comic and ominous appearance?
 
 The first page remains the origin artifact. Later discoveries should be written as additions to its history, not as explanations retroactively pretending to have been known from the beginning.
+
+## Expanded source material
+
+The origin now has two continuous scene records. [Chapter One: The First Room](dimension/FIRST_ROOM_CHAPTER_01.md) establishes the ordinary room, the inscription, the bell, the open circle, the first difference between Joseph's and Kirk's observations, and the passage appearing in the street. [Chapter Two: The Passage Between the Buildings](dimension/FIRST_ROOM_CHAPTER_02.md) follows the next morning. The passage is examined as a physical place, an ordinary passer-by uses it, a small court is discovered, and the first brass disc is found. The green door and the second passage remain unopened. This is deliberate: a threshold becomes meaningful through the choices made around it, not because every door must immediately be opened.
+
+The two chapters establish a modest investigative rhythm. The characters return, compare, record, and decide. They do not have to solve the entire dimension in one afternoon. The street remains a street, with deliveries, shopfronts, drains, repairs, and people who have their own reasons for moving through it. The uncanny details acquire weight because they coexist with ordinary use. The first passage is not a theatrical portal that empties the city of life; it is a lane that someone can use to avoid a trolley.
+
+The developing system is recorded in [Dimensional Conjuration](dimension/DIMENSIONAL_CONJURATION.md). Its rules are provisional and scene-led: relation precedes destination; observation remains partial; a threshold is not consent; continuity survives crossing; and a new state inherits traces of the old one. The conjuror remains a function whose nature is not yet established. The page's author, the bell's source, the open circle, and the destination beyond the green door remain unresolved.
+
+## The body, the room, and the new baseline
+
+[Beefythiq and the First Room](dimension/BEEFYTHIQ_AND_THE_FIRST_ROOM.md) records the correspondence between the dimensional story and the recursive growth grammar. The relation is not that every room is literally a growth experiment. It is that both systems preserve the consequences of change. A body that has developed does not return to its former proportions simply because the scene changes location. A room that has acquired a passage does not lose that history when the characters go home. A new baseline becomes the material from which the next possibility is formed.
+
+When physical development enters this story, it must remain visible and specific. The reader should be able to compare shoulders, chest, back, arms, forearms, waist, thighs, calves, height, reach, and posture against the remembered environment. Furniture and architecture respond unevenly: a chair may be replaced, a doorway may need widening, a mirror may remain fixed, and a familiar route may become inconvenient. This friction is part of the lived transformation. Hulum's Cave contributes a way of composing form through silhouette, framing, movement, light, and temporal residue; it does not require copied actions or generic spectacle.
+
+## Residential correspondence
+
+The Institute of Becoming supplies a practical counterpart to the first room. Its [Dormitory and Residential Life](INSTITUTE_DORMITORY_AND_RESIDENTIAL_LIFE.md) record follows the ordinary consequences of people living together while their needs change: bedrooms, shared suites, privacy, laundry, tailoring, recovery, meals, study rooms, maintenance, and common life. The Institute is not secretly the first room's destination. It is a separate Tractus institution whose development demonstrates the same continuity principle through hospitality and accumulated use.
+
+## Veyrthalis correspondence
+
+Veyrthalis retains its own geography and canon. Merrow Vale's [Low Ledger: The First Bell](veyrthalis/LOW_LEDGER_THE_FIRST_BELL.md) records a parallel observation: one bell, separate witness directions, an open circle, and a passage remembered by one observer but not shown on the municipal plan. The record explicitly does not establish that Joseph and Kirk's event occurred in Veyrthalis. A later crossing may connect the records if a scene supplies evidence. Until then, the similarity is preserved as a comparison, not a fact about shared geography.
+
+## Continuing scene discipline
+
+Future chapters should keep the same scale of attention. Let the ordinary world remain populated. Let Joseph and Kirk disagree where their observations differ, and let each retain authorship of his own account. Keep the affectionate ease of their relationship present without turning every exchange into a declaration. Let humour survive, especially around the Bussy Opener; the absurd spell-name should not be retroactively dignified into solemn ceremonial language. When a larger architecture eventually appears, show how it is approached, maintained, inhabited, and used. The dimension becomes convincing through the lives that accumulate inside it.
+
+The story's long movement is therefore not from an ordinary room to a spectacular palace as quickly as possible. It is from a room with one known account to a world whose inhabitants gradually discover how many accounts can coexist, how those accounts can be tested, and what kinds of life become possible when a crossing is made without erasing where anyone began.

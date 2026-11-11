@@ -1211,5 +1211,32 @@
       "facility",
       "muscle-myth"
     ]
+  },
+  {
+    "id": "beginning-of-the-dimension",
+    "name": "The Beginning of the Dimension",
+    "group": "story-branch",
+    "status": "incubating",
+    "summary": "Joseph and Kirk return to the ordinary first room, where the inscription 'Destiny, her O Dreadmaster' precedes the discovery of a magical dimension. A cross-board origin branch with explicit canon boundaries.",
+    "path": "../lore/BEGINNING_OF_THE_DIMENSION.md",
+    "tags": [
+      "story",
+      "origin",
+      "dimension",
+      "joseph",
+      "kirk",
+      "continuity",
+      "cross-board"
+    ],
+    "related": [
+      "veyrthalis",
+      "hyperspace-expedition",
+      "beefythiq",
+      "growth-canvas",
+      "mass1v1ng",
+      "muscle-myth",
+      "tractus-world-atlas",
+      "institute-of-becoming"
+    ]
   }
 ]

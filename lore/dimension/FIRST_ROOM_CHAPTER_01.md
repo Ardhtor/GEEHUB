@@ -11,9 +11,7 @@ Kirk read it twice. The phrase sounded as if it had been taken from a much large
 
 The first thing that changed was not the furniture. It was the distance between the page and the window. Joseph had placed it on the table, but when Kirk looked up, the page seemed to occupy the same visual plane as the far buildings outside. The table remained where it was. The window remained in its frame. Yet the writing had become unusually clear, while the street beyond it seemed to recede by several blocks. Kirk stepped sideways. The effect disappeared. He stepped back. It returned.
 
-Joseph tested it by moving the page a few inches. The street moved with it—not physically, not in a way that could be measured by the eye, but as though the room had briefly accepted the page as a second window. Joseph set it down again. The ordinary view returned. They did not call it magic. They had no reason to choose that word before any other.
-
-A bell sounded outside.
+Joseph tested it by moving the page a few inches. The street moved with it—not physically, not in a way that could be measured by the eye, but as though the room had briefly accepted the page as a second window. Joseph set it down again. The ordinary view returned. They did not call it magic. They had no reason to choose that word before any other. A bell sounded outside.
 
 It was a single note, low and rounded, with a faint metallic vibration at the end. The street did not react. No one looked up. A dog continued walking beside its owner. Kirk went to the window and checked the buildings opposite. There was no tower or church close enough to account for the sound. Joseph listened for a second note. None came.
 
@@ -25,9 +23,7 @@ This was the first record: not a revelation, but a disagreement preserved withou
 
 When Joseph looked up again, the street had changed by one detail. A narrow passage stood between two buildings that had previously shared a wall. It was dark, but not black; a warm amber light rested somewhere beyond its first turn. There was no sign above it. No door had opened. The passage simply occupied a space that the street had not appeared to possess.
 
-Kirk checked the window latch. Joseph checked the page. The sentence had not changed. They did not step into the passage. They watched it long enough to establish that it remained there when neither of them looked directly at it. A person crossed the far end of the street, glanced toward the opening, and continued without slowing down. The passage belonged to the street now, or the street had always contained it in a way the room had not previously allowed them to see.
-
-The second bell did not sound. Instead, the lamp shade straightened.
+Kirk checked the window latch. Joseph checked the page. The sentence had not changed. They did not step into the passage. They watched it long enough to establish that it remained there when neither of them looked directly at it. A person crossed the far end of the street, glanced toward the opening, and continued without slowing down. The passage belonged to the street now, or the street had always contained it in a way the room had not previously allowed them to see. The second bell did not sound. Instead, the lamp shade straightened.
 
 It was a small correction, almost comically domestic. The lamp had been leaning for weeks; now its shade sat level. Joseph noticed because he had been looking at it. Kirk noticed because Joseph had gone quiet. Neither treated the lamp as proof of anything. They added it to the record.
 
@@ -37,8 +33,4 @@ Kirk asked whether the phrase was addressed to someone. Joseph said it looked th
 
 The page was placed in a folder. On the folder Joseph wrote FIRST ROOM, and beneath it Kirk added FIRST ACCOUNT. They dated the notes, kept their separate observations, and left the window uncovered. The passage remained visible until evening. When the streetlights came on, it looked no different from any other narrow lane.
 
-They did not yet know that a courtyard would eventually gather behind it, that a forest would appear beyond the courtyard, or that the forest would lead to a hall in which dimensions could be brought into relation. They did not know the word Digitorium, or the later records of Veyrthalis, or the Growth Canvas. They did not know what the title on the page would become. They knew only that the room had shown them something and that the two of them had been able to compare what they saw without losing the difference between their accounts.
-
-The first room did not open like a door. It became more than one room while remaining itself.
-
-That was enough for the first day.
+They did not yet know that a courtyard would eventually gather behind it, that a forest would appear beyond the courtyard, or that the forest would lead to a hall in which dimensions could be brought into relation. They did not know the word Digitorium, or the later records of Veyrthalis, or the Growth Canvas. They did not know what the title on the page would become. They knew only that the room had shown them something and that the two of them had been able to compare what they saw without losing the difference between their accounts. The first room did not open like a door. It became more than one room while remaining itself. That was enough for the first day.

@@ -1472,5 +1472,29 @@
       "beefythiq",
       "veyrthalis"
     ]
+  },
+  {
+    "id": "sequoia-woodlands",
+    "name": "The Sequoia Woodlands",
+    "group": "environment",
+    "status": "active",
+    "summary": "Immense inhabited redwood and sequoia forest environment: deep fern beds, cedar and damp bark, filtered green-gold light, root-shaped geography, substantial timber architecture, bridges, halls, and woodland daily life.",
+    "path": "../lore/dimension/SEQUOIA_WOODLANDS.md",
+    "tags": [
+      "woodland",
+      "sequoia",
+      "redwood",
+      "environment",
+      "architecture",
+      "geography",
+      "production",
+      "first-room"
+    ],
+    "related": [
+      "beginning-of-the-dimension",
+      "first-room-chapters",
+      "veyrthalis",
+      "tractus-world-atlas"
+    ]
   }
 ]

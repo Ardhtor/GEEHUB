@@ -152,3 +152,8 @@ The third chapter, [Pilling, or Forbidden](../lore/dimension/FIRST_ROOM_CHAPTER_
 ### The Beginning of the Dimension — Chapter Four
 
 [The Service Ledger](../lore/dimension/FIRST_ROOM_CHAPTER_04.md) extends the courtyard investigation through the municipal records office and the maintenance worker's account of the back court. The branch now uses Seth and Nick's viewer-facing broadcast: their vantage is across the active scene, and their commentary reaches the audience through what can be seen from that side. The Teal Titan's [Exhibition chapter](../production/projects/teal-titan-golds-on-5th/CHAPTER_04_THE_EXHIBITION.md) is the production reference for this narrator-to-viewer relationship. This is a narration convention, not a merger of the two stories.
+
+
+### The First Measure — Hypermuscle Development
+
+[Chapter Five: The First Measure](../lore/dimension/FIRST_ROOM_CHAPTER_05.md) introduces persistent hypermuscle growth into the dimensional story. Joseph and Kirk undergo successive whole-body changes, developing substantial shoulder breadth, chest depth, back thickness, arms, forearms, thighs, and calves while retaining distinct physiques. Their new proportions alter posture, leverage, movement, clothing, training, equipment, and residential needs. The chapter links the dimension's growth sequence to Beefythiq's recursive baseline principle without merging the two settings. The residential quarter becomes a lived institution for men whose bodies continue to develop.

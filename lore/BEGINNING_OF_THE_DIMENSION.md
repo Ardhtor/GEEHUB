@@ -96,3 +96,10 @@ The title names a provisional tension. Pilling is accumulation through repeated 
 ## Chapter Four — The Service Ledger
 
 [Chapter Four: The Service Ledger](dimension/FIRST_ROOM_CHAPTER_04.md) carries the investigation into the municipal office and back to the courtyard. Joseph and Kirk compare the first photographs with an incomplete service plan, then speak to the worker who carries the ladder. His ordinary account of the back court, the pipe, and the flooding route gives the place a working history without explaining away the unresolved square of light or the inscription on the green door. The chapter establishes Seth and Nick's preferred narration position: across the scene, speaking toward the viewer and directing attention through the shared view. They are commentators, not characters in Joseph and Kirk's private dialogue. The municipal plan, worker's account, and direct observations remain separate records.
+
+
+## Hypermuscle and the first measure
+
+[Chapter Five: The First Measure](dimension/FIRST_ROOM_CHAPTER_05.md) makes the growth principle physically explicit. Joseph and Kirk experience a second escalation after their initial courtyard change. The development is comprehensive and persistent: shoulders, chest, back, arms, forearms, waist, thighs, calves, posture, reach, balance, and the way each man moves through a room. Their physiques become markedly hypermuscular while remaining distinct in silhouette and distribution of mass. The scene records the changes through measurements, clothing fit, controlled training, and the ordinary responses of the institution around them.
+
+The Institute's training floor and residential quarter establish the social infrastructure required by extreme physical development. Reinforced equipment, adjustable stations, tailoring, larger meals, adaptive furniture, and dated photographs turn growth into an inhabited process. The old baseline remains in the archive; it is not erased by the new one. The next stage must begin from the bodies Joseph and Kirk now have. Growth is therefore both spectacle and continuity: a visible change in form that alters the conditions of daily life.

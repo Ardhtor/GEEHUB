@@ -96,3 +96,8 @@ A person should not be marked inactive simply because he is not in the current s
 - Make consequences persist in the next scene, record, location, or relationship.
 
 The measure of a populated world is not how many names it contains. It is how much meaningful life continues when no one is looking.
+
+
+## Hypermasculinity integration
+
+The [Hypermasculinity Engine](HYPERMASCULINITY_ENGINE.md) adds a cultural and social layer to inhabitant continuity. Use it to develop embodiment, capability, discipline, camaraderie, competition, style, lineage, care, private life, and local cultural expression. It does not replace the minimum life pattern above. A character's masculine expression must become visible through chosen practices, relationships, responsibilities, places, and consequences rather than a stack of adjectives. Preserve individual variation and the right to decline a group's standards. Strength, status, craft, athletic performance, and personal worth remain distinct.

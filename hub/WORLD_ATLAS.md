@@ -68,6 +68,12 @@ These are enterable adult male social environments built around rooms, corridors
 
 They may share interface principles and production artifacts with the wider Tractus, but their local character states and events must remain identifiable.
 
+### The Brotherhood of Giants — Muscle Myth
+
+**Entry:** `lore/THE_BROTHERHOOD_OF_GIANTS.md`
+
+The Brotherhood of Giants is a mythic chronicle of the giant kindred and the Nephilim as brothers within it. Its dominion is a civilization built through houses, roads, halls, athletic grounds, craft, hospitality, law, and intergenerational maintenance. The Nephilim preserve some of the oldest halls and methods, but no lineage owns the whole brotherhood or holds permanent authority over it. The Stone Table is the gathering place where houses settle disputes, recognize different forms of excellence, and coordinate shared works. The book's first cycle establishes the Firstborn, the Nephilim, the Houses of Dominion, the Office of Measure, the Age of Convergence, and the Line of Keeping. Its open threads include the southern escarpment halls, the coastal shipyard, the multi-house athletic festival, and the surveyed road beyond the northern ranges.
+
 ### The Facility and Muscle Myth
 
 **Entry:** Atlas nodes `facility` and `muscle-myth`.

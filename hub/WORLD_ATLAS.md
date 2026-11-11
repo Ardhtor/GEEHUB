@@ -126,3 +126,11 @@ These openings are not a checklist that must be completed. They are invitations 
 ## Hypermasculinity as a worldbuilding system
 
 The [Hypermasculinity Engine](HYPERMASCULINITY_ENGINE.md) is a reusable cultural engine for adult fictional settings. It develops masculine embodiment and presence alongside capability, discipline, brotherhood, competition, style, lineage, care, vulnerability, and local ritual. It is not a universal template imposed on every man or world. Each setting interprets these dimensions through its own history and material conditions. The [Inhabitant Life Engine](INHABITANT_LIFE_ENGINE.md) keeps the resulting practices and relationships active across time, including when characters are off-screen.
+
+## The Beginning of the Dimension
+
+**Entry:** [The Beginning of the Dimension](../lore/BEGINNING_OF_THE_DIMENSION.md)
+
+This incubating story branch begins with Joseph and Kirk in an ordinary room, before the magical dimension has a name. Its first artifact is the inscription “Destiny, her O Dreadmaster.” The later comic spell and temporal reversal return them to that first room without erasing what they have experienced. The branch connects the Joseph–Kirk story, Veyrthalis, the Tractus, Beefythiq, Growth Canvas, Muscle Myth, and the residential worlds through recorded correspondences. It does not merge their local histories or promote experimental scenes into their canons.
+
+The branch's cross-board rule is that an encounter can carry an artifact, question, passage, or possibility between settings while preserving the source and the receiving world's boundaries. Its central transformation principle is recursive: encounter changes attention; attention changes desire; desire changes action; action changes bodies, rooms, and institutions; the resulting state changes what can be imagined next. The dimension is discovered through scenes and accumulated consequences rather than treated as a fully mapped location from the outset.

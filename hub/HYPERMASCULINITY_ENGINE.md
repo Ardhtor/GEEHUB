@@ -131,3 +131,10 @@ Do not expose private or sensitive character information merely because an inter
 The Hypermasculinity Engine supplies cultural and social possibilities; the Inhabitant Life Engine supplies continuity. For every recurring inhabitant, connect at least one chosen practice or responsibility to an actual schedule, place, relationship, and next action when the story establishes it. Let the character's priorities change. Let the institution remember. Let other inhabitants continue their own work.
 
 The desired result is not a world in which every man is the same ideal. It is a world in which masculine presence has depth: bodies, skills, standards, loyalties, tastes, work, rituals, rivalries, care, and histories all exert force on the places they inhabit.
+
+
+## Corpus-first activation
+
+Do not apply this engine to a world by starting from an abstract definition of hypermasculinity. First sample that world's existing characters, scenes, places, objects, routines and unresolved threads. Identify the specific masculine forms already present there, including forms expressed through craft, play, responsibility, style, physical culture, intimacy, restraint, leadership, or refusal. Select one established detail and extend it locally. Record the consequence in the world where it belongs. A pattern becomes shared engine guidance only after it appears independently in more than one source or setting.
+
+The initial GEEHUB corpus sample and its method are recorded in [Corpus Sample — 2026-11-11](CORPUS_SAMPLING_2026-11-11.md). That file is a selective working synthesis, not a replacement for source canon. Use it as a map back to the material, and continue sampling before generalizing.

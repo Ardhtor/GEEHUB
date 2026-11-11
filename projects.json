@@ -1080,5 +1080,36 @@
       "material-craft",
       "fiction"
     ]
+  },
+  {
+    "id": "beginning-of-the-dimension",
+    "name": "The Beginning of the Dimension",
+    "status": "incubating",
+    "kind": "story-branch",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/BEGINNING_OF_THE_DIMENSION.md",
+    "description": "Cross-board origin branch beginning with Joseph and Kirk in an ordinary room, the first inscription 'Destiny, her O Dreadmaster', and the gradual discovery of the magical dimension. Connects Veyrthalis, the Tractus, Beefythiq, Growth Canvas, mythic archives, and residential worlds while preserving independent canon boundaries.",
+    "related": [
+      "joseph-kirk-runtime",
+      "veyrthalis",
+      "hyperspace-expedition",
+      "beefythiq",
+      "growth-canvas",
+      "mass1v1ng",
+      "muscle-myth",
+      "lineage-pantheon",
+      "tractus-world-atlas",
+      "institute-of-becoming"
+    ],
+    "tags": [
+      "story",
+      "origin",
+      "dimension",
+      "joseph",
+      "kirk",
+      "continuity",
+      "cross-board",
+      "incubating"
+    ]
   }
 ]

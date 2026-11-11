@@ -72,3 +72,12 @@ A later account may correct an earlier interpretation, but it must not silently 
 ## Open questions
 
 The origin of the page remains unknown. The bell's source remains unknown. The open circle has not been assigned a stable meaning. The street passage has not yet been entered. The title “O Dreadmaster” has not been assigned to a person or institution. The conjuror's nature is unresolved. These are active absences, not gaps to fill with convenient answers.
+
+
+## Pilling and forbidden thresholds
+
+The third chapter introduces a provisional principle: **contact leaves a surface history**. Repeated contact may gather residue, wear a seam, polish a handle, loosen a label, or change the way a threshold is recognized. Such traces do not automatically prove a dimensional effect. Ordinary causes remain available until evidence distinguishes them. The archive therefore records the object, its location, the observer, and the circumstances before proposing a relation.
+
+A second rule follows: **a prohibition is evidence of a claim, not proof of authority**. The word “forbidden” on a door tells the observers that someone marked a boundary. It does not establish who made the mark, whom it addresses, whether it remains in force, or what consequence follows from crossing it. Characters may treat a warning seriously without surrendering judgement to an unknown author. This extends the threshold principle: a visible door does not compel entry, and a written prohibition does not settle the ethics or mechanics of refusal.
+
+The courtyard is now understood as potentially inhabited and maintained. A worker carrying a ladder is the first sign that its routes have practical uses beyond the protagonists' investigation. Future scenes should allow for residents, trades, deliveries, repairs, forgotten tools, and local knowledge that predates the visitors. The dimension's inhabitants must not be reduced to clues.

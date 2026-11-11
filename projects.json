@@ -1216,5 +1216,29 @@
       "observation",
       "parallel-motif"
     ]
+  },
+  {
+    "id": "pilling-or-forbidden",
+    "name": "Pilling, or Forbidden",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_03.md",
+    "description": "Joseph and Kirk's third courtyard visit: accumulated traces, the scratched prohibition, a torn label, the first maintenance worker, and the ethics of an unopened threshold.",
+    "related": [
+      "beginning-of-the-dimension",
+      "dimensional-conjuration",
+      "first-room-chapters",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "story",
+      "pilling",
+      "forbidden",
+      "threshold",
+      "joseph",
+      "kirk",
+      "continuity"
+    ]
   }
 ]

@@ -1088,7 +1088,7 @@
     "kind": "story-branch",
     "repo": "Ardhtor/GEEHUB",
     "path": "/lore/BEGINNING_OF_THE_DIMENSION.md",
-    "description": "Cross-board origin branch beginning with Joseph and Kirk in an ordinary room, the first inscription 'Destiny, her O Dreadmaster', and the gradual discovery of the magical dimension. Connects Veyrthalis, the Tractus, Beefythiq, Growth Canvas, mythic archives, and residential worlds while preserving independent canon boundaries.",
+    "description": "Cross-board origin branch beginning with Joseph and Kirk in an ordinary room, the first inscription 'Destiny, her O Dreadmaster', and the gradual discovery of the magical dimension. Narrated by Seth and Nick from across the scene toward the viewer; connected to Veyrthalis, the Tractus, Beefythiq, growth systems, mythic archives, residential worlds, and the Teal Titan broadcast reference while preserving independent canon boundaries.",
     "related": [
       "joseph-kirk-runtime",
       "veyrthalis",
@@ -1099,7 +1099,9 @@
       "muscle-myth",
       "lineage-pantheon",
       "tractus-world-atlas",
-      "institute-of-becoming"
+      "institute-of-becoming",
+      "teal-titan-golds-on-5th",
+      "first-room-chapter-four"
     ],
     "tags": [
       "story",
@@ -1109,7 +1111,10 @@
       "kirk",
       "continuity",
       "cross-board",
-      "incubating"
+      "incubating",
+      "seth",
+      "nick",
+      "viewer-facing-broadcast"
     ]
   },
   {
@@ -1140,11 +1145,13 @@
     "kind": "story",
     "repo": "Ardhtor/GEEHUB",
     "path": "/lore/dimension/FIRST_ROOM_CHAPTER_01.md",
-    "description": "Continuous Joseph and Kirk opening: the ordinary room, first inscription, bell, open circle, and the discovery and cautious inspection of a passage.",
+    "description": "Continuous opening chapters of Joseph and Kirk's dimensional investigation, with Seth and Nick's viewer-facing across-the-scene broadcast established in Chapter Four.",
     "related": [
       "beginning-of-the-dimension",
       "dimensional-conjuration",
-      "joseph-kirk-runtime"
+      "joseph-kirk-runtime",
+      "teal-titan-golds-on-5th",
+      "first-room-chapter-four"
     ],
     "tags": [
       "story",
@@ -1238,6 +1245,34 @@
       "threshold",
       "joseph",
       "kirk",
+      "continuity"
+    ]
+  },
+  {
+    "id": "first-room-chapter-four",
+    "name": "The Service Ledger",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_04.md",
+    "description": "Joseph and Kirk compare municipal plans with the back court's working history; Seth and Nick narrate from across the scene toward the viewer.",
+    "related": [
+      "beginning-of-the-dimension",
+      "dimensional-conjuration",
+      "first-room-chapters",
+      "pilling-or-forbidden",
+      "teal-titan-golds-on-5th",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "story",
+      "chapter",
+      "joseph",
+      "kirk",
+      "seth",
+      "nick",
+      "viewer-facing-broadcast",
+      "service-ledger",
       "continuity"
     ]
   }

@@ -1565,5 +1565,27 @@
       "first-room-chapter-eight-under-roots",
       "first-room-chapter-seven-crownheart"
     ]
+  },
+  {
+    "id": "familiarity-paradox-shared-awareness",
+    "name": "The Familiarity Paradox — Joey and Kirk's Shared Plane of Awareness",
+    "group": "relationship-canon",
+    "status": "active",
+    "summary": "Foundational relationship principle: Joey and Kirk experience a reciprocal, simultaneous layer of awareness alongside ordinary life, deepening recognition without telepathy or loss of individual independence.",
+    "path": "../lore/dimension/FAMILIARITY_PARADOX_SHARED_AWARENESS.md",
+    "tags": [
+      "joey",
+      "kirk",
+      "relationship",
+      "shared-awareness",
+      "familiarity-paradox",
+      "continuity",
+      "canon"
+    ],
+    "related": [
+      "beginning-of-the-dimension",
+      "first-room-chapters",
+      "dimensional-conjuration"
+    ]
   }
 ]

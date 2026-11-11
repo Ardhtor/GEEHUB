@@ -19,6 +19,10 @@ This register tracks the current expansion pass across active story branches. It
 | Gods of Domination and Submission | [The First Testament](../lore/GODS_OF_DOMINATION_AND_SUBMISSION.md) | Leadership and yielding are bounded by explicit agreement, revisable terms, and the continuing right to refuse. |
 | Visual research | [Gravesbeef DeviantArt Favourites](../research/DEVIANTART_FAVOURITES_SOURCE.md) | The user-curated favourites page is registered as a priority source; item-level inspection remains pending because the page returned 403. |
 
+## Muscle Myth — The Brotherhood of Giants
+
+[The Brotherhood of Giants](../lore/THE_BROTHERHOOD_OF_GIANTS.md) establishes the Nephilim as brothers within the giant kindred and develops their shared dominion as a civilization of houses, halls, roads, craft, athletic culture, hospitality, and inherited maintenance. The opening book records the Firstborn, the Stone Table, the Houses of Dominion, the Office of Measure, the Age of Convergence, and the Line of Keeping. Five opening chapters dramatize the Nephilim's return, the repair of their ancestral hall, a multi-house contest, the construction of a road through a living valley, and the negotiations after the feast. The work is a GEEHUB mythic interpretation, not a claim to settle historical or religious questions about Nephilim traditions. Its next threads are the southern escarpment halls, the coastal giant-scale shipyard, the athletic festival, and the road beyond the northern ranges.
+
 ## Source handling
 
 The DeviantArt favourites collection is designated by the user as a strong source of seminal information. It is treated as a user-curated primary source shelf. The current page viewer could not access the page, so the register does not claim to know which artists or works are in it. A generic image search is not a substitute. When individual items become accessible, catalogue them with artist, title, URL, visible details, stated medium, and reuse restrictions.

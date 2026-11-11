@@ -12,6 +12,10 @@ Marcus takes three dry scoops of an experimental pre-workout. His skin turns viv
 
 The humour is played straight. The transformation is not a slideshow: each stage inherits the previous silhouette, and the body remains recognisably Marcus throughout.
 
+## Narration reference
+
+[Chapter IV — The Exhibition of One Man](CHAPTER_04_THE_EXHIBITION.md) is the preferred GEEHUB example for the broadcast relationship. Seth and Nick observe from the far side of the gym and speak across the visible scene toward the viewer. The audience is not placed inside Marcus's thoughts and the narrators do not become characters in his dialogue. They share the view with us, directing attention to the whole body, the room, the camera angle, the light, and the ordinary men around him. Transfer this spatial relationship and viewer-facing delivery to other GEEHUB worlds. Keep the separate deep-trailer voiceover in [VOICEOVER.md](VOICEOVER.md) as a distinct production treatment.
+
 ## Manifest layout
 
 The compatibility production manifest remains at the project root. Extended time-coded and provenance records live in `07_MANIFESTS/`: `timeline.json`, `provenance.json`, and `asset_register.json`. Validate them with `python3 engine/video/validate_timeline.py`.

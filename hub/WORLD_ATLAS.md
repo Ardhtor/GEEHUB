@@ -157,3 +157,8 @@ The third chapter, [Pilling, or Forbidden](../lore/dimension/FIRST_ROOM_CHAPTER_
 ### The First Measure — Hypermuscle Development
 
 [Chapter Five: The First Measure](../lore/dimension/FIRST_ROOM_CHAPTER_05.md) introduces persistent hypermuscle growth into the dimensional story. Joseph and Kirk undergo successive whole-body changes, developing substantial shoulder breadth, chest depth, back thickness, arms, forearms, thighs, and calves while retaining distinct physiques. Their new proportions alter posture, leverage, movement, clothing, training, equipment, and residential needs. The chapter links the dimension's growth sequence to Beefythiq's recursive baseline principle without merging the two settings. The residential quarter becomes a lived institution for men whose bodies continue to develop.
+
+
+### The Gravitation of Waste — The Nightmare Doll
+
+The waste district beneath the old yard has acquired a focal artifact: [The Nightmare Doll — Research Dossier](../lore/dimension/NIGHTMARE_DOLL_RESEARCH.md). The doll is a male double-figure, visibly formed from two male dolls conjoined side by side. Its two heads and faces remain distinct while the joined construction creates one shared silhouette. The dossier grounds the design in research on lateral conjoined forms and historical anatomical-museum documentation, while keeping the fictional artifact separate from real medical cases. Its orientation, condition, and provenance remain under observation; no supernatural explanation has been confirmed.

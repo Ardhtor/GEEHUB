@@ -1111,5 +1111,110 @@
       "cross-board",
       "incubating"
     ]
+  },
+  {
+    "id": "dimensional-conjuration",
+    "name": "Dimensional Conjuration",
+    "status": "incubating",
+    "kind": "world-system",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/DIMENSIONAL_CONJURATION.md",
+    "description": "Scene-led rules for bringing distinct places and possible worlds into relation while preserving witness accounts, choice, and continuity.",
+    "related": [
+      "beginning-of-the-dimension",
+      "joseph-kirk-runtime",
+      "veyrthalis",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "dimension",
+      "conjuration",
+      "continuity",
+      "world-rules"
+    ]
+  },
+  {
+    "id": "first-room-chapters",
+    "name": "The First Room — Opening Chapters",
+    "status": "incubating",
+    "kind": "story",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_01.md",
+    "description": "Continuous Joseph and Kirk opening: the ordinary room, first inscription, bell, open circle, and the discovery and cautious inspection of a passage.",
+    "related": [
+      "beginning-of-the-dimension",
+      "dimensional-conjuration",
+      "joseph-kirk-runtime"
+    ],
+    "tags": [
+      "story",
+      "joseph",
+      "kirk",
+      "origin",
+      "chapter"
+    ]
+  },
+  {
+    "id": "beefythiq-first-room",
+    "name": "Beefythiq and the First Room",
+    "status": "incubating",
+    "kind": "cross-board-correspondence",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/BEEFYTHIQ_AND_THE_FIRST_ROOM.md",
+    "description": "Connects recursive growth, physical form, altered baselines, and environmental consequence to the dimension-origin story without merging settings.",
+    "related": [
+      "beefythiq",
+      "growth-canvas",
+      "mass1v1ng",
+      "beginning-of-the-dimension"
+    ],
+    "tags": [
+      "growth",
+      "form",
+      "continuity",
+      "correspondence"
+    ]
+  },
+  {
+    "id": "institute-dormitory-life",
+    "name": "Institute Dormitory and Residential Life",
+    "status": "incubating",
+    "kind": "world-expansion",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/INSTITUTE_DORMITORY_AND_RESIDENTIAL_LIFE.md",
+    "description": "Develops the Institute's residential quarter through rooms, shared suites, privacy, meals, laundry, tailoring, recovery, study, and communal life.",
+    "related": [
+      "institute-of-becoming",
+      "beginning-of-the-dimension",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "institute",
+      "dormitory",
+      "residence",
+      "architecture",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "veythralis-first-bell-ledger",
+    "name": "Veyrthalis Low Ledger — The First Bell",
+    "status": "incubating",
+    "kind": "world-record",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/veyrthalis/LOW_LEDGER_THE_FIRST_BELL.md",
+    "description": "Merrow Vale's parallel observation of a bell, open circle, and unverified market passage; explicitly preserves Veyrthalis canon boundaries.",
+    "related": [
+      "veyrthalis",
+      "beginning-of-the-dimension",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "veyrthalis",
+      "digitorium",
+      "low-ledger",
+      "observation",
+      "parallel-motif"
+    ]
   }
 ]

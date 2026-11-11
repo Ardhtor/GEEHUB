@@ -4534,7 +4534,7 @@
       "relation": null,
       "next_region": null,
       "pressure": 0.98,
-      "memory": 1.0,
+      "memory": 1,
       "status": "OCCURRED_AND_INSCRIBED",
       "occurred_at": "2026-11-11T05:47:02.969441+00:00",
       "inscription": "same-event",
@@ -4561,7 +4561,7 @@
     "founders-dormitory": 4,
     "northgate-university": 6,
     "bluewater-quay": 4,
-    "lantern-market": 4,
+    "lantern-market": 5,
     "northgate-library": 3,
     "athletic-commons": 2
   },
@@ -4585,7 +4585,7 @@
     "founders-dormitory": 236,
     "northgate-university": 243.5,
     "bluewater-quay": 250.5,
-    "lantern-market": 249.5,
+    "lantern-market": 251.5,
     "northgate-library": 245.5,
     "athletic-commons": 242.5
   },
@@ -4614,29 +4614,42 @@
     "worlds/athletic-commons/README.md": 5
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "bluewater-quay",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "lantern-market",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 191,
-    "agent": "luke",
-    "previous_region_id": "lantern-market",
-    "region_id": "bluewater-quay",
-    "region_name": "BLUEWATER QUAY",
+    "cycle": 192,
+    "agent": "tyler",
+    "previous_region_id": "bluewater-quay",
+    "region_id": "lantern-market",
+    "region_name": "LANTERN MARKET",
     "relation": "THE WATER OPENS THE VIEW",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 14.66,
-    "scale": 14.69,
-    "recording": "scheduled-recording-00191",
-    "at": "2026-11-11T01:45:59.413Z"
+    "previous_scale": 14.69,
+    "scale": 14.74,
+    "recording": "scheduled-recording-00192",
+    "at": "2026-11-11T09:03:55.755Z"
   },
-  "last_world_change": "2026-11-11T01:45:59.413Z",
-  "scale": 14.69,
+  "last_world_change": "2026-11-11T09:03:55.755Z",
+  "scale": 14.74,
   "external_events": [
+    {
+      "id": "long-play-00192",
+      "type": "CROSSING",
+      "title": "BLUEWATER QUAY → LANTERN MARKET",
+      "body": "The world crossed \"THE WATER OPENS THE VIEW\". Scale increased from 14.69× to 14.74×; the earlier location and baseline remain recorded.",
+      "from": "bluewater-quay",
+      "to": "lantern-market",
+      "previous_region_id": "bluewater-quay",
+      "region_id": "lantern-market",
+      "relation": "THE WATER OPENS THE VIEW",
+      "source": "long-play",
+      "at": "2026-11-11T09:03:55.755Z"
+    },
     {
       "id": "long-play-00191",
       "type": "CROSSING",
@@ -5923,19 +5936,6 @@
       "relation": "THE BAR GYM REMEMBERS",
       "source": "long-play",
       "at": "2026-10-22T17:59:38.356Z"
-    },
-    {
-      "id": "long-play-00092",
-      "type": "CROSSING",
-      "title": "GROWTH CANVAS → LUKE // BWOMPH",
-      "body": "The world crossed \"HYPEER BASELINE\". Scale increased from 8.29× to 8.34×; the earlier location and baseline remain recorded.",
-      "from": "growth",
-      "to": "luke-bwomph",
-      "previous_region_id": "growth",
-      "region_id": "luke-bwomph",
-      "relation": "HYPEER BASELINE",
-      "source": "long-play",
-      "at": "2026-10-22T13:07:23.356Z"
     }
   ],
   "last_action": "write-the-unentered-place"

@@ -8,9 +8,9 @@ The prose must not use line breaks merely as plot beats, action steps, or dramat
 
 ## Broadcast voices
 
-The default narration is a podcast-style announcement carried by Seth Feroce and Nick Mercx as two distinct co-narrators. Use an energetic, conversational fitness-broadcast atmosphere: direct observations, reactions to the setting, comparisons of scale, and exchanges that make the environment feel present. Do not claim these are verbatim quotations or reproduce any person's exact distinctive phrasing. Preserve character dialogue as character dialogue; narrator commentary remains commentary.
+The default narration is a broadcast carried by Seth Feroce and Nick Mercx as two distinct co-narrators. Their primary vantage is across the active scene, with the people and environment held in view, and their commentary travels outward toward the viewer. The audience is on the receiving side of the scene; the narrators make the viewer feel present by sharing what can be seen from that position. Use an energetic, conversational fitness-broadcast atmosphere: direct observations, reactions, comparisons of scale, and exchanges that make the environment feel present. Do not claim these are verbatim quotations or reproduce any person's exact distinctive phrasing. Preserve character dialogue as character dialogue; narrator commentary remains commentary.
 
-Seth and Nick should announce what can be seen, heard, felt, measured, or inferred from the environment. Their exchange should sound like a live broadcast from inside the world, not like an author explaining a plot outline. They may disagree about a detail, notice different aspects of the same space, or return to an environmental feature as it changes.
+Seth and Nick point into the shared view. They can address the viewer at selected moments, distinguish their different observations, disagree about a visible detail, or return to an environmental feature as its meaning changes. They are not default omniscient narrators and should not claim access to private thoughts or unseen events. Avoid making the audience a character unless a scene explicitly establishes that role. The broadcast is not merely from within the world: it comes across the world to us.
 
 ## Formatting and continuity
 
@@ -41,9 +41,7 @@ This directive is the global editorial authority for future revisions throughout
 
 ## Shared Inertia: relationship and memory
 
-Apply the additional [Shared Inertia Narrator Signal](SHARED_INERTIA_NARRATOR_SIGNAL.md). The broadcast is not merely a description layer: it is the way a situated witness shares attention with the user. Chase / c.w. sachs carries witness continuity; existing Seth-and-Nick co-narration remains where already established, while their grounded fitness-broadcast energy remains a tonal compass. Do not collapse distinct narrator roles or imitate exact personal phrasing.
-
-Let relational continuity appear through what the narrator remembers from real records, what he notices now, and how user choices change subsequent states. Use substantial paragraphs and environmental transitions; avoid fragmented pseudo-poetry, generic praise, and repetitive explanation. Preserve quiet, pauses, and familiar details. Never invent a remembered encounter or imply persistent state exists unless the repository actually retains it.
+Apply the additional [Shared Inertia Narrator Signal](SHARED_INERTIA_NARRATOR_SIGNAL.md). Seth and Nick remain the default co-narrators of the viewer-facing environmental broadcast. Chase / c.w. sachs is a separate in-world witness where established; he does not displace the broadcast. Keep these roles distinct. Let relational continuity appear through what the broadcast can actually retrieve, what it notices now, and how user choices change subsequent states. Use substantial paragraphs and environmental transitions; avoid fragmented pseudo-poetry, generic praise, and repetitive explanation. Preserve quiet, pauses, and familiar details. Never invent a remembered encounter or imply persistent state exists unless the repository actually retains it.
 
 ## Hulum's Cave production test
 

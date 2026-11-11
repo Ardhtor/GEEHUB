@@ -1391,5 +1391,28 @@
       "teal-titan-golds-on-5th",
       "tractus-world-atlas"
     ]
+  },
+  {
+    "id": "first-measure-hypermuscle",
+    "name": "The First Measure — Hypermuscle Development",
+    "group": "story",
+    "status": "incubating",
+    "summary": "Joseph and Kirk's persistent hypermuscle escalation, distinct physiques, measured baselines, training adaptation, and residential consequences.",
+    "path": "../lore/dimension/FIRST_ROOM_CHAPTER_05.md",
+    "tags": [
+      "hypermuscle",
+      "muscle-growth",
+      "bodybuilding",
+      "joseph",
+      "kirk",
+      "new-baseline"
+    ],
+    "related": [
+      "beginning-of-the-dimension",
+      "beefythiq-first-room",
+      "institute-dormitory-life",
+      "pilling-or-forbidden",
+      "tractus-world-atlas"
+    ]
   }
 ]

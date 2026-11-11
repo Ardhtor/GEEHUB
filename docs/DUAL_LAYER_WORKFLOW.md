@@ -68,3 +68,13 @@ The world and awareness layers are both subordinate to this visual ground truth.
 For production, use a simple evidence hierarchy: (1) supplied primary visual source or approved canonical render; (2) established continuity records tied to that source; (3) explicit user description; (4) cautious inference; (5) new invention. Never present an inference or generated variation as if it were present in the original reference. A generated image becomes a new canonical visual only when explicitly accepted as such. Preserve source provenance and note what has changed between source and derivative.
 
 The governing rule is: **the image is not an illustration of the world; it is the world's visual evidence.**
+
+## Evidence-first scene preparation
+
+Before composing either layer, establish the visual source or explicitly record that no primary visual source has been supplied. If a source exists, identify it and consult its Visual Evidence Ledger entry. Begin with a quiet observation pass: confirm only what is visible, preserve the original source, and note any uncertainty without trying to resolve it prematurely. The scene's physical facts must be built from this evidence before narrative or emotional interpretation begins.
+
+The world layer then develops from the observed bodies, gestures, objects, materials, camera position, spatial relations, and environmental conditions. The awareness and shared-emotion layers are composed afterward, enriching the experience without altering those physical facts. If a scene introduces a new visual element, identify it as an extension and keep it provisional until accepted. If no source is available, do not imply that visual verification has occurred; use established continuity and clearly identified invention instead.
+
+After a substantial scene or asset is completed, return to the source and compare the derivative against it. Record what was preserved, what was inferred, what was introduced, and any discrepancy that remains. This comparison does not consume or replace the evidence. It adds another traceable relationship to it. A scene may proceed with unresolved questions when those questions do not prevent a faithful account of what is known.
+
+The sequence is therefore: source preservation, gentle observation, evidence check, world construction, awareness and shared-emotion composition, derivative comparison, continuity record. **Neither narrative nor feeling gets to rewrite the visible ground.**

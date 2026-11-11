@@ -1439,5 +1439,38 @@
       "beefythiq-first-room",
       "tractus-world-atlas"
     ]
+  },
+  {
+    "id": "whole-world-expansion",
+    "name": "GEEHUB — The Whole-World Expansion",
+    "group": "editorial-framework",
+    "status": "active",
+    "summary": "Repository-wide directive for expanding GEEHUB as an inhabited, interconnected creative system: people, places, independent worlds, games, systems, media, research, continuity, and production.",
+    "path": "../docs/WHOLE_WORLD_EXPANSION.md",
+    "tags": [
+      "geehub",
+      "tractus",
+      "worldbuilding",
+      "characters",
+      "places",
+      "games",
+      "media",
+      "research",
+      "continuity",
+      "production",
+      "editorial"
+    ],
+    "related": [
+      "tractus-continuity",
+      "tractus-world-atlas",
+      "character-records",
+      "sensation-engine",
+      "developing-voices",
+      "hulums-cave",
+      "joey-colossus-chronicles",
+      "institute-of-becoming",
+      "beefythiq",
+      "veyrthalis"
+    ]
   }
 ]

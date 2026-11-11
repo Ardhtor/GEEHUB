@@ -1,6 +1,26 @@
 {
-  "cycle": 88,
+  "cycle": 89,
   "events": [
+    {
+      "id": "northgate-campus-00089",
+      "cycle": 89,
+      "world_pulse": 258,
+      "at": "2026-11-11T21:16:00.769308+00:00",
+      "region": "founders-dormitory",
+      "title": "A ROOM FULL OF PROJECTS",
+      "kind": "making",
+      "participants": [
+        "Dan Roman",
+        "Marek Ionescu",
+        "Adrian Varga",
+        "Elliot Ward"
+      ],
+      "description": "The common room becomes a temporary studio. A half-built model occupies the long table, a laptop plays back a rough edit, and someone is sketching a set of stairs on the back of an envelope. Each person contributes a different skill; by midnight the project has a direction.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-11T21:16:00.769308+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00088",
       "cycle": 88,
@@ -1640,28 +1660,29 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 67,
-    "Marek Ionescu": 47,
-    "Elliot Ward": 54,
+    "Dan Roman": 68,
+    "Marek Ionescu": 48,
+    "Elliot Ward": 55,
     "Noah Bell": 55,
-    "Adrian Varga": 54
+    "Adrian Varga": 55
   },
   "last_event": {
-    "id": "northgate-campus-00088",
-    "cycle": 88,
-    "world_pulse": 257,
-    "at": "2026-11-11T15:06:06.371606+00:00",
-    "region": "northgate-university",
-    "title": "THE CLUBS AND SOCIETIES FAIR",
-    "kind": "community",
+    "id": "northgate-campus-00089",
+    "cycle": 89,
+    "world_pulse": 258,
+    "at": "2026-11-11T21:16:00.769308+00:00",
+    "region": "founders-dormitory",
+    "title": "A ROOM FULL OF PROJECTS",
+    "kind": "making",
     "participants": [
       "Dan Roman",
-      "Elliot Ward",
-      "Noah Bell"
+      "Marek Ionescu",
+      "Adrian Varga",
+      "Elliot Ward"
     ],
-    "description": "Tables appear beneath the arcade: architecture, music, rowing, film, natural history, computing and the old debating society. New students drift between them while returning members explain what they actually do, rather than reciting polished pitches.",
+    "description": "The common room becomes a temporary studio. A half-built model occupies the long table, a laptop plays back a rough edit, and someone is sketching a set of stairs on the back of an envelope. Each person contributes a different skill; by midnight the project has a direction.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-11T15:06:06.371606+00:00",
+    "occurred_at": "2026-11-11T21:16:00.769308+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

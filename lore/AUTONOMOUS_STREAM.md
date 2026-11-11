@@ -1965,3 +1965,11 @@ NICK: A detail returns in BLUEWATER QUAY: A rowboat rocks gently against its rop
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/bluewater-quay/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 258 — ATMOSPHERE / LANTERN MARKET / 2026-11-11T21:16:00.695713+00:00
+
+SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

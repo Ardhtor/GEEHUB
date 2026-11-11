@@ -2309,3 +2309,11 @@ NICK: A detail returns in BLUEWATER QUAY: A rowboat rocks gently against its rop
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/bluewater-quay/README.md.
 
 Source retained: worlds/bluewater-quay/README.md. Pressure 0.94; memory 1.00.
+
+## LANTERN MARKET / pulse 258 / ATMOSPHERE
+
+SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/lantern-market/README.md. Pressure 0.96; memory 1.00.

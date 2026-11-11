@@ -1226,7 +1226,10 @@
       "joseph",
       "kirk",
       "continuity",
-      "cross-board"
+      "cross-board",
+      "seth",
+      "nick",
+      "viewer-facing-broadcast"
     ],
     "related": [
       "veyrthalis",
@@ -1236,8 +1239,11 @@
       "mass1v1ng",
       "muscle-myth",
       "tractus-world-atlas",
-      "institute-of-becoming"
-    ]
+      "institute-of-becoming",
+      "teal-titan-golds-on-5th",
+      "first-room-chapter-four"
+    ],
+    "description": "Cross-board origin branch beginning with Joseph and Kirk in an ordinary room, the first inscription 'Destiny, her O Dreadmaster', and the gradual discovery of the magical dimension. Narrated by Seth and Nick from across the scene toward the viewer; connected to Veyrthalis, the Tractus, Beefythiq, growth systems, mythic archives, residential worlds, and the Teal Titan broadcast reference while preserving independent canon boundaries."
   },
   {
     "id": "dimensional-conjuration",
@@ -1262,7 +1268,7 @@
     "name": "The First Room — Opening Chapters",
     "group": "story",
     "status": "incubating",
-    "summary": "Joseph and Kirk's first room, inscription, bell, street passage, and cautious first investigation.",
+    "summary": "Joseph and Kirk's opening dimensional investigation, narrated by Seth and Nick from across the scene toward the viewer; Chapter Four establishes the shared viewing position.",
     "path": "../lore/dimension/FIRST_ROOM_CHAPTER_01.md",
     "tags": [
       "story",
@@ -1272,7 +1278,9 @@
     ],
     "related": [
       "beginning-of-the-dimension",
-      "dimensional-conjuration"
+      "dimensional-conjuration",
+      "teal-titan-golds-on-5th",
+      "first-room-chapter-four"
     ]
   },
   {
@@ -1346,6 +1354,32 @@
       "beginning-of-the-dimension",
       "dimensional-conjuration",
       "first-room-chapters",
+      "tractus-world-atlas"
+    ]
+  },
+  {
+    "id": "first-room-chapter-four",
+    "name": "The Service Ledger",
+    "group": "story-branch",
+    "status": "incubating",
+    "summary": "Joseph and Kirk compare municipal plans with the back court's working history. Seth and Nick narrate across the scene toward the viewer, following the Teal Titan Chapter IV broadcast precedent.",
+    "path": "../lore/dimension/FIRST_ROOM_CHAPTER_04.md",
+    "tags": [
+      "story",
+      "chapter",
+      "dimension",
+      "joseph",
+      "kirk",
+      "seth",
+      "nick",
+      "viewer-facing-broadcast"
+    ],
+    "related": [
+      "beginning-of-the-dimension",
+      "dimensional-conjuration",
+      "first-room-chapters",
+      "pilling-or-forbidden",
+      "teal-titan-golds-on-5th",
       "tractus-world-atlas"
     ]
   }

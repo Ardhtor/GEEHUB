@@ -1309,5 +1309,33 @@
       "new-baseline",
       "residential-life"
     ]
+  },
+  {
+    "id": "gravitation-of-waste",
+    "name": "The Gravitation of Waste",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_06.md",
+    "description": "Joseph and Kirk turn the old waste district into a repair yard and archive, discover the Brothers double-figure, and undergo another persistent hypermuscle stage during ordinary work.",
+    "related": [
+      "beginning-of-the-dimension",
+      "first-measure-hypermuscle",
+      "beefythiq-first-room",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "story",
+      "chapter",
+      "waste",
+      "reuse",
+      "nightmare-doll",
+      "hypermuscle",
+      "joseph",
+      "kirk",
+      "seth",
+      "nick",
+      "continuity"
+    ]
   }
 ]

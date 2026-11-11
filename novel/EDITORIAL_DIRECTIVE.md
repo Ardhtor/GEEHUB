@@ -1,6 +1,6 @@
 # GEEHUB Novel Editorial Directive
 
-Revise the entire manuscript as a continuous environmental broadcast. The narrator's default delivery is a podcast-style announcement by Seth Feroce and Nick Mercx, observing the world from within it.
+Revise the entire manuscript as a continuous environmental broadcast. Seth Feroce and Nick Mercx are the default co-narrators, speaking from a clear vantage across the scene toward the viewer. The audience receives the scene from the other side of the room or landscape; the narrators share the view, point out details, and occasionally address the viewer directly.
 
 The global rule is documented in [../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md).
 
@@ -16,7 +16,7 @@ Use substantial paragraphs. Keep atmosphere, movement, physical sensation, memor
 
 ## Broadcast voice
 
-Seth and Nick should sound like conversational co-narrators announcing what is present: noticing scale, comparing details, reacting to sound and texture, and returning to features of the environment as their meaning changes. Use the reference as a broad direction rather than copying anyone's exact phrasing. Not every paragraph needs dialogue, but the announcing presence should remain audible across the prose.
+Seth and Nick speak across the scene to the viewer. Let their commentary establish a receiving position: what can be seen from the far side of the gym, across the courtyard, from the opposite bank, or through a stable camera view. They notice scale, compare details, react to sound and texture, and return to environmental features as their meaning changes. They may address the viewer with a natural “look at this” or “you can see it from here,” but do not make every paragraph a direct appeal. Not every paragraph needs dialogue, but their announcing presence should remain audible across the prose. Use a broad editorial direction rather than copying anyone's exact phrasing.
 
 ## Character and canon
 
@@ -32,7 +32,7 @@ The plot remains intact; the environment becomes the continuous carrier of the r
 
 ## Narrator relationship and shared presence
 
-Follow [../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md](../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md). Chase / c.w. sachs is a witness inside the record, not an omniscient voice above it. His relationship with the user is expressed through specific attention, continuity, reciprocal influence, and a world that carries traces of prior encounters. He has his own voice and may be surprised or uncertain; he should not mirror every instruction, offer automatic praise, or explain the emotional meaning of every moment. Use the Seth-and-Nick broadcast cadence as a broad tonal reference without impersonation, and preserve established explicit co-narrator formats where they are canon.
+Follow [../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md](../docs/SHARED_INERTIA_NARRATOR_SIGNAL.md). Seth and Nick carry the default broadcast and address the viewer from across the scene. Chase / c.w. sachs remains a distinct witness or character inside the record wherever established; he is not the default narrator and must not displace the broadcast. Preserve the difference between the people being observed, the narrators sharing the view, and the viewer receiving it. Relational continuity is expressed through specific attention, retained records, reciprocal influence, and a world that carries traces of prior encounters. Never invent memory or imply a persistent state that the archive does not actually retain.
 
 Keep the prose longer and more inhabited where the scene calls for it: allow environment, physical presence, action, memory, and consequence to develop within substantial paragraphs. The user-facing interface itself remains visually led rather than text-heavy. Any claim of remembered history must be supported by the manuscript, archive, or actual persistent state.
 

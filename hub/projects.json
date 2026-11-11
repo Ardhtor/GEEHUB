@@ -1496,5 +1496,30 @@
       "veyrthalis",
       "tractus-world-atlas"
     ]
+  },
+  {
+    "id": "first-room-chapter-seven-crownheart",
+    "name": "The Crownheart",
+    "group": "story",
+    "status": "active",
+    "summary": "The Sequoia Woodlands climax: Joseph and Kirk reach the ancient tree's gallery, trace the bell through its practical service mechanism, and uncover the lower route beneath the roots.",
+    "path": "../lore/dimension/FIRST_ROOM_CHAPTER_07.md",
+    "tags": [
+      "story",
+      "climax",
+      "sequoia",
+      "woodland",
+      "joseph",
+      "kirk",
+      "seth",
+      "nick",
+      "continuity"
+    ],
+    "related": [
+      "first-room-chapters",
+      "sequoia-woodlands",
+      "beginning-of-the-dimension",
+      "tractus-world-atlas"
+    ]
   }
 ]

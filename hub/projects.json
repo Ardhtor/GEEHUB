@@ -1238,5 +1238,94 @@
       "tractus-world-atlas",
       "institute-of-becoming"
     ]
+  },
+  {
+    "id": "dimensional-conjuration",
+    "name": "Dimensional Conjuration",
+    "group": "world-system",
+    "status": "incubating",
+    "summary": "Scene-led rules for crossings, witness accounts, thresholds, temporal return, and continuity.",
+    "path": "../lore/dimension/DIMENSIONAL_CONJURATION.md",
+    "tags": [
+      "dimension",
+      "conjuration",
+      "continuity"
+    ],
+    "related": [
+      "beginning-of-the-dimension",
+      "veyrthalis",
+      "joseph-kirk-runtime"
+    ]
+  },
+  {
+    "id": "first-room-chapters",
+    "name": "The First Room — Opening Chapters",
+    "group": "story",
+    "status": "incubating",
+    "summary": "Joseph and Kirk's first room, inscription, bell, street passage, and cautious first investigation.",
+    "path": "../lore/dimension/FIRST_ROOM_CHAPTER_01.md",
+    "tags": [
+      "story",
+      "origin",
+      "joseph",
+      "kirk"
+    ],
+    "related": [
+      "beginning-of-the-dimension",
+      "dimensional-conjuration"
+    ]
+  },
+  {
+    "id": "beefythiq-first-room",
+    "name": "Beefythiq and the First Room",
+    "group": "correspondence",
+    "status": "incubating",
+    "summary": "A cross-board account of recursive growth, bodily form, changed environments, and new baselines.",
+    "path": "../lore/dimension/BEEFYTHIQ_AND_THE_FIRST_ROOM.md",
+    "tags": [
+      "growth",
+      "form",
+      "continuity"
+    ],
+    "related": [
+      "beefythiq",
+      "growth-canvas",
+      "mass1v1ng"
+    ]
+  },
+  {
+    "id": "institute-dormitory-life",
+    "name": "Institute Dormitory and Residential Life",
+    "group": "world-expansion",
+    "status": "incubating",
+    "summary": "Expanded residential life at the Institute: privacy, shared rooms, food, laundry, tailoring, recovery, study, and communal supper.",
+    "path": "../lore/INSTITUTE_DORMITORY_AND_RESIDENTIAL_LIFE.md",
+    "tags": [
+      "institute",
+      "dormitory",
+      "residential",
+      "daily-life"
+    ],
+    "related": [
+      "institute-of-becoming",
+      "tractus-world-atlas"
+    ]
+  },
+  {
+    "id": "veythralis-first-bell-ledger",
+    "name": "Veyrthalis Low Ledger — The First Bell",
+    "group": "world-record",
+    "status": "incubating",
+    "summary": "Merrow Vale records a parallel bell, open circle, and unverified passage without merging it with the Joseph–Kirk story.",
+    "path": "../lore/veyrthalis/LOW_LEDGER_THE_FIRST_BELL.md",
+    "tags": [
+      "veyrthalis",
+      "ledger",
+      "observation"
+    ],
+    "related": [
+      "veyrthalis",
+      "beginning-of-the-dimension"
+    ]
   }
 ]

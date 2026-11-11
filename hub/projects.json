@@ -1414,5 +1414,30 @@
       "pilling-or-forbidden",
       "tractus-world-atlas"
     ]
+  },
+  {
+    "id": "gravitation-of-waste",
+    "name": "The Gravitation of Waste",
+    "group": "story",
+    "status": "incubating",
+    "summary": "Joseph and Kirk's return to the old yard: repair work, discarded histories, the Brothers double-figure, and another whole-body growth stage beyond the training floor.",
+    "path": "../lore/dimension/FIRST_ROOM_CHAPTER_06.md",
+    "tags": [
+      "story",
+      "chapter",
+      "waste",
+      "reuse",
+      "nightmare-doll",
+      "hypermuscle",
+      "joseph",
+      "kirk",
+      "continuity"
+    ],
+    "related": [
+      "beginning-of-the-dimension",
+      "first-measure-hypermuscle",
+      "beefythiq-first-room",
+      "tractus-world-atlas"
+    ]
   }
 ]

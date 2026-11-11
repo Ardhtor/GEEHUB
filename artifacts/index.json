@@ -9885,6 +9885,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000252",
+      "created_at": "2026-11-11T13:57:40.076102+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "LANTERN MARKET",
+      "content": "SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "lineage": {
+        "event_id": "world-pulse-000252",
+        "event": {
+          "id": "world-pulse-000252",
+          "pulse": 252,
+          "time": "2026-11-11T13:57:40.076102+00:00",
+          "actor": "LUKE",
+          "world": "LANTERN MARKET",
+          "region_id": "lantern-market",
+          "previous_region_id": "lantern-market",
+          "phase": "ATMOSPHERE",
+          "source": "worlds/lantern-market/README.md",
+          "desire_state": "attention",
+          "action": "SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+          "narrative_rule": "approach extends geography",
+          "relation": null,
+          "next_region": null,
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-11T13:57:40.076102+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000252",
+      "created_at": "2026-11-11T13:57:40.076102+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / LANTERN MARKET / worlds/lantern-market/README.md",
+      "content": "SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 252,
+        "actor": "LUKE",
+        "world": "LANTERN MARKET",
+        "region_id": "lantern-market",
+        "source": "worlds/lantern-market/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00083",
+      "created_at": "2026-11-11T13:57:40.174777+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE BODY CULTURE CONVERSATION",
+      "content": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+      "lineage": {
+        "event_id": "northgate-campus-00083",
+        "event": {
+          "id": "northgate-campus-00083",
+          "cycle": 83,
+          "world_pulse": 252,
+          "at": "2026-11-11T13:57:40.174777+00:00",
+          "region": "athletic-commons",
+          "title": "THE BODY CULTURE CONVERSATION",
+          "kind": "body-culture",
+          "participants": [
+            "Dan Roman",
+            "Noah Bell",
+            "Adrian Varga"
+          ],
+          "description": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-11T13:57:40.174777+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

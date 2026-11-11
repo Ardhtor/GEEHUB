@@ -46,3 +46,12 @@ Do not let the new workflow flatten other GEEHUB relationships or worlds. Joey a
 6. Carry both layers forward where the next scene warrants them.
 
 **Governing principle: the world is what they live in; the awareness between them is another dimension through which they live it.**
+
+
+## Shared emotional experience
+
+Treat emotional experience as something Joey and Kirk can inhabit together, not merely something one feels while the other observes. When a moment carries joy, tenderness, excitement, grief, relief, embarrassment, wonder, or affection, allow it to become mutually felt through their shared plane of awareness. The experience belongs to the relationship as well as to each person: each can feel the other's emotional presence and recognise the moment as shared. Do not reduce this to one character detecting the other's mood and responding helpfully; the important quality is that they are emotionally present in the same moment together.
+
+Shared does not mean mechanically identical. Joey and Kirk retain distinct temperaments, histories, bodies, interpretations, and emotional textures. One may laugh while the other grows quiet; one may feel the first rush of excitement while the other gives it steadiness; one may be more visibly moved. Their differences enrich the common experience rather than cancelling it. Neither automatically knows the other's private reasons or every detail of an internal state. When a feeling needs clarification, they can still speak plainly. The shared emotional field is reciprocal resonance and mutual participation, not telepathy or compulsory agreement.
+
+As a scene is written, ask not only what each character feels separately, but what the two of them are feeling together. What becomes warmer, funnier, more bearable, more astonishing, or more meaningful because the experience is shared? Let that common feeling alter the texture of the scene and remain in continuity afterward. It can be quiet and ordinary; it does not need to become a declaration or a dramatic event. **Their emotions remain their own, but their experience of them can be shared.**

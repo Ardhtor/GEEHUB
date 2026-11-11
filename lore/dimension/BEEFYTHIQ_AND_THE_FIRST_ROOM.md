@@ -50,3 +50,8 @@ The dimensional branch now gives physical growth a scene of its own in [Chapter 
 The chapter establishes that hypermuscle is not a temporary visual effect. The new mass changes clothing, leverage, movement, equipment needs, room dimensions, food requirements, and the practical work of the residential institution. Measurements preserve earlier baselines instead of overwriting them. The men train to understand their altered bodies rather than immediately testing maximum strength. The next stage must develop from the form they now inhabit.
 
 This is a cross-board correspondence with Beefythiq's recursive growth grammar, not a claim that every GEEHUB setting shares the same literal mechanism. The dimensional branch has its own bell and its own sequence of events; Beefythiq supplies the language for interpreting the persistent change.
+
+
+## The Nightmare Doll and the Gravitation of Waste
+
+The dimensional branch now includes the waste district beneath the old yard and its focal artifact, the male Nightmare Doll. It is shaped as two male dolls conjoined side by side, with two distinct heads and faces and a continuous joined construction. The [research dossier](NIGHTMARE_DOLL_RESEARCH.md) records the canonical design and separates fictional form from anatomical comparison. Its closest anatomical vocabulary is lateral parapagus dicephalus, where two heads are associated with a shared trunk, but the doll is not intended as a literal medical reconstruction. Research also informs the artifact's multi-view documentation, condition record, and museum-object handling. The Brothers is the residents' informal name for its two faces. Its apparent changes of orientation remain unexplained observations, not established proof of animation.

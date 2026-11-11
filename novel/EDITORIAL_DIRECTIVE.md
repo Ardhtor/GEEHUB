@@ -39,6 +39,13 @@ Keep the prose longer and more inhabited where the scene calls for it: allow env
 For Hulum's Cave material, treat the original audiovisual source as primary evidence. Attend to pacing, anticipation, identity continuity, full-body proportion, camera, light, sound, and the room's role as a scale reference. Preserve the difference between an intended production rule and a reconstruction that has actually been rendered and compared.
 
 
+
+## Retrospective revision of earlier chapters
+
+The paragraph standard is retroactive. Apply it to opening chapters and every earlier chapter, draft, and connected book written before this directive. Do not leave early material in a thinner, skeletal style while later chapters receive full environmental treatment. Revisit original text in sequence, preserve its events and established facts, and expand the scene itself: give the reader a fuller sense of the room, the route into it, the people present, the physical details they notice, the wider life continuing beyond the immediate action, and the consequences that carry forward. Merge isolated one-sentence narration into the paragraph it belongs to unless the scene genuinely changes focus or location. Do not merely add explanatory paragraphs after the scene.
+
+Work in bounded chapter batches and record exactly which chapters have been revised. The First Room sequence is foundational and deserves particular care: its domestic setting, municipal geography, courtyard, doors, maintenance activity, and gradual dimensional discoveries should feel like a continuous inhabited history rather than a chain of plot beats. Longer prose should make evidence, atmosphere, and choices more tangible, not solve questions prematurely or inflate every event into a revelation.
+
 ## Publishing-length revision
 
 The manuscript now follows [PUBLISHING_STANDARD.md](PUBLISHING_STANDARD.md). Revise the books themselves in sequence, not merely their instructions. Standard chapters should generally reach 4,000–7,000 words through fully developed scenes, character interaction, environmental continuity, and consequential turns. Major chapters may run longer when the material earns it. Do not pad or repeat. Preserve canon, and keep research notes and production commentary outside reader-facing prose.

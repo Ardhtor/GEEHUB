@@ -50,3 +50,7 @@ The Institute's software and production path is tracked in [GEEHUB Execution Pat
 
 
 [The Passage Between Buildings](INSTITUTE_THE_PASSAGE_BETWEEN_BUILDINGS.md) carries the first event adapter into the Institute's daily movement between gymnasium, residences, workshops, dining hall and partner campuses.
+
+[The Institute Dormitory and Residential Life](INSTITUTE_DORMITORY_AND_RESIDENTIAL_LIFE.md) expands the residential quarter through bedrooms, shared suites, privacy, laundry, tailoring, recovery, meals, study, maintenance, and the weekly communal supper. It is a separate institutional development, but it shares the Tractus continuity principle with the Beginning of the Dimension: spaces acquire meaning through use, and new arrangements preserve the lives and needs that produced them.
+
+The correspondence is structural rather than geographical. The Institute is not the destination behind the first-room passage. Its dormitory offers a parallel account of how an ordinary place becomes capable of supporting more life without losing its origin.

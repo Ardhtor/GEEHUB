@@ -1,0 +1,36 @@
+{
+  "id": "activity-world-pulse-000251",
+  "created_at": "2026-11-11T05:47:02.969441+00:00",
+  "source": "tractus-world-engine",
+  "kind": "activity-event",
+  "title": "BLUEWATER QUAY",
+  "content": "SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+  "lineage": {
+    "event_id": "world-pulse-000251",
+    "event": {
+      "id": "world-pulse-000251",
+      "pulse": 251,
+      "time": "2026-11-11T05:47:02.969441+00:00",
+      "actor": "LUKE",
+      "world": "BLUEWATER QUAY",
+      "region_id": "bluewater-quay",
+      "previous_region_id": "bluewater-quay",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/bluewater-quay/README.md",
+      "desire_state": "attention",
+      "action": "SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.98,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-11T05:47:02.969441+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
+    }
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue from this event's changed world state"
+}

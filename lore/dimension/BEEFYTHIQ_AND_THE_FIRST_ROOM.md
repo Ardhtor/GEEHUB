@@ -41,3 +41,12 @@ The Institute of Becoming supplies a residential and institutional counterpart: 
 ## Cross-board boundary
 
 This document defines a correspondence, not an assertion that the first room is literally inside Beefythiq, Veyrthalis, or the Institute. Each board retains its own local canon. The shared principle is continuity through accumulated change. Artifacts and methods can travel between boards when the transfer is recorded; characters, events, and histories do not merge by implication.
+
+
+## The first hypermuscle baseline
+
+The dimensional branch now gives physical growth a scene of its own in [Chapter Five: The First Measure](FIRST_ROOM_CHAPTER_05.md). Joseph and Kirk undergo successive, persistent stages of hypertrophy after the courtyard bell. Their development is whole-frame rather than a single exaggerated feature: shoulder breadth, chest depth, back thickness, arm and forearm volume, waist proportion, thigh and calf mass, posture, reach, balance, and movement all change. Their builds remain distinct. Joseph's development emphasizes chest and arms within a broad frame; Kirk's emphasizes back, shoulders, and a grounded lower body. Neither is reduced to a measurement or made interchangeable with the other.
+
+The chapter establishes that hypermuscle is not a temporary visual effect. The new mass changes clothing, leverage, movement, equipment needs, room dimensions, food requirements, and the practical work of the residential institution. Measurements preserve earlier baselines instead of overwriting them. The men train to understand their altered bodies rather than immediately testing maximum strength. The next stage must develop from the form they now inhabit.
+
+This is a cross-board correspondence with Beefythiq's recursive growth grammar, not a claim that every GEEHUB setting shares the same literal mechanism. The dimensional branch has its own bell and its own sequence of events; Beefythiq supplies the language for interpreting the persistent change.

@@ -91,3 +91,13 @@ The hotel novel now includes [The Director of Standards](THE_DIRECTOR_OF_STANDAR
 ## Grand Meridian — senior butler added
 
 The hotel staff now includes a fictionalized Christopher Meloni as the senior butler. He handles intimate guest service, room preparation, luggage and wardrobe arrangements, private dining, and discreet movement through the service network. His service book can preserve metaxic residue through terse operational notes. He is distinct from Emil Voss the concierge, Rainer the porter, Pavel Soren the engineer, and Stanley Tucci the Director of Standards. Tucci remains the sole *Devil Wears Prada* carryover; Meloni is a separate casting choice for the Grand Meridian. Joey remains the devilish authority behind the weekly sentence.
+
+
+## Chapters LXXVII–LXXVIII — The coach's son and the changed fit
+
+| Branch | New material | Continuity carried forward |
+|---|---|---|
+| Training hall / family and coaching | [Chapter LXXVII — The Coach's Son](chapters/CHAPTER_LXXVII_THE_COACHS_SON.md) | Travis and Mr. Kaufman are established as adult son and father, with Mr. Kaufman also serving as his coach. They agree to distinguish coaching assessment from ordinary family time; Travis gives his own account of the session before receiving further corrections. |
+| Scale Commons / physical continuity | [Chapter LXXVIII — Beyond Size Fifty](chapters/CHAPTER_LXXVIII_BEYOND_SIZE_FIFTY.md) | Daniel Goebel outgrows his previous size-50 shoes. A replacement prototype is fitted to current measurements; the old pair is retained as a baseline artifact. The exact new size is recorded privately after fitting and is not treated as a ranking. |
+
+The character records for [Travis](../characters/records/TRAVIS.md), [Mr. Kaufman](../characters/records/MR_KAUFMAN.md), and [Daniel Goebel](../characters/records/DANIEL_GOEBEL.md) preserve the new relationships and physical-continuity anchors. These introductions are provisional fictional development beyond the specific events recorded in the chapters.

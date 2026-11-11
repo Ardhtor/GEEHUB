@@ -44,3 +44,16 @@ When sources conflict, retain the discrepancy and resolve it deliberately. The a
 Before adding any major detail, ask: What is its visible basis? What does the source actually establish? What must remain continuous? Is this observation, inference, or invention? If it is new, how does it grow from what is already there? Can the viewer recognise the same person and the same world after the extension?
 
 The absolute rule: **everything stems from visual reality; everything added must remain answerable to it.**
+
+
+## Evidence renewal and non-expendability
+
+Visual evidence is cumulative and non-expendable. It must never be treated as a temporary prompt, a one-time reference, or raw material that can be discarded after a scene or asset has been produced. Preserve the source and keep its observations available for every later stage. Each new pass should renew the evidence by revisiting the primary source, checking continuity, adding verified observations, and recording what remains uncertain. Repetition is not waste: it is how the corpus maintains fidelity as it grows.
+
+Every derivative must retain a traceable relationship to the evidence from which it came. A character sheet, scene, render, description, environment asset, or mythic interpretation should be able to point back to its visual basis and identify what it preserves, what it infers, and what it adds. Never let a derivative silently become the only surviving record of its source. Preserve original files and unaltered references separately from crops, edits, annotations, reconstructions, and generated variations. Do not overwrite primary evidence with an improved, compressed, cleaned-up, or stylistically transformed version.
+
+Evidence should be strengthened through repeated comparison, not by repetition of unsupported claims. On each return to a source, confirm details against what is actually visible; correct prior notes when the source disproves them; retain provenance and revision history; and keep contradictions visible until resolved. New evidence can refine an interpretation, but it must not retroactively falsify what an earlier source showed. If a source is unavailable, record that limitation rather than reconstructing it from memory and presenting the reconstruction as original.
+
+The corpus therefore works as a growing body of proof: primary sources remain intact; observations accumulate; continuity records connect them; derivatives remain traceable; and later work can always return to the same evidence. No image is exhausted by one reading, no observation is used up by one scene, and no creative extension is allowed to erase the source that made it possible.
+
+**Renew the evidence; preserve the source; never spend the proof.**

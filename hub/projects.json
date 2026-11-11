@@ -1587,5 +1587,28 @@
       "first-room-chapters",
       "dimensional-conjuration"
     ]
+  },
+  {
+    "id": "dual-layer-workflow",
+    "name": "GEEHUB Dual-Layer Workflow — World and Awareness",
+    "group": "editorial-framework",
+    "status": "active",
+    "summary": "Scene-production method that develops the external world and a separate reciprocal awareness layer in distinct passes, then composes them while preserving agency, observable action, and continuity.",
+    "path": "../docs/DUAL_LAYER_WORKFLOW.md",
+    "tags": [
+      "editorial",
+      "workflow",
+      "world-layer",
+      "awareness-layer",
+      "joey",
+      "kirk",
+      "continuity"
+    ],
+    "related": [
+      "beginning-of-the-dimension",
+      "familiarity-paradox-shared-awareness",
+      "first-room-chapters",
+      "tractus-continuity"
+    ]
   }
 ]

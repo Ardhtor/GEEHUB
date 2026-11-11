@@ -1327,5 +1327,26 @@
       "veyrthalis",
       "beginning-of-the-dimension"
     ]
+  },
+  {
+    "id": "pilling-or-forbidden",
+    "name": "Pilling, or Forbidden",
+    "group": "story",
+    "status": "incubating",
+    "summary": "Chapter Three: accumulated traces in the courtyard, a forbidden inscription, the first maintenance worker, and an unopened threshold.",
+    "path": "../lore/dimension/FIRST_ROOM_CHAPTER_03.md",
+    "tags": [
+      "story",
+      "pilling",
+      "forbidden",
+      "threshold",
+      "continuity"
+    ],
+    "related": [
+      "beginning-of-the-dimension",
+      "dimensional-conjuration",
+      "first-room-chapters",
+      "tractus-world-atlas"
+    ]
   }
 ]

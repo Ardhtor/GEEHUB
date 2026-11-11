@@ -1284,5 +1284,30 @@
       "service-ledger",
       "continuity"
     ]
+  },
+  {
+    "id": "first-measure-hypermuscle",
+    "name": "The First Measure — Hypermuscle Development",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_05.md",
+    "description": "Joseph and Kirk undergo successive persistent whole-body growth; their distinct hypermuscular physiques reshape training, clothing, equipment, and residential life.",
+    "related": [
+      "beginning-of-the-dimension",
+      "beefythiq-first-room",
+      "institute-dormitory-life",
+      "pilling-or-forbidden",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "hypermuscle",
+      "muscle-growth",
+      "bodybuilding",
+      "joseph",
+      "kirk",
+      "new-baseline",
+      "residential-life"
+    ]
   }
 ]

@@ -47,11 +47,11 @@ Tyler looked again at the sheet. "The proportions?"
 
 That settled the wall question. The six sheets would be displayed as a continuous sequence along the broad side of the room, but the final study would be placed where the mirrors began. The display would not pretend that a sixth panel was a completed render or that every intermediate image had already been generated. The men would show the production sequence as a sequence of intentions and continuity requirements, with the Stage 4 reference clearly identified as the current visual anchor. The distinction mattered. A plan was not an image. A source was not a reconstruction. A reconstruction was not the same thing as a finished video.
 
-Seth and Nick watched the men arrange the papers from the far end of the gym, where the light fell across the benches and the polished floor reflected the roof trusses.
+Seth and Nick watched the men arrange the papers from the far end of the gym, where the light fell across the benches and the polished floor reflected the roof trusses. They held their position there rather than stepping into the conversation around the display. Their attention travelled across the room toward Marcus, then outward to the viewer's side of the space; the audience was invited to look from that same broad angle, with the mirrors, racks, benches, and other men still visible around him.
 
-SETH: There he is. That's what they keep missing when they only talk about size. Look at the whole outline. The neck carries into the shoulders, the shoulders carry into the arms, the chest sits inside the frame, and the legs are there to support all of it. Nothing has been left behind.
+SETH: There he is. Now look at him from where we are. That's what gets lost when people only talk about size. You can follow the whole outline: the neck carries into the shoulders, the shoulders carry into the arms, the chest sits inside the frame, and the legs are there to support all of it. Nothing has been left behind.
 
-NICK: And the room matters. He's not standing in a blank studio. There's the rack, the mirror, the ceiling, the floor, the other men. You can see how large he is because the world has not disappeared around him.
+NICK: And keep the room in the picture. He's not standing in a blank studio. There's the rack, the mirror, the ceiling, the floor, the other men. You can see how large he is because the world has not disappeared around him. Stay with this angle for a second and the proportions make sense.
 
 Marcus had heard enough commentary to know when they were talking about him, but he did not turn around. He was looking at the display's first panel.
 

@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000255",
+  "created_at": "2026-11-11T15:05:43.424935+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "CROSSING / BLUEWATER QUAY / worlds/bluewater-quay/README.md",
+  "content": "NICK: The world crosses the route from LANTERN MARKET into BLUEWATER QUAY. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A calm reservoir promenade with a boathouse, tea room, wooden landings, reeds, long benches, and an open horizon. Relation carried forward: THE WATER OPENS THE VIEW.",
+  "production_note": "The world resolved its crossing rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 255,
+    "actor": "JOSEPH",
+    "world": "BLUEWATER QUAY",
+    "region_id": "bluewater-quay",
+    "source": "worlds/bluewater-quay/README.md",
+    "phase": "CROSSING",
+    "relation": "THE WATER OPENS THE VIEW"
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

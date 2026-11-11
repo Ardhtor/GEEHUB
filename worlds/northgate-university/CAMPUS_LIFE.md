@@ -508,3 +508,9 @@ Participants: Adrian Varga, Elliot Ward, Dan Roman. Location: northgate-universi
 Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.
 
 Participants: Marek Ionescu, Noah Bell, Adrian Varga. Location: founders-dormitory. Recorded: 2026-11-11T15:02:31.702601+00:00.
+
+## OPEN GYM AND RECOVERY — cycle 00086
+
+The Commons holds an open session for anyone who wants to train. Experienced students help newcomers set up safely, and the recovery wing stays busy with stretching and quiet conversation. The strongest presence in the room is not a contest; it is the ease of people who know one another.
+
+Participants: Dan Roman, Adrian Varga, Noah Bell. Location: athletic-commons. Recorded: 2026-11-11T15:05:43.492663+00:00.

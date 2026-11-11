@@ -1941,3 +1941,11 @@ SETH: A line becomes visible between LANTERN MARKET and BLUEWATER QUAY. The arch
 NICK: A quieter path leads from the market to the reservoir, where the city can be seen without being crowded. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 255 — CROSSING / BLUEWATER QUAY / 2026-11-11T15:05:43.424935+00:00
+
+NICK: The world crosses the route from LANTERN MARKET into BLUEWATER QUAY. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: A calm reservoir promenade with a boathouse, tea room, wooden landings, reeds, long benches, and an open horizon. Relation carried forward: THE WATER OPENS THE VIEW.
+
+Rule: meaningful change becomes an outward-facing signal

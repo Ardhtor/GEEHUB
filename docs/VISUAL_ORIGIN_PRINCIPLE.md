@@ -57,3 +57,13 @@ Evidence should be strengthened through repeated comparison, not by repetition o
 The corpus therefore works as a growing body of proof: primary sources remain intact; observations accumulate; continuity records connect them; derivatives remain traceable; and later work can always return to the same evidence. No image is exhausted by one reading, no observation is used up by one scene, and no creative extension is allowed to erase the source that made it possible.
 
 **Renew the evidence; preserve the source; never spend the proof.**
+
+## Gentle evidence practice
+
+Evidence renewal proceeds slowly and gently. A return to a source does not need to produce a new theory, a scene, or a large batch of notes. A single confirmed detail is sufficient. Sometimes the correct result of looking again is to leave the record unchanged. Do not force novelty out of a source, and do not confuse the volume of annotation with the strength of understanding.
+
+Work in small passes. First look without trying to explain. Then record one or more details that are plainly visible, using restrained language. Compare them with the existing continuity record. Only after that comparison should a possible interpretation be added, clearly marked as inference. Keep unanswered questions open. Let a detail remain ordinary until repeated evidence gives it further significance.
+
+Each pass should preserve the earlier record and add a dated, attributable layer rather than silently rewriting history. Corrections should be explicit and should explain what new observation prompted them. When nothing new can be verified, record no change or simply defer the pass. There is no quota for discoveries and no deadline for meaning.
+
+The pace is deliberately unhurried, but the continuity is persistent: return, look, verify, add only what the source supports, and leave the evidence ready for the next encounter. **Gentle attention is a method of preservation.**

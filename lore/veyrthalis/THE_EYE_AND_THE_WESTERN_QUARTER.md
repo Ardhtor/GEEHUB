@@ -43,3 +43,9 @@ The Low Ledger's latest marginal entries:
 The crow continues to move between the Digitorium's western cornice, the market roofs, the southern canal, and the residential quarter. It recognizes the blue-coated visitor's routine but does not yet know his purpose. It has seen the public fountain repaired, the kitchen receive its flour, the bathhouse remain partly closed, and the salvage shop door locked. Its view is incomplete, but it returns to the same places. That repetition is the beginning of the city's record.
 
 *Continuity rule: subsequent Veyrthalis writing must carry these people, places, shortages, repairs, sightings, and unresolved investigations forward. Do not reintroduce them as new discoveries, silently resolve them, or replace established geography with generic atmosphere. New environments should be described through their physical construction, ordinary use, survivability, access, and the changes left by prior events.*
+
+## Parallel record: The First Bell
+
+Merrow Vale's separate observation record, [The Low Ledger — The First Bell](LOW_LEDGER_THE_FIRST_BELL.md), preserves a single bell, an open circle, and an unverified passage between market buildings. It is catalogued as a parallel motif to the Tractus branch *The Beginning of the Dimension*. It does not establish that Joseph and Kirk's first-room event occurred in Veyrthalis, nor that the two passages share a physical destination. Merrow's witness accounts remain separate, and the municipal plan remains unamended until the passage is inspected.
+
+The comparison is useful because it demonstrates the city's existing method: preserve what each observer actually saw, record disagreement, and allow a later discovery to establish or reject a connection. The crow's direction, the porter's report, and the market keeper's non-observation are not to be collapsed into a single authoritative account.

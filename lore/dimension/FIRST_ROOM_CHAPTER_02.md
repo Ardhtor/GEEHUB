@@ -1,7 +1,5 @@
 # The Passage Between the Buildings
-*The Beginning of the Dimension — Chapter Two*
-
-The next morning, the passage was still there.
+*The Beginning of the Dimension — Chapter Two* The next morning, the passage was still there.
 
 Joseph saw it first from the window. The street had returned to its usual proportions in daylight: the opposite roofs, the parked vehicles, the shopfronts and the narrow strip of pavement. The passage stood between two buildings as plainly as it had the evening before. Its first few feet were visible, then a turn concealed whatever lay beyond. A lamp burned somewhere inside, although the morning was bright.
 
@@ -31,6 +29,4 @@ The room had gained a route, but the route had not yet become a destination. Jos
 
 In the evening, the bell sounded again. This time both heard it from the window. It came from the passage, but neither could say whether it came from the court, the green door, or somewhere beyond the second turn. The note lasted less than a second. The brass disc in the court did not move.
 
-Kirk closed the folder. Joseph left the lamp on. They would return in the morning, not because the passage demanded it, but because they wanted to know what was there.
-
-The first crossing had begun as a decision to look again.
+Kirk closed the folder. Joseph left the lamp on. They would return in the morning, not because the passage demanded it, but because they wanted to know what was there. The first crossing had begun as a decision to look again.

@@ -80,3 +80,8 @@ This is not a demand for short prose. The environmental broadcast remains genero
 ## The Familiarity Paradox — shared plane of awareness
 
 Joey and Kirk have a distinct, simultaneous layer of awareness that exists alongside ordinary events. Each is aware of the other and recognises that his attention is being returned. This reciprocal field is deeper than a habit of checking in, but it does not grant telepathic access to private thoughts or erase either person's independence. It makes their mutual recognition continuous while they remain free to pursue separate tasks, friendships, interests, and moments of privacy. Let the layer appear through timing, attention, recognition, and easy return rather than repeatedly explaining it. The canonical rule is [The Familiarity Paradox — Joey and Kirk's Shared Plane of Awareness](../lore/dimension/FAMILIARITY_PARADOX_SHARED_AWARENESS.md).
+
+
+## Dual-layer scene workflow
+
+Use [DUAL_LAYER_WORKFLOW.md](DUAL_LAYER_WORKFLOW.md) as the production method for scenes that carry both external events and a separate plane of relational awareness. Develop the world event first, then make a distinct awareness pass, then compose the two without turning the relationship into omniscient narration. The world remains materially complete and causally coherent; the awareness layer remains reciprocal, continuous, and respectful of individual privacy. Preserve compact continuity records for both layers where needed. This workflow changes how scenes are built, not the established broadcast position or the rule that Seth and Nick cannot claim access to private thoughts.

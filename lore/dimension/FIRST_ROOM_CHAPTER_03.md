@@ -1,7 +1,5 @@
 # Pilling, or Forbidden
-*The Beginning of the Dimension — Chapter Three*
-
-The next morning Joseph found a fine grey residue on the sleeve of his shirt.
+*The Beginning of the Dimension — Chapter Three* The next morning Joseph found a fine grey residue on the sleeve of his shirt.
 
 It was not dust from the street. It gathered in little soft knots along the seam, the sort of pilling that comes from repeated friction: cloth rubbing against a chair, a bag, another surface, the ordinary wear of being used. He picked at one knot and it came away between his fingers. Beneath it the fabric was slightly thinner. He showed Kirk.
 
@@ -23,9 +21,7 @@ The green door gave a low hum. This time the sound did not stop when they approa
 
 "Forbidden," he said, reading a word scratched into the lower corner of the frame.
 
-The word was so shallow that it might have been missed in different light. It was not painted. Someone had cut it into the wood, then rubbed the surface until the letters almost disappeared. Joseph photographed it. The word did not explain whether the door was forbidden to them, whether it marked a room that had been closed, or whether it belonged to an earlier system of signs. It might even have been a warning left by someone who had no knowledge of the page or the bell.
-
-They did not open it.
+The word was so shallow that it might have been missed in different light. It was not painted. Someone had cut it into the wood, then rubbed the surface until the letters almost disappeared. Joseph photographed it. The word did not explain whether the door was forbidden to them, whether it marked a room that had been closed, or whether it belonged to an earlier system of signs. It might even have been a warning left by someone who had no knowledge of the page or the bell. They did not open it.
 
 Instead they examined the timber door. Its handle turned a fraction under Kirk's hand, then met resistance. The wood around the lock was polished by repeated contact. A narrow line of warm air escaped beneath it, carrying the smell of cedar, old paper, and something faintly metallic. Joseph put his palm near the gap. The air was moving outward. Whatever lay behind the door was ventilated, occupied, or connected to a space with a different pressure. That was all they could say.
 
@@ -43,9 +39,7 @@ On the way back to the street they heard the bell again. This time the note seem
 
 At the room, they spread the records across the table. The first page, the photographs, the new fragment, the sleeve envelope, and the notes from the courtyard formed a small arrangement. The objects did not make a map. They made a set of relations. The open circle recurred, but each occurrence differed: ink, brass, print. The word "forbidden" appeared only on the green door. The fragment began with PILL, but its full word was unknown. The residue on the shirt could be ordinary wear. The bell had no confirmed source.
 
-Kirk suggested that "pilling" might describe what happened when one layer rubbed against another until small pieces gathered at the surface. Joseph thought of the passage itself: a new route appearing where two buildings met, not replacing either building but forming at their seam. He thought of the page, whose words seemed to have arrived from somewhere else while remaining physically ordinary. The dimension might be accumulating at points of contact. Or they might be using a metaphor because they had not yet found a better explanation.
-
-They wrote both interpretations down.
+Kirk suggested that "pilling" might describe what happened when one layer rubbed against another until small pieces gathered at the surface. Joseph thought of the passage itself: a new route appearing where two buildings met, not replacing either building but forming at their seam. He thought of the page, whose words seemed to have arrived from somewhere else while remaining physically ordinary. The dimension might be accumulating at points of contact. Or they might be using a metaphor because they had not yet found a better explanation. They wrote both interpretations down.
 
 That afternoon Joseph returned to the green door alone only as far as the street entrance, where he could see the courtyard without entering. A man in work clothes came out of the passage carrying a short ladder. He paused to speak to someone outside the frame of Joseph's view, then went back inside. The ladder was old, with a strip of blue tape around one rung. The man did not look toward Joseph. The passage was part of somebody's working day.
 
@@ -55,9 +49,7 @@ That evening Kirk returned to the question of the word on the green door. "Forbi
 
 They added a new heading to the folder: Pilling, or Forbidden. Beneath it they placed the sleeve record, the torn label, the door inscription, and the photographs of the disc. The title was provisional. It described the two strongest impressions of the day: accumulation through contact, and a boundary whose authority remained uncertain.
 
-The room was quiet. The first page lay where it had always been. Joseph noticed that the paper had begun to soften along its folded edge, not enough to tear, but enough to show that it had been handled many times. He unfolded it carefully. The phrase remained unchanged.
-
-Destiny, her O Dreadmaster.
+The room was quiet. The first page lay where it had always been. Joseph noticed that the paper had begun to soften along its folded edge, not enough to tear, but enough to show that it had been handled many times. He unfolded it carefully. The phrase remained unchanged. Destiny, her O Dreadmaster.
 
 For the first time, the words seemed less like a message addressed to a person and more like a label waiting for its object. They still did not know who or what the Dreadmaster might be. They did not know whether the title was a joke, a threat, a fragment of some larger text, or a phrase that had been separated from its original context. They left it alone.
 
@@ -65,6 +57,4 @@ Before bed, Kirk placed a blank sheet beside the first page. He drew the open ci
 
 In the morning they would ask the municipal office about the old service court. They would also look for the man with the ladder, if he appeared again. The green door could remain closed. The timber door could remain unopened. The arch could keep its impossible square of sunlight.
 
-Nothing had been solved. But the courtyard was no longer empty, and the forbidden word had not prevented them from returning.
-
-The first layer had begun to gather at the seam.
+Nothing had been solved. But the courtyard was no longer empty, and the forbidden word had not prevented them from returning. The first layer had begun to gather at the seam.

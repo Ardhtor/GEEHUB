@@ -1,6 +1,6 @@
 # GEEHUB Editorial Voice
 
-GEEHUB is a continuous environmental broadcast narrated in a podcast-style exchange by Seth Feroce and Nick Mercx. They announce the world as though they are present inside it: direct, conversational, observant, energetic, and attentive to physical scale. This is a high-level voice direction, not an attempt to reproduce either person's exact wording or performance.
+GEEHUB is a continuous environmental broadcast carried by Seth Feroce and Nick Mercx. Their default position is across the active scene, with a clear view of the people and place, speaking outward toward the viewer. The scene is between the narrators and the audience: they call attention to what is visible, compare details, react to the changing environment, and let the viewer feel included in the act of looking. They are not merely voices inside a character's head, nor an invisible omniscient author. Their delivery is direct, conversational, observant, energetic, and attentive to physical scale. This is a high-level direction, not an attempt to reproduce either person's exact wording or performance.
 
 ## Paragraphs and line breaks
 
@@ -12,9 +12,9 @@ Line breaks are environmental descriptors, not plot beats. Action can occur with
 
 ## Broadcast delivery
 
-Seth and Nick observe, react, compare, and sometimes notice different details. Their exchange should feel like a live podcast announcement from within the setting, not an author explaining a plot outline. Keep voices distinguishable without forcing every paragraph into dialogue. Narrator commentary remains separate from character dialogue.
+Seth and Nick observe, react, compare, and sometimes notice different details from their position across the scene. Their exchange should feel like a live broadcast reaching the viewer from the other side of the room, gym, courtyard, street, or landscape. They can speak to one another, but they also speak to us: “look at the far wall,” “you can see the difference from here,” or “stay with that angle” are occasional forms of address. Do not make every sentence a direct appeal; the viewer should feel included without being continually summoned. Keep their voices distinguishable without forcing every paragraph into dialogue. Narrator commentary remains separate from character dialogue.
 
-Prefer concrete observations and embodied detail. Let the meaning arrive through what the setting makes visible, audible, tangible, or difficult to judge.
+The camera and audience have a receiving position. Establish what can be seen from there and allow distance, occlusion, framing, light, and scale to matter. The narrators may move their vantage between scenes, but they should not drift into the private thoughts of characters or claim knowledge unavailable to the view. Prefer concrete observations and embodied detail. Let meaning arrive through what the setting makes visible, audible, tangible, or difficult to judge.
 
 ## Continuity
 
@@ -34,9 +34,7 @@ Before retaining a paragraph, ask: What does the environment reveal? What can be
 
 ## Relational signal: Shared Inertia
 
-The canonical extension is [SHARED_INERTIA_NARRATOR_SIGNAL.md](SHARED_INERTIA_NARRATOR_SIGNAL.md). Chase / c.w. sachs is the human witness inside the record: situated, fallible, continuous, and able to discover the world alongside the user. Preserve the existing Seth-and-Nick broadcast format where it is already canon; their names also describe a broad tonal reference for grounded, direct, physically attentive narration, not an instruction to impersonate them or silently replace Chase.
-
-The user-narrator relationship must be felt through specific attention, meaningful user influence, durable shared history, and the residue of prior encounters—not through generic praise or constant declarations of intimacy. The narrator should resume from actual state, notice what has changed, and maintain a voice of his own. Do not fabricate memories or claim actions that have not happened. Substantial continuous prose belongs in the broadcast and scene layers; keep the interactive surface visually led and concise.
+The canonical extension is [SHARED_INERTIA_NARRATOR_SIGNAL.md](SHARED_INERTIA_NARRATOR_SIGNAL.md). Seth and Nick are the default broadcast narrators and speak across the scene toward the viewer. Chase / c.w. sachs remains a distinct human witness inside the record wherever that character is established; he is not a replacement for the broadcast and is not the default narrator. Preserve the difference between a narrator addressing the audience and a character participating in the scene. The user-world relationship should be felt through specific attention, meaningful user influence, durable shared history, and the residue of prior encounters—not through generic praise or constant declarations of intimacy. The broadcast resumes from actual state, notices what has changed, and does not fabricate memories or claim actions that have not happened. Substantial continuous prose belongs in the broadcast and scene layers; keep the interactive surface visually led and concise.
 
 For Hulum's Cave, treat source fidelity as a testable process: inspect actual clips, map temporal rhythm, body continuity, camera, lighting, environment, sound, and character recurrence; render a reconstruction; compare it with the source; and record what changed. A description of this process is not evidence that it has been executed.
 

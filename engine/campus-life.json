@@ -1,6 +1,25 @@
 {
-  "cycle": 84,
+  "cycle": 85,
   "events": [
+    {
+      "id": "northgate-campus-00085",
+      "cycle": 85,
+      "world_pulse": 254,
+      "at": "2026-11-11T15:02:31.702601+00:00",
+      "region": "founders-dormitory",
+      "title": "THE COURTYARD AFTER RAIN",
+      "kind": "social",
+      "participants": [
+        "Marek Ionescu",
+        "Noah Bell",
+        "Adrian Varga"
+      ],
+      "description": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-11T15:02:31.702601+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00084",
       "cycle": 84,
@@ -1565,27 +1584,27 @@
   ],
   "attendance": {
     "Dan Roman": 65,
-    "Marek Ionescu": 45,
+    "Marek Ionescu": 46,
     "Elliot Ward": 52,
-    "Noah Bell": 52,
-    "Adrian Varga": 51
+    "Noah Bell": 53,
+    "Adrian Varga": 52
   },
   "last_event": {
-    "id": "northgate-campus-00084",
-    "cycle": 84,
-    "world_pulse": 253,
-    "at": "2026-11-11T15:02:19.154080+00:00",
-    "region": "northgate-university",
-    "title": "THE MUSIC SOCIETY REHEARSAL",
-    "kind": "music",
+    "id": "northgate-campus-00085",
+    "cycle": 85,
+    "world_pulse": 254,
+    "at": "2026-11-11T15:02:31.702601+00:00",
+    "region": "founders-dormitory",
+    "title": "THE COURTYARD AFTER RAIN",
+    "kind": "social",
     "participants": [
-      "Adrian Varga",
-      "Elliot Ward",
-      "Dan Roman"
+      "Marek Ionescu",
+      "Noah Bell",
+      "Adrian Varga"
     ],
-    "description": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+    "description": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-11T15:02:19.154080+00:00",
+    "occurred_at": "2026-11-11T15:02:31.702601+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

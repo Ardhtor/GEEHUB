@@ -2277,3 +2277,11 @@ NICK: A detail returns in LANTERN MARKET: A record plays softly near the bookbin
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/lantern-market/README.md.
 
 Source retained: worlds/lantern-market/README.md. Pressure 1.00; memory 1.00.
+
+## LANTERN MARKET / pulse 254 / ROUTE_OPEN
+
+SETH: A line becomes visible between LANTERN MARKET and BLUEWATER QUAY. The archive names the relation "THE WATER OPENS THE VIEW".
+
+NICK: A quieter path leads from the market to the reservoir, where the city can be seen without being crowded. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: worlds/lantern-market/README.md. Pressure 1.00; memory 1.00.

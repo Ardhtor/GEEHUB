@@ -10,6 +10,11 @@ import { REGIONS } from "./growth-state.js";
 import { buildGrowthTargetLandmarks, GROWTH_MESH_ANCHORS } from "./growth-mesh.js";
 import { renderMeshWarp, validateWarpMesh } from "./mesh-warp.js";
 
+export const DEFAULT_TEMPORAL_LIMITS = Object.freeze({
+  maxDisplacementVelocityBodyHeightsPerSecond: 1.5,
+  maxDisplacementAccelerationBodyHeightsPerSecondSquared: 40
+});
+
 function fail(code, message) {
   const error = new Error(message);
   error.code = code;
@@ -130,6 +135,171 @@ function validateFaceMask(mask, width, height, frameNumber) {
     if (value === 255) foreground += 1;
   }
   if (!foreground) fail("mesh-deformation-face-mask-empty", "The protected face mask cannot be empty");
+}
+
+
+function readTemporalLimits(input = {}) {
+  if (!input || typeof input !== "object" || Array.isArray(input)) {
+    fail("mesh-deformation-temporal-limits-invalid", "Temporal limits must be an object");
+  }
+  const allowed = Object.keys(DEFAULT_TEMPORAL_LIMITS);
+  if (Object.keys(input).some(key => !allowed.includes(key))) {
+    fail("mesh-deformation-temporal-limits-invalid", "Temporal limits contain an unknown field");
+  }
+  const limits = { ...DEFAULT_TEMPORAL_LIMITS, ...input };
+  for (const key of allowed) {
+    if (!Number.isFinite(limits[key]) || limits[key] <= 0) {
+      fail("mesh-deformation-temporal-limits-invalid", key + " must be finite and greater than zero");
+    }
+  }
+  return limits;
+}
+
+function analyzeTemporalContinuity(maskMesh, frames, temporalLimits) {
+  const limits = readTemporalLimits(temporalLimits);
+  const usedVertices = [...new Set(maskMesh.triangles.flat())];
+  if (!usedVertices.length) {
+    fail("mesh-deformation-temporal-mesh-empty", "Temporal validation requires used mesh vertices");
+  }
+
+  const heights = maskMesh.frames.map((meshFrame, frameIndex) => {
+    if (!Number.isInteger(meshFrame.frame) || !Number.isFinite(meshFrame.timeSeconds) ||
+        !Array.isArray(meshFrame.sourcePoints)) {
+      fail("mesh-deformation-time-order-invalid", "Every mesh frame requires a frame number, timestamp, and source points");
+    }
+    if (frameIndex > 0) {
+      const previous = maskMesh.frames[frameIndex - 1];
+      if (meshFrame.frame !== previous.frame + 1 || meshFrame.timeSeconds <= previous.timeSeconds) {
+        fail("mesh-deformation-time-order-invalid", "Deformation frames must be contiguous with strictly increasing timestamps");
+      }
+    }
+    const yValues = usedVertices.map(index => meshFrame.sourcePoints[index]?.y);
+    if (yValues.some(value => !Number.isFinite(value))) {
+      fail("mesh-deformation-temporal-mesh-invalid", "Used mesh vertices must have finite source coordinates");
+    }
+    const height = Math.max(...yValues) - Math.min(...yValues);
+    if (!(height > 0)) {
+      fail("mesh-deformation-temporal-mesh-invalid", "The used mesh must have non-zero body height");
+    }
+    return height;
+  });
+
+  const intervals = [];
+  const violations = [];
+  let maximumVelocity = 0;
+  let maximumVelocityPeak = null;
+  for (let frameIndex = 1; frameIndex < frames.length; frameIndex += 1) {
+    const previousFrame = frames[frameIndex - 1];
+    const currentFrame = frames[frameIndex];
+    const durationSeconds = currentFrame.timeSeconds - previousFrame.timeSeconds;
+    if (!Number.isFinite(durationSeconds) || durationSeconds <= 0) {
+      fail("mesh-deformation-time-order-invalid", "Deformation timestamps must increase by a positive duration");
+    }
+    const bodyHeight = (heights[frameIndex - 1] + heights[frameIndex]) / 2;
+    const velocities = new Map();
+    let peak = { value: 0, vertexIndex: usedVertices[0] };
+    for (const vertexIndex of usedVertices) {
+      const previousOffset = {
+        x: previousFrame.targetPoints[vertexIndex].x - previousFrame.sourcePoints[vertexIndex].x,
+        y: previousFrame.targetPoints[vertexIndex].y - previousFrame.sourcePoints[vertexIndex].y
+      };
+      const currentOffset = {
+        x: currentFrame.targetPoints[vertexIndex].x - currentFrame.sourcePoints[vertexIndex].x,
+        y: currentFrame.targetPoints[vertexIndex].y - currentFrame.sourcePoints[vertexIndex].y
+      };
+      const velocity = {
+        x: (currentOffset.x - previousOffset.x) / durationSeconds,
+        y: (currentOffset.y - previousOffset.y) / durationSeconds
+      };
+      velocities.set(vertexIndex, velocity);
+      const normalized = Math.hypot(velocity.x, velocity.y) / bodyHeight;
+      if (normalized > peak.value) peak = { value: normalized, vertexIndex };
+    }
+    maximumVelocity = Math.max(maximumVelocity, peak.value);
+    if (!maximumVelocityPeak || peak.value > maximumVelocityPeak.value) {
+      maximumVelocityPeak = {
+        value: peak.value,
+        vertexId: maskMesh.vertexIds[peak.vertexIndex],
+        fromFrame: previousFrame.frame,
+        toFrame: currentFrame.frame
+      };
+    }
+    intervals.push({
+      fromFrame: previousFrame.frame,
+      toFrame: currentFrame.frame,
+      durationSeconds,
+      maxDisplacementVelocityBodyHeightsPerSecond: peak.value,
+      peakVertexId: maskMesh.vertexIds[peak.vertexIndex],
+      velocities
+    });
+    if (peak.value > limits.maxDisplacementVelocityBodyHeightsPerSecond + 1e-9) {
+      violations.push({
+        type: "displacement-velocity",
+        fromFrame: previousFrame.frame,
+        toFrame: currentFrame.frame,
+        vertexId: maskMesh.vertexIds[peak.vertexIndex],
+        value: peak.value,
+        limit: limits.maxDisplacementVelocityBodyHeightsPerSecond
+      });
+    }
+  }
+
+  let maximumAcceleration = null;
+  let maximumAccelerationPeak = null;
+  for (let intervalIndex = 1; intervalIndex < intervals.length; intervalIndex += 1) {
+    const previousInterval = intervals[intervalIndex - 1];
+    const currentInterval = intervals[intervalIndex];
+    const elapsed = (previousInterval.durationSeconds + currentInterval.durationSeconds) / 2;
+    const bodyHeight = (heights[intervalIndex - 1] + heights[intervalIndex] +
+      heights[intervalIndex + 1]) / 3;
+    let peak = { value: 0, vertexIndex: usedVertices[0] };
+    for (const vertexIndex of usedVertices) {
+      const previousVelocity = previousInterval.velocities.get(vertexIndex);
+      const currentVelocity = currentInterval.velocities.get(vertexIndex);
+      const acceleration = {
+        x: (currentVelocity.x - previousVelocity.x) / elapsed,
+        y: (currentVelocity.y - previousVelocity.y) / elapsed
+      };
+      const normalized = Math.hypot(acceleration.x, acceleration.y) / bodyHeight;
+      if (normalized > peak.value) peak = { value: normalized, vertexIndex };
+    }
+    maximumAcceleration = Math.max(maximumAcceleration ?? 0, peak.value);
+    if (!maximumAccelerationPeak || peak.value > maximumAccelerationPeak.value) {
+      maximumAccelerationPeak = {
+        value: peak.value,
+        vertexId: maskMesh.vertexIds[peak.vertexIndex],
+        fromFrame: maskMesh.frames[intervalIndex - 1].frame,
+        throughFrame: maskMesh.frames[intervalIndex + 1].frame
+      };
+    }
+    if (peak.value > limits.maxDisplacementAccelerationBodyHeightsPerSecondSquared + 1e-9) {
+      violations.push({
+        type: "displacement-acceleration",
+        fromFrame: maskMesh.frames[intervalIndex - 1].frame,
+        throughFrame: maskMesh.frames[intervalIndex + 1].frame,
+        vertexId: maskMesh.vertexIds[peak.vertexIndex],
+        value: peak.value,
+        limit: limits.maxDisplacementAccelerationBodyHeightsPerSecondSquared
+      });
+    }
+  }
+
+  return {
+    status: violations.length ? "blocked-temporal-instability" : "stable",
+    valid: violations.length === 0,
+    units: {
+      velocity: "body-heights-per-second",
+      acceleration: "body-heights-per-second-squared"
+    },
+    limits,
+    maximumDisplacementVelocityBodyHeightsPerSecond: maximumVelocity,
+    maximumDisplacementVelocityPeak: maximumVelocityPeak,
+    maximumDisplacementAccelerationBodyHeightsPerSecondSquared: maximumAcceleration,
+    maximumDisplacementAccelerationPeak: maximumAccelerationPeak,
+    intervals: intervals.map(({ velocities, ...interval }) => interval),
+    samples: usedVertices.length * intervals.length,
+    violations
+  };
 }
 
 function bodyValues(input) {
@@ -288,7 +458,8 @@ export function buildGrowthDeformationSequence({
   baselineBody,
   targetBodies,
   protectedFaceMasks,
-  epsilonPixels = 2
+  epsilonPixels = 2,
+  temporalLimits = {}
 }) {
   const count = maskMesh?.frames?.length ?? 0;
   if (count < 2 || !Array.isArray(landmarkFrames) || !Array.isArray(targetBodies) ||
@@ -319,18 +490,31 @@ export function buildGrowthDeformationSequence({
     protectedFaceMask: protectedFaceMasks[index],
     epsilonPixels
   }));
-  const ready = frames.every(frame => frame.renderable);
+  const temporal = analyzeTemporalContinuity(maskMesh, frames, temporalLimits);
+  if (!temporal.valid) {
+    for (const frame of frames) {
+      frame.renderable = false;
+      frame.status = "blocked-temporal-instability";
+      frame.validation.errors.push({
+        code: "temporal-instability",
+        violations: temporal.violations
+      });
+      frame.validation.temporalStatus = temporal.status;
+    }
+  }
+  const ready = frames.every(frame => frame.renderable) && temporal.valid;
   return {
     schema: "geehub.growth-deformation-sequence",
     schemaVersion: 1,
-    status: ready ? "ready-for-render" : "blocked",
+    status: ready ? "ready-for-render" : temporal.valid ? "blocked" : temporal.status,
     renderable: ready,
     topologyId: maskMesh.topologyId,
     frameCount: count,
     vertexIds: [...maskMesh.vertexIds],
     triangleIds: [...maskMesh.triangleIds],
+    temporal,
     frames,
-    note: "Every frame uses the same vertex and triangle identities. Growth targets are checked for monotonicity; source-motion and mask changes remain per-frame inputs. Smoothness thresholds between adjacent deformations are a separate validation stage."
+    note: "Every frame uses the same vertex and triangle identities. Growth targets are checked for monotonicity, and per-vertex deformation offsets are checked against body-height-normalized velocity and acceleration limits using actual frame timestamps. A temporal failure blocks every frame in the sequence from the pixel renderer."
   };
 }
 

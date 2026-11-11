@@ -27,19 +27,19 @@ function makeMask(width, height, predicate) {
   };
 }
 
-function maskFrame(number, shift = 0) {
+function maskFrame(number, shift = 0, timeSeconds = number / 24) {
   const width = 28, height = 30;
   const face = (x, y) => x >= 11 + shift && x <= 15 + shift && y >= 2 && y <= 8;
   const body = (x, y) => x >= 3 + shift && x <= 23 + shift && y >= 9 && y <= 27;
   return {
     frame: number,
-    timeSeconds: number / 24,
+    timeSeconds,
     bodyMask: makeMask(width, height, body),
     faceMask: { ...makeMask(width, height, face), frame: number }
   };
 }
 
-const landmarks = (number, shift = 0) => {
+const landmarks = (number, shift = 0, timeSeconds = number / 24) => {
   const dx = shift / 28;
   const source = {
     faceCenter: [0.50, 0.08], neck: [0.50, 0.20],
@@ -52,7 +52,7 @@ const landmarks = (number, shift = 0) => {
   };
   return {
     frame: number,
-    timeSeconds: number / 24,
+    timeSeconds,
     landmarks: Object.fromEntries(Object.entries(source).map(([name, [x, y]]) => [
       name, { x: x + dx, y, confidence: 0.99 }
     ]))
@@ -62,8 +62,9 @@ const landmarks = (number, shift = 0) => {
 const body = overrides => Object.fromEntries(REGIONS.map(region => [
   region, overrides?.[region] ?? 1
 ]));
-const setup = () => {
-  const masks = [maskFrame(0), maskFrame(1, 1)];
+const scaledBody = scale => Object.fromEntries(REGIONS.map(region => [region, scale]));
+const setup = (count = 2) => {
+  const masks = Array.from({ length: count }, (_, index) => maskFrame(index, index));
   const maskMesh = buildStableMaskMesh(masks, { columns: 6, rows: 8 });
   assert.equal(maskMesh.status, "ready");
   return { masks, maskMesh };
@@ -186,4 +187,101 @@ test("rejects mismatched frame evidence and missing protected-face pixels", () =
     ...args, landmarkFrame: landmarks(0),
     protectedFaceMask: { ...makeMask(28, 30, () => false), frame: 0 }
   }), error => error.code === "mesh-deformation-face-mask-empty");
+});
+
+
+test("sequence accepts gradual growth and reports timestamp-based temporal measurements", () => {
+  const { masks, maskMesh } = setup(3);
+  const result = buildGrowthDeformationSequence({
+    maskMesh,
+    landmarkFrames: [landmarks(0), landmarks(1, 1), landmarks(2, 2)],
+    baselineBody: body(),
+    targetBodies: [body(), scaledBody(1.02), scaledBody(1.04)],
+    protectedFaceMasks: masks.map(frame => frame.faceMask)
+  });
+  assert.equal(result.status, "ready-for-render");
+  assert.equal(result.temporal.status, "stable");
+  assert.equal(result.temporal.intervals.length, 2);
+  assert.ok(result.temporal.maximumDisplacementVelocityBodyHeightsPerSecond <
+    result.temporal.limits.maxDisplacementVelocityBodyHeightsPerSecond);
+});
+
+test("sudden per-frame deformation velocity blocks every frame from rendering", () => {
+  const { masks, maskMesh } = setup(2);
+  const result = buildGrowthDeformationSequence({
+    maskMesh,
+    landmarkFrames: [landmarks(0), landmarks(1, 1)],
+    baselineBody: body(),
+    targetBodies: [body(), scaledBody(1.1)],
+    protectedFaceMasks: masks.map(frame => frame.faceMask),
+    temporalLimits: {
+      maxDisplacementVelocityBodyHeightsPerSecond: 0.5,
+      maxDisplacementAccelerationBodyHeightsPerSecondSquared: 40
+    }
+  });
+  assert.equal(result.status, "blocked-temporal-instability");
+  assert.equal(result.temporal.violations[0].type, "displacement-velocity");
+  assert.ok(result.frames.every(frame => frame.renderable === false));
+  const frame = result.frames[0];
+  const context = {
+    save() {}, beginPath() {}, moveTo() {}, lineTo() {}, closePath() {},
+    clip() {}, transform() {}, restore() {}, drawImage() {}
+  };
+  assert.throws(() => renderGrowthDeformationFrame(context, {}, frame),
+    error => error.code === "mesh-deformation-plan-not-renderable");
+});
+
+test("acceleration guard catches an abrupt start and stop below the velocity limit", () => {
+  const { masks, maskMesh } = setup(3);
+  const result = buildGrowthDeformationSequence({
+    maskMesh,
+    landmarkFrames: [landmarks(0), landmarks(1, 1), landmarks(2, 2)],
+    baselineBody: body(),
+    targetBodies: [body(), scaledBody(1.1), scaledBody(1.1)],
+    protectedFaceMasks: masks.map(frame => frame.faceMask),
+    temporalLimits: {
+      maxDisplacementVelocityBodyHeightsPerSecond: 5,
+      maxDisplacementAccelerationBodyHeightsPerSecondSquared: 10
+    }
+  });
+  assert.equal(result.status, "blocked-temporal-instability");
+  assert.ok(result.temporal.violations.some(item => item.type === "displacement-acceleration"));
+});
+
+test("temporal analysis uses irregular source timestamps instead of assuming a fixed frame rate", () => {
+  const masks = [maskFrame(0, 0, 0), maskFrame(1, 1, 0.1), maskFrame(2, 2, 0.5)];
+  const maskMesh = buildStableMaskMesh(masks, { columns: 6, rows: 8 });
+  const result = buildGrowthDeformationSequence({
+    maskMesh,
+    landmarkFrames: [landmarks(0, 0, 0), landmarks(1, 1, 0.1), landmarks(2, 2, 0.5)],
+    baselineBody: body(),
+    targetBodies: [body(), scaledBody(1.02), scaledBody(1.04)],
+    protectedFaceMasks: masks.map(frame => frame.faceMask)
+  });
+  assert.deepEqual(result.temporal.intervals.map(interval => interval.durationSeconds), [0.1, 0.4]);
+  assert.equal(result.temporal.status, "stable");
+});
+
+test("rejects non-increasing timestamps and invalid temporal limits", () => {
+  const { masks, maskMesh } = setup(2);
+  const brokenMesh = {
+    ...maskMesh,
+    frames: maskMesh.frames.map((frame, index) =>
+      index === 1 ? { ...frame, timeSeconds: 0 } : frame)
+  };
+  assert.throws(() => buildGrowthDeformationSequence({
+    maskMesh: brokenMesh,
+    landmarkFrames: [landmarks(0), landmarks(1, 1, 0)],
+    baselineBody: body(),
+    targetBodies: [body(), body()],
+    protectedFaceMasks: masks.map(frame => frame.faceMask)
+  }), error => error.code === "mesh-deformation-time-order-invalid");
+  assert.throws(() => buildGrowthDeformationSequence({
+    maskMesh,
+    landmarkFrames: [landmarks(0), landmarks(1, 1)],
+    baselineBody: body(),
+    targetBodies: [body(), body()],
+    protectedFaceMasks: masks.map(frame => frame.faceMask),
+    temporalLimits: { maxDisplacementVelocityBodyHeightsPerSecond: 0 }
+  }), error => error.code === "mesh-deformation-temporal-limits-invalid");
 });

@@ -1,6 +1,14 @@
 # GEEHUB construction state
 
-Updated: 2026-11-09
+Updated: 2026-11-11
+
+## Temporal deformation continuity added — 2026-11-11
+- `core/mesh-deformation.js` now evaluates the change in each used vertex's deformation offset (`targetPoint - sourcePoint`) across adjacent source frames. Velocity is normalized by the average tracked body-mesh height and divided by the actual timestamp interval; acceleration compares adjacent interval velocities at their midpoint spacing. The validator therefore does not assume a rounded or fixed FPS.
+- Default limits are 1.5 body-heights/second for deformation velocity and 40 body-heights/second-squared for acceleration. Callers can override either positive finite limit through `temporalLimits`. Unknown keys, zero/negative values, non-finite values, non-increasing timestamps, and non-contiguous frame numbers are rejected.
+- A velocity or acceleration violation changes the sequence status to `blocked-temporal-instability`, marks every frame plan non-renderable, and adds the temporal violation to each frame's validation errors. This prevents a caller from extracting one otherwise-valid frame from an unstable sequence and sending it to the pixel renderer.
+- The audit reports measured interval durations, peak velocity/acceleration, the vertex responsible for each peak, configured limits, and violation records. With only two frames, acceleration is unavailable and reported as null; velocity is still checked.
+- Five focused tests were added for gradual growth, abrupt velocity, abrupt start/stop acceleration, irregular timestamps, and invalid time/limit inputs. The full GitHub Actions package run is pending; no passing CI result is claimed yet.
+- This is a geometric continuity guard, not optical-flow tracking or a perceptual smoothness guarantee. It evaluates deformation offsets relative to the tracked source mesh, so source motion remains represented by the per-frame source coordinates. No local Mac, Dropbox mirror, Resolve session, or user footage was accessed, and no frame was rendered.
 
 ## Stable mask-derived mesh added — 2026-11-09
 - `engine/growth-video-studio/core/mask-mesh.js` builds a fixed-index 2D grid mesh from at least two decoded body/face mask frames. Vertex IDs are assigned by grid row/column; triangle IDs are stable cell/diagonal identifiers. Each frame supplies source-pixel coordinates for the same vertex IDs, mapped across that frame's body-mask bounds.

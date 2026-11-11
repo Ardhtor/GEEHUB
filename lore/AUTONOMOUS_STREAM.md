@@ -1925,3 +1925,11 @@ SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 253 — MEMORY / LANTERN MARKET / 2026-11-11T15:02:19.077619+00:00
+
+NICK: A detail returns in LANTERN MARKET: A record plays softly near the bookbinder's stall. People pause at the fountain, exchange small discoveries, and make room for someone arriving from the quay.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/lantern-market/README.md.
+
+Rule: comparison can become differentiation

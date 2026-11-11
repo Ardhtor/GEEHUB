@@ -9975,6 +9975,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000253",
+      "created_at": "2026-11-11T15:02:19.077619+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "LANTERN MARKET",
+      "content": "NICK: A detail returns in LANTERN MARKET: A record plays softly near the bookbinder's stall. People pause at the fountain, exchange small discoveries, and make room for someone arriving from the quay.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/lantern-market/README.md.",
+      "lineage": {
+        "event_id": "world-pulse-000253",
+        "event": {
+          "id": "world-pulse-000253",
+          "pulse": 253,
+          "time": "2026-11-11T15:02:19.077619+00:00",
+          "actor": "TYLER",
+          "world": "LANTERN MARKET",
+          "region_id": "lantern-market",
+          "previous_region_id": "lantern-market",
+          "phase": "MEMORY",
+          "source": "worlds/lantern-market/README.md",
+          "desire_state": "recognition",
+          "action": "NICK: A detail returns in LANTERN MARKET: A record plays softly near the bookbinder's stall. People pause at the fountain, exchange small discoveries, and make room for someone arriving from the quay.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/lantern-market/README.md.",
+          "narrative_rule": "comparison can become differentiation",
+          "relation": null,
+          "next_region": null,
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-11T15:02:19.077619+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000253",
+      "created_at": "2026-11-11T15:02:19.077619+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "MEMORY / LANTERN MARKET / worlds/lantern-market/README.md",
+      "content": "NICK: A detail returns in LANTERN MARKET: A record plays softly near the bookbinder's stall. People pause at the fountain, exchange small discoveries, and make room for someone arriving from the quay.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/lantern-market/README.md.",
+      "production_note": "The world resolved its memory rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 253,
+        "actor": "TYLER",
+        "world": "LANTERN MARKET",
+        "region_id": "lantern-market",
+        "source": "worlds/lantern-market/README.md",
+        "phase": "MEMORY",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00084",
+      "created_at": "2026-11-11T15:02:19.154080+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE MUSIC SOCIETY REHEARSAL",
+      "content": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+      "lineage": {
+        "event_id": "northgate-campus-00084",
+        "event": {
+          "id": "northgate-campus-00084",
+          "cycle": 84,
+          "world_pulse": 253,
+          "at": "2026-11-11T15:02:19.154080+00:00",
+          "region": "northgate-university",
+          "title": "THE MUSIC SOCIETY REHEARSAL",
+          "kind": "music",
+          "participants": [
+            "Adrian Varga",
+            "Elliot Ward",
+            "Dan Roman"
+          ],
+          "description": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-11T15:02:19.154080+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

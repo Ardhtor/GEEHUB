@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00193",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00193.json",
+      "route": {
+        "from": "bluewater-quay",
+        "to": "lantern-market",
+        "relation": "THE WATER OPENS THE VIEW"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-11T17:11:45.848Z"
+    },
+    {
+      "id": "scheduled-video-00193",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00193.json",
+      "route": {
+        "from": "bluewater-quay",
+        "to": "lantern-market",
+        "relation": "THE WATER OPENS THE VIEW"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-11T17:11:45.848Z"
+    },
+    {
+      "id": "scheduled-space-00193",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00193.json",
+      "route": {
+        "from": "bluewater-quay",
+        "to": "lantern-market",
+        "relation": "THE WATER OPENS THE VIEW"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-11T17:11:45.848Z"
+    },
+    {
       "id": "scheduled-sound-00192",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-22T21:28:48.840Z"
-    },
-    {
-      "id": "scheduled-sound-00093",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00093.json",
-      "route": {
-        "from": "luke-bwomph",
-        "to": "embodied-scale",
-        "relation": "THE BAR GYM REMEMBERS"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-22T17:59:38.356Z"
-    },
-    {
-      "id": "scheduled-video-00093",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00093.json",
-      "route": {
-        "from": "luke-bwomph",
-        "to": "embodied-scale",
-        "relation": "THE BAR GYM REMEMBERS"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-22T17:59:38.356Z"
-    },
-    {
-      "id": "scheduled-space-00093",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00093.json",
-      "route": {
-        "from": "luke-bwomph",
-        "to": "embodied-scale",
-        "relation": "THE BAR GYM REMEMBERS"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-22T17:59:38.356Z"
     }
   ]
 }

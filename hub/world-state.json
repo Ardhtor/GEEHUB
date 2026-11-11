@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00192.json",
+  "activeRecording": "./recordings/scheduled-recording-00193.json",
   "activeEncounter": {
     "regionId": "lantern-market",
     "regionName": "LANTERN MARKET",
     "subject": {
-      "agent": "tyler",
-      "scale": 14.74,
+      "agent": "andrew",
+      "scale": 14.82,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / BLUEWATER QUAY → LANTERN MARKET / TYLER",
+    "intent": "LONG PLAY / BLUEWATER QUAY → LANTERN MARKET / ANDREW",
     "continuity": [
       "face",
       "identity",
@@ -21,7 +21,7 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 14.69× → 14.74×",
+      "scale 14.74× → 14.82×",
       "BLUEWATER QUAY → LANTERN MARKET",
       "relation: THE WATER OPENS THE VIEW",
       "room clearance recalibrated",
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-11T09:03:55.755Z",
+  "snapshot": "2026-11-11T17:11:45.848Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 192,
-    "agent": "tyler",
+    "cycle": 193,
+    "agent": "andrew",
     "previousRegionId": "bluewater-quay",
     "regionId": "lantern-market",
     "relation": "THE WATER OPENS THE VIEW",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 14.69,
-    "scale": 14.74,
-    "recording": "scheduled-recording-00192",
-    "at": "2026-11-11T09:03:55.755Z"
+    "previousScale": 14.74,
+    "scale": 14.82,
+    "recording": "scheduled-recording-00193",
+    "at": "2026-11-11T17:11:45.848Z"
   }
 }

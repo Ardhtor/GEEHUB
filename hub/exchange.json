@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-11T09:03:55.755Z",
+  "generated": "2026-11-11T17:11:45.848Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00193",
+      "at": "2026-11-11T17:11:45.848Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / BLUEWATER QUAY → LANTERN MARKET / ANDREW",
+      "body": "The world crossed the existing relation \"THE WATER OPENS THE VIEW\" from BLUEWATER QUAY into LANTERN MARKET. Scale increased from 14.74× to 14.82×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00193",
+      "live": true,
+      "regionId": "lantern-market",
+      "previousRegionId": "bluewater-quay",
+      "relation": "THE WATER OPENS THE VIEW"
+    },
     {
       "id": "scheduled-long-play-00192",
       "at": "2026-11-11T09:03:55.755Z",
@@ -1482,21 +1497,6 @@
       "regionId": "luke-bwomph",
       "previousRegionId": "deep-lore",
       "relation": "THE FACE REMAINS"
-    },
-    {
-      "id": "scheduled-long-play-00096",
-      "at": "2026-10-23T04:54:59.481Z",
-      "from": "geehub-long-play",
-      "to": "luke",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / VEYRTHALIS → DEEP LORE / LUKE",
-      "body": "The world crossed the existing relation \"DEPARTURE LEAVES A SHAPE\" from VEYRTHALIS into DEEP LORE. Scale increased from 8.58× to 8.61×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00096",
-      "live": true,
-      "regionId": "deep-lore",
-      "previousRegionId": "veyrthalis",
-      "relation": "DEPARTURE LEAVES A SHAPE"
     }
   ]
 }

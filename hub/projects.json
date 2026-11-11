@@ -1610,5 +1610,20 @@
       "first-room-chapters",
       "tractus-continuity"
     ]
+  },
+  {
+    "id": "visual-evidence-ledger",
+    "name": "Visual Evidence Ledger",
+    "group": "production-system",
+    "status": "active",
+    "summary": "Persistent source-linked record for gentle repeated visual observation, continuity checks, uncertainty, provenance, and derivative comparison.",
+    "path": "../docs/VISUAL_EVIDENCE_LEDGER.md",
+    "tags": [
+      "visual",
+      "evidence",
+      "provenance",
+      "continuity",
+      "observation"
+    ]
   }
 ]

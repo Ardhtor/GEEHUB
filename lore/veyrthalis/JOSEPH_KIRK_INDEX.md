@@ -63,3 +63,8 @@ This branch remains experimental until reconciled with the older Veyrthalis mate
 ## Expanded-presence editorial pass — 2026-11-07
 
 Chapters I–IV have received a sensory and relational deepening pass: warmth carried by surfaces, ordinary city life around the expedition, distinct witness perception, and more generous time around the characters' choices. Chapters V–VII in the adjacent Veyrthalis sequence have also been expanded with environmental and interpersonal passages. The additions preserve the experimental status of the Joseph/Kirk branch, keep the four accounts distinct, and do not treat fictional material as evidence about real people. This is one completed batch in a continuing corpus-wide pass; it does not imply that every GEEHUB text has been revised.
+
+
+## Kirk's mental space — The Marked
+
+[Kirk's Mental Space — The Marked](KIRK_MENTAL_SPACE_THE_MARKED.md) records the user-established inner circle of fellows marked by Kirk's love. Marked status grants deeper and more durable access to the inner house, while preserving Kirk's private chambers, each fellow's agency, and the distinction between fictional characters and real-world reference identities. The initial roster contains twelve unique names; Michael Brock's repeated mention is normalized to one entry.

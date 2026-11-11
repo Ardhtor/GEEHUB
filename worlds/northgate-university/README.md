@@ -8,3 +8,6 @@ Northgate is populated by adult men with distinct backgrounds, temperaments, amb
 
 
 The university's candid culture of men's bodies, proportions and physical development is a recurring part of residential life. It is described in `BODY_CULTURE.md`, where curiosity and frank conversation coexist with personal boundaries and character continuity.
+
+
+The university's engineering and athletic cultures meet in [The Second Bridge Test](THE_SECOND_BRIDGE_TEST.md), a continuation of the Long Table project in which movement, stopping, maintenance and shared use change the design.

@@ -147,3 +147,8 @@ The branch connects to the Institute through residential continuity and to Veyrt
 ### The Beginning of the Dimension — Chapter Three
 
 The third chapter, [Pilling, or Forbidden](../lore/dimension/FIRST_ROOM_CHAPTER_03.md), extends the first courtyard investigation. It introduces the first evidence of accumulated wear, the scratched word on the green door, a torn label, a changed orientation of the brass disc, and a worker carrying a ladder through the passage. These details establish the dimension as a place with maintenance and ordinary inhabitants, not merely a supernatural puzzle. The word “forbidden” remains an observed inscription rather than a rule accepted by the visitors. The chapter's unresolved tension is between accumulation through contact and the uncertain authority of a boundary.
+
+
+### The Beginning of the Dimension — Chapter Four
+
+[The Service Ledger](../lore/dimension/FIRST_ROOM_CHAPTER_04.md) extends the courtyard investigation through the municipal records office and the maintenance worker's account of the back court. The branch now uses Seth and Nick's viewer-facing broadcast: their vantage is across the active scene, and their commentary reaches the audience through what can be seen from that side. The Teal Titan's [Exhibition chapter](../production/projects/teal-titan-golds-on-5th/CHAPTER_04_THE_EXHIBITION.md) is the production reference for this narrator-to-viewer relationship. This is a narration convention, not a merger of the two stories.

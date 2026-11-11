@@ -115,3 +115,8 @@ The atlas currently leaves several routes open. The Meridian Basin can continue 
 These openings are not a checklist that must be completed. They are invitations for the next consequential scene.
 
 **A world is bigger when it contains more life than the current story knows how to follow.**
+
+
+## Hypermasculinity as a worldbuilding system
+
+The [Hypermasculinity Engine](HYPERMASCULINITY_ENGINE.md) is a reusable cultural engine for adult fictional settings. It develops masculine embodiment and presence alongside capability, discipline, brotherhood, competition, style, lineage, care, vulnerability, and local ritual. It is not a universal template imposed on every man or world. Each setting interprets these dimensions through its own history and material conditions. The [Inhabitant Life Engine](INHABITANT_LIFE_ENGINE.md) keeps the resulting practices and relationships active across time, including when characters are off-screen.

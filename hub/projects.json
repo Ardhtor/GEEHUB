@@ -1521,5 +1521,49 @@
       "beginning-of-the-dimension",
       "tractus-world-atlas"
     ]
+  },
+  {
+    "id": "first-room-chapter-eight-under-roots",
+    "name": "Under the Roots",
+    "group": "story",
+    "status": "active",
+    "summary": "Joseph and Kirk work with the woodland maintenance crew to reopen the lower hall, clear its drainage and recover the older maps preserved beneath the Crownheart.",
+    "path": "../lore/dimension/FIRST_ROOM_CHAPTER_08.md",
+    "tags": [
+      "story",
+      "sequoia",
+      "lower-hall",
+      "drainage",
+      "joseph",
+      "kirk",
+      "continuity"
+    ],
+    "related": [
+      "sequoia-woodlands",
+      "first-room-chapter-seven-crownheart",
+      "first-room-chapter-nine-lower-terrace"
+    ]
+  },
+  {
+    "id": "first-room-chapter-nine-lower-terrace",
+    "name": "The Lower Terrace",
+    "group": "story",
+    "status": "active",
+    "summary": "The drainage survey uncovers a covered terrace, an old oak frame, and plans for a working network beneath the sequoia forest designed to keep the upper woodland open.",
+    "path": "../lore/dimension/FIRST_ROOM_CHAPTER_09.md",
+    "tags": [
+      "story",
+      "sequoia",
+      "lower-works",
+      "terrace",
+      "architecture",
+      "joseph",
+      "kirk"
+    ],
+    "related": [
+      "sequoia-woodlands",
+      "first-room-chapter-eight-under-roots",
+      "first-room-chapter-seven-crownheart"
+    ]
   }
 ]

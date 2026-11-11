@@ -72,3 +72,12 @@ Andrew's physical and sporting identity has now been established by the user: a 
 ## Volume III character records
 
 The Confluence's Volume III introduces longer fictional lives and interconnected scenes. Its newly developed records keep provisional additions separate from established identity and source material: [Marcus](records/MARCUS.md) preserves his Gold's on 5th production identity without collapsing it into the wider Teal Titan lineage, and [Dan Roman](records/DAN_ROMAN.md) records a fictional portrait while leaving unsupported real-world biography unresolved. See [Expansion Atlas, Volume III — The People](../lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md) for the connected chapters.
+
+
+## New character records — Chapters LXXVII–LXXVIII
+
+- [Travis](records/TRAVIS.md) — adult son of Mr. Kaufman; the training relationship records the distinction between coaching and fatherhood.
+- [Mr. Kaufman](records/MR_KAUFMAN.md) — Travis's father and coach; authority is expressed through attentive instruction and the ability to make room for his son's own judgement.
+- [Daniel Goebel](records/DANIEL_GOEBEL.md) — adult resident whose former size-50 footwear becomes a retained physical-continuity baseline after he outgrows it.
+
+These are provisional fictional records. Their biographies remain open beyond the scenes that establish them.

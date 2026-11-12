@@ -1110,7 +1110,8 @@
       "tractus-world-atlas",
       "institute-of-becoming",
       "teal-titan-golds-on-5th",
-      "first-room-chapter-four"
+      "first-room-chapter-four",
+      "first-room-chapter-ten"
     ],
     "tags": [
       "story",
@@ -1123,7 +1124,11 @@
       "incubating",
       "seth",
       "nick",
-      "viewer-facing-broadcast"
+      "viewer-facing-broadcast",
+      "neptune",
+      "zeus",
+      "god-daddy",
+      "lineage-pantheon"
     ]
   },
   {
@@ -1336,6 +1341,32 @@
       "seth",
       "nick",
       "continuity"
+    ]
+  },
+  {
+    "id": "first-room-chapter-ten",
+    "name": "The Hall of Three Powers",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_10.md",
+    "description": "Neptune reveals a buried waterway, Zeus makes the passage's reopening publicly accountable, and God Daddy protects the crew; Seth and Nick carry the viewer-facing broadcast.",
+    "related": [
+      "beginning-of-the-dimension",
+      "lineage-pantheon",
+      "dimensional-conjuration",
+      "first-room-chapter-nine-lower-terrace",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "story",
+      "chapter",
+      "neptune",
+      "zeus",
+      "god-daddy",
+      "lineage-pantheon",
+      "viewer-facing-broadcast",
+      "lower-works"
     ]
   }
 ]

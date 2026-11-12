@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00196",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00196.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "NORTHGATE LIBRARY → NORTHGATE UNIVERSITY / LUKE",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00196. Travel from NORTHGATE LIBRARY into NORTHGATE UNIVERSITY through the relation \"THE LATE LAMPS OF NORTHGATE\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 14.98× to 15.01× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-12T12:45:59.266Z",
+      "lineage": {
+        "from": "northgate-library",
+        "to": "northgate-university",
+        "relation": "THE LATE LAMPS OF NORTHGATE",
+        "cycle": 196
+      }
+    },
+    {
       "id": "scheduled-image-00195",
       "status": "QUEUED",
       "type": "IMAGE",

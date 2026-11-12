@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-12T04:07:22.346Z",
+  "generated": "2026-11-12T12:45:59.266Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00196",
+      "at": "2026-11-12T12:45:59.266Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / NORTHGATE LIBRARY → NORTHGATE UNIVERSITY / LUKE",
+      "body": "The world crossed the existing relation \"THE LATE LAMPS OF NORTHGATE\" from NORTHGATE LIBRARY into NORTHGATE UNIVERSITY. Scale increased from 14.98× to 15.01×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00196",
+      "live": true,
+      "regionId": "northgate-university",
+      "previousRegionId": "northgate-library",
+      "relation": "THE LATE LAMPS OF NORTHGATE"
+    },
     {
       "id": "scheduled-long-play-00195",
       "at": "2026-11-12T04:07:22.346Z",
@@ -1482,21 +1497,6 @@
       "regionId": "beefythiq",
       "previousRegionId": "complex",
       "relation": "MASS BECOMES WEATHER"
-    },
-    {
-      "id": "scheduled-long-play-00099",
-      "at": "2026-10-23T18:58:50.062Z",
-      "from": "geehub-long-play",
-      "to": "joseph",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / GROWTH CANVAS → THE COMPLEX / JOSEPH",
-      "body": "The world crossed the existing relation \"KISS = CONTINUITY\" from GROWTH CANVAS into THE COMPLEX. Scale increased from 8.74× to 8.86×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00099",
-      "live": true,
-      "regionId": "complex",
-      "previousRegionId": "growth",
-      "relation": "KISS = CONTINUITY"
     }
   ]
 }

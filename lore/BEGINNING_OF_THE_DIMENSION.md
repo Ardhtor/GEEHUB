@@ -113,3 +113,16 @@ The Institute's training floor and residential quarter establish the social infr
 ## Chapter Ten — The Hall of Three Powers
 
 [Chapter Ten: The Hall of Three Powers](dimension/FIRST_ROOM_CHAPTER_10.md) brings the Lineage Pantheon directly into the lower works beneath the sequoia forest. Neptune reveals the buried water route through depth and pressure; Zeus turns the question of reopening the passage into a public test of authority and consequence; God Daddy protects the crew when a weakened support shifts, preserving their ability to leave and continue the work. Their roles remain distinct and are grounded in the [Lineage Pantheon](LINEAGE_PANTHEON.md). Seth and Nick continue to narrate from across the scene toward the viewer; the gods speak and act as in-world participants. God Daddy is not conflated with Book I's archival phenomenon, Big Daddy's Voice. The lower route remains closed pending a practical survey.
+
+
+## Chapter Eleven — The Blue Survey
+
+[Chapter Eleven: The Blue Survey](dimension/FIRST_ROOM_CHAPTER_11.md) follows the water route beneath the lower terrace. Mara, Pell, and Orlan become more fully established through their differing forms of knowledge: Mara separates measurements from uncertain correspondences, Pell reads load and construction, and Orlan carries the imperfect memory of the old closure. Neptune reveals the channel's remembered branches without pretending that every section is physically open. Zeus insists that the gate's consequences remain public and accountable. God Daddy supports the crew with practical care and makes room for the work to proceed without coercion. The old gate is reinforced but remains closed; a marked strip of blue wood is recovered from the current.
+
+## Chapter Twelve — The Open Table
+
+[Chapter Twelve: The Open Table](dimension/FIRST_ROOM_CHAPTER_12.md) moves the question from the lower chamber to the Crownheart gallery, where residents, carpenters, kitchen staff, maintenance workers, and the survey crew consider what opening the route would mean for ordinary life. The gathering establishes a monitored trial, visible water limits, a clear return route, an upper rest station, and the right to decline entry. Zeus makes authority answerable to the public; Neptune argues that water must be governed through continued attention rather than a fixed rule mistaken for the whole current; God Daddy makes protection practical through shelter, food, access, and freedom to leave. The decision belongs to the inhabitants who will live with the route.
+
+## Chapter Thirteen — The Trial of the Lower Gate
+
+[Chapter Thirteen: The Trial of the Lower Gate](dimension/FIRST_ROOM_CHAPTER_13.md) carries the public decision into action. The crew opens the old gate within its agreed limits, inspects the first chamber, and discovers a window looking directly into a room matching Joseph and Kirk's original first room: the table, the two unmatched chairs, the leaning lamp, the street, and the pipe. The page is absent, and the chamber's relation to the first room remains unresolved. The team closes the gate after the trial and records its measurements, photographs, and remaining questions. The first room has reappeared as a destination or correspondence, but the author of its page and the meaning of “O Dreadmaster” remain unknown.

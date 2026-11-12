@@ -1743,5 +1743,28 @@
       "first-room-chapter-ten",
       "tractus-world-atlas"
     ]
+  },
+  {
+    "id": "visual-quality-standard",
+    "name": "Visual Quality Acceptance Standard",
+    "group": "production-system",
+    "status": "active",
+    "summary": "Production acceptance gates for identity, anatomy, silhouette, pose, materials, camera, environments, and temporal finish, judged against the user's supplied visual reference.",
+    "path": "../docs/VISUAL_QUALITY_ACCEPTANCE_STANDARD.md",
+    "tags": [
+      "visual",
+      "quality",
+      "acceptance",
+      "reference",
+      "continuity",
+      "rendering",
+      "production"
+    ],
+    "related": [
+      "visual-evidence-ledger",
+      "sensation-engine",
+      "hulums-cave",
+      "character-records"
+    ]
   }
 ]

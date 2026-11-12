@@ -1,6 +1,13 @@
 # GEEHUB construction state
 
-Updated: 2026-11-11
+Updated: 2026-11-12
+
+## Fixed-index mask mesh registered as typed bridge evidence — 2026-11-12
+- prepareFrameSequenceBridgeInputs() now requires the frame-sequence audit's meshReady=true result and serializes the stable mask mesh as a deformation frame set using geehub.mask-mesh-evidence.v1. The sidecar carries the grid, topology digest, stable vertex/triangle IDs, triangle indices, per-frame source-pixel coordinates, bounds, and mask-relative coverage evidence.
+- The adapter recomputes the topology digest from grid dimensions, vertex IDs, triangle IDs, and triangle indices before creating the sidecar. It checks frame range, timestamps, coordinate count, finite in-frame coordinates, and the explicit pixelSemanticsVerified=false boundary.
+- frame-sequence-registration.js now publishes three immutable sidecars—segmentation, landmarks, and deformation mesh—then verifies each file's actual SHA-256 bytes before writing the versioned manifest last. Default exchange paths include deformation-mesh.json; GEEHUB_FRAME_DEFORMATION_URI can override that path. The manifest revision advances by three for this registration.
+- frame-sequence.test.js now covers the third frame set, topology identity propagation, stale topology digest refusal, three-sidecar read-back, and non-overwriting registration. The full package workflow is pending; no passing CI result is claimed until its status is available.
+- This stores source-space mesh correspondence only. The render-job preparer does not yet require or consume the deformation frame set, no growth deformation is written into the sidecar, and no local Dropbox/Resolve runtime or source footage was accessed.
 
 ## Temporal deformation continuity added — 2026-11-11
 - `core/mesh-deformation.js` now evaluates the change in each used vertex's deformation offset (`targetPoint - sourcePoint`) across adjacent source frames. Velocity is normalized by the average tracked body-mesh height and divided by the actual timestamp interval; acceleration compares adjacent interval velocities at their midpoint spacing. The validator therefore does not assume a rounded or fixed FPS.
@@ -128,7 +135,7 @@ Updated: 2026-11-11
 ## Next construction targets
 1. Connect a real segmentation and landmark producer, then independently verify anatomical correctness; the current masks remain external producer inputs.
 2. Map the fixed-index mask-mesh vertices through the articulated growth landmarks and test a two-frame warp while preserving the face and untouched background.
-3. Register the mesh topology and per-frame vertex coordinates as typed bridge evidence, then make the queued render job require that exact mesh revision.
+3. Make render-job preparation require the registered deformation frame set's exact sidecar checksum and topology digest, then revalidate it against freshly inspected masks before queueing.
 4. Build the per-frame deformation worker and add temporal validation plus scene response for silhouette stability, clothing, ground contact, camera clearance, and occlusion.
 5. Return rendered frames and a checksummed video artifact to the bridge, then verify Resolve import and export behavior.
 

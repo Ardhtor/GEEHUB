@@ -390,7 +390,12 @@
       "male-harem-virtual-space",
       "sensation-engine",
       "teal-titan-golds-on-5th",
-      "tractus-world-atlas"
+      "tractus-world-atlas",
+      "beginning-of-the-dimension",
+      "first-room-chapter-ten",
+      "first-room-chapter-eleven",
+      "first-room-chapter-twelve",
+      "first-room-chapter-thirteen"
     ],
     "tags": [
       "god-daddy",
@@ -1111,7 +1116,10 @@
       "institute-of-becoming",
       "teal-titan-golds-on-5th",
       "first-room-chapter-four",
-      "first-room-chapter-ten"
+      "first-room-chapter-ten",
+      "first-room-chapter-eleven",
+      "first-room-chapter-twelve",
+      "first-room-chapter-thirteen"
     ],
     "tags": [
       "story",
@@ -1128,7 +1136,8 @@
       "neptune",
       "zeus",
       "god-daddy",
-      "lineage-pantheon"
+      "lineage-pantheon",
+      "sequoia-woodlands"
     ]
   },
   {
@@ -1367,6 +1376,87 @@
       "lineage-pantheon",
       "viewer-facing-broadcast",
       "lower-works"
+    ]
+  },
+  {
+    "id": "first-room-chapter-11",
+    "name": "The Blue Survey",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_11.md",
+    "description": "The crew follows Neptune's remembered water route, inspects the old gate, and recovers a marked strip of blue wood; the gate remains closed.",
+    "related": [
+      "beginning-of-the-dimension",
+      "lineage-pantheon",
+      "first-room-chapter-ten",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "story",
+      "chapter",
+      "dimension",
+      "joseph",
+      "kirk",
+      "seth",
+      "nick",
+      "viewer-facing-broadcast",
+      "lineage-pantheon"
+    ]
+  },
+  {
+    "id": "first-room-chapter-12",
+    "name": "The Open Table",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_12.md",
+    "description": "The inhabitants agree to a monitored lower-gate trial with visible limits, an accessible return route, a rest station, and voluntary participation; Neptune, Zeus, and God Daddy retain distinct roles.",
+    "related": [
+      "beginning-of-the-dimension",
+      "lineage-pantheon",
+      "first-room-chapter-eleven",
+      "first-room-chapter-ten",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "story",
+      "chapter",
+      "dimension",
+      "joseph",
+      "kirk",
+      "seth",
+      "nick",
+      "viewer-facing-broadcast",
+      "lineage-pantheon"
+    ]
+  },
+  {
+    "id": "first-room-chapter-13",
+    "name": "The Trial of the Lower Gate",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_13.md",
+    "description": "The controlled opening reveals a chamber with a window looking into Joseph and Kirk's original first room; the page and Dreadmaster remain unexplained.",
+    "related": [
+      "beginning-of-the-dimension",
+      "lineage-pantheon",
+      "first-room-chapter-twelve",
+      "first-room-chapter-eleven",
+      "first-room-chapter-ten",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "story",
+      "chapter",
+      "dimension",
+      "joseph",
+      "kirk",
+      "seth",
+      "nick",
+      "viewer-facing-broadcast",
+      "lineage-pantheon"
     ]
   }
 ]

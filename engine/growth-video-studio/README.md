@@ -191,3 +191,12 @@ The core is dependency-free JavaScript (ES modules). It can run in a browser or 
 - Slice 003: identity-locked body segmentation and 2D/3D correspondence.
 - Slice 004: articulated growth-landmark mapping, caller-supplied triangle warp, and the first fixed-index mask-derived grid; mapping its vertices through growth and temporal rendering remain open.
 - Slice 005: temporal render, validation, and export.
+
+
+## Registered mask-mesh evidence
+
+A successful frame-sequence inspection now produces three immutable bridge frame sets: segmentation, landmarks, and deformation. The deformation set is a geehub.mask-mesh-evidence sidecar containing the fixed grid dimensions, topology digest, stable vertex and triangle identities, triangle indices, and source-pixel coordinates for every frame. Its coordinates remain in source space; this registration step does not apply growth or move pixels.
+
+npm run register:frames writes all three sidecars to revisioned Dropbox paths, reads each one back to verify its SHA-256 checksum, and publishes the manifest last. The optional GEEHUB_FRAME_DEFORMATION_URI environment variable overrides the default mesh-sidecar destination. The manifest revision advances once per registered frame set, so this three-part registration reserves the next three revisions.
+
+The sidecar preserves faceExclusionVerified=true as a mask-relative coverage claim and pixelSemanticsVerified=false as an explicit limitation. A matching topology digest proves that the stored vertex/triangle identity graph matches its coordinates' declared topology; it does not prove anatomical correctness of the upstream masks. Render-job preparation does not yet require this deformation frame set. The next bridge increment will bind a job to its exact mesh frame-set ID, checksum, and topology digest before a frame worker can consume it.

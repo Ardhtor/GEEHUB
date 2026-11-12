@@ -116,6 +116,7 @@ function createMaskMeshEvidence(mesh, sequence, sequenceCheck) {
     width: sequence.format.width,
     height: sequence.format.height,
     fps: sequence.format.fps,
+    pixelSemanticsVerified: false,
     topologyId: mesh.topologyId,
     grid: structuredClone(grid),
     vertexIds: [...mesh.vertexIds],
@@ -139,8 +140,8 @@ function createMaskMeshEvidence(mesh, sequence, sequenceCheck) {
 }
 
 /**
- * Prepare immutable segmentation and landmark frame sets from a successful
- * inspectFrameSequenceFiles() result. No manifest or sidecar is written here.
+ * Prepare immutable segmentation, landmark, and mask-mesh frame sets from a
+ * successful inspectFrameSequenceFiles() result. No sidecar is written here.
  */
 export function prepareFrameSequenceBridgeInputs(
   manifest,

@@ -8,6 +8,7 @@ Updated: 2026-11-12
 - frame-sequence-registration.js now publishes three immutable sidecars—segmentation, landmarks, and deformation mesh—then verifies each file's actual SHA-256 bytes before writing the versioned manifest last. Default exchange paths include deformation-mesh.json; GEEHUB_FRAME_DEFORMATION_URI can override that path. The manifest revision advances by three for this registration.
 - frame-sequence.test.js now covers the third frame set, topology identity propagation, stale topology digest refusal, three-sidecar read-back, and non-overwriting registration. The full package workflow is pending; no passing CI result is claimed until its status is available.
 - This stores source-space mesh correspondence only. The render-job preparer does not yet require or consume the deformation frame set, no growth deformation is written into the sidecar, and no local Dropbox/Resolve runtime or source footage was accessed.
+- The package test suite was not run locally: a shallow clone attempt failed because the environment could not resolve github.com. GitHub's combined commit-status endpoint returned no status records for the branch commits, and the available workflow-run lookup only returns pull-request-triggered runs. No passing CI result is claimed for this increment.
 
 ## Temporal deformation continuity added — 2026-11-11
 - `core/mesh-deformation.js` now evaluates the change in each used vertex's deformation offset (`targetPoint - sourcePoint`) across adjacent source frames. Velocity is normalized by the average tracked body-mesh height and divided by the actual timestamp interval; acceleration compares adjacent interval velocities at their midpoint spacing. The validator therefore does not assume a rounded or fixed FPS.
@@ -134,9 +135,9 @@ Updated: 2026-11-12
 
 ## Next construction targets
 1. Connect a real segmentation and landmark producer, then independently verify anatomical correctness; the current masks remain external producer inputs.
-2. Map the fixed-index mask-mesh vertices through the articulated growth landmarks and test a two-frame warp while preserving the face and untouched background.
-3. Make render-job preparation require the registered deformation frame set's exact sidecar checksum and topology digest, then revalidate it against freshly inspected masks before queueing.
-4. Build the per-frame deformation worker and add temporal validation plus scene response for silhouette stability, clothing, ground contact, camera clearance, and occlusion.
+2. Make render-job preparation require the registered deformation frame set's exact sidecar checksum and topology digest, then revalidate it against freshly inspected masks before queueing.
+3. Build the per-frame deformation worker and connect its output to the fixed-index mesh warp, writing new lossless frames without changing source footage.
+4. Add scene response and sequence validation for silhouette stability, clothing, ground contact, camera clearance, face protection, and occlusion.
 5. Return rendered frames and a checksummed video artifact to the bridge, then verify Resolve import and export behavior.
 
 Each item changes status only when evidence exists.

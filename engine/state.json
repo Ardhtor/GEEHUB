@@ -4753,8 +4753,8 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0,
+      "pressure": 1,
+      "memory": 1,
       "status": "OCCURRED_AND_INSCRIBED",
       "occurred_at": "2026-11-12T18:23:08.324365+00:00",
       "inscription": "same-event",
@@ -4783,7 +4783,7 @@
     "bluewater-quay": 5,
     "lantern-market": 6,
     "northgate-library": 4,
-    "athletic-commons": 2
+    "athletic-commons": 3
   },
   "last_visits": {
     "complex": 151.5,
@@ -4807,9 +4807,9 @@
     "bluewater-quay": 255,
     "lantern-market": 257.5,
     "northgate-library": 259.5,
-    "athletic-commons": 242.5
+    "athletic-commons": 261.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -4834,29 +4834,42 @@
     "worlds/athletic-commons/README.md": 5
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "northgate-university",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "athletic-commons",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 196,
-    "agent": "luke",
-    "previous_region_id": "northgate-library",
-    "region_id": "northgate-university",
-    "region_name": "NORTHGATE UNIVERSITY",
-    "relation": "THE LATE LAMPS OF NORTHGATE",
+    "cycle": 197,
+    "agent": "tyler",
+    "previous_region_id": "northgate-university",
+    "region_id": "athletic-commons",
+    "region_name": "ATHLETIC COMMONS",
+    "relation": "STRENGTH WITHOUT CONFLICT",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 14.98,
-    "scale": 15.01,
-    "recording": "scheduled-recording-00196",
-    "at": "2026-11-12T12:45:59.266Z"
+    "previous_scale": 15.01,
+    "scale": 15.06,
+    "recording": "scheduled-recording-00197",
+    "at": "2026-11-12T20:43:07.883Z"
   },
-  "last_world_change": "2026-11-12T12:45:59.266Z",
-  "scale": 15.01,
+  "last_world_change": "2026-11-12T20:43:07.883Z",
+  "scale": 15.06,
   "external_events": [
+    {
+      "id": "long-play-00197",
+      "type": "CROSSING",
+      "title": "NORTHGATE UNIVERSITY → ATHLETIC COMMONS",
+      "body": "The world crossed \"STRENGTH WITHOUT CONFLICT\". Scale increased from 15.01× to 15.06×; the earlier location and baseline remain recorded.",
+      "from": "northgate-university",
+      "to": "athletic-commons",
+      "previous_region_id": "northgate-university",
+      "region_id": "athletic-commons",
+      "relation": "STRENGTH WITHOUT CONFLICT",
+      "source": "long-play",
+      "at": "2026-11-12T20:43:07.883Z"
+    },
     {
       "id": "long-play-00196",
       "type": "CROSSING",
@@ -6143,19 +6156,6 @@
       "relation": "HYPEER BASELINE",
       "source": "long-play",
       "at": "2026-10-23T14:48:09.380Z"
-    },
-    {
-      "id": "long-play-00097",
-      "type": "CROSSING",
-      "title": "DEEP LORE → LUKE // BWOMPH",
-      "body": "The world crossed \"THE FACE REMAINS\". Scale increased from 8.61× to 8.66×; the earlier location and baseline remain recorded.",
-      "from": "deep-lore",
-      "to": "luke-bwomph",
-      "previous_region_id": "deep-lore",
-      "region_id": "luke-bwomph",
-      "relation": "THE FACE REMAINS",
-      "source": "long-play",
-      "at": "2026-10-23T09:50:31.974Z"
     }
   ],
   "last_action": "write-the-unentered-place"

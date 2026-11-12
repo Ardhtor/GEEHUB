@@ -17,9 +17,10 @@ const usage = [
   "  GEEHUB_DROPBOX_ROOT             Local Dropbox root (defaults to the standard macOS location)",
   "  GEEHUB_FRAME_SEGMENTATION_URI   Optional explicit segmentation sidecar URI",
   "  GEEHUB_FRAME_LANDMARKS_URI      Optional explicit landmark sidecar URI",
+  "  GEEHUB_FRAME_DEFORMATION_URI    Optional explicit mask-mesh sidecar URI",
   "  GEEHUB_FRAME_MANIFEST_URI       Optional explicit versioned manifest URI",
   "",
-  "The command rechecks mask files, writes both sidecars, verifies their bytes,",
+  "The command rechecks mask files, writes all three sidecars, verifies their bytes,",
   "and writes the new manifest revision last. Existing evidence is never replaced."
 ].join("\n");
 
@@ -44,11 +45,12 @@ async function main() {
     return;
   }
 
-  const revision = manifest.revision + 2;
+  const revision = manifest.revision + 3;
   const defaults = createFrameSequenceExchangeUris(sequence, revision);
   const prepared = prepareFrameSequenceBridgeInputs(manifest, sequence, audit, {
     segmentationUri: process.env.GEEHUB_FRAME_SEGMENTATION_URI || defaults.segmentationUri,
-    landmarksUri: process.env.GEEHUB_FRAME_LANDMARKS_URI || defaults.landmarksUri
+    landmarksUri: process.env.GEEHUB_FRAME_LANDMARKS_URI || defaults.landmarksUri,
+    deformationUri: process.env.GEEHUB_FRAME_DEFORMATION_URI || defaults.deformationUri
   });
   const receipt = await registerFrameSequenceBridgeInputs({
     prepared,

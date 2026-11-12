@@ -172,3 +172,16 @@ The waste district beneath the old yard has acquired a focal artifact: [The Nigh
 ### Chapter Ten — The Hall of Three Powers
 
 [The Hall of Three Powers](../lore/dimension/FIRST_ROOM_CHAPTER_10.md) introduces Neptune, Zeus, and God Daddy into the lower works beneath the Crownheart. Neptune reveals the buried water route; Zeus makes the question of opening it publicly answerable; God Daddy protects the crew during a support failure and preserves their freedom to leave. The three figures act from their own domains and are not additional broadcast hosts. Seth and Nick remain the viewer-facing co-narrators. The [Lineage Pantheon](../lore/LINEAGE_PANTHEON.md) records the separate roles and the distinction between God Daddy and Big Daddy's Voice.
+
+
+### Chapter Eleven — The Blue Survey
+
+[The Blue Survey](../lore/dimension/FIRST_ROOM_CHAPTER_11.md) follows the water memory beneath the Crownheart and finds the old circular gate. Mara, Pell, and Orlan lead the investigation through measurement, structural inspection, and the service ledger. Neptune reveals the buried branches; Zeus insists on public responsibility for the consequences; God Daddy supports the crew without taking their decision away. The gate is reinforced but remains closed.
+
+### Chapter Twelve — The Open Table
+
+[The Open Table](../lore/dimension/FIRST_ROOM_CHAPTER_12.md) brings the forest settlement into the decision. Residents, workshop staff, kitchen workers, and the survey crew agree on a limited trial with visible limits, an accessible return route, a rest station, and voluntary participation. The three mythic presences retain distinct roles and do not replace the inhabitants' judgement.
+
+### Chapter Thirteen — The Trial of the Lower Gate
+
+[The Trial of the Lower Gate](../lore/dimension/FIRST_ROOM_CHAPTER_13.md) opens the reinforced gate within the agreed limits. Joseph and Kirk enter the first chamber and discover a window looking into the original first room. The page is absent; the relation between the two places remains unresolved. The trial ends with the gate safely closed and the next survey still pending.

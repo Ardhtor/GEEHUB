@@ -296,7 +296,7 @@ async function removeCreatedFile(root, filePath, expectedChecksum) {
 }
 
 /**
- * Write both evidence sidecars, verify their actual bytes, then write the
+ * Write all three evidence sidecars, verify their actual bytes, then write the
  * versioned manifest last. All destinations must be new and unique.
  */
 export async function registerFrameSequenceBridgeInputs({
@@ -351,7 +351,7 @@ export async function registerFrameSequenceBridgeInputs({
       verified.push({ role: item.role, uri: item.uri, path: item.path, ...check });
     }
 
-    // The manifest becomes visible only after both sidecars have been read back.
+    // The manifest becomes visible only after every sidecar has been read back.
     const manifestItem = expected.find(item => item.role === "manifest");
     await writeExclusive(manifestItem.path, manifestItem.content);
     created.push(manifestItem);

@@ -42,6 +42,7 @@ function createMaskMeshEvidence(mesh, sequence, sequenceCheck) {
   if (!grid || !Number.isInteger(grid.columns) || grid.columns < 2 ||
       !Number.isInteger(grid.rows) || grid.rows < 2 ||
       !Number.isInteger(grid.vertexCount) || grid.vertexCount < 9 ||
+      grid.vertexCount !== (grid.columns + 1) * (grid.rows + 1) ||
       !Array.isArray(mesh.vertexIds) || mesh.vertexIds.length !== grid.vertexCount ||
       new Set(mesh.vertexIds).size !== mesh.vertexIds.length ||
       mesh.vertexIds.some(id => !isText(id))) {
@@ -67,6 +68,11 @@ function createMaskMeshEvidence(mesh, sequence, sequenceCheck) {
   const usedVertexIds = new Set(mesh.usedVertexIds);
   if ([...usedVertexIds].some(id => !mesh.vertexIds.includes(id))) {
     throw new Error("Mask mesh used-vertex references are invalid");
+  }
+  const expectedUsedVertexIds = [...new Set(mesh.triangles.flat())]
+    .sort((a, b) => a - b).map(index => mesh.vertexIds[index]);
+  if (JSON.stringify([...usedVertexIds]) !== JSON.stringify(expectedUsedVertexIds)) {
+    throw new Error("Mask mesh used-vertex list disagrees with its triangles");
   }
   const expectedSequence = {
     firstFrame: sequenceCheck.firstFrame,

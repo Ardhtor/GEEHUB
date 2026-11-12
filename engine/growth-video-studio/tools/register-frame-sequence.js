@@ -20,7 +20,7 @@ const usage = [
   "  GEEHUB_FRAME_DEFORMATION_URI    Optional explicit mask-mesh sidecar URI",
   "  GEEHUB_FRAME_MANIFEST_URI       Optional explicit versioned manifest URI",
   "",
-  "The command rechecks mask files, writes all three sidecars, verifies their bytes,",
+  "The command rechecks mask files, requires a connected mesh, writes all three sidecars, verifies their bytes,",
   "and writes the new manifest revision last. Existing evidence is never replaced."
 ].join("\n");
 
@@ -39,7 +39,7 @@ async function main() {
   const sequence = JSON.parse(await readFile(path.resolve(args[1]), "utf8"));
 
   const audit = await inspectFrameSequenceFiles(sequence, { dropboxRoot });
-  if (!audit.readyForGeometry) {
+  if (!audit.readyForGeometry || !audit.meshReady) {
     process.stdout.write(JSON.stringify(audit, null, 2) + "\n");
     process.exitCode = 1;
     return;

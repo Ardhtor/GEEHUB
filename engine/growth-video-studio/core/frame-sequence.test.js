@@ -374,7 +374,7 @@ test("refuses altered sidecar content before writing any evidence", async t => {
   await assert.rejects(registerFrameSequenceBridgeInputs({
     prepared,
     dropboxRoot: f.root,
-    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r2.json"
+    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r3.json"
   }), /checksum is incorrect/);
   const target = path.join(f.root, "GEEHUB", "Bridge", "evidence", "sequence-01", "r2", "segmentation.json");
   await assert.rejects(readFile(target), { code: "ENOENT" });
@@ -389,7 +389,7 @@ test("refuses to overwrite an existing sidecar and preserves its bytes", async t
   await assert.rejects(registerFrameSequenceBridgeInputs({
     prepared,
     dropboxRoot: f.root,
-    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r2.json"
+    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r3.json"
   }), /already exists/);
   assert.equal(await readFile(target, "utf8"), "preserve existing evidence");
 });
@@ -404,7 +404,7 @@ test("refuses symlinked evidence directories before writing sidecars", async t =
   await assert.rejects(registerFrameSequenceBridgeInputs({
     prepared,
     dropboxRoot: f.root,
-    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r2.json"
+    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r3.json"
   }), /symlink/);
   assert.deepEqual(await readdir(outside), []);
 });

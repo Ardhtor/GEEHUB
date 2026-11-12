@@ -11,7 +11,7 @@ import path from "node:path";
 import { resolveDropboxUri } from "./bridge-exchange.js";
 import { validateBridgeManifest } from "./bridge-manifest.js";
 
-const ROLES = ["segmentation", "landmarks"];
+const ROLES = ["segmentation", "landmarks", "deformation"];
 const sha256 = value => createHash("sha256").update(value).digest("hex");
 const textHash = value => createHash("sha256").update(value, "utf8").digest("hex");
 const isText = value => typeof value === "string" && value.trim().length > 0;
@@ -44,6 +44,7 @@ export function createFrameSequenceExchangeUris(sequence, revision) {
   return {
     segmentationUri: base + "/segmentation.json",
     landmarksUri: base + "/landmarks.json",
+    deformationUri: base + "/deformation-mesh.json",
     manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/" +
       slug + "/manifest-r" + revision + ".json"
   };
@@ -58,12 +59,12 @@ function inspectPreparedRegistration(prepared, manifestUri) {
   if (!validation.valid) {
     throw new TypeError("Invalid prepared bridge manifest: " + validation.errors.join("; "));
   }
-  if (!Array.isArray(prepared.frameSetIds) || prepared.frameSetIds.length !== 2 ||
-      new Set(prepared.frameSetIds).size !== 2) {
-    throw new TypeError("Exactly two unique prepared frame-set ids are required");
+  if (!Array.isArray(prepared.frameSetIds) || prepared.frameSetIds.length !== 3 ||
+      new Set(prepared.frameSetIds).size !== 3) {
+    throw new TypeError("Exactly three unique prepared frame-set ids are required");
   }
-  if (!Array.isArray(prepared.documents) || prepared.documents.length !== 2) {
-    throw new TypeError("Exactly two frame-set sidecar documents are required");
+  if (!Array.isArray(prepared.documents) || prepared.documents.length !== 3) {
+    throw new TypeError("Segmentation, landmark, and deformation sidecars are required");
   }
   if (!isText(manifestUri)) throw new TypeError("A versioned manifest URI is required");
 
@@ -91,12 +92,49 @@ function inspectPreparedRegistration(prepared, manifestUri) {
       throw new Error("Sidecar content checksum is incorrect: " + role);
     }
     const parsed = JSON.parse(document.content);
-    if (parsed.schema !== "geehub.frame-set-evidence" || parsed.schemaVersion !== 1 ||
+    const expectedSchema = role === "deformation"
+      ? "geehub.mask-mesh-evidence"
+      : "geehub.frame-set-evidence";
+    if (parsed.schema !== expectedSchema || parsed.schemaVersion !== 1 ||
         parsed.role !== role || !isText(parsed.sequenceId) ||
         parsed.sourceAssetId !== manifest.source.id ||
         parsed.pixelSemanticsVerified === true ||
         !Array.isArray(parsed.frames)) {
       throw new TypeError("Sidecar evidence metadata is invalid: " + role);
+    }
+    if (role === "deformation") {
+      const grid = parsed.grid;
+      const topology = {
+        columns: grid?.columns,
+        rows: grid?.rows,
+        vertexIds: parsed.vertexIds,
+        triangleIds: parsed.triangleIds,
+        triangles: parsed.triangles
+      };
+      if (!/^[a-f0-9]{64}$/i.test(parsed.topologyId || "") ||
+          !Array.isArray(parsed.vertexIds) || !parsed.vertexIds.length ||
+          new Set(parsed.vertexIds).size !== parsed.vertexIds.length ||
+          !Array.isArray(parsed.triangleIds) || !parsed.triangleIds.length ||
+          parsed.triangleIds.length !== parsed.triangles?.length ||
+          new Set(parsed.triangleIds).size !== parsed.triangleIds.length ||
+          !grid || grid.vertexCount !== parsed.vertexIds.length ||
+          !Number.isInteger(grid.columns) || grid.columns < 2 ||
+          !Number.isInteger(grid.rows) || grid.rows < 2 ||
+          textHash(JSON.stringify(topology)) !== parsed.topologyId.toLowerCase()) {
+        throw new Error("Deformation sidecar topology or digest is invalid");
+      }
+      if (parsed.evidence?.faceExclusionVerified !== true ||
+          parsed.evidence?.edgeConnected !== true ||
+          parsed.evidence?.pixelSemanticsVerified !== false) {
+        throw new Error("Deformation sidecar must preserve face-exclusion and unverified semantics");
+      }
+      for (const triangle of parsed.triangles) {
+        if (!Array.isArray(triangle) || triangle.length !== 3 ||
+            new Set(triangle).size !== 3 ||
+            triangle.some(index => !Number.isInteger(index) || index < 0 || index >= parsed.vertexIds.length)) {
+          throw new Error("Deformation sidecar contains an invalid triangle");
+        }
+      }
     }
     if (sequenceId === null) sequenceId = parsed.sequenceId;
     else if (parsed.sequenceId !== sequenceId) {
@@ -114,6 +152,13 @@ function inspectPreparedRegistration(prepared, manifestUri) {
         frameSet.metadata?.pixelSemanticsVerified !== false) {
       throw new Error("Sidecar does not match its immutable manifest frame set: " + role);
     }
+    if (role === "deformation" &&
+        (frameSet.metadata?.evidenceSchema !== "geehub.mask-mesh-evidence.v1" ||
+         frameSet.metadata?.topologyId !== parsed.topologyId ||
+         frameSet.metadata?.vertexCount !== parsed.vertexIds.length ||
+         frameSet.metadata?.triangleCount !== parsed.triangles.length)) {
+      throw new Error("Deformation sidecar does not match its registered topology metadata");
+    }
     for (const key of ["firstFrame", "lastFrame", "frameCount", "width", "height", "fps"]) {
       if (parsed[key] !== frameSet[key]) {
         throw new Error("Sidecar and manifest disagree on " + key + ": " + role);
@@ -123,6 +168,19 @@ function inspectPreparedRegistration(prepared, manifestUri) {
         parsed.frames[0]?.frame !== frameSet.firstFrame ||
         parsed.frames.at(-1)?.frame !== frameSet.lastFrame) {
       throw new Error("Sidecar frame range is incomplete: " + role);
+    }
+    if (role === "deformation") {
+      parsed.frames.forEach((frame, index) => {
+        if (frame.frame !== frameSet.firstFrame + index ||
+            !Number.isFinite(frame.timeSeconds) ||
+            !Array.isArray(frame.sourcePoints) ||
+            frame.sourcePoints.length !== parsed.vertexIds.length ||
+            frame.sourcePoints.some(point => !Number.isFinite(point?.x) ||
+              !Number.isFinite(point?.y) || point.x < 0 || point.x >= frameSet.width ||
+              point.y < 0 || point.y >= frameSet.height)) {
+          throw new Error("Deformation sidecar has invalid source coordinates at frame " + frame.frame);
+        }
+      });
     }
     if (role === "segmentation" && parsed.pixelSemanticsVerified !== false) {
       throw new Error("Segmentation pixel semantics must remain explicitly unverified");

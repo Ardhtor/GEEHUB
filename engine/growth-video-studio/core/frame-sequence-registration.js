@@ -71,12 +71,12 @@ function inspectPreparedRegistration(prepared, manifestUri) {
   const documents = new Map();
   for (const document of prepared.documents) {
     if (!ROLES.includes(document?.role) || documents.has(document.role)) {
-      throw new TypeError("Sidecars must contain one segmentation and one landmarks document");
+      throw new TypeError("Sidecars must contain one segmentation, one landmarks, and one deformation document");
     }
     documents.set(document.role, document);
   }
   if (ROLES.some(role => !documents.has(role))) {
-    throw new TypeError("Segmentation and landmarks sidecars are both required");
+    throw new TypeError("Segmentation, landmarks, and deformation sidecars are all required");
   }
 
   const frameSets = [];
@@ -113,8 +113,13 @@ function inspectPreparedRegistration(prepared, manifestUri) {
       };
       if (!/^[a-f0-9]{64}$/i.test(parsed.topologyId || "") ||
           !Array.isArray(parsed.vertexIds) || !parsed.vertexIds.length ||
+          parsed.vertexIds.some(id => !isText(id)) ||
           new Set(parsed.vertexIds).size !== parsed.vertexIds.length ||
+          !Array.isArray(parsed.usedVertexIds) || !parsed.usedVertexIds.length ||
+          new Set(parsed.usedVertexIds).size !== parsed.usedVertexIds.length ||
+          parsed.usedVertexIds.some(id => !parsed.vertexIds.includes(id)) ||
           !Array.isArray(parsed.triangleIds) || !parsed.triangleIds.length ||
+          parsed.triangleIds.some(id => !isText(id)) ||
           parsed.triangleIds.length !== parsed.triangles?.length ||
           new Set(parsed.triangleIds).size !== parsed.triangleIds.length ||
           !grid || grid.vertexCount !== parsed.vertexIds.length ||
@@ -170,9 +175,10 @@ function inspectPreparedRegistration(prepared, manifestUri) {
       throw new Error("Sidecar frame range is incomplete: " + role);
     }
     if (role === "deformation") {
+      let previousMeshTime = -Infinity;
       parsed.frames.forEach((frame, index) => {
         if (frame.frame !== frameSet.firstFrame + index ||
-            !Number.isFinite(frame.timeSeconds) ||
+            !Number.isFinite(frame.timeSeconds) || frame.timeSeconds <= previousMeshTime ||
             !Array.isArray(frame.sourcePoints) ||
             frame.sourcePoints.length !== parsed.vertexIds.length ||
             frame.sourcePoints.some(point => !Number.isFinite(point?.x) ||
@@ -180,6 +186,7 @@ function inspectPreparedRegistration(prepared, manifestUri) {
               point.y < 0 || point.y >= frameSet.height)) {
           throw new Error("Deformation sidecar has invalid source coordinates at frame " + frame.frame);
         }
+        previousMeshTime = frame.timeSeconds;
       });
     }
     if (role === "segmentation" && parsed.pixelSemanticsVerified !== false) {

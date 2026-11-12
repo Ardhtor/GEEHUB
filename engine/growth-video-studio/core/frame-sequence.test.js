@@ -9,7 +9,7 @@ import { REQUIRED_ANCHORS } from "./landmark-track.js";
 import { validateFrameSequencePackage } from "./frame-sequence.js";
 import { inspectFrameSequenceFiles } from "./frame-sequence-worker.js";
 import { prepareFrameSequenceBridgeInputs } from "./frame-sequence-bridge.js";
-import { registerFrameSequenceBridgeInputs } from "./frame-sequence-registration.js";
+import { createFrameSequenceExchangeUris, registerFrameSequenceBridgeInputs } from "./frame-sequence-registration.js";
 import { createBridgeManifest, validateBridgeManifest } from "./bridge-manifest.js";
 
 const identityAnchors = ["leftEye", "rightEye", "nose", "chin"];
@@ -105,6 +105,15 @@ async function fixture(t, sequence = makeSequence()) {
   }
   return { temp, root, bytes: bytesByRole.face, bytesByRole, sequence };
 }
+
+test("allocates one revisioned Dropbox destination for each typed frame set", () => {
+  const sequence = makeSequence();
+  const uris = createFrameSequenceExchangeUris(sequence, 3);
+  assert.ok(uris.segmentationUri.endsWith("/r3/segmentation.json"));
+  assert.ok(uris.landmarksUri.endsWith("/r3/landmarks.json"));
+  assert.ok(uris.deformationUri.endsWith("/r3/deformation-mesh.json"));
+  assert.ok(uris.manifestUri.endsWith("/manifest-r3.json"));
+});
 
 async function preparedRegistration(f) {
   const audit = await inspectFrameSequenceFiles(f.sequence, { dropboxRoot: f.root });
@@ -378,6 +387,21 @@ test("refuses altered sidecar content before writing any evidence", async t => {
   }), /checksum is incorrect/);
   const target = path.join(f.root, "GEEHUB", "Bridge", "evidence", "sequence-01", "r3", "segmentation.json");
   await assert.rejects(readFile(target), { code: "ENOENT" });
+});
+
+test("refuses a mesh sidecar whose topology digest was changed even when its checksum is updated", async t => {
+  const f = await fixture(t);
+  const prepared = await preparedRegistration(f);
+  const meshDocument = JSON.parse(prepared.documents[2].content);
+  meshDocument.topologyId = "0".repeat(64);
+  prepared.documents[2].content = JSON.stringify(meshDocument, null, 2) + "\\n";
+  prepared.documents[2].checksum = sha(Buffer.from(prepared.documents[2].content));
+  prepared.manifest.frameSets.find(item => item.role === "deformation").checksum = prepared.documents[2].checksum;
+  await assert.rejects(registerFrameSequenceBridgeInputs({
+    prepared,
+    dropboxRoot: f.root,
+    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r3.json"
+  }), /topology or digest is invalid/);
 });
 
 test("refuses to overwrite an existing sidecar and preserves its bytes", async t => {

@@ -31,6 +31,113 @@ function sameFormat(a, b) {
   return a.width === b.width && a.height === b.height && a.fps === b.fps;
 }
 
+function createMaskMeshEvidence(mesh, sequence, sequenceCheck) {
+  if (mesh?.schema !== "geehub.mask-mesh" || mesh.schemaVersion !== 1 ||
+      mesh.status !== "ready" || mesh.topologyStable !== true || mesh.connected !== true ||
+      mesh.evidence?.faceExclusionVerified !== true ||
+      mesh.evidence?.edgeConnected !== true || mesh.evidence?.pixelSemanticsVerified !== false) {
+    throw new Error("A ready, connected, face-excluding mask mesh is required for bridge registration");
+  }
+  const grid = mesh.grid;
+  if (!grid || !Number.isInteger(grid.columns) || grid.columns < 2 ||
+      !Number.isInteger(grid.rows) || grid.rows < 2 ||
+      !Number.isInteger(grid.vertexCount) || grid.vertexCount < 9 ||
+      !Array.isArray(mesh.vertexIds) || mesh.vertexIds.length !== grid.vertexCount ||
+      new Set(mesh.vertexIds).size !== mesh.vertexIds.length ||
+      mesh.vertexIds.some(id => !isText(id))) {
+    throw new Error("Mask mesh vertex grid or identities are invalid");
+  }
+  if (!Array.isArray(mesh.triangles) || !mesh.triangles.length ||
+      !Array.isArray(mesh.triangleIds) || mesh.triangleIds.length !== mesh.triangles.length ||
+      new Set(mesh.triangleIds).size !== mesh.triangleIds.length ||
+      mesh.triangleIds.some(id => !isText(id))) {
+    throw new Error("Mask mesh triangle identities are invalid");
+  }
+  for (const triangle of mesh.triangles) {
+    if (!Array.isArray(triangle) || triangle.length !== 3 ||
+        new Set(triangle).size !== 3 ||
+        triangle.some(index => !Number.isInteger(index) || index < 0 || index >= mesh.vertexIds.length)) {
+      throw new Error("Mask mesh contains an invalid triangle index");
+    }
+  }
+  const usedVertexIds = new Set(mesh.usedVertexIds || []);
+  if (!usedVertexIds.size || [...usedVertexIds].some(id => !mesh.vertexIds.includes(id))) {
+    throw new Error("Mask mesh used-vertex references are invalid");
+  }
+  const expectedSequence = {
+    firstFrame: sequenceCheck.firstFrame,
+    lastFrame: sequenceCheck.lastFrame,
+    frameCount: sequence.frames.length,
+    width: sequence.format.width,
+    height: sequence.format.height
+  };
+  for (const [field, expected] of Object.entries(expectedSequence)) {
+    if (mesh.sequence?.[field] !== expected) {
+      throw new Error("Mask mesh disagrees with the source sequence on " + field);
+    }
+  }
+  if (!Array.isArray(mesh.frames) || mesh.frames.length !== sequence.frames.length) {
+    throw new Error("Mask mesh does not contain every source frame");
+  }
+  mesh.frames.forEach((frame, index) => {
+    const sourceFrame = sequence.frames[index];
+    if (frame.frame !== sourceFrame.frame || frame.timeSeconds !== sourceFrame.timeSeconds ||
+        !Array.isArray(frame.sourcePoints) || frame.sourcePoints.length !== mesh.vertexIds.length) {
+      throw new Error("Mask mesh frame coordinates are incomplete or temporally misaligned");
+    }
+    for (const point of frame.sourcePoints) {
+      if (!Number.isFinite(point?.x) || !Number.isFinite(point?.y) ||
+          point.x < 0 || point.x >= sequence.format.width ||
+          point.y < 0 || point.y >= sequence.format.height) {
+        throw new Error("Mask mesh contains a source coordinate outside the image");
+      }
+    }
+  });
+  const topology = {
+    columns: grid.columns,
+    rows: grid.rows,
+    vertexIds: mesh.vertexIds,
+    triangleIds: mesh.triangleIds,
+    triangles: mesh.triangles
+  };
+  if (!/^[a-f0-9]{64}$/i.test(mesh.topologyId || "") ||
+      digest(JSON.stringify(topology)) !== mesh.topologyId.toLowerCase()) {
+    throw new Error("Mask mesh topology digest does not match its vertex and triangle identities");
+  }
+  return {
+    schema: "geehub.mask-mesh-evidence",
+    schemaVersion: 1,
+    role: "deformation",
+    sequenceId: sequence.id,
+    sourceAssetId: sequence.source.id,
+    firstFrame: sequenceCheck.firstFrame,
+    lastFrame: sequenceCheck.lastFrame,
+    frameCount: sequence.frames.length,
+    width: sequence.format.width,
+    height: sequence.format.height,
+    fps: sequence.format.fps,
+    topologyId: mesh.topologyId,
+    grid: structuredClone(grid),
+    vertexIds: [...mesh.vertexIds],
+    usedVertexIds: [...usedVertexIds],
+    triangleIds: [...mesh.triangleIds],
+    triangles: mesh.triangles.map(triangle => [...triangle]),
+    frames: mesh.frames.map(frame => ({
+      frame: frame.frame,
+      timeSeconds: frame.timeSeconds,
+      bounds: structuredClone(frame.bounds),
+      sourcePoints: frame.sourcePoints.map(point => ({ x: point.x, y: point.y }))
+    })),
+    coverage: structuredClone(mesh.coverage),
+    evidence: {
+      source: "decoded-binary-body-and-face-masks",
+      faceExclusionVerified: true,
+      edgeConnected: true,
+      pixelSemanticsVerified: false
+    }
+  };
+}
+
 /**
  * Prepare immutable segmentation and landmark frame sets from a successful
  * inspectFrameSequenceFiles() result. No manifest or sidecar is written here.
@@ -39,7 +146,7 @@ export function prepareFrameSequenceBridgeInputs(
   manifest,
   sequence,
   audit,
-  { segmentationUri, landmarksUri } = {}
+  { segmentationUri, landmarksUri, deformationUri } = {}
 ) {
   const manifestCheck = validateBridgeManifest(manifest);
   if (!manifestCheck.valid) {
@@ -69,6 +176,7 @@ export function prepareFrameSequenceBridgeInputs(
       audit.maskPixelAudit?.pairsChecked !== sequence.frames.length ||
       audit.maskPixelAudit?.disjointPairs !== sequence.frames.length ||
       audit.maskPixelAudit?.overlapPixels !== 0 ||
+      audit.meshReady !== true || audit.maskMesh?.status !== "ready" ||
       audit.errors?.length !== 0) {
     throw new Error("A successful, source-matched frame-sequence file audit is required");
   }
@@ -117,8 +225,9 @@ export function prepareFrameSequenceBridgeInputs(
   }
 
   if (!safeDropboxUri(segmentationUri) || !safeDropboxUri(landmarksUri) ||
-      segmentationUri === landmarksUri) {
-    throw new TypeError("Distinct safe Dropbox URIs are required for segmentation and landmark sidecars");
+      !safeDropboxUri(deformationUri) ||
+      new Set([segmentationUri, landmarksUri, deformationUri]).size !== 3) {
+    throw new TypeError("Three distinct safe Dropbox URIs are required for segmentation, landmarks, and deformation mesh sidecars");
   }
 
   const range = {
@@ -178,9 +287,11 @@ export function prepareFrameSequenceBridgeInputs(
       landmarks: structuredClone(frame.landmarks)
     }))
   };
+  const deformationDocument = createMaskMeshEvidence(audit.maskMesh, sequence, sequenceCheck);
 
   const segmentationSidecar = sidecar(segmentationDocument);
   const landmarkSidecar = sidecar(landmarkDocument);
+  const deformationSidecar = sidecar(deformationDocument);
   const metadata = {
     sequenceId: sequence.id,
     evidenceSchema: "geehub.frame-set-evidence.v1",
@@ -207,13 +318,30 @@ export function prepareFrameSequenceBridgeInputs(
     checksum: landmarkSidecar.checksum,
     metadata: { ...metadata, verifiedFrameCount: sequence.frames.length }
   });
+  next = addBridgeFrameSet(next, {
+    id: "frame-sequence-" + sequence.id + "-deformation",
+    role: "deformation",
+    uri: deformationUri,
+    ...range,
+    checksum: deformationSidecar.checksum,
+    metadata: {
+      sequenceId: sequence.id,
+      evidenceSchema: "geehub.mask-mesh-evidence.v1",
+      topologyId: deformationDocument.topologyId,
+      vertexCount: deformationDocument.vertexIds.length,
+      triangleCount: deformationDocument.triangles.length,
+      faceExclusionVerified: true,
+      pixelSemanticsVerified: false
+    }
+  });
 
   return {
     manifest: next,
-    frameSetIds: next.frameSets.slice(-2).map(item => item.id),
+    frameSetIds: next.frameSets.slice(-3).map(item => item.id),
     documents: [
       { role: "segmentation", uri: segmentationUri, checksum: segmentationSidecar.checksum, content: segmentationSidecar.content },
-      { role: "landmarks", uri: landmarksUri, checksum: landmarkSidecar.checksum, content: landmarkSidecar.content }
+      { role: "landmarks", uri: landmarksUri, checksum: landmarkSidecar.checksum, content: landmarkSidecar.content },
+      { role: "deformation", uri: deformationUri, checksum: deformationSidecar.checksum, content: deformationSidecar.content }
     ],
     pixelSemanticsVerified: false
   };

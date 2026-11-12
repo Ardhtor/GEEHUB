@@ -376,14 +376,14 @@ test("refuses altered sidecar content before writing any evidence", async t => {
     dropboxRoot: f.root,
     manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r3.json"
   }), /checksum is incorrect/);
-  const target = path.join(f.root, "GEEHUB", "Bridge", "evidence", "sequence-01", "r2", "segmentation.json");
+  const target = path.join(f.root, "GEEHUB", "Bridge", "evidence", "sequence-01", "r3", "segmentation.json");
   await assert.rejects(readFile(target), { code: "ENOENT" });
 });
 
 test("refuses to overwrite an existing sidecar and preserves its bytes", async t => {
   const f = await fixture(t);
   const prepared = await preparedRegistration(f);
-  const target = path.join(f.root, "GEEHUB", "Bridge", "evidence", "sequence-01", "r2", "segmentation.json");
+  const target = path.join(f.root, "GEEHUB", "Bridge", "evidence", "sequence-01", "r3", "segmentation.json");
   await mkdir(path.dirname(target), { recursive: true });
   await writeFile(target, "preserve existing evidence");
   await assert.rejects(registerFrameSequenceBridgeInputs({

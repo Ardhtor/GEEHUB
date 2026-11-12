@@ -189,7 +189,7 @@ The core is dependency-free JavaScript (ES modules). It can run in a browser or 
 - Slice 001: project model, state interpolation, continuity validation.
 - Slice 002: source-video ingest and frame/landmark tracking.
 - Slice 003: identity-locked body segmentation and 2D/3D correspondence.
-- Slice 004: articulated growth-landmark mapping, caller-supplied triangle warp, and the first fixed-index mask-derived grid; mapping its vertices through growth and temporal rendering remain open.
+- Slice 004: articulated growth-landmark mapping, caller-supplied triangle warp, fixed-index mask-derived grid, and checksummed registration of its topology and per-frame source coordinates; render-job binding and pixel-frame production remain open.
 - Slice 005: temporal render, validation, and export.
 
 

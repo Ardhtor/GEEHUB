@@ -60,8 +60,12 @@ function createMaskMeshEvidence(mesh, sequence, sequenceCheck) {
       throw new Error("Mask mesh contains an invalid triangle index");
     }
   }
-  const usedVertexIds = new Set(mesh.usedVertexIds || []);
-  if (!usedVertexIds.size || [...usedVertexIds].some(id => !mesh.vertexIds.includes(id))) {
+  if (!Array.isArray(mesh.usedVertexIds) || !mesh.usedVertexIds.length ||
+      new Set(mesh.usedVertexIds).size !== mesh.usedVertexIds.length) {
+    throw new Error("Mask mesh used-vertex references are invalid");
+  }
+  const usedVertexIds = new Set(mesh.usedVertexIds);
+  if ([...usedVertexIds].some(id => !mesh.vertexIds.includes(id))) {
     throw new Error("Mask mesh used-vertex references are invalid");
   }
   const expectedSequence = {

@@ -123,6 +123,7 @@ function inspectPreparedRegistration(prepared, manifestUri) {
           parsed.triangleIds.length !== parsed.triangles?.length ||
           new Set(parsed.triangleIds).size !== parsed.triangleIds.length ||
           !grid || grid.vertexCount !== parsed.vertexIds.length ||
+          grid.vertexCount !== (grid.columns + 1) * (grid.rows + 1) ||
           !Number.isInteger(grid.columns) || grid.columns < 2 ||
           !Number.isInteger(grid.rows) || grid.rows < 2 ||
           textHash(JSON.stringify(topology)) !== parsed.topologyId.toLowerCase()) {
@@ -140,10 +141,15 @@ function inspectPreparedRegistration(prepared, manifestUri) {
           throw new Error("Deformation sidecar contains an invalid triangle");
         }
       }
+      const expectedUsedVertexIds = [...new Set(parsed.triangles.flat())]
+        .sort((a, b) => a - b).map(index => parsed.vertexIds[index]);
+      if (JSON.stringify(parsed.usedVertexIds) !== JSON.stringify(expectedUsedVertexIds)) {
+        throw new Error("Deformation sidecar used-vertex list disagrees with its triangles");
+      }
     }
     if (sequenceId === null) sequenceId = parsed.sequenceId;
     else if (parsed.sequenceId !== sequenceId) {
-      throw new Error("Segmentation and landmark sidecars describe different sequences");
+      throw new Error("Frame evidence sidecars describe different sequences");
     }
 
     const frameSetId = prepared.frameSetIds.find(id =>
@@ -200,7 +206,7 @@ function inspectPreparedRegistration(prepared, manifestUri) {
       frameSet.id === id && frameSet.role === item.role
     ))
   )) {
-    throw new Error("Prepared frame-set ids do not match the two sidecar roles");
+    throw new Error("Prepared frame-set ids do not match the three sidecar roles");
   }
 
   const occupiedUris = [

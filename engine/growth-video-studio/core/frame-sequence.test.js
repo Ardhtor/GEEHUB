@@ -394,7 +394,7 @@ test("refuses a mesh sidecar whose topology digest was changed even when its che
   const prepared = await preparedRegistration(f);
   const meshDocument = JSON.parse(prepared.documents[2].content);
   meshDocument.topologyId = "0".repeat(64);
-  prepared.documents[2].content = JSON.stringify(meshDocument, null, 2) + "\\n";
+  prepared.documents[2].content = JSON.stringify(meshDocument, null, 2) + "\n";
   prepared.documents[2].checksum = sha(Buffer.from(prepared.documents[2].content));
   prepared.manifest.frameSets.find(item => item.role === "deformation").checksum = prepared.documents[2].checksum;
   await assert.rejects(registerFrameSequenceBridgeInputs({

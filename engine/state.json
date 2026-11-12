@@ -4710,7 +4710,7 @@
       "relation": null,
       "next_region": null,
       "pressure": 0.98,
-      "memory": 1.0,
+      "memory": 1,
       "status": "OCCURRED_AND_INSCRIBED",
       "occurred_at": "2026-11-12T02:26:39.070201+00:00",
       "inscription": "same-event",
@@ -4738,7 +4738,7 @@
     "northgate-university": 6,
     "bluewater-quay": 5,
     "lantern-market": 6,
-    "northgate-library": 3,
+    "northgate-library": 4,
     "athletic-commons": 2
   },
   "last_visits": {
@@ -4762,7 +4762,7 @@
     "northgate-university": 243.5,
     "bluewater-quay": 255,
     "lantern-market": 257.5,
-    "northgate-library": 245.5,
+    "northgate-library": 259.5,
     "athletic-commons": 242.5
   },
   "pressure": 0.9800000000000001,
@@ -4790,29 +4790,42 @@
     "worlds/athletic-commons/README.md": 5
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "common-table",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "northgate-library",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 194,
-    "agent": "joseph",
-    "previous_region_id": "lantern-market",
-    "region_id": "common-table",
-    "region_name": "THE COMMON TABLE",
-    "relation": "THE LANTERNS COME ON",
+    "cycle": 195,
+    "agent": "chase",
+    "previous_region_id": "common-table",
+    "region_id": "northgate-library",
+    "region_name": "NORTHGATE LIBRARY",
+    "relation": "CAMPUS AFTER HOURS",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 14.82,
-    "scale": 14.94,
-    "recording": "scheduled-recording-00194",
-    "at": "2026-11-11T23:29:23.363Z"
+    "previous_scale": 14.94,
+    "scale": 14.98,
+    "recording": "scheduled-recording-00195",
+    "at": "2026-11-12T04:07:22.346Z"
   },
-  "last_world_change": "2026-11-11T23:29:23.363Z",
-  "scale": 14.94,
+  "last_world_change": "2026-11-12T04:07:22.346Z",
+  "scale": 14.98,
   "external_events": [
+    {
+      "id": "long-play-00195",
+      "type": "CROSSING",
+      "title": "THE COMMON TABLE → NORTHGATE LIBRARY",
+      "body": "The world crossed \"CAMPUS AFTER HOURS\". Scale increased from 14.94× to 14.98×; the earlier location and baseline remain recorded.",
+      "from": "common-table",
+      "to": "northgate-library",
+      "previous_region_id": "common-table",
+      "region_id": "northgate-library",
+      "relation": "CAMPUS AFTER HOURS",
+      "source": "long-play",
+      "at": "2026-11-12T04:07:22.346Z"
+    },
     {
       "id": "long-play-00194",
       "type": "CROSSING",
@@ -6099,19 +6112,6 @@
       "relation": "DEPARTURE LEAVES A SHAPE",
       "source": "long-play",
       "at": "2026-10-23T04:54:59.481Z"
-    },
-    {
-      "id": "long-play-00095",
-      "type": "CROSSING",
-      "title": "DISCOVERY → VEYRTHALIS",
-      "body": "The world crossed \"THE DOOR REMEMBERS\". Scale increased from 8.54× to 8.58×; the earlier location and baseline remain recorded.",
-      "from": "discovery",
-      "to": "veyrthalis",
-      "previous_region_id": "discovery",
-      "region_id": "veyrthalis",
-      "relation": "THE DOOR REMEMBERS",
-      "source": "long-play",
-      "at": "2026-10-23T00:07:43.002Z"
     }
   ],
   "last_action": "write-the-unentered-place"

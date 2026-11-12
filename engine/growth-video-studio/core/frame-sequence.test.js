@@ -121,8 +121,9 @@ async function preparedRegistration(f) {
     }
   });
   return prepareFrameSequenceBridgeInputs(manifest, f.sequence, audit, {
-    segmentationUri: "dropbox://GEEHUB/Bridge/evidence/sequence-01/r2/segmentation.json",
-    landmarksUri: "dropbox://GEEHUB/Bridge/evidence/sequence-01/r2/landmarks.json"
+    segmentationUri: "dropbox://GEEHUB/Bridge/evidence/sequence-01/r3/segmentation.json",
+    landmarksUri: "dropbox://GEEHUB/Bridge/evidence/sequence-01/r3/landmarks.json",
+    deformationUri: "dropbox://GEEHUB/Bridge/evidence/sequence-01/r3/deformation-mesh.json"
   });
 }
 
@@ -248,20 +249,56 @@ test("prepares typed bridge frame sets from a file-verified sequence audit", asy
   });
   const prepared = prepareFrameSequenceBridgeInputs(manifest, f.sequence, audit, {
     segmentationUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/segmentation.json",
-    landmarksUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/landmarks.json"
+    landmarksUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/landmarks.json",
+    deformationUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/deformation-mesh.json"
   });
-  assert.equal(prepared.manifest.frameSets.length, 2);
-  assert.deepEqual(prepared.manifest.frameSets.map(item => item.role), ["segmentation", "landmarks"]);
+  assert.equal(prepared.manifest.frameSets.length, 3);
+  assert.deepEqual(prepared.manifest.frameSets.map(item => item.role), ["segmentation", "landmarks", "deformation"]);
   assert.equal(prepared.manifest.frameSets[0].metadata.sequenceId, f.sequence.id);
   assert.equal(prepared.documents[0].checksum, prepared.manifest.frameSets[0].checksum);
   assert.equal(prepared.documents[1].checksum, prepared.manifest.frameSets[1].checksum);
+  assert.equal(prepared.documents[2].checksum, prepared.manifest.frameSets[2].checksum);
   assert.equal(JSON.parse(prepared.documents[0].content).frames.length, 2);
   assert.equal(JSON.parse(prepared.documents[1].content).frames.length, 2);
+  const meshDocument = JSON.parse(prepared.documents[2].content);
+  assert.equal(meshDocument.schema, "geehub.mask-mesh-evidence");
+  assert.equal(meshDocument.role, "deformation");
+  assert.equal(meshDocument.topologyId, audit.maskMesh.topologyId);
+  assert.equal(meshDocument.vertexIds.length, audit.maskMesh.vertexIds.length);
+  assert.equal(meshDocument.triangles.length, audit.maskMesh.triangles.length);
+  assert.equal(meshDocument.frames.length, 2);
+  assert.equal(meshDocument.frames[1].sourcePoints.length, meshDocument.vertexIds.length);
+  assert.equal(prepared.manifest.frameSets[2].metadata.topologyId, meshDocument.topologyId);
   assert.equal(prepared.pixelSemanticsVerified, false);
   const segmentationDocument = JSON.parse(prepared.documents[0].content);
   assert.equal(segmentationDocument.maskPixelAudit.faceExclusionVerified, true);
   assert.equal(segmentationDocument.maskPixelAudit.overlapPixels, 0);
   assert.equal(validateBridgeManifest(prepared.manifest).valid, true);
+});
+
+test("refuses a mesh whose readiness or topology digest no longer matches its geometry", async t => {
+  const f = await fixture(t);
+  const audit = await inspectFrameSequenceFiles(f.sequence, { dropboxRoot: f.root });
+  const manifest = createBridgeManifest({
+    projectId: "project-frame-sequence",
+    source: {
+      id: f.sequence.source.id, name: f.sequence.source.name,
+      uri: f.sequence.source.uri, duration: f.sequence.source.duration,
+      width: f.sequence.source.width, height: f.sequence.source.height,
+      immutable: true
+    }
+  });
+  const options = {
+    segmentationUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/segmentation.json",
+    landmarksUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/landmarks.json",
+    deformationUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/deformation-mesh.json"
+  };
+  const notReady = structuredClone(audit);
+  notReady.meshReady = false;
+  assert.throws(() => prepareFrameSequenceBridgeInputs(manifest, f.sequence, notReady, options), /successful, source-matched/);
+  const changedTopology = structuredClone(audit);
+  changedTopology.maskMesh.topologyId = "0".repeat(64);
+  assert.throws(() => prepareFrameSequenceBridgeInputs(manifest, f.sequence, changedTopology, options), /topology digest/);
 });
 
 test("refuses bridge registration when mask audit evidence is incomplete", async t => {
@@ -279,7 +316,8 @@ test("refuses bridge registration when mask audit evidence is incomplete", async
   });
   assert.throws(() => prepareFrameSequenceBridgeInputs(manifest, f.sequence, audit, {
     segmentationUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/segmentation.json",
-    landmarksUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/landmarks.json"
+    landmarksUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/landmarks.json",
+    deformationUri: "dropbox://GEEHUB/FrameEvidence/sequence-01/deformation-mesh.json"
   }), /Every body and face mask must pass file verification/);
 });
 
@@ -307,18 +345,18 @@ test("refuses symlinked mask files", async t => {
 });
 
 
-test("writes and verifies both sidecars before publishing a new manifest revision", async t => {
+test("writes and verifies all three sidecars before publishing a new manifest revision", async t => {
   const f = await fixture(t);
   const prepared = await preparedRegistration(f);
   const receipt = await registerFrameSequenceBridgeInputs({
     prepared,
     dropboxRoot: f.root,
-    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r2.json"
+    manifestUri: "dropbox://GEEHUB/Bridge/incoming/frame-sequences/sequence-01/manifest-r3.json"
   });
   assert.equal(receipt.status, "registered");
-  assert.equal(receipt.manifestRevision, 2);
+  assert.equal(receipt.manifestRevision, 3);
   assert.equal(receipt.pixelSemanticsVerified, false);
-  assert.equal(receipt.sidecars.length, 2);
+  assert.equal(receipt.sidecars.length, 3);
   const storedManifest = JSON.parse(await readFile(receipt.manifestPath, "utf8"));
   assert.equal(storedManifest.revision, prepared.manifest.revision);
   assert.equal(validateBridgeManifest(storedManifest).valid, true);

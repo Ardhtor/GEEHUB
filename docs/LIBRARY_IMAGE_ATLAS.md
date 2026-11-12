@@ -174,3 +174,10 @@ Five additional images were visually inspected and added. The atlas now contains
 ## Batch 4 status
 
 Five additional images were visually inspected and assigned specific reference roles. The atlas now contains twenty entries across four batches, from the 234-file inventory. These images directly informed *The Unplanned Convergence*, Chapters XXXIV–XXXVI. The lodge, growth sequence, locker room and friendly greeting are treated as separate reusable design references, not as evidence of real-world identities.
+
+
+## Production quality gate
+
+The atlas identifies and describes source images; it does not by itself certify the quality of a derived render. All important GEEHUB visual outputs must now be reviewed against the supplied attached reference using the [Visual Quality Acceptance Standard](VISUAL_QUALITY_ACCEPTANCE_STANDARD.md). A source entry should lead to exact comparison frames, continuity checks, and a recorded review status. Blockouts and exploratory renders remain provisional; only human-reviewed outputs that pass the applicable identity, anatomy, pose, material, camera, environment, and temporal gates may be marked ACCEPTED.
+
+The Library remains the source collection. The atlas records what is available, the Visual Evidence Ledger records what the source visibly establishes, and the quality standard determines whether new work meets the required visual finish.

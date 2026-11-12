@@ -167,3 +167,8 @@ The waste district beneath the old yard has acquired a focal artifact: [The Nigh
 ### Chapter Six — The Gravitation of Waste
 
 [The Gravitation of Waste](../lore/dimension/FIRST_ROOM_CHAPTER_06.md) gives the district its first sustained activity. Joseph and Kirk help a maintenance worker sort and repair discarded equipment, discovering that the yard contains incomplete histories rather than meaningless rubbish. A sealed store yields the Brothers, a male double-figure with two distinct heads and faces in one joined construction. Its condition sheet records what can be seen and leaves apparent changes of orientation unresolved. Another growth stage occurs during ordinary work, extending the hypermuscle sequence beyond the Institute training floor. The district becomes a repair yard, archive, and meeting place. Its attraction is named the Gravitation of Waste: a recurring tendency to return to neglected objects and recover possible uses without pretending their histories never happened.
+
+
+### Chapter Ten — The Hall of Three Powers
+
+[The Hall of Three Powers](../lore/dimension/FIRST_ROOM_CHAPTER_10.md) introduces Neptune, Zeus, and God Daddy into the lower works beneath the Crownheart. Neptune reveals the buried water route; Zeus makes the question of opening it publicly answerable; God Daddy protects the crew during a support failure and preserves their freedom to leave. The three figures act from their own domains and are not additional broadcast hosts. Seth and Nick remain the viewer-facing co-narrators. The [Lineage Pantheon](../lore/LINEAGE_PANTHEON.md) records the separate roles and the distinction between God Daddy and Big Daddy's Voice.

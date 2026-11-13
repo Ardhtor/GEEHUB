@@ -1,3 +1,7 @@
+# GEEHUB construction state
+
+Updated: 2026-11-13
+
 ## Render preparation binds the exact mask-derived mesh — 2026-11-13
 - `prepareBridgeRenderJob()` now requires exactly one registered segmentation, landmark, and deformation frame set for the selected sequence. All three must share source lineage, frame range, dimensions, and FPS, and the mesh set must carry a typed schema, topology digest, vertex count, triangle count, and SHA-256 checksum.
 - `tools/prepare-bridge-render-job.js` reads all three registered sidecars from the local Dropbox mirror. It reconstructs the frame-sequence envelope from segmentation and landmark records, reopens and decodes the actual body/face PNG files through the existing inspection worker, and rebuilds the fixed-index mesh from those pixels. The newly generated canonical mesh-evidence document is compared structurally with the entire registered deformation sidecar, not merely its declared topology ID.
@@ -7,10 +11,6 @@
 - Focused coverage includes fresh mesh reconstruction, coordinate tampering with an updated checksum, missing deformation inputs, staging-reference mismatch, Resolve topology mismatch, and legacy v1 compatibility. GitHub Actions package run [43497255626](https://github.com/Ardhtor/GEEHUB/actions/runs/43497255626) completed successfully on commit `bc6d8381fefb0b90d36dde8f2d376c243520edb6`: 103/103 Node tests passed, all 14 Resolve Lua tests passed, Lua 5.4 syntax validation passed, the render-preparation CLI syntax/help checks passed, and the portable package was built and uploaded.
 - The separate Validate GEEHUB data run [43497255795](https://github.com/Ardhtor/GEEHUB/actions/runs/43497255795) still fails only at browser repository-link validation for four stale embedded project tuples: `information-portability`, `lineage-pantheon`, `hubby`, and `media-tools`. This registry issue is outside the Growth Video Studio pipeline.
 - No local Mac, Dropbox mirror, or Resolve session was accessed. The tests use synthetic mask files; no user footage was read or changed. The mesh remains source-space evidence, not a deformed image, and no frame batch or finished video was rendered.
-
-# GEEHUB construction state
-
-Updated: 2026-11-13
 
 ## Fixed-index mask mesh registered as typed bridge evidence — 2026-11-12
 - prepareFrameSequenceBridgeInputs() now requires the frame-sequence audit's meshReady=true result and serializes the stable mask mesh as a deformation frame set using geehub.mask-mesh-evidence.v1. The sidecar carries the grid, topology digest, stable vertex/triangle IDs, triangle indices, per-frame source-pixel coordinates, bounds, and mask-relative coverage evidence.

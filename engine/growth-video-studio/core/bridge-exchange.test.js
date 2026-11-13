@@ -179,7 +179,7 @@ test("keeps legacy v1 render payloads stageable without the additive frame-evide
     portableJob: f.payload, dropboxRoot: f.root
   });
   assert.equal(receipt.status, "staged");
-  assert.equal(receipt.frameSetVerification.verified, 2);
+  assert.equal(receipt.frameSetVerification.verified, 3);
 });
 
 test("refuses stale frame-evidence references before writing an exchange", async t => {

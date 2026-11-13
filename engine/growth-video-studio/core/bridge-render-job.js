@@ -279,6 +279,16 @@ export function prepareBridgeRenderJob({
   validateSegmentationFrames(segmentationDocument);
   validateLandmarkFrames(landmarkDocument);
   const verifiedMaskPixelAudit = validateMaskPixelAudit(maskPixelAudit, selected.segmentation);
+
+  for (let index = 0; index < segmentationDocument.frames.length; index += 1) {
+    const maskFrame = segmentationDocument.frames[index];
+    const landmarkFrame = landmarkDocument.frames[index];
+    if (maskFrame.frame !== landmarkFrame.frame ||
+        Math.abs(maskFrame.timeSeconds - landmarkFrame.timeSeconds) > 0.000001) {
+      throw new Error("Segmentation and landmark observations are not temporally aligned");
+    }
+  }
+
   const deformationDocument = parseDeformationSidecar(
     deformationSidecar, selected.deformation, manifest.source.id
   );
@@ -297,15 +307,6 @@ export function prepareBridgeRenderJob({
       selected.deformation.metadata.vertexCount !== expectedDeformationDocument.vertexIds.length ||
       selected.deformation.metadata.triangleCount !== expectedDeformationDocument.triangles.length) {
     throw new Error("Registered deformation topology metadata differs from the freshly reconstructed mesh");
-  }
-
-  for (let index = 0; index < segmentationDocument.frames.length; index += 1) {
-    const maskFrame = segmentationDocument.frames[index];
-    const landmarkFrame = landmarkDocument.frames[index];
-    if (maskFrame.frame !== landmarkFrame.frame ||
-        Math.abs(maskFrame.timeSeconds - landmarkFrame.timeSeconds) > 0.000001) {
-      throw new Error("Segmentation and landmark observations are not temporally aligned");
-    }
   }
 
   const landmarkFrames = landmarkDocument.frames.map(frame => ({

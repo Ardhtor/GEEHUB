@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00197.json",
+  "activeRecording": "./recordings/scheduled-recording-00198.json",
   "activeEncounter": {
-    "regionId": "athletic-commons",
-    "regionName": "ATHLETIC COMMONS",
+    "regionId": "northgate-university",
+    "regionName": "NORTHGATE UNIVERSITY",
     "subject": {
-      "agent": "tyler",
-      "scale": 15.06,
+      "agent": "andrew",
+      "scale": 15.14,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / NORTHGATE UNIVERSITY → ATHLETIC COMMONS / TYLER",
+    "intent": "LONG PLAY / ATHLETIC COMMONS → NORTHGATE UNIVERSITY / ANDREW",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 15.01× → 15.06×",
-      "NORTHGATE UNIVERSITY → ATHLETIC COMMONS",
+      "scale 15.06× → 15.14×",
+      "ATHLETIC COMMONS → NORTHGATE UNIVERSITY",
       "relation: STRENGTH WITHOUT CONFLICT",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "northgate-university"
+    "previousRegionId": "athletic-commons"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-12T20:43:07.883Z",
+  "snapshot": "2026-11-13T01:30:18.249Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 197,
-    "agent": "tyler",
-    "previousRegionId": "northgate-university",
-    "regionId": "athletic-commons",
+    "cycle": 198,
+    "agent": "andrew",
+    "previousRegionId": "athletic-commons",
+    "regionId": "northgate-university",
     "relation": "STRENGTH WITHOUT CONFLICT",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 15.01,
-    "scale": 15.06,
-    "recording": "scheduled-recording-00197",
-    "at": "2026-11-12T20:43:07.883Z"
+    "previousScale": 15.06,
+    "scale": 15.14,
+    "recording": "scheduled-recording-00198",
+    "at": "2026-11-13T01:30:18.249Z"
   }
 }

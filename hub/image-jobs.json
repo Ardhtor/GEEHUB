@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00198",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00198.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "ATHLETIC COMMONS → NORTHGATE UNIVERSITY / ANDREW",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00198. Travel from ATHLETIC COMMONS into NORTHGATE UNIVERSITY through the relation \"STRENGTH WITHOUT CONFLICT\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 15.06× to 15.14× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-13T01:30:18.249Z",
+      "lineage": {
+        "from": "athletic-commons",
+        "to": "northgate-university",
+        "relation": "STRENGTH WITHOUT CONFLICT",
+        "cycle": 198
+      }
+    },
+    {
       "id": "scheduled-image-00197",
       "status": "QUEUED",
       "type": "IMAGE",

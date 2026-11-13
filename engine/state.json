@@ -4797,8 +4797,8 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0,
+      "pressure": 1,
+      "memory": 1,
       "status": "OCCURRED_AND_INSCRIBED",
       "occurred_at": "2026-11-13T06:12:48.465036+00:00",
       "inscription": "same-event",
@@ -4827,7 +4827,7 @@
     "bluewater-quay": 5,
     "lantern-market": 6,
     "northgate-library": 4,
-    "athletic-commons": 3
+    "athletic-commons": 4
   },
   "last_visits": {
     "complex": 151.5,
@@ -4851,9 +4851,9 @@
     "bluewater-quay": 255,
     "lantern-market": 257.5,
     "northgate-library": 259.5,
-    "athletic-commons": 261.5
+    "athletic-commons": 263.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -4878,29 +4878,42 @@
     "worlds/athletic-commons/README.md": 6
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "northgate-university",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "athletic-commons",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 198,
-    "agent": "andrew",
-    "previous_region_id": "athletic-commons",
-    "region_id": "northgate-university",
-    "region_name": "NORTHGATE UNIVERSITY",
+    "cycle": 199,
+    "agent": "joseph",
+    "previous_region_id": "northgate-university",
+    "region_id": "athletic-commons",
+    "region_name": "ATHLETIC COMMONS",
     "relation": "STRENGTH WITHOUT CONFLICT",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 15.06,
-    "scale": 15.14,
-    "recording": "scheduled-recording-00198",
-    "at": "2026-11-13T01:30:18.249Z"
+    "previous_scale": 15.14,
+    "scale": 15.26,
+    "recording": "scheduled-recording-00199",
+    "at": "2026-11-13T08:47:25.497Z"
   },
-  "last_world_change": "2026-11-13T01:30:18.249Z",
-  "scale": 15.14,
+  "last_world_change": "2026-11-13T08:47:25.497Z",
+  "scale": 15.26,
   "external_events": [
+    {
+      "id": "long-play-00199",
+      "type": "CROSSING",
+      "title": "NORTHGATE UNIVERSITY → ATHLETIC COMMONS",
+      "body": "The world crossed \"STRENGTH WITHOUT CONFLICT\". Scale increased from 15.14× to 15.26×; the earlier location and baseline remain recorded.",
+      "from": "northgate-university",
+      "to": "athletic-commons",
+      "previous_region_id": "northgate-university",
+      "region_id": "athletic-commons",
+      "relation": "STRENGTH WITHOUT CONFLICT",
+      "source": "long-play",
+      "at": "2026-11-13T08:47:25.497Z"
+    },
     {
       "id": "long-play-00198",
       "type": "CROSSING",
@@ -6187,19 +6200,6 @@
       "relation": "MASS BECOMES WEATHER",
       "source": "long-play",
       "at": "2026-10-23T22:00:56.151Z"
-    },
-    {
-      "id": "long-play-00099",
-      "type": "CROSSING",
-      "title": "GROWTH CANVAS → THE COMPLEX",
-      "body": "The world crossed \"KISS = CONTINUITY\". Scale increased from 8.74× to 8.86×; the earlier location and baseline remain recorded.",
-      "from": "growth",
-      "to": "complex",
-      "previous_region_id": "growth",
-      "region_id": "complex",
-      "relation": "KISS = CONTINUITY",
-      "source": "long-play",
-      "at": "2026-10-23T18:58:50.062Z"
     }
   ],
   "last_action": "write-the-unentered-place"

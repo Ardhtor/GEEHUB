@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-13T01:30:18.249Z",
+  "generated": "2026-11-13T08:47:25.497Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00199",
+      "at": "2026-11-13T08:47:25.497Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / NORTHGATE UNIVERSITY → ATHLETIC COMMONS / JOSEPH",
+      "body": "The world crossed the existing relation \"STRENGTH WITHOUT CONFLICT\" from NORTHGATE UNIVERSITY into ATHLETIC COMMONS. Scale increased from 15.14× to 15.26×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00199",
+      "live": true,
+      "regionId": "athletic-commons",
+      "previousRegionId": "northgate-university",
+      "relation": "STRENGTH WITHOUT CONFLICT"
+    },
     {
       "id": "scheduled-long-play-00198",
       "at": "2026-11-13T01:30:18.249Z",
@@ -1481,21 +1496,6 @@
       "live": true,
       "regionId": "facility",
       "previousRegionId": "beefythiq",
-      "relation": "THE ROOM GETS SMALLER"
-    },
-    {
-      "id": "scheduled-long-play-00102",
-      "at": "2026-10-24T05:06:48.649Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / THE FACILITY → BEEFYTHIQ / TYLER",
-      "body": "The world crossed the existing relation \"THE ROOM GETS SMALLER\" from THE FACILITY into BEEFYTHIQ. Scale increased from 8.93× to 8.98×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00102",
-      "live": true,
-      "regionId": "beefythiq",
-      "previousRegionId": "facility",
       "relation": "THE ROOM GETS SMALLER"
     }
   ]

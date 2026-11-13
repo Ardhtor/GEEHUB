@@ -148,17 +148,21 @@ response, and local source-footage rendering remain unverified. The sequence wor
 now measures per-vertex deformation velocity and acceleration against body height
 using actual frame timestamps, and blocks all frame plans when configurable limits
 are exceeded. The local `register:frames` command reruns
-that audit, writes checksummed segmentation and landmark sidecars without
-overwriting existing evidence, then publishes a new versioned manifest only
-after both files pass read-back verification. The local `prepare:render`
-command reads those exact registered sidecars, verifies their checksums and
-sequence alignment, combines their landmark observations with approved
-cumulative growth states, rechecks the referenced body/face PNG bytes and
-dimensions, and writes a new queued manifest plus portable render-job bundle
-without overwriting existing files. `stage:bridge` can then deliver that
-bundle to the Dropbox mirror. These steps prepare auditable jobs and a first per-frame deformation plan;
-a ready plan can reach the Canvas warp, but no source-footage batch or
-finished video has been rendered.
+that audit, writes checksummed segmentation, landmark, and deformation-mesh
+sidecars without overwriting existing evidence, then publishes a new versioned
+manifest only after all three files pass read-back verification. The local
+`prepare:render` command reads those exact registered sidecars, verifies their
+checksums and sequence alignment, re-decodes the actual body/face PNG pixels,
+rebuilds the stable mask mesh, and compares the complete registered mesh
+sidecar with that fresh reconstruction. It binds the exact deformation
+frame-set ID, checksum, topology digest, vertex count, and triangle count into
+the queued job. The manifest queue validator, staging courier, and Resolve Free
+inspector all cross-check that reference; staging also verifies the three
+sidecar files' actual bytes. Older v1 jobs without the additive deformation
+reference remain readable, but every new preparation requires it. `stage:bridge`
+can then deliver the bundle to the Dropbox mirror. These steps prepare
+auditable jobs and a first per-frame deformation plan; a ready plan can reach
+the Canvas warp, but no source-footage batch or finished video has been rendered.
 Construction evidence and remaining blockers are recorded in
 [world/gee-narrative/STATE.md](world/gee-narrative/STATE.md) and
 [world/gee-narrative/CONSTRUCTION_CHRONICLE.md](world/gee-narrative/CONSTRUCTION_CHRONICLE.md).

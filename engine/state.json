@@ -1,5 +1,5 @@
 {
-  "pulse": 262,
+  "pulse": 263,
   "events": [
     {
       "pulse": 1,
@@ -4781,6 +4781,28 @@
       "occurred_at": "2026-11-12T23:48:00.246609+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000263",
+      "pulse": 263,
+      "time": "2026-11-13T06:12:48.465036+00:00",
+      "actor": "LUKE",
+      "world": "NORTHGATE UNIVERSITY",
+      "region_id": "northgate-university",
+      "previous_region_id": "northgate-university",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/northgate-university/README.md",
+      "desire_state": "attention",
+      "action": "SETH: Northgate University rises above the reservoir beneath old trees and open sky. The central quad is green and broad, enclosed by pale stone lecture halls, brick laboratories, timber galleries and workshops whose windows reveal models, instruments and small machines.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-13T06:12:48.465036+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -4831,7 +4853,7 @@
     "northgate-library": 259.5,
     "athletic-commons": 261.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -4849,16 +4871,16 @@
     "worlds/cedar-house/README.md": 9,
     "worlds/cat-gardens/README.md": 12,
     "worlds/founders-dormitory/README.md": 7,
-    "worlds/northgate-university/README.md": 17,
+    "worlds/northgate-university/README.md": 18,
     "worlds/bluewater-quay/README.md": 12,
     "worlds/lantern-market/README.md": 9,
     "worlds/northgate-library/README.md": 11,
     "worlds/athletic-commons/README.md": 6
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "northgate-university",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

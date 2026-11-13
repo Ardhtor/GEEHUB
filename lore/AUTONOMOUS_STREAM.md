@@ -2005,3 +2005,11 @@ SETH: The Athletic Commons is a broad brick-and-glass complex with high timber t
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 263 — ATMOSPHERE / NORTHGATE UNIVERSITY / 2026-11-13T06:12:48.465036+00:00
+
+SETH: Northgate University rises above the reservoir beneath old trees and open sky. The central quad is green and broad, enclosed by pale stone lecture halls, brick laboratories, timber galleries and workshops whose windows reveal models, instruments and small machines.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

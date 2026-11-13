@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-13T17:02:05.690Z",
+  "generated": "2026-11-13T22:39:57.595Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00201",
+      "at": "2026-11-13T22:39:57.595Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / NORTHGATE UNIVERSITY → FOUNDERS DORMITORY / LUKE",
+      "body": "The world crossed the existing relation \"ROOMS ABOVE THE QUADRANGLE\" from NORTHGATE UNIVERSITY into FOUNDERS DORMITORY. Scale increased from 15.30× to 15.33×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00201",
+      "live": true,
+      "regionId": "founders-dormitory",
+      "previousRegionId": "northgate-university",
+      "relation": "ROOMS ABOVE THE QUADRANGLE"
+    },
     {
       "id": "scheduled-long-play-00200",
       "at": "2026-11-13T17:02:05.690Z",
@@ -1482,21 +1497,6 @@
       "regionId": "discovery",
       "previousRegionId": "embodied-scale",
       "relation": "SCALE HAS HISTORY"
-    },
-    {
-      "id": "scheduled-long-play-00104",
-      "at": "2026-10-24T13:37:08.890Z",
-      "from": "geehub-long-play",
-      "to": "joseph",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / THE FACILITY → EMBODIED SCALE / JOSEPH",
-      "body": "The world crossed the existing relation \"THE FLOOR REPLIES\" from THE FACILITY into EMBODIED SCALE. Scale increased from 9.06× to 9.18×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00104",
-      "live": true,
-      "regionId": "embodied-scale",
-      "previousRegionId": "facility",
-      "relation": "THE FLOOR REPLIES"
     }
   ]
 }

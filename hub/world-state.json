@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00200.json",
+  "activeRecording": "./recordings/scheduled-recording-00201.json",
   "activeEncounter": {
-    "regionId": "northgate-university",
-    "regionName": "NORTHGATE UNIVERSITY",
+    "regionId": "founders-dormitory",
+    "regionName": "FOUNDERS DORMITORY",
     "subject": {
-      "agent": "chase",
-      "scale": 15.3,
+      "agent": "luke",
+      "scale": 15.33,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / ATHLETIC COMMONS → NORTHGATE UNIVERSITY / CHASE",
+    "intent": "LONG PLAY / NORTHGATE UNIVERSITY → FOUNDERS DORMITORY / LUKE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 15.26× → 15.30×",
-      "ATHLETIC COMMONS → NORTHGATE UNIVERSITY",
-      "relation: STRENGTH WITHOUT CONFLICT",
+      "scale 15.30× → 15.33×",
+      "NORTHGATE UNIVERSITY → FOUNDERS DORMITORY",
+      "relation: ROOMS ABOVE THE QUADRANGLE",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "athletic-commons"
+    "previousRegionId": "northgate-university"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-13T17:02:05.690Z",
+  "snapshot": "2026-11-13T22:39:57.595Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 200,
-    "agent": "chase",
-    "previousRegionId": "athletic-commons",
-    "regionId": "northgate-university",
-    "relation": "STRENGTH WITHOUT CONFLICT",
+    "cycle": 201,
+    "agent": "luke",
+    "previousRegionId": "northgate-university",
+    "regionId": "founders-dormitory",
+    "relation": "ROOMS ABOVE THE QUADRANGLE",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 15.26,
-    "scale": 15.3,
-    "recording": "scheduled-recording-00200",
-    "at": "2026-11-13T17:02:05.690Z"
+    "previousScale": 15.3,
+    "scale": 15.33,
+    "recording": "scheduled-recording-00201",
+    "at": "2026-11-13T22:39:57.595Z"
   }
 }

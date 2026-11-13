@@ -22,13 +22,22 @@ local function fixture()
                 sourceAssetId = "source-test", firstFrame = 0, lastFrame = 1,
                 frameCount = 2, width = 720, height = 1280, fps = 24,
                 checksum = string.rep("b", 64), immutable = true,
-                metadata = { sequenceId = "sequence-test" } }
+                metadata = { sequenceId = "sequence-test" } },
+            { id = "deformation-test", role = "deformation",
+                uri = "dropbox://GEEHUB/FrameEvidence/deformation.json",
+                sourceAssetId = "source-test", firstFrame = 0, lastFrame = 1,
+                frameCount = 2, width = 720, height = 1280, fps = 24,
+                checksum = string.rep("c", 64), immutable = true,
+                metadata = { sequenceId = "sequence-test",
+                    evidenceSchema = "geehub.mask-mesh-evidence.v1",
+                    topologyId = string.rep("c", 64), vertexCount = 9, triangleCount = 8,
+                    faceExclusionVerified = true, pixelSemanticsVerified = false } }
         },
         renderJobs = {{
             id = "render-test",
             jobUri = "dropbox://GEEHUB/Bridge/incoming/render-test.json",
             jobSchema = "geehub.growth-render-job", jobSchemaVersion = 1,
-            sourceAssetId = "source-test", inputFrameSetIds = { "segmentation-test", "landmarks-test" },
+            sourceAssetId = "source-test", inputFrameSetIds = { "segmentation-test", "landmarks-test", "deformation-test" },
             outputUri = "dropbox://GEEHUB/Exports/render-test.mp4",
             output = { width = 720, height = 1280, fps = 24, format = "mp4" },
             renderer = "resolve-free", status = "queued",
@@ -54,6 +63,9 @@ local function portableJob()
             landmarksFrameSetId = "landmarks-test",
             segmentationChecksum = string.rep("a", 64),
             landmarksChecksum = string.rep("b", 64),
+            deformationFrameSetId = "deformation-test",
+            deformationChecksum = string.rep("c", 64),
+            topologyId = string.rep("c", 64), vertexCount = 9, triangleCount = 8,
             firstFrame = 0, lastFrame = 1, frameCount = 2,
             width = 720, height = 1280, fps = 24,
             pixelSemanticsVerified = false
@@ -145,6 +157,25 @@ test("rejects a portable job whose evidence points at another sequence", functio
     payload.frameEvidence.sequenceId = "different-sequence"
     local errors = bridge.validatePortableJob(payload, fixture(), fixture().renderJobs[1])
     assert(#errors > 0)
+end)
+
+test("rejects a portable job whose deformation topology reference differs", function()
+    local payload = portableJob()
+    payload.frameEvidence.topologyId = string.rep("d", 64)
+    local errors = bridge.validatePortableJob(payload, fixture(), fixture().renderJobs[1])
+    assert(#errors > 0)
+    assert(table.concat(errors, "; "):find("deformation evidence disagrees", 1, true))
+end)
+
+test("keeps earlier frame-evidence jobs readable without a deformation extension", function()
+    local payload = portableJob()
+    payload.frameEvidence.deformationFrameSetId = nil
+    payload.frameEvidence.deformationChecksum = nil
+    payload.frameEvidence.topologyId = nil
+    payload.frameEvidence.vertexCount = nil
+    payload.frameEvidence.triangleCount = nil
+    local errors = bridge.validatePortableJob(payload, fixture(), fixture().renderJobs[1])
+    assert(#errors == 0, table.concat(errors, "; "))
 end)
 
 test("reports a missing source without throwing", function()

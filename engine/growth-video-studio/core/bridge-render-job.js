@@ -4,8 +4,11 @@
  * not render pixels or claim that mask semantics have been verified.
  */
 import { createHash } from "node:crypto";
+import { isDeepStrictEqual } from "node:util";
 import { createRenderJob } from "./render-job.js";
 import { queueBridgeRenderJob, validateBridgeManifest } from "./bridge-manifest.js";
+import { validateFrameSequencePackage } from "./frame-sequence.js";
+import { createMaskMeshEvidence } from "./frame-sequence-bridge.js";
 import { REQUIRED_ANCHORS } from "./landmark-track.js";
 
 export const RENDER_FRAME_EVIDENCE_SCHEMA = "geehub.render-frame-evidence";
@@ -24,26 +27,36 @@ const isDropboxUri = value => {
 function selectFrameSets(manifest, sequenceId) {
   const matching = manifest.frameSets.filter(item =>
     (!sequenceId || item.metadata?.sequenceId === sequenceId) &&
-    (item.role === "segmentation" || item.role === "landmarks"));
+    ["segmentation", "landmarks", "deformation"].includes(item.role));
   const segmentation = matching.filter(item => item.role === "segmentation");
   const landmarks = matching.filter(item => item.role === "landmarks");
-  if (segmentation.length !== 1 || landmarks.length !== 1) {
-    throw new Error("Select one sequence with exactly one segmentation and one landmarks frame set");
+  const deformation = matching.filter(item => item.role === "deformation");
+  if (segmentation.length !== 1 || landmarks.length !== 1 || deformation.length !== 1) {
+    throw new Error("Select one sequence with exactly one segmentation, landmarks, and deformation frame set");
   }
   const [maskSet] = segmentation;
   const [landmarkSet] = landmarks;
-  if (!maskSet.metadata?.sequenceId || maskSet.metadata.sequenceId !== landmarkSet.metadata?.sequenceId) {
-    throw new Error("Segmentation and landmarks frame sets must share a sequence id");
+  const [meshSet] = deformation;
+  if (!maskSet.metadata?.sequenceId ||
+      maskSet.metadata.sequenceId !== landmarkSet.metadata?.sequenceId ||
+      maskSet.metadata.sequenceId !== meshSet.metadata?.sequenceId) {
+    throw new Error("Segmentation, landmarks, and deformation frame sets must share a sequence id");
   }
   for (const field of RANGE_FIELDS) {
-    if (maskSet[field] !== landmarkSet[field]) {
-      throw new Error("Segmentation and landmarks frame sets disagree on " + field);
+    if (maskSet[field] !== landmarkSet[field] || maskSet[field] !== meshSet[field]) {
+      throw new Error("Segmentation, landmarks, and deformation frame sets disagree on " + field);
     }
   }
-  if (!isSha256(maskSet.checksum) || !isSha256(landmarkSet.checksum)) {
+  if (![maskSet, landmarkSet, meshSet].every(item => isSha256(item.checksum))) {
     throw new Error("Registered frame-set sidecars require SHA-256 checksums");
   }
-  return { segmentation: maskSet, landmarks: landmarkSet };
+  if (meshSet.metadata?.evidenceSchema !== "geehub.mask-mesh-evidence.v1" ||
+      !isSha256(meshSet.metadata?.topologyId) ||
+      !Number.isInteger(meshSet.metadata?.vertexCount) || meshSet.metadata.vertexCount < 1 ||
+      !Number.isInteger(meshSet.metadata?.triangleCount) || meshSet.metadata.triangleCount < 1) {
+    throw new Error("Registered deformation frame set lacks exact topology metadata");
+  }
+  return { segmentation: maskSet, landmarks: landmarkSet, deformation: meshSet };
 }
 
 function parseSidecar(content, frameSet, role, sourceAssetId) {
@@ -89,6 +102,87 @@ function parseSidecar(content, frameSet, role, sourceAssetId) {
     previousTime = frame.timeSeconds;
   });
   return document;
+}
+
+function parseDeformationSidecar(content, frameSet, sourceAssetId) {
+  if (typeof content !== "string") throw new TypeError("deformation sidecar text is required");
+  if (sha256(content) !== frameSet.checksum.toLowerCase()) {
+    throw new Error("deformation sidecar SHA-256 does not match its registered frame set");
+  }
+  let document;
+  try {
+    document = JSON.parse(content);
+  } catch {
+    throw new TypeError("deformation sidecar is not valid JSON");
+  }
+  if (document?.schema !== "geehub.mask-mesh-evidence" ||
+      document.schemaVersion !== 1 || document.role !== "deformation" ||
+      document.sourceAssetId !== sourceAssetId ||
+      document.sequenceId !== frameSet.metadata?.sequenceId ||
+      document.pixelSemanticsVerified !== false) {
+    throw new TypeError("deformation sidecar schema, role, or lineage is invalid");
+  }
+  for (const field of RANGE_FIELDS) {
+    if (document[field] !== frameSet[field]) {
+      throw new Error("deformation sidecar disagrees with its manifest on " + field);
+    }
+  }
+  if (!Array.isArray(document.frames) || document.frames.length !== frameSet.frameCount) {
+    throw new Error("deformation sidecar frame count does not match its manifest");
+  }
+  return document;
+}
+
+function reconstructExpectedMeshEvidence({
+  sequence, maskMesh, manifest, selected, segmentationDocument, landmarkDocument
+}) {
+  const check = validateFrameSequencePackage(sequence);
+  if (!check.valid || !check.structurallyReady) {
+    throw new TypeError("Freshly reconstructed frame sequence is not structurally ready");
+  }
+  const source = sequence.source;
+  const registered = selected.segmentation;
+  if (sequence.id !== registered.metadata.sequenceId ||
+      source?.id !== manifest.source.id || source?.name !== manifest.source.name ||
+      source?.uri !== manifest.source.uri || source?.immutable !== true ||
+      source?.width !== manifest.source.width || source?.height !== manifest.source.height ||
+      Math.abs(source?.duration - manifest.source.duration) > 0.000001) {
+    throw new Error("Fresh mesh reconstruction does not match the immutable bridge source");
+  }
+  if (sequence.format?.width !== registered.width ||
+      sequence.format?.height !== registered.height ||
+      sequence.format?.fps !== registered.fps ||
+      sequence.format?.frameCount !== registered.frameCount ||
+      check.firstFrame !== registered.firstFrame ||
+      check.lastFrame !== registered.lastFrame) {
+    throw new Error("Fresh mesh reconstruction does not match the registered sequence format");
+  }
+  if (!Array.isArray(sequence.frames) ||
+      sequence.frames.length !== segmentationDocument.frames.length ||
+      sequence.frames.length !== landmarkDocument.frames.length) {
+    throw new Error("Fresh mesh reconstruction does not cover the registered frame range");
+  }
+  sequence.frames.forEach((frame, index) => {
+    const masks = segmentationDocument.frames[index];
+    const landmarks = landmarkDocument.frames[index];
+    const body = frame.segmentation?.bodyMask;
+    const face = frame.segmentation?.faceMask;
+    if (frame.frame !== masks.frame || frame.frame !== landmarks.frame ||
+        frame.timeSeconds !== masks.timeSeconds || frame.timeSeconds !== landmarks.timeSeconds ||
+        frame.sourceAssetId !== manifest.source.id ||
+        frame.identityConfidence !== landmarks.identityConfidence ||
+        frame.poseConfidence !== landmarks.poseConfidence ||
+        !isDeepStrictEqual(frame.landmarks, landmarks.landmarks) ||
+        frame.segmentation?.model !== masks.model ||
+        frame.segmentation?.confidence !== masks.confidence ||
+        body?.uri !== masks.bodyMask?.uri || body?.checksum?.toLowerCase() !== masks.bodyMask?.checksum ||
+        body?.excludesFace !== true ||
+        face?.uri !== masks.faceMask?.uri || face?.checksum?.toLowerCase() !== masks.faceMask?.checksum ||
+        face?.protectsIdentity !== true) {
+      throw new Error("Fresh mesh reconstruction inputs differ from registered evidence at frame " + frame.frame);
+    }
+  });
+  return createMaskMeshEvidence(maskMesh, sequence, check);
 }
 
 function validateSegmentationFrames(document) {
@@ -159,6 +253,9 @@ export function prepareBridgeRenderJob({
   manifest,
   segmentationSidecar,
   landmarksSidecar,
+  deformationSidecar,
+  sequence,
+  maskMesh,
   growthStates,
   settings = {},
   sequenceId,
@@ -182,6 +279,25 @@ export function prepareBridgeRenderJob({
   validateSegmentationFrames(segmentationDocument);
   validateLandmarkFrames(landmarkDocument);
   const verifiedMaskPixelAudit = validateMaskPixelAudit(maskPixelAudit, selected.segmentation);
+  const deformationDocument = parseDeformationSidecar(
+    deformationSidecar, selected.deformation, manifest.source.id
+  );
+  const expectedDeformationDocument = reconstructExpectedMeshEvidence({
+    sequence,
+    maskMesh,
+    manifest,
+    selected,
+    segmentationDocument,
+    landmarkDocument
+  });
+  if (!isDeepStrictEqual(deformationDocument, expectedDeformationDocument)) {
+    throw new Error("Registered deformation mesh differs from a fresh mesh reconstructed from actual mask pixels");
+  }
+  if (selected.deformation.metadata.topologyId !== expectedDeformationDocument.topologyId ||
+      selected.deformation.metadata.vertexCount !== expectedDeformationDocument.vertexIds.length ||
+      selected.deformation.metadata.triangleCount !== expectedDeformationDocument.triangles.length) {
+    throw new Error("Registered deformation topology metadata differs from the freshly reconstructed mesh");
+  }
 
   for (let index = 0; index < segmentationDocument.frames.length; index += 1) {
     const maskFrame = segmentationDocument.frames[index];
@@ -217,6 +333,11 @@ export function prepareBridgeRenderJob({
     landmarksFrameSetId: selected.landmarks.id,
     segmentationChecksum: selected.segmentation.checksum,
     landmarksChecksum: selected.landmarks.checksum,
+    deformationFrameSetId: selected.deformation.id,
+    deformationChecksum: selected.deformation.checksum,
+    topologyId: expectedDeformationDocument.topologyId,
+    vertexCount: expectedDeformationDocument.vertexIds.length,
+    triangleCount: expectedDeformationDocument.triangles.length,
     ...Object.fromEntries(RANGE_FIELDS.map(field => [field, selected.segmentation[field]])),
     pixelDataVerified: verifiedMaskPixelAudit?.pixelDataVerified === true,
     faceExclusionVerified: verifiedMaskPixelAudit?.faceExclusionVerified === true,
@@ -228,7 +349,7 @@ export function prepareBridgeRenderJob({
     id: jobId,
     jobUri,
     portableJob: render.job,
-    inputFrameSetIds: [selected.segmentation.id, selected.landmarks.id],
+    inputFrameSetIds: [selected.segmentation.id, selected.landmarks.id, selected.deformation.id],
     outputUri,
     renderer
   });
@@ -239,7 +360,8 @@ export function prepareBridgeRenderJob({
     jobId: queuedManifest.renderJobs.at(-1).id,
     sequenceId: selected.segmentation.metadata.sequenceId,
     frameCount: selected.segmentation.frameCount,
-    frameSetIds: [selected.segmentation.id, selected.landmarks.id],
+    frameSetIds: [selected.segmentation.id, selected.landmarks.id, selected.deformation.id],
+    topologyId: expectedDeformationDocument.topologyId,
     maskPixelAudit: verifiedMaskPixelAudit,
     pixelSemanticsVerified: false
   };

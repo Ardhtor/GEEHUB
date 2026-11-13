@@ -9,6 +9,10 @@ import { stageBridgeExchange, resolveDropboxUri } from "./bridge-exchange.js";
 
 const sourceBytes = "immutable source video bytes";
 const sourceChecksum = createHash("sha256").update(sourceBytes).digest("hex");
+const segmentationContent = JSON.stringify({ schema: "geehub.frame-set-evidence", role: "segmentation" }) + "\n";
+const landmarksContent = JSON.stringify({ schema: "geehub.frame-set-evidence", role: "landmarks" }) + "\n";
+const deformationContent = JSON.stringify({ schema: "geehub.mask-mesh-evidence", role: "deformation" }) + "\n";
+const checksum = value => createHash("sha256").update(value).digest("hex");
 
 function portableJob() {
   return {
@@ -24,8 +28,13 @@ function portableJob() {
       sequenceId: "sequence-test",
       segmentationFrameSetId: "segmentation-test",
       landmarksFrameSetId: "landmarks-test",
-      segmentationChecksum: createHash("sha256").update(JSON.stringify({ schema: "geehub.frame-set-evidence", role: "segmentation" }) + "\n").digest("hex"),
-      landmarksChecksum: createHash("sha256").update(JSON.stringify({ schema: "geehub.frame-set-evidence", role: "landmarks" }) + "\n").digest("hex"),
+      segmentationChecksum: checksum(segmentationContent),
+      landmarksChecksum: checksum(landmarksContent),
+      deformationFrameSetId: "deformation-test",
+      deformationChecksum: checksum(deformationContent),
+      topologyId: "c".repeat(64),
+      vertexCount: 9,
+      triangleCount: 8,
       firstFrame: 0, lastFrame: 1, frameCount: 2, width: 720, height: 1280, fps: 24,
       pixelSemanticsVerified: false
     },
@@ -46,13 +55,13 @@ async function fixture(t) {
   await mkdir(path.dirname(sourcePath), { recursive: true });
   await writeFile(sourcePath, sourceBytes);
   const payload = portableJob();
-  const segmentationContent = JSON.stringify({ schema: "geehub.frame-set-evidence", role: "segmentation" }) + "\n";
-  const landmarksContent = JSON.stringify({ schema: "geehub.frame-set-evidence", role: "landmarks" }) + "\n";
   const segmentationPath = path.join(root, "GEEHUB", "FrameEvidence", "segmentation-test.json");
   const landmarksPath = path.join(root, "GEEHUB", "FrameEvidence", "landmarks-test.json");
+  const deformationPath = path.join(root, "GEEHUB", "FrameEvidence", "deformation-test.json");
   await mkdir(path.dirname(segmentationPath), { recursive: true });
   await writeFile(segmentationPath, segmentationContent);
   await writeFile(landmarksPath, landmarksContent);
+  await writeFile(deformationPath, deformationContent);
   let manifest = createBridgeManifest({
     projectId: "project-test",
     source: {
@@ -70,26 +79,37 @@ async function fixture(t) {
     id: "segmentation-test", role: "segmentation",
     uri: "dropbox://GEEHUB/FrameEvidence/segmentation-test.json",
     firstFrame: 0, lastFrame: 1, frameCount: 2, width: 720, height: 1280, fps: 24,
-    checksum: createHash("sha256").update(segmentationContent).digest("hex"),
+    checksum: checksum(segmentationContent),
     metadata: { sequenceId: "sequence-test" }
   });
   manifest = addBridgeFrameSet(manifest, {
     id: "landmarks-test", role: "landmarks",
     uri: "dropbox://GEEHUB/FrameEvidence/landmarks-test.json",
     firstFrame: 0, lastFrame: 1, frameCount: 2, width: 720, height: 1280, fps: 24,
-    checksum: createHash("sha256").update(landmarksContent).digest("hex"),
+    checksum: checksum(landmarksContent),
     metadata: { sequenceId: "sequence-test" }
+  });
+  manifest = addBridgeFrameSet(manifest, {
+    id: "deformation-test", role: "deformation",
+    uri: "dropbox://GEEHUB/FrameEvidence/deformation-test.json",
+    firstFrame: 0, lastFrame: 1, frameCount: 2, width: 720, height: 1280, fps: 24,
+    checksum: checksum(deformationContent),
+    metadata: {
+      sequenceId: "sequence-test", evidenceSchema: "geehub.mask-mesh-evidence.v1",
+      topologyId: "c".repeat(64), vertexCount: 9, triangleCount: 8,
+      faceExclusionVerified: true, pixelSemanticsVerified: false
+    }
   });
   manifest = queueBridgeRenderJob(manifest, {
     id: "render-test",
     jobUri: "dropbox://GEEHUB/Bridge/incoming/render-test.json",
     portableJob: payload,
-    inputFrameSetIds: ["segmentation-test", "landmarks-test"],
+    inputFrameSetIds: ["segmentation-test", "landmarks-test", "deformation-test"],
     outputUri: "dropbox://GEEHUB/Exports/render-test.mp4",
     renderer: "resolve-free"
   });
   t.after(() => rm(temp, { recursive: true, force: true }));
-  return { temp, root, sourcePath, manifest, payload, segmentationPath, landmarksPath };
+  return { temp, root, sourcePath, manifest, payload, segmentationPath, landmarksPath, deformationPath };
 }
 
 test("maps Dropbox URIs below the configured root and rejects traversal", () => {
@@ -117,8 +137,8 @@ test("stages a verified source, job JSON, and manifest without creating the outp
   assert.equal(receipt.declaredSourceChecksum, sourceChecksum);
   assert.equal(receipt.status, "staged");
   assert.equal(receipt.outputCreated, false);
-  assert.equal(receipt.frameSetVerification.checked, 2);
-  assert.equal(receipt.frameSetVerification.verified, 2);
+  assert.equal(receipt.frameSetVerification.checked, 3);
+  assert.equal(receipt.frameSetVerification.verified, 3);
   assert.equal(await readFile(f.sourcePath, "utf8"), sourceBytes);
   await assert.rejects(lstat(receipt.outputPath), { code: "ENOENT" });
 });
@@ -170,6 +190,15 @@ test("refuses stale frame-evidence references before writing an exchange", async
     portableJob: f.payload, dropboxRoot: f.root
   }), /frame evidence disagrees/);
   await assert.rejects(lstat(resolveDropboxUri("dropbox://GEEHUB/Bridge/incoming/manifest.json", f.root)), { code: "ENOENT" });
+});
+
+test("refuses a portable job whose deformation topology reference differs from the manifest", async t => {
+  const f = await fixture(t);
+  f.payload.frameEvidence.topologyId = "d".repeat(64);
+  await assert.rejects(stageBridgeExchange({
+    manifest: f.manifest, jobId: "render-test",
+    portableJob: f.payload, dropboxRoot: f.root
+  }), /deformation evidence disagrees/);
 });
 
 test("refuses to overwrite a reserved output file", async t => {

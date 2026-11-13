@@ -11,7 +11,7 @@ const usage = [
   "  npm run prepare:render -- <registered-manifest.json> <growth-states.json> <job-id> <bundle-directory> [sequence-id]",
   "",
   "The growth-states file must contain an array of approved, cumulative growth states.",
-  "The command reads the registered segmentation and landmark sidecars from the local Dropbox mirror.",
+  "The command reads registered segmentation, landmark, and deformation sidecars from the local Dropbox mirror.",
   "It writes a portable job and a new queued manifest into a new, non-overwriting bundle.",
   "",
   "Environment:",
@@ -101,14 +101,16 @@ async function main() {
 
   const sequenceFrameSets = manifest.frameSets.filter(item =>
     (!sequenceId || item.metadata?.sequenceId === sequenceId) &&
-    (item.role === "segmentation" || item.role === "landmarks"));
+    (item.role === "segmentation" || item.role === "landmarks" || item.role === "deformation"));
   const segmentation = sequenceFrameSets.filter(item => item.role === "segmentation");
   const landmarks = sequenceFrameSets.filter(item => item.role === "landmarks");
-  if (segmentation.length !== 1 || landmarks.length !== 1) {
-    throw new Error("Manifest must identify exactly one segmentation/landmarks pair; supply sequence-id when multiple sequences exist");
+  const deformation = sequenceFrameSets.filter(item => item.role === "deformation");
+  if (segmentation.length !== 1 || landmarks.length !== 1 || deformation.length !== 1) {
+    throw new Error("Manifest must identify exactly one segmentation/landmarks/deformation set; supply sequence-id when multiple sequences exist");
   }
   const segmentationSidecar = await readSafeDropboxText(segmentation[0].uri, dropboxRoot);
   const landmarksSidecar = await readSafeDropboxText(landmarks[0].uri, dropboxRoot);
+  const deformationSidecar = await readSafeDropboxText(deformation[0].uri, dropboxRoot);
   const segmentationDocument = JSON.parse(segmentationSidecar);
   const landmarksDocument = JSON.parse(landmarksSidecar);
   if (!Array.isArray(segmentationDocument.frames) ||
@@ -177,6 +179,9 @@ async function main() {
     manifest,
     segmentationSidecar,
     landmarksSidecar,
+    deformationSidecar,
+    sequence,
+    maskMesh: maskAudit.maskMesh,
     growthStates,
     sequenceId,
     maskPixelAudit: {
@@ -238,6 +243,13 @@ async function main() {
     manifestFile: manifestPath,
     jobUri,
     outputUri,
+    meshAudit: {
+      topologyId: prepared.topologyId,
+      vertexCount: prepared.portableJob.frameEvidence.vertexCount,
+      triangleCount: prepared.portableJob.frameEvidence.triangleCount,
+      deformationFrameSetId: prepared.portableJob.frameEvidence.deformationFrameSetId,
+      deformationChecksum: prepared.portableJob.frameEvidence.deformationChecksum
+    },
     maskAudit: {
       checked: maskAudit.fileVerification.checked,
       verified: maskAudit.fileVerification.verified,

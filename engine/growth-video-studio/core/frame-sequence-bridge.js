@@ -31,7 +31,7 @@ function sameFormat(a, b) {
   return a.width === b.width && a.height === b.height && a.fps === b.fps;
 }
 
-function createMaskMeshEvidence(mesh, sequence, sequenceCheck) {
+export function createMaskMeshEvidence(mesh, sequence, sequenceCheck) {
   if (mesh?.schema !== "geehub.mask-mesh" || mesh.schemaVersion !== 1 ||
       mesh.status !== "ready" || mesh.topologyStable !== true || mesh.connected !== true ||
       mesh.evidence?.faceExclusionVerified !== true ||

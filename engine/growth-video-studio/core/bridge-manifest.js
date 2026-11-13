@@ -214,6 +214,38 @@ export function queueBridgeRenderJob(manifest, {
       throw new Error("Render job frame evidence disagrees with registered frame sets on " + field);
     }
   }
+  if (evidence.deformationFrameSetId !== undefined) {
+    const deformationSet = selectedFrameSets.find(item => item.role === "deformation");
+    if (!deformationSet) {
+      throw new Error("Render job deformation evidence does not resolve its registered mesh frame set");
+    }
+    const meshEvidence = {
+      deformationFrameSetId: deformationSet.id,
+      deformationChecksum: deformationSet.checksum,
+      topologyId: deformationSet.metadata?.topologyId,
+      vertexCount: deformationSet.metadata?.vertexCount,
+      triangleCount: deformationSet.metadata?.triangleCount
+    };
+    for (const [field, expected] of Object.entries(meshEvidence)) {
+      if (evidence[field] !== expected) {
+        throw new Error("Render job deformation evidence disagrees with registered mesh on " + field);
+      }
+    }
+    if (deformationSet.metadata?.evidenceSchema !== "geehub.mask-mesh-evidence.v1" ||
+        !sha256(deformationSet.checksum) ||
+        !/^[a-f0-9]{64}$/i.test(deformationSet.metadata?.topologyId || "") ||
+        !positiveInt(deformationSet.metadata?.vertexCount) ||
+        !positiveInt(deformationSet.metadata?.triangleCount) ||
+        deformationSet.firstFrame !== segmentationSet.firstFrame ||
+        deformationSet.lastFrame !== segmentationSet.lastFrame ||
+        deformationSet.frameCount !== segmentationSet.frameCount ||
+        deformationSet.width !== segmentationSet.width ||
+        deformationSet.height !== segmentationSet.height ||
+        deformationSet.fps !== segmentationSet.fps ||
+        deformationSet.metadata?.sequenceId !== segmentationSet.metadata?.sequenceId) {
+      throw new Error("Registered deformation frame set metadata is invalid or misaligned");
+    }
+  }
   if (!Array.isArray(portableJob.landmarkFrames) ||
       portableJob.landmarkFrames.length !== segmentationSet.frameCount) {
     throw new Error("Render job landmark observations must cover the registered frame range");

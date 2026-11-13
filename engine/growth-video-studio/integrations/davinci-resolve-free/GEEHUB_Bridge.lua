@@ -317,6 +317,39 @@ local function validatePortableJob(payload, manifest, job)
                         add("Portable render job frame evidence disagrees with manifest on " .. key)
                     end
                 end
+                if evidence.deformationFrameSetId ~= nil then
+                    local deformation = selected.deformation
+                    if not deformation then
+                        add("Portable render job does not resolve its registered deformation mesh")
+                    else
+                        local metadata = deformation.metadata or {}
+                        local meshExpected = {
+                            deformationFrameSetId = deformation.id,
+                            deformationChecksum = deformation.checksum,
+                            topologyId = metadata.topologyId,
+                            vertexCount = metadata.vertexCount,
+                            triangleCount = metadata.triangleCount
+                        }
+                        for key, value in pairs(meshExpected) do
+                            if evidence[key] ~= value then
+                                add("Portable render job deformation evidence disagrees with manifest on " .. key)
+                            end
+                        end
+                        if metadata.evidenceSchema ~= "geehub.mask-mesh-evidence.v1" or
+                           not isSha256(metadata.topologyId) or
+                           type(metadata.vertexCount) ~= "number" or metadata.vertexCount < 1 or
+                           type(metadata.triangleCount) ~= "number" or metadata.triangleCount < 1 or
+                           deformation.firstFrame ~= segmentation.firstFrame or
+                           deformation.lastFrame ~= segmentation.lastFrame or
+                           deformation.frameCount ~= segmentation.frameCount or
+                           deformation.width ~= segmentation.width or
+                           deformation.height ~= segmentation.height or
+                           deformation.fps ~= segmentation.fps or
+                           metadata.sequenceId ~= segmentation.metadata.sequenceId then
+                            add("Registered deformation frame set metadata is invalid or misaligned")
+                        end
+                    end
+                end
                 if type(payload.landmarkFrames) ~= "table" or
                    #payload.landmarkFrames ~= segmentation.frameCount then
                     add("Portable render job landmark observations do not cover the registered frame range")

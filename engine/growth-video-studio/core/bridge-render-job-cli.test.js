@@ -10,6 +10,10 @@ import { fileURLToPath } from "node:url";
 import { createBridgeManifest, addBridgeFrameSet } from "./bridge-manifest.js";
 import { createGrowthState, createChildState, BASELINE } from "./growth-state.js";
 import { REQUIRED_ANCHORS } from "./landmark-track.js";
+import { decodeBinaryMaskPng } from "./mask-pixels.js";
+import { buildStableMaskMesh } from "./mask-mesh.js";
+import { validateFrameSequencePackage } from "./frame-sequence.js";
+import { createMaskMeshEvidence } from "./frame-sequence-bridge.js";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const cli = path.resolve(here, "../tools/prepare-bridge-render-job.js");
@@ -126,11 +130,45 @@ async function fixture(t) {
   };
   const segmentationText = JSON.stringify(segmentationDocument, null, 2) + "\n";
   const landmarksText = JSON.stringify(landmarksDocument, null, 2) + "\n";
+  const sequence = {
+    schema: "geehub.frame-sequence", schemaVersion: 1, id: sequenceId,
+    source: structuredClone(source),
+    format: { width: source.width, height: source.height, fps: range.fps, frameCount: range.frameCount },
+    firstFrame: range.firstFrame, startTimeSeconds: 0,
+    frames: segmentationDocument.frames.map((frame, index) => {
+      const track = landmarksDocument.frames[index];
+      return {
+        frame: frame.frame, timeSeconds: frame.timeSeconds,
+        sourceAssetId: source.id, width: source.width, height: source.height,
+        identityConfidence: track.identityConfidence, poseConfidence: track.poseConfidence,
+        landmarks: structuredClone(track.landmarks),
+        segmentation: {
+          sourceAssetId: source.id, frame: frame.frame, width: source.width, height: source.height,
+          model: frame.model, confidence: frame.confidence,
+          bodyMask: { ...frame.bodyMask, role: "body", width: source.width, height: source.height },
+          faceMask: { ...frame.faceMask, role: "face", width: source.width, height: source.height }
+        }
+      };
+    })
+  };
+  const sequenceCheck = validateFrameSequencePackage(sequence);
+  assert.equal(sequenceCheck.valid, true, JSON.stringify(sequenceCheck.errors));
+  const decodedBody = decodeBinaryMaskPng(pngByRole.body);
+  const decodedFace = decodeBinaryMaskPng(pngByRole.face);
+  const maskMesh = buildStableMaskMesh(sequence.frames.map(frame => ({
+    frame: frame.frame, timeSeconds: frame.timeSeconds,
+    bodyMask: decodedBody, faceMask: decodedFace
+  })));
+  assert.equal(maskMesh.status, "ready");
+  const deformationDocument = createMaskMeshEvidence(maskMesh, sequence, sequenceCheck);
+  const deformationText = JSON.stringify(deformationDocument, null, 2) + "\n";
   const segmentationPath = path.join(root, "GEEHUB", "Bridge", "evidence", "segmentation.json");
   const landmarksPath = path.join(root, "GEEHUB", "Bridge", "evidence", "landmarks.json");
+  const deformationPath = path.join(root, "GEEHUB", "Bridge", "evidence", "deformation-mesh.json");
   await mkdir(path.dirname(segmentationPath), { recursive: true });
   await writeFile(segmentationPath, segmentationText);
   await writeFile(landmarksPath, landmarksText);
+  await writeFile(deformationPath, deformationText);
 
   let manifest = createBridgeManifest({ projectId: "cli-project", source, manifestId: "cli-bridge" });
   manifest = addBridgeFrameSet(manifest, {
@@ -143,6 +181,18 @@ async function fixture(t) {
     uri: "dropbox://GEEHUB/Bridge/evidence/landmarks.json",
     ...range, checksum: sha(landmarksText), metadata: { sequenceId }
   });
+  manifest = addBridgeFrameSet(manifest, {
+    id: "cli-deformation", role: "deformation",
+    uri: "dropbox://GEEHUB/Bridge/evidence/deformation-mesh.json",
+    ...range, checksum: sha(deformationText),
+    metadata: {
+      sequenceId, evidenceSchema: "geehub.mask-mesh-evidence.v1",
+      topologyId: deformationDocument.topologyId,
+      vertexCount: deformationDocument.vertexIds.length,
+      triangleCount: deformationDocument.triangles.length,
+      faceExclusionVerified: true, pixelSemanticsVerified: false
+    }
+  });
 
   const baseline = createGrowthState(BASELINE, { id: "cli-baseline" });
   const grown = createChildState(baseline, {
@@ -154,7 +204,8 @@ async function fixture(t) {
   const bundlePath = path.join(temp, "bundle");
   await writeFile(manifestPath, JSON.stringify(manifest, null, 2));
   await writeFile(growthPath, JSON.stringify([baseline, grown], null, 2));
-  return { temp, root, manifestPath, growthPath, bundlePath, maskFilePaths: maskFiles.map(file => file.filePath) };
+  return { temp, root, manifestPath, growthPath, bundlePath,
+    deformationPath, maskFilePaths: maskFiles.map(file => file.filePath) };
 }
 
 function runCli(f) {
@@ -184,14 +235,35 @@ test("preparation CLI rechecks actual masks and writes a queued job bundle", asy
   });
   const job = JSON.parse(await readFile(receipt.jobFile, "utf8"));
   const manifest = JSON.parse(await readFile(receipt.manifestFile, "utf8"));
-  assert.equal(manifest.revision, 3);
+  assert.equal(manifest.revision, 4);
   assert.equal(manifest.renderJobs[0].status, "queued");
+  assert.deepEqual(manifest.renderJobs[0].inputFrameSetIds,
+    ["cli-segmentation", "cli-landmarks", "cli-deformation"]);
   assert.equal(job.frameEvidence.sequenceId, sequenceId);
+  assert.equal(job.frameEvidence.deformationFrameSetId, "cli-deformation");
+  assert.equal(job.frameEvidence.topologyId, receipt.meshAudit.topologyId);
+  assert.equal(job.frameEvidence.vertexCount, receipt.meshAudit.vertexCount);
+  assert.equal(job.frameEvidence.triangleCount, receipt.meshAudit.triangleCount);
   assert.equal(job.frameEvidence.pixelSemanticsVerified, false);
   assert.equal(job.frameEvidence.pixelDataVerified, true);
   assert.equal(job.frameEvidence.faceExclusionVerified, true);
   assert.equal(job.frameEvidence.maskPixelAudit.overlapPixels, 0);
   assert.equal(job.landmarkFrames.length, 2);
+});
+
+test("preparation CLI refuses a registered mesh that differs from a fresh mask-pixel rebuild even when re-hashed", async t => {
+  const f = await fixture(t);
+  const sidecar = JSON.parse(await readFile(f.deformationPath, "utf8"));
+  sidecar.frames[0].sourcePoints[0].x += 0.25;
+  const sidecarText = JSON.stringify(sidecar, null, 2) + "\n";
+  await writeFile(f.deformationPath, sidecarText);
+  const manifest = JSON.parse(await readFile(f.manifestPath, "utf8"));
+  manifest.frameSets.find(item => item.id === "cli-deformation").checksum = sha(sidecarText);
+  await writeFile(f.manifestPath, JSON.stringify(manifest, null, 2));
+  const result = runCli(f);
+  assert.equal(result.status, 1);
+  assert.match(result.stderr, /differs from a fresh mesh reconstructed from actual mask pixels/);
+  await assert.rejects(lstat(f.bundlePath), { code: "ENOENT" });
 });
 
 test("preparation CLI refuses a registered pixel audit that no longer matches the files", async t => {

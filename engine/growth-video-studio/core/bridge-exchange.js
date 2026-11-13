@@ -184,6 +184,38 @@ function validatePortableJob(payload, manifest, job) {
             add("Portable render job frame evidence disagrees with manifest on " + field);
           }
         }
+        if (evidence.deformationFrameSetId !== undefined) {
+          const deformation = selected.find(item => item.role === "deformation");
+          if (!deformation) {
+            add("Portable render job does not resolve its registered deformation mesh");
+          } else {
+            const meshExpected = {
+              deformationFrameSetId: deformation.id,
+              deformationChecksum: deformation.checksum,
+              topologyId: deformation.metadata?.topologyId,
+              vertexCount: deformation.metadata?.vertexCount,
+              triangleCount: deformation.metadata?.triangleCount
+            };
+            for (const [field, value] of Object.entries(meshExpected)) {
+              if (evidence[field] !== value) {
+                add("Portable render job deformation evidence disagrees with manifest on " + field);
+              }
+            }
+            if (deformation.metadata?.evidenceSchema !== "geehub.mask-mesh-evidence.v1" ||
+                !/^[a-f0-9]{64}$/i.test(deformation.metadata?.topologyId || "") ||
+                !Number.isInteger(deformation.metadata?.vertexCount) || deformation.metadata.vertexCount < 1 ||
+                !Number.isInteger(deformation.metadata?.triangleCount) || deformation.metadata.triangleCount < 1 ||
+                deformation.firstFrame !== segmentation.firstFrame ||
+                deformation.lastFrame !== segmentation.lastFrame ||
+                deformation.frameCount !== segmentation.frameCount ||
+                deformation.width !== segmentation.width ||
+                deformation.height !== segmentation.height ||
+                deformation.fps !== segmentation.fps ||
+                deformation.metadata?.sequenceId !== segmentation.metadata?.sequenceId) {
+              add("Registered deformation frame set metadata is invalid or misaligned");
+            }
+          }
+        }
         if (!Array.isArray(payload.landmarkFrames) ||
             payload.landmarkFrames.length !== segmentation.frameCount) {
           add("Portable render job landmark observations do not cover the registered frame range");

@@ -336,7 +336,7 @@ local function validatePortableJob(payload, manifest, job)
                             end
                         end
                         if metadata.evidenceSchema ~= "geehub.mask-mesh-evidence.v1" or
-                           not isSha256(metadata.topologyId) or
+                           not sha256(metadata.topologyId) or
                            type(metadata.vertexCount) ~= "number" or metadata.vertexCount < 1 or
                            type(metadata.triangleCount) ~= "number" or metadata.triangleCount < 1 or
                            deformation.firstFrame ~= segmentation.firstFrame or

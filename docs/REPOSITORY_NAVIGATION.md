@@ -1,67 +1,18 @@
 # GEEHUB — Repository Navigation
 
 **Branch:** `main`  
-**Indexed from commit:** `42d92a3fae2bd613fd3a9f2bad2ade4fc237cf9a`  
-**Current tree:** 120 directories and 1929 tracked files.
+**Indexed commit:** `813ffc63306eadbf301e9af0774783027640b7e2`  
+**Current tree:** 120 directories and 1930 tracked files.
 
-The repository is navigated from two levels: this map gives the overall geography; each directory's own `README.md` is the local landing page, showing immediate files and subdirectories with a breadcrumb back here. The indexes add routes only—they do not move, rename, compress, or replace source files.
+This is the central directory map. Every folder has a local `README.md` landing page. Open a folder below to browse its immediate files and child folders; use its breadcrumb to move upward. The [Project Workbench](PROJECT_WORKBENCH.md) is the practical resume map for projects already underway. These indexes add navigation only: they do not move, rename, compress, or replace project assets.
 
-## Work surfaces
+## Start here
 
-- [Project Workbench](PROJECT_WORKBENCH.md) — active projects, current state, and next useful action.
-- [Root overview](../README.md) — what GEEHUB is and how its systems connect.
-- [Hub browser](../hub/index.html) — browse the project constellation.
+- [Project Workbench](PROJECT_WORKBENCH.md) — project entry points, current state, and next useful action.
+- [Root overview](../README.md) — purpose and continuity principles.
+- [Hub browser](../hub/index.html) — interactive project constellation.
 - [Project registry](../projects.json) · [Hub display registry](../hub/projects.json).
-- [Directory indexes](#directory-hierarchy) — every folder has a local README.
-
-## Key areas
-
-- [Hub](../hub/README.md) — shared creative entry point, Atlas, memory bridge, and project browser.
-- [Docs](../docs/README.md) — specifications, continuity contracts, production standards, and project workbench.
-- [Lore](../lore/README.md) — canon, places, characters, myth, and long-form world records.
-- [Novel](../novel/README.md) — long-form manuscripts and connected story material.
-- [Engine](../engine/README.md) — runtime, narrative, audio, video, memory, and production systems.
-- [Worlds](../worlds/README.md) — independent inhabited locations.
-- [Production](../production/README.md) — source intake, project assembly, manifests, and exports.
-- [Creative](../creative/README.md) — collaborative story and character workspaces.
-- [Archive](../archive/README.md) — source-grounded visual archives and preserved material.
-- [Corpus](../corpus/README.md) — source records, exchanges, and provenance-bearing memory.
-- [Research](../research/README.md) — historical corpora, discovery, and reference studies.
-- [Characters](../characters/README.md) — character entry points and individual records.
-- [Artifacts](../artifacts/README.md) — durable outputs and event records.
-
-## Files at repository root
-
-- [`.gitignore`](../.gitignore)
-- [`AUDIT_2026-10-05.md`](../AUDIT_2026-10-05.md)
-- [`BUILD_NARRATIVE.md`](../BUILD_NARRATIVE.md)
-- [`CANON.md`](../CANON.md)
-- [`CONTRIBUTING.md`](../CONTRIBUTING.md)
-- [`CURRENT_STATE_2026-09.md`](../CURRENT_STATE_2026-09.md)
-- [`FICTION_ENGINE.md`](../FICTION_ENGINE.md)
-- [`GEEHUB_STORAGE.md`](../GEEHUB_STORAGE.md)
-- [`HULUMS_CAVE_BUILD_LOG.md`](../HULUMS_CAVE_BUILD_LOG.md)
-- [`LICENSE`](../LICENSE)
-- [`PRODUCTION_LOG.md`](../PRODUCTION_LOG.md)
-- [`PROJECT_ATLAS.md`](../PROJECT_ATLAS.md)
-- [`PROPHECY.md`](../PROPHECY.md)
-- [`README.md`](../README.md)
-- [`SENSATION_ENGINE.md`](../SENSATION_ENGINE.md)
-- [`SHAKE_2026-09-06.md`](../SHAKE_2026-09-06.md)
-- [`THE_FIRST_MEN.md`](../THE_FIRST_MEN.md)
-- [`TXT.rtf`](../TXT.rtf)
-- [`app.js`](../app.js)
-- [`consumer.html`](../consumer.html)
-- [`hulums-cave.html`](../hulums-cave.html)
-- [`index.html`](../index.html)
-- [`projects.json`](../projects.json)
-- [`records.json`](../records.json)
-- [`schema.json`](../schema.json)
-- [`size-game.html`](../size-game.html)
-- [`style.css`](../style.css)
-- [`validate-records.py`](../validate-records.py)
-- [`world.json`](../world.json)
-- [`zero-read.html`](../zero-read.html)
+- [Docs](README.md) · [Lore](../lore/README.md) · [Novel](../novel/README.md) · [Engine](../engine/README.md) · [Worlds](../worlds/README.md) · [Production](../production/README.md).
 
 ## Directory hierarchy
 
@@ -94,7 +45,7 @@ The repository is navigated from two levels: this map gives the overall geograph
       - [`creative/measure-between-us/repos/tyler-measurement/`](../creative/measure-between-us/repos/tyler-measurement/README.md) — 1 direct files · 0 child directories
 - [`data/`](../data/README.md) — 2 direct files · 0 child directories
 - [`deep-lore/`](../deep-lore/README.md) — 2 direct files · 0 child directories
-- [`docs/`](../docs/README.md) — 69 direct files · 0 child directories
+- [`docs/`](../docs/README.md) — 70 direct files · 0 child directories
 - [`downloads/`](../downloads/README.md) — 2 direct files · 0 child directories
 - [`dropbox_outbox/`](../dropbox_outbox/README.md) — 432 direct files · 0 child directories
 - [`engine/`](../engine/README.md) — 120 direct files · 8 child directories
@@ -186,11 +137,11 @@ The repository is navigated from two levels: this map gives the overall geograph
   - [`worlds/scale-commons/`](../worlds/scale-commons/README.md) — 1 direct files · 0 child directories
 - [`worldspace/`](../worldspace/README.md) — 3 direct files · 0 child directories
 
-## Local navigation rules
+## Navigation conventions
 
 - Every directory's `README.md` is its local landing page.
-- The local page lists immediate files and child folders only, so it remains useful rather than becoming a duplicate of the whole repository.
-- Use the parent breadcrumb to move upward, or return to this map to jump to another branch.
+- Local pages list immediate files and child folders, keeping navigation manageable.
+- Use the breadcrumb to move upward, or this map to jump to another branch.
 - File links preserve original names and locations.
-- Placeholder and empty directories remain visible when they exist in the Git tree.
+- Concepts without a source path remain visible in the Project Workbench but are not presented as working files.
 

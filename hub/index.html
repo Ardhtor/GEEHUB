@@ -122,12 +122,12 @@ function renderAtlas(){
 function projectHref(p){
   const raw=typeof p.path==='string'?p.path.trim():'';
   if(!raw||raw==='#')return null;
-  if(/^https?:\\/\\//i.test(raw))return raw;
+  if(raw.startsWith('https://')||raw.startsWith('http://'))return raw;
   const hashAt=raw.indexOf('#');
   const fragment=hashAt>=0?raw.slice(hashAt):'';
   let path=hashAt>=0?raw.slice(0,hashAt):raw;
   if(!path||path==='/'||path==='.'||path==='..'||path==='.'+'/'||path==='..'+'/')path='../README.md';
-  else if(path.startsWith('/'))path='../'+path.replace(/^\\/+/, '');
+  else if(path.startsWith('/'))path='../'+path.slice(1);
   if(path.endsWith('/'))path+='README.md';
   return path+fragment;
 }
@@ -154,7 +154,7 @@ function openEntry(id,push=true){
 }
 function esc(s){return String(s).replace(/[&<>\\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\\"':'&quot;',"'":'&#39;'}[c]));}
 function visible(){const q=query.toLowerCase().trim();return P.filter(p=>(statusFilter==='all'||p.status===statusFilter)&&(!q||JSON.stringify(p).toLowerCase().includes(q)));}
-function render(){const rows=visible();const scope=statusFilter==='all'?'all statuses':statusFilter;$('#stats').textContent=`${rows.length} shown · ${P.length} total · ${scope}`;$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="muted">${esc(p.status)} · ${esc(p.group)}</div><h3>${esc(p.name)}</h3><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div>${p.repo?`<a class="repo-link" href="${esc(p.repo)}" target="_blank" rel="noopener">OPEN REPOSITORY ↗</a>`:''}</article>`).join('')||'<div class="card">Nothing found.</div>';}
+function render(){const rows=visible();const scope=statusFilter==='all'?'all statuses':statusFilter;$('#stats').textContent=`${rows.length} shown · ${P.length} total · ${scope}`;$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="muted">${esc(p.status)} · ${esc(p.group)}</div><h3>${esc(p.name)}</h3><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div>${projectAction(p)}</article>`).join('')||'<div class="card">Nothing found.</div>';}
 
 async function loadProjects(){
   try{

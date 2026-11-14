@@ -1,12 +1,20 @@
-# docs — directory index
+# docs — documentation index
 
-This is the local navigation page for `docs/`. The lists below link to immediate files and child folders; use a child folder's own README to continue deeper.
+The documentation folder contains the repository's technical contracts, editorial standards, operating procedures, and project navigation. Start with the two working indexes below, then browse the records by filename.
 
-**Up:** [parent directory](../README.md) · [repository root](../README.md) · [full directory map](../docs/REPOSITORY_NAVIGATION.md)
+## Start here
+
+- [Project Workbench](PROJECT_WORKBENCH.md) — continue projects already started in GEEHUB, with current source paths and next useful actions.
+- [Repository Navigation](REPOSITORY_NAVIGATION.md) — full directory hierarchy and links to every local folder index.
+- [Tractus Continuity Contract](TRACTUS_CONTINUITY_CONTRACT.md) — the continuity model linking events, state, narrative, and artifacts.
+- [Information Portability](INFORMATION_PORTABILITY.md) — how consequential information moves into every affected layer and remains retrievable.
+- [Chat ↔ World Asset Memory Bridge](CHAT_ASSET_MEMORY_BRIDGE.md) — importing, linking, and preserving conversation and visual source material.
+
+**Up:** [repository root](../README.md) · [Hub](../hub/README.md) · [full directory map](REPOSITORY_NAVIGATION.md)
 
 ## Files
 
-### MD (68)
+### MD (69)
 
 - [`ACCESSIBLE_CONSTELLATION.md`](./ACCESSIBLE_CONSTELLATION.md)
 - [`ACCESSIBLE_REPOSITORIES_2026-09.md`](./ACCESSIBLE_REPOSITORIES_2026-09.md)
@@ -54,6 +62,7 @@ This is the local navigation page for `docs/`. The lists below link to immediate
 - [`PORTABLE_ARTIFACTS.md`](./PORTABLE_ARTIFACTS.md)
 - [`PORTABLE_JAM_VALIDATION.md`](./PORTABLE_JAM_VALIDATION.md)
 - [`PORTABLE_JAMS_SCHEMA.md`](./PORTABLE_JAMS_SCHEMA.md)
+- [`PROJECT_WORKBENCH.md`](./PROJECT_WORKBENCH.md)
 - [`RARE_REVELATION.md`](./RARE_REVELATION.md)
 - [`RECORDS_VALIDATION.md`](./RECORDS_VALIDATION.md)
 - [`REPOSITORY_CONSTELLATION.md`](./REPOSITORY_CONSTELLATION.md)
@@ -76,3 +85,4 @@ This is the local navigation page for `docs/`. The lists below link to immediate
 - [`VOICE_AND_BUILD_LOG.md`](./VOICE_AND_BUILD_LOG.md)
 - [`WHOLE_WORLD_EXPANSION.md`](./WHOLE_WORLD_EXPANSION.md)
 - [`WORKSPACE_ACCESS.md`](./WORKSPACE_ACCESS.md)
+

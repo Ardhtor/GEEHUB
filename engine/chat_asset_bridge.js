@@ -151,7 +151,7 @@ export function confirmEdge(graph,edgeId,note="Reviewed locally"){
 }
 export function exportMemoryGraph(graph,includeSuggestions=false,includeFullText=false){
  const clone=JSON.parse(JSON.stringify(graph));
- clone.nodes=clone.nodes.map(node=>{if(node._fullText){if(includeFullText)node.full_text=node._fullText;delete node._fullText;}return node;});
+ clone.nodes=clone.nodes.map(node=>{if(node._fullText){if(includeFullText)node.full_text=node._fullText;delete node._fullText;}if(!includeFullText)delete node.full_text;return node;});
  clone.edges=clone.edges.filter(edge=>includeSuggestions||edge.status!=="suggested");clone.exported_at=new Date().toISOString();
  clone.privacy={...(clone.privacy||{}),conversation_text_uploaded:false,
   export_note:includeFullText?"Full message text included by explicit user choice.":"Only excerpts and source locators are included; full conversation text is omitted."};

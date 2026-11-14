@@ -165,6 +165,10 @@ A few days later, the Lion walked through the eastern gallery alone. He paused b
 
 After the basin had been installed, the carpenters used its arrival as a practical lesson for the apprentices. They walked the route from the outer gate to the eastern gallery, stopping at each turn and measuring the space available for a large object. The apprentices drew the carriage, the doorway, and the temporary rail removal. They were asked to mark not only the measurements but also the points where a worker needed to see another worker's hands. The Lion joined them for the final walk. He showed them how his own body changed the available space when he turned, and why a passage that seemed wide from the front could become narrow at the shoulder. The exercise became part of the court's building notes. It did not teach the apprentices to design only for the Lion; it taught them to consider how any large or awkward object would move through a place.
 
+
+
+The apprentices kept the route drawing in the eastern gallery after the basin was settled. It became a working sheet, amended whenever a new object had to pass through the court. A later delivery required a wider turn than the basin had, while another could use the ordinary passage with no alteration. The builders began to mark the difference between a route that was physically possible and one that was safe for the people carrying the load. The Lion visited the drawing one afternoon and found a small note in the margin: *allow room for the person beside the object*. He smiled. It was a good addition, and it belonged to the apprentices who had learned to see the whole movement rather than only the thing being moved.
+
 ### IV. The Warm Court
 
 The Golden Lion's court is a broad, warm domain of deep burgundy stone, polished gold, dark timber, soft rugs, open galleries, and high windows that admit the afternoon. The architecture honours his scale without making every room a monument. Some chambers are vast enough for him to turn comfortably; others are intimate, built for conversation, reading, music, and rest. The passages widen where they need to. Balconies are reinforced. Steps are shallow and broad. The furniture is solid, tactile, and beautiful, made to be used rather than merely admired.
@@ -268,6 +272,10 @@ The Lion watched them go. He understood that the quiet law could not prevent eve
 
 
 Before leaving the training ground, Daran went back to the steward and asked that the next exhibition schedule be posted earlier. He did not want Eren to discover his place on the programme only after arriving. The steward agreed and added a note that each station would identify the level of work expected there. Daran read the notice twice, then asked the coach whether the central platform could be opened for a supervised practice hour before the public event. The coach said that it could, provided the equipment was checked and the athletes used the time for preparation rather than display. Daran accepted the condition. The Lion heard the exchange from the arcade and kept walking. It pleased him that the correction had become part of the organisation rather than a story that needed to be retold every time the two athletes met.
+
+
+
+At the next exhibition, the schedule was posted a full week in advance. Eren's demonstration appeared beside Daran's, with each movement described at the level the athlete had actually practised. The spectators could see that the programme contained different kinds of achievement. Daran completed the advanced lift; Eren showed the controlled sequence he had learned; the coach explained how each station was adjusted for its participants. The Lion watched from the arcade. No one had been made smaller to make the strongest athlete look greater. The exhibition had become more interesting because it allowed people to see skill at different stages, and because the athletes were free to help one another without pretending they had become equal in experience.
 
 ### VI. The Friendship of Makers
 
@@ -589,6 +597,10 @@ In the evening the Master found the Lion looking over the maintenance book. A pa
 
 The driver returned at the end of the week with the repaired cart. He had followed the new loading guide and brought the wheelwright's record of the test. The cart passed through the outer gate without catching at the turn. The driver showed the gardeners how he had balanced the crates, then asked whether the court wanted him to carry the revised guide to the neighbouring delivery crews. The Master said that he should, but asked him to explain that the guide was based on the carts inspected so far and might need adjustment for a different design. The driver agreed. The Lion watched him leave and recognised the small change that mattered: the man who had first arrived ashamed of a broken wheel was now trusted to help others avoid the same mistake.
 
+
+
+The driver later told the other delivery crews that the court had not blamed him for the broken hub. He showed them the revised loading diagram and the inspection mark, then explained how the wheelwright had traced the failure to uneven weight and a binding wheel. One crew asked whether the same guide applied to their smaller carts. The driver said that it did not, and directed them to have their own wheels checked. The Master heard about the exchange from the steward and asked that the drivers' observations be added to the fleet register. The Lion approved. A repair guide was most useful when it travelled with an honest account of what it did not cover.
+
 ### XII. The Training Ground
 
 The training ground lay beyond the southern orchard, where the court widened into a level field bordered by oak and cypress. It had been built for bodies that differed in size and strength. Some of the athletes were broad and powerful; others were quick, light-footed, or still learning how to coordinate their movements. The equipment was heavy, but it was not arranged to reward recklessness. There were lifting platforms, climbing frames, marked lanes, padded areas for controlled falls, and a shaded pavilion where coaches kept water and recorded each session.
@@ -633,6 +645,10 @@ As the Lion walked back toward the orchard, he heard the sound of the next group
 
 
 At the next open practice, Eren was asked to demonstrate the first sequence to a small group of newcomers. Daran stood beside the platform but did not take over. He watched Eren set the feet, check the grip, and complete the movement at the agreed weight. When Eren finished, Daran asked him to explain which part had required the most attention. Eren described the moment when his balance shifted and how he had learned to correct it before beginning the lift. The newcomers listened, then tried the movement themselves. The coach recorded the session as a useful demonstration of controlled progress. Eren left the ground tired and pleased, while Daran remained to help return the weights. Their partnership had become part of the training ground's ordinary life.
+
+
+
+The coach later invited the Lion to observe a full practice hour rather than a single demonstration. He watched the athletes move through warm-up, instruction, work, and recovery. Eren helped a newcomer adjust the stance at the lighter platform; Daran checked the central station before beginning his own set. The coach corrected both of them when they hurried. The Lion liked the equality of that correction. Experience did not exempt Daran from attention, and progress did not make Eren immune to mistakes. They were both there to learn, and the ground was arranged to let them do so safely.
 
 ### XIII. Rain at the Outer Wall
 
@@ -1210,6 +1226,10 @@ Before returning to the Stone Table, the Lion paused beside the bank and looked 
 
 
 The following day, the inspection frame was returned to the workshop for a second ground test. The younger builder had added a brace after the first test, and Hephaestus had altered the clamp so that the load would be distributed across a wider plate. They assembled it on the stable bank, checked the locking pin, and loaded it in stages. The frame remained steady. The surveyor then asked them to repeat the test with the surface made wet, since the bridge approach would rarely be dry during the season when the route was most likely to be used. The pin was harder to release, but it did not seize. The builder marked the result and added a small grip to the handle. Even then, no one certified the frame for use on the bridge. The test had established that the prototype behaved well on the bank. The bridge still required a full inspection, and the anchor socket still needed its own repair. The Lion admired the team's refusal to let a successful test answer a different question.
+
+
+
+Before the inspection party left, the surveyor placed a protective cover over the carved mark and recorded the position of the cover in the field book. The bridge approach was left as it had been found, with no new load placed on the damaged anchor and no loose stone removed for display. The younger builder took the revised frame drawing back to the workshop, while the elder arranged the next inspection date with the local crew. The Lion asked that the report be copied to the western shelf keepers as well as the Stone Table. They might one day use the route, but they should know that it remained closed. A road could be part of a shared map without becoming a shared right to cross it before it was safe.
 
 ### XXVI. The Road Between Friends
 

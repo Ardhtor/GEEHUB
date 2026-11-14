@@ -1,7 +1,7 @@
 {
   "schema": "geehub.chat-asset-memory.v1",
   "version": 1,
-  "generated_at": "2026-11-14T15:32:17Z",
+  "generated_at": "2026-11-14T15:32:45Z",
   "source_repository": "Ardhtor/GEEHUB",
   "import_source": "current ChatGPT conversation; manually captured seed",
   "privacy": {
@@ -255,6 +255,36 @@
       "url": "https://github.com/Ardhtor/GEEHUB/blob/main/lore/MUSCLE_MYTH_GENTLE_KING_LION.md",
       "canon": "active-artwork-interpretation",
       "continuity": "Preserve pleasing exaggeration rather than anatomical realism; the lion's gentleness is power held in reserve."
+    },
+    {
+      "id": "world-role-the-master",
+      "type": "world-role",
+      "title": "The Master",
+      "name": "The Master",
+      "description": "A relationship referent named in the user's canon as the Golden Lion's best friend. Identity and further attributes are not yet specified; do not infer or substitute a person.",
+      "source": "User statement in ChatGPT current conversation",
+      "canon": "active-relationship-reference",
+      "continuity": "Preserve the title and relationship exactly; identity remains unresolved."
+    },
+    {
+      "id": "chat-signal-golden-lion-best-friend-2026-11-14",
+      "type": "chat-signal",
+      "title": "Golden Lion is the Master's best friend",
+      "role": "user",
+      "timestamp": "2026-11-14T15:32:45Z",
+      "excerpt": "he's our master's best frien",
+      "source": "ChatGPT current conversation",
+      "source_locator": {
+        "platform": "ChatGPT",
+        "timestamp": "2026-11-14T15:32:45Z",
+        "role": "user"
+      },
+      "tags": [
+        "golden-lion",
+        "master",
+        "best-friend",
+        "relationship-canon"
+      ]
     }
   ],
   "edges": [
@@ -378,6 +408,22 @@
       "relation": "requests_repository_inclusion",
       "status": "confirmed",
       "evidence": "The user clarified that the requested lion is the figure from the prior artwork interpretation, informally called the long-donged lion."
+    },
+    {
+      "id": "edge-golden-lion-best-friend-of-master",
+      "from": "world-character-gentle-king-lion",
+      "to": "world-role-the-master",
+      "relation": "best_friend_of",
+      "status": "confirmed",
+      "evidence": "The user directly established: the Golden Lion is our Master's best friend."
+    },
+    {
+      "id": "edge-golden-lion-best-friend-statement",
+      "from": "chat-signal-golden-lion-best-friend-2026-11-14",
+      "to": "world-character-gentle-king-lion",
+      "relation": "establishes_relationship",
+      "status": "confirmed",
+      "evidence": "Direct user statement."
     }
   ]
 }

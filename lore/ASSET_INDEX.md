@@ -83,3 +83,18 @@ A stage advances only when its deliverable exists. Record dated changes below ea
 **Continuity links:** `lore/LINEAGE_PANTHEON.md` (Hephaestus / Forge-Maker); `hub/chat_asset_memory.seed.json` (conversation request, approval, and asset lineage).  
 **Production intent:** preserve this approved image as the first visual anchor; once its binary is archived, create separable reference regions for head/beard, torso, arms, harness, bracers, hammer, and forge materials. Do not replace the original with a crop, repaint, or 3D reconstruction.  
 **Current state:** conversation render approved; image binary archive pending; no editable model or rig is claimed.
+
+
+### Hephaestus — user-supplied physique and pose reference
+
+**Canonical asset ID:** `character-hephaestus-user-reference-2026-11-14`  
+**Subject:** Hephaestus, explicitly named by the user with the uploaded image caption “hephaestus:”.  
+**Origin:** User-supplied image attachment in the ChatGPT conversation, 2026-11-14. Original filename: `jock_by_mkewx_dnas5k2-414w-2x.jpg` (828 × 1099 px).  
+**Reference class:** User-supplied visual reference. Photographer, artist, and original publication are not established by the attachment and remain unrecorded.  
+**Visible description:** Adult man with exceptionally developed chest, shoulders, arms, abdomen and thighs; long dark hair tied back; full dark beard; upright hands-on-hips pose; head lifted and eyes closed; white briefs; warm, dark amber candlelit interior.  
+**Use:** physique scale and distribution, chest/shoulder relationship, arm volume, abdominal structure, hair and beard, relaxed stance, skin rendering, and warm low-key lighting. The clothing and room are reference details, not fixed canon.  
+**Continuity:** a separate source from the earlier AI-generated Forge-Maker portrait. Keep both records; use them together as complementary visual references without merging or replacing either image.  
+**Binary availability:** `attached_in_originating_conversation_not_archived`. The image is available in this conversation but has not been copied into the GEEHUB repository or Dropbox production corpus. No persistent file or preview URL is claimed.  
+**Canon status:** visual reference only; not a lock on Hephaestus's permanent wardrobe, pose, anatomy, or environment.  
+**Production intent:** preserve the original as a source image, then create separate studies for head/beard, torso, arms, pelvis/briefs, thighs, and lighting. Any crop, paintover, or 3D reconstruction must be a derivative with lineage back to this original.  
+**Continuity links:** `world-character-hephaestus` in the pantheon; `asset-character-hephaestus-forge-maker-portrait-2026-11-14` as the earlier generated portrait; `hub/chat_asset_memory.seed.json` for conversation provenance and graph relationships.

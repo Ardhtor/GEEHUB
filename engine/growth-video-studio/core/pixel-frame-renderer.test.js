@@ -250,7 +250,11 @@ test("bilinear source taps never pull colour from a protected face pixel", () =>
     sourceFrame.data.set([255, 0, 0, 255], (y * 8 + x) * 4);
   }
   sourceFrame.data.set([0, 0, 255, 255], (2 * 8 + 4) * 4);
-  const sourcePoints = triangle;
+  const sourcePoints = [
+    { x: 1, y: 1 },
+    { x: 5, y: 1 },
+    { x: 1, y: 5 }
+  ];
   const targetPoints = sourcePoints.map(point => ({ x: point.x - 0.5, y: point.y - 0.5 }));
   const result = renderGrowthDeformationPixels({
     sourceFrame,

@@ -348,12 +348,13 @@ Later, when the Master and the lion walked through the western gallery, the lion
 The lion rested his head near the Master's shoulder. Hephaestus's forge was still lit across the courtyard. Tomorrow there would be another drawing, another inspection, and perhaps another disagreement about a hinge. The Golden Lion listened to the familiar sounds of the court and felt, beneath them, the wider rhythm of the brotherhood continuing beyond the orchard.
 
 
-# The Seven Great Houses
+# Fourth movement: The Seven Great Houses
+
 ## A Convergence of the Meridian
 
 ### XXVII. The Seven Seals
 
-The Stone Table did not send a second invitation in the form of a letter. It sent seven seals, each pressed into a different material and carried by a different road. The first was dark stone from the western shelf, the second iron from the lifting houses, the third cedar from the kitchens and storehouses of the Long Table, and the fourth a strip of green field leather stamped with the mark of the Open Field. The fifth came from the northern Nephilim halls, cut from an old lintel that had been replaced during the restoration. The sixth was a small bronze fitting from the coastal shipyard, its surface marked with the maker's sign of the harbour. The seventh seal was not delivered. Its place in the case was left empty.
+The Stone Table did not send a second invitation in the form of a letter. It sent a case prepared for seven seals, each intended to represent one of the great constituencies of the Meridian. Six had arrived: dark stone from the western shelf, iron from the lifting houses, cedar from the kitchens and storehouses of the Long Table, green field leather stamped with the mark of the Open Field, a fragment of replaced lintel from the northern Nephilim halls, and a small bronze fitting from the coastal shipyard. The seventh place, reserved for the southern escarpment halls, was empty.
 
 The Master received the case in the western gallery. The Golden Lion was lying near the window, watching the late light move across the orchard. He raised his head when the courier entered. The courier was a young man from the Stone House, broad through the shoulders and still carrying dust from the road. He bowed to the Master, then placed the case on the table. The seals were not invitations to a feast. They were evidence that six of the seven great constituencies had agreed to gather at the Stone Table for a convocation whose purpose was larger than the repair of one bridge.
 

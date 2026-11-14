@@ -1,6 +1,6 @@
 # GEEHUB Feasibility Workbench
 
-**Snapshot:** 2026-11-14. Latest verified main commit: `480dcce99912330caf51e6432de6d06cba9509cb`.
+**Snapshot:** 2026-11-14. Latest validated implementation commit: `480dcce99912330caf51e6432de6d06cba9509cb`.
 
 This document is an execution decision record, not a declaration that the whole system is complete. A project is feasible when its next increment can be built with tools and source material that are actually available, has a bounded acceptance test, and can return its result to the repository. A written design, registry status, queued request, or successful deployment is not proof that every runtime behind it works.
 

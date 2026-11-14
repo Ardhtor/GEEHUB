@@ -5,6 +5,7 @@ The documentation folder contains the repository's technical contracts, editoria
 ## Start here
 
 - [Project Workbench](PROJECT_WORKBENCH.md) — continue projects already started in GEEHUB, with current source paths and next useful actions.
+- [Feasibility Workbench](FEASIBILITY_WORKBENCH.md) — verified buildability, CI status, dependencies, blockers, and the next bounded implementation gate.
 - [Repository Navigation](REPOSITORY_NAVIGATION.md) — full directory hierarchy and links to every local folder index.
 - [Tractus Continuity Contract](TRACTUS_CONTINUITY_CONTRACT.md) — the continuity model linking events, state, narrative, and artifacts.
 - [Information Portability](INFORMATION_PORTABILITY.md) — how consequential information moves into every affected layer and remains retrievable.
@@ -14,7 +15,7 @@ The documentation folder contains the repository's technical contracts, editoria
 
 ## Files
 
-### MD (69)
+### MD (70)
 
 - [`ACCESSIBLE_CONSTELLATION.md`](./ACCESSIBLE_CONSTELLATION.md)
 - [`ACCESSIBLE_REPOSITORIES_2026-09.md`](./ACCESSIBLE_REPOSITORIES_2026-09.md)
@@ -33,6 +34,7 @@ The documentation folder contains the repository's technical contracts, editoria
 - [`EDITORIAL_VOICE.md`](./EDITORIAL_VOICE.md)
 - [`ENVIRONMENTAL_TRANSITIONS.md`](./ENVIRONMENTAL_TRANSITIONS.md)
 - [`EXPERIENCE_FIRST_ARCHITECTURE.md`](./EXPERIENCE_FIRST_ARCHITECTURE.md)
+- [`FEASIBILITY_WORKBENCH.md`](./FEASIBILITY_WORKBENCH.md)
 - [`FICTION_MEMORY.md`](./FICTION_MEMORY.md)
 - [`FINDING_AND_GENERATING_GROWTH_CONTENT.md`](./FINDING_AND_GENERATING_GROWTH_CONTENT.md)
 - [`GEEHUB_EXECUTION_PATHS.md`](./GEEHUB_EXECUTION_PATHS.md)

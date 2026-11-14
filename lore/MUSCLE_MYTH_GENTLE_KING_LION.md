@@ -504,6 +504,26 @@ The court had not been waiting in suspended animation. It had continued to work,
 ## The Court in Motion
 
 
+
+
+The evening after the Master's return, the court held no reception. Oren had prepared supper for the household, and the Master came to the table carrying the small book he had taken on the journey. The Lion noticed that several pages had been filled. He asked whether the road had been difficult. The Master described a stretch where the rain had loosened the gravel and a village where the travellers had been given shelter. He spoke about the people they had met, the questions that had been settled, and one matter that would have to wait until the next visit.
+
+The Lion listened without interrupting. He had his own account to give: the timber had arrived, the wheelwright had inspected the carts, Eren had returned to training, and the gardeners had reopened the upper path. The Master looked through the maintenance notes and smiled at the number of small decisions that had been made in his absence. The Lion asked whether he had expected the court to stop while he was away.
+
+“No,” the Master said. “But it is good to see what it has done.”
+
+The Lion understood. They were not comparing whose days had been more important. They were letting two separate accounts meet. The Master had seen other roads and other people; the Lion had remained among the familiar rooms and kept their work moving. Each had something the other could not have brought back.
+
+After supper they walked through the gallery. The Master stopped at the new table Hephaestus had designed and ran his hand along the edge. The removable extensions had been used for a gathering while he was away. The attendants had left the assembly drawing beside it, and the Master examined the small marks showing which section had been changed. He asked whether the table had worked. The Lion said that one guest had found the central section a little high, so the attendants had moved the chair rather than alter the table. They would ask the guest about it the next time they met.
+
+The Master looked toward him. “You remembered.”
+
+“I remember the people who sit at my table.”
+
+They continued toward the western doors. Outside, the garden was quiet. The Lion told the Master that he had missed him, but he had not wanted the court to treat the absence as a problem. The Master answered that he had missed the Lion too, and had been glad to know that the house continued to live while he was away. They stood together for a while, not trying to make the exchange larger than it was. The friendship was allowed to be honest without becoming a burden.
+
+The next morning, the Master returned to his work and the Lion to his. Their days had changed because they had each travelled, but neither had to surrender the habits that made the friendship easy. The Lion walked with the Master to the gate, then turned toward the training ground. The Master went to the record room. They exchanged a glance across the courtyard before moving in different directions. The Lion felt no need to follow. He had learned that staying close was not the same as staying attached at every moment.
+
 ### XI. Morning in the Western Gallery
 
 Morning entered the western gallery in long, pale bands. It found the gold in the columns first, then the dark grain of the timber, then the broad surface of the resting platform Hephaestus had rebuilt. The Golden Lion was awake before the first servants crossed the court. He had been listening to the building: the faint contraction of a beam as the night cooled, the soft scrape of a shutter, the far-off clatter of pans being brought into the kitchen. He lifted his head, stretched one foreleg, and let the enormous muscles beneath his golden coat move in a slow sequence. The platform held. The new supports did not complain. Hephaestus had done the work properly.
@@ -753,6 +773,18 @@ The return walk took longer because the party stopped to examine each bend. The 
 
 At the court, the Master asked the steward to place the new drawings beside the old road book. The bronze fitting was sent to the workshop for examination, with instructions not to clean or alter it until its surface had been documented. The surveyor was asked to prepare a second visit focused on the watercourse. The Lion watched the records being arranged and felt the familiar pleasure of an unfinished matter that had finally become legible enough to approach. The road was not open. The bridge was not safe. Yet the landscape had begun to tell a more detailed story, and the court had learned how to listen without forcing an answer.
 
+
+
+The surveyor returned with a narrow brush and a set of small measuring pins. The Lion and the Master met him at the old marker after breakfast. They had brought the recovered bronze fitting from the workshop, still wrapped in its protective cloth. The maker had not cleaned it. He had only examined the surface under a lamp and found that one edge carried a pattern too worn to identify. The surveyor set the fitting beside the marker without placing it against the stone. The two objects might have belonged to the same route, but resemblance was not proof.
+
+They compared the direction of the carved line with the old road book. The first entry had been copied from a much older map, and the symbol might have been a boundary notation. The surveyor placed the measuring pins at the ends of the visible cut and recorded its angle. The Master drew the surrounding trees and the present line of the road. The Lion watched the work, then asked whether the marker could be seen from the lower path. The surveyor said it could not. It was placed for someone who knew where to look, or for a traveller approaching from a route that had not yet been found.
+
+The possibility changed the next inspection. The team would need to search the slope beyond the marker, but only after the drainage had been recorded and the vegetation assessed. A careless clearing could loosen the bank. The Lion asked the gardeners to join the surveyor on the next visit. Their knowledge of roots and water would matter as much as the road measurements.
+
+The Master closed the book and looked toward the hollow. The old road seemed quiet beneath the leaves, but it had begun to gather a history: the bridge, the lower watercourse, the bronze fitting, and now the marker whose direction could not yet be explained. The Lion did not call it a secret passage. He did not call it a forgotten highway. It was an old route whose purpose remained partly unknown. That was enough to make it worth careful work.
+
+They returned to the court by the upper path. The surveyor went to prepare his notes, and the Master placed the drawing beside the earlier record. The Lion remained in the gallery for a while, looking toward the trees. He had begun this work because a road had appeared beneath the surface. He now understood that the road might have been part of a network whose other lines had disappeared from present memory. The next visit would have to establish whether those lines continued beyond the hollow. No one would decide from a single mark.
+
 ### XVII. The Surveyors' Morning
 
 The surveyors arrived before the kitchens had finished preparing breakfast. They came with measuring rods, a level, a coil of line, two notebooks, and a folded map whose oldest marks had faded to the colour of weak tea. The Master met them at the western gate. The Golden Lion was already there, lying in the broad patch of sunlight beside the gatehouse, his forepaws crossed and his mane spread across the stone like a second carpet. He opened one eye when the survey leader greeted him.
@@ -996,6 +1028,18 @@ On the morning of departure, the court gathered without a formal send-off. Oren 
 
 The three travellers left after breakfast. The Lion walked beside the Master, while Hephaestus carried the model and drawings. They travelled as friends and collaborators, not as a procession meant to impress the houses. The invitation had opened a conversation. What they brought with them was a careful account of the road, and the willingness to revise it when other people knew more.
 
+
+
+Before departure, the Master asked the Lion whether he wanted anything added to the reply. The letter already confirmed their attendance and listed the records they would bring. The Lion considered the wording and asked for one more sentence: the orchard court would attend as an independent neighbour, and its presence should not be counted as an additional house. The Master wrote the sentence exactly. He did not want the Stone Table to mistake the Lion's friendship for a transfer of allegiance, and the Lion did not want his own welcome to alter the standing of the seven constituencies.
+
+Hephaestus read the revised letter and agreed. He asked whether he should present the hinge model as part of the bridge fitting discussion. The Lion said that he could, but only if the model was described as an example of repairable design, not as a solution for every road. The maker nodded. The western shelf and the old hollow had different loads and different conditions. A principle could travel between them; a finished component might not.
+
+The three friends spent the afternoon deciding what each would carry. The Master would take the road book, the invitation, and the records of the old marker. Hephaestus would bring the bridge anchor drawing, the removable rail model, and the measurements from the pantry hinge. The Lion would bring no formal emblem. He would answer questions about the orchard court and describe the work that had been done there. The steward reminded them that the court's own repair schedule would continue while they were away. The Lion confirmed that the gardeners and wheelwright had authority to make necessary decisions.
+
+Before the courier left, the Master asked him to repeat the route by which the invitation had arrived. The rider described the rest court, the northern turn, and the point where the western shelf road met the older path. The Master marked the journey in the travel book. Hephaestus asked whether the road would carry the model frame safely. The rider believed it would, provided the frame remained packed in two parts. The maker adjusted the carrying case.
+
+The Lion watched this careful preparation with satisfaction. He liked the importance the others gave to small details. A journey could begin with an invitation, but it succeeded through the straps, the food, the records, and the route known to the person who carried the message. When the courier departed, the court returned to its afternoon work. The Lion and the Master walked together through the garden, knowing that the next time they sat at the Stone Table they would be speaking not only about a road, but about the responsibilities that came with connecting one house to another.
+
 ### XXIII. The Western Shelf
 
 They joined the road at the end of the orchard, where the old hollow path approached the newer route. The surveyors had marked the junction with a pair of blue stakes. Beyond them, the western shelf road climbed through the living valley, its retaining walls following the natural line of the slope. The Master recognised the rest court from the survey drawings. A cistern stood beneath the shelter, and the western rail carried the replacement fitting noted by the first traveller after the road's opening.
@@ -1026,6 +1070,20 @@ Farther along, the road passed a line of stone markers. The old hollow route app
 The guide asked whether the old route would eventually be opened. The Master explained what remained unknown. The bridge required an inspection from below, the eastern anchor had been damaged, and the drainage needed to be understood before a public route could be considered. The guide nodded. He said that the shorter connection would be useful, but the shelf road already carried people safely. It was better to wait than to create a new danger in the name of convenience.
 
 The party continued north. The road curved toward the Stone Table, and the trees began to thin. In the distance the open roof of the gathering place could be seen above the stone terraces. The Lion looked back once toward the western shelf, then toward the low line of the bridge hidden in the hollow. The route had become part of a larger map, but it remained a local structure with its own needs. He wanted the houses to understand both things: the value of connection and the discipline required to make it safe.
+
+
+
+They stayed at the western rest court until the day's heat began to ease. The guide showed them the cistern's inspection cover and explained how the keepers measured the water after a long dry period. There was a small mark inside the stone lip that indicated the level at which the reserve should be protected. The Lion asked who had chosen the mark. The guide said that it came from an older keeper who had watched the cistern through several seasons. The measurement was not written in the road register, so the Master asked permission to add it. The guide agreed, provided the note named the local keeper as its source.
+
+A group of travellers arrived while they were speaking. They carried bundles of woven cloth and a small crate of tools. The guide recognised them and helped unload the cart. One wheel had begun to loosen, though it had not yet failed. He showed the driver where the rest court kept a simple tool kit and asked him to inspect the hub before continuing. The Lion watched the driver follow the instruction. It reminded him of the cart at the orchard gate, and he told the guide how the court had changed its loading records after that incident. The guide said that the western shelf had a similar practice, though its register was kept at the shelters rather than in a central workshop.
+
+The Master compared the two systems. They were not identical, but both depended on people being able to report a problem and find the relevant instruction. He asked whether the road keepers exchanged copies of their records. The guide said that they did so at the seasonal gathering, but a few of the shelters still held old versions. The Master wrote down the issue. It was not a reason to replace the local registers with one central book. It was a reason to establish a reliable way to mark which copy was current.
+
+Later, the guide walked with the Lion toward the edge of the shelf. The view opened across the valley, with the river visible between the trees and the mountain line fading into the distance. The guide described the seasonal movement of carts, the parts of the road that became difficult after rain, and the places where travellers preferred to stop. He spoke of the road as something inhabited rather than merely constructed. The Lion listened. He was beginning to understand that the western shelf was held together by many small custodians, each responsible for a limited section and dependent on the others to keep the route continuous.
+
+At dusk, the guide asked whether the Lion had ever wished to rule more territory. The Lion looked across the valley. He said that he wanted the roads to be safe and the houses to be free to live according to their own character. He did not need to own every place he cared about. The guide accepted the answer without argument. They returned to the shelter, where the cook had prepared a late meal for the travellers. The Master was already seated with the surveyors, comparing the cistern note with the road book.
+
+That evening the party slept at the rest court. The Lion rested beneath the open shelter, listening to the wind move over the roof. The Master read by lamplight. Hephaestus studied the anchor drawing one last time. Beyond the shelter, the old hollow route remained hidden under the trees, and the bridge remained closed. The journey was moving toward the Stone Table, but the road itself had already taught them something: connection depended on local knowledge that could be shared without being taken away.
 
 ### XXIV. A Place at the Stone Table
 
@@ -1134,6 +1192,24 @@ Hephaestus showed the new anchor design to the wheelwright. The wheelwright reco
 Later, the Master asked the Lion whether he had enjoyed sitting at the Stone Table. The Lion said that he had liked being welcomed without being assigned a place that changed who he was. The Master understood. The houses had received him as a guest and neighbour. They had not required him to become a member, an emblem, or a subordinate. His friendship with the Master had travelled with him, but the journey had not turned it into a political claim.
 
 The Lion went to the western gallery before sleeping. He looked out toward the old hollow and could just make out the dark line of the trees. The route was still closed. The bridge still needed work. The seventh house had not answered. Yet the places beyond the orchard were no longer merely distant names. They had become people, workshops, roads, kitchens, and decisions. The Lion settled beside the window and listened to the court. Its sounds were familiar, but they seemed to belong to a larger world.
+
+
+
+The first morning after their return, the Master and the Lion walked through the court before the other travellers had arrived. The Master wanted to see the orchard wall and the lower channel; the Lion wanted to hear how the kitchen had managed without him. Oren reported that the meal schedule had held, the pantry hinge had passed its overnight test, and the visiting surveyor had left a copy of the new road measurements. The Lion asked whether the cooks had been given enough room during the gathering. Oren said that they had, though the serving carts had needed a second route through the hall. The Lion asked him to mark it for the next event.
+
+At the wall, the gardeners showed the first section of the repair. The lower stones had been removed one at a time and numbered. The foundation beneath them was sound in most places, but the old mortar had washed away near the tree roots. Hephaestus had not yet returned to supervise the final work, so the masons had left the exposed section protected and had not begun setting the replacement stones. The Lion approved. The work was slower than the gardeners wanted, but the sequence was right.
+
+The wheelwright joined them with the new material list. He had compared the cart hub notes with Hephaestus's bridge anchor drawings and wanted to know whether the same inspection mark could be used on both. The Master suggested that the records share a common symbol for a fitting that needed periodic inspection, while keeping the technical instructions separate. The wheelwright agreed. The Lion asked him to test the symbol with the drivers before it was printed. A mark was useful only if the people expected to read it understood what it meant.
+
+Later, Eren and Daran arrived at the training ground. They had heard that the Lion was back and wanted to show him the movement they had been practising. The coach set the platform and checked the supports. Eren completed the sequence at the weight he had been assigned. Daran demonstrated the next stage, then stepped aside and let Eren describe what he had felt. The Lion watched without interrupting. Their work had continued in his absence, and it had grown in a way that did not require him to supervise every repetition.
+
+The Master found the Lion afterward near the western gallery. He asked whether the court looked different. The Lion said that it looked familiar, but some of the details had moved. The lower wall was being repaired; the road register had grown; the pantry door opened without a sound; and two athletes had begun to train as partners. He had left a functioning court and returned to a court that had learned something while he was away.
+
+The Master smiled. “And the road?”
+
+“Still there,” said the Lion. “Still waiting for the right work.”
+
+They stood together by the window. The journey had given them new obligations, but it had not changed the terms of their friendship. The Lion would continue to visit the other houses, and the Master would continue to travel when necessary. Their home remained a place to which they could return without asking it to stop living in their absence. Beyond the orchard, the road connected them to a wider world. Within the court, the familiar sounds continued.
 
 ### XXVII. The Seven Seals
 

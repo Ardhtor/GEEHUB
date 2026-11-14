@@ -1,0 +1,208 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Ardhtor/GEEHUB/blob/main/hub/chat-asset-memory.schema.json",
+  "title": "GEEHUB Chat and World Asset Memory Graph",
+  "type": "object",
+  "required": [
+    "schema",
+    "version",
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "schema": {
+      "const": "geehub.chat-asset-memory.v1"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "generated_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "source_repository": {
+      "type": "string"
+    },
+    "import_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "privacy": {
+      "type": "object",
+      "properties": {
+        "conversation_text_uploaded": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string"
+        },
+        "export_note": {
+          "type": "string"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "loaded": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "import_summary": {
+      "type": "object"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "title"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "conversation",
+              "chat-signal",
+              "chat-attachment",
+              "asset",
+              "artifact",
+              "visual-source",
+              "project",
+              "world",
+              "event",
+              "source-path"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "timestamp": {
+            "type": [
+              "string",
+              "number",
+              "null"
+            ]
+          },
+          "availability": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "canon": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "excerpt": {
+            "type": "string"
+          },
+          "full_text": {
+            "type": "string"
+          },
+          "source_locator": {
+            "type": "object"
+          },
+          "lineage": {
+            "type": "object"
+          },
+          "attachments": {
+            "type": "array"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "from",
+          "to",
+          "relation",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "relation": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "suggested",
+              "confirmed",
+              "rejected"
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "review_required": {
+            "type": "boolean"
+          },
+          "reviewed_at": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "exported_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": true
+}

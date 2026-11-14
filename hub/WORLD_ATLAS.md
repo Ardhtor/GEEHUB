@@ -185,3 +185,8 @@ The waste district beneath the old yard has acquired a focal artifact: [The Nigh
 ### Chapter Thirteen — The Trial of the Lower Gate
 
 [The Trial of the Lower Gate](../lore/dimension/FIRST_ROOM_CHAPTER_13.md) opens the reinforced gate within the agreed limits. Joseph and Kirk enter the first chamber and discover a window looking into the original first room. The page is absent; the relation between the two places remains unresolved. The trial ends with the gate safely closed and the next survey still pending.
+
+
+### Chapter Fourteen — The Forge Under the Roots
+
+[The Forge Under the Roots](../lore/dimension/FIRST_ROOM_CHAPTER_14.md) brings Hephaestus into the Crownheart's inhabited workshop. He works with the survey crew to build a bronze-and-oak listening key, a repeatable contact instrument for studying vibration in the lower gate without reopening it. Craft, maintenance, and material evidence become another active part of the branch's pantheon and its ordinary communal life. The first room, the missing page, and the Dreadmaster remain unresolved.

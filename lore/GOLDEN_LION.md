@@ -753,3 +753,194 @@ The Lion's face brightened. “You have already found me another job.”
 They walked back toward the residence together, not as patron and craftsman, not as sovereign and engineer, but as two friends who had discovered that they liked spending time in one another's company. Behind them, the workshop lamp shone against the cedar door. Ahead, the western windows glowed amber beneath the redwoods. The Lion carried the little bronze-and-cedar instrument in his hand, and Hephaestus was already explaining the next day's problem.
 
 The Lion listened with genuine interest. He was looking forward to the morning.
+
+
+## The Workshop Years
+
+### XXI. Rain on the Roof
+
+The first hard rain of the season caught the Lion in Hephaestus's workshop. It began with a low rumble above the redwood canopy, then came down in silver sheets against the high windows. Hephaestus was checking the observatory's counterweight assembly. The Lion had been holding a lamp for him, although there was already enough light to see by. He liked having a reason to stand nearby.
+
+A sharp drip struck the bench. Then another. Water was coming through an old seam in the roof, directly above a stack of drawings. The Lion moved first, lifting the papers clear while Hephaestus fetched a canvas cover. They worked without panic, shifting delicate instruments and setting buckets beneath the leak. The Lion held the canvas high while Hephaestus climbed the short ladder to inspect the damage.
+
+“It's the old flashing,” Hephaestus said.
+
+“You told them last winter it needed replacing.”
+
+“I was being optimistic.”
+
+“You were being ignored.”
+
+“I was being economical with my complaints.”
+
+The Lion laughed. When the room was safe, they made tea and sat at the dry end of the bench among covered machines and scattered tools. Rain tapped steadily against the roof. Hephaestus opened his ledger and began making notes for the repair. The Lion listened to the storm. Their silence was easy; neither needed to fill it to prove that he was enjoying the other's company.
+
+After a while Hephaestus passed him a small piece of cedar, a test cut from the new observatory frame. “Feel that. The grain changes direction here.”
+
+The Lion turned it between his fingers. “It almost looks like a river.”
+
+“It will take the finish differently along that line.”
+
+“You see the future of everything.”
+
+“I see what the material is likely to do.”
+
+The Lion smiled. “That is one way of seeing the future.”
+
+Hephaestus returned to his ledger, but the Lion kept the cedar beside his cup. When the rain eased, neither hurried to leave. They had discovered that the workshop could be a place to sit together even when no work was being done.
+
+### XXII. The Thing That Would Not Work
+
+Hephaestus had been developing a lifting mechanism for the Great Golden Gymnasium, designed to adapt to both the Lion's titan body and his human form. The first prototype was elegant in theory and stubborn in practice. Its central locking pin slipped under uneven load. Every adjustment seemed to produce a different problem.
+
+The Lion found Hephaestus working on it late one afternoon. Several versions lay open across the bench. A discarded pin had rolled beneath the table. Hephaestus was staring at the assembly with the stillness that usually meant he was running out of patience.
+
+“Has it offended you?” the Lion asked.
+
+“It is badly designed.”
+
+“By whom?”
+
+Hephaestus gave him a look.
+
+“Ah. A personal disagreement.”
+
+Hephaestus pushed the mechanism toward him. “Try it.”
+
+The Lion worked the lever slowly. It caught, shifted, and slipped. He tried again, changing the pressure and angle. The pin gave way at precisely the same point.
+
+“It doesn't like being told what to do,” he said.
+
+“It is a piece of metal.”
+
+“Then it is a piece of metal with a strong personality.”
+
+Hephaestus explained the difficulty. The load was pulling the pin sideways. Reinforcing the housing had not helped because the pressure still travelled through the wrong part of the assembly. The Lion asked him to demonstrate it under a lighter load. They watched the pin shift, almost imperceptibly, before the lock gave way.
+
+“What if the pin doesn't carry the load at all?” the Lion asked. “What if it only tells the larger piece where to rest?”
+
+Hephaestus went still. Then he took a pencil and began drawing. The pin could become a guide rather than a structural support; the load could travel through a broad seat behind it. The solution required a different arrangement of parts and a little more room inside the housing. When they assembled the revised model, the mechanism held.
+
+Hephaestus tested it three times. On the fourth, he handed the lever to the Lion.
+
+“Go on.”
+
+The Lion pulled. The mechanism moved smoothly and locked with a satisfying click. He looked at Hephaestus, waiting.
+
+“That will work,” Hephaestus said.
+
+The Lion's pleasure was immediate. “We have defeated it.”
+
+“We have corrected it.”
+
+“We have defeated it by correcting it.”
+
+Hephaestus laughed. The Lion reached across the bench and gave his shoulder a friendly squeeze. Hephaestus did not move away. For a moment they stood beside the successful prototype, sharing the uncomplicated satisfaction of having solved something together. The Lion would remember that afternoon because Hephaestus had let him into the difficult middle of a piece of work: the stage where confidence had been exhausted, the answer was not yet visible, and another pair of eyes could make all the difference.
+
+### XXIII. Hephaestus at the Feast
+
+The Lion noticed that Hephaestus often stood at the edge of gatherings. He arrived, greeted the people he needed to greet, inspected some feature of the building, and then found a place where he could observe without being drawn into the evening's performance. The Lion suspected that Hephaestus did not dislike company; he disliked being treated as an ornament to someone else's celebration.
+
+For the autumn feast, the Lion asked him to design the dining hall's new lighting. Hephaestus agreed, and the two spent the afternoon adjusting bronze fixtures above the tables. Their warm light travelled across the timber ceiling and caught the carved details of the pillars. The tables were crowded with roasted vegetables, fresh bread, bowls of fruit, rich stews, and cakes from the town.
+
+“You've made it beautiful,” the Lion said.
+
+“We made it useful,” Hephaestus replied.
+
+“Those are not opposites.”
+
+The Lion asked him to sit beside him at the main table. Hephaestus hesitated, glancing toward the workshop entrance as if remembering an unfinished task.
+
+“The roof can wait until morning,” the Lion said. “The feast cannot.”
+
+“I thought you were going to say the opposite.”
+
+“I am capable of priorities.”
+
+“Are you?”
+
+“On special occasions.”
+
+Hephaestus sat. At first he listened while Zeus told a story that grew longer with every repetition. Neptune asked about the water garden's bronze channels. Marcus wanted to know whether the gymnasium mechanism would be ready for the next training session. The Lion made sure Hephaestus was included without putting him on display. When someone asked who had designed the observatory's moving roof, the Lion let Hephaestus explain it himself.
+
+He spoke at length about counterweights, weather seals, and the problem of moving a large structure without disturbing the instruments inside. The table listened. The Lion watched his friend become animated, one hand moving as he described the mechanism, his attention sharpening as the questions became more technical. He looked entirely at home.
+
+Later, as people moved between the tables, Hephaestus leaned toward the Lion.
+
+“You arranged this.”
+
+“I arranged the lamps.”
+
+“You know what I mean.”
+
+The Lion smiled. “I wanted you here.”
+
+Hephaestus looked down at his cup. “I know.”
+
+He stayed until the last guests had gone, then helped the Lion extinguish the lamps. On the walk back to the workshop he was already discussing a possible improvement to the observatory roof. The Lion listened, pleased that the evening had given them another subject to carry into the next day.
+
+### XXIV. The Friend Who Can Disagree
+
+Their friendship was not made of agreement. The Lion sometimes wanted a project to be larger, more visible, more immediately impressive. Hephaestus wanted to slow everything down until the design had been tested from every angle. The Lion could become impatient with caution; Hephaestus could become impatient with spectacle.
+
+Their sharpest disagreement came over a new entrance to the upper gymnasium. The Lion imagined a broad ceremonial stair, open to the gardens and framed by tall bronze columns. He wanted people to feel invited before they crossed the threshold. Hephaestus argued that the stair would create a bottleneck during large events and leave the upper landing exposed to rain.
+
+“You are designing for the perfect afternoon,” Hephaestus said. “I am designing for every afternoon.”
+
+“And I am designing for the moment someone sees the place and wants to enter.”
+
+“They will want to enter more than once. The entrance must work every time.”
+
+The Lion folded his arms. “You think I care only about appearances.”
+
+“I think you sometimes fall in love with the first image.”
+
+The words landed harder than Hephaestus intended. The Lion looked toward the plans without seeing them. Hephaestus noticed and set down his pencil.
+
+“I am not saying the image is worthless,” he said. “I am saying we have to build the version that survives contact with the world.”
+
+The Lion was quiet, then pulled a chair toward the table. “Show me where it fails.”
+
+They examined the approach, drainage, landing width, and movement of a crowd through the entrance. The original stair would have been beautiful from the garden and troublesome in use. Their final design kept the broad welcoming approach but divided the landing into two clear paths, with a covered side passage and a deeper threshold. It was more complicated than the Lion's first drawing, but it retained its spirit.
+
+“You were right about the landing,” the Lion said.
+
+“And you were right about the approach.”
+
+“I know. I was waiting for you to say it.”
+
+Hephaestus gave him a flat look. The Lion laughed, and the tension left the room. He valued a friend who could disagree without trying to diminish him. Hephaestus did not need the Lion to be wrong in order to be right. He wanted the work to be good. The Lion understood that this was a form of loyalty more substantial than praise.
+
+### XXV. A Place at the Bench
+
+As the seasons passed, the workshop acquired a place in the Lion's daily life as familiar as the western room. He kept a small notebook there, filled with sketches, questions, and ideas that occurred to him while walking beneath the redwoods. Hephaestus gave him a proper shelf for it and pretended this was merely a practical solution to the problem of papers being left on the bench.
+
+The Lion learned the workshop's sounds: the measured strike of a hammer, the rasp of a file, the hiss of the furnace, the brief click of a mechanism settling into place. He could tell when Hephaestus was pleased with a piece by the way he turned it in his hands. He could tell when a project troubled him by the silence that gathered around the bench.
+
+Hephaestus learned the Lion's footsteps. He could hear him approach along the outer passage and know whether he was coming in a hurry or taking his time. He learned that the Lion often paused at the doorway to look at the room before entering, as if the workshop itself were something he enjoyed seeing. Sometimes Hephaestus would look up and find him there, smiling at a new construction or simply glad to have found his friend.
+
+One late afternoon, the Lion arrived to find a second work stool beside the central bench. It was made of dark oak, with a broad seat and a small brass plate fixed beneath the front edge. The plate carried a simple engraving: a lion's head beside a hammer.
+
+The Lion ran his fingers over it. “You made me a place.”
+
+“I made a stool,” Hephaestus said. “The old one was too low.”
+
+“You made me a place at your bench.”
+
+Hephaestus adjusted a tool on the wall. “You spend enough time here.”
+
+The Lion looked at the stool, then at him. His expression was warm and unguarded.
+
+“Thank you, my friend.”
+
+Hephaestus nodded. “Sit down. I need another opinion.”
+
+The Lion sat. The stool held him comfortably. Hephaestus spread a set of drawings across the bench, and they bent over the work together while the light faded beyond the windows. Their shoulders nearly touched. The furnace settled into a deep red glow. Somewhere outside, rain began again, soft against the roof.
+
+The Lion had once thought friendship would announce itself through a great moment: a vow, a battle, a revelation, some event worthy of the scale of his life. Instead, this one had accumulated in the ordinary evidence of being expected. A second cup. A familiar greeting. A place kept clear on the bench. A difficult problem shared before it was solved. A friend who would tell him when his design was wrong and remain beside him while they made it better.
+
+Hephaestus handed him the pencil.
+
+“Your turn,” he said.
+
+The Lion leaned over the drawings. “All right. Let us see what we can make.”

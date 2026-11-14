@@ -285,3 +285,8 @@ The adopted [Tractus Engine Specification](docs/TRACTUS_ENGINE_SPEC.md) adds ver
 ## Execution paths
 
 The cross-system implementation map is [GEEHUB Execution Paths](docs/GEEHUB_EXECUTION_PATHS.md). It identifies reusable runtimes, new adapters, tool dependencies, test commands and acceptance gates across Institute events, body continuity, residences, voice, visual production, sound and cross-world passages. The first Institute event adapter is `engine/institute_events.py`; its regression suite is `engine/test_institute_events.py`.
+
+
+## Chat and world asset memory bridge
+
+The local-first [Memory Bridge](hub/memory-bridge.html) connects imported ChatGPT conversation signals to the world registry, asset index, visual evidence, exchange history, and durable artifacts. It preserves source locators and reviewable relationships without treating a lexical match as canon. Chat exports are parsed in the browser; private conversation content is not silently uploaded. See [the bridge contract](docs/CHAT_ASSET_MEMORY_BRIDGE.md).

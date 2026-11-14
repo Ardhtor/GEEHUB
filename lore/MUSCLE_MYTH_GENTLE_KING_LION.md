@@ -94,6 +94,100 @@ The Master may speak, or may simply remain beside him. The lion does not demand 
 This is the Golden Lion's final measure: not how much space he can occupy, how many people he can impress, or how completely a room can be made to turn toward him. It is the kind of world that can exist around him without fear. He is immense, and the world does not have to become small. He is sovereign, and friendship remains possible. He is powerful, and gentleness is not a contradiction. He is the Master's best friend, and the friendship leaves both of them free.
 
 
+
+
+# The Golden Lion — Continued
+## The Court in Motion
+
+### XI. Morning in the Western Gallery
+
+Morning entered the western gallery in long, pale bands. It found the gold in the columns first, then the dark grain of the timber, then the broad surface of the resting platform Hephaestus had rebuilt. The Golden Lion was awake before the first servants crossed the court. He had been listening to the building: the faint contraction of a beam as the night cooled, the soft scrape of a shutter, the far-off clatter of pans being brought into the kitchen. He lifted his head, stretched one foreleg, and let the enormous muscles beneath his golden coat move in a slow sequence. The platform held. The new supports did not complain. Hephaestus had done the work properly.
+
+The Master arrived carrying a small book and a cup. The lion watched him approach, then shifted enough to make room without being asked. Their morning had no fixed ceremony. Sometimes they spoke at once; sometimes the first part of the day passed with one reading and the other looking out across the garden. The Master placed the book on the low table. The lion lowered his head until his mane rested against the edge of the platform, close enough to be present and far enough away to leave the page unobstructed.
+
+A kitchen attendant came to report that a delivery cart had broken a wheel at the outer gate. The driver was safe, the goods were intact, and the cart was blocking the passage used by the gardeners. The lion listened without interrupting. He did not turn the small accident into a summons for the whole court. He asked whether the driver had somewhere warm to wait and whether the wheelwright had been notified. The attendant said yes. The Master closed the book, and the two friends went down to the gate.
+
+The cart was heavier than it looked, loaded with sacks of grain and crates of fruit. One wheel had split along the hub. The driver stood beside it, embarrassed by the delay, while two gardeners tried to move a crate clear of the path. The lion lowered his great head to inspect the break. He could have lifted the cart in one motion, but doing so would have placed the weight on the damaged axle and perhaps ruined the remaining wheel. Instead he asked the driver where the load had been balanced, then waited while the gardeners unloaded the nearest sacks. Only when the cart was light enough did he place one broad paw against the frame and ease it sideways, a careful movement that opened the passage without shifting the broken wheel.
+
+The driver thanked him with the nervous formality of someone addressing a king. The lion answered by asking whether the fruit had bruised. The question relaxed the man more effectively than any grand reassurance could have done. They inspected the crates together. A few pears had fallen, but most of the load was sound. The lion chose one and set it on the low wall beside the driver, who finally laughed. By the time the wheelwright arrived, the court had returned to its ordinary pace. The incident would be entered in the maintenance book, not as a tale of heroic rescue, but as a useful record of what had failed and how the passage had been kept open.
+
+### XII. The Training Ground
+
+The training ground lay beyond the southern orchard, where the court widened into a level field bordered by oak and cypress. It had been built for bodies that differed in size and strength. Some of the athletes were broad and powerful; others were quick, light-footed, or still learning how to coordinate their movements. The equipment was heavy, but it was not arranged to reward recklessness. There were lifting platforms, climbing frames, marked lanes, padded areas for controlled falls, and a shaded pavilion where coaches kept water and recorded each session.
+
+The Golden Lion liked to visit in the late morning. He did not enter as a judge. He walked the perimeter, greeted the attendants, and settled near the pavilion where he could watch without interrupting. The athletes were used to his presence, though the first-time visitors still glanced at him whenever the light caught his mane. His size made the field feel different, but he never treated the ground as his own stage. He watched the work.
+
+That morning, a young giant was struggling with a lift that had become too heavy too quickly. He had added weight after watching a stronger athlete complete the movement, and now he was trying to force the bar past the point where his form could remain sound. The coach called for him to stop. The young giant hesitated, embarrassed by the attention. The lion rose and approached, not quickly, not with a roar, but with the measured tread that made the ground seem to remember its own weight. He stopped several paces away and waited for the coach to finish speaking.
+
+The young athlete looked up. The lion did not tell him to be stronger. He asked what the athlete had felt in the movement just before it failed. The young giant thought for a moment and admitted that his footing had shifted. The coach showed him the mark where his heel had slipped. They removed the added plates and repeated the movement with a lighter load. This time the lift was controlled. The athlete's face changed—not into triumph, exactly, but into the satisfaction of understanding what had gone wrong.
+
+The lion stayed until the next set began. He did not offer a speech about discipline. He watched the coach adjust the platform and asked whether the surface had been checked recently. The coach showed him the maintenance record. One corner had begun to settle after heavy rain. The lion asked that it be inspected before the afternoon session. The young giant, still standing beside the bar, listened to the exchange. He had come to the field hoping to prove that he could carry more weight than yesterday. He left understanding that strength also meant knowing when a surface, a joint, or a body needed attention.
+
+The athletes did not applaud the lion. They returned to their work. That was how he preferred it. His visit had improved the morning without making the morning about him.
+
+### XIII. Rain at the Outer Wall
+
+The rain began in the hills and arrived at the court as a dark band beneath the afternoon sky. The gardeners secured the light tools, the kitchen staff moved the baskets away from the open windows, and the attendants checked the drains along the outer wall. The Golden Lion stood beneath the western arcade and watched the water cross the stones. He liked rain. It brought the scent of soil up through the garden and made the gold of his coat appear deeper, almost molten where the light still reached it.
+
+A call came from the lower orchard. One of the drainage channels had blocked, and water was collecting against the retaining wall. The wall was old, built in several phases, and its lower courses had been repaired more than once. The gardeners had already moved away from the affected section. No one was trapped, but the pressure was rising. The Master joined the lion beneath the arcade. Hephaestus was summoned from the workshop, and the three of them went down together with the drainage crew.
+
+Hephaestus inspected the channel first. The blockage was not a single fallen branch but a mat of leaves and silt pressed against a narrow bend. The water had found a second route, one that ran too close to the wall's foundation. Hephaestus asked the crew to clear the upper grate and keep the lower channel untouched until they could see how the pressure was moving. The lion stood where the ground was firm, his great body angled away from the workers so that he would not obstruct their tools. The Master spoke with the gardeners and made sure the upper path remained clear.
+
+The wall gave a small sound. It was not a collapse, only a shift in one of the old joints, but everyone heard it. The lion moved between the workers and the wall, not to hold the masonry up with his body, but to create a clear space while the crew withdrew. He could not make the wall safe by force. He knew that. His strength was useful only if it helped the people get out of the way and gave the builders room to work.
+
+The crew retreated to the marked line. Hephaestus watched the joint and directed the release of water through the upper channel. The pressure eased gradually. A section of mortar loosened and fell into the shallow runoff, but the wall remained standing. No one was hurt. The lion stayed until the last worker had crossed the safe line, then turned with the Master and walked back toward the court.
+
+That evening, the damaged section was cordoned off and the lower orchard path closed. The gardeners moved the young trees away from the wet ground. Hephaestus drew a repair plan that included a wider drainage route and inspection points accessible from the surface. The lion asked that the gardeners be included in the review because they knew where the water gathered after every storm. The plan would take time. The court accepted the delay.
+
+The rain continued through the night. The lion rested near the open doors and listened to it fall. He did not mistake the survival of the wall for proof that nothing had happened. A place could remain standing and still need care. In the morning, the repair would begin.
+
+### XIV. A Guest Without a Banner
+
+The visitor arrived two days later, on foot, carrying no crest and asking for no escort. He had come from a distant house whose name the court did not immediately recognise. His clothes were travel-worn, his boots muddy, and the small case he carried had been repaired with mismatched leather. He asked to speak with the Master, but when he learned that the Master was occupied, he said he could wait.
+
+The attendants offered him a place in the guest hall. He declined the high-backed chair and chose a bench near the window. The Golden Lion found him there in the afternoon, looking out at the garden as if he were trying to decide whether he had reached the right place. The lion settled on the stone floor a short distance away. The visitor glanced at him, then looked back through the window.
+
+After a while, the visitor explained that his house had lost its meeting hall in a fire. The people had saved the records and most of the tools, but the building itself was gone. They had begun to argue about what should be rebuilt: a replica of the old hall, a smaller structure that could be completed quickly, or a new building that would serve more than one purpose. The visitor had been sent to ask whether the Golden Lion would lend his name to their appeal. They believed that a public endorsement from so great a figure would persuade the other houses to contribute.
+
+The lion listened. He asked whether the people of the house had agreed on what they needed. The visitor said they had not. Some wanted the old hall restored exactly; others believed the fire had exposed problems that had existed for years. The lion asked whether anyone had inspected the foundations. The visitor admitted that the ground was still unsafe and that no proper survey had been completed.
+
+The lion did not offer his name. He offered to send a surveyor and a builder, provided the house wanted them and agreed that the findings would be shared with the people who would use the building. He would not endorse a plan before the inhabitants had been heard. The visitor looked disappointed at first, then relieved. He had expected either a grand promise or a refusal. Instead he had been given a next step that did not require him to pretend the decision had already been made.
+
+When the Master joined them, the visitor repeated the proposal. The Master agreed that a survey could be arranged. The two friends did not speak over one another; they had arrived at the same practical answer by listening to the same account. The visitor left the next morning with names, dates, and a letter authorising the survey team to visit. The court did not announce that it had saved another house. It had agreed to help a community understand what it could safely build.
+
+### XV. The Long Table at Dusk
+
+The long table in the great hall was made from dark oak, with a surface broad enough for maps, tools, ledgers, food, and the occasional sleeping cat. In the evening it became the centre of the court's shared life. The gardeners brought in the first report on the orchard drainage. The wheelwright delivered the repaired cart hub. The training-ground coach submitted the platform inspection. Hephaestus placed his drawings beside the maintenance ledger. The Master arrived last, carrying the small book from the western gallery.
+
+The Golden Lion took his place beside the table. His great head rose above the lamplight, and the gold of his mane caught the warm reflections from the polished wood. There was no throne at the head. The table had been designed so that people could sit where their work brought them, and the lion's place was simply the place where he could see and hear everyone without forcing the room to reorganise itself around him.
+
+They began with the drainage. The gardeners described where the water had collected and which beds would need to be replanted. Hephaestus showed the new channel and marked the inspection points. The crew asked for a wider access cover so that leaves could be removed without dismantling the stonework. Hephaestus amended the drawing in front of them. The wheelwright explained that the cart hub had failed because the wood had dried unevenly. He proposed a different treatment for the replacement parts. The coach reported that the training platform had been levelled and tested. The young giant who had struggled with the lift had returned to the lighter weight and completed the movement cleanly.
+
+The visitor's house was discussed last. The survey team could travel in four days. The court would provide materials for temporary shelter if the residents requested them, but no permanent design would be approved before the foundation report and the community meeting. The Master wrote the date into the book. The lion listened, occasionally asking a question that brought the conversation back to the people who would live with the result.
+
+At one point the room became noisy. Several people spoke at once about the cost of the drainage work, the timing of the survey, and whether the training ground needed a second shaded pavilion. The lion lifted his head. The movement was enough to quiet the table, but he did not use the silence to command agreement. He waited until the speakers had looked around and then asked them to take the matters one at a time. The room resumed its work.
+
+After the last ledger was closed, food was brought in. The table changed character. Bread, fruit, bowls of stew, roasted roots, and warm cakes took the place of drawings and tools. The lion remained with them. He did not retreat to a private chamber after the business was finished. He liked to hear the ordinary talk that followed: a gardener's account of a fox in the lower orchard, the wheelwright's complaint about a stubborn clamp, the coach's description of a new running route, and the kitchen attendant's insistence that the next gathering should include more pears.
+
+The Master sat beside him. The lion's shoulder rested near the table, immense and calm. When the room had emptied, the two friends remained for a while beneath the lamps. The day had produced no conquest, no proclamation, and no miraculous transformation. A cart had been repaired. A training platform had been checked. A wall had been protected from further damage. Another house would receive a survey. The court had done what it could, recorded what it knew, and left the unfinished work visible.
+
+The Golden Lion considered this a good day.
+
+### XVI. The Road Beyond the Orchard
+
+The next morning, the lion and the Master walked beyond the orchard to inspect the old road that connected the court to the neighbouring houses. The road ran between low stone walls and mature trees. In places, roots had lifted the paving; elsewhere, rain had cut narrow channels through the gravel. The road was not beautiful in the manner of the great hall. It was beautiful because it had carried so many people safely between places for so long.
+
+A pair of maintenance workers were already there, marking the sections that needed attention. The lion greeted them and asked what they had found. One worker showed him a place where the wall had begun to lean. The other pointed to a drainage culvert blocked by roots and silt. The Master opened the small book and recorded the locations. They walked the length of the road together, stopping wherever the workers had left a mark.
+
+At the far end, the road divided. One branch led toward the neighbouring houses; the other descended through a wooded hollow toward an older route that had fallen out of use. The lion paused at the junction. The old route was partly hidden by bramble and leaf mould. Its stones were still visible beneath the growth, and a shallow line in the ground suggested that water once followed it. The Master looked down the slope. Neither of them knew when the road had last been used.
+
+They did not clear it that day. The workers had not surveyed the hollow, and the old drainage pattern was unknown. The lion asked them to add it to the next inspection, not as an immediate project but as a question worth preserving. The Master wrote: *old route beneath the hollow; surface visible; condition unknown*. It was a modest entry, but it kept the possibility from being lost beneath the ordinary work of the road.
+
+On the return journey, they passed the training ground. The young giant was there again, working through the movement with the coach. He saw the lion and raised one hand. The lion returned the greeting with a small movement of his head. No one stopped the session. The friendship between them had acquired a new form: recognition without interruption, encouragement without demand.
+
+At the court, the kitchen doors were open. The day had begun. The Golden Lion walked in beside the Master, carrying no new title and making no claim upon the road beyond the orchard. He had seen something that might matter later. It had been recorded. That was enough for now.
+
+
 ## Provenance and custody
 
 This record captures a prior user-led artwork interpretation from August 2026. The source artwork's binary is not asserted to be stored in this repository. The interpretation is preserved as text; the original image remains a separate asset until its file is verifiably archived and linked. This follows GEEHUB's recognition–custody principle: an artwork can be meaningfully interpreted before its image file has entered durable custody.

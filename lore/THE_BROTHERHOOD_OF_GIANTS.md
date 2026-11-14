@@ -187,6 +187,22 @@ The next account must follow the change in the water after further weather, the 
 
 ---
 
+## Narrative proof IX — The Signal That Would Not Return
+
+The next inspection remained at the lower gate. Deren, the southern signal keeper, brought the Master, the Lion, Hephaestus, and Teren Aul to the damaged station with Salen, his apprentice. The Stone House surveyors repeated their measurements at the eastern footing. The chalk line across the crack remained intact overnight, but the tower was not declared safe. A freestanding frame was assembled on stable bedrock, outside the tower's foundation, so that the shutter and counterweight could be examined without placing a person on the damaged platform.
+
+The inspection showed that the counterweight cord had frayed near its guide and that the shutter had twisted slightly. The upper platform had also been damaged by the falling slab. The tower's failure therefore involved both a worn mechanism and structural damage. Hephaestus proposed a replacement cord and a removable inspection arrangement, but did not install a permanent brace. The footing required further observation, and the platform could not carry a worker until its condition was established.
+
+Teren used the coastal house's portable timing wheel, shutter plate, and mirrored target to test the lower-to-middle line. The lower station sent a marked pattern; the middle ridge returned the expected acknowledgement within the prescribed interval. The test established a working line of sight under the recorded conditions. A second controlled test was sent from the middle ridge toward the upper station. No answer returned. The keepers stopped after the agreed interval and entered the result as unacknowledged. The upper station remained offline; the signal chain was not restored.
+
+Deren retained authority over the local signal system. He and Teren agreed that the confirmed lower-to-middle line could carry short operational messages, but it could not be used to imply that the upper halls had received them. The signal register was revised to distinguish a sent signal, an observed reflection, a confirmed acknowledgement, and an unresolved attempt. Salen's earlier warning was entered with its time and the reason he had stopped sending. The Lion supported the accuracy of the record and reminded him that refusing to claim receipt without an acknowledgement was an act of competence, not a failure.
+
+The day produced a limited but useful result. One line could be tested and used under local supervision; the upper tower still required a footing survey, a platform assessment, and a separate repair plan. The quarry cut remained unentered, and the water channel would be inspected again after changing weather. The southern keepers had accepted the expedition's help without handing over their authority. The visitors had improved the record without turning one successful test into a declaration that the mountain's communications had been restored.
+
+The next stage must follow the upper station's physical condition and the changing flow from the quarry cut. No message should be treated as received beyond the last confirmed station, and no person should be sent onto the tower or into the cut until the responsible local keepers and surveyors agree that the approach is safe.
+
+---
+
 ## Final theorem — The dominion is the continuing work of brothers
 
 **Theorem.** The dominion of the giants endures if and only if the brotherhood can preserve kinship, distinguish its members, maintain the consequences of its works, transmit its inheritance, and revise its methods without falsifying its history.

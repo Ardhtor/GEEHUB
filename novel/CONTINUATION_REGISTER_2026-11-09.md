@@ -105,3 +105,12 @@ The hotel staff now includes a fictionalized Christopher Meloni as the senior bu
 | Scale Commons / physical continuity | [Chapter LXXVIII — Beyond Size Fifty](chapters/CHAPTER_LXXVIII_BEYOND_SIZE_FIFTY.md) | Daniel Goebel outgrows his previous size-50 shoes. A replacement prototype is fitted to current measurements; the old pair is retained as a baseline artifact. The exact new size is recorded privately after fitting and is not treated as a ranking. |
 
 The character records for [Travis](../characters/records/TRAVIS.md), [Mr. Kaufman](../characters/records/MR_KAUFMAN.md), and [Daniel Goebel](../characters/records/DANIEL_GOEBEL.md) preserve the new relationships and physical-continuity anchors. These introductions are provisional fictional development beyond the specific events recorded in the chapters.
+
+
+## Chapter LXXIX — The Woman on the Western Road
+
+[Chapter LXXIX — The Woman on the Western Road](chapters/CHAPTER_LXXIX_THE_WOMAN_ON_THE_WESTERN_ROAD.md) carries the Scale Commons ensemble into an encounter with Mara Venn, an adult giant woman whose growth continues as she seeks a safe western crossing. Gabe's remark that she sickens him exposes his fear of being overlooked; Luke responds with restraint rather than taking over; Tyler and Andrew combine measurement with attentive listening; Chase chooses not to turn a friend's worst sentence into his defining record; Joseph keeps local evidence distinct from rumour. Gabe later apologises to Mara, and their first relationship remains an unfinished, honest beginning rather than an instant friendship.
+
+The bridge's middle joint had shifted during the rain before Mara arrived. Her approach reveals the remaining structural limit but does not cause the original defect. The full crossing remains closed pending permanent repair. Mara returns toward the western survey camp; her exact measurements and wider biography remain open. A second-district report is expected and must be checked independently before the men treat the western encounter as universal.
+
+The chapter establishes a new relational thread: Gabe and Mara's next meeting; Mara's practical working relationships with Tyler and Andrew; permission and source handling for Chase's visual record; and the continuing friendship among the six men after the public attention has moved elsewhere.

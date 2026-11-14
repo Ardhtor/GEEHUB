@@ -123,6 +123,33 @@ A frame plan is renderable only when its triangles remain non-degenerate and kee
 
 The focused tests cover baseline identity, articulated surface movement, fixed topology under source motion, cumulative-growth regression, renderer handoff, frame/mask evidence mismatch, gradual temporal progression, velocity and acceleration blocking, irregular timestamps, and invalid temporal configuration. The fake-canvas test verifies per-triangle draw calls, not browser pixel output. The local-affine field is a first deformation model: it does not yet model muscle volume, clothing, depth, or occlusion, and the mask mesh is not yet registered as a typed bridge frame set. `buildGrowthDeformationSequence()` now measures each used vertex's change in deformation offset against the source body height and actual adjacent timestamps. Configurable velocity and acceleration limits block the entire sequence, and every frame plan, when a threshold is exceeded. These guards measure geometric continuity; they do not prove perceptual smoothness or correct tracking.
 
+## RGBA body-layer rasterizer
+
+`core/pixel-frame-renderer.js` now rasterizes one already-validated
+`geehub.growth-deformation-frame` into a transparent RGBA body layer. It
+requires the exact source frame number, its decoded binary body mask, and its
+decoded protected-face mask. Every source triangle must remain inside body
+foreground; body and face masks must be disjoint; source and destination
+triangles must preserve orientation and avoid protected-face pixels.
+
+The rasterizer walks destination pixel centres, evaluates barycentric
+coordinates in each destination triangle, and samples the corresponding
+source position with bilinear interpolation in premultiplied-alpha space.
+Shared triangle edges are written once and must agree on their source
+correspondence. The source RGBA buffer is read-only. Pixels outside the
+deformed mesh are transparent in the returned layer, and the coverage mask
+records exactly which output pixels were produced. The current safety ceiling
+is 12 million pixels per frame.
+
+This is the first CPU pixel-buffer implementation, not yet a complete frame
+worker or compositor. It does not decode source footage, encode PNG files,
+reconstruct the background behind the original body, combine the protected
+face layer, or write a frame sequence. The result is a body layer for those
+later stages; `pixelSemanticsVerified` remains false. Nine focused tests cover
+baseline sampling, translation, source/body and destination/face exclusion,
+foldovers, frame identity, malformed masks and RGBA buffers, shared edges,
+and premultiplied-alpha interpolation.
+
 ## Registered-evidence render-job preparation
 
 `core/bridge-render-job.js` reads the exact segmentation and landmark sidecar

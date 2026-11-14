@@ -1,0 +1,29 @@
+# lore/dimension — directory index
+
+This is the local navigation page for `lore/dimension/`. The lists below link to immediate files and child folders; use a child folder's own README to continue deeper.
+
+**Up:** [parent directory](../README.md) · [repository root](../../README.md) · [full directory map](../../docs/REPOSITORY_NAVIGATION.md)
+
+## Files
+
+### MD (19)
+
+- [`BEEFYTHIQ_AND_THE_FIRST_ROOM.md`](./BEEFYTHIQ_AND_THE_FIRST_ROOM.md)
+- [`DIMENSIONAL_CONJURATION.md`](./DIMENSIONAL_CONJURATION.md)
+- [`FAMILIARITY_PARADOX_SHARED_AWARENESS.md`](./FAMILIARITY_PARADOX_SHARED_AWARENESS.md)
+- [`FIRST_ROOM_CHAPTER_01.md`](./FIRST_ROOM_CHAPTER_01.md)
+- [`FIRST_ROOM_CHAPTER_02.md`](./FIRST_ROOM_CHAPTER_02.md)
+- [`FIRST_ROOM_CHAPTER_03.md`](./FIRST_ROOM_CHAPTER_03.md)
+- [`FIRST_ROOM_CHAPTER_04.md`](./FIRST_ROOM_CHAPTER_04.md)
+- [`FIRST_ROOM_CHAPTER_05.md`](./FIRST_ROOM_CHAPTER_05.md)
+- [`FIRST_ROOM_CHAPTER_06.md`](./FIRST_ROOM_CHAPTER_06.md)
+- [`FIRST_ROOM_CHAPTER_07.md`](./FIRST_ROOM_CHAPTER_07.md)
+- [`FIRST_ROOM_CHAPTER_08.md`](./FIRST_ROOM_CHAPTER_08.md)
+- [`FIRST_ROOM_CHAPTER_09.md`](./FIRST_ROOM_CHAPTER_09.md)
+- [`FIRST_ROOM_CHAPTER_10.md`](./FIRST_ROOM_CHAPTER_10.md)
+- [`FIRST_ROOM_CHAPTER_11.md`](./FIRST_ROOM_CHAPTER_11.md)
+- [`FIRST_ROOM_CHAPTER_12.md`](./FIRST_ROOM_CHAPTER_12.md)
+- [`FIRST_ROOM_CHAPTER_13.md`](./FIRST_ROOM_CHAPTER_13.md)
+- [`FIRST_ROOM_CHAPTER_14.md`](./FIRST_ROOM_CHAPTER_14.md)
+- [`NIGHTMARE_DOLL_RESEARCH.md`](./NIGHTMARE_DOLL_RESEARCH.md)
+- [`SEQUOIA_WOODLANDS.md`](./SEQUOIA_WOODLANDS.md)

@@ -243,3 +243,20 @@ test("bilinear sampling uses premultiplied alpha to avoid transparent-colour fri
   assert.equal(sample[2], 0);
   assert.ok(sample[3] >= 127 && sample[3] <= 128);
 });
+
+test("bilinear source taps never pull colour from a protected face pixel", () => {
+  const sourceFrame = makeFrame(8, 8);
+  for (const [x, y] of [[3, 1], [4, 1], [3, 2]]) {
+    sourceFrame.data.set([255, 0, 0, 255], (y * 8 + x) * 4);
+  }
+  sourceFrame.data.set([0, 0, 255, 255], (2 * 8 + 4) * 4);
+  const sourcePoints = triangle;
+  const targetPoints = sourcePoints.map(point => ({ x: point.x - 0.5, y: point.y - 0.5 }));
+  const result = renderGrowthDeformationPixels({
+    sourceFrame,
+    plan: makePlan(sourcePoints, targetPoints),
+    bodyMask: makeBodyMask(8, 8, 12, [[4, 2], [7, 7]]),
+    protectedFaceMask: makeFaceMask(8, 8, 12, [[4, 2]])
+  });
+  assert.deepEqual(pixel(result, 3, 1), [255, 0, 0, 255]);
+});

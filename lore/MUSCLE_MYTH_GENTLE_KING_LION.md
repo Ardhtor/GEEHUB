@@ -118,6 +118,12 @@ The Master laughed, and the Lion's expression brightened with the satisfaction o
 
 At night they sometimes sat in the upper gallery with a lamp between them. The Master might read or make notes. The Lion might groom the long fur at the edge of his mane or look toward the dark line of trees. They did not have to fill the hours with conversation. When the Master finally rose, the Lion usually accompanied him as far as the inner passage. At the doorway they paused, exchanged a familiar gesture, and separated for the night. Neither needed a promise that the other would return. The friendship had become part of the structure of the house, as dependable as the broad stair and the western doors.
 
+
+
+The Master once gave the Lion a small book with a plain cedar cover. It was not a record of the court or a collection of official decisions. Its pages were blank, and the Master said that the Lion could use it for anything he wished. The Lion turned it over in his paws, amused by the modest size of the object. He asked whether the Master expected him to write down every thought he had. The Master said that he hoped not; the book would be too large before the week was over.
+
+The Lion kept it in the western gallery. Some days he wrote a line about a visitor, a meal, or a place he wanted to see again. Other days he left it untouched. The Master never asked to read it. Once, when the Lion had been away for several days, he opened the book and found a single sentence: *The house was full, and I wished you could have heard it.* The Master read the line and closed the cover. He did not need the rest of the page explained. The friendship could keep a record without turning itself into an account that either friend owed the other.
+
 ### III. The Measure of Immensity
 
 The Golden Lion is immense. His body is a great golden architecture of mane, shoulder, chest, flank, and weight. His outline carries the force of a monumental sculpture, though he is alive and capable of turning his head, breathing, stretching, and settling his weight with the unhurried confidence of a creature who has no need to hurry in order to be noticed. The mane catches light in broad, warm passages. Gold moves across it as if the light has found a surface it was made to inhabit. His eyes are steady. His mouth can soften. Even at rest, he has the unmistakable presence of something powerful.
@@ -154,6 +160,10 @@ The answer travelled through the workshop and became a familiar saying, though t
 The episode changed the way the court thought about its own construction. Until then, some people had assumed that every architectural problem could be solved by making a passage larger. The Lion's body had encouraged that assumption. But the basin had shown that movement was a question of sequence, turning space, load, visibility, and cooperation. A broad opening was useful, but it did not remove the need to understand what was being carried through it. The court began to keep practical route drawings beside its architectural plans. The drawings included ordinary objects that passed through the buildings: tables, deliveries, instruments, carts, sculptures, and the equipment needed for repairs.
 
 A few days later, the Lion walked through the eastern gallery alone. He paused beside the basin and examined the water poured into it for the first time. The surface reflected the ceiling in broken bands of gold and dark red. The workers were gone, the railing was back in place, and the planters had settled into their new positions. Nothing in the finished room announced the difficulty of its arrival. That pleased him. He liked beautiful things, but he liked them better when the means of bringing them into the world had been treated with equal care.
+
+
+
+After the basin had been installed, the carpenters used its arrival as a practical lesson for the apprentices. They walked the route from the outer gate to the eastern gallery, stopping at each turn and measuring the space available for a large object. The apprentices drew the carriage, the doorway, and the temporary rail removal. They were asked to mark not only the measurements but also the points where a worker needed to see another worker's hands. The Lion joined them for the final walk. He showed them how his own body changed the available space when he turned, and why a passage that seemed wide from the front could become narrow at the shoulder. The exercise became part of the court's building notes. It did not teach the apprentices to design only for the Lion; it taught them to consider how any large or awkward object would move through a place.
 
 ### IV. The Warm Court
 
@@ -195,6 +205,10 @@ The meal lasted longer than planned. The musician described a passage he wanted 
 The Lion lifted his cup. “Then the kitchen deserves the toast.”
 
 The cooks laughed, and someone at the far end of the table raised a glass as well. The court's grandeur was present in the high timber roof, the deep red stone, and the broad windows, but its strongest proof was the ease with which work and hospitality occupied the same room. When the meal ended, the dishes were carried away, the afternoon arrangements continued, and the kitchen began preparing for the next gathering. The Lion walked out into the garden with the smell of warm bread still caught in his mane.
+
+
+
+A few weeks later, the court hosted travellers delayed by a washed-out road. They arrived near dusk, carrying dust on their coats and a small quantity of food that had survived the journey. Oren made room at the long table and asked what they could add to the meal. One traveller offered a bundle of dried herbs from the western fields. Another had a jar of preserved fruit. The cooks used both, changing the stew and setting the fruit beside the warm bread. The Lion ate with the visitors and asked which part of the road had been hardest to cross. By morning, the maintenance crew had the location and the travellers had a dry place to continue their journey. The meal had not been arranged as a ceremony of generosity. It was simply how the court received people who arrived hungry.
 
 ### V. The Quiet Law
 
@@ -250,6 +264,10 @@ Daran looked back across the court. Eren was speaking with the trainer and arran
 The exhibition continued. A different athlete demonstrated footwork; two builders showed a new adjustable support; a visitor asked whether public training hours could be extended into the evening. The steward wrote down the request. By sunset the platform had been cleared, the weights returned to their racks, and the court had resumed its usual shape. Daran and Eren left by the same passage, talking about the next session. Neither had become the other's servant, and neither had been made into a symbol. They had simply been returned to a fairer arrangement.
 
 The Lion watched them go. He understood that the quiet law could not prevent every slight, every selfish act, or every careless use of advantage. It could only determine what the court did next. If strength was praised without limit, it would eventually become a claim over everyone else. If mistakes were punished for spectacle, people would learn to hide them rather than correct them. The court needed another practice: recognise excellence, protect the opportunity to grow, and make those with greater ability responsible for the conditions in which others could develop. The Lion did not write the rule on a wall. The next time the platform was used, the schedule included a place for beginners, and that place was treated as part of the exhibition rather than an interruption to it.
+
+
+
+Before leaving the training ground, Daran went back to the steward and asked that the next exhibition schedule be posted earlier. He did not want Eren to discover his place on the programme only after arriving. The steward agreed and added a note that each station would identify the level of work expected there. Daran read the notice twice, then asked the coach whether the central platform could be opened for a supervised practice hour before the public event. The coach said that it could, provided the equipment was checked and the athletes used the time for preparation rather than display. Daran accepted the condition. The Lion heard the exchange from the arcade and kept walking. It pleased him that the correction had become part of the organisation rather than a story that needed to be retold every time the two athletes met.
 
 ### VI. The Friendship of Makers
 
@@ -455,6 +473,10 @@ A visitor came through the gallery while they were arranging the display. He sto
 
 The display opened the next afternoon. People stayed longer than expected. Some were drawn to the original composition; others preferred the later studies. The artist stood nearby, answering questions without defending every decision. The Lion visited once, greeted her, and then stepped away so that the work could receive its own attention. He was pleased that the image remained recognisable while allowing new work to grow around it. The source had not been replaced. The archive had become a place where change could be seen.
 
+
+
+At the bottom of the register, the artist added a custody note. The gallery held the written interpretation, the reproductions used in the display, and the studies made in response to the image. It did not yet hold the original binary. She recorded the difference so that a future archivist would know which objects were present and which remained to be collected. The Lion approved the note. He wanted the work to remain beautiful, but he also wanted its history to be accurate. The source could be honoured without claiming that every copy was the source itself.
+
 ### X. The Friend Who Stays
 
 At the end of the day, the Golden Lion returns to the warm court. The great doors are open. The last visitors have gone, the kitchen is being cleaned, and the gardeners are putting away their tools. He crosses the hall slowly, feeling the familiar surface beneath his paws. The Master is there. There is no ceremony to perform and no audience to convince. The lion settles near him, folds his great body into a comfortable rest, and lets the purr begin.
@@ -563,6 +585,10 @@ That afternoon the repaired cart was tested without a load, then with a measured
 
 In the evening the Master found the Lion looking over the maintenance book. A page had been added for the fleet inspection, with the damaged hub listed as the first entry. The Lion ran one broad claw beneath the new heading and nodded. The incident would not be remembered because a great animal had moved a cart. It would be remembered because a small failure had become useful knowledge, and because the people involved had been allowed to tell the truth before the story became grander than the work.
 
+
+
+The driver returned at the end of the week with the repaired cart. He had followed the new loading guide and brought the wheelwright's record of the test. The cart passed through the outer gate without catching at the turn. The driver showed the gardeners how he had balanced the crates, then asked whether the court wanted him to carry the revised guide to the neighbouring delivery crews. The Master said that he should, but asked him to explain that the guide was based on the carts inspected so far and might need adjustment for a different design. The driver agreed. The Lion watched him leave and recognised the small change that mattered: the man who had first arrived ashamed of a broken wheel was now trusted to help others avoid the same mistake.
+
 ### XII. The Training Ground
 
 The training ground lay beyond the southern orchard, where the court widened into a level field bordered by oak and cypress. It had been built for bodies that differed in size and strength. Some of the athletes were broad and powerful; others were quick, light-footed, or still learning how to coordinate their movements. The equipment was heavy, but it was not arranged to reward recklessness. There were lifting platforms, climbing frames, marked lanes, padded areas for controlled falls, and a shaded pavilion where coaches kept water and recorded each session.
@@ -604,6 +630,10 @@ The Lion thanked him, not as though he had performed a public act of virtue, but
 
 As the Lion walked back toward the orchard, he heard the sound of the next group beginning its warm-up. The training ground had a rhythm that did not depend on any one champion. The equipment was checked, the coaches moved between stations, and the athletes learned at different speeds. The Lion liked the sight of Daran staying behind to tighten a support after everyone else had left. It was a modest act, but it belonged to the same discipline as the lift itself.
 
+
+
+At the next open practice, Eren was asked to demonstrate the first sequence to a small group of newcomers. Daran stood beside the platform but did not take over. He watched Eren set the feet, check the grip, and complete the movement at the agreed weight. When Eren finished, Daran asked him to explain which part had required the most attention. Eren described the moment when his balance shifted and how he had learned to correct it before beginning the lift. The newcomers listened, then tried the movement themselves. The coach recorded the session as a useful demonstration of controlled progress. Eren left the ground tired and pleased, while Daran remained to help return the weights. Their partnership had become part of the training ground's ordinary life.
+
 ### XIII. Rain at the Outer Wall
 
 The rain began in the hills and arrived at the court as a dark band beneath the afternoon sky. The gardeners secured the light tools, the kitchen staff moved the baskets away from the open windows, and the attendants checked the drains along the outer wall. The Golden Lion stood beneath the western arcade and watched the water cross the stones. He liked rain. It brought the scent of soil up through the garden and made the gold of his coat appear deeper, almost molten where the light still reached it.
@@ -640,6 +670,10 @@ The following morning the Lion returned with Hephaestus and the Master. In dayli
 The Master asked whether the orchard path could reopen before the repair was finished. The crew said that a temporary route could be made along the upper terrace, provided the lower section remained closed. The Lion agreed, but asked that the sign explain why the path was closed and where people should go instead. A barrier without an explanation would invite someone to move it. A clear route would let people cooperate with the repair.
 
 By evening the temporary channel was working. The gardeners had moved the most vulnerable beds, and the wall had been marked for inspection. The Lion and the Master walked along the upper terrace while rainwater continued to run toward the lower drain. They could hear it beneath the stones. The Lion did not feel victorious. The court had responded well, but the rain had revealed a weakness that would have to be understood more fully. He preferred an honest unfinished repair to a polished announcement that the wall was safe.
+
+
+
+The masons began the permanent repair only after the lower foundation had been inspected. Each removed stone was numbered and placed on a bed of timber, with its original position marked on the drawing. The damaged mortar was taken away by hand. Hephaestus selected a replacement mix suited to the old stone, but the masons tested it on a small section before using it along the whole wall. The gardeners watched the root zone and adjusted the temporary channel as the work progressed. The Lion visited at the end of the first day and asked what had been learned. The foreman said that two stones could be reused, one needed a new face, and the foundation was sound once the loose mortar had been removed. The Lion thanked the crew and left them to continue. The wall was being repaired as a structure with a history, not rebuilt as though nothing had happened.
 
 ### XIV. A Guest Without a Banner
 

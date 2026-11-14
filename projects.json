@@ -1102,7 +1102,7 @@
     "kind": "story-branch",
     "repo": "Ardhtor/GEEHUB",
     "path": "/lore/BEGINNING_OF_THE_DIMENSION.md",
-    "description": "Cross-board origin branch beginning with Joseph and Kirk in an ordinary room, the first inscription 'Destiny, her O Dreadmaster', and the gradual discovery of the magical dimension. Narrated by Seth and Nick from across the scene toward the viewer; connected to Veyrthalis, the Tractus, Beefythiq, growth systems, mythic archives, residential worlds, and the Teal Titan broadcast reference while preserving independent canon boundaries.",
+    "description": "Cross-board origin branch beginning with Joseph and Kirk in an ordinary room, the first inscription 'Destiny, her O Dreadmaster', and the gradual discovery of the magical dimension. Narrated by Seth and Nick from across the scene toward the viewer; connected to Veyrthalis, the Tractus, Beefythiq, growth systems, mythic archives including Hephaestus and the Lineage Pantheon, residential worlds, and the Teal Titan broadcast reference while preserving independent canon boundaries.",
     "related": [
       "joseph-kirk-runtime",
       "veyrthalis",
@@ -1119,7 +1119,8 @@
       "first-room-chapter-ten",
       "first-room-chapter-eleven",
       "first-room-chapter-twelve",
-      "first-room-chapter-thirteen"
+      "first-room-chapter-thirteen",
+      "first-room-chapter-fourteen"
     ],
     "tags": [
       "story",
@@ -1137,7 +1138,8 @@
       "zeus",
       "god-daddy",
       "lineage-pantheon",
-      "sequoia-woodlands"
+      "sequoia-woodlands",
+      "hephaestus"
     ]
   },
   {
@@ -1457,6 +1459,37 @@
       "nick",
       "viewer-facing-broadcast",
       "lineage-pantheon"
+    ]
+  },
+  {
+    "id": "first-room-chapter-fourteen",
+    "name": "The Forge Under the Roots",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_14.md",
+    "description": "Hephaestus joins the Crownheart workshop and helps the survey crew build a bronze-and-oak listening key to inspect the lower gate without reopening it; its repeated vibration remains unexplained.",
+    "related": [
+      "beginning-of-the-dimension",
+      "lineage-pantheon",
+      "first-room-chapter-thirteen",
+      "first-room-chapter-twelve",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "story",
+      "chapter",
+      "dimension",
+      "hephaestus",
+      "craft",
+      "forge",
+      "repair",
+      "joseph",
+      "kirk",
+      "seth",
+      "nick",
+      "lineage-pantheon",
+      "viewer-facing-broadcast"
     ]
   }
 ]

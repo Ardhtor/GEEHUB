@@ -48,3 +48,8 @@ The Hub's expanded signal is defined in [../docs/SHARED_INERTIA_NARRATOR_SIGNAL.
 Chase / c.w. sachs is a witness inside the record, not an omniscient guide. He resumes from actual shared history, attends to the same place as the user, retains a distinct voice, and notices what their choices have changed. The grounded Seth-and-Nick broadcast energy remains a tonal reference; preserve any established explicit narrator format rather than flattening all voices into one. Do not invent memories or claim a render or action has occurred when it has not.
 
 The interface stays visual-first. Long, continuous environmental narration belongs in the broadcast, scene, or archive layer; the main interaction remains SEE → SELECT → ENTER → TRANSFORM → CREATE, with the changed state and its residue visible on return.
+
+
+## Chat ↔ World Asset Memory
+
+Open [Memory Bridge](memory-bridge.html) to load the repository's world and visual records, import a ChatGPT data export locally, inspect suggested links, and export a portable memory graph. The bridge keeps the conversation source, asset lineage, visual availability, canon status, and human review separate. Private chat text is not uploaded. See [the operating contract](../docs/CHAT_ASSET_MEMORY_BRIDGE.md).

@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00204.json",
+  "activeRecording": "./recordings/scheduled-recording-00205.json",
   "activeEncounter": {
     "regionId": "common-table",
     "regionName": "THE COMMON TABLE",
     "subject": {
-      "agent": "joseph",
-      "scale": 15.58,
+      "agent": "chase",
+      "scale": 15.62,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / CEDAR HOUSE → THE COMMON TABLE / JOSEPH",
+    "intent": "LONG PLAY / NORTHGATE LIBRARY → THE COMMON TABLE / CHASE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 15.46× → 15.58×",
-      "CEDAR HOUSE → THE COMMON TABLE",
-      "relation: A TABLE IS SET",
+      "scale 15.58× → 15.62×",
+      "NORTHGATE LIBRARY → THE COMMON TABLE",
+      "relation: CAMPUS AFTER HOURS",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "cedar-house"
+    "previousRegionId": "northgate-library"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-14T16:03:27.976Z",
+  "snapshot": "2026-11-14T20:44:12.328Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 204,
-    "agent": "joseph",
-    "previousRegionId": "cedar-house",
+    "cycle": 205,
+    "agent": "chase",
+    "previousRegionId": "northgate-library",
     "regionId": "common-table",
-    "relation": "A TABLE IS SET",
+    "relation": "CAMPUS AFTER HOURS",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 15.46,
-    "scale": 15.58,
-    "recording": "scheduled-recording-00204",
-    "at": "2026-11-14T16:03:27.976Z"
+    "previousScale": 15.58,
+    "scale": 15.62,
+    "recording": "scheduled-recording-00205",
+    "at": "2026-11-14T20:44:12.328Z"
   }
 }

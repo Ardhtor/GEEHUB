@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-14T16:03:27.976Z",
+  "generated": "2026-11-14T20:44:12.328Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00205",
+      "at": "2026-11-14T20:44:12.328Z",
+      "from": "geehub-long-play",
+      "to": "chase",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / NORTHGATE LIBRARY → THE COMMON TABLE / CHASE",
+      "body": "The world crossed the existing relation \"CAMPUS AFTER HOURS\" from NORTHGATE LIBRARY into THE COMMON TABLE. Scale increased from 15.58× to 15.62×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00205",
+      "live": true,
+      "regionId": "common-table",
+      "previousRegionId": "northgate-library",
+      "relation": "CAMPUS AFTER HOURS"
+    },
     {
       "id": "scheduled-long-play-00204",
       "at": "2026-11-14T16:03:27.976Z",
@@ -1482,21 +1497,6 @@
       "regionId": "growth",
       "previousRegionId": "luke-bwomph",
       "relation": "HYPEER BASELINE"
-    },
-    {
-      "id": "scheduled-long-play-00108",
-      "at": "2026-10-25T00:10:31.055Z",
-      "from": "geehub-long-play",
-      "to": "andrew",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / DEEP LORE → LUKE // BWOMPH / ANDREW",
-      "body": "The world crossed the existing relation \"THE FACE REMAINS\" from DEEP LORE into LUKE // BWOMPH. Scale increased from 9.30× to 9.38×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00108",
-      "live": true,
-      "regionId": "luke-bwomph",
-      "previousRegionId": "deep-lore",
-      "relation": "THE FACE REMAINS"
     }
   ]
 }

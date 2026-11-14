@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 204,
-  "currentAgent": "joseph",
+  "cycle": 205,
+  "currentAgent": "chase",
   "currentRegion": "common-table",
-  "scale": 15.58,
-  "lastRun": "2026-11-14T16:03:27.976Z",
+  "scale": 15.62,
+  "lastRun": "2026-11-14T20:44:12.328Z",
   "history": [
+    {
+      "cycle": 205,
+      "agent": "chase",
+      "previousRegion": "northgate-library",
+      "region": "common-table",
+      "relation": "CAMPUS AFTER HOURS",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 15.58,
+      "scale": 15.62,
+      "recording": "scheduled-recording-00205",
+      "at": "2026-11-14T20:44:12.328Z"
+    },
     {
       "cycle": 204,
       "agent": "joseph",
@@ -1197,22 +1209,10 @@
       "scale": 9.25,
       "recording": "scheduled-recording-00106",
       "at": "2026-10-24T19:30:43.192Z"
-    },
-    {
-      "cycle": 105,
-      "agent": "chase",
-      "previousRegion": "embodied-scale",
-      "region": "discovery",
-      "relation": "SCALE HAS HISTORY",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 9.18,
-      "scale": 9.22,
-      "recording": "scheduled-recording-00105",
-      "at": "2026-10-24T17:00:24.321Z"
     }
   ],
-  "previousRegion": "cedar-house",
-  "relation": "A TABLE IS SET",
+  "previousRegion": "northgate-library",
+  "relation": "CAMPUS AFTER HOURS",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 14,
@@ -1229,14 +1229,14 @@
     "beefythiq": 12,
     "bodylounger": 11,
     "luke-bwomph": 13,
-    "common-table": 7,
+    "common-table": 8,
     "cedar-house": 5,
     "cat-gardens": 6,
     "founders-dormitory": 5,
     "northgate-university": 9,
     "bluewater-quay": 5,
     "lantern-market": 6,
-    "northgate-library": 4,
+    "northgate-library": 5,
     "athletic-commons": 4
   },
   "lastRegionAt": {
@@ -1259,14 +1259,14 @@
     "asset-intake-2026-11-03": "2026-11-03T23:58:00+01:00",
     "procession-of-two-accounts": "2026-11-04T12:02:15+01:00",
     "the-unentered-place": "2026-11-04T18:08:00+01:00",
-    "common-table": "2026-11-14T16:03:27.976Z",
+    "common-table": "2026-11-14T20:44:12.328Z",
     "cedar-house": "2026-11-14T14:57:56.509322+00:00",
     "cat-gardens": "2026-11-14T07:58:04.672062+00:00",
     "founders-dormitory": "2026-11-14T01:28:02.589077+00:00",
     "northgate-university": "2026-11-13T21:01:42.509199+00:00",
     "bluewater-quay": "2026-11-11T15:06:06.294882+00:00",
     "lantern-market": "2026-11-11T21:16:00.695713+00:00",
-    "northgate-library": "2026-11-12T10:11:20.382796+00:00",
+    "northgate-library": "2026-11-14T19:52:05.606346+00:00",
     "athletic-commons": "2026-11-13T14:42:56.726856+00:00"
   }
 }

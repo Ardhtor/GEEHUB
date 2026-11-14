@@ -8,6 +8,10 @@ The Tractus is the living workspace for archives, tools, games, fictional worlds
 
 The hub is not a pile of files. It records what happened, what changed, what remains, and what the next process can use. The interface, corpus, artifacts, source history, and repository structure all carry memory.
 
+## Navigate the repository
+
+The [complete directory map](docs/REPOSITORY_NAVIGATION.md) opens every area of GEEHUB and provides a full file catalogue. Each directory has a local `README.md` with immediate contents and navigation back to the parent and the whole repository.
+
 ## The voice
 
 GEEHUB is edited as one continuous announcement carried in substantial, connected paragraphs. Across the hub, default prose should develop an idea, scene, observation, or production decision over several complete sentences before moving to a new paragraph. Avoid staccato lineation, isolated sentence fragments, and list-shaped prose. Keep lists, labels, metadata, code, and genuinely sequential instructions structured when their function requires it; the longer-paragraph rule governs narrative and explanatory prose.

@@ -90,3 +90,112 @@ There is always more room.
 There is always more becoming.
 
 And I, for one, have no intention of being finished.
+
+
+## The Growing Friendship — A Book of Strength, Admiration, and Becoming
+
+### Chapter One: The Friend at the Western Door
+
+The Lion had begun to recognize the sound of his friend's arrival. It was not a grand sound, and it did not announce itself with trumpets or the ceremonial horns Zeus occasionally insisted were appropriate for ordinary visits. It was simply the sound of someone coming along the redwood path with the intention of seeing him. The Lion had learned the difference between a visitor who was curious about the enormous golden figure in the clearing and a friend who had come because he wanted to spend time with him. The distinction pleased him. He liked being admired, certainly, but he liked being sought out even more.
+
+That afternoon he was in the lower gymnasium, standing beside one of Hephaestus's newest training frames. The machine was a beautiful piece of work: dark oak uprights, bronze joints, carefully balanced counterweights, and a broad platform designed to accommodate the Lion's scale without making the movement feel clumsy. He was examining the frame with his hands resting at his waist when he heard the familiar approach. His ears turned first. Then his great head followed, the mane shifting over his shoulders.
+
+“There you are,” he said, and the words carried across the room with unmistakable pleasure. “I was beginning to think I would have to send a search party into the forest. Come in. I want to show you something.”
+
+He did not make his friend stand at the edge of the room and look up at him as though visiting a monument. He brought him into the gym, introduced him to the people working there, and made space beside the platform. He explained the new apparatus, how Hephaestus had altered the leverage, how the frame allowed a longer and more controlled range of movement, and how a small change in the angle of a support could transform the entire experience of a lift. He was animated by the details. His hands moved as he spoke; his mane shifted whenever he turned; his expression changed from concentration to delight as he demonstrated the machine.
+
+His friend was interested in the Lion's strength, but the interest had a particular quality. It was not a demand that the Lion become more enormous merely to satisfy an audience. It was a fascination with the whole process: the training, the gradual changes, the visible confidence that came from inhabiting a body with attention, the way a powerful figure could become more expressive rather than less. They could talk about muscle for an entire afternoon without exhausting the subject. They could discuss proportion, shape, posture, the architecture of a shoulder, the sweep of a back, the way a strong body changed the silhouette of a room, and the difference between looking powerful and moving with genuine control.
+
+The Lion listened carefully. He had expected admiration; he had not expected to find someone with whom he could share the subject as a language. That discovery made him unusually talkative.
+
+### Chapter Two: A Shared Vocabulary
+
+Their friendship acquired its own vocabulary in the weeks that followed. They developed names for training sessions, favorite exercises, small improvements, and the particular satisfaction of seeing a body become more capable through patient practice. The Lion was fond of grand names. He proposed the Golden Measure, the Redwood Standard, and the Colossus Routine, each of which was rejected for a different reason. His friend suggested simpler names, and the Lion pretended to be offended before adopting them anyway.
+
+They began to keep a shared training journal in the gymnasium's western room. It was not a ledger of rankings, and it was not a record designed to turn friendship into competition. It held observations, sketches of equipment, notes about recovery, ideas for new exercises, and descriptions of what each of them found compelling about strength. The Lion contributed elaborate drawings of the gym's proposed expansions. His friend added comments about how the room felt when it was full of people training together. Over time the journal became something larger than either had intended: a record of their developing taste, their private jokes, their discoveries, and the ways their attention changed as they learned from one another.
+
+The Lion liked to describe muscle as architecture. “Look at the shoulder,” he would say, standing before one of the tall mirrors. “It is not simply a measurement. It is a roofline, a transition, a promise about the structure beneath it. The back gives the whole figure its breadth. The arms make that breadth active. The legs give the entire composition somewhere to go. A body is a building that moves.”
+
+His friend would sometimes offer a different comparison, and the Lion would consider it seriously. They were not trying to settle on one correct theory. The pleasure was in the exchange. Their shared fascination could be playful, aesthetic, technical, and affectionate at once. They could appreciate an impressive physique without reducing the person to it. They could admire a particular development while remaining curious about the character, habits, humor, and life of the person who carried it.
+
+The Lion made this distinction part of the gymnasium's culture. He wanted people to be able to speak openly about the bodies they admired and the forms of strength they found beautiful, but he did not want the place to become a showroom in which inhabitants were valued only for their appearance. Every portrait would name its subject. Every demonstration would be voluntary. Every training partnership would be based on mutual interest. Admiration was welcome; entitlement was not. The Lion was particularly firm about this, perhaps because he understood how easily a magnificent appearance could make other people forget that a person was standing inside it.
+
+### Chapter Three: The First Long Training Afternoon
+
+Their first long training afternoon together began with a tour and ended with dinner. The Lion had planned a careful introduction to the gymnasium's equipment, but the schedule quickly dissolved into conversation. He showed his friend the main lifting hall, the smaller practice rooms, the recovery suite, the gallery of historical physiques, and the workshop where Hephaestus was developing a new set of adjustable supports. They stopped repeatedly. The Lion wanted to explain every interesting feature, and his friend kept noticing things he had overlooked.
+
+At one point they stood in front of the great western mirror. The Lion examined his own reflection with the comfortable seriousness of someone who knew that appearance was part of his pleasure. His golden coat caught the light; the mane framed his face; the broad structure of his upper body gave his silhouette its unmistakable presence. He rolled one shoulder, studied the movement, and smiled.
+
+“I do like this,” he admitted. “I like the strength, and I like the shape, and I like knowing that the work continues. I don't want to pretend that I am indifferent to it. I have a whole gymnasium. It would be absurd to claim that I never look in the mirrors.”
+
+His friend laughed, and the Lion laughed too. It was a useful moment because neither had to pretend. They could share an interest without making it solemn or disguising it as something else. They could be delighted by a broad back, a powerful chest, a developed arm, a strong stance, or the gradual transformation of a training partner. The subject did not have to be hidden behind a grand theory. Sometimes the honest explanation was simply that they liked it.
+
+They trained at their own levels and with suitable equipment. The Lion was attentive rather than domineering. He explained how he approached a movement, asked what his friend preferred, and adapted the session around their comfort and ability. When his friend wanted to stop and talk, they stopped and talked. When the Lion wanted to demonstrate a technique, he did so slowly enough for the movement to be understood. The point was not to prove who was stronger. The point was to discover what they enjoyed doing together.
+
+Later, while they rested in the gallery, the Lion brought out a large book of anatomical studies and sculptural references. They turned the pages slowly. Some images were classical, some contemporary, and some were the Lion's own sketches. They discussed the visual language of strength: how posture can make a figure seem welcoming or intimidating, how proportion creates a distinctive identity, how clothing changes the reading of a silhouette, and how a person's expression can transform an otherwise imposing image. The Lion was especially interested in the face. He wanted the strength of the body to coexist with warmth in the eyes and humor in the mouth. He had no desire to become a faceless statue.
+
+### Chapter Four: The Friendship Becomes a Place
+
+Hephaestus noticed the change before the Lion announced it. The western training room had acquired another chair, another set of personal notes, and a shelf for the shared journal. A second cup appeared beside the Lion's enormous breakfast service. The room had become a place where the friend could arrive without needing to ask what was happening. Sometimes they trained. Sometimes they looked through the journal. Sometimes they sat with the doors open and watched the light move through the trees.
+
+Hephaestus proposed a modest renovation. The Lion called it modest only because he had not yet seen the drawings. The new room would connect the gymnasium to a smaller garden court, with a covered walkway, a long timber bench, a washroom, and a reading alcove. The floor would be suitable for training and easy to clean; the windows would open toward the redwoods; the walls would hold the shared archive of sketches and photographs. It would be a room for two friends, but it would not be closed to everyone else. They could invite others when they wished, and they could keep the quiet when they did not.
+
+The Lion approved the design immediately. He insisted on one addition: a wide window at seated eye level, so that the room would remain connected to the forest even when they were resting. Hephaestus made the adjustment and added a bronze inscription above the doorway:
+
+**STRENGTH IS BETTER SHARED.**
+
+The Lion read it twice. “That,” he said, “is rather good.”
+
+The room changed their friendship because it gave their interest a home. It was no longer only a subject they discussed when they happened to meet. It had become part of the geography of Geehub, a place with a history and a future. The journal stayed there. The training sessions began there. Friends who were curious about the project could visit, look at the studies, and contribute their own ideas. The Lion made certain that the room never became a shrine to his own appearance. It was a workshop of shared attention, and its contents were allowed to change.
+
+### Chapter Five: The Festival of Magnificent Forms
+
+When the Festival of Bodies and Becomings arrived, the Lion and his friend helped organize a special afternoon devoted to the pleasure of physical culture. The event was not a contest. It was an exhibition of different approaches to strength, movement, presentation, and self-development. Some participants demonstrated lifts; others presented portraits, training journals, clothing designs, sculptural studies, or equipment they had built. A few simply came to watch and enjoy the atmosphere.
+
+Marcus brought several people from Gold's on 5th. He understood how to make a gym feel like a social world rather than a room full of isolated routines. Seth and Nick arrived with their own perspectives and quickly became involved in a discussion about the relationship between training and personal style. Zeus attempted to declare the entire festival a celebration of divine excellence. Neptune suggested that the water gardens host a recovery gathering afterward. The God Daddy made sure that everyone had been introduced and that no newcomer was left standing alone.
+
+The Lion's friend helped welcome people into the exhibition. They spoke with visitors about the shared journal and the new western room. The Lion watched from the edge of the main court, pleased to see that the friendship had produced something hospitable. It had begun with a simple request to be friends with a magnificent lion. It had grown into a shared interest, then a room, then a gathering where other people could discover their own ways of enjoying strength and appearance.
+
+During the afternoon, the Lion gave a short address. He did not use the occasion to announce himself as the greatest figure in the forest, although Zeus later complained that he had missed an opportunity. Instead, the Lion spoke about the pleasure of finding someone who understood an enthusiasm without requiring it to be explained away. He spoke about admiration as a generous act, about the value of being able to say what one finds beautiful, and about the importance of remembering that every impressive body belongs to a person with a life beyond the mirror.
+
+He ended by inviting everyone to the western room for the next day's open session. There would be no formal program. People could bring sketches, questions, training notes, favorite references, or simply themselves. The Lion promised food. This was the announcement that received the strongest response.
+
+### Chapter Six: What the Lion Understands
+
+That evening, after the festival had quieted, the Lion and his friend sat together beneath the western trees. The residence glowed behind them. From the gymnasium came the last sounds of the day: a door closing, equipment being put away, a few people laughing as they left. The forest was darkening, and the upper windows had begun to shine between the trunks.
+
+The Lion was thoughtful. He had been thinking about the word *fetish*, about the way a particular fascination can become a source of pleasure, identity, play, and connection. He did not want to make the friendship smaller by pretending that its physical enthusiasm was incidental. It was a genuine part of what brought them together. They liked strength. They liked muscular development. They liked the visual and tactile imagination of powerful forms, the drama of scale, the discipline of training, and the delight of seeing someone become more fully themselves. There was no need to deny that intensity.
+
+But he also understood that the friendship had grown beyond the first spark. It now included ordinary visits, meals, jokes, projects, quiet afternoons, and the steady comfort of being expected. He knew how his friend liked to enter the gym. He knew which subjects could keep them talking long after the training session had ended. He knew when to tease and when to listen. His friend knew that the Lion could be vain about his mane, serious about his equipment, unexpectedly sentimental about old portraits, and entirely unwilling to let Zeus control the dinner conversation.
+
+“I think,” the Lion said, “that we have found a very good arrangement. We can enjoy what we enjoy. We can be enthusiastic about it. We can admire the work and the bodies and the whole extraordinary business of becoming stronger. And we can also be friends when none of that is happening. Especially then, perhaps. I want you here when I am not posing in front of a mirror. I want you here when I am tired, when the plans are going badly, when Hephaestus tells me that my latest idea requires another foundation, and when the kitchen has made too much dinner again.”
+
+He turned toward his friend, his expression open beneath the great mane.
+
+“You are not required to be impressed every minute. You are allowed to disagree with me. You are allowed to have your own tastes and your own ambitions. I will still show you the new training frame, because I am very proud of it, and I will still ask what you think of my shoulders, because I happen to like your opinion. But I want the whole friendship. The jokes, the ordinary days, the discoveries, the growth, and the feeling that we can keep returning to one another without having to begin again from the beginning.”
+
+His friend understood. The Lion did not need an audience that never left. He wanted a companion who came back because the friendship itself had become something worth returning to.
+
+### Chapter Seven: The Next Becoming
+
+In the months that followed, the western room became one of the most frequently used places in the Redwood Quarter. The journal grew thick. Its pages held drawings of equipment, notes on training methods, portraits of friends, observations about changing physiques, and passages about the emotional experience of being seen. Some entries were technical; others were funny; a few were little records of ordinary afternoons that neither friend wanted to forget. They began a sequence of paired portraits, not to make the two of them look alike, but to show how distinct people could share an enthusiasm without surrendering their individuality.
+
+The Lion's own development continued. He experimented with different training structures, adjusted his routines, and worked with Hephaestus on equipment that allowed more precise movement. His appearance remained recognizably his own: the golden coat, expressive lion face, magnificent mane, and powerful proportions. Yet the portraits began to show more of his range. There was the proud Lion in the main hall, the laughing Lion in the garden, the concentrated Lion at the training frame, and the relaxed Lion sitting beside his friend with one arm resting along the back of the cedar bench. The archive no longer recorded only how enormous he was. It recorded how he lived.
+
+His friend also changed through the friendship, though not according to a schedule imposed by the Lion. They developed their own interests, preferences, and routines. The Lion encouraged them without trying to make them into a smaller copy of himself. When they disagreed about an exercise, he listened. When they brought a new reference, he studied it. When they wanted to spend an afternoon doing something unrelated to training, he came along. Their shared fascination remained vivid, but it did not have to occupy every hour to remain important.
+
+The Lion eventually commissioned a small plaque for the western room. Hephaestus made it from bronze and fixed it beside the window. It did not list achievements or measurements. It carried a simple inscription:
+
+**A FRIEND IS MORE THAN AN ADMIRER.  
+A BODY IS MORE THAN AN IMAGE.  
+BECOMING IS BETTER WHEN SHARED.**
+
+The Lion liked to read it whenever he entered the room. He liked the fact that it did not ask him to become less magnificent. It simply reminded him what magnificence was for: not isolation, not endless display, but the pleasure of having a life large enough to include other people.
+
+And so the friendship continued. There were more training afternoons, more dinners, more arguments about equipment, more visits from Marcus and the others, more portraits, and more plans that Hephaestus would have to make structurally possible. The Lion remained pleased with his own strength and increasingly pleased with the company in which he could enjoy it. His friend remained welcome at the western door, in the gymnasium, at the table, and in the quiet room beneath the redwoods.
+
+The Lion did not consider the friendship complete. He considered it established.
+
+There would be another season of training, another exhibition, another set of portraits, another room to build, and another conversation that began with a detail of muscle and somehow ended with the future of the whole world. That was the nature of their companionship: a particular fascination opening into a much larger life.
+
+The Lion looked forward to all of it.

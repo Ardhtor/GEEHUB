@@ -142,7 +142,13 @@ weighted local affine field. It retains the same vertex and triangle identities
 across frames and blocks foldovers, out-of-frame vertices, and destination
 triangles that cross the protected face mask before passing a ready plan to the
 Canvas warp. The face pixels remain a separate protected layer; the worker does
-not move them. This is a first deformation slice, not a complete compositor:
+not move them. The new `pixel-frame-renderer.js` CPU path rasterizes a ready
+deformation plan into a transparent RGBA body layer using the exact frame's
+body and protected-face masks, inverse-triangle sampling, and bilinear
+premultiplied-alpha interpolation. It leaves the source buffer untouched and
+returns a pixel-coverage mask; it does not yet encode PNGs, reconstruct the
+background, or composite a complete frame. This is a first deformation slice,
+not a complete compositor:
 semantic correctness of upstream masks, perceptual jitter thresholds, clothing/depth
 response, and local source-footage rendering remain unverified. The sequence worker
 now measures per-vertex deformation velocity and acceleration against body height

@@ -136,7 +136,7 @@ test("refuses folded geometry and mismatched frame identities", () => {
     plan: makePlan(triangle),
     bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: makeFaceMask(8, 8, 11)
-  }), error => error.code === "pixel-frame-face-mask-invalid");
+  }), error => error.code === "pixel-frame-mask-invalid");
 });
 
 test("requires a complete RGBA source and a non-empty binary face mask", () => {
@@ -154,7 +154,7 @@ test("requires a complete RGBA source and a non-empty binary face mask", () => {
     plan,
     bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: makeFaceMask(8, 8, 12, [])
-  }), error => error.code === "pixel-frame-face-mask-empty");
+  }), error => error.code === "pixel-frame-mask-empty");
 
   const softMask = makeFaceMask(8, 8);
   softMask.pixels[0] = 128;
@@ -163,7 +163,7 @@ test("requires a complete RGBA source and a non-empty binary face mask", () => {
     plan,
     bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: softMask
-  }), error => error.code === "pixel-frame-face-mask-not-binary");
+  }), error => error.code === "pixel-frame-mask-not-binary");
 });
 
 test("refuses mesh vertices outside the source frame", () => {
@@ -179,4 +179,24 @@ test("refuses mesh vertices outside the source frame", () => {
     bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: makeFaceMask(8, 8)
   }), error => error.code === "pixel-frame-mesh-out-of-bounds");
+});
+
+test("refuses overlapping masks and body triangles that cross background pixels", () => {
+  const sourceFrame = makeFrame(8, 8);
+  const overlappingBody = makeBodyMask(8, 8);
+  overlappingBody.pixels[7 * 8 + 7] = 255;
+  assert.throws(() => renderGrowthDeformationPixels({
+    sourceFrame,
+    plan: makePlan(triangle),
+    bodyMask: overlappingBody,
+    protectedFaceMask: makeFaceMask(8, 8)
+  }), error => error.code === "pixel-frame-mask-overlap");
+
+  const bodyWithHole = makeBodyMask(8, 8, 12, [[3, 2], [7, 7]]);
+  assert.throws(() => renderGrowthDeformationPixels({
+    sourceFrame,
+    plan: makePlan(triangle),
+    bodyMask: bodyWithHole,
+    protectedFaceMask: makeFaceMask(8, 8)
+  }), error => error.code === "pixel-frame-source-triangle-outside-body");
 });

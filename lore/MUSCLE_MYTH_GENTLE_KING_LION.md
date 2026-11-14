@@ -4,6 +4,16 @@
 
 Status: active canon and continuing novel. The source artwork, its interpretation, and all later narrative developments remain distinct and traceable.
 
+## Visual authority — the artwork governs
+
+The original artwork is the controlling visual source for the Golden Lion. Faithfulness to that image is the aim, not loose inspiration from it. The written interpretation, this novel, character prose, later portraits, generated studies, and three-dimensional assets are secondary records and must not redesign the source.
+
+Preserve the image's actual silhouette, head and face, mane, proportions, posture, expression, scale relationship to the foreground figure, placement in the composition, golden colour, burgundy setting, symmetry, contrast, and overall visual character as they are visibly established by the artwork. Do not normalise the figure into an anatomically ordinary lion; do not replace the particular form with a generic muscular humanoid, mascot, or bodybuilding archetype; do not alter the pose, relative scale, or compositional balance for convenience. Do not invent precise anatomical features that the image does not establish. Where the source is ambiguous, retain the ambiguity rather than resolving it through an unmarked redesign.
+
+Every later depiction is a derivative: it may translate the source into another medium or show a new view only where that view can be reconciled with the original. Studies and deliberate variations must be labelled as such and must never silently replace the source. When the original image is not available for direct comparison, follow only the recorded observations and mark uncertain visual details as unverified. The source artwork's binary is not currently verified in this repository; the text record does not claim to be a substitute for that file.
+
+**Priority rule:** if a new sentence, scene, model, portrait, or production idea conflicts with what the original artwork visibly shows, revise the new material. Do not revise the image in order to preserve the prose.
+
 The artwork was read as the Golden Lion: an enormous golden lion-like presence, occupying the background with a scale that dwarfs the central figure. Its composition is deliberately excessive: strong symmetry, warm gold against deep burgundy, and an almost impossible contrast between the lion's magnificence and the smaller figure before it. The design is not required to obey anatomical realism. Its governing standard is that the form should be pleasing to the eye, coherent in silhouette, and powerful in its visual presence.
 
 The user's informal name for this figure is **the long-donged lion**. The phrase belongs to the artwork's exuberant, exaggerated register; it should not be flattened into a zoological study or treated as a demand for literal realism. Its interpretive title is **the Gentle King Lion**. Its primary GEEHUB name is **the Golden Lion**.

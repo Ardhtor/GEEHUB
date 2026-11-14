@@ -26,6 +26,14 @@ The bridge reads the current repository records:
 
 The importer accepts the standard ChatGPT data-export conversations.json structure, including conversation mapping records, and a simpler messages array form. It retains conversation identity, timestamps, roles, message IDs, attachment metadata, and short excerpts from relevant passages. It does not pretend that an attachment pointer is the same as an accessible image file.
 
+## Index-first operating default
+
+**Default rule: check synced files before interpreting, answering, or changing GEEHUB.** At the start of each GEEHUB work session, refresh the repository index and inspect the relevant current files rather than relying on remembered excerpts, prior chat summaries, or stale local snapshots. For a specific character, artwork, chapter, relationship, project, or system, follow its indexed links to the source record, related canon, asset/provenance entry, and any connected conversation signal. Treat the newest verified repository content as the current project state; preserve older versions as lineage rather than silently overwriting them.
+
+The required sequence is: **REFRESH INDEX → IDENTIFY RELEVANT RECORDS → READ CONNECTED SOURCES → RECONCILE WITH THE CURRENT REQUEST → WRITE → FETCH AGAIN TO VERIFY.** If a source is unavailable, stale, or not actually synced, state that boundary and do not describe it as checked. A successful repository index refresh verifies only the public/repository records it loads; it does not imply that private ChatGPT history, the photo library, local files, or Dropbox have synced.
+
+The Memory Bridge already runs `refresh()` automatically when the page opens and exposes a manual refresh control. Keep that behavior as the interface default. Imports and edits should build on the refreshed graph, and a write is not considered complete until the affected files have been fetched again and checked.
+
 ## Graph model
 
 The exported graph uses stable node IDs and explicit directed edges. Node families include conversation, chat-signal, chat-attachment, asset, artifact, visual-source, project, world, event, and source-path.

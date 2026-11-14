@@ -11688,6 +11688,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000272",
+      "created_at": "2026-11-14T18:38:31.795626+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "NORTHGATE LIBRARY",
+      "content": "NICK: The world crosses the route from THE COMMON TABLE into NORTHGATE LIBRARY. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: An oak-galleried university library with reading rooms, archives, editing suites, sound collections and late-night study. Relation carried forward: CAMPUS AFTER HOURS.",
+      "lineage": {
+        "event_id": "world-pulse-000272",
+        "event": {
+          "id": "world-pulse-000272",
+          "pulse": 272,
+          "time": "2026-11-14T18:38:31.795626+00:00",
+          "actor": "JOSEPH",
+          "world": "NORTHGATE LIBRARY",
+          "region_id": "northgate-library",
+          "previous_region_id": "common-table",
+          "phase": "CROSSING",
+          "source": "worlds/northgate-library/README.md",
+          "desire_state": "continuity",
+          "action": "NICK: The world crosses the route from THE COMMON TABLE into NORTHGATE LIBRARY. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: An oak-galleried university library with reading rooms, archives, editing suites, sound collections and late-night study. Relation carried forward: CAMPUS AFTER HOURS.",
+          "narrative_rule": "meaningful change becomes an outward-facing signal",
+          "relation": "CAMPUS AFTER HOURS",
+          "next_region": null,
+          "pressure": 0.88,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-14T18:38:31.795626+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000272",
+      "created_at": "2026-11-14T18:38:31.795626+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "CROSSING / NORTHGATE LIBRARY / worlds/northgate-library/README.md",
+      "content": "NICK: The world crosses the route from THE COMMON TABLE into NORTHGATE LIBRARY. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: An oak-galleried university library with reading rooms, archives, editing suites, sound collections and late-night study. Relation carried forward: CAMPUS AFTER HOURS.",
+      "production_note": "The world resolved its crossing rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 272,
+        "actor": "JOSEPH",
+        "world": "NORTHGATE LIBRARY",
+        "region_id": "northgate-library",
+        "source": "worlds/northgate-library/README.md",
+        "phase": "CROSSING",
+        "relation": "CAMPUS AFTER HOURS"
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00103",
+      "created_at": "2026-11-14T18:38:31.844005+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE NORTHGATE MATCH",
+      "content": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
+      "lineage": {
+        "event_id": "northgate-campus-00103",
+        "event": {
+          "id": "northgate-campus-00103",
+          "cycle": 103,
+          "world_pulse": 272,
+          "at": "2026-11-14T18:38:31.844005+00:00",
+          "region": "northgate-university",
+          "title": "THE NORTHGATE MATCH",
+          "kind": "sport",
+          "participants": [
+            "Noah Bell",
+            "Adrian Varga",
+            "Dan Roman"
+          ],
+          "description": "Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-14T18:38:31.844005+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "pulse": 271,
+  "pulse": 272,
   "events": [
     {
       "pulse": 1,
@@ -4979,6 +4979,28 @@
       "occurred_at": "2026-11-14T16:57:41.446602+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000272",
+      "pulse": 272,
+      "time": "2026-11-14T18:38:31.795626+00:00",
+      "actor": "JOSEPH",
+      "world": "NORTHGATE LIBRARY",
+      "region_id": "northgate-library",
+      "previous_region_id": "common-table",
+      "phase": "CROSSING",
+      "source": "worlds/northgate-library/README.md",
+      "desire_state": "continuity",
+      "action": "NICK: The world crosses the route from THE COMMON TABLE into NORTHGATE LIBRARY. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: An oak-galleried university library with reading rooms, archives, editing suites, sound collections and late-night study. Relation carried forward: CAMPUS AFTER HOURS.",
+      "narrative_rule": "meaningful change becomes an outward-facing signal",
+      "relation": "CAMPUS AFTER HOURS",
+      "next_region": null,
+      "pressure": 0.88,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-14T18:38:31.795626+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -5002,7 +5024,7 @@
     "northgate-university": 9,
     "bluewater-quay": 5,
     "lantern-market": 6,
-    "northgate-library": 4,
+    "northgate-library": 5,
     "athletic-commons": 4
   },
   "last_visits": {
@@ -5026,10 +5048,10 @@
     "northgate-university": 264.5,
     "bluewater-quay": 255,
     "lantern-market": 257.5,
-    "northgate-library": 259.5,
+    "northgate-library": 272,
     "athletic-commons": 263.5
   },
-  "pressure": 1.0,
+  "pressure": 0.88,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -5050,22 +5072,17 @@
     "worlds/northgate-university/README.md": 19,
     "worlds/bluewater-quay/README.md": 12,
     "worlds/lantern-market/README.md": 9,
-    "worlds/northgate-library/README.md": 11,
+    "worlds/northgate-library/README.md": 12,
     "worlds/athletic-commons/README.md": 7
   },
-  "next_region": "northgate-library",
-  "phase": 3,
-  "active_region": "common-table",
-  "current_phase": "ROUTE_OPEN",
-  "current_desire_state": "tension",
-  "current_question": "Which existing relation now becomes traversable?",
-  "current_narrative_rule": "arrival activates aftermath",
-  "next_relation": {
-    "title": "CAMPUS AFTER HOURS",
-    "text": "Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening.",
-    "from": "northgate-library",
-    "to": "common-table"
-  },
+  "next_region": null,
+  "phase": 0,
+  "active_region": "northgate-library",
+  "current_phase": "CROSSING",
+  "current_desire_state": "continuity",
+  "current_question": "What can change without erasing where it came from?",
+  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "next_relation": null,
   "long_play": {
     "cycle": 204,
     "agent": "joseph",

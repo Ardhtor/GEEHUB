@@ -23,7 +23,7 @@ footer{padding:18px 4px;color:var(--muted);font-size:11px}
 @media(max-width:1050px){.grid{grid-template-columns:1fr 1fr}.detail-panel{grid-column:1/-1}.panel-body{max-height:56vh}}
 @media(max-width:650px){.grid{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,1fr)}.panel-body{max-height:50vh}.detail-panel{grid-column:auto}}
 </style></head><body>
-<header><div><div class="brand">GEEHUB / TRACTUS / MEMORY BRIDGE</div><h1>Conversation becomes world memory.</h1><div class="sub">A local-first bridge between chat signals, visual evidence, characters, places, and production assets.</div></div><a href="index.html">RETURN TO HUB ↗</a></header>
+<header><div><div class="brand">GEEHUB / TRACTUS / MEMORY BRIDGE</div><h1>Conversation becomes world memory.</h1><div class="sub">Index-first by default: refresh synced repository records before reading, answering, or changing world memory.</div></div><a href="index.html">RETURN TO HUB ↗</a></header>
 <main>
 <section class="toolbar">
  <label>IMPORT CHATGPT EXPORT <input id="chatFile" type="file" accept=".json,application/json"></label>
@@ -32,7 +32,7 @@ footer{padding:18px 4px;color:var(--muted);font-size:11px}
  <label class="check"><input id="includeSuggestions" type="checkbox" checked> include unreviewed links</label>
  <label class="check"><input id="includeFullText" type="checkbox"> include full message text</label>
 </section>
-<div id="status" class="status">Loading repository memory…</div>
+<div id="status" class="status">AUTO-INDEX ON OPEN · Checking synced GEEHUB records…</div>
 <section class="metrics">
  <div class="metric"><b id="conversationCount">0</b><span>CONVERSATIONS</span></div><div class="metric"><b id="signalCount">0</b><span>CHAT SIGNALS</span></div>
  <div class="metric"><b id="assetCount">0</b><span>WORLD / VISUAL NODES</span></div><div class="metric"><b id="suggestionCount">0</b><span>LINKS TO REVIEW</span></div>
@@ -134,7 +134,7 @@ function download(name,data){const url=URL.createObjectURL(new Blob([data],{type
 async function refresh(){
  status("Reading GEEHUB source records…");
  try{const next=await loadRepositoryMemory();graph=mergeMemoryGraphs(next,graph);selectedId=nodes().some(n=>n.id===selectedId)?selectedId:null;render();
-  status("World index loaded: "+nodes().length+" nodes, "+edges().length+" links. ChatGPT history is not automatically accessible; import an export to connect it.");
+  status("AUTO-INDEX COMPLETE · "+nodes().length+" nodes, "+edges().length+" links loaded from synced repository records. Private ChatGPT history and photo-library files are not automatically accessible; import an export to connect them.");
  }catch(error){status("Repository index could not load: "+error.message+". Open this page through GitHub Pages or a local web server.");}
 }
 $("refresh").addEventListener("click",refresh);

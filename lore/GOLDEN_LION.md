@@ -277,3 +277,121 @@ Later, the friend would remember that moment not as an instruction but as an exp
 And the Lion, who had once thought his greatest achievement would be to build a residence large enough for his body, began to understand that the more important construction was happening in the lives of the people who passed through it. He could build rooms, gyms, galleries, gardens, and observatories. He could make the world beautiful enough to invite people in. But if someone left his company feeling more able to inhabit his own life, then the house had done something greater than stand among the redwoods.
 
 He kept the western room warm, the journal open, and the door unlatched. He continued to train, to admire, to laugh, to grow, and to look forward to the familiar sound of his friend's arrival. He hoped the friendship would keep affecting them both—not by making either one dependent on the other, but by making each more fully present wherever life took him.
+
+
+# The Human Season
+## A Book of the Golden Lion Becoming a Man
+
+### I. The Wish Beneath the Mane
+
+The idea began in the Recognition Chamber, on an afternoon when the rain had stopped and the whole Redwood Quarter smelled of wet bark. The Lion was standing before the First Recognition, looking at the familiar image of himself: the great golden lion-headed figure, magnificent and almost impossibly large, with his friend below him in the foreground. He had always loved that picture. It had given him a face, a presence, and a place in the world. It had also made him wonder about something he had never seriously attempted.
+
+“What would I look like,” he asked, “if I were human?”
+
+His friend looked at him. The Lion turned from the portrait, and for once his expression held more curiosity than vanity. He was not asking whether he could become more handsome, or whether a human body would be more impressive than his present one. He was asking what would remain of him if the most immediately recognizable part of his appearance changed. Would the humor survive? Would the warmth in his eyes still be there? Would he still feel like the same person when he looked into a mirror and saw a human face looking back?
+
+Hephaestus, summoned to consider the matter, listened without interrupting. Then he said that transformation was not the same as replacement. If they attempted it, the work would have to preserve the Lion's continuity: his temperament, his memory, his characteristic expression, his way of moving through a room, and the unmistakable golden quality that belonged to him. The body could change without the person being discarded. The old form would remain part of his history, and the new one would become another way of inhabiting it.
+
+The Lion considered this. He looked again at the portrait, then at his friend. “I would like to try,” he said. “Not because I am tired of being a lion. I am very fond of being a lion. But I want to know what it is like to sit beside you without the whole room having to be built around my shoulders. I want to walk through the market at an ordinary height. I want to find out whether I can still make you laugh when I am not looming over the furniture.”
+
+His friend smiled. The Lion's ears lifted. “And I should like to see what becomes of my mane,” he added. “I am not surrendering all my good features.”
+
+### II. The Workshop of Becoming
+
+Hephaestus prepared the transformation in the bronze workshop beneath the western terrace. He did not approach it as a trick or a costume. He built a chamber of warm stone, cedar, bronze, and carefully arranged mirrors, with a wide central platform and a series of instruments designed to record the Lion's form before, during, and after the change. The First Recognition was brought into the room temporarily, not as a model to be copied, but as a witness to the continuity they meant to protect.
+
+The Lion arrived with his friend. He was in excellent spirits and had brought breakfast for everyone, despite Hephaestus explaining that the process would not be improved by a large meal immediately beforehand. The Lion had replied that he preferred to begin important undertakings properly fed. He had also spent an unreasonable amount of time arranging his mane. If he was going to emerge in a new form, he intended to look presentable in the transition.
+
+The work began with light gathering around his outline. The great mane moved as though stirred by a wind that came from within the chamber. His golden coat softened into human skin, warm and richly colored, while the broad planes of his face drew inward and changed. The muzzle receded; the nose, mouth, and jaw took human shape. His eyes remained unmistakably his: bright, attentive, amused, and capable of an expression of profound affection that his friends recognized at once. The mane did not vanish. It became a remarkable fall of thick golden hair, still abundant, still framing his face, with a slight natural wave and a tendency to become gloriously untidy whenever he laughed.
+
+His body changed with equal care. The immense lion anatomy became a human physique of extraordinary muscular development: broad shoulders, a deep chest, a powerful back, strong arms, a solid waist, and legs built with the same sense of proportion and grounded strength. He remained tall and imposing, though no longer a being whose every doorway required an architectural consultation. His hands were human hands, large and expressive, with strong fingers that he immediately turned over to inspect. His feet touched the workshop floor. He looked down at them, took one tentative step, and laughed.
+
+“Oh,” he said. His voice was still his own, though now carried through a human throat. “That is different.”
+
+He took another step. Then another. He rolled his shoulders, opened and closed his hands, and looked at his reflection. A handsome, powerfully built human man stood before him, golden-haired, broad, and unmistakably pleased with the result. The Lion leaned closer to the mirror. He examined his face, raised his eyebrows, smiled, and watched the smile return.
+
+“Well,” he said. “There I am.”
+
+His friend had been watching with an intensity that made the Lion turn away from the mirror. For a moment he simply looked at him. The transformation had made him more familiar in scale and more unfamiliar in appearance, but the expression was the same. The Lion's delight, his pride, and his unmistakable affection had survived intact.
+
+“Come here,” he said.
+
+His friend approached. The Lion placed both hands gently on his shoulders and looked at him from this new height. He was still taller, still strongly built, but the difference between them had become something they could negotiate without craning their necks or arranging the entire room around a monumental figure. The Lion smiled, and the smile was so familiar that his friend began to laugh.
+
+“I know,” the Lion said. “I look different. But I am still the fellow who keeps too much food in the kitchen and thinks every room needs another window.”
+
+### III. A Face at Eye Level
+
+The first afternoon in human form was devoted to ordinary things. The Lion wanted to walk through the residence without causing a small architectural event. He wanted to open a door himself, carry a cup without requiring a specially designed vessel, and sit in a chair that had not been reinforced for a titan. He discovered that he could do all these things, although he remained inclined to choose the largest chair available.
+
+He and his friend walked from the workshop into the western room. The Lion paused at the threshold. For years he had entered that room as a vast golden presence, his mane and shoulders filling the doorway. Now he could step through without turning sideways. He looked back at the doorframe, then at his friend.
+
+“An extraordinary development,” he said. “I shall have to find another way to inconvenience Hephaestus.”
+
+They sat together by the window. The Lion was fascinated by the small adjustments of human scale. The cup fitted his hand. The table no longer seemed like a piece of furniture designed for a dollhouse. He could rest his elbows on it, turn the pages of the journal, and look directly across at his friend. He found the last of these changes unexpectedly moving. Their conversations had always been close, but now he could see every small shift in expression without looking down from a great height. He could meet his friend's eyes as an ordinary man might.
+
+He asked whether the new face seemed like him. His friend studied it carefully. The broad human features, the golden hair, the strong jaw, and the lively eyes all seemed to belong together. Yet what made the likeness convincing was not any single feature. It was the way he smiled before making a joke, the way his brow gathered when he was listening, and the way his whole face brightened when someone praised something he had worked hard to develop.
+
+The Lion listened to the answer with unusual seriousness. Then he grinned. “Good. I should hate to have gone through all that trouble and come out looking like someone else.”
+
+### IV. The First Walk Through Town
+
+The next morning he insisted on visiting the lower market. He wore simple clothes chosen for comfort: a well-cut shirt, trousers, and sturdy boots. He was still conspicuously muscular, and his golden hair made him easy to notice, but he could move among the residents without the procession that usually accompanied his appearance. He and his friend walked beneath the redwoods, passed the bakery, crossed the little bridge over Neptune's channel, and stopped at a stall selling fruit and warm pastries.
+
+The Lion greeted the vendor by name. The vendor looked at him for a moment, then laughed in recognition. The Lion was delighted. He had wondered whether people would recognize him, and the answer came not from his old silhouette but from the way he spoke, the expression he wore, and the cheerful confidence with which he asked what had come out of the oven.
+
+He bought far too much food. This, too, was continuity.
+
+They walked through the market slowly. The Lion was interested in the ordinary details he had previously overlooked: the height of the counters, the arrangement of the stalls, the sound of conversations at close range, the ease of standing beside his friend in a crowd. He liked being able to browse without everyone having to stop what they were doing. He liked being a person among people. He was still recognized, but recognition now arrived as a greeting rather than an announcement.
+
+At a small outdoor table, he sat opposite his friend and tried a pastry. He closed his eyes for a moment, considering it with exaggerated care.
+
+“Excellent,” he declared. “The human form has many advantages. This may be the most important.”
+
+His friend laughed. The Lion looked pleased, then pushed the remaining pastries toward him. The pleasure of sharing them seemed to matter more than the food itself.
+
+### V. The Human Gymnasium
+
+The Great Golden Gymnasium had to learn him again. Hephaestus adjusted the equipment, removed several titan-scale supports, and brought out a new set of human-sized training frames. The Lion entered wearing a sleeveless training shirt and looked around with the alert interest of someone discovering a familiar place from a new angle. His physique remained extraordinary, but the proportions and mechanics were now those of a human athlete. He wanted to understand how his strength translated, how his balance had changed, and what the new form could learn.
+
+He approached the mirror with the same unabashed pleasure as before. The golden mane was now thick human hair, falling around his face and brushing his shoulders. His chest and arms were powerfully developed, his posture confident, and his expression unmistakably delighted. He turned slightly, examined his reflection, and gave a small approving nod.
+
+“I remain very handsome,” he said.
+
+Hephaestus, who had been adjusting a bench, replied that this had not been one of the uncertain outcomes.
+
+The Lion laughed. He trained carefully, learning the new balance of his body and the different demands of human movement. His friend stayed nearby. They discussed the change in silhouette, the way his shoulders now met his neck, the movement of his arms, and the different character of his stance. The Lion welcomed the attention, but he was more interested in the experience than in a simple verdict. He wanted to know what it felt like to move, to lift, to tire, and to recover in this form.
+
+When the session ended, he sat beside his friend, flushed with exertion and pleased with the work. He no longer needed a specially constructed platform to rest. Their shoulders touched. The Lion looked down at the contact, then at his friend.
+
+“I like this,” he said. “I like being able to share the bench without requiring a building permit.”
+
+### VI. What Remains
+
+The human season did not erase the Golden Lion. The Recognition Chamber kept the original portrait in its place, and a new portrait was commissioned beside it. The two images were displayed together: the golden lion-headed titan and the golden-haired human man. The artist was instructed to preserve the same essential expression. In both portraits, the Lion looked as though he had just noticed a friend entering the room and was about to greet him.
+
+The archive recorded the transformation as a genuine development, not a disguise. The Lion could return to his original form whenever he wished. He could also remain human for as long as he wanted. The change was not a test he had to pass, nor a final decision that would close the door behind him. He had gained another way of being himself.
+
+His friend became part of the transition in a way neither had anticipated. The Lion asked him to help choose the human portrait's clothes, to compare sketches, and to decide which expression best captured the new face. He wanted his friend to see him not only as the magnificent figure of the founding image, but as this new man who could sit across from him, walk beside him, and share the ordinary scale of a room. The friend was not asked to prefer one form over the other. The Lion wanted to be recognized in both.
+
+One evening they returned to the Recognition Chamber after the portraits had been hung. The Lion stood between them. His old image looked down from the wall, and the new one met the room at human height. He studied them, then glanced at his friend.
+
+“I think I understand something now,” he said. “I thought becoming human might tell me whether I was more than my appearance. But it turns out I was more than my appearance all along. The change has simply given us another way to discover it.”
+
+He took his friend's hand. His own was warm, broad, and unmistakably human. There was no grand declaration, no attempt to make the moment larger than it needed to be. He stood beside his friend, golden hair catching the amber light, and looked at the two portraits with quiet satisfaction.
+
+“Tomorrow,” he said, “I want to go into town again. Then perhaps we can train. And after that I should like to sit in the garden and do absolutely nothing for an hour. I have become a human man, and I intend to make a very good job of it.”
+
+He paused, smiled, and added, “But I am keeping the mane.”
+
+### VII. The Man Who Still Leaves the Door Open
+
+In the days that followed, the Lion discovered that humanity was made of small freedoms as much as grand transformations. He could sit beside his friend at breakfast, walk shoulder to shoulder through the gardens, borrow a book from the upper gallery, and enter the workshop without making the builders stop their work. He could be physically impressive without being architecturally overwhelming. He could be recognized by his face, his voice, and his habits. The household learned the new form quickly. The cooks still prepared too much food. Zeus still complained that the Lion had become easier to interrupt. Neptune invited him to walk beside the water. Marcus wanted to compare training notes. Hephaestus was already planning a second round of refinements, although the Lion warned him not to make the human gymnasium too comfortable or he would never leave.
+
+Most important, the Lion remained attentive to his friend. He did not assume that the transformation would automatically affect him in one particular way. He asked what felt different, what seemed familiar, what the friend liked, and what he wanted to keep from the earlier life they had built together. Sometimes the friend was struck by the new intimacy of eye-level conversation. Sometimes he missed the theatrical scale of the old Lion. Sometimes he delighted in both at once. The Lion made room for all these responses. He did not need to be the only one deciding what the transformation meant.
+
+The human season became a book within the larger chronicle because it changed the shape of their days. It gave them new scenes, new habits, new visual references, and a new understanding of continuity. The Lion had not become ordinary. He had become human in his own extraordinary way: a powerful golden-haired man with a warm expression, a playful vanity, an appetite for life, and the same generous instinct to make room for his friend.
+
+At the western door, he now stood at a height from which he could greet his friend face to face. He opened it himself. The redwoods stood beyond him, immense and old, and the house behind him remained full of light. He smiled at the familiar arrival.
+
+“There you are,” he said. “Come in. I have been waiting to show you the new portrait. And there is still far too much breakfast.”

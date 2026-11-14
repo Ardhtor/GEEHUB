@@ -2069,3 +2069,11 @@ NICK: A detail returns in THE COMMON TABLE: A late arrival finds a place without
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/common-table/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 271 — ROUTE_OPEN / THE COMMON TABLE / 2026-11-14T16:57:41.446602+00:00
+
+SETH: A line becomes visible between THE COMMON TABLE and NORTHGATE LIBRARY. The archive names the relation "CAMPUS AFTER HOURS".
+
+NICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

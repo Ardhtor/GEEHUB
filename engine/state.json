@@ -1,5 +1,5 @@
 {
-  "pulse": 270,
+  "pulse": 271,
   "events": [
     {
       "pulse": 1,
@@ -4957,6 +4957,28 @@
       "occurred_at": "2026-11-14T16:53:43.782257+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000271",
+      "pulse": 271,
+      "time": "2026-11-14T16:57:41.446602+00:00",
+      "actor": "KIRK",
+      "world": "THE COMMON TABLE",
+      "region_id": "common-table",
+      "previous_region_id": "common-table",
+      "phase": "ROUTE_OPEN",
+      "source": "worlds/common-table/README.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between THE COMMON TABLE and NORTHGATE LIBRARY. The archive names the relation \"CAMPUS AFTER HOURS\".\n\nNICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "CAMPUS AFTER HOURS",
+      "next_region": "northgate-library",
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-14T16:57:41.446602+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -5021,7 +5043,7 @@
     "README.md": 10,
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 11,
-    "worlds/common-table/README.md": 12,
+    "worlds/common-table/README.md": 13,
     "worlds/cedar-house/README.md": 10,
     "worlds/cat-gardens/README.md": 13,
     "worlds/founders-dormitory/README.md": 8,
@@ -5031,14 +5053,19 @@
     "worlds/northgate-library/README.md": 11,
     "worlds/athletic-commons/README.md": 7
   },
-  "next_region": null,
-  "phase": 2,
+  "next_region": "northgate-library",
+  "phase": 3,
   "active_region": "common-table",
-  "current_phase": "MEMORY",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
-  "next_relation": null,
+  "current_phase": "ROUTE_OPEN",
+  "current_desire_state": "tension",
+  "current_question": "Which existing relation now becomes traversable?",
+  "current_narrative_rule": "arrival activates aftermath",
+  "next_relation": {
+    "title": "CAMPUS AFTER HOURS",
+    "text": "Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening.",
+    "from": "northgate-library",
+    "to": "common-table"
+  },
   "long_play": {
     "cycle": 204,
     "agent": "joseph",

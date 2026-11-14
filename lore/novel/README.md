@@ -10,7 +10,7 @@ This is the local navigation page for `lore/novel/`. The lists below link to imm
 
 - [`INDEX.json`](./INDEX.json)
 
-### MD (12)
+### MD (13)
 
 - [`THE_ARCHIVE_OPENS.md`](./THE_ARCHIVE_OPENS.md)
 - [`THE_BOOK_WITHOUT_AN_END.md`](./THE_BOOK_WITHOUT_AN_END.md)
@@ -23,4 +23,5 @@ This is the local navigation page for `lore/novel/`. The lists below link to imm
 - [`THE_MACHINE_DREAMS_IN_PUBLIC.md`](./THE_MACHINE_DREAMS_IN_PUBLIC.md)
 - [`THE_OBSERVATORY_AT_THE_EDGE_OF_HYPERSPACE.md`](./THE_OBSERVATORY_AT_THE_EDGE_OF_HYPERSPACE.md)
 - [`THE_PROCESSION_OF_MOON.md`](./THE_PROCESSION_OF_MOON.md)
+- [`THE_ROOM_BENEATH_THE_OBSERVATORY.md`](./THE_ROOM_BENEATH_THE_OBSERVATORY.md)
 - [`THE_ROOM_BENEATH_THE_ROOM.md`](./THE_ROOM_BENEATH_THE_ROOM.md)

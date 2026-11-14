@@ -83,3 +83,14 @@ For a fiction request, output the fiction first. For a build request, update the
 The fiction works if the reader can feel the buildup; track what changes in the body; recognise the same man; sense his growing presence in the space; experience the charged moment of witnessing; and carry the changed relationship into the next scene. If the passage can be replaced by a static image caption without losing its essential action, it is not finished.
 
 **Core rule: scratch the itch through the work itself. Make the body burgeon, make the man present, make the witness matter, and remember what happened.**
+
+
+## Ensemble relationships and witness bonds
+
+The witness relationship is not necessarily a single bond between one man and one viewer. In collective scenes, retain a network of relationships among the men. Record who is close to whom, which men are attracted to one another, where rivalry exists, who trusts whose account, who provides practical care, and which friendships predate the growth event. The central growing man must have distinct relationships with different men; the other men must also have relationships that do not depend on access to him.
+
+A growth scene should deepen a relationship through something observable: a man makes room for another, lends clothing, adjusts equipment, remembers a boundary, offers help without taking over, shares an honest measurement, challenges an exaggeration, or stays after the spectacle has ended. The physical transformation remains active, but the emotional centre follows the men and what they mean to one another.
+
+Do not confuse collective attention with collective intimacy. A room can become fascinated without becoming a family. Trust is earned at a slower pace through repeated conduct. Let one friendship develop over multiple encounters; let a rivalry persist while respect grows; let a romantic bond have its own tempo; let some men remain acquaintances. The scale echo can give them a shared bodily experience, but it cannot manufacture a shared history on its own.
+
+The continuity record should therefore include pairwise relationship deltas in addition to body-state changes: who moved closer or further apart, what was revealed, what promise or hurt remains open, and what action would naturally test or deepen the bond next.

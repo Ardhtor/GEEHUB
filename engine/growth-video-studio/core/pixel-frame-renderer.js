@@ -8,7 +8,7 @@
  */
 import { validateWarpMesh } from "./mesh-warp.js";
 
-const MAX_PIXELS = 64_000_000;
+const MAX_PIXELS = 12_000_000;
 const EPSILON = 1e-9;
 
 function fail(code, message) {
@@ -51,19 +51,36 @@ function triangleOverlapsMask(triangle, mask) {
   return false;
 }
 
-function validateFaceMask(mask, width, height, frame) {
+function validateMask(mask, label, width, height, frame) {
   if (!mask || mask.frame !== frame || mask.width !== width || mask.height !== height ||
       !(mask.pixels instanceof Uint8Array) || mask.pixels.length !== width * height) {
-    fail("pixel-frame-face-mask-invalid", "A decoded protected-face mask matching this source frame is required");
+    fail("pixel-frame-mask-invalid", "A decoded " + label + " mask matching this source frame is required");
   }
   let foreground = 0;
   for (const value of mask.pixels) {
     if (value !== 0 && value !== 255) {
-      fail("pixel-frame-face-mask-not-binary", "The protected-face mask must contain only 0 and 255");
+      fail("pixel-frame-mask-not-binary", "The " + label + " mask must contain only 0 and 255");
     }
     if (value === 255) foreground += 1;
   }
-  if (!foreground) fail("pixel-frame-face-mask-empty", "The protected-face mask cannot be empty");
+  if (!foreground) fail("pixel-frame-mask-empty", "The " + label + " mask cannot be empty");
+}
+
+function triangleLeavesBodyMask(triangle, mask) {
+  const area = signedArea(triangle);
+  const minX = Math.max(0, Math.ceil(Math.min(...triangle.map(point => point.x)) - 0.5));
+  const maxX = Math.min(mask.width - 1, Math.floor(Math.max(...triangle.map(point => point.x)) - 0.5));
+  const minY = Math.max(0, Math.ceil(Math.min(...triangle.map(point => point.y)) - 0.5));
+  const maxY = Math.min(mask.height - 1, Math.floor(Math.max(...triangle.map(point => point.y)) - 0.5));
+  let sampledPixels = 0;
+  for (let y = minY; y <= maxY; y += 1) {
+    for (let x = minX; x <= maxX; x += 1) {
+      if (!containsPixelCenter({ x: x + 0.5, y: y + 0.5 }, triangle, area)) continue;
+      sampledPixels += 1;
+      if (mask.pixels[y * mask.width + x] !== 255) return true;
+    }
+  }
+  return sampledPixels === 0;
 }
 
 function samplePremultipliedBilinear(frame, x, y, output, outputOffset) {
@@ -104,11 +121,12 @@ function samplePremultipliedBilinear(frame, x, y, output, outputOffset) {
  * Return a transparent RGBA body layer for one validated deformation plan.
  *
  * sourceFrame is { frame, width, height, data } with row-major RGBA bytes.
- * protectedFaceMask is the decoded binary mask for the same frame.
+ * bodyMask and protectedFaceMask are decoded binary masks for the same frame.
  */
 export function renderGrowthDeformationPixels({
   sourceFrame,
   plan,
+  bodyMask,
   protectedFaceMask
 } = {}) {
   if (!sourceFrame || !Number.isInteger(sourceFrame.frame) ||
@@ -124,7 +142,13 @@ export function renderGrowthDeformationPixels({
       plan.frame !== sourceFrame.frame) {
     fail("pixel-frame-plan-not-renderable", "A ready deformation plan for the exact source frame is required");
   }
-  validateFaceMask(protectedFaceMask, sourceFrame.width, sourceFrame.height, sourceFrame.frame);
+  validateMask(bodyMask, "body", sourceFrame.width, sourceFrame.height, sourceFrame.frame);
+  validateMask(protectedFaceMask, "protected-face", sourceFrame.width, sourceFrame.height, sourceFrame.frame);
+  for (let pixel = 0; pixel < bodyMask.pixels.length; pixel += 1) {
+    if (bodyMask.pixels[pixel] === 255 && protectedFaceMask.pixels[pixel] === 255) {
+      fail("pixel-frame-mask-overlap", "Body and protected-face masks overlap");
+    }
+  }
 
   const validation = validateWarpMesh(plan.sourcePoints, plan.targetPoints, plan.triangles);
   if (!validation.valid) {
@@ -153,6 +177,9 @@ export function renderGrowthDeformationPixels({
     const targetArea = signedArea(targetTriangle);
     if (sourceArea * targetArea <= 0) {
       fail("pixel-frame-mesh-foldover", "A destination triangle reverses or collapses its source orientation");
+    }
+    if (triangleLeavesBodyMask(sourceTriangle, bodyMask)) {
+      fail("pixel-frame-source-triangle-outside-body", "A source triangle samples outside body foreground");
     }
     if (triangleOverlapsMask(sourceTriangle, protectedFaceMask) ||
         triangleOverlapsMask(targetTriangle, protectedFaceMask)) {

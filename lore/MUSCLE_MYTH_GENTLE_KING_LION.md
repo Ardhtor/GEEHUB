@@ -281,6 +281,69 @@ That night, the Master and the lion walked once more through the western gallery
 The Master placed a hand against the lion's mane. The lion leaned into the touch, and for a moment the whole gallery seemed to hold its breath around them. Then the lion's purr began again, low and warm, and the court continued.
 
 
+## The Northern Table
+
+### XXII. The Invitation from the Stone Table
+
+The invitation arrived with the Office of Measure's next road register. It was addressed to the Master, with a second line written beneath his title: *and to the Golden Lion, whose attention at the old hollow has been entered into the survey record*. The Master read it at the long table while Hephaestus was adjusting the spring of the new pantry hinge. The letter came from the Nephilim elder who had remained after the last feast at the Stone Table. He remembered the old route described by the Master and wanted the surveyors' findings brought before the houses before anyone decided what should happen to it.
+
+The Golden Lion listened while the Master read the invitation aloud. Hephaestus set down his tool. The old route, he said, might be a feeder to the western shelf road, but the map would have to establish that before anyone treated the two as connected. The Master agreed. The invitation was not a request to endorse a building plan. It was an opportunity to compare records with the people who maintained the wider roads.
+
+They would travel together. The Master would bring the survey notes; the lion would attend as the person whose court stood beside the old route; Hephaestus would bring his drawings for the inspection gate and the repairable fittings. The lion looked at the maker and asked whether he was coming because the Stone Table had invited him or because he wanted to see what had become of the road. Hephaestus said that both were true, and that he was also coming because he had not yet finished arguing with the lion about the best way to make a hinge that could be repaired in winter.
+
+The lion gave a low rumble of amusement. The Master folded the letter and placed it in the travel book. The court would continue in their absence. The gardeners had the drainage schedule, the wheelwright had the new timber allocation, and the training-ground coach knew when the platform inspection was due. Nothing had to be suspended simply because the three of them were leaving.
+
+### XXIII. The Western Shelf
+
+They joined the road at the end of the orchard, where the old hollow path approached the newer route. The surveyors had marked the junction with a pair of blue stakes. Beyond them, the western shelf road climbed through the living valley, its retaining walls following the natural line of the slope. The Master recognised the rest court from the survey drawings. A cistern stood beneath the shelter, and the western rail carried the replacement fitting noted by the first traveller after the road's opening.
+
+The local guide was there with a basket of provisions. He recognised the Master from the notes and greeted the lion without ceremony, as if a great golden presence were an unusual but perfectly understandable guest on a road he had helped to map. He showed them the loose fitting that had been reported after the opening feast. It had been repaired, but the register retained the first note and the date of the correction. The lion paused to read it. The road had not become safe by being declared complete; it had become dependable through the habit of people reporting what they found and crews returning to attend to it.
+
+The old hollow route met the shelf road farther north than the first map had suggested. The surveyors had not drawn a continuous line between them because the bridge in the hollow remained closed. From the ridge, the party could see the bridge's pale parapet stones through the trees. The route was physically connected, but not yet serviceable. The distinction was plain even from a distance.
+
+Hephaestus studied the approach and asked the surveyor where the inspection crew would need to stand. The surveyor pointed to a narrow platform beside the eastern abutment. Hephaestus considered the stonework, then described a removable rail that could be fixed into existing sockets without loading the weakened parapet. He would not make the fittings until the bridge had been examined from below. The surveyor approved the sequence. The lion watched the two men exchange measurements, then turned toward the Master. Their journey had begun with an invitation, but already the old route had entered the same working record as the northern road.
+
+### XXIV. A Place at the Stone Table
+
+The Stone Table stood beneath its open roof, broad and dark against the afternoon light. Maps occupied the central channels; cups, field notes, and small tools had gathered along the lower ledge. The Nephilim elder was speaking with the younger builder from the western shelf project when the Master and his companions arrived. The elder came forward to greet them. His eyes rested on the lion for a moment, not in fear but in the careful recognition one gives to a presence whose scale changes the proportions of a room.
+
+The lion lowered his head so that the greeting could be exchanged without anyone having to shout upward. The elder welcomed him as a guest and asked whether he would take a place beside the Master. The lion accepted. No one proposed that he be entered into a house or given a rank among the brothers. The Stone Table had been built to receive distinct parties without making them identical, and the elder understood that a sovereign guest could contribute without being absorbed into the brotherhood.
+
+The Master laid out the old hollow survey. The younger builder recognised the western shelf marks and brought forward the road register. The two documents were compared carefully. The old route approached the living valley through a lower spur; it did not replace the completed road, nor did it duplicate the route already built. It could eventually provide a shorter connection from the orchard court to the northern settlements, but only if the bridge and the slope were found sound. The Office of Measure entered the connection as a proposed feeder route, with the bridge condition unresolved.
+
+A delegate from one of the houses asked whether the Golden Lion would guarantee the route's safety. The question was not hostile. The delegate had seen what the lion could do and wondered whether his strength might make the work easier. The lion answered that he could move fallen stone, clear a path, and carry materials, but he could not promise what lay beneath a bridge he had not inspected. The surveyors would have to establish that. The delegate nodded and withdrew the request from the table. The lion's answer did not diminish him. It made his strength available without turning it into a substitute for knowledge.
+
+Hephaestus then placed his proposed rail fitting beside the survey. He explained how it could be removed for repair and replaced without cutting into the old masonry. The younger builder asked whether the same principle could be used at the rest court's western rail. Hephaestus said it could, but the dimensions would differ. They began a drawing together. The Nephilim elder watched them for a while, then moved the map so that both could reach it.
+
+The meeting continued into the evening. The houses discussed the next winter assembly, the southern halls that had not yet answered, and the multi-house athletic festival. The lion listened more than he spoke. When the question of the festival arose, he asked whether the Open Field intended to invite guests from outside the brotherhood. The answer was that the invitation list had not been settled. The elder said the question should remain open until the houses had spoken with one another. The lion did not ask for a place in the programme. He was content to have made the question possible.
+
+### XXV. The Bridge Beneath the Leaves
+
+The following morning, the Office of Measure took the party to the old bridge. The inspection crew had already cleared a narrow line through the hollow, leaving the roots that held the bank undisturbed. They had lowered a lamp beneath the eastern arch and found that the lower stones were intact, though the central bed was obscured by silt. The bridge was not ready to carry carts or a crowd. It was, however, stable enough for a limited inspection from the marked platform.
+
+The Golden Lion remained on the firm ground while the surveyors descended. The Master stood with the local guide and kept the notes. Hephaestus examined the existing sockets where the old rail had once been fixed. One was sound; another had split through the outer stone. He marked the damaged point and set aside his proposed fitting. The design would need a new anchor that did not rely on the fractured socket.
+
+The younger builder joined them with a sketch of a temporary inspection frame. He had adapted the modular lifting frame used on the western shelf road, but reduced its span and altered the feet so that the load would rest on the stable approach rather than the bridge itself. Hephaestus studied the drawing and suggested a change to the locking pin. The builder tested the alteration with a small model. It held. The surveyor recorded the test as a prototype result, not as proof that the full frame was ready.
+
+The lion watched the work from above. At one point a stone loosened near the bank, and the crew stepped back. He moved closer, not to seize the bridge or hold it in place, but to make certain the path behind the workers remained clear. The stone settled into the soil without reaching them. The survey continued after the bank had been checked. No one congratulated the lion for doing what the moment required. The crew simply resumed its work, and the Master saw that the lion was pleased to be useful without becoming the centre of the event.
+
+By midday, the Office of Measure had a clear report: the old route connected to the western shelf road, the bridge remained closed to ordinary traffic, the inspection frame required another test, and the fractured anchor needed a separate repair design. The route could advance, but not yet open. The elder ordered the findings copied into the Stone Table record and sent to the houses whose roads would eventually connect with it.
+
+### XXVI. The Road Between Friends
+
+They returned to the court by the western shelf. The local guide travelled with them as far as the rest court, where he left a fresh note about the cistern cover. The Master entered it in the book. Hephaestus carried the revised anchor drawing beneath his arm. The lion walked beside the Master, his shoulder near enough that their steps fell into an easy rhythm.
+
+At the orchard gate, the Master asked Hephaestus whether he would stay for supper. The maker said that he had intended to return to the forge, but the anchor drawing could wait until morning. The lion turned toward him with an expression of unmistakable satisfaction. Hephaestus noticed and said that he was not agreeing merely because the lion had looked at him that way. The Master laughed. The lion's purr began before they reached the gallery.
+
+That evening the three of them ate at the long table with the gardeners, the wheelwright, and the coach from the Open Field. The Master described the Stone Table's decision. The old hollow route had been entered into the northern road register as a proposed feeder, and the bridge remained closed pending its repairs. The wheelwright asked whether the timber allocation would need to change. Hephaestus said that it might, but only after the anchor design had been tested. The coach wanted to know whether the route could be used for the festival. The lion answered that a road should not be included in a celebration until the people responsible for it could say it was ready.
+
+The conversation moved on to food, weather, and the young athlete's progress. The court had not become a branch of the Stone Table, and the Stone Table had not become an extension of the lion's household. They had exchanged a road, a report, a design, and an invitation to continue working together. That was enough to make the distance between them smaller without pretending it had disappeared.
+
+Later, when the Master and the lion walked through the western gallery, the lion paused at the open window. Beyond the orchard, the old hollow lay dark beneath the trees. Somewhere beyond it, the western shelf road climbed toward the northern halls. He could now picture the route as it was: not a vague line beneath the leaves, but a sequence of places, people, repairs, and decisions. The Master stood beside him. Their friendship had travelled with them and returned unchanged, but the world around it had grown.
+
+The lion rested his head near the Master's shoulder. Hephaestus's forge was still lit across the courtyard. Tomorrow there would be another drawing, another inspection, and perhaps another disagreement about a hinge. The Golden Lion listened to the familiar sounds of the court and felt, beneath them, the wider rhythm of the brotherhood continuing beyond the orchard.
+
+
 ## Provenance and custody
 
 This record captures a prior user-led artwork interpretation from August 2026. The source artwork's binary is not asserted to be stored in this repository. The interpretation is preserved as text; the original image remains a separate asset until its file is verifiably archived and linked. This follows GEEHUB's recognition–custody principle: an artwork can be meaningfully interpreted before its image file has entered durable custody.

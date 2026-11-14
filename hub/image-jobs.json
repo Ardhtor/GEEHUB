@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00202",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00202.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "FOUNDERS DORMITORY → CAT GARDENS / TYLER",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00202. Travel from FOUNDERS DORMITORY into CAT GARDENS through the relation \"THE DORM GARDEN PATH\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 15.33× to 15.38× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-14T02:42:20.986Z",
+      "lineage": {
+        "from": "founders-dormitory",
+        "to": "cat-gardens",
+        "relation": "THE DORM GARDEN PATH",
+        "cycle": 202
+      }
+    },
+    {
       "id": "scheduled-image-00201",
       "status": "QUEUED",
       "type": "IMAGE",
@@ -3233,17 +3250,6 @@
       "title": "MALE HAREM / LONG PLAY / ANDREW",
       "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00003. Preserve region male-harem and inherited geography. Adult male human subject andrew at 2.66x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
       "created": "2026-10-05T18:51:01.299Z"
-    },
-    {
-      "id": "scheduled-image-00002",
-      "status": "QUEUED",
-      "type": "IMAGE",
-      "sourceRecording": "./recordings/scheduled-recording-00002.json",
-      "map": "./spatial-world.json",
-      "target": "visual-synthesis",
-      "title": "BEEFYTHIQ / LONG PLAY / TYLER",
-      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00002. Preserve region beefythiq and inherited geography. Adult male human subject tyler at 2.58x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
-      "created": "2026-10-05T09:32:56.651Z"
     }
   ]
 }

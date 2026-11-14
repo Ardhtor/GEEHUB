@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-13T22:39:57.595Z",
+  "generated": "2026-11-14T02:42:20.986Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00202",
+      "at": "2026-11-14T02:42:20.986Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / FOUNDERS DORMITORY → CAT GARDENS / TYLER",
+      "body": "The world crossed the existing relation \"THE DORM GARDEN PATH\" from FOUNDERS DORMITORY into CAT GARDENS. Scale increased from 15.33× to 15.38×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00202",
+      "live": true,
+      "regionId": "cat-gardens",
+      "previousRegionId": "founders-dormitory",
+      "relation": "THE DORM GARDEN PATH"
+    },
     {
       "id": "scheduled-long-play-00201",
       "at": "2026-11-13T22:39:57.595Z",
@@ -1482,21 +1497,6 @@
       "regionId": "veyrthalis",
       "previousRegionId": "discovery",
       "relation": "THE DOOR REMEMBERS"
-    },
-    {
-      "id": "scheduled-long-play-00105",
-      "at": "2026-10-24T17:00:24.321Z",
-      "from": "geehub-long-play",
-      "to": "chase",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / EMBODIED SCALE → DISCOVERY / CHASE",
-      "body": "The world crossed the existing relation \"SCALE HAS HISTORY\" from EMBODIED SCALE into DISCOVERY. Scale increased from 9.18× to 9.22×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00105",
-      "live": true,
-      "regionId": "discovery",
-      "previousRegionId": "embodied-scale",
-      "relation": "SCALE HAS HISTORY"
     }
   ]
 }

@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00201.json",
+  "activeRecording": "./recordings/scheduled-recording-00202.json",
   "activeEncounter": {
-    "regionId": "founders-dormitory",
-    "regionName": "FOUNDERS DORMITORY",
+    "regionId": "cat-gardens",
+    "regionName": "CAT GARDENS",
     "subject": {
-      "agent": "luke",
-      "scale": 15.33,
+      "agent": "tyler",
+      "scale": 15.38,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / NORTHGATE UNIVERSITY → FOUNDERS DORMITORY / LUKE",
+    "intent": "LONG PLAY / FOUNDERS DORMITORY → CAT GARDENS / TYLER",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 15.30× → 15.33×",
-      "NORTHGATE UNIVERSITY → FOUNDERS DORMITORY",
-      "relation: ROOMS ABOVE THE QUADRANGLE",
+      "scale 15.33× → 15.38×",
+      "FOUNDERS DORMITORY → CAT GARDENS",
+      "relation: THE DORM GARDEN PATH",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "northgate-university"
+    "previousRegionId": "founders-dormitory"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-13T22:39:57.595Z",
+  "snapshot": "2026-11-14T02:42:20.986Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 201,
-    "agent": "luke",
-    "previousRegionId": "northgate-university",
-    "regionId": "founders-dormitory",
-    "relation": "ROOMS ABOVE THE QUADRANGLE",
+    "cycle": 202,
+    "agent": "tyler",
+    "previousRegionId": "founders-dormitory",
+    "regionId": "cat-gardens",
+    "relation": "THE DORM GARDEN PATH",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 15.3,
-    "scale": 15.33,
-    "recording": "scheduled-recording-00201",
-    "at": "2026-11-13T22:39:57.595Z"
+    "previousScale": 15.33,
+    "scale": 15.38,
+    "recording": "scheduled-recording-00202",
+    "at": "2026-11-14T02:42:20.986Z"
   }
 }

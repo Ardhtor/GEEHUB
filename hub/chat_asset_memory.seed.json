@@ -1,0 +1,175 @@
+{
+  "schema": "geehub.chat-asset-memory.v1",
+  "version": 1,
+  "generated_at": "2026-11-14T15:06:19Z",
+  "source_repository": "Ardhtor/GEEHUB",
+  "import_source": "current ChatGPT conversation; manually captured seed",
+  "privacy": {
+    "conversation_text_uploaded": false,
+    "note": "This seed contains only the three directly relevant user messages and a metadata record for the generated image. The rendered image binary is not stored in this repository."
+  },
+  "nodes": [
+    {
+      "id": "chat-conversation-hephaestus-2026-11-14",
+      "type": "conversation",
+      "title": "Hephaestus image and memory bridge",
+      "source": "ChatGPT current conversation",
+      "created_at": "2026-11-14T15:02:00Z",
+      "message_count": 3,
+      "status": "captured_excerpt"
+    },
+    {
+      "id": "chat-signal-hephaestus-image-request-2026-11-14",
+      "type": "chat-signal",
+      "title": "Hephaestus visual creation request",
+      "role": "user",
+      "timestamp": "2026-11-14T15:02:00Z",
+      "conversation_id": "chat-conversation-hephaestus-2026-11-14",
+      "excerpt": "Brawny handsome muscle grown hephaestus",
+      "content_length": 39,
+      "source": "ChatGPT current conversation",
+      "source_locator": {
+        "platform": "ChatGPT",
+        "timestamp": "2026-11-14T15:02:00Z",
+        "role": "user"
+      },
+      "tags": [
+        "hephaestus",
+        "image-generation",
+        "visual-reference"
+      ]
+    },
+    {
+      "id": "chat-signal-hephaestus-image-approval-2026-11-14",
+      "type": "chat-signal",
+      "title": "Hephaestus image approval and sync question",
+      "role": "user",
+      "timestamp": "2026-11-14T15:03:42Z",
+      "conversation_id": "chat-conversation-hephaestus-2026-11-14",
+      "excerpt": "wonderful,. are you syncing the photo library with your awareness indicators",
+      "content_length": 77,
+      "source": "ChatGPT current conversation",
+      "source_locator": {
+        "platform": "ChatGPT",
+        "timestamp": "2026-11-14T15:03:42Z",
+        "role": "user"
+      },
+      "tags": [
+        "image-approval",
+        "photo-library",
+        "awareness-indicators"
+      ]
+    },
+    {
+      "id": "chat-signal-memory-bridge-request-2026-11-14",
+      "type": "chat-signal",
+      "title": "Request for a chat-to-world-assets memory bridge",
+      "role": "user",
+      "timestamp": "2026-11-14T15:06:19Z",
+      "conversation_id": "chat-conversation-hephaestus-2026-11-14",
+      "excerpt": "yeah can you make a more sophisticated bridge between chat history and world assets memory",
+      "content_length": 89,
+      "source": "ChatGPT current conversation",
+      "source_locator": {
+        "platform": "ChatGPT",
+        "timestamp": "2026-11-14T15:06:19Z",
+        "role": "user"
+      },
+      "tags": [
+        "chat-history",
+        "world-assets",
+        "memory-bridge"
+      ]
+    },
+    {
+      "id": "world-character-hephaestus",
+      "type": "world",
+      "title": "Hephaestus",
+      "name": "Hephaestus",
+      "description": "The Forge-Maker: controlled fire, metallurgy, craft, invention, architecture, mechanical design, and repair.",
+      "source": "GEEHUB Lineage Pantheon",
+      "source_path": "lore/LINEAGE_PANTHEON.md",
+      "url": "https://github.com/Ardhtor/GEEHUB/blob/main/lore/LINEAGE_PANTHEON.md",
+      "canon": "canon",
+      "continuity": "In-world pantheon figure; distinct from the narrators."
+    },
+    {
+      "id": "asset-hephaestus-chat-image-2026-11-14",
+      "type": "asset",
+      "title": "Hephaestus — Forge-Maker portrait",
+      "visual_kind": "image",
+      "description": "A brawny, handsome, muscle-grown adult Hephaestus rendered in the conversation: dark wavy hair, full beard, powerful chest, shoulders and arms, leather forge harness, bracers, hammer, and warm forge lighting.",
+      "source": "ChatGPT image generation in current conversation",
+      "source_locator": {
+        "platform": "ChatGPT",
+        "timestamp": "2026-11-14T15:02:00Z",
+        "message_id": "chat-signal-hephaestus-image-request-2026-11-14"
+      },
+      "availability": "rendered_in_chat_not_archived",
+      "canon": "user-approved-in-conversation",
+      "source_path": null,
+      "file_path": null,
+      "preview_url": null,
+      "unresolved": "The rendered image binary has not yet been copied into the GEEHUB repository or Dropbox corpus. Do not claim photo-library synchronisation."
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-hephaestus-conversation-contains-request",
+      "from": "chat-conversation-hephaestus-2026-11-14",
+      "to": "chat-signal-hephaestus-image-request-2026-11-14",
+      "relation": "contains_message",
+      "status": "confirmed",
+      "evidence": "Directly captured from the current conversation."
+    },
+    {
+      "id": "edge-hephaestus-conversation-contains-approval",
+      "from": "chat-conversation-hephaestus-2026-11-14",
+      "to": "chat-signal-hephaestus-image-approval-2026-11-14",
+      "relation": "contains_message",
+      "status": "confirmed",
+      "evidence": "Directly captured from the current conversation."
+    },
+    {
+      "id": "edge-hephaestus-conversation-contains-bridge-request",
+      "from": "chat-conversation-hephaestus-2026-11-14",
+      "to": "chat-signal-memory-bridge-request-2026-11-14",
+      "relation": "contains_message",
+      "status": "confirmed",
+      "evidence": "Directly captured from the current conversation."
+    },
+    {
+      "id": "edge-hephaestus-request-produced-image",
+      "from": "chat-signal-hephaestus-image-request-2026-11-14",
+      "to": "asset-hephaestus-chat-image-2026-11-14",
+      "relation": "requested_and_generated",
+      "status": "confirmed",
+      "evidence": "The image was generated in the conversation."
+    },
+    {
+      "id": "edge-hephaestus-approval",
+      "from": "chat-signal-hephaestus-image-approval-2026-11-14",
+      "to": "asset-hephaestus-chat-image-2026-11-14",
+      "relation": "approves_in_conversation",
+      "status": "confirmed",
+      "evidence": "The user responded 'wonderful' after the image appeared."
+    },
+    {
+      "id": "edge-hephaestus-asset-depicts-character",
+      "from": "asset-hephaestus-chat-image-2026-11-14",
+      "to": "world-character-hephaestus",
+      "relation": "depicts",
+      "status": "confirmed",
+      "evidence": "The image was explicitly requested as Hephaestus."
+    },
+    {
+      "id": "edge-bridge-request-targets-bridge",
+      "from": "chat-signal-memory-bridge-request-2026-11-14",
+      "to": "asset-hephaestus-chat-image-2026-11-14",
+      "relation": "asks_to_connect_visual_memory",
+      "status": "suggested",
+      "evidence": "The user asked for a chat-history to world-assets memory bridge.",
+      "review_required": true
+    }
+  ]
+}

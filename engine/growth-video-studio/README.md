@@ -145,7 +145,7 @@ This is the first CPU pixel-buffer implementation, not yet a complete frame
 worker or compositor. It does not decode source footage, encode PNG files,
 reconstruct the background behind the original body, combine the protected
 face layer, or write a frame sequence. The result is a body layer for those
-later stages; `pixelSemanticsVerified` remains false. Nine focused tests cover
+later stages; `pixelSemanticsVerified` remains false. Ten focused tests cover
 baseline sampling, translation, source/body and destination/face exclusion,
 foldovers, frame identity, malformed masks and RGBA buffers, shared edges,
 and premultiplied-alpha interpolation.

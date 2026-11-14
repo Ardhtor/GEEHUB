@@ -2029,3 +2029,11 @@ SETH: Northgate University rises above the reservoir beneath old trees and open 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 266 — ATMOSPHERE / FOUNDERS DORMITORY / 2026-11-14T01:28:02.589077+00:00
+
+SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

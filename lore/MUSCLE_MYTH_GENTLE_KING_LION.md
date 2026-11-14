@@ -445,6 +445,30 @@ The driver thanked him with the nervous formality of someone addressing a king. 
 Later, when the morning's incident was discussed, the Lion asked the wheelwright to describe the failure from the beginning rather than offer a quick conclusion. The wheelwright explained that the cart had been loaded unevenly, that one wheel had begun to bind, and that the narrow turn had concealed the problem until the axle was under strain. Hephaestus added a note about the paving. Together they marked a wider turning radius and a revised loading instruction. The court gained no heroic legend from the event, but it gained a safer route and a record that could prevent the same trouble next season.
 
 
+
+
+The wheelwright arrived carrying a wooden case of tools and a length of clean linen to wrap the damaged hub. He greeted the Lion, then crouched beside the cart without waiting for anyone to explain the problem. The driver showed him the split and described the sound he had heard on the turn. The wheelwright examined the grain, ran a finger along the fracture, and asked how the cart had been loaded. The driver admitted that the heavier sacks had been placed toward the outer edge because the inner stack had seemed unstable. The wheelwright did not scold him. He asked the gardeners to show where the cart had begun to bind, then marked the turn with chalk.
+
+The Lion watched the conversation and noticed that the driver had begun to relax. Until then, the man had been apologising as though the failure were a personal offence against the court. The wheelwright treated it as a problem with a sequence: loading, turning, wheel alignment, and the condition of the hub. Each part could be inspected. Each part could be improved. The Lion asked that the driver remain for the repair so he could learn what had happened. The man agreed, and the wheelwright showed him the signs of uneven strain.
+
+The Master arrived while the old hub was being removed. He listened to the wheelwright's explanation and asked whether the same design was used on the other delivery carts. The answer was yes. The Lion looked toward the outer gate, where another cart was waiting to unload. A single damaged wheel did not prove that every cart was unsafe, but it gave them reason to inspect the fleet. The Master asked the steward to schedule the checks without interrupting the deliveries. The Lion suggested that the drivers be included because they knew how each cart behaved on the road.
+
+By midday the broken wheel had been taken to the workshop. The wheelwright planned to replace the hub and revise the loading guide. The gardeners had cleared the passage, and the fruit had been carried to the kitchen. The Lion returned to the western gallery with the Master. He had not forgotten the moment when the driver looked at him as though expecting punishment. The Master asked whether it had troubled him.
+
+“Not the mistake,” said the Lion. “The fear that followed it.”
+
+“A person can make a mistake and still be responsible for repairing it.”
+
+“Yes. But they must be able to tell us what happened without first defending their right to remain here.”
+
+The Master looked back toward the gate. “Then we should make that ordinary.”
+
+They added a line to the maintenance procedure: anyone reporting a failure should be asked first what they saw, what changed, and what support they need to make the situation safe. The instruction did not excuse negligence. It made accurate reporting possible before fear had time to distort the account. The Lion liked the wording because it was practical. A court could not maintain what people were afraid to describe.
+
+That afternoon the repaired cart was tested without a load, then with a measured weight. The driver walked beside it while the wheelwright watched the turn. The hub held. The cart moved easily through the wider route marked that morning. Before leaving, the driver thanked the Lion again. The Lion asked him to thank the wheelwright, who had done the repair. The driver did so. The exchange was brief, but it returned credit to the hands that had earned it.
+
+In the evening the Master found the Lion looking over the maintenance book. A page had been added for the fleet inspection, with the damaged hub listed as the first entry. The Lion ran one broad claw beneath the new heading and nodded. The incident would not be remembered because a great animal had moved a cart. It would be remembered because a small failure had become useful knowledge, and because the people involved had been allowed to tell the truth before the story became grander than the work.
+
 ### XII. The Training Ground
 
 The training ground lay beyond the southern orchard, where the court widened into a level field bordered by oak and cypress. It had been built for bodies that differed in size and strength. Some of the athletes were broad and powerful; others were quick, light-footed, or still learning how to coordinate their movements. The equipment was heavy, but it was not arranged to reward recklessness. There were lifting platforms, climbing frames, marked lanes, padded areas for controlled falls, and a shaded pavilion where coaches kept water and recorded each session.
@@ -461,6 +485,30 @@ The athletes did not applaud the lion. They returned to their work. That was how
 
 The coach brought out a slate and drew the sequence of the lift: foot placement, breath, grip, movement, and the moment at which the athlete should stop. The Lion watched the demonstration and asked the group what they had learned from the failed attempt. Their answers differed. One had noticed the platform's slight movement; another had seen the athlete's shoulder lose its line; a third had recognised that the spotter was standing too far away. The coach wrote all three observations down. Training became a shared act of attention, not a spectacle in which the strongest person was expected to be right.
 
+
+
+
+Eren returned to the training ground three mornings later. He arrived before the busiest hour, carrying the same set of weights and a small notebook in which the coach had written the movements to practise. Daran was already there. He had come early to help reset the central platform and seemed uncertain whether Eren would want to speak with him. The younger athlete greeted the coach first, then nodded to Daran. There was no dramatic reconciliation. Daran pointed out that the platform had been levelled and showed him where the old surface had settled after the rain.
+
+They began with the lighter exercise. Eren moved carefully, checking his footing before each repetition. Daran watched without correcting him until the coach invited him to offer an observation. The first thing he noticed was not the weight but the timing of Eren's breath. He explained how he had learned to coordinate the beginning of a lift with the moment the feet settled. Eren tried again. The movement became smoother, although he still had to stop before the final repetition. Daran did not call the effort a failure. He wrote down the point at which Eren's form began to change and suggested that they work from there.
+
+The Lion arrived while they were adjusting the weights. He greeted the coach and sat near the shaded pavilion. He had come to see whether the platform inspection had been completed, but he stayed when he saw Daran working with Eren. The two athletes were concentrating. Daran had begun to use the language of the coach, explaining the movement in parts rather than telling Eren simply to lift harder. Eren asked questions. Sometimes he misunderstood and had to try again. The coach let them work.
+
+After several sets, Daran took his own turn. He demonstrated the same movement at a greater load, but deliberately slowed the final phase so Eren could see how the balance changed. His strength was obvious, though it was no longer the only thing on display. He was learning to communicate what he knew. Eren noticed that Daran adjusted the equipment before beginning, checked the locking pins, and tested the platform with his foot. The younger athlete asked whether he always inspected the station so carefully. Daran said that he had not, when he was younger. He had learned after a loose support frightened him more than any difficult lift.
+
+The Lion watched the exchange and remembered the exhibition. Daran had not become a different person in three days. He was still proud of his ability, and he still liked an audience. But he had begun to understand that his experience could make another athlete's work safer and more interesting. Eren, for his part, no longer looked at the platform as a place from which he might be excluded. He was beginning to treat it as a place he could learn to use.
+
+At the end of the session, the coach asked each athlete to describe one thing that had gone well and one thing that needed more attention. Eren said his footing had remained steady through the first three repetitions. Daran said he had given an instruction too early and confused the timing. The coach wrote both observations in the session book. The Lion approached and asked whether they wanted to join the next open demonstration as a pair. Eren looked toward Daran before answering. Daran did not answer for him.
+
+“I would like to,” Eren said. “But I want to be ready.”
+
+“Then we will give you time,” said the Lion.
+
+Daran nodded. “And I will help with the practice.”
+
+The Lion thanked him, not as though he had performed a public act of virtue, but because he had agreed to do useful work. The two athletes returned the weights to their racks. Their partnership was not yet a friendship, and the court did not need to name it before it had grown. It began with a shared task, a clear measure of progress, and enough room for each person to remain distinct.
+
+As the Lion walked back toward the orchard, he heard the sound of the next group beginning its warm-up. The training ground had a rhythm that did not depend on any one champion. The equipment was checked, the coaches moved between stations, and the athletes learned at different speeds. The Lion liked the sight of Daran staying behind to tighten a support after everyone else had left. It was a modest act, but it belonged to the same discipline as the lift itself.
 
 ### XIII. Rain at the Outer Wall
 
@@ -481,6 +529,24 @@ The rain continued through the night. The lion rested near the open doors and li
 By evening the damage had been divided into what was known and what still required inspection. The outer stones had shifted, the drain had carried more water than its old register predicted, and the root system beside the wall had begun to expose a weakness in the lower course. The gardeners laid a temporary channel while the masons prepared a proper survey. The Lion walked the length of the wall with the Master, stopping where water had left a dark line across the stone. They did not call the storm a test of the court's greatness. They treated it as weather, and the damage as work.
 
 
+
+
+The drainage crew arrived with the first heavy band of rain still visible beyond the hills. They carried shovels, wooden stakes, a measuring line, and boards for a temporary channel. Hephaestus had sent a drawing ahead, but he wanted to inspect the ground before deciding whether the proposed route would be enough. The gardeners met the crew at the lower orchard and showed them where the water had begun to rise. One of the old trees stood close to the retaining wall, its roots disappearing beneath the lower stones. The gardeners were concerned that a rapid change in the drainage might expose the roots or leave the tree standing in softened soil.
+
+Hephaestus studied the channel and asked the gardeners to describe the flow during previous storms. They knew which section filled first, where the water changed direction, and how long the lower ground remained wet after the rain stopped. Their observations altered the plan. Rather than cutting a new channel directly toward the outer path, the crew would first open the upper drain and direct the runoff across a wider bed of gravel. A second inspection point would be placed near the wall so that the water could be watched without digging into the foundation.
+
+The Lion helped move the boards and stakes to the marked ground. He was careful not to cross the area that had softened. When a young worker suggested that the Lion could hold the wall in place while the crew cleared the lower channel, Hephaestus turned sharply toward him. The wall was not a single block that could be secured by the pressure of a great body. Its weakness lay in the joints and the water behind them. The Lion agreed. He would keep people clear of the unstable section, but he would not pretend that strength could replace a proper repair.
+
+The Master stood near the upper path, speaking with the gardeners and keeping the route open. When the wall gave its small sound, he raised a hand and the crew withdrew to the marked line. The Lion moved with them, placing himself where his size could make the boundary unmistakable without touching the masonry. The shift in the wall was slight, but a narrow piece of mortar fell from the lower course. The crew waited. Hephaestus watched the water level and asked them to open the upper relief channel by a measured amount.
+
+The pressure eased. Water moved across the gravel bed and entered the lower drain at a slower rate. The old wall remained standing, though the damaged joint would need to be rebuilt. The gardeners checked the tree and found that its roots had not been exposed. The crew marked the area for a later survey and placed temporary boards along the path. No one called the work complete. The immediate danger had passed; the repair still required time.
+
+The following morning the Lion returned with Hephaestus and the Master. In daylight they could see the wall clearly. The stone had been laid in several periods, with different mortar mixes and an older repair hidden beneath a layer of ivy. Hephaestus explained that the wall could not be treated as a single uniform structure. The damaged section would be opened carefully, each stone numbered, and the foundation examined before the new mortar was chosen. The gardeners asked that the tree's root zone be protected during the work. Hephaestus added a temporary brace to the plan.
+
+The Master asked whether the orchard path could reopen before the repair was finished. The crew said that a temporary route could be made along the upper terrace, provided the lower section remained closed. The Lion agreed, but asked that the sign explain why the path was closed and where people should go instead. A barrier without an explanation would invite someone to move it. A clear route would let people cooperate with the repair.
+
+By evening the temporary channel was working. The gardeners had moved the most vulnerable beds, and the wall had been marked for inspection. The Lion and the Master walked along the upper terrace while rainwater continued to run toward the lower drain. They could hear it beneath the stones. The Lion did not feel victorious. The court had responded well, but the rain had revealed a weakness that would have to be understood more fully. He preferred an honest unfinished repair to a polished announcement that the wall was safe.
+
 ### XIV. A Guest Without a Banner
 
 The visitor arrived two days later, on foot, carrying no crest and asking for no escort. He had come from a distant house whose name the court did not immediately recognise. His clothes were travel-worn, his boots muddy, and the small case he carried had been repaired with mismatched leather. He asked to speak with the Master, but when he learned that the Master was occupied, he said he could wait.
@@ -497,6 +563,38 @@ When the Master joined them, the visitor repeated the proposal. The Master agree
 
 The visitor was given a room overlooking the orchard, a clean change of clothes, and a place at supper without being asked to make his story entertaining. As the evening went on, the court learned that his community had kept its meeting hall open through several difficult winters, but had never repaired the drainage behind its western wall. He was embarrassed by the state of the building. The Lion asked what the residents still used it for. When the visitor described meals, lessons, and winter gatherings, the Lion said that the building was worth understanding before anyone decided what it ought to become.
 
+
+
+
+The visitor stayed for two nights. On the first, he slept in the room overlooking the orchard and woke several times when the rain moved across the roof. On the second, he joined the household at breakfast and began to speak more freely. He described the fire at his home, not only the loss of the hall but the strange confusion that followed. The records had survived, yet the residents could not agree which documents described the building as it had been and which recorded repairs that had never been completed. Some plans contradicted one another. A few of the older measurements had been copied so often that no one remembered who had taken them.
+
+The Lion listened while Oren served the meal. He did not ask the visitor to make his account shorter for the sake of breakfast. When the visitor finished, the Master asked whether the people of the house had preserved the names of the builders who had worked on the hall. The visitor said that some names appeared in the records, but several pages had been damaged by smoke and water. The Lion asked whether the old hall had been used by everyone in the settlement or only by the house's officers. The visitor said that it had served both purposes, though the formal meetings had gradually come to occupy most of the calendar.
+
+“That may be part of what you need to decide,” the Lion said. “Not only what the hall was, but who needs it now.”
+
+The visitor looked down at his cup. He admitted that he had been sent to secure support for a reconstruction before the residents had held a proper meeting. The people who had sent him were anxious to show that the house remained strong. They feared that a long survey would make the fire seem like a defeat. The Lion understood the concern. A house could be wounded in its reputation as well as in its buildings. But restoring the appearance of certainty would not repair a foundation or settle the disagreements that had existed before the fire.
+
+The Master suggested that the first visit should be a listening visit. The surveyors would inspect the site, but they would also meet the people who had used the hall. The records would be arranged by date and marked where their provenance was uncertain. No document would be discarded simply because it contradicted a later plan. The visitor asked whether this would make the work slower. The Lion said that it would make the first part slower and the later parts more reliable.
+
+On the afternoon of the second day, the visitor walked through the court with the Lion. He stopped at the eastern gallery and looked at the bronze basin. He asked whether the court had been built all at once. The Lion said that it had changed over time, that some rooms had been rebuilt and some passages widened, and that the house still contained marks from earlier arrangements. The visitor looked at the visible railing joints and the maintenance panel.
+
+“Do you keep the old drawings?” he asked.
+
+“We keep the drawings that help us understand what is here,” said the Lion. “And we mark the ones that no longer describe it.”
+
+The visitor stood for a while, taking in the room. He had expected a great court to conceal its repairs. Instead he found that the repairs were part of its record. The place did not seem diminished by them. It seemed more trustworthy.
+
+Before leaving, he met with the surveyor who would travel to his house. They reviewed the route, the first meeting date, and the names of the residents who had agreed to attend. The visitor was given a letter that described the scope of the work without promising a particular result. He placed it carefully in his repaired case.
+
+At the western gate he turned back toward the Lion. “I thought I was coming here to ask for a name,” he said.
+
+“And now?”
+
+“Now I have a plan for finding out what the house needs.”
+
+The Lion inclined his head. “That is a better thing to carry home.”
+
+The visitor left without a banner or public endorsement. The court had not made his problem disappear. It had helped him return with a process that could be explained to the people who would live with its results.
 
 ### XV. The Long Table at Dusk
 
@@ -536,6 +634,30 @@ At the court, the kitchen doors were open. The day had begun. The Golden Lion wa
 
 
 At the bend where the paving disappeared beneath moss, the Master found an old marker half buried beside a tree. Its carved line matched a symbol in the road book, though the direction had been altered by the growth of the roots. The Lion stood over the mark without touching it. They called the surveyor back and recorded the position from two separate points. The old road was beginning to offer more than a picturesque trace of the past. It might connect places whose present routes had grown apart, but the possibility would have to survive measurement before it became a plan.
+
+
+The long table had been made from a single dark oak trunk, though the surface now carried marks from decades of use. There were shallow cuts where a map knife had slipped, pale rings left by cups, and a darker patch where an old oil lamp had once burned too close to the wood. The Lion liked these traces. They reminded him that the table had been used by people who had brought their work into the same room as their meals. He did not want it polished until every mark disappeared.
+
+That evening the household gathered with more than the usual number of papers. The gardener's report on the storm damage lay beside Hephaestus's drawings. The wheelwright had brought a sample of the revised hub. The coach carried the training-ground inspection and Eren's practice notes. The visitor's house had sent a short description of the burned hall and a list of surviving records. The Master placed the small book from the western gallery near the centre of the table. The Lion looked around and saw that every matter had arrived with a person who could explain it.
+
+They began with the wall. Hephaestus described the repair sequence and showed where the temporary drainage channel had changed the flow. The gardeners pointed out the root zone that needed protection. One of the masons suggested replacing the entire lower course, but another objected that the upper stones were still sound and that a complete replacement would disturb the tree. The Lion let them argue. When the disagreement became repetitive, he asked each person to identify what evidence would settle the matter. They agreed that the first stones should be removed one at a time and numbered. Only then could the foundation be examined.
+
+The wheelwright spoke next. The new hub had passed its test, and the other carts had been inspected. Two showed early wear. The driver who had brought the damaged cart had attended the inspection and had changed the way he loaded the fruit crates. The Master asked whether the loading guide had been rewritten. The wheelwright said that it had, and placed a copy on the table. The Lion asked that the guide be kept with the cart records rather than in the private workshop. Anyone responsible for loading a delivery should be able to find it.
+
+The coach reported that Eren and Daran had continued training together. Eren was not yet ready for the central exhibition platform, but his footing had improved and he could now complete the first sequence without losing balance. Daran had helped check the equipment and had begun leading the warm-up for a small group. The Lion asked whether Eren wanted to join the next public demonstration. The coach said that he did, provided the movement remained at the level he had practised. The Lion agreed. The exhibition would make room for a demonstration of careful progress, not a staged imitation of a more advanced lift.
+
+When they reached the visitor's house, the discussion slowed. The surviving records were incomplete, and the people there had not agreed on what the new hall should contain. The Master proposed a first survey and a public meeting. Hephaestus added that the building's foundations and drainage should be inspected before any design was drawn. The Lion asked whether the residents who used the hall for meals and winter gatherings would be present. The visitor had listed them among the people to be consulted, but they were not yet included in the formal meeting. The table agreed that they must be.
+
+A few voices rose at once. One person worried that the court was accepting too many obligations. Another thought the visitor's house should receive material support immediately. A third suggested that the old hall's outline could be reproduced while the details were settled later. The Lion listened to each proposal. He did not pretend that the court had unlimited builders or timber. He asked what could be offered now without making promises that would later prove impossible. The answer was a survey team, a temporary shelter plan if the residents requested it, and assistance in organising the records. Materials for permanent construction would wait until the foundations and the community's needs were understood.
+
+The Master wrote the decisions in the book. Each had an assigned person, a date for review, and a note about what remained uncertain. The Lion insisted that the unresolved questions be recorded in the same place as the agreed actions. A decision that hid its uncertainties would become harder to correct. He wanted the next meeting to begin from what they actually knew.
+
+After the papers were gathered, supper arrived. Oren had prepared stew, roasted roots, fresh bread, pears, and a sharp cheese from the northern farm. The long table changed character without losing its earlier work. The gardener moved the maps aside to make room for a serving dish. The coach passed the bread to the wheelwright. Hephaestus asked the visitor about the timber used in the burned hall. The Master listened while the conversation moved from architecture to roads, from training to food, and from the visitor's home to the weather beyond the orchard.
+
+The Lion remained among them. He liked the moment when a meeting became a meal and people stopped speaking only in the language of their responsibilities. The court had done useful work, but it had also kept its people together. He looked down the length of the oak table, at the papers resting beneath cups and the small traces of food appearing beside the ink, and thought that this was one of the forms of sovereignty he valued most: the ability to make a place where difficult matters could be faced without making everyone forget how to live.
+
+When the guests had gone, the Master helped the steward stack the remaining papers. The Lion gathered the cups from his end of the table and carried them toward the kitchen. Oren protested that the work belonged to the staff. The Lion replied that the staff had already served the meal and that the cups were in his way. Oren laughed and allowed him to carry them. The table was cleared, but the records remained open for the next morning. The court went to sleep with its work visible and its doors ready to open again.
+
 ## Second movement: The Road and the House
 
 

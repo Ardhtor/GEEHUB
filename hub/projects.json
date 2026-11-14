@@ -1802,11 +1802,19 @@
   {
     "id": "chat-asset-memory-bridge",
     "name": "Chat ↔ World Asset Memory Bridge",
+    "group": "engine",
     "status": "prototype",
-    "kind": "tooling",
-    "repo": "Ardhtor/GEEHUB",
+    "summary": "Local-first browser bridge connecting ChatGPT conversation signals to world entities, visual evidence, asset records, exchange events, and production artifacts. Suggested links remain reviewable; private chat text is not uploaded.",
     "path": "/hub/memory-bridge.html",
-    "description": "Local-first browser bridge connecting ChatGPT conversation signals to world entities, visual evidence, asset records, exchange events, and production artifacts. Suggested links remain reviewable; private chat text is not uploaded.",
+    "tags": [
+      "chat",
+      "memory",
+      "assets",
+      "provenance",
+      "continuity",
+      "bridge"
+    ],
+    "repo": "Ardhtor/GEEHUB",
     "related": [
       "vision-workspace",
       "media-tools",

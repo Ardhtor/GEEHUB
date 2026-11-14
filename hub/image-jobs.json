@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00203",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00203.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "CAT GARDENS → CEDAR HOUSE / ANDREW",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00203. Travel from CAT GARDENS into CEDAR HOUSE through the relation \"GOOD LUCK HAS WHISKERS\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 15.38× to 15.46× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-14T09:29:42.843Z",
+      "lineage": {
+        "from": "cat-gardens",
+        "to": "cedar-house",
+        "relation": "GOOD LUCK HAS WHISKERS",
+        "cycle": 203
+      }
+    },
+    {
       "id": "scheduled-image-00202",
       "status": "QUEUED",
       "type": "IMAGE",
@@ -3239,17 +3256,6 @@
       "title": "GROWTH CANVAS / LONG PLAY / JOSEPH",
       "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00004. Preserve region growth and inherited geography. Adult male human subject joseph at 2.78x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
       "created": "2026-10-06T00:41:35.792Z"
-    },
-    {
-      "id": "scheduled-image-00003",
-      "status": "QUEUED",
-      "type": "IMAGE",
-      "sourceRecording": "./recordings/scheduled-recording-00003.json",
-      "map": "./spatial-world.json",
-      "target": "visual-synthesis",
-      "title": "MALE HAREM / LONG PLAY / ANDREW",
-      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00003. Preserve region male-harem and inherited geography. Adult male human subject andrew at 2.66x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
-      "created": "2026-10-05T18:51:01.299Z"
     }
   ]
 }

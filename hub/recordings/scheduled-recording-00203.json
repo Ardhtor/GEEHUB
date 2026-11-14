@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00203",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "cedar-house",
+  "position": {
+    "x": 11,
+    "y": 47,
+    "z": 0
+  },
+  "camera": {
+    "x": 11,
+    "y": 47,
+    "z": 1.7,
+    "heading": 349,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 15.46,
+    "priorScale": 15.38,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 15.46,
+    "clearance": 0.0647,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "GOOD LUCK HAS WHISKERS"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "cat-gardens",
+      "name": "CAT GARDENS"
+    },
+    {
+      "type": "region",
+      "id": "cedar-house",
+      "name": "CEDAR HOUSE"
+    },
+    {
+      "type": "relation",
+      "title": "GOOD LUCK HAS WHISKERS"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 15.38,
+      "to": 15.46
+    },
+    {
+      "property": "location.regionId",
+      "from": "cat-gardens",
+      "to": "cedar-house",
+      "relation": "GOOD LUCK HAS WHISKERS"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.065,
+      "to": 0.0647
+    }
+  ],
+  "intent": "LONG PLAY / CAT GARDENS → CEDAR HOUSE / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 203,
+    "previousRegionId": "cat-gardens",
+    "regionId": "cedar-house",
+    "relation": "GOOD LUCK HAS WHISKERS",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 15.38,
+    "scaleBaselineTo": 15.46
+  },
+  "timestamp": "2026-11-14T09:29:42.843Z"
+}

@@ -47,7 +47,7 @@ export function parseChatGPTExport(data,filename="ChatGPT export"){
  return output;
 }
 function addNode(graph,node){const existing=graph.nodes.find(item=>item.id===node.id);if(existing)Object.assign(existing,node);else graph.nodes.push(node);}
-function addEdge(graph,edge){const id=edge.id||stable("edge",[edge.from,edge.to,edge.relation].join("|"));if(!graph.edges.some(existing=>existing.id===id))graph.edges.push({...edge,id});}
+function addEdge(graph,edge){const id=edge.id||stable("edge",[edge.from,edge.to,edge.relation].join("|"));const existing=graph.edges.find(item=>item.id===id);if(!existing){graph.edges.push({...edge,id});return;}const priorStatus=existing.status;Object.assign(existing,edge,{id});if((priorStatus==="confirmed"||priorStatus==="rejected")&&edge.status==="suggested")existing.status=priorStatus;}
 function assetTokens(node){return tokenSet([node.title,node.name,node.description,node.summary,node.content,node.kind,node.source_path,JSON.stringify(node.lineage||{}),JSON.stringify(node.tags||[])].join(" "));}
 function rankCandidates(message,candidates){
  const sourceTokens=tokenSet(message.text);if(!sourceTokens.size)return[];const ranked=[];

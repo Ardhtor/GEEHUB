@@ -1,7 +1,7 @@
 {
   "schema": "geehub.chat-asset-memory.v1",
   "version": 1,
-  "generated_at": "2026-11-14T15:31:23Z",
+  "generated_at": "2026-11-14T15:32:17Z",
   "source_repository": "Ardhtor/GEEHUB",
   "import_source": "current ChatGPT conversation; manually captured seed",
   "privacy": {
@@ -243,12 +243,13 @@
     {
       "id": "world-character-gentle-king-lion",
       "type": "world",
-      "title": "The Gentle King Lion",
-      "name": "The Gentle King Lion",
+      "title": "The Golden Lion",
+      "name": "The Golden Lion",
       "aliases": [
+        "The Gentle King Lion",
         "the long-donged lion"
       ],
-      "description": "An immense golden lion-like mythic presence interpreted from artwork: exaggerated scale, symmetry, warm gold and deep burgundy; peaceful, nonviolent sovereignty and magnificence without cruelty.",
+      "description": "The Golden Lion, interpretive title The Gentle King Lion: an immense golden lion-like mythic presence interpreted from artwork, with exaggerated scale, symmetry, warm gold and deep burgundy; peaceful, nonviolent sovereignty and magnificence without cruelty.",
       "source": "Prior user-led artwork interpretation, August 2026",
       "source_path": "lore/MUSCLE_MYTH_GENTLE_KING_LION.md",
       "url": "https://github.com/Ardhtor/GEEHUB/blob/main/lore/MUSCLE_MYTH_GENTLE_KING_LION.md",

@@ -134,10 +134,10 @@ This is the Golden Lion's final measure: not how much space he can occupy, how m
 
 
 
-## First movement: The Court in Motion
-## The Court in Motion
 
 The friendship also survived the days when the Master was elsewhere. The Lion did not turn absence into grievance, and the court did not treat his quietness as a sign that something had gone wrong. He continued to eat with the household, walk the gardens, hear petitions, and visit the workshop. When the Master returned, the welcome was neither diminished nor theatrically enlarged. The Lion came forward, the Master placed a hand against his mane, and the familiar purr rose between them. Nothing had needed to be preserved by force. It had remained because it was alive.
+## First movement: The Court in Motion
+## The Court in Motion
 
 
 ### XI. Morning in the Western Gallery
@@ -244,9 +244,9 @@ On the return journey, they passed the training ground. The young giant was ther
 At the court, the kitchen doors were open. The day had begun. The Golden Lion walked in beside the Master, carrying no new title and making no claim upon the road beyond the orchard. He had seen something that might matter later. It had been recorded. That was enough for now.
 
 
-## Second movement: The Road and the House
 
 At the bend where the paving disappeared beneath moss, the Master found an old marker half buried beside a tree. Its carved line matched a symbol in the road book, though the direction had been altered by the growth of the roots. The Lion stood over the mark without touching it. They called the surveyor back and recorded the position from two separate points. The old road was beginning to offer more than a picturesque trace of the past. It might connect places whose present routes had grown apart, but the possibility would have to survive measurement before it became a plan.
+## Second movement: The Road and the House
 
 
 ### XVII. The Surveyors' Morning
@@ -352,9 +352,9 @@ That night, the Master and the lion walked once more through the western gallery
 The Master placed a hand against the lion's mane. The lion leaned into the touch, and for a moment the whole gallery seemed to hold its breath around them. Then the lion's purr began again, low and warm, and the court continued.
 
 
-## Third movement: The Northern Table
 
 The steward's new register was not a catalogue of noise for its own sake. It helped the court notice when a familiar sound changed or disappeared. If the forge fell silent at the wrong hour, someone could check whether Hephaestus needed help; if the kitchen bell rang twice, the stores might be running short; if the wheelwright's test knock altered, a cart could be inspected before it left the yard. The Lion listened to the finished record and recognised the court in it. Its identity was not held by its walls alone, but by the dependable sounds of people caring for one another's work.
+## Third movement: The Northern Table
 
 
 ### XXII. The Invitation from the Stone Table
@@ -430,11 +430,11 @@ Later, when the Master and the lion walked through the western gallery, the lion
 The lion rested his head near the Master's shoulder. Hephaestus's forge was still lit across the courtyard. Tomorrow there would be another drawing, another inspection, and perhaps another disagreement about a hinge. The Golden Lion listened to the familiar sounds of the court and felt, beneath them, the wider rhythm of the brotherhood continuing beyond the orchard.
 
 
+
+The journey home gave the three friends time to compare what each had carried away. Hephaestus spoke about the anchor socket and the difference between a repair that could be installed quickly and one that could be inspected later. The Master considered the obligations created by the new route register. The Lion remembered the younger builder's question and the way the elder had left room for an answer to emerge. Their conversation did not produce a grand declaration. It produced a list of people to write to, records to copy, and work that could begin without pretending the bridge was ready.
 ## Fourth movement: The Seven Great Houses
 
 ## A Convergence of the Meridian
-
-The journey home gave the three friends time to compare what each had carried away. Hephaestus spoke about the anchor socket and the difference between a repair that could be installed quickly and one that could be inspected later. The Master considered the obligations created by the new route register. The Lion remembered the younger builder's question and the way the elder had left room for an answer to emerge. Their conversation did not produce a grand declaration. It produced a list of people to write to, records to copy, and work that could begin without pretending the bridge was ready.
 
 
 ### XXVII. The Seven Seals

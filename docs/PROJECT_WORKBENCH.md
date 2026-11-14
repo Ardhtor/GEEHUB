@@ -2,6 +2,8 @@
 
 **Purpose:** a practical resume map for continuing projects already started in GEEHUB. This is not a separate project list or a declaration that every registered idea is implemented. Each entry points to the best current working surface, states what is already present, and identifies the next useful action when the source record establishes one.
 
+**Buildability:** use the [Feasibility Workbench](FEASIBILITY_WORKBENCH.md) to distinguish implemented, CI-verified, locally dependent, externally blocked, and still-specified work before choosing the next build.
+
 The repository has two complementary registries: [`projects.json`](../projects.json) is the broad project constellation; [`hub/projects.json`](../hub/projects.json) feeds the Hub's interactive project browser. This workbench connects those records to actual folders, manuscripts, tools, and production files. Directory-level browsing is available from the [repository map](REPOSITORY_NAVIGATION.md); every folder has its own `README.md` index.
 
 ## Resume the central workspace

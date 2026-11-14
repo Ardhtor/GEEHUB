@@ -47,7 +47,7 @@ def validate(path: Path) -> int:
             fail(f"duplicate id: {project_id}")
         seen.add(project_id)
 
-        for field in ("name", "group", "summary", "path"):
+        for field in ("name", "group", "summary"):
             if not isinstance(project[field], str) or not project[field].strip():
                 fail(f"entry {project_id!r} has an invalid {field}")
 
@@ -58,13 +58,14 @@ def validate(path: Path) -> int:
         if not isinstance(tags, list) or not tags or any(not isinstance(tag, str) or not tag.strip() for tag in tags):
             fail(f"entry {project_id!r} must have a non-empty string tag list")
 
+        project_path = project["path"]
+        if project_path is not None and (not isinstance(project_path, str) or not project_path.strip()):
+            fail(f"entry {project_id!r} has an invalid path; expected a non-empty string or null")
+
         repo = project.get("repo")
         if repo is not None:
             if not isinstance(repo, str) or not REPO_RE.fullmatch(repo):
                 fail(f"entry {project_id!r} has invalid repo selector: {repo!r}")
-            expected_path = f"https://github.com/{repo}"
-            if project["path"] != expected_path:
-                fail(f"entry {project_id!r} repo/path mismatch: {repo!r} vs {project['path']!r}")
 
     print(f"validated {len(data)} constellation entries")
     return 0

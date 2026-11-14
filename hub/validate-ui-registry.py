@@ -49,28 +49,22 @@ def main() -> int:
         else:
             seen.add(project_id)
 
-        for field in ("name", "group", "status", "summary", "path"):
+        for field in ("name", "group", "status", "summary"):
             value = project.get(field)
             if not isinstance(value, str) or not value.strip():
                 failures.append(f"{project_id or index}: missing or invalid {field}")
+
+        project_path = project.get("path")
+        if project_path is not None and (not isinstance(project_path, str) or not project_path.strip()):
+            failures.append(f"{project_id or index}: path must be a non-empty string or null")
 
         tags = project.get("tags")
         if not isinstance(tags, list) or not tags:
             failures.append(f"{project_id or index}: tags must be a non-empty array")
 
         repo = project.get("repo")
-        if repo:
-            if not isinstance(repo, str):
-                failures.append(f"{project_id}: invalid repo selector")
-            elif repo.startswith("https://github.com/"):
-                expected_url = repo.rstrip("/")
-            elif REPO_RE.fullmatch(repo):
-                expected_url = f"https://github.com/{repo}"
-            else:
-                failures.append(f"{project_id}: invalid repo selector")
-                continue
-            if project.get("path") != expected_url:
-                failures.append(f"{project_id}: repo/path mismatch")
+        if repo is not None and (not isinstance(repo, str) or not REPO_RE.fullmatch(repo)):
+            failures.append(f"{project_id}: repo must be an owner/name selector")
 
     if failures:
         print("UI registry validation failed:")

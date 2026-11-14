@@ -15,7 +15,7 @@ VALID_PROJECTS = [
         "name": "Demo Project",
         "group": "tool",
         "status": "active",
-        "path": "https://github.com/example/demo",
+        "path": "../docs/demo/README.md",
         "repo": "example/demo",
         "summary": "A test project.",
         "tags": ["demo"],
@@ -58,13 +58,37 @@ def main() -> int:
         print(missing_loader.stdout + missing_loader.stderr)
         raise AssertionError("missing runtime registry loader should fail")
 
-    wrong_repo_url = run_validator(
-        [{**VALID_PROJECTS[0], "path": "https://github.com/example/other"}],
+    pathless_entry = run_validator(
+        [{**VALID_PROJECTS[0], "path": None, "repo": None}],
         VALID_HTML,
     )
-    if wrong_repo_url.returncode == 0 or "repo/path mismatch" not in wrong_repo_url.stdout:
-        print(wrong_repo_url.stdout + wrong_repo_url.stderr)
-        raise AssertionError("wrong repository destination should fail")
+    if pathless_entry.returncode != 0:
+        print(pathless_entry.stdout + pathless_entry.stderr)
+        raise AssertionError("an explicitly pathless registry entry should pass")
+
+    local_entry_with_repo_fallback = run_validator(
+        [{**VALID_PROJECTS[0], "path": "../hub/memory-bridge.html"}],
+        VALID_HTML,
+    )
+    if local_entry_with_repo_fallback.returncode != 0:
+        print(local_entry_with_repo_fallback.stdout + local_entry_with_repo_fallback.stderr)
+        raise AssertionError("a local project path and separate repository fallback should pass")
+
+    blank_path = run_validator(
+        [{**VALID_PROJECTS[0], "path": "  "}],
+        VALID_HTML,
+    )
+    if blank_path.returncode == 0 or "path must be a non-empty string or null" not in blank_path.stdout:
+        print(blank_path.stdout + blank_path.stderr)
+        raise AssertionError("a blank path should fail")
+
+    invalid_repo = run_validator(
+        [{**VALID_PROJECTS[0], "repo": "not a repository"}],
+        VALID_HTML,
+    )
+    if invalid_repo.returncode == 0 or "repo must be an owner/name selector" not in invalid_repo.stdout:
+        print(invalid_repo.stdout + invalid_repo.stderr)
+        raise AssertionError("an invalid repository selector should fail")
 
     print("UI single-source registry regression tests passed.")
     return 0

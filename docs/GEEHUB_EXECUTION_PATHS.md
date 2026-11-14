@@ -29,7 +29,7 @@ Run from the repository root:
 python -m unittest engine.test_institute_events engine.test_inscription
 ```
 
-This command is the first local acceptance gate. The GitHub commit records the code and tests; it does not mean the tests have been executed in this environment.
+This command is the first local acceptance gate. The GitHub validation workflow now runs the Institute adapter regression suite as well as the canonical inscription suite on relevant pushes; a code commit alone is not evidence that the tests passed.
 
 ## The next implementation layers
 

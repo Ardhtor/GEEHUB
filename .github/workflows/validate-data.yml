@@ -192,9 +192,11 @@ jobs:
           console.log('Validated ' + world.regions.length + ' world broadcasts, map destinations, and interface assets.');
           NODE
       - name: Validate Python tools
-        run: python -m py_compile engine/inscription.py engine/test_inscription.py engine/run_world.py engine/check_performance.py hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py hub/test-world-engine.py hub/test-long-play-runner.py
+        run: python -m py_compile engine/inscription.py engine/test_inscription.py engine/institute_events.py engine/test_institute_events.py engine/run_world.py engine/check_performance.py hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py hub/test-world-engine.py hub/test-long-play-runner.py
       - name: Run canonical inscription regression tests
         run: python -m unittest engine.test_inscription
+      - name: Run Institute event adapter regression tests
+        run: python -m unittest engine.test_institute_events engine.test_inscription
       - name: Run portable jam regression test
         run: python hub/test-validate-jams.py
       - name: Run UI registry validator regression test

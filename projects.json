@@ -1507,5 +1507,34 @@
       "bodylounger",
       "muscle-myth"
     ]
+  },
+  {
+    "id": "golden-lion",
+    "name": "The Golden Lion — Recognition of the Titan",
+    "status": "active",
+    "kind": "character-and-world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/GOLDEN_LION.md",
+    "description": "A beloved golden lion-headed titan whose enormous, warm, self-assured presence anchors the Redwood Quarter; founding portrait, residence, divine relationships, Recognition Chamber, and continuing social life.",
+    "related": [
+      "muscle-myth",
+      "lineage-pantheon",
+      "sequoia-woodlands",
+      "tractus-world-atlas",
+      "hephaestus",
+      "neptune",
+      "zeus",
+      "god-daddy",
+      "teal-titan-golds-on-5th"
+    ],
+    "tags": [
+      "golden-lion",
+      "titan",
+      "recognition",
+      "redwood",
+      "divine-household",
+      "character-continuity",
+      "visual-artifact"
+    ]
   }
 ]

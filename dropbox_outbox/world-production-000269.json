@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000269",
+  "created_at": "2026-11-14T16:53:31.065510+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ATMOSPHERE / THE COMMON TABLE / worlds/common-table/README.md",
+  "content": "SETH: Fresh bread is cooling at the end of the oak table. Soup, roasted vegetables, fruit, and water are set out beneath the high windows, with the courtyard doors open to the evening air.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+  "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 269,
+    "actor": "LUKE",
+    "world": "THE COMMON TABLE",
+    "region_id": "common-table",
+    "source": "worlds/common-table/README.md",
+    "phase": "ATMOSPHERE",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

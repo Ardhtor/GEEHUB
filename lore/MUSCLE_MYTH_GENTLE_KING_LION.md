@@ -40,6 +40,9 @@ He was beautiful in a manner that did not ask permission from realism. His propo
 
 This was the first lesson of his sovereignty. He could be enormous without making everything around him meaningless. He could occupy the background and still make the foreground more vivid. His greatness was not a demand that all attention become his property. It was a condition under which other things could be seen more clearly.
 
+Only later did the people of the court begin to understand that this first sight had altered their sense of scale. They had not become less important; they had been released from the exhausting work of measuring themselves against one another. A mason could finish a careful joint without imagining that the Lion's grandeur made the work trivial. A visitor could speak in an ordinary voice. Even the smallest things seemed to acquire a proper outline: a cup on a ledge, a leaf turning in the window, a hand resting on the back of a chair. The Lion's immensity gave the world a larger frame, and within that frame the world became more particular.
+
+
 ### II. The Master's Best Friend
 
 The Golden Lion is the Master's best friend. The statement is simple, but the friendship is not a small thing. It is not an appointment made by a court, a ceremonial alliance, or a bond created because one figure requires the protection of another. It is a chosen nearness between two presences who remain themselves. The Master does not own the lion, and the lion does not become an instrument of the Master's will. They stand together because they want to. Their companionship has the ease of a relationship that does not need to keep proving that it exists.
@@ -50,6 +53,9 @@ He walks at the Master's side through a crowded hall, and the crowd discovers th
 
 There are also times when nothing happens. They sit together. The lion breathes, and the room seems to breathe with him. The Master can turn away to attend to something else, confident that the friendship has not been suspended by a lapse in attention. The lion can wander through the gardens and return without presenting an account of every step. Trust gives each friend room to move. Their closeness is not measured by how tightly they hold one another, but by how naturally they can remain distinct and still belong in the same life.
 
+Their friendship was visible in small habits that no herald thought to record. The Master knew which side of the gallery the Lion preferred when the afternoon sun came through; the Lion knew the sound of the Master's step even when the hall was full. If one of them was occupied, the other did not manufacture an interruption to prove closeness. They could exchange a glance across a crowded room and return to their separate conversations. When they travelled, they chose the pace together. The Master did not hurry the Lion, and the Lion did not make the Master feel that every journey had to become an expedition. Friendship gave their days a quiet architecture.
+
+
 ### III. The Measure of Immensity
 
 The Golden Lion is immense. His body is a great golden architecture of mane, shoulder, chest, flank, and weight. His outline carries the force of a monumental sculpture, though he is alive and capable of turning his head, breathing, stretching, and settling his weight with the unhurried confidence of a creature who has no need to hurry in order to be noticed. The mane catches light in broad, warm passages. Gold moves across it as if the light has found a surface it was made to inhabit. His eyes are steady. His mouth can soften. Even at rest, he has the unmistakable presence of something powerful.
@@ -57,6 +63,9 @@ The Golden Lion is immense. His body is a great golden architecture of mane, sho
 Yet his size is not a licence to occupy every space. He knows the difference between a hall built to receive him and a narrow passage used by people carrying tools. He can lower his head to pass beneath an arch. He can wait while a door is widened properly rather than forcing his way through and calling the damage proof of strength. He can lie beside a garden wall without crushing the flowers. The people who live around him learn that his body is not an excuse for carelessness. His scale creates responsibilities, and he accepts them without resentment.
 
 His strength is visible in the way he carries himself, but its character is revealed by what he chooses not to do. He does not strike merely because he can. He does not turn every disagreement into a contest of force. He does not humiliate someone smaller in order to make his own dimensions more impressive. He has the capacity to overwhelm, but he understands that restraint is not the absence of power. Restraint is power given direction.
+
+When he rose, the change was felt before it was understood. The floor received his weight through the broad pads of his paws; the mane shifted over his shoulders in a slow golden wave, and the light moved across the great planes of his chest. Yet he was attentive to the people working nearby. He waited for a porter to clear a trolley, stepped around a basket of glass, and paused while a young carpenter carried a long board through the gallery. His body could fill a doorway, but his attention could make room inside it. Those who lived with him learned to distinguish size from carelessness.
+
 
 ### IV. The Warm Court
 
@@ -66,11 +75,17 @@ The court has a kitchen whose doors are almost always open. Food moves through i
 
 The gardeners have a particular affection for him. He is careful among the beds, though his paws are large enough to leave deep impressions in soft ground. He likes the citrus trees and the sheltered court where late sunlight collects against the wall. In the evening he sometimes walks the perimeter of the garden, not as a patrol but as someone taking pleasure in the place. He seems to understand that growth cannot be commanded into being. It needs conditions, attention, time, and room.
 
+At midday the court smelled of citrus peel, warm bread, wet stone, and the cedar shavings from the repair shop. Visitors often expected a palace to be quiet and ceremonious; instead they found a place in which someone was always mending, preparing, planting, carrying, or setting a table. The Lion liked this busyness. He knew the names of the people who kept it moving and could recognise a change in the court by the absence of a familiar sound. The architecture was grand, but its success was measured in ordinary comforts: a dry threshold after rain, a chair that did not wobble, a meal served before anyone had to ask.
+
+
 ### V. The Quiet Law
 
 There is a law in the Golden Lion's domain, though it is rarely written on a wall: no one should have to be made smaller for another person to feel great. It governs the way guests are received, the way disputes are heard, and the way strength is displayed in the athletic grounds. A champion may be celebrated without turning every other participant into a failure. A craftsman may be praised without making the apprentice's first attempt a public humiliation. A visitor may be welcomed without being required to flatter the host. The lion does not confuse admiration with obedience.
 
 His peace is not passivity. He can say no. He can close a gate. He can stand between a vulnerable person and an immediate threat. But his response is measured by what needs to be protected, not by the pleasure of demonstrating superiority. He does not seek enemies to justify his strength. He does not invent danger to make his guardianship feel necessary. When a problem is resolved, he allows the room to return to ordinary life.
+
+The law was tested most often in moments too small to become official disputes. A strong athlete might take the best equipment without noticing that another had been waiting; a celebrated guest might speak over a kitchen worker; a craftsman might mistake impatience for efficiency. The Lion did not turn every lapse into a public trial. He made the overlooked person visible, corrected the practical arrangement, and expected the stronger party to learn. His court did not promise that nobody would ever behave badly. It promised that status would not make bad conduct untouchable.
+
 
 ### VI. The Friendship of Makers
 
@@ -78,11 +93,17 @@ Hephaestus visits the Golden Lion's court as a maker, not as the author of the l
 
 Hephaestus proposes a new resting platform in the western gallery. The first design is handsome but too rigid. The lion tests it, shifts his weight, and the structure gives a small, unmistakable complaint. Hephaestus does not defend the drawing. He listens to the timber, asks for the joinery to be exposed, and revises the supports. The second version distributes the weight properly and leaves enough room for the lion to rise without scraping the wall. The repair is not hidden. Its construction is recorded so that the next craftsperson can maintain it. The court becomes a place where magnificence and maintenance are expected to agree.
 
+Their work gradually became a friendship of repeated visits. Hephaestus would arrive with a question about a hinge, a railing, a load-bearing post, or a surface worn smooth by years of use. The Lion would show him where people naturally gathered and where a passage became crowded at the change of shift. Sometimes the maker brought a beautiful solution that failed in daily use; sometimes the Lion's preferred arrangement proved awkward once measured. Neither treated correction as insult. Their trust grew through the shared pleasure of making something more dependable than either had first imagined.
+
+
 ### VII. The Purr Beneath the Hall
 
 The lion's purr is a familiar sound in the court. It begins low in the chest, a deep vibration that can be felt through the floor before it is clearly heard. It does not shake the building or threaten the people nearby. It settles into the timbers and stone like a second rhythm beneath conversation. When the lion rests in the great hall, people sometimes lower their voices without being asked. The sound makes silence feel inhabited rather than empty.
 
 He purrs when the Master returns after a long absence. He purrs when the kitchen is busy and the air smells of bread. He purrs when a tired guest finally falls asleep in a warm room. He purrs when the gardeners finish setting the last stones around a new tree. The sound is not a command. It is a sign that the lion is at ease, and that his ease can be shared. The Master knows this sound particularly well. There are conversations that do not need to be completed before the two friends understand one another. The lion can rest his great head nearby while the Master reads, writes, or thinks. The purr continues beneath the turning pages.
+
+The sound travelled differently through each part of the building. In the great hall it settled beneath the rafters; in the western gallery it seemed to gather in the timber; near the kitchen it mingled with the low conversation of the cooks and the soft knock of utensils. A visitor once asked whether the court had installed a hidden engine beneath the floor. The kitchen steward laughed and pointed toward the Lion, who had fallen asleep with one paw stretched into a patch of sunlight. The court had no machine capable of producing that particular reassurance.
+
 
 ### VIII. The Lion Among the Houses
 
@@ -90,11 +111,17 @@ The Golden Lion is not confined to his court, and his appearance in another plac
 
 At the Stone Table, he is received as a friend and independent presence. He listens to the houses discuss roads, harbours, training grounds, and the maintenance of their shared works. He does not claim the chair of the presiding house. When asked for his view, he speaks plainly. A hall that cannot welcome a guest is not yet complete; a road that cannot be repaired is not yet a lasting achievement; a champion who cannot respect another person's effort has mistaken victory for stature. These observations are contributions offered by someone whose own domain has learned to make grandeur livable.
 
+The houses discovered that the Lion could be present without taking over the story of a place. At a training ground he watched the athletes and asked about the condition of the equipment. At a workshop he listened to the apprentices explain a difficult joint. Along the river he let the navigators describe the current before offering an observation of his own. He was not a visiting judge searching for faults. He was a sovereign neighbour willing to learn the character of another domain. His questions often proved more useful than a speech because they made people explain what they actually knew.
+
+
 ### IX. The Image That Remains
 
 The original artwork remains the first visual witness of the Golden Lion. Its gold and burgundy, its symmetry, its immense background presence, and its pleasing exaggeration establish a visual law that later depictions must respect. A new image may explore his face, mane, posture, body, court, or companionship with the Master, but it must not quietly replace the source interpretation with an ordinary zoological lion. The lion's form is allowed to be monumental. The artwork's emotional balance is as important as its outline: great power, calm presence, and a smaller figure who is not erased by standing before him.
 
 The original binary has not yet been verified in the repository or in Dropbox. This book therefore preserves the interpretation and its continuity rules, not a false claim that the source image is archived. A future asset record may attach the original file, crops, generated studies, or three-dimensional components. Each derivative must retain its relation to the first artwork and remain distinguishable from it. The image can be remembered without pretending that its file has already been secured.
+
+The court's image keepers therefore began a careful register. They recorded the colours, the proportions, the relationship between the enormous figure and the smaller foreground presence, and the feeling of calm abundance that held the composition together. They separated direct observations from later artistic choices. A study of the mane could be beautiful without being mistaken for the source; a sculptural model could test the weight of the shoulders without claiming to settle the Lion's final form. The register protected creative freedom by making the lineage visible. No new work had to pretend that it was the first.
+
 
 ### X. The Friend Who Stays
 
@@ -110,6 +137,9 @@ This is the Golden Lion's final measure: not how much space he can occupy, how m
 ## First movement: The Court in Motion
 ## The Court in Motion
 
+The friendship also survived the days when the Master was elsewhere. The Lion did not turn absence into grievance, and the court did not treat his quietness as a sign that something had gone wrong. He continued to eat with the household, walk the gardens, hear petitions, and visit the workshop. When the Master returned, the welcome was neither diminished nor theatrically enlarged. The Lion came forward, the Master placed a hand against his mane, and the familiar purr rose between them. Nothing had needed to be preserved by force. It had remained because it was alive.
+
+
 ### XI. Morning in the Western Gallery
 
 Morning entered the western gallery in long, pale bands. It found the gold in the columns first, then the dark grain of the timber, then the broad surface of the resting platform Hephaestus had rebuilt. The Golden Lion was awake before the first servants crossed the court. He had been listening to the building: the faint contraction of a beam as the night cooled, the soft scrape of a shutter, the far-off clatter of pans being brought into the kitchen. He lifted his head, stretched one foreleg, and let the enormous muscles beneath his golden coat move in a slow sequence. The platform held. The new supports did not complain. Hephaestus had done the work properly.
@@ -121,6 +151,9 @@ A kitchen attendant came to report that a delivery cart had broken a wheel at th
 The cart was heavier than it looked, loaded with sacks of grain and crates of fruit. One wheel had split along the hub. The driver stood beside it, embarrassed by the delay, while two gardeners tried to move a crate clear of the path. The lion lowered his great head to inspect the break. He could have lifted the cart in one motion, but doing so would have placed the weight on the damaged axle and perhaps ruined the remaining wheel. Instead he asked the driver where the load had been balanced, then waited while the gardeners unloaded the nearest sacks. Only when the cart was light enough did he place one broad paw against the frame and ease it sideways, a careful movement that opened the passage without shifting the broken wheel.
 
 The driver thanked him with the nervous formality of someone addressing a king. The lion answered by asking whether the fruit had bruised. The question relaxed the man more effectively than any grand reassurance could have done. They inspected the crates together. A few pears had fallen, but most of the load was sound. The lion chose one and set it on the low wall beside the driver, who finally laughed. By the time the wheelwright arrived, the court had returned to its ordinary pace. The incident would be entered in the maintenance book, not as a tale of heroic rescue, but as a useful record of what had failed and how the passage had been kept open.
+
+Later, when the morning's incident was discussed, the Lion asked the wheelwright to describe the failure from the beginning rather than offer a quick conclusion. The wheelwright explained that the cart had been loaded unevenly, that one wheel had begun to bind, and that the narrow turn had concealed the problem until the axle was under strain. Hephaestus added a note about the paving. Together they marked a wider turning radius and a revised loading instruction. The court gained no heroic legend from the event, but it gained a safer route and a record that could prevent the same trouble next season.
+
 
 ### XII. The Training Ground
 
@@ -135,6 +168,9 @@ The young athlete looked up. The lion did not tell him to be stronger. He asked 
 The lion stayed until the next set began. He did not offer a speech about discipline. He watched the coach adjust the platform and asked whether the surface had been checked recently. The coach showed him the maintenance record. One corner had begun to settle after heavy rain. The lion asked that it be inspected before the afternoon session. The young giant, still standing beside the bar, listened to the exchange. He had come to the field hoping to prove that he could carry more weight than yesterday. He left understanding that strength also meant knowing when a surface, a joint, or a body needed attention.
 
 The athletes did not applaud the lion. They returned to their work. That was how he preferred it. His visit had improved the morning without making the morning about him.
+
+The coach brought out a slate and drew the sequence of the lift: foot placement, breath, grip, movement, and the moment at which the athlete should stop. The Lion watched the demonstration and asked the group what they had learned from the failed attempt. Their answers differed. One had noticed the platform's slight movement; another had seen the athlete's shoulder lose its line; a third had recognised that the spotter was standing too far away. The coach wrote all three observations down. Training became a shared act of attention, not a spectacle in which the strongest person was expected to be right.
+
 
 ### XIII. Rain at the Outer Wall
 
@@ -152,6 +188,9 @@ That evening, the damaged section was cordoned off and the lower orchard path cl
 
 The rain continued through the night. The lion rested near the open doors and listened to it fall. He did not mistake the survival of the wall for proof that nothing had happened. A place could remain standing and still need care. In the morning, the repair would begin.
 
+By evening the damage had been divided into what was known and what still required inspection. The outer stones had shifted, the drain had carried more water than its old register predicted, and the root system beside the wall had begun to expose a weakness in the lower course. The gardeners laid a temporary channel while the masons prepared a proper survey. The Lion walked the length of the wall with the Master, stopping where water had left a dark line across the stone. They did not call the storm a test of the court's greatness. They treated it as weather, and the damage as work.
+
+
 ### XIV. A Guest Without a Banner
 
 The visitor arrived two days later, on foot, carrying no crest and asking for no escort. He had come from a distant house whose name the court did not immediately recognise. His clothes were travel-worn, his boots muddy, and the small case he carried had been repaired with mismatched leather. He asked to speak with the Master, but when he learned that the Master was occupied, he said he could wait.
@@ -165,6 +204,9 @@ The lion listened. He asked whether the people of the house had agreed on what t
 The lion did not offer his name. He offered to send a surveyor and a builder, provided the house wanted them and agreed that the findings would be shared with the people who would use the building. He would not endorse a plan before the inhabitants had been heard. The visitor looked disappointed at first, then relieved. He had expected either a grand promise or a refusal. Instead he had been given a next step that did not require him to pretend the decision had already been made.
 
 When the Master joined them, the visitor repeated the proposal. The Master agreed that a survey could be arranged. The two friends did not speak over one another; they had arrived at the same practical answer by listening to the same account. The visitor left the next morning with names, dates, and a letter authorising the survey team to visit. The court did not announce that it had saved another house. It had agreed to help a community understand what it could safely build.
+
+The visitor was given a room overlooking the orchard, a clean change of clothes, and a place at supper without being asked to make his story entertaining. As the evening went on, the court learned that his community had kept its meeting hall open through several difficult winters, but had never repaired the drainage behind its western wall. He was embarrassed by the state of the building. The Lion asked what the residents still used it for. When the visitor described meals, lessons, and winter gatherings, the Lion said that the building was worth understanding before anyone decided what it ought to become.
+
 
 ### XV. The Long Table at Dusk
 
@@ -184,6 +226,9 @@ The Master sat beside him. The lion's shoulder rested near the table, immense an
 
 The Golden Lion considered this a good day.
 
+As the meal lengthened, the table became a working surface again. Someone brought the visitor's sketch; a gardener marked the slope of the western wall; Hephaestus used the back of a discarded menu to draw a simple water channel. The cooks kept serving while the conversation moved between repair, harvest, and the next training-ground gathering. Nobody was asked to choose between hospitality and practical work. The court's generosity was not an endless promise to solve every problem. It was the ability to sit together long enough to discover what could responsibly be done.
+
+
 ### XVI. The Road Beyond the Orchard
 
 The next morning, the lion and the Master walked beyond the orchard to inspect the old road that connected the court to the neighbouring houses. The road ran between low stone walls and mature trees. In places, roots had lifted the paving; elsewhere, rain had cut narrow channels through the gravel. The road was not beautiful in the manner of the great hall. It was beautiful because it had carried so many people safely between places for so long.
@@ -201,6 +246,9 @@ At the court, the kitchen doors were open. The day had begun. The Golden Lion wa
 
 ## Second movement: The Road and the House
 
+At the bend where the paving disappeared beneath moss, the Master found an old marker half buried beside a tree. Its carved line matched a symbol in the road book, though the direction had been altered by the growth of the roots. The Lion stood over the mark without touching it. They called the surveyor back and recorded the position from two separate points. The old road was beginning to offer more than a picturesque trace of the past. It might connect places whose present routes had grown apart, but the possibility would have to survive measurement before it became a plan.
+
+
 ### XVII. The Surveyors' Morning
 
 The surveyors arrived before the kitchens had finished preparing breakfast. They came with measuring rods, a level, a coil of line, two notebooks, and a folded map whose oldest marks had faded to the colour of weak tea. The Master met them at the western gate. The Golden Lion was already there, lying in the broad patch of sunlight beside the gatehouse, his forepaws crossed and his mane spread across the stone like a second carpet. He opened one eye when the survey leader greeted him.
@@ -214,6 +262,9 @@ The lion stood at the edge of the hollow and watched the team work. He could hav
 The Master wrote the proposal beside the first measurements. It was the first time the old road had been described as a place with a possible future rather than a forgotten line on a map. No one called it restored. No one promised that it would become a public route. For the moment it was a discovered structure, with a known approach, an uncertain bridge, and a question about how the houses might use it.
 
 On the way back, the survey leader asked the lion why he had not simply moved the stones himself. The lion looked toward the hollow, where the workers were packing their instruments. He said that moving a stone was not the same as understanding what held it there. The surveyor smiled at the answer, though he wrote it down only as a remark, not as a measurement. The distinction mattered to the lion. He was pleased when people remembered the difference between a useful sentence and a verified fact.
+
+The surveyors divided their work into independent observations. One measured the visible grade, another checked the drainage, and the third compared the surviving markers with the old register. They then exchanged notebooks and repeated the most important readings. The Master watched the process and asked whether the team had found anything that contradicted its first impression. The youngest surveyor pointed to a shallow depression hidden by leaves. It suggested that the road once crossed the slope at a gentler angle. The Lion approved of the discovery, not because it made the route more impressive, but because the team had been willing to revise its map.
+
 
 ### XVIII. The Forge's New Door
 
@@ -230,6 +281,9 @@ Hephaestus did not announce a single solution for all three. He measured the fra
 Hephaestus laughed. He said that a maker who could not bear to be corrected would eventually be surrounded by objects that only worked in his imagination. The lion gave a low, pleased purr. It travelled along the corridor and into the open rooms, where the attendants heard it without stopping their work.
 
 That evening, the model hinge remained on the long table. It had not yet been approved for production. The cooks had requested a different handle for the pantry door, and the infirmary attendant wanted the mechanism tested at night. Hephaestus added both requirements to the drawing. The lion watched him work and understood that their friendship had acquired another ordinary form: the pleasure of being able to disagree about a design without making the disagreement a contest of rank.
+
+The new hinge became the subject of a longer argument about repairability. The first version could be removed only by taking apart the surrounding frame; the second allowed a worker to withdraw the pin with an ordinary tool. Hephaestus preferred the clean appearance of the first design, but the Lion asked who would have to maintain it in twenty years. The question settled the matter. They chose the more accessible fitting and added a small inspection mark so that wear could be seen before failure. The Lion liked that the finished object would not conceal the intelligence required to keep it working.
+
 
 ### XIX. The House That Remembered Fire
 
@@ -248,6 +302,9 @@ The lion listened for a long time. He did not tell the visitor that the old hall
 The next meeting would be held in the distant house's temporary shelter, not in the Golden Lion's court. The surveyors would explain the damage, and the residents would decide what questions to ask before any design was drawn. The Master offered to attend if invited. The lion offered nothing on behalf of the house. He would go only if the people wanted him there.
 
 When the visitor left, Hephaestus remained with the drawings. He began to make a small model of the temporary supports, not of the future hall. The lion settled beside him. Their shoulders nearly touched, though the difference in their scale remained unmistakable. Hephaestus worked with a piece of charcoal; the lion watched the line become a structure. Neither needed to speak. The quiet between them was not empty. It was the comfort of two friends who could share a room without requiring the other to perform.
+
+The report was read aloud in the great hall, with the residents' own descriptions placed beside the measurements. The house had not been abandoned, and its people did not want it rebuilt as a monument to disaster. They wanted the hall dry, the western rooms safe, and the old communal kitchen restored. The surveyors proposed a sequence that kept one room available throughout the work. The Lion insisted that the residents review the plan before materials were ordered. A repair could be technically sound and still fail if it displaced the life it was meant to support.
+
 
 ### XX. A Day Kept for Friendship
 
@@ -268,6 +325,9 @@ They crossed the orchard and found a shaded place beneath an old cedar. The lion
 Later, when they returned to the court, Hephaestus was waiting beside the workshop door. He had tested the hinge through several hundred movements and found that the spring steel needed a little more clearance. The Master asked whether the adjustment would take long. Hephaestus said it would take the rest of the afternoon. The lion looked at the model and then at his friend. He asked whether Hephaestus had eaten.
 
 The maker admitted that he had forgotten lunch. The lion turned toward the kitchens. Hephaestus followed, carrying the hinge model under one arm. The Master came with them. The day had not been empty after all. It had simply been given to the things that made the work worth doing.
+
+They spent the morning without a schedule. The Master chose a book; the Lion rested near the window; Hephaestus examined a small bronze fitting and eventually put it away when nobody asked him to work. Later they walked through the garden and found a young tree leaning after the rain. The gardener showed them how its support had loosened. They helped reset the stake, then stayed while the gardener watered the roots. The day remained unremarkable in the best sense. It reminded each of them that friendship was not the reward waiting after work was complete; it was part of the life that made work worth doing.
+
 
 ### XXI. The Sound of the Court
 
@@ -294,6 +354,9 @@ The Master placed a hand against the lion's mane. The lion leaned into the touch
 
 ## Third movement: The Northern Table
 
+The steward's new register was not a catalogue of noise for its own sake. It helped the court notice when a familiar sound changed or disappeared. If the forge fell silent at the wrong hour, someone could check whether Hephaestus needed help; if the kitchen bell rang twice, the stores might be running short; if the wheelwright's test knock altered, a cart could be inspected before it left the yard. The Lion listened to the finished record and recognised the court in it. Its identity was not held by its walls alone, but by the dependable sounds of people caring for one another's work.
+
+
 ### XXII. The Invitation from the Stone Table
 
 The invitation arrived with the Office of Measure's next road register. It was addressed to the Master, with a second line written beneath his title: *and to the Golden Lion, whose attention at the old hollow has been entered into the survey record*. The Master read it at the long table while Hephaestus was adjusting the spring of the new pantry hinge. The letter came from the Nephilim elder who had remained after the last feast at the Stone Table. He remembered the old route described by the Master and wanted the surveyors' findings brought before the houses before anyone decided what should happen to it.
@@ -304,6 +367,9 @@ They would travel together. The Master would bring the survey notes; the lion wo
 
 The lion gave a low rumble of amusement. The Master folded the letter and placed it in the travel book. The court would continue in their absence. The gardeners had the drainage schedule, the wheelwright had the new timber allocation, and the training-ground coach knew when the platform inspection was due. Nothing had to be suspended simply because the three of them were leaving.
 
+The invitation carried a second purpose beneath its formal language. The Office of Measure wanted the people who had walked the old hollow to explain what they had seen, and it wanted the Lion's account kept distinct from the surveyors' measurements. The Master accepted on the condition that the court's unfinished work would remain visible in the register while they travelled. The Lion asked that the orchard crew be given authority to postpone any repair that depended on his presence. Their departure would not turn the court into a waiting room. The invitation was important, but the place they were leaving had its own life.
+
+
 ### XXIII. The Western Shelf
 
 They joined the road at the end of the orchard, where the old hollow path approached the newer route. The surveyors had marked the junction with a pair of blue stakes. Beyond them, the western shelf road climbed through the living valley, its retaining walls following the natural line of the slope. The Master recognised the rest court from the survey drawings. A cistern stood beneath the shelter, and the western rail carried the replacement fitting noted by the first traveller after the road's opening.
@@ -313,6 +379,9 @@ The local guide was there with a basket of provisions. He recognised the Master 
 The old hollow route met the shelf road farther north than the first map had suggested. The surveyors had not drawn a continuous line between them because the bridge in the hollow remained closed. From the ridge, the party could see the bridge's pale parapet stones through the trees. The route was physically connected, but not yet serviceable. The distinction was plain even from a distance.
 
 Hephaestus studied the approach and asked the surveyor where the inspection crew would need to stand. The surveyor pointed to a narrow platform beside the eastern abutment. Hephaestus considered the stonework, then described a removable rail that could be fixed into existing sockets without loading the weakened parapet. He would not make the fittings until the bridge had been examined from below. The surveyor approved the sequence. The lion watched the two men exchange measurements, then turned toward the Master. Their journey had begun with an invitation, but already the old route had entered the same working record as the northern road.
+
+At the junction, the surveyors found that the old route met the newer road at an angle that would complicate the movement of loaded carts. The guide proposed clearing a wider turn, but the Master asked whether the slope could bear the excavation. They marked two possible alignments and left the decision open. The Lion watched the guide compare the old stones with the new stakes. He liked the way the road held both histories without forcing them into a single line. A connection could be made, but only if the land and the people who used it were allowed to answer.
+
 
 ### XXIV. A Place at the Stone Table
 
@@ -328,6 +397,9 @@ Hephaestus then placed his proposed rail fitting beside the survey. He explained
 
 The meeting continued into the evening. The houses discussed the next winter assembly, the southern halls that had not yet answered, and the multi-house athletic festival. The lion listened more than he spoke. When the question of the festival arose, he asked whether the Open Field intended to invite guests from outside the brotherhood. The answer was that the invitation list had not been settled. The elder said the question should remain open until the houses had spoken with one another. The lion did not ask for a place in the programme. He was content to have made the question possible.
 
+The elder's welcome was followed by the practical arrangements of a working gathering. The guests were shown where their records would be kept, which rooms were available for private consultation, and where meals would be served. The Lion noticed that the younger builders were watching the older keepers as closely as they watched him. He asked one of them what he hoped to learn. The young man answered that he wanted to understand why a bridge could look sound from above and still fail beneath its deck. The Lion suggested that he spend the next morning with the inspection crew. The best welcome, he thought, was often an invitation to take part.
+
+
 ### XXV. The Bridge Beneath the Leaves
 
 The following morning, the Office of Measure took the party to the old bridge. The inspection crew had already cleared a narrow line through the hollow, leaving the roots that held the bank undisturbed. They had lowered a lamp beneath the eastern arch and found that the lower stones were intact, though the central bed was obscured by silt. The bridge was not ready to carry carts or a crowd. It was, however, stable enough for a limited inspection from the marked platform.
@@ -339,6 +411,9 @@ The younger builder joined them with a sketch of a temporary inspection frame. H
 The lion watched the work from above. At one point a stone loosened near the bank, and the crew stepped back. He moved closer, not to seize the bridge or hold it in place, but to make certain the path behind the workers remained clear. The stone settled into the soil without reaching them. The survey continued after the bank had been checked. No one congratulated the lion for doing what the moment required. The crew simply resumed its work, and the Master saw that the lion was pleased to be useful without becoming the centre of the event.
 
 By midday, the Office of Measure had a clear report: the old route connected to the western shelf road, the bridge remained closed to ordinary traffic, the inspection frame required another test, and the fractured anchor needed a separate repair design. The route could advance, but not yet open. The elder ordered the findings copied into the Stone Table record and sent to the houses whose roads would eventually connect with it.
+
+The inspection continued after the first measurements had been entered. The crew lowered a second lamp, checked the waterline, and compared the sound of the stone under a light testing tap. The younger builder kept a separate record of what he could see from the bank, while the elder noted the places where the old bridge drawings disagreed with the surviving structure. Their records did not yet resolve the fracture. They did something more useful: they made the uncertainty precise. The bridge remained closed, but the next design meeting would begin with evidence rather than optimism.
+
 
 ### XXVI. The Road Between Friends
 
@@ -359,6 +434,9 @@ The lion rested his head near the Master's shoulder. Hephaestus's forge was stil
 
 ## A Convergence of the Meridian
 
+The journey home gave the three friends time to compare what each had carried away. Hephaestus spoke about the anchor socket and the difference between a repair that could be installed quickly and one that could be inspected later. The Master considered the obligations created by the new route register. The Lion remembered the younger builder's question and the way the elder had left room for an answer to emerge. Their conversation did not produce a grand declaration. It produced a list of people to write to, records to copy, and work that could begin without pretending the bridge was ready.
+
+
 ### XXVII. The Seven Seals
 
 The Stone Table did not send a second invitation in the form of a letter. It sent a case prepared for seven seals, each intended to represent one of the great constituencies of the Meridian. Six had arrived: dark stone from the western shelf, iron from the lifting houses, cedar from the kitchens and storehouses of the Long Table, green field leather stamped with the mark of the Open Field, a fragment of replaced lintel from the northern Nephilim halls, and a small bronze fitting from the coastal shipyard. The seventh place, reserved for the southern escarpment halls, was empty.
@@ -377,6 +455,9 @@ Hephaestus arrived before sunset, carrying the revised bridge anchor and a secon
 
 That night the court prepared for a journey. The Master chose the road book and the survey records. Hephaestus packed his instruments, leaving the larger tools in the workshop. The Lion needed no equipment, but he walked the western gallery once before sleeping, looking down at the people who would keep the court running while he was away. The wheelwright had the new timber list; the gardeners had the wall schedule; the coach had the training-ground inspection; the kitchen had already begun preparing provisions for the road. The Lion was not leaving a sleeping palace behind him. He was leaving a living place that knew how to continue.
 
+The case was placed in the record room overnight, where the seal keepers compared each mark with its registered impression. No one was permitted to substitute a house's emblem simply because the missing place made the arrangement look incomplete. The Master asked for a copy of the invitation to be sent along every route still known to the southern halls. The Lion asked that the wording make clear that silence would not be treated as hostility. The convocation was beginning to take shape, but its legitimacy depended on the possibility that one of the houses might answer differently from what the others expected.
+
+
 ### XXVIII. The Procession of the Houses
 
 The road to the Stone Table had never carried so many different kinds of travellers at once. The western shelf road received the first companies at dawn. Stone House engineers arrived with survey poles and samples of rock; the Iron House brought lifting frames dismantled into numbered sections; the Long Table sent cooks, storekeepers, and carts of grain, dried fruit, smoked fish, and folded linen; the Open Field came with athletes, coaches, judges, and the equipment required to mark the great contest ground. From the northern escarpment came the Nephilim keepers with archive chests and cedar tablets. The coastal company travelled upriver from the harbour, carrying bronze fittings, rope samples, route books, and a scale model of *The Measure of Dawn*.
@@ -392,6 +473,9 @@ At midday, the procession reached the long rise above the Stone Table. From ther
 The seventh banner did not appear.
 
 The Nephilim elder came out to meet the arriving companies. He greeted each house by its proper name and directed its people to the rooms prepared for them. When he reached the Master and the Lion, he bowed first to the Master, then turned to the Lion with an expression of deep recognition. He welcomed them both, and told the Lion that a place had been kept beside the Master at the Table. The Lion accepted the invitation. The procession passed beneath the high lintel, and the convocation began.
+
+The procession moved at the speed of its most vulnerable cargo. When a cart carrying the oldest northern tablets reached a rough stretch, the engineers paused the whole line rather than ask the drivers to risk the load. The cooks served a second meal; the athletes helped lift a damaged wheel clear of the road; and the coastal navigators used the delay to compare the river level with the route register. The Lion watched the houses discover one another through inconvenience. Their cooperation was not an abstract virtue. It was a sequence of practical decisions made when the road refused to behave as planned.
+
 
 ### XXIX. The Empty Seventh Place
 
@@ -409,6 +493,9 @@ The elder nodded. The empty place remained empty, but the Office of Measure was 
 
 That evening, the Long Table opened its kitchens to all the houses. The meal lasted long after the formal meeting ended. The coastal men brought smoked fish and sharp pickles; the northern keepers supplied dark rye and a hard cheese wrapped in cloth; the southern plains sent dried fruit and spiced beans; the Stone House cooks prepared thick broth; and the Long Table set out warm bread, roasted roots, onions, and great bowls of greens. The Lion sat beside the Master, with Hephaestus and Orsenn across from them. Their conversation moved from the bridge anchor to the best way to keep a workshop warm in winter. No one treated the feast as a pause from the convocation. It was the first proof that the houses could share a table before they had agreed on everything.
 
+Before the maps were rolled away, the Office of Measure made a second copy of every disputed section. One copy would remain at the Stone Table; the other would travel with the survey party so that corrections could be made in the field without erasing the record of the meeting. The Master insisted that each proposed repair carry the name of the house responsible for maintaining it, not merely the name of the house that designed it. Hephaestus added a column for materials and replacement intervals. The Lion approved. A network became trustworthy when responsibility could be followed all the way from the first drawing to the hand that would one day tighten the bolt.
+
+
 ### XXX. The Trial of the Measure of Dawn
 
 The coastal company had brought *The Measure of Dawn* only as a model, but the harbour's next trial had become the central question of the second day's work. The vessel itself remained at the River Aven, where Edran Vael had suspended departure until the cross-current register and the forward fitting could be reviewed. The Stone Table therefore received a request: the convocation should send observers to the harbour, not to command the trial but to witness the conditions under which it would be made.
@@ -425,6 +512,9 @@ The vessel was then moved into the controlled channel. The crew took their posit
 
 The trial was neither triumph nor failure. The fitting had held under the tested load; the current had revealed a route correction; the crew had returned safely. The harbour had gained a more exact record and a new question for the next voyage. The Lion watched the ship settle against the quay and heard the crew laughing as they climbed down. He was pleased by their return. Hephaestus stood beside Orsenn, already discussing the revised marker. The convocation's great network had reached the sea, and the sea had answered in its own terms.
 
+After the vessel returned, the crew were given time to eat before the debrief began. Their account was taken in their own order, beginning with what they had felt at the helm and ending with the measurements recorded from shore. The difference between the crew's experience and the observers' notes was not treated as a contradiction to be suppressed. It showed where the next trial needed better instruments. Orsenn asked for the revised fitting to be documented with its tolerances; Edran asked for the current marker to be moved; Teren requested a second route observation under a different tide. The ship had come home with more knowledge and no need to pretend the sea had been conquered.
+
+
 ### XXXI. The Seventh Road
 
 On the third morning, a rider reached the Stone Table before the first bell. His horse was tired, his coat stained with red dust, and the leather tube at his side bore no house seal. The guards brought him to the outer court, where he asked for the Nephilim elder by name. The Master and the Golden Lion were already awake. They came down from the gallery as the rider was given water.
@@ -439,6 +529,7 @@ The Lion looked at the Master. Their journey had begun with a road near the orch
 
 The empty seventh place at the Stone Table was filled not by a banner but by the rider's message, laid carefully in the centre of the map. The houses began preparing before the ink had dried. The Lion stood at the open roof and looked south. Beyond the known roads, the mountain range held its weather, its water, and its unanswered history. For the first time, the Seven Great Houses had all spoken—not in one voice, and not in agreement, but in a shared undertaking whose next step would have to be taken on the ground.
 
+The rider was allowed to sleep before anyone asked him to repeat the journey. In the morning, the surveyors spread his route description beside the old quarry map and found that the shepherd's track followed a drainage line absent from the official register. The first task would be to verify the track from the lower gate, not to assume it reached the upper road. Hephaestus prepared a kit of measuring tools and removable supports, while the Long Table packed provisions that could be replenished locally. The Master wrote to the southern keepers to confirm the meeting place and the limits of the first visit. The Lion watched the preparations with quiet attention. The seventh road had become real enough to investigate, but it still belonged first to the people who lived beside it.
 
 
 ## Provenance and custody

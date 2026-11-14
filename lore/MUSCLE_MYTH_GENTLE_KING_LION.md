@@ -188,6 +188,99 @@ On the return journey, they passed the training ground. The young giant was ther
 At the court, the kitchen doors were open. The day had begun. The Golden Lion walked in beside the Master, carrying no new title and making no claim upon the road beyond the orchard. He had seen something that might matter later. It had been recorded. That was enough for now.
 
 
+## The Road and the House
+
+### XVII. The Surveyors' Morning
+
+The surveyors arrived before the kitchens had finished preparing breakfast. They came with measuring rods, a level, a coil of line, two notebooks, and a folded map whose oldest marks had faded to the colour of weak tea. The Master met them at the western gate. The Golden Lion was already there, lying in the broad patch of sunlight beside the gatehouse, his forepaws crossed and his mane spread across the stone like a second carpet. He opened one eye when the survey leader greeted him.
+
+They began with the road beyond the orchard. The workers who had marked the leaning wall and the blocked culvert joined them, and the party moved at the pace of the slowest instrument. The lion followed without crowding the narrow path. When the surveyors stopped, he stopped; when they knelt to inspect a joint, he lowered his head to see what they had found. The Master carried the small book, but today he left space on the page for the surveyors' own measurements. Their numbers would be the record. His notes would preserve the circumstances in which the numbers had been taken.
+
+The old route through the hollow proved longer than it had appeared from above. Beneath the leaves, the paving descended in a shallow curve, then crossed a narrow run of water by way of a low stone bridge. The bridge had not fallen, but its parapet was broken and the central stones were obscured by moss. One surveyor found a maker's mark under the eastern lip. Another discovered a drainage slot cut into the lower course, still carrying a thin thread of water. The route had not simply been abandoned. It had been designed to manage the slope and the water together.
+
+The lion stood at the edge of the hollow and watched the team work. He could have cleared the brambles in a moment, but the plants were holding the bank in place. The surveyors explained that removing them too quickly might loosen the soil and make the bridge approach less stable. He listened, then asked whether the route could be made visible without being opened to traffic. The answer was yes: a narrow inspection path could be cut back by hand, with the roots protected and the bridge left closed until its foundations had been examined.
+
+The Master wrote the proposal beside the first measurements. It was the first time the old road had been described as a place with a possible future rather than a forgotten line on a map. No one called it restored. No one promised that it would become a public route. For the moment it was a discovered structure, with a known approach, an uncertain bridge, and a question about how the houses might use it.
+
+On the way back, the survey leader asked the lion why he had not simply moved the stones himself. The lion looked toward the hollow, where the workers were packing their instruments. He said that moving a stone was not the same as understanding what held it there. The surveyor smiled at the answer, though he wrote it down only as a remark, not as a measurement. The distinction mattered to the lion. He was pleased when people remembered the difference between a useful sentence and a verified fact.
+
+### XVIII. The Forge's New Door
+
+Hephaestus came to the court that afternoon carrying a small object wrapped in canvas. He had been working on the orchard drainage plans, but the object was not a tool for the wall. It was a model of a door hinge, made from bronze, oak, and a narrow strip of spring steel. The hinge was large enough to be handled easily, with its moving parts exposed. He set it on the long table and asked the Master and the lion to try it.
+
+The Golden Lion lowered his great head until one eye was level with the model. Hephaestus demonstrated the movement. The door could swing wide without scraping the floor, settle gently against its stop, and be lifted free for repair without dismantling the frame. A small pin could be removed with an ordinary tool. Nothing had been hidden inside a sealed casing. The design was not the most elaborate hinge Hephaestus could make. It was the one that a maintenance worker could understand on a cold morning with a stiff hand and a short amount of time.
+
+The lion touched the oak with one claw, carefully enough not to mark it. He asked why Hephaestus had brought this particular design to them. The maker explained that the court's older doors had been built for strength but not always for service. Some required two people to lift them; others had been fitted with mechanisms that could only be adjusted by the original smith. He wanted to replace the worst of them, but he did not want to turn the court into a gallery of his inventions. The new hinge was an invitation to test a simpler standard.
+
+They spent the afternoon walking through the older rooms. The Master opened the maintenance book, and Hephaestus examined each door in turn. The lion accompanied them, sometimes waiting in the corridor while the two makers spoke with the attendants who used the rooms every day. At the pantry, a cook showed them a door that caught when the flour deliveries arrived. At the infirmary, an attendant demonstrated a hinge that made a sharp sound whenever the door was moved at night. In the western gallery, the old door had settled so far that its lower edge scraped a pale line across the stone.
+
+Hephaestus did not announce a single solution for all three. He measured the frames, asked how often each door was used, and wrote down the complaints in the workers' own words. The lion noticed that he was more interested in the attendants' descriptions than in the praise they offered for his model. Later, when they were alone in the corridor, the lion told him that this was why he liked having him in the court: Hephaestus could make a thing beautiful, but he did not become offended when the people who used it asked for something different.
+
+Hephaestus laughed. He said that a maker who could not bear to be corrected would eventually be surrounded by objects that only worked in his imagination. The lion gave a low, pleased purr. It travelled along the corridor and into the open rooms, where the attendants heard it without stopping their work.
+
+That evening, the model hinge remained on the long table. It had not yet been approved for production. The cooks had requested a different handle for the pantry door, and the infirmary attendant wanted the mechanism tested at night. Hephaestus added both requirements to the drawing. The lion watched him work and understood that their friendship had acquired another ordinary form: the pleasure of being able to disagree about a design without making the disagreement a contest of rank.
+
+### XIX. The House That Remembered Fire
+
+Four days later, the survey team returned from the distant house. They brought a report on the foundations, a set of measurements, and a bundle of sketches made after speaking with the residents. The old hall had been built over a shallow spring. Its stone footings were still sound in some places, but the heat of the fire had cracked several joints, and the northern wall had shifted. The surveyors recommended that no one enter the remaining structure until temporary supports had been installed.
+
+The visitor who had first brought the request was waiting in the guest hall. He stood when the Master entered, then looked past him toward the doorway. The Golden Lion came in slowly, lowering himself onto the stone floor with a quietness that made the room feel larger rather than smaller. The visitor had expected a decision. Instead, the Master placed the report on the table and asked him to read it with them.
+
+They went through the findings line by line. The visitor recognised the spring beneath the hall; older residents had spoken of it, though no one had understood why the floor was always cold near the northern wall. The sketches showed that the original building had been enlarged twice, each addition using a different foundation depth. The fire had not created every weakness. It had revealed a history of changes that the house had never properly recorded.
+
+The visitor asked whether the court would now support a complete rebuilding. The Master said that the report established what was unsafe, not what the community should want. The surveyors could return to explain the findings in person. Hephaestus could advise on temporary supports and possible layouts. Materials could be set aside for emergency shelter if the residents requested them. The final building would remain their decision.
+
+The lion asked the visitor what he missed most about the hall. The visitor answered at first that he missed its size, then reconsidered. What he missed was the sound of it: the conversations after meetings, the scrape of benches, the echo when the doors opened in winter. The hall had been too large for some gatherings and too cold for others, but it had held the house's ordinary life. He did not know whether a new building could do that.
+
+The lion listened for a long time. He did not tell the visitor that the old hall could be replaced. He said that a building could be reconstructed, but a place became a home through the repeated acts of the people who used it. The visitor looked down at the sketches. He began to describe the smaller rooms the residents had wanted for years: a warm room for winter meetings, a dry archive, a kitchen connected to the main hall, and a sheltered entrance where older members could wait without standing in the rain. The report had given him permission to speak about these things without feeling that he was betraying the lost building.
+
+The next meeting would be held in the distant house's temporary shelter, not in the Golden Lion's court. The surveyors would explain the damage, and the residents would decide what questions to ask before any design was drawn. The Master offered to attend if invited. The lion offered nothing on behalf of the house. He would go only if the people wanted him there.
+
+When the visitor left, Hephaestus remained with the drawings. He began to make a small model of the temporary supports, not of the future hall. The lion settled beside him. Their shoulders nearly touched, though the difference in their scale remained unmistakable. Hephaestus worked with a piece of charcoal; the lion watched the line become a structure. Neither needed to speak. The quiet between them was not empty. It was the comfort of two friends who could share a room without requiring the other to perform.
+
+### XX. A Day Kept for Friendship
+
+The Master had reserved the following day for no public business. The court's calendar showed a blank space, and the attendants had been told not to fill it unless something urgent arose. The Golden Lion discovered this when he found the Master in the western gallery, standing beside the open windows with a cup of tea and no ledger in his hands.
+
+The lion approached and rested his head near the window. Beyond the garden, the orchard wall was still marked by its cordon, and the workers were preparing the first stage of repair. The old road survey had been entered into the records. The distant house had its report. Hephaestus was in the workshop testing the hinge model. Everything that could reasonably wait had been allowed to wait.
+
+The Master asked whether the lion wanted to walk. The lion rose at once.
+
+They took the garden path without an escort. The gardeners greeted them, and one offered a pear from a basket. The lion accepted it gently, holding it between his teeth until the Master laughed and took it from him to divide with a small knife. They ate as they walked. Near the lower pond, the lion stopped to watch a pair of birds moving through the reeds. The Master sat on the low wall, and the lion folded himself beside him, his flank warming the stone.
+
+For a while they spoke about nothing that would enter the court's records. The Master described a tune he had heard in the kitchens. The lion remembered a summer when the orchard had produced so much fruit that the attendants had carried baskets to every neighbouring house. They disagreed about whether the best pears were the small late ones or the large early ones. The Master insisted that the early pears had more fragrance. The lion preferred the late fruit, which he said had learned patience from the trees.
+
+A gardener passed with a coil of twine and asked whether the lower path would reopen soon. The Master answered that the repair crew would inspect the wall again before setting a date. The gardener nodded and continued toward the beds. The conversation ended there. The day did not become a meeting simply because someone had asked a practical question.
+
+They crossed the orchard and found a shaded place beneath an old cedar. The lion lay down, and the Master leaned against his shoulder. The lion's breathing moved slowly through his great chest. His mane held the scent of warm leaves and sunlit stone. The Master rested there without needing to explain why. Their friendship did not depend on constant conversation. It had room for silence, for small disagreements, for shared food, and for the ordinary pleasure of being in the same place.
+
+Later, when they returned to the court, Hephaestus was waiting beside the workshop door. He had tested the hinge through several hundred movements and found that the spring steel needed a little more clearance. The Master asked whether the adjustment would take long. Hephaestus said it would take the rest of the afternoon. The lion looked at the model and then at his friend. He asked whether Hephaestus had eaten.
+
+The maker admitted that he had forgotten lunch. The lion turned toward the kitchens. Hephaestus followed, carrying the hinge model under one arm. The Master came with them. The day had not been empty after all. It had simply been given to the things that made the work worth doing.
+
+### XXI. The Sound of the Court
+
+The court had many sounds, and the Golden Lion knew them all. He knew the first bell from the kitchens, the scrape of the stable doors, the low knock of the wheelwright testing a hub, the measured strikes from Hephaestus's forge, and the soft rush of water through the repaired upper channel. He knew the voices of the gardeners when they argued about pruning, the coach's whistle at the training ground, and the particular quiet that fell over the great hall when the last meal had been cleared.
+
+He also knew the sound of the court when it was uneasy. A door closed too quickly. A conversation stopped when someone entered. A tool was put down with more force than necessary. These sounds did not always mean that something was wrong, but they were worth noticing. The lion had learned that attention was not the same as suspicion. A person could be quiet because they were tired, or because they were thinking, or because they had no wish to speak. The court was not improved by turning every silence into a problem to be solved.
+
+One evening, a disagreement reached the long table. The wheelwright and a storekeeper had different accounts of the timber reserved for the old road. The wheelwright believed the material had been promised for the bridge inspection platform. The storekeeper believed it had been set aside for the pantry repairs. Both had written down what they remembered, and both had assumed the other would understand.
+
+The Master opened the ledger. Hephaestus examined the marks on the timber order. The lion listened to each account, then asked whether the original note had named a destination. It had not. The entry recorded the amount and the date but omitted the project. The disagreement had grown around a blank space in the record.
+
+No one was accused of dishonesty. The storekeeper had acted on the only note available; the wheelwright had relied on a conversation that had not been entered. They agreed to inspect the stock together the next morning and divide the material according to the work that could not wait. Hephaestus proposed a new rule for future orders: every reserved material would carry a project name, a responsible contact, and a date for review. The Master added the rule to the ledger.
+
+The lion watched the two men leave together. Their disagreement had not disappeared, but it had become manageable. The court's sound returned gradually: a chair moved, a cup was set down, someone asked for more bread. The lion lowered his head onto his forepaws.
+
+Hephaestus remained at the table, drawing a small symbol for the new timber labels. He asked the lion whether he ever tired of listening to the court's difficulties. The lion's eyes narrowed with amusement. He said that he sometimes tired of the noise, but never of the people. Hephaestus considered this, then said that the distinction was worth remembering.
+
+The lion began to purr. The sound travelled through the oak table and into the stone beneath it. It did not silence the room. It joined the room, as the forge's rhythm joined the kitchen bell and the gardeners' voices joined the rain. The court was not a monument to the lion. It was a place where many lives made a sound together, and where his immense presence could be part of that sound without swallowing it.
+
+That night, the Master and the lion walked once more through the western gallery. The lamps had been lowered. Beyond the windows, the orchard was dark, and the repaired channel carried a thin line of water beneath the wall. The old road waited for its next inspection. The distant house waited for its meeting. The hinge waited for one more test. Nothing had been finished merely because it had been named.
+
+The Master placed a hand against the lion's mane. The lion leaned into the touch, and for a moment the whole gallery seemed to hold its breath around them. Then the lion's purr began again, low and warm, and the court continued.
+
+
 ## Provenance and custody
 
 This record captures a prior user-led artwork interpretation from August 2026. The source artwork's binary is not asserted to be stored in this repository. The interpretation is preserved as text; the original image remains a separate asset until its file is verifiably archived and linked. This follows GEEHUB's recognition–custody principle: an artwork can be meaningfully interpreted before its image file has entered durable custody.

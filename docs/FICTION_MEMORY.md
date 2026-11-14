@@ -86,3 +86,14 @@ A recurring feature of collective male hysteria is that the men confuse what is 
 Preserve the distinction between world fact, direct local observation, hearsay, and collective inference. Characters may collapse these categories; the narrative should not. Their mistaken universal certainty can be funny, affectionate, socially contagious, and consequential. Expectation may contribute to the fictional scale echo, but it does not automatically make every claim true. A later discovery may confirm that the phenomenon has spread, but confirmation must arrive through new evidence.
 
 The characteristic loop is: local event → universal claim → expectation everywhere → selective noticing → apparent confirmation → larger universal claim. Keep individual men distinct in how they participate: exaggeration, sincere belief, practical preparation, careful measurement, or scepticism. The giant's physical growth remains active throughout the scene, giving the room a real event around which its increasingly expansive theory can form.
+
+
+## Relationships as primary memory
+
+For collective adult-male growth fiction, preserve relationships as the central narrative substance. Do not archive only who grew, how much, or what the crowd believed. Record who noticed, who understood, who misunderstood, who stayed, who left, who defended whom, who became jealous, who apologised, who shared the work, and which bonds changed afterward.
+
+Remember relationships as particular and pairwise as well as collective: shared history, private language, habits of care, attraction, trust, rivalry, conflict, repair, promises, and unresolved distance. The central giant has his own distinct bond with each man, while the other men have independent relationships with one another that remain active outside his presence.
+
+Keep the Everywhere Error as a pressure on those bonds. A man's universal claim may be an attempt to share excitement, to win recognition, or to hide uncertainty. A friend's correction may be an act of care rather than opposition. A disagreement about what is happening everywhere should have a relational consequence, not become an extended explanatory detour.
+
+Growth and giantness remain continuous physical realities in these memories. Preserve how a changed body affects shared routines, touch, movement, clothing, furniture, work, and the way two men occupy the same space. The archive should remember not only the new baseline but what the men did for one another as it changed.

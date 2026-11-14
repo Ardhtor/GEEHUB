@@ -69,3 +69,17 @@ A stage advances only when its deliverable exists. Record dated changes below ea
 **Use:** training culture, coaching presentation, movement analysis, physique continuity, and visual study of gym media.  
 **Boundary:** Eric Janicki remains a real public figure, not a fictional GEEHUB character. Do not invent his dialogue or personal history, infer private circumstances, or reproduce his work without permission.  
 **Production status:** source shelf established; item-level clip study awaits a selected public post or video.
+
+
+## Hephaestus — Forge-Maker portrait
+
+**Canonical asset ID:** `character-hephaestus-forge-maker-portrait-2026-11-14`  
+**Subject:** Hephaestus, the Forge-Maker in the Lineage Pantheon.  
+**Origin:** ChatGPT image generation, current conversation, 2026-11-14. The user requested a brawny, handsome, muscle-grown Hephaestus and approved the returned image with “wonderful.”  
+**Reference class:** AI-generated visual derivative from a text request; not a primary photographic source.  
+**Visual description:** Adult male blacksmith with dark wavy hair, a full beard, a handsome face, substantial chest, shoulders and arms, leather forge harness/apron, dark bracers, hammer, and warm orange forge light.  
+**Approval:** Approved as a useful visual interpretation in conversation. This does not yet lock every facial, anatomical, wardrobe, or material detail as immutable canon.  
+**Binary availability:** `rendered_in_chat_not_archived`. The image appeared in the conversation, but its binary has not yet been added to this repository or the Dropbox production corpus. No repository path, Dropbox path, or verified preview URL is available.  
+**Continuity links:** `lore/LINEAGE_PANTHEON.md` (Hephaestus / Forge-Maker); `hub/chat_asset_memory.seed.json` (conversation request, approval, and asset lineage).  
+**Production intent:** preserve this approved image as the first visual anchor; once its binary is archived, create separable reference regions for head/beard, torso, arms, harness, bracers, hammer, and forge materials. Do not replace the original with a crop, repaint, or 3D reconstruction.  
+**Current state:** conversation render approved; image binary archive pending; no editable model or rig is claimed.

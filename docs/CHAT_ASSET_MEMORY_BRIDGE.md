@@ -73,6 +73,21 @@ The first implementation loads repository indexes, imports ChatGPT exports local
 **The conversation supplies the signal. The source image supplies the evidence. The world asset carries the continuity. The graph keeps them answerable to one another.**
 
 
+
+## Recognition and custody — the GEEHUB gap
+
+GEEHUB names a persistent interval: **the gap between recognition and custody**. A thing may be noticed, named, interpreted, and connected to a world entity before its source file is held in the durable archive. A conversation may alter a character's direction before the passage has been captured in the corpus. A generated portrait may be approved while its binary remains available only in the originating chat. These are meaningful states, not clerical errors to be hidden by a single green indicator.
+
+The bridge distinguishes four conditions: **known** (the subject or event has been identified); **referenced** (a traceable source locator exists); **preserved** (the original or a verified copy is stored in a durable, accessible location); and **integrated** (the preserved item is connected to the world record and downstream work). Each condition may be true or false independently. An item can be known but not referenced, referenced but not preserved, preserved but not integrated, or integrated while still experimental rather than canon. Never infer a later condition from an earlier one.
+
+This gap is not a defect to cosmetically erase. It is a productive seam: where memory asks for evidence, where a character can be recognised before the archive is complete, and where a design remains open to correction. The interface should show missing custody as a visible, actionable absence, with source, last known location, next operation, and continuity risk. It must not fabricate previews, file paths, sync states, or provenance.
+
+Hephaestus is the patron of this seam. He does not confuse a blueprint with a built object, a glowing furnace with a finished tool, or a tool's first successful use with a maintenance plan. He examines the material, records what is missing, makes the smallest useful bridge, tests it, and leaves the repair route intelligible to the next person. In the memory system, his discipline means preserving originals, recording derivatives as descendants rather than replacements, attaching each claim to its evidence, and designing every transfer so it can be inspected and reversed. Odin witnesses what is actually known; Hephaestus makes the known thing durable. Their functions cooperate without becoming interchangeable.
+
+The gap shapes the wider world. GEEHUB is not a finished encyclopedia whose contents are merely retrieved. It is a living place whose inhabitants, objects, scenes, and histories can enter awareness at different speeds. A person can be present in a scene before their biography is complete. A district can be visited before its map is surveyed. A visual design can influence a character before its production asset is archived. Such partial presence must be represented honestly and retain a path toward fuller continuity. Uncertainty is not permission to invent; it is a state with boundaries, evidence, and a next possible action.
+
+**World rule:** recognition may precede custody, but no system may claim preservation without a verified durable source. Every crossing from chat to world, reference to asset, draft to canon, or render to production must carry its provenance across the threshold.
+
 ## Validation
 
 Run the deterministic parser, matching, attachment, review, and privacy checks with `node engine/test_chat_asset_bridge.mjs`. The browser interface should also be opened through a local HTTP server or GitHub Pages and checked with both the curated seed and a real ChatGPT export.

@@ -617,23 +617,6 @@ The Golden Lion considered this a good day.
 As the meal lengthened, the table became a working surface again. Someone brought the visitor's sketch; a gardener marked the slope of the western wall; Hephaestus used the back of a discarded menu to draw a simple water channel. The cooks kept serving while the conversation moved between repair, harvest, and the next training-ground gathering. Nobody was asked to choose between hospitality and practical work. The court's generosity was not an endless promise to solve every problem. It was the ability to sit together long enough to discover what could responsibly be done.
 
 
-### XVI. The Road Beyond the Orchard
-
-The next morning, the lion and the Master walked beyond the orchard to inspect the old road that connected the court to the neighbouring houses. The road ran between low stone walls and mature trees. In places, roots had lifted the paving; elsewhere, rain had cut narrow channels through the gravel. The road was not beautiful in the manner of the great hall. It was beautiful because it had carried so many people safely between places for so long.
-
-A pair of maintenance workers were already there, marking the sections that needed attention. The lion greeted them and asked what they had found. One worker showed him a place where the wall had begun to lean. The other pointed to a drainage culvert blocked by roots and silt. The Master opened the small book and recorded the locations. They walked the length of the road together, stopping wherever the workers had left a mark.
-
-At the far end, the road divided. One branch led toward the neighbouring houses; the other descended through a wooded hollow toward an older route that had fallen out of use. The lion paused at the junction. The old route was partly hidden by bramble and leaf mould. Its stones were still visible beneath the growth, and a shallow line in the ground suggested that water once followed it. The Master looked down the slope. Neither of them knew when the road had last been used.
-
-They did not clear it that day. The workers had not surveyed the hollow, and the old drainage pattern was unknown. The lion asked them to add it to the next inspection, not as an immediate project but as a question worth preserving. The Master wrote: *old route beneath the hollow; surface visible; condition unknown*. It was a modest entry, but it kept the possibility from being lost beneath the ordinary work of the road.
-
-On the return journey, they passed the training ground. The young giant was there again, working through the movement with the coach. He saw the lion and raised one hand. The lion returned the greeting with a small movement of his head. No one stopped the session. The friendship between them had acquired a new form: recognition without interruption, encouragement without demand.
-
-At the court, the kitchen doors were open. The day had begun. The Golden Lion walked in beside the Master, carrying no new title and making no claim upon the road beyond the orchard. He had seen something that might matter later. It had been recorded. That was enough for now.
-
-
-
-At the bend where the paving disappeared beneath moss, the Master found an old marker half buried beside a tree. Its carved line matched a symbol in the road book, though the direction had been altered by the growth of the roots. The Lion stood over the mark without touching it. They called the surveyor back and recorded the position from two separate points. The old road was beginning to offer more than a picturesque trace of the past. It might connect places whose present routes had grown apart, but the possibility would have to survive measurement before it became a plan.
 
 
 The long table had been made from a single dark oak trunk, though the surface now carried marks from decades of use. There were shallow cuts where a map knife had slipped, pale rings left by cups, and a darker patch where an old oil lamp had once burned too close to the wood. The Lion liked these traces. They reminded him that the table had been used by people who had brought their work into the same room as their meals. He did not want it polished until every mark disappeared.
@@ -657,6 +640,27 @@ After the papers were gathered, supper arrived. Oren had prepared stew, roasted 
 The Lion remained among them. He liked the moment when a meeting became a meal and people stopped speaking only in the language of their responsibilities. The court had done useful work, but it had also kept its people together. He looked down the length of the oak table, at the papers resting beneath cups and the small traces of food appearing beside the ink, and thought that this was one of the forms of sovereignty he valued most: the ability to make a place where difficult matters could be faced without making everyone forget how to live.
 
 When the guests had gone, the Master helped the steward stack the remaining papers. The Lion gathered the cups from his end of the table and carried them toward the kitchen. Oren protested that the work belonged to the staff. The Lion replied that the staff had already served the meal and that the cups were in his way. Oren laughed and allowed him to carry them. The table was cleared, but the records remained open for the next morning. The court went to sleep with its work visible and its doors ready to open again.
+
+### XVI. The Road Beyond the Orchard
+
+The next morning, the lion and the Master walked beyond the orchard to inspect the old road that connected the court to the neighbouring houses. The road ran between low stone walls and mature trees. In places, roots had lifted the paving; elsewhere, rain had cut narrow channels through the gravel. The road was not beautiful in the manner of the great hall. It was beautiful because it had carried so many people safely between places for so long.
+
+A pair of maintenance workers were already there, marking the sections that needed attention. The lion greeted them and asked what they had found. One worker showed him a place where the wall had begun to lean. The other pointed to a drainage culvert blocked by roots and silt. The Master opened the small book and recorded the locations. They walked the length of the road together, stopping wherever the workers had left a mark.
+
+At the far end, the road divided. One branch led toward the neighbouring houses; the other descended through a wooded hollow toward an older route that had fallen out of use. The lion paused at the junction. The old route was partly hidden by bramble and leaf mould. Its stones were still visible beneath the growth, and a shallow line in the ground suggested that water once followed it. The Master looked down the slope. Neither of them knew when the road had last been used.
+
+They did not clear it that day. The workers had not surveyed the hollow, and the old drainage pattern was unknown. The lion asked them to add it to the next inspection, not as an immediate project but as a question worth preserving. The Master wrote: *old route beneath the hollow; surface visible; condition unknown*. It was a modest entry, but it kept the possibility from being lost beneath the ordinary work of the road.
+
+On the return journey, they passed the training ground. The young giant was there again, working through the movement with the coach. He saw the lion and raised one hand. The lion returned the greeting with a small movement of his head. No one stopped the session. The friendship between them had acquired a new form: recognition without interruption, encouragement without demand.
+
+At the court, the kitchen doors were open. The day had begun. The Golden Lion walked in beside the Master, carrying no new title and making no claim upon the road beyond the orchard. He had seen something that might matter later. It had been recorded. That was enough for now.
+
+
+
+At the bend where the paving disappeared beneath moss, the Master found an old marker half buried beside a tree. Its carved line matched a symbol in the road book, though the direction had been altered by the growth of the roots. The Lion stood over the mark without touching it. They called the surveyor back and recorded the position from two separate points. The old road was beginning to offer more than a picturesque trace of the past. It might connect places whose present routes had grown apart, but the possibility would have to survive measurement before it became a plan.
+
+
+
 
 ## Second movement: The Road and the House
 

@@ -1,11 +1,15 @@
 import assert from "node:assert/strict";
-import {
+import { readFile } from "node:fs/promises";
+
+const sourceText = await readFile(new URL("./chat_asset_bridge.js", import.meta.url), "utf8");
+const moduleUrl = "data:text/javascript;base64," + Buffer.from(sourceText).toString("base64");
+const {
   parseChatGPTExport,
   attachChatExport,
   confirmEdge,
   exportMemoryGraph,
   indicators
-} from "./chat_asset_bridge.js";
+} = await import(moduleUrl);
 
 const source = [{
   id: "conversation-hephaestus",

@@ -246,6 +246,34 @@ Hephaestus proposes a new resting platform in the western gallery. The first des
 Their work gradually became a friendship of repeated visits. Hephaestus would arrive with a question about a hinge, a railing, a load-bearing post, or a surface worn smooth by years of use. The Lion would show him where people naturally gathered and where a passage became crowded at the change of shift. Sometimes the maker brought a beautiful solution that failed in daily use; sometimes the Lion's preferred arrangement proved awkward once measured. Neither treated correction as insult. Their trust grew through the shared pleasure of making something more dependable than either had first imagined.
 
 
+
+
+One afternoon Hephaestus arrived with a set of drawings for the western gallery. He had measured the beams, recorded the wear along the floor, and calculated a new support that would allow the Lion to rest near the open windows without placing excess strain on the older frame. The proposal was elegant. Its bronze brackets followed the curve of the existing ornament, and the cedar joints were arranged so that the new work would look as though it had always belonged there. The Lion studied the drawings with genuine pleasure.
+
+Then he asked where the maintenance worker would stand when the upper bolt needed tightening.
+
+Hephaestus looked again. The bracket was beautiful, but the bolt sat behind a decorative panel that could only be removed by taking down part of the railing. He had solved the structural problem and created a maintenance problem. He did not disguise the oversight. He rolled the drawing back across the table and asked the Lion to show him the route the workers normally used.
+
+They spent the next hour in the gallery with a ladder, a length of cord, and a wooden model of the bracket. The Lion demonstrated how a worker would approach the joint while carrying tools. Hephaestus moved the fastening, then changed the angle of the panel. The new design was less symmetrical than the first, but it could be reached, inspected, and repaired without dismantling the surrounding structure. The Lion liked the revision. Hephaestus liked it more once he had tested it himself.
+
+“You could have told me the first drawing was wrong,” Hephaestus said.
+
+“I could have.”
+
+“Why did you ask me where the worker would stand?”
+
+“Because you would see it when you stood there.”
+
+Hephaestus considered this, then gave a short laugh. He was accustomed to being asked whether something would hold. He was less often asked to imagine the person who would have to maintain it ten years later. The Lion had not corrected him by asserting greater knowledge. He had placed him in the situation that the drawing had neglected.
+
+Their conversations grew wider after that. They discussed the difference between a structure that survived a test and one that remained useful after years of use. Hephaestus described the hidden stresses that accumulated in joints and fastenings. The Lion spoke about the habits of the household: where people leaned when they talked, which doors were left open, where deliveries were set down, which gallery became crowded after a meal. The maker learned that a building was shaped by repeated behaviour as much as by its original plan. The Lion learned that material had its own memory, and that a beautiful intention could not persuade a beam to carry a load it was not designed to bear.
+
+One evening they sat in the workshop while rain tapped against the high windows. A half-finished bronze fitting rested on the bench between them. Hephaestus turned it slowly in his hands, showing how the metal had cooled unevenly at one edge. The Lion listened, then asked whether the defect could become part of the design. Hephaestus said it could, provided the altered edge was inspected and the load redirected. They studied the piece together until the answer became clear.
+
+The Lion never mistook Hephaestus's skill for infallibility. He valued him more because he could revise a good idea without treating revision as defeat. Hephaestus, for his part, discovered that the Lion's extravagant sense of scale was not careless ambition. The Lion wanted magnificent things, but he wanted people to live comfortably among them. A gallery should be impressive when entered and sensible when cleaned. A chair should look extraordinary and still be possible to repair. A great hall should inspire awe, but its doors should not trap the people who keep it open.
+
+When the new support was finally installed, the Lion tested it with his full weight while Hephaestus watched the joints and listened to the timbers. Nothing complained. The maintenance panel opened cleanly. The worker who would inspect it later was shown the fastening and given a drawing of the assembly. The Lion settled beside the window and looked out at the court. Hephaestus stood next to him, not as a servant awaiting approval, but as a friend considering what they might build next.
+
 ### VII. The Purr Beneath the Hall
 
 The lion's purr is a familiar sound in the court. It begins low in the chest, a deep vibration that can be felt through the floor before it is clearly heard. It does not shake the building or threaten the people nearby. It settles into the timbers and stone like a second rhythm beneath conversation. When the lion rests in the great hall, people sometimes lower their voices without being asked. The sound makes silence feel inhabited rather than empty.
@@ -254,6 +282,34 @@ He purrs when the Master returns after a long absence. He purrs when the kitchen
 
 The sound travelled differently through each part of the building. In the great hall it settled beneath the rafters; in the western gallery it seemed to gather in the timber; near the kitchen it mingled with the low conversation of the cooks and the soft knock of utensils. A visitor once asked whether the court had installed a hidden engine beneath the floor. The kitchen steward laughed and pointed toward the Lion, who had fallen asleep with one paw stretched into a patch of sunlight. The court had no machine capable of producing that particular reassurance.
 
+
+
+
+The purr was most noticeable at night, when the court had finished its work and the smallest sounds could travel a long way. A door settling in its frame, a log shifting in the hearth, the far-off passage of water through the garden channels: each sound became distinct in the great hall. When the Lion rested there, the purr moved beneath them all. It was low enough to be felt through the floor and gentle enough that someone sleeping in the adjoining rooms might not know what had awakened them. Some heard it as a hum. Others described it as a warmth in the timber.
+
+One evening a visitor arrived after the western gates had been closed for the night. The traveller had taken the lower road and lost time when the rain washed loose stones across the path. The gate steward brought them into the hall, where the Lion was sitting near the fire with a book open beside him. The visitor looked tired and uncomfortable at being received so late. They explained that they did not need a formal audience, only a place to rest until the road could be inspected in the morning.
+
+The Lion asked whether they had eaten. The visitor said they had not wanted to trouble the kitchen. The Lion closed the book and called for a small meal to be prepared. He did not make the traveller recount every difficulty of the journey. He asked whether the road had become dangerous, whether anyone else had been delayed, and which section needed attention. The answers were written down for the morning crew. Then the steward showed the visitor to a warm room near the western gallery.
+
+The Lion remained in the hall. He could hear the visitor moving about in the next room, setting down a bag, testing the chair, and opening the shutters a little to let in the cool air. The purr began almost without his noticing. It travelled through the floorboards and into the adjoining room. After a while the small movements stopped. The traveller slept.
+
+The Master came down later and found the Lion still awake. He glanced toward the guest corridor and then at the open book.
+
+“Someone has arrived,” the Master said.
+
+“Someone who needed a bed more than a ceremony.”
+
+“Will the road be safe?”
+
+“Not until the crew has seen it in daylight.”
+
+The Master took the chair opposite him. For a time neither spoke. The purr continued, not as a message intended for the sleeping guest, but as the ordinary expression of the Lion's contentment at being in a house where a stranger could find shelter. The Master listened to it and turned a page in the book.
+
+In the morning the traveller came down looking rested. They thanked the household and described the washed-out section of road more clearly. The maintenance crew was already preparing to leave, carrying stakes, rope, shovels, and a small measuring frame. The visitor offered to show them the place. The Lion agreed, provided the traveller was fit to walk and did not feel obliged to do so out of gratitude. They went together after breakfast.
+
+The purr became part of the court's memory of the night, but no one turned it into a rule that every guest must be soothed by the Lion. Some people preferred a quiet room at the far end of the residence. Others liked the kitchen's late conversation or the distant sound of the fountains. The Lion's presence offered comfort, but it did not prescribe a single way of receiving it. He could rest in the hall and let the sound carry; he could also leave the room when someone needed quiet. The court learned to ask what would help rather than assume that one kind of welcome suited everyone.
+
+After that, the gate steward kept a lamp burning in the western hall on nights when bad weather threatened the road. The Lion often rested nearby. Sometimes he purred; sometimes he read, spoke with the Master, or simply watched the fire. The sound became familiar, but it never became compulsory. It was one of the things the house could offer, not a condition of belonging there.
 
 ### VIII. The Lion Among the Houses
 
@@ -264,6 +320,26 @@ At the Stone Table, he is received as a friend and independent presence. He list
 The houses discovered that the Lion could be present without taking over the story of a place. At a training ground he watched the athletes and asked about the condition of the equipment. At a workshop he listened to the apprentices explain a difficult joint. Along the river he let the navigators describe the current before offering an observation of his own. He was not a visiting judge searching for faults. He was a sovereign neighbour willing to learn the character of another domain. His questions often proved more useful than a speech because they made people explain what they actually knew.
 
 
+
+
+The first time the Lion visited the House of the Open Field, he went without a procession. A message had arrived inviting him to see the training grounds and the long public meadow beyond them. The Master was occupied with the court's own business, so the Lion chose to travel with two attendants and a small group of guides who knew the route. He wanted to see the place as it was used, not only as it would be presented to a visiting sovereign.
+
+The road opened gradually. The redwood shade gave way to lower trees, then to a broad sweep of grass crossed by packed-earth lanes. The training grounds stood near a line of workshops. Their buildings were less enclosed than those of the Lion's court: long roofs, open-sided shelters, equipment yards, and broad spaces where large groups could gather without crowding one another. The Lion liked the openness. It gave the wind room to move and made the horizon part of the architecture.
+
+The gate steward met him beside a timber post set with the house's mark. There was no throne or raised platform. A table had been arranged beneath the shelter, with water, fruit, and a simple meal. The steward explained that the day's training had already begun and asked whether the Lion would prefer to watch from the gallery or walk among the stations. The Lion chose to walk. He did not want the athletes to perform only because a distinguished visitor had arrived.
+
+He stopped first at a lifting station where a group was learning to move a heavy frame in coordination. Each person had a different position and a different view of the load. The instructor explained that the exercise was designed to teach timing rather than maximum strength. The Lion watched several repetitions. He noticed that the rear pair were receiving less information than the front, and asked whether they could hear the calls clearly. The instructor admitted that the wind carried the signals away. They shifted the formation, changed the position of the caller, and tried again. The frame moved more smoothly.
+
+At another station, a set of adjustable supports had been built for athletes of different heights and proportions. The Lion examined the joints and asked who had made them. The instructor introduced a craftsperson working beside the equipment. They discussed the difficulty of building something adaptable without making it unstable. The craftsperson showed him the locking pin, a small part that could be inspected without removing the whole support. The Lion recognised the influence of the same practical thinking he and Hephaestus had been developing in the western gallery.
+
+The visit continued through the meadow. A group of runners crossed the far field, while several people practised balance along a low timber beam. The Lion was asked whether he wished to demonstrate his own strength. He smiled and declined. He had not come to turn another house's training day into a display of his body. Instead he asked whether the grounds had enough shaded rest areas for spectators and whether the water stations were placed close enough to the far lanes. The steward made a note of the questions.
+
+At midday the group ate beneath the long roof. Conversation moved easily between training, maintenance, weather, and the changing condition of the roads. The Open Field had a different rhythm from the Lion's court. Its people spent more of their day outside, and many of the buildings were designed to be adapted as the seasons changed. The Lion did not suggest that the house should imitate his own architecture. He asked how they kept the roofs secure during strong wind and how they stored equipment during the wet months. The steward explained the methods, including one that had failed in the previous season. The Lion listened closely.
+
+Before leaving, he walked to the far edge of the meadow and looked back toward the training grounds. The place did not need to become larger to be impressive. Its character came from the way its open spaces connected movement, work, and gathering. The Lion thanked the steward and the instructors, then invited them to visit the western court whenever they wished. He made no promise to rebuild their grounds or add his own mark to the gate. The house had shown him something worth learning, and that was enough for the first visit.
+
+On the road home, one of the attendants asked whether the Lion had enjoyed being received without the usual ceremony. He answered that he had enjoyed being able to see how the place worked. A house could tell a visitor many things through its entrance, its banners, and its words of welcome. It told something more lasting through the way its people trained, repaired their equipment, rested, and made room for one another. He wanted to remember those details when the houses eventually met in a more formal gathering.
+
 ### IX. The Image That Remains
 
 The original artwork remains the first visual witness of the Golden Lion. Its gold and burgundy, its symmetry, its immense background presence, and its pleasing exaggeration establish a visual law that later depictions must respect. A new image may explore his face, mane, posture, body, court, or companionship with the Master, but it must not quietly replace the source interpretation with an ordinary zoological lion. The lion's form is allowed to be monumental. The artwork's emotional balance is as important as its outline: great power, calm presence, and a smaller figure who is not erased by standing before him.
@@ -272,6 +348,38 @@ The original binary has not yet been verified in the repository or in Dropbox. T
 
 The court's image keepers therefore began a careful register. They recorded the colours, the proportions, the relationship between the enormous figure and the smaller foreground presence, and the feeling of calm abundance that held the composition together. They separated direct observations from later artistic choices. A study of the mane could be beautiful without being mistaken for the source; a sculptural model could test the weight of the shoulders without claiming to settle the Lion's final form. The register protected creative freedom by making the lineage visible. No new work had to pretend that it was the first.
 
+
+
+
+The woman with the portfolio returned to the court in the late afternoon. She had been in the gallery on the first day the Lion's image seemed to acquire depth, and since then she had made a series of studies. Some showed the mane in close detail; others examined the relationship between the Lion's great form and the smaller figure in the foreground. She had brought sketches, notes about colour, and a carefully wrapped panel on which she had attempted to preserve the burgundy background without making it too dark.
+
+The Lion received her in the western gallery. He looked at the studies with genuine interest. One drawing captured the curve of the mane particularly well, and another had found the warmth in the gold without making it look like polished metal. He praised the work plainly. The artist seemed relieved, then showed him the panel she had kept wrapped.
+
+“I wanted this one to be the new version,” she said. “But I am not sure that is right.”
+
+The Lion examined it. The work was accomplished, but the smaller figure had been moved closer to the foreground and the Lion's head had been raised. The composition was more dramatic, yet it changed the relationship that had made the original so powerful. The Lion did not dismiss it. He asked what the artist had hoped to achieve.
+
+“I wanted the scale to be clearer,” she said. “I thought the first arrangement might have made you look too distant.”
+
+“Do you think I was distant?”
+
+She looked again at the panel. “Not exactly.”
+
+“Then perhaps the picture should not answer a question that the first one never asked.”
+
+They stood together for a while. The artist explained that she had been trying to make the image easier to understand. The Lion said that clarity did not always come from adding emphasis. Sometimes it came from preserving the relation that had already been there. He did not ask her to destroy the new panel. It was a study, and it had revealed something about the difference between grandeur and domination. She could keep it as a derivative work, provided it was recorded honestly and not presented as the founding image.
+
+The artist opened her portfolio and began a new page. They made a register of the original observations: the gold against burgundy, the deliberate symmetry, the Lion's immense presence in the background, the smaller figure held clearly in the foreground, and the peculiar calm produced by their difference in scale. Beneath that they recorded the later studies, each with its own date and intention. The distinction mattered. The first image was not made less important by the existence of new work. Nor did a new work need to pretend it had no ancestry.
+
+The Lion asked whether the register would include the things that could not be measured. The artist said she had not known how to record them. He suggested that she write what a viewer noticed, then separate that observation from the interpretation that followed. A person might feel protected, another might feel astonished, and someone else might simply enjoy the beauty of the composition. Those responses could be preserved without pretending that every viewer had seen the same thing.
+
+They worked until the light began to leave the gallery. The artist's notes became more precise. She marked which colours were observed directly and which had been adjusted in her studies. She wrote that the source artwork's binary had not yet been placed in the archive and that the written description was not a substitute for the original file. The Lion approved. He did not want the court to claim custody of something it could not produce.
+
+When she had finished, she asked whether he minded that others might make very different images of him. The Lion's expression brightened.
+
+“I would be disappointed if they did not,” he said. “But I would like them to know what they are changing.”
+
+The artist laughed. She wrapped the studies separately, leaving the original observations at the front of the register. The Lion walked her to the western doors. The panel she had brought remained in the gallery as a clearly marked study, not a replacement. It was the beginning of a small archive, and the archive made room for more invention rather than less.
 
 ### X. The Friend Who Stays
 
@@ -286,6 +394,38 @@ This is the Golden Lion's final measure: not how much space he can occupy, how m
 
 
 The friendship also survived the days when the Master was elsewhere. The Lion did not turn absence into grievance, and the court did not treat his quietness as a sign that something had gone wrong. He continued to eat with the household, walk the gardens, hear petitions, and visit the workshop. When the Master returned, the welcome was neither diminished nor theatrically enlarged. The Lion came forward, the Master placed a hand against his mane, and the familiar purr rose between them. Nothing had needed to be preserved by force. It had remained because it was alive.
+
+
+There was a morning when the Master announced that he would be away for several days. The matter was not secret, but it required travel and a number of conversations that could not be held in the court. The Lion listened while the Master explained the route and the likely time of return. He asked whether the roads had been checked after the recent rain and whether the travelling party had a clear place to rest on the second evening. The Master answered both questions. The Lion did not ask to accompany him.
+
+“You could come,” the Master said.
+
+“I could,” the Lion replied. “But you have people to meet, and I have a court to keep.”
+
+The Master smiled. “You make that sound very simple.”
+
+“It is simple. It is not always easy.”
+
+They walked together through the western gallery. The Master stopped to examine a note left by the maintenance crew. The Lion waited while he read it, then pointed out that the new railing in the eastern passage had already been tested. They spoke about the ordinary matters that would continue while the Master was away: the meal scheduled for the third day, a visitor expected from the northern road, and the work Hephaestus planned to begin in the upper terrace. None of these things required the Master to remain at home. The Lion was capable of looking after them, and the Master trusted him to do so.
+
+At the gate the travelling party had gathered. The Lion greeted each person, asked the road steward to send word if the weather changed, and stepped aside so the Master could leave without turning the departure into a public scene. The Master paused before mounting. He placed a hand against the Lion's mane, near the shoulder where the gold caught the morning light.
+
+“I will see you soon,” he said.
+
+“I know.”
+
+The Lion watched the party go as far as the first bend in the road. Then he turned back toward the court. He did not remain at the gate, and he did not order the household to keep the day empty. The cooks were already preparing the morning meal. Hephaestus had arrived with a set of drawings. The gardener had sent word about a fallen branch near the upper path. The house had a life of its own, and the Lion belonged to it as much as the Master did.
+
+For the first day he noticed the absence in small ways. He looked toward the western doors at the hour when the Master usually crossed the hall. He heard a familiar step among the afternoon visitors and turned before realising that it belonged to someone else. At dinner he left the chair beside him unoccupied without thinking. When Oren asked whether the place should be set for the expected guest, the Lion looked at the arrangement and said that it should be used. The empty chair did not need to become a monument.
+
+On the second day, the court received a delivery of timber that had been delayed by the rain. Hephaestus wanted to inspect it before it was moved into storage, and the Lion joined him in the yard. They checked the grain, the moisture, and the condition of the ends. One beam had split along a length that made it unsuitable for the upper terrace. Hephaestus marked it for another use. The Lion suggested that it might become a bench for the garden crew, where a shorter span would be adequate. The suggestion was accepted, and the beam was moved to the carpentry shed.
+
+That evening the Lion sat in the great hall and listened to the household settle. The Master was not there, but the friendship did not vanish. It existed in the remembered timing of their conversations, in the way the Lion knew what the Master would ask about the road, and in the confidence that neither had to keep watch over the other to remain close. He thought of the journey, hoped the weather would hold, and let the purr begin.
+
+When the Master returned, the Lion was in the western gallery speaking with the kitchen steward. He heard the approach and turned. The Master looked tired, but the journey had gone well. They greeted one another with the same unforced gesture as always. The Lion asked whether the roads had remained passable. The Master asked whether the upper terrace drawings had been settled. They exchanged the ordinary facts of their separate days, and then walked together toward dinner.
+
+The court had not been waiting in suspended animation. It had continued to work, receive guests, repair its buildings, and prepare its meals. The friendship had continued too. The Lion was pleased by the return, but he was not relieved as though the house had been incomplete. The Master had been free to leave and return; the Lion had been free to remain and continue his own life. Their closeness survived because neither had to hold the other in place.
+
 ## First movement: The Court in Motion
 ## The Court in Motion
 

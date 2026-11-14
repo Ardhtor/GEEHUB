@@ -1,7 +1,7 @@
 {
   "schema": "geehub.chat-asset-memory.v1",
   "version": 1,
-  "generated_at": "2026-11-14T15:23:52Z",
+  "generated_at": "2026-11-14T15:25:20Z",
   "source_repository": "Ardhtor/GEEHUB",
   "import_source": "current ChatGPT conversation; manually captured seed",
   "privacy": {
@@ -180,6 +180,45 @@
       ],
       "subject_id": "world-character-hephaestus",
       "unresolved": "Image binary is available in the originating conversation upload but has not been copied to the GEEHUB repository or Dropbox corpus. Preserve the original; do not infer photographer, artist, or source provenance."
+    },
+    {
+      "id": "chat-signal-geehub-recognition-custody-gap-2026-11-14",
+      "type": "chat-signal",
+      "title": "Request to characterize GEEHUB through the Hephaestus gap",
+      "role": "user",
+      "timestamp": "2026-11-14T15:25:20Z",
+      "conversation_id": "chat-conversation-hephaestus-2026-11-14",
+      "excerpt": "characterize geehub with this gap",
+      "source": "ChatGPT current conversation",
+      "source_locator": {
+        "platform": "ChatGPT",
+        "timestamp": "2026-11-14T15:25:20Z",
+        "role": "user"
+      },
+      "tags": [
+        "geehub",
+        "hephaestus",
+        "recognition-custody-gap",
+        "world-principle"
+      ]
+    },
+    {
+      "id": "world-principle-recognition-precedes-custody",
+      "type": "world",
+      "title": "Recognition may precede custody",
+      "name": "Recognition–Custody Gap",
+      "description": "A world principle distinguishing what is known, referenced, preserved, and integrated. Awareness may precede archival custody, but preservation is never claimed without a verified durable source.",
+      "source": "GEEHUB Memory Bridge / Hephaestus characterization",
+      "source_path": "docs/CHAT_ASSET_MEMORY_BRIDGE.md",
+      "canon": "active-world-principle",
+      "continuity": "Hephaestus keeps the transfer inspectable; Odin witnesses the evidence boundary.",
+      "indicators": {
+        "known": true,
+        "referenced": true,
+        "preserved": false,
+        "integrated": true
+      },
+      "status_note": "The principle is recorded and connected; it does not imply that the Hephaestus image binary has been archived."
     }
   ],
   "edges": [
@@ -279,6 +318,22 @@
       "relation": "companion_reference_to",
       "status": "confirmed",
       "evidence": "Both assets were explicitly designated as Hephaestus; the supplied reference remains distinct from the earlier generated portrait."
+    },
+    {
+      "id": "edge-gap-request-defines-world-principle",
+      "from": "chat-signal-geehub-recognition-custody-gap-2026-11-14",
+      "to": "world-principle-recognition-precedes-custody",
+      "relation": "establishes_world_principle",
+      "status": "confirmed",
+      "evidence": "The user asked to characterize GEEHUB with the gap discussed immediately before: recognition without completed archival custody."
+    },
+    {
+      "id": "edge-hephaestus-embodies-recognition-custody-gap",
+      "from": "world-character-hephaestus",
+      "to": "world-principle-recognition-precedes-custody",
+      "relation": "embodies_world_principle",
+      "status": "confirmed",
+      "evidence": "Hephaestus's established domain is making, repair, material inspection, and responsibility for ongoing maintenance."
     }
   ]
 }

@@ -22,6 +22,13 @@ function makeFaceMask(width, height, frame = 12, points = [[7, 7]]) {
   return { frame, width, height, pixels };
 }
 
+function makeBodyMask(width, height, frame = 12, backgroundPoints = [[7, 7]]) {
+  const pixels = new Uint8Array(width * height);
+  pixels.fill(255);
+  for (const [x, y] of backgroundPoints) pixels[y * width + x] = 0;
+  return { frame, width, height, pixels };
+}
+
 function makePlan(sourcePoints, targetPoints = sourcePoints, frame = 12) {
   return {
     schema: "geehub.growth-deformation-frame",
@@ -53,6 +60,7 @@ test("baseline rasterization reproduces covered source pixels without mutating t
   const result = renderGrowthDeformationPixels({
     sourceFrame,
     plan,
+    bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: makeFaceMask(8, 8)
   });
 
@@ -74,6 +82,7 @@ test("translation samples the source through the inverse destination triangle", 
   const result = renderGrowthDeformationPixels({
     sourceFrame,
     plan: makePlan(triangle, target),
+    bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: makeFaceMask(8, 8)
   });
 
@@ -87,8 +96,9 @@ test("source and destination triangles may not sample or cover protected face pi
   assert.throws(() => renderGrowthDeformationPixels({
     sourceFrame,
     plan: sourceOverlap,
+    bodyMask: makeBodyMask(9, 8, 12, [[2, 2]]),
     protectedFaceMask: makeFaceMask(9, 8, 12, [[2, 2]])
-  }), error => error.code === "pixel-frame-mesh-overlaps-protected-mask");
+  }), error => error.code === "pixel-frame-source-triangle-outside-body");
 
   const smallSource = [
     { x: 1, y: 1 },
@@ -99,6 +109,7 @@ test("source and destination triangles may not sample or cover protected face pi
   assert.throws(() => renderGrowthDeformationPixels({
     sourceFrame,
     plan: makePlan(smallSource, shifted),
+    bodyMask: makeBodyMask(9, 8, 12, [[5, 1]]),
     protectedFaceMask: makeFaceMask(9, 8, 12, [[5, 1]])
   }), error => error.code === "pixel-frame-mesh-overlaps-protected-mask");
 });
@@ -109,18 +120,21 @@ test("refuses folded geometry and mismatched frame identities", () => {
   assert.throws(() => renderGrowthDeformationPixels({
     sourceFrame,
     plan: makePlan(triangle, reversed),
+    bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: makeFaceMask(8, 8)
   }), error => error.code === "pixel-frame-mesh-foldover");
 
   assert.throws(() => renderGrowthDeformationPixels({
     sourceFrame,
     plan: makePlan(triangle, triangle, 11),
+    bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: makeFaceMask(8, 8)
   }), error => error.code === "pixel-frame-plan-not-renderable");
 
   assert.throws(() => renderGrowthDeformationPixels({
     sourceFrame,
     plan: makePlan(triangle),
+    bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: makeFaceMask(8, 8, 11)
   }), error => error.code === "pixel-frame-face-mask-invalid");
 });
@@ -131,12 +145,14 @@ test("requires a complete RGBA source and a non-empty binary face mask", () => {
   assert.throws(() => renderGrowthDeformationPixels({
     sourceFrame: { ...sourceFrame, data: new Uint8Array(8 * 8 * 3) },
     plan,
+    bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: makeFaceMask(8, 8)
   }), error => error.code === "pixel-frame-source-invalid");
 
   assert.throws(() => renderGrowthDeformationPixels({
     sourceFrame,
     plan,
+    bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: makeFaceMask(8, 8, 12, [])
   }), error => error.code === "pixel-frame-face-mask-empty");
 
@@ -145,6 +161,7 @@ test("requires a complete RGBA source and a non-empty binary face mask", () => {
   assert.throws(() => renderGrowthDeformationPixels({
     sourceFrame,
     plan,
+    bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: softMask
   }), error => error.code === "pixel-frame-face-mask-not-binary");
 });
@@ -159,6 +176,7 @@ test("refuses mesh vertices outside the source frame", () => {
   assert.throws(() => renderGrowthDeformationPixels({
     sourceFrame,
     plan: makePlan(outside),
+    bodyMask: makeBodyMask(8, 8),
     protectedFaceMask: makeFaceMask(8, 8)
   }), error => error.code === "pixel-frame-mesh-out-of-bounds");
 });

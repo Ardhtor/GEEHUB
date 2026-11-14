@@ -71,3 +71,8 @@ When a character image is revised, create a new asset version rather than overwr
 The first implementation loads repository indexes, imports ChatGPT exports locally, suggests links, supports manual passage capture, confirms or rejects relations, stores a local browser snapshot, and exports a portable graph. It does not run continuously in the background, fetch private ChatGPT history, download private photo-library binaries, write directly to Dropbox, or automatically mutate canon. Those capabilities require explicit source access and a connected persistence service. The bridge is designed so those adapters can be added without changing the graph identity or provenance rules.
 
 **The conversation supplies the signal. The source image supplies the evidence. The world asset carries the continuity. The graph keeps them answerable to one another.**
+
+
+## Validation
+
+Run the deterministic parser, matching, attachment, review, and privacy checks with `node engine/test_chat_asset_bridge.mjs`. The browser interface should also be opened through a local HTTP server or GitHub Pages and checked with both the curated seed and a real ChatGPT export.

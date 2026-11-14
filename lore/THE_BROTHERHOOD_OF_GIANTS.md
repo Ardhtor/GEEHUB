@@ -152,6 +152,23 @@ Thus the Stone Table received a guest without converting him into a subject, and
 
 ---
 
+
+## Narrative proof VII — The Sevenfold Convocation
+
+The six seals and the empty seventh place established the convocation as a common undertaking rather than a declaration of central rule. The Stone House, the Iron House, the Long Table, the Open Field, the northern Nephilim halls, and the coastal shipyard each sent delegates, while the southern escarpment remained unreachable because its signal roads had failed. The Golden Lion and the Master attended as independent guests from the orchard court. Their presence did not create an eighth house; it demonstrated that the brotherhood's routes could meet a sovereign neighbour without absorbing his territory.
+
+The first session compared the roads, rivers, passes, and harbour approaches on one map. The western shelf road connected the northern settlements to the river network, while the old hollow route from the Lion's orchard remained a proposed feeder because its bridge had not passed inspection. The coastal house presented the route register for *The Measure of Dawn*, whose first controlled return had revealed a cross-current and a necessary adjustment to the eastern marker. The Stone House identified the mountain roads requiring reinforcement; the Iron House offered lifting frames and removable anchors; the Long Table accepted responsibility for provisions and guest courts; the Open Field agreed to revise the festival calendar if the common works required it. The Nephilim opened the relevant northern archives but retained custody of their records.
+
+The convocation did not approve a single grand road or place every crew under one command. It established a sequence of connected tasks and a common record. The old hollow bridge remained closed. The ship's next deep-water trial remained subject to its own limits. The northern pass beyond the ranges remained surveyed but unexplained. The southern halls remained absent, and the empty seat was preserved rather than assigned to a convenient substitute.
+
+On the third morning, a rider arrived from the southern escarpment with a message explaining that rockfalls and failed signal towers had prevented earlier replies. The southern keepers requested surveyors, road builders, and a small signal-repair team; they did not request an occupying force. Their report also described a newly exposed cut in the mountain, carrying water from above the old quarry. Its origin was unknown. The rider's route had followed a shepherd's track absent from the common map.
+
+The houses answered with a joint expedition whose composition reflected the actual problem. Stone House would survey the slope; Iron House would bring lifting frames and anchors; the Long Table would provision the route; the Open Field would provide carriers and runners under the direction of experienced mountain guides; the northern Nephilim would bring quarry records; the coastal house would contribute portable signalling and route-recording methods; and Hephaestus would prepare a removable brace only after the stone had been examined. The Master and the Golden Lion were invited by the southern keepers to meet them at the lower gate. The upper hall would remain closed until the approach had been inspected.
+
+The Lion accepted the invitation on the condition that his presence not be mistaken for authority over the southern house. The Master agreed. Their participation was recorded as a guest compact: they would travel with the expedition, assist where asked, and leave the southern keepers in control of their own home. The brotherhood's response therefore enlarged its capacity without changing the status of the neighbour whose road had failed.
+
+The Sevenfold Convocation ended without a triumphal proclamation. Its result was more demanding: a shared map with distinct custodians, a schedule of inspections, a coastal trial still in progress, an old bridge still closed, and a southern expedition whose findings had yet to be made. The seventh seat was no longer empty because a message had reached it, but the southern house itself had not yet arrived. The next account must begin at the lower gate, where the houses will discover whether their common methods can serve a place whose ground, history, and wishes they do not yet know.
+
 ## Final theorem — The dominion is the continuing work of brothers
 
 **Theorem.** The dominion of the giants endures if and only if the brotherhood can preserve kinship, distinguish its members, maintain the consequences of its works, transmit its inheritance, and revise its methods without falsifying its history.

@@ -83,7 +83,7 @@ function triangleLeavesBodyMask(triangle, mask) {
   return sampledPixels === 0;
 }
 
-function samplePremultipliedBilinear(frame, x, y, output, outputOffset) {
+function samplePremultipliedBilinear(frame, x, y, bodyMask, faceMask, output, outputOffset) {
   // Mesh coordinates describe pixel centres at (x + 0.5, y + 0.5).
   const sampleX = Math.max(0, Math.min(frame.width - 1, x - 0.5));
   const sampleY = Math.max(0, Math.min(frame.height - 1, y - 0.5));
@@ -100,21 +100,27 @@ function samplePremultipliedBilinear(frame, x, y, output, outputOffset) {
     [y1 * frame.width + x1, fx * fy]
   ];
   let alpha = 0;
+  let totalWeight = 0;
   const premultiplied = [0, 0, 0];
   for (const [pixel, weight] of samples) {
+    if (weight === 0 || bodyMask.pixels[pixel] !== 255 || faceMask.pixels[pixel] === 255) continue;
     const offset = pixel * 4;
     const sampleAlpha = frame.data[offset + 3];
     alpha += sampleAlpha * weight;
+    totalWeight += weight;
     for (let channel = 0; channel < 3; channel += 1) {
       premultiplied[channel] += frame.data[offset + channel] * sampleAlpha * weight;
     }
+  }
+  if (!(totalWeight > 0)) {
+    fail("pixel-frame-source-sample-outside-body", "Bilinear sampling has no body-foreground source pixels");
   }
   if (alpha > 0) {
     for (let channel = 0; channel < 3; channel += 1) {
       output[outputOffset + channel] = premultiplied[channel] / alpha;
     }
   }
-  output[outputOffset + 3] = alpha;
+  output[outputOffset + 3] = alpha / totalWeight;
 }
 
 /**
@@ -218,7 +224,9 @@ export function renderGrowthDeformationPixels({
         }
 
         const outputOffset = pixelIndex * 4;
-        samplePremultipliedBilinear(sourceFrame, sourceX, sourceY, data, outputOffset);
+        samplePremultipliedBilinear(
+          sourceFrame, sourceX, sourceY, bodyMask, protectedFaceMask, data, outputOffset
+        );
         coverageMask[pixelIndex] = 255;
         sampledSourceX[pixelIndex] = sourceX;
         sampledSourceY[pixelIndex] = sourceY;

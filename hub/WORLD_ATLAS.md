@@ -80,7 +80,7 @@ The Brotherhood of Giants is a mythic chronicle of the giant kindred and the Nep
 
 The Facility is a clinical-white adult-male research environment: observation rooms, sealed ecosystems, experiments, feedback, and the strange everyday culture that forms around them. Muscle Myth is a mythic layer concerned with transformation, recognition, embodiment, lineage, and continuity. They can exchange motifs and artifacts, but a mythic explanation should not be imposed on a scene that has not earned it.
 
-The Facility needs working departments, personnel, routines, and consequences. Muscle Myth needs named figures, symbols, stories, and relationships between myths. Both become larger through particulars rather than grand labels. Its independent figures include the [Golden Lion](../lore/MUSCLE_MYTH_GENTLE_KING_LION.md), whose book of gentle sovereignty follows his court, friendship with the Master, immense peaceful presence, and place among the wider houses.
+The Facility needs working departments, personnel, routines, and consequences. Muscle Myth needs named figures, symbols, stories, and relationships between myths. Both become larger through particulars rather than grand labels. Its independent figures include the [Golden Lion](../lore/MUSCLE_MYTH_GENTLE_KING_LION.md), whose continuing book follows his court, friendship with the Master, daily life among the houses, the training ground, the storm-damaged orchard wall, and the practical work through which his peaceful sovereignty becomes visible (Chapters I–XVI).
 
 ## Crossings and returns
 

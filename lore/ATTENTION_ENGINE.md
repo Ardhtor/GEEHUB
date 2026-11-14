@@ -169,3 +169,72 @@ Let relationships develop in actions that require time: waiting after training, 
 When the gathering breaks up, do not end the relational story with the spectacle. Let two men remain behind. One gathers the cups while the other checks the bolts in the new bench. They have been disagreeing all evening about whether the growth is spreading beyond the Institute. The taller man has made the universal claim; the other has refused to repeat it without evidence. At first the disagreement sounded like a contest over who understood the event. Now, as they work, the first admits that he wanted the others to feel what he felt and was afraid that careful language would make the moment seem smaller. The second tells him that he believed him about the growth all along; he only wanted the group to be able to trust what they said about it tomorrow. They finish tightening the same bolt. Neither wins the argument, but each understands the other's reason more clearly. Outside, the giant crosses the courtyard on his way home, still taller than he was at dinner, and raises one hand when he sees them. Both men wave back. The event belongs to all of them, but the friendship belongs particularly to the two who stayed.
 
 This is the required movement of depth: a transformation changes the conditions of an encounter; the encounter reveals a relationship; the relationship changes what a character does next. Do not spend several paragraphs explaining the scale echo when those paragraphs could show two men becoming brothers, friends, lovers, rivals, confidants, or something not yet named.
+
+
+## “She sickens me” — the woman above the courtyard
+
+The sentence came from a man who had spent the better part of the afternoon pretending that he was not watching the southern horizon. By the time he said it, the woman had already passed the old bell tower. She was so tall that the tower's roof reached only a little above her waist, and the pale stone buildings along the avenue seemed arranged at her feet like objects on a workbench. She was still growing. The change was gradual but visible against the fixed lines of the city: her shoulders rose beyond the roofline, her stride lengthened, and the enormous shadow cast by her upper body moved across the courtyard several seconds after she had passed the sun.
+
+“She sickens me,” he said.
+
+His oldest friend did not answer immediately. He knew the voice. He had heard it when the speaker was embarrassed, when he was frightened, when he wanted to be contradicted but could not bear to ask. He had heard it most clearly the night his friend first crossed the ten-foot mark and insisted that the measuring team had made a mistake. Now the friend stood broad and tall beside him, his own new height forcing him to lower his head beneath the gallery beam. His shirt was tight across his back; the growth that had begun that morning had not finished. He could have agreed with the sentence and made the moment easy. Instead he asked, quietly, “What part?”
+
+The question annoyed the speaker. He looked back at the woman. At this distance her face was difficult to read, but she was not moving carelessly. She paused at the river crossing while the engineers below her checked the temporary supports. She waited until the signal flags were raised, then stepped across the reinforced span exactly where the surveyors had marked the safe passage. Her size was extraordinary; her attention was precise.
+
+“All of it,” he said. “The way everyone stops. The way they look at her as if she's the only thing that has ever happened.”
+
+His friend recognised the complaint. It was not really about her. For years the two men had occupied the same places together: the gymnasium, the dining hall, the long benches outside the workshop. They had measured each other's progress without keeping score, or so they had said. When the speaker began growing, his friend had been the first to notice the changes and the first to make him laugh about them. When his friend grew beyond him, the speaker had congratulated him, then gone quiet for three days. Neither had ever quite discussed those three days. Now the woman had arrived at a scale that made their old rivalry look like an argument over inches, and the speaker felt himself becoming a familiar version of a man he did not particularly like.
+
+Across the courtyard, another man called out that the whole world must be changing. Someone answered that it already had. A third began telling the story of a woman in the northern provinces who supposedly stood as high as a mountain. The surveyor at the gate told them to stop turning one sighting into a geography. They laughed, but not all of them were laughing at the same thing. One man was thrilled by the possibility; another was terrified; a third wanted to be the one who had known first. The woman continued along the river, and the crowd's account of her grew larger each time it passed between mouths.
+
+The speaker watched his oldest friend watching him. “You think I'm jealous.”
+
+“I think you hate how much you care that they're looking at her.”
+
+“That isn't the same thing.”
+
+“No,” his friend said. “It isn't.”
+
+That answer unsettled him more than an accusation would have. His friend had not taken the woman's side against him. He had not offered the easy comfort of pretending the sentence was true. He had left room for the thing beneath it, and that was harder to escape. The speaker looked down at his own hands. They had grown again: the fingers were thicker, the knuckles more prominent, and the old ring he wore on a cord now rested against his palm instead of fitting as it once had. He had spent the morning pleased by those changes. He had wanted his friend to notice. He had wanted the others to notice. He had wanted, for one unguarded instant, to be the largest presence in the courtyard.
+
+His friend took the measuring cord from the rail and offered him one end. “Come on.”
+
+“What for?”
+
+“To measure you. You keep looking at her as if the only interesting thing in the world is how tall she is.”
+
+The speaker almost refused. Then he took the cord. They stood shoulder to shoulder against the old stone marker, their height marks already crowded together from the previous week. His friend held the upper end while he made the mark. Neither joked about who had gained more. They compared the result, then moved the cord to the next mark and checked the breadth of the speaker's shoulders. The figures were ordinary to them now, but the act was not. It returned them to a private ritual that had existed before the woman appeared, before the courtyard filled, before the whole city began speaking as if it knew what was happening everywhere.
+
+The speaker let out a breath. “I don't want to be that man.”
+
+“Which man?”
+
+“The one who can only be happy when nobody else is bigger.”
+
+His friend coiled the cord carefully. “Then don't be.”
+
+The answer was blunt, and because it was blunt the speaker trusted it. He reached for the other man's shoulder. The contact had changed with their bodies: once it had been an easy clasp, now his hand covered much of the slope of his friend's upper arm. His friend leaned into it for a moment. There was no contest in that gesture. Their bodies had become enormous by ordinary standards, and still the gesture was recognisable from the days when they had stood at the same height.
+
+The woman reached the far bank. The engineers waved her onward, and she continued toward the western ridge, where the road broadened into the old quarry route. Her steps sent a faint vibration through the courtyard stones. The men felt it under their feet. One of them said that the whole ridge would have to be rebuilt. Another said that every ridge in the country would. The surveyor began correcting them again, but this time the speaker joined him. He told the others what they actually knew: one woman had crossed one marked route; the bridge had held; the western road would need inspection. He did not make her smaller in order to describe her accurately.
+
+His friend heard the change in his voice. “Better,” he said.
+
+“Don't sound so pleased.”
+
+“I am pleased.”
+
+They laughed, and the sound brought two other men over from the workshop. One had been arguing with the surveyor; the other had followed the woman's passage with an expression of undisguised wonder. The four of them stood together, all at different heights, all changing at different rates. The youngest had grown enough that his sleeves no longer covered his wrists. The quietest had not gained an inch, but he had become the person everyone trusted to record the measurements. Their friendship was not produced by the woman or by the giant scale of the day. It had been forming through meals, arguments, repairs, and shared training for months. The event gave them something new to carry into it.
+
+“She sickens me,” the speaker repeated, more softly.
+
+This time his friend heard a different sentence inside it. “Then tell me what you mean before you tell everybody else.”
+
+The speaker looked toward the ridge. The woman was almost beyond the city now, still immense, still moving with care. “I think I wanted to be the one they couldn't look away from.”
+
+His friend nodded. He did not make the admission into a joke. “I know.”
+
+That was the moment the relationship moved. Not because the speaker had become kinder in an instant, nor because his jealousy had disappeared, but because he had trusted someone with the truth underneath his cruelty and that person had remained beside him. The other two men heard enough to understand without intruding. One offered to help with the road inspection. The other asked whether they were still coming to dinner. The conversation returned to ordinary obligations, but the men walked out together, their long strides falling into a common rhythm as the speaker's shoulders continued to broaden beneath his shirt.
+
+The woman had not been made responsible for their feelings. She had her own route, her own work, and her own scale of life. The men had their own history. Their task was not to decide whether she deserved to be seen; it was to discover what happened to their friendships when the world offered them someone they could not easily compare themselves against. By evening, the speaker would have to decide whether to apologise for the way he had spoken about her. His friend would not do it for him. He would, however, walk with him to the western road if he chose to go.
+
+The line remained in the courtyard, but it no longer described the woman. It described the distance the speaker had almost allowed to grow between himself and the man who knew him best.

@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-14T09:29:42.843Z",
+  "generated": "2026-11-14T16:03:27.976Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00204",
+      "at": "2026-11-14T16:03:27.976Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / CEDAR HOUSE → THE COMMON TABLE / JOSEPH",
+      "body": "The world crossed the existing relation \"A TABLE IS SET\" from CEDAR HOUSE into THE COMMON TABLE. Scale increased from 15.46× to 15.58×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00204",
+      "live": true,
+      "regionId": "common-table",
+      "previousRegionId": "cedar-house",
+      "relation": "A TABLE IS SET"
+    },
     {
       "id": "scheduled-long-play-00203",
       "at": "2026-11-14T09:29:42.843Z",
@@ -1482,21 +1497,6 @@
       "regionId": "luke-bwomph",
       "previousRegionId": "deep-lore",
       "relation": "THE FACE REMAINS"
-    },
-    {
-      "id": "scheduled-long-play-00107",
-      "at": "2026-10-24T21:56:00.367Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / VEYRTHALIS → DEEP LORE / TYLER",
-      "body": "The world crossed the existing relation \"DEPARTURE LEAVES A SHAPE\" from VEYRTHALIS into DEEP LORE. Scale increased from 9.25× to 9.30×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00107",
-      "live": true,
-      "regionId": "deep-lore",
-      "previousRegionId": "veyrthalis",
-      "relation": "DEPARTURE LEAVES A SHAPE"
     }
   ]
 }

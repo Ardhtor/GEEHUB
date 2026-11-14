@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00204",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00204.json",
+      "route": {
+        "from": "cedar-house",
+        "to": "common-table",
+        "relation": "A TABLE IS SET"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-14T16:03:27.976Z"
+    },
+    {
+      "id": "scheduled-video-00204",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00204.json",
+      "route": {
+        "from": "cedar-house",
+        "to": "common-table",
+        "relation": "A TABLE IS SET"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-14T16:03:27.976Z"
+    },
+    {
+      "id": "scheduled-space-00204",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00204.json",
+      "route": {
+        "from": "cedar-house",
+        "to": "common-table",
+        "relation": "A TABLE IS SET"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-14T16:03:27.976Z"
+    },
+    {
       "id": "scheduled-sound-00203",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-24T17:00:24.321Z"
-    },
-    {
-      "id": "scheduled-sound-00104",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00104.json",
-      "route": {
-        "from": "facility",
-        "to": "embodied-scale",
-        "relation": "THE FLOOR REPLIES"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-24T13:37:08.890Z"
-    },
-    {
-      "id": "scheduled-video-00104",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00104.json",
-      "route": {
-        "from": "facility",
-        "to": "embodied-scale",
-        "relation": "THE FLOOR REPLIES"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-24T13:37:08.890Z"
-    },
-    {
-      "id": "scheduled-space-00104",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00104.json",
-      "route": {
-        "from": "facility",
-        "to": "embodied-scale",
-        "relation": "THE FLOOR REPLIES"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-24T13:37:08.890Z"
     }
   ]
 }

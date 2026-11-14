@@ -133,6 +133,10 @@ export async function loadRepositoryMemory(){
  for(const item of arr(register.records))addNode(graph,{id:"source-"+item.source_id,type:"visual-source",title:item.path.split("/").pop(),
   description:item.role+" · "+item.path,source_path:"media/HULUMS_CAVE_SOURCE_REGISTER.json",dropbox_path:item.path,
   dropbox_file_id:item.dropbox_file_id,availability:item.role==="canonical_original"?"registered_original":"possible_duplicate",source:"Dropbox source register"});
+ const seed=JSON.parse(raw["hub/chat_asset_memory.seed.json"]);
+ for(const node of arr(seed.nodes))addNode(graph,node);
+ for(const edge of arr(seed.edges))addEdge(graph,edge);
+ graph.import_source=seed.import_source||null;
  return graph;
 }
 export function attachChatExport(graph,data,filename="conversations.json",includeAllMessageText=false){

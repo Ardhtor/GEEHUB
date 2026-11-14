@@ -20,6 +20,11 @@ The interface is the Hub/terminal: current state is interactable, a face or char
 
 ## Transformation
 
+
+## Persistent growth and giantness
+
+Growth and giantness are part of the fiction's continuous physical language. In growth-oriented scenes, keep at least one active embodiment of scale present throughout: a man in an ongoing transformation, an established giant whose body changes the dimensions of ordinary life, a scale echo across other men, or a material consequence inherited from an earlier increase. Show height, reach, breadth, proportion, movement, clothing, furniture, architecture, and shared routines responding in a coherent way. A pause in growth is not an absence of giantness; the changed baseline remains part of the room and the relationships. Do not confine the motif to a token mention or one spectacular entrance. Preserve individual variation, agency, and identity while letting physical transformations become real events in the remembered world.
+
 Beefythiq is the grammar of transformation. Growth is not merely enlargement. It is intensification through pressure, stimulus, stress, mutation, and establishment of a new baseline.
 
 Seed → Desire → Growth → Stress → Mutation → Corruption → New Baseline

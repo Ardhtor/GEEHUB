@@ -25,6 +25,15 @@ For every fiction-writing pass:
 
 ## Narrative grammar
 
+
+## The growth-and-giantness default
+
+Across GEEHUB fiction, physical growth and giantness are recurring lived realities, not decorative motifs reserved for occasional set pieces. When a story follows adult men in a growth-oriented world, keep an embodied scale process present throughout the scene sequence: an ongoing transformation, an established giant whose presence changes spatial relations, a comparison between changing baselines, or a scale consequence that people must act upon. Let height, reach, muscular mass, posture, clothing, furniture, tools, buildings, transport, food, training, and camera perspective agree with the current scale. Growth should be proportional and continuous; a changing body remains recognizably itself, and earlier states remain part of its history.
+
+Do not reduce this rule to repeated adjectives such as enormous or gigantic. Make scale do narrative work. A man may grow while carrying out an ordinary task; a doorway may need to be raised; a friend may discover a new reach; a giant may have to lower himself to hear someone at the table; a workshop may design the next useful piece of furniture. A scene may pause escalation for rest, conversation, affection, or practical work, but giantness remains present in the bodies, room, relationships, or remembered consequences. Variation is essential: not every man grows at the same rate, and no character must follow another's trajectory. The world should contain different baselines and different choices, with extraordinary physical scale integrated into ordinary life.
+
+Unless the user explicitly requests a different register or a scene where growth is intentionally absent, every substantial growth-oriented fictional continuation should carry this physical-scale continuity from its opening through its ending. Do not introduce giantness in a single isolated paragraph and then let it vanish from the scene.
+
 - **Scene before explanation.** Put the reader in the room; let meaning emerge from what happens.
 - **Ordinary life beside the extraordinary.** The contrast makes transformation feel inhabited and real.
 - **Lineage as continuity.** Fathers, sons, brothers, cousins, uncles, and heirs carry forward habits, traits, rivalries, stories, and unfinished ambitions.

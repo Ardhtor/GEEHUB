@@ -2,7 +2,7 @@
 
 *The Meridian Saga — an integrated novel of the orchard court, the Stone Table, the Nephilim houses, the western roads, and the sea.*
 
-Status: active interpretive record; the source artwork and its interpretation are distinct from any later generated depiction.
+Status: active canon and continuing novel. The source artwork, its interpretation, and all later narrative developments remain distinct and traceable.
 
 The artwork was read as the Golden Lion: an enormous golden lion-like presence, occupying the background with a scale that dwarfs the central figure. Its composition is deliberately excessive: strong symmetry, warm gold against deep burgundy, and an almost impossible contrast between the lion's magnificence and the smaller figure before it. The design is not required to obey anatomical realism. Its governing standard is that the form should be pleasing to the eye, coherent in silhouette, and powerful in its visual presence.
 
@@ -13,6 +13,13 @@ The Gentle King Lion represents immense, peaceful, nonviolent power: purring sov
 In Muscle Myth, the lion is an independent mythic presence rather than an attribute of Hephaestus or a decorative emblem attached to another god. Hephaestus may craft a place worthy of the lion; he does not own its meaning. The lion's domain is gentle sovereignty: the ability to be immense without becoming cruel. Its appearance should preserve the artwork's golden warmth, burgundy contrast, grand symmetry, and pleasing exaggeration.
 
 **Continuity rule:** preserve the artwork's visual excess and emotional character. Do not “correct” the lion into anatomical realism, shrink it into an ordinary animal, or confuse peacefulness with weakness. The lion's gentleness is an expression of power held in reserve.
+
+## Novel architecture
+
+The book now moves as one Meridian saga rather than a set of isolated court episodes. Its prologue establishes the artwork, the Golden Lion's sovereignty, and his friendship with the Master. The first movement follows the court's daily life and the first signs of its connection to the wider world. The second follows the orchard road, the damaged house, and the practical bonds formed through repair. The third carries the Master, the Lion, and Hephaestus to the Stone Table, where the Lion enters the Brotherhood's history without becoming one of its subjects. The fourth gathers the Seven Great Houses around a common map and sends the story toward the southern escarpment. Each movement inherits unfinished matters from the one before it; the bridge, the ship, the missing southern response, and the old mountain cut remain active threads rather than disposable episode premises.
+
+The seven constituencies are the House of Stone, the House of Iron, the House of the Long Table, the House of the Open Field, the northern Nephilim halls, the coastal Nephilim shipyard, and the southern escarpment halls. The last of these has only just re-established contact. The Golden Lion's orchard court is an independent neighbour and ally, not an eighth house. The Master remains the Lion's best friend; neither friendship nor alliance is a transfer of sovereignty.
+
 
 ## The Master's best friend
 
@@ -348,7 +355,7 @@ Later, when the Master and the lion walked through the western gallery, the lion
 The lion rested his head near the Master's shoulder. Hephaestus's forge was still lit across the courtyard. Tomorrow there would be another drawing, another inspection, and perhaps another disagreement about a hinge. The Golden Lion listened to the familiar sounds of the court and felt, beneath them, the wider rhythm of the brotherhood continuing beyond the orchard.
 
 
-# Fourth movement: The Seven Great Houses
+## Fourth movement: The Seven Great Houses
 
 ## A Convergence of the Meridian
 

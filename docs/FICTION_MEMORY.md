@@ -77,3 +77,12 @@ The system should favor continuity, accumulation, cross-pollination, and emergen
 The fiction's deepest premise:
 
 **A world remembers everything that happens to it, and because it remembers, it can change without losing itself.**
+
+
+## Collective scale-confusion: the everywhere error
+
+A recurring feature of collective male hysteria is that the men confuse what is happening in their immediate presence with what is happening everywhere. One growing giant becomes, in their shared interpretation, evidence that the whole world is changing. A few scale echoes become proof that every man is transforming. A reinforced doorway becomes a prediction about every building. The claim spreads through conversation and expectation, sometimes faster than the bodies themselves change.
+
+Preserve the distinction between world fact, direct local observation, hearsay, and collective inference. Characters may collapse these categories; the narrative should not. Their mistaken universal certainty can be funny, affectionate, socially contagious, and consequential. Expectation may contribute to the fictional scale echo, but it does not automatically make every claim true. A later discovery may confirm that the phenomenon has spread, but confirmation must arrive through new evidence.
+
+The characteristic loop is: local event → universal claim → expectation everywhere → selective noticing → apparent confirmation → larger universal claim. Keep individual men distinct in how they participate: exaggeration, sincere belief, practical preparation, careful measurement, or scepticism. The giant's physical growth remains active throughout the scene, giving the room a real event around which its increasingly expansive theory can form.

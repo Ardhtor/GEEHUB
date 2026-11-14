@@ -8,7 +8,8 @@ const {
   attachChatExport,
   confirmEdge,
   exportMemoryGraph,
-  indicators
+  indicators,
+  mergeMemoryGraphs
 } = await import(moduleUrl);
 
 const source = [{
@@ -69,4 +70,14 @@ assert.equal(graph.edges.find(edge => edge.id === candidate.id).status, "confirm
 const exported = exportMemoryGraph(graph, true, false);
 assert.ok(exported.nodes.every(node => !Object.hasOwn(node, "_fullText")));
 assert.ok(exported.privacy.conversation_text_uploaded === false);
+
+const refreshed = mergeMemoryGraphs(
+  { nodes: [], edges: [{ id: "reviewed-edge", from: "a", to: "b", relation: "depicts", status: "suggested" }] },
+  { nodes: [], edges: [{ id: "reviewed-edge", from: "a", to: "b", relation: "depicts", status: "confirmed" }] }
+);
+const secondRefresh = mergeMemoryGraphs(
+  { nodes: [], edges: [{ id: "reviewed-edge", from: "a", to: "b", relation: "depicts", status: "suggested" }] },
+  refreshed
+);
+assert.equal(secondRefresh.edges[0].status, "confirmed", "reviewed links must survive a repository refresh");
 console.log("CHAT ASSET BRIDGE TESTS PASSED");

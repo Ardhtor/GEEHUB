@@ -665,6 +665,20 @@ At the bend where the paving disappeared beneath moss, the Master found an old m
 ## Second movement: The Road and the House
 
 
+
+
+The Master returned to the old marker the following morning with the surveyor who had first noticed it. The rain had washed away some of the loose soil, exposing a second line cut into the stone. It ran parallel to the first for a short distance, then turned toward the hollow. The surveyor crouched beside it and brushed away the remaining grit with a soft cloth. The Lion remained a few paces back, watching the ground rather than the mark itself. He did not want the stone disturbed before its position had been recorded.
+
+The surveyor took measurements from two fixed points and made a drawing of the cut. The Master compared it with the old road book. The symbol was similar to one recorded on a marker farther west, but the second line had not appeared in the earlier sketch. It might have been a boundary, a drainage instruction, or a later addition made by someone who had used the road after its construction. The surveyor refused to choose between those possibilities. The Master liked the answer. It left the record open without leaving it empty.
+
+They followed the paving farther down the slope. The road curved behind a stand of cedar and reached a low stone shelf where water collected before moving toward the stream. The arrangement was more deliberate than they had first expected. The old builders had not simply laid a path across the hill. They had shaped the route around the ground's natural movement, letting the road and the water share the slope without competing for it. The Lion asked whether the bridge below had been placed at the narrowest point. The surveyor said it had, but its exact relationship to the older drainage system remained uncertain.
+
+A worker found a small piece of worked bronze caught between two stones. It was green with age and too corroded to identify. The Lion asked that it be wrapped and entered as a recovered object, not carried around as a curiosity. The surveyor marked the place where it had been found and photographed its relation to the paving. The Master wrote a separate note: *possible road fitting; purpose undetermined*. Nothing in the discovery proved who had built the route or why it had been abandoned.
+
+The return walk took longer because the party stopped to examine each bend. The Lion noticed how the route changed the way one saw the surrounding land. From the upper orchard, the hollow had looked like a closed space. From the lower shelf, a narrow view opened toward the neighbouring roofs and the distant rise beyond them. The old road had connected places that could not be seen from one another at ground level. It might once have carried goods, visitors, or workers between the houses. It might have served another purpose entirely. The Lion was more interested in keeping the question accurate than making it grand.
+
+At the court, the Master asked the steward to place the new drawings beside the old road book. The bronze fitting was sent to the workshop for examination, with instructions not to clean or alter it until its surface had been documented. The surveyor was asked to prepare a second visit focused on the watercourse. The Lion watched the records being arranged and felt the familiar pleasure of an unfinished matter that had finally become legible enough to approach. The road was not open. The bridge was not safe. Yet the landscape had begun to tell a more detailed story, and the court had learned how to listen without forcing an answer.
+
 ### XVII. The Surveyors' Morning
 
 The surveyors arrived before the kitchens had finished preparing breakfast. They came with measuring rods, a level, a coil of line, two notebooks, and a folded map whose oldest marks had faded to the colour of weak tea. The Master met them at the western gate. The Golden Lion was already there, lying in the broad patch of sunlight beside the gatehouse, his forepaws crossed and his mane spread across the stone like a second carpet. He opened one eye when the survey leader greeted him.
@@ -681,6 +695,24 @@ On the way back, the survey leader asked the lion why he had not simply moved th
 
 The surveyors divided their work into independent observations. One measured the visible grade, another checked the drainage, and the third compared the surviving markers with the old register. They then exchanged notebooks and repeated the most important readings. The Master watched the process and asked whether the team had found anything that contradicted its first impression. The youngest surveyor pointed to a shallow depression hidden by leaves. It suggested that the road once crossed the slope at a gentler angle. The Lion approved of the discovery, not because it made the route more impressive, but because the team had been willing to revise its map.
 
+
+
+
+The surveyors began their morning by comparing the notes from the first inspection. They did not assume that agreement between two measurements made either one correct. The road's grade had been recorded from different positions, and the slope changed near the hollow where the old drainage channel crossed beneath the paving. One surveyor believed that the first measurement had been taken from a point slightly above the road surface. Another thought the measuring rod had settled into the moss. They returned to the location and repeated the readings.
+
+The Golden Lion accompanied them with the Master and the two maintenance workers who knew the route. He carried no instrument. His role was to help the party move safely through the narrow ground and to make room when the surveyors needed a clear line of sight. The youngest member of the team was responsible for recording the new measurements. She had been quiet during the first visit, but now she explained exactly where she thought the earlier reading had gone wrong. The senior surveyor listened, examined the point she indicated, and agreed that the discrepancy mattered.
+
+They set a new reference point on the upper shelf and measured the grade in both directions. The readings came closer together. The road's original curve was still visible beneath the moss, though several stones had shifted. At the bridge approach, the team found that the eastern parapet had been repaired with a different stone from the original structure. The repair had not been made carelessly; it was simply from another period. That detail suggested that the bridge had remained in use long after the first road register was written.
+
+The Lion asked whether the bridge could be opened for foot traffic. The survey leader said that they did not yet know. The parapet was not the only concern. The central stones rested on a lower course that had not been exposed, and the water passing beneath the bridge changed after rain. They would need to inspect the underside from the bank and determine whether the drainage slot remained clear. Until then, the bridge would remain closed.
+
+One of the maintenance workers looked disappointed. He had hoped that the road might reopen quickly and provide a shorter route to the neighbouring houses. The Lion asked whether there was another safe route. The worker said there was, but it added nearly half an hour to the journey. The Lion considered this and asked the surveyors to include the practical value of the old road in their report. A route could be historically interesting and still be worth repairing because it made ordinary travel easier. The answer would depend on the cost, the condition of the bridge, and the number of people who needed it.
+
+The youngest surveyor found a narrow channel beside the bridge where water moved beneath the surface. She traced its direction with a measuring rod and discovered that it fed the drainage slot on the lower course. The team marked the channel and tested the flow with a small amount of water from a carrying vessel. The water entered the slot and emerged on the far side without backing up. It was a useful sign, though not enough to establish the bridge's full condition. The senior surveyor complimented her for noticing the channel. She accepted the praise, then asked for the next measurement.
+
+The report took shape as a set of separate findings rather than a single verdict. The paving could be stabilised. The approach required vegetation management. The bridge needed a lower inspection. The water channel should be kept clear. The possible bronze fitting remained unidentified. The Lion listened as each point was read aloud and asked that the report distinguish what had been observed from what had merely been suggested. The survey leader agreed. They would not call the road restored simply because the first inspection had gone well.
+
+When the party returned to the court, the Master placed the report in the archive beside the earlier notes. The old route had become a real project, though it remained a limited one. The Lion looked at the map and thought about the people who had once crossed the bridge, carrying tools, food, letters, or simply the news of one house to another. He did not know their names. He hoped the road could be made safe enough for new travellers to leave their own traces.
 
 ### XVIII. The Forge's New Door
 
@@ -700,6 +732,26 @@ That evening, the model hinge remained on the long table. It had not yet been ap
 
 The new hinge became the subject of a longer argument about repairability. The first version could be removed only by taking apart the surrounding frame; the second allowed a worker to withdraw the pin with an ordinary tool. Hephaestus preferred the clean appearance of the first design, but the Lion asked who would have to maintain it in twenty years. The question settled the matter. They chose the more accessible fitting and added a small inspection mark so that wear could be seen before failure. The Lion liked that the finished object would not conceal the intelligence required to keep it working.
 
+
+
+
+Hephaestus chose the pantry door for the first full trial of the new hinge. It was used constantly, carried the weight of a heavy wooden panel, and had a habit of catching whenever a delivery arrived. The cook who worked nearest it had asked for a handle that could be gripped with a full hand, rather than a narrow pull that required the fingers to be placed carefully. Hephaestus had made three versions. The first was elegant but difficult to clean; the second moved smoothly but required a tool that the kitchen did not keep; the third was plain, strong, and easy to service.
+
+The Lion came to the workshop while the maker was fitting the final model. Hephaestus held up the third version and said that it was the least beautiful of the three. The Lion examined it and asked what the kitchen staff thought. Hephaestus admitted that they preferred it. The Lion smiled. “Then perhaps it has learned something from the kitchen.”
+
+They carried the hinge to the pantry and removed the old fitting. The cook watched while the workers marked the frame, drilled the pilot holes, and set the new plate. Hephaestus explained each stage. The Lion stood clear of the work, though his large shadow fell across the lower half of the door. When the fitting was complete, the cook tested it with one hand and then with a loaded tray balanced against the other arm. The door opened more easily, but the spring pulled it closed too quickly.
+
+Hephaestus stopped the test. He had expected the spring to slow the door near the frame, but the weight of the panel had changed the movement. The cook explained that the door was often held open by someone carrying a pot or a basket. The new hinge had to remain open without being propped with a chair. Hephaestus took the door off its pins and returned to the workshop.
+
+The Lion followed. He did not tell his friend how to solve the problem. He asked whether the spring could be adjusted without changing the whole hinge. Hephaestus examined the model and found that a small change to the cam would allow the door to rest at a wider angle. He cut a new piece, polished its edge, and returned with the revised fitting. This time the door opened, held, and closed at a slower pace. The cook tested it again with a tray. It worked.
+
+The second test was at the infirmary, where the old hinge had made a sharp sound at night. Hephaestus fitted a quieter stop and asked the attendant to close the door several times. The attendant listened, then asked for a little more clearance near the lower edge so that the door would not catch when the floor was cleaned. Hephaestus made the adjustment. The Lion watched him work and saw how much pleasure the maker took in an answer that had been improved by someone else's knowledge.
+
+By evening the hinge drawings had changed. The first page showed the original concept; the second recorded the adjustments; the third listed the tools needed for repair and the points that should be inspected over time. Hephaestus asked the attendants to keep a copy near the maintenance book. The Lion suggested that the workshop also make a simple teaching model, so that apprentices could understand the mechanism before they were asked to repair a full-size door. Hephaestus agreed.
+
+The new door did not attract visitors. It did not need a plaque, an unveiling, or a place in the sculpture gallery. It worked better than the old one, and the people who used it no longer had to think about it each time they entered the pantry. The Lion considered that a successful piece of craft. Hephaestus did too, though he still insisted that the bronze should have been polished to a warmer finish. The Lion told him that he could polish it after supper. The maker answered that he would, and both of them laughed.
+
+The model hinge remained on the long table beside the drawings. The apprentices gathered around it the next morning, and Hephaestus let them take it apart under supervision. The cook stopped by to describe how the door had behaved overnight. One of the apprentices proposed a further adjustment; Hephaestus asked them to explain the expected load before touching the model. The Lion watched from the doorway. What pleased him most was not that a new hinge had been made, but that the knowledge of making and maintaining it had begun to move beyond the hands that had first designed it.
 
 ### XIX. The House That Remembered Fire
 
@@ -721,6 +773,26 @@ When the visitor left, Hephaestus remained with the drawings. He began to make a
 
 The report was read aloud in the great hall, with the residents' own descriptions placed beside the measurements. The house had not been abandoned, and its people did not want it rebuilt as a monument to disaster. They wanted the hall dry, the western rooms safe, and the old communal kitchen restored. The surveyors proposed a sequence that kept one room available throughout the work. The Lion insisted that the residents review the plan before materials were ordered. A repair could be technically sound and still fail if it displaced the life it was meant to support.
 
+
+
+
+The first meeting at the distant house was held in a temporary shelter beside the old hall. The building that had survived the fire stood behind a barrier, its roof partly collapsed and its northern wall braced with timber. The residents had gathered on benches around a table made from salvaged boards. Some had brought the old plans; others carried photographs, handwritten notes, and small objects recovered from the rooms. The surveyors laid out their report and explained the foundation readings before anyone began discussing a new design.
+
+The Master and the Golden Lion arrived after the first hour. They had been invited to listen, not to chair the meeting. The Lion entered carefully through the shelter door and lowered himself near the wall, leaving the central space for the residents. Several people looked at him with astonishment. One older member of the house rose and greeted him, then asked whether he had come to decide what would be built. The Lion answered that he had come because they had asked him to hear what they wanted. The decision belonged to the people who would use the place.
+
+The surveyor showed the damaged foundations. The spring beneath the northern side had carried water for years, and the original drainage had been partly blocked during one of the later expansions. The fire had weakened the stone, but the water had been working against it long before. A resident brought forward a notebook kept by an older caretaker. It contained dates when the floor had become damp, notes about repairs, and requests for a second drain that had never been approved. The pages were stained, but the handwriting was legible. The surveyor added the notebook to the record.
+
+The discussion became difficult when the residents compared their memories of the hall. Some wanted its central room restored exactly, because that was where the house's largest gatherings had taken place. Others remembered how cold it was in winter and how the kitchen had been too far away for the older members to reach comfortably. A few wanted a smaller building that could be completed quickly. One person argued that the hall should first be made safe and that a new design could wait until the next season. No proposal was accepted immediately.
+
+The Lion listened without trying to settle the matter by force of personality. When the conversation began circling the same disagreements, he asked each group to describe one thing the old hall had done well and one thing it had made difficult. The answers changed the tone of the meeting. The central room had allowed large gatherings, but it had swallowed quiet conversation. The kitchen had fed everyone, but the route between the kitchen and the dining space was narrow. The archive had been dry until the later extension, when the new roof altered the drainage. A room for winter waiting had never existed, though people had often needed one.
+
+The Master asked whether the residents could agree on a first stage that would not prevent later choices. They settled on stabilising the remaining structure, protecting the surviving records, and building a temporary kitchen and warm meeting room beside the shelter. The future hall would be designed only after the temporary rooms had been used through a season. That would allow the residents to learn which arrangements actually worked. Hephaestus's drawings would be considered, but no design would be adopted merely because it was already on paper.
+
+After the meeting, the Lion walked with several residents around the outside of the damaged hall. They showed him the old entrance, the place where winter mud used to collect, and a stretch of wall where the children of the house had once measured their height. The Lion did not touch the wall. He looked at the marks and asked whether they would be preserved. One resident said that they hoped to move the marked stone into the new warm room if it could be removed safely. The Lion agreed that the surveyors should examine it before any work began.
+
+The residents did not leave the meeting with a finished building. They left with a sequence of actions, a list of questions, and a clearer account of what the old hall had meant. The Master wrote the decisions into the shared book. The Lion asked for a copy to be sent to the people who had not been able to attend. The work would be slower than a public declaration of reconstruction, but it would belong to the house rather than to the people who had volunteered to help it.
+
+On the road home, the Master asked whether the Lion thought the meeting had gone well. The Lion said that it had gone honestly. Some people were still disappointed, and the design remained unsettled. But no one had been required to pretend that the fire had left the house unchanged. The Master looked toward the distant roofs. He said that perhaps this was what assistance should do: make it easier for people to tell the truth about what they had lost and what they wanted next.
 
 ### XX. A Day Kept for Friendship
 
@@ -744,6 +816,34 @@ The maker admitted that he had forgotten lunch. The lion turned toward the kitch
 
 They spent the morning without a schedule. The Master chose a book; the Lion rested near the window; Hephaestus examined a small bronze fitting and eventually put it away when nobody asked him to work. Later they walked through the garden and found a young tree leaning after the rain. The gardener showed them how its support had loosened. They helped reset the stake, then stayed while the gardener watered the roots. The day remained unremarkable in the best sense. It reminded each of them that friendship was not the reward waiting after work was complete; it was part of the life that made work worth doing.
 
+
+
+
+The day kept for friendship began with a deliberate refusal to hurry. The Master had left the morning open, and the Lion had chosen not to fill it with a list of things that might be accomplished. They met in the western gallery after breakfast. The Master brought a book, the Lion brought nothing, and both looked out through the open windows toward the orchard. The lower wall was still under repair. The temporary channel carried water cleanly now, and the young trees had been moved away from the work.
+
+The Master asked whether the Lion wanted to walk. The Lion rose at once, but instead of taking the main path he led them toward a narrow lane behind the kitchen garden. It was not a route used by visitors. The paving was uneven, and the path passed a small storage shed where the gardeners kept tools and spare stakes. The Master asked why they were going that way. The Lion said that he wanted to see the old pear tree that had been planted before the western gallery was rebuilt.
+
+The tree stood in a quiet corner where the ground rose slightly above the drainage channel. Its branches were broad, and several had been supported with soft ties after the recent wind. The gardener had left a basket beneath it. The Lion examined the fruit and chose one that had fallen without splitting. The Master took a small knife from his pocket and divided it. They ate on the low stone bench, listening to the sounds of the household behind them.
+
+They talked about the first days of the court, when neither of them knew what the place would become. The Master remembered the first time he had seen the Lion settle into the gallery as though the building had been waiting for him. The Lion remembered that the Master had not asked him to demonstrate his strength. Instead, he had asked whether the room was comfortable. The question had surprised him. Many visitors had wanted to know how much he could lift, how far he could reach, or whether he could fill a doorway. The Master had asked where he preferred to sit.
+
+“You were already very large,” the Master said.
+
+“I had noticed.”
+
+“And you had already decided that the chair was too small.”
+
+“It was a poor chair.”
+
+The Master laughed. The Lion's expression brightened, and for a while they returned to the easy teasing that belonged to their earliest conversations. They remembered small incidents: the first meal in the unfinished kitchen, the day a shutter had come loose in the wind, the afternoon when the Lion had tried to pass through a doorway that the builders had promised was wide enough. The doorway had not been wide enough. Hephaestus had measured it again, the Lion had complained with theatrical dignity, and the Master had laughed until he had to sit down.
+
+They walked on after the meal and reached the lower pool. The water was clear, though a few leaves had collected along the stone edge. The Master sat beside it and read several pages from his book. The Lion lay in the sun, his mane spread across the grass. Every so often the Master turned a page and glanced down. The Lion did not ask what he was reading. When the Master reached a passage he liked, he read it aloud. The Lion listened, then offered a different interpretation. They disagreed about the meaning, and neither felt obliged to win.
+
+In the afternoon they returned to the court by way of the workshop. Hephaestus was there, testing the revised hinge. He had expected them to pass through, but the Lion invited him to join them for a late meal. Hephaestus hesitated because the model still needed one more test. The Master offered to watch the next cycle while the maker ate. Hephaestus accepted, and the three of them sat together in the small room beside the forge. The meal was simple: bread, cheese, olives, fruit, and a pot of vegetables left warming near the hearth.
+
+Their conversation moved from the hinge to the old road, then to the house that remembered fire. Hephaestus spoke about the temporary supports he had begun to design. The Master described the residents' decision to test the warm room through a season before committing to a larger hall. The Lion asked whether the old marked stone could be moved safely. Hephaestus said that he would need to see it before answering. They agreed to make the inspection a separate task rather than add it to the current work without preparation.
+
+When the meal was over, the Lion returned with the Master to the western gallery. Hephaestus went back to the hinge. The day had not been empty, but none of its useful work had been forced. The Master had been able to read, the Lion had enjoyed the garden, and Hephaestus had been fed before he forgot to stop working. The Lion considered this a proper day. It had given each friend room to be himself and had allowed their lives to meet without turning every meeting into a project.
 
 ### XXI. The Sound of the Court
 

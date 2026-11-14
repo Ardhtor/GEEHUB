@@ -126,3 +126,8 @@ The Institute's training floor and residential quarter establish the social infr
 ## Chapter Thirteen — The Trial of the Lower Gate
 
 [Chapter Thirteen: The Trial of the Lower Gate](dimension/FIRST_ROOM_CHAPTER_13.md) carries the public decision into action. The crew opens the old gate within its agreed limits, inspects the first chamber, and discovers a window looking directly into a room matching Joseph and Kirk's original first room: the table, the two unmatched chairs, the leaning lamp, the street, and the pipe. The page is absent, and the chamber's relation to the first room remains unresolved. The team closes the gate after the trial and records its measurements, photographs, and remaining questions. The first room has reappeared as a destination or correspondence, but the author of its page and the meaning of “O Dreadmaster” remain unknown.
+
+
+## Chapter Fourteen — The Forge Under the Roots
+
+[The Forge Under the Roots](dimension/FIRST_ROOM_CHAPTER_14.md) introduces Hephaestus to the Crownheart workshop and the investigation beneath the sequoia roots. He studies the lower gate as a material structure, distinguishes what can be measured from what remains unknown, and works with Mara, Pell, Orlan, Joseph, and Kirk to make a bronze-and-oak listening key. The tool records a repeatable vibration without opening the gate or claiming to explain the first room. Hephaestus's place in the [Lineage Pantheon](LINEAGE_PANTHEON.md) is craft, controlled fire, invention, architecture, and repair; his work remains accountable to the people who use and maintain what he makes.

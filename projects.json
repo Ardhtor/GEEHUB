@@ -1491,5 +1491,21 @@
       "lineage-pantheon",
       "viewer-facing-broadcast"
     ]
+  },
+  {
+    "id": "chat-asset-memory-bridge",
+    "name": "Chat ↔ World Asset Memory Bridge",
+    "status": "prototype",
+    "kind": "tooling",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/hub/memory-bridge.html",
+    "description": "Local-first browser bridge connecting ChatGPT conversation signals to world entities, visual evidence, asset records, exchange events, and production artifacts. Suggested links remain reviewable; private chat text is not uploaded.",
+    "related": [
+      "vision-workspace",
+      "media-tools",
+      "discovery",
+      "bodylounger",
+      "muscle-myth"
+    ]
   }
 ]

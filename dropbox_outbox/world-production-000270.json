@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000270",
+  "created_at": "2026-11-14T16:53:43.782257+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "MEMORY / THE COMMON TABLE / worlds/common-table/README.md",
+  "content": "NICK: A detail returns in THE COMMON TABLE: A late arrival finds a place without ceremony. The conversation continues around the table, and a serving bowl is passed down to make room for one more.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/common-table/README.md.",
+  "production_note": "The world resolved its memory rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 270,
+    "actor": "TYLER",
+    "world": "THE COMMON TABLE",
+    "region_id": "common-table",
+    "source": "worlds/common-table/README.md",
+    "phase": "MEMORY",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

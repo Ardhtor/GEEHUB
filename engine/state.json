@@ -1,5 +1,5 @@
 {
-  "pulse": 269,
+  "pulse": 270,
   "events": [
     {
       "pulse": 1,
@@ -4935,6 +4935,28 @@
       "occurred_at": "2026-11-14T16:53:31.065510+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000270",
+      "pulse": 270,
+      "time": "2026-11-14T16:53:43.782257+00:00",
+      "actor": "TYLER",
+      "world": "THE COMMON TABLE",
+      "region_id": "common-table",
+      "previous_region_id": "common-table",
+      "phase": "MEMORY",
+      "source": "worlds/common-table/README.md",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in THE COMMON TABLE: A late arrival finds a place without ceremony. The conversation continues around the table, and a serving bowl is passed down to make room for one more.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/common-table/README.md.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-14T16:53:43.782257+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -4986,7 +5008,7 @@
     "athletic-commons": 263.5
   },
   "pressure": 1.0,
-  "memory": 1,
+  "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
     "creative/luke-bwomph.json": 20,
@@ -4999,7 +5021,7 @@
     "README.md": 10,
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 11,
-    "worlds/common-table/README.md": 11,
+    "worlds/common-table/README.md": 12,
     "worlds/cedar-house/README.md": 10,
     "worlds/cat-gardens/README.md": 13,
     "worlds/founders-dormitory/README.md": 8,
@@ -5010,12 +5032,12 @@
     "worlds/athletic-commons/README.md": 7
   },
   "next_region": null,
-  "phase": 1,
+  "phase": 2,
   "active_region": "common-table",
-  "current_phase": "ATMOSPHERE",
-  "current_desire_state": "attention",
-  "current_question": "What does this place do while nobody intervenes?",
-  "current_narrative_rule": "approach extends geography",
+  "current_phase": "MEMORY",
+  "current_desire_state": "recognition",
+  "current_question": "Which detail remains from the prior state?",
+  "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null,
   "long_play": {
     "cycle": 204,

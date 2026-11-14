@@ -2405,3 +2405,11 @@ SETH: Fresh bread is cooling at the end of the oak table. Soup, roasted vegetabl
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/common-table/README.md. Pressure 1.00; memory 1.00.
+
+## THE COMMON TABLE / pulse 270 / MEMORY
+
+NICK: A detail returns in THE COMMON TABLE: A late arrival finds a place without ceremony. The conversation continues around the table, and a serving bowl is passed down to make room for one more.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/common-table/README.md.
+
+Source retained: worlds/common-table/README.md. Pressure 1.00; memory 1.00.

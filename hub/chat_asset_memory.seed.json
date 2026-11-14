@@ -94,7 +94,7 @@
       "continuity": "In-world pantheon figure; distinct from the narrators."
     },
     {
-      "id": "asset-hephaestus-chat-image-2026-11-14",
+      "id": "asset-character-hephaestus-forge-maker-portrait-2026-11-14",
       "type": "asset",
       "title": "Hephaestus — Forge-Maker portrait",
       "visual_kind": "image",
@@ -107,10 +107,11 @@
       },
       "availability": "rendered_in_chat_not_archived",
       "canon": "user-approved-in-conversation",
-      "source_path": null,
+      "source_path": "lore/ASSET_INDEX.md",
       "file_path": null,
       "preview_url": null,
-      "unresolved": "The rendered image binary has not yet been copied into the GEEHUB repository or Dropbox corpus. Do not claim photo-library synchronisation."
+      "unresolved": "The rendered image binary has not yet been copied into the GEEHUB repository or Dropbox corpus. Do not claim photo-library synchronisation.",
+      "url": "https://github.com/Ardhtor/GEEHUB/blob/main/lore/ASSET_INDEX.md"
     }
   ],
   "edges": [
@@ -141,7 +142,7 @@
     {
       "id": "edge-hephaestus-request-produced-image",
       "from": "chat-signal-hephaestus-image-request-2026-11-14",
-      "to": "asset-hephaestus-chat-image-2026-11-14",
+      "to": "asset-character-hephaestus-forge-maker-portrait-2026-11-14",
       "relation": "requested_and_generated",
       "status": "confirmed",
       "evidence": "The image was generated in the conversation."
@@ -149,14 +150,14 @@
     {
       "id": "edge-hephaestus-approval",
       "from": "chat-signal-hephaestus-image-approval-2026-11-14",
-      "to": "asset-hephaestus-chat-image-2026-11-14",
+      "to": "asset-character-hephaestus-forge-maker-portrait-2026-11-14",
       "relation": "approves_in_conversation",
       "status": "confirmed",
       "evidence": "The user responded 'wonderful' after the image appeared."
     },
     {
       "id": "edge-hephaestus-asset-depicts-character",
-      "from": "asset-hephaestus-chat-image-2026-11-14",
+      "from": "asset-character-hephaestus-forge-maker-portrait-2026-11-14",
       "to": "world-character-hephaestus",
       "relation": "depicts",
       "status": "confirmed",
@@ -165,7 +166,7 @@
     {
       "id": "edge-bridge-request-targets-bridge",
       "from": "chat-signal-memory-bridge-request-2026-11-14",
-      "to": "asset-hephaestus-chat-image-2026-11-14",
+      "to": "asset-character-hephaestus-forge-maker-portrait-2026-11-14",
       "relation": "asks_to_connect_visual_memory",
       "status": "suggested",
       "evidence": "The user asked for a chat-history to world-assets memory bridge.",

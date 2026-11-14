@@ -119,6 +119,24 @@ function renderAtlas(){
   $('#atlas').innerHTML=ordered.map(p=>'<button class="btn" style="margin:4px" data-atlas="'+esc(p.id)+'">'+esc(p.name)+'</button>').join('');
   $('#atlas').querySelectorAll('[data-atlas]').forEach(b=>b.onclick=()=>openEntry(b.dataset.atlas));
 }
+function projectHref(p){
+  const raw=typeof p.path==='string'?p.path.trim():'';
+  if(!raw||raw==='#')return null;
+  if(/^https?:\\/\\//i.test(raw))return raw;
+  const hashAt=raw.indexOf('#');
+  const fragment=hashAt>=0?raw.slice(hashAt):'';
+  let path=hashAt>=0?raw.slice(0,hashAt):raw;
+  if(!path||path==='/'||path==='.'||path==='..'||path==='.'+'/'||path==='..'+'/')path='../README.md';
+  else if(path.startsWith('/'))path='../'+path.replace(/^\\/+/, '');
+  if(path.endsWith('/'))path+='README.md';
+  return path+fragment;
+}
+function projectAction(p){
+  const href=projectHref(p);
+  if(href)return '<a class="repo-link" href="'+esc(href)+'" target="_blank" rel="noopener">OPEN PROJECT ↗</a>';
+  if(p.repo)return '<a class="repo-link" href="'+esc(p.repo)+'" target="_blank" rel="noopener">OPEN REPOSITORY ↗</a>';
+  return '<span class="muted">PROJECT PATH NOT REGISTERED</span>';
+}
 function openEntry(id,push=true){
   const x=eco[id]; if(!x)return;
   if(push)trail=[...trail.filter(v=>v!==id),id].slice(-6);
@@ -128,7 +146,7 @@ function openEntry(id,push=true){
     return '<button class="btn" data-node="'+esc(n.id)+'">'+esc(n.name)+' <span class="muted">· '+esc(l.tags.join(', '))+'</span></button>';
   }).join('');
   $('#entry').hidden=false;
-  $('#entry').innerHTML='<div class="muted">'+esc(p.status)+' · '+esc(p.group)+'</div><h2 style="margin:8px 0">'+esc(p.name)+'</h2><p>'+esc(p.summary)+'</p><div class="tags">'+p.tags.map(t=>'#'+esc(t)).join(' ')+'</div><p class="muted">Corridors: '+x.links.length+' · nearest shared meanings first.</p><div class="actions">'+(links||'<span class="muted">No indexed corridors yet.</span>')+'</div>'+(p.repo?'<a class="repo-link" href="'+esc(p.repo)+'" target="_blank" rel="noopener">OPEN REPOSITORY ↗</a>':'');
+  $('#entry').innerHTML='<div class="muted">'+esc(p.status)+' · '+esc(p.group)+'</div><h2 style="margin:8px 0">'+esc(p.name)+'</h2><p>'+esc(p.summary)+'</p><div class="tags">'+p.tags.map(t=>'#'+esc(t)).join(' ')+'</div><p class="muted">Corridors: '+x.links.length+' · nearest shared meanings first.</p><div class="actions">'+(links||'<span class="muted">No indexed corridors yet.</span>')+'</div>'+projectAction(p);
   $('#entry').querySelectorAll('[data-node]').forEach(b=>b.onclick=()=>openEntry(b.dataset.node));
   $('#trail').textContent=trail.map(id=>eco[id].node.name).join('  →  ');
   renderAtlas();

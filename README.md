@@ -10,7 +10,7 @@ The hub is not a pile of files. It records what happened, what changed, what rem
 
 ## Navigate the repository
 
-The [complete directory map](docs/REPOSITORY_NAVIGATION.md) opens every area of GEEHUB and provides a full file catalogue. Each directory has a local `README.md` with immediate contents and navigation back to the parent and the whole repository.
+The [complete directory map](docs/REPOSITORY_NAVIGATION.md) opens every area of GEEHUB. The [Project Workbench](docs/PROJECT_WORKBENCH.md) is the practical resume surface for continuing existing projects, showing their working files, current state, and next useful action. Each directory has a local `README.md` with direct links to immediate contents and navigation back to its parent and the whole repository.
 
 ## The voice
 

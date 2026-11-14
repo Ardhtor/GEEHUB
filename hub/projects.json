@@ -18,7 +18,7 @@
     "group": "system",
     "status": "active",
     "summary": "A generative grammar of accumulation, escalation, stress, mutation, and new baselines.",
-    "path": "#",
+    "path": "../lore/BEEFYTHIQ_BIOGRAPHIES.md",
     "tags": [
       "grammar",
       "growth",
@@ -31,7 +31,7 @@
     "group": "world",
     "status": "active",
     "summary": "Persistent living creative environment where encounters become memories, memories alter creations, and creations cross-pollinate into the next world state.",
-    "path": "#",
+    "path": "../library-import/the_complex.html",
     "tags": [
       "world",
       "continuity",
@@ -47,7 +47,7 @@
     "group": "system",
     "status": "incubating",
     "summary": "Visual transformation workspace built around seeds, rules, latency, anomalies, and feedback.",
-    "path": "#",
+    "path": null,
     "tags": [
       "visual",
       "rules",
@@ -60,7 +60,7 @@
     "group": "game",
     "status": "incubating",
     "summary": "Two-player hotseat growth game with orbs, cooperation, and escalating transformation.",
-    "path": "#",
+    "path": null,
     "tags": [
       "game",
       "pygame",
@@ -73,7 +73,7 @@
     "group": "game",
     "status": "incubating",
     "summary": "Compact mutation-engine prototype with push, mutate, rest, and runaway progression.",
-    "path": "#",
+    "path": null,
     "tags": [
       "game",
       "mutation",
@@ -86,7 +86,7 @@
     "group": "world",
     "status": "incubating",
     "summary": "Clinical-white adult research complex with CRT glow, sealed ecosystems, and transformation experiments.",
-    "path": "#",
+    "path": "../engine/FACILITY.md",
     "tags": [
       "facility",
       "fiction",
@@ -99,7 +99,7 @@
     "group": "myth",
     "status": "active",
     "summary": "Pantheon and mythmaking around transformation, mass, charisma, and impossible bodies.",
-    "path": "#",
+    "path": "../lore/LINEAGE_PANTHEON.md",
     "tags": [
       "myth",
       "pantheon",
@@ -112,7 +112,7 @@
     "group": "tool",
     "status": "incubating",
     "summary": "Content-aware image/video tooling, tracking canvases, and transformation-oriented experiments.",
-    "path": "#",
+    "path": "../engine/media-inspector.html",
     "tags": [
       "tool",
       "vision",
@@ -125,7 +125,7 @@
     "group": "tool",
     "status": "incubating",
     "summary": "Personalized discovery layer for finding relevant media, tags, feeds, and archives.",
-    "path": "#",
+    "path": "../hub/index.html",
     "tags": [
       "discovery",
       "search",
@@ -138,7 +138,7 @@
     "group": "aesthetic",
     "status": "dormant",
     "summary": "90s–2000s / Y2K / Heisei-tech visual and sonic experiments.",
-    "path": "#",
+    "path": null,
     "tags": [
       "retro",
       "y2k",
@@ -151,7 +151,7 @@
     "group": "research",
     "status": "active",
     "summary": "Thesis/research workspace around dialogue, interpretation, communication, and religious studies.",
-    "path": "#",
+    "path": null,
     "tags": [
       "thesis",
       "research",
@@ -164,7 +164,7 @@
     "group": "god",
     "status": "incubating",
     "summary": "Repository-ready home for individual deities, their symbols, myths, artifacts, and rules.",
-    "path": "#",
+    "path": "../docs/MYTH_THE_GODS_LUST_AFTER_BEEFYTHIQ.md",
     "tags": [
       "gods",
       "canon",
@@ -177,7 +177,7 @@
     "group": "3d",
     "status": "incubating",
     "summary": "Dedicated 3D production node for the Blender-based stand workflow, intended to connect modeling, scene building, and visual output back into the GEEHUB constellation.",
-    "path": "#",
+    "path": "../engine/video/blender/README.md",
     "tags": [
       "blender",
       "3d",
@@ -383,7 +383,7 @@
     "group": "engine",
     "status": "active",
     "summary": "The current GEEHUB core: a living visual memory/world engine. Scenes, video, books, characters, places, and artifacts persist as connected states; RUN continues the world.",
-    "path": "../",
+    "path": "../README.md",
     "tags": [
       "sensation",
       "memory",
@@ -408,7 +408,7 @@
     "group": "experience",
     "status": "active",
     "summary": "Enterable adult male social world inside the Sensation Engine; a persistent place of characters, rooms, encounters, video-memory, and visual artifacts that continues between visits.",
-    "path": "../experiences/male-stud/README.md",
+    "path": null,
     "tags": [
       "experience",
       "male",
@@ -748,7 +748,7 @@
     "group": "tool",
     "status": "active",
     "summary": "A personal workplace station for each GEEHUB inhabitant: identity, role, department, shift status, assigned work, daily priorities, and handoff records. Designed for the people using the world, not its repository maintainers.",
-    "path": "./workbench.html",
+    "path": null,
     "tags": [
       "inhabitants",
       "workplace",
@@ -765,7 +765,7 @@
     "group": "world",
     "status": "active",
     "summary": "Inhabitant-facing shared workplace for membership, shift presence, notices, work requests, acceptance, completion, and help offers. Portable shared-board exchange is implemented; live server synchronization remains a future integration.",
-    "path": "./common-room.html",
+    "path": null,
     "tags": [
       "inhabitants",
       "workplace",
@@ -780,7 +780,7 @@
     "group": "system",
     "status": "active",
     "summary": "Operating principles for inhabitant work, assignment, handoffs, departmental participation, and autonomy.",
-    "path": "./workplace-charter.md",
+    "path": null,
     "tags": [
       "workplace",
       "governance",
@@ -794,7 +794,7 @@
     "group": "system",
     "status": "active",
     "summary": "Initial directory of six working departments and their responsibilities and example work.",
-    "path": "./departments.json",
+    "path": null,
     "tags": [
       "workplace",
       "departments",
@@ -808,7 +808,7 @@
     "group": "archive",
     "status": "active",
     "summary": "Connected world directory for registered projects, places, stories, systems, research, media, inhabitants' workplaces, and institutional records. Searchable by field, status, text, and tags; preserves source paths and explicit relationships.",
-    "path": "./compendium.html",
+    "path": null,
     "tags": [
       "compendium",
       "index",
@@ -1813,6 +1813,90 @@
       "discovery",
       "bodylounger",
       "muscle-myth"
+    ]
+  },
+  {
+    "id": "vision-workspace",
+    "name": "The Tractus — Living Workspace",
+    "group": "workspace",
+    "status": "active",
+    "summary": "The living GEEHUB workspace: scenes, video, books, characters, places, artifacts, and memory connected through a persistent world and repository.",
+    "path": "../README.md",
+    "tags": [
+      "workspace",
+      "tractus",
+      "continuity",
+      "memory",
+      "world"
+    ]
+  },
+  {
+    "id": "golden-lion",
+    "name": "The Golden Lion — Recognition of the Titan",
+    "group": "character-and-world",
+    "status": "active",
+    "summary": "The image-rooted Golden Lion character and world record; visual fidelity to the original artwork governs every prose and derivative depiction.",
+    "path": "../lore/GOLDEN_LION.md",
+    "tags": [
+      "golden-lion",
+      "character",
+      "visual-fidelity",
+      "redwood",
+      "myth"
+    ]
+  },
+  {
+    "id": "confluence-expansion",
+    "name": "The Confluence — Expansion Atlas",
+    "group": "world-system",
+    "status": "active",
+    "summary": "The current geography and expansion framework for the Confluence, linking places, institutions, and inhabitants.",
+    "path": "../lore/EXPANSION_ATLAS_2026-11-10.md",
+    "tags": [
+      "confluence",
+      "world",
+      "atlas",
+      "geography"
+    ]
+  },
+  {
+    "id": "confluence-people-volume-iii",
+    "name": "The Confluence — Volume III: The People",
+    "group": "story-volume",
+    "status": "incubating",
+    "summary": "The people and character volume of the Confluence expansion, connected to the larger atlas.",
+    "path": "../lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md",
+    "tags": [
+      "confluence",
+      "people",
+      "characters",
+      "volume-three"
+    ]
+  },
+  {
+    "id": "character-marcus",
+    "name": "Marcus — Character Record",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Marcus's persistent character record and continuity reference.",
+    "path": "../characters/records/MARCUS.md",
+    "tags": [
+      "character",
+      "marcus",
+      "continuity"
+    ]
+  },
+  {
+    "id": "character-dan-roman",
+    "name": "Dan Roman — Character Record",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Dan Roman's persistent character record and continuity reference.",
+    "path": "../characters/records/DAN_ROMAN.md",
+    "tags": [
+      "character",
+      "dan-roman",
+      "continuity"
     ]
   }
 ]

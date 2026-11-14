@@ -53,3 +53,8 @@ The interface stays visual-first. Long, continuous environmental narration belon
 ## Chat ↔ World Asset Memory
 
 Open [Memory Bridge](memory-bridge.html) to load the repository's world and visual records, import a ChatGPT data export locally, inspect suggested links, and export a portable memory graph. The bridge keeps the conversation source, asset lineage, visual availability, canon status, and human review separate. Private chat text is not uploaded. See [the operating contract](../docs/CHAT_ASSET_MEMORY_BRIDGE.md).
+
+
+## Project workbench and folder navigation
+
+Use the [Project Workbench](../docs/PROJECT_WORKBENCH.md) to resume work already started in GEEHUB. It connects the Hub's project cards to actual working files, distinguishes registered concepts from projects with source paths, and shows the next useful operation where the project record defines one. The [repository map](../docs/REPOSITORY_NAVIGATION.md) provides the full folder hierarchy; each folder's `README.md` provides its local file list.

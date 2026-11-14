@@ -724,6 +724,10 @@ The Lion inclined his head. “That is a better thing to carry home.”
 
 The visitor left without a banner or public endorsement. The court had not made his problem disappear. It had helped him return with a process that could be explained to the people who would live with its results.
 
+
+
+On the morning of his departure, the visitor asked whether he might take a copy of the court's maintenance register back to his house. He did not want to copy its exact arrangements, which belonged to the Lion's court, but he wanted to show the residents how the records separated observations from decisions. The Master gave him a short example drawn from the orchard wall: the first report, the inspection, the repair sequence, and the final check. The visitor read it carefully. He said that his own house had kept records of large decisions but had rarely written down the small steps that led to them. The Lion suggested that the new hall begin with a simple book in which anyone could record a problem without needing permission from an officer. The visitor accepted the idea, then asked how the book could be protected from becoming a place for complaints that nobody answered. The Master recommended assigning a person to review each entry and record what action followed. The visitor left with a model for a process, not a design for a building.
+
 ### XV. The Long Table at Dusk
 
 The long table in the great hall was made from dark oak, with a surface broad enough for maps, tools, ledgers, food, and the occasional sleeping cat. In the evening it became the centre of the court's shared life. The gardeners brought in the first report on the orchard drainage. The wheelwright delivered the repaired cart hub. The training-ground coach submitted the platform inspection. Hephaestus placed his drawings beside the maintenance ledger. The Master arrived last, carrying the small book from the western gallery.
@@ -854,6 +858,10 @@ The report took shape as a set of separate findings rather than a single verdict
 
 When the party returned to the court, the Master placed the report in the archive beside the earlier notes. The old route had become a real project, though it remained a limited one. The Lion looked at the map and thought about the people who had once crossed the bridge, carrying tools, food, letters, or simply the news of one house to another. He did not know their names. He hoped the road could be made safe enough for new travellers to leave their own traces.
 
+
+
+The youngest surveyor returned to the office with the field notes and asked to compare the old road marker with the mark beneath the bridge. The two carvings were not identical, but their angles shared a feature that had not been obvious in the field. She laid the sketches side by side and placed a transparent grid over them. The senior surveyor cautioned that similarity could arise from the shape of the tool or the direction of the stone, not necessarily from a common maker. She agreed and added the possible explanations to the margin. The Master asked whether the finding changed the route assessment. The surveyor said that it did not. It changed the list of questions for the next visit. The Lion liked the answer. The marks were worth studying, but they did not make the bridge safe or prove a connection that the measurements had not established.
+
 ### XVIII. The Forge's New Door
 
 Hephaestus came to the court that afternoon carrying a small object wrapped in canvas. He had been working on the orchard drainage plans, but the object was not a tool for the wall. It was a model of a door hinge, made from bronze, oak, and a narrow strip of spring steel. The hinge was large enough to be handled easily, with its moving parts exposed. He set it on the long table and asked the Master and the lion to try it.
@@ -892,6 +900,10 @@ By evening the hinge drawings had changed. The first page showed the original co
 The new door did not attract visitors. It did not need a plaque, an unveiling, or a place in the sculpture gallery. It worked better than the old one, and the people who used it no longer had to think about it each time they entered the pantry. The Lion considered that a successful piece of craft. Hephaestus did too, though he still insisted that the bronze should have been polished to a warmer finish. The Lion told him that he could polish it after supper. The maker answered that he would, and both of them laughed.
 
 The model hinge remained on the long table beside the drawings. The apprentices gathered around it the next morning, and Hephaestus let them take it apart under supervision. The cook stopped by to describe how the door had behaved overnight. One of the apprentices proposed a further adjustment; Hephaestus asked them to explain the expected load before touching the model. The Lion watched from the doorway. What pleased him most was not that a new hinge had been made, but that the knowledge of making and maintaining it had begun to move beyond the hands that had first designed it.
+
+
+
+Several weeks after the pantry hinge was installed, the kitchen staff reported that the door had begun to close more slowly than it had during the first test. Hephaestus returned with the apprentice who had helped build the teaching model. They removed the cover and found a small accumulation of flour dust around the spring. The fitting itself was sound. The apprentice cleaned the mechanism, checked the pin, and reset the tension. Oren tested the door with a tray, then asked whether the inspection mark could be made easier to see. Hephaestus enlarged it and added a note to the maintenance drawing. The Lion watched the apprentice make the correction. The hinge had not failed, and the maintenance record had not been an empty formality. It had allowed a small change to be noticed before it became a larger problem. The apprentice left with the drawing and a new respect for the work that followed installation.
 
 ### XIX. The House That Remembered Fire
 
@@ -1028,6 +1040,10 @@ That evening, the Master read the new entries at the long table. He asked whethe
 The next morning, the steward found a line of water beneath the lower wall before anyone had called for the gardeners. He heard the overflow channel moving more quickly than it should and checked the marker in the register. The note led him to the inspection point, where he found a mat of leaves gathering at the edge of the grate. He called the maintenance crew, and the channel was cleared before the water reached the orchard path. The register had served its purpose. It had made a familiar sound easier to interpret without pretending that sound alone explained everything.
 
 When the invitation from the Stone Table arrived, the steward placed it beside the sound register. The court's life was becoming more connected to the roads and houses beyond the orchard. The Lion listened to the familiar noises around him and understood that the court had learned to hear more carefully. Its next task would be to listen beyond its own walls.
+
+
+
+The new register was tested during a busy afternoon when the forge's rhythm changed. Hephaestus had been working on a bronze plate when the usual sequence of hammer strikes stopped abruptly. The silence alone did not tell the steward what had happened, but the next sound was a short, uneven tap that the forge crew used when a piece needed to be cooled and examined. The steward did not enter the workshop or assume an injury. He sent the agreed message to the forge assistant, who confirmed that the plate had begun to split along an edge. The crew stopped work and inspected it. No one was hurt. The register had helped the steward recognise a work signal, but the people in the forge remained responsible for explaining what it meant. The Lion asked that this distinction be written beside the entry. Listening could prompt attention; it could not replace the judgment of the people doing the work.
 
 ### XXII. The Invitation from the Stone Table
 
@@ -1191,6 +1207,10 @@ The day's report was more substantial than the first. It described the two cours
 
 Before returning to the Stone Table, the Lion paused beside the bank and looked along the underside of the bridge. Water moved through the channel in a thin, steady line. The carved mark was partly hidden again by shadow. He did not touch it. He was content to leave the stone where it was and allow the surveyors to return with the instruments they needed. The bridge had not asked to become a legend. It had asked to be understood.
 
+
+
+The following day, the inspection frame was returned to the workshop for a second ground test. The younger builder had added a brace after the first test, and Hephaestus had altered the clamp so that the load would be distributed across a wider plate. They assembled it on the stable bank, checked the locking pin, and loaded it in stages. The frame remained steady. The surveyor then asked them to repeat the test with the surface made wet, since the bridge approach would rarely be dry during the season when the route was most likely to be used. The pin was harder to release, but it did not seize. The builder marked the result and added a small grip to the handle. Even then, no one certified the frame for use on the bridge. The test had established that the prototype behaved well on the bank. The bridge still required a full inspection, and the anchor socket still needed its own repair. The Lion admired the team's refusal to let a successful test answer a different question.
+
 ### XXVI. The Road Between Friends
 
 They returned to the court by the western shelf. The local guide travelled with them as far as the rest court, where he left a fresh note about the cistern cover. The Master entered it in the book. Hephaestus carried the revised anchor drawing beneath his arm. The lion walked beside the Master, his shoulder near enough that their steps fell into an easy rhythm.
@@ -1282,6 +1302,10 @@ Before the case was closed, the elder asked the Master whether the Lion's court 
 
 The case was then sealed for travel. The keepers signed the custody record, the courier confirmed the route, and the Master placed a copy of the invitation in the road book. The Lion looked once more at the empty seventh support. He hoped the southern seal would arrive, but he would not fill its place with a guess. The convocation would begin with what had actually happened, not with what everyone wished had happened.
 
+
+
+The six seals were displayed in the great hall before the convocation opened. Each was placed on a low stand, with a card recording its origin, custodian, and the date on which it had been received. The Stone House seal had been carried by a surveyor who had walked the western road; the Iron House had sent its mark with the frame crew; the Long Table's cedar piece had travelled beside the food records; the Open Field stamp had arrived with the athletes; the northern lintel fragment had been delivered by the archive keepers; and the coastal bronze fitting had come with the shipyard's route book. The seventh stand remained empty. The elder asked that no one move the stands closer together merely to make the display look complete. The space was part of the record. The Lion walked along the line with the Master and stopped before the empty place. He hoped the southern house would answer, but he did not want the other six to forget that an absent voice was still a voice they had not heard.
+
 ### XXVIII. The Procession of the Houses
 
 The road to the Stone Table had never carried so many different kinds of travellers at once. The western shelf road received the first companies at dawn. Stone House engineers arrived with survey poles and samples of rock; the Iron House brought lifting frames dismantled into numbered sections; the Long Table sent cooks, storekeepers, and carts of grain, dried fruit, smoked fish, and folded linen; the Open Field came with athletes, coaches, judges, and the equipment required to mark the great contest ground. From the northern escarpment came the Nephilim keepers with archive chests and cedar tablets. The coastal company travelled upriver from the harbour, carrying bronze fittings, rope samples, route books, and a scale model of *The Measure of Dawn*.
@@ -1316,6 +1340,10 @@ The Lion greeted the apprentices who watched him from the shelter of the carts. 
 When the procession reached the long rise above the meeting ground, the banners were raised in sequence. The Lion stood beside the Master and looked down at the many groups moving beneath them. The sight was magnificent, but he was more interested in the small adjustments that kept the whole movement together. A procession could look orderly from a hill while its people were struggling below. He had seen the houses stop, repair, feed one another, and continue. That was the order he trusted.
 
 The elder met them beneath the high lintel. Each house was welcomed by its own name, and the guest courts were assigned according to the needs of the people and the things they carried. The coastal model was taken to a dry room near the water office. The northern archive chests were placed under guard. The Iron House set up its frames in the lower workshop. The Lion and the Master were shown to the room prepared beside the Stone Table. The procession had arrived, but the work of receiving it had only begun.
+
+
+
+As the last companies entered the meeting ground, the Long Table's cooks opened a second serving line for those who had travelled with the heavy equipment. The Iron House frame crew had arrived later than expected because one of their carts required a wheel adjustment. The cooks had kept the stew warm and set aside bread for the drivers. The northern archive keepers waited until the room prepared for their chests had been checked for damp. The Open Field athletes helped carry the smaller cases, then moved their own equipment out of the main passage. The Lion noticed how these arrangements prevented the arrival from becoming a contest for attention. The houses were welcomed according to what they needed to do next. The procession ended not when the final banner crossed the gate, but when every group had reached a place where its work and its people could be safely received.
 
 ### XXIX. The Empty Seventh Place
 

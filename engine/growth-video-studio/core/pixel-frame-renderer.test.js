@@ -200,3 +200,46 @@ test("refuses overlapping masks and body triangles that cross background pixels"
     protectedFaceMask: makeFaceMask(8, 8)
   }), error => error.code === "pixel-frame-source-triangle-outside-body");
 });
+
+test("shared triangle edges rasterize once with matching source correspondence", () => {
+  const sourceFrame = makeFrame(8, 8);
+  const sourcePoints = [
+    { x: 1, y: 1 },
+    { x: 5, y: 1 },
+    { x: 1, y: 5 },
+    { x: 5, y: 5 }
+  ];
+  const targetPoints = sourcePoints.map(point => ({ x: point.x + 0.5, y: point.y }));
+  const plan = {
+    ...makePlan(sourcePoints, targetPoints),
+    triangles: [[0, 1, 2], [1, 3, 2]]
+  };
+  const result = renderGrowthDeformationPixels({
+    sourceFrame,
+    plan,
+    bodyMask: makeBodyMask(8, 8),
+    protectedFaceMask: makeFaceMask(8, 8)
+  });
+  assert.equal(result.renderedTriangles, 2);
+  assert.ok(result.coveredPixels > 0);
+});
+
+test("bilinear sampling uses premultiplied alpha to avoid transparent-colour fringes", () => {
+  const sourceFrame = makeFrame(8, 8);
+  const opaque = (2 * 8 + 2) * 4;
+  const transparent = (2 * 8 + 3) * 4;
+  sourceFrame.data.set([255, 0, 0, 255], opaque);
+  sourceFrame.data.set([0, 0, 255, 0], transparent);
+  const target = triangle.map(point => ({ x: point.x + 0.5, y: point.y }));
+  const result = renderGrowthDeformationPixels({
+    sourceFrame,
+    plan: makePlan(triangle, target),
+    bodyMask: makeBodyMask(8, 8),
+    protectedFaceMask: makeFaceMask(8, 8)
+  });
+  const sample = pixel(result, 3, 2);
+  assert.equal(sample[0], 255);
+  assert.equal(sample[1], 0);
+  assert.equal(sample[2], 0);
+  assert.ok(sample[3] >= 127 && sample[3] <= 128);
+});

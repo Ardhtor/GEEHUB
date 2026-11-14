@@ -4,9 +4,13 @@
 
 The Golden Lion is a beloved lion-headed titan whose immense golden body, expressive face, proud mane, and easy self-assurance make him one of the most recognizable presences in Geehub. His founding image is *The First Recognition*: a smaller foreground observer looking toward the enormous golden figure behind him. This composition is the character's visual point of origin and remains the primary reference for his silhouette, scale relationship, warmth, and peculiar mixture of magnificence and humor. The Lion is not merely an emblem of size. He is a personality: affectionate, vain in a playful way, sociable, dignified, curious, and entirely comfortable with being extraordinary.
 
-## Character continuity
+## Visual fidelity and character continuity
 
-Preserve the lion's recognizable head and expression, the heavy mane, golden coloration, monumental muscular proportions, and the affectionate, slightly mischievous quality of his presence. His physical scale is part of his identity, but it does not replace personality. He remembers visitors, notices absences, enjoys company, laughs readily, and takes genuine interest in what other inhabitants are making. He likes admiration without requiring submission. He is allowed to be imposing and ridiculous, proud and warm, magnificent and familiar at once. New depictions should develop him rather than flatten him into a generic giant or anonymous bodybuilding figure.
+The source artwork is the controlling visual reference. Faithfulness to its actual form is the aim, not a general resemblance to a golden lion or an invitation to redesign him. Preserve the visible silhouette, head and face, mane, proportions, posture, expression, scale relationship, placement, gold and burgundy colour relationship, and compositional balance. Do not correct the artwork into ordinary zoological anatomy, substitute a generic human bodybuilder or muscular humanoid, or add unverified anatomical details. A new medium, angle, crop, portrait, rig, or three-dimensional asset is a derivative and must be checked against the source. If the original is not available for direct comparison, use only the established written observations and mark uncertain details as unverified. The source image itself remains unarchived until its binary file is verifiably attached to the asset record.
+
+His character can grow without his visual identity being redesigned. The Lion remains affectionate, playfully vain, sociable, dignified, curious, and entirely comfortable with being extraordinary. He remembers visitors, notices absences, enjoys company, laughs readily, and takes genuine interest in what other inhabitants are making. He likes admiration without requiring submission. New scenes should deepen his actions, relationships, tastes, and decisions while leaving the source image's visible form intact.
+
+**Priority rule:** when prose or a derivative asset contradicts the image, revise the prose or derivative. The image does not change to accommodate a later invention.
 
 ## The Redwood residence
 

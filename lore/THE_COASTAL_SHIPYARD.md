@@ -132,6 +132,11 @@ Their conversation moves between the ship and the rest of the settlement. Orsenn
 
 Later, Edran remains by the window after the others have left. He can see the outer water moving beyond the harbour wall, but he cannot yet tell whether the current has returned to its ordinary pattern. He writes that uncertainty in the register. It is a small entry, but it prevents the next master from mistaking a quiet afternoon for proof that the first voyage's problem has disappeared. Below him, the repair crew continue their work. The shipyard has not advanced to its next voyage, yet it has advanced in knowledge, in procedure, and in the trust that allows its people to divide responsibility without losing sight of the whole.
 
+
+## Connection to the Sevenfold Convocation
+
+The coastal house's participation in the Sevenfold Convocation is recorded in [The Golden Lion and the Seven Great Houses](MUSCLE_MYTH_GENTLE_KING_LION.md), Chapters XXVII–XXXI, and in [The Brotherhood of Giants](THE_BROTHERHOOD_OF_GIANTS.md), Narrative Proof VII. Edran Vael, Orsenn Tal, Teren Aul, and Mavren Holt carry the harbour's work into the common deliberation without surrendering the shipyard's operational authority. The controlled trial described in Chapter XXX establishes a successful fitting test and safe return, but it does not complete the deep-water programme. The next voyage remains subject to the harbour's own route limits and the crew's recorded readiness.
+
 ## Open problems
 
 The revised deep-water trial of *The Measure of Dawn* remains pending. The southern escarpment houses have not yet confirmed whether they will send timber or apprentices to the harbour. The Saltline ports are known by name but have not yet been described through their own inhabitants and local customs. A larger vessel has been proposed but not approved. The harbour's first winter will test its stores, moorings, covered sheds, and repair schedule under sustained weather. The next account should follow one crew through a complete voyage and return, while allowing the harbour settlement to continue its ordinary work in their absence.

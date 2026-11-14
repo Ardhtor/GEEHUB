@@ -39,6 +39,12 @@ The Lion's world remains open. The observatory, upper canopy structures, residen
 **Continuity rule:** retain the founding image and the Lion's recognizable personality; expand his relationships, activities, architecture, and world without replacing him with a generic symbol of gigantism.
 
 
+## The Southern Guest Compact
+
+The Lion's current chronicle continues beyond the Stone Table into the southern escarpment. He travels with the Master and the joint expedition as an invited guest, not as a representative who can command the southern halls. At the lower gate he meets Kareth, the keeper; Deren, who maintains the signal chain; Halven, keeper of the quarry records; and Verran, the mountain carrier who knows the shepherd's track. The Lion accepts the local conditions: the upper hall remains closed, the quarry cut is not entered, and no brace is installed until the stone has been surveyed and the southern keepers have agreed.
+
+His contribution is presence, careful strength, and attention to the people who know the mountain. He does not move the fallen slab simply because he can, and he does not turn the exposed quarry opening into a spectacle. The first surveys establish a damaged signal-tower footing, a limited line of sight from the lower to the middle station, and a watercourse emerging above the known quarry drain. The smooth stone and bronze-coloured edge remain unidentified. This is a new relationship between the Lion and the southern house, built on guest-right, evidence, and a willingness to let the place retain its own authority.
+
 ## The Lion Speaks — A Residence, a Body, and a World Worth Inhabiting
 
 I will tell you how it is to be me, because people have spent a great deal of time looking at me and rather less time asking what it is like to stand inside this enormous golden existence. They see the mane first. They see the shoulders, the chest, the arms, the extraordinary proportions, and the way the light seems to settle over me as though the sun has decided to take up residence. They look up, and I do not blame them. I am a considerable sight. I have made peace with that. In fact, I have become rather fond of it. But there is a person behind the spectacle, and I would like the record to show that I have opinions, appetites, friendships, projects, memories, and an excellent sense of when a room needs a little more grandeur.

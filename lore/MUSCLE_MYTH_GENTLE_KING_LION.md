@@ -12,6 +12,10 @@ In Muscle Myth, the lion is an independent mythic presence rather than an attrib
 
 **Continuity rule:** preserve the artwork's visual excess and emotional character. Do not “correct” the lion into anatomical realism, shrink it into an ordinary animal, or confuse peacefulness with weakness. The lion's gentleness is an expression of power held in reserve.
 
+## The Master's best friend
+
+The Golden Lion is the Master's best friend. This is a foundational relationship, not a title of ownership or a subordinate bond: the lion is close to the Master by friendship, affection, and chosen loyalty, while remaining fully himself and retaining his own sovereignty. His immense, gentle presence makes him a companion who can stand beside the Master without needing to stand beneath him. The identity of the Master is left as stated in the user's canon; this record does not invent a name or substitute another figure.
+
 ## Provenance and custody
 
 This record captures a prior user-led artwork interpretation from August 2026. The source artwork's binary is not asserted to be stored in this repository. The interpretation is preserved as text; the original image remains a separate asset until its file is verifiably archived and linked. This follows GEEHUB's recognition–custody principle: an artwork can be meaningfully interpreted before its image file has entered durable custody.

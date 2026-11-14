@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1115">
+<title>GEEHUB // Memory Bridge</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1115;--panel:#111c21;--line:#2b4045;--text:#e5efeb;--muted:#91a49e;--teal:#9edbd0;--amber:#d8b47c}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 20% 0%,#17302c 0,#0b1115 46%);color:var(--text);font:14px/1.5 Inter,system-ui,sans-serif}
+header{padding:22px clamp(16px,4vw,48px);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+.brand{letter-spacing:.18em;color:var(--teal);font:12px ui-monospace,monospace}.sub{color:var(--muted);font-size:12px;margin-top:5px}h1{font-size:clamp(24px,4vw,38px);font-weight:500;letter-spacing:-.03em;margin:5px 0}a{color:var(--teal)}
+button,input,textarea{font:inherit}button{border:1px solid #47605e;background:#17272a;color:var(--text);padding:9px 13px;border-radius:6px;cursor:pointer}button:hover{border-color:var(--teal);background:#20383a}
+main{max-width:1500px;margin:auto;padding:18px clamp(12px,3vw,32px) 42px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:13px;background:var(--panel);border:1px solid var(--line);border-radius:9px}
+input[type=file]{max-width:270px;color:var(--muted)}input[type=text],textarea{background:#091216;border:1px solid #34494b;color:var(--text);padding:10px;border-radius:6px;width:100%;min-width:0}input:focus,textarea:focus{outline:1px solid var(--teal);border-color:var(--teal)}
+label{color:var(--muted);font-size:12px}.check{display:flex;gap:7px;align-items:center}.check input{accent-color:#80c9bb}.status{color:var(--muted);font-size:12px;margin:10px 2px 15px}
+.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin:12px 0 16px}.metric{padding:12px 14px;border:1px solid var(--line);border-radius:8px;background:linear-gradient(145deg,#142329,#10191d)}.metric b{display:block;font-size:23px;font-weight:500;color:var(--teal)}.metric span{font-size:10px;letter-spacing:.12em;color:var(--muted)}
+.grid{display:grid;grid-template-columns:minmax(260px,1fr) minmax(300px,1.15fr) minmax(260px,.9fr);gap:12px;align-items:start}.panel{background:rgba(17,28,33,.94);border:1px solid var(--line);border-radius:9px;overflow:hidden;min-width:0}
+.panel-head{padding:13px 15px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:8px;align-items:center}.eyebrow{color:var(--amber);font:10px ui-monospace,monospace;letter-spacing:.15em}.panel-body{padding:12px;max-height:70vh;overflow:auto}
+.card{border:1px solid #2b4144;background:#0d171b;border-radius:7px;padding:11px;margin-bottom:8px;cursor:pointer}.card.selected{border-color:var(--teal);background:#132428}.card-title{font-weight:600;color:#e8f2ed}.meta{font:10px ui-monospace,monospace;color:var(--muted);margin-top:4px}.excerpt{color:#c5d3cd;margin-top:8px;font-size:13px;white-space:pre-wrap;overflow-wrap:anywhere}
+.pills{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}.pill{font:10px ui-monospace,monospace;padding:3px 6px;border:1px solid #3a5352;border-radius:99px;color:#b6d2c8}.pill.warn{border-color:#725a3c;color:#e0c18e}.pill.good{border-color:#3d6858;color:#a9d9b8}.pill.dim{border-color:#354148;color:#a2b0b3}
+.edge{border-top:1px solid #2b4144;margin-top:9px;padding-top:8px}.edge-line{font-size:12px;color:#c3d0ca}.small-btn{padding:5px 8px;font-size:11px;margin:6px 5px 0 0}.empty{padding:26px 12px;text-align:center;color:var(--muted)}.search{margin-bottom:9px}
+.detail h2{font-size:19px;font-weight:500;margin:0 0 8px}.detail p{color:#c4d1cb;white-space:pre-wrap;overflow-wrap:anywhere}.detail a{display:inline-block;margin:5px 0}.detail dl{display:grid;grid-template-columns:100px minmax(0,1fr);gap:6px;margin:12px 0}.detail dt{color:var(--muted);font-size:11px}.detail dd{margin:0;overflow-wrap:anywhere;font-size:12px}
+.manual{display:grid;gap:8px}.manual textarea{min-height:76px;resize:vertical}.section-label{font:10px ui-monospace,monospace;letter-spacing:.13em;color:var(--amber);margin:14px 0 8px}
+footer{padding:18px 4px;color:var(--muted);font-size:11px}
+@media(max-width:1050px){.grid{grid-template-columns:1fr 1fr}.detail-panel{grid-column:1/-1}.panel-body{max-height:56vh}}
+@media(max-width:650px){.grid{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,1fr)}.panel-body{max-height:50vh}.detail-panel{grid-column:auto}}
+</style></head><body>
+<header><div><div class="brand">GEEHUB / TRACTUS / MEMORY BRIDGE</div><h1>Conversation becomes world memory.</h1><div class="sub">A local-first bridge between chat signals, visual evidence, characters, places, and production assets.</div></div><a href="index.html">RETURN TO HUB ↗</a></header>
+<main>
+<section class="toolbar">
+ <label>IMPORT CHATGPT EXPORT <input id="chatFile" type="file" accept=".json,application/json"></label>
+ <label>IMPORT PRIOR MEMORY <input id="memoryFile" type="file" accept=".json,application/json"></label>
+ <button id="refresh">REFRESH WORLD INDEX</button><button id="saveLocal">SAVE LOCAL MEMORY</button><button id="restoreLocal">RESTORE LOCAL</button><button id="export">EXPORT MEMORY GRAPH</button>
+ <label class="check"><input id="includeSuggestions" type="checkbox" checked> include unreviewed links</label>
+ <label class="check"><input id="includeFullText" type="checkbox"> include full message text</label>
+</section>
+<div id="status" class="status">Loading repository memory…</div>
+<section class="metrics">
+ <div class="metric"><b id="conversationCount">0</b><span>CONVERSATIONS</span></div><div class="metric"><b id="signalCount">0</b><span>CHAT SIGNALS</span></div>
+ <div class="metric"><b id="assetCount">0</b><span>WORLD / VISUAL NODES</span></div><div class="metric"><b id="suggestionCount">0</b><span>LINKS TO REVIEW</span></div>
+</section>
+<section class="grid">
+ <div class="panel"><div class="panel-head"><div><div class="eyebrow">01 / CHAT HISTORY</div><strong>Signals and passages</strong></div><span class="meta" id="signalTotal">0</span></div>
+  <div class="panel-body"><input id="searchSignals" class="search" type="text" placeholder="Search conversations and excerpts…"><div id="signals"></div>
+   <div class="section-label">CAPTURE A PASSAGE FROM THIS CHAT</div>
+   <form id="manualForm" class="manual"><input id="manualTitle" type="text" placeholder="Passage title"><textarea id="manualText" placeholder="Paste a short passage or durable instruction…"></textarea><button type="submit">ADD TO LOCAL MEMORY</button></form>
+  </div>
+ </div>
+ <div class="panel"><div class="panel-head"><div><div class="eyebrow">02 / WORLD ASSETS</div><strong>Characters, sources, artifacts</strong></div><span class="meta" id="assetTotal">0</span></div>
+  <div class="panel-body"><input id="searchAssets" class="search" type="text" placeholder="Search assets, people, places…"><div id="assets"></div></div>
+ </div>
+ <div class="panel detail-panel"><div class="panel-head"><div><div class="eyebrow">03 / AWARENESS INDICATORS</div><strong>Provenance and continuity</strong></div></div>
+  <div class="panel-body detail" id="detail"><div class="empty">Select a conversation signal or world asset to inspect its lineage.</div></div>
+ </div>
+</section>
+<footer>Chat exports are read in this browser. They are not uploaded. Suggested links are lexical candidates, not facts; confirm them only after checking the source. Full message text is excluded from exports unless you explicitly select it. Repository media binaries and private photo-library contents are not fetched or copied by this page.</footer>
+</main>
+<script type="module">
+import {loadRepositoryMemory,attachChatExport,confirmEdge,exportMemoryGraph,mergeMemoryGraphs,indicators} from "../engine/chat_asset_bridge.js";
+const $=id=>document.getElementById(id);
+let graph=null,selectedId=null;
+const esc=value=>String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nodes=()=>graph?.nodes||[],edges=()=>graph?.edges||[];
+const signals=()=>nodes().filter(n=>n.type==="chat-signal").sort((a,b)=>String(b.timestamp||"").localeCompare(String(a.timestamp||"")));
+const assets=()=>nodes().filter(n=>["asset","artifact","visual-source","project","world"].includes(n.type));
+const edgeFor=id=>edges().filter(e=>e.from===id||e.to===id);
+function el(tag,cls,text){const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=String(text);return node;}
+function status(message){$("status").textContent=message;}
+function metric(id,value){$(id).textContent=String(value);}
+function metrics(){
+ metric("conversationCount",nodes().filter(n=>n.type==="conversation").length);metric("signalCount",signals().length);
+ metric("assetCount",assets().length);metric("suggestionCount",edges().filter(e=>e.status==="suggested").length);
+ $("signalTotal").textContent=signals().length+" SIGNALS";$("assetTotal").textContent=assets().length+" NODES";
+}
+function addPills(parent,node){
+ const state=indicators(node,graph),items=[
+  ["SOURCE",state.source],["VISUAL",state.visual],["CONTINUITY",state.continuity],
+  [String(state.canon).toUpperCase(),String(state.canon).includes("canon")],
+  [state.linked?"CONNECTED":"UNLINKED",state.linked]
+ ];
+ const wrap=el("div","pills");
+ for(const item of items)wrap.append(el("span","pill "+(item[1]?"good":item[0]==="SOURCE"||item[0]==="VISUAL"?"dim":"warn"),item[0]));
+ parent.append(wrap);
+}
+function renderSignals(){
+ const q=$("searchSignals").value.toLowerCase(),list=signals().filter(n=>(n.title+" "+n.excerpt+" "+n.source).toLowerCase().includes(q));
+ const root=$("signals");root.replaceChildren();
+ if(!list.length){root.append(el("div","empty",graph.import_summary?"No signals match this search.":"Import a ChatGPT conversations.json export, or capture a passage below."));return;}
+ for(const n of list.slice(0,100)){
+  const card=el("article","card"+(selectedId===n.id?" selected":""));card.dataset.id=n.id;
+  card.append(el("div","card-title",n.title),el("div","meta",(n.role||"signal")+" · "+(n.timestamp||"time not supplied")+" · "+(n.source||"")));
+  card.append(el("div","excerpt",n.excerpt||"Attachment-only signal"));addPills(card,n);
+  const rel=edgeFor(n.id);card.append(el("div","meta",rel.filter(e=>e.status==="suggested").length+" suggested connections · "+rel.filter(e=>e.status==="confirmed").length+" confirmed"));
+  card.addEventListener("click",()=>selectNode(n.id));root.append(card);
+ }
+}
+function renderAssets(){
+ const q=$("searchAssets").value.toLowerCase(),list=assets().filter(n=>(n.title+" "+(n.description||"")+" "+(n.source_path||"")+" "+(n.kind||"")).toLowerCase().includes(q));
+ const root=$("assets");root.replaceChildren();
+ if(!list.length){root.append(el("div","empty","No world assets match this search."));return;}
+ for(const n of list.slice(0,120)){
+  const card=el("article","card"+(selectedId===n.id?" selected":""));card.dataset.id=n.id;
+  card.append(el("div","card-title",n.title),el("div","meta",n.type+" · "+(n.availability||n.canon||n.status||"indexed")));
+  addPills(card,n);card.addEventListener("click",()=>selectNode(n.id));root.append(card);
+ }
+}
+function renderDetail(node){
+ const root=$("detail");root.replaceChildren();root.append(el("h2","",node.title));addPills(root,node);
+ root.append(el("p","",node.description||node.excerpt||node.summary||"No additional description is recorded."));
+ if(node.full_text){root.append(el("div","section-label","FULL MESSAGE"),el("p","",node.full_text));}
+ const sourceLink=node.url||(node.source_path?"https://github.com/Ardhtor/GEEHUB/blob/main/"+node.source_path:null);
+ if(sourceLink){const a=el("a","","OPEN SOURCE RECORD ↗");a.href=sourceLink;a.target="_blank";a.rel="noopener";root.append(a);}
+ const fields=[["ID",node.id],["Type",node.type],["Source",node.source],["Path",node.source_path||node.path],["Availability",node.availability],
+  ["Timestamp",node.timestamp||node.created_at],["Conversation",node.conversation_id],["Canon",node.canon],
+  ["Lineage",node.lineage?JSON.stringify(node.lineage):null],["Attachments",node.attachments?.length?JSON.stringify(node.attachments):null]];
+ const dl=el("dl");
+ for(const pair of fields){if(pair[1]===undefined||pair[1]===null||pair[1]==="")continue;dl.append(el("dt","",pair[0]),el("dd","",pair[1]));}
+ root.append(dl,el("div","section-label","CONNECTED MEMORY"));
+ const related=edgeFor(node.id);
+ if(!related.length)root.append(el("div","empty","No confirmed or suggested links yet."));
+ for(const edge of related){
+  const other=nodes().find(n=>n.id===(edge.from===node.id?edge.to:edge.from));
+  const block=el("div","edge");block.append(el("div","edge-line",edge.relation+" → "+(other?.title||edge.to)));
+  block.append(el("div","meta",edge.status+(edge.confidence?" · "+Math.round(edge.confidence*100)+"% match":"")+" · "+(edge.evidence||"")));
+  if(edge.status==="suggested"&&edge.from===node.id){
+   const yes=el("button","small-btn","CONFIRM LINK");yes.addEventListener("click",()=>{confirmEdge(graph,edge.id,"Reviewed in Memory Bridge");render();selectNode(node.id);status("Link confirmed locally. Export the graph to preserve it.");});
+   const no=el("button","small-btn","REJECT");no.addEventListener("click",()=>{edge.status="rejected";render();selectNode(node.id);status("Suggestion rejected locally.");});
+   block.append(yes,no);
+  }
+  root.append(block);
+ }
+}
+function selectNode(id){selectedId=id;const node=nodes().find(n=>n.id===id);if(!node)return;renderSignals();renderAssets();renderDetail(node);}
+function render(){metrics();renderSignals();renderAssets();if(selectedId){const node=nodes().find(n=>n.id===selectedId);if(node)renderDetail(node);}}
+function download(name,data){const url=URL.createObjectURL(new Blob([data],{type:"application/json"}));const a=el("a");a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1200);}
+async function refresh(){
+ status("Reading GEEHUB source records…");
+ try{const next=await loadRepositoryMemory();graph=mergeMemoryGraphs(next,graph);selectedId=nodes().some(n=>n.id===selectedId)?selectedId:null;render();
+  status("World index loaded: "+nodes().length+" nodes, "+edges().length+" links. ChatGPT history is not automatically accessible; import an export to connect it.");
+ }catch(error){status("Repository index could not load: "+error.message+". Open this page through GitHub Pages or a local web server.");}
+}
+$("refresh").addEventListener("click",refresh);
+$("chatFile").addEventListener("change",async event=>{
+ const file=event.target.files?.[0];if(!file)return;if(file.size>150*1024*1024){status("File exceeds the 150 MB browser import limit.");return;}
+ try{status("Reading chat export locally…");const data=JSON.parse(await file.text());if(!graph)graph=await loadRepositoryMemory();
+  attachChatExport(graph,data,file.name,$("includeFullText").checked);render();
+  status("Imported "+(graph.import_summary?.conversations||0)+" conversations; "+(graph.import_summary?.signals||0)+" relevant message signals indexed locally.");
+ }catch(error){status("Chat export could not be read: "+error.message);}
+});
+$("memoryFile").addEventListener("change",async event=>{
+ const file=event.target.files?.[0];if(!file)return;try{const data=JSON.parse(await file.text());if(!graph)graph=await loadRepositoryMemory();
+  graph=mergeMemoryGraphs(graph,data);render();status("Prior memory graph merged. Export when ready.");
+ }catch(error){status("Memory graph could not be read: "+error.message);}
+});
+$("manualForm").addEventListener("submit",event=>{
+ event.preventDefault();const excerpt=$("manualText").value.trim();if(!excerpt)return;if(!graph)return;
+ const title=$("manualTitle").value.trim()||"Current conversation passage",now=Date.now();
+ const data=[{id:"manual-current-"+now,title,create_time:now/1000,messages:[{id:"manual-message-"+now,role:"user",timestamp:now/1000,text:excerpt}]}];
+ attachChatExport(graph,data,"manual current-chat capture",$("includeFullText").checked);
+ $("manualTitle").value="";$("manualText").value="";render();status("Passage captured in local memory with suggested world links.");
+});
+$("export").addEventListener("click",()=>{if(!graph)return;const output=exportMemoryGraph(graph,$("includeSuggestions").checked,$("includeFullText").checked);
+ download("geehub-chat-asset-memory.json",JSON.stringify(output,null,2));status("Memory graph exported. Save the JSON in your GEEHUB or Dropbox corpus when ready.");});
+$("saveLocal").addEventListener("click",()=>{if(!graph)return;try{localStorage.setItem("geehub.chat-asset-memory.v1",JSON.stringify(exportMemoryGraph(graph,true,false)));
+ status("Saved in this browser's local storage. This is not a cloud sync.");}catch(error){status("Local browser storage is full. Export the graph instead.");}});
+$("restoreLocal").addEventListener("click",()=>{try{const raw=localStorage.getItem("geehub.chat-asset-memory.v1");if(!raw){status("No local memory snapshot found in this browser.");return;}
+ graph=mergeMemoryGraphs(graph,JSON.parse(raw));render();status("Local memory restored.");}catch(error){status("Local memory could not be restored: "+error.message);}});
+$("searchSignals").addEventListener("input",renderSignals);$("searchAssets").addEventListener("input",renderAssets);
+await refresh();
+</script></body></html>

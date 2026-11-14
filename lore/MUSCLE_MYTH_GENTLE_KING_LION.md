@@ -1,4 +1,6 @@
-# The Golden Lion — Artwork Interpretation
+# The Golden Lion and the Seven Great Houses
+
+*The Meridian Saga — an integrated novel of the orchard court, the Stone Table, the Nephilim houses, the western roads, and the sea.*
 
 Status: active interpretive record; the source artwork and its interpretation are distinct from any later generated depiction.
 
@@ -19,7 +21,9 @@ The Golden Lion is the Master's best friend. This is a foundational relationship
 
 
 # The Golden Lion
-## A Book of Gentle Sovereignty
+## Prologue: The Golden Lion
+
+The artwork interpretation and the Master's friendship with the Lion form the prologue and emotional foundation of the saga.
 
 ### I. The One Who Was Already There
 
@@ -96,7 +100,7 @@ This is the Golden Lion's final measure: not how much space he can occupy, how m
 
 
 
-# The Golden Lion — Continued
+## First movement: The Court in Motion
 ## The Court in Motion
 
 ### XI. Morning in the Western Gallery
@@ -188,7 +192,7 @@ On the return journey, they passed the training ground. The young giant was ther
 At the court, the kitchen doors were open. The day had begun. The Golden Lion walked in beside the Master, carrying no new title and making no claim upon the road beyond the orchard. He had seen something that might matter later. It had been recorded. That was enough for now.
 
 
-## The Road and the House
+## Second movement: The Road and the House
 
 ### XVII. The Surveyors' Morning
 
@@ -281,7 +285,7 @@ That night, the Master and the lion walked once more through the western gallery
 The Master placed a hand against the lion's mane. The lion leaned into the touch, and for a moment the whole gallery seemed to hold its breath around them. Then the lion's purr began again, low and warm, and the court continued.
 
 
-## The Northern Table
+## Third movement: The Northern Table
 
 ### XXII. The Invitation from the Stone Table
 
@@ -342,6 +346,91 @@ The conversation moved on to food, weather, and the young athlete's progress. Th
 Later, when the Master and the lion walked through the western gallery, the lion paused at the open window. Beyond the orchard, the old hollow lay dark beneath the trees. Somewhere beyond it, the western shelf road climbed toward the northern halls. He could now picture the route as it was: not a vague line beneath the leaves, but a sequence of places, people, repairs, and decisions. The Master stood beside him. Their friendship had travelled with them and returned unchanged, but the world around it had grown.
 
 The lion rested his head near the Master's shoulder. Hephaestus's forge was still lit across the courtyard. Tomorrow there would be another drawing, another inspection, and perhaps another disagreement about a hinge. The Golden Lion listened to the familiar sounds of the court and felt, beneath them, the wider rhythm of the brotherhood continuing beyond the orchard.
+
+
+# The Seven Great Houses
+## A Convergence of the Meridian
+
+### XXVII. The Seven Seals
+
+The Stone Table did not send a second invitation in the form of a letter. It sent seven seals, each pressed into a different material and carried by a different road. The first was dark stone from the western shelf, the second iron from the lifting houses, the third cedar from the kitchens and storehouses of the Long Table, and the fourth a strip of green field leather stamped with the mark of the Open Field. The fifth came from the northern Nephilim halls, cut from an old lintel that had been replaced during the restoration. The sixth was a small bronze fitting from the coastal shipyard, its surface marked with the maker's sign of the harbour. The seventh seal was not delivered. Its place in the case was left empty.
+
+The Master received the case in the western gallery. The Golden Lion was lying near the window, watching the late light move across the orchard. He raised his head when the courier entered. The courier was a young man from the Stone House, broad through the shoulders and still carrying dust from the road. He bowed to the Master, then placed the case on the table. The seals were not invitations to a feast. They were evidence that six of the seven great constituencies had agreed to gather at the Stone Table for a convocation whose purpose was larger than the repair of one bridge.
+
+The old hollow route had revealed a connection between the Lion's orchard and the western shelf road. The road register had then brought the Master and the Lion to the Stone Table; the Stone Table's deliberations had brought Hephaestus into contact with the younger builder; and the revised anchor design had drawn the coastal shipyard into the same chain of work. Each decision had seemed local when it was made. Together they had exposed a larger truth: the houses were now dependent upon routes, materials, vessels, and records that no single house could maintain alone.
+
+The convocation would examine the whole Meridian network. The western shelf road, the northern passes, the coastal harbour, the river crossings, and the southern escarpment routes would be considered as one connected system without being placed under one ruler. The houses would bring their own maps and retain their own authority. The Stone Table would coordinate the work, not absorb it.
+
+The seventh seal belonged to the southern escarpment halls. Their keepers had not answered the earlier invitation, and no one knew whether the silence meant refusal, delay, or a failure of the roads. The empty place was therefore not filled with a substitute. The elder had written beneath it: *A seat is kept for those whose answer has not yet arrived.*
+
+The Lion studied the case. He asked whether the convocation expected him to attend. The courier said that the invitation had been addressed to the Master and to the Lion as the independent keeper of the orchard court and the old hollow approach. The Lion looked toward the Master. He did not need to ask whether he would be welcome. The Master simply closed the case and said they would go together.
+
+Hephaestus arrived before sunset, carrying the revised bridge anchor and a second drawing. He had heard that the coastal house was sending a bronze fitting and wanted to compare its tolerances with the hinge and rail systems already under development. The Lion greeted him with a deep rumble. The maker placed the drawings beside the seven seals, and for a moment the case looked less like a summons than the beginning of a machine whose parts had been arriving from different directions.
+
+That night the court prepared for a journey. The Master chose the road book and the survey records. Hephaestus packed his instruments, leaving the larger tools in the workshop. The Lion needed no equipment, but he walked the western gallery once before sleeping, looking down at the people who would keep the court running while he was away. The wheelwright had the new timber list; the gardeners had the wall schedule; the coach had the training-ground inspection; the kitchen had already begun preparing provisions for the road. The Lion was not leaving a sleeping palace behind him. He was leaving a living place that knew how to continue.
+
+### XXVIII. The Procession of the Houses
+
+The road to the Stone Table had never carried so many different kinds of travellers at once. The western shelf road received the first companies at dawn. Stone House engineers arrived with survey poles and samples of rock; the Iron House brought lifting frames dismantled into numbered sections; the Long Table sent cooks, storekeepers, and carts of grain, dried fruit, smoked fish, and folded linen; the Open Field came with athletes, coaches, judges, and the equipment required to mark the great contest ground. From the northern escarpment came the Nephilim keepers with archive chests and cedar tablets. The coastal company travelled upriver from the harbour, carrying bronze fittings, rope samples, route books, and a scale model of *The Measure of Dawn*.
+
+They did not arrive as one army. Their banners moved at different speeds, their carts required different clearances, and their men stopped for different reasons. The Stone House halted where the shelf wall showed a new crack. The Iron House stopped to inspect a lifting pin that had begun to work loose. The Long Table's cooks opened a roadside kitchen when the first convoy reached the rest court earlier than expected. The Open Field athletes used the level ground beside the cistern for warm-up drills, careful not to obstruct the carts. The Nephilim archivists asked for a dry room before they would unload the oldest records. The coastal men went directly to the water office to compare the river's level with Edran Vael's latest register.
+
+The Master and the Golden Lion travelled among them. The Lion's presence altered the scale of the procession without changing its order. Children of the houses—young apprentices, not spectators alone—watched him pass from the shelter of carts and doorways. Some had heard the story of the golden figure at the orchard court; others had seen the old artwork reproduced in a small painted panel carried by one of the northern keepers. The actual Lion was more magnificent than the panel, but also quieter. He greeted those who approached, lowered his head for the smaller men, and never demanded that the road make a ceremony of his passage.
+
+Hephaestus moved between the Iron House and the coastal company. He examined the lifting frames, then the bronze fittings, then the model vessel. Orsenn Tal, the shipyard's master shipwright, argued that the new anchor should be tested against the movement of a vessel rather than the fixed load of a bridge. Hephaestus replied that the materials were related but the conditions were not interchangeable. Their disagreement became immediate and technical. They drew a joint test: one frame would be loaded on land, another would be mounted on a floating platform in the inner basin. The results would be compared without pretending that either test could stand in for the other.
+
+At midday, the procession reached the long rise above the Stone Table. From there the houses could see the whole meeting ground: the open roof above the Table, the guest courts, the workshops, the broad kitchen terraces, and the roads descending toward the river. The banners were raised one by one. The Lion stood beside the Master at the edge of the ridge. Below them, the brotherhood was not a single colour or a single shape. It was a moving assembly of different bodies, skills, voices, and histories.
+
+The seventh banner did not appear.
+
+The Nephilim elder came out to meet the arriving companies. He greeted each house by its proper name and directed its people to the rooms prepared for them. When he reached the Master and the Lion, he bowed first to the Master, then turned to the Lion with an expression of deep recognition. He welcomed them both, and told the Lion that a place had been kept beside the Master at the Table. The Lion accepted the invitation. The procession passed beneath the high lintel, and the convocation began.
+
+### XXIX. The Empty Seventh Place
+
+The first day belonged to the maps. They were spread across the Stone Table until the old channels in the stone disappeared beneath roads, rivers, coastlines, and hand-drawn boundaries. The Office of Measure placed the western shelf route beside the northern pass register. The coastal house added the River Aven and the Saltline approaches. The Stone House marked the mountain roads; the Iron House recorded the lifting stations and repair yards; the Long Table identified the kitchens, stores, and guest halls that could support travellers; the Open Field marked the grounds large enough to host the coming multi-house festival. The Nephilim set their oldest map at the centre, its edges held down by bronze weights.
+
+The maps revealed a network that was more complete than anyone had expected and less secure than anyone had hoped. Several roads met at the same narrow passes. Two river crossings depended on seasonal conditions that had not been recorded in a common register. The coastal route required a signal station on the eastern ridge. The old hollow bridge remained closed. The northern road beyond the ranges was still marked only as surveyed, with the first expedition's return unexplained. None of these problems could be solved by declaring the network unified.
+
+The Lion listened as the houses argued over priority. The Stone House wanted the western shelf reinforced before winter. The Iron House wanted the lifting stations standardized. The coastal men argued that the harbour needed a reliable inland supply route before the next deep-water trial. The Long Table insisted that the guest courts and storehouses were already under strain from the convocation itself. The Open Field wanted the athletic festival to proceed, because the gathering had been promised to the younger houses for two years. The Nephilim elders warned that the southern escarpment's absence might conceal a danger no one else could yet see.
+
+The Master asked each house to state not only what it wanted, but what it could contribute and what it could not promise. The discussion changed. The Stone House offered survey crews but not enough timber. The Iron House offered lifting equipment but required the coastal bronze fittings to be tested before standardization. The coastal house offered shipwrights and navigators, but could not divert the crew of *The Measure of Dawn* before its next trial. The Long Table offered stores and kitchens, but asked the houses to provide their own porters. The Open Field agreed to move the festival's opening date if the grounds required repair. The Nephilim offered access to the old northern records, but insisted that the archives be handled by their keepers.
+
+The Lion had not spoken. At last the elder asked whether he had a claim to make. The Lion looked at the empty seventh place. He said that the convocation should not mistake the silence for consent, nor should it turn the missing house into a story about its own importance. If the southern halls could not reach the Table, then the roads should be examined. If they had chosen not to come, their choice should be heard. If they were in danger, the houses should know what help was wanted before sending a company across their boundary.
+
+The elder nodded. The empty place remained empty, but the Office of Measure was given a new assignment: establish the condition of the southern approaches and seek a reliable message from the escarpment. No expedition would cross into the southern territory without a clear route, a stated purpose, and an invitation or a defensible emergency basis. The decision was entered in the record.
+
+That evening, the Long Table opened its kitchens to all the houses. The meal lasted long after the formal meeting ended. The coastal men brought smoked fish and sharp pickles; the northern keepers supplied dark rye and a hard cheese wrapped in cloth; the southern plains sent dried fruit and spiced beans; the Stone House cooks prepared thick broth; and the Long Table set out warm bread, roasted roots, onions, and great bowls of greens. The Lion sat beside the Master, with Hephaestus and Orsenn across from them. Their conversation moved from the bridge anchor to the best way to keep a workshop warm in winter. No one treated the feast as a pause from the convocation. It was the first proof that the houses could share a table before they had agreed on everything.
+
+### XXX. The Trial of the Measure of Dawn
+
+The coastal company had brought *The Measure of Dawn* only as a model, but the harbour's next trial had become the central question of the second day's work. The vessel itself remained at the River Aven, where Edran Vael had suspended departure until the cross-current register and the forward fitting could be reviewed. The Stone Table therefore received a request: the convocation should send observers to the harbour, not to command the trial but to witness the conditions under which it would be made.
+
+The Master agreed to travel with the coastal party. The Golden Lion went with him, and Hephaestus remained close to Orsenn and Edran. The road descended through the river settlements, where the convocation's arrival had already become a subject of conversation. People came out to see the banners, but the procession did not stop at every gathering. It moved with a practical purpose, and the Long Table's supply carts kept pace behind the engineers.
+
+At the harbour, the vessel lay in the inner basin. Its hull was dark with river water, and the segmented keel joints were visible where the inspection panels had been opened. Orsenn showed Hephaestus the forward fitting that had failed during the first test. The failure had not broken the vessel, but it had altered the line under cross-current and forced the crew to return early. Edran presented the tide register. Teren Aul laid out the route sketches, distinguishing the observed current from the inferred movement beyond the headland. Mavren Holt produced the stores and rope records, including the corrected maker's marks.
+
+The Lion walked the length of the quay. Men stopped to greet him, then returned to their work. He asked the crew whether they were ready to sail. The answer was not a boast. They were ready for the limited trial if the fitting passed its load test and the current remained within the declared range. The Lion asked what would happen if the current changed. Edran described the return signal, the inner channel, and the point at which the master would abandon the outer route. The Lion listened, then said that a vessel's courage was not measured by how long it stayed beyond the harbour. It was measured by whether its crew could bring it home.
+
+The fitting test began at midday. Hephaestus and Orsenn worked together, each checking the other's assumptions. The bronze part was mounted against a timber frame; the frame was loaded in stages, and the measurements were recorded. The first test revealed a slight movement at the joint. Orsenn wanted to increase the thickness of the plate. Hephaestus argued that the movement came from the angle of the socket, not the plate itself. They changed the alignment and tested again. The joint held. The result was entered as a successful land test, not as proof of seaworthiness.
+
+The vessel was then moved into the controlled channel. The crew took their positions. Edran remained on the quay with the tide register; Teren carried the route book; Mavren checked the line and stores; Orsenn supervised the frame; and the master of the vessel called the signals. The Golden Lion stood beside the Master as the ship moved beyond the inner basin. The water was calm at first, then the current turned against the bow. The new fitting held, but the vessel's movement showed that the route marker needed to be placed farther east. Teren recorded the deviation. The master turned the vessel within the declared limit and brought it back to the basin.
+
+The trial was neither triumph nor failure. The fitting had held under the tested load; the current had revealed a route correction; the crew had returned safely. The harbour had gained a more exact record and a new question for the next voyage. The Lion watched the ship settle against the quay and heard the crew laughing as they climbed down. He was pleased by their return. Hephaestus stood beside Orsenn, already discussing the revised marker. The convocation's great network had reached the sea, and the sea had answered in its own terms.
+
+### XXXI. The Seventh Road
+
+On the third morning, a rider reached the Stone Table before the first bell. His horse was tired, his coat stained with red dust, and the leather tube at his side bore no house seal. The guards brought him to the outer court, where he asked for the Nephilim elder by name. The Master and the Golden Lion were already awake. They came down from the gallery as the rider was given water.
+
+He carried a message from the southern escarpment. The seventh house had not refused the invitation. Its roads had been damaged by a sequence of rockfalls, and the old signal towers had failed during the storms. The keepers had sent messages by two routes, but neither had reached the Stone Table. The rider had come by a narrow shepherd's track that did not appear on the common map. He had been instructed to deliver the message only to the elder and to the Master, and to say that the southern halls remained inhabited.
+
+The elder read the message twice. The southern house asked for no army and made no claim upon the resources of the other six. It asked for surveyors, road builders, and a small team capable of repairing the signal line. Its own crews had cleared the first pass but could not safely reach the upper road. The letter also contained a warning: the rockfalls had exposed a deep cut in the mountain, and water was running through it from somewhere above the old quarry. The southern keepers did not know whether the cut was natural or the remnant of an older passage.
+
+The Stone Table reconvened immediately. The houses did not debate whether the seventh seat should be filled. They debated how to answer without turning assistance into occupation. The Stone House offered surveyors and retaining-wall crews. The Iron House offered lifting frames and anchors. The Long Table prepared stores for a journey whose duration could not yet be known. The Open Field volunteered strong carriers and runners, but the elder asked that their athletic standing not be mistaken for mountain experience. The northern Nephilim offered the old quarry maps. The coastal house offered Teren Aul's route-recording method and a portable signal instrument. Hephaestus offered to design a removable brace for the exposed cut, but said he would not build it until the surveyors had established the stone's condition.
+
+The Lion looked at the Master. Their journey had begun with a road near the orchard and now pointed toward a mountain no one in the court had seen. The Master asked whether the Lion wished to come. The Lion answered that he would go if the southern keepers welcomed him, and that he would not mistake the size of his body for permission to enter their home. The elder sent a reply with the rider. The southern house welcomed the Master, the Lion, Hephaestus, and the survey party, with the condition that the first meeting take place at the lower gate and that the upper hall remain closed until the road had been inspected.
+
+The empty seventh place at the Stone Table was filled not by a banner but by the rider's message, laid carefully in the centre of the map. The houses began preparing before the ink had dried. The Lion stood at the open roof and looked south. Beyond the known roads, the mountain range held its weather, its water, and its unanswered history. For the first time, the Seven Great Houses had all spoken—not in one voice, and not in agreement, but in a shared undertaking whose next step would have to be taken on the ground.
+
 
 
 ## Provenance and custody

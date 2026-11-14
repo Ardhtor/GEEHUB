@@ -238,3 +238,8 @@ That was the moment the relationship moved. Not because the speaker had become k
 The woman had not been made responsible for their feelings. She had her own route, her own work, and her own scale of life. The men had their own history. Their task was not to decide whether she deserved to be seen; it was to discover what happened to their friendships when the world offered them someone they could not easily compare themselves against. By evening, the speaker would have to decide whether to apologise for the way he had spoken about her. His friend would not do it for him. He would, however, walk with him to the western road if he chose to go.
 
 The line remained in the courtyard, but it no longer described the woman. It described the distance the speaker had almost allowed to grow between himself and the man who knew him best.
+
+
+## Novel continuation — the western road
+
+The collective-hysteria material now has a reader-facing continuation in [Chapter LXXIX — The Woman on the Western Road](../novel/chapters/CHAPTER_LXXIX_THE_WOMAN_ON_THE_WESTERN_ROAD.md), alongside [Mara Venn's character record](../characters/records/MARA_VENN.md). The Attention Engine's "She Sickens Me" scene is no longer only a mechanism sketch: Gabe's jealousy is tested against his existing friendship with Luke, his working relationships with Tyler and Andrew, Chase's responsibility as witness, Joseph's care with memory, and Mara's independent decisions. Continue through relationships and consequences, not repeated explanation of the phenomenon.

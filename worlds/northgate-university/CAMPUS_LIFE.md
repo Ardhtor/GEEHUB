@@ -616,3 +616,9 @@ Participants: Dan Roman, Marek Ionescu, Adrian Varga, Elliot Ward. Location: fou
 Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.
 
 Participants: Noah Bell, Adrian Varga, Dan Roman. Location: northgate-university. Recorded: 2026-11-14T18:38:31.844005+00:00.
+
+## THE ARCHIVE IS OPEN — cycle 00104
+
+A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.
+
+Participants: Marek Ionescu, Elliot Ward, Dan Roman. Location: northgate-library. Recorded: 2026-11-14T18:38:43.344889+00:00.

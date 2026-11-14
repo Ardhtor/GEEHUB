@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000273",
+  "created_at": "2026-11-14T18:38:43.274450+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "ATMOSPHERE / NORTHGATE LIBRARY / worlds/northgate-library/README.md",
+  "content": "SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+  "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 273,
+    "actor": "LUKE",
+    "world": "NORTHGATE LIBRARY",
+    "region_id": "northgate-library",
+    "source": "worlds/northgate-library/README.md",
+    "phase": "ATMOSPHERE",
+    "relation": null
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

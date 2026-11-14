@@ -11778,6 +11778,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000273",
+      "created_at": "2026-11-14T18:38:43.274450+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "NORTHGATE LIBRARY",
+      "content": "SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "lineage": {
+        "event_id": "world-pulse-000273",
+        "event": {
+          "id": "world-pulse-000273",
+          "pulse": 273,
+          "time": "2026-11-14T18:38:43.274450+00:00",
+          "actor": "LUKE",
+          "world": "NORTHGATE LIBRARY",
+          "region_id": "northgate-library",
+          "previous_region_id": "northgate-library",
+          "phase": "ATMOSPHERE",
+          "source": "worlds/northgate-library/README.md",
+          "desire_state": "attention",
+          "action": "SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+          "narrative_rule": "approach extends geography",
+          "relation": null,
+          "next_region": null,
+          "pressure": 0.9,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-14T18:38:43.274450+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000273",
+      "created_at": "2026-11-14T18:38:43.274450+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / NORTHGATE LIBRARY / worlds/northgate-library/README.md",
+      "content": "SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 273,
+        "actor": "LUKE",
+        "world": "NORTHGATE LIBRARY",
+        "region_id": "northgate-library",
+        "source": "worlds/northgate-library/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00104",
+      "created_at": "2026-11-14T18:38:43.344889+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE ARCHIVE IS OPEN",
+      "content": "A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.",
+      "lineage": {
+        "event_id": "northgate-campus-00104",
+        "event": {
+          "id": "northgate-campus-00104",
+          "cycle": 104,
+          "world_pulse": 273,
+          "at": "2026-11-14T18:38:43.344889+00:00",
+          "region": "northgate-library",
+          "title": "THE ARCHIVE IS OPEN",
+          "kind": "archive",
+          "participants": [
+            "Marek Ionescu",
+            "Elliot Ward",
+            "Dan Roman"
+          ],
+          "description": "A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-14T18:38:43.344889+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

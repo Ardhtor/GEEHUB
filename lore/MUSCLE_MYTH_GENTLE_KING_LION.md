@@ -1,10 +1,10 @@
-# The Gentle King Lion — Artwork Interpretation
+# The Golden Lion — Artwork Interpretation
 
 Status: active interpretive record; the source artwork and its interpretation are distinct from any later generated depiction.
 
-The artwork was read as an enormous golden lion-like presence, occupying the background with a scale that dwarfs the central figure. Its composition is deliberately excessive: strong symmetry, warm gold against deep burgundy, and an almost impossible contrast between the lion's magnificence and the smaller figure before it. The design is not required to obey anatomical realism. Its governing standard is that the form should be pleasing to the eye, coherent in silhouette, and powerful in its visual presence.
+The artwork was read as the Golden Lion: an enormous golden lion-like presence, occupying the background with a scale that dwarfs the central figure. Its composition is deliberately excessive: strong symmetry, warm gold against deep burgundy, and an almost impossible contrast between the lion's magnificence and the smaller figure before it. The design is not required to obey anatomical realism. Its governing standard is that the form should be pleasing to the eye, coherent in silhouette, and powerful in its visual presence.
 
-The user's informal name for this figure is **the long-donged lion**. The phrase belongs to the artwork's exuberant, exaggerated register; it should not be flattened into a zoological study or treated as a demand for literal realism. The interpretive title is **the Gentle King Lion**.
+The user's informal name for this figure is **the long-donged lion**. The phrase belongs to the artwork's exuberant, exaggerated register; it should not be flattened into a zoological study or treated as a demand for literal realism. Its interpretive title is **the Gentle King Lion**. Its primary GEEHUB name is **the Golden Lion**.
 
 The Gentle King Lion represents immense, peaceful, nonviolent power: purring sovereignty, magnificence without cruelty, and strength that does not need to oppress or humiliate. Its size is unmistakable, but its authority is not expressed through violence. It can dominate the composition while remaining calm. Its presence makes the surrounding scene feel protected, elevated, and strangely at ease.
 

@@ -1,6 +1,15 @@
 # GEEHUB construction state
 
-Updated: 2026-11-13
+Updated: 2026-11-14
+
+## RGBA body-layer rasterizer added — 2026-11-14
+- `core/pixel-frame-renderer.js` adds `renderGrowthDeformationPixels()`, a CPU rasterizer for one ready `geehub.growth-deformation-frame`. It accepts a row-major RGBA source buffer, the exact frame-numbered deformation plan, and decoded binary body and protected-face masks for that same frame.
+- Before sampling, it checks source-buffer dimensions and a 12-million-pixel safety ceiling; verifies both masks are same-frame, same-size, non-empty, binary, and disjoint; checks the source mesh lies inside body foreground; rejects source/destination triangles that touch protected-face pixels, leave the image, collapse, or reverse orientation; and refuses overlapping destination triangles that disagree on source coordinates.
+- Destination pixel centres are mapped back through triangle barycentric coordinates. Source samples use bilinear interpolation in premultiplied-alpha space to reduce transparent-edge colour fringes. Shared mesh edges are written once when both adjacent triangles agree on their source correspondence.
+- The output is a transparent RGBA body layer plus a coverage mask. The source frame is read-only; face and background pixels are not copied into or changed by this layer. This is actual pixel-buffer deformation, but not a complete output frame: PNG decoding/encoding, background reconstruction, face-layer compositing, batch I/O, and Resolve export remain open. `pixelSemanticsVerified` remains false.
+- Nine focused tests cover identity sampling, translated sampling, body/face mask exclusion, foldovers, frame mismatches, malformed RGBA and mask data, out-of-bounds vertices, overlapping masks, source-silhouette holes, shared triangle edges, and premultiplied-alpha interpolation. Node 22.16.0 temporary harness: 9/9 passed; `node --check` passed for the renderer and test file. The full studio `npm test` suite and a GitHub Actions result were not available in this run; no full-suite pass is claimed.
+- The root README and Studio README now describe the pixel-layer contract and its limits. No local Mac, Dropbox mirror, Resolve session, or user footage was accessed. No PNG file or complete frame was written.
+- Next: add a bounded lossless PNG writer/reader path for RGBA frames, then a file-backed frame worker that consumes the exact registered mesh and validated deformation plan while preserving source files. Background reconstruction and protected-face compositing must remain separate, explicit stages.
 
 ## Render preparation binds the exact mask-derived mesh — 2026-11-13
 - `prepareBridgeRenderJob()` now requires exactly one registered segmentation, landmark, and deformation frame set for the selected sequence. All three must share source lineage, frame range, dimensions, and FPS, and the mesh set must carry a typed schema, topology digest, vertex count, triangle count, and SHA-256 checksum.

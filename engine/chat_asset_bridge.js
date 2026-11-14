@@ -51,9 +51,9 @@ function addEdge(graph,edge){const id=edge.id||stable("edge",[edge.from,edge.to,
 function assetTokens(node){return tokenSet([node.title,node.name,node.description,node.summary,node.content,node.kind,node.source_path,JSON.stringify(node.lineage||{}),JSON.stringify(node.tags||[])].join(" "));}
 function rankCandidates(message,candidates){
  const sourceTokens=tokenSet(message.text);if(!sourceTokens.size)return[];const ranked=[];
- for(const asset of candidates){const target=assetTokens(asset);if(!target.size)continue;const shared=[...sourceTokens].filter(token=>target.has(token));if(shared.length<2)continue;
+ for(const asset of candidates){const target=assetTokens(asset);if(!target.size)continue;const shared=[...sourceTokens].filter(token=>target.has(token));if(shared.length<2 && !(shared.length===1 && shared[0].length>=6 && tokenSet(asset.title||asset.name).has(shared[0])))continue;
   const score=shared.length/Math.sqrt(sourceTokens.size*target.size),titleTokens=tokenSet(asset.title||asset.name),titleHits=shared.filter(token=>titleTokens.has(token)).length;
-  const adjusted=Math.min(.99,score+Math.min(.24,titleHits*.06));if(adjusted>=.12)ranked.push({asset,score:adjusted,shared});
+  const adjusted=Math.min(.99,score+Math.min(.24,titleHits*.1)+(shared.length===1?0.12:0));if(adjusted>=.12)ranked.push({asset,score:adjusted,shared});
  }
  return ranked.sort((a,b)=>b.score-a.score).slice(0,4);
 }

@@ -71,7 +71,7 @@ A stage advances only when its deliverable exists. Record dated changes below ea
 **Production status:** source shelf established; item-level clip study awaits a selected public post or video.
 
 
-## Hephaestus — Forge-Maker portrait
+### Hephaestus — Forge-Maker portrait
 
 **Canonical asset ID:** `character-hephaestus-forge-maker-portrait-2026-11-14`  
 **Subject:** Hephaestus, the Forge-Maker in the Lineage Pantheon.  

@@ -580,3 +580,9 @@ Participants: Dan Roman, Noah Bell, Adrian Varga. Location: athletic-commons. Re
 A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.
 
 Participants: Adrian Varga, Elliot Ward, Dan Roman. Location: northgate-university. Recorded: 2026-11-14T01:28:02.695674+00:00.
+
+## THE COURTYARD AFTER RAIN — cycle 00098
+
+Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.
+
+Participants: Marek Ionescu, Noah Bell, Adrian Varga. Location: founders-dormitory. Recorded: 2026-11-14T07:58:04.770879+00:00.

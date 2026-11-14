@@ -96,7 +96,7 @@ function parseAssetIndex(markdown){
  return nodes;
 }
 export async function loadRepositoryMemory(){
- const paths=["projects.json","hub/exchange.json","engine/activity.jsonl","artifacts/index.json","lore/ASSET_INDEX.md","hub/visual_memory.json","media/HULUMS_CAVE_SOURCE_REGISTER.json"];
+ const paths=["projects.json","hub/exchange.json","engine/activity.jsonl","artifacts/index.json","lore/ASSET_INDEX.md","hub/visual_memory.json","media/HULUMS_CAVE_SOURCE_REGISTER.json","hub/chat_asset_memory.seed.json"];
  const loaded=await Promise.all(paths.map(async path=>({path,text:await read(path)}))),raw=Object.fromEntries(loaded.map(item=>[item.path,item.text]));
  const graph={schema:"geehub.chat-asset-memory.v1",version:1,generated_at:new Date().toISOString(),source_repository:"Ardhtor/GEEHUB",
   import_source:null,privacy:{conversation_text_uploaded:false,note:"Chat exports are parsed in this browser. No conversation content is sent to the repository or a remote service by this bridge."},
@@ -160,6 +160,6 @@ export function mergeMemoryGraphs(base,incoming){
 }
 export function indicators(node,graph){
  const linked=graph.edges.some(edge=>(edge.from===node.id||edge.to===node.id)&&edge.status==="confirmed");
- return{source:!!(node.source||node.source_path||node.source_locator),visual:!!(node.url||node.media||node.attachments?.length||node.type==="visual-source"),
+ return{source:!!(node.source||node.source_path||node.source_locator),visual:!!(node.url||node.media||node.visual_kind||node.attachments?.length||node.type==="visual-source"),
   continuity:!!(node.lineage||node.canonical_asset_id||node.related?.length||node.conversation_id),canon:node.canon||node.status||"unclassified",linked};
 }

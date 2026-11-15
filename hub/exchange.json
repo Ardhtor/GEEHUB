@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-15T00:24:11.803Z",
+  "generated": "2026-11-15T07:01:22.554Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00207",
+      "at": "2026-11-15T07:01:22.554Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / CEDAR HOUSE → CAT GARDENS / TYLER",
+      "body": "The world crossed the existing relation \"GOOD LUCK HAS WHISKERS\" from CEDAR HOUSE into CAT GARDENS. Scale increased from 15.65× to 15.70×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00207",
+      "live": true,
+      "regionId": "cat-gardens",
+      "previousRegionId": "cedar-house",
+      "relation": "GOOD LUCK HAS WHISKERS"
+    },
     {
       "id": "scheduled-long-play-00206",
       "at": "2026-11-15T00:24:11.803Z",
@@ -1482,21 +1497,6 @@
       "regionId": "beefythiq",
       "previousRegionId": "complex",
       "relation": "MASS BECOMES WEATHER"
-    },
-    {
-      "id": "scheduled-long-play-00110",
-      "at": "2026-10-25T09:39:28.459Z",
-      "from": "geehub-long-play",
-      "to": "chase",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / GROWTH CANVAS → THE COMPLEX / CHASE",
-      "body": "The world crossed the existing relation \"KISS = CONTINUITY\" from GROWTH CANVAS into THE COMPLEX. Scale increased from 9.50× to 9.54×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00110",
-      "live": true,
-      "regionId": "complex",
-      "previousRegionId": "growth",
-      "relation": "KISS = CONTINUITY"
     }
   ]
 }

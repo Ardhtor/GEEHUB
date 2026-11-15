@@ -142,13 +142,21 @@ records exactly which output pixels were produced. The current safety ceiling
 is 12 million pixels per frame.
 
 This is the first CPU pixel-buffer implementation, not yet a complete frame
-worker or compositor. It does not decode source footage, encode PNG files,
-reconstruct the background behind the original body, combine the protected
-face layer, or write a frame sequence. The result is a body layer for those
-later stages; `pixelSemanticsVerified` remains false. Ten focused tests cover
-baseline sampling, translation, source/body and destination/face exclusion,
-foldovers, frame identity, malformed masks and RGBA buffers, shared edges,
-and premultiplied-alpha interpolation.
+worker or compositor. The new `core/rgba-png.js` module provides
+`decodeRgbaPng()` and `encodeRgbaPng()` for bounded, lossless PNG buffers.
+The decoder accepts non-interlaced 8-bit RGB/RGBA source images, expands RGB
+to opaque RGBA, verifies chunk CRCs and ordering, and reconstructs all five
+standard PNG row filters. The encoder writes non-interlaced 8-bit RGBA PNGs
+with fresh CRCs and lossless compression. Both directions default to a
+12-million-pixel and 128 MiB ceiling. Palette, grayscale, 16-bit, interlaced,
+and tRNS inputs are refused. Ancillary color-profile/gamma metadata is not
+interpreted or preserved, so channel samples are lossless but color-management
+metadata is not. Seven focused tests cover the codec's supported formats,
+round-trip behavior, row filters, corruption handling, and size limits.
+The codec returns bytes; it does not write files, reconstruct the background
+behind the original body, combine the protected face layer, or write a frame
+sequence. The result remains a body layer for later stages;
+`pixelSemanticsVerified` remains false.
 
 ## Registered-evidence render-job preparation
 

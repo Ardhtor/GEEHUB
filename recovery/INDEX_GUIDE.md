@@ -4,7 +4,7 @@ The [machine-readable index](index.json) joins repository revisions, the canonic
 
 The human-readable companion is the [GEEHUB Recovery Continuity Index in Dropbox Paper](https://www.dropbox.com/scl/fi/v8hyralak1a2e23dlv72w/GEEHUB-Recovery-Continuity-Index.paper?rlkey=7hebgx429apeok52tc30ajyuy&dl=0), stored inside the dated Dropbox recovery copy.\n\n## Current linked state
 
-- GitHub repository: `Ardhtor/GEEHUB`, main commit `0104781b312f0a4aadd60ce0d9d8aabd5c99c437`.
+- GitHub repository: `Ardhtor/GEEHUB`. The indexed baseline is commit `0104781b312f0a4aadd60ce0d9d8aabd5c99c437`; the index itself was introduced by merge commit `0c8d7fec68c435f834f4cde81ae536856eb09c03`.
 - Canonical artifact identity source: `artifacts/index.json`. Existing artifact IDs and provenance remain authoritative; the recovery index does not re-key them.
 - Git recovery baseline: `geehub-baseline-main-c578532`, seven tracked files at its recorded source revision.
 - Dropbox snapshot: `/GEEHUB_RECOVERY_2026-11-15`, copied from `/GEEHUB`. The recursive inventory comparison found 47 matching entries: 13 files and 34 folders, totaling 16,565,892 file bytes.

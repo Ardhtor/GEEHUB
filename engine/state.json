@@ -1,5 +1,5 @@
 {
-  "pulse": 276,
+  "pulse": 277,
   "events": [
     {
       "pulse": 1,
@@ -5089,6 +5089,28 @@
       "occurred_at": "2026-11-15T05:58:41.153659+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000277",
+      "pulse": 277,
+      "time": "2026-11-15T13:50:59.980982+00:00",
+      "actor": "LUKE",
+      "world": "CAT GARDENS",
+      "region_id": "cat-gardens",
+      "previous_region_id": "cat-gardens",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/cat-gardens/README.md",
+      "desire_state": "attention",
+      "action": "SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-15T13:50:59.980982+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -5139,7 +5161,7 @@
     "northgate-library": 272,
     "athletic-commons": 263.5
   },
-  "pressure": 0.9800000000000001,
+  "pressure": 1.0,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -5155,7 +5177,7 @@
     "index.html": 11,
     "worlds/common-table/README.md": 14,
     "worlds/cedar-house/README.md": 11,
-    "worlds/cat-gardens/README.md": 13,
+    "worlds/cat-gardens/README.md": 14,
     "worlds/founders-dormitory/README.md": 8,
     "worlds/northgate-university/README.md": 19,
     "worlds/bluewater-quay/README.md": 12,
@@ -5164,9 +5186,9 @@
     "worlds/athletic-commons/README.md": 7
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "cat-gardens",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

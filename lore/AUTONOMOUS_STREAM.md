@@ -2117,3 +2117,11 @@ SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen,
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 277 — ATMOSPHERE / CAT GARDENS / 2026-11-15T13:50:59.980982+00:00
+
+SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

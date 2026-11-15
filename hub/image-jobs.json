@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00208",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00208.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "CAT GARDENS → FOUNDERS DORMITORY / ANDREW",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00208. Travel from CAT GARDENS into FOUNDERS DORMITORY through the relation \"THE DORM GARDEN PATH\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 15.70× to 15.78× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-15T14:47:22.673Z",
+      "lineage": {
+        "from": "cat-gardens",
+        "to": "founders-dormitory",
+        "relation": "THE DORM GARDEN PATH",
+        "cycle": 208
+      }
+    },
+    {
       "id": "scheduled-image-00207",
       "status": "QUEUED",
       "type": "IMAGE",
@@ -3269,17 +3286,6 @@
       "title": "DISCOVERY / LONG PLAY / JOSEPH",
       "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00009. Preserve region discovery and inherited geography. Adult male human subject joseph at 3.10x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
       "created": "2026-10-07T02:38:04.282Z"
-    },
-    {
-      "id": "scheduled-image-00008",
-      "status": "QUEUED",
-      "type": "IMAGE",
-      "sourceRecording": "./recordings/scheduled-recording-00008.json",
-      "map": "./spatial-world.json",
-      "target": "visual-synthesis",
-      "title": "MUSCLE MYTH / LONG PLAY / ANDREW",
-      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00008. Preserve region muscle-myth and inherited geography. Adult male human subject andrew at 2.98x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
-      "created": "2026-10-06T23:18:00.949Z"
     }
   ]
 }

@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00208",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00208.json",
+      "route": {
+        "from": "cat-gardens",
+        "to": "founders-dormitory",
+        "relation": "THE DORM GARDEN PATH"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-15T14:47:22.673Z"
+    },
+    {
+      "id": "scheduled-video-00208",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00208.json",
+      "route": {
+        "from": "cat-gardens",
+        "to": "founders-dormitory",
+        "relation": "THE DORM GARDEN PATH"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-15T14:47:22.673Z"
+    },
+    {
+      "id": "scheduled-space-00208",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00208.json",
+      "route": {
+        "from": "cat-gardens",
+        "to": "founders-dormitory",
+        "relation": "THE DORM GARDEN PATH"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-15T14:47:22.673Z"
+    },
+    {
       "id": "scheduled-sound-00207",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-25T04:46:44.400Z"
-    },
-    {
-      "id": "scheduled-sound-00108",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00108.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "luke-bwomph",
-        "relation": "THE FACE REMAINS"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-25T00:10:31.055Z"
-    },
-    {
-      "id": "scheduled-video-00108",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00108.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "luke-bwomph",
-        "relation": "THE FACE REMAINS"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-25T00:10:31.055Z"
-    },
-    {
-      "id": "scheduled-space-00108",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00108.json",
-      "route": {
-        "from": "deep-lore",
-        "to": "luke-bwomph",
-        "relation": "THE FACE REMAINS"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-25T00:10:31.055Z"
     }
   ]
 }

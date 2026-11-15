@@ -1,0 +1,46 @@
+name: GEEHUB protection gates
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: protection-gates-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  integrity:
+    name: Validate changed records and protection rules
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Run protection validator tests
+        run: python -m unittest scripts.test_validate_protection -v
+      - name: Validate pull request changes
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch origin "${{ github.base_ref }}" --depth=1
+          python scripts/validate_protection.py --base-ref "origin/${{ github.base_ref }}" --head-ref "${{ github.sha }}"
+      - name: Validate pushed changes
+        if: github.event_name == 'push'
+        run: |
+          BASE="${{ github.event.before }}"
+          if [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+            echo "Initial push has no parent diff; running syntax checks on protected JSON files."
+            python -m json.tool projects.json >/dev/null
+            python -m json.tool hub/projects.json >/dev/null
+          else
+            python scripts/validate_protection.py --base-ref "$BASE" --head-ref "${{ github.sha }}"
+          fi

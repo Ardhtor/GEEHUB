@@ -150,19 +150,6 @@ This architecture is the governing specification. Implementation proceeds in sma
 Do not mark a stage complete until its controls have passed tests in the actual repository and connected environment. Platform settings, local services, Dropbox access, and external credentials may require separate user action; document those dependencies instead of implying that a repository commit activated them.
 
 
-## 13. First implementation status
-
-The first repository-integrity implementation is being introduced on the feature branch `protection/integrity-gates-v1`.
-
-- **Implemented in branch:** `scripts/validate_protection.py` checks changed JSON syntax, blocks deletion of designated continuity records, rejects changed paths that escape the repository root, and flags common GitHub-token, AWS access-key, and private-key patterns.
-- **Implemented in branch:** `scripts/test_validate_protection.py` covers valid and invalid JSON, protected-record deletion, credential-pattern detection, binary-file scope, and path traversal.
-- **Implemented in branch:** `.github/workflows/protection-gates.yml` runs the validator tests and changed-file checks for pull requests and pushes to `main`, with read-only repository permissions.
-- **Not yet verified:** the workflow has not completed a GitHub Actions run. Its controls remain implemented-but-unverified until CI passes.
-- **Not yet activated:** the default branch currently reports `protected: false`. The available GitHub connection can inspect repository metadata but cannot change branch-protection settings. A repository administrator must enable a ruleset or branch protection requiring pull requests and the `Validate changed records and protection rules` status check, and prevent force pushes/deletion.
-- **Not yet implemented:** independent backups, restore drills, full artifact-hash inventory, secret-manager migration, and runtime permission boundaries remain later stages.
-
-This status is deliberately explicit: adding a workflow does not itself protect `main` from direct pushes. The feature branch and pull request provide a reviewable implementation unit; platform enforcement must be enabled separately.
-
 ## 12. Change control for this architecture
 
 This document is itself protected. Proposed amendments should be made on a branch, reviewed against the continuity and adaptive-memory contracts, and merged with a concise rationale. A change must not weaken a control merely to make a workflow easier. Emergency exceptions must be narrow, time-bounded, recorded, and reviewed after use.
@@ -170,3 +157,29 @@ This document is itself protected. Proposed amendments should be made on a branc
 The architecture may become more precise as GEEHUB acquires real implementations. New protections should be additive where possible, should preserve existing provenance, and should distinguish specification from verified behavior.
 
 **The protected environment remains capable of becoming something new. Its history, sources, identities, and permissions do not become expendable in the process.**
+
+
+## 13. Repository integrity implementation status
+
+The first repository-integrity layer is merged into `main` and verified:
+
+- `scripts/validate_protection.py` checks changed JSON syntax, blocks deletion of designated continuity records, rejects changed paths that escape the repository root, and flags common GitHub-token, AWS access-key, and private-key patterns.
+- `scripts/test_validate_protection.py` covers valid and invalid JSON, protected-record deletion, credential-pattern detection, binary-file scope, and path traversal.
+- `.github/workflows/protection-gates.yml` runs the validator tests and changed-file checks for pull requests and pushes to `main`.
+- The pull-request run and the post-merge main-branch run both completed successfully.
+
+**Not yet activated:** the default branch was inspected and reported `protected: false`. The GitHub integration used for this implementation could inspect repository metadata but could not change branch-protection settings. A repository administrator must enable a ruleset requiring pull requests and the `Validate changed records and protection rules` status check, and prevent force pushes and branch deletion.
+
+This distinction remains important: successful CI validates changes when the workflow runs; it does not prevent direct pushes while branch rules remain disabled.
+
+## 14. Recovery implementation status
+
+The repository now contains a first recovery utility and a historical baseline:
+
+- `recovery/snapshots/baseline-main-c578532.json` records the artifact index, archive registry and schema, and Tractus continuity/adaptive-memory contracts at the verified source commit. Its initial entries use Git blob hashes and exact byte lengths.
+- `scripts/recovery_snapshot.py` creates new snapshots with per-file SHA-256, Git blob hashes, a manifest self-checksum, and a recorded source commit. It verifies snapshots against either the working tree or the recorded Git revision.
+- The restore command retrieves the exact recorded Git revision and restores into a separate recovery directory by default. In-place restoration and overwriting require explicit flags.
+- `recovery/schema.json` defines the versioned manifest shape. Unit tests cover hash consistency, tampering, unsafe paths, and symlink escape.
+- The protection workflow runs the recovery tests and verifies the historical baseline on pull requests and main pushes.
+
+**Boundary:** the baseline and manifests live in the same GitHub repository as the source. They establish revision-level integrity and a reproducible repository restore path, but they are not an independent backup. Dropbox, local media, credentials, account settings, and external services are outside this snapshot scope. Stage D is not complete until an independently stored copy exists and a restoration drill is performed.

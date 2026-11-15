@@ -146,3 +146,8 @@ This is the central directory map. Every folder has a local `README.md` landing 
 - File links preserve original names and locations.
 - Concepts without a source path remain visible in the Project Workbench but are not presented as working files.
 
+
+
+## Recovery
+
+- [Recovery manifests and restore procedure](../recovery/README.md)

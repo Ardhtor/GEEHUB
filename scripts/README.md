@@ -6,7 +6,7 @@ This is the local navigation page for `scripts/`. The lists below link to immedi
 
 ## Files
 
-### PY (9)
+### PY (13)
 
 - [`discover_creators.py`](./discover_creators.py)
 - [`promote_canon_version.py`](./promote_canon_version.py)
@@ -18,4 +18,6 @@ This is the local navigation page for `scripts/`. The lists below link to immedi
 - [`tractus_memory.py`](./tractus_memory.py)
 - [`validate_protection.py`](./validate_protection.py) — changed-file integrity, protected-record deletion, and common credential-pattern checks.
 - [`test_validate_protection.py`](./test_validate_protection.py) — regression tests for the protection validator.
+- [`recovery_snapshot.py`](./recovery_snapshot.py) — create, verify, and restore versioned repository snapshots.
+- [`test_recovery_snapshot.py`](./test_recovery_snapshot.py) — recovery manifest, path-safety, and hash verification tests.
 - [`validate_research.py`](./validate_research.py)

@@ -26,8 +26,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Run protection validator tests
-        run: python -m unittest scripts.test_validate_protection -v
+      - name: Run protection and recovery tests
+        run: python -m unittest scripts.test_validate_protection scripts.test_recovery_snapshot -v
+      - name: Verify the committed recovery baseline
+        run: python scripts/recovery_snapshot.py verify recovery/snapshots/baseline-main-c578532.json --source git
       - name: Validate pull request changes
         if: github.event_name == 'pull_request'
         run: |

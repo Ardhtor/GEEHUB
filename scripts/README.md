@@ -6,7 +6,7 @@ This is the local navigation page for `scripts/`. The lists below link to immedi
 
 ## Files
 
-### PY (9)
+### PY (13)
 
 - [`discover_creators.py`](./discover_creators.py)
 - [`promote_canon_version.py`](./promote_canon_version.py)

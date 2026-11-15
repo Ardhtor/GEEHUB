@@ -2453,3 +2453,11 @@ SETH: Fresh bread is cooling at the end of the oak table. Soup, roasted vegetabl
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/common-table/README.md. Pressure 0.96; memory 1.00.
+
+## CEDAR HOUSE / pulse 276 / ATMOSPHERE
+
+SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/cedar-house/README.md. Pressure 0.98; memory 1.00.

@@ -2109,3 +2109,11 @@ SETH: Fresh bread is cooling at the end of the oak table. Soup, roasted vegetabl
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 276 — ATMOSPHERE / CEDAR HOUSE / 2026-11-15T05:58:41.153659+00:00
+
+SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

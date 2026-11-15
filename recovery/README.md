@@ -1,5 +1,7 @@
 # GEEHUB Recovery
 
+The [Recovery Continuity Index](index.json) links GitHub revisions, canonical artifact identities, Dropbox snapshots, and restoration events. See the [index guide](INDEX_GUIDE.md) and [index schema](index.schema.json).
+
 This area defines repository-level recovery manifests and procedures. It is deliberately separate from the artifact ledger: the artifact index describes creative and production residue, while a recovery snapshot records exact repository file bytes at a known revision.
 
 ## Current baseline

@@ -70,5 +70,13 @@
     "never_replace_source_or_existing_snapshots": true,
     "require_explicit_confirmation_for_destructive_restore_or_overwrite": true,
     "note": "This index is a coordination record. Git commit history and Dropbox revisions remain the underlying recovery sources."
+  },
+  "dropbox_control_document": {
+    "title": "GEEHUB Recovery Continuity Index",
+    "path": "/GEEHUB_RECOVERY_2026-11-15/GEEHUB Recovery Continuity Index.paper",
+    "file_id": "id:tbdqPXHGULQAAAAAAAADGg",
+    "url": "https://www.dropbox.com/scl/fi/v8hyralak1a2e23dlv72w/GEEHUB-Recovery-Continuity-Index.paper?rlkey=7hebgx429apeok52tc30ajyuy&dl=0",
+    "revision": "1",
+    "purpose": "Human-readable companion to this machine-readable recovery index."
   }
 }

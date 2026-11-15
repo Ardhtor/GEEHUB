@@ -2125,3 +2125,11 @@ SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 278 — ATMOSPHERE / FOUNDERS DORMITORY / 2026-11-15T19:39:58.168715+00:00
+
+SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

@@ -1,11 +1,12 @@
 import hashlib
 import json
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
 
 from scripts.recovery_snapshot import (
-    git_blob_sha1, manifest_digest, safe_relative_path, verify_manifest,
+    git_blob_sha1, manifest_digest, restore_snapshot, safe_relative_path, verify_manifest,
 )
 
 class RecoverySnapshotTests(unittest.TestCase):
@@ -59,6 +60,35 @@ class RecoverySnapshotTests(unittest.TestCase):
         first = manifest_digest(manifest)
         manifest["manifest_sha256"] = "different"
         self.assertEqual(first, manifest_digest(manifest))
+
+
+    def test_restore_uses_snapshot_directory_and_refuses_overwrite(self):
+        subprocess.run(["git", "init"], cwd=self.root, check=True, capture_output=True)
+        subprocess.run(["git", "config", "user.email", "recovery-test@example.invalid"], cwd=self.root, check=True)
+        subprocess.run(["git", "config", "user.name", "Recovery Test"], cwd=self.root, check=True)
+        source = self.root / "archive" / "record.txt"
+        source.parent.mkdir()
+        source.write_bytes(b"recoverable source")
+        subprocess.run(["git", "add", "archive/record.txt"], cwd=self.root, check=True)
+        subprocess.run(["git", "commit", "-m", "source snapshot"], cwd=self.root, check=True, capture_output=True)
+        revision = subprocess.run(["git", "rev-parse", "HEAD"], cwd=self.root, check=True, capture_output=True, text=True).stdout.strip()
+        data = source.read_bytes()
+        manifest = {
+            "snapshot_id": "test-snapshot-001",
+            "source_commit": revision,
+            "entries": [{
+                "path": "archive/record.txt",
+                "size": len(data),
+                "sha256": hashlib.sha256(data).hexdigest(),
+                "git_blob_sha1": git_blob_sha1(data),
+            }],
+        }
+        restored = restore_snapshot(manifest, self.root, Path("recovery/restored"), False, False)
+        expected = self.root / "recovery" / "restored" / "test-snapshot-001" / "archive" / "record.txt"
+        self.assertEqual(expected.read_bytes(), data)
+        self.assertEqual(len(restored), 1)
+        with self.assertRaises(FileExistsError):
+            restore_snapshot(manifest, self.root, Path("recovery/restored"), False, False)
 
     def test_symlink_escape_is_reported(self):
         outside = self.root.parent / (self.root.name + "-outside")

@@ -32,7 +32,7 @@ def sha256(data: bytes) -> str:
 
 
 def git_blob_sha1(data: bytes) -> str:
-    return hashlib.sha1(b"blob " + str(len(data)).encode("ascii") + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode("ascii") + b"\0" + data).hexdigest()
 
 
 def canonical_manifest_bytes(manifest: dict[str, Any]) -> bytes:
@@ -48,7 +48,7 @@ def safe_relative_path(value: str) -> Path:
     pure = PurePosixPath(value)
     if pure.is_absolute() or not pure.parts or any(part in ("", ".", "..") for part in pure.parts):
         raise ValueError(f"Unsafe repository-relative path: {value}")
-    if "\\\\" in value:
+    if "\\" in value:
         raise ValueError(f"Backslash is not permitted in manifest path: {value}")
     return Path(*pure.parts)
 

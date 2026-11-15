@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "index_id": "geehub-recovery-continuity",
+  "recorded_on": "2026-11-15",
+  "repository": {
+    "name": "Ardhtor/GEEHUB",
+    "branch": "main",
+    "source_commit": "0104781b312f0a4aadd60ce0d9d8aabd5c99c437",
+    "canonical_artifact_registry": {
+      "path": "artifacts/index.json",
+      "git_blob_sha1": "f42fee56c5fa1ec907063f5b2a3231c02ec730bf",
+      "bytes": 646283,
+      "identity_policy": "Artifact IDs and provenance remain defined by the canonical artifact registry; this recovery index references that registry rather than copying or renumbering its entries."
+    },
+    "recovery_manifest": {
+      "path": "recovery/snapshots/baseline-main-c578532.json",
+      "snapshot_id": "geehub-baseline-main-c578532",
+      "source_commit": "c578532d878fd8a1bb57422c5c91e01c23b83b9b",
+      "entry_count": 7
+    }
+  },
+  "dropbox_snapshots": [
+    {
+      "snapshot_id": "dropbox-geehub-recovery-2026-11-15",
+      "status": "created_and_metadata_verified",
+      "source_path": "/GEEHUB",
+      "destination_path": "/GEEHUB_RECOVERY_2026-11-15",
+      "destination_file_id": "id:tbdqPXHGULQAAAAAAAAC3w",
+      "recorded_on": "2026-11-15",
+      "inventory": {
+        "entries": 47,
+        "files": 13,
+        "folders": 34,
+        "total_file_bytes": 16565892
+      },
+      "verification": {
+        "method": "recursive source and destination listing comparison",
+        "result": "exact_match",
+        "compared_fields": [
+          "relative_path",
+          "object_type",
+          "file_size"
+        ],
+        "missing_entries": 0,
+        "unexpected_entries": 0,
+        "mismatched_entries": 0,
+        "content_hashes_checked": false
+      },
+      "independence": "same Dropbox account as source; not an offline or independently administered backup"
+    }
+  ],
+  "restoration_history": [
+    {
+      "event_id": "git-recovery-restore-integration-test-2026-11-15",
+      "system": "GitHub",
+      "status": "passed",
+      "description": "Automated test restored a committed file from its recorded Git revision into a snapshot-specific recovery directory and confirmed a second restore refuses to overwrite."
+    }
+  ],
+  "pending_controls": [
+    "Generate a fresh SHA-256 snapshot manifest from a clean checkout and store a copy outside the GitHub repository.",
+    "Add a Dropbox file-content hash inventory; the initial folder comparison checked paths, types, and sizes only.",
+    "Perform and record a real Dropbox restore drill into a separate destination.",
+    "Establish an independently administered or offline backup location.",
+    "Enable GitHub main-branch rules requiring pull requests and the protection-gates status check; prevent force pushes and branch deletion."
+  ],
+  "update_policy": {
+    "append_snapshot_events": true,
+    "preserve_prior_records": true,
+    "never_replace_source_or_existing_snapshots": true,
+    "require_explicit_confirmation_for_destructive_restore_or_overwrite": true,
+    "note": "This index is a coordination record. Git commit history and Dropbox revisions remain the underlying recovery sources."
+  },
+  "dropbox_control_document": {
+    "title": "GEEHUB Recovery Continuity Index",
+    "path": "/GEEHUB_RECOVERY_2026-11-15/GEEHUB Recovery Continuity Index.paper",
+    "file_id": "id:tbdqPXHGULQAAAAAAAADGg",
+    "url": "https://www.dropbox.com/scl/fi/v8hyralak1a2e23dlv72w/GEEHUB-Recovery-Continuity-Index.paper?rlkey=7hebgx429apeok52tc30ajyuy&dl=0",
+    "revision": "1",
+    "purpose": "Human-readable companion to this machine-readable recovery index."
+  }
+}

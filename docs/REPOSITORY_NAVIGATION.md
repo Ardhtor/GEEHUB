@@ -9,7 +9,7 @@ This is the central directory map. Every folder has a local `README.md` landing 
 ## Start here
 
 - [Project Workbench](PROJECT_WORKBENCH.md) — project entry points, current state, and next useful action.
-- [Tractus Protection Architecture](TRACTUS_PROTECTION_ARCHITECTURE.md) — the governing safeguards for data, canon, permissions, publication, and recovery.
+- [Tractus Protection Architecture](TRACTUS_PROTECTION_ARCHITECTURE.md)\n- [Recovery Continuity Index](../recovery/index.json) — linked GitHub revision, artifact registry, Dropbox snapshots, and restoration evidence. — the governing safeguards for data, canon, permissions, publication, and recovery.
 - [Root overview](../README.md) — purpose and continuity principles.
 - [Hub browser](../hub/index.html) — interactive project constellation.
 - [Project registry](../projects.json) · [Hub display registry](../hub/projects.json).

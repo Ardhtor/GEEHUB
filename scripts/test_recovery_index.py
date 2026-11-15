@@ -20,6 +20,7 @@ class RecoveryIndexTests(unittest.TestCase):
     def test_repository_revision_and_artifact_registry_are_pinned(self):
         repo = self.index["repository"]
         self.assertEqual(len(repo["source_commit"]), 40)
+        self.assertEqual(len(repo["index_introduced_by_commit"]), 40)
         registry = repo["canonical_artifact_registry"]
         self.assertEqual(registry["path"], "artifacts/index.json")
         self.assertEqual(len(registry["git_blob_sha1"]), 40)

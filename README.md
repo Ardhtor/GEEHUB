@@ -30,6 +30,10 @@ The test is:
 
 The Tractus does not separate activity from its memory. Every event produced by an active world process is assigned one identity and inscribed at the moment it occurs; the activity stream, artifacts, regional logs, and narrative are projections of that same event. The world pulse and Northgate campus engines share `engine/inscription.py`, while `engine/activity.jsonl` carries the chronological history. Historical pulses and campus events are unified by `engine/migrate_activity.py`. See [Occurrence Is Inscription](docs/OCCURRENCE_IS_INSCRIPTION.md).
 
+## Protection architecture
+
+The [Tractus Protection Architecture](docs/TRACTUS_PROTECTION_ARCHITECTURE.md) defines how GEEHUB protects canon, identity, source archives, artifact provenance, dependencies, permissions, secrets, outbound publication, backups, and recovery while allowing continuous change. It is a governing specification, not a claim that every control is already active. Each control must be implemented, tested, and reported at its actual state before it is treated as operational.
+
 ## Tractus continuity
 
 The Tractus is GEEHUB's continuity model, not a separate engine beside it. The [Tractus Continuity Contract](docs/TRACTUS_CONTINUITY_CONTRACT.md) connects event inscription, world and campus state, the autonomous narrative writer, the narrative queue, the artifact ledger, and both Atlas registries. It defines a passage as a traceable change that inherits prior state, preserves provenance, and makes consequential results discoverable by the next process. The [Adaptive Memory Specification](docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md) adds blind retrieval, prediction-error-gated canon revisions, linked version records, and spaced retrieval at 1, 3, 7, 14, and 30 days. Existing canon is first captured as an experiment; a human must explicitly promote a reviewed baseline before the writer can revise it. The Coach and the Institute of Becoming enter as an incubating story branch in the existing Tractus, not as a disconnected world or a claim of completed runtime behavior.

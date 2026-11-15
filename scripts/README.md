@@ -16,4 +16,6 @@ This is the local navigation page for `scripts/`. The lists below link to immedi
 - [`test_tractus_science.py`](./test_tractus_science.py)
 - [`tractus_engine.py`](./tractus_engine.py)
 - [`tractus_memory.py`](./tractus_memory.py)
+- [`validate_protection.py`](./validate_protection.py) — changed-file integrity, protected-record deletion, and common credential-pattern checks.
+- [`test_validate_protection.py`](./test_validate_protection.py) — regression tests for the protection validator.
 - [`validate_research.py`](./validate_research.py)

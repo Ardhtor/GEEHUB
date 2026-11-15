@@ -14,6 +14,7 @@ This is the local navigation page for `.github/workflows/`. The lists below link
 - [`growth-study-validation.yml`](./growth-study-validation.yml)
 - [`luke-growth-render.yml`](./luke-growth-render.yml)
 - [`pages.yml`](./pages.yml)
+- [`protection-gates.yml`](./protection-gates.yml) — pull-request and main-branch integrity checks.
 - [`tractus-engine.yml`](./tractus-engine.yml)
 - [`tractus-memory-validation.yml`](./tractus-memory-validation.yml)
 - [`validate-data.yml`](./validate-data.yml)

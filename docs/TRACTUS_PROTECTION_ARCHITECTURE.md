@@ -149,6 +149,20 @@ This architecture is the governing specification. Implementation proceeds in sma
 
 Do not mark a stage complete until its controls have passed tests in the actual repository and connected environment. Platform settings, local services, Dropbox access, and external credentials may require separate user action; document those dependencies instead of implying that a repository commit activated them.
 
+
+## 13. First implementation status
+
+The first repository-integrity implementation is being introduced on the feature branch `protection/integrity-gates-v1`.
+
+- **Implemented in branch:** `scripts/validate_protection.py` checks changed JSON syntax, blocks deletion of designated continuity records, rejects changed paths that escape the repository root, and flags common GitHub-token, AWS access-key, and private-key patterns.
+- **Implemented in branch:** `scripts/test_validate_protection.py` covers valid and invalid JSON, protected-record deletion, credential-pattern detection, binary-file scope, and path traversal.
+- **Implemented in branch:** `.github/workflows/protection-gates.yml` runs the validator tests and changed-file checks for pull requests and pushes to `main`, with read-only repository permissions.
+- **Not yet verified:** the workflow has not completed a GitHub Actions run. Its controls remain implemented-but-unverified until CI passes.
+- **Not yet activated:** the default branch currently reports `protected: false`. The available GitHub connection can inspect repository metadata but cannot change branch-protection settings. A repository administrator must enable a ruleset or branch protection requiring pull requests and the `Validate changed records and protection rules` status check, and prevent force pushes/deletion.
+- **Not yet implemented:** independent backups, restore drills, full artifact-hash inventory, secret-manager migration, and runtime permission boundaries remain later stages.
+
+This status is deliberately explicit: adding a workflow does not itself protect `main` from direct pushes. The feature branch and pull request provide a reviewable implementation unit; platform enforcement must be enabled separately.
+
 ## 12. Change control for this architecture
 
 This document is itself protected. Proposed amendments should be made on a branch, reviewed against the continuity and adaptive-memory contracts, and merged with a concise rationale. A change must not weaken a control merely to make a workflow easier. Emergency exceptions must be narrow, time-bounded, recorded, and reviewed after use.

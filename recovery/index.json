@@ -17,7 +17,9 @@
       "snapshot_id": "geehub-baseline-main-c578532",
       "source_commit": "c578532d878fd8a1bb57422c5c91e01c23b83b9b",
       "entry_count": 7
-    }
+    },
+    "index_introduced_by_commit": "0c8d7fec68c435f834f4cde81ae536856eb09c03",
+    "source_commit_role": "Base revision used to assemble this index, before the index files were added. index_introduced_by_commit records the merge commit that introduced the index."
   },
   "dropbox_snapshots": [
     {

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "geehub-baseline-main-c578532",
+  "created_at": "2026-11-15T22:29:19Z",
+  "repository": "https://github.com/Ardhtor/GEEHUB",
+  "source_commit": "c578532d878fd8a1bb57422c5c91e01c23b83b9b",
+  "scope": [
+    "artifacts/index.json",
+    "artifacts/README.md",
+    "archive/records.json",
+    "archive/schema.json",
+    "archive/README.md",
+    "docs/TRACTUS_CONTINUITY_CONTRACT.md",
+    "docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md"
+  ],
+  "entry_count": 7,
+  "note": "Seed baseline uses Git's content-addressed blob SHA-1 and byte length at the recorded commit. New local snapshots add SHA-256 and a manifest self-checksum. This baseline is historical evidence, not an independent backup.",
+  "entries": [
+    {
+      "path": "artifacts/index.json",
+      "size": 646283,
+      "git_blob_sha1": "f42fee56c5fa1ec907063f5b2a3231c02ec730bf"
+    },
+    {
+      "path": "artifacts/README.md",
+      "size": 1834,
+      "git_blob_sha1": "1385f88efb586b48a16cfff58a751c4ef8e6cd9e"
+    },
+    {
+      "path": "archive/records.json",
+      "size": 134,
+      "git_blob_sha1": "5a0962f44fd99621087f40f1d7ca0e61a24b0ac2"
+    },
+    {
+      "path": "archive/schema.json",
+      "size": 1177,
+      "git_blob_sha1": "05dcf8439ae2ca45694333fb30ab810b6bdc81eb"
+    },
+    {
+      "path": "archive/README.md",
+      "size": 1020,
+      "git_blob_sha1": "77d225c10bfaf34a7cecf39352c2b6816cb6bc5e"
+    },
+    {
+      "path": "docs/TRACTUS_CONTINUITY_CONTRACT.md",
+      "size": 9973,
+      "git_blob_sha1": "8d1bb0974cf7aeba5af7aa2c0f39293c281a5126"
+    },
+    {
+      "path": "docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md",
+      "size": 8288,
+      "git_blob_sha1": "0f31848522f990471c305f64181d6302ac450804"
+    }
+  ]
+}

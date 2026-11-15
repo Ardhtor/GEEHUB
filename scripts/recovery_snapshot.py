@@ -181,7 +181,7 @@ def create_snapshot(root: Path, output: Path, includes: tuple[str, ...]) -> dict
 
 def restore_snapshot(manifest: dict[str, Any], root: Path, destination: Path, in_place: bool, overwrite: bool) -> list[str]:
     restored: list[str] = []
-    base = root if in_place else (root / destination)
+    base = root if in_place else (root / destination / manifest["snapshot_id"])
     for entry in manifest["entries"]:
         relative = safe_relative_path(entry["path"])
         data = git_bytes(root, manifest["source_commit"], entry["path"])

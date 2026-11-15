@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00206",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00206.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "THE COMMON TABLE → CEDAR HOUSE / LUKE",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00206. Travel from THE COMMON TABLE into CEDAR HOUSE through the relation \"A TABLE IS SET\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 15.62× to 15.65× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-15T00:24:11.803Z",
+      "lineage": {
+        "from": "common-table",
+        "to": "cedar-house",
+        "relation": "A TABLE IS SET",
+        "cycle": 206
+      }
+    },
+    {
       "id": "scheduled-image-00205",
       "status": "QUEUED",
       "type": "IMAGE",
@@ -3257,17 +3274,6 @@
       "title": "VEY RTHALIS / LONG PLAY / TYLER",
       "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00007. Preserve region veyrthalis and inherited geography. Adult male human subject tyler at 2.90x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
       "created": "2026-10-06T19:33:36.979Z"
-    },
-    {
-      "id": "scheduled-image-00006",
-      "status": "QUEUED",
-      "type": "IMAGE",
-      "sourceRecording": "./recordings/scheduled-recording-00006.json",
-      "map": "./spatial-world.json",
-      "target": "visual-synthesis",
-      "title": "THE FACILITY / LONG PLAY / LUKE",
-      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00006. Preserve region facility and inherited geography. Adult male human subject luke at 2.85x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
-      "created": "2026-10-06T14:02:38.688Z"
     }
   ]
 }

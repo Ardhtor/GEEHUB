@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-14T20:44:12.328Z",
+  "generated": "2026-11-15T00:24:11.803Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00206",
+      "at": "2026-11-15T00:24:11.803Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / THE COMMON TABLE → CEDAR HOUSE / LUKE",
+      "body": "The world crossed the existing relation \"A TABLE IS SET\" from THE COMMON TABLE into CEDAR HOUSE. Scale increased from 15.62× to 15.65×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00206",
+      "live": true,
+      "regionId": "cedar-house",
+      "previousRegionId": "common-table",
+      "relation": "A TABLE IS SET"
+    },
     {
       "id": "scheduled-long-play-00205",
       "at": "2026-11-14T20:44:12.328Z",
@@ -1482,21 +1497,6 @@
       "regionId": "complex",
       "previousRegionId": "growth",
       "relation": "KISS = CONTINUITY"
-    },
-    {
-      "id": "scheduled-long-play-00109",
-      "at": "2026-10-25T04:46:44.400Z",
-      "from": "geehub-long-play",
-      "to": "joseph",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / LUKE // BWOMPH → GROWTH CANVAS / JOSEPH",
-      "body": "The world crossed the existing relation \"HYPEER BASELINE\" from LUKE // BWOMPH into GROWTH CANVAS. Scale increased from 9.38× to 9.50×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00109",
-      "live": true,
-      "regionId": "growth",
-      "previousRegionId": "luke-bwomph",
-      "relation": "HYPEER BASELINE"
     }
   ]
 }

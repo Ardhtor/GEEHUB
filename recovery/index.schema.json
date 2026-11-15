@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GEEHUB Recovery Continuity Index",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "index_id",
+    "recorded_on",
+    "repository",
+    "dropbox_snapshots",
+    "restoration_history",
+    "pending_controls",
+    "update_policy"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "index_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recorded_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "repository": {
+      "type": "object",
+      "required": [
+        "name",
+        "branch",
+        "source_commit",
+        "canonical_artifact_registry",
+        "recovery_manifest"
+      ]
+    },
+    "dropbox_snapshots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "snapshot_id",
+          "status",
+          "source_path",
+          "destination_path",
+          "inventory",
+          "verification"
+        ]
+      }
+    },
+    "restoration_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event_id",
+          "system",
+          "status",
+          "description"
+        ]
+      }
+    },
+    "pending_controls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "update_policy": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

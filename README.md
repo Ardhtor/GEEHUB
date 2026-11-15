@@ -147,8 +147,10 @@ deformation plan into a transparent RGBA body layer using the exact frame's
 body and protected-face masks, inverse-triangle sampling, and bilinear
 premultiplied-alpha interpolation whose source taps are filtered through both
 masks. It leaves the source buffer untouched and
-returns a pixel-coverage mask; it does not yet encode PNGs, reconstruct the
-background, or composite a complete frame. This is a first deformation slice,
+returns a pixel-coverage mask. The new `rgba-png.js` codec reads bounded
+non-interlaced 8-bit RGB/RGBA PNG buffers and writes lossless RGBA PNG buffers;
+the file-backed frame worker, background reconstruction, and complete
+compositing remain open. This is a first deformation slice,
 not a complete compositor:
 semantic correctness of upstream masks, perceptual jitter thresholds, clothing/depth
 response, and local source-footage rendering remain unverified. The sequence worker

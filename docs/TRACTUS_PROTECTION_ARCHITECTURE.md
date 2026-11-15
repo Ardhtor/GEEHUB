@@ -163,6 +163,18 @@ The first repository-integrity implementation is being introduced on the feature
 
 This status is deliberately explicit: adding a workflow does not itself protect `main` from direct pushes. The feature branch and pull request provide a reviewable implementation unit; platform enforcement must be enabled separately.
 
+## 14. Recovery implementation status
+
+The repository now contains a first recovery utility and a historical baseline:
+
+- `recovery/snapshots/baseline-main-c578532.json` records the artifact index, archive registry and schema, and Tractus continuity/adaptive-memory contracts at the verified source commit. Its initial entries use Git blob hashes and exact byte lengths.
+- `scripts/recovery_snapshot.py` creates new snapshots with per-file SHA-256, Git blob hashes, a manifest self-checksum, and a recorded source commit. It verifies snapshots against either the working tree or the recorded Git revision.
+- The restore command retrieves the exact recorded Git revision and restores into a separate recovery directory by default. In-place restoration and overwriting require explicit flags.
+- `recovery/schema.json` defines the versioned manifest shape. Unit tests cover hash consistency, tampering, unsafe paths, and symlink escape.
+- The protection workflow now runs the recovery tests and verifies the historical baseline on pull requests and main pushes.
+
+**Boundary:** the baseline and manifests live in the same GitHub repository as the source. They establish revision-level integrity and a reproducible repository restore path, but they are not an independent backup. Dropbox, local media, credentials, account settings, and external services are outside this snapshot scope. Stage D is not complete until an independently stored copy exists and a restoration drill is performed.
+
 ## 12. Change control for this architecture
 
 This document is itself protected. Proposed amendments should be made on a branch, reviewed against the continuity and adaptive-memory contracts, and merged with a concise rationale. A change must not weaken a control merely to make a workflow easier. Emergency exceptions must be narrow, time-bounded, recorded, and reviewed after use.

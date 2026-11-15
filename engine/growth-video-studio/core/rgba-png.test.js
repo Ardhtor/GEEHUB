@@ -131,7 +131,7 @@ test("rejects corrupt chunks, truncated files and trailing bytes", () => {
   assert.throws(() => decodeRgbaPng(corrupt), error => error.code === "rgba-png-crc-mismatch");
   assert.throws(() => decodeRgbaPng(png.subarray(0, png.length - 3)),
     error => error.code === "rgba-png-chunk-truncated");
-  assert.throws(() => decodeRgbaPng(Buffer.concat([png, Buffer.from([0])]),
+  assert.throws(() => decodeRgbaPng(Buffer.concat([png, Buffer.from([0])])),
     error => error.code === "rgba-png-trailing-data");
 });
 

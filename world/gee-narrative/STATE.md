@@ -1,6 +1,14 @@
 # GEEHUB construction state
 
-Updated: 2026-11-14
+Updated: 2026-11-15
+
+## Lossless RGB/RGBA PNG boundary added — 2026-11-15
+- `core/rgba-png.js` adds `decodeRgbaPng()` and `encodeRgbaPng()` as a bounded, dependency-free PNG byte boundary for the existing pixel renderer. The decoder accepts non-interlaced 8-bit truecolour RGB and RGBA PNGs; RGB pixels are expanded to opaque RGBA. It verifies chunk CRCs and ordering, checks the exact decompressed row length, reconstructs PNG filters 0–4, and enforces a 12-million-pixel and 128 MiB default input ceiling.
+- The encoder writes row-major RGBA samples to a non-interlaced 8-bit RGBA PNG using filter 0, CRC-protected IHDR/IDAT/IEND chunks, and lossless DEFLATE. It returns a new Buffer; it does not write files or alter caller-owned pixel data. Output bytes are capped at 128 MiB by default.
+- Palette-indexed, grayscale, 16-bit, interlaced, and tRNS transparency inputs are refused rather than silently converted. Ancillary color-profile/gamma metadata is not interpreted or copied, so channel samples round-trip losslessly but color-management metadata does not; a production compositor must establish an explicit color-space policy.
+- Seven focused tests pass under Node 22.16.0: all five row filters, RGB-to-opaque-RGBA expansion, transparent RGBA round-trip, unsupported encodings, corrupt/truncated/trailing data, pixel/byte ceilings, and malformed output buffers. `node --check` passed for both module and test file. These ran in an isolated temporary harness, not the full Studio suite.
+- This establishes an in-memory file-format boundary only. No frame batch worker, filesystem writes, background reconstruction, face/background compositor, Resolve export, or local Mac/Dropbox runtime has been exercised. No user footage was accessed.
+- Next: add a file-backed single-frame worker that reads a source PNG and same-frame masks, invokes the registered deformation plan, writes the new body-layer PNG with exclusive creation, and records input/output digests without overwriting the source. Keep background reconstruction and protected-face compositing as separate stages.
 
 ## RGBA body-layer rasterizer added — 2026-11-14
 - `core/pixel-frame-renderer.js` adds `renderGrowthDeformationPixels()`, a CPU rasterizer for one ready `geehub.growth-deformation-frame`. It accepts a row-major RGBA source buffer, the exact frame-numbered deformation plan, and decoded binary body and protected-face masks for that same frame.

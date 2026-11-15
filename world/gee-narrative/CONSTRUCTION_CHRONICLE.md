@@ -200,3 +200,13 @@ Ten focused tests passed in a temporary Node 22.16.0 harness, and syntax checks 
 
 The pixel layer is capped at twelve million pixels per frame to keep the temporary buffers bounded. The source frame remains read-only, the face mask is checked before any destination pixel is written, and semantic correctness of the upstream masks remains unverified. No local Mac, Dropbox mirror, Resolve session, or user footage was opened; no PNG was encoded and no finished frame or video was written. The next instrument is the lossless image-file boundary: decode a source frame into RGBA, encode the warped body layer as a new file, then let a separate compositor combine it with a background plate and the protected identity layer.
 
+
+## 2026-11-15 — The image-file boundary is opened
+
+Until now, the raster bench could carry colour through a body layer only while the frame remained in memory. The new `core/rgba-png.js` gives that surface a bounded PNG entrance and exit. It reads non-interlaced eight-bit RGB and RGBA images, expands RGB into opaque RGBA, checks chunk checksums and ordering, and reconstructs all five standard row filters. At the other end it writes a new RGBA PNG with lossless compression and fresh CRC-protected chunks. The renderer's transparent body layer can now be represented as an image file without inventing a lossy intermediate format.
+
+The door is deliberately narrow. Palette, grayscale, sixteen-bit, interlaced, and tRNS-transparent source images are refused rather than interpreted by guesswork. Input and output default to a twelve-million-pixel ceiling and a 128 MiB byte ceiling. Ancillary color-profile and gamma metadata are not interpreted or copied: the pixel channel values can round-trip exactly, but a later compositor still needs an explicit color-management policy if it is to preserve the intended display appearance.
+
+Seven focused tests passed under Node 22.16.0 in an isolated temporary harness. They exercise RGB expansion, RGBA round-trip, every PNG row filter, malformed and unsupported formats, checksum corruption, truncation, trailing data, and size limits. Syntax checks passed for the codec and its tests. This is evidence for the byte codec only; the complete Studio suite was not run, no file-backed worker was added, and no user frame was opened or written.
+
+The next instrument is a single-frame file worker. It should read a source PNG and its registered masks, consume the exact validated deformation plan, write a new body-layer PNG with exclusive creation, and record the source and output digests. The source file must remain untouched. Background reconstruction and the protected-face composite remain separate operations, not hidden inside this codec.

@@ -20,6 +20,7 @@ class RecoverySnapshotTests(unittest.TestCase):
         data = b"geehub continuity"
         self.assertEqual(len(hashlib.sha256(data).hexdigest()), 64)
         self.assertEqual(git_blob_sha1(data), git_blob_sha1(data))
+        self.assertEqual(git_blob_sha1(b"abc"), "f2ba8f84ab5c1bce84a7b441cb1959cfc7093b7f")
 
     def test_path_traversal_is_rejected(self):
         with self.assertRaises(ValueError):

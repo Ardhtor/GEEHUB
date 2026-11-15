@@ -183,3 +183,16 @@ The repository now contains a first recovery utility and a historical baseline:
 - The protection workflow runs the recovery tests and verifies the historical baseline on pull requests and main pushes.
 
 **Boundary:** the baseline and manifests live in the same GitHub repository as the source. They establish revision-level integrity and a reproducible repository restore path, but they are not an independent backup. Dropbox, local media, credentials, account settings, and external services are outside this snapshot scope. Stage D is not complete until an independently stored copy exists and a restoration drill is performed.
+
+
+## 15. Cross-system recovery index
+
+The recovery continuity index now connects the GitHub repository revision, canonical artifact registry, repository recovery manifest, Dropbox snapshot, and restoration evidence:
+
+- `recovery/index.json` is the machine-readable coordination record; `recovery/index.schema.json` defines its structure and `recovery/INDEX_GUIDE.md` describes the operating procedure.
+- The Dropbox recovery copy is recorded by its exact returned path and folder ID. Its inventory was compared recursively against the source: 47 entries, comprising 13 files and 34 folders, with no path, type, or size mismatches.
+- The inventory comparison did not calculate file-content hashes. The source and copy are in the same Dropbox account; this is not an independent or offline backup.
+- The [human-readable Dropbox Paper index](https://www.dropbox.com/scl/fi/v8hyralak1a2e23dlv72w/GEEHUB-Recovery-Continuity-Index.paper?rlkey=7hebgx429apeok52tc30ajyuy&dl=0) is stored within the dated recovery folder.
+- `scripts/test_recovery_index.py` tests the linked identities, verification boundary, and outstanding controls; the protection workflow runs it with the other recovery tests.
+
+The Git restore integration test has passed. A Dropbox restore drill, content-level Dropbox hash inventory, independently administered/offline copy, and main-branch rules remain outstanding. The index must preserve these distinctions and append new evidence without rewriting prior snapshot records.

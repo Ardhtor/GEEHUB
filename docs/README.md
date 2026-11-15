@@ -8,6 +8,7 @@ The documentation folder contains the repository's technical contracts, editoria
 - [Feasibility Workbench](FEASIBILITY_WORKBENCH.md) — verified buildability, CI status, dependencies, blockers, and the next bounded implementation gate.
 - [Repository Navigation](REPOSITORY_NAVIGATION.md) — full directory hierarchy and links to every local folder index.
 - [Tractus Continuity Contract](TRACTUS_CONTINUITY_CONTRACT.md) — the continuity model linking events, state, narrative, and artifacts.
+- [Tractus Protection Architecture](TRACTUS_PROTECTION_ARCHITECTURE.md) — protection rules for canon, archives, identity, permissions, secrets, integrity, publication, backups, and recovery.
 - [Information Portability](INFORMATION_PORTABILITY.md) — how consequential information moves into every affected layer and remains retrievable.
 - [Chat ↔ World Asset Memory Bridge](CHAT_ASSET_MEMORY_BRIDGE.md) — importing, linking, and preserving conversation and visual source material.
 

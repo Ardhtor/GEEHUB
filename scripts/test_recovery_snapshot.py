@@ -1,0 +1,81 @@
+import hashlib
+import json
+import tempfile
+import unittest
+from pathlib import Path
+
+from scripts.recovery_snapshot import (
+    git_blob_sha1, manifest_digest, safe_relative_path, verify_manifest,
+)
+
+class RecoverySnapshotTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.root = Path(self.temp.name)
+
+    def tearDown(self):
+        self.temp.cleanup()
+
+    def test_sha256_and_git_blob_hash_are_stable(self):
+        data = b"geehub continuity"
+        self.assertEqual(len(hashlib.sha256(data).hexdigest()), 64)
+        self.assertEqual(git_blob_sha1(data), git_blob_sha1(data))
+
+    def test_path_traversal_is_rejected(self):
+        with self.assertRaises(ValueError):
+            safe_relative_path("../outside.txt")
+        with self.assertRaises(ValueError):
+            safe_relative_path("/absolute/path")
+
+    def test_working_tree_verification_passes(self):
+        data = b"artifact record"
+        (self.root / "record.json").write_bytes(data)
+        manifest = {
+            "source_commit": "not-used-for-working-mode",
+            "entries": [{
+                "path": "record.json", "size": len(data),
+                "sha256": hashlib.sha256(data).hexdigest(),
+                "git_blob_sha1": git_blob_sha1(data),
+            }],
+        }
+        self.assertEqual(verify_manifest(manifest, self.root, "working"), [])
+
+    def test_modified_file_fails_verification(self):
+        (self.root / "record.json").write_bytes(b"changed")
+        original = b"original"
+        manifest = {
+            "source_commit": "not-used-for-working-mode",
+            "entries": [{
+                "path": "record.json", "size": len(original),
+                "sha256": hashlib.sha256(original).hexdigest(),
+            }],
+        }
+        errors = verify_manifest(manifest, self.root, "working")
+        self.assertTrue(any("Size mismatch" in e or "SHA-256 mismatch" in e for e in errors))
+
+    def test_manifest_digest_ignores_its_own_field(self):
+        manifest = {"schema_version": 1, "entries": [], "manifest_sha256": "placeholder"}
+        first = manifest_digest(manifest)
+        manifest["manifest_sha256"] = "different"
+        self.assertEqual(first, manifest_digest(manifest))
+
+    def test_symlink_escape_is_reported(self):
+        outside = self.root.parent / (self.root.name + "-outside")
+        outside.write_text("secret", encoding="utf-8")
+        try:
+            (self.root / "link").symlink_to(outside)
+            data = outside.read_bytes()
+            manifest = {
+                "source_commit": "not-used-for-working-mode",
+                "entries": [{
+                    "path": "link", "size": len(data),
+                    "sha256": hashlib.sha256(data).hexdigest(),
+                }],
+            }
+            errors = verify_manifest(manifest, self.root, "working")
+            self.assertTrue(errors)
+        finally:
+            outside.unlink(missing_ok=True)
+
+if __name__ == "__main__":
+    unittest.main()

@@ -43,7 +43,7 @@ class RecoveryIndexTests(unittest.TestCase):
 
     def test_pending_controls_preserve_known_gaps(self):
         pending = " ".join(self.index["pending_controls"]).lower()
-        for phrase in ("content-hash", "restore drill", "independently administered", "branch rules"):
+        for phrase in ("file-content hash", "restore drill", "independently administered", "branch rules"):
             self.assertIn(phrase, pending)
 
     def test_restore_history_does_not_claim_dropbox_restore(self):

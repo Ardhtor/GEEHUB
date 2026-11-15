@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00209",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00209.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "FOUNDERS DORMITORY → CAT GARDENS / JOSEPH",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00209. Travel from FOUNDERS DORMITORY into CAT GARDENS through the relation \"THE DORM GARDEN PATH\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 15.78× to 15.90× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-15T20:15:01.135Z",
+      "lineage": {
+        "from": "founders-dormitory",
+        "to": "cat-gardens",
+        "relation": "THE DORM GARDEN PATH",
+        "cycle": 209
+      }
+    },
+    {
       "id": "scheduled-image-00208",
       "status": "QUEUED",
       "type": "IMAGE",
@@ -3275,17 +3292,6 @@
       "title": "EMBODIED SCALE / LONG PLAY / CHASE",
       "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00010. Preserve region embodied-scale and inherited geography. Adult male human subject chase at 3.14x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
       "created": "2026-10-07T09:19:55.313Z"
-    },
-    {
-      "id": "scheduled-image-00009",
-      "status": "QUEUED",
-      "type": "IMAGE",
-      "sourceRecording": "./recordings/scheduled-recording-00009.json",
-      "map": "./spatial-world.json",
-      "target": "visual-synthesis",
-      "title": "DISCOVERY / LONG PLAY / JOSEPH",
-      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00009. Preserve region discovery and inherited geography. Adult male human subject joseph at 3.10x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
-      "created": "2026-10-07T02:38:04.282Z"
     }
   ]
 }

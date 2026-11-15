@@ -2,7 +2,7 @@
 
 The [machine-readable index](index.json) joins repository revisions, the canonical artifact registry, Dropbox snapshots, and restoration events. It is a coordination layer: it does not replace the underlying Git history, artifact records, or Dropbox version history.
 
-## Current linked state
+The human-readable companion is the [GEEHUB Recovery Continuity Index in Dropbox Paper](https://www.dropbox.com/scl/fi/v8hyralak1a2e23dlv72w/GEEHUB-Recovery-Continuity-Index.paper?rlkey=7hebgx429apeok52tc30ajyuy&dl=0), stored inside the dated Dropbox recovery copy.\n\n## Current linked state
 
 - GitHub repository: `Ardhtor/GEEHUB`, main commit `0104781b312f0a4aadd60ce0d9d8aabd5c99c437`.
 - Canonical artifact identity source: `artifacts/index.json`. Existing artifact IDs and provenance remain authoritative; the recovery index does not re-key them.

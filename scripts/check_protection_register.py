@@ -18,7 +18,7 @@ REGISTER = ROOT / "engine" / "protection-register.json"
 ALLOWED_STATUSES = {
     "specified", "implemented", "tested", "verified", "deferred", "superseded"
 }
-EVIDENCE_FIELDS = ("implementation", "tests", "verification")
+EVIDENCE_FIELDS = ("specification", "implementation", "tests", "verification")
 
 
 def _repository_file(root: Path, value: Any, control_id: str, field: str, errors: list[str]) -> None:
@@ -72,7 +72,7 @@ def validate_register(data: Any, root: Path = ROOT) -> list[str]:
                 errors.append(f"{control_id}: {field} is required")
 
         status = control.get("status")
-        if status not in ALLOWED_STATUSES:
+        if not isinstance(status, str) or status not in ALLOWED_STATUSES:
             errors.append(f"{control_id}: invalid status: {status}")
         for field in EVIDENCE_FIELDS:
             entries = control.get(field, [])
@@ -82,9 +82,11 @@ def validate_register(data: Any, root: Path = ROOT) -> list[str]:
             for entry in entries:
                 _repository_file(root, entry, control_id, field, errors)
 
-        if status in {"implemented", "tested", "verified"} and not control.get("implementation"):
+        if status in {"specified", "deferred"} and not control.get("specification"):
+            errors.append(f"{control_id}: {status} requires specification evidence")
+        if isinstance(status, str) and status in {"implemented", "tested", "verified"} and not control.get("implementation"):
             errors.append(f"{control_id}: {status} requires implementation evidence")
-        if status in {"tested", "verified"} and not control.get("tests"):
+        if isinstance(status, str) and status in {"tested", "verified"} and not control.get("tests"):
             errors.append(f"{control_id}: {status} requires test evidence")
         if status == "verified" and not control.get("verification"):
             errors.append(f"{control_id}: verified requires verification evidence")

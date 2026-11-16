@@ -176,6 +176,26 @@ They took the longer route through the High Hall, past the Scale Gates and out t
 
 The old size-50 trainers were waiting in the Workshop, their worn heels and softened insoles preserved. They had not become useless. They had become a record of a body that no longer needed them. Daniel would keep them, not as a monument to a number, but as evidence of a change he had noticed, measured and answered.
 
+Before he left the Workshop, Daniel asked Elias to let him walk one more circuit through the fitting room and the adjoining corridor. He wanted to know whether the new shoe would remain comfortable after the first impression had passed. Elias agreed and walked beside him, watching the way the sole met the floor. Daniel crossed the threshold, turned around the workbench, and came back along the tiled wall. The shoes held without rubbing. His stride lengthened naturally, and his feet settled into the new width without forcing his knees outward. He could feel the difference in his balance, but it was a difference that helped him rather than distracted him.
+
+At the corridor's end, he met Luke and Chase. Luke had come to collect a repaired jacket, and Chase was carrying a small envelope of photographs from the common room. They both looked down at the shoes, then at Daniel.
+
+**LUKE:** “Those are the new ones?”
+
+**DANIEL:** “Yes.”
+
+**CHASE:** “How do they feel?”
+
+**DANIEL:** “Like I can stop thinking about them.”
+
+Luke smiled. “That's a good result.”
+
+Chase asked whether Daniel wanted a photograph of the old pair beside the new one. Daniel considered the question, then said yes, but he wanted the picture taken in the fitting room rather than in the main corridor. Chase agreed. The request was simple, and the two men respected it without needing to discuss why. They went back into the workshop, placed the shoes side by side on the low platform, and photographed them from above. The old pair looked smaller, but the important difference was in the shape of the toe box and the wear along the sole. Daniel asked Chase to include the pattern card in the frame. It showed the date and the previous baseline. The image would be useful later, when the new pair also became an earlier state.
+
+Luke noticed that Daniel had grown taller since their last meeting. His shoulders had broadened, and the line of his trousers sat differently over his thighs. Daniel was still adjusting to the way his weight moved through his feet. The new shoes made that adjustment easier, but they did not freeze his body at the point of fitting. He knew that the next change might arrive gradually, and he was comfortable with that. The point was not to find a pair of shoes that would fit forever. It was to make the next pair fit now, and to keep enough information to make the pair after that.
+
+
+
 When he returned, Elias asked whether the prototype could be entered as the new working fit. Daniel agreed after checking the inside label and the pattern card. The exact size was added to his private fitting record; the public continuity note retained the previous size-50 baseline and the fact that he had outgrown it. The distinction mattered. A shoe size was a practical description, not a ranking, and the new pair had to be judged by how well it served him.
 
 That evening Daniel walked back to the residential wing with the others. The new shoes made a quiet, even sound against the stone. He no longer thought about every step. At the entrance he paused to let another man pass, then continued upstairs. The old pair remained in the Workshop archive, beside the pattern from which the new one had been made.

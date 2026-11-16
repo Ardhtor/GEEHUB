@@ -214,6 +214,32 @@ The younger man placed the old glove in the cedar case himself. He wrote a short
 
 The two families signed the shared reference procedure separately. They kept their own archives, but the methods could now be compared. The Escalation family did not have to begin retaining every shirt, and the Continuity family did not have to abandon its garments for a digital ledger. Both had agreed that a person deserved to remain visible through the changes, and that the next state deserved to be approached with enough care to become stable.
 
+They ate together before leaving the training ground. The meal was simple: bread, sliced meat, apples, and coffee poured from a thermos into cups that did not match. The men sat on the low timber rail, leaving the centre clear for the equipment. The younger man kept the old gloves beside him, while the new pair rested across his knees. The older physician asked whether he intended to use the new ones in the next session.
+
+“Yes,” the younger man said. “But I'll keep these.”
+
+“Good.”
+
+The man from the Escalation family looked at the old glove. “I used to think keeping something meant I was afraid to move on.”
+
+The physician shook his head. “Sometimes it means you know where you came from.”
+
+“And sometimes?”
+
+“Sometimes it means you have a cupboard full of things you don't need.”
+
+The younger man laughed. “So how do I know?”
+
+“You decide what the object means to you. Don't let the cupboard decide.”
+
+Luke listened while he ate. He liked the way the older man had refused to turn preservation into a rule that applied to everything. A life could not be made more continuous by keeping every discarded object. Nor did a man prove that he was progressing by throwing away all evidence of the past. The value of a record depended on the person who could use it, and the value of a change depended on what it made possible.
+
+Andrew passed a cup to Tyler, who had forgotten to take one. Tyler accepted it and shifted along the rail to make room. Their shoulders touched briefly. Neither man moved away. The two families were still distinguishable by their habits, but the men had begun to share ordinary gestures: passing food, checking equipment, asking who needed a lift back to the camp. The disagreement had not disappeared. It had stopped being the only thing they knew about one another.
+
+Before they left, Tyler read the final shared procedure aloud. The men confirmed that each family would retain its own archive and that future comparison would preserve the source, method, date, and current status of every measurement. The previous baseline would remain visible. The current baseline would be identified. The next stable state would stay a question until evidence changed it. Any retained object would carry a note about its original use and owner. Nobody objected.
+
+The younger man put the gloves into the cedar case himself. The older physician helped him fold the cloth around them, then let him close the lid. They carried the case back together. It was not heavy, but they shared the weight anyway.
+
 The next stable state remained unknown. The first stable state had not been forgotten. Between them, the men had built a record that could hold both.
 
 Because once the question was written down, somebody would eventually answer it. And Luke, already inside the Serum, knew better than anyone that the answer would not remain theoretical for long.

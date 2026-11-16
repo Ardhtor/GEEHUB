@@ -131,3 +131,8 @@ In the gym, Andrew uses the five-stage Library growth infographic as a proportio
 Marcus's arrival creates a new social connection. Andrew observes Joey and Marcus greeting each other with a friendly fist bump, then asks Joey to repeat a slow walk-and-turn test. Andrew's coaching remains practical and collaborative.
 
 **Linked events:** FRIENDLY_CONTACT_01; Ridge House inspection; staged growth continuity review; Joey's controlled movement test.
+
+
+## Team member — Luke Mercer
+
+Luke Mercer is an adult first baseman on Andrew's current baseball team. He is a distinct character from the central Luke of the House and Institute narratives; when both appear, use “Luke Mercer” or “Mercer” to distinguish the teammate. Mercer is a steady receiver with strong footwork around first base, dependable hands, and a practical sense of humour. He understands Andrew's eccentric field observations and can contribute firsthand details from his regular position without allowing a practice session to lose its purpose. Their first shared scene appears in [Chapter LXXVI — The Field Has Its Own Echo](../../novel/chapters/CHAPTER_LXXVI_THE_FIELD_HAS_ITS_OWN_ECHO.md). Mercer's independent character record is [Luke Mercer](LUKE_MERCER.md). His exact age, measurements, batting approach, throwing hand, personal history, and the team's name remain open.

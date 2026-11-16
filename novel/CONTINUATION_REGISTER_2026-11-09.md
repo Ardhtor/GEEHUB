@@ -121,3 +121,24 @@ The chapter establishes a new relational thread: Gabe and Dorian's next meeting;
 [Chapter LXXXI — Room for Quiet and the Dormitory Decathlon](chapters/CHAPTER_LXXXI_ROOM_FOR_QUIET_AND_THE_DORMITORY_DECATHLON.md) carries the East Dormitory ensemble into the next day. Gabe's bed is extended while preserving its original headboard; Luke learns to offer help without taking over; Daniel and Tyler contribute the joinery and support checks; Andrew turns his informal course sketch into a seven-station cooperative circuit. The men make the formerly concealed service landing usable as **Room for Quiet**, with ventilation, adjustable light, a movable chair, an oak shelf, and a small table. Chase becomes its first resident for a short interval, while Joseph respects the room's purpose by leaving him undisturbed.
 
 The Dormitory Decathlon passes through the common room, shoe store, laundry corridor, study room, Map Room, workshop, and roof terrace. No one is timed and there is no winner. The tasks test cooperation, safe movement, storage, navigation, and shared use of the building. Daniel's shoe-rack prototype is tested but still needs a final load test; the quiet room's final plaque and inspection remain open. The chapter closes with the men planning the next day's work and a report expected from Dorian Vale's western survey.
+
+
+## Retrospective expansion — Chapters LXXIII–LXXX
+
+The current novel chapter run has been revised in place toward the publishing standard. The earlier chapters were expanded through developed scenes, physical setting, relationship changes, and consequences rather than outline-like additions. Dialogue and Seth/Nick narrator turns remain separately line-broken; adjacent narrative fragments have been consolidated into fuller paragraphs.
+
+| Chapter | Current title | Verified word count | Revision state |
+|---|---|---:|---|
+| LXXIII | The Distance Between Two Chairs | 4,108 | Expanded overnight reconciliation, House setting, and Joseph/Kirk continuity |
+| LXXIV | The First Report | 4,137 | Expanded north arcade inspection, Neral's workshop, and return obligation |
+| LXXV | The Table After Rain | 4,013 | Expanded repair, shared meals, table use, and ensemble relationships |
+| LXXVI | The Field Has Its Own Echo | 4,014 | Expanded baseball practice, sound mapping, and night-field experiment |
+| LXXVII | The Coach's Son | 4,011 | Expanded training movement, body continuity, father-son relationship, and breakfast |
+| LXXVIII | Beyond Size Fifty | 4,045 | Expanded fitting, footwear workshop, shoe archive, and Daniel's friendships |
+| LXXIX | The Giant on the Western Road | 4,580 | Replaced the former western-road chapter with Dorian Vale and an all-male giant ensemble |
+| LXXX | The Midnight Committee of East Dormitory | 7,959 | Retained as the full-length dormitory night excursion |
+| LXXXI | Room for Quiet and the Dormitory Decathlon | 6,043 | Added completed bed extension, usable quiet room, and cooperative seven-station circuit |
+
+The former [Woman on the Western Road](chapters/CHAPTER_LXXIX_THE_WOMAN_ON_THE_WESTERN_ROAD.md) chapter and Mara Venn record have been retired from the active sequence. The active chapter is [The Giant on the Western Road](chapters/CHAPTER_LXXIX_THE_GIANT_ON_THE_WESTERN_ROAD.md), and [Dorian Vale](../characters/records/DORIAN_VALE.md) is its linked character record. The active East Dormitory sequence is now male-only. The retrospective pass preserves the existing male characters' histories and does not generalize the ensemble into interchangeable personalities.
+
+**Next continuation:** Dorian's western-crossing report reaches East Dormitory; the shoe-storage rack receives its final load test; the Room for Quiet plaque and formal inspection are completed; Andrew proposes a second cooperative route that links the dormitory to the gymnasium without turning it into a timed contest.

@@ -79,7 +79,7 @@ Next scenes should test these traits in less orderly circumstances: Luke must ac
 
 ## Andrew — baseball and eccentricity
 
-[Chapter LXXVI — The Field Has Its Own Echo](chapters/CHAPTER_LXXVI_THE_FIELD_HAS_ITS_OWN_ECHO.md) establishes Andrew in his baseball environment: a big, muscular Italian player with blue eyes, whose athletic competence coexists with an eccentric system of observations about the sounds and behaviour of the field. The user has established those character facts directly. His position, team, playing level, hometown, accent, and exact measurements remain open. His linked public account remains a separate voice reference, not evidence for these fictional details.
+[Chapter LXXVI — The Field Has Its Own Echo](chapters/CHAPTER_LXXVI_THE_FIELD_HAS_ITS_OWN_ECHO.md) establishes Andrew in his baseball environment: a big, muscular Italian player with blue eyes, whose athletic competence coexists with an eccentric system of observations about the sounds and behaviour of the field. The expanded scene introduces [Luke Mercer](../characters/records/LUKE_MERCER.md), an adult first baseman on Andrew's team, distinct from the central Luke in the House and Institute narratives. Their shared scene establishes Mercer's dependable receiving, footwork, practical humour, and his familiarity with Andrew's strange field observations. Andrew's own position, the team name, playing level, hometown, accent, and exact measurements remain open. His linked public account remains a separate voice reference, not evidence for these fictional details.
 
 
 ## The Hotel at the Edge of the Week
@@ -140,7 +140,7 @@ The current novel chapter run has been revised in place toward the publishing st
 | LXXIII | The Distance Between Two Chairs | 4,108 | Expanded overnight reconciliation, House setting, and Joseph/Kirk continuity |
 | LXXIV | The First Report | 4,137 | Expanded north arcade inspection, Neral's workshop, and return obligation |
 | LXXV | The Table After Rain | 4,044 | Expanded repair, shared meals, table use, ensemble relationships, and narrator coda |
-| LXXVI | The Field Has Its Own Echo | 4,014 | Expanded baseball practice, sound mapping, and night-field experiment |
+| LXXVI | The Field Has Its Own Echo | 5,372 | Expanded baseball practice and sound mapping; introduced Luke Mercer as Andrew's first baseman teammate |
 | LXXVII | The Coach's Son | 4,011 | Expanded training movement, body continuity, father-son relationship, and breakfast |
 | LXXVIII | Beyond Size Fifty | 4,045 | Expanded fitting, footwear workshop, shoe archive, and Daniel's friendships |
 | LXXIX | The Giant on the Western Road | 4,580 | Replaced the former western-road chapter with Dorian Vale and an all-male giant ensemble |

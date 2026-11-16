@@ -2,25 +2,25 @@
 
 This sequence follows the workshop as a living place where visual reconstruction, technical practice, and human collaboration develop together. These chapters are part of a continuous narrative. They should be read in order, not as separate production essays.
 
-## Chapter XLI — The Work Has a Weather
+## Chapter XLI — The Work Has a Weather (2,606 words)
 
 [Read the chapter](CHAPTER_XLI_THE_WORK_HAS_A_WEATHER.md)
 
 The workshop becomes an inhabited production space. Its tools, routines, source materials, records, and unfinished work form one continuous environment. The central principle is that production should preserve the human sequence of making while keeping the technical record exact.
 
-## Chapter XLII — The Frame That Remembers
+## Chapter XLII — The Frame That Remembers (2,575 words)
 
 [Read the chapter](CHAPTER_XLII_THE_FRAME_THAT_REMEMBERS.md)
 
 A still image becomes the entry point to a movement study. The team distinguishes the source from its derivatives, records what can be observed, and identifies the need to test transitions rather than relying on isolated poses.
 
-## Chapter XLIII — The Movement Between Frames
+## Chapter XLIII — The Movement Between Frames (3,386 words)
 
 [Read the chapter](CHAPTER_XLIII_THE_MOVEMENT_BETWEEN_FRAMES.md)
 
 The first structural rig is tested against a short sequence. Camera movement, torso rotation, weight transfer, shoulder motion, and arm paths are separated so that each can be understood and corrected. The workshop ends with a clear reverse-angle test.
 
-## Chapter XLIV — Somewhere I Belong
+## Chapter XLIV — Somewhere I Belong (4,739 words)
 
 [Read the chapter](CHAPTER_XLIV_SOMEWHERE_I_BELONG.md)
 

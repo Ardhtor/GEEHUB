@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-15T20:15:01.135Z",
+  "generated": "2026-11-16T00:01:43.138Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00210",
+      "at": "2026-11-16T00:01:43.138Z",
+      "from": "geehub-long-play",
+      "to": "chase",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / CAT GARDENS → CEDAR HOUSE / CHASE",
+      "body": "The world crossed the existing relation \"GOOD LUCK HAS WHISKERS\" from CAT GARDENS into CEDAR HOUSE. Scale increased from 15.90× to 15.94×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00210",
+      "live": true,
+      "regionId": "cedar-house",
+      "previousRegionId": "cat-gardens",
+      "relation": "GOOD LUCK HAS WHISKERS"
+    },
     {
       "id": "scheduled-long-play-00209",
       "at": "2026-11-15T20:15:01.135Z",
@@ -1482,21 +1497,6 @@
       "regionId": "discovery",
       "previousRegionId": "embodied-scale",
       "relation": "SCALE HAS HISTORY"
-    },
-    {
-      "id": "scheduled-long-play-00113",
-      "at": "2026-10-25T19:59:11.425Z",
-      "from": "geehub-long-play",
-      "to": "andrew",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / THE FACILITY → EMBODIED SCALE / ANDREW",
-      "body": "The world crossed the existing relation \"THE FLOOR REPLIES\" from THE FACILITY into EMBODIED SCALE. Scale increased from 9.62× to 9.70×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00113",
-      "live": true,
-      "regionId": "embodied-scale",
-      "previousRegionId": "facility",
-      "relation": "THE FLOOR REPLIES"
     }
   ]
 }

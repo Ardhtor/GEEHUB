@@ -176,7 +176,9 @@ The young man laughed. He had begun to understand that the old man's precision w
 
 As the men began packing the chairs, Luke lifted the metal case and carried it to the driest part of the clearing. He set it on a low bench beneath the branches, away from the damp edge of the table. The case looked small in his hands. He placed it down gently, then checked that the lid was properly seated. The garment inside had survived because someone had made the effort to keep it. That effort did not become less valuable because the man who wore it had grown beyond its dimensions.
 
-The table remained between the redwoods, its canvas cover moving slightly in the evening air. The two families departed by different roads, but several of the younger men stayed behind to finish the measurements. The older men watched them from the edge of the clearing. Nobody asked them to stop. The line in the soil remained visible beneath the roots.
+The table remained between the redwoods, its canvas cover moving slightly in the evening air. The two families departed by different roads, but several of the younger men stayed behind to finish the measurements. The older men watched them from the edge of the clearing. Nobody asked them to stop.
+
+The youngest man from the second family checked the old shirt case one last time before leaving. The older keeper told him where it would be stored overnight and invited him to help carry it in the morning. The young man agreed. He had begun the day expecting to defend his family's methods. He ended it with a small job to share with someone from the other side. The line in the soil remained visible beneath the roots.
 
 By the time the light had begun to fail, the clearing was quiet again. The two families had arrived expecting to compare size. They left with a more difficult question: what, exactly, had been measuring them all along? The Serum had found a comparison they had not intended to make. It might have been the two families, the distance between their bodies, the history preserved in their objects, or the new conditions created by bringing those histories together. They could not decide yet.
 

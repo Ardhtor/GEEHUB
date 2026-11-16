@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00211.json",
+  "activeRecording": "./recordings/scheduled-recording-00212.json",
   "activeEncounter": {
-    "regionId": "common-table",
-    "regionName": "THE COMMON TABLE",
+    "regionId": "athletic-commons",
+    "regionName": "ATHLETIC COMMONS",
     "subject": {
-      "agent": "luke",
-      "scale": 15.97,
+      "agent": "tyler",
+      "scale": 16.02,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / CEDAR HOUSE → THE COMMON TABLE / LUKE",
+    "intent": "LONG PLAY / NORTHGATE UNIVERSITY → ATHLETIC COMMONS / TYLER",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 15.94× → 15.97×",
-      "CEDAR HOUSE → THE COMMON TABLE",
-      "relation: A TABLE IS SET",
+      "scale 15.97× → 16.02×",
+      "NORTHGATE UNIVERSITY → ATHLETIC COMMONS",
+      "relation: STRENGTH WITHOUT CONFLICT",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "cedar-house"
+    "previousRegionId": "northgate-university"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-16T06:35:02.721Z",
+  "snapshot": "2026-11-16T16:28:25.773Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 211,
-    "agent": "luke",
-    "previousRegionId": "cedar-house",
-    "regionId": "common-table",
-    "relation": "A TABLE IS SET",
+    "cycle": 212,
+    "agent": "tyler",
+    "previousRegionId": "northgate-university",
+    "regionId": "athletic-commons",
+    "relation": "STRENGTH WITHOUT CONFLICT",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 15.94,
-    "scale": 15.97,
-    "recording": "scheduled-recording-00211",
-    "at": "2026-11-16T06:35:02.721Z"
+    "previousScale": 15.97,
+    "scale": 16.02,
+    "recording": "scheduled-recording-00212",
+    "at": "2026-11-16T16:28:25.773Z"
   }
 }

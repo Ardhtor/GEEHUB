@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-16T06:35:02.721Z",
+  "generated": "2026-11-16T16:28:25.773Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00212",
+      "at": "2026-11-16T16:28:25.773Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / NORTHGATE UNIVERSITY → ATHLETIC COMMONS / TYLER",
+      "body": "The world crossed the existing relation \"STRENGTH WITHOUT CONFLICT\" from NORTHGATE UNIVERSITY into ATHLETIC COMMONS. Scale increased from 15.97× to 16.02×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00212",
+      "live": true,
+      "regionId": "athletic-commons",
+      "previousRegionId": "northgate-university",
+      "relation": "STRENGTH WITHOUT CONFLICT"
+    },
     {
       "id": "scheduled-long-play-00211",
       "at": "2026-11-16T06:35:02.721Z",
@@ -1482,21 +1497,6 @@
       "regionId": "deep-lore",
       "previousRegionId": "veyrthalis",
       "relation": "DEPARTURE LEAVES A SHAPE"
-    },
-    {
-      "id": "scheduled-long-play-00115",
-      "at": "2026-10-26T00:39:19.956Z",
-      "from": "geehub-long-play",
-      "to": "chase",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / DISCOVERY → VEYRTHALIS / CHASE",
-      "body": "The world crossed the existing relation \"THE DOOR REMEMBERS\" from DISCOVERY into VEYRTHALIS. Scale increased from 9.82× to 9.86×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00115",
-      "live": true,
-      "regionId": "veyrthalis",
-      "previousRegionId": "discovery",
-      "relation": "THE DOOR REMEMBERS"
     }
   ]
 }

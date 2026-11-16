@@ -114,3 +114,10 @@ The character records for [Travis](../characters/records/TRAVIS.md), [Mr. Kaufma
 The bridge's middle joint had shifted during the rain before Dorian arrived. His approach reveals the remaining structural limit but does not cause the original defect. The full crossing remains closed pending permanent repair. Dorian returns toward the western survey camp; his exact measurements and wider biography remain open. A second-district report is expected and must be checked independently before the men treat the western encounter as universal.
 
 The chapter establishes a new relational thread: Gabe and Dorian's next meeting; Dorian's practical working relationships with Tyler and Andrew; permission and source handling for Chase's visual record; and the continuing friendship among the six men after the public attention has moved elsewhere.
+
+
+## Chapter LXXXI — Room for Quiet and the Dormitory Decathlon
+
+[Chapter LXXXI — Room for Quiet and the Dormitory Decathlon](chapters/CHAPTER_LXXXI_ROOM_FOR_QUIET_AND_THE_DORMITORY_DECATHLON.md) carries the East Dormitory ensemble into the next day. Gabe's bed is extended while preserving its original headboard; Luke learns to offer help without taking over; Daniel and Tyler contribute the joinery and support checks; Andrew turns his informal course sketch into a seven-station cooperative circuit. The men make the formerly concealed service landing usable as **Room for Quiet**, with ventilation, adjustable light, a movable chair, an oak shelf, and a small table. Chase becomes its first resident for a short interval, while Joseph respects the room's purpose by leaving him undisturbed.
+
+The Dormitory Decathlon passes through the common room, shoe store, laundry corridor, study room, Map Room, workshop, and roof terrace. No one is timed and there is no winner. The tasks test cooperation, safe movement, storage, navigation, and shared use of the building. Daniel's shoe-rack prototype is tested but still needs a final load test; the quiet room's final plaque and inspection remain open. The chapter closes with the men planning the next day's work and a report expected from Dorian Vale's western survey.

@@ -212,6 +212,54 @@ His father picked up his bag. “I'll try to leave the clipboard here.”
 
 Travis laughed. “Good.”
 
+They crossed the courtyard toward the dining hall. The morning air was cool, and the stone path still held a little dampness from the previous night's rain. Travis walked with his hands in the pockets of his training shorts, feeling the new weight of his shoulders settle as his breathing returned to normal. His father kept pace beside him. For once, neither man talked about the next session. They spoke about the family car, a film Travis had seen with a friend, and whether the small grocery shop near the south gate still sold the bread his father liked. The conversation was ordinary, but that was precisely what Travis had wanted. He could be a man who trained seriously and still be a son who knew his father's preferred bread.
+
+The dining hall was bright with the morning light. Long tables stood beneath timber rafters, and the kitchen counter carried trays of eggs, potatoes, fruit, toast, and coffee. The room was already busy with adult men returning from training or preparing for the day. Some were broad enough to make the original chairs look narrow; others were still adjusting to the way their bodies had changed overnight. The Institute had responded with deeper seats, stronger legs, and tables that could be extended. Travis and his father found a place near the window. Mr. Kaufman brought two plates, then sat across from him rather than beside him. The distance was not a problem. They could talk across a table without turning the conversation into a coaching session.
+
+**TRAVIS:** “Do you ever get tired of being Coach?”
+
+His father thought about it. “Sometimes.”
+
+“Why do you keep doing it?”
+
+“Because I like helping people learn something they couldn't do before.”
+
+“Even when they don't listen?”
+
+“Especially then.”
+
+Travis grinned. “That sounds exhausting.”
+
+“It can be.”
+
+They ate for a while. His father did not ask how the last set had felt. Travis described it because he wanted to, explaining the point at which the pause had become easier and the way his balance had changed. Mr. Kaufman listened, then added one observation about the position of his feet. Travis considered it and agreed. The correction did not feel like an evaluation. It was part of a conversation between two men who cared about the same work.
+
+When the meal was nearly finished, Mr. Kaufman reached for his coffee and paused. “I don't always know when you want your father and when you want your coach.”
+
+Travis looked at him. “I don't always know either.”
+
+“Then we'll ask.”
+
+“That's it?”
+
+“That's a start.”
+
+Travis laughed. “You make it sound like a programme.”
+
+“Everything sounds like a programme when you say it in this building.”
+
+They finished breakfast and walked toward the entrance. The training hall was visible across the courtyard, its high windows catching the sun. Travis could see the platform where he had worked that morning. He did not feel the need to return to it. The session had ended properly. His father carried the clipboard in one hand, then stopped and left it on the bench by the door. Travis noticed.
+
+**TRAVIS:** “You remembered.”
+
+**MR. KAUFMAN:** “I said I'd try.”
+
+“Good.”
+
+They walked on together.
+
+
+
 They walked out together into the cool morning. The hall remained open behind them, ready for the next group, and the session record stayed on its hook with the new note in Travis's handwriting. It did not describe the whole relationship. It only preserved what they had agreed to do next.
 
 SETH: There's the difference, Nick. The coach can see a movement that needs correcting. A father has to see the son who is doing it, and remember that the boy in front of him is allowed to become a man with his own judgement.

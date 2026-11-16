@@ -1,4 +1,4 @@
-# The Movement Between Frames
+# Chapter XLIII — The Movement Between Frames
 
 The next morning, the coach arrived before the screens had warmed. He found the contact sheet still open on the side monitor, the selected frame enlarged in the centre, and the notebook lying where it had been left the previous evening. The crossed-out measurements were still visible. Beside them, someone had written three questions in a firmer hand: what turns, what translates, and what only appears to change because the camera has moved? The questions had been left overnight without answers. That was useful. They had become the first thing the room could work on.
 

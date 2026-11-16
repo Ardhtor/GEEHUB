@@ -10,11 +10,7 @@ The training hall was quiet enough that the first sounds of the morning carried 
 
 “I train here.”
 
-His father glanced at the empty platform. “Then let's see what you brought in today.”
-
-Travis set his bag down and began his warm-up. He had been working toward a stronger, more consistent lift for several months. The numbers were not secret, but he had stopped wanting them to be the first thing discussed whenever he entered the hall. Every session seemed to begin with a question about whether he had improved, whether he could add weight, whether the last attempt had been a step forward. He knew his father meant to help. He also knew that a coach could make a person feel measured even when the clipboard remained closed.
-
-Mr. Kaufman watched the first movement without speaking. He corrected the position of Travis's feet with a small gesture, then asked him to repeat the setup. Travis did. The second repetition was steadier.
+His father glanced at the empty platform. “Then let's see what you brought in today.” Travis set his bag down and began his warm-up. He had been working toward a stronger, more consistent lift for several months. The numbers were not secret, but he had stopped wanting them to be the first thing discussed whenever he entered the hall. Every session seemed to begin with a question about whether he had improved, whether he could add weight, whether the last attempt had been a step forward. He knew his father meant to help. He also knew that a coach could make a person feel measured even when the clipboard remained closed. Mr. Kaufman watched the first movement without speaking. He corrected the position of Travis's feet with a small gesture, then asked him to repeat the setup. Travis did. The second repetition was steadier.
 
 “Better,” his father said. “Keep that position when the weight comes up.”
 
@@ -54,9 +50,7 @@ Mr. Kaufman rested the clipboard on the rack. “I do let you work things out. I
 
 “Then tell me what yours is.”
 
-Travis looked up. The question irritated him because it was fair. He had expected another instruction, perhaps a reminder that effort did not excuse poor technique. Instead, his father had left the question with him.
-
-“To know when I'm done,” Travis said.
+Travis looked up. The question irritated him because it was fair. He had expected another instruction, perhaps a reminder that effort did not excuse poor technique. Instead, his father had left the question with him. “To know when I'm done,” Travis said.
 
 “And?”
 
@@ -114,15 +108,7 @@ His father looked at him. “I can do that.”
 
 “Yes.”
 
-The answer was direct. Travis had expected a qualification. The absence of one unsettled him, but in a useful way. His father was listening without needing to prove that he had already understood. The coach's work would still involve correction, but the correction could begin from what Travis reported rather than from what the clipboard demanded.
-
-The hall seemed to grow quieter around them. A door opened at the far end and someone wheeled a stack of plates toward the storage bay, but neither man turned.
-
-His father nodded. “That's reasonable.”
-
-Travis had prepared himself for an argument. The absence of one left him uncertain.
-
-“Is it?” he asked.
+The answer was direct. Travis had expected a qualification. The absence of one unsettled him, but in a useful way. His father was listening without needing to prove that he had already understood. The coach's work would still involve correction, but the correction could begin from what Travis reported rather than from what the clipboard demanded. The hall seemed to grow quieter around them. A door opened at the far end and someone wheeled a stack of plates toward the storage bay, but neither man turned. His father nodded. “That's reasonable.” Travis had prepared himself for an argument. The absence of one left him uncertain. “Is it?” he asked.
 
 “Yes. But I need you to tell me when the goal changes. I can't coach a target you haven't given me.”
 
@@ -130,9 +116,7 @@ Travis had prepared himself for an argument. The absence of one left him uncerta
 
 “Then we can start by asking. You don't have to arrive with a complete answer.”
 
-Travis leaned back against the wall. “Sometimes I don't want Coach Kaufman.”
-
-His father looked at him carefully. “Who do you want?”
+Travis leaned back against the wall. “Sometimes I don't want Coach Kaufman.” His father looked at him carefully. “Who do you want?”
 
 “My dad.”
 
@@ -140,9 +124,7 @@ The answer did not sound as simple once it had been spoken. Mr. Kaufman took the
 
 “All right,” he said. “I'm here.”
 
-They remained there while the hall continued its morning routine. Mr. Kaufman asked whether Travis had slept. Travis said he had, though not especially well. They spoke about the family car, a leaking tap, and a film Travis had been meaning to watch. His father listened without turning each answer into a lesson. The conversation moved slowly, and that was what made it useful. Travis began to feel that he had returned to the room rather than been brought back under examination.
-
-After a while Mr. Kaufman stood and picked up the clipboard.
+They remained there while the hall continued its morning routine. Mr. Kaufman asked whether Travis had slept. Travis said he had, though not especially well. They spoke about the family car, a leaking tap, and a film Travis had been meaning to watch. His father listened without turning each answer into a lesson. The conversation moved slowly, and that was what made it useful. Travis began to feel that he had returned to the room rather than been brought back under examination. After a while Mr. Kaufman stood and picked up the clipboard.
 
 “Do you want to finish the session?”
 
@@ -166,9 +148,7 @@ His father looked at the fabric. “You were saying that last week.”
 
 “So did the shirt.”
 
-Travis smiled. Mr. Kaufman brought him a towel and a bottle of water. He did not mention the latest increase in Travis's measurements. He had noticed it, of course. The change showed in the way the young man's shoulders now filled the space between his neck and arms, and in the more substantial line of his thighs as he stood. But the session had been about movement and judgement, and the coach was learning not to let the visual change take over every conversation.
-
-They walked around the platform together. Mr. Kaufman asked Travis to show him the point at which the pause became difficult. Travis demonstrated without a weight, then repeated it with the empty bar. His father watched his feet and the line of his back. He made one correction, then asked Travis what he noticed. Travis adjusted his stance and tried again. The second movement was smoother. It did not look spectacular. It looked useful. Mr. Kaufman liked that more than he expected.
+Travis smiled. Mr. Kaufman brought him a towel and a bottle of water. He did not mention the latest increase in Travis's measurements. He had noticed it, of course. The change showed in the way the young man's shoulders now filled the space between his neck and arms, and in the more substantial line of his thighs as he stood. But the session had been about movement and judgement, and the coach was learning not to let the visual change take over every conversation. They walked around the platform together. Mr. Kaufman asked Travis to show him the point at which the pause became difficult. Travis demonstrated without a weight, then repeated it with the empty bar. His father watched his feet and the line of his back. He made one correction, then asked Travis what he noticed. Travis adjusted his stance and tried again. The second movement was smoother. It did not look spectacular. It looked useful. Mr. Kaufman liked that more than he expected.
 
 **MR. KAUFMAN:** “That's the one I'd keep.”
 
@@ -178,13 +158,9 @@ They walked around the platform together. Mr. Kaufman asked Travis to show him t
 
 Travis nodded. He had wanted his father to say something like that for a long time, but he had not known how to ask. The problem had not been a lack of praise. It had been the feeling that praise arrived only after the coach had decided what the movement meant. Now the two men had a new sequence: Travis would describe his own experience, his father would add what he had observed, and together they would decide what to change next. It would not always be easy. Mr. Kaufman would sometimes see a risk that Travis did not, and Travis would sometimes want to repeat a movement his father thought should be left alone. They would have to keep talking.
 
-When they moved the plates back to the rack, Travis took the smaller collars and his father carried the heavier ones. The collars were broad enough for Travis's hands, though the metal edges left a cool pressure against his palms. He placed them in the storage slot and stepped back. His body felt warmer and more settled than it had at the beginning of the session. He was still growing, and the old shirt would need replacing, but he did not feel compelled to add weight to the bar simply to prove the growth meant something. He could finish a session well and go home with his father.
+When they moved the plates back to the rack, Travis took the smaller collars and his father carried the heavier ones. The collars were broad enough for Travis's hands, though the metal edges left a cool pressure against his palms. He placed them in the storage slot and stepped back. His body felt warmer and more settled than it had at the beginning of the session. He was still growing, and the old shirt would need replacing, but he did not feel compelled to add weight to the bar simply to prove the growth meant something. He could finish a session well and go home with his father. The next repetition was better, not because someone had demanded more from him, but because he understood what he was trying to do.
 
-The next repetition was better, not because someone had demanded more from him, but because he understood what he was trying to do.
-
-When the group arrived, they found the two men reviewing the session sheet. Mr. Kaufman had written the work down in his usual compact hand. Travis took the pencil and added a note beside the final set: **repeat the same load; do not increase until the pause stays consistent**.
-
-His father read it. “That's a good call.”
+When the group arrived, they found the two men reviewing the session sheet. Mr. Kaufman had written the work down in his usual compact hand. Travis took the pencil and added a note beside the final set: **repeat the same load; do not increase until the pause stays consistent**. His father read it. “That's a good call.”
 
 “It's my programme.”
 
@@ -208,11 +184,7 @@ At the door, Travis paused.
 
 “Not as Coach?”
 
-His father picked up his bag. “I'll try to leave the clipboard here.”
-
-Travis laughed. “Good.”
-
-They crossed the courtyard toward the dining hall. The morning air was cool, and the stone path still held a little dampness from the previous night's rain. Travis walked with his hands in the pockets of his training shorts, feeling the new weight of his shoulders settle as his breathing returned to normal. His father kept pace beside him. For once, neither man talked about the next session. They spoke about the family car, a film Travis had seen with a friend, and whether the small grocery shop near the south gate still sold the bread his father liked. The conversation was ordinary, but that was precisely what Travis had wanted. He could be a man who trained seriously and still be a son who knew his father's preferred bread.
+His father picked up his bag. “I'll try to leave the clipboard here.” Travis laughed. “Good.” They crossed the courtyard toward the dining hall. The morning air was cool, and the stone path still held a little dampness from the previous night's rain. Travis walked with his hands in the pockets of his training shorts, feeling the new weight of his shoulders settle as his breathing returned to normal. His father kept pace beside him. For once, neither man talked about the next session. They spoke about the family car, a film Travis had seen with a friend, and whether the small grocery shop near the south gate still sold the bread his father liked. The conversation was ordinary, but that was precisely what Travis had wanted. He could be a man who trained seriously and still be a son who knew his father's preferred bread.
 
 The dining hall was bright with the morning light. Long tables stood beneath timber rafters, and the kitchen counter carried trays of eggs, potatoes, fruit, toast, and coffee. The room was already busy with adult men returning from training or preparing for the day. Some were broad enough to make the original chairs look narrow; others were still adjusting to the way their bodies had changed overnight. The Institute had responded with deeper seats, stronger legs, and tables that could be extended. Travis and his father found a place near the window. Mr. Kaufman brought two plates, then sat across from him rather than beside him. The distance was not a problem. They could talk across a table without turning the conversation into a coaching session.
 
@@ -232,11 +204,7 @@ Travis grinned. “That sounds exhausting.”
 
 “It can be.”
 
-They ate for a while. His father did not ask how the last set had felt. Travis described it because he wanted to, explaining the point at which the pause had become easier and the way his balance had changed. Mr. Kaufman listened, then added one observation about the position of his feet. Travis considered it and agreed. The correction did not feel like an evaluation. It was part of a conversation between two men who cared about the same work.
-
-When the meal was nearly finished, Mr. Kaufman reached for his coffee and paused. “I don't always know when you want your father and when you want your coach.”
-
-Travis looked at him. “I don't always know either.”
+They ate for a while. His father did not ask how the last set had felt. Travis described it because he wanted to, explaining the point at which the pause had become easier and the way his balance had changed. Mr. Kaufman listened, then added one observation about the position of his feet. Travis considered it and agreed. The correction did not feel like an evaluation. It was part of a conversation between two men who cared about the same work. When the meal was nearly finished, Mr. Kaufman reached for his coffee and paused. “I don't always know when you want your father and when you want your coach.” Travis looked at him. “I don't always know either.”
 
 “Then we'll ask.”
 
@@ -256,24 +224,16 @@ They finished breakfast and walked toward the entrance. The training hall was vi
 
 “Good.”
 
-They walked on together.
-
-
-
-They walked out together into the cool morning. The hall remained open behind them, ready for the next group, and the session record stayed on its hook with the new note in Travis's handwriting. It did not describe the whole relationship. It only preserved what they had agreed to do next.
-
-On the path toward the residential wing, Travis walked close enough to his father that their shoulders nearly aligned. He had grown again, and his frame now carried more of the space around him. Mr. Kaufman noticed the change without making it the first subject of the morning. At the next doorway, he paused and let Travis pass ahead. The gesture was small, but Travis noticed it. His father was not measuring him against the old doorway or trying to decide what the change required. He was simply walking beside him. Travis looked back and grinned.
+They walked on together. They walked out together into the cool morning. The hall remained open behind them, ready for the next group, and the session record stayed on its hook with the new note in Travis's handwriting. It did not describe the whole relationship. It only preserved what they had agreed to do next. On the path toward the residential wing, Travis walked close enough to his father that their shoulders nearly aligned. He had grown again, and his frame now carried more of the space around him. Mr. Kaufman noticed the change without making it the first subject of the morning. At the next doorway, he paused and let Travis pass ahead. The gesture was small, but Travis noticed it. His father was not measuring him against the old doorway or trying to decide what the change required. He was simply walking beside him. Travis looked back and grinned.
 
 **TRAVIS:** “Come on, Dad.”
 
-Mr. Kaufman followed. The clipboard remained behind in the gym, and for the next few minutes the two men had nothing to do except get home together.
+Mr. Kaufman followed. The clipboard remained behind in the gym, and for the next few minutes the two men had nothing to do except get home together. For Travis, the morning would remain important not because the session had been lighter, but because he had been allowed to describe it in his own words. For Mr. Kaufman, it would become important because his son had asked him to stay in the room as a father. Both facts would travel home with them, along with the ordinary appetite that followed training and the quiet satisfaction of a set completed well.
 
-For Travis, the morning would remain important not because the session had been lighter, but because he had been allowed to describe it in his own words. For Mr. Kaufman, it would become important because his son had asked him to stay in the room as a father. Both facts would travel home with them, along with the ordinary appetite that followed training and the quiet satisfaction of a set completed well.
+**SETH:** There's the difference, Nick. The coach can see a movement that needs correcting. A father has to see the son who is doing it, and remember that the boy in front of him is allowed to become a man with his own judgement.
 
-SETH: There's the difference, Nick. The coach can see a movement that needs correcting. A father has to see the son who is doing it, and remember that the boy in front of him is allowed to become a man with his own judgement.
+**NICK:** And the son has to be able to ask for both. He can want instruction without surrendering his own account of the work. He can want his father without having to earn the visit by lifting well.
 
-NICK: And the son has to be able to ask for both. He can want instruction without surrendering his own account of the work. He can want his father without having to earn the visit by lifting well.
+**SETH:** The next session is already on the calendar, but it isn't the only thing they've got.
 
-SETH: The next session is already on the calendar, but it isn't the only thing they've got.
-
-NICK: No. Lunch is waiting, and this time nobody is bringing the clipboard to the table.
+**NICK:** No. Lunch is waiting, and this time nobody is bringing the clipboard to the table.

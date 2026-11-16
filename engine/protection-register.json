@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "register_id": "tractus-protection-register",
+  "title": "The Tractus Protection Register",
+  "governing_principle": "Nothing built within GEEHUB should have to disappear for something new to become possible.",
+  "status_vocabulary": [
+    "specified",
+    "implemented",
+    "tested",
+    "verified",
+    "deferred",
+    "superseded"
+  ],
+  "controls": [
+    {
+      "id": "changed-file-integrity-gate",
+      "title": "Changed-file integrity gate",
+      "foundation": "integrity",
+      "status": "implemented",
+      "scope": "Changed repository text and JSON files are checked for malformed JSON, unsafe paths, protected-record deletion, and common credential patterns.",
+      "implementation": ["scripts/validate_protection.py", ".github/workflows/protection-gates.yml"],
+      "tests": ["scripts/test_validate_protection.py"],
+      "verification": [],
+      "limitations": ["This is a targeted pattern scan, not a comprehensive secret scanner.", "It does not enforce branch protection or replace human review."]
+    },
+    {
+      "id": "recovery-snapshot-manifests",
+      "title": "Repository recovery snapshots",
+      "foundation": "archive",
+      "status": "implemented",
+      "scope": "Snapshot manifests record a source commit, file sizes, SHA-256 digests, Git blob hashes, and a manifest self-checksum; restore defaults to a separate directory and refuses overwrite.",
+      "implementation": ["scripts/recovery_snapshot.py", "recovery/schema.json", "recovery/README.md"],
+      "tests": ["scripts/test_recovery_snapshot.py"],
+      "verification": ["recovery/snapshots/baseline-main-c578532.json"],
+      "limitations": ["The historical baseline uses Git blob hashes and byte lengths; new snapshots add SHA-256.", "A snapshot stored in this repository is not an independent backup."]
+    },
+    {
+      "id": "recovery-continuity-index",
+      "title": "Cross-system recovery index",
+      "foundation": "recovery",
+      "status": "implemented",
+      "scope": "A machine-readable index connects repository revisions, artifact identity, recovery manifests, Dropbox snapshot metadata, and restoration evidence.",
+      "implementation": ["recovery/index.json", "recovery/index.schema.json", "recovery/INDEX_GUIDE.md"],
+      "tests": ["scripts/test_recovery_index.py"],
+      "verification": [],
+      "limitations": ["The recorded Dropbox inventory compared paths, object types, and sizes, not content hashes.", "The Dropbox copy is in the same account and is not independent or offline."]
+    },
+    {
+      "id": "append-only-event-inscription",
+      "title": "Shared event inscription",
+      "foundation": "continuity",
+      "status": "implemented",
+      "scope": "Occurrences receive stable IDs and are appended to the shared activity stream under a process lock; conflicting reuse of an event ID is rejected.",
+      "implementation": ["engine/inscription.py", "engine/activity.jsonl"],
+      "tests": ["engine/test_institute_events.py"],
+      "verification": [],
+      "limitations": ["Derived artifact and outbox projections are maintained alongside the event stream; this control does not by itself make every repository file immutable."]
+    },
+    {
+      "id": "canon-version-provenance",
+      "title": "Canon version provenance",
+      "foundation": "canon",
+      "status": "implemented",
+      "scope": "Canon revisions use linked version records and explicit promotion evidence; experiments do not become canon through repetition or storage alone.",
+      "implementation": ["engine/tractus_science.py", "scripts/promote_canon_version.py", "docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md"],
+      "tests": [],
+      "verification": [],
+      "limitations": ["The version ledger and promotion workflow have their own acceptance checks; this register does not claim every historical record has been migrated."]
+    },
+    {
+      "id": "main-branch-rules",
+      "title": "Main-branch review rules",
+      "foundation": "boundary",
+      "status": "deferred",
+      "scope": "Require reviewed pull requests and the protection-gates status check; prevent force pushes and branch deletion.",
+      "implementation": [],
+      "tests": [],
+      "verification": [],
+      "limitations": ["Repository settings were inspected as unprotected in the architecture record. A repository administrator must enable the ruleset."]
+    },
+    {
+      "id": "independent-backup-and-restore-drill",
+      "title": "Independent backup and restoration drill",
+      "foundation": "recovery",
+      "status": "deferred",
+      "scope": "Maintain an independently administered or offline copy and demonstrate restoration into a separate destination.",
+      "implementation": [],
+      "tests": [],
+      "verification": [],
+      "limitations": ["The existing Dropbox snapshot is in the same account; content hashes and a real Dropbox restore drill remain outstanding."]
+    },
+    {
+      "id": "outbound-publication-review",
+      "title": "Outbound publication review",
+      "foundation": "boundary",
+      "status": "specified",
+      "scope": "Before publication or external delivery, inspect destination, access level, included content, embedded metadata, and explicit release authority.",
+      "implementation": [],
+      "tests": [],
+      "verification": [],
+      "limitations": ["The policy is documented; a general programmatic publication gate is not yet established."]
+    }
+  ]
+}

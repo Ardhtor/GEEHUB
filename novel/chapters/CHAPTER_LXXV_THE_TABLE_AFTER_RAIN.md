@@ -266,6 +266,36 @@ At the end of the meal, Tyler placed his notebook away. The table had passed the
 
 Gabe pulled out a chair and sat for another minute, not waiting for anyone to comment on the table or on him.
 
+At the window, Joseph and Chase took a moment to look at the floor where the rain had entered. The towel Luke had placed there was damp now, and a faint line remained in the grain of the boards. Chase asked whether the old fastener should be placed beside the repair note or stored separately. Joseph said it should be stored where the next person could find it, but not displayed as if it were a trophy. Chase liked that distinction. He had begun to understand that an archive could preserve something without making the object perform its importance. He put the fastener into a shallow tray, wrote the date on a small card, and left space for the next inspection. Joseph watched him write, then asked whether he had kept the photograph of the first table arrangement.
+
+“I kept it,” Chase said. “I haven't decided what it means yet.”
+
+“That's all right.”
+
+“Most people want the meaning first.”
+
+“Most people don't have to keep the record.”
+
+Chase smiled. “You make it sound like a difficult job.”
+
+“It can be.”
+
+Across the room, Gabe and Luke were moving the chairs into their usual places. Gabe carried two at once, his wider frame making the task easier than it had been the month before. Luke took the longer bench. Their movements were unhurried, and they did not need to discuss who should carry what. When the bench reached the wall, Gabe stepped aside so Luke could settle the far leg. Luke checked the floor, then looked up.
+
+“Good?”
+
+“Good.”
+
+Gabe glanced at the repaired table. “It's strange how much a room changes when one thing stops wobbling.”
+
+Luke laughed. “You mean the table?”
+
+“I mean the table.”
+
+“Right.”
+
+They both knew there was more in the sentence, but neither pressed it. The morning had been enough. They could return to the rest of the conversation another day, and the table would be there to hold whatever came next.
+
 The rain had left a mark beside the window. The joint had been repaired. The old fastener remained in its tray. The room had not returned to precisely the same arrangement, and nobody tried to make it.
 
 By afternoon, the table had become ordinary again. That was the result they had wanted. Its history remained in the note, the measurement, the small piece of wood fitted into the socket, and the way six men had learned a little more about one another while making it usable.

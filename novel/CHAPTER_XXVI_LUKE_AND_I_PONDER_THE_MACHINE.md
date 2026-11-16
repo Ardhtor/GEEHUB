@@ -220,6 +220,26 @@ Luke read the note and gave a small nod.
 
 “Then keep that person in the room.”
 
+Luke looked at the message again, then at the transfer panel.
+
+“There's one more thing it shouldn't do.”
+
+“What?”
+
+“Make the rest of a person's life look like another opportunity list.”
+
+I understood what he meant. The engine could inspect records because the records might support a claim. It could not assume that every event in a person's life existed to be recovered, optimized, or converted into a number. Some things mattered because they had happened between people. A meal shared, a promise kept, a night spent waiting with somebody who was afraid: none of those should be swept into a financial model simply because the system could describe them.
+
+“Those things stay outside the claim process,” I said.
+
+“Good. The machine can help with what it's built for. It doesn't get to decide what everything else means.”
+
+He looked at the room, then back at the display. The distinction seemed to please him. He had no objection to a tool being useful or ambitious. He objected to it becoming the authority over the life that gave it work. The same principle applied to the Serum. A body could grow, a room could widen, and a record could preserve the change. None of those outcomes gave the system ownership of the person.
+
+Luke pulled the chair away from the desk and stood. “That's enough for tonight.”
+
+I saved the note. The engine could continue observing the approved records, but it would not expand its scope without the person's choice. Luke picked up his mug and waited by the door while I closed the dashboard. The transfer engine went back to its idle screen. It had found a number of possible routes. It had not been given permission to turn them into actions.
+
 Neither of us entered anything. We did not authorize the pending claim, change the transfer limits, or ask the machine to produce another list. We simply kept looking at the screen, Luke beside me, the transfer rules glowing quietly between us. The forest pressed close to the window, its dark trunks reflected in the monitor glass. For the first time that evening I became aware that the interface had stopped feeling like a separate project. It belonged to the same house, the same gathering of men, the same effort to make systems that could be examined rather than obeyed blindly.
 
 A faint notification appeared at the lower edge of the display. It was not a transfer request. It was not a completed recovery. It was a new opportunity detected from a record that had not yet been reviewed. The machine had not moved money. It had found another question.

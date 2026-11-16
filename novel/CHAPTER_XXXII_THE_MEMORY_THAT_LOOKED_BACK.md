@@ -236,6 +236,22 @@ Joseph turned toward him. “Then we keep the gaps.”
 
 The physician nodded. “A record can preserve a mistake. It can preserve an argument. It can preserve the part nobody understood.”
 
+Luke turned away from the screen and looked at the men.
+
+“What do you remember?” he asked.
+
+Tyler answered first. He remembered Luke holding a ladder while Tyler repaired the old sensor housing, staying with the job even after the measurements had become frustrating. Joseph remembered a meal in which Luke had given away the larger portion without mentioning it, then pretended he had already eaten. Andrew remembered Luke laughing so hard at a terrible practice joke that he had to put his bat down. The older physician remembered a quiet afternoon when Luke had waited beside a doorway rather than entering a room where somebody needed privacy.
+
+None of the memories was a measurement. None described Luke's shoulders, his height, or the amount of space he occupied. Yet each man spoke of a detail that made the person in the photograph more recognisable. Luke listened without correcting them. Some details he remembered; others returned only when another person named them.
+
+“You see?” Joseph said. “The picture can't hold all of that.”
+
+Luke looked back at the screen. “No. But it can remind us to ask.”
+
+The younger representative from the Escalation family had been quiet. He now said that he remembered Luke as the first man to tell him not to force a new movement just because his body could reach farther. Luke gave him a brief nod. He had forgotten the conversation, but he remembered the day: the cold training room, the wet shoes, the smell of chalk and the sound of a bench being dragged across the floor.
+
+The Hub added no new photograph. It did not need to. The men had supplied memories that belonged to one another, and the room had become a little more specific because they had spoken them aloud. They were not reconstructing a perfect past. They were restoring the ordinary company that had existed around a person before anyone knew that the moment would matter.
+
 Tyler added the phrase to the notebook: **GAPS RETAINED; RECONSTRUCTION NOT TREATED AS COMPLETE.**
 
 That was the last note they made before the screen changed.

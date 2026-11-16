@@ -330,6 +330,28 @@ The building widened.
 
 Far below them, the streets of the city shifted by a fraction to accommodate a structure that had not existed when they woke that morning.
 
+The change began at the table's legs. They shifted outward, then settled into a wider stance. The vessel's base remained level. The map-carrier caught the notebook before it slid, and the youngest man moved the measuring stick away from the edge. The compass-carrier watched the doorway while the largest man stepped back to keep clear of the widening wall. The seventh man did not reach for the vessel. He watched the room itself, looking for the point where the new dimensions stopped changing.
+
+The room gained a little more depth. The table moved with it, leaving the same distance between its edge and the wall. The doorway rose and widened. The floor remained level beneath their feet. One of the men tested the boards with a careful step, then looked to the others. There was no cracking, no loose stone, and no sudden shift in weight. The new arrangement held.
+
+“That's the test,” the youngest said.
+
+“What is?” asked the map-carrier.
+
+“Whether we can still use it.”
+
+The largest man walked to the doorway and back. The compass-carrier followed with the measuring stick. They checked the same route they had used before the change. The space was larger, but the table remained within reach, the vessel remained accessible, and the doorway still opened onto the road. The room had not simply become bigger. It had preserved its function while changing its dimensions.
+
+The seventh man looked at the seven rules on the wall. “A stable state is one you can live in.”
+
+The others looked at him.
+
+“Not just one that stays still,” he continued. “One that lets us keep doing the things we came here to do.”
+
+The largest man nodded. “Then we need to know what the room is for before we decide what it needs to become.”
+
+No one contradicted him. They had been measuring the room as a container, but it was also a place where they gathered, wrote, ate, and made decisions. A larger room that broke those relations would not be an improvement. The rule of accommodation had to include use.
+
 Nobody panicked.
 
 They had finally learned how to read the change. The table did not break. The floor did not buckle. The walls moved with the vessel, and the doorway retained enough clearance for the men to pass through. The map-carrier reached for the notebook before it could slide toward the table's new edge. The youngest took the measuring stick and held it against the wall. The compass-carrier checked the doorway. The largest man stood back to allow the others room. The seventh man watched the vessel.

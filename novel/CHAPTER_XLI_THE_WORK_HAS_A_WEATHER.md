@@ -1,4 +1,4 @@
-# The Work Has a Weather
+# Chapter XLI — The Work Has a Weather
 
 The first thing you learn in a proper workshop is that the work has a weather. You can feel it before anybody tells you what is being made. There is a change in the room when a thing has become important enough to occupy the whole table. The light catches the edge of a cut board. A monitor holds a frame that somebody has stopped on because the next frame matters. A cup has been moved away from the keyboard. There are notes on the wall, but they are not running the room. The work is running the room, and the notes are there because somebody cared enough to remember what happened.
 

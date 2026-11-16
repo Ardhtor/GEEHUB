@@ -96,6 +96,132 @@ Andrew heard the last phrase and pointed toward the roof. “Exactly.” Tyler g
 
 “Same thing today.”
 
+A second Luke arrived while Andrew was putting the notebook away. He came from the equipment shed carrying a first baseman's mitt and a helmet hooked through two fingers. He was one of Andrew's regular teammates, not part of the six-man group that had come out to see the field. His uniform was folded over one arm, and his shoes were still dusty from the indoor cages. He was a substantial, athletic man, broad through the torso and strong through the legs, with the practiced balance of someone who spent long afternoons moving around the first-base bag. His shoulders had filled out since the beginning of the season, and the team shirt now sat closer across his back. He walked with a calm, deliberate rhythm, looking first at the dirt around the base and then toward Andrew.
+
+“Are you still studying the fence?”
+
+Andrew glanced at the notebook. “It's giving us new information.”
+
+“It's a fence.”
+
+“It's a responsive fence.”
+
+Mercer set his mitt on the bench. “All right. Tell it we're starting practice.”
+
+Andrew grinned. “Luke, this is the other Luke. Luke Mercer. First base.”
+
+The Luke who had brought the cooler looked over. “There are two of us now?”
+
+“Apparently,” Mercer said. “You'll have to be more specific.”
+
+Tyler looked between them. “We can use Mercer.”
+
+“That's what the team does,” Andrew said. “The rest of you can call him Luke when the other Luke isn't around.”
+
+Mercer shook his head. “This is already a problem.”
+
+**SETH:** “A second Luke has entered the field. The naming convention is under review.”
+
+**NICK:** “The first Luke has seniority in the narrative. The second Luke has the mitt.”
+
+**SETH:** “A difficult jurisdictional dispute.”
+
+Mercer heard Andrew laughing and looked toward the gallery of faces. “Which one of you is responsible for that?”
+
+“Both,” Andrew said.
+
+“Then I know where to stand.”
+
+He greeted the others without ceremony. He knew Andrew's habits well enough not to ask why a baseball notebook contained drawings of fences and roof beams. He simply took a look at the page and found the small bell mark.
+
+“That's the loose section by the left post.”
+
+Andrew looked up. “You noticed it?”
+
+“I've been taking throws there for two months. The sound changes when the ball clips the lower wire.” Mercer turned the page slightly. “But it isn't just the mesh. The post footing moves a little when the ground is wet.”
+
+Tyler stepped closer. “You've seen it move?”
+
+“Not enough to call it loose. You can feel it if you put your hand here after a hard impact.” Mercer indicated the post, then waited while Tyler checked the area. He was not claiming a structural fault. He was describing a repeated sensation from an ordinary position on the field. Andrew looked delighted. The notebook had found another witness.
+
+“See?” Andrew said. “The fence has a whole social life.”
+
+“The fence has a post that needs checking,” Mercer replied. “And we have practice.”
+
+Andrew accepted the correction. Mercer had been on the team long enough to know that Andrew's curiosity was often worth following, but he also knew that a field could not be maintained by listening to it alone. He had watched Andrew work through a difficult play until the mechanics made sense. He respected his strength, but he trusted his patience more. Andrew could be the first man to propose an experiment and the last to leave when the experiment failed. Mercer had no intention of letting him turn the whole afternoon into a lecture about chain-link.
+
+He pulled on his glove and walked to first base. The dirt around the bag had been scuffed into a shallow fan by the morning's work, and a thin ridge had formed along the line where runners tended to plant their feet. Mercer crouched, brushed the surface with the heel of his hand, and shifted the loose dirt away from the edge. His mitt settled into his left hand. He opened and closed it twice, testing the pocket. The leather gave a low creak. His fingers fitted the glove differently than they had at the start of the season; the webbing had been adjusted, and the wrist strap now had one more notch available. He tugged it once, then returned to his stance.
+
+Andrew rolled a ball across the infield. Mercer received it cleanly, moved his feet, and sent it back in one smooth motion. The throw came chest-high. Andrew caught it.
+
+“Good,” Andrew said.
+
+“Again.”
+
+The next ball took a small hop. Mercer moved forward, lowered the mitt, and gathered it just before it reached the bag. He did not snatch at it. His eyes stayed level, his feet worked beneath him, and the ball disappeared into the pocket. He rose and threw it back.
+
+Andrew watched his footwork. “You've changed your stretch.”
+
+“My reach changed.”
+
+“Same thing?”
+
+“No. That's why I changed it.”
+
+Mercer demonstrated again. He planted closer to the bag, kept his weight forward, and let the glove travel toward the ball rather than throwing his whole body after it. His frame had grown, but the movement remained compact. The first baseman's job was not to make every catch look spectacular. It was to make the thrower's mistake survivable and the good throw routine. He had learned to trust the small adjustments.
+
+Tyler came around to watch. “Your stance is wider.”
+
+“Needs to be.”
+
+“Because of the extra reach?”
+
+“Because my centre of mass has shifted. If I keep the old stance, I have to recover after every low catch.”
+
+Tyler nodded. “That makes sense.”
+
+Andrew picked up another ball. “Now do it with a bad throw.”
+
+Mercer looked at him. “You mean one of yours?”
+
+“Exactly.”
+
+The throw went wide of the bag. Mercer pushed off, stretched, and caught it just before the ball passed his glove side. His foot stayed on the base. He brought the mitt back to his chest and gave Andrew a level look.
+
+“That's your bad throw?”
+
+“I was warming you up.”
+
+“Warm me up with a good one.”
+
+Luke from the cooler laughed. Mercer glanced toward him.
+
+“Which Luke laughed?”
+
+“The one with the cooler.”
+
+“Good. We'll keep that system.”
+
+The rest of the team began arriving from the far side of the grounds. They crossed the field carrying bats, helmets, and water bottles, calling greetings to Andrew and Mercer. Their uniforms carried the same understated team colours, though several had altered their shirts or replaced their trousers as their bodies changed. A pair of players compared the fit of their sleeves near the batting cage. Another man retied his shoes and moved his bag so the dugout passage stayed clear. Their arrival changed the sound of the field. The empty-diamond hush became a working practice: metal spikes on concrete, a bat set against the rack, a coach calling a name, a ball thrown into a bucket, the low conversation of men who had repeated the same routine together many times.
+
+Andrew introduced the visiting group without making them a spectacle. Mercer greeted them again, then returned to first base when the coach called the infield together. The two Lukes took their places on opposite sides of the drill. When the coach called “Luke,” both men looked up.
+
+Andrew laughed so suddenly that the first ball nearly slipped from his hand.
+
+Mercer pointed toward the cooler. “He's the one with the cooler.”
+
+The central Luke raised both hands. “I have been identified.”
+
+“Mercer,” the coach called, correcting himself. “First base.”
+
+“That's better,” Mercer said.
+
+**NICK:** “The naming convention has survived its first live test.”
+
+**SETH:** “Barely. A roster may be required.”
+
+Andrew's grin remained as he stepped into the drill. The second Luke had changed the composition of the afternoon without displacing the first. One belonged to the close circle that had brought the cooler, the notebook, and the questions about the field. The other belonged to the team that used the field every week, knew the condition of the infield dirt, and had its own rhythm of practice and responsibility. Both were called Luke. Neither needed to become less distinct for the name to be shared.
+
 The first warm-up began with a simple throwing sequence. Andrew stood near the baseline and rolled the ball through his fingers, feeling the raised seams move beneath his thumb. The leather was cool and slightly damp from the morning air. He tossed it to Luke, who caught it cleanly and sent it back with a long, easy arc. The ball made a soft report in Andrew's glove. He liked the sound. It was firm without being sharp, a small impact that carried the shape of the throw. They began with short distances and gradually moved farther apart. As their bodies warmed, the changes in their proportions became more apparent. Luke's shoulders rose as he straightened; Andrew's arms filled out beneath the sleeveless shirt; Gabe's chest expanded with each deeper breath; Tyler's grip looked heavier around the ball; Chase's stance widened to keep his balance on the damp dirt; and Joseph lengthened his stride as he moved to the next mark. None of them was growing at precisely the same rate. Their bodies were not synchronised, but their practice gave them a common rhythm.
 
 Andrew's throw was powerful, but he did not rely on strength alone. He kept his feet beneath him, watched the target, and adjusted the release. When he threw too early, the ball pulled left. When he waited for his front foot to settle, it travelled straight. Tyler noticed the difference and called it out. Andrew repeated the movement, then asked Tyler to stand at the side and watch his shoulder line. Tyler did so, even though he was still holding the notebook. The session became a conversation between two kinds of expertise. Andrew felt the movement in his body; Tyler watched the mechanics and compared them with the previous repetition. They did not always agree about the cause of a miss, but they could both recognise a better throw.

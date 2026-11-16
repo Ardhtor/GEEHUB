@@ -229,36 +229,3 @@ The woods remained silent around them.
 The rivalry had become something else.
 
 And somewhere beyond the clearing, beneath roots older than either family, the Serum was already responding.
-
-
-Not dramatic.
-
-A pressure across the upper back. A deeper breath. A shirt becoming fractionally tighter beneath the arms.
-
-Everyone looked toward him.
-
-He waited.
-
-Nothing stopped.
-
-The Serum had found the comparison.
-
-The two families watched the change settle into the man's posture. His shoulders shifted outward by an amount too small to measure immediately, but large enough to change the way his coat hung. He rolled one shoulder, then the other.
-
-“New baseline,” one of the fathers said.
-
-“No,” Luke answered.
-
-Everyone turned toward him.
-
-Luke looked from one family to the other.
-
-“Next baseline.”
-
-For the first time, the families stood together rather than opposite one another.
-
-The woods remained silent around them.
-
-The rivalry had become something else.
-
-And somewhere beyond the clearing, beneath roots older than either family, the Serum was already responding.

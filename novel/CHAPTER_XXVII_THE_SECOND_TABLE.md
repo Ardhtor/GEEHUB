@@ -162,6 +162,18 @@ Nobody disputed that.
 
 The meeting did not end with a vote. It ended with a shared decision to keep the table in the clearing until the next morning. The photographs and shirt would be returned to their cedar cases before nightfall; the measurement records would remain in their protective sleeves; and one copy of the comparison sheet would be kept by each family. The two groups would not merge their archives, but they would agree on a common set of reference conditions for future measurements. Their records would remain distinct and comparable. They would no longer use the absence of the other family's evidence as proof that it did not matter.
 
+Before anyone packed away the records, the older man from the Continuity family asked Luke to help him lift the table's far end while the support board was moved. Luke took the weight without effort, but he waited for the other man to position the board rather than lowering it at once. The older man's hands were still strong, though his fingers moved more slowly than Luke's. They worked together until the table stood level. The younger representative from the Escalation family checked it with the measuring cord and found that the surface had shifted by less than a finger's width. He looked satisfied.
+
+“That's close enough,” he said.
+
+The older man smiled. “Close enough for a table.”
+
+“Not for a measurement.”
+
+“Then don't measure the table.”
+
+The young man laughed. He had begun to understand that the old man's precision was not universal. A table only needed to remain steady enough for the work placed on it. A measurement needed a known reference. A memory needed an honest witness. Each had its own conditions. Luke released the table and brushed the damp bark dust from his palms. The older man thanked him, then offered him a cup of coffee from the kettle. They stood together at the edge of the clearing, talking about the old porch photograph and the house it had been taken in. The young man joined them after putting the cord away. For a few minutes the three men were not representatives of separate doctrines. They were simply men remembering a place, comparing what they had been told, and discovering that each had a different part of the story.
+
 As the men began packing the chairs, Luke lifted the metal case and carried it to the driest part of the clearing. He set it on a low bench beneath the branches, away from the damp edge of the table. The case looked small in his hands. He placed it down gently, then checked that the lid was properly seated. The garment inside had survived because someone had made the effort to keep it. That effort did not become less valuable because the man who wore it had grown beyond its dimensions.
 
 The table remained between the redwoods, its canvas cover moving slightly in the evening air. The two families departed by different roads, but several of the younger men stayed behind to finish the measurements. The older men watched them from the edge of the clearing. Nobody asked them to stop. The line in the soil remained visible beneath the roots.

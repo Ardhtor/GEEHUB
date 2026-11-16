@@ -375,3 +375,6 @@ Waiting.
 The men did not move toward the opening all at once. Tyler checked the edge of the exposed floor and found no loose boards. Joseph stayed beside Luke. Andrew put his notebook away, deciding that the next thing required listening rather than drawing. Behind them, the older physician held the cedar case close against his coat, keeping the old shirt from the damp air. Each man had found a small task that suited him. The room below remained visible, the amber line within the box steady and narrow. Nobody tried to make the silence answer a question it had not been asked.
 
 And the first word remained in the air, intact enough to be heard, incomplete enough to require another encounter.
+
+Luke kept his hands at his sides. The first contact had been made, but he did not assume that it gave him permission to take the next step alone. He looked at the men beside him. They were still there, still recognisable, and still part of what the room had opened. The amber light held steady. Then the lid shifted once more.
+

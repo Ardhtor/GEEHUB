@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-16T00:01:43.138Z",
+  "generated": "2026-11-16T06:35:02.721Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00211",
+      "at": "2026-11-16T06:35:02.721Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / CEDAR HOUSE → THE COMMON TABLE / LUKE",
+      "body": "The world crossed the existing relation \"A TABLE IS SET\" from CEDAR HOUSE into THE COMMON TABLE. Scale increased from 15.94× to 15.97×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00211",
+      "live": true,
+      "regionId": "common-table",
+      "previousRegionId": "cedar-house",
+      "relation": "A TABLE IS SET"
+    },
     {
       "id": "scheduled-long-play-00210",
       "at": "2026-11-16T00:01:43.138Z",
@@ -1482,21 +1497,6 @@
       "regionId": "veyrthalis",
       "previousRegionId": "discovery",
       "relation": "THE DOOR REMEMBERS"
-    },
-    {
-      "id": "scheduled-long-play-00114",
-      "at": "2026-10-25T22:28:29.844Z",
-      "from": "geehub-long-play",
-      "to": "joseph",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / EMBODIED SCALE → DISCOVERY / JOSEPH",
-      "body": "The world crossed the existing relation \"SCALE HAS HISTORY\" from EMBODIED SCALE into DISCOVERY. Scale increased from 9.70× to 9.82×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00114",
-      "live": true,
-      "regionId": "discovery",
-      "previousRegionId": "embodied-scale",
-      "relation": "SCALE HAS HISTORY"
     }
   ]
 }

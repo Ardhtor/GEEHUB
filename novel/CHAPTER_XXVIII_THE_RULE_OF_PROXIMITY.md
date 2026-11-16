@@ -126,6 +126,100 @@ The Serum had found a way to count space itself.
 
 The words came to Luke without announcement. He looked at the open line in the soil and then at the men standing around it. The ground had not collapsed. The crack had not yet widened. It might be a superficial movement in the soil, a root shifting beneath the surface, or something they did not understand. They would not decide before the next observation. But it belonged to the same emerging pattern: bodies, spaces, and relationships were no longer easy to separate.
 
+The first comparison they attempted was deliberately ordinary. Tyler chose two men who had known one another for years and asked them to walk the marked path at a natural pace. They were not told to stand closer or farther apart. They were asked to move as they normally would, talking as they went. The first man carried the cord; the second kept his hands free. They passed between the same trunks, stopped at the same low branch, and turned at the same point in the path. Tyler recorded their positions and the time required to complete the route. Then they repeated it without talking. Their pace changed. The second man stopped looking toward his companion and began watching the ground. He moved a little farther to the left, and the cord dragged briefly across a root. The distance between them was greater, but the route took longer and felt less comfortable.
+
+“Which one is the better measurement?” Andrew asked.
+
+“Neither,” Tyler replied. “They answer different questions.”
+
+Andrew looked at the two men. “The first one is more like how they actually walk.”
+
+“Then that's what it tells us. The second tells us what happens when they stop coordinating naturally.”
+
+The older of the two men laughed. “You make it sound as though we have been doing something complicated.”
+
+“You have,” Tyler said. “You've been adjusting to each other without thinking about it.”
+
+The younger man looked at his companion. “I thought you were just slowing down for me.”
+
+“I was.”
+
+“You don't have to.”
+
+“I know. I wanted to.”
+
+The exchange was so simple that Andrew did not try to turn it into a theory. He wrote something small in the margin of the notebook and closed it again. The two men returned the cord to Tyler and walked back toward the clearing at their ordinary pace. They remained close, but neither looked at the other to check whether they were doing it correctly. The movement had become theirs again.
+
+A second pair approached from the opposite direction. One man was broad across the chest and had developed the habit of turning his upper body before moving through a narrow opening. His friend was smaller but longer-legged, and he usually walked half a step ahead. They had grown accustomed to travelling together because the larger man liked to see the route before entering it, while the other man noticed uneven ground. Their habits complemented one another. Today they were asked to exchange roles. The longer-legged man stayed behind; the broader man led.
+
+The first attempt ended at the low branch. The larger man stopped, checked the clearance, and waited for the other to come level with him. His friend nearly collided with his shoulder because he was used to passing on the left. They both laughed, stepped back, and tried again. The second time they agreed on the route before moving. The branch was still low, the tree trunks still stood where they had stood, and neither man's body had changed in the minute between attempts. But their sense of the available space had changed because they had changed the way they trusted one another to move through it.
+
+“That's the part we normally leave out,” Joseph said when Tyler described the trial.
+
+“What part?” Luke asked.
+
+“The conversation before the movement. We write down the distance and forget that they decided how to travel it.”
+
+Luke looked at the pair returning to the clearing. “Then we should record the decision too.”
+
+Tyler nodded. “Not every word. Just the instruction they agreed on.”
+
+Andrew made a note: **ROUTE AGREEMENT / BEFORE MOVEMENT**. It was a different kind of observation from the sound map he kept at the field, but he recognised the value of it. A place responded to the number of people inside it, but also to the way they used the place. The men were not simply bodies arranged within a measured area. They were making choices about one another.
+
+The next test involved the chairs. The men had brought three from the temporary camp, each with a different width and depth. They placed them at measured intervals beneath the trees. One man sat while another remained standing at a fixed distance. Then the standing man moved closer, and the seated man described what changed. The first response was physical: the standing man's shadow crossed his knees, and the space in front of the chair seemed smaller. Then came the social response. The seated man relaxed because he knew the person approaching. He leaned forward, ready to speak. When the same movement was repeated by a man he did not know well, he sat back and held his hands closer to his body.
+
+The chair had not changed dimensions. The measured distance had changed. But the experience of the space included trust, expectation, and the history of the two men. The older physician watched the trial and then asked to sit in the wider chair. His coat pulled across the shoulders when he lowered himself, and he used the armrests to settle his weight. He looked at the younger man standing before him.
+
+“Come closer.”
+
+The young man moved forward.
+
+“Closer.”
+
+He did.
+
+The older man reached out and placed one hand against the younger man's forearm. It was not an attempt to measure him. It was an ordinary gesture of recognition. He spoke quietly about the first time he had seen the young man enter the training room, when the man's gloves had been too large and his throws had lacked direction. The younger man remembered. He smiled and corrected one detail. They had been arguing about the grip, not the direction. The older man accepted the correction.
+
+Tyler lowered his notebook slightly. The exchange had given him something no distance measurement could supply. The relationship had changed the meaning of the approach. The same number of feet could feel generous or intrusive depending on who occupied them and what had happened between the two people. The Serum might still be responding to physical proximity, but the men were discovering that proximity was never only physical.
+
+Luke stood beside me again. “That's why I don't like calling it pressure.”
+
+“What would you call it?”
+
+“Influence. Pressure makes it sound like one man is forcing another.”
+
+“And influence doesn't?”
+
+“It can. But it doesn't have to. Sometimes you move closer because you want to.”
+
+He glanced toward the older physician and the younger man. The older man had let go of the younger man's arm, and they were now talking about the old shirt in the cedar case. The younger man had brought his worn gloves over from the tent and placed them beside the older garment. He was not sure whether he wanted to keep them, but he wanted to remember the season when he had first learned to catch properly. The older man showed him where the glove's stitching had begun to fail and explained how a repair could preserve the shape of the pocket.
+
+Luke watched them. “That's proximity too.”
+
+The forest grew quieter as the afternoon continued. The marked crack remained unchanged. Tyler checked it at intervals and found no widening. The group agreed not to put weight on the exposed roots or disturb the soil. They established a second observation point farther from the tree, where two men could stand without crowding one another and still see the marked line. The work was practical, not ceremonial. A man brought a longer cord. Another set a small wooden marker at the edge of the path. Andrew measured the distance by pacing it, then asked Tyler to verify the result. Tyler did, and they wrote both readings down.
+
+The older physician approached Luke once the others had returned to the table.
+
+“You are placing yourself between the families again,” he said.
+
+Luke looked at him. “I'm standing where I can hear them.”
+
+“That isn't always a comfortable place.”
+
+“I know.”
+
+The older man considered him. “Do you think they will stop competing?”
+
+“No.”
+
+“Then what are you trying to do?”
+
+Luke looked toward the younger men who were now arguing over the measurements, but smiling as they did it.
+
+“Make sure they don't mistake the competition for the whole relationship.”
+
+The physician nodded. He had spent much of his life preserving continuity. Now he seemed to understand that a relationship could continue through disagreement, so long as the men did not reduce one another to the disagreement itself.
+
 By the time the light began to fail, the men had established a small observation area around the crack. They marked the edges, recorded the positions of the trees, and took measurements from fixed points. They also recorded who had been standing where when the sound occurred. The second family offered to keep the overnight watch. The first family agreed to return in the morning with the shirt case and photographs, so that the two archives could remain together while the new evidence was examined. They did not yet know whether the families would continue to meet, but the clearing had become a place to which both would have to return.
 
 Luke stood at the edge of the marked area. The last light had reached the upper branches, where the redwood needles appeared almost black against the sky. He looked at the distance between the two nearest men, then at the space between his own shoulders and the trunk beside him. He could feel his body pressing against the limits of his shirt and the familiar shape of his stance. The next baseline had not been measured. The present one was still active.

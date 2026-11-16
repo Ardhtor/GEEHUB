@@ -27,7 +27,9 @@ jobs:
         with:
           python-version: "3.x"
       - name: Run protection and recovery tests
-        run: python -m unittest scripts.test_validate_protection scripts.test_recovery_snapshot scripts.test_recovery_index -v
+        run: python -m unittest scripts.test_validate_protection scripts.test_recovery_snapshot scripts.test_recovery_index scripts.test_protection_register -v
+      - name: Validate the protection register against repository evidence
+        run: python scripts/check_protection_register.py
       - name: Verify the committed recovery baseline
         run: python scripts/recovery_snapshot.py verify recovery/snapshots/baseline-main-c578532.json --source git
       - name: Validate pull request changes

@@ -2213,3 +2213,11 @@ NICK: The world crosses the route from NORTHGATE LIBRARY into NORTHGATE UNIVERSI
 SETH: A residential university for adult men, with a green central quad, lecture halls, studios, workshops, music rooms and a lively campus culture. Relation carried forward: THE LATE LAMPS OF NORTHGATE.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 289 — ATMOSPHERE / ATHLETIC COMMONS / 2026-11-16T21:17:01.719517+00:00
+
+SETH: The Athletic Commons is a broad brick-and-glass complex with high timber trusses, bright training floors, a swimming pool, indoor track and recovery rooms. Adult male students train in small groups or alone, greeting familiar faces between sets.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

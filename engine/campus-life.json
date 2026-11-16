@@ -1,6 +1,25 @@
 {
-  "cycle": 119,
+  "cycle": 120,
   "events": [
+    {
+      "id": "northgate-campus-00120",
+      "cycle": 120,
+      "world_pulse": 289,
+      "at": "2026-11-16T21:17:01.797581+00:00",
+      "region": "athletic-commons",
+      "title": "THE EVENING TRAINING GROUP",
+      "kind": "training",
+      "participants": [
+        "Dan Roman",
+        "Noah Bell",
+        "Adrian Varga"
+      ],
+      "description": "The training group gathers beneath the high timber roof. They move through warm-ups, careful sets and recovery work, trading observations about technique. Afterward they linger by the pool windows, making plans to walk back to the dormitory together.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-16T21:17:01.797581+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00119",
       "cycle": 119,
@@ -2235,29 +2254,28 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 92,
+    "Dan Roman": 93,
     "Marek Ionescu": 65,
     "Elliot Ward": 74,
-    "Noah Bell": 73,
-    "Adrian Varga": 72
+    "Noah Bell": 74,
+    "Adrian Varga": 73
   },
   "last_event": {
-    "id": "northgate-campus-00119",
-    "cycle": 119,
-    "world_pulse": 288,
-    "at": "2026-11-16T16:11:11.695354+00:00",
-    "region": "founders-dormitory",
-    "title": "SUPPER IN THE COMMON KITCHEN",
-    "kind": "dormitory",
+    "id": "northgate-campus-00120",
+    "cycle": 120,
+    "world_pulse": 289,
+    "at": "2026-11-16T21:17:01.797581+00:00",
+    "region": "athletic-commons",
+    "title": "THE EVENING TRAINING GROUP",
+    "kind": "training",
     "participants": [
       "Dan Roman",
-      "Marek Ionescu",
-      "Elliot Ward",
-      "Noah Bell"
+      "Noah Bell",
+      "Adrian Varga"
     ],
-    "description": "The kitchen fills gradually. Someone has put rice on, another is chopping vegetables, and a third is trying to rescue a pan from yesterday. The conversation moves between coursework, a new record, and who has borrowed the good screwdriver. Nobody eats alone unless he wants to.",
+    "description": "The training group gathers beneath the high timber roof. They move through warm-ups, careful sets and recovery work, trading observations about technique. Afterward they linger by the pool windows, making plans to walk back to the dormitory together.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-16T16:11:11.695354+00:00",
+    "occurred_at": "2026-11-16T21:17:01.797581+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

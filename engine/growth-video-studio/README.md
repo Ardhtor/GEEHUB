@@ -153,10 +153,37 @@ and tRNS inputs are refused. Ancillary color-profile/gamma metadata is not
 interpreted or preserved, so channel samples are lossless but color-management
 metadata is not. Seven focused tests cover the codec's supported formats,
 round-trip behavior, row filters, corruption handling, and size limits.
-The codec returns bytes; it does not write files, reconstruct the background
-behind the original body, combine the protected face layer, or write a frame
-sequence. The result remains a body layer for later stages;
-`pixelSemanticsVerified` remains false.
+The codec returns bytes. The new `core/frame-file-renderer.js` connects
+that boundary to the CPU rasterizer for one frame. It reads a source RGB/RGBA
+PNG, the exact frame's binary grayscale body and protected-face masks, and a
+serialized ready `geehub.growth-deformation-frame` plan. The plan must carry
+the stable vertex and triangle identities and a topology digest. The worker
+checks input file types and byte ceilings, rejects symlinked inputs and files
+that change during reading, verifies all image dimensions, reruns the pixel
+renderer, and encodes the transparent body layer as a new lossless RGBA PNG.
+
+The output PNG and adjacent `.receipt.json` are created exclusively; neither
+may already exist. The receipt records SHA-256 digests for the source frame,
+both masks, deformation plan, and output, together with frame/time, topology,
+vertex/triangle counts, and raster coverage. If receipt creation fails, the
+worker removes only the output file it created, identified by its device and
+inode. It never writes to the source, mask, or plan paths. The output directory
+must already exist.
+
+Run one prepared frame with Node 22:
+
+~~~bash
+npm run render:frame -- ./source.png ./body-mask.png ./face-mask.png ./frame-001.plan.json ./renders/frame-001-body.png
+~~~
+
+This command consumes a plan already produced by the validated sequence
+deformation pass; it does not derive plans from a queued bridge job or process
+a whole sequence. The result remains a transparent body layer, not a complete
+frame. Background reconstruction, protected-face compositing, batch scheduling,
+and Resolve export remain open, and `pixelSemanticsVerified` remains false.
+Five focused tests cover the lossless file round-trip and receipt digests,
+source preservation, existing-output refusal, receipt-failure rollback,
+symlink/path-collision refusal, and invalid dimensions/plans.
 
 ## Registered-evidence render-job preparation
 

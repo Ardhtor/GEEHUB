@@ -268,6 +268,8 @@ On the path toward the residential wing, Travis walked close enough to his fathe
 
 Mr. Kaufman followed. The clipboard remained behind in the gym, and for the next few minutes the two men had nothing to do except get home together.
 
+For Travis, the morning would remain important not because the session had been lighter, but because he had been allowed to describe it in his own words. For Mr. Kaufman, it would become important because his son had asked him to stay in the room as a father. Both facts would travel home with them, along with the ordinary appetite that followed training and the quiet satisfaction of a set completed well.
+
 SETH: There's the difference, Nick. The coach can see a movement that needs correcting. A father has to see the son who is doing it, and remember that the boy in front of him is allowed to become a man with his own judgement.
 
 NICK: And the son has to be able to ask for both. He can want instruction without surrendering his own account of the work. He can want his father without having to earn the visit by lifting well.

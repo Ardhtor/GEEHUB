@@ -240,4 +240,4 @@ The woods remained silent around them.
 
 The rivalry had become something else.
 
-And somewhere beyond the clearing, beneath roots older than either family, the Serum was already responding.
+And somewhere beyond the clearing, beneath roots older than either family, the Serum was already responding. The men had arrived with two histories and left with a reason to meet again. Neither archive had surrendered its way of remembering. The next table would have to hold both.

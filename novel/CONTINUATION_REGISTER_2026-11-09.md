@@ -157,10 +157,10 @@ The early chapters around the chest, the seven rules, Luke's first measurements,
 
 | Manuscript file | Current title | Verified word count | Revision focus |
 |---|---|---:|---|
-| [CHAPTER_XXIII_THE_CHEST_IN_THE_WOODS](CHAPTER_XXIII_THE_CHEST_IN_THE_WOODS.md) | The Chest in the Woods | 3,922 | Expanded the seven men's journey, shared camp, first encounter with the chest, and their decision to continue together |
+| [CHAPTER_XXIII_THE_CHEST_IN_THE_WOODS](CHAPTER_XXIII_THE_CHEST_IN_THE_WOODS.md) | The Chest in the Woods | 4,003 | Expanded the seven men's journey, shared camp, first encounter with the chest, and their decision to continue together |
 | [CHAPTER_XXIII_SERUM_RULES](CHAPTER_XXIII_SERUM_RULES.md) | The Seven Rules | 4,010 | Turned the rule list into a testable scene with body, room, movement, coordination, and stable accommodation |
-| [CHAPTER_XXIV_MEASURE_OF_A_MAN](CHAPTER_XXIV_MEASURE_OF_A_MAN.md) | The Measure of a Man | 3,996 | Expanded physical awareness, multi-view proportion checks, measurement practice, tailoring, movement, and consent |
-| [CHAPTER_XXV_RIVALING_FAMILIES](CHAPTER_XXV_RIVALING_FAMILIES.md) | Rivaling Families | 3,814 | Expanded the first meeting, archive differences, emerging trust, the next-baseline event, and shared departure; cleaned duplicated passages |
+| [CHAPTER_XXIV_MEASURE_OF_A_MAN](CHAPTER_XXIV_MEASURE_OF_A_MAN.md) | The Measure of a Man | 4,007 | Expanded physical awareness, multi-view proportion checks, measurement practice, tailoring, movement, and consent |
+| [CHAPTER_XXV_RIVALING_FAMILIES](CHAPTER_XXV_RIVALING_FAMILIES.md) | Rivaling Families | 4,002 | Expanded the first meeting, archive differences, emerging trust, the next-baseline event, and shared departure; cleaned duplicated passages |
 | [CHAPTER_XXVI_LUKE_AND_I_PONDER_THE_MACHINE](CHAPTER_XXVI_LUKE_AND_I_PONDER_THE_MACHINE.md) | Luke and I Ponder the Machine | 4,022 | Expanded the transfer rules, evidence boundaries, privacy, and Luke's insistence that a machine not define a life |
 | [CHAPTER_XXVII_THE_SECOND_TABLE](CHAPTER_XXVII_THE_SECOND_TABLE.md) | The Second Table | 4,020 | Expanded the families' comparison of photographs, garments, measurements, and the first shared protocol |
 | [CHAPTER_XXVIII_THE_RULE_OF_PROXIMITY](CHAPTER_XXVIII_THE_RULE_OF_PROXIMITY.md) | The Rule of Proximity | 4,032 | Expanded paired movement tests and showed how trust, coordination, and social distance affect the men's use of space |
@@ -169,7 +169,7 @@ The early chapters around the chest, the seven rules, Luke's first measurements,
 | [CHAPTER_XXXI_TWO_DOCTRINES](CHAPTER_XXXI_TWO_DOCTRINES.md) | Two Doctrines | 4,029 | Expanded Continuity and Escalation through practical training, preserved gloves, shared measurement practice, and a common protocol |
 | [CHAPTER_XXXII_THE_MEMORY_THAT_LOOKED_BACK](CHAPTER_XXXII_THE_MEMORY_THAT_LOOKED_BACK.md) | The Memory That Looked Back | 4,000 | Expanded the Hub's relational memory, the men's remembered moments, and the approach to the first contact box |
 
-**Verified total:** 43,859 words across the eleven revised files.
+**Verified total:** 44,139 words across the eleven revised files.
 
 The two family traditions are now recorded in [Relationship Canon](RELATIONSHIP_CANON.md): the first family preserves material traces of earlier lives, while the second maintains measurement histories and repeatable methods. They remain distinct, retain their own archives, and share reference conditions without treating either approach as sufficient on its own. The seven rules remain local to this Serum story branch; the wider GEEHUB canon continues to treat Serum as a contextual mechanism rather than a universal explanation.
 

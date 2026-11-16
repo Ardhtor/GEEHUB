@@ -140,6 +140,80 @@ By late morning, the families had found a way to work together without pretendin
 
 Luke stood beneath the trees and watched the men talk. He had not ended the rivalry; he had given it a form that could continue without making the men enemies. The group was still interested in scale. They still wanted to know how far the Serum might take them, how quickly the next threshold could arrive, and what kind of place they might need to build around it. But now the question included the person who would live inside the new body and the friends who would remember the earlier one.
 
+In the afternoon they tried the new arrangement on an ordinary training session. The two families moved to a flat stretch of ground beyond the clearing, where the soil was firm and the trees stood far enough apart to allow a full range of movement. They brought no formal equipment beyond the measuring tape, the old gloves, and a small set of markers. The idea was to preserve the distinction between what had been observed and what the men expected to happen. One man would complete a familiar sequence of movements; another would record the current baseline; a third would write down the practical conditions that made the movement possible.
+
+The younger man from the Escalation family began with a simple overhead reach. He stood with his feet shoulder-width apart and raised both arms until his hands were above his head. His shirt pulled slightly beneath the arms, and he paused when he felt the fabric catch. He had performed the same movement many times before, but his shoulders had broadened enough that the old range no longer felt natural. He lowered his arms and tried again more slowly, adjusting the angle of his elbows.
+
+Tyler watched from the side. “Don't force the last part.”
+
+“I can reach it.”
+
+“That's not what I said.”
+
+The younger man looked at him, then tried again without pushing. His hands reached the same height, but the movement was smoother. Tyler recorded the difference. The new baseline was not simply a larger measurement. It included a different route through the movement, a change in how the body was using the available space.
+
+The older man from the Continuity family watched and then brought the old gloves from the cedar case. He held them out. The younger man took them, fitting the worn leather over his fingers. They were too small now. The seams pressed against his knuckles and the palm sat shallow. He turned his hand, looking at the faded stitching.
+
+“I remember these,” he said.
+
+The older man nodded. “You caught your first clean pass in them.”
+
+“I dropped the first three.”
+
+“You dropped the first six.”
+
+The younger man laughed. “You said it was three.”
+
+“I was being kind.”
+
+The laughter spread through the group. The young man held the glove a moment longer, then placed it on a folded cloth beside the new measurement sheet. He did not put it away. The older man showed him how to note the original leather size and the places where the seams had worn through. Tyler added the current hand measurements beside it, not as a replacement, but as the next entry.
+
+Andrew came over carrying a ball. “Can we use the glove?”
+
+The younger man looked at the old one.
+
+“Not that one,” the older man said. “It's finished.”
+
+“Could we use the new one?”
+
+“That's why I brought it.”
+
+The young man from the second family had a new glove in his bag. It was larger, with a deeper pocket and a wrist strap that could be adjusted as his hand changed. He pulled it on and closed his fist. The leather creaked. He turned toward Andrew, who tossed the ball gently. The catch landed in the pocket with a low, clean sound.
+
+“Again,” Andrew said.
+
+The second throw came slightly to the left. The younger man shifted his feet and caught it. His stance was more open than before. Andrew moved closer and showed him how to position his glove without turning the shoulder too early. Tyler watched the line of the movement. The older man watched the younger man's expression. The drill was simple, but it brought the two doctrines into contact with ordinary activity. The old glove was preserved because it mattered. The new glove was used because the man still had to play.
+
+Luke stood a few steps away, watching the men work. He looked at the two gloves on the cloth. One carried the memory of a first successful catch; the other allowed the next one. Neither made the other obsolete. He saw the same relationship in the altered shirt he wore. The older seam remained inside the newer stitching. It was not necessary to choose between them.
+
+The older physician joined him.
+
+“Is this what you meant?” he asked.
+
+Luke nodded. “A man shouldn't have to forget what got him here to find out where he can go.”
+
+The physician watched the practice. “Nor should he have to remain where he was.”
+
+“No.”
+
+They stood quietly while the younger man caught another throw. The ball struck the pocket cleanly. Andrew nodded, then changed the angle. The next throw was higher. The young man reached for it and caught it without losing his balance. A few of the others applauded, and he laughed at the attention.
+
+“That's the current baseline,” Tyler said.
+
+Andrew looked over. “It was a catch.”
+
+“It's both.”
+
+The younger man removed the glove and examined the pocket. He asked Andrew to show him the adjustment again. Andrew did, then asked him to try it on his own. They repeated the movement until the new glove fitted his hand more naturally. The old one remained on the cloth, its worn shape undisturbed.
+
+Later, the families returned to the table and added a practical note to the two-doctrine agreement. Retained objects would be stored with their original context: who had used them, when, and what they had meant at the time. Current measurements would be kept with their method and conditions. When an object could no longer be used safely, its role would change from equipment to record. A new object could be introduced without treating the old one as a failure. The agreement did not require every man to preserve everything. It asked only that the men be deliberate about what they chose to keep and honest about what they chose to replace.
+
+The younger man placed the old glove in the cedar case himself. He wrote a short note and folded it around the wrist strap. He did not write a number first. He wrote: **THE FIRST CATCH I KEPT.** Then he added the date and his name. The older man read the note and nodded.
+
+“That will do.”
+
+The two families signed the shared reference procedure separately. They kept their own archives, but the methods could now be compared. The Escalation family did not have to begin retaining every shirt, and the Continuity family did not have to abandon its garments for a digital ledger. Both had agreed that a person deserved to remain visible through the changes, and that the next state deserved to be approached with enough care to become stable.
+
 The next stable state remained unknown. The first stable state had not been forgotten. Between them, the men had built a record that could hold both.
 
 Because once the question was written down, somebody would eventually answer it. And Luke, already inside the Serum, knew better than anyone that the answer would not remain theoretical for long.

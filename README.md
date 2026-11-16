@@ -32,7 +32,7 @@ The Tractus does not separate activity from its memory. Every event produced by 
 
 ## Protection architecture
 
-The [Tractus Protection Architecture](docs/TRACTUS_PROTECTION_ARCHITECTURE.md) defines how GEEHUB protects canon, identity, source archives, artifact provenance, dependencies, permissions, secrets, outbound publication, backups, and recovery while allowing continuous change. It is a governing specification, not a claim that every control is already active. Each control must be implemented, tested, and reported at its actual state before it is treated as operational.
+The [Tractus Protection Architecture](docs/TRACTUS_PROTECTION_ARCHITECTURE.md) defines how GEEHUB protects canon, identity, source archives, artifact provenance, dependencies, permissions, secrets, outbound publication, backups, and recovery while allowing continuous change. It is a governing specification, not a claim that every control is already active. Each control must be implemented, tested, and reported at its actual state before it is treated as operational. The machine-readable [Protection Register](engine/protection-register.json) records each control's foundation, actual status, evidence paths, and known limitations. Validate it with `python scripts/check_protection_register.py`; its regression tests run in the protection-gates workflow. The register deliberately distinguishes implemented code from tested or independently verified behavior.
 
 ## Tractus continuity
 

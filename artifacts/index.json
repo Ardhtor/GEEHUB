@@ -12589,6 +12589,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000282",
+      "created_at": "2026-11-16T15:55:02.251251+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "THE COMMON TABLE",
+      "content": "NICK: A detail returns in THE COMMON TABLE: A late arrival finds a place without ceremony. The conversation continues around the table, and a serving bowl is passed down to make room for one more.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/common-table/README.md.",
+      "lineage": {
+        "event_id": "world-pulse-000282",
+        "event": {
+          "id": "world-pulse-000282",
+          "pulse": 282,
+          "time": "2026-11-16T15:55:02.251251+00:00",
+          "actor": "TYLER",
+          "world": "THE COMMON TABLE",
+          "region_id": "common-table",
+          "previous_region_id": "common-table",
+          "phase": "MEMORY",
+          "source": "worlds/common-table/README.md",
+          "desire_state": "recognition",
+          "action": "NICK: A detail returns in THE COMMON TABLE: A late arrival finds a place without ceremony. The conversation continues around the table, and a serving bowl is passed down to make room for one more.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/common-table/README.md.",
+          "narrative_rule": "comparison can become differentiation",
+          "relation": null,
+          "next_region": null,
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-16T15:55:02.251251+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000282",
+      "created_at": "2026-11-16T15:55:02.251251+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "MEMORY / THE COMMON TABLE / worlds/common-table/README.md",
+      "content": "NICK: A detail returns in THE COMMON TABLE: A late arrival finds a place without ceremony. The conversation continues around the table, and a serving bowl is passed down to make room for one more.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/common-table/README.md.",
+      "production_note": "The world resolved its memory rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 282,
+        "actor": "TYLER",
+        "world": "THE COMMON TABLE",
+        "region_id": "common-table",
+        "source": "worlds/common-table/README.md",
+        "phase": "MEMORY",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00113",
+      "created_at": "2026-11-16T15:55:02.322812+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE FILM ARCHIVE CLUB",
+      "content": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+      "lineage": {
+        "event_id": "northgate-campus-00113",
+        "event": {
+          "id": "northgate-campus-00113",
+          "cycle": 113,
+          "world_pulse": 282,
+          "at": "2026-11-16T15:55:02.322812+00:00",
+          "region": "northgate-library",
+          "title": "THE FILM ARCHIVE CLUB",
+          "kind": "film",
+          "participants": [
+            "Elliot Ward",
+            "Marek Ionescu",
+            "Adrian Varga"
+          ],
+          "description": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-16T15:55:02.322812+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

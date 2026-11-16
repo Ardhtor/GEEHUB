@@ -200,6 +200,8 @@ Neither man made a promise about what the next meeting would settle. They had ag
 
 At the western fork, the youngest man from the first family asked the second family's notebook-holder whether he would bring the same instrument tomorrow. The man said he would, provided it remained calibrated. The first young man offered to carry the spare case. The offer was accepted, and they walked a short distance together before returning to their own groups. They did not exchange promises of friendship. They had only found one small task they could do without argument, which was a more useful beginning than either family had expected.
 
+Before they parted, the older keeper asked whether the second family would bring one of its earliest instruments. The tall man said he would, but it would be labelled as a historical instrument until its calibration had been checked. The keeper agreed to bring the oldest shirt from the cedar case, with its date and repair notes. Neither man offered to exchange the objects. They would bring them to the table so both families could see what each record could and could not show.
+
 The woods remained silent around them.
 
 The rivalry had become something else.

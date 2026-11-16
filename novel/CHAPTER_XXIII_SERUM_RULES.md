@@ -162,6 +162,24 @@ The youngest man tried the same movement. He was narrower, but the branch caught
 
 The seventh man added another note beneath the rule. A threshold was not always a dimension. Sometimes it was the point at which a familiar action became difficult, or a relationship became capable of changing what two men could do together. The men considered that last example. The largest man remembered how the youngest had steadied him at the stream. He had not needed the help, but the act had changed the way they walked afterward. They had begun to watch for one another rather than only for the path.
 
+They tested the relational threshold with the long branch they had carried through the doorway. The largest man took one end; the youngest took the other. At first they moved at different speeds. The branch turned, its upper end striking the frame. The youngest stepped back, and the largest man stopped before the movement could pull him off balance. They looked at one another.
+
+“Again,” the youngest said.
+
+This time they agreed on the turn before lifting. The largest man counted the first movement, the youngest took the second, and both lowered the branch at the same moment. It passed through the doorway without touching the frame. They repeated the action with the compass-carrier walking ahead to clear the path. The third attempt was smoother still. Each man had changed his movement in response to the others, and the task had become possible because they had learned a common rhythm.
+
+The seventh man watched them. “The threshold wasn't in either man's strength.”
+
+“No,” the map-carrier said. “It was in the way they moved together.”
+
+The largest man set the branch down. “We could have carried it through alone if we'd taken it apart.”
+
+“But then it wouldn't have been the same task,” the youngest replied.
+
+They considered this. The Serum had been changing individual bodies, but the men were discovering that a stable condition could also arise between people. The shared movement had become repeatable. It could be remembered, taught, and used again. Their relationship had altered the range of what they could do together, just as the widened doorway altered what could pass through the room. The men did not claim that this proved the Serum was measuring affection or trust. They recorded only what they had observed: a coordinated action had become possible after the men changed the way they attended to one another.
+
+The seventh man added a short note beneath Rule Five: **SOME THRESHOLDS ARE REACHED THROUGH COORDINATION.** The line did not replace the rule. It made its implications harder to ignore.
+
 The sixth rule was the one that frightened them.
 
 **RULE SIX: THE ENVIRONMENT MUST ACCOMMODATE A STABLE CHANGE.**

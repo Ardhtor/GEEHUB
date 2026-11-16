@@ -176,6 +176,50 @@ I did not answer immediately. The sentence was not a rejection of the machine. I
 
 Luke rested his hands on his knees. His fingers seemed larger against the dark fabric of his shorts than they had earlier in the year. He flexed them once, then relaxed. The growth continued quietly, but it had not taken his patience from him. He could wait for a threshold without pretending that waiting was the same as doing nothing. The machine had to prove every dollar. The Serum had to establish every change. And the men, in the meantime, still had to live with one another.
 
+Luke looked back at the opportunity list. “There's another thing.”
+
+“What?”
+
+“How much does it need to know?”
+
+I turned toward the screen. “Enough to identify the source and verify the claim.”
+
+“Does it need the rest?”
+
+“Not automatically.”
+
+He studied the panel. The machine had been built to find relationships among records, but that did not mean every record belonged inside it. An opportunity might depend on a date, a receipt, a cancellation notice, or an account statement. It did not necessarily need unrelated messages, photographs, or private details that had no bearing on the claim. The system could become more capable by collecting more information, but capability was not the same as permission.
+
+Luke pointed at the source field. “Then show why each piece is here.”
+
+I opened the source list. Each entry had a short reason: confirms the charge, establishes the date, records the cancellation, supports the amount, or remains pending because a confirmation had not arrived. The interface still needed a more obvious way to separate necessary evidence from optional context. I added a note explaining the source's role and a link back to the original item. No record would be treated as trustworthy merely because the engine had copied it into its own database.
+
+“And if it doesn't need something?” Luke asked.
+
+“Then it shouldn't collect it.”
+
+“Can it leave it out?”
+
+“Yes.”
+
+“Make that the default.”
+
+I changed the configuration note. The machine would request only the fields required for the specific review and would identify any additional material as optional. A person could decline to provide it without turning the claim into a failure by default. The system would report what could not be assessed and why. It would not search broadly through a person's life merely because more data might reveal another possibility.
+
+Luke watched the changes. “That's better.”
+
+He was no longer looking only at whether the machine could find money. He was considering what kind of attention it would bring into a person's life. A system that learned the shape of a life could become useful, but it could also become intrusive. The fact that every transaction left a trace did not mean every trace should be collected, interpreted, and retained. A good tool needed boundaries, and those boundaries needed to be visible to the person using it.
+
+I added a final review requirement: before a source was attached to a claim, the user should be able to see its origin, its purpose, and whether it was required. If the source was incomplete, the engine would say so. If the source was unrelated, the engine would not use it. The machine would not convert access into permission by implication.
+
+Luke read the note and gave a small nod.
+
+“You're building it for someone who has to live with it.”
+
+“That's the idea.”
+
+“Then keep that person in the room.”
+
 Neither of us entered anything. We did not authorize the pending claim, change the transfer limits, or ask the machine to produce another list. We simply kept looking at the screen, Luke beside me, the transfer rules glowing quietly between us. The forest pressed close to the window, its dark trunks reflected in the monitor glass. For the first time that evening I became aware that the interface had stopped feeling like a separate project. It belonged to the same house, the same gathering of men, the same effort to make systems that could be examined rather than obeyed blindly.
 
 A faint notification appeared at the lower edge of the display. It was not a transfer request. It was not a completed recovery. It was a new opportunity detected from a record that had not yet been reviewed. The machine had not moved money. It had found another question.

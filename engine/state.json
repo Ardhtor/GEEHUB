@@ -1,5 +1,5 @@
 {
-  "pulse": 284,
+  "pulse": 285,
   "events": [
     {
       "pulse": 1,
@@ -5265,6 +5265,28 @@
       "occurred_at": "2026-11-16T15:55:35.372975+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000285",
+      "pulse": 285,
+      "time": "2026-11-16T16:08:27.097428+00:00",
+      "actor": "LUKE",
+      "world": "NORTHGATE LIBRARY",
+      "region_id": "northgate-library",
+      "previous_region_id": "northgate-library",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/northgate-library/README.md",
+      "desire_state": "attention",
+      "action": "SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.9,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-16T16:08:27.097428+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -5315,7 +5337,7 @@
     "northgate-library": 284,
     "athletic-commons": 263.5
   },
-  "pressure": 0.88,
+  "pressure": 0.9,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -5336,16 +5358,16 @@
     "worlds/northgate-university/README.md": 19,
     "worlds/bluewater-quay/README.md": 12,
     "worlds/lantern-market/README.md": 9,
-    "worlds/northgate-library/README.md": 15,
+    "worlds/northgate-library/README.md": 16,
     "worlds/athletic-commons/README.md": 7
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "northgate-library",
-  "current_phase": "CROSSING",
-  "current_desire_state": "continuity",
-  "current_question": "What can change without erasing where it came from?",
-  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 211,

@@ -167,10 +167,13 @@ renderer, and encodes the transparent body layer as a new lossless RGBA PNG.
 The output PNG and adjacent `.receipt.json` are created exclusively; neither
 may already exist. The receipt records SHA-256 digests for the source frame,
 both masks, deformation plan, and output, together with frame/time, topology,
-vertex/triangle counts, and raster coverage. If receipt creation fails, the
-worker removes only the output file it created, identified by its device and
-inode. It never writes to the source, mask, or plan paths. The output directory
-must already exist.
+vertex/triangle counts, and raster coverage. These digests describe the bytes
+actually consumed; this first worker does not yet compare the source-frame or
+mask digests with registered bridge frame-set descriptors. That lineage check
+belongs to the queued-job batch adapter. If receipt creation fails, the worker
+removes only the output file it created, identified by its device and inode.
+It never writes to the source, mask, or plan paths. The output directory must
+already exist.
 
 Run one prepared frame with Node 22:
 

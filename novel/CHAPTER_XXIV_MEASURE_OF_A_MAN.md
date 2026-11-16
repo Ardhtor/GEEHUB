@@ -217,3 +217,56 @@ When they left the workshop, the street was busy. A carpenter was measuring a do
 The city had begun to respond to the change, but it was not doing so through one grand transformation. It was making a series of practical decisions: a doorway widened, a bench shifted, a shirt altered, a pack strap lengthened, a route cleared. The men were not waiting for the world to become perfect before they used it. They were learning which adjustments made the next ordinary action possible.
 
 They walked back through the upper district with the sample folded over Luke's arm. The city was making its own quiet adjustments: a carpenter measuring a doorway, two students shifting a heavy bench, a delivery man leaving a longer package beside the tailor's entrance. None of these changes was dramatic on its own. Together they formed a kind of civic intelligence, a willingness to notice what had become difficult and make it easier without turning the person into a problem. Luke understood that the measure of a man could not be reduced to the dimensions of his body. It also included the quality of the spaces that learned to receive him.
+
+That evening Luke returned to the blue-lit room without the others. The sample shirt was folded over his arm, and the chalk marks had begun to fade where the tailor had brushed the fabric. Tyler was still at the table, comparing the new notes with the earlier measurements. He looked up when Luke entered.
+
+“Did it fit?”
+
+“Better.”
+
+“Good.”
+
+Luke put the shirt beside the notebook and sat on the wider chair. He took a moment to settle his weight, then looked at Tyler.
+
+“You were watching me all day.”
+
+Tyler glanced at the measurements. “I was watching the changes.”
+
+“I know. But there were times when I wasn't sure whether you were looking at me or at the numbers.”
+
+Tyler closed the notebook. He did not answer quickly. “At first, the numbers were easier to understand.”
+
+“And now?”
+
+“Now I know the numbers don't tell me whether you want me to keep looking.”
+
+Luke nodded. He had not wanted to accuse Tyler. He wanted the difference to be spoken aloud, because the group would face it again. A man might agree to be measured and still not want to become the centre of a room. He might welcome help with a shirt but dislike having every movement commented upon. Permission could be specific. It could change. Being a friend did not grant unlimited access to another person's body or experience.
+
+Tyler took the chalk-marked shirt and unfolded it. “Would you rather I ask before I record something?”
+
+“Yes.”
+
+“Even if I think the change is obvious?”
+
+“Especially then.”
+
+Tyler nodded and wrote a note in the margin of the ledger: **ASK BEFORE ADDING A PERSONAL OBSERVATION.** He showed it to Luke. Luke smiled.
+
+“That one should be on the wall too.”
+
+Tyler wrote it on a small slate and placed it beside the other rules. The measure of a man now included the right to decide how he would be observed. The body could be studied, the shirt altered, the doorway widened, and the measurements preserved. None of those tasks removed the man's authority over his own participation.
+
+Luke stood and tried the sample shirt once more. The fabric settled across his shoulders, and the extra ease through the back allowed him to reach forward without the seam tightening. He looked at himself in the glass beside the door. The reflection showed the same face and the same familiar posture, but the shirt gave his body a little more room to move.
+
+“That's the one,” he said.
+
+Tyler nodded. “We'll keep the earlier one as the record.”
+
+“Not as a warning.”
+
+“No. As the shirt that fit then.”
+
+Luke turned from the glass. “Good.”
+
+The room was quiet. The vessel moved faintly on the table. Outside, the city continued making small adjustments to the places where men lived and worked. Luke folded the shirt over the chair, not because he had finished changing, but because it would be ready when he needed it. The body was still becoming. The record was still open. The man remained the authority on what the change meant to him.
+

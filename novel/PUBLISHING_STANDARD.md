@@ -58,6 +58,12 @@ Do not turn every beat into a separate paragraph. Use substantial paragraphs whe
 - Use consistent typography and formatting conventions suitable for later EPUB, print, and PDF production.
 - Do not claim a manuscript is publication-ready merely because it has been revised. A final proofread, fact check, rights review, and format-specific proof remain necessary.
 
+## Living canon and chapter-led revision
+
+The manuscript is allowed to improve its own canon. A later scene may clarify, deepen, or revise an earlier provisional description when the revision is coherent with the story and the user's current direction. Do not freeze an incomplete note merely because it predates a better chapter. When revising canon, preserve the meaningful earlier state as history where appropriate, record the source chapter, and update all connected character, relationship, setting, and index records. Distinguish confirmed facts from open questions, but keep unresolved details available for creative development rather than using them to stop the scene.
+
+When a chapter establishes a new person, habit, relationship, or group practice, carry it into the relevant canon during the same revision pass. When an expanded scene changes the interpretation of an earlier event, reconcile the related chapters and notes deliberately. The user may authorize a direct canon change; otherwise, preserve the evidence and mark the proposed interpretation provisional until it is supported.
+
 ## Revision workflow
 
 1. Read the whole relevant book and its continuity records before revising a chapter.

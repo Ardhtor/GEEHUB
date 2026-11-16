@@ -300,6 +300,7 @@ const server=http.createServer(async(req,res)=>{
       runtime:{name:"GEEHUB",pid:process.pid,platform:process.platform,arch:process.arch,node:process.version,uptime_seconds:Math.floor(process.uptime())},
       process_memory_bytes:{rss:memory.rss,heap_total:memory.heapTotal,heap_used:memory.heapUsed,external:memory.external,array_buffers:memory.arrayBuffers},
       host_memory_bytes:{total:os.totalmem(),free:os.freemem()},
+      host_cpu:{logical_cores:os.cpus().length,model:os.cpus()[0]?.model||"unknown",load_average_1m:Number(os.loadavg()[0].toFixed(2))},
       world_activity:{record_count:activityLines.length,latest:latestActivity?{id:latestActivity.id||null,type:latestActivity.type||null,title:latestActivity.title||null,at:latestActivity.at||latestActivity.occurred_at||null}:null},
       sampled_at:new Date().toISOString()
     });

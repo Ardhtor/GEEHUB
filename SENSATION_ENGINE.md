@@ -40,6 +40,16 @@ For every human image generation, apply this realism pass unless the user explic
 
 Before accepting an output, ask: Does the skin look like skin rather than stone, plastic, or a noisy filter? Are muscle boundaries softly connected rather than triangular and cut out? Is the contrast natural? Does the anatomy read as one living body? If any answer is no, revise the prompt toward **natural skin, rounded continuous muscle forms, soft transitions, realistic diffuse lighting, subtle fine-grain detail, and unforced human posture**, and away from **faceted anatomy, sharp separations, exaggerated striations, gritty pores, crunchy contrast, and sculptural surfaces**.
 
+## Clothing and flesh as coupled materials
+
+Clothing and flesh are a primary GEEHUB continuity concern, not finishing details added after a body transformation. Treat them as two distinct material systems in a continuous relationship. Flesh carries living volume, anatomy, skin, posture, weight and movement. A garment carries its own cut, construction, seams, closures, fabric, fit and history. As the body changes, the garment must respond according to its construction rather than being automatically scaled or painted onto the new silhouette.
+
+Track the points where a garment meets the body: chest panel and shoulder seam; armhole and sleeve; collar and neck; waistband and waist; seat and hips; leg opening and thighs. Observe drape, stretch, wrinkles, folds, compression, contact, shifting and movement clearance. Material failure is possible but not automatic. A character may adjust, tailor, replace, borrow or keep a garment, and those choices should belong to his personal style and agency.
+
+Evaluate the relationship in motion as well as at rest. Matched poses and camera conditions help distinguish real growth from perspective changes. In narrative, make the clothing consequence part of an actual activity or exchange rather than repeating a generic tight-shirt gag. Keep the man's identity and the garment's identity continuous across the sequence.
+
+The production contract and build sequence are specified in [Clothing and Flesh System](production/growth-study-001/CLOTHING_AND_FLESH_SYSTEM.md). Growth Study 001 V3 is only a blockout: its training trunks and waistband are simple geometry, and cloth simulation is not implemented or validated.
+
 ## State model
 
 Each iteration should retain a compact record with these fields:

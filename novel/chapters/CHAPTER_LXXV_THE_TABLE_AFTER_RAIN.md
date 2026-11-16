@@ -221,3 +221,7 @@ They both knew there was more in the sentence, but neither pressed it. The morni
 Before anyone left the room, Chase returned the old fastener to its tray and wrote a note about the repaired corner. He did not label the table as newly restored. He called it serviceable, with a date for the next inspection. Joseph read the note and approved. The table would be used for supper, for letters, for the occasional board game, and for the small domestic arrangements that made the common room feel inhabited. The men had made no grand agreement about what the repair meant. They had simply learned that a shared object could carry its history without making everyone repeat it aloud. When Andrew came back from the kitchen with another loaf, he put it in the centre of the table as though the morning's work had never interrupted the meal. Tyler checked the brace once more, then joined them. The repaired table had returned to use, which was the best kind of ending it could have had.
 
 By afternoon, the table had become ordinary again. That was the result they had wanted. Its history remained in the note, the measurement, the small piece of wood fitted into the socket, and the way six men had learned a little more about one another while making it usable.
+
+**SETH:** The table has been repaired, and the men have resisted the urge to turn it into an allegory.
+
+**NICK:** The allegory is there anyway. It just has jam on it.

@@ -82,7 +82,7 @@ def validate_register(data: Any, root: Path = ROOT) -> list[str]:
             for entry in entries:
                 _repository_file(root, entry, control_id, field, errors)
 
-        if status in {"specified", "deferred"} and not control.get("specification"):
+        if isinstance(status, str) and status in {"specified", "deferred"} and not control.get("specification"):
             errors.append(f"{control_id}: {status} requires specification evidence")
         if isinstance(status, str) and status in {"implemented", "tested", "verified"} and not control.get("implementation"):
             errors.append(f"{control_id}: {status} requires implementation evidence")

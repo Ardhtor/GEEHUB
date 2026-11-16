@@ -123,7 +123,7 @@ The chapter establishes a new relational thread: Gabe and Dorian's next meeting;
 The Dormitory Decathlon passes through the common room, shoe store, laundry corridor, study room, Map Room, workshop, and roof terrace. No one is timed and there is no winner. The tasks test cooperation, safe movement, storage, navigation, and shared use of the building. Daniel's shoe-rack prototype is tested but still needs a final load test; the quiet room's final plaque and inspection remain open. The chapter closes with the men planning the next day's work and a report expected from Dorian Vale's western survey.
 
 
-## Retrospective expansion — Chapters LXXIII–LXXX
+## Retrospective expansion — Chapters LXXIII–LXXXI
 
 The current novel chapter run has been revised in place toward the publishing standard. The earlier chapters were expanded through developed scenes, physical setting, relationship changes, and consequences rather than outline-like additions. Dialogue and Seth/Nick narrator turns remain separately line-broken; adjacent narrative fragments have been consolidated into fuller paragraphs.
 

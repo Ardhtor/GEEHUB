@@ -196,3 +196,16 @@ The recovery continuity index now connects the GitHub repository revision, canon
 - `scripts/test_recovery_index.py` tests the linked identities, verification boundary, and outstanding controls; the protection workflow runs it with the other recovery tests.
 
 The Git restore integration test has passed. A Dropbox restore drill, content-level Dropbox hash inventory, independently administered/offline copy, and main-branch rules remain outstanding. The index must preserve these distinctions and append new evidence without rewriting prior snapshot records.
+
+
+## 16. The living protection register
+
+The architecture now has a machine-readable counterpart at `engine/protection-register.json`. It is the operational index of the protections described here: each control names its foundation, current status, scope, implementation paths, test paths, verification evidence, and known limitations. The register is intentionally modest. It does not infer that a feature works because a document describes it, and it does not elevate a control to `tested` or `verified` merely because source code exists.
+
+Run `python scripts/check_protection_register.py` from the repository root to inspect the register against the files that actually exist. The validator checks unique control identities, allowed status values, safe repository-relative evidence paths, and the evidence required by each assurance level. Its regression suite is `scripts/test_protection_register.py`; the protection-gates workflow runs that suite and validates the register on its normal workflow events.
+
+The register is a current inventory, not a declaration that the architecture is complete. Its first entries distinguish the existing changed-file integrity gate, repository snapshot tooling, recovery index, event inscription, and canon-version provenance from controls that remain deferred or specified only. In particular, repository branch rules, an independently administered or offline backup, a real Dropbox restoration drill, and a general outbound-publication gate remain outstanding. The repository copy of a recovery manifest is useful, but it is not an independent backup.
+
+The register must evolve with the program. When a control changes, update its evidence and limitations in the same change as the implementation. A control may move from specified to implemented, from implemented to tested, and from tested to verified only when the corresponding evidence exists. If evidence disappears, the validator should fail rather than preserve an obsolete assurance label. Historical changes to the register remain in Git history.
+
+This is the first small operational expression of the protection architecture: the institution can now inspect not only the protections it intends to have, but the repository evidence currently present for each one.

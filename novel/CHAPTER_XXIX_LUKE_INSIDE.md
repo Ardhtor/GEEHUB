@@ -162,6 +162,72 @@ Tyler considered the answer. “We can record the site without repeating the tes
 
 The men accepted that. It was a small exercise in restraint. They had learned how easily an observation could become a performance when too many people wanted to see the same thing. The pool did not owe them a second display. Luke's experience did not need to be reproduced before it could be taken seriously. They could preserve his account, mark it as a personal observation, and leave the phenomenon unresolved.
 
+The younger man from the second family brought a notebook over and asked whether Luke wanted the account recorded that evening or the following morning. He did not open it until Luke nodded. The question mattered. The pool had been a private encounter until Luke chose to describe it; the fact that the other men were curious did not give them permission to turn it into a demonstration. Tyler stood nearby with the instrument case open, ready to record the location without making another test of the water. He had already written the time at which Luke left the camp and the time at which he returned. He had not assigned an explanation to the interval.
+
+“What do you want kept?” the younger man asked.
+
+Luke looked at the notebook. “What I saw. Not what you think it means.”
+
+The man nodded.
+
+“And don't write that it was a second person.”
+
+“Even if it looked like one?”
+
+“It was me.”
+
+The younger man wrote that down, then waited. Luke described the delay in the reflection, the change in scale, the way the image had remained near the water after he stepped back, and the brief view of the forest beneath the surface. He did not try to make the account more dramatic. When he could not remember whether the reflected figure had moved its left hand or right hand first, he said so. The younger man left the detail unresolved. Tyler added the location and environmental conditions: no visible wind at the pool, no rain falling at the time, still surface, low ambient light, and no instrument reading taken during the event. The record was not a reconstruction. It was Luke's account, with the limits of the observation visible.
+
+The older physician came over and looked at the page. “You are giving the uncertainty as much room as the observation.”
+
+“That's the only honest way,” Tyler said.
+
+The physician nodded. He had spent years protecting old records from careless interpretation, but he was beginning to appreciate that a new account could also be protected by refusing to make it more complete than it was. He asked Luke whether the reflection had frightened him.
+
+Luke considered the question. “Yes.”
+
+“Because it was larger?”
+
+“Because it was still me.”
+
+The physician sat on the low log beside him. The wood gave a quiet creak beneath his weight. He rested his hands on his knees and looked toward the dark trees. “A man can prepare himself for a stranger. It is harder to prepare yourself for a familiar thing that has changed.”
+
+Luke glanced at him. “Have you seen it?”
+
+“No. But I have seen men return from the Serum with bodies their families did not recognise at first. They knew the face. They knew the voice. But the room had to learn the new proportions, and the people had to learn the new habits. Recognition is not always immediate, even when the person is continuous.”
+
+Luke looked down at his hands. They were larger than they had been when he first entered the forest. He could remember holding a glass carefully in the old kitchen, checking the clearance before turning. He still moved that way at times, although his strength had increased. The body had changed faster than some of its habits. He wondered whether the reflection had shown him a future state, a memory, or a possibility that had become visible because the pool was made to hold more than one scale.
+
+“I don't want it to become a test,” he said.
+
+The physician looked at him.
+
+“People will want to stand around the pool and see if they can get a larger reflection. Then they'll compare themselves. Then somebody will say the Serum gave him a better one.”
+
+The older man nodded slowly. “Then we will not take them there.”
+
+Tyler closed the instrument case. “We can record the location as a personal observation site. No group trial until Luke chooses otherwise.”
+
+Luke glanced at him. “I might never choose otherwise.”
+
+“Then it remains a record.”
+
+The younger man wrote the decision beneath the account. He did not ask Luke to sign it immediately. Instead he turned the notebook so Luke could read what he had written. The final sentence read: **NO REPRODUCTION ATTEMPT AUTHORISED; OBSERVATION REMAINS PERSONAL AND UNRESOLVED.** Luke read it twice and nodded. It was accurate.
+
+Joseph arrived with a dry blanket and draped it over the back of the log. “You're all sitting in the cold.”
+
+“We're recording a discovery,” Andrew said from the other side of the fire.
+
+“You can record it while wearing something warmer.”
+
+Andrew looked down at his bare forearms and laughed. He had been listening from the edge of the camp, his attention shifting between the pool account and the pattern of sparks rising from the fire. He had no desire to turn Luke's experience into an experiment, but he was already thinking about how a reflection could preserve scale differently from a photograph. He asked whether Luke had seen the trees move in the water or only his own body. Luke said both, but the trees had remained more stable than the reflected figure. Andrew made a note and then closed the notebook.
+
+“I'm not putting it down yet,” he said. “I just don't want to forget the question.”
+
+Luke gave him a small smile. “That's all right.”
+
+Andrew sat beside Tyler, leaving a space between them for the instrument case. Tyler showed him the site note and explained why the account should remain separate from any future measurements. Andrew listened, then asked whether they could compare a normal reflection at another pool without involving Luke. Tyler said that was a different question and might be reasonable later, provided it did not become an attempt to reproduce the event by pressure or suggestion. Andrew accepted the distinction. His curiosity was still active, but he had learned to wait for the right conditions.
+
 The fire settled into low coals. The clearing beyond the camp was dark. Luke sat with his hands resting on his knees, occasionally flexing his fingers as though checking that they still answered in the ordinary way. His body felt familiar, but the reflection had given him a new relation to it. He could no longer think of growth as a simple increase in dimension. A larger body required a world that could hold it, and the world itself might be part of the process by which that body became possible.
 
 The Serum was not merely altering the figure that other people saw. It was changing the relationship between the figure and the place in which it appeared. Perhaps that was what Luke had meant when he said it was inside him. He was not describing a substance moving through his muscles. He was describing an experience in which the boundary between body, reflection, memory, and environment had become less secure. The body remained his. The forest remained the forest. But each had begun to contain an image of the other.

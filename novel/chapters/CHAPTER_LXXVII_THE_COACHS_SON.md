@@ -262,6 +262,12 @@ They walked on together.
 
 They walked out together into the cool morning. The hall remained open behind them, ready for the next group, and the session record stayed on its hook with the new note in Travis's handwriting. It did not describe the whole relationship. It only preserved what they had agreed to do next.
 
+On the path toward the residential wing, Travis walked close enough to his father that their shoulders nearly aligned. He had grown again, and his frame now carried more of the space around him. Mr. Kaufman noticed the change without making it the first subject of the morning. At the next doorway, he paused and let Travis pass ahead. The gesture was small, but Travis noticed it. His father was not measuring him against the old doorway or trying to decide what the change required. He was simply walking beside him. Travis looked back and grinned.
+
+**TRAVIS:** “Come on, Dad.”
+
+Mr. Kaufman followed. The clipboard remained behind in the gym, and for the next few minutes the two men had nothing to do except get home together.
+
 SETH: There's the difference, Nick. The coach can see a movement that needs correcting. A father has to see the son who is doing it, and remember that the boy in front of him is allowed to become a man with his own judgement.
 
 NICK: And the son has to be able to ask for both. He can want instruction without surrendering his own account of the work. He can want his father without having to earn the visit by lifting well.

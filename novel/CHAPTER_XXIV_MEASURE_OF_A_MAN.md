@@ -154,6 +154,48 @@ The Serum had given them another rule.
 
 The city had begun to learn how to use it.
 
+Before they went to the tailor, the men returned to the blue-lit room and repeated the movements they had been using to understand the new measurements. The largest man walked from the table to the doorway and back. He did it once at his ordinary pace, then again while carrying a wooden case. The case changed his balance. His shoulders moved forward to compensate, and his steps became shorter. Tyler watched the feet rather than the chest. The largest man stopped and looked at him.
+
+“What?”
+
+“Your stride changed when you picked that up.”
+
+“It's heavier than it looks.”
+
+“That's part of it. But you also turned your shoulders before your hips.”
+
+The largest man tried again. This time he carried the case close to his body and kept his hips aligned with the direction of travel. The movement was smoother. He had not become instantly skilled at using his new proportions. He had to learn what the change required, and the others had to observe without mistaking a difficult movement for a failure.
+
+The youngest man tried the same route. He was carrying a folded blanket rather than the case. His shoulders had widened enough that the doorway no longer felt generous, but he passed through easily when he turned slightly. He looked back at the frame.
+
+“It's bigger than yesterday.”
+
+“Or you are,” the compass-carrier said.
+
+“Both could be true.”
+
+The seventh man asked them to mark the doorway rather than decide from memory. They used the same points at the top and sides, and Tyler recorded the clearance. The frame had widened. The men could see the difference in the marks and feel it in the way they moved through the space. But they did not claim the doorway had widened in response to a single person. The whole room had changed as the group continued to use it.
+
+They moved to the chair. The largest man sat down, stood, and sat again. The first time he placed his hands on the armrests; the second time he did not need them. The chair had widened, but his balance had also improved. The men recorded both facts. The youngest man sat next. The seat was now so broad for him that he had to shift toward the centre. The same adjustment that made the chair comfortable for the largest man made it less suitable for someone else.
+
+The map-carrier looked at the chair and then at the men. “We need more than one.”
+
+“More chairs?” the youngest asked.
+
+“More kinds of chair. One size isn't going to solve it.”
+
+The seventh man nodded. The environment had to accommodate a stable change, but accommodation did not mean that every object should become the same size. The room needed choices. The chair should remain usable by the man it had been designed for, while a second chair could serve a larger body. A bench could be widened without making the table too high. A doorway could be adjusted without forcing every corridor into the same proportion.
+
+The men began to understand that adaptation was not a single act of expansion. It was a series of decisions that preserved use. A room could be larger and still be badly arranged. A shirt could be wider and still pull in the wrong place. A man could gain strength and still need to relearn his balance. The measurement told them what had changed; the practical test told them whether the change worked.
+
+Luke stood beside the chair and looked around the room. “We don't just need to make things bigger.”
+
+“What do we need?” Tyler asked.
+
+“Make them work.”
+
+The others accepted the answer. They returned the chair to its place and moved the table away from the doorway. The new arrangement allowed the largest man to pass with the case while leaving enough space for the youngest to walk beside him. It was not a finished design. It was a room that had become more useful because the men had tested it together.
+
 ## The measures between measurements
 
 By late afternoon the tailor's workshop had become a meeting place. The front windows were open, and the smell of warm cloth, chalk, cedar hangers, and the street's cooking fires moved through the room together. Luke stood on the low fitting platform while the tailor checked the new yoke, then asked him to raise his arms, turn, reach forward, and breathe deeply. The shirt followed without pinching. It was a small success, but everyone could see the difference between a garment that merely covered a changed body and one that allowed the body to live in it. Tyler watched the shoulder seam settle into place and nodded.

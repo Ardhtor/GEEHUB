@@ -250,4 +250,6 @@ The water remained dark beneath the trees. Its surface held the forest in place,
 
 He had not yet decided whether that was reassuring.
 
+Before he settled beneath the blanket, Joseph came over and sat beside him. He did not ask Luke to describe the pool again. He asked whether the shirt should be left near the fire or folded inside the dry bag. Luke said the bag, and Joseph folded it carefully without trying to smooth away the new tension in the seams. Tyler passed by with the notebook and told Luke the account had been stored exactly as approved. Andrew called from the other side of the camp that he still wanted to hear about the water someday, but only if Luke wanted to show him. Luke answered that he would think about it. The invitation remained an invitation. It did not become a plan until Luke chose to make one.
+
 He had only decided that it was true to what he had seen.

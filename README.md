@@ -177,9 +177,12 @@ the queued job. The manifest queue validator, staging courier, and Resolve Free
 inspector all cross-check that reference; staging also verifies the three
 sidecar files' actual bytes. Older v1 jobs without the additive deformation
 reference remain readable, but every new preparation requires it. `stage:bridge`
-can then deliver the bundle to the Dropbox mirror. These steps prepare
-auditable jobs and a first per-frame deformation plan; a ready plan can reach
-the Canvas warp, but no source-footage batch or finished video has been rendered.
+can then deliver the bundle to the Dropbox mirror. A ready deformation
+plan can now be rasterized into one new transparent body-layer PNG with an
+adjacent digest receipt through `npm run render:frame`. This single-frame
+worker consumes an already prepared plan; it does not yet derive plans from
+the queued job, batch the registered sequence, reconstruct the background,
+composite the protected face, or export a finished video.
 Construction evidence and remaining blockers are recorded in
 [world/gee-narrative/STATE.md](world/gee-narrative/STATE.md) and
 [world/gee-narrative/CONSTRUCTION_CHRONICLE.md](world/gee-narrative/CONSTRUCTION_CHRONICLE.md).

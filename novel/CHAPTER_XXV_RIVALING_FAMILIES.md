@@ -224,6 +224,18 @@ Luke smiled. “You'll get used to saying it.”
 
 The men began collecting their equipment. The cedar case was carried by the older man and his younger relative. The second family packed its instruments into the hard cases and checked that the wraps were dry. Several of the younger men remained together for a while, talking about the new change and comparing how their coats fitted. The conversation had lost its edge. They were still curious about one another, and some of them were still measuring themselves against the other family, but the comparison no longer required a winner.
 
+The two groups did not leave by separate roads immediately. They walked together as far as the fork where the western track met the old service path. The changed man travelled near the centre, with the tall representative of the second family on one side and the older keeper of the cedar case on the other. No one tried to hold him upright. They simply kept enough room for him to walk at his own pace. The pressure across his shoulders eased as they moved, and the coat settled into its altered shape.
+
+At the fork, the tall man offered to carry one of the first family's cases as far as the next camp. The older man hesitated, then passed him a smaller parcel containing the measurement notebooks. The cedar case remained with its keeper. The arrangement was practical rather than symbolic: the books were lighter, and the man carrying them had a free hand. Yet the exchange mattered. The two families had begun to entrust one another with things they valued.
+
+Luke watched the handover. The tall man caught his eye.
+
+“Tomorrow, then,” he said.
+
+“Tomorrow,” Luke replied.
+
+Neither man made a promise about what the next meeting would settle. They had agreed only to return, to bring their records, and to look at the evidence together. The road split beneath the trees. The men paused long enough to make sure everyone knew which route the others would take, then continued toward their separate camps with the sense that the distance between them had become a little easier to cross.
+ 
 The woods remained silent around them.
 
 The rivalry had become something else.

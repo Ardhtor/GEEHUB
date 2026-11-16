@@ -1,6 +1,15 @@
 # GEEHUB construction state
 
-Updated: 2026-11-15
+Updated: 2026-11-16
+
+## File-backed single-frame body-layer worker added — 2026-11-16
+- `core/frame-file-renderer.js` adds `renderGrowthFrameFiles()`, connecting the existing bounded PNG codec and CPU pixel rasterizer to local files. It consumes one source RGB/RGBA PNG, the same-frame binary grayscale body and protected-face masks, and a serialized ready `geehub.growth-deformation-frame` plan with stable vertex/triangle identities and a topology digest.
+- The worker reads regular files through an opened handle, rejects final-component symlinks (using `O_NOFOLLOW` where available), enforces byte/pixel ceilings, checks for input changes during reads, verifies matching image dimensions, and reruns the pixel renderer before encoding a transparent RGBA body layer.
+- It creates the new PNG and adjacent `.receipt.json` with exclusive creation. The receipt records SHA-256 digests for the source frame, body mask, face mask, plan, and output, plus frame/time, topology, vertex/triangle counts, and raster coverage. Existing outputs are never replaced. If receipt creation fails, cleanup is limited to the output inode created by that attempt.
+- `tools/render-growth-frame.js` and `npm run render:frame` expose the single-frame operation. The output directory must already exist. The command requires a plan already emitted by the validated deformation pass; it does not yet derive plans from a queued render job or schedule a full frame sequence.
+- Five focused file-worker tests cover output/receipt digests, preservation of every input, existing-output refusal, rollback when the receipt path already exists, symlink and input-path collision refusal, dimension mismatch, and blocked/incomplete plans. Node syntax checks passed. The isolated local I/O harness used stubbed codec/mask/rasterizer adapters, so it verifies file safety and receipt behavior rather than the real pixel implementation; the repository CI result is recorded separately when available.
+- No background plate is reconstructed, no protected-face composite or complete frame is produced, and no batch, Resolve, or video export is claimed. `pixelSemanticsVerified` remains false. No local Mac/Dropbox session or user footage was accessed.
+- Next: connect registered render-job inputs and the full sequence deformation output to a batch frame worker, then build explicit background reconstruction and protected-face compositing stages.
 
 ## Lossless RGB/RGBA PNG boundary added — 2026-11-15
 - `core/rgba-png.js` adds `decodeRgbaPng()` and `encodeRgbaPng()` as a bounded, dependency-free PNG byte boundary for the existing pixel renderer. The decoder accepts non-interlaced 8-bit truecolour RGB and RGBA PNGs; RGB pixels are expanded to opaque RGBA. It verifies chunk CRCs and ordering, checks the exact decompressed row length, reconstructs PNG filters 0–4, and enforces a 12-million-pixel and 128 MiB default input ceiling.

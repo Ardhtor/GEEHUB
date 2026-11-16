@@ -270,3 +270,7 @@ Luke turned from the glass. “Good.”
 
 The room was quiet. The vessel moved faintly on the table. Outside, the city continued making small adjustments to the places where men lived and worked. Luke folded the shirt over the chair, not because he had finished changing, but because it would be ready when he needed it. The body was still becoming. The record was still open. The man remained the authority on what the change meant to him.
 
+Before they left the room, Tyler added the sample shirt's alteration date to the ledger and linked it to Luke's current measurements. Luke asked him to include the earlier fit as well. The old shirt was not to be labelled defective, and the new one was not to be labelled final. They were two garments in one continuing record. The distinction pleased Luke. It meant the clothes could change without the story becoming a list of things that had failed.
+
+He switched off the blue lamp. The vessel remained visible in the softer light, and the chalk rules stayed on the wall. Tomorrow they would repeat the measurements, test the doorway again, and see whether the city had made any further adjustments. For now, the shirt fitted, the chair held, and the men knew what they had to check next.
+

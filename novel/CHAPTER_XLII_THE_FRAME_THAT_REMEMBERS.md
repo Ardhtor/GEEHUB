@@ -1,4 +1,4 @@
-# The Frame That Remembers
+# Chapter XLII — The Frame That Remembers
 
 The monitor was still showing the same frame when the room began to change around it. Nobody had touched the mouse for a while. A narrow strip of daylight had moved across the desk, caught the rim of a water glass, and reached the corner of a notebook where somebody had written three measurements and crossed out the first two. The image on the screen had not moved, but it was no longer being looked at as a picture. It had become a question about what happened immediately before it and what would have to happen immediately after.
 

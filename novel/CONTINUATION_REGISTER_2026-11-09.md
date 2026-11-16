@@ -150,3 +150,29 @@ The current novel chapter run has been revised in place toward the publishing st
 The active western-road chapter is [The Giant on the Western Road](chapters/CHAPTER_LXXIX_THE_GIANT_ON_THE_WESTERN_ROAD.md), with [Dorian Vale](../characters/records/DORIAN_VALE.md) as its linked character record. The current sequence follows the adult male ensemble and preserves the established characters' distinct histories, bodies, friendships, and ways of relating.
 
 **Next continuation:** Dorian's western-crossing report reaches East Dormitory; the shoe-storage rack receives its final load test; the Room for Quiet plaque and formal inspection are completed; Andrew proposes a second cooperative route that links the dormitory to the gymnasium without turning it into a timed contest.
+
+## Retrospective expansion — early Serum and family sequence (Chapters XXIII–XXXII)
+
+The early chapters around the chest, the seven rules, Luke's first measurements, the meeting of the two families, proximity, and the Hub's memory have been revised in place. The revisions add the men's journey and shared camp life, the practical demonstrations behind the seven rules, body measurement and tailoring, the first meeting between the families, shared movement tests, Luke's reflection encounter, the transfer-engine review, the two doctrines, and the Hub's recovery of ordinary relational memory. Events and established outcomes are retained; repeated passages found during the pass were removed.
+
+| Manuscript file | Current title | Verified word count | Revision focus |
+|---|---|---:|---|
+| [CHAPTER_XXIII_THE_CHEST_IN_THE_WOODS](CHAPTER_XXIII_THE_CHEST_IN_THE_WOODS.md) | The Chest in the Woods | 3,922 | Expanded the seven men's journey, shared camp, first encounter with the chest, and their decision to continue together |
+| [CHAPTER_XXIII_SERUM_RULES](CHAPTER_XXIII_SERUM_RULES.md) | The Seven Rules | 4,010 | Turned the rule list into a testable scene with body, room, movement, coordination, and stable accommodation |
+| [CHAPTER_XXIV_MEASURE_OF_A_MAN](CHAPTER_XXIV_MEASURE_OF_A_MAN.md) | The Measure of a Man | 3,996 | Expanded physical awareness, multi-view proportion checks, measurement practice, tailoring, movement, and consent |
+| [CHAPTER_XXV_RIVALING_FAMILIES](CHAPTER_XXV_RIVALING_FAMILIES.md) | Rivaling Families | 3,814 | Expanded the first meeting, archive differences, emerging trust, the next-baseline event, and shared departure; cleaned duplicated passages |
+| [CHAPTER_XXVI_LUKE_AND_I_PONDER_THE_MACHINE](CHAPTER_XXVI_LUKE_AND_I_PONDER_THE_MACHINE.md) | Luke and I Ponder the Machine | 4,022 | Expanded the transfer rules, evidence boundaries, privacy, and Luke's insistence that a machine not define a life |
+| [CHAPTER_XXVII_THE_SECOND_TABLE](CHAPTER_XXVII_THE_SECOND_TABLE.md) | The Second Table | 4,020 | Expanded the families' comparison of photographs, garments, measurements, and the first shared protocol |
+| [CHAPTER_XXVIII_THE_RULE_OF_PROXIMITY](CHAPTER_XXVIII_THE_RULE_OF_PROXIMITY.md) | The Rule of Proximity | 4,032 | Expanded paired movement tests and showed how trust, coordination, and social distance affect the men's use of space |
+| [CHAPTER_XXIX_LUKE_INSIDE](CHAPTER_XXIX_LUKE_INSIDE.md) | Luke Inside | 4,011 | Expanded the pool encounter, Luke's account, the men's response, and the decision not to force a reproduction test |
+| [CHAPTER_XXX_THE_TRANSFER_ENGINE](CHAPTER_XXX_THE_TRANSFER_ENGINE.md) | The Transfer Engine | 4,003 | Expanded the evidence queue, settlement limits, source provenance, readable summaries, and the men's review |
+| [CHAPTER_XXXI_TWO_DOCTRINES](CHAPTER_XXXI_TWO_DOCTRINES.md) | Two Doctrines | 4,029 | Expanded Continuity and Escalation through practical training, preserved gloves, shared measurement practice, and a common protocol |
+| [CHAPTER_XXXII_THE_MEMORY_THAT_LOOKED_BACK](CHAPTER_XXXII_THE_MEMORY_THAT_LOOKED_BACK.md) | The Memory That Looked Back | 4,000 | Expanded the Hub's relational memory, the men's remembered moments, and the approach to the first contact box |
+
+**Verified total:** 43,859 words across the eleven revised files.
+
+The two family traditions are now recorded in [Relationship Canon](RELATIONSHIP_CANON.md): the first family preserves material traces of earlier lives, while the second maintains measurement histories and repeatable methods. They remain distinct, retain their own archives, and share reference conditions without treating either approach as sufficient on its own. The seven rules remain local to this Serum story branch; the wider GEEHUB canon continues to treat Serum as a contextual mechanism rather than a universal explanation.
+
+The chapter-led revision policy is recorded in [Editorial Directive](EDITORIAL_DIRECTIVE.md) and [Publishing Standard](PUBLISHING_STANDARD.md). The manuscript may refine provisional canon when a later scene establishes a stronger continuity. New facts, relationships, and distinctions must be propagated to connected character records and indexes. Luke Mercer, Andrew's adult first baseman teammate, is separately recorded in [Luke Mercer](../characters/records/LUKE_MERCER.md), [Andrew's record](../characters/records/ANDREW.md), and the character index. The central Luke's record explicitly distinguishes him from Mercer.
+
+

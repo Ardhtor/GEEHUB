@@ -75,10 +75,17 @@ class ProtectionRegisterTests(unittest.TestCase):
         errors = validate_register(data, self.root)
         self.assertTrue(any("unsafe evidence path" in item for item in errors))
 
+    def test_non_string_status_is_reported_without_crashing(self):
+        data = self.register()
+        data["controls"][0]["status"] = ["implemented"]
+        errors = validate_register(data, self.root)
+        self.assertTrue(any("invalid status" in item for item in errors))
+
     def test_specified_control_can_exist_without_code(self):
         data = self.register()
         data["controls"][0].update({
             "status": "specified",
+            "specification": ["docs/spec.md"],
             "implementation": [],
             "tests": [],
             "verification": []

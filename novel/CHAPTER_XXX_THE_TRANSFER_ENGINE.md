@@ -296,6 +296,38 @@ Joseph put the bread plate closer to Tyler. “And don't forget to eat.”
 
 Tyler looked at him, then took a piece. The machine continued to wait. The claims remained in their categories. The transfer engine had not moved a dollar. The Serum's next condition remained unknown. Yet the room contained two systems under examination and four men who had found a way to work on them without turning either into a competition.
 
+Joseph returned once more from the kitchen carrying a small stack of blank cards. He placed them beside the notebook and asked whether the engine could explain its decisions in language a person could keep.
+
+“Not just the status,” he said. “Something that tells you what happened without making you open six different panels.”
+
+Tyler looked over. “A decision summary.”
+
+“A human one,” Joseph said. “Not a machine telling me it has completed an evaluation.”
+
+Luke picked up one of the cards. “It should say what it found, what it checked, what it couldn't confirm, and what the person needs to do next.”
+
+I wrote the four headings down. They were simple enough to fit on the card, but they gave the system a more useful standard than a single green or yellow label. A person should not have to understand the internal structure of the engine to know why an item had stopped. The summary would link back to the supporting evidence and show which step remained open. It would not conceal the technical detail; it would make the detail reachable without forcing every user to read it first.
+
+Joseph examined the first draft. “And if there's nothing to do?”
+
+“Then it should say that,” I replied.
+
+“Good. People don't need another machine giving them work.”
+
+Luke smiled. “That's a rule for the whole house.”
+
+Tyler read the headings aloud: **WHAT WAS FOUND. WHAT WAS VERIFIED. WHAT REMAINS UNKNOWN. NEXT ACTION, IF ANY.** He suggested that every summary carry the date on which it was generated, so a person would know whether the information was current. Joseph asked for the status to remain visible beside the summary rather than being hidden at the bottom. I changed the layout and showed them the revised card. It was less impressive than the dashboard and more useful. It could be printed, saved, or read without knowing how the system had been assembled.
+
+The three men discussed whether a summary should recommend an action. Tyler argued that the engine could identify the next procedural step if the evidence was clear. Joseph said that a recommendation should not sound like an order. Luke suggested that it use direct language: “You can provide the missing authorization,” or “No action is required until the funds settle.” They settled on a distinction between a required next step and an optional one. If the claim could not proceed without a document, the system would say so. If the next step was merely a review, it would not imply that the person had to act immediately.
+
+The discussion ended when Joseph noticed that the bread had gone cold. He gathered the cards and handed them back to me.
+
+“Keep those with the machine,” he said. “They're part of how it speaks.”
+
+Luke watched him leave, then looked at the new summary. “That's what I meant about knowing what your life is worth before the machine tells you. It can tell you what it found. It doesn't get to tell you what to do with all of it.”
+
+I saved the card layout beside the dashboard specification. The engine had acquired another small safeguard, and the men had contributed it by asking how a person would actually use the result.
+
 When Tyler left, he took his field notebook but left the measuring cord on the desk. Joseph gathered the empty mugs and carried the tray toward the kitchen. Luke remained by the window. The screen's light fell across his face, his shoulders, and the new tension in the fabric over his upper arms. He looked at the opportunity list, then at the dark reflection of the trees.
 
 “You trust it?” I asked.

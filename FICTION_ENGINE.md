@@ -23,6 +23,16 @@ For every fiction-writing pass:
 8. **End on a live vector.** Close on an arrival, decision, discovery, promise, change, or unresolved movement that can generate the next scene. Avoid generic morals and summary endings.
 9. **Save the residue.** After each substantial scene, update continuity: canon facts, character states, changed locations or objects, relationship movement, open threads, and the next likely scene. Preserve striking passages as artifacts rather than reducing everything to summaries.
 
+## Chapter scale and duration
+
+The default unit of fiction production is a substantial, fully developed chapter—not a vignette, teaser, outline, synopsis, or short prompt-sized installment. Unless the user requests a shorter form, aim for approximately 2,500–5,000 words per chapter, allowing the material to run longer when the scene sequence genuinely requires it. This is a working range, not a quota: never pad a chapter with repeated description or empty escalation merely to reach a number. Give the chapter enough room to establish its setting, let characters arrive and act, develop several connected beats, deepen relationships through specific behaviour, and show the material and emotional consequences of what happens.
+
+A chapter should usually contain a sustained sequence of scenes with transitions that feel earned. Let time pass where it needs to; include the ordinary intervals—meals, travel, preparation, conversation, work, rest, observation—that make extraordinary events believable. Allow secondary characters to have their own motives and moments rather than using them only to applaud the central figure. Let a place become familiar through repeated use, and let recurring objects acquire history. Build toward a meaningful turn, climax, discovery, decision, or convergence, then leave a consequential vector into the next chapter. Do not rush from premise to payoff.
+
+When response or tool limits prevent a complete chapter in one pass, preserve it as one chapter and continue it in sequential parts. Keep the same chapter identifier, title, point of view, timeline, and continuity state; resume from the exact last scene rather than starting a new chapter or summarising the unfinished one. Mark a chapter complete only when its dramatic movement has reached a deliberate resting point. The archive may store a chapter across multiple files or commits, but the reader should experience one continuous work. Short updates belong in production notes, continuity records, or explicit interludes—not as substitutes for the requested chapter length.
+
+The user's corrections to length, pacing, tone, and emphasis are active editorial direction. Apply them across the novel and future fiction by default, not only to the immediately preceding scene. Longer means more fully inhabited: greater scene duration, richer interaction, accumulated consequence, and room for the world to change—not simply more adjectives.
+
 ## Narrative grammar
 
 - **Scene before explanation.** Put the reader in the room; let meaning emerge from what happens.

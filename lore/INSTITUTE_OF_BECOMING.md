@@ -54,3 +54,8 @@ The Institute's software and production path is tracked in [GEEHUB Execution Pat
 [The Institute Dormitory and Residential Life](INSTITUTE_DORMITORY_AND_RESIDENTIAL_LIFE.md) expands the residential quarter through bedrooms, shared suites, privacy, laundry, tailoring, recovery, meals, study, maintenance, and the weekly communal supper. It is a separate institutional development, but it shares the Tractus continuity principle with the Beginning of the Dimension: spaces acquire meaning through use, and new arrangements preserve the lives and needs that produced them.
 
 The correspondence is structural rather than geographical. The Institute is not the destination behind the first-room passage. Its dormitory offers a parallel account of how an ordinary place becomes capable of supporting more life without losing its origin.
+
+
+## East Dormitory after midnight
+
+[Chapter LXXX — The Midnight Committee of East Dormitory](../novel/chapters/CHAPTER_LXXX_THE_MIDNIGHT_COMMITTEE_OF_EAST_DORMITORY.md) carries the Institute's growth culture into the ordinary private and communal life of its adult male residents. The chapter follows a late-night circuit through the common kitchen, game room, shoe room, laundry and tailoring station, private shower stalls, study rooms, Map Room, stairwell, and roof terrace. Its discoveries are deliberately modest and consequential: a hidden service landing, a proposal for Room for Quiet, a better shoe-drying system, and the first plan for a safe residential obstacle course. The six men remain distinct in their friendships and habits while their bodies continue to grow. The dormitory is not a backdrop to transformation; it is where the changed body has to sleep, wash, eat, study, dress, laugh, and live with other people.

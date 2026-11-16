@@ -62,7 +62,79 @@ Neral seemed relieved by the answer. He had expected either a grand promise or a
 
 Kirk found the grate's lifting points and brought the service cart around. Luke and Tyler cleared the leaves and compacted grit while Joseph recorded the depth of the channel and the places where the water had reached the wall. The first man held the cover steady when Neral asked him to, and for a short time his dark coat was wet at the cuffs. The task required no revelation. It required four people to lift something safely and another to keep the record.
 
-When the obstruction came free, water moved through the channel with a low, steady sound. The level dropped. Tyler checked the fall again and asked Neral to watch the threshold during the next rain. They agreed to return after a sample had been examined. The work was not complete, but the passage could be used again.
+When the obstruction came free, water moved through the channel with a low, steady sound. The level dropped. Tyler checked the fall again and asked Neral to watch the threshold during the next rain. They agreed to return after a sample had been examined. Neral did not immediately put the cover back over the channel. He stood beside it with his sleeves still rolled to the elbow, watching the water find its way through the cleared section. The flow was not dramatic. It made a low, steady sound against the stone, a sound that could easily be mistaken for rain if a person had not spent the morning trying to discover where the water had gone. The channel narrowed beneath the threshold, then widened again after the bend. Tyler crouched and checked the fall with the level, while Luke stood at the outer edge and watched the darker line along the wall. Joseph kept the report open on the dry side of the workbench. The paper had begun to curl where the morning air touched its damp corner, and he weighted it with a small block of timber. Kirk held the lamp for Tyler, even though the light had improved. Nobody mentioned that the arrangement was beginning to feel familiar. They had worked together like this before, but the first report had given them a different reason to be there: a request from someone outside the House, one that could not be answered by a story about the House's own purposes.
+
+Neral looked at the cleared grate. “I thought it would be worse.”
+
+“It may still be,” Tyler said. “We haven't opened the joint, and we haven't checked the material behind the patch. The water is moving now, but the stone could still be loose.”
+
+Neral nodded. “I don't need you to say it's fixed. I need to know whether I can use the passage today.”
+
+Luke looked toward the threshold. “For walking, yes. Keep to the marked side and don't put a cart over the inner edge. If the water rises again, close it and let us know.”
+
+“Will you come back?”
+
+“We'll come back when we've checked the sample,” Joseph said. “We'll bring a date with us rather than a promise we can't keep.”
+
+Neral looked at him for a moment, then folded his sleeves down. “That's better than what I was expecting.”
+
+Kirk eased the cover into place with the first man holding the far end steady. The stone lid was heavier than it looked, and the old lifting loops had worn smooth where hands had passed through them over decades. The first man could have raised it by himself, but he waited while Kirk and Luke took the opposite side. Their combined effort moved the cover evenly into the recess. The edge settled with a dull, satisfying sound. Tyler checked that the corners sat level, then tested the opening with the flat end of his tool. It did not rock. The channel continued to run beneath it. For the first time that morning, the men could stand back and see the whole entrance rather than only the problem.
+
+Seth and Nick had been quiet while the measurements were being taken. Now their voices returned, travelling through the covered arcade with a little of the dry amusement they used when a scene had done something useful without making an announcement about it.
+
+**SETH:** “Well, that's a very respectable first job. No thunderbolt, no secret staircase, no ancient machine asking for a password. Just five men and a drain.”
+
+**NICK:** “Six, if you're counting the man who held the lamp.”
+
+**SETH:** “I'm counting the man who held the lamp. I'm also counting the lamp. It had a very important supporting role.”
+
+The first man glanced toward the upper arch as though he had heard them, though he did not comment. Joseph smiled. He had begun to appreciate that a place could become memorable through a task that no one would think to put in a legend. The men had arrived because someone had asked for help. The request had not been a test of their virtue, and the repair had not been a proof of their strength. It was a passage used by people who needed to get somewhere. The House had been useful because the men had gone out of it.
+
+Neral offered them a place to sit beneath the arcade while he fetched a fresh copy of the maintenance plan. The covered entrance had a narrow bench built into the wall, with a timber seat polished by years of use and a shallow ledge where people left wet gloves or carried tools. The bench was too small for the largest men to sit comfortably together, so Luke and the first man remained standing while Joseph, Kirk and Tyler took the available space. A cold draft moved along the channel, carrying the smell of wet leaves and old mortar. Across the courtyard, the caretaker's small workshop had a red door whose paint had begun to peel around the latch. A kettle was visible through the window. The ordinary scene made the men feel less like visitors to a mysterious place and more like people who had been given a job by somebody who expected to see them again.
+
+Neral returned with the plan and a second sheet showing the original repair. The older document had a coffee stain in one corner and a fold that had been reinforced with clear tape. It showed the channel before the latest patch had been applied. The marks were small but legible: a note about the mortar mix, a measurement from the eastern wall, and a signature that had been partly rubbed away. Tyler leaned closer. He wanted to identify the material, but he also wanted to know whether the person who had made the repair had recorded the source of the mortar.
+
+“There's a reference here,” he said. “Do you have the original sample?”
+
+Neral shook his head. “Only the note.”
+
+“Then we'll have to use the note carefully. It gives us a starting point, not a recipe.”
+
+Kirk touched the worn fold with one finger. “Who kept this?”
+
+“I did.”
+
+“Since when?”
+
+“Since I took over the arcade.”
+
+Neral said it without pride. The paper had been kept because it was useful, not because anyone had decided that it was an artifact. Joseph looked at the sheet and thought of the brass washer in Kirk's pocket. Both objects had survived because somebody had chosen not to throw them away. Neither was complete. The report did not explain the whole repair, and the washer did not explain the whole relationship. They were traces that could help the next person continue.
+
+Joseph asked whether Neral had been able to speak with the previous caretaker. Neral said he had, briefly, but the older man no longer came to the arcade. He had left the records in a cupboard and told Neral that the channel had always needed watching after heavy rain. The phrase had become a local instruction, passed from one caretaker to another without a full account of why. Tyler wrote it down, then asked Neral whether he would be willing to describe the next storm's water level. Neral agreed. Chase was not there, but Joseph recorded the source of the statement and the fact that the earlier caretaker's full account remained unavailable. The men were learning to preserve uncertainty without treating it as failure.
+
+The caretaker's workshop was warmer than the arcade. Neral invited them inside for tea, and the men gathered around a table with a surface made from several boards of different ages. A small heater stood beneath the window. The room smelled of black tea, damp coats, machine oil, and the toasted crumbs left in a metal tray near the kettle. A rack of tools occupied one wall; a calendar hung above it with the previous month still showing; and a pair of boots stood upside down beside the door. The space was narrow for the men, and the first man had to lower his head beneath the ceiling beam when he entered. He did so without fuss, then remained near the door so that the others could use the table.
+
+Neral poured tea into thick cups. Joseph accepted one, then passed another to Kirk. Their hands touched briefly around the handle. The contact was ordinary, but after the previous night's conversation it carried a new ease. Kirk had stayed for breakfast, and they had not spent the meal trying to settle everything. They had talked about the bread, the cold weather, the work ahead, and the route back to the House. Joseph had not asked him to promise more than the morning. Kirk had not treated the invitation as a small thing. Now they could sit beside one another in a stranger's workshop without rehearsing what the gesture meant.
+
+**KIRK:** “You brought the wrong notebook.”
+
+Joseph looked down. He had brought the smaller book he used for household notes, not the larger site ledger.
+
+**JOSEPH:** “It has blank pages.”
+
+**KIRK:** “It has a shopping list on the back.”
+
+**JOSEPH:** “We may need flour.”
+
+Kirk laughed. It was a real laugh, the sort that changed his expression before he could arrange it. Joseph looked at him and smiled. Neral watched them with the politeness of a man who understood that not every conversation required a place for him. He turned to Tyler and asked about the sample. Tyler explained the next steps, using the edge of a napkin to draw the channel cross-section. Luke listened, then asked whether the caretaker could close the passage from both ends if the water rose quickly. Neral said the lower gate was stiff but usable. The first man offered to look at it when they returned. He did not assume the repair belonged to him; he asked whether Neral wanted the help.
+
+The question mattered. Neral said yes. The men were beginning to understand the difference between offering strength and imposing it. The first man could move the gate with ease, but that did not mean he should decide how the arcade was maintained. He had no history with the place. Neral did. The repair would be better if their abilities could meet without one replacing the other.
+
+They finished their tea and returned to the channel. The lower gate was indeed stiff. Its hinge had collected grit, and the wooden handle had swollen slightly from repeated wetting. The first man held it open while Luke cleaned the hinge. Tyler inspected the mounting plate, and Joseph asked Neral how often the gate was used. Kirk found a small wedge beneath the lower edge and removed it. When the gate moved more freely, the sound was a deep wooden scrape followed by a short metallic click. Andrew would have called it a new instrument. In his absence, Tyler made a note that the hinge required lubrication and that the lower rail should be checked after the next rain.
+
+They did not repair the hinge permanently. They cleaned it, freed the movement, and marked the remaining work for the next visit. Neral watched the process with quiet approval. The first man had not taken over the gate simply because he could move it. Luke had not turned the work into a demonstration of care. Tyler had not insisted on recording every action while the others waited. Joseph and Kirk had managed to work beside one another without converting the task into a test of their relationship. The work had given each man something to do, and the doing had made it easier to remain in company.
+
+The work was not complete, but the passage could be used again.
 
 On the walk back, Luke noticed a narrow strip of pale stone set into the wall beside the arcade. It was not a plaque. It had no inscription. Someone had fitted it there to replace a piece that had broken years before, and the new stone had a slightly different grain. Its edges were clean, but the older blocks around it had worn smooth.
 

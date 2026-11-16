@@ -58,3 +58,7 @@ With Tyler, Luke learns that care sometimes means waiting for the measurement. W
 
 Luke checks whether a chair is stable before somebody sits, remembers who takes the seat near the window, and notices when a familiar person has stopped joining the group meal. He often takes the first practical task, then becomes quietly pleased when somebody else takes the second without being asked. He likes the period after a job is finished, when the tools are still out and the men stay together for no official reason.
 
+## Same-name character distinction — Luke Mercer
+
+Chapter LXXVI introduces Luke Mercer, an adult first baseman on Andrew's baseball team. Mercer is a separate person, not an alternate version, relative, or replacement for this Luke. When both men are present, use “Luke” for the central character only where the context is unmistakable; otherwise use “central Luke” and “Mercer” or “Luke Mercer.” Their first shared scene uses the duplicate name for light humour, then establishes a practical naming convention. This is an intentional expansion of the cast and should remain part of continuity.
+

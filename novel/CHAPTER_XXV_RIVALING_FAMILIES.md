@@ -202,6 +202,8 @@ At the western fork, the youngest man from the first family asked the second fam
 
 Before they parted, the older keeper asked whether the second family would bring one of its earliest instruments. The tall man said he would, but it would be labelled as a historical instrument until its calibration had been checked. The keeper agreed to bring the oldest shirt from the cedar case, with its date and repair notes. Neither man offered to exchange the objects. They would bring them to the table so both families could see what each record could and could not show.
 
+Their records would remain separate, but the men had agreed to read them together.
+
 The woods remained silent around them.
 
 The rivalry had become something else.

@@ -38,11 +38,7 @@ They saved both tests. The rejected versions were not placed beside the current 
 
 The person at the desk then closed the contact sheet and opened the source at full resolution. For a few moments the image filled the display without lines or labels. It was a person moving through a space, not a diagram. The technical marks had helped the team notice the transition, but they were not the transition itself. He let the clip play at its original speed once more. The body turned, the light changed, the shoulder crossed, and the movement ended. The room held its attention until the final frame.
 
-When the coach came in, he found the source frame surrounded by its neighbours, the contact sheet open, and the rough outline waiting in the margin. He did not ask why the original measurement had been crossed out. He could see the progression of the work. He asked instead which transition was most likely to expose the weakness in the current interpretation.
-
-The person at the desk pointed to the moment when the shoulder crossed the line of the chest.
-
-“That one,” he said. “It looks simple until you try to get there.”
+Before the coach arrived, the men placed the competing camera tests side by side and wrote down what each one explained and what it failed to explain. The comparison was left visible on the wall display. Nobody wanted to arrive at a decision by remembering only the version that had looked best a few minutes earlier. The source remained open beside the tests, and the disputed shoulder transition was marked with a narrow bracket. When the coach entered, he would be able to see the evidence and the disagreement together.
 
 The coach had come in from the larger room carrying a chair under one arm. He set it down without ceremony, tested its footing with the side of his boot, and looked at the screen. He was a substantial man, broad through the shoulders, with the relaxed balance of somebody who knew exactly where his weight was. He did not begin with a speech about artistry. He asked what the frame was doing, what the previous frame had changed, and whether the next one would make the current interpretation hold up. Then he leaned closer, not to admire the image, but to find the point where the visible shape stopped agreeing with the implied movement.
 

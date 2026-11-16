@@ -182,7 +182,89 @@ He looked toward the others. “I like that it can be used again without pretend
 
 Andrew called from the kitchen. “And sometimes the point is that we can have breakfast.”
 
-Luke laughed and went to help him. Joseph was already washing the board. Tyler returned to put the ruler away. Chase left the note on the shelf, where it could be found if the floor darkened again. Gabe pulled out a chair and sat for another minute, not waiting for anyone to comment on the table or on him.
+Luke laughed and went to help him. Joseph was already washing the board. Tyler returned to put the ruler away. Chase left the note on the shelf, where it could be found if the floor darkened again. He liked the table best when the others had stopped inspecting it. The repaired corner was easy to see if a person knew where to look, but the broad surface had returned to its usual work: holding plates, cups, notebooks, a folded map, and the small objects people put down while they were talking. Luke had moved the table back toward the centre of the room, though he left a little more space on the eastern side so that the longer bench could be pulled out without scraping the wall. The change was slight. The room felt different because the men had agreed on it rather than because anyone had announced a new arrangement. Gabe rested his forearms on the tabletop and watched Andrew carry the last basket of plates through the doorway. Andrew's shoulders had widened since the previous week's practice, and the sleeves of his shirt had climbed toward his upper arms. He walked with the loose confidence of a man who knew where every chair stood, but he turned sideways when he passed the narrow cupboard. The building was familiar to them, though their bodies were not staying still long enough for familiarity to mean that nothing had to be adjusted.
+
+Joseph returned from the kitchen with a second pot of coffee and a plate of sliced pears. He set them at the centre of the table, then noticed that Tyler had left his ruler beside the breadboard. He moved the ruler to the windowsill before it could be covered in jam. Tyler saw him do it and gave a small nod. Their friendship often appeared in these quiet exchanges: Joseph knew which objects Tyler wanted kept in order, and Tyler knew which conversations Joseph preferred to finish without an interruption. Neither needed to praise the other for remembering. The room had become easier to share because its inhabitants had learned the small practical grammars of one another's lives.
+
+**JOSEPH:** “We should keep this table here for supper.”
+
+**TYLER:** “It still needs a second inspection after the room dries.”
+
+**ANDREW:** “You can inspect it during supper.”
+
+**TYLER:** “No.”
+
+**ANDREW:** “You can inspect it before supper.”
+
+**TYLER:** “That's more likely.”
+
+Luke looked toward Gabe. “Do you want to stay?”
+
+Gabe had been about to leave. He looked at the doorway, then at the chair beside him. “Yeah. I can stay.”
+
+Luke did not ask why he had nearly gone. He pulled out the chair and sat across from him. The two men had once treated silence as something to be filled quickly, especially when one of them had noticed the other looking uncomfortable. Now they had become better at leaving a little room around a feeling. Gabe's shirt pulled across the chest when he leaned back, and Luke noticed the latest change in his shoulders. He wanted to say something, but he waited until Gabe looked up.
+
+**LUKE:** “Your shirt's getting tight again.”
+
+**GABE:** “I know.”
+
+**LUKE:** “Want me to bring you the spare one from my room?”
+
+**GABE:** “Not yet. I want to see how long this one lasts.”
+
+Luke smiled. “All right.”
+
+There was affection in the exchange, but also a growing respect for each man's right to decide what his body meant. Gabe had enjoyed being noticed during his growth, and he still did. He simply wanted the pleasure to remain his rather than become a duty to supply the room with another event. Luke had learned to notice without turning every change into an announcement. His own body was growing too. When he reached for the coffee pot, the sleeve of his shirt moved over a broader shoulder and the fabric pulled against his upper back. Gabe saw it and smiled.
+
+**GABE:** “You're not exactly staying the same.”
+
+**LUKE:** “I didn't say I was.”
+
+**GABE:** “Your doorframe's going to complain next.”
+
+**LUKE:** “It already does.”
+
+Andrew heard them and turned from the kitchen. “We should measure the doorframes.”
+
+Tyler closed his eyes briefly. “We are not measuring every doorframe today.”
+
+“Not every one,” Andrew agreed. “Just the interesting ones.”
+
+“That's all of them to you.”
+
+“Now you're understanding the method.”
+
+The laughter came easily. It did not conceal the work or turn it into a performance. The men could joke because the table had held, the food was ready, and the immediate problem had been answered. A little later, they brought the long bench from the wall and placed it along the window side. Its legs were thick oak, and the seat had been widened when the first residents began to outgrow the original chairs. It made a soft scraping sound across the boards, then settled with a low thump. Luke checked the feet. Andrew sat at one end. The bench held. Tyler pressed down at the other end and watched the joint. It held again.
+
+**ANDREW:** “We should name it.”
+
+**CHASE:** “It's a bench.”
+
+**ANDREW:** “That's not a name.”
+
+**CHASE:** “It's the correct description.”
+
+**GABE:** “Call it the East Bench.”
+
+**JOSEPH:** “That's not bad.”
+
+**TYLER:** “It needs a maintenance label, not a title.”
+
+Andrew looked offended. “It can have both.”
+
+Chase smiled and took the small card from the shelf. He wrote EAST BENCH on one side and the installation date on the other. Tyler added the load rating and the name of the workshop that had rebuilt it. The card was not a monument. It was there to tell the next person what the bench was, who had worked on it, and when it should be checked again. Andrew wanted to add a small drawing of a baseball. Chase allowed him to put it in the corner. Tyler objected that the baseball was not part of the bench's construction. Andrew replied that it was part of the bench's social history. Joseph said that was probably true. The argument ended with the drawing remaining.
+
+The room filled through the afternoon. Two residents from the upper floor came down to collect books, then stayed to ask about the repaired table. One of them had grown enough that his old jacket no longer closed properly. Luke showed him where the tailoring station had left a measuring card. The man did not need a new jacket immediately, but he wanted to know whether the shoulders could be altered without changing the waist. Daniel, who had been passing through with a box of fittings, offered to look at the seams later. The conversation took place without anyone treating the man's new size as a public event. They talked about the garment, the fabric, the cost of replacing it, and whether the old jacket could be kept for work. The change was physical, but the decision belonged to the person who wore it.
+
+Gabe watched this from the end of the table. He had begun to understand that being seen did not have to mean being singled out. A room could notice a change and continue to include the person who had changed. It could also fail, of course. Sometimes people stared too long, or spoke as if a man's earlier body had become a joke. But the table had become a place where the group could make a correction without humiliating anyone. That mattered more to him than he had expected. He looked at Luke, who was helping the visiting resident fold the measuring card, and felt a familiar warmth in his chest. Luke had not become less attentive as he grew. He had become more exact about where to direct the attention.
+
+By the time the light moved off the window, the common room had returned to its usual sounds. Someone was reading in the alcove. Andrew was telling a story about the baseball field. Tyler was checking the repaired joint once more, though he had promised not to turn the afternoon into an inspection. Joseph had gone to refill the coffee. Chase was sorting the photographs on his camera, keeping the image of the repair beside the image of the old fastener. Gabe sat at the table and listened. The men were not required to share one subject. They could talk across one another, follow separate thoughts, or let a conversation pass without joining it. The room had become a place where company did not require constant agreement.
+
+When the afternoon meal arrived, they used the table without testing it first. Plates moved across the surface, cups were passed, and the breadboard sat over the repair line without making anyone nervous. The East Bench held three men comfortably. The chairs held the others. Their different heights and proportions changed the way they sat: Luke's knees reached farther beneath the table; Gabe's shoulders filled the chair back; Tyler's longer hands made the cup appear smaller; Andrew leaned forward with the energy of a man ready to leave for the field; Chase sat with his camera beside him but did not reach for it; Joseph made room for the dish at the centre. It was a practical arrangement, not a tableau. The men ate, argued about the route to the old fence, and decided to walk it together after the rain had dried.
+
+At the end of the meal, Tyler placed his notebook away. The table had passed the test. There would be another inspection after the next wet week, and the floor would need checking once the boards had dried fully. For now, the room could be used again. That was the most meaningful result. Nobody had to keep talking about the repair. They could return to their ordinary lives and let the table do its work.
+
+Gabe pulled out a chair and sat for another minute, not waiting for anyone to comment on the table or on him.
 
 The rain had left a mark beside the window. The joint had been repaired. The old fastener remained in its tray. The room had not returned to precisely the same arrangement, and nobody tried to make it.
 

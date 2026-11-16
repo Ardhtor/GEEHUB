@@ -94,7 +94,10 @@
         ?"LATEST INSCRIPTION / "+(latest.type||"EVENT")+" · "+(latest.title||latest.id||"UNTITLED")+(latestDate&&!Number.isNaN(latestDate.valueOf())?" · "+latestDate.toLocaleString():"")
         :"LATEST INSCRIPTION / NO RECORDS YET";
       const sampled=data.sampled_at?new Date(data.sampled_at):new Date();
-      $(".local-runtime-foot").textContent="PID "+data.runtime.pid+" · "+data.runtime.platform+"/"+data.runtime.arch+" · Node "+(data.runtime.node||"unknown")+" · sampled "+sampled.toLocaleTimeString();
+      const cpu=data.host_cpu||{};
+      const uptime=Number(data.runtime.uptime_seconds||0);
+      const uptimeLabel=uptime>=86400?Math.floor(uptime/86400)+"d "+Math.floor(uptime%86400/3600)+"h":uptime>=3600?Math.floor(uptime/3600)+"h "+Math.floor(uptime%3600/60)+"m":Math.floor(uptime/60)+"m";
+      $(".local-runtime-foot").textContent="PID "+data.runtime.pid+" · "+data.runtime.platform+"/"+data.runtime.arch+" · "+(cpu.logical_cores||"—")+" logical CPU cores · 1m load "+(Number.isFinite(cpu.load_average_1m)?cpu.load_average_1m:"—")+" · uptime "+uptimeLabel+" · Node "+(data.runtime.node||"unknown")+" · sampled "+sampled.toLocaleTimeString();
       state.textContent="LOCAL RUNTIME / LIVE";
       state.dataset.state="live";
       lastGoodSample=Date.now();

@@ -131,7 +131,7 @@ The current novel chapter run has been revised in place toward the publishing st
 |---|---|---:|---|
 | LXXIII | The Distance Between Two Chairs | 4,108 | Expanded overnight reconciliation, House setting, and Joseph/Kirk continuity |
 | LXXIV | The First Report | 4,137 | Expanded north arcade inspection, Neral's workshop, and return obligation |
-| LXXV | The Table After Rain | 4,013 | Expanded repair, shared meals, table use, and ensemble relationships |
+| LXXV | The Table After Rain | 4,044 | Expanded repair, shared meals, table use, ensemble relationships, and narrator coda |
 | LXXVI | The Field Has Its Own Echo | 4,014 | Expanded baseball practice, sound mapping, and night-field experiment |
 | LXXVII | The Coach's Son | 4,011 | Expanded training movement, body continuity, father-son relationship, and breakfast |
 | LXXVIII | Beyond Size Fifty | 4,045 | Expanded fitting, footwear workshop, shoe archive, and Daniel's friendships |

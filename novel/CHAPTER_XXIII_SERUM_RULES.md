@@ -372,4 +372,6 @@ The youngest man picked up his pack. The map-carrier folded the old map and plac
 
 Before leaving, the map-carrier folded the old route and kept it beside the new one. The youngest picked up the gloves. The compass-carrier checked the first turn. The largest man waited until all six were ready, and the seventh man stepped through the doorway last, looking once at the rules on the wall. They had not solved the Serum. They had learned how to continue without pretending they had.
  
+The seven rules remained behind them, not as a finished explanation, but as the first account they could carry forward together.
+
 And they followed the road.

@@ -1,6 +1,25 @@
 {
-  "cycle": 113,
+  "cycle": 114,
   "events": [
+    {
+      "id": "northgate-campus-00114",
+      "cycle": 114,
+      "world_pulse": 283,
+      "at": "2026-11-16T15:55:23.221464+00:00",
+      "region": "northgate-university",
+      "title": "THE CLUBS AND SOCIETIES FAIR",
+      "kind": "community",
+      "participants": [
+        "Dan Roman",
+        "Elliot Ward",
+        "Noah Bell"
+      ],
+      "description": "Tables appear beneath the arcade: architecture, music, rowing, film, natural history, computing and the old debating society. New students drift between them while returning members explain what they actually do, rather than reciting polished pitches.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-16T15:55:23.221464+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00113",
       "cycle": 113,
@@ -2119,28 +2138,28 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 86,
+    "Dan Roman": 87,
     "Marek Ionescu": 61,
-    "Elliot Ward": 69,
-    "Noah Bell": 70,
+    "Elliot Ward": 70,
+    "Noah Bell": 71,
     "Adrian Varga": 70
   },
   "last_event": {
-    "id": "northgate-campus-00113",
-    "cycle": 113,
-    "world_pulse": 282,
-    "at": "2026-11-16T15:55:02.322812+00:00",
-    "region": "northgate-library",
-    "title": "THE FILM ARCHIVE CLUB",
-    "kind": "film",
+    "id": "northgate-campus-00114",
+    "cycle": 114,
+    "world_pulse": 283,
+    "at": "2026-11-16T15:55:23.221464+00:00",
+    "region": "northgate-university",
+    "title": "THE CLUBS AND SOCIETIES FAIR",
+    "kind": "community",
     "participants": [
+      "Dan Roman",
       "Elliot Ward",
-      "Marek Ionescu",
-      "Adrian Varga"
+      "Noah Bell"
     ],
-    "description": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+    "description": "Tables appear beneath the arcade: architecture, music, rowing, film, natural history, computing and the old debating society. New students drift between them while returning members explain what they actually do, rather than reciting polished pitches.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-16T15:55:02.322812+00:00",
+    "occurred_at": "2026-11-16T15:55:23.221464+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

@@ -66,7 +66,101 @@ The group made room for him at the table. Daniel explained the fitting and showe
 
 One of the men suggested that the Scale Commons should keep a small footwear archive. Not a display of enormous shoes, but a working record of how residents' requirements changed: sole materials, repair histories, fit notes, and the dates when a previous design stopped serving its owner. Daniel liked the idea. He offered his size-50 pair as the first reference, provided the record made clear that the shoes belonged to him and were not to be handled without permission.
 
-The proposal moved to the Workshop's maintenance board. Elias added a new line to the fitting register: **Daniel Goebel — previous baseline: size 50; replacement fitting in progress**. The new measurement remained on the private pattern card until the prototype had been checked and Daniel had agreed that it was correct. The public record did not need to announce more than the change itself.
+The proposal moved to the Workshop's maintenance board. Elias added a new line to the fitting register: **Daniel Goebel — previous baseline: size 50; replacement fitting in progress**. Daniel returned to the residential wing with the old shoes in a cloth bag. He carried them by the heels, one in each hand, and found the corridor unusually warm after the bright fitting room. The floor smelled of beeswax and damp wool. A group of men had gathered outside the common kitchen, arguing about whether the new bench would fit through the eastern doorway. They had placed a tape measure along the wall and were holding the ends at different heights, which made the entire exercise look more ceremonial than useful. Daniel stopped to watch.
+
+“What's the problem?” he asked.
+
+Andrew looked over. “The bench is too long.”
+
+Tyler shook his head. “The bench is the correct length. The doorway is the constraint.”
+
+“That's what I said,” Andrew replied.
+
+“You said the bench was too long.”
+
+“Same problem from another angle.”
+
+Daniel set the bag on the floor and looked at the doorway. The bench would fit if they turned it onto its side, but the rail at the back would catch against the upper trim. He suggested removing the rail, carrying the frame through, then refitting it on the other side. Tyler agreed. Andrew said that was obvious. Luke asked whether anyone had actually tried it. The group went quiet. Nobody had. Daniel smiled, and the men began to move the bench. It passed through with only a small adjustment to the angle. The doorway remained intact, the bench reached the common room, and Andrew claimed that the operation had demonstrated the superiority of his original method. Tyler said nothing, which was perhaps the most devastating response available.
+
+The old shoes sat in the bag by Daniel's feet. He had not expected to bring them out again, but he found himself thinking about them while the others worked. They had been part of his routine for so long that he had stopped noticing their presence. He knew the exact pressure of the tongue against his instep, the familiar give in the heel, and the small difference between the way the left sole touched the ground and the way the right one did. They had adapted to him through use. Now they were a little too small, and he had to accept that the thing which had served him well could no longer serve him in the same way. He was not distressed by the change, but he felt a small reluctance to let it pass without looking at it properly.
+
+Elias found him later in the Workshop, seated at the low fitting bench with the bag open. The room's windows were high, and the afternoon sun reached the leather samples in long bands. The air carried the smells of rubber, cork, adhesive, and the faint sweetness of treated leather. A wide cutting table occupied the centre, its surface marked by knife lines and pencil measurements. Rolls of upper material stood along the wall; drawers held soles in different densities; and the fitting board rested beneath a lamp with an adjustable arm. Elias had placed the first pattern card beside the old size-50 label. He was not in a hurry to announce a new size. He wanted Daniel to understand what the measurements meant for the construction.
+
+**ELIAS:** “You brought them back.”
+
+**DANIEL:** “I thought I should look at them before we make the next pair.”
+
+Elias took one shoe from the bag and turned it over. The sole showed a worn patch near the outer heel, and a small line of dust had settled into the tread. He ran his thumb over the repair.
+
+**ELIAS:** “You had these fixed.”
+
+**DANIEL:** “Twice. The first time the rubber separated at the heel. The second time the edge started peeling.”
+
+**ELIAS:** “You kept the same upper.”
+
+**DANIEL:** “It still felt right.”
+
+Elias nodded. “That's worth keeping in the record.”
+
+He placed the shoe beside the pattern card and brought out the materials Daniel had selected the day before. The midsole had a little more give than the previous construction, but it was firm enough to support long walks on the stone paths. The outer layer was resistant to abrasion, and the forefoot panel could be adjusted if Daniel's feet changed again. Elias showed him where the seams would sit and how the lining would be attached. He also explained the trade-off: more room at the front would not automatically make the shoe more stable. The sole had to widen in the right places, and the heel had to remain secure. Daniel listened carefully, then asked whether the new pair could be built so that the upper could be replaced without discarding the entire sole. Elias said it could, though the first prototype would be more complicated to assemble.
+
+They discussed the pattern for nearly an hour. Daniel's feet were not the only parts of him changing. His lower legs had thickened through training, and his stance had become wider. The new shoe had to work with that stance rather than forcing him back into an earlier posture. Elias asked him to walk across the fitting room in the old trainers, then barefoot, then in a temporary slip-on made from the new sole material. The differences were subtle but important. The old shoes restricted the front of his foot; the temporary sole allowed the toes to spread, but the heel moved slightly on the turn. Daniel noticed the problem before Elias pointed it out. He shifted his weight, repeated the movement, and showed where the shoe needed a firmer counter.
+
+**ELIAS:** “You felt that.”
+
+**DANIEL:** “It moves when I turn.”
+
+**ELIAS:** “Good. That's why we test it before we finish it.”
+
+Daniel smiled. “I thought you were going to tell me that.”
+
+“I was. You got there first.”
+
+The workshop door opened and Tyler came in with the maintenance notebook. He had been asked to check the proposed footwear archive, and he carried a set of measurements from the old shelves. He looked at the pattern card, then at the temporary sole.
+
+**TYLER:** “How far along are we?”
+
+**DANIEL:** “The upper needs more room at the front. The heel needs to stay firmer.”
+
+Tyler examined the measurements and asked Elias whether the new shelf design could store pairs horizontally without flattening the upper. Elias said that the shoes should be supported rather than stacked. Daniel suggested a removable last for each archived pair, so that the shape could be preserved without filling the shoe with paper. Tyler liked the idea but wanted to know how the supports would be labelled. Daniel proposed a small card attached to the shelf rather than the shoe itself, so the object could be handled without damaging it. They began to sketch the storage system together.
+
+The conversation became more than a technical discussion. Tyler had grown accustomed to Daniel's attention to the human use of an object. He could now see why the footwear archive mattered to him. Daniel did not want to collect enormous shoes as curiosities. He wanted to preserve the history of fit: what had worked, when it had stopped working, and how the next design had answered the change. Tyler understood the value of that record because it could prevent the workshop from repeating an unsuccessful design. Daniel valued it because it showed that the earlier body had not been an error. Both men were working toward the same archive from different directions.
+
+**TYLER:** “The record should distinguish the owner's current fitting from the historical pair.”
+
+**DANIEL:** “Yes. And the historical pair should keep its repair notes.”
+
+**TYLER:** “We'll need a field for the date it stopped being used.”
+
+**DANIEL:** “Not just the date. The reason.”
+
+**TYLER:** “Fit, wear, damage, or preference?”
+
+**DANIEL:** “And maybe a note if the owner simply wanted a different shoe.”
+
+Tyler wrote that down. He liked when a design decision became more exact because someone had asked a human question. Daniel liked when a colleague could take an idea and make it easier to use. Their relationship was still new, but it was beginning to acquire the quiet trust of people who could disagree over details and remain interested in one another's work.
+
+Andrew came by toward the end of the afternoon. He had a baseball glove tucked beneath one arm and a bottle of water in the other hand. He looked at the temporary sole, then at Daniel.
+
+**ANDREW:** “Are you making shoes or building a runway?”
+
+**DANIEL:** “Shoes.”
+
+**ANDREW:** “Good. I thought the workshop had opened a fashion department.”
+
+Tyler did not look up. “It would still require you to measure something.”
+
+Andrew grinned. He had grown again through the shoulders, and the sleeve of his shirt sat close against the upper arm. He leaned over the table to inspect the pattern. The movement brought his chest close to the edge, and he had to shift his stance to avoid pressing the paper. Daniel noticed the adjustment and slid the card farther inward. Andrew saw him do it and gave a small nod.
+
+**ANDREW:** “That'll be useful. I keep catching things with my arms lately.”
+
+**DANIEL:** “The room is the same size.”
+
+**ANDREW:** “I know. That's why it's annoying.”
+
+He stayed to hear how the prototype would work, then offered to help test the outdoor walking surface once the shoe was ready. Daniel accepted. Tyler recorded the offer as a possible test participant, which Andrew declared a deeply unromantic way to be invited somewhere. Daniel laughed and told him the record could say "friend." Tyler wrote that instead.
+
+The new measurement remained on the private pattern card until the prototype had been checked and Daniel had agreed that it was correct. The public record did not need to announce more than the change itself.
 
 Two days later, the prototype was ready. Daniel returned to the fitting room and found the new shoes arranged on a low platform. They were dark blue, close in colour to the old pair, with a more generous forefoot and a replaceable sole. Their shape was substantial without looking clumsy. The maker had kept the familiar line of the heel and adjusted the front so that the shoe followed Daniel's present foot rather than forcing it into an old outline.
 

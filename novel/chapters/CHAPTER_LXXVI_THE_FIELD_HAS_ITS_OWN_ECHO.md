@@ -102,6 +102,102 @@ Andrew glanced at him. “Don't make that into a proverb.”
 
 Luke laughed. Joseph smiled. Gabe leaned closer to see the drawing. Tyler had begun to examine the dimensions of the dugout, not because he had been persuaded that the notebook was a scientific record, but because Andrew had given him a question he could test.
 
+The dugout was older than the painted lines on the field. Its roof had been repaired twice, and the back wall carried a sequence of dark patches where rain had found the seams. A strip of timber ran along the seating edge, polished by years of elbows and equipment bags. Andrew liked the place because it held sound differently depending on how many people were inside. When the dugout was empty, a ball striking the roof made a single hollow note. With three men sitting beneath it, the sound seemed to return from somewhere behind the bench. With the whole group present, it became a short, low vibration that could be felt in the soles of the feet. Andrew had never considered this a mystery in the supernatural sense. It was a field observation that had become interesting enough to follow. He liked things that changed when people entered them. He liked the way a place acquired a different personality when it was occupied.
+
+Tyler stepped inside and looked at the roof supports. He had grown since the last time they had played here. His upper arms pressed more firmly against the seams of his shirt, and when he ducked beneath the beam his head came close enough that the movement had to be deliberate. Andrew noticed and grinned.
+
+**ANDREW:** “Careful. The dugout's going to need a height adjustment.”
+
+**TYLER:** “The dugout needs a new roof.”
+
+**ANDREW:** “You could have said that more dramatically.”
+
+**TYLER:** “I could have. It wouldn't make the roof stronger.”
+
+Tyler measured the distance between the posts. The structure had enough clearance for the current group if they entered one at a time, but the bench depth was poor for the larger men. Their thighs crowded the edge, and the seat forced them into a narrow posture that made it difficult to turn and speak. Luke suggested moving the bench outward and adding a second rail. Andrew wanted to widen the entire dugout. Chase asked whether the team used the space for more than waiting between innings. Joseph pointed out that the cooler needed to stay out of the main passage. Gabe studied the wall and thought the roof might be extended over the back section without changing the field-facing opening. They began sketching a practical alteration on the back of Andrew's notebook.
+
+The group had not come only to inspect the fence. They had brought gloves, bats, a cooler, and enough food for an afternoon. They were going to play. The notebook had simply become another piece of equipment, something that could be carried onto the field and brought back with a new set of observations. Andrew liked that the others had come to see what he meant rather than asking him to explain it again. Tyler, who had initially treated the sound map as a curious hobby, had started to understand that Andrew's attention was not separate from his athletic skill. It was part of the same habit: noticing how a body, a ball, a surface, and a space answered one another.
+
+Seth and Nick seemed particularly pleased by the arrangement.
+
+**SETH:** “Every sports film has the scene where the coach draws a complicated play on a whiteboard. Andrew has drawn a dugout on a notebook, which is frankly more ambitious.”
+
+**NICK:** “The ball is still waiting to be thrown. At some point we're going to have to play baseball.”
+
+**SETH:** “The game is happening. It's just taking a scenic route through acoustics.”
+
+Andrew heard the last phrase and pointed toward the roof. “Exactly.”
+
+Tyler gave him a look. “They weren't talking to you.”
+
+“They were talking about me.”
+
+“They were talking about the roof.”
+
+“Same thing today.”
+
+The first warm-up began with a simple throwing sequence. Andrew stood near the baseline and rolled the ball through his fingers, feeling the raised seams move beneath his thumb. The leather was cool and slightly damp from the morning air. He tossed it to Luke, who caught it cleanly and sent it back with a long, easy arc. The ball made a soft report in Andrew's glove. He liked the sound. It was firm without being sharp, a small impact that carried the shape of the throw. They began with short distances and gradually moved farther apart. As their bodies warmed, the changes in their proportions became more apparent. Luke's shoulders rose as he straightened; Andrew's arms filled out beneath the sleeveless shirt; Gabe's chest expanded with each deeper breath; Tyler's grip looked heavier around the ball; Chase's stance widened to keep his balance on the damp dirt; and Joseph lengthened his stride as he moved to the next mark. None of them was growing at precisely the same rate. Their bodies were not synchronised, but their practice gave them a common rhythm.
+
+Andrew's throw was powerful, but he did not rely on strength alone. He kept his feet beneath him, watched the target, and adjusted the release. When he threw too early, the ball pulled left. When he waited for his front foot to settle, it travelled straight. Tyler noticed the difference and called it out. Andrew repeated the movement, then asked Tyler to stand at the side and watch his shoulder line. Tyler did so, even though he was still holding the notebook. The session became a conversation between two kinds of expertise. Andrew felt the movement in his body; Tyler watched the mechanics and compared them with the previous repetition. They did not always agree about the cause of a miss, but they could both recognise a better throw.
+
+**TYLER:** “Your front foot is opening sooner.”
+
+**ANDREW:** “Because I'm reaching farther.”
+
+**TYLER:** “Then shorten the stride.”
+
+**ANDREW:** “I'll lose the extension.”
+
+**TYLER:** “You'll gain the line.”
+
+Andrew tried it. The next throw travelled more cleanly. He looked at Tyler with a grin that was half acknowledgement and half challenge.
+
+**ANDREW:** “Fine. You get one point.”
+
+**TYLER:** “I wasn't keeping score.”
+
+**ANDREW:** “I am.”
+
+Chase laughed from the backstop. Joseph leaned against the fence with his arms folded, watching the two men work out their disagreement. He liked the way their rivalry stayed attached to the task. Andrew wanted to make the throw more interesting; Tyler wanted to make it repeatable. Each could irritate the other, but neither treated the other as a fool. The friendship had acquired its own structure, like the dugout: broad enough to hold different methods, with enough space for a joke to come back later.
+
+During the next drill, the group moved to the outfield. The grass was still damp beneath their shoes, and the ball left a dark mark where it struck the ground. Luke took the first run, crossing the field with long, even strides. His size gave him reach, but he did not try to cover the entire distance in one movement. He adjusted, planted, and gathered the ball cleanly. Gabe followed, moving quickly enough to surprise Andrew. His body had become broader in the chest and shoulders, but his running form had remained fluid. He reached the ball, turned, and threw it toward Joseph. The ball travelled with a low line and a strong sound as it entered the glove.
+
+“Again,” Andrew called.
+
+They repeated the drill. Each man took a different route. Tyler watched the spacing between them; Chase observed the way their bodies changed direction; Joseph counted the throws and kept the rhythm. Andrew began to notice that the field itself seemed to respond to their growth. The fence was lower against their shoulders; the dugout roof seemed closer; the distance from the baseline to the backstop felt shorter because their strides had lengthened. The baseball had not changed. The game remained the game. But the men were learning a new scale of play.
+
+At one point, Gabe stopped near the outfield line and looked back toward the dugout. The roof seemed to have dropped since the morning, though he knew it had not moved. He laughed at himself and shook his head. Andrew noticed.
+
+**ANDREW:** “What?”
+
+**GABE:** “I keep thinking the field is shrinking.”
+
+**ANDREW:** “That's a good problem.”
+
+**GABE:** “Maybe for you.”
+
+**ANDREW:** “For the field, it's a serious problem.”
+
+Tyler walked over and held the tape against the nearest post. The old measurement remained unchanged. Gabe's height had increased slightly since the last time the group had recorded it, and the difference was visible in the way his shoulders lined up with the fence. Tyler showed him the mark without making a public announcement. Gabe looked at the two pencil lines, then at Andrew.
+
+**GABE:** “I thought I was done growing for a while.”
+
+**ANDREW:** “You thought wrong.”
+
+**GABE:** “Thanks.”
+
+**ANDREW:** “Anytime.”
+
+Luke came to stand beside them. He was still breathing evenly from the run, and the damp grass had darkened the soles of his shoes. He rested one hand on the fence and looked at the old mark. The distance between the two lines was small, but it meant something to Gabe. Luke understood that. He did not say that the new height was better, nor did he compare it with his own. He simply stood close enough for Gabe to see the difference against a friend who had changed alongside him.
+
+**LUKE:** “We can mark it again next week.”
+
+**GABE:** “You think it'll change by then?”
+
+**LUKE:** “Maybe. We'll see.”
+
+The answer left the future open without turning it into a challenge. Gabe smiled, then took the ball from Andrew. He threw it back toward the infield, where it struck the dirt with a sharp, satisfying report.
+
 Practice began.
 
 Andrew took his place among the players, and the conversation gave way to movement. He hit, ran, threw, and moved through the exercises with the concentration the others had seen in him only briefly. His large frame did not make him slow. He kept his weight balanced and his attention alive, following the play rather than trying to overpower every moment. When a ball took a bad hop, he adjusted and made the play. When another player missed a catch, Andrew tossed him a second ball and asked him to try again.

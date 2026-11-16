@@ -200,6 +200,8 @@ When he returned, Elias asked whether the prototype could be entered as the new 
 
 The fitting card went into Daniel's notebook, beside the small record of his earlier training schedule. He did not cross out the size-50 line. He drew a second mark beside it and wrote that the replacement pair had passed the indoor and outdoor checks. That was enough for the day. His feet had changed, the shoes had changed, and the route through the Commons had remained open to him. He shut the notebook and put it on the shelf. The next time he walked across the High Hall, he intended to think about the people he was going to meet rather than the pressure at the front of his shoes.
 
+He caught up with Andrew and Tyler near the covered walk. Andrew was still arguing about the shoe-storage rack, while Tyler explained that a rotating shelf would make the lower pairs harder to reach. Daniel listened, then suggested a pull-out drawer with removable dividers. Andrew immediately declared it a much better idea than Tyler's. Tyler pointed out that it was the same idea he had proposed ten minutes earlier. Daniel laughed and kept walking. The new shoes made an even sound against the stone, and the men fell into a comfortable rhythm toward the residence.
+
 That evening Daniel walked back to the residential wing with the others. The new shoes made a quiet, even sound against the stone. He no longer thought about every step. At the entrance he paused to let another man pass, then continued upstairs. The old pair remained in the Workshop archive, beside the pattern from which the new one had been made.
 
 SETH: Fifty was the size that carried him here. It doesn't have to carry him forever.

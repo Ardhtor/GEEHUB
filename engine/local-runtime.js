@@ -1,1 +1,137 @@
-(()=>{"use strict";const root=document.getElementById("geeLocalRuntime");if(!root)return;const $=s=>root.querySelector(s);const fmt=n=>{if(!Number.isFinite(n))return"—";const u=["B","KB","MB","GB","TB"];let i=0;while(n>=1024&&i<u.length-1){n/=1024;i++}return n.toFixed(i?1:0)+" "+u[i]};const state=$(".local-runtime-state");const feed=$(".local-runtime-feed");let lastSignature="";function renderFeed(events){const signature=JSON.stringify(events.map(e=>[e.id,e.at,e.title,e.type]));if(signature===lastSignature)return;lastSignature=signature;feed.replaceChildren();$(".local-runtime-feed-count").textContent=events.length+" RECORDS";if(!events.length){const li=document.createElement("li");li.className="local-runtime-feed-empty";li.textContent="No inscriptions yet. New world events will accumulate here.";feed.append(li);return}for(const event of events){const li=document.createElement("li");li.className="local-runtime-feed-item";const meta=document.createElement("span");meta.className="local-runtime-feed-meta";const time=event.at||event.occurred_at||event.timestamp;meta.textContent=(event.type||"EVENT")+" · "+(time?new Date(time).toLocaleString():"TIME UNRECORDED");const title=document.createElement("strong");title.textContent=event.title||event.id||"UNTITLED EVENT";const body=document.createElement("p");body.textContent=event.body||event.text||event.description||"";li.append(meta,title);if(body.textContent)li.append(body);feed.append(li)}}async function sample(){try{const r=await fetch("/api/geehub/system",{cache:"no-store",headers:{accept:"application/json"}});if(!r.ok)throw new Error("HTTP "+r.status);const d=await r.json();const p=d.process_memory_bytes||{},h=d.host_memory_bytes||{};const used=h.total-h.free;const pct=h.total?Math.max(0,Math.min(100,used/h.total*100)):0;$(".local-runtime-process").textContent=fmt(p.rss);$(".local-runtime-heap").textContent=fmt(p.heap_used)+" / "+fmt(p.heap_total);$(".local-runtime-host").textContent=fmt(used)+" / "+fmt(h.total);$(".local-runtime-fill").style.width=pct.toFixed(1)+"%";const activity=d.world_activity||{};$(".local-runtime-records").textContent=Number(activity.record_count||0).toLocaleString();const latest=activity.latest;$(".local-runtime-latest").textContent=latest?"LATEST INSCRIPTION / "+(latest.type||"EVENT")+" · "+(latest.title||latest.id||"UNTITLED")+" · "+(latest.at?new Date(latest.at).toLocaleString():"TIME UNRECORDED"):"LATEST INSCRIPTION / NO RECORDS YET";$(".local-runtime-foot").textContent="PID "+d.runtime.pid+" · "+d.runtime.platform+"/"+d.runtime.arch+" · sampled "+new Date(d.sampled_at).toLocaleTimeString();state.textContent="LOCAL RUNTIME / LIVE";state.dataset.state="live";const ar=await fetch("/api/geehub/activity?limit=24",{cache:"no-store",headers:{accept:"application/json"}});if(!ar.ok)throw new Error("Activity HTTP "+ar.status);const ad=await ar.json();renderFeed(Array.isArray(ad.events)?ad.events:[]);try{const lr=await fetch("/api/geehub/language",{cache:"no-store",headers:{accept:"application/json"}});const report=await lr.json();const language=$(".local-runtime-language");language.dataset.state=report.status||"error";language.textContent="TRACTUS LANGUAGE / "+String(report.status||"UNKNOWN").toUpperCase()+" · "+(report.checks||[]).length+" VALIDATION CHECKS · "+(report.errors||[]).length+" ERRORS · "+(report.warnings||[]).length+" WARNINGS";language.title=(report.errors||[]).concat(report.warnings||[]).join("\n")||"No reported issues"}catch(auditError){const language=$(".local-runtime-language");language.dataset.state="unavailable";language.textContent="TRACTUS LANGUAGE / AUDIT UNAVAILABLE";language.title=String(auditError.message||auditError)}}catch(e){state.textContent="LOCAL RUNTIME / NOT CONNECTED";state.dataset.state="error";$(".local-runtime-process").textContent="—";$(".local-runtime-heap").textContent="—";$(".local-runtime-host").textContent="—";$(".local-runtime-records").textContent="—";$(".local-runtime-latest").textContent="LATEST INSCRIPTION / LOCAL SERVER REQUIRED";$(".local-runtime-foot").textContent="Open this GEEHUB page through http://127.0.0.1:8788 to read actual Mac memory and local inscription history.";if(!lastSignature){$(".local-runtime-feed-count").textContent="OFFLINE";feed.replaceChildren();const li=document.createElement("li");li.className="local-runtime-feed-empty";li.textContent="Activity history appears when the local GEEHUB server is running.";feed.append(li)}}sample();setInterval(sample,5000)})();
+(()=>{
+  "use strict";
+  const root=document.getElementById("geeLocalRuntime");
+  if(!root)return;
+  const $=selector=>root.querySelector(selector);
+  const state=$(".local-runtime-state");
+  const feed=$(".local-runtime-feed");
+  const language=$(".local-runtime-language");
+  const fmt=value=>{
+    if(!Number.isFinite(value)||value<0)return "—";
+    const units=["B","KB","MB","GB","TB"];
+    let unit=0;
+    while(value>=1024&&unit<units.length-1){value/=1024;unit++}
+    return value.toFixed(unit?1:0)+" "+units[unit];
+  };
+  let lastSignature="";
+  let running=false;
+  let timer=null;
+  let lastGoodSample=0;
+  const emptyFeed=message=>{
+    feed.replaceChildren();
+    const item=document.createElement("li");
+    item.className="local-runtime-feed-empty";
+    item.textContent=message;
+    feed.append(item);
+  };
+  const renderFeed=events=>{
+    const signature=JSON.stringify(events.map(event=>[event.id,event.at,event.title,event.type,event.body]));
+    if(signature===lastSignature)return;
+    lastSignature=signature;
+    feed.replaceChildren();
+    $(".local-runtime-feed-count").textContent=events.length+" RECORDS";
+    if(!events.length){emptyFeed("No inscriptions yet. New world events will accumulate here.");return}
+    for(const event of events){
+      const item=document.createElement("li");
+      item.className="local-runtime-feed-item";
+      const meta=document.createElement("span");
+      meta.className="local-runtime-feed-meta";
+      const timestamp=event.at||event.occurred_at||event.timestamp;
+      const date=timestamp?new Date(timestamp):null;
+      meta.textContent=(event.type||"EVENT")+" · "+(date&&!Number.isNaN(date.valueOf())?date.toLocaleString():"TIME UNRECORDED");
+      const title=document.createElement("strong");
+      title.textContent=event.title||event.id||"UNTITLED EVENT";
+      item.append(meta,title);
+      const bodyText=event.body||event.text||event.description||"";
+      if(bodyText){
+        const body=document.createElement("p");
+        body.textContent=bodyText;
+        item.append(body);
+      }
+      feed.append(item);
+    }
+  };
+  async function getJSON(path){
+    const controller=new AbortController();
+    const timeout=setTimeout(()=>controller.abort(),7000);
+    try{
+      const response=await fetch(path,{cache:"no-store",headers:{accept:"application/json"},signal:controller.signal});
+      if(!response.ok)throw new Error(path+" returned HTTP "+response.status);
+      return await response.json();
+    }finally{clearTimeout(timeout)}
+  }
+  function setOffline(error){
+    state.textContent="LOCAL RUNTIME / NOT CONNECTED";
+    state.dataset.state="error";
+    $(".local-runtime-latest").textContent="LATEST INSCRIPTION / LOCAL SERVER REQUIRED";
+    $(".local-runtime-foot").textContent="Runtime sample unavailable. "+(error&&error.name==="AbortError"?"The local service did not respond within seven seconds.":"Open this page through http://127.0.0.1:8788 and check the local server.");
+    if(!lastSignature){
+      $(".local-runtime-feed-count").textContent="OFFLINE";
+      emptyFeed("Activity history appears when the local GEEHUB server is running.");
+    }
+  }
+  async function sample(){
+    if(running||document.hidden)return;
+    running=true;
+    try{
+      const data=await getJSON("/api/geehub/system");
+      if(!data||data.ok!==true||!data.runtime||!data.process_memory_bytes||!data.host_memory_bytes)throw new Error("Runtime response is incomplete.");
+      const processMemory=data.process_memory_bytes;
+      const hostMemory=data.host_memory_bytes;
+      const total=Number(hostMemory.total);
+      const free=Number(hostMemory.free);
+      const used=total-free;
+      const percent=total>0?Math.max(0,Math.min(100,used/total*100)):0;
+      $(".local-runtime-process").textContent=fmt(Number(processMemory.rss));
+      $(".local-runtime-heap").textContent=fmt(Number(processMemory.heap_used))+" / "+fmt(Number(processMemory.heap_total));
+      $(".local-runtime-host").textContent=fmt(used)+" / "+fmt(total);
+      $(".local-runtime-fill").style.width=percent.toFixed(1)+"%";
+      const activity=data.world_activity||{};
+      $(".local-runtime-records").textContent=Number(activity.record_count||0).toLocaleString();
+      const latest=activity.latest;
+      const latestDate=latest&&latest.at?new Date(latest.at):null;
+      $(".local-runtime-latest").textContent=latest
+        ?"LATEST INSCRIPTION / "+(latest.type||"EVENT")+" · "+(latest.title||latest.id||"UNTITLED")+(latestDate&&!Number.isNaN(latestDate.valueOf())?" · "+latestDate.toLocaleString():"")
+        :"LATEST INSCRIPTION / NO RECORDS YET";
+      const sampled=data.sampled_at?new Date(data.sampled_at):new Date();
+      $(".local-runtime-foot").textContent="PID "+data.runtime.pid+" · "+data.runtime.platform+"/"+data.runtime.arch+" · Node "+(data.runtime.node||"unknown")+" · sampled "+sampled.toLocaleTimeString();
+      state.textContent="LOCAL RUNTIME / LIVE";
+      state.dataset.state="live";
+      lastGoodSample=Date.now();
+
+      const activityData=await getJSON("/api/geehub/activity?limit=24");
+      renderFeed(Array.isArray(activityData.events)?activityData.events:[]);
+
+      try{
+        const report=await getJSON("/api/geehub/language");
+        const errors=Array.isArray(report.errors)?report.errors:[];
+        const warnings=Array.isArray(report.warnings)?report.warnings:[];
+        const checks=Array.isArray(report.checks)?report.checks:[];
+        const status=String(report.status||"unknown").toLowerCase();
+        language.dataset.state=status==="pass"?"pass":status==="warning"?"warning":status==="fail"?"fail":"error";
+        language.textContent="TRACTUS LANGUAGE / "+status.toUpperCase()+" · "+checks.length+" VALIDATION CHECKS · "+errors.length+" ERRORS · "+warnings.length+" WARNINGS";
+        language.title=errors.concat(warnings).join("\n")||"No reported issues";
+      }catch(error){
+        language.dataset.state="error";
+        language.textContent="TRACTUS LANGUAGE / AUDIT UNAVAILABLE";
+        language.title=String(error.message||error);
+      }
+    }catch(error){setOffline(error)}
+    finally{running=false}
+  }
+  function schedule(){
+    if(timer!==null)clearInterval(timer);
+    timer=setInterval(()=>{
+      if(lastGoodSample&&Date.now()-lastGoodSample>15000&&state.dataset.state==="live"){
+        state.textContent="LOCAL RUNTIME / SAMPLE STALE";
+        state.dataset.state="error";
+      }
+      sample();
+    },5000);
+  }
+  document.addEventListener("visibilitychange",()=>{
+    if(!document.hidden)sample();
+  });
+  sample();
+  schedule();
+})();

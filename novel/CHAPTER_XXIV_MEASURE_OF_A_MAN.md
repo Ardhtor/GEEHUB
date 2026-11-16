@@ -268,7 +268,7 @@ Tyler nodded. “We'll keep the earlier one as the record.”
 
 Luke turned from the glass. “Good.”
 
-The room was quiet. The vessel moved faintly on the table. Outside, the city continued making small adjustments to the places where men lived and worked. Luke folded the shirt over the chair, not because he had finished changing, but because it would be ready when he needed it. The body was still becoming. The record was still open. The man remained the authority on what the change meant to him. The next measurement would begin from this one, not replace it.
+The room was quiet. The vessel moved faintly on the table. Outside, the city continued making small adjustments to the places where men lived and worked. Luke folded the shirt over the chair, not because he had finished changing, but because it would be ready when he needed it. The body was still becoming. The record was still open. The man remained the authority on what the change meant to him. The next measurement would begin from this one, not replace it. The body would continue, and the record would continue with it.
 
 Before they left the room, Tyler added the sample shirt's alteration date to the ledger and linked it to Luke's current measurements. Luke asked him to include the earlier fit as well. The old shirt was not to be labelled defective, and the new one was not to be labelled final. They were two garments in one continuing record. The distinction pleased Luke. It meant the clothes could change without the story becoming a list of things that had failed.
 

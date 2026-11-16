@@ -119,3 +119,14 @@ The ensemble need not all speak in every scene, but each substantial gathering s
 
 When a new chapter reveals a new interaction, update character records and relationship canon while the scene is fresh. In baseball scenes, for example, team members are not interchangeable bodies in the field: positions, routines, calls, equipment, and the trust required between plays give each man a distinct place in the team. Preserve that specificity as the cast expands.
 
+
+
+## Clothing and flesh — visible physical continuity
+
+Treat clothing and flesh as one of the central visual subjects of the writing. The body is living, continuous form; the garment is a constructed object with its own fabric, cut, seams, closures, fit and history. Show their interaction precisely: how a shirt lies across a chest and upper back, where a shoulder seam sits, how an armhole changes with the arm, how a waistband rests against the waist, how shorts move across the hips and thighs, and how folds and tension shift when a man turns, reaches, sits, lifts or relaxes. Use those details to make bodily change tangible without reducing every scene to a repeated clothing gag.
+
+Clothing should retain personal identity. A familiar tank, shirt, pair of trunks, shorts, trousers or jacket can become a continuity marker; a man may prefer to keep it, replace it, alter it, borrow another size or deliberately choose a different cut. These are character actions, not merely visual consequences. Do not assume fabric always tears or that every garment becomes restrictive. Let its construction and the man's own choices determine what happens.
+
+Describe flesh as natural living anatomy rather than a hard sculptural surface: rounded connected muscle, believable skin, changes of weight and posture, soft tissue transitions and coherent contact with clothing or furniture. Keep the person's face, proportions and characteristic movement recognizable as the physical baseline develops. Where a visual source establishes a detail, preserve it; where it does not, do not invent measurements or claim visual evidence that has not been inspected.
+
+For production and cross-medium continuity, follow [the Clothing and Flesh System](../production/growth-study-001/CLOTHING_AND_FLESH_SYSTEM.md) and the [GEEHUB Sensation Engine](../SENSATION_ENGINE.md). Apply the same physical logic in prose, still images, comic sequences and animation, while allowing each medium to reveal different details.

@@ -348,4 +348,6 @@ Tyler frowned. “You can't bring a dugout.”
 
 Andrew had already started laughing.
 
+The recorder stayed with Andrew that night. He placed it on the desk beside his notebook, where the small green indicator blinked against the dark room. He listened once to the empty-diamond recording, then again to the version with all six men inside the dugout. The difference was not as dramatic as he had expected, but he liked that. It gave the next visit somewhere to go. Tyler had promised to check the levels; Chase had promised to keep the photographs beside the sound files; Luke had offered to bring a different ball; and Gabe wanted to see whether the same echo returned after rain. Joseph had suggested they invite the groundskeeper, who knew the field's daily changes better than any of them. Andrew wrote all of it down, then added one final note: **come back together**. He was pleased by the experiment, but more pleased by the fact that the others had found a reason to return.
+
 The others followed him down the road, still arguing about what it would mean to hear a baseball field after midnight.

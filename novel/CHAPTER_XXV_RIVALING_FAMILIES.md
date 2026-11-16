@@ -94,19 +94,15 @@ The answer seemed to surprise the younger men. The first family had expected the
 
 The first family's representative opened the cedar case just enough to show the folded edge of a garment inside. He did not remove it. The second family's representative asked whether the family could see the measurements associated with it. The old man said he would show them later, once he had confirmed the dates. He did not want the object separated from its history. The other man accepted the condition. The case closed again, and the men moved back toward the centre of the clearing.
 
+The youngest men began moving around one another, not aggressively, but carefully. They noticed the practical differences first. One man's stride was wider. Another turned his entire torso before turning his shoulders. One had learned to sleep differently because the new breadth of his body made his old position uncomfortable. Another had developed a habit of standing farther from tables. Their bodies were not sculptures. They were systems carrying accumulated history, and the men were beginning to recognise the same problems in one another even when their records described them differently.
 
+One of the younger men from the first family approached a member of the second and asked how he had adjusted his sleeping position. The second man laughed, surprised by the question, then described how he now slept on his side with a longer pillow beneath his upper arm. His shoulders had become broad enough that lying flat on his back made his arms rest awkwardly. The first man said he had experienced something similar, but had solved it by changing the mattress. They compared the two approaches. Neither was declared better. One had altered the body's immediate support; the other had altered the bed. The conversation lasted longer than either expected because both men had been trying to solve the same problem without knowing that the other had found a different answer.
 
-The youngest men began moving around one another, not aggressively, but carefully. They noticed the practical differences first. One man's stride was wider. Another turned his entire torso before turning his shoulders. One had learned to sleep differently because the new breadth of his body made his old position uncomfortable. Another had developed a habit of standing farther from tables. Their bodies were not sculptures. They were systems carrying accumulated history.
-
-One of the younger men from the first family approached a member of the second and asked how he had adjusted his sleeping position. The second man laughed, surprised by the question, then described how he now slept on his side with a longer pillow beneath his upper arm. His shoulders had become broad enough that lying flat on his back made his arms rest awkwardly. The first man said he had experienced something similar, but had solved it by changing the mattress. They compared the two approaches. Neither was declared better. One had altered the body’s immediate support; the other had altered the bed.
-
-Luke watched the exchange. It was the first time the two families had spoken about their changes as ordinary problems rather than as evidence in a contest. He moved closer to the men and asked how long the adjustments had taken. One said several nights. The other said he had needed a week. The difference mattered. A stable measurement did not mean a person had mastered the new way of sleeping. The body could change before the habits around it had caught up.
+Luke listened and asked how long the adjustment had taken. One said several nights. The other said he had needed a week. The difference mattered. A stable measurement did not mean a person had mastered the new way of sleeping. The body could change before the habits around it had caught up. The younger men began to compare other ordinary adjustments: the height of a pillow, the depth of a chair, the way a belt sat when the chest and shoulders broadened, and the awkwardness of reaching for a cup from a table that had become too low. Their questions were practical. They were not trying to prove which family had progressed further. They were trying to find ways to make the next day easier.
 
 A few paces away, the tall man from the second family had removed his coat. His shirt was stretched across the back, and the seam beneath the arm had been let out twice. He stood beside one of the older men from the first family. They compared the tailoring without touching each other's clothing. The older man asked whether the changes had been made by one tailor or several. The tall man said that the first alteration had been done by a family member, the second by a professional, and the third by himself after he had learned how the cloth responded. He described the difference between opening a seam and adding a panel. The older man listened with the interest of someone who understood the work.
 
-Luke watched one of the older men remove his coat.
-
-Underneath, his shirt had been tailored repeatedly. There were visible lines where earlier seams had been opened and reconstructed. The garment contained the record of his growth more clearly than any photograph.
+Luke watched one of the older men remove his coat. Underneath, his shirt had been tailored repeatedly. There were visible lines where earlier seams had been opened and reconstructed. The garment contained the record of his growth more clearly than any photograph.
 
 “You kept the old shirts?” Luke asked.
 
@@ -118,37 +114,11 @@ The man looked at the forest.
 
 “So we could prove that we didn't become someone else.”
 
-Luke understood.
+Luke understood. The rivalry had always been about the wrong thing. They had thought they were competing over size. They were actually competing over continuity.
 
-The rivalry had always been about the wrong thing.
-
-They had thought they were competing over size. They were actually competing over continuity.
-
-The younger men continued talking. One described how his gloves had become too small; another showed the reinforced heel of a shoe that had been rebuilt to accommodate his changing foot. A man from the second family explained that he had stopped keeping clothes once the measurements became his primary record. He had not realised how much he missed the feel of the old fabric until he saw the cedar case. The first family's younger members were surprised to hear this. They had assumed that the second family had discarded old clothing because it no longer mattered to them.
+The younger men continued talking. One described how his gloves had become too small; another showed the reinforced heel of a shoe that had been rebuilt to accommodate his changing foot. A man from the second family explained that he had stopped keeping clothes once measurements became his primary record. He had not realised how much he missed the feel of the old fabric until he saw the cedar case. The first family's younger members were surprised to hear this. They had assumed that the second family had discarded old clothing because it no longer mattered to them.
 
 The Serum had entered their families differently. In one lineage it was spoken of as continuity. A grandfather's broadened shoulders became a father's starting point; the father's starting point became his son's ordinary frame. Nothing was considered extraordinary for long. In the other family, every increase was treated as a challenge. A new baseline was not merely accepted; it was tested against everyone else's. The two habits had become traditions, and the traditions had become identities. Yet the men standing in the clearing were not as different as their archives suggested.
-
- They noticed the practical differences first. One man's stride was wider. Another turned his entire torso before turning his shoulders. One had learned to sleep differently because the new breadth of his body made his old position uncomfortable. Another had developed a habit of standing farther from tables. Their bodies were not sculptures. They were systems carrying accumulated history.
-
-Luke watched one of the older men remove his coat.
-
-Underneath, his shirt had been tailored repeatedly. There were visible lines where earlier seams had been opened and reconstructed. The garment contained the record of his growth more clearly than any photograph.
-
-“You kept the old shirts?” Luke asked.
-
-“All of them.”
-
-“Why?”
-
-The man looked at the forest.
-
-“So we could prove that we didn't become someone else.”
-
-Luke understood.
-
-The rivalry had always been about the wrong thing.
-
-They had thought they were competing over size. They were actually competing over continuity.
 
 The first family had brought a small bench with them from the road. They placed it near the tree so that the older men could sit while the younger ones continued talking. The second family offered to help move it. The bench was heavy, and its legs had been reinforced with an additional crossbar. Two men lifted one end; two more took the other. They moved it a few feet and set it down. The bench rocked slightly. A young man crouched to inspect the leg, then found a flat piece of wood to slip beneath it.
 
@@ -166,9 +136,7 @@ The largest man remained standing. He could feel the new pressure across his che
 
 Then someone in the back of the clearing felt the first change.
 
-Not dramatic.
-
-A pressure across the upper back. A deeper breath. A shirt becoming fractionally tighter beneath the arms.
+Not dramatic. A pressure across the upper back. A deeper breath. A shirt becoming fractionally tighter beneath the arms.
 
 Everyone looked toward him.
 
@@ -202,7 +170,7 @@ The tall man nodded. “Then we wait.”
 
 The older man from the first family brought the cedar case closer, though he did not open it. He asked whether the changed man wanted to sit. The man said he would rather keep standing for a little while. Luke moved the bench a few inches so the path remained clear. The younger men made room without being told. They had begun to understand that the right response to a change was not always a measurement. Sometimes it was allowing the person to find his balance before everyone tried to describe what had happened.
 
-Tyler was not yet part of the scene as the formal recorder he would become later, but one of the men from the second family had a notebook ready. He asked whether he should note the time. Luke said yes, but the entry should say that the change was observed and not yet measured. The notebook-holder wrote the distinction down. The first family agreed that its own record would contain the same note. Neither archive would be asked to accept the other's interpretation.
+One of the men from the second family had a notebook ready. He asked whether he should note the time. Luke said yes, but the entry should say that the change was observed and not yet measured. The notebook-holder wrote the distinction down. The first family agreed that its own record would contain the same note. Neither archive would be asked to accept the other's interpretation.
 
 The tall man looked toward the clearing's edge. “We'll need a proper surface tomorrow.”
 
@@ -235,7 +203,7 @@ Luke watched the handover. The tall man caught his eye.
 “Tomorrow,” Luke replied.
 
 Neither man made a promise about what the next meeting would settle. They had agreed only to return, to bring their records, and to look at the evidence together. The road split beneath the trees. The men paused long enough to make sure everyone knew which route the others would take, then continued toward their separate camps with the sense that the distance between them had become a little easier to cross.
- 
+
 The woods remained silent around them.
 
 The rivalry had become something else.

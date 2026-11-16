@@ -22,6 +22,12 @@ The architecture is informed by public creator notes in the Hulum's Cave researc
 - A production update described moving a devil and throne set into Maya, ready for animation: https://www.patreon.com/hulumscave/posts/next-scene-is-90663150. The scene uses separate environment and character collections so sets and lighting can be reused.
 - A separate update described choosing a night-time look for Laboratory Growth: https://www.patreon.com/hulumscave/posts/i-decided-to-go-89020199. The current studio uses controlled warm/cool separation as a starting lighting study, not a recreation of that scene.
 
+## Clothing and flesh response
+
+Clothing and flesh are a primary development axis, not just two shader categories. V3 currently uses a voxel-fused anatomical blockout, a separate training-trunks form and a waistband form. Skin and training fabric have distinct procedural materials, but there is no cloth simulation, garment-panel construction, body-cloth collision system, or validated fabric response. These limits are explicit in `SCENE_SPEC_V3.json`.
+
+The next implementation target is a separate, reusable garment mesh with identifiable panels, seams, waistband and openings, then body collision and cloth response across matched growth states and poses. The garment must retain its own identity and construction; it must not simply scale with the body. See [CLOTHING_AND_FLESH_SYSTEM.md](./CLOTHING_AND_FLESH_SYSTEM.md) for the continuity model, data to record, acceptance checks and staged build sequence.
+
 ## Next pass
 1. Run in Blender and inspect the two preview frames.
 2. Repair silhouette gaps and joint discontinuities; replace overlapping ellipsoids with connected meshes where necessary.

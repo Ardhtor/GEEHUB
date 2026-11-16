@@ -134,6 +134,40 @@ The largest man looked from the Serum to the others. Their faces were familiar i
 
 No one found a reason to contradict him.
 
+The youngest man approached first, but he stopped before reaching the roots. He looked at the open lid, then at his own hands, and seemed to be deciding whether the light was something he could touch. The largest man came to stand beside him. He did not block the view. He simply placed himself near enough that the younger man would not have to approach alone.
+
+“Can you feel it?” the youngest asked.
+
+The largest man listened to his own breathing. The pressure beneath his shirt had returned, but it was not uncomfortable. It felt like a movement completing itself, as though the body had found a position it had been trying to reach since the morning. He flexed his fingers. The skin at his knuckles moved naturally. His shoulders settled. There was no sudden rush of strength and no loss of balance.
+
+“I can feel something,” he said. “I can't tell you what it is.”
+
+The map-carrier came closer and looked into the chest from the other side. The pale light reached his face and showed the lines of fatigue around his eyes. He had been carrying the route in his head all day, and now there was no route to compare with the one ahead. He looked back toward the dark path.
+
+“If this is the place we were meant to find, why did it wait until night?”
+
+The seventh man stood beside the oak. “Perhaps we were not ready to see it earlier.”
+
+The compass-carrier shook his head. “That's a convenient answer.”
+
+“It may be,” the seventh man said. “It may also be true.”
+
+The men did not argue further. The substance inside the chest moved slowly, light gathering along its surface and dispersing again. It seemed to respond when one of them looked directly at it, though the pattern was difficult to distinguish from the movement already taking place. The youngest man held his hand near the rim, then withdrew it. The largest man watched him.
+
+“You don't have to touch it.”
+
+“I know.”
+
+“Then don't do it just because we're watching.”
+
+The younger man smiled, relieved. He stepped back and stood beside the map-carrier. That small exchange seemed to matter more than any experiment they might have attempted. The chest had opened without their intervention. They did not need to force the next event.
+
+The man with the compass took a careful look at the iron bands. They were wider than before, but the change had been gradual enough that he could not say when it had occurred. He asked the others whether they remembered the width of the chest when they first approached it. The largest man described the impression of its depth. The map-carrier remembered that the lock had seemed smaller. The youngest remembered the way the lid had appeared to fill the space between the roots. Their descriptions differed, but each was consistent with a chest that had been changing alongside the men.
+
+They tested the ground around it without touching the roots. A short branch was placed against one of the iron bands, not as a measuring tool but as a reference. The branch reached only partway across. They laid it down, marked its length with a small notch, and repeated the comparison after several minutes. The difference was difficult to establish. The chest might have grown; the branch might have been held at a different angle; the men might have remembered the first comparison poorly. They kept the note but did not make a claim.
+
+Tyler was not yet in the scene as a named recorder; this was before the later formal ledger. But the men had the same instinct to preserve what they could. The map-carrier used the notebook and wrote: **CHEST APPEARS TO CHANGE WITH ATTENTION; DIMENSION NOT CONFIRMED.** He showed the page to the others. The compass-carrier added that the ground beneath the roots seemed to have shifted. The youngest wrote that the light changed when he approached. The largest man placed one finger under the notes and asked that the word *appears* remain. It mattered. The men had witnessed something extraordinary, but they had not yet earned the right to say exactly how it worked.
+
 They stayed beside the open chest until the coals were cold. By morning, the clearing had altered enough to make their camp look strangely small. The oak stood farther from the edge of the trees; the ground around its roots had opened into a wider ring; the chest could no longer have been carried by two men. Their own changes were still gradual, but the evidence had accumulated. Their shirts fitted differently. Their shoulders occupied more of the space between them. When they walked, they adjusted to one another without thinking, leaving a little more room at the narrow points of the path.
 
 They tried to find their way back. The route they remembered was absent, and the forest offered no sign that it had ever existed. They searched until the light began to fail, following a shallow depression that led nowhere and a stream that seemed to turn back on itself. At last they stopped beneath a stand of trees whose trunks were so broad that the seven of them could not have joined hands around one. The largest man looked into the deepening woods. He did not feel panic. The thought of being lost had become less urgent than the sense that the forest was still making room for them, and that whatever lay ahead had already begun to answer their presence.

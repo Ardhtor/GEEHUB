@@ -64,12 +64,6 @@ The first family's older representative watched the exchange. He stepped forward
 
 The older men began comparing records. One family had kept photographs. The other had kept measurements. One had preserved clothing from every baseline, carefully labeled and stored in cedar cabinets. The other had destroyed almost everything that no longer fit, believing that the old proportions had no authority over the new ones. Their doctrines were incompatible, but their evidence was the same: every generation had crossed another threshold.
 
-The Serum had entered their families differently. In one lineage it was spoken of as continuity. A grandfather's broadened shoulders became a father's starting point; the father's starting point became his son's ordinary frame. Nothing was considered extraordinary for long. In the other family, every increase was treated as a challenge. A new baseline was not merely accepted; it was tested against everyone else's.
-
-Neither family had invented the Serum.
-
-Neither family owned it.
-
 Neither family had invented the Serum.
 
 Neither family owned it.

@@ -20,6 +20,34 @@ They compared what they could without ceremony. The differences were modest, but
 
 The forest altered around them by increments no one could have marked on a map. A gap between two trees seemed wider when they reached it than it had from a distance. A low branch that should have brushed one man’s shoulder hung just above his head. The ground grew easier underfoot, though none of them could explain why. Their chests continued to broaden, slowly and without spectacle. The change arrived in intervals: a faint pressure, a settling of the shoulders, the quiet discovery that a familiar movement now required a fraction more space. Each time they stopped, the sensation seemed to subside. Each time they resumed walking, it returned.
 
+The man who carried the map took it from his coat and tried to mark the stream crossing. The paper had softened in the damp, and the crease running through the centre had begun to split. He held it against his knee while the youngest man steadied the corner. The largest man offered to take the pack, but the map-carrier refused until the others had crossed. He was particular about the order of things. He wanted every man on the far bank before he put away the record of the route, as though the map were a promise that had to remain visible until everyone had arrived.
+
+The stream was shallow, but the stones were slick. One man slipped and caught himself against a branch. The largest man reached across to steady him, then withdrew his hand when the man found his footing. No one made a joke at his expense. They waited until he had crossed and then continued. Their shoulders were beginning to sit differently under their packs. Straps that had rested comfortably at the collarbone now pressed closer to the neck, while the chest bands had begun to ride higher. One man loosened his pack and shifted the weight toward his hips. Another asked him to show how he had done it. The small adjustments became a shared exercise, with the men checking buckles and straps for one another.
+
+The youngest man was the first to notice that his hands were changing. He had been holding the map's lower edge, and now the paper seemed narrower between his fingers. He opened his hand and looked at it. His knuckles appeared fuller, the tendons standing more clearly when he flexed them. He did not seem frightened, but he was surprised enough to stop walking.
+
+“Look at this.”
+
+The others turned.
+
+He held his hand beside the map-carrier's. The difference was slight, and the two men were built differently to begin with. Yet the youngest man remembered that their hands had been almost the same width when they set out that morning. The map-carrier placed the paper down and compared their fingers without touching them.
+
+“Could be the cold,” one of the men said.
+
+“Could be,” the youngest replied. “But my gloves were loose this morning.”
+
+The largest man examined his own hands. He flexed them once, then closed them into fists. The movement felt familiar, though there was a new pressure in the palms and a different balance at the wrists. He opened his fingers again.
+
+“Don't turn every change into an answer,” he said. “Let's keep track.”
+
+The map-carrier folded the softened paper and placed it inside a dry cloth. He had no instrument, so he marked the time and wrote a short description in the margin of his notebook. The men did not yet know whether the change was shared, contagious, environmental, or particular to the seven of them. They knew only that several people had noticed it and that the forest was becoming difficult to measure by the landmarks they remembered.
+
+They walked in a looser formation after that. The largest man kept near the rear, where he could see everyone ahead of him. The youngest moved beside the man who had slipped, partly because the path was easier there and partly because he did not want the earlier mishap to become a source of embarrassment. The seventh man walked near the front. He rarely spoke, but he noticed when the group became too stretched out and waited at each bend until the last man came into view. His attention was not anxious. It was a form of care that had become habitual.
+
+Once, when they paused beneath a leaning pine, the quiet man with the compass asked whether they should return to the stream and follow it downstream. The map-carrier said the water ought to lead toward the road. The seventh man looked at the slope and disagreed. The argument lasted only a minute. They tested the ground, found the stream's direction, and chose the path with firmer footing. No one insisted on being right after the decision had been made. The forest had become strange enough without the men making their own company more difficult.
+
+By late afternoon, the largest man had begun to feel the transformation as a kind of patient insistence. His shirt no longer hung naturally across his torso. The fabric held a shallow tension from one side seam to the other, and when he drew a deep breath, it resisted him before yielding. His shoulders had widened enough to change the way his arms rested. He found himself walking with his elbows slightly farther from his body. The others showed similar signs, each according to his own build. They remained unmistakably themselves; the changes did not erase their faces or gestures. Instead, familiar movements acquired a new scale, and the men had to learn them again as they went.
+
 By late afternoon, the largest man had begun to feel the transformation as a kind of patient insistence. His shirt no longer hung naturally across his torso. The fabric held a shallow tension from one side seam to the other, and when he drew a deep breath, it resisted him before yielding. His shoulders had widened enough to change the way his arms rested. He found himself walking with his elbows slightly farther from his body. The others showed similar signs, each according to his own build. They remained unmistakably themselves; the changes did not erase their faces or gestures. Instead, familiar movements acquired a new scale, and the men had to learn them again as they went.
 
 They found the clearing just before dusk. An old oak stood at its center, its roots breaking the earth in long, black ridges. Beneath it rested a treasure chest. It was made of dark timber banded in iron, with a simple lock and a lid polished by age or by hands that had never been seen. At first glance it seemed an ordinary object, perhaps left by travelers or buried by someone who had expected to return. The men approached it carefully. The largest man stopped beside the oak and looked down at the chest. He had the distinct impression that it had become larger as he came nearer, though he could not have said which dimension had changed.
@@ -31,6 +59,56 @@ He stepped back. The impression weakened. He stepped forward again. The chest ap
 “Do you think it’s dangerous?”
 
 “I think it’s paying attention.”
+
+They did not approach the chest in a single line. The largest man walked to the oak first, then stopped several paces away and waited. The map-carrier remained beside the younger man, who was still rubbing his fingers as though the change might be explained by touch. The man with the compass stood where he could see both the chest and the path behind them. The seventh man moved around the edge of the clearing, looking at the roots and the dark ground beneath them. He did not inspect the lock. He inspected the place where the object had been set down.
+
+“Who brought it here?” the youngest man asked.
+
+No one answered.
+
+“Somebody must have.”
+
+“Perhaps,” said the seventh man.
+
+“Then where are the tracks?”
+
+The map-carrier looked at the soil. There were no clear marks leading to the chest. The ground beneath the oak was covered with needles and old leaves, but the surface around the iron bands was strangely clean. It might have been protected from weather by the roots, or it might have been placed there more recently than the tree suggested. They had no way to know. The chest seemed old, but age was not a reliable explanation for its presence.
+
+The largest man crouched at a distance and studied the lock. The metal was dark, but the narrow opening showed a faint line of brightness within it. He did not touch it. The seventh man was right: the object had the appearance of being aware of them, though the word made the others uncomfortable.
+
+“Could be a trick,” the compass-carrier said.
+
+“Whose?” asked the youngest.
+
+The man did not answer. He looked toward the forest, where the path had disappeared. There was no one else in the clearing. No sound of a person approaching. No sign of a camp or a settlement. The chest was the only object that seemed to have been placed with intention.
+
+The group made camp. The youngest gathered dry wood from beneath the lower branches, while the map-carrier checked the remaining food. The largest man helped carry the heavier packs to a patch of level ground, but he had to adjust his grip because the straps sat differently against his palms. The compass-carrier noticed and offered to take the second pack. The largest man accepted. It was the first time that day he had let another person carry something he could easily have managed himself.
+
+They cooked what remained of their food in a small pot. The meal was thin, but the heat helped. They ate from their own bowls and passed the last pieces of bread between them. The seventh man sat where he could see the chest. The youngest man asked whether he ever slept. The seventh man looked at him and smiled faintly.
+
+“When there's nothing to watch.”
+
+“And is there nothing to watch?”
+
+“Not tonight.”
+
+The answer was not meant to frighten him. The seventh man looked back toward the chest, where the last of the daylight rested on the iron bands. The others followed his gaze. The chest seemed no larger than it had when they first found it, but now the roots around it appeared to fit more closely, as though the oak had grown toward it over a long period.
+
+When the fire settled, the men began speaking about the changes they had felt. One described a tightness across the shoulders. Another said his sleeves had shortened. The map-carrier said his pack seemed to sit lower against his back, even after he had tightened the straps. The youngest man thought his hands had changed more than his chest. The largest man listened and asked each of them to describe what they remembered from that morning. They compared the details carefully. Some were uncertain. Some were supported by the way their clothes fitted. They agreed not to exaggerate.
+
+The seventh man did not offer a theory. He asked what they would do if the change continued.
+
+“Find out what causes it,” said the compass-carrier.
+
+“Find a way back,” said the map-carrier.
+
+“Keep moving,” said the largest man.
+
+The youngest looked at him. “Even if we don't know where we're going?”
+
+“Especially then. But we keep moving together.”
+
+That seemed to settle the group. The men drew their blankets closer and arranged their packs so that the fire would not catch the fabric. The largest man sat with his back against a root. The oak seemed immense behind him, but its trunk no longer dwarfed him in quite the way it had earlier. He looked toward the chest. The seventh man had not moved. The object remained closed.
 
 They made camp a short distance away. No one suggested leaving. They ate what remained in their packs and watched the clearing darken. Around them, the forest settled into a silence that seemed less like the absence of sound than a decision not to make any. Their bodies continued their gradual alteration. A man would shift his weight and notice his chest pressing differently against his folded arms; another would tug at his shirt, then stop when he realized the adjustment had become habitual. The largest man sat with his back against a root. The oak seemed immense behind him, but its trunk no longer dwarfed him in quite the way it had earlier.
 

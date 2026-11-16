@@ -106,6 +106,7 @@
         const activityData=await getJSON("/api/geehub/activity?limit=24");
         renderFeed(Array.isArray(activityData.events)?activityData.events:[]);
       }catch(activityError){
+        lastSignature="";
         $(".local-runtime-feed-count").textContent="LEDGER UNAVAILABLE";
         emptyFeed("The compute service is connected, but the activity ledger could not be read: "+String(activityError.message||activityError));
       }

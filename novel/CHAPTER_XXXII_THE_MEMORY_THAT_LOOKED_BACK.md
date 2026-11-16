@@ -170,6 +170,76 @@ Luke considered. “The cold. The tree. I think I was waiting for somebody.”
 
 Joseph looked at the photograph. “Then maybe that's what the record is trying to find.”
 
+The men did not agree immediately on what the records meant. The physician from the Continuity family wanted to know whether the Hub had retrieved a true memory or assembled a likeness from details it already possessed. The Escalation representative asked whether the sequence could be repeated for another man. Tyler wanted to know which data sources had been consulted. Joseph asked a different question.
+
+“Who else is in the photograph?”
+
+The Hub did not answer him at once. The image remained on Luke, his earlier shoulders and smaller frame held beneath the trees. Joseph looked beyond him, toward the edge of the clearing. There was a second figure in the background, partly hidden by a trunk. The figure was not clear enough to identify, but the position of the head suggested that someone had been watching Luke from a short distance away.
+
+“That's what I mean,” Joseph said. “The picture is not only about him.”
+
+Luke moved closer to the screen. The second figure remained indistinct. He could not tell whether it was a man he knew. The image did not enlarge when he leaned toward it. The Hub had chosen the first photograph and was holding it in place, as if the point were not to offer unlimited detail but to show what had been present all along.
+
+Andrew came around the table. He had been looking at the sequence of objects generated beside the image. The same cup appeared in three records. The same doorway appeared twice, with different marks along its frame. One entry showed a folded blanket on a chair; another showed the blanket placed over a man's shoulders. Andrew pointed to the two entries.
+
+“Same blanket.”
+
+Tyler checked the record identifiers. “Different dates.”
+
+“Different uses.”
+
+“That is recorded too.”
+
+Andrew nodded. “Then the object has a history, not just a location.”
+
+The older physician looked toward him. “You keep finding the relationships between things.”
+
+Andrew shrugged. “They keep being there.”
+
+He said it without triumph. He was not claiming to understand the Hub. He was noticing that the records formed connections the men had not thought to request. Tyler began listing the object identifiers and their repeated appearances. Joseph started reading the short descriptions aloud. A meal. A door held open. A shirt folded on a chair. A hand resting on another man's shoulder. The events were so ordinary that they might have been overlooked if they had not been preserved.
+
+Luke looked at the line that said **HE WAITED AT THE DOOR**.
+
+“Who waited?”
+
+The Hub left the line unchanged.
+
+Tyler asked the machine to show the source reference. A small identifier appeared, but the linked record remained unavailable. The men did not try to force it open. They copied the identifier into the working notebook and marked it as a connection to be followed. The record had not supplied a name. It had supplied a place where a name might belong.
+
+The two families began to see what the Hub was doing. It was not merely collecting a man’s past body and placing it beside his current one. It was retrieving the network of ordinary actions that had made his life recognisable. The continuity family had preserved objects because the objects had been touched and used. The escalation family had preserved measurements because the measurements showed what had changed. The Hub was returning the things that neither archive had fully captured: a person waiting for somebody else, a room being shared, a gesture repeated without ceremony, a meal in which the same men had sat together at different stages of their lives.
+
+The older physician approached the screen. He had been quiet since the original photograph appeared. Now he placed his hand on the table and leaned forward.
+
+“Can it tell us who remembered him?”
+
+The Hub showed a new field.
+
+**WITNESS RELATION: PARTIAL.**
+
+The physician read the words and looked toward Luke. “That is an answer, even if it isn't complete.”
+
+Luke nodded. “It means somebody did.”
+
+The man from the Escalation family looked at the list of names and dates. “Then perhaps the next stable state is not a body at all.”
+
+Tyler shook his head. “Don't jump ahead.”
+
+“I said perhaps.”
+
+“And we can record it as a question,” Tyler said. “Not as the result.”
+
+Luke glanced at the two men. The old argument had not disappeared; it had learned a more useful form. The physician wanted the witness retained. The younger representative wanted to know what the witness might reveal. Tyler wanted the evidence labelled correctly. Joseph wanted the people in the background to remain visible. Andrew wanted the objects connected. Each man had a different concern, and the screen had given them a common place to bring it.
+
+Luke looked at the first photograph again. “I don't want the Hub to make a perfect story out of a life that wasn't perfect.”
+
+Joseph turned toward him. “Then we keep the gaps.”
+
+The physician nodded. “A record can preserve a mistake. It can preserve an argument. It can preserve the part nobody understood.”
+
+Tyler added the phrase to the notebook: **GAPS RETAINED; RECONSTRUCTION NOT TREATED AS COMPLETE.**
+
+That was the last note they made before the screen changed.
+
 The Hub went black.
 
 A new line appeared.

@@ -192,6 +192,38 @@ Luke looked from one family to the other.
 
 For the first time, the families stood together rather than opposite one another. The man whose shoulders had changed looked from Luke to the people around him. He was not being congratulated, and no one called it an achievement. They simply gave him room to settle. The old shirt case remained closed. The measurement instruments stayed in their wraps. The next reading could wait until the change had become clear enough to record.
 
+The man who had changed was embarrassed by the attention. He looked down at his coat and tried to settle the fabric at the shoulders. The tall man from the second family approached, but he stopped at a respectful distance.
+
+“Do you want us to measure it now?”
+
+The man shook his head. “Not yet. I can feel it, but I don't know where it's settled.”
+
+The tall man nodded. “Then we wait.”
+
+The older man from the first family brought the cedar case closer, though he did not open it. He asked whether the changed man wanted to sit. The man said he would rather keep standing for a little while. Luke moved the bench a few inches so the path remained clear. The younger men made room without being told. They had begun to understand that the right response to a change was not always a measurement. Sometimes it was allowing the person to find his balance before everyone tried to describe what had happened.
+
+Tyler was not yet part of the scene as the formal recorder he would become later, but one of the men from the second family had a notebook ready. He asked whether he should note the time. Luke said yes, but the entry should say that the change was observed and not yet measured. The notebook-holder wrote the distinction down. The first family agreed that its own record would contain the same note. Neither archive would be asked to accept the other's interpretation.
+
+The tall man looked toward the clearing's edge. “We'll need a proper surface tomorrow.”
+
+“A table?” the older man asked.
+
+“A place where both records can be set beside each other.”
+
+The first family considered it. One of their men had a folding table in the vehicle. The second family had a broad sheet of canvas and a set of level boards. They agreed to bring them in the morning. No one insisted that the documents be copied or surrendered. The objects would remain with the people who had preserved them. The measurements would remain with the people who had taken them. For a few hours, at least, they would all be able to look at the evidence together.
+
+The young man who had felt the change rolled his shoulders once more. The pressure had begun to settle. He looked toward Luke.
+
+“Does it always happen like that?”
+
+Luke shook his head. “I don't know. It hasn't happened the same way twice.”
+
+The man nodded. “That's a better answer than pretending.”
+
+Luke smiled. “You'll get used to saying it.”
+
+The men began collecting their equipment. The cedar case was carried by the older man and his younger relative. The second family packed its instruments into the hard cases and checked that the wraps were dry. Several of the younger men remained together for a while, talking about the new change and comparing how their coats fitted. The conversation had lost its edge. They were still curious about one another, and some of them were still measuring themselves against the other family, but the comparison no longer required a winner.
+
 The woods remained silent around them.
 
 The rivalry had become something else.

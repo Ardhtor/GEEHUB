@@ -182,4 +182,6 @@ He glanced back. Through the trees, far beyond the place where the clearing ough
 
 They settled beneath the trees. Around them, the woods continued to change by degrees too small to witness directly. Their bodies carried the same patient momentum. The gift did not end with the opening of the chest, nor did it demand that they understand it before accepting what had begun. It simply remained, making continuation possible, and making each new measure the ground from which another could follow.
 
+Before they slept, the map-carrier placed a small stone beside the path so they could recognise the place in the morning. The youngest added a strip of cloth to a low branch, tying it where the rain would not reach it easily. The largest man watched them work and said nothing. The seventh man stood at the edge of the clearing, looking into the trees. They had no reliable route back, but they had begun to leave signs for one another.
+
 Deep in the forest, beyond the reach of their firelight, another chest opened.

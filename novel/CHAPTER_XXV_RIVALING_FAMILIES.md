@@ -198,6 +198,8 @@ Luke watched the handover. The tall man caught his eye.
 
 Neither man made a promise about what the next meeting would settle. They had agreed only to return, to bring their records, and to look at the evidence together. The road split beneath the trees. The men paused long enough to make sure everyone knew which route the others would take, then continued toward their separate camps with the sense that the distance between them had become a little easier to cross.
 
+At the western fork, the youngest man from the first family asked the second family's notebook-holder whether he would bring the same instrument tomorrow. The man said he would, provided it remained calibrated. The first young man offered to carry the spare case. The offer was accepted, and they walked a short distance together before returning to their own groups. They did not exchange promises of friendship. They had only found one small task they could do without argument, which was a more useful beginning than either family had expected.
+
 The woods remained silent around them.
 
 The rivalry had become something else.

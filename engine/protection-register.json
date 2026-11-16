@@ -29,7 +29,8 @@
       "limitations": [
         "This is a targeted pattern scan, not a comprehensive secret scanner.",
         "It does not enforce branch protection or replace human review."
-      ]
+      ],
+      "specification": []
     },
     {
       "id": "recovery-snapshot-manifests",
@@ -51,7 +52,8 @@
       "limitations": [
         "The historical baseline uses Git blob hashes and byte lengths; new snapshots add SHA-256.",
         "A snapshot stored in this repository is not an independent backup."
-      ]
+      ],
+      "specification": []
     },
     {
       "id": "recovery-continuity-index",
@@ -71,7 +73,8 @@
       "limitations": [
         "The recorded Dropbox inventory compared paths, object types, and sizes, not content hashes.",
         "The Dropbox copy is in the same account and is not independent or offline."
-      ]
+      ],
+      "specification": []
     },
     {
       "id": "append-only-event-inscription",
@@ -89,7 +92,8 @@
       "verification": [],
       "limitations": [
         "Derived artifact and outbox projections are maintained alongside the event stream; this control does not by itself make every repository file immutable."
-      ]
+      ],
+      "specification": []
     },
     {
       "id": "canon-version-provenance",
@@ -106,7 +110,8 @@
       "verification": [],
       "limitations": [
         "The version ledger and promotion workflow have their own acceptance checks; this register does not claim every historical record has been migrated."
-      ]
+      ],
+      "specification": []
     },
     {
       "id": "main-branch-rules",
@@ -119,6 +124,9 @@
       "verification": [],
       "limitations": [
         "Repository settings were inspected as unprotected in the architecture record. A repository administrator must enable the ruleset."
+      ],
+      "specification": [
+        "docs/TRACTUS_PROTECTION_ARCHITECTURE.md"
       ]
     },
     {
@@ -132,6 +140,9 @@
       "verification": [],
       "limitations": [
         "The existing Dropbox snapshot is in the same account; content hashes and a real Dropbox restore drill remain outstanding."
+      ],
+      "specification": [
+        "docs/TRACTUS_PROTECTION_ARCHITECTURE.md"
       ]
     },
     {
@@ -145,6 +156,9 @@
       "verification": [],
       "limitations": [
         "The policy is documented; a general programmatic publication gate is not yet established."
+      ],
+      "specification": [
+        "docs/TRACTUS_PROTECTION_ARCHITECTURE.md"
       ]
     },
     {
@@ -163,7 +177,8 @@
       "verification": [],
       "limitations": [
         "The GitHub connector can write repository files but cannot execute the Python test suite in this session; CI is configured to run it on the next qualifying workflow event."
-      ]
+      ],
+      "specification": []
     }
   ]
 }

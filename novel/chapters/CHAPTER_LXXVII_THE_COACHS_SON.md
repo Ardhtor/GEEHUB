@@ -156,7 +156,31 @@ His father considered the request. “That works. I'll watch the movement. You g
 
 “Deal.”
 
-The session resumed. Mr. Kaufman stood at the side of the platform, attentive but quieter. Travis completed the sets with less weight and more control. Between them he described what he felt: where his balance shifted, when his breath became difficult to coordinate, and how the pause changed his confidence in the movement. His father offered one correction about the bar path and then let him try again. The next repetition was better, not because someone had demanded more from him, but because he understood what he was trying to do.
+The session resumed. Mr. Kaufman stood at the side of the platform, attentive but quieter. Travis completed the sets with less weight and more control. Between them he described what he felt: where his balance shifted, when his breath became difficult to coordinate, and how the pause changed his confidence in the movement. His father offered one correction about the bar path and then let him try again. The set ended with Travis sitting on the edge of the platform, breathing steadily while the bar rested in its hooks. He had done fewer repetitions than he once would have considered worthwhile, but he felt more aware of his body than he had after many harder sessions. The movement had become clearer. He could tell where his balance shifted, how much room his knees needed, and how his shoulders settled when he stopped trying to rush the lift. The new breadth through his upper back made the old warm-up shirt pull when he leaned forward. He tugged the hem down, then laughed at himself.
+
+**TRAVIS:** “I'm going to need another shirt.”
+
+His father looked at the fabric. “You were saying that last week.”
+
+“I thought it had more time.”
+
+“So did the shirt.”
+
+Travis smiled. Mr. Kaufman brought him a towel and a bottle of water. He did not mention the latest increase in Travis's measurements. He had noticed it, of course. The change showed in the way the young man's shoulders now filled the space between his neck and arms, and in the more substantial line of his thighs as he stood. But the session had been about movement and judgement, and the coach was learning not to let the visual change take over every conversation.
+
+They walked around the platform together. Mr. Kaufman asked Travis to show him the point at which the pause became difficult. Travis demonstrated without a weight, then repeated it with the empty bar. His father watched his feet and the line of his back. He made one correction, then asked Travis what he noticed. Travis adjusted his stance and tried again. The second movement was smoother. It did not look spectacular. It looked useful. Mr. Kaufman liked that more than he expected.
+
+**MR. KAUFMAN:** “That's the one I'd keep.”
+
+**TRAVIS:** “Because it looked better?”
+
+**MR. KAUFMAN:** “Because you knew what changed.”
+
+Travis nodded. He had wanted his father to say something like that for a long time, but he had not known how to ask. The problem had not been a lack of praise. It had been the feeling that praise arrived only after the coach had decided what the movement meant. Now the two men had a new sequence: Travis would describe his own experience, his father would add what he had observed, and together they would decide what to change next. It would not always be easy. Mr. Kaufman would sometimes see a risk that Travis did not, and Travis would sometimes want to repeat a movement his father thought should be left alone. They would have to keep talking.
+
+When they moved the plates back to the rack, Travis took the smaller collars and his father carried the heavier ones. The collars were broad enough for Travis's hands, though the metal edges left a cool pressure against his palms. He placed them in the storage slot and stepped back. His body felt warmer and more settled than it had at the beginning of the session. He was still growing, and the old shirt would need replacing, but he did not feel compelled to add weight to the bar simply to prove the growth meant something. He could finish a session well and go home with his father.
+
+The next repetition was better, not because someone had demanded more from him, but because he understood what he was trying to do.
 
 When the group arrived, they found the two men reviewing the session sheet. Mr. Kaufman had written the work down in his usual compact hand. Travis took the pencil and added a note beside the final set: **repeat the same load; do not increase until the pause stays consistent**.
 

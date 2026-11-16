@@ -148,9 +148,17 @@ body and protected-face masks, inverse-triangle sampling, and bilinear
 premultiplied-alpha interpolation whose source taps are filtered through both
 masks. It leaves the source buffer untouched and
 returns a pixel-coverage mask. The new `rgba-png.js` codec reads bounded
-non-interlaced 8-bit RGB/RGBA PNG buffers and writes lossless RGBA PNG buffers;
-the file-backed frame worker, background reconstruction, and complete
-compositing remain open. This is a first deformation slice,
+non-interlaced 8-bit RGB/RGBA PNG buffers and writes lossless RGBA PNG buffers.
+The new `frame-file-renderer.js` is a file-backed single-frame worker: it reads
+a source PNG, same-dimension binary body/face masks, and one serialized ready
+deformation plan, then writes a new transparent body-layer PNG and adjacent
+SHA-256 receipt using exclusive creation. It refuses symlink inputs, changing
+input files, path collisions, invalid mesh identities, and existing outputs;
+if receipt publication fails, it removes only the output file created by that
+attempt. `npm run render:frame` handles one supplied frame plan; it does not
+yet derive plans from a queued job, batch a full sequence, reconstruct the
+background, composite the protected face layer, or export a finished video.
+This is a first deformation slice,
 not a complete compositor:
 semantic correctness of upstream masks, perceptual jitter thresholds, clothing/depth
 response, and local source-footage rendering remain unverified. The sequence worker

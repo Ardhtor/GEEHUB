@@ -18,6 +18,30 @@ Tyler looked at the shoulders, then at the way Luke's chest filled the space bet
 
 "It's telling me where I end."
 
+The others had arranged themselves around the room without forming a formal audience. The map-carrier sat near the table with the notebook open. The youngest stood by the wall where the blue illumination was strongest. The man with the compass had moved a chair away from the doorway, making room for Luke to turn. The seventh man watched the vessel, but his attention returned frequently to Luke's posture. They had all changed during the walk through the woods. Now they were trying to understand the differences without making Luke responsible for demonstrating every one of them.
+
+Luke looked at the shirt again. The collar had not become smaller, but the relation between the collar and his shoulders had altered. The sleeves still reached his upper arms, yet the armholes were tighter. When he raised his elbows, the cloth caught beneath the arms and pulled across the back. He could feel the seam move against his skin. It was an ordinary garment behaving honestly under unfamiliar conditions.
+
+“Does it hurt?” the youngest asked.
+
+“No.”
+
+“Does it feel strange?”
+
+Luke thought for a moment. “It feels like the shirt knows something I haven't caught up with.”
+
+Tyler stepped closer, but he did not touch the fabric. “Can you show me where the pressure is?”
+
+Luke pointed to the seam beneath his right arm, then to the line across the back. Tyler noted the two locations. The map-carrier asked whether the pressure remained when Luke lowered his arms. Luke demonstrated. The tension eased, though it did not disappear. The compass-carrier watched the shoulder line from the side and said the right shoulder seemed to sit farther forward than the left. Luke turned. The difference became less obvious.
+
+“That's why we need more than one view,” Tyler said.
+
+The seventh man nodded. “And more than one movement.”
+
+Luke rolled his shoulders again, this time more slowly. The shirt tightened, relaxed, and shifted across the back. The men watched the garment rather than staring at his body. That distinction made the examination easier. Luke was not a specimen arranged for inspection. He was a man trying to understand a change that had happened to him, and the others were helping him find a language for it.
+
+The youngest man offered his own sleeve. The fabric was loose at the wrist but tighter around the upper arm than it had been that morning. He bent his elbow, then straightened it. The pressure moved. The map-carrier showed them the way his pack strap had begun to press against the side of his neck. The compass-carrier described a different feeling in his back. Each man had a different pattern. The Serum had not made them identical, and the clothing made that plain.
+
 Luke moved one arm forward. His shoulder shifted beneath the cloth, a rounded mass changing shape as the arm traveled. He could feel the movement through the whole upper torso: the chest following the shoulder, the back tightening to stabilize it, the muscles beneath the ribs adjusting his balance. Nothing moved independently. The Serum had increased the dimensions of the system, but the system still had to work as one body.
 
 He took a breath.
@@ -55,6 +79,16 @@ Luke ran his hand over his shoulder.
 The contour was broader than he remembered. He turned slightly, studying the way the shoulder flowed into the upper arm. The shape changed with the angle. From the front, the chest seemed to dominate him. From the side, the depth of the torso became more apparent. From behind, the widened back altered the outline of his waist.
 
 There was no single view that contained the whole change.
+
+The men tried to describe the change without reducing it to a single impression. The map-carrier stood in front of Luke and watched the shoulders. The compass-carrier moved to the side and compared the depth of the chest. The youngest went behind him and looked at the back line where the shirt's fabric lay differently. They changed places and repeated the observations. Each man noticed a different contour. No one saw the whole body from every angle, and none could claim that his view cancelled the others.
+
+The seventh man placed a small mark on the slate beside each viewing position. Front, side, rear, and three-quarter. He added a second row for movement: arms relaxed, arms raised, torso turned, reaching forward, and standing at rest. The body appeared different in each condition. A shoulder that seemed round from the front became part of a longer curve from the side. The chest depth changed the profile. The widened back altered the way the waist appeared, while the arms moved farther from the torso when Luke relaxed.
+
+“Which one is the real shape?” the youngest asked.
+
+“All of them,” Tyler said. “They're different views of the same body.”
+
+The seventh man wrote the observation beneath the rule. A measurement should identify its view and its condition. Without that information, two numbers could appear to disagree even when both were accurate. The men were beginning to understand that proportion was not a fixed outline. It was a relationship between surfaces, joints, movement, and the space around the body.
 
 "That's another rule," Tyler said.
 
@@ -100,6 +134,12 @@ The men established a practical ledger beside the vessel. Each new baseline woul
 
 The Serum's changes were fantastical; their consequences would still be tracked coherently. Increased mass meant increased load. Increased dimensions altered leverage and clearance. A deeper chest changed how clothing fitted and how the body occupied a doorway. A broader shoulder line changed turning radius. Greater muscle volume did not automatically grant perfect coordination: movement had to be relearned as the body changed, and fatigue remained a meaningful signal even when recovery became faster.
 
+They also agreed that no measurement would be recorded without its context. A shoulder breadth taken with the arms relaxed was not interchangeable with one taken while the arms were raised. A chest measurement taken after exertion might differ from one taken at rest. The instrument, the posture, the time, and the person taking the reading would be written beside the value. If the measurement could not be repeated reliably, it would remain provisional. The previous baseline would be retained, and the new reading would not overwrite it.
+
+The map-carrier suggested adding a short account of how the body felt during the movement. Tyler resisted making every record subjective, but the largest man pointed out that comfort was part of whether a movement could be repeated. They settled on two distinct fields: **OBSERVED CONDITION** and **PERSONAL REPORT**. The first would describe what another person could check; the second would preserve what the man himself experienced. Neither would be used to erase the other.
+
+Luke liked that distinction. He could tell them where a shirt pulled or where a joint felt unfamiliar without being asked to prove the sensation with a number. Tyler could record the movement and compare it with the previous reading without pretending that the measurement contained the whole experience. The men had found a way to keep the body both measurable and lived.
+
 They added one final instruction in red ink: **A new baseline is not proof that every system has adapted.** The Serum could stabilize a shape before the man had mastered it. Until coordination, comfort, and the surrounding architecture caught up, the transformation remained an active condition rather than a finished achievement.
 
 Luke read the note twice.
@@ -117,5 +157,21 @@ The city had begun to learn how to use it.
 ## The measures between measurements
 
 By late afternoon the tailor's workshop had become a meeting place. The front windows were open, and the smell of warm cloth, chalk, cedar hangers, and the street's cooking fires moved through the room together. Luke stood on the low fitting platform while the tailor checked the new yoke, then asked him to raise his arms, turn, reach forward, and breathe deeply. The shirt followed without pinching. It was a small success, but everyone could see the difference between a garment that merely covered a changed body and one that allowed the body to live in it. Tyler watched the shoulder seam settle into place and nodded.
+
+The fitting became a practical lesson for the whole group. The tailor did not begin by cutting new cloth. He asked Luke to wear the sample shirt through several movements while the others watched the seams. The first test was simple: arms relaxed at the sides. The second: arms raised to shoulder level. The third: reaching forward as though taking a cup from a shelf. The fourth: turning the torso while keeping the feet planted. The shirt passed the first two tests, pulled slightly at the back during the third, and twisted at the waist during the fourth.
+
+The tailor marked the points with chalk and asked Luke to repeat the sequence. He then opened the side seams by a small amount and adjusted the rear yoke. The change was modest, but the shirt moved more naturally. Luke reached forward again. The fabric followed without catching beneath the arms.
+
+“That's the difference,” the tailor said. “It has to fit the movement, not only the standing shape.”
+
+Tyler asked whether the next version could preserve the original measurement notes. The tailor said he had kept them. Each sample would be identified by date and alteration, so the men could see how the garment had changed with Luke. The shirt was not a final solution. It was a useful stage in an ongoing process.
+
+The youngest man tried the same fitting method with his own jacket. Its sleeves were still long enough, but the shoulders had become restrictive when he crossed his arms. The tailor measured the seam and showed him where the cloth could be let out. The map-carrier asked for a pack strap adjustment. The compass-carrier wanted a longer belt. Each request was different, and the tailor wrote them down without treating any one body as the standard for the others.
+
+Luke watched the work unfold around him. He had arrived expecting to have a shirt altered. Instead, the workshop had become a place where the men could compare the relationship between bodies and ordinary objects. The tailor spoke to each person directly, asking what he needed the garment to do. The men answered from their own experience. No one was asked to accept an identical solution.
+
+When they left the workshop, the street was busy. A carpenter was measuring a doorway across the lane, and a delivery worker was carrying a long parcel toward the upper district. The men moved together through the narrow pavement, adjusting their positions without stopping the flow of conversation. Luke walked near the centre. The tailor's sample rested over his arm, and the chalk marks were still visible where the fabric had been tested.
+
+The city had begun to respond to the change, but it was not doing so through one grand transformation. It was making a series of practical decisions: a doorway widened, a bench shifted, a shirt altered, a pack strap lengthened, a route cleared. The men were not waiting for the world to become perfect before they used it. They were learning which adjustments made the next ordinary action possible.
 
 They walked back through the upper district with the sample folded over Luke's arm. The city was making its own quiet adjustments: a carpenter measuring a doorway, two students shifting a heavy bench, a delivery man leaving a longer package beside the tailor's entrance. None of these changes was dramatic on its own. Together they formed a kind of civic intelligence, a willingness to notice what had become difficult and make it easier without turning the person into a problem. Luke understood that the measure of a man could not be reduced to the dimensions of his body. It also included the quality of the spaces that learned to receive him.

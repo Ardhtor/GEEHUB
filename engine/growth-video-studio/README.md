@@ -153,6 +153,8 @@ and tRNS inputs are refused. Ancillary color-profile/gamma metadata is not
 interpreted or preserved, so channel samples are lossless but color-management
 metadata is not. Seven focused tests cover the codec's supported formats,
 round-trip behavior, row filters, corruption handling, and size limits.
+### File-backed single-frame body-layer worker
+
 The codec returns bytes. The new `core/frame-file-renderer.js` connects
 that boundary to the CPU rasterizer for one frame. It reads a source RGB/RGBA
 PNG, the exact frame's binary grayscale body and protected-face masks, and a
@@ -251,7 +253,7 @@ The core is dependency-free JavaScript (ES modules). It can run in a browser or 
 - Slice 001: project model, state interpolation, continuity validation.
 - Slice 002: source-video ingest and frame/landmark tracking.
 - Slice 003: identity-locked body segmentation and 2D/3D correspondence.
-- Slice 004: articulated growth-landmark mapping, caller-supplied triangle warp, fixed-index mask-derived grid, and checksummed registration of its topology and per-frame source coordinates; render-job binding and pixel-frame production remain open.
+- Slice 004: articulated growth-landmark mapping, caller-supplied triangle warp, fixed-index mask-derived grid, checksummed topology registration, CPU pixel rasterization, and file-backed single-frame body-layer output; queued-job plan derivation, sequence batching, compositing, and export remain open.
 - Slice 005: temporal render, validation, and export.
 
 

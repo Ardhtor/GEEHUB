@@ -66,6 +66,56 @@ Mr. Kaufman waited.
 
 “And to decide what I want from the session without having to prove something every time I walk in.”
 
+The quiet did not mean the gym had stopped. It meant the two of them had begun to hear the building around their conversation. The ventilation moved above the rafters, pulling cool air through the high windows. A barbell settled onto its hooks with a dull metallic sound. Somewhere near the storage bay, a man laughed at something another resident had said, and the sound travelled across the rubber floor before dissolving beneath the ceiling. The hall was large enough that a person could feel alone in it while several men trained nearby. Its floor had been reinforced in stages, and the original timber platform remained at the centre as a reminder of the Institute's earlier dimensions. Newer platforms stood alongside it, their surfaces wider and their supports heavier. The racks had been raised, the collars enlarged, and the storage system rearranged so that the men could handle equipment without having to force their bodies into spaces designed for someone else.
+
+Travis sat on the bench and leaned forward, his forearms resting against his thighs. He had grown in recent months, enough that his old warm-up shirt no longer sat comfortably across the shoulders. The sleeves tightened when he reached forward, and the hem had begun to ride up during squats. He had been pleased by the changes at first. He liked the feeling of a stronger back, the new density through his chest, the greater stability in his legs. He still liked those things. What he disliked was the assumption that every improvement had to be converted into another target. The men around him were growing too, each at a different rate. The hall was full of shifting baselines. A new shoulder measurement could be a private source of satisfaction, or it could become the first question a person heard every time he walked through the door. Travis had begun to want a session in which nobody asked what came next.
+
+Mr. Kaufman stood beside the rack with the clipboard lowered. The coach's posture was still attentive, but his expression had softened. He was a strong, broad man whose own frame had changed with the Institute. His shirts needed more room across the back, and the old staff jacket had been replaced by one with a reinforced shoulder seam. He had not grown as quickly as some of the residents, but he had grown enough to notice the way his son now stood beside him. Travis was approaching his height, and the comparison had begun to shift in ways neither of them had expected. It was one thing to watch a son grow taller. It was another to see the familiar body of a young adult man becoming a powerful frame in its own right, still carrying the habits of the boy he had raised.
+
+Mr. Kaufman remembered teaching Travis to brace his feet on the kitchen floor when he was young enough that the bar had been only a training stick. He remembered the first time Travis had asked to lift with the older men, and the way he had tried to hide his excitement by pretending not to care. He remembered the first competition, the long drive home, the meal eaten in silence because the result had not gone as Travis hoped. Those memories were not all fond. They included arguments, missed calls, stubbornness, and the years in which his son had wanted advice only after he had already made the decision. The coach's clipboard held none of that. It contained sets, repetitions, load, rest, and notes about movement. The father had to remember the rest without turning it into an instruction.
+
+**SETH:** “This is one of those gym scenes in which the equipment is not the difficult part.”
+
+**NICK:** “The equipment is beautifully organised. The difficult part is that the coach has to remember he isn't coaching the whole person.”
+
+**SETH:** “And the son has to remember that his father can be right about a bar path and still need a reminder about lunch.”
+
+Travis rubbed his palms together. The skin was warm from the bar, and there was a faint chalk line along the heel of one hand. He had always liked the physical clarity of training. A weight either moved or it did not; a repetition either held together or it did not. It had helped him through periods when other parts of life were uncertain. But his father could make the gym feel like a place where every movement was also a judgement about the person doing it. Mr. Kaufman did not intend that. He was a careful coach, and he believed that good technique protected the lifter's future. Yet the more he tried to prepare Travis, the less room there seemed to be for Travis to discover his own way of working.
+
+The first set that morning had shown the problem. Travis had rushed the final repetition because he wanted to prove he could complete it. His father had stopped him because the movement had changed. Both men were right about something. The difficulty came from the fact that neither had said what he was protecting. Travis had been protecting his sense of independence; his father had been protecting his son's future ability to keep training. Once those concerns were named, the argument could become a conversation instead of a contest.
+
+**TRAVIS:** “I don't mind you correcting me. I mind feeling like I'm waiting for you to tell me whether I did it properly.”
+
+Mr. Kaufman nodded slowly.
+
+**TRAVIS:** “I want to know what I did before you tell me what you saw. Sometimes I can feel that something went wrong, and I want to say it first. I want you to hear me before the clipboard comes out.”
+
+The coach looked at the paper under his arm. It had a list of the morning's sets, a note about the bar path, and a short record of the last session. The clipboard had become so familiar that he sometimes carried it into conversations without noticing. He set it on the floor beside the rack. The movement was small, but Travis watched him do it.
+
+**MR. KAUFMAN:** “All right. Tell me what you felt on that last repetition.”
+
+Travis looked toward the platform. “I lost the pause at the bottom. My balance moved forward, and I tried to finish it by pushing harder.”
+
+“That's what I saw.”
+
+“I know. But I felt it before you stopped me.”
+
+“Then you should tell me.”
+
+“I wanted to.”
+
+His father waited. Travis understood that he was being given time rather than a demand. He took a breath and looked down at his hands. His fingers had become thicker through the knuckles, and the veins stood more clearly along the back of his wrists. He liked the strength he was building, but he was still learning how to inhabit a body that changed while he was learning to use it. There were days when the bar sat differently in his hands, when his stance seemed wider, when his knees tracked along a slightly altered line. He did not want every change to be interpreted as progress or failure. Sometimes it was simply new information.
+
+“I want to train in a way that lets me notice the changes,” he said. “Not just chase them.”
+
+His father looked at him. “I can do that.”
+
+“Can you?”
+
+“Yes.”
+
+The answer was direct. Travis had expected a qualification. The absence of one unsettled him, but in a useful way. His father was listening without needing to prove that he had already understood. The coach's work would still involve correction, but the correction could begin from what Travis reported rather than from what the clipboard demanded.
+
 The hall seemed to grow quieter around them. A door opened at the far end and someone wheeled a stack of plates toward the storage bay, but neither man turned.
 
 His father nodded. “That's reasonable.”

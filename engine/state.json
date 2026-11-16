@@ -1,5 +1,5 @@
 {
-  "pulse": 287,
+  "pulse": 288,
   "events": [
     {
       "pulse": 1,
@@ -5331,6 +5331,28 @@
       "occurred_at": "2026-11-16T16:09:18.446697+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000288",
+      "pulse": 288,
+      "time": "2026-11-16T16:11:11.590218+00:00",
+      "actor": "JOSEPH",
+      "world": "NORTHGATE UNIVERSITY",
+      "region_id": "northgate-university",
+      "previous_region_id": "northgate-library",
+      "phase": "CROSSING",
+      "source": "worlds/northgate-university/README.md",
+      "desire_state": "continuity",
+      "action": "NICK: The world crosses the route from NORTHGATE LIBRARY into NORTHGATE UNIVERSITY. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A residential university for adult men, with a green central quad, lecture halls, studios, workshops, music rooms and a lively campus culture. Relation carried forward: THE LATE LAMPS OF NORTHGATE.",
+      "narrative_rule": "meaningful change becomes an outward-facing signal",
+      "relation": "THE LATE LAMPS OF NORTHGATE",
+      "next_region": null,
+      "pressure": 0.88,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-16T16:11:11.590218+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -5351,7 +5373,7 @@
     "cedar-house": 7,
     "cat-gardens": 8,
     "founders-dormitory": 6,
-    "northgate-university": 9,
+    "northgate-university": 10,
     "bluewater-quay": 5,
     "lantern-market": 6,
     "northgate-library": 6,
@@ -5375,13 +5397,13 @@
     "cedar-house": 279.5,
     "cat-gardens": 278.5,
     "founders-dormitory": 277.5,
-    "northgate-university": 264.5,
+    "northgate-university": 288,
     "bluewater-quay": 255,
     "lantern-market": 257.5,
     "northgate-library": 284,
     "athletic-commons": 263.5
   },
-  "pressure": 1.0,
+  "pressure": 0.88,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -5399,25 +5421,20 @@
     "worlds/cedar-house/README.md": 12,
     "worlds/cat-gardens/README.md": 15,
     "worlds/founders-dormitory/README.md": 9,
-    "worlds/northgate-university/README.md": 19,
+    "worlds/northgate-university/README.md": 20,
     "worlds/bluewater-quay/README.md": 12,
     "worlds/lantern-market/README.md": 9,
     "worlds/northgate-library/README.md": 18,
     "worlds/athletic-commons/README.md": 7
   },
-  "next_region": "northgate-university",
-  "phase": 3,
-  "active_region": "northgate-library",
-  "current_phase": "ROUTE_OPEN",
-  "current_desire_state": "tension",
-  "current_question": "Which existing relation now becomes traversable?",
-  "current_narrative_rule": "arrival activates aftermath",
-  "next_relation": {
-    "title": "THE LATE LAMPS OF NORTHGATE",
-    "text": "A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work.",
-    "from": "northgate-university",
-    "to": "northgate-library"
-  },
+  "next_region": null,
+  "phase": 0,
+  "active_region": "northgate-university",
+  "current_phase": "CROSSING",
+  "current_desire_state": "continuity",
+  "current_question": "What can change without erasing where it came from?",
+  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "next_relation": null,
   "long_play": {
     "cycle": 211,
     "agent": "luke",

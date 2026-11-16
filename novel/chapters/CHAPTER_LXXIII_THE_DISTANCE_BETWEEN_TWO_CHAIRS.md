@@ -254,6 +254,54 @@ Joseph picked up the washer and placed it in Kirk's palm.
 
 Kirk closed his hand around it.
 
+Toward dawn, the lamp above the table began to look too bright against the blue-grey light gathering at the window. Joseph was tired enough that his thoughts had lost their usual order. Kirk had moved his chair closer, not so close that their knees touched, but close enough that the space between them no longer felt like a test. The brass washer rested on the table between their cups. It had picked up the warmth of the room and left a small crescent of condensation on the polished wood. Joseph turned it once with the pad of his thumb. The edge caught the light, revealing the old scratches and the slight flattening where it had been pressed against the chair joint.
+
+Kirk watched him. “You don't have to keep checking whether it's still there.”
+
+Joseph set it down. “I know.”
+
+“Do you?”
+
+Joseph smiled. “I'm learning.”
+
+The answer was not a clever one. It did not need to be. They had both spent years finding ways to speak around what they wanted, and the new arrangement would only last if they could tolerate the ordinary awkwardness of saying things plainly. Joseph asked whether Kirk wanted to go upstairs or stay for breakfast. Kirk said he wanted to stay, but he did not want the whole morning to become a ceremony about them having stayed. Joseph agreed. They would make coffee, eat something, and then get on with the day. If they needed to talk again, they could. If they did not, the choice would not be treated as a retreat.
+
+Luke brought the remaining bread from the kitchen and placed it on a board. He had found a small pot of jam and a dish of butter, and he set them between the two men without comment. His shirt had become tight across the upper back during the night, and the sleeves now stopped higher on his arms than they had at the beginning of the evening. He had grown, too. The difference showed in the way he ducked beneath the beam when he crossed the room and in the greater span of his hands around the kettle. Tyler followed with a clean cup and a folded towel. The House was still the same room, but the men occupied it with slightly different proportions. None of them made the change into a contest. They had learned that a new height could be noticed without being announced to the whole building.
+
+**LUKE:** “There's enough for breakfast.”
+
+**KIRK:** “You say that as if we're a difficult group to feed.”
+
+**LUKE:** “You are.”
+
+**JOSEPH:** “He's right.”
+
+Tyler looked at the bread. “There are four slices.”
+
+Luke glanced at the board. “There were six.”
+
+Andrew's voice came from the stairwell. “I found two.”
+
+Nobody had heard him coming. He appeared with a mug in one hand and a grin that suggested he had not been asleep for very long. His broad frame filled the doorway, and he had to turn slightly to pass beneath the beam. He looked at the table, the chairs, and the washer.
+
+**ANDREW:** “Did I miss something?”
+
+**TYLER:** “A conversation.”
+
+**ANDREW:** “Was it good?”
+
+**KIRK:** “It was useful.”
+
+**ANDREW:** “That's a very Tyler answer.”
+
+Tyler looked at him. “I wasn't the one having the conversation.”
+
+Andrew put the two missing slices back on the board. He had found them in the kitchen, covered beneath a folded cloth, and claimed that he had only been checking whether they were still edible. Luke gave him a look. Andrew shrugged and sat at the far end of the table. The sudden return of ordinary teasing made the room feel less delicate. Joseph and Kirk could be close without requiring the others to pretend they had not noticed. They could also be teased without becoming the subject of a group discussion.
+
+The first man came down just as the coffee was being poured. His presence changed the scale of the stairwell, but he moved with the same quiet care as before. He took a cup and stood near the window, looking at the pale road beyond the glass. The dark surface of the washer caught the morning light once more. Kirk picked it up and slipped it into his pocket. He did not put it away because he was ashamed of it, or because he wanted the others to stop looking. He simply wanted to carry it for a while. Joseph noticed and let him.
+
+For the first time that night, the two chairs stood side by side rather than facing one another across the table. Nobody moved them. The room did not need to mark the change. It had enough to remember.
+
 They remained at the table until morning.
 
 Nothing supernatural happened. The House did not enlarge. No hidden door appeared. The Voice did not speak. Outside, the road remained a road.

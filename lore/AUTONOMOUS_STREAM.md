@@ -2197,3 +2197,11 @@ NICK: A detail returns in NORTHGATE LIBRARY: At night the lamps make the reading
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-library/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 287 — ROUTE_OPEN / NORTHGATE LIBRARY / 2026-11-16T16:09:18.446697+00:00
+
+SETH: A line becomes visible between NORTHGATE LIBRARY and NORTHGATE UNIVERSITY. The archive names the relation "THE LATE LAMPS OF NORTHGATE".
+
+NICK: A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

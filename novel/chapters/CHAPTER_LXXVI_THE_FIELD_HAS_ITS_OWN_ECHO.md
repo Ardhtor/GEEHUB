@@ -292,6 +292,46 @@ Then he asked whether Tyler had ever heard a baseball field after midnight.
 
 Andrew looked at him, blue eyes bright with the delight of having found another question.
 
+The others followed his gaze toward the darkening field. The last players had left the far diamond, and the grounds crew had begun gathering the loose equipment. A small utility cart moved along the fence, its wheels making a soft, irregular sound over the packed dirt. The lights above the backstop had not yet come on. Andrew stood near the dugout with the notebook in his hand, looking at the place as if he had been given a second field to inspect. The empty seats, the damp grass, and the long shadow beneath the roof made the structure seem larger than it had during practice. The game was gone, but the place retained the arrangement of its use: a scuff near the plate, a mark in the dirt where a foot had turned, a water bottle left beside the bench, and the thin chalk line that would be erased before morning.
+
+Tyler came to stand beside him. “You want to come back tonight?”
+
+Andrew smiled. “I thought you'd never ask.”
+
+“I didn't ask. I said we could test it.”
+
+“That's how you ask.”
+
+Gabe looked from one to the other. “What are we testing?”
+
+“The empty dugout,” Andrew said. “We need one recording with nobody inside, one with two people, and one with all of us.”
+
+Tyler added, “Same ball, same point of impact, same force as closely as we can manage. We should also record the wind and the temperature.”
+
+Andrew gave him a look. “You have made it sound significantly less mysterious.”
+
+“It is a sound test.”
+
+“It's a sound test with a mysterious result.”
+
+Luke picked up the cooler. “We'll come back after dinner.”
+
+Joseph looked toward the road. “If the lights are on.”
+
+Chase took the small bell drawing from Andrew's notebook and held it against the fence. “This mark needs a place in the record.”
+
+Andrew nodded. “The fence is the first station.”
+
+Tyler added a second mark on the sketch for the dugout roof. Gabe drew a line between them, showing the path from the fence to the covered bench. It became a small map of their afternoon, not a plan for the entire field. The men were learning to keep the scale of a claim close to the scale of what they had actually observed. They could say that the fence had changed its note, that the dugout had answered differently when occupied, and that the empty field seemed to hold a memory of the game. They did not need to say that the whole city was doing the same thing.
+
+When they returned after dinner, the field had changed again. The lights had come on, casting bright pools onto the infield and leaving the outer grass in a softer darkness. The dugout roof reflected the light unevenly; the old timber beams showed their grain, and the bench cast a long shadow beneath the back wall. Andrew placed a small recorder on the shelf and checked the battery. Tyler measured the distance from the point of impact to the nearest post. Chase framed the fence in the camera, then set the camera aside when Andrew asked him to listen rather than film. Joseph stood beyond the backstop, and Luke remained by the dugout entrance. Gabe took the first throw.
+
+The ball struck the marked section of mesh and produced a short, hollow note. The recorder captured it. They repeated the test with the same ball and approximately the same force. Then Tyler moved the ball to a second point. The sound changed. Andrew listened with his head tilted, his shoulders broad against the light. He could distinguish the first note from the second even when the difference was slight. Tyler could see the variation in the waveform. Chase could hear the room around the impact. Joseph noticed that the sound reached him differently when he stood behind the fence rather than beside it. Luke listened for the vibration in the ground. Each man brought a separate kind of attention to the same event.
+
+The first test was repeated with the dugout empty. The second was made with Luke and Gabe sitting inside. The third included all six men. The result did not form a simple pattern. The roof's response changed with the number of bodies, but also with their position, the way they sat, and the angle of the throw. Andrew was delighted. Tyler was relieved that the result could be explained without being made smaller. Chase labelled the recording with the conditions. Joseph suggested that they should return on a dry night and repeat it. Luke asked whether the game could be played again before the experiment became the only reason to visit.
+
+Andrew smiled. “We can do both.”
+
 “Because the game isn't there anymore, but the field still thinks it is.”
 
 Nobody answered at once.

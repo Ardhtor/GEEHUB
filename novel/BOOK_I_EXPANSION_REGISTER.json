@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "f8cd825e86177601aade027415dc1f1571cef44f",
+  "source_blob_sha": "dc9c37bc27401a131ae6f7129bf84d04de454844",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 29,
+    "completed": 30,
     "in_progress": 1,
-    "queued": 42,
+    "queued": 41,
     "empty_source": 0,
-    "next_chapter_index": 29,
-    "active_chapter_id": "book-i-xxx",
-    "last_completed_chapter_id": "book-i-xxix"
+    "next_chapter_index": 30,
+    "active_chapter_id": "book-i-xxxi",
+    "last_completed_chapter_id": "book-i-xxx"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -479,8 +479,8 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "f8cd825e86177601aade027415dc1f1571cef44f",
-      "notes": "Expanded and verified against Chapters XXVII and XXIX. The country is navigated through seven artifacts whose directions describe relations rather than north. The faceless settlement is populated by adult male inhabitants; the missing fifth figure in the Sacred Fountain photograph becomes the next unresolved thread. All cast members are male.",
+      "last_verified_blob_sha": "dc9c37bc27401a131ae6f7129bf84d04de454844",
+      "notes": "Expanded and verified. The country is navigated through seven artifacts whose directions describe relations rather than north. The faceless settlement is populated by adult male inhabitants; the missing fifth figure in the Sacred Fountain photograph becomes the next unresolved thread. All cast members are male.",
       "current_word_count": 1628
     },
     {
@@ -495,7 +495,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "f8cd825e86177601aade027415dc1f1571cef44f",
+      "last_verified_blob_sha": "dc9c37bc27401a131ae6f7129bf84d04de454844",
       "notes": "Expanded and verified against Chapters XXVIII and XXX. The missing man emerges from the photograph without becoming a possession or an answer assigned by the travelers. His boundaries and choice to leave remain intact; his footprints alter the road. All cast members are male.",
       "current_word_count": 1124
     },
@@ -509,11 +509,11 @@
       "baseline_word_count": 199,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the opening of the Seventh Light and the war against isolation through concrete action, the first stop, and the men who choose to reconnect. Preserve the missing man's unresolved status and the all-male cast.",
-      "current_word_count": 206
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "dc9c37bc27401a131ae6f7129bf84d04de454844",
+      "notes": "Expanded and verified against Chapters XXIX and XXXI. The missing man returns by choice and takes the unclaimed chair; the seven lights connect the traveled places. The first stops open and the war against isolation becomes a practical duty to reconnect routes, records, and men without imposing ownership. All cast members are male.",
+      "current_word_count": 1204
     },
     {
       "chapter_id": "book-i-xxxi",
@@ -525,10 +525,10 @@
       "baseline_word_count": 339,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the door as a passage into the remembered forest, preserving the Teller's presence, the House behind the travelers, and the bell that signals a city has heard them arrive. Keep the cast all male.",
       "current_word_count": 344
     },
     {
@@ -544,7 +544,7 @@
       "status": "queued",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Queued continuity check: current draft contains references to women and children. Recast these as adult male figures before marking the chapter complete.",
       "current_word_count": 411
     },
     {

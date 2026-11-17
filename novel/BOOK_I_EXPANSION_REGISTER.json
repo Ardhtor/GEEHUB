@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "d398a5ebc2ce1aa6150dbc85c29d9ef5b2753df8",
+  "source_blob_sha": "cf62ae8151177102412c70977df14836f9de9011",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 54,
+    "completed": 55,
     "in_progress": 1,
-    "queued": 17,
+    "queued": 16,
     "empty_source": 0,
-    "next_chapter_index": 54,
-    "active_chapter_id": "book-i-lv",
-    "last_completed_chapter_id": "book-i-liv"
+    "next_chapter_index": 55,
+    "active_chapter_id": "book-i-lvi",
+    "last_completed_chapter_id": "book-i-lv"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -895,7 +895,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "d398a5ebc2ce1aa6150dbc85c29d9ef5b2753df8",
+      "last_verified_blob_sha": "cf62ae8151177102412c70977df14836f9de9011",
       "notes": "Expanded and verified against Chapters LIII and LV. The four men return to possibility through a new hyperspace game; each distinct ability contributes to a fifth possibility that none of them selected in advance. Corrected the cast reference to adult men. 'PLAY AGAIN' remains a choice to continue. All cast members are male.",
       "current_word_count": 775
     },
@@ -909,11 +909,11 @@
       "baseline_word_count": 270,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Expand the larger game as a world that learns and responds; replace 'The boys' with 'The men'. Preserve the mountain's movement, the empty starting place, and the world's agency. Keep all cast members male.",
-      "current_word_count": 277
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "cf62ae8151177102412c70977df14836f9de9011",
+      "notes": "Expanded and verified against Chapters LIV and LVI. The four men create a world with no instructions, then discover it can make independent moves: the mountain approaches, a pass opens, and a house appears without being designed by them. Replaced the earlier 'boys' reference; all cast members are male.",
+      "current_word_count": 681
     },
     {
       "chapter_id": "book-i-lvi",
@@ -925,10 +925,10 @@
       "baseline_word_count": 235,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the transition from 'PLAY AGAIN' to 'MAKE' as inheritance rather than reset; preserve the Hub's accumulated culture and the four men's distinct roles. Keep all cast members male.",
       "current_word_count": 240
     },
     {

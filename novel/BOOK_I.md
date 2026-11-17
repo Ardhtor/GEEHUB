@@ -8048,43 +8048,129 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XLIV: The Eighth Note
 
-     The note did not behave like the others. The first seven seemed to belong to the country: seven points of relation, seven ways of approaching a world that had already learned to answer. The eighth seemed to come from somewhere outside the sequence, not higher or lower than it but adjacent to it, as though the music had discovered that counting itself was a form of exclusion. Nobody moved. The shadow remained seated. The Teller looked at it for a long time before realizing that he was not seeing a person. He was seeing the place where a person had not yet become visible.
+     The note did not behave like the others.
 
-     “What are you waiting for?”
+     The first seven seemed to belong to the country: seven points of relation, seven ways of approaching a world that had already learned to answer. The eighth seemed to come from somewhere outside the sequence, not higher or lower than it but adjacent to it, as though the music had discovered that counting itself was a form of exclusion.
 
-     he asked. The shadow did not answer. Luke walked toward the chair. Joseph caught his arm.
+     Nobody moved.
+
+     The shadow remained seated. The Teller looked at it for a long time before realizing that he was not seeing a person. He was seeing the place where a person had not yet become visible. The distinction was uncomfortable. It offered no face to recognize, no name to record, and no history to compare with the others.
+
+     “What are you waiting for?” he asked.
+
+     The shadow did not answer.
+
+     Luke walked toward the chair. Joseph caught his arm.
 
      “Wait.”
 
-     Luke stopped. Joseph looked at the rows.
+     Luke stopped. He looked at Joseph's hand, then at the shadow.
 
-     “Maybe that's the point.”
+     “Why?”
 
-     Tyler glanced back.
+     Joseph released him. “Maybe that's the point.”
 
-     “What point?”
+     Tyler glanced back. “What point?”
 
-     Joseph released Luke.
+     Joseph looked at the rows. Hundreds of chairs, each with its plate and its word. None had been assigned to a particular man. None had been marked as a place that must be filled.
 
-     “We keep thinking something has to arrive.”
+     “We keep thinking something has to arrive,” he said.
 
-     The room was full of empty chairs. Joseph looked at them.
+     Luke looked toward the shadow. “It has arrived.”
 
-     “Maybe attention doesn't always mean finding the person.”
+     “Something is here,” Joseph replied. “That doesn't mean it wants us to decide what it is.”
 
-     Luke understood.
+     The room remained still.
 
-     “Sometimes it means leaving the chair open.”
+     The shadow changed. Not its shape. Its distance. For one instant it seemed close enough to touch. Then impossibly far away. Then it was standing behind them. Everyone turned.
 
-     The shadow changed. Not its shape. Its distance. For one instant it seemed close enough to touch. Then impossibly far away. Then it was standing behind them. Everyone turned. Nothing. The Teller heard a sound behind him. A chair scraping across stone. He turned back. The chair at the end of the room was empty. On its seat was a small object. A screw. Luke stared at it.
+     Nothing.
 
-     “That was in my box.”
+     The Teller remained facing the chair. He had felt the change without seeing it. The shadow was not moving through the room in the ordinary way. The relation between the men and the chair was changing. When they tried to approach, it became distant. When they looked away, it seemed nearer.
 
-     He opened the box. The screw was still there. Two identical screws. One old. One new. The new one was warm. The country had begun producing copies of things that had mattered. The Teller reached for it. The moment his fingers touched the metal, every chair in the room turned toward him. Not mechanically. Not violently. They simply faced him. Hundreds of empty seats. Hundreds of directions. And for the first time, the Teller understood that the country was not asking them to find the missing man. It was asking them to become capable of noticing someone who had not yet entered the story. The blue lights went out. In the darkness, a door opened somewhere behind the chairs. A man's voice said:
+     Kirk examined the floor. There were no footprints around the chair. The stone was unmarked. He could not tell whether the shadow had weight.
+
+     Bill looked toward the door. It remained open. The route back to the Digitorium was still visible, but the light along it had dimmed.
+
+     “We can leave,” he said.
+
+     “Yes,” Joseph replied.
+
+     “Then we should remember that we can.”
+
+     Luke nodded. He had wanted to approach the chair because he wanted to know what was there. He understood that the desire did not give him the right to close the distance.
+
+     The Teller heard a sound behind him.
+
+     A chair scraping across stone.
+
+     He turned back.
+
+     The chair at the end of the room was empty. On its seat was a small object.
+
+     A screw.
+
+     Luke stared at it. “That was in my box.”
+
+     He opened the box. The old screw was still there, resting beside the stone and the photograph. He took it out and placed it beside the new one.
+
+     Two identical screws.
+
+     One old. One new.
+
+     The old screw was cold and worn at the head. Its thread was marked by use. The new one was warm. It had no thread and could not attach to anything. It was the same shape without the same history.
+
+     Tyler examined both. “They are not copies.”
+
+     “They look identical,” Luke said.
+
+     “The material may be the same. The use is not.”
+
+     Kirk turned the new screw between his fingers. “This one has never held anything.”
+
+     “Not yet,” Bill said.
+
+     The Teller reached for it.
+
+     The moment his fingers touched the metal, every chair in the room turned toward him.
+
+     Not mechanically. Not violently. They simply faced him. Hundreds of empty seats. Hundreds of directions. The blue lights beneath them brightened, and the eighth note sounded again.
+
+     The Teller did not move.
+
+     For the first time, he understood that the country was not asking them to find the missing man. It was asking them to become capable of noticing someone who had not yet entered the story. The chairs were not invitations to fill every absence. They were places kept open without a claim.
+
+     Joseph stood beside him. “Do you know what it wants?”
+
+     “No.”
+
+     “Do you know what it is asking?”
+
+     “I think it is asking us to wait without turning waiting into ownership.”
+
+     Luke looked at the two screws. “Then what do we do with this one?”
+
+     The Teller placed the new screw back on the chair. “We leave it where it was put.”
+
+     The blue lights went out.
+
+     In the darkness, a door opened somewhere behind the chairs. A man's voice said:
 
      “Don't remember me.”
 
-     The door closed. Nobody knew whether the voice had been a warning or an invitation.
+     The door closed.
+
+     Nobody knew whether the voice had been a warning or an invitation.
+
+     Tyler wrote down the words but did not assign them to the shadow. Kirk checked the nearest wall and found no seam. Bill kept the route back clear. Luke closed his box, leaving the two screws where they had been. Joseph remained beside the Teller.
+
+     The eighth note did not return.
+
+     The room stayed dark for several seconds. Then the blue lights came back, one at a time, beneath the empty chairs. The chair at the far end remained unoccupied.
+
+     The men left without taking the new screw.
+
+     They did not agree on what the voice had meant. They agreed not to answer it on the speaker's behalf.
 
 ## Chapter XLV: The Man Who Refused the Name
 

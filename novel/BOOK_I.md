@@ -8648,21 +8648,35 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XLIX-I: The Men Who Stayed
 
-     By evening the room had changed again. The long table was still there, and so were the shelves, the lamps, and the impossible collection of objects, but the men had begun moving their chairs closer together. Nobody had instructed them to do it. The arrangement simply became more intimate as conversation accumulated. A man who had spent the afternoon by the window now sat beside another man on the floor. Two strangers were comparing scars on their hands. Someone had found food somewhere and was passing it around without asking who was hungry. The room had begun behaving less like an archive and more like a place where people lived.
+     By evening the room had changed again.
+
+     The long table was still there, and so were the shelves, the lamps, and the impossible collection of objects, but the men had begun moving their chairs closer together. Nobody had instructed them to do it. The arrangement simply became more intimate as conversation accumulated. A man who had spent the afternoon by the window now sat beside another man on the floor. Two strangers were comparing scars on their hands. Someone had found food somewhere and was passing it around without asking who was hungry. The room had begun behaving less like an archive and more like a place where men lived.
 
      Luke noticed that first.
 
      “It doesn't want us to leave.”
 
-     Joseph looked around.
-
-     “Maybe it doesn't.”
+     Joseph looked around. “Maybe it doesn't.”
 
      “That's different from a trap.”
 
      “Very.”
 
+     Luke walked to the nearest door and opened it. The corridor beyond was still there. He could see the eastern passage and the blue light from the House. He stepped through, waited, then returned. The room had not closed behind him or changed his place at the table.
+
+     “We can leave,” he said.
+
+     “Yes,” Joseph replied.
+
+     “Then staying is a choice.”
+
+     Joseph nodded. “It has to be.”
+
      Across the room, a broad man was laughing with Tyler. The sound was ordinary enough that it startled Kirk. After everything they had seen—the wells, the House, the city beneath the water, the windows and doors and creatures that seemed to remember them before they existed—ordinary laughter felt almost supernatural.
+
+     Tyler had put away his notebook. He was listening to the broad man describe a repair he had made to a cart wheel. The account was not important in itself. Tyler asked how the man had found the fault, and the two began arguing about whether the repair would hold under a heavier load. Neither tried to win the argument. They were enjoying the difference.
+
+     Bill had found the kitchen. He returned with bread, a pot of stew, and a bowl of fruit. He did not announce a meal. He set the food on the table and began passing it around. Men took what they wanted. One asked for more water. Another offered to wash the pot when they were finished. Bill accepted the offer without turning it into an obligation.
 
      Kirk sat back.
 
@@ -8670,25 +8684,67 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Nobody answered immediately.
 
-     Then the man beside him said,
+     Then the man beside him said, “Someone knowing where you are.”
 
-     “Someone knowing where you are.”
+     Another answered from across the table. “Someone noticing when you leave.”
 
-     Another answered from across the table.
+     A third man said, “Having somewhere to come back to.”
 
-     “Someone noticing when you leave.”
+     The broad man looked toward Tyler. “Someone who remembers how you take your tea.”
 
-     A third man said,
+     Tyler laughed. “That is a very small thing.”
 
-     “Having somewhere to come back to.”
+     “Small things are how you find out whether someone has been paying attention.”
 
      The answers accumulated until the room seemed to possess a new architecture made entirely of relationships. No spell produced it. No machine recorded it. No door revealed it. The men had built it simply by remaining present long enough for one another to become real.
+
+     Luke moved between the groups. He did not want to be held in place, but he no longer felt that leaving was the only way to remain himself. He listened to a man describe a house he had lost and another describe a place he had never managed to reach. Their accounts were different. Neither man asked the other to agree.
+
+     The largest man sat near the window. A man beside him asked whether the room had always felt small.
+
+     “No,” the largest man said. “It used to make space around me.”
+
+     “And now?”
+
+     “Now I know where to stand.”
+
+     The man considered that. “That sounds easier.”
+
+     “It is more work,” the largest man replied. “But it is better.”
+
+     Joseph and the Teller sat together near the table. Their conversation moved in and out of the room's wider talk. They did not need to hold one another's attention at every moment. Joseph listened to another man for a while, then returned to the Teller. The Teller spoke with a man near the shelves, then came back and sat beside Joseph. Their familiarity did not make the room smaller. It gave them a place within it.
+
+     The Seventh Man stood near the door. He watched men enter and leave. Some returned after a short time. Others stayed for the meal and then went to sleep in one of the upper rooms. Nobody asked them to declare whether they belonged. The room did not measure belonging by duration.
+
+     Cael sat near the far wall. He had not taken the central chair. He was speaking with one of the men who had arrived before the travelers. Their conversation was quiet and sometimes interrupted by long pauses. Neither seemed troubled by the silence.
 
      The Teller looked toward the empty chair.
 
      It was still empty.
 
      But nobody was treating it as a vacancy anymore.
+
+     The chair did not need to be filled for the room to be complete. It remained available without becoming a demand. A man could arrive later. He could refuse. He could sit for a moment and leave. The others had begun to understand that making room was not the same as deciding who should occupy it.
+
+     Kirk looked at the chair, then at the men around the table.
+
+     “I think that's what makes a man stay,” he said.
+
+     Luke looked over. “What?”
+
+     “Knowing he can leave.”
+
+     Joseph considered the answer. “And still having somewhere to return.”
+
+     The room grew quieter. Not because the men had run out of things to say, but because the conversation had reached a place where no one needed to add a larger explanation.
+
+     The House did not close its doors.
+
+     The men continued eating, speaking, repairing small things, and moving their chairs closer together. The room became more inhabited without becoming crowded. The House held the differences between them without forcing them into a single story.
+
+     Outside, Veyrthalis continued to expand.
+
+     Inside, the men had found a reason to stay.
 
 ## Chapter L: The Geometry They Left Behind
 

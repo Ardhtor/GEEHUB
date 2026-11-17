@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "c4f879f9816a124ab9d375185f01955b64d5d403",
+  "source_blob_sha": "4c9f381f96b20ededbe617975dcd5ca860b14930",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 43,
+    "completed": 44,
     "in_progress": 1,
-    "queued": 28,
+    "queued": 27,
     "empty_source": 0,
-    "next_chapter_index": 43,
-    "active_chapter_id": "book-i-xliv",
-    "last_completed_chapter_id": "book-i-xliii"
+    "next_chapter_index": 44,
+    "active_chapter_id": "book-i-xlv",
+    "last_completed_chapter_id": "book-i-xliv"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -719,9 +719,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "c4f879f9816a124ab9d375185f01955b64d5d403",
+      "last_verified_blob_sha": "4c9f381f96b20ededbe617975dcd5ca860b14930",
       "notes": "Expanded and verified at 953 words. The empty-chair chamber distinguishes men who have disappeared from men who have never been noticed. The chairs are prepared without being assigned; the men do not claim them. The final shadow remains unresolved and introduces the eighth note. All figures are male.",
-      "current_word_count": 953
+      "current_word_count": 952
     },
     {
       "chapter_id": "book-i-xliv",
@@ -733,11 +733,11 @@
       "baseline_word_count": 394,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the eighth note as an adjacent relation rather than a higher rank; preserve the shadow's refusal to be remembered, the duplicate screw, and the warning/invitation ambiguity. Keep all cast members male.",
-      "current_word_count": 400
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "4c9f381f96b20ededbe617975dcd5ca860b14930",
+      "notes": "Expanded and verified against Chapters XLIII and XLV. The eighth note is adjacent to the seven-part sequence, not a higher rank. The duplicate screw remains distinct from the original by its lack of history; the voice's 'Don't remember me' is left unresolved. The men choose not to claim the shadow or answer on its behalf. All cast members are male.",
+      "current_word_count": 794
     },
     {
       "chapter_id": "book-i-xlv",
@@ -749,10 +749,10 @@
       "baseline_word_count": 356,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the refusal to be remembered as a boundary rather than a puzzle to solve; preserve the screw without a thread, the shift from remembering to observing, and the distant blue window. Keep all cast members male.",
       "current_word_count": 365
     },
     {

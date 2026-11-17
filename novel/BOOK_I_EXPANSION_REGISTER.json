@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "cd212df1db24d94ac1fb89ac9a82477151b6613f",
+  "source_blob_sha": "2f4d25682735635bdeed8df23f49ff693b5ac5a6",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 35,
+    "completed": 36,
     "in_progress": 1,
-    "queued": 36,
+    "queued": 35,
     "empty_source": 0,
-    "next_chapter_index": 35,
-    "active_chapter_id": "book-i-xxxvi",
-    "last_completed_chapter_id": "book-i-xxxv"
+    "next_chapter_index": 36,
+    "active_chapter_id": "book-i-xxxvii",
+    "last_completed_chapter_id": "book-i-xxxvi"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -591,9 +591,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "cd212df1db24d94ac1fb89ac9a82477151b6613f",
+      "last_verified_blob_sha": "2f4d25682735635bdeed8df23f49ff693b5ac5a6",
       "notes": "Expanded and verified at 1,206 words. The organism's first test separates the men's memories of one another without physically separating them. Each man recovers a distinct anchor: Tyler's room and record, Luke's box, Kirk's chair, Bill's table, the largest man's tree, the Seventh Man's road, and Joseph and the Teller's chosen contact. The city returns without making their memories identical; 'Continuance' names the principle. All cast members are male.",
-      "current_word_count": 1206
+      "current_word_count": 1205
     },
     {
       "chapter_id": "book-i-xxxvi",
@@ -605,11 +605,11 @@
       "baseline_word_count": 214,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the House's response to the restored relations, the seventh chair's new occupant, and the two worlds becoming mutually visible. Preserve Ansel, the Teller, Joseph, and the male stranger's unresolved identity.",
-      "current_word_count": 223
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "2f4d25682735635bdeed8df23f49ff693b5ac5a6",
+      "notes": "Expanded and verified against Chapters XXXV and XXXVII. The seventh chair is occupied by an unnamed male stranger; the House becomes visible as a living place whose root-like lines preserve relationships, routes, and repairs. The two worlds are connected without collapsing into one or claiming the stranger's identity. All cast members are male.",
+      "current_word_count": 1054
     },
     {
       "chapter_id": "book-i-xxxvii",
@@ -621,10 +621,10 @@
       "baseline_word_count": 390,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the organism's waking as reciprocal recognition rather than an attack. Preserve the question 'Who remembers me?', the Teller's answer, Joseph's distinction between memory and being remembered, and the first room appearing on the screens. Keep all cast members male.",
       "current_word_count": 396
     },
     {
@@ -640,7 +640,7 @@
       "status": "queued",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Queued continuity check: current draft contains a reference to children. Replace it with adult male figures before marking the chapter complete.",
       "current_word_count": 465
     },
     {

@@ -7706,21 +7706,15 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XL: The Room Before the Room
 
-     The door appeared in the original room.
+     The door appeared in the original room. Not the new room. Not the great hall. Not the archive. The original. The place beneath everything.
 
-     Not the new room. Not the great hall. Not the archive. The original. The place beneath everything.
+     Joseph reached it first. He did not touch it. Luke came carrying his box. Tyler followed with his notebook. The other men gathered behind them. There was no handle, no lock, and no inscription. The door seemed less like an object than a decision that had become physical. Its surface held the same blue light as the first room, though the light did not come from any visible source.
 
-     It had no handle, lock, or inscription. Its surface was plain wood, pale at the center and dark around the edges where hands had touched it. The grain ran vertically. There was no visible frame, but the wall around it had settled into a precise rectangle, as if the room had been waiting for the door to become visible.
+     Joseph looked at the Teller.
 
-     Joseph reached it first. He did not touch it.
+     “What do you remember?”
 
-     Luke came carrying his box. Tyler followed with his notebook. Kirk stood near the table and examined the floor. Bill checked the way back into the House. The largest man remained near the wall, giving the others room to approach. The Seventh Man stood beside the doorway. Cael watched from a little distance. The Teller came to stand beside Joseph.
-
-     Nobody tried the door.
-
-     Joseph looked at the Teller. “What do you remember?”
-
-     The Teller looked at the room. The chair. The blue light. The walls. The men who had arrived later. The House that had grown around them.
+     The Teller looked at the room: the chair, the blue light, the walls, the men who had arrived later, and the House that had grown around them.
 
      “I remember this.”
 
@@ -7728,107 +7722,87 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Tyler said, “I remember changing.”
 
-     Kirk looked at the chair. “I remember repairing it.”
-
-     Bill looked toward the table. “I remember the first meal.”
-
-     The largest man looked at the walls. “I remember the room making space.”
-
-     The Seventh Man looked toward the door. “I remember the road that brought us here.”
-
-     Cael said nothing. He was looking at the empty place beside the chair.
-
      Joseph said, “I remember staying.”
 
-     The memories did not form a single account. They arrived separately, each carrying its own weight. A tree. A song. A photograph. A road. A face. A night. A promise. The room grew warmer. The blue light strengthened, not enough to brighten the corners but enough to make the wood grain visible.
+     The others began speaking. A tree. A song. A photograph. A road. A face. A night. A promise. Kirk remembered the first repair made to the room. Bill remembered the table and the meals that had been shared there. The largest man remembered the space that had been made when the walls moved. The Seventh Man remembered the route that had led them back. Cael remembered the door he had opened beyond the edge.
 
-     Tyler opened his notebook. The pages were filled with dates and measurements, but none of the entries described this room before the men had arrived. He searched for the earliest record. The first line was not a measurement. It was a question he had written without remembering when:
-
-     WHAT WAS HERE BEFORE WE LOOKED?
-
-     He showed it to Joseph.
-
-     Joseph read it and returned the notebook. “Perhaps that was the first measurement.”
-
-     Tyler considered the answer. “It has no unit.”
-
-     “It has a direction.”
-
-     Kirk ran his hand along the table. The oak was old, but the surface had not been worn by years of use. It had been worn by a particular kind of attention: men placing objects there, moving them, returning them, and leaving space for what had not arrived. He found no join where the table had been assembled. It seemed to have grown from a single piece of wood.
-
-     “This is the table before the repairs,” he said.
-
-     “Before the repairs?” Luke asked.
-
-     “Before we knew it needed them.”
-
-     Bill looked at the table. “It still holds.”
-
-     “Yes,” Kirk replied. “But that doesn't mean it has never been changed.”
-
-     The largest man stepped closer. The room did not expand. The walls held their dimensions. He looked at them with a new kind of attention. The first room had once seemed too small to contain what the men brought into it. Now it seemed to contain the conditions under which the later rooms had become possible.
+     The room grew warmer.
 
      The door opened inward.
 
-     Beyond it was not another country. It was the same room. But before them.
-
-     The walls were closer together. The ceiling was low. The blue light seemed almost weak. There was no city outside the windows, no forest beyond the glass, no distant architecture waiting to become important. There was only the chair, the paper, and the faint sound of something electrical continuing to operate somewhere behind the walls.
+     Beyond it was not another country. It was the same room, but before them. Before the city. Before the House had acquired a name. Before the Serum. Before the first argument. Before Luke's box. Before Tyler's marks. Before Joseph had called himself the husband. The room had not yet decided what it was. Its walls were plain. Its floor was unmarked. There were no windows, no records, and no visible routes leading away.
 
      The chair stood in the center.
 
      Nothing else.
 
-     Luke stopped breathing for a moment.
+     Luke stopped breathing for a moment. Tyler whispered, “That's the chair.”
 
-     Tyler whispered, “That's the chair.”
+     He recognized its proportions from the original room, but it had not yet acquired the repairs or marks that made it familiar. Kirk approached and examined the legs. The joints were simple and strong. The seat had a shallow hollow, as if a man had sat there for a long time, but there was no dust or wear elsewhere in the room.
 
-     The men did not rush forward. They had learned that arrival was not ownership. The chair was not an invitation to sit merely because it stood empty. It was an object whose history had begun before their own accounts of it.
+     “It was used,” Kirk said.
 
-     Joseph walked inside.
+     “By whom?” Joseph asked.
 
-     On the seat was a piece of paper. He picked it up. There was one sentence.
+     Kirk shook his head. “I can tell that it held weight. I can't tell whose.”
+
+     Joseph walked inside. The others followed, leaving the doorway open. The House was visible on one side. The country on another. The organism beneath the forest on a third. The room before them did not replace any of those places. It sat behind them, a beginning that remained accessible without becoming a destination.
+
+     On the seat was a piece of paper.
+
+     Joseph picked it up. There was one sentence:
 
      WE WERE ALWAYS BUILDING THIS.
 
      He turned the paper over. Nothing.
 
-     He read the sentence again. It did not say that the House had been planned or that the men had known what they were making. It said that the work had been underway before they could describe it. The room had become a world through acts that had seemed ordinary at the time.
+     Tyler asked whether the sentence had been written by the man who had used the chair. Joseph could not tell. The ink had no visible age. The paper had no watermark or signature. He handed it to Tyler, who examined the fibers and the pressure of the writing.
 
-     The Teller entered the room. The others followed. The original doorway remained open behind them.
+     “The sentence is deliberate,” Tyler said. “The source is unknown.”
 
-     Luke looked at the chair. “Who wrote it?”
+     “Does it mean the room was being built before it existed?” Luke asked.
 
-     Tyler examined the paper. “There is no signature.”
+     “Or that we were building it without knowing what we were making,” Joseph replied.
 
-     Kirk checked the seat. The wood showed a shallow impression, as if a man had been sitting there. The impression was not recent. It had become part of the grain.
+     Bill looked around the empty walls. “A room still needs men to use it.”
 
-     Bill looked at the door. “Can we return?”
+     The largest man stood beside the chair. He did not sit. He looked at the shallow hollow in the seat and then at the open doorway.
 
-     The House remained visible through the opening. The country lay beyond it. The organism beneath the forest was present as a low vibration in the floor. The routes between the places remained open.
+     “Maybe it was waiting for someone.”
 
-     “Yes,” Joseph said.
-
-     “Then we should keep it open.”
-
-     The largest man stood beside the frame. He did not hold the door in place. It remained open without his help.
+     The Seventh Man studied the floor. “Or someone had just left.”
 
      Then the chair moved.
 
-     Only slightly. As if someone invisible had just stood up.
+     Only slightly. Its front legs shifted against the floor, and the hollow in the seat changed as if a man had just stood up. No figure appeared. No footsteps sounded. The room did not offer an explanation.
 
-     Nobody had seen a man leave it. Nobody had heard a step. The impression in the wood remained, but the seat was empty.
+     The Teller entered. He looked at the chair, then at the paper in Joseph's hand. He did not touch either. The room seemed to hold its breath around him. The House behind them remained visible, its thousands of lines still running between rooms and relationships. The country remained beyond it, with the forest and the city and the ancient organism. The original room remained at the center of all those places, not because it controlled them but because each had carried something from it.
 
-     The Serum responded. Not with light. With sound.
+     Cael stood near the doorway. “This is not the end.”
 
-     Seven notes.
+     Luke looked at him. “You found another door.”
 
-     Then one.
+     “I found another relation.”
 
-     Then silence.
+     Tyler looked at the sentence again. “Then the room was not built once.”
+
+     “No,” Cael said. “It keeps being built.”
+
+     Joseph placed the paper on the chair. The sentence remained visible. He did not claim that it belonged to him or to the House. He left it where it had been found.
+
+     The Serum responded.
+
+     Not with light. With sound.
+
+     Seven notes. Then one. Then silence.
+
+     The sound passed through the original room and into every place visible beyond the doorway. The House answered with a faint blue hum. The forest shifted. Beneath it, the organism gave a slow pulse. The city lights held steady.
 
      The men looked at one another. For the first time, nobody asked what came next. They had discovered the more frightening question.
 
      Who had been sitting in the chair before they arrived?
+
+     Nobody answered. The room remained open.
 
 ## Chapter XLI: The Room Before
 

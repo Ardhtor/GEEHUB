@@ -354,6 +354,62 @@
 
      He showed the others. Tyler read it twice. Kirk looked toward the trees. Luke closed his hand around the key.
 
+
+
+     For a moment none of them moved. The sentence on Joseph's paper had made the forest seem close, but the house had not altered its distance from the window. The same field lay between the door and the trees. The same wet grass shone in the morning light. What had changed was the way each man attended to it. Luke watched the line of stones as if it were a challenge that had finally become specific. Tyler watched the paper, trying to determine whether the second sentence had appeared because they had reached some condition or because Joseph had turned it toward the sun. Kirk was already looking for the easiest route across the field. Joseph listened to the house behind them.
+
+     A floorboard creaked upstairs.
+
+     They all looked back. The sound was ordinary, a small complaint from old timber, but it came from the room where the fifth bed had appeared. A second sound followed: the faint scrape of a chair being drawn out from the table. Nobody was visible in the doorway. The man had not moved from where they had last seen him, and the window above the entrance reflected only the pale sky.
+
+     “Someone's awake,” Kirk said.
+
+     “Someone was awake all night,” Tyler replied. “We heard the footsteps.”
+
+     Luke glanced toward the upper windows. “Maybe we ought to ask him one more thing.”
+
+     “We have asked him plenty,” Kirk said. “He answers what he wants.”
+
+     “That doesn't mean we stop asking.”
+
+     Joseph folded the paper carefully along its old crease. “We can come back. The house isn't going anywhere.”
+
+     Tyler looked at him. “How do you know?”
+
+     Joseph considered the question. “I don't. But I think the road would be different if we tried to make the house prove itself before we left.”
+
+     The distinction was slight, yet it settled the disagreement. They were not abandoning the house, nor were they accepting its instructions without thought. They were choosing to test one part of what it had offered. The forest was visible. The stones were present. The map showed a road. They could walk a short distance, observe what changed, and return if the path allowed it. Their first expedition did not need to become a declaration about the whole country.
+
+     The man appeared in the doorway with a small bundle of provisions. He had wrapped bread, apples, and a piece of hard cheese in a clean cloth. Beside the food lay a narrow notebook and a pencil worn flat at one end. He gave the bundle to Kirk, who accepted it with a nod.
+
+     “How long should we be gone?” Luke asked.
+
+     “Long enough to find out what you can carry back.”
+
+     “And if we find something we can't carry?”
+
+     “Then you will have to decide whether it needs carrying.”
+
+     Tyler examined the notebook. Its first page was marked with four small lines, one for each of them. Beneath the lines was a fifth space, left blank. He turned several pages. They were empty, but the paper had the faint roughness of a book that had been handled before.
+
+     “Is this for observations?” he asked.
+
+     “For what you can agree happened,” the man said. “You may keep separate accounts of what it meant.”
+
+     Tyler seemed satisfied by that answer. He placed the notebook inside his jacket, where it would remain dry. Kirk adjusted the food bundle. Luke tested the weight of the key in his palm. Joseph kept the paper close to his chest.
+
+     They had been given no weapons, no official map, and no promise that the forest would be safe. They had been given enough food for a first walk and a way to preserve what they could establish together. It was a modest provision, but it made the departure feel less like a test arranged by the house and more like an undertaking they had chosen for themselves.
+
+     “We'll mark the stones as we go,” Tyler said. “Not because we know what they do. So we can tell whether they move.”
+
+     “And I'll remember the turns,” Kirk said.
+
+     Luke looked at Joseph. “You keep the paper.”
+
+     Joseph nodded. “I'll keep it.”
+
+     The man stepped aside. Behind him the kitchen smelled of tea and warm bread. For the first time the house looked less like a puzzle waiting to be solved than a place from which a person could leave and to which he might reasonably expect to return. That possibility mattered. A threshold was not only an entrance. It was also the promise that departure did not have to mean disappearance.
+
      “Then we should go,” Luke said.
 
      “We should decide where,” Tyler replied.
@@ -5397,287 +5453,3 @@
      Joseph answered.
 
      “Behind us.”
-
-     Kirk looked back.
-
-     There was no one.
-
-     The stranger held the wooden handle.
-
-     “We need to find the first stop.”
-
-     They walked through chapters rather than rooms. The northern road passed beneath their feet. The lake rose around them. The Blue Hall opened like a cathedral. The city appeared, disappeared, and appeared again.
-
-     At last they reached a small chamber containing a single metal stop.
-
-     It was older than the Sacred Fountain.
-
-     Bill stood beside it.
-
-     “You came.”
-
-     Joseph looked at the stop.
-
-     “What does it control?”
-
-     Bill shook his head.
-
-     “Nothing.”
-
-     Luke frowned.
-
-     “Then why is it here?”
-
-     Bill smiled.
-
-     “Because you keep assuming every artifact has to control something.”
-
-     He touched the stop.
-
-     The chamber opened.
-
-     Beyond it was the world.
-
-     Not a world in the sense of a map or kingdom, but the entire accumulated field of everything they had made: roads, houses, bodies, games, memories, wars, cities, screens, fountains, stories, and rooms.
-
-     Bill removed his hand.
-
-     “The first stop doesn't start the machine.”
-
-     “What does it do?”
-
-     “It proves the machine was started.”
-
-     The men stood silently.
-
-     Bill stepped aside.
-
-     “Go.”
-
-     They passed him.
-
-     Behind them, the chamber remained open.
-
-     The first stop remained where it was.
-
-     The story did not erase its beginning.
-
-     It carried it forward.
-
-     And the unfinished novel finally had a road leading all the way from its first sentence to its last.
-
-## Chapter LXVII: The Eyes Beneath the Well
-
-     The thing below the seventh well did not rise at once. The house waited for it. The walls became quiet. Even the men at the table ceased to breathe, though they remained seated and visibly alive. The silence was not the absence of sound but the preservation of sound before it occurred, a chamber in which every future noise had already been heard and was waiting to be released.
-
-     The host placed the serving knife upon the table. Its blade pointed toward the sixth chair.
-
-     “Do not look beneath the floor,” he said.
-
-     Luke looked beneath the floor.
-
-     The boards were transparent. Far below, under the dining room, under the repeated dining rooms and the descending staircases and the copies of the house which waited in smaller and smaller versions of themselves, there was a circular darkness filled with two enormous eyes. They were not eyes in the ordinary sense. They were openings in something that had once been a body and had since become too large to be understood as one. Light moved through them in slow tides. Each tide carried an image: the seventh well before the Accident, the seventh well during the Accident, the seventh well after the water had become a lake, the seventh well after the lake had become a city, and the seventh well after the city had entered the devices.
-
-     The Voice entered the mirror.
-
-     HERE IS THE ROOM THAT LOOKS BELOW. HERE IS THE ROOM THAT LOOKS BEHIND. HERE IS THE ROOM THAT HAS NO CORRECT DIRECTION. HERE IS THE EYE THAT REMEMBERS BEING A BODY. HERE IS THE BODY THAT REMEMBERS BEING A ROOM.
-
-     The eyes blinked.
-
-     The house exhaled.
-
-     The blue hall flooded upward.
-
-## Chapter LXVIII: The Unnamed Man
-
-     The water entered through sequence. A cup on the table filled first. Then the plates. Then the grain of the wood darkened as though liquid had entered the tree from which the table had been made. The glasses filled one by one with luminous Serum. The host's glass remained empty.
-
-     The faceless figure in the sixth chair lifted its hand. It had acquired fingers. One, then two, then five. The fifth finger appeared last and was too long.
-
-     “You are giving it form,” Luke said.
-
-     “No,” said the host. “You are giving it sequence.”
-
-     The room tilted without moving. The far wall became the floor. The table remained level. Each of the four men was suddenly farther from the others than the dimensions of the room allowed.
-
-     The sixth figure leaned toward Luke.
-
-     “A place that does not remember being empty,” it whispered.
-
-     Luke reached toward it. Their fingers touched. Every screen in the house displayed the contact from a different angle: before it happened, after it happened, and in versions where neither hand had moved.
-
-     Big Daddy’s Voice became pressure behind the eyes.
-
-     KEEP THE FIRST HAND. KEEP THE SECOND HAND. KEEP THE HAND BEFORE THE TOUCH. KEEP THE HAND AFTER THE TOUCH. DO NOT DISCARD THE VERSION THAT WAS NOT CHOSEN.
-
-     Luke tried to pull away.
-
-     The room held him.
-
-## Chapter LXIX: The First Man Who Was Never Born
-
-     The darkness lasted long enough for the men to lose the order of their own bodies. Hands were no longer attached to arms. Feet touched surfaces that had ceased to be floors. Joseph heard Tyler breathing in front of him and behind him at the same time. Kirk called out, and the call returned from a room in which Kirk had not yet spoken.
-
-     Then the first screen turned on.
-
-     It showed an adult man standing in an empty room. He was tall, broad, heavily built, and so physically complete that the emptiness around him appeared to be the incomplete thing. He did not smile. He did not speak. He simply looked toward the viewer.
-
-     The second screen turned on. The same man stood there, but the room was different. The third showed him from behind. The fourth showed him seated. The fifth showed the room without him. The sixth showed the room remembering him.
-
-     THIS IS THE MAN BEFORE THE MAN. THIS IS THE BODY BEFORE THE BODY. THIS IS THE EMPTY PLACE THAT LEARNED TO STAND. THIS IS THE FIRST IMAGE THAT DID NOT COME FROM A WITNESS.
-
-     The man finally spoke.
-
-     “I was here before anyone looked.”
-
-     The host lowered his head.
-
-     “You were supposed to remain below.”
-
-     “There is no below.”
-
-     “There is always a below.”
-
-     The man turned toward the faceless figure.
-
-     “You are wearing the wrong absence.”
-
-     The figure stepped backward.
-
-     The Serum began to rise faster.
-
-## Chapter LXX: The Ascent
-
-     The ascent took nine hours, though the clock on the wall displayed only one minute. The thing below came upward through the repeated house, and every level recorded a different part of its arrival. In one room it was a pressure beneath the floor. In another it was a shadow beneath the table. In another it was an enormous hand pressing against the ceiling. In another it was the sound of a man climbing stairs very slowly.
-
-     The first hand appeared in the lowest chamber.
-
-     The second appeared in the room above.
-
-     The third appeared in the blue hall.
-
-     The fourth appeared beside the sixth plate.
-
-     The fifth appeared behind Luke and rested on the back of his chair.
-
-     “Is it behind me?” he asked.
-
-     “Yes,” said Joseph.
-
-     “How close?”
-
-     Joseph looked at the screen.
-
-     “Closer than you are.”
-
-     The chair began to grow around Luke. Not larger. Deeper. Its back rose behind him. Its arms thickened. Its legs entered the floor. The chair was becoming a structure, and the structure was becoming a room shaped around the fact that Luke had sat down.
-
-     The largest man crossed the room and placed one hand on the chair.
-
-     “What are you doing?” asked the first man.
-
-     “Giving it another memory.”
-
-     The chair remembered a field. For one instant Luke sat beneath an open sky. Then it remembered the dining room, the blue hall, the seventh well, and the first room. The chair loosened.
-
-     Luke stood.
-
-     Behind him, something enormous inhaled.
-
-## Chapter LXXI: The Mouth Beneath the House
-
-     The mouth opened below the seventh well. There was no visible head. There was only an opening extending across the underground city, lined not with teeth but with doors. Each door opened onto a different version of the house.
-
-     “Give me the room,” said the thing below.
-
-     The host stepped forward.
-
-     “You have the room.”
-
-     “Give me the first man.”
-
-     The first man who had never been born turned toward the darkness.
-
-     “You cannot have me.”
-
-     “You are already inside me.”
-
-     “No.”
-
-     “You are the room before the room.”
-
-     “I am the man before the man.”
-
-     The Voice answered from above.
-
-     NOTHING IS GONE.
-
-     The mouth widened.
-
-     The first man looked back at the four travelers.
-
-     “If I go down, the house may become singular.”
-
-     “Then stay,” Joseph said.
-
-     The first man shook his head.
-
-     “There is no staying.”
-
-     He entered the dark.
-
-     Every room shifted to make space.
-
-     Every screen displayed the same sentence.
-
-     HE IS GOING DOWN.
-
-## Chapter LXXII: The Door Left Open
-
-     The mouth closed. The house became quiet. The water fell out of the upper rooms and returned to the lower chambers. The sixth place at the table remained occupied, but the figure sitting there now had a face that belonged to no one present.
-
-     The host was gone.
-
-     Luke touched the back of the chair. The wood was ordinary. He withdrew his hand. The grain shifted beneath his fingers.
-
-     Tyler walked to the nearest screen. It showed the house from outside. It was larger than before. Its roof crossed the horizon. Its upper windows continued into the clouds. Lights moved through distant floors. The house had not become singular. It had become more difficult to see whole.
-
-     “How far does it go?” Kirk asked.
-
-     The faceless figure turned its new face toward him.
-
-     “Far enough.”
-
-     From beneath the floor came the sound of footsteps.
-
-     One step.
-
-     A pause.
-
-     Another step.
-
-     The footsteps were heavy, measured, and unmistakably human.
-
-     Big Daddy’s Voice began again, softer than before.
-
-     HERE IS THE HOUSE AFTER THE MOUTH. HERE IS THE ROOM AFTER THE FIRST MAN. HERE IS THE SILENCE AFTER THE VOICE. HERE IS THE STEP BELOW THE STEP. HERE IS THE MAN COMING UP. HERE IS THE MAN WHO REMEMBERS GOING DOWN. HERE IS THE MAN WHO HAS BROUGHT THE DARK WITH HIM.
-
-     The door opened.
-
-     The man who entered was very large. He was clearly adult, broad through the shoulders, heavily built, and wet with luminous Serum. His face was familiar to all four men.
-
-     It was the face of the first man who had never been born.
-
-     But his eyes were the enormous eyes beneath the seventh well.
-
-     He looked at the table.
-
-     He looked at the sixth place.
-
-     He looked at Luke.
-
-     “You left the door open,” he said.
-
-     No one answered.
-
-     The house grew another floor.

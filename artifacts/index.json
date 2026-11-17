@@ -13491,6 +13491,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000292",
+      "created_at": "2026-11-17T21:55:10.164815+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "LANTERN MARKET",
+      "content": "SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "lineage": {
+        "event_id": "world-pulse-000292",
+        "event": {
+          "id": "world-pulse-000292",
+          "pulse": 292,
+          "time": "2026-11-17T21:55:10.164815+00:00",
+          "actor": "LUKE",
+          "world": "LANTERN MARKET",
+          "region_id": "lantern-market",
+          "previous_region_id": "lantern-market",
+          "phase": "ATMOSPHERE",
+          "source": "worlds/lantern-market/README.md",
+          "desire_state": "attention",
+          "action": "SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+          "narrative_rule": "approach extends geography",
+          "relation": null,
+          "next_region": null,
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-17T21:55:10.164815+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000292",
+      "created_at": "2026-11-17T21:55:10.164815+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / LANTERN MARKET / worlds/lantern-market/README.md",
+      "content": "SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 292,
+        "actor": "LUKE",
+        "world": "LANTERN MARKET",
+        "region_id": "lantern-market",
+        "source": "worlds/lantern-market/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00123",
+      "created_at": "2026-11-17T21:55:10.252725+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE MUSIC SOCIETY REHEARSAL",
+      "content": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+      "lineage": {
+        "event_id": "northgate-campus-00123",
+        "event": {
+          "id": "northgate-campus-00123",
+          "cycle": 123,
+          "world_pulse": 292,
+          "at": "2026-11-17T21:55:10.252725+00:00",
+          "region": "northgate-university",
+          "title": "THE MUSIC SOCIETY REHEARSAL",
+          "kind": "music",
+          "participants": [
+            "Adrian Varga",
+            "Elliot Ward",
+            "Dan Roman"
+          ],
+          "description": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-17T21:55:10.252725+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

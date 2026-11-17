@@ -1,5 +1,5 @@
 {
-  "pulse": 291,
+  "pulse": 292,
   "events": [
     {
       "pulse": 1,
@@ -5419,6 +5419,28 @@
       "occurred_at": "2026-11-17T13:31:08.556746+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000292",
+      "pulse": 292,
+      "time": "2026-11-17T21:55:10.164815+00:00",
+      "actor": "LUKE",
+      "world": "LANTERN MARKET",
+      "region_id": "lantern-market",
+      "previous_region_id": "lantern-market",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/lantern-market/README.md",
+      "desire_state": "attention",
+      "action": "SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-17T21:55:10.164815+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -5469,7 +5491,7 @@
     "northgate-library": 284,
     "athletic-commons": 288.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -5489,14 +5511,14 @@
     "worlds/founders-dormitory/README.md": 9,
     "worlds/northgate-university/README.md": 21,
     "worlds/bluewater-quay/README.md": 13,
-    "worlds/lantern-market/README.md": 9,
+    "worlds/lantern-market/README.md": 10,
     "worlds/northgate-library/README.md": 18,
     "worlds/athletic-commons/README.md": 8
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "lantern-market",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

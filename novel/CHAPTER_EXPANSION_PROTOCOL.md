@@ -61,6 +61,12 @@ The existing spaced-retrieval writer in `scripts/tractus_engine.py` is designed 
 
 Chapter expansion must not be gated by the 1/3/7/14/30-day spaced-retrieval schedule. Retrieval protects recall; the chapter register controls editorial coverage. They are complementary systems with separate cursors.
 
+## Default scope across books
+
+When the user says “update the story,” “expand the story,” or asks for more writing without naming a specific chapter, interpret the request as a whole-book development operation. Books and chapters are the primary literary units: develop existing books chapter by chapter, including early and middle chapters, rather than treating the latest chapter as the only active frontier. Unless the user names a narrower scope, the global program covers every active book and every established chapter file in the repository. Each book retains its own source manuscript, chapter census, continuity context, and progress register. Separate manuscripts, spinoffs, and alternate branches are included in the global census but are not merged into one canon without reconciliation.
+
+Execution is incremental, but scope is not narrow. Work proceeds in canonical book order and then chapter order, with a durable cursor. A chapter may receive multiple passes; the register distinguishes a first expansion from a completed, continuity-checked chapter. A book is not considered expanded merely because its newest chapter has grown.
+
 ## Boundaries across books
 
 This register covers *The Road of Seven Wells*, Book I, in its canonical `BOOK_I.md` file. Standalone chapters, continuation files, spinoffs, and other novels remain separate source branches until their relationship to Book I is confirmed. A global story update can encompass multiple books, but each book needs its own chapter census, register, continuity context, and progress cursor.

@@ -8756,11 +8756,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Luke followed it.
 
-     Tyler saw him go and followed.
-
-     Joseph came after Tyler.
-
-     Kirk remained in the room for another minute before the empty chair turned slightly toward the corridor.
+     Tyler saw him go and followed. Joseph came after Tyler. Kirk remained in the room for another minute before the empty chair turned slightly toward the corridor.
 
      He stood.
 
@@ -8774,19 +8770,19 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      It was almost empty.
 
-     There were no machines. No shelves. No ancient instruments. No vessel of Serum. Only a dark floor and six enormous geometric forms suspended in the air.
+     There were no machines. No shelves. No ancient instruments. No vessel of Serum. Only a dark floor and six enormous geometric forms suspended in the air. Each was separate from the others, but the space between them seemed carefully measured.
 
-     One was a many-sided sphere.
+     One was a many-sided sphere. Its faces were not fixed. Each time it turned, a new arrangement appeared.
 
-     One was a ring.
+     One was a ring, wide enough for a man to walk through, though its surface seemed to continue beyond its visible edge.
 
-     One was a long transparent corridor folded into itself.
+     One was a long transparent corridor folded into itself. It contained no visible door, yet the passage could be seen from several directions at once.
 
      One was a black cube with a door in each face.
 
-     One was a blue lattice.
+     One was a blue lattice, its lines crossing without meeting.
 
-     The last was nothing they could name.
+     The last was nothing they could name. It appeared as a shape only when they looked away from it. When they looked directly, it became the space around the other five.
 
      Luke approached the first.
 
@@ -8798,13 +8794,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The sphere rotated until one of its faces pointed toward his chest. Then another face appeared. Then another. The geometry had no fixed front.
 
-     Tyler laughed.
+     Tyler laughed. “It knows you're there.”
 
-     “It knows you're there.”
-
-     Luke looked at him.
-
-     “You think?”
+     Luke looked at him. “You think?”
 
      Tyler walked toward the blue lattice.
 
@@ -8814,15 +8806,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The room changed.
 
-     Not dramatically. That would have been easier to understand. A wall simply moved three feet to the left. A ceiling became higher. The black cube rotated. The ring descended until it stood upright on the floor.
+     Not dramatically. That would have been easier to understand. A wall simply moved three feet to the left. A ceiling became higher. The black cube rotated. The ring descended until it stood upright on the floor. The transparent corridor unfolded far enough to connect two corners of the chamber, then folded back into itself.
 
      Joseph watched the transformation.
 
      “They're not objects.”
 
-     Kirk looked at him.
-
-     “What are they?”
+     Kirk looked at him. “What are they?”
 
      “Rules.”
 
@@ -8834,7 +8824,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      He stepped inside it.
 
-     The chamber became longer.
+     The chamber became longer. The walls did not move away from him so much as allow another part of the room to become available. The floor retained its earlier dimensions, but a second floor appeared beyond it, joined by the ring.
 
      Luke understood.
 
@@ -8866,11 +8856,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Joseph entered.
 
-     The four men were suddenly standing in four different versions of the same room.
-
-     They could see one another.
-
-     They could not reach one another.
+     The four men were suddenly standing in four different versions of the same room. They could see one another. They could not reach one another. Each version held the same six forms, but their positions differed. In one room the ring was high above the floor. In another it rested against the wall. In a third the blue lattice had become a passage. In the fourth the unnamed shape occupied the center.
 
      Luke raised his hand.
 
@@ -8888,15 +8874,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The House had learned the gesture.
 
-     Something moved beneath the floor.
+     Something moved beneath the floor. A low vibration passed through the chamber. The geometry rearranged itself. The six forms became a road.
 
-     A low vibration passed through the chamber.
-
-     The geometry rearranged itself.
-
-     The six forms became a road.
-
-     It ran from the chamber through the western wall and out beneath Veyrthalis.
+     It ran from the chamber through the western wall and out beneath Veyrthalis. Its surface held the patterns of the six forms, but none of them remained separate. The sphere became a turning point. The ring became a passage. The folded corridor became a route that could return upon itself. The black cube became a junction. The blue lattice became a field of crossings. The unnamed shape became the space that allowed the other five to meet.
 
      Far ahead, six lights appeared.
 
@@ -8912,11 +8892,11 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      One was the color of the room before anyone entered it.
 
-     Luke smiled.
-
-     “Now that's a road.”
+     Luke smiled. “Now that's a road.”
 
      They walked.
+
+     The road did not carry them to a fixed destination. It showed them where their actions could lead. When Luke moved toward the amber light, the path widened. When Tyler stopped to record the junction, the blue light held steady. When Kirk examined the support beneath the black crossing, the road lowered itself until he could see the joint. Joseph waited at the point where the paths divided. The road did not force him to choose.
 
      Behind them, the chamber did not return to its original shape.
 
@@ -8924,25 +8904,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      That was the important part.
 
-     The geometry was no longer scenery.
+     The geometry was no longer scenery. It was memory.
 
-     It was memory.
+     Every turn they made became a possibility for someone else. Every door they opened remained available. Every room they joined could be joined again. The world had begun to accumulate not only stories, but ways of moving through stories.
 
-     Every turn they made became a possibility for someone else.
+     Tyler looked back. “You think it'll remember us?”
 
-     Every door they opened remained available.
-
-     Every room they joined could be joined again.
-
-     The world had begun to accumulate not only stories, but ways of moving through stories.
-
-     Tyler looked back.
-
-     “You think it'll remember us?”
-
-     Joseph answered.
-
-     “It already does.”
+     Joseph answered. “It already does.”
 
      Ahead of them, the road divided.
 
@@ -8956,9 +8924,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      One disappeared completely.
 
-     Kirk pointed at the last.
-
-     “What's that one?”
+     Kirk pointed at the last. “What's that one?”
 
      The House answered before anyone else could.
 
@@ -8968,7 +8934,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Nobody stepped onto it.
 
-     Not yet.
+     The path was not blocked. It was not hidden. It remained visible and open, but it had no footprints, no marks, and no direction beyond the first few feet. It belonged to whoever came next, and the men understood that taking it would turn an invitation into an instruction.
 
      They left it empty.
 
@@ -8977,6 +8943,8 @@ The architects had been sent north with a letter of instruction and a set of ins
      Somewhere behind them, inside the chamber, the six original geometric forms began moving again.
 
      They were playing without the men now.
+
+     The sphere turned. The ring widened. The folded corridor opened and closed. The black cube rotated. The blue lattice shifted its crossings. The unnamed shape remained visible only when no one looked directly at it.
 
      The House was learning to play with itself.
 

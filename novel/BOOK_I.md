@@ -8408,6 +8408,26 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Beyond the walls, Veyrthalis continued its immense nocturnal movement. Pipes carried water through the city. The Procession began crossing the bridges again. Somewhere above them, a blue window opened and closed without anyone watching it. The country had not stopped producing. It had learned another form of production: omission.
 
+     Kirk checked the wall where the measurements ended. There was no hidden hinge, no panel, and no mechanism waiting to be released. The marks in the dust were evenly spaced. They showed that a man had stood before the screen many times, always at the same distance, but they did not show whether he had been working, waiting, or refusing to approach it.
+
+     “We could reconstruct his position,” Tyler said.
+
+     “Not his reason,” Kirk replied.
+
+     Bill looked at the chair. “And we don't need to move it.”
+
+     Tyler studied the list again. The room had recorded everything they had entered, but it had also recorded a room they had not entered. He could not tell whether the entry was a prediction, a memory, or a record of a decision that had not yet been made.
+
+     “If I write that we did not enter it, does that make the record true?”
+
+     Joseph shook his head. “It makes the record accurate about what we did.”
+
+     “And the room?”
+
+     “The room remains its own thing.”
+
+     Tyler looked at the empty chair. He seemed to understand that the distinction was not a failure of measurement. It was a boundary that the measurement had to preserve.
+
      Tyler sat in the empty chair.
 
      The screen went dark.

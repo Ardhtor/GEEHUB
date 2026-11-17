@@ -6332,57 +6332,195 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXIX: The Missing Man
 
-     They left the settlement before dawn.
+     By noon, the photograph had become too heavy for Luke to carry. He took it from his coat and laid it on the road. Its four visible figures stood beside the Sacred Fountain, their faces turned toward a point just outside the frame. The empty space between them had darkened. The shadow beneath the fountain extended into it, narrow as a path.
 
-     The photograph remained in Luke's pocket.
+     “Don't touch the image,” Tyler said.
 
-     The missing place in it became heavier as they walked.
+     Luke withdrew his hand. “I wasn't going to.”
 
-     By noon Luke could no longer carry it.
+     “You were about to.”
 
-     He placed it on the ground.
+     “I wanted to see whether it was paper or something else.”
+
+     Kirk crouched beside the photograph. The surface was dry. Its edges were worn, and the crease across one corner had been there before the image changed. He examined the empty place from several angles. There was no cut, no pasted section, no scraped emulsion. The photograph had not been altered in any ordinary way.
+
+     “The space was always part of the picture,” he said.
+
+     Joseph looked down. “But the man wasn't.”
+
+     “Or we couldn't see him.”
+
+     Tyler recorded both statements. He wrote that the photograph had changed after being carried through the settlement, but he could not establish whether the change had begun earlier. He asked Luke when the image first felt heavier.
+
+     “Before dawn,” Luke said. “I noticed it when we left. By noon I couldn't ignore it.”
+
+     Bill looked along the road. “Then we should not leave it lying here.”
+
+     “Why?” Luke asked.
+
+     “Because somebody may need to find it again.”
+
+     The largest man stood a short distance away. He watched the trees on either side of the road. There was no movement among them, but the light had changed. The path seemed to be waiting for something to become visible.
+
+     The Seventh Man looked at the photograph without approaching it.
+
+     “He is not the returned man,” he said.
+
+     Joseph glanced up. “You know who it is?”
+
+     “No.”
+
+     “Then how do you know who it isn't?”
+
+     “Because I remember the returned man.”
+
+     Kirk looked from the Seventh Man to the empty space. “And this one?”
+
+     “His absence has been kept longer than his name.”
+
+     Luke looked at the image. “That doesn't tell us anything.”
+
+     “It tells you not to mistake him for someone you already know.”
 
      The photograph unfolded.
 
-     A fifth figure appeared.
+     It did not tear. The paper lengthened along the grain, opening a narrow strip below the original image. The four men beside the fountain remained where they were. The fifth place became visible between them, not as a hole but as a figure slowly acquiring edges. A shoulder appeared first. Then the line of a coat, one hand, and a face that seemed to have been remembered by several men at once.
 
-     He stood behind them.
+     A fifth man stood beside the others.
 
-     He was not the returned man.
+     He was not the returned man. He was not the Seventh Man. He was not Bill. He did not resemble any of the men traveling with them. His clothes were plain, and his expression was difficult to read. He looked at the photograph, then at the road, as though he were checking whether the two places still connected.
 
-     He was not the seventh man.
+     Nobody moved toward him.
 
-     He was not Bill.
+     Tyler wanted to ask when he had entered the image. Kirk wanted to know whether the photograph had preserved an event or produced a new one. Luke wanted to know where the man had been. Bill looked at the man's hands and wondered whether he needed food or shelter. Joseph waited.
 
-     He was someone whose absence had become so complete that the world had begun constructing him from the shape left behind.
+     The man looked at them.
 
      “What is your name?” Joseph asked.
 
-     The man looked at him.
-
-     “I don't have one.”
+     The man considered the question. “I don't have one.”
 
      “Then what should we call you?”
 
-     The man looked at the road.
+     “Not what you need me to be.”
 
-     “Call me when you need me.”
+     The answer was calm. It did not sound like a refusal to speak. It sounded like a boundary.
 
-     He walked away.
+     Joseph nodded. “All right.”
 
-     Kirk stared after him.
+     Luke took a step forward. “Where did you come from?”
 
-     “That's all?”
+     “From the place you left empty.”
+
+     “That isn't a place.”
+
+     “It is where I was.”
+
+     Tyler asked whether he remembered the Sacred Fountain. The man looked at the photograph again.
+
+     “I remember standing there.”
+
+     “With whom?”
+
+     “Those men.”
+
+     “Do you remember their names?”
+
+     “No.”
+
+     Tyler wrote down the answer. “Do you remember what happened?”
+
+     “I remember that I was not included when it was told.”
+
+     Kirk looked at the four figures. “Were you there when this was taken?”
+
+     “I was there before the picture was made.”
+
+     “Then why aren't you in it?”
+
+     The man looked at him. “You are asking the picture to answer for the men who made it.”
+
+     Kirk accepted the correction. He looked again at the image, this time without trying to locate a technical cause.
+
+     Bill stepped closer, but kept a respectful distance. “Do you need somewhere to stay?”
+
+     “I don't know.”
+
+     “We have food.”
+
+     “I know.”
+
+     “You can walk with us if you want.”
+
+     The man looked toward the forest. “I have walked alone for a long time.”
+
+     The largest man spoke. “You do not have to decide now.”
+
+     “That is what everyone says when they want you to stay.”
+
+     “I don't want you to stay unless you choose it.”
+
+     The man looked at him for a moment. Then he looked at Joseph.
+
+     “You have been looking for someone,” he said.
+
+     Joseph did not deny it. “We have been trying to understand who is missing.”
+
+     “That is not the same as looking for me.”
+
+     “No,” Joseph said. “It isn't.”
+
+     The man seemed satisfied that Joseph had not pretended otherwise. He stepped away from the photograph and walked toward the trees. Nobody followed.
+
+     Luke watched him go. “That's all?”
 
      “For now,” Joseph said.
 
-     The man disappeared into the forest.
+     “He has no name.”
 
-     The photograph became ordinary again.
+     “He may choose one.”
+
+     “And if he doesn't?”
+
+     Joseph looked at the photograph. “Then we don't give him one.”
+
+     The man reached the edge of the forest and stopped. He turned once, not to ask them to come after him but to make sure they had seen where he was going.
+
+     “Call me when you need me,” he said.
+
+     He walked away.
+
+     The photograph folded itself back to its original size. The fifth figure disappeared. The four men beside the Sacred Fountain remained. The paper became light again, but it no longer felt empty.
+
+     Kirk stared after the missing man.
+
+     “That's all?” he asked.
+
+     “For now,” Joseph said.
+
+     The man disappeared among the trees. The photograph became ordinary again.
 
      But the road had changed.
 
-     There were now five sets of footprints.
+     Tyler counted the footprints near the clearing. There were five sets where there had been four. One set led away from the group and into the forest. It was clear, deep, and recent. The other four continued along the road. The travelers' own tracks were still visible farther back, but the new prints did not belong to any of them.
+
+     “He left a record,” Tyler said.
+
+     “A footprint,” Kirk replied. “Not a name.”
+
+     Bill picked up the photograph and placed it in a dry sleeve. Luke accepted it and returned it to his coat. He no longer felt its weight as a burden. He felt the responsibility of carrying something that might be needed again.
+
+     The largest man looked toward the forest. “We don't follow him.”
+
+     Joseph shook his head. “Not unless he asks.”
+
+     The Seventh Man watched the five sets of prints. “The road has changed because he was here.”
+
+     “Will it change again?” Luke asked.
+
+     “It already has.”
+
+     They continued toward the next light. The missing man remained beyond the trees, outside their sight and outside their claim. His footprints stayed on the road.
 
 ## Chapter XXX: The Seventh Light Opens
 

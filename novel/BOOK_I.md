@@ -7806,9 +7806,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XLI: The Room Before
 
-     Nobody entered the room at first. They stood in the doorway with the strange reluctance of men who had finally reached the place they had been describing without knowing it.
-
-     The room was smaller than memory. That was the first surprise. The walls were close together. The ceiling was low. The blue light seemed almost weak. There was no city outside the windows, no forest beyond the glass, no distant architecture waiting to become important. There was only the chair, the paper, and the faint sound of something electrical continuing to operate somewhere behind the walls.
+     Nobody entered the room at first. They stood in the doorway with the strange reluctance of men who had finally reached the place they had been describing without knowing it. The room was smaller than memory. That was the first surprise. The walls were close together. The ceiling was low. The blue light seemed almost weak. There was no city outside the windows, no forest beyond the glass, no distant architecture waiting to become important. There was only the chair, the paper, and the faint sound of something electrical continuing to operate somewhere behind the walls.
 
      Tyler looked around. “This is it?”
 
@@ -7816,79 +7814,75 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The distinction changed the room. Not physically. Nothing moved. But the men understood that they were standing inside a condition rather than a location. The House had not yet decided what it was. The country had not yet learned to remember them. The organism had not yet become visible. Even the chair had not yet acquired its history.
 
-     Tyler took a measurement from the doorway to the chair. It was shorter than he remembered. He checked the distance again. The number remained the same.
-
-     “The room is smaller,” he said.
-
-     “Or we have become larger,” Luke replied.
-
-     “That would not change the measurement.”
-
-     “It changes the way we stand in it.”
-
-     Tyler considered this and closed his notebook. For once, the measurement did not need to be corrected. It described the room as it was, not the room as he remembered it.
-
-     Kirk examined the chair. Its legs were plain, the joints simple, and the seat had no visible wear. He looked beneath it for a brace or a hidden support. There was none. The chair was stable because its parts met cleanly, not because it had been reinforced.
-
-     “It has not been repaired,” he said.
-
-     “Not yet,” Bill replied.
-
-     Kirk looked at him. “It may not need to be.”
-
-     Bill checked the corners of the room. There was no kitchen, no water, no place to store provisions. He did not complain. The room had not been built to support a long stay. It had been made for something else.
-
-     The largest man stood near the wall. He was careful not to fill the room with his body. He had learned that a space did not have to expand around him to make room for him. Sometimes he could make room by choosing where to stand.
-
-     The Seventh Man listened. There was no road beyond the walls, no distant bell, no movement beneath the floor. The faint electrical hum continued. He could not tell whether it came from a machine or from the memory of one.
-
      Joseph walked to the wall and placed his palm against it. Nothing happened. He smiled.
 
      “That might be the first honest wall we've found.”
 
-     Tyler laughed once, quietly. The sound seemed too large for the room, then settled.
+     Kirk examined the corner where the wall met the floor. There was no visible joint, no repair, and no change in the material. It did not appear to have been built. It simply continued. He ran his hand along the surface and found no seam that could be opened or reinforced.
 
-     Luke opened his box. He took out the photograph and held it beside the empty wall. The photograph showed the forest. The wall showed nothing. For a moment the two images seemed to oppose one another: one crowded with history, the other completely without it.
+     “There is nothing to fix,” he said.
 
-     “The wall has no record,” Tyler said.
+     “Not yet,” the largest man replied.
 
-     “It has not been asked to keep one,” Joseph replied.
+     Tyler opened his notebook. He tried to record the dimensions, but the room resisted measurement. The walls seemed close enough to measure, yet every time he chose a point of reference the distance changed slightly. He wrote down the first reading, then the second, without deciding which one was correct.
 
-     Luke turned the photograph around. The back was blank. He stared at it.
+     “The room is not holding still,” he said.
+
+     “It is holding before,” Luke replied.
+
+     Tyler looked at him. “That doesn't help me.”
+
+     “I know.”
+
+     Bill checked the supplies. The room had no kitchen, no water, and no visible place to store anything. He set the pack beside the chair and took out a small portion of bread. He offered it to Joseph, then to the Teller. Neither was hungry, but both accepted a piece. Bill kept the rest. The room had not asked them to provide anything, but the act of sharing gave the men a familiar point of contact.
+
+     Luke opened his box. He took out the photograph and held it beside the empty wall. The photograph showed the forest. The wall showed nothing. For a moment the two images seemed to oppose one another: one crowded with history, the other completely without it. Then Luke turned the photograph around. The back was blank.
+
+     He stared at it.
 
      “I've been carrying the wrong side.”
 
-     He looked at the paper as if the answer might be printed there. The image had always seemed to be the important part: the trees, the men, the light, the distance between the figures. But the back had traveled with it. It had been touched, folded, carried, and kept. It had been present at every moment when the photograph mattered to him.
+     The Teller understood before anyone answered. A memory was never only the image. It was the direction from which someone approached the image, the hand that carried it, the place where it had been kept, and the man who had been present when it mattered. He took the photograph from Luke and held it without turning it over again.
 
-     The Teller understood before anyone answered.
+     Joseph watched the Teller. He could feel the other man's attention settle on the paper, but he did not assume that he knew what the Teller was thinking. The Teller's experience remained his own. Their connection gave them a way to notice one another, not a right to speak in one another's place.
 
-     A memory was never only the image. It was the direction from which someone approached the image, the hand that carried it, the place where it had been kept, and the man who had been present when it mattered. The Teller did not need to see the photograph to understand what Luke had found. He took it from him and held the blank side toward the wall.
+     “What do you remember?” Joseph asked.
 
-     On the paper, very slowly, a line appeared.
+     The Teller looked at the photograph. “The person who carried it.”
+
+     “And the person who was in it?”
+
+     “That too. But not in the same way.”
+
+     Tyler looked at the blank wall. “The archive showed us what had been carried forward. This room has nothing to show.”
+
+     “Maybe it is not showing,” Cael said. “Maybe it is waiting.”
+
+     The Seventh Man stood near the doorway. He had not spoken since they entered. He listened to the faint electrical sound behind the walls. It was not a machine running. It was the possibility of a machine before it had been given a task.
+
+     “There is a difference between nothing and not yet,” he said.
+
+     Kirk looked toward the chair. “The chair is already here.”
+
+     The largest man approached it, but did not sit. The seat was plain. Its legs were unmarked. There was no sign that a man had ever used it. Yet the chair seemed to occupy the center of the room with a precision that the walls did not share.
+
+     “It is the only thing that has been placed,” he said.
+
+     “Or the only thing we can recognize,” Tyler replied.
+
+     The Teller took the photograph from Luke. He held it beside the wall, with the blank side facing outward. The room remained still. He turned it slightly, as if checking how the light fell across the paper. A line appeared on the blank side.
 
      NOTHING IS REMEMBERED ALONE.
 
-     The words were faint. They did not look printed or written. They appeared as a difference in the paper's surface, as if the fibers had briefly remembered how to form letters.
+     The words were faint. They did not look written in ink. They seemed to emerge from the paper's surface, then settle into it. Tyler leaned closer but did not touch the photograph. He copied the sentence into his notebook.
 
-     Nobody spoke.
+     “Is that an instruction?” he asked.
 
-     Joseph looked at the sentence. “Is that an instruction?”
+     Joseph shook his head. “It is a statement.”
 
-     The Teller shook his head. “It is a condition.”
+     Cael looked at the chair. “It might be both.”
 
-     “Of what?”
-
-     “Of remembering.”
-
-     Cael stood near the doorway. He had not entered the room fully. His attention remained on the chair. He seemed to recognize the sentence, but he did not claim to have seen it before.
-
-     “It was true before the words appeared,” he said.
-
-     Luke looked at him. “Then why write it?”
-
-     “So that you could notice what was already happening.”
-
-     The words faded almost immediately. The photograph returned to its ordinary appearance. The back was blank again.
+     The words began to fade almost immediately. Nobody spoke. The sentence did not name the man who had written it or the room from which it had come. It did not tell them who had been sitting in the chair before they arrived. It gave them a relation to consider, not an answer to accept.
 
      Outside the room, somewhere impossibly far away, the organism gave a single pulse.
 
@@ -7896,15 +7890,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      It moved one inch toward them.
 
-     No one had touched it. No one had sat in it. The movement was small enough to be mistaken for a shift in the floor, but Tyler had measured the distance. He knew the chair had moved.
+     Luke looked at the chair, then at the photograph. The blank side was blank again. He put the image back into his box, but he did not close the lid.
 
-     The men looked at one another. They had reached the room before the House, the country, and the archive. They had not reached a place where nothing existed. They had reached the place where attention had not yet been returned.
+     “It heard us,” he said.
 
-     The chair remained empty.
+     The Teller looked at the chair. “Or it noticed that we were looking.”
 
-     The Teller looked at it. He did not sit.
-
-     The room waited.
+     The distinction remained open.
 
 ## Chapter XLII: The First Attention
 

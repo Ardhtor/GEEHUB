@@ -123,9 +123,20 @@ async function fixture(t) {
     sequenceId, sourceAssetId: source.id, ...range,
     frames: [0, 1].map(frame => ({
       frame, timeSeconds: frame / 24, identityConfidence: 0.99, poseConfidence: 0.98,
-      landmarks: Object.fromEntries(anchors.map((name, index) => [name, {
-        x: 0.35 + index * 0.001, y: 0.4 + index * 0.001, confidence: 0.99
-      }]))
+      landmarks: Object.fromEntries(anchors.map(name => {
+        const points = {
+          faceCenter: [0.50, 0.16], neck: [0.50, 0.28],
+          leftShoulder: [0.36, 0.32], rightShoulder: [0.64, 0.32],
+          leftElbow: [0.25, 0.48], rightElbow: [0.75, 0.48],
+          leftWrist: [0.20, 0.64], rightWrist: [0.80, 0.64],
+          leftHip: [0.43, 0.58], rightHip: [0.57, 0.58],
+          leftKnee: [0.43, 0.78], rightKnee: [0.57, 0.78],
+          leftAnkle: [0.44, 0.96], rightAnkle: [0.56, 0.96],
+          leftEye: [0.44, 0.10], rightEye: [0.56, 0.10],
+          nose: [0.50, 0.13], chin: [0.50, 0.19]
+        };
+        return [name, { x: points[name][0], y: points[name][1], confidence: 0.99 }];
+      }))
     }))
   };
   const segmentationText = JSON.stringify(segmentationDocument, null, 2) + "\n";
@@ -249,6 +260,14 @@ test("preparation CLI rechecks actual masks and writes a queued job bundle", asy
   assert.equal(job.frameEvidence.faceExclusionVerified, true);
   assert.equal(job.frameEvidence.maskPixelAudit.overlapPixels, 0);
   assert.equal(job.landmarkFrames.length, 2);
+  const plans = JSON.parse(await readFile(receipt.deformationPlansFile, "utf8"));
+  assert.equal(plans.schema, "geehub.render-plan-bundle");
+  assert.equal(plans.status, "ready-for-render");
+  assert.equal(plans.frameEvidence.deformationFrameSetId, "cli-deformation");
+  assert.equal(plans.planSequence.frameCount, 2);
+  assert.equal(plans.planSequence.renderable, true);
+  assert.equal(receipt.planFrameCount, 2);
+  assert.equal(receipt.temporalStatus, "stable");
 });
 
 test("preparation CLI refuses a registered mesh that differs from a fresh mask-pixel rebuild even when re-hashed", async t => {

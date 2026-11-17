@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "1d2ca97060c38fd70a4ee0dbb41ac5b1fc6f72dc",
+  "source_blob_sha": "0fa2df6866af70a8269f0df09c6b9fa10bec2d04",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 47,
+    "completed": 48,
     "in_progress": 1,
-    "queued": 24,
+    "queued": 23,
     "empty_source": 0,
-    "next_chapter_index": 47,
-    "active_chapter_id": "book-i-xlviii",
-    "last_completed_chapter_id": "book-i-xlvii"
+    "next_chapter_index": 48,
+    "active_chapter_id": "book-i-xlix-i",
+    "last_completed_chapter_id": "book-i-xlviii"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -783,7 +783,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "1d2ca97060c38fd70a4ee0dbb41ac5b1fc6f72dc",
+      "last_verified_blob_sha": "0fa2df6866af70a8269f0df09c6b9fa10bec2d04",
       "notes": "Expanded and verified at 1,201 words. The recorded-but-unentered room is treated as a decision to preserve a boundary, not a puzzle to solve. Tyler sits without opening the next room; the men leave the screen dark, the wall blank, and the chair unclaimed after him. Omission becomes a deliberate form of care. All figures are male.",
       "current_word_count": 1201
     },
@@ -797,11 +797,11 @@
       "baseline_word_count": 954,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the room of men as a place for those who were not carried into prior records, preserving the distinct voices and choices of the arrivals. Keep all cast members male.",
-      "current_word_count": 1259
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "0fa2df6866af70a8269f0df09c6b9fa10bec2d04",
+      "notes": "Expanded and verified against Chapters XLVII and XLIX-I. The Room of the Men is a gathering of distinct adult male lives, not copies or a governing council. Contradictory desires remain valid without being converted into a single plan; Kirk takes the chair reserved for whoever has not decided. The room works through ordinary speech rather than spectacle. All cast members are male.",
+      "current_word_count": 1436
     },
     {
       "chapter_id": "book-i-xlix-i",
@@ -813,10 +813,10 @@
       "baseline_word_count": 290,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical section. Develop the men choosing to stay as a lived community, preserving the distinction between invitation and trap, the ordinary exchange of food and conversation, and the empty chair no longer treated as a vacancy. Keep all cast members male.",
       "current_word_count": 297
     },
     {

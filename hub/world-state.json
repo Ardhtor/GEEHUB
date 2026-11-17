@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00213.json",
+  "activeRecording": "./recordings/scheduled-recording-00214.json",
   "activeEncounter": {
-    "regionId": "northgate-university",
-    "regionName": "NORTHGATE UNIVERSITY",
+    "regionId": "bluewater-quay",
+    "regionName": "BLUEWATER QUAY",
     "subject": {
-      "agent": "andrew",
-      "scale": 16.1,
+      "agent": "joseph",
+      "scale": 16.22,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / ATHLETIC COMMONS → NORTHGATE UNIVERSITY / ANDREW",
+    "intent": "LONG PLAY / NORTHGATE UNIVERSITY → BLUEWATER QUAY / JOSEPH",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 16.02× → 16.10×",
-      "ATHLETIC COMMONS → NORTHGATE UNIVERSITY",
-      "relation: STRENGTH WITHOUT CONFLICT",
+      "scale 16.10× → 16.22×",
+      "NORTHGATE UNIVERSITY → BLUEWATER QUAY",
+      "relation: NORTHGATE OPENS ITS QUAD",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "athletic-commons"
+    "previousRegionId": "northgate-university"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-17T00:25:59.555Z",
+  "snapshot": "2026-11-17T08:22:38.481Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 213,
-    "agent": "andrew",
-    "previousRegionId": "athletic-commons",
-    "regionId": "northgate-university",
-    "relation": "STRENGTH WITHOUT CONFLICT",
+    "cycle": 214,
+    "agent": "joseph",
+    "previousRegionId": "northgate-university",
+    "regionId": "bluewater-quay",
+    "relation": "NORTHGATE OPENS ITS QUAD",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 16.02,
-    "scale": 16.1,
-    "recording": "scheduled-recording-00213",
-    "at": "2026-11-17T00:25:59.555Z"
+    "previousScale": 16.1,
+    "scale": 16.22,
+    "recording": "scheduled-recording-00214",
+    "at": "2026-11-17T08:22:38.481Z"
   }
 }

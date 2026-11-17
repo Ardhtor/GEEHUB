@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-17T00:25:59.555Z",
+  "generated": "2026-11-17T08:22:38.481Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00214",
+      "at": "2026-11-17T08:22:38.481Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / NORTHGATE UNIVERSITY → BLUEWATER QUAY / JOSEPH",
+      "body": "The world crossed the existing relation \"NORTHGATE OPENS ITS QUAD\" from NORTHGATE UNIVERSITY into BLUEWATER QUAY. Scale increased from 16.10× to 16.22×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00214",
+      "live": true,
+      "regionId": "bluewater-quay",
+      "previousRegionId": "northgate-university",
+      "relation": "NORTHGATE OPENS ITS QUAD"
+    },
     {
       "id": "scheduled-long-play-00213",
       "at": "2026-11-17T00:25:59.555Z",
@@ -1482,21 +1497,6 @@
       "regionId": "bodylounger",
       "previousRegionId": "male-harem",
       "relation": "THE ARCHIVE OPENS A ROOM"
-    },
-    {
-      "id": "scheduled-long-play-00117",
-      "at": "2026-10-26T11:25:55.436Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / DEEP LORE → MALE HAREM / TYLER",
-      "body": "The world crossed the existing relation \"A RELATIONSHIP HAS GEOMETRY\" from DEEP LORE into MALE HAREM. Scale increased from 9.89× to 9.94×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00117",
-      "live": true,
-      "regionId": "male-harem",
-      "previousRegionId": "deep-lore",
-      "relation": "A RELATIONSHIP HAS GEOMETRY"
     }
   ]
 }

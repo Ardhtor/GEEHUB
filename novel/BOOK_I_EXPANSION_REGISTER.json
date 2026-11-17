@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "cac95f858ca70b90a172443082bb5a3fb1fa0874",
+  "source_blob_sha": "f04b3fdcfb4e6fb51b0f364f6a67365cf0285435",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 41,
+    "completed": 42,
     "in_progress": 1,
-    "queued": 30,
+    "queued": 29,
     "empty_source": 0,
-    "next_chapter_index": 41,
-    "active_chapter_id": "book-i-xlii",
-    "last_completed_chapter_id": "book-i-xli"
+    "next_chapter_index": 42,
+    "active_chapter_id": "book-i-xliii",
+    "last_completed_chapter_id": "book-i-xlii"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -687,9 +687,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "cac95f858ca70b90a172443082bb5a3fb1fa0874",
+      "last_verified_blob_sha": "f04b3fdcfb4e6fb51b0f364f6a67365cf0285435",
       "notes": "Expanded and verified at 1,026 words. The original room is encountered as a condition before the House, with distinct responses from Luke, Tyler, Kirk, Bill, Joseph, the Teller, the largest man, the Seventh Man, and Cael. The blank-backed photograph yields 'NOTHING IS REMEMBERED ALONE' without resolving the prior chair occupant. The chair's small movement leads into Chapter XLII. All cast members are male.",
-      "current_word_count": 1026
+      "current_word_count": 1025
     },
     {
       "chapter_id": "book-i-xlii",
@@ -701,11 +701,11 @@
       "baseline_word_count": 337,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the Teller's first act of attention in the chair, preserving the room's quiet, the distinct ways the men notice one another, and the House's expansion as a consequence of specificity rather than scale. Keep all cast members male.",
-      "current_word_count": 343
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "f04b3fdcfb4e6fb51b0f364f6a67365cf0285435",
+      "notes": "Expanded and verified against Chapters XLI and XLIII. The Teller's act of sitting becomes the first deliberate attention to the chair; the men remain distinct in what they notice. The vision shows the House, country, organism, and archive as one act at different depths. The Teller's answer to Tyler is simply 'You.' All cast members are male.",
+      "current_word_count": 734
     },
     {
       "chapter_id": "book-i-xliii",
@@ -717,10 +717,10 @@
       "baseline_word_count": 246,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the room of empty chairs and the shadow in the final seat; preserve the distinction between absent men and men who have not yet been noticed. Keep the voice's 'Don't remember me' unresolved and the cast all male.",
       "current_word_count": 254
     },
     {

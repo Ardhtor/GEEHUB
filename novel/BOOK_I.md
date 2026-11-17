@@ -3343,6 +3343,222 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “Exactly.”
 
+     The chief cartographer was called Orlan, and he had spent thirty years making maps that men could trust. He had surveyed floodplains, mountain passes, roads built over old roads, and cities whose walls had been moved by kings who wanted their borders to look older than they were. He did not believe that a map could contain a country. He believed that it could give a traveler enough reliable information to cross one. His standards were severe because he had seen men die after following a line that had been drawn for convenience rather than truth. He marked uncertain ground as uncertain. He recorded the position from which a measurement had been taken. He did not smooth a broken road into a continuous line merely because the finished page looked better.
+
+     The other cartographers respected him for that. His second, a younger surveyor named Pell, was quicker to accept that the house might require a new method. Pell believed that the map should show what a traveler could encounter, even if the encounter could not be reduced to fixed coordinates. A third man, the royal assessor, cared less about travel than jurisdiction. He wanted boundaries, entrances, usable rooms, and a count of the resources contained within the building. A fourth, the instrument maker, wanted to know why the measuring rods changed length when carried through certain doors. They had been sent under one commission, but they had not come for the same reason.
+
+     Orlan began with the outer wall. He fixed a brass point at the southern gate and ran a chain toward the western corner. The chain remained steady. The wall did not. Each time the surveyor returned to the brass point, the western corner stood a little farther away. Orlan checked the chain against a second measure. The second measure agreed with the first. He changed the position of the brass point and repeated the work. The result changed again. He wrote down the conditions and refused to average the measurements.
+
+     The royal assessor objected. “A boundary cannot have three lengths.”
+
+     “The wall can.”
+
+     “Then which length do we submit?”
+
+     “All three, with their dates and positions.”
+
+     “The king needs one answer.”
+
+     “Then the king needs a simpler wall.”
+
+     Pell concealed a smile. The assessor did not.
+
+     By the third day the outer survey had become a record of the surveyors as much as a record of the house. Each measurement altered the place from which the next measurement was made. Orlan began to suspect that the house was not responding to the chain itself. It was responding to the certainty with which the men expected the chain to settle the matter. He tested this by asking Pell to measure the same wall without announcing the result. Pell made the measurement quietly and wrote it down. The wall remained stable for several hours. When the assessor demanded the number, the far corner shifted.
+
+     “You see?” Orlan said.
+
+     “I see that the wall moved,” the assessor replied. “I do not see why.”
+
+     “Neither do I.”
+
+     Orlan kept the statement in the report. He would not invent a cause to make the observation look complete.
+
+     The house did not prevent them from working. It gave them a place to store their instruments, provided water, and left the outer paths open. A resident showed them a dry room where the vellum could be kept flat. Another offered a bench for the instrument maker. The cartographers accepted the practical help but refused to let the residents choose their measurements. They wanted the survey to remain independent. The residents did not object. They had no wish to control the map. They wanted the men to understand that the building was occupied.
+
+     Orlan met Tyler near the western stair. Tyler carried two plans, one showing the house as it had appeared before the first army entered and another showing the routes after the incursion. Orlan studied them and recognized that the two plans could not be combined without losing information.
+
+     “Which is current?” he asked.
+
+     “Both are records of a current state at different times.”
+
+     “I need the route a traveler can use now.”
+
+     “Then use the newer one. Keep the older one beside it.”
+
+     Orlan looked at him. “You are not a cartographer.”
+
+     “No.”
+
+     “Yet you understand the problem.”
+
+     “I understand what happens when somebody mistakes a correction for a replacement.”
+
+     Orlan considered the answer. He asked Tyler to show him the outer route to the lake. Tyler did. They walked it together, checking the turns, the bridge, and the low landing where boats could be secured. The route remained stable while they traveled. Orlan marked it as usable under the conditions observed that morning. He did not claim that it would remain fixed indefinitely.
+
+     “Your map will be difficult to use,” the royal assessor said when he saw the notation.
+
+     “It will be difficult to misuse,” Tyler replied.
+
+     Orlan did not laugh, but he approved the wording.
+
+     The instrument maker found the first serious anomaly in the Blue Hall. His rods were made from ash, brass, and tempered steel. He had calibrated each one before leaving the southern camp. In the first corridor, all three gave the same length. In the second, the brass rod appeared longer. In the third, the ash rod appeared shorter. When he returned to the first corridor, the measurements had changed again. He took the instruments apart and inspected their joints. Nothing had loosened. He replaced the brass scale with a new one. The discrepancy remained.
+
+     Pell suggested that they measure the time taken to cross each corridor instead of its length. The instrument maker agreed. They walked at a steady pace, counting steps and recording the duration. The corridor still changed, but the results became more useful. A passage that measured one hundred paces in the morning took six minutes to cross. In the afternoon it measured one hundred and forty paces but took the same time. A second passage became shorter on the map while taking longer to walk. The men began to understand that distance inside the house was not always a matter of physical length.
+
+     Orlan did not accept that as a general rule. He asked for more observations. The instrument maker gathered them. Pell marked the conditions. The assessor complained that the map was becoming a book. Orlan replied that a short map with false certainty would be more expensive than a long one that could be trusted.
+
+     The man in the window returned on the sixth day. He stood behind the blue opening and watched the surveyors work. Orlan approached him.
+
+     “Are you responsible for the changes?”
+
+     “No.”
+
+     “Can you stop them?”
+
+     “Sometimes.”
+
+     “Will you?”
+
+     The man looked at the measuring rods. “Would that help you?”
+
+     “It would allow us to finish the survey.”
+
+     “Would it make the house easier to understand?”
+
+     Orlan paused. “It would make the measurements consistent.”
+
+     “Those are not the same thing.”
+
+     Orlan disliked being answered with a distinction that could not be tested. He asked the man to stand at the far end of the hall while the surveyors measured the room. The man did so. The corridor lengthened. Orlan asked him to return. The corridor shortened. The surveyors repeated the test three times. The result was not identical on each attempt, but the presence of the man seemed to matter.
+
+     “What are you?” Orlan asked.
+
+     “A resident.”
+
+     “That tells me where you live.”
+
+     “It tells you where I belong.”
+
+     “I need your name.”
+
+     “For what purpose?”
+
+     Orlan looked down at his notes. He had no reason to record the man's name unless the man agreed to be identified in the survey. The map needed to show that a resident had been present, not to claim the man's identity as a measurement.
+
+     “To distinguish your observation from mine.”
+
+     “Then write that a resident was present.”
+
+     Orlan accepted the correction. It was the first time he had been asked to reduce a record rather than enlarge it.
+
+     The cartographers' maps began to change in ways they could not control. The first map showed the outer walls and roads. The second showed rooms that had not yet been visited. The third included a stair descending beneath the reservoir. The fourth showed the table in the central hall. The fifth showed the cartographers themselves, each one standing at the place where he had made a measurement. The sixth included the blank spaces where the map had failed. The seventh did not fit on the table. Its paper had acquired depth, and the lines appeared to continue beneath the surface.
+
+     Pell found that a small blue square on the seventh map corresponded to a door that was not visible in the room. He touched the square and felt warmth. Orlan ordered him to stop. The paper rose. A fingertip pressed from below. The Voice spoke from the page. The cartographers heard it in different ways. Orlan heard a warning. Pell heard an invitation. The instrument maker heard a change in pressure. The assessor heard a threat to the authority of the commission.
+
+     The royal assessor reached for the map.
+
+     “This belongs to the crown.”
+
+     The paper folded around his hand. It did not cut him. It held him long enough for the others to pull him back. When the assessor was free, the map lay flat again. The blue square had disappeared. In its place was a small line of writing: SOURCE RETAINED. ACCESS NOT GRANTED.
+
+     Orlan looked at the assessor. “We will not claim what we have not been given.”
+
+     “The king sent us.”
+
+     “The king sent us to measure.”
+
+     “He sent us to secure the house.”
+
+     “That was not in my commission.”
+
+     The assessor threatened to report him. Orlan said that he should. The surveyors had different duties, and Orlan would not alter his findings to make the report more useful to a king who had not entered the building.
+
+     That evening Pell brought Orlan a second set of maps. They showed the house from the perspective of the men who lived there. The kitchen was marked by use rather than by dimensions. The workshop was shown with its tools and repair benches. The lower reservoir was divided into accessible routes, restricted chambers, and areas where the water had changed. The map did not claim to represent the whole house. It showed how the residents moved through it and what they needed to reach.
+
+     Orlan studied the work. “This is not a survey.”
+
+     “No,” Pell said. “It is a map of use.”
+
+     “It leaves out the walls.”
+
+     “It shows the doors that matter to the men who live here.”
+
+     “A map must show the structure.”
+
+     “Then make both.”
+
+     Orlan looked at the two sets of pages. The first described the building as a measured object. The second described it as an inhabited place. Neither could replace the other. He asked Pell to preserve the separate methods and add a cross-reference between them. The royal assessor objected again, but Orlan told him that the map would be less useful if it concealed how it had been made.
+
+     The next morning the chief cartographer returned to the Blue Hall alone. He carried a single sheet of vellum and a small compass. He wanted to know whether the house would allow a map that made no claim to be complete. He placed the sheet on the floor and drew the doorway, the first corridor, and the visible end. He marked the direction of the light. He wrote the time and the names of the men who had helped him. He left the rest blank.
+
+     The man in the window watched.
+
+     “What are you drawing?” he asked.
+
+     “What I can establish.”
+
+     “And the rest?”
+
+     “The rest is not mine to invent.”
+
+     The man nodded. The corridor remained still. Orlan completed the drawing. It was small, plain, and accurate within its stated limits. When he stood, the hallway extended farther than it had when he began. He did not add the new distance to the drawing. He made a second sheet and marked it as a later observation.
+
+     “You have learned something,” the man said.
+
+     “I have changed my method.”
+
+     “That is often how learning begins.”
+
+     Orlan returned to camp with the two sheets. The royal assessor demanded a single master map. Orlan refused. He submitted the outer survey, the route map, the use map, the seven experimental versions, and the short drawing of the Blue Hall. Each carried its own date, source, and limitations. The assessor called the result incomplete. Orlan agreed.
+
+     The kings received the maps and were dissatisfied. They wanted a boundary that could be defended, a road that could be taxed, and a building that could be entered by the same route every time. Orlan had given them several routes, none of which guaranteed ownership. He had shown where the house could be approached, where its residents had agreed to receive visitors, and where access required permission. He had also shown that the building changed when the surveyors tried to make it submit to a single measurement.
+
+     The royal assessor advised the kings to seize the maps and order a new survey under military protection. Pell advised that the maps be used to negotiate access. Orlan said that the house could not be understood through a claim of possession. The kings listened to all three and chose the course that promised the greatest control.
+
+     They ordered the maps copied and distributed to the fleets gathering on the northern lake. The commanders were instructed to use the charts to identify towers, bridges, and landing points. The routes were marked in red. The outer gates were assigned numbers. The reservoirs were labeled as strategic water stores. The houses were described as structures that could be occupied. The map of use, which showed the rooms as lived spaces, was set aside as irrelevant.
+
+     Pell saw the copies before they were sent. He recognized that the maps had been changed. The original survey had preserved uncertainty; the royal copies had removed it. The route to the lake was shown as fixed. The restricted chambers were labeled as available. The residents' notes had been omitted. The blank spaces were filled with proposed boundaries.
+
+     He took the copies to Orlan.
+
+     “They have made the map say what they want.”
+
+     Orlan studied the pages. “They have made a new map.”
+
+     “Without a new survey.”
+
+     “Then it is not ours.”
+
+     “They will use it.”
+
+     “Yes.”
+
+     “We should stop them.”
+
+     Orlan looked at the original sheets. “We can correct the record. We cannot make the kings read it.”
+
+     Pell wanted to burn the copies. Orlan refused. The altered maps had to remain as evidence of what the kings intended to do. He marked each one with its source and the date it had been changed. The original maps remained beside them. The archive would show both versions, and the difference between them would be visible.
+
+     Before the cartographers left, Orlan returned to the house and gave Tyler the use map. He explained how the kings had altered the copies and said that the fleets would likely approach by the northern lake. Tyler accepted the warning. He did not ask Orlan to change sides or remain at the house. The cartographer had completed his work. His decision about what to do next belonged to him.
+
+     “Will you come back?” Tyler asked.
+
+     “If there is another survey.”
+
+     “There will be.”
+
+     Orlan looked toward the Blue Hall. “Then I will need better paper.”
+
+     Tyler smiled. “And a larger table.”
+
+     Orlan nodded. He left the house by the outer road, carrying the original measurements and the knowledge that a map could be accurate and still be used dishonestly. Behind him, the house remained open. Ahead, the northern lake held the ships.
+
+     The maps reached the fleets before the cartographers did. The commanders laid them across their tables and planned the approach. The western king chose the tower nearest the reservoir. The river king chose the lower crossing. The coastal commanders marked the outer shore and the road beyond it. Each believed that the map showed a place that could be reached, occupied, and held.
+
+     The lake was already changing.
+
+     The next battle would begin with the first arrow, but the first mistake had been made on paper.
+
 ## Chapter XV: The Lake Battle
 
      The battle at the lake happened in the third year of the northern occupation, though historians later disagreed about which year was meant because the lake belonged to more than one chronology by then. The southern kingdoms arrived with ships. The ships entered the northern water at dawn. There were forty-seven of them. By noon there were sixty. By sunset there were ninety. The captains blamed fog. The sailors blamed currents. The cartographers blamed the lake. The lake blamed nobody. The battle began when the first arrow crossed the water. It struck one of the blue-lit towers. The tower rang like a bell. Every screen in the city turned on. Every man in the houses looked toward the lake. The second arrow struck the water. The water rose around it. Then the third arrow struck. Then a hundred. Then a thousand. The city answered. Doors opened. Men came out. Some stood upon bridges. Some stood on balconies. Some emerged from screens. Some walked directly through walls. They did not charge. They simply occupied the geography the soldiers believed was empty. The western king ordered his ships forward. The lake became deeper. The river king ordered his ships sideways. The lake became wider. The coastal commanders tried to retreat. The shore moved away. At noon the armies found themselves fighting across a surface that had become several miles longer than it had been in the morning. The men did not appear to age. The soldiers did. One soldier raised his shield against a figure descending from a tower. The figure stopped. He was broad, heavily built, handsome, and calm.

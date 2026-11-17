@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "ce1f863dc419e9a5f6a801968f5e901ccb908527",
+  "source_blob_sha": "5b170332a601c67fb30339e76f69add9f5419f25",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 31,
+    "completed": 32,
     "in_progress": 1,
-    "queued": 40,
+    "queued": 39,
     "empty_source": 0,
-    "next_chapter_index": 31,
-    "active_chapter_id": "book-i-xxxii",
-    "last_completed_chapter_id": "book-i-xxxi"
+    "next_chapter_index": 32,
+    "active_chapter_id": "book-i-xxxiii",
+    "last_completed_chapter_id": "book-i-xxxii"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -527,9 +527,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "ce1f863dc419e9a5f6a801968f5e901ccb908527",
+      "last_verified_blob_sha": "5b170332a601c67fb30339e76f69add9f5419f25",
       "notes": "Expanded and verified at 1,156 words. The door is a passage into the remembered forest, not a simple destination. The House remains open behind the travelers; the forest's paths appear through the Teller's presence; the men record and test the terrain; the three-note bell confirms that a city has heard their arrival. Deliberately concise transition into Chapter XXXII. All figures are male.",
-      "current_word_count": 1156
+      "current_word_count": 1155
     },
     {
       "chapter_id": "book-i-xxxii",
@@ -541,11 +541,11 @@
       "baseline_word_count": 403,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Queued continuity check: current draft contains references to women and children. Recast these as adult male figures before marking the chapter complete.",
-      "current_word_count": 411
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "5b170332a601c67fb30339e76f69add9f5419f25",
+      "notes": "Expanded and verified against Chapters XXXI and XXXIII. Developed the three-day passage into the Country Without a Name, the Florentine/Victorian Digitorium, its living archive, and the stranger who recognizes the House. Replaced the former women and children in the archive with adult male figures. All cast members are male.",
+      "current_word_count": 1568
     },
     {
       "chapter_id": "book-i-xxxiii",
@@ -557,10 +557,10 @@
       "baseline_word_count": 252,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop Ansel and the men who arrived first; preserve the six occupied chairs, the empty seventh chair, and the distinction between growth in scale and growth through connection. Keep all cast members male.",
       "current_word_count": 260
     },
     {

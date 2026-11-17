@@ -4546,6 +4546,149 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      They walked. By noon they had crossed the first ridge. By evening they found a road made of white stone descending toward a valley filled with enormous trees. At the bottom stood another door. This one was red. It opened before they touched it. Beyond it was a city of men. The city had been waiting for them.
 
+     Luke took the lead whenever the path widened. He liked the feeling of moving into a place before anyone had decided what it was. Tyler followed with the map, checking the road against the ground and recording every point where the two failed to agree. Kirk stopped often, not to delay the others but to notice what the road had left at its edges: a broken marker, a patch of dark grass, a stone that had been moved from the center of the path to the verge. Joseph walked beside him. Bill carried the provisions and kept the group from using them too quickly. The Seventh Man moved ahead and behind without seeming to cross the distance between. The largest man stayed near the middle, where he could see the others.
+
+     The first ridge was easy. The second was not. The white road narrowed where it crossed a shelf of dark rock, and the valley below seemed to deepen as they approached it. Luke wanted to cross at once. Tyler asked him to wait while he checked the stone. Kirk had found a second path lower down, marked by three old posts. Bill looked at the sky and said they had enough daylight for one crossing, not two. Joseph asked whether the road would remain if they left it.
+
+     “We won't know unless we return,” Tyler said.
+
+     Luke looked at the narrow shelf. “Then let's cross and find out.”
+
+     The largest man went first. He tested each stone with his weight and waited until the others had seen where he placed his feet. Luke followed quickly. Tyler crossed with the map folded inside his coat. Kirk stopped halfway to look down into the valley. Joseph waited for him. Bill came last, carrying the food and a small tool roll. The crossing held. Nothing collapsed. The road did not move. They reached the far side with enough daylight left to make camp.
+
+     They chose a sheltered place beneath a stand of tall trees. The trunks were pale near the roots and dark above, as though the wood had absorbed the color of the sky. Their branches joined high overhead. The ground was dry, covered with needles and small pieces of bark. Bill found a place to set the provisions. Kirk collected fallen wood. Luke walked the edge of the clearing and returned with a report that the road continued east. Tyler marked the campsite on his map. Joseph sat beside the fire and listened to the forest.
+
+     The Seventh Man stood just beyond the light.
+
+     “You coming in?” Luke asked.
+
+     “I'm here.”
+
+     “That's not what I asked.”
+
+     The man looked toward the road. “I can see it from here.”
+
+     Luke shrugged and returned to the fire. He did not insist. The largest man watched the Seventh Man for a moment, then sat beside Bill. The men ate together. They spoke about the house, the lake, the cartographers, and the soldiers who had chosen to leave. Bill asked whether anyone regretted coming. Nobody answered immediately.
+
+     Tyler said that he wanted to know where the road went. Kirk wanted to see what lay beyond the valley. Luke wanted to find out whether the red door led somewhere worth entering. Joseph said that he wanted to see whether the city was waiting for them or whether they had simply arrived at a place where men already lived. Bill said that he wanted to make sure they had enough food for the return journey. The largest man listened.
+
+     “And you?” Luke asked him.
+
+     “I want to see what happens when we don't ask the House to decide for us.”
+
+     The answer stayed with them. They had left the house without rejecting it. They had not escaped. They had chosen to take a road that was not yet part of its familiar routes. The difference mattered because they could return without having to explain the departure as a failure.
+
+     In the morning the road had changed. It now passed between the trees instead of along the ridge. Tyler checked his map. The line he had drawn the previous evening remained, but the ground no longer matched it. He marked the new route beside the old one. Luke said that they should stop trying to make the map catch up. Tyler replied that the map was not supposed to catch up. It was supposed to show what they had seen and when they had seen it.
+
+     Kirk found a small brass marker beside the path. It was shaped like the one the old man had given Luke in the country between, though this one had a different notch. Luke took his own marker from his pocket and compared them. They were not identical. The new one had a narrow groove near its base, and its wood was lighter.
+
+     “Somebody has been here,” Kirk said.
+
+     “Or somebody will be,” Joseph replied.
+
+     Bill turned the marker over. There was no name on it. He placed it back where Kirk had found it.
+
+     The Seventh Man looked down the road. “The city is closer.”
+
+     Tyler checked the map. “It hasn't moved.”
+
+     “The distance has.”
+
+     Tyler looked at the horizon. He could not establish whether the city had moved toward them or whether the road had shortened. He recorded the observation without choosing between the explanations. The men continued.
+
+     The valley opened into a broad basin. The trees grew larger there, their trunks wide enough that several men could have stood around one without touching. The branches formed a high roof. White stone showed through the roots in long strips, as if the road had been laid beneath the forest and slowly uncovered by growth. A stream crossed the basin. Its water was clear and cold. Bill filled the containers while Luke checked the far bank. Kirk found a set of steps cut into the stone. Tyler marked them. Joseph stood at the water and watched the reflections.
+
+     The reflections did not show the men as they were. Luke appeared farther away. Tyler appeared to be carrying a different map. Kirk appeared beside a tree that stood behind him. Joseph saw the old house, its windows lit in the evening. Bill saw a table with seven cups. The largest man saw the valley as it might look after the trees had grown another century. The Seventh Man saw only the road.
+
+     “What do you see?” Joseph asked him.
+
+     “A way through.”
+
+     “Nothing else?”
+
+     “The rest is here.”
+
+     The stream moved beneath the bridge. The reflections changed. None of the men tried to hold them in place.
+
+     They crossed the steps and entered a clearing where the white road ended. A low stone wall stood at the far side. Beyond it was a field of dark grass and a line of enormous trees. The red door stood in the center of the wall. It had no hinges visible from their side. Its surface was smooth, with a small metal plate near the handle. No writing appeared on it.
+
+     Luke approached first. He put his hand against the wood. It was warm.
+
+     “This is it.”
+
+     Tyler checked the map. The door had not appeared on any of the earlier surveys. He wrote down its position and the time. Kirk examined the stone wall. It had been built with care, though no mortar was visible. Bill checked the provisions and said that they should eat before going through. Luke looked at him.
+
+     “You want lunch before the mystery?”
+
+     “I want lunch before we walk into a place where we don't know if food exists.”
+
+     Joseph smiled. “That's reasonable.”
+
+     They sat in the grass and ate. The door remained closed. The Seventh Man stood a little apart, watching the wall. The largest man sat beside him.
+
+     “Have you been here before?” the largest man asked.
+
+     “Not in this form.”
+
+     “Does that mean yes?”
+
+     “It means the question is larger than the answer.”
+
+     The largest man considered this. “You could just say no.”
+
+     The Seventh Man smiled faintly. “I could.”
+
+     “Then why don't you?”
+
+     “Because I remember the road.”
+
+     The largest man looked toward the red door. “And the city?”
+
+     “The city remembers the men.”
+
+     They returned to the door. Luke tried the handle. It turned, but the door did not open. Tyler examined the metal plate and found a small line engraved along its edge. The marks resembled the notches on the brass markers. Kirk placed the marker from the clearing beside it. The grooves aligned. The door clicked.
+
+     Bill stepped closer. “Wait.”
+
+     Luke looked at him.
+
+     “We don't know what is on the other side.”
+
+     “That's why we're here.”
+
+     “We know what is on this side. Let's not leave it without a way back.”
+
+     Tyler agreed. He tied a length of cord to the stone post and secured the other end to the marker. Kirk checked the knot. Joseph made a note of the route and the position of the door. The largest man stood beside Luke. The Seventh Man watched from the other side of the wall.
+
+     “Ready?” Luke asked.
+
+     Tyler folded the map. “As ready as we can be.”
+
+     Bill put the remaining food in his pack. Kirk took the marker. Joseph stood close to the largest man. The Seventh Man placed his hand against the door.
+
+     It opened before Luke touched the handle again.
+
+     Beyond it was a city of men. Its streets were broad and pale. Towers of dark glass rose above them. Blue light moved through the windows. The buildings were not arranged in a single plan. Some were old and low. Others were enormous. Bridges crossed between towers. Walkways ran through the air. The city seemed to have been built by men who had arrived at different times and had each added what they needed.
+
+     The men stood at the threshold. They could hear voices from the streets, the sound of tools in a workshop, and the low hum of machines. A man carrying a crate crossed a bridge. Another stood outside a building and spoke into a small device. A third looked toward the red door and raised one hand in greeting.
+
+     The largest man stepped forward.
+
+     “We have arrived.”
+
+     The Seventh Man looked toward the city.
+
+     “They have been waiting.”
+
+     Luke smiled. “Then let's see what they want.”
+
+     Tyler checked the cord. It remained attached to the marker on the other side. Kirk looked back at the valley. The road was still visible through the doorway. Bill counted the provisions once more. Joseph watched the man who had raised his hand.
+
+     They crossed together. The red door remained open behind them. The city had been waiting for them, but it had not been waiting in silence. It had work to do, and the men who lived there had continued doing it. The seven travelers entered without a banner and without a claim. They had brought only their names, their different habits, and the road by which they could return.
+
+     At the far end of the first street, a man in a grey coat began walking toward them.
+
+
 ## Chapter XX: The City of Men
 
      The city was waiting for them because it had known about them before they arrived, although none of its inhabitants could agree on when they had first heard the story. Some said the seven had appeared in an old photograph. Some said their names had been carved into the foundations. One old man claimed he had dreamed of them as a child, walking down the white road beneath trees that had not yet grown. Whatever the origin, the result was the same: when the seven entered the city, people came out to meet them. The city was enormous and strangely quiet. Its streets were broad enough for processions, but there were no armies. Its houses stood close together beneath towers of dark glass, and blue light passed through the windows as though the buildings were illuminated from within by a distant ocean. Men occupied every level. They leaned from balconies, crossed bridges, worked in workshops, sat at cafés, repaired machines, carried books, argued in doorways, and watched the newcomers with the reserved curiosity of people who had been expecting them for a long time. A man in a gray coat approached first.

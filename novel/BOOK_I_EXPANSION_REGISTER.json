@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
+  "source_blob_sha": "9611a101baaafbcc8acc40bfd7b0e0cdf739b95b",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 6,
+    "completed": 8,
     "in_progress": 1,
-    "queued": 65,
+    "queued": 63,
     "empty_source": 0,
-    "next_chapter_index": 6,
-    "active_chapter_id": "book-i-vii",
-    "last_completed_chapter_id": "book-i-vi"
+    "next_chapter_index": 8,
+    "active_chapter_id": "book-i-ix",
+    "last_completed_chapter_id": "book-i-viii"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -62,8 +62,8 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 3,
-      "last_verified_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
-      "notes": "Continuity-checked and closed. The sister's practical, consent-centred judgment remains distinct; her brother preserves uncertainty and chooses a return without promising to remain; the boat keeper's safety-first values are expressed through action. The House of Returns extends preservation into a right-of-return ethic.",
+      "last_verified_blob_sha": "9611a101baaafbcc8acc40bfd7b0e0cdf739b95b",
+      "notes": "Continuity-checked and closed at 4549 words. The sister's practical, consent-centred judgment remains distinct; her brother preserves uncertainty and chooses a return without promising to remain; the boat keeper's safety-first values are expressed through action. The House of Returns extends preservation into a right-of-return ethic.",
       "current_word_count": 4549
     },
     {
@@ -78,7 +78,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 2,
-      "last_verified_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
+      "last_verified_blob_sha": "9611a101baaafbcc8acc40bfd7b0e0cdf739b95b",
       "notes": "Expanded and verified at 4155 words. Preserved the competing explanations of Big Daddy's Voice and the six-day chair experiment while developing the archive's daily work, the investigators' distinct methods, the old visitor's agency, and the practical consequence of preserving contradictions. The Voice's origin remains unresolved.",
       "current_word_count": 4155
     },
@@ -94,7 +94,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 2,
-      "last_verified_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
+      "last_verified_blob_sha": "9611a101baaafbcc8acc40bfd7b0e0cdf739b95b",
       "notes": "Expanded and verified at 5681 words. Differentiated the men through their habits and choices across the devices; added practical route-testing, individual preferences, shared work, a power interruption, and the archive's transformation into a meeting environment.",
       "current_word_count": 5681
     },
@@ -110,7 +110,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
+      "last_verified_blob_sha": "9611a101baaafbcc8acc40bfd7b0e0cdf739b95b",
       "notes": "Expanded and verified at 4013 words. Developed the first house through shared meals, repairs, room use, winter isolation, walking routes, and the six men's habits of care. Architecture changes through lived use rather than spectacle; departure remains possible and the house becomes a place of return.",
       "current_word_count": 4013
     },
@@ -126,7 +126,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
+      "last_verified_blob_sha": "9611a101baaafbcc8acc40bfd7b0e0cdf739b95b",
       "notes": "Expanded and verified at 4108 words. Developed the Blue Hall as a traversable memory architecture, preserving the fifty-seventh, seventy-second, eightieth, ninety-first, and hundredth openings and their seven distinct relations. The men's different methods of exploration remain visible; the Voice's answer remains open rather than being resolved into a source.",
       "current_word_count": 4108
     },
@@ -136,14 +136,15 @@
       "title": "The Seventh Man — The Road Remembered",
       "source_heading": "Chapter VII: The Seventh Man — The Road Remembered",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 773,
+      "source_line": 1358,
       "baseline_word_count": 821,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
+      "status": "completed",
       "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter in the whole-manuscript sweep. Not yet revised. Expand the Seventh Man's appearances through continuity and the observers' differing memories without fixing an identity prematurely. Preserve the prior chapters' distinction between a person, an image, an archive, and the relationship that connects them."
+      "last_verified_blob_sha": "9611a101baaafbcc8acc40bfd7b0e0cdf739b95b",
+      "notes": "Expanded and verified at 4954 words. Developed the Seventh Man's recurring appearances through source review, spatial analysis, chronology, and the observers' separate experiences. Luke, Tyler, Kirk, and Joseph retain distinct methods of attention. The image's effects are distinguished from claims about the man's intentions; his identity and origin remain unresolved.",
+      "current_word_count": 4954
     },
     {
       "chapter_id": "book-i-viii",
@@ -151,14 +152,15 @@
       "title": "The Room Beyond the File",
       "source_heading": "Chapter VIII: The Room Beyond the File",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 796,
+      "source_line": 1604,
       "baseline_word_count": 919,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "completed",
       "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "last_verified_blob_sha": "9611a101baaafbcc8acc40bfd7b0e0cdf739b95b",
+      "notes": "Expanded and verified at 4793 words. Made the room beyond the file an inhabitable environment with an oak table, cedar beams, workshop, library, quiet room, unfinished route, meals, and repair work. The observer enters an ongoing life rather than a tribunal. The image of Luke, Tyler, Kirk, and Joseph remains bounded by its source; their choices and reciprocal recognition are shown without implying private mind-reading.",
+      "current_word_count": 4793
     },
     {
       "chapter_id": "book-i-ix",
@@ -170,10 +172,10 @@
       "baseline_word_count": 913,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "notes": "Next canonical chapter in the whole-manuscript sweep. Not yet revised. Develop the four men's journey through the country between, preserve the old woman's practical, enigmatic presence without over-explaining her, and let Luke, Tyler, Kirk, and Joseph make distinct decisions as they travel. Keep the country physically tangible and the unresolved destination open."
     },
     {
       "chapter_id": "book-i-x",

@@ -4691,183 +4691,329 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XX: The City of Men
 
-     The city was waiting for them because it had known about them before they arrived, although none of its inhabitants could agree on when they had first heard the story. Some said the seven had appeared in an old photograph. Some said their names had been carved into the foundations. One old man claimed he had dreamed of them as a child, walking down the white road beneath trees that had not yet grown. Whatever the origin, the result was the same: when the seven entered the city, men came out to meet them. The city was enormous and strangely quiet. Its streets were broad enough for processions, but there were no armies. Its houses stood close together beneath towers of dark glass, and blue light passed through the windows as though the buildings were illuminated from within by a distant ocean. Men occupied every level. They leaned from balconies, crossed bridges, worked in workshops, sat at cafés, repaired machines, carried books, argued in doorways, and watched the newcomers with the reserved curiosity of men who had been expecting them for a long time.
+     The city had been expecting the seven men, but expectation had not stopped its inhabitants from working. A carpenter continued fitting a door while other men gathered at the street. A porter lowered his crate before joining them. On an upper bridge, two mechanics finished tightening a rail before looking down. The welcome was not a procession. It was a pause in a working day, offered without ceremony.
 
-     A man in a gray coat approached first.
+     The city rose around a broad valley. Its older houses were pale stone, close-set and narrow, with deep timber frames visible beneath their plaster. Beyond them stood towers of dark glass. Blue light moved behind the windows, not brightly enough to conceal the rooms but steadily enough to make the buildings seem inhabited even at a distance. Bridges crossed between the upper floors. Walkways passed through courtyards and over gardens. The streets were wide, though most men walked rather than rode. There were no barracks, no banners, and no visible wall.
 
-     “You are late.”
+     A man in a gray coat approached. He was lean, middle-aged, and carried a small notebook with a broken spine. His manner was direct without being unfriendly.
 
-     The largest man stopped.
+     “You are late,” he said.
 
-     “Late for what?”
+     The largest man stopped. “Late for what?”
 
      “For the beginning.”
 
-     “We thought the beginning already happened.”
+     “We thought the beginning had already happened.”
 
-     The gray-coated man looked past him toward the white road.
+     “It has. That is why you are late.”
 
-     “That is what everyone thinks.”
+     Luke looked past him into the city. “Does everyone here speak in riddles?”
 
-     Behind them the red door remained open. One of the seven turned. The door had changed. It was no longer standing at the bottom of the valley. It now stood halfway up the road, then at the crest of the hill, then far behind them, each position visible simultaneously. The men watched it for several seconds.
+     “Only when a plain answer would be dishonest,” the man said. “My name is not important yet. You can call me the registrar.”
 
-     “Does it always do that?” one asked.
+     Tyler asked what he registered.
 
-     “No,” said the gray-coated man.
+     “Arrivals, departures, work offered, work accepted, rooms occupied, rooms left. Things that become difficult to remember when a city grows.”
+
+     “And the men?” Kirk asked.
+
+     “Only when they ask to be recorded.”
+
+     Joseph studied the notebook. “So the city can remember without keeping a claim on anyone.”
+
+     The registrar looked at him. “That is the intention. Whether we always succeed is another matter.”
+
+     Behind them, the red door remained open. Its position had begun to divide. One door stood at the valley floor, another halfway up the white road, and a third at the crest. All three were visible at once. The seven watched the impossible arrangement.
+
+     “Does it always do that?” Bill asked.
+
+     “No,” said the registrar.
 
      “When does it?”
 
-     “When someone important arrives.”
+     “When a passage is being used by more than one history.”
 
-     The largest man looked at him.
+     Tyler took out his map. “Are those three doors or one door recorded in three places?”
 
-     “Important?”
+     “We have not agreed.”
 
-     The gray-coated man smiled.
+     “Then I will record the observation, not the explanation.”
 
-     “No. Expansive.”
+     The registrar nodded. “That is usually the safer method.”
 
-     They entered the city. The first district was called the Archive, though the buildings contained more than books. There were rooms filled with photographs, machines, fragments of maps, recordings of voices, pieces of architecture, unfinished games, old operating systems, handwritten letters, and objects whose original purposes had been forgotten. Every object had a label. Every label had a history. Every history had a contradiction. The second district was the Market. The third was the Garden. The fourth was called the Muscle Quarter, though nobody could explain why. The fifth district had no name. The men were told not to enter it. Naturally, they entered it before sunset.
+     The largest man looked toward the open thresholds. “Can we return through them?”
 
-     The Archive had a public entrance and several working entrances. The public entrance opened into a hall lined with long oak shelves. The working entrances led to rooms where archivists repaired damaged records, transferred old recordings, and checked the provenance of objects that had arrived without labels. The seven were shown a photograph of the city before its towers had been built. The streets were narrower. The buildings were lower. A broad road ran from the old gate to a river that no longer appeared on the current maps.
+     “If you choose to.”
 
-     “Is this the same city?” one of the seven asked.
+     “All of us?”
 
-     The archivist nodded. “The same city at an earlier scale.”
+     “The door does not decide who belongs here.”
 
-     “What happened to the river?”
+     Luke seemed satisfied by that answer. Bill checked the cord still tied to the marker on the other side. It ran back through the nearest opening, though its length no longer matched the distance they had crossed. He tested the knot and left it in place.
 
-     “It moved.”
+     The registrar led them into the first district, the Archive. Its buildings held more than books. There were shelves of photographs, cabinets of tools, machines without power, fragments of maps, recordings, old operating systems, unfinished games, letters, models of buildings, and objects whose purposes had been lost. The rooms were arranged by the kind of question an object could answer rather than by the date it had arrived. A broken compass lay beside a set of architectural drawings. A reel of film rested near a machine that could no longer read it. Each item had a label, and each label recorded what was known, what was disputed, and who had supplied the information.
 
-     “Rivers don't move.”
+     Tyler stopped at a table where three maps showed the same district in different arrangements. He examined the dates and the marks along their edges.
 
-     “This one did.”
+     “These cannot all describe the same street.”
 
-     The archivist did not elaborate. He turned the photograph over and showed them the date, the source, and a correction written in a different hand. The seven recognized the practice. The house had taught them that an earlier record should not be destroyed merely because the place had changed. They asked to see the newer maps. The archivist brought them several, each preserving a different route through the city. None claimed to be complete.
+     “They do,” said the registrar. “At different times.”
 
-     The Market was louder. Men traded timber, tools, food, clothing, books, mechanical parts, and objects brought through the screens. A stall near the eastern arcade sold small devices that displayed fragments of remembered rooms. Another offered maps that changed as their owners walked. The seven passed a table where a broad man was repairing a broken compass. He looked up and recognized the largest man.
+     “Then the dates matter more than the drawings.”
 
-     “You took your time.”
+     “Sometimes. Sometimes the drawings show a change the dates cannot explain.”
 
-     “Apparently everyone has been waiting.”
+     Tyler opened his notebook. The registrar did not interrupt him. Luke had already moved on, drawn by a workshop where a man was repairing a brass mechanism with a file and a narrow pair of pliers. The repairer worked without looking up.
 
-     “Not everyone. Just the men who keep records.”
+     “What does it do?” Luke asked.
 
-     The repairer returned to his compass. He had no interest in ceremony. He asked whether the travelers had brought anything worth repairing. One of the seven showed him a damaged brass fitting from the old road. The repairer turned it in his hand, examined the worn threads, and named the tool required to fix it. The exchange was ordinary. The seven found that reassuring. The city was not made entirely of signs and revelations. Men still needed meals, tools, repairs, and somewhere to sit.
+     “At present, nothing.”
 
-     In the Garden, the trees grew through terraces of stone and dark glass. Their roots passed beneath the paths and appeared in the walls of the buildings. Some were ordinary trees. Others had broad metallic leaves that turned toward the blue light. A gardener was pruning a low branch when the seven arrived. He greeted them without looking surprised.
+     “What did it do?”
 
-     “Don't step over the white roots,” he said. “They are carrying water.”
+     “I don't know yet.”
 
-     One of the seven moved aside. “Where does the water come from?”
+     Luke watched him remove a small bent pin. “Then why keep it?”
 
-     “The lake.”
+     “Because it is not finished being understood.”
 
-     “The lake is miles away.”
+     Luke considered this, then offered to hold the lamp. The repairer accepted. He did not thank Luke until the pin came free and the mechanism turned once in his hand. Luke stayed until the repairer had found the next fault.
 
-     “The roots know the route.”
+     Kirk had gone into a room of architectural models. He found the city represented in timber, clay, wire, and clear resin. Some models showed streets that no longer existed. Others included bridges that had not yet been built. One small model contained a house with a narrow staircase and a fifth chair beside its kitchen table.
 
-     The gardener showed them a narrow channel beneath the path. Water moved through it in a steady stream. He explained that the trees had been planted in the first year after the city expanded. Their roots had found the old reservoir and connected it to the terraces. The men had tried to map the route, but the map changed whenever they followed it too far. They had stopped trying to own the whole system and learned instead to maintain the visible channels.
+     “Who made this?” Kirk asked.
 
-     The fourth district was called the Muscle Quarter because its first buildings had been constructed around a training hall. The hall remained at the center. Its doors were wide, its floors were reinforced, and the upper windows admitted the morning light. Men trained there in small groups. Some lifted weights. Others practiced balance, movement, and controlled exertion. A physician kept records of injuries and recovery. The seven watched for a while. The largest man was recognized by several residents, but nobody interrupted the training to greet him. He appreciated that. The hall had its own rhythm, and his arrival did not need to stop it.
+     A broad-shouldered archivist came over. “A man who lived here before the upper bridges were built.”
 
-     A trainer approached when the session ended. He was broad through the shoulders and spoke with little ceremony.
+     “Is the house still standing?”
 
-     “You look like you have been walking.”
+     “Not in this district.”
 
-     “We have.”
+     Kirk bent closer. “But the model is.”
 
-     “Then sit down before you fall down.”
+     “The model is what he left us. The house may have gone somewhere else.”
 
-     The seven sat. The trainer brought water and asked which road they had taken. When they described the white road, he asked whether the red door had remained behind them. They said it had appeared in several places at once.
+     Kirk looked at the joinery, the little windows, and the path leading from the door. He did not ask the archivist to explain where the house had gone. He had learned that a place could remain useful even when its location could not be settled.
 
-     “That means the route is still open,” he said.
+     Joseph found the listening room. Men sat at separate desks with headphones, comparing recordings and writing down what they heard. No single transcript was treated as definitive. One recording contained a voice that seemed to speak from several distances at once. Joseph listened twice.
 
-     “Open to where?”
+     “Do you know who it is?” he asked the attendant.
 
-     “Wherever it needs to go.”
+     “We have several names.”
 
-     He did not pretend to know more. He had trained men who arrived from different branches of the city, some with unfamiliar proportions and some with memories that did not agree. His task was to help each man understand his current limits without treating those limits as permanent. He did not promise transformation. He taught them to notice what their bodies could do, what required recovery, and what should not be forced.
+     “Which one do you use?”
 
-     The fifth district had no name. Its entrance stood between a closed workshop and a narrow stair. The men had been told not to enter it, which made the warning difficult to ignore. Inside they found a long hall with no furniture except a row of screens. Each screen displayed one of the seven men. Not as they were. As they might become. The first screen showed the smallest of them standing beneath an enormous tree. The second showed another crossing a frozen sea. The third showed one seated alone in a stadium filled with empty chairs. The fourth showed a man walking through a machine room while the machines bent toward him. The fifth showed the elder brother from the northern house, though he was not among the seven. The sixth showed the largest man standing beside a mountain. The seventh screen was black.
+     “The one supplied by the person who made the recording, unless he asks us to change it.”
 
-     One of the men approached it.
+     “And if the names disagree?”
 
-     “What does mine show?”
+     “We preserve the disagreement.”
 
-     The screen remained black. He touched it. The image appeared. It showed the same room. The same screen. The same seven men. They were standing inside the screen watching themselves. The man stepped back. The others looked at one another. Then the Voice spoke. Not from the speakers. From the city.
+     Joseph returned the headphones carefully. “That seems fair.”
+
+     “It is also inconvenient,” the attendant said.
+
+     “Fairness often is.”
+
+     The registrar took them through the Market next. It occupied a long covered street where men traded food, cloth, tools, books, components, and services. There was no single currency displayed above the stalls. Some men exchanged goods. Others kept accounts of work owed. A few gave things away and asked only that the recipient pass something useful to another man when he could.
+
+     Bill was the first to ask how the system worked.
+
+     “It depends on the agreement,” said a grocer. “A meal can be a meal. It does not have to become a debt.”
+
+     Bill inspected the bread, dried fruit, cheese, and jars of preserved vegetables. He asked about storage, clean water, and the distance to the nearest kitchen. The grocer answered each question without taking offence.
+
+     “You plan for the return,” the registrar observed.
+
+     “I plan for the possibility of needing one,” Bill replied. “A city that makes it difficult to leave is not offering hospitality.”
+
+     The grocer nodded. “Then take enough for the road. We will write down what you take only if you want an account.”
+
+     Bill paid with a small brass token from his pack. The grocer examined it, then returned it.
+
+     “That belongs to your road.”
+
+     “It is still a token.”
+
+     “Not here.”
+
+     Bill put it away and paid with a repair he had promised to make on the grocer's handcart. The arrangement pleased him more than a gift would have. He knew what he had given and what he had received.
+
+     The Garden lay beyond the Market, between the old houses and the glass towers. It was not a decorative park. Men grew vegetables beneath the trees, maintained beds of medicinal plants, raised fruit against warm stone walls, and kept narrow channels running through the soil. The largest man stopped beside a cedar whose lower branches had been trained away from a footpath.
+
+     “How old?” he asked.
+
+     The gardener looked up. “Older than this district. Younger than the roots beneath it.”
+
+     “Does it belong to the city?”
+
+     “The ground is held in common. The tree is cared for by whoever takes responsibility for it.”
+
+     “And if he leaves?”
+
+     “Someone else takes the work. The tree does not become the property of the last man who watered it.”
+
+     The largest man rested his hand against the trunk. He liked the answer. He had seen too many places confuse strength with possession. Here, the work mattered more than the claim.
+
+     The fourth district was called the Muscle Quarter. Its name sounded like a joke until they entered. The buildings were broad and solid, with high ceilings, timber beams, stone floors, and open courtyards. Men trained in several halls. Some lifted iron. Others wrestled, ran, climbed, or worked through slow exercises of balance and control. There were no spectators arranged around a central stage. Men trained in pairs, in groups, or alone. A noticeboard listed shared sessions, equipment repairs, and open hours.
+
+     Luke watched two men testing a heavy bar. One lifted while the other counted, then they changed places. Neither tried to turn the exercise into a contest.
+
+     “No one keeping score?” Luke asked.
+
+     A trainer with a shaved head looked over. “They know what they lifted.”
+
+     “That isn't the same.”
+
+     “No. It is more useful.”
+
+     Luke grinned and asked for a turn. The trainer checked his stance before allowing him to take the bar. He corrected Luke once, firmly, and then let him work. Luke preferred that to praise. When he finished, he returned the weights to their rack without being asked.
+
+     The largest man spent longer there. He moved through the hall slowly, noticing the construction: reinforced joints, replaceable floor sections, bars stored by weight, benches built to be repaired rather than discarded. A man named Harlan was replacing a split grip on a training handle.
+
+     “You built this place?” the largest man asked.
+
+     “Some of it. The rest was built by men who knew more than I did.”
+
+     “What keeps it standing?”
+
+     Harlan tightened the new grip. “Maintenance. And not pretending the beams are stronger than they are.”
+
+     The largest man looked up at the roof. “That applies to more than buildings.”
+
+     “It does,” Harlan said. “But buildings are easier to inspect.”
+
+     They shook hands. The largest man remembered the man's name.
+
+     By late afternoon the registrar had shown them four districts and several ordinary places between them: a public kitchen, a bathhouse, a tool library, a small clinic, and a hall where men could reserve a room for a meeting without asking permission from a permanent owner. The city was not perfect. Two men argued over a workshop schedule. A porter complained that the upper bridge took too long to repair. The registrar admitted that the Market's accounts were sometimes difficult to reconcile. None of these disagreements threatened the city's existence. They were part of its maintenance.
+
+     “Who governs?” Joseph asked as they crossed a bridge.
+
+     “The men who take responsibility for a particular matter,” the registrar replied. “Some decisions require a meeting. Some require a skilled man to do the work. We have made mistakes by confusing those two things.”
+
+     “And the largest decision?” the largest man asked.
+
+     “Whether the city should continue to make room.”
+
+     “Who decides that?”
+
+     “Everyone who lives with the consequences.”
+
+     The largest man looked down at the streets. He could see men carrying timber, unloading food, repairing a window, and walking home beneath the blue-lit towers. “Then you have not finished deciding.”
+
+     “No,” said the registrar. “We have not.”
+
+     The fifth district had no name. The registrar stopped at its entrance, a narrow passage between two buildings. Beyond it stood a long hall with no furniture except a row of screens.
+
+     “You are not required to enter,” he said.
+
+     Luke glanced at the others. “But we can.”
+
+     “Yes.”
+
+     “Then why warn us?”
+
+     “Because the hall does not show what a man asks to see. It shows what it has retained.”
+
+     Tyler wanted to know how the images were generated. Kirk asked whether the screens could be turned off. Bill asked whether the room was safe. Joseph looked at the registrar.
+
+     “And you?” he asked. “Do you go in?”
+
+     “I have. I do not go in often.”
+
+     The largest man entered first. The others followed.
+
+     Each screen displayed one of the seven men, not as he was but as he might become. Luke stood beneath an enormous tree, one hand against its trunk. Tyler crossed a frozen sea with a map sealed inside his coat. Kirk sat alone in a stadium filled with empty chairs, studying the structure rather than the empty seats. Joseph walked through a room of open doors, carrying no paper. Bill stood beside a long table covered with provisions, counting what remained after a journey. The sixth screen showed the largest man beside a mountain, his back turned toward the city. The seventh showed the elder brother from the northern house. He stood at a threshold with his younger brother beside him. Neither was among the seven travelers, but the screen held them as steadily as the others.
+
+     Luke looked at the seventh image. “Why him?”
+
+     The registrar stood near the entrance. “The hall does not arrange its records according to your party.”
+
+     “He belongs to another road,” Tyler said.
+
+     “He does,” the registrar replied. “That does not make his road unrelated.”
+
+     Joseph studied the two brothers. The elder was not holding the younger in place. He stood beside him, leaving enough room for the younger man to choose whether to cross. Joseph recognized the distinction. A return could be offered without becoming an obligation.
+
+     “Does the screen know what happens next?” Kirk asked.
+
+     “No,” said the registrar. “It knows what has been carried into this room. It may be showing a possibility, a memory, or an arrangement we do not yet understand.”
+
+     “Then it is not a prediction,” Tyler said.
+
+     “Not one we can verify.”
+
+     The sixth screen, showing the largest man beside the mountain, began to brighten. He stepped closer. The image changed. The mountain remained, but a doorway appeared in its lower slope. Behind the doorway was the same hall, with the same screens and the same seven men watching them.
+
+     “What does mine show?” one of the men asked.
+
+     His screen was black. He touched it. The image appeared: the seven travelers inside the hall, looking back at themselves from within the screen. The room seemed to have folded around its own observation.
+
+     Then the Voice spoke. It did not come from the screens or the walls. It came from the city itself.
 
      HERE IS ANOTHER ROOM.
 
-     The walls moved outward. The floor extended. A door appeared.
+     The hall widened. The floor extended beneath their feet. A door appeared in the far wall, and the screens went dark one by one.
 
-     Behind the door was another city. This city was larger. The gray-coated man had followed them. He stood at the threshold and looked into the new distance.
+     The registrar did not approach it.
 
-     “That is why we have been waiting.”
+     “Is this the room you expected?” the largest man asked.
 
-     The largest man turned.
-
-     “For us?”
-
-     “For the room.”
+     “No,” said the registrar. “We expected a room. We did not know it would arrive like this.”
 
      “What happens if we enter?”
 
-     The gray-coated man looked almost embarrassed.
+     The registrar looked almost embarrassed. “We don't know.”
 
-     “We don't know.”
+     The largest man smiled. “Then we can find out.”
 
-     The largest man smiled.
+     Before crossing, Bill checked the route back to the entrance. Tyler recorded the new door and its dimensions. Kirk examined the floor where it met the wall. Luke stood ready to go. Joseph waited until all six were beside him. The Seventh Man had remained quiet throughout the visit. Now he looked at the new threshold.
 
-     “Then that's an adventure.”
+     “You know this place?” the largest man asked.
 
-     They did not cross immediately. Tyler would have asked for a route record. Kirk would have checked the threshold. Bill would have wanted to know who maintained the new district. Joseph would have asked what the men inside expected of visitors. Luke would have walked through before the questions were finished. The seven did not share one temperament, and the city did not require them to. They stood at the door long enough to see that the new city had streets, roofs, lights, and men moving in the distance. It was not an empty promise. It was already inhabited.
+     “I know the feeling of a road opening.”
 
-     The gray-coated man explained that the first city had grown around the house after the lake battle. The second had formed from the routes that could not be held in the first. Some of its residents had arrived through the screens. Others had come by roads that appeared only once. A few had been born there. The city had no single foundation date. Its oldest district was younger than some of its residents, and its newest tower contained records older than the first house.
+     “That is not the same.”
 
-     “Who governs it?” Joseph asked.
+     “No,” the Seventh Man said. “It isn't.”
 
-     “The men who maintain it.”
+     They crossed together. The second city was larger, but it was not empty or newly made. Its streets continued beyond the visible horizon. Buildings stood in layers, some old enough to have weathered into the stone, others bright with new glass. The city behind them remained visible through the doorway. The registrar stayed at the threshold, watching without trying to stop them.
 
-     “All of them?”
+     Beneath the streets, something moved.
 
-     “Not all at once. The men responsible for a place make decisions about that place. When a decision crosses districts, the men affected meet.”
+     The Serum had traveled without a carrier. It passed through pipes, roots, walls, and screens, not as a liquid following a channel but as a relation finding new places to become visible. A staircase acquired another flight. A bridge extended across a river. A house gained a second floor, its new beams settling into place with a sound like a tree taking weight. In a room above a blue-lit workshop, a man woke beside his monitor and found that the walls had moved outward. He got up, checked the door, and laughed when he saw the extra space.
 
-     “And if they disagree?”
+     The seven travelers walked toward the center of the larger city. They did not know that the Serum had followed them. They had not asked it to. The largest man noticed the change first: a faint vibration beneath the paving stones, steady as a pulse.
 
-     “They keep the disagreement in the record and do what they can agree to do.”
+     “Do you feel that?” he asked.
 
-     The largest man nodded. It was not a new system. It was the house's way of living at a larger scale. The city had not solved the difficulty of shared life. It had built a way to continue despite it.
+     Tyler stopped and placed his hand against the nearest wall. “Something is moving through the structure.”
 
-     One of the seven asked why the fifth district had no name. The gray-coated man said that names made people assume they knew what a place was for. The district had been left unnamed so that its use could emerge. The screens did not predict the seven. They showed possible continuations, each tied to a route that might or might not be taken. A man could enter the district and leave without choosing any of them.
+     “The Voice?” Joseph asked.
 
-     “Then why show us?” the man asked.
+     “I don't know.”
 
-     “Because you came.”
+     Kirk looked at the windows. Their reflections had begun to lag behind them. Luke wanted to keep walking, but Bill asked them to stop until they understood whether the ground was stable. The largest man agreed.
 
-     “That is not a reason.”
+     A man came out of a narrow building carrying a glass vessel. He held it with both hands, as if he had been told not to let it touch the ground. Inside, the Serum turned slowly against itself. The man looked at the seven travelers, then at the vessel.
 
-     “It is the reason we have.”
+     “I was asked to bring this to the room,” he said.
 
-     The gray-coated man had no secret instruction to reveal. He was a keeper of the threshold, not its owner. He had been asked to receive the seven and show them the city. He had done so. What happened after that belonged to the men who entered.
+     “By whom?” Tyler asked.
 
-     The largest man looked through the doorway again. Beyond the second city, the horizon was visible beneath a pale sky. A road ran toward it. He could not see where it ended. The Serum had begun to move beneath the streets of the first city, and its motion could be felt through the soles of their feet. It did not pull them forward. It did not choose for them. It continued.
+     “The room.”
 
-     “We should leave a record,” Tyler said.
+     Luke looked at the largest man. “We keep getting invited places by buildings.”
 
-     The gray-coated man brought a small book. Tyler wrote the time, the location, the names of the seven, and the fact that the new city had been visible through the threshold. He added that its extent had not been measured. Kirk checked the doorframe and noted that it had widened since their arrival. Bill asked who would maintain the threshold. The gray-coated man said that he would, for as long as he remained responsible for it. Joseph asked whether visitors could return to the first city. The man said yes. Luke had already stepped across and was calling back from the other side.
+     “At least this one brought something,” Bill said.
 
-     “It's a road. Come and look.”
+     The man carried the vessel into the room beyond the passage. The seven followed. It stood in the center of a broad table. The glass was thick and clear. The Serum inside it held a faint light, moving almost imperceptibly against itself.
 
-     They crossed. The city behind them remained. The city ahead opened. The seven did not disappear from the first city when they entered the second. Their earlier positions remained visible in the screens, not as replacements or ghosts, but as records of where they had stood. The gray-coated man watched both cities at once. He understood that the door had not closed. It had become a connection.
+     The man set it down and stepped away.
 
-     For the first time since the seventh well, the Serum moved without being carried by anyone. It traveled beneath the streets. It entered the walls. It passed through screens and pipes and roots. Everywhere it went, the city made room. A staircase acquired another flight. A bridge extended across a river. A house gained a second floor. A man sleeping beside a blue monitor woke and found that his room had become twice as large. He looked around. He smiled. Outside, seven men were walking toward the horizon. The city followed them.
+     Nobody touched it.
 
-     The first city did not empty. Its markets continued. The gardeners returned to their terraces. The repairer finished the compass. The trainer closed the hall for the evening and entered the day's recovery notes. In the Archive, the seven travelers' record was placed beside the old photograph of the river. The archivist added a new page showing both cities and the open door between them. He did not draw a border around either one.
-
-     The gray-coated man remained at the threshold. He could see the seven in the distance, moving through the second city. He could also see their earlier images in the screens of the first. The two states did not compete. One did not make the other false. He wrote a short note in the threshold book: THE DOOR REMAINS OPEN. THE TRAVELERS HAVE CROSSED. THEIR RETURN IS POSSIBLE. THE NEXT CITY IS OCCUPIED.
-
-     He closed the book and left it on the shelf. The door stayed where it was. Beyond it, the road continued.
+     The room became quiet.
 
 ## Chapter XXI: The Serum
 

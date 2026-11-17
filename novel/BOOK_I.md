@@ -5398,109 +5398,31 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXIII: The Field of Attention
 
-     By the time the men understood what had happened, the city had begun arranging itself around attention. No architect had designed it that way. There was no decree, committee, or central machine responsible. It emerged through repetition. A man entered a room and someone looked up. Another noticed the look. A third noticed that the first had noticed. Soon the city contained places where looking had consequences.
+     By the time the men understood what had happened, the city had begun arranging itself around attention. No architect had designed it. There was no decree, committee, or central machine responsible. The pattern had emerged through repetition. A man entered a room and someone looked up. Another noticed the look. A third noticed that the first had noticed. Soon the city contained places where looking had consequences. A balcony became familiar because one man stood there whenever the Teller passed beneath it. A workshop became important because its owner had built something there and waited, without asking, to see whether another man would notice. A narrow road through the Garden acquired a reputation because Luke had once walked it with the Teller and said almost nothing. Memory gathered wherever attention had rested.
 
-     A balcony became familiar because a man stood there whenever the Teller passed beneath it. A workshop drew visitors because its maker had built something there and waited to see whether anyone would notice. A narrow road through the Garden acquired a reputation because Luke had once walked it with the Teller and said almost nothing. The road itself had not changed. Men had begun to use it differently.
+     The city did not agree on what this meant. Some men welcomed the change. They had spent years making things that passed unnoticed, and now a stranger might stop to ask how a bridge had been repaired or why a particular tree had been left standing. Others disliked the new habits. They felt watched when they wanted to work, or overlooked when a larger personality entered the room. A few began arranging their days around the possibility of being seen. The city had no rule against that. It had no rule that could make attention fair.
 
-     Joseph saw the pattern from the edge of the central square. He watched men carry their work into public view, then watched other men decide what that work meant. Some welcomed the attention. Others became careful whenever a stranger stopped to look. The city was learning that being noticed could be a form of welcome, but it could also become a demand.
+     Joseph understood the difference before the others. He stood at the edge of the central square one evening while men crossed between the Market and the Garden. A repairer was explaining a new hinge to a porter. The porter listened, then asked whether the same method could be used on the public kitchen doors. The repairer looked pleased, not because he had been praised but because the work had found another use. Nearby, a man who had spent the morning repairing a fountain watched the exchange without joining it. Joseph crossed the square and asked him about the fountain.
 
-     Tyler had become increasingly conspicuous. He had not asked to be placed at the center, but his growing scale made ordinary architecture seem temporary. A doorway that had fitted him the previous week now required adjustment. He measured himself against the old marks on the public wall and entered the new figures beside them. He did not call the change progress. He wanted to know what had changed, when, and under what conditions.
+     “It runs properly now,” the man said.
 
-     “You could let the city build around you,” the registrar said.
+     “I noticed.”
 
-     Tyler checked the distance between two marks. “It can build around the measurements. It cannot build a conclusion around me.”
+     “Most people notice the water.”
 
-     “You don't want a monument?”
+     “I noticed the stonework.”
 
-     “I want a door that works.”
+     The man looked at him more carefully. “That took longer.”
 
-     The registrar smiled and arranged for the doorway to be widened. Tyler watched the work, asked the carpenter to preserve the original frame, and had the new measurements recorded beside it. The old opening remained visible in the wall. It was not discarded simply because Tyler had outgrown it.
+     “I expect it did.”
 
-     Luke responded to attention in the opposite way. When men began waiting along the Garden path to see him pass, he stopped using it. He took a narrow route through the trees and returned by the stream, sometimes carrying a branch, a stone, or a small device he had found in the undergrowth. He liked being recognized by the men he knew. He disliked being expected by men who had decided what he represented.
+     The man showed him the repaired channel beneath the basin. He explained where the old joint had failed and how he had replaced it without dismantling the whole fountain. Joseph listened until the explanation was finished. He did not turn the exchange into a lesson for the men nearby. He thanked the repairer and moved on.
 
-     One afternoon a young mechanic asked him to demonstrate how he found the objects.
+     The Teller had been there before the city, before the forest paths, before the screens, and before the Serum had become a story men told about themselves. Joseph's bond with him belonged to a history that could not be reproduced by standing in the right place or attracting a crowd. It had been made through repeated recognition, through disagreements that had not erased familiarity, and through the ordinary act of returning to a conversation after time had passed. Joseph did not treat that history as a rank. He knew it was one particular relationship among many, not a measure by which the others should be judged.
 
-     “I look,” Luke said.
+     The men eventually gathered around him. Tyler arrived first. His increasing scale had made him conspicuous, though he had never asked the city to arrange itself around him. Ordinary architecture seemed temporary beside his presence. Men looked up when he crossed a square. Some wanted measurements. Others wanted to know what he could lift, reach, or change. Tyler had begun refusing questions that treated his body as public equipment.
 
-     “Where?”
-
-     “Where nobody has bothered to look yet.”
-
-     The mechanic waited for more. Luke handed him a small brass part with a worn edge.
-
-     “You can keep it if you can tell me what it does.”
-
-     The mechanic turned it over. “And if I can't?”
-
-     “Then you have something to work on.”
-
-     Luke left him at the bench. The mechanic did not call after him. He understood that the offer was not a test of loyalty. It was a way to begin.
-
-     Kirk became a builder because he could not pass a damaged structure without seeing how it might be repaired. He worked with the city's carpenters on a footbridge between the Garden and the upper workshops. He refused a decorative design that would have made the bridge difficult to maintain. Instead he chose replaceable boards, visible joints, and supports that could be inspected from below. The foreman thought the result plain. Kirk considered that a compliment.
-
-     “Will it last?” the foreman asked.
-
-     “Long enough to be maintained.”
-
-     “That's not the same as lasting.”
-
-     “Nothing lasts without somebody taking care of it.”
-
-     They built it anyway. When the first men crossed, Kirk stood beneath the span and listened for movement in the joints. He did not watch them celebrate. He watched the bridge carry their weight.
-
-     Bill's place in the city grew through ordinary generosity. He learned which kitchens had surplus food, which workshops needed tools returned, and which men were reluctant to ask for help. He never announced what he was doing. A loaf appeared on a workbench. A repaired strap was left beside a man's pack. A meal was paid for with an hour spent fixing a cart. When the grocer tried to enter every exchange in the public account, Bill objected.
-
-     “Keep the record of what the kitchen needs,” he said. “Don't turn every kindness into a debt.”
-
-     The grocer considered this, then left a column blank. Bill liked him better for not making a speech about it.
-
-     The largest man continued to visit the Muscle Quarter, but he no longer treated the training hall as the only place where strength could be measured. He spent time with the men who maintained the city's beams and lifting frames. He learned which structures needed reinforcement and which needed less weight placed upon them. His own changed body remained a fact, not an instruction for everyone else. When a younger man asked whether he should try to grow at the same rate, he asked what the man wanted to be able to do.
-
-     “I want to be stronger.”
-
-     “For what?”
-
-     The man looked toward the hall. “I haven't decided.”
-
-     “Then you have time to decide.”
-
-     The largest man did not offer his own body as a standard. He knew what the change had cost him in attention, even when it had not caused pain. He also knew that another man's limits belonged to that man.
-
-     The Seventh Man spent more time near the Serum. He did not ask it to change him. He watched how its light altered when men entered or left the room, and how the vessel reflected a person differently depending on who stood beside it. The archivist offered him a place in the observation record. He accepted, but added a condition: his account would remain beside the other men's, not above them.
-
-     “You think it is listening?” the archivist asked.
-
-     “I think it responds.”
-
-     “To what?”
-
-     “That is what I am trying to learn.”
-
-     He kept a notebook of small differences. The Serum brightened when Tyler measured the room. It settled when Bill closed the door. It showed two versions of the largest man at once. When Joseph and the Teller stood together, the reflection did not combine them. It showed each man clearly, with a narrow space between them that remained visible even when they touched.
-
-     Joseph understood that space better than anyone. His relationship with the Teller was not an achievement the others could reproduce through spectacle. He was the Teller's husband. The fact did not place him above the other men or give him authority over the city. It placed him inside a history that had continued through changes in rooms, roads, and bodies.
-
-     The Teller could cross the square and feel Joseph's attention before he saw him. Joseph could recognize the Teller's presence in a room without needing to turn. Neither treated that awareness as ownership. They could be together without becoming one person, and apart without becoming strangers. The city had begun to notice their familiarity, but it had not created it.
-
-     One evening a man beside the public fountain told Joseph that he had an advantage over the others.
-
-     “You changed them,” the man said. “You made them want to be remembered.”
-
-     Joseph shook his head. “No. They were already going to want that.”
-
-     “Then what did you do?”
-
-     “I stayed.”
-
-     The man looked toward the Teller, who was speaking with a group of workers near the bridge. “That is all?”
-
-     “It is not all. It is what I did.”
-
-     Joseph did not explain further. He had learned that a relationship could be made smaller by describing it as a method. The Teller had not become a prize for remaining beside him. Their life together had its own ordinary obligations: meals, disagreements, shared rooms, decisions about when to leave, and the quiet work of returning to one another after a long day.
-
-     Tyler arrived first when the others gathered around Joseph. He had been measuring the new doorway and still held his notebook.
-
-     “You've got an advantage,” he said.
+     “You've got an advantage,” Tyler said to Joseph.
 
      Joseph looked at him. “Of course.”
 
@@ -5508,33 +5430,135 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “I'd be lying if I didn't.”
 
-     Luke leaned against the wall. “What is it?”
+     Luke leaned against the low wall. “What is it?”
 
-     “Time.”
+     “Time,” Joseph said.
 
-     Nobody answered. Joseph looked across the square, where the men were still working beneath the blue-lit windows.
+     Nobody answered. He continued.
 
      “You think you're competing for a moment. You're not. You're competing with time. The things you make have to survive the moment when nobody is looking.”
 
-     Luke considered this. “That makes sense.”
+     Luke considered this. He liked immediate results, but he had begun to understand that a discovery was not useful merely because he had been first to find it. The objects he brought back from the woods were becoming part of the city's shared memory. He had started leaving notes with them, not long explanations, just where he had found them and what he had noticed. Other men could take the objects further without having to pretend they had made the first discovery.
 
-     Tyler looked at the notebook in his hand. “So what are we supposed to do?”
+     “That makes sense,” Luke said. “But you can't build everything for somebody who isn't there.”
 
-     “Become yourselves.”
+     “No,” Joseph replied. “You build it because it is worth building. Someone may arrive later.”
 
-     “That sounds less like advice than a refusal to give any.”
+     Kirk had been listening from the steps. He came down and stood beside Joseph.
 
-     “It can be both,” Joseph said.
+     “You keep talking about staying,” he said. “Sometimes you stay in the room and still avoid the person in it.”
 
-     Bill laughed. Kirk shook his head, but he was smiling. The largest man looked toward the training hall. The Seventh Man closed his notebook. Each had heard the answer differently, and Joseph did not try to make them agree.
+     Joseph looked at him. “You think that's what I've done?”
 
-     The next morning the city changed again. Not physically. Relationally. Men stopped asking how to get another man's attention and began asking what they would do with it once it arrived. One became funnier because he no longer needed every silence to prove his seriousness. Another became quieter because he had learned that he could be heard without filling every room. Bill gave more freely. Kirk built. Luke wandered farther into the woods and returned when he chose. Tyler grew, but kept the old measurements. The largest man learned to leave space around his strength. The Seventh Man continued to watch the Serum without claiming to understand it. Joseph remained with the Teller, not as a fixed point for the others but as a man whose life had already taught him what continuity required.
+     “I think you know how to wait. I don't always know whether you're waiting for the right moment or hoping the moment will make the choice for you.”
 
-     The Teller walked through the city and saw them differently now. Not as competitors. As trajectories. Each man had become a different answer to the same question: what happens when someone looks at you long enough for you to change?
+     Tyler looked away, giving them privacy without pretending not to hear. Luke stopped turning the brass marker in his hand. Joseph did not answer at once. Kirk had not raised his voice. He did not need to. His judgment was direct because he had already spent time deciding whether to speak.
 
-     The answer was not simply beauty, desire, or growth. It was identity, and identity could not be assigned by the person doing the looking. Attention opened a possibility. The man receiving it still had to decide what to make of it.
+     “I thought being present counted,” Joseph said.
 
-     The city could feel the strain gathering. Some men wanted to be seen more than they wanted to see. Others had begun to mistake recognition for permission. The field had made the city more alive, but it had also made every careless act travel farther. Joseph watched the Teller cross the square and understood that the next test would not be whether the men could attract attention. It would be whether they could bear its consequences without turning one another into possessions.
+     “It counts,” Kirk replied. “It isn't the whole thing.”
+
+     “What would you have me do?”
+
+     “Choose to be here. Not just remain available.”
+
+     Joseph accepted the correction without trying to turn it into a general principle. “Will you walk with me?”
+
+     Kirk studied him for a moment. “Yes. But I'm not agreeing that we've settled it.”
+
+     “I didn't ask you to.”
+
+     They left the square together. Their conversation continued beyond the others' hearing, and the city did not need to know its details to register the change. Joseph had not solved the problem by making a declaration. He had made a choice that could be answered, refused, or tested again.
+
+     The next morning the city changed. Not physically. Relationally. Men stopped asking only how to get another man's attention. They began asking what they did with it once it arrived. One became funnier because he liked making his friends laugh. One became quieter because he had learned that listening could be more exact than interruption. One became generous with tools. One became fiercely loyal to the men who had worked beside him. One became a builder. One became a storyteller. Another became fascinated by the Serum and began keeping a careful record of every account he heard. These were not roles assigned by the city. They were directions the men chose, and they could change them.
+
+     The Teller walked through the central square that afternoon. Men noticed him, but he did not gather them into a crowd. He stopped to speak with the fountain repairer, examined the new channel, and asked what had been difficult about the work. He listened to the answer. Then he crossed to the workshop and watched the repairer fit the hinge. The men nearby saw that his attention was particular. He did not look at everyone in the same way or pretend that every exchange meant the same thing.
+
+     A young adult man approached him near the Garden gate. He had been working for several days on a wooden instrument, and the city had scarcely noticed it.
+
+     “How do I become unforgettable?” he asked.
+
+     The Teller considered him. “What are you trying to make?”
+
+     “Something that will make people look.”
+
+     “That is not the same question.”
+
+     The man frowned. “I want my work to matter.”
+
+     “Then make something that matters when nobody is looking. Let another man use it. Find out whether it helps him. If it does, you will have made more than an image of yourself.”
+
+     The man looked toward the square. “And if nobody notices?”
+
+     “You will still know what you made. Then you can decide whether it needs to change.”
+
+     He did not seem satisfied, but he did not leave. The Teller asked to see the instrument. They walked to the man's workshop together.
+
+     Tyler watched them go. “He could have given him a simpler answer.”
+
+     “It would have been less useful,” Joseph said.
+
+     “You sound certain.”
+
+     “I'm not. I have seen what happens when a man is given the answer he wants instead of the one he can use.”
+
+     Luke joined them. “Sometimes the answer you want is the one that gets you moving.”
+
+     Kirk returned from the Garden path. “And sometimes it gets you moving in the wrong direction.”
+
+     Luke grinned. “Then you can tell me when I do that.”
+
+     “I already do.”
+
+     Their laughter carried across the square. It drew a few glances, but none of them tried to hold the attention. They returned to their work.
+
+     The difficulty began near the lake. A group of men had been using the open ground there for demonstrations of strength and construction. Tyler's scale had drawn a larger audience each day. The men who maintained the lake path complained that visitors were leaving tools and food containers behind. One builder argued that the open ground should be reserved for public work. Another said that the demonstrations had brought new men into the city and should not be stopped simply because they attracted a crowd.
+
+     The disagreement might have remained ordinary. Then a man accused Tyler of taking attention away from everyone else.
+
+     Tyler heard him. “I didn't ask them to watch.”
+
+     “You don't have to ask. They look wherever you go.”
+
+     “Then speak to them. Don't make me responsible for their eyes.”
+
+     The man flushed. “Easy to say when you are the thing they came to see.”
+
+     Luke stepped forward, but Kirk caught his arm.
+
+     “Let Tyler answer.”
+
+     Tyler looked at the man. “If you have a complaint about the ground, bring it to the men who maintain it. If you have a complaint about me, tell me what I've done. I won't apologise for occupying space.”
+
+     “You occupy more than space.”
+
+     “Then be exact.”
+
+     The man had no exact answer. He looked at the gathered crowd and seemed to feel their attention turn toward him. He had wanted to challenge Tyler, but now the challenge itself had become a performance. He walked away before anyone could ask him to explain.
+
+     The men at the lake did not agree on what should happen next. Some wanted a schedule for demonstrations. Others wanted the ground left open. Tyler offered to help move the equipment and measure the path, but he would not accept a rule that made his presence the property of the crowd. Luke wanted to settle the matter by building a separate training ground. Kirk said that would only move the argument. Joseph suggested a meeting with the men who actually maintained the lake.
+
+     The proposal was sensible. It did not end the disagreement. The men who had gathered to watch Tyler had begun watching one another instead. A few wanted the dispute to become a contest. Others were tired of being made into an audience. The lake, which had been a place of work and rest, was becoming a stage whether its caretakers agreed or not.
+
+     That evening the Teller crossed the square and saw the men separating into groups. He did not call them together. He spoke with the lake keeper, then with Tyler, then with the man who had made the accusation. He gave each one the same attention but not the same answer. The keeper wanted his ground protected. Tyler wanted to be treated as a man rather than an attraction. The accuser wanted his work to be noticed and had chosen a poor way to ask for it.
+
+     Joseph watched from the steps. Kirk stood beside him.
+
+     “Will you go down there tomorrow?” Kirk asked.
+
+     “Yes.”
+
+     “To keep the peace?”
+
+     “To hear what they actually want.”
+
+     Kirk nodded. “Then I'll come.”
+
+     The city had begun to understand that attention was not a resource that could be divided into equal portions. It was an act between particular men, and every act carried a history. To be seen could give a man courage. It could also expose him, distort him, or turn his work into a spectacle. No rule could prevent every mistake. The men would have to decide what they owed one another when the looking became difficult.
+
+     Across the lake, the largest man stood beneath the dark trees. He had not joined the argument. He watched the water and the distant buildings, aware that the city's attention had begun to gather around him as well. He could feel the pressure of it without accepting its demands. When the first voices rose behind him, he turned toward the shore.
+
+     The field had opened. The city could feel the conflict coming.
 
 ## Chapter XXIV: The House of the Seventh Light
 

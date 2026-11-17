@@ -9648,23 +9648,21 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      PLAY AGAIN.
 
-     The men had spent twenty years in hyperspace learning what the Hub did when nobody told it what to do. It generated rooms. It generated games. It generated weather, voices, bodies, maps, songs, arguments, meals, roads, and increasingly elaborate ways of bringing one event into contact with another.
+     It did not flash. It did not pulse. It simply appeared, as though the Hub had reached a point where the next instruction could be stated without urgency.
+
+     The men had spent twenty years in hyperspace learning what the Hub did when nobody told it what to do. It generated rooms. It generated games. It generated weather, voices, bodies, maps, songs, arguments, meals, roads, and increasingly elaborate ways of bringing one event into contact with another. It had learned to remember the men, but it had also learned to make things without waiting for them.
 
      The first twenty-year session had begun as an experiment.
 
      It had become a culture.
 
-     The men did not remember all of it.
-
-     They remembered the important parts: the first game, the first house, the first battle, the first time someone laughed after a world had collapsed, the first time a player returned carrying an artifact from a place that had supposedly never existed.
+     The men did not remember all of it. They remembered the important parts: the first game, the first house, the first battle, the first time someone laughed after a world had collapsed, the first time a player returned carrying an artifact from a place that had supposedly never existed. They remembered the worlds that had refused them and the rooms they had chosen not to open. They remembered that a game could become a place where another man lived.
 
      Luke stood before the largest screen.
 
      “Again?”
 
-     Tyler smiled.
-
-     “Again.”
+     Tyler smiled. “Again.”
 
      Kirk reached for the button.
 
@@ -9672,11 +9670,15 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “Don't press it.”
 
-     Kirk looked back.
-
-     “Why?”
+     Kirk looked back. “Why?”
 
      “Because we already know what happens when we press it.”
+
+     Luke looked at the command. “It says play again.”
+
+     “It doesn't say repeat.”
+
+     Joseph pointed toward the screen. The words remained steady. They were not an order. They were an invitation to continue, but the men had learned that continuing did not always mean returning to the same beginning.
 
      The screen changed.
 
@@ -9688,9 +9690,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      MAKE.
 
-     Joseph smiled.
+     Kirk looked at it. “That's different.”
 
-     “Press that.”
+     “Yes,” Joseph said.
+
+     “What happens if I press it?”
+
+     “We find out.”
 
      Kirk did.
 
@@ -9698,9 +9704,23 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      It continued.
 
-     New worlds unfolded inside old ones. The previous twenty years became the foundation of the next twenty. Characters returned altered by what they had learned. The game stopped being repetition.
+     New worlds unfolded inside old ones. The previous twenty years became the foundation of the next twenty. Characters returned altered by what they had learned. A man who had once left a world unchanged came back as its keeper. A builder returned to a city whose streets had been rearranged around the repairs he had made. A traveler found that the room he had left empty had become a place where another man could rest.
+
+     The game stopped being repetition.
 
      It became inheritance.
+
+     Luke watched the first house appear inside a new city. Its old door remained, but the rooms beyond it had changed. One opened onto the forest. Another opened onto a street beside the Digitorium. A third led to a room that had not yet been built. The house did not lose its history when the new doors appeared. It carried the earlier rooms inside the new ones.
+
+     Tyler opened the records. The old measurements were still there, but they no longer described a finished world. They described the beginning of a process. New lines appeared beneath them. Some contradicted the earlier figures. Others extended them. Tyler kept both versions.
+
+     Kirk examined the new structures. They were not copies of the old ones. Their joints had been designed to move. Their supports were connected to places that could change without tearing the buildings apart. He recognized the influence of the living city beneath the forest, but the new work had its own character.
+
+     Joseph watched the characters return. Some remembered the men who had first encountered them. Others remembered only the worlds they had inhabited. A few remembered events differently. None was required to reproduce the earlier story exactly.
+
+     “They've changed,” Tyler said.
+
+     Joseph nodded. “They were allowed to.”
 
      The men played.
 
@@ -9708,7 +9728,21 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The stories played.
 
+     They did not need to agree on a single game. One world became a forest of moving rooms. Another became a city whose bridges remembered the men who crossed them. A third developed its own weather and began changing the routes between its districts. The Hub did not force the worlds into one shape. It kept their connections available.
+
      Somewhere outside hyperspace, the first morning of the next age began.
+
+     The light appeared on a screen that had been blank for twenty years. No one had touched it. A cursor moved once, then stopped.
+
+     Luke looked at the others.
+
+     “Again?”
+
+     Joseph smiled.
+
+     “Make.”
+
+     The cursor began to move.
 
 ## Chapter LVII: The Sentence Walks
 

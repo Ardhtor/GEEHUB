@@ -4873,9 +4873,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The room had been quiet until they saw the Serum. It stood in the center of the table inside a glass vessel that none of them remembered placing there, thick and luminous, moving almost imperceptibly against itself as though the substance possessed a private gravity. The seven men gathered around it without speaking. Each saw something different in it. One saw a cure. One saw power. One saw an opportunity. One saw a terrible mistake waiting to happen. The largest man saw the reflection of all seven of them bending around the vessel, their bodies distorted by the glass, and understood before anyone said anything that they were already fighting over it.
 
-     “Nobody touches it,” he said.
+     “Nobody touches it,”
 
-     “You don't get to decide that,” said another.
+     he said.
+
+     “You don't get to decide that,”
+
+     said another.
 
      “Neither do you.”
 
@@ -4885,159 +4889,204 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      That answer changed the room. They looked back at the vessel. The substance had begun to rise. Not spill, not boil, not react to heat: rise, slowly climbing the inside of the glass as though the vessel itself had become too small.
 
-     “It's responding to us,” one of them whispered.
+     “It's responding to us,”
 
-     “No,” said the largest man. “We're responding to it.”
+     one of them whispered.
+
+     “No,”
+
+     said the largest man.
+
+     “We're responding to it.”
 
      The argument broke open. One man wanted to destroy the vessel. Another seized it and held it against his chest. Two others tried to pull it away. Someone knocked the table sideways. Glass struck the floor but did not break. The Serum remained suspended inside its container, perfectly intact, shining between them.
 
-     “Look at us,” one of the men said. “This is already changing us.”
+     “Look at us,”
+
+     one of the men said.
+
+     “This is already changing us.”
 
      “Then we stop it.”
 
      “How?”
 
-     Nobody answered. The seventh man had been silent until then. He stepped forward and placed his palm against the glass. The Serum moved toward him. Every man in the room saw it happen. It leaned toward his hand like a living thing recognizing someone.
+     Nobody answered. The Seventh Man had been silent until then. He stepped forward and placed his palm against the glass. The Serum moved toward him. Every man in the room saw it happen. It leaned toward his hand like a living thing recognizing someone.
 
-     “It chose him,” one said.
+     “It chose him,”
 
-     “No,” said another. “It chose all of us.”
+     one said.
 
-     Then the walls creaked. The ceiling lifted several inches. The table stretched beneath their hands. The room itself expanded around them, accommodating the conflict as though the building had understood what they were arguing about and decided there must be more space. The men stopped fighting. For a moment they simply stood there, seven silhouettes around the glowing vessel, each seeing in it a different future and none willing to surrender his claim upon what that future might become. Then the largest man reached for it.
+     “No,”
 
-     “If we keep fighting over who owns it,” he said, “we'll never find out what it actually does.”
+     said another.
 
-     The Serum brightened. Somewhere beyond the walls, another door opened.
+     “It chose all of us.”
 
-     The change began in the chest. It was not sudden enough to be called an explosion, but it was too deliberate to be mistaken for ordinary growth. The largest man felt his sternum press forward as his torso broadened around it, his chest widening from shoulder to shoulder until the shirt across him pulled tight. The others watched the fabric change first, seams drawing outward, then the body beneath it continuing past the dimensions the room had been built to accommodate. His chest became broader, deeper, wider, and the space around him answered by widening with it. The table moved back. The walls eased apart. The doorway grew taller. He breathed once, slowly, and the room seemed to breathe with him.
+     Then the walls creaked. The ceiling lifted several inches. The table stretched beneath their hands. The room itself expanded around them, accommodating the conflict as though it had been waiting for the men to become larger than the space they had been given.
 
-     “More?” someone asked.
+     The man who had seen a cure was Joseph. He had watched the reservoir preserve journeys and the house preserve routes. He wanted the Serum to repair what had been damaged without making the repaired thing a stranger to itself. He did not want a miracle. He wanted a way for a man to return to a life that had become difficult to reach.
 
-     The largest man looked down at himself, then toward the Serum. The Serum rose another fraction.
+     The man who had seen power was Luke. He had watched the largest man alter the dimensions of rooms merely by remaining inside them. He wanted to know what the Serum could do when a person chose to change rather than being changed by circumstance. He was not interested in waiting for permission from a substance. He wanted to act.
 
-     “Apparently.”
+     Tyler had seen the vessel as a problem of evidence. The Serum had no stable description, no agreed limit, and no known method of containment. He wanted to record its behavior before anyone tried to use it. Kirk saw a material that might be useful if the men learned how to handle it. He wanted to know whether it could be divided, stored, or applied in measured amounts. Bill saw the danger of ownership. He had watched the southern kings turn maps into claims and did not want the men to make the same mistake with the vessel. The largest man saw the reflection of all seven bodies and understood that the argument was already part of the event. The Seventh Man saw something none of them could yet describe.
 
-     His chest widened again.
+     “We should move it,” Kirk said.
 
-     The man who had wanted to destroy the vessel stepped away from the table. He was not afraid of the largest man. He was afraid of the ease with which the room had accepted the change. He had spent his life believing that a boundary was useful because it held. A wall kept weather out. A vessel kept liquid in. A body had a shape that could be measured and cared for. Now each boundary seemed to be an invitation to continue.
+     Tyler shook his head. “We don't know what movement does.”
 
-     “You don't know where this ends,” he said.
+     “It is already moving.”
 
-     The largest man looked at him. “Neither do you.”
+     “The liquid is moving. The vessel isn't.”
 
-     “That is why we should stop.”
+     Luke looked at the glass. “Then let's test it.”
 
-     “Stopping is also a choice. It doesn't make us safe.”
+     “No,” Tyler said.
 
-     The seventh man kept his hand against the glass. The Serum had not moved beyond the vessel. Its surface remained smooth. Yet the reflection inside it had become clearer. The men saw themselves at different ages, in different rooms, wearing different clothes. One saw a version of himself standing alone in a field. Another saw himself surrounded by men whose faces he did not recognize. The largest man saw the room as it had been before the vessel appeared. He could still remember the table, the walls, the first argument. The new image did not erase the old one.
+     “You don't know what will happen.”
 
-     “What do you see?” one asked the seventh man.
+     “Exactly.”
 
-     “The same room.”
+     Joseph stepped between them. “We don't have to decide what it is before we decide what not to do.”
 
-     “That's all?”
+     Bill nodded. “Nobody takes it away. Nobody claims it. Nobody pours it into another vessel.”
 
-     “No. I see what it can hold.”
+     Luke looked at him. “So we do nothing?”
 
-     The man who had seized the vessel earlier rubbed his hands together. He wanted to know whether the Serum could make a man stronger, larger, or more durable. He had heard stories from the southern roads and had assumed the substance would answer a direct demand. He asked whether the change could be controlled.
+     “We keep it here until we know enough to do something responsibly.”
 
-     The largest man did not answer for the Serum.
+     “And who decides when that's enough?”
 
-     “What would you ask it to do?”
+     Bill looked toward the largest man. “Not one man.”
 
-     “Make me stronger.”
+     The largest man placed both hands on the table. The wood had begun to stretch beneath his palms. He could feel the room accepting the pressure, not as a command but as a condition that had to be accommodated. The Serum continued rising inside the glass. The vessel remained upright even though the table had tilted.
 
-     “Stronger for what?”
+     “We are not going to settle this by grabbing it,” he said.
 
-     The man hesitated. He had no clear answer. He had wanted strength because strength had always been treated as proof that he was progressing. He had not decided what he wanted to do with it.
+     Luke looked at him. “You think we're afraid?”
 
-     “I don't know yet.”
+     “I think we're interested.”
 
-     “Then don't ask yet.”
-
-     The man disliked being told to wait, but he could not argue with the question. He stepped back from the table.
-
-     Another man asked whether the Serum could restore something that had been lost. A third wanted to know whether it could preserve a body from age. The fourth asked whether it could reproduce a memory without changing it. The questions came quickly, each man trying to find a use that would justify his interpretation. The vessel did not answer. It continued to reflect them.
-
-     The room expanded another few inches. The largest man's chest had become so broad that the old doorway no longer framed him. The new opening accommodated him without a sound. He looked at his hands. They were still his hands. He remembered their earlier size and could feel the continuity between the two states. He did not experience the new body as a replacement. The earlier body remained present in memory and sensation, not as an image of something lost but as the state from which he had continued.
-
-     “Does it hurt?” one of the men asked.
+     “Same thing?”
 
      “No.”
 
-     “Does it feel different?”
+     The largest man looked at the vessel. “Interest can make a man careless. Fear can make him careless too. We need to know what we're doing.”
 
-     “Yes.”
+     Tyler opened his notebook. He wrote down the time, the position of each man, the condition of the table, and the height of the Serum inside the glass. He asked the others not to move while he completed the first observation. Luke found this irritating but stayed where he was. Kirk checked the base of the vessel without touching it. Joseph watched the Seventh Man. Bill moved the broken table leg away from the edge so nobody would trip over it.
 
-     “Are you still yourself?”
+     The first record was short. The Serum had risen. The room had expanded. The vessel had remained intact. The men had argued. The Seventh Man had touched the glass. No one could establish whether the contact had caused the movement or whether the movement had already begun.
 
-     The largest man considered the question. “I haven't gone anywhere.”
+     Tyler read the record aloud. He asked each man whether the wording was accurate. Luke wanted to add that he had proposed a test. Kirk wanted the record to state that he had suggested moving the vessel, not opening it. Joseph asked that the difference between seeing a cure and claiming to have one remain clear. Bill asked for the sentence about ownership to be included. The largest man said that the record should not imply that the Seventh Man had caused the event. The Seventh Man listened and made no correction.
 
-     The seventh man removed his hand from the vessel. The Serum did not follow him. It remained suspended in the glass, and the blue light softened. The room stopped expanding. The men waited for another change. None came.
+     The room continued to widen. A second table appeared behind the first. Seven chairs stood around it. They were not identical. One had a high back. Another was low and broad. One had been repaired with a wedge of oak. The seventh chair was still unfinished. The men looked at them.
 
-     The man who had wanted to destroy the vessel approached the table again. He looked at the glass and then at the largest man.
+     “Is that for us?” Kirk asked.
 
-     “I still think we should secure it.”
+     “It may be,” Joseph said.
 
-     “Secure it from what?”
+     Luke walked toward the nearest chair. The floor lengthened beneath him. The chair moved farther away. He stopped.
 
-     “From us.”
+     “All right. I see it.”
 
-     The largest man nodded. “That is a better question.”
+     Tyler checked the distance. It had changed by several feet. He wrote the new measurement beside the earlier one. The room had not erased the first table. It had added another arrangement.
 
-     They moved the table away from the center of the room, not to hide the vessel but to give it space. The seventh man suggested that the chamber be recorded before anyone tried another experiment. The others agreed. They described the first appearance, the argument, the movement of the Serum, and the changes in the room. They recorded what each man had seen without forcing the accounts into a single version. The man who saw a cure kept that description. The man who saw power kept his. The man who saw a terrible mistake wrote down the reasons. None of them was required to adopt the largest man's interpretation.
+     The Serum reached the narrow neck of the vessel. Its surface flattened, then rose again in a slow curve. A pale line appeared within it. The line divided into seven threads, each moving at a different speed. The men leaned closer. Tyler asked them to stay back. The largest man raised a hand.
 
-     The archivist arrived with a ledger and a small measuring frame. He did not ask to touch the vessel. He recorded the dimensions of the room, the position of the table, and the distance between the vessel and the nearest wall. The measurements were entered with the time and the names of the men present. The largest man gave permission for his changed proportions to be recorded, but asked that the earlier measurements remain beside the new ones.
+     “Let it show us.”
 
-     “Why?” the archivist asked.
+     The threads separated and moved toward the sides of the glass. One followed the curve of the vessel. Another remained near the center. A third passed behind the others and disappeared. The seven men could see their reflections within the liquid, but the reflections did not match their current positions. Luke saw himself standing at the far end of the room. Tyler saw himself writing in a notebook that had not yet been made. Kirk saw a workshop. Joseph saw the old house. Bill saw the reservoir. The largest man saw the room as it had been before the vessel arrived. The Seventh Man saw the road.
 
-     “Because this is not the only shape I've had.”
+     “What do you see?” Joseph asked him.
 
-     The archivist wrote it down.
+     “The way it continues.”
 
-     The man who had asked for strength watched the record being made. “Will the archive tell us what the Serum is?”
+     “Can you explain it?”
 
-     “It will tell you what we have observed,” the archivist said.
+     “Not without making it smaller.”
 
-     “That's not enough.”
+     Luke laughed once. “That's getting old.”
 
-     “It is what we know.”
+     The Seventh Man looked at him. “Then ask a different question.”
 
-     The man looked at the vessel again. “Then we need to learn more.”
+     Luke considered that. “What can we do?”
 
-     The largest man rested one hand on the edge of the table. “Yes. But we don't need to pretend we already know.”
+     “You can stay.”
 
-     The Serum brightened once, briefly. The reflection showed the seven men around the table, then the same seven at a later time, then a room in which the table stood empty. The image did not linger long enough to become a prediction. It returned to the present.
+     “And?”
 
-     The seventh man spoke.
+     “You can leave.”
 
-     “It continues.”
+     “That's it?”
 
-     The others looked at him.
+     “For now.”
 
-     “What does that mean?” asked the man who wanted strength.
+     Bill moved the chairs closer to the second table. He did not ask anyone to sit. He wanted the men to have somewhere to stand or rest without crowding the vessel. Kirk helped him. Tyler marked the new arrangement. Joseph remained beside the first table. Luke walked to the far wall and watched the room expand. The largest man stayed where he was.
 
-     “It doesn't stop at the first result.”
+     The argument returned, but it changed. Luke no longer wanted to seize the vessel. He wanted to know whether he could choose a change for himself. Tyler wanted to know whether the Serum could be observed without being disturbed. Kirk wanted to understand how the substance interacted with the material around it. Joseph wanted to know whether a man could be repaired without losing the life that made him particular. Bill wanted to prevent the vessel from becoming property. The largest man wanted the men to remain able to disagree. The Seventh Man wanted them to recognize that the Serum was already part of the room, not an object standing outside their lives.
 
-     “Then it will keep changing us?”
+     “It isn't a king,” Bill said.
 
-     “It may. It may also keep the earlier state.”
+     Luke looked over. “Nobody said it was.”
 
-     The largest man looked at the vessel. “More is not the same as replacement.”
+     “We are acting as if it gets to decide everything.”
 
-     Nobody answered. They had all seen enough to understand the distinction, though none could yet say what it would require of them.
+     “Then what decides?”
 
-     The archivist closed the ledger. The men agreed that the vessel would remain in the chamber. No one would claim it as private property. No one would use it alone. Any further observation would be recorded, and any experiment would require the agreement of the men who would be affected. The agreement was provisional. They would revise it when they knew more.
+     “The men who have to live with the result.”
 
-     Outside the room, the new door remained open. The city beyond it continued to expand in small, ordinary ways. A bridge was being repaired. A workshop had added another bench. A group of men were carrying timber toward the upper hall. The Serum's light passed through the walls, but it did not command the city. The men were still responsible for what they built.
+     Tyler nodded. “And the record of what we did.”
 
-     The largest man stood beside the vessel after the others had left. He looked at the glass. His reflection was broader than the figure he remembered entering the room, but both belonged to him. He placed his palm against the table, not the vessel.
+     Kirk looked at the vessel. “And what it does.”
 
-     “We will learn,” he said.
+     Joseph said, “And what it means to the man who changes.”
 
-     The Serum moved within the glass. It did not rise again.
+     The largest man looked at the seven reflections. “All of that.”
 
-     The first change had been made. The next would require more than curiosity.
+     The Seventh Man removed his hand from the glass. The Serum did not fall. It remained suspended inside the vessel, divided into seven luminous threads. The room stopped expanding for a moment. The men waited. The walls held. The table remained tilted but did not collapse.
+
+     Tyler wrote a second entry. He recorded the seven threads and the cessation of the room's expansion. He did not write that the Serum had responded to the men's agreement. He wrote that the change had occurred after the discussion, and that the sequence did not establish a cause. The record would allow a later observer to compare the events without being told what to believe.
+
+     The largest man finally sat. His chair creaked once and held. The other men took places around the second table. The Seventh Man remained standing. The vessel was visible between them.
+
+     “What happens now?” Luke asked.
+
+     “We learn,” Tyler said.
+
+     “We work,” Kirk added.
+
+     “We remember,” Joseph said.
+
+     Bill looked at the glass. “We don't own it.”
+
+     The largest man looked at each of them. “We remain responsible.”
+
+     The Seventh Man spoke last.
+
+     “And it continues.”
+
+     The Serum brightened. One of the threads moved toward the largest man. It did not touch him. It stopped just short of the glass and held there. The largest man looked down at his reflection. He could see the shape of his chest, the width of his shoulders, and the space between his body and the table. The reflection seemed to be asking a question about scale. He did not answer it.
+
+     The vessel remained in the center of the room. The men remained around it. The walls held the new dimensions. Somewhere beyond the chamber, the city continued its ordinary work. A bridge was being repaired. A meal was being prepared. A map was being corrected. The Serum did not stop the world so that it could become the only thing that mattered.
+
+     Later, when the men returned to the room, they found that the seven threads had settled into a single clear surface. The vessel looked almost empty. Tyler compared the new observation with the earlier record. The amount of liquid appeared unchanged, though its brightness had diminished. Kirk inspected the glass. Bill checked the table. Joseph stood beside the largest man. Luke asked whether they could begin a controlled test.
+
+     The largest man considered the proposal. “Not today.”
+
+     Luke looked disappointed.
+
+     “Tomorrow?” he asked.
+
+     “If we know what we are testing.”
+
+     Tyler agreed. Kirk began listing possible measurements. Joseph asked whether the test would involve a person or an object. Bill insisted that no man be used without his explicit agreement. The Seventh Man watched the vessel. The discussion became practical. They did not reach a final plan, but they had stopped treating the Serum as a prize that one man could claim.
+
+     The largest man looked at the glass one last time before leaving. The reflection showed him as he had been when he first entered the room, then as he was now. Both images remained. The Serum had not made one false and the other true. It had made the distance between them visible.
+
+     “Let it be both,” he said.
+
+     The room held.
+
 
 ## Chapter XXII: The Liminal Chest
 

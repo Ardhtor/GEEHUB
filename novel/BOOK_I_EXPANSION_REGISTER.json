@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "e7588c0a4bedec4699bd738ae88c43b65a9f44b5",
+  "source_blob_sha": "1d2ca97060c38fd70a4ee0dbb41ac5b1fc6f72dc",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 46,
+    "completed": 47,
     "in_progress": 1,
-    "queued": 25,
+    "queued": 24,
     "empty_source": 0,
-    "next_chapter_index": 46,
-    "active_chapter_id": "book-i-xlvii",
-    "last_completed_chapter_id": "book-i-xlvi"
+    "next_chapter_index": 47,
+    "active_chapter_id": "book-i-xlviii",
+    "last_completed_chapter_id": "book-i-xlvii"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -767,9 +767,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "e7588c0a4bedec4699bd738ae88c43b65a9f44b5",
+      "last_verified_blob_sha": "1d2ca97060c38fd70a4ee0dbb41ac5b1fc6f72dc",
       "notes": "Expanded and verified at 843 words. The blue windows form a network, but Joseph refuses to complete it merely because it can be completed. The black window asks who the men were before being remembered; the unknown man remains beyond it. The eighth note is answered by silence, and the Teller chooses restraint rather than entry. All figures are male.",
-      "current_word_count": 843
+      "current_word_count": 842
     },
     {
       "chapter_id": "book-i-xlvii",
@@ -781,11 +781,11 @@
       "baseline_word_count": 709,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the room beneath the Digitorium and the recorded-but-unentered room; preserve the blank wall, the dark screen, Tyler's choice to sit without opening the next room, and the principle of omission. Keep all cast members male.",
-      "current_word_count": 718
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "1d2ca97060c38fd70a4ee0dbb41ac5b1fc6f72dc",
+      "notes": "Expanded and verified against Chapters XLVI and XLVIII. The room beneath the Digitorium contains a recorded but unentered room; the screen distinguishes documentation from presence. Tyler chooses to sit without opening it, and the men preserve the blank wall and dark screen. Omission becomes an active form of care. All cast members are male.",
+      "current_word_count": 1201
     },
     {
       "chapter_id": "book-i-xlviii",
@@ -797,10 +797,10 @@
       "baseline_word_count": 954,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the Room of the Men as a gathering of distinct male lives and unresolved desires, not copies or a council. Preserve the empty chair for the undecided man, and show the room working through ordinary conversation rather than spectacle. Keep all cast members adult and male.",
       "current_word_count": 1259
     },
     {

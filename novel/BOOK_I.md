@@ -7558,15 +7558,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXXIX: The Seventh Man
 
-     The seventh chair had been empty for so long that everyone had stopped seeing the absence. Now it was occupied. The man sitting there looked ordinary. That was the first unsettling thing about him. His clothes were plain. His hands were scarred. His face carried no supernatural sign, no evidence that he had crossed farther than anyone else. He looked tired.
+     The seventh chair had been empty for so long that everyone had stopped seeing the absence. Now it was occupied.
 
-     Ansel stood beside him.
+     The man sitting there looked ordinary. That was the first unsettling thing about him. His clothes were plain. His hands were scarred. His face carried no supernatural sign, no evidence that he had crossed farther than anyone else. He looked tired. Ansel stood beside him.
 
-     “Cael,” he said.
+     “Cael,” Ansel said.
 
-     The name settled into the chamber without ceremony. The man looked toward the travelers. Luke recognized the posture before he recognized the face. The Seventh Man had stood in doorways, beside roads, and at the edges of rooms for so long that the others had learned to notice his presence without asking where he had been. Now he sat in the chair that had remained open.
-
-     Cael stood.
+     The man rose. He did not offer a formal greeting. He looked at the chamber, the six men who had arrived before the travelers, and the empty center around which the chairs had been arranged. Then he looked at the men who had come through the House.
 
      “I went looking for the edge.”
 
@@ -7586,69 +7584,125 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “And?” Joseph asked.
 
-     Cael looked toward the forest beyond the windows. “There was another relationship.”
+     Cael looked toward the forest. “There was another relationship.”
 
-     He did not describe it as a new country or a larger city. He described a room with no name, a table made from old timber, and a man repairing a chair for another man he had not yet met. The repairer had kept the original joint visible. The chair's owner had asked him not to make the repair invisible. Neither man knew why the other had made that request, but the chair held the history of both decisions.
+     He said it without ceremony. No revelation. No grand theory. Just a fact. The country had no final boundary. Neither did the House. Neither did the archive. Every apparent edge was simply the place where something had not yet been connected.
 
-     Cael had crossed the room expecting to find an edge. Instead he found a relation that continued beyond the place where his map had stopped. The room did not open onto an endless landscape. It opened onto another man's work, another man's choice, and the possibility that their histories would become related without becoming the same.
+     Luke studied Cael's hands. The scars were small and practical, the kind left by work rather than battle. One ran across the base of his thumb. Another marked the side of his index finger. He had not returned with a trophy or a new instrument. He had returned with the same clothes he had worn when he left, repaired at the elbows and darkened at the cuffs.
 
-     “I thought I had reached the end,” Cael said. “The door was only where my account stopped.”
+     “What was the door like?” Luke asked.
 
-     Tyler looked at his notebook. “Did you record the room?”
+     “Ordinary.”
 
-     “I tried.”
+     “Where was it?”
 
-     “What happened?”
+     “At the end of a road.”
 
-     “The record showed the table and the chair. It did not show why the men had chosen to keep the repair visible.”
+     Tyler opened his notebook. “Which road?”
 
-     Kirk considered that. “Then you needed to speak to them.”
+     “The one I had made by walking.”
 
-     “Yes.”
+     “That doesn't give me a location.”
 
-     “Did you?”
+     “I know.”
 
-     Cael nodded. “The owner said he wanted to recognize the repair. The repairer said he wanted the chair to remain usable. Neither answer was enough by itself.”
+     Tyler looked up. Cael's answer was not dismissive. He simply had no interest in pretending that a location could explain the encounter.
 
-     Bill smiled faintly. “So they needed each other.”
+     Kirk asked, “What did you have to repair?”
 
-     “They already did,” Cael replied. “They had not noticed it.”
+     Cael looked at him. “The door had a loose hinge.”
 
-     The largest man looked at the empty center of the chamber. “And you came back.”
+     “You repaired it?”
 
-     Cael nodded. “I went farther than I understood. I came back when I realized that going farther wasn't the same as going deeper.”
+     “I tried. The hinge was sound. The frame was not.”
 
-     Joseph looked at him. “Why tell us now?”
+     Kirk nodded. He understood the distinction. “What was wrong with the frame?”
 
-     Cael looked at the Teller. “Because you have reached the same question.”
+     “It had been built around a wall that no longer existed.”
 
-     The Teller waited.
+     “Then the door was still useful?”
 
-     “You built a world by trying to be remembered,” Cael said.
+     “It opened.”
+
+     Kirk considered that. “Sometimes that is enough.”
+
+     Cael looked at him with a faint expression of recognition. “Sometimes.”
+
+     Joseph looked at him. “Then why come back?”
+
+     Cael turned toward the Teller. “Because I finally understood that going farther isn't the same thing as going deeper.”
+
+     The Teller did not answer. He watched Cael's face, trying to distinguish what the man had seen from what he had chosen to bring back. Cael did not ask to be believed. He had returned because he had found something that could be carried into the chamber, not because he expected the others to accept his account without question.
+
+     Luke looked down at his box. Tyler looked at his hands. Joseph looked at the Teller. The largest man stood beside the seventh chair. The Seventh Man remained near the doorway, separate from Cael and silent.
+
+     Cael continued.
+
+     “You built a world by trying to be remembered.”
 
      The men became still.
 
      “Then you learned to remember one another.”
 
-     He looked toward the city. “That was the actual transformation.”
+     He looked toward the city. The Digitorium's lights were visible through the upper windows. Beyond them lay the forest and the organism beneath it.
 
-     Luke looked down at his box. Tyler looked at his hands. Kirk looked at the repaired arm of his chair. Bill looked toward the table where the food had been set. Joseph looked at the Teller. The largest man looked toward the forest. Ansel watched them without trying to make their responses agree.
+     “That was the actual transformation.”
+
+     Ansel watched him. “You were the first to leave.”
+
+     “I was the first to think leaving would answer the question.”
+
+     “And did it?”
+
+     “It answered a different one.”
+
+     The man with the scarred palm from the upper chamber looked at Cael. “You could have sent word.”
+
+     “I did.”
+
+     “We received nothing.”
+
+     Cael nodded. “Then the message did not arrive.”
+
+     He did not blame the six men for failing to receive it. He did not ask them to apologize. The distance had been real, and the absence had mattered. His return did not make the years disappear.
+
+     Bill asked whether Cael had eaten. The question seemed almost out of place, but Cael looked relieved to be asked something ordinary.
+
+     “Not recently.”
+
+     Bill pointed toward the table. “Then sit. We have food.”
+
+     Cael took the chair. He ate slowly, listening while the men spoke about the country, the House, and the organism. He asked what had happened during his absence. Tyler showed him the record of the first test. Kirk described the repairs to the lower channels. Bill explained how the water had moved through the city. Luke told him about the photograph and the man who had emerged from it, then chosen to leave again.
+
+     Cael listened without interrupting.
+
+     “That man is not me,” he said when Luke finished.
+
+     “We know,” Luke replied.
+
+     “Good.”
+
+     The photograph's missing man remained beyond the forest. Cael had returned from another door. The Seventh Man stood near the entrance. None of them occupied the same place in the history, even if the city had once held their absences in a single empty chair.
 
      The Teller asked, “And what happens now?”
 
-     Cael answered immediately. “You stop asking what is beyond the world.”
+     Cael answered immediately.
+
+     “You stop asking what is beyond the world.”
 
      He looked at the empty space between them.
 
      “You ask who is missing from it.”
 
-     Nobody spoke. The question did not sound like an instruction to find a particular man. It asked them to look again at the rooms, roads, and records they had already made. Every place they had called complete might contain a relation they had not noticed. Every archive might preserve a life without preserving the man who had carried it. Every city might have a chair whose absence had become ordinary.
+     Joseph considered the sentence. The question did not direct them toward another country or another increase in scale. It turned their attention back toward the men whose places had not been carried forward, the histories that had lost their names, and the relationships that had been left without a route home.
 
-     Ansel moved the seventh chair back beneath the table. Cael did not sit again. He remained standing with the others, no longer at the edge of the chamber and not yet at its center.
+     Luke closed his box. Tyler closed his notebook. Kirk set down his tools. Bill cleared the empty bowls. The largest man looked toward the seventh chair, now occupied, and then toward the open doorway.
 
-     Tyler closed his notebook. “Then we need to look at what we have left out.”
+     Cael remained seated. He had returned, but he had not asked to become the center of the room. The six men who had waited before him resumed their places. Ansel stood near the wall. The Seventh Man watched the doorway. The missing man from the photograph remained absent.
 
-     Cael nodded. “Start there.”
+     The chamber held all of them without making their histories identical.
+
+     They returned to the original room together.
 
 ## Chapter XL: The Room Before the Room
 

@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "03fde36fd3967e1b9923069825b904d23768f620",
+  "source_blob_sha": "e3b60cc867e53af86b13fc5ce4f048e362b15cbd",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 11,
+    "completed": 12,
     "in_progress": 1,
-    "queued": 60,
+    "queued": 59,
     "empty_source": 0,
-    "next_chapter_index": 11,
-    "active_chapter_id": "book-i-xii",
-    "last_completed_chapter_id": "book-i-xi"
+    "next_chapter_index": 12,
+    "active_chapter_id": "book-i-xiii",
+    "last_completed_chapter_id": "book-i-xii"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -221,11 +221,11 @@
       "baseline_word_count": 488,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next chapter in sequence. Expand the Serum House as an inhabitable convergence of the reservoir, seventh well, laboratory, city, devices, and residential spaces. Keep the Serum a medium of continuity rather than a simple agent with a predetermined endpoint. Preserve the epilogue as its own section.",
-      "current_word_count": 809
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "e3b60cc867e53af86b13fc5ce4f048e362b15cbd",
+      "notes": "Expanded and verified at 5513 words. Developed the Serum House as an inhabited building with distinct architectural levels, seven separately documented vessels, maintenance procedures, shared domestic life, an archive, restricted spaces, and a practical response to spatial anomalies. The Serum remains a medium of continuity rather than a fully explained agent. The epilogue remains separate and unchanged.",
+      "current_word_count": 5513
     },
     {
       "chapter_id": "book-i-xiii",
@@ -237,10 +237,10 @@
       "baseline_word_count": 643,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next chapter in sequence. Expand the War for the House through its causes, competing claims, decisions, material consequences, and the residents' different responses. Keep conflict grounded in governance, access, ownership, and the preservation of the house rather than making every character speak with one voice. Preserve the house's existing continuity and its residents' right to leave or disagree.",
       "current_word_count": 651
     },
     {

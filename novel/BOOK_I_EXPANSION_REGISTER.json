@@ -3,14 +3,14 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "2129a14c32efcb69fda3ce64afbd118b3a37d08a",
+  "source_blob_sha": "pending_verification_after_commit",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "queued_for_expansion",
   "operating_mode": "whole_manuscript_chapter_sweep",
   "chapter_count": 72,
-  "existing_chapter_words": 34915,
-  "average_existing_chapter_words": 485,
+  "existing_chapter_words": 38651,
+  "average_existing_chapter_words": 537,
   "target_chapter_words": {
     "standard_min": 4000,
     "standard_max": 7000,
@@ -19,11 +19,11 @@
   },
   "progress": {
     "completed": 0,
-    "in_progress": 0,
-    "queued": 72,
+    "in_progress": 1,
+    "queued": 71,
     "empty_source": 0,
     "next_chapter_index": 0,
-    "active_chapter_id": null,
+    "active_chapter_id": "book-i-i",
     "last_completed_chapter_id": null
   },
   "safeguards": [
@@ -45,10 +45,10 @@
       "baseline_word_count": 1588,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
+      "status": "in_progress",
+      "revision_count": 1,
       "last_verified_blob_sha": null,
-      "notes": ""
+      "notes": "First in-place expansion pass committed; current length approximately 3935 words. Further development and continuity verification remain."
     },
     {
       "chapter_id": "book-i-ii",

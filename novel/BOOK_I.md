@@ -5578,41 +5578,193 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      At dusk they reached the house of the seventh light. It stood alone beyond the last district, built from dark timber and pale stone. Seven lamps burned above the entrance. Six were blue. The seventh was amber.
 
-     Inside they found no furniture except a long table and seven chairs.
-
-     Six men sat.
-
-     The seventh chair was empty.
+     Inside they found no furniture except a long table and seven chairs. Six men sat. The seventh chair was empty.
 
      A voice came from upstairs.
 
      “You took long enough.”
 
-     Luke looked toward the ceiling.
+     Luke looked toward the ceiling. “We've heard that before.”
 
-     “We've heard that before.”
-
-     Something laughed above them.
-
-     The house became still.
-
-     They waited.
-
-     Then a man descended the stairs carrying a lantern.
-
-     He was not the seventh man.
-
-     He was the first keeper.
+     Something laughed above them. The house became still. They waited. Then a man descended the stairs carrying a lantern. He was not the seventh man. He was the first keeper.
 
      “The city has remembered you,” he said.
 
-     Joseph looked at the empty chair.
+     Joseph looked at the empty chair. “And what happens now?”
 
-     “And what happens now?”
+     The keeper placed the lantern on the table. “Now it remembers what you do next.”
 
-     The keeper placed the lantern on the table.
+     The first keeper was an old man, though the house made his age difficult to establish. His coat was patched at the elbows. His boots were clean. He carried the lantern as if it were an ordinary tool, not a ceremonial object. He greeted the seven individually, but he did not ask for their titles or histories. He knew their names. He knew which road they had taken. He knew that one of them had left a cedar branch on a workshop table and that another had refused to let a doorway widen around him.
 
-     “Now it remembers what you do next.”
+     Tyler asked how he knew.
+
+     “The house keeps what happens here.”
+
+     “Everything?”
+
+     “Not everything. Enough.”
+
+     The keeper walked to the empty chair and rested one hand on its back. The wood was dark and smooth, worn by use. There was no dust on the seat.
+
+     “Who is that for?” Kirk asked.
+
+     “The man who has not arrived.”
+
+     “Which man?”
+
+     “The one who knows.”
+
+     Luke glanced at Joseph. “That's not very helpful.”
+
+     “It isn't meant to be,” the keeper said.
+
+     The seven examined the room. The six occupied chairs were not identical. One had a repaired leg. One had a shallow groove in the arm where a man's thumb had rested over many years. One was taller than the others. The empty chair stood at the end of the table, facing the entrance. It was not larger or more elaborate. It had simply been left available.
+
+     Joseph asked whether the six men who had sat there were still alive.
+
+     “Some are.”
+
+     “Where are they?”
+
+     “In the city. In the house. In the road. One has gone beyond the lake.”
+
+     “And the others?”
+
+     “They are not all in the same place.”
+
+     The keeper did not explain further. He set the lantern in the center of the table. Its amber light did not replace the blue lamps above the entrance. It added another color to the room. The seven noticed that the empty chair cast a shadow toward the door, while the occupied chairs cast theirs toward the wall.
+
+     Tyler unfolded the route plan. The line that had appeared on Joseph's paper ended at the house, but the keeper said that the house was not the destination.
+
+     “Then why did the line bring us here?”
+
+     “Because you needed to arrive.”
+
+     “And after that?”
+
+     “You decide whether to stay.”
+
+     The keeper opened a side door. Beyond it was a kitchen with a low fire and a table set for seven. There was bread, a pot of beans, apples, and a pitcher of water. No one had prepared a feast. The food was simple and warm. The men ate. The keeper joined them, asking about the roads and the changes in the city. He listened more than he spoke. When Luke described the forest, the keeper asked about the cedar branch. Luke said it was on the workshop table.
+
+     “You left it there?”
+
+     “Yes.”
+
+     “Good. It will be useful.”
+
+     Luke asked what for.
+
+     “The house will tell you.”
+
+     Luke looked unconvinced. He finished his meal and returned to the main room.
+
+     Kirk inspected the stairs and found that they led to seven rooms. Six were occupied. The seventh was empty, but its window looked out over the lake from a height that could not be reconciled with the building's exterior. He checked the other windows. Each showed a different district of the city. One showed the Garden in winter. Another showed the old Archive before the river moved. A third showed the Muscle Quarter at dawn, with the training hall still dark. The last showed the road outside the southern gate.
+
+     He returned downstairs and told the others. The keeper nodded.
+
+     “The rooms remember their views.”
+
+     “Can a man choose one?” Kirk asked.
+
+     “He can choose where to sleep.”
+
+     “That's not what I asked.”
+
+     The keeper looked at him. “No. The view is not a possession.”
+
+     Kirk accepted the answer. He had been looking for a practical rule and had found a boundary instead. He wrote the room positions in his notebook, noting that the views did not correspond to the external walls. He did not attempt to correct the building.
+
+     Joseph remained at the table after the others had gone upstairs. The keeper sat opposite him. The lantern stood between them.
+
+     “You know why we came,” Joseph said.
+
+     “I know why the road brought you.”
+
+     “That's different.”
+
+     “Yes.”
+
+     Joseph looked at the empty chair. “Is someone meant to sit there?”
+
+     “A man will sit there when he is ready.”
+
+     “And if he never comes?”
+
+     “Then the chair remains available.”
+
+     Joseph considered the answer. He had spent enough time with men who confused waiting with entitlement. The keeper did not seem to be waiting for a particular person as a matter of ownership. The chair was held open without being claimed.
+
+     “You don't know who it is.”
+
+     “I know the place. I don't know the man.”
+
+     Joseph nodded. That answer was more honest than the others.
+
+     The next morning the seven gathered at the table. The lantern had gone out, but its glass remained warm. The keeper brought the route plan and placed it beside Joseph's paper. The two lines aligned. The circle at the edge of the page became a small drawing of the house, with a path leading away from it.
+
+     “Where does that go?” Tyler asked.
+
+     “To the place that has not been named.”
+
+     “Can we reach it?”
+
+     “You can leave.”
+
+     “That's not the same.”
+
+     “No,” the keeper said. “It isn't.”
+
+     The men discussed whether to divide into groups. Luke wanted to take the forest road. Kirk wanted to inspect the route beyond the lake. Tyler wanted to compare the maps before anyone left. Bill said they should repair the house's outer steps first. Joseph asked the keeper whether the house needed anything.
+
+     “It needs men who notice what is broken.”
+
+     Bill looked toward the kitchen. “Then we'll start there.”
+
+     They spent the morning repairing the steps, tightening a loose hinge, and clearing a blocked drain. The keeper did not supervise. He brought tools when asked and left the men to decide how the work should be done. Luke found a piece of cedar in the wood store. It matched the branch he had left in the city workshop, though this piece had been cut years earlier. He used it to replace a damaged rail. The grain ran in a spiral that resembled the line on Joseph's map.
+
+     When the repair was finished, the house changed. The stairs settled. The drain began to carry water. The amber lamp above the entrance brightened. The six blue lamps remained steady.
+
+     “It noticed,” Luke said.
+
+     The keeper looked at the repaired rail. “It was waiting for the work.”
+
+     In the afternoon, the seven men returned to the table. The empty chair remained empty. No one tried to sit in it. They had begun to understand that the house was not testing their obedience. It was giving them a place where they could act without being told what the action meant.
+
+     Joseph asked the keeper whether the house had a name.
+
+     “The House of the Seventh Light.”
+
+     “And before that?”
+
+     “It was a house.”
+
+     “Who built it?”
+
+     “Men who needed somewhere to meet.”
+
+     “Why seven lights?”
+
+     The keeper looked toward the entrance. “Six for the men who came. One for the man who might.”
+
+     The seven sat quietly. They did not ask whether the seventh man was one of them, whether he belonged to another branch, or whether the empty chair referred to someone not yet born. The keeper had not offered a prophecy. He had described a practice: keep a place open without deciding who must occupy it.
+
+     At dusk the lantern was lit again. The keeper placed it on the table and asked each man what he intended to do next. Luke said he would return to the woods. Tyler would update the route plans. Kirk would inspect the lake crossing. Bill would organize repairs in the outer district. Joseph would remain for another night. The other two named their own work. The keeper recorded none of it. He did not need to turn their choices into obligations.
+
+     “And you?” Joseph asked.
+
+     “I will keep the house.”
+
+     “Until when?”
+
+     “Until the next keeper arrives.”
+
+     Joseph looked at the empty chair. “Is that the man who will sit there?”
+
+     “Not necessarily.”
+
+     The keeper lifted the lantern. Its light passed over the table, the six occupied chairs, and the seventh chair waiting at the end. The house did not close around them. The road remained visible through the entrance. The seven men left in the morning by different routes, each carrying a practical task and an unresolved question.
+
+     The House of the Seventh Light remained beyond the last district. Its six blue lamps held steady. Its amber lamp burned above the door. The empty chair stayed at the table, not as a monument to absence but as room for a man whose arrival could not be commanded.
 
 ## Chapter XXV: The Keeper's Map
 

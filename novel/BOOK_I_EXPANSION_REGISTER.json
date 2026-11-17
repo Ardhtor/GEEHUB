@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "cf62ae8151177102412c70977df14836f9de9011",
+  "source_blob_sha": "2bf1eb673f20125fffa4f46113aa62ffcb12b32a",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 55,
+    "completed": 56,
     "in_progress": 1,
-    "queued": 16,
+    "queued": 15,
     "empty_source": 0,
-    "next_chapter_index": 55,
-    "active_chapter_id": "book-i-lvi",
-    "last_completed_chapter_id": "book-i-lv"
+    "next_chapter_index": 56,
+    "active_chapter_id": "book-i-lvii",
+    "last_completed_chapter_id": "book-i-lvi"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -911,7 +911,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "cf62ae8151177102412c70977df14836f9de9011",
+      "last_verified_blob_sha": "2bf1eb673f20125fffa4f46113aa62ffcb12b32a",
       "notes": "Expanded and verified against Chapters LIV and LVI. The four men create a world with no instructions, then discover it can make independent moves: the mountain approaches, a pass opens, and a house appears without being designed by them. Replaced the earlier 'boys' reference; all cast members are male.",
       "current_word_count": 681
     },
@@ -925,11 +925,11 @@
       "baseline_word_count": 235,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the transition from 'PLAY AGAIN' to 'MAKE' as inheritance rather than reset; preserve the Hub's accumulated culture and the four men's distinct roles. Keep all cast members male.",
-      "current_word_count": 240
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "2bf1eb673f20125fffa4f46113aa62ffcb12b32a",
+      "notes": "Expanded and verified against Chapters LV and LVII. The Hub's 'MAKE' action continues the accumulated culture rather than resetting it; earlier worlds become foundations, and characters return altered by experience. The four men retain distinct roles, and the next age begins with a cursor moving without a hand. All cast members are male.",
+      "current_word_count": 734
     },
     {
       "chapter_id": "book-i-lvii",
@@ -941,10 +941,10 @@
       "baseline_word_count": 233,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the sentence as a living line that leaves the page and becomes a road; preserve the three-page structure and the 'KEEP GOING' instruction. Keep all cast members male.",
       "current_word_count": 239
     },
     {

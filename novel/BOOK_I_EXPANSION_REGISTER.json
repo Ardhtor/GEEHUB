@@ -3,13 +3,13 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "28a5ab3304eb998f06814efa5dfbda9573a5a242",
+  "source_blob_sha": "e0549445f928ed44454d102e3068c22d385efb77",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
   "operating_mode": "whole_manuscript_chapter_sweep",
   "chapter_count": 72,
-  "existing_chapter_words": 100547,
+  "existing_chapter_words": 100566,
   "average_existing_chapter_words": 1547,
   "target_chapter_words": {
     "standard_min": 4000,
@@ -351,9 +351,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "66f6a889ed040b0ef2cdda1ab3ce82a33266e574",
-      "notes": "Expanded in place and verified at 3,067 words. Continuity checked against Chapters XIX and XXI. Developed the city as a working civic environment across the Archive, Market, Garden, Muscle Quarter, and unnamed hall; preserved the seven travelers' distinct methods and the registrar's uncertainty. Replaced the inherited sister reference with the elder brother from the northern house. The Serum reaches the next room without resolving its nature. All cast members are male.",
-      "current_word_count": 3068
+      "last_verified_blob_sha": "e0549445f928ed44454d102e3068c22d385efb77",
+      "notes": "Expanded in place and verified. The seven enter a lived city with distinct Archive, Market, Garden, and Muscle Quarter functions; the unmarked district reveals possible continuations without turning them into fate. The gray-coated threshold keeper and working residents retain separate roles. Reconciled the stray sister reference to the elder brother. The second city is occupied, connected, and open to return.",
+      "current_word_count": 3087
     },
     {
       "chapter_id": "book-i-xxi",
@@ -367,8 +367,8 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "28a5ab3304eb998f06814efa5dfbda9573a5a242",
-      "notes": "Expanded and verified at 2,188 words. Developed the seven men's distinct positions on the Serum, the first controlled observations, the decision not to claim or move the vessel, and the room's expansion. The Serum's agency remains unresolved; the men preserve disagreement and agree on responsible observation.",
+      "last_verified_blob_sha": "e0549445f928ed44454d102e3068c22d385efb77",
+      "notes": "Expanded in place and verified. The first Serum encounter becomes a conflict of interpretations rather than a simple power-up. The seven men disagree over cure, strength, control, risk, and memory; the largest man changes while retaining his earlier state. Added provisional rules for observation, consent, shared access, and archival provenance. The vessel remains unexplained.",
       "current_word_count": 2188
     },
     {
@@ -383,8 +383,8 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "a724b1a7c16dec05837724e9cc4c3a9cc75eb68a",
-      "notes": "Expanded and verified. The transformation is developed through its physical and spatial consequences, the repairer's structural eye, the strength-seeker's uncertainty, the seventh man's interpretation, and the others' practical care. Earlier and current body states remain simultaneous. The chapter adds explicit pause/withdrawal safeguards without treating change itself as danger, and preserves the Serum's unresolved nature.",
+      "last_verified_blob_sha": "e0549445f928ed44454d102e3068c22d385efb77",
+      "notes": "Expanded and verified. The transformation is developed through its physical and spatial consequences, the repairer's structural eye, the strength-seeker's uncertainty, the seventh man's interpretation, and the others' practical care. Earlier and current body states remain simultaneous. The chapter adds pause/withdrawal safeguards without treating change itself as danger.",
       "current_word_count": 1934
     },
     {

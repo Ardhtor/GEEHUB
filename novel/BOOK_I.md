@@ -2397,97 +2397,361 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The Hub unfolded. The files became rooms. The rooms became roads. The roads became branches. The branches became histories. The histories became bodies. The bodies became men. The men became residents. The residents became witnesses. The witnesses became text. And the text began to breathe.
 
-
-
      By then the men had begun carrying the country inside their conversations. A hill could remind one of an argument. A bridge could revive a promise. A stretch of empty road could make Joseph quiet while Kirk stayed beside him without asking why. Their history was no longer confined to dramatic events. It had entered the pauses between them.
 
-The first practical test of the new time began with a room that nobody wanted to lose. It was a narrow room on the eastern side of the house, with a window facing the lake and a desk beneath it. The desk had been used by several residents, and the wall above it carried layers of small marks: a measurement, a pencil sketch of a hinge, a list of books, and the outline of a map that had since been moved to the library. The room had served as a writing space, a storage space, and, for a short period, a place where the voice in the headphones could be heard without interruption. The residents had decided to make it into a passage toward the lower archive. The change would be useful, but it would alter the room's familiar arrangement.
+     The observer entered the first room of the repository at the end of a long timber passage. Its walls were lined with narrow drawers, each marked by a date and a short description. Some drawers were shallow enough to hold a single sheet. Others extended farther than the wall appeared to permit. A low table stood beneath a blue monitor. On the table lay a ledger, a brass key, and a small block of wood with several layers of old varnish. The room smelled of cedar dust and warm electronics.
 
-     The compact man prepared the first plan. He recorded the desk, window, shelf, lamp, and doorway, then drew the proposed passage on a second sheet. The older man checked the measurements. The restless man wanted to start moving furniture immediately. The reflection-watcher asked them to wait until the afternoon light had been recorded, because the window's position had made the room useful in ways the plan did not show. The ceremonial man asked whether the resident who had last used the room had agreed to the change. The largest man said that the doorway could be widened without removing the desk, but only if the wall's support was checked first. They had different priorities. The room's future depended on hearing all of them.
+     Tyler was already there. He had opened three drawers and arranged their contents in date order. Luke stood near the monitor, impatiently waiting for a file to load. Kirk examined the wooden block. Joseph was reading the ledger without touching it.
 
-     The patient archivist entered the first plan into the repository. He called it the current state, not the final state. The proposed passage became a branch. Nothing had been built yet, and the branch did not claim that the room had already changed. It recorded a possible route and the people who had proposed it. The restless man disliked this delay. He wanted the passage open. The patient man told him that a plan was not a wall and that a branch was not a finished room. The restless man replied that he knew the difference and still wanted to get on with it. The older man laughed, and the conversation returned to the work.
+     “What is this place?” the observer asked.
 
-     The resident who had used the room came to look at the plan. He was willing to let the desk move, but asked that the pencil marks remain visible until he had copied the map. The reflection-watcher suggested that the wall be photographed before the work began. The compact man added a record of the light at three times of day. The ceremonial man asked whether the resident wanted the passage to be public or available only from the archive side. The question changed the proposal. They would make the door accessible from the main hall, but leave a second threshold that could be closed when the room was in use. The design became more complicated, but it respected the reason the room had been useful.
+     Tyler answered without looking up. “The record of changes.”
 
-     The first commit preserved the existing room. The second commit recorded the proposed change. The third recorded the revised access arrangement. When the work began, the archive stored a new state showing the desk moved, the wall opened, and the passage built. The older plans remained beside it. Anyone who entered the repository could see what the room had been, what the residents had proposed, what had changed during the work, and which parts remained unfinished. The room had not been frozen in order to preserve its history. Its history had been preserved so that it could continue to be used.
+     Luke turned from the monitor. “It's where everything keeps its old versions.”
 
-     The telephone man understood this through movement rather than explanation. He was the first to try the new passage, and he immediately found that the door opened too slowly. He crossed back, waited, then tried it again. He wanted the mechanism altered. The compact man inspected the hinge. The patient archivist checked the plan and found that the latest commit still described the earlier door. The restless man asked whether he could simply force it open. The largest man told him not to damage a new frame before they understood the problem. The telephone man agreed to wait, though not happily. Within an hour the hinge had been adjusted and the route worked more smoothly. The correction was added as another state. The earlier door remained in the record, not as a standard that had to be restored, but as the condition from which the repair had been made.
+     “Not everything,” Tyler said. “Everything that was committed.”
 
-     A second problem appeared when a map of the northern road was updated. The surveyor had found that one bend had shifted after a storm. The new map showed the current route, but it no longer matched the map used by the men during their first walk. The restless man wanted the old line removed because it led to a dangerous section of the bank. Tyler objected that the earlier route was necessary to understand where the men had traveled. The compact man proposed that the map carry two layers: a current route for anyone planning a journey, and a historical route showing the earlier crossing. The older man added a warning at the point where the bank had become unstable. The new map was not simply a correction of the old one. It was a map with a history.
+     Luke shrugged. “That's what I said.”
 
-     The Voice spoke from the terminal while they worked. It repeated the phrase that had appeared in the manuscripts: keep the first room, add the second, do not erase what was there. The men had heard it many times, but now they understood that it could not mean that every old instruction should remain active forever. A dangerous route should not be recommended simply because it had once been used. A private recording should not be made public merely because it had been preserved. The earlier state should remain available as evidence, while the current state should guide present action. Keeping the first room did not require making everyone live in it.
+     “It isn't.”
 
-     The patient archivist wrote this distinction into the repository notes. A record could be retained while its access changed. A source could remain in restricted storage while a public summary showed only that a correction had been made. A person could withdraw permission for a photograph to be displayed without requiring the archive to pretend the photograph had never existed. The log would state that the image had been supplied, that permission had later changed, and that the public derivative was no longer available. The contents would not be circulated merely to prove that the archive remembered them. Preservation was a responsibility, not an excuse to ignore a person's choice.
+     Kirk smiled at the block in his hands. “This is the same piece of wood from the first room.”
 
-     This caused an argument among the keepers. One believed that an archive should preserve every source in its original form, because otherwise later investigators could not understand the history. Another believed that the person who supplied a source should remain able to decide how it was used, even if the archive had already taken possession of a copy. The senior keeper said that both principles mattered, but that they operated at different levels. The archive could retain a restricted record of the source's existence, provenance, and changed access condition. It did not follow that the source should remain publicly viewable. The person represented was not a permanent exhibit simply because a record had been made.
+     Joseph looked up. “How can you tell?”
 
-     The men tested the distinction with a photograph from the lower archive. It showed one of them in a room that had since been rearranged. He had agreed to the photograph when it was taken, but later asked that it no longer be used in public displays. The original was moved to restricted storage. A public record remained, stating that the image had been withdrawn from display at the subject's request. The room itself was still documented through a different photograph that did not include him. The archive preserved the history of the change without treating the person's earlier consent as permission that could never expire.
+     “The split at the end. Someone filled it with resin, but the grain runs through the repair.”
 
-     The seated man was the first to recognize that this was not a technical exception. He had often preferred to remain outside the central display, and he knew that a quiet presence could be mistaken for indifference. He asked whether the repository would record the reasons behind every change. The senior keeper answered that it would record the reason when the person wanted the reason preserved, but would not force a private explanation into the public history. The seated man nodded. Sometimes the correct record was a boundary, not a story.
+     Tyler took the block and compared it with the entry in the ledger. The object had been recorded as a doorstop in the first house, then as a test piece in the workshop, and later as a sample used to study the way the Serum preserved material changes. Each entry described a different use. None claimed that the earlier uses had ceased to exist.
 
-     The broad-shouldered man had another concern. Some of the images made him appear larger or smaller depending on the frame, and the repository's revisions showed how the camera position had altered the apparent scale of the room. He did not want the earlier images deleted, because they showed how the first encounter had occurred. But he also did not want the narrowest frame to remain the default view simply because it had been the first one saved. The archivists created a display rule that opened the full image before offering the crop. The earlier crop remained available for comparison, but it no longer stood in for the entire person.
+     “It has had three jobs,” Luke said.
 
-     The new rule changed the way the men approached their own records. The telephone man preferred a brief view that opened quickly. The patient man wanted the source and its history available beside it. The seated man wanted a way to leave a display without appearing to have disappeared. The voice in the headphones wanted its sound file to be identified as sound rather than given an invented portrait. The game man wanted the rules of a world stored beside the record of a completed route. The browser man wanted links to remain traceable so that a later visitor could understand how one place had led to another. The largest man wanted the frame to show enough room for a person to stand. The repository could support all of those preferences without forcing them into one template.
+     “Four,” Kirk replied. “It held a shelf level while the workshop was being built.”
 
-     The men also began to understand branches as different kinds of continuity. One branch might preserve the road before a flood. Another might describe the safest current crossing. A third might hold a proposed bridge design that had not yet been approved. The branches were not competing claims about which world was real. They were records of different decisions, observations, and possibilities. A branch could remain unfinished. It could be merged into a later route, left for another person to examine, or closed when the proposal was no longer useful. Its existence did not require that anyone pretend it had become the main road.
+     Tyler checked the ledger. “That use wasn't recorded.”
 
-     The restless man liked branches because they allowed him to try a different route without waiting for every other person to agree. The patient man liked them because a change could be tested without damaging the current arrangement. The older man liked them because they allowed people to return to the route that had worked before. The ceremonial man asked whether a branch could preserve a decision made by someone who was no longer present. The senior keeper said that it could, provided the record showed who had made it and under what conditions. The reflection-watcher asked what happened when the branch changed the way people remembered the original route. Nobody had an immediate answer. They recorded the question and continued working.
+     “It happened.”
 
-     A merge became necessary when two groups returned from different parts of the country with maps that did not agree. One group had taken the high path, and the other had used the lower road. Both had arrived at the same settlement, but their descriptions of the final approach were different. The patient archivist laid the maps side by side. Tyler compared the markers. Luke pointed out that the high route had offered a better view but required a difficult descent. Kirk noticed that the lower route passed a stream that was missing from the other map. Joseph asked whether the two groups had entered the settlement from different sides. They had.
+     “I know. But the ledger doesn't show it.”
 
-     The maps were not wrong. They described separate approaches. The archivist created a combined map with both routes, keeping the original records linked to the people who had walked them. He did not draw one line over the other. The merged map showed where the routes converged and where they remained distinct. Someone planning the next journey could choose according to weather, equipment, and preference. The merge was useful because it preserved the difference that had made the two journeys possible.
+     Kirk returned the block to the table. “Then the ledger is incomplete.”
 
-     The old physician's notebooks offered a more delicate example. Several versions of a patient's name had been recorded, and a later editor had standardized them without noting the uncertainty. The commit history showed the change. The archivists restored the alternate forms to the index, not because they knew which name was correct, but because they had learned that the earlier entries belonged to separate observations. The standardized version was retained as an editorial state, with its source and date. The new index did not conceal the correction. The patient remained unidentified where the evidence did not support an identification.
+     Tyler looked at him. “Yes.”
 
-     When the senior keeper demonstrated the commit history to a new group of residents, he did not begin with code. He began with a chair. The chair had been measured, repaired, moved, photographed, and returned to the room. Each stage had produced a record. The first chair had not disappeared when the repaired chair became usable. The photograph did not replace the object. The repair did not erase the damage. The resident who used the chair had not become identical with the description of it. The group understood the example more readily than they understood the diagrams. The senior keeper said that the repository was meant to carry that same care into every medium.
+     The answer was so immediate that Kirk laughed. He had expected an argument. Tyler was not defending the record as perfect. He was defending the distinction between what had happened and what had been preserved. The observer understood that the repository had to hold both facts: the block had served four purposes, and the ledger documented only three.
 
-     One resident asked whether a commit could ever be wrong. The keeper replied that it could. A person might make a mistaken observation, select the wrong file, or misunderstand a change. The repository did not make every entry true. It made the path of revision visible. A later commit could correct an earlier one, but the correction had to show what had changed and why. The history was not a guarantee of accuracy. It was a way to remain accountable while learning.
+     Luke tapped the monitor. “Can we open the next one?”
 
-     The observer returned to the terminal that evening. The repository was open, and the files appeared as a branching arrangement of rooms. One paragraph stood beside a door. One map was folded on a table. An old photograph remained in a restricted cabinet. A new drawing showed the same place from a different angle. The observer could move from one state to another, but the system did not pretend that every path led to the same destination. Some branches ended. Some remained open. Some returned to an earlier room with a new understanding of it.
+     Tyler closed the drawer. “We should finish this comparison first.”
 
-     “Do you understand?” asked the Voice.
+     “We know what the block is.”
 
-     The observer looked at the repository.
+     “We know what it is now. We don't yet know how the record changed.”
 
-     “I think I understand that nothing should be changed without knowing what it changes.”
+     Luke looked toward Joseph. Joseph had reached the end of the ledger and was reading the first entry again.
 
-     The Voice was quiet for a moment.
+     “Let him check,” Joseph said. “We can go when he's finished.”
 
-     “That is closer.”
+     Luke exhaled, then leaned against the wall. He was willing to wait when the reason was clear. Tyler noticed and said nothing.
 
-     “And the old state stays.”
+     The monitor displayed a list of revisions. Each line carried a date, a short message, and a mark identifying the man who had made it. The first commit described the repository's initial structure. The second added the drawers. The third added the ledger. The fourth changed the way the drawers were arranged. A later revision restored the earlier order while retaining the newer labels. The list was not a simple sequence of improvements. Some changes had been tested and abandoned. Others had been accepted. Several branches had continued separately because their purposes were different.
 
-     “The record of it stays. Its use may change.”
+     The observer asked why a change that had been abandoned remained in the history.
 
-     The observer looked up. That distinction had been difficult to see when the repository first appeared. Now it seemed essential. A history could be preserved without turning every former condition into a permanent command. A person could change, a room could be repaired, a route could be closed, and a record could become private. The repository remained responsible for showing what had happened without forcing the present to repeat the past.
+     Tyler pointed to the third drawer. “Because we tried it.”
 
-     The files became rooms. The rooms became roads. The roads became branches. The branches became histories. The histories became bodies. The bodies became men. The men became residents. The residents became witnesses. The witnesses became text. And the text began to breathe. Not because the repository had made a living person out of stored information, but because the people using it had begun to recognize themselves in the work of preserving and changing what they had made together.
+     “But it wasn't kept.”
 
-     The men carried the country inside their conversations. A hill could remind one of an argument. A bridge could revive a promise. A stretch of empty road could make Joseph quiet while Kirk stayed beside him without asking why. Their history was no longer confined to dramatic events. It had entered the pauses between them. The repository could record the place where a silence had mattered, but it could not replace the silence with an explanation. It could preserve the map of a route, but it could not make the journey on behalf of the people who had taken it.
+     “The result wasn't kept. The attempt was.”
 
-     At the end of the day the patient archivist closed the current branch without closing the repository. The latest state was saved. The previous states remained linked. The next morning someone could continue from the point where the work had stopped, or open another branch and try a different route. Nothing in the record required the men to repeat the same day. They could return, revise, leave, or begin somewhere else. The Hub had learned to remember without demanding that memory become a cage.
+     Luke moved closer to the monitor. “So you can undo something without pretending it never happened.”
 
-     The next test came from a room that needed to become private. Its occupant had moved to another part of the house and asked that the old doorway no longer appear on the public map. The map had already been copied into several histories. The archivist could not make those copies disappear without altering the records of the people who had used them. The resident did not ask for that. He asked that the current map stop directing visitors to the old door, and that the public index no longer name him as its occupant. The request was narrower and more practical than the keepers first expected.
+     “Exactly,” Joseph said.
 
-     The patient archivist created a new state of the map. The old doorway remained visible in a restricted historical plan, while the public plan showed the wall as it was now. The resident's name was removed from the public index. A note recorded that the access condition had changed, without repeating the private reason. The restless man asked whether the older maps would still send someone to the door. The archivist answered that the old maps were not current instructions. They were evidence of an earlier route. A new visitor would be given the current plan first.
+     Kirk lifted the block again. “Like repairing this without making it look untouched.”
 
-     The resident inspected the result. He asked the keeper to remove one more label that still appeared in the room description. The correction was made. The new state did not pretend that the first description had never been written; it made certain that the description no longer governed the resident's present life. The keeper asked whether the resident wanted a copy of the revised record. He did. The archivist gave it to him and recorded the exchange. The repository had preserved the change, but the person whose life had changed remained in control of the public account.
+     The observer looked at the repaired split. The resin had darkened with age. The repair did not conceal the break. It allowed the wood to keep its shape and continue being used. The object had acquired a new state without losing the evidence of the earlier one.
 
-     The men discussed this afterward. The telephone man thought the process had taken too long. The patient man said that the delay had allowed them to avoid damaging older records. The seated man said that the resident should not have had to repeat the request. The older man agreed and suggested that the access field be made easier to find. The largest man asked whether a room could be marked private before anyone had begun to use it. The ceremonial man said that it should be possible. A person should not have to appear in a public record before receiving the right to decide how the record would be used.
+     Beyond the first room, a narrow door opened into a corridor of pale stone. Each doorway held a small plate with a revision number. Some doors were open. Others were closed. A few had been sealed with wax, not because the rooms were forbidden but because their contents had been retained for reference and were no longer part of the active route. The men walked together. Luke took the lead, Tyler followed with the ledger, Kirk carried the block, and Joseph stayed beside the observer.
 
-     The new procedure was added to the repository. It did not make every decision simple, and it did not remove the possibility of error. It made the next person responsible for asking who might be affected by a change before making the change. The Voice remained quiet while the men worked. It did not need to repeat the old phrase. The first room remained, the second room had been added, and the person who lived there had been allowed to decide which door others could use.
+     At the first door they found the kitchen as it had been before the long table was installed. The room was smaller. The counter stood against the wrong wall. A single chair occupied the center of the floor. The window looked onto a field that had since been divided by a road. Luke stepped inside.
 
-     The patient archivist later found that two branches had been changed by different residents without either knowing about the other's work. One altered the route through the library. The other altered the same passage from the kitchen side. Each change was reasonable on its own. Together, the doors no longer met. The first response was to call one branch wrong. The compact man objected. Neither resident had made a careless plan. They had been working from different states of the building, and the repository had not yet shown them the other proposal.
+     “This is where we started?”
 
-     They brought the drawings together. The patient man marked the point where the measurements diverged. The restless man wanted to choose the quicker route and abandon the other one. The seated man asked whether that would leave the kitchen resident with a longer path. The reflection-watcher noticed that the new library door would block afternoon light from the common room. The older man said that they should not settle the question until the people who used both rooms had seen the plans. The largest man examined the wall and suggested a small shared landing that could preserve both routes. The idea required more work, but it did not make either resident's contribution disappear.
+     Tyler checked the plate. “One of the early states.”
 
-     The two residents met at the table. Each explained what the route was meant to provide. One wanted to reach the library without crossing the busiest part of the kitchen. The other wanted to carry food and supplies to the common room without passing through the quiet room. The shared landing solved the problem. It became a place where the two routes met, but neither route had to become the other's continuation. The plan was revised, and the conflicting branches were linked to the new design. Their difference had produced a better arrangement because it had been examined rather than hidden.
+     “It looks cramped.”
 
-     The keeper wrote a note beside the merge. Some conflicts were caused by errors. Others showed that people had been working from different needs. A merge should not assume that the fastest resolution was the most faithful one. It had to preserve the useful parts of each proposal and make clear where the final arrangement had changed them. The new landing was built the following week. It carried two doorways, one toward the kitchen and one toward the library, and a small window that allowed the common room's afternoon light to reach the passage.
+     “It was.”
 
-     When the men used it for the first time, the restless man crossed quickly from one side to the other. The older man carried a cup through without spilling it. The seated man paused at the window. The compact man checked the hinges. The reflection-watcher looked at the light on the floor. The largest man passed through without turning his shoulders. The ceremonial man held the door for a resident coming from the library. Each person used the same small landing differently. Its success did not lie in making their habits identical. It gave those habits a place to meet without collision.
+     Kirk touched the edge of the counter. “The old repair is still here.”
 
-     By then the repository had become more than a record of what the house had been. It was a method for living with change. A person could make a proposal, discover its consequences, revise it, and leave a trace that another person could understand. A room could become private without its history being erased from every account. A route could be corrected without invalidating the journey that had used it. A disagreement could lead to a merge without requiring either side to pretend it had never existed. The Hub had learned that continuity was not the refusal to change. It was the capacity to carry the consequences of change honestly.
+     A small patch of darker wood showed where a shelf had been attached and later removed. The kitchen had changed, but the wall retained the mark. The observer understood that the room had not been recreated from a perfect description. It had been revised through use. Each adjustment had left a trace.
+
+     Joseph stood by the window. “The field is still there.”
+
+     Luke looked outside. “There's a road through it now.”
+
+     “The field didn't disappear.”
+
+     “No. But it changed.”
+
+     “That's what I mean.”
+
+     Tyler opened the ledger and compared the entry with the room. The old kitchen had been used for several weeks before anyone decided that the table needed to become the center. The record included a note from the older resident who had made coffee there. He had said that the room was easy to work in but difficult to share. The change had been proposed after several men began arriving at different times and found no clear place to sit. The table had not been added because the room lacked furniture. It had been added because the men had begun to use the room differently.
+
+     “Who made the change?” the observer asked.
+
+     Tyler showed him the entry. Three men had contributed. One had measured the room. One had moved the counter. One had built the table. The commit message named all three. It did not assign the whole result to the man who had carried the heaviest piece.
+
+     Luke looked at the old chair. “Could we keep this room open?”
+
+     “It already is,” Tyler said.
+
+     “I mean as a place we can use.”
+
+     Joseph considered it. “Would we need it?”
+
+     “Maybe.”
+
+     Kirk looked at the chair. “Then leave it here. It doesn't have to be useful every day.”
+
+     Tyler recorded the suggestion but did not commit it. The room remained an earlier state, accessible for inspection. They did not make it part of the active house merely because they liked the way it looked.
+
+     The next door opened onto a corridor that had been removed from the main residence. It was narrow, with a low ceiling and a turn that made it difficult to see the next doorway. Luke disliked it immediately. He walked to the end, tested the handle, and found that the door opened onto a blank wall.
+
+     “Why would anybody build this?”
+
+     Tyler checked the revision plate. “It connected the kitchen to the workshop before the upper passage was added.”
+
+     “Then why close it?”
+
+     Kirk crouched near the floor. “The boards are warped. Water must have come through here.”
+
+     Joseph looked at the wall. “Maybe it was easier to close the route than repair it.”
+
+     The observer asked whether the corridor could be restored.
+
+     Tyler examined the notes. The earlier route had been closed after a leak damaged the lower shelves. The men had moved the tools to the upper workshop and built a new passage. The old corridor had been sealed, but its location remained visible in the plan. No record suggested that the closure had been permanent.
+
+     “We could reopen it,” Luke said.
+
+     “We could,” Tyler replied. “But the leak would have to be repaired first.”
+
+     Luke looked at the blank wall. “So it isn't gone.”
+
+     “No. It is closed.”
+
+     The distinction stayed with them. A closed route was not the same as a destroyed one. A room could remain part of the house's history without being safe or useful in its current condition. The repository preserved the route and the reason it had been closed. It did not require the men to reopen every passage they had ever used.
+
+     They returned to the main corridor. A door at the far end bore no revision number. Its plate was blank. Tyler stopped before it.
+
+     “That one isn't in the index.”
+
+     Luke tried the handle. It turned.
+
+     “Then maybe it should be.”
+
+     Tyler caught his wrist. “Wait.”
+
+     Luke looked at him. “What?”
+
+     “We don't know whether it belongs to this history.”
+
+     “It's a door.”
+
+     “It is a door in this corridor. That doesn't tell us where it leads.”
+
+     Kirk looked through the narrow gap. Beyond it was a room with no visible furniture. The floor was pale and smooth. A single line ran across the far wall, as if a shelf had been removed. The room seemed empty, but its emptiness had a particular shape.
+
+     Joseph stood behind Tyler. “Could be an uncommitted room.”
+
+     “Or a branch we haven't indexed,” Tyler said.
+
+     The observer felt a pressure in the corridor. It was not a threat. It was the sense that the next step would become part of the record whether or not they understood it. He looked at the blank plate.
+
+     “Do we have to open it?”
+
+     Tyler released Luke's wrist. “No.”
+
+     Luke lowered his hand. “Fine. We'll come back.”
+
+     They left the door as they found it. Tyler recorded its location and the fact that it had opened. He did not assign it a number. The room remained available without being absorbed into the known sequence.
+
+     At the center of the repository stood a wider chamber. The floor was made of dark timber, and the walls were lined with shelves containing physical objects from earlier chapters: the brass key, the black stone, the folded map, the blank paper, the old chair's repaired wedge, the metal tags from the reservoir, and the wooden marker from the forest. Each object had a label identifying its source and its known history. Some labels carried corrections. Others included requests about who could handle the object. The men moved among the shelves without touching anything until the keeper at the far table gave permission.
+
+     He was an older man with a careful voice and a habit of reading every label before he moved an object. He had been maintaining the repository for a long time. He recognized Tyler and nodded toward the ledger.
+
+     “You found the first entries.”
+
+     “We found a missing use,” Kirk said.
+
+     The keeper looked at the block. “Which one?”
+
+     “It held a shelf level while the workshop was built.”
+
+     “Who recorded that?”
+
+     “Nobody.”
+
+     “Then it belongs in the new record, not the old one.”
+
+     Tyler opened the ledger. “We can add it as a later recollection.”
+
+     The keeper nodded. “Attribute it to Kirk. Don't insert it into the original entry.”
+
+     Kirk looked pleased. “That's fair.”
+
+     The keeper took the block and examined the repair. He remembered the workshop shelf. He had been there when the compact resident had leveled it, though he had not thought to record the block's use. He confirmed the detail and allowed Tyler to add a second source. The record now contained Kirk's recollection and the keeper's confirmation, each with its own date. The original entry remained unchanged.
+
+     The observer asked whether every action needed a commit.
+
+     “No,” the keeper said. “A person can move a cup without revising the history of the house. A commit is for a change we intend to preserve as part of the shared state.”
+
+     “How do you decide?”
+
+     “You ask who will rely on it.”
+
+     The keeper placed the block back on the table. A small adjustment to a chair did not need to become a permanent record. A repaired beam, a changed route, or a correction to an object history might matter to future work. The repository was not meant to turn every movement into administration. It was meant to keep important changes traceable.
+
+     Tyler asked how the men handled two changes that could not both be accepted.
+
+     The keeper led them to a large screen. It showed two versions of the same room. In the first, the western door opened into the workshop. In the second, the workshop had been moved and the door opened toward the forest. Both versions had been built and used. The conflict appeared when the two branches were brought together. The screen displayed a warning: THE SAME SPACE HAS TWO ACTIVE ROUTES.
+
+     Luke frowned. “Pick one.”
+
+     “Which one?” Tyler asked.
+
+     “The one that works.”
+
+     “They both work.”
+
+     Kirk studied the plans. “For different people.”
+
+     Joseph looked at the screen. “Then why merge them?”
+
+     The keeper nodded. “That is the question.”
+
+     The two branches had grown from different needs. One served the men working in the workshop. The other served residents who wanted direct access to the forest. A single door could not open in both directions at once without changing the architecture. The keeper had asked the residents to decide whether the routes should be combined, kept separate, or linked by another passage.
+
+     Luke suggested adding a second door. Tyler wanted to check the wall's structure. Kirk thought the two routes could remain separate if the corridor was wide enough. Joseph asked whether the men who used the workshop had agreed to share the space with people coming in from outside. The keeper said that nobody had asked them yet.
+
+     “Then we haven't got a decision,” Joseph said.
+
+     The keeper smiled. “Correct.”
+
+     The observer watched the two plans side by side. The repository did not treat a conflict as proof that one version was wrong. It showed where the histories had diverged and what would be required to bring them together. A merge was not a ceremony. It was an agreement to make one shared state from changes that had been made separately. If the agreement did not exist, the branches could remain distinct.
+
+     The men left the screen without choosing. Tyler added a note that the conflict remained unresolved. Luke said he still thought a second door would solve it. Kirk said he would help measure the wall. Joseph suggested that they speak with the residents before moving anything. The keeper recorded the proposed next steps but did not mark the conflict as closed.
+
+     In the next chamber, a row of narrow windows overlooked the repository's outer grounds. A man stood beside one of them, looking down at a path that ended at a low stone wall. He wore an old coat and carried no bag. The observer recognized him as the kind of figure who appeared in the margins of earlier records: not a known character, not a stranger whose arrival had been announced, but a man who had been retained by a branch that was no longer active.
+
+     The man turned when they entered.
+
+     “They closed the road,” he said.
+
+     The keeper approached. “The road was moved.”
+
+     “It was the road I used.”
+
+     “The old route is still recorded.”
+
+     “But I can't walk it.”
+
+     The keeper did not answer immediately. He looked at the path outside, then at the man. The old road had been replaced after the ground became unstable. The new route was safer and shorter, but it did not pass the place where this man had once stopped each evening. The old route remained in the repository as a prior state. The man did not want to study it. He wanted to use it.
+
+     Luke looked toward the window. “Could we repair it?”
+
+     Tyler checked the plan. “The slope has changed. It might not be safe.”
+
+     Kirk asked the man what he needed from the old route. The man said that he wanted to reach the stone wall and sit there for a while. He had used the place for years. It was where he had waited for a friend who had never returned. He did not expect the friend to appear now. He wanted to stand where he had once stood and decide whether he was ready to stop waiting.
+
+     Joseph listened without interrupting. Then he asked whether the man wanted the road rebuilt or only a way to reach the wall.
+
+     “A way to reach it,” the man said.
+
+     Tyler studied the ground. There was a narrow track from the new road to the wall, but it crossed a patch of loose stone. The keeper said it could be made safe with a short set of steps. Luke offered to carry the timber. Kirk wanted to inspect the slope first. The observer asked whether this would alter the repository's current route.
+
+     “Not if we keep the new road,” Tyler said. “We can add an access path without restoring the old route in full.”
+
+     The man considered the proposal. “Will it still be my place?”
+
+     Joseph answered. “It can be the place you remember. We don't have to make it exactly as it was.”
+
+     The man looked toward the window again. He did not agree immediately. He asked to see the ground. The keeper opened the door and walked with him outside. The others followed at a respectful distance. They examined the slope, measured the loose stone, and found a firm line where a narrow path could be built. The man pointed out the place where the old road had bent around a tree. The tree was gone, but a stump remained beneath the grass.
+
+     Luke carried two lengths of timber from the workshop. Kirk cleared the loose stones. Tyler marked the steps. Joseph stayed with the man and listened while he described the evenings he had spent beside the wall. The story was not long. It did not need to become a complete biography. The man had waited, the friend had not returned, and the road had changed. The place still mattered.
+
+     They built a short path. It did not recreate the old road. It gave the man access to the wall without pretending that the old route remained safe. When the work was finished, he walked up the steps alone. He stood beside the wall and looked toward the valley. The others waited below.
+
+     After a while he came back.
+
+     “That's enough,” he said.
+
+     The keeper asked whether he wanted the path recorded.
+
+     “Yes. But write that it goes to the wall. Don't write that it brings the road back.”
+
+     Tyler entered the instruction. The path became a new commit, linked to the old route and the current road. The previous state remained visible. The man's request was included in the record. The repository had not restored the past. It had made a present route that respected what the past still meant.
+
+     The observer understood the difference more clearly than he had when the Voice first spoke. A commit did not preserve everything by refusing change. It preserved the relationship between a change and the state that came before it. Sometimes that meant retaining an old route. Sometimes it meant building a new one. Sometimes it meant leaving two branches separate. The work was not to make every version identical. It was to keep the history legible enough that a person could decide what to do next.
+
+     The keeper brought them back inside. The large screen still showed the two conflicting room plans. The warning remained. No one had merged them. The man who had wanted the wall had returned to the window, where he could see the new steps. He seemed settled, though not finished. He had a place to go now, and the old road remained part of the record.
+
+     The Voice spoke from the monitor.
+
+     “KEEP THE FIRST STATE.”
+
+     The screen showed the old kitchen.
+
+     “KEEP THE SECOND STATE.”
+
+     The screen showed the larger house.
+
+     “KEEP THE CHANGE.”
+
+     The screen showed the repaired route to the wall.
+
+     “KEEP THE MAN WHO ASKED.”
+
+     The image changed to the older man standing beside the stone.
+
+     The observer looked toward the keeper. “Is that what the commit records?”
+
+     “It records what changed, who asked, who did the work, and what remains unresolved.”
+
+     “And what does it leave out?”
+
+     “Everything that was not part of the change.”
+
+     The answer seemed simple, but the observer saw its importance. The repository could not contain the whole life of every man. It could preserve a useful account of a particular event without claiming to possess the person himself. The man at the wall was more than the route he had requested. The route mattered because it answered one part of his history, not because it explained him.
+
+     The men returned to the first room. Tyler put the ledger back in its drawer. Kirk placed the repaired block beside the other objects. Luke looked at the monitor, where the revision list had gained a new entry. Joseph stood by the door and looked down the timber passage.
+
+     “So what happens now?” the observer asked.
+
+     Luke answered first. “We keep going.”
+
+     Tyler added, “After we check what changed.”
+
+     Kirk smiled. “And after we put the tools away.”
+
+     Joseph looked back toward the room. “We leave a way to return.”
+
+     The four answers did not conflict. They described different parts of the same practice. The repository could continue without erasing its earlier rooms. The men could move forward without pretending that every branch had to be merged. A route could be closed, repaired, or left open, depending on what the people who used it needed. The commit history was not a monument to the past. It was the means by which the present remained answerable to what had come before.
+
+     The observer followed them into the passage. Behind him, the monitor remained lit. The revision list did not end with the latest entry. It continued downward into earlier states, each one available to be opened. Somewhere beyond the repository, the northern road crossed the amber country. Somewhere farther away, the Blue Hall held its long distance. The house beyond the file continued to grow around the men who used it. None of these places had to become the final version of the others.
+
+     At the end of the passage, the observer turned back. The room was still there. The drawers were closed. The ledger remained on its shelf. The repaired block sat beside the brass key. The door with the blank plate remained unnumbered. The old road to the stone wall was preserved in the map, and the new steps could be walked.
+
+     The Voice spoke once more, almost too quietly to hear.
+
+     “A history is not a thing that has finished happening.”
+
+     The observer waited.
+
+     “It is what can still be answered.”
+
+     The passage opened onto the northern country. The men stepped out together. The road lay ahead, and the repository remained behind them, carrying every state they had chosen to keep. Nothing had been erased. Nothing had been forced into a single shape. The next change would have its own record when the men had made it.
 
 ## Chapter XII: The Serum House
 

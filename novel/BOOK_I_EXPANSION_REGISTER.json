@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "81a2101059b395421f1db496aa13f68b78d87e91",
+  "source_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 4,
+    "completed": 6,
     "in_progress": 1,
-    "queued": 67,
+    "queued": 65,
     "empty_source": 0,
-    "next_chapter_index": 4,
-    "active_chapter_id": "book-i-v",
-    "last_completed_chapter_id": "book-i-iv"
+    "next_chapter_index": 6,
+    "active_chapter_id": "book-i-vii",
+    "last_completed_chapter_id": "book-i-vi"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -62,8 +62,8 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 3,
-      "last_verified_blob_sha": "81a2101059b395421f1db496aa13f68b78d87e91",
-      "notes": "Continuity-checked and closed at 4549 words. The sister's practical, consent-centred judgment remains distinct; her brother preserves uncertainty and chooses a return without promising to remain; the boat keeper's safety-first values are expressed through action. The House of Returns extends preservation into a right-of-return ethic. The chapter leads into Chapter III's archival principles without assigning unsupported names or identities.",
+      "last_verified_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
+      "notes": "Continuity-checked and closed. The sister's practical, consent-centred judgment remains distinct; her brother preserves uncertainty and chooses a return without promising to remain; the boat keeper's safety-first values are expressed through action. The House of Returns extends preservation into a right-of-return ethic.",
       "current_word_count": 4549
     },
     {
@@ -77,9 +77,9 @@
       "target_min_words": 4000,
       "target_max_words": 7000,
       "status": "completed",
-      "revision_count": 1,
-      "last_verified_blob_sha": "81a2101059b395421f1db496aa13f68b78d87e91",
-      "notes": "Expanded in place and fetched again at 4155 words. Preserved the competing explanations of Big Daddy's Voice and the six-day chair experiment while developing the archive's daily work, the investigators' distinct methods, the old visitor's agency, and the practical consequence of preserving contradictions. Continuity checked against Chapter II's consent-centred House of Returns and Chapter IV's device archive. The Voice's origin remains unresolved.",
+      "revision_count": 2,
+      "last_verified_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
+      "notes": "Expanded and verified at 4155 words. Preserved the competing explanations of Big Daddy's Voice and the six-day chair experiment while developing the archive's daily work, the investigators' distinct methods, the old visitor's agency, and the practical consequence of preserving contradictions. The Voice's origin remains unresolved.",
       "current_word_count": 4155
     },
     {
@@ -93,9 +93,9 @@
       "target_min_words": 4000,
       "target_max_words": 7000,
       "status": "completed",
-      "revision_count": 1,
-      "last_verified_blob_sha": "81a2101059b395421f1db496aa13f68b78d87e91",
-      "notes": "Expanded in place and fetched again at 5681 words. Developed the first monitor encounter and differentiated the men's temperaments through actions across telephone, laptop, tablet, headphones, storage, browser, game, and notification interfaces. Preserved their agency and distinguished interface limits from personal character. Added practical route-testing, individual preferences, shared work, a power interruption, and the archive's transformation into a meeting environment. Continuity checked against Chapter III's source/provenance rules and Chapter V's emerging house architecture.",
+      "revision_count": 2,
+      "last_verified_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
+      "notes": "Expanded and verified at 5681 words. Differentiated the men through their habits and choices across the devices; added practical route-testing, individual preferences, shared work, a power interruption, and the archive's transformation into a meeting environment.",
       "current_word_count": 5681
     },
     {
@@ -104,14 +104,15 @@
       "title": "The House of Open Screens",
       "source_heading": "Chapter V: The House of Open Screens",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 653,
+      "source_line": 1104,
       "baseline_word_count": 594,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter in the whole-manuscript sweep. Not yet revised. Expand the first residence around the already established device functions, winter isolation, shared meals, and the changing relation between architecture and the men. Preserve the distinct temperaments established in Chapter IV and develop their shared history through ordinary use of the house."
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
+      "notes": "Expanded and verified at 4013 words. Developed the first house through shared meals, repairs, room use, winter isolation, walking routes, and the six men's habits of care. Architecture changes through lived use rather than spectacle; departure remains possible and the house becomes a place of return.",
+      "current_word_count": 4013
     },
     {
       "chapter_id": "book-i-vi",
@@ -119,14 +120,15 @@
       "title": "The Blue Hall",
       "source_heading": "Chapter VI: The Blue Hall",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 690,
+      "source_line": 1191,
       "baseline_word_count": 695,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "b7e2ebb41c4b00289b478a9e1a15c098cb327076",
+      "notes": "Expanded and verified at 4108 words. Developed the Blue Hall as a traversable memory architecture, preserving the fifty-seventh, seventy-second, eightieth, ninety-first, and hundredth openings and their seven distinct relations. The men's different methods of exploration remain visible; the Voice's answer remains open rather than being resolved into a source.",
+      "current_word_count": 4108
     },
     {
       "chapter_id": "book-i-vii",
@@ -138,10 +140,10 @@
       "baseline_word_count": 821,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "notes": "Next canonical chapter in the whole-manuscript sweep. Not yet revised. Expand the Seventh Man's appearances through continuity and the observers' differing memories without fixing an identity prematurely. Preserve the prior chapters' distinction between a person, an image, an archive, and the relationship that connects them."
     },
     {
       "chapter_id": "book-i-viii",

@@ -7238,11 +7238,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXXVI: The House Remembers the Other Side
 
-     That night the seventh chair was occupied.
-
-     Nobody saw the man arrive. He was simply there when the travelers returned to the upper chamber of the Digitorium. Ansel stood beside him, one hand resting on the back of the chair. The other six chairs were empty. The room had not changed, but the space around the seventh chair seemed more settled than before.
-
-     The stranger looked at the Teller. Then at Joseph. Then at Luke. Then at Tyler. His attention did not linger on any one man long enough to become a demand.
+     That night the seventh chair was occupied. Nobody saw the man arrive. He was simply there, seated with his hands resting on the table. Ansel stood beside him. The stranger looked at the Teller, then at Joseph, then at Luke and Tyler. He did not look surprised to find them in the chamber. He seemed to be checking whether they had returned with the same world they had carried away.
 
      “You've brought your world with you,” he said.
 
@@ -7250,151 +7246,93 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The stranger smiled. “You already have.”
 
-     Luke looked toward the chamber entrance. “We came through a door.”
+     The answer was too simple to settle anything. Tyler looked toward the doorway, where the route into the Digitorium remained visible. He could see the chamber, the upper galleries, and the stairs they had climbed. Beyond the windows the city was quiet. The men from the upper room had returned to their work, but the empty center of the chamber remained open.
 
-     “You came through with what you remembered.”
+     “What do you mean by back?” Tyler asked.
 
-     “That sounds like the same thing.”
+     The stranger looked at him. “The place you remember, or the relations that made it a place?”
 
-     “It isn't.”
+     Tyler considered the distinction. “Those should be recorded separately.”
 
-     Tyler opened his notebook. He wanted to record the stranger's words, but the page had become difficult to read. The ink remained. The order of the entries had not changed. Yet the notes seemed to refer to several different rooms at once.
+     “They can be.”
 
-     “The record has not moved,” Tyler said.
+     “Then show us.”
 
-     “Your understanding of it has,” the stranger replied.
+     Behind them, a wall became transparent. Through it they could see the House. Not as a memory. As a living place. Its rooms were expanding. New doors were appearing. The original room remained at the center. The Serum was luminous. Around it, like roots, ran thousands of thin lines. Every line ended in a relationship.
 
-     Tyler looked up. “Then how do we compare the two?”
+     The House had been listening. The entire time.
 
-     “Keep the record. Keep the disagreement. Do not pretend that one has replaced the other.”
+     Luke touched the transparent wall. Its surface was cool, but beneath it he felt the familiar grain of the old table. He could see the first room, the blue light, the chair that had been moved to make room for another man. The image did not replace the chamber in which he stood. Both places remained visible.
 
-     Kirk examined the chair. Its legs were made from the same dark timber as the House, though the grain ran in a direction he had not seen before. He checked the joints. They were sound, but the chair did not appear to have been carried into the room. It seemed to have grown from the floor.
+     “So it knows this place,” he said.
 
-     “Was it built here?” he asked.
+     The stranger answered, “It knows everything you bring back.”
 
-     “It was remembered here,” the stranger said.
+     Kirk examined the lines. Some were thick and steady. Others were faint, branching into smaller routes before reaching the rooms. He could see the history of repairs in them: a beam reinforced, a doorway widened, a stair moved without removing its first position. The House had not become larger by discarding what came before. It had grown by retaining the relations that made each addition usable.
 
-     Kirk looked at Ansel. Ansel did not confirm or deny the answer. He seemed content to let the chair remain a question.
+     “It has kept the old structure,” Kirk said.
 
-     Behind them, a wall became transparent.
+     Ansel nodded. “The first room is still doing its work.”
 
-     Through it they could see the House. Not as a memory. As a living place. Its rooms were expanding. New doors were appearing along corridors that had not existed when the travelers left. The original room remained at the center. Its table, chairs, and blue light were still visible beneath the later architecture.
+     Bill looked for the kitchen. He found it below the central stair, its table set for men who had not yet arrived. A loaf rested beneath a cloth. A kettle stood beside the stove. The House had remembered ordinary needs as carefully as it had remembered the Serum.
 
-     The Serum was luminous.
+     “It knows we will need somewhere to eat,” Bill said.
 
-     Around it, like roots, ran thousands of thin lines. Each line extended outward through a room, a door, a corridor, or a distant building. Every line ended in a relationship. Some joined two men who had traveled together. Others connected a man to a place he had repaired, a meal he had shared, or an object he had chosen to preserve. A few lines ended at empty chairs. Those lines did not disappear. They remained open.
+     “It knows you have eaten together,” the stranger replied.
 
-     Joseph stepped closer to the transparent wall. “The House has been listening.”
+     Bill considered that. “That is a better record.”
 
-     “The entire time,” the stranger said.
+     Tyler moved closer to the wall. He tried to locate the lines that connected the House to the city beneath the forest. The routes did not follow the visible architecture. One ran through the kitchen, another through the old bedroom, and another through the fifth chair. They crossed the walls without breaking them.
 
-     “Does it remember everything?”
+     “The connection isn't a corridor,” he said.
 
-     “It remembers what you bring back.”
+     “No,” Ansel replied. “A corridor is only one way to make a relation visible.”
 
-     “And what we leave behind?”
+     Joseph stood beside the Teller. In the transparent wall he could see the room where they had first recognized one another as husbands. It was not the same image the Teller saw. Joseph noticed the difference and did not ask him to adopt it. The two images remained side by side, and the line between them stayed bright.
 
-     “That is not always the same thing.”
+     The Teller looked between the two worlds. For the first time, the door did not feel like a passage. It felt like a connection. The House and the country were no longer separate. They were two sides of the same memory.
 
-     Joseph looked at the lines. He could see the route he and the Teller had taken through the House, the rooms they had left, and the places where they had returned to one another after a disagreement. The lines did not turn those moments into a perfect history. Some were faint. Some crossed. Some ended before reaching the next room.
-
-     The Teller stood beside him. “It knows this place.”
-
-     “It knows what you carry from it,” the stranger said.
-
-     Luke touched the transparent wall. His hand met a surface that felt like warm glass. The House shifted in response. A door appeared in the room beyond it, then another. He recognized the first doorway they had crossed and the room where the brass key had appeared.
-
-     “So it knows this country.”
-
-     “It knows everything you bring back.”
-
-     Tyler looked at the city behind the stranger. “Then we're not leaving.”
+     “Then we're not leaving,” Tyler said.
 
      Joseph smiled. “No.”
 
-     Bill turned from the wall. “We still need a route between the two places.”
+     The largest man looked at the stranger in the seventh chair. “Does that mean we stay here?”
 
-     “You have one,” Ansel said.
+     “It means you no longer have to treat return as retreat,” the stranger said. “You can go back without abandoning what you found.”
 
-     “A route that stays open?”
+     Luke looked toward the transparent wall. “And if the House changes again?”
 
-     “A connection does not have to remain a road.”
+     “It will.”
 
-     Bill considered this. “It still has to be usable.”
+     “How do we know it will still be the House?”
 
-     The stranger nodded. “Then keep using it.”
+     The stranger rested one hand on the table. “Because it will carry what made it the House. Not every wall. Not every chair. The relations.”
 
-     The largest man stood before the wall. He could see the room where the Serum had first expanded the table and the room where his body had changed. The earlier dimensions remained visible inside the new ones. Nothing had been discarded. The House had not chosen the largest state and erased the rest.
+     The Seventh Man watched the lines move around the Serum. He recognized the same pattern that had appeared beneath the forest. The House was not copying the country. It was answering it. The lines did not end at the wall. They continued through the roots beneath the city and into the ancient organism.
 
-     “It remembers the old shape,” he said.
+     “The two places are listening to each other,” he said.
 
-     “It remembers the relation between the shapes,” the stranger replied.
+     Ansel looked toward the floor. “They have been for longer than we knew.”
 
-     The largest man nodded. He had learned that a larger room was useful only if the men inside it could still meet.
+     The stranger did not claim to know when the connection had begun. He did not give the men a history that they could not verify. He showed them the line where the House and the country met, then let them see that it continued beyond the visible edge.
 
-     Kirk watched the root-like lines. “Are these supports?”
+     The Serum brightened.
 
-     “Some are.”
+     Somewhere in the forest, a bell rang. Three notes. Then seven. Then one.
 
-     “And the others?”
+     The sound passed through the transparent wall and into the chamber. The House's rooms held steady. The city below the forest answered with a low pulse. Beneath the country, the ancient organism began to wake.
 
-     “Routes. Records. Promises. Repairs. Things that continue to carry weight after the men who began them have moved elsewhere.”
+     Joseph kept his hand near the Teller's. Tyler recorded the sequence. Kirk watched the structure. Bill checked that the men had what they needed. Luke stood beside the wall, looking at the first room. The largest man listened to the floor. The Seventh Man watched the lines move beneath the Serum.
 
-     Kirk looked again. The lines were not all equally thick. Some had grown broad through repeated use. Others remained thin but unbroken. He recognized the difference between a structure that carried a great load and one that held a small but necessary connection.
+     The stranger in the seventh chair remained seated.
 
-     Luke pointed to a line that ran from the House toward the forest. “That one?”
+     “What happens now?” Joseph asked.
 
-     “A road.”
+     Ansel looked toward the forest. “Now the other side answers.”
 
-     “And that?”
+     The wall stayed transparent. The House did not disappear. The country did not close. For the first time, the men could see both places without having to choose which one was real.
 
-     “A return.”
-
-     “What's the difference?”
-
-     “A road tells you where you can go. A return tells you what you have chosen not to abandon.”
-
-     Joseph looked at the stranger. “And the empty lines?”
-
-     “Places where a choice has not been made.”
-
-     The stranger did not tell them to fill those spaces. He did not call them failures. The lines remained open, and the House did not close around them.
-
-     Ansel moved away from the chair. “You have seen enough for tonight.”
-
-     Luke looked toward the transparent wall. “We could stay here.”
-
-     “You can,” Ansel said.
-
-     “And go back?”
-
-     “You can do that too.”
-
-     The stranger looked at the Teller. “The door no longer has to be a test.”
-
-     The Teller considered the House and the country beyond it. “It can be a connection.”
-
-     Joseph stood beside him. “A connection that both places remember.”
-
-     The House brightened. The Serum's light traveled through the root-like lines, passing from room to room. It did not move as a wave that consumed what it touched. It moved like a message being carried from one place to another, each connection holding its own part of the journey.
-
-     Somewhere in the forest, a bell rang.
-
-     Three notes.
-
-     Then seven.
-
-     Then one.
-
-     The sound passed through the Digitorium and into the transparent wall. The House answered with a low vibration. Beneath the country, the ancient organism began to wake.
-
-     The stranger remained seated. Ansel stood beside him. The seventh chair was no longer empty, but no one asked the man to explain where he had come from.
-
-     The travelers stayed in the chamber until the last note faded. They understood that bringing the world back did not mean carrying every building or every object through the door. It meant carrying the relations that allowed the places to remain connected.
-
-     The House and the country were no longer separate.
-
-     They were two sides of the same memory.
+     The Serum held its light.
 
 ## Chapter XXXVII: The Waking Country
 

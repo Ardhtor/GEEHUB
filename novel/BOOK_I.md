@@ -7135,31 +7135,106 @@ The architects had been sent north with a letter of instruction and a set of ins
      And from somewhere deep inside the enormous living structure came a sound like a voice attempting to remember a word.
 
 ## Chapter XXXV: The First Test
-     The sound continued through the night. Nobody slept. By morning the city had changed. The paths between the houses were gone. The Digitorium could no longer be seen. The forest had closed around them. The men stood together in a clearing. Tyler looked at Luke.
 
-     “What did it do?”
+     The sound continued through the night. Nobody slept. It moved through the organism and the city above it, sometimes low enough to be mistaken for water in a pipe, sometimes clear enough to make the windows tremble. The men tried to identify its source. Tyler recorded the intervals. Kirk checked the supports beneath the chamber. Bill walked the channels with the maintenance crew. Luke listened at the doors. Joseph remained beside the Teller.
+
+     By morning the city had changed.
+
+     The paths between the houses were gone. The Digitorium could no longer be seen. The forest had closed around them. The men stood together in a clearing where the ground was pale and soft beneath the trees. The House was absent. So was the road by which they had entered the country. They could still see one another, but the space between them had become difficult to cross.
+
+     Tyler looked at Luke. “What did it do?”
 
      Luke listened.
 
      “It separated us.”
 
-     Joseph looked around. The others were already disappearing into the fog. Not physically. Relationally. Each man could still see the others, but their memories of one another were becoming uncertain. Tyler looked at Joseph. For a moment he could not remember how they had met. Luke looked at Tyler. He knew the face. He did not know the history. The Teller felt the loss immediately. The country was testing the same principle the House had discovered. If relationship produced world, then the destruction of relationship should destroy world. Joseph reached for the Teller's hand. The contact steadied the fog.
+     “We are standing together.”
 
-     “I remember,”
+     “Not in the same way.”
 
-     Joseph said. The Teller nodded. Luke closed his eyes.
+     Tyler looked at the others. He knew their faces. He could identify their clothes, their posture, and the objects they carried. But when he tried to remember how he had first met Joseph, the memory broke apart. He could see the room. He could remember the table. He could not remember the conversation that had brought them there.
+
+     Luke looked at Tyler. He knew the face. He did not know the history. He could remember arguing with him, but not what they had argued about. He tried to recall the first map Tyler had shown him. The image remained, but the reason it had mattered was gone.
+
+     Kirk reached for the tool roll at his side. He knew how to repair a joint, how to test a beam, and how to recognize a structure under strain. He could not remember who had taught him to trust Joseph's judgment. The absence was not a blank in his mind. It was a space where a familiar response should have been.
+
+     Bill checked the provisions. He knew what they had brought and how much remained. He could not remember who had packed the first meal or who had carried the water when the road narrowed. He looked at the men and felt responsible for them, but the history that had made the responsibility ordinary was slipping away.
+
+     The largest man stood in the center of the clearing. He could still feel the weight of his body and the ground beneath his feet. He remembered the rooms that had widened around him, but the men who had stood beside him in those rooms had become uncertain. Their presence remained. Their shared history did not.
+
+     The Teller felt the loss immediately. The country was testing the same principle the House had discovered. If relationship produced world, then the destruction of relationship should destroy the world that depended on it.
+
+     Joseph reached for the Teller's hand.
+
+     The contact steadied the fog.
+
+     “I remember,” Joseph said.
+
+     The Teller nodded. He did not claim that the touch had restored everything. He held Joseph's hand because he chose to, and because the choice remained possible even when the memory behind it had become unclear.
+
+     Tyler opened his notebook. The pages were filled with measurements, dates, and descriptions, but the names had begun to fade. He could still read the records. He could no longer tell why certain entries had been important to him.
+
+     “The record is here,” he said. “But I don't know what it belongs to.”
+
+     Joseph looked at him. “Then begin with what you can still verify.”
+
+     Tyler examined the page. “I remember the room.”
+
+     The words brought back the shape of the first table, the blue light, and the door that had opened without moving. He did not recover every conversation. He recovered enough to know that the room had been shared.
+
+     Luke closed his eyes.
 
      “I remember the box.”
 
-     Tyler looked at the doorway marks he carried in his memory.
+     He remembered the weight of its lid, the sound it made when it closed, and the way it had held objects that did not belong to the same history. He remembered opening it with another man beside him. He could not see the man's face, but he knew the box had never been meant to be used alone.
 
-     “I remember the room.”
+     Kirk touched the nearest tree.
 
-     One by one the others spoke. A chair. A tree. A song. A photograph. A door. A night beneath the redwoods. The memories became anchors. The forest stopped moving. The city returned. And the enormous organism beneath the ground gave one final pulse. This time it sounded like a word. Not their word. But close.
+     “I remember the chair.”
+
+     He remembered repairing a loose joint and leaving the old wood visible. He remembered a man sitting in it while he worked. The name would not come, but the patience of the other man's presence remained.
+
+     Bill looked down at the ground.
+
+     “I remember the table.”
+
+     He remembered food being passed from one side to another, the place kept open for a man who had not arrived yet, and the ordinary work of clearing the dishes afterward. The memory was not of a feast. It was of men making room for one another.
+
+     The largest man looked toward the trees.
+
+     “I remember the tree.”
+
+     He remembered a night beneath the redwoods, the dry ground, and the fire. He remembered that the men had disagreed about the road and still eaten together. The tree had stood above them without asking which man was right.
+
+     The Seventh Man looked along the clearing.
+
+     “I remember the road.”
+
+     He remembered its bends, its returns, and the places where it had changed without erasing the earlier route. He remembered that a road could remain open even when a traveler chose not to follow it.
+
+     Joseph looked at the Teller. “I remember your hand.”
+
+     The Teller held his gaze. “I remember that you reached for it.”
+
+     One by one the memories became anchors. They did not restore the past as a complete record. They gave the men enough to begin again without pretending that nothing had been lost. The fog stopped moving. The trees held their positions. The clearing remained.
+
+     The country had not been asking whether the men could survive without the House. It had been testing whether they understood what the House had taught them. A building could preserve a room, but the room did not create the relationship. A record could preserve an account, but the account did not own the life it described. A man could remember another man and still had to choose how to treat him now.
+
+     The city returned.
+
+     The Digitorium appeared between the trees. The streets came back in their former arrangement, though several buildings had shifted. The channels began to carry water again. The men who had been working on the organism emerged from the lower passages and looked around. They did not ask who had won. They checked the supports and reopened the routes.
+
+     The enormous organism beneath the ground gave one final pulse.
+
+     This time it sounded like a word. Not their word, but close.
 
      “Continuance.”
 
-     Luke opened his eyes. The Teller understood. The country had not been asking whether they could survive without the House. It had been asking whether they understood what the House had taught them. They did. Growth was not what remained when everything became larger. Growth was what remained when everything changed.
+     Luke opened his eyes. The Teller understood. The country had not asked them to preserve every memory exactly as it had been. It had asked whether they could continue without making change into erasure.
+
+     Growth was not what remained when everything became larger. Growth was what remained when everything changed.
+
+     The men stood together in the clearing. Their memories were not identical again. They did not need to be.
 
 ## Chapter XXXVI: The House Remembers the Other Side
 

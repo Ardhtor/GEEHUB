@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "4d941073fa50d08162d677c537d90ab517814507",
+  "source_blob_sha": "81a2101059b395421f1db496aa13f68b78d87e91",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 1,
+    "completed": 4,
     "in_progress": 1,
-    "queued": 70,
+    "queued": 67,
     "empty_source": 0,
-    "next_chapter_index": 1,
-    "active_chapter_id": "book-i-ii",
-    "last_completed_chapter_id": "book-i-i"
+    "next_chapter_index": 4,
+    "active_chapter_id": "book-i-v",
+    "last_completed_chapter_id": "book-i-iv"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -56,14 +56,15 @@
       "title": "The First Return",
       "source_heading": "Chapter II: The First Return",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 428,
+      "source_line": 429,
       "baseline_word_count": 1089,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
+      "status": "completed",
       "revision_count": 3,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Expanded to approximately 4,550 words. Cast revised to all male: the searching elder brother, his brother, male records keeper, male repairer, male boat keeper, male route worker, and boy route supervisor. Voice distinctions are conveyed through practical decisions, record-keeping, restraint, and dialogue. Chapter remains in progress pending full continuity review."
+      "last_verified_blob_sha": "81a2101059b395421f1db496aa13f68b78d87e91",
+      "notes": "Continuity-checked and closed at 4549 words. The sister's practical, consent-centred judgment remains distinct; her brother preserves uncertainty and chooses a return without promising to remain; the boat keeper's safety-first values are expressed through action. The House of Returns extends preservation into a right-of-return ethic. The chapter leads into Chapter III's archival principles without assigning unsupported names or identities.",
+      "current_word_count": 4549
     },
     {
       "chapter_id": "book-i-iii",
@@ -71,14 +72,15 @@
       "title": "Big Daddy's Voice",
       "source_heading": "Chapter III: Big Daddy's Voice",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 567,
+      "source_line": 808,
       "baseline_word_count": 705,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "81a2101059b395421f1db496aa13f68b78d87e91",
+      "notes": "Expanded in place and fetched again at 4155 words. Preserved the competing explanations of Big Daddy's Voice and the six-day chair experiment while developing the archive's daily work, the investigators' distinct methods, the old visitor's agency, and the practical consequence of preserving contradictions. Continuity checked against Chapter II's consent-centred House of Returns and Chapter IV's device archive. The Voice's origin remains unresolved.",
+      "current_word_count": 4155
     },
     {
       "chapter_id": "book-i-iv",
@@ -86,14 +88,15 @@
       "title": "The Men Inside the Devices",
       "source_heading": "Chapter IV: The Men Inside the Devices",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 600,
+      "source_line": 911,
       "baseline_word_count": 675,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "81a2101059b395421f1db496aa13f68b78d87e91",
+      "notes": "Expanded in place and fetched again at 5681 words. Developed the first monitor encounter and differentiated the men's temperaments through actions across telephone, laptop, tablet, headphones, storage, browser, game, and notification interfaces. Preserved their agency and distinguished interface limits from personal character. Added practical route-testing, individual preferences, shared work, a power interruption, and the archive's transformation into a meeting environment. Continuity checked against Chapter III's source/provenance rules and Chapter V's emerging house architecture.",
+      "current_word_count": 5681
     },
     {
       "chapter_id": "book-i-v",
@@ -105,10 +108,10 @@
       "baseline_word_count": 594,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "notes": "Next canonical chapter in the whole-manuscript sweep. Not yet revised. Expand the first residence around the already established device functions, winter isolation, shared meals, and the changing relation between architecture and the men. Preserve the distinct temperaments established in Chapter IV and develop their shared history through ordinary use of the house."
     },
     {
       "chapter_id": "book-i-vi",
@@ -1115,5 +1118,56 @@
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
       "notes": ""
     }
-  ]
+  ],
+  "source_chapter_heading_count": 65,
+  "unlocated_in_source_chapters": [
+    {
+      "chapter_id": "book-i-lxvi",
+      "chapter_number": "LXVI",
+      "source_heading": "Chapter LXVI: The Keeper of the First Stop",
+      "source_path": "novel/BOOK_I.md"
+    },
+    {
+      "chapter_id": "book-i-lxvii",
+      "chapter_number": "LXVII",
+      "source_heading": "Chapter LXVII: The Eyes Beneath the Well",
+      "source_path": "novel/BOOK_I.md"
+    },
+    {
+      "chapter_id": "book-i-lxviii",
+      "chapter_number": "LXVIII",
+      "source_heading": "Chapter LXVIII: The Unnamed Man",
+      "source_path": "novel/BOOK_I.md"
+    },
+    {
+      "chapter_id": "book-i-lxix",
+      "chapter_number": "LXIX",
+      "source_heading": "Chapter LXIX: The First Man Who Was Never Born",
+      "source_path": "novel/BOOK_I.md"
+    },
+    {
+      "chapter_id": "book-i-lxx",
+      "chapter_number": "LXX",
+      "source_heading": "Chapter LXX: The Ascent",
+      "source_path": "novel/BOOK_I.md"
+    },
+    {
+      "chapter_id": "book-i-lxxi",
+      "chapter_number": "LXXI",
+      "source_heading": "Chapter LXXI: The Mouth Beneath the House",
+      "source_path": "novel/BOOK_I.md"
+    },
+    {
+      "chapter_id": "book-i-lxxii",
+      "chapter_number": "LXXII",
+      "source_heading": "Chapter LXXII: The Door Left Open",
+      "source_path": "novel/BOOK_I.md"
+    }
+  ],
+  "source_register_reconciliation": {
+    "manuscript_chapter_heading_count": 65,
+    "register_chapter_count": 72,
+    "unmatched_register_entries": 7,
+    "note": "The 65 headings currently present in novel/BOOK_I.md match the first 65 register entries. Register entries LXVI–LXXII remain in the register but have no matching heading in this manuscript file; they are retained as an explicit reconciliation item and have not been marked complete."
+  }
 }

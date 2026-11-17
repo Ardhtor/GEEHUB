@@ -4873,13 +4873,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The room had been quiet until they saw the Serum. It stood in the center of the table inside a glass vessel that none of them remembered placing there, thick and luminous, moving almost imperceptibly against itself as though the substance possessed a private gravity. The seven men gathered around it without speaking. Each saw something different in it. One saw a cure. One saw power. One saw an opportunity. One saw a terrible mistake waiting to happen. The largest man saw the reflection of all seven of them bending around the vessel, their bodies distorted by the glass, and understood before anyone said anything that they were already fighting over it.
 
-     “Nobody touches it,”
+     “Nobody touches it,” he said.
 
-     he said.
-
-     “You don't get to decide that,”
-
-     said another.
+     “You don't get to decide that,” said another.
 
      “Neither do you.”
 
@@ -4889,22 +4885,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      That answer changed the room. They looked back at the vessel. The substance had begun to rise. Not spill, not boil, not react to heat: rise, slowly climbing the inside of the glass as though the vessel itself had become too small.
 
-     “It’s responding to us,”
+     “It's responding to us,” one of them whispered.
 
-     one of them whispered.
-
-     “No,”
-
-     said the largest man.
-     “We’re responding to it.”
+     “No,” said the largest man. “We're responding to it.”
 
      The argument broke open. One man wanted to destroy the vessel. Another seized it and held it against his chest. Two others tried to pull it away. Someone knocked the table sideways. Glass struck the floor but did not break. The Serum remained suspended inside its container, perfectly intact, shining between them.
 
-     “Look at us,”
-
-     one of the men said.
-
-     “This is already changing us.”
+     “Look at us,” one of the men said. “This is already changing us.”
 
      “Then we stop it.”
 
@@ -4912,33 +4899,145 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Nobody answered. The seventh man had been silent until then. He stepped forward and placed his palm against the glass. The Serum moved toward him. Every man in the room saw it happen. It leaned toward his hand like a living thing recognizing someone.
 
-     “It chose him,”
+     “It chose him,” one said.
 
-     one said.
-
-     “No,”
-
-     said another.
-
-     “It chose all of us.”
+     “No,” said another. “It chose all of us.”
 
      Then the walls creaked. The ceiling lifted several inches. The table stretched beneath their hands. The room itself expanded around them, accommodating the conflict as though the building had understood what they were arguing about and decided there must be more space. The men stopped fighting. For a moment they simply stood there, seven silhouettes around the glowing vessel, each seeing in it a different future and none willing to surrender his claim upon what that future might become. Then the largest man reached for it.
 
-     “If we keep fighting over who owns it,”
+     “If we keep fighting over who owns it,” he said, “we'll never find out what it actually does.”
 
-     he said,
+     The Serum brightened. Somewhere beyond the walls, another door opened.
 
-     “we’ll never find out what it actually does.”
+     The change began in the chest. It was not sudden enough to be called an explosion, but it was too deliberate to be mistaken for ordinary growth. The largest man felt his sternum press forward as his torso broadened around it, his chest widening from shoulder to shoulder until the shirt across him pulled tight. The others watched the fabric change first, seams drawing outward, then the body beneath it continuing past the dimensions the room had been built to accommodate. His chest became broader, deeper, wider, and the space around him answered by widening with it. The table moved back. The walls eased apart. The doorway grew taller. He breathed once, slowly, and the room seemed to breathe with him.
 
-     The Serum brightened. Somewhere beyond the walls, another door opened. The change began in the chest. It was not sudden enough to be called an explosion, but it was too deliberate to be mistaken for ordinary growth. The largest man felt his sternum press forward as his torso broadened around it, his chest widening from shoulder to shoulder until the shirt across him pulled tight. The others watched the fabric change first, seams drawing outward, then the body beneath it continuing past the dimensions the room had been built to accommodate. His chest became broader, deeper, wider, and the space around him answered by widening with it. The table moved back. The walls eased apart. The doorway grew taller. He breathed once, slowly, and the room seemed to breathe with him.
+     “More?” someone asked.
 
-     “More?”
-
-     someone asked. The largest man looked down at himself, then toward the Serum. The Serum rose another fraction.
+     The largest man looked down at himself, then toward the Serum. The Serum rose another fraction.
 
      “Apparently.”
 
      His chest widened again.
+
+     The man who had wanted to destroy the vessel stepped away from the table. He was not afraid of the largest man. He was afraid of the ease with which the room had accepted the change. He had spent his life believing that a boundary was useful because it held. A wall kept weather out. A vessel kept liquid in. A body had a shape that could be measured and cared for. Now each boundary seemed to be an invitation to continue.
+
+     “You don't know where this ends,” he said.
+
+     The largest man looked at him. “Neither do you.”
+
+     “That is why we should stop.”
+
+     “Stopping is also a choice. It doesn't make us safe.”
+
+     The seventh man kept his hand against the glass. The Serum had not moved beyond the vessel. Its surface remained smooth. Yet the reflection inside it had become clearer. The men saw themselves at different ages, in different rooms, wearing different clothes. One saw a version of himself standing alone in a field. Another saw himself surrounded by men whose faces he did not recognize. The largest man saw the room as it had been before the vessel appeared. He could still remember the table, the walls, the first argument. The new image did not erase the old one.
+
+     “What do you see?” one asked the seventh man.
+
+     “The same room.”
+
+     “That's all?”
+
+     “No. I see what it can hold.”
+
+     The man who had seized the vessel earlier rubbed his hands together. He wanted to know whether the Serum could make a man stronger, larger, or more durable. He had heard stories from the southern roads and had assumed the substance would answer a direct demand. He asked whether the change could be controlled.
+
+     The largest man did not answer for the Serum.
+
+     “What would you ask it to do?”
+
+     “Make me stronger.”
+
+     “Stronger for what?”
+
+     The man hesitated. He had no clear answer. He had wanted strength because strength had always been treated as proof that he was progressing. He had not decided what he wanted to do with it.
+
+     “I don't know yet.”
+
+     “Then don't ask yet.”
+
+     The man disliked being told to wait, but he could not argue with the question. He stepped back from the table.
+
+     Another man asked whether the Serum could restore something that had been lost. A third wanted to know whether it could preserve a body from age. The fourth asked whether it could reproduce a memory without changing it. The questions came quickly, each man trying to find a use that would justify his interpretation. The vessel did not answer. It continued to reflect them.
+
+     The room expanded another few inches. The largest man's chest had become so broad that the old doorway no longer framed him. The new opening accommodated him without a sound. He looked at his hands. They were still his hands. He remembered their earlier size and could feel the continuity between the two states. He did not experience the new body as a replacement. The earlier body remained present in memory and sensation, not as an image of something lost but as the state from which he had continued.
+
+     “Does it hurt?” one of the men asked.
+
+     “No.”
+
+     “Does it feel different?”
+
+     “Yes.”
+
+     “Are you still yourself?”
+
+     The largest man considered the question. “I haven't gone anywhere.”
+
+     The seventh man removed his hand from the vessel. The Serum did not follow him. It remained suspended in the glass, and the blue light softened. The room stopped expanding. The men waited for another change. None came.
+
+     The man who had wanted to destroy the vessel approached the table again. He looked at the glass and then at the largest man.
+
+     “I still think we should secure it.”
+
+     “Secure it from what?”
+
+     “From us.”
+
+     The largest man nodded. “That is a better question.”
+
+     They moved the table away from the center of the room, not to hide the vessel but to give it space. The seventh man suggested that the chamber be recorded before anyone tried another experiment. The others agreed. They described the first appearance, the argument, the movement of the Serum, and the changes in the room. They recorded what each man had seen without forcing the accounts into a single version. The man who saw a cure kept that description. The man who saw power kept his. The man who saw a terrible mistake wrote down the reasons. None of them was required to adopt the largest man's interpretation.
+
+     The archivist arrived with a ledger and a small measuring frame. He did not ask to touch the vessel. He recorded the dimensions of the room, the position of the table, and the distance between the vessel and the nearest wall. The measurements were entered with the time and the names of the men present. The largest man gave permission for his changed proportions to be recorded, but asked that the earlier measurements remain beside the new ones.
+
+     “Why?” the archivist asked.
+
+     “Because this is not the only shape I've had.”
+
+     The archivist wrote it down.
+
+     The man who had asked for strength watched the record being made. “Will the archive tell us what the Serum is?”
+
+     “It will tell you what we have observed,” the archivist said.
+
+     “That's not enough.”
+
+     “It is what we know.”
+
+     The man looked at the vessel again. “Then we need to learn more.”
+
+     The largest man rested one hand on the edge of the table. “Yes. But we don't need to pretend we already know.”
+
+     The Serum brightened once, briefly. The reflection showed the seven men around the table, then the same seven at a later time, then a room in which the table stood empty. The image did not linger long enough to become a prediction. It returned to the present.
+
+     The seventh man spoke.
+
+     “It continues.”
+
+     The others looked at him.
+
+     “What does that mean?” asked the man who wanted strength.
+
+     “It doesn't stop at the first result.”
+
+     “Then it will keep changing us?”
+
+     “It may. It may also keep the earlier state.”
+
+     The largest man looked at the vessel. “More is not the same as replacement.”
+
+     Nobody answered. They had all seen enough to understand the distinction, though none could yet say what it would require of them.
+
+     The archivist closed the ledger. The men agreed that the vessel would remain in the chamber. No one would claim it as private property. No one would use it alone. Any further observation would be recorded, and any experiment would require the agreement of the men who would be affected. The agreement was provisional. They would revise it when they knew more.
+
+     Outside the room, the new door remained open. The city beyond it continued to expand in small, ordinary ways. A bridge was being repaired. A workshop had added another bench. A group of men were carrying timber toward the upper hall. The Serum's light passed through the walls, but it did not command the city. The men were still responsible for what they built.
+
+     The largest man stood beside the vessel after the others had left. He looked at the glass. His reflection was broader than the figure he remembered entering the room, but both belonged to him. He placed his palm against the table, not the vessel.
+
+     “We will learn,” he said.
+
+     The Serum moved within the glass. It did not rise again.
+
+     The first change had been made. The next would require more than curiosity.
 
 ## Chapter XXII: The Liminal Chest
 

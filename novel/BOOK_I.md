@@ -8232,117 +8232,85 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XLVI: The Window
 
-     The window was gone by morning.
+     The window was gone by morning. In its place stood a narrow tower. It had not been built by workers. There were no scaffolds, no foundations, and no evidence of construction. It simply occupied the forest as though it had always been there and the country had only now decided to reveal it. The tower was made from the same dark stone as the Digitorium. At its highest point was one blue window.
 
-     In its place stood a narrow tower. It had not been built by workers. There were no scaffolds, no foundations, no evidence of construction. It simply occupied the forest as though it had always been there and the country had only now decided to reveal it.
+     The men stood beneath it. Tyler looked upward.
 
-     The tower was made from the same dark stone as the Digitorium. Its walls were smooth, but the joints did not align in the usual way. At its highest point was one blue window. The glass gave no reflection. It held a steady light, neither bright nor dim.
+     “How do we get in?”
 
-     The men stood beneath it.
+     Luke pointed. There was no door. Joseph laughed quietly.
 
-     Tyler looked upward. “How do we get in?”
+     “That seems familiar.”
 
-     Luke pointed. There was no door.
+     The Teller touched the stone. It was cool and smooth, with no visible seam. The tower did not open. Instead, somewhere above them, the blue window went dark. A moment later, the same light appeared behind them. They turned. A second tower stood across the street. Then a third. Then a fourth. The city had begun repeating the structure. Not one tower, but a network. Each blue window connected to another.
 
-     Joseph laughed quietly. “That seems familiar.”
+     The Digitorium was becoming an instrument.
 
-     Nobody tried to force an entrance. Kirk examined the base and found no foundation line. The tower met the ground without a seam. Bill checked the street behind them. The road remained open, and the way back to the Digitorium was clear.
+     Luke looked at the pattern. “It's making a circuit.”
 
-     The Teller touched the stone.
+     Tyler studied the windows. He marked their positions, then stopped when the next tower appeared beyond the edge of his map. The circuit was not being built in a fixed order. Each new window changed the relation between the others.
 
-     The tower did not open.
+     “What happens if we complete it?” he asked.
 
-     Instead, somewhere above them, the blue window went dark. A moment later, the same light appeared behind them. They turned. A second tower stood across the street. Then a third. Then a fourth. Each had a blue window at a different height. The city had begun repeating the structure.
+     Joseph answered before the Teller could. “We don't.”
 
-     Not one tower. A network.
+     They all looked at him. Joseph pointed toward the final tower. It was different. Its window was not blue. It was black. No light came from it. No reflection entered it. The other windows seemed to direct attention toward it, but the black surface did not return anything.
 
-     Tyler studied the arrangement. “The windows are connected.”
+     “Why not?” Luke asked.
 
-     Luke looked from one to another. “It's making a circuit.”
+     “Because it is not asking us to complete the circuit.”
 
-     Tyler stared at the windows. “What happens if we complete it?”
+     Tyler looked at the pattern again. “Then what is it asking?”
 
-     Joseph answered before the Teller could.
+     “Nothing yet.”
 
-     “We don't.”
-
-     They all looked at him.
-
-     Joseph pointed toward the final tower. It was different. Its window was not blue. It was black. No light came from it. No reflection entered it. It did not appear broken or unfinished. It seemed to have been made black on purpose.
-
-     “Why leave that one out?” Bill asked.
-
-     “Maybe it isn't out,” Joseph said.
-
-     The Teller walked toward it. The others followed, but they did not surround him. They left a clear path to the tower. The black window seemed to absorb the distance between them and the wall.
-
-     At the base of the tower was a small inscription. Not a name. Not a command. A question.
+     The Teller walked toward the black window. The others followed, but Joseph remained a step behind. At the base of the tower was a small inscription. Not a name. Not a command. A question.
 
      WHO WERE YOU BEFORE ANYONE REMEMBERED YOU?
 
-     The Teller read it twice.
+     The Teller read it twice. He thought of the House, the first room, the Serum, and the archive. He thought of the records that had given him a place in the world and the relations that had made those records matter. He could not answer the question by removing everything that had happened since. The man who had existed before memory was not a separate person waiting beneath the history. He was still present inside it.
 
-     Tyler examined the stone around the letters. “It was not carved into the surface. The words are part of the material.”
-
-     Kirk ran a finger along the edge. “There is no join.”
-
-     Luke looked at the question. “Before anyone remembered you. That's not the same as before you existed.”
-
-     “No,” Joseph said. “It asks what you were before someone made a record of you.”
-
-     The Teller placed his hand against the stone.
+     He placed his hand against the stone.
 
      Nothing happened.
 
      He tried again. Still nothing.
 
-     The others waited. Nobody told him to try harder. Nobody suggested that the tower was refusing him. He stepped back and looked at the black window.
-
-     Luke placed his hand beside the Teller's. The stone remained dark. Tyler joined him, then Kirk. Bill placed his palm lower down, where the inscription ended. The largest man waited until there was room, then touched the wall. Joseph stood beside the Teller. The Seventh Man placed his hand last.
+     Luke stepped beside him. Tyler followed. Joseph came next. One after another, the men placed their hands against the tower. Kirk tested the surface and found no mechanism. Bill stood close enough to steady the others if the ground shifted. The largest man waited at the edge of the group. The Seventh Man listened to the tower as if it were another road.
 
      The black window opened.
 
      Not outward. Inward.
 
-     Beyond it was the original room. The chair. The blue screen. The empty walls.
-
-     But there was one difference.
+     Beyond it was the original room. The chair. The blue screen. The empty walls. The room looked exactly as they remembered it, but there was one difference.
 
      Someone was sitting in the chair.
 
-     The Teller could see him now. The man looked directly through the impossible distance between worlds. He was not Cael. He was not the shadow. He was not the man from the photograph. He was not anyone they knew. His clothes were plain. His posture was relaxed. He did not appear surprised to see them.
-
-     He smiled.
+     The Teller could see him now. The man looked directly through the impossible distance between worlds. He was not Cael. He was not the shadow. He was not the unnamed man who had emerged from the photograph. He was not anyone they knew. He smiled.
 
      The eighth note sounded again.
 
      This time the country answered with silence.
 
-     The silence was enormous. It was the first thing the world had ever made that did not ask to be remembered. It did not close around the man in the chair. It did not make him larger or bring him nearer. It left the distance intact.
+     The silence was enormous. It was not the absence of sound after the note. It was a response that did not ask to be interpreted. The men could hear their own breathing and the faint movement of the trees. The towers remained in place. The blue windows held their light. The black window showed the room without bringing it closer.
 
-     The Teller stepped toward the window.
+     The Teller stepped toward it.
 
      Behind him, Joseph said his name.
 
      He stopped.
 
-     Joseph did not reach for him. He did not tell him to return. He had called only to make sure the Teller knew he was there.
+     Joseph did not pull him back. He did not tell him what to do. He had only called him, and the Teller had chosen to turn. The man in the chair continued to look through the window. He did not wave. He did not ask them to come closer. The room waited. The man waited. The country waited.
 
-     The Teller looked at the man in the chair. The man continued to smile. He did not beckon. He did not ask to be recognized. He did not turn away.
+     Tyler lowered his hand. Kirk stepped away from the tower. Bill checked that the path behind them remained open. Luke looked from the black window to Joseph, then back again. The largest man did not move. The Seventh Man listened until the eighth note had completely faded.
 
-     The Teller lowered his hand.
+     For the first time since the House began growing, the next transformation did not begin with attention. It began with restraint.
 
-     The window closed.
+     The Teller lowered his hand. The window closed.
 
      No one spoke.
 
-     The network of blue windows remained visible across the forest. None of them went dark. The black window returned to its place in the tower, closed without a sound.
-
-     Far beneath Veyrthalis, the ancient organism moved once in its sleep.
-
-     The men turned away from the tower. They had not completed the circuit. They had not entered the room. They had not named the man in the chair.
-
-     And somewhere beyond the city, a door opened for someone else.
+     Far beneath Veyrthalis, the ancient organism moved once in its sleep. And somewhere beyond the city, a door opened for someone else.
 
 ## Chapter XLVII: The Room That Had Been Waiting
 

@@ -7900,11 +7900,47 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XLII: The First Attention
 
-     The chair had been waiting for someone to notice it. That was the thought that came to the Teller, and he disliked it because it was too simple. The entire country had become enormous. Cities had awakened. An ancient organism had spoken. A seventh man had crossed whatever boundaries existed before them. Surely the beginning could not be something as ordinary as looking at a chair. But when he sat down, the world became quiet. Not silent. Quiet. There was a difference. The blue electrical hum disappeared beneath the sound of breathing. Joseph stood beside him. Luke remained near the wall. Tyler leaned against the doorway. The others waited behind them. The Teller looked at the chair. Then he looked at the men. For the first time, he understood what the House had been doing from the beginning. It had not been growing because they were powerful. It had been growing because they were specific. Every time someone noticed something precisely, the world gained another boundary. Luke noticed the grain of wood. Tyler noticed the width of a doorway. Joseph noticed the difference between leaving and staying. Another man noticed a song. Another noticed a road. Another remembered a face. Attention did not make things larger. It made them real enough to continue. The chair creaked beneath him. A second voice came from the room. Not the organism. Not Cael. Not any of the men. A voice without distance.
+     The chair had been waiting for someone to notice it.
+
+     That was the thought that came to the Teller, and he disliked it because it was too simple. The entire country had become enormous. Cities had awakened. An ancient organism had spoken. A seventh man had crossed whatever boundaries existed before them. Surely the beginning could not be something as ordinary as looking at a chair.
+
+     But when he sat down, the world became quiet.
+
+     Not silent. Quiet. There was a difference. The blue electrical hum disappeared beneath the sound of breathing. The room remained small. The walls did not move. The chair did not become a throne or a machine. It held his weight and creaked once beneath him.
+
+     Joseph stood beside him. Luke remained near the wall. Tyler leaned against the doorway. Kirk watched the chair's joints. Bill waited near the open passage. The largest man stood far enough back not to crowd the room. The Seventh Man remained by the threshold. Cael watched without trying to take the center.
+
+     The Teller looked at the chair. Then he looked at the men.
+
+     For the first time, he understood what the House had been doing from the beginning. It had not been growing because they were powerful. It had been growing because they were specific.
+
+     Every time someone noticed something precisely, the world gained another boundary. Luke noticed the grain of wood. Tyler noticed the width of a doorway. Joseph noticed the difference between leaving and staying. Kirk noticed the joint that could be repaired without replacing the chair. Bill noticed the place left open at the table. The largest man noticed when a room needed more space and when it needed him to stand aside. The Seventh Man noticed a road that continued after the traveler had turned back. Cael noticed that a door could lead further without making the journey deeper.
+
+     Another man noticed a song. Another noticed a road. Another remembered a face. These acts did not make things larger. They made them real enough to continue.
+
+     The Teller understood that the chair had not been waiting for a body. It had been waiting for attention that did not turn it into an object of possession. The chair could be sat in, left empty, moved, repaired, or remembered. None of those actions exhausted what it was.
+
+     The chair creaked beneath him.
+
+     A second voice came from the room. Not the organism. Not Cael. Not any of the men. A voice without distance.
 
      “Then look.”
 
-     The Teller looked. The room opened. For one impossible instant he saw every version of the House at once: the first room, the growing room, the hall, the city, Veyrthalis, the Digitorium, the forest, the organism, the archive, the chair beneath all of them. They were not separate places. They were the same act at different depths. Then the vision collapsed. The room returned. Tyler was staring at him.
+     The Teller looked.
+
+     The room opened.
+
+     For one impossible instant he saw every version of the House at once: the first room, the growing room, the hall, the city, Veyrthalis, the Digitorium, the forest, the organism, the archive, the chair beneath all of them. He saw the House as a place that had grown by being remembered, and the country as a place that had learned to remember in return. He saw doors that had opened, rooms that had been repaired, streets that had narrowed, and paths that remained available even when no one walked them.
+
+     He saw the men, too. Not as figures arranged around a central object, but as distinct centers of attention. Each carried a different history. None could be substituted for another. Their connections did not erase their differences. The room held them together without making them identical.
+
+     The visions did not arrive in chronological order. A photograph appeared before the moment it recorded. A road appeared before the man who walked it. A chair appeared before the room that would later contain it. The Teller understood that the archive was not showing him a sequence of events. It was showing him how one act could continue through different forms.
+
+     The House, the country, the organism, and the archive were not separate places. They were the same act at different depths.
+
+     Then the vision collapsed.
+
+     The room returned. The chair remained beneath him. The blue hum returned behind the walls. Tyler was staring at him.
 
      “What did you see?”
 
@@ -7912,7 +7948,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “You.”
 
-     Tyler looked away. Luke closed his box. Joseph sat beside the Teller. Nobody asked for a larger answer.
+     Tyler looked away.
+
+     Luke closed his box. Kirk stepped back from the chair. Bill lowered his eyes toward the open passage. The largest man did not move. Joseph sat beside the Teller, close enough for their shoulders to touch.
+
+     Nobody asked for a larger answer.
+
+     The chair had been noticed. The room remained.
 
 ## Chapter XLIII: The Man Who Was Missing
 

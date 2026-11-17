@@ -9512,13 +9512,11 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The novel became another world.
 
-     They entered that world and found that it had already begun to change. A road crossed a field and disappeared beneath a stand of trees. A house stood near the road with its door open. There was no one inside, but a table had been set for four men. The food was warm. The cups were full. Nobody had arranged the chairs in advance.
+     They entered that world and found that it had already begun to change. A road crossed a field and disappeared beneath a stand of trees. A house stood near the road with its door open. There was no one inside, but a table had been set for the four of them. The food was warm. The cups were full. A fifth chair stood slightly apart from the table, pulled back as though someone had just left it.
 
-     Bill was not there. The others noticed his absence and left the fifth place open.
+     They did not move it. They did not decide who it belonged to. They ate, spoke, and continued the game. The empty place remained available without becoming a demand.
 
-     They did not call him into the room. They did not pretend he had arrived. They ate, spoke, and continued the game. The empty place remained available without becoming a demand.
-
-     The new world had learned something from the men.
+          The new world had learned something from the men.
 
      It did not copy them. It did not reproduce their movements exactly. It took what they had made and changed it in ways they had not expected. The mountain shifted again. The corridor turned toward the house. The star-door appeared above the table, then vanished when nobody looked directly at it.
 

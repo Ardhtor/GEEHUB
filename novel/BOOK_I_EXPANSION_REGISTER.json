@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "0fa2df6866af70a8269f0df09c6b9fa10bec2d04",
+  "source_blob_sha": "38bc204405b4a85032a74b4533c556d222bc156d",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 48,
+    "completed": 49,
     "in_progress": 1,
-    "queued": 23,
+    "queued": 22,
     "empty_source": 0,
-    "next_chapter_index": 48,
-    "active_chapter_id": "book-i-xlix-i",
-    "last_completed_chapter_id": "book-i-xlviii"
+    "next_chapter_index": 49,
+    "active_chapter_id": "book-i-l",
+    "last_completed_chapter_id": "book-i-xlix-i"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -799,7 +799,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "0fa2df6866af70a8269f0df09c6b9fa10bec2d04",
+      "last_verified_blob_sha": "38bc204405b4a85032a74b4533c556d222bc156d",
       "notes": "Expanded and verified against Chapters XLVII and XLIX-I. The Room of the Men is a gathering of distinct adult male lives, not copies or a governing council. Contradictory desires remain valid without being converted into a single plan; Kirk takes the chair reserved for whoever has not decided. The room works through ordinary speech rather than spectacle. All cast members are male.",
       "current_word_count": 1436
     },
@@ -813,11 +813,11 @@
       "baseline_word_count": 290,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical section. Develop the men choosing to stay as a lived community, preserving the distinction between invitation and trap, the ordinary exchange of food and conversation, and the empty chair no longer treated as a vacancy. Keep all cast members male.",
-      "current_word_count": 297
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "38bc204405b4a85032a74b4533c556d222bc156d",
+      "notes": "Expanded and verified against Chapters XLVIII and L. The men choose to stay without being trapped; food, repairs, ordinary conversation, and shared attention give the room a lived social structure. The empty chair remains available without becoming a demand. All cast members are male.",
+      "current_word_count": 1005
     },
     {
       "chapter_id": "book-i-l",
@@ -829,10 +829,10 @@
       "baseline_word_count": 703,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the six geometric forms and their movement after the men leave them empty; preserve the House learning to play without using the men as operators. Keep the cast all male.",
       "current_word_count": 711
     },
     {

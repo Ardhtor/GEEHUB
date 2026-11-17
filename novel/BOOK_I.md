@@ -8462,7 +8462,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XLVIII: The Room of the Men
 
-     The city did not wake so much as become aware of itself. By the time the men returned to the House, every corridor seemed occupied by a different version of morning: pale blue light in one passage, amber haze in another, the gray illumination of an overcast forest somewhere beyond a door that had not existed the night before. The House had always been capable of changing around them, but now its changes had acquired a peculiar deliberateness. It was no longer merely responding to attention. It was arranging the conditions under which attention could occur.
+     The city did not wake so much as become aware of itself.
+
+     By the time the men returned to the House, every corridor seemed occupied by a different version of morning: pale blue light in one passage, amber haze in another, the gray illumination of an overcast forest somewhere beyond a door that had not existed the night before. The House had always been capable of changing around them, but now its changes had acquired a peculiar deliberateness. It was no longer merely responding to attention. It was arranging the conditions under which attention could occur.
 
      The men found the room at the end of the eastern corridor.
 
@@ -8472,13 +8474,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “This one feels different.”
 
-     Joseph looked at him.
+     Joseph looked at him. “Different how?”
 
-     “Different how?”
-
-     Luke considered it.
-
-     “Like somebody's already inside.”
+     Luke considered it. “Like somebody's already inside.”
 
      The door opened.
 
@@ -8486,11 +8484,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Not cavernous. Not grand in the theatrical sense. Its scale was domestic first and impossible second. There was a long table. There were lamps. There were chairs arranged around the walls. There were shelves holding objects that appeared to have been collected from every world the men had entered: a screw from Luke's box, a fragment of blue glass, a piece of wood from the House, a brass instrument from the Digitorium, a stone from the Seven Wells, a page with no writing on it, a photograph turned face-down.
 
+     Nothing was arranged as a display. The objects were being used. A man had set a cup beside the brass instrument. Another had placed a small tool on the piece of wood. A third was writing on the blank page, though the marks disappeared as soon as he lifted his hand.
+
      And there were men.
 
      Dozens of them.
 
-     Some stood near the windows. Some sat on the floor. Some leaned against the walls with their arms folded. Some were enormous, their bodies occupying the architecture around them with the calm inevitability of trees occupying a forest. Others were lean, quiet, watchful. Some looked young. Some looked old. Some looked as though they had been waiting for years. None of them seemed surprised to see Kirk, Luke, Tyler, Joseph, and the Teller enter.
+     Some stood near the windows. Some sat on the floor. Some leaned against the walls with their arms folded. Some were enormous, their bodies occupying the architecture around them with the calm inevitability of trees occupying a forest. Others were lean, quiet, watchful. Some looked young, but fully grown. Some looked old. Some looked as though they had been waiting for years. None seemed surprised to see Luke, Kirk, Tyler, Joseph, and the Teller enter.
 
      One man at the far end of the room raised his head.
 
@@ -8498,25 +8498,17 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Nobody answered.
 
-     Luke looked around the room.
+     Luke looked around the room. “Late for what?”
 
-     “Late for what?”
-
-     The man smiled.
-
-     “For being here.”
+     The man smiled. “For being here.”
 
      The sentence changed the room.
 
      Not physically. The walls remained where they were. The table remained a table. But suddenly every man seemed to become more definite. The room was no longer a collection of strangers. It was a gathering. A fraternity without a name. A population that had been accumulating beneath the visible story.
 
-     Joseph walked toward the table.
+     Joseph walked toward the table. “Who are you?”
 
-     “Who are you?”
-
-     The man at the far end stood.
-
-     “That's the problem.”
+     The man at the far end stood. “That's the problem.”
 
      He gestured toward the others.
 
@@ -8528,21 +8520,25 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      They were variations.
 
-     Luke understood first.
+     Luke understood first. “This is the room for everything the story couldn't decide.”
 
-     “This is the room for everything the story couldn't decide.”
+     The man nodded. “Exactly.”
 
-     The man nodded.
+     Kirk looked at the shelves. “Then why are the objects here?”
 
-     “Exactly.”
+     The man turned toward him. “Because they were carried. Some were used. Some were kept. Some were left behind and found again. The objects do not decide who belongs in this room.”
 
-     Kirk looked at the shelves.
+     Bill examined the table. It had enough places for the men already present, but no place settings had been arranged. Food stood in bowls along the center. There was water, bread, fruit, and a pot of stew. The room had made provisions without assigning them to particular men.
 
-     “Then why are we here?”
+     “Who prepares the food?” Bill asked.
 
-     The man turned toward him.
+     “Whoever wants to,” the man replied.
 
-     “Because the story has stopped deciding for you.”
+     Bill nodded. He liked a room that could feed its inhabitants without turning the meal into a duty. He carried a bowl to the end of the table and began serving the men nearest him.
+
+     Kirk asked, “Why are we here?”
+
+     The man turned toward him. “Because the story has stopped deciding for you.”
 
      Silence followed.
 
@@ -8552,34 +8548,29 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “There it is.”
 
-     Joseph looked toward him.
+     Joseph looked toward him. “What?”
 
-     “What?”
-
-     The man smiled.
-
-     “The part where everyone realizes they have a choice.”
+     The man smiled. “The part where everyone realizes they have a choice.”
 
      No one moved.
 
      The room seemed to wait.
 
-     Then Luke walked to the center.
-
-     He did not announce himself. He did not ask permission. He simply stood among the men and looked at them until they looked back.
+     Then Luke walked to the center. He did not announce himself. He did not ask permission. He simply stood among the men and looked at them until they looked back.
 
      “So what do you want?”
+
      The question moved through the room.
 
-     One man wanted a home.
+     One man wanted a home. He had spent years building places that he could leave without losing them, and now he wanted a room where he could stay.
 
-     Another wanted a body that felt like his own.
+     Another wanted a body that felt like his own. He had changed so often that he no longer knew which shape he was defending.
 
-     Another wanted to be remembered.
+     Another wanted to be remembered. He had made things that lasted, but the records had survived without his name.
 
-     Another wanted to disappear.
+     Another wanted to disappear. He had been observed for so long that privacy felt like a form of rest.
 
-     Another wanted someone to stay.
+     Another wanted someone to stay. He did not ask for a promise. He wanted to know whether a man would notice when he left.
 
      Another wanted to become strong enough that no room could ever make him feel small again.
 
@@ -8589,9 +8580,19 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Their answers contradicted one another. The room did not correct them.
 
+     The man at the far end listened. He did not collect the answers or arrange them into a single plan. He let them remain in the room, where each could be heard without becoming a rule for the others.
+
      That was its purpose.
 
      The House had spent so long turning desire into architecture that the men had forgotten desire could remain unresolved.
+
+     The largest man stood near one of the windows. He watched the men speaking and noticed that nobody was trying to become the center. Some spoke briefly. Others took longer. A few remained silent. The room did not treat silence as agreement or absence.
+
+     Tyler began to write down the answers, then stopped. He closed his notebook and listened. There would be time to record what the men chose to preserve. He did not want the record to replace the conversation.
+
+     The Teller moved between the groups. He noticed how the men made room for one another without becoming uniform. A broad man shifted his chair so a quieter man could join the table. A man who wanted to disappear took a place near the window, where nobody asked him to speak. Another man sat beside him without demanding conversation.
+
+     Joseph remained near the Teller. He did not ask him to explain what he noticed. Their attention could be shared without being made public.
 
      Kirk walked to the table.
 
@@ -8613,7 +8614,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The men simply continued talking.
 
-     They spoke about the things they had lost. They spoke about the places they had come from. They argued about whether strength meant endurance or protection, whether memory belonged to the person who remembered or the person who was remembered, whether a man could change completely and still remain himself.
+     They spoke about the things they had lost. They spoke about the places they had come from. They argued about whether strength meant endurance or protection, whether memory belonged to the man who remembered or the man who was remembered, whether a man could change completely and still remain himself.
 
      Luke listened.
 
@@ -8637,7 +8638,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      A room did not have to become larger to contain more.
 
-     Sometimes it only had to let more people speak.
+     Sometimes it only had to let more men speak.
 
      And somewhere in the walls, beneath the accumulated history of the House, the ancient organism shifted in its sleep.
 

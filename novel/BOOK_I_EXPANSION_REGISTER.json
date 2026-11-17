@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "2e83d468e2f1c85d159997f97b7ffdb747ccbc93",
+  "source_blob_sha": "0a675059871c9f4be222a042baa91096896e1995",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 39,
+    "completed": 40,
     "in_progress": 1,
-    "queued": 32,
+    "queued": 31,
     "empty_source": 0,
-    "next_chapter_index": 39,
-    "active_chapter_id": "book-i-xl",
-    "last_completed_chapter_id": "book-i-xxxix"
+    "next_chapter_index": 40,
+    "active_chapter_id": "book-i-xli",
+    "last_completed_chapter_id": "book-i-xl"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -655,7 +655,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "2e83d468e2f1c85d159997f97b7ffdb747ccbc93",
+      "last_verified_blob_sha": "0a675059871c9f4be222a042baa91096896e1995",
       "notes": "Expanded and verified against Chapters XXXVIII and XL. Cael returns from beyond the apparent edge and explains that further distance is not the same as depth. He is distinguished from the Seventh Man and the photograph's missing man. His question redirects the travelers from expansion toward the men and histories still missing from their world. All cast members are male.",
       "current_word_count": 1043
     },
@@ -669,11 +669,11 @@
       "baseline_word_count": 347,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the door in the original room and the room-before-room as a lived encounter with the beginning, preserving each man's distinct memory and the paper's sentence. Keep the identity of the prior chair occupant unresolved and the cast all male.",
-      "current_word_count": 355
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "0a675059871c9f4be222a042baa91096896e1995",
+      "notes": "Expanded and verified against Chapters XXXIX and XLI. The original room becomes the threshold to the room before it; each man's memory remains distinct, and the paper's sentence frames their work as something already underway. The chair's prior occupant remains unidentified. The door stays open between the House, country, and organism. All cast members are male.",
+      "current_word_count": 1010
     },
     {
       "chapter_id": "book-i-xli",
@@ -685,10 +685,10 @@
       "baseline_word_count": 354,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the smaller room before the House, preserve the blank-backed photograph and the line 'NOTHING IS REMEMBERED ALONE', and keep the prior chair occupant unresolved. Maintain the all-male cast and the distinct ways each man interprets the room.",
       "current_word_count": 360
     },
     {

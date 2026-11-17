@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "6ee878ebcdb28ebb43385572d36e07caddc0ea9f",
+  "source_blob_sha": "41a5801a40409b2476607c167c43732e73c1c60f",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 26,
+    "completed": 27,
     "in_progress": 1,
-    "queued": 45,
+    "queued": 44,
     "empty_source": 0,
-    "next_chapter_index": 26,
-    "active_chapter_id": "book-i-xxvii",
-    "last_completed_chapter_id": "book-i-xxvi"
+    "next_chapter_index": 27,
+    "active_chapter_id": "book-i-xxviii",
+    "last_completed_chapter_id": "book-i-xxvii"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -447,9 +447,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "6ee878ebcdb28ebb43385572d36e07caddc0ea9f",
-      "notes": "Expanded and verified against Chapters XXV and XXVII. The attack becomes a conflict of incompatible memories; each man's response remains distinct, and the city is protected through evacuation, measurement, structural support, and careful recording. The black artifact is not destroyed or claimed; it becomes a road. All cast members are male.",
-      "current_word_count": 1977
+      "last_verified_blob_sha": "41a5801a40409b2476607c167c43732e73c1c60f",
+      "notes": "Expanded and verified. The attack becomes a conflict of incompatible memories; the city is protected through evacuation, measurement, structural support, and careful recording. The unremembered artifact is given its first history, and the conflict becomes a road rather than a conventional victory. All cast members are male.",
+      "current_word_count": 1659
     },
     {
       "chapter_id": "book-i-xxvii",
@@ -461,11 +461,11 @@
       "baseline_word_count": 219,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the road as a record of male lives and possible histories. Replace the existing references to a sister, a woman carrying a lantern, and a child with adult male figures; preserve the rule that not every appearance requires an answer.",
-      "current_word_count": 227
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "41a5801a40409b2476607c167c43732e73c1c60f",
+      "notes": "Expanded and verified against Chapters XXVI and XXVIII. The road records male lives and possible histories through footprints, apparitions, and a door without a wall. Luke's directness, Tyler's recording, Kirk's care with evidence, Bill's return-route discipline, Joseph's restraint, and the Seventh Man's continuity remain distinct. Replaced all female and child figures with adult male figures.",
+      "current_word_count": 1307
     },
     {
       "chapter_id": "book-i-xxviii",
@@ -477,10 +477,10 @@
       "baseline_word_count": 221,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the country as a shifting geography navigated by the seven artifacts. Replace the existing faceless woman and child with adult faceless men; preserve the photograph's missing fifth figure and the question of who has been forgotten.",
       "current_word_count": 227
     },
     {

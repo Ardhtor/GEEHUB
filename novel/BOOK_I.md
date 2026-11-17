@@ -1362,9 +1362,9 @@ The directory had been named OLD by someone who had wanted to keep a collection 
 
      That disagreement became important. The seventh man did not possess a fixed place in memory. He possessed a fixed place in continuity. When the image was enlarged, he remained far away. When it was printed, he remained far away. When it was reconstructed from the Serum, he remained far away. Yet every reconstruction revealed more country behind him. A bridge appeared where there had been only trees. Hills emerged beyond the bridge. A second road appeared beyond the hills, and then a settlement so distant that its lights could only be seen after sunset. The man himself had not grown. The world around him had become more complete. One archivist finally wrote that perhaps the man was not the thing changing. Perhaps he was the measure by which change could be noticed.
 
-     After that, people began finding him everywhere. He stood at the edge of the Battle of Seven Wells while armies moved below him. He stood beside the first reservoir while the sister searched for her brother. He appeared on the bridge when she found him. He was present in the laboratory when the first valve failed, though the surviving reports placed him hundreds of miles away in the forest on the same day. He stood beneath a blue hall light that had not yet been installed. Sometimes he was visible only as a dark shape at the end of a road. Sometimes he was close enough for his expression to be read. He never looked frightened. He never looked surprised. Most troubling of all, he never looked lost.
+     After that, men began finding him everywhere. He stood at the edge of the Battle of Seven Wells while the fighting moved below him. He stood beside the first reservoir while an elder brother searched for his missing brother. He appeared on the bridge when the brothers found one another. He was present in the laboratory when the first valve failed, though the surviving reports placed him hundreds of miles away in the forest on the same day. He stood beneath a blue hall light that had not yet been installed. Sometimes he was visible only as a dark shape at the end of a road. Sometimes he was close enough for his expression to be read. He never looked frightened. He never looked surprised. Most troubling of all, he never looked lost.
 
-     People began writing about the feeling that came over them when they saw him. They did not say that he had looked at them. They said that he had remembered them. This was harder to explain. A photograph could not remember. A man in a photograph could not know who would open the file centuries later. Yet the feeling persisted, passed from observer to observer until it became part of the archive. The seventh man was therefore given no official name. He became simply the Seventh Man, not because he was the seventh person in the history, but because the number gave the archive somewhere to put the uncertainty.
+     Men began writing about the feeling that came over them when they saw him. They did not say that he had looked at them. They said that he had remembered them. This was harder to explain. A photograph could not remember. A man in a photograph could not know who would open the file centuries later. Yet the feeling persisted, passed from observer to observer until it became part of the archive. The seventh man was therefore given no official name. He became simply the Seventh Man, not because he was the seventh person in the history, but because the number gave the archive somewhere to put the uncertainty.
 
      Big Daddy's Voice returned whenever the file was opened. HERE IS THE MAN. HERE IS THE MAN IN THE HISTORY. HERE IS THE HISTORY AROUND THE MAN. HERE IS THE HISTORY AFTER THE MAN. HERE IS THE BODY. HERE IS THE BODY AFTER SIGHT. HERE IS THE SCREEN. HERE IS THE SCREEN AFTER MEMORY. HERE IS THE SERUM. HERE IS THE SERUM AFTER THE SERUM. HERE IS THE WORD. HERE IS THE WORD AGAIN. HERE IS THE THING THE WORD COULD NOT CONTAIN.
 
@@ -1374,75 +1374,231 @@ The directory had been named OLD by someone who had wanted to keep a collection 
 
      Nobody closed the file.
 
-
-
      The Seventh Man's significance deepened as the observers stopped treating his appearances as interruptions and began treating them as evidence of a continuous life moving through the country. He had the peculiar power of making every remembered road feel older and every future road feel as though it had already been walked by somebody. His mystery therefore belonged less to his identity than to the enormous continuity he seemed to carry with him.
 
-The archive's first task was to establish what the image actually showed. It was stored on a slate-colored workstation in a room whose windows faced the northern road. The workstation had been built to compare records from different periods, and its surface could display several versions of a map without forcing one to replace another. A pale timber desk stood beneath it. The archivist who opened the file placed a notebook beside the keyboard and wrote down the date of access, the file's location, and the condition in which it had been found. The image itself was not modified. A copy was made for examination, and the original remained in its first position.
+     The senior keeper called the five investigators to the archive's long table. He brought the first image, the reservoir record, the survey of the failed valve, and the photograph from the Blue Hall. He did not arrange them by date. He placed them according to the places they showed. The measurer objected that this would make the sequence difficult to reconstruct. The surveyor replied that a chronological arrangement would conceal the repeated geography. The recorder said that both arrangements should be preserved. The artist, who had been silent, turned the Blue Hall image until the light no longer reflected from its surface.
 
-     The road in the image was narrow, but the forest around it was enormous. Amber branches crossed above the path, and their upper leaves dissolved into haze. The ground held a faint sheen, as if rain had passed recently. The man stood far enough away that his clothing could be described only in broad terms. His posture was relaxed. His weight appeared to rest evenly, and his arms hung without strain. The archivist could see that he was large, but could not establish a reliable height from the image. There was no known object of fixed scale beside him. The nearest tree might have been unusually young or unusually immense. The road might have narrowed toward the horizon. The image allowed an impression of scale, not a measurement.
+     “We have four pictures of one man,” the measurer said.
 
-     The first attempt to identify him produced a list of names. Each name came from a different observer, and each observer had a different reason for choosing it. One recognized the shape of the shoulders. Another thought the face resembled a man seen beside the reservoir. A third recognized the way he stood, with the ease of someone who did not need to prove that he occupied the road. The list was kept with the image, but the archivist refused to select one entry as the official identity. The man in the photograph had not introduced himself. A resemblance was useful as a lead, not sufficient as a conclusion.
+     “We have four pictures that may show one man,” the recorder replied.
 
-     Luke was shown the image because he had learned to read the scale of a room through the bodies using it. He looked at the road first, then the trees, and then the man's stance. He did not begin with the face. He wanted to know whether the road could carry him, whether the trees left enough clearance, and whether the distance had been distorted by the image. He asked for the full frame rather than the enlarged crop. When it appeared, he noticed a low stone marker near the man's left foot. It gave the scene a more reliable reference than the trees did, but not enough to establish an exact height. Luke said that the man had changed the proportions of the landscape, then corrected himself. The image showed that the landscape appeared changed around him. That was what could be stated.
+     “The build is the same.”
 
-     Tyler approached the same image through chronology. He compared its attached date with the reports of the Battle of Seven Wells, the reservoir crossing, the valve failure, and the first Blue Hall sequence. The records did not form a clean timeline. Some were copies made later. Some described an event from the point of view of someone who had arrived afterward. A few carried dates that could not be reconciled with the order in which the places were known to have been constructed. Tyler marked each source by its own provenance and separated the date of the event from the date of the record. He was not trying to make the Seventh Man fit a convenient sequence. He wanted to know which claims could be compared without quietly changing their meaning.
+     “The build is similar. The posture is not identical.”
 
-     Kirk looked at the face longer than Luke did. The expression was not threatening, and it was not an invitation. It was simply present. Kirk thought the man's apparent familiarity might arise from the way the photograph had been encountered: the same image had been opened by several people, copied into several records, and viewed after stories about the man had already circulated. He wondered whether the observers were recognizing the figure or recognizing the stories through which they had come to expect him. He did not claim to know. When Luke asked what he thought, Kirk said that the face was familiar in the way a place could be familiar before a person remembered having visited it.
+     The surveyor leaned over the table. “Nor is the ground. Look at the road behind him. In the first image it bends west. In the reservoir record it runs toward the water. In the Blue Hall there is no road at all.”
 
-     Joseph noticed something else. The observers who wrote that the man had remembered them did not all describe the same feeling. Some felt recognized. Some felt that the image had been waiting. Others said that they had looked up from the screen with the sensation that they had interrupted an ongoing life. Joseph did not dismiss those accounts, but he was careful about the difference between a feeling and a fact. The photograph could not establish what the man knew. It could establish what the observer experienced while looking. He asked Tyler to record the observer's wording without converting it into a statement about the man's intention.
+     The measurer tapped the first photograph. “A man can stand in different places.”
 
-     That distinction mattered when Kirk read the note Joseph had made. Kirk was standing near the window, and Joseph felt the return of his attention before he turned. It was not a thought transferred from one mind to another, nor a knowledge of what Kirk had privately concluded. It was the familiar recognition that the other man had noticed the same moment and knew that the notice had been received. Joseph looked over. Kirk met his eyes, then glanced back toward the image. They had not reached an agreement about the Seventh Man. They had simply found themselves attending to the same uncertainty. When Joseph asked what he thought, Kirk answered plainly: he thought the image had a history longer than the file. Joseph nodded. The shared recognition did not remove the need to speak.
+     “So can a picture,” said the artist.
 
-     The four men did not settle into a single interpretation. Luke remained interested in the physical relation between the figure and the country. Tyler wanted an accountable chronology. Kirk attended to the way recognition could be produced by a repeated encounter. Joseph distinguished the experience of being remembered from evidence that the man had actually remembered anyone. Their differences made the investigation more precise. A later observer could read the four notes and see not only what had been noticed, but how each person had chosen to approach the image.
+     The senior keeper let the disagreement continue until each man had made his position clear. He then asked what they could establish without resolving the identity. They agreed that a large man appeared in several records; that the records belonged to different places and periods; that the man was consistently positioned at a distance; and that the backgrounds changed more dramatically than the figure. They could not establish whether he had traveled between the places, whether the images had been altered by later memory, or whether the same appearance had been produced by several men.
 
-     The records from the reservoir introduced another difficulty. In the sister's account, the Seventh Man appeared near the bridge while she searched for her brother. In a different document, he stood at the edge of the Battle of Seven Wells while the armies moved below him. A laboratory report placed him near the first valve failure, and another image showed him beneath a blue hall light. The dates overlapped in ways that made ordinary travel an inadequate explanation. But the archive could not establish that all the records depicted the same moment, or even that the images represented a single continuous body moving through space. They could establish that a figure with a persistent set of visible characteristics recurred across different places and records.
+     The recorder wrote each conclusion on a separate card. The measurer wanted a single summary. The senior keeper refused it. A summary could be made later, he said, but it could not replace the observations from which it had been made. The cards remained on the table, held down by a brass weight. The image of the man stayed at the far end.
 
-     Tyler created a sequence chart, but he left the lines between events open. A straight line would have implied that the man had traveled from one site to the next in an order the documents did not support. Instead he used separate tracks for the image, the event described, and the later act of remembering. When two records appeared to concern the same place, he linked them with a dotted line and added a note that the relation was provisional. Luke suggested including the physical features of each location, because the same figure could appear to have a different scale if the surroundings changed. Kirk asked that the descriptions of familiarity be kept in a separate field. Joseph wanted the observers' original words attached. The chart became larger and less elegant, but it was more honest.
+     The first comparison took place in the room where the old road maps were kept. The surveyor laid the earliest map beside the photograph and traced the visible ridge with one finger. The map showed a low saddle between two hills. The photograph showed the same saddle, but the road seemed to pass behind it rather than through it. He fetched a later survey. In that version the ridge had shifted several miles, and the road had acquired a second branch. The man appeared in the distance of both images, standing in almost the same relation to the ridge.
 
-     The senior archivist examined the chart and told them that it had become a map of evidence rather than a map of the man's journey. Tyler accepted the distinction. The map did not show where the Seventh Man had gone. It showed where people had encountered him, where records of him had been preserved, and which relations between those records had been established. The country beyond the marks remained open. The figure's absence from a particular archive did not prove that he had not been there. His appearance in two documents did not prove that the events occurred simultaneously.
+     “He is not a marker,” the surveyor said. “The land changes around him.”
 
-     A new image appeared during the next review. It showed a narrow bridge in the forest, with wet boards and a low rail. The Seventh Man stood at the far end, turned partly toward the camera. Nothing in the scene indicated why he was there. There was no sign of a battle, no visible laboratory, and no companion beside him. The image was so ordinary that the archivist almost overlooked it. The bridge had a repaired section near the center, and one board had been replaced with a paler piece of timber. The man stood beyond it, looking toward the road that continued into the trees.
+     “Or the images were made from different positions,” the measurer answered.
 
-     Luke noticed that the bridge was too narrow for the scale suggested by the figure. He asked whether it had been built for ordinary travelers or whether the image had compressed its dimensions. Tyler found a survey that described the crossing, but the survey was older than the image and did not include the repaired board. Kirk thought the man's position was more interesting than the bridge. He was not blocking the route. He stood to one side, leaving the crossing available. Joseph asked whether anyone had spoken to him. Nobody had. The image offered no answer.
+     “Then we need the positions.”
 
-     The archivists considered whether to enlarge the figure's face. Luke asked for a wider crop first. He wanted to know what else was in the scene before isolating the person. Tyler agreed, and the full frame was opened beside the earlier version. The difference was small but important. A second path could be seen beyond the bridge, branching toward a lower part of the forest. The enlarged crop had excluded it. The archivist retained both views and added a note that the crop was useful for a facial comparison but insufficient for understanding the route.
+     They searched the captions, the paper edges, the dates, and the names of the men who had made each record. Some details survived. Others had been lost. One image had been copied so many times that its original frame could no longer be recovered. The surveyor marked the missing information rather than inventing a viewpoint. He did not enjoy leaving the map incomplete, but he disliked a false route more.
 
-     The bridge image became a test of how quickly a record could turn a person into a symbol. One observer called it the Seventh Man waiting at the threshold. Another described it as evidence that he was guarding the road. Neither interpretation was supported by his posture. The man was standing near a bridge. He might have been resting, observing, waiting for someone, or simply occupying the place. The archive kept the interpretations as interpretations and returned to the visible facts. The Seventh Man had left enough evidence to be encountered, but not enough to justify every story people wanted to tell about him.
+     The artist examined the man's outline. The coat changed between images, though the shoulders and stance seemed familiar. In one picture his hands were at his sides. In another one hand rested against a rail. In the Blue Hall image his palm touched a surface that bowed beneath it. The artist said that a repeated silhouette could make different men look alike, especially when the face was too small to read. The measurer asked whether he thought the face was the same. The artist replied that he could not tell. He had no interest in turning uncertainty into a likeness merely because the archive wanted one.
 
-     The men began to understand that the mystery was not an excuse to suspend ordinary judgment. The image could be intriguing without requiring a revelation. The bridge needed maintenance whether or not the man had chosen to stand beside it. The road needed a current survey whether or not his presence changed the way people felt about it. A person who encountered the image could admire the figure without claiming ownership over his story. The largest question remained open, while the immediate work could still be done.
+     They enlarged the oldest photograph. The road sharpened. The amber trees acquired individual branches. The man remained indistinct. They enlarged it again, and the image began to break into pale squares. His outline became less reliable, not more. The recorder stopped the process before the face dissolved completely.
 
-     A week later, the archivists returned to the original amber-road image. The man remained far away. Nothing had been added to his clothing, his posture, or the road around him. Yet the file now held the earlier observations, the separate interpretations, the full frame, the enlarged views, the chronology chart, and the bridge comparison. It had become a richer record without the figure having to perform another action. That was a different kind of development from the changes in the image itself. The people looking at him had learned to see more carefully.
+     “That is as far as the source allows,” he said.
 
-     The phrase HE IS COMING THROUGH THE HISTORY was therefore left in the archive beside HE IS ALREADY HERE. The first described an expectation; the second described the experience of discovery. Neither was treated as a reliable statement of the man's origin. The Seventh Man had become a figure through whom the observers confronted the difference between a life and the records that reached them. He might be continuous across the scenes, or the archive might be gathering several related appearances into one figure. The story did not have to resolve that question yet.
+     The measurer looked dissatisfied. “We could reconstruct the missing detail.”
 
-     The next time the file was opened, no new image appeared. The road was the same, the trees were the same, and the man stood at the same distance. The observer who opened it had expected a change because the previous session had produced so many new connections. Instead, the scene remained still. The man did not turn his head again. The observer waited, then closed the enlarged view and returned to the full frame. The road continued beyond the visible edge, and the file remained available.
+     “We could invent it,” the artist said.
 
-     Nobody called this a failure. The archive had learned that a record could become more meaningful through the work of its readers without changing its source. The Seventh Man had not been moved by their conclusions. The road had not shortened. The image had not become a complete explanation. What had changed was the quality of attention the men brought to it, and the care with which they preserved the difference between a person, a picture, and the history that connected them.
+     The senior keeper closed the enlargement window. “Keep the source. Keep the failed enlargement. Label the reconstruction as a proposal if anyone makes one. The man does not owe us a face.”
 
-     That evening Luke, Tyler, Kirk, and Joseph walked back toward the house. Luke moved ahead until he noticed that Tyler had stopped to check a marker. Kirk waited with Joseph. The sky was still bright above the amber trees, though the lower path had begun to darken. Joseph glanced toward the forest and then at Kirk. Kirk returned the glance, recognizing the same unresolved question without pretending that he had an answer for it. They continued together. Behind them, the road remained open, and somewhere within the archive the Seventh Man remained far away.
+     That instruction entered the archive beside the older rule about preserving previous states. The investigators could make a new image, but the new image had to show where it came from and what had been added. No reconstruction could quietly take the place of the original. The Seventh Man would remain indistinct until evidence gave the archive a reason to see him more clearly.
 
-     The following week the keepers invited a small group of residents to review the record. They did not announce a lecture or a ceremony. They put the full image on the central display, placed the bridge photograph beside it, and laid Tyler's chronology chart on the table. The room filled gradually. Some people came because they had heard that the figure had appeared in several records. Others came because they wanted to understand how the archive handled images that seemed to change with repeated attention. A few had no particular theory. They were simply curious, and the keepers made room for that curiosity without making it a test of belief.
+     The reservoir record produced a different problem. The elder brother's account described his brother standing on the bridge across the lake. The surviving image showed the brothers near the far shore, but a third figure appeared behind them, partly obscured by one of the bridge supports. He stood with his weight on one leg and his head turned toward the water. The image had been made from a low position near the boat landing. The third man could have been a worker waiting for the crossing to clear. He could have been a traveler who had stopped to watch. The record did not name him.
 
-     One visitor said that the first image made him feel as though the man knew his name. He spoke with conviction, but he did not claim to have heard the name spoken. Joseph asked him to describe exactly when the feeling had occurred. The visitor said it had come when he looked from the road to the man's face, then disappeared when he looked away. Joseph recorded the statement as an account of an experience. He did not correct the visitor's feeling or endorse it as evidence of the man's intention. The visitor seemed relieved by the distinction. He had not been asked to withdraw what he felt in order to make the record responsible.
+     The recorder found a second account written by one of the men who had traveled with the elder brother. It mentioned a stranger on the bridge, but the stranger had been described as wearing a light coat. The photograph showed a dark one. The surveyor believed the difference might be caused by reflected water. The artist thought the two accounts might describe separate men. The measurer suggested that the photograph had been taken after the brothers had already begun walking away, when the stranger had moved into the background.
 
-     Another visitor was convinced that the Seventh Man was guarding the crossing. Luke asked what in the image suggested a guard. The visitor pointed to the man's position beside the bridge and the way he faced the road. Luke acknowledged that the posture could be read that way, then asked whether the figure blocked anyone from crossing. He did not. Tyler added that the image contained no visible sign of authority, uniform, or instruction. The visitor looked again and admitted that he had supplied the idea of a guard because the scene reminded him of an old story. The archive recorded the association as an association. It did not convert it into a fact about the man.
+     None of these explanations could be ruled out.
 
-     A third visitor wanted to know why the keepers had not enlarged the face and sharpened the image until it became identifiable. The reflection-watcher, who had joined them, said that sharpening could make an image look more definite without adding real information. The face might become clearer in appearance while remaining impossible to connect to a known person. The full frame held details that the crop did not. The visitors looked at the bridge photograph and noticed the second path beyond it. One of them had not seen that route at all. The discussion shifted from the identity of the man to the structure of the landscape, and the room became more attentive.
+     The senior keeper asked whether the brothers had noticed the stranger. The record contained no answer. Their attention had been on one another. The elder brother had spent days looking for his sibling, and the younger man had been deciding whether to return south. The meeting mattered because it belonged to them. The archive would not revise their account simply to make room for a figure in the background.
 
-     The compact man from the device archive brought a clean copy of the record card. It had three headings: what the image showed, what the observer experienced, and what remained unknown. The headings were deliberately plain. They did not prevent people from making interpretations. They made it easier to see when an interpretation had been added. Luke approved because the first heading could include measurements and visible scale without forcing the image to answer questions it could not settle. Tyler approved because each note could be traced to a source and a date. Kirk liked that the observer's experience had a place of its own. Joseph liked that the last heading did not treat uncertainty as an embarrassment.
+     “Then the man is present without being part of their meeting,” the recorder said.
 
-     One visitor asked whether the Seventh Man would ever appear in the room. The question made the group pause. The archivist could not promise that he would. The image showed him on a road, and the other records showed him in different places. None established that he had entered this particular room. The largest man said that the room did not need to contain every person who had ever appeared in its archive. A record could remain connected to someone without claiming that the person was present. The visitors accepted this, though one continued looking at the doorway as if he expected the figure to walk through it.
+     “If it is him,” the measurer replied.
 
-     The review lasted most of the afternoon. People disagreed about the man's apparent age, the size of the trees, the meaning of his expression, and whether the repeated image represented one continuous figure. No one was asked to suppress a view. The keepers simply required that each view be labeled according to its source. A person could say that the image made him feel recognized. He could not write that the man had deliberately recognized him unless another record supported the claim. A person could say that the man looked protective. He could not turn that impression into a command issued by the figure. The distinction gave the room permission to remain imaginative without becoming careless.
+     The senior keeper nodded. “Keep both statements.”
 
-     When the visitors left, the keepers did not produce a final interpretation. They added the new notes to the archive, each with the visitor's permission and the intended level of access. One person wanted his comment kept private. Another allowed the association to be included in the public index. A third asked for the written account to be returned after the review. The records were handled accordingly. The Seventh Man had not been altered by the discussion, but the archive had become more aware of the people who approached him through the image.
+     The photograph was placed in the reservoir file, not in a new file named for the Seventh Man. A cross-reference was added, with a question mark. The brothers' account remained intact. Their reunion did not become an episode in somebody else's mystery.
 
-     Luke stayed behind to inspect the bridge photograph once more. He was interested in the repaired board, because the pale timber suggested a recent maintenance visit. He wondered whether someone had crossed the bridge after the image was made and whether that person had left another record. Tyler searched the survey index. Kirk looked at the man's posture. Joseph read the visitors' notes and noticed that the feeling of being remembered appeared in several accounts, though each person described it differently. None of them claimed the man had spoken. The four observations remained separate.
+     The failed valve record was more difficult. It came from a laboratory report written during an emergency. The valve had failed under pressure, and the men working in the chamber had disagreed about the order of events. One remembered the sound first. Another remembered the pressure gauge falling. A third had seen a figure through the glass partition. The figure was described as broad, darkly dressed, and standing beyond the room where the valve had been housed. The report placed the sighting before the failure. A later note placed it afterward.
 
-     They returned to the house at dusk. The older man had made coffee, and the compact man was repairing the latch on a cabinet. The restless man asked whether they had learned who the Seventh Man was. Luke said no, but that they had learned more about the bridge. Tyler added that they had improved the record of the appearances. Kirk said that the visitors had shown how many different stories could gather around a single image. Joseph said that one person's feeling could be respected without being turned into another person's certainty. The older man poured the coffee. It was an answer in the form of ordinary work, and the conversation moved on.
+     The measurer believed the time stamps had been entered incorrectly. The recorder found that the clocks in the two rooms had not been synchronized. The surveyor wanted to know whether the figure had been inside the laboratory or reflected from the outer corridor. The artist found a smudge on the glass in the surviving photograph and could not determine whether it belonged to the figure or to the camera lens.
 
-     The file remained open in the archive. The full image stayed beside the bridge view, and the new comments remained attached to the visitors who had offered them. The Seventh Man was still distant, still unnamed, and still present in records that did not agree about how he had arrived. The chapter of his history had become longer because more people had encountered him, but its central question had not been closed. The road remained available to whoever chose to follow it, and the figure at the end of it remained free of a name the archive had no right to assign.
+     “We have a man, a reflection, or a mark,” the measurer said.
+
+     “And a valve that failed,” the senior keeper replied.
+
+     He asked them to separate the records. The mechanical failure had its own evidence. The sighting had another. They could be related, but the archive had no right to make one explain the other. The valve was repaired. The old component was retained. The report remained contradictory. The possible sighting was attached as an unresolved observation, not as the cause of the failure.
+
+     The investigators found this unsatisfying. They had hoped that the Seventh Man would provide a key to the scattered events. Instead, every new record made the history more specific and the explanation less secure. The senior keeper told them that this was not a failure. A person could become more visible without becoming easier to define. The archive's task was to preserve the evidence in a form that another man could examine.
+
+     The Blue Hall gave them the clearest encounter and the least reliable chronology. Its nested images contained the man at several distances. In one opening he stood at the far door. In another he appeared in a reflection behind the observers. In a third he was seated beneath a lamp, looking toward a room that had not yet been reached. The archivists could not establish whether these were separate images, successive versions, or views of different places joined by the directory.
+
+     The restless investigator wanted to walk the hall until he reached the man. The older keeper refused to follow him. The recorder asked what would happen if the image changed while they were inside. The surveyor wanted to mark each opening. The artist asked whether the man had ever been seen moving between them. The largest man, who had joined the investigators for the second visit, stood quietly at the threshold.
+
+     “You are all treating the distance as an obstacle,” he said.
+
+     The restless man turned. “What else is it?”
+
+     “A part of the room.”
+
+     “That doesn't get us closer.”
+
+     “Maybe getting closer isn't the only way to learn where he is.”
+
+     The restless man looked down the corridor. He was not convinced, but he stopped advancing. The surveyor began marking the openings. The recorder wrote down the order in which each man had entered. The artist made a drawing of the reflections without trying to reconcile them. The older keeper stayed near the entrance, where he could see both the men and the first door.
+
+     They proceeded one opening at a time. At each threshold the corridor changed slightly. The light cooled. The floor became darker. The ceiling seemed higher. The doors no longer aligned with the rooms behind them. The men heard footsteps at a distance, but the sound did not grow louder as they advanced. Once, the restless investigator stopped because he was certain that someone had called his name. Nobody else had heard it. The recorder entered the statement as a personal observation and did not add a second voice to the record.
+
+     At the fifty-seventh opening, the Seventh Man stood at the far end. He did not move. The largest man raised one hand in greeting. The figure's posture seemed to change, but the distance made it impossible to tell whether he had answered. The restless investigator began forward. The older keeper called him back. He stopped, angry at the interruption, then looked behind him and saw that the previous door had become smaller.
+
+     “We can return,” the older man said.
+
+     “Can we?”
+
+     “We should find out before we go farther.”
+
+     They turned around. The first door was still there, but the corridor had acquired another branch. The surveyor marked it. The recorder noted that the route back was no longer identical to the route in. The artist looked over his shoulder. At the far end, the Seventh Man remained where he had been.
+
+     The largest man waited until the others had reached the first room. Then he looked back once more. The man at the far end seemed to be looking directly at him. He did not call out. He did not ask the figure to come closer. He simply held the look for a moment and followed the others out.
+
+     The archivists reviewed the notes in the outer room. Their descriptions agreed on the position of the figure and the changing corridor. They disagreed about the gesture. The largest man believed the figure had acknowledged him. The artist had seen no clear movement. The recorder wrote that one observer reported an apparent acknowledgment. The surveyor added that the corridor had changed after the group turned back. The older keeper said that the important result was not whether the man had answered. It was that the men had discovered they could leave without losing the route.
+
+     A week later, the Seventh Man appeared in a room that had not been built. It was found in a photograph attached to a plan for the first residence. The plan showed the kitchen, the common room, the upper bedrooms, and the western window. In the window's reflection stood a man whose proportions did not match any of the six residents. He was positioned outside, near the road. The photograph had been taken before the road was cleared and before the house had acquired its second floor. The reflection showed a building that did not yet exist.
+
+     The compact man from the residence inspected the plan and said that the reflected room might be a later state. The ceremonial man asked whether the image had been altered. The older man said that the photograph had been stored in the archive before the house was expanded. The restless man wanted to know why the stranger had been looking inside. The reflection-watcher studied the glass and said that the man might not have been looking at the house at all. He might have been watching the person who took the photograph.
+
+     The largest resident stood by the western window and compared the reflection with the road outside. The figure was too far away to identify. He recognized the posture, or believed he did. He did not tell the others that the man had come for them. The house had taught him that a road could belong to the traveler as much as to the person waiting beside it.
+
+     “We should leave the window as it was,” he said.
+
+     The archivists asked whether he wanted the reflection removed from the plan.
+
+     “No. Keep it. But don't build a room around him.”
+
+     The plan was stored with the original photograph. A later version showed the house as it had been built. The reflection remained in the earlier state, where it could be studied without becoming an instruction for the next construction.
+
+     The men began to notice that the Seventh Man's appearances did not always coincide with the moment they were recorded. A file might be opened and show him standing in a place that had been empty the day before. A print made from the same file might show only the road. A later copy might contain the figure again. The archive checked the dates, the storage history, and the sequence of revisions. Some differences could be explained by ordinary changes to the files. Others could not. The investigators kept a separate record of the technical history so that an unexplained image would not be mistaken for a verified event.
+
+     The measurer wanted to establish a rule. He tested image dimensions, crop boundaries, brightness, and scale. The figure's apparent size changed when the frame changed, but his position in the represented landscape did not behave consistently. The surveyor compared road lengths and ridge lines. The recorder logged every version. The artist drew the man only when the source gave him enough detail to do so. The senior keeper watched the work and stopped it whenever a conclusion began to outrun the evidence.
+
+     Their methods produced no single answer, but they did produce a better account of the problem. The Seventh Man was not merely a recurring image. He was a recurring difficulty in the relation between image and place. He appeared where the archive had reason to look, but also where no investigator expected him. He was associated with roads, thresholds, reflections, and rooms that had not yet reached their final form. His distance remained stable even when the surrounding world changed. The records suggested continuity, but did not establish a biography.
+
+     The question of whether he was one man or several became less urgent. The investigators had learned that a name could gather evidence too quickly. If they named him after a known character, every later appearance would be interpreted through that identity. If they described him as a force, they would erase the possibility that he was a person with his own history. If they called him a projection, they would treat the observers' experience as the whole event. The title Seventh Man did not solve the problem. It left the problem open in a form the archive could carry.
+
+     One evening the recorder stayed behind after the others had left. He was checking the references between the reservoir image and the Blue Hall sequence. The room was quiet except for the low hum of the storage wall. He found a link that had not appeared in the previous index. It led to the first photograph of the amber road. The image opened without a date or source note. The man stood in the distance, his shoulders level, his hands relaxed at his sides.
+
+     The recorder checked the file history. There was no recent edit. He opened the earlier copy. The figure was there. He opened the original scan. The figure was there too, though the image had been made before the first written account of the Seventh Man. The recorder did not call the others. He wrote down the sequence, saved the three versions separately, and left the file open.
+
+     After several minutes, the figure turned his head.
+
+     The recorder did not move. He had learned from the old visitor in the chair experiment that an observer's attention could become a form of pressure. He did not speak to the screen. He did not ask the man to approach. He looked at the road behind him and tried to see what the image would allow.
+
+     The forest extended farther than it had in the earlier copy. Beyond the ridge stood a low building with a narrow roof. A line of stones ran from the building toward the road. The recorder recognized the pattern from the first house, though the house itself was not visible. He wrote that the background appeared to contain a structure resembling the residence's early foundation. He did not write that the Seventh Man had built it or that he had been waiting there. Those were possible interpretations, not observations.
+
+     The next morning he showed the record to the senior keeper. The senior keeper read it twice and asked whether the recorder had spoken to the figure.
+
+     “No.”
+
+     “Did you ask him to move?”
+
+     “No.”
+
+     “Did you change the image?”
+
+     “I saved the versions. I didn't alter them.”
+
+     The senior keeper nodded. “Good.”
+
+     “Do you think he saw me?”
+
+     The older man looked at the image. “I think you saw him.”
+
+     “That isn't the same.”
+
+     “No.”
+
+     The recorder waited.
+
+     “Keep the distinction,” the senior keeper said.
+
+     The image remained on the table. The Seventh Man stood on the road, and the building behind him remained too small to identify. The recorder added a note that the apparent turn of the head had been observed in the live display, but was not present in the saved frames. The senior keeper approved the wording. The event had happened to one observer. It could be preserved without being turned into a universal fact.
+
+     Later, the largest resident came to the archive. He stood beside the recorder and studied the road. He recognized the line of stones. He had walked past them in the first winter, when the house was still learning where its rooms should be. He could not remember seeing the building. He could remember the ground, the wet grass, and the way the road dipped before reaching the trees.
+
+     “Do you know him?” the recorder asked.
+
+     The largest man took his time.
+
+     “I know the feeling of seeing him.”
+
+     “Is that recognition?”
+
+     “It might be.”
+
+     “Of what?”
+
+     “Of being seen without being summoned.”
+
+     The recorder wrote nothing. The answer belonged to the man who had given it. He did not want to turn it into a rule.
+
+     The largest man continued looking at the photograph. “He doesn't seem to need us to come closer.”
+
+     “What does he want?”
+
+     “I don't know.”
+
+     “Then why does he keep appearing?”
+
+     “Maybe that is how he travels.”
+
+     The recorder considered this. “Through the records?”
+
+     “Through whatever remembers him.”
+
+     The largest man left the archive without asking for a copy. He had not solved the mystery. He had made it more particular. The recorder returned to the index and added a cross-reference to the house's first winter, leaving the identity field blank.
+
+     The Seventh Man continued to appear. Some records showed him near the northern road. Others placed him beside the reservoir, at the edge of the Blue Hall, or in the reflection of a room still under construction. He never became the center of the events around him. The brothers at the lake still had their reunion. The men in the laboratory still had to repair the valve. The residents of the first house still had to clear the snow and mend the bench. His presence did not cancel their choices or make their lives into evidence for his story. It made the archive ask how many histories could occupy the same place without one being reduced to the other.
+
+     The senior keeper eventually ordered a new index. It did not gather every appearance under one heading. It listed each source separately and linked them through the provisional title. The index included the first amber road image, the reservoir photograph, the laboratory report, the Blue Hall sequence, and the reflection in the residence plan. It also listed the missing sources: the original record of the Battle of Seven Wells, the first valve diagram, and the earliest copy of the house plan. The absences were recorded as absences. No one filled them with a plausible account.
+
+     The measurer disliked the index because it made the archive look unfinished. The surveyor said that it was unfinished. The artist thought the arrangement was honest. The recorder preferred it because every link could be traced. The senior keeper left the final decision to the men who would maintain the records after him. He did not want a system that depended on his authority to remain correct.
+
+     Before the index was closed, the recorder added one last note: the Seventh Man had never been observed entering or leaving any of the recorded places. He was always already there, or still there, or visible at a distance from which arrival could not be measured. The note did not imply that he was immobile. It described the limits of the surviving observations. The man might have traveled between places. The records simply did not show him doing so.
+
+     The archive stored the index beside the first road photograph. It preserved the original frame, the later copies, the failed enlargements, the disputed captions, and the separate accounts of the men who had seen them. The file was not locked. It could be opened by a future investigator, corrected when new evidence arrived, or left alone by someone who had no reason to examine it. The Seventh Man remained unnamed. The road remained open.
+
+     On the final evening of the review, the senior keeper found the recorder at the window. The younger man was looking out toward the northern road, where the last light had gathered in the trees. There was no figure visible. The road bent behind the ridge and disappeared.
+
+     “Do you think he will return?” the senior keeper asked.
+
+     “He hasn't left.”
+
+     The older man considered the answer. Then he looked toward the table, where the separate records lay in their proper order.
+
+     “Keep the first account,” he said.
+
+     “And the second?”
+
+     “Keep that too.”
+
+     They stood together while the light faded. The archive did not announce a discovery. No new sentence appeared on the wall. The road remained a road, the forest remained beyond it, and the men had work to do in the morning. Somewhere in the records, the Seventh Man was still standing at a distance. That was not an ending. It was the condition under which the next account could begin.
 
 ## Chapter VIII: The Room Beyond the File
 

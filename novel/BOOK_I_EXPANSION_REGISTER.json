@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "pending_verification_after_commit",
+  "source_blob_sha": "ea837ff64147516758d244d01b43592a77a9725d",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "queued_for_expansion",
@@ -47,8 +47,8 @@
       "target_max_words": 7000,
       "status": "in_progress",
       "revision_count": 1,
-      "last_verified_blob_sha": null,
-      "notes": "First in-place expansion pass committed; current length approximately 3935 words. Further development and continuity verification remain."
+      "last_verified_blob_sha": "ea837ff64147516758d244d01b43592a77a9725d",
+      "notes": "First in-place expansion pass verified against the committed manuscript and the opening context of Chapter II. Current length: 3,935 words. A further literary and continuity pass remains before completion."
     },
     {
       "chapter_id": "book-i-ii",

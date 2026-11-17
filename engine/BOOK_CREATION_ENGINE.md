@@ -55,3 +55,10 @@ If the runtime does not yet persist one of these fields, mark that field as unsu
 ## The book is not the engine's explanation
 
 The novel need not feature a machine, a recursive author, a self-aware book, or characters who explain this process. Its subject is determined by the manuscript and its world. The engine's job is to create the book through retrieval, association, transformation, composition, and continuity. The book is the work left by that process; the corpus it joins becomes the starting condition for the next one.
+
+
+## Whole-manuscript expansion
+
+A general instruction to update or develop the story defaults to a whole-manuscript chapter sweep, not merely one new chapter or one addition at the end. The selected book's existing chapters all remain eligible for development. Establish a census and persistent progress register, retrieve shared continuity, then revise chapters in canonical order. Expand existing scenes in place, preserve their events and unresolved threads, and carry new facts into dependent chapters and records. Continue across bounded operations until every chapter has been reviewed; never imply that a whole-book pass is complete after editing only the newest chapter. Use [the Chapter Expansion Protocol](../novel/CHAPTER_EXPANSION_PROTOCOL.md) and its [Book I progress register](../novel/BOOK_I_EXPANSION_REGISTER.json) for the main novel. The manuscript may grow in several operations, but the editorial scope remains the whole book.
+
+The whole-book sweep is distinct from the spaced-retrieval writer. Retrieval cadence decides when continuity memory is checked; the chapter register decides which chapters still need expansion. A broad story update may produce a chapter-by-chapter batch, with each chapter verified and persisted separately.

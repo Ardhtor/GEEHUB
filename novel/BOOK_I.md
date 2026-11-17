@@ -4923,9 +4923,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The largest man entered first. The others followed.
 
-     Each screen displayed one of the seven men, not as he was but as he might become. Luke stood beneath an enormous tree, one hand against its trunk. Tyler crossed a frozen sea with a map sealed inside his coat. Kirk sat alone in a stadium filled with empty chairs, studying the structure rather than the empty seats. Joseph walked through a room of open doors, carrying no paper. Bill stood beside a long table covered with provisions, counting what remained after a journey. The sixth screen showed the largest man beside a mountain, his back turned toward the city. The seventh showed the elder brother from the northern house. He stood at a threshold with his younger brother beside him. Neither was among the seven travelers, but the screen held them as steadily as the others.
+     Seven screens displayed the travelers, each man shown not as he was but as he might become. Luke stood beneath an enormous tree, one hand against its trunk. Tyler crossed a frozen sea with a map sealed inside his coat. Kirk sat alone in a stadium filled with empty chairs, studying the structure rather than the empty seats. Joseph walked through a room of open doors, carrying no paper. Bill stood beside a long table covered with provisions, counting what remained after a journey. The sixth screen showed the largest man beside a mountain, his back turned toward the city. The seventh showed the Seventh Man standing at the edge of a road that continued beyond the frame. An eighth screen held the elder brother from the northern house, standing at a threshold with his younger brother beside him. Neither brother was among the seven travelers, but their shared road had been retained alongside the others.
 
-     Luke looked at the seventh image. “Why him?”
+     Luke looked at the eighth image. “Why him?”
 
      The registrar stood near the entrance. “The hall does not arrange its records according to your party.”
 

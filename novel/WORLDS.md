@@ -2573,3 +2573,11 @@ SETH: Northgate University rises above the reservoir beneath old trees and open 
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/northgate-university/README.md. Pressure 0.98; memory 1.00.
+
+## BLUEWATER QUAY / pulse 291 / ATMOSPHERE
+
+SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/bluewater-quay/README.md. Pressure 1.00; memory 1.00.

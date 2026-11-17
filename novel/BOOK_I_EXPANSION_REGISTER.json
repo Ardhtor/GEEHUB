@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "41a5801a40409b2476607c167c43732e73c1c60f",
+  "source_blob_sha": "f8cd825e86177601aade027415dc1f1571cef44f",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 27,
+    "completed": 29,
     "in_progress": 1,
-    "queued": 44,
+    "queued": 42,
     "empty_source": 0,
-    "next_chapter_index": 27,
-    "active_chapter_id": "book-i-xxviii",
-    "last_completed_chapter_id": "book-i-xxvii"
+    "next_chapter_index": 29,
+    "active_chapter_id": "book-i-xxx",
+    "last_completed_chapter_id": "book-i-xxix"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -477,11 +477,11 @@
       "baseline_word_count": 221,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the country as a shifting geography navigated by the seven artifacts. Replace the existing faceless woman and child with adult faceless men; preserve the photograph's missing fifth figure and the question of who has been forgotten.",
-      "current_word_count": 227
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "f8cd825e86177601aade027415dc1f1571cef44f",
+      "notes": "Expanded and verified against Chapters XXVII and XXIX. The country is navigated through seven artifacts whose directions describe relations rather than north. The faceless settlement is populated by adult male inhabitants; the missing fifth figure in the Sacred Fountain photograph becomes the next unresolved thread. All cast members are male.",
+      "current_word_count": 1628
     },
     {
       "chapter_id": "book-i-xxix",
@@ -493,11 +493,11 @@
       "baseline_word_count": 153,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
-      "current_word_count": 159
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "f8cd825e86177601aade027415dc1f1571cef44f",
+      "notes": "Expanded and verified against Chapters XXVIII and XXX. The missing man emerges from the photograph without becoming a possession or an answer assigned by the travelers. His boundaries and choice to leave remain intact; his footprints alter the road. All cast members are male.",
+      "current_word_count": 1124
     },
     {
       "chapter_id": "book-i-xxx",
@@ -509,10 +509,10 @@
       "baseline_word_count": 199,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the opening of the Seventh Light and the war against isolation through concrete action, the first stop, and the men who choose to reconnect. Preserve the missing man's unresolved status and the all-male cast.",
       "current_word_count": 206
     },
     {

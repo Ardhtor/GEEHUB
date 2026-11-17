@@ -614,7 +614,7 @@
 
      “You need ordinary rooms,” he said.
 
-     His brother looked at his. “We have them.”
+     His brother looked at him. “We have them.”
 
      “You need more of them.”
 
@@ -654,7 +654,7 @@
 
      “I asked you to come with me.”
 
-     He looked at his, and he saw that the distinction had reached him. The city had taught him that home could be made wherever someone remembered him, but it had not made every place interchangeable. The southern house still existed. Their shared past still had a geography. Returning to it would not erase the years he had spent in the reservoir, and staying in the city would not make their earlier life unreal.
+     He looked at him, and he saw that the distinction had reached him. The city had taught him that home could be made wherever someone remembered him, but it had not made every place interchangeable. The southern house still existed. Their shared past still had a geography. Returning to it would not erase the years he had spent in the reservoir, and staying in the city would not make their earlier life unreal.
 
      They decided to leave after the next morning's tide. The boat would take them to the outer shore, where the road emerged from the lower forest. His companions would travel with them as far as the ridge. The records keeper prepared a small packet of documents describing the city and the new House of Returns. The practical man repaired a loose strap on his pack. His brother packed nothing except the notebook he had kept since his first arrival.
 
@@ -766,7 +766,7 @@
 
      “It also saves the person who made the correction,” the elder brother said.
 
-     His brother looked at his. “You think of that first?”
+     His brother looked at him. “You think of that first?”
 
      “I think of who gets blamed when a record looks clean.”
 

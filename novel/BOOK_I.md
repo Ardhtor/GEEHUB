@@ -564,6 +564,117 @@
 
      The return was not a simple reversal of the road. Distance had changed the people who crossed it, and every familiar place now carried the weight of what had happened elsewhere.
 
+
+
+     The first evening in the city was not spent in the tower. Her brother took her down through the lower districts, where the streets followed the shoreline and the houses stood close enough together for their upper windows to almost meet. The architecture had the quality of something assembled from remembered requirements. A doorway was wide where a traveler had once carried a heavy trunk. A stair turned gently where an older resident had needed somewhere to rest. A courtyard contained a stone basin and a bench worn smooth at one end. The city did not look newly built. It looked repeatedly used, repaired, and enlarged by people who had brought their needs with them.
+
+     Her brother showed her the house that contained the blanket. It was not displayed behind glass. It lay folded at the foot of a narrow bed in a room overlooking one of the lower canals. The cloth was the same dull color as the one she had carried across the country, and one corner had been repaired with a thread that matched the blanket she remembered from their childhood home. She reached toward it, then stopped.
+
+     “Is it mine?” she asked.
+
+     “It came with you.”
+
+     “I brought it here.”
+
+     “You brought another one.”
+
+     He explained that the reservoir did not always preserve an object by removing it from the person who had carried it. Sometimes it preserved the relation between the object and its owner by making another instance, or by giving the memory of the object a place to remain. The blanket in the room was not the one folded in her pack. She checked. Her own blanket was still there, damp at the edges from the journey, smelling of smoke and wet wool. The one on the bed carried the same history but not the same wear. It had a small repair she had not yet made.
+
+     She sat beside it. For a moment she was unable to decide whether the city had remembered her accurately or had begun to anticipate her. The difference seemed important. Her brother did not tell her which explanation to choose.
+
+     “Does everything become a copy?” she asked.
+
+     “No. Some things remain where they are. Some are remembered. Some return changed. Some never return at all.”
+
+     “And you?”
+
+     He looked through the window toward the water. “I don't know which part of me you expected to find.”
+
+     She had expected to find her brother, and she had. Yet the answer unsettled her because it left the reunion open to further questions. She remembered his hands, his habit of pressing a thumb against the side of a cup, the way he had once gone silent when he was thinking. He still did those things. He also seemed to carry memories she had never shared with him, and there were pauses in his speech where she could sense an experience too large to be explained in one conversation.
+
+     “You can tell me what happened,” she said.
+
+     “I can tell you what I remember.”
+
+     “Then start there.”
+
+     He did. He described the first days after the laboratory expanded, when the old corridors had become longer and the windows opened onto districts that had not existed the previous morning. He told her about the people who had arrived carrying ordinary objects and found those objects had become the beginnings of rooms. A woman had brought a cooking pot and discovered a kitchen organized around the meals she had once made for her family. A surveyor had brought a broken compass and found a whole street whose turns could only be understood by following its unreliable needle. A soldier had arrived with a button from a uniform and spent several days searching for the coat that belonged to it. The city had grown through these arrivals, but it had also learned to distinguish between a person's memory and the person's permission to have that memory used.
+
+     “What happens when someone doesn't want to be remembered?” she asked.
+
+     “Then we have to leave them room to disappear.”
+
+     “Can the city do that?”
+
+     “It is learning.”
+
+     They walked farther. In a public hall, shelves held objects that had been offered for preservation. Each had a card describing where it had come from, who had brought it, and whether the person wanted it kept, lent, or left alone. Some cards were incomplete. One had only a date and the words *found beside the southern road*. Another recorded that its owner had changed his mind and wanted the object returned. A clerk was trying to locate him. The city was not perfect. It had accumulated more histories than its first custodians knew how to care for, and some of its early rooms had been built without asking what their inhabitants wanted.
+
+     Her brother did not defend those mistakes. He showed her a district that had been closed for several years because its houses had begun reproducing memories without distinction. A resident would enter a room to find a conversation repeated exactly as it had happened decades earlier. At first people had found the repetitions comforting. Later they discovered that the rooms were preventing new conversations from taking place. The district had been sealed, its records retained, and a new rule established: preservation could not be allowed to replace the living event. A memory was valuable because it made a relationship available, not because it could substitute for the people who had formed it.
+
+     She thought of the southern house where their mother had kept old letters in a drawer. The letters had mattered, but nobody had mistaken them for the people who wrote them. They had been taken out on certain evenings, read, discussed, and put away again. The drawer had been a place where memory could rest without claiming the whole house.
+
+     “You need ordinary rooms,” she said.
+
+     Her brother looked at her. “We have them.”
+
+     “You need more of them.”
+
+     He smiled, and for the first time that evening she recognized the expression without having to compare it with the past. “That is why I wanted you to come.”
+
+     The next morning she met the people who had crossed the reservoir with him. They were not the figures she had imagined while traveling. One was a quiet woman who kept the public records and disliked grand descriptions of the city. Another was a broad, practical man who repaired doors and bridges, insisting that a place could not call itself a home if its hinges did not work. A third had arrived as a child and was now old enough to oversee one of the boat routes. Each had a different account of the city's beginning. They disagreed about the first tower, the first street, and the number of people present when the lake became transparent. They did not treat the disagreements as threats. Their records preserved the differences, and their daily work depended on the things they could establish together.
+
+     The practical man asked her what she thought of the city.
+
+     “It is beautiful,” she said. “But it is very good at keeping things.”
+
+     “That's what we built it for.”
+
+     “Then you should also become good at letting people take things away.”
+
+     He considered that. He had spent years repairing the bridges that carried people between districts. He understood removal as a physical problem: a beam could be taken out only if the structure around it remained sound. He had not thought of a memory in the same way.
+
+     “We can make a return office,” he said eventually. “Somewhere people can ask for what belongs to them.”
+
+     The records keeper, who had been listening, corrected him. “Not an office that decides what belongs to them. A place that helps them find out what they want returned.”
+
+     They argued about the wording for some time. The sister listened, then suggested that the place should be called the House of Returns. It would contain a table, a registry, a repair bench, and a room where people could sit with an object before deciding what to do with it. Nothing would be released merely because a record said it could be. The person who had carried it would have the final say whenever that person could be found and asked.
+
+     The proposal was accepted provisionally. The city had acquired another district, not through the arrival of a new object but through a disagreement about what preservation was for.
+
+     On the third day she and her brother returned to the tower. From its upper room she could see the new building site beside the canal. Workers were laying a foundation. The practical man had already brought a set of tools. The records keeper was making a list of the first objects that might need to be returned. The city continued expanding beyond them, but for once its growth had been redirected toward a question of restraint.
+
+     “Will you come south with me?” she asked.
+
+     Her brother did not answer immediately. He watched a boat move beneath the bridge. A man on the deck was carrying a small wooden box. The boat passed under an arch and emerged in a district where the buildings were older and lower. The city had given the traveler a route that followed the history of the box rather than the shortest distance between two points.
+
+     “I want to see the house,” he said. “I want to know whether I remember it as you do. But I cannot promise that I will remain there.”
+
+     “I didn't ask you to remain.”
+
+     “You asked me to come home.”
+
+     “I asked you to come with me.”
+
+     He looked at her, and she saw that the distinction had reached him. The city had taught him that home could be made wherever someone remembered him, but it had not made every place interchangeable. The southern house still existed. Their shared past still had a geography. Returning to it would not erase the years he had spent in the reservoir, and staying in the city would not make their earlier life unreal.
+
+     They decided to leave after the next morning's tide. The boat would take them to the outer shore, where the road emerged from the lower forest. Her companions would travel with them as far as the ridge. The records keeper prepared a small packet of documents describing the city and the new House of Returns. The practical man repaired a loose strap on her pack. Her brother packed nothing except the notebook he had kept since his first arrival.
+
+     Before dawn, she went alone to the lake. The surface was dark and still. Far below, the submerged streets carried their own pale light. She could see people moving between houses, some carrying objects, others walking with empty hands. She understood that the city would continue whether she remained or left. Its memory did not depend on her becoming part of it. That realization made departure easier. She did not have to choose between loving her brother and accepting the place that had kept him.
+
+     When she returned to the tower, he was waiting by the door. They descended together. At the lower gate, he stopped and looked back at the city. It had no single center. Its towers, bridges, rooms, and canals had grown around the journeys of people who had arrived carrying different kinds of loss. From the shore, the whole arrangement looked almost like a forest of lights. From within, it was a place where someone had to repair a roof, prepare a meal, find a missing record, and make room for a new arrival.
+
+     The boat was ready. They boarded, and the city receded behind them without disappearing. Her brother watched until the upper towers became narrow marks against the far shore. Then he turned toward the country ahead.
+
+     “I remember the road,” he said.
+
+     “Which part?”
+
+     “The part where you kept going.”
+
+     She took his hand. They crossed the lake together, carrying the city with them not as a possession but as a place they could return to. Beyond the outer shore, the old road waited beneath the trees. It was not the same road she had followed into the north, and it did not promise to take them back unchanged. It was enough that it continued.
+
+
 ## Chapter III: Big Daddy's Voice
 
      The northern country was so large that a story could disappear inside it and still leave enough distance around the disappearance for people to mistake silence for an ending. The old manuscripts had been written by people who knew this. Their pages did not hurry. They returned to places. They described the same chamber from different years, the same road under different weather, the same person before and after the thing that had changed him. Among the keepers of the northern manuscripts this habit eventually acquired a name: Big Daddy's Voice. Nobody agreed that Big Daddy had ever been a single man. Some believed the Voice belonged to the chief physician, whose surviving notes became increasingly repetitive during the final hours of the Accident. Others believed it belonged to the laboratory itself. A third school believed that the Voice was what happened when attention remained fixed upon a thing for so long that description ceased to be observation and became pressure. The practical consequence was the same. The Voice made things remain.
@@ -5397,59 +5508,3 @@
      Bill nodded toward the open door.
 
      “Go.”
-
-     One by one they entered.
-
-     Luke crossed first, followed by Tyler, Kirk, Joseph, and finally the stranger carrying the wooden handle. The road beneath them changed with every step, but they remained together. Joseph reached back once and took Kirk's hand as the floor became a bridge, and the gesture was so ordinary that Bill almost laughed. Of all the impossible things the Hub had produced, it was the ordinary gestures that seemed to him the most durable.
-
-     The door closed.
-
-     Bill remained alone beside the fountain.
-
-     He did not feel abandoned. He had spent too long understanding the difference between absence and departure to confuse the two.
-
-     He looked down at the metal stop.
-
-     The twelfth place had changed.
-
-     Something small and brass now rested inside it.
-
-     A key.
-
-     Bill stared at it for a long moment.
-
-     Then he laughed.
-
-     “Not yet.”
-
-     He took the key.
-
-     Behind him, through the amber trees, a road appeared where there had been no road before. Bill looked toward it. He seemed tired, but he also seemed pleased, as though the world had finally offered him a question he had not already heard.
-
-     He put the key in his pocket and began walking.
-
-     The forest received him.
-
-     Far beyond it, the unfinished novel continued to grow.
-
-     And because Bill had kept the connection, what happened next did not have to begin from nothing.
-
-## Chapter LXVI: The Keeper of the First Stop
-
-     The stranger entered the unfinished novel and found that it had no floor.
-
-     Pages extended beneath him, but every time he stepped onto one, the sentence changed into another surface. A road became a table. The table became a bridge. The bridge became a hallway. The hallway became the interior of a house.
-
-     Luke was already there.
-
-     “Where are we?”
-
-     “Inside what we wrote.”
-
-     Tyler looked upward.
-
-     “Then where is the reader?”
-
-     Joseph answered.
-
-     “Behind us.”

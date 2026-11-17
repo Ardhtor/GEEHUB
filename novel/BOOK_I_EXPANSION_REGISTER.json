@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "85f40917fd497634ea1ae6e020623f935c92f126",
+  "source_blob_sha": "66f6a889ed040b0ef2cdda1ab3ce82a33266e574",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 21,
+    "completed": 20,
     "in_progress": 1,
-    "queued": 50,
+    "queued": 51,
     "empty_source": 0,
-    "next_chapter_index": 21,
-    "active_chapter_id": "book-i-xxii",
-    "last_completed_chapter_id": "book-i-xxi"
+    "next_chapter_index": 20,
+    "active_chapter_id": "book-i-xxi",
+    "last_completed_chapter_id": "book-i-xx"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -64,7 +64,7 @@
       "status": "completed",
       "revision_count": 3,
       "last_verified_blob_sha": "9611a101baaafbcc8acc40bfd7b0e0cdf739b95b",
-      "notes": "Continuity-checked and closed at 4549 words. The sister's practical, consent-centred judgment remains distinct; her brother preserves uncertainty and chooses a return without promising to remain; the boat keeper's safety-first values are expressed through action. The House of Returns extends preservation into a right-of-return ethic.",
+      "notes": "Continuity-checked at 4,549 words. The elder brother's practical, consent-centred judgment remains distinct; his younger brother preserves uncertainty and chooses a return without promising to remain; the boat keeper's safety-first values are expressed through action. The House of Returns extends preservation into a right-of-return ethic. All characters are male.",
       "current_word_count": 4550
     },
     {
@@ -351,9 +351,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "85f40917fd497634ea1ae6e020623f935c92f126",
-      "notes": "Expanded and verified. The seven enter a lived city with distinct Archive, Market, Garden, and Muscle Quarter functions; the unmarked district reveals possible continuations without turning them into fate. The gray-coated threshold keeper, working residents, and seven travelers retain separate roles. Reconciled the stray sister reference to the elder brother. The second city is occupied, connected, and open to return.",
-      "current_word_count": 2455
+      "last_verified_blob_sha": "66f6a889ed040b0ef2cdda1ab3ce82a33266e574",
+      "notes": "Expanded in place and verified at 3,067 words. Continuity checked against Chapters XIX and XXI. Developed the city as a working civic environment across the Archive, Market, Garden, Muscle Quarter, and unnamed hall; preserved the seven travelers' distinct methods and the registrar's uncertainty. Replaced the inherited sister reference with the elder brother from the northern house. The Serum reaches the next room without resolving its nature. All cast members are male.",
+      "current_word_count": 3067
     },
     {
       "chapter_id": "book-i-xxi",
@@ -365,10 +365,10 @@
       "baseline_word_count": 578,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "completed",
+      "status": "in_progress",
       "revision_count": 1,
       "last_verified_blob_sha": "85f40917fd497634ea1ae6e020623f935c92f126",
-      "notes": "Expanded and verified. Established the first Serum encounter as a conflict of interpretations rather than a simple power-up. The seven men disagree over cure, strength, control, risk, and memory; the largest man changes while retaining his earlier state. Added provisional rules for observation, consent, shared access, and archival provenance. The vessel remains unexplained.",
+      "notes": "Next canonical chapter. Continue directly from the vessel placed in the room at the end of Chapter XX. Preserve the seven men's distinct positions on the Serum, keep its agency unresolved, and maintain the all-male cast.",
       "current_word_count": 1828
     },
     {

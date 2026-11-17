@@ -3595,6 +3595,240 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “The lake.”
 
+     The first arrow had been fired from a western ship whose captain believed the tower was a signal post. He had been told that the blue lights marked the house's command center and that destroying one would interrupt the movement of the doors. The order had been written on a map copied from Orlan's survey, though the original map did not identify the tower as a military target. The royal copy had added a red mark and a short instruction: DISABLE THE SIGNAL. The captain had trusted the map because it carried the cartographers' seal. He did not know that the mark had been added after Orlan returned south.
+
+     The arrow struck the tower and made it ring. The sound traveled through the lake. It passed beneath the ships, through the foundations of the city, and into the lower reservoir. Every man who heard it felt the vibration in his chest. The residents did not mistake it for an attack on a person. It was an attack on a structure that held several routes together. The largest man went to the upper gallery. Bill went below to check the water gates. Tyler took the altered map from the archive and compared it with the original. Luke went toward the outer bridge. Kirk remained near the landing to help the men who might arrive from the ships. Joseph stayed with the observer at the central screen.
+
+     “They used the map,” the observer said.
+
+     “They used a version of it,” Joseph replied.
+
+     “Does that matter?”
+
+     “It matters to the men who made the first one.”
+
+     On the screen, the royal fleet advanced. Its ships appeared to multiply as they crossed the water. Tyler found that the number forty-seven referred to the ships recorded at the first sighting, not the number that had entered the lake. Later copies had combined several sightings and presented them as one fleet. The captains were not commanding ninety ships. They were commanding a fleet whose positions had been recorded at different times. The map had made the lake look like a single fixed surface and the ships like a single simultaneous force. The battle was already being misrepresented before the second arrow was fired.
+
+     Tyler sent the correction to the outer gallery. The men did not try to stop the ships by force. They opened routes through the city and allowed the vessels to continue until the water became too deep for their anchors. The ships spread apart. Some found themselves beside towers. Others passed through streets wide enough to carry their masts. The lake did not break the hulls. It changed the relation between each ship and the shore.
+
+     The western king ordered his fleet forward. The lead captain obeyed. His ship moved toward the tower, but the distance increased with each stroke of the oars. He ordered the crew to row harder. The tower grew smaller. He ordered the sail raised. The wind carried the ship sideways into a channel that had not been visible before. A second ship followed and entered a different channel. The captains tried to signal one another, but the towers between them multiplied. Their flags remained visible while the ships that carried them seemed to occupy separate parts of the lake.
+
+     The river king's fleet tried to hold the lower passage. Its commander anchored two ships across the channel and sent a smaller vessel ahead to sound the depth. The sounding line did not reach the bottom. The crew added another length. The water continued downward. The commander ordered the ships to move sideways, believing that a wider formation would prevent the house from isolating them. The lake widened instead. The anchored ships remained in place, but the distance between them grew until their connecting ropes could no longer reach.
+
+     The coastal commanders tried to retreat. Their charts showed a southern shore behind them. The shore moved away. One captain blamed the pilots. Another blamed the cartographers. A third ordered the crew to turn toward the nearest tower. It opened like a gate and revealed a street lined with houses. The ship entered. Its keel passed over paving stones without touching them. Men stood on balconies and watched the vessel move through the city. Nobody threw anything. Nobody attacked. The captain ordered his men to lower their weapons. The residents did not approach until the crew had stopped shouting.
+
+     The soldier who had raised his shield against the broad resident remained near the tower. He was young, but old enough to have served through two campaigns. He had been taught that a city was a collection of walls, streets, stores, and gates, and that a commander who controlled those things controlled the city. The house did not fit the lesson. He had watched a door open onto the lake, a wall become a corridor, and a screen become a room. He could not decide whether he was standing in a building or inside a machine.
+
+     The resident approached him without hurry.
+
+     “You can lower that.”
+
+     The soldier looked at his shield.
+
+     “I don't know what happens if I do.”
+
+     “Nothing will happen because you lower it.”
+
+     “You can't promise that.”
+
+     “No. I can tell you what I intend to do.”
+
+     The soldier lowered the shield a little. The resident waited. He did not take the weapon or ask for the man's allegiance. The soldier looked past him toward the water.
+
+     “Are there people inside the screens?”
+
+     “There are men in the rooms they open.”
+
+     “And the rooms are inside the screens?”
+
+     “Sometimes.”
+
+     The soldier gave a short, disbelieving laugh. “That's not an answer.”
+
+     “It is the answer I have.”
+
+     He recognized the phrase from the stories told around the campfires. He looked at the resident again.
+
+     “You have been watching us.”
+
+     “We have been watching the lake.”
+
+     “And us?”
+
+     “You are on the lake.”
+
+     The soldier considered this. It was not an accusation. It was a statement of position. The resident pointed toward a set of steps leading down from the tower. A narrow bridge extended from the bottom, ending beside a small landing.
+
+     “Your ship is there.”
+
+     The soldier looked. He could see its mast between two buildings. He had thought it was still in open water. The resident offered to show him the route. The soldier followed, keeping his shield at his side.
+
+     The bridge was made of dark timber, with iron braces and a handrail worn smooth by use. The soldier expected it to sway, but it remained steady. Below them the water was clear enough to show another city beneath the first. Men walked along its streets. Some carried lanterns. One stood beside a door and looked up as they passed. The soldier stopped.
+
+     “There are people down there.”
+
+     “Men,” the resident said. “Some are traveling. Some are working. Some are returning.”
+
+     “How far down?”
+
+     “Farther than the line can tell you.”
+
+     The soldier resumed walking. He did not ask for a measurement. At the landing, he found his ship tied to a post. The crew had been brought ashore and were waiting beside the cargo. None had been harmed. Their captain was angry, but he was listening to Kirk, who was explaining that the vessel could leave by the same route if the crew waited until the tide changed.
+
+     “We don't need your help,” the captain said.
+
+     Kirk looked at the ship. “Then you can untie it.”
+
+     The captain glanced at the water. The vessel was resting beside a building that had not been there when he entered the lake. Its mast was clear of the roof, but the passage behind it had narrowed. He could not see the route back to open water.
+
+     “How do we leave?”
+
+     “The way you came in.”
+
+     “That route is gone.”
+
+     “The route is still there. You are looking at the wrong shore.”
+
+     Kirk pointed to a set of dark posts. The captain followed the line and saw that the channel had not disappeared. It had shifted to the other side of the landing. He looked back at Kirk.
+
+     “Why show us?”
+
+     “Because you asked.”
+
+     The captain did not thank him. He ordered the crew to prepare the ship. Kirk helped them move the cargo away from the edge and checked the rope before they pushed off. The captain left without firing another arrow.
+
+     Across the lake, the western flagship had struck the new building. The impact had not damaged the hull, but it had left the ship wedged between two balconies. The crew climbed onto the stone walkways. Their commander was furious. He ordered the men to clear the deck and prepare to board the tower. The tower opened. A broad man stepped out onto the balcony.
+
+     “You cannot take the tower,” he said.
+
+     The commander raised his sword. “We have already reached it.”
+
+     “You have reached a balcony.”
+
+     “We have taken the ship through your defenses.”
+
+     “You have brought it into a room.”
+
+     The commander looked around. The balconies were connected by streets. Windows opened onto rooms. A narrow stair descended toward a courtyard where men were carrying timber. The ship was no longer surrounded by open water. It was part of a neighborhood.
+
+     “Where is the lake?” he asked.
+
+     The resident pointed downward.
+
+     “Below you.”
+
+     “And the shore?”
+
+     “Around you.”
+
+     The commander looked at the ship. “This is a trick.”
+
+     “It is a place.”
+
+     The commander ordered his men to form a line. The resident did not move. Behind him, more men appeared at the doors. They carried no weapons. One held a coil of rope. Another carried a toolbox. A third had a map folded under his arm. The commander saw that they were not preparing to attack. They were preparing to move the ship.
+
+     “What are you doing?”
+
+     “Making room.”
+
+     The men passed ropes around the mast and secured them to the stone posts. They lifted the bow a little, then guided the vessel through a gap between two buildings. The ship moved slowly. The commander watched his own crew help. Nobody asked him for permission. Nobody took the ship. When it reached the open channel, the ropes were released. The resident pointed toward a blue-lit arch.
+
+     “That way leads out.”
+
+     The commander looked at him. “Why would you help us?”
+
+     “Because you are trying to leave.”
+
+     The ship moved through the arch and returned to open water. The commander stood at the stern until the buildings became towers and the towers became lights. He had entered the lake intending to occupy the house. He was leaving with a route he could not describe.
+
+     By sunset, the battle had become a series of separate encounters. Some soldiers were still aboard their ships. Others had found shelter in the city. A few had wandered into the lower districts and were being guided toward the outer road. The residents did not gather the armies in one place. They did not demand surrender. They helped men find their way out when those men were ready to leave, and they allowed others to rest.
+
+     The western king's flagship remained near the center of the lake. The king had watched the battle from its upper deck. He had seen the water deepen, the shore retreat, and the ships enter streets. He had seen soldiers walk onto balconies and return carrying cups of water. He had not seen a single resident raise a weapon. He called for the chief cartographer.
+
+     Orlan came aboard carrying the original map. He had not been invited to the battle. He had come because he knew the royal copies had been altered and wanted to see what the commanders would do with them.
+
+     “You knew this would happen,” the king said.
+
+     “I knew the maps were not a guarantee.”
+
+     “You knew the lake would move.”
+
+     “I recorded that it could change.”
+
+     “You should have stopped them.”
+
+     Orlan looked at the map. “I told you what I had measured.”
+
+     The king pointed toward the city. “Then measure it now.”
+
+     Orlan looked across the water. The city had expanded into a wide arrangement of streets, bridges, and houses. Its edges were difficult to distinguish from the lake. Some towers stood in the water. Others seemed to stand beneath it. The original shore was no longer visible.
+
+     “I can record what I see,” he said.
+
+     “And what is that?”
+
+     “A city in the lake.”
+
+     “Whose city?”
+
+     Orlan looked toward the residents moving along the bridges.
+
+     “The men who live there.”
+
+     The king did not like the answer. He ordered the fleet to withdraw. The ships began to move, but the lake did not immediately return to its earlier dimensions. The route home remained open in sections. Some vessels reached the southern shore before nightfall. Others continued through the city until morning. The kings would later claim that the fleet had withdrawn by choice. The captains would say that they had been allowed to leave. Both accounts would be preserved.
+
+     At night the soldiers sat with the residents. Some were frightened. Some were exhausted. Some simply stared at the blue screens and tried to understand how a machine could have streets, how a house could have history, and how a man could step from a monitor onto stone without either the screen or the stone being broken. A soldier asked a resident:
+
+     “Who won?”
+
+     The resident looked across the water.
+
+     “The lake.”
+
+     The soldier laughed once. “That isn't a king.”
+
+     “No.”
+
+     “It isn't an army.”
+
+     “No.”
+
+     “Then what is it?”
+
+     The resident watched the water move beneath the bridge. “The place that held us all.”
+
+     The soldier did not know whether to accept the answer. He had been trained to count victories by territory, prisoners, ships, and banners. The lake had taken none of those things. It had changed the conditions under which they could be counted. The residents had not conquered the armies. They had made the battlefield too large and too inhabited for the old purpose to survive.
+
+     The following morning, the first ships reached the southern shore. Their crews carried no captured objects. They brought back reports of a city beneath the water, a tower that had become a street, and a broad resident who had helped a ship pass between two buildings. The kings demanded to know how many men had been lost. The captains answered that none had been confirmed dead. They had lost time, position, and the ability to agree on the shape of the lake. The king asked whether the house had won.
+
+     One captain said that the lake had.
+
+     Another said that the residents had.
+
+     The third said that the battle had ended because the armies no longer knew what they were fighting.
+
+     Orlan returned to his camp and placed the altered royal map beside the original survey. He wrote the date of the battle on both. The first map showed the lake as it had been measured before the fleet arrived. The second showed the routes used during the battle, including the streets that had opened across the water. He did not draw a final boundary around the city. He left the shore unfinished and noted that the lake's extent had not been established.
+
+     At the house, the men returned to their work. Bill checked the lower reservoir. Tyler recorded the routes by which the ships had entered and left. Kirk helped repair a damaged landing. Luke walked the outer wall and found a section where the timber had been scraped by a mast. Joseph sat with the soldier who had asked who won. The soldier had not yet decided whether to return to the southern camp. He wanted to understand what he had seen before he reported it.
+
+     “You can stay until you are ready,” Joseph told him.
+
+     “Will the king come again?”
+
+     “Probably.”
+
+     “Will there be another battle?”
+
+     Joseph looked toward the lake. “That depends on what he learns.”
+
+     The soldier considered the answer. He had expected the residents to ask him to choose sides. They had not. He could return to his king, remain at the house, or travel elsewhere. The lake did not require him to become part of its history merely because he had crossed it.
+
+     At dusk, the ships that remained were guided toward the outer shore. The water settled, though it did not return to the same dimensions. The city kept its new streets. A bridge remained where one of the royal vessels had passed. A narrow channel connected the lower reservoir to a part of the lake that had not been visible before. The men recorded the changes and left the earlier map intact.
+
+     The battle had not ended the dispute over the house. It had made the dispute harder to disguise. The kings had wanted to possess a route and had found a living place. The cartographers had wanted to measure a building and had found a country. The soldiers had wanted to fight an enemy and had found men who would help them leave. The lake had not chosen a side. It had made room for the consequences of every choice made upon it.
+
+     Far below the surface, the seventh vessel remained beneath the house. Its liquid was almost clear. It reflected the city, the ships, the towers, and the men walking along the bridges. The reflection did not show which side had won. It showed the lake as it was now, carrying the previous state beneath the new one.
+
 ## Chapter XVI: The Seventh Vessel
 
      The seventh vessel was found beneath the house by a young man. He had been born after the Accident and had never been taught to fear the northern works. To him they were old architecture, nothing more. He entered a lower passage while looking for a cat and found a door beneath a stair. The door had no handle. He touched it. It opened. Behind it was a circular chamber. At the center stood a table. On the table stood one glass vessel. It was smaller than he expected. The liquid inside was almost clear. He called for his father. His father came. Then the archivists came. Then the soldiers came. Then the men came. Nobody touched the vessel. The largest man stood at the edge of the room.

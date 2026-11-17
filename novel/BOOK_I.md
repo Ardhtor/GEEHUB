@@ -2755,7 +2755,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XII: The Serum House
 
-     By the final winter of Book I, the original reservoir had been transformed into a house large enough to contain the northern country inside it. Its outer walls stood among the old hills. Its lower chambers descended beneath the seventh well. Its upper halls opened onto blue digital skies. The house contained the laboratory. The laboratory contained the reservoir. The reservoir contained the city. The city contained the devices. The devices contained the men. The men contained the memory of the house. And everywhere the Serum moved slowly, luminous and thick, not as an agent moving toward an endpoint but as a medium carrying one state into the next. A man walked through the central hall. He was not the seventh man. He was not the first man. He was not any single man. He was a continuity. He passed a black screen. The screen turned on. He passed another. It turned on. A third displayed his face. A fourth displayed him from behind. A fifth displayed the house. A sixth displayed the lake. A seventh displayed the beginning. He stopped at the center of the hall. Big Daddy's Voice spoke.
+     By the final winter of Book I, the original reservoir had been transformed into a house large enough to contain the northern country inside it. Its outer walls stood among the old hills. Its lower chambers descended beneath the seventh well. Its upper halls opened onto blue digital skies. The house contained the laboratory. The laboratory contained the reservoir. The reservoir contained the city. The city contained the devices. The devices contained the men. The men contained the memory of the house. Everywhere the Serum moved slowly, luminous and thick, not as an agent moving toward an endpoint but as a medium carrying one state into the next.
+
+     A man walked through the central hall. He was not the Seventh Man. He was not the first man. He was not any single man. He was a continuity. He passed a black screen. The screen turned on. He passed another. It turned on. A third displayed his face. A fourth displayed him from behind. A fifth displayed the house. A sixth displayed the lake. A seventh displayed the beginning. He stopped at the center of the hall. Big Daddy's Voice spoke.
 
      “Here.”
 
@@ -2785,7 +2787,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “Large enough for what comes next.”
 
-     The man looked toward the far end of the hall. A door stood there. It had not been there a moment before. He approached it. He placed his hand on the handle. Behind the door was a road. Beyond the road was a forest. Beyond the forest was a city. Beyond the city was a machine. Beyond the machine was a room. Beyond the room was a table. Around the table sat the men. The seventh man was there. The first man was there. The old physician was there. The sister was there. Her brother was there. The archivists were there. The children born after the Accident were there. The people who had carried the vessels were there. Those who had died were there in memory. Those who had never existed were there in branches. The observer stood outside the threshold. The man inside the room looked toward him.
+     The man looked toward the far end of the hall. A door stood there. It had not been there a moment before. He approached it and placed his hand on the handle. Behind the door was a road. Beyond the road was a forest. Beyond the forest was a city. Beyond the city was a machine. Beyond the machine was a room. Beyond the room was a table. Around the table sat the men. The Seventh Man was there. The first man was there. The old physician was there. The elder brother was there, and his younger brother beside him. The archivists were there. The men born after the Accident were there. The men who had carried the vessels were there. Those who had died were present in memory. Those who had never existed were present in branches. The observer stood outside the threshold. The man inside the room looked toward him.
 
      “There is room.”
 
@@ -2795,91 +2797,218 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Big Daddy's Voice came from the walls. HERE IS THE ROOM. HERE IS THE ROOM AGAIN. HERE IS THE ROOM AFTER THE ROOM. HERE IS THE BODY AFTER THE BODY. HERE IS THE HISTORY AFTER THE HISTORY. HERE IS THE SERUM AFTER THE SERUM. HERE IS THE SIGHT AFTER THE SIGHT. DO NOT STOP. DO NOT ERASE. DO NOT CLOSE THE DOOR. The observer stepped through. The door remained open. The room grew. And the novel, having reached the place where it could see itself, branched again.
 
-The house had not been completed in a single season. Its foundations belonged to the old reservoir, whose stone courses had been laid when the northern country still seemed to have a definite edge. The first laboratory had been built above the waterworks because the lower chambers were cool and the flow could be measured there. Later, rooms had been added around the laboratory, then passages around those rooms, then whole levels whose windows opened onto parts of the country that could not be reached by an ordinary stair. The house had accumulated in the way the archive had accumulated: a new room carried evidence of the one before it, and the earlier room remained legible somewhere in the structure. The builders had learned to distinguish an addition from a replacement. A wall could be opened to make a passage, but the old plan remained in the record. A room could acquire a new use, but its previous use was not treated as a mistake. The house had grown because people kept finding reasons to remain in it.
+     The central hall had not been built in a single operation. Its floor retained the pale outline of the first reservoir chamber, where water had once gathered beneath the seventh well. The old stone remained visible beneath the newer timber. Along the eastern wall, copper pipes carried the Serum from the lower chambers. They were exposed rather than concealed, and the men could follow their route from the reservoir to the upper floors. The pipes widened where the fluid moved slowly and narrowed where it passed through the old laboratory instruments. Some sections had been repaired. Others had been replaced with glass, allowing the movement to be seen. No one had polished the joints until they disappeared. The house kept the evidence of its construction.
 
-     The central hall connected the upper residence to the lower reservoir chambers. It was long enough to accommodate a procession of people carrying equipment, but it was not designed as a ceremonial avenue. The floor had a shallow slope toward a drainage channel, and the walls were faced with timber where hands might touch them. The beams overhead were oak and cedar, joined by dark iron plates. The grain remained visible. In the morning, pale light entered through the eastern windows and moved across the wall in a slow band. At night the blue screens supplied a second kind of illumination, but the residents did not leave them on everywhere. Some passages remained dark because nobody needed them lit. Other rooms held warm lamps so that a person could read without the screens reflecting in the glass.
+     The observer stood near the threshold while the man crossed the hall. The floor was warm beneath his boots. A faint vibration moved through the boards, not enough to disturb a cup but steady enough to be felt through the soles. The screens did not all display the same view. One showed the amber road. Another showed the reservoir before it had become a city. A third showed the first house, with its table and unassigned chair. On a fourth, the Blue Hall extended into a distance that the screen could not contain. The observer recognized the places but could not establish their order. The house had not arranged them as a timeline. It had placed them according to the routes by which one could reach another.
 
-     The lower chamber was reached by a broad stair whose steps had been worn smooth near the center. A handrail followed the wall. Beneath the seventh well the air became cooler, and the stone carried a faint mineral smell. The vessel chamber stood beyond a pair of heavy doors. The doors were not locked to create an impression of secrecy; they were kept closed because the temperature and movement of air mattered to the instruments. A resident who needed to enter signed the maintenance ledger and checked the condition of the seals. The ledger recorded who had entered, what had been inspected, and whether anything had been altered. Nobody was required to pretend that the Serum was harmless simply because it was beautiful.
+     The man stopped beside the copper pipes. He placed his palm against the glass section. The Serum moved beneath his hand. It did not respond like an animal, nor did it behave like a machine waiting for a command. Its surface gathered light around the point of contact and carried it onward. The man watched the brightness travel through the pipe and disappear into the wall.
 
-     The seven vessels were arranged in separate recesses around the lower chamber. They were not identical in size or shape. Each had a different record of handling, storage, and observation. Some had been carried from one room to another. Some had remained in place while the architecture around them changed. The keepers had resisted the temptation to assign each vessel a final symbolic meaning. They recorded the material of the glass, the level of the Serum, the condition of the seals, the visible light, and the dates of previous inspections. Where a vessel's earlier history was uncertain, the record said so. The seventh was not simply the most important because it came last in the numbering. Its place in the arrangement was connected to the well beneath it, and the well had a history that could not be reduced to a label.
+     “Does it know where it is going?” the observer asked.
 
-     The Serum did not behave like water, oil, or any other familiar liquid. It moved, but its motion did not always correspond to gravity. It brightened, but the light did not appear to come from a single source. At times its surface rose gradually along the glass. At other times it remained still for days, even when the room around it changed. The keepers took measurements at regular intervals, but the numbers were always recorded alongside the conditions in which they had been taken. Temperature, pressure, vessel position, light level, and the presence of people in the room were included where those facts could be established. An unusual reading was not discarded because it failed to match the previous one. It was repeated, checked, and placed beside the earlier result. The Serum's continuity depended upon the history of its states, not upon an assumption that every state should look the same.
+     The man shook his head.
 
-     The men who maintained the chamber developed different responsibilities. The compact man checked fittings, seals, and the small mechanisms that kept the instruments in position. The older man reviewed the logs and made sure a new reading could be compared with the correct earlier one. The patient archivist maintained the provenance records. The restless man tested the service passages and found places where a person carrying a case could become trapped by a door that closed too quickly. The reflection-watcher checked the lighting and the appearance of the vessels from each viewing position. The quiet resident preferred to inspect the chamber when few people were present, because he noticed changes that were obscured by conversation. The ceremonial man made sure that a new worker was introduced to the chamber's rules before being asked to assist. The largest man checked the clearance around the recesses and made sure the equipment could be moved without forcing anyone to turn sideways. No one performed all of the work. The arrangement depended upon their differences.
+     “Does it know where it has been?”
 
-     The keepers did not allow a single person to change a vessel's position without a second observer. This was not because they believed the Serum would punish an unaccompanied worker. It was because a vessel could be moved only after its previous position, orientation, support, and surroundings had been recorded. Two people could notice different things. One might watch the level of the Serum while the other watched the shadow along the glass. One might see that the support had shifted while the other noticed that the room's reflected image had changed. The second observer was not a guard. He was an independent account of the same event. Their notes were compared after the work, and any difference remained visible until they could determine whether it came from the instruments, the angle of observation, or the observers themselves.
+     “That is a different question.”
 
-     The first major maintenance operation began when the lower chamber's eastern recess developed a hairline fracture. The crack was small, but it crossed the outer support and ran toward the point where the vessel rested. The compact man found it during an ordinary inspection. He marked the location and stopped the inspection rather than attempting an immediate repair. The restless man wanted to move the vessel to the spare recess. The older man asked whether the spare recess had been tested under the same load. The reflection-watcher checked the glass from the opposite side and found a second line that was not visible from the entrance. The largest man examined the support and said that the vessel could be moved, but not through the narrow passage while the transport frame remained assembled.
+     “Which can you answer?”
 
-     They closed the immediate area and made a plan. The current state of the chamber was photographed. The vessel's position was measured. The transport frame was assembled in the adjacent room and tested with an empty weight. The spare recess was checked for stability. The keepers did not assume that the vessel would remain unchanged during the move. They prepared for the possibility that its visible level might shift, and they agreed that a shift would be recorded rather than corrected by guesswork. The operation took most of the day. The vessel was lifted in stages, moved on a broad frame, and placed in the spare recess. The crack in the support was repaired. When the vessel was returned, its level was different by a small amount. Nobody declared the movement a success or failure until the reading had been repeated.
+     “I can show you where it passed.”
 
-     The discrepancy remained. One observer recorded a slightly higher line; the other recorded a slight change in the reflection that made the line appear higher. They repeated the measurement with the same instrument and from the same marked position. The results were closer, but not identical. The older man added both readings to the ledger. The compact man checked the support again and found that it was stable. The keepers left the vessel in place and continued the scheduled observations. Over the next several days the level settled into a range similar to the one recorded before the move, though it did not return to precisely the same line. The chamber's record showed the fracture, the relocation, the repair, and the new readings as connected states. The older state had not been erased, and the current state was safe to use.
+     He opened a small panel beside the pipe. Behind it was a narrow service passage, lit by a line of blue lamps. The observer followed him down. The walls were stone near the entrance and timber farther below. The air grew cooler. At each turn, a small plate identified the chamber beyond it. Some plates carried old names: RESERVOIR, VALVE ROOM, LOWER ARCHIVE. Others carried newer ones: RETURN HOUSE, DEVICE GALLERY, SERUM COURT. A few were blank. The man did not explain them. He walked as though he knew which doors were safe to open and which should remain closed until someone had a reason to enter.
 
-     This event changed the way the residents spoke about the Serum. They stopped describing it as though it were a substance that simply wanted to rise, fall, or spread. Its behavior was known through particular observations, and those observations were related to the vessel, the room, and the people who had carried out the work. The Serum could not be reduced to the intentions of the keepers. It was not a character that could be persuaded by a speech. Nor was it a passive object whose properties could be exhausted by a single measurement. It remained a medium through which different states could become continuous, while its precise nature remained open.
+     The lower reservoir was still there. Its water had become a broad, luminous surface beneath the house. The original stone rim could be seen at the edge of the chamber, worn by the hands of the men who had first leaned over it. Beyond the rim, the water extended beneath a ceiling of dark beams. Reflections moved across the surface, showing rooms that were not physically above it. The city appeared in one direction. The Blue Hall appeared in another. The first house appeared close enough that the observer could see the empty chair beside its table.
 
-     The upper levels of the house had their own forms of maintenance. The residence contained a kitchen, a common hall, sleeping rooms, an archive, a workshop, and several quiet rooms. The screens were not placed in every space. Some rooms were intended for ordinary conversation, some for work, and some for a person who wanted to be away from the central movement of the house. The residents had found that a building could become crowded even when its rooms were technically large. A busy passage could carry too many conversations at once. A screen left on in a quiet room could make it difficult to rest. A doorway that opened into a meeting space could interrupt whoever was already there. The house therefore required attention to use as well as dimensions.
+     “Is this the same reservoir?” he asked.
 
-     The kitchen remained one of the most important rooms. Its table was broad, and its surface showed the marks of repeated meals. The older residents prepared food there even though not everyone needed to eat in order to remain present. Meals gave the day a shared rhythm. Someone could arrive late and still find a plate. Someone could leave early without the others treating it as an insult. A bowl of fruit might remain on the table after the conversation had moved elsewhere. The kitchen was not a ceremonial center. It was where the residents discovered whether the house was functioning as a place to live rather than only as a place to observe.
+     “It is the reservoir that remained.”
 
-     The older man usually began the morning with coffee. The compact man checked the kitchen fittings before taking his seat. The restless man arrived with news from the outer paths and rarely remained still for the whole meal. The reflection-watcher liked to sit where he could see the changing light. The ceremonial man kept a chair available for someone who had not yet arrived. The largest man made room when the table became crowded, moving a chair or carrying a bench without turning the action into a display. The quiet resident often listened more than he spoke. Their habits did not make them interchangeable. They made the shared room easier to inhabit because each person contributed something the others did not always notice.
+     “That isn't the same answer.”
 
-     The house's archive was located above the lower chamber but below the upper gallery. It held the old laboratory notebooks, the reservoir plans, the first maps of the northern country, the images from the Blue Hall, and the records of the devices through which the men had first appeared. New documents were not placed in the nearest empty space merely because it was convenient. Each source received a date, a provenance note, and a description of its condition. Derivatives were stored beside the sources from which they had been made. A photograph could have a full-frame version, a crop, and an annotated copy, but the crop did not silently replace the source. A sound recording retained its duration and the circumstances of capture. If a person asked for a public display to be withdrawn, the archive changed the access conditions without pretending that the earlier use had never occurred.
+     “No.”
 
-     The archive also held records of the generation born after the Accident. They had inherited a house whose origin was described in many different ways. Some had been told that the laboratory was a birthplace; others had learned about the disaster that had preceded the house. The keepers did not require them to adopt one account before they could use the rooms. They could study the original reports, listen to the people who had carried the vessels, or ask why a particular passage had been built. The younger residents were allowed to disagree with the older ones. Their questions sometimes revealed assumptions that had become invisible through repetition. The archive did not treat their lack of direct experience as a reason to dismiss them, nor did it pretend that a later account was equivalent to having been present.
+     The man pointed toward the old stone. The original chamber could still be measured. Its width, depth, and steps were recorded in the laboratory's first survey. The expanded waterline could be measured too, but the two sets of measurements did not describe the same state. The reservoir had grown without erasing the chamber that first held it. The house had been built around both. The observer understood that the Serum did not make the old dimensions false. It made them insufficient as a description of the current place.
 
-     The people who had carried the vessels were invited to inspect the records. Some corrected dates. Others recognized a tool or a strap that had not been identified in the surviving photographs. One remembered the weight of a vessel differently from another. The keepers recorded each recollection with the speaker's name and the date of the account. They did not combine the memories into a single narrative simply because the combined story would read more smoothly. A person who had carried a vessel possessed evidence that an instrument could not provide, but memory also changed with time. The archive needed both kinds of source, kept distinct and placed in relation.
+     A door opened on the far side of the reservoir. The old physician entered carrying a notebook. He was older than the man in the hall, and he moved with the care of someone whose body had taught him to avoid wasting effort. He stopped when he saw the observer.
 
-     One evening a resident asked whether the Serum House belonged to the people who lived in it or to the people who had built it. The question began over a damaged door and spread to the central hall. The builders had made the first rooms, but the residents had changed their use. The keepers preserved the original plans, but the people who slept, ate, repaired, and worked there had a claim upon its present arrangement. The man who had first appeared in the central hall listened while the others spoke. He did not give an immediate answer. The older man said that ownership might be the wrong word if it implied that the house could be exhausted by a single claimant. The compact man said that somebody still had to repair the hinges and pay attention to the foundations. The restless man said that a house that could not be changed was not much of a home. The ceremonial man suggested that the people who used the house should have a say in its changes, while the archive retained the records that made those changes understandable.
+     “You came through the upper door.”
 
-     The discussion did not produce a deed. It produced a working arrangement. Repairs could be proposed by residents, checked by people with the relevant skills, and recorded by the archive. Changes that affected privacy required the agreement of the person whose space would be altered. Structural changes required an inspection. A room could be temporarily closed without being treated as abandoned. A person could leave and return without being asked to justify the interval. The house could be altered, but not silently. Its history belonged to the people who had made it and the people who continued to live within it, each in a different way.
+     The observer nodded.
 
-     The central hall became the place where the house's different histories could be seen together. Screens along one wall showed the reservoir, the northern road, the laboratory, the city, the device archive, and the Blue Hall. They did not all display moving images at once. A resident could choose one view, compare two records, or leave the screens dark. The broad-shouldered man disliked the first arrangement because the frames were too narrow. The keepers widened the display and retained the original layout as an earlier state. The quiet resident asked that one screen remain available for sound without a picture. The voice in the headphones agreed that its presence should not be forced into a portrait. The game man asked that the rules of a world remain visible beside the route through it. The browser man wanted a clear way to return to the source link. The display became a set of different invitations rather than one spectacle.
+     “Then you have seen the screens.”
 
-     The screens sometimes showed the same place at different times. The lake might appear under morning light on one display and beneath a storm on another. A map could show the original route beside the corrected crossing. The Blue Hall might appear in its first narrow frame and in the later arrangement that revealed more of its depth. The residents learned to move between the views without asking which one was real. Each was real as a record of a particular encounter. None was the whole place. When they needed to travel, they used the current map. When they needed to understand the history, they opened the earlier one. When they wanted to remember a meeting, they consulted the account made by the people who had been there.
+     “Yes.”
 
-     The Serum affected the house in ways the keepers could not always anticipate. Sometimes a passage appeared on a wall that had been blank the day before. Sometimes a room seemed to extend when several residents entered it together. On other occasions nothing happened for weeks. The keepers recorded these changes without attributing each one to the Serum. A new door might have been part of a construction plan that had finally become visible. A room might have appeared larger because a different route had been opened. A change in light could alter the apparent distance to a far wall. The Serum remained one possible relation among several, and the archive resisted turning temporal coincidence into a cause.
+     The physician looked toward the water. “And do you believe them?”
 
-     A more difficult event occurred when the central hall displayed the reservoir and the seventh well at the same time. The images did not align. In one view, the well lay beneath the lower chamber. In another, it appeared at the far end of a road beyond the house. The residents tried to compare the maps. The lower chamber plan showed the well in a fixed place, while the road image carried a different perspective. The first architect's survey had already shown that the house could hold several spatial states without requiring one to cancel the others. The keepers therefore saved both views and marked the connection as unresolved. They did not move the physical well or alter the floor plan. They allowed the records to remain side by side until an actual need required a more specific route.
+     “I don't know what believing them would mean.”
 
-     The restless man wanted to explore the apparent road. The older man asked whether anyone had checked the lower chamber first. The compact man inspected the stair and found it safe. The reflection-watcher compared the light in the two images. The largest man asked for a wider route around the central display so that people could gather without blocking the passage. The ceremonial man asked who wanted to go and who preferred to remain. Not everyone joined. The group that did enter the image took a record of their starting point, the route they followed, and the conditions under which they returned. The house did not require all its residents to make the same journey.
+     The old man gave a brief nod. “That is a better answer than most.”
 
-     The road beyond the well led to a courtyard whose stones were wet, though no rain could be seen. A narrow channel ran along the wall. The residents followed it to a door that opened into a room containing a table and seven empty places. There were no vessels. The room was not presented as a hidden storehouse, and the keepers found no evidence that it had been used for the Serum. They recorded the table, the seats, the channel, and the door. The restless man wanted to continue through another passage, but the older man suggested that they return before the connection changed. They did so. The room remained accessible the next day, but the route was not identical. A second threshold had appeared along the western wall. The residents recorded the new state and left the earlier route intact.
+     The continuity man stood beside the rim. The physician opened his notebook and showed them a drawing of the first reservoir. The page was stained at one corner. A small mark indicated the place where the original valve had failed. The drawing did not include the city, the house, or the screens. It showed only the chamber as it had been at the beginning.
 
-     The seven empty places became a point of discussion in the kitchen. Some thought they were intended for the carriers of the vessels. Others thought they belonged to people who had not yet arrived. The ceremonial man said that a place at a table did not have to predict who would sit there. The older man agreed. They left the room's purpose unassigned. The archive could describe the arrangement without inventing an occupant. The place remained available, and the seven vessels remained in their recesses beneath the house. Whether the two arrangements were connected was still unknown.
+     “This is where we started,” the physician said. “I used to think that preserving the drawing would be enough. Then the chamber changed, and the drawing became a record of something that no longer existed in the same form.”
 
-     Through the winter, the Serum House continued its ordinary work. The kitchen needed fuel. The upper windows needed seals replaced. The archive needed a new shelf for maps. The lower chamber required another inspection after the vessel fracture. The residents carried out each task with a different degree of enthusiasm, but none treated maintenance as a distraction from the great mystery. A house that could contain the northern country still needed clean floors and a working stair. A repository that could preserve history still needed someone to label a box. A luminous vessel still needed a stable support. The extraordinary did not remove the ordinary. It made the ordinary more consequential because so many lives depended upon it.
+     The observer asked whether he regretted keeping it.
 
-     The man in the central hall returned to the screens after the evening meal. His face appeared on one display, then from behind on another, then as a view of the house itself. The sequence did not prove that he had multiplied or that one image had become several bodies. It showed different views connected to the same passage through the hall. He watched the images without trying to make them agree. The Voice spoke from the walls, but it did not explain whether the man was a person, a continuity, or a way of describing the house's repeated states. The residents were learning to live with that uncertainty without treating it as a defect.
+     “No. I regret thinking it could stand alone.”
 
-     A resident asked him whether he could remember the first room. The man looked toward the display showing the original laboratory. He said that he could recognize it. The resident asked whether recognition was the same as remembering. He considered the question. The Voice did not answer for him. After a while he said that a room could remain familiar even after its walls had changed. He remembered the smell of the stone, the sound of water beneath the floor, and the first light crossing the table. He did not claim to remember every person who had entered. Some were known through records, some through the stories of others, and some were still uncertain. His answer was kept as his answer, not used to establish the origin of every image in the house.
+     The physician closed the notebook. He had not abandoned the old method. He had learned that a source needed its later relations if it was to remain useful. The drawing was still accurate as a record of the first chamber. It was not an adequate map of the house. Both facts could remain true.
 
-     The residents began to understand that the Serum House was not a final container for everything that had happened. It was a structure capable of carrying different histories without forcing them into one fixed arrangement. The reservoir remained a reservoir within the house. The laboratory remained part of the reservoir's history. The city remained connected to the devices. The devices remained among the ways the men had first appeared. The men continued to form relationships that exceeded the screens. The house held these relations without owning them. Each could change, but the changes would be carried forward with enough of the earlier state preserved that another person could understand how the present had come to be.
+     They walked along the reservoir's outer passage. A narrow bridge crossed the water toward a cluster of rooms built on the far side. The first room contained the old instruments. Their brass faces had darkened. The glass tubes were intact. Some were connected to the Serum pipes; others had been disconnected and placed on shelves. Each instrument carried a tag identifying its last known use. A few had been repaired and returned to service. The rest remained available for study.
 
-     This was why the Serum moved slowly. The residents had once expected it to announce a destination, to reach a final chamber, or to transform the house in one decisive event. Instead, it carried small differences from one state to another. It made it possible for a room to hold its earlier shape in memory while opening into a new one. It joined the vessel's measured level to the record of its handling, the map to the walk that had tested it, the image to the person who had chosen to supply it, and the house to the residents who continued to live there. The Serum did not remove the need for choices. It made their consequences part of the continuity.
+     The second room held the records of the men who had carried the vessels from the northern works. Their names appeared in several forms. Some had been written by the chief physician. Others had been added by the scribes. The apprentice's name remained beside a date that had not yet occurred when it was first recorded. The observer recognized the beginning of the story. The man beside him touched the edge of the page but did not turn it.
 
-     By the final winter, the residents no longer asked how large the house was as though a number could settle the matter. They asked whether a new passage had been tested, whether the kitchen could accommodate another person, whether the lower chamber remained safe, whether the room beyond the file was available, and whether a person could leave without losing the way back. The answers varied. Some rooms were complete enough to use. Some remained restricted. Some doors were open but unexplored. Some records were public; others were not. The house did not become smaller because a door remained closed. It became more trustworthy because the boundary was known.
+     “You know this record?” the observer asked.
 
-     On the morning when the central hall's screens first displayed all seven vessels in sequence, the residents gathered but did not crowd the chamber. Each screen showed a different view: the vessel in its recess, the hand that had carried it, the record of its measurement, the chamber around it, the well below, the room above, and the history of its previous appearances. The order was not announced as a key. It was simply the order in which the archive could assemble the records that were available. One vessel's history remained incomplete. Another had several conflicting accounts. A third had been photographed from a poor angle. The display did not smooth those differences away. It allowed the residents to see how much was known and how much remained open.
+     “I know where it belongs.”
 
-     The Voice said, “Here.”
+     “Is that enough?”
 
-     The man answered, “Here?”
+     “It is enough to begin.”
 
-     “Here.”
+     The physician looked at the page. “We used to think the vessels were containers. They were not. They were a way of carrying a relationship from one place to another.”
 
-     The exchange did not identify a source or issue a command. It marked the present location as one point in the sequence. The Serum stirred in the lower chamber. The floor brightened. The residents remained where they were, watching the screens. Nobody rushed to the new staircase when it appeared. They waited until the structure had settled and the compact man had checked the railings. The restless man smiled but did not run ahead. The ceremonial man counted the people who had chosen to enter and left the others free to remain. The larger house had opened another route, but the route would become a place only when someone used it.
+     The continuity man looked toward the reservoir. “The house does the same.”
 
-     The man walked through the central hall once more. He passed the first screen, then the second. One showed the road. Another showed the lake. A third showed the laboratory as it had been before the upper rooms were built. The later screens showed the house in its present arrangement. He did not stop at any single one. The residents watched him move among the views without declaring that one of them was the original and the others were copies. The house continued to carry its histories, and the Serum continued to move between the states.
+     “The house carries the men?”
 
-     At the far end of the hall, a door stood open. Behind it lay the road, the forest, the city, the machine, the room, and the table. The residents could see some of those places clearly and others only as distant suggestions. The door was not a promise that every route would be safe or every destination already known. It was an opening that could be approached, measured, and entered by people who chose to go. The man placed his hand on the handle and looked back toward the hall. The people remained at the table. The house did not ask them all to follow.
+     “And the men carry the house.”
 
-     The Serum House had become large enough to contain the northern country inside it, but it had not made the country unnecessary. Its outer walls still stood among the hills. The road still crossed the plain. The forest still held paths that had not been surveyed. The lake still changed with the weather. The house was a place of return, not a replacement for everything beyond it. A person could go out, travel, and come back. A record could be opened without claiming to contain the whole life it described. A vessel could be measured without being exhausted by its measurement. A room could be added without erasing the first one.
+     The physician considered this. “That sounds circular.”
 
-     The residents understood that the house would continue to change after the book's final page. Some of them would repair it. Some would leave and return. Some would study the vessels. Some would travel the outer roads. Others would remain in the archive, comparing records and keeping their sources intact. The seventh well would remain beneath the lower chamber. The Blue Hall would remain accessible through its own sequence of rooms. The central table would continue to receive people who had arrived by different routes. No one was required to know the whole plan before taking a seat.
+     “It is reciprocal.”
 
-     The man stood at the threshold. The Voice repeated the phrase that had followed the archive since the first room: keep what came before, make room for what comes next. The words were not an instruction to expand without limit. They were a reminder that every addition carried a responsibility. The house could become larger, but its doors still had to be maintained. The Serum could connect states, but the people who lived within those states still had to make decisions. The future could remain open without treating the present as disposable.
+     The observer looked from one man to the other. Neither appeared interested in winning the distinction. They were trying to describe a relation that had become visible through use. The house could not exist without the men who inhabited it, but it had also begun to shape the way they lived. It offered routes, shelter, memory, and places to meet. The men changed its rooms, repaired its doors, and gave its spaces particular uses. Neither side was merely the cause of the other.
 
-     The man stepped through the door. The road remained visible. The room remained occupied. The vessels remained in their recesses. The Serum continued its slow movement, and the house retained the previous state as it made room for another.
+     Above them, a bell sounded once. The physician closed his notebook.
+
+     “The table is ready.”
+
+     They returned to the central hall. The table had been set for a larger gathering. Luke stood near the western end, looking at a screen that showed the old road. Tyler was comparing two maps. Kirk had found a small repair in the table's edge and was examining the join. Joseph sat beside the elder brother and his younger brother. Bill was at the far end, speaking quietly with the boat keeper from the reservoir. The Seventh Man stood near the windows, where the amber country could be seen beyond the outer wall. None of the men had been summoned into a formal assembly. They had come because there was work to discuss and a meal to share.
+
+     Luke turned when the observer approached.
+
+     “You made it.”
+
+     “I think so.”
+
+     “That's a start.”
+
+     Tyler looked up from the maps. “Did you come through the lower passage?”
+
+     The observer nodded.
+
+     “Then you saw the old valve room?”
+
+     “Yes.”
+
+     Tyler asked whether the route had been marked. The continuity man showed him the small plate beside the service door. Tyler checked it and added a note to his map. He wanted the route to remain clear for anyone who needed to reach the reservoir. He did not assume that the observer's experience would be enough to guide another man.
+
+     Kirk moved the chair beside him. “Sit here. There's room.”
+
+     Joseph glanced toward the observer, then toward the brothers. “We were just discussing the road home.”
+
+     The elder brother rested one hand on the table. His younger brother had brought the notebook from the reservoir city. He opened it to the page where the return route had been drawn. The line was not straight. It followed the outer shore, crossed the ridge, and passed through the forest before reaching the southern road. Some parts were marked clearly. Others were left open.
+
+     “I remember the crossing,” the younger brother said. “I don't remember the house at the end of it.”
+
+     His elder brother looked at him. “You remember enough to know you want to see it.”
+
+     “I want to see it. I don't know what I will do after.”
+
+     “You don't have to decide now.”
+
+     Bill listened without interrupting. The boat keeper said that the outer landing had been repaired, but the current had changed near the black posts. Tyler asked for the new measurements. The boat keeper gave them. Tyler wrote them down and marked the older route as superseded, not erased. Kirk asked whether the damaged tags had been returned to their owner. The boat keeper nodded. Joseph asked the younger brother whether he wanted to travel with the group or make the journey alone.
+
+     “Together,” the younger brother said. “At least as far as the ridge.”
+
+     His elder brother accepted the answer without asking for more. The house did not turn the decision into a permanent arrangement. It gave the brothers a table, a map, and a route they could choose to walk. Their relationship had survived the reservoir without becoming identical to the city's history. They could leave together and still have different reasons for going.
+
+     The observer watched the men talk. Luke wanted to start before the weather changed. Tyler wanted to verify the new route. Kirk wanted to repair the table before anyone leaned against the damaged edge. Joseph wanted the younger brother to have time to decide what he would carry. Bill wanted the meal served while it was still warm. Their priorities did not line up, but they did not cancel one another. The house had room for several kinds of attention.
+
+     The meal was simple: bread, vegetables, a pot of beans, and fruit from the lower storehouse. The old physician took coffee. The boat keeper preferred tea. Luke ate quickly and then helped carry another dish from the kitchen. Tyler kept his notebook beside his plate but did not write while anyone was speaking. Kirk finished the table repair with a small wedge of oak. Joseph listened to the brothers. Bill told a story about a missing tool that had been found in the wrong room after three years. The men laughed. The sound traveled up into the beams and returned as a softer echo.
+
+     The Seventh Man did not join the conversation. He stood by the window and watched the road. The observer went over to him.
+
+     “Do you know where it leads?”
+
+     “Several places.”
+
+     “Which one should we take?”
+
+     “That depends on who is going.”
+
+     The observer looked at the men around the table. “They all have different reasons.”
+
+     “Then the road will have to hold more than one reason.”
+
+     “Can it?”
+
+     The Seventh Man turned slightly. “It already does.”
+
+     The observer could not tell whether the answer referred to the road, the house, or the men. He did not ask for a clarification. The figure beyond the window remained too distant to identify. The forest was visible behind him, and beyond it the old hills. The Seventh Man had appeared in the reservoir record, the Blue Hall, and the first house, but none of those appearances had established his history. He was present now without becoming the owner of the gathering.
+
+     Big Daddy's Voice sounded from the screens. HERE IS THE TABLE. HERE ARE THE MEN. HERE ARE THE MEN WHO ARRIVED. HERE ARE THE MEN WHO RETURNED. HERE ARE THE MEN WHO HAVE NOT YET LEFT. HERE IS THE HOUSE THAT HOLDS THEM. HERE ARE THE ROADS THAT DO NOT BELONG TO THE HOUSE. HERE IS THE SERUM MOVING BETWEEN THEM.
+
+     The screens changed. One showed the brothers at the reservoir. Another showed the first house in winter. A third showed the broken bridge in the country between. A fourth showed the repository and its commit ledger. The images did not replace the men seated at the table. They remained visible as records of places that could be revisited. The observer understood that the house did not contain the past as a collection of finished scenes. It contained routes back into histories that could still be examined and, where appropriate, answered.
+
+     After the meal, Tyler and the boat keeper went to the map room. Kirk carried the repaired table wedge to the workshop and placed the remaining wood in its proper drawer. Luke went outside to check the road. Joseph stayed with the younger brother. Bill took the old physician toward the lower instruments. The men separated according to the work they had chosen, not because the house had divided them. Their voices remained audible in different parts of the building. A door closed. A tool struck wood. Water moved through the pipes.
+
+     The observer followed the continuity man toward the far door. It had not been there when he first entered the hall. Behind it, the road crossed the forest and reached a city beneath the lake. Beyond the city was another machine, and beyond that a room whose walls were made from old maps. The observer could see the sequence, but he could not yet tell which path the men would take.
+
+     “Is this the next room?” he asked.
+
+     “It can be.”
+
+     “And if we don't go?”
+
+     “It remains.”
+
+     “For how long?”
+
+     The man looked at the Serum moving through the glass pipe. “Long enough to be found again, if it matters.”
+
+     The observer looked back toward the table. The men had not finished their work. The brothers were still talking. Tyler had spread the route map across the table in the map room. Luke had returned from the road and was reporting the condition of the western gate. Kirk was checking the workshop inventory. Joseph was listening. Bill had opened the old instrument case. The house continued to function around them.
+
+     The observer understood that the door was not an order. It was an available route. He could cross it, wait, or return to the table. The house did not need him to choose immediately.
+
+     The continuity man placed one hand on the handle.
+
+     “Here,” said the Voice.
+
+     The Serum stirred.
+
+     The door opened.
+
+     Beyond it was a road beneath an amber sky. The trees were taller than they had been in the first image. The ground was dark with rain. Far away, a man stood where the road bent behind the ridge. He did not approach. He did not disappear. The observer recognized the distance, though he could not say whether he recognized the man.
+
+     “Is that him?” he asked.
+
+     The continuity man looked through the doorway.
+
+     “It is a man on a road.”
+
+     “The Seventh Man?”
+
+     “That is what the record calls him.”
+
+     The observer waited for more. None came.
+
+     Behind them, the house remained open. The table was still in use. The old physician's notebook lay beside the maps. The copper pipes carried the Serum through the lower walls. The screens retained their separate views. The men had not become one person, and the house had not become a single explanation. The observer stepped closer to the threshold, then stopped.
+
+     “Will the road stay there?”
+
+     “It is there now.”
+
+     “And later?”
+
+     “Later will have its own record.”
+
+     The observer nodded. He could accept that. He crossed the threshold with the continuity man, leaving the door open behind them. The house did not close. It did not need to hold them in place to remain their house. It continued to contain the reservoir, the laboratory, the city, the devices, the men, and the memory of all the rooms that had made it possible.
+
+     The Serum moved through the pipes. The screens remained lit. The table waited for the men to return. The road continued beyond the forest, and the forest continued beyond the hills. The house had become large enough to hold the history without claiming to be its end.
+
 
 ## Epilogue: The Next Sight
 

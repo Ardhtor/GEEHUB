@@ -25,6 +25,12 @@ Before expanding an individual chapter, retrieve the book-level continuity atlas
 
 The associative pass should surface distant connections as well as local continuity: a gesture introduced early and paid off much later, a place whose architecture changes, an object that carries history, a relationship whose meaning has developed, or a question that remains open across several movements. Attach source paths to these connections. Similarity alone is not proof.
 
+### Character voice and values (required throughout)
+
+Treat each character as a distinct moral and perceptual center. Before adding dialogue or consequential action, establish what that person wants, what they will not trade away, what they notice first, how they make decisions, and how their history shapes the words they choose. Preserve differences in vocabulary, sentence rhythm, humour, patience, directness, emotional disclosure, and tolerance for uncertainty. A character who is practical should demonstrate practicality through what they inspect, repair, refuse, or prioritize; a reflective character should not be reduced to abstract speeches; a protective character should not become controlling by default; a confident character should not lose the ability to listen. Values must govern choices and consequences, not appear only as declarations.
+
+Do not make every character articulate the same authorial philosophy. Let them disagree for reasons that belong to them, misunderstand one another in plausible ways, and change only through experiences that matter to them. Keep established voice traits stable while allowing them to deepen. When a chapter introduces unnamed or secondary figures, give each a coherent local voice and working values without inventing identities or biographical facts that the canon has not established. Review dialogue and action against earlier and later appearances before marking a chapter complete.
+
 ### 3. Expand the existing chapter
 
 Revise the chapter in place. Retain its established dramatic events, character identities, chronology, meaningful dialogue, and intended unresolved questions. Give each existing event the room it needs: arrival, setting, physical action, differentiated perception, character intention, interaction, consequence, and transition. Add scenes where the chapter's dramatic movement requires them. Develop ordinary life and the material world alongside central events.

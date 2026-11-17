@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "0a675059871c9f4be222a042baa91096896e1995",
+  "source_blob_sha": "cac95f858ca70b90a172443082bb5a3fb1fa0874",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 40,
+    "completed": 41,
     "in_progress": 1,
-    "queued": 31,
+    "queued": 30,
     "empty_source": 0,
-    "next_chapter_index": 40,
-    "active_chapter_id": "book-i-xli",
-    "last_completed_chapter_id": "book-i-xl"
+    "next_chapter_index": 41,
+    "active_chapter_id": "book-i-xlii",
+    "last_completed_chapter_id": "book-i-xli"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -671,9 +671,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "0a675059871c9f4be222a042baa91096896e1995",
+      "last_verified_blob_sha": "cac95f858ca70b90a172443082bb5a3fb1fa0874",
       "notes": "Expanded and verified against Chapters XXXIX and XLI. The original room becomes the threshold to the room before it; each man's memory remains distinct, and the paper's sentence frames their work as something already underway. The chair's prior occupant remains unidentified. The door stays open between the House, country, and organism. All cast members are male.",
-      "current_word_count": 1010
+      "current_word_count": 928
     },
     {
       "chapter_id": "book-i-xli",
@@ -685,11 +685,11 @@
       "baseline_word_count": 354,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the smaller room before the House, preserve the blank-backed photograph and the line 'NOTHING IS REMEMBERED ALONE', and keep the prior chair occupant unresolved. Maintain the all-male cast and the distinct ways each man interprets the room.",
-      "current_word_count": 360
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "cac95f858ca70b90a172443082bb5a3fb1fa0874",
+      "notes": "Expanded and verified against Chapters XL and XLII. The smaller room is treated as a condition before the House rather than a lesser location. Each man's memory remains distinct; the blank-backed photograph reveals 'NOTHING IS REMEMBERED ALONE'. The chair responds without identifying its prior occupant. All cast members are male.",
+      "current_word_count": 1025
     },
     {
       "chapter_id": "book-i-xlii",
@@ -701,10 +701,10 @@
       "baseline_word_count": 337,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the Teller's first attention to the chair and to the men, preserving the vision of the House's many versions and the final answer 'You.' Keep Joseph and the Teller's bond distinct from the other men's relationships; maintain the all-male cast.",
       "current_word_count": 343
     },
     {

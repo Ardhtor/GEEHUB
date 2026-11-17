@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00213",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00213.json",
+      "route": {
+        "from": "athletic-commons",
+        "to": "northgate-university",
+        "relation": "STRENGTH WITHOUT CONFLICT"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-17T00:25:59.555Z"
+    },
+    {
+      "id": "scheduled-video-00213",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00213.json",
+      "route": {
+        "from": "athletic-commons",
+        "to": "northgate-university",
+        "relation": "STRENGTH WITHOUT CONFLICT"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-17T00:25:59.555Z"
+    },
+    {
+      "id": "scheduled-space-00213",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00213.json",
+      "route": {
+        "from": "athletic-commons",
+        "to": "northgate-university",
+        "relation": "STRENGTH WITHOUT CONFLICT"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-17T00:25:59.555Z"
+    },
+    {
       "id": "scheduled-sound-00212",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-25T22:28:29.844Z"
-    },
-    {
-      "id": "scheduled-sound-00113",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00113.json",
-      "route": {
-        "from": "facility",
-        "to": "embodied-scale",
-        "relation": "THE FLOOR REPLIES"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-25T19:59:11.425Z"
-    },
-    {
-      "id": "scheduled-video-00113",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00113.json",
-      "route": {
-        "from": "facility",
-        "to": "embodied-scale",
-        "relation": "THE FLOOR REPLIES"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-25T19:59:11.425Z"
-    },
-    {
-      "id": "scheduled-space-00113",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00113.json",
-      "route": {
-        "from": "facility",
-        "to": "embodied-scale",
-        "relation": "THE FLOOR REPLIES"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-25T19:59:11.425Z"
     }
   ]
 }

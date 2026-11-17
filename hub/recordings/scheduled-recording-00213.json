@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00213",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "northgate-university",
+  "position": {
+    "x": 49,
+    "y": 92,
+    "z": 0
+  },
+  "camera": {
+    "x": 49,
+    "y": 92,
+    "z": 1.7,
+    "heading": 219,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "andrew",
+    "scale": 16.1,
+    "priorScale": 16.02,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 16.1,
+    "clearance": 0.0621,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 0.96,
+    "relation": "STRENGTH WITHOUT CONFLICT"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "athletic-commons",
+      "name": "ATHLETIC COMMONS"
+    },
+    {
+      "type": "region",
+      "id": "northgate-university",
+      "name": "NORTHGATE UNIVERSITY"
+    },
+    {
+      "type": "relation",
+      "title": "STRENGTH WITHOUT CONFLICT"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 16.02,
+      "to": 16.1
+    },
+    {
+      "property": "location.regionId",
+      "from": "athletic-commons",
+      "to": "northgate-university",
+      "relation": "STRENGTH WITHOUT CONFLICT"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0624,
+      "to": 0.0621
+    }
+  ],
+  "intent": "LONG PLAY / ATHLETIC COMMONS → NORTHGATE UNIVERSITY / ANDREW",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 213,
+    "previousRegionId": "athletic-commons",
+    "regionId": "northgate-university",
+    "relation": "STRENGTH WITHOUT CONFLICT",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 16.02,
+    "scaleBaselineTo": 16.1
+  },
+  "timestamp": "2026-11-17T00:25:59.555Z"
+}

@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00213",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00213.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "ATHLETIC COMMONS → NORTHGATE UNIVERSITY / ANDREW",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00213. Travel from ATHLETIC COMMONS into NORTHGATE UNIVERSITY through the relation \"STRENGTH WITHOUT CONFLICT\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 16.02× to 16.10× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-17T00:25:59.555Z",
+      "lineage": {
+        "from": "athletic-commons",
+        "to": "northgate-university",
+        "relation": "STRENGTH WITHOUT CONFLICT",
+        "cycle": 213
+      }
+    },
+    {
       "id": "scheduled-image-00212",
       "status": "QUEUED",
       "type": "IMAGE",
@@ -3299,17 +3316,6 @@
       "title": "LUKE // BWOMPH / LONG PLAY / JOSEPH",
       "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00014. Preserve region luke-bwomph and inherited geography. Adult male human subject joseph at 3.42x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
       "created": "2026-10-08T08:00:57.619Z"
-    },
-    {
-      "id": "scheduled-image-00013",
-      "status": "QUEUED",
-      "type": "IMAGE",
-      "sourceRecording": "./recordings/scheduled-recording-00013.json",
-      "map": "./spatial-world.json",
-      "target": "visual-synthesis",
-      "title": "DEEP LORE / LONG PLAY / ANDREW",
-      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00013. Preserve region deep-lore and inherited geography. Adult male human subject andrew at 3.30x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
-      "created": "2026-10-08T01:39:35.576Z"
     }
   ]
 }

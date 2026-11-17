@@ -6844,7 +6844,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXXIII: The Men Who Arrived First
 
-     The stranger introduced himself as Ansel. He led them through the Digitorium without explaining how he knew them. That omission became its own explanation. At the highest level they entered a circular chamber. Seven chairs surrounded an empty center. Six were occupied. The men sitting there looked toward the Teller. Not with surprise. With recognition. Tyler whispered,
+     Ansel led them through the Digitorium without explaining how he knew them. That omission became its own explanation. At the highest level they entered a circular chamber. Seven chairs surrounded an empty center. Six were occupied. The men sitting there looked toward the Teller. Not with surprise. With recognition. Tyler whispered,
 
      “They know us.”
 

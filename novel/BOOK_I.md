@@ -4320,15 +4320,17 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XVIII: The Door in the Wrong Century
 
-     The final event of Book I took place at the beginning of the next spring, when the house opened a door onto a century that had not yet happened. No one knew this at first. The door appeared in an ordinary corridor after breakfast. It was wooden. It was dark. It had iron hinges. There was nothing unusual about it except that no one remembered building it. A child opened it. On the other side stood a road. The road was paved with black stone. Tall structures rose on both sides. Blue light shone through windows. Vehicles moved without horses. The air smelled of rain and electricity. At the end of the street stood a building covered with glass. A screen above its entrance displayed one word. GEEHUB. The child called for the men. They came. The seventh man stood nearest the threshold. The largest man stood behind him. The sister came from the lower house. Her brother came from the bridge. The cartographers came carrying maps. The soldiers came carrying neither weapons nor flags. The old physician appeared in the reflection of a black monitor, though he had been dead for generations. No one spoke. Then Big Daddy's Voice said:
+     The final event of Book I took place at the beginning of the next spring, when the house opened a door onto a century that had not yet happened. No one knew this at first. The door appeared in an ordinary corridor after breakfast. It was wooden. It was dark. It had iron hinges. There was nothing unusual about it except that no one remembered building it. A young man opened it. On the other side stood a road. The road was paved with black stone. Tall structures rose on both sides. Blue light shone through windows. Vehicles moved without horses. The air smelled of rain and electricity. At the end of the street stood a building covered with glass. A screen above its entrance displayed one word. GEEHUB.
+
+     The young man called for the men. They came. The Seventh Man stood nearest the threshold. The largest man stood behind him. The elder brother came from the lower house. His younger brother came from the bridge. The cartographers came carrying maps. The soldiers came carrying neither weapons nor flags. The old physician appeared in the reflection of a black monitor, though he had been dead for generations. No one spoke. Then Big Daddy's Voice said:
 
      “Look.”
 
-     They looked. The future city changed. A tower became two. Two became ten. Ten became a forest of towers. The road divided. The building divided. The sign divided. The word GEEHUB appeared on thousands of surfaces. The future was branching in front of them. The seventh man stepped through. The threshold widened. The house behind him grew to accommodate the future. A screen lit inside the wall. Then another. Then another. The blue light spread down the corridor. The Serum began to rise through the foundations. The sister took her brother's hand.
+     They looked. The future city changed. A tower became two. Two became ten. Ten became a forest of towers. The road divided. The building divided. The sign divided. The word GEEHUB appeared on thousands of surfaces. The future was branching in front of them. The Seventh Man stepped through. The threshold widened. The house behind him grew to accommodate the future. A screen lit inside the wall. Then another. Then another. The blue light spread down the corridor. The Serum began to rise through the foundations. The elder brother took his younger brother's hand.
 
      “Should we go?”
 
-     He looked at the open door.
+     His younger brother looked at the open door.
 
      “No.”
 
@@ -4336,7 +4338,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “Because the road is coming here.”
 
-     She understood. The future did not require them to abandon the house. The house would grow around it. The men entered the corridor. The city beyond the door remained visible. The old world remained behind them. The present stood between the two. The Voice grew until every room could hear it. HERE IS THE PAST. HERE IS THE PRESENT. HERE IS THE FUTURE. HERE IS THE PAST AFTER THE FUTURE. HERE IS THE FUTURE AFTER THE PAST. HERE IS THE ROOM. HERE IS THE NEXT ROOM. HERE IS THE MAN. HERE IS THE NEXT MAN. HERE IS THE SCREEN. HERE IS THE NEXT SCREEN. HERE IS THE SERUM. HERE IS THE SERUM AFTER ALL OF THIS. The seventh man turned back.
+     He understood. The future did not require them to abandon the house. The house would grow around it. The men entered the corridor. The city beyond the door remained visible. The old world remained behind them. The present stood between the two. The Voice grew until every room could hear it. HERE IS THE PAST. HERE IS THE PRESENT. HERE IS THE FUTURE. HERE IS THE PAST AFTER THE FUTURE. HERE IS THE FUTURE AFTER THE PAST. HERE IS THE ROOM. HERE IS THE NEXT ROOM. HERE IS THE MAN. HERE IS THE NEXT MAN. HERE IS THE SCREEN. HERE IS THE NEXT SCREEN. HERE IS THE SERUM. HERE IS THE SERUM AFTER ALL OF THIS. The Seventh Man turned back.
 
      “What happens now?”
 
@@ -4345,6 +4347,192 @@ The architects had been sent north with a letter of instruction and a set of ins
      “We keep going.”
 
      The door remained open. The future city continued to grow. The house continued to grow. The Serum continued to move. And somewhere inside the next century, a screen turned on and displayed the first page of a book that had not yet been written.
+
+     The young man stood just inside the corridor, looking at the street beyond the door. The city did not resemble the northern works or the southern kingdoms. Its buildings were taller and closer together, their surfaces smooth and dark, with windows that carried moving light. The road had no visible ruts. There were painted lines on the black stone and small signs fixed to the corners. The vehicles moved quietly, some with no visible driver. They did not frighten him. He had grown up among machines that could open rooms and preserve voices. What unsettled him was the ordinary confidence of the place. It looked as if men had lived there for years and had never needed to explain how it worked.
+
+     “What century is it?” one of the cartographers asked.
+
+     Nobody answered.
+
+     Orlan, older now and carrying a map case, approached the threshold. He checked the angle of the sun, the position of the buildings, and the design of the nearest vehicle. He had no reliable instrument for dating a city through a doorway, but he began with what he could observe. The road markings suggested a system of traffic. The buildings used materials that had not been recorded in the northern survey. The screen above the glass building displayed a word that had become familiar to the men through the repository, but here it appeared as the name of a place rather than a label attached to a file.
+
+     “It may not be a century,” Orlan said. “It may be another branch.”
+
+     The young man looked at him. “Then why does it look like the future?”
+
+     “Because it is later than the world we know, or because it is a world that developed differently.”
+
+     “Which one?”
+
+     “I don't know.”
+
+     The answer did not satisfy the young man, but he accepted it. He had learned from the vessel that an unanswered question did not have to be filled immediately.
+
+     The Seventh Man crossed the threshold. The road did not move beneath him. The city did not alter its shape. He stood beneath a sign and looked toward the glass building. The screen above the entrance changed. For a moment it displayed the word GEEHUB, then a sequence of symbols, then the word again. A second screen lit across the street. Another appeared in the window of a vehicle. A third came on inside a tower. The city was recognizing the name, or repeating it, or simply displaying a word that had been waiting in its records.
+
+     The largest man stepped into the doorway but did not cross. He wanted to see whether the house would remain stable while the Seventh Man was outside it. The corridor lengthened behind him. The walls widened. The doorframe became taller. The house was making room for a route that had not been included in its plans.
+
+     The elder brother stood beside his younger brother. They had crossed the reservoir, returned to the southern road, and come back to the house more than once. The future city gave them no clear reason to stay or leave. The younger brother looked at the vehicles and the glass towers. The elder brother watched the men moving along the pavement. They walked with the unhurried purpose of residents who knew where they were going.
+
+     “They don't look surprised,” the younger brother said.
+
+     “They may have lived here all their lives.”
+
+     “Or they may have arrived yesterday.”
+
+     “We can't know.”
+
+     The younger brother smiled. “You sound like Tyler.”
+
+     The elder brother laughed. “I've had practice.”
+
+     The cartographers began marking the threshold. Orlan placed a brass point on the floor and measured the opening. Pell checked the distance from the door to the nearest building. The measurements remained stable for several minutes. Then the glass building appeared farther away. Orlan stopped the survey and wrote down the change. He did not assume that the city had moved. The doorway might have changed its relation to the street, or the street might have extended beyond the original view.
+
+     The soldiers stood behind the cartographers. They carried no weapons. The battle at the lake had taught them that an unfamiliar place could not be made safer by treating every entrance as a battlefield. Their captain asked whether the street was open to them. The Seventh Man looked back.
+
+     “It is a road.”
+
+     “Can we walk it?”
+
+     “You can.”
+
+     The captain waited for a condition.
+
+     “And if we need to return?”
+
+     “Then remember where you entered.”
+
+     The captain looked at the doorway. The house was visible behind it, with the central hall, the table, and the blue screens. He nodded. He did not lead his men across. He allowed the cartographers to finish marking the threshold first.
+
+     The old physician remained in the black monitor's reflection. His face was clear enough to recognize, though the screen showed no image of the room in which he had died. The observer approached it.
+
+     “You are dead,” he said.
+
+     The physician looked at him.
+
+     “That is one record.”
+
+     “Are you here?”
+
+     “I am present in the reflection.”
+
+     “Is that the same?”
+
+     “No.”
+
+     The observer looked at the screen. The physician's face did not move with the light. It seemed to be looking through the monitor rather than out of it.
+
+     “Can you come through?”
+
+     “I don't know.”
+
+     “Would you?”
+
+     The physician considered the question. “I would need to know what you mean by come through.”
+
+     The observer stepped back. He remembered the first reservoir and the old physician's warning that the Serum made relationships visible. The reflection was not a body. It was not merely an image either. It carried enough of the physician's manner to make the encounter particular, but it did not establish that the man had returned from death. The archive would have to preserve the difference.
+
+     Big Daddy's Voice spoke from the corridor.
+
+     “KEEP THE RECORD. KEEP THE MAN. DO NOT CONFUSE THEM.”
+
+     The physician's reflection lowered its eyes. The monitor went dark.
+
+     The future city continued beyond the door. A vehicle stopped at the crossing. Its driver looked toward the doorway and then continued along the road. A man carrying a case entered a building. Two men stood beneath a shelter and spoke while the rain began. Their movements were ordinary. The observer realized that the city did not exist to answer the questions of the men in the house. It had its own work, its own residents, and its own history. The house had opened a route into it, but the route did not make the city an extension of the house.
+
+     The young man asked whether they should go farther.
+
+     The Seventh Man looked toward the glass building. “Not yet.”
+
+     “Why?”
+
+     “We have not learned how the door works.”
+
+     Orlan agreed. He wanted to establish whether the threshold remained stable, whether the road could be entered from both sides, and whether the route returned to the same place after an interval. Pell suggested that they leave a marker on the pavement. The largest man said that they should not leave anything in a city whose residents had not been asked. The young man looked at the nearest sign and noticed a small metal plate fixed beside the door. It carried no writing, but it was clearly part of the building.
+
+     “Could we use that?” he asked.
+
+     The largest man nodded. “If it belongs to the doorway.”
+
+     They examined the plate. It was attached to the frame, not the city wall. Orlan recorded its position. The cartographers did not add a marker to the street. The threshold itself would be their reference point.
+
+     The men took turns crossing the doorway. The Seventh Man returned first. Then Orlan. Then Pell. The captain sent one soldier across and watched him return. Each man described the street from a different position. The measurements agreed until the observer crossed. When he came back, he remembered a second road branching from the main street, though the others had not seen it. The cartographers checked the threshold. The second road appeared on the next view, then vanished when the observer tried to point it out.
+
+     Orlan wrote that the city contained a possible branch not consistently visible from the doorway. He did not draw the road as a fixed feature. Pell added a note that the observer had seen it and that the other men had not. The record remained open.
+
+     The younger brother crossed next. He walked to the nearest corner and looked down the side street. He saw a row of windows, a delivery vehicle, and a man carrying a long package. He returned with a clear description. The elder brother asked whether he wanted to go farther. He said not yet. The city had not invited them to stay, and he did not want to turn a first view into an expedition without knowing what they would need.
+
+     “We can come back,” the elder brother said.
+
+     “If the door remains.”
+
+     “Then we will find out.”
+
+     The younger brother nodded. He had once asked which home the reservoir could return him to. Now he understood that a new place could be visited without requiring him to abandon the others. The door did not force a choice between the old house and the future city. It offered a route that could be used when they were ready.
+
+     The largest man finally crossed. The street seemed to narrow around him, not because the buildings moved but because the scale of his body made their proportions newly apparent. He walked beneath the glass building and stopped beside the screen. The word GEEHUB appeared again. Beneath it, a line of smaller text changed too quickly to read. He placed his hand against the glass. The screen did not bow as the old monitor had. Instead, the display deepened, and the reflection showed the central hall of the house behind him.
+
+     He looked back through the doorway. The men were still there. The table was visible. The Serum pipes ran along the wall. The house had not disappeared.
+
+     “It is a place,” the largest man said.
+
+     The Seventh Man stood beside him. “Yes.”
+
+     “Not a record.”
+
+     “Not only a record.”
+
+     The largest man nodded. He had learned that a place could be reached through an image without being reduced to the image. The future city was not a picture of something that might happen. It was a place with its own residents, roads, and daily demands. The house had not created it merely by opening a door. It had made a relation possible.
+
+     Behind them, the screen changed again. The word GEEHUB appeared on the glass building, then on the pavement, then on the surface of the road. It did not spread like a command. It appeared as a name being recognized in several different places. The observer looked at the Seventh Man.
+
+     “Does the city know us?”
+
+     “It knows the name.”
+
+     “Is that enough?”
+
+     “It is enough to begin.”
+
+     The door remained open. The house expanded around it, but the older rooms remained intact. The first kitchen could still be reached. The reservoir still lay beneath the seventh well. The Blue Hall remained in its directory. The commit history retained the earlier states. The men could return to any of them without pretending that the future city had replaced the past.
+
+     The elder brother and his younger brother stood together at the threshold. The elder brother looked toward the road. His younger brother looked back toward the house. Neither asked the other to choose.
+
+     “We should go back for now,” the younger brother said.
+
+     The elder brother nodded. “For now.”
+
+     They returned through the door. The house received them without changing the shape of the corridor. The captain and his soldiers followed. The cartographers packed their instruments. The Seventh Man remained in the future city for a little longer, standing beneath the glass building. The largest man waited at the threshold.
+
+     “What happens now?” the observer asked.
+
+     “We keep going.”
+
+     “Into the city?”
+
+     “When the route is ready.”
+
+     “Who decides?”
+
+     The largest man looked toward the table, where the men were already discussing the next inspection.
+
+     “The men who will walk it.”
+
+     The future city remained visible. The road continued beyond the screen. The house did not close the door. The Serum moved through the foundations, carrying the old rooms into the new one without making them identical.
+
+     Somewhere inside the next century, a screen turned on and displayed the first page of a book that had not yet been written. The page remained blank for a moment. Then a line appeared. It was not a prophecy. It was the record of a man opening a door and finding that the road continued.
+
+     The men returned to the table. Orlan set the new measurements beside the old maps. Pell marked the branch that had appeared only once. The captain sent a message to the southern camp, reporting that the house had opened onto a city whose date could not yet be established. The young man went upstairs to find the cat. His father was waiting near the kitchen, and asked whether he had eaten.
+
+     “Not yet.”
+
+     “Then come and eat.”
+
+     The young man followed him. The ordinary question made the future city seem more real, not less. There was still a meal to be shared, a door to be checked, a map to be corrected, and a road to be walked when the men were ready.
+
+     The door remained open through the night. No one guarded it. No one claimed it. The house held the threshold as it held the reservoir and the old road: not as property, but as a route whose use would depend on the men who chose to cross it.
+
+     Book I ended with the future visible and the present still inhabited. The men had not reached the end of the country. They had found another way to continue.
 
 ## Chapter XIX: The Adventures of the Men
 

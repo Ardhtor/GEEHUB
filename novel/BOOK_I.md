@@ -6172,23 +6172,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXVIII: The Country Between
 
-     The country beyond the door had no name because names changed too quickly there.
+     The country beyond the door had no name because names changed too quickly there. Mountains appeared for an hour and became walls. Rivers became streets. Forests became houses. A field became an ocean when Tyler remembered the lake. The men could see the change happen, but they could not always agree on what had changed first.
 
-     Mountains appeared for an hour and became walls. Rivers became streets. Forests became houses. A field became an ocean when Tyler remembered the lake.
+     The road remained beneath them. It was not always straight, and sometimes it passed through the middle of a building without disturbing the walls. At other times it narrowed to a strip of pale ground between two stretches of water. The men learned not to trust the horizon. It moved when they tried to measure it.
 
-     The men learned to travel by objects.
+     They learned to travel by objects.
 
-     The brass key always pointed toward the nearest door.
-
-     The black stone always pointed toward the deepest place.
-
-     The blank paper always pointed toward what had not happened.
-
-     The folded map always pointed toward where they had been.
-
-     The wooden handle pointed backward.
-
-     The metal stop pointed toward water.
+     The brass key always pointed toward the nearest door. The black stone pointed toward the deepest place. The blank paper pointed toward what had not happened. The folded map pointed toward where they had been. The wooden handle pointed backward. The metal stop pointed toward water. The red glass pointed toward a memory that had been altered but not erased.
 
      Together they formed a compass.
 
@@ -6196,47 +6186,163 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “It's working,” Luke replied.
 
+     Tyler held the objects apart and watched their directions. They did not point north. They pointed toward different kinds of relation. When the key moved, the road turned toward a door in a hillside. When the stone shifted, the ground beneath them seemed to deepen. The blank paper remained still until Joseph touched it. Then a line appeared at its edge and continued into the distance.
+
+     “It is not giving us a route,” Tyler said. “It is showing us what each object can lead us back to.”
+
+     “Or forward to,” Joseph replied.
+
+     Kirk examined the wooden handle. Its worn surface carried the impression of repeated use. “Backward is not always the same as before.”
+
+     Bill checked the metal stop. It was cold and damp. “Water is easier. Water is where it is.”
+
+     “Until it becomes a street,” Luke said.
+
+     Bill gave him a look. “Then I will check the street.”
+
+     The largest man walked behind them, watching the country change around the group. He could see the road's width respond to their spacing. When they walked close together, it narrowed. When they spread out, it opened. He did not know whether the road was accommodating them or showing them how much distance they had allowed between themselves.
+
+     The Seventh Man walked at the edge. He recognized certain bends and slopes, though he could not place them in a single country. He did not offer directions unless someone asked. The men had learned that his memory could be exact and incomplete at the same time.
+
      They reached a settlement at dusk.
 
-     The inhabitants had no faces.
+     The houses stood around a square of packed earth. Their walls were made from timber, pale stone, and sections of dark glass. The doors were open. A narrow stream ran through the center, disappearing beneath one building and emerging beside a public kitchen. Men moved between the houses carrying tools, bread, water, and bundles of cloth. Their faces were absent.
 
-     Not because their faces were hidden, but because the country had not decided which memories to use for them.
+     Not hidden. Not damaged. The country had not decided which memories to use for them.
 
-     One faceless woman offered Joseph bread.
+     One faceless man approached Joseph and offered bread. Another offered Tyler a coat. A third showed Kirk a room with a bed and a table. Their voices were ordinary. They spoke about the weather, the condition of the road, and the water level in the stream. They did not seem troubled by their missing features.
 
-     One offered Tyler a coat.
+     Bill asked whether the settlement had a kitchen where the travelers could prepare their own food.
 
-     One offered Kirk a room.
+     The man who had offered the bread pointed toward a low building. “The fire is kept there. You can use it.”
 
-     Luke asked for nothing.
+     “Who keeps it?”
 
-     A faceless child approached him.
+     “The men who need it.”
 
-     “You forgot something.”
+     Bill nodded. He liked the answer, though he still checked the stove and the water before using either. He helped another man carry a pot from the kitchen. The man thanked him. Bill could not see his expression, but he heard the sincerity in his voice.
 
-     Luke crouched.
+     Tyler accepted the coat long enough to examine its seams. It had been mended several times, each repair made with a different thread. He asked who had worn it.
 
-     “What?”
+     “A man who needed it,” the faceless man replied.
 
-     The child held out a photograph.
+     “And before him?”
 
-     It showed the five men standing beside the Sacred Fountain.
+     “Another man.”
+
+     Tyler returned the coat. “Then it has a longer history than the settlement.”
+
+     “Most useful things do.”
+
+     Kirk entered the offered room. It was plain, with a low bed, a wooden chair, and a window overlooking the stream. He checked the floorboards and found that the room had been repaired from below. The work was careful. He asked the man who had shown him the room whether he could see the repairs.
+
+     “If you want to.”
+
+     Kirk knelt and examined the joinery. The repairer had used a piece of older timber and left the original marks visible. Kirk approved of the choice. He returned to the square and told the others that the room was sound.
+
+     Luke asked for nothing. He walked around the settlement, looking at the houses and the paths between them. The men did not stop him. Near the far edge of the square he found a post with seven shallow cuts. Six had darkened with age. The seventh was pale and clean.
+
+     He called Tyler over. Tyler measured the cuts and recorded their spacing. The marks did not correspond to the seven objects, but the red glass became warmer when Luke held it near the post.
+
+     “This place knows the artifacts,” Tyler said.
+
+     “Or the artifacts know this place,” Joseph replied.
+
+     “We should not reverse the direction without evidence.”
+
+     Luke smiled. “You can record both possibilities.”
+
+     The largest man stood at the edge of the square. A few of the faceless men had gathered near him, but they did not stare. One asked whether the road had been difficult. Another asked whether the city still stood. He answered both questions. The men listened without asking him to prove what he had seen.
+
+     A faceless young man approached Luke carrying a photograph.
+
+     “You forgot something,” he said.
+
+     Luke looked at the photograph. It was old, with softened corners and a crease running through one edge. The image showed men standing beside the Sacred Fountain. A line of writing beneath the picture read: FIVE MEN AT THE FOUNTAIN.
 
      There were only four men in the photograph.
 
-     The child pointed at the empty space.
+     The empty space between them was not a gap in the paper. The background continued through it: the stone rim, the water, and the shadow of the fountain's upper basin. Someone had stood there. The light fell across the place where his body should have been, but no figure remained.
+
+     Luke turned the photograph over. There was no name.
+
+     “Who is missing?” he asked.
+
+     The young man pointed at the empty space.
 
      “You forgot him.”
 
-     Luke looked at Joseph.
+     Luke looked at Joseph. Joseph took the photograph and examined it without touching the image.
 
-     Joseph looked at the photograph.
+     “Who?” he asked.
 
-     “Who?”
-
-     The child smiled without a face.
+     The young man smiled without a face.
 
      “You'll know.”
+
+     Tyler asked where the photograph had been found. The young man pointed toward a narrow passage behind the public kitchen. Kirk asked whether the picture belonged to the settlement. The man shook his head.
+
+     “It came with the road.”
+
+     “Who brought it?”
+
+     “A man who was looking for someone.”
+
+     “Did he find him?”
+
+     “He found the place.”
+
+     Joseph looked again at the empty space. “Was the man in the photograph one of the seven?”
+
+     The young man did not answer. He stepped back and disappeared into the square. The men around him continued their work. No one called after him.
+
+     Luke kept the photograph. It felt heavier than its paper should have allowed. He slipped it into the inside pocket of his coat and pressed the fabric flat over it.
+
+     The men gathered near the stream. Tyler wanted to compare the photograph with the records from the Sacred Fountain. Kirk wanted to know whether the missing figure had been removed or had never been captured. Bill asked whether the settlement had a dry place to keep the image overnight. Joseph said they should not decide what the absence meant before they had examined the history around it.
+
+     Luke looked at the photograph's empty space. “Someone wanted us to see it.”
+
+     “That does not tell us why,” Tyler said.
+
+     “No. But it tells us it was left for us.”
+
+     The Seventh Man had remained quiet. Now he approached and looked at the photograph.
+
+     “The road has carried this before,” he said.
+
+     “You recognize it?” Joseph asked.
+
+     “I recognize the absence.”
+
+     Kirk studied him. “Is it the same man you have been following?”
+
+     “No.”
+
+     “The man from the first house?”
+
+     “No.”
+
+     “Then who?”
+
+     The Seventh Man looked toward the dark road beyond the settlement. “Someone whose place has been kept without his name.”
+
+     The largest man looked at the houses. The settlement had offered food, a room, and a coat without demanding that the travelers explain themselves. Its men had no faces, but their actions were particular. One kept the fire. Another repaired the floor. Another had carried the photograph. The absence in the picture was different. It had a shape but no known owner.
+
+     “We should leave before dawn,” Bill said. “The road may change.”
+
+     Joseph agreed. He wanted the photograph compared with the earlier records before they moved farther away. Tyler wrote down the settlement's position as best he could. Kirk marked the repaired room and the seven cuts on the post. Luke kept the photograph. The largest man checked the road beyond the square. The Seventh Man watched the stream pass beneath the kitchen.
+
+     The settlement did not ask them to stay. It did not ask them to leave. The men there returned to their work, and the travelers prepared for the next part of the road.
+
+     During the night, Luke woke and felt the photograph pressing against his chest. He took it out and held it near the window. The four men beside the Sacred Fountain remained visible. The empty space remained empty. Yet the shadow beneath the fountain had shifted. It now extended toward the place where the fifth man should have stood.
+
+     Luke put the photograph away.
+
+     Before dawn, the seven men left the settlement. The road beyond it was narrow and dark. Their objects pointed in different directions, but the blank paper held its line. The missing place in the photograph seemed heavier as they walked.
+
+     By noon, Luke could no longer carry it without thinking about the man who was absent.
+
+     He did not yet know what to call him.
 
 ## Chapter XXIX: The Missing Man
 

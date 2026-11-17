@@ -607,9 +607,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "2f4d25682735635bdeed8df23f49ff693b5ac5a6",
+      "last_verified_blob_sha": "462b8d4860172606e59cb2d13aaf777276cafc8b",
       "notes": "Expanded and verified at 1,055 words. The seventh chair's unnamed occupant remains unresolved while the House and the country become mutually visible. The House is shown as a living memory structure whose lines preserve the men's distinct relations, not a replacement image of the past. The Teller and Joseph retain their separate but shared history; Ansel keeps interpretation bounded. The bell sequence and waking organism lead directly into Chapter XXXVII. All figures are male.",
-      "current_word_count": 1055
+      "current_word_count": 1054
     },
     {
       "chapter_id": "book-i-xxxvii",
@@ -624,8 +624,8 @@
       "status": "completed",
       "revision_count": 1,
       "last_verified_blob_sha": "462b8d4860172606e59cb2d13aaf777276cafc8b",
-      "notes": "Expanded and verified at 1,078 words. The organism asks 'Who remembers me?' and receives a response grounded in the men's actual history with the country. The chapter distinguishes remembering the organism from recognizing that it remembers them; Ansel and the six earlier men acknowledge the limits of their prior records. The Procession resumes and the organism opens its eyes. All figures are male.",
-      "current_word_count": 1078
+      "notes": "Expanded and verified against Chapters XXXVI and XXXVIII. The country wakes through a reciprocal act of recognition; the men respond through observation, repair, care, and the Teller's chosen answer. The first room appears on the Digitorium screens, and Joseph distinguishes remembering the organism from being remembered by it. 'Continuance' becomes clear. All cast members are male.",
+      "current_word_count": 1077
     },
     {
       "chapter_id": "book-i-xxxviii",
@@ -637,10 +637,10 @@
       "baseline_word_count": 457,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the Archive Beneath the Skin as the organism's interior memory, preserving the men’s distinct perceptions and the difference between a record, a relationship, and a living presence. Keep all cast members male.",
+      "notes": "Next canonical chapter. Develop the Archive Beneath the Skin as a living archive of attention, preserving the existing Joseph/Teller husband line and Luke's box. Replace the reference to children inheriting machines with adult male apprentices. Preserve the blank regions as unresolved absences; do not claim the archive is complete.",
       "current_word_count": 465
     },
     {

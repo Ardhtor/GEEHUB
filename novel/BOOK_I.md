@@ -4122,11 +4122,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XVII: The Men Make a Kingdom
 
-     The device-men had no desire for kingship, but after the lake battle hundreds of people began living among them, and the residents needed rules. The first law was simple. No one would destroy a branch merely because they disliked its outcome. The second law followed. No room would be measured only once. The third was stranger. A person who entered a residence had to leave some trace behind. A sentence. A drawing. A sound. A map. A memory. Anything that could survive. The fourth law was called the Law of Room. There must always be somewhere else to go. A fifth law followed after a dispute involving a blue hall and seventeen soldiers. No door was final. The sixth concerned the men themselves. No man was required to remain the same size as he had been when first observed. This caused enormous confusion among the visiting philosophers, who interpreted the law as a statement about identity. The men meant something more practical: growth was part of continuity, and a larger state did not make the earlier state false. The city therefore began building around them. Some men occupied old houses. Others lived in converted server chambers. Others preferred the upper towers where the blue light never completely faded. The largest man lived near the center, where the streets were widest. He did not own the district. He simply needed the space. Children visited him. Workers brought meals. Archivists asked him questions. He answered some. He refused others. One evening the sister from the seventh well found him sitting outside a screen-lit hall.
+     The device-men had no desire for kingship, but after the lake battle hundreds of men began living among them, and the residents needed rules. The first law was simple. No one would destroy a branch merely because he disliked its outcome. The second law followed. No room would be measured only once. The third was stranger. A man who entered a residence had to leave some trace behind. A sentence. A drawing. A sound. A map. A memory. Anything that could survive. The fourth law was called the Law of Room. There must always be somewhere else to go. A fifth law followed after a dispute involving a blue hall and seventeen soldiers. No door was final. The sixth concerned the men themselves. No man was required to remain the same size as he had been when first observed. This caused enormous confusion among the visiting philosophers, who interpreted the law as a statement about identity. The men meant something more practical: growth was part of continuity, and a larger state did not make the earlier state false.
+
+     The city therefore began building around them. Some men occupied old houses. Others lived in converted server chambers. Others preferred the upper towers where the blue light never completely faded. The largest man lived near the center, where the streets were widest. He did not own the district. He simply needed the space. Younger men visited him. Workers brought meals. Archivists asked him questions. He answered some. He refused others. One evening the elder brother from the seventh well found him sitting outside a screen-lit hall.
 
      “You were there,”
 
-     she said.
+     he said.
 
      “Yes.”
 
@@ -4136,7 +4138,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “Were you human?”
 
-     He looked at her.
+     The largest man looked at him.
 
      “Yes.”
 
@@ -4146,7 +4148,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “I remained.”
 
-     She sat beside him. For a while neither spoke. Then she asked:
+     The elder brother sat beside him. For a while neither spoke. Then he asked:
 
      “Are all these men versions of you?”
 
@@ -4166,7 +4168,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “A branch that remembers the tree.”
 
-     The sister looked toward the city.
+     The elder brother looked toward the city.
 
      “There are thousands now.”
 
@@ -4177,6 +4179,144 @@ The architects had been sent north with a letter of instruction and a set of ins
      “Here is enough for today.”
 
      The city lights came on one by one. The Serum moved through the foundations. The houses settled. The screens glowed. The men remained.
+
+     The first meeting of the residents took place in the old kitchen, because it was the only room large enough to hold everyone who wanted to attend and ordinary enough that nobody felt required to speak formally. The long oak table had been repaired twice. Its surface carried marks from cups, tools, maps, and the hands of men who had spent long evenings trying to decide how the city should work. The largest man sat near one end. Bill sat near the other. Luke stood for most of the meeting, unable to keep still. Tyler had brought the current route plans. Kirk had brought a list of repairs. Joseph had brought no papers. He wanted to hear what the men said before deciding what needed to be remembered.
+
+     The first question concerned the outer roads. The lake battle had left several new routes open, but some of them crossed rooms that were used for work or rest. The boat keeper wanted the landing kept clear. The workshop men wanted a direct path to the timber store. Several residents wanted a quiet route to the upper rooms. Luke suggested that the doors be left open and that men learn to move around one another.
+
+     Tyler shook his head. “That works until someone is carrying something heavy or the route changes.”
+
+     “Then we move the thing.”
+
+     “Sometimes the thing is the room.”
+
+     Kirk spread his list across the table. “We can mark the routes that are stable and the ones that need checking. We don't need to make every passage permanent.”
+
+     Bill nodded. “A road can be open without being promised.”
+
+     Joseph looked at the men around the table. “Then the rule should say who is responsible for checking it. Not who owns it.”
+
+     The largest man listened. He did not settle the argument. He asked the boat keeper whether the landing could remain accessible if the workshop route was moved. The boat keeper said it could, provided the outer steps were repaired and the new marker was visible from the water. Kirk agreed to inspect the steps. Tyler would update the route plan. Luke offered to carry the timber. The matter was settled without a vote because the men who would do the work had agreed to it.
+
+     The second question concerned rooms. Some men wanted private quarters. Others preferred shared halls. A few had begun sleeping in the workshops because they did not want to cross the upper corridors at night. The first law had protected branches from destruction, but it did not explain how a man should live beside another man whose habits differed from his own. The residents discussed noise, light, storage, and the right to close a door.
+
+     Bill said that a shared house needed quiet places as much as it needed common rooms. Luke thought too many private rooms would make the city feel like a collection of strangers. Tyler said that privacy was not a measure of hostility. Kirk suggested that each residence have a common room and a route to somewhere quiet. Joseph asked whether a man could leave a room without explaining himself.
+
+     “Of course,” Luke said.
+
+     “Then it should be written,” Joseph replied. “Not because we expect trouble. Because a man should not have to argue for it when trouble comes.”
+
+     The Law of Room was amended. Every residence would have at least one route that allowed a man to step away without losing access to the shared house. No resident could use a closed door as proof that another man had abandoned the community. A man could return when he was ready. The rule did not require him to announce how long he would be gone.
+
+     The third question concerned records. The archivists wanted every new resident to leave a trace. Some men objected. They had come to the city because they wanted to live, not because they wanted every action stored. The original wording of the law had been too broad. A trace could become a demand. A man could be pressured to provide a sentence, drawing, or sound simply because the archive had decided that every arrival must be preserved.
+
+     Tyler proposed that the record be voluntary and specific. A man could offer a trace for a particular purpose and set conditions for its use. The archivists could preserve the source without making it public. A resident could correct a description or withdraw permission for a later use. Bill added that an ordinary action did not need to become an entry merely because someone had seen it.
+
+     The archivist who had first proposed the law agreed. He had wanted the city to remember its residents, not to make them perform their lives for the record. The law was rewritten: a man could leave a trace if he wished, and the archive would preserve the conditions under which it had been supplied. No man was required to become a document in order to belong.
+
+     The fourth question was more difficult. The city had begun to attract men who wanted authority. Some had served as officers in the southern armies. Others had managed large workshops or governed settlements. They were accustomed to giving instructions and expecting them to be followed. They believed that a kingdom required a king, a council, or a single office that could settle disputes quickly.
+
+     One former captain stood at the table. He said that the city had grown too large to be governed by informal agreement. A bridge could not be repaired by a conversation. A route could not be kept safe by goodwill. Someone had to be responsible.
+
+     “Someone is responsible,” Kirk said. “The man doing the work.”
+
+     “And if he refuses?”
+
+     “Then we find another man or change the plan.”
+
+     “That is not government.”
+
+     Bill looked at him. “It is how we govern the house.”
+
+     The captain wanted a central office with authority over roads, rooms, and stores. Tyler asked who would appoint the office. The captain said the residents could choose a keeper. Joseph asked how the keeper could be removed if he stopped listening. The captain said that could be decided later. Luke laughed at that.
+
+     “You want the power first and the rules afterward.”
+
+     The captain took offense. The largest man asked him to sit. He did, reluctantly. The largest man explained that the house had already been governed through responsibility. The boat keeper maintained the landing. The workshop crew maintained the tools. The archivists maintained the records. The residents of each room agreed on its use. When a decision affected several parts of the city, the men who would bear its consequences met and decided together. There was no need to create a permanent ruler simply because the city had become larger.
+
+     The captain asked what would happen if the men could not agree.
+
+     “Then we keep the disagreement visible,” Tyler said.
+
+     “And do nothing?”
+
+     “We do what can be done without pretending the dispute is settled.”
+
+     The captain was not satisfied, but he stayed for the rest of the meeting. He later became responsible for coordinating repairs to the outer gate. He discovered that authority could be useful when it was attached to a task and limited by the men who relied on it. He did not become king.
+
+     The city acquired a name for its system only after the residents had been using it for some time. They called it a kingdom because the southern maps needed a word for the territory that had grown around the house. The men themselves preferred to call it the common residence. The name did not describe a ruler or a border. It described the fact that the men had chosen to live together and had accepted responsibility for the place they shared.
+
+     The first public hall was built beside the central kitchen. It had a broad timber roof, open sides, and benches arranged around a work table. The table could be used for maps, repairs, meals, or meetings. A shelf held the current route plans. Another held the rules of the residence. The older versions remained in the archive, with their corrections visible. No man could quietly replace a rule and claim that it had always been that way.
+
+     The hall was used for ordinary work before it was used for formal decisions. The boat keeper repaired a rope there. The cartographers compared the new lake routes. The former captain taught younger residents how to secure a bridge without blocking the passage. Bill brought food. Luke carried timber. Tyler kept the plans current. Kirk repaired the benches. Joseph sat with men who had returned from the southern camps and listened to what they had seen.
+
+     The elder brother from the seventh well came to the hall one evening. He had been living in the city for several weeks, but he had not decided whether to remain. His younger brother had chosen to travel south with the boat keeper and expected to return later. The elder brother was not offended by the choice. He had spent years looking for his brother and had learned that finding him did not give him the right to decide where he should live.
+
+     The largest man sat outside the hall, watching the lights come on across the city. The elder brother joined him.
+
+     “You could rule this place,” he said.
+
+     “I could stand in the middle of it.”
+
+     “That isn't what I meant.”
+
+     “I know.”
+
+     The elder brother looked toward the public hall. Men were carrying a table through the entrance. One of them stopped to let another pass. They moved the table together without needing to be told.
+
+     “Why don't you take charge?” he asked.
+
+     “Because they already have lives.”
+
+     “A king can still let men have lives.”
+
+     “A king can also decide that their lives belong to him.”
+
+     The elder brother considered the answer. He had seen the southern kings make claims over roads, ships, and houses. He understood why a ruler might believe that order required ownership. He also knew that his brother had returned from the reservoir with a life that could not simply be folded back into the southern house.
+
+     “Then what makes this a kingdom?”
+
+     The largest man looked toward the lights.
+
+     “The men who keep it.”
+
+     The elder brother was quiet for a while. “And if they stop?”
+
+     “Then it changes.”
+
+     “Does it end?”
+
+     “Not necessarily.”
+
+     The Voice spoke from the screen behind them.
+
+     “A branch that remembers the tree.”
+
+     The elder brother looked toward the city.
+
+     “There are thousands now.”
+
+     “There are millions in the possibilities.”
+
+     “And here?”
+
+     “Here is enough for today.”
+
+     The city lights came on one by one. The Serum moved through the foundations. The houses settled. The screens glowed. The men remained.
+
+     The kingdom's first year was marked not by a coronation but by a list of repairs. The outer landing was strengthened. The western road was cleared. The upper hall gained a second stair. The archive received a new shelf for records supplied by residents. The public kitchen added a larger stove. A quiet room was built beside the northern windows. The old bridge was left standing, though a new route had been built beside it. The men did not remove the first structure simply because the second worked better.
+
+     The former captain organized the repair crews. He learned to ask who used a route before closing it. The cartographers kept several maps in circulation. The archivists preserved the first versions and recorded the corrections. The boat keeper maintained the crossings. The residents of each house managed their own rooms. The largest man remained near the center, not as a ruler but as someone whose presence made it easier for the others to recognize the scale of the place they were building.
+
+     The city continued to grow. New men arrived from the southern roads, from the lake, from the old device rooms, and from branches whose histories had not yet been reconciled. Some stayed. Some left. Some returned years later and found that their old rooms had changed. The Law of Room protected their right to return without requiring the house to remain unchanged in their absence. The Law of Branch protected the earlier state without forcing the new one to imitate it. The men learned that a kingdom could be held together by agreements that remained open to revision.
+
+     One evening the elder brother stood at the outer gate. His younger brother had sent word from the southern road. He was safe and intended to return when his work was finished. The elder brother folded the message and put it in his coat. He looked back toward the city. The public hall was lit. The workshop doors stood open. Men crossed the bridges carrying tools and food. The largest man was visible through a screen, speaking with the archivists. Nobody was waiting for him to give an order.
+
+     The elder brother understood that the city did not need a king to remember him. It had given him a place, but it had not made a claim on his future. He could leave and return. He could remain and change. He could belong without becoming property.
+
+     The men had made a kingdom by refusing to make one man the owner of all the others. Its borders were routes that could be shared. Its laws preserved the right to change. Its center was not a throne but a table where work could be discussed and disagreements could remain visible. The city was large enough to hold thousands of men and still leave room for the next arrival.
+
+     Beyond the outer gate, the northern road continued toward the lake. The forest stood beyond it. Farther away, the southern kingdoms were preparing another expedition. The men knew that the house would be challenged again. They did not close the gate. They kept the road clear and returned to their work.
 
 ## Chapter XVIII: The Door in the Wrong Century
 

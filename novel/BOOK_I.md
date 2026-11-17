@@ -9544,7 +9544,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      That was how they knew it was different.
 
-     There was only hyperspace, extending in every direction, and the four of them suspended inside it.
+     There was only hyperspace, extending in every direction, and the four of them suspended inside it. There was no floor, ceiling, wall, or horizon. There was no place from which to begin. The line left by the button remained visible beneath them, but it did not point toward a destination.
 
      Luke reached outward.
 
@@ -9554,25 +9554,15 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      A horizon came loose.
 
-     Tyler caught it before it could fall.
-
-     He folded it.
-
-     Kirk divided the fold.
-
-     Joseph waited.
+     It did not break. It separated from the surrounding dark and moved toward him like a curtain being drawn across a window. Tyler caught it before it could fall. He folded it, once, then again. Kirk divided the fold into four possible structures. Joseph waited.
 
      When he finally moved, all four pieces became connected.
 
      They had accidentally made a world.
 
-     It had no name.
+     It had no name. It had no history. It had no instructions.
 
-     It had no history.
-
-     It had no instructions.
-
-     The boys looked at one another.
+     The four men looked at one another.
 
      “Empty,” Tyler said.
 
@@ -9582,26 +9572,21 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Then they played.
 
-     They ran across its first horizon.
+     They ran across its first horizon. Their footsteps did not mark the surface, but the surface remembered the direction in which they had moved. They moved mountains without destroying them. They opened doors onto places that had not existed until the doors were opened. They made gravity into a game of catch. They threw a moon from one hand to another, and each time it changed hands the sky adjusted to make room.
 
-     They moved mountains without destroying them.
-
-     They opened doors onto places that had not existed until the doors were opened.
-
-     They made gravity into a game of catch.
-     They threw a moon from one hand to another.
-
-     Kirk made two identical worlds and challenged them to discover which was original.
+     Kirk made two identical worlds and challenged them to discover which was original. The worlds began with the same mountains, rivers, and empty rooms. They looked identical from above. When the men entered them, small differences appeared. One had a warm stone near the river. The other had a narrow path behind a hill. The differences multiplied as the men explored.
 
      Joseph waited twenty years.
 
      When he opened his eyes, both worlds had become different.
 
-     He laughed.
+     One had grown a city around the river. The other had kept the hill and made a house beside it. Neither had chosen the same future. Joseph laughed.
 
      The world heard him.
 
      That became its first memory.
+
+     The sound did not remain as an echo. It entered the ground, moved through the rivers, and settled in the walls of the new houses. The world had learned that a man could be pleased by something he had not planned.
 
      Then the world began playing back.
 
@@ -9615,19 +9600,41 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The four men stopped.
 
-     The game had crossed the threshold.
+     The game had crossed the threshold. They had made a world capable of playing with them.
 
-     They had made a world capable of playing with them.
+     Tyler looked at the moving mountain. “It is not repeating us.”
 
-     Luke looked at the others.
+     Kirk watched the new doorway. “It is making its own structure.”
 
-     “Again?”
+     Luke wanted to pull the mountain closer. He held back.
+
+     Joseph waited.
+
+     The mountain moved again, one step nearer.
+
+     Nobody had asked it to.
+
+     “Again?” Luke said.
 
      The new world moved one mountain closer.
 
      That was its answer.
 
      They ran toward it.
+
+     The mountain did not move away. It opened a pass along its side, revealing a valley that had not been visible from the starting place. The valley contained a river, a line of trees, and a single house with its door open. No man stood inside. No name had been written above the entrance.
+
+     Luke slowed. “We didn't make that.”
+
+     “Not directly,” Tyler said.
+
+     Kirk looked at the mountain. “We made a world that could make something.”
+
+     Joseph watched the open door. “And it has left the choice to us.”
+
+     They did not enter immediately. They had learned that a world capable of playing back was not a world to be mastered. It could answer, refuse, change its mind, or offer a place without requiring anyone to occupy it.
+
+     The four men stood at the edge of the valley. The house remained open. The river continued moving. The mountain held its new position.
 
      Behind them, the empty starting place remained empty.
 

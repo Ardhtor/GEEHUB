@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "396a95622fdea18a05830cbcda56e0deec622919",
+  "source_blob_sha": "2e83d468e2f1c85d159997f97b7ffdb747ccbc93",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 38,
+    "completed": 39,
     "in_progress": 1,
-    "queued": 33,
+    "queued": 32,
     "empty_source": 0,
-    "next_chapter_index": 38,
-    "active_chapter_id": "book-i-xxxix",
-    "last_completed_chapter_id": "book-i-xxxviii"
+    "next_chapter_index": 39,
+    "active_chapter_id": "book-i-xl",
+    "last_completed_chapter_id": "book-i-xxxix"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -639,7 +639,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "396a95622fdea18a05830cbcda56e0deec622919",
+      "last_verified_blob_sha": "2e83d468e2f1c85d159997f97b7ffdb747ccbc93",
       "notes": "Expanded and verified against Chapters XXXVII and XXXIX. The archive preserves moments as relationships rather than detached images; Luke's box, Tyler's records, Kirk's repairs, Bill's table, and Joseph's shared history with the Teller remain distinct. The existing husband line is preserved. Replaced the child reference with adult male apprentices; the blank regions remain unresolved. All cast members are male.",
       "current_word_count": 1494
     },
@@ -653,11 +653,11 @@
       "baseline_word_count": 264,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop Cael's return from beyond the apparent edge, distinguish him from the Seventh Man and the photograph's missing man, and preserve his central insight: depth comes from connection, and the next question is who is missing. Keep all cast members male.",
-      "current_word_count": 270
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "2e83d468e2f1c85d159997f97b7ffdb747ccbc93",
+      "notes": "Expanded and verified against Chapters XXXVIII and XL. Cael returns from beyond the apparent edge and explains that further distance is not the same as depth. He is distinguished from the Seventh Man and the photograph's missing man. His question redirects the travelers from expansion toward the men and histories still missing from their world. All cast members are male.",
+      "current_word_count": 1043
     },
     {
       "chapter_id": "book-i-xl",
@@ -669,10 +669,10 @@
       "baseline_word_count": 347,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the door in the original room and the room-before-room as a lived encounter with the beginning, preserving each man's distinct memory and the paper's sentence. Keep the identity of the prior chair occupant unresolved and the cast all male.",
       "current_word_count": 355
     },
     {

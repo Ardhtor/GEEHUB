@@ -206,6 +206,169 @@
 
      The journey was long enough that the men ceased to think of the country as scenery and began to understand it as a participant in their lives. Each day altered what they believed the previous day had meant.
 
+     The first night in the house did not begin when they went to bed. It began when the man at the table asked each of them what he believed he had brought with him. The question sounded ordinary, but the room received it as if it were a practical instruction. The kettle stopped warming. The light above the table steadied. Outside, the seven distant points remained visible, although clouds had begun gathering over the western plain.
+
+     Luke answered first. He said he had brought the key, though he could not remember taking it from the bedroom. He set it between the cups. It was plain brass, worn at the shoulders and darkened in the grooves. Its bow had been shaped by someone who preferred a simple tool to an ornament. Luke turned it over and noticed a shallow line near the bit, a mark that might have come from a locksmith or from years of use. He had expected it to feel important. Instead it felt familiar, and that familiarity unsettled him more than the strange length of the house.
+
+     “A key is not the same as an answer,” the man said.
+
+     “I didn't say it was.”
+
+     “No. You said you brought it.”
+
+     Luke looked at the key again. A key could open a door. It could also be carried for years without its owner knowing which door it belonged to. He left it on the table.
+
+     Tyler said he had brought the black stone. He had examined it upstairs and found no inscription, seam, or obvious sign of manufacture. It was heavier than its size suggested, with a dull blue sheen when turned toward the window. He placed it beside the key but did not let it touch the brass.
+
+     “Why keep them apart?” Joseph asked.
+
+     “Because I don't know what happens if they meet.”
+
+     Tyler's caution was not fear. It was a habit formed by noticing that an ordinary description could be true and still be insufficient. He wanted a baseline before an experiment, a record before a conclusion, and a way to tell whether the room had altered or whether his own attention had. The man watched him with a faint expression of approval.
+
+     “You brought the difference between what is seen and what is known,” he said.
+
+     Kirk unfolded the map. The paper had softened at the creases, though it had been dry when he found it. Its ink showed the house, the field, the forest, and roads extending in directions that could not all be reconciled with the windows. Some marks resembled survey symbols; others were names written in a hand that had run out of room. Kirk spread it across the table, covering the pale repaired seam in the oak.
+
+     “I brought somewhere to go,” he said.
+
+     “You brought a map,” Tyler replied.
+
+     “A map is somewhere to go if you have to begin.”
+
+     Kirk's answer was less precise, but not less practical. He understood direction as something that could be useful before it became certain. A road did not need to be fully known to be walked. A room did not need to be fully understood before a person could decide where to sit. He traced the western route and stopped where the ink became a line of small squares.
+
+     “This road goes behind the house.”
+
+     “There is no road behind the house,” Luke said.
+
+     Kirk looked toward the window. “There wasn't one when we came in.”
+
+     Joseph still held the paper by its corners, careful not to crease it. The sheet appeared blank until he tilted it toward the lamp. Then a faint impression became visible, as though someone had written on a page laid above it. He could make out the pressure of letters without reading the words. The sentence on the back remained unchanged: WAIT UNTIL THEY ARE READY.
+
+     “I brought something that hasn't happened,” he said.
+
+     The man looked at him for a longer time than he had looked at the others.
+
+     “Or something that has happened and has not yet found its place.”
+
+     Joseph thought of the walk across the country, of the different lengths of time each man remembered, and of the strange fact that none could prove the others wrong. Their memories did not fit together, but they had arrived at the same door. He had been tempted to call that a discrepancy. Now he wondered whether it was a kind of agreement that did not require identical accounts.
+
+     The man asked them to leave the objects where they were. He crossed to the kitchen, took four cups from a shelf, and then a fifth. The fifth cup was older than the others, with a hairline crack near its handle. He set it at the place where the fifth chair had appeared.
+
+     “You have been counting the chairs,” he said.
+
+     “There were four,” Luke replied.
+
+     “There are five now.”
+
+     “Who was sitting in it?”
+
+     “Someone who has not finished sitting.”
+
+     Luke glanced at the empty chair. The warmth had gone from the seat, but the cushion retained a shallow impression. He wanted to ask whether the man had been there all along, whether the house had made him, or whether the chair was remembering somebody else. Each question assumed that the room could be explained by choosing one cause. He let them remain questions.
+
+     They drank tea. It tasted faintly of cedar and bitter orange. The man did not introduce himself. He asked whether they had eaten during the journey. Kirk said they had, though none could agree on the last meal. Tyler remembered bread at a roadside station. Luke remembered a meal beside a stream. Joseph remembered a paper parcel passed between them. Kirk remembered a tree and a tin cup. The man listened without correcting them, then brought bread from the kitchen.
+
+     “You can disagree about the meal,” he said. “You should not have to disagree about whether you were hungry.”
+
+     It was the first time the four men laughed in the house. The sound altered the room more convincingly than the objects had. It made the ceiling seem lower and the table more substantial. The house did not become ordinary, but it accepted an ordinary sound and gave it somewhere to remain.
+
+     After tea, the man showed them the lower rooms: a pantry with shelves of jars, a narrow room containing coats and boots, a washroom with a deep stone basin, and a corridor built for a larger household. The coats were of different sizes and ages. Some had been mended at the elbows; others retained the stiffness of unworn cloth. Luke found a heavy wool coat that fitted his shoulders. Tyler chose a dark jacket with a repaired cuff. Kirk took a canvas overshirt with deep pockets. Joseph found a plain shirt folded on a shelf, its collar still holding the shape of the person who had last worn it.
+
+     “Are these ours?” Kirk asked.
+
+     “They are here,” the man replied.
+
+     “That isn't the same thing.”
+
+     “No. It is the beginning of finding out.”
+
+     They changed out of their wet clothes. The house supplied towels, soap, and a place to hang what they had worn. The smallness of these arrangements made the strangeness more difficult to dismiss. A house that could contain impossible roads also knew where to put a damp coat. A house that had produced a fifth chair had remembered to provide enough hooks. Its mystery did not depend on neglecting ordinary needs.
+
+     In the corridor Tyler noticed five brass plates fixed to the wall. Each carried a number and a shallow groove. The first four were polished by touch. The fifth was dark, though a thin edge of brass showed beneath the tarnish. Beyond them stood a narrow door with no handle.
+
+     “What are those for?”
+
+     “Keeping track,” the man said.
+
+     “Of what?”
+
+     “Who has passed through, and who is expected.”
+
+     “Expected by whom?”
+
+     “That is not always the same question as who is waiting.”
+
+     Tyler wanted to clean the fifth plate. The man told him not to. Tyler withdrew his hand, though the unfinished task stayed with him.
+
+     Upstairs, the bedroom had changed. The four beds remained, but the narrow wardrobe had become a larger cabinet with drawers below and a shelf above. There were folded blankets, a lamp, and a small stack of books whose titles were turned toward the wall. Kirk opened a drawer and found a compass. Luke found work gloves. Tyler found a notebook with blank pages. Joseph found a photograph turned face down. He did not turn it over.
+
+     “You can look,” the man said from the doorway.
+
+     “I know.”
+
+     “Then why don't you?”
+
+     Joseph considered the photograph. He did not feel tested. He felt that the room had offered him something and that accepting it immediately would make the offer smaller. He placed it back in the drawer.
+
+     “Not yet.”
+
+     The man nodded. “That is different from refusing.”
+
+     They slept in the four beds. No one dreamed of the seventh well, or if they did, the dreams were not remembered in the morning. The house made ordinary night sounds: timber settling, a pipe ticking, wind pressing against a shutter. Somewhere below, a chair moved across the floor. Luke woke once and heard someone walking along the corridor, slowly enough that the footsteps seemed to be measuring the boards. He did not get up. He listened until the sound stopped outside the room, then heard it continue farther away.
+
+     In the morning a fifth bed had appeared beneath the window. It was made with a dark green blanket and a folded white sheet. There was no pillow. The space between the beds was wider than it had been the night before, and the room now contained a small writing desk beneath the lamp. The photograph remained in the drawer.
+
+     Luke went downstairs first. The man was in the kitchen, cutting apples. The kettle was already warm. The fifth chair stood at the table, pushed in neatly.
+
+     “Someone else is coming,” Luke said.
+
+     “Someone is always coming.”
+
+     “That's not an answer.”
+
+     “It is the answer I have.”
+
+     Outside, the field was bright with dew. The forest had lifted out of the morning mist, its amber canopy revealing dark trunks and long shadows. The seven lights were gone. In their place were seven narrow gaps in the trees, each aligned with a different part of the horizon. The country looked less like a map than a room whose walls had been moved outward during the night.
+
+     The others joined him. They ate at the table, and the man gave them no explanation of the house. Instead he asked what they intended to do. Kirk wanted to walk the western road. Tyler wanted to inspect the objects and establish whether they changed independently or only in one another's presence. Luke wanted to find out who had used the fifth chair. Joseph wanted to know why the paper had been written for people who were not ready.
+
+     “Those are four different beginnings,” the man said.
+
+     “Can they happen together?” Kirk asked.
+
+     “They already have.”
+
+     The man returned the brass key to Luke, the black stone to Tyler, the folded map to Kirk, and the blank paper to Joseph. None of the objects had changed shape, but each seemed to have acquired a more definite weight.
+
+     “Do not separate what you have not yet understood,” he said. “And do not force it together merely because you want a single explanation.”
+
+     The instruction was not a prohibition against action. They could explore, test, and disagree. They could write down what they saw. But they would have to leave room for the possibility that the country was larger than their first account of it.
+
+     They went outside after breakfast. The grass was wet around their boots. Near the house, a line of flat stones led toward the forest, although none remembered seeing it the previous evening. The first stone bore a small brass mark. The second had a dark blue mineral vein. The third carried a shallow map of the field. The fourth was blank. Beyond it the stones continued beneath the trees.
+
+     Kirk unfolded his map. The western road had appeared on the paper exactly where the stones began. Tyler checked the compass. Its needle pointed toward the house, trembled, and settled toward the forest. Luke held the key. Joseph turned the paper over. The sentence remained, but a second line had appeared beneath it, faint enough that he had to move into the sunlight to read it.
+
+     WHEN THEY ARE READY, THE ROAD WILL REMEMBER THEM.
+
+     He showed the others. Tyler read it twice. Kirk looked toward the trees. Luke closed his hand around the key.
+
+     “Then we should go,” Luke said.
+
+     “We should decide where,” Tyler replied.
+
+     “The stones go into the forest,” Kirk said.
+
+     Joseph folded the paper and put it inside his shirt. “We can begin there.”
+
+     The man watched them from the doorway. He did not follow. Behind him, the fifth chair remained empty, and the fifth bed waited upstairs without a pillow. The house had given them shelter, food, clothing, and a direction. It had not given them an explanation. They were not being asked to solve the house before they could live in it. They were being asked to live carefully enough that its next change could be recognized.
+
+     They crossed the field together. The forest received them without closing behind them. At its edge, the road divided into four paths and then, a few paces farther on, became one. None claimed to know which path they had chosen. Each remembered the beginning differently. But all four carried an object, and all four could feel the weight of the others walking beside them.
+
+     Behind them the house remained visible for a while, small against the enormous field. Then the trees interrupted the view. The road continued north, and the country opened around it. Somewhere beyond the forest, the seven wells waited in a sequence no map had yet learned to hold.
+
+
 ## Chapter II: The First Return
 
      The first people to return to the northern country did not come as explorers. They came because somebody was missing, and missing people have a way of making geography larger. A sister crossed the old military road looking for her brother, carrying a lantern, a blanket, a knife, and a map copied from another map copied from the original northern survey. She had been told that the journey would take twelve days. It took longer. The country had no obligation to honor the measurements of people who had drawn it from far away.

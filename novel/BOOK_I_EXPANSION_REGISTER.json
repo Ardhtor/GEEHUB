@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "808a006d69251be289af87163c96f8e5ced6e57a",
+  "source_blob_sha": "e7588c0a4bedec4699bd738ae88c43b65a9f44b5",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 45,
+    "completed": 46,
     "in_progress": 1,
-    "queued": 26,
+    "queued": 25,
     "empty_source": 0,
-    "next_chapter_index": 45,
-    "active_chapter_id": "book-i-xlvi",
-    "last_completed_chapter_id": "book-i-xlv"
+    "next_chapter_index": 46,
+    "active_chapter_id": "book-i-xlvii",
+    "last_completed_chapter_id": "book-i-xlvi"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -751,9 +751,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "808a006d69251be289af87163c96f8e5ced6e57a",
+      "last_verified_blob_sha": "e7588c0a4bedec4699bd738ae88c43b65a9f44b5",
       "notes": "Expanded and verified at 764 words. The men refuse to turn 'Don't remember me' into a puzzle or demand. The duplicate screw is shown as a copy without the relation that made the original useful. The country expands away to make space; the Procession turns toward a distant blue window, distinguishing observation from remembrance. The men respect the boundary and do not approach prematurely. All figures are male.",
-      "current_word_count": 764
+      "current_word_count": 880
     },
     {
       "chapter_id": "book-i-xlvi",
@@ -765,11 +765,11 @@
       "baseline_word_count": 469,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the blue-window tower as a network without forcing entry; preserve Joseph's restraint, the black window's question, the unknown man in the original room, and the eighth note's silence. Keep all cast members male.",
-      "current_word_count": 474
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "e7588c0a4bedec4699bd738ae88c43b65a9f44b5",
+      "notes": "Expanded and verified against Chapters XLV and XLVII. The blue-window tower becomes a network, but the men refuse to complete the circuit or force entry. The black window asks who they were before remembrance; an unknown male figure is seen in the original room. The eighth note is answered by silence, and the Teller chooses restraint. All cast members are male.",
+      "current_word_count": 842
     },
     {
       "chapter_id": "book-i-xlvii",
@@ -781,10 +781,10 @@
       "baseline_word_count": 709,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the room found beneath the Digitorium and the recorded-but-unentered room; preserve the decision not to open it, Tyler's choice to remain seated, and the missing man's possibility of choosing absence. Keep all cast members male.",
       "current_word_count": 718
     },
     {

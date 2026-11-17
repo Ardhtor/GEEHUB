@@ -8314,25 +8314,55 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XLVII: The Room That Had Been Waiting
 
-     The next morning, the window did not return, but the room did. It appeared beneath the city without excavation, without sound, without the ordinary courtesy of being discovered. The men found its entrance in the foundation of the Digitorium, behind a wall that had previously contained nothing except stone. There was no door. There was simply a difference in the darkness, a rectangular absence where the wall seemed to have forgotten itself. Luke was the first to notice it. He stood before it for a long time without touching it.
+     The next morning, the window did not return, but the room did.
+
+     It appeared beneath the city without excavation, without sound, without the ordinary courtesy of being discovered. The men found its entrance in the foundation of the Digitorium, behind a wall that had previously contained nothing except stone. There was no door. There was simply a difference in the darkness, a rectangular absence where the wall seemed to have forgotten itself.
+
+     Luke was the first to notice it. He stood before it for a long time without touching it.
 
      “That's the room.”
 
-     The Teller looked at him.
+     The Teller looked at him. “You saw it?”
 
-     “You saw it?”
+     Luke shook his head. “No. I remembered it.”
 
-     Luke shook his head.
+     Tyler checked the surrounding stone. There was no opening in the masonry, no change in the temperature, and no sign of recent work. The darkness did not behave like a shadow. It held its shape when he moved his lamp.
 
-     “No. I remembered it.”
+     “It is not an entrance,” he said.
 
-     They entered together. The room was smaller than the one beyond the black window, but it possessed the same blue screen, the same chair, the same impossible sense that someone had left only moments before. Dust covered the floor except for one clean path leading from the chair to the wall. Joseph followed it with his eyes. The path stopped at a blank section of stone. Tyler crouched beside it and found a series of shallow marks in the dust. They were not footprints. They were measurements. Someone had been standing there repeatedly, always at the same distance from the chair, always facing the screen.
+     “It is an invitation,” Joseph replied.
 
-     The Teller touched the blue screen. It came alive.
+     “That may be worse.”
+
+     They entered together.
+
+     The room was smaller than the one beyond the black window, but it possessed the same blue screen, the same chair, the same impossible sense that someone had left only moments before. Dust covered the floor except for one clean path leading from the chair to the wall. Joseph followed it with his eyes. The path stopped at a blank section of stone.
+
+     Tyler crouched beside it and found a series of shallow marks in the dust. They were not footprints. They were measurements. Someone had been standing there repeatedly, always at the same distance from the chair, always facing the screen.
+
+     “He stood here many times,” Tyler said.
+
+     Kirk examined the marks. “The position never changed.”
+
+     “Not by more than a fraction.”
+
+     “Then he was not approaching.”
+
+     Bill looked at the chair. “He may have been waiting.”
+
+     The Teller looked at the blank wall. “Or he may have been making sure he did not cross a boundary.”
+
+     Nobody tried to stand in the marked place. They left the measurements intact.
+
+     The Teller touched the blue screen.
+
+     It came alive.
 
      Not with an image, but with a list.
 
-     Every room they had entered appeared there. Every road. Every vessel. Every empty chair. Every version of the House. The seven wells. The lake beneath the branches. The men inside the devices. The Blue Hall. The seventh man. Veyrthalis. The Digitorium. The Procession. The tower. The black window. Even the room they were standing in was already recorded.
+     Every room they had entered appeared there. Every road. Every vessel. Every empty chair. Every version of the House. The seven wells. The lake beneath the branches. The men inside the devices. The Blue Hall. The Seventh Man. Veyrthalis. The Digitorium. The Procession. The tower. The black window. The room before the room. Even the room they were standing in was already recorded.
+
+     Tyler read the entries aloud. He recognized some of the descriptions, but others were written in a language he had not seen before. The list did not distinguish between places they had visited and places they had only remembered. It did not mark which accounts were complete.
 
      At the bottom of the list was one final entry.
 
@@ -8342,21 +8372,23 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “That's bullshit.”
 
-     Joseph looked at the screen.
+     Joseph looked at the screen. “Maybe.”
 
-     “Maybe.”
+     Tyler pointed at the words. “If it's already recorded, then we've entered it.”
 
-     Tyler pointed at the words.
+     The Teller understood the danger immediately. The old rule had returned, but inverted. Whatever was produced was already there. Whatever was remembered had already happened. Now the country was presenting them with something that had been recorded without having been experienced.
 
-     “If it's already recorded, then we've entered it.”
-
-     The Teller understood the danger immediately. The old rule had returned, but inverted. Whatever was produced was already there. Whatever was remembered had already happened. Now the country was presenting them with something that had been recorded without having been experienced. It was not a prophecy. It was not a prediction. It was a room whose existence depended upon their refusal to confuse documentation with presence.
+     It was not a prophecy. It was not a prediction. It was a room whose existence depended upon their refusal to confuse documentation with presence.
 
      “Don't open it,” the Teller said.
 
      Nobody moved.
 
-     The blue screen flickered. A second sentence appeared.
+     Luke looked toward the blank wall. His hand had begun to rise, but he lowered it. He was used to testing a door by touching it. He had learned that a door could be a route, a question, or a relationship. This one might be a decision that would cease to exist if he tried to make it into an entrance.
+
+     The blue screen flickered.
+
+     A second sentence appeared.
 
      THE ROOM IS NOT BEHIND THE DOOR.
 
@@ -8364,19 +8396,17 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      THE ROOM IS THE DECISION NOT TO OPEN IT.
 
-     Luke stared at the words. His hand moved toward the wall, then stopped.
+     Luke stared at the words. “So that's it?”
 
-     “So that's it?”
-
-     Joseph stood beside him.
-
-     “No.”
+     Joseph stood beside him. “No.”
 
      He looked at the blank wall.
 
      “That's the first time it has asked us to leave something alone.”
 
-     The room became very quiet. Beyond the walls, Veyrthalis continued its immense nocturnal movement. Pipes carried water through the city. The Procession began crossing the bridges again. Somewhere above them, a blue window opened and closed without anyone watching it. The country had not stopped producing. It had learned another form of production: omission.
+     The room became very quiet.
+
+     Beyond the walls, Veyrthalis continued its immense nocturnal movement. Pipes carried water through the city. The Procession began crossing the bridges again. Somewhere above them, a blue window opened and closed without anyone watching it. The country had not stopped producing. It had learned another form of production: omission.
 
      Tyler sat in the empty chair.
 
@@ -8386,14 +8416,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Tyler did not rise.
 
-     The others watched him.
+     The others watched him. He rested his hands on his knees and looked at the blank screen. He was not trying to occupy the chair on behalf of the absent man. He was choosing to remain in the place where the record had ended.
 
-     He looked at the blank screen and said,
+     “Maybe this is what the missing man wanted,” he said.
 
-     “Maybe this is what the missing man wanted.”
+     “What?” Luke asked.
 
-     “What?”
-     Tyler rested his hands on his knees.
+     Tyler looked at the wall.
 
      “A place nobody could find.”
 
@@ -8405,7 +8434,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Luke nodded.
 
-     They left the chair where it was. They left the screen dark. They left the wall blank.
+     They left the chair where it was. They left the screen dark. They left the wall blank. Tyler rose only when he had decided to leave, and the chair remained warm after he stood.
 
      Outside, morning entered Veyrthalis slowly.
 

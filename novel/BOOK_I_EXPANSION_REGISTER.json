@@ -543,7 +543,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "5b170332a601c67fb30339e76f69add9f5419f25",
+      "last_verified_blob_sha": "3df92c7c3147a2e4d566638ae3d4744e93df03ac",
       "notes": "Expanded and verified at 1,476 words. The unnamed country becomes a changing geography navigated through the bell, maps, and material records. The Digitorium is developed as a male civic archive with distinct approaches to provenance and interpretation. Removed the prior female and child figures; Ansel is introduced here and his later entrance in Chapter XXXIII is reconciled. Deliberately concise transition into the upper chamber.",
       "current_word_count": 1568
     },
@@ -560,8 +560,8 @@
       "status": "completed",
       "revision_count": 1,
       "last_verified_blob_sha": "3df92c7c3147a2e4d566638ae3d4744e93df03ac",
-      "notes": "Expanded and verified at 1,282 words. Ansel leads the travelers into the upper chamber, where six adult men preserve the record of an earlier civilization's mistake: treating scale as proof of growth. The empty seventh chair remains a choice, not a vacancy to be filled by the newcomers. The chamber's six men have distinct practical roles and accounts; the chapter ends with the travelers choosing to stay and learn. All figures are male.",
-      "current_word_count": 1180
+      "notes": "Expanded and verified against Chapters XXXII and XXXIV. Ansel leads the travelers into the chamber of the first arrivals. The six men have distinct accounts of the earlier world's mistakes; the empty seventh chair remains unclaimed, and the central space is understood as a relation rather than a seat. The travelers cross toward the City Beneath the Forest without trying to be first. All cast members are male.",
+      "current_word_count": 1179
     },
     {
       "chapter_id": "book-i-xxxiv",
@@ -573,10 +573,10 @@
       "baseline_word_count": 261,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the City Beneath the Forest as a lived place built in relation with an ancient living organism. Preserve Ansel's presence, the six men from the upper chamber, and the first signs that the organism is aware of the travelers. Keep the cast all male.",
+      "notes": "Next canonical chapter. Develop the living organism and the city built with it as a reciprocal environment, not a monster or backdrop. Preserve Ansel's warning about scale, the Teller's sensitivity to the organism, and the men's distinct practical responses. Keep all cast members male.",
       "current_word_count": 269
     },
     {

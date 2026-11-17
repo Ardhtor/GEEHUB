@@ -6994,147 +6994,145 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXXIV: The City Beneath the Forest
 
-     They stayed. That became the first rule of the new country. Not every door needed to be opened immediately, and not every place had to be crossed before it could be understood. The travelers remained near the Digitorium while Ansel showed them the city and the routes that joined its districts. They were free to leave. The House remained behind them, and the road through the forest had not closed. They stayed because the city had asked a question they could not yet answer.
+     They stayed. That became the first rule of the new country. Not every door needed to be opened immediately. They learned the city. They discovered that its streets changed according to collective memory. A building remembered by one man would remain small. A building remembered by many became enormous. A forgotten street slowly narrowed until two men could barely walk through it. The city was alive. Not metaphorically. Its architecture possessed memory. Its bridges reacted to names. Its doors recognized relationships.
 
-     Its streets changed according to collective memory. A building remembered by one man remained small, sometimes no larger than a room. A building remembered by many became enormous. A forgotten street slowly narrowed until two men could barely walk through it. The bridges reacted to names. The doors recognized relationships. The city did not obey every memory, but it made room for the ones that continued to be carried.
+     Ansel did not give them a complete tour. He showed them the public rooms, the upper galleries, the old stairways, and the paths that remained stable from one day to the next. He introduced them to the men who maintained the city: a bridge keeper who checked the joints each morning, a record keeper who preserved the changing street plans, a gardener who watched the roots beneath the paving, and a mechanic who repaired the small machines that regulated water and light. Each man knew his part of the city well. None claimed to understand the whole.
 
-     Ansel showed them a narrow street that ended at a blank wall. He asked a man who lived nearby to describe the route he used to take to the old tool hall. The man spoke of a turn beside a fountain, a covered passage, and a flight of steps. As he remembered each detail, a line appeared in the wall. The stones separated. A doorway opened onto the route he had described.
+     “Why do the streets change?” Tyler asked.
 
-     Tyler measured the opening. “It was not there a moment ago.”
+     “Because the city remembers differently,” Ansel replied.
 
-     “It was not remembered here a moment ago,” Ansel replied.
+     “That is not a mechanism.”
 
-     Kirk examined the stonework. The doorway had not been cut into the wall. The wall had changed its arrangement, preserving the old joints and extending the passage where it was needed.
+     “No. It is the condition you are observing.”
 
-     “The structure is carrying the memory,” he said.
+     Tyler recorded the answer and left the cause open.
 
-     “The memory is carrying the structure,” Ansel answered.
+     The oldest district lay beneath the forest. The men reached it by a stair that descended through a tower and continued into the roots. The air grew warmer as they went down. The walls changed from stone to timber, then from timber to a dark material that yielded slightly beneath the hand. It was not soft. It had the strength of old wood and the resilience of living tissue. Narrow channels carried water through it. Small lamps had been fitted into the walls, but the light seemed to come from beneath the surface as much as from the lamps themselves.
 
-     Luke walked through first. The passage was narrow but sound. It led to a small tool hall where a man was repairing a handcart. The repairer looked up when Luke entered.
+     Kirk stopped beside a joint where a beam entered the wall. The beam had been shaped to fit a natural curve. It was not nailed in place. The material had grown around it.
 
-     “You found the way.”
+     “Was this built first?” he asked.
 
-     “A man remembered it.”
+     Ansel looked at the joint. “The living structure was here. The city grew into it.”
 
-     “That is how it usually happens.”
+     “And the beam?”
 
-     The repairer returned to his work. Luke stayed to help him lift the cart while Kirk examined the damaged wheel. The hall remained small. It had been remembered by a few men, and those men used it for a particular purpose. Luke liked that it did not become grand merely because he had entered it.
+     “A man fitted it when the passage needed support.”
 
-     The travelers learned that the city was not a collection of buildings placed upon a living organism. It had been built with the organism, over a period longer than the country itself. The oldest district lay beneath the forest. There, beneath roots older than any building in the House, they discovered a chamber containing something enormous.
+     Kirk examined the grain. The timber was old, but the cut was precise. He could see where a later repair had been made, using a different piece of wood. The repair had not hidden the first construction. Both remained visible.
 
-     At first Tyler thought it was a machine. The chamber was filled with dark surfaces, broad conduits, and repeating structures that resembled the interior of a great engine. Then Luke realized that the central mass was breathing.
+     “They knew how to work with it,” he said.
 
-     The organism occupied an entire underground valley. Its surface was dark and wet, crossed by slow pulses of amber light. The pulses moved beneath a translucent layer, rising and fading at intervals that did not match any mechanical cycle Tyler could measure. Structures had been built into it over centuries. Towers emerged from its back. Roads disappeared into its folds. Entire neighborhoods had been constructed around the movement of its body.
+     “Some of them did,” Ansel replied.
 
-     The city had not been built beside the organism. It had been built with it.
+     The passage opened onto an underground valley.
 
-     The valley had its own weather. Warm air rose from the organism's surface and gathered beneath the roots. Fine droplets formed on the stone and timber. Water ran through channels cut into the outer layers, then returned through deeper passages. The buildings stood on broad platforms that shifted by small degrees with each pulse. Their foundations were not fixed in the ordinary sense. They were joined to the organism through structures that could bend without breaking.
+     The organism occupied the entire space. At first Tyler thought it was a machine. Then Luke realized it was breathing. Its surface was dark and wet, crossed by slow pulses of amber light. Structures had been built into it over centuries. Towers emerged from its back. Roads disappeared into its folds. Entire neighborhoods had been constructed around the movement of its body. The city had not been built beside the organism. It had been built with it.
 
-     Tyler stood at the edge of the valley. “This is alive.”
+     The valley was so large that the far wall could not be distinguished from the folds of the organism itself. Thick roots crossed the ceiling and descended into the floor. Some were as wide as houses. Others ran in fine networks through the stone, carrying water and warmth. The air smelled of cedar, damp earth, and iron. The amber light moved beneath the surface in slow currents, brightening near the roots and fading where the structure narrowed.
 
-     Luke nodded.
+     Men had built walkways across the larger folds. Some were stone, others timber, and some appeared to be made from the organism's own hardened surface. Houses stood in sheltered recesses. Small workshops occupied the spaces between the roots. A line of lamps marked a route toward a lower chamber. The men who lived there moved with the confidence of people accustomed to a living environment. They did not treat the organism as a monument. They maintained the passages, checked the water channels, and watched for changes in its breathing.
 
-     Joseph watched the amber light move. “How old?”
+     Tyler stood at the edge of the valley.
 
-     Ansel said, “Older than the country.”
+     “This is alive.”
 
-     Kirk looked at the platforms. “How do they keep the buildings from tearing when it moves?”
+     Luke nodded. He had noticed the movement before the others. It was not the movement of a machine repeating a fixed cycle. The surface changed slightly with each breath, and the amber light moved in response. He watched one pulse travel beneath a row of buildings. The structures rose and settled with it, not enough to disturb their foundations but enough to make the whole district seem to move.
 
-     “They do not prevent movement,” Ansel replied. “They distribute it.”
+     Joseph watched the amber light. The Teller stood beside him. The pressure he had felt in the forest was stronger here. It was not a gaze or a voice. It was attention spread across a scale too large to be held by one point. He could feel the organism noticing them without knowing whether it understood what they were.
 
-     Kirk knelt beside the nearest support. It was made from dark timber, pale stone, and a flexible material that resembled resin. The joints had been repaired many times. Each repair was visible. None had been hidden beneath a new surface.
+     “It knows we're here,” Joseph said.
 
-     “Who maintains them?” he asked.
+     Ansel looked toward the valley. “It has noticed us.”
 
-     “The men who live here. Some work on the foundations. Some keep the channels clear. Some study the pulses. Others repair the streets when the organism changes its shape.”
+     “Is there a difference?”
 
-     Bill looked toward the water channels. “Does it need anything?”
+     “There should be.”
 
-     “Water, room, and attention,” Ansel said. “Not worship.”
+     The largest man studied the towers that rose from the organism's back. He understood scale, but this was not simply a larger body. The organism carried structures, roads, and rooms without becoming a building. It was not a city that happened to be alive. It was a living thing that had allowed a city to grow with it.
 
-     Bill nodded. He preferred a need that could be answered with work. He followed a channel toward a maintenance platform and found two men clearing leaves from a grate. He asked whether they needed help. One handed him a tool. The other showed him where the channel narrowed. Bill worked with them until the water flowed freely.
+     “Does it need the city?” he asked.
 
-     Luke went farther into the valley. A road ran along the organism's outer surface, broad enough for carts and small vehicles. It curved around a raised section and disappeared into a fold. He followed it until the floor became warm beneath his boots. The surface moved slightly under him, not enough to threaten his balance but enough to make him aware that he was standing on something living.
+     Ansel took time before answering. “It has lived without us. It has also changed because of us.”
 
-     A man repairing a rail looked up.
+     “And the city?”
 
-     “First time here?”
+     “The city could not exist here without it.”
 
-     “Yes.”
+     Bill looked toward a channel where water moved through a carved trough. “Then the supply routes matter. If the flow changes, the men living above it will need to know.”
 
-     “Then stay near the marked path. The folds are changing today.”
+     A bridge keeper approached and explained that the water had become less predictable in recent years. Some channels filled too quickly. Others slowed without warning. The men had adapted their schedules, but they had not found the cause. Bill asked how much water the lower workshops used and whether the upper houses had reserve stores. He did not ask for a grand explanation. He wanted to know what would happen if the flow stopped for a day.
 
-     Luke looked at the dark surface. “Does it always change?”
+     Kirk examined the supports beneath a nearby walkway. He found that several had been built around roots that were still growing. One support had cracked where the root had thickened. He marked the place and asked the bridge keeper whether it had been inspected.
 
-     “Always. Not always this much.”
+     “Yesterday,” the man said.
 
-     The man returned to the rail. Luke asked what the markings meant. The repairer showed him a series of pale lines along the path. They marked the places where the surface had moved during the previous cycle. The road was not fixed to the organism. It was maintained in relation to it.
+     “Then it changed overnight.”
 
-     Tyler began a record of the pulses. He measured their intervals, compared the amber light with the movement of the channels, and noted that the buildings responded at different times. Some shifted before the pulse reached them. Others moved after it had passed. The sequence was not uniform.
+     “It does that.”
 
-     “It is not a single mechanism,” he said.
+     Kirk looked at the root. “We need a joint that can move with it.”
 
-     Ansel stood beside him. “You are still looking for the machine.”
+     The bridge keeper nodded. He had been trying to solve the same problem.
 
-     “I am looking for the process.”
+     Tyler took measurements from the edge of the valley. The dimensions were difficult to establish because the organism's surface moved, but he could record the intervals between pulses and the points where the light appeared. He asked Ansel how long the cycle lasted.
 
-     “That is better.”
+     “It has no fixed duration.”
 
-     Tyler glanced at the organism. “Can it hear us?”
+     “Then how do the men know when it is changing?”
 
-     “It can respond to what happens here.”
+     “They notice what is different from the last time.”
 
-     “That is not the same as hearing.”
+     Tyler wrote that down. It was not a measurement, but it was a method.
 
-     “No,” Ansel said. “It is not.”
+     The Seventh Man stood near one of the larger roots. He listened to the low sound beneath the amber pulses. It resembled the bell they had followed through the forest, though it was slower and deeper. He placed his hand against the root. The sound passed through his palm and into his arm.
 
-     Kirk moved along the platform, checking the joints and the supports. He found one section where the resin had become brittle. The repairer showed him how to replace it without separating the platform from the organism. Kirk worked carefully, keeping the old material where it still held. The new joint flexed when the next pulse passed beneath it.
+     “Have you heard this before?” the largest man asked.
 
-     “It needs room to move,” Kirk said.
+     “Not here.”
 
-     “Yes.”
+     “Where?”
 
-     “If we make it rigid, it will break.”
+     “In places that were trying to remember.”
 
-     “That is what the first builders learned.”
+     Ansel watched him. “The organism remembers.”
 
-     Joseph and the Teller stood near the edge of the chamber. The Teller had been quiet since they entered. He watched the amber light travel beneath the surface and felt each pulse arrive through the floor. Joseph could see the change in his attention. The Teller was not merely observing the organism. He was waiting for it to answer.
+     “What does it remember?”
 
-     “What do you feel?” Joseph asked.
+     “More than we know.”
 
-     “A pause.”
+     The Teller stepped closer to the root. The amber light brightened beneath his hand. Joseph felt the change and moved beside him, but did not touch the organism. The light did not combine their reflections. It moved around each hand separately, then continued along the root.
 
-     “Between the pulses?”
+     “It is responding to attention,” Joseph said.
 
-     “Between what it remembers and what it is trying to say.”
+     Ansel shook his head. “Do not assume that attention is the same as understanding.”
 
-     Joseph looked toward the largest man. He stood farther down the platform, watching the organism's scale without treating it as a challenge. The city was enormous, but its size did not make it sovereign. It depended on the men who maintained it, and they depended on the living structure beneath their homes.
+     The warning was not a rebuke. He had seen men mistake a response for permission before. The organism might notice them without agreeing to anything. It might be changing because of their presence, or because of a cycle that had begun long before they arrived. The men had no right to decide its meaning on its behalf.
 
-     The Seventh Man stood near a root that descended into the valley. He placed his hand against it. The root carried a low vibration. He recognized something in the rhythm but did not claim to know its source.
+     “Then how do we approach it?” Joseph asked.
 
-     “Have you heard this before?” Ansel asked.
+     “By watching what it does, and by asking the men who have lived with it.”
 
-     “Not this sound.”
+     One of the keepers brought them to a narrow platform where the pulses could be seen moving beneath the surface. The light traveled from the upper roots toward a central chamber, then divided into several streams. One stream passed beneath the city. Another disappeared into the forest. A third turned toward the valley wall and vanished.
 
-     “Then what do you recognize?”
+     “That route has been closed for years,” the keeper said.
 
-     “The effort to continue.”
+     Tyler checked his map. The line was present, but faint. Kirk asked whether the closure had been structural or deliberate.
 
-     Ansel nodded. He did not ask for a fuller explanation.
+     “We do not know.”
 
-     The city above them continued its ordinary work. Men carried timber across the upper bridges. A cart moved along a road that curved around a tower. In a public room, two men argued over the repair of a door. A third man brought them the old measurements and showed them where the frame had shifted. Nobody stopped the city to watch the organism. Its life was part of the city's ordinary conditions.
+     The largest man looked toward Ansel. “What happens if it opens?”
 
-     The Teller felt the floor vibrate.
+     Ansel watched the amber light move beneath the surface. “We find out what it has been carrying.”
 
-     A pulse moved beneath them. Then another.
+     The organism gave a slow pulse.
 
-     The organism had noticed them.
+     Every light in the valley turned toward the entrance.
 
-     Every light in the valley turned toward the entrance. The city went silent. The water stopped in the channels. The men on the platforms looked up. Even the repairs seemed to pause, though the tools remained in their hands.
+     The city went silent.
 
-     From somewhere deep inside the enormous living structure came a sound like a voice attempting to remember a word.
-
-     The men waited.
+     And from somewhere deep inside the enormous living structure came a sound like a voice attempting to remember a word.
 
 ## Chapter XXXV: The First Test
      The sound continued through the night. Nobody slept. By morning the city had changed. The paths between the houses were gone. The Digitorium could no longer be seen. The forest had closed around them. The men stood together in a clearing. Tyler looked at Luke.

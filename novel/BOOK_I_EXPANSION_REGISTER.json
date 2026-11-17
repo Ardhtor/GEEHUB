@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "38bc204405b4a85032a74b4533c556d222bc156d",
+  "source_blob_sha": "1dae791812c045c142f6ac55d01d34c86931e359",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 49,
+    "completed": 50,
     "in_progress": 1,
-    "queued": 22,
+    "queued": 21,
     "empty_source": 0,
-    "next_chapter_index": 49,
-    "active_chapter_id": "book-i-l",
-    "last_completed_chapter_id": "book-i-xlix-i"
+    "next_chapter_index": 50,
+    "active_chapter_id": "book-i-li",
+    "last_completed_chapter_id": "book-i-l"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -815,7 +815,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "38bc204405b4a85032a74b4533c556d222bc156d",
+      "last_verified_blob_sha": "1dae791812c045c142f6ac55d01d34c86931e359",
       "notes": "Expanded and verified against Chapters XLVIII and L. The men choose to stay without being trapped; food, repairs, ordinary conversation, and shared attention give the room a lived social structure. The empty chair remains available without becoming a demand. All cast members are male.",
       "current_word_count": 1005
     },
@@ -829,11 +829,11 @@
       "baseline_word_count": 703,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the six geometric forms and their movement after the men leave them empty; preserve the House learning to play without using the men as operators. Keep the cast all male.",
-      "current_word_count": 711
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "1dae791812c045c142f6ac55d01d34c86931e359",
+      "notes": "Expanded and verified against Chapters XLIX-I and LI. The six geometric forms act as rules rather than objects; the men create a road through shared gestures and leave the next-person path empty. The forms continue moving without them, showing the House learning to play independently. All cast members are male.",
+      "current_word_count": 1125
     },
     {
       "chapter_id": "book-i-li",
@@ -845,10 +845,10 @@
       "baseline_word_count": 840,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the world's question through the four men's distinct movements and the fifth line leading to an unknown man. Preserve the open doorway, the decision not to force an answer, and the Deep Lore trace. Keep all cast members male.",
       "current_word_count": 848
     },
     {

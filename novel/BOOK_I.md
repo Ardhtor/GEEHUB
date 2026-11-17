@@ -8048,13 +8048,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XLIV: The Eighth Note
 
-     The note did not behave like the others.
+     The note did not behave like the others. The first seven seemed to belong to the country: seven points of relation, seven ways of approaching a world that had already learned to answer. The eighth seemed to come from somewhere outside the sequence, not higher or lower than it but adjacent to it, as though the music had discovered that counting itself was a form of exclusion.
 
-     The first seven seemed to belong to the country: seven points of relation, seven ways of approaching a world that had already learned to answer. The eighth seemed to come from somewhere outside the sequence, not higher or lower than it but adjacent to it, as though the music had discovered that counting itself was a form of exclusion.
-
-     Nobody moved.
-
-     The shadow remained seated. The Teller looked at it for a long time before realizing that he was not seeing a person. He was seeing the place where a person had not yet become visible. The distinction was uncomfortable. It offered no face to recognize, no name to record, and no history to compare with the others.
+     Nobody moved. The shadow remained seated. The Teller looked at it for a long time before realizing that he was not seeing a person. He was seeing the place where a person had not yet become visible. The chair held the outline of an absence, but the absence did not behave like an empty seat. It seemed to have its own distance from the men.
 
      “What are you waiting for?” he asked.
 
@@ -8064,113 +8060,67 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “Wait.”
 
-     Luke stopped. He looked at Joseph's hand, then at the shadow.
+     Luke stopped. Joseph looked at the rows.
 
-     “Why?”
-
-     Joseph released him. “Maybe that's the point.”
+     “Maybe that's the point.”
 
      Tyler glanced back. “What point?”
 
-     Joseph looked at the rows. Hundreds of chairs, each with its plate and its word. None had been assigned to a particular man. None had been marked as a place that must be filled.
+     Joseph released Luke. “We keep thinking something has to arrive.”
 
-     “We keep thinking something has to arrive,” he said.
+     The room was full of empty chairs. Joseph looked at them.
 
-     Luke looked toward the shadow. “It has arrived.”
+     “Maybe attention doesn't always mean finding the person.”
 
-     “Something is here,” Joseph replied. “That doesn't mean it wants us to decide what it is.”
+     Luke understood. “Sometimes it means leaving the chair open.”
 
-     The room remained still.
+     The largest man looked toward the shadow. “And sometimes a chair is empty because the man has chosen not to sit.”
+
+     The Teller nodded. He had begun to understand that the room was not a collection of vacancies waiting for the travelers to fill them. It was a place where a man could remain unclaimed until he chose to be known. The first seven notes had described relations the country could already recognize. The eighth did not ask to be fitted into the same pattern.
 
      The shadow changed. Not its shape. Its distance. For one instant it seemed close enough to touch. Then impossibly far away. Then it was standing behind them. Everyone turned.
 
      Nothing.
 
-     The Teller remained facing the chair. He had felt the change without seeing it. The shadow was not moving through the room in the ordinary way. The relation between the men and the chair was changing. When they tried to approach, it became distant. When they looked away, it seemed nearer.
-
-     Kirk examined the floor. There were no footprints around the chair. The stone was unmarked. He could not tell whether the shadow had weight.
-
-     Bill looked toward the door. It remained open. The route back to the Digitorium was still visible, but the light along it had dimmed.
-
-     “We can leave,” he said.
-
-     “Yes,” Joseph replied.
-
-     “Then we should remember that we can.”
-
-     Luke nodded. He had wanted to approach the chair because he wanted to know what was there. He understood that the desire did not give him the right to close the distance.
-
-     The Teller heard a sound behind him.
-
-     A chair scraping across stone.
-
-     He turned back.
-
-     The chair at the end of the room was empty. On its seat was a small object.
+     The Teller heard a sound behind him. A chair scraping across stone. He turned back. The chair at the end of the room was empty. On its seat was a small object.
 
      A screw.
 
      Luke stared at it. “That was in my box.”
 
-     He opened the box. The old screw was still there, resting beside the stone and the photograph. He took it out and placed it beside the new one.
+     He opened the box. The screw was still there. Two identical screws lay in the felt lining. One old. One new. The new one was warm.
 
-     Two identical screws.
+     Kirk approached and examined them without lifting either. The older screw had a worn thread and a flattened head. The new one looked identical at first glance, but its surface was smooth. It had no thread. It could not attach anything.
 
-     One old. One new.
+     “It is a copy,” Kirk said. “Not a replacement.”
 
-     The old screw was cold and worn at the head. Its thread was marked by use. The new one was warm. It had no thread and could not attach to anything. It was the same shape without the same history.
+     Tyler wrote down the difference. “The country has reproduced an object that mattered, but it has not reproduced the work the object was made to do.”
 
-     Tyler examined both. “They are not copies.”
+     Bill looked at the new screw. “Then it should not be used.”
 
-     “They look identical,” Luke said.
+     Luke did not take it. He had carried the original because it belonged to a particular history. The new screw had no such history. It had appeared because the country had noticed the old one, but the copy could not inherit the relation that made the original useful.
 
-     “The material may be the same. The use is not.”
+     “It is not the same thing,” Luke said.
 
-     Kirk turned the new screw between his fingers. “This one has never held anything.”
+     “No,” Joseph replied. “But it is not nothing.”
 
-     “Not yet,” Bill said.
+     The Teller reached for the new screw. The moment his fingers touched the metal, every chair in the room turned toward him. Not mechanically. Not violently. They simply faced him. Hundreds of empty seats. Hundreds of directions. The movement made no sound, but the room changed. The chairs were no longer waiting in rows. They were attending.
 
-     The Teller reached for it.
-
-     The moment his fingers touched the metal, every chair in the room turned toward him.
-
-     Not mechanically. Not violently. They simply faced him. Hundreds of empty seats. Hundreds of directions. The blue lights beneath them brightened, and the eighth note sounded again.
-
-     The Teller did not move.
-
-     For the first time, he understood that the country was not asking them to find the missing man. It was asking them to become capable of noticing someone who had not yet entered the story. The chairs were not invitations to fill every absence. They were places kept open without a claim.
-
-     Joseph stood beside him. “Do you know what it wants?”
-
-     “No.”
-
-     “Do you know what it is asking?”
-
-     “I think it is asking us to wait without turning waiting into ownership.”
-
-     Luke looked at the two screws. “Then what do we do with this one?”
-
-     The Teller placed the new screw back on the chair. “We leave it where it was put.”
+     The Teller understood that the country was not asking them to find the missing man. It was asking them to become capable of noticing someone who had not yet entered the story. The new screw was a sign of that difference. A copy could be made before its source was understood. A place could be prepared before the man who might occupy it had chosen to arrive.
 
      The blue lights went out.
 
-     In the darkness, a door opened somewhere behind the chairs. A man's voice said:
+     In the darkness, a door opened somewhere behind the chairs.
 
-     “Don't remember me.”
+     A man's voice said, “Don't remember me.”
+
+     The words were quiet. They did not sound frightened. They did not sound like a command. The voice was close enough to belong to the room and distant enough to come from somewhere beyond it.
 
      The door closed.
 
+     Nobody moved toward it. Luke kept the box open. Tyler left his notebook where it was. Kirk did not touch the screw. Bill waited beside the nearest aisle. Joseph stood with the Teller, but did not ask him what he had heard. The shadow had disappeared. The chair remained.
+
      Nobody knew whether the voice had been a warning or an invitation.
-
-     Tyler wrote down the words but did not assign them to the shadow. Kirk checked the nearest wall and found no seam. Bill kept the route back clear. Luke closed his box, leaving the two screws where they had been. Joseph remained beside the Teller.
-
-     The eighth note did not return.
-
-     The room stayed dark for several seconds. Then the blue lights came back, one at a time, beneath the empty chairs. The chair at the far end remained unoccupied.
-
-     The men left without taking the new screw.
-
-     They did not agree on what the voice had meant. They agreed not to answer it on the speaker's behalf.
 
 ## Chapter XLV: The Man Who Refused the Name
 

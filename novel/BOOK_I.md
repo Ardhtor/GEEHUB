@@ -7338,89 +7338,105 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The organism did not rise. The country rose with it.
 
-     At first the movement was so slight that the men mistook it for weather. A window trembled high in the Digitorium. Water moved across a stone square without wind. Somewhere beneath the forest, a slow pressure traveled through the earth and vanished. The amber light beneath the streets brightened, then settled. The city seemed to be breathing, though no single building moved enough to explain the sensation.
+     At first the movement was so slight that the men mistook it for weather. A window trembled high in the Digitorium. Water moved across a stone square without wind. Somewhere beneath the forest, a slow pressure traveled through the earth and vanished. The men who maintained the lower channels stopped working and listened. One placed his palm against the wall. Another checked the water level. Neither called it an emergency.
 
      Then every tree bent in the same direction.
 
      Not toward the east. Not toward the west. Toward them.
 
-     Luke was the first to understand. “It's looking.”
+     Luke was the first to understand.
+
+     “It's looking.”
 
      Tyler stared into the forest. “Trees don't look.”
 
      “These aren't trees.”
 
-     The sentence seemed to pass through the country faster than sound. The trunks held their positions, but the branches turned. The fog shifted between them. The paths beneath the roots became visible, one after another, as if the country were showing the men how its streets had been laid beneath the forest.
-
-     Lights appeared beneath the streets. One by one. Then thousands. The Digitorium illuminated from its foundations upward, every blue screen waking simultaneously. The upper galleries filled with light. The bridge across the central shaft shone from end to end. The Procession stopped on its bridge. The iridescent figures turned toward the valley and stood without moving.
-
-     The six men from the upper chamber emerged into the square. Ansel stood among them without speaking. The carpenter looked toward the ground. The ledger keeper held his book against his chest. The guarded man moved to the edge of the square, where he could see the forest and the city at once. None of them tried to explain what was happening.
+     The sentence seemed to pass through the country faster than sound. Lights appeared beneath the streets. One by one. Then thousands. The Digitorium illuminated from its foundations upward, every blue screen waking simultaneously. The Procession stopped on its bridge. The six men from the upper chamber emerged into the square. Ansel stood among them without speaking.
 
      Something beneath the city had opened its attention.
 
-     The ground gave a pulse. Every man felt it in the soles of his feet. Then another. The third pulse carried a voice.
+     The ground gave a pulse. Everyone felt it in the soles of their feet. Then another. The third pulse carried a voice.
 
      “Who remembers me?”
 
-     Nobody answered.
+     Nobody answered immediately. The question was too large for an ordinary answer. It did not sound like a request for a name. It sounded like the question asked by something that had survived so long that being remembered had become indistinguishable from being alive.
 
-     The question was too large for an ordinary answer. It did not sound like a request for a name. It sounded like the question asked by something that had survived so long that being remembered had become indistinguishable from being alive. The men could feel the organism beneath them, but they could not tell whether it was asking for a record, a response, or a place in the history of the city.
+     Tyler opened his notebook. The pages trembled. He tried to record the interval between the pulses, but the numbers shifted as he wrote them. He closed the notebook and listened instead.
 
-     Tyler began to write. His hand stopped above the page. He had no source for the voice and no way to establish its age. He could record the words, the time, and the pulse that had carried them. He could not decide what the organism meant.
+     Kirk moved toward the nearest support. The stone was warm. A narrow seam had opened along its base, and the joint was flexing with the movement beneath the city. He checked the fastening and saw that it was holding. The structure was not failing. It was adjusting.
 
-     Kirk looked toward the supports beneath the square. The roots had shifted, but none of the buildings had fallen. The city was not being lifted away from its foundations. It was being carried by them.
+     Bill directed the men away from the narrow bridge. He did not order them to retreat. He asked them to keep the central route clear in case the water rose. The maintenance crew followed his instructions. They had learned that a living structure could move without intending harm, but that did not remove the need for care.
 
-     Bill checked the men near the lower passage. He wanted to make sure no one had been separated from the group. The largest man stood beside the edge of the square, steadying a timber rail that had begun to move. The Seventh Man listened to the ground. He recognized the same rhythm that had followed them through the forest, now clear enough to be heard without the bell.
+     The largest man stood in the square and watched the towers. Their windows had turned toward the forest. The blue light inside them was steady, but each screen showed the same dark surface beneath the country. He could feel the pulse in his chest. It did not match his heartbeat. It did not try to replace it.
 
-     The Teller stepped forward.
+     Joseph looked toward the Teller. The Teller had already begun to move.
 
-     Joseph did not stop him.
+     The Teller stepped forward. Joseph did not stop him.
 
      “We do,” the Teller said.
 
      Nothing happened.
 
-     The words seemed too small. The forest remained bent toward them. The lights continued to burn beneath the streets. The organism did not answer. The Teller stood where he was, without adding an explanation or asking the men to repeat him.
-
-     Joseph came beside him. “We remember the roads. The rooms. The places that carried us.”
-
-     The Teller looked toward the forest. “And the thing that carried the places.”
-
-     The words were not a second answer. They were a correction to the first. The men had remembered the House, the city, and the routes between them. They had spoken of the organism as a foundation, a source of water, a living structure, or a place beneath the forest. They had not yet included it in the same history as the men who lived with it.
-
-     Ansel looked down at the amber light beneath the paving. “We built with it for generations. We recorded what it gave us. We did not ask whether it remembered us.”
-
-     The ledger keeper opened his book. He found the oldest entries, where the organism had been described only by its functions: water source, structural support, warmth, passage. The later records contained more detail, but the language still treated the living structure as a resource. He turned to a blank page.
-
-     “We can begin again,” he said.
-
-     The largest man looked toward the forest. “Not by pretending we knew it all along.”
-
-     “No,” Ansel replied. “By recording that we did not.”
+     The answer did not satisfy the voice. It did not end the question. The Teller remained where he was, facing the forest. Joseph stood beside him, close enough to be present without speaking for him.
 
      Then the entire country inhaled.
 
-     Fog withdrew from the streets. The amber lights beneath the ground intensified. Far below the forest, something enormous shifted its weight. The movement passed through the roots, the city, and the Digitorium. The buildings did not rise or fall. They settled into a new arrangement, each one finding support in a place that had been present all along.
+     Fog withdrew from the streets. The amber lights beneath the ground intensified. Far below the forest, something enormous shifted its weight. The movement traveled through the organism and into the city. Towers settled. Bridges adjusted. The water in the channels rose and then returned to its former level.
 
      Every screen in the Digitorium changed.
 
-     The first room appeared. Not an interpretation of it. The room itself. The old walls. The old chair. The first blue glow. The table with its repaired edge. The place before the city, before the Serum had learned their relationships, before anyone understood that a room could become a world.
+     The first room appeared. Not an interpretation of it. The room itself. The old walls. The old chair. The first blue glow. The table where the men had first gathered around the objects. The door that had opened before anyone understood what it connected. The place before the city, before the Serum had learned their relationships, before anyone understood that a room could become a world.
 
-     Luke stared at the image. “It remembers.”
+     Luke stared at the image.
 
-     Joseph shook his head. He looked at the organism beneath them.
+     “It remembers.”
+
+     Joseph shook his head.
+
+     “No.”
+
+     He looked at the organism beneath them.
 
      “It remembers us remembering.”
 
-     That distinction frightened them. Memory had ceased to be an archive. It had become a reciprocal act. The country had been waiting for someone to recognize that it was also recognizing them. The organism had not merely stored the marks of their passage. It had been aware of their attention, and now it had answered.
+     That distinction frightened them. The room on the screen was not simply being replayed. It was being returned through the attention of the men who had carried it. The organism had received their memory and answered with its own. It had not copied the room. It had recognized the act by which the room had remained important.
 
-     The amber light moved through the roots again. The sound beneath the city became clearer.
+     Tyler looked at the screen. “Then the record is not one-way.”
+
+     “No,” Joseph said.
+
+     “The room remembers us, and we remember the room.”
+
+     The Teller nodded. “That is why it can continue.”
+
+     The six men from the upper chamber stood together near the entrance. The man with the scarred palm looked down at his hand. The notebook keeper had closed his book. The carpenter rested one hand against the wall. The others watched the first room without trying to explain it. They had built their world around the same discovery, but they had not seen it expressed in this form.
+
+     Ansel spoke quietly. “We thought the organism was remembering the city.”
+
+     Kirk looked at him. “And now?”
+
+     “It is remembering the men who remembered the city.”
+
+     The largest man looked toward the forest. “Then it has a history with us.”
+
+     “It has a relation with you,” Ansel replied. “That is not the same as ownership.”
+
+     The organism pulsed again. This time the word was clear.
 
      “Continuance.”
 
-     The word passed through the Digitorium, the forest, and the House visible beyond the transparent wall. It did not belong to one language. It was the name the men gave to the act of remaining related while changing.
+     The sound passed through the city. It moved along the bridges, through the roots, and beneath the Digitorium. The men heard it in different ways. Tyler heard a sequence that could be recorded but not reduced to a number. Kirk heard a structure settling into its joints. Bill heard water returning to a channel. Luke heard a door opening. Joseph heard the Teller breathe beside him. The Seventh Man heard the road continue beyond the forest.
 
-     The Teller stood beside Joseph. Neither tried to speak for the other. Tyler recorded the word without claiming to have translated it. Kirk watched the structures settle. Bill returned to the lower passage and found that the route remained open. Luke looked toward the first room on the screens. The largest man lowered his hand from the rail. The Seventh Man listened until the final pulse faded.
+     The country had been waiting for someone to recognize that it was also recognizing them. The organism did not ask the men to worship it or to give it a name. It asked whether they could remain in relation without pretending to understand the whole of what they had encountered.
+
+     The lights beneath the streets grew brighter. The trees lifted their branches. The Procession began moving again, slowly crossing the bridge. The six men from the upper chamber returned to the Digitorium. Ansel remained beside the travelers.
+
+     Luke looked at the first room on the screens. “It remembers.”
+
+     Joseph watched the organism. “And it knows that we remember.”
+
+     The distinction remained.
 
      Beneath the forest, the ancient thing opened its eyes.
 

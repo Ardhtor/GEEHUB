@@ -8954,7 +8954,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      That was the first sign that something had changed.
 
-     The road they had made beneath Veyrthalis continued ahead of them, dividing and rejoining without ever quite settling into a permanent shape. The men had begun to understand that the geometry was not waiting for instructions. It was waiting for behavior.
+     The road they had made beneath Veyrthalis continued ahead of them, dividing and rejoining without ever quite settling into a permanent shape. The men had begun to understand that the geometry was not waiting for instructions. It was waiting for behavior. The six forms in the chamber had become a road, but the road did not belong to them. It held the movements they had made and left room for movements they had not yet imagined.
 
      Luke walked first.
 
@@ -8964,31 +8964,19 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      None of them spoke.
 
-     The road narrowed.
-
-     Luke stopped.
-
-     The others stopped with him.
-
-     Ahead stood a doorway.
+     The road narrowed. Luke stopped. The others stopped with him. Ahead stood a doorway.
 
      It was ordinary.
 
-     Wooden frame. Dark paint. Brass handle. Enough room for one man to pass comfortably.
+     Wooden frame. Dark paint. Brass handle. Enough room for one man to pass comfortably. No blue light. No inscription. No visible mechanism. It looked like a door that could have belonged to any house.
 
      Luke looked at it.
 
      “We've seen this.”
 
-     Joseph nodded.
+     Joseph nodded. “Not this one.”
 
-     “Not this one.”
-
-     Luke stepped closer.
-
-     The doorway remained still.
-
-     He reached for the handle.
+     Luke stepped closer. The doorway remained still. He reached for the handle.
 
      Nothing.
 
@@ -9000,15 +8988,11 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The floor moved.
 
-     A line appeared beneath their feet.
+     A line appeared beneath their feet. It ran from Kirk to the doorway, then continued beyond it, disappearing into darkness.
 
-     It ran from Kirk to the doorway, then continued beyond it, disappearing into darkness.
+     Joseph crouched. “It's measuring.”
 
-     Joseph crouched.
-
-     “It's measuring.”
-
-     “What?”
+     “What?” Luke asked.
 
      “Us.”
 
@@ -9024,11 +9008,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      One beneath Joseph.
 
-     Each line carried a different distance.
+     Each line carried a different distance. They were not measurements of height or weight. They changed when the men moved.
 
-     The men looked at one another.
-
-     Then Luke stepped backward.
+     Luke stepped backward.
 
      His line lengthened.
 
@@ -9044,17 +9026,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      His became perfectly straight.
 
-     The geometry was not measuring their bodies.
-
-     It was measuring their relationships to the room.
+     The geometry was not measuring their bodies. It was measuring their relationships to the room.
 
      Luke understood.
 
      “It wants us to move.”
 
-     Joseph looked at the door.
-
-     “No.”
+     Joseph looked at the door. “No.”
 
      He looked at the four lines.
 
@@ -9062,36 +9040,11 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      They began again.
 
-     Luke walked toward the doorway.
-
-     Tyler crossed behind him.
-
-     Kirk remained beside the wall.
-     Joseph stayed in the center.
-
-     The room changed.
-
-     The doorway widened.
-
-     A second door appeared.
-
-     Then a third.
-
-     None of them opened.
+     Luke walked toward the doorway. Tyler crossed behind him. Kirk remained beside the wall. Joseph stayed in the center. The room changed. The doorway widened. A second door appeared. Then a third. None of them opened.
 
      The men continued moving.
 
-     Every movement altered the arrangement.
-
-     Every alteration remained after they moved away.
-
-     Tyler discovered that if he walked in a circle, the floor retained the circle.
-
-     Kirk discovered that standing beside Luke caused the two lines beneath them to become one.
-
-     Joseph discovered that waiting could be an action.
-
-     Luke discovered that the geometry responded most strongly when he returned to a place he had already occupied.
+     Every movement altered the arrangement. Every alteration remained after they moved away. Tyler discovered that if he walked in a circle, the floor retained the circle. Kirk discovered that standing beside Luke caused the two lines beneath them to become one. Joseph discovered that waiting could be an action. Luke discovered that the geometry responded most strongly when he returned to a place he had already occupied.
 
      Again.
 
@@ -9099,85 +9052,41 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      No one had written it.
 
-     Luke looked down.
+     Luke looked down. “There it is.”
 
-     “There it is.”
+     Tyler smiled. “Again.”
 
-     Tyler smiled.
+     They repeated the experiment. The room remembered.
 
-     “Again.”
+     They repeated it differently. The room remembered that too.
 
-     They repeated the experiment.
-
-     The room remembered.
-
-     They repeated it differently.
-
-     The room remembered that too.
-
-     Soon the floor was covered with their routes.
-
-     It looked like writing.
-
-     Not language.
-
-     Movement.
-
-     A record of four men discovering how a place could listen.
+     Soon the floor was covered with their routes. It looked like writing. Not language. Movement. A record of four men discovering how a place could listen.
 
      Then something happened that none of them had produced.
 
      A fifth line appeared.
 
-     It began at the empty doorway.
+     It began at the empty doorway. It crossed the room. It stopped beside Kirk.
 
-     It crossed the room.
+     Kirk looked at it. “That's not mine.”
 
-     It stopped beside Kirk.
+     Joseph shook his head. “No.”
 
-     Kirk looked at it.
-
-     “That's not mine.”
-
-     Joseph shook his head.
-
-     “No.”
-
-     Luke followed the line with his eyes.
-
-     It continued behind them.
-
-     Past the road.
-
-     Past the chamber.
-
-     Past the House.
-
-     Into Veyrthalis.
+     Luke followed the line with his eyes. It continued behind them. Past the road. Past the chamber. Past the House. Into Veyrthalis.
 
      The line did not end at a place.
 
      It ended at a person.
 
-     Someone was standing far away.
-
-     They could not see the face.
-
-     They could only see that the person was waiting.
+     Someone was standing far away. They could not see the face. They could only see that the person was waiting.
 
      The world had produced a witness without being asked.
 
-     Tyler stepped forward.
+     Tyler stepped forward. The fifth line brightened.
 
-     The fifth line brightened.
+     Luke stepped beside him. It brightened again.
 
-     Luke stepped beside him.
-
-     It brightened again.
-
-     Joseph approached.
-
-     Kirk followed.
+     Joseph approached. Kirk followed.
 
      The distance closed.
 
@@ -9185,38 +9094,17 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Narratively.
 
-     The person at the end of the line became clearer.
-
-     A man.
-
-     Adult.
-
-     Familiar and unfamiliar at once.
-     He stood beside an old doorway.
-
-     The same doorway.
-
-     The first doorway.
-
-     The baseline.
+     The person at the end of the line became clearer. A man. Adult. Familiar and unfamiliar at once. He stood beside an old doorway. The same doorway. The first doorway. The baseline.
 
      Nobody spoke.
 
-     The man raised one hand.
-
-     He did not wave.
-
-     He simply held it there.
-
-     Waiting.
+     The man raised one hand. He did not wave. He simply held it there, waiting.
 
      Kirk understood before the others.
 
      “He isn't asking us to come.”
 
-     Luke looked at him.
-
-     “Then what?”
+     Luke looked at him. “Then what?”
 
      Kirk looked at the man.
 
@@ -9224,23 +9112,15 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The fifth line disappeared.
 
-     The doorway remained.
-
-     The four lines remained.
-
-     The routes they had made remained.
-
-     The room had asked its question.
-
-     It did not require an answer.
+     The doorway remained. The four lines remained. The routes they had made remained. The room had asked its question. It did not require an answer.
 
      The men stood there for a long time.
 
-     Then Luke turned around.
+     Luke looked toward the man at the end of the road. He wanted to know who he was. Tyler wanted to record the position. Kirk wanted to understand how the fifth line had formed without any of them producing it. Joseph wanted to know whether the man was waiting for them or simply waiting in a place they had learned to see.
 
-     He looked back at the geometry they had created.
+     None of those desires gave them the right to cross.
 
-     “We should leave it.”
+     “We should leave it,” Luke said.
 
      Tyler nodded.
 
@@ -9250,13 +9130,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      They walked away.
 
-     Behind them, the geometry did not collapse.
-
-     The fifth line did not return.
-
-     The doorway did not close.
-
-     Nothing was resolved.
+     Behind them, the geometry did not collapse. The fifth line did not return. The doorway did not close. Nothing was resolved.
 
      That was the answer.
 
@@ -9264,11 +9138,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      And because they had left it intact, the world had somewhere to go next.
 
-     By the time they reached the House, the first poetic trace had already appeared.
-
-     It was written nowhere.
-
-     It existed in the shape of the road.
+     By the time they reached the House, the first poetic trace had already appeared. It was written nowhere. It existed in the shape of the road.
 
      Four lines returning.
 

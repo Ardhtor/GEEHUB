@@ -6056,57 +6056,183 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXVII: The Road Made of Men
 
-     The road began at the eastern gate and continued into the forest. It was not made from stone. It was made from memory.
+     The road began at the eastern gate and continued into the forest. It was not made from stone. It was made from memory. The black line that had emerged beneath the city ran through the gate and into the trees, but its surface was pale and firm beneath their boots. It carried no signposts. Instead, every few yards another footprint appeared.
 
-     Every few yards another footprint appeared, and each footprint belonged to somebody who had once crossed the city. Soldiers. Children. Physicians. Device Men. The sister from the lake. The keeper. The first man. People whose names had been lost.
+     Each print belonged to a man who had crossed the city. Soldiers. Apprentices. Physicians. Device Men. The boat keeper from the lake. The first keeper. The first man. Men whose names had been lost, or whose names had not yet been given. Some footprints were deep and heavy. Others barely marked the surface. A few appeared beside the road and then turned away, as if their owners had changed their minds.
 
      The men walked among them.
 
-     Luke recognized one footprint.
+     Luke recognized one footprint. It matched the worn edge of his left boot and the small cut near the heel.
 
      “That's mine.”
 
-     Tyler pointed farther ahead.
+     Tyler pointed farther ahead. “That's yours too.”
 
-     “That's yours too.”
-
-     Luke laughed.
-
-     “I haven't been there.”
+     Luke laughed. “I haven't been there.”
 
      “Not yet.”
 
+     Tyler wrote down the positions of both prints. They were separated by several hundred yards, but the second was older. Its edges had softened, and a thin line of grass had begun growing through the heel. Tyler could not explain how a future footprint could appear more weathered than one made yesterday. He recorded the difference without changing the order in which they had found them.
+
+     Kirk crouched beside a set of narrow prints. The spacing was uneven. One foot landed farther forward than the other, and the right heel had pressed more deeply into the road.
+
+     “This man was tired,” he said.
+
+     “Or carrying something,” Bill replied.
+
+     Kirk followed the prints for a short distance. They passed beside a tree, crossed the road, and stopped at a place where no man stood.
+
+     “He put something down here,” Kirk said.
+
+     Bill examined the ground. “Or picked something up.”
+
+     Neither could find an object. Kirk marked the place with a small stone and left it where it was. He did not want to turn an inference into a fact.
+
+     The largest man walked near the center of the group. The road widened whenever the men needed to pass one another, then narrowed again. He could feel the surface adjusting beneath their weight, but it did not alter the direction of the path. He looked back toward the city. The towers were still visible, though the eastern gate had disappeared behind a stand of trees.
+
+     “Can we return?” he asked the Seventh Man.
+
+     “Yes.”
+
+     “By the same road?”
+
+     “If you remember how you came.”
+
+     “And if we don't?”
+
+     “The road may remember for you. It may not remember in the way you expect.”
+
+     Bill did not like that answer. “Then we keep our own record.”
+
+     Tyler nodded. “I have the route.”
+
+     “A route is not the same as a return,” Bill said.
+
+     Tyler looked at him. “No. But it gives us something to compare.”
+
      They continued.
 
-     The road became crowded with possible histories. A man would appear beside them for a few steps and then disappear. A woman carrying a lantern walked beside Joseph. A child followed Kirk. Tyler heard someone calling his name from a bridge that did not exist.
+     The road became crowded with possible histories. A man appeared beside them for a few steps and then disappeared. He wore the coat of a physician from the northern works and carried a small glass vessel wrapped in cloth. Another man crossed the road ahead of them with a bundle of tools. A third stood beneath a tree, looking toward a city that was not visible. None seemed surprised by the travelers. They did not ask for help or offer directions. They were present as parts of the road's memory, not as guides.
 
-     None of them turned.
+     A man carrying a lantern walked beside Joseph. The lantern had one amber pane and one blue. Joseph recognized the light from the House of the Seventh Light, but the man carrying it was not the keeper. He walked at Joseph's pace without speaking.
 
-     The road had taught them something the city had not: not every appearance required an answer.
+     “Do you know where this road goes?” Joseph asked.
 
-     At midnight they reached a clearing.
+     The man looked ahead. “I know where I left it.”
 
-     In the center stood a door.
+     “And where was that?”
 
-     There was no wall around it.
+     “Somewhere I had to choose.”
 
-     The door opened onto darkness.
+     Joseph waited for more. None came. He did not press the man. The lantern bearer continued beside him for another dozen steps, then faded into the trees. The light remained visible for a moment after the man had gone.
 
-     Joseph approached.
+     A young surveyor followed Kirk. He carried a folded sheet and kept looking down at the footprints. Kirk noticed him because he never stepped on a print. He walked around each one, even when the path became narrow.
 
-     “Is this the next room?”
+     “You can walk on the road,” Kirk said.
 
-     Luke shook his head.
+     The surveyor shook his head. “I don't know whose steps those are.”
+
+     “You don't have to know.”
+
+     “I might cover something.”
+
+     Kirk considered this. “Then keep to the edge.”
+
+     The young man did. He stayed with them until the trees thickened, then vanished without leaving a footprint of his own.
+
+     Tyler heard a man's voice calling his name from a bridge that did not exist. He turned toward it. The bridge appeared between two trees, its dark rails wet with rain. A man stood at the far end, holding a notebook open.
+
+     “You missed a measurement,” the man called.
+
+     Tyler took one step toward him.
+
+     The Seventh Man spoke from behind. “You do not have to answer every record that calls you.”
+
+     Tyler stopped. He looked at the bridge again. The man at the far end had become a footprint. The bridge was gone.
+
+     “It knew my name,” Tyler said.
+
+     “Many things know a name,” Joseph replied. “That doesn't mean they know the man.”
+
+     Tyler wrote down the encounter. He did not mark it as a message.
+
+     The road passed through a stand of tall trees. Their trunks were dark and straight, with roots that rose above the soil like beams. The canopy joined high overhead. The air smelled of wet bark and cold earth. Here the footprints grew more numerous. Some belonged to men walking alone. Others showed two or three men side by side. A few sets overlapped so closely that Tyler could not separate them.
+
+     Luke found a print that matched his own again. It stood beside a larger one, deep enough to hold rainwater. He followed the larger print with his eyes. It continued toward the center of the road, then stopped.
+
+     “Whose is that?” he asked.
+
+     The largest man looked down. “I don't know.”
+
+     “Could be yours.”
+
+     “Could be.”
+
+     Luke looked at the Seventh Man. “Do you know?”
+
+     “I remember the road.”
+
+     “That's not the same as remembering the men.”
 
      “No.”
 
-     “How do you know?”
+     The Seventh Man did not pretend otherwise. Luke liked him better for it.
 
-     Luke looked at the footprints.
+     They reached a clearing near midnight. The road widened there and became smooth. No footprints crossed its center. They gathered around the empty space. The forest stood close on every side, but the clearing itself had no wall or fence. A single door stood in the middle.
 
-     “Because somebody already came through.”
+     It had no frame, no hinges, and no wall around it. Its surface was dark and plain. A narrow line ran down the center, like the seam of a door that had been closed for a long time.
 
-     On the other side of the door was a road leading away.
+     Tyler walked around it. “There is no structure holding it.”
+
+     Kirk examined the ground. “There is no foundation either.”
+
+     Bill checked the path behind them. The road remained visible through the trees. He placed a small marker at its edge.
+
+     Luke approached the door. “Is this the next room?”
+
+     Joseph looked at the footprints. A single trail crossed the clearing and stopped on the far side of the door. The prints were old, but their edges remained sharp. Whoever had made them had passed through without returning.
+
+     Luke shook his head. “No.”
+
+     “How do you know?” Joseph asked.
+
+     Luke looked at the footprints. “Because somebody already came through.”
+
+     The largest man stood beside him. “And did he leave a way back?”
+
+     Kirk found a shallow mark at the foot of the door. It looked like the impression of a heel, made before the road had formed. He brushed away the dust. Beneath it was a small metal fitting, worn smooth where a hand might have touched it.
+
+     “The door has been used,” he said.
+
+     Tyler wrote down the finding. “We cannot establish when.”
+
+     “We can establish that it opened,” Kirk replied.
+
+     Bill looked at the marker he had placed behind them. “Then we keep the return route.”
+
+     The Seventh Man stepped forward. He did not touch the door. He looked at the old footprints and then at the blank space where no prints appeared.
+
+     “The road has carried someone here,” he said.
+
+     “Who?” Joseph asked.
+
+     “That is what the road has not remembered.”
+
+     Luke turned the handle. It moved without resistance. The door opened onto darkness. There was no sound from the other side, no wind, no visible floor. Yet the old footprints continued through it.
+
+     Nobody crossed immediately.
+
+     Bill checked the marker once more. Tyler copied the last visible measurements. Kirk looked for a threshold that could catch a man's foot. Joseph stood beside the largest man. The Seventh Man waited at the open door.
+
+     “We can return,” the largest man said.
+
+     “Yes,” Bill replied.
+
+     “We can also leave it open.”
+
+     Luke looked into the darkness. “Then let's go.”
+
+     They crossed together. The door remained behind them, open without a wall around it. On the other side was a road leading away.
 
      They followed it.
 

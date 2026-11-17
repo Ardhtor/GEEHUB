@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "d4ffb76f1a53363e87888ff432512e79e22d6030",
+  "source_blob_sha": "d772462ff95b069b4b05917b323b75802d9c5f38",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 52,
+    "completed": 53,
     "in_progress": 1,
-    "queued": 19,
+    "queued": 18,
     "empty_source": 0,
-    "next_chapter_index": 52,
-    "active_chapter_id": "book-i-liii",
-    "last_completed_chapter_id": "book-i-lii"
+    "next_chapter_index": 53,
+    "active_chapter_id": "book-i-liv",
+    "last_completed_chapter_id": "book-i-liii"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -863,7 +863,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "d4ffb76f1a53363e87888ff432512e79e22d6030",
+      "last_verified_blob_sha": "d772462ff95b069b4b05917b323b75802d9c5f38",
       "notes": "Expanded and verified against Chapters LI and LIII. Twenty subjective years are developed through distinct games and discoveries for Luke, Tyler, Kirk, and Joseph; hyperspace remains a space of relation rather than distance. The world that refuses is left unchanged, and the four men return to the empty room with a new language of play. All cast members are male.",
       "current_word_count": 1367
     },
@@ -877,11 +877,11 @@
       "baseline_word_count": 361,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the button as the activation of accumulated play, with each man's distinct power and the new line beyond the recorded worlds. Preserve the final 'PLAY AGAIN' and keep all cast members male.",
-      "current_word_count": 366
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "d772462ff95b069b4b05917b323b75802d9c5f38",
+      "notes": "Expanded and verified against Chapters LII and LIV. The button activates the accumulated memory of play; each man's distinct ability and lesson is revisited, and the new line is understood as 'next' rather than outside. The response 'PLAY AGAIN' remains an invitation, not a command. All cast members are male.",
+      "current_word_count": 711
     },
     {
       "chapter_id": "book-i-liv",
@@ -893,10 +893,10 @@
       "baseline_word_count": 206,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Queued all-male continuity correction: replace 'The boys kept moving' with 'The men kept moving' and preserve the adult cast.",
+      "notes": "Next canonical chapter. Expand the new hyperspace as a world-making game; replace 'The boys kept moving' with 'The men kept moving'. Preserve the four men's distinct powers, the fifth possibility, and the recurring 'PLAY AGAIN' trace. Keep all cast members male.",
       "current_word_count": 211
     },
     {
@@ -912,7 +912,7 @@
       "status": "queued",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Queued all-male continuity correction: replace 'The boys' with 'The men' and preserve the adult cast.",
       "current_word_count": 277
     },
     {

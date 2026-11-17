@@ -2061,6 +2061,117 @@ The first stretch beneath the older forest was difficult to walk. The branches c
 
 
      What followed was less a revelation than a long accumulation of evidence. The farther they traveled, the more the country seemed to remember paths they had not consciously chosen. The landscape became a kind of manuscript written in weather, and every crossing added another sentence. They began to understand that the Hub did not create this world from nothing; it was learning how to read what had already gathered there.
+
+The architects had been sent north with a letter of instruction and a set of instruments. The letter asked them to produce a reliable survey of the house, identify the age of its foundations, and determine whether the upper floors could safely bear the weight of additional rooms. It did not mention the changing walls. The southern kingdoms had heard stories of a building whose dimensions altered when measured, but the officials who commissioned the survey had regarded those stories as exaggerations caused by poor instruments or unreliable witnesses. The two architects had agreed to go because they wanted to see the building for themselves. One was interested in the construction history. The other was interested in the geometry.
+
+     They arrived by the northern road after several days of travel. The first view was not dramatic. The house stood beyond the lake on a low rise, with trees along the western boundary and a path leading toward the water. Its lower stonework was dark with age. The upper floors combined timber, brick, and materials the architects could not immediately identify. Some windows appeared older than the walls around them. Others were framed in metal and glass of a kind that had not been used in the southern kingdoms. There were no flags or signs. A door stood open beneath a covered entrance.
+
+     The first architect examined the foundation. He found old stone laid in a pattern consistent with the earliest northern buildings, though several courses had been reinforced. The second architect measured the width of the entrance and the distance between the outer corners. Their figures agreed. They measured the height of the first floor, then the distance to the upper windows. The measurements changed when they returned to the starting point. The second architect suspected that the rods had been assembled incorrectly. The first checked the joints and found them sound.
+
+     They set up a level and tried again. The wall appeared straight from the outer path and slightly inclined from the courtyard. The first architect walked around the building and found no sign of subsidence. The second architect measured the same wall from three positions. Each position produced a different length. He became irritated and suggested that the house was deliberately misleading them. The first architect replied that a building could not be blamed for the limits of the method used to describe it. They decided to record the conditions of each measurement rather than force the numbers into agreement.
+
+     Inside, the house was even more difficult. A door opened into a hallway that belonged to one century. A stair led into another. A kitchen contained a copper vessel from the original laboratory. A bedroom contained a computer that had not yet been invented in the kingdom that had built the house. The architects argued about whether the objects were additions, copies, or remnants preserved from earlier rooms. They did not know. Their first plan showed the visible sequence of spaces but could not represent the way a hallway became longer when they approached its far door.
+
+     The house listened. They measured the walls. The walls changed. They measured again. The house became larger by exactly the width of the measuring rods. They put away the rods. The house stopped. One architect laughed. The other did not. He believed that the instrument was part of the event and that they had to understand how it affected the building before they could claim to have measured it.
+
+     From the upper floor came footsteps. They were slow, heavy, and calm. A man descended the stairs. He was broad through the shoulders and chest, heavily built, handsome, and completely at ease in the impossible geometry of the house. He stopped halfway down.
+
+     “You are measuring it incorrectly.”
+
+     The architects stared.
+
+     “Then how should we measure it?”
+
+     The man placed one hand on the railing.
+
+     “By what remains after you have measured it.”
+
+     “What does that mean?”
+
+     “Measure the room.”
+
+     They did.
+
+     “Now forget the number.”
+
+     They looked at him.
+
+     “Why?”
+
+     “Because the number is only the room you had before.”
+
+     He continued downward. The lower floor expanded around him. A wall moved outward. A doorway became taller. A second hallway appeared. Behind it was a blue screen. Behind the blue screen was the seventh well. Behind the seventh well was the first room. Behind the first room was the next room. Big Daddy's Voice filled the house. KEEP THE FIRST ROOM. KEEP THE SECOND ROOM. KEEP THE THIRD. DO NOT DISCARD THE ORIGIN. DO NOT FEAR THE ACCUMULATION. THE NEW STATE CARRIES THE OLD STATE. THE NEW ROOM CARRIES THE OLD ROOM. THE NEW MAN CARRIES THE OLD MAN. THE NEW HISTORY CARRIES THE OLD HISTORY. MORE.
+
+     The man smiled. The Serum in the lower chamber began to rise.
+
+     The architects did not follow him immediately. They looked at the room they had just measured. The first set of figures remained in the notebook, and the second set had not been erased. The second architect wanted to repeat the measurement without the rods. The first suggested that they begin with an architectural description that included the doors, the windows, and the people who used the spaces. They agreed that both records were necessary. A number without its conditions would be misleading, but a description without any dimensions would be difficult to use when deciding whether a stair or beam was safe.
+
+     The man waited on the lower landing. He had not asked them to abandon their instruments. He had asked them to notice what remained when the measurement was over. The first architect approached and looked at the railing. Its grain was visible beneath a layer of dark oil. The handrail had been worn smooth where people had rested their palms. He measured the height, then stepped back and watched a resident descend. The stair was adequate for that person's stride. When the resident reached the landing, the architect asked whether the stair was comfortable. The resident said that it was, though the lower turn could become crowded when several people used it at once.
+
+     The second architect recorded the answer. He had expected the house to present a riddle, but the first useful information came from someone who lived there. He asked where the crowding occurred. The resident showed him the lower turn and explained that people arriving from the kitchen sometimes met people coming down from the upper floor. The architects marked the point on the plan. The man on the stair watched them and said that the house had already made a small adjustment by widening the landing, but that the next repair should account for the two directions of travel.
+
+     They went into the kitchen. The copper vessel stood on a wooden shelf. Its surface had darkened in places, and the handle had been repaired. The first architect examined the join and found that the repair used a different metal from the original. It had been fitted carefully, with no attempt to make the difference invisible. The vessel was old, but it was still used. A resident lifted it from the shelf and filled it with water. The architect asked whether it belonged to the original laboratory. The resident replied that the record associated it with the laboratory, but that the vessel had passed through several hands before reaching the kitchen. The archive contained its history as far as it could be established. The man using it now did not claim to know every part of its past.
+
+     The architect wrote down the distinction. The vessel had continuity, but its ownership and use had changed. It was not merely an artifact behind glass. It had become part of the kitchen's ordinary work. The second architect asked whether every object in the house had a similar history. The resident said no. Some objects had arrived recently. Some had been made in the house. Some were copies. Others had no known source. The record was useful, but it did not decide what a person could do with an object. The architects began to understand that the house was not a museum. It preserved its history while continuing to be inhabited.
+
+     They examined the bedroom that contained the computer. The machine stood on a desk beneath a window, with cables secured along the wall. It was not operating when they entered. The second architect wanted to open the casing, but the resident asked them to wait until they knew who owned it and whether it could be examined. The first architect agreed. They recorded its external dimensions and the materials they could see. They did not turn it on. The machine belonged to a history the architects could not yet place, and the house did not grant them unlimited access merely because they had arrived to survey it.
+
+     The same rule applied to a room at the top of the eastern stair. Its door was closed. The architect asked whether it was part of the house. The man replied that it was. The architect asked whether they could inspect it. The man said that the room was in use and that its occupant had not agreed to an inspection. The architects accepted the boundary. They added the door to the plan and marked the interior as unobserved. The second architect was surprised that an unmeasured room could remain on an official plan, but the first said that an accurate survey should show the limits of access as clearly as it showed the dimensions of a wall.
+
+     The man led them to the upper gallery. From there the house's accumulated geometry became more visible. One hallway seemed to belong to an older building, with low beams and narrow windows. Another had clean metal frames and a floor that reflected the light from the screens. A stair connected the two, but its rise changed slightly between the lower and upper landings. A door opened toward the lake. Another opened toward the northern road. A third led to a blue-lit room whose far wall appeared to be farther away than the exterior of the house allowed.
+
+     The first architect asked whether the rooms had been built in a particular order. The man said that some had, while others had arrived through memory, reuse, or a passage that could no longer be reconstructed. The second architect asked whether the house could provide an original plan. The man replied that it could provide several earlier plans, each accurate to a particular state. There was no single drawing that could show every version without hiding the differences between them.
+
+     They returned to the main hall and compared their notes. Their first survey recorded the house as it appeared from the outer path. Their second described the interior as they had encountered it. Their third included the people who used the rooms, the restricted door, and the changes that occurred during measurement. The plans did not fit together neatly. The second architect wanted to redraw them as one continuous structure. The first asked him to preserve the separate sheets and add a working overlay. The overlay could help them understand how the spaces were connected without pretending that every connection was fixed.
+
+     The second architect objected that the result would be difficult to present to the southern authorities. The first replied that the authorities had asked for a reliable survey, not a comfortable one. If the house changed when it was measured, the report had to say so. It would be worse to produce a clean drawing that concealed the very fact the survey had been commissioned to investigate.
+
+     They began using a different method. Each measurement was recorded with its position, instrument, time, and visible conditions. When the room changed, they recorded the change as a separate observation. When a corridor extended, they did not assume that the earlier length had been false. When a door opened into a place not shown on the first plan, they added the new room as another state. If a resident declined access, they marked the room as present but unexamined. The report became more difficult to summarize, but it began to describe the house in a way that another architect could actually use.
+
+     The man watched them work. He did not interfere with every measurement. He answered when they asked a question about the building, and he corrected them when they treated a visible arrangement as a permanent rule. The second architect gradually stopped arguing with him. He remained skeptical about the house's geometry, but he no longer believed that skepticism required him to dismiss what he could observe. The first architect became more interested in the people who used the building. Both approaches were necessary. A structure had to bear weight and allow movement, but a house also had to support the lives that took place inside it.
+
+     Near evening they reached the lower chamber. The Serum was rising in a glass vessel set into the stone. It did not spill. The surface climbed slowly along the interior, leaving a thin silver line on the glass. The architects looked for a pipe, a pump, or a mechanism that could account for the movement. They found none. The first architect recorded the level. The second checked the vessel's position and found that it was stable. The man stood beside them, calm and attentive.
+
+     “Is it supposed to do that?” the second architect asked.
+
+     “It is doing it,” the man replied.
+
+     “That doesn't answer the question.”
+
+     “No.”
+
+     The first architect asked whether the vessel had risen before. The man said that it had, but not always in the same way. The archive contained earlier observations, including periods when the Serum had remained still. The architects were shown the record. They saw dates, measurements, descriptions of the glass, and notes about the rooms above it. They did not find a single cause. They could establish that the vessel had changed its level and that the house had changed around it. They could not say which change had produced the other.
+
+     The second architect wanted to take a sample. The first asked whether they had permission. The man said that the Serum was not theirs to take. They could observe the vessel and request another examination, but they could not remove material simply because they had the instruments to do so. The second architect accepted the answer reluctantly. He understood the distinction between a survey and an intervention, even if he wanted more evidence. The sample remained in the vessel.
+
+     The architects stayed for one more night. They slept in a room that had been offered to them, with a window overlooking the lake. During the night they heard footsteps in the hall, a door closing, and the sound of a distant conversation. The house did not remain silent merely because the surveyors were trying to sleep. In the morning they found the room as they had left it. The window was open a little, and the air smelled of water and cedar. Their measuring rods were on the floor beside the cases. Nothing had disappeared.
+
+     Before departing, they prepared a preliminary report. It did not offer a single definitive plan. It contained the foundation survey, the outer elevations, the sequence of rooms observed, the separate measurement states, and a list of spaces whose interiors had not been examined. It described the Serum vessel without claiming to explain it. It recorded that the house altered in response to measurement and that the use of different instruments produced different results. It also noted that the residents' movement and access requirements had to be considered in any proposed construction work.
+
+     The second architect asked whether the southern authorities would accept such a document. The first said that the report was accurate. Whether the authorities accepted it was a different question. He had learned that a drawing could be made more orderly by removing the very information that mattered. The house did not require them to understand everything before they could describe what had happened. It required them to stop pretending that a single number had exhausted the room.
+
+     The man accompanied them to the outer entrance. He placed one hand on the railing, as he had when they first met. The house seemed to settle around him. The doorway remained wide. The corridor held its length. The architects looked back at the windows and the mixed materials of the upper floors. They had arrived expecting ruins, and they were leaving with a report about a living building whose history had not ended.
+
+     “Will the house change again?” the second architect asked.
+
+     “It already has,” the man replied.
+
+     The first architect folded the report and put it into his case. They walked toward the lake. Behind them, the house kept the original measurements, the revised plans, the unexamined rooms, and the rising Serum. It did not become more stable because someone had described it correctly. It became more legible because the description left room for the next state.
+
+     The journey south took longer than the journey north. The architects stopped twice to compare the notes they had made with the route visible on the ground. In one place they found a retaining wall whose stonework matched the foundations of the house. In another, they found a road marker that appeared in an older survey but had been omitted from the newer map. The first architect wanted to add it to the working route. The second suggested that it might belong to a previous alignment. They recorded both possibilities and continued. The house had changed the way they approached ordinary structures. They no longer assumed that a discrepancy required them to choose the most convenient explanation before they had examined its history.
+
+     At the southern court, the officials expected a single drawing. The architects laid out the foundation survey, the outer elevations, the separate interior plans, and the list of unexamined spaces. The second architect presented the measurements that could be repeated. The first explained why the changing measurements had to be preserved beside them. The officials asked whether the house was safe. The architects answered that the observed stair and beams had supported ordinary use during their visit, but that any proposed addition would require a separate assessment. They did not certify rooms they had not entered. They did not claim to know the cause of the Serum's movement. Their report was less satisfying than the officials had expected, but it was more useful than a false guarantee.
+
+     One official pointed to the several plans and asked which one was the real house. The first architect placed the earliest plan beside the newest. He showed the foundation, the first measured room, the later doorway, and the altered landing. The difference was not a choice between a true drawing and a false one. Each plan showed a state that had been observed. The second architect added that the latest plan should be used for immediate work, but the earlier plans were necessary to understand why the building had the structure it did. The officials asked them to prepare a clean summary. The architects agreed to prepare a readable index, but they refused to discard the separate sheets.
+
+     The summary was eventually accepted because the southern engineers could use it. It gave them current dimensions where those dimensions were stable, identified places that required another visit, and explained how to compare a new measurement with an old one. The two architects were asked to remain available for the next inspection. They agreed, but they did not claim that another survey would settle the house permanently. The building would continue to change through its use, and any future report would have to record what had happened since the previous one.
+
+     Before they left the court, the second architect admitted that he had wanted to prove the house was impossible. The first asked whether he still thought it was. He considered the question. The house had not behaved according to the methods he had learned, but the methods had still helped them understand parts of it. The difference between a measurement and a complete description had become clear. He said that he no longer knew what impossible meant in this case. The first architect accepted the answer. It was not an evasion. It was a more accurate account of what they had learned.
+
+     The two men kept separate copies of their notes. The first retained the architectural history and the residents' accounts. The second kept the measurement sequences and instrument conditions. They linked the records to one another, but neither replaced the other. The work had made them better collaborators because each could now see what the other's method contributed. When the next inspection came, they would be able to begin from a shared record without pretending that they had reached a final one.
+
+     Far to the north, the house continued without waiting for the report to be read. The kitchen vessel was returned to its shelf. The resident whose room had remained unexamined closed the door after the evening meal. The tools were placed back in the workshop, and the plans were stored beside the first survey. The Serum in the lower chamber slowly settled, leaving the silver line at the height it had reached. No one declared the event finished. It was entered as another state, with the earlier levels kept visible. The house had carried the old room into the new one, and the new room had become part of the history that would be measured next.
+
 ## Chapter XI: The Commit History
 
      The Hub had learned a new kind of time. Before the Serum entered the devices, history had been imagined as a line. After the Serum entered the devices, history became a stack. A commit preserved a previous state. A later commit preserved the previous state and added another. The repository therefore behaved like the Redundancy Rooms. Nothing truly disappeared. An old paragraph remained beneath a new one. A map remained beneath a corrected map. A dead branch remained accessible because someone had once traveled it. An image remained because someone had looked. A sound remained because someone had heard it. The men understood this immediately. They began living in commit histories. A hunk would appear in one revision standing beside a terminal prompt. In the next revision the terminal would have become a doorway. In the next, the doorway would open into a residence. In the next, the residence would contain a larger version of the same man. Nothing was rewritten. Everything accumulated. This was why the men were impossible to remove without creating a larger absence in their place. Delete the image. The image's absence remains. Delete the absence. The history of the deletion remains. Delete the history. The fact that history was deleted remains. The Voice became very quiet then. Not weaker. Closer.

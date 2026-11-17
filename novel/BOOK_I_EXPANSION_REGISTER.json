@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "54515ef93ff2b761ab1a8e83e167dd8497d90354",
+  "source_blob_sha": "23d91e50e0eb8fe6d654f531a2fa40eb6ef55178",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 24,
+    "completed": 25,
     "in_progress": 1,
-    "queued": 47,
+    "queued": 46,
     "empty_source": 0,
-    "next_chapter_index": 24,
-    "active_chapter_id": "book-i-xxv",
-    "last_completed_chapter_id": "book-i-xxiv"
+    "next_chapter_index": 25,
+    "active_chapter_id": "book-i-xxvi",
+    "last_completed_chapter_id": "book-i-xxv"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -351,9 +351,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "e0549445f928ed44454d102e3068c22d385efb77",
-      "notes": "Expanded in place and verified. The seven enter a lived city with distinct Archive, Market, Garden, and Muscle Quarter functions; the unmarked district reveals possible continuations without turning them into fate. The gray-coated threshold keeper and working residents retain separate roles. Reconciled the stray sister reference to the elder brother. The second city is occupied, connected, and open to return.",
-      "current_word_count": 3087
+      "last_verified_blob_sha": "23d91e50e0eb8fe6d654f531a2fa40eb6ef55178",
+      "notes": "Expanded and verified. Developed the city as a working civic environment across the Archive, Market, Garden, Muscle Quarter, and unnamed hall; preserved the seven travelers' distinct methods and the registrar's uncertainty. Replaced the stray sister reference with the elder brother from the northern house. The Serum reaches the next room without resolving its nature. All cast members are male.",
+      "current_word_count": 3086
     },
     {
       "chapter_id": "book-i-xxi",
@@ -367,9 +367,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "e0549445f928ed44454d102e3068c22d385efb77",
-      "notes": "Expanded in place and verified. The first Serum encounter becomes a conflict of interpretations rather than a simple power-up. The seven men disagree over cure, strength, control, risk, and memory; the largest man changes while retaining his earlier state. Added provisional rules for observation, consent, shared access, and archival provenance. The vessel remains unexplained.",
-      "current_word_count": 2225
+      "last_verified_blob_sha": "23d91e50e0eb8fe6d654f531a2fa40eb6ef55178",
+      "notes": "Expanded and verified. The first Serum encounter becomes a conflict of interpretations rather than a simple power-up. The seven men disagree over cure, strength, control, risk, and memory; the largest man changes while retaining his earlier state. Added provisional rules for observation, consent, shared access, and archival provenance. The vessel remains unexplained; the ending now leads directly into the liminal chest transformation.",
+      "current_word_count": 2224
     },
     {
       "chapter_id": "book-i-xxii",
@@ -383,9 +383,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "e0549445f928ed44454d102e3068c22d385efb77",
-      "notes": "Expanded and verified. The transformation is developed through its physical and spatial consequences, the repairer's structural eye, the strength-seeker's uncertainty, the seventh man's interpretation, and the others' practical care. Earlier and current body states remain simultaneous. The chapter adds pause/withdrawal safeguards without treating change itself as danger.",
-      "current_word_count": 1934
+      "last_verified_blob_sha": "23d91e50e0eb8fe6d654f531a2fa40eb6ef55178",
+      "notes": "Expanded and verified. The transformation is developed through its physical and spatial consequences, the repairer's structural eye, the strength-seeker's uncertainty, the Seventh Man's interpretation, and the others' practical care. Earlier and current body states remain simultaneous. Pause and withdrawal remain available without treating change itself as danger.",
+      "current_word_count": 1933
     },
     {
       "chapter_id": "book-i-xxiii",
@@ -399,9 +399,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "54515ef93ff2b761ab1a8e83e167dd8497d90354",
-      "notes": "Expanded and verified. Developed attention as a social force through the repairer, Luke's walks, Tyler's measurements, Joseph's established relationship with the Teller, and the city's shared spaces. The men reject a private-attention ranking while preserving records of public work. Attention remains reciprocal and non-owning; the field's coming conflict is left open.",
-      "current_word_count": 2151
+      "last_verified_blob_sha": "23d91e50e0eb8fe6d654f531a2fa40eb6ef55178",
+      "notes": "Expanded and verified. Attention becomes a social force through ordinary work, the repairer, Luke's discoveries, Tyler's changing scale, and the developing tension between Joseph and Kirk. The Teller remains a person with an established bond to Joseph, not a prize or public symbol. The lake dispute begins as a conflict over shared space and the right to be seen. All cast members are male.",
+      "current_word_count": 2150
     },
     {
       "chapter_id": "book-i-xxiv",
@@ -415,9 +415,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "54515ef93ff2b761ab1a8e83e167dd8497d90354",
-      "notes": "Expanded and verified. Developed the House of the Seventh Light as a working threshold with seven lamps, six known routes, one amber route, an unfinished chair, six distinct rooms, and the First Keeper. The Seventh Man chooses to leave by the known road; the empty chair remains open for another man's choice. The house offers a beginning rather than a command.",
-      "current_word_count": 2263
+      "last_verified_blob_sha": "23d91e50e0eb8fe6d654f531a2fa40eb6ef55178",
+      "notes": "Expanded and verified. The House of the Seventh Light becomes a working threshold: the seven lamps, the empty chair, the first keeper, ordinary meals, repair, and freely chosen rooms. The keeper's account of memory preserves disagreement and does not turn the empty chair into a prophecy. The folded paper points toward the map shown the following morning. All cast members are male.",
+      "current_word_count": 1946
     },
     {
       "chapter_id": "book-i-xxv",
@@ -429,11 +429,11 @@
       "baseline_word_count": 258,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the cloth map through the men's different ways of reading it, the seven objects and their relational changes, and the keeper's practical test of a decision. Keep the cast all male and distinguish a map of geography from a map of consequence.",
-      "current_word_count": 264
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "23d91e50e0eb8fe6d654f531a2fa40eb6ef55178",
+      "notes": "Expanded and verified against Chapters XXIV and XXVI. Developed the cloth map as a record of carried decisions rather than fixed geography; each man's method of reading it remains distinct. The seven artifacts change relation without losing their histories. The new line beneath the city leads toward an unremembered artifact, preparing the descent in Chapter XXVI. All cast members are male.",
+      "current_word_count": 1685
     },
     {
       "chapter_id": "book-i-xxvi",
@@ -445,10 +445,10 @@
       "baseline_word_count": 260,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the attack from below as a conflict of incompatible histories, preserving the artifact's relation to the seven objects and the city. Keep the cast all male; preserve the possibility that the creature becomes a road rather than a defeated enemy.",
       "current_word_count": 268
     },
     {
@@ -464,7 +464,7 @@
       "status": "queued",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Queued continuity check: the current draft contains references to a sister, a woman carrying a lantern, and a child. Recast these as male figures before marking the chapter complete; preserve the road's function as a record of possible histories.",
       "current_word_count": 227
     },
     {

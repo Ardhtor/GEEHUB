@@ -559,9 +559,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "3df92c7c3147a2e4d566638ae3d4744e93df03ac",
+      "last_verified_blob_sha": "9eb25c93e1252c29daa6f416a40bfcb6d2d35965",
       "notes": "Expanded and verified against Chapters XXXII and XXXIV. Ansel leads the travelers into the chamber of the first arrivals. The six men have distinct accounts of the earlier world's mistakes; the empty seventh chair remains unclaimed, and the central space is understood as a relation rather than a seat. The travelers cross toward the City Beneath the Forest without trying to be first. All cast members are male.",
-      "current_word_count": 1180
+      "current_word_count": 1179
     },
     {
       "chapter_id": "book-i-xxxiv",
@@ -576,8 +576,8 @@
       "status": "completed",
       "revision_count": 1,
       "last_verified_blob_sha": "9eb25c93e1252c29daa6f416a40bfcb6d2d35965",
-      "notes": "Expanded and verified at 1,607 words. The city is developed as a reciprocal environment built into an ancient living organism, with the men maintaining its channels, paths, supports, and records. Ansel cautions against confusing attention with understanding; the Teller senses the organism without claiming to interpret it. The chapter ends with the organism noticing the travelers and a deeper route beginning to open. All figures are male.",
-      "current_word_count": 1607
+      "notes": "Expanded and verified against Chapters XXXIII and XXXV. The city is developed as a reciprocal environment built with a living organism: memory changes streets, repair work follows the organism's movement, and the residents maintain rather than worship it. The organism notices the travelers and begins to form a word. All cast members are male.",
+      "current_word_count": 1606
     },
     {
       "chapter_id": "book-i-xxxv",
@@ -589,10 +589,10 @@
       "baseline_word_count": 290,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the organism's first test: separation of memory and relationship. Preserve the men's different recollections, Joseph and the Teller's shared awareness, and the principle that continuity must be actively carried. Keep all cast members male.",
+      "notes": "Next canonical chapter. Develop the organism's first test as relational separation rather than physical attack. Preserve the men's individual memory anchors, Joseph and the Teller's chosen contact, and the word 'Continuance'. Keep all cast members male.",
       "current_word_count": 296
     },
     {

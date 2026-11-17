@@ -623,9 +623,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "462b8d4860172606e59cb2d13aaf777276cafc8b",
+      "last_verified_blob_sha": "396a95622fdea18a05830cbcda56e0deec622919",
       "notes": "Expanded and verified against Chapters XXXVI and XXXVIII. The country wakes through a reciprocal act of recognition; the men respond through observation, repair, care, and the Teller's chosen answer. The first room appears on the Digitorium screens, and Joseph distinguishes remembering the organism from being remembered by it. 'Continuance' becomes clear. All cast members are male.",
-      "current_word_count": 1078
+      "current_word_count": 1077
     },
     {
       "chapter_id": "book-i-xxxviii",
@@ -640,8 +640,8 @@
       "status": "completed",
       "revision_count": 1,
       "last_verified_blob_sha": "396a95622fdea18a05830cbcda56e0deec622919",
-      "notes": "Expanded and verified at 1,412 words. The Archive Beneath the Skin is shown as a living record of attention, not a complete history. The men encounter distinct preserved moments and blank regions where no relation was carried forward. Luke's box becomes a source of pathways; Joseph and the Teller retain their separate memories; the empty chair remains unresolved. Recast the prior child references as adult male figures. All cast members are male.",
-      "current_word_count": 1495
+      "notes": "Expanded and verified against Chapters XXXVII and XXXIX. The archive preserves moments as relationships rather than detached images; Luke's box, Tyler's records, Kirk's repairs, Bill's table, and Joseph's shared history with the Teller remain distinct. The existing husband line is preserved. Replaced the child reference with adult male apprentices; the blank regions remain unresolved. All cast members are male.",
+      "current_word_count": 1494
     },
     {
       "chapter_id": "book-i-xxxix",
@@ -653,10 +653,10 @@
       "baseline_word_count": 264,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop Cael's return from the edge, preserving his plain manner, his discovery of another relationship, and the distinction between going farther and going deeper. Keep all cast members male.",
+      "notes": "Next canonical chapter. Develop Cael's return from beyond the apparent edge, distinguish him from the Seventh Man and the photograph's missing man, and preserve his central insight: depth comes from connection, and the next question is who is missing. Keep all cast members male.",
       "current_word_count": 270
     },
     {

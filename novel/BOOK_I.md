@@ -5738,9 +5738,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXV: The Keeper's Map
 
-     The keeper's map was made from cloth.
-
-     It covered the entire table and seemed at first to contain only a blank field. When the keeper poured water onto it, roads appeared. When he removed the water, the roads remained for several minutes before fading.
+     The keeper's map was made from cloth. It covered the entire table and seemed at first to contain only a blank field. When the keeper poured water onto it, roads appeared. When he removed the water, the roads remained for several minutes before fading.
 
      “The map cannot show a place until somebody has carried something there,” he explained.
 
@@ -5799,6 +5797,188 @@ The architects had been sent north with a letter of instruction and a set of ins
      Outside, the seventh amber lamp went dark.
 
      The house had finished its lesson.
+
+     The cloth map was carried back into the main room. The keeper spread it across the table and weighted its corners with four smooth stones. Its surface was thick, pale, and slightly rough beneath the hand. No lines were visible. There were no borders, names, or measurements. The men could see the weave of the cloth and the places where it had been repaired. A narrow seam ran from one edge toward the center, then stopped.
+
+     Tyler examined the seam. “Was this made in sections?”
+
+     “It was made in use,” the keeper said.
+
+     “That isn't the same thing.”
+
+     “No. But it is how this map was made.”
+
+     The keeper poured water from a small copper vessel. The water spread across the cloth and settled into its fibers. Lines appeared beneath it. Some were straight. Others bent around dark patches. A few ended at the edge of the table. One ran toward the center and stopped beneath the brass key.
+
+     Kirk leaned closer. “The water is showing the weave.”
+
+     “It is showing where the cloth remembers pressure.”
+
+     “Pressure from what?”
+
+     “From what has been carried.”
+
+     Bill touched the edge of the table. “Then the map is a record of use.”
+
+     The keeper nodded. “And of what use made possible.”
+
+     The men examined the first line. It began near the lower edge, passed through a pale patch, and ended beside a dark mark. The keeper asked them what they thought it represented. Tyler wanted to measure it. Kirk wanted to identify the dark mark. Luke wanted to follow it. Joseph asked whether it belonged to one man or several.
+
+     “It belongs to the men who carried something along it,” the keeper said.
+
+     “Which men?” Luke asked.
+
+     “The map will show you when you bring the right object.”
+
+     The brass key lay on the table. It was old, with a narrow shaft and a broad head worn smooth by repeated handling. Luke picked it up. The lines on the cloth shifted. A road appeared from the lower edge and passed toward the center. The other objects moved in relation to it, though none changed position on the table. The black stone became the weight at the road's beginning. The folded map became a turn. The blank paper became a place where the route could continue. The red glass marked a point beyond the table. The wooden handle indicated a door. The metal stop from the Sacred Fountain became the boundary of a crossing.
+
+     “The key starts it,” Luke said.
+
+     “The key opens something,” Tyler replied. “That isn't necessarily the beginning.”
+
+     The keeper watched them. “You are both describing part of it.”
+
+     Kirk asked whether the key had to be held by Luke. The keeper said that it had been held by many men. The map did not preserve ownership. It preserved the relation between the key and the doors it had opened. Luke put it down. The lines remained for a moment, then began to fade.
+
+     Tyler placed the folded map beside the cloth. The water gathered into a second route. This one did not follow the first. It crossed it, then continued toward the far corner. Tyler unfolded the paper map and compared the two. The cloth showed a route that had been used. The paper showed a route that had been measured. They were not the same. Tyler noticed that the measured route crossed a place where the cloth showed no pressure.
+
+     “The survey says this road exists,” he said.
+
+     “It does,” the keeper replied.
+
+     “But nobody carried anything along it.”
+
+     “Not yet.”
+
+     Tyler looked again. The map did not contradict his survey. It described another condition. A road could exist without having become part of a man's journey. The cloth map did not show every available route. It showed the routes that had acquired consequence.
+
+     Kirk lifted the black stone. It was heavier than it looked. Its surface was dark and smooth, with a pale line running through the center. When he placed it on the cloth, the first route bent slightly. The key shifted in the map's relation to it. The road now passed through a place marked by a small circle.
+
+     “What does the stone mean?” Kirk asked.
+
+     “What did it do when you carried it?”
+
+     Kirk thought for a moment. He had found it near the northern road, before the city had been built. He had used it to hold down a map in a strong wind. Later, he had carried it to the workshop, where its weight had kept a warped board flat while the wood dried. It had become a tool without losing the memory of where it had been found.
+
+     “It held something in place,” he said.
+
+     “Then the map knows that.”
+
+     The line on the cloth settled. The road no longer bent toward the circle. It passed through it. Kirk returned the stone to its place. He did not want to make it a symbol that erased its ordinary uses. The keeper approved. An object could carry several histories without needing to become an emblem.
+
+     Joseph placed the blank paper on the map. The water moved toward it, then spread beneath its edge. A new line appeared, but it had no fixed end. It extended beyond the cloth and vanished. Joseph did not touch it.
+
+     “What has been carried there?” he asked.
+
+     “Nothing yet.”
+
+     “Then why does the line appear?”
+
+     “Because a man has decided to go.”
+
+     Joseph looked at the keeper. “Is that enough?”
+
+     “It is enough for a beginning.”
+
+     The largest man placed the wooden handle beside the blank paper. The handle had belonged to a door in the first house. It had been removed when the door was repaired, then kept in the workshop because its grain was unusually straight. The map showed a doorway near the end of the new line. The handle did not identify the room beyond it. It showed only that a door had once been used and that another door might be opened.
+
+     Bill examined the metal stop from the Sacred Fountain. It was small and worn, with a groove along one edge. It had once prevented a gate from swinging too far. Bill placed it beside the crossing marked on the cloth. The route stopped. A second route appeared around the mark.
+
+     “It changes the way through,” he said.
+
+     “It limits the movement,” the keeper replied.
+
+     “Sometimes that is what keeps a passage usable.”
+
+     The keeper nodded. “A boundary can protect a route without owning it.”
+
+     The red glass remained on the shelf. The Seventh Man had not touched it. Its surface caught the light from the amber lamp, though the lamp outside had gone dark. The keeper asked whether anyone knew where it came from. Luke said that he had seen a similar piece in the future city. Tyler said that the archive listed it as an object from a branch whose source had not been verified. Kirk thought it might have come from a window. Joseph said that it looked like a piece of light that had become solid.
+
+     “All possible,” the keeper said.
+
+     The Seventh Man picked it up. The cloth map changed. The lines did not extend outward. They gathered around the center, forming a small room. The room had no door. The Seventh Man set the glass down.
+
+     “It remembers the place it came from,” he said.
+
+     “Do you know the place?” Joseph asked.
+
+     “I know the light.”
+
+     “Is that enough?”
+
+     “For now.”
+
+     The keeper poured another measure of water. The map now showed several routes crossing. The men could see the old house, the lake, the city, the forest, and the house of the seventh light, though none appeared as a conventional drawing. Each place was represented by the pressure left by an object or a decision. The map was not an image of the world. It was an image of the relationships that had made certain routes possible.
+
+     Tyler tried to measure the distance between the marks. The numbers changed when he moved the ruler. He put it down.
+
+     “The scale is not fixed.”
+
+     “It is not a map for measuring distance,” the keeper said.
+
+     “Then how do we know where to go?”
+
+     “You know what you have carried. You know what you intend to carry. The route appears between them.”
+
+     Luke looked at the line that ran beyond the cloth. “So we choose something and see where it goes.”
+
+     “You choose what you are willing to be responsible for.”
+
+     Bill looked at the objects. “And if we choose badly?”
+
+     “Then the map will show what followed.”
+
+     Joseph folded his hands. “It won't stop us.”
+
+     “No.”
+
+     The keeper did not offer a promise of safety. He offered a record of consequence. The men could decide whether to follow a route, but the map would not make the decision harmless. It would show where the choice had led and what had been carried along the way.
+
+     The largest man moved the black stone away from the cloth. The route changed. The crossing disappeared. He returned the stone to its place. The crossing returned. He did this once more, then stopped.
+
+     “It is not predicting,” he said.
+
+     “No,” the keeper replied. “It is remembering the conditions under which a path can be made.”
+
+     Kirk looked at the map. “Then it can help us prepare.”
+
+     “It can help you notice what you are preparing.”
+
+     The men stood around the table. Luke wanted to follow the line beyond the cloth. Tyler wanted to record the current arrangement. Kirk wanted to make a portable case for the objects. Bill wanted to know who would carry them. Joseph wanted to know whether the route was shared. The largest man asked whether the map could be folded without losing its lines.
+
+     “It can,” the keeper said. “But the lines will fade until water is brought again.”
+
+     “Then we need the water too.”
+
+     “Yes.”
+
+     The men made a small case from dark timber. Kirk shaped the compartments so that each object could be carried without striking the others. Bill chose a strap that could be repaired. Tyler recorded the arrangement and the order in which the objects had been placed. Joseph wrote the purpose of the map in the blank paper: not to tell a man where to go, but to show what a decision carried with it. Luke folded the cloth and placed it in the case. The Seventh Man kept the red glass. The largest man carried the black stone. The keeper retained the brass key until the men had chosen their first route.
+
+     Before they left, the keeper poured water onto the cloth one last time. A dark line appeared beneath the table. It ran from the house toward the lower city and then descended below the streets. The line was narrow and uneven. It did not resemble the route they had expected to follow.
+
+     Tyler leaned closer. “Where does that go?”
+
+     The keeper looked at the line.
+
+     “Under the city.”
+
+     Kirk examined the edge. “Is it a service passage?”
+
+     “It may have been.”
+
+     Bill asked whether the route was safe. The keeper said that the map did not establish safety. It showed that something had been carried there.
+
+     Luke smiled. “Then we should look.”
+
+     The largest man did not answer immediately. He watched the line beneath the cloth. It remained visible even after the water began to dry.
+
+     “We will look,” he said. “But we will take the tools and leave a way back.”
+
+     Tyler recorded the decision. Kirk checked the case. Bill took the water vessel. Joseph folded the paper and placed it beside the map. The Seventh Man stood by the door. The keeper handed the brass key to Luke.
+
+     The men left the house of the seventh light by the lower passage. The amber lamp above the entrance remained dark. The route beneath the city had appeared, and they had chosen to follow it.
+
+     The map had not told them what they would find. It had shown them what their decision had begun to carry.
 
 ## Chapter XXVI: The Battle Beneath the City
 

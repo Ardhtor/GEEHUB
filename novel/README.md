@@ -67,3 +67,9 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [`UNRELATED_NARRATION_RULE.md`](./UNRELATED_NARRATION_RULE.md)
 - [`VISUAL_EXPERIENCES_THE_CONVERGENCE.md`](./VISUAL_EXPERIENCES_THE_CONVERGENCE.md)
 - [`WORLDS.md`](./WORLDS.md)
+
+
+## Whole-manuscript expansion
+
+- [Chapter Expansion Protocol](./CHAPTER_EXPANSION_PROTOCOL.md) — defines the global chapter-by-chapter revision operation.
+- [Book I Expansion Register](./BOOK_I_EXPANSION_REGISTER.json) — tracks all 72 chapter headings in *The Road of Seven Wells*, Book I, including current baseline lengths and revision status.

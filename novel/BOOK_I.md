@@ -6580,41 +6580,109 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXXI: The Door
 
-     The door did not lead somewhere. It led through. That distinction became important the moment Luke crossed the threshold. He stopped with one foot inside the darkness and one foot still in the House, and for several seconds nothing happened. There was no wind, no sound, no revelation waiting politely on the other side. The darkness simply remained, vast and apparently patient. Tyler moved beside him.
+     The door did not lead somewhere. It led through. That distinction became important the moment Luke crossed the threshold. He stopped with one foot inside the darkness and one foot still in the House, and for several seconds nothing happened. There was no wind, no sound, no revelation waiting politely on the other side. The darkness simply remained, vast and apparently patient.
 
-     “You going?”
+     Tyler moved beside him. “You going?”
 
-     Luke said,
+     Luke looked into the dark. “I'm already here.”
 
-     “I'm already here.”
+     Joseph remained behind them with the Teller. The House was still visible through the open door. The amber lamp burned above the entrance, and the seventh light held its white glow.
 
-     Joseph remained behind them with the Teller.
-
-     “Then don't forget where you came from.”
+     “Then don't forget where you came from,” Joseph said.
 
      Luke looked back. The House stood behind them exactly as it had for years and not at all as it had when they first entered it. Its windows contained forests. Its walls carried photographs. Its upper rooms were somewhere above the visible architecture. The original room was still there, buried beneath every later room like a seed beneath a tree. Luke nodded.
 
      “I won't.”
 
-     They crossed. The first sensation was pressure. Not physical pressure. Historical pressure. The feeling of entering a place where something had been happening before you arrived. The darkness opened. Trees appeared. Not the redwoods they knew, although they resembled them. These trunks were pale and enormous, their bark marked with horizontal bands like layers of handwriting. Their branches disappeared into a ceiling of amber fog. Between the trees were paths, but none of the paths seemed to have been made by feet. Tyler looked around.
+     He crossed. Tyler followed, carrying the map. Kirk checked the threshold before stepping through. Bill secured the provisions and made sure the door remained open. The largest man waited until the others had crossed, then entered without touching the frame. The Seventh Man stood for a moment between the House and the darkness. He seemed to be listening to two places at once.
 
-     “This isn't empty.”
+     Joseph and the Teller crossed together. Their hands met briefly, then separated as they entered the dark. The door did not close behind them. The House remained visible, but its light no longer reached the ground.
 
-     “No,”
+     The first sensation was pressure. Not physical pressure. Historical pressure. The feeling of entering a place where something had been happening before you arrived. The darkness opened. Trees appeared. Not the redwoods they knew, although they resembled them. These trunks were pale and enormous, their bark marked with horizontal bands like layers of handwriting. Their branches disappeared into a ceiling of amber fog. Between the trees were paths, but none of the paths seemed to have been made by feet.
 
-     said Joseph. The Teller stepped forward. The ground beneath him gave a quiet mechanical sound. A line of light appeared in the soil. Then another. Then another. The lines formed a map. Luke crouched.
+     Tyler looked around. “This isn't empty.”
 
-     “There are streets.”
+     “No,” said Joseph.
 
-     Tyler stared.
+     The Teller stepped forward. The ground beneath him gave a quiet mechanical sound. A line of light appeared in the soil. Then another. Then another. The lines formed a map, though they did not point north or mark a distance. They followed the roots, crossed beneath the trees, and joined at places where no path could be seen.
 
-     “Under the forest?”
+     Luke crouched. “There are streets.”
 
-     Luke touched the glowing line.
+     Tyler stared. “Under the forest?”
 
-     “Not under it.”
+     Luke touched the glowing line. “Not under it.”
 
-     The line moved. The forest moved with it. The map was not showing what lay beneath the trees. It was showing what the trees remembered. Far away, something rang. Once. Every man became still. Then the sound came again. Three notes. A bell. A city had heard them arrive.
+     The line moved. The forest moved with it. A trunk shifted several inches, not by bending but by changing where it stood in the arrangement of the land. The map was not showing what lay beneath the trees. It was showing what the trees remembered.
+
+     Kirk examined the bark. The horizontal bands were not marks cut into the surface. They were changes in the grain, each layer a record of a different period of growth. He placed his palm against the trunk and felt a faint vibration.
+
+     “The trees are carrying the roads,” he said.
+
+     The Seventh Man stood beside him. “They are carrying the journeys.”
+
+     “Can we follow them?”
+
+     “If we know what we are following.”
+
+     Bill looked back toward the door. It remained open, but the House seemed farther away than it had been. He checked the provisions and counted the men. Nobody had been left behind. He placed a small marker at the edge of the path so that they would know where the first line of light had appeared.
+
+     “We should keep a return point,” he said.
+
+     Tyler recorded the marker and its position. The map in his hands had changed. The northern road remained visible, but the line to the House had become a pale thread, running through several places at once. He could not measure the distance. He could record the order in which the connections appeared.
+
+     “The route is not stable,” he said.
+
+     “Does that mean it is unsafe?” the largest man asked.
+
+     “It means we should not pretend to know more than we do.”
+
+     Luke stood. “Then we walk and find out.”
+
+     They followed the first line between the trees. The ground was soft beneath the roots, but it held their weight. In places the path widened into a clearing. In others it narrowed until the men had to walk single file. The trees did not move out of their way. They changed the route around them, opening a passage where the roots were strongest and closing one where the soil had begun to sink.
+
+     The largest man tested each narrow section before the others crossed. He did not force the path wider. He waited for the ground to settle, then moved when it could carry him. Kirk watched the roots and found that the strongest supports were not always the thickest. Some were thin, tightly joined, and held the soil in place more securely than the larger roots nearby.
+
+     “A structure is not strong because every part is large,” he said.
+
+     The largest man nodded. “It is strong when the parts carry one another.”
+
+     They reached a rise where the forest opened onto a valley. The amber fog hung low, but through it they could see the suggestion of roofs and towers. No walls surrounded them. No road led directly down. The lines beneath the soil converged at the edge of the rise and disappeared.
+
+     Tyler looked at the map. “The lines end here.”
+
+     “Or continue somewhere we cannot see,” Joseph said.
+
+     The Teller looked toward the valley. He could feel attention coming from that direction. It was not a gaze belonging to one man. It was the pressure of a place becoming aware that it had been approached.
+
+     Far away, something rang.
+
+     Once.
+
+     Every man became still.
+
+     The sound traveled through the trees and returned from the valley. It was not an echo. The second note came from a different place.
+
+     Then the sound came again. Three notes. A bell.
+
+     Bill looked toward the House. “That was not our door.”
+
+     Tyler checked the map. The line beneath the valley had brightened.
+
+     “A city has heard us arrive,” he said.
+
+     Luke looked down through the fog. “Then let's see who lives there.”
+
+     The Seventh Man did not move. He listened to the last note until it faded.
+
+     “It is not calling us,” he said.
+
+     Joseph looked at him. “What is it doing?”
+
+     “Making room for the fact that we are here.”
+
+     The men remained on the rise until the valley became clearer. The city below was not yet visible in full, but the bell had given them a direction. Behind them, the House remained open. Ahead, the forest carried its roads toward the sound.
+
+     They began the descent.
 
 ## Chapter XXXII: The Country Without a Name
 

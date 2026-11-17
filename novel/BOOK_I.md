@@ -9344,7 +9344,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      That was the problem.
 
-     After twenty years in hyperspace, there were very few mechanisms left that could surprise them. They knew how worlds bent. They knew how memory accumulated. They knew how a room could become a question.
+     After twenty years in hyperspace, there were very few mechanisms left that could surprise them. They knew how worlds bent. They knew how memory accumulated. They knew how a room could become a question. They had learned to build without fixing every rule in advance, and to leave a world unchanged when changing it would only prove that they could.
 
      They also knew the rule.
 
@@ -9354,17 +9354,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The button stood alone in the empty room.
 
-     It was small.
-
-     Black.
-
-     Ordinary.
-
-     No pedestal.
-
-     No warning.
-
-     No label.
+     It was small. Black. Ordinary. No pedestal. No warning. No label. It was set into the floor at the exact center of the room, but there was no mark showing that the floor had been made to hold it. The surface around it was smooth. The button itself was slightly worn, as though many hands had pressed it before.
 
      Tyler walked around it.
 
@@ -9376,19 +9366,11 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Luke looked at him.
 
-     Kirk touched the floor.
+     Kirk touched the floor. “The room is new. The button isn't.”
 
-     “The room is new. The button isn't.”
+     Joseph understood. Somewhere in their twenty years, they had already encountered this moment. They simply had not reached it yet.
 
-     Joseph understood.
-
-     Somewhere in their twenty years, they had already encountered this moment.
-
-     They simply had not reached it yet.
-
-     Luke smiled.
-
-     “So we push it.”
+     “So we push it,” Luke said.
 
      Joseph shook his head.
 
@@ -9398,19 +9380,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Kirk stood.
 
-     The four of them gathered around the button.
+     The four of them gathered around the button. They had knowledge now. They had propensity. They had twenty years of accumulated consequences behind them. None of that made them cautious. It made them precise.
 
-     They had knowledge now.
-
-     They had propensity.
-
-     They had twenty years of accumulated consequences behind them.
-
-     None of that made them cautious.
-
-     It made them precise.
-
-     Luke placed one finger on the button.
+     Tyler checked the surface for a seam. There was none. Kirk examined the floor around it and found no mechanism beneath the stone. Joseph waited to see whether the room would change when they approached. Luke placed one finger on the button.
 
      Nothing happened.
 
@@ -9418,11 +9390,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The room disappeared.
 
-     Not collapsed.
-
-     Not exploded.
-
-     Disappeared.
+     Not collapsed. Not exploded. Disappeared.
 
      Every world they had visited became visible at once.
 
@@ -9438,27 +9406,21 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The Complex.
 
-     Every route they had ever made became a line.
-
-     Every line became a sentence.
-
-     Every sentence became a world.
+     Every route they had ever made became a line. Every line became a sentence. Every sentence became a world. The six geometric forms turned within the same field. The House appeared with its open doors. The Digitorium rose above the forest. The organism moved beneath the country. The empty chairs held their places. The photograph showed the men beside the Sacred Fountain, and the fifth space remained visible without being filled.
 
      Then the worlds turned toward them.
 
-     The button had not activated a machine.
-
-     It had activated the accumulated memory of play.
-
      Their twenty years came back simultaneously.
 
-     Luke saw every place he had pulled.
+     Luke saw every place he had pulled. He felt the first hill move toward him and remembered the moment he understood that bringing something closer did not make it his.
 
-     Tyler saw every doorway he had folded.
+     Tyler saw every doorway he had folded. He saw the routes that had held and the ones that had changed when he measured only their dimensions.
 
-     Kirk saw every division he had made.
+     Kirk saw every division he had made. He saw the rooms with two interiors, the joints he had repaired, and the structures that had remained sound because he had allowed them to move.
 
-     Joseph saw every moment he had waited.
+     Joseph saw every moment he had waited. He saw the events that had arrived before they happened and the choices he had refused to make on behalf of another man.
+
+     They saw the worlds that had refused them, the worlds that had asked them to stay, and the worlds they had left unchanged. None had been wasted. None had been conquered. Each had become part of the language they carried.
 
      Then they saw something none of them had done.
 
@@ -9466,15 +9428,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      It began beneath the button.
 
-     It moved outward.
-
-     Past them.
-
-     Past the worlds.
-
-     Past hyperspace.
-
-     Toward somewhere the system had never recorded.
+     It moved outward. Past them. Past the worlds. Past hyperspace. Toward somewhere the system had never recorded.
 
      Tyler stared.
 
@@ -9488,7 +9442,17 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “That's next.”
 
-     Luke pressed the button again.
+     Tyler followed the line as far as he could. It did not cross a boundary. It did not leave the world behind. It extended into a place that had not yet been connected to anything they knew.
+
+     “How can it be next if we haven't made it?”
+
+     Joseph looked at him. “Because we don't have to make everything before we can meet it.”
+
+     Luke looked at the button.
+
+     “Then we press it again.”
+
+     He did.
 
      This time, the world answered immediately.
 
@@ -9496,9 +9460,10 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The four men stepped forward.
 
-     The button remained behind them.
+     The button remained behind.
 
      Waiting for the next hand.
+
 ## Chapter LIV: Play Again
 
      They did not return to the beginning.

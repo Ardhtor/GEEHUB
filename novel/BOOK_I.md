@@ -7952,109 +7952,99 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XLIII: The Man Who Was Missing
 
-     The seventh chair was empty again when they returned to the country.
+     The seventh chair was empty again when they returned to the country. Cael was gone. There was no departure, no farewell, and no trace of where he had gone. His absence was almost casual, which made it worse. The chair had not been overturned or moved. The cup he had used was clean. The room held no sign that a man had left it.
 
-     Cael was gone. There was no departure, no farewell, no trace of where he had gone. His absence was almost casual, which made it worse. The chair remained in its place, the floor beneath it undisturbed. Ansel did not say that Cael had left. He said only that the chair was empty.
+     The men searched the city anyway. Luke checked the rooms near the Digitorium. Tyler looked through the records and found Cael's name where it had been entered, but no later reference. Kirk examined the doors and stairways. Bill asked the men who maintained the upper galleries whether anyone had seen him leave. The answers did not agree. One man remembered Cael walking toward the forest. Another remembered him sitting at the table. A third had not seen him at all.
 
-     “Will he return?” Joseph asked.
+     Joseph did not ask the Teller to interpret the absence. The Teller could feel that Cael had gone somewhere, but he could not tell whether the departure had been chosen or required. They left the question open.
 
-     “He has returned before,” Ansel replied.
+     Then Luke found a door that had not been there before. It was narrow and unfinished, built between two buildings in a part of the Digitorium none of them remembered entering. The frame had no trim. The lower hinge was visible, but the upper hinge disappeared into the stone. It looked like a door made before anyone had decided what kind of room it would protect.
 
-     “That isn't an answer.”
+     Luke tried the handle. It turned easily.
 
-     “No.”
+     “This wasn't here yesterday,” Tyler said.
 
-     The men searched the city anyway. They found Cael's name nowhere. The six men from the upper chamber had no account of his departure. One remembered speaking with him after the first test. Another remembered the chair being occupied. A third remembered the room before Cael had entered it. Their accounts did not agree, but none of them claimed that Cael had been taken.
+     “No,” Luke replied.
 
-     Luke found a door that had not been there before. It was narrow and unfinished, built between two buildings in a part of the Digitorium none of them remembered entering. The frame was plain timber. One side had been sanded smooth. The other still carried the marks of a tool.
+     “Then why can you open it?”
 
-     Tyler checked the map. “This passage isn't recorded.”
-
-     “Then record it,” Luke said.
-
-     Kirk examined the frame. It had been built into the space between two walls without cutting through either. The joint was clean. Whoever had made it had left the surrounding structure intact.
-
-     “It was fitted into a gap,” he said.
-
-     “A gap that wasn't here yesterday,” Bill replied.
-
-     “That doesn't make the work careless.”
-
-     Luke opened the door.
+     “Because it's here now.”
 
      Behind it was a room containing hundreds of chairs.
 
      Every chair was empty.
 
-     They stood in rows that extended farther than the building could contain. Some were made from oak. Others were stone, metal, or dark glass. A few had been repaired. Some were new. Each chair had a small metal plate attached to its back. No names. No dates. Only a single word.
-
-     WAITING.
+     The room was larger than the building could have contained. Rows extended into a blue distance, and narrow aisles ran between them. Each chair was made from a different material: dark wood, pale stone, metal, resin, and several substances Tyler could not identify. Some were old and repaired. Others appeared newly made. None had been placed on a platform. There was no central seat.
 
      Tyler stopped. “This is unsettling.”
 
-     Luke walked between the rows. He did not touch the chairs. He wanted to see whether they were arranged by size, material, or age. None of the patterns held for long. The rows seemed to change according to where the men stood.
+     Luke walked between the rows. Each chair had a small metal plate attached to its back. No names. No dates. Only a single word.
 
-     Kirk examined one of the plates. It had been fastened with two small screws, both worn at the head. The plate could be removed, but there was nothing beneath it. No hidden name. No number. No record of who had made the chair.
+     WAITING.
 
-     “Who maintains this room?” Bill asked.
+     Kirk examined the first chair. Its joints were sound, but the seat showed a slight hollow, as if it had been shaped by a man who had not yet sat down. He checked the next one. It was made from a different material, but the hollow was the same.
 
-     Nobody answered.
+     “They are prepared for use,” he said.
 
-     Joseph touched the nearest chair.
+     “For whom?” Bill asked.
 
-     A light came on beneath it.
+     Kirk shook his head. “There is no source.”
+
+     Tyler began counting. The rows did not remain fixed. Whenever he reached the end of one, another appeared beyond it. He stopped trying to establish the total and recorded the number of rows he could see from the entrance.
+
+     Joseph touched one of the plates.
+
+     A light came on beneath the chair.
 
      Then another.
 
      Then another.
 
-     Across the room, hundreds of blue points appeared. They did not illuminate the chairs from above. They rose through the floor and made the empty seats visible from below.
+     Across the room, hundreds of blue points appeared. They did not illuminate the chairs from above. They glowed beneath the seats, as if each one had a small light waiting in the floor.
 
-     The Teller understood what they were seeing.
+     The Teller realized what they were seeing. Not men who had disappeared. Men who had never yet been noticed. The country had been remembering the remembered. Now it had begun making room for the forgotten.
 
-     Not people who had disappeared. People who had never yet been noticed.
+     “These aren't records of people who left,” he said.
 
-     The country had been remembering the remembered. Now it had begun making room for the men who had not entered its history. Their chairs were not evidence that they had been lost. They were places where attention might one day arrive, if it was offered and accepted.
+     Joseph looked down the rows. “They're places for men who haven't arrived.”
+
+     “Or men who were here without being seen,” Tyler said.
+
+     “Those are not the same,” the Teller replied.
+
+     The distinction mattered. A man who had been lost could be searched for. A man who had never been noticed could not be found by following the old records. The chairs did not tell them who was missing. They showed that the country had begun to recognize the limits of its own attention.
 
      Luke looked at the empty chairs. “So this is the next part.”
 
      The Teller nodded.
 
-     “No.”
+     “No.” He looked deeper into the room. “This is the part we weren't here to see.”
 
-     He looked deeper into the room.
+     Bill moved along the nearest row. He checked the floor for a route between the chairs and found that the aisles remained clear, even when the rows shifted. The room was prepared for men to enter without having to move another man's place. Kirk noticed that none of the chairs faced exactly the same direction. Each was turned toward a different point in the room, but the directions did not conflict.
 
-     “This is the part we weren't here to see.”
+     “They aren't waiting for one assembly,” Kirk said.
 
-     Tyler followed his gaze. At the far end, one chair was different. It had no metal plate. Its frame was made from the same dark timber as the first room, but the seat was covered by a shadow that did not match the light in the room.
+     “They're waiting for their own use,” Tyler replied.
 
-     The shadow occupied it.
+     The largest man looked down the longest aisle. “Then we shouldn't fill them.”
 
-     The largest man stepped forward, then stopped. He did not want to make the distance smaller without knowing whether the figure wanted him near.
+     Joseph nodded. “Not unless a man chooses one.”
 
-     “Is someone there?” Bill asked.
+     The Seventh Man stood near the entrance. He had not touched any of the chairs. He listened to the room and heard a faint mechanical sound beneath the blue lights. It was not the pulse of the organism. It was a sequence of small clicks, as if hundreds of locks were being tested without being opened.
+
+     At the far end, one chair was different.
+
+     It was not empty.
+
+     A shadow occupied it.
+
+     The shadow had no clear outline. It did not resemble a man seated in ordinary light. It seemed to be the place where a man might become visible, held in the chair without yet taking a form. The Teller looked at it for a long time. He did not approach.
 
      The shadow raised its head.
 
-     It did not become a face. It did not become a man the travelers could name. The shape remained uncertain, but its attention was unmistakable. The men felt it turn toward them.
-
-     The Seventh Man listened. He heard no footsteps, no breath, and no movement from the chair. Yet something in the room had changed. The rows no longer seemed to extend away from the men. They seemed to be facing them.
-
-     A note sounded behind the walls.
-
-     The seven-note sequence began again.
+     Somewhere behind the walls, the seven-note sequence began again.
 
      This time there were eight notes.
-
-     The eighth did not follow the seventh in the ordinary way. It arrived beside it, as if the sequence had opened a place for a sound that had not belonged to it before.
-
-     The Teller looked at the shadow. He did not approach.
-
-     The room remained full of empty chairs. The blue points held steady beneath them. At the far end, the shadow stayed seated.
-
-     Nobody asked it to come forward.
-
-     The eighth note continued after the other seven had faded.
 
 ## Chapter XLIV: The Eighth Note
 

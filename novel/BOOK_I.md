@@ -1820,23 +1820,43 @@ The table was made from several lengths of oak, joined so carefully that the sea
 
      On the fourth morning they found a house.
 
-     It stood alone beside a stream, with smoke rising from a crooked chimney. No road appeared to lead to it. The four men approached anyway. An old woman came outside carrying a basin and stared at them without surprise.
+     It stood alone beside a stream, with smoke rising from a crooked chimney. No road appeared to lead to it. The four men approached anyway. An old man came outside carrying a basin and stared at them without surprise. His sleeves were rolled above his wrists. A dark apron covered his clothes, and one boot had been repaired with a strip of leather that did not match the other. He set the basin on a low stone and wiped his hands.
 
-     “You're late,” she said.
+     “You're late,” he said.
 
      Luke looked at Tyler.
 
      “Everybody keeps saying that.”
 
-     The woman smiled.
+     The old man gave a small smile. “Then perhaps you should stop measuring the journey by the time it takes.”
 
-     “That's because everybody here has been waiting.”
+     “What should we measure it by?”
 
-     She invited them inside.
+     “What you still carry when you arrive.”
 
-     The house was small enough to feel ordinary, and after the enormous country this seemed stranger than anything they had encountered. There were four chairs around a table, a stove burning low, boots drying near the door, and a window through which the stream could be heard even when it could not be seen. The woman served them bread, beans, and hot tea. Nobody asked where the food had come from.
+     He picked up the basin and went inside. The four men followed.
 
-     While they ate, she asked their names.
+     The house was small enough to feel ordinary, and after the enormous country this seemed stranger than anything they had encountered. There were four chairs around a table, a stove burning low, boots drying near the door, and a window through which the stream could be heard even when it could not be seen. The old man served them bread, beans, and hot tea. He set down four bowls, then brought a fifth for himself. Nobody asked where the food had come from. The smell of onions, pepper, and warm bread made the room feel more immediate than the road outside.
+
+     “You live here alone?” Kirk asked.
+
+     “At present.”
+
+     “Who was here before?”
+
+     “Men who had somewhere else to go.”
+
+     Luke looked at the empty chairs. “And they left?”
+
+     “Eventually.”
+
+     “You don't seem surprised.”
+
+     “I would have to be surprised every morning.”
+
+     The old man sat. He ate without hurrying and did not ask the travelers to explain themselves before they had finished. Tyler studied the room while he ate. The table was made from two planks joined along a dark seam. A small crack ran from one corner toward the center, but the surface was clean. The stove had been repaired with a copper plate. Beside the door hung a short-handled shovel, a coil of rope, and a lantern with a dent in its side. The house had no visible store of provisions beyond what they were using. It looked maintained rather than stocked.
+
+     The old man asked their names.
 
      “Luke.”
 
@@ -1846,28 +1866,33 @@ The table was made from several lengths of oak, joined so carefully that the sea
 
      “Joseph.”
 
-     The woman repeated them slowly, as if checking each name against a memory.
+     He repeated them slowly, as if checking each name against a memory.
 
-     “Yes,” she said at last. “Those are the ones.”
+     “Yes,” he said at last. “Those are the ones.”
 
-     Joseph looked up.
+     Joseph looked up. “The ones for what?”
 
-     “The ones for what?”
-
-     She turned toward the window.
+     The old man turned toward the window.
 
      “The country between.”
-     None of them understood.
 
-     Outside, the stream had begun to run backward.
+     None of them understood. Tyler put down his spoon.
+
+     “Between what?”
+
+     “That depends on what you have left behind.”
+
+     Luke leaned back. “That's not much of an answer.”
+
+     “It is the answer I have.”
+
+     Kirk glanced at Joseph. Joseph was still watching the stream through the window. Its surface had become strangely smooth. The water was moving, but the leaves caught in it were traveling upstream.
 
      Kirk stood first. Tyler followed. Luke went to the door, but Joseph caught his arm.
 
      “Wait.”
 
-     They watched.
-
-     The water moved uphill toward the forest, carrying leaves against the natural slope. The woman did not appear frightened. She merely continued eating.
+     They watched. The water moved uphill toward the forest, carrying leaves against the natural slope. The old man did not appear frightened. He finished his tea, then placed the cup beside his bowl.
 
      “Does that happen often?” Tyler asked.
 
@@ -1875,19 +1900,17 @@ The table was made from several lengths of oak, joined so carefully that the sea
 
      “Leave for where?”
 
-     She looked at Joseph.
+     The old man looked at Joseph.
 
      “That's what he is asking.”
 
-     Joseph frowned.
-
-     “I didn't ask.”
+     Joseph frowned. “I didn't ask.”
 
      “Not aloud.”
 
-     The room became very quiet.
+     The room became very quiet. Luke looked from Joseph to the old man, waiting for one of them to explain. Joseph did not. He had been thinking about the road beyond the stream, but he had not decided what he wanted to know about it. The old man had noticed the question before Joseph had given it a shape. That did not mean he had answered it.
 
-     Then the old woman pushed her plate away and told them the road ahead was not a road in the ordinary sense. It was a country made from all the distances people had failed to cross. Every road they had abandoned, every person they had meant to return to, every place they had postponed visiting, every sentence they had never finished speaking had accumulated somewhere beyond the stream.
+     The old man pushed his plate away. “The road ahead is not a road in the ordinary sense. It is a country made from distances that were not crossed. A bridge begun and never finished. A journey turned back before the last hill. A place someone meant to revisit but did not. A sentence stopped because the person speaking could not find the words. They do not all become the same thing. They gather in the same country.”
 
      Luke leaned back.
 
@@ -1899,135 +1922,319 @@ The table was made from several lengths of oak, joined so carefully that the sea
 
      “Yes.”
 
-     Luke nodded.
+     Luke nodded. “Okay.”
 
-     “Okay.”
+     Tyler laughed, though he was still studying the stream. Kirk asked whether the country had a boundary. The old man said that it had edges, but not the kind that could be marked on a map. A person could reach the end of one unfinished journey and still find himself beside another. The country did not contain every abandoned intention. It contained the ones that had left enough of a trace to be encountered again.
 
-     Tyler laughed.
+     “How do you know which is which?” Tyler asked.
 
-     The old woman looked pleased.
+     “You don't, at first.”
 
-     “That is why he will go far,” she said.
+     “Then how do you avoid taking the wrong route?”
 
-     “Who?”
+     “You ask whether the route belongs to you.”
 
-     She did not answer.
+     Tyler considered that. “And if it doesn't?”
 
-     When they left, the stream had returned to its ordinary direction. The house remained behind them, but after an hour Luke turned around and discovered that it was gone.
+     “You leave it for the man who owns it.”
 
-     “Did anybody see when it disappeared?”
+     The old man stood and carried the bowls to the basin. He did not turn the conversation into a lesson. He washed each bowl, dried it, and put it on the shelf. The travelers helped without being asked. Luke carried the empty bread board. Kirk moved the cups. Tyler checked the door latch, which had begun to loosen in its frame. Joseph took the basin outside and emptied it beside the stream.
 
-     Nobody had.
+     The water had resumed its ordinary direction.
 
-     Joseph looked back once more.
+     Beyond the house, the road was visible again. It crossed a patch of grass, passed behind a low mound, and disappeared near a stand of alder trees. The old man came to the door and looked along it.
 
-     Kirk stood beside him.
+     “You can go that way,” he said. “You can also stay until the weather changes.”
 
-     “You think we'll find it again?”
+     Luke glanced at the sky. “It looks fine.”
 
-     Joseph considered the question.
+     “It does.”
 
-     “If it mattered.”
+     “So?”
 
-     Kirk smiled.
+     “So the weather may change.”
 
-     “That's not an answer.”
+     Luke laughed. “You really don't give much away.”
 
-     “It's the answer I have.”
+     “I give away what is useful.”
 
-     They continued.
+     The old man brought out a folded sheet of paper. It was not a map in the usual sense. It showed the stream, the house, the mound, and a sequence of small marks extending toward the forest. Some marks were clear. Others had been crossed out and redrawn. At the lower edge, a blank space had been left where a route might continue.
 
-     By sunset the plain had ended. Ahead stood a forest larger than the amber woods, darker and older, its upper branches forming a continuous roof over miles of country. The road entered it without ceremony.
+     Tyler took the paper carefully. “When was this made?”
 
-     They stopped at the edge.
+     “At different times.”
 
-     Four figures beneath an immense sky.
+     “By whom?”
 
-     Four shadows stretching toward the trees.
+     “Men who came through.”
 
-     Far away, beyond the forest, something gave a single deep sound.
+     “Are the marks accurate?”
 
-     It was not thunder.
+     “They were accurate when they were made.”
 
-     It was not an animal.
+     Tyler studied the page. “That isn't the same as being accurate now.”
 
-     It sounded like a voice remembering its own name.
+     “No.”
 
+     The old man did not take offense. He seemed pleased that Tyler had noticed. The map was a record of encounters, not a promise that the land would remain unchanged. Tyler folded it along its original creases and asked whether he could copy it into his notebook. The old man said he could, provided he kept the crossed-out marks and wrote down that the map had been supplied by someone else. Tyler agreed.
 
+     Kirk asked about the line of trees beyond the plain. The old man said that the forest began there, but the road did not enter it at the same place every day. The stream could be followed for a while, though it would eventually divide into several channels. One led toward a bridge that had never been completed. Another ran through a valley where men sometimes heard voices from places they had not visited. A third disappeared beneath the roots of the oldest trees.
 
-     The country between them was made increasingly tangible by the ordinary demands of travel. Their clothes gathered dust. Their boots softened. Food became something they noticed before they noticed landmarks. At night they learned the sounds of one another sleeping. The immense distance did not separate them so much as expose the small habits by which four people learned how to remain together.
+     “Which one should we take?” Luke asked.
 
-The first stretch beneath the older forest was difficult to walk. The branches came low over the path, and the ground was broken by roots that crossed the road at angles. Luke moved ahead and found that the path widened beyond the first bend. Tyler asked him to wait while he checked the marker behind them. Kirk stopped near a tree whose bark had been cut by an old blade. Joseph stood beside him and looked at the mark. It was too weathered to read, but its position suggested that somebody had once used it to indicate a turn. They did not know who had made it or when. Tyler recorded the location and the direction in which the cut faced. Luke asked whether they could keep moving. Tyler folded the notebook and followed.
+     “The one you can explain to one another.”
 
-     They found the first unfinished crossing near midday. A narrow stream ran through a shallow ravine, and an old bridge began on one bank but ended several feet short of the other. The beams were sound near the entrance. Farther out, the timber had been left in place without a deck. It was not a collapsed bridge. It was a bridge whose construction had stopped. A few boards lay beside the bank, dry beneath the overhang of the trees. The four men stood looking at it.
+     Luke looked at the map. “I can explain walking straight ahead.”
 
-     “Somebody got most of the way,” Luke said.
+     “Then start there.”
 
-     Tyler examined the supports. “Or somebody built the first half for a different channel.”
+     The old man handed him a short wooden marker. It was cut from dark timber, smooth at one end and split at the other. A shallow notch had been carved into its side.
 
-     Kirk looked at the stream. It was narrow enough to cross on foot, but the stones were slick. Joseph watched the water move around a fallen branch. The branch had caught against the unfinished end of the bridge, and leaves had gathered behind it. The crossing was not useless. It simply did not provide the route the first builder had begun to make.
+     “What is this for?” Luke asked.
 
-     Luke wanted to jump the gap. Tyler said the landing was wet and the far beam could not be trusted. Kirk suggested using the stones below the bridge. Joseph pointed to a shallow shelf near the upstream bank where the water moved more slowly. They tested each suggestion. The stones were slippery, the jump would have required an awkward landing, and the shallow shelf offered a safer crossing if they went one at a time. Luke went first, then turned to offer a hand to Tyler. Kirk crossed after him. Joseph remained a moment to move the fallen branch so the next person would not catch his foot. It was a small act, but the crossing became easier because he had noticed the obstruction rather than treating it as part of the scenery.
+     “Marking a place you intend to return to.”
 
-     On the opposite bank they found an old tool box beneath a sheet of rotting canvas. The metal had rusted, but the lid still opened. Inside were a square, two short lengths of rope, a hammer with a cracked handle, and several nails wrapped in cloth. None of the tools was in good condition. Tyler wanted to record the find and leave it untouched. Luke thought they should use the hammer to secure the loose board at the bank. Kirk examined the handle and said it would break if anyone struck hard with it. Joseph suggested that they use the rope to mark the safest stepping stones instead. They agreed. The tools remained in the box, and the crossing acquired a temporary guide made from the rope and two pieces of branch.
+     “Why not use a stone?”
 
-     The men did not repair the bridge. They had not been asked to, and they did not know whether the unfinished structure was abandoned or reserved for another purpose. The temporary guide was enough for their return. Tyler marked the location and described the condition of the beams. Luke took a second look at the far bank and noticed that a path continued beyond it. Kirk looked back at the unfinished bridge. Joseph asked whether they should leave a note. They had no durable material and no knowledge of who might find it. They left the rope in place and continued.
+     “A stone belongs to the ground. The marker belongs to the man who carries it.”
 
-     The road changed as they walked. Sometimes it was a cart track pressed into the earth. Sometimes it became a paved strip of dark stone. Once it widened into a plaza where four paths met around a dry fountain. The fountain's basin was cracked, but the channels leading away from it were clean. There was no water. Tyler tried to identify the direction of each route from the ground's slope. Luke wanted to choose the broadest path. Kirk walked around the fountain and found that one of the stone channels had a faint line of green moss along its bottom. Joseph noticed that the moss continued toward a stand of trees where the ground seemed lower.
+     Luke turned it over in his hand. He did not like being given objects without knowing what they were for, but he liked the directness of the explanation. He put it in his pocket.
 
-     They chose the moss-lined path. It was not the most obvious route, and it was not the shortest. The channel gave them something to follow when the stones disappeared beneath grass. The path led to an orchard whose trees stood in uneven rows. Some were living; others had fallen and begun to return to the ground. A low fence marked the boundary, but there was no gate. The men followed the fence until they found a section that had been left open. Beyond it stood a narrow wooden table with four cups arranged upside down. Nobody was there.
+     The old man looked at the four men. “Do not mark every place you pass. You will make the country impossible to read. Mark only what you mean to remember as a place you can return to.”
 
-     Luke looked at the cups. “Somebody expected company.”
+     Joseph looked toward the stream. “What if we don't know whether we will return?”
 
-     “Or wanted the table ready,” Tyler said.
+     “Then wait until you know.”
 
-     Kirk checked the trees. The orchard was quiet, but not empty of life. Small birds moved through the upper branches. Joseph lifted one of the cups and found it dry. He put it back exactly where it had been. The table was not a message addressed to them. They could use it as a place to rest, but they did not need to claim that it had been prepared for their arrival.
+     “And if we never know?”
 
-     They sat beneath the trees. Luke stretched his legs and asked how much farther they intended to go. Tyler said he could not answer without knowing which route they would follow. Kirk wanted to inspect the far side of the orchard. Joseph asked whether they were still trying to reach the forest or whether they had begun collecting every unfinished place they encountered. The question made them laugh, because each of them had been following a different reason for continuing. Luke wanted to see what lay ahead. Tyler wanted a route that could be described. Kirk wanted to notice what might otherwise be missed. Joseph wanted to know what the journey was doing to the people making it.
+     The old man shrugged. “Then leave the space unmarked.”
 
-     They agreed to reach the forest before nightfall and leave the other paths for another visit. Tyler marked the orchard and the fountain on the map. Luke took the lead again. Kirk walked beside Joseph, and their attention returned to the same small things: a branch broken at shoulder height, a patch of ground where water had stood, the sound of something moving through the trees. Kirk did not tell Joseph what he had noticed until Joseph asked. Their familiarity allowed them to recognize the moment of shared attention, but it did not make the other man's thoughts unnecessary. They continued to speak when something needed to be said.
+     They prepared to leave. Tyler copied the map. Kirk checked the straps on their packs. Luke tested the wooden marker against the seam of his pocket. Joseph stood at the door and watched the stream. The old man gave them another piece of bread and wrapped it in cloth. He did not tell them how long the food would last. He did not promise that the road would remain visible. His hospitality had a practical limit: enough to help them continue, not enough to pretend that he could make the journey safe.
 
-     The forest began beyond a low ridge. Its first trees were close together, and their trunks were darker than those of the amber woods behind them. The road narrowed and became a series of packed-earth sections separated by stone. The branches formed a roof so high that the upper canopy could not be seen in the failing light. Tyler checked the time and suggested that they stop before entering too deeply. Luke said that the path was still visible. The older map they carried did not show the forest's interior, and nobody could establish how far the next clearing might be.
+     Before they stepped away, the old man asked whether they had all agreed on the direction.
 
-     They found a level place beside a fallen tree and made camp. The ground was dry beneath the roots. Luke gathered branches for a small fire, while Tyler checked the map and marked their stopping point. Kirk searched for a place where water might be found, and Joseph organized the food they had carried. They had enough to eat, but not enough to waste. The meal was simple: bread, fruit, and the remainder of the beans from the previous day. They ate without ceremony. The forest sounded different after dark. There were small movements in the undergrowth, the slow creak of branches, and a deep sound far beyond the nearest ridge that came and went without developing into a recognizable call.
+     Luke pointed toward the mound. “That way.”
 
-     Luke asked whether it was the voice they had heard on the plain. Tyler said he could not establish that. Kirk thought the sound had traveled through the ground as much as through the air. Joseph listened and said that it seemed to return after the forest had gone quiet. None of them named it. They made sure the fire was contained, kept the path to the clearing visible, and settled down. The question could remain until morning.
+     Tyler looked at the map. “The road turns before the trees. We should follow the stream until we reach the second marker.”
 
-     Joseph woke before the others. The forest was still dark, but a thin light had begun to appear beyond the canopy. Kirk was awake as well. He was sitting near the fallen tree, looking toward the path. Joseph joined him. For a while they did not speak. The familiar recognition returned: each knew that the other had been awake and had noticed him approaching, but neither could know precisely what the other was thinking. Joseph asked whether Kirk had heard the sound again. Kirk said yes, once, shortly before dawn. It had seemed closer, but he did not know whether it had moved or the wind had changed.
+     Kirk was looking at the ground near the water. “There are stones under the grass. I think there's an older path beside it.”
 
-     They woke Luke and Tyler. Luke wanted to follow the sound. Tyler asked to inspect the ground first. There were no clear footprints near the camp, but the soil held a shallow depression where water had gathered. A small stream ran beyond the next stand of trees. It was the first reliable water they had found since the orchard. They filled their containers and checked the route. The sound could have come from the stream's lower course, from the wind crossing a hollow, or from something farther away. They did not have evidence to choose.
+     Joseph looked at each of them. “We can start with the stream and decide at the marker.”
 
-     The road continued into the forest. At one point it divided around a large stone. The left path was wider and showed signs of repeated use. The right path was narrower, but a line of small stones had been placed along its edge. Tyler preferred the left because it was easier to map. Luke preferred the right because it appeared to lead toward the sound. Kirk crouched beside the marker stones and found that several had been turned so that their pale faces pointed inward. Joseph studied the two branches and suggested that they take the left path until they could see whether the right one rejoined it. There was no need to choose a permanent route when the paths could be compared.
+     Luke opened his mouth to object, then stopped. It was a reasonable compromise. They could move without pretending that the whole route had already been settled.
 
-     The left path led to a clearing with the remains of a small station. A roof stood over a platform, but no tracks remained. A bench was fixed to the wall, and a timetable frame held a blank sheet. The station seemed to have been prepared for travelers who had never arrived, or for a service whose route had changed before the building was finished. The men inspected the platform without entering the adjoining structure. Inside, they found a dry room with hooks along the wall and a small shelf. There was no furniture, no record book, and no sign of a recent occupant.
+     The old man nodded. “That will do.”
 
-     Luke tried to imagine the trains that might have stopped there. Tyler looked for a date or a route marker. Kirk studied the blank timetable and noticed that its frame had been repaired. Joseph asked whether they were looking at an abandoned station or a place that had never been used. The building could not answer. Its structure showed that somebody had intended it for a particular purpose. The absence of tracks and schedules did not tell them whether the purpose had been abandoned, moved, or postponed.
+     As they walked away, Luke turned once. The old man had gone back inside. Through the window, the travelers could see him placing the cups upside down on the shelf. He was not watching them leave. The house had offered them a place to stop, not a claim on their return.
 
-     They left the station as they had found it. Before they went, Tyler made a note of the platform's direction and the condition of the roof. Luke checked the path beyond the far end. Kirk noticed a small patch of wild grass growing through the platform stones. Joseph stood near the doorway and looked back once, not because he expected the building to vanish, but because he wanted to remember how ordinary it had seemed. The country between was not made only of impossible events. Much of it consisted of structures that could have belonged to any human landscape, carrying the consequences of decisions whose makers were no longer present.
+     The stream ran beside them for the first mile. The ground was soft, and their boots left clear marks in the mud. Tyler checked the copied map against the bends. Kirk found the stones he had noticed near the house, half buried beneath grass and moss. They formed a line that ran parallel to the stream, then crossed it at a shallow place. Luke tested the crossing with his boot and found the stones firm. Joseph waited until all three had crossed before following.
 
-     The four men returned to the fork and took the narrow path for a short distance. It climbed toward a ridge and then descended to the same stream they had found at dawn. The paths did connect, although the narrow route gave a better view of the upper forest. Luke admitted that the detour had been worth taking. Tyler added it to the map as a secondary route. Kirk found a marker whose surface had been worn by many hands. Joseph noticed that the sound had become quieter, or perhaps the forest had grown more familiar around them.
+     On the far bank they found a broken bridge.
 
-     By late afternoon they reached the outer edge of the forest. The country opened into a long slope, and beyond it they could see another valley. The road continued across the slope, then vanished behind a line of dark trees. There was no sign that they had reached the end of the country between. There were only more places to approach, more unfinished crossings, and more distances that might become roads when someone chose to travel them.
+     It had been built from dark timber, with two stone piers and a deck that ended several feet short of the opposite side. The remaining boards were weathered but sound. A length of rope hung from one rail. There was no sign of recent work. Tyler examined the joinery and found that the bridge had been built with care. The beams were squared, the pins fitted tightly, and the stonework laid with a patience that suggested the builder had expected the structure to last.
 
-     The deep sound came again. It was clearer this time, but still not a word. The four men stopped. Luke looked toward the far trees. Tyler kept the map open. Kirk turned toward Joseph, and Joseph returned the look. They were all listening, but each heard something slightly different in the sound: a low note, a vibration, a pause, and a return. No one claimed to understand it. It sounded like a voice remembering its own name, but the phrase remained a description of their impression rather than the identification of a speaker.
+     “Why stop here?” Luke asked.
 
-     They continued down the slope. The forest behind them did not close, and the road did not disappear. Their boots were dusty, their clothes carried the smell of woodsmoke, and the map held several new marks. The old woman's house was gone, the unfinished bridge remained behind them, and the station had been left without a timetable. The journey had produced no single answer. It had produced a set of places they could describe, a number of choices they had made together, and a more particular knowledge of one another. The country between was still ahead of them.
+     Kirk looked across the gap. “Maybe the other side moved.”
 
-     On the next morning they found a line of old posts set along the slope. Each post had been cut from a different kind of wood. Some were still upright. Others lay on the ground, half covered by grass. The posts did not form a fence. They marked a route that ran parallel to the road, crossing the slope at a higher level. Tyler thought they might indicate an earlier survey line. Luke wanted to follow them. Kirk examined the nearest post and found a small groove cut into its upper edge. Joseph touched the weathered surface and noticed that the groove had been protected from rain by the shape of the wood. Somebody had maintained the marker for a long time.
+     Tyler measured the distance. “The span is too short. It was never finished.”
 
-     They followed the line for a short distance. The posts led to a low stone shelter built into the hillside. It had no door, but the opening was narrow enough to keep most of the wind out. Inside were four shallow alcoves and a raised stone ledge. The shelter had been used, but not recently. A small pile of dry kindling remained in one corner, and a cup sat upside down on the ledge. Luke asked whether they should make a fire. Tyler checked the roof and found no loose stone. Kirk looked at the cup and left it where it was. Joseph suggested that they use the shelter to rest and keep it available for anyone who might come after them.
+     “Could have been finished once,” Joseph said.
 
-     They ate in the shelter and compared their maps. The line of posts did not connect directly to the main road. It appeared to lead toward a gap in the ridge, then turned away before reaching it. Tyler could not determine whether the route had once continued or whether the markers had been placed only to guide travelers to the shelter. Luke said they could go far enough to find out. Kirk asked whether the detour would leave them enough daylight to reach the next clearing. Joseph pointed out that they had already found a route that could be followed on another day. They did not need to complete every line they encountered.
+     The four men stood at the end of the deck. Across the gap, a path continued through the grass and entered a stand of trees. It looked close enough to reach with a running jump, but the water below was deep and fast. Luke considered the distance. Tyler told him not to try it. Luke said he had not said he would. Kirk crouched to examine the rope. Joseph looked at the path beyond the bridge.
 
-     Luke looked at the map, then at the shelter. He accepted the decision, although he was disappointed. The group marked the route as unfinished and left a note beside the entry, describing the shelter's condition and the direction of the posts. They did not sign it with a claim of ownership. The note was a practical aid for whoever followed, not an announcement that the place had become theirs. The four men continued along the main road.
+     A small wooden sign had been fixed to the last post. Its letters were worn, but Tyler could read them: RETURN WHEN THE OTHER BANK IS READY.
 
-     The afternoon weather changed. Clouds gathered over the ridge, and the air became cool. Luke noticed the wind first and suggested that they keep to the lower path. Tyler checked the map and found a way to reach the next stand of trees without crossing the exposed slope. Kirk looked back toward the shelter and made sure the marker at the turn was visible. Joseph walked beside him, and they talked about the difference between leaving something unfinished and abandoning it. Kirk thought the distinction depended partly on whether somebody intended to return. Joseph said that intention mattered, but that it did not guarantee a return. A route could remain open without becoming a promise.
+     “That doesn't make sense,” Luke said.
 
-     Kirk considered that. He said that he liked the way Joseph could leave a question unresolved without treating it as unimportant. Joseph replied that Kirk often noticed the things that made a question worth asking. Neither man tried to turn the exchange into a declaration. They walked on, with the same awareness between them that had accompanied their earlier silences: each could recognize the other's attention, but each still had to choose what to say. Luke called back from the bend. Tyler had found a marker. The four men rejoined one another.
+     “It makes sense if the bridge was built by someone who knew the other bank wasn't ready,” Tyler replied.
 
-     Near dusk the low sound came once more, this time from somewhere beyond the ridge rather than from within the forest. The men stopped, listened, and waited. It did not repeat immediately. Luke asked whether they should climb to the ridge and see what lay beyond it. Tyler said that the light was failing and that the slope would be difficult to cross in the dark. Kirk suggested they mark the point and return in the morning. Joseph agreed. The sound had given them a direction, not a deadline. They made camp beneath the trees, with the ridge visible through a break in the branches.
+     “Then why build this much?”
 
-     During the night the wind moved through the forest and made the old posts sound against their sockets. The shelter was behind them, the unfinished bridge farther back, and the old woman's house somewhere beyond the stream. The men did not know whether those places had existed in the same order before they encountered them. They knew only that they had traveled between them, left useful notes where they could, and learned to ask each other before turning a possibility into a plan. The country had not become simple, but it had become more navigable. In the morning, they would decide whether to climb the ridge.
+     “To make the crossing possible later.”
+
+     Kirk tested the rope. It was frayed at the end, but still attached to the post. He did not pull hard. He wanted to know whether it had been used recently, not whether it could bear his weight. Joseph stood beside him.
+
+     “Do you think the builder came back?” Joseph asked.
+
+     “I don't know.”
+
+     “Would you?”
+
+     Kirk looked across the gap. “If I had a reason.”
+
+     Luke walked back along the deck and looked for a route down to the water. Tyler checked the map. The bridge appeared as a line ending at the first pier. The other side had been left blank. There was no indication that the mapmaker had seen the far bank.
+
+     “We could cross the stream farther up,” Luke said.
+
+     “Maybe,” Tyler answered. “But that would not finish the bridge.”
+
+     “We don't have to finish every bridge.”
+
+     “I know.”
+
+     The answer surprised Luke. Tyler folded the map and put it away. He was not defending the bridge as a duty. He wanted the distinction between crossing the stream and completing the structure to remain clear. The four men could choose another route without claiming that the bridge had become useless.
+
+     Kirk found a flat stone near the pier and placed it beside the sign. It was not a marker for a return. It was simply a way to keep the loose board from shifting in the wind. The gesture was small, but it made the bridge safer for the next man who came to inspect it. Luke noticed and helped him settle the stone. Tyler recorded the change on the map. Joseph looked across the gap once more, then followed the others upstream.
+
+     They found a crossing where the stream widened and the water moved more slowly. The stones beneath the surface were visible. Tyler tested each step with a branch. Luke crossed first, then turned to steady Kirk when one stone shifted. Joseph crossed last, carrying the map inside his coat. On the far bank the old path continued, but it did not lead toward the trees. It bent back toward the plain.
+
+     “We went around the bridge,” Luke said.
+
+     “We crossed the stream,” Tyler replied.
+
+     “Same result.”
+
+     “Not the same route.”
+
+     Luke smiled. “You really care about that.”
+
+     “Yes.”
+
+     Kirk laughed. “At least he's consistent.”
+
+     The plain changed as they walked. The grass grew shorter, and patches of dark earth appeared between the roots. Here and there stood a low stone wall that began without enclosing anything and ended before reaching another wall. The men found a gate with no fence attached to it. It opened onto a narrow path, then closed by itself after they passed. Farther on, a line of posts marked the edge of a field that had no visible crop. The country did not feel abandoned. It felt paused. Each structure showed that someone had begun an undertaking and left enough of it in place for another person to recognize the intention.
+
+     Near midday they reached a low building with a roof of grey slate. Its door stood open. Inside was a long bench, a dry hearth, and a shelf holding several pairs of boots. The boots were different sizes and in varying condition. Some had been repaired. Some were new. None had names written inside. Tyler checked the floor and found recent footprints, though they did not all point in the same direction.
+
+     “A waystation,” Kirk said.
+
+     Luke looked around. “For who?”
+
+     “Men who need to stop.”
+
+     There was a small ledger on the bench. Its pages held dates, brief notes, and the marks of several different hands. Some entries recorded the weather. Others mentioned a bridge, a missing tool, a road that had become difficult to follow. One man had written that he intended to return for a pair of boots. Another had written that he had found them waiting when he came back. The entries did not form a complete history. They were practical traces left by men who had used the place.
+
+     Tyler read the latest entry aloud. “The eastern route is clear until the stones. Beyond that, the map belongs to whoever walks it.”
+
+     Luke looked at him. “That's a good line.”
+
+     “It's an instruction.”
+
+     “Can be both.”
+
+     Joseph turned the page. The next sheet was blank. He did not write in it. The ledger belonged to the waystation, and they had not yet decided what they could add. Kirk found a small box of nails beneath the bench and closed it again. Nothing in the building asked them to take it. They rested, drank water, and left the boots where they were.
+
+     In the afternoon the country began to gather around the old roads. A stone track crossed the grass and met a narrow strip of timber laid over a marsh. Beyond it stood a signpost with three arms. One pointed back toward the stream. One pointed toward the amber forest. The third had no lettering. Tyler checked the map and found no signpost. Kirk thought the unmarked arm might have been added recently. Luke wanted to follow it. Joseph asked whether they could see where it went.
+
+     They walked a short distance along the unmarked route. It descended toward a shallow valley where the grass grew in long, dark bands. At the bottom stood several foundations, each the size of a small room. No walls remained. The foundations were arranged in a loose line, as though a building had been planned to grow along the valley but had stopped after the first few sections. In the center lay a stone threshold. Its surface had been worn smooth by repeated footsteps.
+
+     Joseph stepped onto it. For a moment he heard voices from the other side of the valley. They were not words he could make out. He looked toward Kirk, who had also stopped.
+
+     “Did you hear that?” Joseph asked.
+
+     Kirk nodded. “Something.”
+
+     Luke walked closer. “What?”
+
+     “Voices.”
+
+     “From where?”
+
+     Kirk pointed toward the empty foundations. “Maybe there was a building here.”
+
+     Tyler checked the ground. There were no recent tracks, but the threshold was worn. He crouched and examined the stone. The marks suggested that many men had crossed it over a long period. The voices might have come from the valley, from the forest, or from a memory carried by the place. He could not determine which. He recorded the location and wrote *sound heard by Joseph and Kirk; source unknown*. Luke looked at the note.
+
+     “You don't have to write every weird thing down.”
+
+     “I know.”
+
+     “Then why?”
+
+     “Because we may hear it again.”
+
+     Joseph stood on the threshold a little longer. He was thinking of the sentences he had not spoken during the journey, and of the ones he had spoken too late. The valley did not accuse him. It did not tell him what he should have said. It held the sound of unfinished speech without claiming to know who had left it there. He stepped off the stone and rejoined the others.
+
+     By late afternoon they reached the first line of dark trees. The forest was older than the amber woods. Its trunks were broad and deeply furrowed, and the ground beneath them was covered in a layer of leaves that had darkened almost to black. The upper branches formed a continuous roof. Light entered through narrow openings and lay across the path in long strips. The air smelled of wet bark, earth, and old resin.
+
+     The four men stopped at the edge. Luke looked toward the path and then back at the plain.
+
+     “We can keep going,” he said.
+
+     Tyler checked the remaining light. “Not far today.”
+
+     Kirk listened. “Something is moving inside.”
+
+     Joseph looked beyond the first trees. He could hear a low sound, too deep to be wind and too regular to be thunder. It came once, stopped, and returned after a long interval.
+
+     “A voice?” Luke asked.
+
+     “Maybe.”
+
+     “You think it's calling us?”
+
+     Joseph shook his head. “I think it is there.”
+
+     Tyler marked the edge of the forest on the map. Kirk found a dry place beneath a broad tree where they could make camp without blocking the path. Luke gathered fallen branches. Joseph carried water from a narrow stream that ran between the roots. They did not enter the forest before dark. The country had given them enough for one day: a house, a map, a broken bridge, a waystation, and the trace of a building that had never been completed. They had no reason to force the next discovery.
+
+     They ate beside the tree. Luke complained about the distance and then asked whether anyone had saved the last piece of bread. Kirk handed it to him. Tyler reviewed the route and found that the copied map had been useful, though several marks no longer matched the ground. He added the broken bridge, the waystation, and the threshold in the valley. Joseph listened to the forest. The deep sound came once more, farther away than before.
+
+     “It isn't getting closer,” he said.
+
+     “How can you tell?” Tyler asked.
+
+     “It sounds like the same distance.”
+
+     Luke looked toward the trees. “Maybe it's not moving.”
+
+     Kirk leaned back against the trunk. “Maybe we're the ones moving.”
+
+     Nobody argued. The thought remained with them while the fire burned low.
+
+     In the morning the path entered the forest without ceremony. The old road was still visible for a short distance, then divided around a fallen trunk. One branch went toward a low ridge. The other descended beside a stream. Tyler wanted to compare the ground with the map. Luke wanted to take the higher route. Kirk had found a line of old stones beside the water. Joseph stood between the branches and listened.
+
+     “We can mark both,” Tyler said.
+
+     “And walk which one?” Luke asked.
+
+     “One at a time.”
+
+     Kirk pointed toward the stream. “That route has been used more recently.”
+
+     Luke looked at the higher path. “That one looks faster.”
+
+     Joseph waited until the others had finished. “Let's take the stream first. If it closes, we can come back to the ridge.”
+
+     Luke nodded. Tyler marked the choice. Kirk took the lead, following the stones beside the water. They moved beneath the dark canopy, where the branches held the last of the night rain. The stream ran beside them, sometimes visible and sometimes hidden under roots. Their clothes gathered moisture. The ground softened. The forest did not seem to be closing around them, but it was large enough that the road behind them soon disappeared.
+
+     After an hour they reached a clearing. At its center stood a single upright beam, dark with age. It had been cut square and set into a stone base. No sign or inscription marked it. The beam was taller than a man, and its upper end had been shaped into a shallow notch. Luke recognized the cut from the wooden marker the old man had given him. He took it from his pocket and held it beside the beam. The notch was the same.
+
+     “That's why he gave it to me,” Luke said.
+
+     Tyler examined the base. “It may be a marker for the route back.”
+
+     Kirk looked around the clearing. “Or a place to leave one.”
+
+     Joseph touched the beam. It was cold, but not damp. The forest sound had stopped. For the first time since they had entered the trees, they could hear nothing beyond their own breathing.
+
+     Luke placed the wooden marker into the notch. It fitted without force. The beam did not light up or move. No door appeared. The forest remained a forest.
+
+     “That's it?” Luke asked.
+
+     “What did you expect?” Tyler said.
+
+     “I don't know. Something.”
+
+     Kirk smiled. “Maybe this is something.”
+
+     The wooden marker rested in the beam. It did not belong to the house beside the stream anymore. It had become part of a route the four men had chosen together. Luke looked at it for a while, then stepped back. He did not feel that he had lost it. He had left it where he could return.
+
+     The low sound came again, this time from deeper in the forest. It was not thunder. It was not an animal. It sounded like a voice remembering its own name. The men stood beneath the trees, four figures in a clearing too small to contain the forest around them. None of them claimed to know what the sound meant.
+
+     Tyler closed the notebook. “We have a place to start from.”
+
+     Luke looked down the stream path. “Then let's keep moving.”
+
+     Kirk waited for Joseph. Joseph glanced once at the marker and followed.
+
+     Behind them, the clearing remained quiet. The marker did not disappear. The beam did not bend. The country between them had not been completed, and they had not been asked to complete it. They had crossed one distance, found another, and left a route that could be used again. The forest continued ahead, dark and immense, with the stream running somewhere beneath its roots.
+
+     The old man's house was already out of sight. They could not know whether it remained beside the stream or had moved into another part of the country. They had not promised to return, and the old man had not asked them to. Yet the map in Tyler's coat still carried its marks, and the wooden marker had found a place in the forest. The journey had acquired a point of return without becoming a circle.
+
+     The country between was not empty space separating one destination from another. It was made of the work, hesitation, repair, and unfinished intention that accumulated whenever men tried to reach one another or a place they had not yet understood. Some distances could be crossed. Some could only be approached. Others needed to remain open until the men involved were ready to decide what they meant. The four travelers continued beneath the old trees, carrying no final explanation, but carrying a route they had made together.
+
+     Far away, beyond the forest, the deep voice sounded once more. This time none of them turned back. They had heard it, recorded it, and chosen to continue. The country did not close behind them. It waited, as the road had waited, for the next man to arrive.
 
 ## Chapter X: The House That Remembered
 

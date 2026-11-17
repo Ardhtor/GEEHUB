@@ -8124,7 +8124,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XLV: The Man Who Refused the Name
 
-     They did not follow immediately. The country had taught them that every door was a relationship disguised as architecture, and by now they had learned to distrust the instinct to open everything simply because it could be opened. Luke sat on the floor. Tyler leaned against one of the chairs. Joseph stood beside the Teller. The new screw lay between them.
+     They did not follow immediately. The country had taught them that every door was a relationship disguised as architecture, and by now they had learned to distrust the instinct to open everything simply because it could be opened.
+
+     Luke sat on the floor. Tyler leaned against one of the chairs. Joseph stood beside the Teller. The new screw lay between them, separate from the original in Luke's box.
 
      “Don't remember me,” Tyler repeated.
 
@@ -8134,29 +8136,35 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Joseph shook his head. “That isn't the same thing.”
 
-     The Teller picked up the screw. It had no thread. It could not attach to anything. He turned it in his fingers. A tiny image appeared on its surface: a room, a chair, and a man standing near the wall. The image vanished before any of them could see the man's face. The Teller turned the screw again, but the image did not return.
+     The Teller picked up the screw. It had no thread. It could not attach to anything. He turned it in his fingers. The metal was warm, though it had been lying on the stone floor. A tiny image appeared on its surface. A room. A man standing in the room. The image vanished before any of them could see his face.
 
-     “It is not a record,” Tyler said.
+     “Was that the man who spoke?” Luke asked.
 
-     “It is a mark,” Kirk replied. “But it has no use.”
+     “I don't know,” the Teller said.
 
-     “It has a use,” Luke said. “It brought us here.”
+     “Did you recognize him?”
 
-     Bill looked at the screw. “Then perhaps its use is finished.”
+     “No.”
 
-     Luke opened his box and placed the screw inside. Nothing happened. He closed it. The room remained unchanged. That frightened him more than the lights. The archive had always responded. The House had always found some way to connect an object with a memory. Now it had refused.
+     Tyler examined the screw. “The image may be a record of the room, not the man.”
 
-     “Maybe it should stay refused,” Joseph said.
+     “Or a record of the man in the room,” Kirk replied.
 
-     Luke looked at him. “You think we should leave it alone?”
+     “We cannot distinguish them.”
 
-     “I think we should stop trying to make it answer.”
+     Bill looked at the empty chair. “Then we should not pretend we can.”
 
-     The Teller placed the screw on the table. He did not return it to the box. The object remained warm for a few seconds, then cooled. Nobody claimed it.
+     Luke opened his box and placed the screw inside. Nothing happened. He closed it. The room remained unchanged. That frightened him more than the lights. The archive had always responded. Now it had refused. He opened the box again and looked at the two screws. The old one had a worn thread. The new one had none. They were alike in shape but not in use, and the box did not try to make them agree.
 
-     They walked back toward the city.
+     “Leave them together,” Joseph said.
 
-     Outside, Veyrthalis had changed. The fog was thinner. The enormous trees were visible for miles. Between their trunks, lights had appeared where there had never been roads. The country was building again, but this time it was not expanding toward them. It was expanding away. New paths opened beyond the familiar forest, and the amber light moved into them without waiting for the travelers to follow.
+     Luke closed the lid. “I will.”
+
+     The men left the room without opening the door behind the chairs. They did not agree on whether the voice had asked for privacy, warned them away, or offered a way to be approached. They agreed that they had no right to settle the question for the man who had spoken.
+
+     Outside, Veyrthalis had changed.
+
+     The fog was thinner. The enormous trees were visible for miles. Between their trunks, lights had appeared where there had never been roads. Some were low to the ground. Others hung in the upper branches. The country was building again, but this time it was not expanding toward them. It was expanding away.
 
      Tyler looked at the horizon. “It's making space.”
 
@@ -8164,47 +8172,63 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Nobody knew.
 
-     They crossed the first bridge over the black water. The bridge had been repaired since their last visit. Its supports were stronger, but the old joints remained visible. Kirk stopped to inspect them. The repair had been made by a man who understood that the structure needed to move with the water, not resist it. Kirk approved and continued.
+     They walked until they reached the first bridge over the black water. The bridge had been repaired during the night. Its old timber remained, but new supports had been fitted beneath the central span. Kirk checked the joints and found the work sound. He did not know who had done it. The repair had been made without leaving a name.
 
-     The Procession had stopped. Every iridescent figure stood perfectly still. Then, one by one, they turned away from the city. All of them looked toward the same distant point in the forest. The Teller followed their gaze.
+     The Procession had stopped.
+
+     Every iridescent figure stood perfectly still. Then, one by one, they turned away from the city. All of them looked toward the same distant point in the forest. The movement was slow and deliberate. Their surfaces caught the blue light from the towers, but their faces did not appear.
+
+     The Teller followed their gaze.
 
      A single blue light was visible between the trees. Not a CRT. Not a star. A window.
 
      Someone was standing behind it.
 
-     The Teller could not see the face, but he knew the posture. The man stood with one hand resting against the frame and his weight slightly forward, as if he had been watching for a long time. He did not wave. He did not move away when the Teller looked back.
+     The Teller could not see the face. But he knew the posture. A man standing without leaning on the frame, his weight balanced evenly, his attention directed outward. Someone who had been watching without being seen.
 
      Luke whispered, “We're being remembered.”
 
-     Joseph corrected him. “No.”
+     Joseph corrected him.
+
+     “No.”
 
      He looked at the distant window.
 
      “We're being observed.”
 
-     Tyler considered the distinction. “Remembering would make us part of his history.”
+     The distinction followed them back into the city.
 
-     “And observing?” Bill asked.
+     Tyler wanted to record the position of the window. He took the bearings from the bridge and marked the nearest trees. The light remained visible while he wrote, but it did not hold still long enough for a precise measurement. Each time he looked up, it seemed to have moved a little farther away.
 
-     “It may not require anything from us.”
+     Kirk examined the bridge's new supports. “The repair is recent.”
 
-     The Teller kept looking at the window. The man behind it was not the shadow from the chair, and he was not the unnamed man who had emerged from the photograph. The posture was familiar, but the identity remained unknown. The Teller did not try to force a name onto it.
+     “Could the man have done it?” Luke asked.
 
-     The Procession remained turned toward the forest. The blue light held steady. The country continued making space around it.
+     “Possibly.”
 
-     “Should we go there?” Luke asked.
+     “Then he's been here.”
 
-     Joseph shook his head. “Not because we're being watched.”
+     “The repair has been here,” Kirk said. “That is what I can establish.”
 
-     “Then when?”
+     Bill asked whether they should send a message toward the window. The Teller did not answer. He was still watching the posture behind the glass.
 
-     “When the route is open, and when we know what we are asking.”
+     Joseph stood beside him. “You don't have to return the look.”
 
-     The Teller looked at the window one last time. He did not feel rejected. He felt that a boundary had been shown to them and that it would be careless to cross it without understanding what it protected.
+     “I know.”
 
-     They continued toward the city. The light remained between the trees. It did not follow them.
+     “Do you want to?”
 
-     The distinction followed them back.
+     The Teller considered the question. The window was too distant for a face, but the attention behind it felt particular. He did not know whether it was friendly, curious, or a warning. He knew only that the man had chosen to remain unseen.
+
+     “Not yet,” he said.
+
+     The largest man looked toward the forest. “Then we leave the window where it is.”
+
+     They turned back toward the city.
+
+     The blue light remained between the trees. It did not follow them. It did not disappear. It stayed where it was, visible only when the men looked from the bridge.
+
+     By morning, the country would have changed again.
 
 ## Chapter XLVI: The Window
 

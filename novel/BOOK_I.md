@@ -6844,9 +6844,11 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXXIII: The Men Who Arrived First
 
-     Ansel led them through the Digitorium without explaining how he knew them. That omission became its own explanation. He did not hurry, and he did not ask them to follow. He walked at a pace that left room for the men to look at the records along the upper galleries. When Tyler stopped to read a label, Ansel waited. When Kirk examined a joint in the stair, Ansel did not interrupt. He seemed to understand that arrival was not the same as readiness.
+     Ansel led them through the Digitorium without explaining how he knew them. That omission became its own explanation. He walked at an ordinary pace and did not look back to check whether they followed. The men who worked in the archive moved aside when he passed. Some nodded to him. Others continued with their work. Nobody announced the travelers.
 
-     At the highest level they entered a circular chamber. Seven chairs surrounded an empty center. Six were occupied. The men sitting there looked toward the Teller, not with surprise but with recognition. Their clothes were plain and carefully maintained. One had a carpenter's hands, another kept a narrow ledger on his knee, and a third sat with his back to the wall so that he could see every entrance. The remaining three watched in different ways: one with open curiosity, one with guarded attention, and one with the patience of a man who had already heard the question.
+     At the highest level they entered a circular chamber. Seven chairs surrounded an empty center. Six were occupied. The men sitting there looked toward the Teller. Not with surprise. With recognition.
+
+     The chamber was built from several kinds of stone. Its floor held a shallow pattern of roads, but none of the lines reached the center. The chairs were made from different materials: oak, dark glass, pale stone, and two kinds of metal. Each had been repaired. The seventh chair was empty, its back turned slightly toward the wall. There was no name on it.
 
      Tyler whispered, “They know us.”
 
@@ -6854,15 +6856,17 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The six men stood.
 
-     “They know the pattern,” Luke finished.
+     “They know the pattern.”
 
-     Ansel nodded. “The House is not the first world to discover that relationships produce architecture.”
+     Ansel nodded. “That is closer.”
 
-     Joseph studied the chamber. The walls were built from dark stone, but thin lines of light ran through them like roots. The empty center was not a platform or a stage. It was simply open floor, worn smooth by repeated use. The seven chairs were made from the same timber as the House of the Seventh Light. Their arms had been repaired at different times. The seventh chair was intact, but its seat had no impression.
+     One of the six men had a broad scar across his palm. Another held a small notebook closed beneath one hand. A third wore a carpenter's apron over a plain coat. The fourth stood with his hands behind his back, watching the travelers without trying to measure them. The fifth had placed a cup on the floor beside his chair. The sixth had not moved at all until the others stood. Their differences were visible before any of them spoke.
 
-     “What happened here?” Joseph asked.
+     “The House is not the first world to discover that relationships produce architecture,” Ansel said.
 
-     Ansel looked toward the empty chair. “We made the same mistake you made.”
+     Joseph studied the room. “What happened here?”
+
+     Ansel looked toward the empty seventh chair. “We made the same mistake you made.”
 
      Tyler frowned. “Which was?”
 
@@ -6872,115 +6876,121 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “We built bodies. Then buildings. Then cities. Then countries. We kept increasing scale because scale was the easiest evidence that something had changed.”
 
-     One of the seated men, the one with the ledger, opened it. The pages contained measurements of bodies, rooms, towers, and districts. Each page showed an increase. The numbers rose steadily, but the last columns were blank.
+     The man with the scarred palm looked at his hand. “We thought the next size would solve the last problem.”
 
-     “We measured everything,” he said. “We could show that a building was taller, that a body had grown, that a city covered more ground. We could not show whether the men inside it had become less alone.”
+     The man with the notebook shook his head. “It only made the records harder to compare.”
 
-     The man with the carpenter's hands touched the arm of his chair. “We built rooms that could hold more men. We forgot to ask whether the men could still reach one another.”
+     The carpenter touched the back of his chair. “We built things that could not be repaired without taking them apart.”
 
-     The guarded man looked toward Ansel. “We did not forget. We thought the connections would follow automatically.”
+     The man who had stood with his hands behind his back said, “We made borders to protect what we had built. Then the borders became more important than the places.”
 
-     “And did they?” Luke asked.
+     The man with the cup lifted it and drank. “We learned to preserve everything except the reason we had wanted to preserve it.”
 
-     “No,” the man said.
+     The sixth man finally spoke. His voice was quiet. “We stopped asking who could leave.”
 
-     The answer was immediate. He did not defend the old decision.
+     Luke looked at the six men. “And eventually?”
 
-     Ansel looked at the six men. “Eventually we discovered that the world was growing because we were connected. The buildings were evidence of that relation, not its cause.”
+     Ansel answered. “We discovered that the world was growing because we were connected.”
 
-     Kirk walked around the chamber. He examined the walls, the floor, and the joints where the stone met the timber. “Then the architecture came after.”
+     Tyler looked at the floor. The roads did not meet in the center, but each passed close to another. They formed a pattern of crossings without a single point of control.
 
-     “Sometimes,” Ansel said. “Sometimes it came first and taught us what we had neglected.”
+     “Then why are the chairs arranged around an empty space?” he asked.
 
-     Tyler looked at the ledger. “Did you preserve the earlier measurements?”
+     “Because the center is not a seat,” Ansel said.
 
-     The man holding it nodded. “Every one. We were wrong about what they proved, not about what we measured.”
+     “What is it?”
 
-     Tyler seemed satisfied. He asked to see the first entry. The man turned several pages and showed him a small room with seven chairs. The earliest record described the room as complete. A later entry showed that one chair had been removed to make space for a larger table. Another showed the table enlarged. A later page recorded that the men had stopped meeting there.
+     “A relation. It belongs to none of us, and none of us can occupy it alone.”
 
-     “What happened to the seventh chair?” Tyler asked.
+     The largest man studied the room. “You made a place for something you could not own.”
 
-     The ledger keeper looked toward the empty place. “It was returned.”
+     “We made a place where we could meet without claiming the middle.”
 
-     “By whom?”
+     Kirk examined the chairs. “And the repairs?”
 
-     “The one who understood it first.”
+     The carpenter answered. “Each chair was repaired by a different man. We kept the old joints where they still held and replaced only what had failed.”
 
-     The Teller looked at the empty chair. “Who sat there?”
+     “Why not make them identical?”
 
-     Ansel did not answer immediately. Finally he said, “The one who understood it first.”
+     “Because they are not identical.”
+
+     Kirk nodded. He understood the choice. A shared room did not require every object to have the same shape.
+
+     Joseph looked toward the Teller. The six men had not greeted the travelers in the ordinary way. They had recognized something in him, but they had not treated him as a symbol or a possession. The Teller stood within their attention without being absorbed by it.
+
+     “You have seen this before,” Joseph said.
+
+     “Not this room,” the Teller replied.
+
+     “The pattern?”
+
+     “The way attention changes when it is returned.”
+
+     Ansel listened. “That is what we failed to understand at first. We thought being seen was enough. We did not understand that the other man had to remain free to look away.”
+
+     Luke looked toward the empty chair. “So what happened to the man who understood it?”
+
+     The Teller asked the question that had been waiting.
+
+     “Who sat there?”
+
+     Ansel did not answer immediately. He looked at the empty chair, then at the six men who had stood. Finally he said, “The one who understood it first.”
 
      Joseph looked at him. “And where is he?”
 
-     Ansel turned toward a wall. A narrow seam had appeared in the stone.
-
      “He went further.”
 
-     The man with the carpenter's hands stood and examined the seam. It was not a door in the usual sense. No hinge or handle was visible. The stone had separated along a line that continued into the floor and ceiling.
+     “Further than this city?”
 
-     “That passage was not here yesterday,” he said.
+     “Further than the country.”
 
-     The guarded man shook his head. “It was here. We did not have a reason to see it.”
+     Tyler frowned. “Is he still alive?”
 
-     The distinction was not lost on Kirk. He looked at the seam and understood that the chamber was not simply opening another room. It was revealing a route that had been present but outside their attention.
+     Ansel considered the question. “That depends on what you mean by alive.”
 
-     “Does it lead to him?” Joseph asked.
+     Luke gave a short laugh. “We have heard that answer before.”
 
-     “It leads where he went,” Ansel said. “That is not necessarily the same thing.”
+     “Then you know not to mistake it for a refusal,” Ansel said.
 
-     The Teller stood beside Joseph. Their attention met, then returned to the opening. Joseph did not ask the Teller to interpret it. The Teller did not ask Joseph to decide. They had learned to let a shared perception remain shared without forcing it into a single account.
+     The scarred man approached the empty chair. He did not sit. He adjusted its angle so that it faced the center of the room. The notebook keeper opened his book and made a short entry. The carpenter checked one of the rear legs. The man with the cup placed it on the floor again. Each action was small, but together they restored the room to a state the six men recognized.
 
-     Luke looked at the six men. “Why haven't you followed?”
+     The seventh chair remained empty.
 
-     The man with the ledger closed it. “We tried.”
+     A narrow seam appeared in the stone wall.
 
-     “What happened?”
+     Ansel turned toward it. “He left through there.”
 
-     “We returned.”
+     Kirk examined the seam. It had no handle or visible hinge. “Does it open?”
 
-     “All of you?”
+     “When someone is ready to pass through.”
 
-     “Not at the same time.”
+     Luke smiled faintly. “Of course.”
 
-     The quietest of the six spoke for the first time. “The passage does not reject us. It does not promise to bring us back either.”
+     Tyler looked at the dark line. “We just got here.”
 
-     Bill looked toward the chamber entrance. “Then somebody has to keep the room working.”
+     “You arrived here,” Ansel replied. “That is not the same as having finished.”
 
-     The carpenter nodded. “That is what we chose.”
+     The six men stepped aside. They did not urge the travelers forward. The chamber remained available, and the seam remained closed.
 
-     “You stayed,” Joseph said.
+     Joseph looked at the Teller. The Teller looked back. Neither moved. For once, nobody was trying to be first.
 
-     “Some of us stayed,” Ansel replied. “Some went elsewhere. The city continued to need repairs, food, records, and men who could keep a route open. We learned that departure and neglect were not the same thing.”
+     The largest man turned toward the others. “We can stay long enough to understand where we are.”
 
-     The largest man looked at the six chairs. “And the seventh?”
+     Luke nodded. “And then?”
 
-     Ansel glanced at the empty seat. “It remains available.”
+     “Then we decide.”
 
-     “For him?”
+     Bill looked at the route behind them. “We keep the way back.”
 
-     “For whoever chooses it.”
+     Tyler recorded the seam, the empty chair, and the six men's account. Kirk checked the stone around the opening. Joseph waited. The Seventh Man listened for the bell.
 
-     The largest man accepted the answer. He knew what it meant to have a place prepared without being ordered to occupy it.
+     The seam opened.
 
-     Beyond the seam was another darkness. Luke smiled faintly.
+     Beyond it was another darkness, but this one carried the faint sound of water and a low vibration beneath the floor. The six men did not follow. Ansel remained beside the opening.
 
-     “Of course.”
+     “The city beneath the forest,” he said. “It is older than this room. Do not mistake its size for its purpose.”
 
-     Tyler laughed. “We just got here.”
-
-     The sound eased the room. The six men did not try to persuade them to stay or to go. They offered water and showed them where the records could be consulted. The ledger keeper placed his book on the table, open to the first room. The carpenter returned to his chair and checked the repaired arm. The guarded man stood near the entrance, not blocking it. Each man resumed the work that belonged to him.
-
-     Joseph looked at the empty chair once more. It did not feel like a vacancy. It felt like a decision that had not been made for someone else.
-
-     He looked at the Teller. The Teller looked back. Neither moved toward the seat.
-
-     “We just got here,” Tyler said again, more quietly.
-
-     Ansel nodded. “Then begin by staying long enough to learn where you are.”
-
-     Joseph looked at the six men, then at the open seam. He understood that the first world had not failed because it grew. It had failed when its men treated growth as proof that they no longer needed one another. The chamber had kept the evidence. The empty chair kept the question.
-
-     They stayed.
+     The travelers crossed together. The chamber remained behind them, with its six chairs occupied and the seventh empty.
 
 ## Chapter XXXIV: The City Beneath the Forest
 

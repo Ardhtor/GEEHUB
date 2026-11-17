@@ -5238,9 +5238,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      There was a moment when the change could no longer be called growth and had not yet become anything else. The largest man stood in the widening room with his hands at his sides, listening to the quiet pressure moving through his body. His chest had begun broadening again. Not upward, not outward in any ordinary direction, but across some boundary the room could not name. His shoulders seemed farther apart each time anyone looked away. The plane of his chest widened. The distance between one edge of him and the other became difficult to judge. The others watched without approaching. The Serum hovered on the table.
 
-     “Is he getting bigger?”
+     “Is he getting bigger?” one asked.
 
-     one asked. The seventh man shook his head.
+     The seventh man shook his head.
 
      “Not exactly.”
 
@@ -5248,11 +5248,177 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “He's becoming harder to contain in one description.”
 
-     The largest man breathed in. The room expanded. He breathed out. The room remained larger. That was the frightening part. Nothing returned to its former dimensions. The chest had crossed some invisible threshold, and the space around it had accepted the new shape as permanent. The old room had not vanished. It had become the memory of the room. He looked down at himself. For an instant he could see both bodies at once: the man who had entered the room, and the broader man standing there now. Neither erased the other. They occupied the same moment. The Serum brightened. The others understood that they were standing at a boundary. Behind them was the known shape. Before them was whatever came after it. The largest man smiled.
+     The largest man breathed in. The room expanded. He breathed out. The room remained larger. That was the frightening part. Nothing returned to its former dimensions. The chest had crossed some invisible threshold, and the space around it had accepted the new shape as permanent. The old room had not vanished. It had become the memory of the room. He looked down at himself. For an instant he could see both bodies at once: the man who had entered the room, and the broader man standing there now. Neither erased the other. They occupied the same moment. The Serum brightened. The others understood that they were standing at a boundary. Behind them was the known shape. Before them was whatever came after it.
+
+     The largest man smiled.
 
      “Then let it be both.”
 
      The walls opened another inch. Nobody moved. The chapter between one body and the next had begun.
+
+     The first man to approach was the one who had wanted the vessel destroyed. He kept a careful distance and studied the line of the largest man's shoulders. He had spent years repairing structural failures. He knew how a beam behaved when it carried more weight than it had been designed to hold. He looked at the ceiling, the doorway, and the floor beneath the man's feet.
+
+     “The room is taking the load,” he said.
+
+     “It isn't a load,” the seventh man replied.
+
+     “Everything has a load.”
+
+     “Then this room is learning.”
+
+     The repairer did not like the answer, but he checked the floor anyway. The boards had not cracked. The supports had shifted into a wider arrangement, and the old joints remained visible inside the new frame. He ran a hand along one of the beams. The timber was warm. It had not been replaced. It had grown into the additional span.
+
+     “I can reinforce it,” he said.
+
+     The largest man looked down at him. “If it needs reinforcing.”
+
+     “That's what I'm trying to establish.”
+
+     “Then establish it. Don't assume the answer.”
+
+     The repairer nodded. He took measurements from the floor and marked the positions on a small board. He did not measure the man's chest. He measured the room's response. The distinction mattered to him. A body was not a building, even if the building changed around it.
+
+     The man who had wanted strength watched from the opposite side of the table. He had expected the largest man's transformation to provide a model he could follow. Instead, the change had become less legible with every moment. He could see that the chest was broader, but he could not decide whether the broadening had a limit. He wanted to ask how it felt. He did not want to sound as though he were asking for a demonstration.
+
+     “Does it still feel like your body?” he asked.
+
+     The largest man looked at him.
+
+     “Yes.”
+
+     “Even now?”
+
+     “Especially now.”
+
+     The man considered that. He had imagined continuity as the preservation of a fixed shape. The largest man seemed to experience it as the ability to remain present through a change of shape. He looked toward the vessel, then back at the man.
+
+     “I thought more would mean leaving something behind.”
+
+     “Sometimes it does,” the largest man said. “That doesn't mean it has to.”
+
+     The seventh man stood beside the table. He was not trying to explain the Serum. He was watching the reflection in the glass. The vessel showed the largest man at several scales, but each image held the same posture. The reflection did not present a sequence of replacements. It showed one man with several dimensions of presence.
+
+     “The room is not copying him,” the seventh man said. “It is keeping the relation.”
+
+     “What relation?” asked the archivist.
+
+     “Between the man and the space that receives him.”
+
+     The archivist wrote the sentence down, then asked whether it was an observation or an interpretation.
+
+     “An interpretation,” the seventh man replied.
+
+     The archivist marked it accordingly. The distinction kept the record honest.
+
+     The largest man lifted one hand. The movement was slow, not from difficulty but from attention. His palm passed in front of his chest. The room widened a little farther, then stopped. He lowered his hand. Nothing contracted. He turned toward the others.
+
+     “I can still move.”
+
+     Luke laughed once. “Good. We were running out of room.”
+
+     Tyler looked at the floor marks. “We can update the plan.”
+
+     “You can try,” said the repairer.
+
+     Tyler took out his notebook. He drew the original room, then the expanded room, keeping both outlines on the same page. The old dimensions remained in thin lines. The new dimensions were drawn around them. He did not erase the first plan.
+
+     “That's better,” the largest man said.
+
+     “It is not finished.”
+
+     “It doesn't need to be.”
+
+     Bill had been quiet. He came forward with a chair, then stopped when he saw that the chair was too small for the new space and too ordinary to be useful as a test. He set it down beside the wall.
+
+     “You should sit when you're ready.”
+
+     “I'm all right.”
+
+     “I didn't ask whether you were all right. I said you should sit when you're ready.”
+
+     The largest man smiled. Bill had a way of making practical care sound like a matter of fact rather than an order. He stayed nearby without crowding him.
+
+     Joseph watched the men as they arranged themselves around the room. Some wanted to understand the transformation. Some wanted to protect the vessel. Some wanted to record the change. Each had a reason to remain, but none had been asked to surrender his own judgment. Joseph recognized that the room had become a meeting place without becoming a tribunal. He asked the largest man whether he wanted the others to leave.
+
+     “No.”
+
+     “Do you want them to keep watching?”
+
+     “They can decide.”
+
+     Joseph turned to the others. “Then don't make his body the only thing happening here.”
+
+     Luke moved away from the table and began helping the repairer check the floor. Tyler continued the plan. Bill brought water. The archivist returned to the ledger. The man who wanted strength sat down and tried to describe what he had seen without turning it into a promise about what might happen to him. The room became ordinary again, though its dimensions were no longer ordinary.
+
+     The Serum hovered above the table. Its light did not intensify. The largest man felt the change settle through his chest and shoulders. He could sense the earlier shape, not as a smaller man standing behind him but as the beginning of the same movement. The old dimensions remained available to memory and touch. He could remember the pressure of the former shirt, the way the doorway had framed his shoulders, the distance between his hands when they rested on the table. None of those details had become false.
+
+     The repairer finished his inspection. “The room is stable for now.”
+
+     “For now?” Luke asked.
+
+     “That's what I can establish.”
+
+     “You always say that.”
+
+     “Because it's true.”
+
+     The largest man laughed. The sound moved through the room and returned from the widened walls. It did not echo as it had before. The acoustics had changed. The room was holding a different volume of air, and the men could hear the difference.
+
+     The archivist asked permission to record the new dimensions of the man's chest. The largest man agreed, with one condition: the record must include the earlier measurements and state that the change had occurred without a known external force. The archivist agreed. He took the measurements carefully, asked the man to stand naturally, and wrote down the conditions. He did not describe the body as finished or complete. The record was dated and left open for later observations.
+
+     “What should I call this state?” the archivist asked.
+
+     The largest man looked toward the vessel.
+
+     “Call it the state I'm in.”
+
+     The archivist wrote that down too.
+
+     The man who had wanted the vessel destroyed returned to the table. He had been watching the Serum and the widened room. He now understood that the vessel could not be treated as a weapon simply because it produced a powerful change. He still wanted safeguards. He wanted a way to stop an experiment if it became dangerous. He wanted the men to agree on what counted as danger before they tried again.
+
+     “We need a stopping rule,” he said.
+
+     Tyler looked up. “A rule for what?”
+
+     “For the next change. If the room keeps expanding, if someone loses control, if the vessel reacts in a way we cannot reverse.”
+
+     Bill considered it. “A man should be able to stop for himself.”
+
+     Joseph added, “And another man should be able to ask for help without having to prove he is already in danger.”
+
+     The largest man listened. He did not treat the safeguards as an insult. He knew that the men were trying to make room for what they did not understand.
+
+     “Write the rule,” he said. “But don't write that change itself is danger.”
+
+     The archivist entered the condition. Any man involved in an experiment could pause or withdraw. Another man could call for a pause if he observed a specific risk. The reason had to be stated, and the decision would be reviewed afterward. No one could use the rule to prevent a man from changing merely because the result was unfamiliar.
+
+     The room settled. The largest man's chest remained in its new state. The walls remained open. The old outline on Tyler's plan stayed visible inside the new one. The vessel's reflection held both versions of the room. The men had not solved the meaning of the transformation, but they had found a way to remain present while it continued.
+
+     Later, when the others had left, the largest man stood alone beside the table. He placed one hand against his chest and felt the steady movement of breath. He could remember the man who had entered the room. He could remember the first expansion, the widening doorway, and the moment when the old shape stopped being the only available description. He did not need to choose between them.
+
+     The seventh man appeared in the doorway.
+
+     “Does it feel finished?”
+
+     “No.”
+
+     “Does that trouble you?”
+
+     “Not yet.”
+
+     The seventh man looked at the vessel. “The next state may not be larger.”
+
+     “I know.”
+
+     “It may be different.”
+
+     “I know that too.”
+
+     The two men stood in silence. The Serum's light passed over the table and the widened walls. Beyond the room, the city continued its work. A bridge was being repaired. A meal was being prepared. A record was being copied. No one had stopped living because the largest man had crossed a boundary.
+
+     The chapter between one body and the next had begun. It would not be measured by distance alone. It would be measured by what remained available: memory, choice, movement, the right to pause, and the ability to recognize the man who had been there before.
+
+     The largest man left the room when he was ready. The doorway remained wide enough for him. Behind him, the vessel continued to reflect both the old room and the new one.
 
 ## Chapter XXIII: The Field of Attention
 

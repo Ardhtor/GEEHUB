@@ -9470,31 +9470,19 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      They returned to possibility.
 
-     The button was gone.
-
-     The line remained.
-
-     Luke touched it first.
-
-     The line moved beneath his hand like a living road.
-
-     Tyler followed.
-
-     Kirk stepped into the space between them.
-
-     Joseph came last.
+     The button was gone. The line remained. It moved beneath the floor like a living road, visible only when one of the men looked directly at it. Luke touched it first. The line shifted beneath his hand, then continued into the distance. Tyler followed. Kirk stepped into the space between them. Joseph came last.
 
      Then hyperspace opened.
 
-     This time they knew enough not to name what they saw.
+     This time they knew enough not to name what they saw. They had spent twenty years learning how a world could be altered, and another stretch of time learning that alteration was not the same as creation. They had seen worlds refuse them. They had left rooms unchanged. They had learned to preserve an empty chair without deciding who should sit in it.
 
-     They played.
+     Now they played.
 
-     Luke pulled distances apart until a horizon became a doorway.
+     Luke pulled distances apart until a horizon became a doorway. He did not pull the doorway toward himself. He held it open and waited to see what might pass through.
 
-     Tyler folded the doorway into a room.
+     Tyler folded the doorway into a room. The room had no fixed walls. Each time he folded the passage, a new interior appeared. He tried to measure it, then stopped. The room was not failing to hold still. It was offering more than one way to be entered.
 
-     Kirk divided the room into four possible rooms.
+     Kirk divided the room into four possible rooms. Each had a different floor, a different light, and a different relation to the doorway. One was made of pale stone. One was made of dark wood. One had a ceiling that seemed to continue into the sky. The fourth had no visible ceiling at all.
 
      Joseph waited until all four possibilities became real.
 
@@ -9502,39 +9490,53 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The fifth appeared.
 
+     It was not a compromise between the others. It was a room with a window looking out onto a mountain that had not existed before. The window was open. The air smelled of rain and cedar. Somewhere beyond the mountain, a bell rang once.
+
      They laughed.
 
-     Twenty years had taught them that the best games were the ones whose rules changed because you were playing.
+     Twenty years had taught them that the best games were the ones whose rules changed because they were being played. A world that could not surprise them was only a reflection. A world that could surprise them had become a partner.
 
-     So they stopped trying to master the worlds.
+     They stopped trying to master the worlds.
 
-     They began making worlds that could surprise them.
+     They began making worlds that could answer.
 
-     A mountain learned to move.
+     A mountain learned to move. At first it shifted only a few inches, then returned to its former position. Luke pulled the horizon away from it. Tyler folded the distance into a corridor. Kirk gave the corridor four possible floors. Joseph waited. The mountain moved again, this time toward the room, not because Luke had pulled it but because it had found a route of its own.
 
-     A corridor learned to remember footsteps.
+     A corridor learned to remember footsteps. The first steps were Luke's. The next belonged to Tyler. Kirk walked the length of it and found that the corridor had preserved the difference between their weights and their pace. Joseph walked last. The corridor held the silence between his steps as carefully as it held the sound.
 
      A star became a door.
 
-     A door became a question.
+     The door became a question.
 
-     A question became a novel.
+     The question became a novel.
 
-     And the novel became another world.
+     The novel became another world.
 
-     Somewhere in the new hyperspace, the first room was still empty.
+     They entered that world and found that it had already begun to change. A road crossed a field and disappeared beneath a stand of trees. A house stood near the road with its door open. There was no one inside, but a table had been set for four men. The food was warm. The cups were full. Nobody had arranged the chairs in advance.
 
-     Somewhere else, four new lines were beginning.
+     Bill was not there. The others noticed his absence and left the fifth place open.
 
-     The boys kept moving.
+     They did not call him into the room. They did not pretend he had arrived. They ate, spoke, and continued the game. The empty place remained available without becoming a demand.
 
-     Not toward an ending.
+     The new world had learned something from the men.
 
-     Toward another turn.
+     It did not copy them. It did not reproduce their movements exactly. It took what they had made and changed it in ways they had not expected. The mountain shifted again. The corridor turned toward the house. The star-door appeared above the table, then vanished when nobody looked directly at it.
 
-     Another game.
+     Luke smiled.
 
-     Another unknown.
+     “Again?”
+
+     Tyler looked at the road. “Not the same way.”
+
+     Kirk examined the table. “Not with the same structure.”
+
+     Joseph listened to the bell. “Not before we know what it is asking.”
+
+     They looked at one another.
+
+     Then they began again.
+
+     Somewhere in the new hyperspace, the first room was still empty. Somewhere else, four new lines were beginning. The men kept moving, not toward an ending, but toward another turn, another game, another unknown.
 
      **PLAY AGAIN.**
 

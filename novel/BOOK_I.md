@@ -597,7 +597,6 @@
      “I can tell you what I remember.”
 
      “Then start there.”
-
      He did. He described the first days after the laboratory expanded, when the old corridors had become longer and the windows opened onto districts that had not existed the previous morning. He told her about the people who had arrived carrying ordinary objects and found those objects had become the beginnings of rooms. A woman had brought a cooking pot and discovered a kitchen organized around the meals she had once made for her family. A surveyor had brought a broken compass and found a whole street whose turns could only be understood by following its unreliable needle. A soldier had arrived with a button from a uniform and spent several days searching for the coat that belonged to it. The city had grown through these arrivals, but it had also learned to distinguish between a person's memory and the person's permission to have that memory used.
 
      “What happens when someone doesn't want to be remembered?” she asked.
@@ -674,6 +673,137 @@
 
      She took his hand. They crossed the lake together, carrying the city with them not as a possession but as a place they could return to. Beyond the outer shore, the old road waited beneath the trees. It was not the same road she had followed into the north, and it did not promise to take them back unchanged. It was enough that it continued.
 
+
+
+     The boat keeper had been waiting at the outer landing since before sunrise. He was a narrow man with a weather-darkened face and a habit of checking every fastening twice. He did not ask the sister why she was leaving. He asked whether the repaired strap would hold, whether the notebook was protected from spray, and whether either passenger had eaten. When she answered that they had, he looked at her brother.
+
+     “You have not.”
+
+     Her brother glanced at the bread in his hand as if he had forgotten it was there.
+
+     “I was going to.”
+
+     “Then do it before we leave the shelter. The crossing is longer when the wind turns.”
+
+     The sister almost laughed. “He has always been like that.”
+
+     “Like what?” her brother asked.
+
+     “Able to forget a meal while remembering the shape of a room he saw once.”
+
+     “The room may matter.”
+
+     “So does the meal.”
+
+     The boat keeper waited until he had eaten. He did not join their conversation, but he listened in the way of someone responsible for carrying people across water: not intrusively, and not with the assumption that private talk was irrelevant to safety. When they pushed away from the landing, he set the boat at an angle to the current and let the lake take its first measure of them.
+
+     The sister sat near the bow. Her brother kept the notebook on his knees, one hand resting over its cover. The city receded behind them. At first its towers remained distinct, then their windows became a single scattered brightness. The sister watched the shoreline rather than the skyline. She wanted to remember the actual shape of the place: the low roofs near the canal, the repaired quay, the narrow stair where a woman had been carrying baskets. A city could become a legend too quickly when viewed from a distance. She had no wish to let that happen to this one.
+
+     “What are you writing?” she asked.
+
+     “The route.”
+
+     “You can see it.”
+
+     “I can see where we are. I want to remember how we got here.”
+
+     “Those are different things.”
+
+     “Yes.”
+
+     He opened the notebook and drew the landing, the first turn, and the line of the outer shore. His marks were careful but not decorative. He left spaces where the water obscured the depth and wrote *unknown* rather than filling the gaps with a guess. The sister recognized that habit from their childhood. He had always been willing to leave a question unfinished if the alternative was pretending to know.
+
+     “You used to hate unfinished things,” she said.
+
+     “I hated things being left unfinished by someone who had promised to finish them.”
+
+     “That is not the same.”
+
+     “No. It isn't.”
+
+     The boat keeper adjusted the sail. “The channel bends east beyond the black posts. Don't mistake the reflected towers for markers. They move when the light changes.”
+
+     The sister looked where he pointed. Several pale vertical shapes stood on the water, each one resembling a tower seen upside down. They shifted as the boat advanced.
+
+     “Have people followed them?” she asked.
+
+     “Often enough.”
+
+     “And what happens?”
+
+     “They arrive somewhere they didn't mean to go.”
+
+     Her brother made a note. The sister noticed that he had written the warning without adding an explanation. She liked that. A warning did not become more useful because somebody made it sound profound.
+
+     Near midday they passed a low platform where a woman was waiting beside three crates. The boat keeper slowed and called to her. One of the crates had split, and several small objects lay in the water below it. The woman was trying to retrieve them with a hooked pole. The boat keeper brought them alongside. The sister saw that the objects were metal tags, each stamped with a number and a short line of writing.
+
+     “Records?” she asked.
+
+     “Route markers,” the woman said. “The current took the box.”
+
+     Her brother leaned over the side, but the boat keeper caught his sleeve.
+
+     “Not from there. You'll go in.”
+
+     He passed him a second hook. The sister took the pole from the woman and steadied the crate while the two men brought the tags up one by one. It was ordinary work, awkward and wet. One tag had been bent almost double. Another had lost its number. The woman examined each piece before putting it back.
+
+     “Can the city make another?” the sister asked.
+
+     “It can,” the woman replied. “But these were the ones I carried from the first landing. The new ones would mark the same routes, not the same journey.”
+
+     The sister nodded. She understood the distinction now. The city could reproduce a function without restoring the history that had made an object particular. The woman did not want a perfect replacement. She wanted the damaged tags returned to her custody so that she could decide whether to repair them, keep them, or let them go.
+
+     Her brother offered the notebook so she could record what had been recovered. The woman declined it and gave him the figures from memory. He wrote them down anyway, then read the list aloud. She corrected one number. He crossed it out with a single line, leaving the mistake visible.
+
+     “You keep the error?” the sister asked after they had pushed away.
+
+     “I keep the correction.”
+
+     “Why?”
+
+     “Because otherwise somebody will think I knew it correctly the first time.”
+
+     The boat keeper gave a small nod. “That saves arguments.”
+
+     “It also saves the person who made the correction,” the sister said.
+
+     Her brother looked at her. “You think of that first?”
+
+     “I think of who gets blamed when a record looks clean.”
+
+     He considered this, then added a note beside the corrected number. The sister could not read it from where she sat, but she knew he would include the woman's name only if she had agreed to it. The city had taught him to preserve what people brought; the journey was teaching him that preservation had to remain answerable to the people themselves.
+
+     In the afternoon the wind turned. The boat keeper changed course without announcing a crisis. He shortened the sail, shifted the weight, and took them through a narrow channel between two shelves of dark stone. The crossing became rough enough that the sister had to brace her feet. Her brother closed the notebook and held it beneath his coat.
+
+     “You can put it away,” she told him. “The water won't read it.”
+
+     “The water has already read enough.”
+
+     “Then let it have this afternoon.”
+
+     He looked at her, then tucked the notebook into the dry bag. It was a small concession, but she understood it as one. He had spent years in a place where every surface could become a record. He was learning that attention did not require the immediate preservation of everything it touched.
+
+     When the outer shore finally appeared, it did not rise like a wall. It gathered gradually from the haze: first a dark line, then trees, then the uneven roof of a waystation set back from the water. The boat keeper brought them in beside a landing built from old beams. He checked the rope, tested the cleat, and only then helped them ashore.
+
+     The sister thanked him. He answered by asking them to send word if the road markers had changed beyond the ridge. He did not ask them to report the city or describe what it had become. His concern was the route and the people who would use it next.
+
+     Her brother stood with the notebook under his arm, looking toward the trees.
+
+     “You remember this?” she asked.
+
+     “Not this exact place.”
+
+     “But the road?”
+
+     “I remember being certain there was a road.”
+
+     “That will have to do until we find it.”
+
+     He smiled. “You always did prefer the next practical step.”
+
+     “Somebody has to.”
+
+     They started toward the waystation. Behind them, the boat keeper was already checking the damaged crate and sorting the recovered tags. The city remained across the water, vast and bright, but the work that held it together was visible in the small things: a corrected number, a repaired strap, a person asked before her belongings were copied. The sister had not returned her brother to the life he had left. She had helped him carry one life into the reach of another. For now, that was enough.
 
 ## Chapter III: Big Daddy's Voice
 
@@ -1197,7 +1327,6 @@
      “Because the number is only the room you had before.”
 
      He continued downward. The lower floor expanded around him. A wall moved outward. A doorway became taller. A second hallway appeared. Behind it was a blue screen. Behind the blue screen was the seventh well. Behind the seventh well was the first room. Behind the first room was the next room. Big Daddy's Voice filled the house. KEEP THE FIRST ROOM. KEEP THE SECOND ROOM. KEEP THE THIRD. DO NOT DISCARD THE ORIGIN. DO NOT FEAR THE ACCUMULATION. THE NEW STATE CARRIES THE OLD STATE. THE NEW ROOM CARRIES THE OLD ROOM. THE NEW MAN CARRIES THE OLD MAN. THE NEW HISTORY CARRIES THE OLD HISTORY. MORE. The man smiled. The Serum in the lower chamber began to rise.
-
 
 
      What followed was less a revelation than a long accumulation of evidence. The farther they traveled, the more the country seemed to remember paths they had not consciously chosen. The landscape became a kind of manuscript written in weather, and every crossing added another sentence. They began to understand that the Hub did not create this world from nothing; it was learning how to read what had already gathered there.
@@ -1798,7 +1927,6 @@
      They began asking,
 
      “What do I become when he gives it to me?”
-
      That question opened the field. One man became funnier. One became quieter. One became more generous. One became fiercely loyal. One became a builder. One became a storyteller. One became fascinated by the Serum. Tyler became larger. Luke became harder to find. And Joseph remained. The Teller walked through the city and saw them all differently now. Not as competitors. As trajectories. Every man had become a different answer to the same question. What happens when someone looks at you long enough for you to change? The answer was never simply beauty. It was never simply desire. It was never simply growth. It was identity. And identity, once visible, created conflict. The city could feel it coming.
 
 ## Chapter XXIV: The House of the Seventh Light
@@ -2398,7 +2526,6 @@
      The Teller felt the floor vibrate. A pulse moved beneath them. Then another. The organism had noticed them. Every light in the valley turned toward the entrance. The city went silent. And from somewhere deep inside the enormous living structure came a sound like a voice attempting to remember a word.
 
 ## Chapter XXXV: The First Test
-
      The sound continued through the night. Nobody slept. By morning the city had changed. The paths between the houses were gone. The Digitorium could no longer be seen. The forest had closed around them. The men stood together in a clearing. Tyler looked at Luke.
 
      “What did it do?”
@@ -2998,7 +3125,6 @@
      He did not announce himself. He did not ask permission. He simply stood among the men and looked at them until they looked back.
 
      “So what do you want?”
-
      The question moved through the room.
 
      One man wanted a home.
@@ -3598,7 +3724,6 @@
      Adult.
 
      Familiar and unfamiliar at once.
-
      He stood beside an old doorway.
 
      The same doorway.
@@ -4198,7 +4323,6 @@
      They opened doors onto places that had not existed until the doors were opened.
 
      They made gravity into a game of catch.
-
      They threw a moon from one hand to another.
 
      Kirk made two identical worlds and challenged them to discover which was original.
@@ -4798,7 +4922,6 @@
      Then he looked at them.
 
      Nobody recognized him.
-
      He smiled as though he recognized them perfectly.
 
      “You're late,” he said.
@@ -5398,7 +5521,6 @@
      “And?”
 
      “And nothing here has earned the right to end.”
-
      The water fell.
 
      The basin emptied.

@@ -5229,9 +5229,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The largest man looked at the glass one last time before leaving. The reflection showed him as he had been when he first entered the room, then as he was now. Both images remained. The Serum had not made one false and the other true. It had made the distance between them visible.
 
-     “Let it be both,” he said.
+     The room held that distance. Beneath the table, the floor gave a small, measured shiver. The largest man looked down. It passed through him once, then stopped. No one spoke. The next change had not yet begun, but the room had already made space for it.
 
-     The room held.
+
 
 
 ## Chapter XXII: The Liminal Chest

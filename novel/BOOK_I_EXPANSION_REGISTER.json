@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "9611a101baaafbcc8acc40bfd7b0e0cdf739b95b",
+  "source_blob_sha": "13a277bcf89d377dd0ab42226580c40549a89017",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 7,
+    "completed": 10,
     "in_progress": 1,
-    "queued": 63,
+    "queued": 61,
     "empty_source": 0,
-    "next_chapter_index": 7,
-    "active_chapter_id": "book-i-viii",
-    "last_completed_chapter_id": "book-i-vii"
+    "next_chapter_index": 10,
+    "active_chapter_id": "book-i-xi",
+    "last_completed_chapter_id": "book-i-x"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -173,11 +173,11 @@
       "baseline_word_count": 913,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter in the whole-manuscript sweep. Not yet revised. Develop the four men's journey through the country between, preserve the old woman's practical, enigmatic presence without over-explaining her, and let Luke, Tyler, Kirk, and Joseph make distinct decisions as they travel. Keep the country physically tangible and the unresolved destination open.",
-      "current_word_count": 919
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "13a277bcf89d377dd0ab42226580c40549a89017",
+      "notes": "Expanded and verified at 4262 words. Developed the four men's journey through the unfinished country with an unfinished bridge, orchard, station, shelter, route markers, and practical travel choices. Luke's drive, Tyler's measured route work, Kirk's attention to overlooked details, and Joseph's reflective judgment remain distinct. The old woman's meaning and the distant sound remain unresolved.",
+      "current_word_count": 4262
     },
     {
       "chapter_id": "book-i-x",
@@ -185,15 +185,15 @@
       "title": "The House That Remembered",
       "source_heading": "Chapter X: The House That Remembered",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 1960,
+      "source_line": 2033,
       "baseline_word_count": 420,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
-      "current_word_count": 427
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "13a277bcf89d377dd0ab42226580c40549a89017",
+      "notes": "Expanded and verified at 4017 words. Developed the house as a living architectural encounter through two distinct architects, changing measurements, resident needs, preserved plans, restricted rooms, the copper vessel, and the rising Serum. Structural measurement remains useful but does not exhaust the building's history. The Serum's cause and the man's full identity remain open.",
+      "current_word_count": 4017
     },
     {
       "chapter_id": "book-i-xi",
@@ -205,10 +205,10 @@
       "baseline_word_count": 339,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter in the whole-manuscript sweep. Not yet revised. Expand the commit-history principle through lived consequences and a concrete sequence of revisions, preserving the distinction between a previous state and its replacement. Keep the repository metaphor grounded in the people, rooms, maps, images, and relationships already established.",
       "current_word_count": 345
     },
     {

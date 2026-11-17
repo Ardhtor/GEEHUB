@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "9eb25c93e1252c29daa6f416a40bfcb6d2d35965",
+  "source_blob_sha": "cd212df1db24d94ac1fb89ac9a82477151b6613f",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 34,
+    "completed": 35,
     "in_progress": 1,
-    "queued": 37,
+    "queued": 36,
     "empty_source": 0,
-    "next_chapter_index": 34,
-    "active_chapter_id": "book-i-xxxv",
-    "last_completed_chapter_id": "book-i-xxxiv"
+    "next_chapter_index": 35,
+    "active_chapter_id": "book-i-xxxvi",
+    "last_completed_chapter_id": "book-i-xxxv"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -575,7 +575,7 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "9eb25c93e1252c29daa6f416a40bfcb6d2d35965",
+      "last_verified_blob_sha": "cd212df1db24d94ac1fb89ac9a82477151b6613f",
       "notes": "Expanded and verified against Chapters XXXIII and XXXV. The city is developed as a reciprocal environment built with a living organism: memory changes streets, repair work follows the organism's movement, and the residents maintain rather than worship it. The organism notices the travelers and begins to form a word. All cast members are male.",
       "current_word_count": 1606
     },
@@ -589,11 +589,11 @@
       "baseline_word_count": 290,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the organism's first test as relational separation rather than physical attack. Preserve the men's individual memory anchors, Joseph and the Teller's chosen contact, and the word 'Continuance'. Keep all cast members male.",
-      "current_word_count": 296
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "cd212df1db24d94ac1fb89ac9a82477151b6613f",
+      "notes": "Expanded and verified against Chapters XXXIV and XXXVI. The organism's first test is relational separation, not physical attack. Each man recovers a distinct memory anchor; Joseph and the Teller choose contact without claiming that it restores every detail. The organism's word 'Continuance' names the principle carried forward. All cast members are male.",
+      "current_word_count": 1205
     },
     {
       "chapter_id": "book-i-xxxvi",
@@ -605,10 +605,10 @@
       "baseline_word_count": 214,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
+      "notes": "Next canonical chapter. Develop the House's response to the country and the return of the unknown man to the seventh chair. Preserve the distinction between memory and possession, the House as a living place, and the connection between worlds. Keep all cast members male.",
       "current_word_count": 223
     },
     {

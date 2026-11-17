@@ -155,9 +155,13 @@ deformation plan, then writes a new transparent body-layer PNG and adjacent
 SHA-256 receipt using exclusive creation. It refuses symlink inputs, changing
 input files, path collisions, invalid mesh identities, and existing outputs;
 if receipt publication fails, it removes only the output file created by that
-attempt. `npm run render:frame` handles one supplied frame plan; it does not
-yet derive plans from a queued job, batch a full sequence, reconstruct the
-background, composite the protected face layer, or export a finished video.
+attempt. The `prepare:render` command now writes a
+`<job-id>.deformation-plans.json` bundle beside the portable job and queued
+manifest. It samples approved growth states at each registered source timestamp,
+rechecks the exact mask bytes, and records one temporally validated plan per
+frame against the registered topology. `npm run render:frame` still consumes
+one extracted source PNG and one plan; automated batch rasterization, background
+reconstruction, protected-face compositing, and video export remain open.
 This is a first deformation slice,
 not a complete compositor:
 semantic correctness of upstream masks, perceptual jitter thresholds, clothing/depth

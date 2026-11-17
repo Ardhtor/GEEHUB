@@ -5,6 +5,8 @@ import path from "node:path";
 import { resolveDropboxUri } from "../core/bridge-exchange.js";
 import { inspectFrameSequenceFiles } from "../core/frame-sequence-worker.js";
 import { prepareBridgeRenderJob } from "../core/bridge-render-job.js";
+import { decodeBinaryMaskPng } from "../core/mask-pixels.js";
+import { prepareGrowthDeformationSequence } from "../core/render-plan-sequence.js";
 
 const usage = [
   "Usage:",
@@ -13,6 +15,7 @@ const usage = [
   "The growth-states file must contain an array of approved, cumulative growth states.",
   "The command reads registered segmentation, landmark, and deformation sidecars from the local Dropbox mirror.",
   "It writes a portable job and a new queued manifest into a new, non-overwriting bundle.",
+  "It also writes one validated, source-timestamped deformation plan per registered frame.",
   "",
   "Environment:",
   "  GEEHUB_DROPBOX_ROOT       Local Dropbox root (defaults to the standard macOS location)",
@@ -22,6 +25,7 @@ const usage = [
 ].join("\n");
 
 const sha256 = value => createHash("sha256").update(value, "utf8").digest("hex");
+const sha256Bytes = value => createHash("sha256").update(value).digest("hex");
 
 function slug(value) {
   const result = String(value).normalize("NFKD")
@@ -30,7 +34,7 @@ function slug(value) {
   return result;
 }
 
-async function readSafeDropboxText(uri, root) {
+async function readSafeDropboxBytes(uri, root) {
   const target = resolveDropboxUri(uri, root);
   const relative = path.relative(root, target);
   let current = root;
@@ -46,7 +50,11 @@ async function readSafeDropboxText(uri, root) {
       throw new Error("Sidecar is not a regular file: " + current);
     }
   }
-  return readFile(target, "utf8");
+  return readFile(target);
+}
+
+async function readSafeDropboxText(uri, root) {
+  return (await readSafeDropboxBytes(uri, root)).toString("utf8");
 }
 
 function matchesRegisteredMaskAudit(registered, actual) {
@@ -74,6 +82,20 @@ async function writeExclusive(filePath, content) {
       await rm(filePath, { force: true }).catch(() => {});
     }
     throw error;
+  }
+}
+
+async function removeIfSameContent(filePath, content) {
+  try {
+    const entry = await lstat(filePath);
+    if (entry.isSymbolicLink() || !entry.isFile()) return;
+    const current = await readFile(filePath);
+    const expected = Buffer.from(content, "utf8");
+    if (sha256Bytes(current) === sha256Bytes(expected)) {
+      await rm(filePath, { force: true });
+    }
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
   }
 }
 
@@ -195,6 +217,50 @@ async function main() {
     renderer: process.env.GEEHUB_RENDERER || "resolve-free"
   });
 
+  const protectedFaceMasks = await Promise.all(segmentationDocument.frames.map(async frame => {
+    const [bodyBytes, faceBytes] = await Promise.all([
+      readSafeDropboxBytes(frame.bodyMask.uri, dropboxRoot),
+      readSafeDropboxBytes(frame.faceMask.uri, dropboxRoot)
+    ]);
+    if (sha256Bytes(bodyBytes) !== frame.bodyMask.checksum.toLowerCase() ||
+        sha256Bytes(faceBytes) !== frame.faceMask.checksum.toLowerCase()) {
+      throw new Error("Registered mask bytes changed while deformation plans were being prepared at frame " + frame.frame);
+    }
+    const decodedFace = decodeBinaryMaskPng(faceBytes);
+    if (decodedFace.width !== segmentationDocument.width ||
+        decodedFace.height !== segmentationDocument.height) {
+      throw new Error("Protected-face mask dimensions changed at frame " + frame.frame);
+    }
+    return { frame: frame.frame, ...decodedFace };
+  }));
+  const planSequence = prepareGrowthDeformationSequence({
+    maskMesh: maskAudit.maskMesh,
+    landmarkFrames: landmarksDocument.frames,
+    protectedFaceMasks,
+    growthStates,
+    sourceDurationSeconds: manifest.source.duration
+  });
+  if (!planSequence.renderable) {
+    const violations = planSequence.temporal?.violations ?? [];
+    const detail = violations.map(item =>
+      item.type + " " + item.fromFrame + "-" + (item.toFrame ?? item.throughFrame) +
+      " at " + item.vertexId + " (" + item.value + " > " + item.limit + ")"
+    ).join("; ");
+    throw new Error("Growth deformation sequence is not renderable (" +
+      planSequence.status + ")" + (detail ? ": " + detail : ""));
+  }
+  const planBundle = {
+    schema: "geehub.render-plan-bundle",
+    schemaVersion: 1,
+    status: "ready-for-render",
+    jobId: prepared.jobId,
+    sequenceId: prepared.sequenceId,
+    sourceAssetId: manifest.source.id,
+    frameEvidence: structuredClone(prepared.portableJob.frameEvidence),
+    planSequence
+  };
+  const plansText = JSON.stringify(planBundle, null, 2) + "\n";
+
   const requestedPath = path.resolve(requestedBundle);
   if (!path.basename(requestedPath) || path.basename(requestedPath) === "." || path.basename(requestedPath) === "..") {
     throw new TypeError("Bundle directory must be a named child of its parent directory");
@@ -213,21 +279,21 @@ async function main() {
   }
 
   const jobPath = path.join(bundleDirectory, jobSlug + ".render-job.json");
+  const plansPath = path.join(bundleDirectory, jobSlug + ".deformation-plans.json");
   const manifestPath = path.join(bundleDirectory, jobSlug + ".manifest.json");
   const jobText = JSON.stringify(prepared.portableJob, null, 2) + "\n";
   const manifestText = JSON.stringify(prepared.manifest, null, 2) + "\n";
   let jobCreated = false;
+  let plansCreated = false;
   try {
     await writeExclusive(jobPath, jobText);
     jobCreated = true;
+    await writeExclusive(plansPath, plansText);
+    plansCreated = true;
     await writeExclusive(manifestPath, manifestText);
   } catch (error) {
-    if (jobCreated) {
-      const current = await readFile(jobPath, "utf8").catch(() => null);
-      if (current !== null && sha256(current) === sha256(jobText)) {
-        await rm(jobPath, { force: true }).catch(() => {});
-      }
-    }
+    if (plansCreated) await removeIfSameContent(plansPath, plansText);
+    if (jobCreated) await removeIfSameContent(jobPath, jobText);
     throw error;
   }
 
@@ -241,6 +307,10 @@ async function main() {
     manifestRevision: prepared.manifest.revision,
     jobFile: jobPath,
     manifestFile: manifestPath,
+    deformationPlansFile: plansPath,
+    deformationPlansSha256: sha256(plansText),
+    planFrameCount: planSequence.frameCount,
+    temporalStatus: planSequence.temporal.status,
     jobUri,
     outputUri,
     meshAudit: {

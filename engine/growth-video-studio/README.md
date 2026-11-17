@@ -223,6 +223,24 @@ rechecks the actual sidecar files before the Resolve inspector can audit the
 job. The Resolve integration remains a read-only handoff inspector;
 no local render is claimed by job preparation.
 
+## Source-timestamped deformation plan bundle
+
+The `prepare:render` command now completes the geometry-planning stage before it
+publishes a queued bundle. After reconstructing the registered mask mesh and
+rechecking the actual body/face PNG digests, it decodes the protected-face masks
+again and samples the approved cumulative growth states at each frame's
+source-clip timestamp over the immutable source duration. The resulting
+`geehub.render-plan-bundle` is written as
+`<job-id>.deformation-plans.json` beside the portable job and queued manifest.
+It carries the exact three frame-set IDs/checksums, topology digest, growth-state
+IDs, temporal audit, and one fixed-topology deformation plan per registered
+frame. A geometric, face, camera-boundary, or temporal failure prevents bundle
+publication; the job and plan files are removed if the final manifest cannot
+be written. The bundle is a plan artifact, not rendered imagery. The existing
+`render:frame` command still consumes one extracted source PNG and one frame
+plan; automated source-frame extraction, batch rasterization, background
+reconstruction, protected-face compositing, and video export remain open.
+
 ## AI creative-workstation framework
 
 The studio now has a first executable layer for AI-directed construction:

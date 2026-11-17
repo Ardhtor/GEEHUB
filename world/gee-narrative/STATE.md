@@ -165,7 +165,7 @@ Updated: 2026-11-16
 - Automatic person/body segmentation and face-excluding mask generation.
 - Automatic body landmark detection and confidence tracking.
 - Automatic segmentation-derived mesh triangulation and tracking from a model output; the current fixed grid is built from supplied masks.
-- A complete per-frame deformation/render worker that samples growth states, processes actual source frames, and validates a rendered sequence. The first fixed-topology vertex-deformation and Canvas handoff now exist, but no source-footage loop or output sequence has been executed.
+- A complete sequence renderer that consumes the registered plan bundle, reads extracted source frames, writes all body layers, and validates a batch receipt. The single-frame file worker and job-bound deformation-plan bundle now exist, but no source-footage loop or output sequence has been executed.
 - Garment and environment response driven by measured contact and depth.
 - Automated frame import from a render worker into Resolve.
 - Final growth-video rendering and export.
@@ -173,7 +173,7 @@ Updated: 2026-11-16
 
 ## Next construction targets
 1. Connect a real segmentation and landmark producer, then independently verify anatomical correctness; the current masks remain external producer inputs.
-2. Build the lossless per-frame deformation worker that consumes the exact registered mesh revision and validated growth-deformation plans, writing new frames without changing source footage.
+2. Build a batch frame worker that consumes the prepared deformation-plan bundle and extracted source PNGs, rechecks registered mask/mesh lineage, and writes a checksummed body-layer sequence without changing source footage.
 3. Composite the transformed body with protected face, clothing, and background layers; validate occlusion, silhouette stability, ground contact, and camera clearance.
 4. Add scene response and sequence validation for silhouette stability, clothing, ground contact, camera clearance, face protection, and occlusion.
 5. Return rendered frames and a checksummed video artifact to the bridge, then verify Resolve import and export behavior.
@@ -201,3 +201,11 @@ Each item changes status only when evidence exists.
 - `renderGrowthDeformationFrame` passes only a ready plan to the existing piecewise-affine Canvas warp. Six focused tests cover baseline identity, articulated surface movement, two-frame topology under source motion, growth regression, renderer handoff, and frame/mask evidence mismatch. The renderer test uses a fake Canvas context and verifies draw calls, not browser pixel output.
 - The deformation plan consumes decoded masks and tracked landmarks supplied by the caller. No segmentation model, source video, local Dropbox mirror, Mac, or Resolve session was run. The face pixels are not moved; the guard only prevents the body warp from painting over the supplied protected-face mask. Anatomical mask semantics, temporal jitter thresholds, depth/clothing response, bridge registration of mesh evidence, and actual frame-sequence export remain open.
 - The package workflow is configured to run the new tests through `npm test`, but the GitHub status endpoint returned no checks for the implementation commits. Node 22.16.0 syntax checks passed for the new module and test file. A six-test isolated harness passed with stubbed upstream growth/mask adapters; this does not replace the repository's full `npm test` suite. A local repository clone was unavailable because the environment could not resolve github.com, so the full suite and actual upstream integration remain unverified.
+
+
+## Source-timestamped deformation plan bundle added — 2026-11-17
+- `core/render-plan-sequence.js` samples the approved cumulative growth states at each mesh frame's source-clip timestamp over the immutable source duration, then calls the existing fixed-topology sequence deformation and temporal validator. It rejects incomplete/misaligned landmarks or protected-face masks, timestamps outside the source duration, invalid growth states, and meshes that are not ready and connected.
+- `tools/prepare-bridge-render-job.js` now re-reads every registered body and face mask file after the pixel audit, checks both bytes against the per-frame sidecar digests, decodes the protected-face mask for each frame, and builds one deformation plan per registered frame. A non-renderable geometry or temporal sequence blocks bundle publication.
+- A successful preparation bundle now contains three files: the portable render job, `<job-id>.deformation-plans.json`, and the queued manifest. The plans document binds the exact segmentation, landmark, and deformation frame-set IDs/checksums plus topology and growth-state lineage. The manifest is still written last; if it cannot be published, the newly created job and plan files are removed only when their contents still match this attempt.
+- Five focused tests cover source-timestamp interpolation, fixed topology, source-duration bounds, frame identity mismatches, temporal all-frame blocking, and invalid growth states. The plan bundle contains geometry instructions only; it does not extract source frames, rasterize a batch, reconstruct background, composite the protected face, or export video.
+- Local Dropbox, Mac, and Resolve execution remains unverified. The next construction is the batch frame worker that consumes this bundle and extracted source PNGs while rechecking the registered evidence at the pixel-file boundary.

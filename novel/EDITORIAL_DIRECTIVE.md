@@ -130,3 +130,8 @@ Clothing should retain personal identity. A familiar tank, shirt, pair of trunks
 Describe flesh as natural living anatomy rather than a hard sculptural surface: rounded connected muscle, believable skin, changes of weight and posture, soft tissue transitions and coherent contact with clothing or furniture. Keep the person's face, proportions and characteristic movement recognizable as the physical baseline develops. Where a visual source establishes a detail, preserve it; where it does not, do not invent measurements or claim visual evidence that has not been inspected.
 
 For production and cross-medium continuity, follow [the Clothing and Flesh System](../production/growth-study-001/CLOTHING_AND_FLESH_SYSTEM.md) and the [GEEHUB Sensation Engine](../SENSATION_ENGINE.md). Apply the same physical logic in prose, still images, comic sequences and animation, while allowing each medium to reveal different details.
+
+
+## Whole-book expansion instruction
+
+A broad request to update the story authorizes development across every existing chapter in the selected book, including chapters near the beginning and middle, not just the most recent material. Work from a chapter census and persistent progress register, revise existing chapters in place, and check continuity in both directions across the manuscript. The chapter expansion protocol and Book I register define this operation. New chapters may be written where the story needs them, but must not substitute for expanding existing chapters.

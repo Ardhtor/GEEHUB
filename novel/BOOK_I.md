@@ -427,29 +427,29 @@
 
 ## Chapter II: The First Return
 
-     The first people to return to the northern country did not come as explorers. They came because somebody was missing, and missing people have a way of making geography larger. A sister crossed the old military road looking for her brother, carrying a lantern, a blanket, a knife, and a map copied from another map copied from the original northern survey. She had been told that the journey would take twelve days. It took longer. The country had no obligation to honor the measurements of people who had drawn it from far away.
+     The first people to return to the northern country did not come as explorers. They came because somebody was missing, and missing people have a way of making geography larger. A elder brother crossed the old military road looking for his brother, carrying a lantern, a blanket, a knife, and a map copied from another map copied from the original northern survey. He had been told that the journey would take twelve days. It took longer. The country had no obligation to honor the measurements of people who had drawn it from far away.
 
-     The southern road ended in fields. The fields ended in low country. The low country opened into hills. The hills became forest. By the time she reached the amber woods, she had stopped asking when she would arrive and had begun asking what sort of person could disappear into so much land without leaving enough behind to be found. Her companions answered that her brother had worked at the northern laboratory. She knew that already. What she needed to know was why he had not come home.
+     The southern road ended in fields. The fields ended in low country. The low country opened into hills. The hills became forest. By the time he reached the amber woods, he had stopped asking when he would arrive and had begun asking what sort of person could disappear into so much land without leaving enough behind to be found. His companions answered that his brother had worked at the northern laboratory. He knew that already. What he needed to know was why he had not come home.
 
-     The seventh well stood beyond a ridge that took them most of a day to cross. From the crest they could see the country they had traveled through spread behind them like a second sea. Roads appeared as pale threads. Rivers flashed in the distance. Villages were too small to distinguish from stones. The world seemed to continue in every direction without requiring human presence. The sister stood there for a long time with the map in her hands.
+     The seventh well stood beyond a ridge that took them most of a day to cross. From the crest they could see the country they had traveled through spread behind them like a second sea. Roads appeared as pale threads. Rivers flashed in the distance. Villages were too small to distinguish from stones. The world seemed to continue in every direction without requiring human presence. The elder brother stood there for a long time with the map in his hands.
 
      “It cannot be this far,” one companion said.
 
-     She folded the map.
+     He folded the map.
 
      “Then the map is wrong.”
 
-     It was the first time she understood that the northern country did not merely contain mysteries. It had enough physical scale to conceal them.
+     It was the first time he understood that the northern country did not merely contain mysteries. It had enough physical scale to conceal them.
 
-     The outer gate of the seventh well stood open. Inside, the air smelled of wet copper and something sweet. She called her brother's name. Somewhere below them came the sound of a door opening.
+     The outer gate of the seventh well stood open. Inside, the air smelled of wet copper and something sweet. He called his brother's name. Somewhere below them came the sound of a door opening.
 
      They descended.
 
-     The chamber beneath the well was larger than the hill above it could possibly have contained. The reservoir had become a lake. Its far shore was so distant that the lights upon it looked like stars. Across the water stood the remains of the northern works, but they had expanded beyond any architecture she recognized. Towers rose from the opposite shore. Bridges crossed between them. Windows shone without flame. The old laboratory had become a city.
+     The chamber beneath the well was larger than the hill above it could possibly have contained. The reservoir had become a lake. Its far shore was so distant that the lights upon it looked like stars. Across the water stood the remains of the northern works, but they had expanded beyond any architecture he recognized. Towers rose from the opposite shore. Bridges crossed between them. Windows shone without flame. The old laboratory had become a city.
 
-     Her brother stood upon one of the bridges.
+     His brother stood upon one of the bridges.
 
-     She knew him immediately.
+     He knew him immediately.
 
      “Are you there?”
 
@@ -457,9 +457,9 @@
 
      Then the Serum moved.
 
-     It crossed the lake in silver bands, and every band reflected another version of the city. One tower became two. Two became four. Four became a forest of towers extending along the far shore until the horizon itself seemed built. Behind the first city another appeared. Behind that another. The sister realized that the lake was not merely holding water. It was holding consequences.
+     It crossed the lake in silver bands, and every band reflected another version of the city. One tower became two. Two became four. Four became a forest of towers extending along the far shore until the horizon itself seemed built. Behind the first city another appeared. Behind that another. The elder brother realized that the lake was not merely holding water. It was holding consequences.
 
-     Her brother looked older.
+     His brother looked older.
 
      Then younger.
 
@@ -467,15 +467,15 @@
 
      The city continued widening around him.
 
-     “Come home,” she called.
+     “Come home,” he called.
 
      His answer carried across an impossible distance.
 
      “Which home?”
 
-     She had no answer.
+     He had no answer.
 
-     She remained on the shore for three days. During those days she learned the scale of the place. At dawn the towers were narrow and pale. At noon they appeared enormous, built for people larger than men. At night their windows multiplied until the far shore resembled a second sky. Her companions grew tired of waiting. She did not. Her brother remained visible.
+     He remained on the shore for three days. During those days he learned the scale of the place. At dawn the towers were narrow and pale. At noon they appeared enormous, built for people larger than men. At night their windows multiplied until the far shore resembled a second sky. His companions grew tired of waiting. He did not. His brother remained visible.
 
      On the fourth morning a boat appeared.
 
@@ -487,21 +487,21 @@
 
      Beneath them was another city.
 
-     Roads crossed beneath the water. Houses stood beneath houses. Staircases descended into districts farther below. People walked beneath the boat, carrying lanterns. One looked upward. Another held a map. A third appeared to be carrying the same blanket the sister had brought from home.
+     Roads crossed beneath the water. Houses stood beneath houses. Staircases descended into districts farther below. People walked beneath the boat, carrying lanterns. One looked upward. Another held a map. A third appeared to be carrying the same blanket the elder brother had brought from home.
 
-     She understood then that the reservoir preserved journeys.
+     He understood then that the reservoir preserved journeys.
 
      Not objects alone. Not people alone. Relations.
 
      Every traveler left something behind. Every object remembered the hand that had carried it. Every person who entered left behind the shape of his intention. The lake had become an archive too large to fit inside ordinary architecture, and the city had grown because there were more memories than there was room to store them.
 
-     Her brother waited on the far shore.
+     His brother waited on the far shore.
 
      He looked neither old nor young.
 
      He looked continuous.
 
-     She approached him.
+     He approached him.
 
      “Are you my brother?”
 
@@ -509,7 +509,7 @@
 
      “I am what returned.”
 
-     She touched his face. It was warm.
+     He touched his face. It was warm.
 
      Behind him the city opened one of its gates.
 
@@ -519,25 +519,25 @@
 
      “Which home?”
 
-     She looked back.
+     He looked back.
 
      Behind them the road disappeared into the enormous country. The hills were small from this distance. The forest seemed endless. The southern world was somewhere beyond all of it, reduced to a direction rather than a place.
 
-     Her brother understood what she was seeing.
+     His brother understood what he was seeing.
 
      “You thought home was where you came from,” he said. “The reservoir taught me that home can also be where somebody remembers you.”
 
      They entered the city together.
 
-     Every house contained an object carried by somebody who had entered the reservoir: a knife, a blanket, a lantern, a child's wooden horse, a military button, a letter never delivered. The city had made architecture from what people refused to lose.
+     Every house contained an object carried by somebody who had entered the reservoir: a knife, a blanket, a lantern, a boy's wooden horse, a military button, a letter never delivered. The city had made architecture from what people refused to lose.
 
-     Her brother showed her the highest tower.
+     His brother showed his the highest tower.
 
-     From its upper room she could see farther than any human settlement she had ever known. The lake occupied the center of the world. Beyond it were forests, mountains, roads, and plains extending toward horizons she could not name. The city was only one bright arrangement inside an immense country.
+     From its upper room he could see farther than any human settlement he had ever known. The lake occupied the center of the world. Beyond it were forests, mountains, roads, and plains extending toward horizons he could not name. The city was only one bright arrangement inside an immense country.
 
-     “How far does it go?” she asked.
+     “How far does it go?” he asked.
 
-     Her brother looked outward.
+     His brother looked outward.
 
      “Farther.”
 
@@ -559,18 +559,18 @@
 
      Far away, almost beyond sight, seven lights appeared on the northern horizon.
 
-     The sister watched them and understood that finding her brother had not reduced the world. It had made the world larger.
+     The elder brother watched them and understood that finding his brother had not reduced the world. It had made the world larger.
 
 
      The return was not a simple reversal of the road. Distance had changed the people who crossed it, and every familiar place now carried the weight of what had happened elsewhere.
 
 
 
-     The first evening in the city was not spent in the tower. Her brother took her down through the lower districts, where the streets followed the shoreline and the houses stood close enough together for their upper windows to almost meet. The architecture had the quality of something assembled from remembered requirements. A doorway was wide where a traveler had once carried a heavy trunk. A stair turned gently where an older resident had needed somewhere to rest. A courtyard contained a stone basin and a bench worn smooth at one end. The city did not look newly built. It looked repeatedly used, repaired, and enlarged by people who had brought their needs with them.
+     The first evening in the city was not spent in the tower. His brother took his down through the lower districts, where the streets followed the shoreline and the houses stood close enough together for their upper windows to almost meet. The architecture had the quality of something assembled from remembered requirements. A doorway was wide where a traveler had once carried a heavy trunk. A stair turned gently where an older resident had needed somewhere to rest. A courtyard contained a stone basin and a bench worn smooth at one end. The city did not look newly built. It looked repeatedly used, repaired, and enlarged by people who had brought their needs with them.
 
-     Her brother showed her the house that contained the blanket. It was not displayed behind glass. It lay folded at the foot of a narrow bed in a room overlooking one of the lower canals. The cloth was the same dull color as the one she had carried across the country, and one corner had been repaired with a thread that matched the blanket she remembered from their childhood home. She reached toward it, then stopped.
+     His brother showed his the house that contained the blanket. It was not displayed behind glass. It lay folded at the foot of a narrow bed in a room overlooking one of the lower canals. The cloth was the same dull color as the one he had carried across the country, and one corner had been repaired with a thread that matched the blanket he remembered from their childhood home. He reached toward it, then stopped.
 
-     “Is it mine?” she asked.
+     “Is it mine?” he asked.
 
      “It came with you.”
 
@@ -578,11 +578,11 @@
 
      “You brought another one.”
 
-     He explained that the reservoir did not always preserve an object by removing it from the person who had carried it. Sometimes it preserved the relation between the object and its owner by making another instance, or by giving the memory of the object a place to remain. The blanket in the room was not the one folded in her pack. She checked. Her own blanket was still there, damp at the edges from the journey, smelling of smoke and wet wool. The one on the bed carried the same history but not the same wear. It had a small repair she had not yet made.
+     He explained that the reservoir did not always preserve an object by removing it from the person who had carried it. Sometimes it preserved the relation between the object and its owner by making another instance, or by giving the memory of the object a place to remain. The blanket in the room was not the one folded in his pack. He checked. His own blanket was still there, damp at the edges from the journey, smelling of smoke and wet wool. The one on the bed carried the same history but not the same wear. It had a small repair he had not yet made.
 
-     She sat beside it. For a moment she was unable to decide whether the city had remembered her accurately or had begun to anticipate her. The difference seemed important. Her brother did not tell her which explanation to choose.
+     He sat beside it. For a moment he was unable to decide whether the city had remembered his accurately or had begun to anticipate his. The difference seemed important. His brother did not tell his which explanation to choose.
 
-     “Does everything become a copy?” she asked.
+     “Does everything become a copy?” he asked.
 
      “No. Some things remain where they are. Some are remembered. Some return changed. Some never return at all.”
 
@@ -590,16 +590,15 @@
 
      He looked through the window toward the water. “I don't know which part of me you expected to find.”
 
-     She had expected to find her brother, and she had. Yet the answer unsettled her because it left the reunion open to further questions. She remembered his hands, his habit of pressing a thumb against the side of a cup, the way he had once gone silent when he was thinking. He still did those things. He also seemed to carry memories she had never shared with him, and there were pauses in his speech where she could sense an experience too large to be explained in one conversation.
+     He had expected to find his brother, and he had. Yet the answer unsettled his because it left the reunion open to further questions. He remembered his hands, his habit of pressing a thumb against the side of a cup, the way he had once gone silent when he was thinking. He still did those things. He also seemed to carry memories he had never shared with him, and there were pauses in his speech where he could sense an experience too large to be explained in one conversation.
 
-     “You can tell me what happened,” she said.
+     “You can tell me what happened,” he said.
 
      “I can tell you what I remember.”
 
      “Then start there.”
-     He did. He described the first days after the laboratory expanded, when the old corridors had become longer and the windows opened onto districts that had not existed the previous morning. He told her about the people who had arrived carrying ordinary objects and found those objects had become the beginnings of rooms. A woman had brought a cooking pot and discovered a kitchen organized around the meals she had once made for her family. A surveyor had brought a broken compass and found a whole street whose turns could only be understood by following its unreliable needle. A soldier had arrived with a button from a uniform and spent several days searching for the coat that belonged to it. The city had grown through these arrivals, but it had also learned to distinguish between a person's memory and the person's permission to have that memory used.
-
-     “What happens when someone doesn't want to be remembered?” she asked.
+     He did. He described the first days after the laboratory expanded, when the old corridors had become longer and the windows opened onto districts that had not existed the previous morning. He told his about the people who had arrived carrying ordinary objects and found those objects had become the beginnings of rooms. A man had brought a cooking pot and discovered a kitchen organized around the meals he had once made for his family. A surveyor had brought a broken compass and found a whole street whose turns could only be understood by following its unreliable needle. A soldier had arrived with a button from a uniform and spent several days searching for the coat that belonged to it. The city had grown through these arrivals, but it had also learned to distinguish between a person's memory and the person's permission to have that memory used.
+     “What happens when someone doesn't want to be remembered?” he asked.
 
      “Then we have to leave them room to disappear.”
 
@@ -609,23 +608,23 @@
 
      They walked farther. In a public hall, shelves held objects that had been offered for preservation. Each had a card describing where it had come from, who had brought it, and whether the person wanted it kept, lent, or left alone. Some cards were incomplete. One had only a date and the words *found beside the southern road*. Another recorded that its owner had changed his mind and wanted the object returned. A clerk was trying to locate him. The city was not perfect. It had accumulated more histories than its first custodians knew how to care for, and some of its early rooms had been built without asking what their inhabitants wanted.
 
-     Her brother did not defend those mistakes. He showed her a district that had been closed for several years because its houses had begun reproducing memories without distinction. A resident would enter a room to find a conversation repeated exactly as it had happened decades earlier. At first people had found the repetitions comforting. Later they discovered that the rooms were preventing new conversations from taking place. The district had been sealed, its records retained, and a new rule established: preservation could not be allowed to replace the living event. A memory was valuable because it made a relationship available, not because it could substitute for the people who had formed it.
+     His brother did not defend those mistakes. He showed his a district that had been closed for several years because its houses had begun reproducing memories without distinction. A resident would enter a room to find a conversation repeated exactly as it had happened decades earlier. At first people had found the repetitions comforting. Later they discovered that the rooms were preventing new conversations from taking place. The district had been sealed, its records retained, and a new rule established: preservation could not be allowed to replace the living event. A memory was valuable because it made a relationship available, not because it could substitute for the people who had formed it.
 
-     She thought of the southern house where their mother had kept old letters in a drawer. The letters had mattered, but nobody had mistaken them for the people who wrote them. They had been taken out on certain evenings, read, discussed, and put away again. The drawer had been a place where memory could rest without claiming the whole house.
+     He thought of the southern house where their mother had kept old letters in a drawer. The letters had mattered, but nobody had mistaken them for the people who wrote them. They had been taken out on certain evenings, read, discussed, and put away again. The drawer had been a place where memory could rest without claiming the whole house.
 
-     “You need ordinary rooms,” she said.
+     “You need ordinary rooms,” he said.
 
-     Her brother looked at her. “We have them.”
+     His brother looked at his. “We have them.”
 
      “You need more of them.”
 
-     He smiled, and for the first time that evening she recognized the expression without having to compare it with the past. “That is why I wanted you to come.”
+     He smiled, and for the first time that evening he recognized the expression without having to compare it with the past. “That is why I wanted you to come.”
 
-     The next morning she met the people who had crossed the reservoir with him. They were not the figures she had imagined while traveling. One was a quiet woman who kept the public records and disliked grand descriptions of the city. Another was a broad, practical man who repaired doors and bridges, insisting that a place could not call itself a home if its hinges did not work. A third had arrived as a child and was now old enough to oversee one of the boat routes. Each had a different account of the city's beginning. They disagreed about the first tower, the first street, and the number of people present when the lake became transparent. They did not treat the disagreements as threats. Their records preserved the differences, and their daily work depended on the things they could establish together.
+     The next morning he met the people who had crossed the reservoir with him. They were not the figures he had imagined while traveling. One was a quiet man who kept the public records and disliked grand descriptions of the city. Another was a broad, practical man who repaired doors and bridges, insisting that a place could not call itself a home if its hinges did not work. A third had arrived as a boy and was now old enough to oversee one of the boat routes. Each had a different account of the city's beginning. They disagreed about the first tower, the first street, and the number of people present when the lake became transparent. They did not treat the disagreements as threats. Their records preserved the differences, and their daily work depended on the things they could establish together.
 
-     The practical man asked her what she thought of the city.
+     The practical man asked his what he thought of the city.
 
-     “It is beautiful,” she said. “But it is very good at keeping things.”
+     “It is beautiful,” he said. “But it is very good at keeping things.”
 
      “That's what we built it for.”
 
@@ -637,15 +636,15 @@
 
      The records keeper, who had been listening, corrected him. “Not an office that decides what belongs to them. A place that helps them find out what they want returned.”
 
-     They argued about the wording for some time. The sister listened, then suggested that the place should be called the House of Returns. It would contain a table, a registry, a repair bench, and a room where people could sit with an object before deciding what to do with it. Nothing would be released merely because a record said it could be. The person who had carried it would have the final say whenever that person could be found and asked.
+     They argued about the wording for some time. The elder brother listened, then suggested that the place should be called the House of Returns. It would contain a table, a registry, a repair bench, and a room where people could sit with an object before deciding what to do with it. Nothing would be released merely because a record said it could be. The person who had carried it would have the final say whenever that person could be found and asked.
 
      The proposal was accepted provisionally. The city had acquired another district, not through the arrival of a new object but through a disagreement about what preservation was for.
 
-     On the third day she and her brother returned to the tower. From its upper room she could see the new building site beside the canal. Workers were laying a foundation. The practical man had already brought a set of tools. The records keeper was making a list of the first objects that might need to be returned. The city continued expanding beyond them, but for once its growth had been redirected toward a question of restraint.
+     On the third day he and his brother returned to the tower. From its upper room he could see the new building site beside the canal. Workers were laying a foundation. The practical man had already brought a set of tools. The records keeper was making a list of the first objects that might need to be returned. The city continued expanding beyond them, but for once its growth had been redirected toward a question of restraint.
 
-     “Will you come south with me?” she asked.
+     “Will you come south with me?” he asked.
 
-     Her brother did not answer immediately. He watched a boat move beneath the bridge. A man on the deck was carrying a small wooden box. The boat passed under an arch and emerged in a district where the buildings were older and lower. The city had given the traveler a route that followed the history of the box rather than the shortest distance between two points.
+     His brother did not answer immediately. He watched a boat move beneath the bridge. A man on the deck was carrying a small wooden box. The boat passed under an arch and emerged in a district where the buildings were older and lower. The city had given the traveler a route that followed the history of the box rather than the shortest distance between two points.
 
      “I want to see the house,” he said. “I want to know whether I remember it as you do. But I cannot promise that I will remain there.”
 
@@ -655,15 +654,15 @@
 
      “I asked you to come with me.”
 
-     He looked at her, and she saw that the distinction had reached him. The city had taught him that home could be made wherever someone remembered him, but it had not made every place interchangeable. The southern house still existed. Their shared past still had a geography. Returning to it would not erase the years he had spent in the reservoir, and staying in the city would not make their earlier life unreal.
+     He looked at his, and he saw that the distinction had reached him. The city had taught him that home could be made wherever someone remembered him, but it had not made every place interchangeable. The southern house still existed. Their shared past still had a geography. Returning to it would not erase the years he had spent in the reservoir, and staying in the city would not make their earlier life unreal.
 
-     They decided to leave after the next morning's tide. The boat would take them to the outer shore, where the road emerged from the lower forest. Her companions would travel with them as far as the ridge. The records keeper prepared a small packet of documents describing the city and the new House of Returns. The practical man repaired a loose strap on her pack. Her brother packed nothing except the notebook he had kept since his first arrival.
+     They decided to leave after the next morning's tide. The boat would take them to the outer shore, where the road emerged from the lower forest. His companions would travel with them as far as the ridge. The records keeper prepared a small packet of documents describing the city and the new House of Returns. The practical man repaired a loose strap on his pack. His brother packed nothing except the notebook he had kept since his first arrival.
 
-     Before dawn, she went alone to the lake. The surface was dark and still. Far below, the submerged streets carried their own pale light. She could see people moving between houses, some carrying objects, others walking with empty hands. She understood that the city would continue whether she remained or left. Its memory did not depend on her becoming part of it. That realization made departure easier. She did not have to choose between loving her brother and accepting the place that had kept him.
+     Before dawn, he went alone to the lake. The surface was dark and still. Far below, the submerged streets carried their own pale light. He could see people moving between houses, some carrying objects, others walking with empty hands. He understood that the city would continue whether he remained or left. Its memory did not depend on his becoming part of it. That realization made departure easier. He did not have to choose between loving his brother and accepting the place that had kept him.
 
-     When she returned to the tower, he was waiting by the door. They descended together. At the lower gate, he stopped and looked back at the city. It had no single center. Its towers, bridges, rooms, and canals had grown around the journeys of people who had arrived carrying different kinds of loss. From the shore, the whole arrangement looked almost like a forest of lights. From within, it was a place where someone had to repair a roof, prepare a meal, find a missing record, and make room for a new arrival.
+     When he returned to the tower, he was waiting by the door. They descended together. At the lower gate, he stopped and looked back at the city. It had no single center. Its towers, bridges, rooms, and canals had grown around the journeys of people who had arrived carrying different kinds of loss. From the shore, the whole arrangement looked almost like a forest of lights. From within, it was a place where someone had to repair a roof, prepare a meal, find a missing record, and make room for a new arrival.
 
-     The boat was ready. They boarded, and the city receded behind them without disappearing. Her brother watched until the upper towers became narrow marks against the far shore. Then he turned toward the country ahead.
+     The boat was ready. They boarded, and the city receded behind them without disappearing. His brother watched until the upper towers became narrow marks against the far shore. Then he turned toward the country ahead.
 
      “I remember the road,” he said.
 
@@ -671,23 +670,23 @@
 
      “The part where you kept going.”
 
-     She took his hand. They crossed the lake together, carrying the city with them not as a possession but as a place they could return to. Beyond the outer shore, the old road waited beneath the trees. It was not the same road she had followed into the north, and it did not promise to take them back unchanged. It was enough that it continued.
+     He took his hand. They crossed the lake together, carrying the city with them not as a possession but as a place they could return to. Beyond the outer shore, the old road waited beneath the trees. It was not the same road he had followed into the north, and it did not promise to take them back unchanged. It was enough that it continued.
 
 
 
-     The boat keeper had been waiting at the outer landing since before sunrise. He was a narrow man with a weather-darkened face and a habit of checking every fastening twice. He did not ask the sister why she was leaving. He asked whether the repaired strap would hold, whether the notebook was protected from spray, and whether either passenger had eaten. When she answered that they had, he looked at her brother.
+     The boat keeper had been waiting at the outer landing since before sunrise. He was a narrow man with a weather-darkened face and a habit of checking every fastening twice. He did not ask the elder brother why he was leaving. He asked whether the repaired strap would hold, whether the notebook was protected from spray, and whether either passenger had eaten. When he answered that they had, he looked at his brother.
 
      “You have not.”
 
-     Her brother glanced at the bread in his hand as if he had forgotten it was there.
+     His brother glanced at the bread in his hand as if he had forgotten it was there.
 
      “I was going to.”
 
      “Then do it before we leave the shelter. The crossing is longer when the wind turns.”
 
-     The sister almost laughed. “He has always been like that.”
+     The elder brother almost laughed. “He has always been like that.”
 
-     “Like what?” her brother asked.
+     “Like what?” his brother asked.
 
      “Able to forget a meal while remembering the shape of a room he saw once.”
 
@@ -697,9 +696,9 @@
 
      The boat keeper waited until he had eaten. He did not join their conversation, but he listened in the way of someone responsible for carrying people across water: not intrusively, and not with the assumption that private talk was irrelevant to safety. When they pushed away from the landing, he set the boat at an angle to the current and let the lake take its first measure of them.
 
-     The sister sat near the bow. Her brother kept the notebook on his knees, one hand resting over its cover. The city receded behind them. At first its towers remained distinct, then their windows became a single scattered brightness. The sister watched the shoreline rather than the skyline. She wanted to remember the actual shape of the place: the low roofs near the canal, the repaired quay, the narrow stair where a woman had been carrying baskets. A city could become a legend too quickly when viewed from a distance. She had no wish to let that happen to this one.
+     The elder brother sat near the bow. His brother kept the notebook on his knees, one hand resting over its cover. The city receded behind them. At first its towers remained distinct, then their windows became a single scattered brightness. The elder brother watched the shoreline rather than the skyline. He wanted to remember the actual shape of the place: the low roofs near the canal, the repaired quay, the narrow stair where a man had been carrying baskets. A city could become a legend too quickly when viewed from a distance. He had no wish to let that happen to this one.
 
-     “What are you writing?” she asked.
+     “What are you writing?” he asked.
 
      “The route.”
 
@@ -711,9 +710,9 @@
 
      “Yes.”
 
-     He opened the notebook and drew the landing, the first turn, and the line of the outer shore. His marks were careful but not decorative. He left spaces where the water obscured the depth and wrote *unknown* rather than filling the gaps with a guess. The sister recognized that habit from their childhood. He had always been willing to leave a question unfinished if the alternative was pretending to know.
+     He opened the notebook and drew the landing, the first turn, and the line of the outer shore. His marks were careful but not decorative. He left spaces where the water obscured the depth and wrote *unknown* rather than filling the gaps with a guess. The elder brother recognized that habit from their childhood. He had always been willing to leave a question unfinished if the alternative was pretending to know.
 
-     “You used to hate unfinished things,” she said.
+     “You used to hate unfinished things,” he said.
 
      “I hated things being left unfinished by someone who had promised to finish them.”
 
@@ -723,9 +722,9 @@
 
      The boat keeper adjusted the sail. “The channel bends east beyond the black posts. Don't mistake the reflected towers for markers. They move when the light changes.”
 
-     The sister looked where he pointed. Several pale vertical shapes stood on the water, each one resembling a tower seen upside down. They shifted as the boat advanced.
+     The elder brother looked where he pointed. Several pale vertical shapes stood on the water, each one resembling a tower seen upside down. They shifted as the boat advanced.
 
-     “Have people followed them?” she asked.
+     “Have people followed them?” he asked.
 
      “Often enough.”
 
@@ -733,29 +732,29 @@
 
      “They arrive somewhere they didn't mean to go.”
 
-     Her brother made a note. The sister noticed that he had written the warning without adding an explanation. She liked that. A warning did not become more useful because somebody made it sound profound.
+     His brother made a note. The elder brother noticed that he had written the warning without adding an explanation. He liked that. A warning did not become more useful because somebody made it sound profound.
 
-     Near midday they passed a low platform where a woman was waiting beside three crates. The boat keeper slowed and called to her. One of the crates had split, and several small objects lay in the water below it. The woman was trying to retrieve them with a hooked pole. The boat keeper brought them alongside. The sister saw that the objects were metal tags, each stamped with a number and a short line of writing.
+     Near midday they passed a low platform where a man was waiting beside three crates. The boat keeper slowed and called to his. One of the crates had split, and several small objects lay in the water below it. The man was trying to retrieve them with a hooked pole. The boat keeper brought them alongside. The elder brother saw that the objects were metal tags, each stamped with a number and a short line of writing.
 
-     “Records?” she asked.
+     “Records?” he asked.
 
-     “Route markers,” the woman said. “The current took the box.”
+     “Route markers,” the man said. “The current took the box.”
 
-     Her brother leaned over the side, but the boat keeper caught his sleeve.
+     His brother leaned over the side, but the boat keeper caught his sleeve.
 
      “Not from there. You'll go in.”
 
-     He passed him a second hook. The sister took the pole from the woman and steadied the crate while the two men brought the tags up one by one. It was ordinary work, awkward and wet. One tag had been bent almost double. Another had lost its number. The woman examined each piece before putting it back.
+     He passed him a second hook. The elder brother took the pole from the man and steadied the crate while the two men brought the tags up one by one. It was ordinary work, awkward and wet. One tag had been bent almost double. Another had lost its number. The man examined each piece before putting it back.
 
-     “Can the city make another?” the sister asked.
+     “Can the city make another?” the elder brother asked.
 
-     “It can,” the woman replied. “But these were the ones I carried from the first landing. The new ones would mark the same routes, not the same journey.”
+     “It can,” the man replied. “But these were the ones I carried from the first landing. The new ones would mark the same routes, not the same journey.”
 
-     The sister nodded. She understood the distinction now. The city could reproduce a function without restoring the history that had made an object particular. The woman did not want a perfect replacement. She wanted the damaged tags returned to her custody so that she could decide whether to repair them, keep them, or let them go.
+     The elder brother nodded. He understood the distinction now. The city could reproduce a function without restoring the history that had made an object particular. The man did not want a perfect replacement. He wanted the damaged tags returned to his custody so that he could decide whether to repair them, keep them, or let them go.
 
-     Her brother offered the notebook so she could record what had been recovered. The woman declined it and gave him the figures from memory. He wrote them down anyway, then read the list aloud. She corrected one number. He crossed it out with a single line, leaving the mistake visible.
+     His brother offered the notebook so he could record what had been recovered. The man declined it and gave him the figures from memory. He wrote them down anyway, then read the list aloud. He corrected one number. He crossed it out with a single line, leaving the mistake visible.
 
-     “You keep the error?” the sister asked after they had pushed away.
+     “You keep the error?” the elder brother asked after they had pushed away.
 
      “I keep the correction.”
 
@@ -765,31 +764,31 @@
 
      The boat keeper gave a small nod. “That saves arguments.”
 
-     “It also saves the person who made the correction,” the sister said.
+     “It also saves the person who made the correction,” the elder brother said.
 
-     Her brother looked at her. “You think of that first?”
+     His brother looked at his. “You think of that first?”
 
      “I think of who gets blamed when a record looks clean.”
 
-     He considered this, then added a note beside the corrected number. The sister could not read it from where she sat, but she knew he would include the woman's name only if she had agreed to it. The city had taught him to preserve what people brought; the journey was teaching him that preservation had to remain answerable to the people themselves.
+     He considered this, then added a note beside the corrected number. The elder brother could not read it from where he sat, but he knew he would include the man's name only if he had agreed to it. The city had taught him to preserve what people brought; the journey was teaching him that preservation had to remain answerable to the people themselves.
 
-     In the afternoon the wind turned. The boat keeper changed course without announcing a crisis. He shortened the sail, shifted the weight, and took them through a narrow channel between two shelves of dark stone. The crossing became rough enough that the sister had to brace her feet. Her brother closed the notebook and held it beneath his coat.
+     In the afternoon the wind turned. The boat keeper changed course without announcing a crisis. He shortened the sail, shifted the weight, and took them through a narrow channel between two shelves of dark stone. The crossing became rough enough that the elder brother had to brace his feet. His brother closed the notebook and held it beneath his coat.
 
-     “You can put it away,” she told him. “The water won't read it.”
+     “You can put it away,” he told him. “The water won't read it.”
 
      “The water has already read enough.”
 
      “Then let it have this afternoon.”
 
-     He looked at her, then tucked the notebook into the dry bag. It was a small concession, but she understood it as one. He had spent years in a place where every surface could become a record. He was learning that attention did not require the immediate preservation of everything it touched.
+     He looked at his, then tucked the notebook into the dry bag. It was a small concession, but he understood it as one. He had spent years in a place where every surface could become a record. He was learning that attention did not require the immediate preservation of everything it touched.
 
      When the outer shore finally appeared, it did not rise like a wall. It gathered gradually from the haze: first a dark line, then trees, then the uneven roof of a waystation set back from the water. The boat keeper brought them in beside a landing built from old beams. He checked the rope, tested the cleat, and only then helped them ashore.
 
-     The sister thanked him. He answered by asking them to send word if the road markers had changed beyond the ridge. He did not ask them to report the city or describe what it had become. His concern was the route and the people who would use it next.
+     The elder brother thanked him. He answered by asking them to send word if the road markers had changed beyond the ridge. He did not ask them to report the city or describe what it had become. His concern was the route and the people who would use it next.
 
-     Her brother stood with the notebook under his arm, looking toward the trees.
+     His brother stood with the notebook under his arm, looking toward the trees.
 
-     “You remember this?” she asked.
+     “You remember this?” he asked.
 
      “Not this exact place.”
 
@@ -803,7 +802,7 @@
 
      “Somebody has to.”
 
-     They started toward the waystation. Behind them, the boat keeper was already checking the damaged crate and sorting the recovered tags. The city remained across the water, vast and bright, but the work that held it together was visible in the small things: a corrected number, a repaired strap, a person asked before her belongings were copied. The sister had not returned her brother to the life he had left. She had helped him carry one life into the reach of another. For now, that was enough.
+     They started toward the waystation. Behind them, the boat keeper was already checking the damaged crate and sorting the recovered tags. The city remained across the water, vast and bright, but the work that held it together was visible in the small things: a corrected number, a repaired strap, a person asked before his belongings were copied. The elder brother had not returned his brother to the life he had left. He had helped him carry one life into the reach of another. For now, that was enough.
 
 ## Chapter III: Big Daddy's Voice
 
@@ -1198,7 +1197,6 @@
      She turned toward the window.
 
      “The country between.”
-
      None of them understood.
 
      Outside, the stream had begun to run backward.
@@ -1797,7 +1795,6 @@
      “No,”
 
      said the largest man.
-
      “We’re responding to it.”
 
      The argument broke open. One man wanted to destroy the vessel. Another seized it and held it against his chest. Two others tried to pull it away. Someone knocked the table sideways. Glass struck the floor but did not break. The Serum remained suspended inside its container, perfectly intact, shining between them.
@@ -2398,7 +2395,6 @@
      “We've never been here.”
 
      Luke shook his head.
-
      “No.”
 
      He looked up.
@@ -2997,7 +2993,6 @@
      “Maybe this is what the missing man wanted.”
 
      “What?”
-
      Tyler rested his hands on his knees.
 
      “A place nobody could find.”
@@ -3598,7 +3593,6 @@
      Tyler crossed behind him.
 
      Kirk remained beside the wall.
-
      Joseph stayed in the center.
 
      The room changed.
@@ -4197,7 +4191,6 @@
      The button remained behind them.
 
      Waiting for the next hand.
-
 ## Chapter LIV: Play Again
 
      They did not return to the beginning.
@@ -4798,7 +4791,6 @@
      The room changed.
 
      The world had heard him.
-
      A new passage opened.
 
      This one had no evidence in it at all.
@@ -5397,7 +5389,6 @@
      Bill looked at the handle. “You did.”
 
      “Then how did you have it?”
-
      “That's what keeping means.”
 
      The stranger frowned.

@@ -5948,197 +5948,189 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The first attack came from below.
 
-     The pavement opened beneath the eastern district and swallowed an entire row of residences. Men ran through the streets carrying screens, books, tools, photographs, and pieces of machinery. The city did not collapse. It rearranged itself around the missing buildings.
+     The pavement opened beneath the eastern district and swallowed an entire row of residences. The buildings did not fall. Their lower floors simply ceased to be connected to the streets above. Men ran through the district carrying screens, books, tools, photographs, and pieces of machinery. A porter dropped his crate and went back for the man who had been working beside him. Two mechanics pulled a cart clear of the opening. The city did not collapse. It rearranged itself around the missing buildings, but the new arrangement had no stable edge.
 
-     Luke reached the square first.
+     Luke reached the square first. He heard the sound before he saw the opening: a low scrape traveling beneath the paving, followed by a series of knocks that seemed to come from different depths. The stones separated in a widening circle. A dark line showed between them. It was not a crack. It was a mark, narrow and deliberate, as though somebody had drawn beneath the city and the ground had decided to obey.
 
-     Something was rising from the opening.
+     Something rose from the opening.
 
-     It had no fixed shape. At one moment it resembled a machine. At another, a man. At another, a staircase descending into itself.
+     At one moment it resembled a machine. At another, a man standing at the bottom of a stair. Then it became a staircase descending into itself. Its outline changed whenever a man tried to describe it. The men in the square saw different things, but all of them felt the same pressure: a memory arriving without the event that should have made it.
 
      “That's from the reservoir,” Tyler said.
 
-     “No,” Kirk answered. “It's from the part of the reservoir nobody remembered.”
+     “No,” Kirk answered. He had knelt beside the edge and was examining the stone. “It's from the part of the reservoir nobody remembered.”
 
-     The creature struck the square.
+     The figure struck the square.
 
-     The impact produced no explosion. Instead, every man nearby remembered a different version of the same moment. Some remembered the creature arriving. Others remembered it already standing there. One man remembered defeating it before the battle began.
+     There was no explosion. Every man nearby remembered a different version of the same moment. Some remembered the figure arriving. Others remembered it already standing there. One man remembered defeating it before the attack began. A porter remembered carrying the missing buildings out of the district himself. The memories were vivid, but none could be placed in a sequence.
 
-     Joseph understood the danger.
+     Tyler began recording the accounts. He asked each man to describe what he had seen without correcting another man's version. The reports contradicted one another. He wrote them in separate columns.
 
-     “Don't fight its versions.”
+     “We cannot use these as a single chronology,” he said.
 
-     Luke looked at him.
+     Luke looked toward the figure. “We don't have time to make a perfect record.”
 
-     “Then what do we fight?”
+     “We need a record that does not lie.”
+
+     “Then record what we do.”
+
+     Luke moved toward the opening. The figure appeared at the far side of the square, then behind him, then beneath the paving. He turned and struck at the nearest outline. His hand passed through it. The impact landed somewhere else. A stone bench split down the middle, and the men standing beside it remembered Luke breaking it the previous day.
+
+     He stopped.
+
+     “That wasn't me.”
+
+     “Not in this account,” Tyler said.
+
+     “Then which account is true?”
+
+     Joseph came up beside them. “Don't fight its versions.”
+
+     Luke looked at him. “Then what do we fight?”
 
      “The thing connecting them.”
 
-     They stopped attacking the body.
+     The largest man reached the square and saw the residences hanging above the opening, their lower rooms suspended over a depth that had not been there. He moved beneath the nearest beam and braced it with both hands. The structure shifted against his weight. He did not try to force it back into place. He held it long enough for the men inside to cross into the next building.
 
-     They began following the relation.
+     “Keep moving,” he called. “Don't carry furniture. Take what you need to remember.”
 
-     Wherever one version moved, another appeared. Wherever one door closed, another opened. The men moved from street to street until they found the central point: a small black mark beneath the pavement.
+     A man came through the doorway with a box of photographs. Another carried a small case of tools. A third had a monitor under one arm and a notebook in the other. The largest man kept the passage open until the last man had crossed. Then the floor moved again. He released the beam and stepped back before the building could settle against him.
 
-     Kirk placed his hand over it.
+     Bill had taken charge of the eastern route. He directed the men toward the public kitchen and the upper bridge, keeping the path clear for those carrying supplies. He stopped a man who was trying to drag a heavy cabinet away from the edge.
 
-     “This is the artifact.”
+     “Leave it.”
 
-     Tyler understood.
+     “My records are inside.”
 
-     “The creature is what happens when the artifact has no history.”
+     “Take the records. Leave the cabinet.”
 
-     Joseph placed the blank paper beside the mark.
+     The man hesitated. Bill helped him remove the drawers. They carried the contents together and left the cabinet where it stood. Bill did not ask what the records meant to him. He knew that a man could decide what mattered only when he had been given enough time to choose.
 
-     Luke placed the key on top.
+     Kirk followed the dark mark beneath the pavement. It continued through the square and under the eastern arcade. The stones above it had not cracked. Their surfaces were intact, but their arrangement no longer matched the city's plan. He found a place where the line passed beneath a support column. The column stood upright, yet its shadow fell in two directions.
+
+     “Tyler,” he called. “I need your measurements.”
+
+     Tyler came with his notebook. They compared the column's position with the original city survey. The measurements did not agree, but the discrepancy was not random. Each version of the street placed the column at a different point along the same line.
+
+     “The figure is using the city's records,” Tyler said.
+
+     “Or the city is remembering the figure,” Kirk replied.
+
+     “We need to separate those possibilities.”
+
+     “We need to find where the mark goes.”
+
+     Joseph had taken the blank paper from his coat. The line on it had extended beyond the circle. He held it above the dark mark. The paper did not touch the ground, but its edge trembled.
+
+     “The keeper's map showed this,” he said.
+
+     “It showed a line beneath the city,” Tyler replied. “Not this exact mark.”
+
+     “The line was a decision that had not been carried.”
+
+     “And now?”
+
+     Joseph looked at the opening. “Now something has been carried without being remembered.”
+
+     The Seventh Man stood at the edge of the arcade. He had not approached the figure. He watched the different outlines appear and vanish, and seemed to be listening for a sound beneath them.
+
+     “It has no history,” he said.
+
+     Kirk looked up. “Everything has a history.”
+
+     “Not everything has one it can keep.”
+
+     Tyler wrote the sentence down. “What does that mean?”
+
+     “It has been used, moved, and repeated. But no man has kept the account of why.”
+
+     The figure appeared at the end of the arcade. This time it had the outline of a man carrying a small black object. The object was visible in every version, even when the figure changed. Luke moved toward it, but Joseph held out an arm.
+
+     “Wait.”
+
+     “We know where it is.”
+
+     “We know where it appears.”
+
+     Kirk studied the shadow beneath the figure. It fell across the paving, then continued through a wall. He followed the line with his eyes until it reached a small black mark beneath a broken tile.
+
+     “There,” he said.
+
+     The men moved together. The figure appeared between them, but they did not strike it. Tyler recorded its position. Bill cleared the route behind them. The largest man stood where the arcade narrowed, keeping the passage open. Luke approached the tile. Joseph placed the blank paper beside the mark.
+
+     The figure changed again. It became a machine with a dark opening where its center should have been. Then a man with no face. Then a staircase. Each version seemed to ask the men to respond to the form rather than the thing that connected them.
+
+     “Don't follow the shape,” the Seventh Man said. “Follow what remains.”
+
+     Kirk lifted the broken tile. Beneath it lay a small black object, flat and smooth, with no inscription or visible seam. It was cold. The object did not resemble any of the seven artifacts from the keeper's room, but the line on Joseph's paper ran directly toward it.
+
+     “This is the artifact,” Kirk said.
+
+     Tyler crouched beside him. “It has no label.”
+
+     “No record,” Joseph said.
+
+     “No known owner,” Bill added.
+
+     Luke looked at the black surface. “Then we give it a history.”
+
+     The largest man glanced toward the figure. “Not by claiming it.”
+
+     “By recording what happens,” Tyler said.
+
+     Joseph placed the blank paper beside the object. Luke set the brass key on top of the paper, not on the artifact. Kirk held the tile away from the mark. Bill kept the route clear. The Seventh Man watched the figure. The largest man remained at the arcade entrance, holding the passage open.
 
      The black shape stopped moving.
 
-     The city breathed.
+     The figure did not disappear. Its outlines gathered around the mark, as though the different versions had found a common point. The staircase folded inward. The machine lost its separate parts. The man-shaped outline lowered its hands. The square became quiet enough for Tyler to hear the water moving beneath the paving.
 
-     The creature collapsed into a single shadow.
+     He began a new record. He wrote down the position of the artifact, the time, the accounts given by the men, and the order in which the objects had been placed. He did not write that the key had defeated the figure. The sequence did not prove that. He recorded only what they had done and what followed.
 
-     Then it became a road.
+     Kirk looked at the black object. “It is still here.”
 
-     The first warning had come from the eastern storehouse. A porter had heard a low sound beneath the floor and found that the shelves were vibrating. He had moved the crates into the corridor before the pavement opened. The men who lived above the storehouse escaped with their tools and records, but the rooms themselves disappeared into the dark. The city did not lose the buildings. It lost access to the versions of them that had been used each day.
+     “Yes,” Tyler said.
 
-     Bill organized the evacuation. He sent men toward the western hall and kept the central street clear. He did not let the residents crowd around the opening to watch. The men who had lost their rooms were given temporary space in the Garden and the upper archive. Their belongings were carried in separate loads, each marked with the name of the man who had brought it. Bill knew that a room could be rebuilt. He did not want a man's tools or records to become anonymous in the process.
+     “But the figure has stopped.”
 
-     Luke reached the square before the first group had finished moving. He saw the shape rising and ran toward it. It changed as he approached. The machine form became a man with broad shoulders. The man became a staircase. The staircase became a narrow corridor descending into darkness. Luke stopped when the corridor appeared beneath his feet.
+     “For now.”
 
-     “It's trying to pull us down.”
+     Luke looked at Joseph. “What happens if we leave it?”
 
-     Tyler arrived with a measuring rod. He held it over the opening and watched the marks move. The rod became longer, then shorter, then appeared to pass through the ground without touching it.
+     Joseph did not answer immediately. He watched the blank paper. The line had continued beyond the circle and now reached the edge of the page.
 
-     “The depth isn't stable.”
+     “We don't leave it without a record.”
 
-     “Can you measure it?” Luke asked.
+     Bill nodded. “And we don't take it away from the place where it belongs until we know what that would mean.”
 
-     “I can measure what it is now.”
+     The largest man lowered his arms. The arcade held. He looked toward the men who had gathered at the edge of the square. They were watching the artifact, but they were also watching one another. The attack had made each man's memory feel private and absolute. The record gave them a way to compare those memories without forcing them into agreement.
 
-     “And what is it?”
+     The black shape began to change.
 
-     “Different from what it was a moment ago.”
-
-     Kirk came from the eastern street carrying a broken section of paving. He had found the same black mark beneath three separate buildings. Each mark was in a different position, but the stone around it had been worn in the same pattern. He placed the broken paving beside the opening.
-
-     “It's not coming from below,” he said. “It's coming through the places that were never joined.”
-
-     Joseph looked at the mark. The creature was not a single body. It was a collection of versions that had been brought into the same space without a relation strong enough to hold them together. One man remembered it as a machine because he had seen the old instruments. Another remembered a man because he had seen a figure in the reservoir. A third remembered a staircase because he had entered a passage that descended beneath the house. Each memory was true to the observer, but none could explain the whole event.
-
-     “Don't fight its versions,” Joseph said again.
-
-     Luke lowered his hands. He had been ready to strike the nearest shape. Now he watched the different forms appear and disappear. The shape did not attack in a straight line. It moved through the city by changing which history a room belonged to. A door opened onto a corridor that had been demolished. A window showed the reservoir before the lake existed. A staircase descended into a room that was still under construction. Men who crossed those thresholds found themselves in different versions of the same place.
-
-     The Seventh Man appeared beside the opening. He had come from the lower passage and carried no tool.
-
-     “It is not trying to enter the city,” he said.
-
-     “What is it trying to do?” Bill asked.
-
-     “Find a route.”
-
-     Tyler looked at the black marks. “A route from where?”
-
-     “From the histories that were left apart.”
-
-     Kirk examined the paving. “Then the city is holding too many unfinished connections.”
-
-     The Seventh Man nodded. “They have gathered beneath it.”
-
-     The largest man arrived last. He did not approach the opening. He stood at the edge of the square and watched the forms move. The city was not being attacked by an enemy in the ordinary sense. It was being pressed by histories that had not been given a way to meet. The houses were being pulled into different versions because the connections beneath them had never been recorded or completed.
-
-     “Can we close the opening?” Luke asked.
-
-     “We can cover it,” Tyler said. “That won't close the relation.”
-
-     “Can we break the black mark?”
-
-     Kirk shook his head. “It appears in more than one place.”
-
-     Bill looked toward the evacuated buildings. “Then we need to keep the men clear while we work.”
-
-     Joseph unfolded the blank paper. The keeper's map had shown a route beneath the city. The line was still there, faint but visible. It began at the house of the seventh light and descended toward the eastern district. The black mark beneath the pavement was at its end.
-
-     “We have a route,” he said.
-
-     Tyler studied the paper. “The map showed a path, not an attack.”
-
-     “It showed what we had decided to carry.”
-
-     Luke looked at the key in his hand. “Then we carry it.”
-
-     The largest man asked what they would need. Kirk said they needed the seven objects from the keeper's map, the water vessel, and a way to reach the lower passage without crossing the unstable ground. Bill organized the men to bring the objects from the upper house. Tyler marked the safe route. Luke went ahead to clear the street. Joseph remained beside the black mark with the Seventh Man.
-
-     The creature changed again. It became a man standing at the far end of the square. His face was indistinct. He looked toward Joseph and raised one hand. Joseph did not answer. He knew that the figure might be a memory of a man, a projection from an earlier room, or a new state produced by the pressure beneath the city. He would not make it into a person simply because it resembled one.
-
-     “Do you know him?” the Seventh Man asked.
-
-     “No.”
-
-     “Do you remember him?”
-
-     “Not yet.”
-
-     The figure lowered its hand and disappeared. The black mark remained.
-
-     The men returned with the objects. The brass key was carried by Luke. Kirk brought the black stone. Tyler carried the folded map. Joseph brought the blank paper. Bill carried the metal stop from the Sacred Fountain. The largest man carried the wooden handle. The Seventh Man brought the red glass. They placed the objects around the opening in the order shown by the keeper's map.
-
-     Nothing happened at first.
-
-     Tyler checked the arrangement. Kirk adjusted the stone. Bill set the metal stop beside the lower edge. Luke placed the key on the blank paper. The largest man held the wooden handle above the black mark. The Seventh Man set the red glass where the water from the copper vessel had begun to gather.
-
-     The creature moved.
-
-     The square filled with overlapping images. A machine appeared beneath the pavement. A man stood in the machine. A staircase descended through the man. A corridor opened through the staircase. The images did not merge. They moved around one another, each trying to occupy the same space.
-
-     “It's getting worse,” Luke said.
-
-     “It's becoming visible,” Joseph replied.
-
-     Tyler looked at the map. The line beneath the city had grown darker. It did not end at the black mark. It continued beyond it, under the eastern district and toward the old reservoir.
-
-     “The mark is not the source,” Tyler said. “It's the point where the routes meet.”
-
-     Kirk understood. “Then we need to give them somewhere to go.”
-
-     The largest man looked at the opening. “Not somewhere to disappear.”
-
-     “Somewhere they can remain separate,” Joseph said.
-
-     Bill placed the metal stop more firmly. “A route with room for each one.”
-
-     The Seventh Man held the red glass above the mark. The reflection inside it showed the city as it had been before the first buildings were raised. Another reflection showed the city after the lake battle. A third showed the city as it might become. The images did not replace one another. They occupied the same surface.
-
-     “Keep the first,” the largest man said.
-
-     Tyler repeated the words as he wrote them down. “Keep the first. Add the next. Keep both.”
-
-     Luke placed the key against the black mark. The opening stopped widening. Kirk set the stone beside it. The pressure beneath the pavement changed direction. The wooden handle rested across the gap, not as a bridge but as a boundary. Bill fixed the metal stop in the paving. Joseph laid the blank paper over the center. The Seventh Man lowered the red glass. The map line became visible beneath the paper.
-
-     The creature collapsed into a single shadow.
+     It flattened, then lengthened. A dark line extended from it across the paving. The line passed beneath the arcade and continued toward the eastern gate. The figure collapsed into a single shadow. The shadow narrowed until it resembled a road.
 
      The city breathed.
 
-     The shadow stretched beneath the paving and moved toward the eastern gate. It did not vanish. It became a road.
+     Nobody stepped onto it immediately. Tyler checked the line against his notes. Kirk examined the paving on either side. Bill asked the men who had been evacuated to remain behind the marked boundary. Luke wanted to follow it, but waited for the others. Joseph folded the blank paper along its old crease. The Seventh Man looked toward the gate.
 
-     The men followed it. The road passed beneath the city, through the old foundations, and out beyond the last residence. It carried the separate images without forcing them into one form. The machine remained a machine. The man remained a memory. The staircase remained a route. The histories could now be approached without being made identical.
+     “It has a direction now,” Luke said.
 
-     The pavement closed behind them. The eastern district returned to its current arrangement. The missing residences did not reappear in their old positions, but the men could reach the ground where they had stood. Their rooms could be rebuilt. Their records had been carried out. The residents returned when the route had been checked and the supports had been inspected.
+     “It has a beginning,” Tyler replied.
 
-     Bill counted the tools and objects. Kirk examined the repaired paving. Tyler recorded the new road and linked it to the keeper's map. Luke walked its length and returned with a report that it continued beyond the city. Joseph stood at the eastern gate and watched the shadow become a line of footprints.
+     “And an end?”
 
-     The Seventh Man looked toward the forest.
+     “We haven't reached it.”
 
-     “It has found a way.”
+     The largest man looked at the road. “Then we don't call it an end.”
 
-     “Where does it go?” Luke asked.
+     The men remained in the square until the last of the evacuated residents had reached safety. The city did not return to its former arrangement. The eastern district remained open beneath the paving, and the new road ran through it without a wall or a sign. The black artifact lay at its beginning, still unclaimed. Tyler's record rested beside it in a dry case.
 
-     “Where the men have been.”
+     By evening, the men could see footprints appearing along the road. They belonged to people who had crossed the city at different times. Some were old. Some were fresh. A few appeared ahead of the men who were watching. The road had begun to carry a history of its own.
 
-     The largest man looked at the first footprint. It belonged to a man who had crossed the city long before the current streets were built. The next footprint belonged to a soldier from the lake battle. Another belonged to a physician. Another belonged to a man who had carried a tool through the first house. The road was not made of stone. It was made from the memory of men who had passed through.
+     Luke stepped toward the first footprint. Kirk joined him. Tyler closed his notebook. Joseph waited until Bill had finished checking the evacuation route. The largest man stood beside the Seventh Man, both looking down the road.
 
-     The battle beneath the city was over. The route it had uncovered remained.
+     The creature had not been defeated. It had become a road.
+
+     They followed it.
 
 ## Chapter XXVII: The Road Made of Men
 

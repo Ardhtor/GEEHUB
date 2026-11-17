@@ -427,7 +427,7 @@
 
 ## Chapter II: The First Return
 
-     The first people to return to the northern country did not come as explorers. They came because somebody was missing, and missing people have a way of making geography larger. A elder brother crossed the old military road looking for his brother, carrying a lantern, a blanket, a knife, and a map copied from another map copied from the original northern survey. He had been told that the journey would take twelve days. It took longer. The country had no obligation to honor the measurements of people who had drawn it from far away.
+     The first people to return to the northern country did not come as explorers. They came because somebody was missing, and missing people have a way of making geography larger. An elder brother crossed the old military road looking for his brother, carrying a lantern, a blanket, a knife, and a map copied from another map copied from the original northern survey. He had been told that the journey would take twelve days. It took longer. The country had no obligation to honor the measurements of people who had drawn it from far away.
 
      The southern road ended in fields. The fields ended in low country. The low country opened into hills. The hills became forest. By the time he reached the amber woods, he had stopped asking when he would arrive and had begun asking what sort of person could disappear into so much land without leaving enough behind to be found. His companions answered that his brother had worked at the northern laboratory. He knew that already. What he needed to know was why he had not come home.
 
@@ -780,7 +780,7 @@
 
      “Then let it have this afternoon.”
 
-     He looked at his, then tucked the notebook into the dry bag. It was a small concession, but he understood it as one. He had spent years in a place where every surface could become a record. He was learning that attention did not require the immediate preservation of everything it touched.
+     He looked at him, then tucked the notebook into the dry bag. It was a small concession, but he understood it as one. He had spent years in a place where every surface could become a record. He was learning that attention did not require the immediate preservation of everything it touched.
 
      When the outer shore finally appeared, it did not rise like a wall. It gathered gradually from the haze: first a dark line, then trees, then the uneven roof of a waystation set back from the water. The boat keeper brought them in beside a landing built from old beams. He checked the rope, tested the cleat, and only then helped them ashore.
 

@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "98cecea3c2a333f3ddbdbfb01ea56b67dfa55705",
+  "source_blob_sha": "6ee878ebcdb28ebb43385572d36e07caddc0ea9f",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 25,
+    "completed": 26,
     "in_progress": 1,
-    "queued": 46,
+    "queued": 45,
     "empty_source": 0,
-    "next_chapter_index": 25,
-    "active_chapter_id": "book-i-xxvi",
-    "last_completed_chapter_id": "book-i-xxv"
+    "next_chapter_index": 26,
+    "active_chapter_id": "book-i-xxvii",
+    "last_completed_chapter_id": "book-i-xxvi"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -431,9 +431,9 @@
       "target_max_words": 7000,
       "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "98cecea3c2a333f3ddbdbfb01ea56b67dfa55705",
-      "notes": "Expanded and verified at 1,686 words. The cloth map distinguishes geography from consequence; the seven artifacts alter one another's relations without changing ownership. The black mark remains an unresolved object without a history, and the men choose to follow the route beneath the city. Deliberately concise transition into Chapter XXVI; all figures are male.",
-      "current_word_count": 1686
+      "last_verified_blob_sha": "6ee878ebcdb28ebb43385572d36e07caddc0ea9f",
+      "notes": "Expanded and verified against Chapters XXIV and XXVI. Developed the cloth map as a record of carried decisions rather than fixed geography; each man's method of reading it remains distinct. The seven artifacts change relation without losing their histories. The new line beneath the city leads toward an unremembered artifact, preparing the descent in Chapter XXVI. All cast members are male.",
+      "current_word_count": 1685
     },
     {
       "chapter_id": "book-i-xxvi",
@@ -445,11 +445,11 @@
       "baseline_word_count": 260,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Next canonical chapter. Develop the attack from below as a conflict of incompatible histories, preserving the artifact's relation to the seven objects and the city. Keep the cast all male; preserve the possibility that the creature becomes a road rather than a defeated enemy.",
-      "current_word_count": 2008
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "6ee878ebcdb28ebb43385572d36e07caddc0ea9f",
+      "notes": "Expanded and verified against Chapters XXV and XXVII. The attack becomes a conflict of incompatible memories; each man's response remains distinct, and the city is protected through evacuation, measurement, structural support, and careful recording. The black artifact is not destroyed or claimed; it becomes a road. All cast members are male.",
+      "current_word_count": 1977
     },
     {
       "chapter_id": "book-i-xxvii",
@@ -461,10 +461,10 @@
       "baseline_word_count": 219,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
+      "status": "in_progress",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Queued continuity check: the current draft contains references to a sister, a woman carrying a lantern, and a child. Recast these as male figures before marking the chapter complete; preserve the road's function as a record of possible histories.",
+      "notes": "Next canonical chapter. Develop the road as a record of male lives and possible histories. Replace the existing references to a sister, a woman carrying a lantern, and a child with adult male figures; preserve the rule that not every appearance requires an answer.",
       "current_word_count": 227
     },
     {

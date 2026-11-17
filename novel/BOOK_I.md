@@ -3859,7 +3859,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “What does it do?”
 
-     The seventh man entered the room. He seemed larger there than he had in the forest. He bent slightly beneath the doorway.
+     The Seventh Man entered the room. He seemed larger there than he had in the forest. He bent slightly beneath the doorway.
 
      “It continues.”
 
@@ -3873,7 +3873,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “It remembers how.”
 
-     The vessel brightened. The Serum rose by a fraction. The room enlarged. Everyone stepped backward except the seventh man. He remained beside the table. The young man looked at him.
+     The vessel brightened. The Serum rose by a fraction. The room enlarged. Everyone stepped backward except the Seventh Man. He remained beside the table. The young man looked at him.
 
      “You aren't afraid.”
 
@@ -3889,9 +3889,236 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “The vessel remembers the whole house.”
 
-     The seventh man shook his head.
+     The Seventh Man shook his head.
 
      “The house remembers the vessel.”
+
+     His father had arrived without a coat. He had come down the stairs quickly enough that his breathing had not settled. He stood beside the young man and checked him for injuries before looking at the table. The young man allowed the inspection, then stepped away.
+
+     “I'm fine.”
+
+     “You went through a door nobody knew was here.”
+
+     “I found it.”
+
+     “That isn't the same as knowing it was safe.”
+
+     The young man glanced at the vessel. “It opened.”
+
+     His father looked at the largest man. “Did you know this chamber was here?”
+
+     “I knew there was a chamber.”
+
+     “You knew the vessel was here?”
+
+     “I remembered it.”
+
+     The father did not accept that as an explanation. He had lived through the later years of the Accident, when a room could change around a man before he had time to leave it. He had learned to distrust any object that seemed to invite contact. He did not want his son frightened of the house, but he wanted him to understand that curiosity did not remove risk.
+
+     “Did you touch it?” he asked.
+
+     “No.”
+
+     “Good.”
+
+     “I wanted to.”
+
+     “I know.”
+
+     The father placed a hand on his shoulder. It was not a restraint. It was a reminder that he was not alone in the chamber. The young man looked at the vessel again. Its glass was clear, with a faint blue line running around the neck. There was no label. The table beneath it had a circular groove that matched the vessel's base. Dust lay around the groove, but not beneath the glass. The vessel had been set there recently, or the dust had been arranged to make it appear that way.
+
+     The archivist approached the table. He did not reach for the vessel. He inspected the surface from several angles and asked the young man where he had first seen the door. The young man described the lower passage, the stair, and the cat that had disappeared behind a stack of old crates. He showed the place where the door had opened. The archivist wrote down the sequence, including the fact that the young man had been looking for the cat and had not been searching for a hidden chamber.
+
+     “Did you hear anything?” the archivist asked.
+
+     “A sound like water in a pipe.”
+
+     “Before or after the door opened?”
+
+     “Before.”
+
+     “Did you hear it again?”
+
+     “No.”
+
+     The archivist recorded the answer without adding a theory. He asked the father whether he had heard the sound while descending. The father had heard only the young man's call. The two accounts were entered separately. The chamber had been found by accident, but the archive would not turn the accident into a claim that the vessel had summoned him.
+
+     A second archivist brought a small lamp and a measuring frame. The frame was made to sit around the vessel without touching it. They measured the glass, the table, the circular groove, and the distance to the walls. The first set of measurements remained stable. When the frame was moved to the far side of the table, the room seemed to widen. The archivist checked the position of the lamp and repeated the measurement. The result was different by a fraction.
+
+     The father noticed the change. “Stop.”
+
+     The archivist lowered the frame.
+
+     “We need a baseline.”
+
+     “You have one.”
+
+     “We need to know whether the chamber is changing.”
+
+     “Then stop changing the way you look at it.”
+
+     The archivist considered this. He was not offended. He placed the frame on the floor and wrote down the conditions under which the first measurement had been made. The next observation would be taken from the same position. The chamber did not need to be tested repeatedly simply because the men were curious.
+
+     The soldiers had arrived because the lower passage was close to the reservoir's service route. Their captain stood near the door with two men. They had been ordered to secure the area after the lake battle, when several lower routes had shifted. They wanted to know whether the chamber contained a hazard, whether the vessel could be moved, and whether the passage could be used by anyone entering from the outer shore.
+
+     “No one is taking it,” the largest man said.
+
+     The captain looked at him. “I have not said that.”
+
+     “You are looking at the table as if it were cargo.”
+
+     The captain glanced at the vessel. “I am responsible for the route.”
+
+     “Then keep the route clear.”
+
+     The captain asked whether the vessel was dangerous. The largest man said that he did not know. The Seventh Man said that it continued. Neither answer satisfied the captain. He wanted a condition he could report to his superiors. The archivist offered the measurements and the account of the discovery. He stated that the vessel had not been touched and that no immediate danger had been observed. The captain accepted the report but ordered his men to remain outside the chamber until the residents had agreed on access.
+
+     The father asked the young man whether he wanted to leave.
+
+     “No.”
+
+     “You can.”
+
+     “I know.”
+
+     “Then stay beside me.”
+
+     The young man stayed. He was not frightened, but he had begun to understand that the chamber was not a place he could explore alone simply because he had found the entrance. His father did not forbid him to return. He wanted him to know what he was choosing.
+
+     The largest man moved closer to the table. The vessel brightened again. The reflection on its surface showed a room with a lower ceiling and a different arrangement of beams. The young man recognized the old laboratory from the archive drawings. The father recognized it too. He had seen the plans as a boy, though he had never entered the original chamber. The image shifted. The table appeared with seven empty positions around it. Six held faint impressions, as if vessels had once rested there. The seventh held the glass object now before them.
+
+     “There were six,” the father said.
+
+     The archivist opened the old inventory. Six vessels had been recorded in the first shipment. The seventh had appeared in later testimony, but no source had established where it had been stored. Some accounts described it as lost during the Accident. Others claimed that it had never been filled. One record said that the seventh vessel had been carried below the house before the northern works were abandoned. The record had no signature.
+
+     The father read it twice. “This is the first time I've seen that.”
+
+     “It was filed under an uncertain source,” the archivist said.
+
+     “Why wasn't it checked?”
+
+     “There was no location to check.”
+
+     The young man looked at the vessel. “Now there is.”
+
+     The archivist nodded. “Now there is.”
+
+     The Seventh Man stood beside the table. The largest man remained at the edge of the chamber. Their positions seemed to matter. The reflection showed the two of them in different parts of the old room, though neither had moved. The young man asked whether the vessel belonged to the Seventh Man.
+
+     “No,” the largest man said.
+
+     “Then why do you remember it?”
+
+     “Because I was part of what happened around it.”
+
+     The young man turned toward the Seventh Man. “And you?”
+
+     “I was part of what happened after.”
+
+     “Are you the same man?”
+
+     The two men looked at one another. The largest man smiled faintly. The Seventh Man did not.
+
+     “We are both here,” he said.
+
+     The young man seemed unsatisfied. “That doesn't answer it.”
+
+     “No,” said the largest man. “It keeps the question honest.”
+
+     The Voice spoke through the lower pipes. It sounded as if it were coming from beneath the reservoir, not from the screens above. MORE. NOT NEW. MORE OF WHAT IS ALREADY HERE. The vessel's liquid rose a little, then settled. The blue line around its neck became brighter. The room expanded by a small amount. The measuring frame remained where the archivist had left it, but the distance from the frame to the nearest wall had changed.
+
+     The soldiers stepped back. The captain ordered them to keep the doorway clear. The father moved in front of the young man, then stopped when he saw that the young man was not trying to approach the vessel. He did not need to shield him from the light. The chamber had not become hostile. It had become larger.
+
+     “Does it always do that?” the young man asked.
+
+     The largest man shook his head. “Not always.”
+
+     “What makes it happen?”
+
+     “Sometimes a question. Sometimes a return. Sometimes nothing we can identify.”
+
+     “Can we make it happen?”
+
+     “You can try.”
+
+     The father looked at him sharply. The largest man raised a hand.
+
+     “Trying is not the same as touching it.”
+
+     The archivist asked whether the vessel should be moved to the central archive. The father opposed the idea. The vessel had been found in its own chamber, and there was no evidence that moving it would make it safer. The captain agreed that the route could be secured without relocating the object. The archivists proposed a record station outside the door, where the chamber could be observed without requiring repeated entry. The young man asked whether he would be allowed to return.
+
+     His father answered first. “With me.”
+
+     The archivist added, “And when the chamber is open for inspection.”
+
+     The young man looked at the table. He did not like the conditions, but he understood them. The vessel had not become his because he had found it. The chamber did not belong to him. He had discovered a place that had remained outside the known record, and now he had a responsibility not to make the discovery smaller by treating it as a possession.
+
+     “All right,” he said.
+
+     The archivist placed a small marker beside the door. It carried the date of discovery, the names of the men who had been present, and a note that the vessel remained in place. The record did not say that the young man had been chosen or that the vessel had called to him. It said that he had found the door while looking for a cat. The father asked for that detail to remain. It was the truth of how the chamber had been reached.
+
+     The captain stationed two men outside the lower passage, not to guard the vessel from the residents but to keep the route clear while the new access procedure was tested. The father and son returned upstairs. They walked slowly. The young man wanted to ask more questions, but he waited until they had reached the central hall.
+
+     “Do you think it was waiting for me?”
+
+     His father considered the question.
+
+     “I think you found it.”
+
+     “That's all?”
+
+     “That's enough for today.”
+
+     The young man looked back toward the lower stair. He had expected his father to tell him that the vessel had chosen him, or that he had been brave, or that the house had revealed something important. Instead, his father had kept the event close to its actual scale. He had found a door. He had entered a chamber. He had seen a vessel. The rest could be learned later.
+
+     At the central hall, the Seventh Man stood beside a screen showing the forest. He looked toward the young man as he passed. The young man stopped.
+
+     “You said it continues.”
+
+     “Yes.”
+
+     “Does it continue me?”
+
+     The Seventh Man considered him. “You are already continuing.”
+
+     “Then what does the vessel do?”
+
+     “It lets the house remember that.”
+
+     The young man looked at the screen. Beyond the forest, the road ran toward the lake. The house did not show him what would happen next. It showed him the road as it was, with its turns, its distance, and the dark trees beyond the ridge. He understood that the vessel was not a machine for making him larger. It was not a prize. It was a place where the history of the house could be seen without being reduced to one moment.
+
+     That evening the archivists reviewed the record. They compared the old inventory, the unsigned note, the chamber measurements, and the accounts of the men who had been present. The seventh vessel was no longer an absence in the list. It had a location and a current condition. Its origin remained uncertain. The relation between its contents and the earlier six vessels remained unproved. The chamber had changed during observation, but the cause was not established. The young man's discovery was recorded without assigning him a destiny.
+
+     The largest man returned to the lower chamber after the others had gone. He stood beside the table and looked at the vessel. The glass reflected the old laboratory, the reservoir, the house, and the room as it was now. The seventh man was visible in the reflection, though he was not physically present. The largest man did not touch the glass.
+
+     “You remember,” he said.
+
+     The vessel did not answer.
+
+     He waited.
+
+     “So do I.”
+
+     The Serum moved once beneath the clear surface. It did not rise. It did not fall. It carried the reflection from one state to the next, keeping each visible long enough for the next to appear. The room remained where it was. The table remained beneath the vessel. The record remained outside the door.
+
+     Above, the young man slept in the house. His father left the lower lamp on. The cat returned before dawn and settled beside the warm pipe. The house continued around them, holding the seventh vessel without closing the chamber, preserving the discovery without claiming to have explained it.
+
+     The next morning the young man went back with his father. They did not enter. They stood at the marked threshold and looked through the open door. The vessel was still on the table. The liquid remained almost clear. The blue line around its neck had faded. Nothing in the chamber demanded attention.
+
+     “Will it change again?” the young man asked.
+
+     “Probably,” his father said.
+
+     “When?”
+
+     “We will see.”
+
+     They stayed for a minute, then returned to the upper hall. The young man did not feel disappointed. He had expected a beginning to announce itself with a spectacle. Instead, the vessel had become part of the house's ordinary responsibility. It would be checked, recorded, and left undisturbed until a reason arose to do more.
+
+     The Seventh Man watched them leave from the far end of the corridor. He did not follow. The largest man remained beside the lower chamber. The archivists updated the record. The soldiers returned to their posts. The father and son went to breakfast.
+
+     The vessel continued.
+
 
 ## Chapter XVII: The Men Make a Kingdom
 

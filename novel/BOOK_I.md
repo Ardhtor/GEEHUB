@@ -9168,83 +9168,73 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      That was the first thing the world taught them.
 
-     There was no launch.
+     There was no launch. No countdown. No machine. One moment there was a floor beneath Luke's feet. The next, the floor had become a direction.
 
-     No countdown.
+     Tyler laughed. Kirk looked behind him. Joseph simply kept walking.
 
-     No machine.
-
-     One moment there was a floor beneath Luke's feet. The next, the floor had become a direction.
-
-     Tyler laughed.
-
-     Kirk looked behind him.
-
-     Joseph simply kept walking.
-
-     The four men discovered that hyperspace did not behave like distance. A step could cross a year. A pause could preserve a century. Turning around could return them to a place that had not existed when they left it.
+     The four men discovered that hyperspace did not behave like distance. A step could cross a year. A pause could preserve a century. Turning around could return them to a place that had not existed when they left it. They were not traveling through a larger space. They were moving through relations between spaces, and those relations could be altered by what they did.
 
      They played.
 
      For twenty years.
 
-     They did not experience the years as a prison sentence or a calendar. They experienced them as accumulated play.
+     They did not experience the years as a prison sentence or a calendar. They experienced them as accumulated play. Each year left something behind, though not always something they could name.
 
-     In the first year Luke learned to pull a world toward himself.
+     In the first year Luke learned to pull a world toward himself. He began with a small hill, a dark slope that stood alone in a wide field. He reached for it, and the hill came closer. The ground stretched. The horizon folded. The hill became a mountain range, then a country, then a room with a window looking back toward the field.
 
-     In the second Tyler learned to make a doorway fold through itself.
+     Luke liked the power immediately.
 
-     In the third Kirk discovered that a room could have two interiors.
+     “I can bring anything closer,” he said.
 
-     In the fourth Joseph discovered that waiting long enough could make an event arrive before it happened.
+     Joseph looked at the room. “Can you let it go again?”
 
-     The fifth year belonged to the geometry.
+     Luke tried. The room remained.
 
-     The sixth belonged to the corridors.
+     He had learned the first limit: pulling something toward himself did not mean he owned it.
 
-     The seventh belonged to the spaces between worlds.
+     In the second year Tyler learned to make a doorway fold through itself. He could take a passage and bend it until its entrance became its exit. At first he treated the work as a problem of measurement. He marked angles, distances, and intervals. The more accurately he measured, the more the doorway changed.
+
+     “It won't hold still,” he said.
+
+     Kirk examined the frame. “You're measuring the opening. You need to measure what it connects.”
+
+     Tyler changed his method. The doorway stabilized. He learned that a route was not defined only by its dimensions.
+
+     In the third year Kirk discovered that a room could have two interiors. He built a chamber with one outer wall and two separate spaces within it. Each space had its own light, air, and structure, but both belonged to the same building. The first time Luke entered one room, he heard Tyler speaking in the other. The sound crossed the wall without becoming a passage.
+
+     Kirk kept the two interiors separate. He did not try to force them into one.
+
+     In the fourth year Joseph discovered that waiting long enough could make an event arrive before it happened. He saw a door open, then waited until the door was built. He heard a sentence, then waited until the man who spoke it had chosen the words. The future did not become fixed. It became available.
+
+     “You could use that to avoid every mistake,” Luke said.
+
+     Joseph shook his head. “Then I would make every choice for someone else.”
+
+     The fifth year belonged to geometry. The sixth belonged to corridors. The seventh belonged to the spaces between worlds. They learned how to build a road that did not need a fixed destination and a room that could remain open without being empty.
 
      By the eighth year, the men had stopped asking where they were.
 
      By the ninth, the worlds had stopped asking where they belonged.
 
-     They made games.
-
-     They would choose a point in hyperspace and try to reach it without taking the same route twice.
-
-     They would build a room and then deliberately forget how they had built it.
-
-     They would return years later and see whether the room remembered them.
+     They made games. They would choose a point in hyperspace and try to reach it without taking the same route twice. They would build a room and then deliberately forget how they had built it. They would return years later and see whether the room remembered them.
 
      It did.
 
-     Sometimes incorrectly.
+     Sometimes incorrectly. That made them laugh.
 
-     That made them laugh.
-
-     Sometimes beautifully.
-
-     That made them quiet.
+     Sometimes beautifully. That made them quiet.
 
      In the tenth year they found a world that was only a shadow.
 
-     Luke touched it.
+     Luke touched it. The shadow moved.
 
-     The shadow moved.
+     Tyler touched it. The shadow became architecture.
 
-     Tyler touched it.
-
-     The shadow became architecture.
-
-     Kirk stepped inside.
-
-     Joseph waited outside.
+     Kirk stepped inside. Joseph waited outside.
 
      Then Joseph disappeared.
 
-     They found him twenty minutes later, although twenty minutes had become three months inside the shadow.
-
-     He emerged carrying a small piece of darkness.
+     They found him twenty minutes later, although twenty minutes had become three months inside the shadow. He emerged carrying a small piece of darkness. It rested in his palm like a fragment of cooled glass. It had no reflection, but it changed the light around it.
 
      “Found something,” he said.
 
@@ -9254,31 +9244,37 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      It was a memory.
 
+     Joseph placed the fragment on the floor. The shadow-world changed around it. A path appeared, then a room, then the outline of a man standing at the far end. The figure did not become clear. Joseph did not force it to. He left the fragment where it was and walked back to the others.
+
      They kept playing.
 
-     The eleventh year became the year of impossible returns.
+     The eleventh year became the year of impossible returns. They found places they had left behind and discovered that the places had continued without them. The twelfth became the year of gravity games. They made a world where every object had a different direction of falling, then learned how difficult it was to build a house when the floor could not agree with the walls.
 
-     The twelfth became the year of gravity games.
+     The thirteenth year taught them that the strongest power was not changing a world but leaving it unchanged on purpose. They entered a valley that had been damaged by repeated attempts to improve it. Luke wanted to pull the mountains closer. Tyler wanted to fold the river into a new route. Kirk could see how the slopes might be repaired. Joseph waited.
 
-     The thirteenth became the year they learned that the strongest power was not changing a world but leaving it unchanged on purpose.
+     They left the valley as they had found it.
 
-     The fourteenth year produced the first world that could play back.
+     Nothing happened.
 
-     The fifteenth produced the first world that could refuse.
+     That was the achievement.
 
-     The sixteenth produced a world that asked them to stay.
+     The fourteenth year produced the first world that could play back. It repeated their movements, but not as an imitation. It answered them with variations. The fifteenth produced the first world that could refuse. When Luke tried to pull a tower toward himself, the tower remained where it was. He tried again. It did not move.
+
+     “It doesn't want to,” Tyler said.
+
+     Luke stepped back. “Then we leave it.”
+
+     The sixteenth year produced a world that asked them to stay.
 
      They stayed for one afternoon.
 
      The afternoon lasted eleven months.
 
+     The world was generous. It gave them a house, a garden, a table, and a road that always led back. They could have remained there. The four men understood that the invitation was real, but it did not make the place their obligation.
+
      They left anyway.
 
-     In the seventeenth year they found the original doorway again.
-
-     It was exactly where they had left it.
-
-     The fifth line was still there.
+     In the seventeenth year they found the original doorway again. It was exactly where they had left it. The fifth line was still there.
 
      Waiting.
 
@@ -9294,19 +9290,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Joseph waited.
 
-     Their powers stopped looking like separate abilities.
+     Their powers stopped looking like separate abilities. They became a language. A room appeared before Luke finished pulling. A doorway folded around Kirk's new interior. Joseph waited until all four possibilities became real, and then the men chose which one to enter.
 
-     They became a language.
-
-     The nineteenth year was almost silent.
-
-     They moved through enormous spaces.
-
-     They watched worlds form and dissolve.
-
-     They found their old routes embedded in landscapes.
-
-     They recognized places they had forgotten.
+     The nineteenth year was almost silent. They moved through enormous spaces. They watched worlds form and dissolve. They found their old routes embedded in landscapes. They recognized places they had forgotten. They no longer needed to name every world before they could move through it.
 
      The twentieth year began with the four of them standing in an empty room.
 
@@ -9314,23 +9300,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Or perhaps it was the first room again.
 
-     There was nothing in it.
+     There was nothing in it. No furniture. No doorway. No geometry. No record.
 
-     No furniture.
-
-     No doorway.
-
-     No geometry.
-
-     No record.
-
-     Luke looked at the floor.
-
-     Tyler looked at the walls.
-
-     Kirk looked at Joseph.
-
-     Joseph looked back.
+     Luke looked at the floor. Tyler looked at the walls. Kirk looked at Joseph. Joseph looked back.
 
      Twenty years had happened.
 
@@ -9344,13 +9316,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      They did not need it to.
 
-     Luke raised his hand.
-
-     Tyler stepped forward.
-
-     Kirk moved sideways.
-
-     Joseph remained still.
+     Luke raised his hand. Tyler stepped forward. Kirk moved sideways. Joseph remained still.
 
      The first line appeared.
 
@@ -9362,9 +9328,7 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Somewhere beyond the room, hyperspace opened its eyes.
 
-     The world had not forgotten them.
-
-     It had learned how to begin again.
+     The world had not forgotten them. It had learned how to begin again.
 
      And beneath the four lines, a new poetic trace entered the Deep Lore:
 

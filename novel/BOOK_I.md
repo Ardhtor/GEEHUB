@@ -6686,11 +6686,43 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXXII: The Country Without a Name
 
-     They followed the sound for three days. The country changed continuously. On the first day there were forests. On the second there were stone fields covered in shallow water. On the third the land became a city. It did not appear suddenly. Buildings emerged gradually from the fog, first as silhouettes, then walls, then windows, then entire streets. The city seemed to be assembling itself from the memory of a city rather than from stone.
+     They followed the sound for three days. The country changed continuously, but the bell remained audible whenever they stopped long enough to listen. It did not ring at regular intervals. Sometimes a note came from ahead. Sometimes it seemed to pass through the trees behind them. Tyler tried to establish a direction and found that the sound had no fixed source. The bell was not guiding them by distance. It was keeping a connection open.
 
-     The men kept the bell in their hearing. It sounded at intervals, never from quite the same direction. Tyler marked each occurrence on his map. The lines did not form a route so much as a series of bearings that only made sense when he laid them over one another. Kirk noticed that the ground became firmer whenever the bell sounded. Bill kept the group supplied and made sure they stopped before exhaustion made their decisions for them. Luke walked ahead when the path widened. The largest man stayed where he could see the whole group. Joseph and the Teller traveled together, while the Seventh Man listened for the note beneath the note.
+     On the first day there were forests. The trees were enormous, with pale trunks and dark crowns that disappeared into amber fog. Their roots formed arches over the road. In some places the roots joined above the men like the beams of a hall. In others they opened onto clearings where the ground held the faint outline of streets. The seven artifacts continued to point in different directions. The key found doors in the trunks. The black stone drew toward the deepest roots. The blank paper held its line toward the bell.
 
-     On the third afternoon, a tower appeared at the center of the city. Luke recognized it before anyone else.
+     Luke walked ahead, stopping whenever the road divided. He did not wait for the objects to agree. He chose a path, then watched what the choice revealed. Tyler recorded each turn and kept a second route in his notes in case the first disappeared. Kirk examined the roots and the soil, looking for the structures that held the paths in place. Bill kept the provisions dry and made sure the men drank before they became thirsty. Joseph walked with the Teller, listening to the bell and to the changes in the forest. The largest man stayed near the center. The Seventh Man moved between them, recognizing bends in the road without claiming to know where they led.
+
+     On the second day the trees ended. The ground became a field of dark stone covered by shallow water. The surface reflected the sky, though the sky was not always above it. At times the men saw stars beneath their feet. At other times they saw the forest they had crossed, with the trees standing upside down in the water.
+
+     The metal stop pointed toward the deepest channel. Bill tested the water with a length of wood and found that the bottom changed beneath the same point. Kirk noticed that the stone fields were laid in broad plates, joined by narrow seams. The seams carried the water from one shallow basin to another.
+
+     “This was built,” he said.
+
+     Tyler crouched beside him. “By whom?”
+
+     “I don't know. But the joints are deliberate.”
+
+     Luke looked across the field. “Then someone made a road.”
+
+     “Or repaired a country,” Kirk replied.
+
+     They crossed at the places where the seams met. The largest man tested each plate before the others stepped onto it. The surface held, but the reflections changed whenever he moved. Once, the men saw the House of the Seventh Light beneath the water. Its seven lamps were burning. The empty chair stood at the table. The missing man was nowhere in the room.
+
+     Joseph stopped. The Teller stopped with him.
+
+     “Do you see him?” Joseph asked.
+
+     “I see the place he left.”
+
+     “Is that enough?”
+
+     “For now.”
+
+     Joseph did not press him. They crossed the next plate together.
+
+     On the third day the land became a city. It did not appear suddenly. Buildings emerged gradually from the fog, first as silhouettes, then walls, then windows, then entire streets. The city seemed to be assembling itself from the memory of a city rather than from stone. At its center stood a tower.
+
+     Luke recognized it before anyone else.
 
      “The Digitorium.”
 
@@ -6698,107 +6730,97 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Luke shook his head. “No.”
 
-     He looked up. “We've seen it before.”
+     He looked up.
 
-     The tower was Florentine at its base and Victorian above it. Its lower walls were pale stone, cut into deep arches and narrow passages. Higher floors were framed in dark timber and glass. The uppermost levels seemed to have been added at different times, each one preserving the proportions of the structure beneath it. Thin blue screens glowed inside the windows. They showed no advertisements or messages. Their light moved slowly, like the reflection of water.
+     “We've seen it before.”
 
-     A procession of iridescent figures crossed a bridge suspended between two buildings. Their bodies caught the light in shifting bands. They moved at the pace of men walking home after work, not in formation and not in a hurry. The Teller watched them.
+     The tower was Florentine at its base and Victorian above it. Its lower floors were built from pale stone, with narrow windows and deep arches. Higher up, the architecture changed. Dark glass rose in vertical panels. Blue screens glowed inside the upper rooms. The roof disappeared into the amber fog, and the building seemed to continue above the visible sky.
 
-     “Are those men?”
+     Kirk examined the lower façade. The stonework had been laid in courses that did not quite align. Each section belonged to a different period, but the joints had been made to carry the weight together. He liked the construction. It did not pretend to have been built all at once.
+
+     “It has been extended,” he said.
+
+     “Many times,” Tyler replied.
+
+     “You can tell?”
+
+     “The materials are different.”
+
+     Kirk looked higher. “The materials are different. The structure is continuous.”
+
+     A procession of iridescent figures moved slowly across a bridge suspended between two buildings. Their surfaces caught the light in shifting bands. Some seemed transparent. Others held the colors of oil on water. The Teller watched them.
+
+     “Are those men?” he asked.
 
      Joseph answered carefully. “Maybe.”
 
-     One of the figures turned. Its surface caught the light. For an instant the Teller saw a man's face, then another, then dozens of faces layered in the same outline. The procession continued. The figures did not look back.
+     One of the figures turned. Its surface caught the light. For an instant the Teller saw a face. Then another. Then dozens of male faces appeared across the procession, each one visible for less than a second. The figures continued across the bridge without stopping.
 
-     “They are carrying more than one appearance,” the Seventh Man said.
+     Luke watched them disappear. “They know we're here.”
 
-     Tyler wrote the observation down. “We don't know whether they are separate men or one record showing several men.”
+     “Or the bridge has recorded us,” Tyler said.
 
-     “We can ask,” Luke said.
+     “You think everything is a record.”
 
-     “If they choose to answer,” Joseph replied.
+     “I think records are how we avoid pretending we know.”
 
-     At the base of the tower stood a stone inscription. There was no country name. No king. No date. Only a sentence:
+     The city had no gates. Men worked at the street level, carrying crates, cleaning windows, repairing the blue-lit signs, and moving equipment between the buildings. A man at a stone counter looked up as the travelers approached.
+
+     “Have you come for the archive?” he asked.
+
+     “We don't know what we have come for,” Bill replied.
+
+     The man considered this. “Then you are in the right place.”
+
+     He pointed toward the tower. “The entrance is open.”
+
+     They crossed the square. The paving stones were pale and smooth, with narrow channels running between them. Water moved through the channels without pooling. At the foot of the tower stood a stone inscription. There was no country name. No king. No date. Only a sentence:
 
      WE WERE HERE BEFORE THE NAME.
 
-     Tyler read it twice.
+     Tyler read it twice. “That is a claim about sequence.”
 
-     “That's why the country doesn't have one,” Luke said.
+     Joseph looked toward the tower. “Or a refusal to be named by someone else.”
 
-     Joseph looked toward the tower. “Or why it doesn't need one.”
+     Luke said, “That's why the country doesn't have one.”
 
-     They entered the Digitorium at dusk. The main doors were open, and the entry hall extended upward through several floors. A central stair wound around a hollow shaft. Bridges connected the upper galleries. The building had the scale of a civic institution, but its details belonged to many different periods: carved stone, timber beams, glass screens, brass rails, and old mechanical lifts. Nothing had been removed merely because a later system had been installed. The newer structures passed around the older ones, leaving their joints visible.
+     Joseph considered the inscription. “Or why it doesn't need one.”
 
-     Every floor contained records. Not records of the travelers, but records of men who had never been born in their world. Men who had built cities inside organisms. Men who had mapped dreams as geography. Adult apprentices who had inherited machines from civilizations that no longer existed. Entire male populations had left behind diagrams, photographs, recordings, fragments of language, and models of places whose names had been forgotten. The archive was enormous, and it was not finished.
+     They entered the Digitorium at dusk.
 
-     The records were not arranged by date alone. Some were grouped by material, others by the question they could help answer. A model of a city stood beside a recording of its water system. A map of an organism's interior was displayed near a set of tools designed to repair its outer membrane. A sequence of photographs showed a building at different stages of construction, while a separate ledger recorded the men who had maintained it. The Digitorium preserved the work as well as the result.
+     Inside, every floor contained records. Not records of them. Records of men who had never been born in their world. Men who had built cities inside organisms. Men who had mapped dreams as geography. Men who had inherited machines from civilizations that no longer existed. Men who had made languages for places where ordinary speech could not reach. The archive held diagrams, photographs, recordings, fragments of language, models of buildings, and objects whose original use had been forgotten.
 
-     Kirk stopped beside a model made from dark wood and clear resin. Its buildings were joined by narrow bridges, and a central structure curved around something beneath the surface.
+     The collection was enormous, but it was not complete. Blank spaces appeared between the shelves. Some were narrow gaps where a file might have been removed. Others were entire rooms with empty display cases and labels that named nothing. The men who worked there did not hide the absences. They had placed small cards beside them, recording the date when a space was first noticed and the last known account of what had occupied it.
 
-     “This city was built inside a living thing,” he said.
+     Tyler stopped at one of the cards. “You record what is missing.”
 
-     A man at the next table looked up. “Yes.”
+     A male archivist stood at the end of the aisle. “We record the fact that something is missing. We do not always know what it was.”
 
-     “Was it stable?”
+     “How do you keep the record from becoming a guess?”
 
-     “For a time.”
+     “We keep the question with it.”
 
-     “What happened?”
+     Tyler nodded. He liked the method.
 
-     “The men who maintained it stopped agreeing about what the organism needed.”
+     Kirk examined a model of a city built inside the branching structure of a living organism. The streets followed the channels between its fibers. The buildings were attached to the walls without interrupting the movement beneath them. A small label described the work of a group of engineers who had learned to repair the organism without owning the structures they built inside it.
 
-     Kirk examined the model. “And the city?”
+     “They understood the supports,” Kirk said.
 
-     “It continued to grow after the maintenance stopped.”
+     “They understood that the supports were alive,” the archivist replied.
 
-     Kirk looked at the broken bridge in the model. He understood the danger. A structure could continue expanding after the work that kept it sound had been abandoned. He asked whether the original maintenance records were available. The man pointed him toward a cabinet and returned to his work.
+     Bill found a room where men were preserving tools from abandoned settlements. Each tool had been cleaned, repaired where possible, and stored beside a record of the man who had used it. Bill inspected a small hand pump and asked whether it still worked. The archivist tested it. Water rose through the pipe and flowed into a basin.
 
-     Tyler found a gallery of maps. Some were drawn on paper, others on cloth, glass, metal, or thin sheets of wood. A few were made from light projected into the air. He compared one of the maps with the route they had followed from the House.
+     “Then it should be used,” Bill said.
 
-     “This one has the same line,” he said.
+     “It is used,” the archivist replied. “We keep it in service.”
 
-     The map showed the forest, the valley, and a city that had not yet appeared on their own records. The line began at a door and ended at the Digitorium. Tyler could not tell whether it described their journey or another journey that had reached the same place.
+     Bill approved. He had no patience for a collection that preserved objects by making them useless.
 
-     “Do you know who made it?” he asked the archivist.
+     Luke found a blank space.
 
-     “The maker's name is recorded on the reverse.”
+     It occupied an entire wall. The surface was pale, without shelves or marks. A narrow frame surrounded it, and a small brass plate had been fixed near the floor. No words appeared on the plate.
 
-     Tyler turned the map over. The space was blank.
-
-     “Then the source is unknown.”
-
-     “For now.”
-
-     Tyler looked at him. “You don't fill in the name?”
-
-     “Not unless we can establish it.”
-
-     Tyler nodded. He liked the answer.
-
-     Joseph and the Teller found a listening room. Men sat at separate desks with headphones, comparing recordings and writing down what they heard. No single transcript was treated as definitive. One recording contained a voice that seemed to speak from several distances at once. The Teller listened twice. He felt the same pressure he had felt in the forest when the bell first sounded.
-
-     “Do you know who it is?” Joseph asked the attendant.
-
-     “We have several names.”
-
-     “Which one do you use?”
-
-     “The one supplied by the man who made the recording, unless he asks us to change it.”
-
-     “And if the names disagree?”
-
-     “We preserve the disagreement.”
-
-     Joseph returned the headphones carefully. “That seems fair.”
-
-     “It is also inconvenient,” the attendant said.
-
-     “Fairness often is.”
-
-     Luke moved through the lower galleries, drawn toward a blank space between two displays. It was not an empty wall. The stone had been cut to receive a panel, and the fastenings were still in place. The space had been prepared for something that had not arrived.
-
-     “What happened here?” he asked.
+     “What happened here?” Luke asked.
 
      A voice answered from behind him.
 
@@ -6806,47 +6828,19 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      They turned.
 
-     A man stood at the end of the corridor. He was older than Luke and younger than Joseph, though neither comparison seemed quite accurate. His clothes looked ordinary. His face was unfamiliar. But his presence was not. The Teller recognized the sensation. Attention. It was the same pressure that had passed through the city when the men first arrived, now gathered in one place and directed toward them.
+     A man stood at the end of the corridor. He was older than Luke and younger than Joseph, though neither comparison seemed quite accurate. His clothes looked ordinary. His face was unfamiliar. But his presence was not. The Teller recognized the sensation. Attention.
 
-     The stranger looked directly at the Teller.
+     The stranger looked directly at him.
 
      “You came through the House.”
 
-     It was not a question.
+     It was not a question. Joseph stepped slightly forward.
 
-     Joseph stepped slightly forward. “Yes.”
+     “Yes.”
 
-     The stranger smiled. “Then the House has finally opened.”
+     The stranger smiled.
 
-     The Teller studied him. “You knew it was closed?”
-
-     “I knew it had not finished opening.”
-
-     “How long have you been waiting?”
-
-     The man glanced toward the blank display. “Long enough to stop counting.”
-
-     Tyler approached with his notebook. “Are you the keeper of this archive?”
-
-     “No.”
-
-     “Do you work here?”
-
-     “Sometimes.”
-
-     “Then what should we call you?”
-
-     The man considered the question. “Ansel.”
-
-     He did not offer a title. He did not explain whether the name belonged to him from the beginning or had been chosen for this meeting. Tyler recorded it as the name supplied by the man.
-
-     Ansel looked toward the upper floors. “Come. There are men who have been waiting to see whether you would arrive together.”
-
-     Luke glanced back at the blank display. “What belongs there?”
-
-     Ansel followed his gaze. “That is not mine to decide.”
-
-     He turned and began walking. The men followed, leaving the empty panel undisturbed.
+     “Then the House has finally opened.”
 
 ## Chapter XXXIII: The Men Who Arrived First
 

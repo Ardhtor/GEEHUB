@@ -6450,159 +6450,133 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter XXX: The Seventh Light Opens
 
-     They returned to the House of the Seventh Light after what felt like years. The road had carried them through the forest and back toward the city, but the distance could not be measured by the number of steps. The buildings had changed. The lake appeared beyond the upper roofs, and the northern road could be seen through the trees even though it lay far beyond the city. The house stood where they remembered it, built from dark timber and pale stone. Its seven lamps were dark.
+     They returned to the House of the Seventh Light after what felt like years. The road had not been long in distance, but it had carried them through enough histories that none could agree on how much time had passed. Luke remembered the forest and the photograph. Tyler remembered the sequence of measurements. Kirk remembered the settlement's repaired floor and the marks beside its gate. Bill remembered the meal and the water. Joseph remembered the missing man walking away without giving them a name. The largest man remembered the road changing beneath their feet. The Seventh Man remembered the light.
 
-     The keeper was still sitting at the table.
+     The house stood where they had left it. Its dark timber walls were unchanged, but the seven lamps above the entrance had gone dim. Six blue flames remained. The seventh was dark.
 
-     The seven chairs were occupied.
+     The keeper was sitting at the table.
 
-     The sixth man was the one from the photograph. He sat with his hands resting on the table, looking at the empty space where the cloth map would be placed. His face was clearer than it had been on the road, but it did not settle into a name. Nobody asked him to provide one.
+     The seven chairs were occupied. Six of the travelers had taken their places. The man from the photograph sat in the seventh chair. The Seventh Man remained standing beside the door. The keeper did not ask the newly arrived man why he had returned. He did not ask the travelers whether they had called him. He placed a cup on the table and waited.
 
-     The keeper looked at him and nodded.
+     Luke looked at the man. “You came back.”
 
-     “You took long enough.”
+     “I chose to.”
 
-     The man looked back. “I was called.”
+     “Did you find what you were looking for?”
 
-     “And you came.”
+     “I found the place.”
 
-     “Yes.”
+     Luke considered the answer. He did not ask whether the man intended to stay.
 
-     The keeper did not ask where he had been. He did not ask whether the man intended to stay. He moved a cup toward him and left the chair as it was. The man accepted the cup. The room seemed to recognize the act, though nothing else changed.
+     The keeper looked at him and nodded. “You took long enough.”
+
+     The man sat back. He did not offer a name. Nobody demanded one.
 
      The amber lamp above the door came on.
 
-     The city appeared beyond the windows. Then the lake appeared beyond the city. The forest appeared beyond the lake. The northern road appeared beyond the forest. Every place the men had crossed became visible at once, not as a single picture but as layers that remained distinct. The house did not flatten them into one landscape. It held their differences together.
+     Its light moved through the room, passing over the chairs, the table, and the men's hands. The city appeared beyond the windows. The lake appeared beyond the city. The forest appeared beyond the lake. The northern road appeared beyond the forest. The seventh well stood at the beginning of the view, and the House of the Seventh Light stood at its center. Every place they had crossed became visible at once.
+
+     Tyler went to the window. “Those places cannot all be in the same direction.”
+
+     “They are not,” the keeper said.
+
+     “Then what are we seeing?”
+
+     “The relations between them.”
+
+     Kirk looked at the floor. The timber grain seemed to continue through the walls and out into the country beyond. The house was not showing a map of locations. It was showing the routes that had survived the men's choices.
+
+     Joseph stood beside the Teller. He could see the missing man's reflection in the glass, though the man himself sat behind them. The reflection did not repeat his posture. It showed him standing at the edge of the forest, looking toward the house. Joseph did not take this as proof that the man had been there before. He knew how easily a remembered image could become a claim.
+
+     “The house is remembering him,” Joseph said.
+
+     The keeper shook his head. “The house is remembering that he returned.”
+
+     The distinction mattered. The man in the seventh chair had not been restored to a place that belonged to him. He had chosen to occupy it. The chair had remained available, but the choice had been his.
 
      The keeper opened the cloth map.
 
-     All the roads were now connected.
-
-     Tyler leaned over the table. He could follow the line from the northern works to the seventh well, from the well to the reservoir, from the reservoir to the city, and from the city into the forest. Other routes crossed those lines. Some returned to the house. Some ended at places that had not yet been named.
+     All the roads were now connected. The northern road joined the city. The city joined the lake. The lake joined the forest. The forest joined the country beyond the door. The line beneath the city ran through the black mark and continued toward the Sacred Fountain. The road made of men crossed it without breaking. The map held every route the travelers had carried into it, including the route made by the missing man's return.
 
      “The world is ready,” the keeper said.
 
      Luke looked at the map. “Ready for what?”
 
-     “For the part you haven't written.”
+     The keeper folded one corner of the cloth. “For the part you haven't written.”
 
-     Kirk examined the cloth. The repair at its corner had disappeared, but the stitch marks remained. He could see where the map had been mended. The repair was not erased by the new pattern.
+     Luke disliked the phrasing. “We have been walking through places that were already here.”
 
-     “It has kept the old state,” he said.
+     “And what did you leave in them?”
 
-     “It has kept the evidence of the repair,” the keeper replied. “The cloth is not pretending it was never damaged.”
+     Luke looked at the brass key. He thought of the doors he had opened and the ones he had passed without entering. “A way through.”
 
-     Tyler traced one of the new roads without touching it. “The routes are connected, but they are not all open.”
+     Tyler looked at his notebook. “Records. Measurements. Contradictions we have not resolved.”
 
-     “Correct.”
+     Kirk said, “Repairs. Places where the structure can hold.”
 
-     “Then what does ready mean?”
+     Bill looked toward the kitchen. “Food, water, and a way back.”
 
-     “It means you can begin without pretending the work is finished.”
+     Joseph glanced at the men around the table. “The choice to return.”
+
+     The largest man rested his hand on the oak. “Room.”
+
+     The Seventh Man spoke from beside the door. “Continuity.”
+
+     The missing man looked at the map. “A place that does not require me to explain why I was absent.”
+
+     The keeper listened. He did not combine their answers into one doctrine. He let each remain particular.
 
      The house shook.
 
      The seventh light went white.
 
-     Far away, beneath the earth, the Sacred Fountain began to run. The first stop moved. Then the second. Then the third. One by one, the men around the table felt the water moving through the world. It passed beneath the floor and through the walls. The cups trembled. The cloth map tightened across the table, and every route brightened.
+     Far away, beneath the earth, the Sacred Fountain began to run. The sound passed through the map and into the table. The first metal stop moved. Then the second. Then the third. One by one, the men around the table felt water moving through the world.
 
-     The largest man stood. “Who is pulling them?”
+     Bill stood first. “The lower channels are opening.”
 
-     The keeper looked toward the floor. “We do not know.”
+     Tyler checked the map. “The routes are connected, but the flow is changing.”
 
-     “Can they be stopped?”
+     Kirk leaned over the cloth. “Something has pulled the stops.”
 
-     “Not by closing the house.”
+     “Can the channels hold?” the largest man asked.
 
-     The sixth man from the photograph lifted his head. “The water is going somewhere.”
+     “I don't know yet,” Kirk said. “I need to see the structure.”
 
-     “Yes,” the keeper said.
+     Luke had already moved toward the door. “Then we go.”
 
-     “Then we should follow it.”
+     Joseph stayed beside the Teller. The sound beneath the house had become a steady pulse. It did not resemble an alarm. It resembled a system beginning to work after a long period of disconnection.
 
-     “You may.”
+     “What happens if we do nothing?” Joseph asked.
 
-     Joseph looked at the keeper. “Is that the war?”
+     The keeper closed the map. “The channels will continue to open. Some places will receive the water. Others will be cut off from it.”
 
-     The keeper nodded.
+     “Can we stop it?”
 
-     “Now we go to war.”
+     “You can close a channel. You can redirect it. You can help a place receive what it needs. You cannot make every place identical.”
 
-     Nobody asked against whom. They knew.
+     The largest man looked at the keeper. “Then what is the war?”
 
-     The war was against isolation. The battlefield was every place where a man had been separated from the history that made him recognizable: a room that remembered an object but not its owner, a road that kept a footprint but lost the traveler, a voice preserved without the man who had spoken it. The danger was not that these things would disappear. It was that they would remain as fragments and begin to act as though they were complete.
+     The keeper stood.
 
-     “We are not going to destroy the fragments,” Tyler said.
+     “The war is against isolation.”
 
-     “No,” the keeper replied. “You are going to find what they have been separated from.”
+     Nobody asked against whom. They understood that the enemy was not a man or a city. It was the condition in which a place could be cut off from every other place, a record could be separated from the life it described, or a man could be reduced to the absence others had assigned him.
 
-     Luke looked at the map. “And if we find it?”
+     “And the battlefield?” Luke asked.
 
-     “You make a route between them.”
+     “Everywhere.”
 
-     Kirk tapped the table. “That means repair.”
+     Bill gathered the supplies. Tyler took the map and copied its new connections. Kirk checked the tools. Joseph waited for the missing man to decide whether he would come. The man rose from the seventh chair.
 
-     “Sometimes.”
+     “I will go as far as the fountain,” he said.
 
-     Bill was already checking the provisions. “And sometimes it means feeding the men who have to do the repair.”
+     “That is enough,” Joseph replied.
 
-     The largest man looked at the six occupied chairs and then at the keeper. “Who decides where we go first?”
+     The Seventh Man opened the door. Beyond it, the road ran toward the city and then down beneath the ground. The water could be heard moving along it.
 
-     “The men who can reach the first place.”
+     The keeper remained at the table. He did not give them orders. He turned the lantern so that its amber pane faced the open doorway.
 
-     “That is not a command structure.”
-
-     “No. It is a way to begin.”
-
-     Tyler marked the first route. It led from the house to a district beneath the eastern city, where the water had begun moving without a carrier. Kirk studied the structural lines and identified a passage that could bear their weight. Bill prepared lamps and food. Luke chose to go ahead and check the road. The Seventh Man watched the map until a faint line appeared beside the first route. He recognized the direction, but not the destination.
-
-     Joseph remained beside the Teller. The keeper watched them for a moment.
-
-     “You will need to keep your own history,” he said.
-
-     Joseph looked at him. “We do.”
-
-     “Even when the work asks you to remember everyone else.”
-
-     The Teller answered. “We are not giving it up.”
-
-     The keeper nodded. He did not ask them to prove it.
-
-     The sixth man from the photograph stood. The chair remained behind him, no longer empty. He looked at the road on the map.
-
-     “I can go with you,” he said.
-
-     Luke turned. “Do you know where it leads?”
-
-     “No.”
-
-     “Then why come?”
-
-     The man considered the question. “Because you called.”
-
-     It was not a full explanation, but it was his answer. The largest man made room beside the table. Bill passed him a portion of bread. Tyler recorded that he had joined the party without assigning him a name. Kirk checked the strap on his pack. Joseph looked at the Teller, and the Teller gave a small nod.
-
-     The keeper folded the map. The roads disappeared from its surface, but the men had seen where they led. He handed it to Tyler.
-
-     “Do not let the map decide for you.”
-
-     Tyler took it. “I won't.”
-
-     “And do not mistake a connected world for a world in which no one can be lost.”
-
-     The room became quiet. The men understood that the map was not a guarantee. It gave them routes, not immunity. A road could be crossed and still be forgotten. A man could be remembered and still be misunderstood. The work would have to continue after the first connection had been made.
-
-     The keeper opened the door.
-
-     Beyond it was a country of dark trees and pale ground. A blue line ran beneath the soil, following the direction of the water. The men could hear the Sacred Fountain from somewhere far below.
-
-     “The battlefield is everywhere,” the keeper said.
-
-     Luke stepped through first. Tyler followed with the map. Kirk checked the threshold. Bill carried the provisions. The largest man waited until the sixth man had crossed. The Seventh Man went beside them. Joseph and the Teller crossed together, each looking toward the other before turning toward the road.
-
-     The keeper remained at the table. The amber lamp burned above the entrance, and the seventh light held its white glow.
-
-     The men went out to reconnect what had been separated.
+     The men left together. The seventh light stayed white above the house.
 
 ## Chapter XXXI: The Door
 

@@ -610,7 +610,7 @@
 
      His brother did not defend those mistakes. He showed his a district that had been closed for several years because its houses had begun reproducing memories without distinction. A resident would enter a room to find a conversation repeated exactly as it had happened decades earlier. At first people had found the repetitions comforting. Later they discovered that the rooms were preventing new conversations from taking place. The district had been sealed, its records retained, and a new rule established: preservation could not be allowed to replace the living event. A memory was valuable because it made a relationship available, not because it could substitute for the people who had formed it.
 
-     He thought of the southern house where their mother had kept old letters in a drawer. The letters had mattered, but nobody had mistaken them for the people who wrote them. They had been taken out on certain evenings, read, discussed, and put away again. The drawer had been a place where memory could rest without claiming the whole house.
+     He thought of the southern house where their father had kept old letters in a drawer. The letters had mattered, but nobody had mistaken them for the people who wrote them. They had been taken out on certain evenings, read, discussed, and put away again. The drawer had been a place where memory could rest without claiming the whole house.
 
      “You need ordinary rooms,” he said.
 
@@ -3012,14 +3012,16 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Epilogue: The Next Sight
 
-     There would later be a war over the house. There would later be kingdoms built inside devices. There would later be men who believed the Serum belonged to them and men who believed they belonged to the Serum. There would later be children who treated the old laboratory as a birthplace rather than a disaster. There would later be maps of the Blue Hall and expeditions into the Redundancy Rooms. There would later be a city in the amber forest whose streets changed length according to how many people remembered them. There would later be a machine that could preserve dreams. There would later be a voice that spoke from a screen that had never been connected to power. There would later be a man who stepped out of a commit history. There would later be a battle at the lake. There would later be the seventh vessel. There would later be a door that opened in the wrong century. There would later be a room so large that the northern country itself would appear upon a table inside it. All of this would happen. All of it had already happened somewhere. The Serum had made no promise that history would remain singular. It promised only continuity. And so the first book ends not with a conclusion but with an opening. The screen is on. The men are inside. The room is larger. The Voice is waiting. The Serum is moving. And beyond the next sight there are paths.
+     There would later be a war over the house. There would later be kingdoms built inside devices. There would later be men who believed the Serum belonged to them and men who believed they belonged to the Serum. There would later be men born after the Accident who treated the old laboratory as a birthplace rather than a disaster. There would later be maps of the Blue Hall and expeditions into the Redundancy Rooms. There would later be a city in the amber forest whose streets changed length according to how many people remembered them. There would later be a machine that could preserve dreams. There would later be a voice that spoke from a screen that had never been connected to power. There would later be a man who stepped out of a commit history. There would later be a battle at the lake. There would later be the seventh vessel. There would later be a door that opened in the wrong century. There would later be a room so large that the northern country itself would appear upon a table inside it. All of this would happen. All of it had already happened somewhere. The Serum had made no promise that history would remain singular. It promised only continuity. And so the first book ends not with a conclusion but with an opening. The screen is on. The men are inside. The room is larger. The Voice is waiting. The Serum is moving. And beyond the next sight there are paths.
 
 
 
      The journey continued because there was no clean point at which it could be declared complete. Each place answered one question by exposing another. Each answer became part of the terrain behind them. The men were beginning to understand that their task was not to reach the end of the country, but to become capable of carrying what the country revealed.
 ## Chapter XIII: The War for the House
 
-     The war began because the southern kings finally believed the house could be possessed. They had received enough reports by then to know that its lower chambers contained old reservoirs, that its upper rooms opened into digital skies, that its walls could change when measured, and that adult men of extraordinary stature lived among the screens without appearing to age in any ordinary fashion. Such things would have been tolerated as curiosities had there been nothing to govern. There was something to govern. There was a road through the house which appeared to connect the southern kingdoms with the northern lake, and therefore there was trade, and where there was trade there were borders, and where there were borders there were claims. Three armies marched north. The first came beneath the white stag of the western crown. The second came beneath the black sun of the river kingdom. The third came under no common banner, for the cities of the coast sent soldiers separately and each commander had received instructions to return with whatever could be carried. The house watched them approach. Its windows multiplied. Its doors changed places. The blue light appeared in towers where no towers had stood before. The first army reached the southern gate at noon. The gate was ordinary enough: heavy timber, iron hinges, weathered stone. Their heralds announced themselves. No answer came. Their engineers measured the gate. The measurements disagreed by a finger's width. They measured again. The gate became larger. The captain stopped them.
+     The war began because the southern kings finally believed the house could be possessed. They had received enough reports by then to know that its lower chambers contained old reservoirs, that its upper rooms opened into digital skies, that its walls could change when measured, and that adult men of extraordinary stature lived among the screens without appearing to age in any ordinary fashion. Such things would have been tolerated as curiosities had there been nothing to govern. There was something to govern. There was a road through the house which appeared to connect the southern kingdoms with the northern lake, and therefore there was trade, and where there was trade there were borders, and where there were borders there were claims. Three armies marched north. The first came beneath the white stag of the western crown. The second came beneath the black sun of the river kingdom. The third came under no common banner, for the cities of the coast sent soldiers separately and each commander had received instructions to return with whatever could be carried.
+
+     The house watched them approach. Its windows multiplied. Its doors changed places. The blue light appeared in towers where no towers had stood before. The first army reached the southern gate at noon. The gate was ordinary enough: heavy timber, iron hinges, weathered stone. Their heralds announced themselves. No answer came. Their engineers measured the gate. The measurements disagreed by a finger's width. They measured again. The gate became larger. The captain stopped them.
 
      “No more measuring.”
 
@@ -3057,11 +3059,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The soldiers entered anyway. The battle did not begin with weapons. It began with space. The western army advanced thirty paces and found that the hall had become three hundred paces long. The river army entered from a side corridor and emerged in a forest. The coastal soldiers opened a door and found themselves on the edge of the northern lake. Orders crossed the armies and failed. Companies became separated. Maps ceased to agree with themselves. A unit that had entered at dawn returned at sunset carrying a banner from a kingdom that had not yet existed. The war was over by morning. No one had won. No one had lost in the manner expected of armies. The house had simply become too large for conquest. Among the southern records this became known as the Battle Without a Field. Among the men it was remembered differently. One of them sat at the great table that evening and drank from a glass of water.
 
-     “We did not fight,”
+     “We did not fight,” he said.
 
-     he said. Another man answered,
-
-     “We made room.”
+     Another man answered, “We made room.”
 
      The largest man looked toward the windows. Outside, the army camps seemed very far away.
 
@@ -3077,71 +3077,227 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The men laughed. They knew what would happen to maps.
 
-The first reports from the northern road had not described a war. They described a building whose doors opened onto routes that could not be found on ordinary maps, a reservoir whose water appeared to hold light, and a settlement whose inhabitants did not agree that the southern crowns had any authority over them. The reports were carried south by merchants, surveyors, and envoys who had reached the outer gate and returned with different accounts. Some said the house was a fortress. Others called it a city without streets. One report claimed that the northern residents had refused a royal request to inspect the lower chambers. Another said that the refusal had been polite and that the visitors had been offered food before being shown the road back. The kings received all of these accounts. They chose the ones that supported a claim.
+     The first report reached the western king before the last companies had returned to camp. It described a gate that had changed its dimensions, a hall that had lengthened, and a forest that had appeared inside a building. The king read it twice. He did not believe the soldiers had lied. He believed they had failed to describe the event in terms that could be used. He asked for the captain.
 
-     The western crown argued that the northern road crossed land historically held by its ancestors. The river kingdom argued that the reservoir's watercourse had once supplied its mills and that any structure controlling the source must answer to the river throne. The coastal cities argued that the routes through the house would eventually connect their ports to the inland trade roads, and that no private household should be allowed to control a passage of such consequence. Each argument contained a portion of history. The road had crossed several old boundaries. The reservoir had supplied settlements that were now separated by distance and altered geography. Trade would indeed change if the house opened its passages. What the claims did not establish was that the kings owned the people living there, or that an old use of the land granted them authority over every new room built upon it.
+     The captain arrived with mud on his boots and a cut across one cheek. He had not drawn his sword after the gate opened. He had spent the afternoon trying to gather his men and the evening guiding them back through a route that changed whenever a soldier insisted on taking the shortest way. The king asked whether the house had attacked them.
 
-     The first embassy had tried to negotiate access. It had asked for a permanent royal office in the central hall, a registry of every person who entered the house, and a right to inspect the lower vessels at any time. The residents had declined. They offered a public route to the lake, a schedule for supervised visits to the outer archive, and a method by which disputes about road use could be brought before a mixed group of residents and travelers. They refused the permanent office and the unrestricted registry. The embassy returned south with a record of the offer, but the kings read the refusals as proof that the house was hiding something.
+     “No.”
 
-     A second embassy carried a proposed treaty. Its first article described the house as a northern estate under the protection of the three crowns. Its second gave the crowns a share of all trade passing through the roads. Its third permitted the kings to appoint a keeper of the reservoirs. The residents were invited to sign at the bottom. The document did not name any of them as parties with equal standing. It had already decided who possessed authority before the discussion began. The ceremonial man read it aloud at the great table. He did not mock the envoys. He asked whether they would sign a document in which another person had written that their homes belonged to him.
+     “Did it threaten you?”
 
-     The western envoy said that the language was conventional. The compact man asked whether convention changed the meaning of the words. The river envoy said that the kings were responsible for protecting their subjects. The older man replied that protection did not establish ownership. The coastal delegate said that the roads could not be left unregulated. Tyler, who had been examining the route proposals, agreed that roads needed rules. He pointed out that the residents had already offered a system for passage and dispute resolution. The problem was not an absence of governance. It was that the proposed treaty gave the crowns the right to govern without requiring them to answer to the people who lived in the house.
+     “No.”
 
-     The envoys asked to speak with the largest man. He listened while each described the reasons for the claim. He did not interrupt. When they had finished, he asked what they believed would happen if the house accepted the treaty. The western envoy said that the road would become secure. The river envoy said that the reservoir would be protected. The coastal delegate said that trade would become predictable. The largest man looked toward the windows, where the road ran beyond the field.
+     “Then why did you withdraw?”
 
-     “And what happens to the people who live here?”
+     “Because I could not keep the men together.”
 
-     The envoys exchanged glances. One said that residents would retain their customary rights. Another said that the crowns would appoint local administrators. The largest man asked whether a resident could refuse an inspection of his room. The river envoy said that the reservoir authority would need access. The largest man asked whether a person could leave without being entered into a royal register. The western envoy said that movement through a border required records. The largest man asked whether the residents could close a passage that had become unsafe. The coastal delegate said that commercial access could not be interrupted without cause.
+     The king turned the report over. “You were sent to take a building.”
 
-     The questions made the treaty's structure visible. Its protections applied to the crowns' interests. Its restrictions applied to the people who lived inside the house. The largest man returned the document without signing it. He said that they could negotiate a road agreement, a safety agreement, and a method for exchanging information. They could not negotiate away the residents' ability to decide who entered their rooms.
+     “We entered a country.”
 
-     The envoys returned south. The kings did not send another embassy.
+     “A country can be taken.”
 
-     The armies arrived several weeks later. Their banners were visible from the upper gallery before their soldiers could be seen individually. The western contingent camped near the old stone road. The river kingdom established its tents beside the stream. The coastal companies occupied a rise from which they could see the lake. They brought engineers, supply wagons, scribes, and men whose task was to mark the land for future division. The house did not answer with a threat. It opened several windows that had not been present the previous day. From those windows the residents watched the camps form, and from the camps the soldiers watched the house grow taller.
+     “Not one that moves around the people trying to take it.”
 
-     The residents held a meeting in the central hall. Some wanted to close every outer route. Others thought that doing so would make ordinary travelers appear to be enemies. Tyler laid out the maps and separated the roads into categories: public crossings, resident passages, restricted service routes, and routes whose conditions were not yet known. Luke argued that the outer gate should remain open long enough for anyone who wanted to turn back. The restless man wanted to meet the armies before they reached the entrance. The older man said that a confrontation on the road would allow the kings to describe the residents as the aggressors. Kirk suggested that they make the paths visible from the outside, so that a soldier could see where the safe route ended. Joseph asked whether the camps had received the earlier offer of a public crossing. Nobody knew. The messages sent south had not been acknowledged.
+     The king disliked the answer. He asked whether the men inside had weapons. The captain said that he had seen no weapons. He had seen tools, notebooks, cups, maps, and a table. The largest man had stood behind the others. He had not moved toward the soldiers. He had not needed to.
 
-     The ceremonial man proposed that the residents prepare a reception space inside the entrance hall. It would be large enough for envoys, captains, and anyone who wished to discuss terms, but it would not become a permanent office. The compact man checked the doors and the width of the approach. The largest man asked that the hall remain wide enough for soldiers to enter without being forced into a narrow file. The reflection-watcher arranged the lighting so that the entrance could be seen clearly without turning it into a stage. The proposal was accepted. The hall would be open, but its openness would not be mistaken for surrender.
+     “What did they want?”
 
-     The first army reached the gate at noon. Its captain was a disciplined officer who had spent most of his career preventing small disputes from becoming large ones. He had been ordered to claim the house, but he knew that the reports from the north did not describe a conventional fortress. He told his engineers to measure the gate. When the measurements disagreed, he stopped them. He asked for a messenger. The messenger returned with no answer, but he had been offered water and told that the hall was open. The captain advanced with a small escort.
+     “They wanted us to leave.”
 
-     Inside, he found the men standing without ranks. They did not block the entrance, and they did not present weapons. The broad-shouldered resident stood near the center, where the doorway framed him. The captain called them trespassers. The largest man replied that the soldiers were the ones who had crossed the threshold. The captain said that he had come under royal authority. The resident asked whether royal authority extended to the people who lived inside the house. The captain said that the kings had claimed the territory. The resident said that a claim was not the same as permission.
+     “And you did.”
 
-     The captain demanded to know who spoke for the house. The ceremonial man answered that no one person could speak for every resident, but that he could arrange a meeting with those responsible for the relevant rooms and routes. The captain disliked the answer because it offered no single person to command. He asked whether the residents intended to resist. The restless man said that they would not allow soldiers to take rooms or vessels. The older man added that they had offered a safe public route and would keep it open as long as the soldiers did not use it to enter restricted spaces. The captain looked back at his escort. He had been prepared for a refusal. He had not expected a practical arrangement.
+     “Yes.”
 
-     He sent a message to the other armies. Before the message returned, the western engineers resumed their measurements. The gate changed. The captain stopped them, but the room had already begun to expand. The hall stretched farther than the company could cross in a straight line. The river army entered through a side corridor and emerged among trees. The coastal soldiers opened a service door and found themselves beside the lake. Orders traveled between the groups and failed to reach their intended recipients. No one had been struck. No one had been disarmed. The geography had ceased to support the plan by which the armies expected to move.
+     The king dismissed him and called for the other commanders. They agreed that the first attempt had failed because the army had entered without a reliable plan. They would return with surveyors, engineers, and cartographers. The house could not be allowed to control the road between the kingdoms and the northern lake. If it could open routes at will, it could redirect trade, shelter fugitives, and alter the reach of royal authority. The kings did not describe their concern as greed. They described it as order.
 
-     The residents did not use the changing rooms to trap the soldiers. They opened visible paths toward safe spaces and marked the places where an ordinary return route could be found. Luke and the restless man moved through the entrance corridors, showing separated companies how to reach the public hall. Tyler kept a map of the routes as they changed. Kirk noticed which soldiers were trying to find their units and which were simply following the nearest path. Joseph spoke with a young messenger who had lost contact with his captain. The ceremonial man kept a clear place for anyone who wanted to ask for help. The largest man stood in the hall where the main route remained wide enough for several people to gather.
+     Inside the house, the men discussed the same events without calling them a victory. Luke wanted to know whether the soldiers had been injured. Tyler had already begun comparing the routes that had appeared during the incursion. Kirk was checking the outer gate for damage. Joseph sat beside the largest man and asked whether the soldiers had understood that they could leave.
 
-     The soldiers found themselves in a forest, at the lake, in a corridor that had not appeared on their map, and in a room whose windows showed a different time of day. Some panicked. Others sat down. A few tried to mark the walls, but the marks appeared in more than one place. A unit that had entered at dawn returned at sunset carrying a banner from a kingdom that had not yet existed. The soldiers did not understand whether they had traveled forward, backward, or sideways through the house. The residents did not claim to know. They helped the soldiers find a safe place to wait until their companions could be located.
+     “Some did,” the largest man said. “Some thought leaving meant losing.”
 
-     The battle was over by morning. No one had won. No one had lost in the manner expected of armies. The house had not destroyed the soldiers or taken their weapons. It had made conquest impossible by refusing to remain a single field that could be surrounded and claimed. The troops were eventually guided back to their camps. Their commanders counted their people and found that most had returned. A few had chosen to remain in the public hall until daylight, where they had been given food and a place to rest. The captain asked whether the house intended to keep any of his men. The ceremonial man said that no one was being held. A person who wanted to leave could leave. A person who wanted to remain would have to speak for himself.
+     Bill entered with a tray of cups. “They came to own the place. They weren't ready to understand a door that opened both ways.”
 
-     Among the soldiers, the experience produced different accounts. Some said the house had attacked them. Others said it had confused them. One soldier reported that he had been helped by a resident who carried water through a room with blue windows. Another said that he had walked through the forest and found his own camp on the other side of a door. The records did not agree, but each account had a speaker and a time. The captain wrote all of them into his report, separating what he had seen from what his men had told him. He did not want the king to receive a clean story that would encourage a second attack.
+     Luke looked at him. “We could have shut the gate.”
 
-     The residents held their own review that evening. They had not fought, but the event had still affected them. The entrance hall had been crowded. Several routes had changed. The lower chamber had remained closed, but its maintenance crew had been interrupted. The kitchen had prepared food for people who had not been expected. The quiet rooms had been used by residents who needed relief from the noise. The keepers recorded which parts of the house had been affected and what repairs were needed. The restless man said that they should have sent the armies farther away. The older man replied that the soldiers had arrived under orders and that many had not known what they were being asked to claim.
+     “We could have.”
 
-     The largest man looked toward the windows. The camps seemed very far away. He said that the house had made room, but the kings would return because the first event would be described in a way that suited them. The Voice said that next time they would bring maps. The men laughed, but Tyler did not. He had already begun preparing a set of maps that could be shown to outsiders without exposing private routes. The cartographers would come because the kings still wanted a picture they could own. The residents would need a way to let them see enough of the house to understand its public routes without giving them control of every room.
+     “Would have saved time.”
 
-     The captain's report reached the southern court before the kings had agreed on what to tell their subjects. It described the failure of the military plan, the strange movement of the house, and the assistance given to separated soldiers. It also recorded the absence of a conventional battle. There had been no field to hold, no wall to breach, and no authority that could be made to surrender. The kings were dissatisfied. They wanted a victory, a defeat, or a clear explanation. They received none. The western crown called the event a hostile obstruction. The river kingdom called it a failure of measurement. The coastal cities called it a breach of commercial access. The differences between their accounts would matter later, because they had not agreed upon the same reason for going north.
+     “And trapped the men outside?”
 
-     In the house, the men repaired the damage caused by the sudden expansion. A door had opened into a wall. A staircase had gained an extra turn. One corridor now connected with the old kitchen passage, while another ended in a quiet room whose occupant had not asked for a public entrance. The compact man inspected the hinges. Tyler revised the route map. The reflection-watcher checked the light. The ceremonial man met with residents whose rooms had changed. Luke walked the outer approach and made sure the public path remained easy to identify. Kirk checked the old gate markers. Joseph listened to the soldiers who had chosen to remain in the public hall and asked what they wanted to do next. The work was ordinary, but it restored the house's ability to be used by people who had not taken part in the confrontation.
+     Luke shrugged. “They were trying to take the house.”
 
-     The captain returned alone several days later. He brought no banner and no armed escort. He asked to see the ceremonial man and the largest resident. He said that he could not prevent the kings from making another attempt, but he could report that the house had not behaved as a conventional enemy. He wanted a copy of the public-route map so that his soldiers would know where they could travel without entering private rooms. Tyler agreed to prepare one. The captain asked whether the residents would allow a permanent observation post outside the gate. The ceremonial man declined. A temporary meeting place could be arranged when an envoy arrived, but a permanent post would imply a right to remain that had not been granted.
+     “Their kings were. The men were following orders.”
 
-     The captain accepted the distinction. He asked whether the residents would agree to a further meeting before the next army arrived. The largest man said that they would meet with anyone who came in good faith, but they would not sign a claim that made their home the property of a distant throne. The captain said that he could carry the answer, though he could not promise that the kings would accept it. He took the route map and left by the public road. The house remained open behind him, but the boundary between public passage and private residence was now marked more clearly than before.
+     Tyler placed a map on the table. It showed the western hall, the eastern corridor, and the passage that had opened onto the lake. He had marked the points where the routes changed. “If they come back with surveyors, they'll try to establish a fixed approach.”
 
-     The first war had not ended because the kings had changed their minds. It had ended because their armies had discovered that the house could not be conquered by occupying a single entrance. The residents had not proved that they were invulnerable, and they had not promised that no future conflict could cause harm. They had shown that the house was a lived place, not an empty resource, and that its routes could not be controlled without regard for the people who used them. The war had made the question of governance unavoidable. The next visitors would bring maps, and the house would have to decide how much of itself could be shown without becoming the property of the person who drew it.
+     Kirk leaned over the map. “Then we should make sure the ordinary routes remain ordinary. The kitchen, the workshop, the lower stairs. We don't need to change every door.”
 
-At the western camp, the soldiers spent the following morning trying to agree on what had happened. Their tents were still in place, but the road beside them no longer matched the route on the quartermaster's map. Some wagons had been moved closer to the stream. Others stood beside a stand of trees that the men did not remember seeing when they arrived. The captain ordered the supplies counted before anyone attempted to move them. He did not want a missing cart to become a story about the house stealing the army's property. The count showed that one wagon was still unaccounted for. A sergeant insisted that it had been taken through a door. Another remembered seeing it beside the public hall. The captain sent two unarmed men to ask whether anyone had found it.
+     Joseph looked at the gate. “We should decide what happens if one of them asks to stay.”
 
-     The wagon was in a covered yard behind the entrance hall. It had been left there by a group of soldiers who had become separated from their unit and had used it to carry an injured companion. The resident who had helped them had arranged for the wagon to be returned when the soldiers could identify it. The quartermaster checked the wheel marks and confirmed the number painted on its side. The soldiers thanked the resident. He accepted the thanks without asking them to acknowledge the house's authority. The captain recorded the return as an ordinary recovery of equipment. It was important to him that his report contain events that could be checked as well as the unusual descriptions that could not.
+     Nobody answered immediately. The house had allowed the soldiers to leave, but it had not decided what to do with a man who no longer wished to serve the king who sent him. The question was not whether the house could shelter him. It was whether shelter would become another claim, this time made by the residents.
 
-     The road agreement began with a table outside the gate. Tyler brought the public map. The captain brought a list of the routes his men needed to use when moving between the camps and the lake. They compared the two documents and found that the main road could remain open if the armies agreed not to establish permanent checkpoints at the house's entrances. The residents would maintain a marked public path and provide notice when weather or a change in the architecture made it unsafe. The soldiers would not enter private rooms or attempt to survey the lower chamber. Any inspection related to the reservoir would be arranged separately with the people responsible for its maintenance. The agreement did not settle the question of sovereignty. It did reduce the chance that a traveler would mistake a resident's doorway for a military position.
+     Bill set down the cups. “We don't keep a man because he has nowhere else to go. We give him somewhere to stand while he decides.”
 
-     The captain asked whether the kings would be expected to sign the agreement. The ceremonial man said that the agreement concerned the use of a road, not ownership of the house. Anyone who used the road could accept its conditions. The captain considered this. He had spent his life working within chains of command, and he knew how difficult it would be to explain an agreement that did not derive its authority from a king. Still, it was practical. His soldiers needed a route they could trust, and the residents needed a way to keep an army from turning every public passage into a claim. He signed as captain of the western contingent, not as the representative of a sovereign.
+     The largest man nodded. “That is enough.”
 
-     The document was copied twice. One copy went to the camp. The other remained in the archive, linked to the map used during the discussion. A note explained that the agreement governed passage only and did not resolve the wider dispute. The older map, which showed the road before the first army arrived, remained in the same folder. The new agreement was not a treaty of peace, but it was a beginning. The road had become safer to use because the people who needed it had agreed on a way to share it without pretending that they owned one another's destinations.
+     The next morning the captain returned alone. He had left his sword in camp and carried no banner. He stopped outside the gate and called for the man who had spoken to him the previous day. The gate opened. The largest man appeared in the entrance hall.
+
+     “You have come back.”
+
+     “I have.”
+
+     “To claim the house?”
+
+     “No.”
+
+     The captain looked past him. The hall was shorter than he remembered. A table stood near the wall, and a man was repairing a chair. Another was carrying a crate toward the workshop. Nobody had formed a line to receive him.
+
+     “I want to know how my men got out.”
+
+     “They found a route.”
+
+     “Some are still missing.”
+
+     “They are not missing here.”
+
+     The captain hesitated. “Can you show me?”
+
+     The largest man stepped aside. The captain entered. They walked through a corridor that led to a courtyard, then down a stair to a low room where several soldiers were sitting. Their uniforms were dirty. One had a bandage around his hand. Another was asleep with his boots still on. They had been separated from their companies and had found the room by following a line of blue lamps. The house had given them food and water. It had not asked them to surrender their weapons, though most had left them outside.
+
+     The captain counted them. He recognized every face. One soldier stood and saluted. The captain returned the gesture, then looked at the largest man.
+
+     “Why keep them here?”
+
+     “They were tired.”
+
+     “They are soldiers.”
+
+     “They were tired soldiers.”
+
+     The captain looked at the men. None appeared frightened. One was speaking quietly with a resident about the route back to the outer camp. Another had removed his boots and was inspecting a blister. The house had not taken their allegiance. It had given them a place to recover.
+
+     “Will you let them go?”
+
+     “They can leave when they are ready.”
+
+     “They are under my command.”
+
+     The largest man looked at him. “Then ask them.”
+
+     The captain disliked the answer because it returned responsibility to him. He had spent years issuing orders and receiving reports. He had not often asked a soldier what he wanted once the immediate danger had passed. He turned toward the men.
+
+     “Who wants to return to camp?”
+
+     Three stood. Two remained seated. One looked uncertain.
+
+     The captain waited. He did not repeat the order. The uncertain soldier finally stood, though he did not look pleased. The captain asked whether he wanted to leave. The man said that he wanted to see the outer road first. The captain agreed to wait.
+
+     The largest man showed them the route. It was not the same corridor they had entered through. It passed beside the workshop, crossed a narrow bridge over a channel of luminous water, and emerged at a gate overlooking the southern slope. The camp could be seen below. The route was clear and stable. The soldiers walked through it without being hurried. The two who had chosen to remain stayed in the recovery room. The captain did not order them to follow.
+
+     At the outer gate, the captain turned back.
+
+     “You could have kept them.”
+
+     “Yes.”
+
+     “You didn't.”
+
+     “No.”
+
+     “Why?”
+
+     The largest man looked toward the house. “A place that cannot be left is not a home.”
+
+     The captain returned to camp with his men. His report to the king was different from the first. He described the routes, the recovery room, and the men who had chosen to stay. He did not call the house harmless. He did not call it hostile. He said that it could not be taken by force without losing the purpose of taking it. The king read the report and ordered the next expedition to proceed.
+
+     The river kingdom approached from the east. Its commander had been told to secure the lower reservoir and prevent the house from redirecting the water. He brought engineers, bridge builders, and a company trained to move through narrow passages. Their plan was to enter by the service corridor and establish a fixed route to the lake. They believed that if they controlled the water, they would control the house.
+
+     The corridor opened onto the lower reservoir. The first men entered and found the water still. The next group followed and found themselves on a bridge above a city. The bridge was broad enough for carts. Its far end opened onto a street lined with houses, each one carrying the name of a place from which a traveler had come. The commander ordered his men to hold position. He sent a surveyor forward. The surveyor returned with a map showing three different shorelines.
+
+     “Which is correct?” the commander asked.
+
+     “All three were present.”
+
+     “That is not possible.”
+
+     “It is what I saw.”
+
+     The commander ordered the bridge secured. The men placed ropes along the rail and marked the entrance with white cloth. The cloth appeared at the far end of the bridge before they had tied it to the first post. A soldier followed it and returned carrying a cup from a house he had never entered. Another man heard his own voice calling from beneath the water. The commander stopped the advance.
+
+     He asked whether anyone had been harmed. No one had. He asked whether the route back remained open. The surveyor said that he believed so, but could not guarantee that it would remain in the same place. The commander looked at the water. The city beneath it was visible through the surface, its streets bright with lamps. Men moved along the lower roads. Some carried objects. Others walked with empty hands.
+
+     A resident appeared at the opposite end of the bridge. He was carrying a wooden crate. He set it down and waited.
+
+     “What do you want?” the commander called.
+
+     “To get past you.”
+
+     “This route is under military control.”
+
+     “It is a bridge.”
+
+     “It is a strategic crossing.”
+
+     The resident looked at the water. “It was a way home before you arrived.”
+
+     The commander ordered his men to clear the bridge. The soldiers hesitated. They had been told to secure the route, but the route was clearly being used by men who lived there. The commander looked at the resident, then at the city beneath the water. He ordered the ropes removed. The bridge remained. The resident lifted his crate and walked past them.
+
+     The river army withdrew by the same route. The commander reported that the lower reservoir could not be held without preventing its ordinary use. The king accused him of failing to secure the crossing. The commander replied that the crossing had never been theirs to secure.
+
+     The coastal cities tried a different approach. Their commanders did not seek the gate or the reservoir. They sent small groups through the outer roads, intending to find a way into the house without announcing a claim. The men arrived as traders, surveyors, and travelers. Some asked for shelter. Others offered tools or maps. The residents received them according to their stated purpose. They were shown the workshop, the kitchen, and the outer roads. They were not given unrestricted access to the lower chambers or the Serum pipes.
+
+     One coastal captain objected to the restriction. He said that a house connected to public roads could not decide which rooms were private. Tyler showed him the route records. The outer road was open. The kitchen could receive visitors. The workshop could be entered by arrangement. The lower reservoir was a working chamber, and access there required a reason and an escort. The captain said that the rules were arbitrary.
+
+     “They are specific,” Tyler replied. “That is not the same thing.”
+
+     The captain asked who had authority to make them. Tyler said that the men responsible for each space maintained its rules, and that the residents could revise them when the use of a room changed. The captain asked whether there was a king. Tyler said no. The captain asked whether there was a council. Tyler said that the men met when a decision affected more than one room. The captain said that this was not a government.
+
+     “It is how the house is governed,” Tyler answered.
+
+     The captain left without agreement. He had come looking for a single authority he could persuade, threaten, or replace. The house had no such point of failure. Its rules were distributed among the men who used the rooms, and its routes remained open where they could be shared safely.
+
+     The kings met again at the southern border. They had lost no great number of soldiers, but they had failed to establish control. The house had not defeated their armies in battle. It had refused to become the kind of object their armies knew how to take. The kings agreed that the next attempt would be made through maps, measurements, and formal claims. They would define the house before entering it. They would draw its borders and assign its rooms. They would give the road a legal status. If the house could be made legible to the kingdoms, perhaps it could be made governable.
+
+     At the house, the men heard the news before the cartographers arrived. The boat keeper brought word from the outer landing. The captain who had returned his soldiers sent a message confirming that the western army would not enter again without a new order. The river commander had withdrawn. The coastal cities were preparing a delegation. The residents gathered at the table.
+
+     Luke wanted to know whether they should close the outer gate. Tyler said that doing so would not prevent another approach. Kirk suggested that they repair the road markers and make the public routes easier to follow. Joseph asked whether the men who came as traders would be allowed to return. Bill said that the house should not punish every traveler for the ambitions of the kings.
+
+     The largest man listened. When the others had finished, he looked toward the windows.
+
+     “They will bring maps,” he said.
+
+     “Then we will show them the routes,” Tyler replied.
+
+     “And if they try to claim the rooms?”
+
+     Kirk looked at the table. “We'll ask who uses them.”
+
+     Joseph added, “And whether the men who use them agree.”
+
+     Luke leaned back. “And if they don't listen?”
+
+     Bill smiled faintly. “Then we keep the doors working.”
+
+     The house did not prepare weapons. It repaired hinges, cleared the outer paths, checked the reservoir gates, and made sure the recovery room was stocked. The residents recorded the rules for the spaces that could be shared and the reasons for restricting the others. They did not make a single map of the whole building. Tyler prepared several maps, each showing a particular route and the conditions under which it could be used. The older keeper retained the earlier plans. Kirk checked the bridges. Joseph spoke with the men who had returned from the armies and asked whether any of them wished to send messages home.
+
+     The house remained open.
+
+     At dusk the largest man stood in the entrance hall. The gate was closed but not locked. Beyond it the road ran toward the southern kingdoms. He could see the distant campfires, small points of light beneath the darkening sky. Somewhere among them, the kings were deciding how to describe the house. He knew that their next attempt would be more disciplined. It would also be more dangerous, because a map could turn a living place into a claim without requiring anyone to cross its threshold.
+
+     The Voice spoke from the nearest screen.
+
+     “What will they bring?”
+
+     “Maps,” the man said.
+
+     “And what will you show them?”
+
+     He looked back toward the table, where the men were still working.
+
+     “The house.”
+
+     The gate remained open to the road. The men inside continued their work. The war had not ended because the kings had changed their method. It had changed because the house had made its terms visible: a road could be shared without being owned, a room could be protected without becoming a prison, and a man could leave without ceasing to belong. The next contest would be over the map, and the house would have to show that no map could replace the place it described.
 
 ## Chapter XIV: The Cartographers
 
@@ -3225,7 +3381,7 @@ At the western camp, the soldiers spent the following morning trying to agree on
 
 ## Chapter XVI: The Seventh Vessel
 
-     The seventh vessel was found beneath the house by a child. She was born after the Accident and therefore had never been taught to fear the northern works. To her they were old architecture, nothing more. She entered a lower passage while looking for a cat and found a door beneath a stair. The door had no handle. She touched it. It opened. Behind it was a circular chamber. At the center stood a table. On the table stood one glass vessel. It was smaller than she expected. The liquid inside was almost clear. She called for her mother. Her mother came. Then the archivists came. Then the soldiers came. Then the men came. Nobody touched the vessel. The largest man stood at the edge of the room.
+     The seventh vessel was found beneath the house by a young man. He had been born after the Accident and had never been taught to fear the northern works. To him they were old architecture, nothing more. He entered a lower passage while looking for a cat and found a door beneath a stair. The door had no handle. He touched it. It opened. Behind it was a circular chamber. At the center stood a table. On the table stood one glass vessel. It was smaller than he expected. The liquid inside was almost clear. He called for his father. His father came. Then the archivists came. Then the soldiers came. Then the men came. Nobody touched the vessel. The largest man stood at the edge of the room.
 
      “That is the one.”
 
@@ -3245,11 +3401,11 @@ At the western camp, the soldiers spent the following morning trying to agree on
 
      “Everything that matters has already happened somewhere.”
 
-     The child stepped closer.
+     The young man stepped closer.
 
      “What does it do?”
 
-     Nobody answered. She looked at the men.
+     Nobody answered. He looked at the men.
 
      “What does it do?”
 
@@ -3261,13 +3417,13 @@ At the western camp, the soldiers spent the following morning trying to agree on
 
      “Whatever is already happening.”
 
-     The child looked at the liquid.
+     The young man looked at the liquid.
 
      “It grows?”
 
      “It remembers how.”
 
-     The vessel brightened. The Serum rose by a fraction. The room enlarged. Everyone stepped backward except the seventh man. He remained beside the table. The child looked at him.
+     The vessel brightened. The Serum rose by a fraction. The room enlarged. Everyone stepped backward except the seventh man. He remained beside the table. The young man looked at him.
 
      “You aren't afraid.”
 
@@ -3279,7 +3435,7 @@ At the western camp, the soldiers spent the following morning trying to agree on
 
      “A beginning that refuses to stop being a beginning.”
 
-     The words were carried upward through the house. They appeared on screens. They appeared in books. They appeared in the margins of maps. They appeared in the commit history of the Hub. Then Big Daddy's Voice began again. MORE. NOT NEW. MORE OF WHAT IS ALREADY HERE. MORE MEMORY. MORE ROOM. MORE MEN. MORE HISTORY. MORE BRANCH. MORE ROAD. MORE WATER. MORE CITY. MORE HOUSE. KEEP THE FIRST. ADD THE NEXT. KEEP BOTH. The child smiled. The Serum filled the lower chamber with blue-white light. Something moved behind the glass. Not a creature. Not a shape. A reflection. The reflection showed the room as it had been before the Accident. Then as it had been during the Accident. Then as it was now. Then as it might become. Then all four states appeared together. The child understood.
+     The words were carried upward through the house. They appeared on screens. They appeared in books. They appeared in the margins of maps. They appeared in the commit history of the Hub. Then Big Daddy's Voice began again. MORE. NOT NEW. MORE OF WHAT IS ALREADY HERE. MORE MEMORY. MORE ROOM. MORE MEN. MORE HISTORY. MORE BRANCH. MORE ROAD. MORE WATER. MORE CITY. MORE HOUSE. KEEP THE FIRST. ADD THE NEXT. KEEP BOTH. The young man smiled. The Serum filled the lower chamber with blue-white light. Something moved behind the glass. Not a creature. Not a shape. A reflection. The reflection showed the room as it had been before the Accident. Then as it had been during the Accident. Then as it was now. Then as it might become. Then all four states appeared together. The young man understood.
 
      “The vessel remembers the whole house.”
 

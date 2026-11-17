@@ -531,7 +531,7 @@
 
      Every house contained an object carried by somebody who had entered the reservoir: a knife, a blanket, a lantern, a boy's wooden horse, a military button, a letter never delivered. The city had made architecture from what people refused to lose.
 
-     His brother showed his the highest tower.
+     His brother showed him the highest tower.
 
      From its upper room he could see farther than any human settlement he had ever known. The lake occupied the center of the world. Beyond it were forests, mountains, roads, and plains extending toward horizons he could not name. The city was only one bright arrangement inside an immense country.
 
@@ -566,9 +566,9 @@
 
 
 
-     The first evening in the city was not spent in the tower. His brother took his down through the lower districts, where the streets followed the shoreline and the houses stood close enough together for their upper windows to almost meet. The architecture had the quality of something assembled from remembered requirements. A doorway was wide where a traveler had once carried a heavy trunk. A stair turned gently where an older resident had needed somewhere to rest. A courtyard contained a stone basin and a bench worn smooth at one end. The city did not look newly built. It looked repeatedly used, repaired, and enlarged by people who had brought their needs with them.
+     The first evening in the city was not spent in the tower. His brother took him down through the lower districts, where the streets followed the shoreline and the houses stood close enough together for their upper windows to almost meet. The architecture had the quality of something assembled from remembered requirements. A doorway was wide where a traveler had once carried a heavy trunk. A stair turned gently where an older resident had needed somewhere to rest. A courtyard contained a stone basin and a bench worn smooth at one end. The city did not look newly built. It looked repeatedly used, repaired, and enlarged by people who had brought their needs with them.
 
-     His brother showed his the house that contained the blanket. It was not displayed behind glass. It lay folded at the foot of a narrow bed in a room overlooking one of the lower canals. The cloth was the same dull color as the one he had carried across the country, and one corner had been repaired with a thread that matched the blanket he remembered from their childhood home. He reached toward it, then stopped.
+     His brother showed him the house that contained the blanket. It was not displayed behind glass. It lay folded at the foot of a narrow bed in a room overlooking one of the lower canals. The cloth was the same dull color as the one he had carried across the country, and one corner had been repaired with a thread that matched the blanket he remembered from their childhood home. He reached toward it, then stopped.
 
      “Is it mine?” he asked.
 
@@ -580,7 +580,7 @@
 
      He explained that the reservoir did not always preserve an object by removing it from the person who had carried it. Sometimes it preserved the relation between the object and its owner by making another instance, or by giving the memory of the object a place to remain. The blanket in the room was not the one folded in his pack. He checked. His own blanket was still there, damp at the edges from the journey, smelling of smoke and wet wool. The one on the bed carried the same history but not the same wear. It had a small repair he had not yet made.
 
-     He sat beside it. For a moment he was unable to decide whether the city had remembered his accurately or had begun to anticipate his. The difference seemed important. His brother did not tell his which explanation to choose.
+     He sat beside it. For a moment he was unable to decide whether the city had remembered him accurately or had begun to anticipate him. The difference seemed important. His brother did not tell him which explanation to choose.
 
      “Does everything become a copy?” he asked.
 
@@ -590,14 +590,14 @@
 
      He looked through the window toward the water. “I don't know which part of me you expected to find.”
 
-     He had expected to find his brother, and he had. Yet the answer unsettled his because it left the reunion open to further questions. He remembered his hands, his habit of pressing a thumb against the side of a cup, the way he had once gone silent when he was thinking. He still did those things. He also seemed to carry memories he had never shared with him, and there were pauses in his speech where he could sense an experience too large to be explained in one conversation.
+     He had expected to find his brother, and he had. Yet the answer unsettled him because it left the reunion open to further questions. He remembered his hands, his habit of pressing a thumb against the side of a cup, the way he had once gone silent when he was thinking. He still did those things. He also seemed to carry memories he had never shared with him, and there were pauses in his speech where he could sense an experience too large to be explained in one conversation.
 
      “You can tell me what happened,” he said.
 
      “I can tell you what I remember.”
 
      “Then start there.”
-     He did. He described the first days after the laboratory expanded, when the old corridors had become longer and the windows opened onto districts that had not existed the previous morning. He told his about the people who had arrived carrying ordinary objects and found those objects had become the beginnings of rooms. A man had brought a cooking pot and discovered a kitchen organized around the meals he had once made for his family. A surveyor had brought a broken compass and found a whole street whose turns could only be understood by following its unreliable needle. A soldier had arrived with a button from a uniform and spent several days searching for the coat that belonged to it. The city had grown through these arrivals, but it had also learned to distinguish between a person's memory and the person's permission to have that memory used.
+     He did. He described the first days after the laboratory expanded, when the old corridors had become longer and the windows opened onto districts that had not existed the previous morning. He told him about the people who had arrived carrying ordinary objects and found those objects had become the beginnings of rooms. A man had brought a cooking pot and discovered a kitchen organized around the meals he had once made for his family. A surveyor had brought a broken compass and found a whole street whose turns could only be understood by following its unreliable needle. A soldier had arrived with a button from a uniform and spent several days searching for the coat that belonged to it. The city had grown through these arrivals, but it had also learned to distinguish between a person's memory and the person's permission to have that memory used.
      “What happens when someone doesn't want to be remembered?” he asked.
 
      “Then we have to leave them room to disappear.”
@@ -608,7 +608,7 @@
 
      They walked farther. In a public hall, shelves held objects that had been offered for preservation. Each had a card describing where it had come from, who had brought it, and whether the person wanted it kept, lent, or left alone. Some cards were incomplete. One had only a date and the words *found beside the southern road*. Another recorded that its owner had changed his mind and wanted the object returned. A clerk was trying to locate him. The city was not perfect. It had accumulated more histories than its first custodians knew how to care for, and some of its early rooms had been built without asking what their inhabitants wanted.
 
-     His brother did not defend those mistakes. He showed his a district that had been closed for several years because its houses had begun reproducing memories without distinction. A resident would enter a room to find a conversation repeated exactly as it had happened decades earlier. At first people had found the repetitions comforting. Later they discovered that the rooms were preventing new conversations from taking place. The district had been sealed, its records retained, and a new rule established: preservation could not be allowed to replace the living event. A memory was valuable because it made a relationship available, not because it could substitute for the people who had formed it.
+     His brother did not defend those mistakes. He showed him a district that had been closed for several years because its houses had begun reproducing memories without distinction. A resident would enter a room to find a conversation repeated exactly as it had happened decades earlier. At first people had found the repetitions comforting. Later they discovered that the rooms were preventing new conversations from taking place. The district had been sealed, its records retained, and a new rule established: preservation could not be allowed to replace the living event. A memory was valuable because it made a relationship available, not because it could substitute for the people who had formed it.
 
      He thought of the southern house where their father had kept old letters in a drawer. The letters had mattered, but nobody had mistaken them for the people who wrote them. They had been taken out on certain evenings, read, discussed, and put away again. The drawer had been a place where memory could rest without claiming the whole house.
 
@@ -622,7 +622,7 @@
 
      The next morning he met the people who had crossed the reservoir with him. They were not the figures he had imagined while traveling. One was a quiet man who kept the public records and disliked grand descriptions of the city. Another was a broad, practical man who repaired doors and bridges, insisting that a place could not call itself a home if its hinges did not work. A third had arrived as a boy and was now old enough to oversee one of the boat routes. Each had a different account of the city's beginning. They disagreed about the first tower, the first street, and the number of people present when the lake became transparent. They did not treat the disagreements as threats. Their records preserved the differences, and their daily work depended on the things they could establish together.
 
-     The practical man asked his what he thought of the city.
+     The practical man asked him what he thought of the city.
 
      “It is beautiful,” he said. “But it is very good at keeping things.”
 
@@ -810,7 +810,7 @@
 
      HERE IS THE ROOM. HERE IS THE ROOM AGAIN. KEEP THE FIRST ROOM. ADD THE SECOND ROOM. DO NOT ERASE WHAT WAS THERE.
 
-     The phrase appeared in the margins of a manuscript whose author had died three centuries earlier. It appeared again on a survey of the northern road, written beside a mountain that had moved several miles since the survey was made. It appeared in a physician's journal, where the writer had been describing a patient whose name had become difficult to remember. It appeared in a child's copybook found in a village hundreds of miles south of the wells. The words did not behave like a quotation. They behaved like a return.
+     The phrase appeared in the margins of a manuscript whose author had died three centuries earlier. It appeared again on a survey of the northern road, written beside a mountain that had moved several miles since the survey was made. It appeared in a physician's journal, where the writer had been describing a patient whose name had become difficult to remember. It appeared in a boy's copybook found in a village hundreds of miles south of the wells. The words did not behave like a quotation. They behaved like a return.
 
      The first formal experiment began with an ordinary chair. The investigators described it for six days. At first there was nothing remarkable about the work. They described the grain of the wood, the shape of the back, the worn place where a person had sat repeatedly. Then they described the room around it, the window, the weather beyond the window, and the long northern road visible in the distance. The road was described as empty. The next morning a traveler appeared on it. He was too far away to identify. The day after that he was closer. On the fourth day the investigators discovered that the traveler was carrying a chair.
 

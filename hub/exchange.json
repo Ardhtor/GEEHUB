@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-18T17:28:27.107Z",
+  "generated": "2026-11-18T23:31:51.038Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00219",
+      "at": "2026-11-18T23:31:51.038Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / BLUEWATER QUAY → LANTERN MARKET / JOSEPH",
+      "body": "The world crossed the existing relation \"THE WATER OPENS THE VIEW\" from BLUEWATER QUAY into LANTERN MARKET. Scale increased from 16.42× to 16.54×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00219",
+      "live": true,
+      "regionId": "lantern-market",
+      "previousRegionId": "bluewater-quay",
+      "relation": "THE WATER OPENS THE VIEW"
+    },
     {
       "id": "scheduled-long-play-00218",
       "at": "2026-11-18T17:28:27.107Z",
@@ -1481,21 +1496,6 @@
       "live": true,
       "regionId": "male-harem",
       "previousRegionId": "bodylounger",
-      "relation": "THE ARCHIVE OPENS A ROOM"
-    },
-    {
-      "id": "scheduled-long-play-00122",
-      "at": "2026-10-27T12:43:41.517Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / MALE HAREM → BODYLOUNGER / TYLER",
-      "body": "The world crossed the existing relation \"THE ARCHIVE OPENS A ROOM\" from MALE HAREM into BODYLOUNGER. Scale increased from 10.21× to 10.26×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00122",
-      "live": true,
-      "regionId": "bodylounger",
-      "previousRegionId": "male-harem",
       "relation": "THE ARCHIVE OPENS A ROOM"
     }
   ]

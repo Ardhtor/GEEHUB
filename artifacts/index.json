@@ -13761,6 +13761,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000295",
+      "created_at": "2026-11-18T20:50:50.490026+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "BLUEWATER QUAY",
+      "content": "SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "lineage": {
+        "event_id": "world-pulse-000295",
+        "event": {
+          "id": "world-pulse-000295",
+          "pulse": 295,
+          "time": "2026-11-18T20:50:50.490026+00:00",
+          "actor": "LUKE",
+          "world": "BLUEWATER QUAY",
+          "region_id": "bluewater-quay",
+          "previous_region_id": "bluewater-quay",
+          "phase": "ATMOSPHERE",
+          "source": "worlds/bluewater-quay/README.md",
+          "desire_state": "attention",
+          "action": "SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+          "narrative_rule": "approach extends geography",
+          "relation": null,
+          "next_region": null,
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-18T20:50:50.490026+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000295",
+      "created_at": "2026-11-18T20:50:50.490026+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / BLUEWATER QUAY / worlds/bluewater-quay/README.md",
+      "content": "SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 295,
+        "actor": "LUKE",
+        "world": "BLUEWATER QUAY",
+        "region_id": "bluewater-quay",
+        "source": "worlds/bluewater-quay/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00126",
+      "created_at": "2026-11-18T20:50:50.601980+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE FILM ARCHIVE CLUB",
+      "content": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+      "lineage": {
+        "event_id": "northgate-campus-00126",
+        "event": {
+          "id": "northgate-campus-00126",
+          "cycle": 126,
+          "world_pulse": 295,
+          "at": "2026-11-18T20:50:50.601980+00:00",
+          "region": "northgate-library",
+          "title": "THE FILM ARCHIVE CLUB",
+          "kind": "film",
+          "participants": [
+            "Elliot Ward",
+            "Marek Ionescu",
+            "Adrian Varga"
+          ],
+          "description": "The media room screens a short sequence from the university archive. The group pauses on a camera move, rewinds it, and talks about light, scale and continuity. One student makes a note to try the same movement in the campus workshop.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-18T20:50:50.601980+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

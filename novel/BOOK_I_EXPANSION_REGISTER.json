@@ -1145,7 +1145,13 @@
       "status": "queued",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "notes": "Expanded and fetched again in novel/BOOK_I_CONTINUATION_03.md at 4,740 words. Develops the darkness and loss of orientation, the six-screen first image of a fully formed adult man, the Voice's claim that the first image did not come from a witness, and the dispute between the man and the host over whether there is a 'below'. The first man remains unidentified and his origin unresolved. His statement that the sixth figure is 'wearing the wrong absence' causes it to withdraw; the Serum accelerates. Separate continuation branch; not merged into canonical BOOK_I.md.",
+      "branch_source_path": "novel/BOOK_I_CONTINUATION_03.md",
+      "branch_heading": "## Chapter LXIX: The First Man Who Was Never Born",
+      "branch_revision_sha": "2da50dafcd99dedf08fa1ec1cb3e8e57a23e2e54",
+      "branch_word_count": 4740,
+      "branch_status": "expanded_in_separate_continuation_source_pending_canonical_reconciliation",
+      "branch_revision": 1
     },
     {
       "chapter_id": "book-i-lxx",

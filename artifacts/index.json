@@ -13581,6 +13581,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000293",
+      "created_at": "2026-11-18T03:34:07.704007+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "BLUEWATER QUAY",
+      "content": "SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "lineage": {
+        "event_id": "world-pulse-000293",
+        "event": {
+          "id": "world-pulse-000293",
+          "pulse": 293,
+          "time": "2026-11-18T03:34:07.704007+00:00",
+          "actor": "LUKE",
+          "world": "BLUEWATER QUAY",
+          "region_id": "bluewater-quay",
+          "previous_region_id": "bluewater-quay",
+          "phase": "ATMOSPHERE",
+          "source": "worlds/bluewater-quay/README.md",
+          "desire_state": "attention",
+          "action": "SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+          "narrative_rule": "approach extends geography",
+          "relation": null,
+          "next_region": null,
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-18T03:34:07.704007+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000293",
+      "created_at": "2026-11-18T03:34:07.704007+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / BLUEWATER QUAY / worlds/bluewater-quay/README.md",
+      "content": "SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 293,
+        "actor": "LUKE",
+        "world": "BLUEWATER QUAY",
+        "region_id": "bluewater-quay",
+        "source": "worlds/bluewater-quay/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00124",
+      "created_at": "2026-11-18T03:34:07.799814+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE COURTYARD AFTER RAIN",
+      "content": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+      "lineage": {
+        "event_id": "northgate-campus-00124",
+        "event": {
+          "id": "northgate-campus-00124",
+          "cycle": 124,
+          "world_pulse": 293,
+          "at": "2026-11-18T03:34:07.799814+00:00",
+          "region": "founders-dormitory",
+          "title": "THE COURTYARD AFTER RAIN",
+          "kind": "social",
+          "participants": [
+            "Marek Ionescu",
+            "Noah Bell",
+            "Adrian Varga"
+          ],
+          "description": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-18T03:34:07.799814+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

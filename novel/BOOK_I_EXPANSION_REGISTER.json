@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "fc5c480f522b0251acc149053a594d7f0eb36952",
+  "source_blob_sha": "3c0e68f7278947e53e18d549e4352047e1720780",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 62,
+    "completed": 63,
     "in_progress": 0,
-    "queued": 10,
+    "queued": 9,
     "empty_source": 0,
-    "next_chapter_index": 62,
-    "active_chapter_id": "book-i-lxiii",
-    "last_completed_chapter_id": "book-i-lxii"
+    "next_chapter_index": 63,
+    "active_chapter_id": "book-i-lxiv",
+    "last_completed_chapter_id": "book-i-lxiii"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -1037,11 +1037,11 @@
       "baseline_word_count": 1882,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
-      "current_word_count": 1886
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "3c0e68f7278947e53e18d549e4352047e1720780",
+      "notes": "Expanded in place and fetched again for full-chapter verification at 4,045 words. Deepens Bill's measured, practical Southern character through his archive of objects, the winter house and impossible door, his distinction between preservation and explanation, and his counsel to Joseph that waiting can keep a place open. Preserves the nocturnal monitor scene and the approaching figure without identifying him; continues directly into Chapter LXIV. Checked against Chapters LXII and LXIV; all characters present are male.",
+      "current_word_count": 4045
     },
     {
       "chapter_id": "book-i-lxiv",
@@ -1049,7 +1049,7 @@
       "title": "The Man on the Road",
       "source_heading": "Chapter LXIV: The Man on the Road",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 10237,
+      "source_line": 10261,
       "baseline_word_count": 1400,
       "target_min_words": 4000,
       "target_max_words": 7000,
@@ -1065,7 +1065,7 @@
       "title": "The First Stop",
       "source_heading": "Chapter LXV: The First Stop",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 10437,
+      "source_line": 10461,
       "baseline_word_count": 1444,
       "target_min_words": 4000,
       "target_max_words": 7000,

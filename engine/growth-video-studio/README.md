@@ -341,6 +341,10 @@ PNG files were extracted from the registered video, so
 sourceFrameDerivationVerified remains false. Upstream mask semantics also
 remain unverified. Background reconstruction, protected-face and clothing
 compositing, automatic source-video extraction, and Resolve export remain open.
-The focused batch tests use the real PNG codec, mask decoder, and CPU pixel
-rasterizer with synthetic frames; they do not establish a local Mac/Dropbox/
-Resolve run or a render of user footage.
+The seven focused batch tests use the real PNG codec, mask decoder, and CPU
+pixel rasterizer with synthetic frames. GitHub Actions package run 44390224458
+passed all 137 Node tests and all 14 Resolve Lua tests, passed Lua 5.4 syntax
+validation, and built/uploaded the portable package. The separate Validate
+GEEHUB data run 44390224452 failed only at browser repository-link validation
+for the four stale project tuples already recorded in STATE.md. These checks
+do not establish a local Mac/Dropbox/Resolve run or a render of user footage.

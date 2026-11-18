@@ -9878,113 +9878,59 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter LIX: The Fifth Mark
 
-     The fifth mark stopped three steps away.
+     The fifth mark stopped three steps away. It did not belong to a body. It belonged to a direction. The four men could see that much without agreeing on what they were seeing. Its outline was incomplete, not because the ground had failed to hold an impression but because no single edge could be identified as its beginning. The soil around it was dry despite the rain, and a faint pale line extended from its centre toward a place beyond the shallow depression. That line was not a track. It had no pressure, no displaced grit, and no continuation behind it. It looked less like something that had passed through the field than a place toward which the field had begun to turn. Luke stood with his feet apart, looking directly at it. Tyler had put away his notebook. Kirk watched the interval between the fifth mark and the four that had brought them there. Joseph remained still, aware that the arrangement had changed without yet deciding what the change meant.
 
-     It did not belong to a body.
+     Luke reached toward it. The mark moved backward. It did not slide away across the soil; it appeared a little farther along the pale line, preserving the same unfinished outline and the same distance from his outstretched hand. Luke followed, and the mark moved again. He stopped after the third movement and looked back at the others. “It doesn't want me to touch it.” Tyler shook his head. “That is one possible reading.” “What's the other?” “It may be showing you a distance rather than avoiding contact.” Kirk gave a brief laugh. “Either way, chasing it isn't getting us closer.” Luke withdrew his hand. The mark remained where it was. He had no particular need to catch it. What interested him was the fact that it kept appearing at a position he could reach by continuing to walk.
 
-     It belonged to a direction.
+     Tyler approached from the side, choosing a line that allowed him to see the mark without placing his shadow over it. He measured the interval with his steps, then repeated the measurement after moving back to the four-point arrangement. The distance was not constant. It changed according to the angle from which he approached, but it did not vary randomly. The pale line beneath the mark held its direction even when the mark itself moved. Tyler looked at the ground and then toward the ridge. “The position changes. The direction stays.” Kirk nodded. “That's what it is.” Tyler glanced at him. “You sound certain.” “I'm certain the other explanation isn't useful yet.” Kirk pointed toward the line. It seemed to pass through the depression without following its lowest point, then rise across the stone toward the mist. “We can keep measuring where it appears, or we can follow where it points.” Tyler put his notebook back in his pocket. “We can do both.”
 
-     Luke reached toward it.
+     Kirk moved around the five marks, taking care not to cross the pale line. He wanted to see whether the direction belonged to the new mark alone or whether it had been formed by the arrangement of all five. From one side, the fifth mark appeared to point toward the four. From another, it seemed to lie beyond them. When he stood at the centre of the arrangement, its direction became clearer: it extended away from the place where the four men had first gathered, passing through a gap between two low rises and continuing toward a patch of ground that looked no different from the rest. Kirk returned to his earlier position. “It isn't pointing at us,” he said. “It's pointing through the place where we're standing.” Luke looked down at the four original marks. “Then it has to move us.” “Or give us somewhere to move,” Joseph replied. The fifth mark remained a short distance away, neither advancing nor withdrawing.
 
-     The mark moved backward.
+     Joseph had not approached it because the mark seemed to be waiting for something other than speed. He did not believe that patience gave him a special claim over it. He had simply noticed that each attempted approach changed the relation between the mark and the rest of the field. When Luke reached, it preserved distance. When Tyler measured, its position shifted while its direction remained. When Kirk moved around it, the line became visible. Joseph now looked at the three men and then back at the mark. “Let's stop trying to reach it separately.” He stepped across the pale line and took up a position beside the original four-point arrangement. The fifth mark turned toward him. It did not move closer. It did not retreat. It waited. The other men saw the change and joined him, not in a rigid line but in a loose group that left the centre open. For the first time the fifth mark remained still while all four men were within sight of it.
 
-     He followed.
+     “So that's the rule,” Joseph said. He crossed the remaining distance. The five marks became a line. The transformation was immediate but not spectacular. The pale line strengthened, the four dark impressions shifted into relation with one another, and the unfinished fifth mark settled at the far end. It did not become a fifth footprint. The line had no beginning that could be assigned to one man and no end that could be claimed by another. When Joseph reached it, the entire arrangement turned slightly, as if the field had rotated around a point that was no longer visible. Tyler looked back toward the ridge. “The route has changed.” Kirk looked forward. “No. We can see what it was pointing at now.” Luke followed his gaze. The line extended toward a narrow opening between the rises. The ground on either side remained untouched, but the opening had become recognisable as a passage.
 
-     Tyler followed Luke.
+     The five marks moved forward together. They did not leave the ground or turn into lights. Their dark and pale edges remained visible, now arranged along a route that crossed the basin without becoming a road. The four men followed the line toward the opening. The mist thinned as they approached it, revealing two slopes of pale stone with a narrow space between them. There was no wall, gate, or constructed frame. The passage was an opening in the landscape, but its proportions were too regular to be explained by erosion alone. Tyler inspected the sides as he walked through. The stone was real, with small fractures, shallow mineral lines, and patches of darker material where water had collected. Kirk noticed that the opening widened toward the far side. Luke went first, then Tyler, then Kirk. Joseph came last. When he crossed the threshold, the field behind them remained visible, but the four original marks had disappeared. The fifth mark remained in front of them.
 
-     Kirk followed Tyler.
+     Beyond the opening was another empty room. It was larger than the first, though neither man could say where its walls began. The floor was a continuous surface of pale stone with a slight sheen, and the ceiling rose into a dimness that seemed to continue upward rather than close overhead. The room contained one chair. Nothing else. It stood near the centre, made from dark timber with a broad seat and a straight back. Its construction was ordinary enough to invite inspection: four legs, two side rails, a back joined with visible pegs, and a seat polished by use. Yet the floor beneath it showed no marks from the legs. There was no dust around it, and no shadow fell in quite the direction the light suggested. The chair was not placed in the room as furniture. It was the only object that made the room measurable.
 
-     Joseph remained where he was.
+     Tyler entered first. The chair moved away from him. It did not scrape across the floor or turn. It appeared a few paces farther from the centre, maintaining its orientation toward the entrance. Tyler stopped and inspected the place where it had stood. There was no depression, no friction mark, and no sign of a mechanism beneath the stone. He walked toward it again. The chair moved a second time, keeping the same general interval. Tyler turned and looked toward the others. “It responds to entry.” Kirk stepped through. The chair moved toward him. The change was subtle but unmistakable: it came closer, as though Kirk's arrival had altered the room's preferred arrangement. Kirk did not touch it. He walked to one side, and the chair shifted with him, maintaining a clear relation to the centre. “It isn't responding to movement alone,” he said. “It's responding to where a person stands in the room.”
 
-     The fifth mark turned.
+     Luke entered next. The chair became a doorway. There was no flash or sound. The back of the chair widened into a dark vertical opening, while the seat and legs extended into the sides of a frame. The object had not simply transformed into another object. The room had changed its geometry around Luke's arrival, and the chair had become the place where that change could be seen. Luke stood in the opening and looked through. Beyond it was a short passage whose far end could not be distinguished. He took one step toward it, then stopped. “It wants us to go through.” Tyler came up beside him. “We don't know that.” “It's a doorway.” “That doesn't mean we have to use it.” Luke turned. He was not annoyed by Tyler's caution; he had heard the distinction and agreed that it mattered. The opening remained where it was, waiting without closing.
 
-     It waited for Joseph.
+     Joseph entered last. The doorway became a chair again. Its dark frame narrowed, the seat returned, and the four legs settled beneath it. It now stood in the centre of the room, facing away from the entrance. The fifth mark appeared on its seat, pale against the timber. The four men gathered around the chair, leaving enough room for one another to move. They had each seen it respond differently to their arrival, but the sequence did not establish that it belonged to any of them. Tyler's entry had made it withdraw. Kirk's had brought it closer. Luke's had turned it into a passage. Joseph's had returned it to a place of rest. The room had not rewarded or punished them. It had shown four possible relations to the same object. Kirk looked at the mark on the seat. “It isn't asking who will sit.” Luke nodded. “Then what is it asking?” The fifth mark shifted slightly toward the far wall.
 
-     Joseph smiled.
+     The question arrived without appearing in writing. It was not spoken by a voice in the ceiling or printed across the floor. The room made its meaning available through the chair and the positions the men had occupied: it was asking who would leave. The four men looked at one another. Luke was the first to move, but he stopped before stepping away. “Leave the room?” Tyler examined the opening that had been the chair. “Leave the chair.” Kirk looked at the place where the chair's shadow ought to have been. “Or leave the centre.” Joseph stood nearest the seat. He understood that the question was not asking which man would abandon the others or which one had the right to disappear. It was testing whether the room could remain useful without being occupied, whether an object could fulfil its purpose by no longer holding the place it had been given. He did not answer immediately. The fifth mark stayed on the seat, and the room gave them enough time to see the difference between departure and rejection.
 
-     “So that's the rule.”
+     Joseph stepped away. He did not turn his back on the others, and he did not leave through the opening. He simply moved beyond the distance at which the chair had been organising the room. The seat became empty. The fifth mark lifted from the timber and settled on the floor near the centre. The chair disappeared. No fragments remained, and no sound suggested that it had been removed. The room became larger. The far wall moved outward, the ceiling rose, and the pale floor extended into a wider space whose dimensions could no longer be estimated from the entrance. The change did not make the room less welcoming. It made it less dependent on a single occupant. Joseph stood in the new distance and looked back. Luke's first impulse was to ask whether the chair would return, but he saw that the room was already doing something more interesting. It had found a way to continue without requiring someone to fill the place.
 
-     He crossed the distance.
+     Tyler walked toward the centre. The floor gave no sign of the chair's former position, yet he could still identify the area where it had stood. He used the walls as references and found that the room's earlier proportions no longer held. Kirk crossed to the far side and noticed that the ceiling had opened into a deep recess, like the space above a stairwell without a staircase. Luke tested the new distance by walking from one end to the other. The room accommodated his stride without appearing to shorten. Joseph remained where he was until the others had moved, then joined them. The fifth mark was still on the floor. It had moved away from the empty centre and now rested nearer the middle of the larger room. Its direction was clearer than before, though it still did not resemble a footprint. It appeared to point down.
 
-     The five marks became a line.
+     Kirk approached the mark and looked at the floor around it. There was no crack, seam, or panel. The stone remained continuous, with a fine grain running across its surface. He moved around the mark and saw that the room's lines of perspective converged there, though the point itself looked no different from the rest of the floor. “The centre has moved,” he said. Tyler came beside him. “The centre of the room?” “The centre of what the room is doing.” Luke looked down. “Can we open it?” Joseph gave a small nod. “It has already opened once. We can see whether it will do it again.” None of them stepped onto the mark. They stood around it, leaving a clear space. The fifth mark shifted toward the centre, and the stone beneath it became transparent.
 
-     Then the line became a doorway.
+     The opening did not reveal a basement. Beneath the stone was the unfinished novel. It lay open in a depth that seemed to continue below the room and beyond the room's foundations. The pages turned without hands. Some moved slowly, one after another, while others shifted together as though a current of air were travelling through a space no one could enter from above. The first two pages remained legible. Their writing could be seen at a distance: the history the men had made, and the world that had continued without them. The third page was still blank. The instructions from the previous page were no longer visible, but the invitation had not been withdrawn. The novel was not returning them to the field. It was showing them that the book existed beneath the room as well as in the open country, and that the pages had become part of the room's structure.
 
-     Beyond it was another empty room.
+     A sentence appeared between the turning pages. It was written in the same plain type as the earlier words, but it did not remain attached to one sheet. It crossed the margin, continued over the gap between two pages, and settled where the four men could read it: **I REMEMBER WHAT YOU HAVE NOT DONE YET.** The statement was impossible in its ordinary sense. Memory referred to something that had happened; the future had not happened, and a decision that remained open could not be treated as an event simply because it could be imagined. Yet the sentence stood there with the apparent confidence of a record. Tyler leaned over the transparent floor. “It can't remember the event,” he said. “It can remember what we've been approaching,” Kirk replied. Luke looked at the words. “That sounds like a prediction.” Joseph shook his head slightly. “A prediction still leaves us free to act differently.” The sentence did not change.
 
-     This room was larger than the first.
+     Tyler wanted to know what the sentence referred to. He followed the words across the pages and looked for a corresponding event in the first or second record. The first page held their actions. The second held the world's independent activity. Neither contained the event that the sentence claimed to remember. There were possible connections: a doorway, a departure, a room that had not yet been entered. But a resemblance was not proof. Tyler traced the sentence's position and found that it moved whenever he tried to align it with one of those possibilities. “It isn't giving us evidence,” he said. “It is making a claim.” Kirk looked toward the newly enlarged room. “A claim can still show us where to look.” Luke was impatient to continue, but he had learned not to confuse the first visible explanation with the only one. He waited for Joseph to speak.
 
-     It contained one chair.
+     Joseph looked at the fifth mark. It had not returned to the chair, and it had not become a person. It remained a direction that had carried them through the field, into the room, and down to the book beneath the floor. The sentence might have been a memory of a future event, a description of a possible arrangement, or an attempt by the world to give shape to something it could not yet know. He did not decide among those explanations. “We can go and see what it has made,” he said. “But we don't have to become what it says.” Luke nodded. “Then let's go.” Tyler checked the edge of the opening. Kirk studied the direction of the pages. The four men understood that the sentence could accompany them without governing them. They stepped through the opening together.
 
-     Nothing else.
+     The fifth mark followed. It did not remain on the floor as an object they had left behind. As the men descended, the pale impression appeared beside the opening, then farther along the route through the pages. The world beneath the novel was made from writing, but the writing did not behave like a flat surface. Paragraphs rose into low ridges. Lines of text formed passages with enough width for the men to walk abreast. Where a sentence ended, the ground widened. Where a memory had been left unresolved, a recess opened beside the route. They could see the northern road, the house, the reservoir, the Blue Hall, and the field they had just crossed, but these places were not being presented as a fixed sequence. They existed at different depths, connected by passages that could be approached from several directions. The novel was no longer only the record of the world. It had become one of the ways the world could be travelled.
 
-     Tyler entered first.
+     Once they had passed below the room, the men found a broad surface where the writing gathered into a kind of terrace. It was not a page laid flat, but a place made from the spaces between lines. The letters remained readable along its edges, and their shadows moved when the pages above them turned. Luke stopped there to look back. The room with the chair was visible through a high opening, although it now seemed several floors above them. He could see the place where Joseph had stepped away and the expanded floor that had followed. The chair had not returned. The fifth mark had come with them, but the room itself remained open. “We could have stayed there,” Luke said. Joseph looked up at the opening. “We could still return.” Tyler examined the surface beneath his boots. “The route hasn't closed.” Kirk followed the dark line of the mark. “It isn't asking us to choose one place forever.” The men continued only after the relation between the room and the passage had become clear.
 
-     The chair moved away from him.
+     Tyler checked the letters that formed the edge of the terrace. Some were from passages he recognised; others belonged to descriptions he had never read. The familiar lines did not become easier to understand because he could stand beside them. A sentence about the first house extended farther than the room in which it had been written, while a short note about a repaired hinge opened into a narrow recess. He saw that the novel's architecture was not proportional to the apparent importance of the text. A line could become a small ledge, a large chamber, or no visible structure at all. He did not try to measure the entire system. He noted where the passage was stable and where the writing changed as the pages moved. “The route is being made as we travel,” he said. “Not from the words alone. From how they're connected.” Kirk looked down the passage. “That's enough to keep us moving.”
 
-     Kirk entered.
+     Kirk stood where several lines of writing crossed. They did not meet at a single point. One passed above his head, another ran beneath the floor, and a third emerged from a wall of text and continued toward the distant pages. He could see how the route might branch without dividing into unrelated paths. The fifth mark moved along the lower line, then appeared on the upper one a few paces ahead. It had not climbed or jumped. The two lines had become adjacent in the space of the novel. Kirk looked back at Tyler. “There are more ways through than the page shows.” Tyler nodded. “The written order isn't the only order.” Luke looked toward the mark. “Then we follow the route it gives us now.” Joseph stayed close enough to hear both men. The passage did not demand that they all interpret it alike.
 
-     The chair moved toward him.
+     Luke walked ahead until the text beneath his feet became too narrow for four men to pass side by side. He stopped and looked back rather than forcing the others to follow at his pace. The passage widened at the next line break, and he moved again when Tyler and Kirk reached him. The change was small but useful. It showed that the novel could open room where the narrative needed room, without turning every transition into a door or every paragraph into a spectacle. Luke had spent much of the journey moving first. Here he was learning that a route could be followed more quickly when the people behind him were given enough space to use it. He did not announce this as a lesson. He stepped aside, waited for the others to come abreast, and then continued.
 
-     Luke entered.
+     Joseph noticed that the fifth mark never appeared directly beneath any of the men. It stayed ahead or beside them, sometimes close enough to be crossed, sometimes beyond a turn. It was not a guide in the ordinary sense, because it gave no explanation and made no promise about the destination. Yet it did not abandon the route. Joseph wondered whether the mark was the world's attempt to make an encounter possible before it knew who would take part. That idea was not a conclusion. It was a way of remaining attentive without deciding what the next room had to contain. He looked at Kirk, who was watching the same line. Kirk noticed Joseph's attention and returned it with a small nod. Neither needed to speak. The passage continued, and the mark held its distance.
 
-     The chair became a doorway.
+     From somewhere above the pages, Seth's voice reached them as if the hall had followed them into the novel. “You can still see the room they left.” Nick answered, “And the room hasn't been erased.” Seth watched the opening in the text. “That's the important part. A new route doesn't have to destroy the old one.” Their words did not direct the men or explain the world to them. They remained part of the broadcast, observing the connections that were visible from the receiving side. The four men could hear them, but the voices were not a substitute for what they saw and tested. The book continued to turn. The fifth mark moved ahead. The passage widened once more, and the men followed it together.
 
-     Joseph entered last.
-
-     The doorway became a chair again.
-
-     They stood around it.
-
-     Nobody sat down.
-
-     The room waited.
-
-     Then the fifth mark appeared on the chair.
-
-     It was not asking who would sit.
-
-     It was asking who would leave.
-
-     Joseph understood first.
-
-     He stepped away.
-
-     The chair disappeared.
-
-     The room became larger.
-
-     The fifth mark remained.
-
-     It moved toward the center.
-
-     The center opened.
-
-     Beneath it was the unfinished novel.
-
-     Pages turned without hands.
-
-     The world was reading what they had written.
-
-     Then it began writing between the lines.
-
-     A new sentence appeared:
-
-     **I REMEMBER WHAT YOU HAVE NOT DONE YET.**
-
-     None of them spoke.
-
-     The sentence was impossible.
-
-     That made it useful.
-
-     They stepped through.
-
-     Behind them, the fifth mark followed.
-
-     Ahead of them, the unwritten future had acquired a room.
-
-     **THE WORLD HAD INVENTED A MEMORY OF THE FUTURE.**
+     The sentence remained somewhere behind and above them, visible in fragments between the pages. No new evidence appeared to prove that its claim was true. The fifth mark continued ahead, always maintaining enough distance to remain a direction rather than a possession. Luke went first, Tyler beside him, Kirk just behind, and Joseph close enough that he could see the others without having to call them back. They had not accepted a future merely because a room had offered a chair, and they had not rejected the possibility simply because the sentence was impossible. They were going to encounter what had been made and decide what to do when they reached it. Behind them, the empty chair's room remained open. Ahead of them, the unwritten future had acquired a room of its own. The marks and pages continued to move. **THE WORLD HAD INVENTED A MEMORY OF THE FUTURE.**
 
 ## Chapter LX: The Room Ahead
 

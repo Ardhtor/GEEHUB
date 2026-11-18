@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "9e69cfd3584e8a50af0c7dd137239ad18fc1931f",
+  "source_blob_sha": "fc5c480f522b0251acc149053a594d7f0eb36952",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 61,
+    "completed": 62,
     "in_progress": 0,
-    "queued": 11,
+    "queued": 10,
     "empty_source": 0,
-    "next_chapter_index": 61,
-    "active_chapter_id": "book-i-lxii",
-    "last_completed_chapter_id": "book-i-lxi"
+    "next_chapter_index": 62,
+    "active_chapter_id": "book-i-lxiii",
+    "last_completed_chapter_id": "book-i-lxii"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -1021,11 +1021,11 @@
       "baseline_word_count": 322,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
-      "current_word_count": 328
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "fc5c480f522b0251acc149053a594d7f0eb36952",
+      "notes": "Expanded in place and fetched again for full-chapter verification at 4,933 words. Develops the resident's limited answers and the men's distinct observations, the house's movement across the field while the landscape remains independent, and the ordinary dinner that restores the house as a lived place. The unexplained fifth chair appears without anyone seeing it arrive; resident identity and chair purpose remain open. Checked against Chapters LXI and LXIII; all characters present are male.",
+      "current_word_count": 4933
     },
     {
       "chapter_id": "book-i-lxiii",
@@ -1033,7 +1033,7 @@
       "title": "Bill",
       "source_heading": "Chapter LXIII: Bill",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 10169,
+      "source_line": 10111,
       "baseline_word_count": 1882,
       "target_min_words": 4000,
       "target_max_words": 7000,
@@ -1049,7 +1049,7 @@
       "title": "The Man on the Road",
       "source_heading": "Chapter LXIV: The Man on the Road",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 10295,
+      "source_line": 10237,
       "baseline_word_count": 1400,
       "target_min_words": 4000,
       "target_max_words": 7000,
@@ -1065,7 +1065,7 @@
       "title": "The First Stop",
       "source_heading": "Chapter LXV: The First Stop",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 10495,
+      "source_line": 10437,
       "baseline_word_count": 1444,
       "target_min_words": 4000,
       "target_max_words": 7000,

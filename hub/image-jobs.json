@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00217",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00217.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "BLUEWATER QUAY → LANTERN MARKET / TYLER",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00217. Travel from BLUEWATER QUAY into LANTERN MARKET through the relation \"THE WATER OPENS THE VIEW\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 16.29× to 16.34× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-18T08:21:07.256Z",
+      "lineage": {
+        "from": "bluewater-quay",
+        "to": "lantern-market",
+        "relation": "THE WATER OPENS THE VIEW",
+        "cycle": 217
+      }
+    },
+    {
       "id": "scheduled-image-00216",
       "status": "QUEUED",
       "type": "IMAGE",
@@ -3323,17 +3340,6 @@
       "title": "GROWTH CANVAS / LONG PLAY / ANDREW",
       "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00018. Preserve region growth and inherited geography. Adult male human subject andrew at 3.62x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
       "created": "2026-10-09T07:25:14.552Z"
-    },
-    {
-      "id": "scheduled-image-00017",
-      "status": "QUEUED",
-      "type": "IMAGE",
-      "sourceRecording": "./recordings/scheduled-recording-00017.json",
-      "map": "./spatial-world.json",
-      "target": "visual-synthesis",
-      "title": "MALE HAREM / LONG PLAY / TYLER",
-      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00017. Preserve region male-harem and inherited geography. Adult male human subject tyler at 3.54x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
-      "created": "2026-10-09T01:04:59.631Z"
     }
   ]
 }

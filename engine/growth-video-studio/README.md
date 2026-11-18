@@ -236,10 +236,12 @@ It carries the exact three frame-set IDs/checksums, topology digest, growth-stat
 IDs, temporal audit, and one fixed-topology deformation plan per registered
 frame. A geometric, face, camera-boundary, or temporal failure prevents bundle
 publication; the job and plan files are removed if the final manifest cannot
-be written. The bundle is a plan artifact, not rendered imagery. The existing
-`render:frame` command still consumes one extracted source PNG and one frame
-plan; automated source-frame extraction, batch rasterization, background
-reconstruction, protected-face compositing, and video export remain open.
+be written. The bundle is a plan artifact, not rendered imagery. `render:frame`
+consumes one extracted source PNG and one frame plan; `render:batch` now
+consumes the bundle and a checksummed source-frame index to write the complete
+transparent body-layer sequence with a sequence receipt. Source-video
+extraction/index production, background reconstruction, protected-face and
+clothing compositing, and video export remain open.
 
 ## AI creative-workstation framework
 
@@ -274,8 +276,8 @@ The core is dependency-free JavaScript (ES modules). It can run in a browser or 
 - Slice 001: project model, state interpolation, continuity validation.
 - Slice 002: source-video ingest and frame/landmark tracking.
 - Slice 003: identity-locked body segmentation and 2D/3D correspondence.
-- Slice 004: articulated growth-landmark mapping, caller-supplied triangle warp, fixed-index mask-derived grid, checksummed topology registration, CPU pixel rasterization, and file-backed single-frame body-layer output; queued-job plan derivation, sequence batching, compositing, and export remain open.
-- Slice 005: temporal render, validation, and export.
+- Slice 004: articulated growth-landmark mapping, caller-supplied triangle warp, fixed-index mask-derived grid, checksummed topology registration, CPU pixel rasterization, file-backed single-frame output, and manifest-bound batch body-layer output; source-video extraction, background reconstruction, protected-face/clothing compositing, and export remain open.
+- Slice 005: complete compositing, temporal validation, Resolve assembly, and export.
 
 
 ## Registered mask-mesh evidence

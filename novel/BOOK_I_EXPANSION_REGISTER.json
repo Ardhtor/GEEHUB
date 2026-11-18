@@ -1124,7 +1124,13 @@
       "status": "queued",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "notes": "Expanded and fetched again in novel/BOOK_I_CONTINUATION_03.md at 5,603 words. Develops the water's ordered entry, the sixth chair's hand forming by sequence, the room's altered geometry, Luke's contact, and the screens preserving the versions before, after, and unchosen. The Voice's instruction to preserve each hand and the unchosen version is retained. The unnamed figure remains incomplete and unidentified, handing off to LXIX. Separate branch; not merged into canonical BOOK_I.md.",
+      "branch_source_path": "novel/BOOK_I_CONTINUATION_03.md",
+      "branch_heading": "## Chapter LXVIII: The Unnamed Man",
+      "branch_revision_sha": "2f7acfaed0bbca11d2c6fea1fa2b9e1c6edef420",
+      "branch_word_count": 5603,
+      "branch_status": "expanded_in_separate_continuation_source_pending_canonical_reconciliation",
+      "branch_revision": 1
     },
     {
       "chapter_id": "book-i-lxix",

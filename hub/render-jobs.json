@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00218",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00218.json",
+      "route": {
+        "from": "lantern-market",
+        "to": "bluewater-quay",
+        "relation": "THE WATER OPENS THE VIEW"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-18T17:28:27.107Z"
+    },
+    {
+      "id": "scheduled-video-00218",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00218.json",
+      "route": {
+        "from": "lantern-market",
+        "to": "bluewater-quay",
+        "relation": "THE WATER OPENS THE VIEW"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-18T17:28:27.107Z"
+    },
+    {
+      "id": "scheduled-space-00218",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00218.json",
+      "route": {
+        "from": "lantern-market",
+        "to": "bluewater-quay",
+        "relation": "THE WATER OPENS THE VIEW"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-18T17:28:27.107Z"
+    },
+    {
       "id": "scheduled-sound-00217",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-26T21:54:13.393Z"
-    },
-    {
-      "id": "scheduled-sound-00118",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00118.json",
-      "route": {
-        "from": "male-harem",
-        "to": "bodylounger",
-        "relation": "THE ARCHIVE OPENS A ROOM"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-26T17:34:17.499Z"
-    },
-    {
-      "id": "scheduled-video-00118",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00118.json",
-      "route": {
-        "from": "male-harem",
-        "to": "bodylounger",
-        "relation": "THE ARCHIVE OPENS A ROOM"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-26T17:34:17.499Z"
-    },
-    {
-      "id": "scheduled-space-00118",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00118.json",
-      "route": {
-        "from": "male-harem",
-        "to": "bodylounger",
-        "relation": "THE ARCHIVE OPENS A ROOM"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-26T17:34:17.499Z"
     }
   ]
 }

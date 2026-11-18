@@ -501,3 +501,22 @@ test("rejects a symlinked registered mask path", async t => {
   await assert.rejects(input.render(), error => error.code === "batch-dropbox-symlink");
   await assert.rejects(readdir(input.outputDirectory), error => error.code === "ENOENT");
 });
+
+
+test("rejects a source-frame index entry that tries to escape its frame directory", async t => {
+  const input = await fixture(t);
+  const index = JSON.parse(await readFile(input.sourceFrameIndexPath, "utf8"));
+  index.frames[0].file = "../frame-0.png";
+  await writeFile(input.sourceFrameIndexPath, JSON.stringify(index, null, 2) + "\n");
+  await assert.rejects(input.render(), error => error.code === "batch-source-frame-entry-invalid");
+  await assert.rejects(readdir(input.outputDirectory), error => error.code === "ENOENT");
+});
+
+test("rejects a plan whose source coordinates no longer match the registered mesh", async t => {
+  const input = await fixture(t);
+  const bundle = JSON.parse(await readFile(input.deformationPlansPath, "utf8"));
+  bundle.planSequence.frames[0].sourcePoints[0].x += 0.25;
+  await writeFile(input.deformationPlansPath, JSON.stringify(bundle, null, 2) + "\n");
+  await assert.rejects(input.render(), error => error.code === "batch-plan-frame-mismatch");
+  await assert.rejects(readdir(input.outputDirectory), error => error.code === "ENOENT");
+});

@@ -237,7 +237,7 @@ function validateSegmentationDocument(document, frameSet, sourceAssetId) {
   });
 }
 
-function validateLandmarksDocument(document, frameSet, sourceAssetId) {
+function validateLandmarksDocument(document, frameSet, sourceAssetId, segmentationDocument) {
   if (document?.schema !== "geehub.frame-set-evidence" || document.schemaVersion !== 1 ||
       document.role !== "landmarks" || document.sourceAssetId !== sourceAssetId ||
       document.sequenceId !== frameSet.metadata.sequenceId) {
@@ -249,8 +249,12 @@ function validateLandmarksDocument(document, frameSet, sourceAssetId) {
   }
   let previousTime = -Infinity;
   document.frames.forEach((frame, index) => {
+    const segmentationFrame = segmentationDocument.frames[index];
     if (frame?.frame !== frameSet.firstFrame + index ||
-        !Number.isFinite(frame.timeSeconds) || frame.timeSeconds <= previousTime ||
+        frame.frame !== segmentationFrame.frame ||
+        !Number.isFinite(frame.timeSeconds) ||
+        Math.abs(frame.timeSeconds - segmentationFrame.timeSeconds) > 0.000001 ||
+        frame.timeSeconds <= previousTime ||
         !Number.isFinite(frame.identityConfidence) || frame.identityConfidence < 0 ||
         frame.identityConfidence > 1 || !Number.isFinite(frame.poseConfidence) ||
         frame.poseConfidence < 0 || frame.poseConfidence > 1 ||
@@ -312,7 +316,8 @@ function validateDeformationDocument(document, frameSet, sourceAssetId, segmenta
     const segmentationFrame = segmentationDocument.frames[index];
     if (frame?.frame !== segmentationFrame.frame || frame.timeSeconds !== segmentationFrame.timeSeconds ||
         !Array.isArray(frame.sourcePoints) || frame.sourcePoints.length !== document.vertexIds.length ||
-        frame.sourcePoints.some(point => !Number.isFinite(point?.x) || !Number.isFinite(point?.y))) {
+        frame.sourcePoints.some(point => !Number.isFinite(point?.x) || !Number.isFinite(point?.y) ||
+          point.x < 0 || point.x >= frameSet.width || point.y < 0 || point.y >= frameSet.height)) {
       fail("batch-deformation-frame-invalid", "Registered mesh coordinates are incomplete or misaligned");
     }
   });
@@ -341,8 +346,9 @@ function validateSourceFrameIndex(index, source, segmentationFrameSet, segmentat
         !Number.isFinite(frame.timeSeconds) ||
         Math.abs(frame.timeSeconds - expected.timeSeconds) > 0.000001 ||
         typeof frame.file !== "string" || frame.file !== path.basename(frame.file) ||
-        frame.file === "." || frame.file === ".." || !/\.png$/i.test(frame.file) ||
-        files.has(frame.file) || !isSha256(frame.sha256)) {
+        frame.file === "." || frame.file === ".." ||
+        frame.file.includes("/") || frame.file.includes("\\") || frame.file.includes("\0") ||
+        !/\.png$/i.test(frame.file) || files.has(frame.file) || !isSha256(frame.sha256)) {
       fail("batch-source-frame-entry-invalid", "Source-frame index has a missing, unsafe, duplicate, or misaligned frame entry");
     }
     files.add(frame.file);
@@ -511,7 +517,9 @@ export async function renderGrowthFrameBatchFiles({
     fail("batch-sidecar-json-invalid", "Registered frame-set sidecar is not valid JSON: " + error.message);
   }
   validateSegmentationDocument(segmentationDocument, selected.segmentation, manifest.source.id);
-  validateLandmarksDocument(landmarksDocument, selected.landmarks, manifest.source.id);
+  validateLandmarksDocument(
+    landmarksDocument, selected.landmarks, manifest.source.id, segmentationDocument
+  );
   const expectedLandmarks = landmarksDocument.frames.map(frame => ({
     frame: frame.frame,
     timeSeconds: frame.timeSeconds,

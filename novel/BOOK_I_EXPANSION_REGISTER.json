@@ -1103,7 +1103,13 @@
       "status": "queued",
       "revision_count": 0,
       "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "notes": "Expanded and fetched again in novel/BOOK_I_CONTINUATION_03.md at 4,684 words. Preserves the enormous eyes beneath the repeated house, the sequence of the seventh well's transformations, the Voice in the mirror, the faceless sixth-chair figure, and the blue hall flooding upward. Luke investigates, Tyler tracks the sequence, Kirk reads the structure, and Joseph attends to the silence and the group. The eyes' nature and intention remain unresolved. This is a separate continuation branch and has not been merged into canonical BOOK_I.md.",
+      "branch_source_path": "novel/BOOK_I_CONTINUATION_03.md",
+      "branch_heading": "## Chapter LXVII: The Eyes Beneath the Well",
+      "branch_revision_sha": "8f802c8a71eace6d614a00165b55bcfb50d01068",
+      "branch_word_count": 4684,
+      "branch_status": "expanded_in_separate_continuation_source_pending_canonical_reconciliation",
+      "branch_revision": 1
     },
     {
       "chapter_id": "book-i-lxviii",

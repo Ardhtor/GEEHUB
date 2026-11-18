@@ -520,3 +520,13 @@ test("rejects a plan whose source coordinates no longer match the registered mes
   await assert.rejects(input.render(), error => error.code === "batch-plan-frame-mismatch");
   await assert.rejects(readdir(input.outputDirectory), error => error.code === "ENOENT");
 });
+
+
+test("rejects a plan bundle that names different growth-state lineage from its render job", async t => {
+  const input = await fixture(t);
+  const bundle = JSON.parse(await readFile(input.deformationPlansPath, "utf8"));
+  bundle.planSequence.growthStateIds = ["other-baseline", "other-growth"];
+  await writeFile(input.deformationPlansPath, JSON.stringify(bundle, null, 2) + "\n");
+  await assert.rejects(input.render(), error => error.code === "batch-plan-growth-state-lineage");
+  await assert.rejects(readdir(input.outputDirectory), error => error.code === "ENOENT");
+});

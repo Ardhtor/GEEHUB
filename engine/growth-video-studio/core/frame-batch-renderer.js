@@ -131,6 +131,7 @@ function validateJobAndEvidence(manifest, job, planBundle) {
   if (job?.schema !== "geehub.growth-render-job" || job.schemaVersion !== 1 ||
       job.status !== "ready-for-renderer" || !job.source ||
       !Array.isArray(job.growthStates) || job.growthStates.length < 2 ||
+      job.growthStates.some(state => typeof state?.id !== "string" || !state.id.trim()) ||
       !Array.isArray(job.landmarkFrames) || !job.output) {
     fail("batch-render-job-invalid", "A ready version-one GEEHUB growth render job is required");
   }
@@ -381,6 +382,11 @@ function validatePlanSequence(planBundle, job, evidence, deformationDocument, so
       fail("batch-plan-frame-mismatch", "Deformation plan does not match registered mesh frame " + meshFrame.frame);
     }
   });
+  const growthStateIds = job.growthStates.map(state => state.id);
+  if (!Array.isArray(sequence.growthStateIds) ||
+      !isDeepStrictEqual(sequence.growthStateIds, growthStateIds)) {
+    fail("batch-plan-growth-state-lineage", "Deformation plans do not identify the portable job's approved growth states");
+  }
   if (job.landmarkFrames.length !== sequence.frames.length) {
     fail("batch-plan-landmark-count", "Portable job landmarks do not cover the plan sequence");
   }

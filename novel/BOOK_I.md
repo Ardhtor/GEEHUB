@@ -10490,11 +10490,15 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      They left the house without ceremony, carrying with them the strange quiet that follows a place after one has understood its purpose. The building remained behind them for a while, visible through the trees as a collection of windows and rooflines that seemed almost domestic from a distance, but the farther they walked the less certain its shape became. It did not collapse. It did not disappear. It simply withdrew into the landscape, as though satisfied that its work had been completed. Bill carried the metal stop in one hand. The stranger carried the wooden handle. Joseph walked beside him. Luke, Tyler, and Kirk followed close enough that no one could mistake them for separate parties. The road beneath their feet was dark and wet, though no rain fell. Grass leaned toward it from both sides. The forest ahead had the amber-brown depth of old wood, and somewhere beneath the roots water moved with a sound so deep that it seemed to belong to the earth rather than to any visible stream.
 
+     They did not look back at the house immediately. The door had been opened, the shelves had been left in order, and the different histories had been offered without requiring them to choose all of them. The building remained behind the trees, but its windows were still visible between the trunks. It no longer seemed to be following them across the field. It had taken its place in the landscape as a house that could be returned to, rather than an object that needed to accompany every step. Bill carried the metal stop in his right hand, holding it low and securely. The stranger carried the wooden handle in his left, turning it slightly whenever the path changed beneath him. Joseph walked beside him without crowding his pace. Luke, Tyler, and Kirk followed close enough that no one could mistake them for separate parties. They were not arranged as a procession, and no one had been assigned to lead. The road itself supplied the direction. Bill looked ahead at the trees and then briefly back toward the house. He did not check whether it had disappeared. He knew the difference between leaving a place and losing it.
+
      “This is the old road,” Bill said.
 
      Luke looked ahead. “The northern road?”
 
      “Older than that.”
+
+     The road's age was visible in its surface. Beneath the wet sheen lay old stone, worn down until the edges of individual pieces could only be seen where the grass had grown between them. The centre had settled lower than the sides, and roots had pushed through several joints. A shallow gutter ran along the left edge, carrying water toward the forest. It was not the northern road, which had been marked, widened, repaired, and made to serve travellers over a known distance. This road had existed before the later routes had acquired names. It did not appear to connect two settlements. It seemed to have been made by repeated passage between places whose relationship had outlasted their locations. Luke looked at the worn stones. “How old?” Bill shook his head. “Old enough that the question has stopped helping.” Tyler crouched briefly to inspect the surface. The stone showed several layers of repair, none recent. Kirk noticed that the road narrowed between two trees, then widened where the ground fell away. The stranger walked over it as if his feet already knew where the uneven places were.
 
      They continued, and the stranger gradually began to understand that the road was responding to the wooden handle. Whenever his grip loosened, the trees lost their edges and the distance divided into several possible directions. Whenever he tightened his hand, the road became singular again. Joseph noticed this and said nothing. He understood that the stranger was learning how to carry himself back into the world. After a long time the stranger spoke.
 
@@ -10504,6 +10508,8 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “Then how did you have it?”
      “That's what keeping means.”
+
+     The stranger tightened his fingers around the handle. His grip changed the route almost immediately. The trees recovered their edges, the nearer trunks separated from the darker growth behind them, and the road became a single line of stone through the forest. He looked down at his hand as if the change had surprised him. Bill did not tell him to hold more tightly. “You don't have to strangle it,” he said. “Just know it's there.” The stranger loosened his fingers. The road divided into two faint directions, one passing toward the stream and the other rising along a dry ridge. The two were both walkable, but their edges were not stable. The man closed his hand again, and the routes gathered into one. Joseph watched the exchange. The handle was not a lever that forced the world to obey. It seemed to give the stranger a way to remain oriented within it. Bill carried the metal stop without testing it. He did not know whether the object would work in the fountain, and he did not pretend that its presence guaranteed anything. The two artifacts had different roles, and the men allowed them to remain different.
 
      The stranger frowned.
 
@@ -10517,13 +10523,19 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “Then why?”
 
-     Bill shrugged. “Because somebody always does.”
+     Bill shrugged. “Because somebody always does.
+
+     Bill's answer was not a forecast. He had not calculated how many years might pass or how many separate routes a man could take before finding his way back. He had simply kept the handle because discarding it would have turned its absence into a final decision. That was a different act from predicting a return. Bill had known men who never came back to a house, a road, or a conversation, and he had kept their things without pretending that they would reappear. He also knew that objects sometimes travelled farther than their owners could. A door handle could remain in a drawer after the door had been demolished; a photograph could outlive the room in which it had been taken; a small tool could be passed through several hands without anyone knowing who had first used it. Keeping did not guarantee reunion. It preserved a point at which reunion might become possible without having to invent the evidence afterward. Joseph looked toward the stranger. The man was studying the handle, not the road. He seemed to be learning how much of the world could be carried in an object that weighed so little.”
 
      The forest opened before them.
 
      The Sacred Fountain stood in the clearing.
 
+     The clearing was wider than the road had suggested. The trees opened in a broad ring, their lower branches dark with rain and their upper limbs reaching into a sky that had become amber near the horizon. The fountain stood at the centre, with enough space around it for a large gathering. Its basin was made from a single mass of dark stone, although the surface showed seams and mineral lines that suggested several stages of construction. The rim had been worn smooth in places by hands resting on it. Channels radiated outward from the basin, cut into the surrounding stone and arranged at measured intervals. Their paths did not simply drain water away. Each channel returned toward the central structure, where narrow openings disappeared beneath the lip. The fountain seemed to circulate water through a system whose full extent lay below the clearing. No pipes were visible. No pump could be heard. The water moved with a slow, continuous pressure that made the stone sound hollow when a drop fell from the rim. Luke approached but stopped before the nearest channel. Tyler looked for a mechanical access point. Kirk walked the outer edge. Joseph remained beside the stranger, who had gone still.
+
      It was larger than any account had made it. Its basin seemed to have been carved from a single mass of dark stone, and its water did not merely occupy the basin but appeared to rise from below the world itself. Twelve great positions surrounded it, each connected by channels worn into the stone. Eleven contained metal stops. The twelfth was empty.
+
+     The positions were not ornamental. Each had been fitted into a shallow socket at the end of one of the channels, and each metal stop carried marks from repeated contact with the stone. Some were dark, some pale, and one showed a narrow line of green mineral staining. Their surfaces were not identical. A few had been polished by handling, while others appeared to have remained in place for years. The empty position was different from a broken socket. Its edges were clean, and the channel leading toward it showed the same wear as the others. Nothing had been torn out recently. The absence had been maintained. Tyler counted the stops twice, then checked the spacing from one socket to the next. The intervals were regular, but the empty position changed the way he understood the arrangement. Eleven objects did not form an incomplete set simply because a twelfth had once been expected. The fountain had been built to include a place that was not occupied. He looked toward the stranger. The man's attention was fixed on that position, and the wooden handle had become still in his hand.
 
      The stranger stopped.
 
@@ -10547,7 +10559,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Bill watched him carefully.
 
-     “There was no stop,” the stranger said. “Only the opening.”
+     “There was no stop,” the stranger said. “Only the opening.
+
+     He spoke slowly, searching for words that would distinguish the appearance of the mechanism from the memory of what he had done. He remembered approaching the fountain, but he could not say how long ago. He remembered a channel with no obstruction and a dark space beyond it. The other stops had not been missing in the sense of being lost. They had not yet become relevant to the action he had taken. The empty socket was not the remains of a removed part. It was an opening that had been left available. “I thought I was taking something out,” he said. “But there wasn't anything there.” Bill listened without interrupting. The man's account did not fit the most obvious explanation, and Bill did not try to correct it. “Then we should look at what's here,” he said. “Not what we thought ought to be here.” The stranger nodded. Joseph moved a little closer. Luke glanced toward the channel, and Tyler began checking the stone for signs of an attachment that had never existed. Kirk looked at the geometry of the basin. The fountain was giving them a real empty place, not a broken one.”
 
      Joseph came nearer.
 
@@ -10561,6 +10575,8 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      It did not spill. It climbed in a vertical column, clear at first and then filled with images: the northern road under rain, the seventh well and its impossible staircase, the branching city beneath the reservoir, the Blue Hall, the house, the kitchen, Bill's shelves, the dead monitor, the wooden handle, the men walking through the forest. The images were not memories in the ordinary sense. They were relationships made visible. A road led into a room. A room opened into a city. A city remembered a man. A man remembered a door. A door remembered a hand. A hand remembered another hand. The whole accumulated world seemed to be telling the same story in different forms.
 
+     Luke recognised the road as something he had travelled, but the fountain did not show it as a route that belonged to him. It joined the house and the well, and then extended beyond both. Tyler saw measurements appear along the channels, not as numbers written on the water but as differences in depth and pressure. Kirk saw the fountain's structure repeated in the joints of buildings that stood far away. He could recognise a relationship between a basin and a doorway, though he could not say that one had been copied from the other. Joseph saw a room where a man waited, then a second room where another man returned, and the space between them remained visible after the images changed. The stranger looked at the column of water without speaking. The scenes did not seem to be arranged to persuade him of a particular history. They appeared as separate experiences held in relation. The water could show one without erasing the others. Its movement was the connective element, but the places retained their own forms and their own consequences.
+
      “It's all connected,” Luke said.
 
      Bill shook his head.
@@ -10569,7 +10585,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Luke looked at him.
 
-     “It's all related. Connection sounds too clean. Relation can survive damage.”
+     “It's all related. Connection sounds too clean. Relation can survive damage.
+
+     Bill did not mean that every place had been joined by a hidden corridor or that every person belonged to one continuous chain. Some relationships had been broken. Some were carried through objects, habits, or stories long after the people involved could speak to one another. Others had changed so much that the old description no longer fitted, although something remained worth recognising. Luke looked at the water and considered the difference. A connection could sound like a line that had never been interrupted. A relation could include a separation, a disagreement, or a period when nobody knew how to return. Tyler understood the practical consequence. A record should not make two events adjacent simply because they resembled one another. Kirk understood the architectural version: a bridge could be removed and its former approaches still mattered, even if no one could cross them anymore. Joseph looked at the stranger and saw that the distance between them had not vanished simply because they recognised one another. The distinction did not make the world less coherent. It made the coherence more honest.”
 
      The distinction settled over them.
 
@@ -10586,6 +10604,8 @@ The architects had been sent north with a letter of instruction and a set of ins
      “I've given better.”
 
      “I'm sure you have.”
+
+     Bill let the joke end where it had arrived. He was not trying to make the fountain less important by bringing a missing sock into the conversation. He was reminding the men that a large mystery could be approached through a small absence. A pair of socks looked complete when both were present; the missing one revealed that someone had worn them, washed them, carried them, or left them somewhere. The object that remained could not tell the whole story, but it could show that a story had occurred. Bill had known a man who kept every button that came loose from his shirts in a tin on the kitchen shelf. He had never sorted them by garment or colour. When asked why, the man had said that he wanted to know how many shirts he had outlived. Bill had thought the answer foolish and then remembered it for years. The four men laughed, and the fountain's sound seemed briefly less solemn. Bill smiled at their response. “Don't underestimate a small thing just because the rest of the world is making a fuss.” Then he looked back at the twelve positions, and the conversation returned to the empty socket.
 
      “I once spent three hours explaining to a man why a missing sock was more important than a complete pair.”
 
@@ -10611,6 +10631,8 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      DO NOT FINISH THE FOUNTAIN.
 
+     Tyler examined the inscription more closely. The letters were worn, but the stone around them had been cleaned often enough to keep the words readable. There was no date and no maker's mark. The three instructions had different forms. The first asked the keeper to preserve what came back. The second required a change to be returned rather than concealed. The third forbade completion. Tyler read them again and noticed that the order mattered. The fountain was not meant to collect things indefinitely. What returned had to be kept; what changed had to be allowed to return in its changed form; and no final operation could be used to close the process. Kirk looked at the channels and the empty position. “If we put something there, the system might become complete.” Bill shook his head. “Complete isn't always the same as finished.” The stranger looked at the metal stop in Bill's hand. The distinction seemed to concern him most of all. He had once approached the opening alone. He might have thought that filling it would end the uncertainty. Now the inscription warned against turning a living arrangement into a closed machine.
+
      Joseph read the words aloud.
 
      “Don't finish it.”
@@ -10631,6 +10653,8 @@ The architects had been sent north with a letter of instruction and a set of ins
      The basin emptied.
 
      A small door stood in the center of the stone.
+
+     The falling water made almost no noise. It descended through the channels and disappeared beneath the basin, leaving the stone dark and wet. The central surface was exposed for the first time. A small rectangular door stood in the centre of the stone, fitted flush with the surrounding material and outlined by a narrow groove. It was not large enough for a man to pass through without changing its scale, yet its presence altered the way the fountain was understood. The structure was not only a basin or a collection of channels. It held an entrance to something below. Tyler knelt to inspect the edge and found no visible hinge. Kirk followed the line of the groove around the door. The proportions were precise but not mechanical in the ordinary sense. Luke looked toward the stranger. The man had not moved. He seemed to recognise the door more strongly than he had recognised the empty socket. Joseph stood beside him, close enough to be there if he needed support but not touching him. Bill kept the metal stop in his palm. He was not yet trying to fit it into the mechanism.
 
      The stranger approached it with visible fear.
 
@@ -10662,6 +10686,8 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “I went through alone.”
 
+     The stranger described no further detail, but the way he looked at the door made it clear that the memory was not distant in the ordinary sense. He remembered the threshold from the inside and from the outside. He remembered that the pages had continued beyond the opening, and that he had not found a simple way to return to the clearing. He could not say whether he had been gone for a day or for a period too long to compare with the house's clock. The four men did not ask him to account for the missing time. Joseph knew that a person could have an experience whose duration could not be converted into a calendar without losing something essential. Luke wanted to know what had happened after the stranger went through, but he saw the man's hand tighten around the wooden handle. The question could wait. The group was now at the same door, and the possibility of entering together changed what the earlier journey meant.
+
      Joseph placed his hand on the door.
 
      “Not this time.”
@@ -10678,6 +10704,8 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The stranger looked at all of them and seemed, for the first time, unable to find an objection.
 
+     The stranger looked from Joseph to Kirk, then to Tyler and Luke. Their agreement was not identical. Joseph was offering company; Kirk was refusing to leave another man to an unstable structure; Tyler wanted to understand what the passage would do; Luke was ready to act once the route became clear. They had not reached one conclusion through one argument. They had arrived at the same decision from different values. The stranger could see that they were not promising to prevent every difficulty. They were promising not to make him face it alone. He looked at the small door, then at the wooden handle in his hand. It had once been carried through a house that was still learning its size. Now it had returned to the man who had left it, and he could choose how to use it. He did not need to repeat the earlier journey exactly. The others could enter with him, and the world could change around that fact.
+
      “What if it changes?”
 
      Joseph answered quietly.
@@ -10692,7 +10720,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The door opened.
 
-     Beyond it was a world made of writing. Pages extended through immense darkness, but the darkness was not empty. Sentences crossed it like roads. Paragraphs rose into architecture. A phrase repeated enough times became a corridor. A memory became a room. A character stepped out of one chapter and walked into another carrying a consequence from the first. The northern road existed there. The reservoir existed there. The Blue Hall existed there. The house existed there. The men could see themselves at different ages moving through different versions of the same story, sometimes together, sometimes separated, sometimes making choices that had never reached the world outside.
+     Beyond it was a world made of writing. Pages extended through immense darkness, but the darkness was not empty.
+
+     The writing had physical depth. A line of text rose just high enough to form a low ridge beneath the men's feet, while a paragraph widened into a platform that could support all of them. The pages were not floating as separate sheets in a void. They seemed to extend through an immense interior whose distances were measured by the relationships among the passages. Far overhead, words moved from one surface to another, and the shadows they cast made the place feel like a forest built from sentences. Some phrases were familiar from the northern road and the first house. Others belonged to the city, the reservoir, and rooms the men had not yet entered. The four could see versions of themselves moving through different scenes, but the images did not force them into one chronology. A choice that had been made in one branch could remain open in another. A room could remember the man who had left it without requiring him to return to precisely the same arrangement. The novel contained histories, possibilities, and unfinished passages in the same vast structure. Sentences crossed it like roads. Paragraphs rose into architecture. A phrase repeated enough times became a corridor. A memory became a room. A character stepped out of one chapter and walked into another carrying a consequence from the first. The northern road existed there. The reservoir existed there. The Blue Hall existed there. The house existed there. The men could see themselves at different ages moving through different versions of the same story, sometimes together, sometimes separated, sometimes making choices that had never reached the world outside.
 
      Bill stood at the threshold.
 
@@ -10728,7 +10758,9 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “What?”
 
-     “The world continuing.”
+     “The world continuing.
+
+     The words were not a summary of the mechanism. Bill had heard thousands of pages turning and recognised the sound as continuation. The fountain had not activated in the way a completed device might activate. The metal stop had been placed into the empty socket, but the water did not rise again and no pressure returned to the channels. Instead, the forest became quiet enough for the movement below the stone to be heard. The mechanism had accepted the presence of the stop without claiming that its work was finished. Bill listened because the sound mattered more than a display of power. The pages continued to turn somewhere beneath the clearing, and each turn suggested another place being formed, revised, or made available. He looked at Joseph and nodded toward the open door. The men had a route ahead. Someone had to remain near the fountain, not to guard it against the others but to preserve the point from which their departures could still be understood.”
 
      Joseph looked at him.
 

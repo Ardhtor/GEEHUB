@@ -10262,6 +10262,8 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      The figure continued approaching long after the monitor had been turned nearly dark. Bill had reduced the brightness until the screen showed little more than a faint gray road beneath a deeper gray sky, yet the man remained visible, not as a clear body but as a persistence of movement. Luke could no longer see his coat or his face. He could only see that somebody was coming. Bill seemed to prefer it that way. He sat with one hand resting on the edge of the monitor and watched the diminishing image with the patience of a man listening to somebody tell a story badly but waiting because the story might eventually become important. The room smelled of dust and warm electronics. Rain tapped against the windows in a pattern so irregular that it seemed almost conversational. Somewhere upstairs Kirk turned in his sleep. Joseph's footsteps passed once along the hall and then stopped. Bill noticed every sound without acknowledging any of them. He had the strange ability to make attention feel like an environment rather than an activity.
 
+     Luke had seen Bill in rooms where an explanation seemed to be waiting for him, but this was the first time he had watched him attend to an image without trying to make it obey. The monitor's blue-black reflection reached the cabinet and the wall behind it. A small stack of paper rested under one corner of the screen to keep it level. The cable disappeared behind the cabinet and did not reappear where Luke expected. Bill had already noticed that detail. He had looked once at the cable and then returned to the road, apparently deciding that the wiring could wait. Luke understood the choice. There were things that required immediate attention and things that became clearer when a man stopped interfering with them. Bill's stillness was not passivity. His eyes followed the screen with an exactness that made Luke aware of how much he himself was trying to see at once. The older man was watching one fact: the figure continued to approach. He was not yet asking who the figure was, what it wanted, or whether it belonged to any of the places they had visited. That restraint made the image feel more consequential, not less. It prevented the men from filling the dark screen with a story before the stranger had actually arrived.
+
      “Why don't you turn it back up?” Luke asked.
 
      “Because I want to know whether the man is coming toward us or whether the picture merely wants us to believe he is.”
@@ -10269,6 +10271,8 @@ The architects had been sent north with a letter of instruction and a set of ins
      “What's the difference?”
 
      “Everything.”
+
+     Bill let the word remain between them. He did not give Luke a lecture on perception, and he did not turn the question into a lesson about the Hub. The room had already supplied enough examples of appearances that were not events and events that could not be reduced to appearances. Luke had stood beside a footprint bearing the exact wear of his boot and had refused to claim that he had made it. He had watched a sentence leave a page and become a route. He had followed marks across ground where no road had existed. The monitor offered another problem, but Bill was not asking him to solve it by memory. He was asking him to look at what the image did. Luke leaned forward. The approaching figure moved relative to the dark space around it, but the road no longer offered a reliable measure of distance. If the screen were a window, the man might be close. If it were a recording, the movement might be fixed. If the camera itself were travelling, the man might not be moving at all. Bill allowed all three possibilities to remain open. “You can watch a thing for a long time without knowing what it is,” he said. “That doesn't mean you're wasting the time.” Luke looked at him and then back at the screen. He was beginning to understand why Bill had kept the lights low.
 
      Luke waited.
 
@@ -10298,6 +10302,8 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      A single man remained.
 
+     The remaining face did not settle into a portrait. It was visible enough to establish that a man stood there, but the details seemed to shift whenever Luke tried to hold them in his attention. The eyes were clear for an instant and then softened; the line of the mouth appeared, then seemed to belong to a different expression. Nothing about it was grotesque. The uncertainty came from the refusal of the reflection to become a stable likeness. Bill kept his palm against the glass. Luke could see his own outline at the edge of the screen, but the stranger stood behind that reflection without occupying the same depth. It was as though the monitor had become a surface on which several periods of the house could be seen at once. Bill's hand remained steady. His large fingers covered part of the lower screen, but the stranger's face did not move away from them. Luke had the impression that the man was looking not at Bill's hand but through it, toward something on the other side of the room. The screen gave no indication of how far away he was. Bill did not ask him to come closer. He waited until the changing faces had stopped, and only then did he speak.
+
      “You've been looking for us,” Bill said.
 
      “For a long time.”
@@ -10320,7 +10326,11 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “All the others.”
 
+     Luke took the key from his pocket and looked at it. It was the brass key from the first house, worn at the shoulders and familiar in his hand. He had carried it through rooms that opened onto roads and through places where distance changed according to what he remembered. It was an object with an established history. Bill's answer told him that the key was not the piece the stranger meant, but it did not make the key unimportant. The stranger's words seemed to describe a larger accumulation: small objects, gestures, routes, and decisions that had been left behind across several histories. Some had been deliberately placed. Others had been forgotten. A few might not have been recognised as objects at the time. Luke returned the key to his pocket. Bill had not asked him to give it up. He had only corrected the assumption that the first visible artifact must be the one in question. “How many?” Luke asked. Bill gave a small shrug. “More than I can count without doing it wrong.” The answer sounded like Bill. He had no interest in pretending to know the exact inventory of a history that had continued changing while he preserved its remains.
+
      The stranger lifted his hand. The reflected road changed. It became a hallway, then the Blue Hall, then the field, then the house, then the kitchen in which they stood. The transformations did not happen like images on a screen. They happened like memory, each place arriving with the pressure of having been somewhere before. Luke saw the northern road beneath the kitchen floor. He saw the seventh well beneath the northern road. He saw the reservoir beneath the seventh well. He saw the branching city reflected in the reservoir and the house standing somewhere inside the city, already waiting for them. For one impossible moment all of the places existed together, not as separate worlds but as a single immense geography whose boundaries had been made porous by everything the men had carried forward.
+
+     The four men did not see the same geography in the same order. The reflected places were connected, but their attention selected different approaches. Luke followed the broad route from the northern road to the house because he recognised the movement of a journey. Tyler noticed the points where the ground changed material, where a reservoir wall met a channel, and where a passage could be measured against another surface. Kirk read the openings as a structure with loads, boundaries, and paths that had survived multiple alterations. Joseph noticed where one place seemed to retain the presence of another person, where a room remained prepared although its occupant had gone, and where a connection could be continued without forcing an immediate meeting. Their different readings did not divide the view. They made the scale of it more apparent. The world could be approached as a route, a record, a construction, or a field of relationships. None of those descriptions was sufficient alone. Bill watched the men look at the same screen and said nothing. He did not have to make them agree. The image was already holding their separate attention together.
 
      The stranger stepped through.
 
@@ -10329,6 +10339,8 @@ The architects had been sent north with a letter of instruction and a set of ins
      “You're late,” Bill said.
 
      The stranger smiled faintly. “I was ahead.”
+
+     Bill gave the stranger a little more room beside the table. He did not ask him to explain the remark. The answer had the shape of a correction, but it was not a correction Bill intended to pursue in front of the others. Luke looked from one man to the other. The stranger's wet clothes continued to darken the kitchen floor, and a small pool had formed near his heel. Bill brought a towel from the counter and placed it within reach. The man took it and dried his hands first, then pressed it briefly against one sleeve. The simple act made the arrival more difficult to classify. A person had crossed a boundary that had not existed a moment earlier, yet he was now drying rain from his clothes in a kitchen as any traveller might. The house accepted him without a signal. The pipe clicked once behind the wall. The refrigerator started again. The monitor remained dark. Luke felt that the most important thing in the room was not the man's ability to cross the screen, but the way the men around him were responding. Bill did not crowd him with questions. Joseph did not demand an account. The others made space.
 
      Joseph entered from the hallway.
 
@@ -10339,6 +10351,8 @@ The architects had been sent north with a letter of instruction and a set of ins
      “You waited.”
 
      Joseph nodded.
+
+     Joseph's recognition was quiet, but it altered the arrangement of the room. He had not needed the stranger to explain the wait, and the stranger had not asked him to prove that it had happened. Their exchange carried the weight of a connection whose details had not yet been made available to everyone present. Joseph was aware of Luke watching him and did not conceal the moment, but he also did not translate it into a public declaration. He simply remained beside the stranger. The man looked at him once more, then lowered his eyes toward the floor where the rain had fallen. Joseph followed his glance. A line of water had run toward the leg of the table and collected in the grain of the boards. He picked up the cloth and wiped it away. The stranger watched him do it. There was no need for another sentence. Tyler and Kirk came down the stairs at that moment, and the house began to lengthen. The private recognition did not disappear when the others joined them. It remained part of the shared room without requiring the others to know every reason behind it.
 
      Bill watched the exchange without interrupting. Something about it pleased him, although he did not smile. Behind Joseph, Luke heard Tyler and Kirk descending the stairs. The house seemed to respond to their footsteps. The room lengthened. The ceiling rose. Chairs appeared around the table, first five, then six, then seven, as though the house had been quietly rehearsing the possibility of a much larger gathering.
 
@@ -10366,6 +10380,8 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Bill watched the seventh screen.
 
+     Bill allowed the seven images to remain visible long enough for each man to study them. The monitors were not identical. One had a slightly yellowed casing, another had a crack along the lower bezel, and the screen nearest the doorway was a newer flat panel mounted at eye level. A few of the cables had been repaired with tape. The arrangement looked assembled over time rather than designed as one system. The room's light reflected differently in each screen. The Blue Hall gave back a cool blue cast; the northern road held a faint grey; the reservoir showed a greenish depth; the fountain's amber sky warmed the shelves. The empty room remained almost colourless. On the seventh screen, the man by the door stood in a space whose surfaces could not be identified. Tyler looked for a clock or a window. Kirk watched the door's hinges. Luke studied the man's stance. Joseph watched the light on the floor. Each man saw a practical detail, but none found a name or a date. Bill did not switch between screens or arrange them into an explanatory order. The seven places were allowed to remain present together.
+
      “There,” he said.
 
      The stranger turned.
@@ -10390,6 +10406,8 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “That's why I kept the things.”
 
+     The stranger's admission was not a confession of failure. He did not appear ashamed of the missing memories, and Bill did not treat them as a defect that needed to be corrected before the journey could continue. The man looked at the screens again. “I know they're there,” he said, after a pause. “I don't know how to get to them.” Bill placed the photograph back in its tray. “That's a different problem.” The stranger looked toward the shelves. “You found them?” “I kept what came through.” “All of it?” Bill shook his head. “No. Just what I could keep.” He spoke without self-congratulation. The archive had gaps, and some of the objects had lost their labels. There were histories he had not witnessed and people he could not identify. What mattered was that the remaining things had not been discarded simply because their meaning had become uncertain. The stranger looked toward the handle's shelf, though it was still hidden behind the boxes. Bill noticed the glance and returned to his search.
+
      Bill began searching through the shelves. He did not rush. He moved with the methodical patience of a man who had spent years refusing to let the world hurry him into throwing something away. He lifted the photograph. He unfolded the map. He ran his fingers across the black stone. He opened a drawer containing letters nobody had read. He found a broken monitor and set it aside. At last his hand disappeared behind a row of old boxes and returned holding a small bundle wrapped in faded cloth.
 
      The stranger stopped breathing.
@@ -10403,6 +10421,8 @@ The architects had been sent north with a letter of instruction and a set of ins
      Bill placed the bundle on the table and unfolded the cloth. Inside was a wooden handle, worn smooth by use, darkened where hands had gripped it over years that no longer belonged to a single calendar. The stranger touched it.
 
      The entire house seemed to remember him.
+
+     The effect passed through the building rather than through the man's body. A small vibration travelled along the table and reached the shelves. The water in the glass trembled, and the screen casings made a faint ticking sound as their frames adjusted. Somewhere above them, a door settled in its jamb. The house did not show a picture of the stranger's life or call up a voice to narrate what had happened. It responded to the return of something that belonged within its accumulated history. Bill watched the man's hand close around the handle. He had kept the object safe, but he had not kept the man in order to complete its meaning. Now the two had met again, and the recognition belonged to the stranger. Luke understood that distinction. The archive had made the return possible; it had not manufactured the memory. Tyler looked at the empty cloth on the table and saw that its fold held the shape of the handle. Kirk glanced at the doors and windows. The house was changing, but it remained sound around them.
 
      Luke saw the man beside a door. Tyler saw a road under snow. Kirk saw the Sacred Fountain before its first stop had been installed. Joseph saw a room in which he was waiting alone. Bill saw something else. He saw a younger version of the stranger carrying the handle through a house that had not yet learned how to become large.
 
@@ -10418,13 +10438,17 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “What is the difference?”
 
+     The stranger turned the handle in his palm. Its weight seemed to prompt another memory, but nothing more than a change in his expression followed. Bill did not ask him what he had seen. He did not tell him what the younger version of himself had been doing in the house. The object had been returned, and the next part of its history belonged to the man who held it. Joseph watched the stranger with a kind of recognition that did not require him to share the memory. Luke glanced toward the door, then back to the table. Tyler looked at the shelf where the bundle had been stored and considered how its record might need to change. Kirk inspected the place where the table met the floor as the house shifted around them. Their attention remained distinct, but the moment itself was shared. Bill's answer did not mean that remembering would restore everything. It meant that the missing object could now be encountered again by the person whose history included it.
+
      Bill smiled.
 
      “The difference is that remembering gives it back to you.”
 
      The house opened every door.
 
-     The doors did not lead to rooms. They led to all the places the house had become while they were inside it. The road appeared beyond one threshold. The Blue Hall beyond another. A dark forest beyond a third. The reservoir beyond a fourth. The Sacred Fountain beyond a fifth. The unfinished novel beyond the sixth.
+     The doors did not lead to rooms. They led to all the places the house had become while they were inside it.
+
+     The house's new openings altered the kitchen's acoustics. Sound from the road arrived as a soft rain on leaves. From the Blue Hall came a low, almost musical resonance that seemed to travel along stone. The forest doorway carried the hush of branches moving at several distances. The reservoir entrance gave the room a faint echo of water against a constructed edge. The fountain's threshold held an almost complete silence, interrupted only by a small, periodic sound from somewhere beneath the stone. The novel's opening had the dry whisper of pages moving in a place without wind. These sounds did not overlap into noise. Each remained local to its doorway, and the kitchen retained its own clock, pipe, and refrigerator. Kirk moved closer to the frames, checking whether their different environments were disturbing the room. They were not. Tyler watched condensation gather near the reservoir opening and evaporate before it reached the floor. Luke stood between the road and the forest, looking from one to the other. The house had made its history accessible, but it had not erased the distinctions between the places it contained. The road appeared beyond one threshold. The Blue Hall beyond another. A dark forest beyond a third. The reservoir beyond a fourth. The Sacred Fountain beyond a fifth. The unfinished novel beyond the sixth.
 
      Joseph stood beside the stranger.
 
@@ -10456,7 +10480,11 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      “It was keeping you together.”
 
+     The men understood the sentence through the room around them. The house had not kept them together by preventing them from leaving. It had preserved enough continuity that a departure could remain connected to a return. The shelves contained things from separate journeys. The table had held meals across changing rooms. The doors made routes available without requiring the men to take them. Even the fifth chair had appeared without being assigned to a particular person. It had been enough to leave a place for an arrival. Bill looked toward Joseph and the stranger, then toward Luke, Tyler, and Kirk. He did not claim that they would always remain in one room or make every decision together. A group could stay connected while its members travelled at different speeds and carried separate memories. The house offered a point of return, not a rule of permanent proximity. Its work was practical, and that was why Bill trusted it.
+
      Then he opened the door to the old road.
+
+     The road's air reached the kitchen before anyone crossed the threshold. It smelled of wet bark, cold soil, and the dark green growth that collected beneath old trees. The floor just inside the doorway remained dry. Beyond it, water shone in shallow hollows and ran along the edges of the path. The stranger adjusted his grip on the wooden handle. Bill took the metal stop from the table and held it carefully, not as a weapon or a key but as a component whose place in the next event had not yet been established. Joseph stood beside the stranger. Luke looked down the road, Tyler checked the threshold, and Kirk observed the relation between the open door and the wall behind it. Nobody hurried. The house remained behind them with its shelves, lights, and several histories visible at once. They could return through any of the other doors, but this was the route Bill had chosen to open. The road offered no guarantee about what they would meet. It only offered a place to begin walking.
 
 ## Chapter LXV: The First Stop
 

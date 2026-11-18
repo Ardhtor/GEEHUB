@@ -9988,102 +9988,53 @@ The architects had been sent north with a letter of instruction and a set of ins
 
 ## Chapter LXI: Beyond the Passage
 
-     They walked until the passage stopped feeling like a passage.
+     They walked until the passage stopped feeling like a passage. At first its walls were close enough to make the direction of travel unmistakable. The pale floor ran between them in one uninterrupted surface, and the light ahead seemed to rest on a place just beyond the next bend. Gradually the walls widened. Their edges grew less distinct, and the ceiling lifted into a height where its surface could no longer be separated from the light. The floor became uneven. A shallow rise crossed it from side to side, followed by a gradual descent that carried the men forward without requiring them to choose a doorway. The air changed before the view did. The cool, dry smell of the unfinished novel gave way to something damp and green, the smell of grass after rain and soil that had been turned recently. A pale light appeared somewhere ahead, although none of them could find its source. Luke kept walking. Tyler walked beside him. Kirk stayed a little behind, watching the narrowing passage and the way its edges were losing their architectural precision. Joseph moved between them without speaking. The fifth mark was gone. Nobody mentioned it.
 
-     The walls widened.
+     Seth and Nick remained at a distance from the four men, sharing the view from the receiving side of the passage. They could see the change in the floor and the widening space ahead, but the men were moving beyond the clear geometry of the constructed room. “It's opening out,” Seth said. Nick watched the light spread over the uneven surface. “Not into another corridor.” “No. The passage is giving way to country.” Their commentary did not explain the change, and neither man tried to give the pale light a source. The scene had become easier to read through what the men could smell and hear than through any fixed architectural line. A faint wind reached them from ahead, first as a pressure against the skin, then as a movement in the air that touched the hems of their clothes. The four men kept their pace. The walls continued to recede, and the floor began to carry the texture of packed earth.
 
-     The floor became uneven.
+     The last visible line of the passage dissolved into the ground without a threshold. The men stepped onto grass. There was no moment in which a door opened behind them or a wall folded away. One foot was on the pale surface, and the next was among damp blades that bent under the sole and lifted again when the weight had passed. They came out into a wide field. Wind moved across the grass in long, low movements, revealing different shades of green as the blades leaned together and separated. Clouds crossed a sky that seemed much too large for the room they had left. Their undersides were grey with rain, but breaks in the western cloud allowed pale sunlight to strike the far ground. The horizon had none of the close, enclosing quality of the novel's rooms. It extended in a broad curve beyond the field, with low rises and distant trees giving the eye places to rest. The men stopped for a moment, not because they had been ordered to stop but because their bodies registered the change in scale.
 
-     A pale light appeared somewhere ahead, although none of them could find its source.
+     Behind them, the place where the passage had ended could not be identified. There was a slight difference in the grass, a narrow strip where the blades stood more upright and the soil showed through, but it did not form a doorway or a path. Luke turned and examined the field. “That's where we came out.” Tyler looked over the ground. “It might be.” Luke glanced at him. “You saw it.” “I saw the change in the floor. I don't see a boundary now.” Kirk walked back a few paces and watched the grass move around his boots. The passage had not left a mark that could be used as a fixed entrance. Yet there was no sensation of being trapped or cut off. They could turn back if they wished, and the world behind them did not need to retain a visible opening in order for their arrival to remain true. Joseph looked across the field rather than back at the place they had left. “We came through,” he said. “That is enough to remember.”
 
-     Luke kept walking.
+     The field was not empty in the way the earlier blank landscape had been. It contained ordinary variations: a shallow drainage line, a darker patch where water had gathered, a few stones breaking the surface, and the low growth of grass along a strip of earth that might once have been cultivated. The men could hear birds somewhere beyond the western rise. The sound came and went as the wind changed direction. A thin stream of water moved through the lower part of the field, almost hidden under the grass, and the soil beside it had been pressed by something heavier than the wind. Kirk followed the line with his eyes. “There's water down there.” Tyler crouched near the channel and touched the ground. It was damp but not saturated. He found the direction of flow from the way the grass leaned and the small deposits of silt caught against the stones. Luke looked toward the far end of the field. “There'll be a house.” He had seen the line of trees and a slight rise beyond them, and he was already moving.
 
-     Tyler walked beside him.
+     In the distance stood a house. It was not enormous. It was not strange. That was what made them stop. It stood near the edge of a low rise, with a modest porch, a roof of dark shingles, and a chimney that rose from one side of the building. The walls were pale, though the weather had darkened the boards nearest the ground. Four windows faced the field, each with a simple frame and a little difference in the curtains behind the glass. The roofline was ordinary, with a shallow pitch that would shed rain without making the building look especially tall. A short path crossed the grass toward the porch. There was a small tree near one corner, and a narrow strip of cultivated ground ran along the side wall. Nothing about the house claimed to be a monument, a laboratory, or an entrance to another world. It looked like somewhere a man might live, work, eat, sleep, and return to after going out in the morning.
 
-     Kirk stayed a little behind.
+     The four men looked at it without speaking. The house was not impressive in scale, and that was precisely what unsettled them. They had come through rooms whose geometry responded to their movements, followed marks that appeared before a path existed, and read a sentence claiming to remember an event that had not happened. Now the world offered a porch with two worn steps and a door whose paint had begun to thin near the handle. The roof had been repaired at one corner; the new shingles were slightly darker than the old. A gutter ran along the front, with a short length of chain directing water toward the ground. One porch post had a small crack near its base, but the timber remained sound. The house had been lived in, or it had been made to look lived in with a care that did not draw attention to itself. Luke looked at the windows. “Someone's home.” Tyler studied the roof. “Or someone was.” Kirk watched the curtains. “There are four rooms facing this field.” Joseph looked at the path. “Let's go together.”
 
-     Joseph moved between them without speaking.
+     The walk across the field took longer than the distance had suggested. The ground rose gradually, and the wind came from their left, pushing the grass against their legs. Near the stream, Luke stepped over a narrow cut in the earth and continued without slowing. Tyler paused to see where the water passed beneath the path. A small culvert had been built from stone and timber, its opening partly covered by grass. The construction was practical and old enough to have settled into the ground. Tyler examined the stones, then followed the channel with his eyes until it disappeared behind the rise. Kirk moved ahead to inspect the path. It was not paved, but its edges had been kept clear of weeds. There were faint impressions from shoes, not enough to establish how recently someone had walked there. Joseph stayed within reach of the others. The house did not become larger in the way the earlier buildings had. It remained a modest structure while the men crossed the distance toward it.
 
-     The fifth mark was gone.
+     A low fence ran beside the last stretch of path. It was made from weathered boards and had a gate that opened inward. The latch was plain iron, polished where hands had touched it. Luke lifted the latch and let the gate swing open. It did not squeak. Tyler noticed that the lower hinge had been recently oiled, while the upper one had a small dark line where water had collected. Kirk looked beyond the fence into the side yard. A stack of split wood sat under a lean-to, arranged by length rather than randomly piled. A metal bucket stood upside down beside a narrow bench. There were no tools scattered about, no dramatic signs of hurried departure, and no personal belongings placed where they would announce a particular owner. The yard was tidy in the practical sense of a place that had regular use. Joseph closed the gate gently behind them. The latch found its catch without being forced.
 
-     Nobody mentioned it.
+     The porch boards carried a little moisture, and the timber gave a muted sound beneath their steps. The two steps were worn in the centre, where repeated footfall had polished the grain. A mat lay in front of the door. It was dark with damp but had been shaken out recently enough that the pattern remained visible. Beside it stood a pair of boots, not matching any of the men's footwear and too dry to have been left out in the rain. Luke glanced down. “Those belong to somebody.” Tyler looked at the edges of the soles. “They've been placed here.” Kirk examined the space between the boots and the door. The arrangement left room for another pair to stand beside them. Joseph looked at the handle. It was a simple brass lever, slightly darker at the edges where hands had missed it. Nobody opened the door immediately. The house stood quietly around them, with the wind moving through the tree and the distant water continuing its course under the grass.
 
-     They came out into a wide field.
+     Nobody opened the door. It opened by itself. There was no sudden movement and no visible hand on the other side. The latch turned, the door moved inward, and a band of warm air came across the porch. It carried the smell of wood, tea, something recently cooked, and a faint trace of soap. The warmth was not exaggerated. It was the ordinary warmth of a house whose interior had been occupied for some time. Luke remained at the threshold long enough to look into the room. Tyler glanced at the frame and the latch, noting that the door opened cleanly and did not rub against the floor. Kirk looked past the entrance toward the back of the house, where a hallway continued into softer light. Joseph waited until the others had seen the interior, then stepped inside. The field remained visible through the open door. The clouds moved over it, and the grass continued to bend under the wind.
 
-     There was weather here.
+     Inside, there were signs that someone had been there recently. Four chairs stood around a rectangular table. Four glasses had been placed on the surface, each containing a little water. A jacket hung over the back of one chair, its sleeves falling naturally on either side. A pair of shoes stood near the stairs, arranged side by side with their toes facing the wall. The room was clean without feeling unused. A cloth lay folded over one end of the table, and a small plate had been set beside it. A lamp stood near the window, with its shade turned slightly toward the chairs. The wooden floor had a soft sheen from regular cleaning, and a narrow runner covered the centre of the hallway. A clock ticked on the wall, though its hands appeared to be moving normally. The ordinary details made the room feel more unfamiliar than any impossible geometry had. They were not signs of an experiment. They were signs of a life whose owner had not yet come into view.
 
-     Wind moved across the grass.
+     Luke remained near the door. He looked at the four chairs, then at the open space between the table and the hall. He had an immediate sense of where he could stand if someone came down the stairs, and where he could move if the house changed. He did not turn that instinct into suspicion. The house had not threatened them. It had simply received them with a degree of readiness that made their arrival feel expected. Tyler moved toward the table. He wanted to know whether the glasses had been filled before or after the door opened. He did not assume that warmth or moisture could answer the question on its own. Kirk studied the room's proportions. The ceiling was modest, the windows low enough for a seated man to look outside, and the table placed so that the chairs did not block the path to the kitchen. Joseph looked at the jacket. Its position suggested that somebody had removed it recently and expected to put it on again. The four men were each reading the room, but none treated his first reading as complete.
 
-     Clouds crossed a sky that seemed much too large for the room they had left.
+     Tyler picked up one of the glasses. It was warm. The water within it moved slightly as he lifted it, and a faint line of condensation marked the outside near the base. He held it carefully, then set it down in the same place. The glass was ordinary, with a thick base and a small imperfection in the rim. It had not been warmed by his hand because he had only just picked it up; the warmth was already present. Tyler checked the other three glasses without moving them. One was cooler. Another had a warmer patch near the side facing the window. The fourth was almost at room temperature. He looked toward the kitchen. “They weren't filled at the same time.” Luke glanced over. “How do you know?” Tyler pointed to the different levels and the thin rings of water inside the glass. “They've been standing for different lengths of time. Not long, but different.” Kirk leaned closer. “So somebody set them out.” Tyler nodded. “That is the simplest explanation. It doesn't tell us who.” He did not drink. The glasses were evidence of recent preparation, not an invitation he had to accept.
 
-     In the distance stood a house.
+     The kitchen was visible through a broad opening. A kettle stood on the counter, its handle turned outward. A wooden board had been wiped clean, and a knife lay beside it with the blade facing away from the edge. A bowl contained several pieces of fruit. The refrigerator hummed at a low, steady pitch. Nothing was boiling, and no steam rose from the kettle. Tyler went to the opening and looked inside without touching anything. The kitchen had been used, then tidied. A folded towel hung from the oven handle. There was a small repair to one cabinet hinge, the screw heads showing slight wear from adjustment. Tyler noticed it because he had been looking for the kind of detail that could distinguish a functional home from a stage set. The room did not look staged. The knife had been placed where it could be reached safely, the board had been cleaned, and the towel was within easy distance of the sink. He returned to the table. “Someone was using the kitchen.” Luke looked toward the stairs. “Someone may still be here.”
 
-     It was not enormous.
+     Kirk looked upstairs. The staircase rose from the right side of the hall and turned at a landing. Its handrail was smooth, with a darker strip where hands had passed over it. The steps were wide enough to accommodate a person carrying something without turning sideways, and the upper landing appeared to have a window at its far end. Kirk noticed that the staircase did not dominate the house. It occupied a practical part of the plan, leaving the front room open to the light from the field. He could see the line of the upper corridor, though he could not see the rooms beyond it. The building had the proportions of a residence arranged around ordinary use. There was no hidden tower, no impossible depth, and no corridor that extended beyond the footprint of the house. Yet the sound of the floor above seemed slightly closer than the visible staircase suggested. Kirk did not mention it. He looked toward the others and waited for the next observable event.
 
-     It was not strange.
+     Joseph sat down. He chose the chair nearest the window, not because it had been prepared for him but because it allowed him to see both the table and the door. The seat was firm, and the back had been repaired with a small wooden brace. He rested his hands on the table and looked at the four glasses. He did not move the jacket or arrange the chairs. He did not assume that the house had prepared a place for him personally. It had prepared four places, and that was enough to show that the occupants, whoever they were, had expected company or had arranged the room for a known group. Joseph's attention returned to the shoes near the stairs. They were an adult man's shoes, dark and well maintained, with a crease across each toe from regular use. Their soles were dry. They were not the boots on the porch. He looked toward the staircase but did not call out. A person who was upstairs might have heard them enter. There was no need to force the encounter.
 
-     That was what made them stop.
+     Luke remained standing by the door. He could see the porch and a portion of the field beyond it. The door had not closed. The warm interior air met the colder air outside and formed a slight movement across the threshold. He could leave without asking permission, and the knowledge of that made it easier to stay. The house did not hold him in place. He looked at the jacket again. It was a dark, practical garment, broad through the shoulders, with a worn cuff and a small repair near one pocket. It was not decorative or particularly new. Someone had worn it often. Luke could imagine a man taking it off after coming inside, hanging it there, and returning for it later. That was the ordinary explanation. The unexplained part was that the jacket had been left in a room arranged for four men who had only just arrived. Luke did not know whether the house was expecting them, or whether it had been used by four other men who were about to return.
 
-     A porch.
+     Nick's voice came from the far side of the broadcast, just beyond the room's immediate quiet. “The four glasses are doing a lot of work.” Seth looked from the table to the stairs. “Only because they're ordinary. Four seats, four glasses, shoes by the stairs, a jacket left behind. You know what kind of day belongs to those details.” Nick answered, “And you don't know whose day it is.” The commentary did not add another presence to the house. It held the view from outside the men's immediate experience, where the arrangement could be seen all at once. Seth and Nick did not identify the owner of the jacket or claim that the glasses had been prepared for Luke, Tyler, Kirk, and Joseph. The evidence remained where it was. The four men heard the broadcast but did not turn toward it. Their attention was already fixed on the upper floor.
 
-     Windows.
+     The clock continued to tick. The refrigerator hummed. Wind touched the window and made the curtain shift by a small amount. Tyler returned to the table and compared the water levels in the glasses. Kirk moved one of the chairs a few inches to make a clearer path to the hallway, then stopped and moved it back. He had acted from a practical instinct, but there was no obstruction to solve. The chair belonged where it was, and he had no reason to improve the arrangement before he knew how the room was used. Joseph watched him and smiled faintly. Kirk returned the chair to its original position without embarrassment. Luke looked at the open doorway and then at the shoes. The house's ordinary routine seemed to be continuing around them, as if they had entered during a short pause rather than into a place abandoned long ago. That sense of continuation was more difficult to explain than the room's changing geometry had been.
 
-     A door.
+     A faint movement sounded upstairs. It was not a footstep at first, only a soft shift of weight across a floorboard. The four men looked toward the ceiling. The sound came again, this time farther along the corridor, followed by the small click of a door handle. No door opened visibly from below. A pause followed. Tyler stopped examining the glasses. Kirk moved a little closer to the staircase, keeping his distance from its first step. Joseph remained seated, though his posture became more attentive. Luke stayed by the entrance. The house did not produce the familiar mechanical hum of a building changing shape. The boards above them creaked under the weight of someone walking. One footfall, then another, then a longer pause. The steps had the ordinary rhythm of a man crossing an upstairs room and approaching the landing.
 
-     A light burning inside.
+     The footsteps stopped. For a few seconds the house was quiet enough that the men could hear the water moving in the channel outside. Then someone walked down the stairs. The steps were measured and unhurried. The person did not descend with the caution of a stranger entering an unfamiliar house, nor with the force of someone trying to announce himself. He knew the staircase. The sound moved from the upper corridor to the landing, paused at the turn, and continued toward the lower hall. A shadow crossed the wall beside the banister. Luke watched it without leaving the door. Tyler glanced at the four glasses, then at the man who was about to appear. Kirk studied the stair angle. Joseph looked toward the lower step. They waited, not as people caught in suspense but as men making room for an actual arrival.
 
-     Luke looked at the others.
+     A man appeared at the bottom step. He was an adult, dressed for being inside the house, with a plain shirt and dark trousers. He did not carry anything. One hand rested lightly on the rail as he reached the floor. His appearance did not announce a title or explain the house. He looked like someone who had been upstairs for a while and had come down because he had heard the front door open. He glanced first at the four chairs, then at the glasses on the table, and finally at the four men. His eyes moved across them with a quickness that suggested recognition, though none of the men could return it. He did not seem surprised to find them there. He seemed to be checking that the room had received everyone it was supposed to receive.
 
-     They crossed the field together.
-
-     Nobody opened the door.
-
-     It opened by itself.
-
-     Inside, there were signs that someone had been there recently.
-
-     Four chairs.
-
-     Four glasses.
-
-     A jacket over the back of one chair.
-
-     A pair of shoes near the stairs.
-
-     The ordinary details made the room feel more unfamiliar than any impossible geometry had.
-
-     Tyler picked up one of the glasses.
-
-     It was warm.
-
-     Kirk looked upstairs.
-
-     Joseph sat down.
-
-     Luke remained standing by the door.
-
-     Outside, the field moved in the wind.
-
-     Inside, nothing moved at all.
-
-     Then footsteps sounded upstairs.
-
-     Four of them looked toward the ceiling.
-
-     The footsteps stopped.
-
-     Someone walked down the stairs.
-
-     They waited.
-
-     A man appeared at the bottom step.
-
-     He looked at the four chairs.
-
-     Then he looked at them.
-
-     Nobody recognized him.
-     He smiled as though he recognized them perfectly.
+     The four men did not speak at once. Luke looked directly at the stranger, trying to determine whether he had encountered him elsewhere in the world. Tyler searched for some familiar feature in the face, some detail that might connect the man to a record or a room. Kirk looked at his posture and the way he stood at the base of the stairs, measuring the ordinary relationship between the man and the house. Joseph watched his expression. The man did not look frightened, angry, or confused. He seemed calm, but not detached. There was a quiet certainty in the way he regarded them, and it made the four men aware that they had arrived inside a history they could not yet see. Nobody recognized him. He smiled as though he recognized them perfectly.
 
      “You're late,” he said.
 

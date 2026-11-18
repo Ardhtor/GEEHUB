@@ -289,3 +289,58 @@ New `npm run prepare:render` jobs require exactly one registered segmentation, l
 The queued job binds `deformationFrameSetId`, `deformationChecksum`, `topologyId`, `vertexCount`, and `triangleCount` into its additive `frameEvidence` record and lists the exact three frame-set IDs as inputs. The manifest queue validator, local staging courier, and Resolve Free inspector compare those references against the manifest. Staging also hashes the actual three sidecar files before publishing the exchange. Older v1 jobs without the additive deformation fields remain readable; every new preparation requires the exact mesh.
 
 The sidecar preserves `faceExclusionVerified=true` as a mask-relative coverage claim and `pixelSemanticsVerified=false` as an explicit limitation. Rebuilding the mesh proves that the registered geometry matches the supplied mask pixels; it does not prove that an upstream model correctly recognized anatomy. No local Dropbox or Resolve runtime has been exercised, and the frame worker has not yet written transformed source frames. The next construction is the lossless per-frame worker that consumes this exact mesh revision and the validated growth-deformation plans.
+
+
+## Manifest-bound batch body-layer rendering
+
+core/frame-batch-renderer.js consumes the queued bridge manifest, portable
+render job, source-timestamped deformation-plan bundle, and an external
+geehub.source-frame-index version 1. The index file lives beside the extracted
+PNG frames and records sourceAssetId, sourceChecksum, sequenceId, firstFrame,
+lastFrame, format (width, height, fps, frameCount), and one
+{ frame, timeSeconds, file, sha256 } entry per image. Each file must be a
+unique PNG basename in that same directory. The registered source must have
+a SHA-256 checksum, and the index must repeat it exactly.
+
+Before writing, the worker validates the queued job and plan bundle against
+the manifest, reads and hashes all three registered segmentation, landmark,
+and deformation sidecars from the configured Dropbox root, and checks the
+sidecar source/sequence/range. It recomputes the registered mesh topology
+digest, checks stable vertex/triangle inventories, matches every plan's
+source points and topology to its registered mesh frame, and verifies each
+extracted PNG and both mask files against their indexed/registered digests.
+The existing frame-file-renderer.js then performs the actual PNG decode,
+binary-mask checks, CPU triangle rasterization, RGBA encode, and per-frame
+receipt creation.
+
+Run after frame extraction and prepare:render:
+
+~~~bash
+GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \
+  npm run render:batch -- \
+  ./render-phase-01/render-phase-01.manifest.json \
+  ./render-phase-01/render-phase-01.render-job.json \
+  ./render-phase-01/render-phase-01.deformation-plans.json \
+  ./extracted/source-frame-index.json \
+  ./renders/render-phase-01
+~~~
+
+The output directory must not already exist and must not be inside the extracted
+source-frame directory. The worker writes one transparent body-layer PNG and
+one adjacent digest receipt per frame, then publishes sequence.receipt.json
+last. If a later frame fails, it removes only outputs whose bytes still match
+this batch's receipts and leaves the source frames and registered evidence
+untouched. A successful receipt records the manifest/job, plan bundle, source
+index, all three registered sidecars, every source/mask/plan digest, every
+output digest, and the exact frame count.
+
+This is a body-layer batch, not a finished sequence of composited frames. The
+source-frame index is supplied by an external extraction process; the worker
+verifies the index and frame bytes but does not independently prove that the
+PNG files were extracted from the registered video, so
+sourceFrameDerivationVerified remains false. Upstream mask semantics also
+remain unverified. Background reconstruction, protected-face and clothing
+compositing, automatic source-video extraction, and Resolve export remain open.
+The focused batch tests use the real PNG codec, mask decoder, and CPU pixel
+rasterizer with synthetic frames; they do not establish a local Mac/Dropbox/
+Resolve run or a render of user footage.

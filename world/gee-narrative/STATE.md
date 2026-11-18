@@ -1,6 +1,15 @@
 # GEEHUB construction state
 
-Updated: 2026-11-16
+Updated: 2026-11-18
+
+## Manifest-bound batch body-layer renderer added — 2026-11-18
+- `core/frame-batch-renderer.js` and `tools/render-growth-batch.js` add `npm run render:batch`, consuming the queued manifest, portable render job, deformation-plan bundle, source-frame index, and local Dropbox mirror.
+- The worker requires an immutable source checksum and a version-one `geehub.source-frame-index` beside the extracted PNGs. Its entries bind frame number, source timestamp, PNG basename, and actual SHA-256. The index is an external extraction assertion; the worker does not claim to prove the PNGs were derived from the source video, so `sourceFrameDerivationVerified` remains false.
+- Before creating output, it validates the manifest/job/plan bundle relationship, resolves the exact segmentation, landmark, and deformation frame sets, reads all three registered sidecars, verifies their byte checksums and sequence/range metadata, recomputes the mesh topology digest, and matches each plan's fixed vertex/triangle identities and source coordinates to the registered mesh.
+- It preflights every extracted source PNG and both registered masks against their indexed/sidecar checksums. Each frame then passes through the existing file-backed PNG decoder, binary-mask verifier, CPU triangle rasterizer, and lossless RGBA encoder. The worker writes one transparent body layer and one digest receipt per frame into a newly created output directory, then publishes `sequence.receipt.json` last.
+- A failed later frame triggers digest-checked rollback of only the files created by this batch; existing output directories are refused, and source frames, masks, plans, and registered sidecars remain read-only. The sequence receipt records all three registered sidecars, the source-frame index, the plan bundle, per-frame inputs/outputs, and complete frame accounting.
+- Seven focused batch tests exercise a two-frame real PNG/mask/rasterizer path, registered-mask tampering, sidecar tampering, source-frame digest mismatch, mid-batch rollback, existing-output preservation, and symlinked Dropbox evidence. Their GitHub Actions result is pending at this state revision.
+- Batch output is a complete set of transparent warped body layers, not complete composited frames or a video. `pixelSemanticsVerified` remains false. Background reconstruction, protected-face/clothing compositing, source-video extraction/index generation, local Mac/Dropbox runtime, and Resolve export remain unverified or unimplemented.
 
 ## File-backed single-frame body-layer worker added — 2026-11-16
 - `core/frame-file-renderer.js` adds `renderGrowthFrameFiles()`, connecting the existing bounded PNG codec and CPU pixel rasterizer to local files. It consumes one source RGB/RGBA PNG, the same-frame binary grayscale body and protected-face masks, and a serialized ready `geehub.growth-deformation-frame` plan with stable vertex/triangle identities and a topology digest.
@@ -165,7 +174,8 @@ Updated: 2026-11-16
 - Automatic person/body segmentation and face-excluding mask generation.
 - Automatic body landmark detection and confidence tracking.
 - Automatic segmentation-derived mesh triangulation and tracking from a model output; the current fixed grid is built from supplied masks.
-- A complete sequence renderer that consumes the registered plan bundle, reads extracted source frames, writes all body layers, and validates a batch receipt. The single-frame file worker and job-bound deformation-plan bundle now exist, but no source-footage loop or output sequence has been executed.
+- Automatic source-video frame extraction and generation of the source-frame index. The batch worker consumes externally extracted PNGs with a checksummed geehub.source-frame-index v1; it verifies the index and file bytes but does not independently prove extraction provenance.
+- Background reconstruction and protected-face/clothing compositing; current batch output is a transparent body layer.
 - Garment and environment response driven by measured contact and depth.
 - Automated frame import from a render worker into Resolve.
 - Final growth-video rendering and export.
@@ -173,10 +183,10 @@ Updated: 2026-11-16
 
 ## Next construction targets
 1. Connect a real segmentation and landmark producer, then independently verify anatomical correctness; the current masks remain external producer inputs.
-2. Build a batch frame worker that consumes the prepared deformation-plan bundle and extracted source PNGs, rechecks registered mask/mesh lineage, and writes a checksummed body-layer sequence without changing source footage.
-3. Composite the transformed body with protected face, clothing, and background layers; validate occlusion, silhouette stability, ground contact, and camera clearance.
-4. Add scene response and sequence validation for silhouette stability, clothing, ground contact, camera clearance, face protection, and occlusion.
-5. Return rendered frames and a checksummed video artifact to the bridge, then verify Resolve import and export behavior.
+2. Build a source-video extraction/index producer that binds extracted PNGs to the immutable source checksum and registered frame timestamps.
+3. Reconstruct the background revealed by body movement and composite the warped body with protected face and clothing layers.
+4. Add scene response and sequence validation for silhouette stability, clothing tension, ground contact, camera clearance, face protection, and occlusion.
+5. Return composited frames and a checksummed video artifact to the bridge, then verify Resolve import and export behavior.
 
 Each item changes status only when evidence exists.
 

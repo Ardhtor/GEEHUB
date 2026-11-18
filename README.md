@@ -152,18 +152,21 @@ non-interlaced 8-bit RGB/RGBA PNG buffers and writes lossless RGBA PNG buffers.
 The new `frame-file-renderer.js` is a file-backed single-frame worker: it reads
 a source PNG, same-dimension binary body/face masks, and one serialized ready
 deformation plan, then writes a new transparent body-layer PNG and adjacent
-SHA-256 receipt using exclusive creation. It refuses symlink inputs, changing
-input files, path collisions, invalid mesh identities, and existing outputs;
-if receipt publication fails, it removes only the output file created by that
-attempt. The `prepare:render` command now writes a
-`<job-id>.deformation-plans.json` bundle beside the portable job and queued
-manifest. It samples approved growth states at each registered source timestamp,
-rechecks the exact mask bytes, and records one temporally validated plan per
-frame against the registered topology. `npm run render:frame` still consumes
-one extracted source PNG and one plan; automated batch rasterization, background
-reconstruction, protected-face compositing, and video export remain open.
-This is a first deformation slice,
-not a complete compositor:
+SHA-256 receipt using exclusive creation. The `prepare:render` command writes
+a source-timestamped deformation-plan bundle beside the portable job and queued
+manifest. The new `frame-batch-renderer.js` consumes that bundle, the queued
+manifest/job, all three registered sidecars, and a checksummed
+`geehub.source-frame-index` v1 beside externally extracted PNG frames. It
+rechecks sidecar and mask bytes, matches every plan to the registered topology
+and source coordinates, hashes each extracted frame, then writes one transparent
+body layer and receipt per frame into a newly created output directory. A
+sequence receipt is published last only after every frame succeeds; a failed
+later frame removes only outputs created by that batch. The source-frame index
+is an external extraction assertion, so `sourceFrameDerivationVerified` and
+`pixelSemanticsVerified` remain false. Run `npm run render:batch` after
+preparing the bundle and extraction index. Background reconstruction,
+protected-face/clothing compositing, and finished-video export remain open.
+This is a first deformation slice, not a complete compositor:
 semantic correctness of upstream masks, perceptual jitter thresholds, clothing/depth
 response, and local source-footage rendering remain unverified. The sequence worker
 now measures per-vertex deformation velocity and acceleration against body height
@@ -181,12 +184,12 @@ the queued job. The manifest queue validator, staging courier, and Resolve Free
 inspector all cross-check that reference; staging also verifies the three
 sidecar files' actual bytes. Older v1 jobs without the additive deformation
 reference remain readable, but every new preparation requires it. `stage:bridge`
-can then deliver the bundle to the Dropbox mirror. A ready deformation
-plan can now be rasterized into one new transparent body-layer PNG with an
-adjacent digest receipt through `npm run render:frame`. This single-frame
-worker consumes an already prepared plan; it does not yet derive plans from
-the queued job, batch the registered sequence, reconstruct the background,
-composite the protected face, or export a finished video.
+can then deliver the bundle to the Dropbox mirror. A ready deformation plan can still be rasterized individually through
+`npm run render:frame`. For sequence work, `npm run render:batch` verifies the
+queued job and its three registered evidence sidecars, then writes all
+transparent body-layer PNGs and a sequence receipt into a new output directory.
+The batch does not reconstruct the background, composite the protected face or
+clothing, or export a finished video.
 Construction evidence and remaining blockers are recorded in
 [world/gee-narrative/STATE.md](world/gee-narrative/STATE.md) and
 [world/gee-narrative/CONSTRUCTION_CHRONICLE.md](world/gee-narrative/CONSTRUCTION_CHRONICLE.md).

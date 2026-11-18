@@ -3,7 +3,7 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "077e1be85ec7eea06068630fe909ec78f6e25c2c",
+  "source_blob_sha": "9a479e856746987e5dad2dfaa8989e12561684ca",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 64,
+    "completed": 65,
     "in_progress": 0,
-    "queued": 8,
+    "queued": 7,
     "empty_source": 0,
-    "next_chapter_index": 64,
-    "active_chapter_id": "book-i-lxv",
-    "last_completed_chapter_id": "book-i-lxiv"
+    "next_chapter_index": 65,
+    "active_chapter_id": "book-i-lxvi",
+    "last_completed_chapter_id": "book-i-lxv"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -1069,11 +1069,11 @@
       "baseline_word_count": 1444,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "",
-      "current_word_count": 1220
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "9a479e856746987e5dad2dfaa8989e12561684ca",
+      "notes": "Expanded in place and fetched again for full-chapter verification at 4,208 words. Develops the older road, the wooden handle's effect on orientation, the twelve fountain positions and intentional absence, the stranger's account of the opening, and the fountain's water-column of relations. Preserves Bill's distinction between connection and relation, the inscription against finishing the fountain, the small door, and the group's decision to enter the unfinished novel together while Bill remains with the metal stop. Checked against the continuation records and the next manuscript movement; all characters present are male.",
+      "current_word_count": 4208
     },
     {
       "chapter_id": "book-i-lxvi",

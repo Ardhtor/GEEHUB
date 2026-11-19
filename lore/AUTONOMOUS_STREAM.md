@@ -2285,3 +2285,11 @@ SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 298 — ATMOSPHERE / LANTERN MARKET / 2026-11-19T19:11:53.179340+00:00
+
+SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus, flowers, and rain-dark paving give the arcade its evening smell while the fountain keeps a quiet rhythm.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

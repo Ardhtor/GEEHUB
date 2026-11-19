@@ -766,3 +766,9 @@ Participants: Dan Roman, Elliot Ward, Noah Bell. Location: northgate-university.
 The common room becomes a temporary studio. A half-built model occupies the long table, a laptop plays back a rough edit, and someone is sketching a set of stairs on the back of an envelope. Each person contributes a different skill; by midnight the project has a direction.
 
 Participants: Dan Roman, Marek Ionescu, Adrian Varga, Elliot Ward. Location: founders-dormitory. Recorded: 2026-11-19T10:42:32.099448+00:00.
+
+## THE NORTHGATE MATCH — cycle 00129
+
+Students gather along the edge of the playing field for a friendly match. The teams are mixed by whoever arrived, the rules are agreed on the spot, and the best moment is a pass that nobody expected. Afterwards, both sides head toward the dining hall together.
+
+Participants: Noah Bell, Adrian Varga, Dan Roman. Location: northgate-university. Recorded: 2026-11-19T19:11:53.293775+00:00.

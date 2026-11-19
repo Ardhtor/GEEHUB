@@ -161,9 +161,7 @@ rechecks sidecar and mask bytes, matches every plan to the registered topology
 and source coordinates, hashes each extracted frame, then writes one transparent
 body layer and receipt per frame into a newly created output directory. A
 sequence receipt is published last only after every frame succeeds; a failed
-later frame removes only outputs created by that batch. The source-frame index
-is an external extraction assertion, so `sourceFrameDerivationVerified` and
-`pixelSemanticsVerified` remain false. Run `npm run render:batch` after
+later frame removes only outputs created by that batch. The extractor records ffprobe timestamps and verifies the source checksum before and after extraction; the batch renderer still reports `sourceFrameDerivationVerified: false` until it independently checks the extraction record. `pixelSemanticsVerified` remains false. Run `npm run render:batch` after
 preparing the bundle and extraction index. Background reconstruction,
 protected-face/clothing compositing, and finished-video export remain open.
 This is a first deformation slice, not a complete compositor:

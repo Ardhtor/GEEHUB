@@ -1,6 +1,16 @@
 # GEEHUB construction state
 
-Updated: 2026-11-18
+Updated: 2026-11-19
+
+## FFmpeg-backed source-frame extraction added — 2026-11-19
+- `core/source-frame-extractor.js` and `tools/extract-source-frames.js` add `npm run extract:frames`. The command consumes a local bridge manifest and a registered segmentation frame-set id, resolves the immutable source video and segmentation sidecar through the configured Dropbox root, and verifies both actual SHA-256 digests before invoking external tools.
+- The worker asks FFprobe for the selected video stream's dimensions, average frame rate, and decoded-frame presentation timestamps. It checks the registered sequence's frame range, dimensions, FPS, and per-frame timestamps against the source PTS before allowing extraction.
+- FFmpeg is invoked with argument arrays (no shell), selects exactly the registered frame-number range, and writes RGBA PNGs into a new output directory. Each output is decoded again through `rgba-png.js`, checked against registered dimensions, and hashed into `source-frame-index.json`. The index records registered `timeSeconds`, source PTS, source checksum, stream index, timestamp origin/tolerance, probed/extracted counts, and FFmpeg/FFprobe version strings.
+- The source video is hashed again after FFmpeg completes. An incomplete frame range, mismatched PTS, invalid PNG, changed source, or existing output directory blocks publication; rollback removes only digest-matching files created by the attempt. The source and registered sidecar remain read-only.
+- Seven focused tests use injected FFmpeg/FFprobe command adapters and the real PNG codec: successful two-frame extraction/index creation, immutable-source checksum mismatch, source-PTS mismatch, missing extracted frame rollback, wrong PNG dimensions, existing-output preservation, and source mutation detection. These tests verify the orchestration and PNG boundary without claiming that the external FFmpeg binaries ran.
+- The extractor's receipt marks its own source/timestamp/extraction checks complete. The existing batch renderer does not yet independently validate the new `derivation` object and therefore continues to report `sourceFrameDerivationVerified: false`; that conservative status is unchanged. `pixelSemanticsVerified` also remains false.
+- No local Mac, Dropbox mirror, Resolve session, or user footage was accessed. No actual video extraction or finished render is claimed. Background reconstruction, protected-face/clothing compositing, independent batch verification of extraction provenance, and Resolve export remain open.
+- Next: build a background-plate reconstruction/compositing contract that can preserve the protected face and original scene while receiving the transformed body layer, with explicit masks and no invented pixels outside its declared repair region.
 
 ## Manifest-bound batch body-layer renderer added — 2026-11-18
 - `core/frame-batch-renderer.js` and `tools/render-growth-batch.js` add `npm run render:batch`, consuming the queued manifest, portable render job, deformation-plan bundle, source-frame index, and local Dropbox mirror.

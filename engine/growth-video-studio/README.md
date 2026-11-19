@@ -243,6 +243,44 @@ transparent body-layer sequence with a sequence receipt. Source-video
 extraction/index production, background reconstruction, protected-face and
 clothing compositing, and video export remain open.
 
+## Source-video frame extraction
+
+`core/source-frame-extractor.js` and `tools/extract-source-frames.js` add
+`npm run extract:frames`. The command accepts a local bridge manifest, a
+registered segmentation frame-set id, and a new output directory. It resolves
+the immutable source video and checksummed segmentation sidecar beneath the
+configured Dropbox root, hashes the source bytes, and asks `ffprobe` for the
+selected video stream's frame timestamps and dimensions. Every registered
+frame number and timestamp must agree with the probed source within a quarter
+frame before extraction begins.
+
+The worker invokes `ffmpeg` without a shell, selects exactly the registered
+frame range, and writes PNGs into a newly created directory. Each PNG is
+decoded again through the Studio's bounded RGBA PNG codec and checked against
+the registered dimensions before its SHA-256 is entered into
+`source-frame-index.json`. The index preserves both the registered
+`timeSeconds` and the probed source PTS, and includes the source checksum,
+stream identity, tool versions, timestamp origin, and extraction count. The
+source is hashed again after extraction; a changed source or incomplete frame
+range rolls back only outputs created by that attempt.
+
+Run with Node 22, FFmpeg and FFprobe installed:
+
+~~~bash
+GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \
+  npm run extract:frames -- ./job.manifest.json segmentation-frame-set-id ./source-frames
+~~~
+
+The output directory must not already exist. Set `FFMPEG_PATH` or
+`FFPROBE_PATH` when the executables are not on `PATH`. The command writes a
+source-frame index ready for `render:batch`; its own receipt records a
+successful source/timestamp/extraction check. The batch renderer still reports
+`sourceFrameDerivationVerified: false` until it independently validates the
+new derivation record against the source at batch time. Synthetic adapter tests
+do not establish that FFmpeg is installed or that a local source clip has been
+processed. Background reconstruction, protected-face/clothing compositing,
+and finished-video export remain open.
+
 ## AI creative-workstation framework
 
 The studio now has a first executable layer for AI-directed construction:
@@ -276,7 +314,7 @@ The core is dependency-free JavaScript (ES modules). It can run in a browser or 
 - Slice 001: project model, state interpolation, continuity validation.
 - Slice 002: source-video ingest and frame/landmark tracking.
 - Slice 003: identity-locked body segmentation and 2D/3D correspondence.
-- Slice 004: articulated growth-landmark mapping, caller-supplied triangle warp, fixed-index mask-derived grid, checksummed topology registration, CPU pixel rasterization, file-backed single-frame output, and manifest-bound batch body-layer output; source-video extraction, background reconstruction, protected-face/clothing compositing, and export remain open.
+- Slice 004: articulated growth-landmark mapping, caller-supplied triangle warp, fixed-index mask-derived grid, checksummed topology registration, CPU pixel rasterization, file-backed single-frame output, manifest-bound batch body-layer output, and FFmpeg-backed source-frame extraction; background reconstruction, protected-face/clothing compositing, and export remain open.
 - Slice 005: complete compositing, temporal validation, Resolve assembly, and export.
 
 

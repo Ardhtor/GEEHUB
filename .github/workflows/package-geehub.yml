@@ -23,6 +23,9 @@ jobs:
         with:
           node-version: 22
 
+      - name: Set up FFmpeg and Lua 5.4
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg lua5.4
+
       - name: Run growth video core tests
         working-directory: engine/growth-video-studio
         run: |
@@ -31,9 +34,6 @@ jobs:
           node --check tools/extract-source-frames.js
           npm run prepare:render -- --help
           npm run extract:frames -- --help
-
-      - name: Set up Lua 5.4
-        run: sudo apt-get update && sudo apt-get install -y lua5.4
 
       - name: Validate Resolve Free bridge consumer
         working-directory: engine/growth-video-studio/integrations/davinci-resolve-free

@@ -171,7 +171,8 @@ function parseProbe(stdout) {
     fail("source-extract-probe-incomplete", "ffprobe did not provide a bounded video stream and frame inventory");
   }
   let timestampBasis = null;
-  const timestamps = frames.map((frame, index) => {
+  let previousTimestamp = -Infinity;
+  const timestamps = frames.map(frame => {
     const field = frame.best_effort_timestamp_time !== undefined
       ? "best_effort_timestamp_time" : "pkt_pts_time";
     if (timestampBasis && timestampBasis !== field) {
@@ -179,9 +180,10 @@ function parseProbe(stdout) {
     }
     timestampBasis = field;
     const value = Number(frame[field]);
-    if (!Number.isFinite(value) || (index > 0 && value <= timestamps[index - 1].timestampSeconds)) {
+    if (!Number.isFinite(value) || value <= previousTimestamp) {
       fail("source-extract-probe-timestamps", "ffprobe frame timestamps must be finite and strictly increasing");
     }
+    previousTimestamp = value;
     return { timestampSeconds: value, width: frame.width ?? stream.width, height: frame.height ?? stream.height };
   });
   return {

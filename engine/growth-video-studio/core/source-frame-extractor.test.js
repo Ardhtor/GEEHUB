@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
+import { execFileSync } from "node:child_process";
 import { mkdir, mkdtemp, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
@@ -195,4 +196,102 @@ test("detects source mutation during ffmpeg extraction and rolls back its output
   input.mutate();
   await assert.rejects(input.run(), error => error.code === "source-extract-source-mutated");
   await assert.rejects(readdir(input.outputDirectory), error => error.code === "ENOENT");
+});
+
+
+const hasFfmpegTools = (() => {
+  try {
+    execFileSync("ffmpeg", ["-version"], { stdio: "ignore" });
+    execFileSync("ffprobe", ["-version"], { stdio: "ignore" });
+    return true;
+  } catch {
+    return false;
+  }
+})();
+
+test("extracts a real synthetic video through FFmpeg and FFprobe", { skip: !hasFfmpegTools }, async t => {
+  const root = await mkdtemp(path.join(os.tmpdir(), "geehub-source-extract-real-"));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const dropboxRoot = path.join(root, "Dropbox");
+  const sourceDirectory = path.join(dropboxRoot, "GEEHUB", "Sources");
+  const sidecarDirectory = path.join(dropboxRoot, "GEEHUB", "FrameSets");
+  const outputDirectory = path.join(root, "extracted");
+  await Promise.all([mkdir(sourceDirectory, { recursive: true }), mkdir(sidecarDirectory, { recursive: true })]);
+
+  const sourcePath = path.join(sourceDirectory, "synthetic.mp4");
+  execFileSync("ffmpeg", [
+    "-hide_banner", "-loglevel", "error", "-f", "lavfi",
+    "-i", "color=c=blue:s=16x16:r=2:d=1", "-frames:v", "2",
+    "-c:v", "mpeg4", "-q:v", "2", sourcePath
+  ], { stdio: "pipe" });
+  const sourceBytes = await readFile(sourcePath);
+  const sourceChecksum = sha256(sourceBytes);
+  const source = {
+    id: "source-real-001",
+    name: "synthetic.mp4",
+    uri: "dropbox://GEEHUB/Sources/synthetic.mp4",
+    width: 16,
+    height: 16,
+    duration: 1,
+    checksum: sourceChecksum,
+    immutable: true
+  };
+  let manifest = createBridgeManifest({ projectId: "growth-real-extract-test", source, manifestId: "bridge-real-test" });
+  const sidecar = {
+    schema: "geehub.frame-set-evidence",
+    schemaVersion: 1,
+    role: "segmentation",
+    sourceAssetId: source.id,
+    sequenceId: "sequence-real-001",
+    firstFrame: 0,
+    lastFrame: 1,
+    frameCount: 2,
+    width: 16,
+    height: 16,
+    fps: 2,
+    pixelSemanticsVerified: false,
+    frames: [
+      { frame: 0, timeSeconds: 0, bodyMask: {}, faceMask: {} },
+      { frame: 1, timeSeconds: 0.5, bodyMask: {}, faceMask: {} }
+    ]
+  };
+  const sidecarBytes = Buffer.from(JSON.stringify(sidecar));
+  const sidecarPath = path.join(sidecarDirectory, "segmentation.json");
+  await writeFile(sidecarPath, sidecarBytes);
+  manifest = addBridgeFrameSet(manifest, {
+    id: "segmentation-real-001",
+    role: "segmentation",
+    uri: "dropbox://GEEHUB/FrameSets/segmentation.json",
+    firstFrame: 0,
+    lastFrame: 1,
+    frameCount: 2,
+    width: 16,
+    height: 16,
+    fps: 2,
+    checksum: sha256(sidecarBytes),
+    metadata: { sequenceId: "sequence-real-001" }
+  });
+  const manifestPath = path.join(root, "manifest.json");
+  await writeFile(manifestPath, JSON.stringify(manifest));
+
+  const receipt = await extractSourceFrames({
+    manifestPath,
+    segmentationFrameSetId: "segmentation-real-001",
+    outputDirectory,
+    dropboxRoot
+  });
+  assert.equal(receipt.status, "complete");
+  assert.equal(receipt.sourceFrameDerivationVerified, true);
+  assert.equal(receipt.frameCount, 2);
+  assert.equal(receipt.index.derivation.timestampBasis, "best_effort_timestamp_time");
+  assert.equal(receipt.index.frames[0].sourceTimestampSeconds, 0);
+  assert.equal(receipt.index.frames[1].sourceTimeFromOriginSeconds, 0.5);
+  for (const frame of receipt.index.frames) {
+    const bytes = await readFile(path.join(outputDirectory, frame.file));
+    assert.equal(sha256(bytes), frame.sha256);
+    const decoded = decodeRgbaPng(bytes);
+    assert.equal(decoded.width, 16);
+    assert.equal(decoded.height, 16);
+  }
+  assert.deepEqual(await readFile(sourcePath), sourceBytes);
 });

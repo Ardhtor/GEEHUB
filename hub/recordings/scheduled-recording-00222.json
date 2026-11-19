@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00222",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "common-table",
+  "position": {
+    "x": 50,
+    "y": 8,
+    "z": 0
+  },
+  "camera": {
+    "x": 50,
+    "y": 8,
+    "z": 1.7,
+    "heading": 66,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "tyler",
+    "scale": 16.66,
+    "priorScale": 16.61,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 16.66,
+    "clearance": 0.06,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE LANTERNS COME ON"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "lantern-market",
+      "name": "LANTERN MARKET"
+    },
+    {
+      "type": "region",
+      "id": "common-table",
+      "name": "THE COMMON TABLE"
+    },
+    {
+      "type": "relation",
+      "title": "THE LANTERNS COME ON"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 16.61,
+      "to": 16.66
+    },
+    {
+      "property": "location.regionId",
+      "from": "lantern-market",
+      "to": "common-table",
+      "relation": "THE LANTERNS COME ON"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0602,
+      "to": 0.06
+    }
+  ],
+  "intent": "LONG PLAY / LANTERN MARKET → THE COMMON TABLE / TYLER",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 222,
+    "previousRegionId": "lantern-market",
+    "regionId": "common-table",
+    "relation": "THE LANTERNS COME ON",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 16.61,
+    "scaleBaselineTo": 16.66
+  },
+  "timestamp": "2026-11-19T22:04:14.300Z"
+}

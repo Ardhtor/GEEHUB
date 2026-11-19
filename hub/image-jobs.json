@@ -2,6 +2,23 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-image-00222",
+      "status": "QUEUED",
+      "type": "IMAGE",
+      "sourceRecording": "./recordings/scheduled-recording-00222.json",
+      "map": "./spatial-world.json",
+      "target": "visual-synthesis",
+      "title": "LANTERN MARKET → THE COMMON TABLE / TYLER",
+      "prompt": "Continue the canonical GEEHUB world from recording scheduled-recording-00222. Travel from LANTERN MARKET into THE COMMON TABLE through the relation \"THE LANTERNS COME ON\". Preserve the inherited geography, recognizable adult male identity, face, name, and prior body baselines. Show scale increasing from 16.61× to 16.66× through body, room clearance, furniture, material response, and camera distance. One in-world scene frame, not a poster, not a reset.",
+      "created": "2026-11-19T22:04:14.300Z",
+      "lineage": {
+        "from": "lantern-market",
+        "to": "common-table",
+        "relation": "THE LANTERNS COME ON",
+        "cycle": 222
+      }
+    },
+    {
       "id": "scheduled-image-00221",
       "status": "QUEUED",
       "type": "IMAGE",
@@ -3353,17 +3370,6 @@
       "title": "DISCOVERY / LONG PLAY / ANDREW",
       "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00023. Preserve region discovery and inherited geography. Adult male human subject andrew at 3.94x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
       "created": "2026-10-10T11:19:11.226Z"
-    },
-    {
-      "id": "scheduled-image-00022",
-      "status": "QUEUED",
-      "type": "IMAGE",
-      "sourceRecording": "./recordings/scheduled-recording-00022.json",
-      "map": "./spatial-world.json",
-      "target": "visual-synthesis",
-      "title": "MUSCLE MYTH / LONG PLAY / TYLER",
-      "prompt": "Render the canonical GEEHUB world from recording scheduled-recording-00022. Preserve region muscle-myth and inherited geography. Adult male human subject tyler at 3.86x scale. Show accumulated environmental response, camera retreat, clearance, furniture and architecture adapting to scale. This is one frame of a persistent world, not a reset and not a poster.",
-      "created": "2026-10-10T05:15:11.253Z"
     }
   ]
 }

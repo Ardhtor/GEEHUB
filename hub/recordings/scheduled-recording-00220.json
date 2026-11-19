@@ -1,0 +1,79 @@
+{
+  "id": "scheduled-recording-00220",
+  "map": "geehub-persistent-spatial-world",
+  "regionId": "bluewater-quay",
+  "position": {
+    "x": 91,
+    "y": 72,
+    "z": 0
+  },
+  "camera": {
+    "x": 91,
+    "y": 72,
+    "z": 1.7,
+    "heading": 20,
+    "pitch": 0,
+    "fov": 50
+  },
+  "subject": {
+    "agent": "chase",
+    "scale": 16.58,
+    "priorScale": 16.54,
+    "identityContinuity": true
+  },
+  "environment": {
+    "occupancy": 16.58,
+    "clearance": 0.0603,
+    "dominantMaterials": [],
+    "lighting": "inherited",
+    "sound": "inherited",
+    "pressure": 1,
+    "relation": "THE WATER OPENS THE VIEW"
+  },
+  "anchors": [
+    {
+      "type": "region",
+      "id": "lantern-market",
+      "name": "LANTERN MARKET"
+    },
+    {
+      "type": "region",
+      "id": "bluewater-quay",
+      "name": "BLUEWATER QUAY"
+    },
+    {
+      "type": "relation",
+      "title": "THE WATER OPENS THE VIEW"
+    }
+  ],
+  "deltas": [
+    {
+      "property": "subject.scale",
+      "from": 16.54,
+      "to": 16.58
+    },
+    {
+      "property": "location.regionId",
+      "from": "lantern-market",
+      "to": "bluewater-quay",
+      "relation": "THE WATER OPENS THE VIEW"
+    },
+    {
+      "property": "environment.clearance",
+      "from": 0.0605,
+      "to": 0.0603
+    }
+  ],
+  "intent": "LONG PLAY / LANTERN MARKET → BLUEWATER QUAY / CHASE",
+  "lineage": {
+    "session": "geehub-long-play-state",
+    "cycle": 220,
+    "previousRegionId": "lantern-market",
+    "regionId": "bluewater-quay",
+    "relation": "THE WATER OPENS THE VIEW",
+    "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+    "scaleBaselineFrom": 16.54,
+    "scaleBaselineTo": 16.58
+  },
+  "timestamp": "2026-11-19T04:32:47.779Z"
+}

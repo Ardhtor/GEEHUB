@@ -328,11 +328,16 @@ export async function extractSourceFrames({
     if (!sourceFrame || sourceFrame.width !== frameSet.width || sourceFrame.height !== frameSet.height) {
       fail("source-extract-source-frame-format", "Probed source frame format differs at frame " + frame.frame);
     }
-    const sourceTimestampSeconds = sourceFrame.timestampSeconds - timestampOriginSeconds;
-    if (Math.abs(sourceTimestampSeconds - frame.timeSeconds) > tolerance) {
+    const sourceTimeFromOriginSeconds = sourceFrame.timestampSeconds - timestampOriginSeconds;
+    if (Math.abs(sourceTimeFromOriginSeconds - frame.timeSeconds) > tolerance) {
       fail("source-extract-timestamp-mismatch", "Source PTS does not match registered time at frame " + frame.frame);
     }
-    return { frame: frame.frame, timeSeconds: frame.timeSeconds, sourceTimestampSeconds };
+    return {
+      frame: frame.frame,
+      timeSeconds: frame.timeSeconds,
+      sourceTimestampSeconds: sourceFrame.timestampSeconds,
+      sourceTimeFromOriginSeconds
+    };
   });
 
   const ffmpegVersionResult = await executeTool(execute, ffmpegPath, ["-version"], {}, "ffmpeg version");

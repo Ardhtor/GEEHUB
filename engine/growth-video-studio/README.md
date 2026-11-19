@@ -239,7 +239,7 @@ publication; the job and plan files are removed if the final manifest cannot
 be written. The bundle is a plan artifact, not rendered imagery. `render:frame`
 consumes one extracted source PNG and one frame plan; `render:batch` now
 consumes the bundle and a checksummed source-frame index to write the complete
-transparent body-layer sequence with a sequence receipt. Background reconstruction, protected-face and clothing compositing, and video export remain open. The FFmpeg-backed source-frame extraction/index worker is implemented, but its external binary runtime has not yet been exercised against a local source clip.
+transparent body-layer sequence with a sequence receipt. Background reconstruction, protected-face and clothing compositing, and video export remain open. The FFmpeg-backed source-frame extraction/index worker is implemented and exercised in CI against a synthetic two-frame MP4; local user footage, Dropbox, and Resolve runtime remain unverified.
 
 ## Source-video frame extraction
 
@@ -274,10 +274,11 @@ The output directory must not already exist. Set `FFMPEG_PATH` or
 source-frame index ready for `render:batch`; its own receipt records a
 successful source/timestamp/extraction check. The batch renderer still reports
 `sourceFrameDerivationVerified: false` until it independently validates the
-new derivation record against the source at batch time. Synthetic adapter tests
-do not establish that FFmpeg is installed or that a local source clip has been
-processed. Background reconstruction, protected-face/clothing compositing,
-and finished-video export remain open.
+new derivation record against the source at batch time. Seven adapter tests and
+one integration test run in the package workflow. CI installs FFmpeg/FFprobe
+and extracts a synthetic two-frame MP4 through the real binaries; this verifies
+the tool boundary, not a local user clip. Background reconstruction,
+protected-face/clothing compositing, and finished-video export remain open.
 
 ## AI creative-workstation framework
 

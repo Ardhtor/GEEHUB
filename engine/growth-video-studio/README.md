@@ -239,9 +239,7 @@ publication; the job and plan files are removed if the final manifest cannot
 be written. The bundle is a plan artifact, not rendered imagery. `render:frame`
 consumes one extracted source PNG and one frame plan; `render:batch` now
 consumes the bundle and a checksummed source-frame index to write the complete
-transparent body-layer sequence with a sequence receipt. Source-video
-extraction/index production, background reconstruction, protected-face and
-clothing compositing, and video export remain open.
+transparent body-layer sequence with a sequence receipt. Background reconstruction, protected-face and clothing compositing, and video export remain open. The FFmpeg-backed source-frame extraction/index worker is implemented, but its external binary runtime has not yet been exercised against a local source clip.
 
 ## Source-video frame extraction
 

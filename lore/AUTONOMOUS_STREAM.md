@@ -2277,3 +2277,11 @@ SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 297 — ATMOSPHERE / BLUEWATER QUAY / 2026-11-19T10:42:31.991247+00:00
+
+SETH: The reservoir holds a wide silver reflection beneath the cloud. Reeds move at the edge of the promenade, and the tea room windows glow beside the old wooden landing.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

@@ -412,6 +412,7 @@ export async function extractSourceFrames({
         frame: selectedFrame.frame,
         timeSeconds: selectedFrame.timeSeconds,
         sourceTimestampSeconds: selectedFrame.sourceTimestampSeconds,
+        sourceTimeFromOriginSeconds: selectedFrame.sourceTimeFromOriginSeconds,
         file,
         sha256: digest
       });

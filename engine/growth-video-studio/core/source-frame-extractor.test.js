@@ -138,7 +138,7 @@ test("extracts the registered source range and writes a checksummed index", asyn
   assert.equal(receipt.frameCount, 2);
   assert.equal(receipt.sourceFrameDerivationVerified, true);
   assert.equal(receipt.sourceUnmodified, true);
-  assert.equal(receipt.index.derivation.sourceTimestampOriginSeconds, 4);
+  assert.equal(receipt.index.derivation.timestampOriginSeconds, 4);
   assert.equal(receipt.index.frames[1].sourceTimestampSeconds, 4.5);
   assert.equal(receipt.index.frames[1].timeSeconds, 0.5);
   const indexBytes = await readFile(receipt.indexPath);

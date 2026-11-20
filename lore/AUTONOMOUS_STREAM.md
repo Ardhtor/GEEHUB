@@ -2293,3 +2293,11 @@ SETH: The lanterns come on beneath the timber-and-glass roof. Warm bread, citrus
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 299 — ATMOSPHERE / THE COMMON TABLE / 2026-11-20T01:19:49.828198+00:00
+
+SETH: Fresh bread is cooling at the end of the oak table. Soup, roasted vegetables, fruit, and water are set out beneath the high windows, with the courtyard doors open to the evening air.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

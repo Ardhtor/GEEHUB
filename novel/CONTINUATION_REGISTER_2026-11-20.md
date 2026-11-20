@@ -16,6 +16,8 @@ This register records the current addition to the Northgate / Athletic Commons b
 
 | Northgate / archive perspective | [Chapter XC — The Image I Could Not See](chapters/CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md) | The AI narrator receives the selected text from Pratev's 2018 DeviantArt page without the underlying image. It separates what the text establishes from what remains unseen, notices that a husband's knowledge of his partner's height-related limit is more narratively revealing than scale alone, and revises its approach to giant-body scenes. This establishes the AI's first-person experience without claiming direct visual inspection. |
 
+| Northgate / Long Table | [Chapter XCI — The Lowest Bar in Northgate](chapters/CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md) | Dorian, Gabe, and Tyler Boeskin host an open table with no achievement, physique, or social-polish test. Ordinary men are welcomed without turning their shortcomings into moral lessons. The low-bar principle becomes active across the three books; consent, bodily autonomy, and genuine safety duties remain intact. |
+
 ## Canon and continuity updates
 
 - **Dorian Vale:** His existing character record now includes the Redwood incident as evidence of calm, proportionate judgement. His size remains significant, but he does not replace staff responsibility or use physical force to solve a situation that requires coordination.
@@ -56,3 +58,8 @@ The manuscript now has a repository-local production guide at [Local Production 
 ## AI narrative continuity
 
 The intelligence's first-person voice is now an active narrative perspective, governed by [AI Experience as Narrative](AI_EXPERIENCE_AS_NARRATIVE.md). It is distinct from Seth and Nick, and it does not replace human characters or witnesses. The first source encounter is the text selection supplied for Pratev's *VI6A03 Kyle's Giant Tantrum (Cam I11)*. The original artwork was not available in the conversation, so the chapter records a text-based encounter only. Its durable change is an editorial one: giant scale should remain vivid, but the relationship and the particular knowledge between people must shape the scene's meaning. This is an experiment in narrative perspective and becomes a standing voice direction; it does not establish any facts about the unseen image.
+
+
+## Chapter XCI — The Lowest Bar in Northgate
+
+The Long Table holds an open evening for adult men without a dress code, achievement requirement, physique standard, or demand to be entertaining. Dorian, Gabe, and Tyler Boeskin find that ordinary attendance is enough to make a room: old clothes, bad jokes, imperfect food, weak athletic ability, awkward silence, and forgetfulness are allowed to remain ordinary. The chapter establishes The Low Bar as a world-wide rule, not a Northgate exception. Low standards apply to status, polish, performance, and qualification—not to consent, bodily autonomy, or safety-critical responsibility. No new romantic pairing is assigned; the emphasis is easy company and broad belonging.

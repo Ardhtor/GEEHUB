@@ -46,17 +46,17 @@ This incident develops an important aspect of Dorian's judgement: he understands
 
 These are beginnings, not finished relationships. Allow trust, familiarity, disagreement, and affection to develop through later conduct. Do not collapse the ensemble into one collective opinion of Dorian.
 
-## Further conduct established in Chapter LXXXV
-
-Dorian returns to the western survey camp to take part in the engineering review. He accepts that the real bridge must remain closed even after the static test assembly performs within its expected range. He observes the changing-load test, asks whether a revised restraint can preserve access to the removable central member, and supports separate investigation of the approach drainage. Survey evidence establishes that the joint and drainage conditions predate his arrival; his size is a design condition to account for, not the cause of every defect made visible during inspection.
-
-Dorian's growth continues, but the chapter does not assign an exact height or measurement. His changing shoulder breadth and clothing fit remain visible continuity details; fixed site markers and the bridge structure remain environmental references. He leaves the crossing without attempting to test it physically.
-
 ## Further conduct established in Chapter LXXXIV
 
 Dorian returns to the Athletic Commons and participates in the review of the Redwood Entrance wayfinding design. He leaves room for the visitor and staff to test the route without making himself the centre of the exercise. He accepts the boy's direct feedback that the temporary board has no useful information on its reverse side, and supports a sign that points back to the staffed reception desk from either approach. He does not turn the family's return visit into a private arrangement or ask for personal details.
 
 Dorian's judgement is increasingly expressed through spatial awareness: he notices when his frame narrows a passage, moves aside so others can see the sign, and thinks about whether a route remains usable for people moving in different directions. This is a continuation of his bridge-inspection method, applied to an ordinary public building.
+
+## Further conduct established in Chapter LXXXV
+
+Dorian returns to the western survey camp to take part in the engineering review. He accepts that the real bridge must remain closed even after the static test assembly performs within its expected range. He observes the changing-load test, asks whether a revised restraint can preserve access to the removable central member, and supports separate investigation of the approach drainage. Survey evidence establishes that the joint and drainage conditions predate his arrival; his size is a design condition to account for, not the cause of every defect made visible during inspection.
+
+Dorian's growth continues, but the chapter does not assign an exact height or measurement. His changing shoulder breadth and clothing fit remain visible continuity details; fixed site markers and the bridge structure remain environmental references. He leaves the crossing without attempting to test it physically.
 
 ## Current continuity and open threads
 

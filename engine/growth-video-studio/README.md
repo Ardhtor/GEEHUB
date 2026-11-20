@@ -280,7 +280,9 @@ with that fresh source decode, not merely the PNG's declared checksum. The
 sequence receipt sets `sourceFrameDerivationVerified` and
 `sourceFramePixelsRevalidated` only after the source hash, PTS inventory, and
 all frame pixels agree. FFmpeg/FFprobe must therefore be available during
-`render:batch` as well as extraction. This independently verifies source
+`render:batch` as well as extraction; set `FFMPEG_PATH` and `FFPROBE_PATH`
+when their executables are not on `PATH`. The CLI forwards those overrides to
+the independent verifier. This independently verifies source
 derivation; it does not establish that the upstream body/face masks are
 anatomically correct, so `pixelSemanticsVerified` remains false. The package
 workflow exercises the adapter checks and a real synthetic-video path.

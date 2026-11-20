@@ -1930,5 +1930,27 @@
       "institute-of-becoming",
       "vision-workspace"
     ]
+  },
+  {
+    "id": "nothing-personal-sign",
+    "name": "NOTHING PERSONAL — Monument Sign",
+    "group": "visual-artifact",
+    "status": "incubating",
+    "summary": "Scalable digital concept for the Confluence's monumental timber portal sign, with blue-green illuminated lettering and a proposed Exchange Hall approach placement.",
+    "path": "../assets/signs/NOTHING_PERSONAL_SIGN.svg",
+    "tags": [
+      "signage",
+      "landmark",
+      "visual-design",
+      "confluence",
+      "redwood",
+      "svg"
+    ],
+    "related": [
+      "confluence-growth-pass-2026-11-20",
+      "confluence-expansion",
+      "sequoia-woodlands",
+      "vision-workspace"
+    ]
   }
 ]

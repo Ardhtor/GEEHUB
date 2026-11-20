@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">NOTHING PERSONAL — Confluence landmark sign</title>
+  <desc id="desc">A monumental blue-green illuminated sign in a heavy cedar frame, set before a redwood campus plaza.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#182b31"/><stop offset=".62" stop-color="#526c68"/><stop offset="1" stop-color="#b4b5a0"/></linearGradient>
+    <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#59645a"/><stop offset="1" stop-color="#202d2c"/></linearGradient>
+    <linearGradient id="wood" x2="1" y2="1"><stop stop-color="#694b35"/><stop offset=".48" stop-color="#34291f"/><stop offset="1" stop-color="#76543a"/></linearGradient>
+    <linearGradient id="steel" x2="0" y2="1"><stop stop-color="#82938d"/><stop offset=".5" stop-color="#26383a"/><stop offset="1" stop-color="#111e22"/></linearGradient>
+    <linearGradient id="letter" x2="0" y2="1"><stop stop-color="#c5f7e8"/><stop offset=".42" stop-color="#4ed5bd"/><stop offset="1" stop-color="#1a827f"/></linearGradient>
+    <filter id="glow" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="13" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="18"/></filter>
+    <pattern id="grain" width="140" height="24" patternUnits="userSpaceOnUse"><path d="M0 8 C35 2 70 15 140 6 M0 19 C50 12 92 25 140 17" fill="none" stroke="#c18b5d" stroke-opacity=".18" stroke-width="2"/></pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <path d="M0 490 Q220 390 410 480 T820 455 T1220 440 T1600 470 V1000 H0Z" fill="#263c37" opacity=".72"/>
+  <g fill="#172a27">
+    <path d="M70 620 L110 110 L150 620Z"/><path d="M190 620 L235 45 L280 620Z"/><path d="M1320 620 L1360 20 L1400 620Z"/><path d="M1450 620 L1490 100 L1530 620Z"/>
+  </g>
+  <g stroke="#9eaa91" stroke-opacity=".2" fill="none">
+    <path d="M110 140 Q-10 90 0 40 M110 220 Q20 180 0 150 M235 110 Q340 40 390 20 M1360 110 Q1250 45 1210 0 M1490 170 Q1570 120 1600 70" stroke-width="22"/>
+  </g>
+  <path d="M0 650 Q400 590 800 650 T1600 620 V1000 H0Z" fill="url(#ground)"/>
+  <g opacity=".35" stroke="#c2c0a5" fill="none">
+    <path d="M0 800 L1600 690 M0 930 L1600 800 M240 1000 L700 650 M920 1000 L1120 640 M1300 1000 L1450 650" stroke-width="3"/>
+  </g>
+  <ellipse cx="800" cy="820" rx="550" ry="72" fill="#071211" opacity=".55" filter="url(#shadow)"/>
+  <!-- monumental timber portal -->
+  <g>
+    <path d="M300 300 H1300 V770 H300Z" fill="#111c1b" opacity=".35"/>
+    <path d="M285 270 H1315 V330 H285Z" fill="url(#wood)" stroke="#a77b54" stroke-width="5"/>
+    <path d="M315 330 H385 V810 H315Z" fill="url(#wood)" stroke="#a77b54" stroke-width="5"/>
+    <path d="M1215 330 H1285 V810 H1215Z" fill="url(#wood)" stroke="#a77b54" stroke-width="5"/>
+    <path d="M285 270 H1315 V330 H285Z M315 330 H385 V810 H315Z M1215 330 H1285 V810 H1215Z" fill="url(#grain)"/>
+    <path d="M270 245 H1330 V278 H270Z" fill="url(#steel)" stroke="#9aa9a1" stroke-opacity=".5" stroke-width="3"/>
+    <path d="M330 810 H370 V875 H330Z M1230 810 H1270 V875 H1230Z" fill="url(#steel)"/>
+    <path d="M390 360 H1210 V720 H390Z" fill="#101e20" stroke="#71877e" stroke-width="7"/>
+    <path d="M410 380 H1190 V700 H410Z" fill="#172c2d" stroke="#365b58" stroke-width="3"/>
+    <path d="M410 380 H1190 V700 H410Z" fill="url(#grain)" opacity=".22"/>
+    <rect x="435" y="404" width="730" height="272" rx="4" fill="#0b171a" stroke="#436b66" stroke-width="3"/>
+    <rect x="447" y="416" width="706" height="248" fill="none" stroke="#6da69a" stroke-opacity=".45" stroke-width="2"/>
+    <text x="800" y="520" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="93" font-weight="800" letter-spacing="5" fill="url(#letter)" filter="url(#glow)">NOTHING</text>
+    <text x="800" y="620" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="93" font-weight="800" letter-spacing="5" fill="url(#letter)" filter="url(#glow)">PERSONAL</text>
+    <path d="M465 690 H1135" stroke="#70c9b5" stroke-opacity=".55" stroke-width="3"/>
+    <g fill="#a4c8b8"><circle cx="460" cy="350" r="5"/><circle cx="1140" cy="350" r="5"/><circle cx="350" cy="300" r="5"/><circle cx="1250" cy="300" r="5"/></g>
+  </g>
+  <g fill="#152421" opacity=".8"><path d="M0 720 Q80 680 160 720 L160 1000 H0Z"/><path d="M1450 730 Q1530 675 1600 730 V1000 H1450Z"/></g>
+  <g fill="#d5d0b9" opacity=".12"><path d="M0 900 Q450 840 800 900 T1600 880 V1000 H0Z"/></g>
+  <path d="M250 875 H1350" stroke="#a6b1a1" stroke-opacity=".45" stroke-width="4"/>
+  <path d="M280 888 H1320" stroke="#101a19" stroke-width="12" opacity=".65"/>
+</svg>

@@ -79,4 +79,5 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 ## Current continuation
 
 - [Chapter LXXXIII — The Boy at the Redwood Entrance](./chapters/CHAPTER_LXXXIII_THE_BOY_AT_THE_REDWOOD_ENTRANCE.md) — Dorian Vale's return to Northgate and the visitor-separation incident at the Redwood Entrance.
+- [Chapter LXXXIV — The Sign That Faces Both Ways](./chapters/CHAPTER_LXXXIV_THE_SIGN_THAT_FACES_BOTH_WAYS.md) — the permanent wayfinding design is tested with visitors, while Dorian and Gabe become more familiar.
 - [Continuation Register — 2026-11-20](./CONTINUATION_REGISTER_2026-11-20.md) — current continuity updates and open campus-safety work.

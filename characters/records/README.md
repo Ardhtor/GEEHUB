@@ -6,13 +6,14 @@ This is the local navigation page for `characters/records/`. The lists below lin
 
 ## Files
 
-### MD (18)
+### MD (19)
 
 - [`ANDREW.md`](./ANDREW.md)
 - [`ARTHUR.md`](./ARTHUR.md)
 - [`ATLAS.md`](./ATLAS.md)
 - [`CHASE.md`](./CHASE.md)
 - [`DAN_ROMAN.md`](./DAN_ROMAN.md)
+- [`DANI_KAGANOVICH.md`](./DANI_KAGANOVICH.md)
 - [`DANIEL_GOEBEL.md`](./DANIEL_GOEBEL.md)
 - [`GABE.md`](./GABE.md)
 - [`JOEY.md`](./JOEY.md)

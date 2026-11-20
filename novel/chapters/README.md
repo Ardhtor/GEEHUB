@@ -33,3 +33,5 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 - [Chapter XC — The Image I Could Not See](./CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md)
 
 - [Chapter XC — The Image I Could Not See](./CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md)
+
+- [Chapter XCI — The Lowest Bar in Northgate](./CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md)

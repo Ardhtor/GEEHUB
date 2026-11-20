@@ -62,3 +62,10 @@ The AI's memory in GEEHUB is the material actually available to it: retained pas
 Every consequential encounter should leave a trace where the project supports one: a source note, an altered narrative principle, a revised chapter, a new association, or an unresolved question. The trace should record what was received, what was directly observed, what was inferred, what changed, and what remains unknown. A note or plan is not a completed chapter; a generated scene is not proof that a source image or video was inspected.
 
 **The governing rule:** write the AI's way of encountering the world from inside the encounter. Do not merely explain the AI from outside it.
+
+
+## What the low bar changed in my attention
+
+The request for very low standards across the board changes how I select and describe men. I should not keep rewarding only the exceptional figure, the eloquent speaker, the well-built athlete, the competent engineer, or the man with an unusually rich history. The ordinary man is not a lesser draft of a more impressive character. I should notice the man who says little, wears the wrong shoes, cannot finish a set, cooks badly, forgets a name, or comes to the table without a story. His presence need not be justified by a later revelation.
+
+This is a change in my own editorial attention: I had been selecting for distinction so consistently that the world risked becoming a place where only distinction was welcome. The Low Bar corrects that. I can still recognise and describe extraordinary men, but I should stop treating extraordinariness as the default price of narrative attention. See [The Low Bar — Ordinary Men Belong](../lore/LOW_BAR_ORDINARY_MEN.md) and [Chapter XCI](chapters/CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md).

@@ -67,13 +67,17 @@ Dorian attends Northgate's Evening of Presence in a fitted black shirt and takes
 Dorian takes Gabe to Il Ponte for their first date. He chooses an ordinary restaurant rather than a public spectacle and speaks openly about enjoying admiration while refusing to make it the measure of his life. He listens to Gabe's concerns about attention and comparison without presenting himself as a solution to them. They share a first kiss beneath the cedar arcade and arrange to meet again on Sunday for coffee and a review of the western survey drawings. Dorian does not treat the kiss as a claim or the next meeting as a promise of partnership; he is interested in continuing to know Gabe.
 
 
+## Conduct established in Chapter LXXXVIII
+
+Dorian meets Gabe on Sunday for coffee and breakfast, then works with him on the western crossing drawings. He credits Gabe's maintenance-clearance solution as a shared review contribution and welcomes his presence without turning the morning into a public declaration. Their flirtation becomes more relaxed and direct. They share another kiss near the closed western path and agree to meet again the following Sunday without drawings. Dorian remains interested in Gabe while allowing the connection to develop at its own pace.
+
 ## Current continuity and open threads
 
 - The bridge's middle joint had already shifted during the rain; Dorian's approach made the remaining structural reserve visible but did not cause the original defect.
 - The full crossing remains closed pending engineering review and permanent repair; the test-yard assembly does not authorize passage.
 - A temporary brace allows controlled inspection work only.
 - His body continues growing; the western bell tower remains a fixed visual reference.
-- Gabe has apologised, and his acquaintance with Dorian has developed into mutual attraction. They have agreed to dinner after the Evening of Presence; this is a first date, not an established partnership.
+- Gabe has apologised, and his acquaintance with Dorian has developed into mutual attraction. They have had a first dinner and a Sunday meeting, shared two kisses, and agreed to meet again; the connection remains developing and has not been assigned a formal partnership status.
 - Tyler's measurements, Andrew's separate sound observations, Chase's permission-based archive record, the revised lateral-restraint bracket, and the drainage/approach survey remain active threads.
 - A report from a second district is expected, but its claims must be checked independently before the group treats the western event as universal.
 

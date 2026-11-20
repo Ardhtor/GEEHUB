@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { deflateSync } from "node:zlib";
 import {
@@ -10,6 +11,7 @@ import path from "node:path";
 import { createBridgeManifest, addBridgeFrameSet, queueBridgeRenderJob } from "./bridge-manifest.js";
 import { encodeRgbaPng, decodeRgbaPng } from "./rgba-png.js";
 import { renderGrowthFrameBatchFiles } from "./frame-batch-renderer.js";
+import { extractSourceFrames } from "./source-frame-extractor.js";
 
 const SIGNATURE = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
 const sha256 = value => createHash("sha256").update(value).digest("hex");
@@ -136,17 +138,19 @@ async function fixture(t) {
     mkdir(bundleDirectory)
   ]);
 
-  const sourceChecksum = sha256(Buffer.from("immutable-source-video"));
+  const sourceVideoBytes = Buffer.from("immutable-source-video");
+  const sourceChecksum = sha256(sourceVideoBytes);
   const source = {
     id: "source-asset-1",
-    name: "portrait-source.mov",
-    uri: "dropbox://GEEHUB/Sources/portrait-source.mov",
+    name: "portrait-source.mp4",
+    uri: "dropbox://GEEHUB/Sources/portrait-source.mp4",
     duration: 1,
     width: 8,
     height: 8,
     checksum: sourceChecksum,
     immutable: true
   };
+  const sourcePath = await putDropbox(dropboxRoot, source.uri, sourceVideoBytes);
   const sequenceId = "sequence-001";
   const geometry = makeGeometry();
   const times = [0, 0.5];
@@ -156,6 +160,7 @@ async function fixture(t) {
   const meshFrames = [];
   const sourceFrames = [];
   const sourceBytes = [];
+  let secondProbeTimestamp = 4.5;
 
   for (let index = 0; index < 2; index += 1) {
     const frame = index;
@@ -204,7 +209,12 @@ async function fixture(t) {
     const file = "frame-" + frame + ".png";
     await writeFile(path.join(sourceDirectory, file), bytes, { flag: "wx" });
     sourceFrames.push({
-      frame, timeSeconds: times[index], file, sha256: sha256(bytes)
+      frame,
+      timeSeconds: times[index],
+      sourceTimestampSeconds: 4 + times[index],
+      sourceTimeFromOriginSeconds: times[index],
+      file,
+      sha256: sha256(bytes)
     });
   }
 
@@ -386,6 +396,23 @@ async function fixture(t) {
     firstFrame: 0,
     lastFrame: 1,
     format: { width: 8, height: 8, fps: 2, frameCount: 2 },
+    derivation: {
+      schema: "geehub.source-frame-extraction",
+      schemaVersion: 1,
+      method: "ffmpeg-image2-png",
+      sourceUri: source.uri,
+      sourceChecksum,
+      streamIndex: 0,
+      avgFrameRate: "2/1",
+      timestampBasis: "best_effort_timestamp_time",
+      timestampOriginSeconds: 4,
+      timestampToleranceSeconds: 0.125,
+      probedFrameCount: 2,
+      extractedFrameCount: 2,
+      ffmpegVersion: "ffmpeg version fixture",
+      ffprobeVersion: "ffprobe version fixture",
+      sourceUnchangedAfterExtraction: true
+    },
     frames: sourceFrames
   };
 
@@ -400,15 +427,47 @@ async function fixture(t) {
     writeFile(sourceFrameIndexPath, JSON.stringify(sourceFrameIndex, null, 2) + "\n", { flag: "wx" })
   ]);
 
+  const execute = async (binary, args) => {
+    if (binary === "ffmpeg" && args[0] === "-version") {
+      return { stdout: "ffmpeg version fixture\n", stderr: "" };
+    }
+    if (binary === "ffprobe" && args[0] === "-version") {
+      return { stdout: "ffprobe version fixture\n", stderr: "" };
+    }
+    if (binary === "ffprobe") {
+      return {
+        stdout: JSON.stringify({
+          streams: [{ index: 0, width: 8, height: 8, avg_frame_rate: "2/1" }],
+          frames: [
+            { best_effort_timestamp_time: "4", width: 8, height: 8 },
+            { best_effort_timestamp_time: String(secondProbeTimestamp), width: 8, height: 8 }
+          ]
+        }),
+        stderr: ""
+      };
+    }
+    if (binary === "ffmpeg") {
+      const pattern = args.at(-1);
+      for (let offset = 0; offset < sourceBytes.length; offset += 1) {
+        const file = "frame-" + String(offset).padStart(9, "0") + ".png";
+        await writeFile(path.join(path.dirname(pattern), file), sourceBytes[offset], { flag: "wx" });
+      }
+      return { stdout: "", stderr: "" };
+    }
+    throw new Error("Unexpected verification tool: " + binary);
+  };
+
   return {
-    root, dropboxRoot, sourceDirectory, bundleDirectory,
+    root, dropboxRoot, sourceDirectory, bundleDirectory, sourcePath, sourceVideoBytes,
     manifestPath, renderJobPath, deformationPlansPath, sourceFrameIndexPath,
     outputDirectory: path.join(root, "rendered-body-layers"),
     sourceFramePaths: sourceFrames.map(frame => path.join(sourceDirectory, frame.file)),
     sourceBytes, masks, segmentationUri, bodyMaskUri: segmentationFrames[0].bodyMask.uri,
+    setSecondProbeTimestamp: value => { secondProbeTimestamp = value; },
+    execute,
     render: () => renderGrowthFrameBatchFiles({
       manifestPath, renderJobPath, deformationPlansPath, sourceFrameIndexPath,
-      outputDirectory: path.join(root, "rendered-body-layers"), dropboxRoot
+      outputDirectory: path.join(root, "rendered-body-layers"), dropboxRoot, execute
     })
   };
 }
@@ -421,7 +480,10 @@ test("renders every registered frame and publishes a sequence receipt last", asy
   assert.equal(result.frameCount, 2);
   assert.equal(result.allFramesAccountedFor, true);
   assert.equal(result.sourceFramesUnmodified, true);
-  assert.equal(result.sourceFrameDerivationVerified, false);
+  assert.equal(result.sourceFrameDerivationVerified, true);
+  assert.equal(result.sourceFramePixelsRevalidated, true);
+  assert.equal(result.sourceFrameDerivationVerification.status, "verified");
+  assert.equal(result.sourceFrameDerivationVerification.pixelMatchedFrameCount, 2);
   assert.equal(result.pixelSemanticsVerified, false);
   assert.equal(result.frames.length, 2);
   assert.equal(result.frames[0].frame, 0);
@@ -443,6 +505,40 @@ test("renders every registered frame and publishes a sequence receipt last", asy
     assert.deepEqual(await readFile(input.sourceFramePaths[index]), input.sourceBytes[index]);
   }
   assert.equal((await readdir(input.outputDirectory)).length, 5);
+});
+
+test("rejects a source-frame index without its extraction derivation record", async t => {
+  const input = await fixture(t);
+  const index = JSON.parse(await readFile(input.sourceFrameIndexPath, "utf8"));
+  delete index.derivation;
+  await writeFile(input.sourceFrameIndexPath, JSON.stringify(index, null, 2) + "\n");
+  await assert.rejects(input.render(), error => error.code === "batch-source-frame-derivation-invalid");
+  await assert.rejects(readdir(input.outputDirectory), error => error.code === "ENOENT");
+});
+
+test("rehashes the immutable source video before trusting its extraction index", async t => {
+  const input = await fixture(t);
+  await writeFile(input.sourcePath, Buffer.from("changed source video"));
+  await assert.rejects(input.render(), error => error.code === "batch-source-video-checksum-mismatch");
+  await assert.rejects(readdir(input.outputDirectory), error => error.code === "ENOENT");
+});
+
+test("compares the extraction index timestamps with a fresh ffprobe inventory", async t => {
+  const input = await fixture(t);
+  input.setSecondProbeTimestamp(4.7);
+  await assert.rejects(input.render(), error => error.code === "batch-source-frame-probe-mismatch");
+  await assert.rejects(readdir(input.outputDirectory), error => error.code === "ENOENT");
+});
+
+test("rejects a rehashed source PNG whose pixels differ from the immutable video", async t => {
+  const input = await fixture(t);
+  const changed = makeSource(99);
+  await writeFile(input.sourceFramePaths[0], changed);
+  const index = JSON.parse(await readFile(input.sourceFrameIndexPath, "utf8"));
+  index.frames[0].sha256 = sha256(changed);
+  await writeFile(input.sourceFrameIndexPath, JSON.stringify(index, null, 2) + "\n");
+  await assert.rejects(input.render(), error => error.code === "batch-source-frame-pixel-mismatch");
+  await assert.rejects(readdir(input.outputDirectory), error => error.code === "ENOENT");
 });
 
 test("rejects a changed registered mask before creating the output directory", async t => {
@@ -530,3 +626,57 @@ test("rejects a plan bundle that names different growth-state lineage from its r
   await assert.rejects(input.render(), error => error.code === "batch-plan-growth-state-lineage");
   await assert.rejects(readdir(input.outputDirectory), error => error.code === "ENOENT");
 });
+
+const hasFfmpegTools = (() => {
+  try {
+    execFileSync("ffmpeg", ["-version"], { stdio: "ignore" });
+    execFileSync("ffprobe", ["-version"], { stdio: "ignore" });
+    return true;
+  } catch {
+    return false;
+  }
+})();
+
+test("independently revalidates a real extracted sequence against its source video", { skip: !hasFfmpegTools }, async t => {
+  const input = await fixture(t);
+  await rm(input.sourcePath);
+  execFileSync("ffmpeg", [
+    "-hide_banner", "-loglevel", "error", "-f", "lavfi",
+    "-i", "testsrc2=size=8x8:rate=2:duration=1",
+    "-frames:v", "2", "-c:v", "mpeg4", "-q:v", "2", input.sourcePath
+  ], { stdio: "pipe" });
+  const sourceBytes = await readFile(input.sourcePath);
+  const checksum = sha256(sourceBytes);
+  const manifest = JSON.parse(await readFile(input.manifestPath, "utf8"));
+  manifest.source.checksum = checksum;
+  const job = JSON.parse(await readFile(input.renderJobPath, "utf8"));
+  job.source.checksum = checksum;
+  await Promise.all([
+    writeFile(input.manifestPath, JSON.stringify(manifest, null, 2) + "\n"),
+    writeFile(input.renderJobPath, JSON.stringify(job, null, 2) + "\n")
+  ]);
+
+  const extractedDirectory = path.join(input.root, "real-extracted-frames");
+  const extraction = await extractSourceFrames({
+    manifestPath: input.manifestPath,
+    segmentationFrameSetId: "segmentation-001",
+    outputDirectory: extractedDirectory,
+    dropboxRoot: input.dropboxRoot
+  });
+  const outputDirectory = path.join(input.root, "rendered-real-body-layers");
+  const result = await renderGrowthFrameBatchFiles({
+    manifestPath: input.manifestPath,
+    renderJobPath: input.renderJobPath,
+    deformationPlansPath: input.deformationPlansPath,
+    sourceFrameIndexPath: extraction.indexPath,
+    outputDirectory,
+    dropboxRoot: input.dropboxRoot
+  });
+  assert.equal(result.status, "complete");
+  assert.equal(result.sourceFrameDerivationVerified, true);
+  assert.equal(result.sourceFramePixelsRevalidated, true);
+  assert.equal(result.sourceFrameDerivationVerification.pixelMatchedFrameCount, 2);
+  assert.equal(result.frames.length, 2);
+  assert.deepEqual(await readFile(input.sourcePath), sourceBytes);
+});
+

@@ -9,4 +9,4 @@ The Commons is a meeting place as much as a facility. Students arrive in pairs a
 
 ## Places and continuity
 
-- [Redwood Entrance and Walk](./REDWOOD_ENTRANCE.md) — campus threshold, visitor wayfinding, and the response procedure established in Chapter LXXXIII.
+- [Redwood Entrance and Walk](./REDWOOD_ENTRANCE.md) — campus threshold, visitor wayfinding, and the response procedure developed across Chapters LXXXIII–LXXXIV.

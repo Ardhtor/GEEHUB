@@ -12,7 +12,9 @@ const usage = [
   "This produces transparent body layers, not a completed composite or video.",
   "",
   "Environment:",
-  "  GEEHUB_DROPBOX_ROOT  Local Dropbox root (defaults to the standard macOS location)"
+  "  GEEHUB_DROPBOX_ROOT  Local Dropbox root (defaults to the standard macOS location)",
+  "  FFMPEG_PATH          FFmpeg executable used to independently re-decode source frames",
+  "  FFPROBE_PATH         FFprobe executable used to revalidate source timestamps"
 ].join("\n");
 
 async function main() {
@@ -36,7 +38,9 @@ async function main() {
     deformationPlansPath,
     sourceFrameIndexPath,
     outputDirectory,
-    dropboxRoot
+    dropboxRoot,
+    ffmpegPath: process.env.FFMPEG_PATH || "ffmpeg",
+    ffprobePath: process.env.FFPROBE_PATH || "ffprobe"
   });
   process.stdout.write(JSON.stringify(receipt, null, 2) + "\n");
 }

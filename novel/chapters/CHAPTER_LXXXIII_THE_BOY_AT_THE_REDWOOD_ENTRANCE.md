@@ -8,7 +8,7 @@ The Athletic Commons was busy without being disorderly. Training groups moved be
 
 Dorian stopped beside the route board while Tyler checked the width of the passage. He was listening to Joseph ask the reception manager how visitors were directed toward the pool, when he noticed a small boy standing a little beyond the Redwood sign. The boy was not looking at the map. He was looking back toward the entrance, then down the path, then back again. He held the strap of a small backpack in both hands. At first Dorian assumed he was waiting for an adult who had paused inside, but the boy's attention kept returning to the same doorway, and his face had the tense stillness of someone trying not to cry.
 
-Dorian did not stride toward him. A man of his size could occupy a child's whole field of view before he had said a word, and he had learned not to mistake a visible presence for a helpful one. He turned slightly so that the boy could see him approaching, walked at an ordinary pace, and stopped several steps away. He lowered himself onto one knee, keeping his hands where they could be seen.
+Dorian did not stride toward him. A man of his size could occupy his whole field of view before he had said a word, and he had learned not to mistake a visible presence for a helpful one. He turned slightly so that the boy could see him approaching, walked at an ordinary pace, and stopped several steps away. He lowered himself onto one knee, keeping his hands where they could be seen.
 
 “Are you waiting for someone?” he asked.
 

@@ -975,7 +975,8 @@
       "atlas",
       "the-coach",
       "institute-of-becoming",
-      "sensation-engine"
+      "sensation-engine",
+      "character-dani-kaganovich"
     ],
     "tags": [
       "characters",
@@ -1908,6 +1909,29 @@
     ]
   },
   {
+    "id": "character-dani-kaganovich",
+    "name": "Dani Kaganovich — Character Record",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Dani's developing Institute continuity: training, practical maintenance, embodied access, and an emerging familiarity with Tyler, with public-athlete references kept separate from fiction.",
+    "path": "../characters/records/DANI_KAGANOVICH.md",
+    "tags": [
+      "character",
+      "dani-kaganovich",
+      "confluence",
+      "institute",
+      "training",
+      "facilities",
+      "familiarity"
+    ],
+    "related": [
+      "character-records",
+      "confluence-body-without-guesswork-2026-11-20",
+      "institute-of-becoming",
+      "embodied-presence-relational-scene-rule"
+    ]
+  },
+  {
     "id": "confluence-growth-pass-2026-11-20",
     "name": "The Confluence Growth Pass — 20 November 2026",
     "group": "world-expansion",
@@ -1980,7 +2004,8 @@
       "confluence-expansion",
       "institute-of-becoming",
       "character-marcus",
-      "character-dan-roman"
+      "character-dan-roman",
+      "character-dani-kaganovich"
     ]
   },
   {
@@ -1999,6 +2024,9 @@
       "agency",
       "continuity",
       "revision"
+    ],
+    "related": [
+      "character-dani-kaganovich"
     ]
   }
 ]

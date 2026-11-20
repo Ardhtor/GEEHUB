@@ -107,3 +107,10 @@ The canonical operational preset for Luke is [`engine/presets/luke-growth-priori
 
 The preset gives the user's latest correction priority, treats the latest accepted image as the minimum baseline, scales height and limb length together with muscular mass, and preserves Luke's recognizable identity through reference fusion. It includes a visible-growth requirement, proportion priorities, style and anatomy checks, rejection conditions, and a portable-result record so each accepted phase becomes the next baseline. Reference fusion changes Luke's design and scale without replacing his face or personhood.
 
+
+
+## Ordinary men in the visual field
+
+The Low Bar applies to visual output as well as prose. Do not make every man look like a fitness model, a polished hero, or a perfected render. Include ordinary and uneven bodies when appropriate: softer middles, narrow shoulders, modest muscle, varied height, imperfect posture, aging features, ordinary faces, patchy facial hair, thinning hair, tired expressions, awkward clothing, and clothes that are simply clean enough for the occasion. Some men train seriously; many do not. Do not quietly turn every ordinary figure into an exceptional physique through idealized proportions, lighting, grooming, or pose.
+
+A man may still be attractive without looking optimized. Preserve each man's particular identity and let the image show what is actually distinctive about him, including features that are not conventionally impressive. The point is variety and easy acceptance, not deliberate uglification. Extraordinary giants and highly developed physiques remain available, but they are not the minimum standard for a man to belong in the frame.

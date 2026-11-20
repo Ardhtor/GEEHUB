@@ -800,7 +800,8 @@
       "institute-of-becoming",
       "sensation-engine",
       "character-marcus",
-      "character-dan-roman"
+      "character-dan-roman",
+      "character-dani-kaganovich"
     ],
     "tags": [
       "characters",
@@ -1092,6 +1093,31 @@
       "dan-roman",
       "confluence",
       "material-craft",
+      "fiction"
+    ]
+  },
+  {
+    "id": "character-dani-kaganovich",
+    "name": "Dani Kaganovich — Character Record",
+    "status": "incubating",
+    "kind": "character",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/characters/records/DANI_KAGANOVICH.md",
+    "description": "Developing adult fictional character at the Institute of Becoming. His first recorded arc joins bodybuilding, shared-space maintenance, embodied access, and an emerging familiarity with Tyler; public-athlete references remain separate from fictional continuity.",
+    "related": [
+      "character-records",
+      "confluence-body-without-guesswork-2026-11-20",
+      "institute-of-becoming",
+      "confluence-expansion"
+    ],
+    "tags": [
+      "character",
+      "dani-kaganovich",
+      "confluence",
+      "institute",
+      "training",
+      "facilities",
+      "familiarity",
       "fiction"
     ]
   },
@@ -1600,7 +1626,8 @@
       "confluence-expansion",
       "institute-of-becoming",
       "character-marcus",
-      "character-dan-roman"
+      "character-dan-roman",
+      "character-dani-kaganovich"
     ],
     "tags": [
       "confluence",

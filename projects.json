@@ -1536,5 +1536,31 @@
       "character-continuity",
       "visual-artifact"
     ]
+  },
+  {
+    "id": "confluence-growth-pass-2026-11-20",
+    "name": "The Confluence Growth Pass — 20 November 2026",
+    "status": "incubating",
+    "kind": "world-expansion",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/CONFLUENCE_GROWTH_PASS_2026-11-20.md",
+    "description": "A civic and social expansion layer for the Confluence: Exchange Hall services, public calendar, Institute life, repair culture, material inheritance, observation provenance, and open narrative threads.",
+    "related": [
+      "confluence-expansion",
+      "whole-world-expansion",
+      "tractus-continuity",
+      "sequoia-woodlands",
+      "institute-of-becoming",
+      "vision-workspace"
+    ],
+    "tags": [
+      "confluence",
+      "worldbuilding",
+      "institutions",
+      "daily-life",
+      "continuity",
+      "production",
+      "growth-pass"
+    ]
   }
 ]

@@ -1562,5 +1562,28 @@
       "production",
       "growth-pass"
     ]
+  },
+  {
+    "id": "nothing-personal-sign",
+    "name": "NOTHING PERSONAL — Monument Sign",
+    "status": "incubating",
+    "kind": "visual-artifact",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/assets/signs/NOTHING_PERSONAL_SIGN.svg",
+    "description": "Digital concept for a monumental cedar-and-sequoia timber portal with restrained blue-green illuminated lettering at the Exchange Hall approach; includes placement and production notes.",
+    "related": [
+      "confluence-growth-pass-2026-11-20",
+      "confluence-expansion",
+      "sequoia-woodlands",
+      "vision-workspace"
+    ],
+    "tags": [
+      "signage",
+      "landmark",
+      "visual-design",
+      "confluence",
+      "redwood",
+      "svg"
+    ]
   }
 ]

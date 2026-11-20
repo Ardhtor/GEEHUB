@@ -37,3 +37,8 @@ The Commons preserves previous baselines. When a resident grows, the old measure
 The Joey Prever in the Colossus Chronicles is the adult fictionalized protagonist of that separate story cycle. Marcus in Volume VI is a new adult fictional resident of the Scale Commons; he is not the working production subject named Marcus in the Teal Titan of Gold's on 5th project. The Scale Commons does not merge those continuities.
 
 The governing inscription is: **NO FINAL SCALE. NO LOST BASELINE. MAKE ROOM, THEN KEEP BECOMING.**
+
+
+## Places and active infrastructure
+
+- [Western Crossing](./WESTERN_CROSSING.md) — the western road bridge, its three-part engineering review, and the closure conditions established through Chapter LXXXV.

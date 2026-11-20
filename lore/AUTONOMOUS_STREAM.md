@@ -2461,3 +2461,11 @@ NICK: A detail returns in CAT GARDENS: Another cat crosses the path and chooses 
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cat-gardens/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 320 — ROUTE_OPEN / CAT GARDENS / 2026-11-20T18:53:38.608841+00:00
+
+SETH: A line becomes visible between CAT GARDENS and FOUNDERS DORMITORY. The archive names the relation "THE DORM GARDEN PATH".
+
+NICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

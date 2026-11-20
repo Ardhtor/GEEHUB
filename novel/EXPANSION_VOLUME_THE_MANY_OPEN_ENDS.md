@@ -370,15 +370,30 @@ Ursalon laughed from the hearth. Daddy set another place at the table. The archi
 
 ## XXVI. The Open Register
 
-The archive's new register held work that crossed between places without forcing it into a single chronology. Each entry carried origin, present location, known changes, unresolved questions, and contributors. A final optional field recorded what the object or account had come to mean in use.
+The Archive's new book lay on the long table beneath a square of window light. Its cover was made from dark binding cloth, and the first pages had been left unruled so that the men could decide what belonged there before anyone drew columns across the paper. Dan Roman brought the Convent's latest roof note. The quay maker brought the shortened hinge and a tracing of its old paint. The Hrothgar scribe carried the winter remembrance book, while the Digitorium copyist set down the sleeve that now protected the smoked-glass drawing. Each man had brought something that had already passed through other hands.
 
-The first entries were the quay hinge, the Convent roof survey, the Lantern Market favor docket, the Hrothgar remembrance ledger, and the copied Gilgamesh tablet. The Veyrthalis glass received a separate entry because the scribes could not establish whether its images were records, reflections, or something else.
+The director opened the book. “What do we need to know when we find one of these things again?”
 
-The register was tested with an ordinary wooden chair from the Northgate library. It had been repaired twice, moved to three rooms, and used by men who left notes beneath its seat. The history was incomplete, but the register did not confuse incompleteness with uselessness.
+Dan answered first. “Where it began.”
 
-Outside, campus lamps came on. The market began its evening trade. The Convent's roof dried beneath a clearing sky. The quay's makers swept the workshop floor. In Hrothgar, a man poured tea for someone who had not asked. The register had not solved continuity. It had made continuity easier to practice. Its next page remained blank.
+The quay maker placed a finger on the hinge. “And where it has been since.”
 
+The Hrothgar scribe said that the name of the man who carried it mattered too, provided the man wanted his name kept. The copyist added that a drawing should remain beside the thing it described when possible, but that the drawing must not be allowed to pretend it was the thing itself. They spoke for some time. No one wanted a book that would turn every object into a list of measurements, but no one wanted a pleasant story that could not be checked either.
 
+At last the director wrote the first heading: WHERE IT CAME FROM. Beneath it he left room for a place, a maker, and the name of the man who had first brought it to the Archive. On the next page he wrote: WHERE IT HAS BEEN. The third page was headed: WHAT HAS CHANGED. The last heading was longer: WHAT WE STILL DO NOT KNOW. Dan suggested one more line beneath it, not as a demand but as an invitation: WHAT A MAN NOTICED AFTER USING IT.
+
+They tried the book with an ordinary wooden chair from the Northgate library. Its seat had been repaired twice. One leg carried a pale mark from the Convent storehouse, and beneath the seat someone had written a date in pencil. The chair had stood in three rooms and been used by men whose names were not all known. The first account began with the library's old furniture list, but Dan found a small note in the margin describing how the chair had been carried across the river during a winter repair. The quay maker recognised the mark on its underside. He had not made the chair, but he had supplied the bracket that held its rear rail in place.
+
+The Hrothgar scribe read the note twice. “Then the chair has been here longer than the list says.”
+
+“The list tells us when it was counted,” Dan replied. “Not when it arrived.”
+
+The director left both dates in the book. The copyist drew the repaired bracket in the margin, carefully showing the old screw holes and the newer fastening plate. The chair remained in the west gallery while the men worked. Outside, campus lamps came on one by one. The market began its evening trade. The Convent roof dried beneath a clearing sky. At the quay, the makers swept the workshop floor. In Hrothgar, a man poured tea for someone who had not asked. The chair did not change while they wrote, but their understanding of its journey did.
+
+When the pages were filled, the director asked what they should call the book. The Hrothgar scribe suggested *The Open Register*. Dan liked that it did not promise a complete account. The quay maker said it sounded like a book that could receive another man's correction without treating it as an insult. They agreed to keep the name.
+
+Its next page remained blank. The blank was not a failure to finish the book. It was space for the next man who knew something the others did not.
+ 
 ## XXVII. Northgate — The Men Who Kept the Lights On
 
 The power failed during the second week of the workshop term. It began with a flicker in the library's west wing, passed through the athletic commons, and left the old gym in darkness while the campus clock continued to run. The emergency lights came on in the newer buildings. In the older rooms, the men found themselves standing among half-finished projects, open books, and machines that had stopped in the middle of their work.

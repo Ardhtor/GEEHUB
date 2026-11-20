@@ -90,3 +90,15 @@ This is the durable resume point for repository work. Update it after meaningful
 - Added `media/HULUMS_CAVE_SOURCE_REGISTER.json` with the four located Dropbox records, stable file IDs, exact paths, sizes, modification times and explicit pending duplicate-comparison status.
 - Added `media/HULUMS_CAVE_SOURCE_ANNOTATION_TEMPLATE.json` for shot, camera, pose, landmark confidence, shape-change evidence, wardrobe and lighting annotations.
 - Hashes and full media probes remain null by design; no binary download or hash comparison was completed. The register prevents guessed metadata from becoming source canon.
+
+
+## 2026-11-20 — First braided revision across three books
+
+- Established the three principal long-form works in `novel/THREE_BOOKS_IN_MOTION.md`: *The Road of Seven Wells*, *The Golden Lion and the Seven Great Houses*, and *The Many Open Ends*. The Expansion Atlas and character volumes remain companion maps rather than silently becoming extra numbered books.
+- Extended `novel/EDITORIAL_DIRECTIVE.md` and `novel/GEEHUB_LIVING_REVISION_ENGINE.md` with a book-wide braided present: scenes in different places continue during the same hours, and consequences travel by credible messages, objects, weather, or visits.
+- Added a hidden-language rule: editorial vocabulary stays out of the fiction; the men use their own place names, personal names, and terms. The prose favours exact materials, gestures, sounds, and spatial detail.
+- Added Mang0 and Arin as occasional original commentators on incidental noise. Seth and Nick remain the main environmental voices. No real broadcast dialogue or distinctive catchphrases are copied.
+- Expanded Chapter LXV in `novel/BOOK_I.md` with the old house, Blue Hall, and seventh-well events moving alongside the Sacred Fountain. Verified at 4,897 words and updated `BOOK_I_EXPANSION_REGISTER.json` to match the current source blob.
+- Expanded `lore/MUSCLE_MYTH_GENTLE_KING_LION.md` so the quarry-water inspection and silent signal tower develop during the same morning; corrected the runner's travel timing; rewrote the former editorial architecture note as the Master's map and the roads between the houses; replaced movement labels with place names.
+- Expanded `novel/EXPANSION_VOLUME_THE_MANY_OPEN_ENDS.md`: the archive day now cuts between the Archive, Convent, Bluewater Quay, Digitorium, cabin, Hrothgar, and the market; the crate and drain have consequences in multiple places. Two outline-like sections became lived scenes, and the Open Register now begins as a book the men make together.
+- This is the first braided pass, not a completed review of every chapter in all three books. Existing chronology, unresolved questions, and separate book identities remain in place.

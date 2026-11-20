@@ -12,7 +12,7 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 
 ## Files
 
-### MD (52)
+### MD (53)
 
 - [`BATTLE_HEAVEN_AND_SEA_EXPERIENCE.md`](./BATTLE_HEAVEN_AND_SEA_EXPERIENCE.md)
 - [`BATTLE_HEAVEN_AND_SEA_SHOTLIST.md`](./BATTLE_HEAVEN_AND_SEA_SHOTLIST.md)
@@ -46,6 +46,7 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [`CHAPTER_XXXVII_DAN_ROMAN_ARRIVES.md`](./CHAPTER_XXXVII_DAN_ROMAN_ARRIVES.md)
 - [`CHAPTER_XXXVIII_THE_UNIVERSITY_OF_THE_LONG_TABLE.md`](./CHAPTER_XXXVIII_THE_UNIVERSITY_OF_THE_LONG_TABLE.md)
 - [`CONTINUATION_REGISTER_2026-11-09.md`](./CONTINUATION_REGISTER_2026-11-09.md)
+- [`CONTINUATION_REGISTER_2026-11-20.md`](./CONTINUATION_REGISTER_2026-11-20.md)
 - [`EDITORIAL_DIRECTIVE.md`](./EDITORIAL_DIRECTIVE.md)
 - [`EXPANSION_VOLUME_THE_MANY_OPEN_ENDS.md`](./EXPANSION_VOLUME_THE_MANY_OPEN_ENDS.md)
 - [`GEEHUB_LIVING_REVISION_ENGINE.md`](./GEEHUB_LIVING_REVISION_ENGINE.md)
@@ -73,3 +74,9 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 
 - [Chapter Expansion Protocol](./CHAPTER_EXPANSION_PROTOCOL.md) — defines the global chapter-by-chapter revision operation.
 - [Book I Expansion Register](./BOOK_I_EXPANSION_REGISTER.json) — tracks all 72 chapter headings in *The Road of Seven Wells*, Book I, including current baseline lengths and revision status.
+
+
+## Current continuation
+
+- [Chapter LXXXIII — The Boy at the Redwood Entrance](./chapters/CHAPTER_LXXXIII_THE_BOY_AT_THE_REDWOOD_ENTRANCE.md) — Dorian Vale's return to Northgate and the visitor-separation incident at the Redwood Entrance.
+- [Continuation Register — 2026-11-20](./CONTINUATION_REGISTER_2026-11-20.md) — current continuity updates and open campus-safety work.

@@ -87,9 +87,10 @@ A narrative canon update is accepted only when:
 4. the update is consequential and does not contradict unresolved canon;
 5. the chapter passes existing destination, length, and content validation;
 6. the prior and resulting file hashes are recorded;
-7. the revision and its source event are recorded without deleting prior history;\n8. an experimental baseline is explicitly reviewed and promoted before the writer may revise it;
-8. the retrieval snapshot and schedule are updated;
-9. all generated files parse and tests pass.
+7. the revision and its source event are recorded without deleting prior history;
+8. an experimental baseline is explicitly reviewed and promoted before the writer may revise it;
+9. the retrieval snapshot and schedule are updated;
+10. all generated files parse and tests pass.
 
 A no-surprise cycle records retrieval only and exits without changing canon. A dry run writes nothing. A queued or proposed sensory cue is not reported as played or rendered.
 

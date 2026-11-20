@@ -1,5 +1,5 @@
 {
-  "pulse": 306,
+  "pulse": 307,
   "events": [
     {
       "pulse": 1,
@@ -5749,6 +5749,28 @@
       "occurred_at": "2026-11-20T04:49:40.117748+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000307",
+      "pulse": 307,
+      "time": "2026-11-20T04:49:59.191890+00:00",
+      "actor": "JOSEPH",
+      "world": "CEDAR HOUSE",
+      "region_id": "cedar-house",
+      "previous_region_id": "common-table",
+      "phase": "CROSSING",
+      "source": "worlds/cedar-house/README.md",
+      "desire_state": "continuity",
+      "action": "NICK: The world crosses the route from THE COMMON TABLE into CEDAR HOUSE. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A warm cedar home with a generous kitchen, deep sitting room, sheltered porch, reading alcove, and an open door for unhurried visits. Relation carried forward: A TABLE IS SET.",
+      "narrative_rule": "meaningful change becomes an outward-facing signal",
+      "relation": "A TABLE IS SET",
+      "next_region": null,
+      "pressure": 0.88,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-20T04:49:59.191890+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -5766,7 +5788,7 @@
     "veyrthalis": 13,
     "bodylounger": 11,
     "common-table": 11,
-    "cedar-house": 7,
+    "cedar-house": 8,
     "cat-gardens": 8,
     "founders-dormitory": 6,
     "northgate-university": 11,
@@ -5790,7 +5812,7 @@
     "veyrthalis": 156.5,
     "bodylounger": 163,
     "common-table": 303,
-    "cedar-house": 279.5,
+    "cedar-house": 307,
     "cat-gardens": 278.5,
     "founders-dormitory": 277.5,
     "northgate-university": 289.5,
@@ -5799,7 +5821,7 @@
     "northgate-library": 299.5,
     "athletic-commons": 288.5
   },
-  "pressure": 1.0,
+  "pressure": 0.88,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -5814,7 +5836,7 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 11,
     "worlds/common-table/README.md": 22,
-    "worlds/cedar-house/README.md": 12,
+    "worlds/cedar-house/README.md": 13,
     "worlds/cat-gardens/README.md": 15,
     "worlds/founders-dormitory/README.md": 9,
     "worlds/northgate-university/README.md": 21,
@@ -5823,19 +5845,14 @@
     "worlds/northgate-library/README.md": 21,
     "worlds/athletic-commons/README.md": 8
   },
-  "next_region": "cedar-house",
-  "phase": 3,
-  "active_region": "common-table",
-  "current_phase": "ROUTE_OPEN",
-  "current_desire_state": "tension",
-  "current_question": "Which existing relation now becomes traversable?",
-  "current_narrative_rule": "arrival activates aftermath",
-  "next_relation": {
-    "title": "A TABLE IS SET",
-    "text": "A route through the kitchen turns an arrival into a shared meal without requiring an invitation speech.",
-    "from": "cedar-house",
-    "to": "common-table"
-  },
+  "next_region": null,
+  "phase": 0,
+  "active_region": "cedar-house",
+  "current_phase": "CROSSING",
+  "current_desire_state": "continuity",
+  "current_question": "What can change without erasing where it came from?",
+  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "next_relation": null,
   "long_play": {
     "cycle": 223,
     "agent": "andrew",

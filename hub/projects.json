@@ -1906,5 +1906,29 @@
       "dan-roman",
       "continuity"
     ]
+  },
+  {
+    "id": "confluence-growth-pass-2026-11-20",
+    "name": "The Confluence Growth Pass — 20 November 2026",
+    "group": "world-expansion",
+    "status": "incubating",
+    "summary": "Civic and social expansion of the Confluence: Exchange Hall services, public calendar, Institute life, repair culture, material inheritance, observation provenance, and open narrative threads.",
+    "path": "../lore/CONFLUENCE_GROWTH_PASS_2026-11-20.md",
+    "tags": [
+      "confluence",
+      "worldbuilding",
+      "institutions",
+      "daily-life",
+      "continuity",
+      "production"
+    ],
+    "related": [
+      "confluence-expansion",
+      "whole-world-expansion",
+      "tractus-continuity",
+      "sequoia-woodlands",
+      "institute-of-becoming",
+      "vision-workspace"
+    ]
   }
 ]

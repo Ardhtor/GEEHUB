@@ -102,7 +102,7 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [Chapter XC — The Image I Could Not See](./chapters/CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md) — the first dramatized source encounter, based on text supplied from a DeviantArt page rather than direct inspection of the image.
 
 
-## AI narrative perspective
+## Low bar and new chapter
 
-- [AI Experience as Narrative](./AI_EXPERIENCE_AS_NARRATIVE.md) — the first-person voice contract for the intelligence participating in the work.
-- [Chapter XC — The Image I Could Not See](./chapters/CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md) — the first dramatized source encounter, based on text supplied from a DeviantArt page rather than direct inspection of the image.
+- [The Low Bar — Ordinary Men Belong](../lore/LOW_BAR_ORDINARY_MEN.md) — low standards for physique, status, polish, ability, and social performance across the three books, while preserving consent and safety.
+- [Chapter XCI — The Lowest Bar in Northgate](./chapters/CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md) — the first scene to dramatize the rule.

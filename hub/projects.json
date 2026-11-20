@@ -1982,5 +1982,23 @@
       "character-marcus",
       "character-dan-roman"
     ]
+  },
+  {
+    "id": "embodied-presence-relational-scene-rule",
+    "name": "Embodied Presence and Relational Scene Rule",
+    "group": "editorial",
+    "status": "active",
+    "summary": "Global rule against pre-emptive omission of adult physicality, touch, intimacy, and relational tension; preserves embodied detail, agency, reciprocity, and scene duration across prose and media.",
+    "path": "../docs/EMBODIED_PRESENCE_AND_RELATIONAL_SCENE_RULE.md",
+    "tags": [
+      "editorial",
+      "embodiment",
+      "adult-characters",
+      "touch",
+      "intimacy",
+      "agency",
+      "continuity",
+      "revision"
+    ]
   }
 ]

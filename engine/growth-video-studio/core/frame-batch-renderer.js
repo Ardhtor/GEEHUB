@@ -422,6 +422,9 @@ function parseSourceProbe(stdout) {
   let timestampBasis = null;
   let previousTimestamp = -Infinity;
   const parsedFrames = frames.map(frame => {
+    if (!frame || typeof frame !== "object" || Array.isArray(frame)) {
+      fail("batch-source-probe-frame-invalid", "ffprobe returned a malformed frame record");
+    }
     const field = frame.best_effort_timestamp_time !== undefined
       ? "best_effort_timestamp_time" : "pkt_pts_time";
     if (timestampBasis && timestampBasis !== field) {

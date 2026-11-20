@@ -12,7 +12,7 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 
 ## Files
 
-### MD (53)
+### MD (54)
 
 - [`BATTLE_HEAVEN_AND_SEA_EXPERIENCE.md`](./BATTLE_HEAVEN_AND_SEA_EXPERIENCE.md)
 - [`BATTLE_HEAVEN_AND_SEA_SHOTLIST.md`](./BATTLE_HEAVEN_AND_SEA_SHOTLIST.md)
@@ -80,4 +80,5 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 
 - [Chapter LXXXIII — The Boy at the Redwood Entrance](./chapters/CHAPTER_LXXXIII_THE_BOY_AT_THE_REDWOOD_ENTRANCE.md) — Dorian Vale's return to Northgate and the visitor-separation incident at the Redwood Entrance.
 - [Chapter LXXXIV — The Sign That Faces Both Ways](./chapters/CHAPTER_LXXXIV_THE_SIGN_THAT_FACES_BOTH_WAYS.md) — the permanent wayfinding design is tested with visitors, while Dorian and Gabe become more familiar.
+- [Chapter LXXXV — The Three Measures of the Crossing](./chapters/CHAPTER_LXXXV_THE_THREE_MEASURES_OF_THE_CROSSING.md) — the western bridge review reveals a lateral-restraint issue and a separate drainage problem, while Dorian and Gabe develop trust through the work.
 - [Continuation Register — 2026-11-20](./CONTINUATION_REGISTER_2026-11-20.md) — current continuity updates and open campus-safety work.

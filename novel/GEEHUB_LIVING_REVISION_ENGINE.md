@@ -4,7 +4,7 @@
 
 Revise the hub by accumulation, not replacement. Ordinary scenes, unfinished chapters, artifacts, video, geography, character memory, and unresolved details remain inputs. The prose is a continuous environmental broadcast, narrated in a podcast-style exchange by Seth Feroce and Nick Mercx.
 
-The global authority is [../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md).
+The global authority is [../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md). The three active long-form works are mapped in [Three Books Moving at Once](THREE_BOOKS_IN_MOTION.md).
 
 ## Paragraph engine
 

@@ -58,6 +58,10 @@ Dorian returns to the western survey camp to take part in the engineering review
 
 Dorian's growth continues, but the chapter does not assign an exact height or measurement. His changing shoulder breadth and clothing fit remain visible continuity details; fixed site markers and the bridge structure remain environmental references. He leaves the crossing without attempting to test it physically.
 
+## Conduct established in Chapter LXXXVI
+
+Dorian attends Northgate's Evening of Presence in a fitted black shirt and takes part in the voluntary presentation walk. He enjoys being admired and accepts compliments without treating them as claims on him. He is direct about attraction and reciprocates Gabe's expression of interest. He invites Gabe to dinner; the invitation is accepted. The two men have not defined a partnership, and their next meeting remains a first date rather than a settled status.
+
 ## Current continuity and open threads
 
 - The bridge's middle joint had already shifted during the rain; Dorian's approach made the remaining structural reserve visible but did not cause the original defect.
@@ -65,13 +69,8 @@ Dorian's growth continues, but the chapter does not assign an exact height or me
 - A temporary brace allows controlled inspection work only.
 - Dorian has returned to Northgate by the approved lower route; the western bridge remains closed pending permanent repair and engineering review.
 - His body continues growing; the western bell tower remains a fixed visual reference.
-- Gabe has apologised and has begun a more ordinary acquaintance with Dorian through the Commons work; they are not yet established as close friends.
+- Gabe has apologised, and his acquaintance with Dorian has developed into mutual attraction. They have agreed to dinner after the Evening of Presence; this is a first date, not an established partnership.
 - Tyler's measurements, Andrew's separate sound observations, Chase's permission-based archive record, the revised lateral-restraint bracket, and the drainage/approach survey remain active threads.
 - A report from a second district is expected, but its claims must be checked independently before the group treats the western event as universal.
 
 **Continuity rule:** Dorian's growth changes the scale of the world around him, but his relationships with the other men must remain particular. He is not a device for generating jealousy or an award for collective admiration. Give him work, preferences, decisions, and relationships that continue beyond the men's immediate reactions.
-
-
-## Conduct established in Chapter LXXXVI
-
-Dorian attends Northgate's Evening of Presence in a fitted black shirt and takes part in the voluntary presentation walk. He enjoys being admired and accepts compliments without treating them as claims on him. He is direct about attraction and reciprocates Gabe's expression of interest. He invites Gabe to dinner; the invitation is accepted. The two men have not defined a partnership, and their next meeting remains a first date rather than a settled status.

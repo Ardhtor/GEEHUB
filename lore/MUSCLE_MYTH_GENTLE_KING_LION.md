@@ -39,7 +39,7 @@ The Golden Lion is the Master's best friend. This is a foundational relationship
 
 
 # The Golden Lion
-## Prologue: The Golden Lion
+## The Image in the Hall
 
 The artwork interpretation and the Master's friendship with the Lion form the prologue and emotional foundation of the saga.
 
@@ -541,7 +541,7 @@ When the Master returned, the Lion was in the western gallery speaking with the 
 
 The court had not been waiting in suspended animation. It had continued to work, receive guests, repair its buildings, and prepare its meals. The friendship had continued too. The Lion was pleased by the return, but he was not relieved as though the house had been incomplete. The Master had been free to leave and return; the Lion had been free to remain and continue his own life. Their closeness survived because neither had to hold the other in place.
 
-## First movement: The Court in Motion
+## The Orchard's First Morning
 ## The Court in Motion
 
 
@@ -821,7 +821,7 @@ At the bend where the paving disappeared beneath moss, the Master found an old m
 
 
 
-## Second movement: The Road and the House
+## The House Beyond the Orchard
 
 
 
@@ -1049,7 +1049,7 @@ The Master placed a hand against the lion's mane. The lion leaned into the touch
 
 
 The steward's new register was not a catalogue of noise for its own sake. It helped the court notice when a familiar sound changed or disappeared. If the forge fell silent at the wrong hour, someone could check whether Hephaestus needed help; if the kitchen bell rang twice, the stores might be running short; if the wheelwright's test knock altered, a cart could be inspected before it left the yard. The Lion listened to the finished record and recognised the court in it. Its identity was not held by its walls alone, but by the dependable sounds of people caring for one another's work.
-## Third movement: The Northern Table
+## The Northern Table
 
 
 
@@ -1259,9 +1259,9 @@ The lion rested his head near the Master's shoulder. Hephaestus's forge was stil
 
 
 The journey home gave the three friends time to compare what each had carried away. Hephaestus spoke about the anchor socket and the difference between a repair that could be installed quickly and one that could be inspected later. The Master considered the obligations created by the new route register. The Lion remembered the younger builder's question and the way the elder had left room for an answer to emerge. Their conversation did not produce a grand declaration. It produced a list of people to write to, records to copy, and work that could begin without pretending the bridge was ready.
-## Fourth movement: The Seven Great Houses
+## The Seven Houses at the Stone Table
 
-## A Convergence of the Meridian
+## The Map at the Stone Table
 
 
 
@@ -1487,7 +1487,7 @@ The preparations began at once, but the departure date was not fixed until the s
 
 At dusk the seven spaces around the Stone Table were visible beneath the open roof. Six held the seals of the houses. The seventh held the message, folded and weighted by a plain stone. Beyond the meeting ground, the southern mountains were hidden by cloud. The Lion looked toward them and listened to the wind moving across the roof. The next journey would not begin with a conquest or a grand arrival. It would begin at a lower gate, with a survey, a conversation, and the patience to learn what the mountain had exposed.
 
-## Fifth movement: The Southern Escarpment
+## The Lower Gate and the Quarry
 
 ### XXXII. The Lower Gate
 

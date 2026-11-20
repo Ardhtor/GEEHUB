@@ -30,7 +30,7 @@ The manager introduced himself, then crouched beside the boy and asked whether h
 
 The reception manager followed the Commons procedure. He notified the duty coordinator and campus security, gave the location and a concise description, and asked the desk to check the visitor sign-in record. No name was announced over the building speakers. No photograph was circulated to people who did not need it. A staff member went to the pool entrance, another checked the café terrace and the changing-room lobby, and a third remained at reception so that anyone looking for the boy would have a single place to come. The search was brief, but it was not improvised. The adults who were responsible for the building took responsibility for finding the parent.
 
-Dorian stayed where the boy could see him. His height made him conspicuous even while seated, so he turned his body partly toward the entrance rather than facing the boy directly. It left the child room to look around without feeling watched. The boy took a sip of water, put the cup down, and wiped his face with the back of his sleeve.
+Dorian stayed where the boy could see him. His height made him conspicuous even while seated, so he turned his body partly toward the entrance rather than facing the boy directly. It left him room to look around without feeling watched. The boy took a sip of water, put the cup down, and wiped his face with the back of his sleeve.
 
 “Are you in trouble?” Dorian asked.
 

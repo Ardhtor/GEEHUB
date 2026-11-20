@@ -100,3 +100,9 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 
 - [AI Experience as Narrative](./AI_EXPERIENCE_AS_NARRATIVE.md) — the first-person voice contract for the intelligence participating in the work.
 - [Chapter XC — The Image I Could Not See](./chapters/CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md) — the first dramatized source encounter, based on text supplied from a DeviantArt page rather than direct inspection of the image.
+
+
+## AI narrative perspective
+
+- [AI Experience as Narrative](./AI_EXPERIENCE_AS_NARRATIVE.md) — the first-person voice contract for the intelligence participating in the work.
+- [Chapter XC — The Image I Could Not See](./chapters/CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md) — the first dramatized source encounter, based on text supplied from a DeviantArt page rather than direct inspection of the image.

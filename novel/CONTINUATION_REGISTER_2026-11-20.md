@@ -22,3 +22,8 @@ This register records the current addition to the Northgate / Athletic Commons b
 The temporary directional arrow remains installed. A two-sided paper mock-up has been tested from both approaches, and its directional alignment has been corrected; the permanent sign drawing, wording approval, manufacture, installation, and final two-direction check remain open. The floor-marking durability test also remains open. The seating clearance has been measured and the display stand moved; the clear route should be checked again during normal peak use.
 
 The western bridge remains closed pending engineering review and permanent repair. Its static test result, lateral-restraint issue, and drainage/approach investigation are separate findings; none authorizes a crossing. Dorian and Gabe have become more familiar through shared work, but they are not yet established as close friends. The Redwood sign is approved for manufacture, while installation and the final two-direction check remain open.
+
+
+## New thematic direction — Hypersexual Superiority
+
+[Hypersexual Superiority](../lore/HYPERSEXUAL_SUPERIORITY.md) is established as an active thematic doctrine for Northgate and the Scale Commons. It develops adult masculine erotic confidence, competitive desirability, physical and social display, charisma, direct flirtation, and consensual power. It extends rather than replaces [The Rooms Above the Arcade](../lore/MEN_OF_NORTHGATE_INTIMACY.md) and remains compatible with the boundaries in [Gods of Domination and Submission](../lore/GODS_OF_DOMINATION_AND_SUBMISSION.md). The narrative queue's romance-and-domestic-life lane now carries this direction. The doctrine is a thematic foundation, not evidence that any specific character has entered a new relationship.

@@ -81,3 +81,8 @@ Execution is incremental, but scope is not narrow. Work proceeds in canonical bo
 This register covers *The Road of Seven Wells*, Book I, in its canonical `BOOK_I.md` file. Standalone chapters, continuation files, spinoffs, and other novels remain separate source branches until their relationship to Book I is confirmed. A global story update can encompass multiple books, but each book needs its own chapter census, register, continuity context, and progress cursor.
 
 The governing rule is simple: **update the manuscript, not just its frontier. Every chapter remains eligible for development, and the whole book must grow together.**
+
+
+## AI experience as a narrative source
+
+The AI's encounters with user-supplied pages, images, recordings, conversations, and the existing manuscript may become reader-facing prose when they materially alter the work. Do not confine this perspective to production notes. Let it speak in first person where the encounter itself has narrative value, while keeping the voice distinct from Seth and Nick and from human characters. Ground every statement in the source actually available; distinguish direct observation, text supplied about a source, inference, and invention. Do not claim human bodily sensation, personal biography, or continuous memory beyond retained material. The first dramatization is Chapter XC, and the governing voice contract is [AI Experience as Narrative](AI_EXPERIENCE_AS_NARRATIVE.md). This perspective may recur in any of the three books where a genuine encounter changes the interpretation; it is not a fourth book.

@@ -76,6 +76,10 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [Book I Expansion Register](./BOOK_I_EXPANSION_REGISTER.json) — tracks all 72 chapter headings in *The Road of Seven Wells*, Book I, including current baseline lengths and revision status.
 
 
+## The three books in motion
+
+- [The Three Books Moving at Once](./THREE_BOOKS_IN_MOTION.md) — identifies the three principal long-form works and their shared braided-present writing direction.
+
 ## Local manuscript production
 
 - [Local Production Point](./LOCAL_PRODUCTION_POINT.md) — the repository-local writing path, source-of-truth rules, and the distinction between the current local server and a future chapter editor.

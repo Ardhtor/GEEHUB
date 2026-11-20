@@ -1585,5 +1585,31 @@
       "redwood",
       "svg"
     ]
+  },
+  {
+    "id": "confluence-body-without-guesswork-2026-11-20",
+    "name": "The Body, Without Guesswork",
+    "group": "story-chapter",
+    "status": "incubating",
+    "kind": "lore-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/CONFLUENCE_THE_BODY_WITHOUT_GUESSWORK_2026-11-20.md",
+    "description": "Common Table chapter in which adult men discuss pelvic anatomy, ordinary symptoms, hygiene, medical uncertainty, intimacy, consent, and the Institute's voluntary health series.",
+    "related": [
+      "confluence-growth-pass-2026-11-20",
+      "confluence-expansion",
+      "institute-of-becoming",
+      "character-marcus",
+      "character-dan-roman"
+    ],
+    "tags": [
+      "confluence",
+      "common-table",
+      "adult-health",
+      "anatomy",
+      "hygiene",
+      "consent",
+      "continuity"
+    ]
   }
 ]

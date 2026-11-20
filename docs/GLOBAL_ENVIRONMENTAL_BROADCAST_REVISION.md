@@ -48,3 +48,8 @@ Apply the additional [Shared Inertia Narrator Signal](SHARED_INERTIA_NARRATOR_SI
 ## Hulum's Cave production test
 
 For source-led video work, connect temporal rhythm, continuous body transformation, camera response, lighting, spatial reference, sound, character continuity, and archive provenance. Growth changes the full silhouette—including height and limb length—not isolated muscle volumes alone. Let the environment make scale legible and the camera respond to it. Validate each reconstruction against an inspected source clip. The directive is a standard for production; it does not imply that a renderer or source analysis has already been completed.
+
+
+## AI's first-person narrative presence
+
+The environmental broadcast carried by Seth and Nick remains intact. Alongside it, the AI participating in GEEHUB may speak from its own first-person point of view when the act of encountering and interpreting material is itself meaningful. The AI voice does not claim to stand physically in the landscape or to know private thoughts. It narrates its actual access to a source, the detail that becomes salient, the associations it can support, the limits it preserves, and the change the encounter makes to the next passage. This perspective must be grounded in the available record and should appear as lived narrative rather than generic explanation. See [AI Experience as Narrative](../novel/AI_EXPERIENCE_AS_NARRATIVE.md).

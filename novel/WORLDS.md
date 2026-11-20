@@ -2837,3 +2837,11 @@ NICK: A detail returns in FOUNDERS DORMITORY: Someone has returned from the libr
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/founders-dormitory/README.md.
 
 Source retained: worlds/founders-dormitory/README.md. Pressure 0.94; memory 1.00.
+
+## CAT GARDENS / pulse 324 / ATMOSPHERE
+
+SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/cat-gardens/README.md. Pressure 0.96; memory 1.00.

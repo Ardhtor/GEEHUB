@@ -68,3 +68,8 @@ Chapter LXXXVI gives Gabe a new experience of being admired without treating ano
 ## Relationship development — Dorian Vale (Chapter LXXXVII)
 
 Gabe goes on his first date with Dorian at Il Ponte. He arrives having made a deliberate effort with his clothes and appearance, enjoys Dorian's direct admiration, and speaks honestly about wanting attention without wanting to be governed by it. He asks whether Dorian was surprised by his confession at the Evening of Presence and explains that he had needed time to understand what he wanted. The dinner is relaxed and candid, with conversation moving between the western crossing, food, public confidence, and their own expectations. Gabe initiates a first kiss beneath the cedar arcade and agrees to meet Dorian again on Sunday. The connection remains mutual interest and deliberate exploration, not an established partnership. Gabe retains the right to define its pace and direction.
+
+
+## Relationship development — Dorian Vale (Chapter LXXXVIII)
+
+Gabe meets Dorian on Sunday for coffee, breakfast, and a review of the western crossing drawings. He identifies a maintenance-clearance issue and proposes a removable guard panel, contributing a practical improvement that Dorian records as a shared review. Gabe is comfortable being seen with Dorian in the Commons, but makes clear that he does not want every ordinary meeting to become a public event. Their attraction is increasingly playful and direct. They share another kiss near the closed western path and agree to meet again the following Sunday without drawings. Gabe is not trying to become Dorian or to be absorbed into his life; he is choosing the connection while retaining his own pace and preferences.

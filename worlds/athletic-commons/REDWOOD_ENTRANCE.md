@@ -20,6 +20,12 @@ The event recorded in Chapter LXXXIII establishes the following operational patt
 
 This is an institutional procedure, not an expectation that a passer-by should conduct a search independently. A bystander can notice, remain nearby, alert staff, and make the handover clear. Staff retain responsibility for the search and the official incident record.
 
+## Follow-up established in Chapter LXXXIV
+
+A two-sided paper mock-up has been tested from the pool side and the Redwood path. The initial alignment was adjusted so that the return arrow points toward the actual glass entrance rather than vaguely toward the building. The permanent panel is to use correctly oriented artwork on both faces; a single image should not simply be repeated without mirroring the directional information. The father and son from the earlier incident returned voluntarily with the father present and helped confirm the first-visit perspective. Their personal details remain outside the shared place record.
+
+The bench clearance has been measured, and the display stand that narrowed the waiting space has been moved. This is an initial correction, not a guarantee that the entrance will remain clear during every peak period. The team should recheck the route during normal use.
+
 ## Open maintenance work
 
-The temporary directional arrow was installed after the incident. A permanent sign drawing, a two-direction sightline check, the floor-marking test, and a measurement of the seating clearance remain open until each has been installed or completed and verified. The incident's shared record omits the boy's name and identifying details; any necessary personal information remains in the restricted safety report, not the public place history.
+The temporary directional arrow remains in place. The two-direction paper-mock-up test is complete, but the permanent sign drawing, wording approval, manufacture, installation, and final sightline check remain open. The floor-marking durability test also remains open. The seating clearance has been measured and the display stand moved; recheck the clear route during ordinary peak use. The incident's shared record omits the boy's name and identifying details; any necessary personal information remains in the restricted safety report, not the public place history.

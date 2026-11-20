@@ -1952,5 +1952,29 @@
       "sequoia-woodlands",
       "vision-workspace"
     ]
+  },
+  {
+    "id": "confluence-body-without-guesswork-2026-11-20",
+    "name": "The Body, Without Guesswork",
+    "group": "story-chapter",
+    "status": "incubating",
+    "summary": "The Common Table conversation becomes a voluntary adult health series on pelvic anatomy, hygiene, symptoms, boundaries, and asking direct questions without shame.",
+    "path": "../lore/CONFLUENCE_THE_BODY_WITHOUT_GUESSWORK_2026-11-20.md",
+    "tags": [
+      "confluence",
+      "common-table",
+      "adult-health",
+      "anatomy",
+      "hygiene",
+      "consent",
+      "continuity"
+    ],
+    "related": [
+      "confluence-growth-pass-2026-11-20",
+      "confluence-expansion",
+      "institute-of-becoming",
+      "character-marcus",
+      "character-dan-roman"
+    ]
   }
 ]

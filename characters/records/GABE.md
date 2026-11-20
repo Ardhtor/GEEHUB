@@ -73,3 +73,8 @@ Gabe goes on his first date with Dorian at Il Ponte. He arrives having made a de
 ## Relationship development — Dorian Vale (Chapter LXXXVIII)
 
 Gabe meets Dorian on Sunday for coffee, breakfast, and a review of the western crossing drawings. He identifies a maintenance-clearance issue and proposes a removable guard panel, contributing a practical improvement that Dorian records as a shared review. Gabe is comfortable being seen with Dorian in the Commons, but makes clear that he does not want every ordinary meeting to become a public event. Their attraction is increasingly playful and direct. They share another kiss near the closed western path and agree to meet again the following Sunday without drawings. Gabe is not trying to become Dorian or to be absorbed into his life; he is choosing the connection while retaining his own pace and preferences.
+
+
+## Friendship widened — Chapter LXXXIX
+
+Gabe introduces Dorian to Tyler Boeskin, a mate of his who knows the Northgate print room and has practical experience producing team notices, posters, and large-format displays. Gabe is pleased to bring Dorian into an existing friendship rather than keeping their connection in a private two-person orbit. Boeskin's sociability makes the introduction easy, and the three men establish the print room as a local production point for the manuscript sequence. Gabe values the room because it brings chapters, maps, source cards, and unresolved questions together without pretending that a physical display replaces the repository. The relationship with Dorian continues through another kiss and a further choice to spend time together; it remains deliberately undefined as a formal partnership.

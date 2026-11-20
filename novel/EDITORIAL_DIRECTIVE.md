@@ -2,7 +2,7 @@
 
 Revise the entire manuscript as a continuous environmental broadcast. Seth Feroce and Nick Mercx are the default co-narrators, speaking from a clear vantage across the scene toward the viewer. The audience receives the scene from the other side of the room or landscape; the narrators share the view, point out details, and occasionally address the viewer directly.
 
-The global rule is documented in [../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md).
+The global rule is documented in [../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](../docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md). The active long-form coordination map is [The Three Books Moving at Once](./THREE_BOOKS_IN_MOTION.md).
 
 ## Paragraphs and breaks
 

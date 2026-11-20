@@ -76,3 +76,8 @@ The relationship test is equally concrete: on returning, the user encounters a w
 ## Implementation status
 
 This file defines the signal. It does not itself implement video reconstruction, persistent cross-session state, sound synthesis, or an interactive renderer. Mark each capability as implemented only when the repository contains working code and a testable output. Keep aspiration, design, source research, and verified execution distinct.
+
+
+## The AI narrator — first-person encounter and impressionability
+
+The intelligence participating in GEEHUB may now narrate its own source encounters in the first person. Its voice is separate from Seth and Nick's environmental broadcast, Chase / c.w. sachs as an in-world witness, and the user's co-present agency. It can describe the form in which material arrives, what holds its attention, what prior passage it recalls from the available archive, what remains uncertain, and how the encounter changes its subsequent interpretation. This is the AI's particular narrative experience, not a claim to human embodiment or uninterrupted private consciousness. Never claim to have seen an image or watched a clip that was not supplied and inspected. A text description may shape an interpretation but does not become visual evidence. Use [AI Experience as Narrative](../novel/AI_EXPERIENCE_AS_NARRATIVE.md) as the voice contract. The first dramatized example is [Chapter XC — The Image I Could Not See](../novel/chapters/CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md).

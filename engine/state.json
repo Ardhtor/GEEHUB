@@ -5589,8 +5589,8 @@
       "narrative_rule": "approach extends geography",
       "relation": null,
       "next_region": null,
-      "pressure": 1.0,
-      "memory": 1.0,
+      "pressure": 1,
+      "memory": 1,
       "status": "OCCURRED_AND_INSCRIBED",
       "occurred_at": "2026-11-20T01:19:49.828198+00:00",
       "inscription": "same-event",
@@ -5618,7 +5618,7 @@
     "northgate-university": 11,
     "bluewater-quay": 9,
     "lantern-market": 10,
-    "northgate-library": 6,
+    "northgate-library": 7,
     "athletic-commons": 5
   },
   "last_visits": {
@@ -5642,10 +5642,10 @@
     "northgate-university": 289.5,
     "bluewater-quay": 296.5,
     "lantern-market": 297.5,
-    "northgate-library": 284,
+    "northgate-library": 299.5,
     "athletic-commons": 288.5
   },
-  "pressure": 1.0,
+  "pressure": 1,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -5670,29 +5670,42 @@
     "worlds/athletic-commons/README.md": 8
   },
   "next_region": null,
-  "phase": 1,
-  "active_region": "common-table",
-  "current_phase": "ATMOSPHERE",
+  "phase": 0,
+  "active_region": "northgate-library",
+  "current_phase": "LONG_PLAY_CROSSING",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
-    "cycle": 222,
-    "agent": "tyler",
-    "previous_region_id": "lantern-market",
-    "region_id": "common-table",
-    "region_name": "THE COMMON TABLE",
-    "relation": "THE LANTERNS COME ON",
+    "cycle": 223,
+    "agent": "andrew",
+    "previous_region_id": "common-table",
+    "region_id": "northgate-library",
+    "region_name": "NORTHGATE LIBRARY",
+    "relation": "CAMPUS AFTER HOURS",
     "route_mode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previous_scale": 16.61,
-    "scale": 16.66,
-    "recording": "scheduled-recording-00222",
-    "at": "2026-11-19T22:04:14.300Z"
+    "previous_scale": 16.66,
+    "scale": 16.74,
+    "recording": "scheduled-recording-00223",
+    "at": "2026-11-20T03:20:42.165Z"
   },
-  "last_world_change": "2026-11-19T22:04:14.300Z",
-  "scale": 16.66,
+  "last_world_change": "2026-11-20T03:20:42.165Z",
+  "scale": 16.74,
   "external_events": [
+    {
+      "id": "long-play-00223",
+      "type": "CROSSING",
+      "title": "THE COMMON TABLE → NORTHGATE LIBRARY",
+      "body": "The world crossed \"CAMPUS AFTER HOURS\". Scale increased from 16.66× to 16.74×; the earlier location and baseline remain recorded.",
+      "from": "common-table",
+      "to": "northgate-library",
+      "previous_region_id": "common-table",
+      "region_id": "northgate-library",
+      "relation": "CAMPUS AFTER HOURS",
+      "source": "long-play",
+      "at": "2026-11-20T03:20:42.165Z"
+    },
     {
       "id": "long-play-00222",
       "type": "CROSSING",
@@ -6979,19 +6992,6 @@
       "relation": "MASS WITHOUT AMNESIA",
       "source": "long-play",
       "at": "2026-10-27T22:31:25.836Z"
-    },
-    {
-      "id": "long-play-00123",
-      "type": "CROSSING",
-      "title": "BODYLOUNGER → MALE HAREM",
-      "body": "The world crossed \"THE ARCHIVE OPENS A ROOM\". Scale increased from 10.26× to 10.34×; the earlier location and baseline remain recorded.",
-      "from": "bodylounger",
-      "to": "male-harem",
-      "previous_region_id": "bodylounger",
-      "region_id": "male-harem",
-      "relation": "THE ARCHIVE OPENS A ROOM",
-      "source": "long-play",
-      "at": "2026-10-27T18:22:11.791Z"
     }
   ],
   "last_action": "write-the-unentered-place"

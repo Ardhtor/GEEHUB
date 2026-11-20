@@ -54,3 +54,10 @@ The active doctrine is recorded in [Hypersexual Superiority](../lore/HYPERSEXUAL
 ## Chapter LXXXIX — friendship enters the shared space
 
 Dorian and Gabe continue their mutual, deliberately paced connection. Their next Sunday meeting is spent in the Northgate print room rather than at the survey office. They share another kiss, but do not announce a formal partnership. Gabe introduces Tyler Boeskin as his mate; Boeskin is welcomed into the wider circle as a friend and practical collaborator. His arrival widens the social world around Dorian and Gabe without assigning him a romantic pairing. Distinguish him from the existing evidence-focused Tyler. The group should retain ordinary friendship, shared production, and individual social lives alongside the developing attraction.
+
+
+## The low bar applies to every man
+
+[The Low Bar — Ordinary Men Belong](../lore/LOW_BAR_ORDINARY_MEN.md) is active relationship canon throughout the world. A man does not have to be exceptional to be liked, desired, invited, befriended, or given room in the story. Attraction can begin with ordinary appearance, a comfortable build, a familiar voice, a clumsy joke, shared food, or simply turning up. Friendship can remain easy and undemanding; not every connection needs a profound explanation. Apply the rule to giants and ordinary-sized men, athletes and untrained men, charismatic men and dull men, successful men and men who have not found their footing. Do not make inclusion a reward for self-improvement.
+
+This is low pressure, not contempt. The men are not to be humiliated or treated as lesser for being average. The low bar does not imply universal attraction or entitlement to another man's attention. Preserve individual taste, privacy, consent, bodily autonomy, and the right to decline. Safety-critical work still requires actual competence and review. Ordinary shortcomings should usually produce ordinary consequences: a complaint, a laugh, a reminder, a repair, or a second attempt, rather than a moral crisis.

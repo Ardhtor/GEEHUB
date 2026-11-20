@@ -53,6 +53,8 @@ This is the source-led research and production lineage for Hulum's Cave. Continu
 
 ## Continue story and world projects
 
+For the active Northgate manuscript, use the [Local Manuscript Production Point](../novel/LOCAL_PRODUCTION_POINT.md). It identifies the chapter source of truth, the local server entry, and the current boundary between audiovisual Studio work and manuscript editing.
+
 ### The Golden Lion and the Seven Great Houses
 
 **Status in project record:** active.  

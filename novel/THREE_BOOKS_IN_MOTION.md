@@ -6,9 +6,9 @@ This is the working map for the three principal long-form books presently being 
 
 | Book | Main manuscript | Present point of attention | Matters still alive |
 |---|---|---|---|
-| *The Road of Seven Wells* | [BOOK_I.md](BOOK_I.md), with separate continuation material awaiting reconciliation | Bill remains at the Sacred Fountain while Luke, Tyler, Kirk, Joseph, and the unnamed man pass through the small door into the world made of writing | The fountain's open place; the metal stop; the old road; the house and Blue Hall; the first man's return; the different rooms that continue to exist beyond the men's immediate sight |
+| *The Road of Seven Wells* | [BOOK_I.md](BOOK_I.md), with separate continuation material awaiting reconciliation | Bill remains at the Sacred Fountain while Luke, Tyler, Kirk, Joseph, and the unnamed man pass through the small door into the world made of writing; the water also shows the old house, the Blue Hall, and the eyes beneath the seventh well continuing at once | The fountain's open place; the metal stop; the old road; the house and Blue Hall; the first man's return; the different rooms that continue to exist beyond the men's immediate sight |
 | *The Golden Lion and the Seven Great Houses* | [The Golden Lion and the Seven Great Houses](../lore/MUSCLE_MYTH_GENTLE_KING_LION.md) | The Master and the Golden Lion are at the southern lower gate; the upper signal tower has not answered | The damaged tower, the quarry water, the lower-to-middle signal, the silent upper hall, the keepers' trust, and the terms under which the visitors may proceed |
-| *The Many Open Ends* | [The Many Open Ends](EXPANSION_VOLUME_THE_MANY_OPEN_ENDS.md) | The archive's doors have opened to men from Northgate, Hrothgar, the Convent, Bluewater Quay, the Digitorium, and the cabin | The misidentified chair, the shortened hinge, the Convent drain, the smoked glass, the quay's supply route, the men's separate obligations, and the consequences of repairs after the visitors leave |
+| *The Many Open Ends* | [The Many Open Ends](EXPANSION_VOLUME_THE_MANY_OPEN_ENDS.md) | The archive's doors have opened to men from Northgate, Hrothgar, the Convent, Bluewater Quay, the Digitorium, and the cabin; the misdirected hinge crate and the hidden Convent drain now touch several places without stopping their local work | The misidentified chair, the shortened hinge, the Convent drain, the smoked glass, the quay's supply route, the men's separate obligations, and the consequences of repairs after the visitors leave |
 
 The Expansion Atlas, its account of the Inhabited Confluence, the People volume, and the character records are supporting maps and histories. They are not silently promoted into further numbered books. The Golden Lion's saga remains its own novel, and the Many Open Ends remains an open expansion book rather than a replacement for the Road of Seven Wells.
 
@@ -37,3 +37,14 @@ Seth and Nick remain the principal voices who look across the scene with the rea
 - Carry consequences into later scenes, even when they arrive as a small inconvenience or correction.
 - Update the relevant character and place records after a lasting change.
 - Keep notes about source paths and manuscript state outside the fiction. Never let the men sound as though they are reading repository instructions.
+
+
+## First braided revision pass — 20 November 2026
+
+The first book-wide pass has begun in all three works. It is a first pass, not a claim that every chapter has already been revised.
+
+- *The Road of Seven Wells*: Chapter LXV now lets the Sacred Fountain, the old house, the Blue Hall, and the eyes beneath the seventh well move during the same stretch of time. The chapter was fetched again and verified at 4,897 words. Its progress entry and source fingerprint have been updated.
+- *The Golden Lion and the Seven Great Houses*: the tower's unanswered signal now unfolds beside Halven's quarry-water inspection. A runner carries the new finding back to the lower hall; the men at the tower do not know it until the message arrives. The book's former editorial movement headings have been replaced with names drawn from the places themselves.
+- *The Many Open Ends*: the crate at the wrong door, the Convent's concealed drain, the quay's fitting, the Digitorium's glass, the cabin's latch, and the Archive's open day now develop through sustained scenes. The old outline-like passages about the next days and the open register have been turned into events the men experience. Mang0 and Arin have appeared on a separate line to comment on stray noises; Seth and Nick remain the main voices across the scenes.
+
+The chapters use the words the men have chosen for their own roads, rooms, objects, and customs. The editorial method stays in this guide and the private writing instructions, not in the men's speech.

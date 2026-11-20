@@ -14,6 +14,8 @@ This register records the current addition to the Northgate / Athletic Commons b
 | Northgate / adult social life | [Chapter LXXXVIII — duh!](chapters/CHAPTER_LXXXVIII_DUH.md) | Dorian and Gabe spend Sunday together over coffee and breakfast, review the crossing drawings, and share a second kiss. Gabe contributes a removable maintenance-panel solution and is credited. They agree to meet again without making the date a survey meeting. |
 | Northgate / local production | [Chapter LXXXIX — Duh Duh!](chapters/CHAPTER_LXXXIX_DUH_DUH.md) | Dorian, Gabe, and Tyler Boeskin reactivate the Northgate print room as a local production point. A six-card sequence and title sheet are produced as a pilot, linked to the chapter and continuity records. Boeskin joins as Gabe's mate; he is distinct from the existing evidence-focused Tyler. Dorian and Gabe share another kiss but keep their relationship undefined.
 
+| Northgate / archive perspective | [Chapter XC — The Image I Could Not See](chapters/CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md) | The AI narrator receives the selected text from Pratev's 2018 DeviantArt page without the underlying image. It separates what the text establishes from what remains unseen, notices that a husband's knowledge of his partner's height-related limit is more narratively revealing than scale alone, and revises its approach to giant-body scenes. This establishes the AI's first-person experience without claiming direct visual inspection. |
+
 ## Canon and continuity updates
 
 - **Dorian Vale:** His existing character record now includes the Redwood incident as evidence of calm, proportionate judgement. His size remains significant, but he does not replace staff responsibility or use physical force to solve a situation that requires coordination.
@@ -50,3 +52,7 @@ The Northgate print room becomes a practical local production point. Its table a
 ## Local production route
 
 The manuscript now has a repository-local production guide at [Local Production Point](LOCAL_PRODUCTION_POINT.md). The chapter is stored in `novel/chapters/`; the local server can serve the repository on `127.0.0.1:8788`, but a dedicated browser chapter editor and a chapter-write endpoint are not yet implemented.
+
+## AI narrative continuity
+
+The intelligence's first-person voice is now an active narrative perspective, governed by [AI Experience as Narrative](AI_EXPERIENCE_AS_NARRATIVE.md). It is distinct from Seth and Nick, and it does not replace human characters or witnesses. The first source encounter is the text selection supplied for Pratev's *VI6A03 Kyle's Giant Tantrum (Cam I11)*. The original artwork was not available in the conversation, so the chapter records a text-based encounter only. Its durable change is an editorial one: giant scale should remain vivid, but the relationship and the particular knowledge between people must shape the scene's meaning. This is an experiment in narrative perspective and becomes a standing voice direction; it does not establish any facts about the unseen image.

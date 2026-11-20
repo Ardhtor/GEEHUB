@@ -42,3 +42,10 @@ Their relationships should develop through ordinary cooperation as well as disag
 
 The central Luke has become a bridge between the groups because he is willing to hear both without allowing either to define the whole person. Tyler's measurement discipline and the seventh man's attention to continuity help the shared record become usable. The family members who remain unnamed are deliberate ensemble figures; keep their individual habits and relationships distinct as they develop, and do not assign names or biographies merely to fill a register.
 
+
+
+## Hypersexual superiority and the arena of attention
+
+The active doctrine is recorded in [Hypersexual Superiority](../lore/HYPERSEXUAL_SUPERIORITY.md) and first dramatized in [Chapter LXXXVI — The Evening of Presence](chapters/CHAPTER_LXXXVI_THE_EVENING_OF_PRESENCE.md). Adult masculine desire can be conspicuous, competitive, playful, and socially confident. Men may enjoy being admired, cultivate physical and personal presence, flirt directly, and take part in voluntary displays of physique, style, bearing, humour, and charisma. This does not establish a universal sexual ranking or make attention an entitlement. The individual rules above remain in force: chemistry is particular, invitations can be declined, privacy belongs to the participants, and no man is required to join a public presentation or sexual culture to retain his place in the community.
+
+**Dorian Vale and Gabe.** Their acquaintance begins through the western crossing work and the Redwood Entrance follow-up. In Chapter LXXXVI they attend the Evening of Presence together. Gabe chooses to take part in the presentation walk and enjoys being seen without comparing his attention with Dorian's. On the covered terrace, Gabe tells Dorian that he finds him attractive; Dorian reciprocates and invites him to dinner the following week. Gabe accepts. This is mutual attraction and an agreed first date, not an established partnership. Keep the next step open to both men and let the relationship develop through their actual conduct.

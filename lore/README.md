@@ -12,6 +12,10 @@ mechanism → interface → transformation rule → continuity principle → set
 The raw archive remains authoritative for what a conversation actually contained. Lore is authoritative only for the state of the lore graph itself.
 
 
+## Current narrative lore
+
+- [The Body, Without Guesswork](CONFLUENCE_THE_BODY_WITHOUT_GUESSWORK_2026-11-20.md) — the Institute's developing practice of embodied knowledge, practical access, consent, and designing shared spaces with the adults who use them. Dani Kaganovich's first recorded chapter belongs here; his character record preserves the continuing life.
+
 ## Active thematic records
 
 - [Hypersexual Superiority](HYPERSEXUAL_SUPERIORITY.md) — adult masculine erotic confidence, competitive desirability, display, charisma, and consensual power across Northgate and the Scale Commons.

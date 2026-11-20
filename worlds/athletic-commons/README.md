@@ -5,3 +5,8 @@ The Athletic Commons is Northgate's centre for physical culture. It combines a w
 The main hall has high windows, timber roof trusses, broad mirrors, and a long view toward the playing fields. Beyond it, the pool is lit by daylight filtered through blue glass. There are benches for watching practice, a small café, and a covered terrace where teams and friends gather after training. The changing rooms are clean, spacious, and designed for ordinary use; the recovery wing includes stretching rooms, quiet seating, and a sports therapy studio.
 
 The Commons is a meeting place as much as a facility. Students arrive in pairs and groups, recognise one another across the floor, and make plans for dinner or a walk back to the dormitories. Its central principle is continuity: training should add to a person's life, not consume it.
+
+
+## Places and continuity
+
+- [Redwood Entrance and Walk](./REDWOOD_ENTRANCE.md) — campus threshold, visitor wayfinding, and the response procedure established in Chapter LXXXIII.

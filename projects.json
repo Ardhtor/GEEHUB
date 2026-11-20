@@ -1617,5 +1617,20 @@
       "facilities",
       "tactile-continuity"
     ]
+  },
+  {
+    "id": "embodied-presence-relational-scene-rule",
+    "name": "Embodied Presence and Relational Scene Rule",
+    "status": "active",
+    "kind": "editorial-standard",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/docs/EMBODIED_PRESENCE_AND_RELATIONAL_SCENE_RULE.md",
+    "description": "Global editorial rule against pre-emptive omission of adult physicality, touch, intimacy, and relational tension; preserves embodied detail, agency, reciprocity, and scene duration across prose and media.",
+    "related": [
+      "confluence-body-without-guesswork-2026-11-20",
+      "institute-of-becoming",
+      "tractus-continuity",
+      "vision-workspace"
+    ]
   }
 ]

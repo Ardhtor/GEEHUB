@@ -41,3 +41,8 @@ Over time, the group became a small Northgate example of a wider principle: adul
 ## Hypersexual superiority
 
 The campus's more competitive expression of adult desire is developed in [Hypersexual Superiority](HYPERSEXUAL_SUPERIORITY.md). This doctrine intensifies the existing culture of attraction, physique, presentation, confidence and openly expressed desire. It adds an arena of attention in which men may enjoy being admired, cultivate desirability, flirt directly, and compete through distinct forms of presence. It does not replace the existing domestic and relational canon: casual partners, enduring couples, men who abstain, and residents who prefer privacy remain equally legitimate parts of Northgate. The doctrine's use of dominance and submission remains governed by invited, bounded, revisable agreements.
+
+
+## The Evening of Presence
+
+The first narrative instance of the [Hypersexual Superiority](HYPERSEXUAL_SUPERIORITY.md) doctrine is recorded in [Chapter LXXXVI — The Evening of Presence](../novel/chapters/CHAPTER_LXXXVI_THE_EVENING_OF_PRESENCE.md). The gathering brings adult residents together for voluntary presentation, flirtation, food, and conversation. It broadens the existing social life without replacing the established relationships or requiring every resident to participate. Dorian Vale and Gabe acknowledge mutual attraction and agree to dinner; this is an emerging romantic possibility, not yet a partnership.

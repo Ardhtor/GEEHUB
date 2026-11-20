@@ -2437,3 +2437,11 @@ SETH: A line becomes visible between FOUNDERS DORMITORY and CAT GARDENS. The arc
 NICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 317 — CROSSING / CAT GARDENS / 2026-11-20T18:48:47.546675+00:00
+
+NICK: The world crosses the route from FOUNDERS DORMITORY into CAT GARDENS. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: Sheltered courtyards shared with resident cats; warm steps, water bowls, catmint, quiet benches, and a local sign of good luck. Relation carried forward: THE DORM GARDEN PATH.
+
+Rule: meaningful change becomes an outward-facing signal

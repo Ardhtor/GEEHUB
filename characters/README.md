@@ -86,3 +86,7 @@ These are provisional fictional records. Their biographies remain open beyond th
 ## Northgate ensemble addition — Chapter LXXXIX
 
 - [Tyler Boeskin](records/TYLER_BOESKIN.md) — Gabe's adult mate, distinct from the existing evidence-focused Tyler; sociable, physically confident, and practically involved in the Northgate print room.
+
+## New character record — the Institute of Becoming
+
+- [Dani Kaganovich](records/DANI_KAGANOVICH.md) — developing adult character whose first Institute arc joins training, practical maintenance, embodied access, and an emerging familiarity with Tyler. Public-athlete references remain separate from the fictional life.

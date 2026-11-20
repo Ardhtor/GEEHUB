@@ -74,3 +74,10 @@ Hypersexual superiority means **more confidence, more desire, more distinction, 
 ## First narrative instance — The Evening of Presence
 
 [Chapter LXXXVI — The Evening of Presence](../novel/chapters/CHAPTER_LXXXVI_THE_EVENING_OF_PRESENCE.md) gives the doctrine its first Northgate gathering. Adult residents celebrate physique, presentation, confidence, flirtation, humour, and the pleasure of being admired. The event has no permanent ranking and no compulsory performance. The platform is used for voluntary presentation; private portraits remain under each participant's control. Dorian and Gabe each take part, and their mutual attraction becomes explicit when they speak privately on the terrace. They agree to dinner the following week, without assigning the relationship a status before it has developed.
+
+
+## The low bar beneath the display
+
+The culture of display sits on top of a deliberately low social threshold. Men may admire extraordinary physiques, enjoy public presentation, compete playfully, and cultivate adult desirability, but none of those things are admission requirements. An average body, an unremarkable face, poor clothes, ordinary work, weak athletic ability, or a clumsy manner does not disqualify a man from being wanted or welcomed. The muscular men do not form a ruling class of desirability, and the quieter or less polished men are not supporting scenery.
+
+Keep the spectacle and lower the gate. Some men are attracted to conspicuous size; others prefer softness, ordinary proportions, familiar faces, or a man's manner. Some are not looking for anyone. Nobody has to demonstrate superiority to deserve a chair, and nobody's attention creates entitlement. The governing social rule is [The Low Bar — Ordinary Men Belong](LOW_BAR_ORDINARY_MEN.md).

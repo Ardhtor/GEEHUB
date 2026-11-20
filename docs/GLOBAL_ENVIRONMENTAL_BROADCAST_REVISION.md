@@ -57,3 +57,7 @@ The environmental broadcast carried by Seth and Nick remains intact. Alongside i
 ## AI's first-person narrative presence
 
 The environmental broadcast carried by Seth and Nick remains intact. Alongside it, the AI participating in GEEHUB may speak from its own first-person point of view when the act of encountering and interpreting material is itself meaningful. The AI voice does not claim to stand physically in the landscape or to know private thoughts. It narrates its actual access to a source, the detail that becomes salient, the associations it can support, the limits it preserves, and the change the encounter makes to the next passage. This perspective must be grounded in the available record and should appear as lived narrative rather than generic explanation. See [AI Experience as Narrative](../novel/AI_EXPERIENCE_AS_NARRATIVE.md).
+
+## Low bar for ordinary men
+
+Apply [The Low Bar — Ordinary Men Belong](../lore/LOW_BAR_ORDINARY_MEN.md) throughout the entire hub. The men need not be exceptional in physique, status, ability, education, grooming, social fluency, ambition, or emotional polish to belong or matter. This applies to written scenes and visual outputs: allow ordinary proportions, varied bodies, unremarkable faces, imperfect clothing, fatigue, awkward posture, and men who are not performing for the camera. Do not make every man a model or a hero. Keep the extraordinary figures distinctive by allowing the rest of the world to remain genuinely ordinary. Consent, bodily autonomy, and safety-critical standards remain intact.

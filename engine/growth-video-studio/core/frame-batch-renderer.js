@@ -351,7 +351,7 @@ function validateSourceFrameIndex(index, source, segmentationFrameSet, segmentat
       derivation.schemaVersion !== 1 ||
       derivation.method !== "ffmpeg-image2-png" ||
       derivation.sourceUri !== source.uri ||
-      derivation.sourceChecksum !== source.checksum ||
+      String(derivation.sourceChecksum || "").toLowerCase() !== String(source.checksum || "").toLowerCase() ||
       !Number.isInteger(derivation.streamIndex) || derivation.streamIndex < 0 ||
       !Number.isFinite(probedRate) || Math.abs(probedRate - segmentationFrameSet.fps) > 0.0001 ||
       !["best_effort_timestamp_time", "pkt_pts_time"].includes(derivation.timestampBasis) ||
@@ -760,8 +760,8 @@ async function createOutputDirectory(requestedPath, sourceDirectory) {
  *
  * The source-frame index lives beside its PNG files and has this shape:
  * geehub.source-frame-index v1, sourceAssetId, sourceChecksum, sequenceId,
- * firstFrame, lastFrame, format { width, height, fps, frameCount }, and frames
- * [{ frame, timeSeconds, file, sha256 }]. File names are basenames only.
+ * firstFrame, lastFrame, format, a source-bound FFmpeg derivation record,
+ * and frames with registered time, source PTS, basename, and SHA-256.
  */
 export async function renderGrowthFrameBatchFiles({
   manifestPath,

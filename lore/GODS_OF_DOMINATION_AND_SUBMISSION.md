@@ -100,3 +100,8 @@ The Voluntary One added a second line:
 *The deepest yielding is the one that leaves the self intact.*
 
 Neither line was placed above the other.
+
+
+### Correspondence — Hypersexual Superiority
+
+The Northgate doctrine of [Hypersexual Superiority](HYPERSEXUAL_SUPERIORITY.md) develops the social and erotic expression of confident masculine presence. The Domitor's boundary remains in force: a man may command when invited, accept a chosen role, or reverse positions in a later encounter, but physical size, reputation, desirability, and public admiration do not confer authority over another man. In this correspondence, restraint is not a retreat from erotic power. It is what allows that power to be trusted and enjoyed.

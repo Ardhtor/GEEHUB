@@ -7,6 +7,7 @@ This register records the current addition to the Northgate / Athletic Commons b
 | Branch | New material | Continuity carried forward |
 |---|---|---|
 | Northgate / Athletic Commons | [Chapter LXXXIII — The Boy at the Redwood Entrance](chapters/CHAPTER_LXXXIII_THE_BOY_AT_THE_REDWOOD_ENTRANCE.md) | Dorian Vale returns to campus after the western report. He assists a separated young visitor by remaining visible, notifying reception, and allowing staff to coordinate the reunion with the boy's father. The Redwood Entrance is recorded as a wayfinding and visitor-safety location. The visitor's identity is not copied into shared lore. |
+| Northgate / Athletic Commons | [Chapter LXXXIV — The Sign That Faces Both Ways](chapters/CHAPTER_LXXXIV_THE_SIGN_THAT_FACES_BOTH_WAYS.md) | The temporary arrow is tested from both directions with a two-sided paper mock-up. The father and son revisit the Commons voluntarily and give first-visit wayfinding feedback. The bench clearance is measured and the obstructing display stand moved. Dorian and Gabe develop a more ordinary acquaintance without declaring a completed friendship. |
 
 ## Canon and continuity updates
 
@@ -17,6 +18,6 @@ This register records the current addition to the Northgate / Athletic Commons b
 
 ## Open work
 
-The temporary directional arrow is installed. The permanent sign drawing, sightline review from both directions, floor-marking durability test, and seating-clearance measurement remain open. They must not be marked complete until installed or tested and verified.
+The temporary directional arrow remains installed. A two-sided paper mock-up has been tested from both approaches, and its directional alignment has been corrected; the permanent sign drawing, wording approval, manufacture, installation, and final two-direction check remain open. The floor-marking durability test also remains open. The seating clearance has been measured and the display stand moved; the clear route should be checked again during normal peak use.
 
 The western bridge remains closed pending its engineering review. Dorian's relationship with Gabe remains preliminary and is not redefined by this incident. The new chapter is a continuation of the campus branch, not a replacement for the open bridge and friendship threads.

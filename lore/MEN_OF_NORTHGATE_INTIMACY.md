@@ -46,3 +46,12 @@ The campus's more competitive expression of adult desire is developed in [Hypers
 ## The Evening of Presence
 
 The first narrative instance of the [Hypersexual Superiority](HYPERSEXUAL_SUPERIORITY.md) doctrine is recorded in [Chapter LXXXVI — The Evening of Presence](../novel/chapters/CHAPTER_LXXXVI_THE_EVENING_OF_PRESENCE.md). The gathering brings adult residents together for voluntary presentation, flirtation, food, and conversation. It broadens the existing social life without replacing the established relationships or requiring every resident to participate. Dorian Vale and Gabe acknowledge mutual attraction and agree to dinner; this is an emerging romantic possibility, not yet a partnership.
+
+
+## The low bar at Northgate
+
+Northgate makes it unusually easy for adult men to belong. Residents are not screened by physique, social skill, academic ability, money, polish, charm, ambition, or romantic success. A man can arrive from training in an old shirt, be poor at conversation, dislike sport, fail a lift, make a bad joke, or have little to report about his day and still find a place at the Long Table. The campus does not turn every shortcoming into a character arc. It lets men remain ordinary.
+
+Attraction is similarly broad without being compulsory. A man may be liked for his face, his shape, his laugh, his voice, his clothes, his ease, or a small act of consideration. The most muscular man does not automatically outrank the soft, shy, scruffy, or unremarkable man. Men can have specific tastes, but the culture does not require a catalogue of exceptional qualities before someone becomes desirable. Friendship may begin with repeated meals, borrowed tools, shared television, a familiar seat, or no more than the fact that a man keeps coming back.
+
+The limits remain clear: refusal is respected, private life stays private, and shared facilities must remain usable and safe. A low bar for status and polish is not permission to harm, coerce, or neglect a genuine safety duty. The first scene that dramatizes this rule is [Chapter XCI — The Lowest Bar in Northgate](../novel/chapters/CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md).

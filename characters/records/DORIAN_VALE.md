@@ -32,7 +32,7 @@ This incident develops an important aspect of Dorian's judgement: he understands
 
 ## Relationships established in Chapter LXXIX
 
-**Gabe.** Their first encounter is tense. Gabe says, “He sickens me,” while struggling with the attention Dorian receives and his fear of becoming unremarkable. Gabe later identifies his jealousy and apologises, acknowledging that Dorian did not cause it. Dorian does not demand that Gabe like him; he asks him not to make Dorian responsible for what he fears. They establish preliminary respect through honest speech and shared attention to the bridge. They are not yet friends. Their next meeting remains open.
+**Gabe.** Their first encounter is tense. Gabe says, “He sickens me,” while struggling with the attention Dorian receives and his fear of becoming unremarkable. Gabe later identifies his jealousy and apologises, acknowledging that Dorian did not cause it. Dorian does not demand that Gabe like him; he asks him not to make Dorian responsible for what he fears. They establish preliminary respect through honest speech and shared attention to the bridge. They are not yet established as close friends. In Chapter LXXXIV they work alongside one another during the sign review and walk back toward East Dormitory together. Gabe begins to understand Dorian's deliberate care around people who may find his size overwhelming; Dorian in turn recognises Gabe's growing ability to notice another person without making the attention a contest. Their acquaintance is becoming more ordinary, but its future remains open.
 
 **Luke.** Dorian sees that Luke offers assistance without deciding what another man wants. Luke helps with the bridge and leaves Gabe room to speak for himself. Their connection is courteous and practical; no deeper personal history is established yet.
 
@@ -46,15 +46,21 @@ This incident develops an important aspect of Dorian's judgement: he understands
 
 These are beginnings, not finished relationships. Allow trust, familiarity, disagreement, and affection to develop through later conduct. Do not collapse the ensemble into one collective opinion of Dorian.
 
+## Further conduct established in Chapter LXXXIV
+
+Dorian returns to the Athletic Commons and participates in the review of the Redwood Entrance wayfinding design. He leaves room for the visitor and staff to test the route without making himself the centre of the exercise. He accepts the boy's direct feedback that the temporary board has no useful information on its reverse side, and supports a sign that points back to the staffed reception desk from either approach. He does not turn the family's return visit into a private arrangement or ask for personal details.
+
+Dorian's judgement is increasingly expressed through spatial awareness: he notices when his frame narrows a passage, moves aside so others can see the sign, and thinks about whether a route remains usable for people moving in different directions. This is a continuation of his bridge-inspection method, applied to an ordinary public building.
+
 ## Current continuity and open threads
 
 - Dorian has approached the Scale Commons from the western road.
 - The bridge's middle joint had already shifted during the rain; Dorian's approach made the remaining structural reserve visible but did not cause the original defect.
 - The full crossing remains closed pending permanent repair.
 - A temporary brace allows controlled inspection work only.
-- Dorian returns toward the western survey camp before dusk.
+- Dorian has returned to Northgate by the approved lower route; the western bridge remains closed pending permanent repair and engineering review.
 - His body continues growing; the western bell tower remains a fixed visual reference.
-- Gabe has apologised. Their next meeting is open.
+- Gabe has apologised and has begun a more ordinary acquaintance with Dorian through the Commons work; they are not yet established as close friends.
 - Tyler's measurements, Andrew's sound map, Chase's permission-based archive record, and the permanent bridge repair remain active threads.
 - A report from a second district is expected, but its claims must be checked independently before the group treats the western event as universal.
 

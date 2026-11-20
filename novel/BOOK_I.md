@@ -10589,7 +10589,13 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Bill did not mean that every place had been joined by a hidden corridor or that every person belonged to one continuous chain. Some relationships had been broken. Some were carried through objects, habits, or stories long after the people involved could speak to one another. Others had changed so much that the old description no longer fitted, although something remained worth recognising. Luke looked at the water and considered the difference. A connection could sound like a line that had never been interrupted. A relation could include a separation, a disagreement, or a period when nobody knew how to return. Tyler understood the practical consequence. A record should not make two events adjacent simply because they resembled one another. Kirk understood the architectural version: a bridge could be removed and its former approaches still mattered, even if no one could cross them anymore. Joseph looked at the stranger and saw that the distance between them had not vanished simply because they recognised one another. The distinction did not make the world less coherent. It made the coherence more honest.”
 
-     The water column changed again, and the clearing no longer held a single view. The fountain remained beneath their hands and feet, the forest still breathed its wet amber air, and yet three other places were moving at the same time. In the old house, the room with the dark monitor had not gone quiet after Bill's departure. The screen brightened by degrees, not enough to show a face, but enough to bring back the pale line of a road. Somewhere above it a chair scraped across the floor. The sound travelled through the house, passed the stairwell, and reached the dining room after the chair had stopped moving. The man upstairs turned toward the noise. He did not call out. He set the cup he was carrying on the table and waited, listening for the second sound that would tell him whether somebody had come down or merely shifted a piece of furniture.
+     The water column changed again, and the clearing no longer held a single view. The fountain remained beneath their hands and feet, the forest still breathed its wet amber air, and yet three other places were moving at the same time. In the old house, the room with the dark monitor had not gone quiet after Bill's departure. The screen brightened by degrees, not enough to show a face, but enough to bring back the pale line of a road. Somewhere above it a chair scraped across the floor. The sound travelled through the house, passed the stairwell, and reached the dining room after the chair had stopped moving. A small speaker beneath the monitor gave a dry pop, and two voices came through over the fading road image.
+
+     “That was a chair,” said Mang0.
+
+     “Or the building is trying to drag itself somewhere else,” Arin replied.
+
+     The man upstairs glanced at the speaker, then returned his attention to the stairwell. Neither voice offered an explanation for the road. The man upstairs turned toward the noise. He did not call out. He set the cup he was carrying on the table and waited, listening for the second sound that would tell him whether somebody had come down or merely shifted a piece of furniture.
 
      In the Blue Hall, water had reached the third stair. It moved over the stone with a slow, even edge, gathering in the shallow cuts between the blocks before spilling toward the lower passage. A door at the far end remained shut, but the blue light behind its narrow window had begun to pale. The figure nearest the door put a hand against the glass. He could not see the staircase from where he stood, and he did not know that the water had risen another step. He only knew that the room had grown colder and that something on the other side of the door was making a sound too low to be heard as a voice.
 
@@ -10607,8 +10613,6 @@ The architects had been sent north with a letter of instruction and a set of ins
 
      Bill turned to him. “That's a better thing to notice.”
 
-
-     The distinction settled over them.
 
      Kirk walked slowly around the basin. “Why twelve?”
 

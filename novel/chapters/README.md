@@ -31,3 +31,5 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 - [`CHAPTER_LXXXIX_DUH_DUH.md`](./CHAPTER_LXXXIX_DUH_DUH.md)
 
 - [Chapter XC — The Image I Could Not See](./CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md)
+
+- [Chapter XC — The Image I Could Not See](./CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md)

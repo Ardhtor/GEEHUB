@@ -5,12 +5,15 @@
  */
 import { createHash } from "node:crypto";
 import { constants } from "node:fs";
+import { execFile } from "node:child_process";
 import {
-  lstat, mkdir, mkdtemp, open, readFile, realpath, rm, rmdir
+  lstat, mkdir, mkdtemp, open, readFile, readdir, realpath, rm, rmdir
 } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { isDeepStrictEqual } from "node:util";
+import { promisify } from "node:util";
+import { decodeRgbaPng } from "./rgba-png.js";
 import { resolveDropboxUri } from "./bridge-exchange.js";
 import { validateBridgeManifest } from "./bridge-manifest.js";
 import { renderGrowthFrameFiles } from "./frame-file-renderer.js";
@@ -20,6 +23,9 @@ const MAX_SOURCE_FRAME_BYTES = 128 * 1024 * 1024;
 const MAX_MASK_BYTES = 32 * 1024 * 1024;
 const MAX_SIDECAR_BYTES = 128 * 1024 * 1024;
 const MAX_FRAMES = 10000;
+const MAX_PROBE_BYTES = 128 * 1024 * 1024;
+const MAX_PROBE_FRAMES = MAX_FRAMES * 20;
+const execFileAsync = promisify(execFile);
 const sha256 = value => createHash("sha256").update(value).digest("hex");
 const isSha256 = value => typeof value === "string" && /^[a-f0-9]{64}$/i.test(value);
 
@@ -339,21 +345,311 @@ function validateSourceFrameIndex(index, source, segmentationFrameSet, segmentat
       index.frames.length > MAX_FRAMES) {
     fail("batch-source-frame-index-invalid", "Source-frame index does not match the immutable source and registered sequence");
   }
+  const derivation = index.derivation;
+  const probedRate = parseRate(derivation?.avgFrameRate);
+  if (derivation?.schema !== "geehub.source-frame-extraction" ||
+      derivation.schemaVersion !== 1 ||
+      derivation.method !== "ffmpeg-image2-png" ||
+      derivation.sourceUri !== source.uri ||
+      derivation.sourceChecksum !== source.checksum ||
+      !Number.isInteger(derivation.streamIndex) || derivation.streamIndex < 0 ||
+      !Number.isFinite(probedRate) || Math.abs(probedRate - segmentationFrameSet.fps) > 0.0001 ||
+      !["best_effort_timestamp_time", "pkt_pts_time"].includes(derivation.timestampBasis) ||
+      !Number.isFinite(derivation.timestampOriginSeconds) ||
+      !Number.isFinite(derivation.timestampToleranceSeconds) ||
+      derivation.timestampToleranceSeconds <= 0 ||
+      derivation.timestampToleranceSeconds >= 0.5 / segmentationFrameSet.fps ||
+      !Number.isInteger(derivation.probedFrameCount) ||
+      derivation.probedFrameCount <= segmentationFrameSet.lastFrame ||
+      derivation.probedFrameCount > MAX_PROBE_FRAMES ||
+      derivation.extractedFrameCount !== segmentationFrameSet.frameCount ||
+      typeof derivation.ffmpegVersion !== "string" || !derivation.ffmpegVersion.trim() ||
+      typeof derivation.ffprobeVersion !== "string" || !derivation.ffprobeVersion.trim() ||
+      derivation.sourceUnchangedAfterExtraction !== true) {
+    fail("batch-source-frame-derivation-invalid", "Source-frame index lacks a complete source-bound FFmpeg extraction record");
+  }
   const files = new Set();
+  let previousSourceTimestamp = -Infinity;
   index.frames.forEach((frame, offset) => {
     const expected = segmentationDocument.frames[offset];
     if (frame?.frame !== segmentationFrameSet.firstFrame + offset ||
         frame.frame !== expected.frame ||
         !Number.isFinite(frame.timeSeconds) ||
         Math.abs(frame.timeSeconds - expected.timeSeconds) > 0.000001 ||
+        !Number.isFinite(frame.sourceTimestampSeconds) ||
+        frame.sourceTimestampSeconds <= previousSourceTimestamp ||
+        !Number.isFinite(frame.sourceTimeFromOriginSeconds) ||
+        Math.abs(frame.sourceTimestampSeconds - derivation.timestampOriginSeconds -
+          frame.sourceTimeFromOriginSeconds) > 0.000001 ||
+        Math.abs(frame.sourceTimeFromOriginSeconds - frame.timeSeconds) >
+          derivation.timestampToleranceSeconds ||
         typeof frame.file !== "string" || frame.file !== path.basename(frame.file) ||
         frame.file === "." || frame.file === ".." ||
         frame.file.includes("/") || frame.file.includes("\\") || frame.file.includes("\0") ||
         !/\.png$/i.test(frame.file) || files.has(frame.file) || !isSha256(frame.sha256)) {
       fail("batch-source-frame-entry-invalid", "Source-frame index has a missing, unsafe, duplicate, or misaligned frame entry");
     }
+    previousSourceTimestamp = frame.sourceTimestampSeconds;
     files.add(frame.file);
   });
+}
+
+function parseRate(value) {
+  if (typeof value !== "string" || !value.includes("/")) return NaN;
+  const [numerator, denominator] = value.split("/").map(Number);
+  return Number.isFinite(numerator) && Number.isFinite(denominator) && denominator > 0
+    ? numerator / denominator
+    : NaN;
+}
+
+function parseSourceProbe(stdout) {
+  let report;
+  try {
+    report = JSON.parse(stdout);
+  } catch (error) {
+    fail("batch-source-probe-json-invalid", "ffprobe did not return valid JSON: " + error.message);
+  }
+  const stream = Array.isArray(report.streams) ? report.streams[0] : null;
+  const frames = report.frames;
+  const fps = parseRate(stream?.avg_frame_rate);
+  if (!stream || !Number.isInteger(stream.index) || stream.index < 0 ||
+      !Number.isInteger(stream.width) || stream.width < 1 ||
+      !Number.isInteger(stream.height) || stream.height < 1 ||
+      !Number.isFinite(fps) || fps <= 0 || !Array.isArray(frames) ||
+      frames.length < 2 || frames.length > MAX_PROBE_FRAMES) {
+    fail("batch-source-probe-incomplete", "ffprobe did not provide a bounded video stream and frame inventory");
+  }
+  let timestampBasis = null;
+  let previousTimestamp = -Infinity;
+  const parsedFrames = frames.map(frame => {
+    const field = frame.best_effort_timestamp_time !== undefined
+      ? "best_effort_timestamp_time" : "pkt_pts_time";
+    if (timestampBasis && timestampBasis !== field) {
+      fail("batch-source-probe-timestamp-basis", "ffprobe must use one consistent timestamp field");
+    }
+    timestampBasis = field;
+    const timestampSeconds = Number(frame[field]);
+    const width = frame.width ?? stream.width;
+    const height = frame.height ?? stream.height;
+    if (!Number.isFinite(timestampSeconds) || timestampSeconds <= previousTimestamp ||
+        width !== stream.width || height !== stream.height) {
+      fail("batch-source-probe-timestamps", "Source frame timestamps or dimensions are invalid");
+    }
+    previousTimestamp = timestampSeconds;
+    return { timestampSeconds, width, height };
+  });
+  return {
+    streamIndex: stream.index,
+    width: stream.width,
+    height: stream.height,
+    fps,
+    avgFrameRate: stream.avg_frame_rate,
+    timestampBasis,
+    frames: parsedFrames
+  };
+}
+
+async function hashDropboxFile(uri, root, label) {
+  let target;
+  try {
+    target = resolveDropboxUri(uri, root);
+  } catch (error) {
+    fail("batch-source-video-uri-invalid", label + " has an unsafe Dropbox URI: " + error.message);
+  }
+  const relative = path.relative(root, target);
+  if (!within(root, target) || !relative) {
+    fail("batch-source-video-path-invalid", label + " does not resolve below the configured Dropbox root");
+  }
+  let current = root;
+  for (const segment of relative.split(path.sep)) {
+    current = path.join(current, segment);
+    const entry = await lstat(current);
+    if (entry.isSymbolicLink()) {
+      fail("batch-source-video-symlink", label + " path contains a symlink");
+    }
+    if (current !== target && !entry.isDirectory()) {
+      fail("batch-source-video-parent-invalid", label + " path contains a non-directory parent");
+    }
+    if (current === target && !entry.isFile()) {
+      fail("batch-source-video-not-regular", label + " must be a regular file");
+    }
+  }
+  const beforePath = await lstat(target);
+  let handle;
+  try {
+    handle = await open(target, constants.O_RDONLY | (constants.O_NOFOLLOW ?? 0));
+    const before = await handle.stat();
+    if (!before.isFile() || before.dev !== beforePath.dev || before.ino !== beforePath.ino) {
+      fail("batch-source-video-changed", label + " changed before hashing");
+    }
+    const hash = createHash("sha256");
+    const stream = handle.createReadStream({ autoClose: false });
+    for await (const chunk of stream) hash.update(chunk);
+    const after = await handle.stat();
+    if (before.size !== after.size || before.mtimeMs !== after.mtimeMs ||
+        before.ctimeMs !== after.ctimeMs) {
+      fail("batch-source-video-changed", label + " changed while being hashed");
+    }
+    return { path: target, sha256: hash.digest("hex") };
+  } finally {
+    if (handle) await handle.close();
+  }
+}
+
+async function executeTool(execute, binary, args, options, label) {
+  try {
+    const result = await execute(binary, args, options);
+    return {
+      stdout: Buffer.isBuffer(result?.stdout) ? result.stdout.toString("utf8") : String(result?.stdout ?? ""),
+      stderr: Buffer.isBuffer(result?.stderr) ? result.stderr.toString("utf8") : String(result?.stderr ?? "")
+    };
+  } catch (error) {
+    const detail = String(error?.stderr || error?.message || error).trim().slice(0, 1200);
+    fail("batch-source-derivation-tool-failed", label + " failed: " + detail);
+  }
+}
+
+async function defaultExecute(binary, args, options = {}) {
+  return execFileAsync(binary, args, {
+    encoding: "utf8",
+    maxBuffer: options.maxBuffer ?? 16 * 1024 * 1024,
+    timeout: options.timeoutMs ?? 120000,
+    windowsHide: true
+  });
+}
+
+async function verifySourceFrameDerivation({
+  index,
+  source,
+  segmentationFrameSet,
+  root,
+  sourceDirectory,
+  execute = defaultExecute,
+  ffmpegPath = "ffmpeg",
+  ffprobePath = "ffprobe"
+}) {
+  const derivation = index.derivation;
+  const sourceFile = await hashDropboxFile(source.uri, root, "Immutable source video");
+  if (sourceFile.sha256 !== source.checksum.toLowerCase() ||
+      derivation.sourceChecksum.toLowerCase() !== sourceFile.sha256) {
+    fail("batch-source-video-checksum-mismatch", "Source video bytes no longer match the immutable bridge checksum");
+  }
+
+  const probeResult = await executeTool(execute, ffprobePath, [
+    "-v", "error", "-select_streams", "v:0", "-show_streams", "-show_frames",
+    "-show_entries",
+    "stream=index,width,height,avg_frame_rate:frame=best_effort_timestamp_time,pkt_pts_time,width,height",
+    "-of", "json", sourceFile.path
+  ], { maxBuffer: MAX_PROBE_BYTES, timeoutMs: 120000 }, "ffprobe source revalidation");
+  const probe = parseSourceProbe(probeResult.stdout);
+  const origin = probe.frames[0].timestampSeconds;
+  if (probe.streamIndex !== derivation.streamIndex ||
+      probe.width !== segmentationFrameSet.width ||
+      probe.height !== segmentationFrameSet.height ||
+      Math.abs(probe.fps - segmentationFrameSet.fps) > 0.0001 ||
+      probe.avgFrameRate !== derivation.avgFrameRate ||
+      probe.timestampBasis !== derivation.timestampBasis ||
+      probe.frames.length !== derivation.probedFrameCount ||
+      Math.abs(origin - derivation.timestampOriginSeconds) > 0.000001) {
+    fail("batch-source-frame-probe-mismatch", "Fresh ffprobe inventory differs from the extraction record");
+  }
+
+  for (const frame of index.frames) {
+    const probed = probe.frames[frame.frame];
+    if (!probed || probed.width !== segmentationFrameSet.width ||
+        probed.height !== segmentationFrameSet.height ||
+        Math.abs(probed.timestampSeconds - frame.sourceTimestampSeconds) > 0.000001 ||
+        Math.abs((probed.timestampSeconds - origin) - frame.sourceTimeFromOriginSeconds) > 0.000001 ||
+        Math.abs(frame.sourceTimeFromOriginSeconds - frame.timeSeconds) >
+          derivation.timestampToleranceSeconds) {
+      fail("batch-source-frame-probe-mismatch", "Fresh source PTS differs at frame " + frame.frame);
+    }
+  }
+
+  const ffmpegVersionResult = await executeTool(execute, ffmpegPath, ["-version"], {}, "ffmpeg version");
+  const ffprobeVersionResult = await executeTool(execute, ffprobePath, ["-version"], {}, "ffprobe version");
+  const ffmpegVersion = ffmpegVersionResult.stdout.split(/\r?\n/, 1)[0].trim();
+  const ffprobeVersion = ffprobeVersionResult.stdout.split(/\r?\n/, 1)[0].trim();
+  if (!ffmpegVersion || !ffprobeVersion) {
+    fail("batch-source-derivation-tool-version-missing", "ffmpeg and ffprobe must report their versions");
+  }
+
+  const temporaryDirectory = await mkdtemp(path.join(os.tmpdir(), "geehub-source-verify-"));
+  try {
+    const pattern = path.join(temporaryDirectory, "frame-%09d.png");
+    const filter = "select=between(n\\," + segmentationFrameSet.firstFrame +
+      "\\," + segmentationFrameSet.lastFrame + ")";
+    await executeTool(execute, ffmpegPath, [
+      "-hide_banner", "-loglevel", "error", "-nostdin", "-i", sourceFile.path,
+      "-map", "0:v:0", "-vf", filter, "-fps_mode", "passthrough",
+      "-start_number", String(segmentationFrameSet.firstFrame), "-pix_fmt", "rgba",
+      "-f", "image2", pattern
+    ], { maxBuffer: 8 * 1024 * 1024, timeoutMs: 600000 }, "ffmpeg source-frame re-extraction");
+
+    const names = await readdir(temporaryDirectory);
+    const expectedNames = index.frames.map(frame =>
+      "frame-" + String(frame.frame).padStart(9, "0") + ".png"
+    );
+    if (names.length !== expectedNames.length ||
+        expectedNames.some(name => !names.includes(name))) {
+      fail("batch-source-frame-reextract-count", "Fresh FFmpeg decode did not produce exactly the registered frame range");
+    }
+
+    for (let offset = 0; offset < index.frames.length; offset += 1) {
+      const frame = index.frames[offset];
+      const freshFile = await readRegularFile(
+        path.join(temporaryDirectory, expectedNames[offset]),
+        "Re-extracted source frame " + frame.frame,
+        MAX_SOURCE_FRAME_BYTES
+      );
+      const indexedFile = await readRegularFile(
+        path.join(sourceDirectory, frame.file),
+        "Indexed source frame " + frame.frame,
+        MAX_SOURCE_FRAME_BYTES
+      );
+      if (indexedFile.sha256 !== frame.sha256.toLowerCase()) {
+        fail("batch-source-frame-checksum-mismatch", "Extracted source frame digest differs at frame " + frame.frame);
+      }
+      let freshPixels;
+      let indexedPixels;
+      try {
+        freshPixels = decodeRgbaPng(freshFile.bytes);
+        indexedPixels = decodeRgbaPng(indexedFile.bytes);
+      } catch (error) {
+        fail("batch-source-frame-png-invalid", "Source frame " + frame.frame + " is not a supported PNG: " + error.message);
+      }
+      if (freshPixels.width !== segmentationFrameSet.width ||
+          freshPixels.height !== segmentationFrameSet.height ||
+          indexedPixels.width !== freshPixels.width ||
+          indexedPixels.height !== freshPixels.height ||
+          !Buffer.from(freshPixels.data).equals(Buffer.from(indexedPixels.data))) {
+        fail("batch-source-frame-pixel-mismatch", "Indexed PNG pixels do not match a fresh decode of source frame " + frame.frame);
+      }
+    }
+
+    const sourceAfter = await hashDropboxFile(source.uri, root, "Immutable source video");
+    if (sourceAfter.sha256 !== sourceFile.sha256) {
+      fail("batch-source-video-mutated", "Source video changed during independent frame derivation verification");
+    }
+    return {
+      schema: "geehub.source-frame-derivation-verification.v1",
+      status: "verified",
+      sourceChecksum: sourceFile.sha256,
+      streamIndex: probe.streamIndex,
+      timestampBasis: probe.timestampBasis,
+      timestampOriginSeconds: origin,
+      probedFrameCount: probe.frames.length,
+      extractedFrameCount: index.frames.length,
+      pixelMatchedFrameCount: index.frames.length,
+      extractionTools: {
+        ffmpeg: derivation.ffmpegVersion,
+        ffprobe: derivation.ffprobeVersion
+      },
+      verificationTools: { ffmpeg: ffmpegVersion, ffprobe: ffprobeVersion }
+    };
+  } finally {
+    await rm(temporaryDirectory, { recursive: true, force: true });
+  }
 }
 
 function validatePlanSequence(planBundle, job, evidence, deformationDocument, sourceDuration) {
@@ -473,7 +769,10 @@ export async function renderGrowthFrameBatchFiles({
   deformationPlansPath,
   sourceFrameIndexPath,
   outputDirectory,
-  dropboxRoot
+  dropboxRoot,
+  ffmpegPath = "ffmpeg",
+  ffprobePath = "ffprobe",
+  execute = defaultExecute
 } = {}) {
   const [manifestFile, jobFile, plansFile, indexFile] = await Promise.all([
     readJsonFile(manifestPath, "Queued bridge manifest"),
@@ -545,6 +844,20 @@ export async function renderGrowthFrameBatchFiles({
   );
 
   const sourceDirectory = await realpath(path.dirname(indexFile.path));
+  const sourceDirectoryStat = await lstat(sourceDirectory);
+  if (sourceDirectoryStat.isSymbolicLink() || !sourceDirectoryStat.isDirectory()) {
+    fail("batch-source-directory-invalid", "Extracted source-frame directory must be a real directory");
+  }
+  const sourceFrameDerivation = await verifySourceFrameDerivation({
+    index,
+    source: manifest.source,
+    segmentationFrameSet: selected.segmentation,
+    root,
+    sourceDirectory,
+    execute,
+    ffmpegPath,
+    ffprobePath
+  });
   const preparedFrames = [];
   for (let offset = 0; offset < planSequence.frames.length; offset += 1) {
     const indexFrame = index.frames[offset];
@@ -581,11 +894,6 @@ export async function renderGrowthFrameBatchFiles({
       planBytes,
       planSha256: sha256(planBytes)
     });
-  }
-
-  const sourceDirectoryStat = await lstat(sourceDirectory);
-  if (sourceDirectoryStat.isSymbolicLink() || !sourceDirectoryStat.isDirectory()) {
-    fail("batch-source-directory-invalid", "Extracted source-frame directory must be a real directory");
   }
 
   const temporaryPlansDirectory = await mkdtemp(path.join(os.tmpdir(), "geehub-batch-plans-"));
@@ -661,10 +969,12 @@ export async function renderGrowthFrameBatchFiles({
       frameCount: frameResults.length,
       allFramesAccountedFor: frameResults.length === selected.segmentation.frameCount,
       sourceFramesUnmodified: true,
-      sourceFrameDerivationVerified: false,
+      sourceFrameDerivationVerified: true,
+      sourceFramePixelsRevalidated: true,
+      sourceFrameDerivationVerification: sourceFrameDerivation,
       pixelSemanticsVerified: false,
       frames: frameResults,
-      note: "This complete batch contains transparent warped body layers, not composited frames or a finished video. Background reconstruction, protected-face compositing, and Resolve export remain separate stages."
+      note: "This complete batch contains transparent warped body layers, not composited frames or a finished video. The source checksum and FFprobe timeline were revalidated, and every indexed PNG was pixel-compared with a fresh FFmpeg decode. Background reconstruction, protected-face compositing, and Resolve export remain separate stages."
     };
     const receiptBytes = Buffer.from(JSON.stringify(receipt, null, 2) + "\n", "utf8");
     const receiptPath = path.join(outputPath, "sequence.receipt.json");

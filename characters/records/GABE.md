@@ -58,3 +58,8 @@ With Luke, he experiences care that is not conditional on the next transformatio
 
 Gabe keeps a small collection of earlier references: an old photograph, a measurement card, a shirt from a previous stage. He does not keep them as evidence that he was once better or worse. They help him remember that he has been several versions of himself and remains answerable to each. He enjoys a lively gathering but sometimes leaves before the last round of compliments, preferring to return when the conversation has moved on.
 
+
+
+## Relationship development — Dorian Vale
+
+Chapter LXXXVI gives Gabe a new experience of being admired without treating another man's attention as a verdict on his own worth. At the Evening of Presence he chooses to take part in the presentation walk, enjoys the response, and notices that he no longer needs to compare the attention he receives with the attention Dorian receives. On the covered terrace, Gabe tells Dorian directly that he finds him attractive. Dorian reciprocates and invites him to dinner the following week; Gabe accepts, while making clear that he does not want the invitation turned into a contest. This is mutual attraction and an agreed first date, not yet an established partnership. Keep Gabe's agency central: he is allowed to enjoy admiration, to initiate, to set the tone, and to decide what comes next.

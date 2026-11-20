@@ -34,3 +34,8 @@ The western bridge remains closed pending engineering review and permanent repai
 ## Chapter LXXXVII — relationship continuity
 
 Dorian and Gabe's first date takes place at Il Ponte, a local Italian–Texas restaurant. They discuss attraction without treating it as a contract, share a first kiss beneath the cedar arcade, and arrange a second meeting around coffee and the western survey drawings. They remain at the stage of mutual interest and deliberate exploration. Their connection should develop through repeated choices and shared time, not an automatic status change.
+
+
+## Chapter LXXXVIII — duh!
+
+Dorian and Gabe meet on Sunday for coffee, breakfast, and a review of the western crossing drawings. Gabe contributes a removable maintenance-panel solution and is credited on the shared review. Their affection is increasingly easy and openly playful; they share another kiss near the closed western path and agree to meet again the following Sunday without making it a survey meeting. The bridge remains closed pending drainage, joint, and restraint work. Their relationship is still developing by mutual choice, without a formal label.

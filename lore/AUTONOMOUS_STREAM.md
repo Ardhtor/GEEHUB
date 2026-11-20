@@ -2365,3 +2365,11 @@ NICK: The world crosses the route from THE COMMON TABLE into CEDAR HOUSE. The ea
 SETH: A warm cedar home with a generous kitchen, deep sitting room, sheltered porch, reading alcove, and an open door for unhurried visits. Relation carried forward: A TABLE IS SET.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 308 — ATMOSPHERE / CEDAR HOUSE / 2026-11-20T04:50:11.047612+00:00
+
+SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

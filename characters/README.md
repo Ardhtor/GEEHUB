@@ -81,3 +81,8 @@ The Confluence's Volume III introduces longer fictional lives and interconnected
 - [Daniel Goebel](records/DANIEL_GOEBEL.md) — adult resident whose former size-50 footwear becomes a retained physical-continuity baseline after he outgrows it.
 
 These are provisional fictional records. Their biographies remain open beyond the scenes that establish them.
+
+
+## Northgate ensemble addition — Chapter LXXXIX
+
+- [Tyler Boeskin](records/TYLER_BOESKIN.md) — Gabe's adult mate, distinct from the existing evidence-focused Tyler; sociable, physically confident, and practically involved in the Northgate print room.

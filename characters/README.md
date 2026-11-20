@@ -86,3 +86,7 @@ These are provisional fictional records. Their biographies remain open beyond th
 ## Northgate ensemble addition — Chapter LXXXIX
 
 - [Tyler Boeskin](records/TYLER_BOESKIN.md) — Gabe's adult mate, distinct from the existing evidence-focused Tyler; sociable, physically confident, and practically involved in the Northgate print room.
+
+## New reference-anchored character seed
+
+- [Dani Kaganovich](records/DANI_KAGANOVICH.md) — provisional adult fictional character built around a public bodybuilding reference; career evidence, visual provenance, and invented interior life remain distinct. He has not yet been assigned to a story location or given a public voice mapping.

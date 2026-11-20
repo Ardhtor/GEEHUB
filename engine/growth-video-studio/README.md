@@ -271,14 +271,21 @@ GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \
 
 The output directory must not already exist. Set `FFMPEG_PATH` or
 `FFPROBE_PATH` when the executables are not on `PATH`. The command writes a
-source-frame index ready for `render:batch`; its own receipt records a
-successful source/timestamp/extraction check. The batch renderer still reports
-`sourceFrameDerivationVerified: false` until it independently validates the
-new derivation record against the source at batch time. Seven adapter tests and
-one integration test run in the package workflow. CI installs FFmpeg/FFprobe
-and extracts a synthetic two-frame MP4 through the real binaries; this verifies
-the tool boundary, not a local user clip. Background reconstruction,
-protected-face/clothing compositing, and finished-video export remain open.
+source-frame index ready for `render:batch`; its receipt records the source,
+timestamp, and extraction checks. Before batch rendering, the batch worker
+rehashes the immutable source video, reruns FFprobe against the selected stream,
+and asks FFmpeg to decode the exact registered frame range again into a
+temporary directory. It compares the decoded RGBA pixels of every indexed PNG
+with that fresh source decode, not merely the PNG's declared checksum. The
+sequence receipt sets `sourceFrameDerivationVerified` and
+`sourceFramePixelsRevalidated` only after the source hash, PTS inventory, and
+all frame pixels agree. FFmpeg/FFprobe must therefore be available during
+`render:batch` as well as extraction. This independently verifies source
+derivation; it does not establish that the upstream body/face masks are
+anatomically correct, so `pixelSemanticsVerified` remains false. The package
+workflow exercises the adapter checks and a real synthetic-video path.
+Background reconstruction, protected-face/clothing compositing, and finished
+video export remain open.
 
 ## AI creative-workstation framework
 

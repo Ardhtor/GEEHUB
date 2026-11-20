@@ -62,6 +62,11 @@ Dorian's growth continues, but the chapter does not assign an exact height or me
 
 Dorian attends Northgate's Evening of Presence in a fitted black shirt and takes part in the voluntary presentation walk. He enjoys being admired and accepts compliments without treating them as claims on him. He is direct about attraction and reciprocates Gabe's expression of interest. He invites Gabe to dinner; the invitation is accepted. The two men have not defined a partnership, and their next meeting remains a first date rather than a settled status.
 
+## Conduct established in Chapter LXXXVII
+
+Dorian takes Gabe to Il Ponte for their first date. He chooses an ordinary restaurant rather than a public spectacle and speaks openly about enjoying admiration while refusing to make it the measure of his life. He listens to Gabe's concerns about attention and comparison without presenting himself as a solution to them. They share a first kiss beneath the cedar arcade and arrange to meet again on Sunday for coffee and a review of the western survey drawings. Dorian does not treat the kiss as a claim or the next meeting as a promise of partnership; he is interested in continuing to know Gabe.
+
+
 ## Current continuity and open threads
 
 - The bridge's middle joint had already shifted during the rain; Dorian's approach made the remaining structural reserve visible but did not cause the original defect.

@@ -2757,3 +2757,11 @@ NICK: A detail returns in CAT GARDENS: Another cat crosses the path and chooses 
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cat-gardens/README.md.
 
 Source retained: worlds/cat-gardens/README.md. Pressure 0.94; memory 1.00.
+
+## FOUNDERS DORMITORY / pulse 314 / ATMOSPHERE
+
+SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/founders-dormitory/README.md. Pressure 0.96; memory 1.00.

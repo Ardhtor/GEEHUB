@@ -2413,3 +2413,11 @@ NICK: A detail returns in CAT GARDENS: Another cat crosses the path and chooses 
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/cat-gardens/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 314 — ATMOSPHERE / FOUNDERS DORMITORY / 2026-11-20T17:51:18.543227+00:00
+
+SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

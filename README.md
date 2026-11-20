@@ -304,3 +304,7 @@ The local-first [Memory Bridge](hub/memory-bridge.html) connects imported ChatGP
 
 - [Tractus Protection Architecture](docs/TRACTUS_PROTECTION_ARCHITECTURE.md)
 - [Recovery snapshots and restore procedure](recovery/README.md)
+
+## Embodied presence and relational scene direction
+
+The project-wide [Embodied Presence and Relational Scene Rule](docs/EMBODIED_PRESENCE_AND_RELATIONAL_SCENE_RULE.md) governs physical description, touch, adult intimacy, attraction, and the development of relationships across GEEHUB. It corrects a recurring editorial failure: do not pre-emptively soften, omit, functionalize, or explain away physical experience before a scene has had room to develop. Preserve adult agency and consent without turning every gesture into a lesson or every intimate moment into a clinical demonstration. Let characters notice one another, approach, make contact where welcome, respond, and carry the experience forward.

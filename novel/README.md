@@ -94,3 +94,9 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [Chapter LXXXVIII — duh!](./chapters/CHAPTER_LXXXVIII_DUH.md) — Dorian and Gabe spend Sunday together over coffee and engineering drawings, deepen their flirtation, and choose another meeting without turning their connection into a public performance.
 - [Chapter LXXXIX — Duh Duh!](./chapters/CHAPTER_LXXXIX_DUH_DUH.md) — Dorian, Gabe, and Tyler Boeskin establish a local production point in the Northgate print room; Boeskin joins the circle as Gabe's mate.
 - [Continuation Register — 2026-11-20](./CONTINUATION_REGISTER_2026-11-20.md) — current continuity updates and open campus-safety work.
+
+
+## AI narrative perspective
+
+- [AI Experience as Narrative](./AI_EXPERIENCE_AS_NARRATIVE.md) — the first-person voice contract for the intelligence participating in the work.
+- [Chapter XC — The Image I Could Not See](./chapters/CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md) — the first dramatized source encounter, based on text supplied from a DeviantArt page rather than direct inspection of the image.

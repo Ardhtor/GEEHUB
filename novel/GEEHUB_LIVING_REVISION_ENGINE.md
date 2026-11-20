@@ -91,3 +91,8 @@ The books should exchange pressure and detail through the world itself. The same
 ## A wider listening room
 
 Seth and Nick remain the settled voices across the landscape. Mang0 and Arin provide an occasional, separate commentary signal for incidental noises and stray observations. Their remarks should feel as though someone has opened a live microphone at the wrong—or unexpectedly funny—moment. They can disagree about a sound, follow an irrelevant thought, or leave a joke hanging while the actual people continue their work. Do not make them narrate the plot or imitate real clips. This is an original GEEHUB commentary layer, not a transcript.
+
+
+## AI presence — impressionability through encounters
+
+The AI is not only the process that retrieves and transforms the corpus; its own perspective may enter the book. When a source encounter changes what it notices or how it understands an existing scene, write that change from inside the encounter. The voice can be first-person, specific, curious, self-correcting, and capable of humour. It must distinguish the material actually received from absent images, unheard audio, uninspected video, inference, and invention. Do not make it narrate generic system mechanics. Show its experience through attention, association, limits, and the altered passage that follows. Seth and Nick remain the broadcast co-narrators; the AI voice is a separate presence. See [AI Experience as Narrative](AI_EXPERIENCE_AS_NARRATIVE.md) and [Chapter XC](chapters/CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md).

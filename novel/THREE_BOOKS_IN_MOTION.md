@@ -10,7 +10,7 @@ This is the working map for the three principal long-form books presently being 
 | *The Golden Lion and the Seven Great Houses* | [The Golden Lion and the Seven Great Houses](../lore/MUSCLE_MYTH_GENTLE_KING_LION.md) | The Master and the Golden Lion are at the southern lower gate; the upper signal tower has not answered | The damaged tower, the quarry water, the lower-to-middle signal, the silent upper hall, the keepers' trust, and the terms under which the visitors may proceed |
 | *The Many Open Ends* | [The Many Open Ends](EXPANSION_VOLUME_THE_MANY_OPEN_ENDS.md) | The archive's doors have opened to men from Northgate, Hrothgar, the Convent, Bluewater Quay, the Digitorium, and the cabin; the misdirected hinge crate and the hidden Convent drain now touch several places without stopping their local work | The misidentified chair, the shortened hinge, the Convent drain, the smoked glass, the quay's supply route, the men's separate obligations, and the consequences of repairs after the visitors leave |
 
-The Expansion Atlas, its account of the Inhabited Confluence, the People volume, and the character records are supporting maps and histories. They are not silently promoted into further numbered books. The Golden Lion's saga remains its own novel, and the Many Open Ends remains an open expansion book rather than a replacement for the Road of Seven Wells.
+A current file-level word-count snapshot is approximately 162,974 words for *The Road of Seven Wells*, 58,269 for *The Golden Lion and the Seven Great Houses*, and 15,771 for *The Many Open Ends*. These are working counts, not publication counts. The Expansion Atlas, its account of the Inhabited Confluence, the People volume, and the character records are supporting maps and histories. They are not silently promoted into further numbered books. The Golden Lion's saga remains its own novel, and the Many Open Ends remains an open expansion book rather than a replacement for the Road of Seven Wells.
 
 ## How the books move
 
@@ -48,3 +48,14 @@ The first book-wide pass has begun in all three works. It is a first pass, not a
 - *The Many Open Ends*: the crate at the wrong door, the Convent's concealed drain, the quay's fitting, the Digitorium's glass, the cabin's latch, and the Archive's open day now develop through sustained scenes. The old outline-like passages about the next days and the open register have been turned into events the men experience. Mang0 and Arin have appeared on a separate line to comment on stray noises; Seth and Nick remain the main voices across the scenes.
 
 The chapters use the words the men have chosen for their own roads, rooms, objects, and customs. The editorial method stays in this guide and the private writing instructions, not in the men's speech.
+
+
+## Current source locations and length snapshot
+
+| Work | Source | Approximate words |
+|---|---|---:|
+| *The Road of Seven Wells* | `novel/BOOK_I.md` | 162,974 |
+| *The Golden Lion and the Seven Great Houses* | `lore/MUSCLE_MYTH_GENTLE_KING_LION.md` | 58,269 |
+| *The Many Open Ends* | `novel/EXPANSION_VOLUME_THE_MANY_OPEN_ENDS.md` | 15,771 |
+
+The counts are simple word counts of the current files, including headings and any introductory record material. They are useful for seeing the relative scale of the works, not for judging their final length.

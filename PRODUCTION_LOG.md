@@ -1,3 +1,12 @@
+## 2026-11-20 — Northgate local production point and Chapter LXXXIX
+
+- Added Chapter LXXXIX, “Duh Duh!”, with Dorian and Gabe meeting again in the Northgate print room.
+- Introduced Tyler Boeskin as Gabe's adult mate and a distinct character from the existing evidence-focused Tyler. His broad athletic build, hairy chest, and lively nipples are recorded as physical continuity; no romantic pairing is assigned.
+- Established the print room as a local, physical production point. The chapter produces a six-card sequence pilot and a title sheet; the repository remains the manuscript source of truth.
+- Added `novel/LOCAL_PRODUCTION_POINT.md` with the verified local route: run `node server/geehub-server.mjs` from the repository root on Node.js 20+, then use `http://127.0.0.1:8788`. The current server serves files and bounded interaction endpoints but does not yet provide a chapter editor or chapter-write API.
+- Updated chapter and character indexes, Dorian and Gabe records, relationship canon, and the continuation register.
+- Repository text is committed; no claim is made that the user's local clone or Dropbox has synchronized automatically.
+
 # GEEHUB Production Log
 
 This is the durable resume point for repository work. Update it after meaningful production sessions. Keep concise operational state here; detailed canon belongs in each project's continuity file.

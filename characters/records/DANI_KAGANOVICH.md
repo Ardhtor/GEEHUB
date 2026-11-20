@@ -5,6 +5,7 @@
 **Primary place:** the Institute of Becoming, especially the adult training circle, Common Table, repair passage, and changing rooms  
 **First documented appearance:** [The Body, Without Guesswork — A Fourth Gathering: The Measure of a Man](../../lore/CONFLUENCE_THE_BODY_WITHOUT_GUESSWORK_2026-11-20.md)  
 **Related characters:** [Tyler](TYLER.md), [Marcus](MARCUS.md), [Dan Roman](DAN_ROMAN.md)
+
 **Related editorial rule:** [Embodied Presence and Relational Scene Direction](../../docs/EMBODIED_PRESENCE_AND_RELATIONAL_SCENE_RULE.md)
 
 ## Identity and boundary

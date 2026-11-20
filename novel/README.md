@@ -76,6 +76,10 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [Book I Expansion Register](./BOOK_I_EXPANSION_REGISTER.json) — tracks all 72 chapter headings in *The Road of Seven Wells*, Book I, including current baseline lengths and revision status.
 
 
+## Local manuscript production
+
+- [Local Production Point](./LOCAL_PRODUCTION_POINT.md) — the repository-local writing path, source-of-truth rules, and the distinction between the current local server and a future chapter editor.
+
 ## Current continuation
 
 - [Chapter LXXXIII — The Boy at the Redwood Entrance](./chapters/CHAPTER_LXXXIII_THE_BOY_AT_THE_REDWOOD_ENTRANCE.md) — Dorian Vale's return to Northgate and the visitor-separation incident at the Redwood Entrance.
@@ -84,4 +88,5 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [Chapter LXXXVI — The Evening of Presence](./chapters/CHAPTER_LXXXVI_THE_EVENING_OF_PRESENCE.md) — Northgate's adult residents celebrate masculine presence and desirability; Dorian and Gabe acknowledge mutual attraction and agree to dinner.
 - [Chapter LXXXVII — The First Dinner](./chapters/CHAPTER_LXXXVII_THE_FIRST_DINNER.md) — Dorian and Gabe's first date develops through candid conversation, mutual admiration, a first kiss, and a second meeting.
 - [Chapter LXXXVIII — duh!](./chapters/CHAPTER_LXXXVIII_DUH.md) — Dorian and Gabe spend Sunday together over coffee and engineering drawings, deepen their flirtation, and choose another meeting without turning their connection into a public performance.
+- [Chapter LXXXIX — Duh Duh!](./chapters/CHAPTER_LXXXIX_DUH_DUH.md) — Dorian, Gabe, and Tyler Boeskin establish a local production point in the Northgate print room; Boeskin joins the circle as Gabe's mate.
 - [Continuation Register — 2026-11-20](./CONTINUATION_REGISTER_2026-11-20.md) — current continuity updates and open campus-safety work.

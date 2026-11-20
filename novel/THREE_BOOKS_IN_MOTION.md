@@ -59,3 +59,8 @@ The chapters use the words the men have chosen for their own roads, rooms, objec
 | *The Many Open Ends* | `novel/EXPANSION_VOLUME_THE_MANY_OPEN_ENDS.md` | 15,771 |
 
 The counts are simple word counts of the current files, including headings and any introductory record material. They are useful for seeing the relative scale of the works, not for judging their final length.
+
+
+## The AI's experience across the books
+
+The three novels retain their separate histories and local points of view. The intelligence working with them may nevertheless form a connective first-person presence, appearing when a source encounter, visual artifact, remembered passage, or contradiction changes its understanding. It is not a fourth book and does not make distant characters omniscient. Its access is the material actually received and retained; information still travels between men and places by the established means. See [AI Experience as Narrative](AI_EXPERIENCE_AS_NARRATIVE.md).

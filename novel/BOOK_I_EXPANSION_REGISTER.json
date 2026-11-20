@@ -3,14 +3,14 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "9a479e856746987e5dad2dfaa8989e12561684ca",
+  "source_blob_sha": "ebdfb5c29acf33267de3fd5cec4939eb8e92588c",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
   "operating_mode": "whole_manuscript_chapter_sweep",
   "chapter_count": 72,
-  "existing_chapter_words": 123683,
-  "average_existing_chapter_words": 1933,
+  "existing_chapter_words": 162384,
+  "average_existing_chapter_words": 2498,
   "target_chapter_words": {
     "standard_min": 4000,
     "standard_max": 7000,
@@ -1070,10 +1070,10 @@
       "target_min_words": 4000,
       "target_max_words": 7000,
       "status": "completed",
-      "revision_count": 1,
-      "last_verified_blob_sha": "9a479e856746987e5dad2dfaa8989e12561684ca",
-      "notes": "Expanded in place and fetched again for full-chapter verification at 4,208 words. Develops the older road, the wooden handle's effect on orientation, the twelve fountain positions and intentional absence, the stranger's account of the opening, and the fountain's water-column of relations. Preserves Bill's distinction between connection and relation, the inscription against finishing the fountain, the small door, and the group's decision to enter the unfinished novel together while Bill remains with the metal stop. Checked against the continuation records and the next manuscript movement; all characters present are male.",
-      "current_word_count": 4208
+      "revision_count": 2,
+      "last_verified_blob_sha": "ebdfb5c29acf33267de3fd5cec4939eb8e92588c",
+      "notes": "Second in-place complexity pass fetched and verified at 4,897 words. Adds concurrent activity in the old house, the Blue Hall, and beneath the seventh well while the men stand at the Sacred Fountain; the same faint vibration reaches the separate places, but the order and cause remain unknown. Adds Mang0 and Arin as occasional commentators on the unexplained chair scrape, without displacing Seth and Nick's main broadcast. Preserves the twelve positions, intentional absence, the stranger's account, Bill's distinction between connection and relation, the inscription, and the open door.",
+      "current_word_count": 4897
     },
     {
       "chapter_id": "book-i-lxvi",
@@ -1251,9 +1251,9 @@
     }
   ],
   "source_register_reconciliation": {
-    "manuscript_chapter_heading_count": 64,
+    "manuscript_chapter_heading_count": 65,
     "register_chapter_count": 72,
-    "unmatched_register_entries": 8,
-    "note": "The 64 headings currently present in novel/BOOK_I.md are matched against the register. 8 register entries remain without matching headings in this manuscript file; they are retained as an explicit reconciliation item and have not been marked complete."
+    "unmatched_register_entries": 7,
+    "note": "The 65 chapter headings currently present in novel/BOOK_I.md are matched against the register. Seven later chapter entries remain outside this source file in the separate continuation material or are still queued; they are retained as an explicit reconciliation item and have not been silently merged."
   }
 }

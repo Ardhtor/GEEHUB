@@ -82,4 +82,5 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [Chapter LXXXIV — The Sign That Faces Both Ways](./chapters/CHAPTER_LXXXIV_THE_SIGN_THAT_FACES_BOTH_WAYS.md) — the permanent wayfinding design is tested with visitors, while Dorian and Gabe become more familiar.
 - [Chapter LXXXV — The Three Measures of the Crossing](./chapters/CHAPTER_LXXXV_THE_THREE_MEASURES_OF_THE_CROSSING.md) — the western bridge review reveals a lateral-restraint issue and a separate drainage problem, while Dorian and Gabe develop trust through the work.
 - [Chapter LXXXVI — The Evening of Presence](./chapters/CHAPTER_LXXXVI_THE_EVENING_OF_PRESENCE.md) — Northgate's adult residents celebrate masculine presence and desirability; Dorian and Gabe acknowledge mutual attraction and agree to dinner.
+- [Chapter LXXXVII — The First Dinner](./chapters/CHAPTER_LXXXVII_THE_FIRST_DINNER.md) — Dorian and Gabe's first date develops through candid conversation, mutual admiration, a first kiss, and a second meeting.
 - [Continuation Register — 2026-11-20](./CONTINUATION_REGISTER_2026-11-20.md) — current continuity updates and open campus-safety work.

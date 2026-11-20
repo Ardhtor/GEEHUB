@@ -24,6 +24,12 @@ Dorian approaches a structure by reading its limits. He waits for signals, asks 
 
 His speech is clear, low, and unhurried. He does not demand admiration, but he expects accurate treatment. He understands that people may feel unsettled by his size without accepting responsibility for every feeling his presence produces. He distinguishes a person's private reaction from the way he chooses to treat him.
 
+## Conduct established in Chapter LXXXIII
+
+During the visitor-separation incident at the Redwood Entrance, Dorian notices a frightened boy and approaches at an ordinary pace, stopping at a respectful distance before lowering himself to speak at the boy's level. He keeps the boy in a visible public area, alerts reception, and allows the staff to coordinate the search and reunion. He does not take the boy elsewhere, carry him, or treat his own size as a substitute for trained staff. His manner is calm and direct; he gives the boy time to explain what happened and reinforces that asking for help was the right decision.
+
+This incident develops an important aspect of Dorian's judgement: he understands that his physical presence can dominate a space even when he intends to help, so he adjusts his posture, distance, and role to the needs of the person in front of him. He is willing to be useful without becoming the centre of the event. His conduct is practical rather than self-congratulatory, and the institutional response remains the work of the Commons staff.
+
 ## Relationships established in Chapter LXXIX
 
 **Gabe.** Their first encounter is tense. Gabe says, “He sickens me,” while struggling with the attention Dorian receives and his fear of becoming unremarkable. Gabe later identifies his jealousy and apologises, acknowledging that Dorian did not cause it. Dorian does not demand that Gabe like him; he asks him not to make Dorian responsible for what he fears. They establish preliminary respect through honest speech and shared attention to the bridge. They are not yet friends. Their next meeting remains open.

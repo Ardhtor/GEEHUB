@@ -32,7 +32,7 @@ This incident develops an important aspect of Dorian's judgement: he understands
 
 ## Relationships established in Chapter LXXIX
 
-**Gabe.** Their first encounter is tense. Gabe says, “He sickens me,” while struggling with the attention Dorian receives and his fear of becoming unremarkable. Gabe later identifies his jealousy and apologises, acknowledging that Dorian did not cause it. Dorian does not demand that Gabe like him; he asks him not to make Dorian responsible for what he fears. They establish preliminary respect through honest speech and shared attention to the bridge. They are not yet established as close friends. In Chapters LXXXIV–LXXXV they work alongside one another during the Redwood sign review and the western crossing inspection, then travel back toward East Dormitory together. Gabe begins to understand Dorian's deliberate care around people who may find his size overwhelming; Dorian in turn recognises Gabe's growing ability to notice another person without making the attention a contest. Gabe also helps Dorian distinguish between a defect revealed by his presence and a defect caused by his presence. Their acquaintance is becoming more ordinary, but its future remains open.
+**Gabe.** Their first encounter is tense. Gabe says, “He sickens me,” while struggling with the attention Dorian receives and his fear of becoming unremarkable. Gabe later identifies his jealousy and apologises, acknowledging that Dorian did not cause it. Dorian does not demand that Gabe like him; he asks him not to make Dorian responsible for what he fears. They establish preliminary respect through honest speech and shared attention to the bridge. They are not yet established as close friends. In Chapters LXXXIV–LXXXV they work alongside one another during the Redwood sign review and the western crossing inspection, then travel back toward East Dormitory together. Gabe begins to understand Dorian's deliberate care around people who may find his size overwhelming; Dorian in turn recognises Gabe's growing ability to notice another person without making the attention a contest. Gabe also helps Dorian distinguish between a defect revealed by his presence and a defect caused by his presence. Their acquaintance is becoming more ordinary. In Chapter LXXXVI, Dorian and Gabe attend the Evening of Presence together, each takes part in the voluntary presentation walk, and they acknowledge mutual attraction in a private conversation on the terrace. Dorian invites Gabe to dinner the following week; Gabe accepts. This is an agreed first date and an emerging romantic possibility, not an established partnership. Neither man treats the invitation as a test of size, popularity, or rank.
 
 **Luke.** Dorian sees that Luke offers assistance without deciding what another man wants. Luke helps with the bridge and leaves Gabe room to speak for himself. Their connection is courteous and practical; no deeper personal history is established yet.
 
@@ -60,7 +60,6 @@ Dorian's growth continues, but the chapter does not assign an exact height or me
 
 ## Current continuity and open threads
 
-- Dorian has returned to Northgate after the latest western survey-camp review by the approved lower route.
 - The bridge's middle joint had already shifted during the rain; Dorian's approach made the remaining structural reserve visible but did not cause the original defect.
 - The full crossing remains closed pending engineering review and permanent repair; the test-yard assembly does not authorize passage.
 - A temporary brace allows controlled inspection work only.
@@ -71,3 +70,8 @@ Dorian's growth continues, but the chapter does not assign an exact height or me
 - A report from a second district is expected, but its claims must be checked independently before the group treats the western event as universal.
 
 **Continuity rule:** Dorian's growth changes the scale of the world around him, but his relationships with the other men must remain particular. He is not a device for generating jealousy or an award for collective admiration. Give him work, preferences, decisions, and relationships that continue beyond the men's immediate reactions.
+
+
+## Conduct established in Chapter LXXXVI
+
+Dorian attends Northgate's Evening of Presence in a fitted black shirt and takes part in the voluntary presentation walk. He enjoys being admired and accepts compliments without treating them as claims on him. He is direct about attraction and reciprocates Gabe's expression of interest. He invites Gabe to dinner; the invitation is accepted. The two men have not defined a partnership, and their next meeting remains a first date rather than a settled status.

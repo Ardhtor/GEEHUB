@@ -63,3 +63,8 @@ Gabe keeps a small collection of earlier references: an old photograph, a measur
 ## Relationship development — Dorian Vale
 
 Chapter LXXXVI gives Gabe a new experience of being admired without treating another man's attention as a verdict on his own worth. At the Evening of Presence he chooses to take part in the presentation walk, enjoys the response, and notices that he no longer needs to compare the attention he receives with the attention Dorian receives. On the covered terrace, Gabe tells Dorian directly that he finds him attractive. Dorian reciprocates and invites him to dinner the following week; Gabe accepts, while making clear that he does not want the invitation turned into a contest. This is mutual attraction and an agreed first date, not yet an established partnership. Keep Gabe's agency central: he is allowed to enjoy admiration, to initiate, to set the tone, and to decide what comes next.
+
+
+## Relationship development — Dorian Vale (Chapter LXXXVII)
+
+Gabe goes on his first date with Dorian at Il Ponte. He arrives having made a deliberate effort with his clothes and appearance, enjoys Dorian's direct admiration, and speaks honestly about wanting attention without wanting to be governed by it. He asks whether Dorian was surprised by his confession at the Evening of Presence and explains that he had needed time to understand what he wanted. The dinner is relaxed and candid, with conversation moving between the western crossing, food, public confidence, and their own expectations. Gabe initiates a first kiss beneath the cedar arcade and agrees to meet Dorian again on Sunday. The connection remains mutual interest and deliberate exploration, not an established partnership. Gabe retains the right to define its pace and direction.

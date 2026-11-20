@@ -69,3 +69,8 @@ The Brotherhood of Giants can express the monumental version of the principle: h
 ## Continuity rule
 
 Hypersexual superiority means **more confidence, more desire, more distinction, more expressive power, and more memorable adult relationships**. It does not mean automatic access to another person, a universal sexual ranking, or the erasure of a man's independent life. Preserve the force of the aesthetic while preserving the freedom that makes attraction meaningful.
+
+
+## First narrative instance — The Evening of Presence
+
+[Chapter LXXXVI — The Evening of Presence](../novel/chapters/CHAPTER_LXXXVI_THE_EVENING_OF_PRESENCE.md) gives the doctrine its first Northgate gathering. Adult residents celebrate physique, presentation, confidence, flirtation, humour, and the pleasure of being admired. The event has no permanent ranking and no compulsory performance. The platform is used for voluntary presentation; private portraits remain under each participant's control. Dorian and Gabe each take part, and their mutual attraction becomes explicit when they speak privately on the terrace. They agree to dinner the following week, without assigning the relationship a status before it has developed.

@@ -119,3 +119,69 @@ They continued the inspection. Dani sat on the bench, stood again, reached for a
 
 Later, at the Common Table, Dani described the inspection as “a room learning to make room.” Tyler said that sounded like something the Institute would put on a plaque. Daniel, who had already started the facilities request, said he would accept the plaque if it came with properly placed hooks. The men laughed, and the conversation moved on to lunch. But the phrase remained in the record because it described more than the changing room. The Body, Without Guesswork had begun with an awkward question about anatomy. It was becoming a practice of attention: looking carefully, asking before touching, noticing where a body met its surroundings, and making changes that allowed men to live in those bodies with less needless difficulty.
 
+## After the measurements: becoming familiar
+
+Dani Kaganovich did not become important to the Institute because he was large. He became important because, after the changing-room inspection, he kept showing up. He came back on the following Tuesday to help fit the temporary towel rail, then returned on Thursday because one of the brackets had begun to pull away from the cedar backing. He was not assigned to facilities, and he did not make a show of volunteering. He noticed a thing that needed doing, asked who was responsible, and stayed long enough to help finish it. By the end of the week, the men had begun to expect him in the repair passage, usually with his sleeves pushed up and a pencil tucked behind one ear. His size was the first thing a newcomer noticed; his steadiness was what the regulars remembered.
+
+The training circle gave the men a different way to become familiar with him. Dani trained without theatrics. He prepared his station, checked the collars, set the weight, and took his time between sets. He had the kind of build that made an ordinary movement look substantial: the breadth of his back when he leaned forward to secure a plate, the slow gathering of his shoulders when he stood upright, the heavy placement of his feet when he stepped away from the rack. But he did not turn every exercise into a demonstration. He was attentive to the equipment and to the people around him. If a bench wobbled, he stopped and fixed it. If someone was waiting, he offered the station rather than making them ask twice. He could lift more than most of the men in the room, but he did not treat that as a right to occupy it.
+
+Tyler began to recognise the small interval before Dani's sets: the way he drew a breath, settled his stance, and looked once at the bar before putting his hands around it. There was no need to narrate the movement. The weight rose, his body took the strain, and the plates returned to their supports with a controlled metallic sound. On one afternoon Tyler stood nearby while Dani adjusted the bench. He asked whether the back pad was level, and Dani said he thought it was a fraction low on the left. Tyler crouched to check the pin. When he stood, he found Dani watching him with a faintly amused expression.
+
+“You always inspect things twice?” Dani asked.
+
+“Only the things that can fall on me.”
+
+“Good policy.”
+
+They adjusted the pad together. Tyler placed one hand against the end of the bench while Dani tested the setting, then shifted his palm away when the frame moved. The exchange was unremarkable, almost entirely practical, but the men were beginning to learn one another through such moments. Familiarity did not arrive as a revelation. It accumulated through the repeated permission to come closer, to help, to stand beside someone without needing to fill the silence.
+
+The first time Tyler touched Dani without the excuse of measuring a fixture, it happened after training. Dani had been carrying a stack of rubber floor tiles from the equipment store, and one corner had caught against the doorframe. Tyler took the other end. They moved the stack into the open space and lowered it together. A thin line of chalk dust had settled across Dani's shoulder from the old storage shelf. Tyler noticed it while they were setting the tiles down.
+
+“You've got dust on you,” he said.
+
+Dani turned his head slightly. “Where?”
+
+“Here.”
+
+Tyler lifted his hand, paused long enough for Dani to see what he meant, and brushed the dust from the top of his shoulder with the flat of his fingers. The movement was light and brief. The shirt beneath his hand was stretched across the curve of the shoulder, and the warmth of the man came through the fabric. Dani glanced at him, then looked back toward the tiles.
+
+“Thanks.”
+
+It was a small contact, and neither man enlarged it with a comment. That was why Tyler remembered it. He had expected the moment to feel more conspicuous than it did. Instead it seemed to belong to the ordinary sequence of working alongside someone: noticing, asking, touching only as much as the task required, and moving on. Later, when Dani found a smear of chalk on Tyler's forearm, he brushed it away with the back of two fingers. The gesture was just as brief. The reciprocity mattered. Dani was not simply the large man being observed or approached; he was an active participant in the quiet grammar of attention.
+
+The men around them noticed the change without naming it. Marcus had been the first person to make room for Dani at the Common Table, sliding a chair out with his foot while continuing a story about the broken lift in the north wing. Daniel Roman began including Dani in the practical conversations about the Institute, not as a specialist in strength but as someone whose observations were useful. The facilities coordinator asked him to review the revised bench spacing before the order was placed. A few of the younger adult members watched how he moved through the training room and gradually stopped treating his size as an invitation to test themselves against him. Dani did not discourage friendly competition, but he made little of it. He preferred a good session to a public ranking.
+
+At lunch, his humor emerged in dry, well-timed remarks. He could listen through an entire argument about programming, let everyone exhaust their certainty, and then ask one question that exposed the missing assumption. He was not withdrawn; he simply did not spend words to prove he was present. When Tyler asked whether he always spoke so little, Dani replied, “No. Sometimes I say less.” Marcus laughed hard enough to set down his fork. Daniel wrote the line on the edge of the facilities notebook, where it remained beside the measurements for the towel rail.
+
+As the temporary changes went into place, the Institute began to see the difference between designing around a body and designing with the people who used the room. The lower rail was installed first. The hooks were staggered at two heights, and the towel shelf was moved far enough from the damp-clothing area to keep clean fabric separate. A strip of nonslip flooring covered the worst of the wet passage. Dani tested the room at the busy hour, carrying his bag and moving between bench, locker, shower entrance, and towel rail. Tyler followed with a clipboard, not to watch Dani as an exhibit but to record what still failed. The first arrangement was better, though one hook caught the strap of Dani's bag when he turned. They moved it six inches. The second test worked.
+
+The coordinator asked Dani whether he wanted his name included in the facilities report. He shook his head. “Put the users down. It's their room too.” The report listed the training circle, the evening maintenance crew, and the Institute's adult health series as contributors. Dani's role was recorded in the notes, not elevated into a dedication. He seemed more comfortable with that. The improvement was not a monument to one large man. It was a better room for everyone.
+
+The work also altered the way the men discussed strength. Until then, the training circle had tended to speak about strength as a number: the weight lifted, the repetitions completed, the size of a shoulder or thigh, the visible evidence of effort. Dani did not reject those measures. He liked training, and he understood the satisfaction of progress. But he brought another scale into the room. Strength could be the ability to move slowly when something fragile was in one's hands. It could be noticing that a man beside you was struggling with a bench and helping without announcing the rescue. It could be allowing someone to touch your shoulder to remove a trace of dust without making him feel foolish for having noticed. It could be admitting that a room had been badly designed and helping to make it better.
+
+One evening, after the training floor had emptied, Tyler found Dani sitting on the low cedar bench beneath the high windows. Rain had darkened the arcade outside, and the sequoias beyond it were nearly black. Dani had one forearm resting across his thigh. His other hand turned a small metal washer over and over, a habit Tyler had seen him fall into when he was thinking. The size of his hand made the washer look almost weightless.
+
+“Are you waiting for someone?” Tyler asked.
+
+“Not anymore.”
+
+Tyler sat at the other end of the bench. For a while they watched the rain. The room retained the faint smell of rubber flooring, cedar, and the clean mineral scent that came in through the open passage. Tyler asked whether Dani had always trained. Dani said he had trained in different ways for years, sometimes seriously and sometimes just to keep a routine, but he had not always found a place where the people mattered as much as the equipment. He did not offer a long history. He gave Tyler a few facts, left other things alone, and seemed content to let the conversation have space around it.
+
+Tyler asked what had brought him to the Institute. Dani looked toward the dark windows. “I wanted somewhere that was being made, not somewhere that had already decided what everybody was.” Tyler understood enough not to ask him to explain further. The Confluence was full of people who had arrived carrying histories they did not want to turn into introductions. The Institute was supposed to make room for what came next.
+
+When they stood, Tyler noticed a pale mark where the washer had rested against Dani's palm. He reached out, then stopped before touching him. Dani saw the movement and held his hand open. Tyler took the hand lightly, turned it just enough to look at the mark, and rubbed the faint indentation with his thumb. It disappeared almost at once. Dani's hand was broad and warm, with the roughness of training and repair work in the pads of his fingers. Tyler let go. There was no declaration and no demand for meaning. The moment could remain a moment.
+
+“See you tomorrow?” Tyler asked.
+
+“If the rail stays up.”
+
+“I'll check it.”
+
+“Then I'll see you tomorrow.”
+
+Afterward, Tyler did check the rail. It held. Dani came in the next morning anyway.
+
+The Institute's account of Dani's first weeks was eventually added to the chapter not as a profile or a measurement sheet, but as a record of becoming familiar. It noted that he was large, strong, observant, dryly funny, and careful with shared equipment. It recorded his contribution to the changing-room review and the practical changes that followed. It also recorded the quieter facts that were harder to enter into a form: that Tyler had learned not to hurry when approaching him; that Dani had shown himself willing to receive ordinary kindness and return it; that Marcus and Daniel had begun to treat him as part of the circle without ceremony; that the room had become more usable because its occupants had been asked what they needed.
+
+No single gesture explained Dani Kaganovich. The men came to know him by seeing him again: at the rack, at the repair bench, beneath the cedar arcade, carrying a stack of tiles, listening at the Common Table, leaving a place open for the next man. His size remained visible, but it ceased to be the whole story. In the Institute, familiarity was not possession and attention was not entitlement. It was the slow accumulation of accurate impressions, each one revised by the next encounter. Dani became part of the place in exactly that way: not by being introduced as an idea, but by having a life there.
+

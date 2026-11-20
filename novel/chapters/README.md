@@ -6,7 +6,7 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 
 ## Files
 
-### MD (17)
+### MD (18)
 
 - [`CHAPTER_LXXIII_THE_DISTANCE_BETWEEN_TWO_CHAIRS.md`](./CHAPTER_LXXIII_THE_DISTANCE_BETWEEN_TWO_CHAIRS.md)
 - [`CHAPTER_LXXIV_THE_FIRST_REPORT.md`](./CHAPTER_LXXIV_THE_FIRST_REPORT.md)
@@ -26,3 +26,5 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 - [`CHAPTER_LXXXVI_THE_EVENING_OF_PRESENCE.md`](./CHAPTER_LXXXVI_THE_EVENING_OF_PRESENCE.md)
 
 - [`CHAPTER_LXXXVII_THE_FIRST_DINNER.md`](./CHAPTER_LXXXVII_THE_FIRST_DINNER.md)
+
+- [`CHAPTER_LXXXVIII_DUH.md`](./CHAPTER_LXXXVIII_DUH.md)

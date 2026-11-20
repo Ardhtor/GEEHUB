@@ -2317,3 +2317,11 @@ NICK: A detail returns in NORTHGATE LIBRARY: At night the lamps make the reading
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-library/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 302 — ROUTE_OPEN / NORTHGATE LIBRARY / 2026-11-20T04:46:07.243722+00:00
+
+SETH: A line becomes visible between NORTHGATE LIBRARY and THE COMMON TABLE. The archive names the relation "CAMPUS AFTER HOURS".
+
+NICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

@@ -66,5 +66,5 @@ The correspondence is structural rather than geographical. The Institute is not 
 
 ## Lantern Market and the open repair bench
 
-[The Handle at Lantern Market](INSTITUTE_THE_HANDLE_AT_LANTERN_MARKET.md) follows Dani Kaganovich, Tyler, Daniel Roman, Marcus, and the Coach from the Institute workshop to Lantern Market. A trader's cart leads to a removable two-position handle prototype and a proposed weekly repair session using Lantern Market's existing maker bench with support from the Institute workshop. The connection is established through an actual visit and a small project, not by merging the institutions. The handle still requires loaded and rough-surface testing, and the repair afternoon remains a pilot proposal.
+[The Handle at Lantern Market](INSTITUTE_THE_HANDLE_AT_LANTERN_MARKET.md) follows Dani Kaganovich, Tyler, Daniel Roman, Marcus, and the Coach from the Institute workshop to Lantern Market. They reach the market by public shuttle through the city interchange, establishing a usable connection while keeping the two institutions distinct. A trader's cart leads to a removable two-position handle prototype and a proposed weekly repair session using Lantern Market's existing maker bench, with support from the Institute workshop. The handle still requires loaded and rough-surface testing, and the repair session remains a pilot proposal.
 

@@ -17,3 +17,5 @@
 #applyPatch{border:1px solid #7c8793;background:#dce2e8;color:#0b0e12;border-radius:7px;padding:9px 12px;white-space:nowrap}
 .terminal-output{margin-top:12px;border-top:1px solid #252d35;padding-top:10px;font:10px "Courier New",monospace;color:#9fb2a6;letter-spacing:.04em}
 @media(max-width:700px){.workbench-head,.workbench-actions{align-items:flex-start;flex-direction:column}.workbench-status{order:-1}}
+
+.story-link{margin:0 0 14px;font-size:12px}.story-link a{color:#cdd5de;text-decoration-color:#68737f;text-underline-offset:3px}.story-link a:hover,.story-link a:focus-visible{color:#fff}

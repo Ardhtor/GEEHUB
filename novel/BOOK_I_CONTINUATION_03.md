@@ -284,7 +284,7 @@
 
 ## Chapter LXX: The Ascent
 
-     The ascent took nine hours, though the clock on the wall displayed only one minute. The thing below came upward through the repeated house, and every level recorded a different part of its arrival. In one room it was a pressure beneath the floor. In another it was a shadow beneath the table. In another it was an enormous hand pressing against the ceiling. In another it was the sound of a man climbing stairs very slowly.
+     The ascent began inside the abandoned building, whose broken entry and dusted windows now repeated through the house below the seventh well. It took nine hours, though the clock on the wall displayed only one minute. The thing below came upward through the repeated house, and every level recorded a different part of its arrival. In one room it was a pressure beneath the floor. In another it was a shadow beneath the table. In another it was an enormous hand pressing against the ceiling. In another it was the sound of a man climbing stairs very slowly.
 
      The first hand appeared in the lowest chamber.
 
@@ -413,6 +413,9 @@ Kirk looked over the platform and noticed that the structure beneath it was no l
 The first man finally spoke. “You are not above it.” Luke turned. “Above what?” The man looked toward the water. “The thing you call below.” The host answered, “And you are not outside it.” The first man did not object. The two statements remained together. Tyler understood that neither position was being offered as the final view. The host was part of the house, and the first man was present within the same world, even if he claimed that the idea of below had no absolute meaning. Kirk looked down at the structure. Joseph looked at the men. They had reached a place where the old disagreement could remain unresolved without preventing movement. Luke turned toward the stairs. “Then we keep going.” The host nodded. The first man remained silent. The men began the next ascent.
 
 Behind them, the blue hall continued to flood upward. The water crossed the lower rooms, moved through the gallery, and reached the platform's underside. It did not rise to drown the men. It rose to make visible the connections between the levels they had crossed. The house remained beneath them, but the distinction between beneath and beyond was becoming less useful. The first man walked beside the group. The host led them toward the next staircase. Tyler kept the observed sequence in mind, Kirk kept the structure legible, Luke continued at the front, and Joseph stayed close enough that none of them became isolated. The men had not reached the top of the house. They had reached a place from which the house could be seen as one part of a larger world. The ascent continued. **THE HOUSE WAS RISING THROUGH ITS OWN HISTORY.**
+
+— Ardhtor
+
 ## Chapter LXXI: The Mouth Beneath the House
 
      The mouth opened below the seventh well. There was no visible head. There was only an opening extending across the underground city, lined not with teeth but with doors. Each door opened onto a different version of the house.

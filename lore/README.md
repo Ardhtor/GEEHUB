@@ -12,6 +12,15 @@ mechanism → interface → transformation rule → continuity principle → set
 The raw archive remains authoritative for what a conversation actually contained. Lore is authoritative only for the state of the lore graph itself.
 
 
+## Current institutional and character passages
+
+- [The Handle at Lantern Market](INSTITUTE_THE_HANDLE_AT_LANTERN_MARKET.md) — Dani's independent repair project links the Institute workshop with an existing market through a tested prototype and a proposed open repair bench; the remaining tests and approval stay visible.
+- [The Body, Without Guesswork](CONFLUENCE_THE_BODY_WITHOUT_GUESSWORK_2026-11-20.md) — the adult health series and Dani's first changing-room and training-circle scenes, preserving his initial familiarity with Tyler.
+
+## Cross-dimensional anchors
+
+- [The Familiarity Paradox — Joey and Kirk's Shared Plane of Awareness](dimension/FAMILIARITY_PARADOX_SHARED_AWARENESS.md) — reciprocal attention and shared emotional experience as a lasting relational dimension, while preserving independent identity, privacy, and agency.
+
 ## Active thematic records
 
 - [Hypersexual Superiority](HYPERSEXUAL_SUPERIORITY.md) — adult masculine erotic confidence, competitive desirability, display, charisma, and consensual power across Northgate and the Scale Commons.

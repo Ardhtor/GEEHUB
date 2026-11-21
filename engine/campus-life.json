@@ -1,6 +1,25 @@
 {
-  "cycle": 159,
+  "cycle": 160,
   "events": [
+    {
+      "id": "northgate-campus-00160",
+      "cycle": 160,
+      "world_pulse": 329,
+      "at": "2026-11-21T20:56:12.721717+00:00",
+      "region": "northgate-library",
+      "title": "THE LATE READING ROOM",
+      "kind": "research",
+      "participants": [
+        "Marek Ionescu",
+        "Elliot Ward",
+        "Noah Bell"
+      ],
+      "description": "The oak reading hall settles into its evening rhythm. A student edits a short film in the lower media suite while two others compare notes at a green-shaded lamp. Someone finds a reference that had eluded the group all week and quietly sends the page number around.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-21T20:56:12.721717+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00159",
       "cycle": 159,
@@ -3002,27 +3021,27 @@
   ],
   "attendance": {
     "Dan Roman": 123,
-    "Marek Ionescu": 86,
-    "Elliot Ward": 98,
-    "Noah Bell": 98,
+    "Marek Ionescu": 87,
+    "Elliot Ward": 99,
+    "Noah Bell": 99,
     "Adrian Varga": 97
   },
   "last_event": {
-    "id": "northgate-campus-00159",
-    "cycle": 159,
-    "world_pulse": 328,
-    "at": "2026-11-21T16:46:57.454523+00:00",
-    "region": "athletic-commons",
-    "title": "THE EVENING TRAINING GROUP",
-    "kind": "training",
+    "id": "northgate-campus-00160",
+    "cycle": 160,
+    "world_pulse": 329,
+    "at": "2026-11-21T20:56:12.721717+00:00",
+    "region": "northgate-library",
+    "title": "THE LATE READING ROOM",
+    "kind": "research",
     "participants": [
-      "Dan Roman",
-      "Noah Bell",
-      "Adrian Varga"
+      "Marek Ionescu",
+      "Elliot Ward",
+      "Noah Bell"
     ],
-    "description": "The training group gathers beneath the high timber roof. They move through warm-ups, careful sets and recovery work, trading observations about technique. Afterward they linger by the pool windows, making plans to walk back to the dormitory together.",
+    "description": "The oak reading hall settles into its evening rhythm. A student edits a short film in the lower media suite while two others compare notes at a green-shaded lamp. Someone finds a reference that had eluded the group all week and quietly sends the page number around.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-21T16:46:57.454523+00:00",
+    "occurred_at": "2026-11-21T20:56:12.721717+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

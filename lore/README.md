@@ -14,7 +14,7 @@ The raw archive remains authoritative for what a conversation actually contained
 
 ## Current institutional and character passages
 
-- [The Handle at Lantern Market](INSTITUTE_THE_HANDLE_AT_LANTERN_MARKET.md) — Dani's independent repair project links the Institute workshop with an existing market through a tested prototype and a proposed open repair bench; the remaining tests and approval stay visible.
+- [The Handle at Lantern Market](INSTITUTE_THE_HANDLE_AT_LANTERN_MARKET.md) — Dani's independent repair project links the Institute workshop with an existing market through a tested prototype and a proposed scheduled repair session using the market's existing maker bench; the remaining tests and approval stay visible.
 - [The Body, Without Guesswork](CONFLUENCE_THE_BODY_WITHOUT_GUESSWORK_2026-11-20.md) — the adult health series and Dani's first changing-room and training-circle scenes, preserving his initial familiarity with Tyler.
 
 ## Cross-dimensional anchors

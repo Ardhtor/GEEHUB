@@ -4,12 +4,24 @@
   "status": "ACTIVE",
   "rule": "Each scheduled cycle advances the inherited world one step. Nothing is reset; each cycle appends memory and queues concrete renderer work.",
   "cadence": "15 minutes",
-  "cycle": 227,
-  "currentAgent": "tyler",
-  "currentRegion": "common-table",
-  "scale": 16.98,
-  "lastRun": "2026-11-21T08:48:40.111Z",
+  "cycle": 228,
+  "currentAgent": "andrew",
+  "currentRegion": "northgate-library",
+  "scale": 17.06,
+  "lastRun": "2026-11-21T16:40:48.740Z",
   "history": [
+    {
+      "cycle": 228,
+      "agent": "andrew",
+      "previousRegion": "common-table",
+      "region": "northgate-library",
+      "relation": "CAMPUS AFTER HOURS",
+      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
+      "priorScale": 16.98,
+      "scale": 17.06,
+      "recording": "scheduled-recording-00228",
+      "at": "2026-11-21T16:40:48.740Z"
+    },
     {
       "cycle": 227,
       "agent": "tyler",
@@ -1197,22 +1209,10 @@
       "scale": 10.78,
       "recording": "scheduled-recording-00129",
       "at": "2026-10-29T00:14:55.066Z"
-    },
-    {
-      "cycle": 128,
-      "agent": "andrew",
-      "previousRegion": "muscle-myth",
-      "region": "colossal-escalation",
-      "relation": "THE CITY LEARNS HIS NAME",
-      "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-      "priorScale": 10.58,
-      "scale": 10.66,
-      "recording": "scheduled-recording-00128",
-      "at": "2026-10-28T20:18:06.306Z"
     }
   ],
-  "previousRegion": "cedar-house",
-  "relation": "A TABLE IS SET",
+  "previousRegion": "common-table",
+  "relation": "CAMPUS AFTER HOURS",
   "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
   "regionVisits": {
     "deep-lore": 14,
@@ -1236,7 +1236,7 @@
     "northgate-university": 11,
     "bluewater-quay": 9,
     "lantern-market": 10,
-    "northgate-library": 7,
+    "northgate-library": 8,
     "athletic-commons": 5
   },
   "lastRegionAt": {
@@ -1259,14 +1259,14 @@
     "asset-intake-2026-11-03": "2026-11-03T23:58:00+01:00",
     "procession-of-two-accounts": "2026-11-04T12:02:15+01:00",
     "the-unentered-place": "2026-11-04T18:08:00+01:00",
-    "common-table": "2026-11-21T08:48:40.111Z",
+    "common-table": "2026-11-21T15:14:56.900056+00:00",
     "cedar-house": "2026-11-21T06:46:19.500769+00:00",
     "cat-gardens": "2026-11-20T23:54:19.462850+00:00",
     "founders-dormitory": "2026-11-20T19:37:20.520828+00:00",
     "northgate-university": "2026-11-17T04:07:59.338644+00:00",
     "bluewater-quay": "2026-11-19T10:42:31.991247+00:00",
     "lantern-market": "2026-11-19T19:11:53.179340+00:00",
-    "northgate-library": "2026-11-20T04:46:07.243722+00:00",
+    "northgate-library": "2026-11-21T16:40:48.740Z",
     "athletic-commons": "2026-11-16T21:17:01.719517+00:00"
   }
 }

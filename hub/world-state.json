@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00227.json",
+  "activeRecording": "./recordings/scheduled-recording-00228.json",
   "activeEncounter": {
-    "regionId": "common-table",
-    "regionName": "THE COMMON TABLE",
+    "regionId": "northgate-library",
+    "regionName": "NORTHGATE LIBRARY",
     "subject": {
-      "agent": "tyler",
-      "scale": 16.98,
+      "agent": "andrew",
+      "scale": 17.06,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / CEDAR HOUSE → THE COMMON TABLE / TYLER",
+    "intent": "LONG PLAY / THE COMMON TABLE → NORTHGATE LIBRARY / ANDREW",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 16.93× → 16.98×",
-      "CEDAR HOUSE → THE COMMON TABLE",
-      "relation: A TABLE IS SET",
+      "scale 16.98× → 17.06×",
+      "THE COMMON TABLE → NORTHGATE LIBRARY",
+      "relation: CAMPUS AFTER HOURS",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "cedar-house"
+    "previousRegionId": "common-table"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-21T08:48:40.111Z",
+  "snapshot": "2026-11-21T16:40:48.740Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 227,
-    "agent": "tyler",
-    "previousRegionId": "cedar-house",
-    "regionId": "common-table",
-    "relation": "A TABLE IS SET",
+    "cycle": 228,
+    "agent": "andrew",
+    "previousRegionId": "common-table",
+    "regionId": "northgate-library",
+    "relation": "CAMPUS AFTER HOURS",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 16.93,
-    "scale": 16.98,
-    "recording": "scheduled-recording-00227",
-    "at": "2026-11-21T08:48:40.111Z"
+    "previousScale": 16.98,
+    "scale": 17.06,
+    "recording": "scheduled-recording-00228",
+    "at": "2026-11-21T16:40:48.740Z"
   }
 }

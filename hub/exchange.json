@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-21T08:48:40.111Z",
+  "generated": "2026-11-21T16:40:48.740Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00228",
+      "at": "2026-11-21T16:40:48.740Z",
+      "from": "geehub-long-play",
+      "to": "andrew",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / THE COMMON TABLE → NORTHGATE LIBRARY / ANDREW",
+      "body": "The world crossed the existing relation \"CAMPUS AFTER HOURS\" from THE COMMON TABLE into NORTHGATE LIBRARY. Scale increased from 16.98× to 17.06×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00228",
+      "live": true,
+      "regionId": "northgate-library",
+      "previousRegionId": "common-table",
+      "relation": "CAMPUS AFTER HOURS"
+    },
     {
       "id": "scheduled-long-play-00227",
       "at": "2026-11-21T08:48:40.111Z",
@@ -1482,21 +1497,6 @@
       "regionId": "growth",
       "previousRegionId": "complex",
       "relation": "KISS = CONTINUITY"
-    },
-    {
-      "id": "scheduled-long-play-00131",
-      "at": "2026-10-29T12:51:02.981Z",
-      "from": "geehub-long-play",
-      "to": "luke",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / COLOSSAL ESCALATION → THE COMPLEX / LUKE",
-      "body": "The world crossed the existing relation \"THE HORIZON MOVES\" from COLOSSAL ESCALATION into THE COMPLEX. Scale increased from 10.82× to 10.85×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00131",
-      "live": true,
-      "regionId": "complex",
-      "previousRegionId": "colossal-escalation",
-      "relation": "THE HORIZON MOVES"
     }
   ]
 }

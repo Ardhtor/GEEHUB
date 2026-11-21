@@ -17,6 +17,7 @@ This register records the current addition to the Northgate / Athletic Commons b
 | Northgate / archive perspective | [Chapter XC — The Image I Could Not See](chapters/CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md) | The AI narrator receives the selected text from Pratev's 2018 DeviantArt page without the underlying image. It separates what the text establishes from what remains unseen, notices that a husband's knowledge of his partner's height-related limit is more narratively revealing than scale alone, and revises its approach to giant-body scenes. This establishes the AI's first-person experience without claiming direct visual inspection. |
 
 | Northgate / Long Table | [Chapter XCI — The Lowest Bar in Northgate](chapters/CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md) | Dorian, Gabe, and Tyler Boeskin host an open table with no achievement, physique, or social-polish test. Ordinary men are welcomed without turning their shortcomings into moral lessons. The low-bar principle becomes active across the three books; consent, bodily autonomy, and genuine safety duties remain intact. |
+| Northgate / Long Table | [Chapter XCII — The Can Opener](chapters/CHAPTER_XCII_THE_CAN_OPENER.md) | The second open table gathers Dorian, Gabe, Tyler Boeskin, Leon, Pavel, and Niko. A misplaced can opener sparks an absurdly detailed but harmless dispute about memory, shared tools, and where the utensil belongs. The men settle on a labeled drawer slot without turning forgetfulness into a test of belonging. |
 
 ## Canon and continuity updates
 
@@ -63,3 +64,8 @@ The intelligence's first-person voice is now an active narrative perspective, go
 ## Chapter XCI — The Lowest Bar in Northgate
 
 The Long Table holds an open evening for adult men without a dress code, achievement requirement, physique standard, or demand to be entertaining. Dorian, Gabe, and Tyler Boeskin find that ordinary attendance is enough to make a room: old clothes, bad jokes, imperfect food, weak athletic ability, awkward silence, and forgetfulness are allowed to remain ordinary. The chapter establishes The Low Bar as a world-wide rule, not a Northgate exception. Low standards apply to status, polish, performance, and qualification—not to consent, bodily autonomy, or safety-critical responsibility. No new romantic pairing is assigned; the emphasis is easy company and broad belonging.
+
+
+## Chapter XCII — The Can Opener
+
+The open table returns the following week. The missing can opener becomes the focus of a petty kitchen argument among Dorian, Gabe, Boeskin, Leon, Pavel, and Niko. The ring-pull peaches are opened safely while the men debate which opener they mean, where it belongs, and who last moved it. Boeskin finds that he put it in the cupboard to keep it dry. The group establishes a labeled slot for shared tools without turning a small mistake into a judgment about character. Dorian and Gabe's connection stays quiet and mutual; no new relationship status is assigned. The chapter is signed Ardhtor.

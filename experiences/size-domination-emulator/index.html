@@ -2,26 +2,27 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GEEHUB // SIZE DOMINATION EMULATOR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07090c">
+<title>Size Domination Emulator — The Tractus</title>
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <main class="emulator">
 <header class="top">
   <div>
-    <div class="eyebrow">GEEHUB / SENSATION ENGINE</div>
+    <div class="eyebrow">THE TRACTUS / SENSATION ENGINE</div>
     <h1>SIZE DOMINATION EMULATOR</h1>
-    <p>Swipe the body-state outward. The room has to admit what happened.</p>
+    <p>Push the body-state outward. The room has to admit what happened.</p>
   </div>
-  <button id="run" class="run">RUN</button>
+  <button id="run" class="run" type="button">RUN</button>
 </header>
 
-<section class="stage" id="stage">
+<section class="stage" id="stage" aria-label="Fictional scale scene">
   <div class="room room-back"></div><div class="room room-floor"></div>
   <div class="scale-lines"></div>
   <div class="door"><span>DOOR</span></div>
-  <div class="figure" id="figure">
+  <div class="figure" id="figure" aria-hidden="true">
     <i class="head"></i><i class="neck"></i><i class="torso"></i>
     <i class="arm arm-a"></i><i class="arm arm-b"></i>
     <i class="hand hand-a"></i><i class="hand hand-b"></i>
@@ -29,23 +30,24 @@
     <i class="foot foot-a"></i><i class="foot foot-b"></i>
   </div>
   <div class="camera" id="camera">CAMERA / 01</div>
-  <div class="readout">
+  <div class="readout" aria-live="polite">
     <span id="state">BASELINE</span>
     <strong id="size">100%</strong>
     <small id="caption">The person is continuous.</small>
   </div>
 </section>
 
-<section class="controls">
+<section class="controls" aria-label="Scale controls">
   <div class="swipe-label"><span>SWIPE / PUSH</span><span id="depth">DEPTH 0</span></div>
-  <input id="slider" type="range" min="0" max="100" value="0" aria-label="Body scale">
+  <label class="sr-only" for="slider">Body scale</label>
+  <input id="slider" type="range" min="0" max="100" value="0">
   <div class="ticks"><span>BASELINE</span><span>MASSIVE</span><span>COLOSSAL</span><span>ROOM-SCALE</span></div>
   <div class="quick">
-    <button data-jump="10">+10</button><button data-jump="25">+25</button><button data-jump="50">+50</button><button data-jump="100">MAX</button>
+    <button type="button" data-jump="10">+10</button><button type="button" data-jump="25">+25</button><button type="button" data-jump="50">+50</button><button type="button" data-jump="100">MAX</button>
   </div>
 </section>
 
-<section class="state-grid">
+<section class="state-grid" aria-label="Body-state readout">
   <article><span>HEIGHT</span><strong id="height">1.00×</strong></article>
   <article><span>MASS</span><strong id="mass">1.00×</strong></article>
   <article><span>REACH</span><strong id="reach">1.00×</strong></article>
@@ -54,13 +56,13 @@
 </section>
 
 <section class="history">
-  <div class="history-head"><div><div class="eyebrow">CONTINUITY ARCHIVE</div><h2>THE STATES REMAIN</h2></div><button id="newBaseline">MAKE NEW BASELINE</button></div>
-  <div id="historyList" class="history-list"><div class="empty">No altered baseline yet.</div></div>
+  <div class="history-head"><div><div class="eyebrow">CONTINUITY ARCHIVE</div><h2>THE STATES REMAIN</h2></div><button id="newBaseline" type="button">SAVE STATE</button></div>
+  <div id="historyList" class="history-list" aria-live="polite"><div class="empty">No saved states yet.</div></div>
 </section>
 
 <section class="rules">
   <div class="eyebrow">EMULATOR RULE</div>
-  <p>Scale without erasure. As size increases, the environment recalibrates instead of replacing the subject. Every push creates a state that can become the next starting point.</p>
+  <p>Scale without erasure. As size increases, the environment recalibrates instead of replacing the subject. Saved states remain available on this device.</p>
 </section>
 </main>
 <script src="./app.js"></script>

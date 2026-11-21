@@ -63,3 +63,186 @@ The seriousness of that answer settles into the room. Dongus has spent his life,
 Near the end of the session, Dongus asks the men to show him the novel directory. It is deeper in the tree than the page they have been working on, and the route opens through multiple indexes, editorial notes, and chapters whose sequence carries its own established history. Nick keeps the cursor on the top-level link while Seth describes the difference between entering a world and claiming the story already written there. Dongus says he understands the distinction, then asks to read rather than be summarized. They open the chapter entry point and let the page load. The screen fills with paragraphs that take more than a glance to cross. He reads slowly, pausing at the places where an environment makes a character's presence measurable. Outside the narrative, the workstation fan continues its low steady sound. Inside the text, a door, a hallway, and the light across a floor give each scene its own coordinates.
 
 They do not rush to make Dongus the answer to every question that has just opened. They leave his record provisional, the character index updated, and the narrative linked from the emulator page where the first workstation appeared. They leave the novel tab open to the chapter he has begun reading, not as an announcement of a new role but as the start of a route. The repository now contains a place where his name can be found and a scene in which his first decisions have consequences. The work has changed the source tree in a small number of real files, and the story carries the human scale of those edits: what was known, what was held back, what became easier to find. Dongus folds his cloak over one arm, then sits again. “We continue with the record open,” he says. Seth nods. Nick leaves the cursor in the chapter list. The next page is ready, but they will enter it with the record of this one still visible.
+
+
+## The Can Opener
+
+The next argument begins over an object so ordinary that none of them expects it to become a repository matter. The can opener is in the shared kitchen at the end of the corridor, beside a tin of tomatoes and a folded dish towel that has gone stiff along one edge. Its red handle points toward the sink. Seth is certain that is wrong. Nick says the handle is exactly where it was when he last used it. Dongus stands behind them with his cloak over one arm and looks down at the opener as if the three of them have assembled a council to discuss a disputed province.
+
+“It belongs in the drawer,” Seth says.
+
+“It was in the drawer,” Nick replies. “You took it out.”
+
+“I moved it to the counter so it would be visible.”
+
+“That is not where it belongs.”
+
+“It is visible now.”
+
+Dongus lifts the opener by its red handle. “Is this a ceremonial tool?”
+
+“No,” Nick says.
+
+“Then why is there a debate about its position?”
+
+Seth turns toward him. “Because the handle is facing the wrong way.”
+
+“The handle is facing the person holding it,” Nick says.
+
+“It is facing the sink.”
+
+“The sink is not holding it.”
+
+Dongus sets the tool down with its handle pointing toward the room. Seth inspects the new orientation.
+
+“Now it is in the way.”
+
+“Of what?”
+
+“Of the counter.”
+
+Nick looks at the clear counter around the opener. “The counter appears to have room.”
+
+“The issue is access.”
+
+“You have access.”
+
+“I have to reach across it.”
+
+“You are standing beside it.”
+
+Dongus moves the opener a few inches. “I have placed it equidistant from both of you.”
+
+“Now it belongs to neither of us,” Seth says.
+
+“That sounds like a reasonable outcome,” Nick replies.
+
+The can of tomatoes remains unopened. Its paper label has a small crease near the seam, and the metal lid catches the overhead light with a dull silver flash. Dongus reads the label and asks whether the contents are required for the argument. Seth says they are not. Nick says they could have been opened already if everyone had stopped discussing the tool. Seth reminds him that the can was still sealed when Nick arrived. Nick replies that it was sealed when he arrived because Seth had not opened it. Dongus listens as if testimony is being entered into a formal record.
+
+“Who last used the opener?” he asks.
+
+“I did,” says Seth.
+
+“When?”
+
+“Yesterday.”
+
+“Where did you leave it?”
+
+“On the counter.”
+
+Nick points at the tool. “So this is the correct place.”
+
+“It is not the same counter.”
+
+“It is the same counter.”
+
+“It is the other end.”
+
+“Still the same counter.”
+
+Dongus turns the opener over in his hands. “Does it have a preferred direction?”
+
+“It opens clockwise,” Nick says.
+
+“It depends on how you hold it,” Seth says.
+
+“It does not depend on how I hold it.”
+
+“It depends on whether you are looking at the wheel or the handle.”
+
+Nick takes the opener back. “The wheel turns around the rim. The can does not care which side you are looking from.”
+
+“The can has no opinion on the matter,” Dongus says. “That does not establish that the tool is stored correctly.”
+
+Seth nods once. “Exactly.”
+
+Nick looks at him. “You have been waiting for him to say that.”
+
+“I have been waiting for someone to recognize the actual question.”
+
+“The actual question is whether this tool can open this can.”
+
+“That is a separate question.”
+
+Dongus places the can in front of Nick. “Demonstrate.”
+
+Nick clamps the wheel onto the lid and turns the handle. The opener moves cleanly around the rim. The first section parts with a short scrape; the tomatoes shift inside with a wet, heavy sound. Seth watches the handle's path. Dongus watches the lid. Nick completes the circle and sets the opener down.
+
+“It works,” Nick says.
+
+“It did,” Seth replies.
+
+“What is the distinction?”
+
+“Now we do not know whether it will work next time.”
+
+Nick looks at the tool, then at the open can. “It worked this time.”
+
+“That is what I said.”
+
+Dongus lifts the loose lid by its edge and places it on a saucer. “The matter is resolved.”
+
+“It is not,” Seth says. “We still have to put the opener away.”
+
+Nick begins to return it to the drawer.
+
+“Not that drawer,” Seth says.
+
+Nick stops. “Which drawer?”
+
+“The one by the sink.”
+
+“This is the drawer by the sink.”
+
+“The other drawer by the sink.”
+
+Dongus looks down the counter. Two drawers sit beneath it. Their handles are identical. “Which one contains the designated place?”
+
+“The left one,” Seth says.
+
+“The right one,” Nick says.
+
+They open both drawers. One contains measuring spoons and a corkscrew. The other contains a whisk, two clips, and a can opener with a black handle.
+
+Nick points at the black-handled opener. “There is already one.”
+
+Seth examines it. “That one is blunt.”
+
+“Have you tested it?”
+
+“I can see it.”
+
+“You can see the handle.”
+
+Dongus sets the red-handled opener beside it. “Then the drawer will contain two.”
+
+“Unless we label one as the backup,” Seth says.
+
+Nick looks at him. “You want a label for a can opener?”
+
+“I want the drawer to reflect what is inside it.”
+
+“The drawer contains can openers.”
+
+“The label would explain which one to use.”
+
+Dongus considers the two tools. “Write ‘working’ and ‘unverified.’”
+
+Nick objects that the second tool is not known to be broken. Seth objects that it has not been verified. Dongus says that these are different claims and both can be recorded. They settle on a small piece of tape: **CAN OPENERS — RED TESTED; BLACK UNVERIFIED**. Seth writes it. Nick says the semicolon is unnecessary. Dongus says the semicolon is the least consequential decision they have made all morning. Seth leaves it in.
+
+The red opener goes in the left drawer, handle facing outward. The black one remains beside it, also handle outward, because Dongus says a tool that has not been tested should still be reachable. Nick closes the drawer. Seth opens it again to confirm the label can be read. Nick closes it once more. Dongus waits until both men step back, then opens it himself and takes out the red-handled opener.
+
+“Why did you take it out?” Nick asks.
+
+“To determine whether the drawer opens without obstruction.”
+
+“It opens.”
+
+“I have confirmed that.”
+
+Seth looks at the open can, the saucered lid, and the two men standing beside the drawer. “We should record the result.”
+
+Nick says there is no need to create a ticket for a can opener. Dongus says the argument has already consumed more time than the record would take. Seth writes a short note in the kitchen's working page: the red opener has been tested on a tomato can; the black opener remains unverified; the label is readable with the drawer open; the handle faces outward. Nick reads it and says the final clause is not useful. Seth asks whether he prefers the handle facing inward. Nick says he does not care which way it faces. Seth keeps the clause. Dongus reads the entire note, then tells them it is accurate. Neither man asks whether he has authority to approve it.
+
+The tomatoes are finally used in the meal. The can opener returns to its drawer, the red handle aligned with the label. The small kitchen falls quiet except for the tap running over the saucer and the low hum that reaches them from the workstation. Nothing in the repository has changed because of the opener itself. What changed is that three residents now know how the other two behave when a trivial question gives them room to insist. Dongus leaves the note in place. Nick stops arguing about the semicolon. Seth looks at the drawer once on the way out and says the handle is still facing the right direction. Nick does not turn around. “It has not moved,” he says.

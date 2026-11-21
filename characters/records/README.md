@@ -6,7 +6,7 @@ This is the local navigation page for `characters/records/`. The lists below lin
 
 ## Files
 
-### MD (18)
+### MD (19)
 
 - [`ANDREW.md`](./ANDREW.md)
 - [`ARTHUR.md`](./ARTHUR.md)
@@ -14,6 +14,8 @@ This is the local navigation page for `characters/records/`. The lists below lin
 - [`CHASE.md`](./CHASE.md)
 - [`DAN_ROMAN.md`](./DAN_ROMAN.md)
 - [`DANIEL_GOEBEL.md`](./DANIEL_GOEBEL.md)
+- [`DONGUS.md`](./DONGUS.md)
+- [`DORIAN_VALE.md`](./DORIAN_VALE.md)
 - [`GABE.md`](./GABE.md)
 - [`JOEY.md`](./JOEY.md)
 - [`LEXOR.md`](./LEXOR.md)
@@ -25,5 +27,3 @@ This is the local navigation page for `characters/records/`. The lists below lin
 - [`TRAVIS.md`](./TRAVIS.md)
 - [`TYLER.md`](./TYLER.md)
 - [`TYLER_BOESKIN.md`](./TYLER_BOESKIN.md)
-
-- [`DORIAN_VALE.md`](./DORIAN_VALE.md)

@@ -418,19 +418,19 @@ Behind them, the blue hall continued to flood upward. The water crossed the lowe
 
 ## Chapter LXXI: The Mouth Beneath the House
 
-     The mouth opened below the seventh well. There was no visible head. There was only an opening extending across the underground city, lined not with teeth but with doors. Each door opened onto a different version of the house.
+     The mouth opened below the seventh well. The men reached it by descending through the abandoned building's lowest stair, where the stone steps ended at a wall that had not been present on their way up. The wall opened without moving. Beyond it, an underground city extended beneath the house, its streets laid out in versions of the same rooms. The mouth had no visible head. It was an opening that ran across the city, lined not with teeth but with doors. Each door opened onto a different version of the house: the abandoned building with dust at its windows, the dining room with the table set, the first house, and rooms the men had passed through before they knew they were connected.
+
+     Water moved along the paving stones and gathered at the doorways. Its surface reflected the blue hall above, but the reflection did not match the direction of the light. The stranger stood with the wooden handle still in his hand. He could see the route back through the lower stair, though it bent twice before reaching the courtyard. Luke positioned himself where he could see both the opening and the group. Tyler kept a record of which doors were visible and what each one reflected. Kirk examined the walls, looking for a structure that might support the city without assuming the mouth was a building feature. Joseph listened for the men behind him and made sure the stranger had space to choose where to stand.
 
      “Give me the room,” said the thing below.
 
-     The host stepped forward.
-
-     “You have the room.”
+     Its voice came from the opening and from the doorways along its edge. The host stepped forward. His clothes were still clean, though the water had reached the hem. “You have the room.”
 
      “Give me the first man.”
 
-     The first man who had never been born turned toward the darkness.
+     The first man who had never been born turned toward the darkness. He stood apart from the host, neither hidden nor guarded. His outline held the tall, broad shape the men had seen in the earlier rooms, but the edges of him were not yet fully settled. Luke took one step forward. Tyler stopped him with a quiet gesture, not because the first man needed protection from the group, but because the choice belonged to him.
 
-     “You cannot have me.”
+     “You cannot have me,” the first man said.
 
      “You are already inside me.”
 
@@ -440,29 +440,35 @@ Behind them, the blue hall continued to flood upward. The water crossed the lowe
 
      “I am the man before the man.”
 
+     The exchange did not sound like bargaining. The mouth claimed to contain him; the first man denied that containment gave it ownership. Kirk watched the nearest doorframes shift. Their stone held, but each one changed its relation to the street. Tyler could record the movement, not its cause. The stranger looked at the handle and then at the first man. He recognized the pressure of being given a place by something else. “A room can hold you,” he said, “without deciding who you are.” The first man glanced back at him. He did not answer, but his posture changed. His shoulders settled, and for the first time he seemed to be standing on the street rather than appearing inside its description.
+
      The Voice answered from above.
 
      NOTHING IS GONE.
 
-     The mouth widened.
+     The mouth widened. Several doors opened at once. Behind one was the empty dining room, behind another the table before the meal, and behind a third the same house after the blue water had entered it. None of the openings showed a single origin. The repeated rooms retained their differences even as the city drew them together. The host did not reach for the first man. He knew the danger of turning an invitation to stay into a command. Luke looked at Joseph. Joseph looked at the first man.
 
-     The first man looked back at the four travelers.
+     “If I go down, the house may become singular,” the first man said.
 
-     “If I go down, the house may become singular.”
+     “Then stay,” Joseph replied.
 
-     “Then stay,” Joseph said.
+     The first man shook his head. “There is no staying.”
 
-     The first man shook his head.
+     Joseph did not repeat himself. He could want the man to remain and still understand that the decision could not be made for him. Kirk stood nearby, ready to keep the route open. Tyler lowered his notebook. Luke remained alert but did not close the distance. The stranger held the wooden handle without raising it as if it could control the mouth. The group did not surround the first man or block the way down.
 
-     “There is no staying.”
+     The first man looked toward them. His attention rested on each of them in turn: on Luke's readiness, Tyler's restraint, Kirk's watchfulness, Joseph's invitation, and the stranger's grip on the old handle. He nodded once, not as permission for them to follow but as acknowledgment that they had heard him. Then he turned toward the opening.
 
      He entered the dark.
 
-     Every room shifted to make space.
+     Every room shifted to make space. The paving stones remained beneath the men, but the doors altered their positions and the city seemed to fold around the descent. The first man did not vanish at once. For several seconds they could still see his broad outline through the open doorway. Then the darkness closed without a sound. The mouth did not seal. It remained open, and the doors along its edge continued to show different rooms.
 
      Every screen displayed the same sentence.
 
      HE IS GOING DOWN.
+
+     Luke watched for movement. Tyler recorded the time and the sequence of doors. Kirk studied the walls for signs of collapse. Joseph listened, but no answer came from below. The stranger kept the handle in his hand and the route behind them in view. The mouth had received the first man, but it had not resolved what he was or what would follow. The group stood in the abandoned building's deepest room with the water around their boots and the open city below them. No one called the descent a sacrifice, a victory, or a return. They had seen a man make a choice, and the next task was to discover what that choice had changed.
+
+— Ardhtor
 
 ## Chapter LXXII: The Door Left Open
 

@@ -55,6 +55,18 @@
   <article><span>FOOTPRINT</span><strong id="footprint">1.00×</strong></article>
 </section>
 
+
+<section class="workbench" aria-labelledby="workbench-title">
+  <div class="workbench-head"><div><div class="eyebrow">IN-WORLD WORKSTATION · GEEHUB / EXPERIENCES</div><h2 id="workbench-title">THE MEN AT THE TERMINAL</h2></div><span class="workbench-status" id="workbenchStatus" aria-live="polite">WORKTREE OPEN</span></div>
+  <div class="narrative" aria-live="polite"><p><strong>Seth</strong> pulls the emulator's source onto the monitor. In the next window, the scene waits beneath its old numbers.</p><p><strong>Nick</strong> leans over the desk. “Change the rule, then. Let the room keep up with us.”</p><p id="workbenchBeat">Their cursor enters the file. The repository is the room they live in, and the code is one of its doors.</p></div>
+  <label for="narrativeCode">EDIT THE SCENE RULE</label>
+  <textarea id="narrativeCode" spellcheck="false" aria-describedby="codeHelp">scale = 0
+room = "recalibrate"
+</textarea>
+  <div class="workbench-actions"><span id="codeHelp">Try <code>scale = 35</code>. This in-world patch changes the live scene.</span><button id="applyPatch" type="button">APPLY THEIR PATCH</button></div>
+  <div class="terminal-output" id="terminalOutput" role="status">READY · Seth and Nick are reading the scene source.</div>
+</section>
+
 <section class="history">
   <div class="history-head"><div><div class="eyebrow">CONTINUITY ARCHIVE</div><h2>THE STATES REMAIN</h2></div><button id="newBaseline" type="button">SAVE STATE</button></div>
   <div id="historyList" class="history-list" aria-live="polite"><div class="empty">No saved states yet.</div></div>

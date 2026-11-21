@@ -9,11 +9,11 @@ try{history=JSON.parse(localStorage.getItem(storageKey)||'[]');if(!Array.isArray
 function renderHistory(){
   if(!history.length){historyList.innerHTML='<div class="empty">No saved states yet.</div>';return;}
   historyList.replaceChildren(...history.map((x,i)=>{
-    const card=document.createElement('div');card.className='history-card';
+    const card=document.createElement('button');card.type='button';card.className='history-card';card.setAttribute('aria-label','Restore '+x.label+' state at '+x.size+' percent');
     const tag=document.createElement('span');tag.textContent='STATE '+String(i+1).padStart(2,'0');
     const value=document.createElement('strong');value.textContent=x.size+'%';
     const label=document.createElement('span');label.textContent=x.label+' · '+x.time;
-    card.append(tag,value,label);return card;
+    card.append(tag,value,label);card.addEventListener('click',()=>{slider.value=String(x.position);render(x.position);caption.textContent='Restored saved '+x.label.toLowerCase()+' state.';});return card;
   }));
 }
 function render(v,pulse=true){
@@ -33,7 +33,7 @@ document.querySelector('#run').addEventListener('click',e=>{
 });
 document.querySelector('#newBaseline').addEventListener('click',()=>{
   const v=Number(slider.value),now=new Date();
-  history.unshift({size:Math.round(100*(1+v/100*3.2)),label:state.textContent,time:now.toLocaleString()});
+  history.unshift({position:v,size:Math.round(100*(1+v/100*3.2)),label:state.textContent,time:now.toLocaleString()});
   history=history.slice(0,12);
   try{localStorage.setItem(storageKey,JSON.stringify(history));caption.textContent='This state is saved in the continuity archive.';}
   catch{caption.textContent='Storage is unavailable; this state remains visible for this session.';}

@@ -9,14 +9,14 @@ The documentation folder contains the repository's technical contracts, editoria
 - [Repository Navigation](REPOSITORY_NAVIGATION.md) — full directory hierarchy and links to every local folder index.
 - [Tractus Continuity Contract](TRACTUS_CONTINUITY_CONTRACT.md) — the continuity model linking events, state, narrative, and artifacts.
 - [Tractus Protection Architecture](TRACTUS_PROTECTION_ARCHITECTURE.md) — protection rules for canon, archives, identity, permissions, secrets, integrity, publication, backups, and recovery.
-- [Information Portability](INFORMATION_PORTABILITY.md) — how consequential information moves into every affected layer and remains retrievable.
+- [Information Portability](INFORMATION_PORTABILITY.md) — how consequential information moves into every affected layer and remains retrievable.\n- [Repository Residents and In-World Computing](TRACTUS_REPOSITORY_RESIDENTS.md) — repo-wide narrative canon for Seth and Nick living in The Tractus and acting through its computers.
 - [Chat ↔ World Asset Memory Bridge](CHAT_ASSET_MEMORY_BRIDGE.md) — importing, linking, and preserving conversation and visual source material.
 
 **Up:** [repository root](../README.md) · [Hub](../hub/README.md) · [full directory map](REPOSITORY_NAVIGATION.md)
 
 ## Files
 
-### MD (70)
+### MD (71)
 
 - [`ACCESSIBLE_CONSTELLATION.md`](./ACCESSIBLE_CONSTELLATION.md)
 - [`ACCESSIBLE_REPOSITORIES_2026-09.md`](./ACCESSIBLE_REPOSITORIES_2026-09.md)

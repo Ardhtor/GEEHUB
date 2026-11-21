@@ -490,88 +490,52 @@
 
 ## Chapter LXVI: The Keeper of the First Stop
 
-     The stranger entered the unfinished novel and found that it had no floor.
+     The stranger stepped through the open door after Bill told Joseph to go. He carried the wooden handle. Joseph crossed beside him, leaving enough room for the stranger to choose his own pace. Luke followed, then Tyler and Kirk. Behind them, Bill stayed at the fountain with the metal stop fitted into its socket. The door remained open. Its light narrowed until it looked like a line set between two pages.
 
-     Pages extended beneath him, but every time he stepped onto one, the sentence changed into another surface. A road became a table. The table became a bridge. The bridge became a hallway. The hallway became the interior of a house.
+     The stranger expected a floor. Instead, the page under his boot became a sentence, and the sentence rose into a ridge that held his weight. The next line widened into a platform. Around them, writing formed tables, bridges, halls, and roads, then changed as they approached. The novel had no single surface. Its places were made from what had happened in them and the relationships that let one event lead to another. The wooden handle steadied the stranger's attention. When he tightened his grip, the nearby words stopped shifting enough for them to see a route.
 
-     Luke was already there.
+     Luke went ahead and showed him where the page had firmed. “Where are we?” he asked.
 
-     “Where are we?”
+     “Inside what we wrote,” the stranger said.
 
-     “Inside what we wrote.”
+     Tyler looked above them at the layers of text. “Then where is the reader?”
 
-     Tyler looked upward.
+     Joseph answered, “Behind us.”
 
-     “Then where is the reader?”
+     Kirk looked back. The doorway remained visible, but the fountain did not. He could still hear pages turning beneath the stone. Bill had not followed them; the sound marked his work continuing at the first threshold.
 
-     Joseph answered.
+     The path divided across scenes they recognized: the northern road, the lake, the Blue Hall, and the city. None required them to repeat what had already happened. The same house appeared in more than one state, each version preserving a different moment. Tyler wanted to map the branches. Kirk studied what supported them. Luke watched the route and the people using it. Joseph stayed near the stranger without deciding for him. They did not have one shared explanation, but their separate attention made the unfamiliar place easier to enter.
 
-     “Behind us.”
+     The stranger stopped at each pause in the writing. Beneath the pages, a small click repeated at intervals. Tyler counted the sound while Kirk traced a shallow seam under the surface. It led to a chamber where a metal stop rested on a low table. The object was older than the Sacred Fountain. Its worn edge and narrow slot suggested use, but nothing in the room showed what it had controlled.
 
-     Kirk looked back.
+     A figure of Bill stood beside the table. It was the story’s image of him, not the man who remained at the fountain. The distinction mattered to Tyler, who recorded what they could verify and left the object's purpose unresolved.
 
-     There was no one.
+     “What does it control?” Joseph asked.
 
-     The stranger held the wooden handle.
+     “Nothing,” Bill’s image said.
 
-     “We need to find the first stop.”
-
-     They walked through chapters rather than rooms. The northern road passed beneath their feet. The lake rose around them. The Blue Hall opened like a cathedral. The city appeared, disappeared, and appeared again.
-
-     At last they reached a small chamber containing a single metal stop.
-
-     It was older than the Sacred Fountain.
-
-     Bill stood beside it.
-
-     “You came.”
-
-     Joseph looked at the stop.
-
-     “What does it control?”
-
-     Bill shook his head.
-
-     “Nothing.”
-
-     Luke frowned.
-
-     “Then why is it here?”
-
-     Bill smiled.
+     Luke frowned. “Then why is it here?”
 
      “Because you keep assuming every artifact has to control something.”
 
-     He touched the stop.
+     Tyler checked the slot. Kirk inspected the table. Neither found a mechanism. The stop could once have had a purpose, but the chamber did not prove it. Bill’s image told them only what he knew: the stop marked that the story had begun. It did not start a machine or command the route ahead.
 
-     The chamber opened.
+     The chamber opened onto a field of accumulated places. The road remained beneath the trees; the house stood where they had left it; the city and Blue Hall occupied their own distances. Their past was visible without being flattened into one map. Luke recognized the road by its wet stones. Tyler noted that the views showed relationships, not reliable measurements. Kirk could see how one passage supported another, though he could not name the whole structure. Joseph watched the stranger, who was looking at a world that preserved his return without insisting he take the same path again.
 
-     Beyond it was the world.
+     “Do we have to go on?” the stranger asked.
 
-     Not a world in the sense of a map or kingdom, but the entire accumulated field of everything they had made: roads, houses, bodies, games, memories, wars, cities, screens, fountains, stories, and rooms.
+     “No,” Joseph said. “Do you want me beside you if you do?”
 
-     Bill removed his hand.
+     The stranger said yes. Kirk chose to cross because he wanted to see whether the opening held under use. Tyler followed with his notes. Luke waited until everyone had room, then crossed last and checked that the route remained open. Their reasons differed. Their decision to continue was shared.
 
-     “The first stop doesn't start the machine.”
+     Bill remained at the fountain, keeping the first point of return. His image remained beside the chamber’s older stop. Neither presence replaced the other. The stranger carried the wooden handle into the field, while the stop stayed on the table as proof that a beginning had already occurred. The novel carried both objects forward without making either one a command.
 
-     “What does it do?”
+     Their route led toward a low rise beyond the familiar rooms. On it stood a large abandoned building, its outer wall broken in two places and its windows dark with dust. Ivy reached the lintel but had not covered the carved stone above it. The building appeared in no map Tyler recognized. It was not the house they had left, nor the Blue Hall, though a blue reflection moved beneath its ground floor. The masonry had been stained by years of weather, and grass grew through the courtyard. No sign explained who had built it or why it had been abandoned.
 
-     “It proves the machine was started.”
+     A mineral chill reached them from the building, followed by the sound of water traveling through stone. Tyler marked the sound and its uncertain direction. Kirk studied the walls from outside the threshold. Luke asked whether the stranger wanted to continue. Joseph stayed beside him without turning the question into an expectation. The stranger tightened his hand around the wooden handle and said he wanted to see what was inside.
 
-     The men stood silently.
+     They did not enter immediately. Tyler checked the ground for a stable approach. Kirk examined where the remaining arch met the support wall. Luke kept the path behind them clear. Joseph asked the stranger if he wanted company at the entrance. “Yes,” the man said, and Joseph came forward. Each chose his own place in the group. The blue light under the building’s floor shifted again, too faint to identify and too regular to dismiss.
 
-     Bill stepped aside.
+     The first stop remained behind them. It had not determined where they would go; it had preserved the beginning that made the journey legible. Ahead, the building waited without claiming to be empty. The men stood in its courtyard, looking through the open doorway into the dark interior. Then they crossed the threshold together.
 
-     “Go.”
-
-     They passed him.
-
-     Behind them, the chamber remained open.
-
-     The first stop remained where it was.
-
-     The story did not erase its beginning.
-
-     It carried it forward.
-
-     And the unfinished novel finally had a road leading all the way from its first sentence to its last.
+— Ardhtor

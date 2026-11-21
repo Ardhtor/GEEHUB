@@ -63,3 +63,8 @@ The correspondence is structural rather than geographical. The Institute is not 
 ## Room for Quiet and the Dormitory Decathlon
 
 [Chapter LXXXI — Room for Quiet and the Dormitory Decathlon](../novel/chapters/CHAPTER_LXXXI_ROOM_FOR_QUIET_AND_THE_DORMITORY_DECATHLON.md) continues the East Dormitory story through a bed-frame extension, the conversion of the hidden service landing into Room for Quiet, and a seven-station cooperative dormitory circuit. The chapter keeps the Institute's growth culture inside ordinary male residential life: friends adapt beds, shoes, laundry equipment, study furniture, storage, and common spaces while their bodies continue changing. The decathlon is not timed and has no winner; its value lies in cooperative movement, playful problem-solving, and the relationships strengthened by shared use of the building.
+
+## Lantern Market and the open repair bench
+
+[The Handle at Lantern Market](INSTITUTE_THE_HANDLE_AT_LANTERN_MARKET.md) follows Dani Kaganovich, Tyler, Daniel Roman, Marcus, and the Coach from the Institute workshop to Lantern Market. A trader's cart leads to a removable two-position handle prototype and a proposed weekly repair bench shared between the Institute and the market. The connection is established through an actual visit and a small project, not by merging the institutions. The handle still requires loaded and rough-surface testing, and the repair afternoon remains a pilot proposal.
+

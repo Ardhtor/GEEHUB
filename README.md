@@ -273,3 +273,6 @@ The soundtrack acts on the world instead of narrating feelings about it. **SIGNA
 
 The reusable generation contract is [`engine/presets/luke-growth-priority.json`](engine/presets/luke-growth-priority.json), linked to the [Sensation Engine](SENSATION_ENGINE.md) and Luke's [character workspace](creative/measure-between-us/repos/luke-inside/README.md). Use **“Grow Luke,” “Next growth phase,”** or **“Fuse Luke with this reference”** to invoke its direction in a generation workflow. The latest accepted state is the starting point; the user's requested growth takes priority over conservative defaults. Height and limb length rise with mass, Luke's identity remains continuous, and each accepted result becomes the next baseline.
 
+
+
+The Growth Video Studio now includes an in-memory temporal scene-plate prototype. It copies stable, face-excluded background samples only into body-hidden source coordinates under an externally verified fixed-camera registration; uncertain regions remain transparent with donor provenance. The prototype is not yet file-backed or connected to the batch renderer.

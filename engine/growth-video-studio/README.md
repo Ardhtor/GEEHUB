@@ -396,3 +396,41 @@ validation, and built/uploaded the portable package. The separate Validate
 GEEHUB data run 44390674032 failed only at browser repository-link validation
 for the four stale project tuples already recorded in STATE.md. These checks
 do not establish a local Mac/Dropbox/Resolve run or a render of user footage.
+
+
+## Conservative temporal scene-plate prototype
+
+`core/temporal-scene-plate.js` adds
+`buildTemporalScenePlate(frames, cameraRegistration, options)`, an
+in-memory background-repair primitive. It considers only pixels covered by
+the union of the registered body masks. For each such pixel it searches other
+frames for opaque samples that are outside both the body and protected-face
+masks. At least two donors are required by default, and their per-channel
+spread must remain within the configured threshold (12 levels by default).
+
+The plate copies one actual donor pixel: it chooses the candidate nearest the
+donor colour mean, with a temporal-midpoint tie-break. It does not average,
+synthesize, or inpaint colour. The result includes a transparent RGBA plate,
+coverage and unresolved masks, the selected donor frame number for every
+filled pixel, donor counts, and per-pixel colour-spread measurements. A pixel
+with too few donors or unstable colour remains transparent and is marked
+unresolved. Protected-face pixels are never donors.
+
+Version 1 deliberately accepts only an externally supplied
+`geehub.camera-registration-evidence` v1 record marked verified, with
+identity transforms for every frame. The module validates that record's
+shape, frame/timestamp alignment, dimensions, and checksum field; it does not
+estimate camera motion or independently prove the external fixed-camera
+assertion. The registration record is an external assertion until a
+camera-registration producer is implemented.
+
+The estimator is bounded to 2 million pixels, 32 frames, and 32 million
+frame-pixel samples by default. This is an in-memory repair plate for the
+union of body-hidden regions, not a complete background image or file-backed
+compositor. It does not fill regions for which no stable donor exists, and it
+is not yet connected to `render:batch`. A future camera-registration
+producer, file-backed plate writer, provenance receipt, and complete-frame
+compositor remain required. Nine focused tests cover donor selection, face
+exclusion, unstable lighting, empty repair regions, camera-registration
+refusal, mask integrity, timestamp alignment, and work limits. The package
+workflow runs these through the existing `npm test` command.

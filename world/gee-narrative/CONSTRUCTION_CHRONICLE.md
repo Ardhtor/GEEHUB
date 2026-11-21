@@ -271,3 +271,16 @@ Five new cases were added to the batch test file: a missing derivation record, c
 
 The next room is the scene plate. It must borrow only from frames in which the relevant background is actually visible, preserve the original face and the room as separate layers, and leave a repair region unresolved when the camera or moving scene provides no trustworthy donor. The transformed body should enter a place that still belongs to the source recording.
 
+
+
+## 2026-11-21 — The first scene plate is measured, not imagined
+
+The frame room now has a small plate table beside the raster bench. It does not attempt to paint an entire room behind the transformed figure. It looks only at the places where the union of the registered body masks says the original person once stood, and asks whether another moment in the same reel shows those exact source coordinates unobstructed. The face mask remains a hard exclusion: a face pixel is never admitted as background evidence, and a body/face overlap is rejected before the plate is considered.
+
+The new `buildTemporalScenePlate()` routine requires a checksummed camera-registration record marked verified and a fixed-camera identity transform for every source frame. That requirement is deliberate. The routine has no camera-motion estimator, so it cannot safely borrow a pixel from a frame whose viewpoint has shifted. A translation, scale change, or rotation is refused instead of being silently treated as if the room had remained still. The registration record is an external assertion at this stage; the module checks its shape and alignment but does not independently establish that the camera was locked.
+
+For each body-hidden pixel, the plate table gathers opaque samples from frames in which both masks say the coordinate is visible background. Two donors are required by default. Their red, green, and blue values must remain within a twelve-level channel spread. When they agree, the routine chooses one real donor sample nearest the channel mean and copies that sample unchanged into the transparent repair plate. It does not average colours or invent texture. The chosen donor frame, donor count, and measured spread are retained per pixel. If the evidence is thin or the scene changes at that coordinate, the hole stays transparent and is marked unresolved.
+
+Nine focused tests have been added to the Studio suite for donor choice, face exclusion, changing background colour, empty repair regions, camera-motion refusal, unverified registration, mask integrity, timestamp alignment, and bounded work. The GitHub package workflow is expected to execute them through the existing Node test command; its result is not yet observed in this chronicle entry. The prototype is still an in-memory operation. It has not written a PNG plate, entered the batch renderer, or composited a complete frame. The next construction is to produce a file-backed plate artifact with a digest receipt, then connect that artifact to the transformed body layer without hiding unresolved regions.
+
+The room remains a measured source environment rather than a painted stage: only pixels supported by the reel may fill a hole, and every unsupported space remains visible as a question for the next instrument.

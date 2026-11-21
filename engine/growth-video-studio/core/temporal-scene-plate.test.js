@@ -52,7 +52,7 @@ test("reconstructs body-hidden pixels from stable opaque donors and records prov
   assert.deepEqual(plate.counts, {
     hiddenPixels: 1, reconstructedPixels: 1, unresolvedPixels: 0, coverageRatio: 1
   });
-  frames.forEach((frame, index) => assert.deepEqual(frame.source.data, original[index]));
+  frames.forEach((frame, index) => assert.deepEqual(Array.from(frame.source.data), Array.from(original[index])));
 });
 
 test("never uses protected-face pixels as background donors", () => {

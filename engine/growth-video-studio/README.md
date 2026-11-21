@@ -430,7 +430,7 @@ union of body-hidden regions, not a complete background image or file-backed
 compositor. It does not fill regions for which no stable donor exists, and it
 is not yet connected to `render:batch`. A future camera-registration
 producer, file-backed plate writer, provenance receipt, and complete-frame
-compositor remain required. Nine focused tests cover donor selection, face
+compositor remain required. Ten focused tests cover donor selection, face
 exclusion, unstable lighting, empty repair regions, camera-registration
 refusal, mask integrity, timestamp alignment, and work limits. The package
 workflow runs these through the existing `npm test` command.

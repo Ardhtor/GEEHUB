@@ -39,4 +39,24 @@ document.querySelector('#newBaseline').addEventListener('click',()=>{
   catch{caption.textContent='Storage is unavailable; this state remains visible for this session.';}
   renderHistory();
 });
+
+const codeEditor=document.querySelector('#narrativeCode'),terminalOutput=document.querySelector('#terminalOutput'),workbenchStatus=document.querySelector('#workbenchStatus'),workbenchBeat=document.querySelector('#workbenchBeat');
+document.querySelector('#applyPatch').addEventListener('click',()=>{
+  const lines=codeEditor.value.split(/\r?\n/).map(line=>line.trim()).filter(line=>line&&!line.startsWith('#'));
+  let nextScale=null,roomRule='recalibrate';
+  for(const line of lines){
+    const scaleMatch=line.match(/^scale\s*=\s*(\d{1,3})$/);
+    const roomMatch=line.match(/^room\s*=\s*"(recalibrate)"$/);
+    if(scaleMatch){nextScale=Number(scaleMatch[1]);if(nextScale>100){terminalOutput.textContent='PATCH REJECTED · scale must be between 0 and 100.';workbenchStatus.textContent='PATCH REJECTED';return;}continue;}
+    if(roomMatch){roomRule=roomMatch[1];continue;}
+    terminalOutput.textContent='PATCH REJECTED · use scale = 0–100 and room = "recalibrate". No scene changes were applied.';
+    workbenchStatus.textContent='PATCH REJECTED';return;
+  }
+  if(nextScale===null){terminalOutput.textContent='PATCH REJECTED · include a scale value before applying.';workbenchStatus.textContent='PATCH REJECTED';return;}
+  slider.value=String(nextScale);render(nextScale);
+  workbenchStatus.textContent='PATCH APPLIED';
+  terminalOutput.textContent='PATCH APPLIED · emulator scene updated to scale '+nextScale+'.';
+  workbenchBeat.textContent=nextScale>0?'Seth runs the new rule. The figure rises; the grid and the old baseline stay visible beneath him. Nick saves the patch as part of the room.':'The men restore the baseline, then leave the revised rule open for their next pass.';
+});
+
 renderHistory();render(0,false);

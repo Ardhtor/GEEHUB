@@ -86,7 +86,7 @@ His routine is becoming visible but is not yet a fixed schedule. He returns to h
 
 **After the measurements: becoming familiar.** Dani returns for the practical work, contributes to equipment and room adjustments, trains with the circle, and gradually becomes a familiar presence. His exchange with Tyler grows more reciprocal, including a brief moment of permitted touch after moving floor tiles and a quiet conversation on the cedar bench. The connection remains open and unlabelled.
 
-**The Handle at Lantern Market.** Dani takes Tyler, Daniel Roman, Marcus, and the Coach to Lantern Market to inspect a trader's handcart. He listens to the owner's description before proposing a removable, two-position handle assembly. The group records the cart's existing geometry and prepares a workshop mock-up rather than modifying the cart without a proper test. The first unloaded movement test succeeds; load testing, a rough-surface trial, and the trader's approval remain open. Dani proposes a small weekly repair bench shared between the Institute and the market. The Coach supports a pilot, but no permanent programme has yet been approved. The workshop's large **NOTHING PERSONAL** sign is restored and installed as a reminder that criticism of a design is not judgement of its maker.
+**The Handle at Lantern Market.** Dani takes Tyler, Daniel Roman, Marcus, and the Coach to Lantern Market to inspect a trader's handcart. He listens to the owner's description before proposing a removable, two-position handle assembly. The group records the cart's existing geometry and prepares a workshop mock-up rather than modifying the cart without a proper test. The first unloaded movement test succeeds; load testing, a rough-surface trial, and the trader's approval remain open. Dani proposes a scheduled weekly repair session using the market's existing bench, backed by the Institute workshop. The Coach supports a pilot, but no permanent programme has yet been approved. The workshop's large **NOTHING PERSONAL** sign is restored and installed as a reminder that criticism of a design is not judgement of its maker.
 
 The governing sources are [The Body, Without Guesswork](../../lore/CONFLUENCE_THE_BODY_WITHOUT_GUESSWORK_2026-11-20.md) and [The Handle at Lantern Market](../../lore/INSTITUTE_THE_HANDLE_AT_LANTERN_MARKET.md). These chapters form an ongoing account, not a completed biography.
 
@@ -106,7 +106,7 @@ The Institute's guiding idea in this branch is that familiarity is built by accu
 - How will his familiarity with Tyler develop, and what do each of them actually want from it?
 - Does Dani take a continuing role in the Institute's design or facilities work, or was this first contribution situational?
 - Will Elias approve the adjustable handle after loaded and rough-surface testing?
-- Can the proposed Institute–Lantern Market repair bench operate reliably as a weekly pilot, and which workshop responsibilities should remain with the market's own repairers?
+- Can the proposed Institute–Lantern Market repair session operate reliably as a weekly pilot using the existing maker bench, and which responsibilities should remain with the market's own repairers?
 - Which visual references can be approved as stable identity anchors, and which are only dated public bodybuilding images?
 - What public-facing voice material, if any, should be reviewed separately from the fictional dialogue already established?
 

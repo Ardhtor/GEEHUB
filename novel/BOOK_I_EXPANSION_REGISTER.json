@@ -3,14 +3,14 @@
   "book_id": "the-road-of-seven-wells-book-i",
   "title": "The Road of Seven Wells — Book I",
   "source_path": "novel/BOOK_I.md",
-  "source_blob_sha": "ebdfb5c29acf33267de3fd5cec4939eb8e92588c",
+  "source_blob_sha": "8d5178cd608b5ce967efe14989149b2fdae2cfd3",
   "source_url": "https://github.com/Ardhtor/GEEHUB/blob/main/novel/BOOK_I.md",
   "generated_from": "Verified chapter-heading scan of the current main manuscript.",
   "status": "whole_manuscript_chapter_sweep",
   "operating_mode": "whole_manuscript_chapter_sweep",
   "chapter_count": 72,
-  "existing_chapter_words": 162384,
-  "average_existing_chapter_words": 2498,
+  "existing_chapter_words": 187204,
+  "average_existing_chapter_words": 2600,
   "target_chapter_words": {
     "standard_min": 4000,
     "standard_max": 7000,
@@ -18,13 +18,13 @@
     "major_turning_point_max": 9000
   },
   "progress": {
-    "completed": 65,
-    "in_progress": 1,
-    "queued": 6,
+    "completed": 72,
+    "in_progress": 0,
+    "queued": 0,
     "empty_source": 0,
-    "next_chapter_index": 65,
-    "active_chapter_id": "book-i-lxvi",
-    "last_completed_chapter_id": "book-i-lxv"
+    "next_chapter_index": 72,
+    "active_chapter_id": null,
+    "last_completed_chapter_id": "book-i-lxxii"
   },
   "safeguards": [
     "Expand existing chapter text in place rather than appending a duplicate version.",
@@ -1081,20 +1081,21 @@
       "title": "The Keeper of the First Stop",
       "source_heading": "Chapter LXVI: The Keeper of the First Stop",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 5437,
+      "source_line": 10794,
       "baseline_word_count": 307,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "in_progress",
+      "status": "completed",
       "revision_count": 1,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Revised as a concise threshold chapter, signed Ardhtor, and staged in novel/BOOK_I_CONTINUITY_CHAPTERS.md. It follows the stranger, Luke, Tyler, Kirk, and Joseph through the first stop and leads directly to the abandoned building for LXVII. Pending canonical reconciliation into novel/BOOK_I.md.",
+      "last_verified_blob_sha": "8d5178cd608b5ce967efe14989149b2fdae2cfd3",
+      "notes": "Short threshold chapter by design: the stranger and the established Book I ensemble pass through the first stop and reach the abandoned building. Signed Ardhtor.",
       "branch_source_path": "novel/BOOK_I_CONTINUITY_CHAPTERS.md",
       "branch_heading": "## Chapter LXVI: The Keeper of the First Stop",
       "branch_revision_sha": "295b5e82987341589cc8b34351384731bd573a8c",
       "branch_word_count": 1064,
-      "branch_status": "revised_staged_pending_canonical_reconciliation",
-      "branch_revision": 1
+      "branch_status": "reconciled_into_canonical_BOOK_I",
+      "branch_revision": 1,
+      "current_word_count": 1064
     },
     {
       "chapter_id": "book-i-lxvii",
@@ -1102,20 +1103,21 @@
       "title": "The Eyes Beneath the Well",
       "source_heading": "Chapter LXVII: The Eyes Beneath the Well",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 5306,
+      "source_line": 10847,
       "baseline_word_count": 284,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Revised to follow directly from LXVI: the group explores an abandoned building and discovers the eyes beneath its repeated rooms. Retains the host, faceless sixth figure, well's layered history, flooding blue hall, and the unresolved nature of the eyes. Luke, Tyler, Kirk, Joseph, and the stranger retain distinct roles. Staged in novel/BOOK_I_CONTINUATION_03.md; pending canonical reconciliation into novel/BOOK_I.md.",
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "8d5178cd608b5ce967efe14989149b2fdae2cfd3",
+      "notes": "Revised as the group's exploration of the abandoned building. Preserves the enormous eyes, layered well history, host, faceless sixth figure, and rising blue hall. Luke, Tyler, Kirk, Joseph, and the stranger retain distinct roles. Signed Ardhtor.",
       "branch_source_path": "novel/BOOK_I_CONTINUATION_03.md",
       "branch_heading": "## Chapter LXVII: The Eyes Beneath the Well",
       "branch_revision_sha": "3e897e5237b542d828e3d9cffadd0d0543091ff4",
       "branch_word_count": 2987,
-      "branch_status": "revised_as_abandoned_building_exploration_pending_canonical_reconciliation",
-      "branch_revision": 2
+      "branch_status": "reconciled_into_canonical_BOOK_I",
+      "branch_revision": 2,
+      "current_word_count": 2987
     },
     {
       "chapter_id": "book-i-lxviii",
@@ -1123,20 +1125,21 @@
       "title": "The Unnamed Man",
       "source_heading": "Chapter LXVIII: The Unnamed Man",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 5328,
+      "source_line": 10984,
       "baseline_word_count": 222,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Expanded and fetched again in novel/BOOK_I_CONTINUATION_03.md at 5,603 words. Develops the water's ordered entry, the sixth chair's hand forming by sequence, the room's altered geometry, Luke's contact, and the screens preserving the versions before, after, and unchosen. The Voice's instruction to preserve each hand and the unchosen version is retained. The unnamed figure remains incomplete and unidentified, handing off to LXIX. Separate branch; not merged into canonical BOOK_I.md.",
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "8d5178cd608b5ce967efe14989149b2fdae2cfd3",
+      "notes": "Carries the water sequence into the abandoned building's dining room and brings the stranger and wooden handle forward. Preserves Luke's first contact with the unnamed figure and the chapter's unresolved identity. Signed Ardhtor.",
       "branch_source_path": "novel/BOOK_I_CONTINUATION_03.md",
       "branch_heading": "## Chapter LXVIII: The Unnamed Man",
       "branch_revision_sha": "2f7acfaed0bbca11d2c6fea1fa2b9e1c6edef420",
       "branch_word_count": 5603,
-      "branch_status": "expanded_in_separate_continuation_source_pending_canonical_reconciliation",
-      "branch_revision": 1
+      "branch_status": "reconciled_into_canonical_BOOK_I",
+      "branch_revision": 1,
+      "current_word_count": 5708
     },
     {
       "chapter_id": "book-i-lxix",
@@ -1144,20 +1147,21 @@
       "title": "The First Man Who Was Never Born",
       "source_heading": "Chapter LXIX: The First Man Who Was Never Born",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 5354,
+      "source_line": 11064,
       "baseline_word_count": 243,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": "Expanded and fetched again in novel/BOOK_I_CONTINUATION_03.md at 4,740 words. Develops the darkness and loss of orientation, the six-screen first image of a fully formed adult man, the Voice's claim that the first image did not come from a witness, and the dispute between the man and the host over whether there is a 'below'. The first man remains unidentified and his origin unresolved. His statement that the sixth figure is 'wearing the wrong absence' causes it to withdraw; the Serum accelerates. Separate continuation branch; not merged into canonical BOOK_I.md.",
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "8d5178cd608b5ce967efe14989149b2fdae2cfd3",
+      "notes": "Continues the loss of orientation through the building and preserves the first man's identity, the eyes beneath the well, and the water's expansion. The stranger remains present with the wooden handle. Signed Ardhtor.",
       "branch_source_path": "novel/BOOK_I_CONTINUATION_03.md",
       "branch_heading": "## Chapter LXIX: The First Man Who Was Never Born",
       "branch_revision_sha": "2da50dafcd99dedf08fa1ec1cb3e8e57a23e2e54",
       "branch_word_count": 4740,
-      "branch_status": "expanded_in_separate_continuation_source_pending_canonical_reconciliation",
-      "branch_revision": 1
+      "branch_status": "reconciled_into_canonical_BOOK_I",
+      "branch_revision": 1,
+      "current_word_count": 4868
     },
     {
       "chapter_id": "book-i-lxx",
@@ -1165,14 +1169,16 @@
       "title": "The Ascent",
       "source_heading": "Chapter LXX: The Ascent",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 5386,
+      "source_line": 11132,
       "baseline_word_count": 249,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "8d5178cd608b5ce967efe14989149b2fdae2cfd3",
+      "notes": "Links the ascent to the abandoned building and keeps the core ensemble's distinct observations active while preserving the arrival sequence. Signed Ardhtor.",
+      "current_word_count": 7607,
+      "branch_source_path": "novel/BOOK_I_CONTINUATION_03.md"
     },
     {
       "chapter_id": "book-i-lxxi",
@@ -1180,14 +1186,16 @@
       "title": "The Mouth Beneath the House",
       "source_heading": "Chapter LXXI: The Mouth Beneath the House",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 5424,
+      "source_line": 11267,
       "baseline_word_count": 159,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "8d5178cd608b5ce967efe14989149b2fdae2cfd3",
+      "notes": "Expanded as a compact threshold chapter: the first man chooses the descent, while the others preserve the open route and their separate agency. Signed Ardhtor.",
+      "current_word_count": 990,
+      "branch_source_path": "novel/BOOK_I_CONTINUATION_03.md"
     },
     {
       "chapter_id": "book-i-lxxii",
@@ -1195,71 +1203,24 @@
       "title": "The Door Left Open",
       "source_heading": "Chapter LXXII: The Door Left Open",
       "source_path": "novel/BOOK_I.md",
-      "source_line": 5472,
+      "source_line": 11322,
       "baseline_word_count": 307,
       "target_min_words": 4000,
       "target_max_words": 7000,
-      "status": "queued",
-      "revision_count": 0,
-      "last_verified_blob_sha": "b421f57ed1cd80fe308781fef28387dcf4457dfb",
-      "notes": ""
+      "status": "completed",
+      "revision_count": 1,
+      "last_verified_blob_sha": "8d5178cd608b5ce967efe14989149b2fdae2cfd3",
+      "notes": "Expanded as a concise return and unresolved close. The first man returns changed, the house grows, and the door remains open. Signed Ardhtor.",
+      "current_word_count": 1006,
+      "branch_source_path": "novel/BOOK_I_CONTINUATION_03.md"
     }
   ],
-  "source_chapter_heading_count": 64,
-  "unlocated_in_source_chapters": [
-    {
-      "chapter_id": "book-i-xlix-i",
-      "chapter_number": "XLIX-I",
-      "source_heading": "Chapter XLIX-I: The Men Who Stayed",
-      "source_path": "novel/BOOK_I.md"
-    },
-    {
-      "chapter_id": "book-i-lxvi",
-      "chapter_number": "LXVI",
-      "source_heading": "Chapter LXVI: The Keeper of the First Stop",
-      "source_path": "novel/BOOK_I.md"
-    },
-    {
-      "chapter_id": "book-i-lxvii",
-      "chapter_number": "LXVII",
-      "source_heading": "Chapter LXVII: The Eyes Beneath the Well",
-      "source_path": "novel/BOOK_I.md"
-    },
-    {
-      "chapter_id": "book-i-lxviii",
-      "chapter_number": "LXVIII",
-      "source_heading": "Chapter LXVIII: The Unnamed Man",
-      "source_path": "novel/BOOK_I.md"
-    },
-    {
-      "chapter_id": "book-i-lxix",
-      "chapter_number": "LXIX",
-      "source_heading": "Chapter LXIX: The First Man Who Was Never Born",
-      "source_path": "novel/BOOK_I.md"
-    },
-    {
-      "chapter_id": "book-i-lxx",
-      "chapter_number": "LXX",
-      "source_heading": "Chapter LXX: The Ascent",
-      "source_path": "novel/BOOK_I.md"
-    },
-    {
-      "chapter_id": "book-i-lxxi",
-      "chapter_number": "LXXI",
-      "source_heading": "Chapter LXXI: The Mouth Beneath the House",
-      "source_path": "novel/BOOK_I.md"
-    },
-    {
-      "chapter_id": "book-i-lxxii",
-      "chapter_number": "LXXII",
-      "source_heading": "Chapter LXXII: The Door Left Open",
-      "source_path": "novel/BOOK_I.md"
-    }
-  ],
+  "source_chapter_heading_count": 72,
+  "unlocated_in_source_chapters": [],
   "source_register_reconciliation": {
-    "manuscript_chapter_heading_count": 65,
+    "manuscript_chapter_heading_count": 72,
     "register_chapter_count": 72,
-    "unmatched_register_entries": 7,
-    "note": "The 65 chapter headings currently present in novel/BOOK_I.md are matched against the register. Seven later chapter entries remain outside this source file in the separate continuation material or are still queued; they are retained as an explicit reconciliation item and have not been silently merged."
+    "unmatched_register_entries": 0,
+    "note": "All 72 registered Book I chapter headings now appear in canonical novel/BOOK_I.md. Chapters LXVI–LXXII were reconciled from the staged continuity sources in canonical order. The alternate duplicate Chapter LXVI: The Chair remains in novel/BOOK_I_CONTINUATION_02.md and was not merged."
   }
 }

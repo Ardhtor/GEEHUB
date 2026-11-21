@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-20T20:24:52.418Z",
+  "generated": "2026-11-21T01:40:24.470Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00226",
+      "at": "2026-11-21T01:40:24.470Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / CAT GARDENS → CEDAR HOUSE / LUKE",
+      "body": "The world crossed the existing relation \"GOOD LUCK HAS WHISKERS\" from CAT GARDENS into CEDAR HOUSE. Scale increased from 16.90× to 16.93×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00226",
+      "live": true,
+      "regionId": "cedar-house",
+      "previousRegionId": "cat-gardens",
+      "relation": "GOOD LUCK HAS WHISKERS"
+    },
     {
       "id": "scheduled-long-play-00225",
       "at": "2026-11-20T20:24:52.418Z",
@@ -1481,21 +1496,6 @@
       "live": true,
       "regionId": "colossal-escalation",
       "previousRegionId": "muscle-myth",
-      "relation": "THE CITY LEARNS HIS NAME"
-    },
-    {
-      "id": "scheduled-long-play-00129",
-      "at": "2026-10-29T00:14:55.066Z",
-      "from": "geehub-long-play",
-      "to": "joseph",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / COLOSSAL ESCALATION → MUSCLE MYTH / JOSEPH",
-      "body": "The world crossed the existing relation \"THE CITY LEARNS HIS NAME\" from COLOSSAL ESCALATION into MUSCLE MYTH. Scale increased from 10.66× to 10.78×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00129",
-      "live": true,
-      "regionId": "muscle-myth",
-      "previousRegionId": "colossal-escalation",
       "relation": "THE CITY LEARNS HIS NAME"
     }
   ]

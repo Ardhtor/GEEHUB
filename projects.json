@@ -714,7 +714,9 @@
       "tractus-continuity",
       "vision-workspace",
       "sensation-engine",
-      "the-coach"
+      "the-coach",
+      "character-dani-kaganovich",
+      "institute-handle-lantern-market-2026-11-21"
     ],
     "tags": [
       "institute",
@@ -800,7 +802,8 @@
       "institute-of-becoming",
       "sensation-engine",
       "character-marcus",
-      "character-dan-roman"
+      "character-dan-roman",
+      "character-dani-kaganovich"
     ],
     "tags": [
       "characters",
@@ -1600,7 +1603,8 @@
       "confluence-expansion",
       "institute-of-becoming",
       "character-marcus",
-      "character-dan-roman"
+      "character-dan-roman",
+      "character-dani-kaganovich"
     ],
     "tags": [
       "confluence",
@@ -1630,7 +1634,59 @@
       "confluence-body-without-guesswork-2026-11-20",
       "institute-of-becoming",
       "tractus-continuity",
-      "vision-workspace"
+      "vision-workspace",
+      "character-dani-kaganovich"
+    ]
+  },
+  {
+    "id": "character-dani-kaganovich",
+    "name": "Dani Kaganovich — Character Record",
+    "status": "incubating",
+    "kind": "character",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/characters/records/DANI_KAGANOVICH.md",
+    "description": "Developing adult fictional character at the Institute of Becoming. His arc joins bodybuilding, shared-space maintenance, embodied access, and an emerging familiarity with Tyler; public-athlete references remain separate from fictional continuity.",
+    "related": [
+      "character-records",
+      "confluence-body-without-guesswork-2026-11-20",
+      "institute-of-becoming",
+      "institute-handle-lantern-market-2026-11-21",
+      "embodied-presence-relational-scene-rule"
+    ],
+    "tags": [
+      "character",
+      "dani-kaganovich",
+      "confluence",
+      "institute",
+      "training",
+      "facilities",
+      "familiarity",
+      "fiction"
+    ]
+  },
+  {
+    "id": "institute-handle-lantern-market-2026-11-21",
+    "name": "The Handle at Lantern Market",
+    "status": "incubating",
+    "kind": "lore-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/INSTITUTE_THE_HANDLE_AT_LANTERN_MARKET.md",
+    "description": "Dani, Tyler, Daniel Roman, Marcus, and the Coach connect the Institute workshop to Lantern Market through a removable cart-handle prototype and a proposed scheduled repair session using the market's existing maker bench. Load tests, rough-surface review, and the market pilot remain open.",
+    "related": [
+      "institute-of-becoming",
+      "character-dani-kaganovich",
+      "embodied-presence-relational-scene-rule",
+      "confluence-body-without-guesswork-2026-11-20"
+    ],
+    "tags": [
+      "institute",
+      "lantern-market",
+      "repair",
+      "design",
+      "dani-kaganovich",
+      "tyler",
+      "continuity",
+      "fiction"
     ]
   }
 ]

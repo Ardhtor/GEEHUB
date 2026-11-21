@@ -886,7 +886,9 @@
       "tractus-continuity",
       "sensation-engine",
       "vision-workspace",
-      "the-coach"
+      "the-coach",
+      "character-dani-kaganovich",
+      "institute-handle-lantern-market-2026-11-21"
     ]
   },
   {
@@ -975,7 +977,8 @@
       "atlas",
       "the-coach",
       "institute-of-becoming",
-      "sensation-engine"
+      "sensation-engine",
+      "character-dani-kaganovich"
     ],
     "tags": [
       "characters",
@@ -1980,7 +1983,8 @@
       "confluence-expansion",
       "institute-of-becoming",
       "character-marcus",
-      "character-dan-roman"
+      "character-dan-roman",
+      "character-dani-kaganovich"
     ]
   },
   {
@@ -1999,6 +2003,56 @@
       "agency",
       "continuity",
       "revision"
+    ],
+    "related": [
+      "character-dani-kaganovich"
+    ]
+  },
+  {
+    "id": "character-dani-kaganovich",
+    "name": "Dani Kaganovich — Character Record",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Dani's developing Institute continuity: training, practical maintenance, embodied access, an emerging familiarity with Tyler, and an independent repair project linking the Institute to Lantern Market. Public-athlete references remain separate from fiction.",
+    "path": "../characters/records/DANI_KAGANOVICH.md",
+    "tags": [
+      "character",
+      "dani-kaganovich",
+      "confluence",
+      "institute",
+      "training",
+      "facilities",
+      "familiarity"
+    ],
+    "related": [
+      "character-records",
+      "confluence-body-without-guesswork-2026-11-20",
+      "institute-of-becoming",
+      "institute-handle-lantern-market-2026-11-21",
+      "embodied-presence-relational-scene-rule"
+    ]
+  },
+  {
+    "id": "institute-handle-lantern-market-2026-11-21",
+    "name": "The Handle at Lantern Market",
+    "group": "story-chapter",
+    "status": "incubating",
+    "summary": "Dani's independent cart-handle project takes the Institute workshop to Lantern Market. The chapter develops an adjustable prototype and a proposed scheduled repair session using the market's existing maker bench; field tests and the pilot remain open.",
+    "path": "../lore/INSTITUTE_THE_HANDLE_AT_LANTERN_MARKET.md",
+    "tags": [
+      "institute",
+      "lantern-market",
+      "repair",
+      "design",
+      "dani-kaganovich",
+      "tyler",
+      "continuity"
+    ],
+    "related": [
+      "institute-of-becoming",
+      "character-dani-kaganovich",
+      "embodied-presence-relational-scene-rule",
+      "confluence-body-without-guesswork-2026-11-20"
     ]
   }
 ]

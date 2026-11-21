@@ -472,19 +472,21 @@ Behind them, the blue hall continued to flood upward. The water crossed the lowe
 
 ## Chapter LXXII: The Door Left Open
 
-     The mouth closed. The house became quiet. The water fell out of the upper rooms and returned to the lower chambers. The sixth place at the table remained occupied, but the figure sitting there now had a face that belonged to no one present.
+     The mouth closed. The abandoned building became quiet around the men, though the quiet did not restore the rooms to their earlier arrangement. Water fell out of the upper levels and returned to the lower chambers. It moved through the floor in thin blue streams, leaving the boards damp but intact. The sixth place at the table remained occupied. The figure sitting there now had a face that belonged to no one present. The host was gone. A chair stood pushed back from the table, and the serving knife lay flat beside his empty glass.
 
-     The host was gone.
+     Luke touched the back of the sixth chair. The wood felt ordinary. He withdrew his hand, and the grain shifted beneath his fingers. He did not touch it again. The stranger stood near the doorway with the wooden handle in his hand. The handle was wet from the air, but no water ran down it. He could still see the chalk mark Luke had made in the entry hall, though the corridor between them and that mark had lengthened. He looked back at the entrance and then at the men. Nobody told him the way out had disappeared. Nobody promised it had stayed the same.
 
-     Luke touched the back of the chair. The wood was ordinary. He withdrew his hand. The grain shifted beneath his fingers.
+     Tyler walked to the nearest screen. It showed the building from outside. Its broken stone frontage remained visible, but the roof crossed the horizon and the upper windows continued into clouds. Lights moved through distant floors. The structure had grown, though no wall in the dining room had visibly shifted. Tyler marked what he saw and separated it from what he could infer. The building had not become singular. It had become more difficult to see whole.
 
-     Tyler walked to the nearest screen. It showed the house from outside. It was larger than before. Its roof crossed the horizon. Its upper windows continued into the clouds. Lights moved through distant floors. The house had not become singular. It had become more difficult to see whole.
-
-     “How far does it go?” Kirk asked.
+     Kirk looked from the screen to the ceiling above them. “How far does it go?”
 
      The faceless figure turned its new face toward him.
 
      “Far enough.”
+
+     Kirk looked up again. The answer did not give him a height or a plan. He checked the joints visible near the ceiling and found that the room still held. The change had not broken the building. It had extended its scale beyond the view available from the dining room.
+
+     Joseph remained near the table. The first man had gone down into the mouth, and Joseph had asked him to stay. The request had not changed the man's decision. Now Joseph waited without trying to turn his earlier words into a claim on the returned figure. Luke stood beside him, alert to the room and to the men. The stranger stayed by the door. Tyler kept his notebook open. Kirk watched the ceiling and the stairwell. The house had become large enough that their different positions mattered.
 
      From beneath the floor came the sound of footsteps.
 
@@ -494,28 +496,28 @@ Behind them, the blue hall continued to flood upward. The water crossed the lowe
 
      Another step.
 
-     The footsteps were heavy, measured, and unmistakably human.
+     The footfalls were heavy and measured, unmistakably human. They came from below, but the building's new scale made direction uncertain. The stranger's hand tightened around the handle. Luke moved toward the doorway, leaving the group a route back. Joseph looked at the floor. Tyler waited for a pattern. Kirk listened for a structural response. None came immediately.
 
-     Big Daddy’s Voice began again, softer than before.
+     Big Daddy's Voice began again, softer than before.
 
      HERE IS THE HOUSE AFTER THE MOUTH. HERE IS THE ROOM AFTER THE FIRST MAN. HERE IS THE SILENCE AFTER THE VOICE. HERE IS THE STEP BELOW THE STEP. HERE IS THE MAN COMING UP. HERE IS THE MAN WHO REMEMBERS GOING DOWN. HERE IS THE MAN WHO HAS BROUGHT THE DARK WITH HIM.
 
      The door opened.
 
-     The man who entered was very large. He was clearly adult, broad through the shoulders, heavily built, and wet with luminous Serum. His face was familiar to all four men.
+     The man who entered was very large. He was clearly an adult, broad through the shoulders, heavily built, and wet with luminous Serum. His face was familiar to all five men. The outline belonged to the first man who had never been born, but his eyes were the enormous eyes beneath the seventh well. His body carried the scale of a person, while his gaze seemed to contain the depth of the place he had entered. The two impressions did not settle into an explanation.
 
-     It was the face of the first man who had never been born.
+     He looked at the table. He looked at the sixth place. He looked at Luke, then Joseph, then the stranger at the open doorway. He did not greet them as though he had simply left the room and returned. The Serum ran from his forearms in narrow streams and gathered on the stone floor without spreading. Tyler watched for a change in the liquid. Kirk watched the threshold. Joseph watched the man's expression. Luke kept the passage clear.
 
-     But his eyes were the enormous eyes beneath the seventh well.
+     “You left the door open,” the man said.
 
-     He looked at the table.
+     No one answered immediately. The stranger glanced toward the door behind him. He knew they had left it open so no one would have to enter or leave by force. He did not know whether the returning man meant that door, the mouth, or the route between them. Joseph let the silence stand long enough for the man to decide whether he wanted to say more.
 
-     He looked at the sixth place.
-
-     He looked at Luke.
-
-     “You left the door open,” he said.
-
-     No one answered.
+     The man looked again at the sixth place. Its occupant had not moved. The face belonged to no one present, but the figure sat with the posture of someone who had been waiting through the whole descent. The man did not approach it. He did not look down at the floor, either. Instead, he turned toward the windows, where the building's farthest lights continued through rooms no one in the dining room could reach.
 
      The house grew another floor.
+
+     Tyler saw the screen image change first. Kirk felt the new level settle through the structure. Luke heard the movement overhead and shifted one step so the doorway remained clear. Joseph stayed beside the table. The stranger kept hold of the wooden handle. The returned man stood among them, bringing the dark with him, while the first room of the abandoned building remained somewhere below the new height. No one knew whether the next floor had been added above them, below them, or to a part of the house that had not yet been visible.
+
+     The door remained open. The house continued to grow.
+
+— Ardhtor

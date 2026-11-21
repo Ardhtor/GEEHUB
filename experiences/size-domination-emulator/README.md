@@ -17,3 +17,7 @@ This is the local navigation page for `experiences/size-domination-emulator/`. T
 ### JS (1)
 
 - [`app.js`](./app.js)
+
+### Narrative (1)
+
+- [The Men at the Terminal](./THE_MEN_AT_THE_TERMINAL.md) — a long scene of Seth and Nick living in The Tractus, moving through its source tree, and changing code across projects.

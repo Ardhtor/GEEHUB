@@ -26,7 +26,7 @@ Preserve canon and chronology. This is a presentation-layer revision, not permis
 
 Apply this rule across README prose, editorial directives, corpus notes, lore, novel chapters, map and geography descriptions, experience descriptions, archive captions, interface copy, artifact records, and future generated text. Headings and structured data can remain functional; prose receives the environmental broadcast treatment.
 
-The global specification is [GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md).
+The global specification is [GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md). Seth and Nick are also residents of The Tractus repository: they can encounter its machines, inspect source, and make consequential changes across projects when the narrative calls for it. Follow [Repository Residents and In-World Computing](TRACTUS_REPOSITORY_RESIDENTS.md) so fictional intent stays connected to real, reviewable repository work.
 
 ## Editorial test
 

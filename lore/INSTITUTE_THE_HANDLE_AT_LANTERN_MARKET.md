@@ -105,7 +105,7 @@ Dani looked at him. “Good policy.”
 
 They ate at a small table beneath the western awning. The food came from three neighbouring stalls: flatbread still warm from the oven, lentils with garlic and lemon, roasted peppers, a tray of potatoes with herbs, and a bowl of sliced pears. The Coach ordered more than the table needed and pushed the extra plates toward the market workers who had finished their morning deliveries. Nobody made a ceremony of the offer. A man sat down, took a piece of bread, and continued telling Daniel about a repair to the old pump house.
 
-During lunch Elias explained that the market had no common place for small repairs. Stallholders usually took broken equipment to whichever workshop they knew, and some repairs were postponed because the item was too awkward to transport or because the owner could not spare the time away from the stall. There were carpenters, metalworkers, and mechanics in the surrounding streets, but their hours did not always overlap. The market had tried a repair day once, years earlier, but nobody had been responsible for keeping the tools together or recording what had been changed.
+During lunch Elias explained that the market already had a shared repair bench at the far end of the arcade. The bookbinder and lamp-repairer sometimes left ongoing work there, and local makers could bring a small object and collect it later. But the bench was not a reliable service for working stall equipment that had to be ready before the next morning, and it was not staffed at predictable times. Stallholders took broken gear to whichever workshop they knew; some repairs were postponed because an item was awkward to transport or because its owner could not spare the time away from the stall. The market had tried an open repair afternoon once, years earlier, but there had been no shared intake sheet, clear custody record, or follow-up process. Half-repaired items accumulated, and nobody knew who was meant to contact their owners. The new proposal was not to build another bench. It was to connect the Institute's workshop to the bench that already existed, give the service predictable hours, and create a portable fixture for equipment too large or too awkward to leave in the maker room.
 
 Dani listened, turning the blue cloth between his fingers. He was not especially talkative over lunch. He folded the bread wrapper into a narrow strip and moved it away from the edge of the table. When Elias described the old repair day, Dani asked what had made it stop.
 
@@ -117,7 +117,7 @@ Marcus laughed. “That's a strong way to end a committee.”
 
 The Coach looked toward Dani. “You thinking about something?”
 
-Dani glanced down at the sketch Daniel had left beside the plates. “The Institute has a workshop. The market has the repairs. We could bring a small bench here once a week. Not a whole department. Just a place to look at things, measure them, decide whether they're safe to repair, and send the bigger jobs to the right people.”
+Dani glanced down at the sketch Daniel had left beside the plates. “The Institute has a workshop. The market has the repairs. We could staff the existing bench here one afternoon a week. Not a whole department. Just a reliable place to look at things, measure them, decide whether they're safe to repair, and send the bigger jobs to the right people.”
 
 Daniel nodded. “A proper intake sheet. Owner, purpose, existing condition, proposed work, test required, and who takes it back.”
 

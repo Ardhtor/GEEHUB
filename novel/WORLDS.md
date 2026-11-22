@@ -2917,3 +2917,11 @@ SETH: The Athletic Commons is a broad brick-and-glass complex with high timber t
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Source retained: worlds/athletic-commons/README.md. Pressure 1.00; memory 1.00.
+
+## ATHLETIC COMMONS / pulse 334 / MEMORY
+
+NICK: A detail returns in ATHLETIC COMMONS: Beyond the weight rooms, the pool catches blue daylight and the outdoor lawns open toward the playing fields. Friends gather at the café after training, stretch on the terrace and make plans for dinner.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/athletic-commons/README.md.
+
+Source retained: worlds/athletic-commons/README.md. Pressure 1.00; memory 1.00.

@@ -1,5 +1,5 @@
 {
-  "pulse": 333,
+  "pulse": 334,
   "events": [
     {
       "pulse": 1,
@@ -6343,6 +6343,28 @@
       "occurred_at": "2026-11-22T17:56:13.902375+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000334",
+      "pulse": 334,
+      "time": "2026-11-22T17:56:24.455924+00:00",
+      "actor": "TYLER",
+      "world": "ATHLETIC COMMONS",
+      "region_id": "athletic-commons",
+      "previous_region_id": "athletic-commons",
+      "phase": "MEMORY",
+      "source": "worlds/athletic-commons/README.md",
+      "desire_state": "recognition",
+      "action": "NICK: A detail returns in ATHLETIC COMMONS: Beyond the weight rooms, the pool catches blue daylight and the outdoor lawns open toward the playing fields. Friends gather at the café after training, stretch on the terrace and make plans for dinner.\n\nSETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/athletic-commons/README.md.",
+      "narrative_rule": "comparison can become differentiation",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-22T17:56:24.455924+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -6394,7 +6416,7 @@
     "athletic-commons": 332.5
   },
   "pressure": 1.0,
-  "memory": 1,
+  "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
     "creative/luke-bwomph.json": 20,
@@ -6415,15 +6437,15 @@
     "worlds/bluewater-quay/README.md": 16,
     "worlds/lantern-market/README.md": 13,
     "worlds/northgate-library/README.md": 24,
-    "worlds/athletic-commons/README.md": 10
+    "worlds/athletic-commons/README.md": 11
   },
   "next_region": null,
-  "phase": 1,
+  "phase": 2,
   "active_region": "athletic-commons",
-  "current_phase": "ATMOSPHERE",
-  "current_desire_state": "attention",
-  "current_question": "What does this place do while nobody intervenes?",
-  "current_narrative_rule": "approach extends geography",
+  "current_phase": "MEMORY",
+  "current_desire_state": "recognition",
+  "current_question": "Which detail remains from the prior state?",
+  "current_narrative_rule": "comparison can become differentiation",
   "next_relation": null,
   "long_play": {
     "cycle": 232,

@@ -190,6 +190,7 @@ clothing, or export a finished video.
 Construction evidence and remaining blockers are recorded in
 [world/gee-narrative/STATE.md](world/gee-narrative/STATE.md) and
 [world/gee-narrative/CONSTRUCTION_CHRONICLE.md](world/gee-narrative/CONSTRUCTION_CHRONICLE.md).
+The in-memory temporal scene plate now has a file-backed artifact writer that persists the RGBA repair plate, opaque coverage and unresolved masks, compact per-pixel donor provenance, and a SHA-256 receipt published last. Partial repairs remain explicitly unresolved; camera registration and mask anatomy are not independently verified, and complete-frame compositing remains separate.
 
 ## Commentary as memory
 

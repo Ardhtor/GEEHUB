@@ -1,0 +1,33 @@
+name: GEEHUB video timeline validation
+
+on:
+  push:
+    paths:
+      - 'engine/video/**'
+      - 'production/projects/**'
+      - '.github/workflows/validate-video.yml'
+  pull_request:
+    paths:
+      - 'engine/video/**'
+      - 'production/projects/**'
+      - '.github/workflows/validate-video.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-video:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Compile video tools
+        run: python -m py_compile engine/video/validate_timeline.py engine/video/tests/test_validate_timeline.py
+      - name: Run timeline and provenance regression tests
+        run: python -m unittest engine.video.tests.test_validate_timeline
+      - name: Validate Teal Titan production manifests
+        run: python engine/video/validate_timeline.py

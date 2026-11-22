@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-22T01:59:01.785Z",
+  "generated": "2026-11-22T09:39:49.938Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00231",
+      "at": "2026-11-22T09:39:49.938Z",
+      "from": "geehub-long-play",
+      "to": "luke",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / ATHLETIC COMMONS → NORTHGATE UNIVERSITY / LUKE",
+      "body": "The world crossed the existing relation \"STRENGTH WITHOUT CONFLICT\" from ATHLETIC COMMONS into NORTHGATE UNIVERSITY. Scale increased from 17.22× to 17.25×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00231",
+      "live": true,
+      "regionId": "northgate-university",
+      "previousRegionId": "athletic-commons",
+      "relation": "STRENGTH WITHOUT CONFLICT"
+    },
     {
       "id": "scheduled-long-play-00230",
       "at": "2026-11-22T01:59:01.785Z",
@@ -1482,21 +1497,6 @@
       "regionId": "discovery",
       "previousRegionId": "embodied-scale",
       "relation": "SCALE HAS HISTORY"
-    },
-    {
-      "id": "scheduled-long-play-00134",
-      "at": "2026-10-30T02:38:17.484Z",
-      "from": "geehub-long-play",
-      "to": "joseph",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / LUKE // BWOMPH → EMBODIED SCALE / JOSEPH",
-      "body": "The world crossed the existing relation \"THE BAR GYM REMEMBERS\" from LUKE // BWOMPH into EMBODIED SCALE. Scale increased from 10.98× to 11.10×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00134",
-      "live": true,
-      "regionId": "embodied-scale",
-      "previousRegionId": "luke-bwomph",
-      "relation": "THE BAR GYM REMEMBERS"
     }
   ]
 }

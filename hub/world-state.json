@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00230.json",
+  "activeRecording": "./recordings/scheduled-recording-00231.json",
   "activeEncounter": {
-    "regionId": "athletic-commons",
-    "regionName": "ATHLETIC COMMONS",
+    "regionId": "northgate-university",
+    "regionName": "NORTHGATE UNIVERSITY",
     "subject": {
-      "agent": "chase",
-      "scale": 17.22,
+      "agent": "luke",
+      "scale": 17.25,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / NORTHGATE UNIVERSITY → ATHLETIC COMMONS / CHASE",
+    "intent": "LONG PLAY / ATHLETIC COMMONS → NORTHGATE UNIVERSITY / LUKE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 17.18× → 17.22×",
-      "NORTHGATE UNIVERSITY → ATHLETIC COMMONS",
+      "scale 17.22× → 17.25×",
+      "ATHLETIC COMMONS → NORTHGATE UNIVERSITY",
       "relation: STRENGTH WITHOUT CONFLICT",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "northgate-university"
+    "previousRegionId": "athletic-commons"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-22T01:59:01.785Z",
+  "snapshot": "2026-11-22T09:39:49.938Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 230,
-    "agent": "chase",
-    "previousRegionId": "northgate-university",
-    "regionId": "athletic-commons",
+    "cycle": 231,
+    "agent": "luke",
+    "previousRegionId": "athletic-commons",
+    "regionId": "northgate-university",
     "relation": "STRENGTH WITHOUT CONFLICT",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 17.18,
-    "scale": 17.22,
-    "recording": "scheduled-recording-00230",
-    "at": "2026-11-22T01:59:01.785Z"
+    "previousScale": 17.22,
+    "scale": 17.25,
+    "recording": "scheduled-recording-00231",
+    "at": "2026-11-22T09:39:49.938Z"
   }
 }

@@ -6,7 +6,7 @@
     "kind": "adult-visual-archive",
     "group": "visual",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/archive/adult-gay-visual-loop/",
+    "path": "/archive/adult-gay-visual-loop/README.md",
     "description": "Swipe-first adult gay visual discovery space focused on adult-only source material, visual attraction, muscular presence, continuity, tagging, and recommendation. The interface is intentionally frictionless: one swipe advances to the next item, while the archive learns from attention and preserves provenance.",
     "related": [
       "male-harem-virtual-space",
@@ -238,7 +238,7 @@
     "status": "active",
     "kind": "research",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/",
+    "path": "/index.html",
     "description": "Provenance-first index of the old-web muscle/transformation-media ecosystem.",
     "related": [
       "beefythiq",
@@ -315,7 +315,7 @@
     "status": "active",
     "kind": "canon-system",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/characters/",
+    "path": null,
     "description": "Shared character-record standard and detailed, continuity-preserving records for GEEHUB inhabitants. Records connect identity, embodiment, temperament, voice, relationships, places, history, transformation, production requirements, canon status, and provenance.",
     "related": [
       "arthur-and-fingerlands",
@@ -1478,7 +1478,7 @@
     "kind": "visual-archive",
     "group": "visual",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/archive/male-harem/",
+    "path": "/archive/male-harem/README.md",
     "description": "Living visual roster and shared virtual environment. Original source photographs of muscular white men are archived alongside generated group scenes and extreme-size studies. Treated as a primary visual artifact node focused on presence, mass, and continuity of form. Current focus: the two growingest / most extreme buff subjects (Office Tank + Posing Trunks).",
     "related": [
       "beefythiq",
@@ -1506,7 +1506,7 @@
     "kind": "experience",
     "group": "experience",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/experiences/male-stud/README.md",
+    "path": null,
     "description": "An enterable adult male social world within the Sensation Engine. The Male Stud is experienced as a persistent place: men, rooms, encounters, video-memory, books, and visual artifacts remain connected and continue changing between visits.",
     "related": [
       "sensation-engine",
@@ -1773,7 +1773,7 @@
     "status": "active",
     "kind": "engine",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/hub/",
+    "path": "/hub/index.html",
     "description": "The current GEEHUB core: a living visual memory/world engine in which encounters become scenes, scenes become memories, memories alter the world, and the next state emerges from continuity rather than a reset.",
     "related": [
       "vision-workspace",
@@ -2034,7 +2034,7 @@
     "status": "active",
     "kind": "interface",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/",
+    "path": "/README.md",
     "description": "The Tractus living world/memory engine: the visible entry point where scenes, video, books, characters, places, artifacts, and encounters persist as a connected changing world. The Hub is experienced rather than merely navigated; RUN continues the world.",
     "related": [
       "sensation-engine",

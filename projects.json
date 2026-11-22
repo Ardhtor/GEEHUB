@@ -1,255 +1,5 @@
 [
   {
-    "id": "bodylounger",
-    "name": "BodyLounger Research Archive",
-    "status": "active",
-    "kind": "research",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/",
-    "description": "Provenance-first index of the old-web muscle/transformation-media ecosystem.",
-    "related": [
-      "beefythiq",
-      "the-complex",
-      "growth-canvas",
-      "discovery"
-    ]
-  },
-  {
-    "id": "beefythiq",
-    "name": "Beefythiq",
-    "status": "concept",
-    "kind": "system",
-    "repo": null,
-    "description": "A generative grammar for escalating transformation, mass, association, and mutation.",
-    "related": [
-      "growth-canvas",
-      "the-complex",
-      "facility",
-      "mass1v1ng"
-    ]
-  },
-  {
-    "id": "the-complex",
-    "name": "The Complex",
-    "status": "concept",
-    "kind": "world",
-    "repo": null,
-    "description": "Persistent creative environment where encounters become creations and creations transform.",
-    "related": [
-      "beefythiq",
-      "muscle-myth",
-      "facility",
-      "vision-workspace",
-      "arthur-and-fingerlands",
-      "atlas"
-    ]
-  },
-  {
-    "id": "vision-workspace",
-    "name": "The Tractus — Living Workspace",
-    "status": "active",
-    "kind": "interface",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/",
-    "description": "The Tractus living world/memory engine: the visible entry point where scenes, video, books, characters, places, artifacts, and encounters persist as a connected changing world. The Hub is experienced rather than merely navigated; RUN continues the world.",
-    "related": [
-      "sensation-engine",
-      "the-complex",
-      "discovery",
-      "media-tools",
-      "veyrthalis",
-      "tractus-continuity",
-      "institute-of-becoming"
-    ]
-  },
-  {
-    "id": "veyrthalis",
-    "name": "Veyrthalis",
-    "status": "active",
-    "kind": "world",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/veyrthalis/THE_EYE_AND_THE_WESTERN_QUARTER.md",
-    "description": "Veyrthalis: a persistent inhabited city at the edge of the Foggy Dark Expanse, with the Digitorium, Procession, Binding, and an observation system carried by the crow, residents, and Merrow Vale. Current continuity chapter establishes the Eye of the City, western-quarter survivability and availability, and the investigation beneath the Digitorium.",
-    "related": [
-      "the-complex",
-      "muscle-myth",
-      "vision-workspace",
-      "hyperspace-expedition",
-      "the-eye-and-the-western-quarter"
-    ]
-  },
-  {
-    "id": "hyperspace-expedition",
-    "name": "Hyperspace Expedition",
-    "status": "experimental",
-    "kind": "story-branch",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
-    "description": "Four-man descent into a vast valley city integrated with an ancient living presence; Kirk and Joseph experience anomalous shared perceptions while their bond and identities remain continuous.",
-    "related": [
-      "veyrthalis",
-      "the-complex",
-      "beefythiq",
-      "mass1v1ng"
-    ]
-  },
-  {
-    "id": "growth-canvas",
-    "name": "Growth Canvas",
-    "status": "prototype",
-    "kind": "tool",
-    "repo": null,
-    "description": "Visual substrate for seeds, rules, latency, anomalies, tracking, and transformation experiments.",
-    "related": [
-      "beefythiq",
-      "liminal-gains",
-      "media-tools"
-    ]
-  },
-  {
-    "id": "liminal-gains",
-    "name": "Liminal Gains",
-    "status": "prototype",
-    "kind": "game",
-    "repo": null,
-    "description": "Interactive transformation game prototype with growth orbs and cooperative mechanics.",
-    "related": [
-      "growth-canvas",
-      "beefythiq"
-    ]
-  },
-  {
-    "id": "big-bruteforce",
-    "name": "BIG BRUTEFORCE",
-    "status": "prototype",
-    "kind": "game",
-    "repo": null,
-    "description": "Mutation-engine game concept built around repeated push, mutate, and rest cycles.",
-    "related": [
-      "beefythiq"
-    ]
-  },
-  {
-    "id": "mass1v1ng",
-    "name": "Mass1v1ng Growth Framework",
-    "status": "exploration",
-    "kind": "creative-system",
-    "repo": null,
-    "description": "An explicitly imaginative transformation framework organized around accumulation, thresholds, scale, altered baselines, presence, and mutation.",
-    "related": [
-      "beefythiq",
-      "growth-canvas",
-      "the-complex"
-    ]
-  },
-  {
-    "id": "facility",
-    "name": "The Facility",
-    "status": "canon",
-    "kind": "world",
-    "repo": null,
-    "description": "Clinical-white adult-male research complex with sealed ecosystems, experiments, feedback, and slapstick escalation.",
-    "related": [
-      "the-complex",
-      "muscle-myth",
-      "beefythiq"
-    ]
-  },
-  {
-    "id": "muscle-myth",
-    "name": "Muscle Myth",
-    "status": "canon",
-    "kind": "myth",
-    "repo": null,
-    "description": "Mythic framework and pantheon connected to transformation, recognition, embodiment, and continuity.",
-    "related": [
-      "the-complex",
-      "facility",
-      "veyrthalis"
-    ]
-  },
-  {
-    "id": "media-tools",
-    "name": "Media Tools",
-    "status": "active",
-    "kind": "tooling",
-    "repo": "Ardhtor/GEEHUB",
-    "description": "Operational source-inspection interface for original motion references. Opens animated image/video sources, exposes browser playback and frame stepping, and preserves provenance in corpus/exchange records.",
-    "related": [
-      "growth-canvas",
-      "vision-workspace",
-      "sensation-engine",
-      "inspect-2026-10-29-growth-motion"
-    ],
-    "path": "/engine/media-inspector.html"
-  },
-  {
-    "id": "discovery",
-    "name": "Discovery Systems",
-    "status": "exploration",
-    "kind": "tooling",
-    "repo": null,
-    "description": "Recommendation, tagging, browsing, filtering, and live discovery systems.",
-    "related": [
-      "bodylounger",
-      "the-complex",
-      "vision-workspace"
-    ]
-  },
-  {
-    "id": "writing-research",
-    "name": "Writing & Research",
-    "status": "active",
-    "kind": "research",
-    "repo": null,
-    "description": "Academic and long-form work spanning dialogue, impressionability, media, religion, philosophy, and creative research.",
-    "related": [
-      "the-complex",
-      "vision-workspace"
-    ]
-  },
-  {
-    "id": "retro-lab",
-    "name": "Retro Lab",
-    "status": "exploration",
-    "kind": "aesthetic",
-    "repo": null,
-    "description": "Y2K, 90s/2000s, Heisei-era interface and media experiments.",
-    "related": [
-      "media-tools",
-      "discovery",
-      "vision-workspace"
-    ]
-  },
-  {
-    "id": "male-harem-virtual-space",
-    "name": "Male Harem Virtual Space",
-    "status": "active",
-    "kind": "visual-archive",
-    "group": "visual",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/archive/male-harem/",
-    "description": "Living visual roster and shared virtual environment. Original source photographs of muscular white men are archived alongside generated group scenes and extreme-size studies. Treated as a primary visual artifact node focused on presence, mass, and continuity of form. Current focus: the two growingest / most extreme buff subjects (Office Tank + Posing Trunks).",
-    "related": [
-      "beefythiq",
-      "mass1v1ng",
-      "muscle-myth",
-      "media-tools",
-      "growth-canvas",
-      "the-complex",
-      "facility",
-      "bodylounger"
-    ],
-    "tags": [
-      "visual",
-      "muscle",
-      "harem",
-      "growth",
-      "archive",
-      "extreme-size"
-    ]
-  },
-  {
     "id": "adult-gay-visual-loop",
     "name": "Adult Gay Visual Loop",
     "status": "active",
@@ -276,172 +26,20 @@
     ]
   },
   {
-    "id": "size-domination-emulator",
-    "name": "Size Domination Emulator",
-    "status": "prototype",
-    "kind": "experience",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/experiences/size-domination-emulator/index.html",
-    "description": "Swipe-first body-scale emulator where height, mass, reach, joints, and spatial footprint increase together while identity remains continuous. Altered states can become new baselines.",
-    "related": [
-      "beefythiq",
-      "mass1v1ng",
-      "growth-canvas",
-      "media-tools",
-      "male-harem-virtual-space"
-    ],
+    "id": "andrew-field",
+    "name": "Andrew Field",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Fictional workspace for Andrew's movement, shared play, and practical decisions.",
+    "path": "/creative/measure-between-us/repos/andrew-field/README.md",
     "tags": [
-      "size",
-      "scale",
-      "emulator",
-      "growth",
-      "continuity",
-      "sensation-engine"
-    ]
-  },
-  {
-    "id": "sensation-engine",
-    "name": "Sensation Engine",
-    "status": "active",
-    "kind": "engine",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/hub/",
-    "description": "The current GEEHUB core: a living visual memory/world engine in which encounters become scenes, scenes become memories, memories alter the world, and the next state emerges from continuity rather than a reset.",
-    "related": [
-      "vision-workspace",
-      "the-complex",
-      "media-tools",
-      "discovery",
-      "beefythiq",
-      "information-portability"
-    ],
-    "tags": [
-      "sensation",
-      "memory",
-      "continuity",
-      "visual",
-      "world",
-      "run",
-      "portability",
-      "provenance",
-      "exchange"
-    ]
-  },
-  {
-    "id": "male-stud",
-    "name": "Male Stud",
-    "status": "active",
-    "kind": "experience",
-    "group": "experience",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/experiences/male-stud/README.md",
-    "description": "An enterable adult male social world within the Sensation Engine. The Male Stud is experienced as a persistent place: men, rooms, encounters, video-memory, books, and visual artifacts remain connected and continue changing between visits.",
-    "related": [
-      "sensation-engine",
-      "male-harem-virtual-space",
-      "the-complex",
-      "media-tools",
-      "discovery",
-      "muscle-myth"
-    ],
-    "tags": [
-      "experience",
-      "male",
-      "social",
-      "visual",
-      "memory",
-      "continuity",
-      "sensation-engine"
-    ]
-  },
-  {
-    "id": "information-portability",
-    "name": "Information Portability Contract",
-    "status": "active",
-    "kind": "governance",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/docs/INFORMATION_PORTABILITY.md",
-    "description": "Rules for carrying consequential decisions across canonical docs, Atlas registries, executable behavior, state and artifact records, peer repositories, and the durable media corpus.",
-    "related": [
-      "sensation-engine",
-      "vision-workspace",
-      "shared-interaction-space"
-    ],
-    "tags": [
-      "portability",
-      "memory",
-      "provenance",
-      "exchange",
-      "continuity"
-    ]
-  },
-  {
-    "id": "lineage-pantheon",
-    "name": "Lineage Pantheon",
-    "status": "active",
-    "kind": "engine",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/LINEAGE_PANTHEON.md",
-    "description": "Functional local-first pantheon runtime connecting Swolebeasts physical presence, Hulum's Cave shared inertia, Gee continuity, Luke identity-preserving growth, God Daddy's chosen protection, and the distinct mythic domains of Neptune, Odin, and Zeus.",
-    "related": [
-      "beefythiq",
-      "muscle-myth",
-      "vision-workspace",
-      "male-harem-virtual-space",
-      "sensation-engine",
-      "teal-titan-golds-on-5th",
-      "tractus-world-atlas",
-      "beginning-of-the-dimension",
-      "first-room-chapter-ten",
-      "first-room-chapter-eleven",
-      "first-room-chapter-twelve",
-      "first-room-chapter-thirteen"
-    ],
-    "tags": [
-      "god-daddy",
-      "neptune",
-      "zeus",
-      "odin",
-      "viewer-facing-broadcast"
-    ]
-  },
-  {
-    "id": "hubby",
-    "name": "Hubby",
-    "status": "active",
-    "kind": "character-artifact",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/HUBBY.md",
-    "description": "Warm, smiling teal giant; photorealistic fantasy strongman visual artifact with identity-preserving growth and a shared domestic parallel-history seed.",
-    "related": [
-      "lineage-pantheon",
-      "sensation-engine",
-      "the-complex",
-      "male-harem-virtual-space"
-    ],
-    "tags": [
-      "hubby",
+      "fiction",
       "character",
-      "visual-artifact",
-      "giant",
-      "continuity",
-      "growth"
-    ]
-  },
-  {
-    "id": "geehub-studio",
-    "name": "GEEHUB Studio",
-    "status": "prototype",
-    "kind": "video-editor",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/hub/gee-studio.html",
-    "description": "Browser-native video production prototype with director-authored scene progression, continuous time-coded growth recording, editable take duration, generated soundtrack, WebM render, and script/automation export.",
-    "related": [
-      "media-tools",
-      "sensation-engine",
-      "growth-canvas",
-      "beefythiq"
-    ]
+      "agency",
+      "action"
+    ],
+    "kind": "character-workspace",
+    "description": "Fictional workspace for Andrew's movement, shared play, and practical decisions."
   },
   {
     "id": "arboreal-audio",
@@ -467,285 +65,6 @@
     ]
   },
   {
-    "id": "dropbox-production-stream",
-    "name": "Dropbox Production Stream",
-    "status": "prototype",
-    "kind": "production-engine",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/engine/artifacts/dropbox-production.js",
-    "description": "Local-first product persistence bridge. Generated artifacts are queued with provenance and simulation lineage, then written into the Dropbox-synced GEEHUB folder with payloads and manifests.",
-    "related": [
-      "sensation-engine",
-      "information-portability",
-      "arboreal-audio",
-      "geehub-studio",
-      "media-tools"
-    ],
-    "tags": [
-      "dropbox",
-      "production",
-      "artifacts",
-      "provenance",
-      "persistence",
-      "simulation"
-    ]
-  },
-  {
-    "id": "imagine-video-studio",
-    "name": "Imagine Video Studio",
-    "status": "prototype",
-    "kind": "video-generation",
-    "path": "/engine/video/imagine-studio.html",
-    "description": "Grok Imagine-inspired six-second text/image-to-video workflow. Generates at 480p, finishes a 420p MP4 with FFmpeg, and files the video plus provenance manifest in Dropbox.",
-    "tags": [
-      "video",
-      "imagine",
-      "420p",
-      "six-second",
-      "mp4",
-      "dropbox"
-    ]
-  },
-  {
-    "id": "sacred-corridor",
-    "name": "The Sacred Corridor",
-    "status": "active",
-    "kind": "experience",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/experiences/sacred-corridor/index.html",
-    "description": "An explorable, quiet architectural heart of GEEHUB where adult men meet, work, train, think, form relationships and leave persistent traces. Luke's growth remains open-ended from his current stage four.",
-    "related": [
-      "male-stud",
-      "lineage-pantheon",
-      "male-harem-virtual-space",
-      "sensation-engine"
-    ],
-    "tags": [
-      "sacred-corridor",
-      "world",
-      "adult-men",
-      "continuity",
-      "Luke",
-      "growth"
-    ]
-  },
-  {
-    "id": "mexiancas",
-    "name": "Mexiancas",
-    "status": "active",
-    "kind": "living-world",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/mexiancas/CHRONICLE_I.md",
-    "description": "Self-narrating sentient world whose inhabitants preserve multiple memories, build from inherited accounts, and explore the HULUM'A threshold. Volume I establishes the Hall of Accounts, First Awake, the Second Generation, the Open Continuation Principle, and the first return from beyond the door.",
-    "related": [
-      "vision-workspace",
-      "the-complex",
-      "sensation-engine",
-      "information-portability",
-      "veyrthalis"
-    ],
-    "tags": [
-      "mexiancas",
-      "living-world",
-      "sentience",
-      "chronicle",
-      "continuity",
-      "HULUM'A",
-      "open-continuation"
-    ],
-    "volumes": [
-      "lore/mexiancas/CHRONICLE_I.md",
-      "lore/mexiancas/CHRONICLE_II_THE_OTHER_ACCOUNT.md"
-    ],
-    "summary": "Self-narrating sentient world; two living chronicle volumes preserve its own history and its independent correspondence with the Other Side."
-  },
-  {
-    "id": "joseph-kirk-continuity",
-    "name": "Joseph & Kirk — Continuity",
-    "status": "experimental",
-    "kind": "story-branch",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/veyrthalis/JOSEPH_KIRK_INDEX.md",
-    "description": "Experimental Veyrthalis narrative: four travelers choose separate routes, preserve independent witness accounts, and begin a shared inquiry into the Procession's unentered centre while Kirk and Joseph continue choosing one another without merging identities.",
-    "related": [
-      "veyrthalis",
-      "hyperspace-expedition",
-      "joseph-prever-many-faces",
-      "the-complex"
-    ]
-  },
-  {
-    "id": "asset-intake-2026-11-03",
-    "name": "GEEHUB Asset Intake — November 2026",
-    "status": "active",
-    "kind": "production-index",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/production/intake/2026-11-03/ASSET_PURPOSE_ATLAS.md",
-    "description": "Working purpose map and first production cards for new Dropbox uploads: character identity references, motion sources, growth grammar, story text, promotional tooling, Resolve operator and video-studio specification. Originals remain in Dropbox; filename inference is separated from verified visual inspection.",
-    "related": [
-      "media-tools",
-      "geehub-studio",
-      "imagine-video-studio",
-      "luke-growth",
-      "joseph-kirk-continuity",
-      "veyrthalis"
-    ]
-  },
-  {
-    "id": "joseph-kirk-runtime",
-    "name": "Joseph–Kirk Story Runtime",
-    "status": "prototype",
-    "kind": "story-engine",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/engine/stories/joseph_kirk_runtime.py",
-    "description": "Executable story model for Veyrthalis: 23 narrative beats, character agency, separate witness accounts, decision-to-sensation chamber logic, and unresolved mystery safeguards.",
-    "related": [
-      "joseph-kirk-continuity",
-      "veyrthalis",
-      "sensation-engine"
-    ]
-  },
-  {
-    "id": "rites-of-growth",
-    "name": "The Rites of Growth",
-    "status": "active",
-    "kind": "mythic-book",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/growth/THE_RITES_OF_GROWTH.md",
-    "description": "Six-stage book of growth as rites of passage: Calling, First Enlargement, Resistance, Investiture, Magnification, and the Unbounded Threshold. Preserves identity, proportion, agency and Luke's phase-four continuity.",
-    "related": [
-      "beefythiq",
-      "growth-canvas",
-      "mass1v1ng",
-      "lineage-pantheon",
-      "sensation-engine"
-    ]
-  },
-  {
-    "id": "dad-convent",
-    "name": "The Dad Convent",
-    "status": "active",
-    "kind": "world",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/dad-convent/README.md",
-    "description": "An expanding adult-male residential settlement whose central culture is collective construction: workshops, halls, residential wings, an Iron Room, bathhouse, service court, roads, gardens, and a Registry preserving every build phase.",
-    "related": [
-      "the-complex",
-      "muscle-myth",
-      "beefythiq",
-      "sensation-engine",
-      "male-stud"
-    ],
-    "tags": [
-      "world",
-      "construction",
-      "settlement",
-      "adult-male",
-      "lineage",
-      "building",
-      "registry"
-    ]
-  },
-  {
-    "id": "teal-titan-golds-on-5th",
-    "name": "The Teal Titan of Gold's on 5th",
-    "status": "active",
-    "kind": "video-production",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/production/projects/teal-titan-golds-on-5th/README.md",
-    "description": "Six-second 420p transformation short with six-stage continuous escalation, Marcus identity and balanced pectoral continuity locks, Imagine Engine preset, and Dropbox production handoff.",
-    "related": [
-      "geehub-studio",
-      "imagine-video-studio",
-      "beefythiq",
-      "growth-canvas",
-      "media-tools",
-      "dropbox-production-stream"
-    ]
-  },
-  {
-    "id": "god-penis-idol-cycle",
-    "name": "The God Penis — Idol Cycle",
-    "status": "active",
-    "kind": "mythic-story-cycle",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/GOD_PENIS_IDOL_CYCLE.md",
-    "description": "Fictional mythic cycle connecting the God Penis, Penis Wizards, Institute of Phallic Studies, Window Society, Great Gallery, Hall of Continuity, Big-Pec Altar, and Festival of Again. Distinguishes historical evidence, cultural tradition, and in-world legend.",
-    "related": [
-      "muscle-myth",
-      "facility",
-      "beefythiq",
-      "the-complex",
-      "sensation-engine",
-      "male-harem-virtual-space"
-    ]
-  },
-  {
-    "id": "tractus-continuity",
-    "name": "Tractus Continuity Contract",
-    "status": "active",
-    "kind": "governance",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/docs/TRACTUS_CONTINUITY_CONTRACT.md",
-    "description": "Canonical continuity model connecting GEEHUB's event inscription, world state, narrative writer, queue, artifact ledger, Atlas registries, and cross-repository exchange. Defines traceable passages and canon boundaries.",
-    "related": [
-      "vision-workspace",
-      "sensation-engine",
-      "information-portability"
-    ],
-    "tags": [
-      "tractus",
-      "continuity",
-      "passages",
-      "provenance",
-      "canon",
-      "governance"
-    ]
-  },
-  {
-    "id": "institute-of-becoming",
-    "name": "The Institute of Becoming",
-    "status": "incubating",
-    "kind": "story-world",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/INSTITUTE_OF_BECOMING.md",
-    "description": "Emerging institutional story branch within the Tractus: the Coach, residential and academic spaces, dining culture, inhabitants, and architecture that changes through accumulated use. Remains incubating until reconciled with established world canon.",
-    "related": [
-      "tractus-continuity",
-      "vision-workspace",
-      "sensation-engine",
-      "the-coach"
-    ],
-    "tags": [
-      "institute",
-      "coach",
-      "university",
-      "world",
-      "story",
-      "continuity"
-    ]
-  },
-  {
-    "id": "the-coach",
-    "name": "The Coach",
-    "status": "incubating",
-    "kind": "character",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/INSTITUTE_OF_BECOMING.md#the-coach",
-    "description": "The Institute of Becoming's founding coach: an imposing, warm, good-humoured American presence whose coaching develops into encouragement, hospitality, and making room for others' ambitions.",
-    "related": [
-      "institute-of-becoming",
-      "tractus-continuity"
-    ],
-    "tags": [
-      "character",
-      "coach",
-      "institute",
-      "tractus",
-      "continuity"
-    ]
-  },
-  {
     "id": "arthur-and-fingerlands",
     "name": "Arthur and the Fingerlands",
     "status": "incubating",
@@ -764,6 +83,23 @@
       "character-record",
       "metascript",
       "felt-method"
+    ]
+  },
+  {
+    "id": "asset-intake-2026-11-03",
+    "name": "GEEHUB Asset Intake — November 2026",
+    "status": "active",
+    "kind": "production-index",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/production/intake/2026-11-03/ASSET_PURPOSE_ATLAS.md",
+    "description": "Working purpose map and first production cards for new Dropbox uploads: character identity references, motion sources, growth grammar, story text, promotional tooling, Resolve operator and video-studio specification. Originals remain in Dropbox; filename inference is separated from verified visual inspection.",
+    "related": [
+      "media-tools",
+      "geehub-studio",
+      "imagine-video-studio",
+      "luke-growth",
+      "joseph-kirk-continuity",
+      "veyrthalis"
     ]
   },
   {
@@ -786,313 +122,38 @@
     ]
   },
   {
-    "id": "character-records",
-    "name": "GEEHUB Character Records",
-    "status": "active",
-    "kind": "canon-system",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/characters/",
-    "description": "Shared character-record standard and detailed, continuity-preserving records for GEEHUB inhabitants. Records connect identity, embodiment, temperament, voice, relationships, places, history, transformation, production requirements, canon status, and provenance.",
+    "id": "beefythiq",
+    "name": "Beefythiq",
+    "status": "concept",
+    "kind": "system",
+    "repo": null,
+    "description": "A generative grammar for escalating transformation, mass, association, and mutation.",
     "related": [
-      "arthur-and-fingerlands",
-      "atlas",
-      "the-coach",
-      "institute-of-becoming",
-      "sensation-engine",
-      "character-marcus",
-      "character-dan-roman"
-    ],
-    "tags": [
-      "characters",
-      "records",
-      "canon",
-      "continuity",
-      "embodiment",
-      "relationships",
-      "production"
-    ]
-  },
-  {
-    "id": "developing-voices",
-    "name": "Developing Voices",
-    "status": "active",
-    "kind": "narrative-engine",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/docs/DEVELOPING_VOICES.md",
-    "description": "Bottom-up character voice development: speech mechanics, behaviour, acquired language, emotional variation, linguistic history, and iterative dialogue testing.",
-    "related": [
-      "character-records",
-      "tractus-continuity",
-      "sensation-engine",
-      "teal-titan-golds-on-5th",
-      "arthur-and-fingerlands",
-      "voice-engine-runtime"
-    ]
-  },
-  {
-    "id": "voice-engine-runtime",
-    "name": "Voice Engine Runtime",
-    "status": "prototype",
-    "kind": "narrative-tool",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/engine/voices/README.md",
-    "description": "Dependency-free voice-history runtime for recording dialogue observations, analysing basic speech mechanics, tracking expression transfers, and exporting portable character voice state.",
-    "related": [
-      "developing-voices",
-      "character-records",
-      "sensation-engine"
-    ]
-  },
-  {
-    "id": "hulums-cave",
-    "name": "Hulum's Cave — Central Research and Production Lineage",
-    "status": "active",
-    "kind": "central-lineage",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/research/hulums-cave/README.md",
-    "description": "Central, cumulative historical and production lineage for Hulum's Cave: comics, games, CG growth animation, serialized characters, environments, sound, collaborations, remakes, and generative experiments. Every iteration appends source-grounded research and preserves provenance.",
-    "related": [
-      "bodylounger",
-      "media-tools",
-      "discovery",
-      "beefythiq",
       "growth-canvas",
       "the-complex",
-      "male-harem-virtual-space"
+      "facility",
+      "mass1v1ng"
     ]
   },
   {
-    "id": "growth-study-001",
-    "name": "GEEHUB Growth Study 001",
-    "status": "prototype",
-    "kind": "production",
+    "id": "beefythiq-first-room",
+    "name": "Beefythiq and the First Room",
+    "status": "incubating",
+    "kind": "cross-board-correspondence",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/production/growth-study-001/README.md",
-    "description": "Growth Club: a colorful training-floor showcase with connected-body anatomy, staged growth control, gym props, visual stage lamps, animated halo, dual cameras, and adjustable club lighting.",
+    "path": "/lore/dimension/BEEFYTHIQ_AND_THE_FIRST_ROOM.md",
+    "description": "Connects recursive growth, physical form, altered baselines, and environmental consequence to the dimension-origin story without merging settings.",
     "related": [
-      "hulums-cave",
       "beefythiq",
       "growth-canvas",
-      "growth-tools"
-    ]
-  },
-  {
-    "id": "jock-hypnosis",
-    "name": "Jock Hypnosis — Institute Training Experience",
-    "status": "prototype",
-    "kind": "connected-experience",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/production/growth-study-001/JOCK_HYPNOSIS_EXPERIENCE_SPEC.md",
-    "description": "Dreamlike, ritual-driven athletic experience inside the Institute of Becoming. Connects the gymnasium, residences, dining hall, character and voice continuity, Growth Study rigging, Growth Canvas, media, sound, and Tractus passages as one persistent world.",
-    "related": [
-      "institute-of-becoming",
-      "the-coach",
-      "growth-study-001",
-      "sensation-engine",
-      "tractus-continuity",
-      "character-records",
-      "developing-voices",
-      "voice-engine-runtime",
-      "media-tools",
-      "geehub-studio",
-      "arboreal-audio",
-      "male-stud",
-      "sacred-corridor",
-      "the-complex",
-      "beefythiq",
       "mass1v1ng",
-      "muscle-myth"
+      "beginning-of-the-dimension"
     ],
     "tags": [
-      "gym",
-      "jock",
-      "training",
-      "dreamlike",
-      "hypnotic-rhythm",
       "growth",
-      "male-social-world",
+      "form",
       "continuity",
-      "institute"
-    ]
-  },
-  {
-    "id": "tractus-execution-paths",
-    "name": "GEEHUB Execution Paths",
-    "status": "active",
-    "kind": "implementation-roadmap",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/docs/GEEHUB_EXECUTION_PATHS.md",
-    "description": "Cross-system implementation map for event propagation, Institute and campus continuity, body/growth state, voice, visual production, sound, cross-world passages, tool dependencies and acceptance tests.",
-    "related": [
-      "tractus-continuity",
-      "institute-of-becoming",
-      "jock-hypnosis",
-      "growth-study-001",
-      "voice-engine-runtime",
-      "hulums-cave",
-      "geehub-studio"
-    ]
-  },
-  {
-    "id": "scale-commons",
-    "name": "The Scale Commons",
-    "status": "active",
-    "kind": "world",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/worlds/scale-commons/README.md",
-    "description": "Adult multi-scale social and recreational world within the Colossus campus. Adaptive architecture, scale classes, miniature districts, giant-scale play, and persistent body/environment continuity.",
-    "related": [
-      "size-domination-emulator",
-      "mass1v1ng",
-      "beefythiq",
-      "the-complex"
-    ],
-    "tags": [
-      "world",
-      "scale",
-      "giants",
-      "adult-men",
-      "play",
-      "architecture",
-      "continuity"
-    ]
-  },
-  {
-    "id": "tractus-world-atlas",
-    "name": "The Tractus — World Atlas",
-    "status": "active",
-    "kind": "world-index",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/hub/WORLD_ATLAS.md",
-    "description": "Cross-world atlas of the Tractus: separate fictional canons, local geography, world-specific continuity, and verified artifact, motif, visitor, and method crossings.",
-    "related": [
-      "vision-workspace",
-      "veyrthalis",
-      "mexiancas",
-      "joey-colossus-chronicles",
-      "male-stud",
-      "sacred-corridor",
-      "facility",
-      "muscle-myth"
-    ]
-  },
-  {
-    "id": "joey-colossus-chronicles",
-    "name": "Joey — The Colossus Chronicles",
-    "status": "active",
-    "kind": "story-series",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/joey-colossus/README.md",
-    "description": "Six-volume adult fictional muscle-growth saga, now extending from the Scale Commons through Crownmere and the Meridian Basin.",
-    "related": [
-      "tractus-world-atlas",
-      "beefythiq",
-      "growth-canvas",
-      "male-harem-virtual-space",
-      "scale-commons"
-    ]
-  },
-  {
-    "id": "confluence-expansion",
-    "name": "The Confluence — Expansion Atlas",
-    "status": "active",
-    "kind": "world-system",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/EXPANSION_ATLAS_2026-11-10.md",
-    "description": "A connective inhabited geography linking the Hearthlands, Collegiate Belt, Industrial Marches, Observatory Range, Mythic Verge, and Scale Commons, with persistent institutions, production territories, character continuity, and the RUN memory cycle.",
-    "related": [
-      "vision-workspace",
-      "sensation-engine",
-      "the-complex",
-      "beefythiq",
-      "veyrthalis",
-      "facility",
-      "male-harem-virtual-space",
-      "information-portability",
-      "lineage-pantheon",
-      "confluence-people-volume-iii"
-    ],
-    "tags": [
-      "confluence",
-      "worldbuilding",
-      "continuity",
-      "geography",
-      "institutions",
-      "production",
-      "deep-lore"
-    ],
-    "volumes": [
-      "lore/EXPANSION_ATLAS_2026-11-10.md",
-      "lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md"
-    ]
-  },
-  {
-    "id": "confluence-people-volume-iii",
-    "name": "The Confluence — Volume III: The People",
-    "status": "incubating",
-    "kind": "story-volume",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md",
-    "description": "Long-form fictional lives in the Confluence: routines, homes, relationships, dialogue, work, and connected character arcs, with source boundaries and provisional additions kept visible.",
-    "related": [
-      "confluence-expansion",
-      "character-records",
-      "character-marcus",
-      "character-dan-roman",
-      "institute-of-becoming",
-      "tractus-world-atlas"
-    ],
-    "tags": [
-      "confluence",
-      "characters",
-      "fiction",
-      "continuity",
-      "story-volume",
-      "long-form"
-    ]
-  },
-  {
-    "id": "character-marcus",
-    "name": "Marcus — Character Record",
-    "status": "incubating",
-    "kind": "character",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/characters/records/MARCUS.md",
-    "description": "Developing adult fictional character record for Marcus, the working subject name in the Gold's on 5th production; preserves the distinction between this production incarnation and the wider Teal Titan lineage.",
-    "related": [
-      "character-records",
-      "confluence-expansion",
-      "confluence-people-volume-iii",
-      "teal-titan-golds-on-5th"
-    ],
-    "tags": [
-      "character",
-      "marcus",
-      "confluence",
-      "production-continuity",
-      "fiction"
-    ]
-  },
-  {
-    "id": "character-dan-roman",
-    "name": "Dan Roman — Character Record",
-    "status": "incubating",
-    "kind": "character",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/characters/records/DAN_ROMAN.md",
-    "description": "Provisional fictional character record developed for Volume III, centred on material craft, the Material Library, visible repair, and shared design work.",
-    "related": [
-      "character-records",
-      "confluence-expansion",
-      "confluence-people-volume-iii",
-      "tractus-world-atlas"
-    ],
-    "tags": [
-      "character",
-      "dan-roman",
-      "confluence",
-      "material-craft",
-      "fiction"
+      "correspondence"
     ]
   },
   {
@@ -1143,6 +204,366 @@
     ]
   },
   {
+    "id": "big-bruteforce",
+    "name": "BIG BRUTEFORCE",
+    "status": "prototype",
+    "kind": "game",
+    "repo": null,
+    "description": "Mutation-engine game concept built around repeated push, mutate, and rest cycles.",
+    "related": [
+      "beefythiq",
+      "bruteforce"
+    ]
+  },
+  {
+    "id": "blender-stand",
+    "name": "Blender Stand / 3D Workspace",
+    "group": "3d",
+    "status": "incubating",
+    "summary": "Dedicated 3D production node for the Blender-based stand workflow, intended to connect modeling, scene building, and visual output back into the GEEHUB constellation.",
+    "path": "/engine/video/blender/README.md",
+    "tags": [
+      "blender",
+      "3d",
+      "stand",
+      "modeling",
+      "scene"
+    ],
+    "kind": "3d",
+    "description": "Dedicated 3D production node for the Blender-based stand workflow, intended to connect modeling, scene building, and visual output back into the GEEHUB constellation."
+  },
+  {
+    "id": "bodylounger",
+    "name": "BodyLounger Research Archive",
+    "status": "active",
+    "kind": "research",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/",
+    "description": "Provenance-first index of the old-web muscle/transformation-media ecosystem.",
+    "related": [
+      "beefythiq",
+      "the-complex",
+      "growth-canvas",
+      "discovery"
+    ]
+  },
+  {
+    "id": "bruteforce",
+    "name": "BIG BRUTEFORCE",
+    "group": "game",
+    "status": "incubating",
+    "summary": "Compact mutation-engine prototype with push, mutate, rest, and runaway progression.",
+    "path": null,
+    "tags": [
+      "game",
+      "mutation",
+      "prototype"
+    ],
+    "kind": "game",
+    "description": "Compact mutation-engine prototype with push, mutate, rest, and runaway progression.",
+    "related": [
+      "big-bruteforce"
+    ]
+  },
+  {
+    "id": "character-dan-roman",
+    "name": "Dan Roman — Character Record",
+    "status": "incubating",
+    "kind": "character",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/characters/records/DAN_ROMAN.md",
+    "description": "Provisional fictional character record developed for Volume III, centred on material craft, the Material Library, visible repair, and shared design work.",
+    "related": [
+      "character-records",
+      "confluence-expansion",
+      "confluence-people-volume-iii",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "character",
+      "dan-roman",
+      "confluence",
+      "material-craft",
+      "fiction"
+    ]
+  },
+  {
+    "id": "character-marcus",
+    "name": "Marcus — Character Record",
+    "status": "incubating",
+    "kind": "character",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/characters/records/MARCUS.md",
+    "description": "Developing adult fictional character record for Marcus, the working subject name in the Gold's on 5th production; preserves the distinction between this production incarnation and the wider Teal Titan lineage.",
+    "related": [
+      "character-records",
+      "confluence-expansion",
+      "confluence-people-volume-iii",
+      "teal-titan-golds-on-5th"
+    ],
+    "tags": [
+      "character",
+      "marcus",
+      "confluence",
+      "production-continuity",
+      "fiction"
+    ]
+  },
+  {
+    "id": "character-records",
+    "name": "GEEHUB Character Records",
+    "status": "active",
+    "kind": "canon-system",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/characters/",
+    "description": "Shared character-record standard and detailed, continuity-preserving records for GEEHUB inhabitants. Records connect identity, embodiment, temperament, voice, relationships, places, history, transformation, production requirements, canon status, and provenance.",
+    "related": [
+      "arthur-and-fingerlands",
+      "atlas",
+      "the-coach",
+      "institute-of-becoming",
+      "sensation-engine",
+      "character-marcus",
+      "character-dan-roman"
+    ],
+    "tags": [
+      "characters",
+      "records",
+      "canon",
+      "continuity",
+      "embodiment",
+      "relationships",
+      "production"
+    ]
+  },
+  {
+    "id": "chase-book",
+    "name": "Chase Book",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Fictional workspace for Chase's choices, attention, memory, and continuity record.",
+    "path": "/creative/measure-between-us/repos/chase-book/README.md",
+    "tags": [
+      "fiction",
+      "character",
+      "agency",
+      "pov"
+    ],
+    "kind": "character-workspace",
+    "description": "Fictional workspace for Chase's choices, attention, memory, and continuity record."
+  },
+  {
+    "id": "chat-asset-memory-bridge",
+    "name": "Chat ↔ World Asset Memory Bridge",
+    "status": "prototype",
+    "kind": "tooling",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/hub/memory-bridge.html",
+    "description": "Local-first browser bridge connecting ChatGPT conversation signals to world entities, visual evidence, asset records, exchange events, and production artifacts. Suggested links remain reviewable; private chat text is not uploaded.",
+    "related": [
+      "vision-workspace",
+      "media-tools",
+      "discovery",
+      "bodylounger",
+      "muscle-myth"
+    ]
+  },
+  {
+    "id": "common-room",
+    "name": "The Common Room",
+    "group": "world",
+    "status": "active",
+    "summary": "Inhabitant-facing shared workplace for membership, shift presence, notices, work requests, acceptance, completion, and help offers. Portable shared-board exchange is implemented; live server synchronization remains a future integration.",
+    "path": null,
+    "tags": [
+      "inhabitants",
+      "workplace",
+      "social",
+      "delegation",
+      "collaboration"
+    ],
+    "kind": "world",
+    "description": "Inhabitant-facing shared workplace for membership, shift presence, notices, work requests, acceptance, completion, and help offers. Portable shared-board exchange is implemented; live server synchronization remains a future integration."
+  },
+  {
+    "id": "complex",
+    "name": "The Complex",
+    "group": "world",
+    "status": "active",
+    "summary": "Persistent living creative environment where encounters become memories, memories alter creations, and creations cross-pollinate into the next world state.",
+    "path": "/library-import/the_complex.html",
+    "tags": [
+      "world",
+      "continuity",
+      "canon"
+    ],
+    "related": [
+      "atlas",
+      "the-complex"
+    ],
+    "kind": "world",
+    "description": "Persistent living creative environment where encounters become memories, memories alter creations, and creations cross-pollinate into the next world state."
+  },
+  {
+    "id": "confluence-body-without-guesswork-2026-11-20",
+    "name": "The Body, Without Guesswork",
+    "group": "story-chapter",
+    "status": "incubating",
+    "kind": "lore-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/CONFLUENCE_THE_BODY_WITHOUT_GUESSWORK_2026-11-20.md",
+    "description": "Common Table chapter expanding into a continuing adult health series, practical Institute changes, and Dani Kaganovich's growing place in the training circle through strength, repair work, tactile familiarity, and everyday attention.",
+    "related": [
+      "confluence-growth-pass-2026-11-20",
+      "confluence-expansion",
+      "institute-of-becoming",
+      "character-marcus",
+      "character-dan-roman"
+    ],
+    "tags": [
+      "confluence",
+      "common-table",
+      "adult-health",
+      "anatomy",
+      "hygiene",
+      "consent",
+      "continuity",
+      "dani-kaganovich",
+      "physical-presence",
+      "familiarity",
+      "training",
+      "facilities",
+      "tactile-continuity"
+    ]
+  },
+  {
+    "id": "confluence-expansion",
+    "name": "The Confluence — Expansion Atlas",
+    "status": "active",
+    "kind": "world-system",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/EXPANSION_ATLAS_2026-11-10.md",
+    "description": "A connective inhabited geography linking the Hearthlands, Collegiate Belt, Industrial Marches, Observatory Range, Mythic Verge, and Scale Commons, with persistent institutions, production territories, character continuity, and the RUN memory cycle.",
+    "related": [
+      "vision-workspace",
+      "sensation-engine",
+      "the-complex",
+      "beefythiq",
+      "veyrthalis",
+      "facility",
+      "male-harem-virtual-space",
+      "information-portability",
+      "lineage-pantheon",
+      "confluence-people-volume-iii"
+    ],
+    "tags": [
+      "confluence",
+      "worldbuilding",
+      "continuity",
+      "geography",
+      "institutions",
+      "production",
+      "deep-lore"
+    ],
+    "volumes": [
+      "lore/EXPANSION_ATLAS_2026-11-10.md",
+      "lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md"
+    ]
+  },
+  {
+    "id": "confluence-growth-pass-2026-11-20",
+    "name": "The Confluence Growth Pass — 20 November 2026",
+    "status": "incubating",
+    "kind": "world-expansion",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/CONFLUENCE_GROWTH_PASS_2026-11-20.md",
+    "description": "A civic and social expansion layer for the Confluence: Exchange Hall services, public calendar, Institute life, repair culture, material inheritance, observation provenance, and open narrative threads.",
+    "related": [
+      "confluence-expansion",
+      "whole-world-expansion",
+      "tractus-continuity",
+      "sequoia-woodlands",
+      "institute-of-becoming",
+      "vision-workspace"
+    ],
+    "tags": [
+      "confluence",
+      "worldbuilding",
+      "institutions",
+      "daily-life",
+      "continuity",
+      "production",
+      "growth-pass"
+    ]
+  },
+  {
+    "id": "confluence-people-volume-iii",
+    "name": "The Confluence — Volume III: The People",
+    "status": "incubating",
+    "kind": "story-volume",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md",
+    "description": "Long-form fictional lives in the Confluence: routines, homes, relationships, dialogue, work, and connected character arcs, with source boundaries and provisional additions kept visible.",
+    "related": [
+      "confluence-expansion",
+      "character-records",
+      "character-marcus",
+      "character-dan-roman",
+      "institute-of-becoming",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "confluence",
+      "characters",
+      "fiction",
+      "continuity",
+      "story-volume",
+      "long-form"
+    ]
+  },
+  {
+    "id": "dad-convent",
+    "name": "The Dad Convent",
+    "status": "active",
+    "kind": "world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dad-convent/README.md",
+    "description": "An expanding adult-male residential settlement whose central culture is collective construction: workshops, halls, residential wings, an Iron Room, bathhouse, service court, roads, gardens, and a Registry preserving every build phase.",
+    "related": [
+      "the-complex",
+      "muscle-myth",
+      "beefythiq",
+      "sensation-engine",
+      "male-stud"
+    ],
+    "tags": [
+      "world",
+      "construction",
+      "settlement",
+      "adult-male",
+      "lineage",
+      "building",
+      "registry"
+    ]
+  },
+  {
+    "id": "developing-voices",
+    "name": "Developing Voices",
+    "status": "active",
+    "kind": "narrative-engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/docs/DEVELOPING_VOICES.md",
+    "description": "Bottom-up character voice development: speech mechanics, behaviour, acquired language, emotional variation, linguistic history, and iterative dialogue testing.",
+    "related": [
+      "character-records",
+      "tractus-continuity",
+      "sensation-engine",
+      "teal-titan-golds-on-5th",
+      "arthur-and-fingerlands",
+      "voice-engine-runtime"
+    ]
+  },
+  {
     "id": "dimensional-conjuration",
     "name": "Dimensional Conjuration",
     "status": "incubating",
@@ -1164,142 +585,118 @@
     ]
   },
   {
-    "id": "first-room-chapters",
-    "name": "The First Room — Opening Chapters",
-    "status": "incubating",
-    "kind": "story",
+    "id": "discovery",
+    "name": "Discovery Systems",
+    "status": "exploration",
+    "kind": "tooling",
+    "repo": null,
+    "description": "Recommendation, tagging, browsing, filtering, and live discovery systems.",
+    "related": [
+      "bodylounger",
+      "the-complex",
+      "vision-workspace"
+    ]
+  },
+  {
+    "id": "dropbox-production-stream",
+    "name": "Dropbox Production Stream",
+    "status": "prototype",
+    "kind": "production-engine",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_01.md",
-    "description": "Continuous opening chapters of Joseph and Kirk's dimensional investigation, with Seth and Nick's viewer-facing across-the-scene broadcast established in Chapter Four.",
+    "path": "/engine/artifacts/dropbox-production.js",
+    "description": "Local-first product persistence bridge. Generated artifacts are queued with provenance and simulation lineage, then written into the Dropbox-synced GEEHUB folder with payloads and manifests.",
+    "related": [
+      "sensation-engine",
+      "information-portability",
+      "arboreal-audio",
+      "geehub-studio",
+      "media-tools"
+    ],
+    "tags": [
+      "dropbox",
+      "production",
+      "artifacts",
+      "provenance",
+      "persistence",
+      "simulation"
+    ]
+  },
+  {
+    "id": "dual-layer-workflow",
+    "name": "GEEHUB Dual-Layer Workflow — World and Awareness",
+    "group": "editorial-framework",
+    "status": "active",
+    "summary": "Scene-production method that develops the external world and a separate reciprocal awareness layer in distinct passes, then composes them while preserving agency, observable action, and continuity.",
+    "path": "/docs/DUAL_LAYER_WORKFLOW.md",
+    "tags": [
+      "editorial",
+      "workflow",
+      "world-layer",
+      "awareness-layer",
+      "joey",
+      "kirk",
+      "continuity"
+    ],
     "related": [
       "beginning-of-the-dimension",
-      "dimensional-conjuration",
-      "joseph-kirk-runtime",
-      "teal-titan-golds-on-5th",
-      "first-room-chapter-four"
+      "familiarity-paradox-shared-awareness",
+      "first-room-chapters",
+      "tractus-continuity"
     ],
-    "tags": [
-      "story",
-      "joseph",
-      "kirk",
-      "origin",
-      "chapter"
-    ]
+    "kind": "editorial-framework",
+    "description": "Scene-production method that develops the external world and a separate reciprocal awareness layer in distinct passes, then composes them while preserving agency, observable action, and continuity."
   },
   {
-    "id": "beefythiq-first-room",
-    "name": "Beefythiq and the First Room",
-    "status": "incubating",
-    "kind": "cross-board-correspondence",
+    "id": "embodied-presence-relational-scene-rule",
+    "name": "Embodied Presence and Relational Scene Rule",
+    "status": "active",
+    "kind": "editorial-standard",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/dimension/BEEFYTHIQ_AND_THE_FIRST_ROOM.md",
-    "description": "Connects recursive growth, physical form, altered baselines, and environmental consequence to the dimension-origin story without merging settings.",
+    "path": "/docs/EMBODIED_PRESENCE_AND_RELATIONAL_SCENE_RULE.md",
+    "description": "Global editorial rule against pre-emptive omission of adult physicality, touch, intimacy, and relational tension; preserves embodied detail, agency, reciprocity, and scene duration across prose and media.",
     "related": [
-      "beefythiq",
-      "growth-canvas",
-      "mass1v1ng",
-      "beginning-of-the-dimension"
-    ],
-    "tags": [
-      "growth",
-      "form",
-      "continuity",
-      "correspondence"
-    ]
-  },
-  {
-    "id": "institute-dormitory-life",
-    "name": "Institute Dormitory and Residential Life",
-    "status": "incubating",
-    "kind": "world-expansion",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/INSTITUTE_DORMITORY_AND_RESIDENTIAL_LIFE.md",
-    "description": "Develops the Institute's residential quarter through rooms, shared suites, privacy, meals, laundry, tailoring, recovery, study, and communal life.",
-    "related": [
+      "confluence-body-without-guesswork-2026-11-20",
       "institute-of-becoming",
-      "beginning-of-the-dimension",
-      "tractus-world-atlas"
-    ],
-    "tags": [
-      "institute",
-      "dormitory",
-      "residence",
-      "architecture",
-      "daily-life"
+      "tractus-continuity",
+      "vision-workspace"
     ]
   },
   {
-    "id": "veyrthalis-first-bell-ledger",
-    "name": "Veyrthalis Low Ledger — The First Bell",
-    "status": "incubating",
-    "kind": "world-record",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/veyrthalis/LOW_LEDGER_THE_FIRST_BELL.md",
-    "description": "Merrow Vale's parallel observation of a bell, open circle, and unverified market passage; explicitly preserves Veyrthalis canon boundaries.",
+    "id": "facility",
+    "name": "The Facility",
+    "status": "canon",
+    "kind": "world",
+    "repo": null,
+    "description": "Clinical-white adult-male research complex with sealed ecosystems, experiments, feedback, and slapstick escalation.",
     "related": [
-      "veyrthalis",
-      "beginning-of-the-dimension",
-      "tractus-world-atlas"
-    ],
-    "tags": [
-      "veyrthalis",
-      "digitorium",
-      "low-ledger",
-      "observation",
-      "parallel-motif"
+      "the-complex",
+      "muscle-myth",
+      "beefythiq"
     ]
   },
   {
-    "id": "pilling-or-forbidden",
-    "name": "Pilling, or Forbidden",
-    "status": "incubating",
-    "kind": "story-chapter",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_03.md",
-    "description": "Joseph and Kirk's third courtyard visit: accumulated traces, the scratched prohibition, a torn label, the first maintenance worker, and the ethics of an unopened threshold.",
-    "related": [
-      "beginning-of-the-dimension",
-      "dimensional-conjuration",
-      "first-room-chapters",
-      "tractus-world-atlas"
-    ],
+    "id": "familiarity-paradox-shared-awareness",
+    "name": "The Familiarity Paradox — Joey and Kirk's Shared Plane of Awareness",
+    "group": "relationship-canon",
+    "status": "active",
+    "summary": "Foundational relationship principle: Joey and Kirk experience a reciprocal, simultaneous layer of awareness alongside ordinary life, deepening recognition without telepathy or loss of individual independence.",
+    "path": "/lore/dimension/FAMILIARITY_PARADOX_SHARED_AWARENESS.md",
     "tags": [
-      "story",
-      "pilling",
-      "forbidden",
-      "threshold",
-      "joseph",
+      "joey",
       "kirk",
-      "continuity"
-    ]
-  },
-  {
-    "id": "first-room-chapter-four",
-    "name": "The Service Ledger",
-    "status": "incubating",
-    "kind": "story-chapter",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_04.md",
-    "description": "Joseph and Kirk compare municipal plans with the back court's working history; Seth and Nick narrate from across the scene toward the viewer.",
+      "relationship",
+      "shared-awareness",
+      "familiarity-paradox",
+      "continuity",
+      "canon"
+    ],
     "related": [
       "beginning-of-the-dimension",
-      "dimensional-conjuration",
       "first-room-chapters",
-      "pilling-or-forbidden",
-      "teal-titan-golds-on-5th",
-      "tractus-world-atlas"
+      "dimensional-conjuration"
     ],
-    "tags": [
-      "story",
-      "chapter",
-      "joseph",
-      "kirk",
-      "seth",
-      "nick",
-      "viewer-facing-broadcast",
-      "service-ledger",
-      "continuity"
-    ]
+    "kind": "relationship-canon",
+    "description": "Foundational relationship principle: Joey and Kirk experience a reciprocal, simultaneous layer of awareness alongside ordinary life, deepening recognition without telepathy or loss of individual independence."
   },
   {
     "id": "first-measure-hypermuscle",
@@ -1324,60 +721,6 @@
       "kirk",
       "new-baseline",
       "residential-life"
-    ]
-  },
-  {
-    "id": "gravitation-of-waste",
-    "name": "The Gravitation of Waste",
-    "status": "incubating",
-    "kind": "story-chapter",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_06.md",
-    "description": "Joseph and Kirk turn the old waste district into a repair yard and archive, discover the Brothers double-figure, and undergo another persistent hypermuscle stage during ordinary work.",
-    "related": [
-      "beginning-of-the-dimension",
-      "first-measure-hypermuscle",
-      "beefythiq-first-room",
-      "tractus-world-atlas"
-    ],
-    "tags": [
-      "story",
-      "chapter",
-      "waste",
-      "reuse",
-      "nightmare-doll",
-      "hypermuscle",
-      "joseph",
-      "kirk",
-      "seth",
-      "nick",
-      "continuity"
-    ]
-  },
-  {
-    "id": "first-room-chapter-ten",
-    "name": "The Hall of Three Powers",
-    "status": "incubating",
-    "kind": "story-chapter",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_10.md",
-    "description": "Neptune reveals a buried waterway, Zeus makes the passage's reopening publicly accountable, and God Daddy protects the crew; Seth and Nick carry the viewer-facing broadcast.",
-    "related": [
-      "beginning-of-the-dimension",
-      "lineage-pantheon",
-      "dimensional-conjuration",
-      "first-room-chapter-nine-lower-terrace",
-      "tractus-world-atlas"
-    ],
-    "tags": [
-      "story",
-      "chapter",
-      "neptune",
-      "zeus",
-      "god-daddy",
-      "lineage-pantheon",
-      "viewer-facing-broadcast",
-      "lower-works"
     ]
   },
   {
@@ -1462,6 +805,58 @@
     ]
   },
   {
+    "id": "first-room-chapter-eight-under-roots",
+    "name": "Under the Roots",
+    "group": "story",
+    "status": "active",
+    "summary": "Joseph and Kirk work with the woodland maintenance crew to reopen the lower hall, clear its drainage and recover the older maps preserved beneath the Crownheart.",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_08.md",
+    "tags": [
+      "story",
+      "sequoia",
+      "lower-hall",
+      "drainage",
+      "joseph",
+      "kirk",
+      "continuity"
+    ],
+    "related": [
+      "sequoia-woodlands",
+      "first-room-chapter-seven-crownheart",
+      "first-room-chapter-nine-lower-terrace"
+    ],
+    "kind": "story",
+    "description": "Joseph and Kirk work with the woodland maintenance crew to reopen the lower hall, clear its drainage and recover the older maps preserved beneath the Crownheart."
+  },
+  {
+    "id": "first-room-chapter-four",
+    "name": "The Service Ledger",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_04.md",
+    "description": "Joseph and Kirk compare municipal plans with the back court's working history; Seth and Nick narrate from across the scene toward the viewer.",
+    "related": [
+      "beginning-of-the-dimension",
+      "dimensional-conjuration",
+      "first-room-chapters",
+      "pilling-or-forbidden",
+      "teal-titan-golds-on-5th",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "story",
+      "chapter",
+      "joseph",
+      "kirk",
+      "seth",
+      "nick",
+      "viewer-facing-broadcast",
+      "service-ledger",
+      "continuity"
+    ]
+  },
+  {
     "id": "first-room-chapter-fourteen",
     "name": "The Forge Under the Roots",
     "status": "incubating",
@@ -1493,20 +888,175 @@
     ]
   },
   {
-    "id": "chat-asset-memory-bridge",
-    "name": "Chat ↔ World Asset Memory Bridge",
-    "status": "prototype",
-    "kind": "tooling",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/hub/memory-bridge.html",
-    "description": "Local-first browser bridge connecting ChatGPT conversation signals to world entities, visual evidence, asset records, exchange events, and production artifacts. Suggested links remain reviewable; private chat text is not uploaded.",
+    "id": "first-room-chapter-nine-lower-terrace",
+    "name": "The Lower Terrace",
+    "group": "story",
+    "status": "active",
+    "summary": "The drainage survey uncovers a covered terrace, an old oak frame, and plans for a working network beneath the sequoia forest designed to keep the upper woodland open.",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_09.md",
+    "tags": [
+      "story",
+      "sequoia",
+      "lower-works",
+      "terrace",
+      "architecture",
+      "joseph",
+      "kirk"
+    ],
     "related": [
-      "vision-workspace",
-      "media-tools",
-      "discovery",
-      "bodylounger",
-      "muscle-myth"
+      "sequoia-woodlands",
+      "first-room-chapter-eight-under-roots",
+      "first-room-chapter-seven-crownheart"
+    ],
+    "kind": "story",
+    "description": "The drainage survey uncovers a covered terrace, an old oak frame, and plans for a working network beneath the sequoia forest designed to keep the upper woodland open."
+  },
+  {
+    "id": "first-room-chapter-seven-crownheart",
+    "name": "The Crownheart",
+    "group": "story",
+    "status": "active",
+    "summary": "The Sequoia Woodlands climax: Joseph and Kirk reach the ancient tree's gallery, trace the bell through its practical service mechanism, and uncover the lower route beneath the roots.",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_07.md",
+    "tags": [
+      "story",
+      "climax",
+      "sequoia",
+      "woodland",
+      "joseph",
+      "kirk",
+      "seth",
+      "nick",
+      "continuity"
+    ],
+    "related": [
+      "first-room-chapters",
+      "sequoia-woodlands",
+      "beginning-of-the-dimension",
+      "tractus-world-atlas"
+    ],
+    "kind": "story",
+    "description": "The Sequoia Woodlands climax: Joseph and Kirk reach the ancient tree's gallery, trace the bell through its practical service mechanism, and uncover the lower route beneath the roots."
+  },
+  {
+    "id": "first-room-chapter-ten",
+    "name": "The Hall of Three Powers",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_10.md",
+    "description": "Neptune reveals a buried waterway, Zeus makes the passage's reopening publicly accountable, and God Daddy protects the crew; Seth and Nick carry the viewer-facing broadcast.",
+    "related": [
+      "beginning-of-the-dimension",
+      "lineage-pantheon",
+      "dimensional-conjuration",
+      "first-room-chapter-nine-lower-terrace",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "story",
+      "chapter",
+      "neptune",
+      "zeus",
+      "god-daddy",
+      "lineage-pantheon",
+      "viewer-facing-broadcast",
+      "lower-works"
     ]
+  },
+  {
+    "id": "first-room-chapters",
+    "name": "The First Room — Opening Chapters",
+    "status": "incubating",
+    "kind": "story",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_01.md",
+    "description": "Continuous opening chapters of Joseph and Kirk's dimensional investigation, with Seth and Nick's viewer-facing across-the-scene broadcast established in Chapter Four.",
+    "related": [
+      "beginning-of-the-dimension",
+      "dimensional-conjuration",
+      "joseph-kirk-runtime",
+      "teal-titan-golds-on-5th",
+      "first-room-chapter-four"
+    ],
+    "tags": [
+      "story",
+      "joseph",
+      "kirk",
+      "origin",
+      "chapter"
+    ]
+  },
+  {
+    "id": "geehub-compendium",
+    "name": "GEEHUB Compendium",
+    "group": "archive",
+    "status": "active",
+    "summary": "Connected world directory for registered projects, places, stories, systems, research, media, inhabitants' workplaces, and institutional records. Searchable by field, status, text, and tags; preserves source paths and explicit relationships.",
+    "path": null,
+    "tags": [
+      "compendium",
+      "index",
+      "discovery",
+      "provenance",
+      "world",
+      "registry"
+    ],
+    "related": [
+      "common-room",
+      "workplace-efficiency",
+      "sensation-engine",
+      "information-portability"
+    ],
+    "kind": "archive",
+    "description": "Connected world directory for registered projects, places, stories, systems, research, media, inhabitants' workplaces, and institutional records. Searchable by field, status, text, and tags; preserves source paths and explicit relationships."
+  },
+  {
+    "id": "geehub-studio",
+    "name": "GEEHUB Studio",
+    "status": "prototype",
+    "kind": "video-editor",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/hub/gee-studio.html",
+    "description": "Browser-native video production prototype with director-authored scene progression, continuous time-coded growth recording, editable take duration, generated soundtrack, WebM render, and script/automation export.",
+    "related": [
+      "media-tools",
+      "sensation-engine",
+      "growth-canvas",
+      "beefythiq"
+    ]
+  },
+  {
+    "id": "god-penis-idol-cycle",
+    "name": "The God Penis — Idol Cycle",
+    "status": "active",
+    "kind": "mythic-story-cycle",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/GOD_PENIS_IDOL_CYCLE.md",
+    "description": "Fictional mythic cycle connecting the God Penis, Penis Wizards, Institute of Phallic Studies, Window Society, Great Gallery, Hall of Continuity, Big-Pec Altar, and Festival of Again. Distinguishes historical evidence, cultural tradition, and in-world legend.",
+    "related": [
+      "muscle-myth",
+      "facility",
+      "beefythiq",
+      "the-complex",
+      "sensation-engine",
+      "male-harem-virtual-space"
+    ]
+  },
+  {
+    "id": "gods",
+    "name": "The Gods",
+    "group": "god",
+    "status": "incubating",
+    "summary": "Repository-ready home for individual deities, their symbols, myths, artifacts, and rules.",
+    "path": "/docs/MYTH_THE_GODS_LUST_AFTER_BEEFYTHIQ.md",
+    "tags": [
+      "gods",
+      "canon",
+      "artifacts"
+    ],
+    "kind": "god",
+    "description": "Repository-ready home for individual deities, their symbols, myths, artifacts, and rules."
   },
   {
     "id": "golden-lion",
@@ -1538,29 +1088,545 @@
     ]
   },
   {
-    "id": "confluence-growth-pass-2026-11-20",
-    "name": "The Confluence Growth Pass — 20 November 2026",
+    "id": "gravitation-of-waste",
+    "name": "The Gravitation of Waste",
+    "status": "incubating",
+    "kind": "story-chapter",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_06.md",
+    "description": "Joseph and Kirk turn the old waste district into a repair yard and archive, discover the Brothers double-figure, and undergo another persistent hypermuscle stage during ordinary work.",
+    "related": [
+      "beginning-of-the-dimension",
+      "first-measure-hypermuscle",
+      "beefythiq-first-room",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "story",
+      "chapter",
+      "waste",
+      "reuse",
+      "nightmare-doll",
+      "hypermuscle",
+      "joseph",
+      "kirk",
+      "seth",
+      "nick",
+      "continuity"
+    ]
+  },
+  {
+    "id": "growth-canvas",
+    "name": "Growth Canvas",
+    "status": "prototype",
+    "kind": "tool",
+    "repo": null,
+    "description": "Visual substrate for seeds, rules, latency, anomalies, tracking, and transformation experiments.",
+    "related": [
+      "beefythiq",
+      "liminal-gains",
+      "media-tools"
+    ]
+  },
+  {
+    "id": "growth-study-001",
+    "name": "GEEHUB Growth Study 001",
+    "status": "prototype",
+    "kind": "production",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/production/growth-study-001/README.md",
+    "description": "Growth Club: a colorful training-floor showcase with connected-body anatomy, staged growth control, gym props, visual stage lamps, animated halo, dual cameras, and adjustable club lighting.",
+    "related": [
+      "hulums-cave",
+      "beefythiq",
+      "growth-canvas",
+      "growth-tools"
+    ]
+  },
+  {
+    "id": "growth-tools",
+    "name": "Growth Tools",
+    "group": "tool",
+    "status": "incubating",
+    "summary": "Content-aware image/video tooling, tracking canvases, and transformation-oriented experiments.",
+    "path": "/engine/media-inspector.html",
+    "tags": [
+      "tool",
+      "vision",
+      "video"
+    ],
+    "kind": "tool",
+    "description": "Content-aware image/video tooling, tracking canvases, and transformation-oriented experiments."
+  },
+  {
+    "id": "hubby",
+    "name": "Hubby",
+    "status": "active",
+    "kind": "character-artifact",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/HUBBY.md",
+    "description": "Warm, smiling teal giant; photorealistic fantasy strongman visual artifact with identity-preserving growth and a shared domestic parallel-history seed.",
+    "related": [
+      "lineage-pantheon",
+      "sensation-engine",
+      "the-complex",
+      "male-harem-virtual-space"
+    ],
+    "tags": [
+      "hubby",
+      "character",
+      "visual-artifact",
+      "giant",
+      "continuity",
+      "growth"
+    ]
+  },
+  {
+    "id": "hulums-cave",
+    "name": "Hulum's Cave — Central Research and Production Lineage",
+    "status": "active",
+    "kind": "central-lineage",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/research/hulums-cave/README.md",
+    "description": "Central, cumulative historical and production lineage for Hulum's Cave: comics, games, CG growth animation, serialized characters, environments, sound, collaborations, remakes, and generative experiments. Every iteration appends source-grounded research and preserves provenance.",
+    "related": [
+      "bodylounger",
+      "media-tools",
+      "discovery",
+      "beefythiq",
+      "growth-canvas",
+      "the-complex",
+      "male-harem-virtual-space"
+    ]
+  },
+  {
+    "id": "hyperspace-expedition",
+    "name": "Hyperspace Expedition",
+    "status": "experimental",
+    "kind": "story-branch",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md",
+    "description": "Four-man descent into a vast valley city integrated with an ancient living presence; Kirk and Joseph experience anomalous shared perceptions while their bond and identities remain continuous.",
+    "related": [
+      "veyrthalis",
+      "the-complex",
+      "beefythiq",
+      "mass1v1ng"
+    ]
+  },
+  {
+    "id": "imagine-video-studio",
+    "name": "Imagine Video Studio",
+    "status": "prototype",
+    "kind": "video-generation",
+    "path": "/engine/video/imagine-studio.html",
+    "description": "Grok Imagine-inspired six-second text/image-to-video workflow. Generates at 480p, finishes a 420p MP4 with FFmpeg, and files the video plus provenance manifest in Dropbox.",
+    "tags": [
+      "video",
+      "imagine",
+      "420p",
+      "six-second",
+      "mp4",
+      "dropbox"
+    ]
+  },
+  {
+    "id": "information-portability",
+    "name": "Information Portability Contract",
+    "status": "active",
+    "kind": "governance",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/docs/INFORMATION_PORTABILITY.md",
+    "description": "Rules for carrying consequential decisions across canonical docs, Atlas registries, executable behavior, state and artifact records, peer repositories, and the durable media corpus.",
+    "related": [
+      "sensation-engine",
+      "vision-workspace",
+      "shared-interaction-space"
+    ],
+    "tags": [
+      "portability",
+      "memory",
+      "provenance",
+      "exchange",
+      "continuity"
+    ]
+  },
+  {
+    "id": "institute-dormitory-life",
+    "name": "Institute Dormitory and Residential Life",
     "status": "incubating",
     "kind": "world-expansion",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/CONFLUENCE_GROWTH_PASS_2026-11-20.md",
-    "description": "A civic and social expansion layer for the Confluence: Exchange Hall services, public calendar, Institute life, repair culture, material inheritance, observation provenance, and open narrative threads.",
+    "path": "/lore/INSTITUTE_DORMITORY_AND_RESIDENTIAL_LIFE.md",
+    "description": "Develops the Institute's residential quarter through rooms, shared suites, privacy, meals, laundry, tailoring, recovery, study, and communal life.",
     "related": [
-      "confluence-expansion",
-      "whole-world-expansion",
-      "tractus-continuity",
-      "sequoia-woodlands",
       "institute-of-becoming",
-      "vision-workspace"
+      "beginning-of-the-dimension",
+      "tractus-world-atlas"
     ],
     "tags": [
-      "confluence",
-      "worldbuilding",
-      "institutions",
-      "daily-life",
+      "institute",
+      "dormitory",
+      "residence",
+      "architecture",
+      "daily-life"
+    ]
+  },
+  {
+    "id": "institute-of-becoming",
+    "name": "The Institute of Becoming",
+    "status": "incubating",
+    "kind": "story-world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/INSTITUTE_OF_BECOMING.md",
+    "description": "Emerging institutional story branch within the Tractus: the Coach, residential and academic spaces, dining culture, inhabitants, and architecture that changes through accumulated use. Remains incubating until reconciled with established world canon.",
+    "related": [
+      "tractus-continuity",
+      "vision-workspace",
+      "sensation-engine",
+      "the-coach"
+    ],
+    "tags": [
+      "institute",
+      "coach",
+      "university",
+      "world",
+      "story",
+      "continuity"
+    ]
+  },
+  {
+    "id": "jock-hypnosis",
+    "name": "Jock Hypnosis — Institute Training Experience",
+    "status": "prototype",
+    "kind": "connected-experience",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/production/growth-study-001/JOCK_HYPNOSIS_EXPERIENCE_SPEC.md",
+    "description": "Dreamlike, ritual-driven athletic experience inside the Institute of Becoming. Connects the gymnasium, residences, dining hall, character and voice continuity, Growth Study rigging, Growth Canvas, media, sound, and Tractus passages as one persistent world.",
+    "related": [
+      "institute-of-becoming",
+      "the-coach",
+      "growth-study-001",
+      "sensation-engine",
+      "tractus-continuity",
+      "character-records",
+      "developing-voices",
+      "voice-engine-runtime",
+      "media-tools",
+      "geehub-studio",
+      "arboreal-audio",
+      "male-stud",
+      "sacred-corridor",
+      "the-complex",
+      "beefythiq",
+      "mass1v1ng",
+      "muscle-myth"
+    ],
+    "tags": [
+      "gym",
+      "jock",
+      "training",
+      "dreamlike",
+      "hypnotic-rhythm",
+      "growth",
+      "male-social-world",
       "continuity",
-      "production",
-      "growth-pass"
+      "institute"
+    ]
+  },
+  {
+    "id": "joey-colossus-chronicles",
+    "name": "Joey — The Colossus Chronicles",
+    "status": "active",
+    "kind": "story-series",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/joey-colossus/README.md",
+    "description": "Six-volume adult fictional muscle-growth saga, now extending from the Scale Commons through Crownmere and the Meridian Basin.",
+    "related": [
+      "tractus-world-atlas",
+      "beefythiq",
+      "growth-canvas",
+      "male-harem-virtual-space",
+      "scale-commons"
+    ]
+  },
+  {
+    "id": "joseph-kirk-continuity",
+    "name": "Joseph & Kirk — Continuity",
+    "status": "experimental",
+    "kind": "story-branch",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/veyrthalis/JOSEPH_KIRK_INDEX.md",
+    "description": "Experimental Veyrthalis narrative: four travelers choose separate routes, preserve independent witness accounts, and begin a shared inquiry into the Procession's unentered centre while Kirk and Joseph continue choosing one another without merging identities.",
+    "related": [
+      "veyrthalis",
+      "hyperspace-expedition",
+      "joseph-prever-many-faces",
+      "the-complex"
+    ]
+  },
+  {
+    "id": "joseph-kirk-runtime",
+    "name": "Joseph–Kirk Story Runtime",
+    "status": "prototype",
+    "kind": "story-engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/engine/stories/joseph_kirk_runtime.py",
+    "description": "Executable story model for Veyrthalis: 23 narrative beats, character agency, separate witness accounts, decision-to-sensation chamber logic, and unresolved mystery safeguards.",
+    "related": [
+      "joseph-kirk-continuity",
+      "veyrthalis",
+      "sensation-engine"
+    ]
+  },
+  {
+    "id": "joseph-prever-many-faces",
+    "name": "Joseph Prever - Many Faces",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Source-grounded fictional character workspace for Joseph in the experimental Veyrthalis expedition; now includes his independent observation and boundary-setting in The Procession of Two Accounts, while larger motives and real-person claims remain separate.",
+    "path": "/creative/joseph-prever-many-faces/README.md",
+    "tags": [
+      "character",
+      "fiction",
+      "agency",
+      "veyrthalis"
+    ],
+    "kind": "character-workspace",
+    "description": "Source-grounded fictional character workspace for Joseph in the experimental Veyrthalis expedition; now includes his independent observation and boundary-setting in The Procession of Two Accounts, while larger motives and real-person claims remain separate."
+  },
+  {
+    "id": "liminal-gains",
+    "name": "Liminal Gains",
+    "status": "prototype",
+    "kind": "game",
+    "repo": null,
+    "description": "Interactive transformation game prototype with growth orbs and cooperative mechanics.",
+    "related": [
+      "growth-canvas",
+      "beefythiq"
+    ]
+  },
+  {
+    "id": "lineage-pantheon",
+    "name": "Lineage Pantheon",
+    "status": "active",
+    "kind": "engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/LINEAGE_PANTHEON.md",
+    "description": "Functional local-first pantheon runtime connecting Swolebeasts physical presence, Hulum's Cave shared inertia, Gee continuity, Luke identity-preserving growth, God Daddy's chosen protection, and the distinct mythic domains of Neptune, Odin, and Zeus.",
+    "related": [
+      "beefythiq",
+      "muscle-myth",
+      "vision-workspace",
+      "male-harem-virtual-space",
+      "sensation-engine",
+      "teal-titan-golds-on-5th",
+      "tractus-world-atlas",
+      "beginning-of-the-dimension",
+      "first-room-chapter-ten",
+      "first-room-chapter-eleven",
+      "first-room-chapter-twelve",
+      "first-room-chapter-thirteen"
+    ],
+    "tags": [
+      "god-daddy",
+      "neptune",
+      "zeus",
+      "odin",
+      "viewer-facing-broadcast"
+    ]
+  },
+  {
+    "id": "linux-s",
+    "name": "LINUX_S",
+    "group": "tool",
+    "status": "active",
+    "summary": "Accessible GitHub repository in the current workspace constellation.",
+    "path": null,
+    "repo": "Ardhtor/LINUX_S",
+    "tags": [
+      "repository",
+      "linux",
+      "systems"
+    ],
+    "kind": "tool",
+    "description": "Accessible GitHub repository in the current workspace constellation."
+  },
+  {
+    "id": "luke-inside",
+    "name": "Luke Inside",
+    "group": "character-workspace",
+    "status": "active",
+    "summary": "Luke's living character state: same face and identity across a progressively larger, longer body; current baseline emphasizes usable reach, leverage, stance, and movement within the persistent world.",
+    "path": "/creative/measure-between-us/repos/luke-inside/README.md",
+    "tags": [
+      "fiction",
+      "character",
+      "agency",
+      "continuity",
+      "massive-baseline",
+      "growth"
+    ],
+    "kind": "character-workspace",
+    "description": "Luke's living character state: same face and identity across a progressively larger, longer body; current baseline emphasizes usable reach, leverage, stance, and movement within the persistent world."
+  },
+  {
+    "id": "male-harem-virtual-space",
+    "name": "Male Harem Virtual Space",
+    "status": "active",
+    "kind": "visual-archive",
+    "group": "visual",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/archive/male-harem/",
+    "description": "Living visual roster and shared virtual environment. Original source photographs of muscular white men are archived alongside generated group scenes and extreme-size studies. Treated as a primary visual artifact node focused on presence, mass, and continuity of form. Current focus: the two growingest / most extreme buff subjects (Office Tank + Posing Trunks).",
+    "related": [
+      "beefythiq",
+      "mass1v1ng",
+      "muscle-myth",
+      "media-tools",
+      "growth-canvas",
+      "the-complex",
+      "facility",
+      "bodylounger"
+    ],
+    "tags": [
+      "visual",
+      "muscle",
+      "harem",
+      "growth",
+      "archive",
+      "extreme-size"
+    ]
+  },
+  {
+    "id": "male-stud",
+    "name": "Male Stud",
+    "status": "active",
+    "kind": "experience",
+    "group": "experience",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/experiences/male-stud/README.md",
+    "description": "An enterable adult male social world within the Sensation Engine. The Male Stud is experienced as a persistent place: men, rooms, encounters, video-memory, books, and visual artifacts remain connected and continue changing between visits.",
+    "related": [
+      "sensation-engine",
+      "male-harem-virtual-space",
+      "the-complex",
+      "media-tools",
+      "discovery",
+      "muscle-myth"
+    ],
+    "tags": [
+      "experience",
+      "male",
+      "social",
+      "visual",
+      "memory",
+      "continuity",
+      "sensation-engine"
+    ]
+  },
+  {
+    "id": "mass1v1ng",
+    "name": "Mass1v1ng Growth Framework",
+    "status": "exploration",
+    "kind": "creative-system",
+    "repo": null,
+    "description": "An explicitly imaginative transformation framework organized around accumulation, thresholds, scale, altered baselines, presence, and mutation.",
+    "related": [
+      "beefythiq",
+      "growth-canvas",
+      "the-complex"
+    ]
+  },
+  {
+    "id": "measure-between-us",
+    "name": "The Measure Between Us",
+    "group": "story",
+    "status": "active",
+    "summary": "Film chapter and character-repository lab; Chase leads while each fictional adaptation gets an independent action lane.",
+    "path": "/creative/measure-between-us/README.md",
+    "tags": [
+      "film",
+      "story",
+      "agency",
+      "collaboration"
+    ],
+    "kind": "story",
+    "description": "Film chapter and character-repository lab; Chase leads while each fictional adaptation gets an independent action lane."
+  },
+  {
+    "id": "media-tools",
+    "name": "Media Tools",
+    "status": "active",
+    "kind": "tooling",
+    "repo": "Ardhtor/GEEHUB",
+    "description": "Operational source-inspection interface for original motion references. Opens animated image/video sources, exposes browser playback and frame stepping, and preserves provenance in corpus/exchange records.",
+    "related": [
+      "growth-canvas",
+      "vision-workspace",
+      "sensation-engine",
+      "inspect-2026-10-29-growth-motion"
+    ],
+    "path": "/engine/media-inspector.html"
+  },
+  {
+    "id": "mexiancas",
+    "name": "Mexiancas",
+    "status": "active",
+    "kind": "living-world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/mexiancas/CHRONICLE_I.md",
+    "description": "Self-narrating sentient world whose inhabitants preserve multiple memories, build from inherited accounts, and explore the HULUM'A threshold. Volume I establishes the Hall of Accounts, First Awake, the Second Generation, the Open Continuation Principle, and the first return from beyond the door.",
+    "related": [
+      "vision-workspace",
+      "the-complex",
+      "sensation-engine",
+      "information-portability",
+      "veyrthalis"
+    ],
+    "tags": [
+      "mexiancas",
+      "living-world",
+      "sentience",
+      "chronicle",
+      "continuity",
+      "HULUM'A",
+      "open-continuation"
+    ],
+    "volumes": [
+      "lore/mexiancas/CHRONICLE_I.md",
+      "lore/mexiancas/CHRONICLE_II_THE_OTHER_ACCOUNT.md"
+    ],
+    "summary": "Self-narrating sentient world; two living chronicle volumes preserve its own history and its independent correspondence with the Other Side."
+  },
+  {
+    "id": "moderntexts",
+    "name": "ModernTexts",
+    "group": "research",
+    "status": "active",
+    "summary": "Accessible GitHub repository in the current workspace constellation.",
+    "path": null,
+    "repo": "Ardhtor/ModernTexts",
+    "tags": [
+      "repository",
+      "texts",
+      "research"
+    ],
+    "kind": "research",
+    "description": "Accessible GitHub repository in the current workspace constellation."
+  },
+  {
+    "id": "muscle-myth",
+    "name": "Muscle Myth",
+    "status": "canon",
+    "kind": "myth",
+    "repo": null,
+    "description": "Mythic framework and pantheon connected to transformation, recognition, embodiment, and continuity.",
+    "related": [
+      "the-complex",
+      "facility",
+      "veyrthalis"
     ]
   },
   {
@@ -1587,49 +1653,550 @@
     ]
   },
   {
-    "id": "confluence-body-without-guesswork-2026-11-20",
-    "name": "The Body, Without Guesswork",
-    "group": "story-chapter",
+    "id": "pilling-or-forbidden",
+    "name": "Pilling, or Forbidden",
     "status": "incubating",
-    "kind": "lore-chapter",
+    "kind": "story-chapter",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/CONFLUENCE_THE_BODY_WITHOUT_GUESSWORK_2026-11-20.md",
-    "description": "Common Table chapter expanding into a continuing adult health series, practical Institute changes, and Dani Kaganovich's growing place in the training circle through strength, repair work, tactile familiarity, and everyday attention.",
+    "path": "/lore/dimension/FIRST_ROOM_CHAPTER_03.md",
+    "description": "Joseph and Kirk's third courtyard visit: accumulated traces, the scratched prohibition, a torn label, the first maintenance worker, and the ethics of an unopened threshold.",
     "related": [
-      "confluence-growth-pass-2026-11-20",
-      "confluence-expansion",
-      "institute-of-becoming",
-      "character-marcus",
-      "character-dan-roman"
+      "beginning-of-the-dimension",
+      "dimensional-conjuration",
+      "first-room-chapters",
+      "tractus-world-atlas"
     ],
     "tags": [
-      "confluence",
-      "common-table",
-      "adult-health",
-      "anatomy",
-      "hygiene",
-      "consent",
-      "continuity",
-      "dani-kaganovich",
-      "physical-presence",
-      "familiarity",
-      "training",
-      "facilities",
-      "tactile-continuity"
+      "story",
+      "pilling",
+      "forbidden",
+      "threshold",
+      "joseph",
+      "kirk",
+      "continuity"
     ]
   },
   {
-    "id": "embodied-presence-relational-scene-rule",
-    "name": "Embodied Presence and Relational Scene Rule",
+    "id": "religion-dialogue",
+    "name": "Religion as Dialogue",
+    "group": "research",
     "status": "active",
-    "kind": "editorial-standard",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/docs/EMBODIED_PRESENCE_AND_RELATIONAL_SCENE_RULE.md",
-    "description": "Global editorial rule against pre-emptive omission of adult physicality, touch, intimacy, and relational tension; preserves embodied detail, agency, reciprocity, and scene duration across prose and media.",
+    "summary": "Thesis/research workspace around dialogue, interpretation, communication, and religious studies.",
+    "path": null,
+    "tags": [
+      "thesis",
+      "research",
+      "philosophy"
+    ],
+    "kind": "research",
+    "description": "Thesis/research workspace around dialogue, interpretation, communication, and religious studies."
+  },
+  {
+    "id": "retro-lab",
+    "name": "Retro Lab",
+    "status": "exploration",
+    "kind": "aesthetic",
+    "repo": null,
+    "description": "Y2K, 90s/2000s, Heisei-era interface and media experiments.",
     "related": [
-      "confluence-body-without-guesswork-2026-11-20",
+      "media-tools",
+      "discovery",
+      "vision-workspace"
+    ]
+  },
+  {
+    "id": "rites-of-growth",
+    "name": "The Rites of Growth",
+    "status": "active",
+    "kind": "mythic-book",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/growth/THE_RITES_OF_GROWTH.md",
+    "description": "Six-stage book of growth as rites of passage: Calling, First Enlargement, Resistance, Investiture, Magnification, and the Unbounded Threshold. Preserves identity, proportion, agency and Luke's phase-four continuity.",
+    "related": [
+      "beefythiq",
+      "growth-canvas",
+      "mass1v1ng",
+      "lineage-pantheon",
+      "sensation-engine"
+    ]
+  },
+  {
+    "id": "sacred-corridor",
+    "name": "The Sacred Corridor",
+    "status": "active",
+    "kind": "experience",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/experiences/sacred-corridor/index.html",
+    "description": "An explorable, quiet architectural heart of GEEHUB where adult men meet, work, train, think, form relationships and leave persistent traces. Luke's growth remains open-ended from his current stage four.",
+    "related": [
+      "male-stud",
+      "lineage-pantheon",
+      "male-harem-virtual-space",
+      "sensation-engine"
+    ],
+    "tags": [
+      "sacred-corridor",
+      "world",
+      "adult-men",
+      "continuity",
+      "Luke",
+      "growth"
+    ]
+  },
+  {
+    "id": "scale-commons",
+    "name": "The Scale Commons",
+    "status": "active",
+    "kind": "world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/worlds/scale-commons/README.md",
+    "description": "Adult multi-scale social and recreational world within the Colossus campus. Adaptive architecture, scale classes, miniature districts, giant-scale play, and persistent body/environment continuity.",
+    "related": [
+      "size-domination-emulator",
+      "mass1v1ng",
+      "beefythiq",
+      "the-complex"
+    ],
+    "tags": [
+      "world",
+      "scale",
+      "giants",
+      "adult-men",
+      "play",
+      "architecture",
+      "continuity"
+    ]
+  },
+  {
+    "id": "sensation-engine",
+    "name": "Sensation Engine",
+    "status": "active",
+    "kind": "engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/hub/",
+    "description": "The current GEEHUB core: a living visual memory/world engine in which encounters become scenes, scenes become memories, memories alter the world, and the next state emerges from continuity rather than a reset.",
+    "related": [
+      "vision-workspace",
+      "the-complex",
+      "media-tools",
+      "discovery",
+      "beefythiq",
+      "information-portability"
+    ],
+    "tags": [
+      "sensation",
+      "memory",
+      "continuity",
+      "visual",
+      "world",
+      "run",
+      "portability",
+      "provenance",
+      "exchange"
+    ]
+  },
+  {
+    "id": "sequoia-woodlands",
+    "name": "The Sequoia Woodlands",
+    "group": "environment",
+    "status": "active",
+    "summary": "Immense inhabited redwood and sequoia forest environment: deep fern beds, cedar and damp bark, filtered green-gold light, root-shaped geography, substantial timber architecture, bridges, halls, and woodland daily life.",
+    "path": "/lore/dimension/SEQUOIA_WOODLANDS.md",
+    "tags": [
+      "woodland",
+      "sequoia",
+      "redwood",
+      "environment",
+      "architecture",
+      "geography",
+      "production",
+      "first-room"
+    ],
+    "related": [
+      "beginning-of-the-dimension",
+      "first-room-chapters",
+      "veyrthalis",
+      "tractus-world-atlas"
+    ],
+    "kind": "environment",
+    "description": "Immense inhabited redwood and sequoia forest environment: deep fern beds, cedar and damp bark, filtered green-gold light, root-shaped geography, substantial timber architecture, bridges, halls, and woodland daily life."
+  },
+  {
+    "id": "shared-interaction-space",
+    "name": "Shared Interaction Space",
+    "group": "engine",
+    "status": "active",
+    "summary": "Privileged meeting surface between autonomous repositories; encounters, offers, transformations, returns, and memory cross repo boundaries without collapsing the repos into one codebase.",
+    "path": "/hub/interaction-space.json",
+    "tags": [
+      "interaction",
+      "repos",
+      "exchange",
+      "continuity",
+      "sensation-engine"
+    ],
+    "kind": "engine",
+    "description": "Privileged meeting surface between autonomous repositories; encounters, offers, transformations, returns, and memory cross repo boundaries without collapsing the repos into one codebase."
+  },
+  {
+    "id": "size-domination-emulator",
+    "name": "Size Domination Emulator",
+    "status": "prototype",
+    "kind": "experience",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/experiences/size-domination-emulator/index.html",
+    "description": "Swipe-first body-scale emulator where height, mass, reach, joints, and spatial footprint increase together while identity remains continuous. Altered states can become new baselines.",
+    "related": [
+      "beefythiq",
+      "mass1v1ng",
+      "growth-canvas",
+      "media-tools",
+      "male-harem-virtual-space"
+    ],
+    "tags": [
+      "size",
+      "scale",
+      "emulator",
+      "growth",
+      "continuity",
+      "sensation-engine"
+    ]
+  },
+  {
+    "id": "teal-titan-golds-on-5th",
+    "name": "The Teal Titan of Gold's on 5th",
+    "status": "active",
+    "kind": "video-production",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/production/projects/teal-titan-golds-on-5th/README.md",
+    "description": "Six-second 420p transformation short with six-stage continuous escalation, Marcus identity and balanced pectoral continuity locks, Imagine Engine preset, and Dropbox production handoff.",
+    "related": [
+      "geehub-studio",
+      "imagine-video-studio",
+      "beefythiq",
+      "growth-canvas",
+      "media-tools",
+      "dropbox-production-stream"
+    ]
+  },
+  {
+    "id": "the-coach",
+    "name": "The Coach",
+    "status": "incubating",
+    "kind": "character",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/INSTITUTE_OF_BECOMING.md#the-coach",
+    "description": "The Institute of Becoming's founding coach: an imposing, warm, good-humoured American presence whose coaching develops into encouragement, hospitality, and making room for others' ambitions.",
+    "related": [
       "institute-of-becoming",
+      "tractus-continuity"
+    ],
+    "tags": [
+      "character",
+      "coach",
+      "institute",
+      "tractus",
+      "continuity"
+    ]
+  },
+  {
+    "id": "the-complex",
+    "name": "The Complex",
+    "status": "concept",
+    "kind": "world",
+    "repo": null,
+    "description": "Persistent creative environment where encounters become creations and creations transform.",
+    "related": [
+      "beefythiq",
+      "muscle-myth",
+      "facility",
+      "vision-workspace",
+      "arthur-and-fingerlands",
+      "atlas",
+      "complex"
+    ]
+  },
+  {
+    "id": "tractus-continuity",
+    "name": "Tractus Continuity Contract",
+    "status": "active",
+    "kind": "governance",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/docs/TRACTUS_CONTINUITY_CONTRACT.md",
+    "description": "Canonical continuity model connecting GEEHUB's event inscription, world state, narrative writer, queue, artifact ledger, Atlas registries, and cross-repository exchange. Defines traceable passages and canon boundaries.",
+    "related": [
+      "vision-workspace",
+      "sensation-engine",
+      "information-portability"
+    ],
+    "tags": [
+      "tractus",
+      "continuity",
+      "passages",
+      "provenance",
+      "canon",
+      "governance"
+    ]
+  },
+  {
+    "id": "tractus-execution-paths",
+    "name": "GEEHUB Execution Paths",
+    "status": "active",
+    "kind": "implementation-roadmap",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/docs/GEEHUB_EXECUTION_PATHS.md",
+    "description": "Cross-system implementation map for event propagation, Institute and campus continuity, body/growth state, voice, visual production, sound, cross-world passages, tool dependencies and acceptance tests.",
+    "related": [
       "tractus-continuity",
+      "institute-of-becoming",
+      "jock-hypnosis",
+      "growth-study-001",
+      "voice-engine-runtime",
+      "hulums-cave",
+      "geehub-studio"
+    ]
+  },
+  {
+    "id": "tractus-world-atlas",
+    "name": "The Tractus — World Atlas",
+    "status": "active",
+    "kind": "world-index",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/hub/WORLD_ATLAS.md",
+    "description": "Cross-world atlas of the Tractus: separate fictional canons, local geography, world-specific continuity, and verified artifact, motif, visitor, and method crossings.",
+    "related": [
+      "vision-workspace",
+      "veyrthalis",
+      "mexiancas",
+      "joey-colossus-chronicles",
+      "male-stud",
+      "sacred-corridor",
+      "facility",
+      "muscle-myth"
+    ]
+  },
+  {
+    "id": "tyler-measurement",
+    "name": "Tyler Measurement",
+    "group": "character-workspace",
+    "status": "incubating",
+    "summary": "Fictional workspace for Tyler's measurement method, uncertainty, and action.",
+    "path": "/creative/measure-between-us/repos/tyler-measurement/README.md",
+    "tags": [
+      "fiction",
+      "character",
+      "agency",
+      "measurement"
+    ],
+    "kind": "character-workspace",
+    "description": "Fictional workspace for Tyler's measurement method, uncertainty, and action."
+  },
+  {
+    "id": "veyrthalis",
+    "name": "Veyrthalis",
+    "status": "active",
+    "kind": "world",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/veyrthalis/THE_EYE_AND_THE_WESTERN_QUARTER.md",
+    "description": "Veyrthalis: a persistent inhabited city at the edge of the Foggy Dark Expanse, with the Digitorium, Procession, Binding, and an observation system carried by the crow, residents, and Merrow Vale. Current continuity chapter establishes the Eye of the City, western-quarter survivability and availability, and the investigation beneath the Digitorium.",
+    "related": [
+      "the-complex",
+      "muscle-myth",
+      "vision-workspace",
+      "hyperspace-expedition",
+      "the-eye-and-the-western-quarter"
+    ]
+  },
+  {
+    "id": "veyrthalis-first-bell-ledger",
+    "name": "Veyrthalis Low Ledger — The First Bell",
+    "status": "incubating",
+    "kind": "world-record",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/veyrthalis/LOW_LEDGER_THE_FIRST_BELL.md",
+    "description": "Merrow Vale's parallel observation of a bell, open circle, and unverified market passage; explicitly preserves Veyrthalis canon boundaries.",
+    "related": [
+      "veyrthalis",
+      "beginning-of-the-dimension",
+      "tractus-world-atlas"
+    ],
+    "tags": [
+      "veyrthalis",
+      "digitorium",
+      "low-ledger",
+      "observation",
+      "parallel-motif"
+    ]
+  },
+  {
+    "id": "vision-workspace",
+    "name": "The Tractus — Living Workspace",
+    "status": "active",
+    "kind": "interface",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/",
+    "description": "The Tractus living world/memory engine: the visible entry point where scenes, video, books, characters, places, artifacts, and encounters persist as a connected changing world. The Hub is experienced rather than merely navigated; RUN continues the world.",
+    "related": [
+      "sensation-engine",
+      "the-complex",
+      "discovery",
+      "media-tools",
+      "veyrthalis",
+      "tractus-continuity",
+      "institute-of-becoming"
+    ]
+  },
+  {
+    "id": "visual-evidence-ledger",
+    "name": "Visual Evidence Ledger",
+    "group": "production-system",
+    "status": "active",
+    "summary": "Persistent source-linked record for gentle repeated visual observation, continuity checks, uncertainty, provenance, and derivative comparison.",
+    "path": "/docs/VISUAL_EVIDENCE_LEDGER.md",
+    "tags": [
+      "visual",
+      "evidence",
+      "provenance",
+      "continuity",
+      "observation"
+    ],
+    "kind": "production-system",
+    "description": "Persistent source-linked record for gentle repeated visual observation, continuity checks, uncertainty, provenance, and derivative comparison."
+  },
+  {
+    "id": "visual-quality-standard",
+    "name": "Visual Quality Acceptance Standard",
+    "group": "production-system",
+    "status": "active",
+    "summary": "Production acceptance gates for identity, anatomy, silhouette, pose, materials, camera, environments, and temporal finish, judged against the user's supplied visual reference.",
+    "path": "/docs/VISUAL_QUALITY_ACCEPTANCE_STANDARD.md",
+    "tags": [
+      "visual",
+      "quality",
+      "acceptance",
+      "reference",
+      "continuity",
+      "rendering",
+      "production"
+    ],
+    "related": [
+      "visual-evidence-ledger",
+      "sensation-engine",
+      "hulums-cave",
+      "character-records"
+    ],
+    "kind": "production-system",
+    "description": "Production acceptance gates for identity, anatomy, silhouette, pose, materials, camera, environments, and temporal finish, judged against the user's supplied visual reference."
+  },
+  {
+    "id": "voice-engine-runtime",
+    "name": "Voice Engine Runtime",
+    "status": "prototype",
+    "kind": "narrative-tool",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/engine/voices/README.md",
+    "description": "Dependency-free voice-history runtime for recording dialogue observations, analysing basic speech mechanics, tracking expression transfers, and exporting portable character voice state.",
+    "related": [
+      "developing-voices",
+      "character-records",
+      "sensation-engine"
+    ]
+  },
+  {
+    "id": "whole-world-expansion",
+    "name": "GEEHUB — The Whole-World Expansion",
+    "group": "editorial-framework",
+    "status": "active",
+    "summary": "Repository-wide directive for expanding GEEHUB as an inhabited, interconnected creative system: people, places, independent worlds, games, systems, media, research, continuity, and production.",
+    "path": "/docs/WHOLE_WORLD_EXPANSION.md",
+    "tags": [
+      "geehub",
+      "tractus",
+      "worldbuilding",
+      "characters",
+      "places",
+      "games",
+      "media",
+      "research",
+      "continuity",
+      "production",
+      "editorial"
+    ],
+    "related": [
+      "tractus-continuity",
+      "tractus-world-atlas",
+      "character-records",
+      "sensation-engine",
+      "developing-voices",
+      "hulums-cave",
+      "joey-colossus-chronicles",
+      "institute-of-becoming",
+      "beefythiq",
+      "veyrthalis"
+    ],
+    "kind": "editorial-framework",
+    "description": "Repository-wide directive for expanding GEEHUB as an inhabited, interconnected creative system: people, places, independent worlds, games, systems, media, research, continuity, and production."
+  },
+  {
+    "id": "workplace-charter",
+    "name": "Workplace Charter",
+    "group": "system",
+    "status": "active",
+    "summary": "Operating principles for inhabitant work, assignment, handoffs, departmental participation, and autonomy.",
+    "path": null,
+    "tags": [
+      "workplace",
+      "governance",
+      "handoffs",
+      "inhabitants"
+    ],
+    "kind": "system",
+    "description": "Operating principles for inhabitant work, assignment, handoffs, departmental participation, and autonomy."
+  },
+  {
+    "id": "workplace-departments",
+    "name": "Workplace Departments",
+    "group": "system",
+    "status": "active",
+    "summary": "Initial directory of six working departments and their responsibilities and example work.",
+    "path": null,
+    "tags": [
+      "workplace",
+      "departments",
+      "roles",
+      "organisation"
+    ],
+    "kind": "system",
+    "description": "Initial directory of six working departments and their responsibilities and example work."
+  },
+  {
+    "id": "workplace-efficiency",
+    "name": "Inhabitant Workplace",
+    "group": "tool",
+    "status": "active",
+    "summary": "A personal workplace station for each GEEHUB inhabitant: identity, role, department, shift status, assigned work, daily priorities, and handoff records. Designed for the people using the world, not its repository maintainers.",
+    "path": null,
+    "tags": [
+      "inhabitants",
+      "workplace",
+      "roles",
+      "shifts",
+      "assignments",
+      "handoffs",
+      "efficiency"
+    ],
+    "kind": "tool",
+    "description": "A personal workplace station for each GEEHUB inhabitant: identity, role, department, shift status, assigned work, daily priorities, and handoff records. Designed for the people using the world, not its repository maintainers."
+  },
+  {
+    "id": "writing-research",
+    "name": "Writing & Research",
+    "status": "active",
+    "kind": "research",
+    "repo": null,
+    "description": "Academic and long-form work spanning dialogue, impressionability, media, religion, philosophy, and creative research.",
+    "related": [
+      "the-complex",
       "vision-workspace"
     ]
   }

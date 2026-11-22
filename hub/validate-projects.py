@@ -21,7 +21,7 @@ def fail(message: str) -> None:
     raise ValueError(message)
 
 
-def validate(path: Path) -> int:
+def validate(path: Path, root_registry: Path | None = None) -> int:
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except FileNotFoundError:
@@ -67,14 +67,35 @@ def validate(path: Path) -> int:
             if not isinstance(repo, str) or not REPO_RE.fullmatch(repo):
                 fail(f"entry {project_id!r} has invalid repo selector: {repo!r}")
 
+    if root_registry is not None:
+        try:
+            root_data = json.loads(root_registry.read_text(encoding="utf-8"))
+        except FileNotFoundError:
+            fail(f"missing root project atlas: {root_registry}")
+        except json.JSONDecodeError as exc:
+            fail(f"invalid root project atlas JSON: {exc}")
+        if not isinstance(root_data, list):
+            fail("root project atlas must be a JSON array")
+        root_ids = {entry.get("id") for entry in root_data if isinstance(entry, dict)}
+        hub_ids = {entry["id"] for entry in data}
+        if root_ids != hub_ids:
+            only_root = sorted(root_ids - hub_ids)
+            only_hub = sorted(hub_ids - root_ids)
+            fail(f"manifest ID mismatch; only in projects.json: {only_root}; only in hub/projects.json: {only_hub}")
+
     print(f"validated {len(data)} constellation entries")
+    if root_registry is not None:
+        print("root project atlas and hub registry contain the same project IDs")
     return 0
 
 
 if __name__ == "__main__":
-    target = Path(sys.argv[1] if len(sys.argv) > 1 else "hub/projects.json")
+    args = [arg for arg in sys.argv[1:] if arg != "--check-root"]
+    check_root = "--check-root" in sys.argv[1:]
+    target = Path(args[0] if args else "hub/projects.json")
+    root_registry = Path(__file__).resolve().parents[1] / "projects.json" if check_root else None
     try:
-        raise SystemExit(validate(target))
+        raise SystemExit(validate(target, root_registry))
     except ValueError as exc:
         print(f"validation error: {exc}", file=sys.stderr)
         raise SystemExit(1)

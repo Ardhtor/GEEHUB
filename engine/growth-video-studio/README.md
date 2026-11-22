@@ -451,9 +451,10 @@ byte length, frame/timestamp range, camera-registration reference, thresholds,
 coverage counts, and the provenance layout.
 
 The writer validates that masks, alpha, counts, donor identities, and
-provenance agree before creating the destination. It uses exclusive file
-creation, publishes the receipt last, and rolls back only files whose bytes
-still match this attempt. A partial plate is still preserved as an artifact,
+provenance agree before creating the destination. Each file is created
+exclusively, synced, read back, and compared byte-for-byte before its digest
+is accepted. The receipt is published last, and rollback removes only files
+whose bytes still match this attempt. A partial plate is still preserved as an artifact,
 but `readyForComposite` is false and its unresolved pixels remain
 transparent. The scene-plate result now carries `frameTimesSeconds` alongside
 frame numbers so the artifact receipt can retain the source timing.

@@ -2885,3 +2885,11 @@ SETH: A line becomes visible between NORTHGATE LIBRARY and NORTHGATE UNIVERSITY.
 NICK: A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: worlds/northgate-library/README.md. Pressure 1.00; memory 1.00.
+
+## NORTHGATE UNIVERSITY / pulse 330 / ATMOSPHERE
+
+SETH: Northgate University rises above the reservoir beneath old trees and open sky. The central quad is green and broad, enclosed by pale stone lecture halls, brick laboratories, timber galleries and workshops whose windows reveal models, instruments and small machines.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/northgate-university/README.md. Pressure 1.00; memory 1.00.

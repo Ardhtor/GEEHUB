@@ -434,3 +434,33 @@ compositor remain required. Ten focused tests cover donor selection, face
 exclusion, unstable lighting, empty repair regions, camera-registration
 refusal, mask integrity, timestamp alignment, and work limits. The package
 workflow runs these through the existing `npm test` command.
+
+## File-backed temporal scene-plate artifact
+
+`core/scene-plate-artifact.js` exports
+`writeTemporalScenePlateArtifact({ plate, cameraRegistration, outputDirectory })`.
+It persists an already-built `buildTemporalScenePlate()` result into a new directory:
+`scene-plate.png` is the transparent RGBA repair layer,
+`coverage-mask.png` and `unresolved-mask.png` are opaque RGBA binary masks
+(white means covered/unresolved; black means clear), and
+`donor-provenance.bin` stores one seven-byte record per row-major pixel:
+little-endian signed 32-bit donor frame (-1 means no donor), unsigned
+16-bit donor count, and one-byte maximum channel spread. The final
+`scene-plate.receipt.json` records each artifact's SHA-256,
+byte length, frame/timestamp range, camera-registration reference, thresholds,
+coverage counts, and the provenance layout.
+
+The writer validates that masks, alpha, counts, donor identities, and
+provenance agree before creating the destination. It uses exclusive file
+creation, publishes the receipt last, and rolls back only files whose bytes
+still match this attempt. A partial plate is still preserved as an artifact,
+but `readyForComposite` is false and its unresolved pixels remain
+transparent. The scene-plate result now carries `frameTimesSeconds` alongside
+frame numbers so the artifact receipt can retain the source timing.
+
+This is a durable writer for an in-memory result, not a file-backed source
+reader or complete compositor. It does not re-read source video/PNG/mask
+bytes, independently estimate camera motion, prove mask anatomy, composite
+the transformed body, or export a finished frame. The receipt therefore keeps
+`sourceFrameDerivationVerified`, `cameraRegistrationIndependentlyVerified`, and
+`pixelSemanticsVerified` false.

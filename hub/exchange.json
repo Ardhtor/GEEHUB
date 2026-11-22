@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-21T21:55:00.442Z",
+  "generated": "2026-11-22T01:59:01.785Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00230",
+      "at": "2026-11-22T01:59:01.785Z",
+      "from": "geehub-long-play",
+      "to": "chase",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / NORTHGATE UNIVERSITY → ATHLETIC COMMONS / CHASE",
+      "body": "The world crossed the existing relation \"STRENGTH WITHOUT CONFLICT\" from NORTHGATE UNIVERSITY into ATHLETIC COMMONS. Scale increased from 17.18× to 17.22×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00230",
+      "live": true,
+      "regionId": "athletic-commons",
+      "previousRegionId": "northgate-university",
+      "relation": "STRENGTH WITHOUT CONFLICT"
+    },
     {
       "id": "scheduled-long-play-00229",
       "at": "2026-11-21T21:55:00.442Z",
@@ -1482,21 +1497,6 @@
       "regionId": "embodied-scale",
       "previousRegionId": "luke-bwomph",
       "relation": "THE BAR GYM REMEMBERS"
-    },
-    {
-      "id": "scheduled-long-play-00133",
-      "at": "2026-10-29T23:10:38.818Z",
-      "from": "geehub-long-play",
-      "to": "andrew",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / GROWTH CANVAS → LUKE // BWOMPH / ANDREW",
-      "body": "The world crossed the existing relation \"HYPEER BASELINE\" from GROWTH CANVAS into LUKE // BWOMPH. Scale increased from 10.90× to 10.98×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00133",
-      "live": true,
-      "regionId": "luke-bwomph",
-      "previousRegionId": "growth",
-      "relation": "HYPEER BASELINE"
     }
   ]
 }

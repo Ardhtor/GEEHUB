@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00229.json",
+  "activeRecording": "./recordings/scheduled-recording-00230.json",
   "activeEncounter": {
-    "regionId": "northgate-university",
-    "regionName": "NORTHGATE UNIVERSITY",
+    "regionId": "athletic-commons",
+    "regionName": "ATHLETIC COMMONS",
     "subject": {
-      "agent": "joseph",
-      "scale": 17.18,
+      "agent": "chase",
+      "scale": 17.22,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / NORTHGATE LIBRARY → NORTHGATE UNIVERSITY / JOSEPH",
+    "intent": "LONG PLAY / NORTHGATE UNIVERSITY → ATHLETIC COMMONS / CHASE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 17.06× → 17.18×",
-      "NORTHGATE LIBRARY → NORTHGATE UNIVERSITY",
-      "relation: THE LATE LAMPS OF NORTHGATE",
+      "scale 17.18× → 17.22×",
+      "NORTHGATE UNIVERSITY → ATHLETIC COMMONS",
+      "relation: STRENGTH WITHOUT CONFLICT",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "northgate-library"
+    "previousRegionId": "northgate-university"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-21T21:55:00.442Z",
+  "snapshot": "2026-11-22T01:59:01.785Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 229,
-    "agent": "joseph",
-    "previousRegionId": "northgate-library",
-    "regionId": "northgate-university",
-    "relation": "THE LATE LAMPS OF NORTHGATE",
+    "cycle": 230,
+    "agent": "chase",
+    "previousRegionId": "northgate-university",
+    "regionId": "athletic-commons",
+    "relation": "STRENGTH WITHOUT CONFLICT",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 17.06,
-    "scale": 17.18,
-    "recording": "scheduled-recording-00229",
-    "at": "2026-11-21T21:55:00.442Z"
+    "previousScale": 17.18,
+    "scale": 17.22,
+    "recording": "scheduled-recording-00230",
+    "at": "2026-11-22T01:59:01.785Z"
   }
 }

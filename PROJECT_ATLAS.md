@@ -61,9 +61,9 @@ The umbrella should remain navigable. A new repository should earn its independe
 
 Use short, memorable names for major worlds and systems. GEEHUB remains the index. Individual repositories can evolve at their own pace and may link back here through a standard `GEEHUB` section in their README.
 
-## Next expansion
+## Project registry
 
-The next useful layer is a repository registry in machine-readable JSON so the GEEHUB homepage can show project status, category, maturity, repository URL, and relationships between projects.
+The machine-readable project registry is now present in both `projects.json` (the repository-wide atlas) and `hub/projects.json` (the browser-facing constellation). Both files carry the same 106 stable project IDs while retaining their distinct presentation fields: the root atlas preserves the wider catalogue and project metadata; the Hub registry supplies the group, status, summary, tags, and relative paths used by the browser. The two historical IDs `the-complex` / `complex` and `big-bruteforce` / `bruteforce` remain separate for compatibility and are cross-linked rather than silently renamed. `hub/validate-projects.py --check-root` checks ID parity, and the regression suite runs in the data-validation workflow. New entries should be added to both registries in the same change, with a stable ID, a real path when one exists, and an explicit null path when the destination is not yet built.
 
 ## Detailed Maps
 

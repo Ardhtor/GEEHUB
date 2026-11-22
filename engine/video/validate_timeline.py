@@ -129,8 +129,8 @@ def validate_provenance(data: dict) -> list[str]:
         if not isinstance(origin, dict):
             errors.append(f"asset {aid}: origin must be an object")
             origin = {}
-        if not origin.get("provider") or not origin.get("filename"):
-            errors.append(f"asset {aid}: origin.provider and origin.filename are required")
+        if not origin.get("provider") or not (origin.get("filename") or (origin.get("url") and origin.get("title"))):
+            errors.append(f"asset {aid}: origin.provider and either filename or URL/title are required")
         integrity = asset.get("integrity", {})
         if not isinstance(integrity, dict):
             errors.append(f"asset {aid}: integrity must be an object")

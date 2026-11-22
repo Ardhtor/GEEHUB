@@ -1,8 +1,8 @@
 # GEEHUB — Repository Navigation
 
 **Branch:** `main`  
-**Indexed commit:** `813ffc63306eadbf301e9af0774783027640b7e2`  
-**Current tree:** 120 directories and 1930 tracked files.
+**Indexed commit:** `c96da3cc920b9b7c055fed7f59501c8810623553`  
+**Current tree:** 126 directories and 2397 tracked files.
 
 This is the central directory map. Every folder has a local `README.md` landing page. Open a folder below to browse its immediate files and child folders; use its breadcrumb to move upward. The [Project Workbench](PROJECT_WORKBENCH.md) is the practical resume map for projects already underway. These indexes add navigation only: they do not move, rename, compress, or replace project assets.
 

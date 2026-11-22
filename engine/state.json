@@ -1,5 +1,5 @@
 {
-  "pulse": 332,
+  "pulse": 333,
   "events": [
     {
       "pulse": 1,
@@ -6321,6 +6321,28 @@
       "occurred_at": "2026-11-22T16:20:04.368440+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000333",
+      "pulse": 333,
+      "time": "2026-11-22T17:56:13.902375+00:00",
+      "actor": "LUKE",
+      "world": "ATHLETIC COMMONS",
+      "region_id": "athletic-commons",
+      "previous_region_id": "athletic-commons",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/athletic-commons/README.md",
+      "desire_state": "attention",
+      "action": "SETH: The Athletic Commons is a broad brick-and-glass complex with high timber trusses, bright training floors, a swimming pool, indoor track and recovery rooms. Adult male students train in small groups or alone, greeting familiar faces between sets.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-22T17:56:13.902375+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -6371,7 +6393,7 @@
     "northgate-library": 326.5,
     "athletic-commons": 332.5
   },
-  "pressure": 1,
+  "pressure": 1.0,
   "memory": 1,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -6393,12 +6415,12 @@
     "worlds/bluewater-quay/README.md": 16,
     "worlds/lantern-market/README.md": 13,
     "worlds/northgate-library/README.md": 24,
-    "worlds/athletic-commons/README.md": 9
+    "worlds/athletic-commons/README.md": 10
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "athletic-commons",
-  "current_phase": "LONG_PLAY_CROSSING",
+  "current_phase": "ATMOSPHERE",
   "current_desire_state": "attention",
   "current_question": "What does this place do while nobody intervenes?",
   "current_narrative_rule": "approach extends geography",

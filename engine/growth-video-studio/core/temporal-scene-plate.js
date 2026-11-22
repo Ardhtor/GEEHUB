@@ -232,6 +232,7 @@ export function buildTemporalScenePlate(frames, cameraRegistration, options = {}
     width,
     height,
     frameNumbers: frames.map(frame => frame.frame),
+    frameTimesSeconds: frames.map(frame => frame.timeSeconds),
     frameRange: { firstFrame: frames[0].frame, lastFrame: frames.at(-1).frame, frameCount: frames.length },
     plate: { width, height, data: plate },
     coverageMask,

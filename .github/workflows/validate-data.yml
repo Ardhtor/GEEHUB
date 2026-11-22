@@ -19,6 +19,7 @@ on:
   pull_request:
     paths:
       - 'hub/**'
+      - 'projects.json'
       - 'app.js'
       - 'index.html'
       - 'style.css'

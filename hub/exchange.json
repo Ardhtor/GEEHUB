@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-22T09:39:49.938Z",
+  "generated": "2026-11-22T17:24:47.463Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00232",
+      "at": "2026-11-22T17:24:47.463Z",
+      "from": "geehub-long-play",
+      "to": "tyler",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / NORTHGATE UNIVERSITY → ATHLETIC COMMONS / TYLER",
+      "body": "The world crossed the existing relation \"STRENGTH WITHOUT CONFLICT\" from NORTHGATE UNIVERSITY into ATHLETIC COMMONS. Scale increased from 17.25× to 17.30×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00232",
+      "live": true,
+      "regionId": "athletic-commons",
+      "previousRegionId": "northgate-university",
+      "relation": "STRENGTH WITHOUT CONFLICT"
+    },
     {
       "id": "scheduled-long-play-00231",
       "at": "2026-11-22T09:39:49.938Z",
@@ -1482,21 +1497,6 @@
       "regionId": "veyrthalis",
       "previousRegionId": "discovery",
       "relation": "THE DOOR REMEMBERS"
-    },
-    {
-      "id": "scheduled-long-play-00135",
-      "at": "2026-10-30T09:01:56.775Z",
-      "from": "geehub-long-play",
-      "to": "chase",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / EMBODIED SCALE → DISCOVERY / CHASE",
-      "body": "The world crossed the existing relation \"SCALE HAS HISTORY\" from EMBODIED SCALE into DISCOVERY. Scale increased from 11.10× to 11.14×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00135",
-      "live": true,
-      "regionId": "discovery",
-      "previousRegionId": "embodied-scale",
-      "relation": "SCALE HAS HISTORY"
     }
   ]
 }

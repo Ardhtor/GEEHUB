@@ -53,7 +53,15 @@ def main() -> int:
     )
     expect_fail([{**VALID, "path": " "}], "invalid path", "a blank path should fail")
     expect_fail([{**VALID, "repo": "not a repository"}], "invalid repo selector", "an invalid repository selector should fail")
-    print("Constellation registry path regression tests passed.")
+    parity = subprocess.run(
+        [sys.executable, "hub/validate-projects.py", "hub/projects.json", "--check-root"],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if parity.returncode != 0:
+        raise AssertionError("the root atlas and hub registry must share the same IDs: " + parity.stdout + parity.stderr)
+    print("Constellation registry path and manifest-parity regression tests passed.")
     return 0
 
 

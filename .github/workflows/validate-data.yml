@@ -154,9 +154,11 @@ jobs:
           const html = fs.readFileSync('index.html', 'utf8');
           const world = JSON.parse(fs.readFileSync('world.json', 'utf8'));
           const mapStart = app.indexOf('const STORY_PLACE_BY_REGION = ') + 'const STORY_PLACE_BY_REGION = '.length;
-          const mapEnd = app.indexOf(';\nconst WORLD_BROADCASTS', mapStart);
+          const mapEnd = app.indexOf(';
+const WORLD_BROADCASTS', mapStart);
           const broadcastStart = app.indexOf('const WORLD_BROADCASTS = ') + 'const WORLD_BROADCASTS = '.length;
-          const broadcastEnd = app.indexOf(';\nfunction syncStoryLocation', broadcastStart);
+          const broadcastEnd = app.indexOf(';
+function syncStoryLocation', broadcastStart);
           if (mapStart < 30 || mapEnd < mapStart || broadcastStart < 30 || broadcastEnd < broadcastStart) {
             throw new Error('Missing story place or broadcast registry');
           }
@@ -200,7 +202,11 @@ jobs:
           NODE
       - name: Validate Python tools
         run: python -m py_compile engine/inscription.py engine/test_inscription.py engine/institute_events.py engine/test_institute_events.py engine/run_world.py engine/check_performance.py engine/video/validate_timeline.py engine/video/tests/test_validate_timeline.py hub/validate-jams.py hub/test-validate-jams.py hub/validate-projects.py hub/validate-ui-registry.py hub/test-validate-ui-registry.py hub/test-world-engine.py hub/test-long-play-runner.py
-      - name: Run video timeline and provenance regression tests\n        run: python -m unittest engine.video.tests.test_validate_timeline\n      - name: Validate Teal Titan production timeline\n        run: python engine/video/validate_timeline.py\n      - name: Run canonical inscription regression tests
+      - name: Run video timeline and provenance regression tests
+        run: python -m unittest engine.video.tests.test_validate_timeline
+      - name: Validate Teal Titan production timeline
+        run: python engine/video/validate_timeline.py
+      - name: Run canonical inscription regression tests
         run: python -m unittest engine.test_inscription
       - name: Run Institute event adapter regression tests
         run: python -m unittest engine.test_institute_events engine.test_inscription

@@ -95,6 +95,10 @@ test("writes lossless plate, binary masks, donor provenance, and a final digest 
 
     const coverageBytes = await readFile(path.join(result.outputDirectory, "coverage-mask.png"));
     const unresolvedBytes = await readFile(path.join(result.outputDirectory, "unresolved-mask.png"));
+    assert.equal(digest(coverageBytes), receipt.files.coverageMask.sha256);
+    assert.equal(digest(unresolvedBytes), receipt.files.unresolvedMask.sha256);
+    assert.equal(coverageBytes.length, receipt.files.coverageMask.byteLength);
+    assert.equal(unresolvedBytes.length, receipt.files.unresolvedMask.byteLength);
     const coverage = decodeRgbaPng(coverageBytes);
     const unresolved = decodeRgbaPng(unresolvedBytes);
     assert.deepEqual(Array.from(coverage.data.slice(0, 4)), [255, 255, 255, 255]);
@@ -102,7 +106,9 @@ test("writes lossless plate, binary masks, donor provenance, and a final digest 
     assert.deepEqual(Array.from(unresolved.data.slice(0, 4)), [0, 0, 0, 255]);
 
     const provenance = await readFile(path.join(result.outputDirectory, "donor-provenance.bin"));
+    assert.equal(digest(provenance), receipt.files.donorProvenance.sha256);
     assert.equal(provenance.length, 2 * 7);
+    assert.equal(provenance.length, receipt.files.donorProvenance.byteLength);
     assert.equal(provenance.readInt32LE(0), 11);
     assert.equal(provenance.readUInt16LE(4), 2);
     assert.equal(provenance[6], 2);

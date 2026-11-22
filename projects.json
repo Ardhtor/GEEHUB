@@ -315,7 +315,7 @@
     "status": "active",
     "kind": "canon-system",
     "repo": "Ardhtor/GEEHUB",
-    "path": null,
+    "path": "/characters/README.md",
     "description": "Shared character-record standard and detailed, continuity-preserving records for GEEHUB inhabitants. Records connect identity, embodiment, temperament, voice, relationships, places, history, transformation, production requirements, canon status, and provenance.",
     "related": [
       "arthur-and-fingerlands",

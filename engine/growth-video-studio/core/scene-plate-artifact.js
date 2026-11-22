@@ -224,7 +224,21 @@ async function writeExclusive(filePath, bytes) {
     await handle.sync();
     await handle.close();
     handle = null;
-    return { sha256: sha256(bytes), byteLength: bytes.length };
+    const before = await lstat(filePath);
+    if (before.isSymbolicLink() || !before.isFile() ||
+        before.dev !== identity.dev || before.ino !== identity.ino) {
+      fail("scene-plate-artifact-write-identity", "Created artifact file changed identity before read-back");
+    }
+    const actual = await readFile(filePath);
+    const after = await lstat(filePath);
+    if (after.isSymbolicLink() || !after.isFile() ||
+        after.dev !== identity.dev || after.ino !== identity.ino ||
+        before.size !== after.size || before.mtimeMs !== after.mtimeMs ||
+        before.ctimeMs !== after.ctimeMs ||
+        !actual.equals(Buffer.from(bytes))) {
+      fail("scene-plate-artifact-readback-mismatch", "Written artifact bytes changed or failed read-back verification");
+    }
+    return { sha256: sha256(actual), byteLength: actual.length };
   } catch (error) {
     if (handle) await handle.close().catch(() => {});
     await removeIfIdentity(filePath, identity).catch(() => {});

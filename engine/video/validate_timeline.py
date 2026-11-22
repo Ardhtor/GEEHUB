@@ -20,79 +20,128 @@ def load(path: Path):
         raise ValueError(f"{path}: {exc}") from exc
 
 
+def _finite_number(value) -> bool:
+    return isinstance(value, (int, float)) and not isinstance(value, bool) and math.isfinite(value)
+
+
 def validate_timeline(data: dict) -> list[str]:
     errors = []
+    if not isinstance(data, dict):
+        return ["timeline manifest must be a JSON object"]
     if data.get("schema") != "geehub.video-timeline/1":
         errors.append("timeline schema identifier is not geehub.video-timeline/1")
-    duration = data.get("duration_seconds")
-    fps = data.get("timebase", {}).get("fps")
-    frames = data.get("timebase", {}).get("frame_count")
-    if not isinstance(duration, (int, float)) or duration <= 0:
-        errors.append("duration_seconds must be positive")
-        return errors
-    if not isinstance(fps, (int, float)) or fps <= 0:
-        errors.append("timebase.fps must be positive")
-    elif isinstance(frames, int) and frames > 0 and round(duration * fps) != frames:
-        errors.append("frame_count does not match duration_seconds × fps")
 
-    stages = data.get("stages", [])
-    if not stages:
-        errors.append("stages must contain at least one stage")
+    timebase = data.get("timebase")
+    if not isinstance(timebase, dict):
+        timebase = {}
+        errors.append("timebase must be an object")
+    duration = data.get("duration_seconds")
+    fps = timebase.get("fps")
+    frames = timebase.get("frame_count")
+    if not _finite_number(duration) or duration <= 0:
+        errors.append("duration_seconds must be a finite positive number")
         return errors
-    seen = set()
-    ordered = sorted(stages, key=lambda stage: stage.get("start_seconds", -1))
-    if ordered[0].get("start_seconds") != 0:
+    if not _finite_number(fps) or fps <= 0:
+        errors.append("timebase.fps must be a finite positive number")
+    if frames is not None:
+        if not isinstance(frames, int) or isinstance(frames, bool) or frames <= 0:
+            errors.append("timebase.frame_count must be a positive integer")
+        elif _finite_number(fps) and fps > 0 and round(duration * fps) != frames:
+            errors.append("frame_count does not match duration_seconds × fps")
+
+    stages = data.get("stages")
+    if not isinstance(stages, list) or not stages:
+        errors.append("stages must be a non-empty array")
+        return errors
+    indexed = [(index, stage) for index, stage in enumerate(stages) if isinstance(stage, dict)]
+    if len(indexed) != len(stages):
+        errors.append("every stage must be an object")
+    ordered = sorted(indexed, key=lambda pair: (
+        pair[1].get("start_seconds") if _finite_number(pair[1].get("start_seconds")) else float("-inf"),
+        pair[0],
+    ))
+    if not ordered or ordered[0][1].get("start_seconds") != 0:
         errors.append("first stage must begin at 0 seconds")
+
+    seen = set()
     previous_end = 0.0
-    for index, stage in enumerate(ordered):
+    for index, stage in ordered:
         sid = stage.get("id")
-        if not sid:
+        if not isinstance(sid, str) or not sid.strip():
             errors.append(f"stage[{index}] has no id")
+            sid = f"stage[{index}]"
         elif sid in seen:
             errors.append(f"duplicate stage id: {sid}")
         seen.add(sid)
+
         start, end = stage.get("start_seconds"), stage.get("end_seconds")
-        if not isinstance(start, (int, float)) or not isinstance(end, (int, float)):
-            errors.append(f"stage {sid}: start_seconds and end_seconds must be numeric")
+        if not _finite_number(start) or not _finite_number(end):
+            errors.append(f"stage {sid}: start_seconds and end_seconds must be finite numbers")
             continue
+        if start < 0:
+            errors.append(f"stage {sid}: start_seconds cannot be negative")
+        if end > duration:
+            errors.append(f"stage {sid}: end_seconds exceeds timeline duration")
         if end <= start:
             errors.append(f"stage {sid}: end must be after start")
+            continue
         if abs(start - previous_end) > 0.001:
             errors.append(f"stage {sid}: timeline gap/overlap at {start:.3f}s; expected {previous_end:.3f}s")
         previous_end = end
-        if not stage.get("function"):
+        if not isinstance(stage.get("function"), str) or not stage["function"].strip():
             errors.append(f"stage {sid}: missing dramatic function")
+
     if abs(previous_end - duration) > 0.001:
         errors.append(f"last stage ends at {previous_end:.3f}s, expected {duration:.3f}s")
 
-    if data.get("continuity_policy", {}).get("continuous_event") is True:
-        if data.get("continuity_policy", {}).get("cuts_allowed") is True:
-            errors.append("continuous_event cannot declare cuts_allowed=true")
+    continuity = data.get("continuity_policy", {})
+    if not isinstance(continuity, dict):
+        errors.append("continuity_policy must be an object")
+    elif continuity.get("continuous_event") is True and continuity.get("cuts_allowed") is True:
+        errors.append("continuous_event cannot declare cuts_allowed=true")
     return errors
 
 
 def validate_provenance(data: dict) -> list[str]:
     errors = []
+    if not isinstance(data, dict):
+        return ["provenance manifest must be a JSON object"]
     if data.get("schema") != "geehub.provenance/1":
         errors.append("provenance schema identifier is invalid")
+    assets = data.get("assets", [])
+    if not isinstance(assets, list):
+        return errors + ["provenance assets must be an array"]
+
     ids = set()
-    for asset in data.get("assets", []):
+    for index, asset in enumerate(assets):
+        if not isinstance(asset, dict):
+            errors.append(f"provenance asset[{index}] must be an object")
+            continue
         aid = asset.get("id")
-        if not aid:
-            errors.append("provenance asset has no id")
+        if not isinstance(aid, str) or not aid.strip():
+            errors.append(f"provenance asset[{index}] has no id")
+            aid = f"asset[{index}]"
         elif aid in ids:
             errors.append(f"duplicate provenance asset id: {aid}")
         ids.add(aid)
+
         origin = asset.get("origin", {})
+        if not isinstance(origin, dict):
+            errors.append(f"asset {aid}: origin must be an object")
+            origin = {}
         if not origin.get("provider") or not origin.get("filename"):
             errors.append(f"asset {aid}: origin.provider and origin.filename are required")
         integrity = asset.get("integrity", {})
+        if not isinstance(integrity, dict):
+            errors.append(f"asset {aid}: integrity must be an object")
+            integrity = {}
         digest = integrity.get("digest")
-        if digest and not re.fullmatch(r"[a-fA-F0-9]{64}", digest):
+        if digest and (not isinstance(digest, str) or not re.fullmatch(r"[a-fA-F0-9]{64}", digest)):
             errors.append(f"asset {aid}: invalid SHA-256 digest")
-        if asset.get("verification_status") == "checksum-verified" and not digest:
+        status = asset.get("verification_status")
+        if status == "checksum-verified" and not digest:
             errors.append(f"asset {aid}: checksum-verified requires a SHA-256 digest")
-        if asset.get("verification_status") == "media-inspected" and not digest:
+        if status == "media-inspected" and not digest:
             errors.append(f"asset {aid}: media-inspected requires a SHA-256 digest and source identity")
     return errors
 
@@ -113,7 +162,14 @@ def main() -> int:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 2
 
+    if not isinstance(production, dict):
+        print("ERROR: production.json must be a JSON object", file=sys.stderr)
+        return 1
     errors = validate_timeline(timeline) + validate_provenance(provenance)
+    if not isinstance(timeline, dict) or not isinstance(provenance, dict):
+        print("\n".join("ERROR: " + item for item in errors), file=sys.stderr)
+        return 1
+
     if production.get("timelineManifest") != "07_MANIFESTS/timeline.json":
         errors.append("production.json timelineManifest does not point to 07_MANIFESTS/timeline.json")
     if production.get("provenanceManifest") != "07_MANIFESTS/provenance.json":

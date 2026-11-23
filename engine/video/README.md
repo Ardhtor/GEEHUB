@@ -195,7 +195,9 @@ The pectoral deformation is no longer only a code constant: the project growth p
 After two real provider-generated clips have been registered in `07_MANIFESTS/shots.json`, with provider job/model/prompt provenance, FFprobe metadata, checksums, and Dropbox reopen verification, assemble them with:
 
 ```bash
-python3 engine/video/shot_sequence.py --output production/projects/hulums-lab-serum-60s/04_COMPOSITES/serum-provider-proof.otio
+python3 engine/video/gee_engine.py export-shots \
+  --project production/projects/hulums-lab-serum-60s \
+  --output production/projects/hulums-lab-serum-60s/04_COMPOSITES/serum-provider-proof.otio
 ```
 
-The assembler refuses draft shots, checks each media file with FFprobe, compares the probe against the registered metadata, builds a sequential OpenTimelineIO video track with per-shot provenance, writes the OTIO file, and reopens it to verify clip order. It does not create, simulate, or substitute video footage.
+The engine runs the assembler inside Blender 5.3's Python environment (where OpenTimelineIO is bundled). It refuses draft shots, checks each media file with FFprobe, compares the probe against the registered metadata, builds a sequential OpenTimelineIO video track with per-shot provenance, writes the OTIO file, and reopens it to verify clip order. It does not create, simulate, or substitute video footage.

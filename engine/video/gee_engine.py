@@ -311,8 +311,37 @@ def serve() -> None:
     ThreadingHTTPServer(("127.0.0.1", 8765), Handler).serve_forever()
 
 
+def export_otio(timeline: Path, output: Path, media: Path | None = None) -> int:
+    blender, _ = binaries()
+    if not blender:
+        print("BLENDER NOT FOUND. Install Blender 5.3+ or set GEEHUB_BLENDER.", file=sys.stderr)
+        return 2
+    if not timeline.expanduser().is_file():
+        print(f"TIMELINE NOT FOUND: {timeline}", file=sys.stderr)
+        return 2
+    command = [
+        blender, "--background", "--python", str(HERE / "otio_export.py"), "--",
+        "--timeline", str(timeline.expanduser().resolve()),
+        "--output", str(output.expanduser().resolve()),
+    ]
+    if media:
+        command.extend(["--media", str(media.expanduser().resolve())])
+    return subprocess.run(command, check=False).returncode
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="GEEHUB local video engine")
-    parser.add_argument("command", choices=["doctor", "serve"])
+    parser.add_argument("command", choices=["doctor", "serve", "export-otio"])
+    parser.add_argument("--timeline", type=Path, help="GEEHUB timeline.json for OTIO export")
+    parser.add_argument("--output", type=Path, help="Output .otio path")
+    parser.add_argument("--media", type=Path, help="Optional source media for OTIO export")
     args = parser.parse_args()
-    sys.exit(doctor() if args.command == "doctor" else (serve() or 0))
+    if args.command == "doctor":
+        code = doctor()
+    elif args.command == "serve":
+        code = serve() or 0
+    else:
+        if not args.timeline or not args.output:
+            parser.error("export-otio requires --timeline and --output")
+        code = export_otio(args.timeline, args.output, args.media)
+    sys.exit(code)

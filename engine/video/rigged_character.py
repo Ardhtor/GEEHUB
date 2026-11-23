@@ -175,11 +175,20 @@ def _torso_surface(name, skin):
             lower_right = math.exp(-(((x - .34) / .38) ** 2) - (((z - 2.11) / .16) ** 2))
             outer = math.exp(-(((abs(x) - .66) / .16) ** 2) - (((z - 2.28) / .31) ** 2))
             sternum = math.exp(-((x / .075) ** 2) - (((z - 2.29) / .31) ** 2))
+            abdominal_pairs = 0.0
+            for row_z in (1.53, 1.70, 1.87):
+                for side in (-1, 1):
+                    abdominal_pairs += math.exp(-(((x - side * .14) / .13) ** 2) - (((z - row_z) / .085) ** 2))
+            oblique = math.exp(-(((abs(x) - .43) / .10) ** 2) - (((z - 1.60) / .28) ** 2))
+            clavicle = math.exp(-(((abs(x) - .32) / .20) ** 2) - (((z - 2.63) / .08) ** 2))
             bulge = (
                 .145 * (left_pec + right_pec)
                 + .045 * (upper_left + upper_right)
                 + .035 * (lower_left + lower_right)
                 + .018 * outer
+                + .022 * abdominal_pairs
+                + .018 * oblique
+                + .018 * clavicle
             ) * front
             groove = .08 * sternum * front
             y -= bulge

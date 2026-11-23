@@ -140,9 +140,25 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
             if generation.get("reopened_from_dropbox") is not False:
                 errors.append(f"{label} cannot claim Dropbox verification before generation")
         elif state == "completed":
-            for field in ("provider_job_id", "model_id", "output_path", "output_sha256", "dropbox_file_id", "dropbox_path"):
-                if not _nonempty(generation.get(field)):
+            required_fields = (
+                "provider_id", "provider_job_id", "provider_output_id", "model_id",
+                "prompt_revision", "prompt_sha256", "reference_asset_ids",
+                "submitted_at", "completed_at", "output_path", "output_sha256",
+                "dropbox_file_id", "dropbox_path",
+            )
+            for field in required_fields:
+                if generation.get(field) is None or generation.get(field) == "":
                     errors.append(f"{label} completed output requires {field}")
+            if generation.get("provider_id") != provider.get("provider_id"):
+                errors.append(f"{label} provider_id does not match provider manifest")
+            prompt_hash = hashlib.sha256(shot.get("prompt", "").encode("utf-8")).hexdigest()
+            if generation.get("prompt_sha256") != prompt_hash:
+                errors.append(f"{label} prompt_sha256 does not match the exact prompt text")
+            if generation.get("prompt_revision") != shot.get("revision"):
+                errors.append(f"{label} prompt_revision must match the shot revision")
+            expected_refs = [item.get("asset_id") for item in shot.get("reference_assets", []) if isinstance(item, dict)]
+            if generation.get("reference_asset_ids") != expected_refs:
+                errors.append(f"{label} generation reference_asset_ids do not match the approved shot references")
             if not re.fullmatch(r"[a-fA-F0-9]{64}", str(generation.get("output_sha256", ""))):
                 errors.append(f"{label} output_sha256 must be a 64-character hex digest")
             media = _safe_project_file(project_root, generation.get("output_path", ""))
@@ -150,11 +166,26 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
                 errors.append(f"{label} output file is missing or escapes the project directory")
             elif _sha256(media) != generation.get("output_sha256"):
                 errors.append(f"{label} output SHA-256 does not match the registered file")
+            metadata = generation.get("media_metadata")
+            if not isinstance(metadata, dict):
+                errors.append(f"{label} completed output requires ffprobe media_metadata")
+            else:
+                for field in ("duration_seconds", "frame_rate", "width", "height", "video_codec", "audio_codec"):
+                    if metadata.get(field) is None:
+                        errors.append(f"{label} media_metadata requires {field}")
+                media_duration = metadata.get("duration_seconds")
+                if isinstance(media_duration, (int, float)) and not isinstance(media_duration, bool) and abs(media_duration - duration) > 0.25:
+                    errors.append(f"{label} probed media duration does not match the shot duration")
             verification = generation.get("dropbox_verification")
             if not isinstance(verification, dict) or verification.get("reopened") is not True:
                 errors.append(f"{label} requires a recorded Dropbox reopen verification")
-            elif verification.get("sha256") != generation.get("output_sha256") or verification.get("file_id") != generation.get("dropbox_file_id"):
-                errors.append(f"{label} Dropbox reopen verification does not match the generated output")
+            else:
+                if verification.get("sha256") != generation.get("output_sha256") or verification.get("file_id") != generation.get("dropbox_file_id"):
+                    errors.append(f"{label} Dropbox reopen verification does not match the generated output")
+                if verification.get("path") != generation.get("dropbox_path") or not _nonempty(verification.get("reopened_at")):
+                    errors.append(f"{label} Dropbox verification requires matching path and reopened_at timestamp")
+                if verification.get("metadata_verified") is not True:
+                    errors.append(f"{label} Dropbox media metadata must be rechecked after reopen")
         elif state == "submitted" and (not _nonempty(generation.get("provider_job_id")) or not _nonempty(generation.get("model_id"))):
             errors.append(f"{label} submitted state requires provider_job_id and model_id")
     if shots.get("sequence_policy", {}).get("no_mock_fallback") is not True:

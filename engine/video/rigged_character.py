@@ -23,6 +23,31 @@ def _mat(name, color, roughness=0.48, subsurface=0.0):
     bsdf.inputs["Roughness"].default_value = roughness
     if "Subsurface Weight" in bsdf.inputs:
         bsdf.inputs["Subsurface Weight"].default_value = subsurface
+    if "skin" in name.lower():
+        nodes = mat.node_tree.nodes
+        links = mat.node_tree.links
+        texcoord = nodes.new("ShaderNodeTexCoord")
+        colour_noise = nodes.new("ShaderNodeTexNoise")
+        colour_noise.inputs["Scale"].default_value = 18.0
+        colour_noise.inputs["Detail"].default_value = 2.2
+        colour_ramp = nodes.new("ShaderNodeValToRGB")
+        colour_ramp.color_ramp.elements[0].position = 0.22
+        colour_ramp.color_ramp.elements[0].color = (color[0] * .88, color[1] * .88, color[2] * .88, 1.0)
+        colour_ramp.color_ramp.elements[1].position = 0.78
+        colour_ramp.color_ramp.elements[1].color = (min(color[0] * 1.08, 1.0), min(color[1] * 1.08, 1.0), min(color[2] * 1.08, 1.0), 1.0)
+        links.new(texcoord.outputs["Generated"], colour_noise.inputs["Vector"])
+        links.new(colour_noise.outputs["Fac"], colour_ramp.inputs["Fac"])
+        links.new(colour_ramp.outputs["Color"], bsdf.inputs["Base Color"])
+        pore_noise = nodes.new("ShaderNodeTexNoise")
+        pore_noise.inputs["Scale"].default_value = 125.0
+        pore_noise.inputs["Detail"].default_value = 3.0
+        pore_noise.inputs["Roughness"].default_value = .72
+        bump = nodes.new("ShaderNodeBump")
+        bump.inputs["Strength"].default_value = .14
+        bump.inputs["Distance"].default_value = .008
+        links.new(texcoord.outputs["Generated"], pore_noise.inputs["Vector"])
+        links.new(pore_noise.outputs["Fac"], bump.inputs["Height"])
+        links.new(bump.outputs["Normal"], bsdf.inputs["Normal"])
     return mat
 
 

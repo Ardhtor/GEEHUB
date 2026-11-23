@@ -228,5 +228,19 @@
       "doorway-scale-reference",
       "gym-tank-portrait"
     ]
+  },
+  "audio": {
+    "design": "Original procedural serum soundscape: laboratory room tone, sequoia-like wood-grain creaks, low serum pulse, sparse original 8-bit motif, controlled low-frequency climax",
+    "plan_manifest": "07_MANIFESTS/audio_plan.json",
+    "renderer": "engine/audio/procedural_soundscape.py",
+    "status": "engine-implemented; render-and-picture-sync-pending",
+    "master_format": "WAV PCM 24-bit, 48 kHz, stereo",
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1,
+    "duration_seconds": 60,
+    "external_sample_layer": "disabled-until-user-supplied-or-licensed-source-and-rights-clearance",
+    "audio_only_master": "06_AUDIO/GENERATED/<run-id>/serum-soundscape-master.wav",
+    "runtime_render_manifest": "07_MANIFESTS/audio_render.json",
+    "final_video_mix_status": "not-rendered"
   }
 }

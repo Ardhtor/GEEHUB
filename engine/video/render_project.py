@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 from growth_curves import validate_profile
+from stage_reference_image import validate_reference_library
 
 HERE = Path(__file__).resolve().parent
 DEFAULT_PROJECT = HERE.parent.parent / "production" / "projects" / "hulums-lab-serum-60s"
@@ -42,6 +43,13 @@ def validate(project: Path) -> tuple[dict, dict]:
     timeline = json.loads(timeline_path.read_text(encoding="utf-8"))
     profile_path = project / "07_MANIFESTS" / "growth_profile.json"
     profile = json.loads(profile_path.read_text(encoding="utf-8"))
+    reference_path = project / "07_MANIFESTS" / "reference_library.json"
+    reference_library = json.loads(reference_path.read_text(encoding="utf-8"))
+    reference_errors = validate_reference_library(reference_library)
+    if reference_errors:
+        raise ValueError("Invalid reference library: " + "; ".join(reference_errors))
+    if reference_library.get("project_id") != timeline.get("project_id"):
+        raise ValueError("Reference library project_id does not match timeline")
     fmt = manifest["format"]
     fps = int(timeline["timebase"]["fps"])
     duration = float(timeline["duration_seconds"])

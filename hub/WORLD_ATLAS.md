@@ -190,3 +190,10 @@ The waste district beneath the old yard has acquired a focal artifact: [The Nigh
 ### Chapter Fourteen — The Forge Under the Roots
 
 [The Forge Under the Roots](../lore/dimension/FIRST_ROOM_CHAPTER_14.md) brings Hephaestus into the Crownheart's inhabited workshop. He works with the survey crew to build a bronze-and-oak listening key, a repeatable contact instrument for studying vibration in the lower gate without reopening it. Craft, maintenance, and material evidence become another active part of the branch's pantheon and its ordinary communal life. The first room, the missing page, and the Dreadmaster remain unresolved.
+
+
+## Book II — local spatial map of Kirk's country
+
+**Entry:** [Book II — Local Spatial Atlas](../novel/chapters/BOOK_II_SPATIAL_ATLAS.md)
+
+Book II's Kirk expedition has its own local map for the Upper Ridge, First Shelter, Old Trail, Measure House, Long Fold, Warm Table, lower opening, and paired residential country. The paired country contains Laskin Mansion, the Record House, the Canvas House, and the House of Returns around a shared green and covered walks. The local atlas records known, open, experimental, and retired states; it deliberately leaves coordinates and exact estate positions unassigned until a repeatable survey establishes them. This is a local sub-atlas, not a new independent world and not a merger with Veyrthalis, Kirk's separate mental house, or the Colossus Chronicles. Chapter IV, [The Promises That Keep](../novel/chapters/BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md), and Chapter V, [Four Mansions](../novel/chapters/BOOK_II_CHAPTER_V_FOUR_MANSIONS.md), carry the relationship and residential developments while preserving the local canon boundaries.

@@ -148,7 +148,7 @@ def estimate_continuous_sequence(
     }
 
 
-def prompt_with_reference_slots(prompt: str, pinned_first_frame: bool) -> str:
+def prompt_with_reference_slots(prompt: str, pinned_first_frame: bool, reference_count: int = 6) -> str:
     """Shift reference-image tokens when the pinned first frame occupies IMAGE_0."""
     if not pinned_first_frame:
         return prompt
@@ -156,7 +156,13 @@ def prompt_with_reference_slots(prompt: str, pinned_first_frame: bool) -> str:
         prompt = prompt.replace(f"<IMAGE_{index}>", f"__GEEHUB_IMAGE_{index}__")
     for index in range(MAX_REFERENCE_IMAGES):
         prompt = prompt.replace(f"__GEEHUB_IMAGE_{index}__", f"<IMAGE_{index + 1}>")
-    return "The pinned first frame is <IMAGE_0>; preserve it as the exact opening frame. " + prompt
+    reference_end = max(1, min(reference_count, MAX_REFERENCE_IMAGES))
+    return (
+        "The pinned first frame is <IMAGE_0>; preserve it as the exact opening frame. "
+        f"The selected image-library references occupy <IMAGE_1> through <IMAGE_{reference_end}>; "
+        "use them only for the approved physique, scale and garment references, never to copy a real person's identity. "
+        + prompt
+    )
 
 
 def build_generation_payload(
@@ -673,7 +679,7 @@ def generate_continuous_sequence(
             expected_previous_frame = previous_last_frame_sha256
             filename = f"segment-{order:02d}.mp4"
             template_prompt = shot["prompt"]
-            prompt = prompt_with_reference_slots(template_prompt, bool(previous_frame_file_id))
+            prompt = prompt_with_reference_slots(template_prompt, bool(previous_frame_file_id), len(reference_file_ids))
             payload = build_generation_payload(
                 prompt=prompt,
                 reference_file_ids=reference_file_ids,
@@ -798,6 +804,13 @@ def generate_continuous_sequence(
         write_json_atomic(run_path, run_manifest)
         raise
 
+def default_project_path() -> Path:
+    configured = os.environ.get("GEEHUB_PROJECT_ROOT")
+    if configured:
+        return Path(configured).expanduser()
+    return Path(__file__).resolve().parents[2] / "production" / "projects" / "hulums-lab-serum-60s"
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -806,9 +819,9 @@ def main(argv=None) -> int:
     estimate_parser.add_argument("--segment-duration", type=int, default=15)
     estimate_parser.add_argument("--resolution", choices=sorted(ALLOWED_RESOLUTIONS), default="720p")
     check_parser = sub.add_parser("check", help="Check local connection and approval state without API calls")
-    check_parser.add_argument("--project", type=Path, default=Path(__file__).resolve().parents[2] / "production" / "projects" / "hulums-lab-serum-60s")
+    check_parser.add_argument("--project", type=Path, default=default_project_path())
     generate_parser = sub.add_parser("generate", help="Generate only after explicit provider and cost approval")
-    generate_parser.add_argument("--project", type=Path, default=Path(__file__).resolve().parents[2] / "production" / "projects" / "hulums-lab-serum-60s")
+    generate_parser.add_argument("--project", type=Path, default=default_project_path())
     generate_parser.add_argument("--duration", type=int, default=60)
     generate_parser.add_argument("--segment-duration", type=int, default=15)
     generate_parser.add_argument("--resolution", choices=sorted(ALLOWED_RESOLUTIONS), default="720p")
@@ -833,13 +846,26 @@ def main(argv=None) -> int:
                 "data_transfer_approval_status": provider.get("data_transfer_approval_status"),
                 "reference_rights_clearance_status": provider.get("reference_rights_clearance_status"),
                 "cost_approval_file_present": approval_path.is_file(),
+                "cost_approval_record_status": approval.get("status"),
+                "approved_max_usd": approval.get("max_usd"),
+                "reference_data_transfer_approved": approval.get("reference_data_transfer_approved"),
+                "reference_rights_cleared": approval.get("reference_rights_cleared"),
+                "approved_reference_asset_ids": approval.get("reference_asset_ids"),
                 "estimated_60s_720p_usd": estimate["estimated_cost_usd"],
                 "generation_submitted": False,
             }
             print(json.dumps(result, indent=2))
             return 0
         estimate = estimate_continuous_sequence(args.duration, args.segment_duration, args.resolution)
-        validate_generation_authorization(provider, approval, estimate, project.name, DEFAULT_REFERENCE_ASSETS)
+        shot_manifest = load_json(project / "07_MANIFESTS" / "shots.json")
+        shot_list = shot_manifest.get("shots", [])
+        if not shot_list or not isinstance(shot_list[0], dict):
+            raise ValueError("Shot manifest contains no selected reference assets")
+        reference_asset_ids = [
+            item.get("asset_id") for item in shot_list[0].get("reference_assets", [])
+            if isinstance(item, dict)
+        ]
+        validate_generation_authorization(provider, approval, estimate, project.name, reference_asset_ids)
         client = XAIClient()
         result = generate_continuous_sequence(
             project, client, provider, approval,

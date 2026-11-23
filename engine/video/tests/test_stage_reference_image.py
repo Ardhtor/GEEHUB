@@ -119,6 +119,42 @@ class ReferenceImageStagingTests(unittest.TestCase):
         with self.assertRaises(FileExistsError):
             stage_reference_image(self.project, "test-reference", changed)
 
+
+    def test_rejects_path_traversal_asset_ids(self):
+        with self.assertRaisesRegex(ValueError, "lowercase letters"):
+            stage_reference_image(self.project, "../escape", self.source)
+        manifest = json.loads((self.project / "07_MANIFESTS" / "reference_library.json").read_text(encoding="utf-8"))
+        manifest["assets"][0]["asset_id"] = "../escape"
+        self.assertTrue(any("safe lowercase asset_id" in error for error in validate_reference_library(manifest)))
+
+    def test_rejects_source_size_that_does_not_match_library_record(self):
+        manifest_path = self.project / "07_MANIFESTS" / "reference_library.json"
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        manifest["assets"][0]["size_bytes"] += 1
+        manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "size does not match"):
+            stage_reference_image(self.project, "test-reference", self.source)
+
+    def test_rejects_symlinked_staging_directory(self):
+        source_parent = self.project / "01_SOURCE"
+        outside = self.root / "outside"
+        outside.mkdir()
+        try:
+            source_parent.symlink_to(outside, target_is_directory=True)
+        except OSError:
+            self.skipTest("symlink creation is not available on this runner")
+        with self.assertRaisesRegex(ValueError, "must not be symlinks"):
+            stage_reference_image(self.project, "test-reference", self.source)
+
+    def test_rejects_tampered_existing_provenance_sidecar(self):
+        result = stage_reference_image(self.project, "test-reference", self.source)
+        sidecar_path = Path(result["sidecar"])
+        sidecar = json.loads(sidecar_path.read_text(encoding="utf-8"))
+        sidecar["staged"]["sha256"] = "0" * 64
+        sidecar_path.write_text(json.dumps(sidecar), encoding="utf-8")
+        with self.assertRaisesRegex(FileExistsError, "sidecar conflicts"):
+            stage_reference_image(self.project, "test-reference", self.source)
+
     def test_rejects_unsupported_extension_and_manifest_id(self):
         wrong = self.root / "source.gif"
         wrong.write_bytes(b"GIF89a")

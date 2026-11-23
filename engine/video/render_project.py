@@ -12,6 +12,7 @@ from pathlib import Path
 
 from growth_curves import validate_profile
 from growth_geometry import validate_pectorals_geometry
+from production_validation import load_and_validate
 from stage_reference_image import validate_image_library_index, validate_reference_library
 
 HERE = Path(__file__).resolve().parent
@@ -93,6 +94,9 @@ def validate(project: Path) -> tuple[dict, dict]:
     missing_references = sorted(set(reference_asset_ids) - library_asset_ids)
     if missing_references:
         raise ValueError("Pectoral geometry references missing library assets: " + ", ".join(missing_references))
+    production_errors, production_report = load_and_validate(project)
+    if production_errors:
+        raise ValueError("Invalid video production manifests: " + "; ".join(production_errors))
     fmt = manifest["format"]
     fps = int(timeline["timebase"]["fps"])
     duration = float(timeline["duration_seconds"])

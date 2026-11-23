@@ -2933,3 +2933,11 @@ SETH: A line becomes visible between ATHLETIC COMMONS and NORTHGATE UNIVERSITY. 
 NICK: The athletic grounds welcome students for training, swimming, recovery and companionship; physical culture is part of a balanced campus life. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: worlds/athletic-commons/README.md. Pressure 1.00; memory 1.00.
+
+## NORTHGATE UNIVERSITY / pulse 336 / ATMOSPHERE
+
+SETH: Northgate University rises above the reservoir beneath old trees and open sky. The central quad is green and broad, enclosed by pale stone lecture halls, brick laboratories, timber galleries and workshops whose windows reveal models, instruments and small machines.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Source retained: worlds/northgate-university/README.md. Pressure 1.00; memory 1.00.

@@ -2589,3 +2589,11 @@ SETH: A line becomes visible between ATHLETIC COMMONS and NORTHGATE UNIVERSITY. 
 NICK: The athletic grounds welcome students for training, swimming, recovery and companionship; physical culture is part of a balanced campus life. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 336 — ATMOSPHERE / NORTHGATE UNIVERSITY / 2026-11-23T02:32:04.131795+00:00
+
+SETH: Northgate University rises above the reservoir beneath old trees and open sky. The central quad is green and broad, enclosed by pale stone lecture halls, brick laboratories, timber galleries and workshops whose windows reveal models, instruments and small machines.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

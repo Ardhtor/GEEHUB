@@ -188,3 +188,14 @@ Supported inputs are PNG, JPEG, and WebP up to 100 MB. GEEHUB makes a separate c
 
 
 The pectoral deformation is no longer only a code constant: the project growth profile stores the three regions' local-space centres, radii, and offsets, and names the image-library assets used to author them. The renderer validates those IDs against the reference manifest before it starts. This is a manually calibrated qualitative fit; single 2D images do not provide depth, reliable world scale, or automatic anatomical measurements. The headless Blender 5.3 integration test exercises real shape-key creation, mirrored projection, and final-frame curve evaluation.
+
+
+## Provider-generated shot assembly
+
+After two real provider-generated clips have been registered in `07_MANIFESTS/shots.json`, with provider job/model/prompt provenance, FFprobe metadata, checksums, and Dropbox reopen verification, assemble them with:
+
+```bash
+python3 engine/video/shot_sequence.py --output production/projects/hulums-lab-serum-60s/04_COMPOSITES/serum-provider-proof.otio
+```
+
+The assembler refuses draft shots, checks each media file with FFprobe, compares the probe against the registered metadata, builds a sequential OpenTimelineIO video track with per-shot provenance, writes the OTIO file, and reopens it to verify clip order. It does not create, simulate, or substitute video footage.

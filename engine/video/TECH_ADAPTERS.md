@@ -21,6 +21,18 @@ Attach a source video as the continuous picture clip:
 
 The adapter does not decode, copy, or alter the source video. It writes an external media reference and carries GEEHUB stage notes, camera direction, growth instructions, and sound cues as marker metadata.
 
+## Native Gaussian Splat PLY import
+
+Blender 5.3 can detect and import Gaussian Splat PLY files as native point clouds. GEEHUB wraps the importer with a verification step: the imported point cloud must contain the Gaussian Splat attributes `scale`, `rotation`, and `radiance:base`. A normal PLY mesh is not silently accepted as a Gaussian Splat capture.
+
+Run:
+
+    python3 engine/video/gee_engine.py import-splat \
+      --source /path/to/capture.ply \
+      --output production/assets/captures/capture.blend
+
+The source PLY remains untouched. GEEHUB writes a separate .blend file and a .source.json sidecar with the source SHA-256, byte size, Blender version, imported point count, and verified attribute names. The importer refuses unsupported Blender versions and unverified PLY data.
+
 ## Capability detection
 
 Run:

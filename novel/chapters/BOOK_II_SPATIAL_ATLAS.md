@@ -30,10 +30,10 @@ The local names are working names that may be refined as the residents inhabit t
 
 | ID | Residence | Resident | Architectural character | Status |
 |---|---|---|---|---|
-| `laskin-mansion` | Laskin Mansion | Robert Laskin | Private estate with a substantial library, illuminated reading rooms, a miniature theatre, recreation hall, gardens, and a broad viewing gallery | Established from the earlier Laskin Residency |
-| `chase-house` | The Record House | Chase | Quiet mansion with an archive gallery, map room, paired studies for competing accounts, an observatory, and a long terrace | Newly established |
-| `gabe-house` | The Canvas House | Gabe | Spacious residence with a training court, open studio, gardens, earlier-baseline gallery, and rooms for private recovery away from public attention | Newly established |
-| `joseph-house` | The House of Returns | Joseph | Warm timber mansion with a central hearth, library, guest rooms, private sitting rooms, and a sheltered walk connecting to the shared green | Newly established |
+| `laskin-mansion` | Laskin Mansion | [Robert Laskin](../../characters/records/ROBERT_LASKIN.md) | Private estate with a substantial library, illuminated reading rooms, a miniature theatre, recreation hall, gardens, and a broad viewing gallery | Established from the earlier Laskin Residency |
+| `chase-house` | The Record House | [Chase](../../characters/records/CHASE.md) | Quiet mansion with an archive gallery, map room, paired studies for competing accounts, an observatory, and a long terrace | Newly established |
+| `gabe-house` | The Canvas House | [Gabe](../../characters/records/GABE.md) | Spacious residence with a training court, open studio, gardens, earlier-baseline gallery, and rooms for private recovery away from public attention | Newly established |
+| `joseph-house` | The House of Returns | [Joseph](../JOSEPH_KIRK_CONTINUITY.md) | Warm timber mansion with a central hearth, library, guest rooms, private sitting rooms, and a sheltered walk connecting to the shared green | Newly established |
 
 A shared green and covered walk connect the four estates without making them one household. The green contains a long table, fountain, mature trees, playing field, and pavilion. A common kitchen and recreation hall stand apart from the private gardens. Each resident controls his own rooms and routines. Visiting is by invitation; a shared meal or gathering does not suspend anyone's right to leave or be alone. The exact placement of each mansion within the paired chambers remains unmeasured; relative positions must be added only when a later scene establishes them.
 

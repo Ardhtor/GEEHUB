@@ -18269,6 +18269,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000345",
+      "created_at": "2026-11-23T18:38:04.014126+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "CAT GARDENS",
+      "content": "NICK: The world crosses the route from FOUNDERS DORMITORY into CAT GARDENS. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: Sheltered courtyards shared with resident cats; warm steps, water bowls, catmint, quiet benches, and a local sign of good luck. Relation carried forward: THE DORM GARDEN PATH.",
+      "lineage": {
+        "event_id": "world-pulse-000345",
+        "event": {
+          "id": "world-pulse-000345",
+          "pulse": 345,
+          "time": "2026-11-23T18:38:04.014126+00:00",
+          "actor": "JOSEPH",
+          "world": "CAT GARDENS",
+          "region_id": "cat-gardens",
+          "previous_region_id": "founders-dormitory",
+          "phase": "CROSSING",
+          "source": "worlds/cat-gardens/README.md",
+          "desire_state": "continuity",
+          "action": "NICK: The world crosses the route from FOUNDERS DORMITORY into CAT GARDENS. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: Sheltered courtyards shared with resident cats; warm steps, water bowls, catmint, quiet benches, and a local sign of good luck. Relation carried forward: THE DORM GARDEN PATH.",
+          "narrative_rule": "meaningful change becomes an outward-facing signal",
+          "relation": "THE DORM GARDEN PATH",
+          "next_region": null,
+          "pressure": 0.88,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-23T18:38:04.014126+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000345",
+      "created_at": "2026-11-23T18:38:04.014126+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "CROSSING / CAT GARDENS / worlds/cat-gardens/README.md",
+      "content": "NICK: The world crosses the route from FOUNDERS DORMITORY into CAT GARDENS. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: Sheltered courtyards shared with resident cats; warm steps, water bowls, catmint, quiet benches, and a local sign of good luck. Relation carried forward: THE DORM GARDEN PATH.",
+      "production_note": "The world resolved its crossing rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 345,
+        "actor": "JOSEPH",
+        "world": "CAT GARDENS",
+        "region_id": "cat-gardens",
+        "source": "worlds/cat-gardens/README.md",
+        "phase": "CROSSING",
+        "relation": "THE DORM GARDEN PATH"
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00176",
+      "created_at": "2026-11-23T18:38:04.192716+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE COURTYARD AFTER RAIN",
+      "content": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+      "lineage": {
+        "event_id": "northgate-campus-00176",
+        "event": {
+          "id": "northgate-campus-00176",
+          "cycle": 176,
+          "world_pulse": 345,
+          "at": "2026-11-23T18:38:04.192716+00:00",
+          "region": "founders-dormitory",
+          "title": "THE COURTYARD AFTER RAIN",
+          "kind": "social",
+          "participants": [
+            "Marek Ionescu",
+            "Noah Bell",
+            "Adrian Varga"
+          ],
+          "description": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-23T18:38:04.192716+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

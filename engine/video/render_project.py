@@ -106,7 +106,7 @@ def main() -> int:
 
     blender = find_blender(args.blender)
     if not blender:
-        print("BLENDER NOT FOUND. Install Blender 4.x or pass --blender /path/to/blender.", file=sys.stderr)
+        print("BLENDER NOT FOUND. Install Blender 5.3+ (recommended) or pass --blender /path/to/blender.", file=sys.stderr)
         return 3
 
     exports = project / "05_EXPORTS"

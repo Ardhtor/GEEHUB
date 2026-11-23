@@ -307,6 +307,102 @@
           0.78
         ]
       ]
+    },
+    "pectorals_projection": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          17,
+          0.2
+        ],
+        [
+          30,
+          0.5
+        ],
+        [
+          46,
+          0.84
+        ],
+        [
+          55,
+          1
+        ],
+        [
+          60,
+          1
+        ]
+      ]
+    },
+    "pectorals_upper": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          20,
+          0.14
+        ],
+        [
+          34,
+          0.45
+        ],
+        [
+          49,
+          0.82
+        ],
+        [
+          56,
+          0.96
+        ],
+        [
+          60,
+          0.96
+        ]
+      ]
+    },
+    "pectorals_outer": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          22,
+          0.16
+        ],
+        [
+          36,
+          0.47
+        ],
+        [
+          50,
+          0.82
+        ],
+        [
+          56,
+          0.96
+        ],
+        [
+          60,
+          0.96
+        ]
+      ]
     }
   },
   "deformation": {
@@ -316,7 +412,17 @@
     "bilateral_symmetry": true,
     "wardrobe_response": "The fitted torso shell, training shorts and paired shoulder straps receive the same regional shape-key controls as the skin. This is a geometric fit/tension proxy, not cloth simulation or tearing.",
     "environment_response": "Not yet simulated; architecture remains a scale reference.",
-    "secondary_motion": "Not yet simulated."
+    "secondary_motion": "Not yet simulated.",
+    "pectorals": {
+      "method": "bilateral-gaussian-shape-key-layers",
+      "channels": [
+        "pectorals_projection",
+        "pectorals_upper",
+        "pectorals_outer"
+      ],
+      "description": "Forward projection, clavicular fullness, and outer sweep are separately timed shape-key channels. Each channel is mirrored and local to the chest; the legacy pectorals channel remains the fallback master for older profiles.",
+      "facing": "-Y"
+    }
   },
   "evidence": {
     "status": "authored-production-design",

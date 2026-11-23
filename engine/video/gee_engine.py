@@ -68,9 +68,12 @@ def blender_capabilities(blender: str | None) -> dict:
     match = re.search(r"Blender\s+(\d+)\.(\d+)(?:\.(\d+))?", version_text)
     version = tuple(int(part or 0) for part in match.groups()) if match else None
     otio_available = False
+    ply_import_available = False
     if version and version >= (5, 3, 0):
         probe = (
-            "import bpy, opentimelineio; "
+            "import bpy; "
+            "print('GEEHUB_PLY_IMPORT:' + str(hasattr(bpy.ops.wm, 'ply_import'))); "
+            "import opentimelineio; "
             "print('GEEHUB_OTIO_OK:' + bpy.app.version_string)"
         )
         try:
@@ -78,13 +81,16 @@ def blender_capabilities(blender: str | None) -> dict:
                 [blender, "--background", "--python-expr", probe],
                 capture_output=True, text=True, timeout=45,
             )
-            otio_available = result.returncode == 0 and "GEEHUB_OTIO_OK:" in (result.stdout + result.stderr)
+            probe_output = result.stdout + result.stderr
+            otio_available = result.returncode == 0 and "GEEHUB_OTIO_OK:" in probe_output
+            ply_import_available = result.returncode == 0 and "GEEHUB_PLY_IMPORT:True" in probe_output
         except (OSError, subprocess.TimeoutExpired):
             otio_available = False
+            ply_import_available = False
     return {
         "version": version_text or None,
         "opentimelineio": otio_available,
-        "gaussian_splat_import": bool(version and version >= (5, 3, 0)),
+        "gaussian_splat_import": ply_import_available,
     }
 
 
@@ -329,19 +335,42 @@ def export_otio(timeline: Path, output: Path, media: Path | None = None) -> int:
     return subprocess.run(command, check=False).returncode
 
 
+def import_gaussian_splat(source: Path, output: Path, name: str) -> int:
+    blender, _ = binaries()
+    if not blender:
+        print("BLENDER NOT FOUND. Install Blender 5.3+ or set GEEHUB_BLENDER.", file=sys.stderr)
+        return 2
+    if source.suffix.lower() != ".ply" or not source.expanduser().is_file():
+        print("SOURCE ERROR: provide an existing Gaussian-splat .ply file.", file=sys.stderr)
+        return 2
+    command = [
+        blender, "--background", "--python", str(HERE / "import_gaussian_splat.py"), "--",
+        "--source", str(source.expanduser().resolve()),
+        "--output", str(output.expanduser().resolve()),
+        "--name", name,
+    ]
+    return subprocess.run(command, check=False).returncode
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="GEEHUB local video engine")
-    parser.add_argument("command", choices=["doctor", "serve", "export-otio"])
+    parser.add_argument("command", choices=["doctor", "serve", "export-otio", "import-splat"])
     parser.add_argument("--timeline", type=Path, help="GEEHUB timeline.json for OTIO export")
     parser.add_argument("--output", type=Path, help="Output .otio path")
     parser.add_argument("--media", type=Path, help="Optional source media for OTIO export")
+    parser.add_argument("--source", type=Path, help="Gaussian-splat PLY source for import-splat")
+    parser.add_argument("--name", default="GEEHUB / Gaussian Splat Capture", help="Imported capture collection name")
     args = parser.parse_args()
     if args.command == "doctor":
         code = doctor()
     elif args.command == "serve":
         code = serve() or 0
-    else:
+    elif args.command == "export-otio":
         if not args.timeline or not args.output:
             parser.error("export-otio requires --timeline and --output")
         code = export_otio(args.timeline, args.output, args.media)
+    else:
+        if not args.source or not args.output:
+            parser.error("import-splat requires --source and --output")
+        code = import_gaussian_splat(args.source, args.output, args.name)
     sys.exit(code)

@@ -19,3 +19,5 @@ The raw archive remains authoritative for what a conversation actually contained
 - [Gods of Domination and Submission](GODS_OF_DOMINATION_AND_SUBMISSION.md) — the mythic framework for invited authority, chosen yielding, boundaries, and return.
 
 - [The Low Bar — Ordinary Men Belong](LOW_BAR_ORDINARY_MEN.md) — a world-wide rule making belonging, attraction, and friendship easy for ordinary adult men without lowering consent or safety standards.
+
+- [The Great Tribal Territories](TRIBAL_TERRITORIES.md) — the connected territorial framework for Redwood, Mexiancas, Dad Convent, Gold's on 5th, and the Foggy Dark Expanse, with distinct societies, continuity boundaries, and the Brawn Intelligence writing principle.

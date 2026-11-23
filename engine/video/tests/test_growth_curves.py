@@ -43,6 +43,12 @@ class GrowthCurveTests(unittest.TestCase):
         self.assertEqual(samples[-1][0], 1440)
         self.assertAlmostEqual(samples[-1][1]["pectorals"], 1.0)
 
+    def test_pectorals_have_independent_timing_channels(self):
+        self.assertTrue({"pectorals_projection", "pectorals_upper", "pectorals_outer"}.issubset(DEFAULT_PROFILE))
+        values = evaluate_profile(DEFAULT_PROFILE, 18)
+        self.assertGreater(values["pectorals_projection"], values["pectorals_upper"])
+        self.assertGreater(values["pectorals_projection"], values["pectorals_outer"])
+
     def test_invalid_profile_is_rejected(self):
         invalid = {"pectorals": ((0, 0.0), (2, 0.8), (1, 0.9))}
         self.assertTrue(validate_profile(invalid))

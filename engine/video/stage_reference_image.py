@@ -26,9 +26,9 @@ def sha256_file(path: Path) -> str:
 def image_format(path: Path) -> str:
     with path.open("rb") as handle:
         header = handle.read(12)
-    if header.startswith(b"\\x89PNG\\r\\n\\x1a\\n"):
+    if header.startswith(b"\x89PNG\r\n\x1a\n"):
         return "png"
-    if header.startswith(b"\\xff\\xd8"):
+    if header.startswith(b"\xff\xd8"):
         return "jpeg"
     if header.startswith(b"RIFF") and header[8:12] == b"WEBP":
         return "webp"

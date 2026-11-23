@@ -178,6 +178,7 @@ class ShotSequenceTests(unittest.TestCase):
 
     def test_generated_local_segments_require_explicit_local_preview(self):
         for shot in self.shots["shots"]:
+            shot["status"] = "generated-local"
             generation = shot["generation"]
             generation["status"] = "generated-local"
             generation["dropbox_file_id"] = None

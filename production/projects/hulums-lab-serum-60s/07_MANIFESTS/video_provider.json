@@ -1,0 +1,29 @@
+{
+  "schema": "geehub.video-provider/1",
+  "provider_id": "xai-grok-imagine-video",
+  "display_name": "Grok Imagine Video",
+  "connection_status": "not-connected-in-current-workspace",
+  "api_adapter_status": "not-implemented",
+  "generation_enabled": false,
+  "cost_approval_required": true,
+  "cost_approval_status": "not-granted",
+  "mock_mode": false,
+  "fallback_policy": "Never substitute still-image slideshows, stock clips, Blender placeholder motion, or fabricated provider job records for real provider-generated video.",
+  "required_job_metadata": [
+    "provider_job_id",
+    "model_id",
+    "prompt_revision",
+    "reference_asset_ids",
+    "submitted_at",
+    "completed_at",
+    "duration_seconds",
+    "frame_rate",
+    "width",
+    "height",
+    "video_codec",
+    "audio_codec",
+    "provider_output_id",
+    "output_sha256"
+  ],
+  "note": "The canonical Dropbox production specification names Grok Imagine Video through a connected model catalog. No matching Grok/Weave generation connection is available in this workspace. A different provider must not be substituted without explicit user approval."
+}

@@ -2621,3 +2621,11 @@ NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the gr
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 340 — ROUTE_OPEN / NORTHGATE UNIVERSITY / 2026-11-23T17:16:23.241969+00:00
+
+SETH: A line becomes visible between NORTHGATE UNIVERSITY and FOUNDERS DORMITORY. The archive names the relation "ROOMS ABOVE THE QUADRANGLE".
+
+NICK: The covered walk leads to a residential college where students share kitchens, common rooms, projects and the small rituals of daily life. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

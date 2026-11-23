@@ -1,5 +1,5 @@
 {
-  "pulse": 339,
+  "pulse": 340,
   "events": [
     {
       "pulse": 1,
@@ -6475,6 +6475,28 @@
       "occurred_at": "2026-11-23T17:04:45.022646+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000340",
+      "pulse": 340,
+      "time": "2026-11-23T17:16:23.241969+00:00",
+      "actor": "KIRK",
+      "world": "NORTHGATE UNIVERSITY",
+      "region_id": "northgate-university",
+      "previous_region_id": "northgate-university",
+      "phase": "ROUTE_OPEN",
+      "source": "worlds/northgate-university/README.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between NORTHGATE UNIVERSITY and FOUNDERS DORMITORY. The archive names the relation \"ROOMS ABOVE THE QUADRANGLE\".\n\nNICK: The covered walk leads to a residential college where students share kitchens, common rooms, projects and the small rituals of daily life. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "ROOMS ABOVE THE QUADRANGLE",
+      "next_region": "founders-dormitory",
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-23T17:16:23.241969+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -6543,20 +6565,25 @@
     "worlds/cedar-house/README.md": 17,
     "worlds/cat-gardens/README.md": 23,
     "worlds/founders-dormitory/README.md": 15,
-    "worlds/northgate-university/README.md": 26,
+    "worlds/northgate-university/README.md": 27,
     "worlds/bluewater-quay/README.md": 16,
     "worlds/lantern-market/README.md": 13,
     "worlds/northgate-library/README.md": 24,
     "worlds/athletic-commons/README.md": 13
   },
-  "next_region": null,
-  "phase": 2,
+  "next_region": "founders-dormitory",
+  "phase": 3,
   "active_region": "northgate-university",
-  "current_phase": "MEMORY",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
-  "next_relation": null,
+  "current_phase": "ROUTE_OPEN",
+  "current_desire_state": "tension",
+  "current_question": "Which existing relation now becomes traversable?",
+  "current_narrative_rule": "arrival activates aftermath",
+  "next_relation": {
+    "title": "ROOMS ABOVE THE QUADRANGLE",
+    "text": "The covered walk leads to a residential college where students share kitchens, common rooms, projects and the small rituals of daily life.",
+    "from": "northgate-university",
+    "to": "founders-dormitory"
+  },
   "long_play": {
     "cycle": 235,
     "agent": "chase",

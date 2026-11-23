@@ -2965,3 +2965,11 @@ NICK: A detail returns in NORTHGATE UNIVERSITY: Adult male students cross the gr
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/northgate-university/README.md.
 
 Source retained: worlds/northgate-university/README.md. Pressure 1.00; memory 1.00.
+
+## NORTHGATE UNIVERSITY / pulse 340 / ROUTE_OPEN
+
+SETH: A line becomes visible between NORTHGATE UNIVERSITY and FOUNDERS DORMITORY. The archive names the relation "ROOMS ABOVE THE QUADRANGLE".
+
+NICK: The covered walk leads to a residential college where students share kitchens, common rooms, projects and the small rituals of daily life. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Source retained: worlds/northgate-university/README.md. Pressure 1.00; memory 1.00.

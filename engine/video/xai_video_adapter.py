@@ -245,6 +245,10 @@ def validate_generation_authorization(
         raise ValueError("Cost approval model/resolution does not match the requested generation plan")
     if approval.get("total_duration_seconds") != estimate["total_duration_seconds"]:
         raise ValueError("Cost approval duration does not match the requested generation plan")
+    if approval.get("segment_duration_seconds") != estimate["segments"][0]["duration_seconds"]:
+        raise ValueError("Cost approval segment duration does not match the requested generation plan")
+    if approval.get("estimated_cost_usd") != estimate["estimated_cost_usd"]:
+        raise ValueError("Cost approval estimate does not match the current provider price estimate")
     if approval.get("reference_data_transfer_approved") is not True:
         raise ValueError("Cost approval does not authorize transfer of the selected reference images")
     if approval.get("reference_rights_cleared") is not True:

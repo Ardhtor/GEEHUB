@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from production_validation import evaluate_acceptance, validate_provider_manifest, validate_shot_manifest, validate_staged_references
+from production_validation import evaluate_acceptance, validate_cost_approval_manifest, validate_provider_manifest, validate_shot_manifest, validate_staged_references
 
 
 class ProductionValidationTests(unittest.TestCase):
@@ -53,6 +53,88 @@ class ProductionValidationTests(unittest.TestCase):
             "sequence_policy": {"no_mock_fallback": True}
         }
         self.root = Path(tempfile.mkdtemp())
+
+
+    def test_xai_cost_approval_template_matches_provider_and_reference_scope(self):
+        provider = {
+            "schema": "geehub.video-provider/1",
+            "provider_id": "xai-grok-imagine-video",
+            "display_name": "Grok Imagine Video (xAI API)",
+            "connection_status": "not-connected-in-current-workspace",
+            "api_adapter_status": "implemented",
+            "generation_enabled": False,
+            "cost_approval_required": True,
+            "cost_approval_status": "not-granted",
+            "data_transfer_approval_required": True,
+            "data_transfer_approval_status": "not-granted",
+            "reference_rights_clearance_required": True,
+            "reference_rights_clearance_status": "not-verified",
+            "mock_mode": False,
+            "fallback_policy": "Never substitute mock or placeholder media for real provider output.",
+            "api": {"base_url": "https://api.x.ai/v1"},
+            "generation_workflow": {
+                "model_id": "grok-imagine-video-1.5",
+                "segment_duration_seconds": 15,
+                "total_duration_seconds": 60,
+                "provider_resolution": "1280x720",
+            },
+            "pricing": {
+                "resolution": "720p",
+                "estimated_total_usd": 8.4,
+            },
+        }
+        refs = [{"asset_id": "ref-a"}, {"asset_id": "ref-b"}]
+        shots = {"project_id": "hulums-lab-serum-60s", "shots": [{"reference_assets": refs}]}
+        approval = {
+            "schema": "geehub.provider-cost-approval/1",
+            "project_id": "hulums-lab-serum-60s",
+            "provider_id": "xai-grok-imagine-video",
+            "status": "not-granted",
+            "approved_by": None,
+            "approved_at": None,
+            "max_usd": None,
+            "model": "grok-imagine-video-1.5",
+            "resolution": "720p",
+            "total_duration_seconds": 60,
+            "segment_duration_seconds": 15,
+            "estimated_cost_usd": 8.4,
+            "reference_data_transfer_approved": False,
+            "reference_rights_cleared": False,
+            "reference_asset_ids": ["ref-a", "ref-b"],
+        }
+        self.assertEqual(validate_provider_manifest(provider), [])
+        self.assertEqual(validate_cost_approval_manifest(approval, provider, shots), [])
+        approval["reference_asset_ids"] = ["ref-a"]
+        self.assertTrue(any("reference_asset_ids" in error for error in validate_cost_approval_manifest(approval, provider, shots)))
+
+    def test_xai_generation_cannot_be_enabled_without_cost_transfer_and_rights_approval(self):
+        provider = {
+            "schema": "geehub.video-provider/1",
+            "provider_id": "xai-grok-imagine-video",
+            "display_name": "Grok Imagine Video (xAI API)",
+            "connection_status": "connected",
+            "api_adapter_status": "implemented",
+            "generation_enabled": True,
+            "cost_approval_required": True,
+            "cost_approval_status": "not-granted",
+            "data_transfer_approval_required": True,
+            "data_transfer_approval_status": "not-granted",
+            "reference_rights_clearance_required": True,
+            "reference_rights_clearance_status": "not-verified",
+            "mock_mode": False,
+            "fallback_policy": "Never substitute mock or placeholder media for real provider output.",
+            "api": {"base_url": "https://api.x.ai/v1"},
+            "generation_workflow": {
+                "model_id": "grok-imagine-video-1.5",
+                "segment_duration_seconds": 15,
+                "total_duration_seconds": 60,
+            },
+            "pricing": {"resolution": "720p", "estimated_total_usd": 8.4},
+        }
+        errors = validate_provider_manifest(provider)
+        self.assertTrue(any("explicit cost approval" in error for error in errors))
+        self.assertTrue(any("reference-image transfer approval" in error for error in errors))
+        self.assertTrue(any("reference-image rights" in error for error in errors))
 
     def test_provider_manifest_keeps_generation_disabled_without_approval(self):
         self.assertEqual(validate_provider_manifest(self.provider), [])

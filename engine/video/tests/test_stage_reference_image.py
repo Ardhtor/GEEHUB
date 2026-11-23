@@ -45,9 +45,9 @@ class ReferenceImageStagingTests(unittest.TestCase):
     def test_reads_jpeg_dimensions(self):
         jpeg = self.root / "source.jpg"
         jpeg.write_bytes(
-            b"\\xff\\xd8\\xff\\xc0\\x00\\x11\\x08"
+            b"\xff\xd8\xff\xc0\x00\x11\x08"
             + struct.pack(">HH", 480, 640)
-            + b"\\x03\\x01\\x11\\x00\\x02\\x11\\x00\\x03\\x11\\x00\\xff\\xd9"
+            + b"\x03\x01\x11\x00\x02\x11\x00\x03\x11\x00\xff\xd9"
         )
         self.assertEqual(image_dimensions(jpeg), (640, 480))
         self.assertEqual(image_format(jpeg), "jpeg")
@@ -55,7 +55,7 @@ class ReferenceImageStagingTests(unittest.TestCase):
     def test_reads_webp_vp8x_dimensions(self):
         webp = self.root / "source.webp"
         width, height = 640, 480
-        payload = b"\\x00\\x00\\x00\\x00" + (width - 1).to_bytes(3, "little") + (height - 1).to_bytes(3, "little")
+        payload = b"\x00\x00\x00\x00" + (width - 1).to_bytes(3, "little") + (height - 1).to_bytes(3, "little")
         webp.write_bytes(b"RIFF" + (22).to_bytes(4, "little") + b"WEBPVP8X" + (10).to_bytes(4, "little") + payload)
         self.assertEqual(image_dimensions(webp), (640, 480))
         self.assertEqual(image_format(webp), "webp")

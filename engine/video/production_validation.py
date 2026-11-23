@@ -485,6 +485,8 @@ def validate_cost_approval_manifest(approval: object, provider: object, shots: o
         ("model", workflow.get("model_id")),
         ("resolution", workflow.get("resolution", pricing.get("resolution"))),
         ("total_duration_seconds", workflow.get("total_duration_seconds")),
+        ("segment_duration_seconds", workflow.get("segment_duration_seconds")),
+        ("estimated_cost_usd", pricing.get("estimated_total_usd")),
     ):
         if approval.get(field) != expected:
             errors.append(f"cost approval {field} must match the provider workflow")

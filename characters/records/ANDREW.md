@@ -156,3 +156,8 @@ In Book II, Andrew's established warmth with Kirk begins to acquire a more deman
 The Chapter V residential district gives Andrew frequent access as a visitor and a guest room at the approach when invited; no fifth mansion is established in this sequence. His presence should continue to have an independent life beyond waiting for Kirk: baseball, practical experiments, friendships, and the shared games he helps invent. When he feels displaced, show the feeling plainly without turning Joseph into an antagonist or Kirk into an object of competition.
 
 
+
+
+## Chapter VI — the Long Return and the cost of wanting more
+
+Andrew brings his rolling-ball route to the Twin Grounds and helps establish the Long Return with Chase, Gabe, Robert, and Joseph. The game gives his improvisation a shared form: alternate routes, recovery points, mapped returns, and rules that allow people to stop or join midway. His need for Kirk's attention nevertheless interrupts the group's shared time. When Kirk asks the residents for separate observations, Andrew prolongs his part of the conversation and Joseph withdraws. Andrew notices that he has made Joseph move aside without directly asking him to. He apologizes and makes a more specific commitment: to ask Kirk for a time rather than repeatedly inserting himself into time already promised to someone else. He is still needy and restless; the chapter records a first correction, not a cure.

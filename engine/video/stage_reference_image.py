@@ -96,6 +96,80 @@ def image_dimensions(path: Path) -> tuple[int, int]:
     return width, height
 
 
+def _validate_library_asset(item: object, label: str, seen_ids: set[str], seen_files: set[str], seen_library_ids: set[str]) -> list[str]:
+    errors = []
+    if not isinstance(item, dict):
+        return [f"{label} must be an object"]
+    asset_id = item.get("asset_id")
+    if not isinstance(asset_id, str) or not asset_id.strip():
+        errors.append(f"{label} needs a non-empty asset_id")
+    elif asset_id in seen_ids:
+        errors.append(f"duplicate image-library asset_id: {asset_id}")
+    else:
+        seen_ids.add(asset_id)
+    for field in ("file_id", "library_file_id", "filename", "mime_type", "role"):
+        if not isinstance(item.get(field), str) or not item[field].strip():
+            errors.append(f"{label}: {field} is required")
+    for field, seen in (("file_id", seen_files), ("library_file_id", seen_library_ids)):
+        value = item.get(field)
+        if isinstance(value, str) and value:
+            if value in seen:
+                errors.append(f"{label}: duplicate {field} {value}")
+            seen.add(value)
+    mime = item.get("mime_type")
+    if isinstance(mime, str) and not mime.startswith("image/"):
+        errors.append(f"{label}: mime_type must be an image MIME type")
+    size = item.get("size_bytes")
+    if not isinstance(size, int) or isinstance(size, bool) or size <= 0:
+        errors.append(f"{label}: size_bytes must be a positive integer")
+    if not isinstance(item.get("model_generated"), bool):
+        errors.append(f"{label}: model_generated must be boolean")
+    return errors
+
+
+def validate_image_library_index(data: object) -> list[str]:
+    if not isinstance(data, dict):
+        return ["image library index must be a JSON object"]
+    errors = []
+    if data.get("schema") != "geehub.image-library-index/1":
+        errors.append("image library index schema must be geehub.image-library-index/1")
+    source = data.get("source_of_truth")
+    if not isinstance(source, dict):
+        errors.append("image library index source_of_truth is required")
+    else:
+        for field in ("provider", "path", "file_id", "revision"):
+            if not isinstance(source.get(field), str) or not source[field].strip():
+                errors.append(f"image library index source_of_truth.{field} is required")
+    collections = data.get("collections")
+    if not isinstance(collections, list) or not collections:
+        errors.append("image library index collections must be a non-empty array")
+        return errors
+    seen_collections = set()
+    seen_ids: set[str] = set()
+    seen_files: set[str] = set()
+    seen_library_ids: set[str] = set()
+    for index, collection in enumerate(collections):
+        if not isinstance(collection, dict):
+            errors.append(f"image library collection[{index}] must be an object")
+            continue
+        collection_id = collection.get("id")
+        if not isinstance(collection_id, str) or not collection_id.strip():
+            errors.append(f"image library collection[{index}] needs an id")
+        elif collection_id in seen_collections:
+            errors.append(f"duplicate image library collection id: {collection_id}")
+        else:
+            seen_collections.add(collection_id)
+        assets = collection.get("assets")
+        if not isinstance(assets, list) or not assets:
+            errors.append(f"image library collection {collection_id or index} needs an assets array")
+            continue
+        for asset_index, asset in enumerate(assets):
+            errors.extend(_validate_library_asset(asset, f"{collection_id or index}.assets[{asset_index}]", seen_ids, seen_files, seen_library_ids))
+    for index, asset in enumerate(data.get("supplemental_candidates", [])):
+        errors.extend(_validate_library_asset(asset, f"supplemental_candidates[{index}]", seen_ids, seen_files, seen_library_ids))
+    return errors
+
+
 def validate_reference_library(data: object) -> list[str]:
     errors = []
     if not isinstance(data, dict):
@@ -107,33 +181,60 @@ def validate_reference_library(data: object) -> list[str]:
     source = data.get("source_of_truth")
     if not isinstance(source, dict) or not isinstance(source.get("provider"), str) or not source["provider"].strip():
         errors.append("reference library source_of_truth.provider is required")
+    collections = data.get("collections")
+    if not isinstance(collections, list) or not collections:
+        errors.append("reference library collections must be a non-empty array")
+        return errors
+    collection_ids = set()
+    for index, collection in enumerate(collections):
+        if not isinstance(collection, dict) or not isinstance(collection.get("id"), str) or not collection["id"].strip():
+            errors.append(f"reference library collection[{index}] needs an id")
+        elif collection["id"] in collection_ids:
+            errors.append(f"duplicate reference collection id: {collection['id']}")
+        else:
+            collection_ids.add(collection["id"])
     assets = data.get("assets")
     if not isinstance(assets, list) or not assets:
         errors.append("reference library assets must be a non-empty array")
         return errors
-    seen = set()
+    seen_ids = set()
+    seen_files = set()
+    seen_library_ids = set()
+    mime_by_extension = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".webp": "image/webp"}
     for index, item in enumerate(assets):
         if not isinstance(item, dict):
             errors.append(f"reference asset[{index}] must be an object")
             continue
         asset_id = item.get("asset_id")
+        label = f"reference asset {asset_id or index}"
         if not isinstance(asset_id, str) or not asset_id.strip():
-            errors.append(f"reference asset[{index}] needs a non-empty asset_id")
-        elif asset_id in seen:
+            errors.append(f"{label} needs a non-empty asset_id")
+        elif asset_id in seen_ids:
             errors.append(f"duplicate reference asset_id: {asset_id}")
-        seen.add(asset_id)
-        for field in ("file_name", "library_file_id", "mime_type", "visual_role", "rights_status"):
+        else:
+            seen_ids.add(asset_id)
+        for field in ("file_name", "file_id", "library_file_id", "mime_type", "visual_role", "rights_status"):
             if not isinstance(item.get(field), str) or not item[field].strip():
-                errors.append(f"reference asset {asset_id or index}: {field} is required")
+                errors.append(f"{label}: {field} is required")
+        for field, seen in (("file_id", seen_files), ("library_file_id", seen_library_ids)):
+            value = item.get(field)
+            if isinstance(value, str) and value:
+                if value in seen:
+                    errors.append(f"{label}: duplicate {field} {value}")
+                seen.add(value)
+        if isinstance(item.get("mime_type"), str) and item.get("mime_type") != mime_by_extension.get(Path(item.get("file_name", "")).suffix.lower()):
+            errors.append(f"{label}: mime_type does not match file_name extension")
         if not isinstance(item.get("mime_type"), str) or not item["mime_type"].startswith("image/"):
-            errors.append(f"reference asset {asset_id or index}: mime_type must be an image MIME type")
+            errors.append(f"{label}: mime_type must be an image MIME type")
         if not isinstance(item.get("model_generated"), bool):
-            errors.append(f"reference asset {asset_id or index}: model_generated must be boolean")
+            errors.append(f"{label}: model_generated must be boolean")
         size = item.get("size_bytes")
         if not isinstance(size, int) or isinstance(size, bool) or size <= 0:
-            errors.append(f"reference asset {asset_id or index}: size_bytes must be a positive integer")
+            errors.append(f"{label}: size_bytes must be a positive integer")
+        collection_id = item.get("collection_id")
+        if collection_id is not None and collection_id not in collection_ids:
+            errors.append(f"{label}: unknown collection_id {collection_id}")
     return errors
-
 
 def load_reference(manifest_path: Path, asset_id: str) -> tuple[dict, dict]:
     data = json.loads(manifest_path.read_text(encoding="utf-8"))

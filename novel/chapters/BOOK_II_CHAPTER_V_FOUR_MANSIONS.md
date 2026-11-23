@@ -126,3 +126,8 @@ The country beneath them had not stopped moving. The maps would need another rev
 
 
 **Local map:** [Book II — Local Spatial Atlas](./BOOK_II_SPATIAL_ATLAS.md) records the four estates and keeps their exact chamber positions provisional until surveyed.
+
+
+## Next chapter — The Game Between the Houses
+
+[Book II, Chapter VI — The Game Between the Houses](./BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md) establishes the Long Return across the Twin Grounds. The residents turn their new district into a shared recreational landscape while Andrew's growing need for Kirk's attention begins to displace Joseph from group moments.

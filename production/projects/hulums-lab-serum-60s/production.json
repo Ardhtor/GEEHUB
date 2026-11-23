@@ -175,5 +175,17 @@
   },
   "providerManifest": "07_MANIFESTS/video_provider.json",
   "shotManifest": "07_MANIFESTS/shots.json",
-  "productionAcceptanceManifest": "07_MANIFESTS/production_acceptance.json"
+  "productionAcceptanceManifest": "07_MANIFESTS/production_acceptance.json",
+  "render_quality": {
+    "preview": {
+      "resolution_percentage": 35,
+      "eevee_samples": 8,
+      "description": "Low-resolution fast preview and CI smoke render"
+    },
+    "final": {
+      "resolution_percentage": 100,
+      "eevee_samples": 64,
+      "description": "Full 1920x1080 production render"
+    }
+  }
 }

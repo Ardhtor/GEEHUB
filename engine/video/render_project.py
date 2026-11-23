@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 from growth_curves import validate_profile
+from growth_geometry import validate_pectorals_geometry
 from stage_reference_image import validate_reference_library
 
 HERE = Path(__file__).resolve().parent
@@ -50,6 +51,20 @@ def validate(project: Path) -> tuple[dict, dict]:
         raise ValueError("Invalid reference library: " + "; ".join(reference_errors))
     if reference_library.get("project_id") != timeline.get("project_id"):
         raise ValueError("Reference library project_id does not match timeline")
+    pectorals = profile.get("deformation", {}).get("pectorals", {})
+    pectoral_geometry = pectorals.get("geometry")
+    if not isinstance(pectoral_geometry, dict):
+        raise ValueError("Growth profile must define project-specific pectoral geometry")
+    geometry_errors = validate_pectorals_geometry(pectoral_geometry)
+    if geometry_errors:
+        raise ValueError("Invalid pectoral geometry: " + "; ".join(geometry_errors))
+    library_asset_ids = {asset["asset_id"] for asset in reference_library["assets"]}
+    reference_asset_ids = pectorals.get("reference_assets")
+    if not isinstance(reference_asset_ids, list) or not reference_asset_ids:
+        raise ValueError("Pectoral geometry must identify its source image-library references")
+    missing_references = sorted(set(reference_asset_ids) - library_asset_ids)
+    if missing_references:
+        raise ValueError("Pectoral geometry references missing library assets: " + ", ".join(missing_references))
     fmt = manifest["format"]
     fps = int(timeline["timebase"]["fps"])
     duration = float(timeline["duration_seconds"])

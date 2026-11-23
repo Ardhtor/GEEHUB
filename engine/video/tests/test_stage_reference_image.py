@@ -17,7 +17,7 @@ class ReferenceImageStagingTests(unittest.TestCase):
         self.project = self.root / "project"
         (self.project / "07_MANIFESTS").mkdir(parents=True)
         self.source = self.root / "source.png"
-        self.source.write_bytes(b"\\x89PNG\\r\\n\\x1a\\n" + b"\\x00\\x00\\x00\\x0dIHDR" + struct.pack(">II", 640, 480) + b"\\x08\\x02\\x00\\x00\\x00")
+        self.source.write_bytes(b"\x89PNG\r\n\x1a\n" + b"\x00\x00\x00\x0dIHDR" + struct.pack(">II", 640, 480) + b"\x08\x02\x00\x00\x00")
         manifest = {
             "schema": "geehub.reference-library/1",
             "project_id": "test-project",
@@ -27,6 +27,7 @@ class ReferenceImageStagingTests(unittest.TestCase):
                 "file_name": "source.png",
                 "library_file_id": "libfile-test",
                 "mime_type": "image/png",
+                "size_bytes": 29,
                 "model_generated": False,
                 "visual_role": "primary-chest-source",
                 "rights_status": "unverified-reference-only"
@@ -70,7 +71,7 @@ class ReferenceImageStagingTests(unittest.TestCase):
     def test_refuses_to_overwrite_existing_different_source(self):
         stage_reference_image(self.project, "test-reference", self.source)
         changed = self.root / "changed.png"
-        changed.write_bytes(b"\\x89PNG\\r\\n\\x1a\\n" + b"\\x00\\x00\\x00\\x0dIHDR" + struct.pack(">II", 320, 240) + b"\\x08\\x02\\x00\\x00\\x00")
+        changed.write_bytes(b"\x89PNG\r\n\x1a\n" + b"\x00\x00\x00\x0dIHDR" + struct.pack(">II", 320, 240) + b"\x08\x02\x00\x00\x00")
         with self.assertRaises(FileExistsError):
             stage_reference_image(self.project, "test-reference", changed)
 

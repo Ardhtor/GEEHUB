@@ -84,3 +84,8 @@ Gabe introduces Dorian to Tyler Boeskin, a mate of his who knows the Northgate p
 Gabe takes up permanent residence in the Canvas House, a large mansion in the paired residential country of Kirk's anatomy. It contains an adjustable training court, open studio, garden, earlier-baseline gallery, private recovery room, and quiet dining space. The house supports his Growth Canvas work without making every room an exhibition or every encounter a demand for another transformation. Gabe can invite others into the shared court and retreat to his own rooms when he wants to be seen as a companion rather than a spectacle. Its exact position within the paired chambers remains unmeasured until a later survey establishes it.
 
 
+
+
+## Chapter VI — the Long Return
+
+Gabe helps make the Long Return a playable shared route rather than an endurance contest. He adds a warm-up point, a recovery bench, alternate paths, and the freedom to stop or join halfway through. The eastern hollow is a recreational place, not a stage for constant observation. Gabe continues to protect his private recovery spaces and chooses when to invite others into the Canvas House.

@@ -189,7 +189,7 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
                 "submitted_prompt", "submitted_prompt_sha256", "reference_asset_ids",
                 "submitted_at", "completed_at", "output_path", "output_sha256",
                 "first_frame_sha256", "last_frame_sha256", "continuity_status", "media_metadata",
-                "first_frame_file_id", "last_frame_file_id",
+                "last_frame_file_id",
             )
             for field in required_fields:
                 if generation.get(field) is None or generation.get(field) == "":
@@ -240,7 +240,7 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
                 "prompt_revision", "prompt_sha256", "submitted_prompt", "submitted_prompt_sha256", "reference_asset_ids",
                 "submitted_at", "completed_at", "output_path", "output_sha256",
                 "first_frame_sha256", "last_frame_sha256", "continuity_status", "media_metadata",
-                "dropbox_file_id", "dropbox_path",
+                "last_frame_file_id", "dropbox_file_id", "dropbox_path",
             )
             for field in required_fields:
                 if generation.get(field) is None or generation.get(field) == "":

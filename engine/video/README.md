@@ -28,7 +28,7 @@ python3 gee_engine.py doctor
 python3 gee_engine.py serve
 ```
 
-Keep that Terminal window open. Then open GEEHUB Studio, go to PREP, build the production package, and choose **RUN LOCAL PRODUCTION ENGINE**. The Studio connects only to `127.0.0.1:8765`.
+Keep that Terminal window open. Then open GEEHUB Studio, go to PREP, build the production package, and choose **RUN LOCAL PRODUCTION ENGINE**. The Studio connects only to `127.0.0.1:8765`. The local bridge binds to loopback only, checks the Host header against loopback addresses, and accepts browser requests only from the local `file://` origin (`null`) or its own localhost origin by default. If you serve Studio from a trusted custom origin, add that exact origin to `GEEHUB_ALLOWED_ORIGINS` as a comma-separated environment variable before starting the engine. Do not use a wildcard origin. The bridge allows one render at a time and rejects malformed or oversized manifests.
 
 ## What the first engine pass executes
 

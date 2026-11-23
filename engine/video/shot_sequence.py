@@ -5,6 +5,7 @@ import argparse
 import json
 import shutil
 import subprocess
+import sys
 from fractions import Fraction
 from pathlib import Path
 
@@ -196,4 +197,5 @@ def main(argv=None) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    child_args = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else None
+    raise SystemExit(main(child_args))

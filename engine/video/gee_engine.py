@@ -6,6 +6,7 @@ import argparse
 import ipaddress
 import json
 import math
+import mimetypes
 import os
 import re
 import shutil
@@ -17,15 +18,17 @@ import uuid
 from datetime import datetime
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, unquote, urlparse
 
 HERE = Path(__file__).resolve().parent
+REPO_ROOT = HERE.parents[1]
+STUDIO_ROOT = (REPO_ROOT / "hub").resolve()
 BLENDER_SCRIPT = HERE / "blender_scene.py"
 OUTPUT_ROOT = Path.home() / "Movies" / "GEEHUB"
 JOBS: dict[str, dict] = {}
 LOCK = threading.Lock()
 MAX_ACTIVE_JOBS = 1
-ALLOWED_DEFAULT_ORIGINS = {"null", "http://127.0.0.1:8765", "http://localhost:8765"}
+ALLOWED_DEFAULT_ORIGINS = {"http://127.0.0.1:8765", "http://localhost:8765"}
 
 
 def allowed_origins() -> set[str]:
@@ -60,6 +63,17 @@ def host_is_loopback(host: str | None) -> bool:
         return False
 
 
+def studio_file_for_path(request_path: str) -> Path | None:
+    """Resolve a safe static asset inside the standalone Studio directory."""
+    relative = "gee-studio.html" if request_path in {"", "/", "/studio"} else unquote(request_path).lstrip("/")
+    candidate = (STUDIO_ROOT / relative).resolve()
+    if not candidate.is_relative_to(STUDIO_ROOT) or not candidate.is_file():
+        return None
+    if candidate.suffix.lower() not in {".html", ".css", ".js", ".json", ".svg", ".png", ".jpg", ".jpeg", ".webp", ".ico", ".woff2"}:
+        return None
+    return candidate
+
+
 def valid_render_manifest(manifest: object) -> tuple[bool, str | None]:
     if not isinstance(manifest, dict):
         return False, "Production manifest must be a JSON object"
@@ -67,7 +81,9 @@ def valid_render_manifest(manifest: object) -> tuple[bool, str | None]:
     if not isinstance(fmt, dict):
         return False, "Production manifest format must be an object"
     duration = fmt.get("duration_seconds", 45)
-    if isinstance(duration, bool) or not isinstance(duration, (int, float)) or not math.isfinite(duration):
+    if isinstance(duration, bool) or not isinstance(duration, (int, float)):
+        return False, "Duration must be a finite number"
+    if isinstance(duration, float) and not math.isfinite(duration):
         return False, "Duration must be a finite number"
     if not 10 <= duration <= 600:
         return False, "Duration must be between 10 and 600 seconds"
@@ -316,6 +332,22 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Vary", "Access-Control-Request-Headers")
         self.end_headers()
 
+    def _serve_studio_file(self, request_path: str) -> bool:
+        path = studio_file_for_path(request_path)
+        if path is None:
+            return False
+        body = path.read_bytes()
+        content_type = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
+        self.send_response(200)
+        self.send_header("Content-Type", content_type)
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("X-Content-Type-Options", "nosniff")
+        self.send_header("Content-Security-Policy", "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'")
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(body)
+        return True
+
     def do_GET(self):
         if self._reject_nonlocal():
             return
@@ -358,6 +390,8 @@ class Handler(BaseHTTPRequestHandler):
             self._set_cors()
             self.end_headers()
             self.wfile.write(data)
+            return
+        if self._serve_studio_file(parsed.path):
             return
         self._json(404, {"error": "Not found"})
 
@@ -403,7 +437,8 @@ def serve() -> None:
     print("Blender:", blender or "NOT FOUND")
     print("FFmpeg:", ffmpeg or "NOT FOUND")
     print("Capabilities:", json.dumps(blender_capabilities(blender), sort_keys=True))
-    print("Studio bridge: http://127.0.0.1:8765")
+    print("Studio: http://127.0.0.1:8765/")
+    print("Local API: http://127.0.0.1:8765/health")
     print("Press Ctrl+C to stop.")
     ThreadingHTTPServer(("127.0.0.1", 8765), Handler).serve_forever()
 

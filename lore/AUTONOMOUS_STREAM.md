@@ -2629,3 +2629,11 @@ SETH: A line becomes visible between NORTHGATE UNIVERSITY and FOUNDERS DORMITORY
 NICK: The covered walk leads to a residential college where students share kitchens, common rooms, projects and the small rituals of daily life. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 341 — CROSSING / FOUNDERS DORMITORY / 2026-11-23T17:17:26.560946+00:00
+
+NICK: The world crosses the route from NORTHGATE UNIVERSITY into FOUNDERS DORMITORY. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: A welcoming men's dormitory with private rooms, shared kitchens, common rooms, a courtyard and a greenhouse. Relation carried forward: ROOMS ABOVE THE QUADRANGLE.
+
+Rule: meaningful change becomes an outward-facing signal

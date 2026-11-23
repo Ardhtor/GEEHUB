@@ -2973,3 +2973,11 @@ SETH: A line becomes visible between NORTHGATE UNIVERSITY and FOUNDERS DORMITORY
 NICK: The covered walk leads to a residential college where students share kitchens, common rooms, projects and the small rituals of daily life. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Source retained: worlds/northgate-university/README.md. Pressure 1.00; memory 1.00.
+
+## FOUNDERS DORMITORY / pulse 341 / CROSSING
+
+NICK: The world crosses the route from NORTHGATE UNIVERSITY into FOUNDERS DORMITORY. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: A welcoming men's dormitory with private rooms, shared kitchens, common rooms, a courtyard and a greenhouse. Relation carried forward: ROOMS ABOVE THE QUADRANGLE.
+
+Source retained: worlds/founders-dormitory/README.md. Pressure 0.88; memory 1.00.

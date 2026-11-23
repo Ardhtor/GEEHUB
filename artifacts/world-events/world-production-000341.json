@@ -1,0 +1,21 @@
+{
+  "id": "world-production-000341",
+  "created_at": "2026-11-23T17:17:26.560946+00:00",
+  "source": "GEEHUB autonomous world engine",
+  "kind": "world-production",
+  "title": "CROSSING / FOUNDERS DORMITORY / worlds/founders-dormitory/README.md",
+  "content": "NICK: The world crosses the route from NORTHGATE UNIVERSITY into FOUNDERS DORMITORY. The earlier place remains in the history; this is a crossing, not a replacement.\n\nSETH: A welcoming men's dormitory with private rooms, shared kitchens, common rooms, a courtyard and a greenhouse. Relation carried forward: ROOMS ABOVE THE QUADRANGLE.",
+  "production_note": "The world resolved its crossing rule and retained the earlier state.",
+  "lineage": {
+    "pulse": 341,
+    "actor": "JOSEPH",
+    "world": "FOUNDERS DORMITORY",
+    "region_id": "founders-dormitory",
+    "source": "worlds/founders-dormitory/README.md",
+    "phase": "CROSSING",
+    "relation": "ROOMS ABOVE THE QUADRANGLE"
+  },
+  "canon": "unclassified",
+  "dreamable": true,
+  "next_action": "continue the retained world state"
+}

@@ -10,6 +10,12 @@ import re
 import sys
 from pathlib import Path
 
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from engine.audio.procedural_soundscape import validate_audio_plan
+
 
 def _nonempty(value):
     return isinstance(value, str) and bool(value.strip())
@@ -552,6 +558,103 @@ def validate_cost_approval_manifest(approval: object, provider: object, shots: o
     return errors
 
 
+def validate_audio_render(project_root: Path, project_id: str, plan: dict) -> tuple[list[str], dict]:
+    manifest_path = project_root / "07_MANIFESTS" / "audio_render.json"
+    report = {"verified": False, "manifest_path": str(manifest_path), "missing": not manifest_path.is_file()}
+    if manifest_path.is_symlink():
+        return ["audio render manifest must not be a symlink"], report
+    if not manifest_path.is_file():
+        return [], report
+    try:
+        render = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        return [f"audio render manifest cannot be read: {exc}"], report
+    if not isinstance(render, dict):
+        return ["audio render manifest must be an object"], report
+    errors = []
+    if render.get("schema") != "geehub.audio-render/1" or render.get("project_id") != project_id:
+        errors.append("audio render schema/project_id is invalid")
+    if render.get("status") != "rendered":
+        errors.append("audio render status must be rendered")
+    if render.get("duration_seconds") != plan.get("duration_seconds"):
+        errors.append("audio render duration must match the 60-second plan")
+    audio_format = render.get("format")
+    if not isinstance(audio_format, dict):
+        errors.append("audio render format metadata is missing")
+        audio_format = {}
+    expected_format = {
+        "container": "wav", "codec": "pcm_s24le",
+        "sample_rate_hz": 48000, "channels": 2, "bit_depth": 24,
+    }
+    for field, expected in expected_format.items():
+        if audio_format.get(field) != expected:
+            errors.append(f"audio render format {field} must be {expected!r}")
+    master = render.get("master")
+    if not isinstance(master, dict):
+        errors.append("audio render master record is missing")
+        master = {}
+    master_path = _safe_project_file(project_root, master.get("path", ""))
+    if master_path is None:
+        errors.append("audio master file is missing or escapes the project directory")
+    else:
+        if master.get("sha256") != _sha256(master_path):
+            errors.append("audio master SHA-256 does not match the rendered file")
+        if master.get("size_bytes") != master_path.stat().st_size:
+            errors.append("audio master size does not match the rendered file")
+    media = master.get("media_metadata")
+    if not isinstance(media, dict):
+        errors.append("audio master ffprobe metadata is missing")
+        media = {}
+    for field, expected in (
+        ("duration_seconds", plan.get("duration_seconds")),
+        ("sample_rate", 48000), ("channels", 2),
+        ("bits_per_sample", 24), ("codec_name", "pcm_s24le"),
+    ):
+        if media.get(field) != expected:
+            errors.append(f"audio master ffprobe {field} must be {expected!r}")
+    loudness = render.get("loudness_measurement")
+    target = plan.get("master", {})
+    if not isinstance(loudness, dict) or loudness.get("measurement_status") != "measured":
+        errors.append("audio master requires measured integrated loudness and true peak")
+    else:
+        integrated = loudness.get("integrated_lufs")
+        true_peak = loudness.get("true_peak_dbtp")
+        if not isinstance(integrated, (int, float)) or abs(integrated - target.get("integrated_lufs", -16.0)) > 1.0:
+            errors.append("audio master integrated loudness is outside the approved target tolerance")
+        if not isinstance(true_peak, (int, float)) or true_peak > target.get("true_peak_dbtp", -1.0) + 0.1:
+            errors.append("audio master true peak exceeds the approved ceiling")
+    stems = render.get("stems")
+    expected_stems = {item["name"] for item in plan.get("stems", []) if isinstance(item, dict)}
+    if not isinstance(stems, list) or {item.get("name") for item in stems if isinstance(item, dict)} != expected_stems:
+        errors.append("audio render must contain all five planned stems exactly once")
+    else:
+        for stem in stems:
+            if not isinstance(stem, dict):
+                errors.append("audio stem record is malformed")
+                continue
+            stem_path = _safe_project_file(project_root, stem.get("path", ""))
+            if stem_path is None:
+                errors.append(f"audio stem {stem.get('name')} is missing or escapes the project")
+                continue
+            if stem.get("sha256") != _sha256(stem_path) or stem.get("size_bytes") != stem_path.stat().st_size:
+                errors.append(f"audio stem {stem.get('name')} checksum or size mismatch")
+    rights = render.get("rights")
+    if not isinstance(rights, dict) or rights.get("original_procedural_generation") is not True:
+        errors.append("audio render must declare original procedural generation")
+    if isinstance(rights, dict) and (rights.get("external_samples_used") is not False or rights.get("sample_layer_enabled") is not False):
+        errors.append("audio render cannot include uncleared external samples")
+    report.update({
+        "verified": not errors,
+        "run_id": render.get("run_id"),
+        "master_path": master.get("path"),
+        "master_sha256": master.get("sha256"),
+        "loudness_measurement": loudness,
+        "stem_count": len(stems) if isinstance(stems, list) else 0,
+        "errors": errors,
+    })
+    return errors, report
+
+
 def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
     manifests = project_root / "07_MANIFESTS"
     try:
@@ -559,6 +662,7 @@ def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
         provider = json.loads((manifests / "video_provider.json").read_text(encoding="utf-8"))
         acceptance = json.loads((manifests / "production_acceptance.json").read_text(encoding="utf-8"))
         cost_approval = json.loads((manifests / "cost_approval.json").read_text(encoding="utf-8"))
+        audio_plan = json.loads((manifests / "audio_plan.json").read_text(encoding="utf-8"))
         references = json.loads((manifests / "reference_library.json").read_text(encoding="utf-8"))
         growth_profile = json.loads((manifests / "growth_profile.json").read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
@@ -574,6 +678,11 @@ def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
     report = evaluate_acceptance(shots, acceptance, project_root)
     required_reference_ids = growth_profile.get("deformation", {}).get("pectorals", {}).get("reference_assets", []) if isinstance(growth_profile, dict) else []
     staging = validate_staged_references(project_root, required_reference_ids, references)
+    audio_errors, audio_report = validate_audio_render(project_root, shots.get("project_id"), audio_plan)
+    errors.extend(audio_errors)
+    report["audio"] = audio_report
+    if not audio_report.get("verified"):
+        report["blockers"].append("procedural audio master and five stems have not yet been rendered and checksum/loudness verified")
     report["reference_staging"] = staging
     if not staging["verified"]:
         report["blockers"].append("all six canonical image-library references must be staged and checksum-verified")

@@ -490,6 +490,10 @@ def load_staged_reference_assets(project: Path, asset_ids: list[str]) -> list[di
             raise ValueError(f"Staged reference Library file ID mismatch: {asset_id}")
         if library_record.get("library_file_id") != reference.get("library_file_id"):
             raise ValueError(f"Staged reference Library ID mismatch: {asset_id}")
+        if library_record.get("file_name") != reference.get("file_name"):
+            raise ValueError(f"Staged reference filename mismatch: {asset_id}")
+        if library_record.get("rights_status") != reference.get("rights_status"):
+            raise ValueError(f"Staged reference rights provenance mismatch: {asset_id}")
         if source_record.get("original_modified") is not False:
             raise ValueError(f"Original source preservation is not verified: {asset_id}")
         if (
@@ -512,6 +516,7 @@ def load_staged_reference_assets(project: Path, asset_ids: list[str]) -> list[di
             "size_bytes": staged.stat().st_size,
             "sha256": digest,
             "mime_type": reference["mime_type"],
+            "rights_status": reference.get("rights_status"),
         })
     return result
 

@@ -36,3 +36,5 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 
 - [Chapter XCI — The Lowest Bar in Northgate](./CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md)
 - [Chapter XCII — The Can Opener](./CHAPTER_XCII_THE_CAN_OPENER.md)
+
+- [Book II, Chapter I — The Lost Country](./BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md) — the men establish their first camp in Kirk's immense anatomy and discover an older trail.

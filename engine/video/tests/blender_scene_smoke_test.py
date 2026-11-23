@@ -60,6 +60,8 @@ def main():
         raise AssertionError(f"Unified body must be one connected mesh; found {components} components")
     if len(body.data.vertices) < 5000:
         raise AssertionError(f"Unified body mesh is under-detailed: {len(body.data.vertices)} vertices")
+    if len(body.data.materials) < 2 or not any(poly.material_index == 1 for poly in body.data.polygons):
+        raise AssertionError("The image-library chest-hair surface material was not assigned")
     top = bpy.data.objects.get("WARDROBE / fitted low-cut tank alternate")
     shorts = bpy.data.objects.get("WARDROBE / denim cutoff shorts")
     if top is None or shorts is None:

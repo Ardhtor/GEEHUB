@@ -44,7 +44,7 @@ class GrowthCurveTests(unittest.TestCase):
         self.assertAlmostEqual(samples[-1][1]["pectorals"], 1.0)
 
     def test_pectorals_have_independent_timing_channels(self):
-        self.assertTrue({"pectorals_projection", "pectorals_upper", "pectorals_outer", "pectorals_sternal", "pectorals_lower_shelf"}.issubset(DEFAULT_PROFILE))
+        self.assertTrue({"pectorals_projection", "pectorals_upper", "pectorals_outer", "pectorals_sternal", "pectorals_lower_shelf", "pectorals_sternal_groove"}.issubset(DEFAULT_PROFILE))
         values = evaluate_profile(DEFAULT_PROFILE, 18)
         self.assertGreater(values["pectorals_projection"], values["pectorals_upper"])
         self.assertGreater(values["pectorals_projection"], values["pectorals_outer"])

@@ -13,7 +13,7 @@ On macOS, double-click `Start-GEEHUB-Engine.command`. It runs the setup script, 
 
 If Blender is installed as an application but is not on PATH, the runner also checks `/Applications/Blender.app/Contents/MacOS/Blender`.
 
-## Current production interchange\n\nGEEHUB now exports semantic project timelines to OpenTimelineIO. Stage boundaries become timeline markers over one continuous picture track, preserving the project\'s one-shot continuity rather than turning semantic stages into cuts. Blender 5.3 includes OpenTimelineIO in its bundled Python environment. Run `python3 gee_engine.py doctor` to detect the installed Blender version, bundled OTIO module, FFmpeg, FFprobe, and the native Gaussian Splat version baseline.\n\nSee [TECH_ADAPTERS.md](TECH_ADAPTERS.md) for the export command and media-linking options.\n\n## Start the local engine
+## Current production interchange\n\nGEEHUB now exports semantic project timelines to OpenTimelineIO. Stage boundaries become timeline markers over one continuous picture track, preserving the project\'s one-shot continuity rather than turning semantic stages into cuts. Blender 5.3 includes OpenTimelineIO in its bundled Python environment. Run `python3 gee_engine.py doctor` to detect the installed Blender version, bundled OTIO module, FFmpeg, FFprobe, and the native Gaussian Splat version baseline.\n\nExport from the Blender-bundled runtime with `python3 engine/video/gee_engine.py export-otio --timeline path/to/timeline.json --output path/to/timeline.otio`; add `--media path/to/verified-source.mp4` to link source footage. See [TECH_ADAPTERS.md](TECH_ADAPTERS.md) for details.\n\n## Start the local engine
 
 From this directory:
 

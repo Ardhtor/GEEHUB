@@ -310,10 +310,11 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
     sequence_policy = shots.get("sequence_policy")
     if not isinstance(sequence_policy, dict) or sequence_policy.get("no_mock_fallback") is not True:
         errors.append("sequence policy must prohibit mock fallback")
-    elif sequence_policy.get("segment_count") is not None and sequence_policy.get("segment_count") != len(shot_list):
-        errors.append("sequence_policy segment_count must match the shot list")
-    elif sequence_policy.get("segment_boundary_frame_match_required") is not True:
-        errors.append("continuous sequence requires frame-identical segment boundaries")
+    elif sequence_policy.get("segment_count") is not None:
+        if sequence_policy.get("segment_count") != len(shot_list):
+            errors.append("sequence_policy segment_count must match the shot list")
+        if sequence_policy.get("segment_boundary_frame_match_required") is not True:
+            errors.append("continuous sequence requires frame-identical segment boundaries")
     return errors
 
 

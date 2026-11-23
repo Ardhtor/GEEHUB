@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import argparse
+import ipaddress
 import json
+import math
 import os
 import re
 import shutil
@@ -22,6 +24,60 @@ BLENDER_SCRIPT = HERE / "blender_scene.py"
 OUTPUT_ROOT = Path.home() / "Movies" / "GEEHUB"
 JOBS: dict[str, dict] = {}
 LOCK = threading.Lock()
+MAX_ACTIVE_JOBS = 1
+ALLOWED_DEFAULT_ORIGINS = {"null", "http://127.0.0.1:8765", "http://localhost:8765"}
+
+
+def allowed_origins() -> set[str]:
+    """Exact browser origins permitted to control this loopback-only engine."""
+    configured = os.environ.get("GEEHUB_ALLOWED_ORIGINS")
+    if configured is None:
+        return set(ALLOWED_DEFAULT_ORIGINS)
+    return {origin.strip() for origin in configured.split(",") if origin.strip()}
+
+
+def origin_is_allowed(origin: str | None) -> bool:
+    # Non-browser local clients (CLI/tests) have no Origin header.
+    return origin is None or origin in allowed_origins()
+
+
+def host_is_loopback(host: str | None) -> bool:
+    """Reject DNS-rebinding Host headers; only the local listener is valid."""
+    if not host:
+        return False
+    value = host.strip().lower()
+    if value == "localhost:8765":
+        return True
+    if value.startswith("[") and value.endswith("]:8765"):
+        value = value[1:-6]
+    elif value.endswith(":8765"):
+        value = value[:-6]
+    else:
+        return False
+    try:
+        return ipaddress.ip_address(value).is_loopback
+    except ValueError:
+        return False
+
+
+def valid_render_manifest(manifest: object) -> tuple[bool, str | None]:
+    if not isinstance(manifest, dict):
+        return False, "Production manifest must be a JSON object"
+    fmt = manifest.get("format")
+    if not isinstance(fmt, dict):
+        return False, "Production manifest format must be an object"
+    duration = fmt.get("duration_seconds", 45)
+    if isinstance(duration, bool) or not isinstance(duration, (int, float)) or not math.isfinite(duration):
+        return False, "Duration must be a finite number"
+    if not 10 <= duration <= 600:
+        return False, "Duration must be between 10 and 600 seconds"
+    project = manifest.get("project", "GEEHUB Video")
+    if not isinstance(project, str) or not project.strip():
+        return False, "Project name must be a non-empty string"
+    audio_file = manifest.get("audio_file")
+    if audio_file is not None and not isinstance(audio_file, str):
+        return False, "audio_file must be a relative path string"
+    return True, None
 
 
 def locate_binary(env_name: str, candidates: list[str]) -> str | None:
@@ -207,6 +263,9 @@ def render_job(job_id: str, manifest: dict) -> None:
 def launch_job(manifest: dict) -> str:
     job_id = uuid.uuid4().hex
     with LOCK:
+        active = sum(job.get("state") in {"queued", "running"} for job in JOBS.values())
+        if active >= MAX_ACTIVE_JOBS:
+            raise RuntimeError("A render is already queued or running. Wait for it to finish before starting another.")
         JOBS[job_id] = {"state": "queued", "progress": 0, "message": "Queued for local render"}
     def work():
         try:
@@ -221,24 +280,45 @@ def launch_job(manifest: dict) -> str:
 class Handler(BaseHTTPRequestHandler):
     server_version = "GEEHUBEngine/0.1"
 
+    def _set_cors(self) -> None:
+        origin = self.headers.get("Origin")
+        if origin is not None:
+            self.send_header("Access-Control-Allow-Origin", origin)
+            self.send_header("Vary", "Origin")
+
+    def _request_is_local(self) -> bool:
+        return host_is_loopback(self.headers.get("Host")) and origin_is_allowed(self.headers.get("Origin"))
+
+    def _reject_nonlocal(self) -> bool:
+        if self._request_is_local():
+            return False
+        self._json(403, {"error": "The GEEHUB engine accepts requests only from an approved local Studio origin."})
+        return True
+
     def _json(self, status: int, data: dict) -> None:
         body = json.dumps(data).encode("utf-8")
         self.send_response(status)
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.send_header("Content-Length", str(len(body)))
-        self.send_header("Access-Control-Allow-Origin", "*")
+        if origin_is_allowed(self.headers.get("Origin")):
+            self._set_cors()
         self.send_header("Cache-Control", "no-store")
         self.end_headers()
         self.wfile.write(body)
 
     def do_OPTIONS(self):
+        if self._reject_nonlocal():
+            return
         self.send_response(204)
-        self.send_header("Access-Control-Allow-Origin", "*")
+        self._set_cors()
         self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Content-Type")
+        self.send_header("Vary", "Access-Control-Request-Headers")
         self.end_headers()
 
     def do_GET(self):
+        if self._reject_nonlocal():
+            return
         parsed = urlparse(self.path)
         if parsed.path == "/health":
             blender, ffmpeg = binaries()
@@ -275,31 +355,42 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header("Content-Type", "video/mp4")
             self.send_header("Content-Length", str(len(data)))
             self.send_header("Content-Disposition", 'attachment; filename="GEEHUB-master.mp4"')
-            self.send_header("Access-Control-Allow-Origin", "*")
+            self._set_cors()
             self.end_headers()
             self.wfile.write(data)
             return
         self._json(404, {"error": "Not found"})
 
     def do_POST(self):
+        if self._reject_nonlocal():
+            return
         if urlparse(self.path).path != "/render":
             self._json(404, {"error": "Not found"})
             return
-        length = int(self.headers.get("Content-Length", "0"))
+        try:
+            length = int(self.headers.get("Content-Length", "0"))
+        except ValueError:
+            self._json(400, {"error": "Content-Length must be an integer"})
+            return
         if length <= 0 or length > 1_000_000:
-            self._json(413, {"error": "Production manifest must be under 1 MB"})
+            self._json(413, {"error": "Production manifest must be between 1 byte and 1 MB"})
             return
         try:
-            manifest = json.loads(self.rfile.read(length))
-            if not isinstance(manifest, dict):
-                raise ValueError("Manifest must be a JSON object")
-            duration = int(manifest.get("format", {}).get("duration_seconds", 45))
-            if not 10 <= duration <= 600:
-                raise ValueError("Duration must be between 10 and 600 seconds")
-        except Exception as exc:
+            raw = self.rfile.read(length)
+            if len(raw) != length:
+                raise ValueError("Request body ended before Content-Length bytes were received")
+            manifest = json.loads(raw)
+            valid, error = valid_render_manifest(manifest)
+            if not valid:
+                raise ValueError(error or "Invalid production manifest")
+        except (UnicodeDecodeError, json.JSONDecodeError, ValueError) as exc:
             self._json(400, {"error": str(exc)})
             return
-        job_id = launch_job(manifest)
+        try:
+            job_id = launch_job(manifest)
+        except RuntimeError as exc:
+            self._json(429, {"error": str(exc)})
+            return
         self._json(202, {"job_id": job_id, "state": "queued"})
 
     def log_message(self, fmt, *args):

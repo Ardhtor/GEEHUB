@@ -73,3 +73,8 @@ The intake validates PNG/JPEG/WebP headers, records dimensions and SHA-256, copi
 ## Reference-calibrated pectoral deformation
 
 The project growth profile stores the pectoral projection, upper fullness, and outer sweep geometry as editable local-space centre/radius/offset triples. Its `reference_assets` list links those controls to the curated ChatGPT Library manifest. The project validator checks both the geometry and those links before rendering. This is a human-authored qualitative fit, not automatic 3D reconstruction or image-based depth estimation. The Blender 5.3 integration test exercises the actual shape-key and animation path rather than only the renderer-independent math.
+
+
+## Shot generation and delivery gate
+
+The project carries a provider contract, two independent shot briefs, and a production acceptance manifest. The named provider is Grok Imagine Video; the current workspace has no matching connection, and generation remains disabled until a real adapter is connected and explicit cost approval is recorded. No provider job or generated clip is fabricated. `production_validation.py` rejects mock media and reports blockers. Once real clips are generated and registered with provider job IDs, model/prompt provenance, reference IDs, checksums, FFprobe metadata, and Dropbox reopen evidence, `shot_sequence.py` builds a sequential OTIO track and round-trip verifies clip order. The final master remains blocked until the required two shots, OTIO sequence, MP4 master, and Dropbox reopen checks all exist.

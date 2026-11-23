@@ -75,6 +75,23 @@
         "added a one-connected-component mesh requirement to the next Blender smoke test"
       ],
       "acceptance_effect": "This preview is a rejected engineering iteration, not approved production media. A new render must be visually inspected before character approval."
+    },
+    {
+      "run_id": 45228258940,
+      "artifact_id": 14844973370,
+      "status": "rejected-for-visual-quality",
+      "observed_issues": [
+        "chest read as a flat plate rather than distinct pectoral masses",
+        "chest-hair material created a hard rectangular region",
+        "overall figure still read as a smooth mannequin",
+        "beard and denim-cutoff silhouette were not convincing"
+      ],
+      "corrective_work": [
+        "replaced torso spheres with a continuous parametric waist-to-clavicle mesh with bilateral pectoral bulges, narrow sternum cleft, abdominal and clavicular contours",
+        "replaced polygon-bounded chest-hair patch with a soft position-masked strand shader",
+        "brought the full beard forward and added leg muscle volumes"
+      ],
+      "acceptance_effect": "This second render is also rejected. The next render must demonstrate distinct integrated pectorals, a soft natural chest-hair boundary, and improved adult body proportions before review can be approved."
     }
   ],
   "visual_review": {

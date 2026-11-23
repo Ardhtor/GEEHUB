@@ -180,5 +180,38 @@
       "role": "adjacent_source_candidate",
       "relationship_to_car_sequence": "unconfirmed; retain separately until source lineage is established"
     }
+  ],
+  "comparisons": [
+    {
+      "collection_id": "pec_major_car_sequence",
+      "method": "manual side-by-side visual inspection",
+      "shared_invariants": [
+        "same seated-in-car composition and tight upper-torso crop",
+        "same bearded adult subject design and broadly consistent head/shoulder placement",
+        "same arm crossing the lower torso",
+        "similar lighting and camera perspective"
+      ],
+      "visible_differences": [
+        {
+          "asset_id": "car-bearded-base",
+          "observation": "Baseline shows broad, rounded paired pectoral masses, a pronounced medial cleft, visible chest-hair texture, and a crop in which the chest occupies most of the frame."
+        },
+        {
+          "asset_id": "car-bearded-variation-01",
+          "compared_with": "car-bearded-base",
+          "observation": "The upper and lateral chest contour reads slightly fuller and more rounded. Pose, arm placement, crop, and facial presentation remain very similar."
+        },
+        {
+          "asset_id": "car-bearded-variation-02",
+          "compared_with": [
+            "car-bearded-base",
+            "car-bearded-variation-01"
+          ],
+          "observation": "The pectoral masses read more spherical and forward-projecting, with a strong medial cleft and a particularly full viewer-right lobe. The lower contour is more prominent in this crop."
+        }
+      ],
+      "interpretation_boundary": "These are subtle visible differences between generated images, not measured anatomical deltas. Their timestamps establish creation order only; they do not prove an intended or approved growth-stage sequence. The close frontal crop and perspective do not establish true chest depth or world scale.",
+      "next_reference_gap": "Add a consistent side and three-quarter view of the same approved subject before deriving numeric depth, projection, or chest-width ratios."
+    }
   ]
 }

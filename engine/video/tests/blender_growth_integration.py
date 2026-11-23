@@ -11,7 +11,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import bpy
-from timeline_growth import REGIONS, animate_timeline_growth
+from timeline_growth import REGIONS, _iter_action_fcurves, animate_timeline_growth
 
 
 def main():
@@ -100,6 +100,11 @@ def main():
         raise AssertionError(f"Final-frame pectoral curve did not reach its plateau: {projection.value}")
     if shape_keys.animation_data is None or shape_keys.animation_data.action is None:
         raise AssertionError("Blender did not create an animation action for the shape keys")
+    curves = list(_iter_action_fcurves(shape_keys.animation_data))
+    if len(curves) < len(required):
+        raise AssertionError(f"Expected at least {len(required)} shape-key F-curves, found {len(curves)}")
+    if any(point.interpolation != "LINEAR" for curve in curves for point in curve.keyframe_points):
+        raise AssertionError("Shape-key frame samples must use linear interpolation between exact sampled values")
 
     print(
         "GEEHUB_BLENDER_INTEGRATION_OK "

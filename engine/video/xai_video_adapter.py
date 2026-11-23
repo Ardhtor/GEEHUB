@@ -576,15 +576,59 @@ def generate_continuous_sequence(
     project = Path(project).expanduser().resolve(strict=True)
     project_id = project.name
     plan = estimate_continuous_sequence(total_seconds, segment_seconds, resolution)
-    assets_requested = asset_ids or DEFAULT_REFERENCE_ASSETS
+    shots_path = project / "07_MANIFESTS" / "shots.json"
+    shots_manifest = load_json(shots_path)
+    if shots_manifest.get("project_id") != project_id or shots_manifest.get("provider_id") != provider.get("provider_id"):
+        raise ValueError("Shot manifest project/provider identity does not match the selected xAI project")
+    shot_list = sorted(
+        shots_manifest.get("shots", []),
+        key=lambda item: item.get("sequence_order", 0) if isinstance(item, dict) else 0,
+    )
+    if len(shot_list) != len(plan["segments"]):
+        raise ValueError("The shot manifest must define exactly one shot for each planned video segment")
+    if prompts is not None:
+        raise ValueError("Production prompts are controlled by shots.json; edit that manifest instead of overriding prompts")
+    if not shot_list or not isinstance(shot_list[0], dict):
+        raise ValueError("The shot manifest contains no valid segment records")
+    first_refs = shot_list[0].get("reference_assets", [])
+    expected_asset_ids = [item.get("asset_id") for item in first_refs if isinstance(item, dict)]
+    if not expected_asset_ids:
+        raise ValueError("The shot manifest must select reference assets for the continuous sequence")
+    assets_requested = asset_ids or expected_asset_ids
+    if assets_requested != expected_asset_ids:
+        raise ValueError("Requested reference assets do not match the approved shot manifest")
+    continuity_key = shot_list[0].get("continuity_key")
+    for shot, segment in zip(shot_list, plan["segments"]):
+        if not isinstance(shot, dict):
+            raise ValueError("Every shot manifest entry must be an object")
+        if shot.get("duration_seconds") != segment["duration_seconds"]:
+            raise ValueError("Shot duration does not match the provider segment plan")
+        if shot.get("timeline_range_seconds") != [segment["start_seconds"], segment["end_seconds"]]:
+            raise ValueError("Shot timeline range is not contiguous with the provider segment plan")
+        if shot.get("continuity_key") != continuity_key:
+            raise ValueError("All continuous master segments must share one continuity_key")
+        shot_refs = [item.get("asset_id") for item in shot.get("reference_assets", []) if isinstance(item, dict)]
+        if shot_refs != expected_asset_ids:
+            raise ValueError("All continuous master segments must use the same ordered reference set")
+        if shot.get("generation", {}).get("status") != "not-started":
+            raise ValueError(f"{shot.get('shot_id')} is not in not-started state; refusing to risk duplicate provider charges")
+        if not isinstance(shot.get("prompt"), str) or not shot["prompt"].strip():
+            raise ValueError(f"{shot.get('shot_id')} has no production prompt")
     validate_generation_authorization(provider, approval, plan, project_id, assets_requested)
-    assets = load_staged_reference_assets(project, assets_requested)
-    uploaded_references = upload_reference_assets(client, project, assets)
-    reference_file_ids = [uploaded_references[asset_id] for asset_id in assets_requested]
-    segment_prompts = prompts or DEFAULT_SEGMENT_PROMPTS
-    if len(segment_prompts) != len(plan["segments"]):
-        raise ValueError("One prompt is required for each continuous segment")
 
+    # Keep the shot-level policy synchronized with the separately approved provider record.
+    policy = shots_manifest.get("generation_policy", {})
+    if not isinstance(policy, dict):
+        raise ValueError("Shot generation_policy must be an object")
+    for field in (
+        "connection_status", "api_adapter_status", "generation_enabled",
+        "cost_approval_status", "data_transfer_approval_status",
+        "reference_rights_clearance_status",
+    ):
+        policy[field] = provider.get(field)
+    shots_manifest["generation_policy"] = policy
+
+    assets = load_staged_reference_assets(project, assets_requested)
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + "-" + uuid.uuid4().hex[:8]
     segment_dir = project / "03_GROWTH_PASSES" / "PROVIDER_SEGMENTS" / run_id
     frame_dir = project / "02_FRAMES" / "PROVIDER_SEGMENTS" / run_id
@@ -598,7 +642,7 @@ def generate_continuous_sequence(
         "schema": "geehub.xai-continuous-generation/1",
         "project_id": project_id,
         "run_id": run_id,
-        "status": "running",
+        "status": "preparing",
         "provider_id": "xai-grok-imagine-video",
         "model_id": VIDEO_MODEL,
         "resolution": resolution,
@@ -609,16 +653,27 @@ def generate_continuous_sequence(
         "reference_asset_ids": assets_requested,
         "segments": [],
         "continuity_checks": [],
+        "shots_manifest_path": str(shots_path.relative_to(project)),
         "started_at": utc_now(),
+        "reference_data_transfer_approved": True,
+        "reference_rights_cleared": True,
     }
-    previous_frame_file_id = None
-    previous_last_frame_sha256 = None
+    write_json_atomic(run_path, run_manifest)
     try:
-        for segment in plan["segments"]:
+        uploaded_references = upload_reference_assets(client, project, assets)
+        reference_file_ids = [uploaded_references[asset_id] for asset_id in assets_requested]
+        run_manifest["reference_file_ids"] = reference_file_ids
+        run_manifest["status"] = "references-uploaded"
+        run_manifest["updated_at"] = utc_now()
+        write_json_atomic(run_path, run_manifest)
+        previous_frame_file_id = None
+        previous_last_frame_sha256 = None
+        for segment, shot in zip(plan["segments"], shot_list):
             order = segment["sequence_order"]
             expected_previous_frame = previous_last_frame_sha256
             filename = f"segment-{order:02d}.mp4"
-            prompt = prompt_with_reference_slots(segment_prompts[order - 1], bool(previous_frame_file_id))
+            template_prompt = shot["prompt"]
+            prompt = prompt_with_reference_slots(template_prompt, bool(previous_frame_file_id))
             payload = build_generation_payload(
                 prompt=prompt,
                 reference_file_ids=reference_file_ids,
@@ -632,18 +687,35 @@ def generate_continuous_sequence(
             request_id = submitted["request_id"]
             submitted_record = {
                 **segment,
+                "shot_id": shot["shot_id"],
                 "status": "submitted",
+                "provider_id": provider["provider_id"],
                 "provider_job_id": request_id,
                 "model_id": VIDEO_MODEL,
-                "prompt_sha256": hashlib.sha256(prompt.encode("utf-8")).hexdigest(),
+                "prompt_revision": shot.get("revision"),
+                "prompt_sha256": hashlib.sha256(template_prompt.encode("utf-8")).hexdigest(),
+                "submitted_prompt": prompt,
+                "submitted_prompt_sha256": hashlib.sha256(prompt.encode("utf-8")).hexdigest(),
                 "reference_asset_ids": assets_requested,
                 "reference_file_ids": reference_file_ids,
                 "pinned_first_frame_file_id": previous_frame_file_id,
                 "submitted_at": submitted_at,
             }
             run_manifest["segments"].append(submitted_record)
+            shot["status"] = "submitted"
+            shot["generation"] = {
+                **submitted_record,
+                "output_path": None,
+                "output_sha256": None,
+                "dropbox_file_id": None,
+                "dropbox_path": None,
+                "reopened_from_dropbox": False,
+                "metadata_verified": False,
+            }
+            write_json_atomic(shots_path, shots_manifest)
             run_manifest["updated_at"] = utc_now()
             write_json_atomic(run_path, run_manifest)
+
             completed = client.poll_video(
                 request_id,
                 timeout_seconds=poll_timeout,
@@ -664,14 +736,24 @@ def generate_continuous_sequence(
                     f"Segment {order} first frame does not match the pinned last frame of segment {order - 1}"
                 )
             last_frame_upload = client.upload_file(Path(last_frame["path"]))
+            provider_output_id = video.get("file_output", {}).get("file_id")
+            if not isinstance(provider_output_id, str) or not provider_output_id:
+                raise XAIError("xAI completed output did not return a stored provider file ID")
             generation = {
                 **submitted_record,
                 "status": "generated-local",
-                "pinned_first_frame_file_id": previous_frame_file_id,
+                "provider_output_id": provider_output_id,
+                "provider_output_file_id": provider_output_id,
                 "first_frame_file_id": previous_frame_file_id,
-                "submitted_at": submitted_at,
+                "last_frame_file_id": last_frame_upload["id"],
+                "continuity_status": "initial" if order == 1 else "passed",
                 "completed_at": utc_now(),
-                "provider_output_file_id": video.get("file_output", {}).get("file_id"),
+                "duration_seconds": media["duration_seconds"],
+                "frame_rate": media["frame_rate"],
+                "width": media["width"],
+                "height": media["height"],
+                "video_codec": media["video_codec"],
+                "audio_codec": media["audio_codec"],
                 "output_path": str(output_path.relative_to(project)),
                 "output_sha256": downloaded["sha256"],
                 "output_size_bytes": downloaded["size_bytes"],
@@ -680,8 +762,14 @@ def generate_continuous_sequence(
                 "last_frame_sha256": last_frame["sha256"],
                 "next_segment_first_frame_file_id": last_frame_upload["id"],
                 "provider_usage": completed.get("usage"),
+                "dropbox_file_id": None,
+                "dropbox_path": None,
+                "reopened_from_dropbox": False,
+                "metadata_verified": False,
             }
             run_manifest["segments"][-1] = generation
+            shot["status"] = "generated-local"
+            shot["generation"] = generation
             if expected_previous_frame:
                 run_manifest["continuity_checks"].append({
                     "boundary_before_segment": order,
@@ -692,11 +780,15 @@ def generate_continuous_sequence(
             run_manifest["updated_at"] = utc_now()
             previous_frame_file_id = last_frame_upload["id"]
             previous_last_frame_sha256 = last_frame["sha256"]
+            write_json_atomic(shots_path, shots_manifest)
             write_json_atomic(run_path, run_manifest)
 
         run_manifest["status"] = "segments-generated-continuity-verified"
         run_manifest["completed_at"] = utc_now()
         run_manifest["run_manifest_path"] = str(run_path.relative_to(project))
+        shots_manifest["last_generation_run_id"] = run_id
+        shots_manifest["last_generation_run_path"] = str(run_path.relative_to(project))
+        write_json_atomic(shots_path, shots_manifest)
         write_json_atomic(run_path, run_manifest)
         return run_manifest
     except Exception as exc:
@@ -705,7 +797,6 @@ def generate_continuous_sequence(
         run_manifest["updated_at"] = utc_now()
         write_json_atomic(run_path, run_manifest)
         raise
-
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)

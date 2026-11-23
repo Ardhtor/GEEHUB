@@ -1,0 +1,96 @@
+{
+  "schema": "geehub.reference-library/1",
+  "project_id": "hulums-lab-serum-60s",
+  "title": "GEEHUB / Hulum's Lab Serum — Primary Visual Reference Library",
+  "source_of_truth": {
+    "provider": "ChatGPT Library",
+    "library_access": "reference identifiers only; local GEEHUB cannot query ChatGPT Library directly",
+    "policy": "Preserve library originals. Export only deliberately selected files to the user's Dropbox-synced working folder before local staging. Never overwrite, move, or alter originals."
+  },
+  "usage_policy": {
+    "default": "reference-only",
+    "rights_status": "unverified; confirm source rights before public/commercial distribution",
+    "model_generated_field": "Preserve the Library's model_generated value as provenance; false does not prove authorship, ownership, or license.",
+    "transformation": "Derived work must retain a link to every source reference and must be stored separately."
+  },
+  "assets": [
+    {
+      "asset_id": "car-bearded-closeup-source",
+      "file_name": "1000000650.webp",
+      "library_file_id": "libfile_233f9b6e14f881918190fc48cbd5899b",
+      "file_id": "file_00000000620881f5a3bca434d5a16086",
+      "mime_type": "image/webp",
+      "size_bytes": 78640,
+      "model_generated": false,
+      "visual_role": "primary-chest-source",
+      "priority": 1,
+      "visual_notes": "Close crop of an adult bearded male upper torso seated in a car. Direct chest projection and left/right volume dominate the frame; arms cross the lower chest and the crop provides limited shoulder and torso context.",
+      "rights_status": "unverified-reference-only"
+    },
+    {
+      "asset_id": "car-bearded-closeup-generated",
+      "file_name": "Muscular Bearded Man in Car(2).png",
+      "library_file_id": "libfile_7853132b0f7881918749520e6e92a490",
+      "file_id": "file_00000000a63481f5b47e032fec704c16",
+      "mime_type": "image/png",
+      "size_bytes": 2366309,
+      "model_generated": true,
+      "visual_role": "primary-chest-render-reference",
+      "priority": 2,
+      "visual_notes": "Generated high-resolution companion to the car close-up. Useful for the rounded forward pec volume, central separation, surface detail, and close-camera scale. Treat the extreme spherical volume and perspective as a stylized target, not literal anatomical measurement.",
+      "rights_status": "generated-library-asset-reference-only"
+    },
+    {
+      "asset_id": "bedroom-fullbody-generated",
+      "file_name": "Towering Muscle in a Bedroom.png",
+      "library_file_id": "libfile_f184d53598608191b2faacf41fa2db0a",
+      "file_id": "file_00000000e62c81f598711cc731ce06f1",
+      "mime_type": "image/png",
+      "size_bytes": 2445884,
+      "model_generated": true,
+      "visual_role": "full-body-proportion-reference",
+      "priority": 3,
+      "visual_notes": "Full-length adult bodybuilder reference with strong upper-body-to-waist contrast, chest mass, shoulders, arms, thighs, and visible foot-to-head scale. Use to judge global silhouette and proportion continuity, not as a single-region chest sculpt target.",
+      "rights_status": "generated-library-asset-reference-only"
+    },
+    {
+      "asset_id": "denim-cutoffs-generated",
+      "file_name": "Hyperreal Bodybuilder in Denim Cutoffs.png",
+      "library_file_id": "libfile_fba4420f8c9881919eef6eee818a2f95",
+      "file_id": "file_00000000224c81f5b8b60b44a8fe2e4a",
+      "mime_type": "image/png",
+      "size_bytes": 2508401,
+      "model_generated": true,
+      "visual_role": "three-quarter-upper-body-reference",
+      "priority": 4,
+      "visual_notes": "Closer three-quarter crop of the same oversized bodybuilder design family. Useful for chest-to-deltoid transition, lateral pec contour, shoulder cap, arm scale, and garment interaction.",
+      "rights_status": "generated-library-asset-reference-only"
+    },
+    {
+      "asset_id": "warm-lit-jock-pose-reference",
+      "file_name": "jock_by_mkewx_dnas5k2-414w-2x.jpg",
+      "library_file_id": "libfile_4ee0837115508191a8f9170da3f5df87",
+      "file_id": "file_0000000096f481f581041357ca1565d8",
+      "mime_type": "image/jpeg",
+      "size_bytes": 90497,
+      "model_generated": false,
+      "visual_role": "pose-and-chest-separation-reference",
+      "priority": 5,
+      "visual_notes": "Warm, low-key standing pose with hands at the waist. Strong chest separation, upper-chest arc, deltoid connection, torso taper, and dramatic lighting. Treat as a reference image with unknown original rights and authorship.",
+      "rights_status": "unverified-reference-only"
+    },
+    {
+      "asset_id": "seated-polo-silhouette-reference",
+      "file_name": "tumblr_f9f4f493ea52c2a5a20d0e1bab51b528_4661e4a0_1280.webp",
+      "library_file_id": "libfile_1a037de4b9b08191af759a6abe9e29ca",
+      "file_id": "file_00000000880881f5aef1d3350f414c4a",
+      "mime_type": "image/webp",
+      "size_bytes": 32070,
+      "model_generated": false,
+      "visual_role": "clothed-shoulder-arm-silhouette-reference",
+      "priority": 6,
+      "visual_notes": "Seated adult male in a fitted polo. Useful for shoulder width, arm mass, sleeve compression, posture, and how a large upper body reads through clothing; chest anatomy is not directly visible.",
+      "rights_status": "unverified-reference-only"
+    }
+  ]
+}

@@ -434,8 +434,12 @@ def validate_staged_references(project_root: Path, required_asset_ids: list[str]
         if reference is None or record is None:
             report["missing_asset_ids"].append(asset_id)
             continue
-        staged_candidate = project_root / record.get("path", "")
-        sidecar_candidate = project_root / record.get("sidecar", "")
+        if not isinstance(record.get("path"), str) or not isinstance(record.get("sidecar"), str):
+            report["missing_asset_ids"].append(asset_id)
+            report["errors"].append(f"{asset_id}: staged image and sidecar paths must be strings")
+            continue
+        staged_candidate = project_root / record["path"]
+        sidecar_candidate = project_root / record["sidecar"]
         if staged_candidate.is_symlink() or sidecar_candidate.is_symlink():
             report["missing_asset_ids"].append(asset_id)
             report["errors"].append(f"{asset_id}: staged image and provenance sidecar must not be symlinks")
@@ -477,6 +481,7 @@ def validate_staged_references(project_root: Path, required_asset_ids: list[str]
             and library.get("library_file_id") == reference.get("library_file_id")
             and library.get("file_name") == reference.get("file_name")
             and library.get("rights_status") == reference.get("rights_status")
+            and record.get("rights_status") == reference.get("rights_status")
             and integrity.get("verified") is True
             and integrity.get("copy_matches_source") is True
             and source.get("original_modified") is False

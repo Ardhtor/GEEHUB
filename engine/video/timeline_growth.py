@@ -13,11 +13,11 @@ import bpy
 from mathutils import Vector
 
 from growth_curves import DEFAULT_PROFILE, sample_profile, validate_profile
+from growth_geometry import pectoral_offset
 
 # Ellipsoidal influence fields localise each shape key to an anatomical region.
 # Factors are the full-strength deformation at a normalised profile value of 1.
 REGIONS = {
-    "pectorals": ((0.0, -0.02, 2.28), (1.02, 0.76, 0.60), (1.62, 1.46, 1.30)),
     "deltoids": ((0.0, 0.0, 2.60), (1.22, 0.82, 0.66), (1.42, 1.36, 1.34)),
     "traps": ((0.0, 0.02, 2.76), (0.76, 0.62, 0.42), (1.46, 1.34, 1.40)),
     "arms": ((0.0, 0.0, 1.93), (1.34, 0.72, 1.12), (1.48, 1.42, 1.38)),
@@ -46,6 +46,24 @@ def _make_region_key(mesh, name, centre, radius, factors):
         target = c + Vector((delta.x * f.x, delta.y * f.y, delta.z * f.z))
         point.co = source.co.lerp(target, weight)
     return key
+
+
+def _make_pectorals_keys(mesh):
+    """Create three independently editable, bilateral chest shape keys."""
+    if mesh.data.shape_keys is None:
+        mesh.shape_key_add(name="Basis", from_mix=False)
+    keys = {}
+    for region, label in (
+        ("projection", "GROWTH / pectorals - forward projection"),
+        ("upper", "GROWTH / pectorals - upper fullness"),
+        ("outer", "GROWTH / pectorals - outer sweep"),
+    ):
+        key = mesh.shape_key_add(name=label, from_mix=False)
+        for source, target in zip(mesh.data.vertices, key.data):
+            offset = pectoral_offset(source.co, region)
+            target.co = source.co + Vector(offset)
+        keys[region] = key
+    return keys
 
 
 def animate_timeline_growth(mesh, timeline, profile=None):
@@ -79,10 +97,15 @@ def animate_timeline_growth(mesh, timeline, profile=None):
         region: _make_region_key(mesh, region, centre, radius, factors)
         for region, (centre, radius, factors) in REGIONS.items()
     }
+    pectoral_keys = _make_pectorals_keys(mesh)
     for frame, values in sample_profile(selected_profile, duration, fps):
         for region, key in keys.items():
             key.value = values[region]
             key.keyframe_insert(data_path="value", frame=frame, group="Continuous growth / " + region)
+        pec_value = values["pectorals"]
+        for key in pectoral_keys.values():
+            key.value = pec_value
+            key.keyframe_insert(data_path="value", frame=frame, group="Continuous growth / pectorals")
 
     # The curve evaluator already supplies smoothstep values. Linear interpolation
     # between adjacent frame samples preserves those values exactly at render time.
@@ -91,6 +114,9 @@ def animate_timeline_growth(mesh, timeline, profile=None):
         for curve in shape_keys.animation_data.action.fcurves:
             for point in curve.keyframe_points:
                 point.interpolation = "LINEAR"
+    keys["pectorals_projection"] = pectoral_keys["projection"]
+    keys["pectorals_upper"] = pectoral_keys["upper"]
+    keys["pectorals_outer"] = pectoral_keys["outer"]
     return keys
 
 

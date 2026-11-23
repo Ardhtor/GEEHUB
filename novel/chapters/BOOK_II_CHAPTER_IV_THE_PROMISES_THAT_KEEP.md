@@ -198,3 +198,6 @@ The next promise was already taking shape.
 - **Infinite promises:** are renewable commitments, not supernatural guarantees or permanent obligations. Each man remains free to change, pause, refuse, return, and make another promise by choice.
 - **Expedition consequence:** Andrew's rolling-ball tests create a separate observation layer on the map. They do not replace Kirk's account of his own sensations.
 - **Next movement:** return to the Measure House records and the lower residential approaches; preserve the distinction between measured terrain, Kirk's felt experience, and Andrew's hypotheses.
+
+
+**Local map:** [Book II — Local Spatial Atlas](./BOOK_II_SPATIAL_ATLAS.md) records the surveyed routes and the still-unmeasured residential approaches.

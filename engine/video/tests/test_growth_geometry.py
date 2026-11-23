@@ -68,6 +68,20 @@ class PectoralGeometryTests(unittest.TestCase):
         })
         self.assertTrue(any("radius values must be positive" in error for error in errors))
 
+    def test_sternal_separation_moves_inner_edges_outward(self):
+        left = pectoral_offset((-0.17, -0.38, 2.27), "sternal")
+        right = pectoral_offset((0.17, -0.38, 2.27), "sternal")
+        self.assertLess(left[0], 0.0)
+        self.assertGreater(right[0], 0.0)
+        self.assertAlmostEqual(left[1], right[1], places=8)
+
+    def test_lower_shelf_adds_localized_lower_chest_projection(self):
+        lower = pectoral_offset((0.36, -0.30, 2.12), "lower_shelf")
+        upper = pectoral_offset((0.36, -0.30, 2.60), "lower_shelf")
+        self.assertLess(lower[1], 0.0)
+        self.assertLess(lower[2], 0.0)
+        self.assertLess(abs(upper[1]), abs(lower[1]))
+
     def test_default_pectorals_geometry_is_valid(self):
         self.assertEqual(validate_pectorals_geometry(None), [])
 

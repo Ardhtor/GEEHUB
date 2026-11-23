@@ -107,13 +107,13 @@ def _anatomy_surface(name="GEEHUB / unified humanoid"):
     # are separate overlapping volumes so their bilateral form survives fusion.
     ellipsoid_part("pelvis", (0, 0, 1.08), (.56, .39, .44))
     ellipsoid_part("abdomen", (0, -.005, 1.62), (.50, .35, .60))
-    ellipsoid_part("thorax", (0, -.015, 2.25), (.78, .46, .52))
-    ellipsoid_part("clavicular chest", (0, -.035, 2.48), (.66, .40, .25))
+    ellipsoid_part("thorax", (0, -.02, 2.25), (.82, .52, .52))
+    ellipsoid_part("clavicular chest", (0, -.045, 2.46), (.64, .42, .22))
     for side in (-1, 1):
         tag = "L" if side < 0 else "R"
-        ellipsoid_part("pectoralis major." + tag, (side * .36, -.335, 2.29), (.42, .30, .30))
-        ellipsoid_part("upper pectoral." + tag, (side * .31, -.275, 2.48), (.32, .25, .19))
-        ellipsoid_part("lower pectoral shelf." + tag, (side * .37, -.285, 2.10), (.37, .27, .19))
+        ellipsoid_part("pectoralis major." + tag, (side * .30, -.32, 2.29), (.40, .22, .24))
+        ellipsoid_part("upper pectoral." + tag, (side * .27, -.285, 2.46), (.30, .19, .15))
+        ellipsoid_part("lower pectoral shelf." + tag, (side * .31, -.285, 2.11), (.34, .20, .14))
 
     # Neck, skull, jaw and ears overlap; nose is a small forward facial volume.
     ellipsoid_part("neck", (0, 0, 2.96), (.23, .22, .37))
@@ -125,6 +125,8 @@ def _anatomy_surface(name="GEEHUB / unified humanoid"):
         ellipsoid_part("deltoid." + ("L" if side < 0 else "R"), (side * .77, -.015, 2.57), (.39, .36, .36))
 
         limb_part("upper arm." + ("L" if side < 0 else "R"), (side * .78, 0, 2.55), (side * 1.03, -.005, 1.75), .235, .215)
+        ellipsoid_part("biceps." + ("L" if side < 0 else "R"), (side * .93, -.105, 2.12), (.235, .19, .34))
+        ellipsoid_part("triceps." + ("L" if side < 0 else "R"), (side * .92, .105, 2.12), (.22, .18, .33))
         ellipsoid_part("elbow." + ("L" if side < 0 else "R"), (side * 1.03, -.005, 1.74), (.205, .20, .22))
         limb_part("forearm." + ("L" if side < 0 else "R"), (side * 1.03, -.005, 1.75), (side * 1.13, -.025, 1.16), .18, .16)
         ellipsoid_part("hand." + ("L" if side < 0 else "R"), (side * 1.13, -.055, .99), (.15, .13, .22))
@@ -248,8 +250,8 @@ def _add_face_details(rig, name):
         obj.parent = rig
         return obj
 
-    detail("short beard", (0, -.225, 3.235), (.235, .125, .145), beard_mat)
-    detail("cropped hair", (0, .005, 3.775), (.315, .285, .125), hair_mat)
+    detail("short beard", (0, -.235, 3.245), (.215, .11, .105), beard_mat)
+    detail("cropped hair", (0, .005, 3.795), (.305, .285, .075), hair_mat)
     for side, tag in ((-1, "L"), (1, "R")):
         detail("eye white." + tag, (side * .12, -.278, 3.49), (.041, .023, .029), eye_white)
         detail("iris." + tag, (side * .12, -.298, 3.49), (.019, .012, .019), eye_dark)

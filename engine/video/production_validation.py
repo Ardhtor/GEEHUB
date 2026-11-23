@@ -408,6 +408,10 @@ def validate_staged_references(project_root: Path, required_asset_ids: list[str]
     registry_path = project_root / "07_MANIFESTS" / "reference_imports.json"
     required = list(dict.fromkeys(required_asset_ids)) if isinstance(required_asset_ids, list) else []
     report = {"verified": False, "required_asset_ids": required, "verified_asset_ids": [], "missing_asset_ids": [], "errors": []}
+    if registry_path.is_symlink():
+        report["missing_asset_ids"] = required
+        report["errors"].append("reference import registry must not be a symlink")
+        return report
     if not registry_path.is_file():
         report["missing_asset_ids"] = required
         report["errors"].append("reference_imports.json is missing; no library images have been staged")
@@ -429,6 +433,12 @@ def validate_staged_references(project_root: Path, required_asset_ids: list[str]
         record = imported.get(asset_id)
         if reference is None or record is None:
             report["missing_asset_ids"].append(asset_id)
+            continue
+        staged_candidate = project_root / record.get("path", "")
+        sidecar_candidate = project_root / record.get("sidecar", "")
+        if staged_candidate.is_symlink() or sidecar_candidate.is_symlink():
+            report["missing_asset_ids"].append(asset_id)
+            report["errors"].append(f"{asset_id}: staged image and provenance sidecar must not be symlinks")
             continue
         staged_path = _safe_project_file(project_root, record.get("path", ""))
         sidecar_path = _safe_project_file(project_root, record.get("sidecar", ""))

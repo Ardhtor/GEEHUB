@@ -60,8 +60,8 @@ def validate(project: Path) -> tuple[dict, dict]:
         raise ValueError("Invalid pectoral geometry: " + "; ".join(geometry_errors))
     library_asset_ids = {asset["asset_id"] for asset in reference_library["assets"]}
     reference_asset_ids = pectorals.get("reference_assets")
-    if not isinstance(reference_asset_ids, list) or not reference_asset_ids:
-        raise ValueError("Pectoral geometry must identify its source image-library references")
+    if not isinstance(reference_asset_ids, list) or not reference_asset_ids or any(not isinstance(item, str) or not item for item in reference_asset_ids):
+        raise ValueError("Pectoral geometry must identify source image-library asset IDs as strings")
     missing_references = sorted(set(reference_asset_ids) - library_asset_ids)
     if missing_references:
         raise ValueError("Pectoral geometry references missing library assets: " + ", ".join(missing_references))

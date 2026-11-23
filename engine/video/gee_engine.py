@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -49,12 +50,59 @@ def binaries() -> tuple[str | None, str | None]:
     return blender, ffmpeg
 
 
+def tool_version(binary: str | None, args: list[str]) -> str | None:
+    if not binary:
+        return None
+    try:
+        result = subprocess.run([binary, *args], capture_output=True, text=True, timeout=20)
+    except (OSError, subprocess.TimeoutExpired):
+        return None
+    output = (result.stdout or result.stderr).strip()
+    return output.splitlines()[0] if output else None
+
+
+def blender_capabilities(blender: str | None) -> dict:
+    if not blender:
+        return {"version": None, "opentimelineio": False, "gaussian_splat_import": False}
+    version_text = tool_version(blender, ["--version"]) or ""
+    match = re.search(r"Blender\\s+(\\d+)\\.(\\d+)(?:\\.(\\d+))?", version_text)
+    version = tuple(int(part or 0) for part in match.groups()) if match else None
+    otio_available = False
+    if version and version >= (5, 3, 0):
+        probe = (
+            "import bpy, opentimelineio; "
+            "print('GEEHUB_OTIO_OK:' + bpy.app.version_string)"
+        )
+        try:
+            result = subprocess.run(
+                [blender, "--background", "--python-expr", probe],
+                capture_output=True, text=True, timeout=45,
+            )
+            otio_available = result.returncode == 0 and "GEEHUB_OTIO_OK:" in (result.stdout + result.stderr)
+        except (OSError, subprocess.TimeoutExpired):
+            otio_available = False
+    return {
+        "version": version_text or None,
+        "opentimelineio": otio_available,
+        "gaussian_splat_import": bool(version and version >= (5, 3, 0)),
+    }
+
+
 def doctor() -> int:
     blender, ffmpeg = binaries()
+    capabilities = blender_capabilities(blender)
+    ffprobe = shutil.which("ffprobe")
     report = {
         "python": sys.version.split()[0],
         "blender": blender or "NOT FOUND",
+        "blender_version": capabilities["version"],
         "ffmpeg": ffmpeg or "NOT FOUND",
+        "ffmpeg_version": tool_version(ffmpeg, ["-version"]) if ffmpeg else None,
+        "ffprobe": ffprobe or "NOT FOUND",
+        "capabilities": {
+            "opentimelineio_in_blender": capabilities["opentimelineio"],
+            "native_gaussian_splat_baseline": capabilities["gaussian_splat_import"],
+        },
         "ready": bool(blender and ffmpeg),
         "output": str(OUTPUT_ROOT),
     }
@@ -188,7 +236,16 @@ class Handler(BaseHTTPRequestHandler):
         parsed = urlparse(self.path)
         if parsed.path == "/health":
             blender, ffmpeg = binaries()
-            self._json(200, {"ok": True, "ready": bool(blender and ffmpeg), "blender": bool(blender), "ffmpeg": bool(ffmpeg)})
+            capabilities = blender_capabilities(blender)
+            self._json(200, {
+                "ok": True, "ready": bool(blender and ffmpeg),
+                "blender": bool(blender), "blender_version": capabilities["version"],
+                "ffmpeg": bool(ffmpeg), "ffprobe": bool(shutil.which("ffprobe")),
+                "capabilities": {
+                    "opentimelineio_in_blender": capabilities["opentimelineio"],
+                    "native_gaussian_splat_baseline": capabilities["gaussian_splat_import"],
+                },
+            })
             return
         if parsed.path == "/status":
             job_id = parse_qs(parsed.query).get("id", [""])[0]
@@ -248,6 +305,7 @@ def serve() -> None:
     print("GEEHUB local engine")
     print("Blender:", blender or "NOT FOUND")
     print("FFmpeg:", ffmpeg or "NOT FOUND")
+    print("Capabilities:", json.dumps(blender_capabilities(blender), sort_keys=True))
     print("Studio bridge: http://127.0.0.1:8765")
     print("Press Ctrl+C to stop.")
     ThreadingHTTPServer(("127.0.0.1", 8765), Handler).serve_forever()

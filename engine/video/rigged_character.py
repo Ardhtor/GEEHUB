@@ -68,6 +68,7 @@ def _add_blob(meta, name, center, radius, scale):
 
 
 def _chest_hair_material(name, skin_colour):
+    """Procedural strand mask with a soft anatomical chest-region falloff."""
     mat = bpy.data.materials.new(name)
     mat.diffuse_color = skin_colour
     mat.use_nodes = True
@@ -76,34 +77,68 @@ def _chest_hair_material(name, skin_colour):
     links = mat.node_tree.links
     output = nodes.new("ShaderNodeOutputMaterial")
     bsdf = nodes.new("ShaderNodeBsdfPrincipled")
-    bsdf.inputs["Roughness"].default_value = .82
+    bsdf.inputs["Roughness"].default_value = .76
+
+    geometry = nodes.new("ShaderNodeNewGeometry")
+    separate = nodes.new("ShaderNodeSeparateXYZ")
+    links.new(geometry.outputs["Position"], separate.inputs["Vector"])
+
+    def map_range(source, from_min, from_max, to_min, to_max):
+        node = nodes.new("ShaderNodeMapRange")
+        node.clamp = True
+        node.inputs["From Min"].default_value = from_min
+        node.inputs["From Max"].default_value = from_max
+        node.inputs["To Min"].default_value = to_min
+        node.inputs["To Max"].default_value = to_max
+        links.new(source, node.inputs["Value"])
+        return node.outputs["Result"]
+
+    lower_fade = map_range(separate.outputs["Z"], 1.94, 2.14, 0.0, 1.0)
+    upper_fade = map_range(separate.outputs["Z"], 2.48, 2.73, 1.0, 0.0)
+    absolute_x = nodes.new("ShaderNodeMath")
+    absolute_x.operation = "ABSOLUTE"
+    links.new(separate.outputs["X"], absolute_x.inputs[0])
+    lateral_fade = map_range(absolute_x.outputs["Value"], .62, .86, 1.0, 0.0)
+    front_fade = map_range(separate.outputs["Y"], -.64, -.34, 1.0, 0.0)
+
+    def multiply(left, right):
+        node = nodes.new("ShaderNodeMath")
+        node.operation = "MULTIPLY"
+        links.new(left, node.inputs[0])
+        links.new(right, node.inputs[1])
+        return node.outputs["Value"]
+
+    region_mask = multiply(multiply(lower_fade, upper_fade), multiply(lateral_fade, front_fade))
     texcoord = nodes.new("ShaderNodeTexCoord")
     wave = nodes.new("ShaderNodeTexWave")
     wave.wave_type = "BANDS"
     wave.bands_direction = "X"
-    wave.inputs["Scale"].default_value = 125.0
-    wave.inputs["Distortion"].default_value = 3.5
+    wave.inputs["Scale"].default_value = 155.0
+    wave.inputs["Distortion"].default_value = 4.0
     wave.inputs["Detail"].default_value = 2.0
-    ramp = nodes.new("ShaderNodeValToRGB")
-    ramp.color_ramp.elements[0].position = .0
-    ramp.color_ramp.elements[0].color = (*skin_colour[:3], 1.0)
-    ramp.color_ramp.elements[1].position = .86
-    ramp.color_ramp.elements[1].color = (*skin_colour[:3], 1.0)
-    hair_edge = ramp.color_ramp.elements.new(.93)
-    hair_edge.color = (.075, .038, .022, 1.0)
-    hair_core = ramp.color_ramp.elements.new(1.0)
-    hair_core.color = (.035, .018, .012, 1.0)
     links.new(texcoord.outputs["Generated"], wave.inputs["Vector"])
-    links.new(wave.outputs["Color"], ramp.inputs["Fac"])
-    links.new(ramp.outputs["Color"], bsdf.inputs["Base Color"])
+    strand_ramp = nodes.new("ShaderNodeValToRGB")
+    strand_ramp.color_ramp.elements[0].position = .72
+    strand_ramp.color_ramp.elements[0].color = (0.0, 0.0, 0.0, 1.0)
+    strand_ramp.color_ramp.elements[1].position = .88
+    strand_ramp.color_ramp.elements[1].color = (1.0, 1.0, 1.0, 1.0)
+    links.new(wave.outputs["Color"], strand_ramp.inputs["Fac"])
+    hair_mask = multiply(region_mask, strand_ramp.outputs["Color"])
+
+    mix = nodes.new("ShaderNodeMixRGB")
+    mix.blend_type = "MIX"
+    mix.inputs["Color1"].default_value = (*skin_colour[:3], 1.0)
+    mix.inputs["Color2"].default_value = (.045, .023, .014, 1.0)
+    links.new(hair_mask, mix.inputs["Fac"])
+    links.new(mix.outputs["Color"], bsdf.inputs["Base Color"])
+
     bump = nodes.new("ShaderNodeBump")
-    bump.inputs["Strength"].default_value = .18
-    bump.inputs["Distance"].default_value = .006
-    links.new(wave.outputs["Color"], bump.inputs["Height"])
+    bump.inputs["Strength"].default_value = .13
+    bump.inputs["Distance"].default_value = .004
+    links.new(hair_mask, bump.inputs["Height"])
     links.new(bump.outputs["Normal"], bsdf.inputs["Normal"])
     links.new(bsdf.outputs["BSDF"], output.inputs["Surface"])
     return mat
-
 
 def _torso_surface(name, skin):
     """Create a continuous waist-to-clavicle torso with integrated bilateral pec forms."""
@@ -263,8 +298,7 @@ def _anatomy_surface(name="GEEHUB / unified humanoid"):
     for poly in mesh.data.polygons:
         poly.use_smooth = True
         centre = poly.center
-        if 2.02 <= centre.z <= 2.62 and centre.y < -0.34 and abs(centre.x) < .78:
-            poly.material_index = 1
+        poly.material_index = 1
 
     smooth = mesh.modifiers.new("Anatomical surface relaxation", "SMOOTH")
     smooth.factor = .72

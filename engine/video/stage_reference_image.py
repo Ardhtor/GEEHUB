@@ -84,14 +84,52 @@ def image_dimensions(path: Path) -> tuple[int, int]:
     return width, height
 
 
+def validate_reference_library(data: object) -> list[str]:
+    errors = []
+    if not isinstance(data, dict):
+        return ["reference library must be a JSON object"]
+    if data.get("schema") != "geehub.reference-library/1":
+        errors.append("reference library schema must be geehub.reference-library/1")
+    if not isinstance(data.get("project_id"), str) or not data["project_id"].strip():
+        errors.append("reference library project_id must be a non-empty string")
+    source = data.get("source_of_truth")
+    if not isinstance(source, dict) or not isinstance(source.get("provider"), str) or not source["provider"].strip():
+        errors.append("reference library source_of_truth.provider is required")
+    assets = data.get("assets")
+    if not isinstance(assets, list) or not assets:
+        errors.append("reference library assets must be a non-empty array")
+        return errors
+    seen = set()
+    for index, item in enumerate(assets):
+        if not isinstance(item, dict):
+            errors.append(f"reference asset[{index}] must be an object")
+            continue
+        asset_id = item.get("asset_id")
+        if not isinstance(asset_id, str) or not asset_id.strip():
+            errors.append(f"reference asset[{index}] needs a non-empty asset_id")
+        elif asset_id in seen:
+            errors.append(f"duplicate reference asset_id: {asset_id}")
+        seen.add(asset_id)
+        for field in ("file_name", "library_file_id", "mime_type", "visual_role", "rights_status"):
+            if not isinstance(item.get(field), str) or not item[field].strip():
+                errors.append(f"reference asset {asset_id or index}: {field} is required")
+        if not isinstance(item.get("mime_type"), str) or not item["mime_type"].startswith("image/"):
+            errors.append(f"reference asset {asset_id or index}: mime_type must be an image MIME type")
+        if not isinstance(item.get("model_generated"), bool):
+            errors.append(f"reference asset {asset_id or index}: model_generated must be boolean")
+        size = item.get("size_bytes")
+        if not isinstance(size, int) or isinstance(size, bool) or size <= 0:
+            errors.append(f"reference asset {asset_id or index}: size_bytes must be a positive integer")
+    return errors
+
+
 def load_reference(manifest_path: Path, asset_id: str) -> tuple[dict, dict]:
     data = json.loads(manifest_path.read_text(encoding="utf-8"))
-    if not isinstance(data, dict) or data.get("schema") != "geehub.reference-library/1":
-        raise ValueError("Reference manifest schema must be geehub.reference-library/1")
-    assets = data.get("assets")
-    if not isinstance(assets, list):
-        raise ValueError("Reference manifest assets must be an array")
-    matches = [item for item in assets if isinstance(item, dict) and item.get("asset_id") == asset_id]
+    errors = validate_reference_library(data)
+    if errors:
+        raise ValueError("Invalid reference library: " + "; ".join(errors))
+    assets = data["assets"]
+    matches = [item for item in assets if item.get("asset_id") == asset_id]
     if len(matches) != 1:
         raise ValueError(f"Expected exactly one manifest entry for asset_id {asset_id!r}; found {len(matches)}")
     return data, matches[0]

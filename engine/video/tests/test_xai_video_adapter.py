@@ -14,6 +14,7 @@ from xai_video_adapter import (
     estimate_continuous_sequence,
     estimate_video_cost,
     plan_segments,
+    prompt_with_reference_slots,
     validate_generation_authorization,
 )
 
@@ -73,6 +74,7 @@ class XAIVideoAdapterTests(unittest.TestCase):
         self.assertEqual(payload["reference_images"], [{"file_id": "file_ref_a"}, {"file_id": "file_ref_b"}])
         self.assertFalse(payload["generate_audio"])
         self.assertEqual(payload["storage_options"]["filename"], "segment-02.mp4")
+        self.assertEqual(payload["storage_options"]["expires_after"], 604800)
 
     def test_reference_to_video_rejects_native_1080p(self):
         with self.assertRaises(ValueError):
@@ -94,6 +96,8 @@ class XAIVideoAdapterTests(unittest.TestCase):
             "generation_enabled": False,
             "cost_approval_required": True,
             "cost_approval_status": "approved",
+            "data_transfer_approval_status": "approved",
+            "reference_rights_clearance_status": "cleared",
         }
         approval = {
             "schema": "geehub.provider-cost-approval/1",
@@ -106,6 +110,16 @@ class XAIVideoAdapterTests(unittest.TestCase):
             "model": "grok-imagine-video-1.5",
             "resolution": "720p",
             "total_duration_seconds": 60,
+            "reference_data_transfer_approved": True,
+            "reference_rights_cleared": True,
+            "reference_asset_ids": [
+                "car-bearded-base",
+                "car-bearded-variation-01",
+                "car-bearded-variation-02",
+                "doorway-scale-reference",
+                "bedroom-scale-reference",
+                "denim-cutoffs-reference",
+            ],
         }
         estimate = estimate_continuous_sequence()
         with self.assertRaisesRegex(ValueError, "Paid generation is disabled"):
@@ -119,6 +133,8 @@ class XAIVideoAdapterTests(unittest.TestCase):
             "generation_enabled": True,
             "cost_approval_required": True,
             "cost_approval_status": "approved",
+            "data_transfer_approval_status": "approved",
+            "reference_rights_clearance_status": "cleared",
         }
         approval = {
             "schema": "geehub.provider-cost-approval/1",
@@ -131,6 +147,16 @@ class XAIVideoAdapterTests(unittest.TestCase):
             "model": "grok-imagine-video-1.5",
             "resolution": "720p",
             "total_duration_seconds": 60,
+            "reference_data_transfer_approved": True,
+            "reference_rights_cleared": True,
+            "reference_asset_ids": [
+                "car-bearded-base",
+                "car-bearded-variation-01",
+                "car-bearded-variation-02",
+                "doorway-scale-reference",
+                "bedroom-scale-reference",
+                "denim-cutoffs-reference",
+            ],
         }
         with self.assertRaisesRegex(ValueError, "below estimated"):
             validate_generation_authorization(provider, approval, estimate_continuous_sequence(), "hulums-lab-serum-60s")
@@ -143,6 +169,8 @@ class XAIVideoAdapterTests(unittest.TestCase):
             "generation_enabled": True,
             "cost_approval_required": True,
             "cost_approval_status": "approved",
+            "data_transfer_approval_status": "approved",
+            "reference_rights_clearance_status": "cleared",
         }
         approval = {
             "schema": "geehub.provider-cost-approval/1",
@@ -155,8 +183,84 @@ class XAIVideoAdapterTests(unittest.TestCase):
             "model": "grok-imagine-video-1.5",
             "resolution": "720p",
             "total_duration_seconds": 60,
+            "reference_data_transfer_approved": True,
+            "reference_rights_cleared": True,
+            "reference_asset_ids": [
+                "car-bearded-base",
+                "car-bearded-variation-01",
+                "car-bearded-variation-02",
+                "doorway-scale-reference",
+                "bedroom-scale-reference",
+                "denim-cutoffs-reference",
+            ],
         }
         with self.assertRaisesRegex(ValueError, "does not match"):
+            validate_generation_authorization(provider, approval, estimate_continuous_sequence(), "hulums-lab-serum-60s")
+
+
+    def test_prompt_reference_slots_shift_after_pinned_first_frame(self):
+        prompt = "Keep <IMAGE_0> and <IMAGE_1> as references."
+        shifted = prompt_with_reference_slots(prompt, True)
+        self.assertIn("pinned first frame is <IMAGE_0>", shifted)
+        self.assertIn("<IMAGE_1> and <IMAGE_2>", shifted)
+
+    def test_prompt_reference_slots_do_not_shift_without_pinned_frame(self):
+        prompt = "Keep <IMAGE_0> and <IMAGE_1> as references."
+        self.assertEqual(prompt_with_reference_slots(prompt, False), prompt)
+
+    def test_file_id_lookup_accepts_documented_hyphen_and_underscore_forms(self):
+        captured = []
+        def opener(request, timeout):
+            captured.append(request.full_url)
+            return FakeResponse(b'{"id":"file-abc123","bytes":4}')
+        client = XAIClient(api_key="test-secret", opener=opener)
+        client.get_file("file_abc123")
+        client.get_file("file-abc123")
+        self.assertEqual(len(captured), 2)
+
+    def test_video_download_refuses_to_overwrite_existing_file(self):
+        client = XAIClient(api_key="test-secret", opener=lambda *_args, **_kwargs: FakeResponse())
+        with tempfile.TemporaryDirectory() as temp:
+            destination = Path(temp) / "video.mp4"
+            destination.write_bytes(b"keep")
+            with self.assertRaises(FileExistsError):
+                client.download_video("https://vidgen.x.ai/video.mp4", destination)
+            self.assertEqual(destination.read_bytes(), b"keep")
+
+    def test_cost_gate_requires_explicit_image_transfer_and_rights_clearance(self):
+        provider = {
+            "provider_id": "xai-grok-imagine-video",
+            "api_adapter_status": "implemented",
+            "connection_status": "connected",
+            "generation_enabled": True,
+            "cost_approval_required": True,
+            "cost_approval_status": "approved",
+            "data_transfer_approval_status": "not-granted",
+            "reference_rights_clearance_status": "cleared",
+        }
+        approval = {
+            "schema": "geehub.provider-cost-approval/1",
+            "status": "approved",
+            "project_id": "hulums-lab-serum-60s",
+            "provider_id": "xai-grok-imagine-video",
+            "approved_by": "user",
+            "approved_at": "2026-11-23T00:00:00Z",
+            "max_usd": 10.0,
+            "model": "grok-imagine-video-1.5",
+            "resolution": "720p",
+            "total_duration_seconds": 60,
+            "reference_data_transfer_approved": True,
+            "reference_rights_cleared": True,
+            "reference_asset_ids": [
+                "car-bearded-base",
+                "car-bearded-variation-01",
+                "car-bearded-variation-02",
+                "doorway-scale-reference",
+                "bedroom-scale-reference",
+                "denim-cutoffs-reference",
+            ],
+        }
+        with self.assertRaisesRegex(ValueError, "transfer to xAI"):
             validate_generation_authorization(provider, approval, estimate_continuous_sequence(), "hulums-lab-serum-60s")
 
     def test_json_api_request_uses_bearer_auth_and_fixed_host(self):
@@ -192,6 +296,11 @@ class XAIVideoAdapterTests(unittest.TestCase):
         self.assertEqual(result["id"], "file_reference_01")
         self.assertTrue(captured["content_type"].startswith("multipart/form-data; boundary="))
         self.assertIn(b'name="file"; filename="ref.png"', captured["body"])
+        self.assertIn(b'name="purpose"', captured["body"])
+        self.assertIn(b'assistants', captured["body"])
+        self.assertIn(b'name="expires_after"', captured["body"])
+        self.assertLess(captured["body"].index(b'name="expires_after"'), captured["body"].index(b'name="file"'))
+        self.assertIn(b"604800", captured["body"])
         self.assertIn(b"PNG!", captured["body"])
 
     def test_poll_returns_completed_video(self):

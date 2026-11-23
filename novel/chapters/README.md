@@ -37,5 +37,5 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 - [Chapter XCI — The Lowest Bar in Northgate](./CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md)
 - [Chapter XCII — The Can Opener](./CHAPTER_XCII_THE_CAN_OPENER.md)
 
-- [Book II, Chapter II — The Keepers of the Old Trail](./BOOK_II_CHAPTER_II_THE_KEEPERS_OF_THE_OLD_TRAIL.md) — the expedition discovers the Measure House, a settlement founded by earlier travellers, and learns its system of living maps.
+- [Book II, Chapter II — The Promises That Keep](./BOOK_II_CHAPTER_II_THE_PROMISES_THAT_KEEP.md) — Andrew Sim and Kirk re-establish their familiar chemistry and renew their infinite promises through shared work and play.
 - [Book II, Chapter I — The Lost Country](./BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md) — the men establish their first camp in Kirk's immense anatomy and discover an older trail.

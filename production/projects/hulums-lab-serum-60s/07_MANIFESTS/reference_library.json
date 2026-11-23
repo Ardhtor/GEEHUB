@@ -28,6 +28,12 @@
       "label": "Body scale against domestic architecture",
       "status": "comparative context; not assumed to depict the car subject",
       "research_question": "Use full-body and room references for overall silhouette, chest-to-shoulder relationship, garment behavior, and figure-to-environment scale."
+    },
+    {
+      "id": "supplemental-unconfirmed",
+      "label": "Adjacent source candidate",
+      "status": "source lineage unconfirmed",
+      "research_question": "Retain the low-resolution seated-car capture without assuming it is the source of the generated car sequence."
     }
   ],
   "assets": [

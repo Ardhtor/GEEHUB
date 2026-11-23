@@ -138,8 +138,11 @@ def ring_shell(name, rings, material_slot, segments=32):
     bpy.context.scene.collection.objects.link(obj)
     for poly in data.polygons:
         poly.use_smooth = True
+    smooth = obj.modifiers.new("Fabric surface smoothing", "SUBSURF")
+    smooth.levels = 1
+    smooth.render_levels = 2
     solid = obj.modifiers.new("Textile thickness", "SOLIDIFY")
-    solid.thickness = 0.025
+    solid.thickness = 0.018
     bevel = obj.modifiers.new("Soft garment edges", "BEVEL")
     bevel.width = 0.018
     bevel.segments = 2
@@ -152,11 +155,13 @@ def build_wardrobe():
     top = ring_shell(
         "WARDROBE / fitted sleeveless training top",
         [
-            (0, 0.0, 1.62, 0.47, 0.31),
-            (0, 0.0, 1.84, 0.55, 0.35),
-            (0, 0.0, 2.12, 0.76, 0.42),
-            (0, 0.0, 2.42, 0.69, 0.39),
-            (0, 0.0, 2.73, 0.48, 0.32),
+            (0, 0.0, 1.62, 0.49, 0.34),
+            (0, 0.0, 1.82, 0.57, 0.42),
+            (0, 0.0, 2.02, 0.69, 0.54),
+            (0, 0.0, 2.20, 0.83, 0.66),
+            (0, 0.0, 2.38, 0.82, 0.66),
+            (0, 0.0, 2.55, 0.70, 0.52),
+            (0, 0.0, 2.73, 0.49, 0.36),
         ],
         textile,
     )

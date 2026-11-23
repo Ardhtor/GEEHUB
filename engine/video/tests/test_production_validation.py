@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from production_validation import evaluate_acceptance, validate_provider_manifest, validate_shot_manifest
+from production_validation import evaluate_acceptance, validate_provider_manifest, validate_shot_manifest, validate_staged_references
 
 
 class ProductionValidationTests(unittest.TestCase):
@@ -59,6 +59,40 @@ class ProductionValidationTests(unittest.TestCase):
         self.assertFalse(report["accepted"])
         self.assertEqual(report["completed_shots"], 0)
         self.assertGreaterEqual(len(report["blockers"]), 3)
+
+    def test_reference_staging_requires_hash_matched_source_sidecar(self):
+        asset = b"reference image bytes"
+        source_dir = self.root / "01_SOURCE" / "REFERENCE_IMAGES"
+        source_dir.mkdir(parents=True)
+        staged = source_dir / "ref-a.png"
+        staged.write_bytes(asset)
+        digest = hashlib.sha256(asset).hexdigest()
+        sidecar = staged.with_suffix(".png.source.json")
+        sidecar.write_text(json.dumps({
+            "asset_id": "ref-a", "project_id": "test-project",
+            "library": {"file_id": "file-a", "library_file_id": "libfile-a"},
+            "source": {"sha256": digest, "original_modified": False},
+            "staged": {"path": "01_SOURCE/REFERENCE_IMAGES/ref-a.png", "sha256": digest},
+            "integrity": {"verified": True, "copy_matches_source": True}
+        }))
+        registry = {
+            "schema": "geehub.reference-imports/1", "project_id": "test-project",
+            "assets": [{
+                "asset_id": "ref-a", "path": "01_SOURCE/REFERENCE_IMAGES/ref-a.png",
+                "sidecar": "01_SOURCE/REFERENCE_IMAGES/ref-a.png.source.json",
+                "sha256": digest, "size_bytes": len(asset)
+            }]
+        }
+        registry_path = self.root / "07_MANIFESTS" / "reference_imports.json"
+        registry_path.parent.mkdir(parents=True, exist_ok=True)
+        registry_path.write_text(json.dumps(registry))
+        library = {"project_id": "test-project", "assets": [{"asset_id": "ref-a", "file_id": "file-a", "library_file_id": "libfile-a"}]}
+        report = validate_staged_references(self.root, ["ref-a"], library)
+        self.assertTrue(report["verified"])
+        staged.write_bytes(b"changed bytes")
+        report = validate_staged_references(self.root, ["ref-a"], library)
+        self.assertFalse(report["verified"])
+        self.assertTrue(report["errors"])
 
     def test_completed_shot_without_provider_and_dropbox_evidence_is_rejected(self):
         shots = dict(self.shots)

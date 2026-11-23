@@ -88,6 +88,6 @@ The first expedition had not found its way out. It had found the beginning of th
 - **Open questions:** Who made the old trail? Where does the dark opening lead? How many earlier travellers have passed through this country?
 
 
-## Next chapter — The Promises That Keep
+## Next chapter — The Keepers of the Old Trail
 
-[Book II, Chapter II — The Promises That Keep](./BOOK_II_CHAPTER_II_THE_PROMISES_THAT_KEEP.md) restores Andrew Sim and Kirk's established relationship. Their familiar chemistry returns through teasing, careful listening, shared experiments, ordinary affection, and the renewing practice they call infinite promises.
+[Book II, Chapter II — The Keepers of the Old Trail](./BOOK_II_CHAPTER_II_THE_KEEPERS_OF_THE_OLD_TRAIL.md) follows the old route to the Measure House, where an earlier company has built a settlement and a living map archive.

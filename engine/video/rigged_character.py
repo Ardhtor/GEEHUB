@@ -143,18 +143,18 @@ def _chest_hair_material(name, skin_colour):
 def _torso_surface(name, skin):
     """Create a continuous waist-to-clavicle torso with integrated bilateral pec forms."""
     rings = [
-        (0.96, .49, .36),
-        (1.10, .56, .40),
-        (1.28, .46, .33),
-        (1.48, .45, .32),
-        (1.70, .51, .36),
-        (1.92, .61, .41),
-        (2.10, .70, .45),
-        (2.28, .80, .50),
-        (2.46, .78, .47),
-        (2.62, .69, .41),
-        (2.76, .43, .30),
-        (2.86, .26, .22),
+        (0.96, .49, .30),
+        (1.10, .56, .34),
+        (1.28, .46, .29),
+        (1.48, .45, .28),
+        (1.70, .51, .30),
+        (1.92, .61, .34),
+        (2.10, .70, .39),
+        (2.28, .80, .44),
+        (2.46, .78, .42),
+        (2.62, .69, .36),
+        (2.76, .43, .26),
+        (2.86, .26, .18),
     ]
     segments = 96
     vertices = []
@@ -165,16 +165,19 @@ def _torso_surface(name, skin):
             cosine = math.cos(angle)
             sine = math.sin(angle)
             x = radius_x * cosine
-            y = radius_y * sine
             front = max(0.0, -sine) ** 2
-            left_pec = math.exp(-(((x + .34) / .36) ** 2) - (((z - 2.29) / .27) ** 2))
-            right_pec = math.exp(-(((x - .34) / .36) ** 2) - (((z - 2.29) / .27) ** 2))
+            if sine < 0.0:
+                y = -radius_y * math.sqrt(max(0.0, 1.0 - (abs(x) / radius_x) ** 4))
+            else:
+                y = radius_y * sine
+            left_pec = math.exp(-(((x + .34) / .30) ** 2) - (((z - 2.29) / .23) ** 2))
+            right_pec = math.exp(-(((x - .34) / .30) ** 2) - (((z - 2.29) / .23) ** 2))
             upper_left = math.exp(-(((x + .30) / .37) ** 2) - (((z - 2.49) / .18) ** 2))
             upper_right = math.exp(-(((x - .30) / .37) ** 2) - (((z - 2.49) / .18) ** 2))
             lower_left = math.exp(-(((x + .34) / .38) ** 2) - (((z - 2.11) / .16) ** 2))
             lower_right = math.exp(-(((x - .34) / .38) ** 2) - (((z - 2.11) / .16) ** 2))
             outer = math.exp(-(((abs(x) - .66) / .16) ** 2) - (((z - 2.28) / .31) ** 2))
-            sternum = math.exp(-((x / .075) ** 2) - (((z - 2.29) / .31) ** 2))
+            sternum = math.exp(-((x / .055) ** 2) - (((z - 2.29) / .30) ** 2))
             abdominal_pairs = 0.0
             for row_z in (1.53, 1.70, 1.87):
                 for side in (-1, 1):
@@ -182,15 +185,15 @@ def _torso_surface(name, skin):
             oblique = math.exp(-(((abs(x) - .43) / .10) ** 2) - (((z - 1.60) / .28) ** 2))
             clavicle = math.exp(-(((abs(x) - .32) / .20) ** 2) - (((z - 2.63) / .08) ** 2))
             bulge = (
-                .145 * (left_pec + right_pec)
-                + .045 * (upper_left + upper_right)
-                + .035 * (lower_left + lower_right)
+                .22 * (left_pec + right_pec)
+                + .055 * (upper_left + upper_right)
+                + .04 * (lower_left + lower_right)
                 + .018 * outer
                 + .022 * abdominal_pairs
                 + .018 * oblique
                 + .018 * clavicle
             ) * front
-            groove = .08 * sternum * front
+            groove = .12 * sternum * front
             y -= bulge
             y += groove
             vertices.append((x, y, z))
@@ -312,8 +315,8 @@ def _anatomy_surface(name="GEEHUB / unified humanoid"):
         poly.material_index = 1
 
     smooth = mesh.modifiers.new("Anatomical surface relaxation", "SMOOTH")
-    smooth.factor = .42
-    smooth.iterations = 2
+    smooth.factor = .22
+    smooth.iterations = 1
     sub = mesh.modifiers.new("Production subdivision", "SUBSURF")
     sub.levels = 1
     sub.render_levels = 2

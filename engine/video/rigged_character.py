@@ -203,6 +203,32 @@ def _make_armature(mesh, name):
     return rig
 
 
+def _add_face_details(rig, name):
+    """Add restrained, non-identifying adult facial features to the rigged head."""
+    beard_mat = _mat(name + " / short beard", (.055, .027, .019), .82)
+    hair_mat = _mat(name + " / short hair", (.035, .022, .018), .78)
+    eye_white = _mat(name + " / eye white", (.72, .68, .60), .34)
+    eye_dark = _mat(name + " / iris", (.045, .028, .018), .32)
+
+    def detail(label, center, scale, material):
+        bpy.ops.mesh.primitive_uv_sphere_add(segments=24, ring_count=16, location=center)
+        obj = bpy.context.object
+        obj.name = name + " / face / " + label
+        obj.scale = scale
+        bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+        obj.data.materials.append(material)
+        for poly in obj.data.polygons:
+            poly.use_smooth = True
+        obj.parent = rig
+        return obj
+
+    detail("short beard", (0, -.225, 3.235), (.235, .125, .145), beard_mat)
+    detail("cropped hair", (0, .005, 3.775), (.315, .285, .125), hair_mat)
+    for side, tag in ((-1, "L"), (1, "R")):
+        detail("eye white." + tag, (side * .12, -.278, 3.49), (.041, .023, .029), eye_white)
+        detail("iris." + tag, (side * .12, -.298, 3.49), (.019, .012, .019), eye_dark)
+
+
 def build_rigged_character(name="GEEHUB / rigged base", animate=False,
                            start_frame=1, end_frame=120, growth_ceiling=1.22):
     """Create and return (unified_mesh, armature); safe to call in a clean scene.
@@ -212,6 +238,7 @@ def build_rigged_character(name="GEEHUB / rigged base", animate=False,
     """
     mesh = _anatomy_surface(name)
     rig = _make_armature(mesh, name)
+    _add_face_details(rig, name)
     if animate:
         scene = bpy.context.scene
         start_frame = max(1, int(start_frame))

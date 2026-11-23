@@ -60,6 +60,12 @@ def main():
         raise AssertionError(f"Unified body must be one connected mesh; found {components} components")
     if len(body.data.vertices) < 5000:
         raise AssertionError(f"Unified body mesh is under-detailed: {len(body.data.vertices)} vertices")
+    top = bpy.data.objects.get("WARDROBE / fitted low-cut tank alternate")
+    shorts = bpy.data.objects.get("WARDROBE / denim cutoff shorts")
+    if top is None or shorts is None:
+        raise AssertionError("Primary denim and alternate tank wardrobe objects were not created")
+    if not top.hide_render:
+        raise AssertionError("Primary image-library look must be shirtless; tank is an alternate")
     if not blend_path.is_file() or blend_path.stat().st_size < 100_000:
         raise AssertionError("Blender did not save the assembled production scene")
     if not video_path.is_file() or video_path.stat().st_size == 0:
@@ -114,13 +120,30 @@ def main():
         if not rendered.is_file() or rendered.stat().st_size < 1024:
             raise AssertionError(f"Blender did not render the {filename} review angle")
 
+    # Render the secondary graphite tank look separately; the primary look stays shirtless.
+    top.hide_render = False
+    for obj in bpy.data.objects:
+        if obj.name.startswith("WARDROBE / left tank strap") or obj.name.startswith("WARDROBE / right tank strap"):
+            obj.hide_render = False
+    review_camera.location = views["chest-three-quarter.png"]
+    review_camera.rotation_euler = (target - review_camera.location).to_track_quat("-Z", "Y").to_euler()
+    scene.render.filepath = str(output_dir / "chest-tank-alternate.png")
+    bpy.ops.render.render(write_still=True)
+    tank_review = output_dir / "chest-tank-alternate.png"
+    if not tank_review.is_file() or tank_review.stat().st_size < 1024:
+        raise AssertionError("Blender did not render the alternate tank review")
+    top.hide_render = True
+    for obj in bpy.data.objects:
+        if obj.name.startswith("WARDROBE / left tank strap") or obj.name.startswith("WARDROBE / right tank strap"):
+            obj.hide_render = True
+
     print(
         "GEEHUB_SCENE_RENDER_OK "
         f"blender={bpy.app.version_string} "
         f"blend_bytes={blend_path.stat().st_size} "
         f"preview_mp4_bytes={video_path.stat().st_size} "
         f"preview_png_bytes={image_path.stat().st_size} "
-        f"review_angles={len(views)}"
+        f"review_angles={len(views) + 1}"
     )
 
 

@@ -293,8 +293,7 @@ def _add_face_details(rig, name):
         obj.parent = rig
         return obj
 
-    detail("short beard", (0, -.235, 3.245), (.215, .11, .105), beard_mat)
-    detail("cropped hair", (0, .005, 3.795), (.305, .285, .075), hair_mat)
+    detail("full beard", (0, -.12, 3.205), (.25, .19, .18), beard_mat)
     for side, tag in ((-1, "L"), (1, "R")):
         detail("eye white." + tag, (side * .12, -.278, 3.49), (.041, .023, .029), eye_white)
         detail("iris." + tag, (side * .12, -.298, 3.49), (.019, .012, .019), eye_dark)

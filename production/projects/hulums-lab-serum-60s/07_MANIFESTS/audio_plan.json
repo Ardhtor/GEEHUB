@@ -1,0 +1,97 @@
+{
+  "schema": "geehub.audio-plan/1",
+  "project_id": "hulums-lab-serum-60s",
+  "title": "Hulum's Lab Serum — original procedural soundscape",
+  "duration_seconds": 60,
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "bit_depth": 24,
+  "seed": 20261123,
+  "creative_direction": "A quiet blue-white laboratory ambience built from subtle electrical room tone, sequoia-like wood grain and resonant creaks, a low serum pulse, a sparse original 8-bit minor-pentatonic motif, and a controlled low-frequency climax. The sound bed remains continuous across all four video segments; no hard-cut stingers.",
+  "stems": [
+    {
+      "name": "room_tone",
+      "source": "procedural-original",
+      "gain_db": -6,
+      "description": "Soft ventilation and electrical hum with restrained stereo noise"
+    },
+    {
+      "name": "wood_grain",
+      "source": "procedural-original",
+      "gain_db": -10,
+      "description": "Organic filtered noise and low resonant creaks, spaced like tension moving through heavy timber"
+    },
+    {
+      "name": "serum_pulse",
+      "source": "procedural-original",
+      "gain_db": -5,
+      "description": "Low paired pulses with restrained harmonic shimmer, increasing toward the transformation climax"
+    },
+    {
+      "name": "bit_motif",
+      "source": "procedural-original",
+      "gain_db": -16,
+      "description": "Original sparse C-minor-pentatonic 8-bit arpeggio; no sampled or borrowed melody"
+    },
+    {
+      "name": "climax",
+      "source": "procedural-original",
+      "gain_db": -6,
+      "description": "Rising sub-frequency sweep, three low impacts and a metallic tail"
+    }
+  ],
+  "timeline": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "description": "Establish the quiet laboratory: room tone, low timber resonance, restrained space"
+    },
+    {
+      "start_seconds": 10,
+      "end_seconds": 24,
+      "description": "Serum pulse enters and begins to establish a slow rhythmic body"
+    },
+    {
+      "start_seconds": 24,
+      "end_seconds": 42,
+      "description": "Wood grain and the sparse 8-bit motif become more present as the transformation accumulates"
+    },
+    {
+      "start_seconds": 42,
+      "end_seconds": 52,
+      "description": "Controlled low-frequency climax with three impacts and rising metallic resonance"
+    },
+    {
+      "start_seconds": 52,
+      "end_seconds": 60,
+      "description": "The sound settles into a stable low hum and holds through the final image"
+    }
+  ],
+  "master": {
+    "container": "wav",
+    "codec": "pcm_s24le",
+    "integrated_lufs": -16,
+    "true_peak_dbtp": -1,
+    "loudness_range_lu": 11,
+    "note": "Audio-only master target. Final video mux and sync verification are separate acceptance gates."
+  },
+  "optional_sample_layer": {
+    "enabled": false,
+    "source": null,
+    "rights_status": "not-cleared",
+    "policy": "Enable only for a user-supplied or licensed sample with documented usage and transfer rights."
+  },
+  "rights": {
+    "external_samples_used": false,
+    "original_procedural_generation": true,
+    "note": "Default renderer uses only original deterministic synthesis. No copyrighted music or external samples."
+  },
+  "acceptance": {
+    "require_all_five_stems": true,
+    "require_master_checksum": true,
+    "require_ffprobe_verification": true,
+    "require_loudness_measurement": true,
+    "require_true_peak_at_or_below_dbtp": -1,
+    "require_video_sync_review": true
+  }
+}

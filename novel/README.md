@@ -107,6 +107,7 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [The Low Bar — Ordinary Men Belong](../lore/LOW_BAR_ORDINARY_MEN.md) — low standards for physique, status, polish, ability, and social performance across the three books, while preserving consent and safety.
 - [Chapter XCI — The Lowest Bar in Northgate](./chapters/CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md) — the first scene to dramatize the rule.
 - [Chapter XCII — The Can Opener](./chapters/CHAPTER_XCII_THE_CAN_OPENER.md) — the second open table turns a misplaced kitchen tool into a small, stubborn dispute.
+- [Chapter XCIII — The Lion's Stint](./chapters/CHAPTER_XCIII_THE_LIONS_STINT.md) — the Golden Lion spends the autumn term with the Redwood boys as their prophesied temporary familiar.
 
 
 ## Book II — Kirk Expedition

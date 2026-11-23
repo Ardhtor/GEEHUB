@@ -205,4 +205,4 @@ The engine runs the assembler inside Blender 5.3's Python environment (where Ope
 
 ## Render quality profiles
 
-A bounded preview render uses 35% resolution and 8 EEVEE samples to keep iteration fast. A full render uses the project's full 1920×1080 frame size and 64 EEVEE samples. The CI smoke render builds the actual scene, writes a one-frame MP4 and PNG review frame, and uploads the scene/render files as a short-lived GitHub Actions artifact; it is a technical smoke test, not an approved final video.
+A bounded preview render uses 35% resolution and 8 EEVEE samples to keep iteration fast. A full render uses the project's full 1920×1080 frame size and 64 EEVEE samples. The CI smoke render builds the actual scene, writes a one-frame MP4, a full-scene PNG, and final-growth front/three-quarter/side chest review PNGs, then uploads the scene/render files as a short-lived GitHub Actions artifact; it is a technical smoke test, not an approved final video.

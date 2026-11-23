@@ -37,6 +37,8 @@ def main():
         "pectorals_projection",
         "pectorals_upper",
         "pectorals_outer",
+        "pectorals_sternal",
+        "pectorals_lower_shelf",
     }
     profile = {
         "schema": "geehub.growth-profile/1",
@@ -74,6 +76,8 @@ def main():
         "GROWTH / pectorals - forward projection",
         "GROWTH / pectorals - upper fullness",
         "GROWTH / pectorals - outer sweep",
+        "GROWTH / pectorals - sternal separation",
+        "GROWTH / pectorals - lower shelf",
         *{f"GROWTH / {region}" for region in REGIONS},
     }
     available = {key.name for key in shape_keys.key_blocks}

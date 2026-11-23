@@ -421,7 +421,72 @@
         "pectorals_outer"
       ],
       "description": "Forward projection, clavicular fullness, and outer sweep are separately timed shape-key channels. Each channel is mirrored and local to the chest; the legacy pectorals channel remains the fallback master for older profiles.",
-      "facing": "-Y"
+      "facing": "-Y",
+      "geometry": {
+        "projection": {
+          "centre": [
+            0.36,
+            -0.29,
+            2.27
+          ],
+          "radius": [
+            0.43,
+            0.42,
+            0.32
+          ],
+          "offset": [
+            0.045,
+            -0.205,
+            0
+          ]
+        },
+        "upper": {
+          "centre": [
+            0.34,
+            -0.27,
+            2.43
+          ],
+          "radius": [
+            0.4,
+            0.38,
+            0.24
+          ],
+          "offset": [
+            0.018,
+            -0.07,
+            0.028
+          ]
+        },
+        "outer": {
+          "centre": [
+            0.58,
+            -0.22,
+            2.25
+          ],
+          "radius": [
+            0.3,
+            0.4,
+            0.34
+          ],
+          "offset": [
+            0.075,
+            -0.052,
+            0
+          ]
+        }
+      },
+      "reference_assets": [
+        "car-bearded-closeup-source",
+        "car-bearded-closeup-generated",
+        "bedroom-fullbody-generated",
+        "denim-cutoffs-generated",
+        "warm-lit-jock-pose-reference"
+      ],
+      "calibration": {
+        "method": "manual-qualitative-reference-fit",
+        "status": "authored-from-curated-image-library",
+        "notes": "The close-up car references establish forward pec projection and central separation; full-body and three-quarter references constrain shoulder/chest transitions and overall silhouette. Values are editable local-metre deformation controls, not automatically extracted anatomical measurements. Single 2D views do not provide reliable depth or true scale."
+      }
     }
   },
   "evidence": {

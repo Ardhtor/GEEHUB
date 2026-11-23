@@ -299,8 +299,8 @@ def _anatomy_surface(name="GEEHUB / unified humanoid"):
         poly.material_index = 1
 
     smooth = mesh.modifiers.new("Anatomical surface relaxation", "SMOOTH")
-    smooth.factor = .72
-    smooth.iterations = 4
+    smooth.factor = .42
+    smooth.iterations = 2
     sub = mesh.modifiers.new("Production subdivision", "SUBSURF")
     sub.levels = 1
     sub.render_levels = 2

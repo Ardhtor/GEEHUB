@@ -160,7 +160,7 @@
     "repository_code": "GitHub pull request #11 (draft; not merged)",
     "policy": "Original source media remains immutable; derived frames, passes, shots, composites and exports are versioned separately. Large binaries are excluded from Git."
   },
-  "notes": "This is an executable procedural Blender prototype with five independently timed bilateral pectoral shape-key layers, a canonical Dropbox image-library index, project reference manifest, and local reference-image intake. It is not yet an industry-standard finished production: no Grok Imagine Video provider connection is available in the current workspace, no paid generation has been authorized, no independent generated shots or final master exist, and the canonical Dropbox project folder has not been provisioned. No video render or Dropbox delivery is claimed. The project remains blocked at preproduction until the provider, generation approval, real shot outputs, sequence export, and Dropbox reopen verification are complete. The six project-selected image references have stable Library IDs and visual comparison notes, but their binary copies have not yet been staged into 01_SOURCE/REFERENCE_IMAGES; production validation blocks until their source hashes and provenance sidecars are verified.",
+  "notes": "This is an executable procedural Blender prototype with six independently timed bilateral pectoral shape-key layers, a canonical Dropbox image-library index, project reference manifest, and local reference-image intake. It is not yet an industry-standard finished production: no Grok Imagine Video provider connection is available in the current workspace, no paid generation has been authorized, no independent generated shots or final master exist, and the canonical Dropbox project folder has not been provisioned. No video render or Dropbox delivery is claimed. The project remains blocked at preproduction until the provider, generation approval, real shot outputs, sequence export, and Dropbox reopen verification are complete. The six project-selected image references have stable Library IDs and visual comparison notes, but their binary copies have not yet been staged into 01_SOURCE/REFERENCE_IMAGES; production validation blocks until their source hashes and provenance sidecars are verified.",
   "character_model": "rigged",
   "renderEntryPoint": "render_project.py",
   "generation": {
@@ -187,5 +187,19 @@
       "eevee_samples": 64,
       "description": "Full 1920x1080 production render"
     }
+  },
+  "referenceStaging": {
+    "status": "not-staged",
+    "registry": "07_MANIFESTS/reference_imports.json",
+    "destination": "01_SOURCE/REFERENCE_IMAGES",
+    "requiredAssetIds": [
+      "car-bearded-base",
+      "car-bearded-variation-01",
+      "car-bearded-variation-02",
+      "doorway-scale-reference",
+      "bedroom-scale-reference",
+      "denim-cutoffs-reference"
+    ],
+    "policy": "Each local copy must retain its Library file IDs, original source hash, staged hash, and sidecar. The original Library item is never modified."
   }
 }

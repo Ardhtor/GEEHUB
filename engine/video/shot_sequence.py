@@ -85,7 +85,8 @@ def compare_probe_metadata(expected: dict, actual: dict, shot_id: str) -> list[s
     return errors
 
 
-def build_otio_sequence(project_root: Path, output_path: Path) -> dict:
+def build_otio_sequence(project_root: Path, output_path: Path, allow_local_preview: bool = False) -> dict:
+    project_root = Path(project_root).expanduser().resolve(strict=True)
     manifests = project_root / "07_MANIFESTS"
     shots = json.loads((manifests / "shots.json").read_text(encoding="utf-8"))
     provider = json.loads((manifests / "video_provider.json").read_text(encoding="utf-8"))
@@ -96,18 +97,31 @@ def build_otio_sequence(project_root: Path, output_path: Path) -> dict:
     if errors:
         raise ValueError("Invalid shot/provider manifests: " + "; ".join(errors))
 
-    completed = sorted(
-        (shot for shot in shots["shots"] if shot["generation"]["status"] == "completed"),
-        key=lambda shot: shot["sequence_order"],
-    )
-    if len(completed) < 2:
-        raise ValueError("At least two verified provider-generated shots are required before OTIO assembly")
+    policy = shots.get("sequence_policy", {})
+    expected_count = policy.get("segment_count", 2)
+    expected_duration = policy.get("total_duration_seconds")
+    allowed_states = {"completed", "generated-local"} if allow_local_preview else {"completed"}
+    ordered = sorted(shots["shots"], key=lambda shot: shot["sequence_order"])
+    if len(ordered) != expected_count:
+        raise ValueError(f"Sequence requires {expected_count} segments; found {len(ordered)}")
+    selected = []
+    for shot in ordered:
+        state = shot.get("generation", {}).get("status")
+        if state not in allowed_states:
+            if state == "generated-local" and not allow_local_preview:
+                raise ValueError("Local generated segments require --local-preview; final OTIO assembly requires Dropbox-verified completed shots")
+            raise ValueError(f"{shot.get('shot_id')}: sequence assembly requires eligible generated media, found {state!r}")
+        selected.append(shot)
+    total_duration = sum(float(shot["duration_seconds"]) for shot in selected)
+    if expected_duration is not None and abs(total_duration - float(expected_duration)) > 0.01:
+        raise ValueError("Shot durations do not add up to the declared continuous sequence duration")
 
     timeline = otio.schema.Timeline(name=shots.get("sequence_id", project_root.name))
-    track = otio.schema.Track(name="GEEHUB Verified Generated Shots", kind=otio.schema.TrackKind.Video)
+    track_name = "GEEHUB Local Review Preview" if allow_local_preview else "GEEHUB Dropbox-Verified Master Sequence"
+    track = otio.schema.Track(name=track_name, kind=otio.schema.TrackKind.Video)
     report_shots = []
 
-    for shot in completed:
+    for shot in selected:
         generation = shot["generation"]
         media_path = _safe_project_file(project_root, generation["output_path"])
         if media_path is None:
@@ -140,10 +154,15 @@ def build_otio_sequence(project_root: Path, output_path: Path) -> dict:
             "provider_output_id": generation["provider_output_id"],
             "model_id": generation["model_id"],
             "prompt_sha256": generation["prompt_sha256"],
+            "submitted_prompt_sha256": generation["submitted_prompt_sha256"],
             "reference_asset_ids": generation["reference_asset_ids"],
             "output_sha256": generation["output_sha256"],
-            "dropbox_file_id": generation["dropbox_file_id"],
-            "dropbox_path": generation["dropbox_path"],
+            "first_frame_sha256": generation["first_frame_sha256"],
+            "last_frame_sha256": generation["last_frame_sha256"],
+            "continuity_status": generation["continuity_status"],
+            "dropbox_file_id": generation.get("dropbox_file_id"),
+            "dropbox_path": generation.get("dropbox_path"),
+            "preview_only": allow_local_preview,
         }
         track.append(clip)
         report_shots.append({
@@ -155,6 +174,7 @@ def build_otio_sequence(project_root: Path, output_path: Path) -> dict:
             "video_codec": actual["video_codec"],
             "audio_codec": actual["audio_codec"],
             "sha256": generation["output_sha256"],
+            "continuity_status": generation["continuity_status"],
         })
 
     timeline.tracks.append(track)
@@ -163,15 +183,24 @@ def build_otio_sequence(project_root: Path, output_path: Path) -> dict:
         "sequence_id": shots.get("sequence_id"),
         "provider": provider["display_name"],
         "shot_count": len(report_shots),
-        "assembly_policy": "verified provider-generated media only; no placeholders",
+        "duration_seconds": total_duration,
+        "continuity_verified": True,
+        "preview_only": allow_local_preview,
+        "assembly_policy": "frame-identical boundaries; provider-generated media only; no placeholders",
+        "audio_mix_required": True,
     }
     output_path = Path(output_path)
+    if not output_path.is_absolute():
+        output_path = project_root / output_path
+    output_path = output_path.absolute()
+    if not output_path.resolve().is_relative_to(project_root) or output_path.exists() or output_path.is_symlink():
+        raise ValueError("OTIO output must be a new file inside the project directory")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     otio.adapters.write_to_file(timeline, str(output_path))
 
     reopened = otio.adapters.read_from_file(str(output_path))
     reopened_clips = [item for item in reopened.tracks[0] if isinstance(item, otio.schema.Clip)] if reopened.tracks else []
-    expected_names = [shot["shot_id"] for shot in completed]
+    expected_names = [shot["shot_id"] for shot in selected]
     actual_names = [clip.name for clip in reopened_clips]
     if actual_names != expected_names:
         raise RuntimeError("OTIO round-trip validation changed shot order or clip identity")
@@ -180,19 +209,22 @@ def build_otio_sequence(project_root: Path, output_path: Path) -> dict:
         "sequence_path": str(output_path),
         "sequence_id": shots.get("sequence_id"),
         "shot_count": len(report_shots),
-        "duration_seconds": sum(item["duration_seconds"] for item in report_shots),
+        "duration_seconds": total_duration,
+        "preview_only": allow_local_preview,
+        "continuity_verified": True,
+        "audio_mix_required": True,
         "shots": report_shots,
         "otio_round_trip": "passed",
     }
-
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--project", type=Path, default=Path(__file__).resolve().parents[2] / "production" / "projects" / "hulums-lab-serum-60s")
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--local-preview", action="store_true", help="Allow locally generated segments before Dropbox verification; never an accepted final")
     args = parser.parse_args(argv)
     try:
-        report = build_otio_sequence(args.project, args.output)
+        report = build_otio_sequence(args.project, args.output, allow_local_preview=args.local_preview)
     except (OSError, ValueError, RuntimeError, json.JSONDecodeError) as exc:
         print(json.dumps({"assembled": False, "error": str(exc)}, indent=2))
         return 2

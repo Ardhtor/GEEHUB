@@ -122,3 +122,4 @@ The second book follows the living geography of Kirk's extraordinary anatomy, th
 - [Chapter III — The Place That Moved](./chapters/BOOK_II_CHAPTER_III_THE_PLACE_THAT_MOVED.md)
 - [Chapter IV — The Promises That Keep](./chapters/BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md)
 - [Chapter V — Four Mansions](./chapters/BOOK_II_CHAPTER_V_FOUR_MANSIONS.md)
+- [Chapter VI — The Game Between the Houses](./chapters/BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md)

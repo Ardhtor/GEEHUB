@@ -19,6 +19,32 @@ def material(name, color, metallic=0.0, roughness=0.48, subsurface=0.0):
     bsdf.inputs["Roughness"].default_value = roughness
     if "Subsurface Weight" in bsdf.inputs:
         bsdf.inputs["Subsurface Weight"].default_value = subsurface
+    if "fabric" in name.lower() or "denim" in name.lower():
+        nodes = mat.node_tree.nodes
+        links = mat.node_tree.links
+        texcoord = nodes.new("ShaderNodeTexCoord")
+        noise = nodes.new("ShaderNodeTexNoise")
+        noise.inputs["Scale"].default_value = 38.0
+        noise.inputs["Detail"].default_value = 2.0
+        noise.inputs["Roughness"].default_value = .68
+        ramp = nodes.new("ShaderNodeValToRGB")
+        ramp.color_ramp.elements[0].color = (color[0] * .88, color[1] * .88, color[2] * .88, 1.0)
+        ramp.color_ramp.elements[1].color = (min(color[0] * 1.06, 1.0), min(color[1] * 1.06, 1.0), min(color[2] * 1.06, 1.0), 1.0)
+        links.new(texcoord.outputs["Generated"], noise.inputs["Vector"])
+        links.new(noise.outputs["Fac"], ramp.inputs["Fac"])
+        links.new(ramp.outputs["Color"], bsdf.inputs["Base Color"])
+        weave = nodes.new("ShaderNodeTexWave")
+        weave.wave_type = "BANDS"
+        weave.bands_direction = "X"
+        weave.inputs["Scale"].default_value = 180.0
+        weave.inputs["Distortion"].default_value = 2.0
+        weave.inputs["Detail"].default_value = 2.0
+        links.new(texcoord.outputs["Generated"], weave.inputs["Vector"])
+        bump = nodes.new("ShaderNodeBump")
+        bump.inputs["Strength"].default_value = .12
+        bump.inputs["Distance"].default_value = .004
+        links.new(weave.outputs["Color"], bump.inputs["Height"])
+        links.new(bump.outputs["Normal"], bsdf.inputs["Normal"])
     return mat
 
 

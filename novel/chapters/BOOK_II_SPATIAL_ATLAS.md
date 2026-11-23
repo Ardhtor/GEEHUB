@@ -37,6 +37,24 @@ The local names are working names that may be refined as the residents inhabit t
 
 A shared green and covered walk connect the four estates without making them one household. The green contains a long table, fountain, mature trees, playing field, and pavilion. A common kitchen and recreation hall stand apart from the private gardens. Each resident controls his own rooms and routines. Visiting is by invitation; a shared meal or gathering does not suspend anyone's right to leave or be alone. The exact placement of each mansion within the paired chambers remains unmeasured; relative positions must be added only when a later scene establishes them.
 
+The paired region is now called the **Twin Grounds**: two related but non-identical reaches of Kirk's anatomy, with a central fold between them. The **Cedar Span** is the covered timber passage joining the grounds. Its resting bays and viewing slots make the difference between the two sides visible during the crossing. The **eastern hollow** is a broad sheltered depression on the eastern ground; its lower edge can change after Kirk moves and must be checked before use. The **viewing arch** frames the shared recreation area from Robert's estate and can be screened when residents want privacy. None of these places has a numeric coordinate or a settled distance yet.
+
+## Recreational geography — the Long Return
+
+The residents have established the **Long Return**, a cooperative route game across the Twin Grounds. It begins at the western marker, passes through the Cedar Span, curves around the eastern hollow, and returns by the broad sheltered passage. A shallow arch at the eastern side returns a rolling ball toward the shared field. The game has alternate routes and recovery points; a player may stop, change routes, or join midway. It is not an endurance ranking and does not treat Kirk's movements as a performance for spectators.
+
+| ID | Feature | Function | Status |
+|---|---|---|---|
+| `twin-grounds` | Twin Grounds | Paired, non-identical residential terrain | Named; positions unmeasured |
+| `cedar-span` | Cedar Span | Covered timber connection across the central fold | Established; alignment unmeasured |
+| `eastern-hollow` | Eastern Hollow | Sheltered recreation and recovery area | Established; lower edge subject to re-survey |
+| `viewing-arch` | Viewing Arch | Screenable outlook from Laskin Mansion | Established; exact aspect unmeasured |
+| `long-return` | Long Return | Cooperative rolling-ball route game with alternate paths | First playable route established |
+| `western-marker` | Western Marker | Start reference for the game | Established; coordinates unmeasured |
+| `eastern-marker` | Eastern Marker | Turn reference near the hollow | Established; coordinates unmeasured |
+
+Chase keeps the map's three evidence layers separate: direct measurements, Kirk's reported sensations, and Andrew's hypotheses. Gabe maintains warm-up and recovery points. Robert develops the viewing arch and a miniature-theatre projection of the route. Joseph participates without being required to remain in the group. The course is revised after a significant bodily movement and is left unused whenever the residents prefer privacy or rest.
+
 ## Residents and ongoing life
 
 - **Robert Laskin** has the earlier Laskin Residency proposal. The mansion develops it into a durable home rather than treating his presence as a temporary expedition arrangement.
@@ -49,7 +67,7 @@ The houses remain inhabited off-page. Each man has work, meals, guests, preferen
 
 ## Relationship field
 
-Joseph and Kirk's relationship continuity remains governed by [Joseph + Kirk — Relationship Continuity](../JOSEPH_KIRK_CONTINUITY.md): their bond is accumulated through choices, returns, disagreements, and repair; neither person is reduced to the other's reward or instrument. Andrew's growing need for Kirk's attention begins to crowd Joseph out of shared time. This is a real emotional consequence, but it does not automatically settle the relationship or make Andrew a villain. Andrew must learn to ask rather than occupy every interval. Joseph may step back, name the hurt, or request time directly. Kirk decides how to respond and is not treated as a prize to be won.
+Joseph and Kirk's relationship continuity remains governed by [Joseph + Kirk — Relationship Continuity](../JOSEPH_KIRK_CONTINUITY.md): their bond is accumulated through choices, returns, disagreements, and repair; neither person is reduced to the other's reward or instrument. Andrew's growing need for Kirk's attention begins to crowd Joseph out of shared time. Chapter VI makes the pattern visible during the Long Return: Andrew keeps a conversation going after Joseph has contributed, and Joseph leaves the group rather than compete for the receiver. Andrew notices the consequence and apologizes, but the need itself remains. He begins to ask for a defined time with Kirk instead of occupying every interval. Joseph may step back, name the hurt, or request time directly. Kirk decides how to respond and is not treated as a prize to be won.
 
 The four mansions do not create an affection ranking. Their residents may disagree about time, visits, and shared space while retaining their own agency.
 
@@ -77,6 +95,7 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 
 - The Upper Ridge, First Shelter, Old Trail, Measure House, Long Fold, Warm Table, and the still-unentered lower opening.
 - The paired residential country, its four named mansions, shared green, covered walks, common kitchen, recreation hall, and independent private grounds.
+- The Twin Grounds, Cedar Span, eastern hollow, viewing arch, and first playable Long Return route.
 - The Measure House's dated map archive and the residents' continued domestic, workshop, kitchen, route, and archival routines.
 - Andrew's increasing need for Kirk's attention and the resulting pressure on Joseph's access to shared time, as developed in [Chapter IV — The Promises That Keep](./BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md) and [Chapter V — Four Mansions](./BOOK_II_CHAPTER_V_FOUR_MANSIONS.md).
 
@@ -86,6 +105,8 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 - Relative positions and measured separations of the four estates.
 - Reliable movement signals and which paths remain stable across successive changes.
 - How Andrew, Joseph, and Kirk negotiate time and attention as the residents settle into their homes.
+- Exact alignment, walking distance, and stable reference points for the Cedar Span and Long Return.
+- Whether the eastern hollow changes after Kirk's next reported movement and what route remains safe afterward.
 
 ### Experimental
 
@@ -103,3 +124,4 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 - [Chapter III — The Place That Moved](./BOOK_II_CHAPTER_III_THE_PLACE_THAT_MOVED.md)
 - [Chapter IV — The Promises That Keep](./BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md)
 - [Chapter V — Four Mansions](./BOOK_II_CHAPTER_V_FOUR_MANSIONS.md)
+- [Chapter VI — The Game Between the Houses](./BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md)

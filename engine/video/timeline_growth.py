@@ -114,6 +114,8 @@ def animate_timeline_growth(mesh, timeline, profile=None):
             "projection": values.get("pectorals_projection", pec_value),
             "upper": values.get("pectorals_upper", pec_value),
             "outer": values.get("pectorals_outer", pec_value),
+            "sternal": values.get("pectorals_sternal", pec_value),
+            "lower_shelf": values.get("pectorals_lower_shelf", pec_value),
         }
         for region, key in pectoral_keys.items():
             key.value = pec_channels[region]
@@ -132,6 +134,8 @@ def animate_timeline_growth(mesh, timeline, profile=None):
     keys["pectorals_projection"] = pectoral_keys["projection"]
     keys["pectorals_upper"] = pectoral_keys["upper"]
     keys["pectorals_outer"] = pectoral_keys["outer"]
+    keys["pectorals_sternal"] = pectoral_keys["sternal"]
+    keys["pectorals_lower_shelf"] = pectoral_keys["lower_shelf"]
     return keys
 
 

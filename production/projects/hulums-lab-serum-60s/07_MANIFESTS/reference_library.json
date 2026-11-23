@@ -34,6 +34,12 @@
       "label": "Adjacent source candidate",
       "status": "source lineage unconfirmed",
       "research_question": "Retain the low-resolution seated-car capture without assuming it is the source of the generated car sequence."
+    },
+    {
+      "id": "alternate-wardrobe-reference",
+      "label": "Alternate low-cut tank and beard reference",
+      "status": "alternate wardrobe and face presentation only; not the primary seated-car chest silhouette",
+      "research_question": "Compare the low-cut graphite tank, shoulder straps, beard and facial presentation without replacing the seated-car sequence as the primary pectoral-shape reference."
     }
   ],
   "assets": [

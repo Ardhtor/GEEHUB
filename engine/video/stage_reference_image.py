@@ -27,7 +27,7 @@ def image_dimensions(path: Path) -> tuple[int, int]:
     """Read dimensions from PNG, JPEG, or WebP headers without decoding pixels."""
     with path.open("rb") as handle:
         header = handle.read(30)
-        if header.startswith(b"\\x89PNG\\r\\n\\x1a\\n"):
+        if header.startswith(b"\x89PNG\r\n\x1a\n"):
             if len(header) < 24 or header[12:16] != b"IHDR":
                 raise ValueError("Invalid PNG header")
             width, height = struct.unpack(">II", header[16:24])
@@ -40,22 +40,22 @@ def image_dimensions(path: Path) -> tuple[int, int]:
                 b1, b2, b3, b4 = header[21:25]
                 width = 1 + (((b2 & 0x3F) << 8) | b1)
                 height = 1 + (((b4 & 0x0F) << 10) | (b3 << 2) | ((b2 & 0xC0) >> 6))
-            elif chunk == b"VP8 " and len(header) >= 30 and header[23:26] == b"\\x9d\\x01\\x2a":
+            elif chunk == b"VP8 " and len(header) >= 30 and header[23:26] == b"\x9d\x01\x2a":
                 width = struct.unpack("<H", header[26:28])[0] & 0x3FFF
                 height = struct.unpack("<H", header[28:30])[0] & 0x3FFF
             else:
                 raise ValueError("Unsupported or incomplete WebP header")
-        elif header.startswith(b"\\xff\\xd8"):
+        elif header.startswith(b"\xff\xd8"):
             width = height = 0
             handle.seek(2)
             while True:
                 byte = handle.read(1)
                 if not byte:
                     break
-                if byte != b"\\xff":
+                if byte != b"\xff":
                     continue
                 marker_byte = handle.read(1)
-                while marker_byte == b"\\xff":
+                while marker_byte == b"\xff":
                     marker_byte = handle.read(1)
                 if not marker_byte:
                     break
@@ -138,7 +138,7 @@ def load_reference(manifest_path: Path, asset_id: str) -> tuple[dict, dict]:
 def write_json_atomic(path: Path, data: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(path.name + ".tmp")
-    temporary.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\\n", encoding="utf-8")
+    temporary.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     temporary.replace(path)
 
 

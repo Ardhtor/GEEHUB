@@ -28,6 +28,10 @@ GEEHUB's wider story collection brings together the Veyrthalis world, the Joseph
 
 The worlds are not static backdrops. Their architecture, customs, relationships, and geography change as the stories continue.
 
+## Notes and fragments
+
+Not every discovery becomes a project. Small ideas, observations, unfinished scenes, references, and side paths remain part of the collection without being turned into assignments. Some will connect to a world later; others are valuable simply because they preserve a moment in the history of the work. The atlas keeps these quieter traces alongside the larger creations.
+
 ## The image library
 
 The image library gathers visual references and creative material into an evolving collection. References remain connected to their origins, while new interpretations and generated work can develop as distinct additions.

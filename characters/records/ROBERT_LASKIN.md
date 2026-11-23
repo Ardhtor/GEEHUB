@@ -29,3 +29,8 @@ The mansion is established with Kirk's knowledge and offer; Robert chooses wheth
 
 - [Book II, Chapter V — Four Mansions](../../novel/chapters/BOOK_II_CHAPTER_V_FOUR_MANSIONS.md)
 - [Book II — Local Spatial Atlas](../../novel/chapters/BOOK_II_SPATIAL_ATLAS.md)
+
+
+## Chapter VI — the viewing arch
+
+Robert develops a screenable viewing arch at Laskin Mansion, allowing the Long Return to be watched from the estate when residents choose to gather. The screen can close, so the game does not turn the shared green into a permanent performance. Robert also proposes a miniature-theatre projection with the route map beside the image. His mansion's library, theatre, recreation hall, gardens, and viewing room continue to acquire practical uses through resident life.

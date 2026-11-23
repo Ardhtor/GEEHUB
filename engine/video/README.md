@@ -157,3 +157,16 @@ The Imagine generator and the Blender/FFmpeg scene runner are distinct productio
 ## Verified source staging
 
 The Teal Titan project includes a Dropbox staging runbook at `production/projects/teal-titan-golds-on-5th/STAGING.md`. It documents local Dropbox discovery, visual source selection, checksum-verified staging, FFprobe metadata, six-frame extraction and explicit stop conditions. Use it as the reference procedure when adapting staging to other short-form projects.
+
+
+## Pectoral geometry controls
+
+The existing `pectorals` growth curve now drives three coordinated, editable shape-key layers on the unified mesh and fitted garment: forward projection, upper-chest fullness, and outer sweep. The separate layers create a more readable pec silhouette while keeping bilateral symmetry and limiting deformation to the chest. Existing growth-profile files remain compatible; no new timing channel is required.
+
+The renderer-independent geometry tests run with:
+
+```bash
+python -m unittest engine.video.tests.test_growth_geometry -v
+```
+
+This is a deterministic geometric deformation field. It does not simulate muscle fibres, fascia, skin sliding, or physically accurate tissue response. Review front, three-quarter, and side renders before using a character-specific asset.

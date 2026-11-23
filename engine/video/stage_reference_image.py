@@ -245,6 +245,8 @@ def validate_reference_library(data: object) -> list[str]:
     return errors
 
 def load_reference(manifest_path: Path, asset_id: str) -> tuple[dict, dict]:
+    if not isinstance(asset_id, str) or not SAFE_ASSET_ID.fullmatch(asset_id):
+        raise ValueError("asset_id must contain only lowercase letters, digits and hyphens")
     data = json.loads(manifest_path.read_text(encoding="utf-8"))
     errors = validate_reference_library(data)
     if errors:
@@ -391,7 +393,10 @@ def stage_reference_image(project: Path, asset_id: str, source: Path, manifest_p
     else:
         write_json_atomic(sidecar, record)
 
-    registry_path = project / "07_MANIFESTS" / "reference_imports.json"
+    manifests_dir = project / "07_MANIFESTS"
+    if manifests_dir.is_symlink() or not manifests_dir.resolve().is_relative_to(project):
+        raise ValueError("Project manifest directory must be a real directory inside the project")
+    registry_path = manifests_dir / "reference_imports.json"
     if registry_path.is_symlink():
         raise ValueError("Refusing a symlinked reference import registry")
     if registry_path.exists():
@@ -404,7 +409,12 @@ def stage_reference_image(project: Path, asset_id: str, source: Path, manifest_p
             raise ValueError("Existing reference import registry has an unsupported schema or project ID")
     else:
         registry = {"schema": "geehub.reference-imports/1", "project_id": library.get("project_id"), "assets": []}
-    existing_records = [item for item in registry["assets"] if isinstance(item, dict) and item.get("asset_id") == asset_id]
+    if any(not isinstance(item, dict) or not isinstance(item.get("asset_id"), str) for item in registry["assets"]):
+        raise ValueError("Reference import registry contains a malformed asset record")
+    registry_ids = [item["asset_id"] for item in registry["assets"]]
+    if len(registry_ids) != len(set(registry_ids)):
+        raise ValueError("Reference import registry contains duplicate asset IDs")
+    existing_records = [item for item in registry["assets"] if item.get("asset_id") == asset_id]
     if len(existing_records) > 1:
         raise ValueError(f"Registry contains duplicate entries for {asset_id}")
     registry_record = {

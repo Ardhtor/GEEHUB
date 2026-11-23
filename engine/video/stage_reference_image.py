@@ -5,12 +5,16 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
+import re
 import shutil
 import struct
 import sys
+import tempfile
 from pathlib import Path
 
 DEFAULT_PROJECT = Path(__file__).resolve().parents[2] / "production" / "projects" / "hulums-lab-serum-60s"
+SAFE_ASSET_ID = re.compile(r"^[a-z0-9](?:[a-z0-9-]{0,62}[a-z0-9])?$")
 MAX_IMAGE_BYTES = 100 * 1024 * 1024
 SUPPORTED_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
 
@@ -101,8 +105,8 @@ def _validate_library_asset(item: object, label: str, seen_ids: set[str], seen_f
     if not isinstance(item, dict):
         return [f"{label} must be an object"]
     asset_id = item.get("asset_id")
-    if not isinstance(asset_id, str) or not asset_id.strip():
-        errors.append(f"{label} needs a non-empty asset_id")
+    if not isinstance(asset_id, str) or not SAFE_ASSET_ID.fullmatch(asset_id):
+        errors.append(f"{label} needs a safe lowercase asset_id (letters, digits and hyphens only)")
     elif asset_id in seen_ids:
         errors.append(f"duplicate image-library asset_id: {asset_id}")
     else:
@@ -165,8 +169,12 @@ def validate_image_library_index(data: object) -> list[str]:
             continue
         for asset_index, asset in enumerate(assets):
             errors.extend(_validate_library_asset(asset, f"{collection_id or index}.assets[{asset_index}]", seen_ids, seen_files, seen_library_ids))
-    for index, asset in enumerate(data.get("supplemental_candidates", [])):
-        errors.extend(_validate_library_asset(asset, f"supplemental_candidates[{index}]", seen_ids, seen_files, seen_library_ids))
+    supplemental = data.get("supplemental_candidates", [])
+    if not isinstance(supplemental, list):
+        errors.append("supplemental_candidates must be an array")
+    else:
+        for index, asset in enumerate(supplemental):
+            errors.extend(_validate_library_asset(asset, f"supplemental_candidates[{index}]", seen_ids, seen_files, seen_library_ids))
     return errors
 
 
@@ -207,8 +215,8 @@ def validate_reference_library(data: object) -> list[str]:
             continue
         asset_id = item.get("asset_id")
         label = f"reference asset {asset_id or index}"
-        if not isinstance(asset_id, str) or not asset_id.strip():
-            errors.append(f"{label} needs a non-empty asset_id")
+        if not isinstance(asset_id, str) or not SAFE_ASSET_ID.fullmatch(asset_id):
+            errors.append(f"{label} needs a safe lowercase asset_id (letters, digits and hyphens only)")
         elif asset_id in seen_ids:
             errors.append(f"duplicate reference asset_id: {asset_id}")
         else:
@@ -232,7 +240,7 @@ def validate_reference_library(data: object) -> list[str]:
         if not isinstance(size, int) or isinstance(size, bool) or size <= 0:
             errors.append(f"{label}: size_bytes must be a positive integer")
         collection_id = item.get("collection_id")
-        if collection_id is not None and collection_id not in collection_ids:
+        if collection_id is not None and (not isinstance(collection_id, str) or collection_id not in collection_ids):
             errors.append(f"{label}: unknown collection_id {collection_id}")
     return errors
 
@@ -249,16 +257,34 @@ def load_reference(manifest_path: Path, asset_id: str) -> tuple[dict, dict]:
 
 
 def write_json_atomic(path: Path, data: dict) -> None:
+    path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = path.with_name(path.name + ".tmp")
-    temporary.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    temporary.replace(path)
+    parent = path.parent.absolute()
+    if path.is_symlink() or parent.resolve() != parent:
+        raise ValueError(f"Refusing to write through a symlink: {path}")
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", dir=path.parent,
+            prefix=path.name + ".", suffix=".tmp", delete=False,
+        ) as handle:
+            temporary = Path(handle.name)
+            json.dump(data, handle, indent=2, ensure_ascii=False)
+            handle.write("\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+        temporary.replace(path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 
 def stage_reference_image(project: Path, asset_id: str, source: Path, manifest_path: Path | None = None) -> dict:
-    project = project.expanduser().resolve()
+    if not isinstance(asset_id, str) or not SAFE_ASSET_ID.fullmatch(asset_id):
+        raise ValueError("asset_id must contain only lowercase letters, digits and hyphens")
+    project = project.expanduser().resolve(strict=True)
     source = source.expanduser().resolve(strict=True)
-    manifest_path = (manifest_path or project / "07_MANIFESTS" / "reference_library.json").expanduser().resolve()
+    manifest_path = (manifest_path or project / "07_MANIFESTS" / "reference_library.json").expanduser().resolve(strict=True)
     if not source.is_file():
         raise ValueError("Source must be a regular image file")
     if source.suffix.lower() not in SUPPORTED_EXTENSIONS:
@@ -272,26 +298,55 @@ def stage_reference_image(project: Path, asset_id: str, source: Path, manifest_p
         raise ValueError(f"File extension {source.suffix} does not match its {actual_format} image header")
     width, height = image_dimensions(source)
     library, reference = load_reference(manifest_path, asset_id)
+    if size != reference.get("size_bytes"):
+        raise ValueError("Source file size does not match the selected image-library record")
     expected_mime = {"png": "image/png", "jpeg": "image/jpeg", "webp": "image/webp"}[actual_format]
     if reference.get("mime_type") != expected_mime:
         raise ValueError(f"Reference manifest MIME type {reference.get('mime_type')!r} does not match source format {expected_mime}")
-    if reference.get("mime_type") and not reference["mime_type"].startswith("image/"):
+    if not reference["mime_type"].startswith("image/"):
         raise ValueError("Manifest entry is not an image reference")
 
     digest = sha256_file(source)
     source_dir = project / "01_SOURCE" / "REFERENCE_IMAGES"
+    source_parent = project / "01_SOURCE"
+    if source_parent.is_symlink() or source_dir.is_symlink():
+        raise ValueError("Reference staging directories must not be symlinks")
     source_dir.mkdir(parents=True, exist_ok=True)
-    destination = source_dir / f"{asset_id}{source.suffix.lower()}"
+    resolved_source_dir = source_dir.resolve(strict=True)
+    if not resolved_source_dir.is_relative_to(project):
+        raise ValueError("Reference staging directory resolves outside the project")
+    destination = resolved_source_dir / f"{asset_id}{source.suffix.lower()}"
+    if not destination.resolve().is_relative_to(resolved_source_dir) or destination.is_symlink():
+        raise ValueError("Refusing an unsafe reference destination")
     sidecar = destination.with_suffix(destination.suffix + ".source.json")
+    if sidecar.is_symlink():
+        raise ValueError("Refusing a symlinked reference provenance sidecar")
+
     if destination.exists():
-        if not destination.is_file() or sha256_file(destination) != digest:
+        if not destination.is_file() or destination.stat().st_size != size or sha256_file(destination) != digest:
             raise FileExistsError(f"Refusing to overwrite a different staged asset: {destination}")
         status = "already-staged"
     else:
-        with source.open("rb") as incoming, destination.open("xb") as outgoing:
-            shutil.copyfileobj(incoming, outgoing, length=1024 * 1024)
-        shutil.copystat(source, destination)
-        status = "staged"
+        temporary = None
+        try:
+            with source.open("rb") as incoming, tempfile.NamedTemporaryFile(
+                mode="wb", dir=resolved_source_dir, prefix=asset_id + ".", suffix=".stage", delete=False
+            ) as outgoing:
+                temporary = Path(outgoing.name)
+                shutil.copyfileobj(incoming, outgoing, length=1024 * 1024)
+                outgoing.flush()
+                os.fsync(outgoing.fileno())
+            shutil.copystat(source, temporary)
+            if temporary.stat().st_size != size or sha256_file(temporary) != digest or sha256_file(source) != digest:
+                raise OSError("Source or staged copy changed during reference import")
+            if destination.exists() or destination.is_symlink():
+                raise FileExistsError(f"Reference destination appeared during staging: {destination}")
+            temporary.replace(destination)
+            temporary = None
+            status = "staged"
+        finally:
+            if temporary is not None:
+                temporary.unlink(missing_ok=True)
 
     record = {
         "schema": "geehub.reference-image-source/1",
@@ -324,48 +379,76 @@ def stage_reference_image(project: Path, asset_id: str, source: Path, manifest_p
     }
     if sidecar.exists():
         existing = json.loads(sidecar.read_text(encoding="utf-8"))
-        if existing.get("source", {}).get("sha256") != digest:
-            raise FileExistsError(f"Existing provenance sidecar conflicts with source: {sidecar}")
+        if (
+            existing.get("schema") != record["schema"]
+            or existing.get("source", {}).get("sha256") != digest
+            or existing.get("staged", {}).get("sha256") != digest
+            or existing.get("library", {}).get("file_id") != reference.get("file_id")
+            or existing.get("library", {}).get("library_file_id") != reference.get("library_file_id")
+            or existing.get("source", {}).get("original_modified") is not False
+        ):
+            raise FileExistsError(f"Existing provenance sidecar conflicts with selected source: {sidecar}")
     else:
         write_json_atomic(sidecar, record)
 
     registry_path = project / "07_MANIFESTS" / "reference_imports.json"
+    if registry_path.is_symlink():
+        raise ValueError("Refusing a symlinked reference import registry")
     if registry_path.exists():
         registry = json.loads(registry_path.read_text(encoding="utf-8"))
-        if registry.get("schema") != "geehub.reference-imports/1" or not isinstance(registry.get("assets"), list):
-            raise ValueError("Existing reference import registry has an unsupported schema")
+        if (
+            registry.get("schema") != "geehub.reference-imports/1"
+            or registry.get("project_id") != library.get("project_id")
+            or not isinstance(registry.get("assets"), list)
+        ):
+            raise ValueError("Existing reference import registry has an unsupported schema or project ID")
     else:
         registry = {"schema": "geehub.reference-imports/1", "project_id": library.get("project_id"), "assets": []}
-    existing_records = [item for item in registry["assets"] if item.get("asset_id") == asset_id]
-    if existing_records and any(item.get("sha256") != digest for item in existing_records):
-        raise FileExistsError(f"Registry already contains a different source for {asset_id}")
-    if not existing_records:
-        registry["assets"].append({
-            "asset_id": asset_id,
-            "path": str(destination.relative_to(project)),
-            "sidecar": str(sidecar.relative_to(project)),
-            "sha256": digest,
-            "size_bytes": size,
-            "width": width,
-            "height": height,
-            "visual_role": reference.get("visual_role"),
-            "rights_status": reference.get("rights_status", "unverified-reference-only"),
-        })
+    existing_records = [item for item in registry["assets"] if isinstance(item, dict) and item.get("asset_id") == asset_id]
+    if len(existing_records) > 1:
+        raise ValueError(f"Registry contains duplicate entries for {asset_id}")
+    registry_record = {
+        "asset_id": asset_id,
+        "path": str(destination.relative_to(project)),
+        "sidecar": str(sidecar.relative_to(project)),
+        "sha256": digest,
+        "size_bytes": size,
+        "width": width,
+        "height": height,
+        "visual_role": reference.get("visual_role"),
+        "rights_status": reference.get("rights_status", "unverified-reference-only"),
+    }
+    if existing_records:
+        if existing_records[0] != registry_record:
+            raise FileExistsError(f"Registry provenance conflicts with the staged source for {asset_id}")
+    else:
+        registry["assets"].append(registry_record)
         write_json_atomic(registry_path, registry)
 
-    return {"status": status, "asset_id": asset_id, "staged_path": str(destination), "sidecar": str(sidecar), "sha256": digest, "size_bytes": size, "width": width, "height": height, "original_preserved": True}
-
+    if sha256_file(source) != digest or sha256_file(destination) != digest:
+        raise OSError("Final source/staged checksum verification failed")
+    return {
+        "status": status,
+        "asset_id": asset_id,
+        "staged_path": str(destination),
+        "sidecar": str(sidecar),
+        "sha256": digest,
+        "size_bytes": size,
+        "width": width,
+        "height": height,
+        "original_preserved": True,
+    }
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--project", type=Path, default=DEFAULT_PROJECT)
+    parser.add_argument("--project", type=Path, default=Path(os.environ.get("GEEHUB_PROJECT_ROOT", str(DEFAULT_PROJECT))).expanduser())
     parser.add_argument("--manifest", type=Path, help="Reference library manifest (defaults to project/07_MANIFESTS/reference_library.json)")
     parser.add_argument("--asset-id", required=True, help="asset_id from reference_library.json")
     parser.add_argument("--source", type=Path, required=True, help="Exported image in the local Dropbox sync folder")
     args = parser.parse_args(argv)
     try:
         result = stage_reference_image(args.project, args.asset_id, args.source, args.manifest)
-    except (OSError, ValueError, KeyError, json.JSONDecodeError) as exc:
+    except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
         print(f"REFERENCE IMAGE STAGING FAILED: {exc}", file=sys.stderr)
         return 2
     print(json.dumps(result, indent=2))

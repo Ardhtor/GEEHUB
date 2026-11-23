@@ -36,6 +36,7 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 
 - [Chapter XCI — The Lowest Bar in Northgate](./CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md)
 - [Chapter XCII — The Can Opener](./CHAPTER_XCII_THE_CAN_OPENER.md)
+- [Chapter XCIII — The Lion's Stint](./CHAPTER_XCIII_THE_LIONS_STINT.md) — the Golden Lion spends the autumn term with the Redwood boys as their prophesied temporary familiar.
 
 - [Book II, Chapter I — The Lost Country](./BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md) — the first expedition establishes its camp below the ridge and discovers the old trail.
 - [Book II, Chapter II — The Keepers of the Old Trail](./BOOK_II_CHAPTER_II_THE_KEEPERS_OF_THE_OLD_TRAIL.md) — Oren, Vale, and Senn introduce the Measure House and its dated map archive.

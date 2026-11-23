@@ -107,3 +107,15 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [The Low Bar — Ordinary Men Belong](../lore/LOW_BAR_ORDINARY_MEN.md) — low standards for physique, status, polish, ability, and social performance across the three books, while preserving consent and safety.
 - [Chapter XCI — The Lowest Bar in Northgate](./chapters/CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md) — the first scene to dramatize the rule.
 - [Chapter XCII — The Can Opener](./chapters/CHAPTER_XCII_THE_CAN_OPENER.md) — the second open table turns a misplaced kitchen tool into a small, stubborn dispute.
+
+
+## Book II — Kirk Expedition
+
+The second book follows the living geography of Kirk's extraordinary anatomy, the older settlement at the Measure House, and the relationships that develop as the country changes. Its local atlas is deliberately separate from the Veyrthalis and Colossus world maps.
+
+- [Book II — Local Spatial Atlas](./chapters/BOOK_II_SPATIAL_ATLAS.md)
+- [Chapter I — The Lost Country](./chapters/BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md)
+- [Chapter II — The Keepers of the Old Trail](./chapters/BOOK_II_CHAPTER_II_THE_KEEPERS_OF_THE_OLD_TRAIL.md)
+- [Chapter III — The Place That Moved](./chapters/BOOK_II_CHAPTER_III_THE_PLACE_THAT_MOVED.md)
+- [Chapter IV — The Promises That Keep](./chapters/BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md)
+- [Chapter V — Four Mansions](./chapters/BOOK_II_CHAPTER_V_FOUR_MANSIONS.md)

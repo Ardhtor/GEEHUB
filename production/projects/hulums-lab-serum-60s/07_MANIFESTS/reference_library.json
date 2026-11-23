@@ -141,6 +141,20 @@
       "priority": 7,
       "visual_notes": "Low-resolution seated-car image with a similar crop and subject presentation. Its relationship to the generated car sequence is not established by the canonical manifest; preserve as a separate source candidate and do not infer identity or generation lineage.",
       "rights_status": "unverified-reference-only"
+    },
+    {
+      "asset_id": "gym-tank-portrait",
+      "file_id": "file_00000000316481f48c489a117e91c4fd",
+      "library_file_id": "libfile_5df7807c14e88191b92718261f944e5f",
+      "file_name": "Beefy Gym Portrait in Cinematic Shadows.png",
+      "mime_type": "image/png",
+      "size_bytes": 1985665,
+      "model_generated": true,
+      "collection_id": "alternate-wardrobe-reference",
+      "visual_role": "alternate-tank-and-face-reference",
+      "priority": 8,
+      "visual_notes": "Adult male with bald head and full dark beard in a low-cut graphite tank and dark shorts. Use only for the alternate tank look and beard/face presentation; the primary chest silhouette remains the seated-car sequence.",
+      "rights_status": "generated-library-reference-only"
     }
   ]
 }

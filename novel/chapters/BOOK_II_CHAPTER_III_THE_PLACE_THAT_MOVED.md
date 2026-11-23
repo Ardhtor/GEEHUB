@@ -87,3 +87,8 @@ Oren read it and nodded. Outside, the old trail remained quiet. Somewhere beyond
 - **Expedition rule:** Familiar routes are not presumed safe after a change. The party records the new state and withdraws when the route remains uncertain.
 - **Archive development:** The Measure House begins arranging maps as dated sequences, preserving previous states instead of overwriting them.
 - **Open question:** Where does the opening behind the Warm Table lead, and what further change is taking place beyond it?
+
+
+## Next chapter — The Promises That Keep
+
+[Book II, Chapter IV — The Promises That Keep](./BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md) returns to Andrew Sim and Kirk's established chemistry after the Long Fold survey, carrying their familiar humour, careful listening, and renewable promises into the next stage of the expedition.

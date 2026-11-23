@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-22T22:43:00.479Z",
+  "generated": "2026-11-23T03:13:19.362Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00234",
+      "at": "2026-11-23T03:13:19.362Z",
+      "from": "geehub-long-play",
+      "to": "joseph",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / NORTHGATE UNIVERSITY → ATHLETIC COMMONS / JOSEPH",
+      "body": "The world crossed the existing relation \"STRENGTH WITHOUT CONFLICT\" from NORTHGATE UNIVERSITY into ATHLETIC COMMONS. Scale increased from 17.38× to 17.50×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00234",
+      "live": true,
+      "regionId": "athletic-commons",
+      "previousRegionId": "northgate-university",
+      "relation": "STRENGTH WITHOUT CONFLICT"
+    },
     {
       "id": "scheduled-long-play-00233",
       "at": "2026-11-22T22:43:00.479Z",
@@ -1482,21 +1497,6 @@
       "regionId": "luke-bwomph",
       "previousRegionId": "deep-lore",
       "relation": "THE FACE REMAINS"
-    },
-    {
-      "id": "scheduled-long-play-00137",
-      "at": "2026-10-30T20:40:08.005Z",
-      "from": "geehub-long-play",
-      "to": "tyler",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / VEYRTHALIS → DEEP LORE / TYLER",
-      "body": "The world crossed the existing relation \"DEPARTURE LEAVES A SHAPE\" from VEYRTHALIS into DEEP LORE. Scale increased from 11.17× to 11.22×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00137",
-      "live": true,
-      "regionId": "deep-lore",
-      "previousRegionId": "veyrthalis",
-      "relation": "DEPARTURE LEAVES A SHAPE"
     }
   ]
 }

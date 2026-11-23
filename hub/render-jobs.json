@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00234",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00234.json",
+      "route": {
+        "from": "northgate-university",
+        "to": "athletic-commons",
+        "relation": "STRENGTH WITHOUT CONFLICT"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-23T03:13:19.362Z"
+    },
+    {
+      "id": "scheduled-video-00234",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00234.json",
+      "route": {
+        "from": "northgate-university",
+        "to": "athletic-commons",
+        "relation": "STRENGTH WITHOUT CONFLICT"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-23T03:13:19.362Z"
+    },
+    {
+      "id": "scheduled-space-00234",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00234.json",
+      "route": {
+        "from": "northgate-university",
+        "to": "athletic-commons",
+        "relation": "STRENGTH WITHOUT CONFLICT"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-23T03:13:19.362Z"
+    },
+    {
       "id": "scheduled-sound-00233",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-30T09:01:56.775Z"
-    },
-    {
-      "id": "scheduled-sound-00134",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00134.json",
-      "route": {
-        "from": "luke-bwomph",
-        "to": "embodied-scale",
-        "relation": "THE BAR GYM REMEMBERS"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-30T02:38:17.484Z"
-    },
-    {
-      "id": "scheduled-video-00134",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00134.json",
-      "route": {
-        "from": "luke-bwomph",
-        "to": "embodied-scale",
-        "relation": "THE BAR GYM REMEMBERS"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-30T02:38:17.484Z"
-    },
-    {
-      "id": "scheduled-space-00134",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00134.json",
-      "route": {
-        "from": "luke-bwomph",
-        "to": "embodied-scale",
-        "relation": "THE BAR GYM REMEMBERS"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-30T02:38:17.484Z"
     }
   ]
 }

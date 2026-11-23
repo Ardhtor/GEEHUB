@@ -1,8 +1,9 @@
 """Unified, armature-driven adult humanoid blockout for GEEHUB.
 
-This is the next geometry layer beyond the original separate-ellipsoid blocking
-mesh: metaball anatomy is fused into one smooth surface, then bound to a
-deformable skeleton with distance-based normalized weights. It is deliberately
+Overlapping anatomical volumes are voxel-remeshed into one continuous skin
+surface, then bound to a deformable skeleton with distance-based normalized
+weights. Bilateral pectoral lobes, upper chest, lower shelf, head, neck, limbs,
+and feet are part of the same fused body mesh. It is deliberately
 a neutral production base; approved character meshes can replace it later.
 Run inside Blender's Python environment.
 """

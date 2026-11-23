@@ -78,6 +78,7 @@ def main():
         "GROWTH / pectorals - outer sweep",
         "GROWTH / pectorals - sternal separation",
         "GROWTH / pectorals - lower shelf",
+        "GROWTH / pectorals - sternal groove",
         *{f"GROWTH / {region}" for region in REGIONS},
     }
     available = {key.name for key in shape_keys.key_blocks}

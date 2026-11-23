@@ -1,6 +1,25 @@
 {
-  "cycle": 174,
+  "cycle": 175,
   "events": [
+    {
+      "id": "northgate-campus-00175",
+      "cycle": 175,
+      "world_pulse": 344,
+      "at": "2026-11-23T17:19:15.345495+00:00",
+      "region": "northgate-university",
+      "title": "THE MUSIC SOCIETY REHEARSAL",
+      "kind": "music",
+      "participants": [
+        "Adrian Varga",
+        "Elliot Ward",
+        "Dan Roman"
+      ],
+      "description": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-23T17:19:15.345495+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00174",
       "cycle": 174,
@@ -3288,28 +3307,28 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 134,
+    "Dan Roman": 135,
     "Marek Ionescu": 94,
-    "Elliot Ward": 107,
+    "Elliot Ward": 108,
     "Noah Bell": 108,
-    "Adrian Varga": 106
+    "Adrian Varga": 107
   },
   "last_event": {
-    "id": "northgate-campus-00174",
-    "cycle": 174,
-    "world_pulse": 343,
-    "at": "2026-11-23T17:18:47.740545+00:00",
-    "region": "athletic-commons",
-    "title": "THE BODY CULTURE CONVERSATION",
-    "kind": "body-culture",
+    "id": "northgate-campus-00175",
+    "cycle": 175,
+    "world_pulse": 344,
+    "at": "2026-11-23T17:19:15.345495+00:00",
+    "region": "northgate-university",
+    "title": "THE MUSIC SOCIETY REHEARSAL",
+    "kind": "music",
     "participants": [
-      "Dan Roman",
-      "Noah Bell",
-      "Adrian Varga"
+      "Adrian Varga",
+      "Elliot Ward",
+      "Dan Roman"
     ],
-    "description": "After training, a few adult students stay in the recovery lounge, where the conversation turns to physiques, proportions, confidence and the strange importance people attach to measurements. Dan Roman takes the teasing in good humour, while Noah admits that he has spent too much time comparing himself with other men. The group is frank without turning anyone into a public score; each man decides what he is comfortable sharing. By the time they leave, the talk has become less about numbers and more about knowing one's own body.",
+    "description": "A rehearsal room door is left ajar. A small group works through a piece, stops, laughs at a missed entrance, and starts again. People passing along the gallery pause to listen before continuing across the quad.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-23T17:18:47.740545+00:00",
+    "occurred_at": "2026-11-23T17:19:15.345495+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

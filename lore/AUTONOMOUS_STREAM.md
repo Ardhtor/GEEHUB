@@ -2653,3 +2653,11 @@ NICK: A detail returns in FOUNDERS DORMITORY: Someone has returned from the libr
 SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/founders-dormitory/README.md.
 
 Rule: comparison can become differentiation
+
+### Pulse 344 — ROUTE_OPEN / FOUNDERS DORMITORY / 2026-11-23T17:19:15.288198+00:00
+
+SETH: A line becomes visible between FOUNDERS DORMITORY and CAT GARDENS. The archive names the relation "THE DORM GARDEN PATH".
+
+NICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.
+
+Rule: arrival activates aftermath

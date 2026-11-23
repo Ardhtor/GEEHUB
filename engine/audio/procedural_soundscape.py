@@ -294,8 +294,9 @@ def render_soundscape(
     project = Path(project).expanduser().resolve(strict=True)
     plan_path = (plan_path or project / "07_MANIFESTS" / "audio_plan.json").resolve(strict=True)
     plan = json.loads(plan_path.read_text(encoding="utf-8"))
-    if plan.get("schema") != "geehub.audio-plan/1" or plan.get("project_id") != project.name:
-        raise ValueError("Audio plan schema or project_id is invalid")
+    plan_errors = validate_audio_plan(plan, project.name)
+    if plan_errors:
+        raise ValueError("; ".join(plan_errors))
     duration = int(duration_seconds if duration_seconds is not None else plan["duration_seconds"])
     if duration <= 0 or duration > MAX_DURATION_SECONDS:
         raise ValueError("duration must be between 1 and 600 seconds")
@@ -306,7 +307,13 @@ def render_soundscape(
     if not ffmpeg or not ffprobe:
         raise RuntimeError("ffmpeg and ffprobe are required for audio mixing and verification")
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + "-" + uuid.uuid4().hex[:8]
-    output_dir = project / "06_AUDIO" / "GENERATED" / run_id
+    audio_root = project / "06_AUDIO"
+    generated_root = audio_root / "GENERATED"
+    if audio_root.is_symlink() or generated_root.is_symlink():
+        raise ValueError("Audio output directories must not be symlinks")
+    if not audio_root.resolve().is_relative_to(project) or not generated_root.resolve().is_relative_to(project):
+        raise ValueError("Audio output directories must remain inside the project")
+    output_dir = generated_root / run_id
     stem_dir = output_dir / "STEMS"
     stem_dir.mkdir(parents=True, exist_ok=False)
 

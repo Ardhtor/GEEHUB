@@ -2,7 +2,7 @@
   "schema": "geehub.video-project/1",
   "id": "hulums-lab-serum-60s",
   "title": "Laboratory Serum — 60s Continuous",
-  "status": "executable-prototype",
+  "status": "preproduction-prototype",
   "canon": "experimental",
   "created": "2026-11-08",
   "subject": {
@@ -60,7 +60,11 @@
       "secondary-motion"
     ],
     "wardrobe_is_separate": true,
-    "export_preserves_rating": true
+    "export_preserves_rating": true,
+    "visual_reference_source": "production/IMAGE_LIBRARY_INDEX.json",
+    "project_reference_manifest": "07_MANIFESTS/reference_library.json",
+    "growth_profile": "07_MANIFESTS/growth_profile.json",
+    "shot_manifest": "07_MANIFESTS/shots.json"
   },
   "stage_cap": null,
   "timelineManifest": "07_MANIFESTS/timeline.json",
@@ -102,11 +106,16 @@
     "wardrobe coverage",
     "laboratory scale response",
     "audio synchronization",
-    "final hold lasts full five seconds"
+    "final hold lasts full five seconds",
+    "at least two independent provider-generated shot files exist",
+    "each shot retains provider job ID, model ID, prompt revision, source reference IDs, metadata and SHA-256",
+    "shot sequence assembled from verified source clips",
+    "master export passes FFprobe metadata and checksum validation",
+    "master and source shots reopened from canonical Dropbox storage and verified"
   ],
   "source": {
     "authority": "Dropbox or explicitly supplied source",
-    "status": "no source attached to this project",
+    "status": "image references indexed; no verified source video or provider-generated shots attached",
     "requiredMetadata": [
       "original filename",
       "provider path or file ID",
@@ -117,14 +126,51 @@
       "audio presence",
       "selected frame timestamps"
     ],
-    "candidates": []
+    "candidates": [
+      {
+        "asset_id": "car-bearded-base",
+        "role": "primary chest-shape reference"
+      },
+      {
+        "asset_id": "car-bearded-variation-01",
+        "role": "variation comparison"
+      },
+      {
+        "asset_id": "car-bearded-variation-02",
+        "role": "variation comparison"
+      },
+      {
+        "asset_id": "doorway-scale-reference",
+        "role": "full-body scale context"
+      },
+      {
+        "asset_id": "bedroom-scale-reference",
+        "role": "interior scale context"
+      },
+      {
+        "asset_id": "denim-cutoffs-reference",
+        "role": "body-surface and clothing context"
+      }
+    ]
   },
   "storage": {
     "root": "/GEEHUB/production/projects/hulums-lab-serum-60s",
     "canonical": "Dropbox",
-    "policy": "Original source media remains immutable; derived frames, passes and exports are versioned separately."
+    "status": "target-folder-not-yet-provisioned",
+    "repository_code": "GitHub pull request #11 (draft; not merged)",
+    "policy": "Original source media remains immutable; derived frames, passes, shots, composites and exports are versioned separately. Large binaries are excluded from Git."
   },
-  "notes": "Timeline-driven Blender prototype is implemented in engine/video/blender_scene.py and engine/video/timeline_growth.py. Render with engine/video/render_project.py. The first preview and Blender scene must still be generated locally and visually reviewed; no render is claimed to exist yet.",
+  "notes": "This is an executable procedural Blender prototype with five independently timed bilateral pectoral shape-key layers, a canonical Dropbox image-library index, project reference manifest, and local reference-image intake. It is not yet an industry-standard finished production: no Grok Imagine Video provider connection is available in the current workspace, no paid generation has been authorized, no independent generated shots or final master exist, and the canonical Dropbox project folder has not been provisioned. No video render or Dropbox delivery is claimed. The project remains blocked at preproduction until the provider, generation approval, real shot outputs, sequence export, and Dropbox reopen verification are complete.",
   "character_model": "rigged",
-  "renderEntryPoint": "render_project.py"
+  "renderEntryPoint": "render_project.py",
+  "generation": {
+    "provider": "Grok Imagine Video",
+    "connection_status": "not-connected-in-current-workspace",
+    "generation_enabled": false,
+    "cost_approval_required": true,
+    "cost_approval_status": "not-granted",
+    "minimum_independent_shots": 2,
+    "mock_fallback_allowed": false,
+    "policy": "Do not launch paid generation without explicit user approval. Never substitute a still-image slideshow, procedural placeholder, or fabricated provider result for generated video."
+  }
 }

@@ -57,6 +57,8 @@ def _make_pectorals_keys(mesh, geometry=None):
         ("projection", "GROWTH / pectorals - forward projection"),
         ("upper", "GROWTH / pectorals - upper fullness"),
         ("outer", "GROWTH / pectorals - outer sweep"),
+        ("sternal", "GROWTH / pectorals - sternal separation"),
+        ("lower_shelf", "GROWTH / pectorals - lower shelf"),
     ):
         key = mesh.shape_key_add(name=label, from_mix=False)
         for source, target in zip(mesh.data.vertices, key.data):

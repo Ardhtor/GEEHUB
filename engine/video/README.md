@@ -161,7 +161,7 @@ The Teal Titan project includes a Dropbox staging runbook at `production/project
 
 ## Pectoral geometry controls
 
-The pectoral system has six coordinated, editable shape-key layers on the unified mesh and fitted garment: forward projection, upper-chest fullness, outer sweep, medial edge separation, lower shelf, and a recessed sternal groove. Each has its own timing curve. Older growth profiles remain compatible because the original `pectorals` curve is used as the fallback for the optional detail layers.
+The pectoral system has six coordinated, editable shape-key layers on the unified mesh and alternate tank: forward projection, upper-chest fullness, outer sweep, medial edge separation, lower shelf, and a recessed sternal groove. Each has its own timing curve. Older growth profiles remain compatible because the original `pectorals` curve is used as the fallback for the optional detail layers.
 
 The renderer-independent geometry tests run with:
 
@@ -205,4 +205,4 @@ The engine runs the assembler inside Blender 5.3's Python environment (where Ope
 
 ## Render quality profiles
 
-A bounded preview render uses 35% resolution and 8 EEVEE samples to keep iteration fast. A full render uses the project's full 1920×1080 frame size and 64 EEVEE samples. The CI smoke render builds the actual scene, writes a one-frame MP4, a full-scene PNG, and final-growth front/three-quarter/side chest review PNGs, then uploads the scene/render files as a short-lived GitHub Actions artifact; it is a technical smoke test, not an approved final video.
+A bounded preview render uses 35% resolution and 8 EEVEE samples to keep iteration fast. A full render uses the project's full 1920×1080 frame size and 64 EEVEE samples. The CI smoke render builds the actual scene, writes a one-frame MP4, a full-scene PNG, final-growth front/three-quarter/side shirtless chest review PNGs, and a separate alternate tank review PNG, then uploads the scene/render files as a short-lived GitHub Actions artifact; it is a technical smoke test, not an approved final video.

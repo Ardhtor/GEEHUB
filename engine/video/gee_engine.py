@@ -65,7 +65,7 @@ def blender_capabilities(blender: str | None) -> dict:
     if not blender:
         return {"version": None, "opentimelineio": False, "gaussian_splat_import": False}
     version_text = tool_version(blender, ["--version"]) or ""
-    match = re.search(r"Blender\\s+(\\d+)\\.(\\d+)(?:\\.(\\d+))?", version_text)
+    match = re.search(r"Blender\s+(\d+)\.(\d+)(?:\.(\d+))?", version_text)
     version = tuple(int(part or 0) for part in match.groups()) if match else None
     otio_available = False
     if version and version >= (5, 3, 0):

@@ -76,5 +76,23 @@
       ],
       "acceptance_effect": "This preview is a rejected engineering iteration, not approved production media. A new render must be visually inspected before character approval."
     }
-  ]
+  ],
+  "visual_review": {
+    "status": "pending",
+    "required_views": [
+      "full-scene",
+      "chest-front",
+      "chest-three-quarter",
+      "chest-side"
+    ],
+    "criteria": [
+      "single continuous human body surface",
+      "bilateral pectoral symmetry",
+      "visible upper fullness and lower shelf",
+      "clear medial separation and sternal groove",
+      "chest projection consistent across front, three-quarter and side",
+      "garment remains fitted and non-explicit",
+      "adult face and body continuity"
+    ]
+  }
 }

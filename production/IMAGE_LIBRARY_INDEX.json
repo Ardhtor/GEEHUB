@@ -1,0 +1,184 @@
+{
+  "schema": "geehub.image-library-index/1",
+  "updated_at": "2026-11-23",
+  "source_of_truth": {
+    "provider": "Dropbox Paper",
+    "path": "/Paper Docs/GEEHUB — Image Creation Library Manifest.paper",
+    "file_id": "id:tbdqPXHGULQAAAAAAAADRw",
+    "revision": "01660f45970ddeb000000038d3500e3",
+    "policy": {
+      "source_preservation": "Original library assets remain untouched.",
+      "provenance": "Retain exact Library file IDs, filenames, timestamps, and generated/source classification.",
+      "interpretation": "Annotations are research hypotheses, not verified identity or anatomical measurements.",
+      "continuity": "Similarity creates a candidate relationship only; do not merge characters without stronger visual evidence."
+    }
+  },
+  "collections": [
+    {
+      "id": "pec_major_car_sequence",
+      "label": "Pectoral mass / seated-car variations",
+      "research_question": "Compare pectoral volume, separation, clavicular width, shoulder transition, torso depth, and chest-hair distribution across successive generations.",
+      "status": "candidate_sequence; visual comparison completed; progression order not approved",
+      "assets": [
+        {
+          "asset_id": "car-bearded-base",
+          "file_id": "file_000000004d4881f583238ab93a899ec9",
+          "library_file_id": "libfile_82d53dee15f88191b9677b36c0f4a3a7",
+          "filename": "Muscular Bearded Man in Car.png",
+          "path": "/Muscular Bearded Man in Car.png",
+          "created_at": "2026-11-22T17:28:19.955523Z",
+          "mime_type": "image/png",
+          "size_bytes": 2157460,
+          "model_generated": true,
+          "role": "base_candidate"
+        },
+        {
+          "asset_id": "car-bearded-variation-01",
+          "file_id": "file_00000000f79081f5b353e1784a5a5e54",
+          "library_file_id": "libfile_296bbc987718819189b4869171ceb664",
+          "filename": "Muscular Bearded Man in Car(1).png",
+          "path": "/Muscular Bearded Man in Car(1).png",
+          "created_at": "2026-11-22T17:29:58.042308Z",
+          "mime_type": "image/png",
+          "size_bytes": 2459471,
+          "model_generated": true,
+          "role": "variation_01"
+        },
+        {
+          "asset_id": "car-bearded-variation-02",
+          "file_id": "file_00000000a63481f5b47e032fec704c16",
+          "library_file_id": "libfile_7853132b0f7881918749520e6e92a490",
+          "filename": "Muscular Bearded Man in Car(2).png",
+          "path": "/Muscular Bearded Man in Car(2).png",
+          "created_at": "2026-11-22T17:34:32.002014Z",
+          "mime_type": "image/png",
+          "size_bytes": 2366309,
+          "model_generated": true,
+          "role": "variation_02"
+        }
+      ]
+    },
+    {
+      "id": "colossal_scale_context",
+      "label": "Body scale against domestic architecture",
+      "research_question": "Compare figure-to-room ratio, chest projection, shoulder breadth, and apparent height.",
+      "status": "comparative_context_set",
+      "assets": [
+        {
+          "asset_id": "doorway-scale-reference",
+          "file_id": "file_00000000519c81f58c9b1fbdb4fad352",
+          "library_file_id": "libfile_59302f342ea08191aab1cab9b4fb5502",
+          "filename": "Colossal Bodybuilder in a Doorway.png",
+          "path": "/Colossal Bodybuilder in a Doorway.png",
+          "created_at": "2026-11-21T15:53:39.333121Z",
+          "mime_type": "image/png",
+          "size_bytes": 2403685,
+          "model_generated": true,
+          "role": "architectural_scale_reference"
+        },
+        {
+          "asset_id": "bedroom-scale-reference",
+          "file_id": "file_00000000e62c81f598711cc731ce06f1",
+          "library_file_id": "libfile_f184d53598608191b2faacf41fa2db0a",
+          "filename": "Towering Muscle in a Bedroom.png",
+          "path": "/Towering Muscle in a Bedroom.png",
+          "created_at": "2026-11-21T15:54:39.576667Z",
+          "mime_type": "image/png",
+          "size_bytes": 2445884,
+          "model_generated": true,
+          "role": "interior_scale_reference"
+        },
+        {
+          "asset_id": "denim-cutoffs-reference",
+          "file_id": "file_00000000224c81f5b8b60b44a8fe2e4a",
+          "library_file_id": "libfile_fba4420f8c9881919eef6eee818a2f95",
+          "filename": "Hyperreal Bodybuilder in Denim Cutoffs.png",
+          "path": "/Hyperreal Bodybuilder in Denim Cutoffs.png",
+          "created_at": "2026-11-21T15:52:33.918844Z",
+          "mime_type": "image/png",
+          "size_bytes": 2508401,
+          "model_generated": true,
+          "role": "body_surface_and_clothing_reference"
+        }
+      ]
+    },
+    {
+      "id": "blue_giant_visual_branch",
+      "label": "Blue-green giant / cool gym treatment",
+      "research_question": "Track head, neck, shoulder, chest, and limb proportions independently from generic colossal-body references.",
+      "status": "distinct_visual_branch; identity continuity unconfirmed",
+      "assets": [
+        {
+          "asset_id": "blue-giant-gym-reference",
+          "file_id": "file_00000000999081f5b7fecd0407668a52",
+          "library_file_id": "libfile_7505381d214481919fc7b9cf051a50cc",
+          "filename": "Blue Giant in the Cool-Toned Gym.png",
+          "path": "/Blue Giant in the Cool-Toned Gym.png",
+          "created_at": "2026-11-05T17:52:25.819526Z",
+          "mime_type": "image/png",
+          "size_bytes": 2299419,
+          "model_generated": true,
+          "role": "blue_giant_branch_reference"
+        }
+      ]
+    },
+    {
+      "id": "luke_growth_lineage",
+      "label": "Luke growth-sequence reference",
+      "research_question": "Preserve Luke-specific face and body continuity; do not merge this lineage into unrelated giant-character branches.",
+      "status": "protected_character_lineage",
+      "assets": [
+        {
+          "asset_id": "luke-final-form-reference",
+          "file_id": "file_00000000734881f5ab3a9cb148fe42a5",
+          "library_file_id": "libfile_3ce27430d1c481918908d9dfaecd191b",
+          "filename": "Luke’s Final Form in the Gym.png",
+          "path": "/Luke’s Final Form in the Gym.png",
+          "created_at": "2026-09-30T16:01:07.338152Z",
+          "mime_type": "image/png",
+          "size_bytes": 2558111,
+          "model_generated": true,
+          "role": "late_stage_growth_reference"
+        },
+        {
+          "asset_id": "luke-user-pec-garment-correction",
+          "file_id": "file_000000003b98822fbd8ffa101594cc06",
+          "library_file_id": "libfile_a652a5ed8e508191bf0a2d3c09604f99",
+          "filename": "image_59001b-bwomph-his-pecs-larger-defnitely-thats-perfect-the-tank-top-just-needs-to-be-looser-no.jpg",
+          "path": "/image_59001b-bwomph-his-pecs-larger-defnitely-thats-perfect-the-tank-top-just-needs-to-be-looser-no.jpg",
+          "created_at": "2026-09-25T16:41:53Z",
+          "mime_type": "image/jpeg",
+          "size_bytes": 203709,
+          "model_generated": false,
+          "role": "user-directed_pec_and_garment_adjustment_reference"
+        }
+      ]
+    }
+  ],
+  "anatomy_channels": [
+    "pectoralis_major_volume_and_shape",
+    "sternal_division_and_inter-pectoral_gap",
+    "clavicular_head_and_upper_chest_fullness",
+    "deltoid_to_pectoral_transition",
+    "thoracic_depth_and_ribcage_width",
+    "latissimus_and_axillary_boundary",
+    "skin_hair_and_surface_detail",
+    "garment_tension_and_fit",
+    "head_neck_shoulder_scale",
+    "figure_to_environment_ratio"
+  ],
+  "supplemental_candidates": [
+    {
+      "asset_id": "car-adjacent-source-capture",
+      "file_id": "file_00000000620881f5a3bca434d5a16086",
+      "library_file_id": "libfile_233f9b6e14f881918190fc48cbd5899b",
+      "filename": "1000000650.webp",
+      "created_at": "2026-11-22T17:27:47Z",
+      "mime_type": "image/webp",
+      "size_bytes": 78640,
+      "model_generated": false,
+      "role": "adjacent_source_candidate",
+      "relationship_to_car_sequence": "unconfirmed; retain separately until source lineage is established"
+    }
+  ]
+}

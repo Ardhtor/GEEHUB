@@ -193,6 +193,26 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
     return errors
 
 
+def _verify_delivery_file(project_root: Path, relative_path: str, expected_sha: str, dropbox_verification: object, label: str) -> list[str]:
+    errors = []
+    path = _safe_project_file(project_root, relative_path)
+    if path is None:
+        return [f"{label} file is missing or escapes the project directory"]
+    actual_sha = _sha256(path)
+    if not re.fullmatch(r"[a-fA-F0-9]{64}", str(expected_sha or "")) or actual_sha != expected_sha:
+        errors.append(f"{label} SHA-256 does not match the registered file")
+    if not isinstance(dropbox_verification, dict) or dropbox_verification.get("reopened") is not True:
+        errors.append(f"{label} has not been reopened from Dropbox")
+    else:
+        if dropbox_verification.get("sha256") != actual_sha:
+            errors.append(f"{label} Dropbox SHA-256 does not match the local file")
+        if not _nonempty(dropbox_verification.get("file_id")) or not _nonempty(dropbox_verification.get("path")) or not _nonempty(dropbox_verification.get("reopened_at")):
+            errors.append(f"{label} Dropbox verification requires file ID, path, and reopen timestamp")
+        if dropbox_verification.get("metadata_verified") is not True:
+            errors.append(f"{label} Dropbox metadata was not rechecked after reopen")
+    return errors
+
+
 def evaluate_acceptance(shots: dict, acceptance: dict, project_root: Path) -> dict:
     blockers = []
     completed = []
@@ -203,15 +223,22 @@ def evaluate_acceptance(shots: dict, acceptance: dict, project_root: Path) -> di
     minimum = acceptance.get("minimum_independent_generated_shots", 2)
     if len(completed) < minimum:
         blockers.append(f"requires {minimum} verified provider-generated shots; found {len(completed)}")
-    sequence = acceptance.get("evidence", {}).get("sequence_otio") if isinstance(acceptance.get("evidence"), dict) else None
-    if not sequence or _safe_project_file(project_root, sequence) is None:
+    evidence = acceptance.get("evidence", {}) if isinstance(acceptance.get("evidence"), dict) else {}
+    sequence = evidence.get("sequence_otio")
+    if not sequence:
         blockers.append("verified OTIO shot sequence is missing")
-    master = acceptance.get("evidence", {}).get("master_mp4") if isinstance(acceptance.get("evidence"), dict) else None
-    if not master or _safe_project_file(project_root, master) is None:
+    else:
+        blockers.extend(_verify_delivery_file(project_root, sequence, evidence.get("sequence_otio_sha256"), evidence.get("sequence_dropbox_verification"), "OTIO sequence"))
+    master = evidence.get("master_mp4")
+    if not master:
         blockers.append("final MP4 master is missing")
-    master_dropbox = acceptance.get("evidence", {}).get("master_dropbox_verification") if isinstance(acceptance.get("evidence"), dict) else None
-    if not isinstance(master_dropbox, dict) or master_dropbox.get("reopened") is not True:
-        blockers.append("final master has not been reopened and verified from Dropbox")
+    else:
+        blockers.extend(_verify_delivery_file(project_root, master, evidence.get("master_sha256"), evidence.get("master_dropbox_verification"), "Final MP4 master"))
+    metadata = evidence.get("master_ffprobe_metadata")
+    if not isinstance(metadata, dict) or any(metadata.get(field) is None for field in ("duration_seconds", "frame_rate", "width", "height", "video_codec", "audio_codec")):
+        blockers.append("final master FFprobe metadata is missing or incomplete")
+    if acceptance.get("no_mock_or_placeholder_acceptance") is not True:
+        blockers.append("acceptance policy must prohibit mock and placeholder media")
     return {
         "accepted": not blockers,
         "status": "accepted" if not blockers else "blocked-preproduction",
@@ -219,7 +246,6 @@ def evaluate_acceptance(shots: dict, acceptance: dict, project_root: Path) -> di
         "required_shots": minimum,
         "blockers": blockers,
     }
-
 
 def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
     manifests = project_root / "07_MANIFESTS"

@@ -55,3 +55,16 @@ The doctor reports installed Blender and FFmpeg versions, checks Blender's bundl
 The continuous growth renderer now decomposes the pectoral channel into three local shape-key layers: forward projection (front-to-back chest depth), upper fullness (clavicular region), and outer sweep (lateral contour). Each layer can use its own optional timing curve (`pectorals_projection`, `pectorals_upper`, `pectorals_outer`). Older profiles remain compatible: if those curves are absent, all three layers follow the original `pectorals` master curve. The geometry fields are mirrored, Gaussian-weighted, and confined to the chest; they do not scale the head or abdomen.
 
 The standalone deformation field lives in `growth_geometry.py` and is covered by Python unit tests without requiring Blender. In Blender, `timeline_growth.py` turns those fields into editable shape keys on the unified character mesh and fitted wardrobe shell. This is a controllable geometric prototype, not a claim of anatomically simulated muscle tissue. Inspect a rendered front, three-quarter, and side preview before approving a production character.
+
+
+## ChatGPT image-library references
+
+The Hulum's Lab Serum project maintains a curated, provenance-aware image reference manifest at `production/projects/hulums-lab-serum-60s/07_MANIFESTS/reference_library.json`. It records the ChatGPT Library file identifiers, original filenames, generated-versus-uploaded metadata, visual roles, and rights-review state. It does not duplicate image binaries or imply that the local engine has direct access to the ChatGPT Library API.
+
+For a local render, export the selected Library image into the Dropbox-synced working folder and stage it with:
+
+    python3 engine/video/stage_reference_image.py \\
+      --asset-id car-bearded-closeup-source \\
+      --source /path/to/Dropbox/exported/1000000650.webp
+
+The intake validates PNG/JPEG/WebP headers, records dimensions and SHA-256, copies the image into `01_SOURCE/REFERENCE_IMAGES/`, and writes a per-asset provenance sidecar plus `07_MANIFESTS/reference_imports.json`. It never edits the exported source and will not silently replace an existing staged image. The project renderer validates the reference manifest before proceeding. Unknown source rights remain marked as reference-only; an image's presence in the Library does not itself establish a distribution license.

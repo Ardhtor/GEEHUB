@@ -488,6 +488,23 @@ def export_otio(timeline: Path, output: Path, media: Path | None = None) -> int:
     return subprocess.run(command, check=False).returncode
 
 
+def export_shots(project: Path, output: Path) -> int:
+    blender, _ = binaries()
+    if not blender:
+        print("BLENDER NOT FOUND. Install Blender 5.3+ or set GEEHUB_BLENDER.", file=sys.stderr)
+        return 2
+    project_path = project.expanduser().resolve()
+    if not (project_path / "07_MANIFESTS" / "shots.json").is_file():
+        print(f"SHOT MANIFEST NOT FOUND: {project_path}", file=sys.stderr)
+        return 2
+    command = [
+        blender, "--background", "--python", str(HERE / "shot_sequence.py"), "--",
+        "--project", str(project_path),
+        "--output", str(output.expanduser().resolve()),
+    ]
+    return subprocess.run(command, check=False).returncode
+
+
 def import_gaussian_splat(source: Path, output: Path, name: str) -> int:
     blender, _ = binaries()
     if not blender:
@@ -507,10 +524,11 @@ def import_gaussian_splat(source: Path, output: Path, name: str) -> int:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="GEEHUB local video engine")
-    parser.add_argument("command", choices=["doctor", "serve", "export-otio", "import-splat"])
+    parser.add_argument("command", choices=["doctor", "serve", "export-otio", "export-shots", "import-splat"])
     parser.add_argument("--timeline", type=Path, help="GEEHUB timeline.json for OTIO export")
     parser.add_argument("--output", type=Path, help="Output .otio path")
     parser.add_argument("--media", type=Path, help="Optional source media for OTIO export")
+    parser.add_argument("--project", type=Path, help="Project root for verified shot-sequence assembly")
     parser.add_argument("--source", type=Path, help="Gaussian-splat PLY source for import-splat")
     parser.add_argument("--name", default="GEEHUB / Gaussian Splat Capture", help="Imported capture collection name")
     args = parser.parse_args()
@@ -522,6 +540,10 @@ if __name__ == "__main__":
         if not args.timeline or not args.output:
             parser.error("export-otio requires --timeline and --output")
         code = export_otio(args.timeline, args.output, args.media)
+    elif args.command == "export-shots":
+        if not args.project or not args.output:
+            parser.error("export-shots requires --project and --output")
+        code = export_shots(args.project, args.output)
     else:
         if not args.source or not args.output:
             parser.error("import-splat requires --source and --output")

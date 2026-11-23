@@ -403,6 +403,74 @@
           0.96
         ]
       ]
+    },
+    "pectorals_sternal": {
+      "label": "Sternal separation",
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          23,
+          0.18
+        ],
+        [
+          36,
+          0.48
+        ],
+        [
+          50,
+          0.88
+        ],
+        [
+          57,
+          1
+        ],
+        [
+          60,
+          1
+        ]
+      ],
+      "description": "Bilateral outward movement at the medial pectoral boundary to preserve a defined inter-pectoral cleft"
+    },
+    "pectorals_lower_shelf": {
+      "label": "Lower pectoral shelf",
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          25,
+          0.2
+        ],
+        [
+          38,
+          0.52
+        ],
+        [
+          51,
+          0.9
+        ],
+        [
+          57,
+          0.98
+        ],
+        [
+          60,
+          0.98
+        ]
+      ],
+      "description": "Localized forward and slightly downward fullness along the lower pectoral contour"
     }
   },
   "deformation": {
@@ -418,9 +486,11 @@
       "channels": [
         "pectorals_projection",
         "pectorals_upper",
-        "pectorals_outer"
+        "pectorals_outer",
+        "pectorals_sternal",
+        "pectorals_lower_shelf"
       ],
-      "description": "Forward projection, clavicular fullness, and outer sweep are separately timed shape-key channels. Each channel is mirrored and local to the chest; the legacy pectorals channel remains the fallback master for older profiles.",
+      "description": "Five independently timed, bilateral shape-key layers: forward projection, clavicular fullness, lateral sweep, medial separation, and lower shelf. All remain local to the chest and are calibrated against the canonical seated-car image sequence.",
       "facing": "-Y",
       "geometry": {
         "projection": {

@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from growth_geometry import pectoral_offset
+from growth_geometry import pectoral_offset, validate_pectorals_geometry
 
 
 class PectoralGeometryTests(unittest.TestCase):
@@ -44,6 +44,32 @@ class PectoralGeometryTests(unittest.TestCase):
     def test_unknown_region_is_rejected(self):
         with self.assertRaises(ValueError):
             pectoral_offset((0.0, 0.0, 2.0), "whole-body")
+
+    def test_project_geometry_overrides_default_offsets(self):
+        point = (0.36, -0.29, 2.27)
+        default = pectoral_offset(point, "projection")
+        custom = pectoral_offset(point, "projection", {
+            "projection": {
+                "centre": [0.36, -0.29, 2.27],
+                "radius": [0.43, 0.42, 0.32],
+                "offset": [0.0, -0.40, 0.0]
+            }
+        })
+        self.assertLess(custom[1], default[1])
+        self.assertAlmostEqual(custom[0], 0.0, places=8)
+
+    def test_pectorals_geometry_validation_rejects_nonpositive_radius(self):
+        errors = validate_pectorals_geometry({
+            "projection": {
+                "centre": [0.0, 0.0, 2.0],
+                "radius": [0.4, 0.0, 0.3],
+                "offset": [0.0, -0.1, 0.0]
+            }
+        })
+        self.assertTrue(any("radius values must be positive" in error for error in errors))
+
+    def test_default_pectorals_geometry_is_valid(self):
+        self.assertEqual(validate_pectorals_geometry(None), [])
 
 
 if __name__ == "__main__":

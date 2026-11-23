@@ -309,6 +309,12 @@ def stage_reference_image(project: Path, asset_id: str, source: Path, manifest_p
         raise ValueError("Manifest entry is not an image reference")
 
     digest = sha256_file(source)
+    if reference.get("sha256") and reference["sha256"].lower() != digest:
+        raise ValueError("Source SHA-256 does not match the selected image-library record")
+    if reference.get("width") is not None and reference["width"] != width:
+        raise ValueError("Source width does not match the selected image-library record")
+    if reference.get("height") is not None and reference["height"] != height:
+        raise ValueError("Source height does not match the selected image-library record")
     source_dir = project / "01_SOURCE" / "REFERENCE_IMAGES"
     source_parent = project / "01_SOURCE"
     if source_parent.is_symlink() or source_dir.is_symlink():

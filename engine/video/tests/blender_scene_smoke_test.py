@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import math
 import shutil
 import sys
 from pathlib import Path
@@ -10,6 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import bpy
 import bmesh
+from mathutils import Vector
 from blender_scene import build_scene
 
 
@@ -74,12 +76,52 @@ def main():
     if not image_path.is_file() or image_path.stat().st_size < 1024:
         raise AssertionError("Blender did not render a reviewable PNG frame")
 
+    # Review the actual final growth state from matched orthographic angles.
+    fps = int(timeline.get("timebase", {}).get("fps", 24))
+    final_frame = int(round(float(timeline.get("duration_seconds", 60)) * fps))
+    scene.frame_end = final_frame
+    scene.frame_set(final_frame)
+    shape_keys = body.data.shape_keys.key_blocks
+    for key_name in (
+        "GROWTH / pectorals - forward projection",
+        "GROWTH / pectorals - sternal groove",
+    ):
+        if shape_keys[key_name].value < 0.9:
+            raise AssertionError(f"Final frame did not reach the intended chest state: {key_name}")
+
+    review_data = bpy.data.cameras.new("GEEHUB / chest review camera")
+    review_camera = bpy.data.objects.new("GEEHUB / chest review camera", review_data)
+    scene.collection.objects.link(review_camera)
+    review_data.type = "ORTHO"
+    review_data.ortho_scale = 3.2
+    review_data.lens = 70
+    review_data.clip_end = 100
+    scene.camera = review_camera
+    scene.render.resolution_x = 960
+    scene.render.resolution_y = 960
+    scene.render.resolution_percentage = 50
+    target = Vector((0.0, 0.0, 2.28))
+    views = {
+        "chest-front.png": Vector((0.0, -5.0, 2.28)),
+        "chest-three-quarter.png": Vector((3.2, -4.5, 2.28)),
+        "chest-side.png": Vector((5.0, -0.05, 2.28)),
+    }
+    for filename, location in views.items():
+        review_camera.location = location
+        review_camera.rotation_euler = (target - location).to_track_quat("-Z", "Y").to_euler()
+        scene.render.filepath = str(output_dir / filename)
+        bpy.ops.render.render(write_still=True)
+        rendered = output_dir / filename
+        if not rendered.is_file() or rendered.stat().st_size < 1024:
+            raise AssertionError(f"Blender did not render the {filename} review angle")
+
     print(
         "GEEHUB_SCENE_RENDER_OK "
         f"blender={bpy.app.version_string} "
         f"blend_bytes={blend_path.stat().st_size} "
         f"preview_mp4_bytes={video_path.stat().st_size} "
-        f"preview_png_bytes={image_path.stat().st_size}"
+        f"preview_png_bytes={image_path.stat().st_size} "
+        f"review_angles={len(views)}"
     )
 
 

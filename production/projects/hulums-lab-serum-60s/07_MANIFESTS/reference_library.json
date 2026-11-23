@@ -94,7 +94,7 @@
       "collection_id": "colossal_scale_context",
       "visual_role": "architectural-scale-reference",
       "priority": 4,
-      "visual_notes": "Full-body scale against a domestic doorway. Useful for chest-to-shoulder breadth, limb mass, overall silhouette, and environmental scale; not assumed to be the same character as the car sequence.",
+      "visual_notes": "Full-body adult male bodybuilder in a domestic doorway/bedroom setting, with bare feet, visible floor, doorway and bed edge. Strong paired pectoral lobes, very broad deltoids/arms, defined abdomen and large legs. Best for figure-to-room scale and full-length silhouette; identity continuity with the car subject is unconfirmed.",
       "rights_status": "generated-library-reference-only"
     },
     {
@@ -109,7 +109,7 @@
       "collection_id": "colossal_scale_context",
       "visual_role": "interior-scale-reference",
       "priority": 5,
-      "visual_notes": "Full-body interior composition. Useful for figure-to-room ratio and overall proportions; keep as comparative context rather than merging its character identity into the car sequence.",
+      "visual_notes": "Closely related front-facing full-body bedroom composition with similar body design and room cues. Useful as a second scale/framing comparison, not as proof of the car subject's identity.",
       "rights_status": "generated-library-reference-only"
     },
     {
@@ -124,7 +124,7 @@
       "collection_id": "colossal_scale_context",
       "visual_role": "body-surface-and-clothing-reference",
       "priority": 6,
-      "visual_notes": "Three-quarter/full-body body-surface and garment reference. Useful for pectoral-to-deltoid transition, upper-body mass, and clothing fit; not assumed to depict the car subject.",
+      "visual_notes": "Tighter crop from head through thighs. Emphasizes large pectoral lobes, chest-to-deltoid transition, abdominal surface, skin texture and distressed denim fit. Use for surface and garment behavior; do not transfer the reference face or identity.",
       "rights_status": "generated-library-reference-only"
     },
     {

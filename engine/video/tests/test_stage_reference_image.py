@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from stage_reference_image import image_dimensions, image_format, stage_reference_image, validate_reference_library
+from stage_reference_image import image_dimensions, image_format, stage_reference_image, validate_image_library_index, validate_reference_library
 
 
 class ReferenceImageStagingTests(unittest.TestCase):
@@ -22,13 +22,16 @@ class ReferenceImageStagingTests(unittest.TestCase):
             "schema": "geehub.reference-library/1",
             "project_id": "test-project",
             "source_of_truth": {"provider": "ChatGPT Library"},
+            "collections": [{"id": "test-collection"}],
             "assets": [{
                 "asset_id": "test-reference",
                 "file_name": "source.png",
+                "file_id": "file-test",
                 "library_file_id": "libfile-test",
                 "mime_type": "image/png",
                 "size_bytes": 29,
                 "model_generated": False,
+                "collection_id": "test-collection",
                 "visual_role": "primary-chest-source",
                 "rights_status": "unverified-reference-only"
             }]
@@ -65,6 +68,28 @@ class ReferenceImageStagingTests(unittest.TestCase):
         self.assertEqual(validate_reference_library(manifest), [])
         manifest["assets"][0]["model_generated"] = "unknown"
         self.assertTrue(any("model_generated must be boolean" in error for error in validate_reference_library(manifest)))
+
+    def test_validates_global_image_library_index_and_rejects_duplicate_ids(self):
+        index = {
+            "schema": "geehub.image-library-index/1",
+            "source_of_truth": {"provider": "Dropbox Paper", "path": "/manifest.paper", "file_id": "id:paper", "revision": "rev-1"},
+            "collections": [{
+                "id": "test-collection",
+                "assets": [{
+                    "asset_id": "test-reference",
+                    "file_id": "file-test",
+                    "library_file_id": "libfile-test",
+                    "filename": "source.png",
+                    "mime_type": "image/png",
+                    "size_bytes": 29,
+                    "model_generated": False,
+                    "role": "source"
+                }]
+            }]
+        }
+        self.assertEqual(validate_image_library_index(index), [])
+        index["supplemental_candidates"] = [dict(index["collections"][0]["assets"][0])]
+        self.assertTrue(any("duplicate image-library asset_id" in error for error in validate_image_library_index(index)))
 
     def test_stages_copy_and_writes_provenance(self):
         result = stage_reference_image(self.project, "test-reference", self.source)

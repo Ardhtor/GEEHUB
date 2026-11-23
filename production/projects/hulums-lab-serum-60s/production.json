@@ -169,7 +169,10 @@
     "canonical": "Dropbox",
     "status": "target-folder-not-yet-provisioned",
     "repository_code": "GitHub pull request #11 (draft; not merged)",
-    "policy": "Original source media remains immutable; derived frames, passes, shots, composites and exports are versioned separately. Large binaries are excluded from Git."
+    "policy": "Original source media remains immutable; derived frames, passes, shots, composites and exports are versioned separately. Large binaries are excluded from Git.",
+    "project_root_environment_variable": "GEEHUB_PROJECT_ROOT",
+    "required_local_path": "<Dropbox sync root>/GEEHUB/production/projects/hulums-lab-serum-60s",
+    "project_root_note": "Set GEEHUB_PROJECT_ROOT to the local Dropbox-synced path above. The directory must contain 07_MANIFESTS and retain the project folder name hulums-lab-serum-60s. The exact local sync path has not yet been provisioned or verified."
   },
   "notes": "The project now has an implemented, offline-tested xAI Grok Imagine Video adapter with a cost estimate and explicit safeguards. The 60-second reference-to-video plan is four contiguous 15-second 1280x720 segments; continuation segments pin their first frame to the previous segment's final frame and verify pixel hashes. A 1920x1080 delivery is an upscale, not native 1080p. No XAI_API_KEY is configured, no reference images have been transferred to xAI, and no generation has been submitted. Paid generation remains disabled pending explicit cost approval (current estimate USD 8.40), reference-image transfer approval, and rights clearance. The selected image-library binaries have not yet been staged into 01_SOURCE/REFERENCE_IMAGES, and the canonical Dropbox project folder has not been provisioned. The Blender character preview remains a rejected geometry proxy, not final character imagery. No provider-generated footage, final audio mix, completed master, or Dropbox delivery is claimed.",
   "character_model": "rigged",

@@ -86,7 +86,7 @@ def animate_timeline_growth(mesh, timeline, profile=None):
     errors = validate_profile(selected_profile)
     if errors:
         raise ValueError("Invalid growth profile: " + "; ".join(errors))
-    missing = set(REGIONS) - set(selected_profile)
+    missing = (set(REGIONS) | {"pectorals"}) - set(selected_profile)
     if missing:
         raise ValueError("Growth profile missing regions: " + ", ".join(sorted(missing)))
 

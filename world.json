@@ -231,6 +231,16 @@
       "size": 1.08,
       "path": "./worlds/northgate-library/README.md",
       "description": "An oak-galleried university library with reading rooms, archives, editing suites, sound collections and late-night study."
+    },
+    {
+      "id": "tribal-territories",
+      "name": "THE GREAT TRIBAL TERRITORIES",
+      "kind": "PEOPLES / HOMELANDS / SOCIAL WORLD",
+      "x": 14,
+      "y": 34,
+      "size": 1.26,
+      "path": "./lore/TRIBAL_TERRITORIES.md",
+      "description": "A connected atlas of distinct peoples and homelands: Redwood, Mexiancas, Dad Convent, Gold's on 5th, and the Foggy Dark Expanse. Societies grow through daily life, work, migration, exchange, and generations."
     }
   ],
   "pleasureBits": [

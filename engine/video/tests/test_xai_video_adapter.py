@@ -110,6 +110,8 @@ class XAIVideoAdapterTests(unittest.TestCase):
             "model": "grok-imagine-video-1.5",
             "resolution": "720p",
             "total_duration_seconds": 60,
+            "segment_duration_seconds": 15,
+            "estimated_cost_usd": 8.4,
             "reference_data_transfer_approved": True,
             "reference_rights_cleared": True,
             "reference_asset_ids": [
@@ -147,6 +149,8 @@ class XAIVideoAdapterTests(unittest.TestCase):
             "model": "grok-imagine-video-1.5",
             "resolution": "720p",
             "total_duration_seconds": 60,
+            "segment_duration_seconds": 15,
+            "estimated_cost_usd": 8.4,
             "reference_data_transfer_approved": True,
             "reference_rights_cleared": True,
             "reference_asset_ids": [
@@ -183,6 +187,8 @@ class XAIVideoAdapterTests(unittest.TestCase):
             "model": "grok-imagine-video-1.5",
             "resolution": "720p",
             "total_duration_seconds": 60,
+            "segment_duration_seconds": 15,
+            "estimated_cost_usd": 8.4,
             "reference_data_transfer_approved": True,
             "reference_rights_cleared": True,
             "reference_asset_ids": [
@@ -249,6 +255,8 @@ class XAIVideoAdapterTests(unittest.TestCase):
             "model": "grok-imagine-video-1.5",
             "resolution": "720p",
             "total_duration_seconds": 60,
+            "segment_duration_seconds": 15,
+            "estimated_cost_usd": 8.4,
             "reference_data_transfer_approved": True,
             "reference_rights_cleared": True,
             "reference_asset_ids": [

@@ -30,6 +30,21 @@ REGIONS = {
 }
 
 
+def _iter_action_fcurves(animation_data):
+    """Yield F-curves across Blender's legacy and slotted Action APIs."""
+    action = getattr(animation_data, "action", None)
+    if action is None:
+        return
+    legacy_curves = getattr(action, "fcurves", None)
+    if legacy_curves is not None:
+        yield from legacy_curves
+        return
+    for layer in getattr(action, "layers", ()):
+        for strip in getattr(layer, "strips", ()):
+            for channelbag in getattr(strip, "channelbags", ()):
+                yield from channelbag.fcurves
+
+
 def _make_region_key(mesh, name, centre, radius, factors):
     if mesh.data.shape_keys is None:
         mesh.shape_key_add(name="Basis", from_mix=False)
@@ -128,7 +143,7 @@ def animate_timeline_growth(mesh, timeline, profile=None):
     # between adjacent frame samples preserves those values exactly at render time.
     shape_keys = mesh.data.shape_keys
     if shape_keys and shape_keys.animation_data and shape_keys.animation_data.action:
-        for curve in shape_keys.animation_data.action.fcurves:
+        for curve in _iter_action_fcurves(shape_keys.animation_data):
             for point in curve.keyframe_points:
                 point.interpolation = "LINEAR"
     keys["pectorals_projection"] = pectoral_keys["projection"]
@@ -183,7 +198,7 @@ def animate_timeline_camera(camera, timeline, profile=None, target=(0.0, 0.0, 1.
         camera.keyframe_insert(data_path="rotation_euler", frame=frame)
 
     if camera.animation_data and camera.animation_data.action:
-        for curve in camera.animation_data.action.fcurves:
+        for curve in _iter_action_fcurves(camera.animation_data):
             for point in curve.keyframe_points:
                 point.interpolation = "BEZIER"
                 point.handle_left_type = "AUTO_CLAMPED"

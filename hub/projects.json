@@ -2090,5 +2090,29 @@
       "research",
       "active"
     ]
+  },
+  {
+    "id": "institute-personal-intelligence",
+    "name": "Institute Personal Intelligence and Registry of Assistants",
+    "group": "story-system",
+    "status": "incubating",
+    "path": "../lore/INSTITUTE_PERSONAL_INTELLIGENCE_AND_ASSISTANTS.md",
+    "summary": "Every adult male inhabitant has a distinct persistent AI assistant used throughout daily life. The story establishes private memory, assistant personalities, permission-limited collaboration, and a shared Personal Intelligence Registry.",
+    "tags": [
+      "personal-intelligence",
+      "ai-assistants",
+      "institute",
+      "privacy",
+      "permissions",
+      "continuity",
+      "fiction",
+      "registry"
+    ],
+    "related": [
+      "institute-of-becoming",
+      "institute-dormitory-life",
+      "tractus-continuity",
+      "character-records"
+    ]
   }
 ]

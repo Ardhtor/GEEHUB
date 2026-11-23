@@ -42,54 +42,101 @@ def _add_blob(meta, name, center, radius, scale):
 
 
 def _anatomy_surface(name="GEEHUB / unified humanoid"):
-    meta = bpy.data.metaballs.new(name + " / fused anatomy")
-    meta.resolution = 0.075
-    meta.render_resolution = 0.045
-    meta.threshold = 0.62
-    obj = bpy.data.objects.new(name + " / fused mesh", meta)
-    bpy.context.collection.objects.link(obj)
+    """Build overlapping anatomical volumes, then fuse them into one skin surface."""
+    skin = _mat("GEEHUB / living skin", (.43, .27, .21), .42, .075)
+    parts = []
 
-    # Coordinates are in metres, Z-up, with the subject facing -Y.
-    blobs = [
-        ("pelvis", (0, 0, 1.02), .60, (.78, .54, .62)),
-        ("abdomen", (0, 0, 1.62), .57, (.68, .48, .86)),
-        ("chest", (0, -.015, 2.28), .72, (1.00, .54, .65)),
-        ("neck", (0, 0, 2.91), .32, (.32, .32, .52)),
-        ("head", (0, 0, 3.38), .39, (.43, .40, .57)),
-    ]
-    for name_, center, radius, scale in blobs:
-        _add_blob(meta, name_, center, radius, scale)
+    def ellipsoid_part(part_name, center, scale):
+        bpy.ops.mesh.primitive_uv_sphere_add(
+            segments=40, ring_count=28, location=center
+        )
+        part = bpy.context.object
+        part.name = name + " / " + part_name
+        part.scale = scale
+        bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
+        part.data.materials.append(skin)
+        bpy.ops.object.shade_smooth()
+        parts.append(part)
+        return part
 
+    def limb_part(part_name, start, end, radius_x, radius_y=None):
+        a, b = Vector(start), Vector(end)
+        direction = b - a
+        radius_y = radius_y if radius_y is not None else radius_x
+        bpy.ops.mesh.primitive_uv_sphere_add(
+            segments=40, ring_count=28, location=(a + b) / 2
+        )
+        part = bpy.context.object
+        part.name = name + " / " + part_name
+        part.scale = (radius_x, radius_y, direction.length / 2 + radius_x * .42)
+        part.rotation_mode = "QUATERNION"
+        part.rotation_quaternion = Vector((0, 0, 1)).rotation_difference(direction.normalized())
+        bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
+        part.data.materials.append(skin)
+        bpy.ops.object.shade_smooth()
+        parts.append(part)
+        return part
+
+    # Coordinates are metres, Z-up, subject facing -Y. The pectoral lobes
+    # are separate overlapping volumes so their bilateral form survives fusion.
+    ellipsoid_part("pelvis", (0, 0, 1.08), (.56, .39, .44))
+    ellipsoid_part("abdomen", (0, -.005, 1.62), (.50, .35, .60))
+    ellipsoid_part("thorax", (0, -.015, 2.25), (.78, .46, .52))
+    ellipsoid_part("clavicular chest", (0, -.035, 2.48), (.66, .40, .25))
     for side in (-1, 1):
         tag = "L" if side < 0 else "R"
-        _add_blob(meta, "shoulder." + tag, (side * .78, 0, 2.60), .43, (.78, .66, .70))
-        _add_blob(meta, "upperarm." + tag, (side * .96, 0, 2.13), .32, (.55, .52, 1.35))
-        _add_blob(meta, "elbow." + tag, (side * 1.04, 0, 1.72), .22, (.72, .68, .72))
-        _add_blob(meta, "forearm." + tag, (side * 1.10, -.015, 1.34), .27, (.58, .52, 1.35))
-        _add_blob(meta, "hand." + tag, (side * 1.13, -.04, .94), .19, (.60, .48, .88))
-        _add_blob(meta, "thigh." + tag, (side * .34, 0, .60), .43, (.78, .72, 1.62))
-        _add_blob(meta, "knee." + tag, (side * .36, 0, .08), .24, (.78, .72, .78))
-        _add_blob(meta, "calf." + tag, (side * .37, .01, -.46), .30, (.60, .62, 1.42))
-        _add_blob(meta, "ankle." + tag, (side * .38, -.01, -.91), .16, (.62, .62, .76))
-        _add_blob(meta, "foot." + tag, (side * .38, -.20, -1.02), .20, (.66, 1.55, .48))
+        ellipsoid_part("pectoralis major." + tag, (side * .36, -.335, 2.29), (.42, .30, .30))
+        ellipsoid_part("upper pectoral." + tag, (side * .31, -.275, 2.48), (.32, .25, .19))
+        ellipsoid_part("lower pectoral shelf." + tag, (side * .37, -.285, 2.10), (.37, .27, .19))
+
+    # Neck, skull, jaw and ears overlap; nose is a small forward facial volume.
+    ellipsoid_part("neck", (0, 0, 2.96), (.23, .22, .37))
+    ellipsoid_part("skull", (0, -.015, 3.43), (.32, .29, .42))
+    ellipsoid_part("jaw", (0, -.055, 3.23), (.255, .27, .205))
+    ellipsoid_part("nose", (0, -.285, 3.40), (.065, .105, .12))
+    for side in (-1, 1):
+        ellipsoid_part("ear." + ("L" if side < 0 else "R"), (side * .30, -.005, 3.42), (.075, .10, .13))
+        ellipsoid_part("deltoid." + ("L" if side < 0 else "R"), (side * .77, -.015, 2.57), (.39, .36, .36))
+
+        limb_part("upper arm." + ("L" if side < 0 else "R"), (side * .78, 0, 2.55), (side * 1.03, -.005, 1.75), .235, .215)
+        ellipsoid_part("elbow." + ("L" if side < 0 else "R"), (side * 1.03, -.005, 1.74), (.205, .20, .22))
+        limb_part("forearm." + ("L" if side < 0 else "R"), (side * 1.03, -.005, 1.75), (side * 1.13, -.025, 1.16), .18, .16)
+        ellipsoid_part("hand." + ("L" if side < 0 else "R"), (side * 1.13, -.055, .99), (.15, .13, .22))
+
+        ellipsoid_part("thigh." + ("L" if side < 0 else "R"), (side * .34, .005, .62), (.33, .35, .64))
+        ellipsoid_part("knee." + ("L" if side < 0 else "R"), (side * .36, .005, .08), (.235, .25, .27))
+        limb_part("calf." + ("L" if side < 0 else "R"), (side * .36, .01, .08), (side * .38, -.005, -.82), .245, .23)
+        ellipsoid_part("ankle." + ("L" if side < 0 else "R"), (side * .38, -.025, -.84), (.16, .17, .22))
+        ellipsoid_part("foot." + ("L" if side < 0 else "R"), (side * .38, -.205, -.99), (.18, .33, .14))
 
     bpy.ops.object.select_all(action="DESELECT")
-    bpy.context.view_layer.objects.active = obj
-    obj.select_set(True)
-    bpy.ops.object.convert(target="MESH")
+    for part in parts:
+        part.select_set(True)
+    mesh = parts[0]
+    bpy.context.view_layer.objects.active = mesh
+    bpy.ops.object.join()
     mesh = bpy.context.object
-    mesh.name = name + " / unified skin"
+    mesh.name = name + " / fused skin"
+
+    # Voxel fusion removes the visible seams between the overlapping anatomy
+    # volumes and creates one continuous surface for the armature and shape keys.
+    mesh.data.remesh_voxel_size = 0.035
+    mesh.data.remesh_voxel_adaptivity = 0.0
+    bpy.ops.object.voxel_remesh()
+    mesh = bpy.context.object
+    mesh.name = name + " / fused skin"
+    mesh.data.materials.clear()
+    mesh.data.materials.append(skin)
     for poly in mesh.data.polygons:
         poly.use_smooth = True
-    smooth = mesh.modifiers.new("Surface relaxation", "SMOOTH")
-    smooth.factor = 1.25
-    smooth.iterations = 3
+
+    smooth = mesh.modifiers.new("Anatomical surface relaxation", "SMOOTH")
+    smooth.factor = .72
+    smooth.iterations = 4
     sub = mesh.modifiers.new("Production subdivision", "SUBSURF")
     sub.levels = 1
     sub.render_levels = 2
-    mesh.data.materials.append(_mat("GEEHUB / living skin", (.36, .23, .18), .42, .055))
     return mesh
-
 
 def _bone_specs():
     specs = {

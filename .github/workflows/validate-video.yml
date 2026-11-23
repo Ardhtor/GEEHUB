@@ -30,9 +30,11 @@ jobs:
       - name: Install timeline interchange adapter
         run: python -m pip install -r engine/video/requirements-ci.txt
       - name: Compile video tools
-        run: python -m py_compile engine/video/validate_timeline.py engine/video/otio_export.py engine/video/import_gaussian_splat.py engine/video/gee_engine.py engine/video/render_project.py engine/video/stage_reference_image.py engine/video/timeline_growth.py engine/video/growth_geometry.py engine/video/growth_curves.py engine/video/tests/test_validate_timeline.py engine/video/tests/test_otio_export.py engine/video/tests/test_growth_geometry.py engine/video/tests/test_growth_curves.py engine/video/tests/test_gee_engine.py engine/video/tests/test_stage_reference_image.py engine/video/tests/blender_growth_integration.py
+        run: python -m py_compile engine/video/validate_timeline.py engine/video/otio_export.py engine/video/import_gaussian_splat.py engine/video/gee_engine.py engine/video/render_project.py engine/video/stage_reference_image.py engine/video/production_validation.py engine/video/timeline_growth.py engine/video/growth_geometry.py engine/video/growth_curves.py engine/video/tests/test_validate_timeline.py engine/video/tests/test_otio_export.py engine/video/tests/test_growth_geometry.py engine/video/tests/test_growth_curves.py engine/video/tests/test_gee_engine.py engine/video/tests/test_stage_reference_image.py engine/video/tests/test_production_validation.py engine/video/tests/blender_growth_integration.py
       - name: Run timeline, provenance, and OpenTimelineIO regression tests
-        run: python -m unittest engine.video.tests.test_validate_timeline engine.video.tests.test_otio_export engine.video.tests.test_growth_geometry engine.video.tests.test_growth_curves engine.video.tests.test_gee_engine engine.video.tests.test_stage_reference_image
+        run: python -m unittest engine.video.tests.test_validate_timeline engine.video.tests.test_otio_export engine.video.tests.test_growth_geometry engine.video.tests.test_growth_curves engine.video.tests.test_gee_engine engine.video.tests.test_stage_reference_image engine.video.tests.test_production_validation
+      - name: Validate non-mock shot and production contracts
+        run: python engine/video/production_validation.py
       - name: Run Blender 5.3 shape-key integration test
         run: python engine/video/tests/blender_growth_integration.py
       - name: Validate Teal Titan production manifests

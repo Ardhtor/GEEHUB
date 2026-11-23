@@ -1,0 +1,42 @@
+{
+  "schema": "geehub.video-production-acceptance/1",
+  "project_id": "hulums-lab-serum-60s",
+  "minimum_independent_generated_shots": 2,
+  "required_shot_evidence": [
+    "provider_job_id",
+    "model_id",
+    "prompt_revision",
+    "reference_asset_ids",
+    "output_sha256",
+    "ffprobe_metadata",
+    "dropbox_file_id",
+    "dropbox_path",
+    "reopened_from_dropbox"
+  ],
+  "required_master_evidence": [
+    "sequence_otio",
+    "master_mp4",
+    "master_sha256",
+    "ffprobe_metadata",
+    "dropbox_file_id",
+    "dropbox_path",
+    "reopened_from_dropbox"
+  ],
+  "required_review": [
+    "visual review of both source shots",
+    "continuity review at shot boundary",
+    "anatomy and wardrobe review",
+    "audio synchronization review",
+    "master playback review"
+  ],
+  "current_status": "blocked-preproduction",
+  "current_blockers": [
+    "Grok Imagine Video connection unavailable",
+    "explicit cost approval not granted",
+    "zero provider-generated shots registered",
+    "Dropbox project folder not yet provisioned",
+    "no assembled master exists"
+  ],
+  "no_mock_or_placeholder_acceptance": true,
+  "canonical_dropbox_target": "/GEEHUB/production/projects/hulums-lab-serum-60s"
+}

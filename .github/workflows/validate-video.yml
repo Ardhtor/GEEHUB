@@ -37,8 +37,14 @@ jobs:
         run: python engine/video/production_validation.py
       - name: Run Blender 5.3 shape-key integration test
         run: python engine/video/tests/blender_growth_integration.py
+      - name: Install headless OpenGL libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libegl1 libgl1-mesa-dri libxrender1 libxi6 libxkbcommon0 xvfb xauth
       - name: Render full Hulum's Lab scene smoke test
-        run: python engine/video/tests/blender_scene_smoke_test.py
+        env:
+          LIBGL_ALWAYS_SOFTWARE: "1"
+        run: xvfb-run -a python engine/video/tests/blender_scene_smoke_test.py
       - name: Upload Blender smoke preview
         uses: actions/upload-artifact@v4
         with:

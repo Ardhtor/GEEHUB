@@ -38,5 +38,13 @@
     "no assembled master exists"
   ],
   "no_mock_or_placeholder_acceptance": true,
-  "canonical_dropbox_target": "/GEEHUB/production/projects/hulums-lab-serum-60s"
+  "canonical_dropbox_target": "/GEEHUB/production/projects/hulums-lab-serum-60s",
+  "evidence": {
+    "sequence_otio": null,
+    "sequence_otio_sha256": null,
+    "sequence_dropbox_verification": null,
+    "master_mp4": null,
+    "master_sha256": null,
+    "master_dropbox_verification": null
+  }
 }

@@ -1,119 +1,370 @@
 {
   "schema": "geehub.shot-manifest/1",
   "project_id": "hulums-lab-serum-60s",
-  "sequence_id": "serum-provider-proof-sequence",
-  "purpose": "Two independent provider-generated proof shots required before the 60-second master can be accepted. These are draft briefs only; they are not generated outputs and are not final-master coverage.",
-  "provider": "Grok Imagine Video",
+  "provider": "Grok Imagine Video 1.5 (xAI API)",
+  "provider_id": "xai-grok-imagine-video",
+  "sequence_id": "serum-continuous-60s-master",
+  "purpose": "Four contiguous 15-second provider-generated segments form one 60-second continuous transformation event. Continuation segments are frame-pinned to the previous segment; no independent proof clips or placeholder media are accepted.",
   "generation_policy": {
+    "api_adapter_status": "implemented",
+    "generation_enabled": false,
     "cost_approval_required": true,
     "cost_approval_status": "not-granted",
     "connection_status": "not-connected-in-current-workspace",
-    "mock_or_placeholder_media_allowed": false
+    "data_transfer_approval_required": true,
+    "data_transfer_approval_status": "not-granted",
+    "reference_rights_clearance_required": true,
+    "reference_rights_clearance_status": "not-verified",
+    "model_id": "grok-imagine-video-1.5",
+    "resolution": "720p",
+    "max_reference_images": 14,
+    "max_segment_duration_seconds": 15,
+    "total_duration_seconds": 60,
+    "mock_or_placeholder_media_allowed": false,
+    "generation_is_async": true
   },
   "shots": [
     {
-      "shot_id": "serum-baseline-proof-01",
+      "shot_id": "serum-continuous-segment-01",
       "revision": 1,
       "sequence_order": 1,
       "timeline_range_seconds": [
         0,
-        8
+        15
       ],
-      "duration_seconds": 8,
+      "duration_seconds": 15,
       "status": "draft-awaiting-provider-and-creative-approval",
       "continuity_key": "laboratory-subject-A",
-      "prompt": "Create an 8-second cinematic live-action-style video of one clearly adult fictional male laboratory subject in a clean, clinical observation room. Medium-wide front three-quarter composition, head through upper thighs visible, relaxed standing posture, controlled neutral expression, subtle breathing, cool white and blue laboratory light, restrained 2000s industrial-science atmosphere. Use the seated-car reference set only for the exaggerated paired pectoral shape, chest-hair distribution, forward projection and central separation; do not reproduce the reference person's identity, face, car, or environment. The subject begins at a balanced athletic baseline with broad shoulders and natural connected anatomy. Camera performs a very slow push-in. Keep the same adult face, neck, shoulders, ribcage, arms and torso anatomically connected. No hard morph, no cut, no identity drift, no extra limbs, no text, no logo, no nudity or explicit anatomy.",
+      "prompt": "Create a 15-second cinematic live-action-style video of one clearly adult fictional male laboratory subject in a clean, clinical observation room. Medium-wide front three-quarter composition, head through upper thighs visible, relaxed standing posture, controlled neutral expression, subtle breathing, cool white and blue industrial laboratory light. Establish a coherent athletic baseline with broad shoulders and natural connected anatomy. Use <IMAGE_0>, <IMAGE_1> and <IMAGE_2> only for paired pectoral shape, chest-hair distribution, forward projection and central separation; use <IMAGE_3> for overall scale, <IMAGE_4> for figure-to-room scale and <IMAGE_5> for garment behavior. Do not copy any reference person's identity, face, car or environment. Keep one fictional adult subject, same camera, lens, lighting and room throughout. A restrained serum activation begins near the end. No cuts, no sudden morph, no extra limbs, no text, no logo, non-explicit adult presentation.",
       "reference_assets": [
         {
           "asset_id": "car-bearded-base",
-          "use": "primary pectoral shape"
+          "use": "primary pectoral shape, chest-hair distribution and chest surface"
         },
         {
           "asset_id": "car-bearded-variation-01",
-          "use": "upper and lateral contour comparison"
+          "use": "upper and lateral pectoral contour comparison"
         },
         {
           "asset_id": "car-bearded-variation-02",
-          "use": "projection and medial separation comparison"
-        }
-      ],
-      "continuity_requirements": [
-        "Establish one new fictional adult identity for this sequence",
-        "Do not copy or claim the identity of any reference subject",
-        "Keep head, neck, clavicles, deltoids and chest connected",
-        "Use the same lighting direction and laboratory environment in shot 02"
-      ],
-      "generation": {
-        "status": "not-started",
-        "provider_job_id": null,
-        "model_id": null,
-        "output_path": null,
-        "output_sha256": null,
-        "dropbox_file_id": null,
-        "dropbox_path": null,
-        "reopened_from_dropbox": false
-      }
-    },
-    {
-      "shot_id": "serum-growth-proof-02",
-      "revision": 1,
-      "sequence_order": 2,
-      "timeline_range_seconds": [
-        8,
-        16
-      ],
-      "duration_seconds": 8,
-      "status": "draft-awaiting-provider-and-creative-approval",
-      "continuity_key": "laboratory-subject-A",
-      "prompt": "Create an 8-second continuation of the exact same adult fictional male laboratory subject and clinical observation room established in serum-baseline-proof-01. Match the approved face, beard or facial hair choice, hairline, skin tone, camera side, lens perspective, lighting, wardrobe and room geometry from the first shot. The subject remains standing in the same position as a clearly visible, continuous transformation begins: pectoralis major volume expands symmetrically with rounded forward projection, a defined but natural medial cleft, fuller clavicular region, stronger lower pectoral shelf, and a smooth transition into the deltoids. Shoulders and arms respond proportionally; ribcage and waist remain coherent. The fitted training top shows believable increasing tension without becoming transparent or exposing intimate anatomy. The camera makes a slow controlled three-quarter arc while preserving facial continuity. Use the car sequence only for chest form and the doorway, bedroom and denim references only for comparative overall scale, surface and garment behavior; do not transfer those reference subjects' faces or identities. No sudden size jump, no cuts inside the shot, no extra limbs, no texture melting, no logo, no text, no nudity or explicit anatomy.",
-      "reference_assets": [
-        {
-          "asset_id": "car-bearded-base",
-          "use": "primary chest shape"
-        },
-        {
-          "asset_id": "car-bearded-variation-01",
-          "use": "upper and lateral fullness"
-        },
-        {
-          "asset_id": "car-bearded-variation-02",
-          "use": "projection and sternal separation"
+          "use": "forward projection and medial separation comparison"
         },
         {
           "asset_id": "doorway-scale-reference",
-          "use": "overall scale context only"
+          "use": "overall adult body scale only; do not transfer identity"
         },
         {
           "asset_id": "bedroom-scale-reference",
-          "use": "figure-to-room scale only"
+          "use": "figure-to-room scale only; do not transfer identity"
         },
         {
           "asset_id": "denim-cutoffs-reference",
-          "use": "surface and clothing behavior only"
+          "use": "garment and surface behavior only; do not transfer identity"
         }
       ],
       "continuity_requirements": [
-        "Must match the approved output of shot 01, not an unapproved prompt-only interpretation",
-        "Preserve the same adult fictional subject and laboratory set",
-        "Growth must begin from the final body state of shot 01",
-        "Maintain bilateral pectoral balance and connected deltoid transition",
-        "Do not treat comparative scale references as the same character"
+        "Preserve one fictional adult subject, the same face and body identity, camera, room, lighting and wardrobe",
+        "Do not copy the identity of any image-library reference subject",
+        "The next segment must begin with the exact final frame of the previous segment",
+        "Maintain bilateral pectoral balance and coherent shoulder, arm, ribcage and waist transitions",
+        "No visible hard cuts, morph jumps, extra limbs or texture melting"
       ],
       "generation": {
         "status": "not-started",
+        "provider_id": "xai-grok-imagine-video",
         "provider_job_id": null,
-        "model_id": null,
+        "provider_output_id": null,
+        "provider_output_file_id": null,
+        "model_id": "grok-imagine-video-1.5",
+        "prompt_revision": 1,
+        "prompt_sha256": null,
+        "reference_asset_ids": [
+          "car-bearded-base",
+          "car-bearded-variation-01",
+          "car-bearded-variation-02",
+          "doorway-scale-reference",
+          "bedroom-scale-reference",
+          "denim-cutoffs-reference"
+        ],
+        "reference_file_ids": [],
+        "pinned_first_frame_file_id": null,
+        "first_frame_sha256": null,
+        "last_frame_sha256": null,
+        "continuity_status": "not-checked",
+        "submitted_at": null,
+        "completed_at": null,
+        "duration_seconds": 15,
+        "frame_rate": null,
+        "width": 1280,
+        "height": 720,
+        "video_codec": null,
+        "audio_codec": "none",
         "output_path": null,
         "output_sha256": null,
         "dropbox_file_id": null,
         "dropbox_path": null,
-        "reopened_from_dropbox": false
+        "reopened_from_dropbox": false,
+        "metadata_verified": false
+      }
+    },
+    {
+      "shot_id": "serum-continuous-segment-02",
+      "revision": 1,
+      "sequence_order": 2,
+      "timeline_range_seconds": [
+        15,
+        30
+      ],
+      "duration_seconds": 15,
+      "status": "draft-awaiting-provider-and-creative-approval",
+      "continuity_key": "laboratory-subject-A",
+      "prompt": "Create a 15-second continuation of the same adult fictional male laboratory subject. Preserve the face, beard, hairline, skin tone, posture, lens, camera side, room, lighting and wardrobe established by the preceding segment. Gradually develop the paired pectoralis major: fuller rounded lobes, clear but natural medial cleft, forward projection, upper-chest fullness and a stronger lower shelf, with a smooth transition into the deltoids. Keep the sternum, ribcage and waist coherent. Use <IMAGE_0>, <IMAGE_1> and <IMAGE_2> only for chest shape and chest-hair references; use <IMAGE_3>, <IMAGE_4> and <IMAGE_5> only for scale and clothing behavior. No identity drift, no cuts, no sudden size jump, no extra limbs, no texture melting, no text, no logo, non-explicit adult presentation.",
+      "reference_assets": [
+        {
+          "asset_id": "car-bearded-base",
+          "use": "primary pectoral shape, chest-hair distribution and chest surface"
+        },
+        {
+          "asset_id": "car-bearded-variation-01",
+          "use": "upper and lateral pectoral contour comparison"
+        },
+        {
+          "asset_id": "car-bearded-variation-02",
+          "use": "forward projection and medial separation comparison"
+        },
+        {
+          "asset_id": "doorway-scale-reference",
+          "use": "overall adult body scale only; do not transfer identity"
+        },
+        {
+          "asset_id": "bedroom-scale-reference",
+          "use": "figure-to-room scale only; do not transfer identity"
+        },
+        {
+          "asset_id": "denim-cutoffs-reference",
+          "use": "garment and surface behavior only; do not transfer identity"
+        }
+      ],
+      "continuity_requirements": [
+        "Preserve one fictional adult subject, the same face and body identity, camera, room, lighting and wardrobe",
+        "Do not copy the identity of any image-library reference subject",
+        "The next segment must begin with the exact final frame of the previous segment",
+        "Maintain bilateral pectoral balance and coherent shoulder, arm, ribcage and waist transitions",
+        "No visible hard cuts, morph jumps, extra limbs or texture melting"
+      ],
+      "generation": {
+        "status": "not-started",
+        "provider_id": "xai-grok-imagine-video",
+        "provider_job_id": null,
+        "provider_output_id": null,
+        "provider_output_file_id": null,
+        "model_id": "grok-imagine-video-1.5",
+        "prompt_revision": 1,
+        "prompt_sha256": null,
+        "reference_asset_ids": [
+          "car-bearded-base",
+          "car-bearded-variation-01",
+          "car-bearded-variation-02",
+          "doorway-scale-reference",
+          "bedroom-scale-reference",
+          "denim-cutoffs-reference"
+        ],
+        "reference_file_ids": [],
+        "pinned_first_frame_file_id": null,
+        "first_frame_sha256": null,
+        "last_frame_sha256": null,
+        "continuity_status": "not-checked",
+        "submitted_at": null,
+        "completed_at": null,
+        "duration_seconds": 15,
+        "frame_rate": null,
+        "width": 1280,
+        "height": 720,
+        "video_codec": null,
+        "audio_codec": "none",
+        "output_path": null,
+        "output_sha256": null,
+        "dropbox_file_id": null,
+        "dropbox_path": null,
+        "reopened_from_dropbox": false,
+        "metadata_verified": false
+      }
+    },
+    {
+      "shot_id": "serum-continuous-segment-03",
+      "revision": 1,
+      "sequence_order": 3,
+      "timeline_range_seconds": [
+        30,
+        45
+      ],
+      "duration_seconds": 15,
+      "status": "draft-awaiting-provider-and-creative-approval",
+      "continuity_key": "laboratory-subject-A",
+      "prompt": "Create a 15-second continuation from the exact body state and camera position established by the preceding segment. Preserve the same adult fictional face, beard, hairline, skin tone, room geometry, lighting and wardrobe. The shoulders, deltoids, arms, traps, lats and upper back gain proportionate mass around the already-developed chest. Preserve the paired rounded pectoral shape, medial separation, chest-hair pattern and forward projection. Keep the waist and ribcage connected and believable. Use <IMAGE_0>, <IMAGE_1> and <IMAGE_2> only as chest-form references; use <IMAGE_3>, <IMAGE_4> and <IMAGE_5> only as scale and garment references. No hard cuts, no identity drift, no melting textures, no extra limbs, no text, no logo, non-explicit adult presentation.",
+      "reference_assets": [
+        {
+          "asset_id": "car-bearded-base",
+          "use": "primary pectoral shape, chest-hair distribution and chest surface"
+        },
+        {
+          "asset_id": "car-bearded-variation-01",
+          "use": "upper and lateral pectoral contour comparison"
+        },
+        {
+          "asset_id": "car-bearded-variation-02",
+          "use": "forward projection and medial separation comparison"
+        },
+        {
+          "asset_id": "doorway-scale-reference",
+          "use": "overall adult body scale only; do not transfer identity"
+        },
+        {
+          "asset_id": "bedroom-scale-reference",
+          "use": "figure-to-room scale only; do not transfer identity"
+        },
+        {
+          "asset_id": "denim-cutoffs-reference",
+          "use": "garment and surface behavior only; do not transfer identity"
+        }
+      ],
+      "continuity_requirements": [
+        "Preserve one fictional adult subject, the same face and body identity, camera, room, lighting and wardrobe",
+        "Do not copy the identity of any image-library reference subject",
+        "The next segment must begin with the exact final frame of the previous segment",
+        "Maintain bilateral pectoral balance and coherent shoulder, arm, ribcage and waist transitions",
+        "No visible hard cuts, morph jumps, extra limbs or texture melting"
+      ],
+      "generation": {
+        "status": "not-started",
+        "provider_id": "xai-grok-imagine-video",
+        "provider_job_id": null,
+        "provider_output_id": null,
+        "provider_output_file_id": null,
+        "model_id": "grok-imagine-video-1.5",
+        "prompt_revision": 1,
+        "prompt_sha256": null,
+        "reference_asset_ids": [
+          "car-bearded-base",
+          "car-bearded-variation-01",
+          "car-bearded-variation-02",
+          "doorway-scale-reference",
+          "bedroom-scale-reference",
+          "denim-cutoffs-reference"
+        ],
+        "reference_file_ids": [],
+        "pinned_first_frame_file_id": null,
+        "first_frame_sha256": null,
+        "last_frame_sha256": null,
+        "continuity_status": "not-checked",
+        "submitted_at": null,
+        "completed_at": null,
+        "duration_seconds": 15,
+        "frame_rate": null,
+        "width": 1280,
+        "height": 720,
+        "video_codec": null,
+        "audio_codec": "none",
+        "output_path": null,
+        "output_sha256": null,
+        "dropbox_file_id": null,
+        "dropbox_path": null,
+        "reopened_from_dropbox": false,
+        "metadata_verified": false
+      }
+    },
+    {
+      "shot_id": "serum-continuous-segment-04",
+      "revision": 1,
+      "sequence_order": 4,
+      "timeline_range_seconds": [
+        45,
+        60
+      ],
+      "duration_seconds": 15,
+      "status": "draft-awaiting-provider-and-creative-approval",
+      "continuity_key": "laboratory-subject-A",
+      "prompt": "Create the final 15-second continuation from the exact body state and camera position established by the preceding segment. Complete a balanced full-body transformation with coherent torso, arm and leg proportions while preserving the established adult face and chest shape. Maintain the same laboratory room, lens, camera side, lighting and wardrobe. The subject settles into a stable final baseline; hold the completed form steadily for the final five seconds. Use <IMAGE_0>, <IMAGE_1> and <IMAGE_2> only as chest-form references; use <IMAGE_3>, <IMAGE_4> and <IMAGE_5> only as scale and garment references. No cuts, no identity drift, no extra limbs, no text, no logo, non-explicit adult presentation.",
+      "reference_assets": [
+        {
+          "asset_id": "car-bearded-base",
+          "use": "primary pectoral shape, chest-hair distribution and chest surface"
+        },
+        {
+          "asset_id": "car-bearded-variation-01",
+          "use": "upper and lateral pectoral contour comparison"
+        },
+        {
+          "asset_id": "car-bearded-variation-02",
+          "use": "forward projection and medial separation comparison"
+        },
+        {
+          "asset_id": "doorway-scale-reference",
+          "use": "overall adult body scale only; do not transfer identity"
+        },
+        {
+          "asset_id": "bedroom-scale-reference",
+          "use": "figure-to-room scale only; do not transfer identity"
+        },
+        {
+          "asset_id": "denim-cutoffs-reference",
+          "use": "garment and surface behavior only; do not transfer identity"
+        }
+      ],
+      "continuity_requirements": [
+        "Preserve one fictional adult subject, the same face and body identity, camera, room, lighting and wardrobe",
+        "Do not copy the identity of any image-library reference subject",
+        "The next segment must begin with the exact final frame of the previous segment",
+        "Maintain bilateral pectoral balance and coherent shoulder, arm, ribcage and waist transitions",
+        "No visible hard cuts, morph jumps, extra limbs or texture melting"
+      ],
+      "generation": {
+        "status": "not-started",
+        "provider_id": "xai-grok-imagine-video",
+        "provider_job_id": null,
+        "provider_output_id": null,
+        "provider_output_file_id": null,
+        "model_id": "grok-imagine-video-1.5",
+        "prompt_revision": 1,
+        "prompt_sha256": null,
+        "reference_asset_ids": [
+          "car-bearded-base",
+          "car-bearded-variation-01",
+          "car-bearded-variation-02",
+          "doorway-scale-reference",
+          "bedroom-scale-reference",
+          "denim-cutoffs-reference"
+        ],
+        "reference_file_ids": [],
+        "pinned_first_frame_file_id": null,
+        "first_frame_sha256": null,
+        "last_frame_sha256": null,
+        "continuity_status": "not-checked",
+        "submitted_at": null,
+        "completed_at": null,
+        "duration_seconds": 15,
+        "frame_rate": null,
+        "width": 1280,
+        "height": 720,
+        "video_codec": null,
+        "audio_codec": "none",
+        "output_path": null,
+        "output_sha256": null,
+        "dropbox_file_id": null,
+        "dropbox_path": null,
+        "reopened_from_dropbox": false,
+        "metadata_verified": false
       }
     }
   ],
   "sequence_policy": {
-    "transformation_continuity": "The event continues across the shot boundary; shot 02 must begin at the exact body state and subject identity established at the end of shot 01.",
-    "assembly": "Use only verified provider-generated media. The two proof shots do not by themselves constitute the final 60-second master.",
+    "transformation_continuity": "One continuous 60-second event across four provider segments. Each continuation segment pins its first frame to the previous segment's final frame.",
+    "segment_count": 4,
+    "segment_duration_seconds": 15,
+    "total_duration_seconds": 60,
+    "segment_boundary_frame_match_required": true,
+    "no_hard_cuts": true,
+    "assembly": "Assemble only the four verified provider-generated segments. Preserve frame-identical boundaries, then mix the approved soundtrack and produce the documented 1080p upscale.",
     "no_mock_fallback": true
   }
 }

@@ -175,6 +175,17 @@ def build_wardrobe():
     ]
     return top, shorts, straps
 
+def _set_video_output(scene):
+    image_settings = scene.render.image_settings
+    if hasattr(image_settings, "media_type"):
+        image_settings.media_type = "VIDEO"
+    else:
+        image_settings.file_format = "FFMPEG"
+    scene.render.ffmpeg.format = "MPEG4"
+    scene.render.ffmpeg.codec = "H264"
+    scene.render.ffmpeg.audio_codec = "AAC"
+
+
 def build_scene(manifest, output_path, timeline=None, growth_profile=None, preview_seconds=None, save_blend_path=None):
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)

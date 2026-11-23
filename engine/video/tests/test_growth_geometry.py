@@ -82,6 +82,12 @@ class PectoralGeometryTests(unittest.TestCase):
         self.assertLess(lower[2], 0.0)
         self.assertLess(abs(upper[1]), abs(lower[1]))
 
+    def test_sternal_groove_recesses_the_medial_chest_surface(self):
+        groove = pectoral_offset((0.0, -0.50, 2.28), "sternal_groove")
+        lateral = pectoral_offset((0.24, -0.50, 2.28), "sternal_groove")
+        self.assertGreater(groove[1], 0.0)
+        self.assertLess(abs(lateral[1]), abs(groove[1]))
+
     def test_default_pectorals_geometry_is_valid(self):
         self.assertEqual(validate_pectorals_geometry(None), [])
 

@@ -86,13 +86,15 @@
       "chest-side"
     ],
     "criteria": [
-      "single continuous human body surface",
-      "bilateral pectoral symmetry",
-      "visible upper fullness and lower shelf",
-      "clear medial separation and sternal groove",
-      "chest projection consistent across front, three-quarter and side",
-      "garment remains fitted and non-explicit",
-      "adult face and body continuity"
+      "single continuous adult human body surface",
+      "broad, rounded male pectorals integrated into the thorax rather than detached spherical lobes",
+      "deep but narrow medial chest cleft with visible sternum continuity",
+      "chest-hair coverage and skin texture consistent with the seated-car references",
+      "chest projection consistent across front, three-quarter and side views",
+      "shirtless primary torso remains anatomically coherent",
+      "light-blue denim cutoffs fit the hips and upper thighs with separate leg openings",
+      "optional graphite tank variant fits over the chest without clipping",
+      "adult bald/full-beard face continuity for the primary car/gym branch"
     ]
   }
 }

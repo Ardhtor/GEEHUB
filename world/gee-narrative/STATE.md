@@ -1,6 +1,18 @@
 # GEEHUB construction state
 
-Updated: 2026-11-22
+Updated: 2026-11-23
+
+## Evidence-bound single-frame compositing added — 2026-11-23
+- `core/complete-frame-compositor.js` adds `composeGrowthFramePixels()`, an in-memory assembly pass for one timestamped source frame. It consumes the original RGBA frame, same-frame binary body and protected-face masks, a ready transparent body pixel layer from `pixel-frame-renderer.js`, and a version-one temporal scene plate.
+- The compositor independently validates source dimensions/frame/time, body/face mask disjointness, scene-plate frame/timestamp membership, binary coverage/unresolved masks, donor-frame provenance, donor thresholds, scene-plate counts/status, and body-layer coverage. The default working ceiling is two million pixels.
+- Scene-plate coverage represents the union of body-hidden pixels across the sequence. The compositor applies a reconstructed plate sample only when the current frame's body mask is foreground; it does not overwrite background that is already visible in the current frame. It then overlays the transformed body using straight-alpha source-over.
+- Protected-face pixels are left byte-identical to the original source. A body-layer coverage pixel crossing the protected-face mask is rejected. The compositor does not synthesize pixels or alter caller-owned source, masks, body layer, or scene plate.
+- If a current-frame original-body pixel has no reconstructed plate sample and is not fully covered by an opaque transformed-body pixel, the original source pixel remains visible and is marked in the output's unresolved mask. The result is `partial-frame` and not ready for assembly. A frame with no unresolved original-body pixels is `complete-frame` and `readyForAssembly=true`; this is a per-frame coverage result, not anatomical or camera verification.
+- Results carry per-pixel background and final-layer classifications, pixel counts, and explicit legends. `readyForExport`, `sourceFrameDerivationVerified`, `cameraRegistrationIndependentlyVerified`, and `pixelSemanticsVerified` remain false. PNG writing, batch orchestration, clothing/depth response, and Resolve export remain open.
+- Ten focused tests were added for measured background replacement, visible-background preservation, unresolved regions, protected-face priority, source-over alpha, timestamp mismatch, mask overlap, missing plate evidence, and input preservation. The isolated Node 22.16.0 harness passed 10/10 tests and syntax checks using a local fixture for the temporal scene-plate input. The repository package workflow has not yet run against the committed tests; its real-module integration result is pending.
+- No personal footage, local Mac, Dropbox mirror, or Resolve session was accessed. The scene plate still depends on externally asserted fixed-camera registration, and upstream mask anatomy remains unverified.
+- Next: add a file-backed compositor that independently reads and verifies the scene-plate receipt and its PNG/provenance files, matches them to the registered source-frame index and body-layer receipts, and writes revisioned complete-frame PNGs plus per-frame and sequence receipts. Keep any frame with unresolved pixels explicitly partial and out of the export-ready sequence.
+
 
 ## Independent source-frame derivation revalidation added — 2026-11-20
 - `core/frame-batch-renderer.js` now requires the version-one `geehub.source-frame-extraction` record produced by `extract:frames`. It validates the source URI/checksum, FFmpeg extraction method, stream identity, average frame rate, timestamp basis/origin/tolerance, probed/extracted counts, tool-version strings, and every frame's source PTS relationship to the registered sequence.

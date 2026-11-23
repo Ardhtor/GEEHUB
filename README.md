@@ -192,6 +192,8 @@ Construction evidence and remaining blockers are recorded in
 [world/gee-narrative/CONSTRUCTION_CHRONICLE.md](world/gee-narrative/CONSTRUCTION_CHRONICLE.md).
 The in-memory temporal scene plate now has a file-backed artifact writer that persists the RGBA repair plate, opaque coverage and unresolved masks, compact per-pixel donor provenance, and a SHA-256 receipt published last. Partial repairs remain explicitly unresolved; camera registration and mask anatomy are not independently verified, and complete-frame compositing remains separate.
 
+The new `core/complete-frame-compositor.js` adds an in-memory single-frame assembly pass. It uses temporal-plate pixels only where the current frame's original-body mask says the background is hidden, overlays the transformed body with straight-alpha source-over, and preserves protected-face source pixels unchanged. Pixels that lack both a verified plate sample and full transformed-body coverage remain visible from the original frame and are marked unresolved. The result can be ready for further assembly but is never marked export-ready; camera registration and anatomical mask semantics remain unverified.
+
 ## Commentary as memory
 
 The conversations that produce GEEHUB contain decisions that are easy to lose: what was added, what failed, what aesthetic mattered, what the next experiment was for, and which concepts belong together.

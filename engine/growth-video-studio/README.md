@@ -465,3 +465,43 @@ bytes, independently estimate camera motion, prove mask anatomy, composite
 the transformed body, or export a finished frame. The receipt therefore keeps
 `sourceFrameDerivationVerified`, `cameraRegistrationIndependentlyVerified`, and
 `pixelSemanticsVerified` false.
+
+
+## Single-frame evidence-bound compositor
+
+`core/complete-frame-compositor.js` exports
+`composeGrowthFramePixels({ sourceFrame, bodyMask, protectedFaceMask, bodyLayer, scenePlate })`.
+It accepts one timestamped source RGBA frame, its binary body and protected-face
+masks, the corresponding transparent pixel-renderer body layer, and a version-one
+temporal scene plate. The compositor checks frame/time/dimension agreement,
+binary-mask integrity, donor provenance, scene-plate counts, body-layer coverage,
+and face exclusion before allocating the output. The default working limit is
+two million pixels.
+
+The shared scene plate describes the union of body-hidden pixels across the
+sequence, but the compositor applies a plate sample only where the current
+frame's body mask is foreground. It therefore does not overwrite background
+that is already visible in this frame. The transformed body is composited with
+straight-alpha source-over. Protected-face pixels are copied directly from the
+original source frame and body-layer coverage over those pixels is rejected.
+
+If an original-body pixel has neither a plate sample nor full opaque coverage
+from the transformed body, its original source pixel is retained and the output
+marks it unresolved. Such a result has status `partial-frame` and is not ready
+for assembly. A frame with no unresolved original-body pixels is marked
+`complete-frame` and `readyForAssembly=true`; this is a per-frame coverage
+claim, not a claim that the mask anatomy or camera registration is correct.
+Every result keeps `readyForExport=false`, `sourceFrameDerivationVerified=false`,
+`cameraRegistrationIndependentlyVerified=false`, and
+`pixelSemanticsVerified=false`. The result is in memory: PNG persistence,
+sequence orchestration, clothing/depth response, and Resolve export remain
+separate work.
+
+Ten focused tests cover background replacement only beneath the current body,
+visible-background preservation, unresolved pixels, protected-face priority,
+alpha compositing, timestamp mismatch, mask overlap, incomplete plate evidence,
+and input preservation. The isolated Node 22.16.0 harness passed 10/10 tests
+and both syntax checks using a local scene-plate fixture; the repository package
+workflow must still verify the committed tests against the real
+`temporal-scene-plate.js` implementation. No personal footage or local
+Dropbox/Resolve session was used.

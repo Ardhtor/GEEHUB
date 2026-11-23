@@ -452,17 +452,27 @@ def validate_staged_references(project_root: Path, required_asset_ids: list[str]
         integrity = sidecar.get("integrity", {})
         source = sidecar.get("source", {})
         valid = (
-            sidecar.get("asset_id") == asset_id
+            sidecar.get("schema") == "geehub.reference-image-source/1"
+            and sidecar.get("asset_id") == asset_id
             and sidecar.get("project_id") == reference_library.get("project_id")
             and staged.get("path") == record.get("path")
             and staged.get("sha256") == actual_hash == record.get("sha256")
             and source.get("sha256") == actual_hash
+            and (not reference.get("sha256") or reference.get("sha256") == actual_hash)
             and library.get("file_id") == reference.get("file_id")
             and library.get("library_file_id") == reference.get("library_file_id")
+            and library.get("file_name") == reference.get("file_name")
+            and library.get("rights_status") == reference.get("rights_status")
             and integrity.get("verified") is True
             and integrity.get("copy_matches_source") is True
             and source.get("original_modified") is False
-            and record.get("size_bytes") == staged_path.stat().st_size
+            and record.get("size_bytes") == staged_path.stat().st_size == reference.get("size_bytes")
+            and source.get("size_bytes") == reference.get("size_bytes")
+            and staged.get("size_bytes") == reference.get("size_bytes")
+            and record.get("width") == staged.get("width") == reference.get("width")
+            and record.get("height") == staged.get("height") == reference.get("height")
+            and (not reference.get("width") or staged.get("width") == reference.get("width"))
+            and (not reference.get("height") or staged.get("height") == reference.get("height"))
         )
         if valid:
             report["verified_asset_ids"].append(asset_id)

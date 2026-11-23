@@ -64,7 +64,7 @@ def _make_region_key(mesh, name, centre, radius, factors):
 
 
 def _make_pectorals_keys(mesh, geometry=None):
-    """Create three independently editable, bilateral chest shape keys."""
+    """Create six independently editable, bilateral chest shape keys."""
     if mesh.data.shape_keys is None:
         mesh.shape_key_add(name="Basis", from_mix=False)
     keys = {}

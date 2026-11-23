@@ -11,7 +11,8 @@
     {id:'map',name:'THE BLUE HALL',x:58,y:36,stage:'EXPANSION'},
     {id:'archive',name:'THE HOUSE OF OPEN SCREENS',x:73,y:57,stage:'COMPARE'},
     {id:'hyper',name:'VEYRTHALIS / DIGITORIUM',x:83,y:27,stage:'HYPER'},
-    {id:'hold',name:'THE NEW BASELINE',x:88,y:72,stage:'NEW BASELINE'}
+    {id:'hold',name:'THE NEW BASELINE',x:88,y:72,stage:'NEW BASELINE'},
+    {id:'tribal-territories',name:'THE GREAT TRIBAL TERRITORIES',x:20,y:52,stage:'KINSHIP'}
   ];
   let current = 'threshold';
   let routeTarget = null;

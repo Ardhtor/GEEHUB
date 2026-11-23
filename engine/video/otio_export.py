@@ -103,12 +103,16 @@ def export_timeline(timeline_data: dict, output: Path, media: Path | None = None
     }
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    if argv is None:
+        argv = sys.argv[1:]
+        if "--" in argv:
+            argv = argv[argv.index("--") + 1:]
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--timeline", type=Path, required=True, help="GEEHUB timeline.json")
     parser.add_argument("--output", type=Path, required=True, help="Output .otio file")
     parser.add_argument("--media", type=Path, help="Optional source video to place on the continuous picture track")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
     try:
         result = export_timeline(load(args.timeline), args.output, args.media)
     except (OSError, ValueError, RuntimeError, KeyError) as exc:

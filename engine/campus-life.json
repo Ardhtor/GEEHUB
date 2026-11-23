@@ -1,6 +1,25 @@
 {
-  "cycle": 176,
+  "cycle": 177,
   "events": [
+    {
+      "id": "northgate-campus-00177",
+      "cycle": 177,
+      "world_pulse": 346,
+      "at": "2026-11-23T18:38:16.668039+00:00",
+      "region": "athletic-commons",
+      "title": "OPEN GYM AND RECOVERY",
+      "kind": "training",
+      "participants": [
+        "Dan Roman",
+        "Adrian Varga",
+        "Noah Bell"
+      ],
+      "description": "The Commons holds an open session for anyone who wants to train. Experienced students help newcomers set up safely, and the recovery wing stays busy with stretching and quiet conversation. The strongest presence in the room is not a contest; it is the ease of people who know one another.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-23T18:38:16.668039+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00176",
       "cycle": 176,
@@ -3326,28 +3345,28 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 135,
+    "Dan Roman": 136,
     "Marek Ionescu": 95,
     "Elliot Ward": 108,
-    "Noah Bell": 109,
-    "Adrian Varga": 108
+    "Noah Bell": 110,
+    "Adrian Varga": 109
   },
   "last_event": {
-    "id": "northgate-campus-00176",
-    "cycle": 176,
-    "world_pulse": 345,
-    "at": "2026-11-23T18:38:04.192716+00:00",
-    "region": "founders-dormitory",
-    "title": "THE COURTYARD AFTER RAIN",
-    "kind": "social",
+    "id": "northgate-campus-00177",
+    "cycle": 177,
+    "world_pulse": 346,
+    "at": "2026-11-23T18:38:16.668039+00:00",
+    "region": "athletic-commons",
+    "title": "OPEN GYM AND RECOVERY",
+    "kind": "training",
     "participants": [
-      "Marek Ionescu",
-      "Noah Bell",
-      "Adrian Varga"
+      "Dan Roman",
+      "Adrian Varga",
+      "Noah Bell"
     ],
-    "description": "Rain has cleared from the brick quadrangle. Residents bring chairs outside and let the last light reach them. A conversation about summer plans grows into a list of places to visit, with the greenhouse door propped open behind them.",
+    "description": "The Commons holds an open session for anyone who wants to train. Experienced students help newcomers set up safely, and the recovery wing stays busy with stretching and quiet conversation. The strongest presence in the room is not a contest; it is the ease of people who know one another.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-23T18:38:04.192716+00:00",
+    "occurred_at": "2026-11-23T18:38:16.668039+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

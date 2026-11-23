@@ -19,3 +19,4 @@ The raw archive remains authoritative for what a conversation actually contained
 - [Gods of Domination and Submission](GODS_OF_DOMINATION_AND_SUBMISSION.md) — the mythic framework for invited authority, chosen yielding, boundaries, and return.
 
 - [The Low Bar — Ordinary Men Belong](LOW_BAR_ORDINARY_MEN.md) — a world-wide rule making belonging, attraction, and friendship easy for ordinary adult men without lowering consent or safety standards.
+- [Personal Intelligence and the Registry of Assistants](INSTITUTE_PERSONAL_INTELLIGENCE_AND_ASSISTANTS.md) — the Institute's adult residents, their distinct persistent assistants, and the permission-limited network connecting shared work.

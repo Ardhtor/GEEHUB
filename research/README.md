@@ -11,6 +11,7 @@ This is the local navigation page for `research/`. The lists below link to immed
 - [`embodied-scale/`](./embodied-scale/README.md)
 - [`hulums-cave/`](./hulums-cave/README.md)
 - [`relationships/`](./relationships/README.md)
+- [`social-sampling/`](./social-sampling/README.md)
 
 ## Files
 

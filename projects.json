@@ -2199,5 +2199,31 @@
       "the-complex",
       "vision-workspace"
     ]
+  },
+  {
+    "id": "institute-personal-intelligence",
+    "name": "Institute Personal Intelligence and Registry of Assistants",
+    "status": "incubating",
+    "kind": "story-system",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/INSTITUTE_PERSONAL_INTELLIGENCE_AND_ASSISTANTS.md",
+    "description": "Continuing Institute canon in which each adult male inhabitant uses a distinct persistent personal AI assistant throughout daily life. Establishes assistant temperaments, private memory, scoped inter-assistant collaboration, and the Personal Intelligence Registry while distinguishing fictional systems from implemented runtime capabilities.",
+    "related": [
+      "institute-of-becoming",
+      "institute-dormitory-life",
+      "tractus-continuity",
+      "character-records",
+      "confluence-growth-pass-2026-11-20"
+    ],
+    "tags": [
+      "personal-intelligence",
+      "ai-assistants",
+      "institute",
+      "privacy",
+      "permissions",
+      "continuity",
+      "fiction",
+      "registry"
+    ]
   }
 ]

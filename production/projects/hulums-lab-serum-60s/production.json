@@ -23,7 +23,7 @@
     "frameRate": 24,
     "frameCount": 1440,
     "aspectRatio": "16:9",
-    "providerResolution": "1920x1080",
+    "providerResolution": "1280x720",
     "deliveryResolution": "1920x1080",
     "container": "mp4",
     "audio": true,
@@ -32,7 +32,11 @@
     "width": 1920,
     "height": 1080,
     "growth_ceiling": 3.8,
-    "rig_growth_ceiling": 1
+    "rig_growth_ceiling": 1,
+    "providerWidth": 1280,
+    "providerHeight": 720,
+    "deliveryUpscale": "Lanczos",
+    "deliveryResolutionNote": "Reference-to-video native output is 1280x720; 1920x1080 delivery is an upscale and must be reviewed as such."
   },
   "creativeBrief": "An adult fictional athletic subject undergoes a clearly triggered laboratory transformation into an extreme, balanced hyper-muscular form. The transformation remains continuous for the full 60-second take; camera, wardrobe, room response and sound all track the same event. Intimate anatomy remains non-explicit and covered.",
   "content_rating": "mature",
@@ -64,7 +68,9 @@
     "visual_reference_source": "production/IMAGE_LIBRARY_INDEX.json",
     "project_reference_manifest": "07_MANIFESTS/reference_library.json",
     "growth_profile": "07_MANIFESTS/growth_profile.json",
-    "shot_manifest": "07_MANIFESTS/shots.json"
+    "shot_manifest": "07_MANIFESTS/shots.json",
+    "final_visual_generator": "engine/video/xai_video_adapter.py",
+    "final_visual_generation_mode": "xAI Grok Imagine Video 1.5 reference-to-video; four contiguous 15-second segments"
   },
   "stage_cap": null,
   "timelineManifest": "07_MANIFESTS/timeline.json",
@@ -75,7 +81,7 @@
     "institutional-containment",
     "triggered-metamorphosis"
   ],
-  "timelineSemantics": "Seven semantic intervals overlay one continuous 60-second deformation event. No hard cuts in the growth passage.",
+  "timelineSemantics": "Four contiguous 15-second provider segments form one 60-second deformation event. Each continuation segment pins its first frame to the previous segment's extracted final frame; pixel-frame hashes must match at all three boundaries. No visible hard cuts.",
   "continuityLocks": {
     "face": "Preserve adult fictional identity across all frames.",
     "pectoralBalance": "Left/right growth remains balanced in width, projection and thickness.",
@@ -111,7 +117,12 @@
     "each shot retains provider job ID, model ID, prompt revision, source reference IDs, metadata and SHA-256",
     "shot sequence assembled from verified source clips",
     "master export passes FFprobe metadata and checksum validation",
-    "master and source shots reopened from canonical Dropbox storage and verified"
+    "master and source shots reopened from canonical Dropbox storage and verified",
+    "xAI reference-image transfer and usage rights explicitly approved",
+    "four 15-second provider segments generated and continuity-verified",
+    "each segment boundary has matching last-frame and next-first-frame SHA-256",
+    "native 720p source and 1080p upscaled delivery are both documented",
+    "procedural Blender preview is not accepted as final production imagery"
   ],
   "source": {
     "authority": "Dropbox or explicitly supplied source",
@@ -160,7 +171,7 @@
     "repository_code": "GitHub pull request #11 (draft; not merged)",
     "policy": "Original source media remains immutable; derived frames, passes, shots, composites and exports are versioned separately. Large binaries are excluded from Git."
   },
-  "notes": "This is an executable procedural Blender prototype with six independently timed bilateral pectoral shape-key layers, a canonical Dropbox image-library index, project reference manifest, and local reference-image intake. It is not yet an industry-standard finished production: no Grok Imagine Video provider connection is available in the current workspace, no paid generation has been authorized, no independent generated shots or final master exist, and the canonical Dropbox project folder has not been provisioned. No video render or Dropbox delivery is claimed. The project remains blocked at preproduction until the provider, generation approval, real shot outputs, sequence export, and Dropbox reopen verification are complete. The six project-selected image references have stable Library IDs and visual comparison notes, but their binary copies have not yet been staged into 01_SOURCE/REFERENCE_IMAGES; production validation blocks until their source hashes and provenance sidecars are verified.",
+  "notes": "The project now has an implemented, offline-tested xAI Grok Imagine Video adapter with a cost estimate and explicit safeguards. The 60-second reference-to-video plan is four contiguous 15-second 1280x720 segments; continuation segments pin their first frame to the previous segment's final frame and verify pixel hashes. A 1920x1080 delivery is an upscale, not native 1080p. No XAI_API_KEY is configured, no reference images have been transferred to xAI, and no generation has been submitted. Paid generation remains disabled pending explicit cost approval (current estimate USD 8.40), reference-image transfer approval, and rights clearance. The selected image-library binaries have not yet been staged into 01_SOURCE/REFERENCE_IMAGES, and the canonical Dropbox project folder has not been provisioned. The Blender character preview remains a rejected geometry proxy, not final character imagery. No provider-generated footage, final audio mix, completed master, or Dropbox delivery is claimed.",
   "character_model": "rigged",
   "renderEntryPoint": "render_project.py",
   "generation": {

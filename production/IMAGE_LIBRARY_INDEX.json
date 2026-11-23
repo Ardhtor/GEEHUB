@@ -212,6 +212,36 @@
       ],
       "interpretation_boundary": "These are subtle visible differences between generated images, not measured anatomical deltas. Their timestamps establish creation order only; they do not prove an intended or approved growth-stage sequence. The close frontal crop and perspective do not establish true chest depth or world scale.",
       "next_reference_gap": "Add a consistent side and three-quarter view of the same approved subject before deriving numeric depth, projection, or chest-width ratios."
+    },
+    {
+      "collection_id": "colossal_scale_context",
+      "method": "manual side-by-side visual inspection",
+      "shared_invariants": [
+        "doorway and bedroom images share a similar front-facing full-body composition in the same domestic interior",
+        "the three images show extreme paired pectoral volume, broad deltoids and arms, a sharply defined abdominal column, and very large lower-body mass",
+        "denim-cutoffs image is a closer crop that exposes chest-to-deltoid transition, skin texture, and garment construction"
+      ],
+      "visible_differences": [
+        {
+          "asset_id": "doorway-scale-reference",
+          "observation": "The full-body frame includes the doorway, bed edge, bare feet, and floor, making it the strongest reference for figure-to-room scale and full-length proportions."
+        },
+        {
+          "asset_id": "bedroom-scale-reference",
+          "compared_with": "doorway-scale-reference",
+          "observation": "A closely related full-body bedroom composition with slightly different framing. It reinforces the same broad silhouette and domestic scale cues."
+        },
+        {
+          "asset_id": "denim-cutoffs-reference",
+          "compared_with": [
+            "doorway-scale-reference",
+            "bedroom-scale-reference"
+          ],
+          "observation": "A tighter crop from head through thighs emphasizes the very large pectoral lobes, shoulder/arm transition, abdominal definition, skin surface pattern, and distressed denim fit."
+        }
+      ],
+      "interpretation_boundary": "The compositions and body design are strongly similar, but the source manifest marks identity continuity as unconfirmed. Use these images as comparative scale, surface, and clothing references; do not merge their character identity with the seated-car sequence.",
+      "next_reference_gap": "For precise 3D calibration, obtain matched front, side, and three-quarter views from one approved subject and one consistent camera setup."
     }
   ]
 }

@@ -16,6 +16,12 @@ The expedition begins in an immense and unfamiliar country, where the men establ
 
 The next passage leads deeper into the country. The maps, the settlement, and Kirk's own account will continue to develop together.
 
+## How the collection is organized
+
+GEEHUB keeps active worlds and projects distinct from finished artifacts, quiet notes, fragments, and older archive material. A recorded idea does not automatically become a task; it can remain part of the collection until a natural connection or new direction gives it life.
+
+[Read the collection and continuity principle](./docs/COLLECTION_AND_CONTINUITY_PRINCIPLE.md)
+
 ## Worlds and stories
 
 GEEHUB's wider story collection brings together the Veyrthalis world, the Joseph and Kirk chronicles, the Second Heart, and the histories of the men and communities who inhabit the growing setting. These strands retain their own identities while sharing places, motifs, encounters, and discoveries.

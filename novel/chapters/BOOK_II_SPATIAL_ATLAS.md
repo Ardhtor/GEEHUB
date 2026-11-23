@@ -35,7 +35,7 @@ The local names are working names that may be refined as the residents inhabit t
 | `gabe-house` | The Canvas House | Gabe | Spacious residence with a training court, open studio, gardens, earlier-baseline gallery, and rooms for private recovery away from public attention | Newly established |
 | `joseph-house` | The House of Returns | Joseph | Warm timber mansion with a central hearth, library, guest rooms, private sitting rooms, and a sheltered walk connecting to the shared green | Newly established |
 
-A shared green and covered walk connect the four estates without making them one household. Each resident controls his own rooms and routines. Visiting is by invitation; a shared meal or gathering does not suspend anyone's right to leave or be alone. The exact placement of each mansion within the paired chambers remains unmeasured; relative positions must be added only when a later scene establishes them.
+A shared green and covered walk connect the four estates without making them one household. The green contains a long table, fountain, mature trees, playing field, and pavilion. A common kitchen and recreation hall stand apart from the private gardens. Each resident controls his own rooms and routines. Visiting is by invitation; a shared meal or gathering does not suspend anyone's right to leave or be alone. The exact placement of each mansion within the paired chambers remains unmeasured; relative positions must be added only when a later scene establishes them.
 
 ## Residents and ongoing life
 
@@ -61,7 +61,7 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 
 ## Open survey questions
 
-- What route connects the Warm Table to the paired residential chambers?
+- What is the exact surveyed alignment of the threshold between the Warm Table approach and the paired residential country?
 - Which chamber contains each estate, and what is the measured distance between them?
 - How does Kirk signal a change that could affect the residential quarter?
 - Which paths remain stable across successive bodily movements?
@@ -69,3 +69,37 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 - How does Andrew's attention-seeking change the household's routines without turning the mansions into a competition?
 
 **Local cartographic rule:** no invented coordinates, no erased baselines, no presumed access, and no map that treats Kirk as an object rather than a person.
+
+
+## State register
+
+### Known
+
+- The Upper Ridge, First Shelter, Old Trail, Measure House, Long Fold, Warm Table, and the still-unentered lower opening.
+- The paired residential country, its four named mansions, shared green, covered walks, common kitchen, recreation hall, and independent private grounds.
+- The Measure House's dated map archive and the residents' continued domestic, workshop, kitchen, route, and archival routines.
+- Andrew's increasing need for Kirk's attention and the resulting pressure on Joseph's access to shared time, as developed in [Chapter IV — The Promises That Keep](./BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md) and [Chapter V — Four Mansions](./BOOK_II_CHAPTER_V_FOUR_MANSIONS.md).
+
+### Open
+
+- Exact route alignment from the lower approach to the paired residential country.
+- Relative positions and measured separations of the four estates.
+- Reliable movement signals and which paths remain stable across successive changes.
+- How Andrew, Joseph, and Kirk negotiate time and attention as the residents settle into their homes.
+
+### Experimental
+
+- Any proposed additional chamber, fifth mansion, new district, or numeric coordinate system not yet established by a scene and repeatable survey.
+- Any transfer of this local geography into another GEEHUB world's map.
+
+### Retired
+
+- No place has been retired. Superseded measurements and earlier map states remain preserved as history.
+
+## Source chapter sequence
+
+- [Chapter I — The Lost Country](./BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md)
+- [Chapter II — The Keepers of the Old Trail](./BOOK_II_CHAPTER_II_THE_KEEPERS_OF_THE_OLD_TRAIL.md)
+- [Chapter III — The Place That Moved](./BOOK_II_CHAPTER_III_THE_PLACE_THAT_MOVED.md)
+- [Chapter IV — The Promises That Keep](./BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md)
+- [Chapter V — Four Mansions](./BOOK_II_CHAPTER_V_FOUR_MANSIONS.md)

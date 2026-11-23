@@ -476,16 +476,17 @@
         }
       },
       "reference_assets": [
-        "car-bearded-closeup-source",
-        "car-bearded-closeup-generated",
-        "bedroom-fullbody-generated",
-        "denim-cutoffs-generated",
-        "warm-lit-jock-pose-reference"
+        "car-bearded-base",
+        "car-bearded-variation-01",
+        "car-bearded-variation-02",
+        "doorway-scale-reference",
+        "bedroom-scale-reference",
+        "denim-cutoffs-reference"
       ],
       "calibration": {
         "method": "manual-qualitative-reference-fit",
-        "status": "authored-from-curated-image-library",
-        "notes": "The close-up car references establish forward pec projection and central separation; full-body and three-quarter references constrain shoulder/chest transitions and overall silhouette. Values are editable local-metre deformation controls, not automatically extracted anatomical measurements. Single 2D views do not provide reliable depth or true scale."
+        "status": "authored-from-canonical-dropbox-image-library",
+        "notes": "The three seated-car generations are the primary chest-shape references: preserve the paired rounded pectoral masses, strong medial cleft, forward projection, upper fullness, lower contour, and visible chest-hair texture. Doorway, bedroom, and denim-cutoff references provide comparative full-body scale and garment context only; they are not assumed to depict the seated-car subject. The generated variants are visually similar, but their order is not approved as a measured growth sequence. Geometry values are editable local-metre controls, not automatically extracted measurements. A single close frontal crop does not provide reliable depth or world scale."
       }
     }
   },

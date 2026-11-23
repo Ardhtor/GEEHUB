@@ -51,7 +51,7 @@ DEFAULT_REFERENCE_ASSETS = [
     "denim-cutoffs-reference",
 ]
 DEFAULT_SEGMENT_PROMPTS = [
-    "Segment 1 of 4. Establish one clearly adult fictional male subject in the clinical observation room, medium-wide front three-quarter composition, head through upper thighs visible, calm neutral expression, subtle breathing, cool white and blue industrial laboratory light. The subject begins at a balanced athletic baseline. Use IMAGE_0, IMAGE_1 and IMAGE_2 only for the primary paired pectoral shape, chest-hair distribution and chest surface; use IMAGE_3, IMAGE_4 and IMAGE_5 only for overall scale, room scale and denim garment behavior. Do not copy any reference person's identity, face or environment. Keep one coherent subject, camera, lighting and room. A restrained serum activation begins near the end. No cuts, no sudden morph, no extra limbs, no text, no logo, non-explicit adult presentation.",
+    "Segment 1 of 4. Establish one clearly adult fictional male subject in the clinical observation room, medium-wide front three-quarter composition, head through upper thighs visible, calm neutral expression, subtle breathing, cool white and blue industrial laboratory light. The subject begins at a balanced athletic baseline. Use <IMAGE_0>, <IMAGE_1> and <IMAGE_2> only for the primary paired pectoral shape, chest-hair distribution and chest surface; use <IMAGE_3>, <IMAGE_4> and <IMAGE_5> only for overall scale, room scale and denim garment behavior. Do not copy any reference person's identity, face or environment. Keep one coherent subject, camera, lighting and room. A restrained serum activation begins near the end. No cuts, no sudden morph, no extra limbs, no text, no logo, non-explicit adult presentation.",
     "Segment 2 of 4. Continue from the exact pinned final frame of the previous segment. Preserve the same fictional adult face, beard, hairline, skin tone, body position, lens, camera side, room, lighting and denim cutoffs. A gradual transformation develops the paired pectoralis major: fuller rounded lobes, clear but natural medial cleft, forward projection, upper-chest fullness and a stronger lower shelf, with a smooth transition into the deltoids. Keep the sternum and ribcage coherent. No identity drift, no cuts, no sudden size jump, no extra limbs, no text, no logo, non-explicit adult presentation.",
     "Segment 3 of 4. Continue from the exact pinned final frame of the previous segment with uninterrupted identity and spatial continuity. The shoulders, deltoids, arms, traps, lats and upper back gain proportionate mass around the already-developed chest. Preserve the chest's paired rounded shape, medial separation, chest-hair pattern and forward projection. Keep the waist and ribcage connected and believable; maintain the same camera movement, laboratory geometry, lighting and wardrobe. No cuts, no melting textures, no extra limbs, no text, no logo, non-explicit adult presentation.",
     "Segment 4 of 4. Continue from the exact pinned final frame of the previous segment. Complete the balanced full-body transformation with coherent torso, arm and leg proportions while preserving the established face and chest shape. The subject settles into a stable final baseline; hold the completed form steadily for the final five seconds. Maintain the same room, lens, camera side, lighting and denim cutoffs. No cuts, no identity drift, no extra limbs, no text, no logo, non-explicit adult presentation.",
@@ -148,6 +148,17 @@ def estimate_continuous_sequence(
     }
 
 
+def prompt_with_reference_slots(prompt: str, pinned_first_frame: bool) -> str:
+    """Shift reference-image tokens when the pinned first frame occupies IMAGE_0."""
+    if not pinned_first_frame:
+        return prompt
+    for index in reversed(range(MAX_REFERENCE_IMAGES)):
+        prompt = prompt.replace(f"<IMAGE_{index}>", f"__GEEHUB_IMAGE_{index}__")
+    for index in range(MAX_REFERENCE_IMAGES):
+        prompt = prompt.replace(f"__GEEHUB_IMAGE_{index}__", f"<IMAGE_{index + 1}>")
+    return "The pinned first frame is <IMAGE_0>; preserve it as the exact opening frame. " + prompt
+
+
 def build_generation_payload(
     prompt: str,
     reference_file_ids: list[str],
@@ -169,7 +180,9 @@ def build_generation_payload(
         raise ValueError(f"Provide between 1 and {MAX_REFERENCE_IMAGES} reference image file IDs")
     if any(not isinstance(value, str) or not value.strip() for value in reference_file_ids):
         raise ValueError("Reference file IDs must be non-empty strings")
-    safe_filename = Path(filename).name
+    if not isinstance(filename, str) or Path(filename).name != filename:
+        raise ValueError("Output filename must be a simple filename, not a path")
+    safe_filename = filename
     if not safe_filename or safe_filename in {".", ".."} or any(ch in safe_filename for ch in ("\r", "\n", "\\", '"')):
         raise ValueError("Output filename contains unsupported characters")
     payload = {
@@ -180,14 +193,17 @@ def build_generation_payload(
         "aspect_ratio": aspect_ratio,
         "reference_images": [{"file_id": value} for value in reference_file_ids],
         "generate_audio": False,
-        "storage_options": {"filename": safe_filename},
+        "storage_options": {"filename": safe_filename, "expires_after": 604800},
     }
     if first_frame_file_id:
         payload["image"] = {"file_id": first_frame_file_id}
     return payload
 
 
-def validate_generation_authorization(provider: dict, approval: dict, estimate: dict, project_id: str) -> None:
+def validate_generation_authorization(
+    provider: dict, approval: dict, estimate: dict, project_id: str,
+    reference_asset_ids: list[str] | None = None,
+) -> None:
     if not isinstance(provider, dict) or not isinstance(approval, dict):
         raise ValueError("Provider and cost-approval manifests must be JSON objects")
     if provider.get("provider_id") != "xai-grok-imagine-video":
@@ -200,6 +216,10 @@ def validate_generation_authorization(provider: dict, approval: dict, estimate: 
         raise ValueError("Paid generation is disabled in video_provider.json")
     if provider.get("cost_approval_required") is not True or provider.get("cost_approval_status") != "approved":
         raise ValueError("Explicit provider cost approval has not been granted")
+    if provider.get("data_transfer_approval_status") != "approved":
+        raise ValueError("Reference-image transfer to xAI has not been explicitly approved")
+    if provider.get("reference_rights_clearance_status") != "cleared":
+        raise ValueError("Reference-image usage rights have not been cleared")
     if approval.get("schema") != "geehub.provider-cost-approval/1" or approval.get("status") != "approved":
         raise ValueError("A valid approved cost_approval.json record is required")
     if approval.get("project_id") != project_id or approval.get("provider_id") != "xai-grok-imagine-video":
@@ -219,6 +239,12 @@ def validate_generation_authorization(provider: dict, approval: dict, estimate: 
         raise ValueError("Cost approval model/resolution does not match the requested generation plan")
     if approval.get("total_duration_seconds") != estimate["total_duration_seconds"]:
         raise ValueError("Cost approval duration does not match the requested generation plan")
+    if approval.get("reference_data_transfer_approved") is not True:
+        raise ValueError("Cost approval does not authorize transfer of the selected reference images")
+    if approval.get("reference_rights_cleared") is not True:
+        raise ValueError("Cost approval does not confirm rights to use the selected reference images")
+    if reference_asset_ids is not None and approval.get("reference_asset_ids") != reference_asset_ids:
+        raise ValueError("Cost approval reference asset IDs do not match the selected image-library assets")
 
 
 class _NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -297,6 +323,8 @@ class XAIClient:
         mime = mimetypes.guess_type(filename)[0] or "application/octet-stream"
         boundary = "----GEEHUB" + uuid.uuid4().hex
         body = b"".join([
+            f"--{boundary}\r\nContent-Disposition: form-data; name=\"expires_after\"\r\n\r\n604800\r\n".encode("ascii"),
+            f"--{boundary}\r\nContent-Disposition: form-data; name=\"purpose\"\r\n\r\nassistants\r\n".encode("ascii"),
             f"--{boundary}\r\nContent-Disposition: form-data; name=\"file\"; filename=\"{filename}\"\r\n".encode("utf-8"),
             f"Content-Type: {mime}\r\n\r\n".encode("ascii"),
             path.read_bytes(),
@@ -310,7 +338,7 @@ class XAIClient:
         return result
 
     def get_file(self, file_id: str) -> dict:
-        if not isinstance(file_id, str) or not re.fullmatch(r"file_[A-Za-z0-9_-]+", file_id):
+        if not isinstance(file_id, str) or not re.fullmatch(r"file[-_][A-Za-z0-9_-]+", file_id):
             raise ValueError("Invalid xAI file ID")
         return self.request_json("GET", "/files/" + urllib.parse.quote(file_id, safe=""))
 
@@ -347,9 +375,16 @@ class XAIClient:
 
     def download_video(self, url: str, destination: Path) -> dict:
         parsed = urllib.parse.urlparse(url)
-        if parsed.scheme != "https" or parsed.hostname not in {"vidgen.x.ai", "files-cdn.x.ai"}:
+        if (
+            parsed.scheme != "https"
+            or parsed.hostname not in {"vidgen.x.ai", "files-cdn.x.ai"}
+            or parsed.username or parsed.password
+            or parsed.port not in {None, 443}
+        ):
             raise ValueError("Refusing video download from an unapproved URL host")
         destination = Path(destination)
+        if destination.exists() or destination.is_symlink():
+            raise FileExistsError(f"Refusing to overwrite an existing provider output: {destination}")
         destination.parent.mkdir(parents=True, exist_ok=True)
         temporary = destination.with_name(destination.name + "." + uuid.uuid4().hex + ".tmp")
         request = urllib.request.Request(url, headers={"User-Agent": "GEEHUB-xAI-Adapter/1.0"})
@@ -461,7 +496,7 @@ def upload_reference_assets(client: XAIClient, project: Path, assets: list[dict]
             cached
             and cached.get("sha256") == asset["sha256"]
             and isinstance(cached.get("file_id"), str)
-            and re.fullmatch(r"file_[A-Za-z0-9_-]+", cached["file_id"])
+            and re.fullmatch(r"file[-_][A-Za-z0-9_-]+", cached["file_id"])
         )
         if reusable:
             try:
@@ -541,8 +576,8 @@ def generate_continuous_sequence(
     project = Path(project).expanduser().resolve(strict=True)
     project_id = project.name
     plan = estimate_continuous_sequence(total_seconds, segment_seconds, resolution)
-    validate_generation_authorization(provider, approval, plan, project_id)
     assets_requested = asset_ids or DEFAULT_REFERENCE_ASSETS
+    validate_generation_authorization(provider, approval, plan, project_id, assets_requested)
     assets = load_staged_reference_assets(project, assets_requested)
     uploaded_references = upload_reference_assets(client, project, assets)
     reference_file_ids = [uploaded_references[asset_id] for asset_id in assets_requested]
@@ -583,8 +618,9 @@ def generate_continuous_sequence(
             order = segment["sequence_order"]
             expected_previous_frame = previous_last_frame_sha256
             filename = f"segment-{order:02d}.mp4"
+            prompt = prompt_with_reference_slots(segment_prompts[order - 1], bool(previous_frame_file_id))
             payload = build_generation_payload(
-                prompt=segment_prompts[order - 1],
+                prompt=prompt,
                 reference_file_ids=reference_file_ids,
                 duration_seconds=segment["duration_seconds"],
                 filename=filename,
@@ -594,6 +630,20 @@ def generate_continuous_sequence(
             submitted_at = utc_now()
             submitted = client.submit_generation(payload)
             request_id = submitted["request_id"]
+            submitted_record = {
+                **segment,
+                "status": "submitted",
+                "provider_job_id": request_id,
+                "model_id": VIDEO_MODEL,
+                "prompt_sha256": hashlib.sha256(prompt.encode("utf-8")).hexdigest(),
+                "reference_asset_ids": assets_requested,
+                "reference_file_ids": reference_file_ids,
+                "pinned_first_frame_file_id": previous_frame_file_id,
+                "submitted_at": submitted_at,
+            }
+            run_manifest["segments"].append(submitted_record)
+            run_manifest["updated_at"] = utc_now()
+            write_json_atomic(run_path, run_manifest)
             completed = client.poll_video(
                 request_id,
                 timeout_seconds=poll_timeout,
@@ -615,12 +665,10 @@ def generate_continuous_sequence(
                 )
             last_frame_upload = client.upload_file(Path(last_frame["path"]))
             generation = {
-                **segment,
-                "provider_job_id": request_id,
-                "model_id": VIDEO_MODEL,
-                "prompt_sha256": hashlib.sha256(segment_prompts[order - 1].encode("utf-8")).hexdigest(),
-                "reference_asset_ids": assets_requested,
-                "reference_file_ids": reference_file_ids,
+                **submitted_record,
+                "status": "generated-local",
+                "pinned_first_frame_file_id": previous_frame_file_id,
+                "first_frame_file_id": previous_frame_file_id,
                 "submitted_at": submitted_at,
                 "completed_at": utc_now(),
                 "provider_output_file_id": video.get("file_output", {}).get("file_id"),
@@ -633,7 +681,7 @@ def generate_continuous_sequence(
                 "next_segment_first_frame_file_id": last_frame_upload["id"],
                 "provider_usage": completed.get("usage"),
             }
-            run_manifest["segments"].append(generation)
+            run_manifest["segments"][-1] = generation
             if expected_previous_frame:
                 run_manifest["continuity_checks"].append({
                     "boundary_before_segment": order,
@@ -691,6 +739,8 @@ def main(argv=None) -> int:
                 "connection_status": provider.get("connection_status"),
                 "xai_api_key_configured": bool(os.environ.get("XAI_API_KEY")),
                 "cost_approval_status": provider.get("cost_approval_status"),
+                "data_transfer_approval_status": provider.get("data_transfer_approval_status"),
+                "reference_rights_clearance_status": provider.get("reference_rights_clearance_status"),
                 "cost_approval_file_present": approval_path.is_file(),
                 "estimated_60s_720p_usd": estimate["estimated_cost_usd"],
                 "generation_submitted": False,
@@ -698,7 +748,7 @@ def main(argv=None) -> int:
             print(json.dumps(result, indent=2))
             return 0
         estimate = estimate_continuous_sequence(args.duration, args.segment_duration, args.resolution)
-        validate_generation_authorization(provider, approval, estimate, project.name)
+        validate_generation_authorization(provider, approval, estimate, project.name, DEFAULT_REFERENCE_ASSETS)
         client = XAIClient()
         result = generate_continuous_sequence(
             project, client, provider, approval,

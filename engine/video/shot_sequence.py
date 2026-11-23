@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -219,7 +220,7 @@ def build_otio_sequence(project_root: Path, output_path: Path, allow_local_previ
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--project", type=Path, default=Path(__file__).resolve().parents[2] / "production" / "projects" / "hulums-lab-serum-60s")
+    parser.add_argument("--project", type=Path, default=Path(os.environ.get("GEEHUB_PROJECT_ROOT", str(Path(__file__).resolve().parents[2] / "production" / "projects" / "hulums-lab-serum-60s"))).expanduser())
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--local-preview", action="store_true", help="Allow locally generated segments before Dropbox verification; never an accepted final")
     args = parser.parse_args(argv)

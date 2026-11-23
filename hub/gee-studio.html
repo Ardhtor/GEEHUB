@@ -196,7 +196,7 @@ async function runLocalEngine(){
  const status=$('#engineStatus'),button=$('#runEngine'),link=$('#engineDownload');
  button.disabled=true;link.classList.add('hidden');status.textContent='CONNECTING TO LOCAL BLENDER / FFMPEG ENGINE…';
  try{
-  const base='http://127.0.0.1:8765';
+  const base=window.location.origin;
   const health=await fetch(base+'/health',{cache:'no-store'}).then(r=>r.json());
   const tech=health.capabilities||{};
   $('#engineTech').textContent='BLENDER '+(health.blender_version||'UNKNOWN')+' / OTIO '+(tech.opentimelineio_in_blender?'NATIVE':'NOT DETECTED')+' / GAUSSIAN SPLATS '+(tech.native_gaussian_splat_baseline?'5.3 BASELINE':'NOT AVAILABLE')+' / FFPROBE '+(health.ffprobe?'READY':'MISSING');

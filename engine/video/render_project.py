@@ -77,8 +77,13 @@ def validate(project: Path) -> tuple[dict, dict]:
     if curve_errors:
         raise ValueError("Invalid growth profile: " + "; ".join(curve_errors))
     required_regions = {"pectorals", "deltoids", "traps", "arms", "lats", "back", "torso", "quadriceps", "calves", "whole_body"}
-    if set(curves) != required_regions:
-        raise ValueError("Growth profile regions do not match the renderer deformation channels")
+    optional_pectorals = {"pectorals_projection", "pectorals_upper", "pectorals_outer"}
+    if not required_regions.issubset(curves):
+        missing = sorted(required_regions - set(curves))
+        raise ValueError("Growth profile is missing required renderer channels: " + ", ".join(missing))
+    unexpected = set(curves) - required_regions - optional_pectorals
+    if unexpected:
+        raise ValueError("Growth profile contains unsupported channels: " + ", ".join(sorted(unexpected)))
     return manifest, timeline
 
 

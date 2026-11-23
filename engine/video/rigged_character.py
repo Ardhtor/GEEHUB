@@ -277,8 +277,12 @@ def _anatomy_surface(name="GEEHUB / unified humanoid"):
         ellipsoid_part("hand." + ("L" if side < 0 else "R"), (side * 1.13, -.055, .99), (.15, .13, .22))
 
         ellipsoid_part("thigh." + ("L" if side < 0 else "R"), (side * .34, .005, .62), (.33, .35, .64))
+        ellipsoid_part("quadriceps." + ("L" if side < 0 else "R"), (side * .34, -.15, .64), (.27, .22, .42))
+        ellipsoid_part("hamstring." + ("L" if side < 0 else "R"), (side * .34, .16, .62), (.26, .18, .40))
         ellipsoid_part("knee." + ("L" if side < 0 else "R"), (side * .36, .005, .08), (.235, .25, .27))
         limb_part("calf." + ("L" if side < 0 else "R"), (side * .36, .01, .08), (side * .38, -.005, -.82), .245, .23)
+        ellipsoid_part("gastrocnemius." + ("L" if side < 0 else "R"), (side * .38, -.055, -.38), (.22, .20, .30))
+        ellipsoid_part("soleus." + ("L" if side < 0 else "R"), (side * .38, .07, -.58), (.18, .16, .24))
         ellipsoid_part("ankle." + ("L" if side < 0 else "R"), (side * .38, -.025, -.84), (.16, .17, .22))
         ellipsoid_part("foot." + ("L" if side < 0 else "R"), (side * .38, -.205, -.99), (.18, .33, .14))
 

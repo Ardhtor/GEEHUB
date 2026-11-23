@@ -258,7 +258,7 @@ def evaluate_acceptance(shots: dict, acceptance: dict, project_root: Path) -> di
 
 def validate_staged_references(project_root: Path, required_asset_ids: list[str], reference_library: dict) -> dict:
     registry_path = project_root / "07_MANIFESTS" / "reference_imports.json"
-    required = list(dict.fromkeys(required_asset_ids))
+    required = list(dict.fromkeys(required_asset_ids)) if isinstance(required_asset_ids, list) else []
     report = {"verified": False, "required_asset_ids": required, "verified_asset_ids": [], "missing_asset_ids": [], "errors": []}
     if not registry_path.is_file():
         report["missing_asset_ids"] = required
@@ -295,20 +295,25 @@ def validate_staged_references(project_root: Path, required_asset_ids: list[str]
             report["errors"].append(f"{asset_id}: provenance sidecar cannot be read")
             continue
         actual_hash = _sha256(staged_path)
-        library = sidecar.get("library", {}) if isinstance(sidecar, dict) else {}
-        staged = sidecar.get("staged", {}) if isinstance(sidecar, dict) else {}
-        integrity = sidecar.get("integrity", {}) if isinstance(sidecar, dict) else {}
+        if not isinstance(sidecar, dict):
+            report["missing_asset_ids"].append(asset_id)
+            report["errors"].append(f"{asset_id}: provenance sidecar must be a JSON object")
+            continue
+        library = sidecar.get("library", {})
+        staged = sidecar.get("staged", {})
+        integrity = sidecar.get("integrity", {})
+        source = sidecar.get("source", {})
         valid = (
             sidecar.get("asset_id") == asset_id
             and sidecar.get("project_id") == reference_library.get("project_id")
             and staged.get("path") == record.get("path")
             and staged.get("sha256") == actual_hash == record.get("sha256")
-            and sidecar.get("source", {}).get("sha256") == actual_hash
+            and source.get("sha256") == actual_hash
             and library.get("file_id") == reference.get("file_id")
             and library.get("library_file_id") == reference.get("library_file_id")
             and integrity.get("verified") is True
             and integrity.get("copy_matches_source") is True
-            and sidecar.get("source", {}).get("original_modified") is False
+            and source.get("original_modified") is False
             and record.get("size_bytes") == staged_path.stat().st_size
         )
         if valid:

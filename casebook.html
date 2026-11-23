@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101713">
+<title>GEEHUB // CASEBOOK</title>
+<link rel="stylesheet" href="./engine/casebook.css">
+</head>
+<body>
+<main class="casebook">
+<header class="cb-header">
+  <a class="cb-back" href="./index.html">← GEEHUB</a>
+  <div class="cb-kicker">GEEHUB / ADVENTURE SYSTEM</div>
+  <h1>THE CASEBOOK</h1>
+  <p>A world you enter by following what interests you. Every choice changes your saved world.</p>
+  <div class="cb-status"><span id="saveStatus">LOCAL WORLD / READY</span><span id="progressCount">0 DISCOVERIES</span></div>
+</header>
+<section class="cb-layout">
+  <article class="cb-main">
+    <div class="cb-scene-meta"><span id="sceneChapter">CASE 001 / OPENING</span><span id="scenePlace">NORTHGATE ATHLETIC COMMONS</span></div>
+    <div class="cb-image" id="sceneImage" aria-hidden="true"><div class="cb-image-mark">N</div><div class="cb-image-caption">NORTHGATE / A PLACE TO BEGIN</div></div>
+    <h2 id="sceneTitle">An Open Invitation</h2>
+    <div id="sceneText" class="cb-prose"></div>
+    <div class="cb-choice-label">WHERE WOULD YOU LIKE TO GO?</div>
+    <div id="sceneChoices" class="cb-choices"></div>
+    <div class="cb-scene-footer"><span id="sceneFoot">YOUR WORLD / FIRST VISIT</span><button id="backChoice" type="button">PREVIOUS SCENE</button></div>
+  </article>
+  <aside class="cb-side">
+    <section class="cb-panel"><div class="cb-panel-kicker">YOUR WORLD</div><h3>What is taking shape</h3><div id="worldState" class="cb-state-list"></div></section>
+    <section class="cb-panel"><div class="cb-panel-kicker">CASEBOOK</div><h3>Collected along the way</h3><div id="discoveries" class="cb-discoveries"></div></section>
+    <section class="cb-panel"><div class="cb-panel-kicker">YOUR ROUTE</div><h3>Places visited</h3><div id="routeLog" class="cb-route"></div></section>
+    <section class="cb-panel cb-controls"><button id="showMap" type="button">OPEN DISCOVERED PLACES</button><button id="resetWorld" type="button">START A FRESH ADVENTURE</button><p>Your progress is saved in this browser automatically.</p></section>
+  </aside>
+</section>
+<section id="placeDrawer" class="cb-drawer" hidden><div class="cb-drawer-head"><div><div class="cb-panel-kicker">YOUR EXPANDING WORLD</div><h2>Places you can return to</h2></div><button id="closeMap" type="button">CLOSE</button></div><div id="placeGrid" class="cb-place-grid"></div></section>
+<footer class="cb-footer">GEEHUB CASEBOOK · A CONTINUOUS ADVENTURE · NO FAILURE STATE</footer>
+</main>
+<script src="./engine/casebook.js"></script>
+</body></html>

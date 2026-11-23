@@ -25,9 +25,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      - name: Install timeline interchange adapter
+        run: python -m pip install --upgrade opentimelineio
       - name: Compile video tools
-        run: python -m py_compile engine/video/validate_timeline.py engine/video/tests/test_validate_timeline.py
-      - name: Run timeline and provenance regression tests
-        run: python -m unittest engine.video.tests.test_validate_timeline
+        run: python -m py_compile engine/video/validate_timeline.py engine/video/otio_export.py engine/video/gee_engine.py engine/video/tests/test_validate_timeline.py engine/video/tests/test_otio_export.py
+      - name: Run timeline, provenance, and OpenTimelineIO regression tests
+        run: python -m unittest engine.video.tests.test_validate_timeline engine.video.tests.test_otio_export
       - name: Validate Teal Titan production manifests
         run: python engine/video/validate_timeline.py

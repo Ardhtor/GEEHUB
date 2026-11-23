@@ -78,3 +78,21 @@ The project growth profile stores all six pectoral regions as editable local-spa
 ## Shot generation and delivery gate
 
 The project carries a provider contract, two independent shot briefs, and a production acceptance manifest. The named provider is Grok Imagine Video; the current workspace has no matching connection, and generation remains disabled until a real adapter is connected and explicit cost approval is recorded. No provider job or generated clip is fabricated. `production_validation.py` rejects mock media and reports blockers. Once real clips are generated and registered with provider job IDs, model/prompt provenance, reference IDs, checksums, FFprobe metadata, and Dropbox reopen evidence, `shot_sequence.py` builds a sequential OTIO track and round-trip verifies clip order. The final master remains blocked until the required two shots, OTIO sequence, MP4 master, and Dropbox reopen checks all exist.
+
+
+## xAI Grok Imagine Video adapter
+
+GEEHUB now includes `engine/video/xai_video_adapter.py`, an offline-tested adapter for the official xAI Video API. It uses selected image-library references through the xAI Files API, then plans four contiguous 15-second `grok-imagine-video-1.5` reference-to-video segments. Each continuation segment pins its first frame to the previous segment's extracted final frame; the adapter compares decoded frame SHA-256 values before accepting continuity. Uploaded reference and provider files are configured to expire after seven days and are not made public.
+
+The reference-to-video mode is limited to native 1280x720 output. The project's 1920x1080 delivery target therefore requires a documented Lanczos upscale; it must not be described as native 1080p. The current estimate is USD 8.40 for 60 seconds at 720p, based on the published USD 0.14/second rate checked 2026-11-23. This estimate excludes retries, taxes and post-production. See the [official xAI video API and pricing documentation](https://docs.x.ai/developers/model-capabilities/video/overview).
+
+The adapter is deliberately cost- and privacy-gated. `estimate` and `check` make no API calls:
+
+```bash
+python engine/video/xai_video_adapter.py estimate
+python engine/video/xai_video_adapter.py check
+```
+
+Paid generation requires an `XAI_API_KEY` environment variable, `generation_enabled: true`, a matching approved `cost_approval.json`, explicit approval to transfer the exact listed reference images to xAI, and confirmation that the user has the rights to use and transfer those images. The repository template is not an approval. No key is stored in the repository, no image is transferred by estimate/check, and no provider generation is automatically submitted.
+
+The adapter currently writes provider-run metadata and local segment/frame files. Final shot-manifest registration, Dropbox reopening verification, OTIO/master assembly, soundtrack mix and final visual approval remain separate acceptance gates. The procedural Blender character is a geometry diagnostic, not a substitute for provider-generated final imagery.

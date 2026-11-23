@@ -35,6 +35,12 @@
     "four contiguous generated segments",
     "three verified frame-identical segment boundaries",
     "provider resolution and delivery upscale recorded",
+    "audio_render_manifest",
+    "audio_master_sha256",
+    "five separately checksummed audio stems",
+    "integrated_loudness_measurement",
+    "true_peak_measurement",
+    "audio_video_sync_review",
     "audio track verified",
     "dropbox_file_id",
     "dropbox_path",
@@ -50,15 +56,16 @@
   ],
   "current_status": "blocked-preproduction",
   "current_blockers": [
-    "project-selected image-library files have not yet been staged and checksum-verified",
-    "XAI_API_KEY is not configured in this workspace",
+    "selected ChatGPT Library binaries have verified SHA-256 hashes and dimensions, but have not yet been staged into the Dropbox project workspace",
+    "XAI_API_KEY is not configured in the generation workspace",
     "explicit approval for the estimated USD 8.40 provider generation cost has not been granted",
     "transfer of the six selected image-library references to xAI has not been approved",
     "rights to use and transfer the selected reference images have not been cleared",
     "zero provider-generated segments are registered",
-    "Dropbox project folder has not yet been provisioned",
+    "Dropbox project folder has not yet been provisioned and reopened for verification",
     "no assembled 60-second master exists",
-    "original soundtrack and final audio mix have not been supplied or verified",
+    "procedural audio engine and original soundscape plan are implemented, but the master WAV and five stems have not yet been rendered and verified",
+    "final soundtrack has not been synchronized and muxed with provider-generated video",
     "procedural Blender character previews remain rejected as final production imagery"
   ],
   "no_mock_or_placeholder_acceptance": true,
@@ -158,5 +165,14 @@
       "native 1280x720 provider output and 1920x1080 Lanczos delivery upscale are both recorded honestly",
       "the procedural Blender blockout is not substituted for provider-generated final imagery"
     ]
-  }
+  },
+  "audio_requirements": {
+    "plan_manifest": "07_MANIFESTS/audio_plan.json",
+    "master_format": "WAV PCM 24-bit, 48 kHz, stereo",
+    "integrated_lufs": -16,
+    "true_peak_dbtp": -1,
+    "external_samples_allowed": false,
+    "final_picture_sync_required": true
+  },
+  "industry_standard_status": "production-architecture-and-validation-implemented; source-media-staging, provider approvals, generated footage, audio render, Dropbox verification and final review remain release gates"
 }

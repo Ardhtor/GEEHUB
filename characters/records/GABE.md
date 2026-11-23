@@ -82,3 +82,8 @@ Gabe introduces Dorian to Tyler Boeskin, a mate of his who knows the Northgate p
 ## Book II residence — The Canvas House
 
 Gabe takes up permanent residence in the Canvas House, a large mansion in the paired residential country of Kirk's anatomy. It contains an adjustable training court, open studio, garden, earlier-baseline gallery, private recovery room, and quiet dining space. The house supports his Growth Canvas work without making every room an exhibition or every encounter a demand for another transformation. Gabe can invite others into the shared court and retreat to his own rooms when he wants to be seen as a companion rather than a spectacle. Its exact position within the paired chambers remains unmeasured until a later survey establishes it.
+
+
+## Book II residence — The Canvas House
+
+Gabe takes up permanent residence in the Canvas House, a large mansion in the paired residential country of Kirk's anatomy. It contains an adjustable training court, open studio, garden, earlier-baseline gallery, private recovery room, and quiet dining space. The house supports his Growth Canvas work without making every room an exhibition or every encounter a demand for another transformation. Gabe can invite others into the shared court and retreat to his own rooms when he wants to be seen as a companion rather than a spectacle. Its exact position within the paired chambers remains unmeasured until a later survey establishes it.

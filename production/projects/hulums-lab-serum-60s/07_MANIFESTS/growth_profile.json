@@ -647,5 +647,18 @@
   "evidence": {
     "status": "authored-production-design",
     "notes": "These curves are explicit authored timing controls for this fictional project. They are not measurements extracted from a Hulum's Cave source video."
+  },
+  "surface_detail": {
+    "chest_hair": {
+      "status": "procedural-shader-prototype",
+      "method": "directional wave bands with restrained colour and bump variation, assigned to front thorax and upper-abdominal polygons",
+      "source_asset_ids": [
+        "car-bearded-base",
+        "car-bearded-variation-01",
+        "car-bearded-variation-02"
+      ],
+      "visual_target": "dense dark chest hair visible through the central and lower pectoral field; preserve skin tone and pectoral striation",
+      "limitation": "not strand-level grooming; density, direction and coverage require multi-angle visual review"
+    }
   }
 }

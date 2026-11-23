@@ -23,6 +23,18 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
+def image_format(path: Path) -> str:
+    with path.open("rb") as handle:
+        header = handle.read(12)
+    if header.startswith(b"\\x89PNG\\r\\n\\x1a\\n"):
+        return "png"
+    if header.startswith(b"\\xff\\xd8"):
+        return "jpeg"
+    if header.startswith(b"RIFF") and header[8:12] == b"WEBP":
+        return "webp"
+    raise ValueError("Unsupported image format; use PNG, JPEG, or WebP")
+
+
 def image_dimensions(path: Path) -> tuple[int, int]:
     """Read dimensions from PNG, JPEG, or WebP headers without decoding pixels."""
     with path.open("rb") as handle:
@@ -153,8 +165,15 @@ def stage_reference_image(project: Path, asset_id: str, source: Path, manifest_p
     size = source.stat().st_size
     if size <= 0 or size > MAX_IMAGE_BYTES:
         raise ValueError("Image must be between 1 byte and 100 MB")
+    actual_format = image_format(source)
+    expected_format = {".png": "png", ".jpg": "jpeg", ".jpeg": "jpeg", ".webp": "webp"}[source.suffix.lower()]
+    if actual_format != expected_format:
+        raise ValueError(f"File extension {source.suffix} does not match its {actual_format} image header")
     width, height = image_dimensions(source)
     library, reference = load_reference(manifest_path, asset_id)
+    expected_mime = {"png": "image/png", "jpeg": "image/jpeg", "webp": "image/webp"}[actual_format]
+    if reference.get("mime_type") != expected_mime:
+        raise ValueError(f"Reference manifest MIME type {reference.get('mime_type')!r} does not match source format {expected_mime}")
     if reference.get("mime_type") and not reference["mime_type"].startswith("image/"):
         raise ValueError("Manifest entry is not an image reference")
 

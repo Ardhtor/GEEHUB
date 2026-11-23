@@ -9,7 +9,7 @@ A local macOS production runner for GEEHUB. The browser Studio prepares a produc
 - Blender 5.3+ recommended for built-in OpenTimelineIO and native Gaussian Splat workflows; Blender 5.2 LTS remains a conservative fallback for established projects
 - FFmpeg
 
-On macOS, double-click `Start-GEEHUB-Engine.command`. It runs the setup script, installs Blender and FFmpeg through Homebrew, checks both, and starts the local Studio bridge. Leave its Terminal window open while using GEEHUB. If macOS blocks the downloaded launcher, open Terminal in this folder and run `bash setup_mac.sh`. Or install manually with `brew install --cask blender` and `brew install ffmpeg`, then start the bridge with `python3 gee_engine.py serve`.
+On macOS, double-click `Start-GEEHUB-Engine.command`. It runs the setup script, installs Blender and FFmpeg through Homebrew, checks both, and starts the local Studio server. Leave its Terminal window open and open **http://127.0.0.1:8765/** in your browser; the server hosts the Studio and its assets on the same local origin as the render API. Do not open `gee-studio.html` directly as a `file://` page. If macOS blocks the downloaded launcher, open Terminal in this folder and run `bash setup_mac.sh`. Or install manually with `brew install --cask blender` and `brew install ffmpeg`, then start the server with `python3 gee_engine.py serve` and open the same address.
 
 If Blender is installed as an application but is not on PATH, the runner also checks `/Applications/Blender.app/Contents/MacOS/Blender`.
 
@@ -28,7 +28,7 @@ python3 gee_engine.py doctor
 python3 gee_engine.py serve
 ```
 
-Keep that Terminal window open. Then open GEEHUB Studio, go to PREP, build the production package, and choose **RUN LOCAL PRODUCTION ENGINE**. The Studio connects only to `127.0.0.1:8765`. The local bridge binds to loopback only, checks the Host header against loopback addresses, and accepts browser requests only from the local `file://` origin (`null`) or its own localhost origin by default. If you serve Studio from a trusted custom origin, add that exact origin to `GEEHUB_ALLOWED_ORIGINS` as a comma-separated environment variable before starting the engine. Do not use a wildcard origin. The bridge allows one render at a time and rejects malformed or oversized manifests.
+Keep that Terminal window open. Then open GEEHUB Studio, go to PREP, build the production package, and choose **RUN LOCAL PRODUCTION ENGINE**. The Studio connects only to `127.0.0.1:8765`. The local bridge binds to loopback only, checks the Host header against loopback addresses, and serves Studio on the same origin as the API. Browser requests are accepted only from `http://127.0.0.1:8765` or `http://localhost:8765` by default; `file://` pages and arbitrary opaque origins are rejected. If you serve Studio from a trusted custom origin, add that exact origin to `GEEHUB_ALLOWED_ORIGINS` as a comma-separated environment variable before starting the engine. Do not use a wildcard origin. Static files are confined to the `hub/` directory, and the bridge allows one render at a time while rejecting malformed or oversized manifests.
 
 ## What the first engine pass executes
 

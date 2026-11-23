@@ -5,6 +5,7 @@ import argparse
 import hashlib
 import json
 import math
+import os
 import re
 import sys
 from pathlib import Path
@@ -552,7 +553,7 @@ def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--project", type=Path, default=Path(__file__).resolve().parents[2] / "production" / "projects" / "hulums-lab-serum-60s")
+    parser.add_argument("--project", type=Path, default=Path(os.environ.get("GEEHUB_PROJECT_ROOT", str(Path(__file__).resolve().parents[2] / "production" / "projects" / "hulums-lab-serum-60s"))).expanduser())
     parser.add_argument("--require-accepted", action="store_true", help="Return exit code 3 unless real-shot and Dropbox delivery gates pass")
     args = parser.parse_args(argv)
     errors, report = load_and_validate(args.project)

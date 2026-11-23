@@ -563,6 +563,8 @@ def validate_audio_render(project_root: Path, project_id: str, plan: dict) -> tu
     report = {"verified": False, "manifest_path": str(manifest_path), "missing": not manifest_path.is_file()}
     if manifest_path.is_symlink():
         return ["audio render manifest must not be a symlink"], report
+    if manifest_path.parent.is_symlink() or not manifest_path.parent.resolve().is_relative_to(project_root.resolve()):
+        return ["audio render manifest directory must remain inside the project"], report
     if not manifest_path.is_file():
         return [], report
     try:
@@ -593,6 +595,9 @@ def validate_audio_render(project_root: Path, project_id: str, plan: dict) -> tu
     if not isinstance(master, dict):
         errors.append("audio render master record is missing")
         master = {}
+    master_candidate = project_root / master.get("path", "") if isinstance(master.get("path"), str) else project_root
+    if master_candidate.is_symlink():
+        errors.append("audio master must not be a symlink")
     master_path = _safe_project_file(project_root, master.get("path", ""))
     if master_path is None:
         errors.append("audio master file is missing or escapes the project directory")
@@ -625,13 +630,20 @@ def validate_audio_render(project_root: Path, project_id: str, plan: dict) -> tu
             errors.append("audio master true peak exceeds the approved ceiling")
     stems = render.get("stems")
     expected_stems = {item["name"] for item in plan.get("stems", []) if isinstance(item, dict)}
-    if not isinstance(stems, list) or {item.get("name") for item in stems if isinstance(item, dict)} != expected_stems:
+    if (
+        not isinstance(stems, list)
+        or len(stems) != len(expected_stems)
+        or {item.get("name") for item in stems if isinstance(item, dict)} != expected_stems
+    ):
         errors.append("audio render must contain all five planned stems exactly once")
     else:
         for stem in stems:
             if not isinstance(stem, dict):
                 errors.append("audio stem record is malformed")
                 continue
+            stem_candidate = project_root / stem.get("path", "") if isinstance(stem.get("path"), str) else project_root
+            if stem_candidate.is_symlink():
+                errors.append(f"audio stem {stem.get('name')} must not be a symlink")
             stem_path = _safe_project_file(project_root, stem.get("path", ""))
             if stem_path is None:
                 errors.append(f"audio stem {stem.get('name')} is missing or escapes the project")
@@ -673,6 +685,7 @@ def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
     if not isinstance(shots, dict) or not isinstance(acceptance, dict):
         errors.append("shot or acceptance manifest must be a JSON object")
         return errors, {}
+    errors.extend(validate_audio_plan(audio_plan, shots.get("project_id")))
     if acceptance.get("schema") != "geehub.video-production-acceptance/1" or acceptance.get("project_id") != shots.get("project_id"):
         errors.append("production acceptance manifest schema or project_id is invalid")
     report = evaluate_acceptance(shots, acceptance, project_root)

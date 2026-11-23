@@ -471,6 +471,38 @@
         ]
       ],
       "description": "Localized forward and slightly downward fullness along the lower pectoral contour"
+    },
+    "pectorals_sternal_groove": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          26,
+          0.2
+        ],
+        [
+          39,
+          0.55
+        ],
+        [
+          52,
+          0.92
+        ],
+        [
+          58,
+          1
+        ],
+        [
+          60,
+          1
+        ]
+      ]
     }
   },
   "deformation": {
@@ -488,9 +520,10 @@
         "pectorals_upper",
         "pectorals_outer",
         "pectorals_sternal",
-        "pectorals_lower_shelf"
+        "pectorals_lower_shelf",
+        "pectorals_sternal_groove"
       ],
-      "description": "Five independently timed, bilateral shape-key layers: forward projection, clavicular fullness, lateral sweep, medial separation, and lower shelf. All remain local to the chest and are calibrated against the canonical seated-car image sequence.",
+      "description": "Six independently timed, bilateral shape-key layers: forward projection, clavicular fullness, lateral sweep, medial edge separation, lower shelf, and a narrow recessed sternum groove. All remain local to the chest and are calibrated against the canonical seated-car image sequence.",
       "facing": "-Y",
       "geometry": {
         "projection": {
@@ -541,6 +574,23 @@
           "offset": [
             0.075,
             -0.052,
+            0
+          ]
+        },
+        "sternal_groove": {
+          "centre": [
+            0,
+            -0.5,
+            2.28
+          ],
+          "radius": [
+            0.1,
+            0.25,
+            0.32
+          ],
+          "offset": [
+            0,
+            0.055,
             0
           ]
         }

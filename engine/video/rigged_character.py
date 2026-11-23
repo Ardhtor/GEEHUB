@@ -105,6 +105,77 @@ def _chest_hair_material(name, skin_colour):
     return mat
 
 
+def _torso_surface(name, skin):
+    """Create a continuous waist-to-clavicle torso with integrated bilateral pec forms."""
+    rings = [
+        (0.96, .49, .36),
+        (1.10, .56, .40),
+        (1.28, .46, .33),
+        (1.48, .45, .32),
+        (1.70, .51, .36),
+        (1.92, .61, .41),
+        (2.10, .70, .45),
+        (2.28, .80, .50),
+        (2.46, .78, .47),
+        (2.62, .69, .41),
+        (2.76, .43, .30),
+        (2.86, .26, .22),
+    ]
+    segments = 96
+    vertices = []
+    faces = []
+    for z, radius_x, radius_y in rings:
+        for index in range(segments):
+            angle = (2.0 * math.pi * index) / segments
+            cosine = math.cos(angle)
+            sine = math.sin(angle)
+            x = radius_x * cosine
+            y = radius_y * sine
+            front = max(0.0, -sine) ** 2
+            left_pec = math.exp(-(((x + .34) / .36) ** 2) - (((z - 2.29) / .27) ** 2))
+            right_pec = math.exp(-(((x - .34) / .36) ** 2) - (((z - 2.29) / .27) ** 2))
+            upper_left = math.exp(-(((x + .30) / .37) ** 2) - (((z - 2.49) / .18) ** 2))
+            upper_right = math.exp(-(((x - .30) / .37) ** 2) - (((z - 2.49) / .18) ** 2))
+            lower_left = math.exp(-(((x + .34) / .38) ** 2) - (((z - 2.11) / .16) ** 2))
+            lower_right = math.exp(-(((x - .34) / .38) ** 2) - (((z - 2.11) / .16) ** 2))
+            outer = math.exp(-(((abs(x) - .66) / .16) ** 2) - (((z - 2.28) / .31) ** 2))
+            sternum = math.exp(-((x / .075) ** 2) - (((z - 2.29) / .31) ** 2))
+            bulge = (
+                .145 * (left_pec + right_pec)
+                + .045 * (upper_left + upper_right)
+                + .035 * (lower_left + lower_right)
+                + .018 * outer
+            ) * front
+            groove = .035 * sternum * front
+            y -= bulge
+            y += groove
+            vertices.append((x, y, z))
+    for ring_index in range(len(rings) - 1):
+        lower = ring_index * segments
+        upper = (ring_index + 1) * segments
+        for index in range(segments):
+            next_index = (index + 1) % segments
+            faces.append((lower + index, lower + next_index, upper + next_index, upper + index))
+    bottom_center = len(vertices)
+    vertices.append((0.0, 0.0, rings[0][0]))
+    top_center = len(vertices)
+    vertices.append((0.0, 0.0, rings[-1][0]))
+    for index in range(segments):
+        next_index = (index + 1) % segments
+        faces.append((bottom_center, next_index, index))
+        top_start = (len(rings) - 1) * segments
+        faces.append((top_center, top_start + index, top_start + next_index))
+    mesh_data = bpy.data.meshes.new(name + " / torso surface mesh")
+    mesh_data.from_pydata(vertices, [], faces)
+    mesh_data.materials.append(skin)
+    mesh_data.update()
+    torso = bpy.data.objects.new(name + " / torso and pectoral surface", mesh_data)
+    bpy.context.collection.objects.link(torso)
+    for polygon in mesh_data.polygons:
+        polygon.use_smooth = True
+    return torso
+
+
 def _anatomy_surface(name="GEEHUB / unified humanoid"):
     """Build overlapping anatomical volumes, then fuse them into one skin surface."""
     skin = _mat("GEEHUB / living skin", (.43, .27, .21), .42, .075)
@@ -141,19 +212,13 @@ def _anatomy_surface(name="GEEHUB / unified humanoid"):
         parts.append(part)
         return part
 
-    # Coordinates are metres, Z-up, subject facing -Y. The pectoral lobes
-    # are separate overlapping volumes so their bilateral form survives fusion.
-    ellipsoid_part("pelvis", (0, 0, 1.08), (.56, .39, .44))
-    ellipsoid_part("abdomen", (0, -.005, 1.62), (.50, .35, .60))
-    ellipsoid_part("thorax", (0, -.02, 2.25), (.82, .52, .52))
-    ellipsoid_part("clavicular chest", (0, -.045, 2.46), (.64, .42, .22))
-    for side in (-1, 1):
-        tag = "L" if side < 0 else "R"
-        ellipsoid_part("pectoralis major." + tag, (side * .30, -.32, 2.29), (.40, .22, .24))
-        ellipsoid_part("upper pectoral." + tag, (side * .27, -.285, 2.46), (.30, .19, .15))
-        ellipsoid_part("lower pectoral shelf." + tag, (side * .31, -.285, 2.11), (.34, .20, .14))
+    # Coordinates are metres, Z-up, subject facing -Y. The torso is a
+    # continuous parametric surface; the pectorals are sculpted into its front.
+    parts.append(_torso_surface(name, skin))
 
     # Neck, skull, jaw and ears overlap; nose is a small forward facial volume.
+    for side in (-1, 1):
+        tag = "L" if side < 0 else "R"
     ellipsoid_part("neck", (0, 0, 2.96), (.23, .22, .37))
     ellipsoid_part("skull", (0, -.015, 3.43), (.32, .29, .42))
     ellipsoid_part("jaw", (0, -.055, 3.23), (.255, .27, .205))

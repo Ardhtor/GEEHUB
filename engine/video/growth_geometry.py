@@ -33,12 +33,12 @@ DEFAULT_PECTORAL_GEOMETRY = {
     "lower_shelf": {
         "centre": (0.36, -0.30, 2.12),
         "radius": (0.42, 0.40, 0.20),
-        "offset": (0.025, -0.115, -0.018),
+        "offset": (0.015, -0.05, -0.012),
     },
     "sternal_groove": {
         "centre": (0.0, -0.50, 2.28),
         "radius": (0.10, 0.25, 0.32),
-        "offset": (0.0, 0.055, 0.0),
+        "offset": (0.0, 0.02, 0.0),
     },
 }
 

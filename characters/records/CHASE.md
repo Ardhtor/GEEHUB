@@ -58,3 +58,8 @@ With Luke, Chase is learning to let practical affection count as communication. 
 
 Chase remembers the order in which objects were moved, keeps the first version of a plan beside the revision, and has a habit of standing where he can see both the door and the table. He notices who says goodbye to everyone and who slips out quietly. He sometimes makes a note, closes the notebook, and stays to help with the unrecorded part.
 
+
+
+## Book II residence — The Record House
+
+Chase takes up permanent residence in the Record House, a substantial mansion in the paired residential country of Kirk's anatomy. Its archive gallery preserves first accounts beside later revisions; a map room, paired studies, small observatory, movable cabinets, and long terrace suit his attentiveness to sequence and consequence. The house also gives him a life outside observation: repair work, walks, meals, guests, and private time. Chase is not made the district's universal narrator. His home is his own, and visits are by invitation. The Record House's exact position within the paired chambers remains unmeasured until a later survey establishes it.

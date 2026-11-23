@@ -185,3 +185,6 @@ python3 engine/video/stage_reference_image.py \\
 ```
 
 Supported inputs are PNG, JPEG, and WebP up to 100 MB. GEEHUB makes a separate copy under the project's `01_SOURCE/REFERENCE_IMAGES/`, verifies its dimensions and SHA-256, and writes a source sidecar plus an import registry. It refuses to overwrite a different staged image. The source image is never modified, moved, or deleted. The reference manifest and registry are validated before the growth project renders. Images with unknown provenance remain reference-only until usage rights are confirmed; `model_generated=false` is not proof of ownership or license.
+
+
+The pectoral deformation is no longer only a code constant: the project growth profile stores the three regions' local-space centres, radii, and offsets, and names the image-library assets used to author them. The renderer validates those IDs against the reference manifest before it starts. This is a manually calibrated qualitative fit; single 2D images do not provide depth, reliable world scale, or automatic anatomical measurements. The headless Blender 5.3 integration test exercises real shape-key creation, mirrored projection, and final-frame curve evaluation.

@@ -19,3 +19,6 @@ production/projects/*/05_EXPORTS/*
 !production/projects/*/05_EXPORTS/README.md
 production/projects/*/06_AUDIO/*
 !production/projects/*/06_AUDIO/README.md
+
+# Ephemeral Blender integration renders are uploaded as CI artifacts, not committed.
+engine/video/tests/output/

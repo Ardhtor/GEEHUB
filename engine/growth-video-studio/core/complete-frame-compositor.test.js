@@ -170,10 +170,19 @@ test("rejects source-frame and scene-plate timestamp mismatch", () => {
 
 test("rejects overlapping body and protected-face masks", () => {
   const frames = makeFrames();
+  const scenePlate = makePlate(frames);
   frames[0].faceMask.pixels[0] = 255;
-  assert.throws(() => compose(frames, makeBodyLayer(10)), {
-    code: "compositor-mask-overlap"
-  });
+  const frame = frames[0];
+  assert.throws(() => composeGrowthFramePixels({
+    sourceFrame: {
+      frame: frame.frame, timeSeconds: frame.timeSeconds,
+      width: 3, height: 1, data: frame.source.data
+    },
+    bodyMask: frame.bodyMask,
+    protectedFaceMask: frame.faceMask,
+    bodyLayer: makeBodyLayer(10, { pixels: [1] }),
+    scenePlate
+  }), { code: "compositor-mask-overlap" });
 });
 
 test("rejects a scene plate that omits an original-body pixel without marking it unresolved", () => {

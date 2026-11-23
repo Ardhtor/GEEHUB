@@ -502,6 +502,5 @@ visible-background preservation, unresolved pixels, protected-face priority,
 alpha compositing, timestamp mismatch, mask overlap, incomplete plate evidence,
 and input preservation. The isolated Node 22.16.0 harness passed 10/10 tests
 and both syntax checks using a local scene-plate fixture; the repository package
-workflow must still verify the committed tests against the real
-`temporal-scene-plate.js` implementation. No personal footage or local
+the first package run executed all 180 Node tests: 179 passed, while one fixture-ordering issue was corrected so the compositor's own mask-overlap guard is reached after a valid plate is built. The focused rerun passes 10/10; a second package run is pending. No personal footage or local
 Dropbox/Resolve session was used.

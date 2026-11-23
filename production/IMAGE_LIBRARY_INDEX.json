@@ -242,6 +242,26 @@
       ],
       "interpretation_boundary": "The compositions and body design are strongly similar, but the source manifest marks identity continuity as unconfirmed. Use these images as comparative scale, surface, and clothing references; do not merge their character identity with the seated-car sequence.",
       "next_reference_gap": "For precise 3D calibration, obtain matched front, side, and three-quarter views from one approved subject and one consistent camera setup."
+    },
+    {
+      "collection_id": "blue_giant_visual_branch",
+      "method": "manual visual inspection",
+      "observations": [
+        "Cool-toned gym setting and blue-green skin palette distinguish this branch from the warm natural-skin seated-car and domestic-interior references.",
+        "The image centers a colossal adult male physique with a visible head, neck, shoulders and upper-body silhouette; those proportions should be preserved as their own visual system.",
+        "No evidence establishes that this figure is the car subject, Luke, or any other character in the index."
+      ],
+      "interpretation_boundary": "Maintain a separate character and material lineage. Do not use its blue-green surface treatment or body proportions as a default for the Hulum's Lab Serum project."
+    },
+    {
+      "collection_id": "luke_growth_lineage",
+      "method": "manual visual inspection",
+      "observations": [
+        "The final-form gym image and user-directed pec/garment correction reference both use an adult male gym-training presentation with a gray training top and substantial chest development.",
+        "The user-directed correction specifically establishes a larger pectoral target and a looser tank-top fit; preserve that as a distinct art-direction constraint.",
+        "The final-form image is a later generated character reference; the source correction remains a separate input asset with its own provenance."
+      ],
+      "interpretation_boundary": "Keep Luke as a protected character lineage. Maintain face and body continuity only against an approved Luke reference; do not merge this lineage with the seated-car, domestic-scale, or blue-giant collections."
     }
   ]
 }

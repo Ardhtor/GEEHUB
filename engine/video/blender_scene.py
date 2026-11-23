@@ -217,7 +217,10 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
     scene.render.fps = fps
     scene.render.resolution_x = int(fmt.get("width", 1920))
     scene.render.resolution_y = int(fmt.get("height", 1080))
-    scene.render.resolution_percentage = 45 if preview_seconds else 100
+    preview_mode = preview_seconds is not None
+    scene.render.resolution_percentage = 35 if preview_mode else 100
+    if hasattr(scene, "eevee"):
+        scene.eevee.taa_render_samples = 8 if preview_mode else 64
     _set_video_output(scene)
     scene.render.ffmpeg.constant_rate_factor = "MEDIUM"
     scene.render.filepath = str(output_path)

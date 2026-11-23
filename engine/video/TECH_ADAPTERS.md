@@ -52,7 +52,7 @@ The doctor reports installed Blender and FFmpeg versions, checks Blender's bundl
 
 ## Bilateral pectoral growth geometry
 
-The continuous growth renderer now decomposes the pectoral channel into three local shape-key layers: forward projection (front-to-back chest depth), upper fullness (clavicular region), and outer sweep (lateral contour). Each layer can use its own optional timing curve (`pectorals_projection`, `pectorals_upper`, `pectorals_outer`). Older profiles remain compatible: if those curves are absent, all three layers follow the original `pectorals` master curve. The geometry fields are mirrored, Gaussian-weighted, and confined to the chest; they do not scale the head or abdomen.
+The continuous growth renderer now decomposes the pectoral channel into six local shape-key layers: forward projection, upper fullness, outer sweep, medial edge separation, lower shelf, and a recessed sternal groove. Each layer has an optional independent timing curve; older profiles remain compatible because missing detail curves fall back to the original `pectorals` master curve. The geometry fields are mirrored, Gaussian-weighted, and confined to the chest; they do not scale the head or abdomen.
 
 The standalone deformation field lives in `growth_geometry.py` and is covered by Python unit tests without requiring Blender. In Blender, `timeline_growth.py` turns those fields into editable shape keys on the unified character mesh and fitted wardrobe shell. This is a controllable geometric prototype, not a claim of anatomically simulated muscle tissue. Inspect a rendered front, three-quarter, and side preview before approving a production character.
 
@@ -72,7 +72,7 @@ The intake validates PNG/JPEG/WebP headers, records dimensions and SHA-256, copi
 
 ## Reference-calibrated pectoral deformation
 
-The project growth profile stores the pectoral projection, upper fullness, and outer sweep geometry as editable local-space centre/radius/offset triples. Its `reference_assets` list links those controls to the curated ChatGPT Library manifest. The project validator checks both the geometry and those links before rendering. This is a human-authored qualitative fit, not automatic 3D reconstruction or image-based depth estimation. The Blender 5.3 integration test exercises the actual shape-key and animation path rather than only the renderer-independent math.
+The project growth profile stores all six pectoral regions as editable local-space centre/radius/offset triples. Its `reference_assets` list links those controls to the curated ChatGPT Library manifest. The project validator checks both the geometry and those links before rendering. This is a human-authored qualitative fit, not automatic 3D reconstruction or image-based depth estimation. The Blender 5.3 integration test exercises the actual shape-key and animation path rather than only the renderer-independent math.
 
 
 ## Shot generation and delivery gate

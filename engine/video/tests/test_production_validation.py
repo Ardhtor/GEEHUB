@@ -7,7 +7,8 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from production_validation import evaluate_acceptance, validate_cost_approval_manifest, validate_provider_manifest, validate_shot_manifest, validate_staged_references
+from production_validation import evaluate_acceptance, validate_audio_render, validate_cost_approval_manifest, validate_provider_manifest, validate_shot_manifest, validate_staged_references
+from engine.audio.procedural_soundscape import validate_audio_plan
 
 
 class ProductionValidationTests(unittest.TestCase):
@@ -54,6 +55,100 @@ class ProductionValidationTests(unittest.TestCase):
         }
         self.root = Path(tempfile.mkdtemp())
 
+
+
+    def _audio_plan(self):
+        return {
+            "schema": "geehub.audio-plan/1",
+            "project_id": "audio-test-project",
+            "duration_seconds": 60,
+            "sample_rate_hz": 48000,
+            "channels": 2,
+            "bit_depth": 24,
+            "stems": [
+                {"name": name, "source": "procedural-original"}
+                for name in ("room_tone", "wood_grain", "serum_pulse", "bit_motif", "climax")
+            ],
+            "optional_sample_layer": {"enabled": False},
+            "master": {"integrated_lufs": -16.0, "true_peak_dbtp": -1.0},
+        }
+
+    def test_audio_plan_requires_original_five_stem_48k_24bit_master(self):
+        plan = self._audio_plan()
+        self.assertEqual(validate_audio_plan(plan, "audio-test-project"), [])
+        plan["optional_sample_layer"]["enabled"] = True
+        self.assertTrue(any("sample layer" in error for error in validate_audio_plan(plan, "audio-test-project")))
+
+    def test_missing_audio_render_is_a_blocker_not_a_schema_failure(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "07_MANIFESTS").mkdir()
+            errors, report = validate_audio_render(root, "audio-test-project", self._audio_plan())
+        self.assertEqual(errors, [])
+        self.assertTrue(report["missing"])
+        self.assertFalse(report["verified"])
+
+    def test_audio_render_requires_checksums_and_loudness_evidence(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            manifests = root / "07_MANIFESTS"
+            manifests.mkdir()
+            audio_dir = root / "06_AUDIO" / "GENERATED"
+            audio_dir.mkdir(parents=True)
+            master_path = audio_dir / "master.wav"
+            master_path.write_bytes(b"master-wav-fixture")
+            stems = []
+            for name in ("room_tone", "wood_grain", "serum_pulse", "bit_motif", "climax"):
+                stem_path = audio_dir / f"{name}.wav"
+                stem_path.write_bytes(f"stem-{name}".encode())
+                stems.append({
+                    "name": name,
+                    "path": str(stem_path.relative_to(root)),
+                    "size_bytes": stem_path.stat().st_size,
+                    "sha256": hashlib.sha256(stem_path.read_bytes()).hexdigest(),
+                })
+            master = {
+                "path": str(master_path.relative_to(root)),
+                "size_bytes": master_path.stat().st_size,
+                "sha256": hashlib.sha256(master_path.read_bytes()).hexdigest(),
+                "media_metadata": {
+                    "duration_seconds": 60,
+                    "sample_rate": 48000,
+                    "channels": 2,
+                    "bits_per_sample": 24,
+                    "codec_name": "pcm_s24le",
+                },
+            }
+            render = {
+                "schema": "geehub.audio-render/1",
+                "project_id": "audio-test-project",
+                "status": "rendered",
+                "duration_seconds": 60,
+                "format": {
+                    "container": "wav", "codec": "pcm_s24le",
+                    "sample_rate_hz": 48000, "channels": 2, "bit_depth": 24,
+                },
+                "master": master,
+                "loudness_measurement": {
+                    "measurement_status": "measured",
+                    "integrated_lufs": -16.0,
+                    "true_peak_dbtp": -1.0,
+                },
+                "stems": stems,
+                "rights": {
+                    "original_procedural_generation": True,
+                    "external_samples_used": False,
+                    "sample_layer_enabled": False,
+                },
+            }
+            (manifests / "audio_render.json").write_text(json.dumps(render), encoding="utf-8")
+            errors, report = validate_audio_render(root, "audio-test-project", self._audio_plan())
+            self.assertEqual(errors, [])
+            self.assertTrue(report["verified"])
+            render["loudness_measurement"]["true_peak_dbtp"] = -0.5
+            (manifests / "audio_render.json").write_text(json.dumps(render), encoding="utf-8")
+            errors, _ = validate_audio_render(root, "audio-test-project", self._audio_plan())
+            self.assertTrue(any("true peak" in error for error in errors))
 
     def test_xai_cost_approval_template_matches_provider_and_reference_scope(self):
         provider = {

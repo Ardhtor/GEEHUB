@@ -55,5 +55,26 @@
     "Library file IDs preserved in sidecars",
     "original source marked untouched",
     "all six project-selected image references present under 01_SOURCE/REFERENCE_IMAGES"
+  ],
+  "internal_preview_reviews": [
+    {
+      "run_id": 45224280251,
+      "artifact_id": 14842551550,
+      "status": "rejected-for-visual-quality",
+      "observed_issues": [
+        "body segments read as disconnected spherical parts",
+        "head and neck lacked human continuity",
+        "torso garment read as a rigid angular shell",
+        "pectorals were not visibly articulated through the garment"
+      ],
+      "corrective_work": [
+        "replaced separate metaball blockout with overlapping anatomical volumes fused by voxel remesh",
+        "added bilateral pectoral lobes, clavicular and lower-chest volumes, and six independent chest deformation channels",
+        "smoothed and reshaped the fitted tank-top shell",
+        "added restrained adult face details and procedural skin surface variation",
+        "added a one-connected-component mesh requirement to the next Blender smoke test"
+      ],
+      "acceptance_effect": "This preview is a rejected engineering iteration, not approved production media. A new render must be visually inspected before character approval."
+    }
   ]
 }

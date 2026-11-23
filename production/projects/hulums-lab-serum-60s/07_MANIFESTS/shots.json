@@ -1,0 +1,119 @@
+{
+  "schema": "geehub.shot-manifest/1",
+  "project_id": "hulums-lab-serum-60s",
+  "sequence_id": "serum-provider-proof-sequence",
+  "purpose": "Two independent provider-generated proof shots required before the 60-second master can be accepted. These are draft briefs only; they are not generated outputs and are not final-master coverage.",
+  "provider": "Grok Imagine Video",
+  "generation_policy": {
+    "cost_approval_required": true,
+    "cost_approval_status": "not-granted",
+    "connection_status": "not-connected-in-current-workspace",
+    "mock_or_placeholder_media_allowed": false
+  },
+  "shots": [
+    {
+      "shot_id": "serum-baseline-proof-01",
+      "revision": 1,
+      "sequence_order": 1,
+      "timeline_range_seconds": [
+        0,
+        8
+      ],
+      "duration_seconds": 8,
+      "status": "draft-awaiting-provider-and-creative-approval",
+      "continuity_key": "laboratory-subject-A",
+      "prompt": "Create an 8-second cinematic live-action-style video of one clearly adult fictional male laboratory subject in a clean, clinical observation room. Medium-wide front three-quarter composition, head through upper thighs visible, relaxed standing posture, controlled neutral expression, subtle breathing, cool white and blue laboratory light, restrained 2000s industrial-science atmosphere. Use the seated-car reference set only for the exaggerated paired pectoral shape, chest-hair distribution, forward projection and central separation; do not reproduce the reference person's identity, face, car, or environment. The subject begins at a balanced athletic baseline with broad shoulders and natural connected anatomy. Camera performs a very slow push-in. Keep the same adult face, neck, shoulders, ribcage, arms and torso anatomically connected. No hard morph, no cut, no identity drift, no extra limbs, no text, no logo, no nudity or explicit anatomy.",
+      "reference_assets": [
+        {
+          "asset_id": "car-bearded-base",
+          "use": "primary pectoral shape"
+        },
+        {
+          "asset_id": "car-bearded-variation-01",
+          "use": "upper and lateral contour comparison"
+        },
+        {
+          "asset_id": "car-bearded-variation-02",
+          "use": "projection and medial separation comparison"
+        }
+      ],
+      "continuity_requirements": [
+        "Establish one new fictional adult identity for this sequence",
+        "Do not copy or claim the identity of any reference subject",
+        "Keep head, neck, clavicles, deltoids and chest connected",
+        "Use the same lighting direction and laboratory environment in shot 02"
+      ],
+      "generation": {
+        "status": "not-started",
+        "provider_job_id": null,
+        "model_id": null,
+        "output_path": null,
+        "output_sha256": null,
+        "dropbox_file_id": null,
+        "dropbox_path": null,
+        "reopened_from_dropbox": false
+      }
+    },
+    {
+      "shot_id": "serum-growth-proof-02",
+      "revision": 1,
+      "sequence_order": 2,
+      "timeline_range_seconds": [
+        8,
+        16
+      ],
+      "duration_seconds": 8,
+      "status": "draft-awaiting-provider-and-creative-approval",
+      "continuity_key": "laboratory-subject-A",
+      "prompt": "Create an 8-second continuation of the exact same adult fictional male laboratory subject and clinical observation room established in serum-baseline-proof-01. Match the approved face, beard or facial hair choice, hairline, skin tone, camera side, lens perspective, lighting, wardrobe and room geometry from the first shot. The subject remains standing in the same position as a clearly visible, continuous transformation begins: pectoralis major volume expands symmetrically with rounded forward projection, a defined but natural medial cleft, fuller clavicular region, stronger lower pectoral shelf, and a smooth transition into the deltoids. Shoulders and arms respond proportionally; ribcage and waist remain coherent. The fitted training top shows believable increasing tension without becoming transparent or exposing intimate anatomy. The camera makes a slow controlled three-quarter arc while preserving facial continuity. Use the car sequence only for chest form and the doorway, bedroom and denim references only for comparative overall scale, surface and garment behavior; do not transfer those reference subjects' faces or identities. No sudden size jump, no cuts inside the shot, no extra limbs, no texture melting, no logo, no text, no nudity or explicit anatomy.",
+      "reference_assets": [
+        {
+          "asset_id": "car-bearded-base",
+          "use": "primary chest shape"
+        },
+        {
+          "asset_id": "car-bearded-variation-01",
+          "use": "upper and lateral fullness"
+        },
+        {
+          "asset_id": "car-bearded-variation-02",
+          "use": "projection and sternal separation"
+        },
+        {
+          "asset_id": "doorway-scale-reference",
+          "use": "overall scale context only"
+        },
+        {
+          "asset_id": "bedroom-scale-reference",
+          "use": "figure-to-room scale only"
+        },
+        {
+          "asset_id": "denim-cutoffs-reference",
+          "use": "surface and clothing behavior only"
+        }
+      ],
+      "continuity_requirements": [
+        "Must match the approved output of shot 01, not an unapproved prompt-only interpretation",
+        "Preserve the same adult fictional subject and laboratory set",
+        "Growth must begin from the final body state of shot 01",
+        "Maintain bilateral pectoral balance and connected deltoid transition",
+        "Do not treat comparative scale references as the same character"
+      ],
+      "generation": {
+        "status": "not-started",
+        "provider_job_id": null,
+        "model_id": null,
+        "output_path": null,
+        "output_sha256": null,
+        "dropbox_file_id": null,
+        "dropbox_path": null,
+        "reopened_from_dropbox": false
+      }
+    }
+  ],
+  "sequence_policy": {
+    "transformation_continuity": "The event continues across the shot boundary; shot 02 must begin at the exact body state and subject identity established at the end of shot 01.",
+    "assembly": "Use only verified provider-generated media. The two proof shots do not by themselves constitute the final 60-second master.",
+    "no_mock_fallback": true
+  }
+}

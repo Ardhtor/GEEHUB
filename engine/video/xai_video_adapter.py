@@ -480,7 +480,7 @@ def load_staged_reference_assets(project: Path, asset_ids: list[str]) -> list[di
             or (reference.get("sha256") and digest != reference.get("sha256"))
         ):
             raise ValueError(f"Staged reference checksum mismatch: {asset_id}")
-        if sidecar.get("asset_id") != asset_id or sidecar.get("project_id") != project_id:
+        if sidecar.get("asset_id") != asset_id or sidecar.get("project_id") != library.get("project_id"):
             raise ValueError(f"Staged reference sidecar identity mismatch: {asset_id}")
         if staged_record.get("path") != relative_path:
             raise ValueError(f"Staged reference sidecar path mismatch: {asset_id}")

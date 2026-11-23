@@ -161,7 +161,7 @@ The Teal Titan project includes a Dropbox staging runbook at `production/project
 
 ## Pectoral geometry controls
 
-The existing `pectorals` growth curve now drives three coordinated, editable shape-key layers on the unified mesh and fitted garment: forward projection, upper-chest fullness, and outer sweep. The separate layers create a more readable pec silhouette while keeping bilateral symmetry and limiting deformation to the chest. Existing growth-profile files remain compatible; no new timing channel is required.
+The pectoral system has three coordinated, editable shape-key layers on the unified mesh and fitted garment: forward projection, upper-chest fullness, and outer sweep. They can be timed independently with `pectorals_projection`, `pectorals_upper`, and `pectorals_outer` curves. Older growth profiles remain compatible because the original `pectorals` curve is used as the fallback for all three layers.
 
 The renderer-independent geometry tests run with:
 

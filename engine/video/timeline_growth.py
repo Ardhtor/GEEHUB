@@ -74,6 +74,7 @@ def _make_pectorals_keys(mesh, geometry=None):
         ("outer", "GROWTH / pectorals - outer sweep"),
         ("sternal", "GROWTH / pectorals - sternal separation"),
         ("lower_shelf", "GROWTH / pectorals - lower shelf"),
+        ("sternal_groove", "GROWTH / pectorals - sternal groove"),
     ):
         key = mesh.shape_key_add(name=label, from_mix=False)
         for source, target in zip(mesh.data.vertices, key.data):
@@ -131,6 +132,7 @@ def animate_timeline_growth(mesh, timeline, profile=None):
             "outer": values.get("pectorals_outer", pec_value),
             "sternal": values.get("pectorals_sternal", pec_value),
             "lower_shelf": values.get("pectorals_lower_shelf", pec_value),
+            "sternal_groove": values.get("pectorals_sternal_groove", pec_value),
         }
         for region, key in pectoral_keys.items():
             key.value = pec_channels[region]
@@ -151,6 +153,7 @@ def animate_timeline_growth(mesh, timeline, profile=None):
     keys["pectorals_outer"] = pectoral_keys["outer"]
     keys["pectorals_sternal"] = pectoral_keys["sternal"]
     keys["pectorals_lower_shelf"] = pectoral_keys["lower_shelf"]
+    keys["pectorals_sternal_groove"] = pectoral_keys["sternal_groove"]
     return keys
 
 

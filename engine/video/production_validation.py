@@ -256,6 +256,70 @@ def evaluate_acceptance(shots: dict, acceptance: dict, project_root: Path) -> di
         "blockers": blockers,
     }
 
+def validate_staged_references(project_root: Path, required_asset_ids: list[str], reference_library: dict) -> dict:
+    registry_path = project_root / "07_MANIFESTS" / "reference_imports.json"
+    required = list(dict.fromkeys(required_asset_ids))
+    report = {"verified": False, "required_asset_ids": required, "verified_asset_ids": [], "missing_asset_ids": [], "errors": []}
+    if not registry_path.is_file():
+        report["missing_asset_ids"] = required
+        report["errors"].append("reference_imports.json is missing; no library images have been staged")
+        return report
+    try:
+        registry = json.loads(registry_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        report["missing_asset_ids"] = required
+        report["errors"].append(f"reference import registry cannot be read: {exc}")
+        return report
+    if not isinstance(registry, dict) or registry.get("schema") != "geehub.reference-imports/1" or registry.get("project_id") != reference_library.get("project_id") or not isinstance(registry.get("assets"), list):
+        report["missing_asset_ids"] = required
+        report["errors"].append("reference import registry schema or project_id is invalid")
+        return report
+    references = {item.get("asset_id"): item for item in reference_library.get("assets", []) if isinstance(item, dict)}
+    imported = {item.get("asset_id"): item for item in registry["assets"] if isinstance(item, dict)}
+    for asset_id in required:
+        reference = references.get(asset_id)
+        record = imported.get(asset_id)
+        if reference is None or record is None:
+            report["missing_asset_ids"].append(asset_id)
+            continue
+        staged_path = _safe_project_file(project_root, record.get("path", ""))
+        sidecar_path = _safe_project_file(project_root, record.get("sidecar", ""))
+        if staged_path is None or sidecar_path is None:
+            report["missing_asset_ids"].append(asset_id)
+            report["errors"].append(f"{asset_id}: staged image or provenance sidecar is missing/outside the project")
+            continue
+        try:
+            sidecar = json.loads(sidecar_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            report["missing_asset_ids"].append(asset_id)
+            report["errors"].append(f"{asset_id}: provenance sidecar cannot be read")
+            continue
+        actual_hash = _sha256(staged_path)
+        library = sidecar.get("library", {}) if isinstance(sidecar, dict) else {}
+        staged = sidecar.get("staged", {}) if isinstance(sidecar, dict) else {}
+        integrity = sidecar.get("integrity", {}) if isinstance(sidecar, dict) else {}
+        valid = (
+            sidecar.get("asset_id") == asset_id
+            and sidecar.get("project_id") == reference_library.get("project_id")
+            and staged.get("path") == record.get("path")
+            and staged.get("sha256") == actual_hash == record.get("sha256")
+            and sidecar.get("source", {}).get("sha256") == actual_hash
+            and library.get("file_id") == reference.get("file_id")
+            and library.get("library_file_id") == reference.get("library_file_id")
+            and integrity.get("verified") is True
+            and integrity.get("copy_matches_source") is True
+            and sidecar.get("source", {}).get("original_modified") is False
+            and record.get("size_bytes") == staged_path.stat().st_size
+        )
+        if valid:
+            report["verified_asset_ids"].append(asset_id)
+        else:
+            report["missing_asset_ids"].append(asset_id)
+            report["errors"].append(f"{asset_id}: staged image provenance or checksum verification failed")
+    report["verified"] = not report["missing_asset_ids"] and not report["errors"]
+    return report
+
+
 def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
     manifests = project_root / "07_MANIFESTS"
     try:
@@ -263,6 +327,7 @@ def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
         provider = json.loads((manifests / "video_provider.json").read_text(encoding="utf-8"))
         acceptance = json.loads((manifests / "production_acceptance.json").read_text(encoding="utf-8"))
         references = json.loads((manifests / "reference_library.json").read_text(encoding="utf-8"))
+        growth_profile = json.loads((manifests / "growth_profile.json").read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         return [f"could not load production manifests: {exc}"], {}
     errors = validate_provider_manifest(provider)
@@ -273,6 +338,11 @@ def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
     if acceptance.get("schema") != "geehub.video-production-acceptance/1" or acceptance.get("project_id") != shots.get("project_id"):
         errors.append("production acceptance manifest schema or project_id is invalid")
     report = evaluate_acceptance(shots, acceptance, project_root)
+    required_reference_ids = growth_profile.get("deformation", {}).get("pectorals", {}).get("reference_assets", []) if isinstance(growth_profile, dict) else []
+    staging = validate_staged_references(project_root, required_reference_ids, references)
+    report["reference_staging"] = staging
+    if not staging["verified"]:
+        report["blockers"].append("all six canonical image-library references must be staged and checksum-verified")
     provider_record = provider if isinstance(provider, dict) else {}
     if provider_record.get("connection_status") != "connected":
         report["blockers"].append("Grok Imagine Video provider is not connected")

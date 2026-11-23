@@ -1,0 +1,2 @@
+bpy==5.3.0
+opentimelineio==0.18.1

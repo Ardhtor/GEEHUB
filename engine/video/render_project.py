@@ -11,6 +11,9 @@ import sys
 from pathlib import Path
 
 from growth_curves import validate_profile
+from growth_geometry import validate_pectorals_geometry
+from production_validation import load_and_validate
+from stage_reference_image import validate_image_library_index, validate_reference_library
 
 HERE = Path(__file__).resolve().parent
 DEFAULT_PROJECT = HERE.parent.parent / "production" / "projects" / "hulums-lab-serum-60s"
@@ -42,6 +45,58 @@ def validate(project: Path) -> tuple[dict, dict]:
     timeline = json.loads(timeline_path.read_text(encoding="utf-8"))
     profile_path = project / "07_MANIFESTS" / "growth_profile.json"
     profile = json.loads(profile_path.read_text(encoding="utf-8"))
+    reference_path = project / "07_MANIFESTS" / "reference_library.json"
+    reference_library = json.loads(reference_path.read_text(encoding="utf-8"))
+    reference_errors = validate_reference_library(reference_library)
+    if reference_errors:
+        raise ValueError("Invalid reference library: " + "; ".join(reference_errors))
+    if reference_library.get("project_id") != timeline.get("project_id"):
+        raise ValueError("Reference library project_id does not match timeline")
+    global_index_path = Path(__file__).resolve().parents[2] / "production" / "IMAGE_LIBRARY_INDEX.json"
+    global_index = json.loads(global_index_path.read_text(encoding="utf-8"))
+    global_index_errors = validate_image_library_index(global_index)
+    if global_index_errors:
+        raise ValueError("Invalid global image library index: " + "; ".join(global_index_errors))
+    if reference_library.get("source_of_truth", {}).get("file_id") != global_index.get("source_of_truth", {}).get("file_id"):
+        raise ValueError("Project reference manifest does not point to the canonical Dropbox image library")
+    global_assets = {}
+    for collection in global_index["collections"]:
+        for asset in collection["assets"]:
+            global_assets[asset["asset_id"]] = asset
+    for asset in global_index.get("supplemental_candidates", []):
+        global_assets[asset["asset_id"]] = asset
+    for asset in reference_library["assets"]:
+        canonical = global_assets.get(asset["asset_id"])
+        if canonical is None:
+            raise ValueError("Project reference is missing from the global image library index: " + asset["asset_id"])
+        field_pairs = (
+            ("file_id", "file_id"),
+            ("library_file_id", "library_file_id"),
+            ("file_name", "filename"),
+            ("mime_type", "mime_type"),
+            ("size_bytes", "size_bytes"),
+            ("model_generated", "model_generated"),
+        )
+        for project_field, global_field in field_pairs:
+            if asset.get(project_field) != canonical.get(global_field):
+                raise ValueError(f"Project reference {asset['asset_id']} disagrees with global image library field {project_field}")
+    pectorals = profile.get("deformation", {}).get("pectorals", {})
+    pectoral_geometry = pectorals.get("geometry")
+    if not isinstance(pectoral_geometry, dict):
+        raise ValueError("Growth profile must define project-specific pectoral geometry")
+    geometry_errors = validate_pectorals_geometry(pectoral_geometry)
+    if geometry_errors:
+        raise ValueError("Invalid pectoral geometry: " + "; ".join(geometry_errors))
+    library_asset_ids = {asset["asset_id"] for asset in reference_library["assets"]}
+    reference_asset_ids = pectorals.get("reference_assets")
+    if not isinstance(reference_asset_ids, list) or not reference_asset_ids or any(not isinstance(item, str) or not item for item in reference_asset_ids):
+        raise ValueError("Pectoral geometry must identify source image-library asset IDs as strings")
+    missing_references = sorted(set(reference_asset_ids) - library_asset_ids)
+    if missing_references:
+        raise ValueError("Pectoral geometry references missing library assets: " + ", ".join(missing_references))
+    production_errors, production_report = load_and_validate(project)
+    if production_errors:
+        raise ValueError("Invalid video production manifests: " + "; ".join(production_errors))
     fmt = manifest["format"]
     fps = int(timeline["timebase"]["fps"])
     duration = float(timeline["duration_seconds"])
@@ -77,8 +132,13 @@ def validate(project: Path) -> tuple[dict, dict]:
     if curve_errors:
         raise ValueError("Invalid growth profile: " + "; ".join(curve_errors))
     required_regions = {"pectorals", "deltoids", "traps", "arms", "lats", "back", "torso", "quadriceps", "calves", "whole_body"}
-    if set(curves) != required_regions:
-        raise ValueError("Growth profile regions do not match the renderer deformation channels")
+    optional_pectorals = {"pectorals_projection", "pectorals_upper", "pectorals_outer", "pectorals_sternal", "pectorals_lower_shelf", "pectorals_sternal_groove"}
+    if not required_regions.issubset(curves):
+        missing = sorted(required_regions - set(curves))
+        raise ValueError("Growth profile is missing required renderer channels: " + ", ".join(missing))
+    unexpected = set(curves) - required_regions - optional_pectorals
+    if unexpected:
+        raise ValueError("Growth profile contains unsupported channels: " + ", ".join(sorted(unexpected)))
     return manifest, timeline
 
 
@@ -106,7 +166,7 @@ def main() -> int:
 
     blender = find_blender(args.blender)
     if not blender:
-        print("BLENDER NOT FOUND. Install Blender 4.x or pass --blender /path/to/blender.", file=sys.stderr)
+        print("BLENDER NOT FOUND. Install Blender 5.3+ (recommended) or pass --blender /path/to/blender.", file=sys.stderr)
         return 3
 
     exports = project / "05_EXPORTS"

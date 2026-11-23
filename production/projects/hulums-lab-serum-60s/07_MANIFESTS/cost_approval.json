@@ -1,0 +1,26 @@
+{
+  "schema": "geehub.provider-cost-approval/1",
+  "project_id": "hulums-lab-serum-60s",
+  "provider_id": "xai-grok-imagine-video",
+  "status": "not-granted",
+  "approved_by": null,
+  "approved_at": null,
+  "max_usd": null,
+  "model": "grok-imagine-video-1.5",
+  "resolution": "720p",
+  "total_duration_seconds": 60,
+  "segment_duration_seconds": 15,
+  "estimated_cost_usd": 8.4,
+  "reference_data_transfer_approved": false,
+  "reference_rights_cleared": false,
+  "reference_asset_ids": [
+    "car-bearded-base",
+    "car-bearded-variation-01",
+    "car-bearded-variation-02",
+    "doorway-scale-reference",
+    "bedroom-scale-reference",
+    "denim-cutoffs-reference"
+  ],
+  "scope_note": "This approval covers four contiguous 15-second 720p reference-to-video segments (60 seconds total), using only the listed image-library references. Uploaded references and generated provider files are private and configured to expire from xAI storage after seven days. The local project copy and final Dropbox archive remain separate.",
+  "note": "Template only. Do not change status to approved until the user has explicitly approved the estimated spend, transfer of these exact reference images to xAI, and the rights to use them. No generation occurs while status is not-granted."
+}

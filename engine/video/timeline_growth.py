@@ -13,11 +13,11 @@ import bpy
 from mathutils import Vector
 
 from growth_curves import DEFAULT_PROFILE, sample_profile, validate_profile
+from growth_geometry import pectoral_offset, validate_pectorals_geometry
 
 # Ellipsoidal influence fields localise each shape key to an anatomical region.
 # Factors are the full-strength deformation at a normalised profile value of 1.
 REGIONS = {
-    "pectorals": ((0.0, -0.02, 2.28), (1.02, 0.76, 0.60), (1.62, 1.46, 1.30)),
     "deltoids": ((0.0, 0.0, 2.60), (1.22, 0.82, 0.66), (1.42, 1.36, 1.34)),
     "traps": ((0.0, 0.02, 2.76), (0.76, 0.62, 0.42), (1.46, 1.34, 1.40)),
     "arms": ((0.0, 0.0, 1.93), (1.34, 0.72, 1.12), (1.48, 1.42, 1.38)),
@@ -28,6 +28,21 @@ REGIONS = {
     "calves": ((0.0, 0.0, -0.43), (0.68, 0.66, 0.72), (1.36, 1.34, 1.40)),
     "whole_body": ((0.0, 0.0, 1.20), (1.65, 1.0, 2.45), (1.24, 1.20, 1.28)),
 }
+
+
+def _iter_action_fcurves(animation_data):
+    """Yield F-curves across Blender's legacy and slotted Action APIs."""
+    action = getattr(animation_data, "action", None)
+    if action is None:
+        return
+    legacy_curves = getattr(action, "fcurves", None)
+    if legacy_curves is not None:
+        yield from legacy_curves
+        return
+    for layer in getattr(action, "layers", ()):
+        for strip in getattr(layer, "strips", ()):
+            for channelbag in getattr(strip, "channelbags", ()):
+                yield from channelbag.fcurves
 
 
 def _make_region_key(mesh, name, centre, radius, factors):
@@ -48,6 +63,27 @@ def _make_region_key(mesh, name, centre, radius, factors):
     return key
 
 
+def _make_pectorals_keys(mesh, geometry=None):
+    """Create six independently editable, bilateral chest shape keys."""
+    if mesh.data.shape_keys is None:
+        mesh.shape_key_add(name="Basis", from_mix=False)
+    keys = {}
+    for region, label in (
+        ("projection", "GROWTH / pectorals - forward projection"),
+        ("upper", "GROWTH / pectorals - upper fullness"),
+        ("outer", "GROWTH / pectorals - outer sweep"),
+        ("sternal", "GROWTH / pectorals - sternal separation"),
+        ("lower_shelf", "GROWTH / pectorals - lower shelf"),
+        ("sternal_groove", "GROWTH / pectorals - sternal groove"),
+    ):
+        key = mesh.shape_key_add(name=label, from_mix=False)
+        for source, target in zip(mesh.data.vertices, key.data):
+            offset = pectoral_offset(source.co, region, geometry)
+            target.co = source.co + Vector(offset)
+        keys[region] = key
+    return keys
+
+
 def animate_timeline_growth(mesh, timeline, profile=None):
     """Build regional shape keys and key every rendered frame from growth curves."""
     if not timeline or not timeline.get("stages"):
@@ -57,18 +93,23 @@ def animate_timeline_growth(mesh, timeline, profile=None):
     frame_count = int(timeline.get("timebase", {}).get("frame_count", round(duration * fps)))
     if frame_count != round(duration * fps):
         raise ValueError("Timeline frame_count must equal duration_seconds × fps")
+    pectorals_geometry = None
     if profile and profile.get("schema") == "geehub.growth-profile/1":
         selected_profile = {name: entry["knots"] for name, entry in profile.get("regions", {}).items()}
         if profile.get("project_id") != timeline.get("project_id"):
             raise ValueError("Growth profile project_id does not match timeline")
         if int(profile.get("timebase", {}).get("fps", fps)) != fps:
             raise ValueError("Growth profile fps does not match timeline")
+        pectorals_geometry = profile.get("deformation", {}).get("pectorals", {}).get("geometry")
     else:
         selected_profile = profile or DEFAULT_PROFILE
+    geometry_errors = validate_pectorals_geometry(pectorals_geometry)
+    if geometry_errors:
+        raise ValueError("Invalid pectoral geometry: " + "; ".join(geometry_errors))
     errors = validate_profile(selected_profile)
     if errors:
         raise ValueError("Invalid growth profile: " + "; ".join(errors))
-    missing = set(REGIONS) - set(selected_profile)
+    missing = (set(REGIONS) | {"pectorals"}) - set(selected_profile)
     if missing:
         raise ValueError("Growth profile missing regions: " + ", ".join(sorted(missing)))
 
@@ -79,18 +120,40 @@ def animate_timeline_growth(mesh, timeline, profile=None):
         region: _make_region_key(mesh, region, centre, radius, factors)
         for region, (centre, radius, factors) in REGIONS.items()
     }
+    pectoral_keys = _make_pectorals_keys(mesh, pectorals_geometry)
     for frame, values in sample_profile(selected_profile, duration, fps):
         for region, key in keys.items():
             key.value = values[region]
             key.keyframe_insert(data_path="value", frame=frame, group="Continuous growth / " + region)
+        pec_value = values["pectorals"]
+        pec_channels = {
+            "projection": values.get("pectorals_projection", pec_value),
+            "upper": values.get("pectorals_upper", pec_value),
+            "outer": values.get("pectorals_outer", pec_value),
+            "sternal": values.get("pectorals_sternal", pec_value),
+            "lower_shelf": values.get("pectorals_lower_shelf", pec_value),
+            "sternal_groove": values.get("pectorals_sternal_groove", pec_value),
+        }
+        for region, key in pectoral_keys.items():
+            key.value = pec_channels[region]
+            key.keyframe_insert(
+                data_path="value", frame=frame,
+                group="Continuous growth / pectorals / " + region,
+            )
 
     # The curve evaluator already supplies smoothstep values. Linear interpolation
     # between adjacent frame samples preserves those values exactly at render time.
     shape_keys = mesh.data.shape_keys
     if shape_keys and shape_keys.animation_data and shape_keys.animation_data.action:
-        for curve in shape_keys.animation_data.action.fcurves:
+        for curve in _iter_action_fcurves(shape_keys.animation_data):
             for point in curve.keyframe_points:
                 point.interpolation = "LINEAR"
+    keys["pectorals_projection"] = pectoral_keys["projection"]
+    keys["pectorals_upper"] = pectoral_keys["upper"]
+    keys["pectorals_outer"] = pectoral_keys["outer"]
+    keys["pectorals_sternal"] = pectoral_keys["sternal"]
+    keys["pectorals_lower_shelf"] = pectoral_keys["lower_shelf"]
+    keys["pectorals_sternal_groove"] = pectoral_keys["sternal_groove"]
     return keys
 
 
@@ -138,7 +201,7 @@ def animate_timeline_camera(camera, timeline, profile=None, target=(0.0, 0.0, 1.
         camera.keyframe_insert(data_path="rotation_euler", frame=frame)
 
     if camera.animation_data and camera.animation_data.action:
-        for curve in camera.animation_data.action.fcurves:
+        for curve in _iter_action_fcurves(camera.animation_data):
             for point in curve.keyframe_points:
                 point.interpolation = "BEZIER"
                 point.handle_left_type = "AUTO_CLAMPED"

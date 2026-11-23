@@ -2,7 +2,7 @@
   "schema": "geehub.video-project/1",
   "id": "hulums-lab-serum-60s",
   "title": "Laboratory Serum — 60s Continuous",
-  "status": "executable-prototype",
+  "status": "preproduction-prototype",
   "canon": "experimental",
   "created": "2026-11-08",
   "subject": {
@@ -23,7 +23,7 @@
     "frameRate": 24,
     "frameCount": 1440,
     "aspectRatio": "16:9",
-    "providerResolution": "1920x1080",
+    "providerResolution": "1280x720",
     "deliveryResolution": "1920x1080",
     "container": "mp4",
     "audio": true,
@@ -32,7 +32,11 @@
     "width": 1920,
     "height": 1080,
     "growth_ceiling": 3.8,
-    "rig_growth_ceiling": 1
+    "rig_growth_ceiling": 1,
+    "providerWidth": 1280,
+    "providerHeight": 720,
+    "deliveryUpscale": "Lanczos",
+    "deliveryResolutionNote": "Reference-to-video native output is 1280x720; 1920x1080 delivery is an upscale and must be reviewed as such."
   },
   "creativeBrief": "An adult fictional athletic subject undergoes a clearly triggered laboratory transformation into an extreme, balanced hyper-muscular form. The transformation remains continuous for the full 60-second take; camera, wardrobe, room response and sound all track the same event. Intimate anatomy remains non-explicit and covered.",
   "content_rating": "mature",
@@ -60,7 +64,13 @@
       "secondary-motion"
     ],
     "wardrobe_is_separate": true,
-    "export_preserves_rating": true
+    "export_preserves_rating": true,
+    "visual_reference_source": "production/IMAGE_LIBRARY_INDEX.json",
+    "project_reference_manifest": "07_MANIFESTS/reference_library.json",
+    "growth_profile": "07_MANIFESTS/growth_profile.json",
+    "shot_manifest": "07_MANIFESTS/shots.json",
+    "final_visual_generator": "engine/video/xai_video_adapter.py",
+    "final_visual_generation_mode": "xAI Grok Imagine Video 1.5 reference-to-video; four contiguous 15-second segments"
   },
   "stage_cap": null,
   "timelineManifest": "07_MANIFESTS/timeline.json",
@@ -71,7 +81,7 @@
     "institutional-containment",
     "triggered-metamorphosis"
   ],
-  "timelineSemantics": "Seven semantic intervals overlay one continuous 60-second deformation event. No hard cuts in the growth passage.",
+  "timelineSemantics": "Four contiguous 15-second provider segments form one 60-second deformation event. Each continuation segment pins its first frame to the previous segment's extracted final frame; pixel-frame hashes must match at all three boundaries. No visible hard cuts.",
   "continuityLocks": {
     "face": "Preserve adult fictional identity across all frames.",
     "pectoralBalance": "Left/right growth remains balanced in width, projection and thickness.",
@@ -102,11 +112,21 @@
     "wardrobe coverage",
     "laboratory scale response",
     "audio synchronization",
-    "final hold lasts full five seconds"
+    "final hold lasts full five seconds",
+    "at least two independent provider-generated shot files exist",
+    "each shot retains provider job ID, model ID, prompt revision, source reference IDs, metadata and SHA-256",
+    "shot sequence assembled from verified source clips",
+    "master export passes FFprobe metadata and checksum validation",
+    "master and source shots reopened from canonical Dropbox storage and verified",
+    "xAI reference-image transfer and usage rights explicitly approved",
+    "four 15-second provider segments generated and continuity-verified",
+    "each segment boundary has matching last-frame and next-first-frame SHA-256",
+    "native 720p source and 1080p upscaled delivery are both documented",
+    "procedural Blender preview is not accepted as final production imagery"
   ],
   "source": {
     "authority": "Dropbox or explicitly supplied source",
-    "status": "no source attached to this project",
+    "status": "image references indexed; no verified source video or provider-generated shots attached",
     "requiredMetadata": [
       "original filename",
       "provider path or file ID",
@@ -117,14 +137,110 @@
       "audio presence",
       "selected frame timestamps"
     ],
-    "candidates": []
+    "candidates": [
+      {
+        "asset_id": "car-bearded-base",
+        "role": "primary chest-shape reference"
+      },
+      {
+        "asset_id": "car-bearded-variation-01",
+        "role": "variation comparison"
+      },
+      {
+        "asset_id": "car-bearded-variation-02",
+        "role": "variation comparison"
+      },
+      {
+        "asset_id": "doorway-scale-reference",
+        "role": "full-body scale context"
+      },
+      {
+        "asset_id": "bedroom-scale-reference",
+        "role": "interior scale context"
+      },
+      {
+        "asset_id": "denim-cutoffs-reference",
+        "role": "body-surface and clothing context"
+      }
+    ]
   },
   "storage": {
     "root": "/GEEHUB/production/projects/hulums-lab-serum-60s",
     "canonical": "Dropbox",
-    "policy": "Original source media remains immutable; derived frames, passes and exports are versioned separately."
+    "status": "target-folder-not-yet-provisioned",
+    "repository_code": "GitHub pull request #11 (draft; not merged)",
+    "policy": "Original source media remains immutable; derived frames, passes, shots, composites and exports are versioned separately. Large binaries are excluded from Git.",
+    "project_root_environment_variable": "GEEHUB_PROJECT_ROOT",
+    "required_local_path": "<Dropbox sync root>/GEEHUB/production/projects/hulums-lab-serum-60s",
+    "project_root_note": "Set GEEHUB_PROJECT_ROOT to the local Dropbox-synced path above. The directory must contain 07_MANIFESTS and retain the project folder name hulums-lab-serum-60s. The exact local sync path has not yet been provisioned or verified."
   },
-  "notes": "Timeline-driven Blender prototype is implemented in engine/video/blender_scene.py and engine/video/timeline_growth.py. Render with engine/video/render_project.py. The first preview and Blender scene must still be generated locally and visually reviewed; no render is claimed to exist yet.",
+  "notes": "The project now has an implemented, offline-tested xAI Grok Imagine Video adapter, a four-segment continuous shot manifest, checksum-pinned ChatGPT Library references, frame-identical continuation logic, Dropbox-root configuration, and an original procedural audio renderer with five stems and a 48 kHz/24-bit mastering target. The 60-second provider plan is four contiguous 15-second 1280x720 segments; 1920x1080 delivery is an upscale, not native 1080p. No XAI_API_KEY is configured, no reference images have been transferred to xAI, and no paid generation has been submitted. Explicit USD 8.40 cost approval, reference-transfer approval and rights clearance remain mandatory. The six selected Library binaries are hash-verified but have not yet been staged into the Dropbox project. The Dropbox project folder has not been provisioned or reopened. The audio master and stems have not yet been rendered, and the final audio/video mux and sync review remain pending. The Blender character preview is a rejected geometry diagnostic, not final character imagery. No provider-generated footage, final audio mix, completed master or Dropbox delivery is claimed.",
   "character_model": "rigged",
-  "renderEntryPoint": "render_project.py"
+  "renderEntryPoint": "render_project.py",
+  "generation": {
+    "provider": "Grok Imagine Video",
+    "connection_status": "not-connected-in-current-workspace",
+    "generation_enabled": false,
+    "cost_approval_required": true,
+    "cost_approval_status": "not-granted",
+    "minimum_independent_shots": 2,
+    "mock_fallback_allowed": false,
+    "policy": "Do not launch paid generation without explicit user approval. Never substitute a still-image slideshow, procedural placeholder, or fabricated provider result for generated video."
+  },
+  "providerManifest": "07_MANIFESTS/video_provider.json",
+  "shotManifest": "07_MANIFESTS/shots.json",
+  "productionAcceptanceManifest": "07_MANIFESTS/production_acceptance.json",
+  "render_quality": {
+    "preview": {
+      "resolution_percentage": 35,
+      "eevee_samples": 8,
+      "description": "Low-resolution fast preview and CI smoke render"
+    },
+    "final": {
+      "resolution_percentage": 100,
+      "eevee_samples": 64,
+      "description": "Full 1920x1080 production render"
+    }
+  },
+  "referenceStaging": {
+    "status": "not-staged",
+    "registry": "07_MANIFESTS/reference_imports.json",
+    "destination": "01_SOURCE/REFERENCE_IMAGES",
+    "requiredAssetIds": [
+      "car-bearded-base",
+      "car-bearded-variation-01",
+      "car-bearded-variation-02",
+      "doorway-scale-reference",
+      "bedroom-scale-reference",
+      "denim-cutoffs-reference"
+    ],
+    "policy": "Each local copy must retain its Library file IDs, original source hash, staged hash, and sidecar. The original Library item is never modified."
+  },
+  "wardrobe": {
+    "primary_top": "shirtless",
+    "primary_bottom": "light-blue denim cutoff shorts",
+    "primary_reference_sequence": "seated-car chest references and full-body doorway reference",
+    "alternate_look": "low-cut graphite training tank from the gym portrait reference",
+    "source_assets": [
+      "car-bearded-base",
+      "car-bearded-variation-01",
+      "car-bearded-variation-02",
+      "doorway-scale-reference",
+      "gym-tank-portrait"
+    ]
+  },
+  "audio": {
+    "design": "Original procedural serum soundscape: laboratory room tone, sequoia-like wood-grain creaks, low serum pulse, sparse original 8-bit motif, controlled low-frequency climax",
+    "plan_manifest": "07_MANIFESTS/audio_plan.json",
+    "renderer": "engine/audio/procedural_soundscape.py",
+    "status": "engine-implemented; render-and-picture-sync-pending",
+    "master_format": "WAV PCM 24-bit, 48 kHz, stereo",
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1,
+    "duration_seconds": 60,
+    "external_sample_layer": "disabled-until-user-supplied-or-licensed-source-and-rights-clearance",
+    "audio_only_master": "06_AUDIO/GENERATED/<run-id>/serum-soundscape-master.wav",
+    "runtime_render_manifest": "07_MANIFESTS/audio_render.json",
+    "final_video_mix_status": "not-rendered"
+  }
 }

@@ -1,0 +1,178 @@
+{
+  "schema": "geehub.video-production-acceptance/1",
+  "project_id": "hulums-lab-serum-60s",
+  "minimum_independent_generated_shots": 4,
+  "required_shot_evidence": [
+    "provider_job_id",
+    "provider_output_id",
+    "model_id",
+    "prompt_revision",
+    "prompt_sha256",
+    "reference_asset_ids",
+    "pinned_first_frame_file_id",
+    "first_frame_sha256",
+    "last_frame_sha256",
+    "continuity_status",
+    "submitted_at",
+    "completed_at",
+    "duration_seconds",
+    "frame_rate",
+    "width",
+    "height",
+    "video_codec",
+    "audio_codec",
+    "output_sha256",
+    "ffprobe_metadata",
+    "dropbox_file_id",
+    "dropbox_path",
+    "reopened_from_dropbox"
+  ],
+  "required_master_evidence": [
+    "sequence_otio",
+    "master_mp4",
+    "master_sha256",
+    "ffprobe_metadata",
+    "four contiguous generated segments",
+    "three verified frame-identical segment boundaries",
+    "provider resolution and delivery upscale recorded",
+    "audio_render_manifest",
+    "audio_master_sha256",
+    "five separately checksummed audio stems",
+    "integrated_loudness_measurement",
+    "true_peak_measurement",
+    "audio_video_sync_review",
+    "audio track verified",
+    "dropbox_file_id",
+    "dropbox_path",
+    "reopened_from_dropbox"
+  ],
+  "required_review": [
+    "visual review of all four provider-generated segments",
+    "frame-accurate continuity review at all three segment boundaries",
+    "anatomy and wardrobe review against the selected image-library references",
+    "720p source to 1080p delivery upscale review",
+    "audio synchronization review",
+    "master playback review"
+  ],
+  "current_status": "blocked-preproduction",
+  "current_blockers": [
+    "selected ChatGPT Library binaries have verified SHA-256 hashes and dimensions, but have not yet been staged into the Dropbox project workspace",
+    "XAI_API_KEY is not configured in the generation workspace",
+    "explicit approval for the estimated USD 8.40 provider generation cost has not been granted",
+    "transfer of the six selected image-library references to xAI has not been approved",
+    "rights to use and transfer the selected reference images have not been cleared",
+    "zero provider-generated segments are registered",
+    "Dropbox project folder has not yet been provisioned and reopened for verification",
+    "no assembled 60-second master exists",
+    "procedural audio engine and original soundscape plan are implemented, but the master WAV and five stems have not yet been rendered and verified",
+    "final soundtrack has not been synchronized and muxed with provider-generated video",
+    "procedural Blender character previews remain rejected as final production imagery"
+  ],
+  "no_mock_or_placeholder_acceptance": true,
+  "canonical_dropbox_target": "/GEEHUB/production/projects/hulums-lab-serum-60s",
+  "evidence": {
+    "sequence_otio": null,
+    "sequence_otio_sha256": null,
+    "sequence_dropbox_verification": null,
+    "master_mp4": null,
+    "master_sha256": null,
+    "master_dropbox_verification": null,
+    "master_ffprobe_metadata": null
+  },
+  "required_staged_reference_assets": 6,
+  "required_reference_evidence": [
+    "source and staged SHA-256 match",
+    "Library file IDs preserved in sidecars",
+    "original source marked untouched",
+    "all six project-selected image references present under 01_SOURCE/REFERENCE_IMAGES"
+  ],
+  "internal_preview_reviews": [
+    {
+      "run_id": 45224280251,
+      "artifact_id": 14842551550,
+      "status": "rejected-for-visual-quality",
+      "observed_issues": [
+        "body segments read as disconnected spherical parts",
+        "head and neck lacked human continuity",
+        "torso garment read as a rigid angular shell",
+        "pectorals were not visibly articulated through the garment"
+      ],
+      "corrective_work": [
+        "replaced separate metaball blockout with overlapping anatomical volumes fused by voxel remesh",
+        "added bilateral pectoral lobes, clavicular and lower-chest volumes, and six independent chest deformation channels",
+        "smoothed and reshaped the fitted tank-top shell",
+        "added restrained adult face details and procedural skin surface variation",
+        "added a one-connected-component mesh requirement to the next Blender smoke test"
+      ],
+      "acceptance_effect": "This preview is a rejected engineering iteration, not approved production media. A new render must be visually inspected before character approval."
+    },
+    {
+      "run_id": 45228258940,
+      "artifact_id": 14844973370,
+      "status": "rejected-for-visual-quality",
+      "observed_issues": [
+        "chest read as a flat plate rather than distinct pectoral masses",
+        "chest-hair material created a hard rectangular region",
+        "overall figure still read as a smooth mannequin",
+        "beard and denim-cutoff silhouette were not convincing"
+      ],
+      "corrective_work": [
+        "replaced torso spheres with a continuous parametric waist-to-clavicle mesh with bilateral pectoral bulges, narrow sternum cleft, abdominal and clavicular contours",
+        "replaced polygon-bounded chest-hair patch with a soft position-masked strand shader",
+        "brought the full beard forward and added leg muscle volumes"
+      ],
+      "acceptance_effect": "This second render is also rejected. The next render must demonstrate distinct integrated pectorals, a soft natural chest-hair boundary, and improved adult body proportions before review can be approved."
+    },
+    {
+      "run_id": 45229936784,
+      "artifact_id": 14846647672,
+      "status": "rejected-for-visual-quality",
+      "observed_issues": [
+        "front view still reads as a smooth torso mass rather than two distinct pectoral forms",
+        "medial chest cleft and forward pectoral projection are not convincing across front, three-quarter and side views",
+        "shoulder, arm, neck and face transitions remain visibly procedural",
+        "the body still reads as a mannequin-like proxy rather than production character imagery"
+      ],
+      "corrective_work": [
+        "retain this Blender render as a geometry and continuity diagnostic only",
+        "use the approved image-library references as the primary source for final visual generation through the xAI reference-to-video path",
+        "do not mark the procedural character preview as visually approved or as final media"
+      ],
+      "acceptance_effect": "Rejected. This render is not industry-standard character imagery and cannot be used as the final production visual. Provider-generated output must pass a separate visual review."
+    }
+  ],
+  "visual_review": {
+    "status": "pending",
+    "required_views": [
+      "full-scene",
+      "chest-front",
+      "chest-three-quarter",
+      "chest-side",
+      "chest-tank-alternate"
+    ],
+    "criteria": [
+      "single continuous adult human body surface",
+      "broad, rounded male pectorals integrated into the thorax rather than detached spherical lobes",
+      "deep but narrow medial chest cleft with visible sternum continuity",
+      "chest-hair coverage and skin texture consistent with the seated-car references",
+      "chest projection consistent across front, three-quarter and side views",
+      "shirtless primary torso remains anatomically coherent",
+      "light-blue denim cutoffs fit the hips and upper thighs with separate leg openings",
+      "optional graphite tank variant fits over the chest without clipping",
+      "adult bald/full-beard face continuity for the primary car/gym branch",
+      "four contiguous 15-second segments form one continuous 60-second event",
+      "each continuation segment begins with a pixel-identical copy of the previous segment's final frame",
+      "native 1280x720 provider output and 1920x1080 Lanczos delivery upscale are both recorded honestly",
+      "the procedural Blender blockout is not substituted for provider-generated final imagery"
+    ]
+  },
+  "audio_requirements": {
+    "plan_manifest": "07_MANIFESTS/audio_plan.json",
+    "master_format": "WAV PCM 24-bit, 48 kHz, stereo",
+    "integrated_lufs": -16,
+    "true_peak_dbtp": -1,
+    "external_samples_allowed": false,
+    "final_picture_sync_required": true
+  },
+  "industry_standard_status": "production-architecture-and-validation-implemented; source-media-staging, provider approvals, generated footage, audio render, Dropbox verification and final review remain release gates"
+}

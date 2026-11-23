@@ -6,12 +6,18 @@ A local macOS production runner for GEEHUB. The browser Studio prepares a produc
 
 - macOS on Apple Silicon or Intel
 - Python 3.10+
-- Blender 4.x
+- Blender 5.3+ recommended for built-in OpenTimelineIO and native Gaussian Splat workflows; Blender 5.2 LTS remains a conservative fallback for established projects
 - FFmpeg
 
-On macOS, double-click `Start-GEEHUB-Engine.command`. It runs the setup script, installs Blender and FFmpeg through Homebrew, checks both, and starts the local Studio bridge. Leave its Terminal window open while using GEEHUB. If macOS blocks the downloaded launcher, open Terminal in this folder and run `bash setup_mac.sh`. Or install manually with `brew install --cask blender` and `brew install ffmpeg`, then start the bridge with `python3 gee_engine.py serve`.
+On macOS, double-click `Start-GEEHUB-Engine.command`. It runs the setup script, installs Blender and FFmpeg through Homebrew, checks both, and starts the local Studio server. Leave its Terminal window open and open **http://127.0.0.1:8765/** in your browser; the server hosts the Studio and its assets on the same local origin as the render API. Do not open `gee-studio.html` directly as a `file://` page. If macOS blocks the downloaded launcher, open Terminal in this folder and run `bash setup_mac.sh`. Or install manually with `brew install --cask blender` and `brew install ffmpeg`, then start the server with `python3 gee_engine.py serve` and open the same address.
 
 If Blender is installed as an application but is not on PATH, the runner also checks `/Applications/Blender.app/Contents/MacOS/Blender`.
+
+## Current production interchange
+
+GEEHUB now exports semantic project timelines to OpenTimelineIO. Stage boundaries become timeline markers over one continuous picture track, preserving the project's one-shot continuity rather than turning semantic stages into cuts. Blender 5.3 includes OpenTimelineIO in its bundled Python environment. Run `python3 gee_engine.py doctor` to detect the installed Blender version, bundled OTIO module, FFmpeg, FFprobe, and the native Gaussian Splat version baseline.
+
+Import a verified Gaussian Splat PLY capture with `python3 engine/video/gee_engine.py import-splat --source path/to/capture.ply --output path/to/capture.blend`. The source is preserved and a SHA-256 provenance sidecar is written. Export from the Blender-bundled runtime with `python3 engine/video/gee_engine.py export-otio --timeline path/to/timeline.json --output path/to/timeline.otio`; add `--media path/to/verified-source.mp4` to link source footage. See [TECH_ADAPTERS.md](TECH_ADAPTERS.md) for details.
 
 ## Start the local engine
 
@@ -22,7 +28,7 @@ python3 gee_engine.py doctor
 python3 gee_engine.py serve
 ```
 
-Keep that Terminal window open. Then open GEEHUB Studio, go to PREP, build the production package, and choose **RUN LOCAL PRODUCTION ENGINE**. The Studio connects only to `127.0.0.1:8765`.
+Keep that Terminal window open. Then open GEEHUB Studio, go to PREP, build the production package, and choose **RUN LOCAL PRODUCTION ENGINE**. The Studio connects only to `127.0.0.1:8765`. The local bridge binds to loopback only, checks the Host header against loopback addresses, and serves Studio on the same origin as the API. Browser requests are accepted only from `http://127.0.0.1:8765` or `http://localhost:8765` by default; `file://` pages and arbitrary opaque origins are rejected. If you serve Studio from a trusted custom origin, add that exact origin to `GEEHUB_ALLOWED_ORIGINS` as a comma-separated environment variable before starting the engine. Do not use a wildcard origin. Static files are confined to the `hub/` directory, and the bridge allows one render at a time while rejecting malformed or oversized manifests.
 
 ## What the first engine pass executes
 
@@ -89,7 +95,7 @@ Omit `character_model` or set it to `blockout` to retain the original fast block
 
 The project `hulums-lab-serum-60s` uses the unified skin mesh and a frame-driven deformation pass rather than the older independent-part blockout. Its renderer reads three project manifests: `production.json`, `07_MANIFESTS/timeline.json`, and `07_MANIFESTS/growth_profile.json`.
 
-The growth profile defines ten independent anatomical channels (pectorals, deltoids, traps, arms, lats, back, torso, quadriceps, calves and whole-body scale). Each channel has its own timed knots. The pure-Python evaluator applies cubic smoothstep between knots, samples every output frame, and writes those values to spatially weighted Blender shape keys. The resulting deformation is continuous across the seven narrative stages; stage labels do not directly switch the body between discrete sizes. The same controls are currently applied to the fitted garment shells.
+The growth profile defines ten core anatomical channels plus six independent pectoral detail channels (projection, upper fullness, outer sweep, medial separation, lower shelf, and sternal groove). Each channel has its own timed knots. The pure-Python evaluator applies cubic smoothstep between knots, samples every output frame, and writes those values to spatially weighted Blender shape keys. The resulting deformation is continuous across the seven narrative stages; stage labels do not directly switch the body between discrete sizes. The same controls are currently applied to the fitted garment shells.
 
 Run a low-resolution opening preview from the repository root:
 
@@ -151,3 +157,76 @@ The Imagine generator and the Blender/FFmpeg scene runner are distinct productio
 ## Verified source staging
 
 The Teal Titan project includes a Dropbox staging runbook at `production/projects/teal-titan-golds-on-5th/STAGING.md`. It documents local Dropbox discovery, visual source selection, checksum-verified staging, FFprobe metadata, six-frame extraction and explicit stop conditions. Use it as the reference procedure when adapting staging to other short-form projects.
+
+
+## Pectoral geometry controls
+
+The pectoral system has six coordinated, editable shape-key layers on the unified mesh and alternate tank: forward projection, upper-chest fullness, outer sweep, medial edge separation, lower shelf, and a recessed sternal groove. Each has its own timing curve. Older growth profiles remain compatible because the original `pectorals` curve is used as the fallback for the optional detail layers.
+
+The renderer-independent geometry tests run with:
+
+```bash
+python -m unittest engine.video.tests.test_growth_geometry -v
+```
+
+This is a deterministic geometric deformation field. It does not simulate muscle fibres, fascia, skin sliding, or physically accurate tissue response. Review front, three-quarter, and side renders before using a character-specific asset.
+
+
+## Primary image-library reference intake
+
+The Hulum's Lab Serum project now has a curated reference manifest at `production/projects/hulums-lab-serum-60s/07_MANIFESTS/reference_library.json`. It distinguishes original library uploads from ChatGPT-generated library images and assigns each image a visual role: chest source, chest render target, full-body proportion, three-quarter transition, or clothed shoulder/arm silhouette. The original Library entries remain the source of truth; this manifest stores stable Library identifiers and visual annotations, not copies of the image bytes.
+
+The local engine cannot query the ChatGPT Library directly. To use a selected Library image in a local render, export that image to the Dropbox desktop-synced working folder, then run:
+
+```bash
+python3 engine/video/stage_reference_image.py \\
+  --asset-id car-bearded-closeup-source \\
+  --source "/path/to/Dropbox/exported/1000000650.webp"
+```
+
+Supported inputs are PNG, JPEG, and WebP up to 100 MB. GEEHUB makes a separate copy under the project's `01_SOURCE/REFERENCE_IMAGES/`, verifies its dimensions and SHA-256, and writes a source sidecar plus an import registry. It refuses to overwrite a different staged image. The source image is never modified, moved, or deleted. The reference manifest and registry are validated before the growth project renders. Images with unknown provenance remain reference-only until usage rights are confirmed; `model_generated=false` is not proof of ownership or license.
+
+
+The pectoral deformation is no longer only a code constant: the project growth profile stores the six regions' local-space centres, radii, and offsets, and names the image-library assets used to author them. The renderer validates those IDs against the reference manifest before it starts. This is a manually calibrated qualitative fit; single 2D images do not provide depth, reliable world scale, or automatic anatomical measurements. The headless Blender 5.3 integration test exercises real shape-key creation, mirrored projection, and final-frame curve evaluation.
+
+
+## Provider-generated shot assembly
+
+After two real provider-generated clips have been registered in `07_MANIFESTS/shots.json`, with provider job/model/prompt provenance, FFprobe metadata, checksums, and Dropbox reopen verification, assemble them with:
+
+```bash
+python3 engine/video/gee_engine.py export-shots \
+  --project production/projects/hulums-lab-serum-60s \
+  --output production/projects/hulums-lab-serum-60s/04_COMPOSITES/serum-provider-proof.otio
+```
+
+The engine runs the assembler inside Blender 5.3's Python environment (where OpenTimelineIO is bundled). It refuses draft shots, checks each media file with FFprobe, compares the probe against the registered metadata, builds a sequential OpenTimelineIO video track with per-shot provenance, writes the OTIO file, and reopens it to verify clip order. It does not create, simulate, or substitute video footage.
+
+
+## Render quality profiles
+
+A bounded preview render uses 35% resolution and 8 EEVEE samples to keep iteration fast. A full render uses the project's full 1920×1080 frame size and 64 EEVEE samples. The CI smoke render builds the actual scene, writes a one-frame MP4, a full-scene PNG, final-growth front/three-quarter/side shirtless chest review PNGs, and a separate alternate tank review PNG, then uploads the scene/render files as a short-lived GitHub Actions artifact; it is a technical smoke test, not an approved final video.
+
+
+## xAI Grok Imagine Video adapter
+
+GEEHUB now includes `engine/video/xai_video_adapter.py`, an offline-tested adapter for the official xAI Video API. It uses selected image-library references through the xAI Files API, then plans four contiguous 15-second `grok-imagine-video-1.5` reference-to-video segments. Each continuation segment pins its first frame to the previous segment's extracted final frame; the adapter compares decoded frame SHA-256 values before accepting continuity. Uploaded reference and provider files are configured to expire after seven days and are not made public.
+
+The reference-to-video mode is limited to native 1280x720 output. The project's 1920x1080 delivery target therefore requires a documented Lanczos upscale; it must not be described as native 1080p. The current estimate is USD 8.40 for 60 seconds at 720p, based on the published USD 0.14/second rate checked 2026-11-23. This estimate excludes retries, taxes and post-production. See the [official xAI video API and pricing documentation](https://docs.x.ai/developers/model-capabilities/video/overview).
+
+The adapter is deliberately cost- and privacy-gated. `estimate` and `check` make no API calls:
+
+```bash
+python engine/video/xai_video_adapter.py estimate
+python engine/video/xai_video_adapter.py check
+```
+
+Paid generation requires an `XAI_API_KEY` environment variable, `generation_enabled: true`, a matching approved `cost_approval.json`, explicit approval to transfer the exact listed reference images to xAI, and confirmation that the user has the rights to use and transfer those images. The repository template is not an approval. No key is stored in the repository, no image is transferred by estimate/check, and no provider generation is automatically submitted.
+
+The adapter reads the four production prompts and reference roles from `07_MANIFESTS/shots.json`, records each asynchronous provider job before polling, and updates the shot manifest with the local media checksum, ffprobe metadata, first/last-frame hashes and `generated-local` state. After all four segments pass frame-boundary checks, create a review-only OTIO sequence with `python engine/video/shot_sequence.py --local-preview --output 04_COMPOSITES/provider-review.otio`. Final OTIO assembly omits `--local-preview` and is allowed only after every segment has been uploaded to Dropbox, reopened, and marked `completed` with verified Dropbox metadata. The soundtrack mix, 1080p upscale, final playback review and Dropbox delivery remain separate acceptance gates. The procedural Blender character is a geometry diagnostic, not a substitute for provider-generated final imagery.
+
+For production in a Dropbox-synced folder, set `GEEHUB_PROJECT_ROOT` to the project root (the directory containing `07_MANIFESTS`) before staging references, checking approvals, generating, validating or assembling. The project folder must retain the ID `hulums-lab-serum-60s`. The repository path is only the development default; generated media and runtime provider records are excluded from Git.
+
+## Original procedural audio
+
+The 60-second audio design is implemented in `engine/audio/procedural_soundscape.py`. It writes five deterministic original stems (laboratory room tone, wood-grain creaks, serum pulse, 8-bit motif and climax), then mixes a 48 kHz stereo 24-bit PCM WAV master to -16 LUFS integrated / -1 dBTP. It records stem/master SHA-256, ffprobe metadata and loudness measurement in `07_MANIFESTS/audio_render.json`. The optional external sample layer remains disabled. Run `python engine/audio/procedural_soundscape.py --plan-check` to validate without rendering, or run the script from the Dropbox-synced project root to render. Final audio-to-picture synchronization and video mux remain release gates.

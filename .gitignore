@@ -3,3 +3,28 @@ Thumbs.db
 .env
 node_modules/
 dist/
+
+# User-selected visual references are local production inputs, never committed binaries.
+production/projects/*/01_SOURCE/REFERENCE_IMAGES/
+
+# Large production media stays in Dropbox/local production storage, not Git.
+production/projects/*/01_SOURCE/GENERATED_SHOTS/
+production/projects/*/02_FRAMES/*
+!production/projects/*/02_FRAMES/README.md
+production/projects/*/03_GROWTH_PASSES/*
+!production/projects/*/03_GROWTH_PASSES/README.md
+production/projects/*/04_COMPOSITES/*
+!production/projects/*/04_COMPOSITES/README.md
+production/projects/*/05_EXPORTS/*
+!production/projects/*/05_EXPORTS/README.md
+production/projects/*/06_AUDIO/*
+!production/projects/*/06_AUDIO/README.md
+
+# Ephemeral Blender integration renders are uploaded as CI artifacts, not committed.
+engine/video/tests/output/
+
+# Provider job/run records stay with the Dropbox production workspace, not Git history.
+production/projects/*/07_MANIFESTS/provider_runs/
+# Generated procedural audio and per-run render evidence stay in the Dropbox production workspace.
+production/projects/*/06_AUDIO/GENERATED/
+production/projects/*/07_MANIFESTS/audio_render*.json

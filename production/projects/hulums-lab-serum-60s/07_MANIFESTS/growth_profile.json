@@ -307,6 +307,202 @@
           0.78
         ]
       ]
+    },
+    "pectorals_projection": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          17,
+          0.2
+        ],
+        [
+          30,
+          0.5
+        ],
+        [
+          46,
+          0.84
+        ],
+        [
+          55,
+          1
+        ],
+        [
+          60,
+          1
+        ]
+      ]
+    },
+    "pectorals_upper": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          20,
+          0.14
+        ],
+        [
+          34,
+          0.45
+        ],
+        [
+          49,
+          0.82
+        ],
+        [
+          56,
+          0.96
+        ],
+        [
+          60,
+          0.96
+        ]
+      ]
+    },
+    "pectorals_outer": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          22,
+          0.16
+        ],
+        [
+          36,
+          0.47
+        ],
+        [
+          50,
+          0.82
+        ],
+        [
+          56,
+          0.96
+        ],
+        [
+          60,
+          0.96
+        ]
+      ]
+    },
+    "pectorals_sternal": {
+      "label": "Sternal separation",
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          23,
+          0.18
+        ],
+        [
+          36,
+          0.48
+        ],
+        [
+          50,
+          0.88
+        ],
+        [
+          57,
+          1
+        ],
+        [
+          60,
+          1
+        ]
+      ],
+      "description": "Bilateral outward movement at the medial pectoral boundary to preserve a defined inter-pectoral cleft"
+    },
+    "pectorals_lower_shelf": {
+      "label": "Lower pectoral shelf",
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          25,
+          0.2
+        ],
+        [
+          38,
+          0.52
+        ],
+        [
+          51,
+          0.9
+        ],
+        [
+          57,
+          0.98
+        ],
+        [
+          60,
+          0.98
+        ]
+      ],
+      "description": "Localized forward and slightly downward fullness along the lower pectoral contour"
+    },
+    "pectorals_sternal_groove": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          26,
+          0.2
+        ],
+        [
+          39,
+          0.55
+        ],
+        [
+          52,
+          0.92
+        ],
+        [
+          58,
+          1
+        ],
+        [
+          60,
+          1
+        ]
+      ]
     }
   },
   "deformation": {
@@ -316,10 +512,153 @@
     "bilateral_symmetry": true,
     "wardrobe_response": "The fitted torso shell, training shorts and paired shoulder straps receive the same regional shape-key controls as the skin. This is a geometric fit/tension proxy, not cloth simulation or tearing.",
     "environment_response": "Not yet simulated; architecture remains a scale reference.",
-    "secondary_motion": "Not yet simulated."
+    "secondary_motion": "Not yet simulated.",
+    "pectorals": {
+      "method": "bilateral-gaussian-shape-key-layers",
+      "channels": [
+        "pectorals_projection",
+        "pectorals_upper",
+        "pectorals_outer",
+        "pectorals_sternal",
+        "pectorals_lower_shelf",
+        "pectorals_sternal_groove"
+      ],
+      "description": "Six independently timed, bilateral shape-key layers: forward projection, clavicular fullness, lateral sweep, medial edge separation, lower shelf, and a narrow recessed sternum groove. All remain local to the chest and are calibrated against the canonical seated-car image sequence.",
+      "facing": "-Y",
+      "geometry": {
+        "projection": {
+          "centre": [
+            0.36,
+            -0.29,
+            2.27
+          ],
+          "radius": [
+            0.43,
+            0.42,
+            0.32
+          ],
+          "offset": [
+            0.025,
+            -0.1,
+            0
+          ]
+        },
+        "upper": {
+          "centre": [
+            0.34,
+            -0.27,
+            2.43
+          ],
+          "radius": [
+            0.4,
+            0.38,
+            0.24
+          ],
+          "offset": [
+            0.012,
+            -0.04,
+            0.018
+          ]
+        },
+        "outer": {
+          "centre": [
+            0.58,
+            -0.22,
+            2.25
+          ],
+          "radius": [
+            0.3,
+            0.4,
+            0.34
+          ],
+          "offset": [
+            0.025,
+            -0.025,
+            0
+          ]
+        },
+        "sternal_groove": {
+          "centre": [
+            0,
+            -0.5,
+            2.28
+          ],
+          "radius": [
+            0.1,
+            0.25,
+            0.32
+          ],
+          "offset": [
+            0,
+            0.02,
+            0
+          ]
+        },
+        "sternal": {
+          "centre": [
+            0.17,
+            -0.38,
+            2.27
+          ],
+          "radius": [
+            0.17,
+            0.36,
+            0.28
+          ],
+          "offset": [
+            0.015,
+            -0.02,
+            0
+          ]
+        },
+        "lower_shelf": {
+          "centre": [
+            0.36,
+            -0.3,
+            2.12
+          ],
+          "radius": [
+            0.42,
+            0.4,
+            0.2
+          ],
+          "offset": [
+            0.015,
+            -0.05,
+            -0.012
+          ]
+        }
+      },
+      "reference_assets": [
+        "car-bearded-base",
+        "car-bearded-variation-01",
+        "car-bearded-variation-02",
+        "doorway-scale-reference",
+        "bedroom-scale-reference",
+        "denim-cutoffs-reference"
+      ],
+      "calibration": {
+        "method": "manual-qualitative-reference-fit",
+        "status": "authored-from-canonical-dropbox-image-library",
+        "notes": "The three seated-car generations are the primary chest-shape references: preserve the paired rounded pectoral masses, strong medial cleft, forward projection, upper fullness, lower contour, and visible chest-hair texture. Doorway, bedroom, and denim-cutoff references provide comparative full-body scale and garment context only; they are not assumed to depict the seated-car subject. The generated variants are visually similar, but their order is not approved as a measured growth sequence. Geometry values are editable local-metre controls, not automatically extracted measurements. A single close frontal crop does not provide reliable depth or world scale."
+      }
+    }
   },
   "evidence": {
     "status": "authored-production-design",
     "notes": "These curves are explicit authored timing controls for this fictional project. They are not measurements extracted from a Hulum's Cave source video."
+  },
+  "surface_detail": {
+    "chest_hair": {
+      "status": "procedural-shader-prototype",
+      "method": "directional wave bands with restrained colour and bump variation, assigned to front thorax and upper-abdominal polygons",
+      "source_asset_ids": [
+        "car-bearded-base",
+        "car-bearded-variation-01",
+        "car-bearded-variation-02"
+      ],
+      "visual_target": "dense dark chest hair visible through the central and lower pectoral field; preserve skin tone and pectoral striation",
+      "limitation": "not strand-level grooming; density, direction and coverage require multi-angle visual review"
+    }
   }
 }

@@ -19,6 +19,32 @@ def material(name, color, metallic=0.0, roughness=0.48, subsurface=0.0):
     bsdf.inputs["Roughness"].default_value = roughness
     if "Subsurface Weight" in bsdf.inputs:
         bsdf.inputs["Subsurface Weight"].default_value = subsurface
+    if "fabric" in name.lower() or "denim" in name.lower():
+        nodes = mat.node_tree.nodes
+        links = mat.node_tree.links
+        texcoord = nodes.new("ShaderNodeTexCoord")
+        noise = nodes.new("ShaderNodeTexNoise")
+        noise.inputs["Scale"].default_value = 38.0
+        noise.inputs["Detail"].default_value = 2.0
+        noise.inputs["Roughness"].default_value = .68
+        ramp = nodes.new("ShaderNodeValToRGB")
+        ramp.color_ramp.elements[0].color = (color[0] * .88, color[1] * .88, color[2] * .88, 1.0)
+        ramp.color_ramp.elements[1].color = (min(color[0] * 1.06, 1.0), min(color[1] * 1.06, 1.0), min(color[2] * 1.06, 1.0), 1.0)
+        links.new(texcoord.outputs["Generated"], noise.inputs["Vector"])
+        links.new(noise.outputs["Fac"], ramp.inputs["Fac"])
+        links.new(ramp.outputs["Color"], bsdf.inputs["Base Color"])
+        weave = nodes.new("ShaderNodeTexWave")
+        weave.wave_type = "BANDS"
+        weave.bands_direction = "X"
+        weave.inputs["Scale"].default_value = 180.0
+        weave.inputs["Distortion"].default_value = 2.0
+        weave.inputs["Detail"].default_value = 2.0
+        links.new(texcoord.outputs["Generated"], weave.inputs["Vector"])
+        bump = nodes.new("ShaderNodeBump")
+        bump.inputs["Strength"].default_value = .12
+        bump.inputs["Distance"].default_value = .004
+        links.new(weave.outputs["Color"], bump.inputs["Height"])
+        links.new(bump.outputs["Normal"], bsdf.inputs["Normal"])
     return mat
 
 
@@ -138,8 +164,11 @@ def ring_shell(name, rings, material_slot, segments=32):
     bpy.context.scene.collection.objects.link(obj)
     for poly in data.polygons:
         poly.use_smooth = True
+    smooth = obj.modifiers.new("Fabric surface smoothing", "SUBSURF")
+    smooth.levels = 1
+    smooth.render_levels = 2
     solid = obj.modifiers.new("Textile thickness", "SOLIDIFY")
-    solid.thickness = 0.025
+    solid.thickness = 0.018
     bevel = obj.modifiers.new("Soft garment edges", "BEVEL")
     bevel.width = 0.018
     bevel.segments = 2
@@ -147,33 +176,74 @@ def ring_shell(name, rings, material_slot, segments=32):
 
 
 def build_wardrobe():
-    """Create a fitted sleeveless top and shorts that share the body growth timeline."""
-    textile = material("WARDROBE / graphite compression fabric", (0.018, 0.045, 0.055), metallic=0.02, roughness=0.72)
+    """Create an alternate low-cut tank and primary denim cutoff shorts."""
+    tank_fabric = material("WARDROBE / graphite tank fabric", (.22, .23, .25), metallic=0.0, roughness=0.82)
+    denim = material("WARDROBE / washed light-blue denim", (.24, .36, .48), metallic=0.0, roughness=0.88)
     top = ring_shell(
-        "WARDROBE / fitted sleeveless training top",
+        "WARDROBE / fitted low-cut tank alternate",
         [
-            (0, 0.0, 1.62, 0.47, 0.31),
-            (0, 0.0, 1.84, 0.55, 0.35),
-            (0, 0.0, 2.12, 0.76, 0.42),
-            (0, 0.0, 2.42, 0.69, 0.39),
-            (0, 0.0, 2.73, 0.48, 0.32),
+            (0, -0.04, 1.62, 0.49, 0.36),
+            (0, -0.06, 1.82, 0.57, 0.42),
+            (0, -0.10, 2.02, 0.69, 0.50),
+            (0, -0.12, 2.20, 0.83, 0.60),
+            (0, -0.12, 2.38, 0.82, 0.60),
+            (0, -0.10, 2.55, 0.70, 0.50),
+            (0, -0.05, 2.73, 0.49, 0.36),
         ],
-        textile,
+        tank_fabric,
     )
-    shorts = ring_shell(
-        "WARDROBE / fitted training shorts",
+
+    waistband = ring_shell(
+        "WARDROBE / denim waistband",
         [
-            (0, 0.0, 1.10, 0.48, 0.34),
-            (0, 0.0, 0.91, 0.53, 0.38),
-            (0, 0.0, 0.68, 0.58, 0.39),
+            (0, 0.0, 1.14, 0.60, 0.44),
+            (0, 0.0, 1.00, 0.60, 0.44),
+            (0, 0.0, 0.90, 0.58, 0.42),
         ],
-        textile,
+        denim,
     )
+    left_leg = ring_shell(
+        "WARDROBE / denim cutoff left",
+        [
+            (-0.34, 0.0, 0.98, 0.36, 0.39),
+            (-0.34, 0.0, 0.75, 0.37, 0.40),
+            (-0.34, 0.0, 0.50, 0.36, 0.38),
+        ],
+        denim,
+    )
+    right_leg = ring_shell(
+        "WARDROBE / denim cutoff right",
+        [
+            (0.34, 0.0, 0.98, 0.36, 0.39),
+            (0.34, 0.0, 0.75, 0.37, 0.40),
+            (0.34, 0.0, 0.50, 0.36, 0.38),
+        ],
+        denim,
+    )
+    bpy.ops.object.select_all(action="DESELECT")
+    for obj in (waistband, left_leg, right_leg):
+        obj.select_set(True)
+    bpy.context.view_layer.objects.active = waistband
+    bpy.ops.object.join()
+    shorts = bpy.context.object
+    shorts.name = "WARDROBE / denim cutoff shorts"
+
     straps = [
-        limb("WARDROBE / left shoulder strap", (-0.52, -0.31, 2.47), (-0.52, 0.31, 2.47), 0.075, textile),
-        limb("WARDROBE / right shoulder strap", (0.52, -0.31, 2.47), (0.52, 0.31, 2.47), 0.075, textile),
+        limb("WARDROBE / left tank strap", (-0.52, -0.31, 2.47), (-0.52, 0.31, 2.47), 0.075, tank_fabric),
+        limb("WARDROBE / right tank strap", (0.52, -0.31, 2.47), (0.52, 0.31, 2.47), 0.075, tank_fabric),
     ]
     return top, shorts, straps
+
+def _set_video_output(scene):
+    image_settings = scene.render.image_settings
+    if hasattr(image_settings, "media_type"):
+        image_settings.media_type = "VIDEO"
+    else:
+        image_settings.file_format = "FFMPEG"
+    scene.render.ffmpeg.format = "MPEG4"
+    scene.render.ffmpeg.codec = "H264"
+    scene.render.ffmpeg.audio_codec = "AAC"
+
 
 def build_scene(manifest, output_path, timeline=None, growth_profile=None, preview_seconds=None, save_blend_path=None):
     output_path = Path(output_path)
@@ -201,10 +271,11 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
     scene.render.fps = fps
     scene.render.resolution_x = int(fmt.get("width", 1920))
     scene.render.resolution_y = int(fmt.get("height", 1080))
-    scene.render.resolution_percentage = 45 if preview_seconds else 100
-    scene.render.image_settings.file_format = "FFMPEG"
-    scene.render.ffmpeg.format = "MPEG4"
-    scene.render.ffmpeg.codec = "H264"
+    preview_mode = preview_seconds is not None
+    scene.render.resolution_percentage = 35 if preview_mode else 100
+    if hasattr(scene, "eevee"):
+        scene.eevee.taa_render_samples = 8 if preview_mode else 64
+    _set_video_output(scene)
     scene.render.ffmpeg.constant_rate_factor = "MEDIUM"
     scene.render.filepath = str(output_path)
     scene.render.film_transparent = False
@@ -214,6 +285,8 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
     scene.render.filepath = str(output_path)
     scene.render.use_file_extension = True
     scene.view_settings.view_transform = "AgX"
+    if scene.world is None:
+        scene.world = bpy.data.worlds.new("GEEHUB World")
     scene.world.color = (0.018, 0.026, 0.035)
 
     character_model = str(manifest.get("character_model", "blockout")).lower()
@@ -250,6 +323,11 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
             from timeline_growth import animate_timeline_growth, write_growth_diagnostics
             animate_timeline_growth(mesh, timeline, growth_profile)
             top, shorts, straps = build_wardrobe()
+            wardrobe = manifest.get("wardrobe", {})
+            if isinstance(wardrobe, dict) and wardrobe.get("primary_top") == "shirtless":
+                top.hide_render = True
+                for strap in straps:
+                    strap.hide_render = True
             diagnostic_objects.extend([top, shorts, *straps])
             for garment in [top, shorts, *straps]:
                 animate_timeline_growth(garment, timeline, growth_profile)

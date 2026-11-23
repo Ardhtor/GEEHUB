@@ -455,29 +455,56 @@ def load_staged_reference_assets(project: Path, asset_ids: list[str]) -> list[di
         relative_path, relative_sidecar = record.get("path"), record.get("sidecar")
         if not isinstance(relative_path, str) or not isinstance(relative_sidecar, str):
             raise ValueError(f"Staged reference paths are invalid: {asset_id}")
-        staged = (project / relative_path).resolve(strict=True)
-        sidecar_path = (project / relative_sidecar).resolve(strict=True)
+        staged_candidate = project / relative_path
+        sidecar_candidate = project / relative_sidecar
+        if staged_candidate.is_symlink() or sidecar_candidate.is_symlink():
+            raise ValueError(f"Staged reference or provenance sidecar must not be a symlink: {asset_id}")
+        staged = staged_candidate.resolve(strict=True)
+        sidecar_path = sidecar_candidate.resolve(strict=True)
         if not staged.is_relative_to(project) or not sidecar_path.is_relative_to(project):
             raise ValueError(f"Staged reference path escapes the project: {asset_id}")
-        if not staged.is_file() or not sidecar_path.is_file() or staged.is_symlink() or sidecar_path.is_symlink():
+        if not staged.is_file() or not sidecar_path.is_file():
             raise ValueError(f"Staged reference or provenance sidecar is missing: {asset_id}")
         sidecar = load_json(sidecar_path)
         library_record = sidecar.get("library")
         staged_record = sidecar.get("staged")
         source_record = sidecar.get("source")
-        if not all(isinstance(item, dict) for item in (library_record, staged_record, source_record)):
+        integrity = sidecar.get("integrity")
+        if not all(isinstance(item, dict) for item in (library_record, staged_record, source_record, integrity)):
             raise ValueError(f"Reference provenance sidecar is malformed: {asset_id}")
         digest = sha256_file(staged)
-        if digest != record.get("sha256") or digest != staged_record.get("sha256"):
+        if (
+            digest != record.get("sha256")
+            or digest != staged_record.get("sha256")
+            or digest != source_record.get("sha256")
+            or (reference.get("sha256") and digest != reference.get("sha256"))
+        ):
             raise ValueError(f"Staged reference checksum mismatch: {asset_id}")
+        if sidecar.get("asset_id") != asset_id or sidecar.get("project_id") != project_id:
+            raise ValueError(f"Staged reference sidecar identity mismatch: {asset_id}")
+        if staged_record.get("path") != relative_path:
+            raise ValueError(f"Staged reference sidecar path mismatch: {asset_id}")
+        if integrity.get("verified") is not True or integrity.get("copy_matches_source") is not True:
+            raise ValueError(f"Staged reference integrity record is not verified: {asset_id}")
         if library_record.get("file_id") != reference.get("file_id"):
             raise ValueError(f"Staged reference Library file ID mismatch: {asset_id}")
         if library_record.get("library_file_id") != reference.get("library_file_id"):
             raise ValueError(f"Staged reference Library ID mismatch: {asset_id}")
         if source_record.get("original_modified") is not False:
             raise ValueError(f"Original source preservation is not verified: {asset_id}")
-        if staged.stat().st_size != reference.get("size_bytes"):
+        if (
+            staged.stat().st_size != reference.get("size_bytes")
+            or staged_record.get("size_bytes") != reference.get("size_bytes")
+            or source_record.get("size_bytes") != reference.get("size_bytes")
+            or record.get("size_bytes") != reference.get("size_bytes")
+        ):
             raise ValueError(f"Staged reference size does not match Library metadata: {asset_id}")
+        if (
+            reference.get("width") is not None and staged_record.get("width") != reference.get("width")
+        ) or (
+            reference.get("height") is not None and staged_record.get("height") != reference.get("height")
+        ):
+            raise ValueError(f"Staged reference dimensions do not match Library metadata: {asset_id}")
         result.append({
             "asset_id": asset_id,
             "path": staged,

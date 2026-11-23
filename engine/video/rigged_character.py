@@ -277,7 +277,6 @@ def _make_armature(mesh, name):
 def _add_face_details(rig, name):
     """Add restrained, non-identifying adult facial features to the rigged head."""
     beard_mat = _mat(name + " / short beard", (.055, .027, .019), .82)
-    hair_mat = _mat(name + " / short hair", (.035, .022, .018), .78)
     eye_white = _mat(name + " / eye white", (.72, .68, .60), .34)
     eye_dark = _mat(name + " / iris", (.045, .028, .018), .32)
 

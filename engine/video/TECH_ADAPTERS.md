@@ -48,3 +48,10 @@ The doctor reports installed Blender and FFmpeg versions, checks Blender's bundl
 - Existing .blend files are never batch-upgraded by this adapter.
 - Gaussian Splat import is exposed as a capability flag; source conversion, identity matching, and scene placement remain explicit production steps.
 - Keep the original media unchanged. Store derived files and manifests beside the project, and record the source identity separately.
+
+
+## Bilateral pectoral growth geometry
+
+The continuous growth renderer now decomposes the pectoral channel into three local shape-key layers: forward projection (front-to-back chest depth), upper fullness (clavicular region), and outer sweep (lateral contour). All three are driven by the existing authored `pectorals` curve, so existing project timelines and growth profiles remain compatible. The geometry fields are mirrored, Gaussian-weighted, and confined to the chest; they do not scale the head or abdomen.
+
+The standalone deformation field lives in `growth_geometry.py` and is covered by Python unit tests without requiring Blender. In Blender, `timeline_growth.py` turns those fields into editable shape keys on the unified character mesh and fitted wardrobe shell. This is a controllable geometric prototype, not a claim of anatomically simulated muscle tissue. Inspect a rendered front, three-quarter, and side preview before approving a production character.

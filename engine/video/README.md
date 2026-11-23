@@ -170,3 +170,18 @@ python -m unittest engine.video.tests.test_growth_geometry -v
 ```
 
 This is a deterministic geometric deformation field. It does not simulate muscle fibres, fascia, skin sliding, or physically accurate tissue response. Review front, three-quarter, and side renders before using a character-specific asset.
+
+
+## Primary image-library reference intake
+
+The Hulum's Lab Serum project now has a curated reference manifest at `production/projects/hulums-lab-serum-60s/07_MANIFESTS/reference_library.json`. It distinguishes original library uploads from ChatGPT-generated library images and assigns each image a visual role: chest source, chest render target, full-body proportion, three-quarter transition, or clothed shoulder/arm silhouette. The original Library entries remain the source of truth; this manifest stores stable Library identifiers and visual annotations, not copies of the image bytes.
+
+The local engine cannot query the ChatGPT Library directly. To use a selected Library image in a local render, export that image to the Dropbox desktop-synced working folder, then run:
+
+```bash
+python3 engine/video/stage_reference_image.py \\
+  --asset-id car-bearded-closeup-source \\
+  --source "/path/to/Dropbox/exported/1000000650.webp"
+```
+
+Supported inputs are PNG, JPEG, and WebP up to 100 MB. GEEHUB makes a separate copy under the project's `01_SOURCE/REFERENCE_IMAGES/`, verifies its dimensions and SHA-256, and writes a source sidecar plus an import registry. It refuses to overwrite a different staged image. The source image is never modified, moved, or deleted. The reference manifest and registry are validated before the growth project renders. Images with unknown provenance remain reference-only until usage rights are confirmed; `model_generated=false` is not proof of ownership or license.

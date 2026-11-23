@@ -1,0 +1,1452 @@
+{
+  "schema": "geehub.population-generation/1",
+  "project_id": "kirk-generation-01",
+  "title": "Kirk's Lineage — Generation 01",
+  "generation": 1,
+  "cohort_size": 20,
+  "status": "production-baseline",
+  "created": "2026-11-23",
+  "canon": {
+    "origin": "Kirk's fictional generative lineage; the shared substrate establishes common origin, not interchangeable identity.",
+    "principle": "Twenty independent adult men emerge from one generative lineage. Their faces, proportions, temperaments, competencies, specializations, relationships, and growth paths remain distinct.",
+    "continuity": "Every man has a persistent identity and dated growth history. Later generations inherit selected traits and practices but never copy a predecessor wholesale.",
+    "boundary": "All twenty are fictional adults aged 24–41. Numeric dimensions are production baselines, not claims about real people. No real-person likeness is assigned."
+  },
+  "production_standard": {
+    "reference_sheet": "One character per sheet: head front/three-quarter/profile/back; full-body front/side/back; four signature poses; neutral plus three readable expressions; hands/feet detail; silhouette and proportion callouts.",
+    "camera": "Orthographic or long-lens neutral reference camera; consistent eye height; full figure in frame; no wide-angle distortion; neutral grey studio; even key/fill/rim lighting.",
+    "anatomy": "Adult anatomy with stable landmarks, joint centers, limb lengths, muscle insertions, and natural asymmetry. No whole-body scaling as a substitute for regional growth.",
+    "modularity": "Head, hair, neck, torso, chest/back inserts, upper arms, forearms, hands, pelvis, thighs, calves, feet, wardrobe, footwear, accessories, and props remain separable.",
+    "rig": "Humanoid rig with clavicle/scapula, spine, pelvis, shoulder, elbow, wrist, hip, knee, ankle, hand, and foot controls; corrective shapes for high-flexion and high-load poses.",
+    "materials": "Separate skin, hair, cloth, rubber, leather, metal, and painted-equipment materials; preserve pore scale and roughness across renders.",
+    "provenance": "Every render records character_id, generation, asset_id, prompt version, model/tool, seed when available, date, and parent asset IDs.",
+    "review_gates": [
+      "identity continuity",
+      "anatomical plausibility",
+      "silhouette distinction",
+      "front/side/back agreement",
+      "pose readability",
+      "modular separation",
+      "rig deformation",
+      "provenance completeness"
+    ]
+  },
+  "members": [
+    {
+      "id": "g01-01",
+      "name": "Adrian Vale",
+      "generation": 1,
+      "age_years": 32,
+      "height_cm": 188,
+      "specialization": "Classic physique — proportion and controlled lines",
+      "identity": "Systems-minded architect; quiet organizer who resists default authority.",
+      "face": "Long oval face, high cheekbones, straight narrow nose, amber-brown eyes, dark swept-back wave, cleft chin, clean-shaven.",
+      "physique": "Tall X-frame, long clavicles, deep chest, narrow waist, full arms, sweeping quads, balanced calves.",
+      "personality": "Measured, observant, dryly funny, patient with systems; over-plans and delays asking for help.",
+      "competence": "Architectural drafting, spatial planning, periodization, explaining systems through diagrams.",
+      "movement_signature": "Economical stride, upright posture, precise foot placement; poses settle slowly.",
+      "presentation": "Slate sleeveless top, dark training trousers, simple watch, folded site plan.",
+      "growth_trajectory": "Baseline classic symmetry; Pass 02 upper-back and hamstring density; Pass 03 posing stamina without widening waist.",
+      "relationships": [
+        {
+          "character_id": "g01-04",
+          "dynamic": "Emil challenges Adrian's assumptions with measurements."
+        },
+        {
+          "character_id": "g01-08",
+          "dynamic": "Gideon mentors Adrian without expecting obedience."
+        },
+        {
+          "character_id": "g01-13",
+          "dynamic": "Kellan translates Adrian's spatial ideas into visual layouts."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "long clavicle line",
+          "narrow waist",
+          "balanced quad sweep",
+          "high cheekbones and cleft chin"
+        ],
+        "signature_poses": [
+          "front relaxed symmetry",
+          "quarter-turn chest presentation",
+          "side chest with controlled ribcage",
+          "measured walk into front double-biceps"
+        ],
+        "modular_asset_components": [
+          "head and swept-back hair",
+          "long-clavicle torso shell",
+          "separate arm and forearm volumes",
+          "narrow pelvis and long-thigh pair",
+          "classic posing trunks and slate top",
+          "folded plan prop"
+        ],
+        "reference_sheet": "REF-G01-01",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-02",
+      "name": "Mateo Rivas",
+      "generation": 1,
+      "age_years": 28,
+      "height_cm": 176,
+      "specialization": "Powerbuilding — dense upper body and compound lifts",
+      "identity": "Social catalyst who makes difficult rooms easier to enter and training a shared event.",
+      "face": "Compact square-oval face, broad nose, warm dark eyes, thick black curls with taper, smile lines, close beard and moustache.",
+      "physique": "Short dense frame, round delts, thick forearms, deep chest, powerful glutes and heavy quads.",
+      "personality": "Expressive, generous, competitive, quick to laugh; notices who is left out but overpromises.",
+      "competence": "Barbell technique, group coaching, event hosting, adapting sessions to different abilities.",
+      "movement_signature": "Fast first step, lively hands, broad gestures; compact forceful mechanics under load.",
+      "presentation": "Burgundy tank, black shorts, worn lifting shoes, athletic tape.",
+      "growth_trajectory": "Baseline compact powerbuilder; Pass 02 upper-back and posterior-chain density; Pass 03 shoulder stability and mobility.",
+      "relationships": [
+        {
+          "character_id": "g01-07",
+          "dynamic": "Friendly posing rivals who push each other without resentment."
+        },
+        {
+          "character_id": "g01-12",
+          "dynamic": "Bruno feeds the room; Mateo brings people to the table."
+        },
+        {
+          "character_id": "g01-06",
+          "dynamic": "Niko helps Mateo refine speed and conditioning."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "compact height and dense frame",
+          "round deltoids",
+          "thick forearms",
+          "curled hair and open smile"
+        ],
+        "signature_poses": [
+          "front relaxed",
+          "barbell setup three-quarter",
+          "side chest compact stance",
+          "laughing post-session stance"
+        ],
+        "modular_asset_components": [
+          "curled-hair head",
+          "compact torso and broad shoulder caps",
+          "thick forearm pair",
+          "short powerful thigh and calf modules",
+          "burgundy tank and black shorts",
+          "barbell and tape roll"
+        ],
+        "reference_sheet": "REF-G01-02",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-03",
+      "name": "Darius Cole",
+      "generation": 1,
+      "age_years": 34,
+      "height_cm": 193,
+      "specialization": "Heavyweight bodybuilding — chest, back width, structural mass",
+      "identity": "Patient equipment engineer whose size dominates a room but whose instinct is to make it safer and more useful.",
+      "face": "Broad rectangular face, deep-set dark eyes, close-cropped hair, broad nose, strong jaw, notch in left eyebrow.",
+      "physique": "Very tall heavyweight frame, broad clavicles, deep ribcage, thick chest, wide lats, heavy triceps, large hands and substantial legs.",
+      "personality": "Calm, practical, protective without possessiveness, slow to anger; stubborn after a design passes his tests.",
+      "competence": "Strength-equipment design, load paths, workshop safety, heavy compound-lift technique.",
+      "movement_signature": "Deliberate weight transfer, grounded stance, measured turns; shoulders and torso coordinate as a mass.",
+      "presentation": "Graphite work shirt, dark shorts, steel-toe trainers, caliper and pencil.",
+      "growth_trajectory": "Baseline heavyweight structure; Pass 02 lat and upper-back density; Pass 03 hip and ankle control.",
+      "relationships": [
+        {
+          "character_id": "g01-10",
+          "dynamic": "Tomasz builds and repairs the mechanisms Darius specifies."
+        },
+        {
+          "character_id": "g01-18",
+          "dynamic": "Cassian debates structural limits with Darius."
+        },
+        {
+          "character_id": "g01-15",
+          "dynamic": "Viktor coordinates safe movement of equipment."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "193 cm stature",
+          "broad jaw and left-brow notch",
+          "deep chest and wide lats",
+          "large hands"
+        ],
+        "signature_poses": [
+          "front relaxed heavyweight",
+          "back lat spread",
+          "equipment inspection three-quarter",
+          "controlled deadlift lockout"
+        ],
+        "modular_asset_components": [
+          "broad-jaw head",
+          "heavy ribcage and chest assembly",
+          "wide-lat back shell",
+          "large hand set",
+          "heavy thigh and calf modules",
+          "graphite work shirt and calipers"
+        ],
+        "reference_sheet": "REF-G01-03",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-04",
+      "name": "Emil Varga",
+      "generation": 1,
+      "age_years": 29,
+      "height_cm": 181,
+      "specialization": "Aesthetic bodybuilding — symmetry, conditioning, fine detail",
+      "identity": "Meticulous performance researcher who wants every claim to survive measurement.",
+      "face": "Narrow diamond face, pale green eyes, fine straight nose, ash-blond undercut, high forehead, sharp cheekbones, clean-shaven.",
+      "physique": "Balanced medium frame, crisp shoulder-to-waist taper, full upper chest, clean arm separation, long biceps bellies, symmetrical legs.",
+      "personality": "Exacting, curious, reserved, quietly competitive, willing to admit uncertainty when evidence is clear.",
+      "competence": "Measurement protocols, posing analysis, recovery tracking, repeatable training experiments.",
+      "movement_signature": "Small precise adjustments, controlled breathing, deliberate posing transitions.",
+      "presentation": "Navy posing trunks, fitted white warm-up shirt, minimalist journal.",
+      "growth_trajectory": "Baseline symmetry; Pass 02 hamstring and upper-chest fullness; Pass 03 relaxed stage presentation.",
+      "relationships": [
+        {
+          "character_id": "g01-01",
+          "dynamic": "Adrian supplies spatial models; Emil checks measurements."
+        },
+        {
+          "character_id": "g01-11",
+          "dynamic": "Elias is his research collaborator and critic."
+        },
+        {
+          "character_id": "g01-09",
+          "dynamic": "Leon helps test motion-capture and biomechanics ideas."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "diamond face and green eyes",
+          "ash-blond undercut",
+          "crisp taper",
+          "balanced limb proportions"
+        ],
+        "signature_poses": [
+          "front relaxed symmetry check",
+          "rear double-biceps",
+          "side triceps and abdominal control",
+          "neutral measurement stance"
+        ],
+        "modular_asset_components": [
+          "diamond-face head and undercut",
+          "symmetrical torso with chest inserts",
+          "long-biceps upper-arm pair",
+          "balanced thigh and calf shells",
+          "navy posing trunks",
+          "measurement journal and caliper"
+        ],
+        "reference_sheet": "REF-G01-04",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-05",
+      "name": "Soren Hale",
+      "generation": 1,
+      "age_years": 36,
+      "height_cm": 198,
+      "specialization": "Strongman-bodybuilding — posterior chain, traps, grip, leg drive",
+      "identity": "Timber-frame builder and wanderer who reliably returns when the group needs difficult work done.",
+      "face": "Long weathered face, pale blue eyes, thick auburn beard, tied-back shoulder-length hair, broad nose, pronounced brow.",
+      "physique": "Exceptionally tall frame, heavy traps and neck, broad back, long powerful arms, large hands, massive glutes and hamstrings, sturdy calves.",
+      "personality": "Patient, understated, wry, independent, sentimental; dislikes waste and ceremony.",
+      "competence": "Timber framing, rigging, strongman events, load distribution, outdoor navigation.",
+      "movement_signature": "Long stride, slight forward inclination under load, strong hip hinge, careful grip changes.",
+      "presentation": "Forest-green work tank, rugged shorts, leather wrist wraps, outdoor boots.",
+      "growth_trajectory": "Baseline long-lever strength; Pass 02 posterior-chain and trap density; Pass 03 grip endurance and shoulder mobility.",
+      "relationships": [
+        {
+          "character_id": "g01-08",
+          "dynamic": "Gideon shares institutional memory; Soren keeps him connected to practical work."
+        },
+        {
+          "character_id": "g01-16",
+          "dynamic": "Malcolm and Soren are trusted partners with different coaching styles."
+        },
+        {
+          "character_id": "g01-20",
+          "dynamic": "Silas joins Soren on field expeditions and challenges familiar routes."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "198 cm height",
+          "auburn beard and tied hair",
+          "heavy traps and long arms",
+          "large hands"
+        ],
+        "signature_poses": [
+          "front relaxed tall stance",
+          "farmer-carry walk",
+          "rear lat and trap presentation",
+          "timber beam lift with safe bracing"
+        ],
+        "modular_asset_components": [
+          "bearded head and tied hair",
+          "long-limb torso and arm modules",
+          "heavy trap and back insert",
+          "large hand and grip variants",
+          "posterior-chain leg modules",
+          "green tank and timber beam"
+        ],
+        "reference_sheet": "REF-G01-05",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-06",
+      "name": "Niko Petrov",
+      "generation": 1,
+      "age_years": 25,
+      "height_cm": 183,
+      "specialization": "Athletic bodybuilding — shoulder width, speed, conditioning",
+      "identity": "Tactical movement coach who reads timing before strength.",
+      "face": "Angular oval face, dark hazel eyes, thick straight brows, short black fade, straight nose, right-cheek dimple.",
+      "physique": "Athletic V-taper, broad shoulders, long torso, tight waist, developed quads, springy calves, defined arms.",
+      "personality": "Focused, skeptical, privately playful, competitive, impatient with slow decisions.",
+      "competence": "Sprint mechanics, agility programming, tactical planning, movement screening.",
+      "movement_signature": "Quick footwork, elastic direction changes, light heel recovery, compact hand signals.",
+      "presentation": "Black compression top, cobalt shorts, lightweight trainers, stopwatch.",
+      "growth_trajectory": "Baseline athletic conditioning; Pass 02 deltoid and quad density; Pass 03 posterior-chain strength without losing speed.",
+      "relationships": [
+        {
+          "character_id": "g01-02",
+          "dynamic": "Mateo brings group energy; Niko adds movement discipline."
+        },
+        {
+          "character_id": "g01-13",
+          "dynamic": "Kellan translates movement into visual sequences."
+        },
+        {
+          "character_id": "g01-15",
+          "dynamic": "Viktor tempers Niko's tendency to move before planning."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "angular face and cheek dimple",
+          "short dark fade",
+          "broad shoulders over long torso",
+          "quick-footed silhouette"
+        ],
+        "signature_poses": [
+          "front athletic relaxed",
+          "sprint-start profile",
+          "three-quarter athletic pose",
+          "lateral direction change"
+        ],
+        "modular_asset_components": [
+          "angular head and fade",
+          "long-torso shell",
+          "broad deltoid caps",
+          "athletic thigh and calf modules",
+          "compression top and cobalt shorts",
+          "stopwatch"
+        ],
+        "reference_sheet": "REF-G01-06",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-07",
+      "name": "Rafael Costa",
+      "generation": 1,
+      "age_years": 31,
+      "height_cm": 179,
+      "specialization": "Classic bodybuilding — chest fullness, quad sweep, stage presence",
+      "identity": "Choreographer who sees the body as language and makes performance generous.",
+      "face": "Heart-shaped face, warm brown eyes, wavy dark hair, expressive brows, rounded nose, neat short beard.",
+      "physique": "Medium height, full pectorals, sweeping quads, round delts, narrow waist, balanced calves.",
+      "personality": "Warm, theatrical, perceptive, confidently expressive; uses jokes to avoid hard conversations.",
+      "competence": "Choreography, stage blocking, posing, music timing, group facilitation.",
+      "movement_signature": "Fluid torso rotations, open chest, expressive hands, smooth transitions.",
+      "presentation": "Black posing trunks, open lightweight shirt, rehearsal shoes.",
+      "growth_trajectory": "Baseline classic stage lines; Pass 02 upper-chest fullness and quad sweep; Pass 03 longer holds and subtle transitions.",
+      "relationships": [
+        {
+          "character_id": "g01-02",
+          "dynamic": "Mateo is his friendly rival and rehearsal partner."
+        },
+        {
+          "character_id": "g01-17",
+          "dynamic": "Enzo shares musical instincts and challenges choreography."
+        },
+        {
+          "character_id": "g01-14",
+          "dynamic": "Idris helps him make room for quieter voices."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "heart-shaped face",
+          "wavy dark hair and short beard",
+          "full chest and quad sweep",
+          "expressive hands"
+        ],
+        "signature_poses": [
+          "front classic pose",
+          "side chest with torso twist",
+          "quarter-turn transition",
+          "open-arm stage greeting"
+        ],
+        "modular_asset_components": [
+          "heart-face head and wavy hair",
+          "full-pec torso inserts",
+          "round deltoid pair",
+          "sweeping quad and calf modules",
+          "posing trunks and open shirt",
+          "dance shoes and music cue"
+        ],
+        "reference_sheet": "REF-G01-07",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-08",
+      "name": "Gideon Cross",
+      "generation": 1,
+      "age_years": 41,
+      "height_cm": 190,
+      "specialization": "Veteran bodybuilding — back density, posing craft, long-term development",
+      "identity": "Experienced coach and keeper of institutional memory; remembers who people were before they became impressive.",
+      "face": "Mature rectangular face, steel-grey eyes, salt-and-pepper crop, short boxed beard, deep smile lines, broad nose.",
+      "physique": "Mature heavyweight frame, dense back, thick chest, developed arms, strong waist and substantial legs; lived-in rather than generic.",
+      "personality": "Patient, perceptive, quietly authoritative, humorous; can overprotect established methods.",
+      "competence": "Long-term programming, posing instruction, injury-aware training design, mentoring.",
+      "movement_signature": "Steady cadence, economical transitions, grounded stance; checks the room before taking center.",
+      "presentation": "Charcoal polo, black training trousers, leather notebook, plain trainers.",
+      "growth_trajectory": "Baseline veteran density; Pass 02 mobility and conditioning; Pass 03 modest back and leg development with age markers preserved.",
+      "relationships": [
+        {
+          "character_id": "g01-01",
+          "dynamic": "Gideon mentors Adrian but expects independent judgment."
+        },
+        {
+          "character_id": "g01-05",
+          "dynamic": "Soren is the practical counterpart to Gideon's coaching memory."
+        },
+        {
+          "character_id": "g01-16",
+          "dynamic": "Malcolm is his peer and constructive dissenter."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "steel-grey eyes and smile lines",
+          "salt-and-pepper hair and beard",
+          "dense back",
+          "mature heavyweight proportions"
+        ],
+        "signature_poses": [
+          "front relaxed veteran",
+          "back double-biceps",
+          "coach demonstrating transition",
+          "seated training review"
+        ],
+        "modular_asset_components": [
+          "mature face and salt-pepper hair",
+          "dense torso with back emphasis",
+          "thick arms and mature leg forms",
+          "charcoal polo and trousers",
+          "notebook and posing markers"
+        ],
+        "reference_sheet": "REF-G01-08",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-09",
+      "name": "Leon Okafor",
+      "generation": 1,
+      "age_years": 27,
+      "height_cm": 196,
+      "specialization": "Biomechanics bodybuilding — long-limb control, lats, movement efficiency",
+      "identity": "Robotics engineer fascinated by the relationship between internal structure and the spaces a body can move through.",
+      "face": "Long narrow face, deep brown eyes, shaved head, high cheekbones, broad lips, left-cheek cleft when smiling.",
+      "physique": "Tall long-limbed frame, broad lats, long arms, deep chest, narrow hips, defined legs; elegant vertical silhouette.",
+      "personality": "Thoughtful, inventive, soft-spoken, mischievous; can disappear into a technical problem.",
+      "competence": "Robotics, motion capture, biomechanics, sensor design, technical prototyping.",
+      "movement_signature": "Long reach, smooth shoulder rotation, measured balance corrections, precise hand placement.",
+      "presentation": "Graphite fitted tee, dark joggers, forearm sensor band.",
+      "growth_trajectory": "Baseline long-limbed build; Pass 02 lat width and shoulder stability; Pass 03 stronger legs and controlled deceleration.",
+      "relationships": [
+        {
+          "character_id": "g01-04",
+          "dynamic": "Emil tests models against measurable posing outcomes."
+        },
+        {
+          "character_id": "g01-18",
+          "dynamic": "Cassian debates mechanical models of force with Leon."
+        },
+        {
+          "character_id": "g01-20",
+          "dynamic": "Silas draws Leon out of the workshop and into the field."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "196 cm vertical silhouette",
+          "shaved head and high cheekbones",
+          "long arms and broad lats",
+          "narrow hips"
+        ],
+        "signature_poses": [
+          "front relaxed long-line",
+          "rear lat spread",
+          "overhead reach profile",
+          "motion-capture calibration"
+        ],
+        "modular_asset_components": [
+          "shaved-head long-face head",
+          "long torso and arm segments",
+          "broad-lat back shell",
+          "long femur and tibia variants",
+          "graphite tee and joggers",
+          "forearm sensor band"
+        ],
+        "reference_sheet": "REF-G01-09",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-10",
+      "name": "Tomasz Wierzbicki",
+      "generation": 1,
+      "age_years": 33,
+      "height_cm": 174,
+      "specialization": "Power bodybuilding — compact density, traps, forearms",
+      "identity": "Machinist with a dry sense of humour who values things that fit, hold, and can be repaired.",
+      "face": "Broad square face, grey-green eyes, close-shaved head, heavy brows, flattened nose bridge, dark stubble.",
+      "physique": "Shortest and most compact; thick neck, dense traps, deep chest, massive forearms, compact waist, powerful thighs.",
+      "personality": "Reserved, exact, loyal, deadpan, stubborn about workmanship.",
+      "competence": "Precision machining, fabrication, repair, grip training, mechanical troubleshooting.",
+      "movement_signature": "Short controlled steps, stable base, strong bracing, minimal extraneous movement.",
+      "presentation": "Dark work tank, heavy belt, work trousers, steel watch.",
+      "growth_trajectory": "Baseline compact density; Pass 02 forearm and trap development; Pass 03 shoulder range and leg drive.",
+      "relationships": [
+        {
+          "character_id": "g01-03",
+          "dynamic": "Darius defines the load; Tomasz makes the hardware."
+        },
+        {
+          "character_id": "g01-19",
+          "dynamic": "Pavel shares his respect for repair and durable materials."
+        },
+        {
+          "character_id": "g01-15",
+          "dynamic": "Viktor coordinates safe handling and transport."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "174 cm compact stature",
+          "square face and close stubble",
+          "thick neck and traps",
+          "heavy forearms"
+        ],
+        "signature_poses": [
+          "front compact stance",
+          "side chest",
+          "grip close-up",
+          "machinist at bench"
+        ],
+        "modular_asset_components": [
+          "square-face head",
+          "short thick neck and trap assembly",
+          "compact torso and forearms",
+          "powerful thigh and calf pair",
+          "work shirt and trousers",
+          "machinist handle and caliper"
+        ],
+        "reference_sheet": "REF-G01-10",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-11",
+      "name": "Elias Mercer",
+      "generation": 1,
+      "age_years": 30,
+      "height_cm": 186,
+      "specialization": "Evidence-led bodybuilding — balanced development and recovery literacy",
+      "identity": "Sports-science analyst who studies patterns without pretending every person is a dataset.",
+      "face": "Soft rectangular face, hazel eyes, medium brown curls, straight nose, light beard, mole beneath right eye.",
+      "physique": "Balanced athletic frame, full chest, moderate shoulder width, long torso, developed posterior chain, proportionate limbs.",
+      "personality": "Empathetic, precise, self-questioning, patient; reluctant to decide before considering variables.",
+      "competence": "Training-data analysis, recovery tracking, exercise technique, practical research translation.",
+      "movement_signature": "Even gait, quiet breathing, deliberate warm-up, relaxed shoulders between efforts.",
+      "presentation": "Olive training shirt, black shorts, neutral shoes, soft-cover notebook.",
+      "growth_trajectory": "Baseline balanced development; Pass 02 posterior-chain and shoulder stability; Pass 03 conditioning and confident presentation.",
+      "relationships": [
+        {
+          "character_id": "g01-04",
+          "dynamic": "Emil is his research partner and methodological critic."
+        },
+        {
+          "character_id": "g01-14",
+          "dynamic": "Idris helps distinguish evidence from the meaning attached to it."
+        },
+        {
+          "character_id": "g01-01",
+          "dynamic": "Adrian uses Elias's data to test training-space assumptions."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "hazel eyes and right-eye mole",
+          "medium brown curls",
+          "balanced long torso",
+          "proportionate limbs"
+        ],
+        "signature_poses": [
+          "front relaxed balance check",
+          "side chest with neutral breathing",
+          "posterior-chain hinge",
+          "notebook observation stance"
+        ],
+        "modular_asset_components": [
+          "soft-rectangular head and curls",
+          "balanced torso shell",
+          "posterior-chain forms",
+          "proportionate limb set",
+          "olive shirt and black shorts",
+          "research notebook and tracking band"
+        ],
+        "reference_sheet": "REF-G01-11",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-12",
+      "name": "Bruno Silva",
+      "generation": 1,
+      "age_years": 38,
+      "height_cm": 182,
+      "specialization": "Leg-specialist bodybuilding — glutes, quads, calves, work capacity",
+      "identity": "Cook and dining-room host who treats food as social architecture.",
+      "face": "Round-square face, dark brown eyes, shaved head, full dark beard with silver strands, broad nose, generous smile.",
+      "physique": "Broad thick trunk, exceptional quads, glutes and calves, broad shoulders, full chest, sturdy arms.",
+      "personality": "Warm, grounded, generous, quietly competitive, firm about shared responsibilities.",
+      "competence": "Cooking, kitchen logistics, lower-body training, communal routines.",
+      "movement_signature": "Grounded stance, strong hip drive, careful stair descent, expressive shoulders.",
+      "presentation": "Deep red sleeveless shirt, dark shorts, apron at work, comfortable trainers.",
+      "growth_trajectory": "Baseline lower-body mass; Pass 02 quad separation and calf development; Pass 03 upper-back balance and endurance.",
+      "relationships": [
+        {
+          "character_id": "g01-02",
+          "dynamic": "Mateo gathers people; Bruno makes the table worth arriving for."
+        },
+        {
+          "character_id": "g01-17",
+          "dynamic": "Enzo supplies music for Bruno's kitchen."
+        },
+        {
+          "character_id": "g01-05",
+          "dynamic": "Soren brings field ingredients and shares outdoor kitchen work."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "shaved head and full beard",
+          "thick trunk",
+          "dominant quads glutes and calves",
+          "broad smile"
+        ],
+        "signature_poses": [
+          "front lower-body emphasis",
+          "side thigh and calf profile",
+          "controlled squat bottom",
+          "apron at kitchen counter"
+        ],
+        "modular_asset_components": [
+          "round-square bearded head",
+          "broad trunk and shoulder shell",
+          "specialist thigh and calf modules",
+          "red shirt, shorts and apron",
+          "kitchen tools and serving tray"
+        ],
+        "reference_sheet": "REF-G01-12",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-13",
+      "name": "Kellan Shaw",
+      "generation": 1,
+      "age_years": 26,
+      "height_cm": 191,
+      "specialization": "Men's physique — shoulder cap, V-taper, camera awareness",
+      "identity": "Visual designer who notices framing, negative space, and how a person reads across a room.",
+      "face": "Narrow heart-shaped face, blue-grey eyes, copper-red hair, freckles across nose and shoulders, straight brows, clean-shaven.",
+      "physique": "Tall leaner frame, broad rounded shoulders, pronounced V-taper, long torso, tight waist, defined arms and athletic legs.",
+      "personality": "Bright, curious, socially agile, self-aware; over-edits his own presentation.",
+      "competence": "Graphic design, camera blocking, lighting diagrams, lens-aware posing, visual communication.",
+      "movement_signature": "Open posture, expressive shoulders, quick head turns toward light, camera-facing transitions.",
+      "presentation": "Muted teal shorts, white fitted tee, clean trainers, compact camera sling.",
+      "growth_trajectory": "Baseline camera-readable taper; Pass 02 deltoid and upper-chest fullness; Pass 03 leg density and posing endurance.",
+      "relationships": [
+        {
+          "character_id": "g01-01",
+          "dynamic": "Adrian's spatial concepts become Kellan's visual compositions."
+        },
+        {
+          "character_id": "g01-06",
+          "dynamic": "Niko gives Kellan movement problems to storyboard."
+        },
+        {
+          "character_id": "g01-17",
+          "dynamic": "Enzo helps Kellan think about rhythm rather than static framing."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "copper hair and freckles",
+          "blue-grey eyes",
+          "broad rounded deltoids",
+          "long V-taper silhouette"
+        ],
+        "signature_poses": [
+          "front men's-physique stance",
+          "three-quarter shoulder presentation",
+          "profile with relaxed abdomen",
+          "camera and key-light test"
+        ],
+        "modular_asset_components": [
+          "freckled head and copper hair",
+          "long tapered torso",
+          "round deltoid and arm modules",
+          "athletic leg pair",
+          "teal shorts and white tee",
+          "camera sling and lighting marker"
+        ],
+        "reference_sheet": "REF-G01-13",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-14",
+      "name": "Idris Bell",
+      "generation": 1,
+      "age_years": 35,
+      "height_cm": 187,
+      "specialization": "Heavy classic bodybuilding — chest depth, arms, controlled posing",
+      "identity": "Mediator and essayist interested in how institutions shape people; holds difficult conversations without rushing verdicts.",
+      "face": "Broad oval face, deep-set brown eyes, close braided hair, shaped moustache and beard, high forehead.",
+      "physique": "Heavy classic frame, deep chest, thick arms, broad back, strong legs, functional waist.",
+      "personality": "Reflective, steady, principled, quietly humorous; carries other people's disagreements too readily.",
+      "competence": "Mediation, writing, institutional history, classic posing.",
+      "movement_signature": "Slow deliberate turns, steady eye line, balanced stance, calm hands.",
+      "presentation": "Black training trousers, cream sleeveless top, simple ring, leather notebook.",
+      "growth_trajectory": "Baseline heavy classic; Pass 02 arm and upper-chest thickness; Pass 03 conditioning and stage transitions.",
+      "relationships": [
+        {
+          "character_id": "g01-07",
+          "dynamic": "Rafael's expressive style benefits from Idris's quiet scene-setting."
+        },
+        {
+          "character_id": "g01-11",
+          "dynamic": "Idris and Elias debate what measurements can say about a person."
+        },
+        {
+          "character_id": "g01-16",
+          "dynamic": "Malcolm trusts Idris to mediate without flattening differences."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "broad oval face and braided hair",
+          "calm deep-set eyes",
+          "deep chest and thick arms",
+          "steady classic stance"
+        ],
+        "signature_poses": [
+          "front relaxed heavy classic",
+          "side chest",
+          "three-quarter listening stance",
+          "neutral turnaround"
+        ],
+        "modular_asset_components": [
+          "braided-hair head",
+          "deep chest and broad back torso",
+          "thick arm pair",
+          "heavy classic leg set",
+          "cream top and black trousers",
+          "ring and notebook"
+        ],
+        "reference_sheet": "REF-G01-14",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-15",
+      "name": "Viktor Marin",
+      "generation": 1,
+      "age_years": 29,
+      "height_cm": 185,
+      "specialization": "Strength-athlete bodybuilding — traps, forearms, full-body bracing",
+      "identity": "Logistics lead who sees the hidden choreography of moving people and materials through a crowded building.",
+      "face": "Angular rectangular face, pale grey eyes, black buzz cut, straight nose, strong chin, clean-shaven.",
+      "physique": "Dense athletic frame, heavy traps, thick forearms, broad shoulders, strong back, balanced legs.",
+      "personality": "Stoic, dependable, exact, contained competitiveness; dislikes unearned praise.",
+      "competence": "Logistics, load planning, safety procedures, strength training, route coordination.",
+      "movement_signature": "Square stance, efficient pivots, controlled bracing, deliberate hand placement.",
+      "presentation": "Navy training shirt, utility trousers, black belt, practical boots.",
+      "growth_trajectory": "Baseline bracing-oriented strength; Pass 02 upper-back and forearm density; Pass 03 thoracic mobility and footwork.",
+      "relationships": [
+        {
+          "character_id": "g01-03",
+          "dynamic": "Darius trusts Viktor to coordinate equipment movement."
+        },
+        {
+          "character_id": "g01-10",
+          "dynamic": "Tomasz's workshop precision pairs with Viktor's logistics."
+        },
+        {
+          "character_id": "g01-06",
+          "dynamic": "Niko pushes Viktor to add speed and lateral movement."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "angular face and grey eyes",
+          "black buzz cut",
+          "heavy traps and forearms",
+          "square braced stance"
+        ],
+        "signature_poses": [
+          "front braced stance",
+          "farmer-carry profile",
+          "equipment route check",
+          "controlled overhead lockout"
+        ],
+        "modular_asset_components": [
+          "angular head and buzz cut",
+          "trap-heavy upper torso",
+          "thick forearm and grip set",
+          "balanced leg set",
+          "navy shirt and utility trousers",
+          "carry handles and route tags"
+        ],
+        "reference_sheet": "REF-G01-15",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-16",
+      "name": "Malcolm Reed",
+      "generation": 1,
+      "age_years": 40,
+      "height_cm": 189,
+      "specialization": "Veteran power bodybuilding — back thickness, chest, durable strength",
+      "identity": "Instructor whose authority comes from consistency; makes standards clear without making people feel small.",
+      "face": "Broad oval face, dark eyes, shaved head, full close beard grey at jaw, pronounced brow, smile lines.",
+      "physique": "Broad mature frame, thick back, full chest, dense arms, solid waist, powerful legs.",
+      "personality": "Steady, fair, direct, dryly humorous; slow to change methods that served him well.",
+      "competence": "Instruction, workshop supervision, strength programming, safe training culture.",
+      "movement_signature": "Measured gait, deliberate bracing, stable shoulders, decisive gestures.",
+      "presentation": "Black polo, grey shorts, leather belt, plain trainers.",
+      "growth_trajectory": "Baseline mature power; Pass 02 mobility and conditioning; Pass 03 modest back and leg development with age cues preserved.",
+      "relationships": [
+        {
+          "character_id": "g01-08",
+          "dynamic": "Gideon is his peer and constructive dissenter."
+        },
+        {
+          "character_id": "g01-14",
+          "dynamic": "Idris helps Malcolm resolve group disagreements."
+        },
+        {
+          "character_id": "g01-05",
+          "dynamic": "Soren shares Malcolm's preference for practical work."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "shaved head and grey-jaw beard",
+          "broad mature frame",
+          "thick back and solid waist",
+          "steady expression"
+        ],
+        "signature_poses": [
+          "front relaxed veteran power",
+          "rear back thickness",
+          "safe squat setup",
+          "instructor hand-position demo"
+        ],
+        "modular_asset_components": [
+          "broad oval head and mature beard",
+          "thick torso and back shell",
+          "dense arms and sturdy legs",
+          "black polo and grey shorts",
+          "lifting belt and training board"
+        ],
+        "reference_sheet": "REF-G01-16",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-17",
+      "name": "Enzo Bellini",
+      "generation": 1,
+      "age_years": 24,
+      "height_cm": 178,
+      "specialization": "Classic physique — shoulder roundness, arms, stage rhythm",
+      "identity": "Young composer and sound technician who thinks in motifs and timing; youngest, not apprentice by default.",
+      "face": "Oval face, dark expressive eyes, thick black curls, straight brows, narrow nose, faint moustache, quick smile.",
+      "physique": "Compact classic frame, round delts, full arms, high chest, tight waist, clean leg lines.",
+      "personality": "Inventive, sociable, mischievous, ambitious, impatient with slow consensus.",
+      "competence": "Music composition, audio editing, rhythm analysis, posing choreography.",
+      "movement_signature": "Rhythmic foot taps, quick shoulder accents, fluid transitions, precise timing.",
+      "presentation": "Black posing trunks, ivory open-collar shirt, headphones during production.",
+      "growth_trajectory": "Baseline compact classic; Pass 02 upper-chest and arm fullness; Pass 03 quad detail and controlled transitions.",
+      "relationships": [
+        {
+          "character_id": "g01-07",
+          "dynamic": "Rafael gives Enzo a physical vocabulary for music."
+        },
+        {
+          "character_id": "g01-12",
+          "dynamic": "Bruno provides the communal setting for Enzo's compositions."
+        },
+        {
+          "character_id": "g01-13",
+          "dynamic": "Kellan and Enzo co-design camera and rhythm timing."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "black curls and faint moustache",
+          "expressive dark eyes",
+          "round deltoids and full arms",
+          "compact classic proportions"
+        ],
+        "signature_poses": [
+          "front classic stance",
+          "side biceps presentation",
+          "music-timed quarter-turn",
+          "headphone-on sound check"
+        ],
+        "modular_asset_components": [
+          "oval head and curly hair",
+          "compact torso with chest insert",
+          "round deltoid and full arm modules",
+          "classic thigh and calf pair",
+          "posing trunks and open-collar shirt",
+          "headphones and audio recorder"
+        ],
+        "reference_sheet": "REF-G01-17",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-18",
+      "name": "Cassian Holt",
+      "generation": 1,
+      "age_years": 32,
+      "height_cm": 195,
+      "specialization": "Mass-focused bodybuilding — long-frame chest, arms, back",
+      "identity": "Structural engineer who studies how large forms distribute stress; skeptical of spectacle.",
+      "face": "Long rectangular face, light grey eyes, straight medium blond hair, high cheekbones, straight nose, clean-shaven.",
+      "physique": "Tall broad long-frame build, deep chest, long arms, wide back, substantial quads, strong functional waist.",
+      "personality": "Analytical, dry, skeptical, loyal, uncomfortable with untestable claims.",
+      "competence": "Structural engineering, material testing, load analysis, hypertrophy programming.",
+      "movement_signature": "Long controlled reach, deliberate stance changes, slow turns to maintain balance.",
+      "presentation": "Stone-grey sleeveless top, dark blue shorts, work boots in engineering bay.",
+      "growth_trajectory": "Baseline long-frame mass; Pass 02 chest and lat density; Pass 03 leg development and balance.",
+      "relationships": [
+        {
+          "character_id": "g01-03",
+          "dynamic": "Darius and Cassian challenge structural assumptions."
+        },
+        {
+          "character_id": "g01-09",
+          "dynamic": "Leon supplies movement data; Cassian tests its mechanics."
+        },
+        {
+          "character_id": "g01-19",
+          "dynamic": "Pavel helps Cassian repair structures they inspect."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "195 cm long frame",
+          "light grey eyes and blond hair",
+          "deep chest and long arms",
+          "broad back"
+        ],
+        "signature_poses": [
+          "front long-frame mass",
+          "side chest with arm length",
+          "rear lat spread",
+          "measured beam carry"
+        ],
+        "modular_asset_components": [
+          "long rectangular head and blond hair",
+          "long ribcage and arm segments",
+          "broad back and chest inserts",
+          "long thigh and calf modules",
+          "stone-grey top and blue shorts",
+          "engineering beam and load cell"
+        ],
+        "reference_sheet": "REF-G01-18",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-19",
+      "name": "Pavel Orlov",
+      "generation": 1,
+      "age_years": 37,
+      "height_cm": 180,
+      "specialization": "Classic power bodybuilding — legs, trunk density, controlled strength",
+      "identity": "Restoration carpenter who repairs old structures rather than replacing them; continuity is a material practice.",
+      "face": "Broad cheekbones, dark brown eyes, close dark hair, heavy moustache and short beard, asymmetrical smile, strong nose.",
+      "physique": "Compact medium frame, thick trunk, dense legs, broad shoulders, full arms, strong calves.",
+      "personality": "Reserved, observant, loyal, patient, unexpectedly playful when trust is established.",
+      "competence": "Wood restoration, joinery, structural repair, classic strength training.",
+      "movement_signature": "Stable foot placement, strong hip hinge, careful carrying technique, economical hands.",
+      "presentation": "Dark green work shirt, charcoal shorts, leather apron in restoration shop.",
+      "growth_trajectory": "Baseline compact classic power; Pass 02 leg and trunk density; Pass 03 shoulder mobility and conditioning.",
+      "relationships": [
+        {
+          "character_id": "g01-10",
+          "dynamic": "Tomasz shares Pavel's repair-first approach."
+        },
+        {
+          "character_id": "g01-18",
+          "dynamic": "Cassian brings calculations; Pavel tests them against timber."
+        },
+        {
+          "character_id": "g01-05",
+          "dynamic": "Soren and Pavel restore the old corridor buildings."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "broad cheekbones and moustache",
+          "asymmetrical smile",
+          "thick trunk and dense legs",
+          "sturdy medium-height frame"
+        ],
+        "signature_poses": [
+          "front sturdy stance",
+          "side thigh and trunk profile",
+          "controlled hinge with timber",
+          "apron at workbench"
+        ],
+        "modular_asset_components": [
+          "broad-cheekbone head and facial hair",
+          "thick trunk assembly",
+          "dense thigh and calf modules",
+          "broad arm pair",
+          "green shirt, shorts and apron",
+          "wood plane and timber sample"
+        ],
+        "reference_sheet": "REF-G01-19",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    },
+    {
+      "id": "g01-20",
+      "name": "Silas Grant",
+      "generation": 1,
+      "age_years": 28,
+      "height_cm": 184,
+      "specialization": "Outdoor athletic bodybuilding — shoulders, back endurance, functional legs",
+      "identity": "Naturalist and field guide who brings the population into unfamiliar landscapes and notices small environmental changes.",
+      "face": "Long oval face, dark brown eyes, shoulder-length locs tied back, broad smile, straight nose, light jaw beard.",
+      "physique": "Athletic medium-tall frame, broad shoulders, long torso, defined lats, narrow waist, muscular legs, high endurance.",
+      "personality": "Warm, curious, independent, observant, quietly stubborn about protecting familiar places.",
+      "competence": "Field navigation, ecology, outdoor safety, endurance training, observational drawing.",
+      "movement_signature": "Easy stride, stable uneven-ground footwork, relaxed shoulders, quick terrain and weather checks.",
+      "presentation": "Forest-blue sleeveless top, trail shorts, durable boots, field notebook and water bottle.",
+      "growth_trajectory": "Baseline outdoor athletic; Pass 02 back and shoulder endurance; Pass 03 leg strength and carrying capacity without losing agility.",
+      "relationships": [
+        {
+          "character_id": "g01-05",
+          "dynamic": "Soren introduces Silas to large-scale building and field work."
+        },
+        {
+          "character_id": "g01-09",
+          "dynamic": "Leon learns from Silas how bodies adapt to uneven terrain."
+        },
+        {
+          "character_id": "g01-12",
+          "dynamic": "Bruno and Silas share food sourcing and preparation."
+        }
+      ],
+      "production": {
+        "silhouette_anchors": [
+          "tied-back locs",
+          "long oval face and jaw beard",
+          "broad shoulders over long torso",
+          "terrain-ready legs"
+        ],
+        "signature_poses": [
+          "front athletic relaxed",
+          "trail ascent profile",
+          "rear lat and shoulder endurance",
+          "field observation with notebook"
+        ],
+        "modular_asset_components": [
+          "long oval head and tied-back locs",
+          "long torso and broad-lat shell",
+          "athletic arm and leg modules",
+          "trail top, shorts and boots",
+          "field notebook and water bottle"
+        ],
+        "reference_sheet": "REF-G01-20",
+        "turnaround_views": [
+          "front",
+          "left_profile",
+          "back"
+        ],
+        "required_pose_views": [
+          "front_relaxed",
+          "three_quarter_signature",
+          "side_pose",
+          "action_or_work_pose"
+        ],
+        "model_notes": "Preserve named silhouette anchors across all views; use regional geometry and corrective shapes rather than global scaling."
+      },
+      "canon_status": "generation-01-established",
+      "open_questions": [
+        "voice sample and phonetic cadence",
+        "exact growth timing after baseline",
+        "final clothing color variants"
+      ]
+    }
+  ]
+}

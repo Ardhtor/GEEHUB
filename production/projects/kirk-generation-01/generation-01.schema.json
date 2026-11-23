@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GEEHUB Population Generation",
+  "type": "object",
+  "required": [
+    "schema",
+    "project_id",
+    "generation",
+    "cohort_size",
+    "canon",
+    "production_standard",
+    "members"
+  ],
+  "properties": {
+    "schema": {
+      "const": "geehub.population-generation/1"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "generation": {
+      "const": 1
+    },
+    "cohort_size": {
+      "const": 20
+    },
+    "canon": {
+      "type": "object",
+      "required": [
+        "origin",
+        "principle",
+        "continuity",
+        "boundary"
+      ]
+    },
+    "production_standard": {
+      "type": "object",
+      "required": [
+        "reference_sheet",
+        "camera",
+        "anatomy",
+        "modularity",
+        "rig",
+        "materials",
+        "provenance",
+        "review_gates"
+      ]
+    },
+    "members": {
+      "type": "array",
+      "minItems": 20,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "generation",
+          "age_years",
+          "height_cm",
+          "specialization",
+          "identity",
+          "face",
+          "physique",
+          "personality",
+          "competence",
+          "movement_signature",
+          "presentation",
+          "growth_trajectory",
+          "relationships",
+          "production",
+          "canon_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^g01-[0-9]{2}$"
+          },
+          "generation": {
+            "const": 1
+          },
+          "age_years": {
+            "type": "integer",
+            "minimum": 18
+          },
+          "relationships": {
+            "type": "array",
+            "minItems": 2
+          },
+          "production": {
+            "type": "object",
+            "required": [
+              "silhouette_anchors",
+              "signature_poses",
+              "modular_asset_components",
+              "reference_sheet",
+              "turnaround_views",
+              "required_pose_views"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

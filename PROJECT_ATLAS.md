@@ -4,9 +4,22 @@ GEEHUB is the umbrella for the projects, worlds, tools, experiments, archives, c
 
 ## Operating principle
 
-Discover → synthesize → build → test → preserve → branch.
+Discover → preserve → connect → develop when useful.
 
-A project can begin as a note, become a prototype, grow into a standalone repository, and still remain linked from GEEHUB. Large recurring concepts get their own repositories when separation makes them easier to evolve.
+GEEHUB is a collection before it is a worklist. A note may remain a note; an experiment may remain an experiment; a completed artifact does not need to become a continuing project. Only material with sustained scope and a meaningful next stage needs a project path. Large recurring concepts can earn their own repositories when separation makes them easier to evolve.
+
+## What a registered node can be
+
+The atlas contains several kinds of records, not one hundred-plus simultaneous assignments:
+
+- **Worlds and projects** — substantial creative or technical bodies of work with their own continuity.
+- **Artifacts and chapters** — finished or developing works that belong to a larger world or project.
+- **Characters and canon** — people, relationships, rules, and established fictional material.
+- **Tools and prototypes** — working interfaces, engines, experiments, and technical demonstrations.
+- **Research and references** — source collections, observations, and evidence with provenance.
+- **Notes and concepts** — early ideas, fragments, possibilities, and unresolved directions that may remain dormant.
+
+A registry status describes the maturity or activity of a record. It does not by itself create a task, promise implementation, or imply that the record belongs on the public front page.
 
 ## Major territories
 
@@ -61,9 +74,9 @@ The umbrella should remain navigable. A new repository should earn its independe
 
 Use short, memorable names for major worlds and systems. GEEHUB remains the index. Individual repositories can evolve at their own pace and may link back here through a standard `GEEHUB` section in their README.
 
-## Project registry
+## Collection registry
 
-The machine-readable project registry is now present in both `projects.json` (the repository-wide atlas) and `hub/projects.json` (the browser-facing constellation). Both files carry the same 106 stable project IDs while retaining their distinct presentation fields: the root atlas preserves the wider catalogue and project metadata; the Hub registry supplies the group, status, summary, tags, and relative paths used by the browser. The two historical IDs `the-complex` / `complex` and `big-bruteforce` / `bruteforce` remain separate for compatibility and are cross-linked rather than silently renamed. `hub/validate-projects.py --check-root` checks ID parity, and the regression suite runs in the data-validation workflow. New entries should be added to both registries in the same change, with a stable ID, a real path when one exists, and an explicit null path when the destination is not yet built.
+The machine-readable collection registry is maintained in `projects.json` and `hub/projects.json`. The two files currently contain 106 stable IDs and serve different presentation needs: the root file preserves the wider catalogue and metadata; the Hub file supplies the groups, statuses, summaries, tags, and paths used by the browser. These are 106 points in the GEEHUB constellation, not 106 active assignments. Some entries are worlds or tools; others are chapters, characters, canon records, research references, experiments, or concepts. The two historical IDs `the-complex` / `complex` and `big-bruteforce` / `bruteforce` remain separate for compatibility and are cross-linked rather than silently renamed. `hub/validate-projects.py --check-root` checks ID parity, and the regression suite runs in the data-validation workflow. New entries should identify what kind of record they represent and should not be promoted to a continuing project merely to make them visible.
 
 ## Detailed Maps
 

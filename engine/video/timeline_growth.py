@@ -103,9 +103,17 @@ def animate_timeline_growth(mesh, timeline, profile=None):
             key.value = values[region]
             key.keyframe_insert(data_path="value", frame=frame, group="Continuous growth / " + region)
         pec_value = values["pectorals"]
-        for key in pectoral_keys.values():
-            key.value = pec_value
-            key.keyframe_insert(data_path="value", frame=frame, group="Continuous growth / pectorals")
+        pec_channels = {
+            "projection": values.get("pectorals_projection", pec_value),
+            "upper": values.get("pectorals_upper", pec_value),
+            "outer": values.get("pectorals_outer", pec_value),
+        }
+        for region, key in pectoral_keys.items():
+            key.value = pec_channels[region]
+            key.keyframe_insert(
+                data_path="value", frame=frame,
+                group="Continuous growth / pectorals / " + region,
+            )
 
     # The curve evaluator already supplies smoothstep values. Linear interpolation
     # between adjacent frame samples preserves those values exactly at render time.

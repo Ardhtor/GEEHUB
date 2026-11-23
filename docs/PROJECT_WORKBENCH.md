@@ -91,7 +91,7 @@ The expansion atlas and the people volume are separate but connected records. Co
 
 | Project | Entry |
 |---|---|
-| The Institute of Becoming | [Institute](../lore/INSTITUTE_OF_BECOMING.md) · [Residential life](../lore/INSTITUTE_DORMITORY_AND_RESIDENTIAL_LIFE.md) |
+| The Institute of Becoming | [Institute](../lore/INSTITUTE_OF_BECOMING.md) · [Residential life](../lore/INSTITUTE_DORMITORY_AND_RESIDENTIAL_LIFE.md) · [Personal intelligence](../lore/INSTITUTE_PERSONAL_INTELLIGENCE_AND_ASSISTANTS.md) |
 | Mexiancas | [Chronicle and continuity index](../lore/mexiancas/README.md) |
 | The Dad Convent | [World and chapter index](../lore/dad-convent/README.md) |
 | Arthur and the Fingerlands | [World record](../lore/ARTHUR_AND_FINGERLANDS.md) |

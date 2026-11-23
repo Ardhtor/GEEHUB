@@ -83,7 +83,8 @@
       "full-scene",
       "chest-front",
       "chest-three-quarter",
-      "chest-side"
+      "chest-side",
+      "chest-tank-alternate"
     ],
     "criteria": [
       "single continuous adult human body surface",

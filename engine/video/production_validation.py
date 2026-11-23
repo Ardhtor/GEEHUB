@@ -447,10 +447,14 @@ def validate_staged_references(project_root: Path, required_asset_ids: list[str]
             report["missing_asset_ids"].append(asset_id)
             report["errors"].append(f"{asset_id}: provenance sidecar must be a JSON object")
             continue
-        library = sidecar.get("library", {})
-        staged = sidecar.get("staged", {})
-        integrity = sidecar.get("integrity", {})
-        source = sidecar.get("source", {})
+        library = sidecar.get("library")
+        staged = sidecar.get("staged")
+        integrity = sidecar.get("integrity")
+        source = sidecar.get("source")
+        if not all(isinstance(item, dict) for item in (library, staged, integrity, source)):
+            report["missing_asset_ids"].append(asset_id)
+            report["errors"].append(f"{asset_id}: provenance sidecar sections are malformed")
+            continue
         valid = (
             sidecar.get("schema") == "geehub.reference-image-source/1"
             and sidecar.get("asset_id") == asset_id

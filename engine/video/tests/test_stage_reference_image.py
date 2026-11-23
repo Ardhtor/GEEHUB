@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from stage_reference_image import image_dimensions, stage_reference_image, validate_reference_library
+from stage_reference_image import image_dimensions, image_format, stage_reference_image, validate_reference_library
 
 
 class ReferenceImageStagingTests(unittest.TestCase):
@@ -40,6 +40,25 @@ class ReferenceImageStagingTests(unittest.TestCase):
 
     def test_reads_png_dimensions(self):
         self.assertEqual(image_dimensions(self.source), (640, 480))
+        self.assertEqual(image_format(self.source), "png")
+
+    def test_reads_jpeg_dimensions(self):
+        jpeg = self.root / "source.jpg"
+        jpeg.write_bytes(
+            b"\\xff\\xd8\\xff\\xc0\\x00\\x11\\x08"
+            + struct.pack(">HH", 480, 640)
+            + b"\\x03\\x01\\x11\\x00\\x02\\x11\\x00\\x03\\x11\\x00\\xff\\xd9"
+        )
+        self.assertEqual(image_dimensions(jpeg), (640, 480))
+        self.assertEqual(image_format(jpeg), "jpeg")
+
+    def test_reads_webp_vp8x_dimensions(self):
+        webp = self.root / "source.webp"
+        width, height = 640, 480
+        payload = b"\\x00\\x00\\x00\\x00" + (width - 1).to_bytes(3, "little") + (height - 1).to_bytes(3, "little")
+        webp.write_bytes(b"RIFF" + (22).to_bytes(4, "little") + b"WEBPVP8X" + (10).to_bytes(4, "little") + payload)
+        self.assertEqual(image_dimensions(webp), (640, 480))
+        self.assertEqual(image_format(webp), "webp")
 
     def test_validates_reference_library_provenance_fields(self):
         manifest = json.loads((self.project / "07_MANIFESTS" / "reference_library.json").read_text(encoding="utf-8"))

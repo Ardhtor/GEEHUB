@@ -26,8 +26,9 @@ jobs:
         with:
           python-version: '3.13'
           cache: pip
+          cache-dependency-path: engine/video/requirements-ci.txt
       - name: Install timeline interchange adapter
-        run: python -m pip install --upgrade opentimelineio bpy==5.3.0
+        run: python -m pip install -r engine/video/requirements-ci.txt
       - name: Compile video tools
         run: python -m py_compile engine/video/validate_timeline.py engine/video/otio_export.py engine/video/import_gaussian_splat.py engine/video/gee_engine.py engine/video/render_project.py engine/video/stage_reference_image.py engine/video/timeline_growth.py engine/video/growth_geometry.py engine/video/growth_curves.py engine/video/tests/test_validate_timeline.py engine/video/tests/test_otio_export.py engine/video/tests/test_growth_geometry.py engine/video/tests/test_growth_curves.py engine/video/tests/test_gee_engine.py engine/video/tests/test_stage_reference_image.py engine/video/tests/blender_growth_integration.py
       - name: Run timeline, provenance, and OpenTimelineIO regression tests

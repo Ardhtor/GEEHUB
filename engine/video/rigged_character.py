@@ -181,7 +181,7 @@ def _torso_surface(name, skin):
                 + .035 * (lower_left + lower_right)
                 + .018 * outer
             ) * front
-            groove = .035 * sternum * front
+            groove = .08 * sternum * front
             y -= bulge
             y += groove
             vertices.append((x, y, z))

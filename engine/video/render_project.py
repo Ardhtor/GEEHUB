@@ -12,7 +12,7 @@ from pathlib import Path
 
 from growth_curves import validate_profile
 from growth_geometry import validate_pectorals_geometry
-from stage_reference_image import validate_reference_library
+from stage_reference_image import validate_image_library_index, validate_reference_library
 
 HERE = Path(__file__).resolve().parent
 DEFAULT_PROJECT = HERE.parent.parent / "production" / "projects" / "hulums-lab-serum-60s"
@@ -51,6 +51,34 @@ def validate(project: Path) -> tuple[dict, dict]:
         raise ValueError("Invalid reference library: " + "; ".join(reference_errors))
     if reference_library.get("project_id") != timeline.get("project_id"):
         raise ValueError("Reference library project_id does not match timeline")
+    global_index_path = Path(__file__).resolve().parents[2] / "production" / "IMAGE_LIBRARY_INDEX.json"
+    global_index = json.loads(global_index_path.read_text(encoding="utf-8"))
+    global_index_errors = validate_image_library_index(global_index)
+    if global_index_errors:
+        raise ValueError("Invalid global image library index: " + "; ".join(global_index_errors))
+    if reference_library.get("source_of_truth", {}).get("file_id") != global_index.get("source_of_truth", {}).get("file_id"):
+        raise ValueError("Project reference manifest does not point to the canonical Dropbox image library")
+    global_assets = {}
+    for collection in global_index["collections"]:
+        for asset in collection["assets"]:
+            global_assets[asset["asset_id"]] = asset
+    for asset in global_index.get("supplemental_candidates", []):
+        global_assets[asset["asset_id"]] = asset
+    for asset in reference_library["assets"]:
+        canonical = global_assets.get(asset["asset_id"])
+        if canonical is None:
+            raise ValueError("Project reference is missing from the global image library index: " + asset["asset_id"])
+        field_pairs = (
+            ("file_id", "file_id"),
+            ("library_file_id", "library_file_id"),
+            ("file_name", "filename"),
+            ("mime_type", "mime_type"),
+            ("size_bytes", "size_bytes"),
+            ("model_generated", "model_generated"),
+        )
+        for project_field, global_field in field_pairs:
+            if asset.get(project_field) != canonical.get(global_field):
+                raise ValueError(f"Project reference {asset['asset_id']} disagrees with global image library field {project_field}")
     pectorals = profile.get("deformation", {}).get("pectorals", {})
     pectoral_geometry = pectorals.get("geometry")
     if not isinstance(pectoral_geometry, dict):

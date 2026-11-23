@@ -2637,3 +2637,11 @@ NICK: The world crosses the route from NORTHGATE UNIVERSITY into FOUNDERS DORMIT
 SETH: A welcoming men's dormitory with private rooms, shared kitchens, common rooms, a courtyard and a greenhouse. Relation carried forward: ROOMS ABOVE THE QUADRANGLE.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 342 — ATMOSPHERE / FOUNDERS DORMITORY / 2026-11-23T17:17:40.328415+00:00
+
+SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

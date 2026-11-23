@@ -15,13 +15,15 @@ class ProductionValidationTests(unittest.TestCase):
         self.references = {"project_id": "test-project", "assets": [{"asset_id": "ref-a"}, {"asset_id": "ref-b"}]}
         self.provider = {
             "schema": "geehub.video-provider/1",
-            "provider_id": "xai-grok-imagine-video",
+            "provider_id": "test-video-provider",
             "display_name": "Grok Imagine Video",
             "connection_status": "not-connected",
             "api_adapter_status": "not-implemented",
             "generation_enabled": False,
             "cost_approval_required": True,
             "cost_approval_status": "not-granted",
+            "data_transfer_approval_status": "not-granted",
+            "reference_rights_clearance_status": "not-verified",
             "mock_mode": False,
             "fallback_policy": "Never substitute placeholder media for real generated video."
         }
@@ -29,7 +31,17 @@ class ProductionValidationTests(unittest.TestCase):
             "schema": "geehub.shot-manifest/1",
             "project_id": "test-project",
             "provider": "Grok Imagine Video",
-            "generation_policy": {"cost_approval_required": True, "mock_or_placeholder_media_allowed": False},
+            "provider_id": "test-video-provider",
+            "generation_policy": {
+                "cost_approval_required": True,
+                "mock_or_placeholder_media_allowed": False,
+                "connection_status": "not-connected",
+                "api_adapter_status": "not-implemented",
+                "generation_enabled": False,
+                "cost_approval_status": "not-granted",
+                "data_transfer_approval_status": "not-granted",
+                "reference_rights_clearance_status": "not-verified",
+            },
             "shots": [
                 {"shot_id": "a", "sequence_order": 1, "duration_seconds": 8, "timeline_range_seconds": [0, 8],
                  "continuity_key": "subject", "prompt": "First actual video shot", "reference_assets": [{"asset_id": "ref-a", "use": "shape"}],

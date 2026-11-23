@@ -123,3 +123,6 @@ The country beneath them had not stopped moving. The maps would need another rev
 - **Andrew and Kirk:** Their chemistry remains intact, but Andrew must learn that wanting attention does not entitle him to all of Kirk's time. A boundary is not rejection.
 - **Atlas rule:** The local map holds the four residences as named places but leaves their precise chamber positions unmeasured until surveyed. They are body-geography, not Kirk's separate mental house or a new Veyrthalis district.
 - **Open questions:** The route from the Warm Table to the paired residential country; the exact location and orientation of each mansion; how the district adapts after Kirk's next significant movement; how Andrew's attention-seeking develops.
+
+
+**Local map:** [Book II — Local Spatial Atlas](./BOOK_II_SPATIAL_ATLAS.md) records the four estates and keeps their exact chamber positions provisional until surveyed.

@@ -55,7 +55,7 @@ def host_is_loopback(host: str | None) -> bool:
     if value.startswith("[") and value.endswith("]:8765"):
         value = value[1:-6]
     elif value.endswith(":8765"):
-        value = value[:-6]
+        value = value[:-5]
     else:
         return False
     try:

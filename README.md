@@ -12,6 +12,10 @@ The hub is not a pile of files. It records what happened, what changed, what rem
 
 The [complete directory map](docs/REPOSITORY_NAVIGATION.md) opens every area of GEEHUB. The [Project Workbench](docs/PROJECT_WORKBENCH.md) is the practical resume surface for continuing existing projects, showing their working files, current state, and next useful action. Each directory has a local `README.md` with direct links to immediate contents and navigation back to its parent and the whole repository.
 
+## Play the Casebook
+
+[Open the GEEHUB Casebook](casebook.html) — a persistent, branching adventure. Choices open locations, add characters and collections, create gatherings, and change the saved state of the world. Progress is stored locally in the browser; the casebook is a working first implementation, separate from the main atlas and ready to be extended with repository-backed state.
+
 ## The voice
 
 GEEHUB is edited as one continuous announcement carried in substantial, connected paragraphs. Across the hub, default prose should develop an idea, scene, observation, or production decision over several complete sentences before moving to a new paragraph. Avoid staccato lineation, isolated sentence fragments, and list-shaped prose. Keep lists, labels, metadata, code, and genuinely sequential instructions structured when their function requires it; the longer-paragraph rule governs narrative and explanatory prose.

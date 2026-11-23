@@ -25,3 +25,6 @@ engine/video/tests/output/
 
 # Provider job/run records stay with the Dropbox production workspace, not Git history.
 production/projects/*/07_MANIFESTS/provider_runs/
+# Generated procedural audio and per-run render evidence stay in the Dropbox production workspace.
+production/projects/*/06_AUDIO/GENERATED/
+production/projects/*/07_MANIFESTS/audio_render*.json

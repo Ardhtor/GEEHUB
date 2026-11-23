@@ -96,6 +96,12 @@
       "x": 36,
       "y": 38,
       "radius": 5
+    },
+    {
+      "id": "tribal-territories",
+      "x": 14,
+      "y": 34,
+      "radius": 6
     }
   ],
   "routes": [
@@ -194,6 +200,18 @@
     [
       "kingdom-land",
       "facility"
+    ],
+    [
+      "tribal-territories",
+      "male-harem"
+    ],
+    [
+      "tribal-territories",
+      "kingdom-land"
+    ],
+    [
+      "tribal-territories",
+      "veyrthalis"
     ]
   ],
   "layers": [

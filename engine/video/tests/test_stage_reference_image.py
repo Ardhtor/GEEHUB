@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from stage_reference_image import image_dimensions, stage_reference_image
+from stage_reference_image import image_dimensions, stage_reference_image, validate_reference_library
 
 
 class ReferenceImageStagingTests(unittest.TestCase):
@@ -39,6 +39,12 @@ class ReferenceImageStagingTests(unittest.TestCase):
 
     def test_reads_png_dimensions(self):
         self.assertEqual(image_dimensions(self.source), (640, 480))
+
+    def test_validates_reference_library_provenance_fields(self):
+        manifest = json.loads((self.project / "07_MANIFESTS" / "reference_library.json").read_text(encoding="utf-8"))
+        self.assertEqual(validate_reference_library(manifest), [])
+        manifest["assets"][0]["model_generated"] = "unknown"
+        self.assertTrue(any("model_generated must be boolean" in error for error in validate_reference_library(manifest)))
 
     def test_stages_copy_and_writes_provenance(self):
         result = stage_reference_image(self.project, "test-reference", self.source)

@@ -446,18 +446,68 @@ def validate_staged_references(project_root: Path, required_asset_ids: list[str]
     return report
 
 
+def validate_cost_approval_manifest(approval: object, provider: object, shots: object) -> list[str]:
+    if not isinstance(approval, dict):
+        return ["provider cost approval manifest must be an object"]
+    if not isinstance(provider, dict) or not isinstance(shots, dict):
+        return ["provider and shot manifests are required to validate cost approval"]
+    errors = []
+    if approval.get("schema") != "geehub.provider-cost-approval/1":
+        errors.append("cost approval schema must be geehub.provider-cost-approval/1")
+    if approval.get("project_id") != shots.get("project_id"):
+        errors.append("cost approval project_id must match the shot manifest")
+    if approval.get("provider_id") != provider.get("provider_id"):
+        errors.append("cost approval provider_id must match the provider manifest")
+    if approval.get("status") not in {"not-granted", "approved"}:
+        errors.append("cost approval status must be not-granted or approved")
+    if approval.get("status") != provider.get("cost_approval_status"):
+        errors.append("cost approval status must match the provider manifest")
+    workflow = provider.get("generation_workflow", {}) if isinstance(provider.get("generation_workflow"), dict) else {}
+    pricing = provider.get("pricing", {}) if isinstance(provider.get("pricing"), dict) else {}
+    for field, expected in (
+        ("model", workflow.get("model_id")),
+        ("resolution", workflow.get("resolution", pricing.get("resolution"))),
+        ("total_duration_seconds", workflow.get("total_duration_seconds")),
+    ):
+        if approval.get(field) != expected:
+            errors.append(f"cost approval {field} must match the provider workflow")
+    first_shot = shots.get("shots", [{}])[0] if isinstance(shots.get("shots"), list) and shots.get("shots") else {}
+    reference_records = first_shot.get("reference_assets", []) if isinstance(first_shot, dict) else []
+    expected_refs = [item.get("asset_id") for item in reference_records if isinstance(item, dict)]
+    if approval.get("reference_asset_ids") != expected_refs:
+        errors.append("cost approval reference_asset_ids must match the selected shot references")
+    if approval.get("status") == "approved":
+        if not _nonempty(approval.get("approved_by")) or not _nonempty(approval.get("approved_at")):
+            errors.append("approved cost record requires approved_by and approved_at")
+        maximum = approval.get("max_usd")
+        estimate = pricing.get("estimated_total_usd")
+        if isinstance(maximum, bool) or not isinstance(maximum, (int, float)) or not math.isfinite(maximum):
+            errors.append("approved cost record requires a finite max_usd")
+        elif isinstance(estimate, (int, float)) and maximum < estimate:
+            errors.append("approved max_usd is below the provider workflow estimate")
+        if approval.get("reference_data_transfer_approved") is not True:
+            errors.append("approved cost record must explicitly authorize reference-image transfer")
+        if approval.get("reference_rights_cleared") is not True:
+            errors.append("approved cost record must confirm reference-image usage rights")
+    if provider.get("generation_enabled") is True and approval.get("status") != "approved":
+        errors.append("provider generation cannot be enabled without an approved cost record")
+    return errors
+
+
 def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
     manifests = project_root / "07_MANIFESTS"
     try:
         shots = json.loads((manifests / "shots.json").read_text(encoding="utf-8"))
         provider = json.loads((manifests / "video_provider.json").read_text(encoding="utf-8"))
         acceptance = json.loads((manifests / "production_acceptance.json").read_text(encoding="utf-8"))
+        cost_approval = json.loads((manifests / "cost_approval.json").read_text(encoding="utf-8"))
         references = json.loads((manifests / "reference_library.json").read_text(encoding="utf-8"))
         growth_profile = json.loads((manifests / "growth_profile.json").read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         return [f"could not load production manifests: {exc}"], {}
     errors = validate_provider_manifest(provider)
     errors.extend(validate_shot_manifest(shots, references, provider, project_root))
+    errors.extend(validate_cost_approval_manifest(cost_approval, provider, shots))
     if not isinstance(shots, dict) or not isinstance(acceptance, dict):
         errors.append("shot or acceptance manifest must be a JSON object")
         return errors, {}
@@ -470,10 +520,20 @@ def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
     if not staging["verified"]:
         report["blockers"].append("all six canonical image-library references must be staged and checksum-verified")
     provider_record = provider if isinstance(provider, dict) else {}
+    report["cost_approval"] = {
+        "status": cost_approval.get("status") if isinstance(cost_approval, dict) else None,
+        "estimated_cost_usd": provider_record.get("pricing", {}).get("estimated_total_usd") if isinstance(provider_record.get("pricing"), dict) else None,
+        "reference_data_transfer_approved": cost_approval.get("reference_data_transfer_approved") if isinstance(cost_approval, dict) else False,
+        "reference_rights_cleared": cost_approval.get("reference_rights_cleared") if isinstance(cost_approval, dict) else False,
+    }
     if provider_record.get("connection_status") != "connected":
-        report["blockers"].append("Grok Imagine Video provider is not connected")
+        report["blockers"].append("xAI API key is not configured or the provider is not connected")
     if provider_record.get("cost_approval_status") != "approved":
         report["blockers"].append("explicit model-generation cost approval has not been granted")
+    if provider_record.get("data_transfer_approval_status") != "approved":
+        report["blockers"].append("selected image-library references have not been approved for transfer to xAI")
+    if provider_record.get("reference_rights_clearance_status") != "cleared":
+        report["blockers"].append("rights to use and transfer the selected reference images have not been cleared")
     if provider_record.get("generation_enabled") is not True:
         report["blockers"].append("provider generation remains disabled")
     try:

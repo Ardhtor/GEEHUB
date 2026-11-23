@@ -1,53 +1,38 @@
-# GEEHUB Project Ledger
+# GEEHUB — The Living Atlas
 
-_Last updated: 2026-11-23_
+*A growing collection of stories, places, people, images, and worlds.*
 
-This ledger records durable work, not intentions presented as accomplishments. Each track keeps its own state so narrative production can continue while infrastructure and archive work remain visible.
+GEEHUB is a place to enter ongoing creative worlds and follow the things that are taking shape inside them. Stories grow alongside their landscapes; characters gather histories; images become references; discoveries become part of the world's memory. This page is a guide to the work currently open.
 
-## 01 — Book II: The Kirk Expedition
+## The Kirk Expedition
 
-**Status:** Active; chapter production underway.
+**Enter the story:** [Book II — Chapter I: The Lost Country](./novel/chapters/BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md)
 
-- **Complete:** Chapter I — [The Lost Country](./novel/chapters/BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md). The expedition establishes the First Shelter and discovers the old trail.
-- **Complete:** Chapter II — [The Keepers of the Old Trail](./novel/chapters/BOOK_II_CHAPTER_II_THE_KEEPERS_OF_THE_OLD_TRAIL.md). The Measure House, Oren, Vale, Senn, and the living-map system enter the story.
-- **Complete:** Chapter III — [The Place That Moved](./novel/chapters/BOOK_II_CHAPTER_III_THE_PLACE_THAT_MOVED.md). The Long Fold and Warm Table change configuration; the expedition records the transformation and withdraws from an unverified opening.
-- **Next:** Chapter IV follows the new opening behind the Warm Table, while the Measure House compares successive maps and Kirk's own account of the movement.
-- **Continuity rule:** Preserve previous geographical states. Growth can reorganize a place, not merely enlarge it. Kirk remains an active person whose knowledge and permission matter.
+The expedition begins in an immense and unfamiliar country, where the men establish the First Shelter and discover traces of earlier travellers. Their search leads them to the Measure House, a settlement built by men who learned to navigate a landscape that never remains quite the same.
 
-## 02 — Novel archive and navigation
+[Chapter II — The Keepers of the Old Trail](./novel/chapters/BOOK_II_CHAPTER_II_THE_KEEPERS_OF_THE_OLD_TRAIL.md) introduces Oren, Vale, and Senn, along with the settlement's living maps and its long history of exploration.
 
-**Status:** Active maintenance.
+[Chapter III — The Place That Moved](./novel/chapters/BOOK_II_CHAPTER_III_THE_PLACE_THAT_MOVED.md) takes the expedition down into the lower country. The Long Fold has become a junction; the Warm Table has tilted; a new opening waits beyond the known route. The men return with a map that preserves both the old landscape and the one they have found.
 
-- **Complete:** novel/chapters/README.md now links to Book II Chapter III.
-- **Watch item:** The live index also contains a separate Book II, Chapter II entry, *The Promises That Keep*. It was preserved. Reconcile chapter numbering and branch relationships only after checking the relevant manuscript continuity; do not overwrite either branch by assumption.
-- **Next:** Audit the Book II chapter sequence and connect each chapter to its correct narrative branch.
+The next passage leads deeper into the country. The maps, the settlement, and Kirk's own account will continue to develop together.
 
-## 03 — Dropbox media pipeline
+## Worlds and stories
 
-**Status:** Defined direction; not yet deployed as an automated pipeline.
+GEEHUB's wider story collection brings together the Veyrthalis world, the Joseph and Kirk chronicles, the Second Heart, and the histories of the men and communities who inhabit the growing setting. These strands retain their own identities while sharing places, motifs, encounters, and discoveries.
 
-- **Target:** Preserve original photos and videos, register provenance, create separate observation records and transformation branches, then connect generated character and story material as additions.
-- **Production constraint:** Dropbox is intended to be the durable production location, not merely a chat attachment destination.
-- **Next:** Establish a repeatable source-inventory and asset-registration pass before any destructive or transformative processing.
+The worlds are not static backdrops. Their architecture, customs, relationships, and geography change as the stories continue.
 
-## 04 — Image and reference library
+## The image library
 
-**Status:** Manifest established; ongoing curation.
+The image library gathers visual references and creative material into an evolving collection. References remain connected to their origins, while new interpretations and generated work can develop as distinct additions.
 
-- **Complete:** The GEEHUB Image Creation Library Manifest is stored in Dropbox and indexes the existing collections and assets.
-- **Next:** Continue adding verified assets and their provenance; keep modular source components distinct from generated composites.
+[Open the GEEHUB Image Creation Library Manifest](https://www.dropbox.com/scl/fi/pcd3ri4dzevw76s5yxt4p/GEEHUB-Image-Creation-Library-Manifest.paper?rlkey=h36asgpjy4igjdtj7bzomltng&dl=0)
 
-## 05 — Workspace and production interface
+## The creative workspace
 
-**Status:** Design direction established; implementation remains open.
+The larger GEEHUB workspace is taking shape as a shared environment for stories, visual material, research, and production. Its purpose is to make the collection feel like a place: somewhere to discover a passage, revisit an artifact, follow a character, and see how one creation leads into another.
 
-- **Target:** A visible GEEHUB workspace connecting the corpus, project branches, artifacts, and production tools, with a persistent record of what has actually been built.
-- **Next:** Define the smallest working interface slice that can display project state and open the linked artifacts without requiring a full platform rebuild.
+## Continue exploring
 
-## Ledger conventions
-
-- **Complete** means the artifact exists and has been checked.
-- **Active** means work has begun and has a concrete next step.
-- **Defined direction** means the goal and constraints are recorded, but implementation is not complete.
-- Keep source material, observed references, transformations, and fictional additions distinguishable.
-- Update this ledger when a durable artifact is created, verified, materially changed, or blocked. Do not mark a task complete merely because it has been described.
+- [Browse the novel chapters](./novel/chapters/README.md)
+- [Read the GEEHUB repository](https://github.com/Ardhtor/GEEHUB)

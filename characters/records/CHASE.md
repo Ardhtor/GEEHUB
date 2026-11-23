@@ -65,3 +65,8 @@ Chase remembers the order in which objects were moved, keeps the first version o
 Chase takes up permanent residence in the Record House, a substantial mansion in the paired residential country of Kirk's anatomy. Its archive gallery preserves first accounts beside later revisions; a map room, paired studies, small observatory, movable cabinets, and long terrace suit his attentiveness to sequence and consequence. The house also gives him a life outside observation: repair work, walks, meals, guests, and private time. Chase is not made the district's universal narrator. His home is his own, and visits are by invitation. The Record House's exact position within the paired chambers remains unmeasured until a later survey establishes it.
 
 
+
+
+## Chapter VI — the Long Return
+
+Chase helps establish the Long Return across the Twin Grounds. He records direct measurements, Kirk's reported sensations, and Andrew's hypotheses as separate layers, and refuses to draw the unmeasured parts as though they were settled. The Record House becomes the working archive for the course's successive versions. Chase participates in the game as a resident, not merely as its recorder.

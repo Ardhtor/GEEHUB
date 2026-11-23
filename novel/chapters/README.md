@@ -39,3 +39,4 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 
 - [Book II, Chapter II — The Promises That Keep](./BOOK_II_CHAPTER_II_THE_PROMISES_THAT_KEEP.md) — Andrew Sim and Kirk re-establish their familiar chemistry and renew their infinite promises through shared work and play.
 - [Book II, Chapter I — The Lost Country](./BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md) — the men establish their first camp in Kirk's immense anatomy and discover an older trail.
+- [Book II, Chapter III — The Place That Moved](./BOOK_II_CHAPTER_III_THE_PLACE_THAT_MOVED.md) — the lower route has changed shape; the expedition records the Long Fold and Warm Table in successive states.

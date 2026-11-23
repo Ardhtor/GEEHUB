@@ -201,3 +201,8 @@ python3 engine/video/gee_engine.py export-shots \
 ```
 
 The engine runs the assembler inside Blender 5.3's Python environment (where OpenTimelineIO is bundled). It refuses draft shots, checks each media file with FFprobe, compares the probe against the registered metadata, builds a sequential OpenTimelineIO video track with per-shot provenance, writes the OTIO file, and reopens it to verify clip order. It does not create, simulate, or substitute video footage.
+
+
+## Render quality profiles
+
+A bounded preview render uses 35% resolution and 8 EEVEE samples to keep iteration fast. A full render uses the project's full 1920×1080 frame size and 64 EEVEE samples. The CI smoke render builds the actual scene, writes a one-frame MP4 and PNG review frame, and uploads the scene/render files as a short-lived GitHub Actions artifact; it is a technical smoke test, not an approved final video.

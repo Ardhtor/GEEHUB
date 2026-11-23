@@ -68,3 +68,8 @@ For a local render, export the selected Library image into the Dropbox-synced wo
       --source /path/to/Dropbox/exported/1000000650.webp
 
 The intake validates PNG/JPEG/WebP headers, records dimensions and SHA-256, copies the image into `01_SOURCE/REFERENCE_IMAGES/`, and writes a per-asset provenance sidecar plus `07_MANIFESTS/reference_imports.json`. It never edits the exported source and will not silently replace an existing staged image. The project renderer validates the reference manifest before proceeding. Unknown source rights remain marked as reference-only; an image's presence in the Library does not itself establish a distribution license.
+
+
+## Reference-calibrated pectoral deformation
+
+The project growth profile stores the pectoral projection, upper fullness, and outer sweep geometry as editable local-space centre/radius/offset triples. Its `reference_assets` list links those controls to the curated ChatGPT Library manifest. The project validator checks both the geometry and those links before rendering. This is a human-authored qualitative fit, not automatic 3D reconstruction or image-based depth estimation. The Blender 5.3 integration test exercises the actual shape-key and animation path rather than only the renderer-independent math.

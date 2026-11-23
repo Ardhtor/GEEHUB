@@ -504,11 +504,15 @@ def load_staged_reference_assets(project: Path, asset_ids: list[str]) -> list[di
         ):
             raise ValueError(f"Staged reference size does not match Library metadata: {asset_id}")
         if (
-            reference.get("width") is not None and staged_record.get("width") != reference.get("width")
+            reference.get("width") is not None
+            and (staged_record.get("width") != reference.get("width") or record.get("width") != reference.get("width"))
         ) or (
-            reference.get("height") is not None and staged_record.get("height") != reference.get("height")
+            reference.get("height") is not None
+            and (staged_record.get("height") != reference.get("height") or record.get("height") != reference.get("height"))
         ):
             raise ValueError(f"Staged reference dimensions do not match Library metadata: {asset_id}")
+        if record.get("rights_status") != reference.get("rights_status"):
+            raise ValueError(f"Staged reference registry rights status mismatch: {asset_id}")
         result.append({
             "asset_id": asset_id,
             "path": staged,

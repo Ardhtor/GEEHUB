@@ -65,7 +65,8 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
         errors.append("shot manifest schema must be geehub.shot-manifest/1")
     if not isinstance(reference_library, dict) or shots.get("project_id") != reference_library.get("project_id"):
         errors.append("shot manifest project_id must match the project reference library")
-    if not isinstance(provider, dict) or shots.get("provider") != provider.get("display_name"):
+    provider_config = provider if isinstance(provider, dict) else {}
+    if not isinstance(provider, dict) or shots.get("provider") != provider_config.get("display_name"):
         errors.append("shot manifest provider must match the provider manifest")
     policy = shots.get("generation_policy")
     if not isinstance(policy, dict):
@@ -94,9 +95,12 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
             errors.append(f"duplicate shot_id: {shot_id}")
         ids.add(shot_id)
         order = shot.get("sequence_order")
-        if not isinstance(order, int) or isinstance(order, bool) or order < 1 or order in orders:
-            errors.append(f"{label} sequence_order must be a unique positive integer")
-        orders.add(order)
+        if not isinstance(order, int) or isinstance(order, bool) or order < 1:
+            errors.append(f"{label} sequence_order must be a positive integer")
+        elif order in orders:
+            errors.append(f"{label} sequence_order must be unique")
+        else:
+            orders.add(order)
         if not _nonempty(shot.get("continuity_key")):
             errors.append(f"{label} needs a continuity_key")
         if not _nonempty(shot.get("prompt")):
@@ -123,15 +127,15 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
             errors.append(f"{label} generation record is required")
             continue
         state = generation.get("status")
-        if state not in {"not-started", "submitted", "completed", "failed"}:
+        if not isinstance(state, str) or state not in {"not-started", "submitted", "completed", "failed"}:
             errors.append(f"{label} has an unsupported generation status")
             continue
         if state in {"submitted", "completed"}:
-            if provider.get("connection_status") != "connected" or provider.get("api_adapter_status") != "implemented":
+            if provider_config.get("connection_status") != "connected" or provider_config.get("api_adapter_status") != "implemented":
                 errors.append(f"{label} cannot claim a provider job without a connected, implemented adapter")
-            if provider.get("generation_enabled") is not True or provider.get("cost_approval_status") != "approved":
+            if provider_config.get("generation_enabled") is not True or provider_config.get("cost_approval_status") != "approved":
                 errors.append(f"{label} cannot claim a provider job without explicit generation and cost approval")
-            if generation.get("provider_id") != provider.get("provider_id"):
+            if generation.get("provider_id") != provider_config.get("provider_id"):
                 errors.append(f"{label} provider_id must match the connected provider manifest")
         if state == "not-started":
             for field in ("provider_job_id", "model_id", "output_path", "output_sha256", "dropbox_file_id", "dropbox_path"):
@@ -156,7 +160,8 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
                 errors.append(f"{label} prompt_sha256 does not match the exact prompt text")
             if generation.get("prompt_revision") != shot.get("revision"):
                 errors.append(f"{label} prompt_revision must match the shot revision")
-            expected_refs = [item.get("asset_id") for item in shot.get("reference_assets", []) if isinstance(item, dict)]
+            source_refs = shot.get("reference_assets", [])
+            expected_refs = [item.get("asset_id") for item in source_refs if isinstance(item, dict)] if isinstance(source_refs, list) else []
             if generation.get("reference_asset_ids") != expected_refs:
                 errors.append(f"{label} generation reference_asset_ids do not match the approved shot references")
             if not re.fullmatch(r"[a-fA-F0-9]{64}", str(generation.get("output_sha256", ""))):
@@ -188,7 +193,8 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
                     errors.append(f"{label} Dropbox media metadata must be rechecked after reopen")
         elif state == "submitted" and (not _nonempty(generation.get("provider_job_id")) or not _nonempty(generation.get("model_id"))):
             errors.append(f"{label} submitted state requires provider_job_id and model_id")
-    if shots.get("sequence_policy", {}).get("no_mock_fallback") is not True:
+    sequence_policy = shots.get("sequence_policy")
+    if not isinstance(sequence_policy, dict) or sequence_policy.get("no_mock_fallback") is not True:
         errors.append("sequence policy must prohibit mock fallback")
     return errors
 
@@ -221,6 +227,9 @@ def evaluate_acceptance(shots: dict, acceptance: dict, project_root: Path) -> di
         if generation.get("status") == "completed":
             completed.append(shot)
     minimum = acceptance.get("minimum_independent_generated_shots", 2)
+    if not isinstance(minimum, int) or isinstance(minimum, bool) or minimum < 2:
+        blockers.append("minimum_independent_generated_shots must be an integer of at least two")
+        minimum = 2
     if len(completed) < minimum:
         blockers.append(f"requires {minimum} verified provider-generated shots; found {len(completed)}")
     evidence = acceptance.get("evidence", {}) if isinstance(acceptance.get("evidence"), dict) else {}
@@ -258,6 +267,9 @@ def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
         return [f"could not load production manifests: {exc}"], {}
     errors = validate_provider_manifest(provider)
     errors.extend(validate_shot_manifest(shots, references, provider, project_root))
+    if not isinstance(shots, dict) or not isinstance(acceptance, dict):
+        errors.append("shot or acceptance manifest must be a JSON object")
+        return errors, {}
     if acceptance.get("schema") != "geehub.video-production-acceptance/1" or acceptance.get("project_id") != shots.get("project_id"):
         errors.append("production acceptance manifest schema or project_id is invalid")
     report = evaluate_acceptance(shots, acceptance, project_root)

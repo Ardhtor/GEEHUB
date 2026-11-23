@@ -1,4 +1,5 @@
 """Tests for provenance-safe reference image intake."""
+import hashlib
 import json
 import struct
 import sys
@@ -126,6 +127,23 @@ class ReferenceImageStagingTests(unittest.TestCase):
         manifest = json.loads((self.project / "07_MANIFESTS" / "reference_library.json").read_text(encoding="utf-8"))
         manifest["assets"][0]["asset_id"] = "../escape"
         self.assertTrue(any("safe lowercase asset_id" in error for error in validate_reference_library(manifest)))
+
+
+    def test_rejects_reference_sha256_mismatch(self):
+        manifest_path = self.project / "07_MANIFESTS" / "reference_library.json"
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        manifest["assets"][0]["sha256"] = "0" * 64
+        manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "SHA-256 does not match"):
+            stage_reference_image(self.project, "test-reference", self.source)
+
+    def test_rejects_reference_dimension_mismatch(self):
+        manifest_path = self.project / "07_MANIFESTS" / "reference_library.json"
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        manifest["assets"][0]["width"] = 321
+        manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "width does not match"):
+            stage_reference_image(self.project, "test-reference", self.source)
 
     def test_rejects_source_size_that_does_not_match_library_record(self):
         manifest_path = self.project / "07_MANIFESTS" / "reference_library.json"

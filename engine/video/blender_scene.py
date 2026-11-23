@@ -150,10 +150,11 @@ def ring_shell(name, rings, material_slot, segments=32):
 
 
 def build_wardrobe():
-    """Create a fitted sleeveless top and shorts that share the body growth timeline."""
-    textile = material("WARDROBE / graphite compression fabric", (0.018, 0.045, 0.055), metallic=0.02, roughness=0.72)
+    """Create an alternate low-cut tank and primary denim cutoff shorts."""
+    tank_fabric = material("WARDROBE / graphite tank fabric", (.22, .23, .25), metallic=0.0, roughness=0.82)
+    denim = material("WARDROBE / washed light-blue denim", (.24, .36, .48), metallic=0.0, roughness=0.88)
     top = ring_shell(
-        "WARDROBE / fitted sleeveless training top",
+        "WARDROBE / fitted low-cut tank alternate",
         [
             (0, -0.04, 1.62, 0.49, 0.36),
             (0, -0.06, 1.82, 0.57, 0.42),
@@ -163,20 +164,47 @@ def build_wardrobe():
             (0, -0.10, 2.55, 0.70, 0.50),
             (0, -0.05, 2.73, 0.49, 0.36),
         ],
-        textile,
+        tank_fabric,
     )
-    shorts = ring_shell(
-        "WARDROBE / fitted training shorts",
+
+    waistband = ring_shell(
+        "WARDROBE / denim waistband",
         [
-            (0, 0.0, 1.10, 0.48, 0.34),
-            (0, 0.0, 0.91, 0.53, 0.38),
-            (0, 0.0, 0.68, 0.58, 0.39),
+            (0, 0.0, 1.14, 0.56, 0.40),
+            (0, 0.0, 1.00, 0.56, 0.40),
+            (0, 0.0, 0.90, 0.54, 0.38),
         ],
-        textile,
+        denim,
     )
+    left_leg = ring_shell(
+        "WARDROBE / denim cutoff left",
+        [
+            (-0.34, 0.0, 0.98, 0.30, 0.34),
+            (-0.34, 0.0, 0.75, 0.31, 0.34),
+            (-0.34, 0.0, 0.50, 0.30, 0.32),
+        ],
+        denim,
+    )
+    right_leg = ring_shell(
+        "WARDROBE / denim cutoff right",
+        [
+            (0.34, 0.0, 0.98, 0.30, 0.34),
+            (0.34, 0.0, 0.75, 0.31, 0.34),
+            (0.34, 0.0, 0.50, 0.30, 0.32),
+        ],
+        denim,
+    )
+    bpy.ops.object.select_all(action="DESELECT")
+    for obj in (waistband, left_leg, right_leg):
+        obj.select_set(True)
+    bpy.context.view_layer.objects.active = waistband
+    bpy.ops.object.join()
+    shorts = bpy.context.object
+    shorts.name = "WARDROBE / denim cutoff shorts"
+
     straps = [
-        limb("WARDROBE / left shoulder strap", (-0.52, -0.31, 2.47), (-0.52, 0.31, 2.47), 0.075, textile),
-        limb("WARDROBE / right shoulder strap", (0.52, -0.31, 2.47), (0.52, 0.31, 2.47), 0.075, textile),
+        limb("WARDROBE / left tank strap", (-0.52, -0.31, 2.47), (-0.52, 0.31, 2.47), 0.075, tank_fabric),
+        limb("WARDROBE / right tank strap", (0.52, -0.31, 2.47), (0.52, 0.31, 2.47), 0.075, tank_fabric),
     ]
     return top, shorts, straps
 
@@ -269,6 +297,11 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
             from timeline_growth import animate_timeline_growth, write_growth_diagnostics
             animate_timeline_growth(mesh, timeline, growth_profile)
             top, shorts, straps = build_wardrobe()
+            wardrobe = manifest.get("wardrobe", {})
+            if isinstance(wardrobe, dict) and wardrobe.get("primary_top") == "shirtless":
+                top.hide_render = True
+                for strap in straps:
+                    strap.hide_render = True
             diagnostic_objects.extend([top, shorts, *straps])
             for garment in [top, shorts, *straps]:
                 animate_timeline_growth(garment, timeline, growth_profile)

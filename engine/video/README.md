@@ -95,7 +95,7 @@ Omit `character_model` or set it to `blockout` to retain the original fast block
 
 The project `hulums-lab-serum-60s` uses the unified skin mesh and a frame-driven deformation pass rather than the older independent-part blockout. Its renderer reads three project manifests: `production.json`, `07_MANIFESTS/timeline.json`, and `07_MANIFESTS/growth_profile.json`.
 
-The growth profile defines ten independent anatomical channels (pectorals, deltoids, traps, arms, lats, back, torso, quadriceps, calves and whole-body scale). Each channel has its own timed knots. The pure-Python evaluator applies cubic smoothstep between knots, samples every output frame, and writes those values to spatially weighted Blender shape keys. The resulting deformation is continuous across the seven narrative stages; stage labels do not directly switch the body between discrete sizes. The same controls are currently applied to the fitted garment shells.
+The growth profile defines ten core anatomical channels plus six independent pectoral detail channels (projection, upper fullness, outer sweep, medial separation, lower shelf, and sternal groove). Each channel has its own timed knots. The pure-Python evaluator applies cubic smoothstep between knots, samples every output frame, and writes those values to spatially weighted Blender shape keys. The resulting deformation is continuous across the seven narrative stages; stage labels do not directly switch the body between discrete sizes. The same controls are currently applied to the fitted garment shells.
 
 Run a low-resolution opening preview from the repository root:
 
@@ -161,7 +161,7 @@ The Teal Titan project includes a Dropbox staging runbook at `production/project
 
 ## Pectoral geometry controls
 
-The pectoral system has three coordinated, editable shape-key layers on the unified mesh and fitted garment: forward projection, upper-chest fullness, and outer sweep. They can be timed independently with `pectorals_projection`, `pectorals_upper`, and `pectorals_outer` curves. Older growth profiles remain compatible because the original `pectorals` curve is used as the fallback for all three layers.
+The pectoral system has six coordinated, editable shape-key layers on the unified mesh and fitted garment: forward projection, upper-chest fullness, outer sweep, medial edge separation, lower shelf, and a recessed sternal groove. Each has its own timing curve. Older growth profiles remain compatible because the original `pectorals` curve is used as the fallback for the optional detail layers.
 
 The renderer-independent geometry tests run with:
 
@@ -187,7 +187,7 @@ python3 engine/video/stage_reference_image.py \\
 Supported inputs are PNG, JPEG, and WebP up to 100 MB. GEEHUB makes a separate copy under the project's `01_SOURCE/REFERENCE_IMAGES/`, verifies its dimensions and SHA-256, and writes a source sidecar plus an import registry. It refuses to overwrite a different staged image. The source image is never modified, moved, or deleted. The reference manifest and registry are validated before the growth project renders. Images with unknown provenance remain reference-only until usage rights are confirmed; `model_generated=false` is not proof of ownership or license.
 
 
-The pectoral deformation is no longer only a code constant: the project growth profile stores the three regions' local-space centres, radii, and offsets, and names the image-library assets used to author them. The renderer validates those IDs against the reference manifest before it starts. This is a manually calibrated qualitative fit; single 2D images do not provide depth, reliable world scale, or automatic anatomical measurements. The headless Blender 5.3 integration test exercises real shape-key creation, mirrored projection, and final-frame curve evaluation.
+The pectoral deformation is no longer only a code constant: the project growth profile stores the six regions' local-space centres, radii, and offsets, and names the image-library assets used to author them. The renderer validates those IDs against the reference manifest before it starts. This is a manually calibrated qualitative fit; single 2D images do not provide depth, reliable world scale, or automatic anatomical measurements. The headless Blender 5.3 integration test exercises real shape-key creation, mirrored projection, and final-frame curve evaluation.
 
 
 ## Provider-generated shot assembly

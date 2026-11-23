@@ -45,6 +45,7 @@
     "sequence_dropbox_verification": null,
     "master_mp4": null,
     "master_sha256": null,
-    "master_dropbox_verification": null
+    "master_dropbox_verification": null,
+    "master_ffprobe_metadata": null
   }
 }

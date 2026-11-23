@@ -80,6 +80,7 @@ class ShotSequenceTests(unittest.TestCase):
                 "provider_id": "test-video-provider",
                 "provider_job_id": f"job-{shot_id}",
                 "provider_output_id": f"output-{shot_id}",
+                "provider_output_file_id": f"output-{shot_id}",
                 "model_id": "test-video-model",
                 "prompt_revision": 1,
                 "prompt_sha256": hashlib.sha256(prompt.encode()).hexdigest(),
@@ -88,6 +89,8 @@ class ShotSequenceTests(unittest.TestCase):
                 "reference_asset_ids": ["ref-a", "ref-b"],
                 "reference_file_ids": ["file-ref-a", "file-ref-b"],
                 "pinned_first_frame_file_id": None if order == 1 else "file-last-frame-a",
+                "first_frame_file_id": None if order == 1 else "file-last-frame-a",
+                "last_frame_file_id": f"file-last-frame-{shot_id}",
                 "first_frame_sha256": first_hash,
                 "last_frame_sha256": last_hash,
                 "continuity_status": continuity,
@@ -199,6 +202,8 @@ class ShotSequenceTests(unittest.TestCase):
             shot["generation"]["status"] = "not-started"
             shot["generation"]["provider_job_id"] = None
             shot["generation"]["provider_id"] = None
+            shot["generation"]["provider_output_id"] = None
+            shot["generation"]["provider_output_file_id"] = None
             shot["generation"]["model_id"] = None
             shot["generation"]["output_path"] = None
             shot["generation"]["output_sha256"] = None

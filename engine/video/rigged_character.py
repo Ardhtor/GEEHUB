@@ -212,7 +212,7 @@ def _torso_surface(name, skin):
 
 
 def _anatomy_surface(name="GEEHUB / unified humanoid"):
-    """Build overlapping anatomical volumes, then fuse them into one skin surface."""
+    """Fuse a parametric torso, integrated pectorals, and anatomically overlapping limbs into one skin surface."""
     skin = _mat("GEEHUB / living skin", (.43, .27, .21), .42, .075)
     parts = []
 
@@ -252,8 +252,6 @@ def _anatomy_surface(name="GEEHUB / unified humanoid"):
     parts.append(_torso_surface(name, skin))
 
     # Neck, skull, jaw and ears overlap; nose is a small forward facial volume.
-    for side in (-1, 1):
-        tag = "L" if side < 0 else "R"
     ellipsoid_part("neck", (0, 0, 2.96), (.23, .22, .37))
     ellipsoid_part("skull", (0, -.015, 3.43), (.32, .29, .42))
     ellipsoid_part("jaw", (0, -.055, 3.23), (.255, .27, .205))
@@ -391,7 +389,7 @@ def _add_face_details(rig, name):
         obj.parent = rig
         return obj
 
-    detail("full beard", (0, -.12, 3.205), (.25, .19, .18), beard_mat)
+    detail("full beard", (0, -.22, 3.22), (.25, .14, .17), beard_mat)
     for side, tag in ((-1, "L"), (1, "R")):
         detail("eye white." + tag, (side * .12, -.278, 3.49), (.041, .023, .029), eye_white)
         detail("iris." + tag, (side * .12, -.298, 3.49), (.019, .012, .019), eye_dark)

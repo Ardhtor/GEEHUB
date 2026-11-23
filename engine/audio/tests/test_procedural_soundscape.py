@@ -1,6 +1,7 @@
 """Unit tests for deterministic procedural audio output."""
 import json
 import math
+import shutil
 import sys
 import tempfile
 import unittest
@@ -13,6 +14,8 @@ from procedural_soundscape import (
     _parse_loudnorm_summary,
     _pcm24_bytes,
     _room_tone,
+    probe_audio,
+    render_soundscape,
     validate_audio_plan,
     write_pcm24_wav,
 )
@@ -68,6 +71,27 @@ class ProceduralSoundscapeTests(unittest.TestCase):
         self.assertEqual(validate_audio_plan(plan, "hulums-lab-serum-60s"), [])
         plan["optional_sample_layer"]["enabled"] = True
         self.assertTrue(any("sample layer" in error for error in validate_audio_plan(plan, "hulums-lab-serum-60s")))
+
+
+    def test_short_render_creates_verified_stems_and_pcm24_master(self):
+        if not shutil.which("ffmpeg") or not shutil.which("ffprobe"):
+            self.skipTest("ffmpeg and ffprobe are required for the audio integration test")
+        source_plan = Path(__file__).resolve().parents[3] / "production" / "projects" / "hulums-lab-serum-60s" / "07_MANIFESTS" / "audio_plan.json"
+        with tempfile.TemporaryDirectory() as temporary:
+            project = Path(temporary) / "hulums-lab-serum-60s"
+            manifests = project / "07_MANIFESTS"
+            manifests.mkdir(parents=True)
+            (manifests / "audio_plan.json").write_bytes(source_plan.read_bytes())
+            result = render_soundscape(project, duration_seconds=8, seed=321)
+            master = project / result["master"]["path"]
+            media = probe_audio(master)
+            self.assertEqual(media["codec_name"], "pcm_s24le")
+            self.assertEqual(media["sample_rate"], 48000)
+            self.assertEqual(media["channels"], 2)
+            self.assertEqual(media["bits_per_sample"], 24)
+            self.assertAlmostEqual(media["duration_seconds"], 8.0, delta=0.05)
+            self.assertEqual(len(result["stems"]), 5)
+            self.assertTrue((manifests / "audio_render.json").is_file())
 
     def test_loudnorm_summary_parser_extracts_measurements(self):
         summary = """

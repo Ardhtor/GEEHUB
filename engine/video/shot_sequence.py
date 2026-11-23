@@ -165,7 +165,7 @@ def build_otio_sequence(project_root: Path, output_path: Path) -> dict:
     otio.adapters.write_to_file(timeline, str(output_path))
 
     reopened = otio.adapters.read_from_file(str(output_path))
-    reopened_clips = list(reopened.tracks[0].each_clip()) if reopened.tracks else []
+    reopened_clips = [item for item in reopened.tracks[0] if isinstance(item, otio.schema.Clip)] if reopened.tracks else []
     expected_names = [shot["shot_id"] for shot in completed]
     actual_names = [clip.name for clip in reopened_clips]
     if actual_names != expected_names:

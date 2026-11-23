@@ -42,6 +42,8 @@ def main():
         raise AssertionError("Blender did not render the smoke-test MP4")
 
     scene = bpy.context.scene
+    if hasattr(scene.render.image_settings, "media_type"):
+        scene.render.image_settings.media_type = "IMAGE"
     scene.render.image_settings.file_format = "PNG"
     scene.render.filepath = str(image_path)
     scene.frame_set(1)

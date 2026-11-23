@@ -6,7 +6,7 @@ This is the local navigation page for `characters/records/`. The lists below lin
 
 ## Files
 
-### MD (19)
+### MD (20)
 
 - [`ANDREW.md`](./ANDREW.md)
 - [`ARTHUR.md`](./ARTHUR.md)
@@ -23,6 +23,7 @@ This is the local navigation page for `characters/records/`. The lists below lin
 - [`LUKE_MERCER.md`](./LUKE_MERCER.md)
 - [`MARCUS.md`](./MARCUS.md)
 - [`MR_KAUFMAN.md`](./MR_KAUFMAN.md)
+- [`ROBERT_LASKIN.md`](./ROBERT_LASKIN.md)
 - [`TEAL_TITAN.md`](./TEAL_TITAN.md)
 - [`TRAVIS.md`](./TRAVIS.md)
 - [`TYLER.md`](./TYLER.md)

@@ -86,3 +86,8 @@ The first expedition had not found its way out. It had found the beginning of th
 - **Growth rule:** Changes in Kirk's body alter the geography; each return must inherit and extend the previous state rather than repeat it.
 - **Agency and safety:** Kirk remains a person, not an inert setting. The expedition communicates with him, records uncertainty, and makes its own careful decisions.
 - **Open questions:** Who made the old trail? Where does the dark opening lead? How many earlier travellers have passed through this country?
+
+
+## Next chapter — The Promises That Keep
+
+[Book II, Chapter II — The Promises That Keep](./BOOK_II_CHAPTER_II_THE_PROMISES_THAT_KEEP.md) restores Andrew Sim and Kirk's established relationship. Their familiar chemistry returns through teasing, careful listening, shared experiments, ordinary affection, and the renewing practice they call infinite promises.

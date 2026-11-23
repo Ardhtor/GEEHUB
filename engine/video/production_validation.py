@@ -45,6 +45,31 @@ def validate_provider_manifest(provider: object) -> list[str]:
         errors.append("mock_mode must remain false")
     if provider.get("cost_approval_required") is not True:
         errors.append("cost_approval_required must be true")
+    fallback = provider.get("fallback_policy")
+    if not isinstance(fallback, str) or "never substitute" not in fallback.lower():
+        errors.append("provider fallback policy must explicitly prohibit mock or placeholder media")
+    if provider.get("provider_id") == "xai-grok-imagine-video":
+        if provider.get("api_adapter_status") != "implemented":
+            errors.append("xAI provider requires the implemented GEEHUB API adapter")
+        if provider.get("data_transfer_approval_required") is not True:
+            errors.append("xAI reference-image transfer must require explicit approval")
+        if provider.get("reference_rights_clearance_required") is not True:
+            errors.append("xAI reference-image rights must require explicit clearance")
+        if provider.get("data_transfer_approval_status") not in {"not-granted", "approved"}:
+            errors.append("xAI data-transfer approval status is invalid")
+        if provider.get("reference_rights_clearance_status") not in {"not-verified", "cleared"}:
+            errors.append("xAI reference-rights clearance status is invalid")
+        api = provider.get("api")
+        workflow = provider.get("generation_workflow")
+        pricing = provider.get("pricing")
+        if not isinstance(api, dict) or api.get("base_url") != "https://api.x.ai/v1":
+            errors.append("xAI API base URL must be the official API endpoint")
+        if not isinstance(workflow, dict) or workflow.get("model_id") != "grok-imagine-video-1.5":
+            errors.append("xAI generation workflow must select grok-imagine-video-1.5")
+        if not isinstance(workflow, dict) or workflow.get("total_duration_seconds") != 60 or workflow.get("segment_duration_seconds") != 15:
+            errors.append("xAI production workflow must define four 15-second segments")
+        if not isinstance(pricing, dict) or pricing.get("estimated_total_usd") != 8.4:
+            errors.append("xAI 60-second 720p estimate must be recorded as USD 8.40")
     if provider.get("generation_enabled") is True:
         if provider.get("connection_status") != "connected":
             errors.append("generation cannot be enabled while the provider is disconnected")
@@ -52,10 +77,12 @@ def validate_provider_manifest(provider: object) -> list[str]:
             errors.append("generation cannot be enabled before a real provider adapter is implemented")
         if provider.get("cost_approval_status") != "approved":
             errors.append("generation cannot be enabled without explicit cost approval")
-    if provider.get("fallback_policy", "").lower().find("never substitute") < 0:
-        errors.append("provider fallback policy must explicitly prohibit mock or placeholder media")
+        if provider.get("provider_id") == "xai-grok-imagine-video":
+            if provider.get("data_transfer_approval_status") != "approved":
+                errors.append("generation cannot be enabled before reference-image transfer approval")
+            if provider.get("reference_rights_clearance_status") != "cleared":
+                errors.append("generation cannot be enabled before reference-image rights are cleared")
     return errors
-
 
 def validate_shot_manifest(shots: object, reference_library: object, provider: object, project_root: Path) -> list[str]:
     if not isinstance(shots, dict):
@@ -68,6 +95,8 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
     provider_config = provider if isinstance(provider, dict) else {}
     if not isinstance(provider, dict) or shots.get("provider") != provider_config.get("display_name"):
         errors.append("shot manifest provider must match the provider manifest")
+    if isinstance(provider, dict) and shots.get("provider_id") != provider_config.get("provider_id"):
+        errors.append("shot manifest provider_id must match the provider manifest")
     policy = shots.get("generation_policy")
     if not isinstance(policy, dict):
         errors.append("shot manifest generation_policy is required")
@@ -76,10 +105,16 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
             errors.append("shot generation must require explicit cost approval")
         if policy.get("mock_or_placeholder_media_allowed") is not False:
             errors.append("shot manifest must prohibit mock and placeholder media")
+        for field in ("connection_status", "api_adapter_status", "generation_enabled", "cost_approval_status"):
+            if policy.get(field) != provider_config.get(field):
+                errors.append(f"shot generation policy {field} must match the provider manifest")
+        for field in ("data_transfer_approval_status", "reference_rights_clearance_status"):
+            if policy.get(field) != provider_config.get(field):
+                errors.append(f"shot generation policy {field} must match the provider manifest")
     refs = {item.get("asset_id") for item in reference_library.get("assets", []) if isinstance(item, dict)} if isinstance(reference_library, dict) else set()
     shot_list = shots.get("shots")
     if not isinstance(shot_list, list) or len(shot_list) < 2:
-        errors.append("at least two independent shot instances must be defined")
+        errors.append("at least two shot instances must be defined")
         return errors
     ids = set()
     orders = set()
@@ -127,14 +162,17 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
             errors.append(f"{label} generation record is required")
             continue
         state = generation.get("status")
-        if not isinstance(state, str) or state not in {"not-started", "submitted", "completed", "failed"}:
+        if not isinstance(state, str) or state not in {"not-started", "submitted", "generated-local", "completed", "failed"}:
             errors.append(f"{label} has an unsupported generation status")
             continue
-        if state in {"submitted", "completed"}:
+        if state in {"submitted", "generated-local", "completed"}:
             if provider_config.get("connection_status") != "connected" or provider_config.get("api_adapter_status") != "implemented":
                 errors.append(f"{label} cannot claim a provider job without a connected, implemented adapter")
             if provider_config.get("generation_enabled") is not True or provider_config.get("cost_approval_status") != "approved":
                 errors.append(f"{label} cannot claim a provider job without explicit generation and cost approval")
+            if provider_config.get("provider_id") == "xai-grok-imagine-video":
+                if provider_config.get("data_transfer_approval_status") != "approved" or provider_config.get("reference_rights_clearance_status") != "cleared":
+                    errors.append(f"{label} cannot use xAI references without transfer and rights approval")
             if generation.get("provider_id") != provider_config.get("provider_id"):
                 errors.append(f"{label} provider_id must match the connected provider manifest")
         if state == "not-started":
@@ -143,11 +181,58 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
                     errors.append(f"{label} must not claim {field} before generation")
             if generation.get("reopened_from_dropbox") is not False:
                 errors.append(f"{label} cannot claim Dropbox verification before generation")
+        elif state == "generated-local":
+            required_fields = (
+                "provider_id", "provider_job_id", "model_id", "prompt_revision", "prompt_sha256",
+                "submitted_prompt", "submitted_prompt_sha256", "reference_asset_ids",
+                "submitted_at", "completed_at", "output_path", "output_sha256",
+                "first_frame_sha256", "last_frame_sha256", "continuity_status", "media_metadata",
+            )
+            for field in required_fields:
+                if generation.get(field) is None or generation.get(field) == "":
+                    errors.append(f"{label} generated-local output requires {field}")
+            if generation.get("prompt_revision") != shot.get("revision"):
+                errors.append(f"{label} prompt_revision must match the shot revision")
+            prompt_hash = hashlib.sha256(shot.get("prompt", "").encode("utf-8")).hexdigest()
+            if generation.get("prompt_sha256") != prompt_hash:
+                errors.append(f"{label} prompt_sha256 must match the approved prompt template")
+            submitted_prompt = generation.get("submitted_prompt")
+            if isinstance(submitted_prompt, str):
+                submitted_hash = hashlib.sha256(submitted_prompt.encode("utf-8")).hexdigest()
+                if generation.get("submitted_prompt_sha256") != submitted_hash:
+                    errors.append(f"{label} submitted_prompt_sha256 does not match the exact API prompt")
+            source_refs = shot.get("reference_assets", [])
+            expected_refs = [item.get("asset_id") for item in source_refs if isinstance(item, dict)] if isinstance(source_refs, list) else []
+            if generation.get("reference_asset_ids") != expected_refs:
+                errors.append(f"{label} generation reference_asset_ids do not match the approved shot references")
+            for field in ("output_sha256", "first_frame_sha256", "last_frame_sha256"):
+                if not re.fullmatch(r"[a-fA-F0-9]{64}", str(generation.get(field, ""))):
+                    errors.append(f"{label} {field} must be a 64-character hex digest")
+            media = _safe_project_file(project_root, generation.get("output_path", ""))
+            if media is None:
+                errors.append(f"{label} output file is missing or escapes the project directory")
+            elif _sha256(media) != generation.get("output_sha256"):
+                errors.append(f"{label} output SHA-256 does not match the registered file")
+            metadata = generation.get("media_metadata")
+            if not isinstance(metadata, dict):
+                errors.append(f"{label} generated-local output requires ffprobe media_metadata")
+            else:
+                for field in ("duration_seconds", "frame_rate", "width", "height", "video_codec", "audio_codec"):
+                    if metadata.get(field) is None:
+                        errors.append(f"{label} media_metadata requires {field}")
+                media_duration = metadata.get("duration_seconds")
+                if isinstance(media_duration, (int, float)) and not isinstance(media_duration, bool) and abs(media_duration - duration) > 0.25:
+                    errors.append(f"{label} probed media duration does not match the shot duration")
+            if generation.get("dropbox_file_id") is not None or generation.get("dropbox_path") is not None:
+                errors.append(f"{label} generated-local state must not claim Dropbox verification")
+            if generation.get("reopened_from_dropbox") is not False or generation.get("metadata_verified") is not False:
+                errors.append(f"{label} generated-local state cannot claim Dropbox verification")
         elif state == "completed":
             required_fields = (
                 "provider_id", "provider_job_id", "provider_output_id", "model_id",
-                "prompt_revision", "prompt_sha256", "reference_asset_ids",
+                "prompt_revision", "prompt_sha256", "submitted_prompt", "submitted_prompt_sha256", "reference_asset_ids",
                 "submitted_at", "completed_at", "output_path", "output_sha256",
+                "first_frame_sha256", "last_frame_sha256", "continuity_status", "media_metadata",
                 "dropbox_file_id", "dropbox_path",
             )
             for field in required_fields:
@@ -157,7 +242,12 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
                 errors.append(f"{label} provider_id does not match provider manifest")
             prompt_hash = hashlib.sha256(shot.get("prompt", "").encode("utf-8")).hexdigest()
             if generation.get("prompt_sha256") != prompt_hash:
-                errors.append(f"{label} prompt_sha256 does not match the exact prompt text")
+                errors.append(f"{label} prompt_sha256 does not match the approved prompt template")
+            submitted_prompt = generation.get("submitted_prompt")
+            if isinstance(submitted_prompt, str):
+                submitted_hash = hashlib.sha256(submitted_prompt.encode("utf-8")).hexdigest()
+                if generation.get("submitted_prompt_sha256") != submitted_hash:
+                    errors.append(f"{label} submitted_prompt_sha256 does not match the exact API prompt")
             if generation.get("prompt_revision") != shot.get("revision"):
                 errors.append(f"{label} prompt_revision must match the shot revision")
             source_refs = shot.get("reference_assets", [])
@@ -193,9 +283,37 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
                     errors.append(f"{label} Dropbox media metadata must be rechecked after reopen")
         elif state == "submitted" and (not _nonempty(generation.get("provider_job_id")) or not _nonempty(generation.get("model_id"))):
             errors.append(f"{label} submitted state requires provider_job_id and model_id")
+    ordered_shots = sorted(
+        [item for item in shot_list if isinstance(item, dict)],
+        key=lambda item: item.get("sequence_order", 0) if isinstance(item.get("sequence_order"), int) else 0,
+    )
+    for index, current in enumerate(ordered_shots):
+        current_generation = current.get("generation", {}) if isinstance(current.get("generation"), dict) else {}
+        current_state = current_generation.get("status")
+        if current_state not in {"generated-local", "completed"}:
+            continue
+        if index == 0:
+            if current_generation.get("continuity_status") != "initial":
+                errors.append("first generated segment must record continuity_status=initial")
+            continue
+        previous = ordered_shots[index - 1]
+        previous_generation = previous.get("generation", {}) if isinstance(previous.get("generation"), dict) else {}
+        if previous_generation.get("status") not in {"generated-local", "completed"}:
+            errors.append(f"segment {current.get('shot_id')} cannot be verified without its previous segment")
+            continue
+        if current.get("continuity_key") != previous.get("continuity_key"):
+            errors.append("continuous sequence segments must share one continuity_key")
+        if current_generation.get("first_frame_sha256") != previous_generation.get("last_frame_sha256"):
+            errors.append(f"segment {current.get('shot_id')} first frame does not match the previous segment final frame")
+        if current_generation.get("continuity_status") != "passed":
+            errors.append(f"segment {current.get('shot_id')} must record a passed frame-boundary continuity check")
     sequence_policy = shots.get("sequence_policy")
     if not isinstance(sequence_policy, dict) or sequence_policy.get("no_mock_fallback") is not True:
         errors.append("sequence policy must prohibit mock fallback")
+    elif sequence_policy.get("segment_count") is not None and sequence_policy.get("segment_count") != len(shot_list):
+        errors.append("sequence_policy segment_count must match the shot list")
+    elif sequence_policy.get("segment_boundary_frame_match_required") is not True:
+        errors.append("continuous sequence requires frame-identical segment boundaries")
     return errors
 
 

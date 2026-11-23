@@ -273,6 +273,22 @@ def load_and_validate(project_root: Path) -> tuple[list[str], dict]:
     if acceptance.get("schema") != "geehub.video-production-acceptance/1" or acceptance.get("project_id") != shots.get("project_id"):
         errors.append("production acceptance manifest schema or project_id is invalid")
     report = evaluate_acceptance(shots, acceptance, project_root)
+    if provider.get("connection_status") != "connected":
+        report["blockers"].append("Grok Imagine Video provider is not connected")
+    if provider.get("cost_approval_status") != "approved":
+        report["blockers"].append("explicit model-generation cost approval has not been granted")
+    if provider.get("generation_enabled") is not True:
+        report["blockers"].append("provider generation remains disabled")
+    try:
+        production = json.loads((project_root / "production.json").read_text(encoding="utf-8"))
+        storage_status = production.get("storage", {}).get("status")
+    except (OSError, json.JSONDecodeError):
+        storage_status = None
+        errors.append("project production.json or storage status is unavailable")
+    if storage_status != "provisioned-and-verified":
+        report["blockers"].append("canonical Dropbox project folder has not been provisioned and verified")
+    report["accepted"] = not report["blockers"]
+    report["status"] = "accepted" if report["accepted"] else "blocked-preproduction"
     return errors, {"provider": provider.get("display_name"), "shot_count": len(shots.get("shots", [])), "acceptance": report}
 
 

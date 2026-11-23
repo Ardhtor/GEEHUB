@@ -1,6 +1,6 @@
 # GEEHUB Project Workbench
 
-**Purpose:** a practical resume map for continuing projects already started in GEEHUB. This is not a separate project list or a declaration that every registered idea is implemented. Each entry points to the best current working surface, states what is already present, and identifies the next useful action when the source record establishes one.
+**Purpose:** a selective resume map for substantial work that benefits from a clear continuation point. It is not a complete task list. The wider registry also contains finished artifacts, chapters, characters, references, experiments, and notes. Those records remain part of GEEHUB without needing an assigned next action. Each workbench entry points to a useful working surface only where continued development is established by the source record.
 
 **Buildability:** use the [Feasibility Workbench](FEASIBILITY_WORKBENCH.md) to distinguish implemented, CI-verified, locally dependent, externally blocked, and still-specified work before choosing the next build.
 
@@ -111,9 +111,9 @@ The expansion atlas and the people volume are separate but connected records. Co
 | Male Harem Virtual Space | [Archive entry](../archive/male-harem/README.md) | Continue source-grounded roster, image provenance, and spatial scenes |
 | Adult Gay Visual Loop | [Archive entry](../archive/adult-gay-visual-loop/README.md) | Continue adult-only source discovery, tagging, continuity, and recommendation |
 
-## Registered concepts that still need a dedicated working path
+## Concepts and notes without an active work path
 
-These projects are present in the project registries, but the registry does not yet provide a dedicated implementation folder or a verified direct entry. They remain available to develop; they are not presented here as finished products.
+These entries are retained as possibilities or early concepts. Their presence is not a request to implement them, and they do not need to be advanced unless a later connection makes them useful.
 
 - **Growth Canvas** — visual substrate for seeds, rules, latency, anomalies, and feedback. No dedicated path is registered yet.
 - **Liminal Gains** — two-player growth game concept. No dedicated project folder is registered yet.
@@ -122,6 +122,10 @@ These projects are present in the project registries, but the registry does not 
 - **Religion as Dialogue** — research project; no current repository entry is registered in the project catalogue.
 - **Male Stud** — registered as an experience, but its referenced folder is absent from the current tree.
 - **The Blender Stand** — the general production workflow is present under [Blender video tools](../engine/video/blender/README.md); a dedicated standalone project space remains to be established.
+
+## Notes, fragments, and dormant material
+
+Ideas that do not currently support a substantial project remain in the collection as notes, references, or dormant branches. They should be preserved with their source and context, not converted into action items simply because they are unfinished. When a note naturally develops into a project, create a clear link from the originating note to the new work rather than rewriting its history.
 
 ## How to resume a project without losing its continuity
 

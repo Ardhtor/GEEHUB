@@ -67,6 +67,44 @@ def _add_blob(meta, name, center, radius, scale):
     element.size_x, element.size_y, element.size_z = scale
 
 
+def _chest_hair_material(name, skin_colour):
+    mat = bpy.data.materials.new(name)
+    mat.diffuse_color = skin_colour
+    mat.use_nodes = True
+    nodes = mat.node_tree.nodes
+    nodes.clear()
+    links = mat.node_tree.links
+    output = nodes.new("ShaderNodeOutputMaterial")
+    bsdf = nodes.new("ShaderNodeBsdfPrincipled")
+    bsdf.inputs["Roughness"].default_value = .82
+    texcoord = nodes.new("ShaderNodeTexCoord")
+    wave = nodes.new("ShaderNodeTexWave")
+    wave.wave_type = "BANDS"
+    wave.bands_direction = "X"
+    wave.inputs["Scale"].default_value = 125.0
+    wave.inputs["Distortion"].default_value = 3.5
+    wave.inputs["Detail"].default_value = 2.0
+    ramp = nodes.new("ShaderNodeValToRGB")
+    ramp.color_ramp.elements[0].position = .0
+    ramp.color_ramp.elements[0].color = (*skin_colour[:3], 1.0)
+    ramp.color_ramp.elements[1].position = .86
+    ramp.color_ramp.elements[1].color = (*skin_colour[:3], 1.0)
+    hair_edge = ramp.color_ramp.elements.new(.93)
+    hair_edge.color = (.075, .038, .022, 1.0)
+    hair_core = ramp.color_ramp.elements.new(1.0)
+    hair_core.color = (.035, .018, .012, 1.0)
+    links.new(texcoord.outputs["Generated"], wave.inputs["Vector"])
+    links.new(wave.outputs["Color"], ramp.inputs["Fac"])
+    links.new(ramp.outputs["Color"], bsdf.inputs["Base Color"])
+    bump = nodes.new("ShaderNodeBump")
+    bump.inputs["Strength"].default_value = .18
+    bump.inputs["Distance"].default_value = .006
+    links.new(wave.outputs["Color"], bump.inputs["Height"])
+    links.new(bump.outputs["Normal"], bsdf.inputs["Normal"])
+    links.new(bsdf.outputs["BSDF"], output.inputs["Surface"])
+    return mat
+
+
 def _anatomy_surface(name="GEEHUB / unified humanoid"):
     """Build overlapping anatomical volumes, then fuse them into one skin surface."""
     skin = _mat("GEEHUB / living skin", (.43, .27, .21), .42, .075)
@@ -155,8 +193,13 @@ def _anatomy_surface(name="GEEHUB / unified humanoid"):
     mesh.name = name + " / fused skin"
     mesh.data.materials.clear()
     mesh.data.materials.append(skin)
+    chest_hair = _chest_hair_material(name + " / chest hair", (.43, .27, .21, 1.0))
+    mesh.data.materials.append(chest_hair)
     for poly in mesh.data.polygons:
         poly.use_smooth = True
+        centre = poly.center
+        if 2.02 <= centre.z <= 2.62 and centre.y < -0.34 and abs(centre.x) < .78:
+            poly.material_index = 1
 
     smooth = mesh.modifiers.new("Anatomical surface relaxation", "SMOOTH")
     smooth.factor = .72

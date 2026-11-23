@@ -1,19 +1,75 @@
 {
   "schema": "geehub.video-provider/1",
   "provider_id": "xai-grok-imagine-video",
-  "display_name": "Grok Imagine Video",
+  "display_name": "Grok Imagine Video (xAI API)",
   "connection_status": "not-connected-in-current-workspace",
-  "api_adapter_status": "not-implemented",
+  "api_adapter_status": "implemented",
   "generation_enabled": false,
   "cost_approval_required": true,
   "cost_approval_status": "not-granted",
+  "data_transfer_approval_required": true,
+  "data_transfer_approval_status": "not-granted",
+  "reference_rights_clearance_required": true,
+  "reference_rights_clearance_status": "not-verified",
   "mock_mode": false,
-  "fallback_policy": "Never substitute still-image slideshows, stock clips, Blender placeholder motion, or fabricated provider job records for real provider-generated video.",
+  "api": {
+    "base_url": "https://api.x.ai/v1",
+    "api_key_environment_variable": "XAI_API_KEY",
+    "file_upload_endpoint": "POST /files",
+    "generation_endpoint": "POST /videos/generations",
+    "status_endpoint": "GET /videos/{request_id}",
+    "file_metadata_endpoint": "GET /files/{file_id}",
+    "output_storage": "private Files API storage; no public URL requested"
+  },
+  "generation_workflow": {
+    "mode": "reference-to-video",
+    "model_id": "grok-imagine-video-1.5",
+    "reference_images_max": 14,
+    "segment_duration_seconds": 15,
+    "segment_count": 4,
+    "total_duration_seconds": 60,
+    "aspect_ratio": "16:9",
+    "provider_resolution": "1280x720",
+    "audio_generation": false,
+    "continuity": "Each continuation segment pins its first frame to the previous segment's extracted final frame; SHA-256 pixel-frame checks are required at every boundary.",
+    "delivery_resolution": "1920x1080",
+    "delivery_upscale": "Lanczos",
+    "note": "Reference-to-video is limited to 720p. The 1080p delivery is an upscale and must be visually reviewed; it is not native 1080p."
+  },
+  "temporary_file_policy": {
+    "uploaded_reference_and_frame_files_expire_after_seconds": 604800,
+    "generated_video_files_expire_after_seconds": 604800,
+    "public_urls": false,
+    "note": "Temporary xAI files are private and expire after seven days; canonical production media must be preserved in Dropbox."
+  },
+  "pricing": {
+    "currency": "USD",
+    "model_id": "grok-imagine-video-1.5",
+    "resolution": "720p",
+    "price_per_second_usd": 0.14,
+    "total_duration_seconds": 60,
+    "estimated_total_usd": 8.4,
+    "pricing_source": "https://docs.x.ai/developers/model-capabilities/video/overview",
+    "pricing_checked_at": "2026-11-23",
+    "exclusions": [
+      "taxes",
+      "retries",
+      "storage beyond configured TTL",
+      "post-production services"
+    ]
+  },
   "required_job_metadata": [
     "provider_job_id",
+    "provider_output_file_id",
     "model_id",
     "prompt_revision",
+    "prompt_sha256",
     "reference_asset_ids",
+    "reference_file_ids",
+    "pinned_first_frame_file_id",
+    "first_frame_sha256",
+    "last_frame_sha256",
+    "continuity_status",
     "submitted_at",
     "completed_at",
     "duration_seconds",
@@ -22,8 +78,8 @@
     "height",
     "video_codec",
     "audio_codec",
-    "provider_output_id",
     "output_sha256"
   ],
-  "note": "The canonical Dropbox production specification names Grok Imagine Video through a connected model catalog. No matching Grok/Weave generation connection is available in this workspace. A different provider must not be substituted without explicit user approval."
+  "fallback_policy": "Never substitute still-image slideshows, stock clips, Blender placeholder motion, fabricated provider job records, or another video provider for real xAI-generated video without explicit user approval.",
+  "note": "The official xAI Video API is documented and the GEEHUB adapter is implemented with offline tests. No XAI_API_KEY is configured in this workspace. No reference images have been transferred to xAI and no generation has been submitted. Paid generation remains disabled until the user explicitly approves the estimated cost, transfer of the selected reference images, and rights to use those images. The provider output is 720p reference-to-video; 1080p delivery requires an explicit upscale and visual review."
 }

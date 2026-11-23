@@ -201,5 +201,18 @@
       "denim-cutoffs-reference"
     ],
     "policy": "Each local copy must retain its Library file IDs, original source hash, staged hash, and sidecar. The original Library item is never modified."
+  },
+  "wardrobe": {
+    "primary_top": "shirtless",
+    "primary_bottom": "light-blue denim cutoff shorts",
+    "primary_reference_sequence": "seated-car chest references and full-body doorway reference",
+    "alternate_look": "low-cut graphite training tank from the gym portrait reference",
+    "source_assets": [
+      "car-bearded-base",
+      "car-bearded-variation-01",
+      "car-bearded-variation-02",
+      "doorway-scale-reference",
+      "gym-tank-portrait"
+    ]
   }
 }

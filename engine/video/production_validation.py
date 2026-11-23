@@ -184,14 +184,20 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
                 errors.append(f"{label} cannot claim Dropbox verification before generation")
         elif state == "generated-local":
             required_fields = (
-                "provider_id", "provider_job_id", "model_id", "prompt_revision", "prompt_sha256",
+                "provider_id", "provider_job_id", "provider_output_id", "provider_output_file_id",
+                "model_id", "prompt_revision", "prompt_sha256",
                 "submitted_prompt", "submitted_prompt_sha256", "reference_asset_ids",
                 "submitted_at", "completed_at", "output_path", "output_sha256",
                 "first_frame_sha256", "last_frame_sha256", "continuity_status", "media_metadata",
+                "first_frame_file_id", "last_frame_file_id",
             )
             for field in required_fields:
                 if generation.get(field) is None or generation.get(field) == "":
                     errors.append(f"{label} generated-local output requires {field}")
+            if shot.get("status") != "generated-local":
+                errors.append(f"{label} shot status must be generated-local")
+            if generation.get("provider_output_file_id") != generation.get("provider_output_id"):
+                errors.append(f"{label} provider output file ID fields must match")
             if generation.get("prompt_revision") != shot.get("revision"):
                 errors.append(f"{label} prompt_revision must match the shot revision")
             prompt_hash = hashlib.sha256(shot.get("prompt", "").encode("utf-8")).hexdigest()
@@ -230,7 +236,7 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
                 errors.append(f"{label} generated-local state cannot claim Dropbox verification")
         elif state == "completed":
             required_fields = (
-                "provider_id", "provider_job_id", "provider_output_id", "model_id",
+                "provider_id", "provider_job_id", "provider_output_id", "provider_output_file_id", "model_id",
                 "prompt_revision", "prompt_sha256", "submitted_prompt", "submitted_prompt_sha256", "reference_asset_ids",
                 "submitted_at", "completed_at", "output_path", "output_sha256",
                 "first_frame_sha256", "last_frame_sha256", "continuity_status", "media_metadata",
@@ -239,6 +245,10 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
             for field in required_fields:
                 if generation.get(field) is None or generation.get(field) == "":
                     errors.append(f"{label} completed output requires {field}")
+            if shot.get("status") != "completed":
+                errors.append(f"{label} shot status must be completed")
+            if generation.get("provider_output_file_id") != generation.get("provider_output_id"):
+                errors.append(f"{label} provider output file ID fields must match")
             if generation.get("provider_id") != provider.get("provider_id"):
                 errors.append(f"{label} provider_id does not match provider manifest")
             prompt_hash = hashlib.sha256(shot.get("prompt", "").encode("utf-8")).hexdigest()
@@ -255,8 +265,9 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
             expected_refs = [item.get("asset_id") for item in source_refs if isinstance(item, dict)] if isinstance(source_refs, list) else []
             if generation.get("reference_asset_ids") != expected_refs:
                 errors.append(f"{label} generation reference_asset_ids do not match the approved shot references")
-            if not re.fullmatch(r"[a-fA-F0-9]{64}", str(generation.get("output_sha256", ""))):
-                errors.append(f"{label} output_sha256 must be a 64-character hex digest")
+            for field in ("output_sha256", "first_frame_sha256", "last_frame_sha256"):
+                if not re.fullmatch(r"[a-fA-F0-9]{64}", str(generation.get(field, ""))):
+                    errors.append(f"{label} {field} must be a 64-character hex digest")
             media = _safe_project_file(project_root, generation.get("output_path", ""))
             if media is None:
                 errors.append(f"{label} output file is missing or escapes the project directory")
@@ -304,6 +315,10 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
             continue
         if current.get("continuity_key") != previous.get("continuity_key"):
             errors.append("continuous sequence segments must share one continuity_key")
+        if not _nonempty(current_generation.get("pinned_first_frame_file_id")):
+            errors.append(f"segment {current.get('shot_id')} must record the pinned prior-frame file ID")
+        if current_generation.get("first_frame_file_id") != current_generation.get("pinned_first_frame_file_id"):
+            errors.append(f"segment {current.get('shot_id')} first-frame file ID must match its pinned frame ID")
         if current_generation.get("first_frame_sha256") != previous_generation.get("last_frame_sha256"):
             errors.append(f"segment {current.get('shot_id')} first frame does not match the previous segment final frame")
         if current_generation.get("continuity_status") != "passed":

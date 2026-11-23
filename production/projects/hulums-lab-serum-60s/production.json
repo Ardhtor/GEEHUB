@@ -172,5 +172,8 @@
     "minimum_independent_shots": 2,
     "mock_fallback_allowed": false,
     "policy": "Do not launch paid generation without explicit user approval. Never substitute a still-image slideshow, procedural placeholder, or fabricated provider result for generated video."
-  }
+  },
+  "providerManifest": "07_MANIFESTS/video_provider.json",
+  "shotManifest": "07_MANIFESTS/shots.json",
+  "productionAcceptanceManifest": "07_MANIFESTS/production_acceptance.json"
 }

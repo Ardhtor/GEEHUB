@@ -35,6 +35,11 @@ DEFAULT_PECTORAL_GEOMETRY = {
         "radius": (0.42, 0.40, 0.20),
         "offset": (0.025, -0.115, -0.018),
     },
+    "sternal_groove": {
+        "centre": (0.0, -0.50, 2.28),
+        "radius": (0.10, 0.25, 0.32),
+        "offset": (0.0, 0.055, 0.0),
+    },
 }
 
 

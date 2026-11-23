@@ -28,6 +28,7 @@ OUTPUT_ROOT = Path.home() / "Movies" / "GEEHUB"
 JOBS: dict[str, dict] = {}
 LOCK = threading.Lock()
 MAX_ACTIVE_JOBS = 1
+MAX_JOB_HISTORY = 50
 ALLOWED_DEFAULT_ORIGINS = {"http://127.0.0.1:8765", "http://localhost:8765"}
 
 
@@ -120,6 +121,14 @@ def binaries() -> tuple[str | None, str | None]:
         "/usr/local/bin/ffmpeg",
     ])
     return blender, ffmpeg
+
+
+def process_timeout(env_name: str, default: int) -> int:
+    try:
+        configured = int(os.environ.get(env_name, default))
+    except (TypeError, ValueError):
+        return default
+    return min(max(configured, 10), 7200)
 
 
 def tool_version(binary: str | None, args: list[str]) -> str | None:
@@ -215,8 +224,12 @@ def render_job(job_id: str, manifest: dict) -> None:
         blender, "--background", "--python", str(BLENDER_SCRIPT), "--",
         "--manifest", str(manifest_path), "--output", str(silent_video),
     ]
+    blender_timeout = process_timeout("GEEHUB_BLENDER_TIMEOUT", 1800)
     with log_path.open("w", encoding="utf-8") as log:
-        process = subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, text=True)
+        try:
+            process = subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, text=True, timeout=blender_timeout)
+        except subprocess.TimeoutExpired as exc:
+            raise RuntimeError(f"Blender render exceeded its {blender_timeout}-second timeout. See blender.log in the output folder.") from exc
     if process.returncode != 0 or not silent_video.exists():
         tail = log_path.read_text(encoding="utf-8", errors="replace")[-5000:]
         raise RuntimeError("Blender render failed. See blender.log in the output folder.\n" + tail)
@@ -245,15 +258,19 @@ def render_job(job_id: str, manifest: dict) -> None:
             "-f", "lavfi", "-i", tone,
             "-filter_complex", f"[1:a]volume=0.72,apad=pad_dur={duration},atrim=duration={duration}[music];[2:a]volume=0.075[bed];[music][bed]amix=inputs=2:duration=longest,atrim=duration={duration}[a]",
             "-map", "0:v:0", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
-            "-t", str(duration), str(final_video),
+            "-movflags", "+faststart", "-t", str(duration), str(final_video),
         ]
     else:
         ffmpeg_cmd = [
             ffmpeg, "-y", "-i", str(silent_video), "-f", "lavfi", "-i", tone,
             "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy", "-c:a", "aac", "-b:a", "128k",
-            "-shortest", str(final_video),
+            "-movflags", "+faststart", "-shortest", str(final_video),
         ]
-    result = subprocess.run(ffmpeg_cmd, capture_output=True, text=True)
+    ffmpeg_timeout = process_timeout("GEEHUB_FFMPEG_TIMEOUT", 600)
+    try:
+        result = subprocess.run(ffmpeg_cmd, capture_output=True, text=True, timeout=ffmpeg_timeout)
+    except subprocess.TimeoutExpired as exc:
+        raise RuntimeError(f"FFmpeg delivery exceeded its {ffmpeg_timeout}-second timeout.") from exc
     if result.returncode != 0 or not final_video.exists():
         raise RuntimeError("FFmpeg delivery failed: " + result.stderr[-3000:])
 
@@ -282,6 +299,11 @@ def launch_job(manifest: dict) -> str:
         active = sum(job.get("state") in {"queued", "running"} for job in JOBS.values())
         if active >= MAX_ACTIVE_JOBS:
             raise RuntimeError("A render is already queued or running. Wait for it to finish before starting another.")
+        while len(JOBS) >= MAX_JOB_HISTORY:
+            stale = next((key for key, job in JOBS.items() if job.get("state") not in {"queued", "running"}), None)
+            if stale is None:
+                raise RuntimeError("Render history is full; wait for an active job to finish.")
+            del JOBS[stale]
         JOBS[job_id] = {"state": "queued", "progress": 0, "message": "Queued for local render"}
     def work():
         try:
@@ -382,14 +404,19 @@ class Handler(BaseHTTPRequestHandler):
             if not path or not path.is_file():
                 self._json(404, {"error": "Rendered video is not ready"})
                 return
-            data = path.read_bytes()
             self.send_response(200)
             self.send_header("Content-Type", "video/mp4")
-            self.send_header("Content-Length", str(len(data)))
+            self.send_header("Content-Length", str(path.stat().st_size))
             self.send_header("Content-Disposition", 'attachment; filename="GEEHUB-master.mp4"')
+            self.send_header("Cache-Control", "no-store")
             self._set_cors()
             self.end_headers()
-            self.wfile.write(data)
+            with path.open("rb") as video:
+                while True:
+                    chunk = video.read(1024 * 1024)
+                    if not chunk:
+                        break
+                    self.wfile.write(chunk)
             return
         if self._serve_studio_file(parsed.path):
             return

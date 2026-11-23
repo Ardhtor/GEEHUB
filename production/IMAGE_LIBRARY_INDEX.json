@@ -153,6 +153,25 @@
           "role": "user-directed_pec_and_garment_adjustment_reference"
         }
       ]
+    },
+    {
+      "id": "alternate_wardrobe_reference",
+      "label": "Alternate low-cut tank and beard reference",
+      "research_question": "Use the gray low-cut tank as an alternate wardrobe look and preserve the bald/full-beard face presentation without overriding the primary seated-car chest silhouette.",
+      "status": "secondary_wardrobe_reference",
+      "assets": [
+        {
+          "asset_id": "gym-tank-portrait",
+          "file_id": "file_00000000316481f48c489a117e91c4fd",
+          "library_file_id": "libfile_5df7807c14e88191b92718261f944e5f",
+          "filename": "Beefy Gym Portrait in Cinematic Shadows.png",
+          "path": "/Beefy Gym Portrait in Cinematic Shadows.png",
+          "mime_type": "image/png",
+          "size_bytes": 1985665,
+          "model_generated": true,
+          "role": "alternate_tank_and_face_reference"
+        }
+      ]
     }
   ],
   "anatomy_channels": [

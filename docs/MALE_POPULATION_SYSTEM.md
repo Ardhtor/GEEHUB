@@ -88,3 +88,8 @@ Use these as distinct starting patterns, not rigid classes:
 - **The wanderer:** gathers knowledge from unfamiliar places; adaptable, independent and difficult to categorize.
 
 A character may combine roles, but should not collapse into a generic ideal. The population becomes compelling through differences and the consequences of sustained contact.
+
+
+## Generation 01 production package
+
+The founding cohort of twenty adult men is specified in the [Kirk Generation 01 production package](../production/projects/kirk-generation-01/README.md). The package includes the structured roster, individual continuity records, a validated relationship graph, visual-sheet requirements, and modular 3D production standards. Rendered sheets, finished meshes, rigs, and animation remain pending until produced and reviewed.

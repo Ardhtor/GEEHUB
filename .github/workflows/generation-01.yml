@@ -1,0 +1,33 @@
+name: Validate Kirk Generation 01
+
+on:
+  push:
+    branches: [main, "production/**"]
+    paths:
+      - "production/projects/kirk-generation-01/**"
+      - "docs/MALE_POPULATION_SYSTEM.md"
+      - ".github/workflows/generation-01.yml"
+  pull_request:
+    paths:
+      - "production/projects/kirk-generation-01/**"
+      - "docs/MALE_POPULATION_SYSTEM.md"
+      - ".github/workflows/generation-01.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate the canonical Generation 01 roster
+        run: python production/projects/kirk-generation-01/validate_generation_01.py
+      - name: Run Generation 01 regression tests
+        working-directory: production/projects/kirk-generation-01
+        run: python -m unittest -v test_generation_01.py
+      - name: Verify JSON syntax
+        run: python -m json.tool production/projects/kirk-generation-01/generation-01.json > /dev/null

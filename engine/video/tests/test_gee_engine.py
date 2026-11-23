@@ -23,12 +23,19 @@ class LocalBridgeSecurityTests(unittest.TestCase):
 
     def test_origin_allowlist_is_exact_and_configurable(self):
         self.assertTrue(gee_engine.origin_is_allowed(None))
-        self.assertTrue(gee_engine.origin_is_allowed("null"))
+        self.assertTrue(gee_engine.origin_is_allowed("http://127.0.0.1:8765"))
+        self.assertFalse(gee_engine.origin_is_allowed("null"))
         self.assertFalse(gee_engine.origin_is_allowed("https://attacker.example"))
         with patch.dict(os.environ, {"GEEHUB_ALLOWED_ORIGINS": "https://studio.example, https://studio.example:443"}):
             self.assertTrue(gee_engine.origin_is_allowed("https://studio.example"))
             self.assertFalse(gee_engine.origin_is_allowed("https://studio.example.evil"))
             self.assertFalse(gee_engine.origin_is_allowed("null"))
+
+    def test_studio_static_file_resolution_is_confined_to_hub(self):
+        self.assertEqual(gee_engine.studio_file_for_path("/"), gee_engine.STUDIO_ROOT / "gee-studio.html")
+        self.assertEqual(gee_engine.studio_file_for_path("/studio"), gee_engine.STUDIO_ROOT / "gee-studio.html")
+        self.assertIsNone(gee_engine.studio_file_for_path("/../../engine/video/gee_engine.py"))
+        self.assertIsNone(gee_engine.studio_file_for_path("/secret.txt"))
 
 
 class RenderRequestValidationTests(unittest.TestCase):
@@ -41,7 +48,7 @@ class RenderRequestValidationTests(unittest.TestCase):
                 self.assertFalse(gee_engine.valid_render_manifest(manifest)[0])
 
     def test_rejects_boolean_nonfinite_and_out_of_range_duration(self):
-        for duration in (True, False, math.nan, math.inf, 9, 601, "45"):
+        for duration in (True, False, math.nan, math.inf, 9, 601, "45", 10 ** 1000):
             with self.subTest(duration=duration):
                 valid, _ = gee_engine.valid_render_manifest({"format": {"duration_seconds": duration}})
                 self.assertFalse(valid)

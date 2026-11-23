@@ -31,6 +31,7 @@
   ],
   "current_status": "blocked-preproduction",
   "current_blockers": [
+    "project-selected image-library files have not yet been staged and checksum-verified",
     "Grok Imagine Video connection unavailable",
     "explicit cost approval not granted",
     "zero provider-generated shots registered",
@@ -47,5 +48,12 @@
     "master_sha256": null,
     "master_dropbox_verification": null,
     "master_ffprobe_metadata": null
-  }
+  },
+  "required_staged_reference_assets": 6,
+  "required_reference_evidence": [
+    "source and staged SHA-256 match",
+    "Library file IDs preserved in sidecars",
+    "original source marked untouched",
+    "all six project-selected image references present under 01_SOURCE/REFERENCE_IMAGES"
+  ]
 }

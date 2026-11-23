@@ -223,6 +223,8 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
     scene.render.filepath = str(output_path)
     scene.render.use_file_extension = True
     scene.view_settings.view_transform = "AgX"
+    if scene.world is None:
+        scene.world = bpy.data.worlds.new("GEEHUB World")
     scene.world.color = (0.018, 0.026, 0.035)
 
     character_model = str(manifest.get("character_model", "blockout")).lower()

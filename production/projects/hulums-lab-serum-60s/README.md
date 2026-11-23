@@ -1,12 +1,12 @@
 # Laboratory Serum — 60s Continuous
 
-This project is now wired to GEEHUB's local Blender scene builder. It is no longer only a shot brief: the timeline can drive a unified rigged humanoid mesh, regional shape-key deformation, a continuous camera arc, a saved Blender scene, and an MP4 render.
+**Status: preproduction prototype; not yet an accepted production delivery.** The repository contains an executable Blender scene builder, timeline-driven deformation, image-library reference manifests, and local source-intake tooling. It does not yet contain provider-generated video shots or an approved master export.
 
 The production is 60 seconds at 24 fps (1,440 frames), with seven contiguous semantic stages. The regional shape-key controller expands the pectorals symmetrically, deltoids, traps, arms, lats, back, torso, quadriceps, calves, and overall body envelope. The camera widens gradually in response to the maximum active regional growth value, preserving the same lens and continuous spatial relationship. Stage boundaries do not create cuts or reset the deformation.
 
 ## Run it locally
 
-Requirements: Blender 4.x and Python 3.10+. From the GEEHUB repository root:
+Requirements: Blender 5.3+ and Python 3.10+. From the GEEHUB repository root:
 
 ```bash
 python3 engine/video/render_project.py
@@ -46,4 +46,6 @@ This is an executable procedural prototype, not a finished Hulum's Cave-quality 
 
 The project remains explicitly adult and fictional. Intimate anatomy is not modeled or rendered. Source media and identity-lock frames remain absent until a verified source is supplied and inspected.
 
-The full-duration low-resolution preview is the acceptance gate: inspect silhouette, body proportions, bilateral balance, camera framing, floor contact, and continuity. The generated measurement report helps distinguish actual geometry change from camera-only change, but visual review remains essential.
+The full-duration low-resolution preview is one acceptance gate, not the final production gate. The canonical image references are indexed in `production/IMAGE_LIBRARY_INDEX.json`; this project's selected subset is `07_MANIFESTS/reference_library.json`. The five pectoral controls are stored in `07_MANIFESTS/growth_profile.json` and validated against those reference IDs. The car-sequence variants have been visually compared, but their order is not approved as a measured growth progression. The local engine cannot query ChatGPT Library or Dropbox directly; export a selected image to the Dropbox-synced folder and stage it with `engine/video/stage_reference_image.py`.
+
+The requested video provider is Grok Imagine Video, but no Grok/Weave generation connection is available in the current workspace. No paid model run has been launched; the Dropbox production specification requires explicit cost approval before generation. The project still needs at least two independent provider-generated shot files, a verified OTIO assembly and master export, and a Dropbox folder that can be reopened and checksum-verified. The intended Dropbox destination is `/GEEHUB/production/projects/hulums-lab-serum-60s`; it has not yet been provisioned. No rendered video or Dropbox delivery is claimed.

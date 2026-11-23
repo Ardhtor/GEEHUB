@@ -54,11 +54,18 @@ def validate_pectorals_geometry(geometry):
             if not isinstance(vector, (list, tuple)) or len(vector) != 3:
                 errors.append(f"pectorals geometry {region}.{field} must contain three numbers")
                 continue
-            if any(isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value) for value in vector):
-                errors.append(f"pectorals geometry {region}.{field} must contain finite numbers")
+            if any(
+                isinstance(value, bool)
+                or not isinstance(value, (int, float))
+                or (isinstance(value, float) and not math.isfinite(value))
+                or abs(value) > 1000
+                for value in vector
+            ):
+                errors.append(f"pectorals geometry {region}.{field} must contain finite, bounded numbers")
         radius = spec.get("radius")
         if isinstance(radius, (list, tuple)) and len(radius) == 3 and all(
-            isinstance(value, (int, float)) and not isinstance(value, bool) and math.isfinite(value) and value > 0
+            isinstance(value, (int, float)) and not isinstance(value, bool)
+            and (not isinstance(value, float) or math.isfinite(value)) and abs(value) <= 1000
             for value in radius
         ) and any(value <= 0 for value in radius):
             errors.append(f"pectorals geometry {region}.radius values must be positive")

@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import math
 import re
 import sys
 from pathlib import Path
@@ -101,11 +102,11 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
         if not _nonempty(shot.get("prompt")):
             errors.append(f"{label} needs a production prompt")
         duration = shot.get("duration_seconds")
-        if isinstance(duration, bool) or not isinstance(duration, (int, float)) or duration <= 0:
-            errors.append(f"{label} duration_seconds must be positive")
+        if isinstance(duration, bool) or not isinstance(duration, (int, float)) or (isinstance(duration, float) and not math.isfinite(duration)) or duration <= 0 or duration > 600:
+            errors.append(f"{label} duration_seconds must be finite and between 0 and 600")
         time_range = shot.get("timeline_range_seconds")
         if not isinstance(time_range, list) or len(time_range) != 2 or any(
-            isinstance(value, bool) or not isinstance(value, (int, float)) for value in time_range
+            isinstance(value, bool) or not isinstance(value, (int, float)) or (isinstance(value, float) and not math.isfinite(value)) for value in time_range
         ):
             errors.append(f"{label} needs a two-value timeline_range_seconds")
         elif isinstance(duration, (int, float)) and not isinstance(duration, bool) and abs((time_range[1] - time_range[0]) - duration) > 0.001:
@@ -125,6 +126,13 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
         if state not in {"not-started", "submitted", "completed", "failed"}:
             errors.append(f"{label} has an unsupported generation status")
             continue
+        if state in {"submitted", "completed"}:
+            if provider.get("connection_status") != "connected" or provider.get("api_adapter_status") != "implemented":
+                errors.append(f"{label} cannot claim a provider job without a connected, implemented adapter")
+            if provider.get("generation_enabled") is not True or provider.get("cost_approval_status") != "approved":
+                errors.append(f"{label} cannot claim a provider job without explicit generation and cost approval")
+            if generation.get("provider_id") != provider.get("provider_id"):
+                errors.append(f"{label} provider_id must match the connected provider manifest")
         if state == "not-started":
             for field in ("provider_job_id", "model_id", "output_path", "output_sha256", "dropbox_file_id", "dropbox_path"):
                 if generation.get(field) is not None:

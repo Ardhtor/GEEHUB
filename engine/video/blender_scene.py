@@ -213,9 +213,7 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
     scene.render.resolution_x = int(fmt.get("width", 1920))
     scene.render.resolution_y = int(fmt.get("height", 1080))
     scene.render.resolution_percentage = 45 if preview_seconds else 100
-    scene.render.image_settings.file_format = "FFMPEG"
-    scene.render.ffmpeg.format = "MPEG4"
-    scene.render.ffmpeg.codec = "H264"
+    _set_video_output(scene)
     scene.render.ffmpeg.constant_rate_factor = "MEDIUM"
     scene.render.filepath = str(output_path)
     scene.render.film_transparent = False

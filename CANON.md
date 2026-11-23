@@ -222,3 +222,11 @@ What happens when the characters stop treating the world as a place they inhabit
 
 The answer must be written as experience.
 
+
+## TRIBAL TERRITORIES
+
+GEEHUB contains peoples and durable communities whose identities grow from homeland, daily life, buildings, customs, relationships, and inherited records. A tribe is a broad social-worldbuilding term, not a requirement that every population share one ancestry or political structure. The Redwood territories, Mexiancas, Dad Convent, Gold's on 5th circle, and Foggy Dark Expanse are connected through a developing territorial atlas while retaining their own canon and provenance. The Mexiancas remain a distinct sentient people with multiple accounts and the Open Continuation Principle; the Dad Convent remains its established wooded estate and construction community; Gold's on 5th remains distinct from the wider Teal Titan lineage; the Redwood Entrance remains a specific Northgate Athletic Commons place; and the Foggy Dark Expanse remains incompletely mapped. New customs and geography are proposals until developed in story. Societies change through generations, migration, exchange, work, and ordinary life. The world is a network, not a hierarchy.
+
+## ACTIVE WRITING PRINCIPLE — BRAWN INTELLIGENCE
+
+The visible writing is active, embodied, direct, and grounded in what people do. Let competence show through work, physical presence, practical judgment, social instinct, and consequences rather than constant explanation. Keep research and continuity rigorous underneath, but let the interface and prose feel inhabited: people arriving, training, eating, building, repairing, arguing, making plans, and returning to familiar places. Muscular confidence does not require every character to be loud, identical, or competitive in every scene.

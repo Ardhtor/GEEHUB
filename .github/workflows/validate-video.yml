@@ -28,9 +28,9 @@ jobs:
       - name: Install timeline interchange adapter
         run: python -m pip install --upgrade opentimelineio
       - name: Compile video tools
-        run: python -m py_compile engine/video/validate_timeline.py engine/video/otio_export.py engine/video/import_gaussian_splat.py engine/video/gee_engine.py engine/video/render_project.py engine/video/timeline_growth.py engine/video/growth_geometry.py engine/video/growth_curves.py engine/video/tests/test_validate_timeline.py engine/video/tests/test_otio_export.py engine/video/tests/test_growth_geometry.py engine/video/tests/test_growth_curves.py engine/video/tests/test_gee_engine.py
+        run: python -m py_compile engine/video/validate_timeline.py engine/video/otio_export.py engine/video/import_gaussian_splat.py engine/video/gee_engine.py engine/video/render_project.py engine/video/stage_reference_image.py engine/video/timeline_growth.py engine/video/growth_geometry.py engine/video/growth_curves.py engine/video/tests/test_validate_timeline.py engine/video/tests/test_otio_export.py engine/video/tests/test_growth_geometry.py engine/video/tests/test_growth_curves.py engine/video/tests/test_gee_engine.py engine/video/tests/test_stage_reference_image.py
       - name: Run timeline, provenance, and OpenTimelineIO regression tests
-        run: python -m unittest engine.video.tests.test_validate_timeline engine.video.tests.test_otio_export engine.video.tests.test_growth_geometry engine.video.tests.test_growth_curves engine.video.tests.test_gee_engine
+        run: python -m unittest engine.video.tests.test_validate_timeline engine.video.tests.test_otio_export engine.video.tests.test_growth_geometry engine.video.tests.test_growth_curves engine.video.tests.test_gee_engine engine.video.tests.test_stage_reference_image
       - name: Validate Teal Titan production manifests
         run: python engine/video/validate_timeline.py
       - name: Validate continuous physique growth project

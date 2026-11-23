@@ -13,7 +13,7 @@ import bpy
 from mathutils import Vector
 
 from growth_curves import DEFAULT_PROFILE, sample_profile, validate_profile
-from growth_geometry import pectoral_offset
+from growth_geometry import pectoral_offset, validate_pectorals_geometry
 
 # Ellipsoidal influence fields localise each shape key to an anatomical region.
 # Factors are the full-strength deformation at a normalised profile value of 1.
@@ -48,7 +48,7 @@ def _make_region_key(mesh, name, centre, radius, factors):
     return key
 
 
-def _make_pectorals_keys(mesh):
+def _make_pectorals_keys(mesh, geometry=None):
     """Create three independently editable, bilateral chest shape keys."""
     if mesh.data.shape_keys is None:
         mesh.shape_key_add(name="Basis", from_mix=False)
@@ -60,7 +60,7 @@ def _make_pectorals_keys(mesh):
     ):
         key = mesh.shape_key_add(name=label, from_mix=False)
         for source, target in zip(mesh.data.vertices, key.data):
-            offset = pectoral_offset(source.co, region)
+            offset = pectoral_offset(source.co, region, geometry)
             target.co = source.co + Vector(offset)
         keys[region] = key
     return keys
@@ -75,14 +75,19 @@ def animate_timeline_growth(mesh, timeline, profile=None):
     frame_count = int(timeline.get("timebase", {}).get("frame_count", round(duration * fps)))
     if frame_count != round(duration * fps):
         raise ValueError("Timeline frame_count must equal duration_seconds × fps")
+    pectorals_geometry = None
     if profile and profile.get("schema") == "geehub.growth-profile/1":
         selected_profile = {name: entry["knots"] for name, entry in profile.get("regions", {}).items()}
         if profile.get("project_id") != timeline.get("project_id"):
             raise ValueError("Growth profile project_id does not match timeline")
         if int(profile.get("timebase", {}).get("fps", fps)) != fps:
             raise ValueError("Growth profile fps does not match timeline")
+        pectorals_geometry = profile.get("deformation", {}).get("pectorals", {}).get("geometry")
     else:
         selected_profile = profile or DEFAULT_PROFILE
+    geometry_errors = validate_pectorals_geometry(pectorals_geometry)
+    if geometry_errors:
+        raise ValueError("Invalid pectoral geometry: " + "; ".join(geometry_errors))
     errors = validate_profile(selected_profile)
     if errors:
         raise ValueError("Invalid growth profile: " + "; ".join(errors))
@@ -97,7 +102,7 @@ def animate_timeline_growth(mesh, timeline, profile=None):
         region: _make_region_key(mesh, region, centre, radius, factors)
         for region, (centre, radius, factors) in REGIONS.items()
     }
-    pectoral_keys = _make_pectorals_keys(mesh)
+    pectoral_keys = _make_pectorals_keys(mesh, pectorals_geometry)
     for frame, values in sample_profile(selected_profile, duration, fps):
         for region, key in keys.items():
             key.value = values[region]

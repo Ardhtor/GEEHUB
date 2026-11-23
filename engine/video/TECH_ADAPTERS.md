@@ -8,13 +8,13 @@ Blender 5.3 includes OpenTimelineIO as a built-in Python module. GEEHUB exports 
 
 Export a timeline without attaching media:
 
-    python3 engine/video/otio_export.py \
+    python3 engine/video/gee_engine.py export-otio \
       --timeline production/projects/teal-titan-golds-on-5th/07_MANIFESTS/timeline.json \
       --output production/projects/teal-titan-golds-on-5th/04_COMPOSITES/teal-titan.otio
 
 Attach a source video as the continuous picture clip:
 
-    python3 engine/video/otio_export.py \
+    python3 engine/video/gee_engine.py export-otio \
       --timeline production/projects/teal-titan-golds-on-5th/07_MANIFESTS/timeline.json \
       --media /path/to/verified-source.mp4 \
       --output production/projects/teal-titan-golds-on-5th/04_COMPOSITES/teal-titan.otio

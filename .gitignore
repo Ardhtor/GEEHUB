@@ -22,3 +22,6 @@ production/projects/*/06_AUDIO/*
 
 # Ephemeral Blender integration renders are uploaded as CI artifacts, not committed.
 engine/video/tests/output/
+
+# Provider job/run records stay with the Dropbox production workspace, not Git history.
+production/projects/*/07_MANIFESTS/provider_runs/

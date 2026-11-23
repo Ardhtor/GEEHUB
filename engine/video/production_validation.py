@@ -248,6 +248,9 @@ def evaluate_acceptance(shots: dict, acceptance: dict, project_root: Path) -> di
         blockers.append("final master FFprobe metadata is missing or incomplete")
     if acceptance.get("no_mock_or_placeholder_acceptance") is not True:
         blockers.append("acceptance policy must prohibit mock and placeholder media")
+    visual_review = acceptance.get("visual_review")
+    if not isinstance(visual_review, dict) or visual_review.get("status") != "approved":
+        blockers.append("final-growth multi-angle visual review has not been approved")
     return {
         "accepted": not blockers,
         "status": "accepted" if not blockers else "blocked-preproduction",

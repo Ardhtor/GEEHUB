@@ -9,6 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import bpy
+import bmesh
 from blender_scene import build_scene
 
 
@@ -36,6 +37,28 @@ def main():
         preview_seconds=1.0 / int(timeline.get("timebase", {}).get("fps", 24)),
         save_blend_path=blend_path,
     )
+    body = bpy.data.objects.get("GEEHUB / rigged base / fused skin")
+    if body is None or body.type != "MESH":
+        raise AssertionError("The unified rigged skin mesh was not created")
+    bm = bmesh.new()
+    bm.from_mesh(body.data)
+    unvisited = set(bm.verts)
+    components = 0
+    while unvisited:
+        components += 1
+        stack = [unvisited.pop()]
+        while stack:
+            vertex = stack.pop()
+            for edge in vertex.link_edges:
+                neighbour = edge.other_vert(vertex)
+                if neighbour in unvisited:
+                    unvisited.remove(neighbour)
+                    stack.append(neighbour)
+    bm.free()
+    if components != 1:
+        raise AssertionError(f"Unified body must be one connected mesh; found {components} components")
+    if len(body.data.vertices) < 5000:
+        raise AssertionError(f"Unified body mesh is under-detailed: {len(body.data.vertices)} vertices")
     if not blend_path.is_file() or blend_path.stat().st_size < 100_000:
         raise AssertionError("Blender did not save the assembled production scene")
     if not video_path.is_file() or video_path.stat().st_size == 0:

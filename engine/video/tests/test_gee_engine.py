@@ -17,7 +17,7 @@ class LocalBridgeSecurityTests(unittest.TestCase):
                 self.assertTrue(gee_engine.host_is_loopback(host))
 
     def test_rejects_non_loopback_and_rebinding_hosts(self):
-        for host in ("example.com:8765", "127.0.0.2:8765", "localhost.evil:8765", "127.0.0.1:9999", None):
+        for host in ("example.com:8765", "192.0.2.1:8765", "localhost.evil:8765", "127.0.0.1:9999", None):
             with self.subTest(host=host):
                 self.assertFalse(gee_engine.host_is_loopback(host))
 

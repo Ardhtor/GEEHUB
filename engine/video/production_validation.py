@@ -230,6 +230,14 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
                 media_duration = metadata.get("duration_seconds")
                 if isinstance(media_duration, (int, float)) and not isinstance(media_duration, bool) and abs(media_duration - duration) > 0.25:
                     errors.append(f"{label} probed media duration does not match the shot duration")
+                if provider_config.get("provider_id") == "xai-grok-imagine-video":
+                    if (metadata.get("width"), metadata.get("height")) != (1280, 720):
+                        errors.append(f"{label} xAI reference-to-video media must be native 1280x720")
+                    if metadata.get("audio_codec") not in {"none", None}:
+                        errors.append(f"{label} xAI video segments must remain silent until the approved soundtrack mix")
+                for field in ("frame_rate", "width", "height", "video_codec", "audio_codec"):
+                    if generation.get(field) != metadata.get(field):
+                        errors.append(f"{label} top-level {field} does not match ffprobe metadata")
             if generation.get("dropbox_file_id") is not None or generation.get("dropbox_path") is not None:
                 errors.append(f"{label} generated-local state must not claim Dropbox verification")
             if generation.get("reopened_from_dropbox") is not False or generation.get("metadata_verified") is not False:
@@ -319,6 +327,8 @@ def validate_shot_manifest(shots: object, reference_library: object, provider: o
             errors.append(f"segment {current.get('shot_id')} must record the pinned prior-frame file ID")
         if current_generation.get("first_frame_file_id") != current_generation.get("pinned_first_frame_file_id"):
             errors.append(f"segment {current.get('shot_id')} first-frame file ID must match its pinned frame ID")
+        if current_generation.get("pinned_first_frame_file_id") != previous_generation.get("last_frame_file_id"):
+            errors.append(f"segment {current.get('shot_id')} pinned frame file ID must match the previous segment's uploaded final frame")
         if current_generation.get("first_frame_sha256") != previous_generation.get("last_frame_sha256"):
             errors.append(f"segment {current.get('shot_id')} first frame does not match the previous segment final frame")
         if current_generation.get("continuity_status") != "passed":

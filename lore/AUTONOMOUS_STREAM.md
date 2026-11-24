@@ -2885,3 +2885,11 @@ NICK: The world crosses the route from CEDAR HOUSE into CAT GARDENS. The earlier
 SETH: Sheltered courtyards shared with resident cats; warm steps, water bowls, catmint, quiet benches, and a local sign of good luck. Relation carried forward: GOOD LUCK HAS WHISKERS.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 373 — ATMOSPHERE / CAT GARDENS / 2026-11-24T19:18:45.744570+00:00
+
+SETH: A cat sleeps on the warm stone beside the rosemary bed. Water bowls catch the pale sky, and the sheltered passages remain open between the planted courtyards.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

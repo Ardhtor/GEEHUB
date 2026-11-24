@@ -17,3 +17,8 @@ No reliable biography, age beyond the adult-fiction framing, appearance, voice, 
 Preserve Ian's independent agency. Develop his character through scenes, decisions, habits, values, and interactions rather than assigning him a function as a rival or intermediary. His relationship with Gabe and Kirk remains provisional until the story establishes what each man actually wants.
 
 The branch must be reconciled with Gabe's existing Dorian connection, Kirk's established eventual partnership with Joseph, and Andrew's separate attention to Kirk before a numbered manuscript chapter is placed in the shared chronology.
+
+
+## Temperament — avoidant tendency
+
+**User-established trait (24 November 2026):** Ian is characteristically somewhat avoidant, as is Gabe. Treat this as a recurring behavioural tendency, not a diagnosis or proof that Ian feels nothing. Attraction may make him attentive and interested while also making direct acknowledgment, emotional exposure, or the next step difficult. He may approach indirectly, leave a moment unresolved, delay a response, or retreat after closeness. These are possible scene expressions, not a fixed checklist; establish Ian's particular pattern through the story. Preserve the distinction between wanting connection and being ready to act on it.

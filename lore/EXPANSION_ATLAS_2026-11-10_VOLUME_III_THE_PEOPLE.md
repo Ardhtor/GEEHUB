@@ -1,4 +1,4 @@
-# GEEHUB — Expansion Atlas, Volume III: The People
+# Expansion Atlas — Volume III: The People
 
 **Date:** 2026-11-10  
 **Setting:** The Confluence and its connected districts  

@@ -86,3 +86,7 @@ These are provisional fictional records. Their biographies remain open beyond th
 ## Northgate ensemble addition — Chapter LXXXIX
 
 - [Tyler Boeskin](records/TYLER_BOESKIN.md) — Gabe's adult mate, distinct from the existing evidence-focused Tyler; sociable, physically confident, and practically involved in the Northgate print room.
+
+## Provisional relationship addition — 24 November 2026
+
+- [Ian Kistner](records/IAN_KISTNER.md) — newly introduced into a developing relationship story with Gabe and Kirk. Only the premise is established; biography, voice, appearance, and chronology remain open. See the [Threefold Attraction](../lore/IAN_GABE_KIRK_TRIANGLE.md) and its [cross-book influence map](../novel/THREE_BOOKS_IN_MOTION.md).

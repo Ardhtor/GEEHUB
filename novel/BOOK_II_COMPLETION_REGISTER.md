@@ -20,7 +20,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | VIII | A Day in the Open Pavilion | 3,756 | First body-level line-edit pass complete; relationship continuity and final edit pending |
 | IX | The Narrow Turn | 3,820 | First body-level line-edit pass complete; scene clarity and repeatability continuity review pending |
 
-**Current narrative baseline:** 34,801 narrative words across nine chapters after the first body-level line-edit pass. Counts exclude continuity records and use the same whitespace-based method for each chapter. Chapter I reached 4,609 words during its first expansion pass and was subsequently ending-compressed to 4,444. The publishing guide recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point only when the material sustains that length. These ranges are guidance, not quotas; do not pad.
+**Current narrative baseline:** 34,801 narrative words across nine chapters after the second ending-compression pass. Counts exclude continuity records and use the same whitespace-based method for each chapter. Chapter I reached 4,609 words during its first expansion pass and was subsequently ending-compressed to 4,444. The publishing guide recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point only when the material sustains that length. These ranges are guidance, not quotas; do not pad.
 ## Sequence and sources
 
 - Chapter I — `BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md`
@@ -78,7 +78,7 @@ Book II is not complete merely because Chapter IX has been drafted or because th
 
 ## Next operation
 
-The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) now consolidates the relative sequence, geography, relationships, Evermeasure development, and unresolved consequences across Chapters I–IX. A first ending-compression pass has been completed across Chapters I–IX. The first body-level line-edit pass is complete across Chapters I–IX. The next pass is the whole-book continuity sweep, followed by a final copyedit and source verification. Continue to Book III only after this register is formally closed.
+The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) now consolidates the relative sequence, geography, relationships, Evermeasure development, and unresolved consequences across Chapters I–IX. The first body-level line-edit pass is complete across Chapters I–IX. A second ending-compression pass removed 1,518 words across the book: 1,053 from Chapter III and 465 from the other eight chapter endings. The next pass is the whole-book continuity sweep, followed by a final copyedit and source verification. Continue to Book III only after this register is formally closed.
 
 ## Motif held for scene development
 

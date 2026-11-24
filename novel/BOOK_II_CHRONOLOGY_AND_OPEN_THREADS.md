@@ -152,7 +152,7 @@ A first ending-compression pass was completed across Chapters I–IX on 24 Novem
 
 | Chapter | Narrative words | Current Git blob | Editorial state |
 | --- | ---: | --- | --- |
-| I — The Lost Country | 4,444 | `a91901b1ab8ca5b85b8c09956e8a838f60aff9f7` | Ending compressed; whole-book continuity and line edit pending |
+| I — The Lost Country | 4,180 | `93746ac7c4d087b97a499e643e62902cd7bfe463` | First line-edit pass complete; whole-book continuity and final edit pending |
 | II — The Keepers of the Old Trail | 4,098 | `0ef434c0b1d5b1c2ddd9db60ea892666237188dc` | Ending compressed; duplicate prose removed earlier; whole-book line edit pending |
 | III — The Place That Moved | 4,486 | `5f6498b354af34b49fe02d8c2cb35509a4c0ecb2` | Ending compressed; whole-book continuity and line edit pending |
 | IV — The Promises That Keep | 3,725 | `bd85a9bca132296bd7e428b72a58905ae4c4e164` | Ending compressed; relationship continuity and line edit pending |

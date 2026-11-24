@@ -16,12 +16,13 @@ The documentation folder contains the repository's technical contracts, editoria
 - [Growth](GROWTH.md) — a shared approach to gradual development, research, continuity, and making.
 - [The Boyfriend-in-High-School Experience Principle](BOYFRIEND_IN_HIGH_SCHOOL_EXPERIENCE_PRINCIPLE.md) — emotional design through anticipation, recognition, private language, play, tenderness, and continuity.
 - [Story and Generated Environment Integration](STORY_ENVIRONMENT_INTEGRATION.md) — Book II scenes where story actions change and persist in their generated settings.
+- [Narrative Continuity Audit](NARRATIVE_CONTINUITY_AUDIT.md) — active correction register for diegetic naming, character identity, chronology, point of view, and manuscript boundaries.
 
 **Up:** [repository root](../README.md) · [Hub](../hub/README.md) · [full directory map](REPOSITORY_NAVIGATION.md)
 
 ## Files
 
-### MD (73)
+### MD (74)
 
 - [`ACCESSIBLE_CONSTELLATION.md`](./ACCESSIBLE_CONSTELLATION.md)
 - [`ACCESSIBLE_REPOSITORIES_2026-09.md`](./ACCESSIBLE_REPOSITORIES_2026-09.md)

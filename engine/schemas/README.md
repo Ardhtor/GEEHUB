@@ -6,8 +6,10 @@ This is the local navigation page for `engine/schemas/`. The lists below link to
 
 ## Files
 
-### JSON (3)
+### JSON (5)
 
+- [`file-analysis.schema.json`](./file-analysis.schema.json)
+- [`file-analysis.template.json`](./file-analysis.template.json)
 - [`innervation-cue-v2.schema.json`](./innervation-cue-v2.schema.json)
 - [`innervation-cue.schema.json`](./innervation-cue.schema.json)
 - [`tractus-revision.schema.json`](./tractus-revision.schema.json)

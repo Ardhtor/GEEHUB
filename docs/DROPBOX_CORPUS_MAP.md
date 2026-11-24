@@ -15,16 +15,26 @@ The immediate children of `/GEEHUB` include `AI`, `chapters`, `worlds`, `product
 
 Selected direct-child checks on 24 November found:
 
-- `/GEEHUB/AI` contains the GEEHUB AI Build 0.1 specification, Presence Charter, Cross-Book Chapter Influence Protocol, Production Priority Paper, Live Wand Session 001, Book II Chapter VIII Paper companion, and Ian Kistner/Gabe/Kirk relationship branch.
+- `/GEEHUB/AI` contains the GEEHUB AI Build 0.1 specification, Presence Charter, Cross-Book Chapter Influence Protocol, Production Priority Paper, Live Wand Session 001, the Book II Chapter VIII Paper companion, the Ian Kistner/Gabe/Kirk relationship branch, and the *God as an Eclectic Mouse* three-book motif.
+- `/GEEHUB/chapters` contains the Book II Chapter I, Chapter II, and Chapter IX Paper mirrors, alongside other independent story documents. Chapter VIII is stored under `/GEEHUB/AI`.
 - `/GEEHUB/production` contains `assets`, `scenes`, `recipes`, `projects`, and `references`, plus the Visual Taste & Comic Production System Paper document.
 - `/GEEHUB/maps`, `/GEEHUB/corpus`, and `/GEEHUB/state` were empty in the direct-child checks. Their GitHub counterparts are active; do not mistake these Dropbox folders for populated mirrors.
 - `/GEEHUB/DREAM_MATERIAL` exists and was recently modified, but its contents were not inspected in this pass.
 
 ## Verified manuscript alignment
 
-The Dropbox Paper document **GEEHUB Production Priority — Book II, then Book III** is synchronized to `novel/PRODUCTION_PRIORITY.md` at Paper revision 8. It reflects the nine-chapter sequence, the corrected 27,871-word baseline, first expansion passes for Chapters I and II, and the next revision cursor at Chapter III.
+The Dropbox Paper document **GEEHUB Production Priority — Book II, then Book III** is synchronized to `novel/PRODUCTION_PRIORITY.md` at Paper revision 9. It reflects the current nine-chapter sequence, the 27,871-word baseline, first expansion passes for Chapters I and II, and the next revision cursor at Chapter III.
 
-The Dropbox Paper companion for **Book II — Chapter VIII: A Day in the Open Pavilion** was compared with the GitHub manuscript. The body matches; the GitHub Markdown heading is not duplicated in the Paper body. A Dropbox Paper companion for Chapter IX, a Chapter I Paper mirror, a separate Book II Completion Register Paper, and a chronology-map Paper were not located in the searches performed. The GitHub Markdown files remain the current sources for those records.
+The Book II Paper mirrors were read back and compared with their GitHub sources. All four Markdown bodies match exactly:
+
+| Chapter | Dropbox location | Paper revision | GitHub source blob |
+| --- | --- | ---: | --- |
+| I — The Lost Country | [Open in Dropbox](https://www.dropbox.com/scl/fi/gpx1ba1ijqb6qhfv7igop/Book-II-Chapter-I_-The-Lost-Country.paper?dl=0) | 1 | `6046e63dc0f749f0caeab24d9f2e7407fb143a90` |
+| II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 2 | `cefe0de1ed3ce967b441766693b00dc90cd66c88` |
+| VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 2 | `d1e1d17fdb467570042bcf1a60c0f3f573bbb579` |
+| IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 1 | `d9be1ad55e028e2cd388dd43386b0b0ceb99bb42` |
+
+The [Book II Completion Register](../novel/BOOK_II_COMPLETION_REGISTER.md) records these links, Paper revisions, and GitHub source fingerprints. Chapters III–VII remain to be mirrored after their revision passes. GitHub remains the canonical source; Dropbox Paper is the production and reading surface. A mirror must be refreshed and verified after its source chapter changes.
 
 The **GEEHUB AI — Build 0.1** Paper document is a foundation specification, not a deployed or trained AI model. Its target runtime files and provider configuration remain implementation work. Any implementation must connect to the existing event-inscription, activity, artifact, continuity, and state systems; it must not introduce a second event log, canon store, artifact ledger, or project registry.
 

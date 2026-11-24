@@ -1,6 +1,6 @@
 # engine — directory index
 
-This is the local navigation page for `engine/`. The lists below link to immediate files and child folders; use a child folder's own README to continue deeper.
+This is the local navigation page for `engine/`. The lists below link to immediate files and child folders; use a child folder's own README to continue deeper. The [File Analysis Studio](./file-analysis-studio.html) opens a local source in the browser and records locator-based observations and interpretations without uploading the original.
 
 **Up:** [parent directory](../README.md) · [repository root](../README.md) · [full directory map](../docs/REPOSITORY_NAVIGATION.md)
 
@@ -47,8 +47,9 @@ This is the local navigation page for `engine/`. The lists below link to immedia
 - [`worship-me.css`](./worship-me.css)
 - [`zero-read-mode.css`](./zero-read-mode.css)
 
-### HTML (3)
+### HTML (4)
 
+- [`file-analysis-studio.html`](./file-analysis-studio.html)
 - [`luke-growth-morph.html`](./luke-growth-morph.html)
 - [`media-inspector.html`](./media-inspector.html)
 - [`morph-arm.html`](./morph-arm.html)

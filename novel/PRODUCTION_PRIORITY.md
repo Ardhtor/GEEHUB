@@ -46,8 +46,8 @@ Narrative word counts below exclude the separate continuity record at the end of
 
 | Chapter | Title | Narrative words | Current status |
 | --- | --- | ---: | --- |
-| I | The Lost Country | 4,444 | Ending compression pass; full continuity and line edit pending |
-| II | The Keepers of the Old Trail | 4,098 | Ending compression pass; full continuity and line edit pending |
+| I | The Lost Country | 4,180 | First body-level line edit complete; whole-book continuity and final edit pending |
+| II | The Keepers of the Old Trail | 4,039 | First body-level line edit complete; whole-book continuity and final edit pending |
 | III | The Place That Moved | 4,486 | Ending compression pass; full continuity and line edit pending |
 | IV | The Promises That Keep | 3,725 | Ending compression pass; relationship continuity and line edit pending |
 | V | Four Mansions | 4,763 | Ending compression pass; residential continuity and line edit pending |
@@ -56,7 +56,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | VIII | A Day in the Open Pavilion | 2,287 | Ending compression pass; expansion and full edit pending |
 | IX | The Narrow Turn | 3,877 | Ending compression pass; expansion and full edit pending |
 
-**Current total:** 35,572 narrative words across nine chapters after the first ending-compression pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
+**Current total:** 35,249 narrative words across nine chapters after the first ending-compression pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
 
 ## Active Book II threads
 

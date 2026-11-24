@@ -8,7 +8,7 @@
 
 ### First — Book II: the Kirk Expedition
 
-Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The latest chapter is **Chapter IX — The Narrow Turn**, a new working draft. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book expansion and final editorial process. Chapter I received its first in-place expansion on 24 November, increasing its narrative body from 1,324 to 2,977 words; full-book review remains pending.
+Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The latest chapter is **Chapter IX — The Narrow Turn**, a new working draft. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book expansion and final editorial process. Chapter I received its first in-place expansion on 24 November, increasing its narrative body from 1,324 to 2,977 words. It has been read back against Chapter II; its whole-book review remains open for the final continuity sweep.
 
 Finishing Book II means more than adding the next chapter. Work must return to the existing sequence, develop each chapter in canonical order, reconcile its continuity, continue the story through its natural ending, and then perform the whole-book editorial close-out. The chapter expansion protocol remains in force.
 
@@ -67,8 +67,8 @@ Narrative word counts below exclude the separate continuity record at the end of
 
 ## Execution order
 
-1. Complete the Book II chapter-and-source census and a chronological/open-thread map.
-2. Chapter I has its first expansion pass; complete its whole-book review and continue revising Chapters II–IX in canonical order, preserving established events and expanding scenes where needed.
+1. Maintain the [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) as the working continuity index; update it after every accepted chapter revision.
+2. Chapter I has its first expansion pass and has been read back against Chapter II; continue the in-place revision at Chapter II and proceed through Chapters III–IX in canonical order. Reserve Chapter I's whole-book review for the final continuity sweep.
 3. After the existing sequence has been revised, continue with the next necessary chapter and carry all new consequences into the book's records.
 4. Continue the sequence until its dramatic and relational movements reach an earned ending.
 5. Perform the whole-book continuity sweep, copyedit, contents/index reconciliation, and final proof.

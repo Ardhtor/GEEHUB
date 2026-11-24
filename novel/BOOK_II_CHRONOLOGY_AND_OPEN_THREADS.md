@@ -162,7 +162,7 @@ A first ending-compression pass was completed across Chapters I–IX on 24 Novem
 | VIII — A Day in the Open Pavilion | 2,287 | `d36fa5711621a5e062e8c7820d950bade48348fb` | Ending compressed; Michael's day and privacy continuity review pending |
 | IX — The Narrow Turn | 3,877 | `1c4ef8c06bda7a9475d6318f5d7009bbecbc1a03` | Ending compressed; scene clarity and repeatability continuity review pending |
 
-**Current narrative census:** 34,775 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
+**Current narrative census:** 36,405 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
 
 ## Revision order and editorial gates
 

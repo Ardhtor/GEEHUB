@@ -2,7 +2,7 @@
 
 **Record type:** Fictional relationship arc and continuing story chapter  
 **Status:** Incubating canon  
-**Setting:** GEEHUB shared social world  
+**Setting:** Shared story-world branch; exact local setting and wider in-world name remain open  
 **Continuity:** Adult characters; developing relationships; no final pairing predetermined
 
 ## The first arrangement

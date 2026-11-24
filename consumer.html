@@ -55,6 +55,21 @@ aside{padding:20px 9px;align-items:center;gap:26px;background:rgba(10,18,22,.94)
 .project-body{padding:9px 12px!important}.project-title strong{font-size:11px!important;letter-spacing:.08em;text-transform:uppercase}
 .tool{min-height:78px!important}.tool b{font-size:10px!important;letter-spacing:.12em;text-transform:uppercase}
 .list-row{font-size:12px}.list-row b{font-weight:500;letter-spacing:.04em}
+
+/* NO VISIBLE BRAND OR SECTION LABELS */
+.welcome h1,.section-head h2{display:none!important}
+.section-head{height:1px;margin:20px 0 10px!important}
+.section-head button{font-size:0!important;opacity:.35}
+.resume h2{font-size:0!important}
+.resume .primary-btn{font-size:0!important;min-width:38px;width:38px;height:38px;padding:0}
+.resume .primary-btn:after{content:"↗";font-size:17px}
+.project-title strong,.tool b{font-size:0!important;letter-spacing:0!important}
+.project-title{min-height:8px}
+.project-body{min-height:18px}
+.project:hover .project-title strong,.tool:hover b{font-size:10px!important;letter-spacing:.1em!important}
+.tool{display:flex;align-items:center;justify-content:center;flex-direction:column}
+.tool b{margin:0!important}
+.avatar{font-size:0!important}
 </style>
 </head>
 <body>
@@ -77,8 +92,8 @@ aside{padding:20px 9px;align-items:center;gap:26px;background:rgba(10,18,22,.94)
 <div class="content">
 <section class="primary">
   <div class="view active" id="view-home">
-    <div class="welcome"><div><h1>GEEHUB</h1></div></div>
-    <div class="resume"><div><h2>Book II</h2></div><button class="primary-btn" data-go="projects">Open →</button></div>
+    <div class="welcome"><div><h1 aria-label="Home"></h1></div></div>
+    <div class="resume"><div><h2 aria-label="Continue"></h2></div><button class="primary-btn" aria-label="Continue" data-go="projects">→</button></div>
     <div class="section-head"><h2>Worlds</h2><button data-go="worlds">↗</button></div>
     <div class="grid" id="home-projects">
       <article class="project" data-go="worlds"><div class="project-art forest"></div><div class="project-body"><div class="project-title"><strong>Veyrthalis</strong><span class="status">Active</span></div><p>The dark expanse · Digitorium · Temple of Moon · HULUM'A</p></div></article>

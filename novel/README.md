@@ -112,6 +112,11 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [Chapter XCV — The Untranslated](./chapters/CHAPTER_XCV_THE_UNTRANSLATED.md) — three unexplained traces lead the boys to preserve uncertainty rather than force an interpretation.
 
 
+## Current production priority
+
+- [Production Priority — Book II, then Book III](./PRODUCTION_PRIORITY.md) — active user-directed order: finish Book II before beginning Book III.
+- [Book II Completion Register](./BOOK_II_COMPLETION_REGISTER.md) — eight-chapter census, narrative word-count baseline, open threads, and completion gate.
+
 ## Book II — Kirk Expedition
 
 The second book follows the living geography of Kirk's extraordinary anatomy, the older settlement at the Measure House, and the relationships that develop as the country changes. Its central social engine is the men's enduring competitiveness: they enjoy showing off, one-upping one another, and carrying every achievement into the next challenge. The Evermeasure makes this recursive culture permanent without turning affection or Kirk's bodily autonomy into a score. Its local atlas is deliberately separate from the Veyrthalis and Colossus world maps.

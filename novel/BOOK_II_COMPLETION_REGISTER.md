@@ -10,7 +10,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 
 | Chapter | Title | Narrative words | Status |
 | --- | --- | ---: | --- |
-| I | The Lost Country | 1,324 | Existing text; expansion and continuity review pending |
+| I | The Lost Country | 2,977 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | II | The Keepers of the Old Trail | 1,928 | Existing text; expansion and continuity review pending |
 | III | The Place That Moved | 1,902 | Existing text; expansion and continuity review pending |
 | IV | The Promises That Keep | 2,452 | Existing text; relationship and continuity review pending |
@@ -20,7 +20,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter on 24 November; expansion and edit pending |
 | IX | The Narrow Turn | 4,162 | New working chapter on 24 November; expansion and edit pending |
 
-**Current narrative baseline:** approximately 22,352 words across nine chapters. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
+**Current narrative baseline:** approximately 24,005 words across nine chapters. Chapter I has increased from 1,324 to 2,977 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
 
 ## Sequence and sources
 
@@ -53,8 +53,12 @@ Chapter IX is now present as a working draft. No concluding chapter is registere
 
 Each chapter must be revised in place, read back, continuity checked, and recorded with a new source hash and narrative word count. The ending must resolve or deliberately carry the major threads. The complete book must then pass the publishing-standard copyedit, contents/index check, and final source verification.
 
-Book II is not complete merely because Chapter VIII exists, because Chapter IX has been drafted, or because the atlas is detailed. It is complete when the book has an earned ending and the entire manuscript has been revised and verified.
+Book II is not complete merely because Chapter IX has been drafted or because the atlas is detailed. Chapter I now has a first expansion pass, but that is not a final whole-book review. It is complete when the book has an earned ending and the entire manuscript has been revised and verified.
 
 ## Next operation
 
-Build the full chronology and open-thread map from Chapters I–IX and the spatial/relationship records. Then begin the whole-book revision in canonical order at Chapter I. Continue to Book III only after this register is formally closed.
+Build the full chronology and open-thread map from Chapters I–IX and the spatial/relationship records. Chapter I has received its first expansion pass and been read back against Chapter II; its whole-book review remains open. Continue the in-place revision in canonical order at Chapter II, then proceed through the remaining existing chapters before extending the story toward its ending. Continue to Book III only after this register is formally closed.
+
+## Motif held for scene development
+
+The user supplied the following line on 24 November 2026: “the adults had said that video games would ruin our behavior. so we took them up on that offer. and our behavior was ruined all the way. and then? It started to get better.” Preserve it verbatim as a thematic source. Its possible Book II connection is the movement from excessive competition through consequences and self-correction to a better culture of play. It is not assigned to a character or treated as literal in-world video-game history. See the Play, Excess, and Recovery section in the Evermeasure doctrine.

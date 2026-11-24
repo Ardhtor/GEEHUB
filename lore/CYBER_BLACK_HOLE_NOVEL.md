@@ -1,11 +1,11 @@
 # The Unplanned Convergence
-## A Geehub Novel
+## A Novel of the Unplanned Convergence
 
 ### Prologue — The Room That Wasn't There
 
 The first sign was a room.
 
-It appeared between two familiar places in the Geehub map, in a narrow interval where the old interface had always shown a dark seam. No one had designed it. No project ticket requested it. The room had a long table, six mismatched chairs, a window looking onto a city none of them recognised, and a blue light moving slowly beneath the floor as if a river had been buried there.
+It appeared between two familiar places on the map, in a narrow interval where an old interface had always shown a dark seam. No one had planned it or asked for it. The room had a long table, six mismatched chairs, a window looking onto a city none of them recognised, and a blue light moving slowly beneath the floor as if a river had been buried there.
 
 At the centre of the table lay a black disc no larger than a coin. It was smooth, warm, and completely unmarked.
 
@@ -171,9 +171,15 @@ For the first time, the room seemed settled.
 
 ### Chapter Four — The City Beneath the Disk
 
-The bridge outside had not been there when they arrived. Now it stretched from the unfamiliar city toward a low district of warehouses and old stone buildings. At its far end stood a building with a glass roof. A sign above the entrance carried a name they could all read, though none remembered learning it:
+The bridge outside had not been there when they arrived. Now it stretched from the unfamiliar city toward a low district of warehouses and old stone buildings. At its far end stood a building with a glass roof. A pale glass plaque hung above the entrance, but it held no lettering. The space for a name was clear and unmarked.
 
-GEEHUB CENTRAL.
+Andrew glanced back at it. “We should give this place a name.”
+
+“After we've lived in it,” Joseph said. “We've only just arrived.”
+
+Luke looked along the branching streets. “Then we leave the sign blank until we know what we're naming.”
+
+Chase opened the unfinished register and entered one line: **CITY NAME — TO BE CHOSEN BY ITS INHABITANTS.**
 
 They crossed together.
 
@@ -189,7 +195,7 @@ He picked it up carefully.
 
 The button was warm from the sun. Chase turned it over and found a tiny mark on the back, a mark not present in the record. He did not add an explanation. He made a note to compare it later.
 
-At Geehub Central, the glass doors opened before they reached them. Beyond was a hall built around a deep circular shaft. Blue light descended through its centre and vanished far below. Walkways crossed the opening at several levels. Along the walls, rooms were being formed: a gym with high industrial windows, a kitchen with a long table, a workshop full of timber and tools, a library, a music room, a garden under amber glass.
+At the central hall, the glass doors opened before they reached them. Beyond was a hall built around a deep circular shaft. Blue light descended through its centre and vanished far below. Walkways crossed the opening at several levels. Along the walls, rooms were being formed: a gym with high industrial windows, a kitchen with a long table, a workshop full of timber and tools, a library, a music room, a garden under amber glass.
 
 The city was gathering itself around their arrival.
 
@@ -281,7 +287,7 @@ And somewhere below the city, the Cyber Black Hole received the first night of t
 
 ### Chapter Seven — The Observatory of Images
 
-The next morning, the six returned to Geehub Central and found the upper gallery open. It had become an observatory overnight. Not a telescope room, exactly, but a long chamber of dark timber, blue glass, and suspended image panels. At one end, a broad screen showed the Living Corpus Dashboard: a central wand, a registry, recent inscriptions, and a large RUN control. At the other, the Holographic Observatory presented a seated figure among books and floating world panels. Between them, the Dark Expanse Interface opened onto a cinematic landscape with maps, character cards, and a console.
+The next morning, the six returned to the central hall and found the upper gallery open. It had become an observatory overnight. Not a telescope room, exactly, but a long chamber of dark timber, blue glass, and suspended image panels. At one end, a broad screen showed the Living Corpus Dashboard: a central wand, a registry, recent inscriptions, and a large RUN control. At the other, the Holographic Observatory presented a seated figure among books and floating world panels. Between them, the Dark Expanse Interface opened onto a cinematic landscape with maps, character cards, and a console.
 
 “They're three versions of the same place,” Gabe said.
 
@@ -337,7 +343,7 @@ The images did not merge. Their light met at the centre and ran alongside itself
 
 The Archivist placed a small object between the panels: a length of blue thread, wound around a dark wooden spindle. It was the same thread Gabe had found on the desk the night before.
 
-“Continuity without change becomes preservation without life,” he said. “Change without continuity becomes replacement. Geehub needs both, and it must know which is happening.”
+“Continuity without change becomes preservation without life,” he said. “Change without continuity becomes replacement. This place needs both, and it must know which is happening.”
 
 Andrew took the spindle and passed it to Luke. Luke tied the thread around the notebook from the unfinished desk. The notebook's faceless drawing gained a thin outline around the head, but no features.
 
@@ -371,7 +377,7 @@ When they returned to the kitchen, the meal had been cleared, but six cups remai
 
 ### Chapter Ten — The Seventh Route
 
-At dusk, the six returned to the observatory. The map now showed a seventh route descending from Geehub Central into the black shaft. It had not appeared on the first night. Its line was faint and interrupted, as though the city had not yet decided whether it could support the passage.
+At dusk, the six returned to the observatory. The map now showed a seventh route descending from the central observatory into the black shaft. It had not appeared on the first night. Its line was faint and interrupted, as though the city had not yet decided whether it could support the passage.
 
 The Archivist set the black disc on the table.
 
@@ -595,7 +601,7 @@ Luke checked the camera again. It had not moved. The room, the marks, and the ri
 
 The image was called Better Things Together.
 
-It had been waiting in the library among portraits, gym studies, and fragments of imagined places. The group brought it into the observatory and set it beside the wider GEEHUB interface image, Worlds Beyond Imagination. One showed a human-scale moment; the other showed the system that might hold many such moments without flattening them.
+It had been waiting in the library among portraits, gym studies, and fragments of imagined places. The group brought it into the observatory and set it beside the wider interface image, Worlds Beyond Imagination. One showed a human-scale moment; the other showed the system that might hold many such moments without flattening them.
 
 The interface image carried its own old promise: the hub keeps the canon; it connects the dots; it builds worlds. The characters, assets, environments, sound, and video were presented as parts of one workspace. Joseph studied the panel that placed his name beside the others. It was a visual statement of belonging, not proof that every relationship had already been resolved.
 

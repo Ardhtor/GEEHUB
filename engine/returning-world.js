@@ -13,7 +13,7 @@
     {id:'cedar-walk',title:'Take the Cedar Walk',place:'Cedar Span',kind:'QUIET COMPANY',line:'A covered timber passage, the grounds beyond it, and enough time to let a conversation find its own pace.'},
     {id:'long-return',title:'Play the Long Return',place:'Twin Grounds',kind:'FRIENDLY COMPETITION',line:'A cooperative route across the grounds. A little showing off is welcome; nobody has to prove anything.'},
     {id:'pavilion',title:'Stay at the Pavilion',place:'Shared Green',kind:'AFTERNOON HANGOUT',line:'Find a seat, watch the grounds, trade stories, and let the afternoon run long.'},
-    {id:'show-and-tell',title:'Show Me What You Made',place:'Common Room',kind:'PLAYFUL DISPLAY',line:'Bring an artifact, a new idea, a ridiculous improvement, or something you are quietly pleased with.'}
+    {id:'show-and-tell',title:'Show Me What You Made',place:'Evermeasure Board',kind:'PLAYFUL DISPLAY',line:'Bring an artifact, a new idea, a ridiculous improvement, or something you are quietly pleased with.'}
   ];
   function read(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(_){return {}}}
   function write(s){localStorage.setItem(KEY,JSON.stringify(s))}
@@ -42,6 +42,7 @@
       const s=read();s.lastPlan=plan.id;s.planHistory=Array.isArray(s.planHistory)?s.planHistory:[];s.planHistory.unshift({id:plan.id,at:new Date().toISOString()});s.planHistory=s.planHistory.slice(0,30);write(s);
       inviteHost.querySelectorAll('[data-plan]').forEach(b=>b.classList.toggle('selected',b===button));
       $('#returningWorldLast').textContent='MEET AT '+plan.place.toUpperCase()+' — '+plan.line+' Your choice has been kept in this browser.';
+      document.dispatchEvent(new CustomEvent('geehub:book-two-scene-selected',{detail:{...plan,at:new Date().toISOString(),source:'returning-world'}}));
     }));
     if(lastPlan){const b=inviteHost.querySelector('[data-plan="'+lastPlan.id+'"]');if(b)b.classList.add('selected');$('#returningWorldLast').textContent='LAST TIME YOU CHOSE '+lastPlan.title.toUpperCase()+' AT '+lastPlan.place.toUpperCase()+'. You can pick it up again or choose somewhere new.'}
     state.lastVisit=now;state.visits=count;state.nextPrompt=prompts[count%prompts.length];write(state);

@@ -276,14 +276,9 @@ Before the next expedition set out, Andrew took the ball and walked to the mouth
 
 “I won't. I'll bring you the map.”
 
-Kirk's voice grew warm. “Bring yourself back with it.”
+The lower route waited below. The old trail was familiar, but the opening beyond the Warm Table remained unentered. Andrew and Kirk had not returned to an earlier version of themselves; they had found that their chemistry could hold a boundary as well as affection.
 
-Andrew looked over his shoulder at the cedar post, the shelter, and the men gathering their equipment. “That's already in the plan.”
-
-The lower route waited below. The old trail was now familiar, but the dark opening beyond the Warm Table remained unentered. The new maps held both the known route and its latest alteration. But the expedition now had another kind of route: not a line across the map, but a relationship that could travel with them. Andrew and Kirk had not returned to an earlier version of themselves. They had found that the old chemistry still worked in the changed country, and that it could hold more than it had held before.
-
-The next promise was already taking shape.
-
+Andrew turned toward the shelter. The next journey would test what they had promised one another.
 ---
 
 ## Continuity record

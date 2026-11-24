@@ -170,16 +170,9 @@ Michael read it away from the pavilion, where no one could look over his shoulde
 
 Kirk replied that it had been quiet. He had listened to the reports, but had not wanted to turn the afternoon into another public event. He was pleased that Michael had been there. Michael read the sentence twice. It was simple, and it belonged to him.
 
-He asked whether Kirk wanted to hear more about the Cedar Span bench. Kirk said yes, but not the measurements. He wanted to know whether it was comfortable.
+Michael left the board as it was. Tomorrow another man would bring a different idea, and someone else would answer it. The day had given Michael a place in the district: a man who could lift an extraordinary weight, listen when another man asked him to stop, and end the evening with a private kindness.
 
-Michael smiled. He told him it was, and that Joseph had made it well. Kirk said he would like to hear the rest another time. Neither man asked the other to make the exchange longer than it needed to be. There was no audience, no board, and no record of the conversation. It remained a private kindness between them.
-
-Before leaving the green, Michael looked once more at the Evermeasure Board. The new entry had been placed beneath the earlier beam demonstration. It recorded the frame's route, the clean turn, the paired carry, and the improvement in coordination. Beneath it Andrew had written a proposed next challenge: a longer passage with a narrower turn. Chase had added a note that the route would need to be surveyed first. Gabe had reserved a space for recovery and warm-up. Joseph had added the bench's new position.
-
-Michael left the board as it was. Tomorrow another man would bring a different idea, and someone else would answer it. The day had not made him the greatest man in the district. It had given him a place in its continuing life: a man who could lift an extraordinary weight, listen when another man asked him to stop, sit on a bench he had helped repair, and end the evening with a quiet message he did not need anyone else to see.
-
-The pavilion lights remained on after he had gone. The frame stood safely in its cradle. The bench held its place on the Cedar Span. Beyond it, the Twin Grounds rested in their paired, changing shapes, and the Long Return waited for the next morning.
-
+The pavilion lights remained on after he had gone. The frame stood safely in its cradle, and the bench held its place on the Cedar Span. Beyond it, the Twin Grounds rested in their changing shapes. The Long Return waited for morning.
 ---
 
 ## Continuity record

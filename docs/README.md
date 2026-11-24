@@ -15,6 +15,7 @@ The documentation folder contains the repository's technical contracts, editoria
 - [File Analysis Standard](FILE_ANALYSIS_STANDARD.md) — source-grounded inspection across images, video, audio, documents, code, spreadsheets, and archives.
 - [Growth](GROWTH.md) — a shared approach to gradual development, research, continuity, and making.
 - [The Boyfriend-in-High-School Experience Principle](BOYFRIEND_IN_HIGH_SCHOOL_EXPERIENCE_PRINCIPLE.md) — emotional design through anticipation, recognition, private language, play, tenderness, and continuity.
+- [Story and Generated Environment Integration](STORY_ENVIRONMENT_INTEGRATION.md) — Book II scenes where story actions change and persist in their generated settings.
 
 **Up:** [repository root](../README.md) · [Hub](../hub/README.md) · [full directory map](REPOSITORY_NAVIGATION.md)
 
@@ -77,6 +78,7 @@ The documentation folder contains the repository's technical contracts, editoria
 - [`REPOSITORY_NAVIGATION.md`](./REPOSITORY_NAVIGATION.md)
 - [`SELF_STARTING_ENGINE.md`](./SELF_STARTING_ENGINE.md)
 - [`SENSATION_ENGINE.md`](./SENSATION_ENGINE.md)
+- [`STORY_ENVIRONMENT_INTEGRATION.md`](./STORY_ENVIRONMENT_INTEGRATION.md)
 - [`SHARED_INERTIA_NARRATOR_SIGNAL.md`](./SHARED_INERTIA_NARRATOR_SIGNAL.md)
 - [`SPIRITUAL_INFORMATION.md`](./SPIRITUAL_INFORMATION.md)
 - [`TRACTUS_ADAPTIVE_MEMORY_SPEC.md`](./TRACTUS_ADAPTIVE_MEMORY_SPEC.md)

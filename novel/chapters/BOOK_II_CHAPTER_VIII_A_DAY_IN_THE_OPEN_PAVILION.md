@@ -238,9 +238,7 @@ Before putting the phone away, Michael sent one final note. He said he had enjoy
 
 Kirk replied that it had been quiet. He had listened to the reports, but had not wanted to turn the afternoon into another public event. He was pleased that Michael had been there. Michael read the sentence twice. It was simple, and it belonged to him.
 
-Michael left the board as it was. Tomorrow another man would bring a different idea, and someone else would answer it. He put the phone away and looked once more toward the pavilion. He could still hear the distant movement of the others finishing their work, but he did not return to offer another demonstration. The frame had been carried, the bench repaired, and the record made. There would be another day for the narrower turn. Tonight he wanted to eat, wash, and sleep. The choice did not diminish the day; it gave the day an ending.
-
-The pavilion lights remained on after he had gone. The frame stood safely in its cradle, and the bench held its place on the Cedar Span. Beyond it, the Twin Grounds rested in their changing shapes. The Long Return waited for morning.
+Michael left the board as it was. Tomorrow another man would bring a different idea, and someone else would answer it. He put the phone away. He could hear the others finishing their work, but did not return to offer another demonstration. The frame had been carried, the bench repaired, and the record made. Tonight he wanted to eat, wash, and sleep.
 ---
 
 ## Continuity record

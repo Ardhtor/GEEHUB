@@ -2016,14 +2016,14 @@
     "description": "Fictional workspace for Tyler's measurement method, uncertainty, and action."
   },
   {
-    "id": "universal-growth-engine",
-    "name": "Universal Growth Engine",
+    "id": "growth",
+    "name": "Growth",
     "status": "active",
-    "kind": "engine-architecture",
-    "group": "engine",
+    "kind": "working-practice",
+    "group": "workspace",
     "repo": "Ardhtor/GEEHUB",
-    "path": "/docs/UNIVERSAL_GROWTH_ENGINE.md",
-    "description": "Repository-wide cumulative growth architecture connecting research, source evidence, interpretation, experiments, continuity, and production through inherited, reviewable development states.",
+    "path": "/docs/GROWTH.md",
+    "description": "A shared approach to gradual development, research, continuity, and making across the repository.",
     "related": [
       "tractus-continuity",
       "visual-evidence-ledger",
@@ -2037,8 +2037,7 @@
       "continuity",
       "provenance",
       "experimentation",
-      "production",
-      "architecture"
+      "making"
     ]
   },
   {

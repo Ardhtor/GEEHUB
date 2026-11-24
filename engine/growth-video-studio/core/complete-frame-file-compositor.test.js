@@ -153,8 +153,9 @@ async function makeFixture({ partial = false } = {}) {
   await writeFile(bodyMaskPath, bodyMaskBytes);
   await writeFile(faceMaskPath, faceMaskBytes);
 
+  const firstBodyPixel = partial ? [0, 0, 0, 0] : [80, 120, 160, 255];
   const bodyData = new Uint8Array([
-    80, 120, 160, partial ? 0 : 255,
+    ...firstBodyPixel,
     80, 120, 160, 255,
     0, 0, 0, 0
   ]);

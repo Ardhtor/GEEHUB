@@ -13,6 +13,7 @@ The documentation folder contains the repository's technical contracts, editoria
 - [Repository Residents and In-World Computing](TRACTUS_REPOSITORY_RESIDENTS.md) — repo-wide narrative canon for Seth and Nick living in The Tractus and acting through its computers.
 - [Chat ↔ World Asset Memory Bridge](CHAT_ASSET_MEMORY_BRIDGE.md) — importing, linking, and preserving conversation and visual source material.
 - [File Analysis Standard](FILE_ANALYSIS_STANDARD.md) — source-grounded inspection across images, video, audio, documents, code, spreadsheets, and archives.
+- [Universal Growth Engine](UNIVERSAL_GROWTH_ENGINE.md) — repository-wide cumulative growth architecture connecting research, evidence, continuity, experiments, and production.
 
 **Up:** [repository root](../README.md) · [Hub](../hub/README.md) · [full directory map](REPOSITORY_NAVIGATION.md)
 
@@ -79,6 +80,7 @@ The documentation folder contains the repository's technical contracts, editoria
 - [`SPIRITUAL_INFORMATION.md`](./SPIRITUAL_INFORMATION.md)
 - [`TRACTUS_ADAPTIVE_MEMORY_SPEC.md`](./TRACTUS_ADAPTIVE_MEMORY_SPEC.md)
 - [`TRACTUS_CONTINUITY_CONTRACT.md`](./TRACTUS_CONTINUITY_CONTRACT.md)
+- [`UNIVERSAL_GROWTH_ENGINE.md`](./UNIVERSAL_GROWTH_ENGINE.md)
 - [`TRACTUS_ENGINE_SPEC.md`](./TRACTUS_ENGINE_SPEC.md)
 - [`TRACTUS_STORY_LEARNING_ENGINE.md`](./TRACTUS_STORY_LEARNING_ENGINE.md)
 - [`UI_REGISTRY_TESTING.md`](./UI_REGISTRY_TESTING.md)

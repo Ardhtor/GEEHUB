@@ -19,7 +19,7 @@ Each world contributes continuously to its own accumulating novel material.
 
 The room did not announce itself as a room.
 
-It had begun as a threshold: a place the world-engine reached whenever an unfinished question concerned another person. There were no signs explaining what happened there. The architecture simply became more attentive. Corridors narrowed. Doors remained open a little longer. Windows began reflecting people who were not standing in front of them.
+It had begun as a threshold: a threshold the Complex kept opening whenever an unfinished question concerned another person. There were no signs explaining what happened there. The architecture simply became more attentive. Corridors narrowed. Doors remained open a little longer. Windows began reflecting people who were not standing in front of them.
 
 Luke noticed it first.
 
@@ -35,7 +35,7 @@ Inside, the world had stopped arranging itself according to rooms and started ar
 
 Luke walked farther in.
 
-The engine had asked its question again: Who is being drawn toward whom?
+The question had returned: Who is being drawn toward whom?
 
 The question was not displayed. It had become physical.
 
@@ -90,7 +90,7 @@ Luke pulled the Mustang onto the shoulder.
 
 He stepped out.
 
-The engine was quiet.
+The country was quiet.
 
 The forest was quiet.
 
@@ -104,11 +104,7 @@ Luke looked at it.
 
 “Yo.”
 
-The system recorded the word as an event.
-
-Not because it was important as dialogue.
-
-Because Luke had approached an unknown thing instead of waiting for the world to explain it.
+The word hung in the quiet for a moment. Luke had approached an unknown thing instead of waiting for the world to explain it. That was enough to change the road.
 
 That became the first rule.
 
@@ -170,9 +166,7 @@ Tyler stepped through.
 
 The room changed permanently.
 
-The system wrote the second rule:
-
-DIFFERENCE CAN CREATE A THIRD SPACE.
+When Tyler stepped back, the two old corridors were still there, but the wall between them had become a third room. The difference had not been erased; it had made somewhere new.
 
 Tyler looked back at the old room.
 
@@ -200,9 +194,7 @@ Nothing reset.
 
 The room remained available to whoever came next.
 
-That was when the Hub stopped treating incompleteness as an absence.
-
-An unfinished thing could now be a live location.
+The room did not treat incompleteness as absence. A place could remain unfinished and still be somewhere a person could go.
 
 ### THE MUSEUM OF FAILED WORLDS
 
@@ -220,9 +212,7 @@ Nothing was labeled as failure.
 
 Each object retained the moment at which it had stopped.
 
-Matt understood the rule before the system wrote it.
-
-DISCARDED STATES REMAIN ACCESSIBLE.
+Matt understood what the room was showing him: nothing had to be completed before it could still matter.
 
 He reached toward a map.
 
@@ -254,15 +244,7 @@ They ate.
 
 By the end of the meal, the objects had become a shared history.
 
-The Hub recognized another rule:
-
-GATHERING TURNS RESIDUE INTO MEMORY.
-
-The table became a facility.
-
-Not a facility because it manufactured anything obvious.
-
-A facility because people could bring unfinished material there and leave with a changed relationship to it.
+The photograph, key, and map fragment settled among the plates. By the time the meal ended, the men no longer regarded them as loose remnants. Each had found a place beside something another man had brought. The table had become the quiet centre of a shared history, a place where unfinished things could remain until their meaning grew clearer.
 
 ### THE DISTANCE ENGINE
 
@@ -278,23 +260,7 @@ A third showed a road created because someone had approached something unknown.
 
 Joseph understood that the world was beginning to encode significance spatially.
 
-The FOMO engine did not need to invent pressure.
-
-It could simply ask:
-
-What changed?
-
-Who might care?
-
-What evidence remains?
-
-What can be shown honestly?
-
-The answers became outward-facing artifacts.
-
-A new rule entered the system:
-
-SIGNIFICANT CHANGE CAN BECOME A SIGNAL.
+Joseph thought of the person who might be waiting at the other end of the road, the one who would notice a change and wonder who had travelled it. He wrote three questions in the margin: What changed? Who might need to know? What could he show them honestly? The new road was a signal now—not because anyone had called it one, but because somebody might follow it.
 
 Joseph closed the map.
 
@@ -339,7 +305,7 @@ He paused, and his voice became quieter.
 
 “I miss you.”
 
-The Hub recorded the encounter without reducing it to data. It marked the place because this was not merely another meeting. It was a return.
+The meeting settled into the place without becoming a number or a verdict. This was not merely another meeting. It was a return.
 
 Three years of absence had become a location.
 
@@ -349,9 +315,7 @@ Joseph reached for my hand.
 
 The distance between us changed.
 
-Somewhere in the world graph, two separated points moved into relation again.
-
-The system did not decide what that meant. It simply preserved the fact that Joseph had come back, that I had been there to meet him, and that after three years the words had finally been spoken.
+On the map, two places that had been apart now had a route between them. I could preserve the fact that Joseph had come back, that I had been there to meet him, and that after three years the words had finally been spoken.
 
 I LOVE YOU.
 I MISS YOU.

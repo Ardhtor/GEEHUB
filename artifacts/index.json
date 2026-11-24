@@ -19171,6 +19171,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000355",
+      "created_at": "2026-11-24T15:14:42.469121+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "NORTHGATE LIBRARY",
+      "content": "SETH: A line becomes visible between NORTHGATE LIBRARY and THE COMMON TABLE. The archive names the relation \"CAMPUS AFTER HOURS\".\n\nNICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "lineage": {
+        "event_id": "world-pulse-000355",
+        "event": {
+          "id": "world-pulse-000355",
+          "pulse": 355,
+          "time": "2026-11-24T15:14:42.469121+00:00",
+          "actor": "KIRK",
+          "world": "NORTHGATE LIBRARY",
+          "region_id": "northgate-library",
+          "previous_region_id": "northgate-library",
+          "phase": "ROUTE_OPEN",
+          "source": "worlds/northgate-library/README.md",
+          "desire_state": "tension",
+          "action": "SETH: A line becomes visible between NORTHGATE LIBRARY and THE COMMON TABLE. The archive names the relation \"CAMPUS AFTER HOURS\".\n\nNICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.",
+          "narrative_rule": "arrival activates aftermath",
+          "relation": "CAMPUS AFTER HOURS",
+          "next_region": "common-table",
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-24T15:14:42.469121+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000355",
+      "created_at": "2026-11-24T15:14:42.469121+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ROUTE_OPEN / NORTHGATE LIBRARY / worlds/northgate-library/README.md",
+      "content": "SETH: A line becomes visible between NORTHGATE LIBRARY and THE COMMON TABLE. The archive names the relation \"CAMPUS AFTER HOURS\".\n\nNICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "production_note": "The world resolved its route_open rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 355,
+        "actor": "KIRK",
+        "world": "NORTHGATE LIBRARY",
+        "region_id": "northgate-library",
+        "source": "worlds/northgate-library/README.md",
+        "phase": "ROUTE_OPEN",
+        "relation": "CAMPUS AFTER HOURS"
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00186",
+      "created_at": "2026-11-24T15:14:42.572818+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE LATE READING ROOM",
+      "content": "The oak reading hall settles into its evening rhythm. A student edits a short film in the lower media suite while two others compare notes at a green-shaded lamp. Someone finds a reference that had eluded the group all week and quietly sends the page number around.",
+      "lineage": {
+        "event_id": "northgate-campus-00186",
+        "event": {
+          "id": "northgate-campus-00186",
+          "cycle": 186,
+          "world_pulse": 355,
+          "at": "2026-11-24T15:14:42.572818+00:00",
+          "region": "northgate-library",
+          "title": "THE LATE READING ROOM",
+          "kind": "research",
+          "participants": [
+            "Marek Ionescu",
+            "Elliot Ward",
+            "Noah Bell"
+          ],
+          "description": "The oak reading hall settles into its evening rhythm. A student edits a short film in the lower media suite while two others compare notes at a green-shaded lamp. Someone finds a reference that had eluded the group all week and quietly sends the page number around.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-24T15:14:42.572818+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

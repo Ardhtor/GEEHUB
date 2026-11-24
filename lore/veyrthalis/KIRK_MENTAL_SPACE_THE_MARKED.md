@@ -28,7 +28,7 @@ The house responds to presence, but it does not manufacture agreement. Two marke
 
 ## Marked fellows
 
-The following names are the initial user-designated roster. They are treated as fictional GEEHUB figures within this narrative system. A name's inclusion establishes marked status and privileged access; it does not invent a biography, a private relationship history, a personality, or a unique power not yet established elsewhere.
+The following names are the initial user-designated roster. They are treated as fictional figures within the Veyrthalis narrative continuity. A name's inclusion establishes marked status and privileged access; it does not invent a biography, a private relationship history, a personality, or a unique power not yet established elsewhere.
 
 1. **Nico Parra**
 2. **Joey**
@@ -47,7 +47,7 @@ Michael Brock was named twice in the source instruction and is recorded once in 
 
 ## Individual permissions remain open
 
-The roster establishes the shared threshold privilege. It does not yet assign different rooms, keys, influence, permanence or forms of presence to individual fellows. Those distinctions should be developed from existing GEEHUB material and from later scenes in which Kirk's relationship with each figure becomes legible. Do not manufacture a ranking merely because the names appear in a list.
+The roster establishes the shared threshold privilege. It does not yet assign different rooms, keys, influence, permanence or forms of presence to individual fellows. Those distinctions should be developed from established character records and later scenes in which Kirk's relationship with each figure becomes legible. Do not manufacture a ranking merely because the names appear in a list.
 
 A future scene may show one fellow finding a room already prepared for him, another being invited into a difficult memory, or another leaving an object that changes the shape of a passage. Such events should be earned in the fiction and recorded as individual permissions only after they occur.
 

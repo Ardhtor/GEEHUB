@@ -1,20 +1,6 @@
 # WORLDS // AUTONOMOUS NOVEL MATERIAL
 
 Each world contributes continuously to its own accumulating novel material.
-\n## Pulse 1: PYYRO ENERGY\n\n     LUKE entered PYYRO ENERGY.\n\n     Nothing was explained.\n\n     The room continued around them.\n
-## Pulse 2: POETRY SEEP
-
-     TYLER crossed POETRY SEEP. Nothing was explained. The room continued around them.
-
-## Pulse 3: DEEP LORE
-
-     KIRK waited inside DEEP LORE. Nothing was explained. The room continued around them.
-
-## Pulse 4: NOVEL ENGINE
-
-     JOSEPH returned to NOVEL ENGINE. Nothing was explained. The room continued around them.
-
-
 ## THE PLACE WHERE DESIRE BECAME GEOGRAPHY
 
 The room did not announce itself as a room.

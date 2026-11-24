@@ -6,7 +6,7 @@ This is the local navigation page for `characters/records/`. The lists below lin
 
 ## Files
 
-### MD (21)
+### MD (22)
 
 - [`ANDREW.md`](./ANDREW.md)
 - [`ARTHUR.md`](./ARTHUR.md)
@@ -18,6 +18,7 @@ This is the local navigation page for `characters/records/`. The lists below lin
 - [`DORIAN_VALE.md`](./DORIAN_VALE.md)
 - [`GABE.md`](./GABE.md)
 - [`JOEY.md`](./JOEY.md)
+- [`JOSEPH.md`](./JOSEPH.md) — distinct adult character; music, memory, return, and Joseph–Kirk continuity.
 - [`LEXOR.md`](./LEXOR.md)
 - [`LUKE.md`](./LUKE.md)
 - [`LUKE_MERCER.md`](./LUKE_MERCER.md)

@@ -1,0 +1,301 @@
+{
+  "schema": "geehub.file-analysis/1",
+  "analysis_id": "analysis-libimg-pectoral-022",
+  "source": {
+    "source_id": "libimg-pectoral-022",
+    "filename": "Massive Hyperreal Bodybuilding Portrait.png",
+    "file_kind": "image",
+    "mime_type": "image/png",
+    "origin": {
+      "provider": "ChatGPT Library",
+      "locator": "/Massive Hyperreal Bodybuilding Portrait.png",
+      "file_id": "file_00000000fbb081f59d675c8d9d6c6433",
+      "acquired_at": null,
+      "last_modified": null
+    },
+    "integrity": {
+      "status": "metadata_only",
+      "algorithm": null,
+      "digest": null,
+      "verified_at": null
+    },
+    "size_bytes": 2518992,
+    "source_role": "unknown",
+    "parent_source_ids": [],
+    "technical_metadata": {
+      "atlas_id": "GLA-022",
+      "library_file_id": "file_00000000fbb081f59d675c8d9d6c6433"
+    }
+  },
+  "scope": {
+    "purpose": "Document visible pectoral, shoulder, arm, pose, framing, surface, and environmental features; compare the image against the other four visually similar Library entries.",
+    "project_ids": [
+      "geehub"
+    ],
+    "entity_ids": [],
+    "coverage_level": "full_source",
+    "questions": [
+      "What is plainly visible in the complete image?",
+      "Which shape and framing features are useful as visual references?",
+      "Is this a close variation of the other images, or is a different source/sequence established?"
+    ]
+  },
+  "processing": {
+    "status": "content_inspected",
+    "started_at": "2026-11-24T15:10:02.156Z",
+    "completed_at": "2026-11-24T15:10:02.156Z",
+    "method": "Direct visual inspection of the complete Library image at the available rendered resolution, followed by comparison with four related images.",
+    "tools": [
+      "ChatGPT Library image viewer",
+      "Manual visual comparison"
+    ],
+    "reviewer": null,
+    "source_unchanged": true,
+    "review_pass": 1,
+    "supersedes_analysis_id": null
+  },
+  "coverage": {
+    "unit_type": "whole_file",
+    "expected_units": 1,
+    "reviewed_units": 1,
+    "coverage_ratio": 1,
+    "strategy": "Full-frame visual review of the single image; no subframe sampling was needed for this still-image pass.",
+    "skipped_units": [],
+    "limitations": [
+      "The binary was not downloaded into the analysis environment, so no SHA-256 comparison or pixel-difference measurement was performed.",
+      "Original source context, creator, date, generation method, and camera metadata are unknown.",
+      "Visible body shape is treated as a stylized image reference, not as measured human anatomy."
+    ]
+  },
+  "observations": [
+    {
+      "observation_id": "obs-001",
+      "locator": {
+        "unit_type": "whole_file",
+        "unit": "full image"
+      },
+      "evidence_kind": "direct_visual",
+      "domain_tags": [
+        "composition",
+        "camera",
+        "framing"
+      ],
+      "statement": "A tightly framed, near-frontal vertical portrait places the adult male figure close to the camera. The upper body dominates the frame, with the head set above the chest and the lower crop ending around the waist and upper denim bottoms.",
+      "confidence": 0.95,
+      "limitations": [
+        "No camera or lens metadata is available; perspective is judged from the rendered image."
+      ]
+    },
+    {
+      "observation_id": "obs-002",
+      "locator": {
+        "unit_type": "region",
+        "unit": "central and lateral pectoral region"
+      },
+      "evidence_kind": "direct_visual",
+      "domain_tags": [
+        "pectorals",
+        "chest",
+        "physique",
+        "shape"
+      ],
+      "statement": "The pectoral masses are exceptionally large, rounded, and visually dominant, extending widely across the chest. Their lower contours overlap the visual space immediately above the segmented upper abdomen; the central separation is pronounced.",
+      "confidence": 0.98,
+      "limitations": [
+        "No calibrated scale or anatomical measurement is available. The image is a stylized visual reference, not a source of real-world body measurements."
+      ]
+    },
+    {
+      "observation_id": "obs-003",
+      "locator": {
+        "unit_type": "region",
+        "unit": "shoulders, upper arms, forearms and hands"
+      },
+      "evidence_kind": "direct_visual",
+      "domain_tags": [
+        "deltoids",
+        "arms",
+        "pose",
+        "gesture",
+        "embodiment"
+      ],
+      "statement": "The shoulders and upper arms are very broad and heavily developed. The arms are held down and slightly away from the torso, with the hands positioned near the waistband; the pose exposes the chest and upper abdomen.",
+      "confidence": 0.96,
+      "limitations": [
+        "A single still image cannot establish movement, effort, muscle activation, or a sequence of bodily change."
+      ]
+    },
+    {
+      "observation_id": "obs-004",
+      "locator": {
+        "unit_type": "region",
+        "unit": "lower torso and background"
+      },
+      "evidence_kind": "direct_visual",
+      "domain_tags": [
+        "wardrobe",
+        "environment",
+        "scale",
+        "texture"
+      ],
+      "statement": "Blue denim bottoms are visible at the lower edge. The background is a plain, softly lit indoor room with a dark rectangular opening or recess behind the figure; no reliable location or date is established.",
+      "confidence": 0.93,
+      "limitations": [
+        "The original scene context and image-generation or photographic origin are not established."
+      ]
+    },
+    {
+      "observation_id": "obs-005",
+      "locator": {
+        "unit_type": "region",
+        "unit": "visible skin and muscle surface"
+      },
+      "evidence_kind": "direct_visual",
+      "domain_tags": [
+        "surface",
+        "skin",
+        "rendering",
+        "detail"
+      ],
+      "statement": "The visible surface has a pronounced repeating skin or stippled texture, with strong highlights across the pectorals and shoulders and darker creases defining the muscular forms.",
+      "confidence": 0.9,
+      "limitations": [
+        "The surface treatment may reflect image synthesis, enhancement, compression, or rendering; its production method is unknown."
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "interpretation_id": "int-001",
+      "kind": "visual_reading",
+      "hypothesis": "This image belongs to a highly exaggerated hyper-muscular visual style in which pectoral volume is the primary silhouette feature, supported by broad deltoids and arms and a sharply segmented abdomen.",
+      "based_on_observations": [
+        "obs-001",
+        "obs-002",
+        "obs-003"
+      ],
+      "alternatives": [
+        "The exaggerated appearance may be partly amplified by perspective, crop, pose, or image processing rather than anatomy alone."
+      ],
+      "confidence": 0.93,
+      "status": "supported",
+      "what_would_test_it": [
+        "Compare the original-resolution image with other views of the same reference, if available.",
+        "Compare silhouette after normalizing scale, crop, and orientation."
+      ]
+    },
+    {
+      "interpretation_id": "int-002",
+      "kind": "somatic_reading",
+      "hypothesis": "The squared, chest-forward presentation and hands held near the waistband can be read as a deliberate display pose that emphasizes chest width and upper-body mass. This describes the pose's visual communication, not the figure's internal state.",
+      "based_on_observations": [
+        "obs-001",
+        "obs-003"
+      ],
+      "alternatives": [
+        "The position may simply be a stable pose chosen to fit the frame or show the torso; intention is not established."
+      ],
+      "confidence": 0.72,
+      "status": "tentative",
+      "what_would_test_it": [
+        "Compare with additional poses from the same visual sequence, if a sequence is established.",
+        "Look for repeated hand placement, shoulder position, and camera framing across independent source views."
+      ]
+    }
+  ],
+  "embodiment_layer": {
+    "status": "observations_recorded",
+    "observation_ids": [
+      "obs-003"
+    ],
+    "interpretation_ids": [
+      "int-002"
+    ],
+    "note": "The body/pose layer records squared presentation, chest-forward framing, and arm/hand placement. The possible display reading remains a hypothesis about the image's visual language, not a claim about an actual person's internal state."
+  },
+  "relationships": [
+    {
+      "relationship_id": "rel-libimg-pectoral-021",
+      "target_source_id": "libimg-pectoral-021",
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed",
+      "evidence_observation_ids": [
+        "obs-001",
+        "obs-002",
+        "obs-003",
+        "obs-004"
+      ],
+      "rationale": "Shared near-frontal vertical composition, similar oversized pectoral silhouette, very broad shoulders and arms, denim at the lower crop, and a similar plain indoor background. This is a visual-cluster candidate only; identity, chronology, common source file, and progression are not established.",
+      "confidence": 0.82
+    },
+    {
+      "relationship_id": "rel-libimg-pectoral-023",
+      "target_source_id": "libimg-pectoral-023",
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed",
+      "evidence_observation_ids": [
+        "obs-001",
+        "obs-002",
+        "obs-003",
+        "obs-004"
+      ],
+      "rationale": "Shared near-frontal vertical composition, similar oversized pectoral silhouette, very broad shoulders and arms, denim at the lower crop, and a similar plain indoor background. This is a visual-cluster candidate only; identity, chronology, common source file, and progression are not established.",
+      "confidence": 0.82
+    },
+    {
+      "relationship_id": "rel-libimg-pectoral-024",
+      "target_source_id": "libimg-pectoral-024",
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed",
+      "evidence_observation_ids": [
+        "obs-001",
+        "obs-002",
+        "obs-003",
+        "obs-004"
+      ],
+      "rationale": "Shared near-frontal vertical composition, similar oversized pectoral silhouette, very broad shoulders and arms, denim at the lower crop, and a similar plain indoor background. This is a visual-cluster candidate only; identity, chronology, common source file, and progression are not established.",
+      "confidence": 0.82
+    },
+    {
+      "relationship_id": "rel-libimg-pectoral-025",
+      "target_source_id": "libimg-pectoral-025",
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed",
+      "evidence_observation_ids": [
+        "obs-001",
+        "obs-002",
+        "obs-003",
+        "obs-004"
+      ],
+      "rationale": "Shared near-frontal vertical composition, similar oversized pectoral silhouette, very broad shoulders and arms, denim at the lower crop, and a similar plain indoor background. This is a visual-cluster candidate only; identity, chronology, common source file, and progression are not established.",
+      "confidence": 0.82
+    }
+  ],
+  "applications": [
+    {
+      "application_id": "app-001",
+      "purpose": "character_reference",
+      "status": "candidate",
+      "source_observation_ids": [
+        "obs-001",
+        "obs-002",
+        "obs-003",
+        "obs-005"
+      ],
+      "transformation_note": "Potential reference for an intentionally exaggerated chest-and-shoulder silhouette, chest-to-abdomen transition, and high-detail surface treatment. Keep the reference's distortion and stylization explicit; do not use it as an identity anchor or calibrated anatomy.",
+      "output_refs": [],
+      "deviations_from_source": [
+        "Any derivative model or illustration would be a new authored construction, not an unmodified reproduction of real anatomy."
+      ]
+    }
+  ],
+  "unresolved": [
+    "Whether the five images are sibling generations, edits of one base image, or independent generations with a common visual prompt is not established.",
+    "Whether any source chronology or intended growth sequence exists is unknown."
+  ],
+  "contradictions": [],
+  "negative_findings": [
+    "No readable source date, creator attribution, or embedded explanatory caption was established in the reviewed image.",
+    "No body dimensions or real-world measurements can be obtained from this uncalibrated view."
+  ]
+}

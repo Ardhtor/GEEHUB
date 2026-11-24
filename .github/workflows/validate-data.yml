@@ -205,6 +205,11 @@ jobs:
           const worldIds = new Set(world.regions.map(r => r.id));
           const danglingRoutes = spatialMap.routes.flat().filter(id => !worldIds.has(id));
           if (danglingRoutes.length) throw new Error('Spatial routes reference unknown world regions: ' + [...new Set(danglingRoutes)].join(', '));
+          const spatialById = new Map(spatialMap.regions.map(r => [r.id, r]));
+          const missingSpatialRegions = world.regions.filter(r => !spatialById.has(r.id));
+          if (missingSpatialRegions.length) throw new Error('Canonical spatial index is missing world regions: ' + missingSpatialRegions.map(r => r.id).join(', '));
+          const coordinateMismatches = world.regions.filter(r => spatialById.get(r.id).x !== r.x || spatialById.get(r.id).y !== r.y);
+          if (coordinateMismatches.length) throw new Error('World and spatial-index coordinates disagree: ' + coordinateMismatches.map(r => r.id).join(', '));
           const scaleIds = detailedMaps.scales.map(s => s.id);
           if (new Set(scaleIds).size !== scaleIds.length || !['WORLD','KINGDOM','VEYRT','COMPLEX'].every(id => scaleIds.includes(id))) throw new Error('Detailed Atlas scales are incomplete or duplicated');
           const invalidScaleRecords = [...detailedMaps.landmarks, ...detailedMaps.regions].filter(item => !scaleIds.includes(item.scale));

@@ -79,7 +79,7 @@ The door opened again. Joseph entered without hurry. He seemed to recognise the 
 
 “What sound?” Gabe asked from the doorway.
 
-The others turned. Gabe and Chase had arrived together, though each had followed a different route. Chase held a folded map. Gabe carried a paper cup with a lid, its sleeve darkened by condensation.
+The others turned. Gabe and Chase appeared within a moment of each other, though each had followed a different route. Chase held a folded map. Gabe carried a paper cup with a lid, its sleeve darkened by condensation.
 
 Joseph listened.
 
@@ -159,7 +159,7 @@ Andrew stepped back. “It knows us.”
 
 There was a difference. They all felt it.
 
-### Chapter Three — The First Rule
+### Chapter Three — The First Agreements
 
 The room gave them no instructions. The map did not explain itself. The disc remained open, holding its small constellations of light.
 
@@ -175,7 +175,7 @@ Luke looked at the others. “This is a place I know.”
 
 “The bench is in the same place. The tape is where I left it. But the camera is somewhere I've never stood.” He looked at the empty space near the weights. “It knows the room. It doesn't mean it knows everyone who uses it.”
 
-A second image opened: a baseball field under a pale sky. Andrew's glove rested on the bench beside the dugout. A third showed the narrow room where Joseph listened to music. A fourth showed a corridor with Tyler's reflection in the mirror. Each image was connected to a real point of reference, but each also contained something new: a door, a path, a light left on, an object waiting to be found.
+A second image opened: a baseball field under a pale sky. Andrew's glove rested on the bench beside the dugout. A third showed the narrow room where Joseph listened to music. A fourth showed a corridor with Tyler's reflection in the mirror. A fifth showed the location pin Chase had received, now resting beside a footpath with no street name. A sixth showed the empty chair from Gabe's image, the broad shoulder still cut off by the edge of the frame. Each image was connected to a real point of reference, but each also contained something new: a door, a path, a light left on, an object waiting to be found.
 
 The room was not stealing their past. It was making passages between the places their separate histories had touched.
 

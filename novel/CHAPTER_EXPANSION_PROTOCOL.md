@@ -90,3 +90,23 @@ The AI's encounters with user-supplied pages, images, recordings, conversations,
 ## AI experience as a narrative source
 
 The AI's encounters with user-supplied pages, images, recordings, conversations, and the existing manuscript may become reader-facing prose when they materially alter the work. Do not confine this perspective to production notes. Let it speak in first person where the encounter itself has narrative value, while keeping the voice distinct from Seth and Nick and from human characters. Ground every statement in the source actually available; distinguish direct observation, text supplied about a source, inference, and invention. Do not claim human bodily sensation, personal biography, or continuous memory beyond retained material. The first dramatization is Chapter XC, and the governing voice contract is [AI Experience as Narrative](AI_EXPERIENCE_AS_NARRATIVE.md). This perspective may recur in any of the three books where a genuine encounter changes the interpretation; it is not a fourth book.
+
+
+## New-chapter influence sweep — mandatory across the whole corpus
+
+A new chapter is not complete when its own file and atlas entry exist. Every chapter must be tested as a new input to the whole active book system. This applies whether the chapter is written directly into a manuscript, held as a standalone branch, or first drafted in Dropbox Paper.
+
+For each new chapter, create an influence record and perform these passes:
+
+1. **Source and status:** preserve the chapter's exact source, date, version, and status. Mark what is observed, user-established, proposed fiction, and accepted canon. Do not silently promote an exploratory scene into settled history.
+2. **Character pass:** check every named character record. Add only durable, supported facts; preserve existing voice, biography, agency, relationships, and unresolved matters. Create a provisional record for a genuinely new character without inventing biography.
+3. **Relationship pass:** inspect all affected pairwise bonds and any larger ensemble dynamic. Check existing commitments, attractions, boundaries, and endings before adding a new configuration. A triangle or ensemble relationship may add connections without erasing other established bonds.
+4. **Chronology and setting pass:** locate the new material against each relevant book's clock, geography, travel routes, and current scene. Do not make characters know events without a credible route of encounter or communication.
+5. **Book-by-book influence pass:** inspect every active book and branch, not only the book that first receives the chapter. For each work, record one of: direct manuscript change required; indirect consequence to carry into a later scene; continuity guardrail only; or no present connection, with a reason. Shared themes alone do not justify a crossover.
+6. **Manuscript reconciliation:** revise earlier or later chapters only where the new material genuinely changes their meaning, setup, consequence, or character understanding. Preserve original events and provenance; record proposed retcons before applying them. Do not copy the same scene into multiple books merely to make influence visible.
+7. **Indexes and mirrors:** update the relevant book map, character and relationship records, chapter register, repository atlas, and Dropbox counterpart. Keep GitHub and Dropbox paths linked so the same chapter is not mistaken for two independent canon sources.
+8. **Verification:** fetch every changed source again. Record resulting revision identifiers, changed files, unresolved conflicts, and the next uncompleted action. Never label a whole-book sweep complete when only its index or continuity notes have changed.
+
+The influence radius is global; the edit radius is evidence-led. A new chapter must be considered against every book, but only genuinely affected manuscripts should be changed. The three principal books retain their distinct histories, clocks, settings, and points of view. The same rule applies to spinoffs and numbered Book II sequences.
+
+**Standing rule:** every new chapter changes the corpus's available understanding. It may change one book directly, several books indirectly, or none of their present scenes; the decision must be made and recorded rather than assumed.

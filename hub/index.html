@@ -5,7 +5,31 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GEEHUB — Narrative Jammer</title>
 <style>
-body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:1000px;margin:auto;padding:30px}.hero{display:flex;gap:8px;flex-wrap:wrap}.btn{padding:12px 16px;border:1px solid #454d58;border-radius:8px;background:#171b20;color:#eee;cursor:pointer}.primary{background:#eee;color:#111}.jam{margin:18px 0;padding:20px;border:1px solid #39414b;border-radius:12px;background:#14181d}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.card{padding:16px;border:1px solid #2d333b;border-radius:10px;background:#12161a}.muted{color:#929aa6;font-size:12px}.tags{color:#aab1ba;font-size:12px;margin-top:10px}.repo-link{display:inline-block;margin-top:12px;color:#d7e7ff;text-decoration:none}.repo-link:hover{text-decoration:underline}.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:700px){.grid{grid-template-columns:1fr}}
+body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:1000px;margin:auto;padding:30px}.hero{display:flex;gap:8px;flex-wrap:wrap}.btn{padding:12px 16px;border:1px solid #454d58;border-radius:8px;background:#171b20;color:#eee;cursor:pointer}.primary{background:#eee;color:#111}.jam{margin:18px 0;padding:20px;border:1px solid #39414b;border-radius:12px;background:#14181d}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.card{padding:16px;border:1px solid #2d333b;border-radius:10px;background:#12161a}.muted{color:#929aa6;font-size:12px}.tags{color:#aab1ba;font-size:12px;margin-top:10px}.repo-link{display:inline-block;margin-top:12px;color:#d7e7ff;text-decoration:none}.repo-link:hover{text-decoration:underline}.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.growth-engine{border-color:#47665b;background:linear-gradient(145deg,#111b19,#14181d)}
+.ge-head{display:flex;justify-content:space-between;gap:14px;align-items:start;flex-wrap:wrap}
+.ge-head h2{margin:5px 0 8px;letter-spacing:.04em}
+.ge-cycle{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0}
+.ge-step{border:1px solid #34443e;border-radius:999px;padding:6px 9px;color:#b8c9bf;font-size:11px;letter-spacing:.06em}
+.ge-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(250px,.85fr);gap:16px}
+.ge-form{display:grid;gap:10px}
+.ge-field{display:grid;gap:5px}
+.ge-field label{font-size:11px;color:#b9c6bd;letter-spacing:.07em;text-transform:uppercase}
+.ge-field input,.ge-field select,.ge-field textarea{width:100%;box-sizing:border-box;border:1px solid #394941;border-radius:7px;background:#0d1311;color:#eee;padding:10px;font:13px/1.45 system-ui}
+.ge-field textarea{min-height:66px;resize:vertical}
+.ge-two{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.ge-actions{display:flex;gap:8px;flex-wrap:wrap}
+.ge-preview{white-space:pre-wrap;overflow-wrap:anywhere;max-height:310px;overflow:auto;padding:12px;border:1px solid #2d3c35;border-radius:8px;background:#0b100e;color:#c6d3ca;font:11px/1.5 ui-monospace,monospace}
+.ge-status{padding:10px;border-left:3px solid #8b9b91;background:#101815;color:#b8c9bf;font-size:12px}
+.ge-status[data-state=good]{border-color:#6d9e83}
+.ge-status[data-state=note]{border-color:#b79b62}
+.ge-history{display:grid;gap:8px;margin-top:10px}
+.ge-history-item{padding:10px;border:1px solid #303a34;border-radius:8px;background:#101512}
+.ge-history-item p{margin:5px 0;color:#b5c0b8;font-size:12px}
+.ge-history-meta{color:#84948a;font-size:10px;margin-bottom:5px}
+.ge-open-pass{padding:6px 9px;font-size:11px}
+@media(max-width:760px){.ge-layout,.ge-two{grid-template-columns:1fr}}
+@media(max-width:700px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -13,7 +37,7 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
 <div class="muted">GEEHUB / NARRATIVE JAMMER</div>
 <h1>Pick a door. Kick it open.</h1>
 <p class="muted">Press a button. Get a collision. Make the tiny version.</p>
-<p class="muted"><a class="repo-link" href="../docs/INFORMATION_PORTABILITY.md">MEMORY CONTRACT / INFORMATION PORTABILITY</a> · <a class="repo-link" href="memory-bridge.html">CHAT ↔ WORLD ASSET MEMORY</a></p>
+<p class="muted"><a class="repo-link" href="../docs/INFORMATION_PORTABILITY.md">MEMORY CONTRACT / INFORMATION PORTABILITY</a> · <a class="repo-link" href="memory-bridge.html">CHAT ↔ WORLD ASSET MEMORY</a> · <a class="repo-link" href="#growth-engine">UNIVERSAL GROWTH ENGINE</a></p>
 <div class="hero">
 <button id="surprise" class="btn">SURPRISE ME</button>
 <button id="prophecy" class="btn primary">PROPHETIC RUN</button>
@@ -31,6 +55,39 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
 <div id="meta" class="muted">Curiosity first.</div>
 <div id="actions" class="actions"></div>
 <div id="artifact" class="jam" hidden></div>
+</section>
+<section id="growth-engine" class="jam growth-engine">
+  <div class="ge-head">
+    <div><div class="muted">GEEHUB / UNIVERSAL GROWTH ENGINE</div><h2>Continue from the inherited state.</h2>
+    <p class="muted">Record an encounter, preserve direct evidence, distinguish interpretation, and propose one bounded change. A proposal is not automatically a completed transformation or canon.</p></div>
+    <div class="muted"><strong id="ge-count">0</strong> saved passes</div>
+  </div>
+  <div class="ge-cycle" aria-label="Growth cycle">
+    <span class="ge-step">01 ENCOUNTER</span><span class="ge-step">02 RECOGNITION</span><span class="ge-step">03 ASSIMILATION</span><span class="ge-step">04 GROWTH</span><span class="ge-step">05 DIFFERENTIATION</span><span class="ge-step">06 CONTINUITY</span>
+  </div>
+  <div class="ge-layout">
+    <div class="ge-form">
+      <div class="ge-field"><label for="ge-subject">Growing subject</label><select id="ge-subject"><option value="">Loading project registry…</option></select><div id="ge-subject-meta" class="muted"></div></div>
+      <div class="ge-two">
+        <div class="ge-field"><label for="ge-parent">Parent state ID (if known)</label><input id="ge-parent" placeholder="Previous state / baseline ID"></div>
+        <div class="ge-field"><label for="ge-source">Source locator</label><input id="ge-source" placeholder="File path, URL, timestamp, or record ID" required></div>
+      </div>
+      <div class="ge-field"><label for="ge-encounter">Encounter / what entered the system</label><textarea id="ge-encounter" placeholder="Describe the source, event, idea, or new input…" required></textarea></div>
+      <div class="ge-field"><label for="ge-observed">Direct observation / evidence</label><textarea id="ge-observed" placeholder="What can be directly observed in the source? Keep this separate from interpretation." required></textarea></div>
+      <div class="ge-field"><label for="ge-interpretation">Interpretation / hypothesis (optional)</label><textarea id="ge-interpretation" placeholder="What might it mean? Keep uncertainty visible."></textarea></div>
+      <div class="ge-field"><label for="ge-change">Bounded growth change</label><textarea id="ge-change" placeholder="What single addition, adjustment, or experiment should the next pass make?" required></textarea></div>
+      <div class="ge-field"><label for="ge-next">Next action</label><input id="ge-next" value="Review the proposed change against its source and inherited state." required></div>
+      <div class="ge-actions"><button id="ge-run" class="btn primary" type="button">RECORD GROWTH PASS</button><button id="ge-export" class="btn" type="button">EXPORT PASS HISTORY</button></div>
+      <div id="ge-status" class="ge-status" role="status" aria-live="polite">Loading project registry…</div>
+    </div>
+    <aside>
+      <div class="muted">LATEST PASS / STRUCTURED RECORD</div>
+      <pre id="ge-preview" class="ge-preview" hidden></pre>
+      <div class="muted" style="margin-top:14px">RECENT INHERITANCE HISTORY</div>
+      <div id="ge-history" class="ge-history"><p class="muted">Loading saved passes…</p></div>
+      <p class="muted" style="margin-top:12px">Passes are saved locally first. When the existing GEEHUB server is running, proposals are also inscribed through the shared event, artifact, and outbox pipeline. Local browser storage is not a substitute for repository persistence.</p>
+    </aside>
+  </div>
 </section>
 <div class="filters">
 <label class="sr-only" for="search">Find a project</label>
@@ -163,6 +220,8 @@ async function loadProjects(){
     const records=await response.json();
     if(!Array.isArray(records))throw new Error('Project registry must be an array.');
     P=records.map(p=>({...p,repo:p.repo?'https://github.com/'+p.repo:(typeof p.path==='string'&&p.path.startsWith('http')?p.path:null)}));
+    window.GEEHUB_PROJECTS=P;
+    window.dispatchEvent(new CustomEvent('geehub:projects-loaded',{detail:P}));
     buildEco();render();renderAtlas();jam();
   }catch(error){
     $('#stats').textContent='PROJECT REGISTRY UNAVAILABLE';
@@ -174,7 +233,7 @@ function setActions(items){$('#actions').innerHTML=items.map(i=>`<button class="
 function savedJams(){try{return JSON.parse(localStorage.getItem('geehub-jams')||'[]');}catch{return[];}}
 function isPortableJam(x){return !!x&&typeof x==='object'&&x.schemaVersion===1&&typeof x.title==='string'&&x.title.trim()&&typeof x.brief==='string'&&x.brief.trim()&&typeof x.createdAt==='string'&&!Number.isNaN(Date.parse(x.createdAt))&&Array.isArray(x.from)&&x.from.length>0&&x.from.every(id=>typeof id==='string'&&id.trim());}
 async function inscribeJam(record){
-  const event={id:'hub-jam-'+record.id,at:record.createdAt,type:'HUB_JAM_SAVED',title:record.title,description:record.brief,source_nodes:record.from,artifact_id:'jam-'+record.id,next_action:'Open the saved jam and choose its next production action.'};
+  const event={id:'hub-jam-'+record.id,at:record.createdAt,type:'NOTICE',title:record.title,body:record.brief,artifact_kind:'creative-brief',source_nodes:record.from,artifact_id:'jam-'+record.id,next_action:'Open the saved jam and choose its next production action.'};
   try{
     const response=await fetch('/api/geehub/inscribe',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({event})});
     const result=await response.json();
@@ -234,5 +293,6 @@ function importSaved(file){const reader=new FileReader();reader.onload=()=>{try{
 $('#surprise').onclick=jam;$('#prophecy').onclick=propheticMode;$('#body').onclick=bodyMode;$('#luke').onclick=lukeMode;document.getElementById('synthesis').onclick=()=>{location.href='./synthesis.html'};document.getElementById('drive').onclick=()=>{location.href='./drive.html'};$('#saved').onclick=()=>{const s=savedJams().filter(isPortableJam);$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} portable saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#export').onclick=exportSaved;$('#import').onclick=()=>$('#importFile').click();$('#importFile').onchange=e=>{if(e.target.files[0])importSaved(e.target.files[0]);e.target.value='';};$('#search').oninput=e=>{query=e.target.value;render();renderAtlas();};$('#statusFilter').onchange=e=>{statusFilter=e.target.value;render();renderAtlas();};
 loadProjects();
 </script>
+<script src="./growth-engine.js" defer></script>
 </body>
 </html>

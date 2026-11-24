@@ -182,16 +182,11 @@ When the receiver went quiet, Marcus looked at the blank space inside the outlin
 
 The leader wrote the report while the surveyor checked the figures. Marcus read the description of the old trail and asked that the symbols be copied exactly, including the weathered marks that were difficult to see. They sent the message through the receiver and waited for confirmation. Kirk acknowledged it and said he would tell them if he noticed another movement. He did not promise that he could predict one.
 
-Before sleeping, they drew the chamber again. The new map was larger than the first, with the ridge, the shifted platform, the concealed trail, and the First Shelter marked in separate layers. They left the dark opening blank. Beyond it, the country continued.
+By morning, the cedar post at the entrance had moved several inches. The chamber had widened, and the pale line along the far wall had become a narrow passage. The men measured the change, checked their equipment, and prepared a second expedition. The new passage offered another route, but its appearance did not make it safe.
 
-During the night, the men on watch heard the slow rhythm beneath the chamber floor. It rose and faded, never quite becoming a sound that could be separated from the movement of the walls. The pale line along the far side appeared twice. On the second occasion it remained visible long enough for the surveyor to make a note of its direction. He did not wake the whole camp. He marked the time and waited for the next observation.
-
-By morning, the cedar post at the entrance had moved several inches. The chamber had widened, and the pale line along the far wall had become a narrow passage. The men measured the change, checked one another's equipment, and prepared a second expedition. The old opening was still present, but its relation to the floor had altered. The new passage offered another possible route, though none of the men assumed that it was safe merely because it had appeared.
-
-They entered the day's measurements twice: once to describe the chamber as they had found it, and again to describe the chamber as it was now. The first page was not discarded. The second did not replace it. Between them lay the record of what had happened while the men were trying to understand where they stood.
+They entered the day's measurements twice: once to describe the chamber as they had found it, and again to describe it as it was now. The first page was not discarded. The second did not replace it.
 
 The first expedition had not found its way out. It had found the beginning of the world.
-
 ---
 
 ## Continuity record

@@ -123,3 +123,10 @@ The second book follows the living geography of Kirk's extraordinary anatomy, th
 - [Chapter IV — The Promises That Keep](./chapters/BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md)
 - [Chapter V — Four Mansions](./chapters/BOOK_II_CHAPTER_V_FOUR_MANSIONS.md)
 - [Chapter VI — The Game Between the Houses](./chapters/BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md)
+
+## Cross-book continuity and chapter propagation
+
+- [Whole-Manuscript Chapter Expansion](./CHAPTER_EXPANSION_PROTOCOL.md) — mandatory new-chapter influence sweep across manuscripts, character and relationship records, indexes, and mirrors.
+- [The Three Books Moving at Once](./THREE_BOOKS_IN_MOTION.md) — active book map and influence register, including the provisional Ian/Gabe/Kirk branch.
+- [Relationship Canon](./RELATIONSHIP_CANON.md) — shared relationship rules and established/provisional arcs.
+- [Ian Kistner, Gabe, and Kirk — The Threefold Attraction](../lore/IAN_GABE_KIRK_TRIANGLE.md) — provisional relationship branch, not yet placed as a numbered manuscript chapter.

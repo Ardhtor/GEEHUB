@@ -1,11 +1,11 @@
-# GEEHUB // EXPANSION ATLAS
+# EXPANSION ATLAS // THE CONFLUENCE LAYER
 ## 2026-11-10 — The Confluence Layer
 
-This document expands the existing GEEHUB canon without replacing it. It establishes a larger connective geography for worlds, institutions, characters, production systems, and remembered events. Existing names and histories remain authoritative where already established. New material is additive and can be revised through later encounters.
+This document expands established local canons and project records without replacing them. It establishes a larger connective geography for worlds, institutions, characters, and remembered events. Existing names and histories remain authoritative where already established. New material is additive and can be revised through later encounters.
 
 ## The Confluence
 
-Beyond the known regions lies the Confluence: not a single city, but the inhabited connective territory through which the separate worlds exchange people, objects, customs, images, stories, and techniques. It is the part of GEEHUB that makes the atlas feel inhabited. Roads do not merely connect destinations; they carry habits. A workshop can influence a university. A song heard in a dormitory can become the sound of a distant temple. A design discovered in a media archive can become the ornament of a building several worlds away.
+Beyond the known regions lies the Confluence: not a single city, but the inhabited connective territory through which the separate worlds exchange people, objects, customs, images, stories, and techniques. It is the inhabited connective territory that makes the atlas feel lived-in. Roads do not merely connect destinations; they carry habits. A workshop can influence a university. A song heard in a dormitory can become the sound of a distant temple. A design discovered in a media archive can become the ornament of a building several worlds away.
 
 The Confluence has no central capital. Its principal meeting point is the Exchange Hall, a vast timber-and-glass structure built around a high central court. Galleries overlook the court at several levels. Each gallery belongs to a different discipline: image-making, architecture, movement, sound, writing, material study, history, and experimental play. A visitor can arrive with a fragment and leave with a prototype, a new friendship, a changed room, or a question that continues elsewhere. The Hall keeps a record of transformations but does not dictate what a fragment must become.
 
@@ -67,7 +67,7 @@ The **Frame Foundry** turns references into frame studies, contact sheets, motio
 
 The **Sculpting Floor** contains modular body and environment components. Its workspaces support separate depth and width passes, proportion adjustments, pose studies, clothing construction, material tests, and assembly. Assets are reusable. A forearm, jacket, boot, beam, door, bench, or window can be developed as a component before being placed in a larger scene.
 
-The **Motion Theatre** handles animation, camera movement, timing, transitions, and continuity between shots. It keeps a shot ledger so that a character's proportions, clothing, lighting, and environment do not drift arbitrarily between frames. DaVinci Resolve, Blender, and other tools can participate as production applications; GEEHUB remains the record of intent, assets, decisions, and results.
+The **Motion Theatre** handles animation, camera movement, timing, transitions, and continuity between shots. It keeps a shot ledger so that a character's proportions, clothing, lighting, and environment do not drift arbitrarily between frames. DaVinci Resolve, Blender, and other tools can participate as production applications; The production repository remains the record of intent, assets, decisions, and results.
 
 The **Sound House** develops original sound palettes: room tone, timber movement, distant machinery, footsteps, fabric, breath, weather, synthesized tones, procedural ambience, and music sketches. Sound is treated as spatial information. A room should sound different when empty, crowded, cavernous, or newly altered.
 
@@ -135,11 +135,11 @@ The next morning, each fragment had changed slightly because it had encountered 
 
 ## Expansion policy
 
-GEEHUB grows by adding places, people, systems, and artifacts that have relationships to what already exists. New material should create more possible activity, not simply more names. Each new place needs a reason to be visited. Each new character needs a recognizable point of view. Each new system needs a tangible operation. Each new artifact needs a provenance trail and a path back into the living world.
+The atlas grows by adding places, people, systems, and artifacts that have relationships to what already exists. New material should create more possible activity, not simply more names. Each new place needs a reason to be visited. Each new character needs a recognizable point of view. Each new system needs a tangible operation. Each new artifact needs a provenance trail and a path back into the living world.
 
 The map can grow indefinitely, but navigation must remain legible. The world can become stranger without becoming incoherent. The archive can become enormous without becoming a pile. The novel can become long without losing its earlier chapters. The user-facing experience should remain immediate: enter, see, encounter, make, return.
 
-The governing principle remains continuance. GEEHUB is not a finished world waiting to be explored. It is a world that changes because it is explored.
+The governing principle remains continuance. The connected world is not a finished setting waiting to be explored. It changes because its inhabitants explore it.
 
 
 # VOLUME II // THE INHABITED CONFLUENCE

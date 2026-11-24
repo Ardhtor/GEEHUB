@@ -179,6 +179,10 @@ The titles **DUH!** (`CHAPTER_LXXXVIII_DUH.md`) and **DUH DUH!** (`CHAPTER_LXXXI
 - `novel/CONTINUATION_REGISTER_2026-11-20.md`: replaced the stale Northgate Chapter LXXXIII link and “boy's father” description with the renamed adult visitor chapter.
 - `novel/CHAPTER_XXXII_THE_MEMORY_THAT_LOOKED_BACK.md`: an archived item previously described as “a child's drawing” is now “a small, careful drawing.” The line records the object, not a living character, and no unsupported maker is assigned.
 
+## Cast-composition rule correction
+
+`novel/CHAPTER_EXPANSION_PROTOCOL.md` formerly imposed an all-male cast across all active GEEHUB fiction, including incidental and background figures, unless the user changed it. That was too broad: it projected one dominant tone onto every distinct setting and contradicted adult women already present in some story branches. The protocol now requires each local continuity to preserve its established cast composition, allows male-dominated ensembles to remain recognisably themselves, prohibits a single demographic template across separate worlds, and explicitly requires all human characters in active fiction to be adults. This is a correction to the production rule, not an instruction to add or remove a character from any particular story without checking its canon.
+
 ## Audit method for subsequent passes
 
 1. Identify the manuscript and local continuity before editing a scene.

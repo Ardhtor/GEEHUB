@@ -14,6 +14,16 @@ The aim is to let useful work carry forward and make later work easier. It shoul
 
 Growth is usually incremental. A visual subject may become gradually hairier through successive passes; a character may acquire a habit through repeated encounters; a research question may become more precise as evidence accumulates; a room may gain detail as it is used; a tool may gain a tested capability. Each example has its own measures and pace, but the continuity rule is shared.
 
+## Context carries meaning
+
+Do not solve missing context by adding more explanation. Broaden the field around the work. Every artifact belongs to a larger situation: its sources, place, time, relationships, prior states, surrounding materials, consequences, and possible next uses. Make those connections available through the work itself—its arrangement, links, visual environment, inherited state, and behavior.
+
+A character should be encountered through the people, places, routines, history, and choices that shape the character. An image should retain its source, sequence, visual neighbors, and transformations. A tool should sit beside the material it acts on and the results it produces. A story should inhabit its geography and carry the consequences of earlier chapters. A research finding should remain connected to the evidence, disagreements, and questions that give it meaning.
+
+Context is not a caption attached after the fact. It is part of the object. Build the surrounding relationships before adding explanatory copy. Prefer a meaningful connection, visible consequence, or usable artifact over a paragraph telling someone what to think about it. Keep precise language where it protects provenance, safety, operation, or interpretation; remove language that merely announces, decorates, repeats, or translates what the surrounding work already makes clear.
+
+Broaden without flattening. Preserve distinct projects, people, sources, voices, and interpretations. Connections should reveal their differences as well as their affinities. Do not manufacture a relationship simply to make the whole appear unified.
+
 ## A useful rhythm
 
 `ENCOUNTER → INTAKE → OBSERVATION → RESEARCH → INTERPRETATION → EXPERIMENT → GROWTH PASS → REVIEW → INTEGRATION → NEXT PASS`

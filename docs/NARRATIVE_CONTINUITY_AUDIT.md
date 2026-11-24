@@ -93,9 +93,13 @@ The current Book II chapters distinguish the public Evermeasure exhibition from 
 
 The nine current Book II chapters contain no GEEHUB/Geehub setting label, no “the Hub” world-name, and no child/children references in the main chapter text. Their local geography remains the Kirk expedition's own atlas. This is a checked property of those nine chapter files, not a claim about every Book II supporting document.
 
-### In-world “Hub” naming still needs provenance
+### The Hub is a machine/presence, not the wider world
 
-Several unassigned numbered chapters, especially `CHAPTER_XXXII_THE_MEMORY_THAT_LOOKED_BACK.md` and `CHAPTER_XXXIII_THE_MAN_WHO_KNEW_HOW_TO_WAIT.md`, use “the Hub” as an in-world machine or presence. Chapter XXXIII says the machine had a name before Bill's account, but the originating naming scene is not currently linked in the source map. Do not assume this is the final name of the wider world. Establish whether “the Hub” is a name the men themselves gave to a particular machine, room, or service, or whether it is an editorial shorthand. The setting-wide name remains unestablished.
+The XXXII–XXXIV sequence supports “the Hub” as a particular in-world archive or machine presence: it prints instructions, stores and retrieves records, displays images, and has a terminal typeface. In Bill's account, the line “since before the Hub had a name” confirms that the machine has a name before that account is told. This is not evidence that the men named the entire country “the Hub.” The original naming scene for the machine is still not located; preserve the machine-name as a local designation and do not promote it to a world-name.
+
+The second-chair sequence also gives a useful naming precedent. In `CHAPTER_XXXIII_THE_SECOND_CHAIR.md`, a voice from another community says, “We have several names. The one we use among ourselves is not yet ready to travel.” Its building is called the House of Returns, but the community's own collective name remains withheld by choice. Preserve that boundary. The inhabitants can own a name without being obliged to disclose it to visitors or narrators.
+
+Two files currently share the ordinal XXXIII: `CHAPTER_XXXIII_THE_MAN_WHO_KNEW_HOW_TO_WAIT.md` (Bill's first-person account) and `CHAPTER_XXXIII_THE_SECOND_CHAIR.md` (Luke and the other men encounter the warm second chair and a new community). Chapters XXXII and XXXIV appear to connect to the second-chair sequence, but no source register assigns Bill's account to a distinct parent manuscript or alternate branch. Do not renumber or merge either file until their manuscript membership is established.
 
 ### Numbered production essay
 

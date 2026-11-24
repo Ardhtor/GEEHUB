@@ -48,11 +48,12 @@ The following Paper documents were read back after synchronization and their Mar
 | --- | --- | ---: | --- |
 | I — The Lost Country | [Open in Dropbox](https://www.dropbox.com/scl/fi/gpx1ba1ijqb6qhfv7igop/Book-II-Chapter-I_-The-Lost-Country.paper?dl=0) | 1 | `6046e63dc0f749f0caeab24d9f2e7407fb143a90` |
 | II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 2 | `cefe0de1ed3ce967b441766693b00dc90cd66c88` |
+| III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?dl=0) | 2 | `70de36cdf943b591208ab0ca2d9dd82a75d1b979` |
 | III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?rlkey=zokc2rtwe2mlj3t6fkd83mfcs&dl=0) | 2 | `70de36cdf943b591208ab0ca2d9dd82a75d1b979` |
 | VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 2 | `d1e1d17fdb467570042bcf1a60c0f3f573bbb579` |
 | IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 1 | `d9be1ad55e028e2cd388dd43386b0b0ceb99bb42` |
 
-Chapters III–VII remain to be mirrored as their in-place revision passes are completed. GitHub remains the canonical source; Dropbox Paper is the live production and reading surface. A mirror must be refreshed and verified after its source chapter changes.
+Chapters IV–VII remain to be mirrored as their in-place revision passes are completed. GitHub remains the canonical source; Dropbox Paper is the live production and reading surface. A mirror must be refreshed and verified after its source chapter changes.
 
 ## Whole-book threads to carry
 
@@ -75,7 +76,7 @@ Book II is not complete merely because Chapter IX has been drafted or because th
 
 ## Next operation
 
-The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) now consolidates the relative sequence, geography, relationships, Evermeasure development, and unresolved consequences across Chapters I–IX. Chapters I and II have received first expansion passes and have been read back against their adjacent chapters; both whole-book reviews remain open for the final continuity sweep. The next in-place revision is Chapter III, followed by the remaining existing chapters in canonical order. Update the chronology map and affected records after each accepted revision. Continue to Book III only after this register is formally closed.
+The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) now consolidates the relative sequence, geography, relationships, Evermeasure development, and unresolved consequences across Chapters I–IX. Chapters I–III have received first expansion passes and have been read back against their adjacent chapters; all three whole-book reviews remain open for the final continuity sweep. The next in-place revision is Chapter IV, followed by the remaining existing chapters in canonical order. Update the chronology map and affected records after each accepted revision. Continue to Book III only after this register is formally closed.
 
 ## Motif held for scene development
 

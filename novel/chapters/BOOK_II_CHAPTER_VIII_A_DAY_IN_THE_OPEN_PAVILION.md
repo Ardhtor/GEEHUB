@@ -4,9 +4,23 @@ Michael Brock arrived at the common green before the pavilion had filled. The mo
 
 Michael had become used to the first pause. Men noticed him before they spoke. His chest was exceptionally broad, his deltoids rounded into the upper arms, and the weight of his thighs and calves made each step look deliberate. He did not hurry to explain himself. He put his small tool case on the bench, greeted Joseph, and asked what needed doing.
 
+The pause did not bother him as much as it once had. He knew what the others saw first, and he knew that a large body could make a room feel smaller before its owner had said a word. He had learned not to rush into filling that silence. If someone wanted to ask about his size, they could ask. If they wanted him to lift something, they could explain what the work required. He preferred to be given a task with a beginning and an end. A frame had a weight, a route, and a place where it needed to be set down. That was easier to understand than a room full of attention.
+
+Joseph did not ask him to demonstrate anything. He showed him the tools and explained the frame's unfinished lower rail. Michael liked that. The morning had room for a useful job, and nobody had yet tried to turn his arrival into a spectacle. He took the tool case from the bench and followed Joseph toward Robert's trestles.
+
 “Robert wants the new frame carried to the Cedar Span,” Joseph said. “Chase has marked the route. Gabe is checking the supports.”
 
 “Then I'll see the frame before I carry it.”
+
+Joseph walked beside him and described the route Robert had proposed. The Cedar Span was the obvious destination, but the narrow turn near the covered passage would be difficult if the frame were carried too high. The western opening offered more room but required a longer approach. Michael asked whether the resting bay was clear and whether the cradle had been built for the frame's present dimensions or for the revised version.
+
+“Present dimensions,” Joseph said. “Robert wants to see how the frame behaves before he locks the centre.”
+
+“Then we should carry it as it is, not as he hopes it will be.”
+
+Joseph glanced at him. “That's what I thought you'd say.”
+
+Michael smiled. “I can be predictable when it helps.”
 
 Joseph smiled. “That's probably why they asked you.”
 
@@ -56,6 +70,10 @@ The first carry was not timed. Michael and Gabe lifted the frame from opposite e
 
 Chase marked the clearance. “That is the first clean passage.”
 
+The men did not celebrate until Robert had checked the corners. He ran a finger along the lower rail, examined the brace, and looked for a new mark where the timber had passed between the pavilion posts. There was none. Gabe asked Michael whether the lift had felt uneven. Michael said the frame had been heavier on the left at the start, but the lower rail had settled once they changed their grip. He showed Gabe where his hand had been placed and how the load shifted when the corner turned.
+
+Chase added the grip change to the record. The route had been clean, but the method mattered. If another pair tried the same carry, they would need to know where the weight had moved and when the carriers had paused. Robert left the central pin loose until the frame had been tested again. The first passage had answered one question and raised another: whether the frame could travel the longer route without the same adjustment.
+
 “First attempt,” Andrew said. “We can do better.”
 
 “First clean passage,” Chase repeated. “The record should say what happened, not what you want to happen next.”
@@ -63,6 +81,18 @@ Chase marked the clearance. “That is the first clean passage.”
 Michael set the frame into the temporary cradle. He did it slowly, with his fingers clear of the joint and his shoulders working under the load. The frame settled without a knock. Robert inspected the corners and found no fresh mark.
 
 “Good,” he said. “Now I can fit the central pin.”
+
+Robert did not fit the pin immediately. He asked Michael to help him check the lower rail once more. They set the frame on the trestles and pressed gently against each corner. The left side held firm; the right side flexed just enough to make the central joint move. Michael placed his palm against the brace and asked Robert to watch the opposite corner while he applied pressure. The movement was small, but it showed why the pin should remain removable until the frame had been carried through both routes.
+
+Chase recorded the flex as an observation, not a failure. Robert adjusted the brace by a fraction and asked them to repeat the check. This time the corners moved together. Michael approved the change, then stepped back so Robert could fit the pin after the next carry. The frame was not ready because it looked finished. It would be ready when it had survived the route it was built for.
+
+Andrew watched the inspection. “You could make a competition out of checking a joint.”
+
+“You could make a competition out of anything,” Michael said.
+
+“That's why I like you.”
+
+“Then you'll like the fact that I'm not racing the frame.”
 
 The second attempt used a different route. Andrew wanted the frame to pass through the pavilion's western opening, cross the common green, and approach the Cedar Span from the sheltered side. It was longer, but the turn was easier. Gabe suggested that Michael carry the heavier end while Joseph guided the lower rail. Michael agreed, provided they stopped at the resting bay rather than trying to prove they could finish without a pause.
 
@@ -122,6 +152,16 @@ Michael sat down. The bench gave a quiet creak, then held.
 
 “Better,” he said.
 
+They stayed on the bench for a few minutes. Michael's breathing had settled, and the pressure across his shoulders had eased. He rolled one wrist, then the other, and watched Joseph check the wedge from the side. The work was small enough that nobody needed to applaud it. The bench had been moved, found unstable, and made useful again. That was all.
+
+Michael liked that kind of work. He had spent enough time in places where every physical act became a comparison. Here, a strong man could use his strength to hold something still while another man made a careful adjustment. Nobody had to be the strongest person in the room for the job to be done well.
+
+Joseph asked whether he wanted to return to the pavilion.
+
+“In a minute,” Michael said. “I want to see if it stays level when we both sit.”
+
+They sat again. The bench held. Joseph nodded, satisfied, and Michael stood without making the movement a display. They returned together by the covered walk.
+
 “You're a severe test.”
 
 “I've been called worse.”
@@ -152,6 +192,12 @@ Andrew laughed, but he slowed down. They began again. This time he waited for Mi
 
 Chase made a new entry. Andrew leaned over his shoulder.
 
+The group reviewed the second carry before anyone proposed a third. Michael described the point where the frame began to tilt, and Andrew explained how he had matched the movement at the western opening. Gabe added that the resting bay had been useful even though neither carrier had needed to sit for long. Chase recorded the pause as part of the method, not as lost time. Robert marked the revised grip on the diagram.
+
+Michael looked at the record. It contained the route, the clearance, the change of grip, and the pause. It did not contain an estimate of his strength or a claim that he had carried more than anyone else. He was glad. The day was becoming a record of work rather than a catalogue of his body.
+
+Andrew asked whether he would return for another attempt. Michael said he would, provided they surveyed the narrower turn first. Andrew immediately began sketching a possible route. Chase reminded him that the turn had not yet been checked. Andrew put the pencil down, though not without a grin.
+
 “You're going to write that I won.”
 
 “I'm going to write that you listened.”
@@ -166,11 +212,23 @@ Michael stayed for a final look at the Cedar Span. His body had been the most co
 
 The evening message came through the private channel. It was from Kirk. He asked whether Michael had enjoyed the exhibition and whether the day had been too demanding.
 
+Michael read the message twice before answering. He was tired, but it was the good tiredness that came from using his body carefully rather than proving that it could do more. He told Kirk about the frame, the two routes, and the moment when Andrew had finally matched his pace. He described Gabe's warm-up and the bench Joseph had repaired. He did not make the day sound larger than it had been. It had been a day of work, food, conversation, and a few clean attempts.
+
+Kirk asked whether the attention had been comfortable. Michael considered the question. He said that he did not mind being noticed when the others were interested in what he was doing. It was harder when a man seemed to have decided what he wanted from him before they had spoken. Today had been better. The others had asked for his judgement, accepted his limits, and let the work continue when he chose to rest.
+
+Kirk replied that he was glad. He said he had liked hearing Michael's voice in the public report, but he had not wanted to turn the whole day into a message about himself. Michael told him that he had not felt that way. The private channel was theirs, and the public record could remain about the frame.
+
+He asked Kirk how the lower country had felt during the afternoon. Kirk described a small change in pressure that had eased before the evening. Michael listened and asked whether it had been uncomfortable. Kirk said no, only noticeable. Michael did not offer a theory. He said he was glad the pressure had eased and that he hoped Kirk would rest.
+
 Michael read it away from the pavilion, where no one could look over his shoulder. He answered that he had enjoyed the company, that Gabe had made him warm up properly, and that Andrew had finally learned to carry something without trying to race it. He asked how Kirk's own day had gone.
 
 Kirk replied that it had been quiet. He had listened to the reports, but had not wanted to turn the afternoon into another public event. He was pleased that Michael had been there. Michael read the sentence twice. It was simple, and it belonged to him.
 
 Michael left the board as it was. Tomorrow another man would bring a different idea, and someone else would answer it. The day had given Michael a place in the district: a man who could lift an extraordinary weight, listen when another man asked him to stop, and end the evening with a private kindness.
+
+He put the phone away and looked once more toward the pavilion. He could still hear the distant movement of the others finishing their work, but he did not return to offer another demonstration. The frame had been carried, the bench had been repaired, and the record had been made. There would be another day for the narrower turn. Tonight he wanted to eat, wash, and sleep.
+
+The choice did not diminish the day. It gave the day an ending.
 
 The pavilion lights remained on after he had gone. The frame stood safely in its cradle, and the bench held its place on the Cedar Span. Beyond it, the Twin Grounds rested in their changing shapes. The Long Return waited for morning.
 ---

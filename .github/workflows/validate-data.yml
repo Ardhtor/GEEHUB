@@ -174,6 +174,7 @@ jobs:
           const atlasScript = fs.readFileSync('worldspace/maps.js', 'utf8');
           const detailedMaps = JSON.parse(fs.readFileSync('geo-cyberspace/detailed-maps.json', 'utf8'));
           const spatialMap = JSON.parse(fs.readFileSync('hub/spatial-world.json', 'utf8'));
+          if (spatialMap.source !== '../world.json') throw new Error('Spatial index source must resolve to the root world registry');
           const atlasCss = fs.readFileSync('engine/story-atlas.css', 'utf8');
           const runtime = fs.readFileSync('artifacts/runtime.js', 'utf8');
           const bridge = fs.readFileSync('engine/world-state-bridge.js', 'utf8');

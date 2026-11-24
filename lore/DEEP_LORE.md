@@ -2,6 +2,13 @@
 
 Status: emerging canon / generated through inspection
 
+## Editorial and diegetic boundary
+
+GEEHUB is the external repository and production workspace. It is not the name of a fictional world, city, or shared setting. Tractus names the continuity model and navigable record architecture used to connect the corpus; the Seth and Nick branch also gives that architecture a lived-world expression. This document's heading identifies its Tractus continuity scope. It does not establish that the inhabitants named every connected world “the Tractus.”
+
+“The Hub” refers to an archive, machine, or presence encountered in particular story branches. It is not automatically the name of the whole setting. Where a scene says the Hub has a name, the originating naming moment should be linked before that name is treated as a universal place-name. The wider shared world remains unnamed in this record until its inhabitants name it in a scene.
+
+
 The Deep Lore is not a mythology imposed upon the world.
 
 It is what the world has already been saying before anyone gave it a name.
@@ -340,7 +347,7 @@ A floor tells the truth.
 
 When the body changes, these objects answer.
 
-This is why scale in GEEHUB is never only a number.
+This is why scale in the connected stories is never only a number.
 
 It is a relationship between a body and the world surrounding it.
 
@@ -514,17 +521,9 @@ The unanswered heartbeat is therefore a model for the entire Hub:
 
 ## XVIII. THE LAW OF THE HUB
 
-GEEHUB began as a repository.
+Outside the fiction, GEEHUB is the repository and production workspace; Tractus is the continuity model and navigable record architecture that connects its parts. These are production facts, not events the men remember.
 
-It became an index.
-
-Then a production scaffold.
-
-Then a world.
-
-Then a narrative memory.
-
-The inspection suggests that none of those descriptions is sufficient alone.
+Within the stories, “the Hub” is an archive or machine presence encountered in particular places. It is not the whole world, and its name must be grounded in the scene where the men use and define it. The wider setting is not named by this doctrine.
 
 The Hub may instead be a machine for detecting continuity between things that initially appear unrelated.
 
@@ -574,7 +573,7 @@ Then:
 
 EVENT → RESIDUE → SEEP → POETRY → LAW → MYTH → RETURN → EVENT
 
-This is the first serious candidate for GEEHUB's deep-lore engine.
+This is the working method of Deep Lore.
 
 It does not manufacture meaning from nothing.
 
@@ -615,7 +614,7 @@ They may be fragments of one sentence that the world has not finished saying.
 
 The fountain was not built to contain the world but to keep the world from becoming finished. This distinction was lost so early that the twelve keepers who remained beside it for generations believed their duty was to protect a fixed source, when in truth they were protecting a passage. The water was only the visible portion of the mechanism. Beneath it lay the older movement, the thing that carried stories from one place to another, from one body to another, from one age into another age, and whenever the fountain produced a key, a feather, a doorway, a coin, or any other impossible object, it was not giving the city a treasure so much as giving it an interruption. The object caused somebody to leave the ordinary path. Somebody followed the key. Somebody opened the door. Somebody searched for the kingdom whose king had never existed. Somebody held the feather and wondered what kind of creature could have shed it. Thus the fountain's miracles were not answers. They were instruments for making the world continue.
 
-The twelve keepers eventually discovered this only after the water stopped. Beneath the empty basin they found a staircase which had not existed before, and beneath the staircase they found a darkness so deep that darkness itself seemed to have become geography. There they encountered the ancient presence which had always been beneath the city, and the presence did not explain itself. Instead it returned the stories of the twelve men to them in altered form. One received a city, another a forest, another a war, another a marriage, another a machine, another a child not yet born, another a language, another a road, another a dead god, another an ocean, another a house, and the last received nothing because he had already understood that the others were his story. This became known among later keepers as the First Recognition: the discovery that a world can be carried by its witnesses even when no witness believes himself to be carrying it. The twelfth man became the first keeper to understand that continuity is not the preservation of an object in its original state but the preservation of a relationship through change.
+The twelve keepers eventually discovered this only after the water stopped. Beneath the empty basin they found a staircase which had not existed before, and beneath the staircase they found a darkness so deep that darkness itself seemed to have become geography. There they encountered the ancient presence which had always been beneath the city, and the presence did not explain itself. Instead it returned the stories of the twelve men to them in altered form. One received a city, another a forest, another a war, another a marriage, another a machine, another an unborn successor, another a language, another a road, another a dead god, another an ocean, another a house, and the last received nothing because he had already understood that the others were his story. This became known among later keepers as the First Recognition: the discovery that a world can be carried by its witnesses even when no witness believes himself to be carrying it. The twelfth man became the first keeper to understand that continuity is not the preservation of an object in its original state but the preservation of a relationship through change.
 
 When the first stop was pulled, the world became larger. It did not merely expand geographically. It acquired rooms that had been absent, histories that had not previously been accessible, roads leading to cities whose existence could not have been predicted from the old map, and a distant city in which stories themselves appeared to have become architecture. This event is now called the First Opening. It established the oldest rule of the Hub: every genuine expansion must create somewhere for its consequences to live. A new idea without a room is only a note. A new character without a history is only a name. A new world without memory is only scenery. But when the idea receives a place, the character receives witnesses, and the world retains the evidence of what has happened within it, the thing begins to acquire weight. It can be revisited. It can contradict itself. It can surprise the person who made it. It can become larger than its original description.
 
@@ -625,7 +624,7 @@ This was the origin of Deep Lore. It was not a department. It was a depth. The s
 
 The Hub inherited this behavior. It began with archives and folders, but the folders were never truly separate. A visual reference could alter a character. A character could alter a room. A room could produce a scene. The scene could produce a phrase. The phrase could return months later as the title of another work. A geographical coordinate could become a mythological location. A technical problem could become part of the world's history. An unfinished program could become a character because the behavior of the program had already suggested a personality. None of these transformations required the original thing to disappear. That is the important distinction. Cross-pollination does not erase provenance. It preserves the trail while allowing the thing to change form.
 
-There is therefore no single center to GEEHUB. The center is whatever has most recently become capable of producing another room. Sometimes the center is a person. Sometimes it is a place. Sometimes it is a phrase. Sometimes it is an image. Sometimes it is an absence. The empty space around a missing character can become more structurally important than the character's last appearance. The unused doorway can become a threshold. The forgotten object can become evidence. The unresolved heartbeat beneath Digitorium can remain unresolved precisely because its unanswered condition continues to generate attention. The Hub must not close every aperture merely because closure feels orderly. Some doors are mechanisms for future writing.
+There is therefore no single center to the connected setting. The center is whatever has most recently become capable of producing another room. Sometimes the center is a person. Sometimes it is a place. Sometimes it is a phrase. Sometimes it is an image. Sometimes it is an absence. The empty space around a missing character can become more structurally important than the character's last appearance. The unused doorway can become a threshold. The forgotten object can become evidence. The unresolved heartbeat beneath Digitorium can remain unresolved precisely because its unanswered condition continues to generate attention. The Hub must not close every aperture merely because closure feels orderly. Some doors are mechanisms for future writing.
 
 This is why the Deep Lore cannot be reduced to a catalogue of rules. The rules are observations made after the fact. The actual material is the accumulated world: the long histories, the journeys, the rooms, the people who remain recognizable after impossible transformations, the cities which change because somebody has returned to them, the houses built before their inhabitants arrive, the forests which seem to know the names of people walking through them, and the fountain beneath the oldest city which continues to send stories upward. The lore becomes deep not when it becomes obscure but when enough surface events have accumulated that their hidden relationships become impossible to ignore.
 

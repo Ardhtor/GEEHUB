@@ -153,11 +153,11 @@ No coordinates, distances, or permanent new landforms are introduced by Chapter 
 
 ## Revision order and editorial gates
 
-The current nine chapters are not equally developed. Chapters I–VIII remain below the standard full-chapter range in the publishing guide; Chapter IX is a new draft within that range. Expansion must come from scenes that deepen character, place, evidence, action, and consequence, not from padding or repeated explanation.
+The nine chapters are at different stages. Chapter I has completed its first in-place expansion pass at 4,609 narrative words, within the publishing guide's standard 4,000–7,000-word range; its whole-book continuity review remains pending. Chapters II–VIII remain below that range and need development where the material supports it. Chapter IX is a new working draft at 4,162 words, also within the range. These figures are editorial guides, not quotas. Expansion must come from scenes that deepen character, place, evidence, action, and consequence, not from padding or repeated explanation.
 
 The revision proceeds in canonical order:
 
-1. **Chapter I:** develop the ridge arrival, the first movement, the Old Trail, First Shelter, and Kirk's first exchange while preserving the two-state map and the decision not to enter the dark opening.
+1. **Chapter I:** first in-place expansion pass completed and read back against Chapter II. Reserve its whole-book continuity review for the final sweep; preserve the two-state map and the decision not to enter the dark opening.
 2. **Chapter II:** give the Old Trail and Measure House more lived detail; develop Oren, Vale, and Senn through action and dialogue; preserve the twenty-three-resident count as the count at the time of the visit.
 3. **Chapter III:** expand the Long Fold and Warm Table survey, the physical evidence of the altered route, and the careful withdrawal; preserve the unentered opening.
 4. **Chapter IV:** deepen Andrew and Kirk's established chemistry and the promises through shared activity, listening, and the rolling-ball observation; keep interpretation separate from Kirk's report.

@@ -61,7 +61,7 @@ Book II is not complete merely because Chapter IX has been drafted or because th
 
 ## Next operation
 
-Build the full chronology and open-thread map from Chapters I–IX and the spatial/relationship records. Chapter I has received its first expansion pass and been read back against Chapter II; its whole-book review remains open. Continue the in-place revision in canonical order at Chapter II, then proceed through the remaining existing chapters before extending the story toward its ending. Continue to Book III only after this register is formally closed.
+The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) now consolidates the relative sequence, geography, relationships, Evermeasure development, and unresolved consequences across Chapters I–IX. Chapter I has received its first expansion pass and been read back against Chapter II; its whole-book review remains open for the final continuity sweep. The next in-place revision is Chapter II, followed by the remaining existing chapters in canonical order. Update the chronology map and affected records after each accepted revision. Continue to Book III only after this register is formally closed.
 
 ## Motif held for scene development
 

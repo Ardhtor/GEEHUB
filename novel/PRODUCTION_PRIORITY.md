@@ -8,7 +8,7 @@
 
 ### First — Book II: the Kirk Expedition
 
-Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The latest chapter is **Chapter IX — The Narrow Turn**, a new working draft. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book expansion and final editorial process. Chapters I and II have received first in-place expansion passes on 24 November, to 4,609 and 6,396 narrative words respectively. Both have been read back against their adjacent chapter; whole-book review remains open for the final continuity sweep.
+Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The latest chapter is **Chapter IX — The Narrow Turn**, a new working draft. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book expansion and final editorial process. Chapters I and II have received first in-place expansion passes on 24 November, to 4,609 and 4,162 narrative words respectively. Both have been read back against their adjacent chapter; whole-book review remains open for the final continuity sweep.
 
 Finishing Book II means more than adding the next chapter. Work must return to the existing sequence, develop each chapter in canonical order, reconcile its continuity, continue the story through its natural ending, and then perform the whole-book editorial close-out. The chapter expansion protocol remains in force.
 
@@ -43,7 +43,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | Chapter | Title | Narrative words | Current status |
 | --- | --- | ---: | --- |
 | I | The Lost Country | 4,609 | First expansion pass completed 24 November; full-book continuity and final edit pending |
-| II | The Keepers of the Old Trail | 6,396 | First expansion pass completed 24 November; full-book continuity and final edit pending |
+| II | The Keepers of the Old Trail | 4,162 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | III | The Place That Moved | 1,902 | Existing text; whole-book expansion review pending |
 | IV | The Promises That Keep | 2,452 | Existing text; relationship and whole-book review pending |
 | V | Four Mansions | 2,487 | Existing text; residential and relationship review pending |
@@ -52,7 +52,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter, 24 November; full expansion and edit pending |
 | IX | The Narrow Turn | 4,162 | New working chapter, 24 November; full expansion and edit pending |
 
-**Current total:** approximately 30,105 narrative words across nine chapters. Most chapters remain below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding. Chapter I's first expansion pass is recorded, not treated as final editorial completion.
+**Current total:** approximately 27,871 narrative words across nine chapters. Most chapters remain below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding. Chapter I's first expansion pass is recorded, not treated as final editorial completion.
 
 ## Active Book II threads
 

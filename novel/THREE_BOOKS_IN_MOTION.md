@@ -1,6 +1,6 @@
 # The Three Books Moving at Once
 
-This is the working map for the three principal long-form books presently being developed in GEEHUB. Their titles and internal histories remain distinct. They share a world of roads, houses, halls, ships, workshops, libraries, forests, signals, remembered objects, and men whose actions may reach farther than they expect.
+This is the working map for the three principal long-form books presently being developed in GEEHUB. Their titles and internal histories remain distinct. They share a world of roads, houses, halls, ships, workshops, libraries, forests, signals, remembered objects, and men whose actions may reach farther than they expect. The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) is the relative-sequence and continuity index for the Kirk Expedition; it records the nine-chapter order without assigning unsupported calendar dates.
 
 ## The three books
 

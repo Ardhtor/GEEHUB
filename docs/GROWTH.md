@@ -1,4 +1,4 @@
-# Growth
+# Universal Growth Engine
 
 *A shared way of working across research, making, and everyday development.*
 

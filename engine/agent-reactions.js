@@ -27,7 +27,7 @@
     gabe:{mood:'transformative',attention:'how attention and pressure change the next baseline',temperament:'reflective, self-aware, socially sensitive; attentive to transformation',disposition:['process-aware','identity-conscious','growth-driven','social-signal-sensitive']}
   };
 
-  const names={luke:'Luke',tyler:'Tyler',andrew:'Andrew',joseph:'Joey',chase:'Chase',gabe:'Gabe'};
+  const names={luke:'Luke',tyler:'Tyler',andrew:'Andrew',joseph:'Joseph',chase:'Chase',gabe:'Gabe'};
 
   function detect(event){
     const text=(String(event?.title||'')+' '+String(event?.body||'')).toLowerCase();

@@ -164,7 +164,45 @@ hr{border:0;border-top:1px solid var(--line);margin:14px 0}
   </section>
 
   <section class="panel">
-    <h2>07 / EMBODIMENT LAYER</h2>
+    <h2>07 / SOURCE RELATIONSHIPS</h2>
+    <p>Link this source to another file, but keep proposed matches separate from confirmed relationships.</p>
+    <form id="relationshipForm">
+      <div class="two">
+        <div><label for="targetSourceId">Target source ID</label><input id="targetSourceId" placeholder="source-or-library-id"></div>
+        <div><label for="relationshipKind">Relationship</label><select id="relationshipKind"><option value="visual_similarity_candidate">Visual similarity candidate</option><option value="duplicate_candidate">Duplicate candidate</option><option value="byte_identical">Byte-identical</option><option value="same_sequence_candidate">Same sequence candidate</option><option value="continuity_candidate">Continuity candidate</option><option value="derivative_of">Derivative of</option><option value="contrasts_with">Contrasts with</option><option value="shares_motif">Shares motif</option><option value="same_environment_candidate">Same environment candidate</option><option value="chronological_followup_candidate">Chronological follow-up candidate</option><option value="other">Other</option></select></div>
+      </div>
+      <div class="two">
+        <div><label for="relationshipStatus">Review status</label><select id="relationshipStatus"><option value="proposed">Proposed</option><option value="confirmed">Confirmed</option><option value="rejected">Rejected</option><option value="unresolved">Unresolved</option></select></div>
+        <div><label for="relationshipConfidence">Confidence (0–1)</label><input id="relationshipConfidence" type="number" min="0" max="1" step="0.05" value="0.5"></div>
+      </div>
+      <label for="relationshipEvidence">Supporting observations</label><select id="relationshipEvidence" multiple size="4"></select>
+      <label for="relationshipRationale">Why these sources are linked</label><textarea id="relationshipRationale" placeholder="Describe the shared evidence or contrast. Do not infer identity or chronology from resemblance alone."></textarea>
+      <button class="primary" type="submit">ADD SOURCE RELATIONSHIP</button>
+    </form>
+    <hr>
+    <div id="relationshipList" class="list"><div class="blank">No source relationships recorded yet.</div></div>
+  </section>
+
+  <section class="panel">
+    <h2>08 / PRODUCTION APPLICATIONS</h2>
+    <p>Record how an observed feature might be used, and what a derivative would preserve or change.</p>
+    <form id="applicationForm">
+      <div class="two">
+        <div><label for="applicationPurpose">Purpose</label><select id="applicationPurpose"><option value="character_reference">Character reference</option><option value="environment_reference">Environment reference</option><option value="continuity">Continuity</option><option value="research">Research</option><option value="narrative">Narrative</option><option value="model_or_rig">Model / rig</option><option value="animation">Animation</option><option value="sound_design">Sound design</option><option value="interface">Interface</option><option value="other">Other</option></select></div>
+        <div><label for="applicationStatus">Status</label><select id="applicationStatus"><option value="candidate">Candidate</option><option value="approved">Approved</option><option value="in_progress">In progress</option><option value="completed">Completed</option><option value="rejected">Rejected</option></select></div>
+      </div>
+      <label for="applicationEvidence">Supporting observations</label><select id="applicationEvidence" multiple size="4"></select>
+      <label for="transformationNote">What the application retains or changes</label><textarea id="transformationNote" placeholder="State what will be preserved, transformed, normalized, exaggerated, omitted, or newly invented."></textarea>
+      <label for="applicationOutputs">Output references (comma-separated paths or IDs)</label><input id="applicationOutputs" placeholder="models/..., scenes/..., asset IDs...">
+      <label for="applicationDeviations">Deviations from the source (one per line)</label><textarea id="applicationDeviations" placeholder="Newly invented or intentionally changed features"></textarea>
+      <button class="primary" type="submit">ADD PRODUCTION APPLICATION</button>
+    </form>
+    <hr>
+    <div id="applicationList" class="list"><div class="blank">No production applications recorded yet.</div></div>
+  </section>
+
+  <section class="panel">
+    <h2>09 / EMBODIMENT LAYER</h2>
     <p>Consider posture, gesture, muscular organization, effort, rest, balance, contact, expectation, and somatic memory where the source supports a reading. Observable cues and possible meanings stay separate.</p>
     <label for="embodimentStatus">Status for this pass</label>
     <select id="embodimentStatus"><option value="not_reviewed">Not reviewed yet</option><option value="considered_no_supported_observation">Considered; no supported observation</option><option value="observations_recorded">Observations recorded</option><option value="not_applicable">Not applicable to this source</option></select>
@@ -174,7 +212,7 @@ hr{border:0;border-top:1px solid var(--line);margin:14px 0}
   </section>
 
   <section class="panel">
-    <h2>08 / OPEN QUESTIONS AND NEGATIVE FINDINGS</h2>
+    <h2>10 / OPEN QUESTIONS AND NEGATIVE FINDINGS</h2>
     <div class="two">
       <div><label for="unresolved">Unresolved questions</label><textarea id="unresolved" placeholder="What remains unknown?"></textarea></div>
       <div><label for="contradictions">Contradictions</label><textarea id="contradictions" placeholder="Conflicting observations or records; do not silently resolve them."></textarea></div>
@@ -291,7 +329,9 @@ function renderPreview(f) {
     viewer.append(a);
   } else if(kind==="pdf"){
     const frame=document.createElement("iframe");frame.src=objectUrl;frame.title=f.name;viewer.append(frame);
-  } else if(kind==="text"||kind==="code"||kind==="dataset"||kind==="spreadsheet"){
+  } else if(kind==="spreadsheet"){
+    const note=document.createElement("div");note.className="blank";note.textContent="Spreadsheet binary detected. Open it in a spreadsheet reader to inspect formulas, sheets, and cell ranges; this preview does not parse workbook contents.";viewer.append(note);
+  } else if(kind==="text"||kind==="code"||kind==="dataset"){
     if(f.size>10*1024*1024){const note=document.createElement("div");note.className="blank";note.textContent="Text preview is limited to 10 MB. The source has not been read by this page.";viewer.append(note);}
     else f.text().then(text=>{const pre=document.createElement("pre");pre.textContent=text;viewer.replaceChildren(pre);});
   } else {
@@ -300,8 +340,9 @@ function renderPreview(f) {
   renderMetadata();
 }
 function populateObservationSelect() {
-  const select=$("basedOn");select.replaceChildren();
-  record.observations.forEach(o=>{const opt=document.createElement("option");opt.value=o.observation_id;opt.textContent=o.observation_id+" · "+o.statement.slice(0,85);select.append(opt);});
+  const selects=[$("basedOn"),$("relationshipEvidence"),$("applicationEvidence")];
+  selects.forEach(select=>select.replaceChildren());
+  record.observations.forEach(o=>{selects.forEach(select=>{const opt=document.createElement("option");opt.value=o.observation_id;opt.textContent=o.observation_id+" · "+o.statement.slice(0,85);select.append(opt);});});
 }
 function renderObservations() {
   const list=$("observationList");list.replaceChildren();
@@ -326,6 +367,37 @@ function renderInterpretations() {
     const alt=document.createElement("small");alt.textContent="Alternatives: "+(i.alternatives.join(" / ")||"none recorded");
     item.append(title,supporting,body,alt);list.append(item);
   });
+}
+function renderRelationships() {
+  const list=$("relationshipList");list.replaceChildren();
+  const records=record?.relationships||[];
+  if(!records.length){const n=document.createElement("div");n.className="blank";n.textContent="No source relationships recorded yet.";list.append(n);return;}
+  records.forEach(r=>{const item=document.createElement("div");item.className="obs";const title=document.createElement("strong");title.textContent=r.relationship_id+" / "+r.relationship.toUpperCase();const target=document.createElement("small");target.textContent="Target "+r.target_source_id+" · "+r.status+" · confidence "+Number(r.confidence??0).toFixed(2);const body=document.createElement("p");body.textContent=r.rationale;item.append(title,target,body);list.append(item);});
+}
+function renderApplications() {
+  const list=$("applicationList");list.replaceChildren();
+  const records=record?.applications||[];
+  if(!records.length){const n=document.createElement("div");n.className="blank";n.textContent="No production applications recorded yet.";list.append(n);return;}
+  records.forEach(a=>{const item=document.createElement("div");item.className="obs";const title=document.createElement("strong");title.textContent=a.application_id+" / "+a.purpose.toUpperCase();const state=document.createElement("small");state.textContent=a.status+" · observations "+a.source_observation_ids.join(", ");const body=document.createElement("p");body.textContent=a.transformation_note;item.append(title,state,body);list.append(item);});
+}
+function addRelationship(e) {
+  e.preventDefault();if(!record)return;
+  const target=$("targetSourceId").value.trim(), rationale=$("relationshipRationale").value.trim();
+  const evidence=Array.from($("relationshipEvidence").selectedOptions).map(o=>o.value);
+  const confidence=Number($("relationshipConfidence").value);
+  if(!target||!rationale||!evidence.length||!Number.isFinite(confidence)||confidence<0||confidence>1){setStatus("sourceStatus","Relationship needs a target source ID, rationale, evidence observations, and valid confidence.");return;}
+  record.relationships.push({relationship_id:makeId("rel",record.relationships.length+1),target_source_id:target,relationship:$("relationshipKind").value,status:$("relationshipStatus").value,evidence_observation_ids:evidence,rationale,confidence});
+  $("targetSourceId").value="";$("relationshipRationale").value="";
+  renderRelationships();
+}
+function addApplication(e) {
+  e.preventDefault();if(!record)return;
+  const note=$("transformationNote").value.trim();
+  const evidence=Array.from($("applicationEvidence").selectedOptions).map(o=>o.value);
+  if(!note||!evidence.length){setStatus("sourceStatus","A production application needs a transformation note and supporting observations.");return;}
+  record.applications.push({application_id:makeId("app",record.applications.length+1),purpose:$("applicationPurpose").value,status:$("applicationStatus").value,source_observation_ids:evidence,transformation_note:note,output_refs:$("applicationOutputs").value.split(",").map(s=>s.trim()).filter(Boolean),deviations_from_source:lines($("applicationDeviations").value)});
+  $("transformationNote").value="";$("applicationOutputs").value="";$("applicationDeviations").value="";
+  renderApplications();
 }
 function addObservation(e) {
   e.preventDefault();if(!record){setStatus("sourceStatus","Open a file before adding observations.");return;}
@@ -352,7 +424,6 @@ function addObservation(e) {
     limitations:$("observationLimits").value.trim()?[$("observationLimits").value.trim()]:[]
   };
   record.observations.push(observation);
-  $("reviewedUnits").value=String(Math.max(Number($("reviewedUnits").value)||0,record.observations.length));
   $("observationText").value="";$("observationLimits").value="";
   updateRecordFields();renderObservations();setStatus("sourceStatus","Observation added. Source file remains unchanged.");
 }
@@ -372,6 +443,7 @@ function addInterpretation(e) {
   record.interpretations.push(i);
   if(i.kind==="somatic_reading"){
     record.embodiment_layer.status="observations_recorded";
+    record.embodiment_layer.interpretation_ids ||= [];
     record.embodiment_layer.interpretation_ids.push(i.interpretation_id);
     $("embodimentStatus").value="observations_recorded";
     $("embodimentNote").value="Somatic interpretation "+i.interpretation_id+"; supporting observations: "+ids.join(", ")+". "+$("embodimentNote").value;
@@ -400,6 +472,10 @@ function renderSaved() {
   saved.forEach(r=>{const o=document.createElement("option");o.value=r.analysis_id;o.textContent=r.source.filename+" · "+r.analysis_id;select.append(o);});
 }
 function loadRecord(data) {
+  if(!data.source||!data.processing||!data.coverage||!Array.isArray(data.observations)||!Array.isArray(data.interpretations))throw new Error("The analysis record is missing required source, coverage, observation, or interpretation data.");
+  data.relationships ||= [];data.applications ||= [];data.unresolved ||= [];data.contradictions ||= [];data.negative_findings ||= [];
+  data.embodiment_layer ||= {status:"not_reviewed",observation_ids:[],interpretation_ids:[],note:""};
+  data.embodiment_layer.observation_ids ||= [];data.embodiment_layer.interpretation_ids ||= [];
   record=data;file=null;localMetadata={};
   $("sourceId").value=data.source?.source_id||"";
   $("sourcePath").value=data.source?.origin?.locator||"";
@@ -419,7 +495,7 @@ function loadRecord(data) {
   $("negativeFindings").value=(data.negative_findings||[]).join("\n");
   $("viewer").innerHTML='<div class="blank">Analysis record loaded. Re-open the original source to inspect it; the analysis JSON does not contain the source binary.</div>';
   $("metadata").replaceChildren();addChip(data.source?.filename||"Imported analysis");addChip(data.processing?.status||"unknown status");
-  renderObservations();renderInterpretations();setStatus("sourceStatus","Record loaded. Source binary has not been attached.");
+  renderObservations();renderInterpretations();renderRelationships();renderApplications();setStatus("sourceStatus","Record loaded. Source binary has not been attached.");
 }
 async function openFile(f) {
   file=f;localMetadata={};record=createRecord(f);
@@ -432,17 +508,17 @@ async function openFile(f) {
   $("coverageStrategy").value="";$("limitations").value="";
   $("embodimentStatus").value="not_reviewed";$("embodimentNote").value="";
   $("unresolved").value="";$("contradictions").value="";$("negativeFindings").value="";
-  renderPreview(f);renderObservations();renderInterpretations();
+  renderPreview(f);renderObservations();renderInterpretations();renderRelationships();renderApplications();
   const last=f.lastModified?new Date(f.lastModified).toLocaleString():"unknown";
   setStatus("sourceStatus",f.name+" · "+formatBytes(f.size)+" · modified "+last);
 }
 async function hashSource() {
   if(!file||!record){setStatus("sourceStatus","Open a local file before recording its checksum.");return;}
-  if(!crypto?.subtle){setStatus("sourceStatus","Web Crypto is unavailable in this browser context.");return;}
+  if(!window.crypto || !window.crypto.subtle){setStatus("sourceStatus","Web Crypto is unavailable in this browser context.");return;}
   if(file.size>100*1024*1024){setStatus("sourceStatus","Checksum step is limited to 100 MB in this browser workbench. Use a local command-line hash for larger files.");return;}
   const button=$("hashButton");button.disabled=true;button.textContent="HASHING…";
   try{
-    const bytes=await file.arrayBuffer();const digest=await crypto.subtle.digest("SHA-256",bytes);
+    const bytes=await file.arrayBuffer();const digest=await window.crypto.subtle.digest("SHA-256",bytes);
     const hex=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,"0")).join("");
     record.source.integrity={status:"checksum_recorded",algorithm:"sha256",digest:hex,verified_at:new Date().toISOString()};
     renderMetadata();setStatus("sourceStatus","SHA-256 recorded for the selected local binary. This is not a comparison against another copy.");
@@ -452,6 +528,8 @@ async function hashSource() {
 $("filePicker").addEventListener("change",e=>{const f=e.target.files&&e.target.files[0];if(f)openFile(f);});
 $("observationForm").addEventListener("submit",addObservation);
 $("interpretationForm").addEventListener("submit",addInterpretation);
+$("relationshipForm").addEventListener("submit",addRelationship);
+$("applicationForm").addEventListener("submit",addApplication);
 $("exportJson").addEventListener("click",exportRecord);
 $("saveLocal").addEventListener("click",persist);
 $("hashButton").addEventListener("click",hashSource);

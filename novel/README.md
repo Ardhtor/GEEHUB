@@ -115,7 +115,7 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 ## Current production priority
 
 - [Production Priority — Book II, then Book III](./PRODUCTION_PRIORITY.md) — active user-directed order: finish Book II before beginning Book III.
-- [Book II Completion Register](./BOOK_II_COMPLETION_REGISTER.md) — eight-chapter census, narrative word-count baseline, open threads, and completion gate.
+- [Book II Completion Register](./BOOK_II_COMPLETION_REGISTER.md) — nine-chapter census, narrative word-count baseline, open threads, and completion gate.
 
 ## Book II — Kirk Expedition
 

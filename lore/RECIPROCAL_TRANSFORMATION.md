@@ -2,7 +2,7 @@
 
 ## The governing principle
 
-Tractus changes as it is changed. GEEHUB is not a finished world receiving additions from an outside author; it is a connected creative environment whose inhabitants, records, institutions, interfaces, and production systems can alter one another. Every meaningful encounter may change the state from which the next encounter begins.
+Tractus changes as it is changed. GEEHUB is the external repository and living workspace; it is not the name of the fictional world. The connected story environments within it are not finished settings receiving additions from an outside author. Their inhabitants, records, institutions, and places can alter one another through lived events. Every meaningful encounter may change the state from which the next encounter begins.
 
 This is reciprocal transformation: the user changes GEEHUB through direction, selection, correction, invention, and attention; GEEHUB changes the user's available possibilities by returning developed characters, places, artifacts, questions, and unexpected connections. The exchange is not symmetrical in authority. The user's decisions govern canon and priorities. The system may propose, develop, and reveal consequences, but it must not quietly convert its own inference into the user's intention.
 

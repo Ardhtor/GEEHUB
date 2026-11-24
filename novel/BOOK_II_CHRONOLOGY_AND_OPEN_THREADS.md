@@ -149,17 +149,12 @@ No coordinates, distances, or permanent new landforms are introduced by Chapter 
 ## Revision progress
 
 - **Chapter I — The Lost Country:** first in-place expansion pass completed and read back against Chapter II on 24 November 2026. Narrative body: 4,609 words, excluding the continuity record. Current Git blob: `6046e63dc0f749f0caeab24d9f2e7407fb143a90`. The expansion deepens the ridge approach, field methods, marker displacement, Old Trail evidence, camp routine, and Kirk's first report without changing the discovery sequence or entering the dark opening. Whole-book review remains pending.
-- **Next:** Chapter II — The Keepers of the Old Trail. Develop the arrival at the Measure House, the three keepers, the settlement's daily life, and the exchange of maps while preserving the resident count and the lower route's unentered status.
-
-## Revision progress
-
-- **Chapter I — The Lost Country:** first in-place expansion pass completed and read back against Chapter II on 24 November 2026. Narrative body: 4,609 words, excluding the continuity record. Current Git blob: `6046e63dc0f749f0caeab24d9f2e7407fb143a90`. The expansion deepens the ridge approach, field methods, marker displacement, Old Trail evidence, camp routine, and Kirk's first report without changing the discovery sequence or entering the dark opening. Whole-book review remains pending.
 - **Chapter II — The Keepers of the Old Trail:** first in-place expansion pass completed on 24 November 2026. Narrative body: 6,396 words, excluding the continuity record. Current Git blob: `cd8218c9056dd954df9f95b188d37ad12362775b`. The expansion develops the shelter handover, ambiguous trail fork, niche gallery, Oren/Vale/Senn's arrival, the Measure House's daily life, the register's history, and its practice of preserving incomplete or conflicting accounts. Whole-book review remains pending.
 - **Next:** Chapter III — The Place That Moved. Expand the Long Fold and Warm Table survey, the physical evidence of the altered route, and the careful withdrawal while preserving the unentered opening.
 
 ## Revision order and editorial gates
 
-The nine chapters are at different stages. Chapter I has completed its first in-place expansion pass at 4,609 narrative words, within the publishing guide's standard 4,000–7,000-word range; its whole-book continuity review remains pending. Chapters II–VIII remain below that range and need development where the material supports it. Chapter IX is a new working draft at 4,162 words, also within the range. These figures are editorial guides, not quotas. Expansion must come from scenes that deepen character, place, evidence, action, and consequence, not from padding or repeated explanation.
+The nine chapters are at different stages. Chapter I has completed its first in-place expansion pass at 4,609 narrative words, within the publishing guide's standard 4,000–7,000-word range; its whole-book continuity review remains pending. Chapters III–VIII remain below that range and need development where the material supports it. Chapter IX is a new working draft at 4,162 words, also within the range. These figures are editorial guides, not quotas. Expansion must come from scenes that deepen character, place, evidence, action, and consequence, not from padding or repeated explanation.
 
 The revision proceeds in canonical order:
 

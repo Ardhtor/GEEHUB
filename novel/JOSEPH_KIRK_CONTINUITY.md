@@ -38,3 +38,8 @@ During the first Long Return game, Andrew continues a conversation with Kirk aft
 The provisional Ian/Gabe/Kirk relationship branch introduced on 24 November 2026 adds a possible new set of attractions around Kirk; it does not supersede this record. Joseph and Kirk's eventual partnership remains the established long-range direction and must continue to be earned through their own choices, conflict, distance, loyalty, and repair. Kirk retains agency and may have other meaningful attractions or relationships, but these must be developed without retroactively invalidating his history with Joseph.
 
 Gabe's existing Dorian connection and Andrew's separate attention to Kirk are also preserved. The new triangle is not yet placed on the Book II timeline, and Ian's history is not yet established. Before any numbered chapter changes the shared residential sequence, reconcile all three currents and the men's actual opportunities to meet.
+
+
+## Parallel private relationship — Michael Brock and Kirk
+
+Michael Brock and Kirk share a secret, gentle relationship. Michael is a very heavily muscled adult man; his physical presence may be conspicuous in the public Evermeasure culture, but his relationship with Kirk is private and is not used to compete with Joseph or to claim a superior position. At the current Book II point, do not assume Joseph knows of the relationship or stage a disclosure without a later scene establishing it. Also do not presume the exact exclusivity agreement or recast the private bond as betrayal without explicit development. Joseph and Kirk's established long-range partnership remains an active continuity direction, earned through their own choices, disagreements, distance, and repair. Kirk retains agency in every relationship.

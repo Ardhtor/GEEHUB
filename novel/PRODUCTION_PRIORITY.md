@@ -46,9 +46,9 @@ Narrative word counts below exclude the separate continuity record at the end of
 | VI | The Game Between the Houses | 3,055 | Existing text; geography and relationship review pending |
 | VII | The Contest That Never Ends | 2,552 | Existing text; Evermeasure and relationship review pending |
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter, 24 November; full expansion and edit pending |
-| IX | The Narrow Turn | 3,565 | New working chapter, 24 November; full expansion and edit pending |
+| IX | The Narrow Turn | 4,162 | New working chapter, 24 November; full expansion and edit pending |
 
-**Current total:** approximately 21,755 narrative words across nine chapters. Each current chapter is below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding.
+**Current total:** approximately 22,352 narrative words across nine chapters. Each current chapter is below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding.
 
 ## Active Book II threads
 

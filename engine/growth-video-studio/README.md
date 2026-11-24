@@ -501,6 +501,45 @@ Ten focused tests cover background replacement only beneath the current body,
 visible-background preservation, unresolved pixels, protected-face priority,
 alpha compositing, timestamp mismatch, mask overlap, incomplete plate evidence,
 and input preservation. The isolated Node 22.16.0 harness passed 10/10 tests
-and both syntax checks using a local scene-plate fixture; the repository package
-the first package run executed all 180 Node tests: 179 passed, while one fixture-ordering issue was corrected so the compositor's own mask-overlap guard is reached after a valid plate is built. The focused rerun passes 10/10; a second package run is pending. No personal footage or local
+and both syntax checks. The first repository package run executed 180 Node
+tests with 179 passing; a fixture-ordering issue was corrected so the
+compositor's own mask-overlap guard is reached after a valid plate is built.
+The focused rerun passed 10/10 tests. The corrected package workflow result was
+not yet available when this entry was written. No personal footage or local
 Dropbox/Resolve session was used.
+
+
+## File-backed single-frame compositor
+
+`core/complete-frame-file-compositor.js` exports
+`composeGrowthFrameFiles({ sourcePath, bodyMaskPath, protectedFaceMaskPath,
+bodyLayerPath, batchReceiptPath, sourceFrameIndexPath, scenePlateDirectory,
+outputPath })`. The command-line entry is
+`npm run compose:frame -- <source.png> <body-mask.png> <protected-face-mask.png>
+<body-layer.png> <batch-receipt.json> <source-frame-index.json>
+<scene-plate-directory> <new-output.png>`.
+
+The worker binds the selected source PNG to the exact frame and checksum in the
+source-frame index, then requires a complete batch receipt that records fresh
+FFprobe timeline validation and pixel comparison against a new FFmpeg decode.
+That source-derivation claim is inherited from the batch receipt; this compositor
+does not rerun FFmpeg. It verifies the selected body-layer receipt, the actual
+source/mask/body-layer bytes, and the scene-plate receipt plus all four persisted
+artifacts: RGBA plate, coverage mask, unresolved mask, and seven-byte donor
+ledger. It reconstructs the in-memory scene-plate evidence and calls the
+existing pixel compositor rather than duplicating its pixel rules.
+
+Because the body-layer file receipt records raster coverage but does not persist
+a separate coverage-mask PNG, file intake derives visible coverage from
+non-zero alpha. Transparent body-layer pixels must be transparent black, and
+the visible-alpha count cannot exceed the recorded raster coverage. This is
+conservative: transparent samples do not cover original-body pixels, so those
+pixels remain unresolved unless the plate repairs them.
+
+The output PNG is created exclusively, read back, and hashed; its adjacent
+`.receipt.json` is published last. Existing output or receipt files are refused.
+The receipt binds the batch, source index, source frame, body-layer receipt,
+masks, scene-plate receipt, donor files, and output digest. Partial frames remain
+partial and retain their unresolved count. `readyForExport`,
+`cameraRegistrationIndependentlyVerified`, and `pixelSemanticsVerified` remain
+false. This produces one PNG candidate, not a video or a Resolve render.

@@ -32,7 +32,9 @@ jobs:
           npm test
           node --check tools/prepare-bridge-render-job.js
           node --check tools/extract-source-frames.js
+          node --check tools/compose-growth-frame.js
           npm run prepare:render -- --help
+          npm run compose:frame -- --help
           npm run extract:frames -- --help
 
       - name: Validate Resolve Free bridge consumer

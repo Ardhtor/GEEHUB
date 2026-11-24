@@ -278,4 +278,4 @@ The reusable generation contract is [`engine/presets/luke-growth-priority.json`]
 
 
 
-The Growth Video Studio now includes an in-memory temporal scene-plate prototype. It copies stable, face-excluded background samples only into body-hidden source coordinates under an externally verified fixed-camera registration; uncertain regions remain transparent with donor provenance. The prototype is not yet file-backed or connected to the batch renderer.
+The Growth Video Studio now has a file-backed single-frame compositor. It verifies the extracted source-frame index and complete batch receipt, checks the per-frame body-layer receipt and mask digests, re-reads the persisted scene-plate PNGs and seven-byte donor ledger, and writes a new composited PNG with an adjacent provenance receipt. Unresolved body pixels remain visible and keep the frame partial. Source derivation is inherited from the batch receipt; camera registration and anatomical mask semantics remain unverified, and no PNG is marked ready for video export.

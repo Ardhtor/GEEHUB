@@ -17,3 +17,7 @@ PROMPT → GENERATION → IMAGE FILE → CORPUS RECORD → MONITOR
 ```
 
 Image files are corpus material. Their visual recurrence can be parsed alongside dialogue and other source material.
+
+## Analysis records
+
+See [analysis studies and per-file evidence records](./analyses/README.md). These metadata records refer to originals in the Library; they do not claim that the original binaries have been copied into the repository.

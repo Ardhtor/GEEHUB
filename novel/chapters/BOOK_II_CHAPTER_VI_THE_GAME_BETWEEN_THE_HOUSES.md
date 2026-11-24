@@ -162,16 +162,11 @@ Joseph took it, then smiled faintly. “You don't have to pay me back with a bal
 
 “Then come and have tea.”
 
-Andrew accepted the invitation, but he did not take the invitation as proof that the difficulty had disappeared. They spoke about the game, the houses, and the bench that Joseph wanted on the outer path. They did not settle the question of how much time Kirk would spend with either of them. They did not need to settle it in one evening. Joseph wanted the promises he and Kirk had made to remain real; Andrew wanted more attention than he had been receiving; Kirk would have to answer both desires without surrendering his own judgement or turning his affection into a contest.
+That evening Kirk came to the House of Returns as promised. He and Joseph sat by the hearth. Andrew did not call; he had been given a time to see Kirk the next morning, and he chose to keep it. His longing remained, but it now had a boundary he could practise respecting.
 
-That evening Kirk came to the House of Returns as he had promised. He and Joseph sat by the hearth while the light changed in the garden. Andrew did not call. He had been given a time to see Kirk the next morning, and he decided to keep it. The choice did not make his longing vanish. It gave the longing a boundary that he could practise respecting.
+Across the green, the four houses held their separate lights. The game had acquired its first name: the Long Return. It was about choosing a route, noticing how it changed, and finding a way back without pretending the two sides were identical.
 
-Across the shared green, the four houses held four different kinds of light. Laskin Mansion's theatre screen glowed faintly behind its upper windows. The Record House had a lamp on over the map table. Gabe's training court was dark, but the garden remained lit. The House of Returns showed a warm rectangle at the hearth and a smaller light near the sheltered walk. Between them, the Cedar Span carried the last of the evening's amber light across the central fold.
-
-The game had acquired its first name: the Long Return. It was not a contest to discover who could cross the country fastest, and it was not a demonstration of Kirk's body for an audience. It was a game about choosing a route, noticing how it changed, and finding a way back without pretending the two sides were identical. The residents could play it when Kirk's country was quiet, revise it when the terrain moved, and leave it untouched when someone wanted an afternoon alone.
-
-Kirk had not moved the grounds for them that day. He had not needed to. The country had given them enough to play with, and the residents had learned that the best part of a game was not being able to command the landscape. It was learning how to share it.
-
+Kirk had not moved the grounds for them that day. He had not needed to. The residents had learned how to share the country as it was.
 ---
 
 ## Continuity record

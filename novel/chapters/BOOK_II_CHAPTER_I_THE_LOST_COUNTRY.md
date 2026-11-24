@@ -180,7 +180,7 @@ By morning, the cedar post at the entrance had moved several inches. The chamber
 
 They entered the day's measurements twice: once to describe the chamber as they had found it, and again to describe it as it was now. The first page was not discarded. The second did not replace it.
 
-The expedition had not found its way out. It had found the beginning of a longer route.
+
 ---
 
 ## Continuity record

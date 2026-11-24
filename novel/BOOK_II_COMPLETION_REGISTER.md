@@ -36,6 +36,10 @@ Narrative word counts exclude the separate continuity record at the end of each 
 
 Chapter IX is now present as a working draft. No concluding chapter is registered; do not invent the final chapter count in advance.
 
+## Chronology and revision map
+
+- [Book II — Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) records the event order across Chapters I–IX, current relationship and geographic states, open questions, and the canonical revision sequence.
+
 ## Whole-book threads to carry
 
 1. The lower opening beyond the Warm Table remains unresolved and unentered. Any approach requires a fresh survey and Kirk's knowledge.

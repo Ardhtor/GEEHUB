@@ -52,7 +52,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | IV | The Promises That Keep | 3,725 | Ending compression pass; relationship continuity and line edit pending |
 | V | Four Mansions | 4,763 | Ending compression pass; residential continuity and line edit pending |
 | VI | The Game Between the Houses | 3,947 | Ending compression pass; geography and relationship review pending |
-| VII | The Contest That Never Ends | 2,274 | Ending compression pass; Evermeasure and relationship review pending |
+| VII | The Contest That Never Ends | 3,945 | Ending compression pass; Evermeasure and relationship review pending |
 | VIII | A Day in the Open Pavilion | 2,287 | Ending compression pass; expansion and full edit pending |
 | IX | The Narrow Turn | 3,877 | Ending compression pass; expansion and full edit pending |
 

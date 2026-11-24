@@ -60,7 +60,7 @@ Private life has its own pace. Couples continue to cook, sleep, argue, reconcile
 
 ## Narrative operations
 
-Use this doctrine to deepen existing GEEHUB characters and places rather than inventing a universal caste. Show the men preparing for a night out after training; the quiet satisfaction of a shirt that now fits a larger chest; a glance exchanged across the dining room; a direct invitation; a playful contest that reveals different kinds of confidence; a man who discovers that the person he most admires prefers a different rhythm; a dominant man who earns trust by listening; or an admired figure who learns to accept being desired without requiring constant confirmation.
+Use this doctrine to deepen existing characters and places rather than inventing a universal caste. Show the men preparing for a night out after training; the quiet satisfaction of a shirt that now fits a larger chest; a glance exchanged across the dining room; a direct invitation; a playful contest that reveals different kinds of confidence; a man who discovers that the person he most admires prefers a different rhythm; a dominant man who earns trust by listening; or an admired figure who learns to accept being desired without requiring constant confirmation.
 
 Let physical growth alter how attention is experienced. A man who becomes much larger may attract new admiration but also discover that his scale changes how he approaches others. Another man may become more confident without changing his measurements at all. A relationship may intensify, stall, or end even while both men remain desirable. The narrative must preserve these differences. Do not make every scene a contest, every friendship erotic, or every compliment a promise.
 

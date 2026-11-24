@@ -16,8 +16,8 @@ The governing cartographic principle is taken from the Measure House: map the pl
 | `first-shelter` | First Shelter | First expedition camp below the ridge | Historical camp; retained on maps |
 | `old-trail` | Old Trail | Descends from the first shelter route toward the Measure House | Established; markers maintained |
 | `measure-house` | Measure House | Long-lived settlement and map archive on the Old Trail | Inhabited |
-| `long-fold` | Long Fold | Lower route below the Measure House; reorganized into a raised band and upper gallery | Changed; successive states preserved |
-| `warm-table` | Warm Table | Former resting platform beyond the Long Fold | Tilted; no longer treated as a stable camp |
+| `long-fold` | Long Fold | Lower route below the Measure House; reorganized into a raised band and upper gallery; old marker and lamp recess remain as historical traces | Changed; successive states preserved; upper gallery unverified |
+| `warm-table` | Warm Table | Former resting platform beyond the Long Fold; old cord ring remains at the platform | Tilted; no longer treated as a stable camp; opening behind it unentered |
 | `lower-opening` | Opening beyond the Warm Table | Narrow unentered passage behind the tilted platform | Unresolved; do not enter without a fresh survey and Kirk's knowledge |
 
 The Measure House is both a settlement and a cartographic institution. Oren, Vale, and Senn maintain its records; its residents continue domestic, workshop, kitchen, route, and archival routines when the expedition is elsewhere. Its current register preserves dated sheets rather than overwriting earlier geography.

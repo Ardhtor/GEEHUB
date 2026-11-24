@@ -21,7 +21,7 @@ The documentation folder contains the repository's technical contracts, editoria
 
 ## Files
 
-### MD (72)
+### MD (73)
 
 - [`ACCESSIBLE_CONSTELLATION.md`](./ACCESSIBLE_CONSTELLATION.md)
 - [`ACCESSIBLE_REPOSITORIES_2026-09.md`](./ACCESSIBLE_REPOSITORIES_2026-09.md)

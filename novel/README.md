@@ -114,7 +114,7 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 
 ## Book II — Kirk Expedition
 
-The second book follows the living geography of Kirk's extraordinary anatomy, the older settlement at the Measure House, and the relationships that develop as the country changes. Its local atlas is deliberately separate from the Veyrthalis and Colossus world maps.
+The second book follows the living geography of Kirk's extraordinary anatomy, the older settlement at the Measure House, and the relationships that develop as the country changes. Its central social engine is the men's enduring competitiveness: they enjoy showing off, one-upping one another, and carrying every achievement into the next challenge. The Evermeasure makes this recursive culture permanent without turning affection or Kirk's bodily autonomy into a score. Its local atlas is deliberately separate from the Veyrthalis and Colossus world maps.
 
 - [Book II — Local Spatial Atlas](./chapters/BOOK_II_SPATIAL_ATLAS.md)
 - [Chapter I — The Lost Country](./chapters/BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md)
@@ -123,6 +123,8 @@ The second book follows the living geography of Kirk's extraordinary anatomy, th
 - [Chapter IV — The Promises That Keep](./chapters/BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md)
 - [Chapter V — Four Mansions](./chapters/BOOK_II_CHAPTER_V_FOUR_MANSIONS.md)
 - [Chapter VI — The Game Between the Houses](./chapters/BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md)
+- [Chapter VII — The Contest That Never Ends](./chapters/BOOK_II_CHAPTER_VII_THE_CONTEST_THAT_NEVER_ENDS.md)
+- [The Evermeasure — Competitive Doctrine](./chapters/BOOK_II_COMPETITIVE_DOCTRINE.md)
 
 ## Cross-book continuity and chapter propagation
 

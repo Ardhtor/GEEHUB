@@ -274,7 +274,7 @@ Before the next expedition set out, Andrew took the ball and walked to the mouth
 
 “I won't. I'll bring you the map.”
 
-The lower route waited below. The old trail was familiar, but the opening beyond the Warm Table remained unentered. Andrew turned toward the shelter. He and Kirk had not returned to an earlier version of themselves; they had found that their chemistry could hold a boundary as well as affection. The next journey would test what they had promised one another.
+
 ---
 
 ## Continuity record

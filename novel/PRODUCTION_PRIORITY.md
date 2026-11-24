@@ -8,7 +8,7 @@
 
 ### First — Book II: the Kirk Expedition
 
-Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The latest chapter is **Chapter IX — The Narrow Turn**, a new working draft. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book expansion and final editorial process. Chapters I–III have received first in-place expansion passes on 24 November, to 4,609, 4,162, and 4,644 narrative words respectively, and have been read back against their adjacent chapters. Chapter IV has now received its first in-place expansion pass at 3,794 words. Whole-book review remains open for the final continuity sweep.
+Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The latest chapter is **Chapter IX — The Narrow Turn**, a new working draft. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book expansion and final editorial process. Chapters I–III have received first in-place expansion passes on 24 November, to 4,609, 4,162, and 4,644 narrative words respectively, and have been read back against their adjacent chapters. Chapters IV and V have also received first in-place expansion passes, to 3,794 and 4,877 words respectively. Whole-book review remains open for the final continuity sweep.
 
 Finishing Book II means more than adding the next chapter. Work must return to the existing sequence, develop each chapter in canonical order, reconcile its continuity, continue the story through its natural ending, and then perform the whole-book editorial close-out. The chapter expansion protocol remains in force.
 
@@ -20,7 +20,7 @@ The present repository and Dropbox search did not locate a canonical manuscript 
 
 ## Dropbox production state
 
-Verified Paper mirrors now exist for Book II Chapters I, II, III, IV, VIII, and IX. Chapters I–IV were synchronized after their first expansion passes; Chapters VIII and IX were reconciled to their current sources. The completion register contains the direct Dropbox links, Paper revisions, and GitHub source fingerprints. Chapters V–VII remain to be mirrored after their revision passes. GitHub is the canonical source; Dropbox Paper is the production and reading surface.
+Verified Paper mirrors now exist for Book II Chapters I, II, III, IV, V, VIII, and IX. Chapters I–V were synchronized after their first expansion passes; Chapters VIII and IX were reconciled to their current sources. The completion register contains the direct Dropbox links, Paper revisions, and GitHub source fingerprints. Chapters VI–VII remain to be mirrored after their revision passes. GitHub is the canonical source; Dropbox Paper is the production and reading surface.
 
 ## Current continuity map
 
@@ -56,7 +56,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter, 24 November; full expansion and edit pending |
 | IX | The Narrow Turn | 4,162 | New working chapter, 24 November; full expansion and edit pending |
 
-**Current total:** approximately 34,345 narrative words across nine chapters. Most chapters remain below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding. The first expansion passes for Chapters I–IV are recorded, not treated as final editorial completion.
+**Current total:** approximately 34,345 narrative words across nine chapters. Most chapters remain below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding. The first expansion passes for Chapters I–V are recorded, not treated as final editorial completion.
 
 ## Active Book II threads
 
@@ -72,7 +72,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 ## Execution order
 
 1. Maintain the [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) as the working continuity index; update it after every accepted chapter revision.
-2. Chapters I–IV have received first expansion passes; Chapters I–III have been read back against their adjacent chapters. Continue the in-place revision at Chapter V and proceed through Chapters VI–IX in canonical order. Reserve all four chapters' whole-book reviews for the final continuity sweep.
+2. Chapters I–V have received first expansion passes; Chapters I–III have been read back against their adjacent chapters. Continue the in-place revision at Chapter VI and proceed through Chapters VII–IX in canonical order. Reserve all five chapters' whole-book reviews for the final continuity sweep.
 3. After the existing sequence has been revised, continue with the next necessary chapter and carry all new consequences into the book's records.
 4. Continue the sequence until its dramatic and relational movements reach an earned ending.
 5. Perform the whole-book continuity sweep, copyedit, contents/index reconciliation, and final proof.

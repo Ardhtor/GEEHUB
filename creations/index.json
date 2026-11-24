@@ -26,6 +26,13 @@
       "state": "existing"
     },
     {
+      "id": "book-two-story-environments",
+      "kind": "environment",
+      "title": "BOOK II STORY ENVIRONMENTS",
+      "path": "engine/book-two-story-environment.js",
+      "state": "existing"
+    },
+    {
       "id": "beefythiq-biographies",
       "kind": "characters",
       "title": "BEEFYTHIQ BIOGRAPHIES",

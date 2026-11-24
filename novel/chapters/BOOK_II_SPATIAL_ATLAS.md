@@ -55,6 +55,19 @@ The residents have established the **Long Return**, a cooperative route game acr
 
 Chase keeps the map's three evidence layers separate: direct measurements, Kirk's reported sensations, and Andrew's hypotheses. Gabe maintains warm-up and recovery points. Robert develops the viewing arch and a miniature-theatre projection of the route. Joseph participates without being required to remain in the group. The course is revised after a significant bodily movement and is left unused whenever the residents prefer privacy or rest.
 
+## Competitive culture — the Evermeasure
+
+The residents' instinct to compete and show off is a permanent feature of Book II, not a temporary period of rivalry. A demonstration invites a response; the response establishes a new standard; the new standard becomes the next man's starting point. The cycle passes between physique, sport, technical skill, architecture, timing, precision, hospitality, humour, and personal style. No single ranking captures the whole culture, and no final champion ends it.
+
+The first formal expression is the **Evermeasure**, the continuing exhibition and challenge practice established in Chapter VII. The **Evermeasure Board** is fixed to the common pavilion wall. It preserves dated achievements, methods, previous records, and next challenges. It does not reduce the men to a permanent hierarchy or erase a result when it is surpassed. The Long Return remains cooperative in its original form; later competitive variations must retain voluntary participation, alternate routes, and recovery points.
+
+| ID | Feature | Location | Function | Status |
+|---|---|---|---|---|
+| `evermeasure-board` | Evermeasure Board | Common pavilion | Permanent archive of demonstrations, records, methods, and next challenges | Established |
+| `evermeasure` | The Evermeasure | Shared green and pavilion | Recurring exhibition and one-upmanship culture | Established |
+
+The phrase **forever** refers to the continuing and inheritable nature of the practice: each result becomes material for another attempt. It does not require every gathering to be competitive. Private rooms, quiet days, meals, care, and relationships remain necessary parts of the residents' lives.
+
 ## Residents and ongoing life
 
 - **Robert Laskin** has the earlier Laskin Residency proposal. The mansion develops it into a durable home rather than treating his presence as a temporary expedition arrangement.
@@ -62,6 +75,7 @@ Chase keeps the map's three evidence layers separate: direct measurements, Kirk'
 - **Gabe** maintains a Growth Canvas practice. His house preserves earlier baselines without ranking them and gives him a lively shared court as well as private rooms where no one needs to react to his latest change.
 - **Joseph** has a home of his own in Kirk's bodily geography. His residence is not a claim of ownership, a prize, or an automatic entitlement to Kirk's private rooms. It is a place from which he can choose closeness, quiet, and return.
 - **Andrew Sim** is a frequent visitor whose wish for Kirk's attention becomes increasingly urgent. He has a guest room at the residential approach when invited, but no fifth mansion has been established. His need for attention is a relationship pressure, not authority over the other residents.
+- **Michael Brock** is a very heavily muscled adult visitor who participates in the Evermeasure culture. He shares a secret, gentle relationship with Kirk. Michael has not been assigned one of the four mansions, and the privacy of his relationship must not be exposed or treated as a public contest.
 
 The houses remain inhabited off-page. Each man has work, meals, guests, preferences, maintenance, and stretches of time that do not revolve around Kirk or the current expedition.
 
@@ -69,7 +83,9 @@ The houses remain inhabited off-page. Each man has work, meals, guests, preferen
 
 Joseph and Kirk's relationship continuity remains governed by [Joseph + Kirk — Relationship Continuity](../JOSEPH_KIRK_CONTINUITY.md): their bond is accumulated through choices, returns, disagreements, and repair; neither person is reduced to the other's reward or instrument. Andrew's growing need for Kirk's attention begins to crowd Joseph out of shared time. Chapter VI makes the pattern visible during the Long Return: Andrew keeps a conversation going after Joseph has contributed, and Joseph leaves the group rather than compete for the receiver. Andrew notices the consequence and apologizes, but the need itself remains. He begins to ask for a defined time with Kirk instead of occupying every interval. Joseph may step back, name the hurt, or request time directly. Kirk decides how to respond and is not treated as a prize to be won.
 
-The four mansions do not create an affection ranking. Their residents may disagree about time, visits, and shared space while retaining their own agency.
+The four mansions do not create an affection ranking. Their residents may disagree about time, visits, and shared space while retaining their own agency. The wider Evermeasure culture does not extend into the scoring of intimacy: Kirk's attention is not a prize, and a private relationship is not a public achievement.
+
+Michael Brock and Kirk share a secret, gentle relationship. At this stage it is private to them; do not assign knowledge of it to Joseph, Andrew, Robert, Chase, Gabe, or the other residents without a scene establishing that knowledge. The reason for the secrecy, its duration, their exact agreements, and Michael's residence remain open. His very large muscles are part of his visible presence, but they do not confer entitlement to Kirk or status over another man.
 
 ## Boundary with other GEEHUB atlases
 
@@ -95,7 +111,8 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 
 - The Upper Ridge, First Shelter, Old Trail, Measure House, Long Fold, Warm Table, and the still-unentered lower opening.
 - The paired residential country, its four named mansions, shared green, covered walks, common kitchen, recreation hall, and independent private grounds.
-- The Twin Grounds, Cedar Span, eastern hollow, viewing arch, and first playable Long Return route.
+- The Twin Grounds, Cedar Span, eastern hollow, viewing arch, first playable Long Return route, and the Evermeasure Board in the common pavilion.
+- The Evermeasure as a recurring exhibition and challenge cycle with no final champion.
 - The Measure House's dated map archive and the residents' continued domestic, workshop, kitchen, route, and archival routines.
 - Andrew's increasing need for Kirk's attention and the resulting pressure on Joseph's access to shared time, as developed in [Chapter IV — The Promises That Keep](./BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md) and [Chapter V — Four Mansions](./BOOK_II_CHAPTER_V_FOUR_MANSIONS.md).
 
@@ -105,6 +122,8 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 - Relative positions and measured separations of the four estates.
 - Reliable movement signals and which paths remain stable across successive changes.
 - How Andrew, Joseph, and Kirk negotiate time and attention as the residents settle into their homes.
+- How the Evermeasure develops new categories, records, and recurring challenges.
+- The scope and future disclosure conditions of Michael Brock and Kirk's private relationship; do not presume other characters know.
 - Exact alignment, walking distance, and stable reference points for the Cedar Span and Long Return.
 - Whether the eastern hollow changes after Kirk's next reported movement and what route remains safe afterward.
 
@@ -125,3 +144,5 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 - [Chapter IV — The Promises That Keep](./BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md)
 - [Chapter V — Four Mansions](./BOOK_II_CHAPTER_V_FOUR_MANSIONS.md)
 - [Chapter VI — The Game Between the Houses](./BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md)
+- [Chapter VII — The Contest That Never Ends](./BOOK_II_CHAPTER_VII_THE_CONTEST_THAT_NEVER_ENDS.md)
+- [The Evermeasure — Competitive Doctrine](./BOOK_II_COMPETITIVE_DOCTRINE.md)

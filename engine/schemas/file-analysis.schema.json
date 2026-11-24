@@ -116,6 +116,7 @@
               "enum": [
                 "not_checked",
                 "metadata_only",
+                "checksum_recorded",
                 "checksum_verified",
                 "binary_verified",
                 "unavailable"

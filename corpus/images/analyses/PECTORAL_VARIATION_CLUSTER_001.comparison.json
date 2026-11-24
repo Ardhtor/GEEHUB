@@ -1,0 +1,196 @@
+{
+  "schema": "geehub.image-comparison/1",
+  "comparison_id": "PECTORAL_VARIATION_CLUSTER_001",
+  "created_at": "2026-11-24T15:14:17.981Z",
+  "method": {
+    "dimensions": "All originals are 1031x1526 pixels.",
+    "normalization": "Direct resize to 256x384 with no geometric, pose, crop, or exposure registration.",
+    "metrics": [
+      "SHA-256 exact-byte digest",
+      "SSIM structural similarity on RGB 256x384",
+      "dHash Hamming distance on 9x8 grayscale thumbnail",
+      "aHash Hamming distance on 8x8 grayscale thumbnail",
+      "grayscale MAE on 128x192",
+      "grayscale correlation on 128x192"
+    ],
+    "caution": "These metrics are pairwise screening signals. They do not establish common identity, source, authorship, chronology, or intent. dHash/aHash may collide."
+  },
+  "sources": [
+    {
+      "atlas_id": "GLA-021",
+      "file_name": "Intense Hyper-Muscular Bodybuilder Portrait.png",
+      "library_file_id": "file_00000000ea0081f5912c3b708e07f1d8",
+      "width": 1031,
+      "height": 1526,
+      "bytes": 2455393,
+      "sha256": "22c7790022074539e8fd94bf0d677587ad62383e33c84cc549a2a76b0c1cbdf2"
+    },
+    {
+      "atlas_id": "GLA-022",
+      "file_name": "Massive Hyperreal Bodybuilding Portrait.png",
+      "library_file_id": "file_00000000fbb081f59d675c8d9d6c6433",
+      "width": 1031,
+      "height": 1526,
+      "bytes": 2518992,
+      "sha256": "bfaec21f93c1321c08d2e475ce80f2607c56c2f30f66615e283b9b635970d59d"
+    },
+    {
+      "atlas_id": "GLA-023",
+      "file_name": "Massive Shirtless Bodybuilder Portrait.png",
+      "library_file_id": "file_00000000e59881f58e00b0edfb6761d9",
+      "width": 1031,
+      "height": 1526,
+      "bytes": 2501578,
+      "sha256": "4c381d9b2925124375278cce0a42278e47cb0c9295fd9a06e8ad31253e603ecb"
+    },
+    {
+      "atlas_id": "GLA-024",
+      "file_name": "Hyper-Muscled Bodybuilding Portrait.png",
+      "library_file_id": "file_0000000094e881f58751177fdc6af3d1",
+      "width": 1031,
+      "height": 1526,
+      "bytes": 2566433,
+      "sha256": "6148e92f3e106f4dc570d420204bdbf3a9afd5fdb32d6fa9ec5f85fbb211c536"
+    },
+    {
+      "atlas_id": "GLA-025",
+      "file_name": "Hyper-Muscular Bodybuilder Portrait(1).png",
+      "library_file_id": "file_000000001adc81f593c2b93609344207",
+      "width": 1031,
+      "height": 1526,
+      "bytes": 3343290,
+      "sha256": "70c265c0339d9f5837e73c7a2ac66c7aa4dfbda590fdc6edfa639284d4a883f6"
+    }
+  ],
+  "pairs": [
+    {
+      "source_a": "Intense Hyper-Muscular Bodybuilder Portrait.png",
+      "source_b": "Massive Hyperreal Bodybuilding Portrait.png",
+      "ssim_256x384": 0.792856,
+      "dhash_hamming_distance_64": 2,
+      "ahash_hamming_distance_64": 1,
+      "grayscale_mae_128x192": 8.518,
+      "grayscale_correlation_128x192": 0.948773,
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed"
+    },
+    {
+      "source_a": "Intense Hyper-Muscular Bodybuilder Portrait.png",
+      "source_b": "Massive Shirtless Bodybuilder Portrait.png",
+      "ssim_256x384": 0.643356,
+      "dhash_hamming_distance_64": 6,
+      "ahash_hamming_distance_64": 1,
+      "grayscale_mae_128x192": 13.709,
+      "grayscale_correlation_128x192": 0.887287,
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed"
+    },
+    {
+      "source_a": "Intense Hyper-Muscular Bodybuilder Portrait.png",
+      "source_b": "Hyper-Muscled Bodybuilding Portrait.png",
+      "ssim_256x384": 0.577091,
+      "dhash_hamming_distance_64": 6,
+      "ahash_hamming_distance_64": 3,
+      "grayscale_mae_128x192": 16.107,
+      "grayscale_correlation_128x192": 0.856852,
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed"
+    },
+    {
+      "source_a": "Intense Hyper-Muscular Bodybuilder Portrait.png",
+      "source_b": "Hyper-Muscular Bodybuilder Portrait(1).png",
+      "ssim_256x384": 0.55144,
+      "dhash_hamming_distance_64": 9,
+      "ahash_hamming_distance_64": 4,
+      "grayscale_mae_128x192": 18.701,
+      "grayscale_correlation_128x192": 0.844656,
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed"
+    },
+    {
+      "source_a": "Massive Hyperreal Bodybuilding Portrait.png",
+      "source_b": "Massive Shirtless Bodybuilder Portrait.png",
+      "ssim_256x384": 0.688376,
+      "dhash_hamming_distance_64": 4,
+      "ahash_hamming_distance_64": 0,
+      "grayscale_mae_128x192": 11.92,
+      "grayscale_correlation_128x192": 0.908528,
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed"
+    },
+    {
+      "source_a": "Massive Hyperreal Bodybuilding Portrait.png",
+      "source_b": "Hyper-Muscled Bodybuilding Portrait.png",
+      "ssim_256x384": 0.601247,
+      "dhash_hamming_distance_64": 4,
+      "ahash_hamming_distance_64": 2,
+      "grayscale_mae_128x192": 14.805,
+      "grayscale_correlation_128x192": 0.874774,
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed"
+    },
+    {
+      "source_a": "Massive Hyperreal Bodybuilding Portrait.png",
+      "source_b": "Hyper-Muscular Bodybuilder Portrait(1).png",
+      "ssim_256x384": 0.572431,
+      "dhash_hamming_distance_64": 7,
+      "ahash_hamming_distance_64": 3,
+      "grayscale_mae_128x192": 16.993,
+      "grayscale_correlation_128x192": 0.866151,
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed"
+    },
+    {
+      "source_a": "Massive Shirtless Bodybuilder Portrait.png",
+      "source_b": "Hyper-Muscled Bodybuilding Portrait.png",
+      "ssim_256x384": 0.831648,
+      "dhash_hamming_distance_64": 0,
+      "ahash_hamming_distance_64": 2,
+      "grayscale_mae_128x192": 7.224,
+      "grayscale_correlation_128x192": 0.965483,
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed"
+    },
+    {
+      "source_a": "Massive Shirtless Bodybuilder Portrait.png",
+      "source_b": "Hyper-Muscular Bodybuilder Portrait(1).png",
+      "ssim_256x384": 0.789363,
+      "dhash_hamming_distance_64": 3,
+      "ahash_hamming_distance_64": 3,
+      "grayscale_mae_128x192": 9.617,
+      "grayscale_correlation_128x192": 0.956393,
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed"
+    },
+    {
+      "source_a": "Hyper-Muscled Bodybuilding Portrait.png",
+      "source_b": "Hyper-Muscular Bodybuilder Portrait(1).png",
+      "ssim_256x384": 0.929552,
+      "dhash_hamming_distance_64": 3,
+      "ahash_hamming_distance_64": 1,
+      "grayscale_mae_128x192": 5.661,
+      "grayscale_correlation_128x192": 0.986627,
+      "relationship": "visual_similarity_candidate",
+      "status": "proposed"
+    }
+  ],
+  "findings": {
+    "exact_byte_duplicates": 0,
+    "closest_pair": [
+      "Hyper-Muscled Bodybuilding Portrait.png",
+      "Hyper-Muscular Bodybuilder Portrait(1).png"
+    ],
+    "closest_pair_ssim": 0.929552,
+    "secondary_pair": [
+      "Massive Shirtless Bodybuilder Portrait.png",
+      "Hyper-Muscled Bodybuilding Portrait.png"
+    ],
+    "secondary_pair_ssim": 0.831648,
+    "third_pair": [
+      "Intense Hyper-Muscular Bodybuilder Portrait.png",
+      "Massive Hyperreal Bodybuilding Portrait.png"
+    ],
+    "third_pair_ssim": 0.792856,
+    "interpretation": "The set shares one compositional style but contains at least two tighter pairings rather than one uniform set of near-duplicates."
+  }
+}

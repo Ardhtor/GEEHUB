@@ -79,7 +79,7 @@ Andrew again allows his desire for Kirk's attention to dominate a shared exchang
 
 **Source:** [Chapter VII — The Contest That Never Ends](chapters/BOOK_II_CHAPTER_VII_THE_CONTEST_THAT_NEVER_ENDS.md)
 
-The residents turn their tendency to show off and answer one another into the Evermeasure, a continuing exhibition and challenge practice. Andrew invents games; Chase insists on defensible records; Gabe demonstrates technique and physical development; Robert designs presentation and facilities; Joseph contributes through quiet craft; Michael Brock arrives as a very large, heavily muscled adult visitor and participates in the public exhibition.
+The residents turn their tendency to show off and answer one another into the Evermeasure, a continuing exhibition and challenge practice. Andrew invents games; Chase insists on defensible records; Gabe demonstrates technique and physical development; Robert designs presentation and facilities; Joseph contributes through quiet craft; Michael Brock arrives as a very large, heavily muscled adult visitor and participates in the public exhibition. The first exhibition begins to overrun its own purpose when tally marks start to resemble a ranking and Michael's demonstration creates pressure for another performance. The group corrects the board: attempts and methods are recorded separately, different achievements remain in distinct categories, and recovery is treated as part of the work. Its governing note becomes **The game may continue; the man may stop.** The contest remains active, but participation and attention cannot be demanded.
 
 The Evermeasure Board preserves dated achievements, methods, previous marks, and next challenges. It is not a permanent ranking of men's worth. Michael and Kirk share a secret, gentle relationship that remains unknown to the other residents. Their private exchange is kept outside the public record. Kirk may enjoy the residents' inventiveness but is not required to perform bodily movements on demand or serve as a prize in their rivalry.
 
@@ -163,6 +163,9 @@ A first ending-compression pass was completed across Chapters I–IX on 24 Novem
 | IX — The Narrow Turn | 3,877 | `1c4ef8c06bda7a9475d6318f5d7009bbecbc1a03` | Ending compressed; scene clarity and repeatability continuity review pending |
 
 **Current narrative census:** 33,901 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
+
+- **Chapter VII — The Contest That Never Ends:** first in-place expansion pass completed on 24 November 2026. Narrative body: 4,028 words, excluding the continuity record. Current Git blob: `d20e1e9d4954ff94d148919193587121d2e35bed`. The expansion develops the Evermeasure's first excess and its self-correction: informal tally marks begin to rank people, a demonstration risks becoming an expectation, and the residents create distinct achievement categories with recovery and refusal protected. Its governing note is **The game may continue; the man may stop.** Whole-book review remains pending.
+- **Next:** Chapter VIII — A Day in the Open Pavilion. Expand Michael's day through ordinary company, physical work, craft, recovery, and private tenderness while keeping his relationship with Kirk secret.
 
 ## Revision order and editorial gates
 

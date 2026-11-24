@@ -1,4 +1,4 @@
-# GEEHUB — BOOK I FINAL MOVEMENT
+# Book I — Final Movement
 
 ## Chapter LXXIII: The Door Left Open
 
@@ -226,7 +226,7 @@
 
      They entered the city.
 
-     People moved around them without surprise. Some carried books. Others carried pieces of machinery. A man pushed a cart containing photographs. A woman sat beside a fountain repairing a small wooden door. Children ran through an arcade whose walls displayed scenes from stories none of them had yet heard.
+     People moved around them without surprise. Some carried books. Others carried pieces of machinery. A man pushed a cart containing photographs. A woman sat beside a fountain repairing a small wooden door. Adult residents crossed an arcade whose walls displayed scenes from stories none of them had yet heard.
 
      The city did not ask who they were.
 

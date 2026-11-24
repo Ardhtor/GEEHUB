@@ -16,7 +16,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | IV | The Promises That Keep | 3,725 | First expansion and ending-compression passes; relationship continuity and final edit pending |
 | V | Four Mansions | 4,763 | First expansion and ending-compression passes; residential and relationship review pending |
 | VI | The Game Between the Houses | 3,947 | First expansion and ending-compression passes; geography and relationship review pending |
-| VII | The Contest That Never Ends | 2,274 | Ending-compression pass; Evermeasure and relationship review pending |
+| VII | The Contest That Never Ends | 3,945 | Ending-compression pass; Evermeasure and relationship review pending |
 | VIII | A Day in the Open Pavilion | 2,287 | Working chapter; ending-compression pass; expansion and full edit pending |
 | IX | The Narrow Turn | 3,877 | Working chapter; ending-compression pass; expansion and full edit pending |
 
@@ -52,7 +52,7 @@ All nine chapter mirrors were read back after synchronization. Their Markdown bo
 | IV — The Promises That Keep | [Open in Dropbox](https://www.dropbox.com/scl/fi/64o1zoq6rm7gw06iascz0/Book-II-Chapter-IV_-The-Promises-That-Keep.paper?dl=0) | 2 | `bd85a9bca132296bd7e428b72a58905ae4c4e164` |
 | V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?rlkey=wtw4jngbq18h1eov3ov1vvhhg&dl=0) | 2 | `1bd08c1b52d38df531ff7d40933e8a2af99bad05` |
 | VI — The Game Between the Houses | [Open in Dropbox](https://www.dropbox.com/scl/fi/eakqhvj3umson5vqvbiz2/Book-II-Chapter-VI_-The-Game-Between-the-Houses-1.paper?rlkey=ys3jabjo22qumf94pc8hkldc5&dl=0) | 2 | `e7b3a3303c9009d36d58343777944d5131b3ca22` |
-| VII — The Contest That Never Ends | [Open in Dropbox](https://www.dropbox.com/scl/fi/hcjkee5qazq4fghe1b5nj/Book-II-Chapter-VII_-The-Contest-That-Never-Ends.paper?rlkey=ndsz2zhqjx8jidfd157ksvfut&dl=0) | 1 | `a8684a2664f533cbfb186d5a6326bcf8896b16aa` |
+| VII — The Contest That Never Ends | [Open in Dropbox](https://www.dropbox.com/scl/fi/hcjkee5qazq4fghe1b5nj/Book-II-Chapter-VII_-The-Contest-That-Never-Ends.paper?rlkey=ndsz2zhqjx8jidfd157ksvfut&dl=0) | 3 | `75c8bca41e19253a7f4fe01545ceec9799b7984b` |
 | VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 3 | `d36fa5711621a5e062e8c7820d950bade48348fb` |
 | IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 2 | `1c4ef8c06bda7a9475d6318f5d7009bbecbc1a03` |
 

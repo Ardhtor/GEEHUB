@@ -46,6 +46,8 @@ The men may announce a winner, award a cup, or celebrate a record, but no one ca
 The word **forever** means that competition remains an inheritable practice of the world, not that every scene must be a contest or that the characters are incapable of rest. Quiet days, private rooms, meals, friendship, repair, and tenderness continue. They give the men somewhere to return from the arena.
 
 ## Play, excess, and recovery
+The Evermeasure's first correction is stated plainly in Chapter VII: **The game may continue; the man may stop.** A player may refuse a repeat, change routes, rest, or leave without losing the value of an earlier attempt. The board records methods, conditions, and different forms of achievement separately; it does not compress the men into a single score. The competition remains alive because its participants can keep choosing it.
+
 
 A user-supplied thematic line, retained verbatim for later scene development:
 

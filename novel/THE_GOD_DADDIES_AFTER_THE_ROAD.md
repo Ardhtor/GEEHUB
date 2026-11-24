@@ -1,6 +1,6 @@
 # THE GOD DADDIES — AFTER THE ROAD
 
-## GEEHUB — POST-BOOK CYCLE
+## POST-BOOK CYCLE — AFTER THE ROAD
 
 *Quotidian scenes after Book I*
 

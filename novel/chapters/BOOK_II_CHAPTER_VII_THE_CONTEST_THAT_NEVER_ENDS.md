@@ -171,3 +171,8 @@ The country had learned a new ritual. The men had named it the Evermeasure, and 
 - **Kirk:** enjoys the men's inventiveness but retains bodily autonomy. No one may request a movement as a performance or treat his attention as a prize.
 - **Joseph and Andrew:** their existing attention conflict continues; competition in the pavilion does not turn access to Kirk into a scored contest.
 - **Future rule:** wins remain meaningful but temporary. The next challenge is always possible; no final champion closes the book's competitive engine.
+
+
+## Next chapter — A Day in the Open Pavilion
+
+[Book II, Chapter VIII — A Day in the Open Pavilion](./BOOK_II_CHAPTER_VIII_A_DAY_IN_THE_OPEN_PAVILION.md) follows Michael Brock through a full day in the residential country: the Evermeasure frame carry, shared lunch, the Cedar Span bench, and a private evening exchange with Kirk that remains outside the public record.

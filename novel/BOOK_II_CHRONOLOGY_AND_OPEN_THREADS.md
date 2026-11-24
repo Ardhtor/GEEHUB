@@ -148,25 +148,25 @@ No coordinates, distances, or permanent new landforms are introduced by Chapter 
 
 ## Revision progress
 
-A first ending-compression pass was completed across Chapters I–IX on 24 November 2026. The pass targets chapter endings rather than changing the established event sequence: repeated summaries, doubled emotional explanations, redundant last paragraphs, and closing statements that explain a scene after the scene has already made its point have been shortened or removed. The next pass must continue into the body of each chapter, looking for the same forms of repetition at paragraph and scene level.
+The first body-level line-edit pass is now complete across Chapters I–IX. It consolidated repeated observations and summaries, repaired scene order where needed, and preserved each chapter's established events. The next pass is a whole-book continuity sweep against the chronology, spatial atlas, character and relationship records, and Dropbox mirrors.
 
 | Chapter | Narrative words | Current Git blob | Editorial state |
 | --- | ---: | --- | --- |
 | I — The Lost Country | 4,180 | `93746ac7c4d087b97a499e643e62902cd7bfe463` | First line-edit pass complete; whole-book continuity and final edit pending |
 | II — The Keepers of the Old Trail | 4,039 | `796b5519741b480fae6fdec9f9b11c55211abe2e` | First body-level line-edit pass complete; whole-book continuity and final edit pending |
-| III — The Place That Moved | 4,486 | `5f6498b354af34b49fe02d8c2cb35509a4c0ecb2` | Ending compressed; whole-book continuity and line edit pending |
-| IV — The Promises That Keep | 3,725 | `bd85a9bca132296bd7e428b72a58905ae4c4e164` | Ending compressed; relationship continuity and line edit pending |
-| V — Four Mansions | 4,763 | `1bd08c1b52d38df531ff7d40933e8a2af99bad05` | Ending compressed; residential and relationship review pending |
-| VI — The Game Between the Houses | 3,947 | `e7b3a3303c9009d36d58343777944d5131b3ca22` | Ending compressed; Long Return and relationship review pending |
-| VII — The Contest That Never Ends | 3,945 | `75c8bca41e19253a7f4fe01545ceec9799b7984b` | Ending compressed; Evermeasure and relationship review pending |
-| VIII — A Day in the Open Pavilion | 2,287 | `d36fa5711621a5e062e8c7820d950bade48348fb` | Ending compressed; Michael's day and privacy continuity review pending |
-| IX — The Narrow Turn | 3,877 | `1c4ef8c06bda7a9475d6318f5d7009bbecbc1a03` | Ending compressed; scene clarity and repeatability continuity review pending |
+| III — The Place That Moved | 4,233 | `421b2fd3e767032cc9592fc117e58b4aed949e2c` | First body-level line-edit pass complete; whole-book continuity pending |
+| IV — The Promises That Keep | 3,641 | `b352be72b12255451928c90910c1b57327db0afa` | First body-level line-edit pass complete; relationship continuity pending |
+| V — Four Mansions | 4,694 | `6231bc5b8ae2961c97ebde3942a71088a6974708` | First body-level line-edit pass complete; residential and relationship continuity pending |
+| VI — The Game Between the Houses | 3,950 | `cced555a95ba11c01bfa6fef143d3975120dda43` | First body-level line-edit pass complete; geography and relationship continuity pending |
+| VII — The Contest That Never Ends | 3,874 | `d4c1514ebd5d6c3f3fd08986045c1b52de43883a` | First body-level line-edit pass complete; Evermeasure and relationship continuity pending |
+| VIII — A Day in the Open Pavilion | 3,833 | `c442dee1b9320e714a303a5bf54b0619c0bf5a0d` | First body-level line-edit pass complete; Michael's day and privacy continuity pending |
+| IX — The Narrow Turn | 3,875 | `ac49adea9c4c0b599b0be5f5a02217776a21a898` | First body-level line-edit pass complete; repeatability and scene continuity pending |
 
 **Current narrative census:** 36,319 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
 
 ## Revision order and editorial gates
 
-The next operation is a full line-editing pass through Chapters I–IX in canonical order. At each paragraph, ask whether it adds new action, evidence, character information, atmosphere, or consequence. If it merely repeats the previous paragraph in different words, cut or combine it. At each scene ending, stop where the meaningful change has landed; do not append a second explanation, a thematic summary, and a teaser if one clean ending can carry the transition.
+The first body-level line-edit pass is complete. The next operation is the whole-book continuity sweep. Compare each chapter with its neighbors and the shared records. Correct only demonstrable contradictions; preserve unresolved questions rather than inventing answers. Recheck the book's chronology, spatial atlas, character and relationship states, object custody, route conditions, point of view, and source/mirror parity. If a correction changes a chapter, update its Paper mirror, word count, source hash, and all affected records before proceeding.
 
 1. **Chapter I:** preserve the two-state map, the Old Trail discovery, and the decision not to enter the dark opening. Remove repeated descriptions of the same measurements and avoid explaining the significance of the map after the scene has shown it.
 2. **Chapter II:** preserve the keepers' practical culture and the unresolved trail signs. Trim repeated explanations of the archive's philosophy; let the map-handling and daily work demonstrate it.

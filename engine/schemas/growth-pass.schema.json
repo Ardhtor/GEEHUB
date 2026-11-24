@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geehub.local/schemas/growth-pass.schema.json",
+  "title": "GEEHUB Growth Pass",
+  "description": "A traceable, incremental change from an inherited subject state to a reviewed result.",
+  "type": "object",
+  "required": [
+    "id",
+    "subject_id",
+    "parent_state_id",
+    "source_ids",
+    "observations",
+    "research_refs",
+    "hypotheses",
+    "change",
+    "dimensions",
+    "result_state_id",
+    "review",
+    "status",
+    "created_at",
+    "next_action"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 8
+    },
+    "subject_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parent_state_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "observation_id",
+          "locator"
+        ],
+        "properties": {
+          "observation_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "research_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "statement",
+          "confidence",
+          "alternatives"
+        ],
+        "properties": {
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "confidence": {
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "unassessed"
+            ]
+          },
+          "alternatives": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "disconfirming_test": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "change": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "change_type"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "change_type": {
+            "enum": [
+              "add",
+              "increase",
+              "decrease",
+              "adjust",
+              "compare",
+              "preserve"
+            ]
+          },
+          "before": {
+            "type": [
+              "string",
+              "number",
+              "null"
+            ]
+          },
+          "after": {
+            "type": [
+              "string",
+              "number",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "result_state_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "decision",
+        "comparison",
+        "limitations"
+      ],
+      "properties": {
+        "decision": {
+          "enum": [
+            "pending",
+            "accepted",
+            "revise",
+            "rejected"
+          ]
+        },
+        "comparison": {
+          "type": "string"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "in-progress",
+        "reviewed",
+        "accepted",
+        "superseded",
+        "rejected"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "next_action": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

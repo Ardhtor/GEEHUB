@@ -2283,6 +2283,8 @@
       "research",
       "production",
       "cross-pollination"
-    ]
+    ],
+    "interface_path": "/hub/index.html#growth-engine",
+    "schema_path": "/engine/schemas/growth-pass.schema.json"
   }
 ]

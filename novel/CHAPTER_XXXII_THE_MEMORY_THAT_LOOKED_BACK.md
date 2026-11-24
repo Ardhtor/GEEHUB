@@ -292,7 +292,7 @@ A photograph.
 
 A piece of redwood bark.
 
-A child's drawing.
+A small, careful drawing.
 
 A handwritten page.
 

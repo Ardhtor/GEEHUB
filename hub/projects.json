@@ -1913,20 +1913,19 @@
     ]
   },
   {
-    "id": "universal-growth-engine",
-    "name": "Universal Growth Engine",
-    "group": "engine",
+    "id": "growth",
+    "name": "Growth",
+    "group": "workspace",
     "status": "active",
-    "summary": "Repository-wide cumulative growth architecture connecting research, source evidence, interpretation, experiments, continuity, and production through inherited, reviewable development states.",
-    "path": "../docs/UNIVERSAL_GROWTH_ENGINE.md",
+    "summary": "A shared approach to gradual development, research, continuity, and making across the repository.",
+    "path": "../docs/GROWTH.md",
     "tags": [
       "growth",
       "research",
       "continuity",
       "provenance",
       "experimentation",
-      "production",
-      "architecture"
+      "making"
     ],
     "related": [
       "tractus-continuity",

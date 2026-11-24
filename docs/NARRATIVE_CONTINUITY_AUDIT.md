@@ -49,7 +49,7 @@ These may belong to different books or parallel continuities, because the reposi
 
 ### Story text mixed with production traces
 
-`novel/WORLDS.md` is labelled autonomous novel material but contains pulse labels, source-retention lines, and pressure/memory values next to narrative passages. These may be useful production records, but the reader-facing prose should not require a reader to interpret the production log. The next pass should separate the pulse ledger from the scenes without discarding its source paths or environmental state.
+`novel/WORLDS.md` had 356 structured world-pulse records mixed into its story material: four malformed introductory pulses and 352 later records with Seth/Nick text, source-retention lines, and pressure/memory values. All 356 records are now preserved in `novel/WORLDS_ENVIRONMENT_PULSE_ARCHIVE.md`; the structured pulse blocks have been removed from the narrative file without deleting their contents or source paths. The remaining first-person speaker ambiguity in the “Three Years” passage is still unresolved.
 
 ### Cross-book relationships
 

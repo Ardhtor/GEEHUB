@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00235.json",
+  "activeRecording": "./recordings/scheduled-recording-00236.json",
   "activeEncounter": {
-    "regionId": "northgate-university",
-    "regionName": "NORTHGATE UNIVERSITY",
+    "regionId": "cedar-house",
+    "regionName": "CEDAR HOUSE",
     "subject": {
-      "agent": "chase",
-      "scale": 17.54,
+      "agent": "luke",
+      "scale": 17.57,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / ATHLETIC COMMONS → NORTHGATE UNIVERSITY / CHASE",
+    "intent": "LONG PLAY / CAT GARDENS → CEDAR HOUSE / LUKE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 17.50× → 17.54×",
-      "ATHLETIC COMMONS → NORTHGATE UNIVERSITY",
-      "relation: STRENGTH WITHOUT CONFLICT",
+      "scale 17.54× → 17.57×",
+      "CAT GARDENS → CEDAR HOUSE",
+      "relation: GOOD LUCK HAS WHISKERS",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "athletic-commons"
+    "previousRegionId": "cat-gardens"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-23T13:10:31.196Z",
+  "snapshot": "2026-11-24T00:55:37.628Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 235,
-    "agent": "chase",
-    "previousRegionId": "athletic-commons",
-    "regionId": "northgate-university",
-    "relation": "STRENGTH WITHOUT CONFLICT",
+    "cycle": 236,
+    "agent": "luke",
+    "previousRegionId": "cat-gardens",
+    "regionId": "cedar-house",
+    "relation": "GOOD LUCK HAS WHISKERS",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 17.5,
-    "scale": 17.54,
-    "recording": "scheduled-recording-00235",
-    "at": "2026-11-23T13:10:31.196Z"
+    "previousScale": 17.54,
+    "scale": 17.57,
+    "recording": "scheduled-recording-00236",
+    "at": "2026-11-24T00:55:37.628Z"
   }
 }

@@ -144,6 +144,22 @@ Andrew looked from one man to another. “You've managed to turn lunch into anot
 
 Michael laughed, and Andrew accepted the criticism as praise. The table remained noisy for a while. They spoke about the Long Return, the eastern hollow, the next exhibition, and a small repair needed on the pavilion's western door. There was no need to keep the conversation on Michael's physique. He was pleased when the others noticed what he could do, but he also enjoyed being asked what he thought about a hinge.
 
+After lunch Gabe asked him to return the folded mat to the training court. They took the covered path together, and Gabe checked the way Michael moved after the carry. He did not ask him to repeat the lift. He watched his shoulders settle, asked whether the left side felt different from the right, and suggested a short recovery sequence before Michael went back to the pavilion.
+
+Michael followed the movements slowly. He rolled his shoulders, opened his hands, and shifted his weight through his feet. The work was less dramatic than the carry, but it let him notice where the frame had demanded more effort. Gabe adjusted one of the training bands and showed him a way to ease the tension without forcing the joint through its full range.
+
+“People usually ask how much you can lift,” Gabe said.
+
+“They ask how much I can lift before they ask whether I want to.”
+
+Gabe nodded. “That's why I keep the recovery work visible. It belongs to the training, not to the part people watch.”
+
+Michael tested the band once more. “I don't mind a challenge. I mind when the challenge is decided before I arrive.”
+
+“Then we'll ask first.”
+
+They returned the mat to its place. Gabe left the court ready for the next person, without putting Michael's name beside the equipment or making the session into a public demonstration. Michael thanked him and went back toward the Cedar Span. The day's work had included the lift, the rest, and the care taken afterward. He did not need to choose between them.
+
 After lunch he went with Joseph to the Cedar Span to look at the oak bench. The bench had been moved slightly during the morning's carry, and one foot no longer sat perfectly against the timber floor. Joseph knelt to inspect it. Michael crouched beside him, the enormous muscles of his thighs folding beneath him, and held the bench steady while Joseph eased a small wedge into place.
 
 “Try it now,” Joseph said.

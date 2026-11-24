@@ -13,3 +13,17 @@
 .returning-world .returning-world-status{min-height:18px;font-size:11px;color:#b5c7ba}
 .returning-world .returning-world-trace{margin-top:6px;padding:10px 12px;border-left:2px solid #829d8d;background:rgba(125,157,139,.08);font-size:12px;color:#cbd7ce;white-space:pre-wrap;overflow-wrap:anywhere}
 @media(max-width:760px){.returning-world{grid-template-columns:1fr}.returning-world-side{border-left:0;border-top:1px solid rgba(191,207,198,.17);padding:18px 0 0}}
+
+.returning-world-social{grid-column:1/-1;border-top:1px solid rgba(191,207,198,.17);padding-top:22px;margin-top:4px}
+.returning-world-social h3{font-size:clamp(19px,2vw,25px);font-weight:500;margin:7px 0}
+.returning-world-social-intro{font-size:13px;margin:0 0 15px}
+.returning-world-invitations{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.returning-world-invitation{display:flex!important;flex-direction:column;align-items:flex-start;gap:8px!important;min-height:150px;text-align:left!important;border-radius:14px!important;padding:15px!important;background:rgba(7,14,13,.35)!important}
+.returning-world-invitation strong{font-size:15px;font-weight:500}
+.returning-world-invitation small{font-size:11px;color:#b4c7bb}
+.returning-world-invitation>span:last-child{font-size:12px;line-height:1.5;color:#c3d0c7}
+.returning-world-invitation-kind{font-size:9px;letter-spacing:.15em;color:#9ebaa8}
+.returning-world-invitation.selected{border-color:rgba(178,218,190,.75)!important;background:rgba(106,151,119,.2)!important}
+.returning-world-last{margin-top:12px;min-height:20px;color:#c6d6ca;font-size:12px;line-height:1.6}
+@media(max-width:900px){.returning-world-invitations{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.returning-world-invitations{grid-template-columns:1fr}}

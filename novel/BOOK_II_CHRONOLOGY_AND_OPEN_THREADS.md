@@ -153,7 +153,7 @@ A first ending-compression pass was completed across Chapters I–IX on 24 Novem
 | Chapter | Narrative words | Current Git blob | Editorial state |
 | --- | ---: | --- | --- |
 | I — The Lost Country | 4,180 | `93746ac7c4d087b97a499e643e62902cd7bfe463` | First line-edit pass complete; whole-book continuity and final edit pending |
-| II — The Keepers of the Old Trail | 4,098 | `0ef434c0b1d5b1c2ddd9db60ea892666237188dc` | Ending compressed; duplicate prose removed earlier; whole-book line edit pending |
+| II — The Keepers of the Old Trail | 4,039 | `796b5519741b480fae6fdec9f9b11c55211abe2e` | First body-level line-edit pass complete; whole-book continuity and final edit pending |
 | III — The Place That Moved | 4,486 | `5f6498b354af34b49fe02d8c2cb35509a4c0ecb2` | Ending compressed; whole-book continuity and line edit pending |
 | IV — The Promises That Keep | 3,725 | `bd85a9bca132296bd7e428b72a58905ae4c4e164` | Ending compressed; relationship continuity and line edit pending |
 | V — Four Mansions | 4,763 | `1bd08c1b52d38df531ff7d40933e8a2af99bad05` | Ending compressed; residential and relationship review pending |
@@ -162,7 +162,7 @@ A first ending-compression pass was completed across Chapters I–IX on 24 Novem
 | VIII — A Day in the Open Pavilion | 2,287 | `d36fa5711621a5e062e8c7820d950bade48348fb` | Ending compressed; Michael's day and privacy continuity review pending |
 | IX — The Narrow Turn | 3,877 | `1c4ef8c06bda7a9475d6318f5d7009bbecbc1a03` | Ending compressed; scene clarity and repeatability continuity review pending |
 
-**Current narrative census:** 35,572 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
+**Current narrative census:** 35,249 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
 
 ## Revision order and editorial gates
 

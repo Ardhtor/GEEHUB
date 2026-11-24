@@ -6,6 +6,13 @@ The men had been following the ridge for nearly an hour. It rose ahead of them i
 
 They had come to explore Kirk's enormous cock. That fact had been obvious from the beginning, and nobody in the expedition had mistaken the destination. What they had not understood was how completely the place would exceed the language they had brought with them. From a distance, the anatomy had seemed like one immense landmark, a single astonishing feature of a man whose proportions had become difficult to reconcile with ordinary rooms and ordinary measurements. Once they were there, it became a whole country: ridges, valleys, sheltered hollows, long slopes, and passages that turned out of sight. The men had entered with the confidence of visitors approaching a monument. They were now learning the habits of travellers.
 
+The first hours had been spent learning what the ground would permit. The ridge was warm beneath their boots, but its surface was not uniform. Some stretches were firm and faintly ridged; others gave slightly under pressure, as though a deep layer shifted beneath the outer skin. The men had brought ordinary surveying equipment, climbing rope, lamps, water, and enough provisions for a day in the open. They had not expected to need a settlement. Their first plan was to take bearings, establish a return line, and descend only if the terrain offered a route that could be checked from both ends.
+
+The scale made every familiar task take longer. A short rise became a sustained climb. A shallow hollow concealed a turn that could not be seen from the ridge. The trees were far enough apart to make the country feel open, yet their trunks were so large that the men could lose one another behind them without moving more than a few steps. The expedition leader kept the group within sight whenever possible. When the surface curved away, he used the reflector rather than calling across the distance. The sound did not always travel as expected. Sometimes a voice returned from a wall that seemed too far away to carry it; sometimes a reply disappeared around a fold that looked shallow from above.
+
+Marcus was the first to suggest that the ridge should be treated as a route rather than a viewpoint. The surveyor preferred to establish a fixed baseline before anyone moved farther. Neither approach was unreasonable. The leader asked them to do both: mark the observation point, then walk a short distance along the ridge and test whether the marker remained visible. The test was simple, but it exposed the problem that would shape the whole expedition. A place could remain visible and still no longer occupy the same relation to the traveller. The men could see the cedar post behind them, but they could not yet say whether the line between them had lengthened, bent, or changed its slope.
+
+
 The morning had begun with a simple arrangement. The expedition leader had wanted a fixed observation point from which the surveyor could take a first set of bearings. They had chosen a section of the ridge that appeared broad and level, then used timber braces to raise a small platform above the uneven surface. The platform was not intended as a permanent building. It was a place from which the men could compare one view with another without allowing a change in their own position to confuse the record. They had driven a cedar post at the western edge and marked the route back to the lower path with a line of pale stones. The work had taken longer than expected because every measurement depended on a reference that could be found again.
 
 Marcus had been the first to object to the surveyor's method.
@@ -38,6 +45,23 @@ They recovered the instruments first. The surveyor wrapped the most delicate pie
 
 The surveyor measured the separation between the two markers. The new distance was entered beside the old one, with the time and the direction of the displacement. It was the first record of a place changing while they watched it.
 
+The surveyor opened a fresh page and drew the two markers as separate points. He wrote the time beside each one, added the direction in which the second marker had been placed, and left the space between them unfilled. Marcus wanted to draw the new hollow as well, but the leader asked him to wait until they had checked its edges. The hollow might be a depression, a fold, or the exposed side of a larger movement. A confident outline would make the map easier to read and harder to correct.
+
+They took a second bearing from the platform's former position. The result did not restore the first reading. The surveyor checked the staff, wiped dust from the instrument, and repeated the measurement. It changed again, though by a smaller amount. He did not hide his irritation. He had spent years learning to trust a careful setup, and now the very ground beneath the setup was refusing to remain a reliable reference.
+
+Marcus crouched beside the tilted cedar post. “If we keep calling this the same point, the numbers will keep arguing.”
+
+“Then we give it two names,” the surveyor said.
+
+“The post hasn't changed.”
+
+“Where it stands has.”
+
+The leader looked at the two marks. “Keep the name. Add the state.”
+
+It was the first rule they agreed on without needing to debate it further. The post would remain the cedar marker, but each recorded position would carry its own date and condition. The old position would not be corrected out of existence. The new one would not be treated as a mistake simply because it had arrived later.
+
+
 That was when they discovered the old trail.
 
 It descended along the far side of the ridge, concealed behind a fold in the terrain. The trail was unmistakably made by people. Its surface had been cleared, and small stones had been placed along the margins. At intervals, narrow posts carried symbols cut into the wood. The markings were not theirs. Some were weathered almost smooth; others looked recent. One post bore a simple drawing of a broad-shouldered man with a line beneath his feet. Another showed a door, though there was no door anywhere in sight.
@@ -47,6 +71,13 @@ The expedition leader crouched beside it. “Someone has been here before us.”
 “Or someone is still here,” Marcus said.
 
 The surveyor examined the post without touching the cuts. The wood had darkened in the shallow grooves, and dust had settled along the lower edge. A small branch had grown around one side of the marker, holding it in place. The trail was not a fresh construction made in response to the morning's movement. It had been here long enough to become part of the country.
+
+The leader asked them to look for the ordinary signs of use. A trail that had been walked once might still look deliberate, but a trail that had been maintained would show repeated decisions. They found shallow wear along the inner edge of the stones, where boots had passed in the same line. The repaired section had been fitted with a slightly different material, and the new post had been set into an older socket. One of the symbols had been cut over an earlier mark, leaving the first line visible beneath it. Someone had changed the sign without removing its history.
+
+The surveyor copied the marks at different scales. He made one drawing for the overall shape and another for the depth of the cuts. Marcus checked whether the posts were spaced to be seen from one another. They were not. Some appeared in pairs, others alone, and a few were placed where the path changed direction. The pattern might have indicated distance, direction, or a sequence of stops. They did not know. The leader told them to preserve the symbols as they found them and not to turn a resemblance into a translation.
+
+A small piece of cord had been caught beneath one stone. It was frayed at the end but still strong where it had been protected from the floor. Marcus freed it carefully and laid it beside the post. There was a knot near the middle and a second knot closer to the end. The surveyor measured the interval between them, then recorded the cord as an object of uncertain purpose. It might have been used to secure a load, mark a position, or help someone cross a difficult section. The trail was beginning to look less like a line drawn through empty country and more like a sequence of arrangements made by people who expected other people to use them.
+
 
 They followed it only as far as the next turn. The leader wanted to know whether it led toward a safe place to stop or into a passage that could close behind them. The surveyor marked every bend. Marcus watched the ground and looked for signs that the trail had been maintained. The stones were fitted together with a care that suggested repeated use. In one place, a section had been repaired with a different kind of stone. In another, a post had been replaced, but the old base remained beside it.
 
@@ -88,6 +119,15 @@ They established a temporary camp in the chamber, well away from the dark openin
 
 The camp was arranged along the higher side of the chamber. The men kept the central floor clear, leaving a broad route between the entrance and the instruments. One man checked the lamps while another sorted the provisions. They ate a small meal standing near the wall, then made a second round of measurements before allowing themselves to rest. The leader did not want anyone sleeping beside the dark opening. He asked two men to keep watch in shifts, not because he expected an attack, but because the chamber itself might change before morning.
 
+The camp took shape without much conversation. The men chose the higher side of the chamber because the floor there had shown the least change during the last set of readings. They set the instruments on a raised board, kept the provisions away from the lamps, and made a clear passage between the entrance and the place where they would sleep. The leader asked each man to check his own equipment and then check the person beside him. A loose strap, a damaged lamp, or a missing water container would matter more in a place where the return route could alter overnight.
+
+The meal was plain: bread, dried fruit, a little cheese, and water measured into cups. The men ate while the surveyor read out the day's figures. Marcus interrupted twice to correct the direction of a marker, and the leader asked him to wait until the full sequence had been read. They were tired enough to become impatient with one another, but the work required them to keep the record intelligible. When the surveyor finished, the leader asked each man whether he had noticed anything that had not been entered. One reported a change in the warmth near the floor. Another remembered that the pale line on the far wall had brightened just before the movement. A third had heard the low rhythm stop for a few seconds.
+
+None of these observations was enough to explain the chamber. They were entered beside the measurements, with the observer's name and the time if he could remember it. The leader did not want a single account to swallow the others. A man's impression could be useful without becoming a measurement, and a measurement could be exact without explaining what Kirk had felt.
+
+The watch was arranged in pairs. One man would remain near the entrance, where the cedar marker and return route could be seen; the other would stay beside the instruments. They agreed on a quiet signal so that nobody would mistake an ordinary sound in the chamber for a warning. The men who were not on watch lay down with their boots within reach. The dark opening remained visible beyond the shelf, but no one tried to look into it again.
+
+
 The first map had been drawn on a single large sheet. It was already too simple. The surveyor divided the new page into layers: the ridge as it had been at the start of the morning, the ridge after the movement, the old trail, the corridor, and the chamber. He used a lighter line for anything that had not been checked twice. The dark opening was marked with a small outline and left blank inside.
 
 Marcus watched him work.
@@ -125,6 +165,20 @@ There was a pause. The men could hear the faint electrical sound of the receiver
 The connection remained open for another moment. The leader asked whether Kirk had felt the movement as a single shift or as several smaller changes. Kirk said he could describe what he had noticed, but he could not see the expedition's measurements and did not want to guess at the route. He had felt a tightening and a gradual release. The leader told him that the instruments had recorded a change in the ridge and another in the chamber. Kirk listened, then asked the men to send the readings when they had prepared them.
 
 The connection ended. The men sat quietly for a while. Kirk had not ordered them to abandon the expedition. He had asked them to be careful, and the difference mattered. Their exploration depended on his permission, but it also depended on their own judgment. They could not treat his body as an inert landscape, nor could they treat every movement as a message intended for them.
+
+The leader asked the surveyor to read back the report before they sent it. He wanted Kirk to receive the measurements in the same order in which they had been taken, not as a polished explanation that concealed the uncertainty. Marcus added the description of the old trail and the handholds. One of the other men reported the warmer air near the opening. The surveyor separated each statement and marked whether it came from an instrument, a direct observation, or a question that remained unresolved.
+
+They sent the report in short sections so that a break in the connection would not destroy the whole message. Kirk acknowledged each one. When the last section arrived, he asked whether the men had a safe place to remain if the chamber changed again. The leader described the higher side of the floor, the clear route to the entrance, and the two watch positions. Kirk said he could not guarantee that the chamber would remain as it was, but he was glad they had chosen a place with room to withdraw.
+
+The leader asked whether the slow rhythm beneath the floor was familiar to him. Kirk said he could sometimes feel movement before he could describe it, and sometimes only notice the change afterward. He did not know what the rhythm meant. He did not want the men to build a theory around it and then treat the theory as something he had told them. The surveyor wrote that down exactly. It was the clearest instruction they had received that evening: Kirk could contribute his own experience, but he would not be made responsible for supplying an explanation he did not possess.
+
+When the receiver went quiet, Marcus looked at the blank space inside the outline of the dark opening. “We know more than we did this morning,” he said.
+
+“We know where we stopped,” the leader replied. “That is not the same as knowing what is there.”
+
+“No,” Marcus said. “But it's a start.”
+
+
 
 The leader wrote the report while the surveyor checked the figures. Marcus read the description of the old trail and asked that the symbols be copied exactly, including the weathered marks that were difficult to see. They sent the message through the receiver and waited for confirmation. Kirk acknowledged it and said he would tell them if he noticed another movement. He did not promise that he could predict one.
 

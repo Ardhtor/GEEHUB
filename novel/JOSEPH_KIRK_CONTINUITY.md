@@ -31,3 +31,10 @@ This conflict does not replace the established relationship arc. Joseph and Kirk
 ## Chapter VI — The Game Between the Houses
 
 During the first Long Return game, Andrew continues a conversation with Kirk after Joseph has contributed to the report. Joseph withdraws rather than competing for the receiver. Andrew recognises that his behaviour can make Joseph feel displaced without explicitly asking him to leave. He apologizes and begins to ask for defined time with Kirk instead of treating every open interval as available. Joseph accepts the conversation but does not declare the tension resolved. Kirk keeps his own agency and honours his prior commitment to spend the evening with Joseph. The conflict remains active and must develop through further choices rather than being settled by a single apology.
+
+
+## Cross-current safeguard — Ian Kistner, Gabe, and Kirk
+
+The provisional Ian/Gabe/Kirk relationship branch introduced on 24 November 2026 adds a possible new set of attractions around Kirk; it does not supersede this record. Joseph and Kirk's eventual partnership remains the established long-range direction and must continue to be earned through their own choices, conflict, distance, loyalty, and repair. Kirk retains agency and may have other meaningful attractions or relationships, but these must be developed without retroactively invalidating his history with Joseph.
+
+Gabe's existing Dorian connection and Andrew's separate attention to Kirk are also preserved. The new triangle is not yet placed on the Book II timeline, and Ian's history is not yet established. Before any numbered chapter changes the shared residential sequence, reconcile all three currents and the men's actual opportunities to meet.

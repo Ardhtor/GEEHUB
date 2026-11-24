@@ -44,7 +44,7 @@ Gabe pointed to the arrow. “The old one tells you where you can go. This one t
 
 “That is the point,” Tyler said. “A first-time visitor needs both.”
 
-Joseph arrived with the Commons manager and a facilities technician. He had asked that the review take place before the lunchtime rush, when the main entrance would be busy enough to reveal circulation problems but not so crowded that the team would obstruct people. The manager carried a folder containing the temporary incident note, the bench measurement, and the list of requested changes. No personal details from the boy's report appeared in the folder used for the public facilities review. The manager had kept the restricted record separate, as the procedure required.
+Joseph arrived with the Commons manager and a facilities technician. He had asked that the review take place before the lunchtime rush, when the main entrance would be busy enough to reveal circulation problems but not so crowded that the team would obstruct people. The manager carried a folder containing the temporary incident note, the bench measurement, and the list of requested changes. No personal details from the young man's report appeared in the folder used for the public facilities review. The manager had kept the restricted record separate, as the procedure required.
 
 They began at the reception desk. Tyler stood where a visitor would first see the glass doors and held up a paper mock-up at the proposed sign height. Chase walked to the outer path with his camera but waited until the manager confirmed that the approach was clear. He took a photograph from the point of view of a person entering the building, then another from the path looking inward. The first image showed the sign against the bright reflection of the pool windows. The arrow was legible, but the words beneath it were too small. The second image showed that the map could be read from the path, though the reception symbol needed more contrast.
 
@@ -56,11 +56,11 @@ Dorian stood at the edge of the glass entrance while the others worked. His refl
 
 A voice behind them said, “That's the man.”
 
-Dorian turned. The father from the Redwood incident had entered with his son. The boy was wearing a blue sweatshirt and carrying the same small backpack. He saw Dorian at once and raised his hand. Dorian returned the greeting with a nod, keeping his position beside the entrance rather than approaching before the father had a chance to decide whether to stop.
+Dorian turned. The father from the Redwood incident had entered with his son. the young man was wearing a blue sweatshirt and carrying the same small backpack. He saw Dorian at once and raised his hand. Dorian returned the greeting with a nod, keeping his position beside the entrance rather than approaching before the father had a chance to decide whether to stop.
 
 The father came forward. “We came back for swimming. He wanted to show me where he met you.”
 
-The boy stood beside him, looking first at Dorian and then at the temporary arrow. “It's there now,” he said.
+the young man stood beside him, looking first at Dorian and then at the temporary arrow. “It's there now,” he said.
 
 “It is,” Dorian replied. “The staff put it in after your visit.”
 
@@ -72,13 +72,13 @@ The father nodded. “Would it be useful to know where we got confused?”
 
 “Yes,” Joseph said. “Only if you have time. We don't need the details of the incident again. We're trying to understand what the signs should show.”
 
-The father explained that he had entered through the pool side and assumed the Redwood Walk would bring him back toward the car park. The boy had remembered seeing trees through the glass and thought the path might be a shortcut. The difficulty was not that he had ignored a clear instruction. The map at the entrance showed the grounds in a way that made sense to regular users, but it did not show the relationship between the pool doors and the return point. The father had gone looking in one direction, the boy had gone in another, and each had believed the other was nearby.
+The father explained that he had entered through the pool side and assumed the Redwood Walk would bring him back toward the car park. the young man had remembered seeing trees through the glass and thought the path might be a shortcut. The difficulty was not that he had ignored a clear instruction. The map at the entrance showed the grounds in a way that made sense to regular users, but it did not show the relationship between the pool doors and the return point. The father had gone looking in one direction, the young man had gone in another, and each had believed the other was nearby.
 
-Tyler listened without interrupting. He changed one label on the drawing from “Main Building” to “Reception / Help Desk.” Joseph suggested that the sign should include a small instruction: “Need help? Return to reception.” The manager agreed, though he wanted the wording checked for clarity and translated into the additional languages commonly used by campus visitors. The boy looked at the paper and asked whether the arrow meant that the reception desk was behind him.
+Tyler listened without interrupting. He changed one label on the drawing from “Main Building” to “Reception / Help Desk.” Joseph suggested that the sign should include a small instruction: “Need help? Return to reception.” The manager agreed, though he wanted the wording checked for clarity and translated into the additional languages commonly used by campus visitors. the young man looked at the paper and asked whether the arrow meant that the reception desk was behind him.
 
-“It does,” Tyler said. He turned the mock-up so that the boy could see it from the path. “When you're standing here, the arrow points back through those doors.”
+“It does,” Tyler said. He turned the mock-up so that the young man could see it from the path. “When you're standing here, the arrow points back through those doors.”
 
-The boy followed the arrow with his eyes, then turned and looked at the glass entrance. “So I go that way.”
+the young man followed the arrow with his eyes, then turned and looked at the glass entrance. “So I go that way.”
 
 “That's right.”
 
@@ -86,7 +86,7 @@ The boy followed the arrow with his eyes, then turned and looked at the glass en
 
 “Then the sign needs to face you too,” Tyler said.
 
-The boy looked at the opposite side of the board. “This side is blank.”
+the young man looked at the opposite side of the board. “This side is blank.”
 
 Andrew smiled. “That's what we're fixing.”
 
@@ -94,35 +94,35 @@ The father laughed, then looked at the facilities technician. “He has a point.
 
 “He does,” the technician said. “The permanent panel can be double-sided. We were already considering that, but the sightline test will tell us whether the mounting position works.”
 
-Gabe had been watching the boy study the sign. He leaned toward Dorian. “He noticed the thing we missed.”
+Gabe had been watching the young man study the sign. He leaned toward Dorian. “He noticed the thing we missed.”
 
 Dorian looked at the empty back of the temporary board. “He was the person who needed it.”
 
-There was no accusation in the answer. Gabe heard the distinction. A committee could produce a complicated map and still miss the question that mattered to the person standing at the junction. The boy did not need an account of the entire campus. He needed to know whether the arrow pointed toward the place where his father could be found.
+There was no accusation in the answer. Gabe heard the distinction. A committee could produce a complicated map and still miss the question that mattered to the person standing at the junction. the young man did not need an account of the entire campus. He needed to know whether the arrow pointed toward the place where his father could be found.
 
-The manager asked the father whether he would be comfortable walking the route with his son while the team watched the sign from a distance. The father agreed. He kept the boy beside him, and they began at the pool entrance. Tyler remained near the temporary board with the revised mock-up. Joseph watched the flow of people through the doors. Chase took photographs only of the empty route and the sign, never of the family. Dorian stayed near the reception side, where the boy could see him if he chose to look back.
+The manager asked the father whether he would be comfortable walking the route with his son while the team watched the sign from a distance. The father agreed. He kept the young man beside him, and they began at the pool entrance. Tyler remained near the temporary board with the revised mock-up. Joseph watched the flow of people through the doors. Chase took photographs only of the empty route and the sign, never of the family. Dorian stayed near the reception side, where the young man could see him if he chose to look back.
 
-The father and son walked toward the Redwood path. At the junction, the boy stopped before the temporary arrow and turned his head. The board was easy to see from the pool side, but the arrow was not quite aligned with the doors. The boy pointed toward the glass wall rather than the reception desk. Tyler saw it and marked the angle on the drawing.
+The father and son walked toward the Redwood path. At the junction, the young man stopped before the temporary arrow and turned his head. The board was easy to see from the pool side, but the arrow was not quite aligned with the doors. the young man pointed toward the glass wall rather than the reception desk. Tyler saw it and marked the angle on the drawing.
 
 “That's the problem,” he said. “The arrow is technically pointing toward the building, but it isn't pointing toward the entrance.”
 
-The facilities technician moved the paper mock-up a few degrees. The boy looked again. This time the arrow led directly toward the doors. He turned and began walking back. His father followed, and they reached the reception desk without hesitation.
+The facilities technician moved the paper mock-up a few degrees. the young man looked again. This time the arrow led directly toward the doors. He turned and began walking back. His father followed, and they reached the reception desk without hesitation.
 
 The test was repeated from the opposite direction. The temporary board had no printed message on its rear face, so the team held the second mock-up beside it. The return point was now visible from both directions, but the map itself needed to be mirrored rather than merely repeated. Tyler had not wanted to assume that a double-sided sign could use the same orientation on both faces. The technician confirmed that the panel could be printed on each side with the correct directional relationship, and that the mounting bracket could be turned without weakening the support. The design would need a formal drawing and a check of the fixing points before manufacture.
 
-While the technician measured the post, the father thanked the team for making the change. He said that the boy had been reluctant to visit again at first, not because he disliked the Commons, but because he remembered how frightening it had been to lose sight of him. The boy had changed his mind when he heard that the new arrow was being made. He wanted to see whether it would help someone else.
+While the technician measured the post, the father thanked the team for making the change. He said that the young man had been reluctant to visit again at first, not because he disliked the Commons, but because he remembered how frightening it had been to lose sight of him. the young man had changed his mind when he heard that the new arrow was being made. He wanted to see whether it would help someone else.
 
 Dorian listened. “It's good that you came back,” he said. “You don't have to use the path today if you don't want to.”
 
-“I want to,” the boy replied. “With Dad.”
+“I want to,” the young man replied. “With Dad.”
 
 “That's a good way to do it.”
 
 The father looked at Dorian. “He talks about you as the very large man who didn't make him feel silly.”
 
-Dorian glanced down at the boy. The boy had begun examining the seam along his own backpack strap. “You weren't silly,” Dorian said. “You were trying to find your dad. That was a reasonable thing to want.”
+Dorian turned toward the young man. the young man had begun examining the seam along his own backpack strap. “You weren't silly,” Dorian said. “You were trying to find your dad. That was a reasonable thing to want.”
 
-The boy looked up and smiled. It was a small, unguarded expression. Dorian did not try to extend the moment into a promise or a special arrangement. The father thanked him, and the family continued toward the pool. The boy looked back once from the glass doors and waved. Dorian raised his hand in return.
+the young man looked up and smiled. It was a small, unguarded expression. Dorian did not try to extend the moment into a promise or a special arrangement. The father thanked him, and the family continued toward the pool. the young man looked back once from the glass doors and waved. Dorian raised his hand in return.
 
 The facilities review continued after they had gone. Tyler's revised drawing now showed the sign as a two-sided panel, with the reception symbol enlarged, the return arrow aligned to the actual entrance, and the instruction placed where it could be read at ordinary walking speed. The technician recorded the proposed fixing height and bracket dimensions. Chase attached the sightline photographs to the work file, with the family excluded from the images. Joseph wrote the operational note: the permanent sign must be legible from both approaches, must not obscure the existing campus map, and must direct a visitor to a staffed return point rather than merely toward a building. The floor strip remained a secondary trial. Andrew could keep testing the sound, but no one would depend on it.
 
@@ -150,7 +150,7 @@ Gabe laughed. Dorian looked at the post and considered it for a moment. “A bel
 
 Andrew accepted the answer more readily than he might have a week before. “All right. No bell.”
 
-They left the reception area together. The boy and his father were somewhere inside the pool complex now, following the ordinary route they had intended to take on their first visit. The new sign would not be finished by the time they left, but the temporary arrow was clearer, and the doorway was easier to see. The father had been able to return without having to explain the whole story. The boy had been able to test the sign without being made the subject of another report. The campus had learned something from the event without making the family carry the burden of teaching it.
+They left the reception area together. the young man and his father were somewhere inside the pool complex now, following the ordinary route they had intended to take on their first visit. The new sign would not be finished by the time they left, but the temporary arrow was clearer, and the doorway was easier to see. The father had been able to return without having to explain the whole story. the young man had been able to test the sign without being made the subject of another report. The campus had learned something from the event without making the family carry the burden of teaching it.
 
 On the walk back to East Dormitory, Gabe fell into step beside Dorian. Their shoulders were nearly level with the upper rail of the covered passage, though Dorian still occupied more of the available width. His shirt pulled slightly across the back when he reached to hold the door for Tyler. Gabe noticed the movement, then noticed that Dorian had noticed him noticing.
 
@@ -184,7 +184,7 @@ The first sign pointed toward a building. The second version points toward a per
 
 **NICK:**
 
-And the boy did not have to become a symbol. He came back with his father, looked at the arrow, found the door, and went swimming. The institution changed because it listened to the actual use of the place.
+And the young man did not have to become a symbol. He came back with his father, looked at the arrow, found the door, and went swimming. The institution changed because it listened to the actual use of the place.
 
 **SETH:**
 

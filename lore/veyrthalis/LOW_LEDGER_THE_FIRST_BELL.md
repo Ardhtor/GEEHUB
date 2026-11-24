@@ -5,7 +5,7 @@
 **Location:** Western cornice and lower market streets  
 **Status:** Unresolved observation
 
-Merrow heard the bell at the end of the afternoon count. It sounded once, without the usual unevenness of the market bells and without the long tail that came from the Temple of Moon's upper bronze. The sound appeared to come from the west, though the crow on the Digitorium cornice turned toward the lower streets. A porter unloading sacks beside the public kitchen stopped and looked toward the northern avenue. A child at the fountain continued filling a cup. The market keeper recorded no interruption in trade.
+Merrow heard the bell at the end of the afternoon count. It sounded once, without the usual unevenness of the market bells and without the long tail that came from the Temple of Moon's upper bronze. The sound appeared to come from the west, though the crow on the Digitorium cornice turned toward the lower streets. A porter unloading sacks beside the public kitchen stopped and looked toward the northern avenue. An adult resident at the fountain continued filling a cup. The market keeper recorded no interruption in trade.
 
 Merrow did not write that the bell had come from the Digitorium. He wrote that he had heard one note and that the crow had turned west. These were separate observations. The porter later said the note had seemed to come from behind him. The market keeper had heard nothing. The accounts were entered on separate lines.
 

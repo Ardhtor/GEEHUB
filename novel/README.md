@@ -12,7 +12,7 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 
 ## Files
 
-### MD (55)
+### MD (56)
 
 - [`BATTLE_HEAVEN_AND_SEA_EXPERIENCE.md`](./BATTLE_HEAVEN_AND_SEA_EXPERIENCE.md)
 - [`BATTLE_HEAVEN_AND_SEA_SHOTLIST.md`](./BATTLE_HEAVEN_AND_SEA_SHOTLIST.md)
@@ -78,6 +78,10 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [Chapter Expansion Protocol](./CHAPTER_EXPANSION_PROTOCOL.md) — defines the global chapter-by-chapter revision operation.
 - [Book I Expansion Register](./BOOK_I_EXPANSION_REGISTER.json) — tracks all 72 chapter headings in *The Road of Seven Wells*, Book I, including current baseline lengths and revision status.
 
+
+## Character development
+
+- [The Unplanned Convergence — Character Development Register](./CYBER_BLACK_HOLE_CHARACTER_DEVELOPMENT.md) — identifies what the six-person ensemble still needs to acquire in scenes, beyond their current character roles and profile descriptions.
 
 ## The three books in motion
 

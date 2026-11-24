@@ -14,13 +14,13 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | II | The Keepers of the Old Trail | 4,162 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | III | The Place That Moved | 4,644 | First expansion pass completed 24 November; whole-book continuity and final edit pending |
 | IV | The Promises That Keep | 3,794 | First expansion pass completed 24 November; relationship continuity and final edit pending |
-| V | Four Mansions | 2,487 | Existing text; residential and relationship review pending |
+| V | Four Mansions | 4,877 | First expansion pass completed 24 November; residential and relationship continuity review pending |
 | VI | The Game Between the Houses | 3,055 | Existing text; geography and relationship review pending |
 | VII | The Contest That Never Ends | 2,552 | Existing text; Evermeasure and relationship review pending |
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter on 24 November; expansion and edit pending |
 | IX | The Narrow Turn | 4,162 | New working chapter on 24 November; expansion and edit pending |
 
-**Current narrative baseline:** approximately 31,955 narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
+**Current narrative baseline:** approximately 34,345 narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
 
 ## Sequence and sources
 
@@ -52,6 +52,7 @@ The following Paper documents were read back after synchronization and their Mar
 | IV — The Promises That Keep | [Open in Dropbox](https://www.dropbox.com/scl/fi/64o1zoq6rm7gw06iascz0/Book-II-Chapter-IV_-The-Promises-That-Keep.paper?dl=0) | 1 | `e071f970e3b353cb32ff48067c6fe50774db60dc` |
 | III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?rlkey=zokc2rtwe2mlj3t6fkd83mfcs&dl=0) | 2 | `70de36cdf943b591208ab0ca2d9dd82a75d1b979` |
 | IV — The Promises That Keep | [Open in Dropbox](https://www.dropbox.com/scl/fi/64o1zoq6rm7gw06iascz0/Book-II-Chapter-IV_-The-Promises-That-Keep.paper?rlkey=cejuw26i7b5tc13bll5egf5dp&dl=0) | 1 | `e071f970e3b353cb32ff48067c6fe50774db60dc` |
+| V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?rlkey=wtw4jngbq18h1eov3ov1vvhhg&dl=0) | 1 | `fef62a6320832ca815185969b8c937036778c5b8` |
 | VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 2 | `d1e1d17fdb467570042bcf1a60c0f3f573bbb579` |
 | IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 1 | `d9be1ad55e028e2cd388dd43386b0b0ceb99bb42` |
 

@@ -158,7 +158,7 @@ No coordinates, distances, or permanent new landforms are introduced by Chapter 
 
 ## Revision order and editorial gates
 
-The nine chapters are at different stages. Chapters I–III have completed first in-place expansion passes at 4,609, 4,162, and 4,644 narrative words respectively, all within the publishing guide's standard 4,000–7,000-word range; their whole-book continuity reviews remain pending. Chapter IV has completed a first in-place expansion pass at 3,794 words and remains below the range. Chapters V–VIII also remain below the range and need development where the material supports it. Chapter IX is a new working draft at 4,162 words, within range. These figures are editorial guides, not quotas. Expansion must come from scenes that deepen character, place, evidence, action, and consequence, not from padding or repeated explanation.
+The nine chapters are at different stages. Chapters I–III have completed first in-place expansion passes at 4,609, 4,162, and 4,644 narrative words respectively, all within the publishing guide's standard 4,000–7,000-word range; their whole-book continuity reviews remain pending. Chapter V has completed a first in-place expansion pass at 4,877 words, also within range. Chapter IV remains below range at 3,794 words, as do Chapters VI–VIII, and need development where the material supports it. Chapter IX is a new working draft at 4,162 words, within range. These figures are editorial guides, not quotas. Expansion must come from scenes that deepen character, place, evidence, action, and consequence, not from padding or repeated explanation.
 
 The revision proceeds in canonical order:
 

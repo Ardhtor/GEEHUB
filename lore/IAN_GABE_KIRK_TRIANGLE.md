@@ -66,3 +66,14 @@ This is a provisional relationship branch and has not yet been placed as a numbe
 The Road of Seven Wells receives a continuity guardrail only at present; Joseph and Kirk's eventual partnership remains intact. The Golden Lion and the Seven Great Houses has no direct connection established. The Many Open Ends may later carry an ensemble consequence, but no crossover is assumed. The Book II residential sequence is the strongest possible setting because Gabe's Canvas House and Kirk's paired residential country already exist; any numbered continuation must reconcile Ian's arrival, Gabe's Dorian connection, Andrew's attention to Kirk, and Joseph's established relationship with Kirk.
 
 Ian's biography, voice, appearance, residence, and chronology remain open. The three pairwise bonds are possibilities, not a settled triad. This draft must influence the books through specific, credible consequences, not by forcing every book to stage the same event.
+
+
+## Avoidance as the triangle's central tension
+
+**User-established character canon (24 November 2026):** Ian is always somewhat avoidant, and Gabe is much the same. This is not a claim that either man lacks feeling. Both can be drawn toward someone and still hesitate when the attraction asks to become explicit. Their attention may be clear while their intentions remain difficult to read. A warm exchange can be followed by a pause; an invitation can be delayed; a man may retreat into humour, ordinary business, or silence just when the other expects him to move closer.
+
+Do not make Ian and Gabe identical. Their shared tendency is established; the precise shape, triggers, and habits of each man's avoidance are still to be discovered. Let their differences emerge through scenes rather than assigning an ungrounded psychological explanation. Neither should be reduced to a cold or manipulative archetype. Their avoidance can protect privacy, preserve control, or simply reflect uncertainty, but its meaning must be earned by behaviour.
+
+This changes the triangle's pacing. Kirk may be the one who notices the pattern, but he is not automatically its interpreter, cure, or pursuer. The three can misread one another because attention and action do not always arrive together. A moment of closeness may be followed by distance without cancelling what happened. Build progress through small acts of return, reliable presence, and occasional plain speech rather than forcing a sudden confession or resolution.
+
+Gabe's existing directness with Dorian remains valid: an avoidant tendency does not mean he never initiates. It means that choosing closeness can be difficult and uneven, especially after the initial moment of courage. Ian's specific pattern is not yet established beyond the user's description of him as avoidant.

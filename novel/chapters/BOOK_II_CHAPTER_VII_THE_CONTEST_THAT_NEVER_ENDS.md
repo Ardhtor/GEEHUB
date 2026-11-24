@@ -242,11 +242,9 @@ Andrew nodded. “That counts.”
 
 Joseph studied him for a moment, then smiled. “That's better.”
 
-Andrew put the chalk down. He had wanted to be the man who made the next challenge, the one who set the standard and brought everyone else along. Now he could see that the game would be stronger if the others could change it, refuse it, or take part without needing to match him. He did not have to become less ambitious. He had to stop treating ambition as permission to decide for everyone else.
+Joseph left the pavilion with Andrew. They walked together as far as the covered path, then separated toward their own houses. The Evermeasure Board remained behind them, carrying the day's results and the rules that would make another day possible.
 
-Joseph left the pavilion with him. They walked together as far as the covered path, then separated toward their own houses. The Evermeasure Board remained behind them, carrying the day's results and the rules that would make another day possible.
-
-The Evermeasure would still invite excess. Someone would always want a harder route, a heavier beam, a faster time, or a more spectacular answer. The men had not cured themselves of wanting to surpass one another. They had begun to recognise when the contest was making them careless with the people beside them. The next challenge would test not only what they could do, but whether they could keep the game generous enough to be worth returning to.
+The Evermeasure would still invite excess. Someone would always want a harder route, a heavier beam, a faster time, or a more spectacular answer. The men had not cured themselves of wanting to surpass one another; they had begun to recognise when the contest made them careless with the people beside them. The next challenge would test whether they could keep the game generous enough to be worth returning to.
 ---
 
 ## Continuity record

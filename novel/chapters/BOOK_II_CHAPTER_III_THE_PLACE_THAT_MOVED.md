@@ -16,8 +16,6 @@ Oren put the map on the table and placed three small weights along its edge. “
 
 “Because the next report should be better than the last one. We have waited for a reason to believe it would be.”
 
-The expedition leader looked at the map. The blank beyond the Warm Table was small, but it occupied the centre of the sheet. It was not the blankness of an unexplored continent. It was a missing connection in a country whose surrounding roads were known. The men had spent the previous day learning that a map could be a record of successive states. Now they were being asked to enter the space between those states and discover what had happened to the route.
-
 The leader asked what the previous companies had done before withdrawing. Oren turned the map so that the margin faced them. The last party had reached the Warm Table, secured itself to the old ring, and returned when the floor began to rise. Its report contained no account of the opening because the opening had not yet appeared. The party before it had recorded a broad chamber and a direct descent. The difference between those reports was not a disagreement. They described different times.
 
 “Did they leave anything behind?” Marcus asked.
@@ -88,9 +86,7 @@ Marcus wanted to know whether the upper gallery might provide a safer view of th
 
 Vale knew the lower route had been used by earlier companies and that the Warm Table lay beyond it. He did not know whether the old floor remained continuous. Marcus could see the upper gallery, but he could not tell whether it had a second exit. The surveyor had measured the raised band and the marker's angle, but he had not measured the full chamber. The leader had Kirk's report of a tightening and release, but not a description of the route from inside.
 
-They agreed to follow the lower branch only as far as the next marker. The upper gallery would be drawn as a possible passage with no confirmed connection. The leader sent Kirk a brief update before they moved. Kirk acknowledged it and asked them to stop if the route changed again. The party attached a new cedar strip to the old post, leaving the original symbol visible beneath it, and entered the lower passage.
-
-Vale recommended the lower branch. The upper gallery had appeared only after the shift and had not been surveyed. The lower branch, though narrowed, still followed the old route and might lead to the Warm Table. The party agreed to proceed only as far as the next marker. They attached a new cedar strip to the old post, leaving the original mark visible beneath it, and entered the lower passage.
+Vale recommended the lower branch. The upper gallery had appeared only after the shift and had not been surveyed; the lower branch, though narrowed, still followed the old route and might lead to the Warm Table. They agreed to proceed only as far as the next marker, with the upper gallery drawn as a possible passage and no confirmed connection. The leader sent Kirk a brief update before they moved. Kirk acknowledged it and asked them to stop if the route changed again. The party attached a new cedar strip to the old post, leaving the original symbol visible beneath it, and entered the lower passage.
 
 The route tightened, then opened into a chamber with a sloping floor. At its centre stood a low stone platform, tilted but intact. Vale recognized it immediately. The Warm Table had once been level enough for a whole party to sit around it. Now one end had risen above the floor, and the other had become a shallow ramp leading into a narrow seam. A length of old cord remained tied to a ring in the stone. It had been cut cleanly, not broken.
 
@@ -106,8 +102,6 @@ The surveyor placed a second marker at the near edge of the chamber. He did not 
 
 The men had reached the point where another step would produce more risk than information. They could see the opening, measure the air, and compare the Warm Table with its former position. They could not see the far side or know whether the narrow seam continued into a chamber, a passage, or a space that would close if Kirk moved again.
 
-Nobody crossed the chamber.
-
 The leader sent the new readings to Kirk. This time the answer came quickly. Kirk said he could feel a small movement in the area, not pain, but a tightening followed by a release. He asked them to stay clear of the opening until he understood it. The men withdrew to the near side of the Warm Table and set a temporary marker. They had found the missing connection, but not a safe route through it.
 
 The withdrawal was orderly. Vale went first along the known passage, followed by the surveyor with the instruments. Marcus remained near the rear marker until the others had reached the lower bend, then checked that the temporary strip was still visible. The leader sent the measurements to Kirk in separate parts: the platform's tilt, the opening's position, the air current, and the repeated vibration. He did not ask Kirk to identify the opening. He asked only whether the tightening he had felt had changed.
@@ -122,25 +116,13 @@ Vale looked back once at the Warm Table. “The last party was right,” he said
 
 The leader entered the exchange in the field report. The withdrawal was not a failure to complete the route. It was the result of the evidence they had gathered and the limit Kirk had asked them to respect. They had improved the map without claiming the opening.
 
-On the return journey, the party stopped again at the Long Fold. The upper gallery seemed wider than it had on their arrival. The surveyor checked the old marker and found that its angle had changed by another fraction. The movement was slight, but it was measurable.
-
-Vale stopped beside the old marker and compared its angle with the note he had made on the descent. The change was small enough that a traveller passing through without an instrument might not have noticed it. The surveyor repeated the measurement and obtained the same result. The upper gallery had widened, but the lower edge had also shifted. The junction was still changing after the party had left it.
+On the return journey, the party stopped again at the Long Fold. The upper gallery seemed wider than it had on their arrival. Vale compared the old marker's angle with the note he had made on the descent. The change was small enough that a traveller passing through without an instrument might not have noticed it. The surveyor repeated the measurement and obtained the same result. The lower edge had also shifted. The junction was still changing after the party had left it.
 
 Marcus asked whether they should wait and take another reading. The leader considered the time and the return route. They had enough evidence to establish that the place was moving; another reading from the same position would not make the route safe. He asked the surveyor to record the change and continue. The party would not turn a return journey into a second expedition simply because the map offered one more blank space.
 
 When they reached the upper passage, the receiver sounded again. Kirk asked whether they were clear of the lower route. The leader confirmed that they were. Kirk said he had felt the pressure ease, then return faintly. He did not know whether it was another movement or the after-effect of the first. The leader recorded the statement as Kirk's report, separate from the instrument reading at the Long Fold.
 
 They continued to the Measure House without attempting another descent. The place was continuing to settle into its new arrangement while they watched.
-
-At the Measure House, Senn had already prepared the new sheet. He did not erase the old route. He drew the former chamber in dark ink, the raised band in a second line, and the two new passages in a third. The Warm Table received two outlines: its previous level position and its present tilt. The dark opening behind it was left unfilled. Across the margin, the surveyor wrote the time of the latest measurement and the instruction not to cross without a new report from Kirk.
-
-Oren studied the finished map. “We thought the lower route had ended,” he said. “It hadn't ended. It had become a different kind of place.”
-
-Vale looked at the two outlines of the Warm Table. “The old party was right to turn back.”
-
-“And we were right to wait,” Oren said.
-
-The leader sent Kirk the completed record. In return, Kirk asked them to preserve the first map as well as the new one. He wanted to understand the sequence, not only the result. The request changed the way the Measure House stored its records.
 
 Senn asked the surveyor to sit beside him while he prepared the new sheet. The first map remained open on the left. The new drawing occupied the centre, and a narrow strip of paper on the right held the measurements that had not yet been placed on either outline. Senn did not want the new map to look finished before the surveyor had checked the scale and the direction of the Long Fold.
 
@@ -150,9 +132,15 @@ Oren read the margin notes. He asked that the old party's report be placed besid
 
 When the map was finished, Senn laid the two states side by side. The old route could still be followed, but it no longer described the current floor. The new route showed the raised band and upper gallery, but it did not claim to know where the opening led. The blank remained visible. The archive had gained a better account without gaining an answer. Senn cleared a second shelf and began arranging the maps by date, with each altered region placed beside its previous state. The settlement's archive was becoming an account of growth as it happened.
 
-That night, the men gathered around the table while Oren explained what the discovery meant. The lower country was not closed. It was changing.
+Oren studied the finished map. “We thought the lower route had ended,” he said. “It hadn't ended. It had become a different kind of place.”
 
-The conversation continued while the lamps were lowered. Oren asked the newcomers what they would have done if the upper gallery had appeared before they reached the Long Fold. Marcus said he would have wanted to explore it. The surveyor said he would have wanted a second reference. Vale said he would have checked the lower route because he knew where it had once led. None of the answers was complete on its own.
+Vale looked at the two outlines of the Warm Table. “The old party was right to turn back.”
+
+“And we were right to wait,” Oren said.
+
+The leader sent Kirk the completed record. In return, Kirk asked them to preserve the first map as well as the new one. He wanted to understand the sequence, not only the result. The request changed the way the Measure House stored its records.
+
+That night, the men gathered around the table as the lamps were lowered. Oren explained that the lower country was not closed; it was changing. He asked the newcomers what they would have done if the upper gallery had appeared before they reached the Long Fold. Marcus said he would have wanted to explore it. The surveyor said he would have wanted a second reference. Vale said he would have checked the lower route because he knew where it had once led. None of the answers was complete on its own.
 
 Oren told them that the Measure House had once made the same mistake in reverse. A passage had opened near a familiar stopping place, and the first party had treated it as a shortcut. They had returned safely, but their report had left out the fact that the floor had changed beneath them. A later party had followed the new route and found that the opening had narrowed. The keepers had learned to record the conditions under which a route had been used, not merely the fact that someone had passed through it.
 

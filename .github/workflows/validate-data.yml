@@ -171,6 +171,7 @@ jobs:
           const autonomy = fs.readFileSync('engine/world-autonomy.js', 'utf8');
           const atlas = fs.readFileSync('engine/story-atlas.js', 'utf8');
           const atlasPage = fs.readFileSync('worldspace/maps.html', 'utf8');
+          const atlasScript = fs.readFileSync('worldspace/maps.js', 'utf8');
           const detailedMaps = JSON.parse(fs.readFileSync('geo-cyberspace/detailed-maps.json', 'utf8'));
           const spatialMap = JSON.parse(fs.readFileSync('hub/spatial-world.json', 'utf8'));
           const atlasCss = fs.readFileSync('engine/story-atlas.css', 'utf8');
@@ -208,7 +209,8 @@ jobs:
           if (new Set(scaleIds).size !== scaleIds.length || !['WORLD','KINGDOM','VEYRT','COMPLEX'].every(id => scaleIds.includes(id))) throw new Error('Detailed Atlas scales are incomplete or duplicated');
           const invalidScaleRecords = [...detailedMaps.landmarks, ...detailedMaps.regions].filter(item => !scaleIds.includes(item.scale));
           if (invalidScaleRecords.length) throw new Error('Detailed map records reference unknown scales');
-          for (const source of ["'../world.json'", "'../hub/spatial-world.json'", "'../geo-cyberspace/detailed-maps.json'", "'../hub/world-state.json'"]) if (!atlasPage.includes(source)) throw new Error('Geographic Atlas is missing source ' + source);
+          for (const source of ["'../world.json'", "'../hub/spatial-world.json'", "'../geo-cyberspace/detailed-maps.json'", "'../hub/world-state.json'"]) if (!atlasScript.includes(source)) throw new Error('Geographic Atlas is missing source ' + source);
+          if (!atlasPage.includes('src="./maps.js"')) throw new Error('Geographic Atlas page does not load its application module');
           if (!html.includes('href="./worldspace/maps.html"')) throw new Error('Black console does not link to the geographic Atlas');
           for (const file of ['./engine/screen-puncture.css', './engine/screen-puncture.js', './engine/story-atlas.js', './engine/world-autonomy.js']) {
             if (!html.includes(file)) throw new Error('index.html does not load ' + file);

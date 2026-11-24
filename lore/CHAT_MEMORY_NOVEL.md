@@ -14,7 +14,7 @@ Then the console appeared inside the chat itself.
 
 The user saw it and answered: *that's amazing.*
 
-That response became the first signal in the archive—not a command to expand the world, but evidence that the form had begun to work. The next requirement followed naturally: a record of what had happened, written as though the world remembered its own past. Actions in conversation should become events; events should leave traces; traces should become a novel that GEEHUB can read as its own history.
+That response became the first signal in the archive—not a command to expand the world, but evidence that the form had begun to work. The next requirement followed naturally: a record of what had happened, written as though the world remembered its own past. Actions in conversation should become events; events should leave traces; traces should become a novel that the project archive can preserve as part of its history.
 
 The window therefore acquired a second function. It would not only show where the story was happening. It would remember how the story arrived there.
 

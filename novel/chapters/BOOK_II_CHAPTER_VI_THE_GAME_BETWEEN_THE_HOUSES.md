@@ -203,16 +203,9 @@ Joseph took it, then smiled faintly. “You don't have to pay me back with a bal
 
 That evening Kirk came to the House of Returns as promised. He and Joseph sat by the hearth. Andrew did not call; he had been given a time to see Kirk the next morning, and he chose to keep it. His longing remained, but it now had a boundary he could practise respecting.
 
+Before they separated, Chase added a rule to the route sheet: a player could stop at any marker, take the shorter path, or leave the course without losing the value of the attempt. The Long Return would record the route, not the worth of the man who took it. Andrew read the note and accepted it.
 
-Before they separated, Chase added a short rule to the route sheet: a player could stop at any marker, change to the shorter path, or leave the course without losing the value of the attempt. The Long Return would record the route taken, not the worth of the man who took it. Andrew read the note and did not argue. He wanted the game to become more difficult, but he could see that difficulty did not require making the other men feel inadequate.
-
-Joseph returned the ball to the common table before going home. He did not keep it as payment for the earlier conversation. Andrew thanked him for the turn and asked whether he wanted to play again the next day. Joseph said he would decide after breakfast. Andrew nodded. The answer was allowed to remain open.
-
-The residents left the course assembled but quiet. The markers were visible, the recovery bench was in place, and the viewing arch could be closed. The game had a route, but it did not yet have a winner or a final form. It could change as the residents learned more about the grounds and about one another.
-
-Across the green, the four houses held their separate lights. The game had acquired its first name: the Long Return. It was about choosing a route, noticing how it changed, and finding a way back without pretending the two sides were identical.
-
-Kirk had not moved the grounds for them that day. He had not needed to. The residents had learned how to share the country as it was.
+Joseph returned the ball to the common table. Andrew thanked him and asked whether he wanted to play again the next day. Joseph said he would decide after breakfast. Andrew let the answer remain open. The residents left the course assembled and quiet, with its markers visible and recovery bench in place. The game had a route, but no winner and no final form.
 ---
 
 ## Continuity record

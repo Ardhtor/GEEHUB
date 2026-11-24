@@ -59,12 +59,13 @@ Chase keeps the map's three evidence layers separate: direct measurements, Kirk'
 
 The residents' instinct to compete and show off is a permanent feature of Book II, not a temporary period of rivalry. A demonstration invites a response; the response establishes a new standard; the new standard becomes the next man's starting point. The cycle passes between physique, sport, technical skill, architecture, timing, precision, hospitality, humour, and personal style. No single ranking captures the whole culture, and no final champion ends it.
 
-The first formal expression is the **Evermeasure**, the continuing exhibition and challenge practice established in Chapter VII. The **Evermeasure Board** is fixed to the common pavilion wall. It preserves dated achievements, methods, previous records, and next challenges. It does not reduce the men to a permanent hierarchy or erase a result when it is surpassed. The Long Return remains cooperative in its original form; later competitive variations must retain voluntary participation, alternate routes, and recovery points.
+The first formal expression is the **Evermeasure**, the continuing exhibition and challenge practice established in Chapter VII. The **Evermeasure Board** is fixed to the common pavilion wall. It preserves dated achievements, methods, previous records, and next challenges. It does not reduce the men to a permanent hierarchy or erase a result when it is surpassed. The Long Return remains cooperative in its original form; later competitive variations must retain voluntary participation, alternate routes, and recovery points. Chapter IX introduces the **Narrow Turn**, a temporary, adjustable mock-up assembled inside the pavilion to test the removable display frame. It is an apparatus, not a new geographic landmark: it does not alter the Cedar Span or the Twin Grounds. Its two records distinguish the cleanest controlled passage from the fastest clean passage, and the method remains provisional until repeated on another day.
 
 | ID | Feature | Location | Function | Status |
 |---|---|---|---|---|
 | `evermeasure-board` | Evermeasure Board | Common pavilion | Permanent archive of demonstrations, records, methods, and next challenges | Established |
 | `evermeasure` | The Evermeasure | Shared green and pavilion | Recurring exhibition and one-upmanship culture | Established |
+| `narrow-turn-mock-up` | Narrow Turn mock-up | Common pavilion | Temporary adjustable test apparatus for paired frame carries | First two pairs passed; repeatability pending |
 
 The phrase **forever** refers to the continuing and inheritable nature of the practice: each result becomes material for another attempt. It does not require every gathering to be competitive. Private rooms, quiet days, meals, care, and relationships remain necessary parts of the residents' lives.
 
@@ -113,6 +114,7 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 - The paired residential country, its four named mansions, shared green, covered walks, common kitchen, recreation hall, and independent private grounds.
 - The Twin Grounds, Cedar Span, eastern hollow, viewing arch, first playable Long Return route, and the Evermeasure Board in the common pavilion.
 - The Evermeasure as a recurring exhibition and challenge cycle with no final champion.
+- The temporary Narrow Turn mock-up and Joseph's revised oak corner cradle; two carrier pairs have passed, while a fresh-day repeatability test remains open.
 - The Measure House's dated map archive and the residents' continued domestic, workshop, kitchen, route, and archival routines.
 - Andrew's increasing need for Kirk's attention and the resulting pressure on Joseph's access to shared time, as developed in [Chapter IV — The Promises That Keep](./BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md) and [Chapter V — Four Mansions](./BOOK_II_CHAPTER_V_FOUR_MANSIONS.md).
 
@@ -123,6 +125,7 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 - Reliable movement signals and which paths remain stable across successive changes.
 - How Andrew, Joseph, and Kirk negotiate time and attention as the residents settle into their homes.
 - How the Evermeasure develops new categories, records, and recurring challenges.
+- Whether the Narrow Turn method remains repeatable on a later day and what clean-passage and timed marks can be established.
 - The scope and future disclosure conditions of Michael Brock and Kirk's private relationship; do not presume other characters know.
 - Exact alignment, walking distance, and stable reference points for the Cedar Span and Long Return.
 - Whether the eastern hollow changes after Kirk's next reported movement and what route remains safe afterward.
@@ -146,4 +149,5 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 - [Chapter VI — The Game Between the Houses](./BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md)
 - [Chapter VII — The Contest That Never Ends](./BOOK_II_CHAPTER_VII_THE_CONTEST_THAT_NEVER_ENDS.md)
 - [Chapter VIII — A Day in the Open Pavilion](./BOOK_II_CHAPTER_VIII_A_DAY_IN_THE_OPEN_PAVILION.md)
+- [Chapter IX — The Narrow Turn](./BOOK_II_CHAPTER_IX_THE_NARROW_TURN.md)
 - [The Evermeasure — Competitive Doctrine](./BOOK_II_COMPETITIVE_DOCTRINE.md)

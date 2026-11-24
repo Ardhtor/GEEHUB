@@ -22,6 +22,7 @@ The term **Tractus** appears in repository continuity and lore records. Until a 
 | Book II production handoff | The completion register still named Chapter V as the next revision even though Chapters I–V had first expansion passes. | The handoff now points to Chapter VI and leaves Chapters IV–V's whole-book reviews open. |
 | Editorial language | The AI narrative specification described the fiction as “GEEHUB” as though the product name were the world. | Reworded the passage to refer to the fiction, not the repository brand. |
 | In-world naming | The editorial directive did not explicitly distinguish the production-workshop name from the names used by inhabitants. | Added a naming boundary: no externally assigned umbrella name; let characters name things through use and conversation. |
+| Book I diegetic branding and age framing | The environmental rewrite gave the future city a sign reading “GEEHUB,” repeated the word across its surfaces, used “the Hub” as an established in-world name, and included several child-coded characters. | Removed the imposed brand and unearned proper name. An unmarked sign remains; Luke and Joseph defer naming the place until they understand it. The rewrite's child-coded roles are now adult residents or travelers. |
 | Narrative register | `novel/WORLDS.md` used “the Hub,” “the system,” “world-engine,” “FOMO engine,” and “world graph” inside passages presented as story prose. | Recast the identified passages in terms of rooms, roads, maps, gatherings, and actions. |
 
 ## Manuscript-source correction
@@ -54,6 +55,10 @@ These may belong to different books or parallel continuities, because the reposi
 ### Cross-book relationships
 
 The Joseph/Kirk direction, Andrew/Kirk's established history, Michael/Kirk's secret and gentle relationship, and the provisional Ian/Gabe/Kirk branch must remain distinct. The provisional triangle is not yet placed on the Book II chronology. Do not collapse these relationships into one rivalry or assume disclosure, exclusivity, or a shared timeline that the scenes have not established.
+
+### Andrew and Kirk — the nature of their earlier bond
+
+Book II, Chapter IV — *The Promises That Keep* gives Andrew and Kirk a pre-expedition history marked by easy familiarity, mutual affection, shared private promises, and language of chemistry. The later relationship records describe Andrew's attention to Kirk as a separate unresolved pressure and do not define the earlier bond as romantic, former partnership, friendship, or something else. This may be deliberate complexity, but its status is not explicit. Preserve both records; do not invent a breakup, affair, or exclusivity agreement. Before a later chapter relies on the relationship's past, establish what the two men understood that bond to be and how it coexists with Joseph and Kirk's eventual direction.
 
 ## Audit method for subsequent passes
 

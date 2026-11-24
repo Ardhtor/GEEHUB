@@ -2,7 +2,7 @@
 
 **Analysis date:** 2026-11-24  
 **Coverage:** five Library image files; each image was opened and visually reviewed in full.  
-**State:** content inspected; visual relationships proposed, not confirmed.  
+**State:** comparatively analysed; visual relationships proposed, not confirmed.  
 **Source of truth:** the original files remain in the ChatGPT Library. This repository stores analysis records and source locators, not copies of those binaries.
 
 ## Why these five were examined together
@@ -27,9 +27,11 @@ The figure's head, shoulders, pectorals, abdomen, arms, hands, denim waistband, 
 
 ## What the comparison suggests
 
-The five share enough of the same composition and visual construction to be handled as a **candidate variation family**. Differences between the entries appear subtle at this review scale. The current evidence does not support naming a first, second, third, or final stage. Nor does it support collapsing the five into one canonical asset. They remain five distinct source files, each with its own record.
+The five share enough of the same composition and visual construction to be handled as a **candidate variation family**, but the binary and image comparisons show that it is not one uniform set of near-duplicates. All five are 1031 × 1526 pixels and all five SHA-256 digests are distinct, so there are no byte-for-byte duplicates in this group. A normalized visual screening pass was then run on each pair: each image was resized directly to 256 × 384 pixels, with no geometric registration, and compared using structural similarity (SSIM), difference hash (dHash), average hash (aHash), grayscale mean absolute error, and grayscale correlation.
 
-The next comparison that would materially improve this finding is binary-level and image-level analysis: compute SHA-256 digests to detect exact copies, then compare decoded images after recording their dimensions and normalizing for crop and scale. A perceptual hash or structural similarity comparison could identify near-duplicates, while aligned pixel-difference maps could reveal localized changes in chest contour, arm size, face, texture, or crop. Until that is done, “visually similar variant candidate” is the correct relationship state.
+The strongest visual pair is **Hyper-Muscled Bodybuilding Portrait** ↔ **Hyper-Muscular Bodybuilder Portrait(1)** (SSIM 0.929552; dHash distance 3/64). **Massive Shirtless Bodybuilder Portrait** ↔ **Hyper-Muscled Bodybuilding Portrait** is also close (SSIM 0.831648; dHash distance 0/64), although the zero dHash distance is a low-resolution hash collision, not a claim of identity or exact duplication. **Intense Hyper-Muscular Bodybuilder Portrait** ↔ **Massive Hyperreal Bodybuilding Portrait** forms another comparatively close pair (SSIM 0.792856; dHash distance 2/64). These results suggest at least two tighter visual groupings around one shared compositional style. The other pairwise scores are lower, and the images should not be treated as one homogeneous near-duplicate cluster.
+
+The metric table and per-file digests are stored in [the comparison record](./PECTORAL_VARIATION_CLUSTER_001.comparison.json). Scores are screening evidence only: direct resizing without registration is sensitive to even small pose, crop, and lighting differences. The current evidence does not support naming a first, second, third, or final stage, assigning a shared identity, or collapsing the five into one canonical asset. They remain five distinct source files, each with its own record.
 
 ## Embodiment and presentation
 
@@ -41,10 +43,11 @@ This family is potentially useful for an exaggerated pectoral and shoulder morph
 
 ## Evidence boundary
 
-- Five image files were directly viewed; five individual JSON records were created.
-- The source IDs and filenames identify Library assets; the underlying files remain in the Library.
-- No checksum, binary duplicate check, image registration, measured anatomical comparison, source chronology, creator attribution, or person identification was performed.
-- Similarity is recorded as a proposed relationship, not a confirmed identity or sequence.
+- Five image files were directly viewed and materialized temporarily for byte-level checks; five individual JSON records were created and updated.
+- All five images have dimensions of 1031 × 1526 pixels and distinct SHA-256 digests; exact byte-for-byte duplicate matches were not found.
+- Ten pairwise comparisons were computed at 256 × 384 pixels using SSIM, dHash, aHash, grayscale mean absolute error, and grayscale correlation. No geometric registration was performed.
+- Source IDs and filenames point to Library originals; the binary images are not committed to the public repository.
+- Similarity relationships remain proposed. No common identity, exact duplicate, chronology, generation source, or growth-stage sequence is claimed.
 - The embodiment reading is a tentative interpretation of pose and presentation, not a factual statement about inner experience.
 
-**Conclusion:** the useful discovery is not simply that these are “big pec” images. They form a coherent chest-dominant visual family with a repeatable pose, framing, shoulder/arm support, texture treatment, and lower-torso relationship. GEEHUB can now retain those details separately for later comparison and production without prematurely turning the family into one character or a growth timeline.
+**Conclusion:** the useful discovery is not simply that these are “big pec” images. They share a chest-dominant visual language, but the metric results reveal meaningful variation and a couple of much closer pairings. GEEHUB can now retain the source details, exact digests, and comparative evidence separately, so later production can choose the right silhouette without prematurely turning the family into one character or a growth timeline.

@@ -18539,6 +18539,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000348",
+      "created_at": "2026-11-24T06:53:16.764593+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "CEDAR HOUSE",
+      "content": "SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "lineage": {
+        "event_id": "world-pulse-000348",
+        "event": {
+          "id": "world-pulse-000348",
+          "pulse": 348,
+          "time": "2026-11-24T06:53:16.764593+00:00",
+          "actor": "LUKE",
+          "world": "CEDAR HOUSE",
+          "region_id": "cedar-house",
+          "previous_region_id": "cedar-house",
+          "phase": "ATMOSPHERE",
+          "source": "worlds/cedar-house/README.md",
+          "desire_state": "attention",
+          "action": "SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+          "narrative_rule": "approach extends geography",
+          "relation": null,
+          "next_region": null,
+          "pressure": 0.96,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-24T06:53:16.764593+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000348",
+      "created_at": "2026-11-24T06:53:16.764593+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / CEDAR HOUSE / worlds/cedar-house/README.md",
+      "content": "SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 348,
+        "actor": "LUKE",
+        "world": "CEDAR HOUSE",
+        "region_id": "cedar-house",
+        "source": "worlds/cedar-house/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00179",
+      "created_at": "2026-11-24T06:53:16.848096+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE CLUBS AND SOCIETIES FAIR",
+      "content": "Tables appear beneath the arcade: architecture, music, rowing, film, natural history, computing and the old debating society. New students drift between them while returning members explain what they actually do, rather than reciting polished pitches.",
+      "lineage": {
+        "event_id": "northgate-campus-00179",
+        "event": {
+          "id": "northgate-campus-00179",
+          "cycle": 179,
+          "world_pulse": 348,
+          "at": "2026-11-24T06:53:16.848096+00:00",
+          "region": "northgate-university",
+          "title": "THE CLUBS AND SOCIETIES FAIR",
+          "kind": "community",
+          "participants": [
+            "Dan Roman",
+            "Elliot Ward",
+            "Noah Bell"
+          ],
+          "description": "Tables appear beneath the arcade: architecture, music, rowing, film, natural history, computing and the old debating society. New students drift between them while returning members explain what they actually do, rather than reciting polished pitches.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-24T06:53:16.848096+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

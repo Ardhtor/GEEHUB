@@ -158,11 +158,11 @@ A first ending-compression pass was completed across Chapters I–IX on 24 Novem
 | IV — The Promises That Keep | 3,725 | `bd85a9bca132296bd7e428b72a58905ae4c4e164` | Ending compressed; relationship continuity and line edit pending |
 | V — Four Mansions | 4,763 | `1bd08c1b52d38df531ff7d40933e8a2af99bad05` | Ending compressed; residential and relationship review pending |
 | VI — The Game Between the Houses | 3,947 | `e7b3a3303c9009d36d58343777944d5131b3ca22` | Ending compressed; Long Return and relationship review pending |
-| VII — The Contest That Never Ends | 2,274 | `a8684a2664f533cbfb186d5a6326bcf8896b16aa` | Ending compressed; Evermeasure and relationship review pending |
+| VII — The Contest That Never Ends | 3,945 | `75c8bca41e19253a7f4fe01545ceec9799b7984b` | Ending compressed; Evermeasure and relationship review pending |
 | VIII — A Day in the Open Pavilion | 2,287 | `d36fa5711621a5e062e8c7820d950bade48348fb` | Ending compressed; Michael's day and privacy continuity review pending |
 | IX — The Narrow Turn | 3,877 | `1c4ef8c06bda7a9475d6318f5d7009bbecbc1a03` | Ending compressed; scene clarity and repeatability continuity review pending |
 
-**Current narrative census:** 33,901 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
+**Current narrative census:** 35,572 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
 
 - **Chapter VII — The Contest That Never Ends:** first in-place expansion pass completed on 24 November 2026. Narrative body: 4,028 words, excluding the continuity record. Current Git blob: `d20e1e9d4954ff94d148919193587121d2e35bed`. The expansion develops the Evermeasure's first excess and its self-correction: informal tally marks begin to rank people, a demonstration risks becoming an expectation, and the residents create distinct achievement categories with recovery and refusal protected. Its governing note is **The game may continue; the man may stop.** Whole-book review remains pending.
 - **Next:** Chapter VIII — A Day in the Open Pavilion. Expand Michael's day through ordinary company, physical work, craft, recovery, and private tenderness while keeping his relationship with Kirk secret.

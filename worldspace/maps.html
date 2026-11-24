@@ -3,149 +3,126 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>THE TRACTUS — Living Atlas</title>
+<meta name="theme-color" content="#050708">
+<title>GEEHUB // THE ATLAS</title>
 <style>
-:root{color-scheme:dark;--ink:#d8e0d8;--muted:#91a09a;--line:#35443e;--panel:#101714;--accent:#a9c4ad;--gold:#c5a875}
-*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#080c0b;color:var(--ink);font:14px/1.5 system-ui,sans-serif}
-body{background:radial-gradient(ellipse at 50% 0%,#1b2a24 0,#0a100e 55%,#070a09 100%)}
-main{max-width:1440px;margin:auto;padding:26px clamp(14px,3vw,42px) 48px}
-header{display:flex;justify-content:space-between;gap:20px;align-items:end;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:18px}
-.kicker,.eyebrow{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9aaa9f}
-h1{font:500 clamp(28px,4vw,46px)/1.05 Georgia,serif;letter-spacing:.04em;margin:8px 0}
-.intro{max-width:690px;color:#aebbb2;margin:8px 0 0}
-a{color:#c2d6c6;text-decoration:none}a:hover{text-decoration:underline}
-.controls{display:flex;gap:7px;flex-wrap:wrap;margin:18px 0 12px}
-button{font:inherit;color:var(--ink);background:#111a16;border:1px solid #405047;border-radius:3px;padding:8px 12px;cursor:pointer}
-button:hover,button.active{background:#24352c;border-color:#9ab19e;color:#fff}
-.layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:14px;align-items:start}
-.map-shell{border:1px solid #46574d;background:#0a100d;box-shadow:0 20px 70px #0008;position:relative;overflow:hidden}
-.map-head{display:flex;justify-content:space-between;gap:12px;padding:12px 15px;border-bottom:1px solid #2e3b34;color:var(--muted);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
-#map{display:block;width:100%;height:auto;min-height:360px;background:#111b16}
-.side{display:grid;gap:12px}
-.panel{border:1px solid #34443a;background:linear-gradient(145deg,#111a15,#0b100d);padding:14px}
-.panel h2{font:500 17px Georgia,serif;margin:0 0 9px;color:#dce6dd}
-.panel p{color:#a8b5ab;font-size:12px;margin:5px 0}
-.pin{border-top:1px solid #2a3830;padding:10px 0}
-.pin:first-of-type{border-top:0}
-.pin strong{display:block;font-size:13px;font-weight:600}
-.pin small{display:block;color:#8d9b91;margin-top:3px;font-size:10px;letter-spacing:.06em;text-transform:uppercase}
-.pin p{margin:5px 0 0}
-.status{color:#d4bd91!important}
-.legend{display:flex;gap:14px;flex-wrap:wrap;color:#94a39a;font-size:10px;padding:10px 14px;border-top:1px solid #2b3831}
-.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#c6d8c5;margin-right:5px}
-.dot.story{background:#d1ae72}.dot.open{background:#809dba}
-#detail{min-height:86px;color:#c2cec4;font-size:12px;white-space:pre-wrap}
-#transition{color:#c3d1c5;font:italic 14px Georgia,serif;min-height:42px}
-footer{margin-top:18px;color:#7f8d83;font-size:10px;letter-spacing:.06em}
-svg text{font-family:system-ui,sans-serif;pointer-events:none}
-.region{cursor:pointer}.region circle{fill:#b7c9b4;stroke:#e4ebdf;stroke-width:1.2;filter:url(#glow)}.region text{fill:#e0e8df;font-size:12px;paint-order:stroke;stroke:#0a100d;stroke-width:3px;stroke-linejoin:round}.region.selected circle{fill:#e0bd7b;stroke:#fff0c9;stroke-width:2.4}
-.route{fill:none;stroke:#91a99a;stroke-width:1.4;stroke-dasharray:4 7;opacity:.55}.terrain-line{fill:none;stroke:#819184;stroke-width:1;opacity:.22}.story-pin circle{fill:#d2ac70;stroke:#fff0c9;stroke-width:1.5}.story-pin text{fill:#f0d7a9;font-size:11px;paint-order:stroke;stroke:#0b100d;stroke-width:3px}
-@media(max-width:900px){.layout{grid-template-columns:1fr}.side{grid-template-columns:1fr 1fr}}
-@media(max-width:600px){main{padding:16px 10px 32px}.side{grid-template-columns:1fr}.map-head{font-size:9px}#map{min-height:260px}}
+:root{color-scheme:dark;--ink:#dce5e2;--muted:#8c9b97;--line:#263633;--panel:#0a1110;--gold:#d2bd8a;--cyan:#80c9c0}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#050708;color:var(--ink);font:13px/1.45 ui-sans-serif,system-ui,sans-serif}
+body{padding:clamp(12px,2vw,28px);display:grid;grid-template-rows:auto auto minmax(420px,1fr) auto;gap:12px;min-height:100vh}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:18px;border-bottom:1px solid var(--line);padding:4px 0 14px}
+.eyebrow,.micro{font:10px/1.4 ui-monospace,monospace;letter-spacing:.18em;color:var(--muted)}
+h1{font-size:clamp(24px,4vw,42px);font-weight:500;letter-spacing:.04em;margin:5px 0 0}
+header p{margin:5px 0 0;color:var(--muted);max-width:680px}
+.controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:4px 0}
+.control-group{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.control-label{font:10px ui-monospace,monospace;letter-spacing:.14em;color:var(--muted);margin-right:5px}
+button{font:11px ui-monospace,monospace;letter-spacing:.04em;color:#c8d4d0;background:#0d1513;border:1px solid #2c3b37;padding:8px 11px;cursor:pointer}
+button:hover,button.active{color:#07100e;background:#c9d8cf;border-color:#c9d8cf}
+button:focus-visible,a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+main{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,310px);gap:12px;min-height:0}
+#mapPanel{position:relative;min-height:420px;overflow:hidden;border:1px solid var(--line);background:radial-gradient(ellipse at 50% 46%,#1a2b25 0%,#0a1210 58%,#050908 100%);box-shadow:inset 0 0 80px #0008}
+#mapSvg{display:block;width:100%;height:100%;min-height:420px}
+.map-caption{position:absolute;left:14px;top:12px;pointer-events:none;color:#8ea29b;font:10px ui-monospace,monospace;letter-spacing:.13em}
+#side{border:1px solid var(--line);background:linear-gradient(160deg,#0d1513,#080d0c);padding:16px;display:flex;flex-direction:column;gap:12px;min-height:420px}
+#side h2{font-size:19px;font-weight:500;margin:0;color:#e4e9e4}
+#side p{margin:0;color:#aab8b2;line-height:1.65}
+#side dl{display:grid;grid-template-columns:82px 1fr;gap:7px 10px;margin:0;font:11px ui-monospace,monospace}
+#side dt{color:#71817b}#side dd{margin:0;color:#d3ddd8;overflow-wrap:anywhere}
+#side .detail-link{margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+#status{min-height:18px;color:var(--muted);font:10px ui-monospace,monospace;letter-spacing:.08em}
+footer{display:flex;justify-content:space-between;gap:12px;color:#75847e;font:10px ui-monospace,monospace;letter-spacing:.08em;border-top:1px solid var(--line);padding-top:10px}
+svg text{font-family:ui-monospace,monospace;user-select:none}
+.map-node{cursor:pointer}.map-node:focus{outline:none}.map-node:focus circle,.map-node:focus path{stroke:#fff;stroke-width:3}
+@media(max-width:800px){body{grid-template-rows:auto auto auto auto}header{align-items:flex-start;flex-direction:column}main{grid-template-columns:1fr}#side{min-height:220px}#mapPanel,#mapSvg{min-height:380px}footer{flex-direction:column}}
 </style>
 </head>
 <body>
-<main>
 <header>
- <div><div class="kicker">THE TRACTUS / GEO-CYBERSPACE</div><h1>THE LIVING ATLAS</h1><p class="intro">A spatial operating environment for independent worlds, their routes, inhabitants, artifacts and accumulated history. The map is not a project list: it is where the work becomes a place and where a place can lead to the next encounter.</p></div>
- <div class="eyebrow"><a href="../index.html">Repository</a> / <a href="../hub/index.html">Creative Hub</a> / <a href="../hub/WORLD_ATLAS.md">World Atlas record</a></div>
+  <div><div class="eyebrow">GEEHUB / SPATIAL OPERATING ENVIRONMENT</div><h1>THE ATLAS</h1><p>One navigable geography, with distinct worlds and local maps. Select a territory, inspect its record, and follow the connections that have actually been authored.</p></div>
+  <a href="../index.html">← RETURN TO THE BLACK CONSOLE</a>
 </header>
-<nav class="controls" id="scales" aria-label="Map scale"></nav>
-<nav class="controls" id="layers" aria-label="Map layers"></nav>
-<div class="layout">
- <section class="map-shell">
-  <div class="map-head"><span id="map-title">Tractus constellation</span><span id="map-subtitle">Inherited spatial state</span></div>
-  <svg id="map" viewBox="0 0 1000 640" role="img" aria-label="Interactive spatial map of the Tractus">
-   <defs>
-    <radialGradient id="ground" cx="48%" cy="42%" r="72%"><stop offset="0" stop-color="#34483a"/><stop offset=".5" stop-color="#1b2b22"/><stop offset="1" stop-color="#09100c"/></radialGradient>
-    <linearGradient id="ridge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b5c4a4" stop-opacity=".22"/><stop offset="1" stop-color="#536d59" stop-opacity=".02"/></linearGradient>
-    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".62" numOctaves="3" seed="11"/><feColorMatrix values="0 0 0 0 .55 0 0 0 0 .63 0 0 0 0 .55 0 0 0 .13 0"/></filter>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#8ea18e" stroke-opacity=".12" stroke-width=".7"/></pattern>
-   </defs>
-   <rect width="1000" height="640" fill="url(#ground)"/><rect width="1000" height="640" filter="url(#grain)" opacity=".26"/>
-   <rect width="1000" height="640" fill="url(#grid)"/>
-   <g id="terrain"></g><g id="routes"></g><g id="places"></g><g id="story"></g>
-  </svg>
-  <div class="legend"><span><i class="dot"></i>Established place</span><span><i class="dot story"></i>Current story signal</span><span><i class="dot open"></i>Unsurveyed / unplaced</span></div>
- </section>
- <aside class="side">
-  <section class="panel"><div class="eyebrow">Selected place</div><h2 id="detail-title">The Tractus</h2><div id="detail">Choose a region to inspect its routes and inherited records.</div></section>
-  <section class="panel"><div class="eyebrow">Environmental transition</div><h2>Arrival trace</h2><div id="transition">The map is holding its current atmosphere.</div><p id="transition-meta">Selection changes the local field; no canon is rewritten by navigation.</p></section>
-  <section class="panel"><div class="eyebrow">Story pins</div><h2>Current signals</h2><div id="story-pins"><p>Loading inherited world state…</p></div></section>
- </aside>
-</div>
-<footer>GEOGRAPHY IS EVIDENCE. ROUTES ARE RELATIONS. STORY PINS RETAIN THEIR SOURCE. UNKNOWN COORDINATES REMAIN UNPLACED.</footer>
+<nav class="controls" aria-label="Atlas controls">
+  <div class="control-group"><span class="control-label">SCALE</span><div id="scaleControls"></div></div>
+  <div class="control-group"><span class="control-label">LAYERS</span><div id="layerControls"></div></div>
+</nav>
+<main>
+  <section id="mapPanel" aria-label="Interactive world map">
+    <div class="map-caption" id="mapCaption">WORLD SURVEY / NORTH AT TOP</div>
+    <svg id="mapSvg" viewBox="0 0 1000 700" role="img" aria-label="Interactive GEEHUB atlas"></svg>
+  </section>
+  <aside id="side" aria-live="polite">
+    <div class="eyebrow">ATLAS RECORD</div><h2 id="detailName">THE WORLD</h2>
+    <p id="detailText">Select a territory or place on the map to inspect its description and source record.</p>
+    <dl><dt>IDENTITY</dt><dd id="detailId">world</dd><dt>TYPE</dt><dd id="detailType">WORLD</dd><dt>COORDINATES</dt><dd id="detailCoords">—</dd><dt>SCALE</dt><dd id="detailScale">WORLD</dd><dt>STATE</dt><dd id="detailState">Loaded from repository data</dd></dl>
+    <div class="detail-link" id="detailLink"></div>
+  </aside>
 </main>
-<script>
-const $=s=>document.querySelector(s);
-const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const NS="http://www.w3.org/2000/svg";
-let spatial,detail,state,scale="TRACTUS",selected=null;
-const enabled=new Set(["TERRAIN","ROUTES","PLACES","MEMORY"]);
-const layerNames=["TERRAIN","ROUTES","PLACES","CHARACTERS","SCALE","MOTION","LIGHT","SOUND","MEMORY"];
-const make=(tag,attrs={},parent)=>{const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,v);if(parent)parent.append(n);return n};
-const point=(x,y)=>[x,y];
-function clear(g){while(g.firstChild)g.removeChild(g.firstChild)}
-function label(parent,x,y,text,attrs={}){const n=make("text",{x,y,...attrs},parent);n.textContent=text;return n}
-function terrain(){const g=$("#terrain");clear(g);if(!enabled.has("TERRAIN"))return;
- for(let i=0;i<9;i++){const rx=115+i*28,ry=72+i*18,cx=510+Math.sin(i*.8)*65,cy=320+Math.cos(i*.55)*42;make("ellipse",{cx,cy,rx,ry,transform:"rotate("+(i*7-24)+" "+cx+" "+cy+")",class:"terrain-line"},g)}
- make("path",{d:"M70 460 C190 390 205 260 340 230 S560 120 710 190 S855 390 950 300",fill:"none",stroke:"#819d83","stroke-width":"34","stroke-opacity":".045"},g);
+<footer><span id="status">LOADING CANONICAL MAP DATA…</span><span>SELECT A MARKER / CHANGE SCALE / TOGGLE LAYERS</span></footer>
+<script type="module">
+const $=id=>document.getElementById(id);
+const NS='http://www.w3.org/2000/svg', W=1000,H=700;
+const svg=$('mapSvg');
+const state={scale:'WORLD',layers:new Set(['ROUTES','PLACES','MEMORY']),selected:null};
+let data={world:null,spatial:null,detailed:null,current:null};
+function node(tag,attrs,parent=svg){const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs||{}))n.setAttribute(k,String(v));parent.appendChild(n);return n}
+function htmlNode(tag,attrs,parent){const n=document.createElement(tag);for(const [k,v] of Object.entries(attrs||{}))if(k==='text')n.textContent=v;else n.setAttribute(k,String(v));parent.appendChild(n);return n}
+function text(x,y,value,attrs={},parent=svg){const n=node('text',{x,y,...attrs},parent);n.textContent=value;return n}
+function clear(){while(svg.firstChild)svg.removeChild(svg.firstChild)}
+function macroPoint(r){return{x:100+r.x*8,y:70+r.y*5.6}}
+function localPoint(r,extent){const pad=92;return{x:pad+((r.x+extent/2)/extent)*(W-pad*2),y:pad+((r.z+extent/2)/extent)*(H-pad*2)}}
+function baseMap(title){clear();node('rect',{x:0,y:0,width:W,height:H,fill:'#09120f'});node('rect',{x:0,y:0,width:W,height:H,fill:'url(#atlasGrid)'});const defs=node('defs',{});const pattern=node('pattern',{id:'atlasGrid',width:40,height:40,patternUnits:'userSpaceOnUse'},defs);node('path',{d:'M40 0H0V40',fill:'none',stroke:'#a0b4a5','stroke-opacity':'.09','stroke-width':'.8'},pattern);node('radialGradient',{id:'landGlow'},defs);const grad=defs.lastChild;node('stop',{offset:'0%','stop-color':'#294237','stop-opacity':'.42'},grad);node('stop',{offset:'100%','stop-color':'#07100d','stop-opacity':'0'},grad);node('rect',{x:0,y:0,width:W,height:H,fill:'url(#landGlow)'});text(34,665,title.toUpperCase(),{'font-size':11,fill:'#80938a','letter-spacing':2});}
+function detail(item,kind,scale,coords,path){$('detailName').textContent=item.name||item.id;$('detailText').textContent=item.description||item.lore||'No descriptive passage has been attached to this record yet.';$('detailId').textContent=item.id||'—';$('detailType').textContent=kind||item.kind||item.type||'PLACE';$('detailCoords').textContent=coords||'—';$('detailScale').textContent=scale||state.scale;$('detailState').textContent=item.id===data.current?.regionId?'CURRENT WORLD LOCATION':'Repository record';$('detailLink').replaceChildren();if(path&&path!=='#'){const a=document.createElement('a');a.href=path.startsWith('./')||path.startsWith('../')?path:'../'+path.replace(/^\\//,'');a.textContent='OPEN SOURCE RECORD ↗';$('detailLink').appendChild(a)}}
+function selectNode(item,kind,scale,coords,path){state.selected=item.id;detail(item,kind,scale,coords,path);renderSelection()}
+function renderSelection(){svg.querySelectorAll('[data-id]').forEach(g=>g.classList.toggle('selected',g.getAttribute('data-id')===state.selected))}
+function buttonSet(host,items,active,handler){host.replaceChildren();for(const item of items){const b=htmlNode('button',{type:'button',text:item.label},host);b.classList.toggle('active',active.has?active.has(item.id):active===item.id);b.onclick=()=>handler(item.id)}}
+function drawMacro(){
+ const regions=data.world.regions||[],byId=new Map(regions.map(r=>[r.id,r]));
+ baseMap('World graph / normalized planning coordinates');
+ if(state.layers.has('ROUTES'))for(const [a,b] of data.spatial.routes||[]){const A=byId.get(a),B=byId.get(b);if(!A||!B)continue;const p=macroPoint(A),q=macroPoint(B),cx=(p.x+q.x)/2,cy=(p.y+q.y)/2-24;node('path',{d:'M '+p.x+' '+p.y+' Q '+cx+' '+cy+' '+q.x+' '+q.y,fill:'none',stroke:'#8bb9a9','stroke-opacity':'.27','stroke-width':2,'stroke-dasharray':'5 8'});}
+ if(state.layers.has('PLACES'))for(const r of regions){const p=macroPoint(r),radius=12+Number(r.size||1)*8,g=node('g',{'data-id':r.id,tabindex:0,role:'button','aria-label':r.name||r.id,class:'map-node'});node('circle',{cx:p.x,cy:p.y,r:radius+10,fill:'#9bc6b0','fill-opacity':'.045'},g);node('circle',{cx:p.x,cy:p.y,r:radius,fill:r.kind==='WORLD'?'#c6b88f':'#19352b',stroke:'#9db9a7','stroke-width':1.3},g);node('circle',{cx:p.x,cy:p.y,r:3,fill:'#d9c99e'},g);text(p.x+radius+8,p.y+4,r.name||r.id,{'font-size':12,fill:'#d7e0d9'},g);g.addEventListener('click',()=>selectNode(r,r.kind,'WORLD',r.x+', '+r.y,r.path));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectNode(r,r.kind,'WORLD',r.x+', '+r.y,r.path)}});if(data.current?.regionId===r.id&&state.layers.has('MEMORY'))node('circle',{cx:p.x,cy:p.y,r:radius+16,fill:'none',stroke:'#e4ca8d','stroke-width':3,'stroke-dasharray':'3 5'},g);}
+ if(state.layers.has('MEMORY')&&data.current){const r=byId.get(data.current.regionId);if(r){const p=macroPoint(r);node('circle',{cx:p.x,cy:p.y,r:34,fill:'none',stroke:'#e4ca8d','stroke-width':2,'stroke-opacity':'.8'});text(p.x+28,p.y-29,'CURRENT',{'font-size':10,fill:'#e4ca8d','letter-spacing':1});}}
+ if(!state.layers.has('PLACES'))text(500,350,'PLACES LAYER OFF',{'font-size':16,fill:'#8ea29b','text-anchor':'middle'});
+ $('mapCaption').textContent='WORLD SURVEY / '+regions.length+' TERRITORIES / '+(data.spatial.routes||[]).length+' AUTHORED CONNECTIONS';
 }
-function coordsFor(region){return scale==="TRACTUS"?point(80+Number(region.x)*8.4,70+Number(region.y)*4.9):point(500+Number(region.x||0)*430/(scaleInfo().extent||70),320+Number(region.z||0)*430/(scaleInfo().extent||70))}
-function scaleInfo(){return detail.scales.find(x=>x.id===scale)||{extent:100,name:"Tractus constellation"}}
-function draw(){
- $("#map-title").textContent=scale==="TRACTUS"?"Tractus constellation":scaleInfo().name;
- $("#map-subtitle").textContent=scale==="TRACTUS"?"15 connected territories / canonical planning plane":scaleInfo().description;
- terrain();clear($("#routes"));clear($("#places"));clear($("#story"));
- if(scale==="TRACTUS"){
-  const byId=Object.fromEntries(spatial.regions.map(r=>[r.id,r]));
-  if(enabled.has("ROUTES"))for(const [a,b] of spatial.routes){const A=byId[a],B=byId[b];if(!A||!B)continue;const p=coordsFor(A),q=coordsFor(B);make("path",{d:"M"+p[0]+" "+p[1]+" Q"+((p[0]+q[0])/2+18)+" "+((p[1]+q[1])/2-24)+" "+q[0]+" "+q[1],class:"route"},$("#routes"))}
-  if(enabled.has("PLACES"))for(const r of spatial.regions){const [x,y]=coordsFor(r),g=make("g",{class:"region"+(selected===r.id?" selected":""),tabindex:"0",role:"button","aria-label":r.id},$("#places"));make("circle",{cx:x,cy:y,r:Math.max(7,Number(r.radius||4)*1.65)},g);label(g,x+12,y-10,r.id.replace(/-/g," ").toUpperCase());g.addEventListener("click",()=>selectPlace(r.id,r.id.replace(/-/g," "),"A territory in the shared Tractus spatial graph.",r));g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();g.dispatchEvent(new Event("click"))}})}
- }else{
-  const info=scaleInfo(),items=[...detail.regions.filter(x=>x.scale===scale),...detail.landmarks.filter(x=>x.scale===scale)];
-  if(enabled.has("ROUTES")&&scale==="VEYRT"){const a=items.find(x=>x.id==="procession");if(a){const p=coordsFor(a);make("path",{d:"M"+p[0]+" "+(p[1]-180)+" Q"+(p[0]+45)+" "+p[1]+" "+p[0]+" "+(p[1]+180),class:"route"},$("#routes"))}}
-  if(enabled.has("PLACES"))for(const r of items){const [x,y]=coordsFor(r),g=make("g",{class:"region"+(selected===r.id?" selected":""),tabindex:"0",role:"button"},$("#places"));make("circle",{cx:x,cy:y,r:r.type==="passage"?5:9},g);label(g,x+12,y-9,r.name);g.addEventListener("click",()=>selectPlace(r.id,r.name,r.lore||r.biome||"Mapped region.",r))}
- }
- const pin=state?.activeEncounter;
- if(pin){const found=spatial.regions.find(r=>r.id===pin.regionId);if(found&&scale==="TRACTUS"){const [x,y]=coordsFor(found);const g=make("g",{class:"story-pin"},$("#story"));make("circle",{cx:x,cy:y,r:14},g);label(g,x+17,y+22,pin.regionName||pin.regionId)}}
+function drawLocal(scale){
+ const spec=data.detailed.scales.find(s=>s.id===scale),extent=spec.extent;
+ baseMap(spec.name+' / local coordinates');
+ const regions=(data.detailed.regions||[]).filter(r=>r.scale===scale),landmarks=(data.detailed.landmarks||[]).filter(r=>r.scale===scale);
+ if(state.layers.has('ELEVATION'))for(const r of regions){const p=localPoint(r,extent),h=Math.max(1,Math.abs(Number(r.height||0)));for(let i=1;i<=4;i++)node('ellipse',{cx:p.x,cy:p.y,rx:18+h*4+i*12,ry:11+h*2+i*9,fill:'none',stroke:'#c6c5a1','stroke-opacity':'.13','stroke-width':1});}
+ if(state.layers.has('STONE'))for(const r of regions.filter(x=>/stone|fracture/.test(x.biome||''))){const p=localPoint(r,extent);node('path',{d:'M '+(p.x-55)+' '+(p.y+15)+' l 22 -42 49 -15 36 34 -14 42 -58 19 Z',fill:'#788078','fill-opacity':'.18',stroke:'#9aa69a','stroke-opacity':'.32'});}
+ if(state.layers.has('LICHEN'))for(const r of regions.filter(x=>/lichen|forest/.test(x.biome||''))){const p=localPoint(r,extent);node('circle',{cx:p.x,cy:p.y,r:38,fill:'#78906c','fill-opacity':'.12',stroke:'#9aa77a','stroke-opacity':'.22','stroke-dasharray':'2 5'});}
+ if(state.layers.has('WATER'))for(const r of regions.filter(x=>/water|wetland/.test(x.biome||''))){const p=localPoint(r,extent);node('ellipse',{cx:p.x,cy:p.y,rx:52,ry:31,fill:'#4d8d92','fill-opacity':'.25',stroke:'#83b7b4','stroke-opacity':'.55'});}
+ if(state.layers.has('SETTLEMENTS'))for(const r of landmarks.filter(x=>x.type==='place')){const p=localPoint(r,extent),g=node('g',{'data-id':r.id,tabindex:0,role:'button',class:'map-node'});node('path',{d:'M '+p.x+' '+(p.y-10)+' l 10 10 -10 10 -10 -10 Z',fill:'#d4c18c',stroke:'#f0e4c4','stroke-width':1},g);text(p.x+15,p.y+4,r.name,{'font-size':12,fill:'#e1dfcf'},g);g.addEventListener('click',()=>selectNode(r,'PLACE',scale,r.x+', '+r.y+', '+r.z));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectNode(r,'PLACE',scale,r.x+', '+r.y+', '+r.z)}});}
+ if(state.layers.has('PASSAGES'))for(const r of landmarks.filter(x=>x.type==='passage')){const p=localPoint(r,extent),g=node('g',{'data-id':r.id,tabindex:0,role:'button',class:'map-node'});node('circle',{cx:p.x,cy:p.y,r:8,fill:'#83c6bf',stroke:'#d3e6dc','stroke-width':1.4},g);text(p.x+14,p.y+4,r.name,{'font-size':12,fill:'#9dd5ca'},g);g.addEventListener('click',()=>selectNode(r,'PASSAGE',scale,r.x+', '+r.y+', '+r.z));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectNode(r,'PASSAGE',scale,r.x+', '+r.y+', '+r.z)}});}
+ if(state.layers.has('MEMORY')&&data.current){const match=landmarks.find(x=>x.id===data.current.regionId)||regions.find(x=>x.id===data.current.regionId);if(match){const p=localPoint(match,extent);node('circle',{cx:p.x,cy:p.y,r:28,fill:'none',stroke:'#e4ca8d','stroke-width':2,'stroke-dasharray':'3 4'});}}
+ if(state.layers.has('CHARACTERS'))text(500,350,'NO CHARACTER LOCATIONS AUTHORED AT THIS SCALE',{'font-size':13,fill:'#8ea29b','text-anchor':'middle'});
+ const shown=regions.length+landmarks.length;$('mapCaption').textContent=spec.name.toUpperCase()+' / '+shown+' AUTHORED SPATIAL RECORDS / '+extent+' WORLD-RELATIVE UNITS';
+ if(state.layers.has('WATER')&&!regions.some(x=>/water|wetland/.test(x.biome||'')))$('status').textContent='WATER LAYER: NO WATER FEATURES ARE AUTHORED AT THIS SCALE.';
 }
-function selectPlace(id,name,description,data){
- selected=id;draw();$("#detail-title").textContent=name;$("#detail").textContent=description+"\n\nStable ID: "+id+"\n"+(data.x!==undefined?"Coordinates: "+data.x+", "+(data.y??data.z):"Coordinates: inherited from local map record");
- $("#transition").textContent="The field settles around "+name+". Routes remain connected to the previous survey.";
- $("#transition-meta").textContent="Selected locally. The underlying world record remains unchanged.";
- try{localStorage.setItem("tractus-atlas-selection",id)}catch{}
+function renderLayers(){
+ const host=$('layerControls');host.replaceChildren();
+ const items=state.scale==='WORLD'?[{id:'ROUTES',label:'Routes'},{id:'PLACES',label:'Territories'},{id:'MEMORY',label:'Current memory'}]:data.detailed.layers;
+ for(const item of items){const b=htmlNode('button',{type:'button',text:item.label},host);b.classList.toggle('active',state.layers.has(item.id));b.setAttribute('aria-pressed',String(state.layers.has(item.id)));b.onclick=()=>{state.layers.has(item.id)?state.layers.delete(item.id):state.layers.add(item.id);render()};}
 }
-function renderStoryPins(){
- const host=$("#story-pins");host.innerHTML="";
- const pin=state?.activeEncounter;
- if(!pin){host.innerHTML="<p>No active encounter is recorded in the current world-state file.</p>";return}
- const known=spatial.regions.some(r=>r.id===pin.regionId);
- const div=document.createElement("div");div.className="pin";
- const strong=document.createElement("strong");strong.textContent=pin.regionName||pin.regionId;div.append(strong);
- const small=document.createElement("small");small.textContent=known?"Placed on the canonical map":"Unplaced · awaiting geographic survey";if(!known)small.className="status";div.append(small);
- const p=document.createElement("p");p.textContent=(pin.intent||"Active encounter")+" · "+(pin.subject?.agent||"unknown subject")+" · scale "+(pin.subject?.scale??"not recorded");div.append(p);
- const meta=document.createElement("p");meta.textContent=(pin.delta||[]).join(" / ");div.append(meta);
- host.append(div);
- const rec=document.createElement("div");rec.className="pin";const title=document.createElement("strong");title.textContent="Source recording";rec.append(title);const detailLine=document.createElement("p");detailLine.textContent=state.activeRecording||"No active recording path";rec.append(detailLine);host.append(rec);
+function renderScales(){
+ const host=$('scaleControls');host.replaceChildren();
+ const items=[{id:'WORLD',label:'World'}].concat(data.detailed.scales.filter(s=>s.id!=='WORLD').map(s=>({id:s.id,label:s.id==='VEYRT'?'Veyrthalis':s.name})));
+ for(const item of items){const b=htmlNode('button',{type:'button',text:item.label},host);b.classList.toggle('active',state.scale===item.id);b.setAttribute('aria-pressed',String(state.scale===item.id));b.onclick=()=>{state.scale=item.id;state.layers=new Set(item.id==='WORLD'?['ROUTES','PLACES','MEMORY']:['ELEVATION','STONE','LICHEN','WATER','PASSAGES','SETTLEMENTS','MEMORY']);render()};}
 }
-async function init(){
- const [s,d,w]=await Promise.all([
- fetch("../hub/spatial-world.json").then(r=>{if(!r.ok)throw Error("spatial-world.json unavailable");return r.json()}),
- fetch("../geo-cyberspace/detailed-maps.json").then(r=>{if(!r.ok)throw Error("detailed-maps.json unavailable");return r.json()}),
- fetch("../hub/world-state.json").then(r=>r.ok?r.json():null)
- ]);
- spatial=s;detail=d;state=w;
- const scaleButtons=[["TRACTUS","The Tractus"],...d.scales.map(x=>[x.id,x.name])];
- $("#scales").innerHTML=scaleButtons.map(([id,name])=>'<button type="button" data-scale="'+esc(id)+'" class="'+(id===scale?"active":"")+'">'+esc(name)+'</button>').join("");
- $("#layers").innerHTML=layerNames.map(n=>'<button type="button" data-layer="'+n+'" class="'+(enabled.has(n)?"active":"")+'">'+n+'</button>').join("");
- $("#scales").addEventListener("click",e=>{const b=e.target.closest("[data-scale]");if(!b)return;scale=b.dataset.scale;selected=null;$("#scales").querySelectorAll("button").forEach(x=>x.classList.toggle("active",x===b));draw()});
- $("#layers").addEventListener("click",e=>{const b=e.target.closest("[data-layer]");if(!b)return;const id=b.dataset.layer;enabled.has(id)?enabled.delete(id):enabled.add(id);b.classList.toggle("active",enabled.has(id));draw()});
- renderStoryPins();
- try{const saved=localStorage.getItem("tractus-atlas-selection");if(saved&&spatial.regions.some(x=>x.id===saved)){const r=spatial.regions.find(x=>x.id===saved);selectPlace(r.id,r.id.replace(/-/g," "), "Restored from the last local Atlas visit.",r)}}catch{draw()}
- draw();
+function render(){renderScales();renderLayers();if(state.scale==='WORLD')drawMacro();else drawLocal(state.scale);renderSelection();if(!$('status').textContent.startsWith('WATER LAYER'))$('status').textContent='DATA LOADED / '+(data.world.regions||[]).length+' WORLD TERRITORIES / '+(data.spatial.routes||[]).length+' WORLD ROUTES';}
+async function load(){
+ try{
+  const files=await Promise.all(['../world.json','../hub/spatial-world.json','../geo-cyberspace/detailed-maps.json','../hub/world-state.json'].map(async path=>{const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path+' returned '+r.status);return r.json()}));
+  [data.world,data.spatial,data.detailed,data.current]=files;
+  data.current=data.current?.activeEncounter||null;
+  state.layers=new Set(['ROUTES','PLACES','MEMORY']);
+  render();
+  $('detailText').textContent='The World Survey is the repository-wide geography. Select a territory to open its source record; use the local scales to enter Kingdom Land, Veyrthalis, and the Complex.';
+ }catch(error){$('status').textContent='ATLAS DATA COULD NOT LOAD';$('detailText').textContent='Run a local web server from the repository root, then open /worldspace/maps.html. '+error.message;}
 }
-init().catch(error=>{$("#detail").textContent="Atlas data could not be loaded: "+error.message;$("#story-pins").textContent="The world-state source is unavailable."});
+load();
 </script>
 </body>
 </html>

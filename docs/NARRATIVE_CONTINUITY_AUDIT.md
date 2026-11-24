@@ -133,6 +133,22 @@ The following setting/name corrections have also been made:
 
 These edits do not merge settings or establish a new umbrella name. Northgate, the Institute, Veyrthalis, the Grand Meridian, the Scale Commons, the Seven Great Houses, the Redwood Quarter, the Dad Convent, the Mexiancas, and the Twin Grounds retain their own local geography and continuity.
 
+## Veyrthalis naming, duplication, and age corrections
+
+The Veyrthalis branch supplies an important in-world standard for naming. In [Chapter VII — The Name We Withheld](../lore/veyrthalis/CHAPTER_VII_THE_NAME_WE_WITHHELD.md), the men encounter a person whose name has been deliberately covered in the record. In [Chapter VIII — The Name Not Restored](../lore/veyrthalis/CHAPTER_VIII_THE_NAME_NOT_RESTORED.md), he declines restoration and says he may answer when addressed, or may answer with nothing. Luke and the others do not force a name into the gap. This is the right model for the wider setting too: a name belongs to the people who use it, and withholding a name may itself be meaningful. Do not confuse this person's withheld identity with the still-unresolved name of the wider world; Veyrthalis remains its own established local setting.
+
+Three exact duplicate passages were found and corrected:
+
+- `CHAPTER_V_THE_GLASS_AND_THE_GUEST.md`: the section **The interval before the descent**, including both narrative paragraphs, appeared twice consecutively. One exact copy was removed.
+- `CHAPTER_VI_THE_BASEMENT_IN_THE_WOODS.md`: **The room's second temperature**, including both paragraphs, appeared twice consecutively. One exact copy was removed.
+- `CHAPTER_VII_THE_NAME_WE_WITHHELD.md`: **The name in the living air**, including both paragraphs, appeared twice consecutively. One exact copy was removed.
+
+The headings and remaining scene text were preserved. These were copy duplications, not intentional refrains.
+
+One background figure in `LOW_LEDGER_THE_FIRST_BELL.md` was described as “a child at the fountain.” It is now an adult resident. The technical phrase “child folder” in the Veyrthalis README is ordinary file-navigation language, not a character reference, and was left untouched. `KIRK_MENTAL_SPACE_THE_MARKED.md` now identifies the roster as fictional figures in the Veyrthalis narrative continuity rather than “GEEHUB figures.” Its character permissions and relationship limits remain intact.
+
+The other Veyrthalis files inspected in this pass showed no repeated section headings, no GEEHUB/Geehub setting names, and no child-coded cast references in their story text. The editorial style guide and Joseph/Kirk index retain GEEHUB only in explicit production-history or style-guide contexts. The three repeated-section corrections and adult-cast change are now committed; this check covers the 17 Markdown files in `lore/veyrthalis/`, not every branch of the repository.
+
 ## Audit method for subsequent passes
 
 1. Identify the manuscript and local continuity before editing a scene.

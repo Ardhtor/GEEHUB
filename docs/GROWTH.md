@@ -24,6 +24,25 @@ Context is not a caption attached after the fact. It is part of the object. Buil
 
 Broaden without flattening. Preserve distinct projects, people, sources, voices, and interpretations. Connections should reveal their differences as well as their affinities. Do not manufacture a relationship simply to make the whole appear unified.
 
+## Taste emerges through broadening
+
+The purpose of broadening context is to discover a particular taste. Expand the field around an idea until meaningful relationships become perceptible: source material, history, neighboring disciplines, places, people, images, bodies, materials, sounds, techniques, local customs, contradictions, and unfamiliar possibilities. Do not stop at the nearest category or the first obvious precedent. Do not accumulate context merely to make the corpus larger.
+
+The process is:
+
+`BROADEN → ENCOUNTER → COMPARE → DISCERN → MAKE → REVIEW → BROADEN AGAIN`
+
+Broaden beyond the expected reference set. Bring material into a form that can be experienced: a scene, place, image, sound, object, interaction, passage, or working prototype. Compare alternatives long enough for their differences to register. Discern what feels unusually right, what is promising but unresolved, what is merely familiar, and what should be left out. Make something that expresses the emerging preference. Review the result against the actual response and the evidence. The next expansion should follow what the work revealed, not a predetermined expansion schedule.
+
+**Taste is a developing ability to select.** It is more particular than a category, mood board, aesthetic label, or list of preferences. It appears in choices of proportion, pace, voice, material, atmosphere, humour, scale, social texture, narrative attention, and omission. It can be recognized in a family of works without requiring them to repeat the same surface. A distinct taste allows surprise while making the result feel as though it belongs.
+
+The user's judgment remains the decisive signal for work made to the user's direction. Repeated corrections and selections can become durable working preferences, but a single response should not be inflated into a universal rule. The system may offer a hypothesis about an emerging taste; it must not claim to have discovered the user's inner identity or treat a statistical pattern as consent. Keep observed choices, interpretations, and confirmed preferences distinct.
+
+Broadening should change what can be made, not bury the work under references. Preserve provenance and disagreement; do not blend unlike sources into a false lineage. Let context appear through the experience itself—in the names people use, the places they revisit, the materials they choose, the scenes they inhabit, the contrasts they notice, and the things they decline to include. Explanation is available when useful, but it should not replace the encounter.
+
+The endpoint is not endless expansion. It is a distinctive sensibility capable of producing work that could not have emerged from the initial narrow prompt alone. Once a choice has a clear reason and the result has a recognizable character, make it. Return to broadening when the work becomes generic, stalled, or unable to surprise itself.
+
+
 ## A useful rhythm
 
 `ENCOUNTER → INTAKE → OBSERVATION → RESEARCH → INTERPRETATION → EXPERIMENT → GROWTH PASS → REVIEW → INTEGRATION → NEXT PASS`

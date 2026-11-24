@@ -1,0 +1,15 @@
+.returning-world{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);gap:18px;margin:24px 0;padding:clamp(20px,3vw,34px);border:1px solid rgba(191,207,198,.2);border-radius:22px;background:radial-gradient(ellipse at 8% 0%,rgba(103,143,130,.17),transparent 52%),linear-gradient(135deg,rgba(24,34,32,.96),rgba(13,18,20,.96));color:#e9eee9;box-shadow:0 18px 70px rgba(0,0,0,.2)}
+.returning-world .eyebrow{color:#a9c1b4;letter-spacing:.18em;font-size:10px}
+.returning-world h2{font-size:clamp(24px,3vw,38px);font-weight:500;letter-spacing:.02em;margin:10px 0 12px}
+.returning-world p{color:#c0cbc5;line-height:1.65;max-width:66ch}
+.returning-world-main{display:flex;flex-direction:column;justify-content:space-between;min-height:210px}
+.returning-world-meta{font-size:11px;letter-spacing:.12em;color:#93a79d;margin-top:18px}
+.returning-world-side{border-left:1px solid rgba(191,207,198,.17);padding-left:22px;display:flex;flex-direction:column;gap:12px}
+.returning-world-side label{font-size:11px;color:#a9c1b4;letter-spacing:.14em}
+.returning-world textarea{width:100%;min-height:78px;resize:vertical;background:rgba(4,9,9,.42);border:1px solid rgba(191,207,198,.22);border-radius:10px;padding:12px;color:#eef4ef;font:inherit}
+.returning-world-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.returning-world button,.returning-world a.returning-world-link{border:1px solid rgba(181,208,193,.28);border-radius:999px;padding:9px 14px;background:rgba(130,165,145,.1);color:#e8f0e9;text-decoration:none;font:inherit;font-size:12px;cursor:pointer;transition:background .2s,border-color .2s}
+.returning-world button:hover,.returning-world a.returning-world-link:hover{background:rgba(130,165,145,.22);border-color:rgba(181,208,193,.55)}
+.returning-world .returning-world-status{min-height:18px;font-size:11px;color:#b5c7ba}
+.returning-world .returning-world-trace{margin-top:6px;padding:10px 12px;border-left:2px solid #829d8d;background:rgba(125,157,139,.08);font-size:12px;color:#cbd7ce;white-space:pre-wrap;overflow-wrap:anywhere}
+@media(max-width:760px){.returning-world{grid-template-columns:1fr}.returning-world-side{border-left:0;border-top:1px solid rgba(191,207,198,.17);padding:18px 0 0}}

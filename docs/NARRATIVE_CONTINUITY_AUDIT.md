@@ -95,6 +95,38 @@ Several unassigned numbered chapters, especially `CHAPTER_XXXII_THE_MEMORY_THAT_
 
 `CHAPTER_XLI_THE_WORK_HAS_A_WEATHER.md` reads as a production essay rather than a diegetic scene: it directly addresses a “you,” refers to “the user,” and explains production practice. Its number and location under `novel/` make it appear to be part of a numbered narrative sequence, but its manuscript membership is unverified. Keep it unmapped until a parent book and intended form are established; do not silently rewrite it as dialogue or move it into a different book.
 
+## Further setting-name corrections — 24 November 2026
+
+### The Unplanned Convergence
+
+`lore/CYBER_BLACK_HOLE_NOVEL.md` formerly placed the sign **GEEHUB CENTRAL** above the city's main building, referred to the map as the “Geehub map,” and had the Archivist say “Geehub needs both.” This gave the production brand a literal in-world city and setting name before the men had named anything. The sign is now blank. Andrew proposes naming the place; Joseph says they should live in it first; Luke agrees to leave the sign unmarked; Chase records **CITY NAME — TO BE CHOSEN BY ITS INHABITANTS**. Later occurrences now use local descriptions such as “the central hall” and “the central observatory.” The story's remaining “Hub” phrase belongs to a slogan on an interface image, not to the city name.
+
+### The Tractus proposal
+
+`lore/DEEP_LORE.md` contained a late section declaring **The Tractus** to be the name of the whole world and directing all future narration to use it. No scene in that document showed the men choosing that name. This contradicted the naming boundary and the earlier definition of Tractus as a continuity model. The declaration is now marked as an unadopted editorial proposal. Tractus remains the continuity architecture and navigable record model; it is not established as the inhabitants' name for the wider setting. The wider world-name remains open until the men name it in a scene.
+
+The Seth and Nick branch gives the Tractus architecture a lived-world expression, as described in the repository-residents record. That branch-specific expression is not evidence that all connected settings, including Northgate, Veyrthalis, the Grand Meridian, the Scale Commons, the Seven Great Houses, or the Twin Grounds, share one in-world name.
+
+### Connected atlases and local settings
+
+The Confluence and the Great Tribal Territories are currently atlas/continuity labels. They help describe relationships between locally distinct places, but no scene has established either as a name the men use for the whole world. The Expansion Atlas, Volume III, is now titled **Expansion Atlas — Volume III: The People**, without the repository brand. Its setting description remains the Confluence and its connected districts as an editorial scope label.
+
+The following setting/name corrections have also been made:
+
+- `lore/GOLDEN_LION.md`: removed “Geehub” as a name for the wider landscape and the Lion's local geography. The Lion now speaks of living there, the lands beyond the Redwood Quarter, and his woodland estate and connected neighborhoods.
+- `lore/EXPANSION_ATLAS_2026-11-10.md`: removed GEEHUB as the name of the connective geography; the Confluence remains an atlas description of inhabited exchange between distinct settings.
+- `lore/ECONOMY_OF_FAVOURS.md`: changed the fictional economy's scope from “the economy of GEEHUB” to the shared economy of connected territories.
+- `lore/GOD_PENIS_IDOL_CYCLE.md`: removed GEEHUB as the mythic setting name; the cycle now refers to the connected setting and its own mythic tradition.
+- `lore/TRIBAL_TERRITORIES.md`: the territories are no longer called GEEHUB's territories; the production interface is distinguished from the inhabitants' world.
+- `lore/IAN_GABE_KIRK_TRIANGLE.md`: the relationship branch no longer has “GEEHUB shared social world” as its setting. The exact local setting and wider in-world name remain open.
+- `lore/HYPERSEXUAL_SUPERIORITY.md` and `lore/LOW_BAR_ORDINARY_MEN.md`: removed the repository brand from statements that described fictional society.
+- `lore/veyrthalis/GEEHUB_NOVEL_CONTINUATION_2026-09-24.md`: removed GEEHUB from the title and changed the screen's “GEEHUB constellation” to “constellation map.” The remaining Hub references concern an archive/record presence and do not assign a setting-wide name.
+- `lore/BEEFYTHIQ_BIOGRAPHIES.md`: replaced Hub-as-world language with “shared world,” “setting,” or “story” as appropriate.
+- `lore/BEOWULF_AND_THE_GEATISH_COMPANY.md`: an observer group at the river expedition is now adult residents rather than children.
+- `lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md`: removed the repository name from the title.
+
+These edits do not merge settings or establish a new umbrella name. Northgate, the Institute, Veyrthalis, the Grand Meridian, the Scale Commons, the Seven Great Houses, the Redwood Quarter, the Dad Convent, the Mexiancas, and the Twin Grounds retain their own local geography and continuity.
+
 ## Audit method for subsequent passes
 
 1. Identify the manuscript and local continuity before editing a scene.

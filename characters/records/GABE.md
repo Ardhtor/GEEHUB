@@ -103,3 +103,12 @@ Gabe's agency remains central: he may initiate, welcome, question, or decline an
 ## Temperament — avoidant tendency (24 November 2026)
 
 **User-established trait:** Gabe is characteristically somewhat avoidant, as is Ian Kistner. This tendency belongs alongside his established sensitivity to attention, his need for private recovery, and his desire to retain authorship over his own life. Gabe can genuinely want closeness, enjoy being admired, initiate a date or a kiss, and still become evasive when a connection asks him to expose more of himself or decide what comes next. He may let a moment pass, redirect a conversation, retreat into practical matters, or need distance after an emotionally direct exchange. Do not mistake avoidance for indifference, and do not erase his established moments of directness with Dorian. His pattern is not an inability to act; it is a tension between wanting connection and protecting himself from its demands. The exact triggers and outward habits remain to be developed in scenes.
+
+
+## Temperament — kind, attentive, and avoidant
+
+**User-established trait (24 November 2026):** Gabe is avoidant, as is Ian Kistner. This adds an important relational pattern to Gabe's established reflective, attentive temperament. Gabe can be genuinely kind and engaged, notice another man's needs, and enjoy closeness while still finding it difficult to remain emotionally exposed once the connection asks something direct of him. He may shift into practical conversation, make a light remark, become occupied with a task, or take space rather than answer a vulnerable question immediately.
+
+This does not cancel Gabe's ability to initiate. His direct confession of attraction to Dorian, his invitation into friendship, and his deliberate choices remain part of canon. Avoidance describes a recurring difficulty, not an absolute rule: Gabe may be brave in one context and retreat in another. Do not rewrite his established actions as false or insincere.
+
+With Ian, the shared tendency creates recognition as well as friction. Each may understand why the other goes quiet, but that understanding can become an excuse for both to leave important things unsaid. Gabe's version should retain his particular sensitivity to attention, his wish to preserve authorship over his life, and his habit of needing a quieter interval after public or emotionally charged moments. Kindness is not proof of availability; withdrawal is not proof that he does not care.

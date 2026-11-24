@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://geehub.local/schemas/growth-pass.schema.json",
-  "title": "GEEHUB Growth Pass",
-  "description": "A traceable, incremental change from an inherited subject state to a reviewed result.",
+  "title": "Growth Pass Record",
+  "description": "A record of an incremental change from an earlier subject state to a reviewed result.",
   "type": "object",
   "required": [
     "id",

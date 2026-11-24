@@ -2170,6 +2170,8 @@
       "shared-interaction-space",
       "geehub-compendium",
       "tractus-execution-paths"
-    ]
+    ],
+    "interface_path": "../hub/index.html#growth-engine",
+    "schema_path": "../engine/schemas/growth-pass.schema.json"
   }
 ]

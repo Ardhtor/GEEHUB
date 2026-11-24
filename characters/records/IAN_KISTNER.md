@@ -22,3 +22,12 @@ The branch must be reconciled with Gabe's existing Dorian connection, Kirk's est
 ## Temperament — avoidant tendency
 
 **User-established trait (24 November 2026):** Ian is characteristically somewhat avoidant, as is Gabe. Treat this as a recurring behavioural tendency, not a diagnosis or proof that Ian feels nothing. Attraction may make him attentive and interested while also making direct acknowledgment, emotional exposure, or the next step difficult. He may approach indirectly, leave a moment unresolved, delay a response, or retreat after closeness. These are possible scene expressions, not a fixed checklist; establish Ian's particular pattern through the story. Preserve the distinction between wanting connection and being ready to act on it.
+
+
+## Temperament — kindness with an exit route
+
+**User-established trait (24 November 2026):** Ian is characteristically avoidant, and Gabe shares this tendency. This is a core temperament note, not a diagnosis. Ian's avoidance should be written as a pattern in how he handles emotional exposure: he may be warm, considerate, attentive, and genuinely interested, then become difficult to reach when a conversation asks him to name what he wants. He may answer the practical part of a question while leaving the vulnerable part untouched, delay a reply because he wants to get it exactly right, or withdraw briefly after a moment of unusual closeness.
+
+Do not equate this with cruelty, manipulation, lack of feeling, or lack of care. His kindness is real; so is the distance he sometimes creates. Let his choices and consequences reveal the pattern. Avoidance is not a permanent inability to communicate: Ian can learn to stay present, return to an unfinished conversation, and make a direct choice without losing his quieter temperament.
+
+In the triangle, Ian and Gabe can recognise the same retreat in one another, sometimes making it easier to be understood and sometimes allowing both to postpone the conversation neither wants to begin. Their shared tendency must not make them identical. Ian's specific triggers, habits, history, and manner of returning remain to be developed in scenes rather than assumed.

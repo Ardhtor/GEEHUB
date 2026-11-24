@@ -107,9 +107,7 @@ This is the local navigation page for `engine/`. The lists below link to immedia
 - [`worship-me.js`](./worship-me.js)
 - [`zero-read-mode.js`](./zero-read-mode.js)
 
-### JSON (9)
-
-- [`growth-pass.schema.json`](./schemas/growth-pass.schema.json)
+### JSON (10)
 
 - [`adobe_asset_queue.json`](./adobe_asset_queue.json)
 - [`campus-life.json`](./campus-life.json)

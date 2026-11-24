@@ -98,3 +98,8 @@ A new working story branch places Gabe in a developing love-triangle configurati
 This is provisional continuity, not a replacement for Gabe's established relationship history. His deliberately paced attraction to Dorian remains part of the record and is not declared ended by the new chapter. His Book II residence in the Canvas House remains unchanged. The new branch has not yet been assigned a date or a specific scene location within the Four Mansions sequence.
 
 Gabe's agency remains central: he may initiate, welcome, question, or decline any development. Do not make him a prize between two men or assume he is comfortable with every possible arrangement. Ian's biography and the exact nature of Kirk's attraction remain open until developed in story.
+
+
+## Temperament — avoidant tendency (24 November 2026)
+
+**User-established trait:** Gabe is characteristically somewhat avoidant, as is Ian Kistner. This tendency belongs alongside his established sensitivity to attention, his need for private recovery, and his desire to retain authorship over his own life. Gabe can genuinely want closeness, enjoy being admired, initiate a date or a kiss, and still become evasive when a connection asks him to expose more of himself or decide what comes next. He may let a moment pass, redirect a conversation, retreat into practical matters, or need distance after an emotionally direct exchange. Do not mistake avoidance for indifference, and do not erase his established moments of directness with Dorian. His pattern is not an inability to act; it is a tension between wanting connection and protecting himself from its demands. The exact triggers and outward habits remain to be developed in scenes.

@@ -152,17 +152,17 @@ The first body-level line-edit pass is complete across Chapters I–IX. A second
 
 | Chapter | Narrative words | Current Git blob | Editorial state |
 | --- | ---: | --- | --- |
-| I — The Lost Country | 4,180 | `93746ac7c4d087b97a499e643e62902cd7bfe463` | First line-edit pass complete; whole-book continuity and final edit pending |
-| II — The Keepers of the Old Trail | 4,039 | `796b5519741b480fae6fdec9f9b11c55211abe2e` | First body-level line-edit pass complete; whole-book continuity and final edit pending |
+| I — The Lost Country | 4,163 | `05d4382b7ed4b6ea0598455b8e6a9e5cc2b663c6` | Ending compression complete; whole-book continuity and final edit pending |
+| II — The Keepers of the Old Trail | 4,028 | `767931a0d600aa963c0819179751efdf5f15b590` | Ending compression complete; whole-book continuity and final edit pending |
 | III — The Place That Moved | 3,180 | `55ea61234a225260bd9508f10b116df0bb523f00` | Second compression pass complete; whole-book continuity pending |
-| IV — The Promises That Keep | 3,641 | `b352be72b12255451928c90910c1b57327db0afa` | First body-level line-edit pass complete; relationship continuity pending |
-| V — Four Mansions | 4,694 | `6231bc5b8ae2961c97ebde3942a71088a6974708` | First body-level line-edit pass complete; residential and relationship continuity pending |
-| VI — The Game Between the Houses | 3,950 | `cced555a95ba11c01bfa6fef143d3975120dda43` | First body-level line-edit pass complete; geography and relationship continuity pending |
-| VII — The Contest That Never Ends | 3,874 | `d4c1514ebd5d6c3f3fd08986045c1b52de43883a` | First body-level line-edit pass complete; Evermeasure and relationship continuity pending |
-| VIII — A Day in the Open Pavilion | 3,833 | `c442dee1b9320e714a303a5bf54b0619c0bf5a0d` | First body-level line-edit pass complete; Michael's day and privacy continuity pending |
-| IX — The Narrow Turn | 3,875 | `ac49adea9c4c0b599b0be5f5a02217776a21a898` | First body-level line-edit pass complete; repeatability and scene continuity pending |
+| IV — The Promises That Keep | 3,580 | `b100beeb87b8219666906c0738d58269da362c92` | Ending compression complete; relationship continuity pending |
+| V — Four Mansions | 4,633 | `1ce2d89af8f11ee93376ac2bae1bb370247d1336` | Ending compression complete; residential and relationship continuity pending |
+| VI — The Game Between the Houses | 3,886 | `c80e6631072dfc6f4def749192c1f53e186913fb` | Ending compression complete; geography and relationship continuity pending |
+| VII — The Contest That Never Ends | 3,755 | `08d0f2516a3ee9faae1b300db450e5884fe4ae5b` | Ending compression complete; Evermeasure and relationship continuity pending |
+| VIII — A Day in the Open Pavilion | 3,756 | `d245316866f921d33656e69623ea8c873b568da2` | Ending compression complete; Michael's day and privacy continuity pending |
+| IX — The Narrow Turn | 3,820 | `78cf1fbe950340da3bae80d54313574a8eebf827` | Ending compression complete; repeatability and scene continuity pending |
 
-**Current narrative census:** 35,266 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
+**Current narrative census:** 34,801 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
 
 ## Revision order and editorial gates
 

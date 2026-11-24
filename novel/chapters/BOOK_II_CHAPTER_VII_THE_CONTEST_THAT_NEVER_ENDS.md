@@ -148,16 +148,9 @@ By evening the Evermeasure Board was already crowded. Robert promised another pa
 
 They were still arguing about the pedestal when the field began to empty.
 
-Michael left without making a public announcement of his departure. His size had drawn the most immediate attention of the afternoon, but the secret he shared with Kirk remained outside the pavilion's record. It was not written on the board, attached to a photograph, or placed beneath a heading. The men had seen his demonstration. They had not seen the gentleness that belonged to a different part of his life.
+Later, when the common green had quieted, Michael received a private message from Kirk. They spoke briefly, away from the public channel. Kirk asked whether he had enjoyed the day; Michael said he had, and told him he had been thinking of him. Kirk answered in the same quiet register. Their relationship remained theirs, separate from the applause.
 
-Later, when the common green had quieted, Michael received a private message from Kirk. He read it away from the others and answered without using the public channel. The exchange was brief. Kirk asked whether he had enjoyed the day. Michael said he had, and asked whether Kirk was comfortable after listening to so many reports. Kirk said he was fine. Michael told him he had been thinking of him. There was no boast in it and no request for a reply that would prove anything. Kirk answered in the same quiet register. The relationship remained theirs, gentle and secret, untouched by the applause that had followed Michael across the field.
-
-The Evermeasure Board stayed illuminated for a while after everyone had gone. Its first entries were already becoming yesterday's marks. The men would return with better routes, heavier beams, cleaner measurements, more ambitious designs, and another set of things worth showing. A new arrival would study the wall and find a contest no one had yet thought to make. The winner of one afternoon would have to defend nothing except the pleasure of having done something well. The next man would not erase him. He would answer him.
-
-There would be no final exhibition. The next record would create the next challenge. The contest would be carried forward not because the men disliked one another, but because admiration gave them something to answer, and because none of them wanted to be the last man with nothing left to show.
-
-The country had learned a new ritual. The men had named it the Evermeasure, and the name would outlast the first board, the first course, and the first trophy. They would keep finding new ways to be impressive. They would keep trying to outdo one another. And every time one of them thought he had reached the end, another would arrive with a better idea.
-
+The Evermeasure Board stayed illuminated after everyone had gone. Its entries would become the next day's starting points: better routes, heavier beams, cleaner measurements, and new designs. No exhibition would be final. The men would keep answering one another, not by erasing the last achievement but by making another.
 ---
 
 ## Continuity record

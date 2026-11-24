@@ -173,15 +173,7 @@ For the first time, the room seemed settled.
 
 The bridge outside had not been there when they arrived. Now it stretched from the unfamiliar city toward a low district of warehouses and old stone buildings. At its far end stood a building with a glass roof. A pale glass plaque hung above the entrance, but it held no lettering. The space for a name was clear and unmarked.
 
-Andrew glanced back at it. “We should give this place a name.”
-
-“After we've lived in it,” Joseph said. “We've only just arrived.”
-
-Luke looked along the branching streets. “Then we leave the sign blank until we know what we're naming.”
-
-Chase opened the unfinished register and entered one line: **CITY NAME — TO BE CHOSEN BY ITS INHABITANTS.**
-
-They crossed together.
+They crossed together. Nobody stopped to read a name that was not there. The blank plaque remained above the entrance while the six followed the bridge into the city.
 
 The city was not empty, but its inhabitants were not yet distinct. Figures moved in lit windows, passed through doorways, and crossed courtyards carrying parcels or talking in pairs. Some looked up as the six men passed. Nobody stopped them. The streets held traces of other arrivals: a discarded paper ticket, a chalk mark on a wall, a small wooden button on a windowsill. The objects seemed ordinary until Chase recognised the button from an artifact record in the Cabin chronicle.
 

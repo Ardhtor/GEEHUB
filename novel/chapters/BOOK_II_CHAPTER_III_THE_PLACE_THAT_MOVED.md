@@ -162,16 +162,9 @@ The leader asked whether the settlement had ever closed a route permanently.
 
 The surveyor looked at the new map. “And if nobody can check it?”
 
-“Then the blank stays.”
+The new map showed the upper gallery branching away from the Long Fold and the dark opening behind the Warm Table. No one had entered it. The leader added one final note: *The country has moved while under observation. We have measured the change, but we do not yet know what the opening connects to.*
 
-The answer was practical, not solemn. Oren did not treat uncertainty as a tragedy. He treated it as part of the work. The men could return to the Warm Table when the conditions changed and when they had a better reason to proceed. For now, the record was enough. A route could survive a transformation and still become unusable; a chamber could remain recognizable while losing its old purpose. Their task was no longer simply to find a way through Kirk's immense anatomy. They had to learn how to travel through a living geography without confusing familiarity with safety.
-
-The new map showed the upper gallery branching away from the Long Fold. It also showed the dark opening behind the Warm Table, a narrow line leading into an area no one had entered. The line was not a route yet. It was a question.
-
-Before sleeping, the leader added one final note to the register: *The country has moved while under observation. We have measured the change, but we do not yet know what the opening connects to.*
-
-Oren read it and nodded. Outside, the old trail remained quiet. Somewhere beyond the Measure House, Kirk's body continued its slow adjustment, and the new passage waited behind the raised stone. The men had returned with more than a map. They had returned with proof that the blank spaces on the page could change before anyone reached them.
-
+Oren read the note and nodded. Beyond the Measure House, Kirk's body continued its slow adjustment. The men had returned with a better map, not an answer.
 ---
 
 ## Continuity record

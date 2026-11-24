@@ -12,7 +12,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | --- | --- | ---: | --- |
 | I | The Lost Country | 4,609 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | II | The Keepers of the Old Trail | 4,162 | First expansion pass completed 24 November; full-book continuity and final edit pending |
-| III | The Place That Moved | 1,902 | Existing text; expansion and continuity review pending |
+| III | The Place That Moved | 4,644 | First expansion pass completed 24 November; whole-book continuity and final edit pending |
 | IV | The Promises That Keep | 2,452 | Existing text; relationship and continuity review pending |
 | V | Four Mansions | 2,487 | Existing text; residential and relationship review pending |
 | VI | The Game Between the Houses | 3,055 | Existing text; geography and relationship review pending |
@@ -20,7 +20,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter on 24 November; expansion and edit pending |
 | IX | The Narrow Turn | 4,162 | New working chapter on 24 November; expansion and edit pending |
 
-**Current narrative baseline:** approximately 27,871 narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
+**Current narrative baseline:** approximately 30,613 narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
 
 ## Sequence and sources
 
@@ -48,6 +48,7 @@ The following Paper documents were read back after synchronization and their Mar
 | --- | --- | ---: | --- |
 | I — The Lost Country | [Open in Dropbox](https://www.dropbox.com/scl/fi/gpx1ba1ijqb6qhfv7igop/Book-II-Chapter-I_-The-Lost-Country.paper?dl=0) | 1 | `6046e63dc0f749f0caeab24d9f2e7407fb143a90` |
 | II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 2 | `cefe0de1ed3ce967b441766693b00dc90cd66c88` |
+| III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?rlkey=zokc2rtwe2mlj3t6fkd83mfcs&dl=0) | 1 | `924994f46083b04b9f52ea9bbd06f85f69677dfb` |
 | VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 2 | `d1e1d17fdb467570042bcf1a60c0f3f573bbb579` |
 | IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 1 | `d9be1ad55e028e2cd388dd43386b0b0ceb99bb42` |
 

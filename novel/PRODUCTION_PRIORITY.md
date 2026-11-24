@@ -51,12 +51,12 @@ Narrative word counts below exclude the separate continuity record at the end of
 | III | The Place That Moved | 4,644 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | IV | The Promises That Keep | 3,794 | First expansion pass completed 24 November; relationship continuity and final edit pending |
 | V | Four Mansions | 4,877 | First expansion pass completed 24 November; residential and relationship continuity review pending |
-| VI | The Game Between the Houses | 3,055 | Existing text; geography and relationship review pending |
+| VI | The Game Between the Houses | 4,091 | First expansion pass completed 24 November; geography and relationship continuity review pending |
 | VII | The Contest That Never Ends | 2,552 | Existing text; Evermeasure and relationship review pending |
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter, 24 November; full expansion and edit pending |
 | IX | The Narrow Turn | 4,162 | New working chapter, 24 November; full expansion and edit pending |
 
-**Current total:** approximately 34,345 narrative words across nine chapters. Most chapters remain below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding. The first expansion passes for Chapters I–V are recorded, not treated as final editorial completion.
+**Current total:** approximately 35,381 narrative words across nine chapters. Most chapters remain below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding. The first expansion passes for Chapters I–V are recorded, not treated as final editorial completion.
 
 ## Active Book II threads
 

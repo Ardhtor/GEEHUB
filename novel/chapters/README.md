@@ -46,6 +46,8 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 - [Book II, Chapter IV — The Promises That Keep](./BOOK_II_CHAPTER_IV_THE_PROMISES_THAT_KEEP.md) — Andrew Sim and Kirk restore their familiar chemistry and renew their promises through shared work and play.
 - [Book II, Chapter V — Four Mansions](./BOOK_II_CHAPTER_V_FOUR_MANSIONS.md) — Robert, Chase, Gabe, and Joseph establish separate homes in Kirk's paired residential country; Andrew's need for attention begins to crowd Joseph out.
 - [Book II, Chapter VI — The Game Between the Houses](./BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md) — the four residents establish the Long Return across the Twin Grounds; Andrew's need for Kirk's attention causes Joseph to withdraw, and Andrew begins to recognize the cost.
+- [Book II, Chapter VII — The Contest That Never Ends](./BOOK_II_CHAPTER_VII_THE_CONTEST_THAT_NEVER_ENDS.md) — the men turn their one-upmanship into the Evermeasure, an exhibition culture whose records create new challenges; Michael Brock appears with his very large muscular presence while his gentle relationship with Kirk remains secret.
+- [The Evermeasure — Competitive Doctrine](./BOOK_II_COMPETITIVE_DOCTRINE.md) — the governing rule that competition, display, and one-upmanship continue indefinitely across changing forms.
 - [Book II — Local Spatial Atlas](./BOOK_II_SPATIAL_ATLAS.md) — the Measure House, lower routes, Twin Grounds, four estates, Cedar Span, and Long Return, with coordinates held open until surveyed.
 
 ## Unnumbered relationship branch — cross-book continuity

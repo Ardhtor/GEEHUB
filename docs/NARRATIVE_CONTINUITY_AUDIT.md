@@ -31,6 +31,10 @@ The three-book map originally linked `novel/BOOK_I.md` as if it were the consoli
 
 The environmental rewrite identifies itself as *The House of Open Screens*, while the three-book index calls the work *The Road of Seven Wells*. The source map preserves both titles and marks the decision open. No title has been silently chosen. The earlier 162,974-word Book I estimate is now marked as an unverified historical repository-level figure, not a count of a consolidated manuscript.
 
+## Book I register correction
+
+The previous `novel/BOOK_I_EXPANSION_REGISTER.json` claimed 72 completed chapters and 187,204 words in `novel/BOOK_I.md`, citing the empty-file blob. Those records were not supported by the file they named. The register has been rebuilt against `novel/REWRITTEN_OPENING.md`: 72 headings, approximately 38,150 words, with all chapters queued for review. The old 72 chapter records and completion claims remain in a `legacy_unverified_chapters` field rather than being deleted or treated as valid current status. The unusual heading `XLIX-I — The Men Who Stayed` is retained as authored and flagged for ordinal review. This current register describes the rewritten opening only; it does not settle Book I's title or consolidate the overlapping continuation files.
+
 ## Unresolved continuity questions
 
 ### First-person identity in “Three Years”

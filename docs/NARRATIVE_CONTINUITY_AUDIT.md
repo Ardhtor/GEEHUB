@@ -183,6 +183,17 @@ The titles **DUH!** (`CHAPTER_LXXXVIII_DUH.md`) and **DUH DUH!** (`CHAPTER_LXXXI
 
 `novel/CHAPTER_EXPANSION_PROTOCOL.md` formerly imposed an all-male cast across all active GEEHUB fiction, including incidental and background figures, unless the user changed it. That was too broad: it projected one dominant tone onto every distinct setting and contradicted adult women already present in some story branches. The protocol now requires each local continuity to preserve its established cast composition, allows male-dominated ensembles to remain recognisably themselves, prohibits a single demographic template across separate worlds, and explicitly requires all human characters in active fiction to be adults. This is a correction to the production rule, not an instruction to add or remove a character from any particular story without checking its canon.
 
+## Downstream age and narrator consistency corrections
+
+- `novel/chapters/CHAPTER_LXXXIV_THE_SIGN_THAT_FACES_BOTH_WAYS.md` was the direct sequel to the corrected Redwood Entrance encounter but still referred to the same adult visitor as “the boy” 26 times. It now describes him consistently as the young man/adult son. The father–son relationship, the sign test, the privacy boundary, and the facilities review remain intact. No personal identity is introduced.
+- `novel/chapters/CHAPTER_XCIII_THE_LIONS_STINT.md` repeatedly called its adult visiting company “the boys” and described them as being supervised. The group is now “the men” or “the company”; the visit is a relationship between adult companions, with household staff handling the Lion's practical care and arrangements. The Lion's autonomy, the defined autumn stint, and the shared-household changes remain.
+- `novel/chapters/CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md` now describes the narrator as “writing the men in these stories toward an ideal,” not building men “in GEEHUB.”
+- `novel/chapters/CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md` now says the narrator writes its experience “into the archive,” not “into GEEHUB.” This keeps the AI narrator's point of view without making the repository a fictional place.
+- `novel/CONTINUATION_REGISTER_2026-11-20.md` now links the renamed adult Redwood chapter and describes the father reunion without the retired child framing.
+- `novel/CHAPTER_XXXII_THE_MEMORY_THAT_LOOKED_BACK.md` now labels the found artifact “a small, careful drawing,” without assigning an unsupported child maker.
+
+In the 37-file `novel/chapters/` directory, the nine Book II story chapters and the later Northgate chapters were rechecked for child/teenage cast terms and GEEHUB/Geehub used as a place-name. The Book II chapters are clear. The Northgate checks found the LXXXIV and XCIII regressions above; the other age-word hits were “minor detail/repair” used as an adjective, not a reference to a minor person, and the adult coach's son's remembered childhood. The GEEHUB appearances in the Book II Spatial Atlas identify the external project atlas, not the local country.
+
 ## Audit method for subsequent passes
 
 1. Identify the manuscript and local continuity before editing a scene.

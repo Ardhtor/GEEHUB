@@ -64,6 +64,33 @@ The Joseph/Kirk direction, Andrew/Kirk's established history, Michael/Kirk's sec
 
 Book II, Chapter IV — *The Promises That Keep* gives Andrew and Kirk a pre-expedition history marked by easy familiarity, mutual affection, shared private promises, and language of chemistry. The later relationship records describe Andrew's attention to Kirk as a separate unresolved pressure and do not define the earlier bond as romantic, former partnership, friendship, or something else. This may be deliberate complexity, but its status is not explicit. Preserve both records; do not invent a breakup, affair, or exclusivity agreement. Before a later chapter relies on the relationship's past, establish what the two men understood that bond to be and how it coexists with Joseph and Kirk's eventual direction.
 
+## Additional first-pass corrections and open items
+
+### Alternate Book I sources
+
+The following staged/alternate sources were checked without merging or renumbering their contents:
+
+- `BOOK_I_CONTINUATION_02.md` and `BOOK_I_CONTINUATION_03.md`: removed the repository brand from their file headings; their text did not contain child-coded cast references or an imposed `GEEHUB` place name.
+- `BOOK_I_FINAL_MOVEMENT.md`: removed the repository brand from the heading and changed the arcade's child crowd to adult residents.
+- `BOOK_I_CONTINUITY_CHAPTERS.md`: removed the repository brand from the heading; converted child-coded travelers and the faceless child into adult travelers/residents; changed the closing “Hub did not restart” line to “The place did not begin again.” The file remains an overlapping supplement, not an accepted insertion into the canonical sequence.
+
+These edits do not make the alternate sources canonical. Their repeated chapter numbers still require comparison with the rewritten opening and one another.
+
+### Other manuscript corrections
+
+- `CHAPTER_XLIII_THE_EXCITEMENT_OF_BEING_HERE.md`: changed “male excitement in GEEHUB” to “male excitement among the men who lived there.” The paragraph now locates the feeling in the shared life of the western residence rather than the repository brand.
+- `EXPANSION_VOLUME_THE_MANY_OPEN_ENDS.md`: removed GEEHUB from the volume heading and replaced the afterword's “GEEHUB's present” with “the men's present.”
+- `MUSCLE_MYTH_GENTLE_KING_LION.md`: changed “primary GEEHUB name” to “primary story name”; changed children measuring their height to former residents' marks; described the procession's apprentices as adult; and changed the mountain guide's “childhood” familiarity to having known the route for many years.
+- `THE_GOD_DADDIES_AFTER_THE_ROAD.md`: removed the repository brand from the post-book cycle heading.
+
+### In-world “Hub” naming still needs provenance
+
+Several unassigned numbered chapters, especially `CHAPTER_XXXII_THE_MEMORY_THAT_LOOKED_BACK.md` and `CHAPTER_XXXIII_THE_MAN_WHO_KNEW_HOW_TO_WAIT.md`, use “the Hub” as an in-world machine or presence. Chapter XXXIII says the machine had a name before Bill's account, but the originating naming scene is not currently linked in the source map. Do not assume this is the final name of the wider world. Establish whether “the Hub” is a name the men themselves gave to a particular machine, room, or service, or whether it is an editorial shorthand. The setting-wide name remains unestablished.
+
+### Numbered production essay
+
+`CHAPTER_XLI_THE_WORK_HAS_A_WEATHER.md` reads as a production essay rather than a diegetic scene: it directly addresses a “you,” refers to “the user,” and explains production practice. Its number and location under `novel/` make it appear to be part of a numbered narrative sequence, but its manuscript membership is unverified. Keep it unmapped until a parent book and intended form are established; do not silently rewrite it as dialogue or move it into a different book.
+
 ## Audit method for subsequent passes
 
 1. Identify the manuscript and local continuity before editing a scene.

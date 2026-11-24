@@ -64,9 +64,9 @@ These may belong to different books or parallel continuities, because the reposi
 
 The Joseph/Kirk direction, Andrew/Kirk's established history, Michael/Kirk's secret and gentle relationship, and the provisional Ian/Gabe/Kirk branch must remain distinct. The provisional triangle is not yet placed on the Book II chronology. Do not collapse these relationships into one rivalry or assume disclosure, exclusivity, or a shared timeline that the scenes have not established.
 
-### Andrew and Kirk — the nature of their earlier bond
+### Andrew and Kirk — established affectionate bond; exact status still open
 
-Book II, Chapter IV — *The Promises That Keep* gives Andrew and Kirk a pre-expedition history marked by easy familiarity, mutual affection, shared private promises, and language of chemistry. The later relationship records describe Andrew's attention to Kirk as a separate unresolved pressure and do not define the earlier bond as romantic, former partnership, friendship, or something else. This may be deliberate complexity, but its status is not explicit. Preserve both records; do not invent a breakup, affair, or exclusivity agreement. Before a later chapter relies on the relationship's past, establish what the two men understood that bond to be and how it coexists with Joseph and Kirk's eventual direction.
+Book II, Chapter IV — *The Promises That Keep* explicitly establishes that Andrew and Kirk share an affectionate bond older than the expedition. Their familiarity, chemistry, ordinary affection, and reciprocal promises are now stated in the chapter's continuity note; this should not be described as a newly formed attachment or as mere one-sided pursuit. Chapter VI continues the attention-pressure thread, while Chapter IX leaves a later conversation scheduled but unresolved. The precise status of the earlier bond—friendship, romance, former partnership, or another mutually understood arrangement—is still not named. Preserve the established affection without inventing exclusivity, a breakup, or a new disclosure. Future chapters should let the men clarify what the bond means to them where that distinction matters, while keeping Joseph and Kirk's chosen relationship continuity separate and intact.
 
 ## Additional first-pass corrections and open items
 
@@ -86,6 +86,12 @@ These edits do not make the alternate sources canonical. Their repeated chapter 
 - `EXPANSION_VOLUME_THE_MANY_OPEN_ENDS.md`: removed GEEHUB from the volume heading and replaced the afterword's “GEEHUB's present” with “the men's present.”
 - `MUSCLE_MYTH_GENTLE_KING_LION.md`: changed “primary GEEHUB name” to “primary story name”; changed children measuring their height to former residents' marks; described the procession's apprentices as adult; and changed the mountain guide's “childhood” familiarity to having known the route for many years.
 - `THE_GOD_DADDIES_AFTER_THE_ROAD.md`: removed the repository brand from the post-book cycle heading.
+
+### Book II relationship knowledge and privacy
+
+The current Book II chapters distinguish the public Evermeasure exhibition from private relationships. Chapter VII explicitly records that the other residents do not know about Michael Brock and Kirk; Chapter VIII keeps their conversation on a private channel and outside the public record. Chapter IX does not turn Michael's absence into a vacancy or reveal the relationship. Preserve this knowledge boundary in later scenes: no resident may act on a secret they have not been told.
+
+The nine current Book II chapters contain no GEEHUB/Geehub setting label, no “the Hub” world-name, and no child/children references in the main chapter text. Their local geography remains the Kirk expedition's own atlas. This is a checked property of those nine chapter files, not a claim about every Book II supporting document.
 
 ### In-world “Hub” naming still needs provenance
 

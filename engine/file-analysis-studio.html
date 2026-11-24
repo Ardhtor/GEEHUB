@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#091116">
+<title>GEEHUB // FILE ANALYSIS STUDIO</title>
+<style>
+:root{color-scheme:dark;--bg:#091116;--panel:#101d24;--panel2:#0b171d;--line:#29404a;--ice:#a8e8ee;--blue:#6db4c3;--amber:#d7b27a;--muted:#91a5ad;--text:#e7eff1;--good:#96c9a9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 ui-sans-serif,system-ui,-apple-system,sans-serif}
+header{padding:17px 22px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:14px}
+.brand{color:var(--ice);font:600 12px/1.4 ui-monospace,monospace;letter-spacing:.18em}
+header a{color:var(--ice);text-decoration:none}
+main{max-width:1500px;margin:auto;padding:18px;display:grid;grid-template-columns:minmax(270px,350px) minmax(0,1fr);gap:16px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:15px;min-width:0}
+.panel h2{font:600 12px ui-monospace,monospace;letter-spacing:.13em;color:var(--amber);margin:0 0 13px}
+h1{font-size:clamp(25px,3vw,36px);font-weight:550;letter-spacing:-.035em;margin:4px 0 5px}
+p{color:#b6c5ca;margin:6px 0 14px}
+.muted,.hint{font-size:12px;color:var(--muted)}
+label{display:block;color:#bfd0d4;font-size:12px;margin:12px 0 5px}
+input,select,textarea,button{font:inherit;color:var(--text);background:#09151b;border:1px solid #36515b;border-radius:6px;padding:9px;width:100%;min-width:0}
+textarea{min-height:68px;resize:vertical}
+button{cursor:pointer;background:#142832}
+button:hover{border-color:var(--ice)}
+button:disabled{opacity:.45;cursor:not-allowed}
+.primary{background:#183943;border-color:#4f8491}
+.secondary{background:#0d1b21}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:12px}
+.stack{display:grid;gap:8px}
+.viewer{min-height:300px;max-height:65vh;overflow:auto;border:1px solid var(--line);border-radius:8px;background:#050d11;display:grid;place-items:center;padding:12px}
+.viewer img,.viewer video,.viewer audio,.viewer iframe{max-width:100%;max-height:62vh}
+.viewer iframe{width:100%;height:58vh;border:0;background:white}
+.viewer pre{width:100%;max-height:60vh;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;color:#c8d8dc;font:12px/1.6 ui-monospace,monospace;margin:0}
+.blank{padding:30px;text-align:center;color:var(--muted)}
+.metadata{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+.chip{font:11px ui-monospace,monospace;border:1px solid var(--line);border-radius:20px;padding:4px 8px;color:#c4d5d9}
+.workspace{display:grid;gap:14px;min-width:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.obs{border-top:1px solid var(--line);padding:10px 0}
+.obs:first-child{border-top:0}
+.obs strong{display:block;color:var(--ice);font:600 12px ui-monospace,monospace}
+.obs small{display:block;color:var(--muted);margin:3px 0}
+.obs p{margin:4px 0 0;color:#d9e2e4;white-space:pre-wrap}
+.list{max-height:280px;overflow:auto}
+.status{color:var(--good);font-size:12px;min-height:18px;margin-top:10px}
+.warning{border-left:2px solid var(--amber);padding:8px 10px;background:#151b1b;color:#c8c4b7;font-size:12px}
+hr{border:0;border-top:1px solid var(--line);margin:14px 0}
+.smallbutton{width:auto;padding:6px 10px;font-size:12px}
+@media(max-width:960px){main{grid-template-columns:1fr}.viewer{min-height:220px}.two{grid-template-columns:1fr}}
+@media(max-width:560px){header{padding:13px}.three{grid-template-columns:1fr}.actions{grid-template-columns:1fr 1fr}main{padding:10px}}
+</style>
+</head>
+<body>
+<header>
+  <div><div class="brand">GEEHUB / SOURCE SYSTEMS</div><div class="muted">FILE ANALYSIS STUDIO · LOCAL REVIEW</div></div>
+  <a href="../index.html">RETURN TO THE WORLD ↗</a>
+</header>
+<main>
+<aside class="stack">
+  <section class="panel">
+    <h2>01 / SOURCE</h2>
+    <label for="filePicker">Open an original or working copy</label>
+    <input id="filePicker" type="file">
+    <div class="hint">The selected file is previewed locally in this browser. It is not uploaded. The browser does not reveal its absolute local path.</div>
+    <label for="sourceId">Stable source ID</label><input id="sourceId" value="">
+    <label for="sourcePath">Exact source path or Dropbox path</label><input id="sourcePath" placeholder="/GEEHUB/corpus/...">
+    <div class="two">
+      <div><label for="sourceRole">Source role</label><select id="sourceRole"><option value="original">Original</option><option value="copy">Copy</option><option value="derivative">Derivative</option><option value="screenshot">Screenshot</option><option value="transcode">Transcode</option><option value="frame_extraction">Frame extraction</option><option value="generated">Generated</option><option value="unknown">Unknown</option></select></div>
+      <div><label for="projectId">Project ID</label><input id="projectId" placeholder="project-id"></div>
+    </div>
+    <label for="purpose">Why this file is being examined</label><textarea id="purpose" placeholder="What are we trying to understand, compare, preserve, or build?"></textarea>
+    <label for="questions">Questions for this pass</label><textarea id="questions" placeholder="One question per line"></textarea>
+    <div class="actions">
+      <button class="secondary" id="hashButton" type="button">RECORD SHA-256</button>
+      <button class="secondary" id="importButton" type="button">IMPORT ANALYSIS</button>
+      <input id="importPicker" type="file" accept="application/json,.json" hidden>
+    </div>
+    <div id="sourceStatus" class="status">No source selected.</div>
+  </section>
+  <section class="panel">
+    <h2>02 / COVERAGE</h2>
+    <label for="reviewStatus">Analysis level</label>
+    <select id="reviewStatus">
+      <option value="inventoried">Inventoried</option>
+      <option value="technically_inspected">Technically inspected</option>
+      <option value="content_inspected">Content inspected</option>
+      <option value="comparatively_analysed">Comparatively analysed</option>
+      <option value="production_ready">Production ready</option>
+      <option value="blocked">Blocked</option>
+    </select>
+    <div class="two">
+      <div><label for="expectedUnits">Expected units</label><input id="expectedUnits" type="number" min="0" placeholder="Unknown"></div>
+      <div><label for="reviewedUnits">Reviewed units</label><input id="reviewedUnits" type="number" min="0" value="0"></div>
+    </div>
+    <label for="coverageStrategy">Coverage method</label><textarea id="coverageStrategy">State whether the whole source or a sample was examined, and why this level is appropriate.</textarea>
+    <label for="limitations">Access and method limitations</label><textarea id="limitations" placeholder="Unavailable pages, low resolution, incomplete sampling, missing audio, etc."></textarea>
+    <div class="warning">Do not mark a file content-inspected because metadata loaded or a contact sheet was generated. Choose the level that describes what was actually reviewed.</div>
+  </section>
+  <section class="panel">
+    <h2>03 / RECORD</h2>
+    <label for="savedRecords">Saved records in this browser</label>
+    <select id="savedRecords"><option value="">No saved records</option></select>
+    <div class="actions">
+      <button id="saveLocal" type="button">SAVE LOCALLY</button>
+      <button class="primary" id="exportJson" type="button">EXPORT JSON</button>
+    </div>
+    <div class="status" id="recordStatus">Records stay in this browser until exported.</div>
+  </section>
+</aside>
+
+<section class="workspace">
+  <section class="panel">
+    <h2>04 / SOURCE VIEW</h2>
+    <div id="viewer" class="viewer"><div class="blank">Open an image, video, audio file, PDF, or text-based file to inspect it here.</div></div>
+    <div id="metadata" class="metadata"></div>
+  </section>
+
+  <section class="panel">
+    <h2>05 / DIRECT OBSERVATIONS</h2>
+    <p>Record what the source actually shows, says, contains, or sounds like. Attach each detail to a precise location inside the file.</p>
+    <form id="observationForm">
+      <div class="three">
+        <div><label for="locatorType">Location type</label><select id="locatorType"><option value="whole_file">Whole file</option><option value="region">Image region / visual detail</option><option value="timestamp">Video or audio timestamp</option><option value="time_range">Video or audio time range</option><option value="page">Document page</option><option value="paragraph">Paragraph / section</option><option value="line_range">Code or text lines</option><option value="slide">Slide</option><option value="sheet_range">Spreadsheet range</option><option value="row">Dataset row</option><option value="cell">Spreadsheet cell</option><option value="archive_entry">Archive entry</option><option value="other">Other</option></select></div>
+        <div><label for="locatorUnit">Exact locator</label><input id="locatorUnit" placeholder="e.g. upper-left shoulder / 00:12.4 / p. 4"></div>
+        <div><label for="confidence">Confidence (0–1)</label><input id="confidence" type="number" min="0" max="1" step="0.05" value="0.9"></div>
+      </div>
+      <div class="three">
+        <div><label for="startSeconds">Start seconds (optional)</label><input id="startSeconds" type="number" min="0" step="0.001"></div>
+        <div><label for="endSeconds">End seconds (optional)</label><input id="endSeconds" type="number" min="0" step="0.001"></div>
+        <div><label for="pageNumber">Page number (optional)</label><input id="pageNumber" type="number" min="1" step="1"></div>
+      </div>
+      <label for="bbox">Normalized region box (optional: x, y, width, height; each 0–1)</label>
+      <input id="bbox" placeholder="0.12, 0.18, 0.35, 0.42">
+      <label for="evidenceKind">Evidence type</label>
+      <select id="evidenceKind"><option value="direct_visual">Direct visual</option><option value="literal_text">Literal text</option><option value="technical_metadata">Technical metadata</option><option value="computed_measurement">Computed measurement</option><option value="structural">File / data structure</option><option value="audio_perceptual">Audio-perceptual</option><option value="interaction">Interaction / behavior</option><option value="other">Other</option></select>
+      <label for="domainTags">Topics / domains</label><input id="domainTags" placeholder="physique, clothing, camera, architecture, gesture, recurring motif">
+      <label for="observationText">Observed detail</label><textarea id="observationText" required placeholder="Describe one source-grounded detail. Keep explanation and inference for the next section."></textarea>
+      <label for="observationLimits">Limits on this observation</label><input id="observationLimits" placeholder="e.g. partial crop; movement blur; perspective distortion">
+      <button class="primary" type="submit">ADD OBSERVATION</button>
+    </form>
+    <hr>
+    <div class="muted">OBSERVATION LEDGER / APPEND-ONLY PASSES</div>
+    <div id="observationList" class="list"><div class="blank">No observations recorded yet.</div></div>
+  </section>
+
+  <section class="panel">
+    <h2>06 / INTERPRETATIONS</h2>
+    <p>Interpretations must point to the observations that support them and retain alternative explanations.</p>
+    <form id="interpretationForm">
+      <div class="two">
+        <div><label for="interpretationKind">Interpretation type</label><select id="interpretationKind"><option value="visual_reading">Visual reading</option><option value="somatic_reading">Embodiment / psychosomatic reading</option><option value="continuity_hypothesis">Continuity hypothesis</option><option value="context_hypothesis">Context hypothesis</option><option value="semantic_reading">Semantic reading</option><option value="production_implication">Production implication</option><option value="other">Other</option></select></div>
+        <div><label for="interpretationConfidence">Confidence (0–1)</label><input id="interpretationConfidence" type="number" min="0" max="1" step="0.05" value="0.5"></div>
+      </div>
+      <label for="basedOn">Supporting observations (select one or more)</label><select id="basedOn" multiple size="4"></select>
+      <label for="hypothesis">Hypothesis</label><textarea id="hypothesis" placeholder="What might the observations mean?"></textarea>
+      <label for="alternatives">Alternative explanations</label><textarea id="alternatives" placeholder="One alternative per line. Keep uncertainty visible."></textarea>
+      <label for="testQuestions">What would test this interpretation?</label><textarea id="testQuestions" placeholder="Other frames, another source, original resolution, date evidence, etc."></textarea>
+      <button class="primary" type="submit">ADD INTERPRETATION</button>
+    </form>
+    <hr>
+    <div id="interpretationList" class="list"><div class="blank">No interpretations recorded yet.</div></div>
+  </section>
+
+  <section class="panel">
+    <h2>07 / EMBODIMENT LAYER</h2>
+    <p>Consider posture, gesture, muscular organization, effort, rest, balance, contact, expectation, and somatic memory where the source supports a reading. Observable cues and possible meanings stay separate.</p>
+    <label for="embodimentStatus">Status for this pass</label>
+    <select id="embodimentStatus"><option value="not_reviewed">Not reviewed yet</option><option value="considered_no_supported_observation">Considered; no supported observation</option><option value="observations_recorded">Observations recorded</option><option value="not_applicable">Not applicable to this source</option></select>
+    <label for="embodimentNote">Embodiment notes</label>
+    <textarea id="embodimentNote" placeholder="Reference observation IDs and describe the boundary between visible cues and interpretation."></textarea>
+    <div class="warning">Do not infer a real person's private desires, consent, relationships, diagnosis, or inner state from an image or recording. For fictional characters, mark speculative readings as hypotheses rather than established canon.</div>
+  </section>
+
+  <section class="panel">
+    <h2>08 / OPEN QUESTIONS AND NEGATIVE FINDINGS</h2>
+    <div class="two">
+      <div><label for="unresolved">Unresolved questions</label><textarea id="unresolved" placeholder="What remains unknown?"></textarea></div>
+      <div><label for="contradictions">Contradictions</label><textarea id="contradictions" placeholder="Conflicting observations or records; do not silently resolve them."></textarea></div>
+    </div>
+    <label for="negativeFindings">Negative findings / meaningful absences</label><textarea id="negativeFindings" placeholder="What was not present, not legible, or not established?"></textarea>
+  </section>
+</section>
+</main>
+<script>
+(() => {
+"use strict";
+const $ = id => document.getElementById(id);
+const storeKey = "geehub.file-analysis.v1";
+let file = null;
+let objectUrl = null;
+let record = null;
+let saved = [];
+let localMetadata = {};
+
+function kindFor(f) {
+  const name = f.name.toLowerCase();
+  if (f.type.startsWith("image/")) return "image";
+  if (f.type.startsWith("video/")) return "video";
+  if (f.type.startsWith("audio/")) return "audio";
+  if (f.type === "application/pdf" || name.endsWith(".pdf")) return "pdf";
+  if (/\.(csv|tsv|xlsx?|ods)$/.test(name)) return name.endsWith(".csv") || name.endsWith(".tsv") ? "dataset" : "spreadsheet";
+  if (/\.(zip|7z|rar|tar|gz)$/.test(name)) return "archive";
+  if (/\.(py|js|mjs|ts|tsx|jsx|html|css|json|xml|sh|lua|java|c|cpp|h|md)$/.test(name)) return /\.(py|js|mjs|ts|tsx|jsx|html|css|sh|lua|java|c|cpp|h)$/.test(name) ? "code" : "text";
+  if (f.type.startsWith("text/")) return "text";
+  return "unknown";
+}
+function unitFor(kind) {
+  return ({image:"whole_file",video:"time_ranges",audio:"audio_segments",pdf:"pages",document:"pages",text:"other",code:"line_range",spreadsheet:"sheets",dataset:"rows",archive:"archive_entries"})[kind] || "whole_file";
+}
+function makeId(prefix, n) { return prefix + "-" + String(n).padStart(3,"0"); }
+function lines(value) { return value.split(/\r?\n/).map(s=>s.trim()).filter(Boolean); }
+function slug(value) { return value.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,48) || "source"; }
+function formatBytes(n) { return n < 1024 ? n+" B" : n < 1048576 ? (n/1024).toFixed(1)+" KB" : (n/1048576).toFixed(2)+" MB"; }
+function addChip(value) {
+  const node=document.createElement("span"); node.className="chip"; node.textContent=value; $("metadata").append(node);
+}
+function setStatus(id, text) { $(id).textContent=text; }
+function createRecord(f) {
+  const kind=kindFor(f);
+  const now=new Date().toISOString();
+  return {
+    schema:"geehub.file-analysis/1",
+    analysis_id:"analysis-"+slug(f.name)+"-"+Date.now().toString(36),
+    source:{
+      source_id:$("sourceId").value || "source-"+slug(f.name),
+      filename:f.name,file_kind:kind,mime_type:f.type || null,
+      origin:{provider:"local-browser",locator:null,file_id:null,acquired_at:null,last_modified:f.lastModified?new Date(f.lastModified).toISOString():null},
+      integrity:{status:"not_checked",algorithm:null,digest:null,verified_at:null},
+      size_bytes:f.size,source_role:$("sourceRole").value,parent_source_ids:[],technical_metadata:{}
+    },
+    scope:{purpose:"",project_ids:[],entity_ids:[],coverage_level:"selected_units",questions:[]},
+    processing:{status:"inventoried",started_at:now,completed_at:null,method:"Local browser review with analyst-authored observations.",tools:["GEEHUB File Analysis Studio"],reviewer:null,source_unchanged:true,review_pass:1,supersedes_analysis_id:null},
+    coverage:{unit_type:unitFor(kind),expected_units:kind==="image"?1:null,reviewed_units:0,coverage_ratio:null,strategy:"",skipped_units:[],limitations:[]},
+    observations:[],interpretations:[],
+    embodiment_layer:{status:"not_reviewed",observation_ids:[],interpretation_ids:[],note:""},
+    relationships:[],applications:[],unresolved:[],contradictions:[],negative_findings:[]
+  };
+}
+function updateRecordFields() {
+  if(!record)return;
+  record.source.source_id=$("sourceId").value.trim() || record.source.source_id;
+  record.source.origin.locator=$("sourcePath").value.trim() || "Browser-selected local file; absolute path is not exposed";
+  record.source.origin.provider=$("sourcePath").value.trim() ? "user-specified-path" : "local-browser";
+  record.source.source_role=$("sourceRole").value;
+  record.scope.purpose=$("purpose").value.trim();
+  record.scope.project_ids=$("projectId").value.trim() ? [$("projectId").value.trim()] : [];
+  record.scope.questions=lines($("questions").value);
+  record.processing.status=$("reviewStatus").value;
+  record.processing.completed_at=record.processing.status==="inventoried"?null:new Date().toISOString();
+  const expected=$("expectedUnits").value===""?null:Number($("expectedUnits").value);
+  const reviewed=Math.max(0,Number($("reviewedUnits").value)||0);
+  record.coverage.expected_units=expected;
+  record.coverage.reviewed_units=reviewed;
+  record.coverage.coverage_ratio=expected>0?Math.min(1,reviewed/expected):null;
+  record.coverage.strategy=$("coverageStrategy").value.trim();
+  record.coverage.limitations=lines($("limitations").value);
+  record.embodiment_layer.status=$("embodimentStatus").value;
+  record.embodiment_layer.note=$("embodimentNote").value.trim();
+  record.unresolved=lines($("unresolved").value);
+  record.contradictions=lines($("contradictions").value);
+  record.negative_findings=lines($("negativeFindings").value);
+}
+function renderMetadata() {
+  $("metadata").replaceChildren();
+  if(!file)return;
+  addChip(file.name); addChip(formatBytes(file.size)); addChip(record.source.file_kind);
+  if(localMetadata.width&&localMetadata.height)addChip(localMetadata.width+" × "+localMetadata.height);
+  if(localMetadata.duration)addChip(localMetadata.duration.toFixed(2)+" sec");
+  if(record.source.integrity.digest)addChip("SHA-256 recorded");
+}
+function renderPreview(f) {
+  if(objectUrl)URL.revokeObjectURL(objectUrl);
+  objectUrl=URL.createObjectURL(f);
+  const viewer=$("viewer"); viewer.replaceChildren();
+  const kind=kindFor(f);
+  if(kind==="image"){
+    const img=document.createElement("img");img.alt=f.name;img.src=objectUrl;
+    img.addEventListener("load",()=>{localMetadata={width:img.naturalWidth,height:img.naturalHeight};record.source.technical_metadata={...record.source.technical_metadata,...localMetadata};renderMetadata();});
+    viewer.append(img);
+  } else if(kind==="video"){
+    const v=document.createElement("video");v.controls=true;v.preload="metadata";v.src=objectUrl;
+    v.addEventListener("loadedmetadata",()=>{localMetadata={width:v.videoWidth,height:v.videoHeight,duration:v.duration};record.source.technical_metadata={...record.source.technical_metadata,...localMetadata};renderMetadata();});
+    v.addEventListener("timeupdate",()=>{if($("locatorType").value==="timestamp" && !$("locatorUnit").dataset.touched){$("locatorUnit").value=v.currentTime.toFixed(3)+" sec";$("startSeconds").value=v.currentTime.toFixed(3);}});
+    v.addEventListener("seeked",()=>{if($("locatorType").value==="timestamp"){$("locatorUnit").value=v.currentTime.toFixed(3)+" sec";$("startSeconds").value=v.currentTime.toFixed(3);}});
+    viewer.append(v);
+  } else if(kind==="audio"){
+    const a=document.createElement("audio");a.controls=true;a.preload="metadata";a.src=objectUrl;
+    a.addEventListener("loadedmetadata",()=>{localMetadata={duration:a.duration};record.source.technical_metadata={...record.source.technical_metadata,...localMetadata};renderMetadata();});
+    viewer.append(a);
+  } else if(kind==="pdf"){
+    const frame=document.createElement("iframe");frame.src=objectUrl;frame.title=f.name;viewer.append(frame);
+  } else if(kind==="text"||kind==="code"||kind==="dataset"||kind==="spreadsheet"){
+    if(f.size>10*1024*1024){const note=document.createElement("div");note.className="blank";note.textContent="Text preview is limited to 10 MB. The source has not been read by this page.";viewer.append(note);}
+    else f.text().then(text=>{const pre=document.createElement("pre");pre.textContent=text;viewer.replaceChildren(pre);});
+  } else {
+    const note=document.createElement("div");note.className="blank";note.textContent="This file type is recorded but not previewed by this browser workbench. Use a suitable native viewer; do not treat the metadata as content inspection.";viewer.append(note);
+  }
+  renderMetadata();
+}
+function populateObservationSelect() {
+  const select=$("basedOn");select.replaceChildren();
+  record.observations.forEach(o=>{const opt=document.createElement("option");opt.value=o.observation_id;opt.textContent=o.observation_id+" · "+o.statement.slice(0,85);select.append(opt);});
+}
+function renderObservations() {
+  const list=$("observationList");list.replaceChildren();
+  if(!record.observations.length){const n=document.createElement("div");n.className="blank";n.textContent="No observations recorded yet.";list.append(n);populateObservationSelect();return;}
+  record.observations.forEach(o=>{
+    const item=document.createElement("div");item.className="obs";
+    const title=document.createElement("strong");title.textContent=o.observation_id+" / "+o.evidence_kind.toUpperCase();
+    const location=document.createElement("small");location.textContent=o.locator.unit_type+" · "+o.locator.unit+" · confidence "+o.confidence.toFixed(2);
+    const body=document.createElement("p");body.textContent=o.statement;
+    item.append(title,location,body);list.append(item);
+  });
+  populateObservationSelect();
+}
+function renderInterpretations() {
+  const list=$("interpretationList");list.replaceChildren();
+  if(!record.interpretations.length){const n=document.createElement("div");n.className="blank";n.textContent="No interpretations recorded yet.";list.append(n);return;}
+  record.interpretations.forEach(i=>{
+    const item=document.createElement("div");item.className="obs";
+    const title=document.createElement("strong");title.textContent=i.interpretation_id+" / "+(i.kind||"interpretation").toUpperCase();
+    const supporting=document.createElement("small");supporting.textContent="Based on "+i.based_on_observations.join(", ")+" · "+i.status;
+    const body=document.createElement("p");body.textContent=i.hypothesis;
+    const alt=document.createElement("small");alt.textContent="Alternatives: "+(i.alternatives.join(" / ")||"none recorded");
+    item.append(title,supporting,body,alt);list.append(item);
+  });
+}
+function addObservation(e) {
+  e.preventDefault();if(!record){setStatus("sourceStatus","Open a file before adding observations.");return;}
+  const statement=$("observationText").value.trim();if(!statement)return;
+  const type=$("locatorType").value;let unit=$("locatorUnit").value.trim();
+  const video=$("viewer").querySelector("video"),audio=$("viewer").querySelector("audio");
+  const media=video||audio;
+  let start=$("startSeconds").value===""?null:Number($("startSeconds").value);
+  if(type==="timestamp"&&start===null&&media)start=Number(media.currentTime.toFixed(3));
+  if(!unit){if(type==="whole_file")unit="whole file";else if(type==="timestamp"&&start!==null)unit=start.toFixed(3)+" sec";else return setStatus("sourceStatus","Enter the exact location for this observation.");}
+  const locator={unit_type:type,unit};
+  if(start!==null)locator.start_seconds=start;
+  if($("endSeconds").value!=="")locator.end_seconds=Number($("endSeconds").value);
+  if($("pageNumber").value!=="")locator.page_number=Number($("pageNumber").value);
+  const bbox=$("bbox").value.split(",").map(v=>Number(v.trim()));
+  if($("bbox").value.trim()){if(bbox.length!==4||bbox.some(v=>!Number.isFinite(v)||v<0||v>1)){setStatus("sourceStatus","Region box must contain four normalized numbers between 0 and 1.");return;}locator.bbox_normalized=bbox;}
+  const confidence=Number($("confidence").value);
+  if(!Number.isFinite(confidence)||confidence<0||confidence>1){setStatus("sourceStatus","Confidence must be between 0 and 1.");return;}
+  const observation={
+    observation_id:makeId("obs",record.observations.length+1),locator,
+    evidence_kind:$("evidenceKind").value,
+    domain_tags:$("domainTags").value.split(",").map(s=>s.trim()).filter(Boolean),
+    statement,verbatim:null,measurements:[],confidence,
+    limitations:$("observationLimits").value.trim()?[$("observationLimits").value.trim()]:[]
+  };
+  record.observations.push(observation);
+  $("reviewStatus").value="content_inspected";
+  $("reviewedUnits").value=String(Math.max(Number($("reviewedUnits").value)||0,record.observations.length));
+  $("observationText").value="";$("observationLimits").value="";
+  updateRecordFields();renderObservations();setStatus("sourceStatus","Observation added. Source file remains unchanged.");
+}
+function addInterpretation(e) {
+  e.preventDefault();if(!record){setStatus("sourceStatus","Open a file before adding interpretations.");return;}
+  const ids=Array.from($("basedOn").selectedOptions).map(o=>o.value);
+  const hypothesis=$("hypothesis").value.trim();
+  if(!ids.length||!hypothesis){setStatus("sourceStatus","Choose supporting observations and enter a hypothesis.");return;}
+  const i={
+    interpretation_id:makeId("int",record.interpretations.length+1),
+    kind:$("interpretationKind").value,hypothesis,based_on_observations:ids,
+    alternatives:lines($("alternatives").value),confidence:Number($("interpretationConfidence").value),
+    status:"tentative",what_would_test_it:lines($("testQuestions").value)
+  };
+  record.interpretations.push(i);
+  if(i.kind==="somatic_reading"){
+    record.embodiment_layer.status="observations_recorded";
+    record.embodiment_layer.interpretation_ids.push(i.interpretation_id);
+    $("embodimentStatus").value="observations_recorded";
+    $("embodimentNote").value="Somatic interpretation "+i.interpretation_id+"; supporting observations: "+ids.join(", ")+". "+$("embodimentNote").value;
+  }
+  updateRecordFields();renderInterpretations();$("hypothesis").value="";$("alternatives").value="";$("testQuestions").value="";
+}
+function collectForm() { updateRecordFields(); return record; }
+function exportRecord() {
+  if(!record){setStatus("recordStatus","Open a source or import a record first.");return;}
+  const data=collectForm();const blob=new Blob([JSON.stringify(data,null,2)+"\n"],{type:"application/json"});
+  const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download=(data.analysis_id||"geehub-analysis")+".json";a.click();URL.revokeObjectURL(url);
+  setStatus("recordStatus","Analysis JSON exported. The original source was not included.");
+}
+function persist() {
+  if(!record)return;
+  const data=collectForm();
+  const index=saved.findIndex(x=>x.analysis_id===data.analysis_id);
+  if(index>=0)saved[index]=data;else saved.unshift(data);
+  saved=saved.slice(0,50);
+  try{localStorage.setItem(storeKey,JSON.stringify(saved));renderSaved();setStatus("recordStatus","Saved in this browser only. Export JSON for a portable copy.");}
+  catch(err){setStatus("recordStatus","Browser storage unavailable or full. Export the JSON record.");}
+}
+function renderSaved() {
+  const select=$("savedRecords");select.replaceChildren();
+  const empty=document.createElement("option");empty.value="";empty.textContent=saved.length?"Choose a saved record":"No saved records";select.append(empty);
+  saved.forEach(r=>{const o=document.createElement("option");o.value=r.analysis_id;o.textContent=r.source.filename+" · "+r.analysis_id;select.append(o);});
+}
+function loadRecord(data) {
+  record=data;file=null;localMetadata={};
+  $("sourceId").value=data.source?.source_id||"";
+  $("sourcePath").value=data.source?.origin?.locator||"";
+  $("sourceRole").value=data.source?.source_role||"unknown";
+  $("projectId").value=data.scope?.project_ids?.[0]||"";
+  $("purpose").value=data.scope?.purpose||"";
+  $("questions").value=(data.scope?.questions||[]).join("\n");
+  $("reviewStatus").value=data.processing?.status||"inventoried";
+  $("expectedUnits").value=data.coverage?.expected_units??"";
+  $("reviewedUnits").value=data.coverage?.reviewed_units??0;
+  $("coverageStrategy").value=data.coverage?.strategy||"";
+  $("limitations").value=(data.coverage?.limitations||[]).join("\n");
+  $("embodimentStatus").value=data.embodiment_layer?.status||"not_reviewed";
+  $("embodimentNote").value=data.embodiment_layer?.note||"";
+  $("unresolved").value=(data.unresolved||[]).join("\n");
+  $("contradictions").value=(data.contradictions||[]).join("\n");
+  $("negativeFindings").value=(data.negative_findings||[]).join("\n");
+  $("viewer").innerHTML='<div class="blank">Analysis record loaded. Re-open the original source to inspect it; the analysis JSON does not contain the source binary.</div>';
+  $("metadata").replaceChildren();addChip(data.source?.filename||"Imported analysis");addChip(data.processing?.status||"unknown status");
+  renderObservations();renderInterpretations();setStatus("sourceStatus","Record loaded. Source binary has not been attached.");
+}
+async function openFile(f) {
+  file=f;localMetadata={};record=createRecord(f);
+  $("sourceId").value=record.source.source_id;
+  $("sourcePath").value="";$("projectId").value="";
+  $("purpose").value="";$("questions").value="";
+  $("reviewStatus").value="inventoried";
+  $("expectedUnits").value=f.size>=0&&record.source.file_kind==="image"?"1":"";
+  $("reviewedUnits").value="0";
+  $("coverageStrategy").value="";$("limitations").value="";
+  $("embodimentStatus").value="not_reviewed";$("embodimentNote").value="";
+  $("unresolved").value="";$("contradictions").value="";$("negativeFindings").value="";
+  renderPreview(f);renderObservations();renderInterpretations();
+  const last=f.lastModified?new Date(f.lastModified).toLocaleString():"unknown";
+  setStatus("sourceStatus",f.name+" · "+formatBytes(f.size)+" · modified "+last);
+}
+async function hashSource() {
+  if(!file||!record){setStatus("sourceStatus","Open a local file before recording its checksum.");return;}
+  if(!crypto?.subtle){setStatus("sourceStatus","Web Crypto is unavailable in this browser context.");return;}
+  if(file.size>100*1024*1024){setStatus("sourceStatus","Checksum step is limited to 100 MB in this browser workbench. Use a local command-line hash for larger files.");return;}
+  const button=$("hashButton");button.disabled=true;button.textContent="HASHING…";
+  try{
+    const bytes=await file.arrayBuffer();const digest=await crypto.subtle.digest("SHA-256",bytes);
+    const hex=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,"0")).join("");
+    record.source.integrity={status:"checksum_recorded",algorithm:"sha256",digest:hex,verified_at:new Date().toISOString()};
+    renderMetadata();setStatus("sourceStatus","SHA-256 recorded for the selected local binary. This is not a comparison against another copy.");
+  }catch(err){setStatus("sourceStatus","Checksum failed: "+err.message);}
+  finally{button.disabled=false;button.textContent="RECORD SHA-256";}
+}
+$("filePicker").addEventListener("change",e=>{const f=e.target.files&&e.target.files[0];if(f)openFile(f);});
+$("observationForm").addEventListener("submit",addObservation);
+$("interpretationForm").addEventListener("submit",addInterpretation);
+$("exportJson").addEventListener("click",exportRecord);
+$("saveLocal").addEventListener("click",persist);
+$("hashButton").addEventListener("click",hashSource);
+$("importButton").addEventListener("click",()=>$("importPicker").click());
+$("importPicker").addEventListener("change",async e=>{
+ const f=e.target.files&&e.target.files[0];if(!f)return;
+ try{const data=JSON.parse(await f.text());if(data.schema!=="geehub.file-analysis/1")throw new Error("This is not a geehub.file-analysis/1 record.");loadRecord(data);}
+ catch(err){setStatus("recordStatus","Could not import analysis: "+err.message);}
+ e.target.value="";
+});
+$("savedRecords").addEventListener("change",e=>{const item=saved.find(x=>x.analysis_id===e.target.value);if(item)loadRecord(JSON.parse(JSON.stringify(item)));});
+$("locatorType").addEventListener("change",()=>{
+ const v=$("viewer").querySelector("video, audio");
+ if(v&&$("locatorType").value==="timestamp"){$("locatorUnit").value=v.currentTime.toFixed(3)+" sec";$("startSeconds").value=v.currentTime.toFixed(3);$("locatorUnit").dataset.touched="";}
+});
+$("locatorUnit").addEventListener("input",()=>{$("locatorUnit").dataset.touched="1";});
+try{saved=JSON.parse(localStorage.getItem(storeKey)||"[]");if(!Array.isArray(saved))saved=[];}catch{saved=[];}
+renderSaved();
+window.addEventListener("beforeunload",()=>{if(objectUrl)URL.revokeObjectURL(objectUrl);});
+})();
+</script>
+</body>
+</html>

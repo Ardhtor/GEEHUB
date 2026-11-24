@@ -10,6 +10,11 @@ The hub is not a pile of files. It records what happened, what changed, what rem
 
 ## Navigate the repository
 
+## The Atlas
+
+[Enter the geographic Atlas](worldspace/maps.html) — the navigable map application. Its World Survey uses the repository's 24 named territories and 27 authored route connections; local scales open Kingdom Land, the Veyrthalis Expanse, and the Complex. The black-console story map remains the narrative-position view, with a live pin that follows all registered world destinations. The geographic app reads the canonical map records and reports missing feature classes rather than inventing them. Run a local server from the repository root with `python3 -m http.server 8000`, then open `/worldspace/maps.html`.
+
+
 ## Generation 01 — Kirk's Lineage
 
 [Open the Generation 01 production package](production/projects/kirk-generation-01/README.md): twenty individually specified adult bodybuilder characters, individual continuity records, a validated relationship graph, visual reference-sheet requirements, and modular 3D production standards. Rendered sheets and finished 3D assets remain explicitly pending until produced and reviewed.

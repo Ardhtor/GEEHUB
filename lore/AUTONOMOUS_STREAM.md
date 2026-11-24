@@ -2829,3 +2829,11 @@ SETH: Fresh bread is cooling at the end of the oak table. Soup, roasted vegetabl
 NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
 
 Rule: approach extends geography
+
+### Pulse 366 — MEMORY / THE COMMON TABLE / 2026-11-24T17:52:07.435779+00:00
+
+NICK: A detail returns in THE COMMON TABLE: A late arrival finds a place without ceremony. The conversation continues around the table, and a serving bowl is passed down to make room for one more.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/common-table/README.md.
+
+Rule: comparison can become differentiation

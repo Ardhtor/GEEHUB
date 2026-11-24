@@ -1,6 +1,26 @@
 {
-  "cycle": 196,
+  "cycle": 197,
   "events": [
+    {
+      "id": "northgate-campus-00197",
+      "cycle": 197,
+      "world_pulse": 366,
+      "at": "2026-11-24T17:52:07.519699+00:00",
+      "region": "founders-dormitory",
+      "title": "SUPPER IN THE COMMON KITCHEN",
+      "kind": "dormitory",
+      "participants": [
+        "Dan Roman",
+        "Marek Ionescu",
+        "Elliot Ward",
+        "Noah Bell"
+      ],
+      "description": "The kitchen fills gradually. Someone has put rice on, another is chopping vegetables, and a third is trying to rescue a pan from yesterday. The conversation moves between coursework, a new record, and who has borrowed the good screwdriver. Nobody eats alone unless he wants to.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-24T17:52:07.519699+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00196",
       "cycle": 196,
@@ -3709,28 +3729,29 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 151,
-    "Marek Ionescu": 106,
-    "Elliot Ward": 121,
-    "Noah Bell": 120,
+    "Dan Roman": 152,
+    "Marek Ionescu": 107,
+    "Elliot Ward": 122,
+    "Noah Bell": 121,
     "Adrian Varga": 120
   },
   "last_event": {
-    "id": "northgate-campus-00196",
-    "cycle": 196,
-    "world_pulse": 365,
-    "at": "2026-11-24T16:28:26.987713+00:00",
-    "region": "northgate-university",
-    "title": "THE QUAD BETWEEN LECTURES",
-    "kind": "study",
+    "id": "northgate-campus-00197",
+    "cycle": 197,
+    "world_pulse": 366,
+    "at": "2026-11-24T17:52:07.519699+00:00",
+    "region": "founders-dormitory",
+    "title": "SUPPER IN THE COMMON KITCHEN",
+    "kind": "dormitory",
     "participants": [
       "Dan Roman",
       "Marek Ionescu",
-      "Elliot Ward"
+      "Elliot Ward",
+      "Noah Bell"
     ],
-    "description": "A group of students leaves the engineering lecture hall together. One carries a model under his arm; another is still explaining why the bridge supports need to be moved. They settle beneath the plane trees and the discussion becomes less formal, turning into plans for the afternoon.",
+    "description": "The kitchen fills gradually. Someone has put rice on, another is chopping vegetables, and a third is trying to rescue a pan from yesterday. The conversation moves between coursework, a new record, and who has borrowed the good screwdriver. Nobody eats alone unless he wants to.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-24T16:28:26.987713+00:00",
+    "occurred_at": "2026-11-24T17:52:07.519699+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

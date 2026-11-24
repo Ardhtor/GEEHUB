@@ -311,3 +311,11 @@ The room remained open.
 ## Environmental history
 
 The structured world-pulse record has been preserved separately in [Worlds — Environmental Pulse Archive](WORLDS_ENVIRONMENT_PULSE_ARCHIVE.md). It retains its original event sequence, source paths, and recorded pressure/memory values; it is not part of the reader-facing narrative.
+
+## THE COMMON TABLE / pulse 366 / MEMORY
+
+NICK: A detail returns in THE COMMON TABLE: A late arrival finds a place without ceremony. The conversation continues around the table, and a serving bowl is passed down to make room for one more.
+
+SETH: The earlier state is not removed. The new observation is kept beside the previous record, whose source was worlds/common-table/README.md.
+
+Source retained: worlds/common-table/README.md. Pressure 0.94; memory 1.00.

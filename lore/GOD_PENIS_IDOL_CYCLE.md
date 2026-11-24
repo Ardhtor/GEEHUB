@@ -1,8 +1,8 @@
-# The God Penis — Idol Cycle of GEEHUB
+# The God Penis — The Idol Cycle
 
 Status: active mythic canon; linked to the Institute of Phallic Studies, the Penis Wizards, the Hall of Continuity, the Big-Pec Altar, and the wider Muscle Myth.
 
-This cycle treats the God Penis as a fictional mythic symbol within GEEHUB. Its mythology concerns masculine presence, embodiment, aspiration, artistic representation, communal recognition, and the way an image acquires history. Its legendary powers belong to the story-world; they are not presented as historical or biological claims. All contemporary participants in the Institute's adult residential community are adults.
+This cycle treats the God Penis as a fictional mythic symbol within the connected setting. Its mythology concerns masculine presence, embodiment, aspiration, artistic representation, communal recognition, and the way an image acquires history. Its legendary powers belong to the story-world; they are not presented as historical or biological claims. All contemporary participants in the Institute's adult residential community are adults.
 
 ## I. The Name Beneath the Names
 
@@ -14,7 +14,7 @@ The Institute's archivists therefore distinguish three layers. The **historical 
 
 ## II. The First Custodians
 
-The custodians appear in fragments under many titles: keepers, measurers, interpreters, makers, and men who understood the language of the Form. GEEHUB calls them the Penis Wizards, a name first used by students who discovered that the manuscripts described a learned order rather than a single priesthood. Their craft combined anatomical observation, sculpture, ceremonial design, historical memory, and the careful transmission of symbolic objects.
+The custodians appear in fragments under many titles: keepers, measurers, interpreters, makers, and men who understood the language of the Form. The students call them the Penis Wizards, a name first used by those who discovered the manuscripts who discovered that the manuscripts described a learned order rather than a single priesthood. Their craft combined anatomical observation, sculpture, ceremonial design, historical memory, and the careful transmission of symbolic objects.
 
 Their oldest headquarters was said to be a circular building with a central chamber. Shelves followed the curve of the walls, holding drawings, casts, notebooks, small models, and records of previous gatherings. At the centre stood the idol on a broad stone platform. The keepers' responsibility was not simply to guard it. They maintained a record of its appearances and interpretations, repaired its setting, taught apprentices to distinguish observation from embellishment, and ensured that each new generation could encounter the tradition without erasing what came before.
 
@@ -42,7 +42,7 @@ The Hall of Continuity houses the Great Gallery, a high-ceilinged room with dark
 
 The surrounding rooms present the tradition in sequence. The first contains the earliest catalogue fragments and a chronology of names. The second examines historical representations of masculine form. The third displays casts, drawings, and speculative reconstructions, each labelled according to its evidential status. The fourth presents contemporary interpretations from sculpture, photography, and digital modelling. The final room is intentionally unfinished. It holds the archive of student contributions and a broad pedestal whose surface is reserved for inscriptions from future generations.
 
-The Great Gallery is connected to the Big-Pec Altar through a shared principle already established in GEEHUB: the body is the monument, but the man remains present within it. The altar's sanctuary is not a separate religion or rival pantheon. It is a related expression of awe, recognition, and living presence. The God Penis is the communal mythic measure; the Big-Pec Altar is the intimate encounter with an individual whose presence changes the room around him.
+The Great Gallery is connected to the Big-Pec Altar through a shared principle in the wider mythic tradition: the body is the monument, but the man remains present within it. The altar's sanctuary is not a separate religion or rival pantheon. It is a related expression of awe, recognition, and living presence. The God Penis is the communal mythic measure; the Big-Pec Altar is the intimate encounter with an individual whose presence changes the room around him.
 
 ## VI. The Idol Tradition and the Legends of Growth
 
@@ -58,7 +58,7 @@ The Foundry House workshop began *The Living Measure* as a sequence of studies a
 
 The God Penis gallery and *The Living Measure* were eventually connected by a broad passage. On one side, visitors encounter the inherited myth and its historical layers. On the other, they encounter contemporary bodies and artistic interpretations. Between them, the passage displays inscriptions from the Penis Wizards and statements from the Institute's artists, athletes, and researchers. A window at the end looks out over the athletic grounds, placing symbolic representation beside ordinary life.
 
-The installation's governing rule is continuity. Every new state must retain enough of the old to make the transformation legible. A changed silhouette does not cancel the earlier one; it carries it forward. The archive preserves each version, and the room itself is modified when the work grows beyond its former spatial assumptions. This is the Idol Cycle translated into GEEHUB's general law of transformation.
+The installation's governing rule is continuity. Every new state must retain enough of the old to make the transformation legible. A changed silhouette does not cancel the earlier one; it carries it forward. The archive preserves each version, and the room itself is modified when the work grows beyond its former spatial assumptions. This is the Idol Cycle translated into the wider law of transformation.
 
 ## VIII. The City Receives the Idol
 
@@ -80,7 +80,7 @@ One photograph contains an unexplained empty space at the centre of the circular
 
 Idol Week becomes the Institute's annual festival of research, art, food, and shared activity. The opening day is devoted to the archive. The second day belongs to the sculpture workshops, which open their doors and allow visitors to see works in progress. The third day brings the athletic houses together for demonstrations and discussions of training, recovery, and physical culture. The fourth day is given to the Assembly of Forms, where invited speakers present new interpretations. The final evening is a communal dinner followed by music in the courtyard.
 
-The festival's name is not the Festival of the Idol but the Festival of Again. The choice comes from GEEHUB's oldest law: return is never simple duplication. Each year the same rooms are opened, the same tables are set, and the same central work is encountered, but the people and their interpretations have changed. Graduates return with new work. New residents arrive with unfamiliar questions. The unfinished pedestal receives another inscription. The archive expands without closing.
+The festival's name is not the Festival of the Idol but the Festival of Again. The choice comes from the oldest law of their tradition: return is never simple duplication. Each year the same rooms are opened, the same tables are set, and the same central work is encountered, but the people and their interpretations have changed. Graduates return with new work. New residents arrive with unfamiliar questions. The unfinished pedestal receives another inscription. The archive expands without closing.
 
 The festival ends with the custodians placing the year's records in the Great Gallery. They do not declare the tradition complete. They record what happened, what was made, what was learned, and what remains unresolved. Then the doors are opened for the next day.
 
@@ -146,7 +146,7 @@ The expedition's first destination is an abandoned civic building whose plan res
 
 ## XVII. The Continuity of Witness
 
-The time-of-death shock becomes part of GEEHUB's wider continuity principle. A death is not a transformation into a larger or more powerful version of the same person. It is an irreversible absence in the living community. What can continue are records, relationships, practices, stories, and responsibilities. The archive does not abolish loss; it gives the living a way to carry what can truthfully be carried.
+The time-of-death shock becomes part of the setting's wider continuity principle. A death is not a transformation into a larger or more powerful version of the same person. It is an irreversible absence in the living community. What can continue are records, relationships, practices, stories, and responsibilities. The archive does not abolish loss; it gives the living a way to carry what can truthfully be carried.
 
 This principle also changes the way the Institute presents the God Penis. The idol's legendary scale is no longer treated as a promise that everything can be enlarged indefinitely. The mythology has a boundary: bodies change, images change, institutions change, and people die. The work of continuity is not to deny those limits but to make something meaningful within them. The Festival of Again therefore includes a quiet opening hour devoted to the names of people whose work shaped the Institute and who are no longer alive. Their names are read alongside the titles of unfinished projects, not as if the projects could replace them, but as a reminder that the living inherit obligations as well as achievements.
 

@@ -2090,5 +2090,29 @@
       "research",
       "active"
     ]
+  },
+  {
+    "id": "ian-gabe-kirk-triangle",
+    "name": "Ian Kistner, Gabe, and Kirk — The Threefold Attraction",
+    "status": "incubating",
+    "kind": "relationship-arc",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/IAN_GABE_KIRK_TRIANGLE.md",
+    "description": "Continuing adult fictional relationship arc tracing the developing attraction and distinct bonds among Ian Kistner, Gabe, and Kirk; preserves individual agency, open romantic outcomes, and the Familiarity Paradox.",
+    "related": [
+      "character-records",
+      "beginning-of-the-dimension",
+      "joseph-kirk-runtime"
+    ],
+    "tags": [
+      "fiction",
+      "relationship",
+      "ian-kistner",
+      "gabe",
+      "kirk",
+      "adult",
+      "familiarity-paradox",
+      "continuity"
+    ]
   }
 ]

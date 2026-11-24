@@ -184,6 +184,7 @@ Oren read it and nodded. Outside, the old trail remained quiet. Somewhere beyond
 - **Kirk's agency:** Kirk communicates what he can feel, acknowledges what he cannot see, requests measurements, and asks the party not to cross an unverified opening.
 - **Expedition rule:** Familiar routes are not presumed safe after a change. The party records the new state and withdraws when the route remains uncertain.
 - **Archive development:** The Measure House begins arranging maps as dated sequences, preserving previous states instead of overwriting them.
+- **Additional evidence:** The old lamp recess remains visible beneath the raised band but is not treated as a usable shelter; the upper gallery is a possible route without a confirmed connection.
 - **Open question:** Where does the opening behind the Warm Table lead, and what further change is taking place beyond it?
 
 

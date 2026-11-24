@@ -12,7 +12,16 @@
     {id:'archive',name:'THE HOUSE OF OPEN SCREENS',x:73,y:57,stage:'COMPARE'},
     {id:'hyper',name:'VEYRTHALIS / DIGITORIUM',x:83,y:27,stage:'HYPER'},
     {id:'hold',name:'THE NEW BASELINE',x:88,y:72,stage:'NEW BASELINE'},
-    {id:'tribal-territories',name:'THE GREAT TRIBAL TERRITORIES',x:20,y:52,stage:'KINSHIP'}
+    {id:'tribal-territories',name:'THE GREAT TRIBAL TERRITORIES',x:20,y:52,stage:'KINSHIP'},
+    {id:'cedar-house',name:'CEDAR HOUSE',x:15,y:34,stage:'HOME'},
+    {id:'lantern-market',name:'LANTERN MARKET',x:84,y:16,stage:'MARKET'},
+    {id:'cat-gardens',name:'THE CAT GARDENS',x:14,y:47,stage:'GARDEN'},
+    {id:'bluewater-quay',name:'BLUEWATER QUAY',x:87,y:50,stage:'QUAY'},
+    {id:'common-table',name:'THE COMMON TABLE',x:50,y:10,stage:'GATHERING'},
+    {id:'northgate-university',name:'NORTHGATE UNIVERSITY',x:49,y:62,stage:'CAMPUS'},
+    {id:'founders-dormitory',name:'FOUNDERS DORMITORY',x:36,y:61,stage:'RESIDENCE'},
+    {id:'athletic-commons',name:'ATHLETIC COMMONS',x:64,y:63,stage:'TRAINING'},
+    {id:'northgate-library',name:'NORTHGATE LIBRARY',x:48,y:52,stage:'ARCHIVE'}
   ];
   let current = 'threshold';
   let routeTarget = null;

@@ -238,12 +238,9 @@ When he finished, Oren read the report.
 
 “Then you've learned the first thing.”
 
-The next morning, the men would return to the First Shelter with a copy of the old map and an invitation for Oren's people to exchange records. The expedition had not found the entrance, nor had it discovered the end of Kirk's country. It had found a community that had turned being lost into a discipline: a way of measuring, remembering, and helping the next company arrive with fewer mistakes.
-
-Outside the Measure House, the old trail continued beyond the amber light. Its markers disappeared one by one into a region that had not yet been surveyed. On the newest map, that whole area remained blank.
+The next morning, the men would return to the First Shelter with a copy of the old map and an invitation for Oren's people to exchange records. The trail beyond the Measure House remained unsurveyed. On the newest map, it was blank.
 
 The blank was no longer an absence. It was a responsibility.
-
 ---
 
 ## Continuity record

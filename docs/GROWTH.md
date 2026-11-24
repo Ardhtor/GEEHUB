@@ -132,6 +132,14 @@ The workspace should make ongoing work easy to see. A user should be able to ent
 
 Show the artifact and its evolving states first; keep provenance, research notes, controls, and technical diagnostics available beside or behind the working view. A visible history should make gradual change legible without turning the workspace into a text-heavy dashboard.
 
+## Operational interface
+
+The Universal Growth Engine is available in the existing hub at [hub/index.html#growth-engine](../hub/index.html#growth-engine). The interface selects a registered subject and records a proposed pass with its parent state, source locator, encounter, direct observation, optional interpretation, bounded change, and next action. It writes a structured record against the [growth-pass schema](../engine/schemas/growth-pass.schema.json), keeps evidence separate from hypotheses, and marks the result as proposed and pending review until an actual output has been produced and inspected.
+
+The interface saves a local browser copy and offers a portable JSON export. When served by the existing GEEHUB runtime, it also submits the proposal through the existing `/api/geehub/inscribe` endpoint using the shared event-inscription path. Successful inscription projects the occurrence into the append-only activity stream, artifact ledger, and Dropbox outbox. A browser-only save is explicitly reported as local and is not represented as repository persistence. The interface does not create a second event log, artifact store, or canon database.
+
+The existing hub's creative-brief inscription now uses the server's accepted event shape (`NOTICE` with `title` and `body`), so the established jam workflow and the new growth-pass workflow share the same durable inscription contract.
+
 ## In short
 
 **Different things develop in different ways.** Preserve each subject's identity, evidence, pace, and local rules while allowing its discoveries and outputs to become useful elsewhere.

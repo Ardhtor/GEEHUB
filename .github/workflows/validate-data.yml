@@ -206,6 +206,13 @@ jobs:
           const worldIds = new Set(world.regions.map(r => r.id));
           const danglingRoutes = spatialMap.routes.flat().filter(id => !worldIds.has(id));
           if (danglingRoutes.length) throw new Error('Spatial routes reference unknown world regions: ' + [...new Set(danglingRoutes)].join(', '));
+          const connectedRegions = new Set(spatialMap.routes.flat());
+          const unconnectedRegions = world.regions.map(r => r.id).filter(id => !connectedRegions.has(id));
+          if (unconnectedRegions.length) throw new Error('World territories lack authored route connections: ' + unconnectedRegions.join(', '));
+          const routeNotes = spatialMap.routeNotes || [];
+          if (routeNotes.length !== (world.pleasureBits || []).length) throw new Error('Spatial route notes must preserve every authored world relationship');
+          const invalidRouteNotes = routeNotes.filter(n => !worldIds.has(n.from) || !worldIds.has(n.to) || !n.title || n.source !== '../world.json#pleasureBits');
+          if (invalidRouteNotes.length) throw new Error('Spatial route notes contain invalid endpoints or provenance');
           const spatialById = new Map(spatialMap.regions.map(r => [r.id, r]));
           const missingSpatialRegions = world.regions.filter(r => !spatialById.has(r.id));
           if (missingSpatialRegions.length) throw new Error('Canonical spatial index is missing world regions: ' + missingSpatialRegions.map(r => r.id).join(', '));

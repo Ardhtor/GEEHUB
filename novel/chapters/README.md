@@ -7,6 +7,7 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 ## Current Book II production priority
 
 - [Book II Completion Register](../BOOK_II_COMPLETION_REGISTER.md) — active chapter census and whole-book completion status.
+- [Book II Chronology and Open Threads](../BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) — current sequence, relationship and geography state, open questions, and revision order.
 - [Production Priority — Book II, then Book III](../PRODUCTION_PRIORITY.md) — Book II must be completed before Book III begins.
 
 ## Files

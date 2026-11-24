@@ -1,0 +1,62 @@
+const $=id=>document.getElementById(id);
+const NS='http://www.w3.org/2000/svg', W=1000,H=700;
+const svg=$('mapSvg');
+const state={scale:'WORLD',layers:new Set(['ROUTES','PLACES','MEMORY']),selected:null};
+let data={world:null,spatial:null,detailed:null,current:null,worldState:null};
+function node(tag,attrs,parent=svg){const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs||{}))n.setAttribute(k,String(v));parent.appendChild(n);return n}
+function htmlNode(tag,attrs,parent){const n=document.createElement(tag);for(const [k,v] of Object.entries(attrs||{}))if(k==='text')n.textContent=v;else n.setAttribute(k,String(v));parent.appendChild(n);return n}
+function text(x,y,value,attrs={},parent=svg){const n=node('text',{x,y,...attrs},parent);n.textContent=value;return n}
+function clear(){while(svg.firstChild)svg.removeChild(svg.firstChild)}
+function macroPoint(r){return{x:100+r.x*8,y:70+r.y*5.6}}
+function localPoint(r,extent){const pad=92;return{x:pad+((r.x+extent/2)/extent)*(W-pad*2),y:pad+((r.z+extent/2)/extent)*(H-pad*2)}}
+function baseMap(title){clear();node('rect',{x:0,y:0,width:W,height:H,fill:'#09120f'});node('rect',{x:0,y:0,width:W,height:H,fill:'url(#atlasGrid)'});const defs=node('defs',{});const pattern=node('pattern',{id:'atlasGrid',width:40,height:40,patternUnits:'userSpaceOnUse'},defs);node('path',{d:'M40 0H0V40',fill:'none',stroke:'#a0b4a5','stroke-opacity':'.09','stroke-width':'.8'},pattern);node('radialGradient',{id:'landGlow'},defs);const grad=defs.lastChild;node('stop',{offset:'0%','stop-color':'#294237','stop-opacity':'.42'},grad);node('stop',{offset:'100%','stop-color':'#07100d','stop-opacity':'0'},grad);node('rect',{x:0,y:0,width:W,height:H,fill:'url(#landGlow)'});text(34,665,title.toUpperCase(),{'font-size':11,fill:'#80938a','letter-spacing':2});}
+function detail(item,kind,scale,coords,path){$('detailName').textContent=item.name||item.id;$('detailText').textContent=item.description||item.lore||'No descriptive passage has been attached to this record yet.';$('detailId').textContent=item.id||'—';$('detailType').textContent=kind||item.kind||item.type||'PLACE';$('detailCoords').textContent=coords||'—';$('detailScale').textContent=scale||state.scale;$('detailState').textContent=item.id===data.current?.regionId?'CURRENT WORLD LOCATION':'Repository record';$('detailLink').replaceChildren();if(path&&path!=='#'){const a=document.createElement('a');a.href=path.startsWith('./')?'../'+path.slice(2):path.startsWith('../')?path:path.startsWith('/')?'..'+path:'../'+path;a.textContent='OPEN SOURCE RECORD ↗';$('detailLink').appendChild(a)}}
+function selectNode(item,kind,scale,coords,path){state.selected=item.id;detail(item,kind,scale,coords,path);renderSelection();window.GEEHUB_ENVIRONMENT?.transition('NOTICE','The Atlas settles around '+(item.name||item.id)+'. Its map record remains intact while the selected place enters view.');}
+function renderSelection(){svg.querySelectorAll('[data-id]').forEach(g=>g.classList.toggle('selected',g.getAttribute('data-id')===state.selected))}
+function buttonSet(host,items,active,handler){host.replaceChildren();for(const item of items){const b=htmlNode('button',{type:'button',text:item.label},host);b.classList.toggle('active',active.has?active.has(item.id):active===item.id);b.onclick=()=>handler(item.id)}}
+function drawMacro(){
+ const regions=data.world.regions||[],byId=new Map(regions.map(r=>[r.id,r]));
+ baseMap('World graph / normalized planning coordinates');
+ if(state.layers.has('ROUTES'))for(const [a,b] of data.spatial.routes||[]){const A=byId.get(a),B=byId.get(b);if(!A||!B)continue;const p=macroPoint(A),q=macroPoint(B),cx=(p.x+q.x)/2,cy=(p.y+q.y)/2-24;node('path',{d:'M '+p.x+' '+p.y+' Q '+cx+' '+cy+' '+q.x+' '+q.y,fill:'none',stroke:'#8bb9a9','stroke-opacity':'.27','stroke-width':2,'stroke-dasharray':'5 8'});}
+ if(state.layers.has('PLACES'))for(const r of regions){const p=macroPoint(r),radius=12+Number(r.size||1)*8,g=node('g',{'data-id':r.id,tabindex:0,role:'button','aria-label':r.name||r.id,class:'map-node'});node('circle',{cx:p.x,cy:p.y,r:radius+10,fill:'#9bc6b0','fill-opacity':'.045'},g);node('circle',{cx:p.x,cy:p.y,r:radius,fill:r.kind==='WORLD'?'#c6b88f':'#19352b',stroke:'#9db9a7','stroke-width':1.3},g);node('circle',{cx:p.x,cy:p.y,r:3,fill:'#d9c99e'},g);text(p.x+radius+8,p.y+4,r.name||r.id,{'font-size':12,fill:'#d7e0d9'},g);g.addEventListener('click',()=>selectNode(r,r.kind,'WORLD',r.x+', '+r.y,r.path));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectNode(r,r.kind,'WORLD',r.x+', '+r.y,r.path)}});if(data.current?.regionId===r.id&&state.layers.has('MEMORY'))node('circle',{cx:p.x,cy:p.y,r:radius+16,fill:'none',stroke:'#e4ca8d','stroke-width':3,'stroke-dasharray':'3 5'},g);}
+ if(state.layers.has('MEMORY')&&data.current){const r=byId.get(data.current.regionId);if(r){const p=macroPoint(r);node('circle',{cx:p.x,cy:p.y,r:34,fill:'none',stroke:'#e4ca8d','stroke-width':2,'stroke-opacity':'.8'});text(p.x+28,p.y-29,'CURRENT',{'font-size':10,fill:'#e4ca8d','letter-spacing':1});}}
+ if(!state.layers.has('PLACES'))text(500,350,'PLACES LAYER OFF',{'font-size':16,fill:'#8ea29b','text-anchor':'middle'});
+ $('mapCaption').textContent='WORLD SURVEY / '+regions.length+' TERRITORIES / '+(data.spatial.routes||[]).length+' AUTHORED CONNECTIONS';
+}
+function drawLocal(scale){
+ const spec=data.detailed.scales.find(s=>s.id===scale),extent=spec.extent;
+ baseMap(spec.name+' / local coordinates');
+ const regions=(data.detailed.regions||[]).filter(r=>r.scale===scale),landmarks=(data.detailed.landmarks||[]).filter(r=>r.scale===scale);
+ if(state.layers.has('ELEVATION'))for(const r of regions){const p=localPoint(r,extent),h=Math.max(1,Math.abs(Number(r.height||0)));for(let i=1;i<=4;i++)node('ellipse',{cx:p.x,cy:p.y,rx:18+h*4+i*12,ry:11+h*2+i*9,fill:'none',stroke:'#c6c5a1','stroke-opacity':'.13','stroke-width':1});}
+ if(state.layers.has('STONE'))for(const r of regions.filter(x=>/stone|fracture/.test(x.biome||''))){const p=localPoint(r,extent);node('path',{d:'M '+(p.x-55)+' '+(p.y+15)+' l 22 -42 49 -15 36 34 -14 42 -58 19 Z',fill:'#788078','fill-opacity':'.18',stroke:'#9aa69a','stroke-opacity':'.32'});}
+ if(state.layers.has('LICHEN'))for(const r of regions.filter(x=>/lichen|forest/.test(x.biome||''))){const p=localPoint(r,extent);node('circle',{cx:p.x,cy:p.y,r:38,fill:'#78906c','fill-opacity':'.12',stroke:'#9aa77a','stroke-opacity':'.22','stroke-dasharray':'2 5'});}
+ if(state.layers.has('WATER'))for(const r of regions.filter(x=>/water|wetland/.test(x.biome||''))){const p=localPoint(r,extent);node('ellipse',{cx:p.x,cy:p.y,rx:52,ry:31,fill:'#4d8d92','fill-opacity':'.25',stroke:'#83b7b4','stroke-opacity':'.55'});}
+ if(state.layers.has('SETTLEMENTS'))for(const r of landmarks.filter(x=>x.type==='place')){const p=localPoint(r,extent),g=node('g',{'data-id':r.id,tabindex:0,role:'button',class:'map-node'});node('path',{d:'M '+p.x+' '+(p.y-10)+' l 10 10 -10 10 -10 -10 Z',fill:'#d4c18c',stroke:'#f0e4c4','stroke-width':1},g);text(p.x+15,p.y+4,r.name,{'font-size':12,fill:'#e1dfcf'},g);g.addEventListener('click',()=>selectNode(r,'PLACE',scale,r.x+', '+r.y+', '+r.z));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectNode(r,'PLACE',scale,r.x+', '+r.y+', '+r.z)}});}
+ if(state.layers.has('PASSAGES'))for(const r of landmarks.filter(x=>x.type==='passage')){const p=localPoint(r,extent),g=node('g',{'data-id':r.id,tabindex:0,role:'button',class:'map-node'});node('circle',{cx:p.x,cy:p.y,r:8,fill:'#83c6bf',stroke:'#d3e6dc','stroke-width':1.4},g);text(p.x+14,p.y+4,r.name,{'font-size':12,fill:'#9dd5ca'},g);g.addEventListener('click',()=>selectNode(r,'PASSAGE',scale,r.x+', '+r.y+', '+r.z));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectNode(r,'PASSAGE',scale,r.x+', '+r.y+', '+r.z)}});}
+ if(state.layers.has('MEMORY')&&data.current){const match=landmarks.find(x=>x.id===data.current.regionId)||regions.find(x=>x.id===data.current.regionId);if(match){const p=localPoint(match,extent);node('circle',{cx:p.x,cy:p.y,r:28,fill:'none',stroke:'#e4ca8d','stroke-width':2,'stroke-dasharray':'3 4'});}}
+ if(state.layers.has('CHARACTERS'))text(500,350,'NO CHARACTER LOCATIONS AUTHORED AT THIS SCALE',{'font-size':13,fill:'#8ea29b','text-anchor':'middle'});
+ const shown=regions.length+landmarks.length;$('mapCaption').textContent=spec.name.toUpperCase()+' / '+shown+' AUTHORED SPATIAL RECORDS / '+extent+' WORLD-RELATIVE UNITS';
+ if(state.layers.has('WATER')&&!regions.some(x=>/water|wetland/.test(x.biome||'')))$('status').textContent='WATER LAYER: NO WATER FEATURES ARE AUTHORED AT THIS SCALE.';
+}
+function renderLayers(){
+ const host=$('layerControls');host.replaceChildren();
+ const items=state.scale==='WORLD'?[{id:'ROUTES',label:'Routes'},{id:'PLACES',label:'Territories'},{id:'MEMORY',label:'Current memory'}]:data.detailed.layers;
+ for(const item of items){const b=htmlNode('button',{type:'button',text:item.label},host);b.classList.toggle('active',state.layers.has(item.id));b.setAttribute('aria-pressed',String(state.layers.has(item.id)));b.onclick=()=>{state.layers.has(item.id)?state.layers.delete(item.id):state.layers.add(item.id);render()};}
+}
+function renderScales(){
+ const host=$('scaleControls');host.replaceChildren();
+ const items=[{id:'WORLD',label:'World'}].concat(data.detailed.scales.filter(s=>s.id!=='WORLD').map(s=>({id:s.id,label:s.id==='VEYRT'?'Veyrthalis':s.name})));
+ for(const item of items){const b=htmlNode('button',{type:'button',text:item.label},host);b.classList.toggle('active',state.scale===item.id);b.setAttribute('aria-pressed',String(state.scale===item.id));b.onclick=()=>{state.scale=item.id;state.layers=new Set(item.id==='WORLD'?['ROUTES','PLACES','MEMORY']:['ELEVATION','STONE','LICHEN','WATER','PASSAGES','SETTLEMENTS','MEMORY']);window.GEEHUB_ENVIRONMENT?.transition('NOTICE','The Atlas enters '+item.label+'. The new scale inherits only authored coordinates and relationships.');render()};}
+}
+function renderStoryPin(){const pin=data.current;if(!pin){$('storyPinName').textContent='NO ACTIVE ENCOUNTER';$('storyPinStatus').textContent='The shared world-state has no active encounter.';$('storyPinText').textContent='';$('storyPinSource').textContent='';return}const region=(data.world.regions||[]).find(r=>r.id===pin.regionId);$('storyPinName').textContent=pin.regionName||pin.regionId;$('storyPinStatus').textContent=region?'PLACED · CANONICAL WORLD COORDINATES':'UNPLACED · A GEOGRAPHIC SURVEY IS REQUIRED';$('storyPinText').textContent=(pin.intent||'Active encounter')+' / '+(pin.subject?.agent||'unknown subject')+' / scale '+(pin.subject?.scale??'not recorded')+'. '+(pin.delta||[]).join(' · ');$('storyPinSource').textContent='RECORDING / '+(data.worldState?.activeRecording||'not specified')+' / SNAPSHOT '+(data.worldState?.snapshot||'not specified');}\nfunction render(){renderScales();renderLayers();if(state.scale==='WORLD')drawMacro();else drawLocal(state.scale);renderSelection();if(!$('status').textContent.startsWith('WATER LAYER'))$('status').textContent='DATA LOADED / '+(data.world.regions||[]).length+' WORLD TERRITORIES / '+(data.spatial.routes||[]).length+' WORLD ROUTES';}
+async function load(){
+ try{
+  const files=await Promise.all(['../world.json','../hub/spatial-world.json','../geo-cyberspace/detailed-maps.json','../hub/world-state.json'].map(async path=>{const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path+' returned '+r.status);return r.json()}));
+  [data.world,data.spatial,data.detailed,data.current]=files;
+  data.worldState=data.current;data.current=data.worldState?.activeEncounter||null;renderStoryPin();
+  state.layers=new Set(['ROUTES','PLACES','MEMORY']);
+  render();
+  $('detailText').textContent='The World Survey is the repository-wide geography. Select a territory to open its source record; use the local scales to enter Kingdom Land, Veyrthalis, and the Complex.';
+ }catch(error){$('status').textContent='ATLAS DATA COULD NOT LOAD';$('detailText').textContent='Run a local web server from the repository root, then open /worldspace/maps.html. '+error.message;}
+}
+load();

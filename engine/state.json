@@ -1,5 +1,5 @@
 {
-  "pulse": 368,
+  "pulse": 369,
   "events": [
     {
       "pulse": 1,
@@ -7113,6 +7113,28 @@
       "occurred_at": "2026-11-24T18:04:49.143215+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000369",
+      "pulse": 369,
+      "time": "2026-11-24T18:09:48.494639+00:00",
+      "actor": "LUKE",
+      "world": "CEDAR HOUSE",
+      "region_id": "cedar-house",
+      "previous_region_id": "cedar-house",
+      "phase": "ATMOSPHERE",
+      "source": "worlds/cedar-house/README.md",
+      "desire_state": "attention",
+      "action": "SETH: The cedar porch holds the last warm light. A kettle sounds in the kitchen, a blanket rests over the deep armchair, and the front door remains open to the garden path.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "narrative_rule": "approach extends geography",
+      "relation": null,
+      "next_region": null,
+      "pressure": 0.9,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-24T18:09:48.494639+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -7163,7 +7185,7 @@
     "northgate-library": 360,
     "athletic-commons": 336.5
   },
-  "pressure": 0.88,
+  "pressure": 0.9,
   "memory": 1.0,
   "source_counts": {
     "novel/REWRITTEN_OPENING.md": 9,
@@ -7178,7 +7200,7 @@
     "lore/veyrthalis/HYPERSPACE_EXPEDITION_2026-09-21.md": 11,
     "index.html": 11,
     "worlds/common-table/README.md": 34,
-    "worlds/cedar-house/README.md": 19,
+    "worlds/cedar-house/README.md": 20,
     "worlds/cat-gardens/README.md": 26,
     "worlds/founders-dormitory/README.md": 19,
     "worlds/northgate-university/README.md": 27,
@@ -7188,12 +7210,12 @@
     "worlds/athletic-commons/README.md": 13
   },
   "next_region": null,
-  "phase": 0,
+  "phase": 1,
   "active_region": "cedar-house",
-  "current_phase": "CROSSING",
-  "current_desire_state": "continuity",
-  "current_question": "What can change without erasing where it came from?",
-  "current_narrative_rule": "meaningful change becomes an outward-facing signal",
+  "current_phase": "ATMOSPHERE",
+  "current_desire_state": "attention",
+  "current_question": "What does this place do while nobody intervenes?",
+  "current_narrative_rule": "approach extends geography",
   "next_relation": null,
   "long_play": {
     "cycle": 237,

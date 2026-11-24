@@ -10,6 +10,8 @@ The worlds are not interchangeable districts. Veyrthalis does not become a subur
 
 The Tractus itself is the meeting ground and archive. Each world remains a world.
 
+The navigable geographic interface is [The Atlas](../worldspace/maps.html). Its World Survey places the repository's territories and authored connections on one map; its local scales open the detailed Kingdom Land, Veyrthalis Expanse, and Complex maps. This application is the spatial entry point, while this document remains the descriptive world index: it preserves each world's independent identity, canon, and crossing rules.
+
 ## The shared ground
 
 The central meeting structure is called **The Hall of Separate Doors**. It is a navigable registry in which each door opens onto a distinct world record: its current entry point, local map, active characters, recent events, artifacts, and unresolved threads. The hall is not a literal physical location inside every setting. It is the shared interface through which a visitor can choose a world without confusing its history with another's.

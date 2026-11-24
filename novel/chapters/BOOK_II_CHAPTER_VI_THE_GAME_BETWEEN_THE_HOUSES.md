@@ -205,7 +205,7 @@ Joseph took it, then smiled faintly. “You don't have to pay me back with a bal
 
 That evening Kirk came to the House of Returns as promised. He and Joseph sat by the hearth. Andrew did not call; he had been given a time to see Kirk the next morning, and he chose to keep it. His longing remained, but it now had a boundary he could practise respecting.
 
-Joseph returned the ball to the common table. Andrew thanked him and asked whether he wanted to play again the next day. Joseph said he would decide after breakfast. Andrew let the answer remain open. The residents left the course assembled and quiet, with its markers visible and recovery bench in place. The game had a route, but no winner and no final form.
+
 ---
 
 ## Continuity record

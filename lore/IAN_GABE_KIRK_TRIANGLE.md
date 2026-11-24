@@ -77,3 +77,14 @@ Do not make Ian and Gabe identical. Their shared tendency is established; the pr
 This changes the triangle's pacing. Kirk may be the one who notices the pattern, but he is not automatically its interpreter, cure, or pursuer. The three can misread one another because attention and action do not always arrive together. A moment of closeness may be followed by distance without cancelling what happened. Build progress through small acts of return, reliable presence, and occasional plain speech rather than forcing a sudden confession or resolution.
 
 Gabe's existing directness with Dorian remains valid: an avoidant tendency does not mean he never initiates. It means that choosing closeness can be difficult and uneven, especially after the initial moment of courage. Ian's specific pattern is not yet established beyond the user's description of him as avoidant.
+
+
+## Shared temperament — avoidant kindness
+
+**User-established canon note (24 November 2026):** Ian and Gabe are both characteristically avoidant. Their avoidance is part of how the relationship develops, not a diagnosis and not evidence that either man is indifferent. Both can be kind, attentive, and sincerely interested while struggling to stay present when a moment requires direct emotional disclosure. They may show care through practical attention, humour, remembering a small preference, or simply returning to the room; when asked to define what is happening, they may become quiet, redirect the conversation, delay an answer, or take space.
+
+The similarity creates both comfort and difficulty. Ian may recognise Gabe's retreat without demanding an immediate explanation. Gabe may understand why Ian leaves a vulnerable question unanswered. But mutual understanding can become mutual permission to avoid the very conversation that would let the relationship move forward. Neither should be written as a mind-reader: they can misread silence, worry that they have pressed too hard, or assume the other wants distance when he is actually waiting for reassurance.
+
+Their patterns remain distinct. Ian's particular habits and reasons are still open for development. Gabe's avoidance must coexist with his established ability to initiate attraction, enjoy being seen, set boundaries, and choose the pace of a connection. The story should let both men act directly at meaningful moments; avoidant does not mean permanently passive.
+
+Kirk encounters this pattern from a different position. He may be more direct, or he may have his own hesitation; do not settle that trait without writing it. His response can expose the limits of the pair's shared retreat: he may ask a plain question, leave space for an answer, or refuse to keep guessing indefinitely. The triangle's movement should come from specific choices and consequences rather than a formula in which one man pursues and the other two withdraw.

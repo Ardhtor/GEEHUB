@@ -1,11 +1,11 @@
 # THE COMMON LEDGER
-## Currency, Favors, Hospitality, and the Everyday Economy of GEEHUB
+## Currency, Favors, Hospitality, and the Everyday Economy of the Connected Territories
 
 Status: active world canon  
 Domain: civic life, universities, dormitories, guilds, workshops, markets, travel, mutual aid, and ceremonial exchange  
 Core principle: **money measures what can be priced; a favor remembers what passed between people.**
 
-The economy of GEEHUB is not built around a single kind of wealth. It has coin, account credit, wages, gifts, hospitality, skill, access, reputation, and favors. These forms overlap in daily life, but they are not interchangeable. A man can be rich in money and poor in friends. Another can have little coin and be known across the city because he has repaired a hundred things, carried furniture up six flights of stairs, fed strangers after late shifts, or quietly made room for someone who had nowhere else to go. The Common Ledger exists to keep these kinds of value in view without pretending that every kindness can be assigned a price.
+The shared economy is not built around a single kind of wealth. It has coin, account credit, wages, gifts, hospitality, skill, access, reputation, and favors. These forms overlap in daily life, but they are not interchangeable. A man can be rich in money and poor in friends. Another can have little coin and be known across the city because he has repaired a hundred things, carried furniture up six flights of stairs, fed strangers after late shifts, or quietly made room for someone who had nowhere else to go. The Common Ledger exists to keep these kinds of value in view without pretending that every kindness can be assigned a price.
 
 ## I. The Hearthmark
 
@@ -119,7 +119,7 @@ The **passage houses** near the railway stations provide short stays, luggage st
 
 ## XIII. Reputation Without a Score
 
-GEEHUB deliberately rejects a single public score for generosity. A numeric favor rating would encourage people to perform kindness for visibility, punish those who cannot give, and turn private relationships into a competition. Instead, reputation travels through stories, references, and repeated experience. People remember who returned a borrowed tool, who paid a worker on time, who kept a confidence, who showed up when promised, and who apologised after making a mistake.
+The civic culture deliberately rejects a single public score for generosity. A numeric favor rating would encourage people to perform kindness for visibility, punish those who cannot give, and turn private relationships into a competition. Instead, reputation travels through stories, references, and repeated experience. People remember who returned a borrowed tool, who paid a worker on time, who kept a confidence, who showed up when promised, and who apologised after making a mistake.
 
 There are formal references for professional work and informal recommendations for community roles. A guild may certify that a maker is reliable. A university may record that a student completed a service placement. A neighbour may tell another neighbour that a particular repairer is careful. None of these records is a complete measure of the person. They describe a particular experience, at a particular time, with room for change.
 

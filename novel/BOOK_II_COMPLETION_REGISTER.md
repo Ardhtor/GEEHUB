@@ -1,7 +1,7 @@
 # Book II Completion Register — The Kirk Expedition
 
 **Priority:** First active manuscript. Book III follows only after Book II is complete.  
-**Status as of 24 November 2026:** In progress; eight numbered chapters present; whole-book completion not achieved.  
+**Status as of 24 November 2026:** In progress; nine numbered chapters present; whole-book completion not achieved.  
 **Source of truth:** `novel/chapters/BOOK_II_CHAPTER_*.md`; supporting records in this directory and `characters/`.
 
 ## Census baseline
@@ -18,8 +18,9 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | VI | The Game Between the Houses | 3,055 | Existing text; geography and relationship review pending |
 | VII | The Contest That Never Ends | 2,552 | Existing text; Evermeasure and relationship review pending |
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter on 24 November; expansion and edit pending |
+| IX | The Narrow Turn | 3,565 | New working chapter on 24 November; expansion and edit pending |
 
-**Current narrative baseline:** approximately 18,190 words across eight chapters. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
+**Current narrative baseline:** approximately 21,755 words across nine chapters. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
 
 ## Sequence and sources
 
@@ -31,8 +32,9 @@ Narrative word counts exclude the separate continuity record at the end of each 
 - Chapter VI — `BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md`
 - Chapter VII — `BOOK_II_CHAPTER_VII_THE_CONTEST_THAT_NEVER_ENDS.md`
 - Chapter VIII — `BOOK_II_CHAPTER_VIII_A_DAY_IN_THE_OPEN_PAVILION.md`
+- Chapter IX — `BOOK_II_CHAPTER_IX_THE_NARROW_TURN.md`
 
-No Chapter IX or final chapter is currently listed in the canonical Book II chapter directory. Do not invent the final chapter count in advance.
+Chapter IX is now present as a working draft. No concluding chapter is registered; do not invent the final chapter count in advance.
 
 ## Whole-book threads to carry
 
@@ -55,4 +57,4 @@ Book II is not complete merely because Chapter VIII exists, because Chapter IX h
 
 ## Next operation
 
-Build the full chronology and open-thread map from Chapters I–VIII and the spatial/relationship records. Then begin the whole-book revision in canonical order at Chapter I. Continue to Book III only after this register is formally closed.
+Build the full chronology and open-thread map from Chapters I–IX and the spatial/relationship records. Then begin the whole-book revision in canonical order at Chapter I. Continue to Book III only after this register is formally closed.

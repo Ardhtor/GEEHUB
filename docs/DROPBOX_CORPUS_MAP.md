@@ -23,7 +23,7 @@ Selected direct-child checks on 24 November found:
 
 ## Verified manuscript alignment
 
-The Dropbox Paper document **GEEHUB Production Priority — Book II, then Book III** is synchronized to `novel/PRODUCTION_PRIORITY.md` at Paper revision 9. It reflects the current nine-chapter sequence, the 27,871-word baseline, first expansion passes for Chapters I and II, and the next revision cursor at Chapter III.
+The Dropbox Paper document **GEEHUB Production Priority — Book II, then Book III** is synchronized to `novel/PRODUCTION_PRIORITY.md` at Paper revision 11. It reflects the current nine-chapter sequence, the 31,955-word baseline, first expansion passes for Chapters I–IV, and the next revision cursor at Chapter V.
 
 The Book II Paper mirrors were read back and compared with their GitHub sources. All four Markdown bodies match exactly:
 
@@ -34,7 +34,7 @@ The Book II Paper mirrors were read back and compared with their GitHub sources.
 | VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 2 | `d1e1d17fdb467570042bcf1a60c0f3f573bbb579` |
 | IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 1 | `d9be1ad55e028e2cd388dd43386b0b0ceb99bb42` |
 
-The [Book II Completion Register](../novel/BOOK_II_COMPLETION_REGISTER.md) records these links, Paper revisions, and GitHub source fingerprints. Chapters III–VII remain to be mirrored after their revision passes. GitHub remains the canonical source; Dropbox Paper is the production and reading surface. A mirror must be refreshed and verified after its source chapter changes.
+The [Book II Completion Register](../novel/BOOK_II_COMPLETION_REGISTER.md) records these links, Paper revisions, and GitHub source fingerprints. Chapters V–VII remain to be mirrored after their revision passes. GitHub remains the canonical source; Dropbox Paper is the production and reading surface. A mirror must be refreshed and verified after its source chapter changes.
 
 The **GEEHUB AI — Build 0.1** Paper document is a foundation specification, not a deployed or trained AI model. Its target runtime files and provider configuration remain implementation work. Any implementation must connect to the existing event-inscription, activity, artifact, continuity, and state systems; it must not introduce a second event log, canon store, artifact ledger, or project registry.
 

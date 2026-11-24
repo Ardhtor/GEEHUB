@@ -69,7 +69,7 @@ Andrew's wish for Kirk's attention begins to crowd Joseph out of shared time. Jo
 
 **Source:** [Chapter VI — The Game Between the Houses](chapters/BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md)
 
-The residents develop the Long Return, a cooperative rolling-ball route across the Twin Grounds, using the Cedar Span, eastern hollow, markers, and a return arch. Gabe insists on warm-up, recovery, and alternate routes. Chase separates measurements, Kirk's reported sensations, and Andrew's hypotheses. Robert develops a viewing arch and miniature-theatre projection. Joseph participates by choice and suggests a lower return line.
+The residents develop the Long Return, a cooperative rolling-ball route across the Twin Grounds, using the Cedar Span, eastern hollow, markers, and a return arch. Gabe insists on warm-up, recovery, and alternate routes. Chase separates measurements, Kirk's reported sensations, and Andrew's hypotheses. Robert develops a viewing arch and miniature-theatre projection. Joseph participates by choice and suggests a lower return line. The first course inspection is completed without a ball; the men then test different starts and route choices. The rules allow a player to stop, change routes, or leave without losing the value of an attempt. The route sheet records what was tried rather than ranking the men, and no winner is declared. Robert's screen and second viewing angle are prototypes, not a finished presentation.
 
 Andrew again allows his desire for Kirk's attention to dominate a shared exchange. Joseph leaves rather than compete for the receiver. Andrew notices the consequence, visits Joseph, and acknowledges that he made it harder for Joseph to remain in the conversation. Joseph tells him not to make every room a place where he must move aside. Andrew agrees to ask for time rather than take it, and to let Kirk finish the time already promised to Joseph. Kirk's later visit with Joseph proceeds as arranged; Andrew keeps the time he has been offered for the following morning.
 
@@ -155,6 +155,9 @@ No coordinates, distances, or permanent new landforms are introduced by Chapter 
 - **Chapter V — Four Mansions:** first in-place expansion pass completed on 24 November 2026. Narrative body: 4,877 words, excluding the continuity record. Current Git blob: `1bd08c1b52d38df531ff7d40933e8a2af99bad05`. The expansion develops the four plans as lived homes, the residents' first routines, the shared green and private thresholds, Joseph and Kirk's conversation, and Andrew's initial attempt to let a promised visit remain intact. The outer-path seat is approved but not yet installed. Whole-book review remains pending.
 - **Next:** Chapter VI — The Game Between the Houses. Expand the Long Return as a playable cooperative activity and preserve the social consequence of Andrew monopolising the receiver.
 
+- **Chapter VI — The Game Between the Houses:** first in-place expansion pass completed on 24 November 2026. Narrative body: 4,091 words, excluding the continuity record. Current Git blob: `2a3adba506a9491feb679e6866f97f5156ddfccb`. The expansion develops the route inspection, warm-up and recovery, multiple playing styles, Robert's viewing-screen prototype, and the social cost of Andrew monopolising the receiver. The Long Return remains cooperative and has no winner. Whole-book review remains pending.
+- **Next:** Chapter VII — The Contest That Never Ends. Develop the Evermeasure as an inheritable culture of competition, including its excesses and its capacity for self-correction, without turning affection into a scoreboard.
+
 ## Revision order and editorial gates
 
 The nine chapters are at different stages. Chapters I–III have completed first in-place expansion passes at 4,609, 4,162, and 4,644 narrative words respectively, all within the publishing guide's standard 4,000–7,000-word range; their whole-book continuity reviews remain pending. Chapter V has completed a first in-place expansion pass at 4,877 words, also within range. Chapter IV remains below range at 3,794 words, as do Chapters VI–VIII, and need development where the material supports it. Chapter IX is a new working draft at 4,162 words, within range. These figures are editorial guides, not quotas. Expansion must come from scenes that deepen character, place, evidence, action, and consequence, not from padding or repeated explanation.
@@ -166,8 +169,8 @@ The revision proceeds in canonical order:
 3. **Chapter III:** first expansion pass complete; final whole-book continuity review remains pending.
 4. **Chapter IV:** first in-place expansion pass completed. Reserve its whole-book relationship and continuity review for the final sweep; preserve Andrew and Kirk's established chemistry and renewable promises, and keep interpretation separate from Kirk's report.
 5. **Chapter V:** first expansion pass complete; final residential and relationship continuity review remains pending.
-6. **Chapter VI:** next in-place expansion. Expand the Long Return as a playable cooperative activity and preserve the social consequence of Andrew monopolising the receiver.
-7. **Chapter VII:** develop the Evermeasure's public culture and the distinct competitive styles without turning affection into a score.
+6. **Chapter VI:** first expansion pass complete; final geography and relationship continuity review remains pending.
+7. **Chapter VII:** next in-place expansion. Develop the Evermeasure's public culture and the distinct competitive styles without turning affection into a score.
 8. **Chapter VIII:** give Michael's full day more room for ordinary company, physical work, craft, and private tenderness while keeping his relationship with Kirk secret.
 9. **Chapter IX:** revise the new Narrow Turn draft for continuity, scene texture, and visual clarity; then carry out the fresh-day repeatability test in a later chapter only if the book's chronology calls for it.
 

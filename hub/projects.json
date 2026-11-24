@@ -1128,6 +1128,30 @@
     ]
   },
   {
+    "id": "ian-gabe-kirk-triangle",
+    "name": "Ian Kistner, Gabe, and Kirk — The Threefold Attraction",
+    "status": "incubating",
+    "kind": "relationship-arc",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/IAN_GABE_KIRK_TRIANGLE.md",
+    "description": "Continuing adult fictional relationship arc tracing the developing attraction and distinct bonds among Ian Kistner, Gabe, and Kirk; preserves individual agency, open romantic outcomes, and the Familiarity Paradox.",
+    "related": [
+      "character-records",
+      "beginning-of-the-dimension",
+      "joseph-kirk-runtime"
+    ],
+    "tags": [
+      "fiction",
+      "relationship",
+      "ian-kistner",
+      "gabe",
+      "kirk",
+      "adult",
+      "familiarity-paradox",
+      "continuity"
+    ]
+  },
+  {
     "id": "imagine-video-studio",
     "name": "Imagine Video Studio",
     "group": "engine",
@@ -1889,6 +1913,30 @@
     ]
   },
   {
+    "id": "universal-growth-engine",
+    "name": "Universal Growth Engine",
+    "group": "engine",
+    "status": "active",
+    "summary": "Repository-wide cumulative growth architecture connecting research, source evidence, interpretation, experiments, continuity, and production through inherited, reviewable development states.",
+    "path": "../docs/UNIVERSAL_GROWTH_ENGINE.md",
+    "tags": [
+      "growth",
+      "research",
+      "continuity",
+      "provenance",
+      "experimentation",
+      "production",
+      "architecture"
+    ],
+    "related": [
+      "tractus-continuity",
+      "visual-evidence-ledger",
+      "sensation-engine",
+      "whole-world-expansion",
+      "tractus-execution-paths"
+    ]
+  },
+  {
     "id": "veyrthalis",
     "name": "Veyrthalis",
     "group": "world",
@@ -2089,30 +2137,6 @@
       "research",
       "research",
       "active"
-    ]
-  },
-  {
-    "id": "ian-gabe-kirk-triangle",
-    "name": "Ian Kistner, Gabe, and Kirk — The Threefold Attraction",
-    "status": "incubating",
-    "kind": "relationship-arc",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/IAN_GABE_KIRK_TRIANGLE.md",
-    "description": "Continuing adult fictional relationship arc tracing the developing attraction and distinct bonds among Ian Kistner, Gabe, and Kirk; preserves individual agency, open romantic outcomes, and the Familiarity Paradox.",
-    "related": [
-      "character-records",
-      "beginning-of-the-dimension",
-      "joseph-kirk-runtime"
-    ],
-    "tags": [
-      "fiction",
-      "relationship",
-      "ian-kistner",
-      "gabe",
-      "kirk",
-      "adult",
-      "familiarity-paradox",
-      "continuity"
     ]
   }
 ]

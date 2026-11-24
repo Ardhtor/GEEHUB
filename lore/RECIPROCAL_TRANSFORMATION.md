@@ -150,7 +150,7 @@ The bakers arrived before dawn. The men who worked with metal opened their shutt
 
 At first the market's records were concerned with quantities and prices. Then the ledger began to show repeated favors: a delayed payment, a repaired wheel, an extra loaf set aside, a bundle carried to a residence without charge. These entries were not evidence that the market had abandoned its economy. They showed that the economy had relationships within it.
 
-A new stall opened near the southern arch. Its owner sold small wooden objects: spoons, buttons, boxes, handles, and toys made from scraps left by larger workshops. The first week was quiet. The second week, a carpenter stopped to inspect the joinery. The third week, a boy from the university brought a broken drawer pull and asked whether it could be matched. By the end of the month, the stall had become a place where people brought objects whose repair mattered more to them than their price.
+A new stall opened near the southern arch. Its owner sold small wooden objects: spoons, buttons, boxes, handles, and toys made from scraps left by larger workshops. The first week was quiet. The second week, a carpenter stopped to inspect the joinery. The third week, an adult student from the university brought a broken drawer pull and asked whether it could be matched. By the end of the month, the stall had become a place where people brought objects whose repair mattered more to them than their price.
 
 The city altered its route around the stall. Not by decree. Men began taking the southern walk because they wanted to see whether their repairs were ready. A tea seller moved closer. A bench was placed beneath the awning. The porter who had once hurried through the square began stopping to speak with the carpenter.
 

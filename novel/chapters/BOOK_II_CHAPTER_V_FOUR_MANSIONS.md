@@ -206,6 +206,8 @@ Across the green, the four mansions had begun to acquire their own rhythms. Robe
 - **Joseph and Kirk:** Their established relationship remains an ongoing choice. Joseph names the effect of Andrew's interruptions and asks that their promised time remain real. Kirk hears him and honours the prior commitment.
 - **Andrew and Kirk:** Their chemistry remains intact, but Andrew must learn that wanting attention does not entitle him to all of Kirk's time. A boundary is not rejection.
 - **Atlas rule:** The local map holds the four residences as named places but leaves their precise chamber positions unmeasured until surveyed. They are body-geography, not Kirk's separate mental house or a new Veyrthalis district.
+- **Residential boundaries:** The shared green and covered paths connect the homes without making private rooms public. Each resident keeps separate routines and can choose when to receive visitors.
+- **House of Returns:** Joseph's proposed outer-path seat is approved by Kirk but has not yet been installed; it is intended as a place where a visitor can pause before entering.
 - **Open questions:** The route from the Warm Table to the paired residential country; the exact location and orientation of each mansion; how the district adapts after Kirk's next significant movement; how Andrew's attention-seeking develops.
 
 

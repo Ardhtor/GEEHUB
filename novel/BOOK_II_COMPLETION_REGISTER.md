@@ -13,14 +13,14 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | I | The Lost Country | 4,609 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | II | The Keepers of the Old Trail | 4,162 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | III | The Place That Moved | 4,644 | First expansion pass completed 24 November; whole-book continuity and final edit pending |
-| IV | The Promises That Keep | 2,452 | Existing text; relationship and continuity review pending |
+| IV | The Promises That Keep | 3,794 | First expansion pass completed 24 November; relationship continuity and final edit pending |
 | V | Four Mansions | 2,487 | Existing text; residential and relationship review pending |
 | VI | The Game Between the Houses | 3,055 | Existing text; geography and relationship review pending |
 | VII | The Contest That Never Ends | 2,552 | Existing text; Evermeasure and relationship review pending |
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter on 24 November; expansion and edit pending |
 | IX | The Narrow Turn | 4,162 | New working chapter on 24 November; expansion and edit pending |
 
-**Current narrative baseline:** approximately 30,613 narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
+**Current narrative baseline:** approximately 31,955 narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
 
 ## Sequence and sources
 

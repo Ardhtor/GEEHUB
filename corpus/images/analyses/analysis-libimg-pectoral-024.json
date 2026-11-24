@@ -14,9 +14,9 @@
       "last_modified": null
     },
     "integrity": {
-      "status": "metadata_only",
-      "algorithm": null,
-      "digest": null,
+      "status": "checksum_recorded",
+      "algorithm": "sha256",
+      "digest": "6148e92f3e106f4dc570d420204bdbf3a9afd5fdb32d6fa9ec5f85fbb211c536",
       "verified_at": null
     },
     "size_bytes": 2566433,
@@ -24,7 +24,11 @@
     "parent_source_ids": [],
     "technical_metadata": {
       "atlas_id": "GLA-024",
-      "library_file_id": "file_0000000094e881f58751177fdc6af3d1"
+      "library_file_id": "file_0000000094e881f58751177fdc6af3d1",
+      "width": 1031,
+      "height": 1526,
+      "resolution_pixels": 1573306,
+      "sha256": "6148e92f3e106f4dc570d420204bdbf3a9afd5fdb32d6fa9ec5f85fbb211c536"
     }
   },
   "scope": {
@@ -41,13 +45,17 @@
     ]
   },
   "processing": {
-    "status": "content_inspected",
+    "status": "comparatively_analysed",
     "started_at": "2026-11-24T15:10:02.156Z",
-    "completed_at": "2026-11-24T15:10:02.156Z",
-    "method": "Direct visual inspection of the complete Library image at the available rendered resolution, followed by comparison with four related images.",
+    "completed_at": "2026-11-24T15:13:27.265Z",
+    "method": "Full-frame visual inspection, raw binary materialization, SHA-256 calculation, and pairwise normalized image comparison against the other four sources (256x384 SSIM and dHash/aHash screening; no geometric registration).",
     "tools": [
-      "ChatGPT Library image viewer",
-      "Manual visual comparison"
+      "ChatGPT Library raw-file materialization",
+      "Pillow",
+      "SHA-256",
+      "average hash (8x8)",
+      "difference hash (9x8)",
+      "scikit-image structural similarity (SSIM)"
     ],
     "reviewer": null,
     "source_unchanged": true,
@@ -64,7 +72,9 @@
     "limitations": [
       "The binary was not downloaded into the analysis environment, so no SHA-256 comparison or pixel-difference measurement was performed.",
       "Original source context, creator, date, generation method, and camera metadata are unknown.",
-      "Visible body shape is treated as a stylized image reference, not as measured human anatomy."
+      "Visible body shape is treated as a stylized image reference, not as measured human anatomy.",
+      "All five source images have matching pixel dimensions (1031x1526). Pairwise SSIM was computed after direct resize to 256x384 with no geometric registration; scores are screening evidence, not identity or chronology proof.",
+      "Perceptual hashes are low-resolution similarity filters and can collide; they are not exact duplicate checks."
     ]
   },
   "observations": [
@@ -225,8 +235,8 @@
         "obs-003",
         "obs-004"
       ],
-      "rationale": "Shared near-frontal vertical composition, similar oversized pectoral silhouette, very broad shoulders and arms, denim at the lower crop, and a similar plain indoor background. This is a visual-cluster candidate only; identity, chronology, common source file, and progression are not established.",
-      "confidence": 0.82
+      "rationale": "Pairwise image comparison after direct resize to 256x384: SSIM 0.577091, dHash Hamming distance 6/64, aHash distance 3/64, normalized grayscale MAE 16.107/255 (128x192), grayscale correlation 0.856852. Both files have distinct SHA-256 digests. This supports a visual-similarity candidate only; no geometric registration, identity, common generation source, or chronology is established.",
+      "confidence": 0.68
     },
     {
       "relationship_id": "rel-libimg-pectoral-022",
@@ -239,8 +249,8 @@
         "obs-003",
         "obs-004"
       ],
-      "rationale": "Shared near-frontal vertical composition, similar oversized pectoral silhouette, very broad shoulders and arms, denim at the lower crop, and a similar plain indoor background. This is a visual-cluster candidate only; identity, chronology, common source file, and progression are not established.",
-      "confidence": 0.82
+      "rationale": "Pairwise image comparison after direct resize to 256x384: SSIM 0.601247, dHash Hamming distance 4/64, aHash distance 2/64, normalized grayscale MAE 14.805/255 (128x192), grayscale correlation 0.874774. Both files have distinct SHA-256 digests. This supports a visual-similarity candidate only; no geometric registration, identity, common generation source, or chronology is established.",
+      "confidence": 0.68
     },
     {
       "relationship_id": "rel-libimg-pectoral-023",
@@ -253,8 +263,8 @@
         "obs-003",
         "obs-004"
       ],
-      "rationale": "Shared near-frontal vertical composition, similar oversized pectoral silhouette, very broad shoulders and arms, denim at the lower crop, and a similar plain indoor background. This is a visual-cluster candidate only; identity, chronology, common source file, and progression are not established.",
-      "confidence": 0.82
+      "rationale": "Pairwise image comparison after direct resize to 256x384: SSIM 0.831648, dHash Hamming distance 0/64, aHash distance 2/64, normalized grayscale MAE 7.224/255 (128x192), grayscale correlation 0.965483. Both files have distinct SHA-256 digests. This supports a visual-similarity candidate only; no geometric registration, identity, common generation source, or chronology is established.",
+      "confidence": 0.9
     },
     {
       "relationship_id": "rel-libimg-pectoral-025",
@@ -267,8 +277,8 @@
         "obs-003",
         "obs-004"
       ],
-      "rationale": "Shared near-frontal vertical composition, similar oversized pectoral silhouette, very broad shoulders and arms, denim at the lower crop, and a similar plain indoor background. This is a visual-cluster candidate only; identity, chronology, common source file, and progression are not established.",
-      "confidence": 0.82
+      "rationale": "Pairwise image comparison after direct resize to 256x384: SSIM 0.929552, dHash Hamming distance 3/64, aHash distance 1/64, normalized grayscale MAE 5.661/255 (128x192), grayscale correlation 0.986627. Both files have distinct SHA-256 digests. This supports a visual-similarity candidate only; no geometric registration, identity, common generation source, or chronology is established.",
+      "confidence": 0.96
     }
   ],
   "applications": [
@@ -291,7 +301,9 @@
   ],
   "unresolved": [
     "Whether the five images are sibling generations, edits of one base image, or independent generations with a common visual prompt is not established.",
-    "Whether any source chronology or intended growth sequence exists is unknown."
+    "Whether any source chronology or intended growth sequence exists is unknown.",
+    "Image-level similarity metrics are available for this five-file set, but no crop/pose registration or semantic review of the exact differences was performed.",
+    "The shared figure/character identity, generator or creator, and any intended growth sequence remain unestablished."
   ],
   "contradictions": [],
   "negative_findings": [

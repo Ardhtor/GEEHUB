@@ -675,11 +675,13 @@ A favor is a door held open, not a room claimed. It may travel directly between 
 The Hearthmark measures ordinary exchange. The Open Hand Ledger remembers voluntary assistance. Neither is permitted to replace the other. A city needs both the account that can be audited and the story that can be remembered.
 
 
-## XIX. THE NAME OF THE WHOLE
+## XIX. THE NAME OF THE WHOLE — UNRESOLVED
 
-The name is **The Tractus**. It names the continuous passage through which places, people, artifacts, memories, and transformations remain connected while changing. It is not a headquarters, a company, a single world, or a machine pretending to be alive. It is the whole course: the path already travelled, the present crossing, and the branches that become possible because something has passed through. The old name GEEHUB remains in the repository history, in earlier interface labels, and in the records of how the system came to exist. It is not erased. It becomes a former name, a layer in the sediment. From this point forward, new narration calls the world The Tractus.
+No scene currently establishes a name chosen by the men for the whole connected setting. This absence is deliberate. A world-wide name is not to be assigned by an index, doctrine, narrator, repository, or production interface. The men may discover that they need one after they have travelled farther, lived in more of its places, and found a word that means something to them.
 
-A tractus is a passage with continuity: a route made legible by what moves along it. The name therefore carries both geography and anatomy, both a path through a world and a connected system of relations. Nothing is required to arrive at a final center. The Tractus remains open because every crossing can leave a trace, and every trace can become the beginning of another crossing.
+**Tractus** remains the name of the continuity architecture and navigable record model in the production documents. It describes the connected passage through which places, people, artifacts, memories, and transformations remain traceable. It is not, on the available scene evidence, the name the inhabitants have given their world.
+
+An earlier draft of this section proposed **The Tractus** as the world-name and instructed future narration to use it. That proposal is retained here as editorial history, not adopted canon. It may only become an in-world name if a story scene shows the men proposing it, discussing what it means, and choosing it for themselves. Until then, use each established local place-name and leave the wider setting unnamed.
 
 
 ## XXI. NORTHGATE UNIVERSITY AND THE OPEN CAMPUS

@@ -24,6 +24,12 @@ The term **Tractus** appears in repository continuity and lore records. Until a 
 | In-world naming | The editorial directive did not explicitly distinguish the production-workshop name from the names used by inhabitants. | Added a naming boundary: no externally assigned umbrella name; let characters name things through use and conversation. |
 | Narrative register | `novel/WORLDS.md` used “the Hub,” “the system,” “world-engine,” “FOMO engine,” and “world graph” inside passages presented as story prose. | Recast the identified passages in terms of rooms, roads, maps, gatherings, and actions. |
 
+## Manuscript-source correction
+
+The three-book map originally linked `novel/BOOK_I.md` as if it were the consolidated manuscript for *The Road of Seven Wells*. On inspection it was an empty file. Its replacement is now an explicit source map. The candidate text is distributed across `REWRITTEN_OPENING.md`, `BOOK_I_FINAL_MOVEMENT.md`, `BOOK_I_CONTINUATION_02.md`, `BOOK_I_CONTINUATION_03.md`, and `BOOK_I_CONTINUITY_CHAPTERS.md`; the latter files contain overlapping chapter numbers and cannot be appended in sequence without comparison.
+
+The environmental rewrite identifies itself as *The House of Open Screens*, while the three-book index calls the work *The Road of Seven Wells*. The source map preserves both titles and marks the decision open. No title has been silently chosen. The earlier 162,974-word Book I estimate is now marked as an unverified historical repository-level figure, not a count of a consolidated manuscript.
+
 ## Unresolved continuity questions
 
 ### First-person identity in “Three Years”

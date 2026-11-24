@@ -125,3 +125,20 @@ This is a targeted influence audit, not a claim that the other two full manuscri
 Michael Brock remains a visitor and is not present in this chapter. His private relationship with Kirk remains secret. Joseph and Kirk's established continuity, Gabe's Dorian connection, and the provisional Ian/Gabe/Kirk branch are not displaced.
 
 The next Book II action is a fresh-day repeatability test of the Narrow Turn. This entry is a targeted influence audit, not a claim that the other two full manuscripts were rewritten.
+
+
+## Cross-book motif — God as an eclectic mouse on a nature walk
+
+**Source:** conversation seed, 24 November 2026. **Status:** thematic motif, not yet assigned to a character or literal deity in any manuscript.
+
+The image is of a small, curious divine presence wandering through nature after rain, noticing and collecting things without sorting them into useful and useless, beautiful and ugly, sacred and ordinary. A mushroom, beetle, feather, snail shell, contrasting leaves, a woodpecker's rhythm, a blue flower growing through a discarded bottle cap, and a pebble with a natural hole become the beginnings of an unexpected arrangement. The mouse does not create from nothing; it gathers, carries, compares, and discovers new relations. The computer mouse is a secondary resonance: attention moves across a world and selects what may be brought into being.
+
+The motif is shared across the three principal works, but its expression must arise from each book's own setting and voice:
+
+- **The Road of Seven Wells:** a way of attending to overlooked signs, small objects, natural particulars, and the strange relations between places. Let the walk deepen the book's existing sense of wells, paths, rooms, water, and things that continue beyond immediate sight. Do not turn the mouse into an explanatory narrator.
+- **The Golden Lion and the Seven Great Houses:** a wandering collector's curiosity moving through the houses' grounds, gardens, quarry, and signal country. The eclectic eye can notice how different households arrange, preserve, or overlook things, without making the mouse an authority over their lives.
+- **The Many Open Ends:** a generative principle of collecting fragments from separate places and discovering consequential connections among them. Small finds may travel as objects, messages, remembered observations, or practical clues; distant characters still require a credible means of receiving them.
+
+**Production priority:** Book II remains the immediate writing priority, followed by Book III. This three-work motif map does not reorder that production schedule or conflate the three principal manuscripts with the separate numbered Book II and Book III production sequence. For Book II, use the motif first as a quiet nature-walk episode or recurring mode of attention within the Kirk Expedition's existing geography. Only introduce a literal mouse or divine identity if the manuscript earns it through scene and continuity.
+
+**Writing rule:** preserve the original phrase, “God as an eclectic mouse,” as the seed. Keep the humour gentle and the divinity curious rather than grandiose. The mouse's power is attention: it makes a world by noticing what is already there and carrying unlikely things into relation. Do not flatten this into a moral lesson or a mechanical allegory.

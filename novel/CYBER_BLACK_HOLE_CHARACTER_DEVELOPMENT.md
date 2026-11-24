@@ -13,6 +13,18 @@ The opening currently moves from six separate invitations to a group meal, a set
 
 The work ahead is not to add more personality adjectives. It is to let each man have a day, a private concern, a preference that inconveniences someone else, a relationship that surprises him, a mistake he must repair, and an interest that has nothing to do with the mechanism that brought him into the story. Each person must be able to change the direction of a scene for reasons that belong to him.
 
+## Initial scene pass — 24 November 2026
+
+The opening of `lore/CYBER_BLACK_HOLE_NOVEL.md` has received an initial character-led revision:
+
+- **Prologue:** Luke's habit of making a gym usable for the next person is shown before the room appears. Andrew's baseball practice and his fascination with the sound of a foul ball striking the fence give him a particular thought already in motion when he arrives. Their first exchange now shows Andrew wanting to act and Luke asking him to wait.
+- **Chapter One:** Tyler repeats the mirror check rather than accepting the first impression; Joseph refuses to turn a familiar song into proof of a memory; Chase verifies and preserves the unexplained pin; Gabe hesitates over whether the empty chair is an invitation or an interpretation.
+- **Chapter Two:** the six are no longer described as already knowing one another's lives. They recognise fragments but have not yet learned how the others behave in ordinary conditions. The meal now gives each man a small choice or response rather than assigning only a symbolic task.
+- **Chapter Three:** the six source fragments are all present. Joseph's rule grows out of his uncertainty about the song; Chase distinguishes separate accounts; Andrew admits that his enthusiasm can move ahead of another person's choice; Gabe asks that the newest image not erase earlier versions. The agreement remains open to later correction.
+- **Chapter Four:** the premature exchange about naming the city has been removed. The plaque remains blank and the men enter the city without assigning a name.
+
+This is an opening pass, not completion. The individual histories, deeper pairwise relationships, off-duty lives, and consequences of conflict still need to be developed in later chapters. A paragraph that demonstrates a trait is not a substitute for a sustained arc.
+
 ## Character-by-character development
 
 ### Luke — presence that must learn to receive

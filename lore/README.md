@@ -21,3 +21,7 @@ The raw archive remains authoritative for what a conversation actually contained
 - [The Low Bar — Ordinary Men Belong](LOW_BAR_ORDINARY_MEN.md) — a world-wide rule making belonging, attraction, and friendship easy for ordinary adult men without lowering consent or safety standards.
 
 - [The Great Tribal Territories](TRIBAL_TERRITORIES.md) — the connected territorial framework for Redwood, Mexiancas, Dad Convent, Gold's on 5th, and the Foggy Dark Expanse, with distinct societies, continuity boundaries, and the Brawn Intelligence writing principle.
+
+## New relationship branch — 24 November 2026
+
+- [Ian Kistner, Gabe, and Kirk — The Threefold Attraction](IAN_GABE_KIRK_TRIANGLE.md) — provisional adult relationship arc with three distinct pairwise bonds; cross-book influence is recorded in [The Three Books Moving at Once](../novel/THREE_BOOKS_IN_MOTION.md).

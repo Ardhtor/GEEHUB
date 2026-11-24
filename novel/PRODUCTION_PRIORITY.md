@@ -18,6 +18,10 @@ Book III is queued behind Book II. Do not begin parallel Book III narrative draf
 
 The present repository and Dropbox search did not locate a canonical manuscript explicitly identified as `Book III`. The repository's *Three Books Moving at Once* file lists *The Road of Seven Wells*, *The Golden Lion and the Seven Great Houses*, and *The Many Open Ends* as three distinct long-form works; it does not label one of them Book III. The separate Expansion Atlas file named Volume III — The People is also not proof of the intended Book III manuscript. Do not silently equate these numbering systems. When Book II is complete, identify the canonical Book III source and establish its own census, continuity map, and completion register before drafting it.
 
+## Current continuity map
+
+- [Book II — Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) is the working map for Chapters I–IX, including sequence, relationships, geography, objects, open questions, and the canonical revision order.
+
 ## Book II completion criteria
 
 Book II may be called complete only when all of the following are true:

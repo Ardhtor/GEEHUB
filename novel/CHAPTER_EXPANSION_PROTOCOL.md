@@ -25,7 +25,7 @@ The sweep is global in scope and incremental in execution. It may take many boun
 
 Read the complete selected manuscript and its chapter index. Identify every chapter heading, its current text span, current word count, position, neighbouring chapters, and links to relevant continuity records. Build a chapter register before editing. Record missing prose, duplicate or conflicting numbering, empty headings, separate chapter files, and alternate branches without silently merging them.
 
-The current Book I register records 72 chapter headings in `novel/BOOK_I.md`. Its initial word counts are a baseline for progress tracking, not a quality score or a quota. Update the register whenever the manuscript changes.
+The active Book I register currently maps 72 chapter headings in `novel/REWRITTEN_OPENING.md`. That file is a source candidate, not a consolidated Book I manuscript; `novel/BOOK_I.md` is its source map and records unresolved overlaps and title decisions. The register's section word counts are a baseline for review, not a quality score or a quota. Update the register whenever the source changes.
 
 ### 2. Whole-book context
 
@@ -35,7 +35,7 @@ The associative pass should surface distant connections as well as local continu
 
 ### Character voice and values (required throughout)
 
-Keep the cast all male throughout the active GEEHUB fiction: male characters, male pronouns, and male-coded roles unless the user explicitly changes this direction. Check incidental, unnamed, and background figures as carefully as principal characters. Do not introduce women through throwaway examples, records, crowds, or offstage references.
+Preserve the established cast composition of each local continuity. Some branches are deliberately male-dominated and their established ensembles, voices, and relationships should remain recognisable; other settings may have their own established residents and cast. Do not impose one universal demographic template across separate stories, and do not add or remove a character merely to satisfy a blanket rule. All human characters in active fiction are adults. Check incidental, unnamed, and background figures as carefully as principal characters; do not introduce minors as casual crowd members, visitors, family members, or throwaway examples. Preserve a character's established pronouns and identity.
 
 Aim for concise, economical prose. Keep scenes substantial where the drama requires them, but remove repeated explanations, duplicated emotional conclusions, and ornamental restatement. Do not inflate chapters to meet a word target; the publishing range is guidance, not a quota.
 

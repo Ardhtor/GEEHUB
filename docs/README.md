@@ -14,6 +14,7 @@ The documentation folder contains the repository's technical contracts, editoria
 - [Chat ↔ World Asset Memory Bridge](CHAT_ASSET_MEMORY_BRIDGE.md) — importing, linking, and preserving conversation and visual source material.
 - [File Analysis Standard](FILE_ANALYSIS_STANDARD.md) — source-grounded inspection across images, video, audio, documents, code, spreadsheets, and archives.
 - [Growth](GROWTH.md) — a shared approach to gradual development, research, continuity, and making.
+- [The Boyfriend-in-High-School Experience Principle](BOYFRIEND_IN_HIGH_SCHOOL_EXPERIENCE_PRINCIPLE.md) — emotional design through anticipation, recognition, private language, play, tenderness, and continuity.
 
 **Up:** [repository root](../README.md) · [Hub](../hub/README.md) · [full directory map](REPOSITORY_NAVIGATION.md)
 

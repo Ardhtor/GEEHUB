@@ -1,4 +1,4 @@
-# GEEHUB — The Labyrinth Continues
+# Veyrthalis — The Labyrinth Continues
 
 The forest did not become darker when Luke stepped into it. It became deeper. That was the first distinction he made, and once he had made it he could not stop noticing the difference. Darkness belonged to the surface of things: the black between the trees, the shadow beneath the roots, the blue-black distance where the last road disappeared. Depth was something else. Depth suggested that the darkness continued inward, that there were rooms inside the rooms, corridors inside the corridors, and that every object they passed might have another object hidden behind it which explained why the first one existed.
 
@@ -32,7 +32,7 @@ The door opened inward.
 
 There was no room behind it. There was a white screen.
 
-On the screen was the GEEHUB constellation.
+On the screen was the constellation map.
 
 Luke recognized it immediately: not because he had seen the interface before, but because the arrangement felt familiar in the strange way a dream can feel familiar while you are still dreaming it. Nodes floated in a black field. Lines connected some of them. Others stood alone. Every node contained a word, and every word appeared to imply another word.
 

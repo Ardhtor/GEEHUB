@@ -16,29 +16,36 @@ The immediate children of `/GEEHUB` include `AI`, `chapters`, `worlds`, `product
 Selected direct-child checks on 24 November found:
 
 - `/GEEHUB/AI` contains the GEEHUB AI Build 0.1 specification, Presence Charter, Cross-Book Chapter Influence Protocol, Production Priority Paper, Live Wand Session 001, the Book II Chapter VIII Paper companion, the Ian Kistner/Gabe/Kirk relationship branch, and the *God as an Eclectic Mouse* three-book motif.
-- `/GEEHUB/chapters` contains the Book II Chapter I–VI and Chapter IX Paper mirrors, alongside other independent story documents. Chapter VIII is stored under `/GEEHUB/AI`.
+- `/GEEHUB/chapters` contains the Book II Chapter I–VII and Chapter IX Paper mirrors, alongside other independent story documents. Chapter VIII is stored under `/GEEHUB/AI`.
 - `/GEEHUB/production` contains `assets`, `scenes`, `recipes`, `projects`, and `references`, plus the Visual Taste & Comic Production System Paper document.
 - `/GEEHUB/maps`, `/GEEHUB/corpus`, and `/GEEHUB/state` were empty in the direct-child checks. Their GitHub counterparts are active; do not mistake these Dropbox folders for populated mirrors.
 - `/GEEHUB/DREAM_MATERIAL` exists and was recently modified, but its contents were not inspected in this pass.
 
-## Verified manuscript alignment
+## Verified Book II manuscript alignment
 
-The Dropbox Paper document **GEEHUB Production Priority — Book II, then Book III** is synchronized to `novel/PRODUCTION_PRIORITY.md` at Paper revision 13. It reflects the current nine-chapter sequence, the 35,381-word baseline, first expansion passes for Chapters I–VI, and the next revision cursor at Chapter VII.
+The Dropbox Paper document **GEEHUB Production Priority — Book II, then Book III** is synchronized to `novel/PRODUCTION_PRIORITY.md` at Paper revision 14. It reflects the current nine-chapter sequence, the 35,572-word baseline after the first ending-compression pass, and the next editorial phase: a body-level line edit through Chapters I–IX in canonical order, beginning with Chapter I.
 
-The Book II Paper mirrors were read back and compared with their GitHub sources. All four Markdown bodies match exactly:
+All nine current chapter manuscripts have Dropbox Paper counterparts. Their Markdown bodies were read back and compared with the current GitHub sources; all nine match.
 
 | Chapter | Dropbox location | Paper revision | GitHub source blob |
 | --- | --- | ---: | --- |
-| I — The Lost Country | [Open in Dropbox](https://www.dropbox.com/scl/fi/gpx1ba1ijqb6qhfv7igop/Book-II-Chapter-I_-The-Lost-Country.paper?dl=0) | 1 | `6046e63dc0f749f0caeab24d9f2e7407fb143a90` |
-| II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 2 | `cefe0de1ed3ce967b441766693b00dc90cd66c88` |
-| III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?dl=0) | 2 | `70de36cdf943b591208ab0ca2d9dd82a75d1b979` |
-| IV — The Promises That Keep | [Open in Dropbox](https://www.dropbox.com/scl/fi/64o1zoq6rm7gw06iascz0/Book-II-Chapter-IV_-The-Promises-That-Keep.paper?dl=0) | 1 | `e071f970e3b353cb32ff48067c6fe50774db60dc` |
-| V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?dl=0) | 2 | `1bd08c1b52d38df531ff7d40933e8a2af99bad05` |
-| VI — The Game Between the Houses | [Open in Dropbox](https://www.dropbox.com/scl/fi/pj1ayynqqr8wgne9ogf4u/Book-II-Chapter-VI_-The-Game-Between-the-Houses.paper?dl=0) | 2 | `d3efe404cda13eeac0336545db1a785db784105d` |
-| VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 2 | `d1e1d17fdb467570042bcf1a60c0f3f573bbb579` |
-| IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 1 | `d9be1ad55e028e2cd388dd43386b0b0ceb99bb42` |
+| I — The Lost Country | [Open in Dropbox](https://www.dropbox.com/scl/fi/gpx1ba1ijqb6qhfv7igop/Book-II-Chapter-I_-The-Lost-Country.paper?dl=0) | 2 | `a91901b1ab8ca5b85b8c09956e8a838f60aff9f7` |
+| II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 3 | `0ef434c0b1d5b1c2ddd9db60ea892666237188dc` |
+| III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?dl=0) | 3 | `5f6498b354af34b49fe02d8c2cb35509a4c0ecb2` |
+| IV — The Promises That Keep | [Open in Dropbox](https://www.dropbox.com/scl/fi/64o1zoq6rm7gw06iascz0/Book-II-Chapter-IV_-The-Promises-That-Keep.paper?dl=0) | 2 | `bd85a9bca132296bd7e428b72a58905ae4c4e164` |
+| V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?rlkey=wtw4jngbq18h1eov3ov1vvhhg&dl=0) | 2 | `1bd08c1b52d38df531ff7d40933e8a2af99bad05` |
+| VI — The Game Between the Houses | [Open in Dropbox](https://www.dropbox.com/scl/fi/eakqhvj3umson5vqvbiz2/Book-II-Chapter-VI_-The-Game-Between-the-Houses-1.paper?rlkey=ys3jabjo22qumf94pc8hkldc5&dl=0) | 2 | `e7b3a3303c9009d36d58343777944d5131b3ca22` |
+| VII — The Contest That Never Ends | [Open in Dropbox](https://www.dropbox.com/scl/fi/hcjkee5qazq4fghe1b5nj/Book-II-Chapter-VII_-The-Contest-That-Never-Ends.paper?rlkey=ndsz2zhqjx8jidfd157ksvfut&dl=0) | 3 | `75c8bca41e19253a7f4fe01545ceec9799b7984b` |
+| VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 3 | `d36fa5711621a5e062e8c7820d950bade48348fb` |
+| IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 2 | `1c4ef8c06bda7a9475d6318f5d7009bbecbc1a03` |
 
-The [Book II Completion Register](../novel/BOOK_II_COMPLETION_REGISTER.md) records these links, Paper revisions, and GitHub source fingerprints. Chapter VII remains to be mirrored after its revision pass. GitHub remains the canonical source; Dropbox Paper is the production and reading surface. A mirror must be refreshed and verified after its source chapter changes. Chapter VI has a second Dropbox Paper file with a `(1)` suffix at revision 1; it is an older variant missing one accepted safety-and-route sentence. The unsuffixed revision 2 is the canonical mirror because its body matches GitHub. The older variant remains preserved and has not been deleted.
+The [Book II Completion Register](../novel/BOOK_II_COMPLETION_REGISTER.md) records the same links, Paper revisions, and GitHub source fingerprints. Refresh and verify a mirror after every subsequent source edit.
+
+### Chapter VI duplicate handling
+
+Two Chapter VI Paper files exist. The suffixed `(1)` file linked in the table is revision 2 and matches the current GitHub manuscript. The unsuffixed file is an older alternate whose body does not match the current source. The suffixed file is canonical; the unsuffixed file remains preserved as a stale alternate and has not been deleted.
+
+## AI runtime status
 
 The **GEEHUB AI — Build 0.1** Paper document is a foundation specification, not a deployed or trained AI model. Its target runtime files and provider configuration remain implementation work. Any implementation must connect to the existing event-inscription, activity, artifact, continuity, and state systems; it must not introduce a second event log, canon store, artifact ledger, or project registry.
 

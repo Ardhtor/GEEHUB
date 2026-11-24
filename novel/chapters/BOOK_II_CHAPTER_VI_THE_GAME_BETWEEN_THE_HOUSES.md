@@ -36,7 +36,25 @@ Chase marked the western route in one pencil and the eastern route in another. H
 
 Gabe came over from the Canvas House carrying a pair of training bands and a folded towel. He listened to Andrew's explanation, then walked the first section of the proposed route. The ground was wide enough for several men to move abreast, but the turn beyond the Cedar Span would need a better resting surface. Gabe proposed a warm-up station near the western marker and a recovery bench at the eastern hollow. He did not want the course to become a test that rewarded whoever could keep going longest. It should allow a man to stop, change his route, or join the game halfway through.
 
+
+He demonstrated the warm-up before anyone began. It was a short sequence of shoulder movement, wrist and hand preparation, a walk along the covered span, and a few controlled turns at the western marker. He asked the men to notice how the ground felt underfoot and whether the covered passage changed the way they carried the ball. Nobody was required to complete the whole sequence. Gabe wanted the residents to understand that preparation was part of the game, not a penalty before it.
+
+The recovery bench was placed where a man could see the eastern hollow without standing in the middle of the route. Gabe checked that there was enough room to sit and rise without blocking the return line. He also marked an alternate path that avoided the hollow entirely. Andrew wanted to make the long loop the main event, but Gabe insisted that the shorter route remain equally valid. A man who chose the shorter line would still be playing the Long Return.
+
+“It's a game,” Andrew said.
+
+“Then it should be possible to enjoy it,” Gabe replied. “Not everyone has to prove something every time.”
+
+Andrew considered that, then drew the alternate path more clearly on the map. He was not entirely convinced, but he could see that the course would be better if more than one kind of player could use it.
+
 Robert arrived last. He had spent the morning in his library, where the second staircase had already proved useful. He had brought a small box of brass fittings from the workshop beneath Laskin Mansion and wanted to know whether the viewing arch could be fitted with a sliding screen. The arch should frame the game when the residents wanted to watch, but it should also be possible to close the view and use the room for something else. The group agreed. Robert asked whether the game might later be shown in the miniature theatre, with a map projected beside the image. Andrew immediately began inventing a commentary for it, and Chase told him not to narrate a route that had not yet been walked.
+
+
+Robert went back to Laskin Mansion and returned with a portable frame for the viewing arch. It held a narrow screen that could be slid across the opening when the gallery was not in use. He fixed a small lamp above it and asked Andrew to roll the ball once while he watched from the side. The screen showed the ball's movement, but the arch concealed the far corner of the eastern hollow. Robert shifted the lamp and added a second viewing angle. The two views made the route clearer without pretending that one could replace the other.
+
+Chase asked him to label the second view as a reconstruction if it was later projected in the theatre. Robert agreed. The residents would need to know whether they were looking at the actual course, a measured drawing, or a model of a route that had not yet been checked. Andrew wanted the presentation to be dramatic. Robert wanted it to be honest. They decided that both aims could be served if the labels remained visible.
+
+The viewing arch was left open for the first game. The screen could be used later, when the residents had enough attempts to make a comparison worth showing.
 
 Joseph approached from the House of Returns. He had heard the talk from the garden path and stopped beside the table. “What's the game?”
 
@@ -84,6 +102,13 @@ The receiver clicked softly. Andrew set it back on the table. He had not been re
 
 The first walk of the course began after the residents had checked the Cedar Span and marked the eastern hollow. The route looked shorter from the pavilion than it did from ground level. The covered passage carried them across the central fold, and the view through its open slots changed as they moved. On the western side, the buildings appeared close together. At the middle of the span, they seemed to stand on separate shores. From the eastern opening, the four mansions became a small cluster behind the broad rise, and the landscape beyond them opened into a long amber distance.
 
+
+The first inspection was done without a ball. Chase walked the covered span and measured the distance between the markers. Robert stood at the viewing arch and asked each man to stop at the point where the western ground disappeared behind the central fold. He wanted to know which parts of the route could be seen from the gallery and which would have to be shown through a second view. The group agreed that the arch should not be used to judge a player's performance. It was a way to observe the course, not a place from which to rank the men.
+
+Gabe tested the recovery route and returned along the covered path. Joseph walked the lower edge of the eastern hollow, checking the surface where the ball had turned in Andrew's sketch. He suggested a small marker at the place where the two routes separated. Chase added it to the map as a temporary marker, not a permanent landmark. The residents had learned from the changing lower country that a mark should identify the latest checked state without pretending to fix the terrain forever.
+
+Only after the walk did Andrew bring out the ball. The game was ready to begin, but the route had been examined as a place people would use, not merely as a line on a drawing.
+
 Andrew started the game with a short roll. The ball passed beneath the first arch, curved toward the eastern hollow, and came to rest near Gabe's proposed recovery bench. Gabe walked it back. The second roll travelled farther. The third struck the shallow wall at the edge of the hollow and returned through the arch as Andrew had predicted. Chase recorded each start point and the final resting place. Robert watched from the viewing room and sent a message asking for the angle of the return to be added to the projection.
 
 Joseph took his turn. He chose the lower line rather than the long loop, then stopped at the covered bay to look back across the span. “You can see the two grounds from here,” he said. “But you can't see the same thing from either side.”
@@ -95,6 +120,13 @@ Joseph took his turn. He chose the lower line rather than the long loop, then st
 “That's also true.”
 
 Joseph rolled the ball. It followed the low line, turned beneath the arch, and came to rest near the western marker. Andrew clapped once and called it a return. The others laughed. Joseph took the ball back and handed it to him. The game had begun to feel like a shared activity rather than Andrew's private attempt to bring Kirk into the afternoon.
+
+
+Gabe took a turn next. He chose the longer loop but stopped at the recovery bench before returning to the western marker. He wanted to see whether the ball could be carried without losing the rhythm of the route. Robert tried a slower roll from the upper edge, and Chase repeated Andrew's first line from the same starting mark. The results were different, but the differences were useful. One man favoured a clean return; another wanted to discover how the ball behaved near the hollow; a third was more interested in whether the route could be measured consistently.
+
+Andrew began to call the attempts by their order. Chase corrected him when he described a later run as a record. It was only another attempt. The men agreed that they would not name a best route until they had repeated the same course under the same conditions. For now, the purpose was to learn the grounds and enjoy the game.
+
+Joseph chose the shorter path once more, then sat at the recovery bench and watched the others. He was not obliged to take another turn. Andrew asked if he wanted to try the long loop, and Joseph said he might later. Andrew accepted the answer and returned to the starting line. The moment passed without becoming a negotiation.
 
 Then the receiver sounded again.
 
@@ -123,6 +155,13 @@ Kirk waited. Andrew could have said that Joseph was tired, or that he had a priv
 The receiver remained open. Kirk did not offer a quick absolution. He asked Andrew whether he wanted to tell Joseph that he had noticed. Andrew said yes, but he did not want to make another interruption. Kirk suggested that Andrew wait until the game had been put away, then ask whether Joseph wanted to speak. Andrew agreed.
 
 The afternoon continued. Gabe helped adjust the recovery bench. Robert tested the viewing screen and invited the others to see how the game looked from the library gallery. Chase prepared a route sheet that showed the first three ball paths beside the measurements. The long loop remained open as a proposed variation, not a confirmed course. The men played two more rounds, changing teams and taking turns at the starting line. Andrew was still competitive, but he began to watch the other players rather than keeping one ear fixed on the receiver.
+
+
+The second round was more relaxed. The residents began to call out small observations rather than instructions. A ball that caught the edge of the hollow was described as a useful return, not a mistake. A man who chose the short route was allowed to finish without being asked why he had not taken the longer one. Gabe moved the recovery bench a little farther from the marker so that the route remained clear. Robert tested the screen from the library gallery and found that the side view made the turn easier to understand. Chase wrote the adjustment beside the map, leaving the first position visible.
+
+Andrew still wanted to win. He liked the feeling of a clean run and the prospect of being the man who found the best line. But he began to notice that the others were enjoying the course in ways that did not require him to lead every attempt. He laughed when Robert's ball took an unexpected turn. He asked Gabe to show him how he had controlled the longer loop. He let Joseph keep the ball after the lower route, rather than asking for it back immediately.
+
+The receiver remained quiet for a while. Andrew glanced toward it once, then returned to the game. The absence of a message did not mean that the day had stopped. The residents had work to do, and the course was becoming interesting on its own terms.
 
 When they returned to the pavilion, Joseph had not come back. Andrew carried the ball to the House of Returns and stopped at the outer path. The new bench was not there yet. He stood a little way from the door, unsure whether to knock. He could hear a quiet movement inside, perhaps a chair being moved or a book placed on a table. The house had a life of its own. He could not assume that because he wanted to speak, Joseph was ready.
 
@@ -163,6 +202,13 @@ Joseph took it, then smiled faintly. “You don't have to pay me back with a bal
 “Then come and have tea.”
 
 That evening Kirk came to the House of Returns as promised. He and Joseph sat by the hearth. Andrew did not call; he had been given a time to see Kirk the next morning, and he chose to keep it. His longing remained, but it now had a boundary he could practise respecting.
+
+
+Before they separated, Chase added a short rule to the route sheet: a player could stop at any marker, change to the shorter path, or leave the course without losing the value of the attempt. The Long Return would record the route taken, not the worth of the man who took it. Andrew read the note and did not argue. He wanted the game to become more difficult, but he could see that difficulty did not require making the other men feel inadequate.
+
+Joseph returned the ball to the common table before going home. He did not keep it as payment for the earlier conversation. Andrew thanked him for the turn and asked whether he wanted to play again the next day. Joseph said he would decide after breakfast. Andrew nodded. The answer was allowed to remain open.
+
+The residents left the course assembled but quiet. The markers were visible, the recovery bench was in place, and the viewing arch could be closed. The game had a route, but it did not yet have a winner or a final form. It could change as the residents learned more about the grounds and about one another.
 
 Across the green, the four houses held their separate lights. The game had acquired its first name: the Long Return. It was about choosing a route, noticing how it changed, and finding a way back without pretending the two sides were identical.
 

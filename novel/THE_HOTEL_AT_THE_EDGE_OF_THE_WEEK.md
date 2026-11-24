@@ -1,5 +1,5 @@
 # The Hotel at the Edge of the Week
-## A GEEHUB novel
+## Book I — The Sevenfold Guest
 ### Book I — The Sevenfold Guest
 ### Canon status: active development
 ### Setting: the Grand Meridian, an enclosed all-male hotel

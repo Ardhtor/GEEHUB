@@ -8,7 +8,7 @@
 
 ### First — Book II: the Kirk Expedition
 
-Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book continuity and final editorial process. All nine chapters have received first body-level line edits. The current narrative census is 36,319 words. Whole-book continuity review and final copyedit remain open.
+Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book continuity and final editorial process. All nine chapters have received first body-level line edits. The current narrative census is 35,266 words. Whole-book continuity review and final copyedit remain open.
 
 Finishing Book II means more than adding the next chapter. Work must return to the existing sequence, develop each chapter in canonical order, reconcile its continuity, continue the story through its natural ending, and then perform the whole-book editorial close-out. The chapter expansion protocol remains in force.
 
@@ -48,7 +48,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | --- | --- | ---: | --- |
 | I | The Lost Country | 4,180 | First body-level line edit complete; whole-book continuity and final edit pending |
 | II | The Keepers of the Old Trail | 4,039 | First body-level line edit complete; whole-book continuity and final edit pending |
-| III | The Place That Moved | 4,233 | First body-level line-edit pass complete; whole-book continuity pending |
+| III | The Place That Moved | 3,180 | Second compression pass complete; whole-book continuity pending |
 | IV | The Promises That Keep | 3,641 | First body-level line-edit pass complete; relationship continuity pending |
 | V | Four Mansions | 4,694 | First body-level line-edit pass complete; residential and relationship continuity pending |
 | VI | The Game Between the Houses | 3,950 | First body-level line-edit pass complete; geography and relationship continuity pending |
@@ -56,7 +56,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | VIII | A Day in the Open Pavilion | 3,833 | First body-level line-edit pass complete; relationship continuity pending |
 | IX | The Narrow Turn | 3,875 | First body-level line-edit pass complete; scene clarity and repeatability continuity pending |
 
-**Current total:** 36,319 narrative words across nine chapters after the first body-level line-edit pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
+**Current total:** 35,266 narrative words across nine chapters after the first body-level line-edit pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
 
 ## Active Book II threads
 
@@ -72,7 +72,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 ## Execution order
 
 1. Maintain the [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) as the working continuity index; update it after every accepted chapter revision.
-2. A first ending-compression pass has been completed across Chapters I–IX. The first body-level line-edit pass is complete across all nine chapters. Begin the whole-book continuity sweep: reconcile chronology, spatial atlas, character records, relationship knowledge, objects, routes, point of view, and chapter transitions. Do not add expansion unless the sweep identifies a missing scene or unsupported transition.
+2. A first ending-compression pass has been completed across Chapters I–IX. The first body-level line-edit pass is complete across all nine chapters. Continue the focused compression pass through the remaining chapters, then begin the whole-book continuity sweep: reconcile chronology, spatial atlas, character records, relationship knowledge, objects, routes, point of view, and chapter transitions. Do not add expansion unless the sweep identifies a missing scene or unsupported transition.
 3. After the existing sequence has been revised, continue with the next necessary chapter and carry all new consequences into the book's records.
 4. Continue the sequence until its dramatic and relational movements reach an earned ending.
 5. Perform the whole-book continuity sweep, copyedit, contents/index reconciliation, and final proof.

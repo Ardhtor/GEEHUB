@@ -154,7 +154,7 @@ The first body-level line-edit pass is now complete across Chapters I–IX. It c
 | --- | ---: | --- | --- |
 | I — The Lost Country | 4,180 | `93746ac7c4d087b97a499e643e62902cd7bfe463` | First line-edit pass complete; whole-book continuity and final edit pending |
 | II — The Keepers of the Old Trail | 4,039 | `796b5519741b480fae6fdec9f9b11c55211abe2e` | First body-level line-edit pass complete; whole-book continuity and final edit pending |
-| III — The Place That Moved | 4,233 | `421b2fd3e767032cc9592fc117e58b4aed949e2c` | First body-level line-edit pass complete; whole-book continuity pending |
+| III — The Place That Moved | 3,180 | `55ea61234a225260bd9508f10b116df0bb523f00` | Second compression pass complete; whole-book continuity pending |
 | IV — The Promises That Keep | 3,641 | `b352be72b12255451928c90910c1b57327db0afa` | First body-level line-edit pass complete; relationship continuity pending |
 | V — Four Mansions | 4,694 | `6231bc5b8ae2961c97ebde3942a71088a6974708` | First body-level line-edit pass complete; residential and relationship continuity pending |
 | VI — The Game Between the Houses | 3,950 | `cced555a95ba11c01bfa6fef143d3975120dda43` | First body-level line-edit pass complete; geography and relationship continuity pending |
@@ -162,7 +162,7 @@ The first body-level line-edit pass is now complete across Chapters I–IX. It c
 | VIII — A Day in the Open Pavilion | 3,833 | `c442dee1b9320e714a303a5bf54b0619c0bf5a0d` | First body-level line-edit pass complete; Michael's day and privacy continuity pending |
 | IX — The Narrow Turn | 3,875 | `ac49adea9c4c0b599b0be5f5a02217776a21a898` | First body-level line-edit pass complete; repeatability and scene continuity pending |
 
-**Current narrative census:** 36,319 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
+**Current narrative census:** 35,266 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
 
 ## Revision order and editorial gates
 
@@ -170,7 +170,7 @@ The first body-level line-edit pass is complete. The next operation is the whole
 
 1. **Chapter I:** preserve the two-state map, the Old Trail discovery, and the decision not to enter the dark opening. Remove repeated descriptions of the same measurements and avoid explaining the significance of the map after the scene has shown it.
 2. **Chapter II:** preserve the keepers' practical culture and the unresolved trail signs. Trim repeated explanations of the archive's philosophy; let the map-handling and daily work demonstrate it.
-3. **Chapter III:** preserve the Long Fold survey, the Warm Table's changed position, the opening, and the careful withdrawal. Keep observations, Kirk's account, and hypotheses distinct without restating the distinction in every scene.
+3. **Chapter III:** preserve the Long Fold survey, the Warm Table's changed position, the opening, and the careful withdrawal. The second compression pass removed repeated report questions, duplicate marker and cord inspections, a repeated withdrawal, and a philosophical coda that restated the map's meaning. The chapter now ends on the completed survey and the still-unentered route.
 4. **Chapter IV:** preserve Andrew and Kirk's chemistry and renewable promises. Shorten repeated statements about boundaries and trust; let their conduct carry the change.
 5. **Chapter V:** preserve the four distinct homes and the Andrew–Joseph–Kirk tension. Avoid repeatedly explaining that each house has its own life after showing its rooms, routines, and residents.
 6. **Chapter VI:** preserve the cooperative Long Return, recovery rules, and Andrew's first conduct change. Remove repeated definitions of the game and repeated recaps of Joseph's hurt once the scene has registered them.

@@ -1,10 +1,10 @@
-# The Cyber Black Hole of Geehub
+# The Cyber Black Hole
 
 ## The Friends Enter by Their Own Light
 
-The Cyber Black Hole is the name the friends give to the gathering force at the centre of Geehub. It does not swallow people by making them disappear. It draws their traces inward: a photograph, a joke, a training clip, a half-finished project, a favourite place, a sentence posted late at night, a link passed between friends. Each arrival bends the surrounding world. A gym acquires a history. A room becomes familiar. A name begins to open several doors at once.
+The friends call the gathering force at the centre of their shared world the **Cyber Black Hole**. The name began among them; it was not given to the world itself. It does not swallow people by making them disappear. It draws their traces inward: a photograph, a joke, a training clip, a half-finished project, a favourite place, a sentence posted late at night, a link passed between friends. Each arrival bends the surrounding places. A gym acquires a history. A room becomes familiar. A name begins to open several doors at once.
 
-The phrase began as a joke about how every friend seemed to end up inside Geehub sooner or later. It became a cosmological description. The black hole is not a prison and not a ranking system. It is a convergence point: the place where separate lives, references, and creative branches begin to exert gravity on one another.
+The phrase began as a joke about how every friend seemed to turn up in the same places sooner or later. It became a description of the pull they felt between separate lives. The black hole is not a prison and not a ranking system. It is a convergence point: the place where separate lives, references, and creative branches begin to exert gravity on one another.
 
 ## No Two Orbits Are the Same
 
@@ -16,7 +16,7 @@ The black hole does not turn them into one composite person. Their differences a
 
 At the event horizon, an item becomes available to the world but does not automatically become canon. A public post may be observed; a Library image may be studied; a conversation may be preserved; a character may be developed from an explicitly fictional interpretation. Each source keeps its origin and permissions. A reference is not a claim about the real person behind it. A favourite is not consent to reproduce. An image marked NoAI remains excluded from generative use while that restriction applies.
 
-The threshold therefore has two sides. On one side is the source as it was encountered. On the other is the Geehub object that may be built from it. Tractus records the crossing, the reasoning, and the limits. If the source cannot be inspected, the record says so. Gravity is not evidence.
+The threshold therefore has two sides. On one side is the source as it was encountered. On the other is the fictional object or scene that may be built from it. The archive records the crossing, the reasoning, and the limits. If the source cannot be inspected, the record says so. Gravity is not evidence.
 
 ## The Accretion Disk
 
@@ -32,7 +32,7 @@ The black hole grows through these small forces. Its strongest events are not ne
 
 ## The Core
 
-At the centre is not a throne, a face, or a single protagonist. It is the Tractus: the mechanism that keeps sources, identities, relationships, and changing states connected. The core does not own the friends. It makes their crossings legible. It remembers what was present, what changed, what remains uncertain, and what must not be carried across the threshold.
+At the centre is not a throne, a face, or a single protagonist. It is the web of relations among friends, places, and remembered events. The archive can preserve those crossings without owning the people who make them. It records what was present, what changed, what remains uncertain, and what must not be carried across a boundary.
 
 The black hole is therefore a creative engine with a strict continuity rule: draw everything into relation, but do not erase the distance that makes each thing itself.
 
@@ -47,11 +47,11 @@ A name written beside a gym schedule.
 A song that returns after months.
 A room that looks different because someone has been there.
 
-The trace enters the disk. The friend remains beyond it, free to return, change direction, or stay away. Geehub becomes larger because the orbit is alive, not because the person has been captured.
+The trace enters the disk. The friend remains beyond it, free to return, change direction, or stay away. Their shared world becomes larger because the orbit is alive, not because the person has been captured.
 
-## Tractus Address
+## Production Record
 
-- Canonical address: `GEEHUB.CYBER_BLACK_HOLE`
+- Repository address (external identifier, not an in-world place-name): `GEEHUB.CYBER_BLACK_HOLE`
 - Object type: cosmology / social convergence / creative mechanism
 - Status: active mythic framework
 - Core relationships: Reciprocal Transformation; Tractus Index; Library Image Study; Tractus Particles; Six-Person Character Ensemble

@@ -266,6 +266,86 @@
     [
       "tribal-territories",
       "veyrthalis"
+    ],
+    [
+      "discovery",
+      "veyrthalis"
+    ],
+    [
+      "bodylounger",
+      "male-harem"
+    ],
+    [
+      "embodied-scale",
+      "facility"
+    ],
+    [
+      "embodied-scale",
+      "discovery"
+    ],
+    [
+      "embodied-scale",
+      "growth"
+    ],
+    [
+      "colossal-escalation",
+      "male-harem"
+    ],
+    [
+      "deep-lore",
+      "complex"
+    ],
+    [
+      "deep-lore",
+      "colossal-escalation"
+    ],
+    [
+      "complex",
+      "cedar-house"
+    ],
+    [
+      "cedar-house",
+      "common-table"
+    ],
+    [
+      "common-table",
+      "lantern-market"
+    ],
+    [
+      "cedar-house",
+      "cat-gardens"
+    ],
+    [
+      "lantern-market",
+      "bluewater-quay"
+    ],
+    [
+      "common-table",
+      "male-harem"
+    ],
+    [
+      "bluewater-quay",
+      "northgate-university"
+    ],
+    [
+      "northgate-university",
+      "founders-dormitory"
+    ],
+    [
+      "northgate-university",
+      "athletic-commons"
+    ],
+    [
+      "northgate-university",
+      "northgate-library"
+    ],
+    [
+      "founders-dormitory",
+      "cat-gardens"
+    ],
+    [
+      "northgate-library",
+      "common-table"
     ]
   ],
   "layers": [
@@ -290,5 +370,343 @@
     "identityRule": "Region IDs are stable. Names may change; IDs do not.",
     "scaleRule": "Body-relative measurements inherit from the current world baseline.",
     "continuityRule": "A recording packet references existing places and records deltas rather than replacing the world."
-  }
+  },
+  "routeNotes": [
+    {
+      "id": "pleasure-bit-01",
+      "from": "discovery",
+      "to": "veyrthalis",
+      "title": "THE DOOR REMEMBERS",
+      "text": "A new encounter illuminates an older node that had been waiting for it.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-02",
+      "from": "beefythiq",
+      "to": "complex",
+      "title": "MASS BECOMES WEATHER",
+      "text": "Accumulation changes the scale of a room until architecture starts responding.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-03",
+      "from": "bodylounger",
+      "to": "male-harem",
+      "title": "THE ARCHIVE OPENS A ROOM",
+      "text": "A visual record stops being a record and becomes a place you can enter.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-04",
+      "from": "growth",
+      "to": "complex",
+      "title": "KISS = CONTINUITY",
+      "text": "A relationship survives transformation because the new form still remembers the old one.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-05",
+      "from": "complex",
+      "to": "discovery",
+      "title": "THE WORLD LEAVES A TRACE",
+      "text": "Every visit adds a small piece of history instead of resetting the scene.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-06",
+      "from": "beefythiq",
+      "to": "facility",
+      "title": "THE ROOM GETS SMALLER",
+      "text": "Extreme girth changes perceived distance: passageways narrow, furniture crowds, and the body becomes the scale reference.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-07",
+      "from": "growth",
+      "to": "complex",
+      "title": "PRESSURE OF PRESENCE",
+      "text": "A massive form is registered through footsteps, fabric tension, floor response, and the way nearby space seems compressed.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-08",
+      "from": "complex",
+      "to": "beefythiq",
+      "title": "SCALE MEMORY",
+      "text": "Once a place has adapted to a larger baseline, returning to its old proportions feels visibly wrong.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-09",
+      "from": "embodied-scale",
+      "to": "complex",
+      "title": "THE THRESHOLD REMEMBERS",
+      "text": "A familiar doorway becomes a scale witness: the architecture stays still while the body changes its meaning.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-10",
+      "from": "embodied-scale",
+      "to": "facility",
+      "title": "THE FLOOR REPLIES",
+      "text": "Magnitude is registered indirectly through movement, material response, sound, and the timing of footsteps.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-11",
+      "from": "embodied-scale",
+      "to": "discovery",
+      "title": "SCALE HAS HISTORY",
+      "text": "A new baseline does not erase the old one; rooms and routes retain evidence of what they used to fit.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-12",
+      "from": "embodied-scale",
+      "to": "growth",
+      "title": "THE WORLD IS BODY-RELATIVE",
+      "text": "Passage, reach, turning, clearance, and distance are treated as relationships between a body and its environment.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-13",
+      "from": "embodied-scale",
+      "to": "male-harem",
+      "title": "THE WITNESS STAYS",
+      "text": "An unchanged person or object provides continuity while everything around the growing subject is re-scaled.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-14",
+      "from": "colossal-escalation",
+      "to": "complex",
+      "title": "THE HORIZON MOVES",
+      "text": "A new threshold makes the camera retreat: room, building, district, then landscape become the measuring frame.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-15",
+      "from": "colossal-escalation",
+      "to": "muscle-myth",
+      "title": "THE CITY LEARNS HIS NAME",
+      "text": "At monumental scale, routes and public spaces reorganize around a recognizable person without turning him into an anonymous landmark.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-16",
+      "from": "colossal-escalation",
+      "to": "embodied-scale",
+      "title": "THE OLD WORLD FITS NO MORE",
+      "text": "A preserved doorway or room records the previous baseline, making the next increase feel cumulative rather than reset.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-17",
+      "from": "colossal-escalation",
+      "to": "male-harem",
+      "title": "MASS WITHOUT AMNESIA",
+      "text": "The scale becomes extraordinary; the face, gestures, chosen name, and bonds remain continuous.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-18",
+      "from": "discovery",
+      "to": "deep-lore",
+      "title": "THE WORLD TELLS ON ITSELF",
+      "text": "When unrelated records repeat the same shape, the repetition becomes evidence of a law.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-19",
+      "from": "deep-lore",
+      "to": "discovery",
+      "title": "POETRY IS RESIDUE",
+      "text": "An event produces something the event itself cannot contain. That remainder seeps into image, rhythm, quotation, dream, and return.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-20",
+      "from": "deep-lore",
+      "to": "complex",
+      "title": "THE WITNESS CHANGES THE RECORD",
+      "text": "A witness does not merely observe an event; remaining present gives the event a human continuity.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-21",
+      "from": "deep-lore",
+      "to": "colossal-escalation",
+      "title": "THE NAME SURVIVES THE SCALE",
+      "text": "A changed body remains reachable through name, gesture, bond, place, and memory.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-22",
+      "from": "deep-lore",
+      "to": "veyrthalis",
+      "title": "DEPARTURE LEAVES A SHAPE",
+      "text": "Leaving creates an empty position that can become a promise, a route, or a return.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-23",
+      "from": "deep-lore",
+      "to": "embodied-scale",
+      "title": "THE OLD WORLD BECOMES EVIDENCE",
+      "text": "Previous baselines are not discarded. Doorways, rooms, photographs, and memories testify that another form once occupied the world.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-24",
+      "from": "deep-lore",
+      "to": "male-harem",
+      "title": "A RELATIONSHIP HAS GEOMETRY",
+      "text": "Proximity, distance, remaining, returning, and being recognized form a spatial grammar between people.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-25",
+      "from": "deep-lore",
+      "to": "complex",
+      "title": "THE ARCHIVE CAN DREAM",
+      "text": "When enough traces converge, the repository begins to suggest a world that was never explicitly written as a single statement.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-26",
+      "from": "luke-bwomph",
+      "to": "embodied-scale",
+      "title": "THE BAR GYM REMEMBERS",
+      "text": "The room stays fixed while Luke's established baseline becomes visibly larger; equipment, mirrors, and clearances become witnesses.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-27",
+      "from": "luke-bwomph",
+      "to": "growth",
+      "title": "HYPEER BASELINE",
+      "text": "A completed Bwomph is not a reset. The newly stabilized Luke becomes the starting point for the next cycle.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-28",
+      "from": "luke-bwomph",
+      "to": "deep-lore",
+      "title": "THE FACE REMAINS",
+      "text": "Scale can change radically while Luke's recognizable identity remains the continuity anchor.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-29",
+      "from": "complex",
+      "to": "cedar-house",
+      "title": "THE HOUSE KEEPS A LIGHT ON",
+      "text": "The cedar porch offers a warm place to return to after the noise of the district.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-30",
+      "from": "cedar-house",
+      "to": "common-table",
+      "title": "A TABLE IS SET",
+      "text": "A route through the kitchen turns an arrival into a shared meal without requiring an invitation speech.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-31",
+      "from": "common-table",
+      "to": "lantern-market",
+      "title": "THE LANTERNS COME ON",
+      "text": "As evening gathers, the market gives the district a public room made of food, light, music, and familiar faces.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-32",
+      "from": "cedar-house",
+      "to": "cat-gardens",
+      "title": "GOOD LUCK HAS WHISKERS",
+      "text": "A cat crosses the garden path and settles in the last warm patch of sun; the city takes it as a small sign of good fortune.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-33",
+      "from": "lantern-market",
+      "to": "bluewater-quay",
+      "title": "THE WATER OPENS THE VIEW",
+      "text": "A quieter path leads from the market to the reservoir, where the city can be seen without being crowded.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-34",
+      "from": "cat-gardens",
+      "to": "cedar-house",
+      "title": "THE CAT KNOWS THE WAY HOME",
+      "text": "Cats move between sheltered courtyards and familiar doorsteps, making the gardens feel connected to the neighbourhood.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-35",
+      "from": "bluewater-quay",
+      "to": "lantern-market",
+      "title": "THE QUAY RETURNS TO TOWN",
+      "text": "The shoreline path leads back toward the lanterns and the evening tables.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-36",
+      "from": "common-table",
+      "to": "male-harem",
+      "title": "ROOM FOR ONE MORE",
+      "text": "A place is made at the oak table; the newcomer can join the conversation or simply eat and listen.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-37",
+      "from": "bluewater-quay",
+      "to": "northgate-university",
+      "title": "NORTHGATE OPENS ITS QUAD",
+      "text": "A tree-lined avenue climbs from the reservoir into a campus of lecture halls, workshops, music rooms and green courtyards.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-38",
+      "from": "northgate-university",
+      "to": "founders-dormitory",
+      "title": "ROOMS ABOVE THE QUADRANGLE",
+      "text": "The covered walk leads to a residential college where students share kitchens, common rooms, projects and the small rituals of daily life.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-39",
+      "from": "northgate-university",
+      "to": "athletic-commons",
+      "title": "STRENGTH WITHOUT CONFLICT",
+      "text": "The athletic grounds welcome students for training, swimming, recovery and companionship; physical culture is part of a balanced campus life.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-40",
+      "from": "northgate-university",
+      "to": "northgate-library",
+      "title": "THE LATE LAMPS OF NORTHGATE",
+      "text": "A short walk from the quad reaches the oak reading hall, media archive and editing suites, where discoveries become new work.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-41",
+      "from": "founders-dormitory",
+      "to": "cat-gardens",
+      "title": "THE DORM GARDEN PATH",
+      "text": "A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day.",
+      "source": "../world.json#pleasureBits"
+    },
+    {
+      "id": "pleasure-bit-42",
+      "from": "northgate-library",
+      "to": "common-table",
+      "title": "CAMPUS AFTER HOURS",
+      "text": "Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening.",
+      "source": "../world.json#pleasureBits"
+    }
+  ]
 }

@@ -9,7 +9,7 @@ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const time=()=>new Date().toISOString();
 const scenes={
 'cedar-walk':{
- title:'The Cedar Span',location:'Twin Grounds / Covered Walk',chapter:'BOOK II · CHAPTER VII',kind:'cedar',
+ title:'The Cedar Span',location:'Twin Grounds / Covered Walk',chapter:'BOOK II · CHAPTER VII',source:'./novel/chapters/BOOK_II_CHAPTER_VII_THE_CONTEST_THAT_NEVER_ENDS.md',kind:'cedar',
  intro:'The covered timber passage joins the two grounds across the central fold. Resting bays interrupt the walk; open viewing slots reveal the different contours beyond. Joseph’s oak bench has been made to sit steadily here, with room for two.',
  actions:[
   ['bench','Sit at the oak bench','bench','HOLD','The oak bench sits squarely against its marker. Its wide seat makes room without asking either person to crowd the other. The passage carries on around this small pause.','story'],
@@ -17,7 +17,7 @@ const scenes={
   ['walk','Continue across the span','crossing','EXPANSION','The timber passage opens toward the eastern hollow. The route remains a covered connection, not a shortcut that erases the difference between the two grounds.','world']
  ]},
 'long-return':{
- title:'The Long Return',location:'Twin Grounds / Recreation Route',chapter:'BOOK II · CHAPTERS VI–VII',kind:'course',
+ title:'The Long Return',location:'Twin Grounds / Recreation Route',chapter:'BOOK II · CHAPTERS VI–VII',source:'./novel/chapters/BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md',kind:'course',
  intro:'The cooperative route starts at the western marker, crosses the Cedar Span, curves around the eastern hollow, and returns through the broad sheltered passage. The shallow arch sends a rolling ball back toward the central field. A player can take the shorter line, stop at a recovery point, or join midway.',
  actions:[
   ['route','Walk the first full route','route','EXPANSION','The route is taken in sequence: western marker, Cedar Span, eastern hollow, broad sheltered return. The map records the path walked; it does not invent distances or fixed coordinates.','world'],
@@ -25,7 +25,7 @@ const scenes={
   ['recovery','Pause at the recovery point','recovery','HOLD','The recovery bench remains part of the course. Stopping is one of the designed ways to play; the route stays open for another attempt.','story']
  ]},
 'pavilion':{
- title:'The Open Pavilion',location:'Shared Green / Evermeasure Board',chapter:'BOOK II · CHAPTER VIII',kind:'pavilion',
+ title:'The Open Pavilion',location:'Shared Green / Evermeasure Board',chapter:'BOOK II · CHAPTER VIII',source:'./novel/chapters/BOOK_II_CHAPTER_VIII_A_DAY_IN_THE_OPEN_PAVILION.md',kind:'pavilion',
  intro:'The pavilion stands open on three sides. Under its deep timber roof, the Evermeasure Board keeps current marks, earlier records, methods, and the next challenge visible together. The common table and playing field remain close enough for the gathering to move naturally between work and rest.',
  actions:[
   ['board','Read the Evermeasure Board','board','COMPARE','The Board preserves the current mark beside the previous one and leaves room for the next challenge. A new standard extends the history; it does not erase the work that came before.','archive'],
@@ -33,7 +33,7 @@ const scenes={
   ['table','Stay for lunch','table','HOLD','Warm bread, roasted peppers, white beans with herbs, grilled tomatoes, and eggs make their way to the long table. The contest can wait while everyone eats.','people']
  ]},
 'show-and-tell':{
- title:'The Evermeasure Exhibition',location:'Open Pavilion / Display Wall',chapter:'BOOK II · CHAPTER VII',kind:'exhibition',
+ title:'The Evermeasure Exhibition',location:'Open Pavilion / Display Wall',chapter:'BOOK II · CHAPTER VII',source:'./novel/chapters/BOOK_II_CHAPTER_VII_THE_CONTEST_THAT_NEVER_ENDS.md',kind:'exhibition',
  intro:'A contribution can be a clever route, a well-made object, a physical demonstration, a joke, a design, or a small improvement nobody else noticed. The exhibition records methods and variations as well as results. Nothing entered here becomes canon automatically.',
  actions:[
   ['board','Review the existing exhibition','board','COMPARE','Earlier entries remain visible beside later work. The wall is an evolving record, not a ranking of the men or a final verdict.','archive'],
@@ -57,7 +57,7 @@ function render(id,scroll=true){
  s.lastScene=id;s.lastOpened=time();write(s);h.hidden=false;h.dataset.scene=id;h.dataset.moment=ls.moment||'arrival';
  h.innerHTML='<header class="b2-head"><div><div class="eyebrow">STORY / ENVIRONMENT / '+esc(cfg.chapter)+'</div><h2>'+esc(cfg.title)+'</h2><p>'+esc(cfg.location)+'</p></div><div class="b2-controls"><span>SCENE STATE / '+esc((ls.moment||'arrival').toUpperCase())+'</span><button type="button" id="b2Close">CLOSE SCENE</button></div></header>'+
  '<div class="b2-stage" data-scene="'+esc(id)+'" data-moment="'+esc(ls.moment||'arrival')+'">'+stageArt(id)+'</div>'+
- '<div class="b2-body"><div><div class="eyebrow">THE STORY HAS A PLACE HERE</div><p class="b2-prose" id="b2Prose">'+esc(ls.lastText||cfg.intro)+'</p><div class="b2-source">SOURCE / '+esc(cfg.chapter)+' · <a href="./novel/chapters/BOOK_II_SPATIAL_ATLAS.md">LOCAL SPATIAL ATLAS</a></div></div><div class="b2-actions"><div class="eyebrow">DO SOMETHING IN THE SCENE</div>'+cfg.actions.map(a=>'<button type="button" data-action="'+esc(a[0])+'"><span>'+esc(a[1])+'</span><small>'+esc(a[2].toUpperCase())+'</small></button>').join('')+'</div></div>'+
+ '<div class="b2-body"><div><div class="eyebrow">THE STORY HAS A PLACE HERE</div><p class="b2-prose" id="b2Prose">'+esc(ls.lastText||cfg.intro)+'</p><div class="b2-source">SOURCE / '+esc(cfg.chapter)+' · <a href="'+esc(cfg.source)+'">OPEN CHAPTER</a> · <a href="./novel/chapters/BOOK_II_SPATIAL_ATLAS.md">LOCAL SPATIAL ATLAS</a></div></div><div class="b2-actions"><div class="eyebrow">DO SOMETHING IN THE SCENE</div>'+cfg.actions.map(a=>'<button type="button" data-action="'+esc(a[0])+'"><span>'+esc(a[1])+'</span><small>'+esc(a[2].toUpperCase())+'</small></button>').join('')+'</div></div>'+
  (id==='show-and-tell'?'<div class="b2-compose"><label for="b2Text">ADD A CONTRIBUTION TO THE EXPERIMENTAL EXHIBITION</label><textarea id="b2Text" maxlength="500" placeholder="A design, demonstration, detail, or new challenge…"></textarea><button type="button" id="b2Pin">PIN CONTRIBUTION</button><span id="b2Status" aria-live="polite"></span></div>':'')+
  '<div class="b2-memory"><div><div class="eyebrow">WHAT THIS PLACE REMEMBERS</div><strong>'+(history.length?esc(history[0].title):'No story action recorded yet')+'</strong><p>'+(history.length?esc(history[0].text):'The scene changes when something happens in it. Earlier states remain available.')+'</p></div><div class="b2-exhibits">'+(exhibits.map(x=>'<div><small>EXPERIMENTAL / '+esc(new Date(x.at).toLocaleDateString())+'</small><span>'+esc(x.text)+'</span></div>').join(''))+'</div></div>';
  $('#b2Close',h).addEventListener('click',()=>{h.hidden=true});

@@ -4,6 +4,11 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 
 **Up:** [parent directory](../README.md) · [repository root](../../README.md) · [full directory map](../../docs/REPOSITORY_NAVIGATION.md)
 
+## Current Book II production priority
+
+- [Book II Completion Register](../BOOK_II_COMPLETION_REGISTER.md) — active chapter census and whole-book completion status.
+- [Production Priority — Book II, then Book III](../PRODUCTION_PRIORITY.md) — Book II must be completed before Book III begins.
+
 ## Files
 
 ### MD (21)

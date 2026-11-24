@@ -161,6 +161,24 @@ The other Veyrthalis files inspected in this pass showed no repeated section hea
 
 The titles **DUH!** (`CHAPTER_LXXXVIII_DUH.md`) and **DUH DUH!** (`CHAPTER_LXXXIX_DUH_DUH.md`) are intentional, character-originated titles, not placeholder text. Gabe's spontaneous “Duh!” becomes a shared joke with Dorian; the second title is then pinned to the print-room board as the name of their next working session. Preserve the wording and its origin. Do not replace these titles with generic labels.
 
+## Arthur, Cyber Black Hole, and remaining production-language boundaries
+
+### Arthur and the Fingerlands
+
+`lore/ARTHUR_AND_FINGERLANDS.md` formerly made Arthur both a fictional hero and “the GEEHUB metascript,” then embedded direct instructions for repository editing in his character record. This mixed in-world knowledge with the external production workflow. The production method has been preserved in [Arthur as an External Growth Metaphor](ARTHUR_EXTERNAL_GROWTH_METHOD.md). Arthur's source record now describes him as the first hero of the Fingerlands and states that the separate production method is not part of his life or awareness inside the story. The Fingerlands retains its own geography.
+
+### The Cyber Black Hole
+
+`lore/CYBER_BLACK_HOLE_OF_GEEHUB.md` formerly treated Geehub as the wider world and described the Cyber Black Hole as a force at its centre. The story now says the friends call the gathering force at the centre of their shared world **the Cyber Black Hole**. The phenomenon has a name from its inhabitants; the surrounding world does not receive an external name. The central relation is described as a web of friends, places, and remembered events, not as “the Tractus” inside the story. The remaining `GEEHUB.CYBER_BLACK_HOLE` is explicitly marked as an external repository identifier.
+
+### Other production-language boundaries
+
+- `lore/AI_COACH.md`: removed GEEHUB from the coach's in-world training environment description.
+- `lore/BEGINNING_OF_THE_DIMENSION.md`: changed “independent GEEHUB boards” to “independent story-world boards.”
+- `lore/CHAT_MEMORY_NOVEL.md`: the production archive now preserves the story as history rather than personifying GEEHUB as its reader. Its GEEHUB title remains a file/production label, not an in-world setting-name.
+- `novel/CONTINUATION_REGISTER_2026-11-20.md`: replaced the stale Northgate Chapter LXXXIII link and “boy's father” description with the renamed adult visitor chapter.
+- `novel/CHAPTER_XXXII_THE_MEMORY_THAT_LOOKED_BACK.md`: an archived item previously described as “a child's drawing” is now “a small, careful drawing.” The line records the object, not a living character, and no unsupported maker is assigned.
+
 ## Audit method for subsequent passes
 
 1. Identify the manuscript and local continuity before editing a scene.

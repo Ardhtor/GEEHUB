@@ -3,30 +3,30 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#090c0e">
-<title>GEEHUB // IMAGINE</title>
+<title>◉</title>
 <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="./imagine-studio.css">
 </head>
 <body class="imagine-body">
 <main class="imagine-shell">
 <header class="imagine-top">
-  <a class="imagine-back" href="../../index.html">← GEEHUB / WORLD</a>
-  <div class="imagine-mark">IMAGINE <span>ENGINE 01</span></div>
+  <a class="imagine-back" href="../../index.html" aria-label="Back">←</a>
+  <div class="imagine-mark" aria-hidden="true">◉</div>
   <div class="imagine-status"><i id="workerLight"></i><span id="workerStatus">WORKER CHECKING</span></div>
 </header>
 <section class="imagine-layout">
   <aside class="imagine-controls">
-    <div class="imagine-kicker">SHORT-FORM VIDEO SYNTHESIS</div>
-    <h1>Make a moment.</h1>
-    <p class="imagine-intro">Describe the action. Give it a first frame if you have one. GEEHUB builds a six-second moving shot and files the result.</p>
+    
+    
+    
     <div class="imagine-mode">
       <button class="mode active" data-mode="text" type="button">TEXT TO VIDEO</button>
       <button class="mode" data-mode="image" type="button">IMAGE TO VIDEO</button>
     </div>
-    <div class="naive-row"><div><b>NAIVE ACTION</b><small>Give it a simple idea. GEEHUB handles the shot.</small></div><button id="naiveToggle" class="naive-toggle active" type="button" aria-pressed="true">ON</button></div>
+    <div class="naive-row"><div><b>NAIVE ACTION</b></div><button id="naiveToggle" class="naive-toggle active" type="button" aria-pressed="true">ON</button></div>
     <label class="imagine-label" for="prompt">WHAT HAPPENS?</label>
     <textarea id="prompt" rows="5" maxlength="1800" placeholder="A man walks through the woods. A tree bends in the wind. A room slowly changes."></textarea>
-    <div class="prompt-hint">Plain language is enough. One action is enough.</div>
+    
     <button id="loadTealTitan" class="preset-button" type="button">LOAD PROJECT / THE TEAL TITAN</button>
     <a class="project-reference" href="../../production/projects/teal-titan-golds-on-5th/README.md">OPEN PROJECT RECORD ↗</a>
     <section id="projectPanel" class="project-panel" hidden>
@@ -46,19 +46,19 @@
       <label>ASPECT RATIO<select id="aspect"><option value="16:9">16:9 Widescreen</option><option value="9:16">9:16 Portrait</option><option value="1:1">1:1 Square</option><option value="4:3">4:3 Classic</option></select></label>
       <label>OUTPUT<select id="resolution"><option value="420p" selected>420p · GEEHUB</option></select></label>
     </div>
-    <div class="duration-row"><span>DURATION</span><strong>00:06</strong><span class="duration-lock">FIXED SIX-SECOND PASS</span></div>
-    <div class="audio-row"><div><b>GENERATED SOUND</b><small>Atmosphere, action sounds and speech when appropriate</small></div><label class="switch"><input id="audio" type="checkbox" checked><span></span></label></div>
+    <div class="duration-row"><span>DURATION</span><strong>00:06</strong></div>
+    <div class="audio-row"><div><b>GENERATED SOUND</b></div><label class="switch"><input id="audio" type="checkbox" checked><span></span></label></div>
     <div class="model-row"><span>GENERATION MODEL</span><strong>IMAGINE 1.5 LITE</strong></div>
     <button id="generate" class="generate-button" type="button"><span>GENERATE VIDEO</span><i>↗</i></button>
-    <div class="cost-note">Provider render: 480p · 6 sec. GEEHUB transcodes to 420p after generation.</div>
+    
   </aside>
   <section class="imagine-stage">
     <div class="stage-head"><span>OUTPUT MONITOR</span><span id="stageMeta">16:9 / 420P / 06 SEC</span></div>
     <div class="stage-screen" id="stageScreen">
       <div class="stage-placeholder" id="stagePlaceholder">
         <div class="aperture"><span></span><span></span><span></span></div>
-        <div class="placeholder-title">A place for the next moment</div>
-        <div class="placeholder-sub">YOUR GENERATED CLIP WILL APPEAR HERE</div>
+        
+        
       </div>
       <video id="resultVideo" controls playsinline hidden></video>
       <div id="renderOverlay" class="render-overlay" hidden>
@@ -73,14 +73,15 @@
     </div>
     <div class="imagine-history">
       <div class="history-head"><span>SHOT HISTORY</span><span id="historyCount">0 CLIPS</span></div>
-      <div id="historyList" class="history-list"><div class="history-empty">Completed shots will collect here.</div></div>
+      <div id="historyList" class="history-list"><div class="history-empty" aria-label="Empty">◌</div></div>
     </div>
   </section>
 </section>
-<footer class="imagine-footer"><span>GEEHUB / IMAGINE ENGINE</span><span>SIMULATION BECOMES MOTION · MOTION BECOMES AN ARTIFACT</span><a href="../../docs/DROPBOX_PRODUCTION_PIPELINE.md">PRODUCTION PIPELINE ↗</a><a href="./source-review.html?project=teal-titan-golds-on-5th">SOURCE REVIEW ↗</a><a href="../../hub/gee-studio.html">LOCAL 3D STUDIO ↗</a></footer>
+<footer class="imagine-footer"><a href="../../docs/DROPBOX_PRODUCTION_PIPELINE.md">PRODUCTION PIPELINE ↗</a><a href="./source-review.html?project=teal-titan-golds-on-5th">SOURCE REVIEW ↗</a><a href="../../hub/gee-studio.html">LOCAL 3D STUDIO ↗</a></footer>
 </main>
 <script src="../artifacts/dropbox-production.js"></script>
 <script src="./presets/teal-titan-golds-on-5th.js"></script>
 <script src="./imagine-studio.js"></script>
 </body>
 </html>
+<style>.imagine-intro,.imagine-kicker,.prompt-hint,.naive-row small,.audio-row small,.duration-lock,.cost-note,.placeholder-title,.placeholder-sub{display:none!important}.imagine-mark{font-size:0!important}.imagine-mark:after{content:"◉";font-size:18px}.imagine-footer{justify-content:flex-end}.imagine-back{font-size:0}.imagine-back:after{content:"←";font-size:16px}</style>

@@ -18,9 +18,9 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | VI | The Game Between the Houses | 3,055 | Existing text; geography and relationship review pending |
 | VII | The Contest That Never Ends | 2,552 | Existing text; Evermeasure and relationship review pending |
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter on 24 November; expansion and edit pending |
-| IX | The Narrow Turn | 3,565 | New working chapter on 24 November; expansion and edit pending |
+| IX | The Narrow Turn | 4,162 | New working chapter on 24 November; expansion and edit pending |
 
-**Current narrative baseline:** approximately 21,755 words across nine chapters. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
+**Current narrative baseline:** approximately 22,352 words across nine chapters. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
 
 ## Sequence and sources
 

@@ -2,7 +2,7 @@
 
 ## Identity
 
-Tractus is not a second world engine beside GEEHUB. **Tractus is the continuity model through which GEEHUB's existing world, narrative, memory, interface, and production systems remain connected.** GEEHUB is the repository and living workspace; Tractus is the rule by which its parts inherit from one another and contribute to a shared evolving state.
+Tractus is not a second world engine beside GEEHUB. **Tractus is the continuity model through which GEEHUB's existing records, narratives, memory, interfaces, and production systems remain connected.** GEEHUB is the external repository and living workspace; Tractus is the rule by which its parts inherit from one another and contribute to a shared evolving state. The Seth and Nick narrative branch gives this continuity architecture a lived-world expression, but “Tractus” as a documentation term does not by itself establish the name the inhabitants have given their wider world. In-world place names and any shared world-name must be established by scenes.
 
 This contract is the canonical bridge between the project identity in `README.md`, the two project registries, the event-inscription system, the autonomous narrative writer, the world state, and the artifact ledger.
 

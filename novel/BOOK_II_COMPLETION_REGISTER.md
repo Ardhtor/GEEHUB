@@ -10,15 +10,15 @@ Narrative word counts exclude the separate continuity record at the end of each 
 
 | Chapter | Title | Narrative words | Status |
 | --- | --- | ---: | --- |
-| I | The Lost Country | 4,609 | First expansion pass completed 24 November; full-book continuity and final edit pending |
-| II | The Keepers of the Old Trail | 4,162 | First expansion pass completed 24 November; full-book continuity and final edit pending |
-| III | The Place That Moved | 4,644 | First expansion pass completed 24 November; whole-book continuity and final edit pending |
-| IV | The Promises That Keep | 3,794 | First expansion pass completed 24 November; relationship continuity and final edit pending |
-| V | Four Mansions | 4,877 | First expansion pass completed 24 November; residential and relationship continuity review pending |
-| VI | The Game Between the Houses | 4,091 | First expansion pass completed 24 November; geography and relationship continuity review pending |
-| VII | The Contest That Never Ends | 2,552 | Existing text; Evermeasure and relationship review pending |
-| VIII | A Day in the Open Pavilion | 2,490 | New working chapter on 24 November; expansion and edit pending |
-| IX | The Narrow Turn | 4,162 | New working chapter on 24 November; expansion and edit pending |
+| I | The Lost Country | 4,444 | First expansion and ending-compression passes; whole-book continuity and final edit pending |
+| II | The Keepers of the Old Trail | 4,098 | First expansion and ending-compression passes; whole-book continuity and final edit pending |
+| III | The Place That Moved | 4,486 | First expansion and ending-compression passes; whole-book continuity and final edit pending |
+| IV | The Promises That Keep | 3,725 | First expansion and ending-compression passes; relationship continuity and final edit pending |
+| V | Four Mansions | 4,763 | First expansion and ending-compression passes; residential and relationship review pending |
+| VI | The Game Between the Houses | 3,947 | First expansion and ending-compression passes; geography and relationship review pending |
+| VII | The Contest That Never Ends | 2,274 | Ending-compression pass; Evermeasure and relationship review pending |
+| VIII | A Day in the Open Pavilion | 2,287 | Working chapter; ending-compression pass; expansion and full edit pending |
+| IX | The Narrow Turn | 3,877 | Working chapter; ending-compression pass; expansion and full edit pending |
 
 **Current narrative baseline:** approximately 35,381 narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
 
@@ -42,20 +42,21 @@ Chapter IX is now present as a working draft. No concluding chapter is registere
 
 ## Dropbox Paper production mirrors
 
-The following Paper documents were read back after synchronization and their Markdown bodies match the corresponding GitHub chapter source exactly. Revisions are current as of 24 November 2026.
+All nine chapter mirrors were read back after synchronization. Their Markdown bodies match the corresponding GitHub chapter sources. Revisions are current as of 24 November 2026.
 
 | Chapter | Dropbox Paper mirror | Paper revision | GitHub source blob |
 | --- | --- | ---: | --- |
-| I — The Lost Country | [Open in Dropbox](https://www.dropbox.com/scl/fi/gpx1ba1ijqb6qhfv7igop/Book-II-Chapter-I_-The-Lost-Country.paper?dl=0) | 1 | `6046e63dc0f749f0caeab24d9f2e7407fb143a90` |
-| II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 2 | `cefe0de1ed3ce967b441766693b00dc90cd66c88` |
-| III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?dl=0) | 2 | `70de36cdf943b591208ab0ca2d9dd82a75d1b979` |
-| IV — The Promises That Keep | [Open in Dropbox](https://www.dropbox.com/scl/fi/64o1zoq6rm7gw06iascz0/Book-II-Chapter-IV_-The-Promises-That-Keep.paper?dl=0) | 1 | `e071f970e3b353cb32ff48067c6fe50774db60dc` |
-| V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?dl=0) | 2 | `1bd08c1b52d38df531ff7d40933e8a2af99bad05` |
-| VI — The Game Between the Houses | [Open in Dropbox](https://www.dropbox.com/scl/fi/pj1ayynqqr8wgne9ogf4u/Book-II-Chapter-VI_-The-Game-Between-the-Houses.paper?dl=0) | 2 | `d3efe404cda13eeac0336545db1a785db784105d` |
-| VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 2 | `d1e1d17fdb467570042bcf1a60c0f3f573bbb579` |
-| IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 1 | `d9be1ad55e028e2cd388dd43386b0b0ceb99bb42` |
+| I — The Lost Country | [Open in Dropbox](https://www.dropbox.com/scl/fi/gpx1ba1ijqb6qhfv7igop/Book-II-Chapter-I_-The-Lost-Country.paper?dl=0) | 2 | `a91901b1ab8ca5b85b8c09956e8a838f60aff9f7` |
+| II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 3 | `0ef434c0b1d5b1c2ddd9db60ea892666237188dc` |
+| III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?dl=0) | 3 | `5f6498b354af34b49fe02d8c2cb35509a4c0ecb2` |
+| IV — The Promises That Keep | [Open in Dropbox](https://www.dropbox.com/scl/fi/64o1zoq6rm7gw06iascz0/Book-II-Chapter-IV_-The-Promises-That-Keep.paper?dl=0) | 2 | `bd85a9bca132296bd7e428b72a58905ae4c4e164` |
+| V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?rlkey=wtw4jngbq18h1eov3ov1vvhhg&dl=0) | 2 | `1bd08c1b52d38df531ff7d40933e8a2af99bad05` |
+| VI — The Game Between the Houses | [Open in Dropbox](https://www.dropbox.com/scl/fi/eakqhvj3umson5vqvbiz2/Book-II-Chapter-VI_-The-Game-Between-the-Houses-1.paper?rlkey=ys3jabjo22qumf94pc8hkldc5&dl=0) | 2 | `e7b3a3303c9009d36d58343777944d5131b3ca22` |
+| VII — The Contest That Never Ends | [Open in Dropbox](https://www.dropbox.com/scl/fi/hcjkee5qazq4fghe1b5nj/Book-II-Chapter-VII_-The-Contest-That-Never-Ends.paper?rlkey=ndsz2zhqjx8jidfd157ksvfut&dl=0) | 1 | `a8684a2664f533cbfb186d5a6326bcf8896b16aa` |
+| VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 3 | `d36fa5711621a5e062e8c7820d950bade48348fb` |
+| IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 2 | `1c4ef8c06bda7a9475d6318f5d7009bbecbc1a03` |
 
-Chapter VII remains to be mirrored after its in-place revision pass is completed. GitHub remains the canonical source; Dropbox Paper is the live production and reading surface. A mirror must be refreshed and verified after its source chapter changes. A second Chapter VI Paper file with a `(1)` suffix is an older revision 1 variant; the unsuffixed revision 2 is the canonical mirror because its body matches GitHub. The older variant is preserved as an alternate record, not deleted.
+GitHub remains the canonical source; Dropbox Paper is the production and reading surface. Refresh and verify a mirror after every subsequent source edit.
 
 ## Whole-book threads to carry
 

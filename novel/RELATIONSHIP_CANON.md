@@ -72,3 +72,12 @@ The new branch does not erase established relationship continuity. Gabe's existi
 Ian Kistner is newly introduced by name in this branch. At present, no biography, appearance, voice, residence, chronology, or prior relationship history is established beyond the user-directed premise that he belongs in a love-triangle story with Gabe and Kirk. Keep those fields open until the user or a developed scene supplies them.
 
 A new relationship chapter must be checked against every book and existing pairwise record. Record where it has a direct scene consequence, where it creates only a continuity guardrail, and where no connection currently exists. Do not manufacture crossovers or make distant characters omniscient.
+
+
+## Book II — Michael Brock and Kirk
+
+Michael Brock is an adult man with very large muscles. He and Kirk share a **secret, gentle relationship**. The relationship is established, but its reason for remaining secret, duration, exact terms, and any exclusivity arrangement remain open. In Book II, keep it private to Michael and Kirk unless a later scene establishes otherwise. Do not turn the relationship into gossip, a reveal staged for spectacle, or a means of proving that Michael has won over another man. His muscular presence may be publicly admired within the Evermeasure culture; his connection with Kirk remains a different, quieter part of their lives. Kirk's agency and the privacy of both participants must remain intact.
+
+## Book II — the Evermeasure
+
+The Evermeasure is the enduring competitive culture of Book II. The men enjoy showing what they can do, answering another man's achievement, and raising the standard through one-upmanship. This is a recursive social practice rather than a final tournament: each win becomes a record, each record becomes a new starting point, and the next challenge may shift to a different skill or form of display. It may be playful, affectionate, flirtatious, or occasionally bruising, but it cannot make another man's affection, attention, body, or privacy into a prize. See [The Evermeasure — Competitive Doctrine](chapters/BOOK_II_COMPETITIVE_DOCTRINE.md).

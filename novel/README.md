@@ -12,7 +12,7 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 
 ## Files
 
-### MD (54)
+### MD (55)
 
 - [`BATTLE_HEAVEN_AND_SEA_EXPERIENCE.md`](./BATTLE_HEAVEN_AND_SEA_EXPERIENCE.md)
 - [`BATTLE_HEAVEN_AND_SEA_SHOTLIST.md`](./BATTLE_HEAVEN_AND_SEA_SHOTLIST.md)
@@ -68,6 +68,7 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 - [`UNRELATED_NARRATION_RULE.md`](./UNRELATED_NARRATION_RULE.md)
 - [`VISUAL_EXPERIENCES_THE_CONVERGENCE.md`](./VISUAL_EXPERIENCES_THE_CONVERGENCE.md)
 - [`WORLDS.md`](./WORLDS.md)
+- [`WORLDS_ENVIRONMENT_PULSE_ARCHIVE.md`](./WORLDS_ENVIRONMENT_PULSE_ARCHIVE.md) — preserved structured environment history, separate from reader-facing narrative.
 
 
 ## Whole-manuscript expansion

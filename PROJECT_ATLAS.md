@@ -68,3 +68,7 @@ The machine-readable project registry is now present in both `projects.json` (th
 ## Detailed Maps
 
 GEEHUB has two complementary spatial scopes. `world.json` and `hub/spatial-world.json` define the repository-wide planning map: 24 named territories, 24 canonical coordinate records, and 47 authored route edges connecting all 24 territories. The 42 route notes are preserved from `world.json#pleasureBits`, so the map's new connections come from existing relationship material rather than invented paths. `geo-cyberspace/detailed-maps.json` defines four scales: WORLD, KINGDOM, VEYRT (the Veyrthalis Expanse), and COMPLEX, with 8 landmarks, 6 regions, and 8 layer definitions. `worldspace/maps.html` and `worldspace/maps.js` provide the geographic navigation app, joining the canonical planning graph, local map corpus, and current encounter state. The root console's `engine/story-atlas.js` remains the narrative-position map with its live story pin and route preview. Unauthored local feature classes, including detailed character placements, remain explicitly unplaced rather than inferred.n
+
+## Dropbox production corpus
+
+The verified Dropbox/GitHub boundary and the current status of the active `/GEEHUB` workspace are recorded in the [Dropbox Corpus Map](docs/DROPBOX_CORPUS_MAP.md). Use it before synchronizing or reorganizing production folders. The active workspace, older copy, and dated recovery snapshot remain distinct; snapshots are preserved until file-level comparison establishes what can safely be carried forward.

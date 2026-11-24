@@ -153,6 +153,14 @@ One background figure in `LOW_LEDGER_THE_FIRST_BELL.md` was described as “a ch
 
 The other Veyrthalis files inspected in this pass showed no repeated section headings, no GEEHUB/Geehub setting names, and no child-coded cast references in their story text. The editorial style guide and Joseph/Kirk index retain GEEHUB only in explicit production-history or style-guide contexts. The three repeated-section corrections and adult-cast change are now committed; this check covers the 17 Markdown files in `lore/veyrthalis/`, not every branch of the repository.
 
+## Northgate sequence: age, naming, and title corrections
+
+`CHAPTER_LXXXIII_THE_BOY_AT_THE_REDWOOD_ENTRANCE.md` depicted a minor separated from his father. The scene is now about an adult visitor, titled **The Young Man at the Redwood Entrance**. He is reunited with his father through the same careful staff response; the chapter's focus on safe wayfinding, respectful assistance, privacy, and institutional responsibility is preserved. The file was renamed to `CHAPTER_LXXXIII_THE_YOUNG_MAN_AT_THE_REDWOOD_ENTRANCE.md`, and the chapter index was updated.
+
+`CHAPTER_LXXVII_THE_COACHS_SON.md` does not require an age correction: Travis is explicitly a young adult man in the present scene. References to his father teaching him to ride a bicycle or attending a school performance are retrospective family memories, not additional present-day child characters.
+
+The titles **DUH!** (`CHAPTER_LXXXVIII_DUH.md`) and **DUH DUH!** (`CHAPTER_LXXXIX_DUH_DUH.md`) are intentional, character-originated titles, not placeholder text. Gabe's spontaneous “Duh!” becomes a shared joke with Dorian; the second title is then pinned to the print-room board as the name of their next working session. Preserve the wording and its origin. Do not replace these titles with generic labels.
+
 ## Audit method for subsequent passes
 
 1. Identify the manuscript and local continuity before editing a scene.

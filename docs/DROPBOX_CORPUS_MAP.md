@@ -16,7 +16,7 @@ The immediate children of `/GEEHUB` include `AI`, `chapters`, `worlds`, `product
 Selected direct-child checks on 24 November found:
 
 - `/GEEHUB/AI` contains the GEEHUB AI Build 0.1 specification, Presence Charter, Cross-Book Chapter Influence Protocol, Production Priority Paper, Live Wand Session 001, the Book II Chapter VIII Paper companion, the Ian Kistner/Gabe/Kirk relationship branch, and the *God as an Eclectic Mouse* three-book motif.
-- `/GEEHUB/chapters` contains the Book II Chapter I, Chapter II, and Chapter IX Paper mirrors, alongside other independent story documents. Chapter VIII is stored under `/GEEHUB/AI`.
+- `/GEEHUB/chapters` contains the Book II Chapter I, Chapter II, Chapter III, Chapter IV, and Chapter IX Paper mirrors, alongside other independent story documents. Chapter VIII is stored under `/GEEHUB/AI`.
 - `/GEEHUB/production` contains `assets`, `scenes`, `recipes`, `projects`, and `references`, plus the Visual Taste & Comic Production System Paper document.
 - `/GEEHUB/maps`, `/GEEHUB/corpus`, and `/GEEHUB/state` were empty in the direct-child checks. Their GitHub counterparts are active; do not mistake these Dropbox folders for populated mirrors.
 - `/GEEHUB/DREAM_MATERIAL` exists and was recently modified, but its contents were not inspected in this pass.

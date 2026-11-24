@@ -2717,3 +2717,11 @@ SETH: A line becomes visible between THE COMMON TABLE and NORTHGATE LIBRARY. The
 NICK: Students drift from the library to the Common Table for supper, carrying conversations from the reading rooms into the evening. The current place remains visible; the route is open, but nobody has crossed it yet.
 
 Rule: arrival activates aftermath
+
+### Pulse 352 — CROSSING / NORTHGATE LIBRARY / 2026-11-24T15:13:42.121324+00:00
+
+NICK: The world crosses the route from THE COMMON TABLE into NORTHGATE LIBRARY. The earlier place remains in the history; this is a crossing, not a replacement.
+
+SETH: An oak-galleried university library with reading rooms, archives, editing suites, sound collections and late-night study. Relation carried forward: CAMPUS AFTER HOURS.
+
+Rule: meaningful change becomes an outward-facing signal

@@ -2789,3 +2789,11 @@ NICK: The world crosses the route from THE COMMON TABLE into NORTHGATE LIBRARY. 
 SETH: An oak-galleried university library with reading rooms, archives, editing suites, sound collections and late-night study. Relation carried forward: CAMPUS AFTER HOURS.
 
 Rule: meaningful change becomes an outward-facing signal
+
+### Pulse 361 — ATMOSPHERE / NORTHGATE LIBRARY / 2026-11-24T15:59:08.908767+00:00
+
+SETH: Northgate Library opens into an old reading hall of oak galleries, green-shaded lamps and deep window seats. Long tables are marked by generations of study, and the lower floor holds editing suites, scanning stations and a sound library.
+
+NICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.
+
+Rule: approach extends geography

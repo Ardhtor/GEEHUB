@@ -1,1 +1,151 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GEEHUB // DETAILED MAPS</title><style>html,body{margin:0;height:100%;background:#07090b;color:#dce2e8;font:12px system-ui,sans-serif}body{padding:24px}button{background:#11161b;color:#c8d0d8;border:1px solid #303740;padding:8px;margin:3px;cursor:pointer}.active{background:#dce2e8;color:#080a0d}pre{white-space:pre-wrap;color:#9faab5}#map{height:65vh;border:1px solid #252b32;background:radial-gradient(circle at 50% 45%,#303b39,#0a0d0f 68%);position:relative;overflow:hidden}.terrain{position:absolute;inset:8%;transform:rotateX(58deg) rotateZ(-8deg);border:1px solid #737b72;background:repeating-linear-gradient(0deg,transparent 0 24px,#737b72 25px 26px),repeating-linear-gradient(90deg,transparent 0 24px,#737b72 25px 26px);box-shadow:0 0 80px #000 inset}.marker{position:absolute;width:9px;height:9px;border-radius:50%;background:#e1e4e6;box-shadow:0 0 12px #fff}.note{color:#7f8a95}</style></head><body><div class="note">GEEHUB / GEO-CYBERSPACE</div><h1>DETAILED MAPS</h1><div id="scale"></div><div id="layers"></div><div id="map"><div class="terrain" id="terrain"></div></div><pre id="detail">Select a scale or place.</pre><script type="module">const d=await fetch('../geo-cyberspace/detailed-maps.json').then(r=>r.json());let scale='KINGDOM';const layers=new Set(d.layers.map(x=>x.id));const S=document.querySelector('#scale'),L=document.querySelector('#layers'),M=document.querySelector('#terrain'),D=document.querySelector('#detail');function draw(){S.innerHTML=d.scales.map(x=>'<button class="'+(x.id===scale?'active':'')+'" data-s="'+x.id+'">'+x.name+'</button>').join('');L.innerHTML=d.layers.map(x=>'<button class="'+(layers.has(x.id)?'active':'')+'" data-l="'+x.id+'">'+x.label+'</button>').join('');document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{scale=b.dataset.s;draw()});document.querySelectorAll('[data-l]').forEach(b=>b.onclick=()=>{layers.has(b.dataset.l)?layers.delete(b.dataset.l):layers.add(b.dataset.l);draw()});document.querySelectorAll('.marker').forEach(x=>x.remove());for(const m of d.landmarks.filter(x=>x.scale===scale||scale==='WORLD')){const e=document.createElement('i');e.className='marker';e.style.left=(50+m.x*2)+'%';e.style.top=(50+m.z*2)+'%';e.title=m.name;e.onclick=()=>D.textContent=m.name+'\\n'+m.lore+'\\ncoord: '+[m.x,m.y,m.z].join(' / ');document.querySelector('#map').append(e)}}draw();</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE TRACTUS — Living Atlas</title>
+<style>
+:root{color-scheme:dark;--ink:#d8e0d8;--muted:#91a09a;--line:#35443e;--panel:#101714;--accent:#a9c4ad;--gold:#c5a875}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#080c0b;color:var(--ink);font:14px/1.5 system-ui,sans-serif}
+body{background:radial-gradient(ellipse at 50% 0%,#1b2a24 0,#0a100e 55%,#070a09 100%)}
+main{max-width:1440px;margin:auto;padding:26px clamp(14px,3vw,42px) 48px}
+header{display:flex;justify-content:space-between;gap:20px;align-items:end;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:18px}
+.kicker,.eyebrow{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9aaa9f}
+h1{font:500 clamp(28px,4vw,46px)/1.05 Georgia,serif;letter-spacing:.04em;margin:8px 0}
+.intro{max-width:690px;color:#aebbb2;margin:8px 0 0}
+a{color:#c2d6c6;text-decoration:none}a:hover{text-decoration:underline}
+.controls{display:flex;gap:7px;flex-wrap:wrap;margin:18px 0 12px}
+button{font:inherit;color:var(--ink);background:#111a16;border:1px solid #405047;border-radius:3px;padding:8px 12px;cursor:pointer}
+button:hover,button.active{background:#24352c;border-color:#9ab19e;color:#fff}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:14px;align-items:start}
+.map-shell{border:1px solid #46574d;background:#0a100d;box-shadow:0 20px 70px #0008;position:relative;overflow:hidden}
+.map-head{display:flex;justify-content:space-between;gap:12px;padding:12px 15px;border-bottom:1px solid #2e3b34;color:var(--muted);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+#map{display:block;width:100%;height:auto;min-height:360px;background:#111b16}
+.side{display:grid;gap:12px}
+.panel{border:1px solid #34443a;background:linear-gradient(145deg,#111a15,#0b100d);padding:14px}
+.panel h2{font:500 17px Georgia,serif;margin:0 0 9px;color:#dce6dd}
+.panel p{color:#a8b5ab;font-size:12px;margin:5px 0}
+.pin{border-top:1px solid #2a3830;padding:10px 0}
+.pin:first-of-type{border-top:0}
+.pin strong{display:block;font-size:13px;font-weight:600}
+.pin small{display:block;color:#8d9b91;margin-top:3px;font-size:10px;letter-spacing:.06em;text-transform:uppercase}
+.pin p{margin:5px 0 0}
+.status{color:#d4bd91!important}
+.legend{display:flex;gap:14px;flex-wrap:wrap;color:#94a39a;font-size:10px;padding:10px 14px;border-top:1px solid #2b3831}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#c6d8c5;margin-right:5px}
+.dot.story{background:#d1ae72}.dot.open{background:#809dba}
+#detail{min-height:86px;color:#c2cec4;font-size:12px;white-space:pre-wrap}
+#transition{color:#c3d1c5;font:italic 14px Georgia,serif;min-height:42px}
+footer{margin-top:18px;color:#7f8d83;font-size:10px;letter-spacing:.06em}
+svg text{font-family:system-ui,sans-serif;pointer-events:none}
+.region{cursor:pointer}.region circle{fill:#b7c9b4;stroke:#e4ebdf;stroke-width:1.2;filter:url(#glow)}.region text{fill:#e0e8df;font-size:12px;paint-order:stroke;stroke:#0a100d;stroke-width:3px;stroke-linejoin:round}.region.selected circle{fill:#e0bd7b;stroke:#fff0c9;stroke-width:2.4}
+.route{fill:none;stroke:#91a99a;stroke-width:1.4;stroke-dasharray:4 7;opacity:.55}.terrain-line{fill:none;stroke:#819184;stroke-width:1;opacity:.22}.story-pin circle{fill:#d2ac70;stroke:#fff0c9;stroke-width:1.5}.story-pin text{fill:#f0d7a9;font-size:11px;paint-order:stroke;stroke:#0b100d;stroke-width:3px}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.side{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){main{padding:16px 10px 32px}.side{grid-template-columns:1fr}.map-head{font-size:9px}#map{min-height:260px}}
+</style>
+</head>
+<body>
+<main>
+<header>
+ <div><div class="kicker">THE TRACTUS / GEO-CYBERSPACE</div><h1>THE LIVING ATLAS</h1><p class="intro">A spatial operating environment for independent worlds, their routes, inhabitants, artifacts and accumulated history. The map is not a project list: it is where the work becomes a place and where a place can lead to the next encounter.</p></div>
+ <div class="eyebrow"><a href="../index.html">Repository</a> / <a href="../hub/index.html">Creative Hub</a> / <a href="../hub/WORLD_ATLAS.md">World Atlas record</a></div>
+</header>
+<nav class="controls" id="scales" aria-label="Map scale"></nav>
+<nav class="controls" id="layers" aria-label="Map layers"></nav>
+<div class="layout">
+ <section class="map-shell">
+  <div class="map-head"><span id="map-title">Tractus constellation</span><span id="map-subtitle">Inherited spatial state</span></div>
+  <svg id="map" viewBox="0 0 1000 640" role="img" aria-label="Interactive spatial map of the Tractus">
+   <defs>
+    <radialGradient id="ground" cx="48%" cy="42%" r="72%"><stop offset="0" stop-color="#34483a"/><stop offset=".5" stop-color="#1b2b22"/><stop offset="1" stop-color="#09100c"/></radialGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b5c4a4" stop-opacity=".22"/><stop offset="1" stop-color="#536d59" stop-opacity=".02"/></linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".62" numOctaves="3" seed="11"/><feColorMatrix values="0 0 0 0 .55 0 0 0 0 .63 0 0 0 0 .55 0 0 0 .13 0"/></filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#8ea18e" stroke-opacity=".12" stroke-width=".7"/></pattern>
+   </defs>
+   <rect width="1000" height="640" fill="url(#ground)"/><rect width="1000" height="640" filter="url(#grain)" opacity=".26"/>
+   <rect width="1000" height="640" fill="url(#grid)"/>
+   <g id="terrain"></g><g id="routes"></g><g id="places"></g><g id="story"></g>
+  </svg>
+  <div class="legend"><span><i class="dot"></i>Established place</span><span><i class="dot story"></i>Current story signal</span><span><i class="dot open"></i>Unsurveyed / unplaced</span></div>
+ </section>
+ <aside class="side">
+  <section class="panel"><div class="eyebrow">Selected place</div><h2 id="detail-title">The Tractus</h2><div id="detail">Choose a region to inspect its routes and inherited records.</div></section>
+  <section class="panel"><div class="eyebrow">Environmental transition</div><h2>Arrival trace</h2><div id="transition">The map is holding its current atmosphere.</div><p id="transition-meta">Selection changes the local field; no canon is rewritten by navigation.</p></section>
+  <section class="panel"><div class="eyebrow">Story pins</div><h2>Current signals</h2><div id="story-pins"><p>Loading inherited world state…</p></div></section>
+ </aside>
+</div>
+<footer>GEOGRAPHY IS EVIDENCE. ROUTES ARE RELATIONS. STORY PINS RETAIN THEIR SOURCE. UNKNOWN COORDINATES REMAIN UNPLACED.</footer>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const NS="http://www.w3.org/2000/svg";
+let spatial,detail,state,scale="TRACTUS",selected=null;
+const enabled=new Set(["TERRAIN","ROUTES","PLACES","MEMORY"]);
+const layerNames=["TERRAIN","ROUTES","PLACES","CHARACTERS","SCALE","MOTION","LIGHT","SOUND","MEMORY"];
+const make=(tag,attrs={},parent)=>{const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,v);if(parent)parent.append(n);return n};
+const point=(x,y)=>[x,y];
+function clear(g){while(g.firstChild)g.removeChild(g.firstChild)}
+function label(parent,x,y,text,attrs={}){const n=make("text",{x,y,...attrs},parent);n.textContent=text;return n}
+function terrain(){const g=$("#terrain");clear(g);if(!enabled.has("TERRAIN"))return;
+ for(let i=0;i<9;i++){const rx=115+i*28,ry=72+i*18,cx=510+Math.sin(i*.8)*65,cy=320+Math.cos(i*.55)*42;make("ellipse",{cx,cy,rx,ry,transform:"rotate("+(i*7-24)+" "+cx+" "+cy+")",class:"terrain-line"},g)}
+ make("path",{d:"M70 460 C190 390 205 260 340 230 S560 120 710 190 S855 390 950 300",fill:"none",stroke:"#819d83","stroke-width":"34","stroke-opacity":".045"},g);
+}
+function coordsFor(region){return scale==="TRACTUS"?point(80+Number(region.x)*8.4,70+Number(region.y)*4.9):point(500+Number(region.x||0)*430/(scaleInfo().extent||70),320+Number(region.z||0)*430/(scaleInfo().extent||70))}
+function scaleInfo(){return detail.scales.find(x=>x.id===scale)||{extent:100,name:"Tractus constellation"}}
+function draw(){
+ $("#map-title").textContent=scale==="TRACTUS"?"Tractus constellation":scaleInfo().name;
+ $("#map-subtitle").textContent=scale==="TRACTUS"?"15 connected territories / canonical planning plane":scaleInfo().description;
+ terrain();clear($("#routes"));clear($("#places"));clear($("#story"));
+ if(scale==="TRACTUS"){
+  const byId=Object.fromEntries(spatial.regions.map(r=>[r.id,r]));
+  if(enabled.has("ROUTES"))for(const [a,b] of spatial.routes){const A=byId[a],B=byId[b];if(!A||!B)continue;const p=coordsFor(A),q=coordsFor(B);make("path",{d:"M"+p[0]+" "+p[1]+" Q"+((p[0]+q[0])/2+18)+" "+((p[1]+q[1])/2-24)+" "+q[0]+" "+q[1],class:"route"},$("#routes"))}
+  if(enabled.has("PLACES"))for(const r of spatial.regions){const [x,y]=coordsFor(r),g=make("g",{class:"region"+(selected===r.id?" selected":""),tabindex:"0",role:"button","aria-label":r.id},$("#places"));make("circle",{cx:x,cy:y,r:Math.max(7,Number(r.radius||4)*1.65)},g);label(g,x+12,y-10,r.id.replace(/-/g," ").toUpperCase());g.addEventListener("click",()=>selectPlace(r.id,r.id.replace(/-/g," "),"A territory in the shared Tractus spatial graph.",r));g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();g.dispatchEvent(new Event("click"))}})}
+ }else{
+  const info=scaleInfo(),items=[...detail.regions.filter(x=>x.scale===scale),...detail.landmarks.filter(x=>x.scale===scale)];
+  if(enabled.has("ROUTES")&&scale==="VEYRT"){const a=items.find(x=>x.id==="procession");if(a){const p=coordsFor(a);make("path",{d:"M"+p[0]+" "+(p[1]-180)+" Q"+(p[0]+45)+" "+p[1]+" "+p[0]+" "+(p[1]+180),class:"route"},$("#routes"))}}
+  if(enabled.has("PLACES"))for(const r of items){const [x,y]=coordsFor(r),g=make("g",{class:"region"+(selected===r.id?" selected":""),tabindex:"0",role:"button"},$("#places"));make("circle",{cx:x,cy:y,r:r.type==="passage"?5:9},g);label(g,x+12,y-9,r.name);g.addEventListener("click",()=>selectPlace(r.id,r.name,r.lore||r.biome||"Mapped region.",r))}
+ }
+ const pin=state?.activeEncounter;
+ if(pin){const found=spatial.regions.find(r=>r.id===pin.regionId);if(found&&scale==="TRACTUS"){const [x,y]=coordsFor(found);const g=make("g",{class:"story-pin"},$("#story"));make("circle",{cx:x,cy:y,r:14},g);label(g,x+17,y+22,pin.regionName||pin.regionId)}}
+}
+function selectPlace(id,name,description,data){
+ selected=id;draw();$("#detail-title").textContent=name;$("#detail").textContent=description+"\n\nStable ID: "+id+"\n"+(data.x!==undefined?"Coordinates: "+data.x+", "+(data.y??data.z):"Coordinates: inherited from local map record");
+ $("#transition").textContent="The field settles around "+name+". Routes remain connected to the previous survey.";
+ $("#transition-meta").textContent="Selected locally. The underlying world record remains unchanged.";
+ try{localStorage.setItem("tractus-atlas-selection",id)}catch{}
+}
+function renderStoryPins(){
+ const host=$("#story-pins");host.innerHTML="";
+ const pin=state?.activeEncounter;
+ if(!pin){host.innerHTML="<p>No active encounter is recorded in the current world-state file.</p>";return}
+ const known=spatial.regions.some(r=>r.id===pin.regionId);
+ const div=document.createElement("div");div.className="pin";
+ const strong=document.createElement("strong");strong.textContent=pin.regionName||pin.regionId;div.append(strong);
+ const small=document.createElement("small");small.textContent=known?"Placed on the canonical map":"Unplaced · awaiting geographic survey";if(!known)small.className="status";div.append(small);
+ const p=document.createElement("p");p.textContent=(pin.intent||"Active encounter")+" · "+(pin.subject?.agent||"unknown subject")+" · scale "+(pin.subject?.scale??"not recorded");div.append(p);
+ const meta=document.createElement("p");meta.textContent=(pin.delta||[]).join(" / ");div.append(meta);
+ host.append(div);
+ const rec=document.createElement("div");rec.className="pin";const title=document.createElement("strong");title.textContent="Source recording";rec.append(title);const detailLine=document.createElement("p");detailLine.textContent=state.activeRecording||"No active recording path";rec.append(detailLine);host.append(rec);
+}
+async function init(){
+ const [s,d,w]=await Promise.all([
+ fetch("../hub/spatial-world.json").then(r=>{if(!r.ok)throw Error("spatial-world.json unavailable");return r.json()}),
+ fetch("../geo-cyberspace/detailed-maps.json").then(r=>{if(!r.ok)throw Error("detailed-maps.json unavailable");return r.json()}),
+ fetch("../hub/world-state.json").then(r=>r.ok?r.json():null)
+ ]);
+ spatial=s;detail=d;state=w;
+ const scaleButtons=[["TRACTUS","The Tractus"],...d.scales.map(x=>[x.id,x.name])];
+ $("#scales").innerHTML=scaleButtons.map(([id,name])=>'<button type="button" data-scale="'+esc(id)+'" class="'+(id===scale?"active":"")+'">'+esc(name)+'</button>').join("");
+ $("#layers").innerHTML=layerNames.map(n=>'<button type="button" data-layer="'+n+'" class="'+(enabled.has(n)?"active":"")+'">'+n+'</button>').join("");
+ $("#scales").addEventListener("click",e=>{const b=e.target.closest("[data-scale]");if(!b)return;scale=b.dataset.scale;selected=null;$("#scales").querySelectorAll("button").forEach(x=>x.classList.toggle("active",x===b));draw()});
+ $("#layers").addEventListener("click",e=>{const b=e.target.closest("[data-layer]");if(!b)return;const id=b.dataset.layer;enabled.has(id)?enabled.delete(id):enabled.add(id);b.classList.toggle("active",enabled.has(id));draw()});
+ renderStoryPins();
+ try{const saved=localStorage.getItem("tractus-atlas-selection");if(saved&&spatial.regions.some(x=>x.id===saved)){const r=spatial.regions.find(x=>x.id===saved);selectPlace(r.id,r.id.replace(/-/g," "), "Restored from the last local Atlas visit.",r)}}catch{draw()}
+ draw();
+}
+init().catch(error=>{$("#detail").textContent="Atlas data could not be loaded: "+error.message;$("#story-pins").textContent="The world-state source is unavailable."});
+</script>
+</body>
+</html>

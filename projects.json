@@ -1999,7 +1999,8 @@
       "sacred-corridor",
       "facility",
       "muscle-myth"
-    ]
+    ],
+    "interface_path": "/worldspace/maps.html"
   },
   {
     "id": "tyler-measurement",

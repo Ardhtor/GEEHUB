@@ -21,6 +21,8 @@ on:
   pull_request:
     paths:
       - 'hub/**'
+      - 'worldspace/**'
+      - 'geo-cyberspace/**'
       - 'projects.json'
       - 'app.js'
       - 'index.html'

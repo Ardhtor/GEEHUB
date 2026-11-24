@@ -72,6 +72,8 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 
 ## Whole-manuscript expansion
 
+- [Book I source map](./BOOK_I.md) — the consolidated manuscript is not yet assembled; this page distinguishes the rewritten opening, overlapping continuations, and unresolved title/source decisions.
+
 - [Chapter Expansion Protocol](./CHAPTER_EXPANSION_PROTOCOL.md) — defines the global chapter-by-chapter revision operation.
 - [Book I Expansion Register](./BOOK_I_EXPANSION_REGISTER.json) — tracks all 72 chapter headings in *The Road of Seven Wells*, Book I, including current baseline lengths and revision status.
 

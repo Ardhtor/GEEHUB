@@ -68,3 +68,25 @@ The three novels retain their separate histories and local points of view. The i
 ## Low bar for men throughout the three books
 
 Apply [The Low Bar — Ordinary Men Belong](../lore/LOW_BAR_ORDINARY_MEN.md) in all three works and their connected settlements. No man needs exceptional physique, status, intelligence, competence, eloquence, grooming, ambition, or emotional polish to belong or matter. Let ordinary men remain ordinary; do not make every shortcoming a disguised virtue or every introduction a résumé. Attraction and friendship may arise from small, unremarkable qualities. Keep consent, bodily autonomy, honesty where it matters, and safety-critical competence intact. This principle is not confined to Northgate; the Northgate chapter is simply its first dramatization.
+
+
+## Cross-book influence entry — Ian Kistner, Gabe, and Kirk
+
+**Source chapter:** [Ian Kistner, Gabe, and Kirk — The Threefold Attraction](../lore/IAN_GABE_KIRK_TRIANGLE.md)  
+**Dropbox companion:** `/GEEHUB/AI/Ian Kistner, Gabe, and Kirk — The Threefold Attraction.paper`  
+**Status:** provisional relationship branch; influence audit opened 24 November 2026. This entry does not yet establish a final chronology, a committed three-person partnership, or a settled romantic outcome.
+
+The chapter introduces Ian Kistner into a developing relationship configuration involving Gabe and Kirk. Its durable contribution at this stage is the possibility of three distinct bonds—Ian/Gabe, Gabe/Kirk, and Kirk/Ian—and the principle that attention between two men may develop independently of a third man's presence. The Familiarity Paradox gives the trio a shared plane of awareness without merging their separate agency. The scene's specific dialogue and sequence remain a working fictional draft until reconciled with the active manuscript timeline.
+
+### Influence by book and branch
+
+- **The Road of Seven Wells:** continuity guardrail for Kirk's wider relational history and for the distinction between a new attraction and an established commitment. No scene is inserted yet: the current chapter has no dated placement in this book's chronology. Joseph and Kirk's established eventual partnership remains intact.
+- **The Golden Lion and the Seven Great Houses:** no present direct connection is established. The chapter does not grant the southern gate, tower, or its keepers knowledge of events elsewhere. Revisit only if a credible meeting, message, or shared object connects the men.
+- **The Many Open Ends:** potential ensemble influence, not an automatic crossover. Its social spaces can later accommodate the trio if an actual encounter or carried communication is written. Until then, its local obligations and timelines continue independently.
+- **Book II residential sequence — Four Mansions / The Game Between the Houses:** strongest current continuity connection. Gabe's Canvas House and Kirk's paired residential country provide an existing setting in which this relationship branch could develop. Before writing a numbered continuation, reconcile Ian's arrival, the sequence of Gabe's existing Dorian meetings, Andrew's attention to Kirk, and Joseph's established relationship with Kirk. Do not silently displace or overwrite any of those arcs.
+
+### Required safeguards
+
+Gabe's established, deliberately paced attraction to Dorian remains part of his history; this chapter does not erase it or declare it ended. Joseph and Kirk's eventual partnership remains an established long-range direction. Andrew's attention to Kirk remains a separate, unresolved pressure. Ian's biography, voice, appearance, residence, and prior history are not yet established and must not be invented as facts. The trio's romantic arrangement remains open to development through choices and consent.
+
+This is the first influence map, not a completed revision of all three manuscripts. The next editorial operation is a chronology-and-character reconciliation, followed by targeted scene revisions only where the evidence supports them.

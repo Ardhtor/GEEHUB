@@ -148,7 +148,7 @@ No coordinates, distances, or permanent new landforms are introduced by Chapter 
 
 ## Revision progress
 
-The first body-level line-edit pass is now complete across Chapters I–IX. It consolidated repeated observations and summaries, repaired scene order where needed, and preserved each chapter's established events. The next pass is a whole-book continuity sweep against the chronology, spatial atlas, character and relationship records, and Dropbox mirrors.
+The first body-level line-edit pass is complete across Chapters I–IX. A second ending-compression pass removed 1,518 words across the book; Chapter III received the deepest cut, and the other eight chapters had their redundant closing recaps removed or tightened. It consolidated repeated observations and summaries, repaired scene order where needed, and preserved each chapter's established events. The next pass is a whole-book continuity sweep against the chronology, spatial atlas, character and relationship records, and Dropbox mirrors.
 
 | Chapter | Narrative words | Current Git blob | Editorial state |
 | --- | ---: | --- | --- |

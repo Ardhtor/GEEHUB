@@ -191,7 +191,7 @@ Michael smiled. “That sounds like a better invitation.”
 
 Andrew heard them and came over. He said he had been thinking about a new challenge for the next visit. Michael told him he would listen to it when he came back. He did not promise to perform it. Andrew accepted the answer and began explaining the design rather than insisting on the result. The difference was small, but the conversation remained friendly.
 
-The exhibition continued into the afternoon. Andrew tried the double-arch route and missed the final return. Chase improved the starting marker and made the result repeatable. Gabe took the controlled circuit through its full sequence and then showed how it could be shortened for a tired player. Robert projected the route through the miniature theatre and discovered that the best view was not the largest one, but the one that preserved the difference between the two grounds. Joseph carried the bench to the Cedar Span and found a position where the passage remained clear. Each achievement drew a response. Every response contained the seed of another attempt.
+The exhibition continued into the afternoon. The men were learning that every attempt left behind a question for the next one, and that the work of improvement was larger than the result written on the board.
 
 
 As the afternoon lengthened, the men began to tire. Andrew wanted another run at the double arch, but Gabe pointed out that his release had become less controlled. Andrew said he could correct it. Gabe asked whether he wanted to correct it now or after a rest. Andrew looked at the ball, then at the recovery bench. He chose the bench.
@@ -217,8 +217,6 @@ The rules did not end the competition. They made it possible for the men to keep
 
 Later, when the common green had quieted, Michael received a private message from Kirk. They spoke briefly, away from the public channel. Kirk asked whether he had enjoyed the day; Michael said he had, and told him he had been thinking of him. Kirk answered in the same quiet register. Their relationship remained theirs, separate from the applause.
 
-The Evermeasure Board stayed illuminated after everyone had gone. Its entries would become the next day's starting points: better routes, heavier beams, cleaner measurements, and new designs. No exhibition would be final. The men would keep answering one another, not by erasing the last achievement but by making another.
-
 
 A small note appeared at the bottom of the board before Robert closed the gallery for the night. It was not a record. It was a reminder of the rules they had just agreed to: **The game may continue; the man may stop.** Chase added the date. Gabe placed the recovery circuit beside it. Joseph left the bench's drawing in the craft section. Andrew looked at the entries and found that the board had become more interesting, not less. It contained more ways to participate, more ways to improve, and more reasons to return.
 
@@ -243,6 +241,8 @@ Andrew nodded. “That counts.”
 Joseph studied him for a moment, then smiled. “That's better.”
 
 Joseph left the pavilion with Andrew. They walked together as far as the covered path, then separated toward their own houses. The Evermeasure Board remained behind them, carrying the day's results and the rules that would make another day possible.
+
+The Evermeasure Board stayed illuminated after everyone had gone. Its entries would become the next day's starting points: better routes, heavier beams, cleaner measurements, and new designs. No exhibition would be final. The men would keep answering one another, not by erasing the last achievement but by making another.
 
 The Evermeasure would still invite excess. Someone would always want a harder route, a heavier beam, a faster time, or a more spectacular answer. The men had not cured themselves of wanting to surpass one another; they had begun to recognise when the contest made them careless with the people beside them. The next challenge would test whether they could keep the game generous enough to be worth returning to.
 ---

@@ -189,7 +189,7 @@ They spoke about the field, the ball, and the way the houses were beginning to a
 
 Andrew laughed. “I might need a map.”
 
-Across the green, the four mansions had begun to acquire their own rhythms. Robert's library was receiving visitors; Chase was keeping disputed maps; Gabe had moved a chair into the garden; Joseph was preparing the House of Returns for supper. Their lives no longer revolved around Kirk's attention. The houses, like the country beneath them, would need care as they changed.
+
 ---
 
 ## Continuity record

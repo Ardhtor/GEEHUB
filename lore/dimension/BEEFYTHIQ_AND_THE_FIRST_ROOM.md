@@ -49,7 +49,7 @@ The dimensional branch now gives physical growth a scene of its own in [Chapter 
 
 The chapter establishes that hypermuscle is not a temporary visual effect. The new mass changes clothing, leverage, movement, equipment needs, room dimensions, food requirements, and the practical work of the residential institution. Measurements preserve earlier baselines instead of overwriting them. The men train to understand their altered bodies rather than immediately testing maximum strength. The next stage must develop from the form they now inhabit.
 
-This is a cross-board correspondence with Beefythiq's recursive growth grammar, not a claim that every GEEHUB setting shares the same literal mechanism. The dimensional branch has its own bell and its own sequence of events; Beefythiq supplies the language for interpreting the persistent change.
+This is a cross-board correspondence with Beefythiq's recursive growth grammar, not a claim that every connected setting shares the same literal mechanism. The dimensional branch has its own bell and its own sequence of events; Beefythiq supplies the language for interpreting the persistent change.
 
 
 ## The Nightmare Doll and the Gravitation of Waste

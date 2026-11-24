@@ -1,6 +1,6 @@
 # BEEFYTHIQ // CHARACTER BIOGRAPHIES
 
-These biographies use the grammar of the Hub rather than a static character-sheet format.
+These biographies use the grammar of a lived setting rather than a static character-sheet format.
 
 The governing movement is:
 
@@ -102,7 +102,7 @@ His new baseline is Tyler no longer needing comparison to prove that he exists.
 
 Kirk is a pressure character.
 
-He enters the Hub as someone whose presence can change the temperature of a scene before the narrative has explained why.
+He enters the shared world as someone whose presence can change the temperature of a scene before the narrative has explained why.
 
 His seed is force held in reserve.
 
@@ -130,7 +130,7 @@ His seed is closeness.
 
 His desire is continuity through relationship.
 
-This makes distance significant. When people separate, the separation does not become empty space. It becomes a geographic fact inside the Hub. A route can represent distance. A room can retain someone who is no longer there. An object can become an archive of proximity.
+This makes distance significant. When people separate, the separation does not become empty space. It becomes a geographic fact in the shared world. A route can represent distance. A room can retain someone who is no longer there. An object can become an archive of proximity.
 
 Joseph's stress therefore arrives through absence as much as presence.
 
@@ -142,7 +142,7 @@ The mutation is narrative rather than cosmetic. Places acquire emotional geograp
 
 Joseph's new baseline is the character whose biography cannot be separated from the network of people around him.
 
-In the Hub, relationship is not subtext.
+In this world, relationship is not subtext.
 
 It is infrastructure.
 
@@ -174,7 +174,7 @@ His new baseline is a digital character whose artificiality is not a weakness to
 
 Papa Murph begins with a practical function: he cooks.
 
-That function becomes character because the Hub treats ordinary actions as world-building events.
+That function becomes character because the setting treats ordinary actions as world-building events.
 
 Food creates gathering.
 
@@ -230,7 +230,7 @@ The encounter changes the body, relationship, setting, or desire.
 
 The change becomes a new baseline.
 
-This is why the Hub can keep producing characters without reducing them to profiles. A person can enter as a visual seed, acquire desire, encounter pressure, mutate through relationship, and leave behind a geography that did not exist before them.
+This is why the story can keep introducing characters without reducing them to profiles. A person can enter as a visual seed, acquire desire, encounter pressure, mutate through relationship, and leave behind a geography that did not exist before them.
 
 The character is therefore not the endpoint.
 
@@ -265,7 +265,7 @@ Facility creates an encounter.
 
 The encounter creates a new biography.
 
-The Hub therefore reads a character twice: once as a person, and again as an environmental consequence.
+The world therefore reads a character twice: once as a person, and again as an environmental consequence.
 
 ## THE NEXT BEEFYTHIQ CYCLE
 
@@ -326,7 +326,7 @@ The artifact is proof that the character changed the world.
 
 If no artifact remains, the transformation has not yet finished becoming lore.
 
-The Hub continues until the invisible relationship has acquired a visible form.
+The setting continues until the invisible relationship has acquired a visible form.
 
 
 ## THE SECOND HUM
@@ -346,7 +346,7 @@ Luke drives farther than the map currently reaches. The Mustang crosses the boun
 Tyler finds a room built from comparison: two entrances, two silhouettes, two paths that begin almost identically and then diverge. He does not choose either entrance. He walks between them. The room changes its grammar. It is no longer a comparison room. It becomes Tyler's room.
 
 ### KIRK // PRESSURE FIELD
-Kirk enters after everyone else has left. The room still contains evidence of the encounter. He does not touch anything. The atmosphere changes anyway. The Hub begins storing aftermath as an active state.
+Kirk enters after everyone else has left. The room still contains evidence of the encounter. He does not touch anything. The atmosphere changes anyway. The world begins preserving aftermath as an active state.
 
 ### JOSEPH // DISTANCE ENGINE
 Joseph discovers that distance is producing architecture. Every separation leaves behind a route. Every route contains possible returns. Every possible return creates another question. The FOMO engine recognizes the pattern: something changed; someone might care; the change has evidence; the evidence can be presented without inventing pressure. Joseph's engine does not create the feeling from nothing. It finds where the world has already changed. That becomes the signal.

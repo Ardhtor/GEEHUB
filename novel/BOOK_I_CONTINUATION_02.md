@@ -1,4 +1,4 @@
-# GEEHUB — BOOK I CONTINUATION
+# Book I — Continuation 02
 
 ## Chapter LXIII: Dinner for Five
 

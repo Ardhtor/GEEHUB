@@ -1,7 +1,7 @@
 # Narrative Continuity Audit
 
 **Started:** 24 November 2026  
-**Status:** active first-pass audit; not a declaration that the full manuscript is clean.  
+**Status:** active whole-book continuity sweep; first-pass corrections and Book II body-level line edits are complete, but the full corpus is not yet clean.  
 **Working rule:** correct demonstrable contradictions; preserve separate books and local geographies; record unresolved questions rather than filling them with invented canon.
 
 ## The naming boundary
@@ -19,11 +19,15 @@ The term **Tractus** appears in repository continuity and lore records. Until a 
 | Character identity | The reaction interface displayed the agent ID `joseph` as “Joey,” despite the character records explicitly distinguishing Joseph from Joey. | The display name is now Joseph. Joey remains the separate Grand Meridian character. |
 | Story interaction | Book II scene actions were emitted as `UTTERANCE` events with `from: 'you'`. The reaction handler treats that event type as dialogue spoken by a named agent, so it discarded these events rather than responding to the visitor's action. | Scene actions and exhibition contributions now emit `ENCOUNTER` events, which the shared interaction and character-reaction systems accept. |
 | Navigation | The chapter index listed Chapter XC — The Image I Could Not See twice. | Removed the duplicate entry. |
-| Book II production handoff | The completion register still named Chapter V as the next revision even though Chapters I–V had first expansion passes. | The handoff now points to Chapter VI and leaves Chapters IV–V's whole-book reviews open. |
+| Book II production handoff | The register and chronology map retained stale chapter counts, Dropbox revisions, and a Chapter VI handoff after the nine chapter line edits were complete. | Reconciled all nine narrative counts and source hashes against GitHub, verified all nine Dropbox Paper bodies against their current sources, and advanced the next operation to the whole-book continuity sweep. |
 | Editorial language | The AI narrative specification described the fiction as “GEEHUB” as though the product name were the world. | Reworded the passage to refer to the fiction, not the repository brand. |
 | In-world naming | The editorial directive did not explicitly distinguish the production-workshop name from the names used by inhabitants. | Added a naming boundary: no externally assigned umbrella name; let characters name things through use and conversation. |
 | Book I diegetic branding and age framing | The environmental rewrite gave the future city a sign reading “GEEHUB,” repeated the word across its surfaces, used “the Hub” as an established in-world name, and included several child-coded characters. | Removed the imposed brand and unearned proper name. An unmarked sign remains; Luke and Joseph defer naming the place until they understand it. The rewrite's child-coded roles are now adult residents or travelers. |
 | Narrative register | `novel/WORLDS.md` used “the Hub,” “the system,” “world-engine,” “FOMO engine,” and “world graph” inside passages presented as story prose. | Recast the identified passages in terms of rooms, roads, maps, gatherings, and actions. |
+
+## Book II line-edit completion snapshot
+
+All nine chapters of *The Kirk Expedition* have now received a first body-level line-edit pass. The current narrative census is 36,319 words, excluding continuity records. All nine Dropbox Paper mirrors have been read back and verified against their current GitHub Markdown sources. GitHub remains canonical; Dropbox Paper is the production and reading surface. The chapter-by-chapter expansion and line-edit work is not a declaration of manuscript completion: the next step is a whole-book continuity sweep, followed by a final copyedit and an earned ending. The authoritative counts, Paper revisions, and source fingerprints are maintained in `novel/BOOK_II_COMPLETION_REGISTER.md`.
 
 ## Manuscript-source correction
 

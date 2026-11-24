@@ -102,6 +102,60 @@
       "x": 14,
       "y": 34,
       "radius": 6
+    },
+    {
+      "id": "cedar-house",
+      "x": 11,
+      "y": 47,
+      "radius": 4
+    },
+    {
+      "id": "lantern-market",
+      "x": 88,
+      "y": 18,
+      "radius": 4
+    },
+    {
+      "id": "cat-gardens",
+      "x": 10,
+      "y": 68,
+      "radius": 4
+    },
+    {
+      "id": "bluewater-quay",
+      "x": 91,
+      "y": 72,
+      "radius": 5
+    },
+    {
+      "id": "common-table",
+      "x": 50,
+      "y": 8,
+      "radius": 4
+    },
+    {
+      "id": "northgate-university",
+      "x": 49,
+      "y": 92,
+      "radius": 5
+    },
+    {
+      "id": "founders-dormitory",
+      "x": 34,
+      "y": 91,
+      "radius": 4
+    },
+    {
+      "id": "athletic-commons",
+      "x": 65,
+      "y": 94,
+      "radius": 4
+    },
+    {
+      "id": "northgate-library",
+      "x": 48,
+      "y": 76,
+      "radius": 4
     }
   ],
   "routes": [

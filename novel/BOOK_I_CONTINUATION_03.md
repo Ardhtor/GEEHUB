@@ -1,4 +1,4 @@
-# GEEHUB — BOOK I CONTINUATION 03
+# Book I — Continuation 03
 
 ## Chapter LXVII: The Eyes Beneath the Well
 

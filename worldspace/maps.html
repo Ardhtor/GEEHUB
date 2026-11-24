@@ -38,6 +38,7 @@ svg text{font-family:ui-monospace,monospace;user-select:none}
 @media(max-width:800px){body{grid-template-rows:auto auto auto auto}header{align-items:flex-start;flex-direction:column}main{grid-template-columns:1fr}#side{min-height:220px}#mapPanel,#mapSvg{min-height:380px}footer{flex-direction:column}}
 </style>
 <link rel="stylesheet" href="../engine/environmental-transitions.css">
+<style>#environmentalTransition{grid-column:1/-1}</style>
 </head>
 <body>
 <header>
@@ -62,5 +63,6 @@ svg text{font-family:ui-monospace,monospace;user-select:none}
 </main>
 <footer><span id="status">LOADING CANONICAL MAP DATA…</span><span>SELECT A MARKER / CHANGE SCALE / TOGGLE LAYERS</span></footer>
 <script type="module" src="./maps.js"></script>
-<script src="../engine/environmental-transitions.js"></script>\n</body>
+<script src="../engine/environmental-transitions.js"></script>
+</body>
 </html>

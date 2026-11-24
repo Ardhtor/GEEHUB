@@ -2,7 +2,7 @@
 
 The public archive records what a place needs to remember. The men's papers preserve what a man notices when he is not addressing the public. They are not all confessions. Some are lists, measurements, reminders, letters never sent, sketches of a hinge, accounts of a disagreement, or a page on which a man has written the same sentence three times because none of the versions quite says what he means.
 
-These papers belong to the fictional men and institutions of GEEHUB. They are literary artifacts, not claims about private records belonging to real people. Their purpose is to give characters continuity between major scenes. A man should have a life when he is not being watched by the chapter. He should remember what he meant to repair, whom he promised to visit, what he has not yet understood, and what he has chosen not to say.
+These papers belong to the fictional men and institutions across the connected settings. They are literary artifacts, not claims about private records belonging to real people. Their purpose is to give characters continuity between major scenes. A man should have a life when he is not being watched by the chapter. He should remember what he meant to repair, whom he promised to visit, what he has not yet understood, and what he has chosen not to say.
 
 The papers are arranged by form rather than by rank. A notebook is not automatically more truthful than a public ledger. A letter may conceal as much as it reveals. An inventory can become intimate through the objects it lists. An unfinished page is not a failure of the archive; it is evidence that a life continues beyond the available account.
 

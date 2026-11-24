@@ -222,6 +222,30 @@ The Evermeasure Board stayed illuminated after everyone had gone. Its entries wo
 
 A small note appeared at the bottom of the board before Robert closed the gallery for the night. It was not a record. It was a reminder of the rules they had just agreed to: **The game may continue; the man may stop.** Chase added the date. Gabe placed the recovery circuit beside it. Joseph left the bench's drawing in the craft section. Andrew looked at the entries and found that the board had become more interesting, not less. It contained more ways to participate, more ways to improve, and more reasons to return.
 
+Joseph came back from the House of Returns after the others had begun to leave. He stopped beside the board and read the new note. Andrew was still there, holding the chalk.
+
+“Do you think it will work?” Joseph asked.
+
+“It will work if we remember it.”
+
+“That's not the same thing.”
+
+“No,” Andrew said. “It's harder.”
+
+Joseph looked at the list of entries. “I might play tomorrow. I might take the short route. I might just sit with Gabe and watch.”
+
+Andrew nodded. “That counts.”
+
+“You don't have to say that because of the note.”
+
+“I know. I want you there whether you play or not.”
+
+Joseph studied him for a moment, then smiled. “That's better.”
+
+Andrew put the chalk down. He had wanted to be the man who made the next challenge, the one who set the standard and brought everyone else along. Now he could see that the game would be stronger if the others could change it, refuse it, or take part without needing to match him. He did not have to become less ambitious. He had to stop treating ambition as permission to decide for everyone else.
+
+Joseph left the pavilion with him. They walked together as far as the covered path, then separated toward their own houses. The Evermeasure Board remained behind them, carrying the day's results and the rules that would make another day possible.
+
 The Evermeasure would still invite excess. Someone would always want a harder route, a heavier beam, a faster time, or a more spectacular answer. The men had not cured themselves of wanting to surpass one another. They had begun to recognise when the contest was making them careless with the people beside them. The next challenge would test not only what they could do, but whether they could keep the game generous enough to be worth returning to.
 ---
 

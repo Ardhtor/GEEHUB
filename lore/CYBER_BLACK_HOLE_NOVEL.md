@@ -9,11 +9,11 @@ It appeared between two familiar places on the map, in a narrow interval where a
 
 At the centre of the table lay a black disc no larger than a coin. It was smooth, warm, and completely unmarked.
 
-Luke found the room first, though later the others would dispute what “first” meant. He had been following a visual reference from one of the gym archives, comparing two frames that should have shown the same person at different stages. The hallway beyond the gym took a turn he did not remember. At the end of it, a door stood open.
+Luke found the room first, though later the others would dispute what “first” meant. He had stayed after training to put the plates back and clear the route between the benches and the exit. It was not a rule anyone had asked him to follow. He liked leaving a room ready for the next man, with the water bottles out of the way and nothing loose underfoot. Before he left, he opened a visual reference from the gym archive and compared two frames that should have shown the same person at different stages. The shoulders looked different, but the camera might have moved. He was still deciding whether to check the floor marks or the crop when the hallway beyond the gym took a turn he did not remember. At the end of it, a door stood open.
 
 He stepped through.
 
-The room did not enlarge to accommodate him. It simply seemed to have been waiting at its proper scale. His reflection in the window was ordinary: a man in a grey tank, shoulders filling the fabric, hair still damp from training. Beyond the glass, the unfamiliar city held its breath beneath a low evening sky.
+The room did not enlarge to accommodate him. It simply seemed to have been waiting at its proper scale. His reflection in the window was ordinary: a man in a grey tank, shoulders filling the fabric, hair still damp from training. Beyond the glass, the unfamiliar city held its breath beneath a low evening sky. Luke looked back at the door through which he had entered. He had left the gym in good order, but he could not tell whether anyone else would find the same passage. For once, there was no obvious person to ask and no practical job to begin. He felt the unfamiliarity of that and stayed beside the table rather than pretending he already knew what to do.
 
 Luke set his phone on the table. The black disc shifted a fraction of an inch toward it.
 
@@ -21,7 +21,7 @@ Luke set his phone on the table. The black disc shifted a fraction of an inch to
 
 A second door opened behind him.
 
-Andrew came in carrying a baseball glove. He stopped just inside, blue eyes moving from the window to the chairs to Luke, then to the little disc. His expression suggested that he had arrived in the middle of something strange and was already deciding whether it was worth staying.
+Andrew came in carrying a baseball glove. He had come directly from practice and had stayed late in the batting cage because one foul ball had struck the rear fence with a hollow note he could not place. He had hit the same section twice more, listened to the difference, and still could not decide whether the sound came from the angle of the ball or the distance from the fence. He had meant to ask Tyler about it another day. Now he stopped just inside, blue eyes moving from the window to the chairs to Luke, then to the little disc. He looked as though the room had interrupted a question he was not finished asking.
 
 “Is this your room?”
 
@@ -31,17 +31,25 @@ Andrew came in carrying a baseball glove. He stopped just inside, blue eyes movi
 
 Andrew placed the glove on the table. The disc turned toward it. A faint line appeared across its surface, like a seam in a planet.
 
-Neither man touched it.
+Andrew leaned closer, then stopped himself. “I want to see whether it does that again.”
+
+“You can wait a second,” Luke said.
+
+“I can. I just don't particularly want to.”
+
+Luke gave him a look. Andrew grinned, but left his hands on the table's edge. Neither man touched the disc.
 
 ### Chapter One — Six Separate Routes
 
 The invitation reached each of them in a different form.
 
-Tyler saw a doorway in the reflection of an industrial gym mirror. He had been reviewing a movement sequence, not looking for a new place, when the reflection held steady after he had turned away. The door was narrow, with a brass handle and a small blue mark at eye level. He tried the handle. It opened onto the long-table room.
+Tyler saw a doorway in the reflection of an industrial gym mirror. He had been reviewing a movement sequence and had already replayed the same few seconds enough times to know where the athlete's heel lifted, where the shoulder turned, and where the camera introduced a small distortion. He was about to close the clip when the reflection held steady after he had turned away. Tyler faced the mirror again. The door remained. He stepped to one side, then back to his original mark. It did not shift with him. He tried the handle only after he had repeated the check a third time. The door was narrow, with a brass handle and a small blue mark at eye level. It opened onto the long-table room.
 
-Joseph found the route through sound. A song he had not played in months appeared in a playlist between two tracks that did not belong beside it. When he pressed play, the first few seconds were familiar, but a quiet mechanical pulse sat underneath the recording. He followed it through a sequence of linked pages, each one opening to a different fragment: a corridor, a stairwell, a window, the same blue light under the floor. At the end was a door.
+Joseph found the route through sound. A song he had not played in months appeared in a playlist between two tracks that did not belong beside it. He did not assume the placement meant anything. Playlists could be shuffled; a familiar song could appear by accident. But when he pressed play, the first few seconds were unmistakable, and beneath the recording sat a quiet pulse that was not part of the original arrangement. He listened to the whole opening again. The melody brought back the outline of a memory without giving him enough to name it. He resisted filling in the missing part. Instead, he followed the pulse through a sequence of linked pages, each one opening to a different fragment: a corridor, a stairwell, a window, the same blue light under the floor. At the end was a door.
 
-Chase received a location pin with no address. Gabe found a saved image that had not been in his collection the night before: an empty chair beside a window, with the edge of a broad shoulder just visible at the far left. Each followed his own route. None received a message from the others.
+Chase received a location pin with no address. He checked whether it moved, zoomed out to see whether a road or landmark could explain it, and saved a copy before touching the route. There was no street name and no note from whoever had sent it. He disliked being given a destination without its source, but the pin remained fixed and the map showed a path he could follow. He folded his notebook into his coat and went.
+
+Gabe found a saved image that had not been in his collection the night before: an empty chair beside a window, with the edge of a broad shoulder just visible at the far left. He opened the image details, then the collection it appeared to belong to. There was no source information. He could not tell whether the shoulder was meant to be recognised or whether the empty chair was the point. He closed the image and returned to it a few minutes later. The chair had not changed. He took his coffee with him when he finally left, partly because he wanted to go and partly because he did not want to turn the decision into a declaration. Each followed his own route. None received a message from the others.
 
 By the time Tyler arrived, Luke and Andrew had begun to argue about whether the disc was a device, an ornament, or somebody's idea of a joke.
 
@@ -51,7 +59,7 @@ By the time Tyler arrived, Luke and Andrew had begun to argue about whether the 
 
 “Then it's a very dramatic paperweight.”
 
-Tyler came in with the alert, amused look he wore when a room had become interesting before he reached it. He glanced at the two men, the glove, the disc.
+Tyler came in with the alert, amused look he wore when a room had become interesting before he reached it. He noticed that the glove was angled toward the disc and that neither man had touched it. He did not ask what they thought it was. He wanted to know what it had done.
 
 “Are we waiting for someone?”
 
@@ -65,7 +73,7 @@ He leaned back.
 
 “Right. Not touching that.”
 
-The door opened again. Joseph entered without hurry. He seemed to recognise the song still humming through the walls, though no speaker was visible. His gaze settled on the black disc. For a moment his face changed—not fear, exactly, but the recognition of a tune heard from another room.
+The door opened again. Joseph entered without hurry. He seemed to recognise the song still humming through the walls, though no speaker was visible. He looked at each man before he looked at the black disc, taking in the fact that they were together and that none of them appeared to know why. His gaze settled on the disc. For a moment his face changed—not fear, exactly, but the recognition of a tune heard from another room.
 
 “That's the sound,” he said.
 
@@ -81,9 +89,9 @@ The room went quiet enough for them to hear it: a low pulse, regular but not mec
 
 ### Chapter Two — The Table
 
-They did not introduce themselves in any orderly way. They already knew one another in fragments, through shared references, remembered scenes, familiar names, and the strange half-knowledge that accumulates when people have encountered each other's traces without sharing the same room. Yet being together changed the proportions. A face was no longer a thumbnail. A joke no longer arrived as text. A pause had weight.
+They did not introduce themselves in any orderly way. They recognised names and fragments, but they did not know one another's ordinary days. A familiar face in an image did not tell a man how its owner behaved when he was tired, hungry, annoyed, or quietly pleased. They had encountered traces of one another, sometimes more than once, but a trace could not tell them what the person beside them would choose now. Being together changed the proportions. A face was no longer a thumbnail. A joke no longer arrived as text. A pause had weight. They were not yet a close group; they were six men finding out what their partial familiarity could bear.
 
-Andrew broke the silence by asking whether anyone had food.
+Andrew broke the silence by asking whether anyone had food. He had been hungry since practice and was not interested in pretending that the room's strangeness had made him less so.
 
 Gabe lifted the cup. “Coffee.”
 
@@ -91,23 +99,47 @@ Gabe lifted the cup. “Coffee.”
 
 “It's a start.”
 
-Tyler found a narrow sideboard against the wall. On it stood a loaf of bread, a bowl of pears, butter in a small ceramic dish, and six glasses. The bread was still warm. He looked back at the table.
+Andrew looked at the cup. “It is a start. It isn't a finish.”
+
+Gabe smiled. “You can have the first pear.”
+
+“Now we're getting somewhere.”
+
+Tyler found a narrow sideboard against the wall. On it stood a loaf of bread, a bowl of pears, butter in a small ceramic dish, and six glasses. The bread was still warm. He checked the sideboard for a switch or a seam that might explain how it had appeared, then touched the loaf with the back of one finger. It was warm all the way through.
 
 “Did one of you arrange this?”
 
 Nobody answered.
 
-They ate because the food was there and because the room seemed less strange when ordinary things were happening inside it. Andrew cut the bread with a small knife. Luke found plates in a drawer. Chase unfolded the map and laid it beside the disc. Gabe poured the coffee. Joseph moved his chair closer to the window, where the blue light under the floor could be seen passing beneath the city.
+“Then we don't know who prepared it,” he said, more to himself than to the others.
+
+Andrew had already taken the knife. “We do know who gets to cut it.”
+
+They ate because the food was there and because the room seemed less strange when ordinary things were happening inside it. Andrew cut the bread with a small knife, keeping the heel for himself and offering the softer middle to the others without making an announcement of it. Luke found plates in a drawer and set them within reach rather than assigning them to anyone. When he noticed one chair rocking on an uneven leg, he crouched to inspect it, then looked up before moving it.
+
+“Is that all right?” he asked the man nearest it.
+
+Chase nodded. Luke folded a small piece of card beneath the leg. The chair steadied. It was the first practical thing he had been able to improve in the room, and he left it at that.
+
+Chase unfolded the map and laid it beside the disc. He kept his pencil in his hand but did not write on the map yet. Gabe poured the coffee, then sat with both hands around his cup. Joseph moved his chair closer to the window, where the blue light under the floor could be seen passing beneath the city. Tyler took the seat opposite him, not because it was central, but because it gave him a clear view of the map and the disc at the same time.
 
 The map showed no roads. Instead, it contained six fine lines, each beginning at a different edge and bending toward the room. The lines did not meet at the same point. They approached from different directions, crossed, separated, and returned. At the centre was a blank circle.
 
 “That's us?” Chase asked.
 
-“Maybe it's where we came from,” Joseph said.
+Joseph followed the six lines with his eyes. “Maybe it's where we came from.”
 
 “Or where we're supposed to go,” Tyler replied.
 
-Luke studied the map. “It doesn't show a destination.”
+“Those are two different claims,” Chase said. “The map doesn't say either.”
+
+Luke leaned closer. “It doesn't show a destination.”
+
+Andrew looked at the blank circle. “It might be a place to put one.”
+
+“Or a place to leave empty,” Gabe said.
+
+Nobody answered immediately. For once, Andrew did not fill the silence with a new suggestion.
 
 Andrew tapped the blank circle with one finger. The black disc answered with a quiet click.
 
@@ -131,7 +163,7 @@ There was a difference. They all felt it.
 
 The room gave them no instructions. The map did not explain itself. The disc remained open, holding its small constellations of light.
 
-Luke reached toward one of the images. It showed a gym he recognised, but from an angle he had never seen. A bench stood beneath a high window. A towel lay folded on the end. There was a water bottle beside it, and a narrow strip of blue tape on the floor marking a position for the next exercise.
+Luke reached toward one of the images. It showed a gym he recognised, but from an angle he had never seen. A bench stood beneath a high window. A towel lay folded on the end. There was a water bottle beside it, and a narrow strip of blue tape on the floor marking a position for the next exercise. He paused with his hand above the light and looked around the table. No one moved to stop him. No one asked him to go ahead either. He made the choice himself, slowly, with the others watching.
 
 He touched the light.
 
@@ -141,33 +173,31 @@ Luke looked at the others. “This is a place I know.”
 
 “Then why does it look different?” Chase asked.
 
-“Because it's showing more than the picture.”
+“The bench is in the same place. The tape is where I left it. But the camera is somewhere I've never stood.” He looked at the empty space near the weights. “It knows the room. It doesn't mean it knows everyone who uses it.”
 
 A second image opened: a baseball field under a pale sky. Andrew's glove rested on the bench beside the dugout. A third showed the narrow room where Joseph listened to music. A fourth showed a corridor with Tyler's reflection in the mirror. Each image was connected to a real point of reference, but each also contained something new: a door, a path, a light left on, an object waiting to be found.
 
 The room was not stealing their past. It was making passages between the places their separate histories had touched.
 
-“Can it make things up?” Gabe asked.
+“Can it make things up?” Gabe asked. He had been watching the empty chair in the image of his own saved reference. It was possible that the image had been built from something real. It was also possible that the chair had been placed there because someone expected him to sit in it. He did not want the room deciding which explanation he preferred.
 
 “Probably,” Tyler said. “The question is whether it tells us when it does.”
 
-Joseph looked at the disc. “Then that's the first rule.”
-
-He spoke slowly, as if writing the sentence into the air.
-
-“Keep what happened separate from what we're imagining.”
+Joseph looked at the disc. “That song sounded familiar, but I couldn't tell you what it meant. I don't want the feeling of recognition turned into proof.” He listened again to the low pulse. “Keep what happened separate from what we're imagining.”
 
 The blue light steadied. A thin line appeared around the blank circle on the map.
 
-Chase added a second rule. “And don't let one person's version replace another's.”
+Chase kept his pencil above the paper. “And keep the accounts separate. If Luke says the gym is familiar and I say the image is new, don't make one statement replace the other. They can both be true.”
 
 A second line appeared.
 
-Andrew considered the disc. “And if somebody doesn't want to come through a door, don't pull him.”
+Andrew looked toward the open image of the corridor. He had been ready to walk into it as soon as it appeared. Now he glanced around the table and saw that nobody had moved with him. “If somebody doesn't want to come through a door, don't pull him. I do that sometimes. I get excited and assume the rest of you are coming.”
 
-The third line appeared, completing the circle.
+The third line appeared.
 
-For the first time, the room seemed settled.
+Gabe looked at the images shifting inside the disc. The earlier versions remained visible, but one brighter image kept pushing toward the front. “Then don't let the newest picture become the only one anyone remembers. A person doesn't stop being himself because the room has found a more impressive image.”
+
+A fourth line appeared, leaving the circle open rather than closing it. No one called the rules complete. They had said enough to begin, and left room for the next man to correct them.
 
 ### Chapter Four — The City Beneath the Disk
 

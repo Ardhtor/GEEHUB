@@ -56,7 +56,7 @@ svg text{font-family:ui-monospace,monospace;user-select:none}
     <div class="eyebrow">ATLAS RECORD</div><h2 id="detailName">THE WORLD</h2>
     <p id="detailText">Select a territory or place on the map to inspect its description and source record.</p>
     <dl><dt>IDENTITY</dt><dd id="detailId">world</dd><dt>TYPE</dt><dd id="detailType">WORLD</dd><dt>COORDINATES</dt><dd id="detailCoords">—</dd><dt>SCALE</dt><dd id="detailScale">WORLD</dd><dt>STATE</dt><dd id="detailState">Loaded from repository data</dd></dl>
-    <div class="detail-link" id="detailLink"></div>
+    <section id="storyPin" style="border-top:1px solid var(--line);padding-top:12px"><div class="eyebrow">CURRENT STORY PIN</div><h2 id="storyPinName" style="font-size:15px;margin:6px 0">Loading world state…</h2><p id="storyPinStatus">Reading the inherited encounter.</p><p id="storyPinText"></p><p id="storyPinSource" class="micro"></p></section><div class="detail-link" id="detailLink"></div>
   </aside>
 </main>
 <footer><span id="status">LOADING CANONICAL MAP DATA…</span><span>SELECT A MARKER / CHANGE SCALE / TOGGLE LAYERS</span></footer>
@@ -65,7 +65,7 @@ const $=id=>document.getElementById(id);
 const NS='http://www.w3.org/2000/svg', W=1000,H=700;
 const svg=$('mapSvg');
 const state={scale:'WORLD',layers:new Set(['ROUTES','PLACES','MEMORY']),selected:null};
-let data={world:null,spatial:null,detailed:null,current:null};
+let data={world:null,spatial:null,detailed:null,current:null,worldState:null};
 function node(tag,attrs,parent=svg){const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs||{}))n.setAttribute(k,String(v));parent.appendChild(n);return n}
 function htmlNode(tag,attrs,parent){const n=document.createElement(tag);for(const [k,v] of Object.entries(attrs||{}))if(k==='text')n.textContent=v;else n.setAttribute(k,String(v));parent.appendChild(n);return n}
 function text(x,y,value,attrs={},parent=svg){const n=node('text',{x,y,...attrs},parent);n.textContent=value;return n}
@@ -74,7 +74,7 @@ function macroPoint(r){return{x:100+r.x*8,y:70+r.y*5.6}}
 function localPoint(r,extent){const pad=92;return{x:pad+((r.x+extent/2)/extent)*(W-pad*2),y:pad+((r.z+extent/2)/extent)*(H-pad*2)}}
 function baseMap(title){clear();node('rect',{x:0,y:0,width:W,height:H,fill:'#09120f'});node('rect',{x:0,y:0,width:W,height:H,fill:'url(#atlasGrid)'});const defs=node('defs',{});const pattern=node('pattern',{id:'atlasGrid',width:40,height:40,patternUnits:'userSpaceOnUse'},defs);node('path',{d:'M40 0H0V40',fill:'none',stroke:'#a0b4a5','stroke-opacity':'.09','stroke-width':'.8'},pattern);node('radialGradient',{id:'landGlow'},defs);const grad=defs.lastChild;node('stop',{offset:'0%','stop-color':'#294237','stop-opacity':'.42'},grad);node('stop',{offset:'100%','stop-color':'#07100d','stop-opacity':'0'},grad);node('rect',{x:0,y:0,width:W,height:H,fill:'url(#landGlow)'});text(34,665,title.toUpperCase(),{'font-size':11,fill:'#80938a','letter-spacing':2});}
 function detail(item,kind,scale,coords,path){$('detailName').textContent=item.name||item.id;$('detailText').textContent=item.description||item.lore||'No descriptive passage has been attached to this record yet.';$('detailId').textContent=item.id||'—';$('detailType').textContent=kind||item.kind||item.type||'PLACE';$('detailCoords').textContent=coords||'—';$('detailScale').textContent=scale||state.scale;$('detailState').textContent=item.id===data.current?.regionId?'CURRENT WORLD LOCATION':'Repository record';$('detailLink').replaceChildren();if(path&&path!=='#'){const a=document.createElement('a');a.href=path.startsWith('./')?'../'+path.slice(2):path.startsWith('../')?path:path.startsWith('/')?'..'+path:'../'+path;a.textContent='OPEN SOURCE RECORD ↗';$('detailLink').appendChild(a)}}
-function selectNode(item,kind,scale,coords,path){state.selected=item.id;detail(item,kind,scale,coords,path);renderSelection()}
+function selectNode(item,kind,scale,coords,path){state.selected=item.id;detail(item,kind,scale,coords,path);renderSelection();window.GEEHUB_ENVIRONMENT?.transition('NOTICE','The Atlas settles around '+(item.name||item.id)+'. Its map record remains intact while the selected place enters view.');}
 function renderSelection(){svg.querySelectorAll('[data-id]').forEach(g=>g.classList.toggle('selected',g.getAttribute('data-id')===state.selected))}
 function buttonSet(host,items,active,handler){host.replaceChildren();for(const item of items){const b=htmlNode('button',{type:'button',text:item.label},host);b.classList.toggle('active',active.has?active.has(item.id):active===item.id);b.onclick=()=>handler(item.id)}}
 function drawMacro(){
@@ -109,14 +109,14 @@ function renderLayers(){
 function renderScales(){
  const host=$('scaleControls');host.replaceChildren();
  const items=[{id:'WORLD',label:'World'}].concat(data.detailed.scales.filter(s=>s.id!=='WORLD').map(s=>({id:s.id,label:s.id==='VEYRT'?'Veyrthalis':s.name})));
- for(const item of items){const b=htmlNode('button',{type:'button',text:item.label},host);b.classList.toggle('active',state.scale===item.id);b.setAttribute('aria-pressed',String(state.scale===item.id));b.onclick=()=>{state.scale=item.id;state.layers=new Set(item.id==='WORLD'?['ROUTES','PLACES','MEMORY']:['ELEVATION','STONE','LICHEN','WATER','PASSAGES','SETTLEMENTS','MEMORY']);render()};}
+ for(const item of items){const b=htmlNode('button',{type:'button',text:item.label},host);b.classList.toggle('active',state.scale===item.id);b.setAttribute('aria-pressed',String(state.scale===item.id));b.onclick=()=>{state.scale=item.id;state.layers=new Set(item.id==='WORLD'?['ROUTES','PLACES','MEMORY']:['ELEVATION','STONE','LICHEN','WATER','PASSAGES','SETTLEMENTS','MEMORY']);window.GEEHUB_ENVIRONMENT?.transition('NOTICE','The Atlas enters '+item.label+'. The new scale inherits only authored coordinates and relationships.');render()};}
 }
-function render(){renderScales();renderLayers();if(state.scale==='WORLD')drawMacro();else drawLocal(state.scale);renderSelection();if(!$('status').textContent.startsWith('WATER LAYER'))$('status').textContent='DATA LOADED / '+(data.world.regions||[]).length+' WORLD TERRITORIES / '+(data.spatial.routes||[]).length+' WORLD ROUTES';}
+function renderStoryPin(){const pin=data.current;if(!pin){$('storyPinName').textContent='NO ACTIVE ENCOUNTER';$('storyPinStatus').textContent='The shared world-state has no active encounter.';$('storyPinText').textContent='';$('storyPinSource').textContent='';return}const region=(data.world.regions||[]).find(r=>r.id===pin.regionId);$('storyPinName').textContent=pin.regionName||pin.regionId;$('storyPinStatus').textContent=region?'PLACED · CANONICAL WORLD COORDINATES':'UNPLACED · A GEOGRAPHIC SURVEY IS REQUIRED';$('storyPinText').textContent=(pin.intent||'Active encounter')+' / '+(pin.subject?.agent||'unknown subject')+' / scale '+(pin.subject?.scale??'not recorded')+'. '+(pin.delta||[]).join(' · ');$('storyPinSource').textContent='RECORDING / '+(data.worldState?.activeRecording||'not specified')+' / SNAPSHOT '+(data.worldState?.snapshot||'not specified');}\nfunction render(){renderScales();renderLayers();if(state.scale==='WORLD')drawMacro();else drawLocal(state.scale);renderSelection();if(!$('status').textContent.startsWith('WATER LAYER'))$('status').textContent='DATA LOADED / '+(data.world.regions||[]).length+' WORLD TERRITORIES / '+(data.spatial.routes||[]).length+' WORLD ROUTES';}
 async function load(){
  try{
   const files=await Promise.all(['../world.json','../hub/spatial-world.json','../geo-cyberspace/detailed-maps.json','../hub/world-state.json'].map(async path=>{const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path+' returned '+r.status);return r.json()}));
   [data.world,data.spatial,data.detailed,data.current]=files;
-  data.current=data.current?.activeEncounter||null;
+  data.worldState=data.current;data.current=data.worldState?.activeEncounter||null;renderStoryPin();
   state.layers=new Set(['ROUTES','PLACES','MEMORY']);
   render();
   $('detailText').textContent='The World Survey is the repository-wide geography. Select a territory to open its source record; use the local scales to enter Kingdom Land, Veyrthalis, and the Complex.';

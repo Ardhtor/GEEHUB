@@ -89,3 +89,12 @@ Gabe takes up permanent residence in the Canvas House, a large mansion in the pa
 ## Chapter VI — the Long Return
 
 Gabe helps make the Long Return a playable shared route rather than an endurance contest. He adds a warm-up point, a recovery bench, alternate paths, and the freedom to stop or join halfway through. The eastern hollow is a recreational place, not a stage for constant observation. Gabe continues to protect his private recovery spaces and chooses when to invite others into the Canvas House.
+
+
+## Provisional relationship branch — Ian Kistner and Kirk (24 November 2026)
+
+A new working story branch places Gabe in a developing love-triangle configuration with Ian Kistner and Kirk. Keep the three pairwise possibilities distinct rather than assuming a settled triad: Gabe/Ian, Gabe/Kirk, and Ian/Kirk. The draft explores how Gabe's attention may be affected when Ian and Kirk begin to develop a rapport that is not mediated by Gabe.
+
+This is provisional continuity, not a replacement for Gabe's established relationship history. His deliberately paced attraction to Dorian remains part of the record and is not declared ended by the new chapter. His Book II residence in the Canvas House remains unchanged. The new branch has not yet been assigned a date or a specific scene location within the Four Mansions sequence.
+
+Gabe's agency remains central: he may initiate, welcome, question, or decline any development. Do not make him a prize between two men or assume he is comfortable with every possible arrangement. Ian's biography and the exact nature of Kirk's attraction remain open until developed in story.

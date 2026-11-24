@@ -1,4 +1,4 @@
-# GEEHUB — BOOK I MISSING CHAPTERS / CONTINUITY PASS
+# Book I — Missing Chapters / Continuity Pass
 
 ## Chapter XXIV: The House of the Seventh Light
 
@@ -178,7 +178,7 @@
 
      The road began at the eastern gate and continued into the forest. It was not made from stone. It was made from memory.
 
-     Every few yards another footprint appeared, and each footprint belonged to somebody who had once crossed the city. Soldiers. Children. Physicians. Device Men. The sister from the lake. The keeper. The first man. People whose names had been lost.
+     Every few yards another footprint appeared, and each footprint belonged to somebody who had once crossed the city. Soldiers. Adult travelers. Physicians. Device Men. The sister from the lake. The keeper. The first man. People whose names had been lost.
 
      The men walked among them.
 
@@ -198,7 +198,7 @@
 
      They continued.
 
-     The road became crowded with possible histories. A man would appear beside them for a few steps and then disappear. A woman carrying a lantern walked beside Joseph. A child followed Kirk. Tyler heard someone calling his name from a bridge that did not exist.
+     The road became crowded with possible histories. A man would appear beside them for a few steps and then disappear. A woman carrying a lantern walked beside Joseph. An adult traveler followed Kirk. Tyler heard someone calling his name from a bridge that did not exist.
 
      None of them turned.
 
@@ -270,7 +270,7 @@
 
      Luke asked for nothing.
 
-     A faceless child approached him.
+     A faceless adult resident approached him.
 
      “You forgot something.”
 
@@ -278,13 +278,13 @@
 
      “What?”
 
-     The child held out a photograph.
+     The resident held out a photograph.
 
      It showed the five men standing beside the Sacred Fountain.
 
      There were only four men in the photograph.
 
-     The child pointed at the empty space.
+     The resident pointed at the empty space.
 
      “You forgot him.”
 
@@ -294,7 +294,7 @@
 
      “Who?”
 
-     The child smiled without a face.
+     The faceless resident tilted its head in a gesture that might have been a smile.
 
      “You'll know.”
 
@@ -426,7 +426,7 @@
 
      PLAY AGAIN.
 
-     The men had spent twenty years in hyperspace learning what the Hub did when nobody told it what to do. It generated rooms. It generated games. It generated weather, voices, bodies, maps, songs, arguments, meals, roads, and increasingly elaborate ways of bringing one event into contact with another.
+     The men had spent twenty years in hyperspace learning how each world behaved when left to itself. Rooms, games, weather, voices, bodies, maps, songs, arguments, meals, and roads came into being, each finding new ways to bring one event into contact with another.
 
      The first twenty-year session had begun as an experiment.
 
@@ -472,7 +472,7 @@
 
      Kirk did.
 
-     The Hub did not restart.
+     The place did not begin again.
 
      It continued.
 

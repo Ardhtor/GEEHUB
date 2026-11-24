@@ -67,6 +67,7 @@ jobs:
           node --check engine/long-play-runner.js
           node --check artifacts/runtime.js
           node --check engine/story-atlas.js
+          node --check worldspace/maps.js
           node --check engine/world-state-bridge.js
           node --check engine/screen-puncture.js
           node --check engine/world-autonomy.js

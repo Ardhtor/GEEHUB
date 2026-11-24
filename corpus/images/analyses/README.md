@@ -10,3 +10,5 @@ Five Library images have been visually reviewed and recorded using the shared GE
 - [GLA-025](./analysis-libimg-pectoral-025.json)
 
 These JSON records point to originals in the ChatGPT Library. They are analysis metadata, not copies of the source images. Byte-level duplicate detection and measured image registration remain pending.
+
+- [Pairwise image-comparison metrics](./PECTORAL_VARIATION_CLUSTER_001.comparison.json)

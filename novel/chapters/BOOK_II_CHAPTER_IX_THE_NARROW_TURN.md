@@ -290,7 +290,7 @@ Kirk replied with a simple confirmation.
 
 At the Record House, Chase placed the morning's failed and successful attempts side by side. Robert adjusted the theatre lighting; Gabe left the training court ready for the next resident; Joseph kept the revised cradle beside his tools. Each house carried a different part of the day's work.
 
-The pavilion stood open beneath the darkening trees. Tomorrow the residents would try the passage again. The Evermeasure would preserve what happened, whether they improved the method or found another fault. The Narrow Turn had become a test of shared control as much as strength, and the next attempt would show what they had learned.
+
 ---
 
 ## Continuity record

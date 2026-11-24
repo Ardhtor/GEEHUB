@@ -55,7 +55,7 @@ The source-analysis pass now runs independently of Blender and produces timestam
 python3 analyze_source.py /path/to/reference.mp4 --fps 2 --width 320 --output analysis.json
 ```
 
-It uses FFprobe for media metadata and FFmpeg to sample frames. The report records frame-change energy, likely cuts, coarse image-space movement cues, and held / slow / active intervals. See [SOURCE_ANALYSIS.md](SOURCE_ANALYSIS.md) for interpretation limits and the planned Studio integration. The analysis is deliberately separate from rendering: inspect and curate the reference track before using it to direct a new scene.
+It uses FFprobe for media metadata and FFmpeg to sample frames. The report records frame-change energy, likely cuts, coarse image-space movement cues, and held / slow / active intervals. See [SOURCE_ANALYSIS.md](SOURCE_ANALYSIS.md) for interpretation limits and the planned Studio integration. Normalize reviewed results into the shared [file-analysis schema](../schemas/file-analysis.schema.json), following the repository-wide [File Analysis Standard](../../docs/FILE_ANALYSIS_STANDARD.md); a motion report is not a complete visual analysis. The analysis is deliberately separate from rendering: inspect and curate the reference track before using it to direct a new scene.
 
 
 ## Rigged character foundation

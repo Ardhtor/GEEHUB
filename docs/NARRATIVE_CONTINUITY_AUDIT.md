@@ -39,6 +39,16 @@ The environmental rewrite identifies itself as *The House of Open Screens*, whil
 
 The previous `novel/BOOK_I_EXPANSION_REGISTER.json` claimed 72 completed chapters and 187,204 words in `novel/BOOK_I.md`, citing the empty-file blob. Those records were not supported by the file they named. The register has been rebuilt against `novel/REWRITTEN_OPENING.md`: 72 headings, approximately 38,150 words, with all chapters queued for review. The old 72 chapter records and completion claims remain in a `legacy_unverified_chapters` field rather than being deleted or treated as valid current status. The unusual heading `XLIX-I — The Men Who Stayed` is retained as authored and flagged for ordinal review. This current register describes the rewritten opening only; it does not settle Book I's title or consolidate the overlapping continuation files.
 
+## Character development — root cause of premature narrative decisions
+
+The current continuity problems are not all isolated naming or copy-editing errors. A deeper issue is that the main cast is often more clearly defined by narrative function than by lived individual history. Luke, Tyler, Chase, Gabe, Andrew, and Joseph have useful foundations and several have detailed personality records, but *The Unplanned Convergence* has not yet dramatized enough of their ordinary lives, private wants, specific relationships, misunderstandings, humour, and decisions outside the central mechanism. A role such as “memory” or “measurement” can be a starting point; it cannot stand in for a person.
+
+A concrete structural gap was found: the six-person ensemble had standalone records for Luke, Tyler, Chase, Gabe, and Andrew, but no Joseph record. A source-grounded [Joseph — Character Record](../characters/records/JOSEPH.md) has now been added. It consolidates what is established across the Convergence, the Joseph–Kirk continuity record, and the reaction-state model, while leaving appearance, personal biography, musical history, and other unsupported details open. The record explicitly distinguishes Joseph from Joey.
+
+A development map, [The Unplanned Convergence — Character Development Register](../novel/CYBER_BLACK_HOLE_CHARACTER_DEVELOPMENT.md), now identifies the gap between role and lived person for all six characters, along with concrete scene work still required. The novel's premature city-naming dialogue has been removed from Chapter Four. The glass plaque remains blank, and the men cross into the city without deciding what to call it. This is not a permanent decree that the world remain unnamed; it is a refusal to assign a collective choice before the characters have earned one through their shared lives.
+
+The next narrative revision should begin with individual baseline scenes and the first genuinely social encounters among the six. The goal is not more descriptive adjectives or more character-sheet prose. It is to make each man's decisions recognisably his own, and to let the group become a group through ordinary time, conflict, humour, care, and repair.
+
 ## Unresolved continuity questions
 
 ### First-person identity in “Three Years”

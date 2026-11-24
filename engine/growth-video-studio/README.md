@@ -504,9 +504,11 @@ and input preservation. The isolated Node 22.16.0 harness passed 10/10 tests
 and both syntax checks. The first repository package run executed 180 Node
 tests with 179 passing; a fixture-ordering issue was corrected so the
 compositor's own mask-overlap guard is reached after a valid plate is built.
-The focused rerun passed 10/10 tests. The corrected package workflow result was
-not yet available when this entry was written. No personal footage or local
-Dropbox/Resolve session was used.
+The focused rerun passed 10/10 tests. The corrected package workflow
+[45479018750](https://github.com/Ardhtor/GEEHUB/actions/runs/45479018750)
+completed successfully: all 189 Node tests, all 14 Resolve Free Lua tests,
+Lua 5.4 syntax validation, CLI syntax/help checks, package build, and artifact
+upload passed. No personal footage or local Dropbox/Resolve session was used.
 
 
 ## File-backed single-frame compositor
@@ -543,3 +545,11 @@ masks, scene-plate receipt, donor files, and output digest. Partial frames remai
 partial and retain their unresolved count. `readyForExport`,
 `cameraRegistrationIndependentlyVerified`, and `pixelSemanticsVerified` remain
 false. This produces one PNG candidate, not a video or a Resolve render.
+
+
+The file-backed compositor's nine integration tests passed in the same
+package workflow [45479018750](https://github.com/Ardhtor/GEEHUB/actions/runs/45479018750).
+The partial-frame fixture was corrected to use transparent black under zero
+alpha; the production guard was retained. The workflow also ran
+`node --check tools/compose-growth-frame.js` and
+`npm run compose:frame -- --help` successfully.

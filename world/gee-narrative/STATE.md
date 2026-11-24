@@ -285,3 +285,7 @@ Each item changes status only when evidence exists.
 - Branch head inspected before this increment: `6a5078e011f248627c3bbd5d7c746d88145bbc82`. No local Mac, Dropbox mirror, Resolve session, or personal footage was accessed.
 
 - First package run for this increment, [45478797759](https://github.com/Ardhtor/GEEHUB/actions/runs/45478797759), executed 189 Node tests: 188 passed and one new partial-frame fixture failed because it encoded non-zero RGB beneath zero alpha. The compositor correctly rejected that non-canonical transparent pixel. The fixture now writes transparent black for the zero-alpha sample; production validation was not relaxed. A corrected package run is pending.
+
+- Corrected package workflow [45479018750](https://github.com/Ardhtor/GEEHUB/actions/runs/45479018750) completed successfully on commit `1c18ad30e931dc64d3a32bb7753ada5ff5c55275`: 189/189 Node tests, 14/14 Resolve Free Lua tests, Lua 5.4 syntax validation, the new compositor CLI syntax/help checks, portable package build, and artifact upload all passed.
+- The first run's only failure was the partial-frame test fixture's non-zero RGB under zero alpha. The fixture now writes transparent black; the production rejection remains intact.
+- The separate data-validation workflow [45479018860](https://github.com/Ardhtor/GEEHUB/actions/runs/45479018860) still fails UI registry validation for four stale embedded project tuples: `information-portability`, `lineage-pantheon`, `hubby`, and `media-tools`. This is independent of the Studio package workflow.

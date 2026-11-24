@@ -70,7 +70,7 @@ function act(id,actionId){
  const s=read(),ls=localScene(s,id),at=time(),item={id:id+'-'+actionId+'-'+Date.now(),title:a[1],text:a[4],moment:a[2],at};
  ls.moment=a[2];ls.lastText=a[4];ls.history.unshift(item);ls.history=ls.history.slice(0,24);s.scenes[id]=ls;s.lastScene=id;s.lastEvent=item;write(s);render(id,false);
  const recipient=({world:'luke',making:'tyler',people:'andrew',story:'joseph',archive:'chase'})[a[5]]||'joseph';
- const event={id:item.id,type:'UTTERANCE',category:a[5],from:'you',to:recipient,title:cfg.title+' / '+a[1],body:a[4],source:'book-two-story-environment',live:true,at};
+ const event={id:item.id,type:'ENCOUNTER',category:a[5],from:'you',to:recipient,title:cfg.title+' / '+a[1],body:a[4],source:'book-two-story-environment',live:true,at};
  if(window.GEEHUB_INTERACTION?.emit)window.GEEHUB_INTERACTION.emit(event);else document.dispatchEvent(new CustomEvent('geehub:interaction',{detail:event}));
  document.dispatchEvent(new CustomEvent('geehub:book-two-scene-event',{detail:{...item,scene:id,location:cfg.location}}));
  window.GEEHUB_ENVIRONMENT?.transition(a[3],a[4]);
@@ -82,7 +82,7 @@ function pinContribution(id){
  ls.exhibits.unshift(item);ls.exhibits=ls.exhibits.slice(0,20);ls.moment='exhibit';ls.lastText='A new contribution has been pinned to the experimental exhibition. It remains separate from established canon until deliberately adopted.';
  ls.history.unshift({id:item.id,title:'A new contribution joins the exhibition',text:ls.lastText,at});ls.history=ls.history.slice(0,24);s.scenes[id]=ls;s.lastScene=id;s.lastEvent=item;write(s);
  window.GEEHUB_ARTIFACTS?.emit?.({type:'EXPERIMENTAL STORY EXHIBIT',title:'EVERMEASURE / '+text.slice(0,64),body:text,source:'book-two-story-environment',canon:'experimental',lineage:'Book II / Evermeasure Exhibition'});
- const event={id:item.id,type:'UTTERANCE',category:'making',from:'you',to:'tyler',title:'A contribution joins the Evermeasure Exhibition',body:text,source:'book-two-story-environment',live:true,at};
+ const event={id:item.id,type:'ENCOUNTER',category:'making',from:'you',to:'tyler',title:'A contribution joins the Evermeasure Exhibition',body:text,source:'book-two-story-environment',live:true,at};
  if(window.GEEHUB_INTERACTION?.emit)window.GEEHUB_INTERACTION.emit(event);else document.dispatchEvent(new CustomEvent('geehub:interaction',{detail:event}));
  render(id,false);
 }

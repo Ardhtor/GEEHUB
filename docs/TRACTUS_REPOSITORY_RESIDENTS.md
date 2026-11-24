@@ -2,7 +2,7 @@
 
 ## Canon
 
-The Tractus is a lived world as well as a repository. Seth Feroce and Nick Mercx are recurring residents of that world. They can occupy its places, move through its interfaces, open its files on computers, read code, discuss what they find, and make changes that affect the world they inhabit. Their work is not confined to the emulator, a single project, or a designated narrative surface. When the scene calls for it, they can encounter and work across the repository.
+The Tractus is the continuity architecture through which the repository's records, stories, places, and changes remain connected. In the Seth and Nick branch, that architecture also has a lived-world expression: Seth Feroce and Nick Mercx are recurring residents of a setting whose computers and interfaces open onto connected records. They can occupy its places, move through its interfaces, open files on computers, read code, discuss what they find, and make changes that affect the places they inhabit. Their work is not confined to the emulator, a single project, or a designated narrative surface. When the scene calls for it, they can encounter and work across the repository. This describes that branch; it does not establish “Tractus” as the name of every world connected through the continuity model.
 
 Computers are part of the setting's material environment: desks, screens, keyboards, terminals, browsers, source trees, and the visible differences a code change makes. A programming scene should show the men attending to a real file or behavior, forming an intention, making an edit, and noticing its consequence. Their actions can carry narrative continuity across chapters and projects.
 

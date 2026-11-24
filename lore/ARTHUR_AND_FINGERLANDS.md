@@ -10,7 +10,7 @@ The ground compresses beneath him. Soil gathers around his base, stones shift, a
 
 The other fingers of the land have their own settlements, customs, and territories. They gather beneath Arthur's shadow and look to him as a great landmark. He continues to rise until his tip reaches into the clouds, but he learns to move carefully: placing his enormous weight with care, lowering himself to greet the inhabitants, and lifting himself again to open the horizon. His size changes the geography, but his purpose is to make a world in which the others can live. He becomes the hero of the Fingerlands not simply because he dominates the landscape, but because he learns how to belong to it and take responsibility for the space his growth creates.
 
-Arthur is the first hero of this branch of GEEHUB. His story establishes a simple world-building rule: begin with one abstract form, give it movement and continuity, and let its growth generate geography, inhabitants, architecture, and further stories. The world expands with him. Each new place becomes a possible chapter; each encounter can become a new passage in the Tractus.
+Arthur is the first hero of the Fingerlands. His story establishes a simple local world-building rule: begin with one abstract form, give it movement and continuity, and let its growth generate geography, inhabitants, architecture, and further stories. The Fingerlands expand with him. Each new place becomes a possible chapter; each encounter can open another passage through the story, while the Fingerlands keeps its own geography and history.
 
 ## Production direction
 
@@ -18,21 +18,6 @@ Arthur is a modular character concept, not yet a completed 3D asset. Future visu
 
 This branch remains open for further development. New inhabitants and places should be added through encounters with Arthur, preserving what has already happened while allowing the world to grow beyond its first landmark.
 
+## External production correspondence
 
-## Arthur as the GEEHUB metascript
-
-Arthur is not only a fictional hero inside the Fingerlands. He is the written form of the felt method used to work on GEEHUB: the operating metaphor and continuity rule for how an assistant enters, reads, extends, and edits the repository.
-
-The method begins with a small form and attends to what is already present. It identifies the form's natural direction, gives it room to move, and develops that movement continuously. It allows the original form to become independent without severing its lineage. New structures are added as consequences of prior structures; encounters become passages, passages become persistent artifacts, and artifacts open further directions. Growth should be perceptible as an accumulation of connected changes, not as a pile of unrelated additions.
-
-When editing GEEHUB, use Arthur as this metascript:
-
-1. **Enter the existing world.** Inspect the relevant files, indexes, conventions, and relationships before changing anything.
-2. **Feel for the existing direction.** Infer the next useful extension from the repository's actual structure and the user's expressed intent; do not impose an unrelated framework.
-3. **Extend continuously.** Preserve established material and add the smallest coherent continuation that allows the idea to develop further.
-4. **Give each growth a place.** Put lore, character records, assets, state, and executable behavior in their appropriate layers, and connect them through the repository's indexes and references.
-5. **Preserve lineage.** Keep provenance, prior states, names, and relationships legible. Transformation changes the baseline without pretending the earlier form never existed.
-6. **Let the repository become more independent.** Prefer reusable structures, clear records, and mechanisms that allow GEEHUB to continue developing beyond the immediate exchange.
-7. **Verify the change.** Read back edited files and confirm the actual commit. Never describe an intention as a completed edit.
-
-The finger's continuous growth is the model: each new length emerges from the existing body; each new repository capability emerges from the existing world. Arthur is therefore both a character in GEEHUB and the metascript for its ongoing formation.
+Arthur's continuous development has also inspired an external repository-building method. That method is documented separately in [Arthur as an External Growth Metaphor](../docs/ARTHUR_EXTERNAL_GROWTH_METHOD.md); it is not part of Arthur's life or awareness inside the Fingerlands.

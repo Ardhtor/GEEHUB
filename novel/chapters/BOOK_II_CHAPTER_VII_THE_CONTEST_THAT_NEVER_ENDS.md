@@ -260,6 +260,7 @@ The Evermeasure would still invite excess. Someone would always want a harder ro
 - **Kirk:** enjoys the men's inventiveness but retains bodily autonomy. No one may request a movement as a performance or treat his attention as a prize.
 - **Joseph and Andrew:** their existing attention conflict continues; competition in the pavilion does not turn access to Kirk into a scored contest.
 - **Future rule:** wins remain meaningful but temporary. The next challenge is always possible; no final champion closes the book's competitive engine.
+- **Play and recovery:** the board's governing note is **The game may continue; the man may stop.** Attempts, methods, and recoveries can be recorded, but no player is required to repeat a demonstration or remain in a contest. Different kinds of achievement stay in distinct categories; no single score ranks the men.
 
 
 ## Next chapter — A Day in the Open Pavilion

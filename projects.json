@@ -1798,14 +1798,15 @@
     "kind": "engine",
     "repo": "Ardhtor/GEEHUB",
     "path": "/hub/index.html",
-    "description": "The current GEEHUB core: a living visual memory/world engine in which encounters become scenes, scenes become memories, memories alter the world, and the next state emerges from continuity rather than a reset.",
+    "description": "GEEHUB's visual-memory and experiential surface within the Universal Growth Engine: encounters become inspectable scenes and artifacts, accumulated states inform the next pass, and RUN continues the world through existing continuity and production systems.",
     "related": [
       "vision-workspace",
       "the-complex",
       "media-tools",
       "discovery",
       "beefythiq",
-      "information-portability"
+      "information-portability",
+      "universal-growth-engine"
     ],
     "tags": [
       "sensation",
@@ -1947,11 +1948,12 @@
     "kind": "governance",
     "repo": "Ardhtor/GEEHUB",
     "path": "/docs/TRACTUS_CONTINUITY_CONTRACT.md",
-    "description": "Canonical continuity model connecting GEEHUB's event inscription, world state, narrative writer, queue, artifact ledger, Atlas registries, and cross-repository exchange. Defines traceable passages and canon boundaries.",
+    "description": "Canonical continuity and inheritance contract for the Universal Growth Engine, connecting event inscription, world state, narrative, queue, artifact ledger, Atlas registries, and cross-repository exchange. Defines traceable passages and canon boundaries.",
     "related": [
       "vision-workspace",
       "sensation-engine",
-      "information-portability"
+      "information-portability",
+      "universal-growth-engine"
     ],
     "tags": [
       "tractus",
@@ -2023,13 +2025,14 @@
     "group": "workspace",
     "repo": "Ardhtor/GEEHUB",
     "path": "/docs/GROWTH.md",
-    "description": "A shared approach to gradual development, research, continuity, and making across the repository.",
+    "description": "Shared operating practice for the Universal Growth Engine: encounter, inspect, research, interpret, experiment, make bounded growth passes, review, integrate, and continue from inherited state across GEEHUB.",
     "related": [
       "tractus-continuity",
       "visual-evidence-ledger",
       "sensation-engine",
       "whole-world-expansion",
-      "tractus-execution-paths"
+      "tractus-execution-paths",
+      "universal-growth-engine"
     ],
     "tags": [
       "growth",
@@ -2181,10 +2184,11 @@
       "joey-colossus-chronicles",
       "institute-of-becoming",
       "beefythiq",
-      "veyrthalis"
+      "veyrthalis",
+      "universal-growth-engine"
     ],
     "kind": "editorial-framework",
-    "description": "Repository-wide directive for expanding GEEHUB as an inhabited, interconnected creative system: people, places, independent worlds, games, systems, media, research, continuity, and production."
+    "description": "Repository-wide directive for expanding GEEHUB as an inhabited, interconnected creative system, governed by the Universal Growth Engine across people, places, independent worlds, games, systems, media, research, continuity, and production."
   },
   {
     "id": "workplace-charter",
@@ -2247,6 +2251,38 @@
     "related": [
       "the-complex",
       "vision-workspace"
+    ]
+  },
+  {
+    "id": "universal-growth-engine",
+    "name": "Universal Growth Engine",
+    "status": "active",
+    "kind": "architecture",
+    "group": "engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/docs/GROWTH.md",
+    "description": "Repository-wide governing architecture through which GEEHUB's corpus, interfaces, characters, media, research, tools, environments, and production workflows encounter inputs, recognize patterns, assimilate evidence, grow through bounded transformations, differentiate into branches, and preserve continuity through inherited states. Implemented through existing ledgers, runtimes, registries, and interfaces; it is not a parallel event log, canon store, artifact ledger, or standalone runtime.",
+    "related": [
+      "growth",
+      "sensation-engine",
+      "tractus-continuity",
+      "visual-evidence-ledger",
+      "whole-world-expansion",
+      "information-portability",
+      "shared-interaction-space",
+      "geehub-compendium",
+      "tractus-execution-paths"
+    ],
+    "tags": [
+      "universal-growth-engine",
+      "growth",
+      "inheritance",
+      "transformation",
+      "continuity",
+      "provenance",
+      "research",
+      "production",
+      "cross-pollination"
     ]
   }
 ]

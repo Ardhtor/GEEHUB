@@ -125,6 +125,7 @@ The second book follows the living geography of Kirk's extraordinary anatomy, th
 - [Chapter VI — The Game Between the Houses](./chapters/BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md)
 - [Chapter VII — The Contest That Never Ends](./chapters/BOOK_II_CHAPTER_VII_THE_CONTEST_THAT_NEVER_ENDS.md)
 - [Chapter VIII — A Day in the Open Pavilion](./chapters/BOOK_II_CHAPTER_VIII_A_DAY_IN_THE_OPEN_PAVILION.md)
+- [Chapter IX — The Narrow Turn](./chapters/BOOK_II_CHAPTER_IX_THE_NARROW_TURN.md)
 - [The Evermeasure — Competitive Doctrine](./chapters/BOOK_II_COMPETITIVE_DOCTRINE.md)
 
 ## Cross-book continuity and chapter propagation

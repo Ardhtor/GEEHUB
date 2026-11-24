@@ -28,8 +28,6 @@ One branch descended toward a low amber light. The other curved upward into a na
 
 The leader examined the ground. There were shallow impressions in the dust, some old and softened, others distinct enough to show the tread of boots. They belonged to more than one person. The trail had not been made by a solitary traveller. A company had passed this way, perhaps several times.
 
-They chose the upward branch.
-
 The choice was not made because the upper route looked easier. It was narrower, and the light beyond it was less certain. The lower branch appeared to descend toward a wider space, but the floor there carried a fresh layer of dust that had not settled evenly. Vale was not yet with them, and none of the newcomers knew whether the old markings indicated that the lower route had been checked recently or merely that someone had once intended to return by it.
 
 Marcus crouched beside the sixth post. The circle and paired lines had been cut deeply enough to survive the wear on the wood. He compared the mark with the drawing in the surveyor's notebook, then looked at the two branches. The surveyor did not claim to know which one the sign favoured.
@@ -144,7 +142,7 @@ The answer stayed with the leader.
 
 In the common hall, the visitors were given a place at the table. A meal was brought out: thick bread, roasted roots, a bowl of beans, and slices of fruit preserved in syrup. The food was plain and carefully prepared. The men ate while Oren explained the marks on the trail. The central line indicated the route itself. The circle identified a stable meeting place. A single branch meant that the passage had been checked once; two branches meant it had been checked on separate journeys. A mark crossed through by a short line meant that the route had changed and should not be trusted without a new survey.
 
-The surveyor opened his notebook and compared the symbols. The sixth post had not indicated a destination. It had warned them that the fork was unresolved.
+The surveyor opened his notebook and showed Senn the sixth post's symbol.
 
 Senn asked to see the surveyor's full sequence, not just the copied symbols. They placed the notebook beside the register and followed the marks from the First Shelter to the fork. The first three signs were consistent. The fourth appeared in two forms. The fifth repeated the circle. The sixth was not a destination at all but a notice that the route had not been settled.
 
@@ -166,9 +164,7 @@ The surveyor copied the additional fields into his notebook. He understood that 
 
 “We had to make one,” Oren replied. “At first everyone used his own marks. Then two men returned with different names for the same chamber, and neither could find the other's route. We began keeping one register.”
 
-The Measure House register was kept in a wooden cabinet near the hall. Oren brought it out and placed it on the table. The pages held routes, observations, names, and dates. Some entries were brief. Others described entire journeys. The oldest pages were written in a hand that had become familiar through repetition. The newest were still being added.
-
-Senn opened the cabinet fully and showed the surveyor how the pages were arranged. The earliest maps sat in shallow drawers beneath the register. A narrow shelf held copies that could be carried on a journey; the originals remained flat and protected from the damp passages. Beside them were small packets of notes, each tied with cord and labelled with the route from which it had come. The archive was not complete. Some entries ended halfway through a sentence. Others contained a place name without a description, or a description without a reliable route back to the place.
+Oren brought the Measure House register from the wooden cabinet near the hall and placed it on the table. Senn opened the cabinet fully and showed the surveyor how the pages were arranged. The earliest maps sat in shallow drawers beneath the register. A narrow shelf held copies that could be carried on a journey; the originals remained flat and protected from the damp passages. Beside them were small packets of notes, each tied with cord and labelled with the route from which it had come. The archive was not complete. Some entries ended halfway through a sentence. Others contained a place name without a description, or a description without a reliable route back to the place.
 
 The surveyor asked whether the missing portions had been lost.
 

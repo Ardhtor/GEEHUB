@@ -181,3 +181,40 @@ Five additional images were visually inspected and assigned specific reference r
 The atlas identifies and describes source images; it does not by itself certify the quality of a derived render. All important GEEHUB visual outputs must now be reviewed against the supplied attached reference using the [Visual Quality Acceptance Standard](VISUAL_QUALITY_ACCEPTANCE_STANDARD.md). A source entry should lead to exact comparison frames, continuity checks, and a recorded review status. Blockouts and exploratory renders remain provisional; only human-reviewed outputs that pass the applicable identity, anatomy, pose, material, camera, environment, and temporal gates may be marked ACCEPTED.
 
 The Library remains the source collection. The atlas records what is available, the Visual Evidence Ledger records what the source visibly establishes, and the quality standard determines whether new work meets the required visual finish.
+ 
+
+## Batch 5 — Pectoral morphology and variation cluster
+
+These five Library images were opened and reviewed individually, then compared as a visual cluster. Their pectoral masses are exceptionally dominant, with broad deltoids and arms, a segmented abdomen, a similar near-frontal vertical crop, blue denim at the lower edge, and a plain indoor background. The shared construction supports a **visual similarity candidate** relationship only. No common identity, exact duplicate, chronological order, or growth progression is established. The five full records and the comparative analysis are maintained in [Pectoral Variation Cluster 001](../corpus/images/analyses/PECTORAL_VARIATION_CLUSTER_001.md).
+
+### GLA-021 — Intense Hyper-Muscular Bodybuilder Portrait
+- **Library file:** `Intense Hyper-Muscular Bodybuilder Portrait.png`
+- **Library file ID:** `file_00000000ea0081f5912c3b708e07f1d8`
+- **Direct observation:** Near-frontal close portrait with extraordinarily broad, rounded pectoral forms; very large deltoids and arms; sharply segmented abdomen; hands near a blue denim waistband; plain indoor background.
+- **Use:** Candidate pectoral/shoulder morphology and high-detail surface reference; not an identity anchor.
+
+### GLA-022 — Massive Hyperreal Bodybuilding Portrait
+- **Library file:** `Massive Hyperreal Bodybuilding Portrait.png`
+- **Library file ID:** `file_00000000fbb081f59d675c8d9d6c6433`
+- **Direct observation:** Similar chest-dominant portrait composition, rounded pectoral masses, broad shoulders and arms, segmented abdomen, denim waistband, and softly lit room.
+- **Use:** Comparative variant candidate; do not assign a growth-stage position without sequence evidence.
+
+### GLA-023 — Massive Shirtless Bodybuilder Portrait
+- **Library file:** `Massive Shirtless Bodybuilder Portrait.png`
+- **Library file ID:** `file_00000000e59881f58e00b0edfb6761d9`
+- **Direct observation:** Near-frontal portrait with large rounded chest forms spanning most of the image width, strong pectoral-to-abdomen transition, voluminous arms, and denim bottoms.
+- **Use:** Chest volume, central separation, and lower pectoral contour reference; not a calibrated anatomy source.
+
+### GLA-024 — Hyper-Muscled Bodybuilding Portrait
+- **Library file:** `Hyper-Muscled Bodybuilding Portrait.png`
+- **Library file ID:** `file_0000000094e881f58751177fdc6af3d1`
+- **Direct observation:** Chest-forward display pose, oversized pectorals, heavily developed deltoids and arms, defined abdominal region, and pronounced surface texture.
+- **Use:** Pectoral/arm framing and surface-response reference; source creation method unknown.
+
+### GLA-025 — Hyper-Muscular Bodybuilder Portrait (1)
+- **Library file:** `Hyper-Muscular Bodybuilder Portrait(1).png`
+- **Library file ID:** `file_000000001adc81f593c2b93609344207`
+- **Direct observation:** Closely related chest-dominant vertical portrait with very broad rounded pectorals, massive arms, sharply segmented abdomen, denim bottoms, and a plain indoor setting.
+- **Use:** Keep as a separate variant pending exact-image comparison; no canonical character assignment.
+
+**Batch 5 status:** five images content-inspected; five individual records created; four proposed visual-similarity links per record; no hashes or pixel-alignment metrics; no identity or chronology claim. The atlas now holds twenty-five entries from the 234-image inventory baseline, not a complete inspection of the inventory.

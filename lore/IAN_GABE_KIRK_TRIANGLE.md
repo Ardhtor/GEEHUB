@@ -58,3 +58,11 @@ The Familiarity Paradox can operate as a quiet structural principle: each person
 **Open thread:** Which of the three is first to speak plainly about what he wants?
 
 **Open thread:** Does the triangle become a committed three-person relationship, remain an evolving set of overlapping attachments, or discover another form altogether?
+
+## Cross-book continuity status — 24 November 2026
+
+This is a provisional relationship branch and has not yet been placed as a numbered chapter in a manuscript. Its influence map is maintained in [The Three Books Moving at Once](../novel/THREE_BOOKS_IN_MOTION.md), under the mandatory [Whole-Manuscript Chapter Expansion protocol](../novel/CHAPTER_EXPANSION_PROTOCOL.md).
+
+The Road of Seven Wells receives a continuity guardrail only at present; Joseph and Kirk's eventual partnership remains intact. The Golden Lion and the Seven Great Houses has no direct connection established. The Many Open Ends may later carry an ensemble consequence, but no crossover is assumed. The Book II residential sequence is the strongest possible setting because Gabe's Canvas House and Kirk's paired residential country already exist; any numbered continuation must reconcile Ian's arrival, Gabe's Dorian connection, Andrew's attention to Kirk, and Joseph's established relationship with Kirk.
+
+Ian's biography, voice, appearance, residence, and chronology remain open. The three pairwise bonds are possibilities, not a settled triad. This draft must influence the books through specific, credible consequences, not by forcing every book to stage the same event.

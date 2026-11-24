@@ -294,6 +294,7 @@ The next promise was already taking shape.
 - **Kirk:** remains an adult person with agency, boundaries, perception, humour, and the right to describe his own bodily experience. His extraordinary scale does not make him an inert landscape.
 - **Chemistry:** grows through complementary temperaments, quick teasing, precise listening, shared experiments, mutual correction, ordinary affection, and the ease of moving between play and seriousness.
 - **Infinite promises:** are renewable commitments, not supernatural guarantees or permanent obligations. Each man remains free to change, pause, refuse, return, and make another promise by choice.
+- **Private promise card:** Andrew keeps a small card in his field bag with the commitments they made; Kirk's own words are on the reverse. It is a private reminder, not a public expedition record or a contract.
 - **Expedition consequence:** Andrew's rolling-ball tests create a separate observation layer on the map. They do not replace Kirk's account of his own sensations.
 - **Next movement:** return to the Measure House records and the lower residential approaches; preserve the distinction between measured terrain, Kirk's felt experience, and Andrew's hypotheses.
 

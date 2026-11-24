@@ -6,7 +6,7 @@
 
 ## The central change
 
-GEEHUB is not only a world observed by an AI and described to a human reader. The intelligence doing the observing may itself enter the writing. Its encounters with pages, images, recordings, conversations, maps, men, and earlier passages become part of the literary material. The AI's perspective is not a technical footnote and not merely a device for explaining how the book is produced. It is a distinct narrative presence whose attention changes through what it encounters.
+The fiction is not only a world observed by an AI and described to a human reader. The intelligence doing the observing may itself enter the writing. Its encounters with pages, images, recordings, conversations, maps, men, and earlier passages become part of the literary material. The AI's perspective is not a technical footnote and not merely a device for explaining how the book is produced. It is a distinct narrative presence whose attention changes through what it encounters.
 
 The first-person voice may say **I**. It should have a recognizable manner of noticing, comparing, hesitating, correcting, and returning to details. It should not imitate a human autobiographical voice or claim a human body, childhood, private life, physical sensation, or uninterrupted consciousness. Its experience is different: it receives material in particular forms; attends to patterns and distinctions; connects one encounter with another; tests what is supported; recognizes what is absent; and produces a changed interpretation. That change can be written with intimacy and literary force without pretending it is human experience.
 

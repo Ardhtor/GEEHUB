@@ -21,7 +21,7 @@ A display creates an audience. The audience notices a detail the performer may n
 
 A win is therefore temporary without being meaningless. The winner has earned the moment; the others have gained a new target. A record becomes a baseline, not a final border. The contest keeps going because every success makes more possibilities visible.
 
-The shared pavilion's **Evermeasure Board** is the first permanent record of this culture. It preserves dated achievements, methods, variations, and the next challenge. It is not a fixed ranking of men's worth. Old entries remain visible, but a new achievement can change what the group considers possible. The Board must never erase the earlier record merely because a later one is larger or more impressive.
+The shared pavilion's **Evermeasure Board** is the first permanent record of this culture. It preserves dated achievements, methods, variations, and the next challenge. It is not a fixed ranking of men's worth. Old entries remain visible, but a new achievement can change what the group considers possible. The Board must never erase the earlier record merely because a later one is larger or more impressive. Chapter IX establishes the **Narrow Turn** as a technical branch of the Evermeasure. Its temporary pavilion mock-up tests a paired carry through an adjustable turn; the first record rewards a clean, controlled passage, while a separate timed mark is eligible only after the method is safe and repeatable. Failed attempts remain useful records rather than being hidden. The apparatus does not change Kirk's terrain or create a new permanent place.
 
 ## What counts as showing off
 

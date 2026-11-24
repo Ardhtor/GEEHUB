@@ -11,12 +11,13 @@ The documentation folder contains the repository's technical contracts, editoria
 - [Tractus Protection Architecture](TRACTUS_PROTECTION_ARCHITECTURE.md) — protection rules for canon, archives, identity, permissions, secrets, integrity, publication, backups, and recovery.
 - [Information Portability](INFORMATION_PORTABILITY.md) — how consequential information moves into every affected layer and remains retrievable.\n- [Repository Residents and In-World Computing](TRACTUS_REPOSITORY_RESIDENTS.md) — repo-wide narrative canon for Seth and Nick living in The Tractus and acting through its computers.
 - [Chat ↔ World Asset Memory Bridge](CHAT_ASSET_MEMORY_BRIDGE.md) — importing, linking, and preserving conversation and visual source material.
+- [File Analysis Standard](FILE_ANALYSIS_STANDARD.md) — source-grounded inspection across images, video, audio, documents, code, spreadsheets, and archives.
 
 **Up:** [repository root](../README.md) · [Hub](../hub/README.md) · [full directory map](REPOSITORY_NAVIGATION.md)
 
 ## Files
 
-### MD (71)
+### MD (72)
 
 - [`ACCESSIBLE_CONSTELLATION.md`](./ACCESSIBLE_CONSTELLATION.md)
 - [`ACCESSIBLE_REPOSITORIES_2026-09.md`](./ACCESSIBLE_REPOSITORIES_2026-09.md)
@@ -36,6 +37,7 @@ The documentation folder contains the repository's technical contracts, editoria
 - [`ENVIRONMENTAL_TRANSITIONS.md`](./ENVIRONMENTAL_TRANSITIONS.md)
 - [`EXPERIENCE_FIRST_ARCHITECTURE.md`](./EXPERIENCE_FIRST_ARCHITECTURE.md)
 - [`FEASIBILITY_WORKBENCH.md`](./FEASIBILITY_WORKBENCH.md)
+- [`FILE_ANALYSIS_STANDARD.md`](./FILE_ANALYSIS_STANDARD.md)
 - [`FICTION_MEMORY.md`](./FICTION_MEMORY.md)
 - [`FINDING_AND_GENERATING_GROWTH_CONTENT.md`](./FINDING_AND_GENERATING_GROWTH_CONTENT.md)
 - [`GEEHUB_EXECUTION_PATHS.md`](./GEEHUB_EXECUTION_PATHS.md)

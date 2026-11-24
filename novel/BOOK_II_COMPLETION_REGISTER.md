@@ -46,7 +46,7 @@ All nine chapter mirrors were read back after synchronization. Their Markdown bo
 | Chapter | Dropbox Paper mirror | Paper revision | GitHub source blob |
 | --- | --- | ---: | --- |
 | I — The Lost Country | [Open in Dropbox](https://www.dropbox.com/scl/fi/gpx1ba1ijqb6qhfv7igop/Book-II-Chapter-I_-The-Lost-Country.paper?dl=0) | 3 | `93746ac7c4d087b97a499e643e62902cd7bfe463` |
-| II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 3 | `0ef434c0b1d5b1c2ddd9db60ea892666237188dc` |
+| II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 4 | `796b5519741b480fae6fdec9f9b11c55211abe2e` |
 | III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?dl=0) | 3 | `5f6498b354af34b49fe02d8c2cb35509a4c0ecb2` |
 | IV — The Promises That Keep | [Open in Dropbox](https://www.dropbox.com/scl/fi/64o1zoq6rm7gw06iascz0/Book-II-Chapter-IV_-The-Promises-That-Keep.paper?dl=0) | 2 | `bd85a9bca132296bd7e428b72a58905ae4c4e164` |
 | V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?rlkey=wtw4jngbq18h1eov3ov1vvhhg&dl=0) | 2 | `1bd08c1b52d38df531ff7d40933e8a2af99bad05` |

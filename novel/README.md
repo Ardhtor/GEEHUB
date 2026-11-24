@@ -136,6 +136,8 @@ The second book follows the living geography of Kirk's extraordinary anatomy, th
 
 ## Cross-book continuity and chapter propagation
 
+- [Narrative Continuity Audit](../docs/NARRATIVE_CONTINUITY_AUDIT.md) — active register of naming, point-of-view, character, chronology, and manuscript-boundary corrections.
+
 - [Whole-Manuscript Chapter Expansion](./CHAPTER_EXPANSION_PROTOCOL.md) — mandatory new-chapter influence sweep across manuscripts, character and relationship records, indexes, and mirrors.
 - [The Three Books Moving at Once](./THREE_BOOKS_IN_MOTION.md) — active book map and influence register, including the provisional Ian/Gabe/Kirk branch.
 - [Relationship Canon](./RELATIONSHIP_CANON.md) — shared relationship rules and established/provisional arcs.

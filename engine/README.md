@@ -109,6 +109,8 @@ This is the local navigation page for `engine/`. The lists below link to immedia
 
 ### JSON (9)
 
+- [`growth-pass.schema.json`](./schemas/growth-pass.schema.json)
+
 - [`adobe_asset_queue.json`](./adobe_asset_queue.json)
 - [`campus-life.json`](./campus-life.json)
 - [`hulumscave-asset-manifest.json`](./hulumscave-asset-manifest.json)

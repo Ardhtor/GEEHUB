@@ -15,6 +15,10 @@ This file was an empty placeholder when inspected on 24 November 2026, despite b
 - [Book I Continuation 03](BOOK_I_CONTINUATION_03.md) — an earlier or alternate set of Chapters LXVII–LXXII. Several titles overlap the rewritten opening; compare before adopting.
 - [Book I Missing Chapters / Continuity Pass](BOOK_I_CONTINUITY_CHAPTERS.md) — supplemental material covering Chapters XXIV–XXX and other selected points. Those numbers overlap the rewritten opening; the material needs a chapter-by-chapter comparison rather than automatic insertion.
 
+## In-world naming status
+
+The environmental rewrite no longer gives the future city an external workshop name. Its sign remains unmarked, and Luke and Joseph explicitly defer naming the place until they understand what it is. No final name is established in the current source candidate; the men must arrive at one through later lived experience and conversation.
+
 ## Unmapped numbered material
 
 The following chapter files are present in the same repository but are not yet assigned in this map to a definitive Book I sequence. Some may belong to another branch or may be earlier/alternate versions.

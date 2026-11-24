@@ -2,9 +2,7 @@
 
 Michael Brock arrived at the common green before the pavilion had filled. The morning was still cool, and a narrow band of sunlight lay across the grass between the fountain and the playing field. He crossed the green in faded cut-off denim shorts, bare-chested, his broad shoulders and enormous arms moving with a controlled heaviness that made the pavilion posts seem narrower than they had the day before. His light-brown hair was short and slightly untidy. A close beard followed the line of his jaw, and his expression, serious when he was thinking, gave way to an easier look when he saw Joseph setting out the day's tools.
 
-Michael had become used to the first pause. Men noticed him before they spoke. His chest was exceptionally broad, his deltoids rounded into the upper arms, and the weight of his thighs and calves made each step look deliberate. He did not hurry to explain himself. He put his small tool case on the bench, greeted Joseph, and asked what needed doing.
-
-The pause did not bother him as much as it once had. He knew what the others saw first, and he knew that a large body could make a room feel smaller before its owner had said a word. He had learned not to rush into filling that silence. If someone wanted to ask about his size, they could ask. If they wanted him to lift something, they could explain what the work required. He preferred to be given a task with a beginning and an end. A frame had a weight, a route, and a place where it needed to be set down. That was easier to understand than a room full of attention.
+Michael had become used to the first pause. Men noticed him before they spoke. His chest was exceptionally broad, his deltoids rounded into the upper arms, and the weight of his thighs and calves made each step look deliberate. The pause did not bother him as much as it once had. He knew what the others saw first, and he had learned not to rush into filling the silence. If someone wanted to ask about his size, they could ask. If they wanted him to lift something, they could explain what the work required. He preferred a task with a beginning and an end. A frame had a weight, a route, and a place where it needed to be set down. He put his small tool case on the bench, greeted Joseph, and asked what needed doing.
 
 Joseph did not ask him to demonstrate anything. He showed him the tools and explained the frame's unfinished lower rail. Michael liked that. The morning had room for a useful job, and nobody had yet tried to turn his arrival into a spectacle. He took the tool case from the bench and followed Joseph toward Robert's trestles.
 
@@ -236,15 +234,11 @@ Kirk replied that he was glad. He said he had liked hearing Michael's voice in t
 
 He asked Kirk how the lower country had felt during the afternoon. Kirk described a small change in pressure that had eased before the evening. Michael listened and asked whether it had been uncomfortable. Kirk said no, only noticeable. Michael did not offer a theory. He said he was glad the pressure had eased and that he hoped Kirk would rest.
 
-Michael read it away from the pavilion, where no one could look over his shoulder. He answered that he had enjoyed the company, that Gabe had made him warm up properly, and that Andrew had finally learned to carry something without trying to race it. He asked how Kirk's own day had gone.
+Before putting the phone away, Michael sent one final note. He said he had enjoyed the company, that Gabe had made him warm up properly, and that Andrew had finally learned to carry something without trying to race it. He asked how Kirk's own day had gone.
 
 Kirk replied that it had been quiet. He had listened to the reports, but had not wanted to turn the afternoon into another public event. He was pleased that Michael had been there. Michael read the sentence twice. It was simple, and it belonged to him.
 
-Michael left the board as it was. Tomorrow another man would bring a different idea, and someone else would answer it. The day had given Michael a place in the district: a man who could lift an extraordinary weight, listen when another man asked him to stop, and end the evening with a private kindness.
-
-He put the phone away and looked once more toward the pavilion. He could still hear the distant movement of the others finishing their work, but he did not return to offer another demonstration. The frame had been carried, the bench had been repaired, and the record had been made. There would be another day for the narrower turn. Tonight he wanted to eat, wash, and sleep.
-
-The choice did not diminish the day. It gave the day an ending.
+Michael left the board as it was. Tomorrow another man would bring a different idea, and someone else would answer it. He put the phone away and looked once more toward the pavilion. He could still hear the distant movement of the others finishing their work, but he did not return to offer another demonstration. The frame had been carried, the bench repaired, and the record made. There would be another day for the narrower turn. Tonight he wanted to eat, wash, and sleep. The choice did not diminish the day; it gave the day an ending.
 
 The pavilion lights remained on after he had gone. The frame stood safely in its cradle, and the bench held its place on the Cedar Span. Beyond it, the Twin Grounds rested in their changing shapes. The Long Return waited for morning.
 ---

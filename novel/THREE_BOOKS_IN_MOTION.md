@@ -107,3 +107,19 @@ This is the first influence map, not a completed revision of all three manuscrip
 The chapter does not displace Joseph and Kirk's established continuity, Andrew's separate attention to Kirk, Gabe's existing Dorian connection, or the provisional Ian/Gabe/Kirk branch. The day changes the Book II social record and the Evermeasure's next challenge, but does not force those other relationships into the scene.
 
 This is a targeted influence audit, not a claim that the other two full manuscripts were rewritten. The two other books were checked for direct consequences; none is currently supported.
+
+## Cross-book influence entry — The Narrow Turn, Chapter IX
+
+**Source chapter:** [Book II, Chapter IX — The Narrow Turn](chapters/BOOK_II_CHAPTER_IX_THE_NARROW_TURN.md). **Status:** written 24 November 2026; Book II continuity and atlas updated. This is a new local development, not a crossover.
+
+**The Road of Seven Wells:** no direct scene, encounter, message, or shared object is introduced. Its chronology, characters, and places remain unchanged. No manuscript revision is warranted.
+
+**The Golden Lion and the Seven Great Houses:** no direct connection is established. The southern gate, signal tower, quarry water, and keepers receive no knowledge of the Narrow Turn. No manuscript revision is warranted.
+
+**The Many Open Ends:** no event, traveller, or object crosses into this chapter. Its local work continues independently. No manuscript revision is warranted.
+
+**Book II — the Kirk expedition:** direct development. Andrew's proposed longer carry becomes a temporary adjustable test inside the common pavilion. Joseph's oak corner cradle makes the grip change more stable; Chase records the first and second pair's passages without calling them repeatable; Robert builds the mock-up and plans its theatre view; Gabe maintains warm-up and recovery; Andrew separates a clean controlled record from a future timed record. The apparatus does not alter the Twin Grounds or Cedar Span. Andrew also asks Joseph for technical judgement without turning the exchange into a contest for Kirk's attention. Kirk independently confirms their already arranged conversation; no bodily movement is requested or performed for the exhibition.
+
+Michael Brock remains a visitor and is not present in this chapter. His private relationship with Kirk remains secret. Joseph and Kirk's established continuity, Gabe's Dorian connection, and the provisional Ian/Gabe/Kirk branch are not displaced.
+
+The next Book II action is a fresh-day repeatability test of the Narrow Turn. This entry is a targeted influence audit, not a claim that the other two full manuscripts were rewritten.

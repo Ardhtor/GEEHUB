@@ -1,5 +1,5 @@
 # The Many Open Ends
-## GEEHUB expansion volume — 9 November 2026
+## The Many Open Ends — Expansion Volume
 
 This volume does not close the older books into a single line. It opens their doors at once. The worlds are allowed to develop at different speeds, to borrow weather and objects from one another, and to retain their own local voices. A chapter may begin in a room and finish in a city; a maintenance note may become a custom; a custom may become a law. Nothing here requires every character to know every other character. The connective tissue is use: a table moved, a road repaired, a name remembered, a sound carried through a wall.
 
@@ -616,7 +616,7 @@ The first entries concerned the Hrothgar bridge, Northgate's courtyard bench, th
 
 The register made no attempt to declare these outcomes successes or failures. Each change had consequences that continued beyond its completion date. The record would be revisited in a season, then again in a year.
 
-Gilgamesh's return to Uruk was added as a literary entry. The city walls endured in the story, but the epic also left readers with questions about grief, power, friendship, and the ordinary lives that continued beyond the king's journey. The register did not claim to measure an ancient city's actual outcomes. It recorded the questions the story had brought into GEEHUB's present.
+Gilgamesh's return to Uruk was added as a literary entry. The city walls endured in the story, but the epic also left readers with questions about grief, power, friendship, and the ordinary lives that continued beyond the king's journey. The record did not claim to measure an ancient city's actual outcomes. It kept the questions the story had brought into the men's present.
 
 The final field was titled *What remains to be noticed*. It was left blank on every first entry. The archivists wanted the next observation to come from someone who had used the change, not from the person who had designed it.
 

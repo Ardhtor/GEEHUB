@@ -128,6 +128,44 @@ Chase checked the record. “A second pair has passed the mock-up. We still need
 
 Andrew looked as if he might argue, then smiled. “Fine. Tomorrow, then.”
 
+Robert returned from the theatre with a small wooden model under one arm. He had made it from the measurements of the display frame and the adjustable uprights, reducing the whole arrangement to something that could be turned beneath the theatre's lamps. The model was not a miniature of the pavilion; it was a working study of the corner that kept disappearing from view.
+
+“Come and look,” he said. “I think the audience has been watching the wrong part.”
+
+The miniature theatre was cool and dark compared with the open pavilion. Robert set the model on the low stage and brought up a broad wash of light from the left. A second light came from above, leaving the far corner in shadow as the model turned. From the seats, the movement seemed smooth. From the side aisle, the corner appeared to pass dangerously close to the upright.
+
+Andrew stood and moved down the aisle. “That's the part I couldn't see.”
+
+“You could see the frame,” Robert said. “You couldn't see the clearance.”
+
+Chase came closer. “The view from the front conceals the distance between the corner and the crosspiece. The side view makes it visible, but it hides the carriers' hands.”
+
+“Then show both,” Andrew said.
+
+Robert changed the lighting and brought a second image onto the small screen beside the stage. One view followed the hands and the other followed the far corner. The two images did not agree in every instant because they were looking at different parts of the same movement. That was the point. The audience could see the whole passage only by allowing the views to remain distinct.
+
+Joseph examined the model's lower edge. “The cradle is missing.”
+
+“I haven't added it yet.”
+
+“Then the model is showing the old method.”
+
+Robert looked at him, then smiled. “You're right. Give me the revised piece.”
+
+Joseph brought the cradle from the worktable. Robert fitted a small wooden copy to the model and repeated the turn. The far corner cleared the upright after the lower rail had settled into its channel. The difference was slight, but the second view made it unmistakable.
+
+Andrew watched the two images again. He was still thinking about the speed record, but he could see a different kind of display taking shape: not a man carrying a frame as quickly as possible, but the movement made legible from the hands to the farthest corner. He wanted the audience to see the exact instant when the carriers stopped fighting the weight and began moving together.
+
+“That's the exhibition,” he said. “Show the first attempt, then the cradle, then the two views. Let people see what changed.”
+
+“Only if the record says which view is a model,” Chase replied. “It isn't footage of the actual passage.”
+
+“Of course.”
+
+Robert made a note to label the theatre study as a reconstruction. The actual attempts would remain in the record with their own observations. The model could explain the geometry, but it could not replace the event. Andrew accepted the distinction. He had wanted the display to be impressive; now he wanted it to be convincing.
+
+When they returned to the pavilion, the frame was still resting in its cradle. The morning's work had acquired another form: a physical test, a revised support, a comparison drawing, and a small visual explanation that made the hidden corner visible. Robert carried the model back to the theatre, where it would remain available for another lighting test. The two images were not yet a finished presentation. They were a better way to ask the next question.
+
 The men took a break while Robert adjusted the gallery lights. The frame was placed in its cradle beside the pavilion wall, and Joseph carried the corner support to a small worktable. He wanted to soften one edge and add a shallow mark showing which side faced outward. It was a modest improvement, but it would make the piece easier to fit correctly when someone else used it. Chase recorded the change as a revision to the cradle, not a new object. The first version remained in the workshop drawer.
 
 Gabe prepared a simple recovery circuit for anyone who wanted to repeat the carry. It began with shoulder movement, wrist and hand preparation, and a short walk along the pavilion's open side. It was not compulsory, and he did not present it as a test. Andrew completed it while making exaggerated claims about how much stronger he felt. Robert joined him and discovered that the sequence was more useful than he expected. Joseph declined, saying he had spent enough time at the bench that morning. Nobody tried to persuade him otherwise.

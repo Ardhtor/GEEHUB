@@ -45,6 +45,14 @@ The men may announce a winner, award a cup, or celebrate a record, but no one ca
 
 The word **forever** means that competition remains an inheritable practice of the world, not that every scene must be a contest or that the characters are incapable of rest. Quiet days, private rooms, meals, friendship, repair, and tenderness continue. They give the men somewhere to return from the arena.
 
+## Play, excess, and recovery
+
+A user-supplied thematic line, retained verbatim for later scene development:
+
+> "the adults had said that video games would ruin our behavior. so we took them up on that offer. and our behavior was ruined all the way. and then? It started to get better."
+
+This is not yet assigned to a Book II character, and it does not establish video games as an in-world object in the Kirk expedition. It is a thematic source to preserve. It offers a pattern for the men's play: games can expose vanity, impatience, exclusion, compulsive comparison, and careless treatment of one another. The story should not pretend that excess is harmless. But it need not condemn the game or abandon it. Shared experience can teach the men to notice the consequences, devise fairer rules, repair hurt, distinguish a win from a man's worth, stop and resume voluntarily, and turn excess into something more generous. The culture improves through participation, feedback, and changed conduct, not through the loss of play. Let the men earn that improvement; do not grant it as an automatic moral lesson.
+
 ## The limit: affection is not a scoreboard
 
 The competition can be affectionate, flirtatious, generous, funny, and sometimes bruising. It can also crowd someone out, turn attention into a scarce prize, make a joke too sharp, or tempt a man to claim a victory over somebody else's boundary. These consequences must be shown rather than excused as harmless rivalry.

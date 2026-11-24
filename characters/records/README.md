@@ -28,3 +28,5 @@ This is the local navigation page for `characters/records/`. The lists below lin
 - [`TRAVIS.md`](./TRAVIS.md)
 - [`TYLER.md`](./TYLER.md)
 - [`TYLER_BOESKIN.md`](./TYLER_BOESKIN.md)
+
+- [`IAN_KISTNER.md`](./IAN_KISTNER.md) — provisional character record introduced in the Ian/Gabe/Kirk relationship branch; biography and chronology remain open.

@@ -1,0 +1,67 @@
+{
+  "schema": "geehub.file-analysis/1",
+  "analysis_id": "analysis-replace-me",
+  "source": {
+    "source_id": "source-replace-me",
+    "filename": "exact-original-filename.ext",
+    "file_kind": "unknown",
+    "mime_type": null,
+    "origin": {
+      "provider": "unknown",
+      "locator": null,
+      "file_id": null,
+      "acquired_at": null,
+      "last_modified": null
+    },
+    "integrity": {
+      "status": "not_checked",
+      "algorithm": null,
+      "digest": null,
+      "verified_at": null
+    },
+    "size_bytes": null,
+    "source_role": "unknown",
+    "parent_source_ids": [],
+    "technical_metadata": {}
+  },
+  "scope": {
+    "purpose": "State the question this pass is intended to answer.",
+    "project_ids": [],
+    "entity_ids": [],
+    "coverage_level": "selected_units",
+    "questions": []
+  },
+  "processing": {
+    "status": "inventoried",
+    "started_at": "2026-11-24T00:00:00Z",
+    "completed_at": null,
+    "method": "Describe what was actually done.",
+    "tools": [],
+    "reviewer": null,
+    "source_unchanged": true,
+    "review_pass": 1,
+    "supersedes_analysis_id": null
+  },
+  "coverage": {
+    "unit_type": "whole_file",
+    "expected_units": null,
+    "reviewed_units": 0,
+    "coverage_ratio": null,
+    "strategy": "Describe whole-source review or the exact sampling plan.",
+    "skipped_units": [],
+    "limitations": []
+  },
+  "observations": [],
+  "interpretations": [],
+  "embodiment_layer": {
+    "status": "not_reviewed",
+    "observation_ids": [],
+    "interpretation_ids": [],
+    "note": "Consider embodiment where the source supports it. Keep observable cues separate from possible meanings."
+  },
+  "relationships": [],
+  "applications": [],
+  "unresolved": [],
+  "contradictions": [],
+  "negative_findings": []
+}

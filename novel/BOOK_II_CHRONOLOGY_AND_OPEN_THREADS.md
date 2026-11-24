@@ -27,7 +27,7 @@ The party discovers the maintained Old Trail, including carved posts, handholds,
 
 After recording the altered First Shelter twice, the second expedition follows the Old Trail under an agreed signal protocol. Marcus carries the cedar marker; the surveyor carries the instruments; the leader keeps the receiver; three men remain at the shelter. The party chooses the upper branch at a fork and discovers a gallery of niches, tokens, and a preserved map table.
 
-Oren, Vale, and Senn meet the newcomers. They belong to an established settlement of twenty-three residents at the Measure House, with additional people travelling along the routes. Their archive contains maps revised over months and years. The settlement knows Kirk and has communicated with him. Its records treat the country as living anatomy and the man as a person whose experience cannot be replaced by expedition measurements.
+Oren, Vale, and Senn meet the newcomers. They belong to an established settlement of twenty-three residents at the Measure House, with additional people travelling along the routes. Their archive contains maps revised over months and years. The settlement knows Kirk and has communicated with him. Its records treat the country as living anatomy and the man as a person whose experience cannot be replaced by expedition measurements. The fork's paired lines and circle remain ambiguous until Senn compares the newcomers' copies with the register; the sign indicates an unresolved route rather than a destination. The settlement's daily life includes a workshop, kitchen, repaired furniture, spare markers, and the ongoing work of maintaining the archive. Incomplete pages and conflicting accounts are preserved rather than silently completed by guesswork.
 
 Oren shows the newcomers a newer map in which the upper ridge, sheltered corridor, and lower route have changed. The party sends a report to Kirk and leaves the lower route unexplored. The Measure House becomes a partner in the expedition's work rather than a mysterious ruin or a storehouse of answers.
 
@@ -151,6 +151,12 @@ No coordinates, distances, or permanent new landforms are introduced by Chapter 
 - **Chapter I — The Lost Country:** first in-place expansion pass completed and read back against Chapter II on 24 November 2026. Narrative body: 4,609 words, excluding the continuity record. Current Git blob: `6046e63dc0f749f0caeab24d9f2e7407fb143a90`. The expansion deepens the ridge approach, field methods, marker displacement, Old Trail evidence, camp routine, and Kirk's first report without changing the discovery sequence or entering the dark opening. Whole-book review remains pending.
 - **Next:** Chapter II — The Keepers of the Old Trail. Develop the arrival at the Measure House, the three keepers, the settlement's daily life, and the exchange of maps while preserving the resident count and the lower route's unentered status.
 
+## Revision progress
+
+- **Chapter I — The Lost Country:** first in-place expansion pass completed and read back against Chapter II on 24 November 2026. Narrative body: 4,609 words, excluding the continuity record. Current Git blob: `6046e63dc0f749f0caeab24d9f2e7407fb143a90`. The expansion deepens the ridge approach, field methods, marker displacement, Old Trail evidence, camp routine, and Kirk's first report without changing the discovery sequence or entering the dark opening. Whole-book review remains pending.
+- **Chapter II — The Keepers of the Old Trail:** first in-place expansion pass completed on 24 November 2026. Narrative body: 6,396 words, excluding the continuity record. Current Git blob: `cd8218c9056dd954df9f95b188d37ad12362775b`. The expansion develops the shelter handover, ambiguous trail fork, niche gallery, Oren/Vale/Senn's arrival, the Measure House's daily life, the register's history, and its practice of preserving incomplete or conflicting accounts. Whole-book review remains pending.
+- **Next:** Chapter III — The Place That Moved. Expand the Long Fold and Warm Table survey, the physical evidence of the altered route, and the careful withdrawal while preserving the unentered opening.
+
 ## Revision order and editorial gates
 
 The nine chapters are at different stages. Chapter I has completed its first in-place expansion pass at 4,609 narrative words, within the publishing guide's standard 4,000–7,000-word range; its whole-book continuity review remains pending. Chapters II–VIII remain below that range and need development where the material supports it. Chapter IX is a new working draft at 4,162 words, also within the range. These figures are editorial guides, not quotas. Expansion must come from scenes that deepen character, place, evidence, action, and consequence, not from padding or repeated explanation.
@@ -158,8 +164,8 @@ The nine chapters are at different stages. Chapter I has completed its first in-
 The revision proceeds in canonical order:
 
 1. **Chapter I:** first in-place expansion pass completed and read back against Chapter II. Reserve its whole-book continuity review for the final sweep; preserve the two-state map and the decision not to enter the dark opening.
-2. **Chapter II:** give the Old Trail and Measure House more lived detail; develop Oren, Vale, and Senn through action and dialogue; preserve the twenty-three-resident count as the count at the time of the visit.
-3. **Chapter III:** expand the Long Fold and Warm Table survey, the physical evidence of the altered route, and the careful withdrawal; preserve the unentered opening.
+2. **Chapter II:** first expansion pass complete; final whole-book continuity review remains pending.
+3. **Chapter III:** next in-place expansion. Develop the Long Fold and Warm Table survey, the physical evidence of the altered route, and the careful withdrawal; preserve the unentered opening.
 4. **Chapter IV:** deepen Andrew and Kirk's established chemistry and the promises through shared activity, listening, and the rolling-ball observation; keep interpretation separate from Kirk's report.
 5. **Chapter V:** develop the four houses as actual homes and let their residents' different routines continue alongside the Andrew/Joseph/Kirk tension.
 6. **Chapter VI:** expand the Long Return as a playable cooperative activity and preserve the social consequence of Andrew monopolising the receiver.

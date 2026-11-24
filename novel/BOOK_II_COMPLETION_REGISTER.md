@@ -11,7 +11,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | Chapter | Title | Narrative words | Status |
 | --- | --- | ---: | --- |
 | I | The Lost Country | 4,609 | First expansion pass completed 24 November; full-book continuity and final edit pending |
-| II | The Keepers of the Old Trail | 1,928 | Existing text; expansion and continuity review pending |
+| II | The Keepers of the Old Trail | 6,396 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | III | The Place That Moved | 1,902 | Existing text; expansion and continuity review pending |
 | IV | The Promises That Keep | 2,452 | Existing text; relationship and continuity review pending |
 | V | Four Mansions | 2,487 | Existing text; residential and relationship review pending |
@@ -20,7 +20,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter on 24 November; expansion and edit pending |
 | IX | The Narrow Turn | 4,162 | New working chapter on 24 November; expansion and edit pending |
 
-**Current narrative baseline:** approximately 25,637 narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
+**Current narrative baseline:** approximately 30,105 narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
 
 ## Sequence and sources
 

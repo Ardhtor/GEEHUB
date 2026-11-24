@@ -46,15 +46,15 @@ Narrative word counts below exclude the separate continuity record at the end of
 
 | Chapter | Title | Narrative words | Current status |
 | --- | --- | ---: | --- |
-| I | The Lost Country | 4,609 | First expansion pass completed 24 November; full-book continuity and final edit pending |
-| II | The Keepers of the Old Trail | 4,162 | First expansion pass completed 24 November; full-book continuity and final edit pending |
-| III | The Place That Moved | 4,644 | First expansion pass completed 24 November; full-book continuity and final edit pending |
-| IV | The Promises That Keep | 3,794 | First expansion pass completed 24 November; relationship continuity and final edit pending |
-| V | Four Mansions | 4,877 | First expansion pass completed 24 November; residential and relationship continuity review pending |
-| VI | The Game Between the Houses | 4,091 | First expansion pass completed 24 November; geography and relationship continuity review pending |
-| VII | The Contest That Never Ends | 2,552 | Existing text; Evermeasure and relationship review pending |
-| VIII | A Day in the Open Pavilion | 2,490 | New working chapter, 24 November; full expansion and edit pending |
-| IX | The Narrow Turn | 4,162 | New working chapter, 24 November; full expansion and edit pending |
+| I | The Lost Country | 4,444 | Ending compression pass; full continuity and line edit pending |
+| II | The Keepers of the Old Trail | 4,098 | Ending compression pass; full continuity and line edit pending |
+| III | The Place That Moved | 4,486 | Ending compression pass; full continuity and line edit pending |
+| IV | The Promises That Keep | 3,725 | Ending compression pass; relationship continuity and line edit pending |
+| V | Four Mansions | 4,763 | Ending compression pass; residential continuity and line edit pending |
+| VI | The Game Between the Houses | 3,947 | Ending compression pass; geography and relationship review pending |
+| VII | The Contest That Never Ends | 2,274 | Ending compression pass; Evermeasure and relationship review pending |
+| VIII | A Day in the Open Pavilion | 2,287 | Ending compression pass; expansion and full edit pending |
+| IX | The Narrow Turn | 3,877 | Ending compression pass; expansion and full edit pending |
 
 **Current total:** approximately 35,381 narrative words across nine chapters. Most chapters remain below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding. The first expansion passes for Chapters I–VI are recorded, not treated as final editorial completion.
 

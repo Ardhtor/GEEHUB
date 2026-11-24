@@ -6,7 +6,7 @@ This is the local navigation page for `engine/schemas/`. The lists below link to
 
 ## Files
 
-### JSON (5)
+### JSON (6)
 
 - [`file-analysis.schema.json`](./file-analysis.schema.json)
 - [`growth-pass.schema.json`](./growth-pass.schema.json)

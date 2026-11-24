@@ -164,9 +164,6 @@ A first ending-compression pass was completed across Chapters I–IX on 24 Novem
 
 **Current narrative census:** 35,572 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
 
-- **Chapter VII — The Contest That Never Ends:** first in-place expansion pass completed on 24 November 2026. Narrative body: 4,028 words, excluding the continuity record. Current Git blob: `d20e1e9d4954ff94d148919193587121d2e35bed`. The expansion develops the Evermeasure's first excess and its self-correction: informal tally marks begin to rank people, a demonstration risks becoming an expectation, and the residents create distinct achievement categories with recovery and refusal protected. Its governing note is **The game may continue; the man may stop.** Whole-book review remains pending.
-- **Next:** Chapter VIII — A Day in the Open Pavilion. Expand Michael's day through ordinary company, physical work, craft, recovery, and private tenderness while keeping his relationship with Kirk secret.
-
 ## Revision order and editorial gates
 
 The next operation is a full line-editing pass through Chapters I–IX in canonical order. At each paragraph, ask whether it adds new action, evidence, character information, atmosphere, or consequence. If it merely repeats the previous paragraph in different words, cut or combine it. At each scene ending, stop where the meaningful change has landed; do not append a second explanation, a thematic summary, and a teaser if one clean ending can carry the transition.

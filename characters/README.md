@@ -62,7 +62,7 @@ The central [Character Voice References](../hub/CHARACTER_VOICE_REFERENCES.md) p
 
 ## Personality growth and ensemble scenes
 
-The records for Luke, Tyler, Chase, Gabe, and Andrew now include inner drives, blind spots, emotional vulnerabilities, humour, affection, conflict and repair styles, speech behaviour, repeatable personal details, and individual growth directions. These traits are designed to create change through encounters rather than to function as fixed labels. Joseph remains the continuity-minded sixth voice in the common-room ensemble.
+The records for Luke, Tyler, Chase, Gabe, and Andrew now include inner drives, blind spots, emotional vulnerabilities, humour, affection, conflict and repair styles, speech behaviour, repeatable personal details, and individual growth directions. These traits are designed to create change through encounters rather than to function as fixed labels. [Joseph's character record](records/JOSEPH.md) now gathers his established traits, relationship direction, Convergence scenes, and still-open biography. Joseph is distinct from Joey.
 
 [Chapter LXXV — The Table After Rain](../novel/chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md) is the first shared scene built to demonstrate these differences through an ordinary repair. The machine-readable model at [agent-reaction-states.json](../hub/agent-reaction-states.json) carries the current temperament and relationship dynamics into the reaction system.
 

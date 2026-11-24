@@ -4,6 +4,22 @@
 **Coverage:** pulse records 5 onward from the former `novel/WORLDS.md` tail.  
 **Preservation:** all pulse headings, Seth/Nick observations, source-retention lines, pressure values, and memory values below are retained verbatim. These entries are a historical trace, not a canonical chapter sequence or proof that every described environment was rendered as a live scene.
 
+## Pulse 1 — PYYRO ENERGY
+
+Luke entered PYYRO ENERGY. Nothing was explained. The room continued around them.
+
+## Pulse 2 — POETRY SEEP
+
+Tyler crossed POETRY SEEP. Nothing was explained. The room continued around them.
+
+## Pulse 3 — DEEP LORE
+
+Kirk waited inside DEEP LORE. Nothing was explained. The room continued around them.
+
+## Pulse 4 — NOVEL ENGINE
+
+Joseph returned to NOVEL ENGINE. Nothing was explained. The room continued around them.
+
 ## THE COMPLEX / pulse 5 / ATMOSPHERE
 
 SETH: The corridor smells faintly of cedar and warm electronics. A mug has left a pale ring on the sill, and sunlight reaches the wall where a doorway used to cast a narrower shadow.

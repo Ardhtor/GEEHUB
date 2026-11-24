@@ -242,9 +242,7 @@ Joseph studied him for a moment, then smiled. “That's better.”
 
 Joseph left the pavilion with Andrew. They walked together as far as the covered path, then separated toward their own houses. The Evermeasure Board remained behind them, carrying the day's results and the rules that would make another day possible.
 
-The Evermeasure Board stayed illuminated after everyone had gone. Its entries would become the next day's starting points: better routes, heavier beams, cleaner measurements, and new designs. No exhibition would be final. The men would keep answering one another, not by erasing the last achievement but by making another.
 
-The Evermeasure would still invite excess. Someone would always want a harder route, a heavier beam, a faster time, or a more spectacular answer. The men had not cured themselves of wanting to surpass one another; they had begun to recognise when the contest made them careless with the people beside them. The next challenge would test whether they could keep the game generous enough to be worth returning to.
 ---
 
 ## Continuity record

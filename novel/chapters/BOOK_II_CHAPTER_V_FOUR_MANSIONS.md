@@ -189,14 +189,9 @@ They spoke about the field, the ball, and the way the houses were beginning to a
 
 Andrew laughed. “I might need a map.”
 
-“Then ask for one.”
+When Kirk arrived later, Andrew greeted him with the familiar grin. The chemistry was still there, but it did not entitle Andrew to ignore a boundary. Kirk took the map, listened to the measurements, and invited him to walk the playing field. Andrew said yes.
 
-The conversation ended with a time arranged for the following day, after the survey. Andrew was pleased, and the pleasure made him want to ask for more. He did not. The promise was enough for that evening. He would have to learn to let it remain enough when the next opportunity to ask arrived.
-
-Across the green, the four mansions had begun to acquire their own rhythms. Robert's library was already receiving its first visitors. Chase had added a shelf for maps that remained disputed. Gabe had moved a chair into the garden and left the studio doors closed. Joseph was preparing the House of Returns for an evening meal. The district was not a monument to Kirk's generosity or a theatre for Andrew's jealousy. It was becoming a place where four men could live, and where their separate lives would continue to alter the relationships around them.
-
-The country beneath them had not stopped moving. The maps would need another revision. The mansions would need adjustments, and the paths would need to be checked after each significant shift. But the houses had been built with the understanding that a home is not made permanent by pretending its surroundings will never change. It is made durable by keeping room for repair, return, and the next conversation.
-
+Across the green, the four mansions had begun to acquire their own rhythms. Robert's library was receiving visitors; Chase was keeping disputed maps; Gabe had moved a chair into the garden; Joseph was preparing the House of Returns for supper. Their lives no longer revolved around Kirk's attention. The houses, like the country beneath them, would need care as they changed.
 ---
 
 ## Continuity record

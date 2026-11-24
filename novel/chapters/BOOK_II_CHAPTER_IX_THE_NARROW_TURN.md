@@ -288,16 +288,9 @@ Near evening, Andrew received a message from Kirk. The note did not mention the 
 
 Kirk replied with a simple confirmation.
 
-Andrew put the receiver away. He could feel the familiar excitement of being expected, and the equally familiar urge to fill the remaining hours with something that might make him more impressive. He looked at the Evermeasure Board and saw the two new categories waiting beneath the earlier carry. One was about control; the other would be about speed. Neither would tell him whether Kirk wanted to spend time with him. That answer would come from Kirk, in the conversation they had already arranged.
+At the Record House, Chase placed the morning's failed and successful attempts side by side. Robert adjusted the theatre lighting; Gabe left the training court ready for the next resident; Joseph kept the revised cradle beside his tools. Each house carried a different part of the day's work.
 
-At the Record House, Chase finished the comparison drawing and placed the morning's failed and successful attempts side by side. At Laskin Mansion, Robert adjusted the theatre's lighting so that the frame's far corner remained visible during the turn. At the Canvas House, Gabe wrote a short recovery note and left the training court ready for the next resident. At the House of Returns, Joseph put the first cradle into the drawer and kept the revised one beside his tools. The four homes continued their separate evenings, each carrying a different part of the day's work.
-
-The pavilion stood open beneath the darkening trees. The temporary turn waited on the floor, its pale markers visible in the lamplight. Tomorrow the residents would return and try the passage again without the comfort of having just learned it. They might improve the method, discover a fault, or find that the morning's success had depended on a detail nobody had recorded. The Evermeasure would preserve any of those outcomes. A failed attempt would not erase the first clean passage, and a faster passage would not make the careful one worthless.
-
-The Narrow Turn had begun as Andrew's demand for something harder to show. By evening it had become a test of how well two people could carry a shared weight, make room for one another's movement, and bring an object through without damaging it. The challenge was still competitive. Andrew would want the cleanest run, and somebody would want to beat him. But the method had given the contest another kind of difficulty: the men had to become better at working together before they could become better at surpassing one another.
-
-The next morning had not yet arrived. The frame remained where they had left it, and the country beyond the pavilion continued its quiet, independent life.
-
+The pavilion stood open beneath the darkening trees. Tomorrow the residents would try the passage again. The Evermeasure would preserve what happened, whether they improved the method or found another fault. The Narrow Turn had become a test of shared control as much as strength, and the next attempt would show what they had learned.
 ---
 
 ## Continuity record

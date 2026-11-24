@@ -30,8 +30,10 @@ Seth and Nick remain the principal voices who look across the scene with the rea
 
 ## Present working order
 
+**User-directed production priority (24 November 2026):** finish Book II — the Kirk Expedition — before beginning Book III. This serial priority overrides the rotation described in earlier working notes. The three principal works listed above remain distinct source manuscripts, not automatic aliases for numbered Books II and III. Do not identify *The Many Open Ends*, *The Golden Lion and the Seven Great Houses*, or Expansion Atlas Volume III as Book III without a clear canonical source mapping. While Book II is active, consult other works for direct continuity only; do not split the main writing effort across them. See [Production Priority — Book II, then Book III](PRODUCTION_PRIORITY.md) and [Book II Completion Register](BOOK_II_COMPLETION_REGISTER.md).
+
 - Preserve each book's own latest point and unresolved events.
-- Continue the three books in rotation, but keep their clocks and travel distances coherent.
+- Complete Book II as a whole manuscript before opening Book III production.
 - Use at least two genuinely simultaneous places within a substantial chapter.
 - Return to an earlier place before its state becomes stale; show what changed while the reader was elsewhere.
 - Carry consequences into later scenes, even when they arrive as a small inconvenience or correction.

@@ -1,7 +1,7 @@
 # THE DAD CONVENT
-## GEEHUB world record
+## Settlement record
 
-**Status:** Active world / living settlement  
+**Status:** Active story setting / living settlement  
 **Primary mode:** Construction, household life, practical skill, continuity  
 **Setting:** A wooded estate expanding into a substantial residential and workshop complex  
 **Continuity:** A new setting branch connected to the post-book domestic cycle of *The God Daddies*. This record does not overwrite existing character canon.
@@ -72,7 +72,7 @@ The connected novel now includes **The Road to the Convent** (Chapter XXXVI), in
 
 ### Connections
 
-- Parent setting: GEEHUB / The Living World
+- Parent continuity: The God Daddies post-book domestic cycle; the wider setting has no established in-world name.
 - Narrative continuity: `novel/THE_GOD_DADDIES_AFTER_THE_ROAD.md`
 - Production rhythm: `novel/THE_GOD_DADDIES_TEN_ORDINARY_DAYS.md`
 - Related systems: Beefythiq, embodied scale, Sensation Engine, Registry / deep lore

@@ -8,7 +8,7 @@
 
 ### First — Book II: the Kirk Expedition
 
-Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The latest chapter is **Chapter IX — The Narrow Turn**, a new working draft. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book expansion and final editorial process.
+Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The latest chapter is **Chapter IX — The Narrow Turn**, a new working draft. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book expansion and final editorial process. Chapter I received its first in-place expansion on 24 November, increasing its narrative body from 1,324 to 2,977 words; full-book review remains pending.
 
 Finishing Book II means more than adding the next chapter. Work must return to the existing sequence, develop each chapter in canonical order, reconcile its continuity, continue the story through its natural ending, and then perform the whole-book editorial close-out. The chapter expansion protocol remains in force.
 
@@ -38,7 +38,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 
 | Chapter | Title | Narrative words | Current status |
 | --- | --- | ---: | --- |
-| I | The Lost Country | 1,324 | Existing text; whole-book expansion review pending |
+| I | The Lost Country | 2,977 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | II | The Keepers of the Old Trail | 1,928 | Existing text; whole-book expansion review pending |
 | III | The Place That Moved | 1,902 | Existing text; whole-book expansion review pending |
 | IV | The Promises That Keep | 2,452 | Existing text; relationship and whole-book review pending |
@@ -48,7 +48,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter, 24 November; full expansion and edit pending |
 | IX | The Narrow Turn | 4,162 | New working chapter, 24 November; full expansion and edit pending |
 
-**Current total:** approximately 22,352 narrative words across nine chapters. Each current chapter is below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding.
+**Current total:** approximately 24,005 narrative words across nine chapters. Most chapters remain below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding. Chapter I's first expansion pass is recorded, not treated as final editorial completion.
 
 ## Active Book II threads
 
@@ -64,10 +64,15 @@ Narrative word counts below exclude the separate continuity record at the end of
 ## Execution order
 
 1. Complete the Book II chapter-and-source census and a chronological/open-thread map.
-2. Revise Chapters I–IX in order, preserving their events and expanding them where the scenes require it.
+2. Chapter I has its first expansion pass; complete its whole-book review and continue revising Chapters II–IX in canonical order, preserving established events and expanding scenes where needed.
 3. After the existing sequence has been revised, continue with the next necessary chapter and carry all new consequences into the book's records.
 4. Continue the sequence until its dramatic and relational movements reach an earned ending.
 5. Perform the whole-book continuity sweep, copyedit, contents/index reconciliation, and final proof.
 6. Mark Book II complete, then open the Book III census and production register.
 
 **Priority rule:** Book II first. Book III second. The wider corpus remains available for reference and continuity, but it is not a reason to split the active production effort.
+
+
+## Thematic material retained for Book II
+
+The user supplied the line “the adults had said that video games would ruin our behavior. so we took them up on that offer. and our behavior was ruined all the way. and then? It started to get better.” on 24 November 2026. Preserve the wording as a thematic source, not yet character dialogue or literal Book II history. Its possible connection is the movement from excessive play and its consequences toward a more generous, self-correcting culture of games. The source is recorded in the Book II Completion Register and the Evermeasure doctrine.

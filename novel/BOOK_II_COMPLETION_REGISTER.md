@@ -20,7 +20,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | VIII | A Day in the Open Pavilion | 2,287 | Working chapter; ending-compression pass; expansion and full edit pending |
 | IX | The Narrow Turn | 3,877 | Working chapter; ending-compression pass; expansion and full edit pending |
 
-**Current narrative baseline:** 35,572 narrative words across nine chapters after the first ending-compression pass. Counts exclude continuity records and are a consistent whitespace-based snapshot, not a publishing proof. The earlier expansion count for Chapter I was 4,609 words; its current compressed count is 4,444. The publishing guide remains 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point only when the material sustains that length. Do not pad.narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
+**Current narrative baseline:** 35,572 narrative words across nine chapters after the first ending-compression pass. Counts exclude continuity records and are a consistent whitespace-based snapshot, not a publishing proof. The earlier expansion count for Chapter I was 4,609 words; its current compressed count is 4,444. The publishing guide remains 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point only when the material sustains that length. Do not pad.narrative words across nine chapters. Chapter I reached 4,609 narrative words during its first in-place expansion pass and was subsequently ending-compressed to the current 4,444-word baseline. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
 
 ## Sequence and sources
 
@@ -56,7 +56,7 @@ All nine chapter mirrors were read back after synchronization. Their Markdown bo
 | VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 3 | `d36fa5711621a5e062e8c7820d950bade48348fb` |
 | IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 2 | `1c4ef8c06bda7a9475d6318f5d7009bbecbc1a03` |
 
-GitHub remains the canonical source; Dropbox Paper is the production and reading surface. Refresh and verify a mirror after every subsequent source edit.
+GitHub remains the canonical source; Dropbox Paper is the production and reading surface. Refresh and verify a mirror after every subsequent source edit. For Chapter VI, the suffixed `(1)` Paper file linked above is the canonical mirror because its revision 2 body matches GitHub; the unsuffixed variant is stale and is retained as an alternate, not deleted.
 
 ## Whole-book threads to carry
 
@@ -79,7 +79,7 @@ Book II is not complete merely because Chapter IX has been drafted or because th
 
 ## Next operation
 
-The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) now consolidates the relative sequence, geography, relationships, Evermeasure development, and unresolved consequences across Chapters I–IX. Chapters I–VI have received first expansion passes; Chapters I–III have been read back against their adjacent chapters, while Chapters IV–VI's whole-book continuity reviews remain open. The next in-place revision is Chapter VII, followed by the remaining existing chapters in canonical order. Update the chronology map and affected records after each accepted revision. Continue to Book III only after this register is formally closed.
+The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) now consolidates the relative sequence, geography, relationships, Evermeasure development, and unresolved consequences across Chapters I–IX. A first ending-compression pass has been completed across Chapters I–IX. The next pass is a body-level line edit through all nine chapters in canonical order, beginning with Chapter I. Update the chronology map and affected records after each accepted revision. Continue to Book III only after this register is formally closed.
 
 ## Motif held for scene development
 

@@ -5,6 +5,14 @@
 **Progress register:** [BOOK_I_EXPANSION_REGISTER.json](BOOK_I_EXPANSION_REGISTER.json).  
 **Length authority:** [PUBLISHING_STANDARD.md](PUBLISHING_STANDARD.md).
 
+## User-directed production priority — 24 November 2026
+
+The active production order is **finish Book II first, then Book III**. This instruction takes precedence over the earlier default to continue books in rotation. The current Book II is the Kirk Expedition sequence in `novel/chapters/`; its latest numbered chapter is VIII. The dedicated [Book II Completion Register](BOOK_II_COMPLETION_REGISTER.md) tracks the current census and open work, and [Production Priority — Book II, then Book III](PRODUCTION_PRIORITY.md) governs the production order.
+
+While Book II remains incomplete, do not begin parallel Book III narrative drafting or broad expansion of another manuscript. Continue to consult the wider corpus for continuity, preserve directly relevant discoveries, and perform required cross-book influence checks. The sequence of full editorial production remains Book II followed by Book III.
+
+The current repository and Dropbox search did not locate a canonical manuscript explicitly labelled Book III. The three named works in `THREE_BOOKS_IN_MOTION.md` and the separate Expansion Atlas Volume III are not silently interchangeable with the user's Book III. After Book II reaches its completion gate, identify the intended Book III source, then create its own census, continuity map, and progress register before beginning its full revision.
+
 ## Meaning of “update the story”
 
 When the user asks to update, develop, enlarge, or improve the story, the default operation is a whole-manuscript chapter expansion sweep, not the addition of one more chapter. The engine must consider every existing chapter in the selected book, including early chapters that have already been passed, and make the existing manuscript more fully inhabited. A new chapter is appropriate when the sequence genuinely needs one; it is not a substitute for developing the chapters already there.

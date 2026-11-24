@@ -81,3 +81,12 @@ Michael Brock is an adult man with very large muscles. He and Kirk share a **sec
 ## Book II — the Evermeasure
 
 The Evermeasure is the enduring competitive culture of Book II. The men enjoy showing what they can do, answering another man's achievement, and raising the standard through one-upmanship. This is a recursive social practice rather than a final tournament: each win becomes a record, each record becomes a new starting point, and the next challenge may shift to a different skill or form of display. It may be playful, affectionate, flirtatious, or occasionally bruising, but it cannot make another man's affection, attention, body, or privacy into a prize. See [The Evermeasure — Competitive Doctrine](chapters/BOOK_II_COMPETITIVE_DOCTRINE.md).
+
+
+## Ian and Gabe — shared avoidant tendency
+
+User-established on 24 November 2026: Ian Kistner is characteristically somewhat avoidant, and Gabe is the same. Treat this as a behavioural tendency, not a clinical diagnosis and not evidence of absent attraction. Either man may show interest while hesitating to name it, make a direct request, accept emotional exposure, or follow a moment of closeness with another step. Their attention and their actions may therefore appear out of sync.
+
+Do not flatten them into identical personalities. The shared tendency is canon; its specific causes, triggers, habits, and differences remain open for scene-level development. Avoidance must not be used as shorthand for cruelty, manipulation, or indifference. It can produce pauses, deflections, delayed decisions, retreat into practical activity, or a need for privacy, but each instance should arise naturally from the character and situation.
+
+Gabe's established direct actions with Dorian—including naming his attraction, accepting a date, and initiating kisses—remain canon. His avoidant tendency is compatible with moments of courage and initiative; it may become visible around what follows, when closeness deepens or expectations become explicit. Kirk can notice the pattern, but he is not automatically responsible for resolving it. Preserve his agency and the other relationship continuities already recorded here.

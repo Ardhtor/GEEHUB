@@ -1,19 +1,19 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080b10"><title>GEEHUB // Asset Desk</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080b10"><title>◉</title>
 <style>
 :root{color-scheme:dark;--bg:#080b10;--panel:#111922;--line:#293945;--ice:#a8e8ff;--muted:#8293a0;--amber:#d7b27a}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#e4edf3;font:13px/1.5 ui-monospace,Menlo,monospace}header{padding:18px 22px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:center}.brand{color:var(--ice);letter-spacing:.18em}main{max-width:1400px;margin:auto;padding:18px;display:grid;grid-template-columns:300px minmax(0,1fr);gap:16px}.panel{background:var(--panel);border:1px solid var(--line);padding:15px;border-radius:8px}.eyebrow{color:var(--amber);font-size:10px;letter-spacing:.15em;margin-bottom:12px}label{display:block;color:#9fb2bd;margin:12px 0 5px}input,select,textarea,button{font:inherit;color:#e4edf3;background:#0b1117;border:1px solid #3a4b58;padding:9px;border-radius:4px;width:100%}button{cursor:pointer;background:#172733}button:hover{border-color:var(--ice)}.actions{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:12px}.preview{background:#05090d;border:1px solid var(--line);border-radius:8px;min-height:440px;display:grid;place-items:center;position:relative;overflow:hidden}.preview svg{width:min(88%,720px);height:auto;max-height:580px}.preview:after{content:"ORTHOGRAPHIC ASSET VIEW / GENERATED IN THIS BROWSER";position:absolute;top:12px;left:14px;color:#647987;font-size:10px}.inventory{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:9px;margin-top:14px}.item{border:1px solid var(--line);padding:10px;border-radius:6px;background:#0d141b;cursor:pointer}.item.active{border-color:var(--ice)}.item small{color:var(--muted);display:block}.item svg{width:100%;height:90px;background:#070c11;margin:7px 0}.status{color:#8fd7ad;font-size:11px}a{color:var(--ice)}@media(max-width:850px){main{grid-template-columns:1fr}.preview{min-height:300px}}
 </style></head><body>
-<header><div><div class="brand">GEEHUB // ASSET DESK</div><div style="color:var(--muted)">Local procedural asset workshop · no account · no external service</div></div><a href="gee-studio.html">RETURN TO STUDIO ↗</a></header>
-<main><aside class="panel"><div class="eyebrow">01 / ASSET SPECIFICATION</div>
+<header><div class="brand" aria-hidden="true">◉</div><a href="gee-studio.html" aria-label="Back">←</a></header>
+<main><aside class="panel">
 <label for="name">Asset name</label><input id="name" value="Northgate shoulder guard">
 <label for="kind">Asset family</label><select id="kind"><option value="armor">Clothing / armor panel</option><option value="limb">Limb component</option><option value="prop">Handheld prop</option><option value="architecture">Architectural piece</option><option value="ornament">Symbol / ornament</option><option value="environment">Environment fragment</option></select>
 <label for="material">Material</label><select id="material"><option value="steel">Brushed steel</option><option value="wood">Dark oak</option><option value="cloth">Heavy cloth</option><option value="stone">Weathered stone</option><option value="amber">Amber resin</option><option value="ice">Blue glass</option></select>
 <label for="width">Width <span id="wv">1.0</span></label><input id="width" type="range" min=".4" max="2.4" step=".1" value="1">
 <label for="height">Height <span id="hv">1.0</span></label><input id="height" type="range" min=".4" max="2.4" step=".1" value="1">
 <label for="detail">Flourish <span id="dv">2</span></label><input id="detail" type="range" min="0" max="5" step="1" value="2">
-<label for="note">Design note</label><textarea id="note" rows="3" placeholder="Origin, use, continuity, construction..."></textarea>
-<div class="actions"><button id="generate">GENERATE</button><button id="save">SAVE TO DESK</button><button id="svg">EXPORT SVG</button><button id="png">EXPORT PNG</button><button id="json">EXPORT INVENTORY</button><button id="clear">CLEAR DESK</button></div><p class="status" id="status">Ready. Assets remain in this browser until exported.</p>
-</aside><section><div class="preview" id="preview"></div><div class="eyebrow" style="margin-top:16px">02 / LOCAL INVENTORY · SELECT AN ASSET TO REOPEN</div><div class="inventory" id="inventory"></div></section></main>
+<label for="note">Notes</label><textarea id="note" rows="3" placeholder="Origin, use, continuity, construction..."></textarea>
+<div class="actions"><button id="generate">GENERATE</button><button id="save">SAVE TO DESK</button><button id="svg">EXPORT SVG</button><button id="png">EXPORT PNG</button><button id="json">EXPORT INVENTORY</button><button id="clear">CLEAR DESK</button></div><p class="status" id="status">READY</p>
+</aside><section><div class="preview" id="preview"></div><div class="inventory" id="inventory"></div></section></main>
 <script>
 const $=id=>document.getElementById(id), key='geehub.assetdesk.v1';let current=null,items=[];
 const palettes={steel:['#b7c8d0','#536b78','#e6f1f4'],wood:['#8b6546','#493528','#c59a6d'],cloth:['#526f83','#263d4d','#91b3c4'],stone:['#888e91','#41494e','#c1c5c4'],amber:['#bd8750','#62452f','#edc58c'],ice:['#75b6ca','#31566b','#c2f2ff']};
@@ -41,3 +41,4 @@ $('clear').onclick=()=>{if(confirm('Clear the local inventory? Export it first i
 ['width','height','detail'].forEach(id=>$(id).oninput=()=>{current=spec();draw()});['name','kind','material','note'].forEach(id=>$(id).onchange=()=>{current=spec();draw()});
 try{items=JSON.parse(localStorage.getItem(key)||'[]')}catch(e){items=[]}draw();renderList();
 </script></body></html>
+<style>.preview:after{content:""}header .brand{font-size:0}header .brand:after{content:"◉";font-size:18px}.eyebrow{display:none!important}</style>

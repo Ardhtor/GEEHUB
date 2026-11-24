@@ -8,7 +8,7 @@
 
 ## What this is
 
-The repository brings together research, archives, creative work, software, characters, environments, and production. These areas can inform one another without losing their individual character. A shared rhythm of observation, investigation, interpretation, experimentation, development, and reuse helps that work build over time.
+The Universal Growth Engine governs the repository as one cumulative system: research, archives, creative work, software, characters, environments, media, tools, interfaces, and production. Each area can inform the others without losing its own identity, evidence, methods, or canon. Encounters become inputs; observation and research make them legible; assimilation identifies what can be carried forward; bounded transformations produce new states; differentiation preserves useful branches; continuity makes the result available to later work. Growth is the overarching mechanism, not a theme imposed on every subject.
 
 The aim is to let useful work carry forward and make later work easier. It should not turn every activity into a generic growth metaphor, force unrelated material into one category, or replace working systems with a parallel framework. Existing systems retain their responsibilities and connect through stable records, explicit handoffs, and discoverable artifacts.
 
@@ -77,7 +77,7 @@ Research can:
 - Turn validated findings into actionable experiments and production decisions.
 - Revisit earlier conclusions when new evidence or prediction errors appear.
 
-Use the [File Analysis Standard](FILE_ANALYSIS_STANDARD.md) for source-grounded inspection. It defines provenance, direct observation, interpretation, generative application, coverage levels, and modality-specific methods. Where human bodies or gestures are relevant, its embodiment / psychosomatic layer is a possible interpretive lens, not a compulsory explanation; never infer a real person's private desires, consent, relationships, diagnosis, or inner state from an image or recording.
+Use the [File Analysis Standard](FILE_ANALYSIS_STANDARD.md) for source-grounded inspection. It defines provenance, direct observation, interpretation, generative application, coverage levels, and modality-specific methods. Embodiment and psychosomatic interpretation are a standing analytical layer wherever bodies, gestures, poses, physical changes, captions, recurring motifs, or character histories are relevant. Consider identification, expectation, somatic memory, anticipation, strain, comfort, self-presentation, and transformation while keeping direct observations separate from hypotheses and generative applications. This layer does not dictate a single explanation. Never infer a real person's private desires, consent, relationships, diagnosis, or inner state from an image or recording.
 
 Research outputs should be discoverable records, not isolated notes. Link each finding to the evidence that supports it, the question it addresses, its limitations, and any resulting experiment or artifact.
 

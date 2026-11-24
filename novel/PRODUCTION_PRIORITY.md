@@ -8,7 +8,7 @@
 
 ### First — Book II: the Kirk Expedition
 
-Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The latest chapter is **Chapter IX — The Narrow Turn**, a new working draft. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book expansion and final editorial process. Chapters I and II have received first in-place expansion passes on 24 November, to 4,609 and 4,162 narrative words respectively. Both have been read back against their adjacent chapter; whole-book review remains open for the final continuity sweep.
+Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The latest chapter is **Chapter IX — The Narrow Turn**, a new working draft. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book expansion and final editorial process. Chapters I, II, and III have received first in-place expansion passes on 24 November, to 4,609, 4,162, and 4,644 narrative words respectively. Each has been read back against its adjacent chapter; whole-book review remains open for the final continuity sweep.
 
 Finishing Book II means more than adding the next chapter. Work must return to the existing sequence, develop each chapter in canonical order, reconcile its continuity, continue the story through its natural ending, and then perform the whole-book editorial close-out. The chapter expansion protocol remains in force.
 
@@ -20,7 +20,7 @@ The present repository and Dropbox search did not locate a canonical manuscript 
 
 ## Dropbox production state
 
-Verified Paper mirrors now exist for Book II Chapters I, II, VIII, and IX. Chapters I and II were synchronized after their first expansion passes; Chapter VIII was reconciled to its current source; Chapter IX was created as a new Paper document. The completion register contains the direct Dropbox links, Paper revisions, and GitHub source fingerprints. Chapters III–VII remain to be mirrored after their revision passes. GitHub is the canonical source; Dropbox Paper is the production and reading surface.
+Verified Paper mirrors now exist for Book II Chapters I, II, III, VIII, and IX. Chapters I–III were synchronized after their first expansion passes; Chapters VIII and IX were reconciled to their current sources. The completion register contains the direct Dropbox links, Paper revisions, and GitHub source fingerprints. Chapters IV–VII remain to be mirrored after their revision passes. GitHub is the canonical source; Dropbox Paper is the production and reading surface.
 
 ## Current continuity map
 
@@ -48,7 +48,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | --- | --- | ---: | --- |
 | I | The Lost Country | 4,609 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | II | The Keepers of the Old Trail | 4,162 | First expansion pass completed 24 November; full-book continuity and final edit pending |
-| III | The Place That Moved | 1,902 | Existing text; whole-book expansion review pending |
+| III | The Place That Moved | 4,644 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | IV | The Promises That Keep | 2,452 | Existing text; relationship and whole-book review pending |
 | V | Four Mansions | 2,487 | Existing text; residential and relationship review pending |
 | VI | The Game Between the Houses | 3,055 | Existing text; geography and relationship review pending |
@@ -56,7 +56,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter, 24 November; full expansion and edit pending |
 | IX | The Narrow Turn | 4,162 | New working chapter, 24 November; full expansion and edit pending |
 
-**Current total:** approximately 30,613 narrative words across nine chapters. Most chapters remain below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding. Chapter I's first expansion pass is recorded, not treated as final editorial completion.
+**Current total:** approximately 30,613 narrative words across nine chapters. Most chapters remain below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding. The first expansion passes for Chapters I–III are recorded, not treated as final editorial completion.
 
 ## Active Book II threads
 
@@ -72,7 +72,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 ## Execution order
 
 1. Maintain the [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) as the working continuity index; update it after every accepted chapter revision.
-2. Chapters I and II have received first expansion passes and have been read back against their adjacent chapters; continue the in-place revision at Chapter III and proceed through Chapters IV–IX in canonical order. Reserve both chapters' whole-book reviews for the final continuity sweep.
+2. Chapters I–III have received first expansion passes and have been read back against their adjacent chapters; continue the in-place revision at Chapter IV and proceed through Chapters V–IX in canonical order. Reserve all three chapters' whole-book reviews for the final continuity sweep.
 3. After the existing sequence has been revised, continue with the next necessary chapter and carry all new consequences into the book's records.
 4. Continue the sequence until its dramatic and relational movements reach an earned ending.
 5. Perform the whole-book continuity sweep, copyedit, contents/index reconciliation, and final proof.

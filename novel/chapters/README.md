@@ -38,8 +38,6 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 
 - [Chapter XC — The Image I Could Not See](./CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md)
 
-- [Chapter XC — The Image I Could Not See](./CHAPTER_XC_THE_IMAGE_I_COULD_NOT_SEE.md)
-
 - [Chapter XCI — The Lowest Bar in Northgate](./CHAPTER_XCI_THE_LOWEST_BAR_IN_NORTHGATE.md)
 - [Chapter XCII — The Can Opener](./CHAPTER_XCII_THE_CAN_OPENER.md)
 - [Chapter XCIII — The Lion's Stint](./CHAPTER_XCIII_THE_LIONS_STINT.md) — the Golden Lion spends the autumn term with the Redwood boys as their prophesied temporary familiar; the visit changes the court, the training culture, and the boys' habits of companionship.

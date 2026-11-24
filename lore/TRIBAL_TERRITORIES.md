@@ -1,4 +1,4 @@
-# GEEHUB — The Great Tribal Territories
+# The Great Tribal Territories
 
 **Status:** Active worldbuilding framework; territorial details are a developing fictional layer  
 **Scope:** Populations, homelands, settlements, lineages, institutions, customs, exchange, and intergenerational change  
@@ -6,7 +6,7 @@
 
 ## The world becomes inhabited
 
-GEEHUB's tribal territories are not decorative factions or labels attached to individual characters. They are populations that live somewhere, use its resources, maintain its buildings, remember its history, and make decisions whose consequences last beyond a single scene. A territory becomes recognizable through the routes people take without thinking, the food prepared in its kitchens, the buildings they repair, the arguments that recur, the people who are welcomed, and the customs that newcomers gradually learn.
+The tribal territories are not decorative factions or labels attached to individual characters. They are populations that live somewhere, use its resources, maintain its buildings, remember its history, and make decisions whose consequences last beyond a single scene. A territory becomes recognizable through the routes people take without thinking, the food prepared in its kitchens, the buildings they repair, the arguments that recur, the people who are welcomed, and the customs that newcomers gradually learn.
 
 The word *tribe* is used here as a broad worldbuilding term for a durable people or community with a shared social identity. It does not imply that every group has the same political structure, ancestry, customs, or relationship to land. Some societies are organized around kinship and inherited households; others around institutions, shared work, residence, athletic culture, trade, or a common history. Membership can be inherited, chosen, earned, negotiated, or held in more than one community at once. No group is required to be culturally uniform.
 
@@ -74,7 +74,7 @@ New tribes should emerge from actual narrative pressure: a settlement becomes la
 
 The tribal world is written from inside its activity. Its intelligence is expressed through competent action, physical presence, practical judgment, social instinct, and the consequences of work. The prose can be muscular, confident, warm, competitive, and direct without making every character loud or reducing every scene to a contest.
 
-Prefer the workshop being used to a paragraph explaining the workshop's clever design; show the meal being prepared, the equipment being checked, the road being repaired, the newcomer being introduced, and the argument that changes a decision. Keep the underlying research and continuity rigorous, but let the visible writing feel inhabited and active. GEEHUB's interface should present this as ongoing work: places being entered, records being extended, buildings being maintained, and relationships acquiring history.
+Prefer the workshop being used to a paragraph explaining the workshop's clever design; show the meal being prepared, the equipment being checked, the road being repaired, the newcomer being introduced, and the argument that changes a decision. Keep the underlying research and continuity rigorous, but let the visible writing feel inhabited and active. The production interface should present this as ongoing work: places being entered, records being extended, buildings being maintained, and relationships acquiring history.
 
 ## Continuity and evidence rules
 

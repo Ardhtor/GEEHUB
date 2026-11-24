@@ -20,8 +20,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | VIII | A Day in the Open Pavilion | 2,287 | Working chapter; ending-compression pass; expansion and full edit pending |
 | IX | The Narrow Turn | 3,877 | Working chapter; ending-compression pass; expansion and full edit pending |
 
-**Current narrative baseline:** 35,572 narrative words across nine chapters after the first ending-compression pass. Counts exclude continuity records and are a consistent whitespace-based snapshot, not a publishing proof. Chapter I's current compressed count is 4,444 words. The publishing guide remains 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point only when the material sustains that length. Do not pad.
-
+**Current narrative baseline:** 35,572 narrative words across nine chapters after the first ending-compression pass. Counts exclude continuity records and use the same whitespace-based method for each chapter. Chapter I reached 4,609 words during its first expansion pass and was subsequently ending-compressed to 4,444. The publishing guide recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point only when the material sustains that length. These ranges are guidance, not quotas; do not pad.
 ## Sequence and sources
 
 - Chapter I — `BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md`

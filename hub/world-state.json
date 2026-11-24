@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00237.json",
+  "activeRecording": "./recordings/scheduled-recording-00238.json",
   "activeEncounter": {
-    "regionId": "common-table",
-    "regionName": "THE COMMON TABLE",
+    "regionId": "founders-dormitory",
+    "regionName": "FOUNDERS DORMITORY",
     "subject": {
-      "agent": "tyler",
-      "scale": 17.62,
+      "agent": "andrew",
+      "scale": 17.7,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / CEDAR HOUSE → THE COMMON TABLE / TYLER",
+    "intent": "LONG PLAY / CAT GARDENS → FOUNDERS DORMITORY / ANDREW",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 17.57× → 17.62×",
-      "CEDAR HOUSE → THE COMMON TABLE",
-      "relation: A TABLE IS SET",
+      "scale 17.62× → 17.70×",
+      "CAT GARDENS → FOUNDERS DORMITORY",
+      "relation: THE DORM GARDEN PATH",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "cedar-house"
+    "previousRegionId": "cat-gardens"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-24T10:46:55.140Z",
+  "snapshot": "2026-11-24T21:02:01.025Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 237,
-    "agent": "tyler",
-    "previousRegionId": "cedar-house",
-    "regionId": "common-table",
-    "relation": "A TABLE IS SET",
+    "cycle": 238,
+    "agent": "andrew",
+    "previousRegionId": "cat-gardens",
+    "regionId": "founders-dormitory",
+    "relation": "THE DORM GARDEN PATH",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 17.57,
-    "scale": 17.62,
-    "recording": "scheduled-recording-00237",
-    "at": "2026-11-24T10:46:55.140Z"
+    "previousScale": 17.62,
+    "scale": 17.7,
+    "recording": "scheduled-recording-00238",
+    "at": "2026-11-24T21:02:01.025Z"
   }
 }

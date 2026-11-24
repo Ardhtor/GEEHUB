@@ -20,11 +20,7 @@ Oren turned the map toward them. The last party had reached the Warm Table, secu
 
 “Only what was fixed to the place,” Oren said. “The cord, the ring, and the marks. They brought their instruments back.”
 
-“Why has no one returned?”
-
-“Because the next report should be better than the last. We have waited for a reason to believe it would be.”
-
-The leader considered the blank on the map. It was not a challenge waiting to be conquered. It was a place where the previous expedition had made a correct decision and where the next expedition had to earn a different one. Oren gave Vale the older route sheet and asked him to identify every marker he remembered. Vale used the shape of the turns, the position of the ridges, and the order of the handholds. When his memory did not match the map, he said so. Senn copied the uncertain points onto the new sheet. The party agreed that the first stop would be the Long Fold, the second the Warm Table, and that no one would cross the opening unless the route could be checked and Kirk had been informed.
+The leader treated the blank as a limit, not a challenge to conquer. Oren gave Vale the older route sheet and asked him to identify every marker he remembered. Vale used the shape of the turns, the position of the ridges, and the order of the handholds. When his memory did not match the map, he said so. Senn copied the uncertain points onto the new sheet. The party agreed that the first stop would be the Long Fold, the second the Warm Table, and that no one would cross the opening unless the route could be checked and Kirk had been informed.
 
 Oren chose Vale to accompany them. Vale had been at the Measure House since its first winter and knew the lower passages by their older names. He was a quiet, sturdy man with a habit of testing every surface with the end of his walking staff. Before leaving, he checked the receiver, the lamps, and the two cords that would connect the party to the upper station. Senn stayed behind to maintain the map table and prepare a new sheet. The two men agreed on a simple rule: if the route changed, the expedition would stop long enough to record it before deciding whether to proceed.
 
@@ -94,9 +90,7 @@ The cut cord remained tied to the ring. Its deeper fibres had been severed clean
 
 The surveyor placed a second marker at the near edge of the chamber. He did not move closer to the opening. He measured the air current from the safe side and recorded its direction, then checked the vibration with the instrument held against the floor. The rhythm was regular enough to be repeated, but it did not tell them what lay beyond the wall. Marcus listened for a change in the sound and heard only the same low pulse.
 
-Another step would add risk without improving their view. They could measure the air and compare the platform with its former position, but the seam's far side remained hidden. The leader sent the readings to Kirk. He reported a tightening followed by a release and asked them to stay clear until he understood the movement. The party withdrew and marked the limit of its survey.
-
-They withdrew in order, checking the temporary markers as they went. The leader sent Kirk the platform's tilt, the opening's position, and the air and vibration readings. Kirk said the pressure had eased but could not tell whether the movement was finished. The party returned to the Measure House without attempting another descent.
+Another step would add risk without improving their view. They could measure the air and compare the platform with its former position, but the seam's far side remained hidden. The leader sent Kirk the platform's tilt, the opening's position, and the air and vibration readings. Kirk reported a tightening followed by a release and asked them to stay clear. The party withdrew in order, checking the temporary markers as they went. Kirk said the pressure had eased but could not tell whether the movement was finished.
 
 Vale looked back once. “The last party was right to turn back.”
 

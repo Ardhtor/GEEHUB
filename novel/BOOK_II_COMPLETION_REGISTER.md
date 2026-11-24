@@ -20,7 +20,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | VIII | A Day in the Open Pavilion | 2,287 | Working chapter; ending-compression pass; expansion and full edit pending |
 | IX | The Narrow Turn | 3,877 | Working chapter; ending-compression pass; expansion and full edit pending |
 
-**Current narrative baseline:** approximately 36,857 narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
+**Current narrative baseline:** 35,572 narrative words across nine chapters after the first ending-compression pass. Counts exclude continuity records and are a consistent whitespace-based snapshot, not a publishing proof. The earlier expansion count for Chapter I was 4,609 words; its current compressed count is 4,444. The publishing guide remains 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point only when the material sustains that length. Do not pad.narrative words across nine chapters. Chapter I has increased from 1,324 to 4,609 narrative words in its first in-place expansion pass. The publishing standard recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point, when the material sustains that length. Do not pad; develop actual scenes, character behaviour, setting, discovery, and consequence.
 
 ## Sequence and sources
 

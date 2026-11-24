@@ -236,7 +236,7 @@ When he finished, Oren read the report.
 
 The next morning, the men would return to the First Shelter with a copy of the old map and an invitation for Oren's people to exchange records. The trail beyond the Measure House remained unsurveyed. On the newest map, it was blank.
 
-The blank was no longer an absence. It was a responsibility.
+
 ---
 
 ## Continuity record

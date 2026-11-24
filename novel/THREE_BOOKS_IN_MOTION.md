@@ -90,3 +90,20 @@ The chapter introduces Ian Kistner into a developing relationship configuration 
 Gabe's established, deliberately paced attraction to Dorian remains part of his history; this chapter does not erase it or declare it ended. Joseph and Kirk's eventual partnership remains an established long-range direction. Andrew's attention to Kirk remains a separate, unresolved pressure. Ian's biography, voice, appearance, residence, and prior history are not yet established and must not be invented as facts. The trio's romantic arrangement remains open to development through choices and consent.
 
 This is the first influence map, not a completed revision of all three manuscripts. The next editorial operation is a chronology-and-character reconciliation, followed by targeted scene revisions only where the evidence supports them.
+
+
+## Cross-book influence entry — Michael Brock, Chapter VIII
+
+**Source chapter:** [Book II, Chapter VIII — A Day in the Open Pavilion](chapters/BOOK_II_CHAPTER_VIII_A_DAY_IN_THE_OPEN_PAVILION.md). **Status:** added to Book II on 24 November 2026; targeted influence sweep completed for current continuity.
+
+**The Road of Seven Wells:** no direct scene, encounter, message, or object is introduced. The chapter does not alter that book's chronology or the established long-range relationship directions. No manuscript change is warranted at this stage.
+
+**The Golden Lion and the Seven Great Houses:** no direct connection is established. The southern gate, signal tower, and keepers receive no knowledge of Michael's day. No crossover or manuscript alteration is warranted.
+
+**The Many Open Ends:** its wider social world may eventually accommodate a visitor from Book II, but this chapter creates no travelling message, shared object, or meeting. Its local obligations continue independently.
+
+**Book II — the Kirk expedition:** direct development. Chapter VIII gives Michael a full ordinary day in the residential country, extends the Evermeasure from a beam demonstration to a controlled frame carry, records a coordination improvement with Andrew, gives the Cedar Span bench a practical adjustment with Joseph, and places Gabe's warm-up and recovery method into Michael's day. Michael remains a visitor; no new residence or geographic coordinate is created. His evening private exchange with Kirk preserves the secret, gentle relationship and does not disclose it to the other residents.
+
+The chapter does not displace Joseph and Kirk's established continuity, Andrew's separate attention to Kirk, Gabe's existing Dorian connection, or the provisional Ian/Gabe/Kirk branch. The day changes the Book II social record and the Evermeasure's next challenge, but does not force those other relationships into the scene.
+
+This is a targeted influence audit, not a claim that the other two full manuscripts were rewritten. The two other books were checked for direct consequences; none is currently supported.

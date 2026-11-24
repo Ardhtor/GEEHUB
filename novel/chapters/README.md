@@ -47,3 +47,7 @@ This is the local navigation page for `novel/chapters/`. The lists below link to
 - [Book II, Chapter V — Four Mansions](./BOOK_II_CHAPTER_V_FOUR_MANSIONS.md) — Robert, Chase, Gabe, and Joseph establish separate homes in Kirk's paired residential country; Andrew's need for attention begins to crowd Joseph out.
 - [Book II, Chapter VI — The Game Between the Houses](./BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md) — the four residents establish the Long Return across the Twin Grounds; Andrew's need for Kirk's attention causes Joseph to withdraw, and Andrew begins to recognize the cost.
 - [Book II — Local Spatial Atlas](./BOOK_II_SPATIAL_ATLAS.md) — the Measure House, lower routes, Twin Grounds, four estates, Cedar Span, and Long Return, with coordinates held open until surveyed.
+
+## Unnumbered relationship branch — cross-book continuity
+
+- [Ian Kistner, Gabe, and Kirk — The Threefold Attraction](../../lore/IAN_GABE_KIRK_TRIANGLE.md) — provisional relationship branch under review for Book II continuity. It is not yet a numbered chapter; placement must account for Gabe's Dorian connection, Andrew's attention to Kirk, and Joseph's established relationship with Kirk. See [The Three Books Moving at Once](../THREE_BOOKS_IN_MOTION.md) for the cross-book influence map.

@@ -17,12 +17,13 @@ The documentation folder contains the repository's technical contracts, editoria
 - [The Boyfriend-in-High-School Experience Principle](BOYFRIEND_IN_HIGH_SCHOOL_EXPERIENCE_PRINCIPLE.md) — emotional design through anticipation, recognition, private language, play, tenderness, and continuity.
 - [Story and Generated Environment Integration](STORY_ENVIRONMENT_INTEGRATION.md) — Book II scenes where story actions change and persist in their generated settings.
 - [Narrative Continuity Audit](NARRATIVE_CONTINUITY_AUDIT.md) — active correction register for diegetic naming, character identity, chronology, point of view, and manuscript boundaries.
+- [Arthur as an External Growth Metaphor](ARTHUR_EXTERNAL_GROWTH_METHOD.md) — an authoring method inspired by Arthur's continuity without making it part of his fictional awareness.
 
 **Up:** [repository root](../README.md) · [Hub](../hub/README.md) · [full directory map](REPOSITORY_NAVIGATION.md)
 
 ## Files
 
-### MD (74)
+### MD (75)
 
 - [`ACCESSIBLE_CONSTELLATION.md`](./ACCESSIBLE_CONSTELLATION.md)
 - [`ACCESSIBLE_REPOSITORIES_2026-09.md`](./ACCESSIBLE_REPOSITORIES_2026-09.md)

@@ -8,7 +8,7 @@
 
 ### First — Book II: the Kirk Expedition
 
-Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–VIII. The latest chapter is **Chapter VIII — A Day in the Open Pavilion**. The book is not finished: no Chapter IX or concluding chapter is currently registered, and the current eight chapters have not completed the whole-book expansion and final editorial process.
+Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The latest chapter is **Chapter IX — The Narrow Turn**, a new working draft. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book expansion and final editorial process.
 
 Finishing Book II means more than adding the next chapter. Work must return to the existing sequence, develop each chapter in canonical order, reconcile its continuity, continue the story through its natural ending, and then perform the whole-book editorial close-out. The chapter expansion protocol remains in force.
 
@@ -23,7 +23,7 @@ The present repository and Dropbox search did not locate a canonical manuscript 
 Book II may be called complete only when all of the following are true:
 
 1. **Full chapter census:** every existing Book II chapter, continuation, branch, and supporting source has been identified. Numbering conflicts, duplicated material, and alternate drafts have been reconciled without deleting provenance.
-2. **Existing chapters developed:** Chapters I–VIII have each received an in-place expansion and editorial review against the whole book. Preserve their established events while developing scenes, character behaviour, setting, relationships, and consequences. Use the 4,000–7,000-word full-chapter range as the publishing guide, not a quota; a chapter may remain shorter when its structural purpose genuinely calls for it.
+2. **Existing chapters developed:** Chapters I–IX have each received an in-place expansion and editorial review against the whole book. Preserve their established events while developing scenes, character behaviour, setting, relationships, and consequences. Use the 4,000–7,000-word full-chapter range as the publishing guide, not a quota; a chapter may remain shorter when its structural purpose genuinely calls for it.
 3. **Story continued:** the sequence proceeds beyond Chapter VIII where the material requires it. New chapters arise from active questions and consequences rather than being added merely to increase the count.
 4. **Open threads resolved or deliberately carried:** every major unresolved matter has an earned outcome, a clear next stage, or an intentional open status that belongs in the ending.
 5. **Continuity and geography reconciled:** the Measure House, Old Trail, Long Fold, Warm Table, lower opening, paired residential country, Twin Grounds, Cedar Span, Eastern Hollow, Viewing Arch, Long Return, and the four estates remain coherent. Numeric positions are added only when supported by an actual survey. Kirk's account of his own bodily experience remains distinct from expedition measurements and hypotheses.
@@ -46,8 +46,9 @@ Narrative word counts below exclude the separate continuity record at the end of
 | VI | The Game Between the Houses | 3,055 | Existing text; geography and relationship review pending |
 | VII | The Contest That Never Ends | 2,552 | Existing text; Evermeasure and relationship review pending |
 | VIII | A Day in the Open Pavilion | 2,490 | New working chapter, 24 November; full expansion and edit pending |
+| IX | The Narrow Turn | 3,565 | New working chapter, 24 November; full expansion and edit pending |
 
-**Current total:** approximately 18,190 narrative words across eight chapters. Each current chapter is below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding.
+**Current total:** approximately 21,755 narrative words across nine chapters. Each current chapter is below the publishing guide's standard full-chapter range. This identifies the scale of development needed; it does not prescribe padding.
 
 ## Active Book II threads
 
@@ -63,8 +64,8 @@ Narrative word counts below exclude the separate continuity record at the end of
 ## Execution order
 
 1. Complete the Book II chapter-and-source census and a chronological/open-thread map.
-2. Revise Chapters I–VIII in order, preserving their events and expanding them where the scenes require it.
-3. Continue with the next necessary chapter and carry all new consequences into the book's records.
+2. Revise Chapters I–IX in order, preserving their events and expanding them where the scenes require it.
+3. After the existing sequence has been revised, continue with the next necessary chapter and carry all new consequences into the book's records.
 4. Continue the sequence until its dramatic and relational movements reach an earned ending.
 5. Perform the whole-book continuity sweep, copyedit, contents/index reconciliation, and final proof.
 6. Mark Book II complete, then open the Book III census and production register.

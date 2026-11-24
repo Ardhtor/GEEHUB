@@ -20,7 +20,7 @@ The present repository and Dropbox search did not locate a canonical manuscript 
 
 ## Dropbox production state
 
-Verified Paper mirrors now exist for Book II Chapters I, II, III, IV, V, VI, VIII, and IX. Chapters I–VI were synchronized after their first expansion passes; Chapters VIII and IX were reconciled to their current sources. The completion register contains the direct Dropbox links, Paper revisions, and GitHub source fingerprints. Chapter VII remains to be mirrored after its revision pass. GitHub is the canonical source; Dropbox Paper is the production and reading surface.
+All nine current Book II chapter manuscripts have Dropbox Paper counterparts. Their bodies were read back against the current GitHub sources; direct links, Paper revisions, and source fingerprints are recorded in the completion register. Chapter VI's suffixed `(1)` Paper file is the canonical mirror because it matches GitHub; the unsuffixed variant is an older stale alternate and remains preserved. GitHub is the canonical source; Dropbox Paper is the production and reading surface.
 
 ## Current continuity map
 
@@ -72,7 +72,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 ## Execution order
 
 1. Maintain the [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) as the working continuity index; update it after every accepted chapter revision.
-2. Chapters I–VI have received first expansion passes; Chapters I–III have been read back against their adjacent chapters. Continue the in-place revision at Chapter VII and proceed through Chapters VIII–IX in canonical order. Reserve all six chapters' whole-book reviews for the final continuity sweep.
+2. A first ending-compression pass has been completed across Chapters I–IX. The next pass is a body-level line edit through all nine chapters in canonical order, beginning with Chapter I. Reconcile repetition, scene function, character continuity, and geography without changing established events or padding chapters to a word target.
 3. After the existing sequence has been revised, continue with the next necessary chapter and carry all new consequences into the book's records.
 4. Continue the sequence until its dramatic and relational movements reach an earned ending.
 5. Perform the whole-book continuity sweep, copyedit, contents/index reconciliation, and final proof.

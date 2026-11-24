@@ -3,7 +3,7 @@
 The invitation arrived at the Measure House on a folded sheet of heavy paper. Kirk had dictated it through the receiver, and the expedition leader had written it down without shortening the terms. He wanted the men who had been travelling through his country to have somewhere permanent to stay, if they wished. The new residential ground lay beyond the lower route, in a region that had begun to open within the paired chambers of his anatomy. The ground had been examined from the safe approach; it was broad, sheltered, and capable of supporting several separate estates. Kirk had not asked the expedition to settle there. He had offered the possibility, and each man would decide for himself.
 
 
-The leader read the invitation aloud in the Measure House common hall. He did not shorten the words or turn the offer into an instruction. Kirk had asked whether the men wanted a place to return to between expeditions, whether they wanted separate rooms and shared grounds, and whether the idea appealed to them at all. If they preferred to keep travelling, the invitation would remain open without becoming an obligation.
+The leader read the invitation aloud in the Measure House common hall. Hearing it as a whole made the offer feel larger than a place to sleep. It would give the men a shared district without requiring them to give up the expedition or one another's company.
 
 Oren listened from the end of the table. He asked whether the new district had been surveyed from the safe approach and whether the return route would remain visible if the surrounding chambers shifted. The leader said that the first measurements had been taken, but that the positions were provisional. Kirk had described the ground as broad and sheltered, not permanent. The settlement would need to be built so that its residents could leave without crossing a private room or waiting for another man to open a gate.
 
@@ -188,8 +188,6 @@ They spoke about the field, the ball, and the way the houses were beginning to a
 “You can tell me that,” Kirk said. “You don't have to turn it into another expedition.”
 
 Andrew laughed. “I might need a map.”
-
-When Kirk arrived later, Andrew greeted him with the familiar grin. The chemistry was still there, but it did not entitle Andrew to ignore a boundary. Kirk took the map, listened to the measurements, and invited him to walk the playing field. Andrew said yes.
 
 Across the green, the four mansions had begun to acquire their own rhythms. Robert's library was receiving visitors; Chase was keeping disputed maps; Gabe had moved a chair into the garden; Joseph was preparing the House of Returns for supper. Their lives no longer revolved around Kirk's attention. The houses, like the country beneath them, would need care as they changed.
 ---

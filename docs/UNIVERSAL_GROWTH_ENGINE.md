@@ -46,6 +46,8 @@ Every durable growth pass should be representable as a record with these fields.
 - `status`: proposed, in-progress, reviewed, accepted, superseded, or rejected.
 - `next_action`: the next useful research or production step.
 
+The machine-readable contract is [\`engine/schemas/growth-pass.schema.json\`](../engine/schemas/growth-pass.schema.json). It validates the stable identity, inherited state, source and observation links, research references, hypotheses, bounded change, dimensions, review decision, status, and next action. It is a record contract; it does not by itself create or execute growth passes.
+
 A pass must not claim a result that was not produced or inspected. Queued generation is not a render; a hypothesis is not a finding; an experiment is not canon; an untested implementation is not an operational capability.
 
 ## Cumulative development and continuity

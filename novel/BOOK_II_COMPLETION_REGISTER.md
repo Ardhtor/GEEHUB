@@ -50,12 +50,13 @@ The following Paper documents were read back after synchronization and their Mar
 | II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 2 | `cefe0de1ed3ce967b441766693b00dc90cd66c88` |
 | III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?dl=0) | 2 | `70de36cdf943b591208ab0ca2d9dd82a75d1b979` |
 | IV — The Promises That Keep | [Open in Dropbox](https://www.dropbox.com/scl/fi/64o1zoq6rm7gw06iascz0/Book-II-Chapter-IV_-The-Promises-That-Keep.paper?dl=0) | 1 | `e071f970e3b353cb32ff48067c6fe50774db60dc` |
+| V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?dl=0) | 2 | `1bd08c1b52d38df531ff7d40933e8a2af99bad05` |
 | V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?rlkey=wtw4jngbq18h1eov3ov1vvhhg&dl=0) | 2 | `1bd08c1b52d38df531ff7d40933e8a2af99bad05` |
 | VI — The Game Between the Houses | [Open in Dropbox](https://www.dropbox.com/scl/fi/pj1ayynqqr8wgne9ogf4u/Book-II-Chapter-VI_-The-Game-Between-the-Houses.paper?rlkey=sj9n069z6us80w8svhknoec0w&dl=0) | 1 | `2a3adba506a9491feb679e6866f97f5156ddfccb` |
 | VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 2 | `d1e1d17fdb467570042bcf1a60c0f3f573bbb579` |
 | IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 1 | `d9be1ad55e028e2cd388dd43386b0b0ceb99bb42` |
 
-Chapters V–VII remain to be mirrored as their in-place revision passes are completed. GitHub remains the canonical source; Dropbox Paper is the live production and reading surface. A mirror must be refreshed and verified after its source chapter changes.
+Chapters VI–VII remain to be mirrored as their in-place revision passes are completed. GitHub remains the canonical source; Dropbox Paper is the live production and reading surface. A mirror must be refreshed and verified after its source chapter changes.
 
 ## Whole-book threads to carry
 
@@ -78,7 +79,7 @@ Book II is not complete merely because Chapter IX has been drafted or because th
 
 ## Next operation
 
-The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) now consolidates the relative sequence, geography, relationships, Evermeasure development, and unresolved consequences across Chapters I–IX. Chapters I–IV have received first expansion passes; Chapters I–III have been read back against their adjacent chapters, and Chapter IV's whole-book relationship and continuity review remains open. The next in-place revision is Chapter V, followed by the remaining existing chapters in canonical order. Update the chronology map and affected records after each accepted revision. Continue to Book III only after this register is formally closed.
+The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) now consolidates the relative sequence, geography, relationships, Evermeasure development, and unresolved consequences across Chapters I–IX. Chapters I–V have received first expansion passes; Chapters I–III have been read back against their adjacent chapters, while Chapters IV and V's whole-book relationship and continuity reviews remain open. The next in-place revision is Chapter VI, followed by the remaining existing chapters in canonical order. Update the chronology map and affected records after each accepted revision. Continue to Book III only after this register is formally closed.
 
 ## Motif held for scene development
 

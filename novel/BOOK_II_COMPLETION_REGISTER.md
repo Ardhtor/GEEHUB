@@ -12,7 +12,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | --- | --- | ---: | --- |
 | I | The Lost Country | 4,180 | First body-level line-edit pass complete; whole-book continuity and final edit pending |
 | II | The Keepers of the Old Trail | 4,039 | First body-level line-edit pass complete; whole-book continuity and final edit pending |
-| III | The Place That Moved | 4,233 | First body-level line-edit pass complete; whole-book continuity and final edit pending |
+| III | The Place That Moved | 3,180 | Second compression pass complete; whole-book continuity and final edit pending |
 | IV | The Promises That Keep | 3,641 | First body-level line-edit pass complete; relationship continuity and final edit pending |
 | V | Four Mansions | 4,694 | First body-level line-edit pass complete; residential and relationship continuity review pending |
 | VI | The Game Between the Houses | 3,950 | First body-level line-edit pass complete; geography and relationship continuity review pending |
@@ -20,7 +20,7 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | VIII | A Day in the Open Pavilion | 3,833 | First body-level line-edit pass complete; relationship continuity and final edit pending |
 | IX | The Narrow Turn | 3,875 | First body-level line-edit pass complete; scene clarity and repeatability continuity review pending |
 
-**Current narrative baseline:** 36,319 narrative words across nine chapters after the first body-level line-edit pass. Counts exclude continuity records and use the same whitespace-based method for each chapter. Chapter I reached 4,609 words during its first expansion pass and was subsequently ending-compressed to 4,444. The publishing guide recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point only when the material sustains that length. These ranges are guidance, not quotas; do not pad.
+**Current narrative baseline:** 35,266 narrative words across nine chapters after the first body-level line-edit pass. Counts exclude continuity records and use the same whitespace-based method for each chapter. Chapter I reached 4,609 words during its first expansion pass and was subsequently ending-compressed to 4,444. The publishing guide recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point only when the material sustains that length. These ranges are guidance, not quotas; do not pad.
 ## Sequence and sources
 
 - Chapter I — `BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md`
@@ -47,7 +47,7 @@ All nine chapter mirrors were read back after synchronization. Their Markdown bo
 | --- | --- | ---: | --- |
 | I — The Lost Country | [Open in Dropbox](https://www.dropbox.com/scl/fi/gpx1ba1ijqb6qhfv7igop/Book-II-Chapter-I_-The-Lost-Country.paper?dl=0) | 3 | `93746ac7c4d087b97a499e643e62902cd7bfe463` |
 | II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 4 | `796b5519741b480fae6fdec9f9b11c55211abe2e` |
-| III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?dl=0) | 3 | `5f6498b354af34b49fe02d8c2cb35509a4c0ecb2` |
+| III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?dl=0) | 5 | `55ea61234a225260bd9508f10b116df0bb523f00` |
 | IV — The Promises That Keep | [Open in Dropbox](https://www.dropbox.com/scl/fi/64o1zoq6rm7gw06iascz0/Book-II-Chapter-IV_-The-Promises-That-Keep.paper?dl=0) | 2 | `bd85a9bca132296bd7e428b72a58905ae4c4e164` |
 | V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?rlkey=wtw4jngbq18h1eov3ov1vvhhg&dl=0) | 3 | `6231bc5b8ae2961c97ebde3942a71088a6974708` |
 | VI — The Game Between the Houses | [Open in Dropbox](https://www.dropbox.com/scl/fi/eakqhvj3umson5vqvbiz2/Book-II-Chapter-VI_-The-Game-Between-the-Houses-1.paper?rlkey=ys3jabjo22qumf94pc8hkldc5&dl=0) | 4 | `cced555a95ba11c01bfa6fef143d3975120dda43` |

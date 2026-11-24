@@ -43,7 +43,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | Chapter | Title | Narrative words | Current status |
 | --- | --- | ---: | --- |
 | I | The Lost Country | 4,609 | First expansion pass completed 24 November; full-book continuity and final edit pending |
-| II | The Keepers of the Old Trail | 1,928 | Existing text; whole-book expansion review pending |
+| II | The Keepers of the Old Trail | 6,396 | First expansion pass completed 24 November; full-book continuity and final edit pending |
 | III | The Place That Moved | 1,902 | Existing text; whole-book expansion review pending |
 | IV | The Promises That Keep | 2,452 | Existing text; relationship and whole-book review pending |
 | V | Four Mansions | 2,487 | Existing text; residential and relationship review pending |
@@ -68,7 +68,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 ## Execution order
 
 1. Maintain the [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) as the working continuity index; update it after every accepted chapter revision.
-2. Chapter I has its first expansion pass and has been read back against Chapter II; continue the in-place revision at Chapter II and proceed through Chapters III–IX in canonical order. Reserve Chapter I's whole-book review for the final continuity sweep.
+2. Chapters I and II have received first expansion passes and have been read back against their adjacent chapters; continue the in-place revision at Chapter III and proceed through Chapters IV–IX in canonical order. Reserve both chapters' whole-book reviews for the final continuity sweep.
 3. After the existing sequence has been revised, continue with the next necessary chapter and carry all new consequences into the book's records.
 4. Continue the sequence until its dramatic and relational movements reach an earned ending.
 5. Perform the whole-book continuity sweep, copyedit, contents/index reconciliation, and final proof.

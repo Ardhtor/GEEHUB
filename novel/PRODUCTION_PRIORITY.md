@@ -8,7 +8,7 @@
 
 ### First — Book II: the Kirk Expedition
 
-Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book continuity and final editorial process. Chapters I–VII have received in-place development passes; all nine chapter endings have received a first compression pass on 24 November. The current narrative census is 35,572 words. Whole-book review and body-level line editing remain open.
+Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book continuity and final editorial process. All nine chapters have received first body-level line edits. The current narrative census is 36,319 words. Whole-book continuity review and final copyedit remain open.
 
 Finishing Book II means more than adding the next chapter. Work must return to the existing sequence, develop each chapter in canonical order, reconcile its continuity, continue the story through its natural ending, and then perform the whole-book editorial close-out. The chapter expansion protocol remains in force.
 
@@ -48,15 +48,15 @@ Narrative word counts below exclude the separate continuity record at the end of
 | --- | --- | ---: | --- |
 | I | The Lost Country | 4,180 | First body-level line edit complete; whole-book continuity and final edit pending |
 | II | The Keepers of the Old Trail | 4,039 | First body-level line edit complete; whole-book continuity and final edit pending |
-| III | The Place That Moved | 4,486 | Ending compression pass; full continuity and line edit pending |
-| IV | The Promises That Keep | 3,725 | Ending compression pass; relationship continuity and line edit pending |
-| V | Four Mansions | 4,763 | Ending compression pass; residential continuity and line edit pending |
-| VI | The Game Between the Houses | 3,947 | Ending compression pass; geography and relationship review pending |
-| VII | The Contest That Never Ends | 3,945 | Ending compression pass; Evermeasure and relationship review pending |
-| VIII | A Day in the Open Pavilion | 2,287 | Ending compression pass; expansion and full edit pending |
-| IX | The Narrow Turn | 3,877 | Ending compression pass; expansion and full edit pending |
+| III | The Place That Moved | 4,233 | First body-level line-edit pass complete; whole-book continuity pending |
+| IV | The Promises That Keep | 3,641 | First body-level line-edit pass complete; relationship continuity pending |
+| V | Four Mansions | 4,694 | First body-level line-edit pass complete; residential and relationship continuity pending |
+| VI | The Game Between the Houses | 3,950 | First body-level line-edit pass complete; geography and relationship continuity pending |
+| VII | The Contest That Never Ends | 3,874 | First body-level line-edit pass complete; Evermeasure and relationship continuity pending |
+| VIII | A Day in the Open Pavilion | 3,833 | First body-level line-edit pass complete; relationship continuity pending |
+| IX | The Narrow Turn | 3,875 | First body-level line-edit pass complete; scene clarity and repeatability continuity pending |
 
-**Current total:** 36,319 narrative words across nine chapters after the first ending-compression pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
+**Current total:** 36,319 narrative words across nine chapters after the first body-level line-edit pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
 
 ## Active Book II threads
 
@@ -72,7 +72,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 ## Execution order
 
 1. Maintain the [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) as the working continuity index; update it after every accepted chapter revision.
-2. A first ending-compression pass has been completed across Chapters I–IX. The next pass is a body-level line edit through all nine chapters in canonical order, beginning with Chapter I. Reconcile repetition, scene function, character continuity, and geography without changing established events or padding chapters to a word target.
+2. A first ending-compression pass has been completed across Chapters I–IX. The first body-level line-edit pass is complete across all nine chapters. Begin the whole-book continuity sweep: reconcile chronology, spatial atlas, character records, relationship knowledge, objects, routes, point of view, and chapter transitions. Do not add expansion unless the sweep identifies a missing scene or unsupported transition.
 3. After the existing sequence has been revised, continue with the next necessary chapter and carry all new consequences into the book's records.
 4. Continue the sequence until its dramatic and relational movements reach an earned ending.
 5. Perform the whole-book continuity sweep, copyedit, contents/index reconciliation, and final proof.

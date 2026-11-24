@@ -10,9 +10,7 @@ Marcus looked up. “The wall changed before we measured it.”
 
 “Then it was waiting for an audience.”
 
-The surveyor gave him a tired look. Andrew grinned, set down his bag, and crouched to study the marks at the base of the post. There was nothing random about his attention. He noticed that the post's new angle did not match the direction of the floor's movement; he noticed that a small stone had been turned over, exposing a pale face that had been hidden the previous evening; and he noticed that the cord tied around the post had been knotted twice, although he remembered tying it only once. He could make a game out of almost anything, but the game usually began with a real observation.
-
-He took his time with the post. The surveyor had drawn the new angle in the margin, but Andrew wanted to see how the cord lay against the wood and whether the pale stone had moved with the floor or been turned by a boot. He asked Marcus where the second knot had been tied. Marcus showed him the older loop and the newer one. Andrew did not claim to know why the cord had changed. He marked the difference on the edge of the field sheet and asked whether anyone had seen it happen.
+The surveyor gave him a tired look. Andrew grinned, set down his bag, and crouched to study the marks at the base of the post. He noticed that the post's new angle did not match the direction of the floor's movement, that a small stone had been turned over, and that the cord tied around the post carried two knots where he remembered one. He took his time with the cord, asking Marcus where the second knot had been tied. Marcus showed him the older loop and the newer one. Andrew did not claim to know why it had changed. He marked the difference on the field sheet and asked whether anyone had seen it happen.
 
 “No,” the surveyor said. “We found it that way.”
 
@@ -111,7 +109,7 @@ Andrew looked pleased. “You see? You're learning to appreciate my work.”
 
 “I'm learning to appreciate the space you leave for the next attempt.”
 
-Andrew took a baseball from the side pocket of his bag. He had carried it through the western route, more from habit than from any plan to use it. The ball looked almost absurdly ordinary beside the chamber's curved walls and the immense body of country beyond them. He set it on the floor near the cedar post and watched it roll. It travelled several feet, slowed, and came to rest against a shallow rise.
+After the first series, Andrew retrieved the same baseball from the cedar post. The earlier tests had compared repeated releases from nearby starting points; this one would test whether the slope changed across the wider floor. He set the ball down and watched it travel several feet toward the lower side, slow, and come to rest against a shallow rise. It looked almost absurdly ordinary beside the chamber's curved walls and the immense body of country beyond them.
 
 “The floor is lower on that side,” the surveyor said.
 
@@ -276,9 +274,7 @@ Before the next expedition set out, Andrew took the ball and walked to the mouth
 
 “I won't. I'll bring you the map.”
 
-The lower route waited below. The old trail was familiar, but the opening beyond the Warm Table remained unentered. Andrew and Kirk had not returned to an earlier version of themselves; they had found that their chemistry could hold a boundary as well as affection.
-
-Andrew turned toward the shelter. The next journey would test what they had promised one another.
+The lower route waited below. The old trail was familiar, but the opening beyond the Warm Table remained unentered. Andrew turned toward the shelter. He and Kirk had not returned to an earlier version of themselves; they had found that their chemistry could hold a boundary as well as affection. The next journey would test what they had promised one another.
 ---
 
 ## Continuity record

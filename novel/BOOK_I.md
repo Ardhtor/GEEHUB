@@ -10,6 +10,7 @@ This file was an empty placeholder when inspected on 24 November 2026, despite b
 ## Current principal text candidates
 
 - [Rewritten Opening — Book I, Chapters I–LXXII](REWRITTEN_OPENING.md) — the full environmental rewrite, currently the strongest reader-facing text candidate for the first seventy-two chapters. Its heading uses the alternate title *The House of Open Screens*.
+- [Book I Expansion Register](BOOK_I_EXPANSION_REGISTER.json) — current source map for the rewritten opening: 72 headings, about 38,150 words, all queued for continuity review. Legacy completion claims are retained separately as unverified.
 - [Book I Final Movement](BOOK_I_FINAL_MOVEMENT.md) — Chapters LXXIII–LXXVIII. Treat as the current continuation candidate after Chapter LXXII, pending review against other files carrying the same numbers.
 - [Book I Continuation 02](BOOK_I_CONTINUATION_02.md) — an earlier or alternate set of Chapters LXIII–LXVI. These chapter numbers overlap the rewritten opening and are not to be appended automatically.
 - [Book I Continuation 03](BOOK_I_CONTINUATION_03.md) — an earlier or alternate set of Chapters LXVII–LXXII. Several titles overlap the rewritten opening; compare before adopting.

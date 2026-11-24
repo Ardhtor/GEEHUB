@@ -24,6 +24,18 @@ Character continuity is carried by habits, speech, movement, memory, and relatio
 
 Preserve the Sacred Fountain, the wells, the house, Big Daddy's Voice, the first man, existing artifacts, chronology, and established relationships. Serum remains established but secondary lore: retain its existing consequences without making it the master explanation for growth, continuity, or the world. Do not silently promote experiments or speculation into canon.
 
+## Character development before collective decisions
+
+A character sheet or narrative role is not a completed character. Before asking a group to make a consequential collective decision—naming a place, founding an institution, declaring a relationship, setting a law, or choosing a shared future—make sure the reader has encountered the people as individuals with ordinary lives, particular wants, habits, loyalties, contradictions, humour, vulnerabilities, and independent responsibilities. A decision should feel like something these people would make because of their particular history with one another, not because the outline needs a symbolic answer.
+
+Do not use a character as a mouthpiece for the function named in his profile. Luke is more than presence, Tyler more than measurement, Chase more than the record, Gabe more than transformation, Andrew more than momentum, and Joseph more than memory. Let their established strengths create problems as well as solutions. Let their blind spots have consequences. Let them be wrong about one another, repair the mistake, and retain different interpretations where a disagreement remains alive.
+
+For every major character, develop what he wants in the immediate scene, what he would rather not admit, what he enjoys when the central plot is absent, what he knows about the others and how he learned it, and what he might choose that does not serve the group's shared project. Give the reader ordinary scenes in which no one is explaining the world or advancing its machinery. Meals, errands, training, rest, work, games, missed calls, private rituals, jokes, boredom, and small acts of care are part of the plot because they establish what a shared life is made of.
+
+Do not invent a shared history merely to create instant chemistry. Recognition through an image, post, message, or archive is not the same as friendship. Establish what each man has actually seen, what he has misunderstood, and what remains unknown. Keep distinct characters, relationships, biographies, and worlds separate unless a scene establishes a connection.
+
+The world-name question is therefore not ready for a definitive in-world answer simply because a blank sign needs filling. The Convergence's city sign may remain blank while the six become people to one another. Return to the naming question only after their shared life has given the word a history and a reason.
+
 ## Revision rule
 
 Revise in place and preserve factual events and important lines wherever possible. Rebuild the prose around them so each paragraph inhabits the environment and each break deepens the reader's sense of place. Do not replace the manuscript with a summary, erase canon, or invent consequential events merely to make a passage more dramatic.

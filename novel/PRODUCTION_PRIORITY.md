@@ -56,7 +56,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | VIII | A Day in the Open Pavilion | 2,287 | Ending compression pass; expansion and full edit pending |
 | IX | The Narrow Turn | 3,877 | Ending compression pass; expansion and full edit pending |
 
-**Current total:** 34,846 narrative words across nine chapters after the first ending-compression pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
+**Current total:** 34,775 narrative words across nine chapters after the first ending-compression pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
 
 ## Active Book II threads
 

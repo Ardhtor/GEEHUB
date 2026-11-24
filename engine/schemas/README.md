@@ -9,6 +9,7 @@ This is the local navigation page for `engine/schemas/`. The lists below link to
 ### JSON (5)
 
 - [`file-analysis.schema.json`](./file-analysis.schema.json)
+- [`growth-pass.schema.json`](./growth-pass.schema.json)
 - [`file-analysis.template.json`](./file-analysis.template.json)
 - [`innervation-cue-v2.schema.json`](./innervation-cue-v2.schema.json)
 - [`innervation-cue.schema.json`](./innervation-cue.schema.json)

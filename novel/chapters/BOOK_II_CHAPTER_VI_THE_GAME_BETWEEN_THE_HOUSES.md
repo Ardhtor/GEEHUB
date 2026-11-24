@@ -163,6 +163,8 @@ Andrew still wanted to win. He liked the feeling of a clean run and the prospect
 
 The receiver remained quiet for a while. Andrew glanced toward it once, then returned to the game. The absence of a message did not mean that the day had stopped. The residents had work to do, and the course was becoming interesting on its own terms.
 
+Before the residents left the pavilion, Chase added a rule to the route sheet: a player could stop at any marker, take the shorter path, or leave the course without losing the value of the attempt. The Long Return would record the route, not the worth of the man who took it. Andrew read the note and accepted it.
+
 When they returned to the pavilion, Joseph had not come back. Andrew carried the ball to the House of Returns and stopped at the outer path. The new bench was not there yet. He stood a little way from the door, unsure whether to knock. He could hear a quiet movement inside, perhaps a chair being moved or a book placed on a table. The house had a life of its own. He could not assume that because he wanted to speak, Joseph was ready.
 
 He knocked once.
@@ -202,8 +204,6 @@ Joseph took it, then smiled faintly. “You don't have to pay me back with a bal
 “Then come and have tea.”
 
 That evening Kirk came to the House of Returns as promised. He and Joseph sat by the hearth. Andrew did not call; he had been given a time to see Kirk the next morning, and he chose to keep it. His longing remained, but it now had a boundary he could practise respecting.
-
-Before they separated, Chase added a rule to the route sheet: a player could stop at any marker, take the shorter path, or leave the course without losing the value of the attempt. The Long Return would record the route, not the worth of the man who took it. Andrew read the note and accepted it.
 
 Joseph returned the ball to the common table. Andrew thanked him and asked whether he wanted to play again the next day. Joseph said he would decide after breakfast. Andrew let the answer remain open. The residents left the course assembled and quiet, with its markers visible and recovery bench in place. The game had a route, but no winner and no final form.
 ---

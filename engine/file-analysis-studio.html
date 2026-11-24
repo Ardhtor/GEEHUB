@@ -241,7 +241,7 @@ function createRecord(f) {
 function updateRecordFields() {
   if(!record)return;
   record.source.source_id=$("sourceId").value.trim() || record.source.source_id;
-  record.source.origin.locator=$("sourcePath").value.trim() || "Browser-selected local file; absolute path is not exposed";
+  record.source.origin.locator=$("sourcePath").value.trim() || null;
   record.source.origin.provider=$("sourcePath").value.trim() ? "user-specified-path" : "local-browser";
   record.source.source_role=$("sourceRole").value;
   record.scope.purpose=$("purpose").value.trim();
@@ -335,7 +335,7 @@ function addObservation(e) {
   const media=video||audio;
   let start=$("startSeconds").value===""?null:Number($("startSeconds").value);
   if(type==="timestamp"&&start===null&&media)start=Number(media.currentTime.toFixed(3));
-  if(!unit){if(type==="whole_file")unit="whole file";else if(type==="timestamp"&&start!==null)unit=start.toFixed(3)+" sec";else return setStatus("sourceStatus","Enter the exact location for this observation.");}
+  if(!unit){if(type==="whole_file")unit="whole file";else if(type==="timestamp"&&start!==null)unit=start.toFixed(3)+" sec";else if(type==="page"&&$("pageNumber").value!=="")unit="page "+$("pageNumber").value;else return setStatus("sourceStatus","Enter the exact location for this observation.");}
   const locator={unit_type:type,unit};
   if(start!==null)locator.start_seconds=start;
   if($("endSeconds").value!=="")locator.end_seconds=Number($("endSeconds").value);
@@ -352,7 +352,6 @@ function addObservation(e) {
     limitations:$("observationLimits").value.trim()?[$("observationLimits").value.trim()]:[]
   };
   record.observations.push(observation);
-  $("reviewStatus").value="content_inspected";
   $("reviewedUnits").value=String(Math.max(Number($("reviewedUnits").value)||0,record.observations.length));
   $("observationText").value="";$("observationLimits").value="";
   updateRecordFields();renderObservations();setStatus("sourceStatus","Observation added. Source file remains unchanged.");
@@ -362,6 +361,8 @@ function addInterpretation(e) {
   const ids=Array.from($("basedOn").selectedOptions).map(o=>o.value);
   const hypothesis=$("hypothesis").value.trim();
   if(!ids.length||!hypothesis){setStatus("sourceStatus","Choose supporting observations and enter a hypothesis.");return;}
+  const interpretConfidence=Number($("interpretationConfidence").value);
+  if(!Number.isFinite(interpretConfidence)||interpretConfidence<0||interpretConfidence>1){setStatus("sourceStatus","Interpretation confidence must be between 0 and 1.");return;}
   const i={
     interpretation_id:makeId("int",record.interpretations.length+1),
     kind:$("interpretationKind").value,hypothesis,based_on_observations:ids,

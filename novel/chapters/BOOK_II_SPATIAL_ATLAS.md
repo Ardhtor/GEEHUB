@@ -75,7 +75,7 @@ The phrase **forever** refers to the continuing and inheritable nature of the pr
 - **Gabe** maintains a Growth Canvas practice. His house preserves earlier baselines without ranking them and gives him a lively shared court as well as private rooms where no one needs to react to his latest change.
 - **Joseph** has a home of his own in Kirk's bodily geography. His residence is not a claim of ownership, a prize, or an automatic entitlement to Kirk's private rooms. It is a place from which he can choose closeness, quiet, and return.
 - **Andrew Sim** is a frequent visitor whose wish for Kirk's attention becomes increasingly urgent. He has a guest room at the residential approach when invited, but no fifth mansion has been established. His need for attention is a relationship pressure, not authority over the other residents.
-- **Michael Brock** is a very heavily muscled adult visitor who participates in the Evermeasure culture. He shares a secret, gentle relationship with Kirk. Michael has not been assigned one of the four mansions, and the privacy of his relationship must not be exposed or treated as a public contest.
+- **Michael Brock** is a very heavily muscled adult visitor who participates in the Evermeasure culture. Chapter VIII depicts his work at the common pavilion and Cedar Span; he remains unassigned to any of the four mansions. He shares a secret, gentle relationship with Kirk, and the privacy of that connection must not be exposed or treated as a public contest.
 
 The houses remain inhabited off-page. Each man has work, meals, guests, preferences, maintenance, and stretches of time that do not revolve around Kirk or the current expedition.
 
@@ -145,4 +145,5 @@ The Tractus World Atlas states that worlds and canons remain distinct. A method 
 - [Chapter V — Four Mansions](./BOOK_II_CHAPTER_V_FOUR_MANSIONS.md)
 - [Chapter VI — The Game Between the Houses](./BOOK_II_CHAPTER_VI_THE_GAME_BETWEEN_THE_HOUSES.md)
 - [Chapter VII — The Contest That Never Ends](./BOOK_II_CHAPTER_VII_THE_CONTEST_THAT_NEVER_ENDS.md)
+- [Chapter VIII — A Day in the Open Pavilion](./BOOK_II_CHAPTER_VIII_A_DAY_IN_THE_OPEN_PAVILION.md)
 - [The Evermeasure — Competitive Doctrine](./BOOK_II_COMPETITIVE_DOCTRINE.md)

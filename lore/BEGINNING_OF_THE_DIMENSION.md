@@ -28,7 +28,7 @@ The dimension conjuror remains a function to be discovered: the principle or age
 
 ## The first correspondences across boards
 
-The first room is a shared origin point for several independent GEEHUB boards, not a device for collapsing their canons.
+The first room is a shared origin point for several independent story-world boards, not a device for collapsing their canons.
 
 - **Joseph–Kirk / Veyrthalis:** Joseph and Kirk retain their separate identities, mutual recognition, and relationship continuity. This new branch may echo the experimental hyperspace expedition, but it does not rewrite that expedition or claim that the two events are already the same event.
 - **The Tractus / World Atlas:** The Tractus can preserve the page, the room, the bell, and the later crossings as traceable artifacts. Its shared registry connects worlds without making their local histories interchangeable.

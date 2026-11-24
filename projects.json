@@ -1215,6 +1215,30 @@
     ]
   },
   {
+    "id": "ian-gabe-kirk-triangle",
+    "name": "Ian Kistner, Gabe, and Kirk — The Threefold Attraction",
+    "status": "incubating",
+    "kind": "relationship-arc",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/lore/IAN_GABE_KIRK_TRIANGLE.md",
+    "description": "Continuing adult fictional relationship arc tracing the developing attraction and distinct bonds among Ian Kistner, Gabe, and Kirk; preserves individual agency, open romantic outcomes, and the Familiarity Paradox.",
+    "related": [
+      "character-records",
+      "beginning-of-the-dimension",
+      "joseph-kirk-runtime"
+    ],
+    "tags": [
+      "fiction",
+      "relationship",
+      "ian-kistner",
+      "gabe",
+      "kirk",
+      "adult",
+      "familiarity-paradox",
+      "continuity"
+    ]
+  },
+  {
     "id": "imagine-video-studio",
     "name": "Imagine Video Studio",
     "status": "prototype",
@@ -1992,6 +2016,32 @@
     "description": "Fictional workspace for Tyler's measurement method, uncertainty, and action."
   },
   {
+    "id": "universal-growth-engine",
+    "name": "Universal Growth Engine",
+    "status": "active",
+    "kind": "engine-architecture",
+    "group": "engine",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/docs/UNIVERSAL_GROWTH_ENGINE.md",
+    "description": "Repository-wide cumulative growth architecture connecting research, source evidence, interpretation, experiments, continuity, and production through inherited, reviewable development states.",
+    "related": [
+      "tractus-continuity",
+      "visual-evidence-ledger",
+      "sensation-engine",
+      "whole-world-expansion",
+      "tractus-execution-paths"
+    ],
+    "tags": [
+      "growth",
+      "research",
+      "continuity",
+      "provenance",
+      "experimentation",
+      "production",
+      "architecture"
+    ]
+  },
+  {
     "id": "veyrthalis",
     "name": "Veyrthalis",
     "status": "active",
@@ -2198,30 +2248,6 @@
     "related": [
       "the-complex",
       "vision-workspace"
-    ]
-  },
-  {
-    "id": "ian-gabe-kirk-triangle",
-    "name": "Ian Kistner, Gabe, and Kirk — The Threefold Attraction",
-    "status": "incubating",
-    "kind": "relationship-arc",
-    "repo": "Ardhtor/GEEHUB",
-    "path": "/lore/IAN_GABE_KIRK_TRIANGLE.md",
-    "description": "Continuing adult fictional relationship arc tracing the developing attraction and distinct bonds among Ian Kistner, Gabe, and Kirk; preserves individual agency, open romantic outcomes, and the Familiarity Paradox.",
-    "related": [
-      "character-records",
-      "beginning-of-the-dimension",
-      "joseph-kirk-runtime"
-    ],
-    "tags": [
-      "fiction",
-      "relationship",
-      "ian-kistner",
-      "gabe",
-      "kirk",
-      "adult",
-      "familiarity-paradox",
-      "continuity"
     ]
   }
 ]

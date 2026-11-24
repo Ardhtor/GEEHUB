@@ -312,7 +312,7 @@ The next morning had not yet arrived. The frame remained where they had left it,
 - **Joseph:** contributes practical craft, gives direct advice, and retains his own home, schedule, and right to decline participation.
 - **Gabe:** maintains warm-up and recovery as useful preparation, not compulsory ceremony.
 - **Chase:** records unsuccessful and successful attempts without confusing a proposal, a first pass, and repeatable performance.
-- **Robert:** develops a temporary test apparatus and plans a theatre view that makes the far corner visible.
+- **Robert:** develops the temporary test apparatus and a miniature-theatre model with two distinct views of the turn. The model is labelled as a reconstruction, not footage of the actual passage.
 - **Kirk:** independently confirms an already arranged conversation with Andrew. No bodily movement is requested or performed for the challenge.
 - **Michael Brock:** remains a visitor; his absence is ordinary and does not create a vacancy in the residents' group. His private relationship with Kirk remains secret and untouched by the public exhibition.
 - **Cross-book status:** direct development belongs to Book II. No event, message, travelling object, or encounter links this chapter to *The Road of Seven Wells* or *The Golden Lion and the Seven Great Houses*. The Many Open Ends retains its separate local chronology.

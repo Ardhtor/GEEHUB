@@ -146,6 +146,11 @@ No coordinates, distances, or permanent new landforms are introduced by Chapter 
 12. **Michael's privacy.** His secret relationship with Kirk remains unknown to the residents. No disclosure or residence assignment has been established.
 13. **The exhibition's visual language.** Robert's miniature-theatre study is a reconstruction, not source footage. A finished exhibition sequence has not yet been produced or reviewed.
 
+## Revision progress
+
+- **Chapter I — The Lost Country:** first in-place expansion pass completed and read back against Chapter II on 24 November 2026. Narrative body: 4,609 words, excluding the continuity record. Current Git blob: `6046e63dc0f749f0caeab24d9f2e7407fb143a90`. The expansion deepens the ridge approach, field methods, marker displacement, Old Trail evidence, camp routine, and Kirk's first report without changing the discovery sequence or entering the dark opening. Whole-book review remains pending.
+- **Next:** Chapter II — The Keepers of the Old Trail. Develop the arrival at the Measure House, the three keepers, the settlement's daily life, and the exchange of maps while preserving the resident count and the lower route's unentered status.
+
 ## Revision order and editorial gates
 
 The current nine chapters are not equally developed. Chapters I–VIII remain below the standard full-chapter range in the publishing guide; Chapter IX is a new draft within that range. Expansion must come from scenes that deepen character, place, evidence, action, and consequence, not from padding or repeated explanation.

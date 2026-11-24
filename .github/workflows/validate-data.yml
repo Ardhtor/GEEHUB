@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'hub/**'
+      - 'worldspace/**'
+      - 'geo-cyberspace/**'
       - 'projects.json'
       - 'app.js'
       - 'index.html'
@@ -165,6 +167,9 @@ jobs:
           const broadcasts = JSON.parse(app.slice(broadcastStart, broadcastEnd));
           const autonomy = fs.readFileSync('engine/world-autonomy.js', 'utf8');
           const atlas = fs.readFileSync('engine/story-atlas.js', 'utf8');
+          const atlasPage = fs.readFileSync('worldspace/maps.html', 'utf8');
+          const detailedMaps = JSON.parse(fs.readFileSync('geo-cyberspace/detailed-maps.json', 'utf8'));
+          const spatialMap = JSON.parse(fs.readFileSync('hub/spatial-world.json', 'utf8'));
           const atlasCss = fs.readFileSync('engine/story-atlas.css', 'utf8');
           const runtime = fs.readFileSync('artifacts/runtime.js', 'utf8');
           const bridge = fs.readFileSync('engine/world-state-bridge.js', 'utf8');
@@ -191,6 +196,17 @@ jobs:
           if (encounterLogic.includes('Math.random')) throw new Error('World encounter outcomes must follow persisted rules, not random rolls');
           const missing = world.regions.map(r => r.id).filter(id => !placeMap[id] || !broadcasts[id]);
           if (missing.length) throw new Error('Missing world broadcast/map mapping: ' + missing.join(', '));
+          const missingPins = Object.entries(placeMap).filter(([,name]) => !atlas.includes("name:'" + name + "'"));
+          if (missingPins.length) throw new Error('Story map does not recognize world destinations: ' + missingPins.map(([id]) => id).join(', '));
+          const worldIds = new Set(world.regions.map(r => r.id));
+          const danglingRoutes = spatialMap.routes.flat().filter(id => !worldIds.has(id));
+          if (danglingRoutes.length) throw new Error('Spatial routes reference unknown world regions: ' + [...new Set(danglingRoutes)].join(', '));
+          const scaleIds = detailedMaps.scales.map(s => s.id);
+          if (new Set(scaleIds).size !== scaleIds.length || !['WORLD','KINGDOM','VEYRT','COMPLEX'].every(id => scaleIds.includes(id))) throw new Error('Detailed Atlas scales are incomplete or duplicated');
+          const invalidScaleRecords = [...detailedMaps.landmarks, ...detailedMaps.regions].filter(item => !scaleIds.includes(item.scale));
+          if (invalidScaleRecords.length) throw new Error('Detailed map records reference unknown scales');
+          for (const source of ["'../world.json'", "'../hub/spatial-world.json'", "'../geo-cyberspace/detailed-maps.json'", "'../hub/world-state.json'"]) if (!atlasPage.includes(source)) throw new Error('Geographic Atlas is missing source ' + source);
+          if (!html.includes('href="./worldspace/maps.html"')) throw new Error('Black console does not link to the geographic Atlas');
           for (const file of ['./engine/screen-puncture.css', './engine/screen-puncture.js', './engine/story-atlas.js', './engine/world-autonomy.js']) {
             if (!html.includes(file)) throw new Error('index.html does not load ' + file);
           }

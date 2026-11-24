@@ -80,6 +80,29 @@ Chase repeated the word, testing it. “It assumes that every result can be meas
 
 Robert wrote it on the first clean panel. Beneath it, Joseph placed the marker from his bench. Chase entered the first Long Return measurements. Gabe added the controlled circuit. Andrew drew the double-arch throw. Robert pinned the model of the viewing screen. No one wrote a final winner. There was no column for the greatest man, the strongest man, or the man who had most impressed Kirk. The board was intended to preserve the work and make the next attempt possible.
 
+
+For the first hour, the board worked exactly as they intended. The entries described an achievement, the method used, and a question that could guide the next attempt. Then Andrew added a small row of tally marks beside the double-arch route. He meant it as a joke, a way to remember how many times he had tried it. Gabe added a mark beside the circuit. Robert drew a small symbol beside the theatre model. Within minutes, the marks had begun to look like a ranking.
+
+Chase erased the row.
+
+Andrew stared at him. “What was that for?”
+
+“It doesn't mean anything.”
+
+“It means attempts.”
+
+“Then write attempts. Don't put them in a column that looks like points.”
+
+Andrew wanted to argue. He liked the idea of a visible contest, something that could be beaten and improved. But he also knew that the marks had begun to change the way the men spoke. They were asking who had more, rather than what had worked. Joseph's bench had been praised for its craft, then overlooked because it did not fit the new tally. Michael's lift had become the thing everyone wanted to repeat, whether or not he wanted to do it again.
+
+Robert suggested that the board should have different kinds of entries. A route could have a clean passage record; a design could have a best-fit version; a demonstration could have a verified result; a recovery method could be preserved because it helped the men continue. None of those needed to be converted into one number. The board could show what a man had done without pretending that every achievement could be compared on the same scale.
+
+Andrew looked at the erased space. “So we keep the contest and lose the leaderboard.”
+
+“We keep the contest,” Joseph said. “We don't turn the men into the leaderboard.”
+
+Andrew laughed once, not because the distinction was funny, but because he knew it was right. Chase wrote the attempt count in the margin and labelled it clearly. The board remained a record, not a verdict.
+
 Michael Brock arrived while they were still arranging the entries.
 
 He was a very large, heavily muscled man, and his presence changed the scale of the gathering before he had spoken. His shoulders and arms filled the simple outline of his training shirt; the size of his build was immediately apparent beside the pavilion's broad timber posts. He was not introduced as a resident of any of the four mansions, and no one assigned him a place there. He had come to take part in the exhibition.
@@ -116,6 +139,23 @@ Michael agreed to try it. The second lift was slower, but more exact. It require
 
 The men understood the pattern. The first demonstration had been a show of strength. The second became a show of coordination. The next might be a test of design, balance, timing, or accuracy. There would always be a way to change the question so that the previous answer was no longer enough.
 
+
+Andrew proposed a timed version before the men had finished discussing the second carry. He wanted to know how quickly the beam could be brought to the cradle without losing the clean turn. Chase said the route had to be fixed first. Gabe asked whether the carriers had recovered from the previous lift. Robert wanted the lighting adjusted so the far corner could be seen. Each suggestion was sensible, but they began arriving too quickly for anyone to answer the last one.
+
+Michael looked at the beam, then at Andrew. “I can do another one. I don't need to do it immediately.”
+
+Andrew laughed. “I'm not making you.”
+
+“No,” Michael said. “You're making the next one sound as if it has to happen before we leave.”
+
+The remark was light, but it slowed the group. Gabe asked Michael whether he wanted to rest. Michael said he did, and sat on the bench while the others moved the equipment. Nobody argued. The next attempt could wait.
+
+Andrew looked toward the board. He had already begun to imagine the time written beside Michael's name. He had not meant to pressure him, but he could see how quickly a demonstration had become an expectation. He put the pencil down and asked Gabe whether the recovery circuit should be listed with the event. Gabe said it could be listed as preparation, not as a score.
+
+“Then the record will say what happened,” Chase said. “It won't say what we wanted to happen next.”
+
+That distinction gave them room to continue without pretending that the next attempt had already been agreed.
+
 Kirk listened to the public report from the receiver. He had been told about the new board, the route variations, and Michael's arrival. The men were proud of the day, and they wanted him to hear the best parts. Andrew described the beam lift with particular enthusiasm. Robert explained the gallery. Chase listed the measurements that still needed verification. Gabe described the circuit and Joseph added the small improvement to the Cedar Span bench.
 
 Kirk listened without interrupting. “You've made a whole institution out of one game.”
@@ -142,15 +182,47 @@ Andrew leaned toward the receiver. “You should come and see the board.”
 
 The correction was gentle, and the men accepted it. They had learned that Kirk could be part of their world without being required to turn his body into a demonstration. His approval mattered because he was a person they cared about, not because his movement would make the next contest more spectacular.
 
+
+The receiver was returned to the table. Andrew wanted to ask Kirk whether he had enjoyed the day's demonstrations, but he did not call again. He had already heard the answer in the way Kirk had spoken about the pavilion and the board. The men could show him what they had made. They could ask for his opinion. They could not make his body the next event simply because the afternoon had gone well.
+
+Michael sat with Gabe while the others worked on the gallery. He said he had enjoyed the beam carry, but he did not want every future visit to begin with a request to lift something heavier. Gabe agreed. He told Michael that the training court could be used for ordinary sessions, demonstrations, or nothing at all. A man could arrive, spend time with the others, and leave without having to produce a new record.
+
+Michael smiled. “That sounds like a better invitation.”
+
+Andrew heard them and came over. He said he had been thinking about a new challenge for the next visit. Michael told him he would listen to it when he came back. He did not promise to perform it. Andrew accepted the answer and began explaining the design rather than insisting on the result. The difference was small, but the conversation remained friendly.
+
 The exhibition continued into the afternoon. Andrew tried the double-arch route and missed the final return. Chase improved the starting marker and made the result repeatable. Gabe took the controlled circuit through its full sequence and then showed how it could be shortened for a tired player. Robert projected the route through the miniature theatre and discovered that the best view was not the largest one, but the one that preserved the difference between the two grounds. Joseph carried the bench to the Cedar Span and found a position where the passage remained clear. Each achievement drew a response. Every response contained the seed of another attempt.
+
+
+As the afternoon lengthened, the men began to tire. Andrew wanted another run at the double arch, but Gabe pointed out that his release had become less controlled. Andrew said he could correct it. Gabe asked whether he wanted to correct it now or after a rest. Andrew looked at the ball, then at the recovery bench. He chose the bench.
+
+Robert's theatre projection showed the last attempt from two angles. The front view made the return look clean; the side view showed that the ball had touched the edge of the arch. Chase recorded it as a near-success, not a completed return. Andrew groaned, then laughed. The result was still useful. They had learned which part of the route needed adjustment, and nobody had to pretend that a near-success was a record.
+
+Joseph brought the bench back from the Cedar Span and set it beside the pavilion. He asked whether the next exhibition could include the repair work that made a course usable. Robert liked the idea. Gabe said the recovery circuit should be included as well. Michael suggested that the men who carried the beam should also be allowed to record the method that made the lift safe. Chase wrote these proposals beneath the main entries, not as a new competition but as things worth preserving.
+
+The board began to look different. It still held the impressive demonstrations, but it also held the work that made them possible: the adjusted marker, the resting bench, the warm-up, the recovery route, the measured attempt that had not succeeded, and the correction that made the next attempt better. The men had not become less competitive. They had begun to see more of what a good performance required.
 
 By evening the Evermeasure Board was already crowded. Robert promised another panel. Chase promised a proper index. Gabe wanted an area reserved for recovery and techniques that were worth keeping even when they did not win. Joseph wanted the old marks preserved after each revision. Andrew said there should be a trophy. Michael suggested that the trophy ought to be too large for the shelf, which made Andrew decide that it would need its own pedestal.
 
 They were still arguing about the pedestal when the field began to empty.
 
+
+Before anyone left, Chase asked the group to agree on a few rules for the next exhibition. An attempt would be recorded with its conditions and method. A failed or incomplete attempt would remain in the archive if it taught them something. A player could stop, rest, or decline a repeat without losing the value of what he had already done. Different kinds of achievement would remain in different categories. No one would be ranked by his body, his relationship with Kirk, or the amount of attention he received.
+
+Andrew wanted a trophy, and the others let him keep the idea. But the trophy would mark an event or a method, not the worth of the man who won it. A later achievement could surpass the record without making the earlier one meaningless. The board would preserve both.
+
+Gabe asked that the recovery space remain outside the main exhibition route. Joseph asked that the bench and the other useful objects be displayed as craft, not as consolation prizes. Robert agreed to make the gallery flexible enough to show several kinds of work. Michael said he would come back if there was room to play without being expected to repeat the beam lift. Andrew said there would be.
+
+The rules did not end the competition. They made it possible for the men to keep enjoying it without requiring every gathering to become a test of who deserved to remain.
+
 Later, when the common green had quieted, Michael received a private message from Kirk. They spoke briefly, away from the public channel. Kirk asked whether he had enjoyed the day; Michael said he had, and told him he had been thinking of him. Kirk answered in the same quiet register. Their relationship remained theirs, separate from the applause.
 
 The Evermeasure Board stayed illuminated after everyone had gone. Its entries would become the next day's starting points: better routes, heavier beams, cleaner measurements, and new designs. No exhibition would be final. The men would keep answering one another, not by erasing the last achievement but by making another.
+
+
+A small note appeared at the bottom of the board before Robert closed the gallery for the night. It was not a record. It was a reminder of the rules they had just agreed to: **The game may continue; the man may stop.** Chase added the date. Gabe placed the recovery circuit beside it. Joseph left the bench's drawing in the craft section. Andrew looked at the entries and found that the board had become more interesting, not less. It contained more ways to participate, more ways to improve, and more reasons to return.
+
+The Evermeasure would still invite excess. Someone would always want a harder route, a heavier beam, a faster time, or a more spectacular answer. The men had not cured themselves of wanting to surpass one another. They had begun to recognise when the contest was making them careless with the people beside them. The next challenge would test not only what they could do, but whether they could keep the game generous enough to be worth returning to.
 ---
 
 ## Continuity record

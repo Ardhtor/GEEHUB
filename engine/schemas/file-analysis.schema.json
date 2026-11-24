@@ -122,11 +122,10 @@
               ]
             },
             "algorithm": {
-              "type": [
-                "string",
-                "null"
-              ],
-              "const": "sha256"
+              "enum": [
+                "sha256",
+                null
+              ]
             },
             "digest": {
               "type": [

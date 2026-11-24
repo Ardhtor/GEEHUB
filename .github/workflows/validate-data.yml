@@ -69,6 +69,7 @@ jobs:
           node --check engine/environmental-transitions.js
           node --check engine/social-cyberspace.js
           node --check engine/agent-reactions.js
+          node --check hub/growth-engine.js
       - name: Validate followed social sources and character voice references
         run: |
           node <<'NODE'

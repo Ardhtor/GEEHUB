@@ -205,9 +205,9 @@ The character records for [Luke](../characters/records/LUKE.md), [Tyler](../char
 
 [Chapter LXXV — The Table After Rain](../novel/chapters/CHAPTER_LXXV_THE_TABLE_AFTER_RAIN.md) is the first ensemble artifact in this growth cycle. The [agent reaction state](../hub/agent-reaction-states.json) stores the machine-readable temperaments and reciprocal relationships. The user-designated public account mappings remain separate in the [character personality reference map](../hub/character-personality-references.json); no unreviewed account trait has been promoted into canon.
 
-## The Cyber Black Hole of Geehub
+## The Cyber Black Hole
 
-[The Cyber Black Hole of Geehub](CYBER_BLACK_HOLE_OF_GEEHUB.md) names the convergence of friends, images, posts, places, voices, projects, and memories into one connected creative world. Its gravity draws traces into relation without absorbing or flattening the people they refer to. The event horizon preserves provenance and permissions; the accretion disk describes how references become connected scenes, artifacts, and recurring places; the core is Tractus, which records each crossing and its limits. The friends retain distinct identities and independent orbits. Absence is not deletion, and a public reference is not permission to invent private facts or reproduce restricted material.
+[The Cyber Black Hole](CYBER_BLACK_HOLE_OF_GEEHUB.md) is the name the friends give to the gathering force at the centre of their shared world. It describes the convergence of friends, images, posts, places, voices, projects, and memories, not the name of the world itself. Its gravity draws traces into relation without absorbing or flattening the people they refer to. The event horizon preserves provenance and permissions; the accretion disk describes how references become connected scenes, artifacts, and recurring places. At the core is the web of relations among friends, places, and remembered events. Tractus remains the continuity model and record architecture, not the in-world name of the whole setting. The friends retain distinct identities and independent orbits. Absence is not deletion, and a public reference is not permission to invent private facts or reproduce restricted material.
 
 
 

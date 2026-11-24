@@ -54,7 +54,7 @@ Robert picked it up. “This is very good.”
 
 Joseph looked at the cradle again. “Then it is fortunate you didn't.”
 
-They laughed, and the morning began to gather around the work. Michael was not expected that day; his visit had been for the previous exhibition, and nobody treated his absence as a gap that had to be filled. The frame had been built for the pavilion, the residents had their own hands and ideas, and the next attempt belonged to whoever chose to take part.
+The joke passed, and the morning settled into work. Michael was not expected that day; his visit had been for the previous exhibition, and nobody treated his absence as a gap that had to be filled. The frame had been built for the pavilion, the residents had their own hands and ideas, and the next attempt belonged to whoever chose to take part.
 
 The first task was to establish the mock-up. Robert and Chase set the uprights on the pavilion floor, leaving enough room for the frame to approach from the western opening. The crosspieces could be moved inward or outward and raised or lowered. A length of pale cloth marked the floor beneath the turn. The arrangement looked less like a gate than a piece of theatre scenery, which pleased Robert. He wanted the test to be visible from the benches, but he also wanted the structure to disappear when it was not in use.
 

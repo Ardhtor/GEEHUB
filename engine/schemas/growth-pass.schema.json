@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://geehub.local/schemas/growth-pass.schema.json",
   "title": "Growth Pass Record",
-  "description": "A record of an incremental change from an earlier subject state to a reviewed result.",
+  "description": "A traceable proposal or completed incremental change from an inherited subject state, preserving encounter, source observations, interpretation, review, and next action.",
   "type": "object",
   "required": [
     "id",
@@ -57,6 +57,10 @@
             "minLength": 1
           },
           "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "observed_text": {
             "type": "string",
             "minLength": 1
           }
@@ -229,6 +233,14 @@
       "format": "date-time"
     },
     "next_action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "encounter": {
       "type": "string",
       "minLength": 1
     }

@@ -120,3 +120,17 @@ The first group meal can carry this development. Who chooses a seat, who reaches
 - **Only then:** return to unresolved collective questions, including what they might call the wider place.
 
 This register is a working map. It does not claim that the six characters are now fully developed. Its purpose is to stop the manuscript from mistaking a clear character function for a complete character.
+
+## Second scene pass — 25 November 2026
+
+A new scene has been inserted after Chapter Six in `lore/CYBER_BLACK_HOLE_NOVEL.md`, under the transition **“Later That Morning — The Observatory of Images.”** It gives the six an ordinary morning before the narrative returns to the observatory and the larger mechanism.
+
+The scene develops three pairings without inventing a shared past:
+
+- **Luke and Andrew:** Andrew invites Luke to the baseball field as company, not as someone to fix a problem. Luke accepts without converting the invitation into a practical task. Their exchange lets Andrew's curiosity about sound and Luke's tendency toward usefulness meet in a relaxed setting.
+- **Tyler and Chase:** they disagree about whether to test a route or simply walk it. A stop at a bakery interrupts the investigation. Tyler recognises that he has been attending to the map more than the street; Chase admits that accurate records can still omit whether he enjoyed an experience. Neither is reduced to a lesson or a victory.
+- **Gabe and Joseph:** Joseph asks before playing music. Gabe first declines, then invites him to play quietly and requests a short replay because he likes the sound itself. Joseph does not turn the moment into an interpretation of Gabe's feelings.
+
+The six reunite with small traces of the morning rather than a new collective revelation. The scene is deliberately modest: it establishes that shared time can matter without producing a rule, a discovery, or a new piece of world machinery.
+
+This is a scene-level development pass, not a completed relationship arc. The next revisions should let these pairings acquire consequences and differences over time, and should give the other pair combinations equally specific scenes.

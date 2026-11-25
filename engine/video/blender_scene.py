@@ -148,7 +148,8 @@ def ring_shell(name, rings, material_slot, segments=32):
 
 def build_wardrobe():
     """Create a fitted sleeveless top and shorts that share the body growth timeline."""
-    textile = material("WARDROBE / graphite compression fabric", (0.018, 0.045, 0.055), metallic=0.02, roughness=0.72)
+    textile_top = material("WARDROBE / grey fitted tank fabric", (0.30, 0.29, 0.27), metallic=0.01, roughness=0.78)
+    textile_shorts = material("WARDROBE / dark short fabric", (0.025, 0.030, 0.038), metallic=0.01, roughness=0.80)
     top = ring_shell(
         "WARDROBE / fitted sleeveless training top",
         [
@@ -158,7 +159,7 @@ def build_wardrobe():
             (0, 0.0, 2.42, 0.69, 0.39),
             (0, 0.0, 2.73, 0.48, 0.32),
         ],
-        textile,
+        textile_top,
     )
     shorts = ring_shell(
         "WARDROBE / fitted training shorts",
@@ -167,11 +168,11 @@ def build_wardrobe():
             (0, 0.0, 0.91, 0.53, 0.38),
             (0, 0.0, 0.68, 0.58, 0.39),
         ],
-        textile,
+        textile_shorts,
     )
     straps = [
-        limb("WARDROBE / left shoulder strap", (-0.52, -0.31, 2.47), (-0.52, 0.31, 2.47), 0.075, textile),
-        limb("WARDROBE / right shoulder strap", (0.52, -0.31, 2.47), (0.52, 0.31, 2.47), 0.075, textile),
+        limb("WARDROBE / left shoulder strap", (-0.52, -0.31, 2.47), (-0.52, 0.31, 2.47), 0.075, textile_top),
+        limb("WARDROBE / right shoulder strap", (0.52, -0.31, 2.47), (0.52, 0.31, 2.47), 0.075, textile_top),
     ]
     return top, shorts, straps
 
@@ -263,7 +264,7 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
     camera = bpy.data.objects.new("Director camera", camera_data)
     scene.collection.objects.link(camera)
     camera_mode = manifest.get("direction", {}).get("camera", "medium")
-    camera_data.lens = 35 if timeline else (45 if camera_mode == "low" else 55 if camera_mode == "close" else 48)
+    camera_data.lens = float(timeline.get("camera", {}).get("lens_mm", 50)) if timeline else (45 if camera_mode == "low" else 55 if camera_mode == "close" else 48)
     scene.camera = camera
     camera_shots = [
         (3.0, -10.0, 3.15),

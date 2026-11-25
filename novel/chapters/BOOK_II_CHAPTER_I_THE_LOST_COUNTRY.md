@@ -174,11 +174,7 @@ When the receiver went quiet, Marcus looked at the blank space inside the outlin
 
 
 
-The leader wrote the report while the surveyor checked the figures. Marcus read the description of the old trail and asked that the symbols be copied exactly, including the weathered marks that were difficult to see. They sent the message through the receiver and waited for confirmation. Kirk acknowledged it and said he would tell them if he noticed another movement. He did not promise that he could predict one.
-
 By morning, the cedar post at the entrance had moved several inches. The chamber had widened, and the pale line along the far wall had become a narrow passage. The men measured the change, checked their equipment, and prepared a second expedition. The new passage offered another route, but its appearance did not make it safe.
-
-They entered the day's measurements twice: once to describe the chamber as they had found it, and again to describe it as it was now. The first page was not discarded. The second did not replace it.
 
 
 ---

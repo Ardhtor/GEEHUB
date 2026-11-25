@@ -45,3 +45,9 @@ The browser morph is a Three.js procedural blockout with independent regional sl
 ### Acceptance test
 
 The first production shot is complete only when the viewer can watch Luke change continuously from the smaller Library inset into the larger same-Luke state in one stable full-body shot; his face remains recognizably the same; all major muscle groups grow in a coordinated sequence; joints, stance and clothing respond; and the resulting frames can be reviewed individually and exported. The current procedural blockout remains useful for testing parameter logic, but it does not pass this source-driven acceptance test.
+
+## First Library-grounded animation profile
+
+The first authored Luke profile is `engine/video/profiles/luke-library-transformation-profile.json`, with timeline `engine/video/profiles/luke-library-transformation-timeline.json`. It connects the Library before/after pair to an eight-second, 240-frame, 30 fps regional growth pass. Sixteen regions now have independent curves and Blender deformation fields, including separately controlled biceps, triceps, forearms, abdominals, glutes and hamstrings.
+
+The profile is marked `procedural_first_pass`: its curve values are authoring controls rather than measurements inferred from the images. The new CI workflow checks Python compilation, profile/timeline consistency and curve sampling. Blender execution, fixed-camera render comparison, identity preservation and cloth response remain pending.

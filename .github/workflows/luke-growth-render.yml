@@ -1,4 +1,4 @@
-name: Luke Growth Morph Render
+name: Luke Library Transformation Render
 
 on:
   workflow_dispatch:
@@ -19,22 +19,26 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y blender
 
-      - name: Build animated scene and render MP4 with sound
-        env:
-          GEEHUB_OUTPUT: ${{ runner.temp }}/geehub-luke-growth
-          GEEHUB_RENDER: "1"
-          GEEHUB_FAST_RENDER: "1"
+      - name: Validate the Library-grounded production
+        run: |
+          python3 engine/video/render_project.py --project production/projects/luke-library-transformation --validate-only
+
+      - name: Render eight-second Luke muscle-growth transformation
         run: |
           set -o pipefail
-          blender --background --python engine/blender_luke_growth.py 2>&1 | tee "${{ runner.temp }}/blender-render.log"
+          python3 engine/video/render_project.py \
+            --project production/projects/luke-library-transformation \
+            --preview-seconds 8 2>&1 | tee "$RUNNER_TEMP/luke-library-render.log"
 
-      - name: Upload scene, MP4, sound and render log
+      - name: Upload Blender scene, MP4, diagnostics and render log
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: geehub-luke-growth-render
+          name: luke-library-transformation-preview
           path: |
-            ${{ runner.temp }}/geehub-luke-growth/
-            ${{ runner.temp }}/blender-render.log
+            production/projects/luke-library-transformation/05_EXPORTS/
+            production/projects/luke-library-transformation/04_COMPOSITES/
+            production/projects/luke-library-transformation/07_MANIFESTS/growth_measurements.json
+            ${{ runner.temp }}/luke-library-render.log
           if-no-files-found: warn
           retention-days: 14

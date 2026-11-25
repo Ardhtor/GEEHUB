@@ -2778,6 +2778,15 @@
           "name": "Stage 10: The Final Phase.png",
           "library_path": "/Stage 10: The Final Phase.png",
           "classification": "visually-inspected"
+        },
+        {
+          "id": "library-libfile_90dde0bf04cc8191bcc8c59516856ee5",
+          "file_id": "file_00000000f89481f583d665c82eea2080",
+          "library_file_id": "libfile_90dde0bf04cc8191bcc8c59516856ee5",
+          "name": "Superbodybuilder Gym Transformation Montage.png",
+          "library_path": "/Superbodybuilder Gym Transformation Montage.png",
+          "classification": "visual-continuity-candidate",
+          "notes": "Front, rear and side gym views; curly light-brown hair, beard, grey tank and shorts closely resemble Luke's established visual references. No explicit Luke label visible; use as supporting pose, surface and proportion reference, not as a stage-number source."
         }
       ]
     },
@@ -2883,7 +2892,7 @@
     {
       "id": "candidate-luke-visual-echoes",
       "title": "Candidate Luke visual echoes",
-      "purpose": "Visually similar grey-tank, curly-haired, bearded giant references found in the Library. Similarity is a hypothesis; do not merge into Luke canon without identity confirmation.",
+      "purpose": "Visually similar curly-haired, bearded men in grey tanks and dark/grey shorts. Preserve provenance and distinguish high-confidence visual continuity candidates from unrelated faces; do not merge into Luke canon without identity confirmation.",
       "references": [
         {
           "id": "library-libfile_290f7ec92a348191b558fd2935ca9c5d",
@@ -2909,7 +2918,7 @@
   ],
   "last_curated_analysis": {
     "date": "2026-11-25",
-    "scope": "18 visually inspected images",
+    "scope": "19 visually inspected images",
     "focus": "continuous muscle-growth transformation",
     "status": "curated-subset; remaining Library images not yet visually reviewed",
     "active_production_profile": "luke-library-transformation-v1"

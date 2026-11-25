@@ -53,5 +53,19 @@
     "state_rule": "Persist task identity, status, inputs, source lineage, decisions, invoked functions, outputs, errors, and next executable step in durable machine-readable state. Do not rely on chat-turn context or browser-local storage as the sole continuity mechanism.",
     "verification_rule": "Record whether each operation was executed, structurally checked, integration-tested, or visually/render-tested. Never report a planned or simulated operation as completed.",
     "navigation_rule": "Discover contexts through shared relationships and search within the active task. Avoid category menus and separate project screens as the primary interaction model."
+  },
+  "maintenance": {
+    "scope": "Maintain the existing GEEHUB software and repository. Prefer small, concrete changes to existing code and workflows over new features, subsystems, conceptual architecture, or documentation-only work.",
+    "examples": [
+      "Update existing code when requirements or interfaces change.",
+      "Find and fix reproducible bugs.",
+      "Consolidate duplicated or fragmented functions into the existing runtime.",
+      "Maintain manifests, configuration, schemas, and persistent state.",
+      "Add or update tests and run the relevant checks.",
+      "Verify integrations and outputs before reporting a change as working.",
+      "Keep the repository buildable, internally consistent, and operational."
+    ],
+    "completion_rule": "A maintenance task is complete only when the relevant files are updated and the change has been checked at the strongest practical level. Report what changed and distinguish committed, tested, and runtime-verified results.",
+    "constraint": "Do not turn these examples into separate menu destinations or a new subsystem. They are ordinary task types handled within the existing single persistent task instance."
   }
 }

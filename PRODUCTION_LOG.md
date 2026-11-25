@@ -104,3 +104,16 @@ This is the durable resume point for repository work. Update it after meaningful
 - This is the first braided pass, not a completed review of every chapter in all three books. Existing chronology, unresolved questions, and separate book identities remain in place.
 
 - Continuity correction in *The Many Open Ends*: the Archive's later open day now receives a second sample case from Bluewater Quay and re-examines the already discovered Convent overflow passage after fresh rain. It no longer repeats the first crate's misdelivery or the first discovery of the hidden drain.
+
+## 2026-11-25 — BALLS.mov transformation reference study
+
+- Inspected the user-uploaded `Balls.mov` as the primary transformation-production benchmark for the Joey / Swolebeast branch.
+- Verified media facts: H.264 video with AAC audio, 960 × 720 (4:3), nominal 29.97 fps, 195.328 seconds, 5,854 decoded frames, 37,019,741 bytes. SHA-256: `02724a020a77a7e38f174de43e7f188ddb366fa3f06e9436e490b34375cc51aa`.
+- Scanned all decoded frames for adjacent-frame change and histogram discontinuities; visually reviewed 98 representative frames at two-second spacing plus a 33-frame six-second overview. Candidate temporal discontinuities were recorded as review cues, not declared scene cuts.
+- Added `media/BALLS_MOV_REFERENCE_ANALYSIS_2026-11-25.md` with source provenance, timecoded sequence, visual grammar, character/deformation channels, shot grammar, acceptance tests, tool recommendations, and explicit confidence limits.
+- Observed production grammar: clean teal studio, wooden slatted platform, luminous coloured spheres as recurring catalyst objects, an adult male CG performer, staged muscular escalation, deliberate front-facing flex poses, anatomical close-up inserts, a facial identity insert, and a monumental final low-frontal flex hold.
+- Established implementation rule: keep identity, baseline proportions, growth, pose, wardrobe, props, camera, materials, and provenance as separate channels. Never infer true growth from camera crop or pose alone; use fixed-pose comparisons and regional shape targets.
+- Verification boundary: source analysis and documentation are complete for this pass. No original source rig/mesh has been recovered, no Blender scene or emulation render has been built, and the uploaded clip has not been copied to Dropbox. An exact-name Dropbox search for `Balls.mov` did not surface a matching asset; the current source record remains the conversation upload with the hash above.
+- Tooling check: FFmpeg/ffprobe and OpenCV are available in the current analysis runtime; Blender is not installed there. Recommend Blender 5.2.5 LTS for the initial reproducible character/scene build, with the existing DaVinci Resolve workflow retained for editorial assembly. Blender 5.3.0 is the latest release as of this log date; use it only if a required feature justifies leaving the LTS line.
+- Next: register the source in `/GEEHUB/production/references/` once its Dropbox destination is confirmed; create a timestamped shot/landmark manifest; then build a Blender studio and adult character blockout with separate pose and growth controls. Validate the neutral pose and shape-state separation before attempting final animation.
+

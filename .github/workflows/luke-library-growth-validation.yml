@@ -6,6 +6,9 @@ on:
       - "engine/video/profiles/**"
       - "engine/video/growth_curves.py"
       - "engine/video/timeline_growth.py"
+      - "engine/video/render_project.py"
+      - "engine/video/blender_scene.py"
+      - "production/projects/luke-library-transformation/**"
       - "engine/video/tests/**"
       - ".github/workflows/luke-library-growth-validation.yml"
   pull_request:

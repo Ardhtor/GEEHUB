@@ -29,6 +29,9 @@ python3 engine/video/render_project.py --project production/projects/luke-librar
 
 ## Animation
 
+The canonical render uses the fused humanoid mesh in `engine/video/rigged_character.py`, sixteen frame-sampled deformation fields in `engine/video/timeline_growth.py`, and separate shape-key-driven tank/shorts meshes in `engine/video/blender_scene.py`. The facial proxy is fixed while the body grows. The older `engine/blender_luke_growth.py` is retained as a secondary procedural preview, not the canonical renderer.
+
+
 The timeline has six continuous semantic intervals: baseline, upper-body onset, arms/back, torso/lower-body catch-up, whole-body integration, and final hold. Sixteen regional curves drive independent shape keys on the unified procedural body and the separate garment meshes.
 
 The camera is fixed and frontal. The wardrobe is a grey fitted tank and dark short shorts. Clothing is currently a geometry/tension proxy, not a cloth simulation.

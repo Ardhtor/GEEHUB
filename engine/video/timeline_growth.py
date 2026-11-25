@@ -111,6 +111,32 @@ def animate_timeline_camera(camera, timeline, profile=None, target=(0.0, 0.0, 1.
     fps = int(timeline.get("timebase", {}).get("fps", 24))
     duration = float(timeline["duration_seconds"])
     camera_settings = timeline.get("camera", {}) if timeline else {}
+    if camera_settings.get("mode") == "sequence":
+        shots = camera_settings.get("shots", [])
+        if not shots:
+            raise ValueError("Camera sequence requires at least one shot")
+        for shot in shots:
+            seconds = float(shot["at_seconds"])
+            frame = min(int(round(duration * fps)), max(1, int(round(seconds * fps)) + 1))
+            camera.location = tuple(float(value) for value in shot["location"])
+            focus = Vector(tuple(float(value) for value in shot["target"]))
+            camera.rotation_euler = (focus - camera.location).to_track_quat("-Z", "Y").to_euler()
+            camera.keyframe_insert(data_path="location", frame=frame)
+            camera.keyframe_insert(data_path="rotation_euler", frame=frame)
+            if shot.get("lens_mm") is not None:
+                camera.data.lens = float(shot["lens_mm"])
+                camera.data.keyframe_insert(data_path="lens", frame=frame)
+        # The camera cuts at authored shot boundaries; the body deformation remains continuous.
+        actions = []
+        if camera.animation_data and camera.animation_data.action:
+            actions.append(camera.animation_data.action)
+        if camera.data.animation_data and camera.data.animation_data.action:
+            actions.append(camera.data.animation_data.action)
+        for action in actions:
+            for curve in action.fcurves:
+                for point in curve.keyframe_points:
+                    point.interpolation = "CONSTANT"
+        return
     if camera_settings.get("mode") == "fixed":
         location = camera_settings.get("location", (0.0, -10.0, 1.65))
         focus = Vector(camera_settings.get("target", target))

@@ -30,7 +30,7 @@ GEEHUB/
 |---|---|---|
 | `.geehub/` | `engine/config/` or root config | Inspect runtime discovery and hidden metadata references first |
 | `.github/` | `.github/` | Keep at root |
-| `KINGDOM_LAND/` | `archive/kingdom-land/` | Case-normalize through a Git rename; retain historical README and links |
+| `KINGDOM_LAND/` | `archive/kingdom-land/` | Moved in commit `MOVE_COMMIT`; original blob content and history remain traceable |
 | `archive/` | `archive/` | Retain; merge other cold material only after provenance review |
 | `artifacts/` | `engine/artifacts/` or external artifact store | Split append-only event ledgers from generated outputs before moving |
 | `assets/` | `studio/assets/` | Separate source assets from generated renders |
@@ -100,4 +100,4 @@ No moves have been made yet.
 
 | Commit | Old path | New path | Verification |
 |---|---|---|---|
-| — | — | — | — |
+| `MOVE_COMMIT` | `KINGDOM_LAND/` | `archive/kingdom-land/` | Git tree rename; all three original blobs reused unchanged |

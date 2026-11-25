@@ -1,0 +1,98 @@
+{
+  "schema": "geehub.asset-register/2",
+  "project_id": "luke-library-transformation",
+  "assets": [
+    {
+      "id": "luke-before-after-reference",
+      "kind": "reference-image",
+      "required": true,
+      "status": "library-reference-indexed",
+      "destination": "01_SOURCE/",
+      "source_ref": "ChatGPT Library file file_00000000915081f5b7e06f22fa8a8556",
+      "verification": [
+        "Visual inspection of smaller inset and larger result",
+        "Same-Luke label and face continuity"
+      ],
+      "notes": "Original remains in the ChatGPT Library. This repository entry indexes it; it does not contain the image bytes."
+    },
+    {
+      "id": "baseline-frame",
+      "kind": "identity-lock-frame",
+      "required": true,
+      "status": "not-extracted",
+      "destination": "02_FRAMES/",
+      "verification": [
+        "Face and head proportions",
+        "Hair and beard",
+        "Full-body pose and clothing"
+      ],
+      "notes": "Extract or create a local working copy from the original Library image without altering the original."
+    },
+    {
+      "id": "growth-pass",
+      "kind": "continuous-deformation-sequence",
+      "required": true,
+      "status": "not-rendered",
+      "destination": "03_GROWTH_PASSES/",
+      "files": [
+        "03_GROWTH_PASSES/"
+      ],
+      "verification": [
+        "240 frames at 30 fps",
+        "Sixteen regional growth channels",
+        "No discontinuities",
+        "Fixed-camera comparison"
+      ]
+    },
+    {
+      "id": "editable-scene",
+      "kind": "blender-project",
+      "required": true,
+      "status": "not-generated",
+      "destination": "04_COMPOSITES/",
+      "verification": [
+        "Unified rig",
+        "Regional shape keys",
+        "Separate wardrobe meshes",
+        "Fixed camera"
+      ]
+    },
+    {
+      "id": "preview",
+      "kind": "diagnostic-video",
+      "required": true,
+      "status": "not-rendered",
+      "destination": "05_EXPORTS/",
+      "verification": [
+        "Eight-second duration",
+        "1080x1620 delivery settings",
+        "Visible body deformation",
+        "Visual review"
+      ]
+    },
+    {
+      "id": "master",
+      "kind": "delivery-video",
+      "required": true,
+      "status": "not-rendered",
+      "destination": "05_EXPORTS/",
+      "verification": [
+        "Final reviewed MP4",
+        "Identity continuity",
+        "Frame-to-frame deformation continuity",
+        "Checksum recorded after export"
+      ]
+    },
+    {
+      "id": "audio",
+      "kind": "audio-stems",
+      "required": false,
+      "status": "not-authored",
+      "destination": "06_AUDIO/",
+      "verification": [
+        "Separate audio stem if later requested"
+      ]
+    }
+  ],
+  "provenance_rule": "Preserve the Library original. Do not mark generated frames, scene files, previews or masters as rendered or verified until they exist and have been inspected."
+}

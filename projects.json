@@ -1493,7 +1493,13 @@
       "growth"
     ],
     "kind": "character-workspace",
-    "description": "Luke's living character state: same face and identity across a progressively larger, longer body; current baseline emphasizes usable reach, leverage, stance, and movement within the persistent world."
+    "description": "Luke's living character state: same face and identity across a progressively larger, longer body. The source-driven growth pipeline now links his Library before/after reference, later stage checkpoints, and the procedural morph/Blender blockout while clearly distinguishing prototype geometry from the required image-conditioned transformation.",
+    "pipeline_path": "/engine/LUKE-GROWTH-PIPELINE.md",
+    "related": [
+      "library-reference-archive",
+      "growth-study-001",
+      "geehub-studio"
+    ]
   },
   {
     "id": "male-harem-virtual-space",

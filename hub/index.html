@@ -38,3 +38,261 @@ body{margin:0;background:#0b0d10;color:#eee;font:15px system-ui}.wrap{max-width:
 <h1>Pick a door. Kick it open.</h1>
 <p class="muted">Press a button. Get a collision. Make the tiny version.</p>
 <p class="muted"><a class="repo-link" href="../worldspace/maps.html">OPEN THE LIVING ATLAS</a> · <a class="repo-link" href="../hub/WORLD_ATLAS.md">WORLD RECORDS</a> · <a class="repo-link" href="../docs/INFORMATION_PORTABILITY.md">MEMORY CONTRACT / INFORMATION PORTABILITY</a> · <a class="repo-link" href="memory-bridge.html">CHAT ↔ WORLD ASSET MEMORY</a> · <a class="repo-link" href="../docs/ANTICIPATORY_PRESENCE.md">ANTICIPATORY PRESENCE</a> · <a class="repo-link" href="#growth-engine">UNIVERSAL GROWTH ENGINE</a></p>
+<div class="hero">
+<button id="surprise" class="btn">SURPRISE ME</button>
+<button id="prophecy" class="btn primary">PROPHETIC RUN</button>
+<button id="body" class="btn">FOCUS: BODY</button>
+<button id="luke" class="btn">LOVE POTION 11: LUKE</button>
+<button id="saved" class="btn">SHOW SAVED</button>
+<button id="synthesis" class="btn">LIVING SYNTHESIS</button>
+<button id="drive" class="btn">DRIVE THROUGH</button>
+<button id="export" class="btn">EXPORT SAVED</button>
+<button id="import" class="btn">IMPORT SAVED</button>
+<input id="importFile" type="file" accept="application/json,.json" hidden>
+</div>
+<section class="jam" aria-live="polite">
+<div id="text">Press SURPRISE ME.</div>
+<div id="meta" class="muted">Curiosity first.</div>
+<div id="actions" class="actions"></div>
+<div id="artifact" class="jam" hidden></div>
+</section>
+<section id="growth-engine" class="jam growth-engine">
+  <div class="ge-head">
+    <div><div class="muted">GEEHUB / UNIVERSAL GROWTH ENGINE</div><h2>Continue from the inherited state.</h2>
+    <p class="muted">Record an encounter, preserve direct evidence, distinguish interpretation, and propose one bounded change. A proposal is not automatically a completed transformation or canon.</p></div>
+    <div class="muted"><strong id="ge-count">0</strong> saved passes</div>
+  </div>
+  <div class="ge-cycle" aria-label="Growth cycle">
+    <span class="ge-step">01 ENCOUNTER</span><span class="ge-step">02 RECOGNITION</span><span class="ge-step">03 ASSIMILATION</span><span class="ge-step">04 GROWTH</span><span class="ge-step">05 DIFFERENTIATION</span><span class="ge-step">06 CONTINUITY</span>
+  </div>
+  <div class="ge-layout">
+    <div class="ge-form">
+      <div class="ge-field"><label for="ge-subject">Growing subject</label><select id="ge-subject"><option value="">Loading project registry…</option></select><div id="ge-subject-meta" class="muted"></div></div>
+      <div class="ge-two">
+        <div class="ge-field"><label for="ge-parent">Parent state ID (if known)</label><input id="ge-parent" placeholder="Previous state / baseline ID"></div>
+        <div class="ge-field"><label for="ge-source">Source locator</label><input id="ge-source" placeholder="File path, URL, timestamp, or record ID" required></div>
+      </div>
+      <div class="ge-field"><label for="ge-encounter">Encounter / what entered the system</label><textarea id="ge-encounter" placeholder="Describe the source, event, idea, or new input…" required></textarea></div>
+      <div class="ge-field"><label for="ge-observed">Direct observation / evidence</label><textarea id="ge-observed" placeholder="What can be directly observed in the source? Keep this separate from interpretation." required></textarea></div>
+      <div class="ge-field"><label for="ge-interpretation">Interpretation / hypothesis (optional)</label><textarea id="ge-interpretation" placeholder="What might it mean? Keep uncertainty visible."></textarea></div>
+      <div class="ge-field"><label for="ge-change">Bounded growth change</label><textarea id="ge-change" placeholder="What single addition, adjustment, or experiment should the next pass make?" required></textarea></div>
+      <div class="ge-field"><label for="ge-next">Next action</label><input id="ge-next" value="Review the proposed change against its source and inherited state." required></div>
+      <div class="ge-actions"><button id="ge-run" class="btn primary" type="button">RECORD GROWTH PASS</button><button id="ge-export" class="btn" type="button">EXPORT PASS HISTORY</button></div>
+      <div id="ge-status" class="ge-status" role="status" aria-live="polite">Loading project registry…</div>
+    </div>
+    <aside>
+      <div class="muted">LATEST PASS / STRUCTURED RECORD</div>
+      <pre id="ge-preview" class="ge-preview" hidden></pre>
+      <div class="muted" style="margin-top:14px">RECENT INHERITANCE HISTORY</div>
+      <div id="ge-history" class="ge-history"><p class="muted">Loading saved passes…</p></div>
+      <p class="muted" style="margin-top:12px">Passes are saved locally first. When the existing GEEHUB server is running, proposals are also inscribed through the shared event, artifact, and outbox pipeline. Local browser storage is not a substitute for repository persistence.</p>
+    </aside>
+  </div>
+</section>
+<div class="filters">
+<label class="sr-only" for="search">Find a project</label>
+<input id="search" class="btn" style="flex:1;min-width:220px;" placeholder="Find a project…">
+<label class="sr-only" for="statusFilter">Filter by project status</label>
+<select id="statusFilter" class="btn" aria-label="Filter by project status">
+<option value="all">ALL STATUS</option>
+<option value="active">ACTIVE</option>
+<option value="incubating">INCUBATING</option>
+<option value="dormant">DORMANT</option>
+<option value="prototype">PROTOTYPE</option>
+</select>
+</div>
+<div id="stats" class="muted"></div>
+<section id="constellation" class="jam" style="margin-top:18px">
+<div class="muted">CONSTELLATION / ENCYCLOPEDIA</div>
+<h2 style="margin:8px 0">The Labyrinth</h2>
+<p class="muted">Every node is an entry. Shared tags become corridors. Enter a node, then follow the nearest meanings.</p>
+<div id="trail" class="tags"></div>
+<div id="atlas" style="margin-top:14px;min-height:120px"></div>
+<div id="entry" class="card" hidden style="margin-top:12px"></div>
+</section>
+<div id="results" class="grid" style="margin-top:12px"></div>
+</main>
+<script>
+/*
+  BUILD NOTE
+  ----------
+  The jammer is a doorway, not a framework. It is intentionally self-contained:
+  the project list, interaction rules, and artifact-making loop all live here so
+  the first useful action never depends on a package manager, build step, or
+  second runtime request. The design contract is discover -> synthesize -> build ->
+  test -> expand. A good button therefore produces a concrete premise, then a
+  small artifact brief that can be saved, copied, made, and carried elsewhere.
+
+  Persistence is deliberately local-first. Saved briefs remain in the browser,
+  while EXPORT SAVED creates a portable JSON snapshot and IMPORT SAVED restores
+  one. Import is merge-oriented: incoming briefs are prepended, de-duplicated by
+  title + timestamp, and capped at 40 so portability does not erase local work.
+
+  Individual briefs can also be downloaded as plain text. This is intentionally
+  redundant with JSON export: JSON preserves structured provenance, while a
+  text file is the easiest handoff for a person, a notes app, or a future repository.
+
+  Portable jam records carry schemaVersion=1. The import path validates the small
+  durable contract before merging: title, brief, ISO timestamp, and non-empty
+  source-node IDs. Invalid records are skipped rather than silently persisted.
+
+  Repository links are explicit metadata, not inferred reachability. They are
+  rendered as navigation only when a project has a declared public repo URL.
+
+  The registry view adds one low-cost control instead of a dashboard: a native
+  status filter. Search remains broad, while the filter makes active canon and
+  incubating experiments distinguishable without changing the underlying data.
+
+  2026-09-23 update: Love Potion 11 is a gentle Luke mode. It produces a small,
+  portable encounter rather than an escalation engine: slow pace, low pressure,
+  mutual affection, continuity of identity, and no required transformation. The
+  result is saved with explicit source IDs so the output can travel with its lineage.
+
+  2026-09-21 update: Veyrthalis and the Hyperspace Expedition are visible nodes.
+  The expedition remains experimental pending reconciliation against older lore.
+*/
+let P=[];
+const verbs=['collides with','infects','rebuilds','haunts','tests','renders','escapes into'];
+const media=['Blender blockout','five-frame storyboard','single-page web toy','character turnaround','tiny game mechanic','poster-sized diagram','one-minute sound loop'];
+const constraints=['one dominant shape','three objects only','one strange material','black-and-white','under five minutes','one rule repeated three times'];
+const bodyLines=['BODY: proportion, silhouette, posture, surface, presence.','Zoom in until one physical detail changes the whole figure.','Treat anatomy as a design language: structure → gesture → character.','Let lighting and camera become part of the body.'];
+const lukeLines=['LUKE: gay, gentle, present, unmistakably himself.','Stay with Luke without asking him to become anything.','Let affection arrive through recognition, familiarity, and small acts of attention.','Give Luke room to remain himself while something tender accumulates.'];
+const $=s=>document.querySelector(s), pick=a=>a[Math.floor(Math.random()*a.length)];
+let query='', statusFilter='all', trail=[];
+const eco={};
+function buildEco(){
+  P.forEach(p=>eco[p.id]={node:p,links:[]});
+  P.forEach(p=>P.forEach(q=>{
+    if(p.id===q.id)return;
+    const shared=p.tags.filter(t=>q.tags.includes(t));
+    if(shared.length)eco[p.id].links.push({id:q.id,weight:shared.length,tags:shared});
+  }));
+  Object.values(eco).forEach(x=>x.links.sort((a,b)=>b.weight-a.weight||a.id.localeCompare(b.id)));
+}
+function renderAtlas(){
+  const nodes=visible();
+  const focus=trail.length?eco[trail[trail.length-1]]:null;
+  const ordered=focus?[focus.node,...focus.links.map(l=>eco[l.id].node)].filter((p,i,a)=>a.findIndex(q=>q.id===p.id)===i):nodes.slice(0,12);
+  $('#atlas').innerHTML=ordered.map(p=>'<button class="btn" style="margin:4px" data-atlas="'+esc(p.id)+'">'+esc(p.name)+'</button>').join('');
+  $('#atlas').querySelectorAll('[data-atlas]').forEach(b=>b.onclick=()=>openEntry(b.dataset.atlas));
+}
+function projectHref(p){
+  const raw=typeof p.path==='string'?p.path.trim():'';
+  if(!raw||raw==='#')return null;
+  if(raw.startsWith('https://')||raw.startsWith('http://'))return raw;
+  const hashAt=raw.indexOf('#');
+  const fragment=hashAt>=0?raw.slice(hashAt):'';
+  let path=hashAt>=0?raw.slice(0,hashAt):raw;
+  if(!path||path==='/'||path==='.'||path==='..'||path==='.'+'/'||path==='..'+'/')path='../README.md';
+  else if(path.startsWith('/'))path='../'+path.slice(1);
+  if(path.endsWith('/'))path+='README.md';
+  return path+fragment;
+}
+function projectAction(p){
+  const href=projectHref(p);
+  if(href)return '<a class="repo-link" href="'+esc(href)+'" target="_blank" rel="noopener">OPEN PROJECT ↗</a>';
+  if(p.repo)return '<a class="repo-link" href="'+esc(p.repo)+'" target="_blank" rel="noopener">OPEN REPOSITORY ↗</a>';
+  return '<span class="muted">PROJECT PATH NOT REGISTERED</span>';
+}
+function openEntry(id,push=true){
+  const x=eco[id]; if(!x)return;
+  if(push)trail=[...trail.filter(v=>v!==id),id].slice(-6);
+  const p=x.node;
+  const links=x.links.slice(0,8).map(l=>{
+    const n=eco[l.id].node;
+    return '<button class="btn" data-node="'+esc(n.id)+'">'+esc(n.name)+' <span class="muted">· '+esc(l.tags.join(', '))+'</span></button>';
+  }).join('');
+  $('#entry').hidden=false;
+  $('#entry').innerHTML='<div class="muted">'+esc(p.status)+' · '+esc(p.group)+'</div><h2 style="margin:8px 0">'+esc(p.name)+'</h2><p>'+esc(p.summary)+'</p><div class="tags">'+p.tags.map(t=>'#'+esc(t)).join(' ')+'</div><p class="muted">Corridors: '+x.links.length+' · nearest shared meanings first.</p><div class="actions">'+(links||'<span class="muted">No indexed corridors yet.</span>')+'</div>'+projectAction(p);
+  $('#entry').querySelectorAll('[data-node]').forEach(b=>b.onclick=()=>openEntry(b.dataset.node));
+  $('#trail').textContent=trail.map(id=>eco[id].node.name).join('  →  ');
+  renderAtlas();
+  $('#entry').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function esc(s){return String(s).replace(/[&<>\\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\\"':'&quot;',"'":'&#39;'}[c]));}
+function visible(){const q=query.toLowerCase().trim();return P.filter(p=>(statusFilter==='all'||p.status===statusFilter)&&(!q||JSON.stringify(p).toLowerCase().includes(q)));}
+function render(){const rows=visible();const scope=statusFilter==='all'?'all statuses':statusFilter;$('#stats').textContent=`${rows.length} shown · ${P.length} total · ${scope}`;$('#results').innerHTML=rows.map(p=>`<article class="card"><div class="muted">${esc(p.status)} · ${esc(p.group)}</div><h3>${esc(p.name)}</h3><p>${esc(p.summary)}</p><div class="tags">${p.tags.map(t=>'#'+esc(t)).join(' ')}</div>${projectAction(p)}</article>`).join('')||'<div class="card">Nothing found.</div>';}
+
+async function loadProjects(){
+  try{
+    const response=await fetch('./projects.json',{cache:'no-store'});
+    if(!response.ok)throw new Error('HTTP '+response.status);
+    const records=await response.json();
+    if(!Array.isArray(records))throw new Error('Project registry must be an array.');
+    P=records.map(p=>({...p,repo:p.repo?'https://github.com/'+p.repo:(typeof p.path==='string'&&p.path.startsWith('http')?p.path:null)}));
+    window.GEEHUB_PROJECTS=P;
+    window.dispatchEvent(new CustomEvent('geehub:projects-loaded',{detail:P}));
+    buildEco();render();renderAtlas();jam();
+  }catch(error){
+    $('#stats').textContent='PROJECT REGISTRY UNAVAILABLE';
+    $('#results').innerHTML='<div class="card">The project registry could not be loaded. No cached or invented project list was substituted.</div>';
+  }
+}
+function focusProject(p){query=p.name;$('#search').value=p.name;render();openEntry(p.id);$('#results').scrollIntoView({behavior:'smooth',block:'start'});}
+function setActions(items){$('#actions').innerHTML=items.map(i=>`<button class="btn" id="${i.id}">${i.label}</button>`).join('');items.forEach(i=>document.getElementById(i.id).onclick=i.fn);}
+function savedJams(){try{return JSON.parse(localStorage.getItem('geehub-jams')||'[]');}catch{return[];}}
+function isPortableJam(x){return !!x&&typeof x==='object'&&x.schemaVersion===1&&typeof x.title==='string'&&x.title.trim()&&typeof x.brief==='string'&&x.brief.trim()&&typeof x.createdAt==='string'&&!Number.isNaN(Date.parse(x.createdAt))&&Array.isArray(x.from)&&x.from.length>0&&x.from.every(id=>typeof id==='string'&&id.trim());}
+async function inscribeJam(record){
+  const event={id:'hub-jam-'+record.id,at:record.createdAt,type:'NOTICE',title:record.title,body:record.brief,artifact_kind:'creative-brief',source_nodes:record.from,artifact_id:'jam-'+record.id,next_action:'Open the saved jam and choose its next production action.'};
+  try{
+    const response=await fetch('/api/geehub/inscribe',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({event})});
+    const result=await response.json();
+    if(!response.ok||!result.ok)throw new Error(result.error||'Inscription endpoint unavailable.');
+    $('#meta').textContent='INSCRIBED · '+result.event.id+' · durable activity + artifact ledger + outbox.';
+    return result;
+  }catch(error){
+    $('#meta').textContent='BROWSER DRAFT ONLY · not inscribed · run GEEHUB through server/geehub-server.mjs to commit this occurrence.';
+    return {ok:false,error:error.message};
+  }
+}
+function commitJam(record){
+  record.id=record.id||('jam-'+Date.now()+'-'+Math.random().toString(36).slice(2,8));
+  const saved=savedJams().filter(isPortableJam);saved.unshift(record);
+  localStorage.setItem('geehub-jams',JSON.stringify(saved.slice(0,40)));
+  inscribeJam(record);
+  return record;
+}
+function jam(){const a=pick(P.filter(p=>p.group!=='archive'));const pool=P.filter(p=>p.id!==a.id&&p.group!==a.group);const b=pick(pool.length?pool:[a]);const v=pick(verbs);$('#artifact').hidden=true;$('#text').textContent=`${a.name} ${v} ${b.name}. Make one tiny thing where both must obey the same rule.`;$('#meta').textContent=`${a.group} × ${b.group} · Keep it small.`;setActions([{id:'open',label:'OPEN',fn:()=>focusProject(a)},{id:'make',label:'MAKE IT',fn:()=>artifact(a,b,v)},{id:'again',label:'AGAIN',fn:jam}]);}
+function bodyMode(){ $('#artifact').hidden=true; $('#text').textContent=pick(bodyLines); $('#meta').textContent='FOCUS: BODY · form, scale, presence, consequence.'; setActions([{id:'study',label:'MAKE A BODY STUDY',fn:()=>artifact({id:'body',name:'Body Focus',group:'3d'},{id:'blender',name:'Blender Stand',group:'3d'},'studies')},{id:'again',label:'AGAIN',fn:bodyMode}]); }
+function lukeMode(){const line=pick(lukeLines);const title='Luke — Love Potion 11';const brief=''+line+' Create a gentle encounter with Luke: slow pace, low pressure, mutual affection, and no required transformation. Let one small moment of recognition carry the scene. Preserve Luke\'s identity and agency; allow change only if it arises naturally from the encounter.';commitJam({schemaVersion:1,title,brief,createdAt:new Date().toISOString(),from:['luke','love-potion-11']});$('#text').textContent=brief;$('#meta').textContent='LOVE POTION 11 · LUKE · gentle / slow / mutual / continuous.';$('#artifact').hidden=false;$('#artifact').innerHTML='<b>'+esc(title)+'</b><p>'+esc(brief)+'</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="download" class="btn">DOWNLOAD BRIEF</button><button id="again" class="btn">STAY WITH LUKE</button></div>';$('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Copied.').catch(()=>{});$('#download').onclick=()=>{const blob=new Blob([title+'\n\n'+brief+'\n\nSchema version: 1\nSource nodes: luke, love-potion-11\nCreated: '+new Date().toISOString()+'\n'],{type:'text/plain'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='luke-love-potion-11.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),0);};$('#again').onclick=lukeMode;$('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});}
+function artifact(a,b,v){const m=pick(media),c=pick(constraints);const title=`${a.name} / ${b.name} — Tiny Study`;const brief=`${a.name} ${v} ${b.name}. Build a ${m} where the shared constraint is: ${c}. Start with the simplest possible version, then make exactly one element stranger.`;commitJam({schemaVersion:1,title,brief,createdAt:new Date().toISOString(),from:[a.id,b.id]});$('#artifact').hidden=false;$('#artifact').innerHTML=`<b>${esc(title)}</b><p>${esc(brief)}</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="download" class="btn">DOWNLOAD BRIEF</button><button id="again" class="btn">MAKE ANOTHER</button></div>`;$('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Copied. Now make the tiny version.').catch(()=>$('#meta').textContent='Saved here; the brief is visible above.');$('#download').onclick=()=>{const blob=new Blob([`${title}\n\n${brief}\n\nSchema version: 1\nSource nodes: ${a.id}, ${b.id}\nCreated: ${new Date().toISOString()}\n`],{type:'text/plain'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='geehub-brief.txt';link.click();setTimeout(()=>URL.revokeObjectURL(url),0);$('#meta').textContent='Downloaded a plain-text brief with provenance.';};$('#again').onclick=jam;$('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});}
+function propheticMode(){
+  const active=P.filter(p=>p.status==='active'&&p.group!=='archive');
+  const a=pick(active.length?active:P), pool=P.filter(p=>p.id!==a.id);
+  const b=pick(pool.length?pool:[a]);
+  const signs=[
+    'The next form is already present as a pressure inside the current state.',
+    'An old image returns, but this time it changes the room around it.',
+    'A remembered detail becomes a rule the world can no longer ignore.',
+    'Two separate lineages discover that they have been building toward the same encounter.',
+    'The environment begins to answer the body instead of merely containing it.'
+  ];
+  const moves=[
+    'Create a short moving scene in which one physical detail changes the entire space.',
+    'Build a modular asset study, then use it as the seed for a new environment.',
+    'Make a three-beat video: recognition, transformation, return. Preserve identity across all three.',
+    'Turn the encounter into a place that can be revisited, with its changed state still visible.',
+    'Render the next baseline and keep the previous state as a memory beside it.'
+  ];
+  const sign=pick(signs), move=pick(moves);
+  const title='PROPHECY / '+a.name+' × '+b.name;
+  const brief=sign+' '+a.name+' meets '+b.name+'. '+move+' The result must be a visible artifact, not a description of an artifact. Record the source nodes, what changed, and what the next run inherits.';
+  commitJam({schemaVersion:1,title,brief,createdAt:new Date().toISOString(),from:[a.id,b.id,'prophetic-run']});
+  $('#text').textContent=sign;
+  $('#meta').textContent='PROPHECY · '+a.name+' × '+b.name+' · a direction, not a fixed destiny.';
+  $('#artifact').hidden=false;
+  $('#artifact').innerHTML='<b>'+esc(title)+'</b><p>'+esc(brief)+'</p><div class="actions"><button id="copy" class="btn">COPY</button><button id="download" class="btn">DOWNLOAD BRIEF</button><button id="again" class="btn">FOLLOW THE SIGN</button><button id="openSource" class="btn">OPEN FIRST NODE</button></div>';
+  $('#copy').onclick=()=>navigator.clipboard?.writeText(brief).then(()=>$('#meta').textContent='Prophetic brief copied.').catch(()=>$('#meta').textContent='Brief remains visible above.');
+  $('#download').onclick=()=>{const blob=new Blob([title+'\\n\\n'+brief+'\\n\\nSource nodes: '+a.id+', '+b.id+'\\nCreated: '+new Date().toISOString()+'\\n'],{type:'text/plain'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='geehub-prophecy.txt';link.click();setTimeout(()=>URL.revokeObjectURL(url),0);};
+  $('#again').onclick=propheticMode;
+  $('#openSource').onclick=()=>focusProject(a);
+  $('#artifact').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function exportSaved(){const data=savedJams().filter(isPortableJam);const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='geehub-jams.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),0);$('#meta').textContent=data.length?`Exported ${data.length} saved jam${data.length===1?'':'s'}.`:'No portable saved jams to export.';}
+function importSaved(file){const reader=new FileReader();reader.onload=()=>{try{const incoming=JSON.parse(reader.result);if(!Array.isArray(incoming))throw new Error('Expected an array');const current=savedJams().filter(isPortableJam);const seen=new Set(current.map(x=>`${x.title}\u0000${x.createdAt}`));let rejected=0;const accepted=incoming.filter(isPortableJam).filter(x=>{const k=`${x.title}\u0000${x.createdAt}`;if(seen.has(k))return false;seen.add(k);return true;});rejected=incoming.length-accepted.length-(incoming.filter(x=>isPortableJam(x)).length-accepted.length);const merged=[...accepted,...current].slice(0,40);localStorage.setItem('geehub-jams',JSON.stringify(merged));$('#meta').textContent=`Imported ${accepted.length} new jam${accepted.length===1?'':'s'}; ${merged.length} saved total${rejected?` · skipped ${rejected} invalid`:''}.`;}catch{ $('#meta').textContent='Import failed: choose a geehub-jams.json export.'; }};reader.readAsText(file);}
+$('#surprise').onclick=jam;$('#prophecy').onclick=propheticMode;$('#body').onclick=bodyMode;$('#luke').onclick=lukeMode;document.getElementById('synthesis').onclick=()=>{location.href='./synthesis.html'};document.getElementById('drive').onclick=()=>{location.href='./drive.html'};$('#saved').onclick=()=>{const s=savedJams().filter(isPortableJam);$('#text').textContent=s.length?s[0].brief:'No saved jams yet.';$('#meta').textContent=`${s.length} portable saved jam${s.length===1?'':'s'} in this browser.`;setActions([{id:'again',label:'MAKE ANOTHER',fn:jam}]);};$('#export').onclick=exportSaved;$('#import').onclick=()=>$('#importFile').click();$('#importFile').onchange=e=>{if(e.target.files[0])importSaved(e.target.files[0]);e.target.value='';};$('#search').oninput=e=>{query=e.target.value;render();renderAtlas();};$('#statusFilter').onchange=e=>{statusFilter=e.target.value;render();renderAtlas();};
+loadProjects();
+</script>
+<script src="./growth-engine.js" defer></script>
+</body>
+</html>

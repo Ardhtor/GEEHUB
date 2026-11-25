@@ -112,6 +112,60 @@
         "role": "supporting multi-angle pose and surface detail reference",
         "verification_status": "media-inspected",
         "identity_status": "visual-continuity-candidate"
+      },
+      {
+        "provider": "ChatGPT Library",
+        "file_id": "file_00000000190c81f5931790e112ff6f91",
+        "filename": "Monstrous Bodybuilder in a Dark Gym.png",
+        "role": "candidate visual-continuity echo",
+        "verification_status": "media-inspected",
+        "identity_status": "unconfirmed-candidate",
+        "note": "Compare face, hair, beard, clothing and proportions with Luke's explicit before/after source; do not treat as a numbered stage or confirmed identity."
+      },
+      {
+        "provider": "ChatGPT Library",
+        "file_id": "file_0000000018a481f58571759993ef542a",
+        "filename": "Giant Bodybuilder in Industrial Gym.png",
+        "role": "candidate visual-continuity echo",
+        "verification_status": "media-inspected",
+        "identity_status": "unconfirmed-candidate",
+        "note": "Compare face, hair, beard, clothing and proportions with Luke's explicit before/after source; do not treat as a numbered stage or confirmed identity."
+      },
+      {
+        "provider": "ChatGPT Library",
+        "file_id": "file_00000000c5f481f5968b9771a1e51940",
+        "filename": "Titanic Bodybuilder in an Industrial Gym.png",
+        "role": "candidate visual-continuity echo",
+        "verification_status": "media-inspected",
+        "identity_status": "unconfirmed-candidate",
+        "note": "Compare face, hair, beard, clothing and proportions with Luke's explicit before/after source; do not treat as a numbered stage or confirmed identity."
+      },
+      {
+        "provider": "ChatGPT Library",
+        "file_id": "file_00000000e3ec820ea9080ebdbeb86770",
+        "filename": "Colossal Bodybuilder in Industrial Gym.png",
+        "role": "candidate visual-continuity echo",
+        "verification_status": "media-inspected",
+        "identity_status": "unconfirmed-candidate",
+        "note": "Compare face, hair, beard, clothing and proportions with Luke's explicit before/after source; do not treat as a numbered stage or confirmed identity."
+      },
+      {
+        "provider": "ChatGPT Library",
+        "file_id": "file_00000000707081f69582284edeac413a",
+        "filename": "Giant Hairy Strongman in Industrial Gym.png",
+        "role": "candidate visual-continuity echo",
+        "verification_status": "media-inspected",
+        "identity_status": "unconfirmed-candidate",
+        "note": "Compare face, hair, beard, clothing and proportions with Luke's explicit before/after source; do not treat as a numbered stage or confirmed identity."
+      },
+      {
+        "provider": "ChatGPT Library",
+        "file_id": "file_00000000a6b081f59b395067922830dc",
+        "filename": "Towering Hyper-Muscular Gym Athlete.png",
+        "role": "candidate visual-continuity echo",
+        "verification_status": "media-inspected",
+        "identity_status": "unconfirmed-candidate",
+        "note": "Compare face, hair, beard, clothing and proportions with Luke's explicit before/after source; do not treat as a numbered stage or confirmed identity."
       }
     ],
     "conversation_references": [

@@ -7,10 +7,28 @@ VIDEO_ENGINE = Path(__file__).resolve().parents[1]
 REPO_ROOT = VIDEO_ENGINE.parents[1]
 sys.path.insert(0, str(VIDEO_ENGINE))
 
-from render_project import validate
+from render_project import validate, validate_camera_sequence
 
 
 class LukeProductionProjectTests(unittest.TestCase):
+    def test_hulums_project_uses_authored_camera_sequence(self):
+        import json
+        project = REPO_ROOT / "production" / "projects" / "hulums-lab-serum-60s"
+        timeline = json.loads((project / "07_MANIFESTS" / "timeline.json").read_text(encoding="utf-8"))
+        shots = timeline["camera"]["shots"]
+        self.assertEqual(timeline["camera"]["mode"], "sequence")
+        self.assertEqual(len(shots), 6)
+        self.assertEqual(shots[0]["at_seconds"], 0)
+        self.assertEqual(shots[-1]["at_seconds"], 55)
+        self.assertEqual(validate_camera_sequence(timeline["camera"], timeline["duration_seconds"]), [])
+
+    def test_camera_sequence_rejects_duplicate_or_out_of_range_times(self):
+        invalid = {"mode": "sequence", "shots": [
+            {"at_seconds": 0, "location": [0, -10, 2], "target": [0, 0, 1]},
+            {"at_seconds": 0, "location": [1, -8, 2], "target": [0, 0, 1]},
+        ]}
+        self.assertTrue(validate_camera_sequence(invalid, 60))
+
     def test_luke_library_project_manifests_validate(self):
         project = REPO_ROOT / "production" / "projects" / "luke-library-transformation"
         manifest, timeline = validate(project)

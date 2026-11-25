@@ -113,6 +113,17 @@
         "verification_status": "media-inspected",
         "identity_status": "visual-continuity-candidate"
       }
+    ],
+    "conversation_references": [
+      {
+        "provider": "ChatGPT conversation attachment",
+        "source_message_time": "2026-11-25T17:44:30Z",
+        "name": "User-designated Luke gym physique reference",
+        "role": "high-stage physique, stance, wardrobe and proportion reference",
+        "verification_status": "visually inspected in conversation",
+        "storage_status": "not yet copied to production/01_SOURCE",
+        "note": "User supplied this full-body gym image with the instruction 'more for luke'. It supplements, but does not replace, the paired Library before/after endpoint."
+      }
     ]
   },
   "storage": {

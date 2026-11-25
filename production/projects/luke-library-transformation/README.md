@@ -20,7 +20,7 @@ From the GEEHUB repository root, with Blender 4.x installed:
 python3 engine/video/render_project.py --project production/projects/luke-library-transformation
 ```
 
-This creates a low-resolution full-duration preview and an editable Blender scene. For the full-resolution master after reviewing the preview:
+This creates a low-resolution eight-second preview and an editable Blender scene. For the full-resolution master after reviewing the preview:
 
 ```bash
 python3 engine/video/render_project.py --project production/projects/luke-library-transformation --preview-seconds 0

@@ -117,3 +117,10 @@ This is the durable resume point for repository work. Update it after meaningful
 - Tooling check: FFmpeg/ffprobe and OpenCV are available in the current analysis runtime; Blender is not installed there. Recommend Blender 5.2.5 LTS for the initial reproducible character/scene build, with the existing DaVinci Resolve workflow retained for editorial assembly. Blender 5.3.0 is the latest release as of this log date; use it only if a required feature justifies leaving the LTS line.
 - Next: register the source in `/GEEHUB/production/references/` once its Dropbox destination is confirmed; create a timestamped shot/landmark manifest; then build a Blender studio and adult character blockout with separate pose and growth controls. Validate the neutral pose and shape-state separation before attempting final animation.
 
+## 2026-11-25 — BALLS.mov internal reference stills
+
+- Added four low-resolution source-derived JPEG stills to `media/balls_mov_reference_frames/`: establishing scene (00:03), initial flex (00:18), first enlarged bodybuilder state (00:50), and final upper-body flex crop (03:10).
+- Added `media/BALLS_MOV_REFERENCE_FRAMES_2026-11-25.md` as the internal frame index, linked to the exact uploaded source SHA-256. The index distinguishes observed source material from interpretation and cautions against measuring anatomy from reduced previews.
+- Merged through PR #14; merge commit: `edb44998d8dd1d7a60461bc8438ab3bd1335336f`.
+- The original `Balls.mov` binary is not in Git. Only four small reference stills and their index were added. The final still is an upper-body crop, not a full-body final-state reference.
+

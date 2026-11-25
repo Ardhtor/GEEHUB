@@ -2762,6 +2762,22 @@
           "library_file_id": "libfile_cfb1a1d62aa48191964f6e411507c560",
           "name": "Colossal Luke’s Gritty Gym Pose.png",
           "library_path": "/Colossal Luke’s Gritty Gym Pose.png"
+        },
+        {
+          "id": "library-libfile_78d9fa28fadc8191a7aedcdb4f6469cd",
+          "file_id": "file_00000000915081f5b7e06f22fa8a8556",
+          "library_file_id": "libfile_78d9fa28fadc8191a7aedcdb4f6469cd",
+          "name": "Neon Love Potion Muscle Transformation.png",
+          "library_path": "/Neon Love Potion Muscle Transformation.png",
+          "classification": "visually-inspected"
+        },
+        {
+          "id": "library-libfile_77026091eef0819193b23560d1963742",
+          "file_id": "file_0000000031e881f5a4b7bd577d099081",
+          "library_file_id": "libfile_77026091eef0819193b23560d1963742",
+          "name": "Stage 10: The Final Phase.png",
+          "library_path": "/Stage 10: The Final Phase.png",
+          "classification": "visually-inspected"
         }
       ]
     },
@@ -2804,6 +2820,14 @@
           "library_file_id": "libfile_7dc6082e6df481918ca2a3e8a833a6fe",
           "name": "Stage 7: The Expansion.png",
           "library_path": "/Stage 7: The Expansion.png"
+        },
+        {
+          "id": "library-libfile_77026091eef0819193b23560d1963742",
+          "file_id": "file_0000000031e881f5a4b7bd577d099081",
+          "library_file_id": "libfile_77026091eef0819193b23560d1963742",
+          "name": "Stage 10: The Final Phase.png",
+          "library_path": "/Stage 10: The Final Phase.png",
+          "classification": "visually-inspected"
         }
       ]
     },
@@ -2855,6 +2879,29 @@
           "library_path": "/Sci-Fi Prototype Fitness Dossier.png"
         }
       ]
+    },
+    {
+      "id": "candidate-luke-visual-echoes",
+      "title": "Candidate Luke visual echoes",
+      "purpose": "Visually similar grey-tank, curly-haired, bearded giant references found in the Library. Similarity is a hypothesis; do not merge into Luke canon without identity confirmation.",
+      "references": [
+        {
+          "id": "library-libfile_290f7ec92a348191b558fd2935ca9c5d",
+          "file_id": "file_00000000fb3c81f5809f386c87d80419",
+          "library_file_id": "libfile_290f7ec92a348191b558fd2935ca9c5d",
+          "name": "Towering Giant Bodybuilder in Gray Tank Top.png",
+          "library_path": "/Towering Giant Bodybuilder in Gray Tank Top.png",
+          "classification": "candidate-identity-match"
+        },
+        {
+          "id": "library-libfile_86f1c0f51a8c8191a946ac202d1f21fd",
+          "file_id": "file_000000005ac481f58d3d993087c5934d",
+          "library_file_id": "libfile_86f1c0f51a8c8191a946ac202d1f21fd",
+          "name": "Colossal Hyper-Muscular Bodybuilder Portrait.png",
+          "library_path": "/Colossal Hyper-Muscular Bodybuilder Portrait.png",
+          "classification": "candidate-identity-match"
+        }
+      ]
     }
   ],
   "analysis_documents": [
@@ -2862,7 +2909,7 @@
   ],
   "last_curated_analysis": {
     "date": "2026-11-25",
-    "scope": "14 visually inspected images",
+    "scope": "18 visually inspected images",
     "focus": "continuous muscle-growth transformation",
     "status": "curated-subset; remaining Library images not yet visually reviewed"
   }

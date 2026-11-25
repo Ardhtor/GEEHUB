@@ -2924,7 +2924,10 @@
       "regions": 16,
       "frames": 240,
       "fps": 30,
-      "status": "procedural_first_pass"
+      "status": "procedural_first_pass",
+      "project_path": "production/projects/luke-library-transformation/",
+      "render_command": "python3 engine/video/render_project.py --project production/projects/luke-library-transformation",
+      "validation_command": "python3 engine/video/render_project.py --project production/projects/luke-library-transformation --validate-only"
     }
   ]
 }

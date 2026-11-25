@@ -1,9 +1,24 @@
 {
   "version": 1,
   "space": "geehub-interaction-space",
-  "generated": "2026-11-25T04:14:36.101Z",
+  "generated": "2026-11-25T14:36:31.682Z",
   "note": "Seeded exchange records establish the connective tissue from observed repository material. They are not presented as live agent messages.",
   "events": [
+    {
+      "id": "scheduled-long-play-00240",
+      "at": "2026-11-25T14:36:31.682Z",
+      "from": "geehub-long-play",
+      "to": "chase",
+      "type": "TRANSFORM",
+      "title": "LONG PLAY / CAT GARDENS → FOUNDERS DORMITORY / CHASE",
+      "body": "The world crossed the existing relation \"THE DORM GARDEN PATH\" from CAT GARDENS into FOUNDERS DORMITORY. Scale increased from 17.82× to 17.86×. Earlier locations and baselines remain in the record.",
+      "source": "GEEHUB scheduled runner",
+      "artifact": "scheduled-recording-00240",
+      "live": true,
+      "regionId": "founders-dormitory",
+      "previousRegionId": "cat-gardens",
+      "relation": "THE DORM GARDEN PATH"
+    },
     {
       "id": "scheduled-long-play-00239",
       "at": "2026-11-25T04:14:36.101Z",
@@ -1481,21 +1496,6 @@
       "live": true,
       "regionId": "facility",
       "previousRegionId": "beefythiq",
-      "relation": "THE ROOM GETS SMALLER"
-    },
-    {
-      "id": "scheduled-long-play-00143",
-      "at": "2026-10-31T23:38:27.744Z",
-      "from": "geehub-long-play",
-      "to": "andrew",
-      "type": "TRANSFORM",
-      "title": "LONG PLAY / THE FACILITY → BEEFYTHIQ / ANDREW",
-      "body": "The world crossed the existing relation \"THE ROOM GETS SMALLER\" from THE FACILITY into BEEFYTHIQ. Scale increased from 11.54× to 11.62×. Earlier locations and baselines remain in the record.",
-      "source": "GEEHUB scheduled runner",
-      "artifact": "scheduled-recording-00143",
-      "live": true,
-      "regionId": "beefythiq",
-      "previousRegionId": "facility",
       "relation": "THE ROOM GETS SMALLER"
     }
   ]

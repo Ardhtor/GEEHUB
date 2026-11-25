@@ -63,3 +63,46 @@ The correspondence is structural rather than geographical. The Institute is not 
 ## Room for Quiet and the Dormitory Decathlon
 
 [Chapter LXXXI — Room for Quiet and the Dormitory Decathlon](../novel/chapters/CHAPTER_LXXXI_ROOM_FOR_QUIET_AND_THE_DORMITORY_DECATHLON.md) continues the East Dormitory story through a bed-frame extension, the conversion of the hidden service landing into Room for Quiet, and a seven-station cooperative dormitory circuit. The chapter keeps the Institute's growth culture inside ordinary male residential life: friends adapt beds, shoes, laundry equipment, study furniture, storage, and common spaces while their bodies continue changing. The decathlon is not timed and has no winner; its value lies in cooperative movement, playful problem-solving, and the relationships strengthened by shared use of the building.
+
+
+## The Model Workshop and the Dining Hall
+
+Rain had been moving across the grounds since breakfast, first as a fine mist against the upper windows and then as steady water running from the copper gutters. In the model workshop, the tall north-facing windows made the timber benches look darker than usual. A radiator clicked beneath the sample shelves. The room smelled of damp coats, cut birch, glue, and the coffee someone had brought in from the dining hall.
+
+The Coach came in carrying a folded plan and found one of the residents testing a set of wooden frames against a length of felt. Three finished panels stood against the wall. Each was made from a shallow timber frame, a replaceable inner layer, and fasteners that could be reached from the front. The resident had been working on them for several weeks after noticing that the dining hall became difficult to talk in when all the tables were occupied. He had measured the room at breakfast, lunch, and the evening meal, then made small test panels from offcuts left by the furniture workshop.
+
+The first version had been too heavy. The second had trapped dust along its lower edge. The third could be opened, cleaned, and repaired without dismantling the frame. He had brought the panels into the workshop that morning because he wanted to test whether the mounting system could be handled by one person.
+
+The Coach put the plan on the nearest bench. “Show me what happens when you take one down.”
+
+The resident released two catches, supported the frame with one hand, and lifted it clear of the wall rail. He set it on the bench, removed the felt insert, and showed how a replacement could slide into the same channel. The Coach tried the catches himself. He did it slowly, then repeated the movement without looking at the instructions.
+
+“That's the part I wanted to know,” he said. “Could someone who has never seen it take care of it?”
+
+“That's why I brought it here. I don't want it to depend on me being around.”
+
+Dan Roman arrived from Northgate shortly before eleven. He had come to review the shared workbench prototype with the workshop staff, carrying a notebook and a small case of fasteners. The Institute had arranged the visit through the Material Library; the bench was intended for use in both places, and the next test needed people who would maintain it rather than merely admire the drawing. Dan set the case down, greeted the Coach, and spent a few minutes examining the resident's wall rail before he looked at the bench.
+
+He asked how the panels were cleaned, whether the felt could be replaced locally, and what happened if a catch broke. The resident answered each question by demonstrating the relevant part. Dan then asked whether the rail had been tested on the dining hall's older plaster wall. It had not. The resident had assumed the timber backing would be enough, but he had not yet checked the fixing points behind the surface.
+
+“Then we shouldn't put the first one up there,” Dan said. “Let's open a small test section in the workshop first. We can see what the wall gives us before we decide what it can carry.”
+
+The Coach looked from the panels to the folded plan. “There's a short stretch beside the dining hall's west entrance. People wait there when the room is full. If the test works, that might be a useful place to begin. But the wall gets damp in this weather. Check it properly before you make a promise.”
+
+They spent the next hour moving between the workshop and the covered passage. The resident measured the wall, Dan checked the fixing points, and the workshop technician brought out a moisture meter and a small inspection light. The first proposed position was rejected because a pipe ran behind the plaster. The second left too little room for the service cupboard. The third was clear, but it would have narrowed the route used by the kitchen staff carrying trays. They marked the measurements on the plan and returned to the workshop.
+
+The bench prototype became part of the same test. Dan set its replaceable edge strip against the wall rail's timber sample and found that the two systems used different screw spacing. The resident suggested a shared fastener size. Dan checked the load requirements and agreed that the common size would work if the rail retained a wider backing plate. They changed the drawing, drilled a new sample, and fitted it without having to replace the rest of the frame. The change saved the workshop from maintaining two nearly identical sets of tools and gave the resident a repair method he could explain to someone else.
+
+At lunch, the Coach brought the three of them to the dining hall. The room was busy, and the sound gathered beneath the high ceiling: cutlery, chairs, conversation, the kitchen hatch opening and closing, rain tapping the long windows. The resident stood near the west entrance and watched the people waiting for tables. He had first thought of the panels as a way to make the whole room quieter. Now he saw that the problem was more local. The waiting area needed a place where two people could talk without blocking the entrance, while the central tables needed to remain open and lively.
+
+They moved one narrow table away from the wall and tested the space with two temporary screens made from workshop offcuts. The screens did not divide the room. They turned the waiting area slightly, gave people a place to stand outside the main route, and reduced the direct sound from the kitchen hatch. A man carrying a tray could still pass without turning sideways. The resident asked two diners whether the new arrangement made the entrance easier to use. One said yes; the other pointed out that the lower panel would catch the corner of a serving trolley.
+
+That afternoon, the resident altered the frame by raising its lower edge and rounding the exposed corner. Dan recorded the revised fixing detail for the Material Library, with the Institute's test measurements attached. The Coach asked the dining staff to keep the temporary arrangement for three days and to note any obstruction, cleaning problem, or change in how people used the entrance. No permanent installation was approved yet. The trial had a clear start, a responsible group, and a date for review.
+
+By the end of the day, the workshop had changed in several visible ways. A section of wall was cleared for the full-size test rail. The shared workbench stood beside the panel frames, its revised edge strip marked with the new fastener spacing. The drawings were pinned together rather than filed in separate folders, and a small rack held the felt samples in the order they had been tested. The resident had gained a real trial in the dining hall; Dan had a bench design that could be repaired with the same tools as another Institute project; and the kitchen staff had a direct way to report what worked.
+
+The Coach returned to the workshop before leaving. He looked at the drawings, then at the clear space that had been made beside the door.
+
+“Keep the test open until Friday,” he said. “If it works, we'll build the next one. If it doesn't, we'll know what to change.”
+
+The resident wrote the review date on the plan. Dan put a copy in his case for the Material Library. Outside, rainwater ran along the covered walk toward Northgate's road. The Institute had not gained a new department or a grand new building. It had gained a working arrangement between a resident's project, a shared workshop, the dining staff, and a visiting collaborator. The next change would depend on what happened during the trial.

@@ -579,3 +579,5 @@ The output parent must already exist and the output directory must be new. The s
 
 
 The first sequence-compositor package run [45695407336](https://github.com/Ardhtor/GEEHUB/actions/runs/45695407336) passed all 193 Node tests, all 14 Resolve Free Lua tests, Lua 5.4 syntax validation, package construction, and artifact upload. The package workflow now also includes explicit syntax and `--help` checks for `tools/compose-growth-sequence.js` and `npm run compose:sequence`.
+
+The follow-up package run [45695740115](https://github.com/Ardhtor/GEEHUB/actions/runs/45695740115) passed 193/193 Node tests, 14/14 Resolve Free Lua tests, Lua syntax validation, `node --check tools/compose-growth-sequence.js`, `npm run compose:sequence -- --help`, package construction, and artifact upload.

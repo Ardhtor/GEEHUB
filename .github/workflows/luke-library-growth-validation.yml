@@ -1,0 +1,45 @@
+name: Luke Library Growth Profile Validation
+
+on:
+  push:
+    paths:
+      - "engine/video/profiles/**"
+      - "engine/video/growth_curves.py"
+      - "engine/video/timeline_growth.py"
+      - "engine/video/tests/**"
+      - ".github/workflows/luke-library-growth-validation.yml"
+  pull_request:
+    paths:
+      - "engine/video/profiles/**"
+      - "engine/video/growth_curves.py"
+      - "engine/video/timeline_growth.py"
+      - "engine/video/tests/**"
+      - ".github/workflows/luke-library-growth-validation.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile growth engine modules
+        run: python -m py_compile engine/video/growth_curves.py engine/video/timeline_growth.py
+      - name: Validate Luke profile and run growth curve tests
+        run: python -m unittest discover -s engine/video/tests -p "test_growth_curves.py" -v
+      - name: Validate profile and timeline JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          base = Path("engine/video/profiles")
+          profile = json.loads((base / "luke-library-transformation-profile.json").read_text())
+          timeline = json.loads((base / "luke-library-transformation-timeline.json").read_text())
+          assert profile["schema"] == "geehub.growth-profile/1"
+          assert profile["project_id"] == timeline["project_id"]
+          assert profile["timebase"]["frame_count"] == round(profile["duration_seconds"] * profile["timebase"]["fps"])
+          assert timeline["timebase"]["frame_count"] == round(timeline["duration_seconds"] * timeline["timebase"]["fps"])
+          assert set(profile["regions"]) == {"pectorals", "deltoids", "traps", "biceps", "triceps", "forearms", "arms", "lats", "back", "torso", "abdominals", "glutes", "quadriceps", "hamstrings", "calves", "whole_body"}
+          print("Luke Library growth profile: PASS")
+          PY

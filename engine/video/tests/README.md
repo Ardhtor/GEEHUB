@@ -1,11 +1,15 @@
-# engine/video/tests — directory index
+# engine/video/tests — test suite
 
-This is the local navigation page for `engine/video/tests/`. The lists below link to immediate files and child folders; use a child folder's own README to continue deeper.
+Run all tests with:
 
-**Up:** [parent directory](../README.md) · [repository root](../../../README.md) · [full directory map](../../../docs/REPOSITORY_NAVIGATION.md)
+```bash
+python3 -m unittest discover -s engine/video/tests -v
+```
 
-## Files
+Tests cover renderer-independent regional growth curves, the Luke Library profile and timeline, the executable Luke project manifests, and timeline/provenance validation.
 
-### PY (1)
+## Test files
 
-- [`test_growth_curves.py`](./test_growth_curves.py)
+- [test_growth_curves.py](./test_growth_curves.py)
+- [test_render_project.py](./test_render_project.py)
+- [test_validate_timeline.py](./test_validate_timeline.py)

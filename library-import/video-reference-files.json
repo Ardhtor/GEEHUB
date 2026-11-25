@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "manifest_type": "geehub-library-video-reference-files",
-  "generated_at": "2026-11-25T20:20:00Z",
+  "generated_at": "2026-11-25T20:20:45Z",
   "source": {
     "system": "ChatGPT Library",
     "surface": "library",
@@ -40,7 +40,53 @@
         "frame_count": 5854
       },
       "visual_review_status": "sampled_at_11_timepoints",
-      "visual_review": "Reviewed representative frames from 0 to 194 seconds. The clip uses a teal studio, adult male 3D character, grey striped tank and short trunks at the start, glowing colored spheres as recurring catalysts, progressive clothing removal and increasingly exaggerated muscular development, ending in an extremely massive bodybuilder form. It is a long-form reference (about 3 minutes 15 seconds), not an eight-second shot. Retain this as the Joseph/Joey Swolebeast transformation grammar and keep it separate from Luke's identity."
+      "visual_review": "Reviewed representative frames from 0 to 194 seconds. The clip uses a teal studio, adult male 3D character, grey striped tank and short trunks at the start, glowing colored spheres as recurring catalysts, progressive clothing removal and increasingly exaggerated muscular development, ending in an extremely massive bodybuilder form. It is a long-form reference (about 3 minutes 15 seconds), not an eight-second shot. Retain this as the Joseph/Joey Swolebeast transformation grammar and keep it separate from Luke's identity.",
+      "sampled_sequence": [
+        {
+          "time_seconds": 0,
+          "observation": "Opening wide shot: adult male character in grey striped tank and short trunks beside a table holding glowing colored spheres."
+        },
+        {
+          "time_seconds": 20,
+          "observation": "Early response: the character flexes while the original striped clothing remains visible."
+        },
+        {
+          "time_seconds": 40,
+          "observation": "Closer crop around the waist and clothing; transition is shown through changing framing and garment state."
+        },
+        {
+          "time_seconds": 60,
+          "observation": "A more developed muscular state appears with a glowing sphere still present in the scene."
+        },
+        {
+          "time_seconds": 80,
+          "observation": "Close crop emphasizes torso and lower-body scale as the transformation progresses."
+        },
+        {
+          "time_seconds": 100,
+          "observation": "Fuller muscular adult form in a flexing pose; major upper-body and abdominal mass is pronounced."
+        },
+        {
+          "time_seconds": 120,
+          "observation": "Advanced frontal physique checkpoint with substantially enlarged shoulders, arms, chest and torso."
+        },
+        {
+          "time_seconds": 140,
+          "observation": "Close-up emphasizes the enlarged chest and upper-body volume."
+        },
+        {
+          "time_seconds": 160,
+          "observation": "Further exaggerated chest, shoulder and arm proportions fill most of the frame."
+        },
+        {
+          "time_seconds": 180,
+          "observation": "Near-final extreme upper-body scale; close framing makes the muscular volume the dominant visual."
+        },
+        {
+          "time_seconds": 194,
+          "observation": "Final wide flexing checkpoint: an extremely massive adult bodybuilder form against the teal studio."
+        }
+      ]
     },
     {
       "id": "library-libfile_a6f3170c3768819198dea45035626e20",

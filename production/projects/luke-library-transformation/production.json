@@ -120,7 +120,7 @@
     "canonical": "Dropbox",
     "policy": "Keep original Library image immutable; store generated frames, Blender scenes and exports as separate versioned derivatives."
   },
-  "notes": "This project connects the Library before/after pair to the procedural Blender rig and sixteen regional shape-key channels. The character mesh remains a neutral procedural blockout and is not yet a fitted likeness of Luke. Blender render and visual validation are pending.",
+  "notes": "This project connects the Library before/after pair to the unified procedural Blender rig and sixteen regional shape-key channels. The canonical renderer now includes a fixed stylised facial continuity proxy (short light-brown curls, trimmed beard, eyes, brows, ears and nose) and separate shape-key-driven tank/shorts geometry. The character mesh remains a neutral procedural blockout, not a fitted likeness of Luke. Blender render and visual validation are pending.",
   "character_model": "rigged",
   "renderEntryPoint": "engine/video/render_project.py",
   "wardrobe": {

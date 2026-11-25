@@ -10,6 +10,16 @@ Treat this clip as a concrete production target for transformation pacing, stagi
 
 Keep the source observation record, interpretation, and GEEHUB implementation separate. The source character is an adult male CG performer. New GEEHUB characters retain their own identities; this clip supplies a transformation and presentation reference, not a replacement character identity.
 
+## The requested result
+
+`Balls.mov` is what the user wants the generations to look like. Use it as the direct visual target for relevant GEEHUB transformation work, not as a loose inspiration or one item in a list of possible styles. Do not reduce it to a generic muscular character, a restrained bodybuilder, a rough concept, a single modest pose, or a minimal visual interpretation.
+
+Match the source's level of visual commitment: a clearly readable adult male character; the striped tank top and short trunks at the opening stage; the teal studio and wooden platform; the luminous coloured spheres as visible transformation catalysts; conspicuous, successive increases in muscular size; deliberate flexes and held poses; close anatomical views that reveal the changes; and a final, extremely massive bodybuilder form presented at full scale. The result should feel developed, substantial, and finished. Do not stop at the first growth stage or make the final physique conservative.
+
+For a generated still, show a fully realized selected stage with the source's strong proportions, pose, materials, and framing. For a generated sequence or video, show the progression clearly and give the final form a proper reveal and hold. Maintain the same character identity across stages when applying this to Joey or another established GEEHUB character; the reference supplies the desired transformation and visual presentation, not permission to replace that character's identity.
+
+This is a direct output preference to apply inside the existing relevant GEEHUB projects and generation requests. It is not a request to create another project, title, franchise, framework, or catalogue. Keep the work focused on making the requested result correctly.
+
 ## Source identity and verification
 
 | Property | Verified value |

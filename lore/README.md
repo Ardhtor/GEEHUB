@@ -12,6 +12,10 @@ mechanism → interface → transformation rule → continuity principle → set
 The raw archive remains authoritative for what a conversation actually contained. Lore is authoritative only for the state of the lore graph itself.
 
 
+## Source collections
+
+- [Tumblr Likes Source Register](TUMBLR_LIKES_SOURCE_REGISTER.md) — dated source scan for visual proportions, growth sequences, surface and clothing studies, scale environments, and adult social arrangements. Source material remains separate from fictional canon.
+
 ## Active thematic records
 
 - [Hypersexual Superiority](HYPERSEXUAL_SUPERIORITY.md) — adult masculine erotic confidence, competitive desirability, display, charisma, and consensual power across Northgate and the Scale Commons.

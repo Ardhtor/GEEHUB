@@ -110,6 +110,14 @@ Use the [File Analysis Standard](FILE_ANALYSIS_STANDARD.md) for source-grounded 
 
 Research outputs should be discoverable records, not isolated notes. Link each finding to the evidence that supports it, the question it addresses, its limitations, and any resulting experiment or artifact.
 
+### Personal reference collections
+
+Likes, bookmarks, saved images, playlists, and other selected collections can become an evolving source corpus. Inspect them in dated passes and preserve creator/reblog chain, date, caption, tags, media type, and stable locator where available. Record coverage and inaccessible portions honestly. Selection is evidence that an item was saved, not proof of one definitive meaning.
+
+Keep observed source, interpretation, and generative application distinct. Cluster recurring patterns without flattening their differences. Feed selected patterns into proportion studies, material tests, character design, scene blocking, environments, and growth sequences. Keep the original source outside canon; fictional adaptations enter canon only through normal continuity review.
+
+The active example is the [Tumblr Likes Source Register](../lore/TUMBLR_LIKES_SOURCE_REGISTER.md), a dated, continuing scan rather than a complete or static representation of taste.
+
 ## Keeping different kinds of material clear
 
 Keep four statuses distinct:

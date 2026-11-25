@@ -148,7 +148,7 @@ No coordinates, distances, or permanent new landforms are introduced by Chapter 
 
 ## Revision progress
 
-The first body-level line-edit pass is complete across Chapters I–IX. The ending-compression passes removed 1,518 words. The in-chapter pass across Chapters V–VIII removed 627 words: 225 from Chapter V, 170 from Chapter VI, 155 from Chapter VII, and 77 from Chapter VIII. A further pass across Chapters I, II, IV, and IX removed 451 words: 107, 101, 167, and 76 respectively. Together with the 1,518-word ending-compression passes, the combined reduction is 2,615 words. The focused in-chapter compression pass is complete across Chapters I–IX. Begin the whole-book continuity sweep against the chronology, spatial atlas, character and relationship records, and Dropbox mirrors.
+The first body-level line-edit pass is complete across Chapters I–IX. The ending-compression passes removed 1,518 words. The in-chapter pass across Chapters V–VIII removed 627 words: 225 from Chapter V, 170 from Chapter VI, 155 from Chapter VII, and 77 from Chapter VIII. A further pass across Chapters I, II, IV, and IX removed 451 words: 107, 101, 167, and 76 respectively. Together with the 1,518-word ending-compression passes, a further 19-word sequence correction in Chapter VII brings the combined reduction to 2,615 words. The focused in-chapter compression pass is complete across Chapters I–IX. Begin the whole-book continuity sweep against the chronology, spatial atlas, character and relationship records, and Dropbox mirrors.
 
 | Chapter | Narrative words | Current Git blob | Editorial state |
 | --- | ---: | --- | --- |

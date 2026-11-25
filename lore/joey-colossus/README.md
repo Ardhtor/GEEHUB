@@ -1,5 +1,7 @@
 # Joey Prever — The Colossus Chronicles
 
+**Ownership status (2026-11-25):** Canon — all nine content files belong to the six-volume cycle; the continuity ledger is authoritative and the README's canon rules govern later versions. No paths moved.
+
 **GEEHUB story library · adult male bodybuilding fantasy · six-volume cycle · LOVE continuity**
 
 The Colossus Chronicles is a serialized, character-led muscle-growth saga. Its subject is not simply a man becoming larger: it is the way extraordinary physical development changes training, clothing, architecture, friendship, self-image, and the social life of a residential bodybuilding community. Joey is the central continuing character. The story treats him as an adult fictionalized character and preserves his recognizable temperament, humour, affection, and relationships while allowing the fictional transformation to become fantastical.

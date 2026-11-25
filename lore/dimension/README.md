@@ -1,5 +1,7 @@
 # lore/dimension — directory index
 
+**Ownership status (2026-11-25):** Mixed — `FAMILIARITY_PARADOX_SHARED_AWARENESS.md` and `FIRST_ROOM_CHAPTER_10–14.md` are canon-linked; the remaining 13 content files belong to the incubating dimension branch and remain drafts. No paths moved.
+
 This is the local navigation page for `lore/dimension/`. The lists below link to immediate files and child folders; use a child folder's own README to continue deeper.
 
 **Up:** [parent directory](../README.md) · [repository root](../../README.md) · [full directory map](../../docs/REPOSITORY_NAVIGATION.md)

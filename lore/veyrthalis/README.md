@@ -1,5 +1,7 @@
 # lore/veyrthalis — directory index
 
+**Ownership status (2026-11-25):** Draft — JOSEPH_KIRK_INDEX.md and the runtime JSON explicitly identify this as an experimental branch not promoted to canon. Preserve all seventeen content files unchanged. No paths moved.
+
 This is the local navigation page for `lore/veyrthalis/`. The lists below link to immediate files and child folders; use a child folder's own README to continue deeper.
 
 **Up:** [parent directory](../README.md) · [repository root](../../README.md) · [full directory map](../../docs/REPOSITORY_NAVIGATION.md)

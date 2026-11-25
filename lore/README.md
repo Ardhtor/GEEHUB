@@ -1,5 +1,7 @@
 # DEEP LORE
 
+**Ownership status (2026-11-25):** Mixed — 35 direct files are canon or canon-support; 31 remain drafts or source references. Child folders are classified separately. Canon and experiments remain distinct; no paths moved. See `MIGRATION.md` for file-level evidence.
+
 Deep lore is a first-class reading of the corpus. It is not a decorative layer placed on top of an archive.
 
 Its job is to preserve durable entities, motifs, mechanisms, places, transformations, relationships, continuities, and unresolved branches that emerge from the corpus.

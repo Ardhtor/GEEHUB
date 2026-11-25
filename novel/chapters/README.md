@@ -1,5 +1,7 @@
 # novel/chapters — directory index
 
+**Ownership status (2026-11-25):** Canonical manuscript source — all 36 content files are retained as the source of truth for the numbered Northgate sequence and Book II; revisions must create a new version rather than overwrite in place.
+
 This is the local navigation page for `novel/chapters/`. The lists below link to immediate files and child folders; use a child folder's own README to continue deeper.
 
 **Up:** [parent directory](../README.md) · [repository root](../../README.md) · [full directory map](../../docs/REPOSITORY_NAVIGATION.md)

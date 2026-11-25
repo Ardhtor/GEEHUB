@@ -1,4 +1,6 @@
 # THE DAD CONVENT
+
+**Ownership status (2026-11-25):** Mixed — `BUILD_PROGRAM.md` is the active programme record and `SECOND_BUILD_DAY.md` is linked from the Tractus index; `CODEWRIGHT_CHRONICLES.md` and `FIRST_BUILD_DAY.md` remain unpromoted drafts. No paths moved.
 ## Settlement record
 
 **Status:** Active story setting / living settlement  

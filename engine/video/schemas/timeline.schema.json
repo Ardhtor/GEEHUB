@@ -109,6 +109,39 @@
     },
     "evidence": {
       "$ref": "#/$defs/evidence"
+    },
+    "camera": {
+      "type": "object",
+      "description": "Optional camera behavior for a continuous transformation take.",
+      "properties": {
+        "mode": {
+          "enum": [
+            "animated",
+            "fixed"
+          ]
+        },
+        "location": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "target": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "lens_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
     }
   },
   "$defs": {

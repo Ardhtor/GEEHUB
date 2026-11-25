@@ -120,7 +120,7 @@ Later, when the others had gone to their houses, Joseph stood at the outer path 
 Kirk arrived at the House of Returns after the meal. The route had been checked, the return path was clear, and the visit had been arranged with Joseph beforehand. They sat beside the hearth and spoke for a while about the new district. Joseph showed him the gallery, the sheltered walk, and the garden at the back. Kirk asked what he would change. Joseph said that he might want a bench near the outer path, somewhere a visitor could stop before deciding whether to come in. Kirk said they could add one.
 
 
-Joseph showed him the small seat beside the outer path. Kirk sat with him for a while and looked toward the shared green. He asked whether the house felt too quiet. Joseph said that it was quiet in the right places. He liked hearing the others moving through the district, but he did not want every sound to become a reason to open the door.
+Joseph showed him the place beside the outer path where he wanted the seat installed. They stood there for a while and looked toward the shared green. Kirk asked whether the house felt too quiet. Joseph said that it was quiet in the right places. He liked hearing the others moving through the district, but he did not want every sound to become a reason to open the door.
 
 Kirk asked whether he had chosen the house because of its name.
 

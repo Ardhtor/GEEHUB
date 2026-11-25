@@ -6,7 +6,7 @@ This is the local navigation page for `library-import/`. The lists below link to
 
 ## Reference manifests
 
-- [`muscle-growth-transformation-analysis.md`](./muscle-growth-transformation-analysis.md) — visual analysis of 14 selected Library images, with a proposed continuous transformation runtime, Luke checkpoint map, anatomy/cloth/environment continuity requirements, and an explicit evidence/interpretation/application boundary.
+- [`muscle-growth-transformation-analysis.md`](./muscle-growth-transformation-analysis.md) — visual analysis of 18 selected Library images, with a proposed continuous transformation runtime, Luke checkpoint map, anatomy/cloth/environment continuity requirements, and an explicit evidence/interpretation/application boundary.
 
 - [`reference-files.json`](./reference-files.json) — registry of all 270 image files present in the ChatGPT Library at the 2026-11-25 scan, preserving original filenames, Library identifiers, paths, MIME types, timestamps, and generated/uploaded status. The originals remain in the Library; this file is a provenance-preserving reference index.
 

@@ -79,6 +79,18 @@ class GrowthCurveTests(unittest.TestCase):
             self.assertEqual(left["end_seconds"], right["start_seconds"])
         self.assertEqual(timeline["camera"]["mode"], "fixed")
 
+
+    def test_blender_scene_keeps_luke_identity_and_growth_pipeline_connected(self):
+        scene_path = Path(__file__).resolve().parents[1] / "blender_scene.py"
+        source = scene_path.read_text(encoding="utf-8")
+        self.assertIn("def build_luke_identity_features()", source)
+        self.assertIn("LUKE / hair cap", source)
+        self.assertIn("LUKE / beard mass", source)
+        self.assertIn("build_luke_identity_features()", source)
+        self.assertIn("animate_timeline_growth(mesh, timeline, growth_profile)", source)
+        self.assertIn("animate_timeline_growth(garment, timeline, growth_profile)", source)
+        self.assertIn("build_wardrobe", source)
+
     def test_invalid_profile_is_rejected(self):
         invalid = {"pectorals": ((0, 0.0), (2, 0.8), (1, 0.9))}
         self.assertTrue(validate_profile(invalid))

@@ -2714,5 +2714,156 @@
       "created_at": "2026-01-09T13:15:38.592094+00:00",
       "model_generated": true
     }
-  ]
+  ],
+  "collections": [
+    {
+      "id": "luke-identity-and-growth-checkpoints",
+      "title": "Luke — identity and growth checkpoints",
+      "purpose": "Luke-specific identity, baseline and successive high-stage visual references. Keep clothing variants and source contexts distinct.",
+      "references": [
+        {
+          "id": "library-libfile_cf8489b1d5cc81918b8a801350ce63d5",
+          "file_id": "file_00000000155081f5a795a95d1a98cf6a",
+          "library_file_id": "libfile_cf8489b1d5cc81918b8a801350ce63d5",
+          "name": "Luke’s Neon Overdrive Transformation.png",
+          "library_path": "/Luke’s Neon Overdrive Transformation.png"
+        },
+        {
+          "id": "library-libfile_3ce27430d1c481918908d9dfaecd191b",
+          "file_id": "file_00000000734881f5ab3a9cb148fe42a5",
+          "library_file_id": "libfile_3ce27430d1c481918908d9dfaecd191b",
+          "name": "Luke’s Final Form in the Gym.png",
+          "library_path": "/Luke’s Final Form in the Gym.png"
+        },
+        {
+          "id": "library-libfile_8a88203d1984819188d953fa306e5d6e",
+          "file_id": "file_00000000e2ac81f987f6c96238f4c4f2",
+          "library_file_id": "libfile_8a88203d1984819188d953fa306e5d6e",
+          "name": "Luke’s Next Stage: Growth Engine.png",
+          "library_path": "/Luke’s Next Stage: Growth Engine.png"
+        },
+        {
+          "id": "library-libfile_ae65c8495cf88191a9a1c0e364fc7c12",
+          "file_id": "file_0000000090b481f5bbe7eefe411b451a",
+          "library_file_id": "libfile_ae65c8495cf88191a9a1c0e364fc7c12",
+          "name": "Beyond Massive: Growth Stage Six.png",
+          "library_path": "/Beyond Massive: Growth Stage Six.png"
+        },
+        {
+          "id": "library-libfile_a5e8bf8076288191b7348c0c4dda5cf2",
+          "file_id": "file_000000007fa4820abbcf1ea3e549a169",
+          "library_file_id": "libfile_a5e8bf8076288191b7348c0c4dda5cf2",
+          "name": "Massive Baseline: Gym Giant Portrait.png",
+          "library_path": "/Massive Baseline: Gym Giant Portrait.png"
+        },
+        {
+          "id": "library-libfile_cfb1a1d62aa48191964f6e411507c560",
+          "file_id": "file_00000000124081f5a7d4af2dbcfb72a5",
+          "library_file_id": "libfile_cfb1a1d62aa48191964f6e411507c560",
+          "name": "Colossal Luke’s Gritty Gym Pose.png",
+          "library_path": "/Colossal Luke’s Gritty Gym Pose.png"
+        }
+      ]
+    },
+    {
+      "id": "continuous-growth-sequences",
+      "title": "Continuous growth sequence references",
+      "purpose": "Multi-panel and narrative sequences that show progression between static states; useful for stage timing and whole-body change grammar, not automatic Luke identity references.",
+      "references": [
+        {
+          "id": "library-libfile_7a24a3ed6e7c8191b99b8cd52aac5d54",
+          "file_id": "file_0000000098a881f586dc717ca1c939e7",
+          "library_file_id": "libfile_7a24a3ed6e7c8191b99b8cd52aac5d54",
+          "name": "Gehub Growth Sequence.png",
+          "library_path": "/Gehub Growth Sequence.png"
+        },
+        {
+          "id": "library-libfile_655b9e8ee0f881918976bec03ce307b5",
+          "file_id": "file_00000000c99c81f5bb67a70ae73a40dc",
+          "library_file_id": "libfile_655b9e8ee0f881918976bec03ce307b5",
+          "name": "Giant Growth Phases Infographic.png",
+          "library_path": "/Giant Growth Phases Infographic.png"
+        },
+        {
+          "id": "library-libfile_058306063ed481918e19b7fe9871d2c9",
+          "file_id": "file_00000000174881fdb8b7304288403b69",
+          "library_file_id": "libfile_058306063ed481918e19b7fe9871d2c9",
+          "name": "Facility Growth: Week by Week.png",
+          "library_path": "/Facility Growth: Week by Week.png"
+        }
+      ]
+    },
+    {
+      "id": "advanced-stage-structural-references",
+      "title": "Advanced-stage structural references",
+      "purpose": "Advanced multi-angle physique and structural integration studies; use as anatomy and scale references, keeping identity provenance separate.",
+      "references": [
+        {
+          "id": "library-libfile_7dc6082e6df481918ca2a3e8a833a6fe",
+          "file_id": "file_0000000037a481f582a53f29b2775d67",
+          "library_file_id": "libfile_7dc6082e6df481918ca2a3e8a833a6fe",
+          "name": "Stage 7: The Expansion.png",
+          "library_path": "/Stage 7: The Expansion.png"
+        }
+      ]
+    },
+    {
+      "id": "transformation-runtime-interface",
+      "title": "Transformation runtime and interface",
+      "purpose": "Morph Console visual prototype with selectable growth stages, central subject viewer, metrics, RUN control and artifact/memory panels.",
+      "references": [
+        {
+          "id": "library-libfile_2e715f2884ac8191b638a29952375779",
+          "file_id": "file_0000000059188246a97aca26b338cc98",
+          "library_file_id": "libfile_2e715f2884ac8191b638a29952375779",
+          "name": "Neon Sci-Fi Morph Console.png",
+          "library_path": "/Neon Sci-Fi Morph Console.png"
+        }
+      ]
+    },
+    {
+      "id": "growth-research-and-mythic-grammar",
+      "title": "Growth research and mythic grammar",
+      "purpose": "Conceptual frameworks for growth loops, desire/tension/rebuild, and Seed-to-New-Baseline progression. Treat embedded physiology claims as fictional source text.",
+      "references": [
+        {
+          "id": "library-libfile_2a792573f8bc8191ac9ce027eb61763c",
+          "file_id": "file_00000000a3b881f597856424552ecc5c",
+          "library_file_id": "libfile_2a792573f8bc8191ac9ce027eb61763c",
+          "name": "Muscle growth research manifesto.png",
+          "library_path": "/Muscle growth research manifesto.png"
+        },
+        {
+          "id": "library-libfile_ff20a6b5235c8191b104b2427a71604c",
+          "file_id": "file_00000000ae9c81fdbf3b477302ca66d3",
+          "library_file_id": "libfile_ff20a6b5235c8191b104b2427a71604c",
+          "name": "The Corruption Engine: Mythic Evolution Infographic.png",
+          "library_path": "/The Corruption Engine: Mythic Evolution Infographic.png"
+        }
+      ]
+    },
+    {
+      "id": "anatomy-and-continuity-methods",
+      "title": "Anatomy and continuity methods",
+      "purpose": "Separate-subject dossier demonstrating front/side/rear views, face lock, muscle-group details and continuity notes. Do not merge its subject identity with Luke.",
+      "references": [
+        {
+          "id": "library-libfile_f4b3d0a076008191baa59127882d73e3",
+          "file_id": "file_00000000227481f5b7cda7aad13dbc12",
+          "library_file_id": "libfile_f4b3d0a076008191baa59127882d73e3",
+          "name": "Sci-Fi Prototype Fitness Dossier.png",
+          "library_path": "/Sci-Fi Prototype Fitness Dossier.png"
+        }
+      ]
+    }
+  ],
+  "analysis_documents": [
+    "library-import/muscle-growth-transformation-analysis.md"
+  ],
+  "last_curated_analysis": {
+    "date": "2026-11-25",
+    "scope": "14 visually inspected images",
+    "focus": "continuous muscle-growth transformation",
+    "status": "curated-subset; remaining Library images not yet visually reviewed"
+  }
 }

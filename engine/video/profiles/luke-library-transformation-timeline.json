@@ -1,0 +1,62 @@
+{
+  "schema": "geehub.growth-timeline/1",
+  "project_id": "luke-library-transformation",
+  "subject_id": "luke-inside",
+  "title": "Luke — Library before/after continuous growth pass",
+  "duration_seconds": 8,
+  "timebase": {
+    "fps": 30,
+    "frame_count": 240
+  },
+  "stages": [
+    {
+      "name": "SOURCE_BASELINE",
+      "start_seconds": 0,
+      "end_seconds": 0.8
+    },
+    {
+      "name": "SHOULDER_AND_CHEST_ONSET",
+      "start_seconds": 0.8,
+      "end_seconds": 2.2
+    },
+    {
+      "name": "ARMS_AND_BACK_JOIN",
+      "start_seconds": 2.2,
+      "end_seconds": 4.2
+    },
+    {
+      "name": "TORSO_AND_LOWER_BODY_CATCH_UP",
+      "start_seconds": 4.2,
+      "end_seconds": 6.2
+    },
+    {
+      "name": "WHOLE_BODY_INTEGRATION",
+      "start_seconds": 6.2,
+      "end_seconds": 7.2
+    },
+    {
+      "name": "SETTLE_AND_HOLD",
+      "start_seconds": 7.2,
+      "end_seconds": 8
+    }
+  ],
+  "source_profile": "luke-library-transformation-profile.json",
+  "render": {
+    "camera": "fixed frontal full-body",
+    "resolution": [
+      1080,
+      1620
+    ],
+    "output": "PNG sequence first; video after review"
+  },
+  "acceptance_tests": [
+    "monotonic regional growth with no frame jumps",
+    "head and face remain unchanged",
+    "shoulders, chest, arms, torso, thighs and calves grow as a coordinated body",
+    "joints and limb lengths remain coherent",
+    "source framing remains stable so perspective is not mistaken for growth",
+    "source endpoints are compared against the first and last rendered states",
+    "all generated interpolation states are labelled as generated derivatives"
+  ],
+  "status": "authored_not_rendered"
+}

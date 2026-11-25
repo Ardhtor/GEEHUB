@@ -31,3 +31,8 @@ The branch must be reconciled with Gabe's existing Dorian connection, Kirk's est
 Do not equate this with cruelty, manipulation, lack of feeling, or lack of care. His kindness is real; so is the distance he sometimes creates. Let his choices and consequences reveal the pattern. Avoidance is not a permanent inability to communicate: Ian can learn to stay present, return to an unfinished conversation, and make a direct choice without losing his quieter temperament.
 
 In the triangle, Ian and Gabe can recognise the same retreat in one another, sometimes making it easier to be understood and sometimes allowing both to postpone the conversation neither wants to begin. Their shared tendency must not make them identical. Ian's specific triggers, habits, history, and manner of returning remain to be developed in scenes rather than assumed.
+
+
+## Scene development — first walk with Kirk
+
+In the provisional scene “The walk after the table,” Ian remains after Gabe leaves and accepts Kirk's invitation to walk. When Kirk asks whether Ian wants him there, Ian answers plainly that he does. Ian then initiates a second meeting for the following evening, explicitly wanting time with Kirk that is not arranged through Gabe. This is a first concrete act of directness, not a declaration of a settled relationship. Ian's hesitation remains visible, but he stays present and makes a choice. The next scene should preserve the agreed meeting without assuming what either man will want once they are together.

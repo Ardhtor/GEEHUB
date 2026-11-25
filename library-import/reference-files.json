@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "manifest_type": "geehub-library-reference-files",
-  "generated_at": "2026-11-25T17:46:00Z",
+  "generated_at": "2026-11-25T20:17:19Z",
   "source": {
     "system": "ChatGPT Library",
     "surface": "library",
-    "selection": "all image files returned by a recursive Library listing",
-    "file_count": 270
+    "selection": "all image files returned by a recursive Library listing; listing fully paginated",
+    "file_count": 271
   },
   "policy": {
     "originals": "remain in the user's Library; this manifest records references and does not copy, modify, or claim to embed the original image bytes",
@@ -14,6 +14,16 @@
     "interpretation": "filename and metadata are not treated as visual analysis or canon"
   },
   "reference_files": [
+    {
+      "id": "library-libfile_a20e38d6c16481918536d78bac72617d",
+      "name": "chart-1(10).png",
+      "library_path": "/chart-1(10).png",
+      "library_file_id": "libfile_a20e38d6c16481918536d78bac72617d",
+      "file_id": "file_00000000598481f5b8ffd8656abef7aa",
+      "mime_type": "image/png",
+      "created_at": "2026-11-25T17:55:56.735013+00:00",
+      "model_generated": true
+    },
     {
       "id": "library-libfile_0b52c8cf12648191866c63b51114cd67",
       "name": "massive_by_mkewx_dn7w79d-pre.jpg",

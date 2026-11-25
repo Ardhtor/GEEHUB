@@ -2,6 +2,48 @@
   "version": 1,
   "jobs": [
     {
+      "id": "scheduled-sound-00241",
+      "type": "SOUND",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00241.json",
+      "route": {
+        "from": "founders-dormitory",
+        "to": "cat-gardens",
+        "relation": "THE DORM GARDEN PATH"
+      },
+      "target": "sound",
+      "output": "inherited world sound state",
+      "created": "2026-11-25T23:21:17.350Z"
+    },
+    {
+      "id": "scheduled-video-00241",
+      "type": "VIDEO",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00241.json",
+      "route": {
+        "from": "founders-dormitory",
+        "to": "cat-gardens",
+        "relation": "THE DORM GARDEN PATH"
+      },
+      "target": "video",
+      "output": "inherited world video state",
+      "created": "2026-11-25T23:21:17.350Z"
+    },
+    {
+      "id": "scheduled-space-00241",
+      "type": "SPACE",
+      "status": "QUEUED",
+      "recording": "./recordings/scheduled-recording-00241.json",
+      "route": {
+        "from": "founders-dormitory",
+        "to": "cat-gardens",
+        "relation": "THE DORM GARDEN PATH"
+      },
+      "target": "spatial-perception",
+      "output": "inherited world space state",
+      "created": "2026-11-25T23:21:17.350Z"
+    },
+    {
       "id": "scheduled-sound-00240",
       "type": "SOUND",
       "status": "QUEUED",
@@ -4158,48 +4200,6 @@
       "target": "spatial-perception",
       "output": "inherited world space state",
       "created": "2026-10-31T20:28:11.760Z"
-    },
-    {
-      "id": "scheduled-sound-00141",
-      "type": "SOUND",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00141.json",
-      "route": {
-        "from": "complex",
-        "to": "beefythiq",
-        "relation": "MASS BECOMES WEATHER"
-      },
-      "target": "sound",
-      "output": "inherited world sound state",
-      "created": "2026-10-31T17:11:44.918Z"
-    },
-    {
-      "id": "scheduled-video-00141",
-      "type": "VIDEO",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00141.json",
-      "route": {
-        "from": "complex",
-        "to": "beefythiq",
-        "relation": "MASS BECOMES WEATHER"
-      },
-      "target": "video",
-      "output": "inherited world video state",
-      "created": "2026-10-31T17:11:44.918Z"
-    },
-    {
-      "id": "scheduled-space-00141",
-      "type": "SPACE",
-      "status": "QUEUED",
-      "recording": "./recordings/scheduled-recording-00141.json",
-      "route": {
-        "from": "complex",
-        "to": "beefythiq",
-        "relation": "MASS BECOMES WEATHER"
-      },
-      "target": "spatial-perception",
-      "output": "inherited world space state",
-      "created": "2026-10-31T17:11:44.918Z"
     }
   ]
 }

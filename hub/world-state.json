@@ -3,16 +3,16 @@
   "id": "geehub-current-world-state",
   "title": "CURRENT WORLD STATE",
   "map": "./spatial-world.json",
-  "activeRecording": "./recordings/scheduled-recording-00240.json",
+  "activeRecording": "./recordings/scheduled-recording-00241.json",
   "activeEncounter": {
-    "regionId": "founders-dormitory",
-    "regionName": "FOUNDERS DORMITORY",
+    "regionId": "cat-gardens",
+    "regionName": "CAT GARDENS",
     "subject": {
-      "agent": "chase",
-      "scale": 17.86,
+      "agent": "luke",
+      "scale": 17.89,
       "physiqueState": "hyper baseline / identity continuous"
     },
-    "intent": "LONG PLAY / CAT GARDENS → FOUNDERS DORMITORY / CHASE",
+    "intent": "LONG PLAY / FOUNDERS DORMITORY → CAT GARDENS / LUKE",
     "continuity": [
       "face",
       "identity",
@@ -21,13 +21,13 @@
       "previous baselines"
     ],
     "delta": [
-      "scale 17.82× → 17.86×",
-      "CAT GARDENS → FOUNDERS DORMITORY",
+      "scale 17.86× → 17.89×",
+      "FOUNDERS DORMITORY → CAT GARDENS",
       "relation: THE DORM GARDEN PATH",
       "room clearance recalibrated",
       "previous baselines retained"
     ],
-    "previousRegionId": "cat-gardens"
+    "previousRegionId": "founders-dormitory"
   },
   "rendererContract": "./renderer-contract.json",
   "rendererQueues": {
@@ -37,18 +37,18 @@
     "sound": "./render-jobs.json"
   },
   "interpretation": "Load map first, then recording, then apply deltas. Renderers must preserve stable region IDs and recording lineage.",
-  "snapshot": "2026-11-25T14:36:31.682Z",
+  "snapshot": "2026-11-25T23:21:17.350Z",
   "canonicalRecording": "./recordings/LUKE_EXPANDED_BASELINE_2026-10-08.json",
   "livePlay": {
-    "cycle": 240,
-    "agent": "chase",
-    "previousRegionId": "cat-gardens",
-    "regionId": "founders-dormitory",
+    "cycle": 241,
+    "agent": "luke",
+    "previousRegionId": "founders-dormitory",
+    "regionId": "cat-gardens",
     "relation": "THE DORM GARDEN PATH",
     "routeMode": "WORLD GRAPH / CONNECTED ROUTE",
-    "previousScale": 17.82,
-    "scale": 17.86,
-    "recording": "scheduled-recording-00240",
-    "at": "2026-11-25T14:36:31.682Z"
+    "previousScale": 17.86,
+    "scale": 17.89,
+    "recording": "scheduled-recording-00241",
+    "at": "2026-11-25T23:21:17.350Z"
   }
 }

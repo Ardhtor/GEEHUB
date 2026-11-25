@@ -19,11 +19,11 @@ on:
       - "engine/video/timeline_growth.py"
       - "engine/video/render_project.py"
       - "engine/video/blender_scene.py"
+      - "engine/video/rigged_character.py"
       - "production/projects/luke-library-transformation/**"
       - "engine/video/tests/**"
       - ".github/workflows/luke-library-growth-validation.yml"
 
-      - "engine/video/rigged_character.py"
 jobs:
   validate:
     runs-on: ubuntu-latest

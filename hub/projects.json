@@ -1418,7 +1418,14 @@
       "continuity",
       "massive-baseline",
       "growth"
-    ]
+    ],
+    "pipeline_path": "../engine/LUKE-GROWTH-PIPELINE.md",
+    "related": [
+      "library-reference-archive",
+      "growth-study-001",
+      "geehub-studio"
+    ],
+    "description": "Luke's living character state and source-driven growth pipeline. The Library now provides a direct before/after pair and later-stage references; the browser/Blender procedural model remains a blockout until it can drive an identity-locked transformation from those sources."
   },
   {
     "id": "male-harem-virtual-space",

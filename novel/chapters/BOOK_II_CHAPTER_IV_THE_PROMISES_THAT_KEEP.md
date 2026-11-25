@@ -186,7 +186,7 @@ Kirk was quiet for a moment. “You've learned to do that.”
 
 It was one of the things they gave one another: permission to change without having to deny the earlier version. Andrew had once rushed from an idea to its conclusion and expected everyone else to keep up. Kirk had learned to name what he felt without waiting for another person to certify it. Their closeness had not made either man into the other's copy. It had given each of them a companion who could recognise the change and remember what had preceded it.
 
-They spoke for a long time after the others had gone to prepare the next route. The conversation wandered through the expedition, the strange trail, the possibility of another shelter farther below, and the ordinary pleasures they meant to return to when the day's work was over. Andrew promised to bring the ball back to the ridge. Kirk promised to keep the receiver open during the next movement, provided the connection remained clear. They made smaller promises too: to correct each other when the map became misleading, to say when they were tired, to let the other man finish an explanation, and to keep a place for a joke even when the problem was difficult.
+They spoke while the others prepared the next route, then turned to the ordinary things they meant to return to when the day's work was over.
 
 
 At one point the conversation slowed. Andrew could hear that Kirk was tired, though Kirk had not said so directly. The receiver carried a slight change in his breathing and a pause before each answer. Andrew asked whether he wanted to keep talking or rest. He did not fill the silence with another joke while he waited.
@@ -253,8 +253,7 @@ Andrew looked at the map. The little baseball marks were still separate from the
 
 “I know.”
 
-The exchange did not end with a grand declaration. It ended with the receiver resting between them, the map held flat against the wall, and a meal being prepared on the other side of the shelter. Their promises were not a chain around the future. They were a way of keeping it open. Each one had a practical shape, and each could be renewed, revised, or joined by another. The infinite part was not that either man could control every day to come. It was that neither had to pretend the present was their last opportunity to choose one another.
-
+The promises were not a contract or a chain around the future. They mattered because each man could renew them by choice.
 
 Andrew copied the promises onto a small card and placed it inside his field bag. He did not intend to show it to the others. It was not a list of rules for Kirk or a record that could be used to prove one of them wrong. It was a reminder of what he had chosen to do: listen fully, label invention, return when he said he would, and leave Kirk room to decide. Kirk's promises were written on the other side of the same card, in his own words. Neither man signed it as a contract. They kept it because they wanted to remember the conversation.
 

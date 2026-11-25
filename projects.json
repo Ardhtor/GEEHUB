@@ -2287,5 +2287,29 @@
     ],
     "interface_path": "/hub/index.html#growth-engine",
     "schema_path": "/engine/schemas/growth-pass.schema.json"
+  },
+  {
+    "id": "library-reference-archive",
+    "name": "ChatGPT Library Reference Archive",
+    "status": "active",
+    "kind": "reference-index",
+    "repo": "Ardhtor/GEEHUB",
+    "path": "/library-import/reference-files.json",
+    "description": "Provenance-preserving registry of 270 image files found in the ChatGPT Library on 2026-11-25. Records original Library identifiers, paths, MIME types, timestamps, and generated/uploaded status; points to Library originals and does not claim to store image bytes in GitHub.",
+    "related": [
+      "asset-intake-2026-11-03",
+      "chat-asset-memory-bridge",
+      "character-records",
+      "luke-growth",
+      "discovery"
+    ],
+    "tags": [
+      "library",
+      "images",
+      "reference-files",
+      "provenance",
+      "assets",
+      "visual-corpus"
+    ]
   }
 ]

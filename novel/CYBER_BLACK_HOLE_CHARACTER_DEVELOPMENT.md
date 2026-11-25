@@ -2,8 +2,12 @@
 
 **Status:** active development map; not a declaration that the characters or manuscript are complete.  
 **Started:** 24 November 2026  
-**Scope:** Luke, Tyler, Chase, Gabe, Andrew, and Joseph in *The Unplanned Convergence*.  
+**Scope:** the six original guests in *The Unplanned Convergence*. This is an opening-ensemble register, not a complete GEEHUB cast list; see the [Wider Character and Ensemble Register](../characters/ENSEMBLE_REGISTER.md) for the wider population and separate story branches.  
 **Authority:** established character records and scenes remain authoritative. This register identifies what the novel has not yet dramatized; it does not invent missing biographies.
+
+## Scope correction — the six are not the whole cast
+
+This novel's opening six are not the only men in the Confluence, and the Confluence is not the whole GEEHUB story-world. Marcus, Dan Roman, Mateo and the Mexiancas, Brograntimax and the Dad Convent crew, Luke Mercer, Tyler Boeskin, and other men already have records or appearances that must be treated as more than supporting functions. Their scenes should develop their own points of view and relationships, and should be allowed to redirect events. Separate branches—including Kirk's Book II residential world, Grand Meridian, the Scale Commons, the Cabin, the Fingerlands, and The Men at the Terminal—must retain their own continuity rather than being folded into this novel. The broader cast map is maintained in `characters/ENSEMBLE_REGISTER.md`.
 
 ## The central diagnosis
 

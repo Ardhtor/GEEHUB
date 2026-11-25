@@ -122,3 +122,17 @@ The renderer's Blender shape-key fields have been expanded to include those 16 r
 ## Production project connection
 
 The Library reference archive now feeds the executable project at `production/projects/luke-library-transformation/`. Its fixed-camera timeline, provenance and asset registers, 16-region profile, and render entry point are indexed in the project atlas. Use the project README for local render and validation commands. The project remains a procedural blockout until a source-fitted Luke mesh and rendered continuity review are completed.
+
+## Third visual-analysis pass — multi-angle Luke appearance reference
+
+A further Library image was inspected:
+
+| Source | Library file ID | Observed role |
+|---|---|---|
+| Superbodybuilder Gym Transformation Montage.png | file_00000000f89481f583d665c82eea2080 | A front full-body hero view plus rear, side and close shoulder/back panels. The subject has curly light-brown hair, a beard, a grey stringer/tank, grey short shorts and the same gym visual language as Luke's established references. The face and styling are a strong visual match, but the image does not explicitly name Luke. It is therefore indexed as a visual-continuity candidate and used for pose, rear anatomy, surface and wardrobe detail—not as a confirmed Luke stage label. |
+
+### What this adds to the production reference set
+
+The before/after composition remains the primary transformation endpoint pair. The new montage contributes missing views that the endpoint pair alone does not provide: rear lat and trapezius silhouette, side chest/arm depth, shoulder and upper-back surface detail, and full-body rear leg proportions. These are useful constraints for a 3D reconstruction and for checking whether the generated body remains coherent when viewed outside the frontal camera.
+
+Keep the montage's face/identity match marked as an inference until explicitly confirmed. The unrelated living-room image inspected in the same search has a visibly different face, tattoos and setting, so it is excluded from Luke's reference chain.

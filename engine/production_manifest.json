@@ -33,5 +33,25 @@
   "inputs": {
     "desire": "treat attraction, proximity, attention, tension, tenderness, jealousy, recognition, and aftermath as world-state signals"
   },
-  "narrative_rule": "Sexuality is represented through adult desire, intimacy, proximity, relationship, atmosphere, and aftermath; the engine does not require explicit sexual description."
+  "narrative_rule": "Sexuality is represented through adult desire, intimacy, proximity, relationship, atmosphere, and aftermath; the engine does not require explicit sexual description.",
+  "execution": {
+    "instance_model": "single-persistent-instance",
+    "task_lifecycle": [
+      "receive",
+      "recover_prior_task_state",
+      "retrieve_relevant_corpus_and_assets",
+      "resolve_shared_contexts",
+      "execute_existing_functions",
+      "verify_outputs",
+      "persist_state_and_artifacts",
+      "carry_forward_unfinished_work"
+    ],
+    "interface_rule": "One continuous working surface. Do not split a task across navigable menus, project dashboards, or separate subsystem destinations. Bring relevant contexts and controls into the active task instance.",
+    "continuity_rule": "Every task inherits the previous durable task state, decisions, selected sources, generated artifacts, execution results, and unfinished work unless explicitly superseded.",
+    "function_rule": "A described capability is not implemented until it invokes executable code and produces a verifiable effect. Comments, labels, previews, placeholders, and proposed directions do not count as execution.",
+    "orchestration_rule": "Reuse and connect existing GEEHUB engines and services before adding new subsystems. A single task may call multiple tools or engines internally while remaining one user-facing instance.",
+    "state_rule": "Persist task identity, status, inputs, source lineage, decisions, invoked functions, outputs, errors, and next executable step in durable machine-readable state. Do not rely on chat-turn context or browser-local storage as the sole continuity mechanism.",
+    "verification_rule": "Record whether each operation was executed, structurally checked, integration-tested, or visually/render-tested. Never report a planned or simulated operation as completed.",
+    "navigation_rule": "Discover contexts through shared relationships and search within the active task. Avoid category menus and separate project screens as the primary interaction model."
+  }
 }

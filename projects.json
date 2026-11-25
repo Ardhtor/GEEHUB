@@ -1499,7 +1499,8 @@
       "library-reference-archive",
       "growth-study-001",
       "geehub-studio"
-    ]
+    ],
+    "growth_profile_path": "/engine/video/profiles/luke-library-transformation-profile.json"
   },
   {
     "id": "male-harem-virtual-space",

@@ -1,35 +1,35 @@
-# docs — documentation index
+# Documentation
 
-The documentation folder contains the repository's technical contracts, editorial standards, operating procedures, and project navigation. Start with the two working indexes below, then browse the records by filename.
+Use these records to operate and extend GEEHUB. Start with the workbench for active projects, the growth and continuity contracts for shared behavior, and the source-analysis standard when bringing new material into the corpus.
 
-## Start here
+## Working entry points
 
-- [Project Workbench](PROJECT_WORKBENCH.md) — continue projects already started in GEEHUB, with current source paths and next useful actions.
-- [Feasibility Workbench](FEASIBILITY_WORKBENCH.md) — verified buildability, CI status, dependencies, blockers, and the next bounded implementation gate.
-- [Repository Navigation](REPOSITORY_NAVIGATION.md) — full directory hierarchy and links to every local folder index.
-- [Tractus Continuity Contract](TRACTUS_CONTINUITY_CONTRACT.md) — the continuity model linking events, state, narrative, and artifacts.
-- [Tractus Protection Architecture](TRACTUS_PROTECTION_ARCHITECTURE.md) — protection rules for canon, archives, identity, permissions, secrets, integrity, publication, backups, and recovery.
-- [Information Portability](INFORMATION_PORTABILITY.md) — how consequential information moves into every affected layer and remains retrievable.
-- [Repository Residents and In-World Computing](TRACTUS_REPOSITORY_RESIDENTS.md) — repo-wide narrative canon for Seth and Nick living in The Tractus and acting through its computers.
-- [Chat ↔ World Asset Memory Bridge](CHAT_ASSET_MEMORY_BRIDGE.md) — importing, linking, and preserving conversation and visual source material.
-- [File Analysis Standard](FILE_ANALYSIS_STANDARD.md) — source-grounded inspection across images, video, audio, documents, code, spreadsheets, and archives.
-- [Growth](GROWTH.md) — a shared approach to gradual development, research, continuity, and making.
-- [The Boyfriend-in-High-School Experience Principle](BOYFRIEND_IN_HIGH_SCHOOL_EXPERIENCE_PRINCIPLE.md) — emotional design through anticipation, recognition, private language, play, tenderness, and continuity.
-- [Story and Generated Environment Integration](STORY_ENVIRONMENT_INTEGRATION.md) — Book II scenes where story actions change and persist in their generated settings.
-- [Narrative Continuity Audit](NARRATIVE_CONTINUITY_AUDIT.md) — active correction register for diegetic naming, character identity, chronology, point of view, and manuscript boundaries.
-- [Arthur as an External Growth Metaphor](ARTHUR_EXTERNAL_GROWTH_METHOD.md) — an authoring method inspired by Arthur's continuity without making it part of his fictional awareness.
+- [Project Workbench](PROJECT_WORKBENCH.md) — active projects, current state, and next action.
+- [Repository Navigation](REPOSITORY_NAVIGATION.md) — current directory map, generated from the repository tree.
+- [Universal Growth Engine](GROWTH.md) — shared growth, research, context, and continuity model.
+- [Tractus Continuity Contract](TRACTUS_CONTINUITY_CONTRACT.md) — event, state, narrative, and artifact continuity.
+- [Tractus Protection Architecture](TRACTUS_PROTECTION_ARCHITECTURE.md) — protection rules and actual control status.
+- [File Analysis Standard](FILE_ANALYSIS_STANDARD.md) — evidence, provenance, interpretation, and source inspection.
+- [Dropbox Corpus Map](DROPBOX_CORPUS_MAP.md) — verified relationship between Dropbox production and repository sources.
+- [Information Portability](INFORMATION_PORTABILITY.md) — propagation of consequential information.
+- [Chat ↔ World Asset Memory Bridge](CHAT_ASSET_MEMORY_BRIDGE.md) — conversation and visual-source continuity.
+- [Editorial Voice](EDITORIAL_VOICE.md) — narration and prose conventions.
+- [Narrative Continuity Audit](NARRATIVE_CONTINUITY_AUDIT.md) — active corrections and unresolved continuity issues.
 
-**Up:** [repository root](../README.md) · [Hub](../hub/README.md) · [full directory map](REPOSITORY_NAVIGATION.md)
+## Subdirectories
 
-## Files
+- [`production/`](./production/README.md)
+- [`visual-continuity/`](./visual-continuity/README.md)
 
-### MD (75)
+## Reference documents
 
 - [`ACCESSIBLE_CONSTELLATION.md`](./ACCESSIBLE_CONSTELLATION.md)
 - [`ACCESSIBLE_REPOSITORIES_2026-09.md`](./ACCESSIBLE_REPOSITORIES_2026-09.md)
 - [`ADOBE_ASSET_NECESSITY.md`](./ADOBE_ASSET_NECESSITY.md)
+- [`ARTHUR_EXTERNAL_GROWTH_METHOD.md`](./ARTHUR_EXTERNAL_GROWTH_METHOD.md)
 - [`ARTIFACT_SYSTEM.md`](./ARTIFACT_SYSTEM.md)
 - [`AUTONOMOUS_BUILD_LOOP.md`](./AUTONOMOUS_BUILD_LOOP.md)
+- [`BOYFRIEND_IN_HIGH_SCHOOL_EXPERIENCE_PRINCIPLE.md`](./BOYFRIEND_IN_HIGH_SCHOOL_EXPERIENCE_PRINCIPLE.md)
 - [`BUILD_NARRATIVE.md`](./BUILD_NARRATIVE.md)
 - [`CGI_ASSEMBLY_MEDIUM.md`](./CGI_ASSEMBLY_MEDIUM.md)
 - [`CHAT_ASSET_MEMORY_BRIDGE.md`](./CHAT_ASSET_MEMORY_BRIDGE.md)
@@ -37,17 +37,20 @@ The documentation folder contains the repository's technical contracts, editoria
 - [`CRITICAL_CONTEXT.md`](./CRITICAL_CONTEXT.md)
 - [`DECISION_RECORDS.md`](./DECISION_RECORDS.md)
 - [`DEVELOPING_VOICES.md`](./DEVELOPING_VOICES.md)
+- [`DROPBOX_CORPUS_MAP.md`](./DROPBOX_CORPUS_MAP.md)
 - [`DROPBOX_PRODUCTION_PIPELINE.md`](./DROPBOX_PRODUCTION_PIPELINE.md)
 - [`DUAL_LAYER_WORKFLOW.md`](./DUAL_LAYER_WORKFLOW.md)
 - [`EDITORIAL_VOICE.md`](./EDITORIAL_VOICE.md)
+- [`EMBODIED_PRESENCE_AND_RELATIONAL_SCENE_RULE.md`](./EMBODIED_PRESENCE_AND_RELATIONAL_SCENE_RULE.md)
 - [`ENVIRONMENTAL_TRANSITIONS.md`](./ENVIRONMENTAL_TRANSITIONS.md)
 - [`EXPERIENCE_FIRST_ARCHITECTURE.md`](./EXPERIENCE_FIRST_ARCHITECTURE.md)
 - [`FEASIBILITY_WORKBENCH.md`](./FEASIBILITY_WORKBENCH.md)
-- [`FILE_ANALYSIS_STANDARD.md`](./FILE_ANALYSIS_STANDARD.md)
 - [`FICTION_MEMORY.md`](./FICTION_MEMORY.md)
+- [`FILE_ANALYSIS_STANDARD.md`](./FILE_ANALYSIS_STANDARD.md)
 - [`FINDING_AND_GENERATING_GROWTH_CONTENT.md`](./FINDING_AND_GENERATING_GROWTH_CONTENT.md)
 - [`GEEHUB_EXECUTION_PATHS.md`](./GEEHUB_EXECUTION_PATHS.md)
 - [`GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md`](./GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md)
+- [`GROWTH.md`](./GROWTH.md)
 - [`HYPERGROWTH_CGI_CONTENT.md`](./HYPERGROWTH_CGI_CONTENT.md)
 - [`IMAGINATION_PRINCIPLES.md`](./IMAGINATION_PRINCIPLES.md)
 - [`IMPORT_BOUNDARY.md`](./IMPORT_BOUNDARY.md)
@@ -65,14 +68,15 @@ The documentation folder contains the repository's technical contracts, editoria
 - [`MALE_POPULATION_SYSTEM.md`](./MALE_POPULATION_SYSTEM.md)
 - [`MASCULINE_RELEVANCE_CONTRACT.md`](./MASCULINE_RELEVANCE_CONTRACT.md)
 - [`MYTH_THE_GODS_LUST_AFTER_BEEFYTHIQ.md`](./MYTH_THE_GODS_LUST_AFTER_BEEFYTHIQ.md)
+- [`NARRATIVE_CONTINUITY_AUDIT.md`](./NARRATIVE_CONTINUITY_AUDIT.md)
 - [`NARRATIVE_ENGINE_BURGEON_WITNESS_CONNECTION.md`](./NARRATIVE_ENGINE_BURGEON_WITNESS_CONNECTION.md)
 - [`NARRATIVE_JAMMER.md`](./NARRATIVE_JAMMER.md)
 - [`OCCURRENCE_IS_INSCRIPTION.md`](./OCCURRENCE_IS_INSCRIPTION.md)
 - [`OPERATING_MODEL.md`](./OPERATING_MODEL.md)
 - [`POPOUT_WINDOW_INTERFACE.md`](./POPOUT_WINDOW_INTERFACE.md)
 - [`PORTABLE_ARTIFACTS.md`](./PORTABLE_ARTIFACTS.md)
-- [`PORTABLE_JAM_VALIDATION.md`](./PORTABLE_JAM_VALIDATION.md)
 - [`PORTABLE_JAMS_SCHEMA.md`](./PORTABLE_JAMS_SCHEMA.md)
+- [`PORTABLE_JAM_VALIDATION.md`](./PORTABLE_JAM_VALIDATION.md)
 - [`PROJECT_WORKBENCH.md`](./PROJECT_WORKBENCH.md)
 - [`RARE_REVELATION.md`](./RARE_REVELATION.md)
 - [`RECORDS_VALIDATION.md`](./RECORDS_VALIDATION.md)
@@ -80,13 +84,14 @@ The documentation folder contains the repository's technical contracts, editoria
 - [`REPOSITORY_NAVIGATION.md`](./REPOSITORY_NAVIGATION.md)
 - [`SELF_STARTING_ENGINE.md`](./SELF_STARTING_ENGINE.md)
 - [`SENSATION_ENGINE.md`](./SENSATION_ENGINE.md)
-- [`STORY_ENVIRONMENT_INTEGRATION.md`](./STORY_ENVIRONMENT_INTEGRATION.md)
 - [`SHARED_INERTIA_NARRATOR_SIGNAL.md`](./SHARED_INERTIA_NARRATOR_SIGNAL.md)
 - [`SPIRITUAL_INFORMATION.md`](./SPIRITUAL_INFORMATION.md)
+- [`STORY_ENVIRONMENT_INTEGRATION.md`](./STORY_ENVIRONMENT_INTEGRATION.md)
 - [`TRACTUS_ADAPTIVE_MEMORY_SPEC.md`](./TRACTUS_ADAPTIVE_MEMORY_SPEC.md)
 - [`TRACTUS_CONTINUITY_CONTRACT.md`](./TRACTUS_CONTINUITY_CONTRACT.md)
-- [`GROWTH.md`](./GROWTH.md)
 - [`TRACTUS_ENGINE_SPEC.md`](./TRACTUS_ENGINE_SPEC.md)
+- [`TRACTUS_PROTECTION_ARCHITECTURE.md`](./TRACTUS_PROTECTION_ARCHITECTURE.md)
+- [`TRACTUS_REPOSITORY_RESIDENTS.md`](./TRACTUS_REPOSITORY_RESIDENTS.md)
 - [`TRACTUS_STORY_LEARNING_ENGINE.md`](./TRACTUS_STORY_LEARNING_ENGINE.md)
 - [`UI_REGISTRY_TESTING.md`](./UI_REGISTRY_TESTING.md)
 - [`UI_REGISTRY_VALIDATION.md`](./UI_REGISTRY_VALIDATION.md)
@@ -99,3 +104,4 @@ The documentation folder contains the repository's technical contracts, editoria
 - [`WHOLE_WORLD_EXPANSION.md`](./WHOLE_WORLD_EXPANSION.md)
 - [`WORKSPACE_ACCESS.md`](./WORKSPACE_ACCESS.md)
 
+**Up:** [repository root](../README.md) · [Hub](../hub/README.md) · [full directory map](REPOSITORY_NAVIGATION.md)

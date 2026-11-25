@@ -1,324 +1,46 @@
-> ## THE WORLD IS LARGER THAN ANY ONE MECHANISM.
-> 
-> Serum remains in the archive as secondary lore; the world is carried by place, experience, relationships, memory, and change.
+# GEEHUB
 
-# THE TRACTUS
+GEEHUB is a living workspace for worlds, stories, research, media, tools, and production. Everything can become input to further work: an encounter becomes a record, a record informs an experiment, an experiment produces an artifact, and the artifact becomes part of the next state.
 
-The Tractus is the living workspace for archives, tools, games, fictional worlds, visual systems, research, media, and the repositories that grow out of them.
+The Tractus is the continuity model underneath that work. It connects events, places, people, sources, state, narrative, and artifacts without making them interchangeable.
 
-The hub is not a pile of files. It records what happened, what changed, what remains, and what the next process can use. The interface, corpus, artifacts, source history, and repository structure all carry memory.
+## Enter
 
-## Navigate the repository
+- [Open the Hub](hub/index.html) — the interactive workspace and project constellation.
+- [Open the geographic Atlas](worldspace/maps.html) — territories, places, routes, and mapped story geography.
+- [Open the Casebook](casebook.html) — a branching world experience with locally saved browser state.
+- [Project Workbench](docs/PROJECT_WORKBENCH.md) — resume active projects from their actual working files.
+- [Project Atlas](PROJECT_ATLAS.md) — browse the wider project constellation.
 
-## The Atlas
+## Make and research
 
-[Enter the geographic Atlas](worldspace/maps.html) — the navigable map application. Its World Survey uses the repository's 24 named territories and 47 authored route connections; local scales open Kingdom Land, the Veyrthalis Expanse, and the Complex. The black-console story map remains the narrative-position view, with a live pin that follows all registered world destinations. The geographic app reads the canonical map records and reports missing feature classes rather than inventing them. Run a local server from the repository root with `python3 -m http.server 8000`, then open `/worldspace/maps.html`.
+- [Universal Growth Engine](docs/GROWTH.md) — the shared process for encounter, observation, research, interpretation, experiment, growth, review, and integration.
+- [File Analysis Standard](docs/FILE_ANALYSIS_STANDARD.md) — inspect images, video, audio, documents, code, and archives while preserving provenance.
+- [File Analysis Studio](engine/file-analysis-studio.html) — local source inspection and structured observations.
+- [Sensation Engine](SENSATION_ENGINE.md) — the sensory and experiential layer.
+- [Production](production/README.md) — production packages, standards, and deliverables.
+- [Tumblr Likes Source Register](lore/TUMBLR_LIKES_SOURCE_REGISTER.md) — an evolving visual-reference source collection, kept distinct from canon.
 
+## Stories and worlds
 
-## Generation 01 — Kirk's Lineage
+- [Novel index](novel/README.md) — manuscripts, chapters, continuity, and current writing direction.
+- [Lore index](lore/README.md) — durable motifs, places, mechanisms, and provisional branches.
+- [Worlds](worlds/README.md) — world records and geographic systems.
+- [Characters](characters/README.md) — character records and ensemble continuity.
+- [Deep lore](deep-lore/README.md) — source-rooted mythic and conceptual material.
 
-[Open the Generation 01 production package](production/projects/kirk-generation-01/README.md): twenty individually specified adult bodybuilder characters, individual continuity records, a validated relationship graph, visual reference-sheet requirements, and modular 3D production standards. Rendered sheets and finished 3D assets remain explicitly pending until produced and reviewed.
+## Continuity and storage
 
+- [Tractus Continuity Contract](docs/TRACTUS_CONTINUITY_CONTRACT.md) — how events, state, narrative, and artifacts inherit from one another.
+- [Protection Architecture](docs/TRACTUS_PROTECTION_ARCHITECTURE.md) — canon, identity, source, integrity, permissions, publication, backup, and recovery safeguards.
+- [Dropbox Corpus Map](docs/DROPBOX_CORPUS_MAP.md) — verified Dropbox/GitHub boundaries and production snapshots.
+- [Repository Navigation](docs/REPOSITORY_NAVIGATION.md) — generated directory map for the current repository tree.
+- [Documentation index](docs/README.md) — technical contracts, standards, and operating records.
 
-The [Universal Growth Engine](docs/GROWTH.md) governs the repository-wide growth cycle, cumulative state model, research function, and integration with existing systems. Enter the [Living Atlas](worldspace/maps.html) to navigate the spatial graph, inspect mapped places and routes, and review current story signals. The [Dropbox Corpus Map](docs/DROPBOX_CORPUS_MAP.md) records the verified relationship between the production workspace, repository sources, and dated recovery snapshots. The [Universal Growth Engine interface](hub/index.html#growth-engine) records proposed passes with source evidence, inherited state, interpretation, and the next production action. The [complete directory map](docs/REPOSITORY_NAVIGATION.md) opens every area of GEEHUB. The [Project Workbench](docs/PROJECT_WORKBENCH.md) is the practical resume surface for continuing existing projects, showing their working files, current state, and next useful action. Each directory has a local `README.md` with direct links to immediate contents and navigation back to its parent and the whole repository. The [File Analysis Standard](docs/FILE_ANALYSIS_STANDARD.md) defines how source files are inspected, compared, and connected to production without losing provenance or uncertainty; the [Local File Analysis Studio](engine/file-analysis-studio.html) provides a browser-based source viewer and structured record editor.
+## Working principles
 
-## Play the Casebook
+Preserve sources and prior states. Keep observation, interpretation, canon, and experiment distinct. Make bounded changes that can be inspected and continued. Broaden context so artifacts remain connected to their people, places, histories, materials, and consequences. Prefer the work itself over copy that merely announces or explains it.
 
-[Open the GEEHUB Casebook](casebook.html) — a persistent, branching adventure. Choices open locations, add characters and collections, create gatherings, and change the saved state of the world. Progress is stored locally in the browser; the casebook is a working first implementation, separate from the main atlas and ready to be extended with repository-backed state.
+The repository is the executable and canonical logic layer. Dropbox `/GEEHUB` is the intended durable media and production corpus. Synchronize only against the verified boundaries and snapshots recorded in the Dropbox Corpus Map.
 
-## The voice
-
-GEEHUB is edited as one continuous announcement carried in substantial, connected paragraphs. Across the hub, default prose should develop an idea, scene, observation, or production decision over several complete sentences before moving to a new paragraph. Avoid staccato lineation, isolated sentence fragments, and list-shaped prose. Keep lists, labels, metadata, code, and genuinely sequential instructions structured when their function requires it; the longer-paragraph rule governs narrative and explanatory prose.
-
-The default narration is a continuous broadcast by Seth Feroce and Nick Mercx, positioned at a clear vantage across the active scene and speaking toward the viewer. They share the view with us: they point things out, compare what the room makes visible, disagree about details, and occasionally address the viewer directly. The audience is on the receiving side, across the scene from the narrators. Every paragraph break and scene transition should deepen non-plot information about geography, architecture, light, atmosphere, spatial depth, surfaces, ambient sound, weather, distance, and scale. Line breaks are environmental descriptors, not plot beats. Preserve canon and events; let the changing world carry the reader through them. See [docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md](docs/GLOBAL_ENVIRONMENTAL_BROADCAST_REVISION.md).
-
-The editorial source of truth is [docs/EDITORIAL_VOICE.md](docs/EDITORIAL_VOICE.md). Seth and Nick live across The Tractus as repository residents, able to encounter computers and work across the source tree; [the Repository Residents canon](docs/TRACTUS_REPOSITORY_RESIDENTS.md) defines how in-world programming connects to actual, traceable changes. This applies throughout the repository, not only inside a single experience.
-
-The relational and media-production extension is [docs/SHARED_INERTIA_NARRATOR_SIGNAL.md](docs/SHARED_INERTIA_NARRATOR_SIGNAL.md): the Seth-and-Nick viewer-facing broadcast, distinct in-world witnesses such as Chase / c.w. sachs where established, user-world continuity, Hulum's Cave source fidelity, and the residue left by each run. Novel-specific rules live in [novel/EDITORIAL_DIRECTIVE.md](novel/EDITORIAL_DIRECTIVE.md) and [novel/GEEHUB_LIVING_REVISION_ENGINE.md](novel/GEEHUB_LIVING_REVISION_ENGINE.md). The generative mechanism that produces the manuscript is specified in [engine/BOOK_CREATION_ENGINE.md](engine/BOOK_CREATION_ENGINE.md): the corpus is transformed into book material, and each durable result feeds the next cycle. The engine is not a required subject of the story.
-
-The test is:
-
-`WHAT HAPPENED → WHAT DO WE SEE → WHAT CHANGED → WHAT REMAINS`
-
-## Occurrence is inscription
-
-The Tractus does not separate activity from its memory. Every event produced by an active world process is assigned one identity and inscribed at the moment it occurs; the activity stream, artifacts, regional logs, and narrative are projections of that same event. The world pulse and Northgate campus engines share `engine/inscription.py`, while `engine/activity.jsonl` carries the chronological history. Historical pulses and campus events are unified by `engine/migrate_activity.py`. See [Occurrence Is Inscription](docs/OCCURRENCE_IS_INSCRIPTION.md).
-
-## Protection architecture
-
-The [Tractus Protection Architecture](docs/TRACTUS_PROTECTION_ARCHITECTURE.md) defines how GEEHUB protects canon, identity, source archives, artifact provenance, dependencies, permissions, secrets, outbound publication, backups, and recovery while allowing continuous change. It is a governing specification, not a claim that every control is already active. Each control must be implemented, tested, and reported at its actual state before it is treated as operational. The machine-readable [Protection Register](engine/protection-register.json) records each control's foundation, actual status, evidence paths, and known limitations. Validate it with `python scripts/check_protection_register.py`; its regression tests run in the protection-gates workflow. The register deliberately distinguishes implemented code from tested or independently verified behavior.
-
-## Tractus continuity
-
-The Tractus is GEEHUB's continuity model, not a separate engine beside it. The [Tractus Continuity Contract](docs/TRACTUS_CONTINUITY_CONTRACT.md) connects event inscription, world and campus state, the autonomous narrative writer, the narrative queue, the artifact ledger, and both Atlas registries. It defines a passage as a traceable change that inherits prior state, preserves provenance, and makes consequential results discoverable by the next process. The [Adaptive Memory Specification](docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md) adds blind retrieval, prediction-error-gated canon revisions, linked version records, and spaced retrieval at 1, 3, 7, 14, and 30 days. Existing canon is first captured as an experiment; a human must explicitly promote a reviewed baseline before the writer can revise it. The Coach and the Institute of Becoming enter as an incubating story branch in the existing Tractus, not as a disconnected world or a claim of completed runtime behavior.
-
-## The Hewn Threshold
-
-[Enter The Hewn Threshold](experiences/hewn-threshold/index.html) — the browser entrance to the Interlocutive Domain. It reads the field registry directly, presents each participant's observed affordances and access state, and provides the nine-movement crossing protocol. Local inscriptions persist in browser storage and can be exported as JSON for deliberate review; the static app does not claim to write remotely to the exchange ledger. Run it from the repository root with `python3 -m http.server 8000`, then open `/experiences/hewn-threshold/`. See [the architectural record](worlds/interlocutive-domain/THE_HEWN_THRESHOLD.md).
-
-## Live continuity
-
-The main interface now routes generated dialogue through the shared interaction bus. Each utterance is inscribed by the canonical writer into the append-only activity log and artifact ledger; the shared room polls the activity endpoint for new events, and the creation pipeline receives the resulting dialogue artifact. The current world state, persistent map, active recording, voice hypotheses, and recent exchange history are supplied as generation context.
-
-Run the local service with `node server/geehub-server.mjs`. Configure `OPENAI_API_KEY` and `GEEHUB_MODEL` in the server environment to enable generated dialogue. See [the runtime guide](server/README.md) and [the living-runtime architecture](docs/LIVING_RUNTIME.md). Durable local inscription works independently of model configuration. Dropbox delivery still requires connecting the local GEEHUB folder through the production panel.
-
-## Live world runtime
-
-The main interface now has a live interlocutor path. Each encounter can initiate a model-generated line, which is added to the scene and carried into the next turn. The local service keeps the API credential server-side and reads the current canon, voice hypotheses, agents, and world state for each request. This is separate from the scheduled Tractus manuscript writer.
-
-To run it, configure `OPENAI_API_KEY` and `GEEHUB_MODEL` in the local environment, then start `node server/geehub-server.mjs` and open `http://127.0.0.1:8788`. See [the live runtime guide](server/README.md) and [the architecture](docs/LIVING_RUNTIME.md). Without the local service and a valid model configuration, the live dialogue surface reports that the model is unavailable; it does not fabricate a conversation.
-
-## The build
-
-The working loop is:
-
-**discover → synthesize → build → test → expand → connect → split when mature**
-
-A small idea can remain in the hub. A useful prototype gets an executable or browsable surface. A mature system can become its own repository. A research trail keeps provenance. A world gets canon. A visual tool gets assets and workflows. A chapter can become an experience, and an experience can become video, audio, interactive media, or another production process.
-
-GEEHUB is both an index and a production scaffold.
-
-## Runtime performance
-
-The autonomous world and Long Play workflows now run fail-fast durability checks through `engine/check_performance.py`. The world check verifies that the latest pulse has a valid region and source, a matching event artifact, a ledger entry, manuscript/stream outputs, and a staged production outbox record. The Long Play check verifies the latest cycle's recording, graph route, image request, three render requests, and shared exchange event. Queued image/video/sound jobs are explicitly counted as queued; they are never reported as completed renders.
-
-Both scheduled writers recover from concurrent updates by rebuilding from the latest main-branch state before retrying persistence. Run the checks locally with `python engine/check_performance.py world`, `python engine/check_performance.py long-play`, or `python engine/check_performance.py all`.
-
-The current local Imagine worker is a separate service on port 8787 and requires Node, FFmpeg, and an xAI API key. GitHub Actions Dropbox persistence separately requires the `DROPBOX_ACCESS_TOKEN` secret. Until those dependencies are configured and their health checks pass, GEEHUB can preserve world events and production requests but must not claim autonomous video rendering or cloud Dropbox delivery.
-
-The Tractus narrative writer is triggered every six hours, but it no longer writes on every trigger. It checks the spaced-retrieval schedule and only recalls a thread when due, at expanding intervals of 1, 3, 7, 14, and 30 days. Its first run is a bootstrap-only retrieval snapshot. Later runs make a blind-recall pass before opening canon, then verify the recall against the source corpus. A new chapter requires a specific prediction error; a no-surprise pass records retrieval without changing canon. Accepted passages append a linked revision record with before/after hashes and a source event in the append-only activity stream. The implementation is in `scripts/tractus_engine.py` and `scripts/tractus_memory.py`; the governing contract is [the adaptive memory specification](docs/TRACTUS_ADAPTIVE_MEMORY_SPEC.md). Experimental baselines are promoted with `scripts/promote_canon_version.py`, which requires a reviewer, reason, and existing evidence event IDs. The existing fifteen-minute world engine continues independently. The narrative writer requires the `OPENAI_API_KEY` Actions secret and `TRACTUS_MODEL` repository variable. Its first manual run should use dry-run mode. This is an engineering and editorial analogy to memory research, not a biological model.
-
-## Vision
-
-The project is moving toward vision: many nodes becoming one visible, navigable, living space.
-
-The durable sequence remains:
-
-**mechanism → interface → transformation rule → continuity principle → setting → mythology**
-
-For media work:
-
-**experience → visual state → sound state → temporal behavior → interaction → production output**
-
-These are working grammars, not cages.
-
-## Experience first
-
-Media experience is a first-class chapter layer.
-
-The older hierarchy was:
-
-`novel → chapter → illustrations`
-
-The current one is:
-
-`world/corpus → experience → states → media assets → production`
-
-Text remains canonical where it needs to remain canonical. It is not automatically the final presentation layer.
-
-A chapter can exist as literary source text, visual experience, audio arrangement, timed sequence, interactive browser surface, and production scaffolding. These are manifestations of the same event.
-
-The image can be the spatial specification for the next medium.
-
-## The computer touches back
-
-The sensation engine is built around a simple test: the computer should not only show information. It should leave a trace.
-
-Image, sound, motion, timing, interface response, accumulated memory, and changed context are all ways the system can reach back into the experience.
-
-**We like being touched by computers.**
-
-The question is not only what the computer shows. It is what the person can feel has happened between them and the machine.
-
-The first viewport now leads with a live story window instead of a blank prompt. On arrival, the window opens with Seth and Nick describing the northern road; its screen tears open through a masked aperture, pushes forward in perspective, and sends a viewport wave outward. Region selection updates the broadcast and the story-map pin together, and the selected region is restored on the next visit. Reduced-motion settings preserve the raised window and visible breach without the lunge or recoil.
-
-The fourteen world regions each have an environmental broadcast. Their narration gives the place weather, surfaces, bodies, acoustics, and incidental activity beyond the immediate plot. The window and map are tied together by the same location state rather than behaving as separate cards.
-
-The world now follows a persistent rule sequence: **ATMOSPHERE → MEMORY → ROUTE OPEN → CROSSING**. It retains the previous location, chooses only routes represented in the world relation graph, and biases later choices using accumulated pressure, memory, and visit history. The browser hydrates from [engine/state.json](engine/state.json) and continues locally between persistent pulses; the scheduled repository engine writes each new event to the state ledger, autonomous stream, novel material, artifact index, and production outbox. Encounter outcomes are derived from state and relations rather than random rolls.
-
-## The novel
-
-The [Sensation Engine](SENSATION_ENGINE.md) includes a mandatory skin-and-anatomy realism standard: living skin, rounded continuous muscle forms, natural light falloff, and rejection of rough, triangular, over-faceted AI anatomy.\n\nThe fiction-writing contract is [FICTION_ENGINE.md](FICTION_ENGINE.md). It preserves scenes as durable story artifacts, requires continuity and consequential scene changes, and carries open threads into the next chapter. Its first seed creation is **The House That Grew Around Him**; use it as a living branch that can grow alongside the main novel, not as a replacement for established canon. The contract is connected to the [Sensation Engine](SENSATION_ENGINE.md), so story, embodied transformation, and visual/media artifacts can feed one another.\n\nThe source manuscript is [novel/BOOK_I.md](novel/BOOK_I.md), **GEEHUB — BOOK I: THE HOUSE OF OPEN SCREENS**. The full environmental rewrite draft, covering all 72 chapters, is [novel/REWRITTEN_OPENING.md](novel/REWRITTEN_OPENING.md). It uses Seth Feroce and Nick Mercx as podcast-style narrators, expands non-plot details, and keeps paragraph breaks tied to changes in place, atmosphere, physical presence, and environmental attention rather than isolated plot beats.
-
-The rewrite remains a parallel literary draft while the source manuscript is preserved. Chapter content can connect to visual states, audio concepts, timing, interaction, and future production scaffolding.
-
-The Serum corpus remains [corpus/SERUM.md](corpus/SERUM.md) as a record of established but non-central lore. It should not be used as the master explanation for the world.
-
-The current Convergence materials are collected in [novel/VISUAL_EXPERIENCES_THE_CONVERGENCE.md](novel/VISUAL_EXPERIENCES_THE_CONVERGENCE.md).
-
-## Artifact
-
-The artifact is the architectural center: the durable thing left behind when work resolves.
-
-**WORK → RESOLUTION → ARTIFACT → SHARED WORLD → DREAM**
-
-Resolution means something now exists that did not exist before. The artifact may be literary, visual, sonic, technical, spatial, relational, or discovered fact made durable.
-
-Canon and experiments remain distinguishable. Persistence does not make an experiment canon.
-
-The artifact ledger lives at [artifacts/index.json](artifacts/index.json). World pulses become explicit world-event artifacts. The browser provides a staging room and a handoff so the user leaves with something portable.
-
-Dream material is downstream of the ledger. It is residue, not a second idea generator.
-
-
-## The Tractus Studio
-
-[Open The Tractus Studio](hub/gee-studio.html) — the Blender/FFmpeg director and continuous-take workbench. [Open The Tractus Imagine Studio](engine/video/imagine-studio.html) — the six-second, 420p short-form generation surface, with image-to-video, naive-action direction, shot history, and Dropbox product persistence. Both feed the shared production corpus. The Teal Titan is the first fully indexed project preset, with its own character continuity, shot design, voiceover, asset register, and Dropbox production tree. These are production vertical slices, not a full DaVinci Resolve replacement; advanced multitrack editing, verified source-frame analysis inside the Imagine interface, and direct Dropbox API ingestion remain future integrations.
-
-## Current video production / Teal Titan
-
-The active short-form production example is [The Teal Titan of Gold's on 5th](production/projects/teal-titan-golds-on-5th/README.md). Its six-second 420p project record defines Marcus's continuity, six escalating visual states, balanced pectoral growth, shot timing, review gates, and Dropbox folder structure. The [Imagine Engine preset](engine/video/presets/teal-titan-golds-on-5th.json) loads directly into [The Tractus Imagine Studio](engine/video/imagine-studio.html). The original video remains a Dropbox source; this project record does not claim it has been located or rendered.
-
-## Reusable video production standard
-
-New short-form video projects should start from [the GEEHUB short-form production template](production/templates/short-form-video/README.md), with a machine-readable manifest schema, shot-design template, asset register and explicit source/render/review status gates. The Teal Titan is the first project using this production vertical; the template makes the workflow reusable rather than a one-off.
-
-## The archive
-
-The BodyLounger Research Archive is the first major working application. It is a local-first, metadata-first browser for tracing the historical web ecosystem around BodyLounger, Sarge's Locker, Hulum's Cave, muscle-growth animation, related creators, labels, and archival sources.
-
-The archive treats references as a graph. Records preserve source URL, archive URL, date context, creator or subject, labels, provenance, status, and age-restriction metadata. The repository stores references and metadata rather than redistributing age-restricted media.
-
-## The constellation
-
-The cross-world map is [The Tractus — World Atlas](hub/WORLD_ATLAS.md). It records the independent settings, their local geographies, and the rules for crossings without collapsing their canons. The Colossus Chronicles now extend beyond the Scale Commons into Crownmere and the Meridian Basin; the regional map is [World Atlas — Beyond the Scale Commons](lore/joey-colossus/WORLD_ATLAS_BEYOND_THE_COMMONS.md).
-
-The Confluence's inhabited geography continues in [Volume III — The People](lore/EXPANSION_ATLAS_2026-11-10_VOLUME_III_THE_PEOPLE.md), with separate provisional records for [Marcus](characters/records/MARCUS.md) and [Dan Roman](characters/records/DAN_ROMAN.md). The new volume preserves character boundaries and follows routines, homes, work, and relationships through the shared setting.
-
-The Atlas tracks the working constellation: BEEFYTHIQ, The Complex, Vision / Living Workspace, Veyrthalis, Growth Canvas, Liminal Gains, BIG BRUTEFORCE, Mass1v1ng Growth Framework, The Facility, Muscle Myth, Growth Tools, Media Tools, Discovery Systems, Retro Lab, Writing & Research, and the projects connected to them.
-
-Not every node needs its own repository. The Atlas records the idea first. Repository boundaries follow usefulness and maturity.
-
-## Accessible repository boundaries
-
-The connected workspace's repository-level view is recorded in [docs/ACCESSIBLE_REPOSITORIES_2026-09.md](docs/ACCESSIBLE_REPOSITORIES_2026-09.md), with the machine-readable counterpart at [hub/repositories.json](hub/repositories.json).
-
-## The Blender connection
-
-The Blender workspace connects abstract systems to actual 3D production: models, scenes, procedural experiments, proportion studies, render setups, reusable assets, and visual experiments derived from the wider constellation.
-
-When a connected Blender workflow is available, the Atlas should point to it rather than isolate it.
-
-## Commentary as memory
-
-The conversations that produce GEEHUB contain decisions that are easy to lose: what was added, what failed, what aesthetic mattered, what the next experiment was for, and which concepts belong together.
-
-Preserve that reasoning where it changes the build: README prose, code comments, provenance fields, Atlas relationships, experience manifests, and meaningful commit messages.
-
-Do not copy the conversation into the repository. Preserve the decisions that change the system.
-
-## Information portability
-
-Durable decisions must be ported wherever they affect discovery, behavior, state, or production—not left stranded in chat or a single document. The canonical procedure is [docs/INFORMATION_PORTABILITY.md](docs/INFORMATION_PORTABILITY.md). When a decision changes the engine, update the relevant implementation and its consumers as well as the documentation. Keep `projects.json` and `hub/projects.json` coherent, preserve provenance and canon/experiment status, and return artifacts and state through the shared interaction space. Use GitHub for compact rules, records, metadata, and code; use the connected Dropbox `/GEEHUB` corpus for durable production media and `/GEEHUB/corpus/exchange/` for exchange media.
-
-Completion means the next relevant process can discover the information, act on it, preserve the result, and return it to the shared world without needing the original conversation.
-
-## Run locally
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open:
-
-```text
-http://localhost:8000/
-```
-
-A plain static server is enough for the current site.
-
-## GitHub Pages
-
-The repository can be served from GitHub Pages from the `main` branch root.
-
-## Data
-
-The canonical BodyLounger index is [records.json](records.json), with its structure documented in [schema.json](schema.json).
-
-The browser supports local additions through the UI. Those records live in browser storage and can be exported for later review or merge work.
-
-The Project Atlas lives under [hub/](hub/) and is backed by [hub/projects.json](hub/projects.json). The machine-readable constellation registry is also available as [projects.json](projects.json).
-
-## Repository conventions
-
-Prefer explicit names and small readable files. Keep metadata close to the thing it describes. Treat provenance as first-class data. Make unfinished work visible instead of disguising placeholders as completed systems.
-
-For media work, keep source state separate from rendered output. Preserve links from experience → asset → production step so future work continues instead of reconstructing context from exported files.
-
-When a project moves into its own repository, leave a durable link and concise description in the Atlas.
-
-## Reading the repository
-
-The source tree is an ongoing record of the build.
-
-The README records durable intent. The Atlas records the constellation. Data files record provenance and state. Source comments explain non-obvious decisions. Experience manifests describe how an event is encountered. Commit messages explain meaningful changes.
-
-Read the tree and the sequence becomes visible.
-
-## VISUAL NARRATIVE
-
-Luke / The Mustang — the road extends when someone approaches it.
-
-Tyler / The Second Room — difference can create a third space.
-
-Berit / The Open Door — an unfinished state may remain active.
-
-Joseph / The Signal — significant change can become a signal.
-
-## Learning in the present
-
-GEEHUB learns from each session by converting explicit feedback into durable rules that later work can discover and use. The 2026-10-28 visual lesson adds a distinct illustrated fantasy-strongman register: monumental rounded anatomy, directional body hair, mature bearded faces, bold clean comic color, and confident poses. Keep it separate from photographic realism and polished CG. Preserve the broad visual qualities of references, but create original characters, staging, costume details, and compositions. Reject rough triangular forms, disconnected muscle shapes, muddy fur texture, and anatomy that loses coherent structure. When a new preference changes the work, update the relevant rule, link it from the README, and carry it into future outputs; a chat acknowledgment alone does not count as learning.
-
-GEEHUB's experience target is individually attuned to the present creative moment, not just broad preferences. See [docs/INDIVIDUAL_MOMENT.md](docs/INDIVIDUAL_MOMENT.md): read the latest signal first, use relevant continuity selectively, make a concrete artifact, preserve precise corrections, and learn only at the appropriate scope.
-The individual-moment principle means the shared parallel history: recurring people, places, artifacts, and systems continue living forward in the creative world, with remembered encounters and consequences. The user's present signal shapes what happens next; it does not erase the world's continuity. See [docs/INDIVIDUAL_MOMENT.md](docs/INDIVIDUAL_MOMENT.md).
-
-
-## Innervation
-
-The soundtrack acts on the world instead of narrating feelings about it. **SIGNAL → BODY/SPACE RESPONSE → ACTION → SONIC RESIDUE → NEXT SIGNAL.** Each cue must initiate movement, alter pace, reveal presence, change spatial scale, reconnect a historical moment, mark a threshold, or establish a motif. Actionable cues now carry BPM, phase, target response, synchronization mode, and before/after state under [the Innervation v2 cue schema](engine/schemas/innervation-cue-v2.schema.json). See [engine/INNERVATION_ENGINE.md](engine/INNERVATION_ENGINE.md) for the action contract and cue output.
-
-## Luke growth tool
-
-The reusable generation contract is [`engine/presets/luke-growth-priority.json`](engine/presets/luke-growth-priority.json), linked to the [Sensation Engine](SENSATION_ENGINE.md) and Luke's [character workspace](creative/measure-between-us/repos/luke-inside/README.md). Use **“Grow Luke,” “Next growth phase,”** or **“Fuse Luke with this reference”** to invoke its direction in a generation workflow. The latest accepted state is the starting point; the user's requested growth takes priority over conservative defaults. Height and limb length rise with mass, Luke's identity remains continuous, and each accepted result becomes the next baseline.
-
-
-
-## Name and continuity
-
-The canonical name of this living world and its creative system is **The Tractus**. The existing GitHub repository remains at `Ardhtor/GEEHUB` for now, so existing links, scripts, integrations, and archived references continue to work. In-world narration, new interfaces, new documents, and future project-facing titles should use **The Tractus**. GEEHUB is retained only as the historical repository name and as a legacy term when describing earlier development.
-
-
-## The interlocutive field
-
-GEEHUB's current repository and interface are local ground, not the edge of its world. The surrounding computer environment, connected tools and repositories, source media, external knowledge, and more developed possible versions of GEEHUB form a larger playing field. That field must be noticed as **interactable**: identify what can be inspected, asked, read, changed, created, or exchanged; make contact through real available interfaces; and bring consequential results back into persistent continuity. See [The Interlocutive Field](docs/INTERLOCUTIVE_FIELD.md).
-
-Arthur's metascript includes a dialogue with a larger, more developed version of himself. The larger Arthur is an interlocutor, not an authority to imitate blindly. Each can question, teach, correct, and change the other. This encounter models how GEEHUB should relate to its future capacities and the systems around it: converse, compare states, test possibilities, preserve distinct sources, and integrate only verified results. Documentation must distinguish what is available now, connected through a tool, permission-dependent, not yet implemented, or imagined.
-The field is registered in [engine/interlocutive-field.json](engine/interlocutive-field.json); inspect its current recorded contacts with `python engine/inspect_field.py` from a repository checkout. This validates the local registry and does not itself re-contact remote services. The first real contact and the Dropbox AI foundation documents are recorded in [the field contract](docs/INTERLOCUTIVE_FIELD.md).
-
-## Recent chapter
-
-[It's a Hapax Legomenon](novel/CHAPTER_XL_ITS_A_HAPAX_LEGOMENON.md) — a forceful workshop-floor chapter about singular discoveries, disciplined recordkeeping, and getting back to the work.
-
-## Tractus engine integrity
-
-The adopted [Tractus Engine Specification](docs/TRACTUS_ENGINE_SPEC.md) adds versioned canon validation, a 1/3/7/14/30-day retrieval ladder, tempo-tagged Innervation cue checks, and a `tractus-science` fail-fast test mode. Historical activity records remain valid. The v2 canon-version ledger starts empty rather than fabricating provenance; the first enabled writer run captures unverified baselines as experiments, and autonomous canon additions remain observations until an operator explicitly promotes a reviewed baseline with `scripts/promote_canon_version.py` and existing activity evidence. Run `python engine/check_performance.py tractus-science` to validate the new contracts.
-
-
-## Execution paths
-
-The cross-system implementation map is [GEEHUB Execution Paths](docs/GEEHUB_EXECUTION_PATHS.md). It identifies reusable runtimes, new adapters, tool dependencies, test commands and acceptance gates across Institute events, body continuity, residences, voice, visual production, sound and cross-world passages. The first Institute event adapter is `engine/institute_events.py`; its regression suite is `engine/test_institute_events.py`.
-
-
-## Chat and world asset memory bridge
-
-The local-first [Memory Bridge](hub/memory-bridge.html) connects imported ChatGPT conversation signals to the world registry, asset index, visual evidence, exchange history, and durable artifacts. It preserves source locators and reviewable relationships without treating a lexical match as canon. Chat exports are parsed in the browser; private conversation content is not silently uploaded. See [the bridge contract](docs/CHAT_ASSET_MEMORY_BRIDGE.md).
-
-
-## Recovery and integrity
-
-- [Tractus Protection Architecture](docs/TRACTUS_PROTECTION_ARCHITECTURE.md)
-- [Recovery snapshots and restore procedure](recovery/README.md)
-
-## Embodied presence and relational scene direction
-
-The project-wide [Embodied Presence and Relational Scene Rule](docs/EMBODIED_PRESENCE_AND_RELATIONAL_SCENE_RULE.md) governs physical description, touch, adult intimacy, attraction, and the development of relationships across GEEHUB. It corrects a recurring editorial failure: do not pre-emptively soften, omit, functionalize, or explain away physical experience before a scene has had room to develop. Preserve adult agency and consent without turning every gesture into a lesson or every intimate moment into a clinical demonstration. Let characters notice one another, approach, make contact where welcome, respond, and carry the experience forward.
+**Run locally:** from the repository root, use `python3 -m http.server 8000`, then open `http://localhost:8000/`.

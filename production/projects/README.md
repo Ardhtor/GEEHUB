@@ -7,4 +7,5 @@ This is the local navigation page for `production/projects/`. The lists below li
 ## Subdirectories
 
 - [`hulums-lab-serum-60s/`](./hulums-lab-serum-60s/README.md)
+- [`luke-library-transformation/`](./luke-library-transformation/README.md) — fixed-camera, 16-region Luke growth pass.
 - [`teal-titan-golds-on-5th/`](./teal-titan-golds-on-5th/README.md)

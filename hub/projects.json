@@ -2176,5 +2176,35 @@
     ],
     "interface_path": "../hub/index.html#growth-engine",
     "schema_path": "../engine/schemas/growth-pass.schema.json"
+  },
+  {
+    "id": "library-reference-archive",
+    "name": "ChatGPT Library Reference Archive",
+    "group": "archive",
+    "status": "active",
+    "kind": "reference-index",
+    "path": "../library-import/reference-files.json",
+    "summary": "270 Library image references, curated into transformation, Luke continuity, anatomy and interface collections.",
+    "description": "Provenance-preserving Library index and visually inspected muscle-growth analysis. Separates Luke-specific identity checkpoints from general transformation sequences, separate-subject anatomy dossiers, mythic growth grammar and Morph Console interface references.",
+    "analysis_path": "../library-import/muscle-growth-transformation-analysis.md",
+    "tags": [
+      "library",
+      "images",
+      "reference-files",
+      "provenance",
+      "assets",
+      "visual-corpus",
+      "muscle-growth",
+      "transformation",
+      "Luke"
+    ],
+    "related": [
+      "growth-canvas",
+      "growth-study-001",
+      "geehub-studio",
+      "media-tools",
+      "luke-inside",
+      "beefythiq"
+    ]
   }
 ]

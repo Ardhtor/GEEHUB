@@ -307,7 +307,147 @@ In the central shaft, the blue light descended another level.
 
 And somewhere below the city, the Cyber Black Hole received the first night of their arrival.
 
-### Chapter Seven — The Observatory of Images
+
+Morning came without an announcement. The city did not sound like a place waiting for instructions. Somewhere below the guest rooms, a delivery cart rattled over stone. A door opened and shut. Someone laughed in the street, and another voice answered from a window. The sounds were ordinary enough that Luke lay still for a while, trying to decide whether he had woken in the gym district or in the room he had chosen the night before.
+
+He went downstairs because he was hungry. He found Andrew already in the kitchen, standing at the counter with a pear in one hand and a piece of bread in the other.
+
+“You're up early,” Luke said.
+
+“I woke up hungry.”
+
+“You went to bed hungry?”
+
+“I went to bed curious. Hunger won.”
+
+Andrew cut the pear into uneven pieces and pushed half across the counter. Luke took one. There was no map open and no object waiting to be examined. For a few minutes they ate without discussing the city.
+
+Andrew glanced through the window toward the field. “I want to see if the fence makes that sound here.”
+
+“The one from practice?”
+
+“That's the one.”
+
+Luke looked at him. “You want me to come?”
+
+“I'd like you to. You don't have to carry anything or repair anything. Just come and tell me if you hear it too.”
+
+Luke almost answered with a practical question about equipment. He stopped. “All right.”
+
+The field was damp from the night. Andrew brought two balls from a rack beside the entrance and chose one with a worn seam. He showed Luke how he held it, not as a lesson he had been asked to give, but because the grip was part of the question he had been carrying since practice. Luke tried it. His first throw struck the fence low and came back with a flat metallic clank.
+
+Andrew laughed.
+
+“That's not the sound?”
+
+“No. That's the sound of you trying to hit the fence.”
+
+Luke gave him the ball. “Then you do it.”
+
+Andrew took his time. He adjusted his fingers, stepped back, and threw. The ball struck higher on the fence. The note rang out, hollow and brief.
+
+“There,” Andrew said.
+
+Luke listened. “It changed when you moved up the field.”
+
+“Exactly. I thought it was the ball, but it's the distance. Or the angle. Maybe both.”
+
+“You've been thinking about that since yesterday?”
+
+“Since practice. I don't like leaving a sound unexplained.”
+
+Luke smiled. “I thought that was Tyler's department.”
+
+“Tyler would measure it until the fence got bored and left.”
+
+They laughed. Andrew retrieved the ball. He did not ask Luke to throw again. They stayed for another few minutes, watching a groundsman open a storage shed at the far end. When Andrew finally turned back toward the city, Luke followed without looking for something to fix.
+
+Elsewhere, Tyler had found Chase at the lower entrance to the old stone district. Chase was holding the folded map but had not opened it.
+
+“You've brought it,” Tyler said.
+
+“I've brought it. I haven't decided to use it.”
+
+Tyler looked at the street ahead. “We could test the route to the river.”
+
+“We could also walk to the river.”
+
+“That's what I meant.”
+
+“No. You meant compare the route with the map while we walk. I meant see what's there.”
+
+Tyler considered this. “Those aren't incompatible.”
+
+“They become incompatible when you stop looking at the street.”
+
+Chase tucked the map into his coat. They walked. At the first junction Tyler began to count the turns under his breath. Chase noticed but said nothing. At the second, they found a narrow bakery with its shutters half raised. The smell of warm dough reached the pavement.
+
+Chase stopped. “I'm getting something.”
+
+Tyler glanced at the street beyond. “We haven't reached the river.”
+
+“The river will still be there.”
+
+Inside, Chase ordered two rolls without asking Tyler what he wanted. He realised the mistake as the baker wrapped them.
+
+“Sorry. I should have asked.”
+
+Tyler looked at the paper parcel. “You should have. I'll eat it anyway.”
+
+They took the rolls outside. Tyler's was filled with cheese and herbs; Chase's was plain. Tyler ate half before looking at the map again.
+
+“You were right about one thing,” he said.
+
+“Only one?”
+
+“I was looking at the route more than the place.”
+
+Chase folded the map more tightly. “I do that with the record. Sometimes I can tell you exactly what happened and still not tell you whether I enjoyed being there.”
+
+Tyler did not answer immediately. He put the map away. They finished eating before deciding which street to take next.
+
+Gabe had found the terrace above the music room. He sat with his coffee and watched the city wake. Joseph came out carrying the small player. He stopped at the doorway rather than assuming the seat beside Gabe was available.
+
+“Would music bother you?”
+
+“Not at the moment,” Gabe said.
+
+Joseph nodded and sat on the other end of the terrace. He left the player in his hand. The silence lasted long enough to become comfortable, then long enough to become a question.
+
+Gabe looked over. “You can play it. Just keep it low.”
+
+Joseph chose a track and set the volume barely above the sounds from the street. He did not explain why he had chosen it. Gabe listened for a while, then asked him to go back ten seconds.
+
+“Was there something you recognised?” Joseph asked.
+
+“No. I liked the bit before the singer came in.”
+
+Joseph rewound it. They listened again. Gabe leaned back, eyes on the rooftops. The song continued without needing to stand for anything else.
+
+When the six met again near the kitchen, Andrew had a small smear of dirt on one trouser leg, Tyler was carrying the remains of his roll, Chase had left his map folded, and Gabe was humming the few notes he had asked to hear twice. Luke noticed the dirt and did not brush it away. Joseph noticed the tune and did not ask Gabe what it meant.
+
+“Where have you all been?” Andrew asked.
+
+“Walking,” Chase said.
+
+“Eating,” Tyler added.
+
+“Listening,” Gabe said.
+
+Andrew nodded as though these were perfectly respectable pursuits. “I tested the fence.”
+
+“And?” Joseph asked.
+
+“It sounds different when you hit it properly.”
+
+Luke took another piece of bread. “He means when he hits it.”
+
+Andrew pointed at him. “You got one good throw. Don't rewrite the morning.”
+
+The laughter that followed was not a declaration of friendship. It was smaller and more useful: six people discovering that they could spend an hour together without needing the same reason. No one proposed a rule. No new line appeared on the map. The morning remained theirs, even if the city had made it possible.
+
+
+### Later That Morning — The Observatory of Images
 
 The next morning, the six returned to the central hall and found the upper gallery open. It had become an observatory overnight. Not a telescope room, exactly, but a long chamber of dark timber, blue glass, and suspended image panels. At one end, a broad screen showed the Living Corpus Dashboard: a central wand, a registry, recent inscriptions, and a large RUN control. At the other, the Holographic Observatory presented a seated figure among books and floating world panels. Between them, the Dark Expanse Interface opened onto a cinematic landscape with maps, character cards, and a console.
 

@@ -178,7 +178,15 @@
       "filename": "Neon Love Potion Muscle Transformation.png",
       "verification_status": "media-inspected"
     },
-    "growth_passes": [],
+    "growth_passes": [
+      {
+        "stage_id": "source-reference-review",
+        "files": [
+          "ChatGPT Library:file_00000000915081f5b7e06f22fa8a8556",
+          "ChatGPT Library:file_00000000f89481f583d665c82eea2080"
+        ]
+      }
+    ],
     "frames": [],
     "audio": [],
     "exports": []
@@ -201,6 +209,12 @@
         "status": "inferred",
         "source_ref": "engine/video/profiles/luke-library-transformation-profile.json",
         "notes": "Authored timing proposal; not extracted from source footage."
+      },
+      {
+        "claim": "A separate front/rear/side gym montage visually resembles Luke and supplies useful pose and surface detail.",
+        "status": "inferred",
+        "source_ref": "file_00000000f89481f583d665c82eea2080",
+        "notes": "No explicit Luke label is visible in the montage; it is a supporting candidate, not a confirmed identity or numbered stage."
       }
     ]
   }

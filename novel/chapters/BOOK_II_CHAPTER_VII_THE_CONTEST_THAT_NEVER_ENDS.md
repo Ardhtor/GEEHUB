@@ -137,8 +137,6 @@ The others laughed again. The demonstration had been impressive, but it had not 
 
 Michael agreed to try it. The second lift was slower, but more exact. It required both men to adjust their pace. The beam reached the cradle without a sound. Andrew declared it the better performance, then immediately asked whether they could repeat it with a longer turn.
 
-The men understood the pattern. The first demonstration had been a show of strength. The second became a show of coordination. The next might be a test of design, balance, timing, or accuracy. There would always be a way to change the question so that the previous answer was no longer enough.
-
 
 Andrew proposed a timed version before the men had finished discussing the second carry. He wanted to know how quickly the beam could be brought to the cradle without losing the clean turn. Chase said the route had to be fixed first. Gabe asked whether the carriers had recovered from the previous lift. Robert wanted the lighting adjusted so the far corner could be seen. Each suggestion was sensible, but they began arriving too quickly for anyone to answer the last one.
 
@@ -180,18 +178,13 @@ Andrew leaned toward the receiver. “You should come and see the board.”
 
 “I can give you an opinion. I won't move just because you want to see what happens.”
 
-The correction was gentle, and the men accepted it. They had learned that Kirk could be part of their world without being required to turn his body into a demonstration. His approval mattered because he was a person they cared about, not because his movement would make the next contest more spectacular.
-
-
-The receiver was returned to the table. Andrew wanted to ask Kirk whether he had enjoyed the day's demonstrations, but he did not call again. He had already heard the answer in the way Kirk had spoken about the pavilion and the board. The men could show him what they had made. They could ask for his opinion. They could not make his body the next event simply because the afternoon had gone well.
+The correction was gentle, and the men accepted it. Kirk could take part in their world, offer his opinion, and enjoy what they had made without being asked to turn his body into the next event. Andrew wanted to ask whether he had enjoyed the demonstrations, but he did not call again; he had heard enough in Kirk's response.
 
 Michael sat with Gabe while the others worked on the gallery. He said he had enjoyed the beam carry, but he did not want every future visit to begin with a request to lift something heavier. Gabe agreed. He told Michael that the training court could be used for ordinary sessions, demonstrations, or nothing at all. A man could arrive, spend time with the others, and leave without having to produce a new record.
 
 Michael smiled. “That sounds like a better invitation.”
 
 Andrew heard them and came over. He said he had been thinking about a new challenge for the next visit. Michael told him he would listen to it when he came back. He did not promise to perform it. Andrew accepted the answer and began explaining the design rather than insisting on the result. The difference was small, but the conversation remained friendly.
-
-The exhibition continued into the afternoon. The men were learning that every attempt left behind a question for the next one, and that the work of improvement was larger than the result written on the board.
 
 
 As the afternoon lengthened, the men began to tire. Andrew wanted another run at the double arch, but Gabe pointed out that his release had become less controlled. Andrew said he could correct it. Gabe asked whether he wanted to correct it now or after a rest. Andrew looked at the ball, then at the recovery bench. He chose the bench.

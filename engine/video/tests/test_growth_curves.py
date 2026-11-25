@@ -60,13 +60,24 @@ class GrowthCurveTests(unittest.TestCase):
         regions = {name: entry["knots"] for name, entry in profile["regions"].items()}
         samples = list(sample_profile(regions, profile["duration_seconds"], profile["timebase"]["fps"]))
         self.assertEqual(len(samples), 240)
-        self.assertTrue(all(a <= b for (_, a), (_, b) in zip(
-            [(frame, values["pectorals"]) for frame, values in samples],
-            [(frame, values["pectorals"]) for frame, values in samples][1:]
-        )))
-        self.assertEqual(samples[0][1]["pectorals"], 0.0)
+        for region in regions:
+            values = [sample[1][region] for sample in samples]
+            self.assertEqual(values[0], 0.0, region)
+            self.assertTrue(all(a <= b for a, b in zip(values, values[1:])), region)
+            self.assertAlmostEqual(values[-1], regions[region][-1][1], msg=region)
         self.assertEqual(samples[-1][1]["pectorals"], 1.0)
         self.assertEqual(samples[-1][1]["deltoids"], 1.0)
+
+    def test_luke_library_timeline_is_contiguous_and_fixed_camera(self):
+        import json
+        timeline_path = Path(__file__).resolve().parents[1] / "profiles" / "luke-library-transformation-timeline.json"
+        timeline = json.loads(timeline_path.read_text(encoding="utf-8"))
+        stages = timeline["stages"]
+        self.assertEqual(stages[0]["start_seconds"], 0)
+        self.assertEqual(stages[-1]["end_seconds"], timeline["duration_seconds"])
+        for left, right in zip(stages, stages[1:]):
+            self.assertEqual(left["end_seconds"], right["start_seconds"])
+        self.assertEqual(timeline["camera"]["mode"], "fixed")
 
     def test_invalid_profile_is_rejected(self):
         invalid = {"pectorals": ((0, 0.0), (2, 0.8), (1, 0.9))}

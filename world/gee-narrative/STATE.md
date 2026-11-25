@@ -1,6 +1,6 @@
 # GEEHUB construction state
 
-Updated: 2026-11-23
+Updated: 2026-11-25
 
 ## Evidence-bound single-frame compositing added — 2026-11-23
 - `core/complete-frame-compositor.js` adds `composeGrowthFramePixels()`, an in-memory assembly pass for one timestamped source frame. It consumes the original RGBA frame, same-frame binary body and protected-face masks, a ready transparent body pixel layer from `pixel-frame-renderer.js`, and a version-one temporal scene plate.
@@ -206,8 +206,9 @@ Updated: 2026-11-23
 - Automatic person/body segmentation and face-excluding mask generation.
 - Automatic body landmark detection and confidence tracking.
 - Automatic segmentation-derived mesh triangulation and tracking from a model output; the current fixed grid is built from supplied masks.
-- Automatic source-video frame extraction and generation of the source-frame index. The batch worker consumes externally extracted PNGs with a checksummed geehub.source-frame-index v1; it verifies the index and file bytes but does not independently prove extraction provenance.
-- Background reconstruction and protected-face/clothing compositing; current batch output is a transparent body layer.
+- Automatic source-video frame extraction/index generation is implemented with FFmpeg and independently revalidated by the batch worker; local user-footage and Dropbox execution remain unverified.
+- Depth-aware clothing deformation, garment contact/tension, and independently measured camera registration. Current background reconstruction uses an externally asserted fixed-camera identity record; anatomical mask semantics remain unverified.
+- Automatic segmentation and landmark production remain external inputs; current masks and tracks are validated structurally and at the pixel/checksum boundary, not proven anatomically correct.
 - Garment and environment response driven by measured contact and depth.
 - Automated frame import from a render worker into Resolve.
 - Final growth-video rendering and export.
@@ -215,10 +216,10 @@ Updated: 2026-11-23
 
 ## Next construction targets
 1. Connect a real segmentation and landmark producer, then independently verify anatomical correctness; the current masks remain external producer inputs.
-2. Build a source-video extraction/index producer that binds extracted PNGs to the immutable source checksum and registered frame timestamps.
-3. Reconstruct the background revealed by body movement and composite the warped body with protected face and clothing layers.
-4. Add scene response and sequence validation for silhouette stability, clothing tension, ground contact, camera clearance, face protection, and occlusion.
-5. Return composited frames and a checksummed video artifact to the bridge, then verify Resolve import and export behavior.
+2. Replace the externally asserted fixed-camera record with an independently measured camera-registration producer and reject unmodeled camera motion.
+3. Add depth-aware clothing deformation, garment tension, ground contact, and occlusion validation while preserving the protected-face layer.
+4. Validate complete composited sequences against temporal silhouette, identity, proportion, and unresolved-region limits.
+5. Return a checksummed video artifact to the bridge, then verify Resolve Free import, timeline assembly, and export behavior.
 
 Each item changes status only when evidence exists.
 
@@ -289,3 +290,13 @@ Each item changes status only when evidence exists.
 - Corrected package workflow [45479018750](https://github.com/Ardhtor/GEEHUB/actions/runs/45479018750) completed successfully on commit `1c18ad30e931dc64d3a32bb7753ada5ff5c55275`: 189/189 Node tests, 14/14 Resolve Free Lua tests, Lua 5.4 syntax validation, the new compositor CLI syntax/help checks, portable package build, and artifact upload all passed.
 - The first run's only failure was the partial-frame test fixture's non-zero RGB under zero alpha. The fixture now writes transparent black; the production rejection remains intact.
 - The separate data-validation workflow [45479018860](https://github.com/Ardhtor/GEEHUB/actions/runs/45479018860) still fails UI registry validation for four stale embedded project tuples: `information-portability`, `lineage-pantheon`, `hubby`, and `media-tools`. This is independent of the Studio package workflow.
+
+
+## File-backed sequence compositor — 2026-11-25
+- `core/sequence-file-compositor.js` adds `composeGrowthFrameSequenceFiles()`. It consumes a complete body-layer batch receipt, the exact source-frame index, the registered segmentation sidecar, the persisted scene-plate directory, and the local Dropbox root.
+- The worker binds the sidecar bytes to `batch.registeredSidecars.segmentation`, checks the registered frame-set id and checksum, and matches every source-index, batch, and segmentation frame number/timestamp. It resolves the body and protected-face mask URIs beneath the Dropbox root, rejects symlinked path components, and verifies every mask digest before creating output.
+- Each indexed frame is passed through `composeGrowthFrameFiles()`; pixel composition is not duplicated. The new output directory receives one PNG and per-frame receipt for each frame. `sequence.receipt.json` is published last and records all frame outputs, per-frame readiness, aggregate pixel counts, source/batch/segmentation lineage, and the explicit export limitations.
+- `status: complete` means every indexed frame was processed and accounted for. `compositionStatus: partial-sequence` and `readyForAssembly: false` remain possible when one or more frames contain unresolved background pixels. `readyForExport` remains false. A later-frame failure rolls back only digest-matching outputs created by the attempt.
+- Four focused tests were added for two-frame composition and receipt publication, partial-sequence accounting, rollback after a later body-layer digest failure, and all-mask preflight before output creation. The repository package workflow is pending at this entry; these tests are committed but are not yet claimed as passed.
+- No local Mac, Dropbox mirror, Resolve session, or personal footage was accessed. The compositor still relies on externally asserted fixed-camera identity transforms, and body/face mask anatomy is not independently verified. Clothing/depth response and video export remain open.
+- Next: build an independently measured camera-registration producer, then connect depth-aware clothing/occlusion response and sequence-level visual validation before enabling Resolve assembly.

@@ -9,6 +9,7 @@ import { decodeRgbaPng, encodeRgbaPng } from "./rgba-png.js";
 import { buildTemporalScenePlate } from "./temporal-scene-plate.js";
 import { writeTemporalScenePlateArtifact } from "./scene-plate-artifact.js";
 import { composeGrowthFrameFiles } from "./complete-frame-file-compositor.js";
+import { composeGrowthFrameSequenceFiles } from "./sequence-file-compositor.js";
 
 const videoChecksum = "c".repeat(64);
 const planChecksum = "d".repeat(64);
@@ -319,6 +320,210 @@ function compose(fixture) {
   });
 }
 
+
+async function makeSequenceFixture({ partial = false } = {}) {
+  const fixture = await makeFixture({ partial });
+  const dropboxRoot = path.join(fixture.root, "dropbox");
+  const bodyDirectory = path.join(dropboxRoot, "GEEHUB", "FrameEvidence", "body");
+  const faceDirectory = path.join(dropboxRoot, "GEEHUB", "FrameEvidence", "face");
+  const metadataDirectory = path.join(fixture.root, "metadata");
+  await Promise.all([
+    mkdir(bodyDirectory, { recursive: true }),
+    mkdir(faceDirectory, { recursive: true }),
+    mkdir(metadataDirectory)
+  ]);
+
+  const frames = makeFrames(partial);
+  const first = frames[0];
+  const second = frames[1];
+  const firstBodyMaskBytes = await readFile(fixture.bodyMaskPath);
+  const firstFaceMaskBytes = await readFile(fixture.faceMaskPath);
+  const firstBodyMaskPath = path.join(bodyDirectory, "frame-000000010.png");
+  const firstFaceMaskPath = path.join(faceDirectory, "frame-000000010.png");
+  await writeFile(firstBodyMaskPath, firstBodyMaskBytes);
+  await writeFile(firstFaceMaskPath, firstFaceMaskBytes);
+
+  const secondSourceName = "frame-000000011.png";
+  const secondSourceBytes = encodeRgbaPng({
+    width: 3, height: 1, data: second.source.data
+  });
+  await writeFile(path.join(path.dirname(fixture.indexPath), secondSourceName), secondSourceBytes);
+  const secondBodyMaskBytes = encodeGrayMask(3, 1, second.bodyMask.pixels);
+  const secondFaceMaskBytes = encodeGrayMask(3, 1, second.faceMask.pixels);
+  const secondBodyMaskPath = path.join(bodyDirectory, secondSourceName);
+  const secondFaceMaskPath = path.join(faceDirectory, secondSourceName);
+  await writeFile(secondBodyMaskPath, secondBodyMaskBytes);
+  await writeFile(secondFaceMaskPath, secondFaceMaskBytes);
+
+  const secondBodyLayerName = "frame-11.body.png";
+  const secondBodyLayerPath = path.join(path.dirname(fixture.bodyLayerPath), secondBodyLayerName);
+  const secondBodyLayerBytes = encodeRgbaPng({
+    width: 3,
+    height: 1,
+    data: new Uint8Array([
+      0, 0, 0, 0,
+      80, 120, 160, 255,
+      0, 0, 0, 0
+    ])
+  });
+  await writeFile(secondBodyLayerPath, secondBodyLayerBytes);
+
+  const secondSourceHash = digest(secondSourceBytes);
+  const secondBodyMaskHash = digest(secondBodyMaskBytes);
+  const secondFaceMaskHash = digest(secondFaceMaskBytes);
+  const secondBodyLayerHash = digest(secondBodyLayerBytes);
+  const secondBodyReceiptName = secondBodyLayerName + ".receipt.json";
+  const secondBodyReceipt = {
+    schema: "geehub.growth-frame-file-receipt.v1",
+    status: "written",
+    frame: 11,
+    timeSeconds: 1,
+    topologyId: "topology-001",
+    vertexCount: 3,
+    triangleCount: 1,
+    inputs: {
+      sourceFrame: { file: secondSourceName, sha256: secondSourceHash },
+      bodyMask: { file: secondSourceName, sha256: secondBodyMaskHash },
+      protectedFaceMask: { file: secondSourceName, sha256: secondFaceMaskHash },
+      deformationPlan: { file: "frame-11.plan.json", sha256: planChecksum }
+    },
+    output: {
+      file: secondBodyLayerName,
+      path: secondBodyLayerPath,
+      sha256: secondBodyLayerHash,
+      byteLength: secondBodyLayerBytes.length,
+      encoding: "png/rgba8"
+    },
+    raster: {
+      coveredPixels: 1,
+      renderedTriangles: 1,
+      interpolation: "bilinear-premultiplied-alpha",
+      pixelSemanticsVerified: false
+    },
+    sourceFrameUnmodified: true,
+    outputCreatedExclusively: true
+  };
+  const secondBodyReceiptWrite = await writeJson(
+    path.join(path.dirname(fixture.bodyLayerPath), secondBodyReceiptName),
+    secondBodyReceipt
+  );
+
+  const bodyUri = frame => "dropbox://GEEHUB/FrameEvidence/body/frame-" +
+    String(frame).padStart(9, "0") + ".png";
+  const faceUri = frame => "dropbox://GEEHUB/FrameEvidence/face/frame-" +
+    String(frame).padStart(9, "0") + ".png";
+  const segmentation = {
+    schema: "geehub.frame-set-evidence",
+    schemaVersion: 1,
+    role: "segmentation",
+    sequenceId: "sequence-001",
+    sourceAssetId: "asset-001",
+    firstFrame: 10,
+    lastFrame: 11,
+    frameCount: 2,
+    width: 3,
+    height: 1,
+    fps: 1,
+    pixelSemanticsVerified: false,
+    frames: [
+      {
+        frame: 10,
+        timeSeconds: 0,
+        model: "fixture-segmenter",
+        confidence: 0.99,
+        bodyMask: { uri: bodyUri(10), checksum: digest(firstBodyMaskBytes), excludesFace: true },
+        faceMask: { uri: faceUri(10), checksum: digest(firstFaceMaskBytes), protectsIdentity: true }
+      },
+      {
+        frame: 11,
+        timeSeconds: 1,
+        model: "fixture-segmenter",
+        confidence: 0.99,
+        bodyMask: { uri: bodyUri(11), checksum: secondBodyMaskHash, excludesFace: true },
+        faceMask: { uri: faceUri(11), checksum: secondFaceMaskHash, protectsIdentity: true }
+      }
+    ]
+  };
+  const segmentationSidecarPath = path.join(metadataDirectory, "segmentation-sidecar.json");
+  const segmentationWrite = await writeJson(segmentationSidecarPath, segmentation);
+
+  const index = JSON.parse((await readFile(fixture.indexPath)).toString("utf8"));
+  index.lastFrame = 11;
+  index.format.frameCount = 2;
+  index.derivation.probedFrameCount = 2;
+  index.derivation.extractedFrameCount = 2;
+  index.frames.push({
+    frame: 11,
+    timeSeconds: 1,
+    sourceTimestampSeconds: 1,
+    sourceTimeFromOriginSeconds: 1,
+    file: secondSourceName,
+    sha256: secondSourceHash
+  });
+  const indexWrite = await writeJson(fixture.indexPath, index);
+
+  const batch = JSON.parse((await readFile(fixture.batchReceiptPath)).toString("utf8"));
+  batch.lastFrame = 11;
+  batch.frameCount = 2;
+  batch.sourceFrameIndex.sha256 = indexWrite.sha256;
+  batch.sourceFrameDerivationVerification.probedFrameCount = 2;
+  batch.sourceFrameDerivationVerification.extractedFrameCount = 2;
+  batch.sourceFrameDerivationVerification.pixelMatchedFrameCount = 2;
+  batch.registeredSidecars = {
+    segmentation: {
+      frameSetId: "frame-sequence-sequence-001-segmentation",
+      checksum: segmentationWrite.sha256
+    }
+  };
+  batch.frames.push({
+    frame: 11,
+    timeSeconds: 1,
+    sourceFrame: { file: secondSourceName, sha256: secondSourceHash },
+    bodyMaskSha256: secondBodyMaskHash,
+    protectedFaceMaskSha256: secondFaceMaskHash,
+    deformationPlanSha256: planChecksum,
+    output: {
+      file: secondBodyLayerName,
+      sha256: secondBodyLayerHash,
+      byteLength: secondBodyLayerBytes.length
+    },
+    receipt: {
+      file: secondBodyReceiptName,
+      sha256: secondBodyReceiptWrite.sha256
+    },
+    coveredPixels: 1,
+    renderedTriangles: 1
+  });
+  await writeJson(fixture.batchReceiptPath, batch);
+
+  return {
+    ...fixture,
+    dropboxRoot,
+    segmentationSidecarPath,
+    outputDirectory: path.join(fixture.root, "complete-sequence")
+  };
+}
+
+async function withSequenceFixture(options, run) {
+  const fixture = await makeSequenceFixture(options);
+  try {
+    await run(fixture);
+  } finally {
+    await rm(fixture.root, { recursive: true, force: true });
+  }
+}
+
+function composeSequence(fixture) {
+  return composeGrowthFrameSequenceFiles({
+    batchReceiptPath: fixture.batchReceiptPath,
+    sourceFrameIndexPath: fixture.indexPath,
+    segmentationSidecarPath: fixture.segmentationSidecarPath,
+    scenePlateDirectory: fixture.sceneDirectory,
+    outputDirectory: fixture.outputDirectory,
+    dropboxRoot: fixture.dropboxRoot
+  });
+}
+
 test("writes a verified single-frame PNG and binds every persisted input receipt", async () => {
   await withFixture({}, async fixture => {
     const originalSource = await readFile(fixture.sourcePath);
@@ -422,5 +627,85 @@ test("rejects a scene plate whose frame timestamp differs from the indexed sourc
     receipt.frames[0].timeSeconds = 0.5;
     await writeJson(receiptPath, receipt);
     await assert.rejects(compose(fixture), { code: "compositor-frame-time-mismatch" });
+  });
+});
+
+
+test("composes every indexed frame and publishes one sequence receipt last", async () => {
+  await withSequenceFixture({}, async fixture => {
+    const sourceBefore = await readFile(fixture.sourcePath);
+    const result = await composeSequence(fixture);
+    assert.equal(result.status, "complete");
+    assert.equal(result.compositionStatus, "complete-sequence");
+    assert.equal(result.frameCount, 2);
+    assert.equal(result.allFramesAccountedFor, true);
+    assert.equal(result.readyForAssembly, true);
+    assert.equal(result.readyForExport, false);
+    assert.equal(result.sourceFrameDerivationVerified, true);
+    assert.equal(result.sourceFramePixelsRevalidated, true);
+    assert.equal(result.cameraRegistrationIndependentlyVerified, false);
+    assert.equal(result.pixelSemanticsVerified, false);
+    assert.equal(result.frames.length, 2);
+    assert.deepEqual(result.frames.map(frame => frame.frame), [10, 11]);
+    for (const frame of result.frames) {
+      const bytes = await readFile(path.join(result.outputDirectory, frame.file));
+      assert.equal(digest(bytes), frame.sha256);
+      assert.equal(frame.readyForAssembly, true);
+      const receipt = JSON.parse((await readFile(
+        path.join(result.outputDirectory, frame.receiptFile)
+      )).toString("utf8"));
+      assert.equal(receipt.frame, frame.frame);
+      assert.equal(receipt.output.sha256, frame.sha256);
+    }
+    const sequenceBytes = await readFile(result.receiptPath);
+    const sequenceReceipt = JSON.parse(sequenceBytes.toString("utf8"));
+    assert.equal(sequenceReceipt.schema, "geehub.composited-growth-frame-sequence-receipt.v1");
+    assert.equal(sequenceReceipt.frames.length, 2);
+    assert.equal(sequenceReceipt.counts.unresolvedPixels, 0);
+    assert.equal(digest(sequenceBytes), result.receiptSha256);
+    assert.deepEqual(await readFile(fixture.sourcePath), sourceBefore);
+  });
+});
+
+test("accounts for partial frames without marking the sequence assembly-ready", async () => {
+  await withSequenceFixture({ partial: true }, async fixture => {
+    const result = await composeSequence(fixture);
+    assert.equal(result.status, "complete");
+    assert.equal(result.compositionStatus, "partial-sequence");
+    assert.equal(result.allFramesAccountedFor, true);
+    assert.equal(result.readyForAssembly, false);
+    assert.equal(result.readyForExport, false);
+    assert.equal(result.frames[0].compositionStatus, "partial-frame");
+    assert.equal(result.frames[0].readyForAssembly, false);
+    assert.equal(result.frames[1].readyForAssembly, true);
+    assert.equal(result.counts.unresolvedPixels, 1);
+  });
+});
+
+test("rolls back earlier composed frames when a later body layer fails verification", async () => {
+  await withSequenceFixture({}, async fixture => {
+    const secondLayer = path.join(path.dirname(fixture.bodyLayerPath), "frame-11.body.png");
+    const bytes = await readFile(secondLayer);
+    bytes[bytes.length - 1] ^= 1;
+    await writeFile(secondLayer, bytes);
+    await assert.rejects(composeSequence(fixture), {
+      code: "frame-composite-body-layer-batch-mismatch"
+    });
+    await assert.rejects(readFile(fixture.outputDirectory), { code: "ENOENT" });
+  });
+});
+
+test("verifies every registered mask before creating the sequence output directory", async () => {
+  await withSequenceFixture({}, async fixture => {
+    const secondMask = path.join(
+      fixture.dropboxRoot, "GEEHUB", "FrameEvidence", "body", "frame-000000011.png"
+    );
+    const bytes = await readFile(secondMask);
+    bytes[bytes.length - 1] ^= 1;
+    await writeFile(secondMask, bytes);
+    await assert.rejects(composeSequence(fixture), {
+      code: "sequence-composite-mask-digest-mismatch"
+    });
+    await assert.rejects(readFile(fixture.outputDirectory), { code: "ENOENT" });
   });
 });

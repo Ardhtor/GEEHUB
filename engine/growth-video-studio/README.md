@@ -553,3 +553,26 @@ The partial-frame fixture was corrected to use transparent black under zero
 alpha; the production guard was retained. The workflow also ran
 `node --check tools/compose-growth-frame.js` and
 `npm run compose:frame -- --help` successfully.
+
+
+## File-backed sequence compositing
+
+`core/sequence-file-compositor.js` adds `composeGrowthFrameSequenceFiles()` and the `npm run compose:sequence` command. It consumes the complete body-layer batch receipt, exact source-frame index, registered segmentation sidecar, persisted scene-plate directory, and configured Dropbox root.
+
+The worker binds the segmentation sidecar to the frame-set id and checksum recorded in the batch receipt. It checks contiguous frame numbers and timestamps across the source index, batch, and sidecar; verifies every body/face mask byte digest before creating output; resolves each mask URI beneath the Dropbox root without following symlinks; and delegates each frame to `composeGrowthFrameFiles()` so the single-frame pixel rules remain centralized.
+
+A successful run writes one complete-frame candidate PNG and its per-frame receipt for every indexed frame, then publishes `sequence.receipt.json` last. The receipt distinguishes a fully processed `complete-sequence` from a fully processed but unresolved `partial-sequence`; `allFramesAccountedFor` can be true while `readyForAssembly` is false. `readyForExport` remains false. If any later frame fails, the worker removes only earlier output files whose bytes still match this attempt and removes the new directory only when it remains the same empty directory.
+
+Run it with:
+
+~~~bash
+GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \
+  npm run compose:sequence -- \
+  ./batch/sequence.receipt.json \
+  ./source-frames/source-frame-index.json \
+  ./registered/segmentation-sidecar.json \
+  ./scene-plate \
+  ./composited-sequence
+~~~
+
+The output parent must already exist and the output directory must be new. The supplied segmentation sidecar must be the exact registered revision named by the batch receipt. Partial frames are preserved as explicit artifacts but prevent sequence assembly. This produces a PNG sequence, not a video or a Resolve timeline. Camera registration remains externally asserted, mask anatomy remains unverified, and no clothing/depth response or export-ready flag is inferred.

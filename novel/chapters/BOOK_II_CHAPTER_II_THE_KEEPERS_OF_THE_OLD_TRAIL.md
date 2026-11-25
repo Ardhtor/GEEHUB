@@ -124,8 +124,6 @@ Vale showed Marcus a narrow shelf where spare markers were kept. Each was cut fr
 
 “We keep the old face,” Vale said. “If the new one breaks, the old one may still tell you where it came from.”
 
-Marcus looked at the shelf again. The Measure House was not simply preserving maps. It was preserving the means by which a map could be corrected without losing its origin.
-
 
 
 
@@ -153,8 +151,6 @@ The surveyor looked embarrassed. “We nearly chose the lower branch because it 
 Oren did not make the correction sound like a rebuke. He explained that the first version of the register had been built after two companies returned with different accounts of the same chamber. Each had given the passage a different name and described a different way through it. The names were not necessarily wrong. They had been looking at different states. The problem was that neither company had recorded the time of its observation or the route by which it had arrived.
 
 The keepers began to add a second field to the register: not simply what a place was called, but from which known point it had been reached. Later they added the date, the condition of the passage, and whether another traveller had checked the result. The system had grown through mistakes that could have been avoided if the earlier record had been clearer. They kept those mistakes visible because the correction mattered more when the next person could see why it had been made.
-
-The surveyor copied the additional fields into his notebook. He understood that the Measure House's language was not a secret code. It was a shared practice built to prevent one man's memory from becoming the only map available to another.
 
 
 
@@ -211,8 +207,6 @@ Vale placed his staff across the table to hold the joined sheets flat. He pointe
 “That the old route could no longer be used in the same way.”
 
 Oren tapped the blank beyond the line. “We don't know what is there now. We know what was there when the last party withdrew. We know what Kirk told us afterward. We do not know what the next movement will do.”
-
-The leader recognised the same discipline they had begun to practise at the First Shelter. The map did not promise a route. It showed the limit of the last reliable account.
 
 
 

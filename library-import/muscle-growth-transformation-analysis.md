@@ -118,3 +118,7 @@ This document covers 18 selected images inspected visually. The full 270-image m
 The first Luke-specific procedural profile now lives at `engine/video/profiles/luke-library-transformation-profile.json`, paired with `luke-library-transformation-timeline.json`. It samples an eight-second, 30 fps passage (240 frames) across 16 regional controls: pectorals, deltoids, traps, biceps, triceps, forearms, arms, lats, back, torso, abdominals, glutes, quadriceps, hamstrings, calves and whole body. Its curves are normalized procedural authoring values, not measured body dimensions.
 
 The renderer's Blender shape-key fields have been expanded to include those 16 regions. A GitHub Actions validation workflow now compiles the renderer modules, checks the profile/timeline contract, and runs renderer-independent curve tests. These checks can validate code and timing data; they do not establish that Blender renders the desired Luke likeness or that the current blockout is anatomically finished.
+
+## Production project connection
+
+The Library reference archive now feeds the executable project at `production/projects/luke-library-transformation/`. Its fixed-camera timeline, provenance and asset registers, 16-region profile, and render entry point are indexed in the project atlas. Use the project README for local render and validation commands. The project remains a procedural blockout until a source-fitted Luke mesh and rendered continuity review are completed.

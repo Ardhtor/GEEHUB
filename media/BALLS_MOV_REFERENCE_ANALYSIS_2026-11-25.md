@@ -114,6 +114,28 @@ Use staged shape targets rather than a single guessed linear curve: baseline; fi
 
 This grammar is reusable across Joey/Swolebeast and other adult GEEHUB characters. Character-specific facial identity, baseline proportions, wardrobe, and history must not be copied from one character to another.
 
+## Iterative production loop
+
+This is an iterative build, not a one-shot generation. Each pass must use the previous pass as its working state and correct it toward the BALLS.mov target. Do not discard a promising result and restart from an unrelated interpretation unless the current branch is demonstrably unusable. Preserve each accepted state and its source settings so later passes can improve it without losing continuity.
+
+Use this loop for both stills and sequences:
+
+1. **Establish a comparable checkpoint.** Fix the character identity, selected growth stage, pose, camera view, wardrobe, and lighting. For body comparison, use the same camera and pose across passes so perspective or articulation cannot disguise a proportion error.
+2. **Generate the current pass.** Build the broad silhouette and scene first. For a sequence, include the complete progression and a readable final hold rather than polishing only an isolated frame.
+3. **Compare against the reference.** Review the output beside the relevant BALLS.mov time range and reference stills. Assess silhouette and mass first, then regional anatomy, pose, face/identity, wardrobe, catalyst props, camera, materials, lighting, and timing. Record concrete mismatches rather than the vague judgement that it needs to be bigger or better.
+4. **Choose the next correction.** Select the highest-impact mismatch and identify the responsible control: regional growth target, corrective shape, articulation, camera, prop, material, light, or edit timing. Change that control deliberately. Keep unrelated controls fixed when testing a body or pose correction.
+5. **Render and compare again.** Repeat the same checkpoint comparison. Keep the new pass only when it improves the target without breaking identity, anatomy, continuity, or another already accepted property. Otherwise revert that change and try a different correction.
+6. **Lock accepted dimensions.** Once a dimension is working, preserve it while iterating on the next one. Do not repeatedly redesign the face, wardrobe, environment, or camera when the remaining problem is muscle volume or progression timing.
+7. **Validate the whole result.** After local passes, review the complete sequence from establishing shot through final hold. Check that the growth is visibly progressive, each stage is distinct, all cuts reconcile to the same character and body state, and the final scale matches the intended level of exaggeration.
+
+Iteration priorities: first establish identity and overall silhouette; then match the scale and regional distribution of muscular growth; then correct anatomical transitions and poses; then align the studio, platform, catalyst interactions, and shot coverage; finally refine surface, lighting, motion, and editorial timing. This order is a practical priority, not a reason to leave later dimensions unfinished.
+
+For a still-generation workflow, iterate on the selected stage until it reaches the reference's intended level of development; then carry the accepted character and visual settings into the next stage. For video, maintain a sequence-level state across all stages, not a collection of unrelated generated frames. Compare adjacent stages for continuity and compare matching poses across stages for actual growth.
+
+Keep a compact pass record for each iteration: pass ID, parent pass, reference timecode, fixed variables, changed variables, observed mismatch, result, decision (keep/revise/revert), and next correction. Preserve failed passes when they contain useful information; do not promote them to canon. Distinguish generated proposals from accepted canon.
+
+**Implementation status:** this iterative method is now the required production procedure. At this checkpoint, the repository contains the written method and reference analysis, but it does not yet contain an operational automated feedback loop, a Blender scene, or a rendered emulation. Iteration can be performed through successive generation, comparison, and correction passes; automation must not be claimed until the tools and loop are actually implemented and tested.
+
 ## First emulation target
 
 The first prototype should reproduce the source's scene logic before attempting a complete high-detail body:

@@ -1,0 +1,207 @@
+{
+  "schema": "geehub.video-timeline/1",
+  "project_id": "luke-library-transformation",
+  "timebase": {
+    "fps": 30,
+    "frame_count": 240,
+    "timecode_format": "seconds"
+  },
+  "duration_seconds": 8,
+  "growth_model": "continuous_rig",
+  "stages": [
+    {
+      "id": "baseline",
+      "start_seconds": 0,
+      "end_seconds": 0.8,
+      "label": "Luke / source baseline",
+      "function": "establish",
+      "required_visible": [
+        "Smaller Luke source proportions",
+        "Recognizable face, hair and beard",
+        "Grey tank and dark short shorts",
+        "Fixed frontal full-body camera"
+      ],
+      "growth": {
+        "active": false,
+        "rate": "held",
+        "regions": []
+      },
+      "notes": "Hold the smaller Luke inset state before visible growth begins."
+    },
+    {
+      "id": "upper-body-onset",
+      "start_seconds": 0.8,
+      "end_seconds": 2.2,
+      "label": "Shoulders and chest begin",
+      "function": "sustain",
+      "required_visible": [
+        "Deltoids round outward",
+        "Pectorals deepen and widen",
+        "Traps begin to rise",
+        "Tank straps and armholes respond"
+      ],
+      "growth": {
+        "active": true,
+        "rate": "gradual onset",
+        "regions": [
+          "deltoids",
+          "pectorals",
+          "traps"
+        ]
+      }
+    },
+    {
+      "id": "arms-and-back",
+      "start_seconds": 2.2,
+      "end_seconds": 4.2,
+      "label": "Arms and back join",
+      "function": "sustain",
+      "required_visible": [
+        "Biceps and triceps expand as separate regions",
+        "Forearms thicken",
+        "Lats and back widen",
+        "Head and face remain identity anchors"
+      ],
+      "growth": {
+        "active": true,
+        "rate": "steady continuous",
+        "regions": [
+          "biceps",
+          "triceps",
+          "forearms",
+          "arms",
+          "lats",
+          "back"
+        ]
+      }
+    },
+    {
+      "id": "torso-and-legs",
+      "start_seconds": 4.2,
+      "end_seconds": 6.2,
+      "label": "Torso and lower body catch up",
+      "function": "escalate",
+      "required_visible": [
+        "Abdominals and torso thicken coherently",
+        "Glutes, quadriceps and hamstrings expand",
+        "Calves develop after thighs",
+        "Shorts respond to hip and thigh volume"
+      ],
+      "growth": {
+        "active": true,
+        "rate": "coordinated whole-body catch-up",
+        "regions": [
+          "torso",
+          "abdominals",
+          "glutes",
+          "quadriceps",
+          "hamstrings",
+          "calves"
+        ]
+      }
+    },
+    {
+      "id": "integration",
+      "start_seconds": 6.2,
+      "end_seconds": 7.2,
+      "label": "Whole-body integration",
+      "function": "escalate",
+      "required_visible": [
+        "All major regions resolve into one coherent silhouette",
+        "Hands, feet, joints and stance remain connected",
+        "No camera movement or identity drift"
+      ],
+      "growth": {
+        "active": true,
+        "rate": "final integration",
+        "regions": [
+          "whole_body",
+          "pectorals",
+          "deltoids",
+          "arms",
+          "quadriceps",
+          "calves"
+        ]
+      }
+    },
+    {
+      "id": "final-hold",
+      "start_seconds": 7.2,
+      "end_seconds": 8,
+      "label": "Luke / transformed state hold",
+      "function": "hold",
+      "required_visible": [
+        "Large same-Luke endpoint silhouette",
+        "Stable frontal full-body framing",
+        "Grey tank and dark shorts remain legible",
+        "Final form holds through last frame"
+      ],
+      "growth": {
+        "active": false,
+        "rate": "hold",
+        "regions": []
+      }
+    }
+  ],
+  "camera": {
+    "mode": "fixed",
+    "location": [
+      0,
+      -10,
+      1.65
+    ],
+    "target": [
+      0,
+      0,
+      1.45
+    ],
+    "lens_mm": 50
+  },
+  "identity_locks": {
+    "face": "Luke face and head proportions remain unchanged",
+    "hair": "Preserve curly light-brown hair",
+    "beard": "Preserve beard shape and color",
+    "expression": "Keep relaxed confident expression",
+    "wardrobe": "Grey fitted tank and dark short shorts remain garments and respond to growth",
+    "camera": "Locked frontal full-body view"
+  },
+  "continuity_policy": {
+    "continuous_event": true,
+    "cuts_allowed": false,
+    "hold_final_state": true,
+    "notes": "Single fixed-camera shot; regional deformation is the visible event. Do not use a crossfade as a substitute for geometry change."
+  },
+  "file_data": {
+    "source": {
+      "provider": "ChatGPT Library",
+      "provider_file_id": "file_00000000915081f5b7e06f22fa8a8556",
+      "filename": "Neon Love Potion Muscle Transformation.png",
+      "verification_status": "media-inspected"
+    },
+    "growth_passes": [],
+    "frames": [],
+    "audio": [],
+    "exports": []
+  },
+  "evidence": {
+    "source_inspected": true,
+    "claims": [
+      {
+        "claim": "The composition shows a smaller Luke inset and a much larger same-Luke result.",
+        "status": "observed",
+        "source_ref": "file_00000000915081f5b7e06f22fa8a8556"
+      },
+      {
+        "claim": "The subject identity is intended to remain Luke across the two endpoints.",
+        "status": "creator-stated",
+        "source_ref": "file_00000000915081f5b7e06f22fa8a8556"
+      },
+      {
+        "claim": "The intervening eight-second timing is suitable for the desired transformation.",
+        "status": "inferred",
+        "source_ref": "engine/video/profiles/luke-library-transformation-profile.json",
+        "notes": "Authored timing proposal; not extracted from source footage."
+      }
+    ]
+  }
+}

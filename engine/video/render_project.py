@@ -35,6 +35,41 @@ def find_blender(override: str | None) -> str | None:
     return None
 
 
+def validate_camera_sequence(camera: dict, duration: float) -> list[str]:
+    """Validate authored camera cuts before Blender starts."""
+    if camera.get("mode") != "sequence":
+        return []
+    shots = camera.get("shots")
+    if not isinstance(shots, list) or len(shots) < 2:
+        return ["camera sequence requires at least two shots"]
+    errors = []
+    previous = -1.0
+    for index, shot in enumerate(shots):
+        if not isinstance(shot, dict):
+            errors.append(f"camera shot {index} must be an object")
+            continue
+        try:
+            at = float(shot["at_seconds"])
+            location = shot["location"]
+            target = shot["target"]
+            lens = float(shot.get("lens_mm", 50))
+            if not isinstance(location, list) or len(location) != 3:
+                raise ValueError("location must contain three coordinates")
+            if not isinstance(target, list) or len(target) != 3:
+                raise ValueError("target must contain three coordinates")
+            [float(value) for value in location + target]
+            if lens <= 0:
+                raise ValueError("lens_mm must be positive")
+            if at <= previous or at < 0 or at >= duration:
+                raise ValueError("shot times must increase and remain within the timeline")
+            if index == 0 and abs(at) > 0.001:
+                raise ValueError("first camera shot must begin at 0 seconds")
+            previous = at
+        except (KeyError, TypeError, ValueError) as exc:
+            errors.append(f"camera shot {index}: {exc}")
+    return errors
+
+
 def validate(project: Path) -> tuple[dict, dict]:
     manifest_path = project / "production.json"
     timeline_path = project / "07_MANIFESTS" / "timeline.json"
@@ -45,6 +80,9 @@ def validate(project: Path) -> tuple[dict, dict]:
     fmt = manifest["format"]
     fps = int(timeline["timebase"]["fps"])
     duration = float(timeline["duration_seconds"])
+    camera_errors = validate_camera_sequence(timeline.get("camera", {}), duration)
+    if camera_errors:
+        raise ValueError("Invalid camera sequence: " + "; ".join(camera_errors))
     expected_frames = int(round(duration * fps))
     if int(timeline["timebase"]["frame_count"]) != expected_frames:
         raise ValueError("Timeline frame_count does not equal duration_seconds × fps")

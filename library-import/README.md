@@ -20,3 +20,7 @@ This is the local navigation page for `library-import/`. The lists below link to
 
 - [`beefythiq-system.json`](./beefythiq-system.json)
 - [`executive-summary.json`](./executive-summary.json)
+
+## Muscle-growth transformation production
+
+The curated Luke reference set is connected to [the executable Luke transformation project](../production/projects/luke-library-transformation/README.md), which uses a fixed-camera 240-frame timeline and sixteen regional growth controls.

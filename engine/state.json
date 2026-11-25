@@ -1,5 +1,5 @@
 {
-  "pulse": 375,
+  "pulse": 376,
   "events": [
     {
       "pulse": 1,
@@ -7267,6 +7267,28 @@
       "occurred_at": "2026-11-25T01:26:15.514603+00:00",
       "inscription": "same-event",
       "inscription_source": "tractus-world-engine"
+    },
+    {
+      "id": "world-pulse-000376",
+      "pulse": 376,
+      "time": "2026-11-25T02:58:40.724113+00:00",
+      "actor": "KIRK",
+      "world": "FOUNDERS DORMITORY",
+      "region_id": "founders-dormitory",
+      "previous_region_id": "founders-dormitory",
+      "phase": "ROUTE_OPEN",
+      "source": "worlds/founders-dormitory/README.md",
+      "desire_state": "tension",
+      "action": "SETH: A line becomes visible between FOUNDERS DORMITORY and CAT GARDENS. The archive names the relation \"THE DORM GARDEN PATH\".\n\nNICK: A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day. The current place remains visible; the route is open, but nobody has crossed it yet.",
+      "narrative_rule": "arrival activates aftermath",
+      "relation": "THE DORM GARDEN PATH",
+      "next_region": "cat-gardens",
+      "pressure": 1.0,
+      "memory": 1.0,
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-25T02:58:40.724113+00:00",
+      "inscription": "same-event",
+      "inscription_source": "tractus-world-engine"
     }
   ],
   "visits": {
@@ -7334,21 +7356,26 @@
     "worlds/common-table/README.md": 34,
     "worlds/cedar-house/README.md": 22,
     "worlds/cat-gardens/README.md": 28,
-    "worlds/founders-dormitory/README.md": 21,
+    "worlds/founders-dormitory/README.md": 22,
     "worlds/northgate-university/README.md": 27,
     "worlds/bluewater-quay/README.md": 16,
     "worlds/lantern-market/README.md": 13,
     "worlds/northgate-library/README.md": 32,
     "worlds/athletic-commons/README.md": 13
   },
-  "next_region": null,
-  "phase": 2,
+  "next_region": "cat-gardens",
+  "phase": 3,
   "active_region": "founders-dormitory",
-  "current_phase": "MEMORY",
-  "current_desire_state": "recognition",
-  "current_question": "Which detail remains from the prior state?",
-  "current_narrative_rule": "comparison can become differentiation",
-  "next_relation": null,
+  "current_phase": "ROUTE_OPEN",
+  "current_desire_state": "tension",
+  "current_question": "Which existing relation now becomes traversable?",
+  "current_narrative_rule": "arrival activates aftermath",
+  "next_relation": {
+    "title": "THE DORM GARDEN PATH",
+    "text": "A quiet path from the residential courtyard joins the Cat Gardens, where the resident cats are considered a good sign for the day.",
+    "from": "founders-dormitory",
+    "to": "cat-gardens"
+  },
   "long_play": {
     "cycle": 238,
     "agent": "andrew",

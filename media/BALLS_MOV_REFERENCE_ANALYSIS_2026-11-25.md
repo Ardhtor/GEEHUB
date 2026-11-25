@@ -37,6 +37,10 @@ The frame-difference scan surfaced candidate visual discontinuities near 6.106s,
 
 High-confidence observations include the duration, media properties, teal studio, wooden slatted platform, glowing spheres, initial striped tank top and dark patterned short trunks, front-facing flex poses, repeated anatomical close-ups, and the exceptionally enlarged final body. Exact 3D measurements, hidden-side anatomy, rig structure, causal mechanics, and the source creator's toolchain are not established.
 
+## Internal reference frames
+
+Four compact, source-derived preview stills are stored in [BALLS.mov — Internal Reference Frames](./BALLS_MOV_REFERENCE_FRAMES_2026-11-25.md). They cover the establishing scene (00:03), initial flex (00:18), first enlarged bodybuilder state (00:50), and final upper-body flex crop (03:10). Use them for scene, pose, prop, camera, and silhouette continuity only; return to the original video for any frame-level measurement.
+
 ## Observed sequence
 
 | Timecode | Visible event and production function |

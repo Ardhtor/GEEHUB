@@ -12,6 +12,17 @@
       },
       "verification_status": "media-inspected",
       "notes": "One static composition contains both the smaller before inset and larger after result. This is endpoint evidence, not a source video or motion-capture sequence."
+    },
+    {
+      "id": "luke-pose-detail-reference",
+      "role": "reference",
+      "origin": {
+        "provider": "ChatGPT Library",
+        "file_id": "file_00000000f89481f583d665c82eea2080",
+        "filename": "Superbodybuilder Gym Transformation Montage.png"
+      },
+      "verification_status": "media-inspected",
+      "notes": "Front, rear and side gym montage. Visual-continuity candidate based on curly hair, beard, grey tank and gym setting; identity is not explicitly stated in the image."
     }
   ],
   "preservation_policy": "Keep the original Library reference immutable. Generated interpolation frames, Blender scenes and rendered videos are separate derivatives with their own provenance and checksums."

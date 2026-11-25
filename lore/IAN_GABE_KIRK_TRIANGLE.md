@@ -88,3 +88,141 @@ The similarity creates both comfort and difficulty. Ian may recognise Gabe's ret
 Their patterns remain distinct. Ian's particular habits and reasons are still open for development. Gabe's avoidance must coexist with his established ability to initiate attraction, enjoy being seen, set boundaries, and choose the pace of a connection. The story should let both men act directly at meaningful moments; avoidant does not mean permanently passive.
 
 Kirk encounters this pattern from a different position. He may be more direct, or he may have his own hesitation; do not settle that trait without writing it. His response can expose the limits of the pair's shared retreat: he may ask a plain question, leave space for an answer, or refuse to keep guessing indefinitely. The triangle's movement should come from specific choices and consequences rather than a formula in which one man pursues and the other two withdraw.
+
+
+## The walk after the table
+
+Gabe left before the room had emptied. He had checked the time twice during the meal, though he had not said what he needed to do afterward. When he finally stood, he gathered his coat and thanked them both for the evening.
+
+“I'll see you,” Kirk said.
+
+“Of course.”
+
+Ian looked up. “Goodnight, Gabe.”
+
+Gabe paused as if he might add something, then only smiled. “Goodnight.”
+
+The door closed behind him. His chair remained slightly turned toward the table, and the conversation he had left behind seemed to occupy it for another moment.
+
+Kirk reached for the empty plates. Ian began collecting the cups.
+
+“You don't have to do that,” Kirk said.
+
+“I know.”
+
+“Then why are you?”
+
+Ian looked at the cups in his hands. “Because they're here.”
+
+Kirk laughed. “That's a very complete answer.”
+
+They carried everything to the side counter. Kirk rinsed the plates while Ian dried them, working without needing to decide who would do which task. The water ran hot, and a little steam gathered against the window. Beyond it, the path was dark. A lamp near the entrance had begun to attract small insects, each one appearing briefly in the light before disappearing again.
+
+When the last cup was put away, Kirk took his coat from the back of the chair. Ian was still standing by the counter.
+
+“Are you going?” Kirk asked.
+
+“I was.”
+
+“That isn't quite the same thing.”
+
+Ian looked at him. Kirk did not soften the question with a joke. He had noticed that Ian often gave an answer about what he had intended to do, when the question concerned what he wanted now. Kirk was not angry about it. He was beginning to find it difficult to pretend he had not noticed.
+
+“I could walk with you,” Ian said.
+
+“You could.”
+
+“If you want.”
+
+“I asked.”
+
+Ian lowered his eyes for a moment, then nodded. “All right.”
+
+They stepped outside together. The air was cool enough that Kirk pulled his coat closed. Ian walked beside him with his hands in his pockets. They followed the path past the darkened windows and the low wall around the garden. Somewhere beyond the residences, a door shut and a burst of laughter rose, then faded. The evening had not become private merely because the two of them were alone. Other people were still moving through it, going home, collecting food, returning books, and making plans for the next day.
+
+Kirk slowed near the garden gate. “You and Gabe have been spending time together.”
+
+“Yes.”
+
+“I like seeing you together.”
+
+Ian glanced at him. “Do you?”
+
+“I do. I also like spending time with you.”
+
+Ian's pace changed, almost imperceptibly. He looked toward the path ahead.
+
+Kirk continued. “Those aren't the same statement. I don't want you to think I'm only interested because Gabe is interested.”
+
+“I didn't think that.”
+
+“Good.”
+
+They walked a little farther. Kirk could hear the gravel shift beneath their shoes. He had expected Ian to make a joke or turn the conversation toward something easier. Instead Ian stayed beside him, quiet but present.
+
+“Sometimes I can't tell whether you're comfortable with me,” Kirk said.
+
+Ian stopped. Kirk stopped too, leaving enough room between them that neither had to step back.
+
+“I am,” Ian said.
+
+“You look comfortable until I ask you something.”
+
+“I know.”
+
+“Then you disappear while you're still standing there.”
+
+Ian gave a short, embarrassed laugh. “That's fair.”
+
+Kirk leaned one shoulder against the low wall. “I'm not asking you to explain your whole life. I just don't want to keep guessing whether you want me here.”
+
+Ian looked at him properly then. His expression was thoughtful, and for once he did not reach for an answer that would close the subject without deciding anything.
+
+“I want you here,” he said.
+
+Kirk held his gaze. “All right.”
+
+“I don't always know what to do after I say something like that.”
+
+“You don't have to do anything immediately.”
+
+“That helps.”
+
+“But it doesn't mean I can guess forever.”
+
+“I know.”
+
+The answer came quietly. Ian seemed to hear its weight after he had spoken it. He took one hand from his pocket and rubbed his thumb across the side of his finger, then let the hand fall again.
+
+Kirk did not move closer. He waited.
+
+“I'd like to see you again,” Ian said. “Just us. Not because Gabe is there. Not to make anything difficult for him. I want to know what it's like when we're not all having the same conversation.”
+
+Kirk smiled, but did not turn the invitation into a victory. “I'd like that.”
+
+“Would you?”
+
+“Yes, Ian.”
+
+Ian's shoulders eased. The change was small, but Kirk saw it. He had not asked for a promise about the three of them, or a declaration about what the evening meant. He had asked for another walk, and Ian had answered.
+
+They reached the end of the path where it divided toward the residences. Kirk stopped beneath the lamp.
+
+“Tomorrow?” he asked.
+
+Ian hesitated. The old retreat appeared in the pause, the instinct to leave the next decision for a later moment. Then he looked back at Kirk.
+
+“Tomorrow. After supper?”
+
+“After supper.”
+
+“I'll come find you.”
+
+Kirk nodded. “I'll be here.”
+
+They did not kiss. Neither man tried to turn the agreement into more than it was. Kirk touched Ian's arm once, briefly, and Ian returned the gesture with his hand against Kirk's shoulder. It was a small contact, freely given and received, and it lasted long enough for both men to notice it.
+
+At the path's division they went in separate directions. Ian looked back once. Kirk was still beneath the lamp, not waiting as though Ian owed him another word, but watching him go. Ian raised his hand. Kirk raised his in return.
+
+The next evening had acquired a shape. Gabe had not arranged it, and neither man had asked him to. That did not make Gabe less important. It meant only that Kirk and Ian had begun to discover what belonged to them.
+

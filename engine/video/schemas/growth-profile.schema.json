@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geehub.local/schemas/growth-profile.schema.json",
+  "title": "GEEHUB Regional Growth Profile",
+  "type": "object",
+  "required": [
+    "schema",
+    "id",
+    "project_id",
+    "subject_id",
+    "timebase",
+    "duration_seconds",
+    "regions",
+    "source_evidence",
+    "value_semantics"
+  ],
+  "properties": {
+    "schema": {
+      "const": "geehub.growth-profile/1"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "procedural_first_pass",
+        "reviewed",
+        "accepted",
+        "superseded"
+      ]
+    },
+    "timebase": {
+      "type": "object",
+      "required": [
+        "fps",
+        "frame_count"
+      ],
+      "properties": {
+        "fps": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "frame_count": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "duration_seconds": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "value_semantics": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "file_id",
+          "name",
+          "note"
+        ],
+        "properties": {
+          "role": {
+            "type": "string"
+          },
+          "file_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "regions": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "knots"
+        ],
+        "properties": {
+          "knots": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              ],
+              "items": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "stage_markers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "start_seconds",
+          "end_seconds"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "start_seconds": {
+            "type": "number",
+            "minimum": 0
+          },
+          "end_seconds": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "identity_lock": {
+      "type": "object"
+    },
+    "cloth_response": {
+      "type": "object"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_action": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

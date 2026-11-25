@@ -2,173 +2,97 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#101820"><title>◉</title>
+<meta name="theme-color" content="#091216"><title>GEEHUB — Living Workspace</title>
 <style>
-:root{color-scheme:dark;--bg:#101820;--panel:#17232c;--panel2:#1d2b35;--line:#2b3c47;--text:#e8efef;--muted:#9aadb2;--teal:#80b9b5;--accent:#b9d9d5}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}button,input,textarea{font:inherit}button,a{color:inherit}button{cursor:pointer}.shell{min-height:100vh;display:grid;grid-template-columns:224px minmax(0,1fr)}aside{background:#131e26;border-right:1px solid var(--line);padding:22px 14px;display:flex;flex-direction:column;gap:22px}.brand{display:flex;gap:11px;align-items:center;padding:0 9px}.mark{width:38px;height:38px;border-radius:11px;background:#254c54;display:grid;place-items:center;color:var(--accent);font-size:22px}.brand strong{display:block;letter-spacing:.12em}.brand small,.muted{color:var(--muted)}.nav-label{font-size:10px;color:#71858b;letter-spacing:.14em;font-weight:700;padding:0 10px;margin-bottom:5px}.nav{display:grid;gap:4px}.nav button{border:0;background:transparent;text-align:left;padding:10px;border-radius:8px;color:#b5c5c8}.nav button:hover,.nav button.active{background:#22333d;color:#f2f7f6}.nav button span{display:inline-block;width:25px;color:var(--teal)}.side-foot{margin-top:auto;border-top:1px solid var(--line);padding:14px 9px;color:var(--muted);font-size:12px}main{min-width:0}.topbar{height:68px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 30px;gap:18px}.search{max-width:520px;flex:1;position:relative}.search input{width:100%;background:#17232c;border:1px solid var(--line);border-radius:9px;padding:10px 13px;color:var(--text)}.top-actions{display:flex;align-items:center;gap:13px;color:var(--muted)}.avatar{width:32px;height:32px;border-radius:50%;background:#34515a;display:grid;place-items:center;color:#e4f1ef}.content{max-width:1440px;margin:auto;padding:30px;display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:22px}.primary{min-width:0}.welcome{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:22px}.welcome h1{font-size:27px;letter-spacing:-.04em;margin:0 0 4px}.eyebrow{font-size:10px;letter-spacing:.15em;color:#7f999e;font-weight:700}.section-head{display:flex;justify-content:space-between;align-items:center;margin:22px 0 11px}.section-head h2{font-size:15px;margin:0}.section-head button,.quiet{background:transparent;border:0;color:var(--teal);font-size:12px}.resume{background:linear-gradient(115deg,#203c45,#1a2a34 72%);border:1px solid #35535b;border-radius:13px;padding:19px;display:flex;justify-content:space-between;align-items:center;gap:16px}.resume h2{font-size:19px;margin:5px 0}.resume p{color:#b1c5c7;margin:0;max-width:620px}.primary-btn{background:#b6d5d1;color:#102027;border:0;border-radius:8px;padding:10px 14px;font-weight:650;white-space:nowrap}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.project{background:var(--panel);border:1px solid var(--line);border-radius:11px;overflow:hidden;cursor:pointer;transition:border-color .15s,transform .15s}.project:hover{border-color:#63858a;transform:translateY(-1px)}.project-art{height:105px;background:linear-gradient(135deg,#283f47,#17242c);position:relative;overflow:hidden}.project-art.forest{background:radial-gradient(ellipse at 70% 20%,#866d43,#29372f 44%,#111a1d)}.project-art.gym{background:radial-gradient(ellipse at 50% 20%,#3f7580,#1d3640 55%,#111b22)}.project-art.campus{background:linear-gradient(125deg,#384d52,#1d3039 55%,#17232b)}.project-art.archive{background:linear-gradient(135deg,#544d40,#263b40 65%,#17232b)}.project-art:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,15,19,.55),transparent 65%)}.project-body{padding:12px 13px}.project-title{display:flex;justify-content:space-between;gap:8px;align-items:center}.project-title strong{font-size:14px}.project-body p{font-size:12px;color:var(--muted);margin:5px 0 0;min-height:36px}.status{font-size:10px;color:#a7d3c7;background:#213c38;padding:3px 7px;border-radius:20px}.tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.tool{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:13px;text-align:left}.tool:hover{border-color:#63858a}.tool b{display:block;margin:6px 0 2px}.tool small{color:var(--muted)}.panel{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:15px;margin-bottom:13px}.panel h3{font-size:13px;margin:0 0 11px}.activity{display:grid;gap:12px}.activity-item{display:flex;gap:10px;font-size:12px;color:var(--muted)}.dot{width:7px;height:7px;border-radius:50%;background:#83b8b1;margin-top:6px;flex:none}.quick textarea{width:100%;resize:vertical;min-height:75px;background:#111b22;border:1px solid var(--line);border-radius:8px;padding:10px;color:var(--text)}.quick button{margin-top:9px;width:100%}.view{display:none}.view.active{display:block}.list{display:grid;gap:8px}.list-row{padding:13px;background:var(--panel);border:1px solid var(--line);border-radius:9px;display:flex;justify-content:space-between;gap:10px;align-items:center}.list-row small{display:block;color:var(--muted)}.empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px}.toast{position:fixed;bottom:22px;right:22px;background:#29464a;border:1px solid #52777a;border-radius:9px;padding:10px 14px;display:none}.mobile-menu{display:none}@media(max-width:950px){.content{grid-template-columns:1fr}.right{display:grid;grid-template-columns:1fr 1fr;gap:12px}.right .panel{margin:0}}@media(max-width:700px){.shell{grid-template-columns:1fr}aside{display:none}.topbar{padding:0 15px;height:60px}.content{padding:19px 15px}.welcome{align-items:flex-start}.resume{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}.tools{grid-template-columns:1fr 1fr}.right{display:block}.right .panel{margin-bottom:12px}.top-actions .hide-mobile{display:none}}
-
-/* QUIET SPACE — visual-first interface */
-:root{--bg:#080d11;--panel:#101a20;--panel2:#17252c;--line:#263940;--teal:#9bcac0}
-body{background:radial-gradient(ellipse at 58% -18%,#1d3b40 0,transparent 48%),#080d11}
-.shell{grid-template-columns:76px minmax(0,1fr)}
-aside{padding:20px 9px;align-items:center;gap:26px;background:rgba(10,18,22,.94)}
-.brand{padding:0;justify-content:center}.brand .mark{width:46px;height:46px;border-radius:15px;font-size:25px}
-.brand>div:last-child,.nav-label,.side-foot,.top-actions .hide-mobile{display:none}
-.nav{gap:9px}.nav button{width:54px;height:54px;padding:0;text-align:center;border:1px solid transparent;border-radius:15px;font-size:0;display:grid;place-items:center}
-.nav button span{width:auto;font-size:23px;color:#a4c9c2}
-.nav button:hover,.nav button.active{background:#1b3035;border-color:#35575a;color:#fff}
-.topbar{height:58px;padding:0 24px;background:rgba(8,13,17,.62);backdrop-filter:blur(14px)}
-.search{max-width:260px}.search input{border:0;background:rgba(255,255,255,.035);border-radius:999px;padding:8px 13px;font-size:12px}
-.top-actions{gap:0}.avatar{width:30px;height:30px;font-size:0;background:radial-gradient(circle at 40% 35%,#c5e0d7,#477c7a 62%,#1a3438)}
-.content{max-width:1600px;padding:28px clamp(18px,3vw,48px);grid-template-columns:minmax(0,1fr) 0;gap:0}
-.primary{min-width:0}.right{display:none}
-.welcome{margin-bottom:18px}.welcome .eyebrow,.welcome .muted{display:none}
-.welcome h1{font-size:23px;font-weight:500;letter-spacing:.01em;margin:0;color:#e2efeb}
-.resume{min-height:112px;padding:20px 22px;border-radius:17px;background:linear-gradient(110deg,rgba(41,86,83,.72),rgba(17,31,36,.92) 72%),radial-gradient(circle at 88% 35%,#527b6e,transparent 36%);border-color:#355b59}
-.resume .eyebrow,.resume p{display:none}.resume h2{font-size:19px;font-weight:500;margin:0}
-.primary-btn{font-size:12px;border-radius:999px;padding:9px 15px}
-.section-head{margin:26px 2px 12px}.section-head h2{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#9ebbb5;font-weight:600}
-.section-head button{font-size:0}.section-head button:after{content:"↗";font-size:16px}
-.grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
-.project{border-radius:15px;background:#10191e;border-color:#263b40}
-.project-art{height:150px}
-.project-art.forest{background:radial-gradient(ellipse at 70% 12%,#b2a077,#4b614f 38%,#14201e 78%)}
-.project-art.gym{background:radial-gradient(ellipse at 50% 18%,#7eabb0,#345c62 42%,#111e24 80%)}
-.project-art.campus{background:linear-gradient(125deg,#9a9c7c,#435b58 52%,#15242a)}
-.project-art.archive{background:radial-gradient(ellipse at 40% 15%,#9b8060,#4b5149 44%,#172326 82%)}
-.project-body{padding:12px 13px}.project-title strong{font-size:13px;font-weight:550}.project-body p,.project-title .status{display:none}
-.tools{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
-.tool{min-height:92px;border-radius:13px;background:rgba(17,29,34,.82);padding:14px}
-.tool>span{font-size:20px;color:#a9d0c6}.tool b{font-size:12px;font-weight:550;margin:7px 0 0}.tool small{display:none}
-.panel{background:#101a20}
-.section-head button,.quiet{color:#9bcac0}
-.view .welcome h1{font-size:22px}.view .welcome .eyebrow,.view .welcome .muted{display:none}
-.list-row{min-height:58px;border-radius:12px}.list-row small{display:none}
-.empty{font-size:0;min-height:120px;display:grid;place-items:center}.empty:after{content:"◌";font-size:28px;color:#6e9991}
-@media(max-width:1050px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tools{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:700px){.shell{grid-template-columns:1fr}aside{display:flex;position:fixed;z-index:20;left:12px;right:12px;bottom:12px;height:64px;flex-direction:row;justify-content:center;padding:5px 8px;border:1px solid #2d484b;border-radius:20px;backdrop-filter:blur(18px);box-shadow:0 12px 38px #0009}.brand{display:none}.nav{display:flex;gap:6px}.nav button{width:44px;height:44px}.topbar{padding:0 15px}.content{padding:22px 15px 100px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.project-art{height:115px}.tools{grid-template-columns:repeat(2,minmax(0,1fr))}}
-
-/* LANGUAGE TRIM */
-.welcome .eyebrow,.welcome .muted,.resume .eyebrow,.resume p,.project-body p,.project-title .status,.tool small,.list-row small,.side-foot,.top-actions .hide-mobile{display:none!important}
-.welcome h1{font-size:18px!important;letter-spacing:.18em!important;text-transform:uppercase;color:#b8d5cc!important}
-.resume{min-height:88px!important;align-items:center!important}.resume h2{font-size:17px!important;letter-spacing:.02em}
-.section-head h2{font-size:10px!important;letter-spacing:.2em!important;text-transform:uppercase}
-.project-body{padding:9px 12px!important}.project-title strong{font-size:11px!important;letter-spacing:.08em;text-transform:uppercase}
-.tool{min-height:78px!important}.tool b{font-size:10px!important;letter-spacing:.12em;text-transform:uppercase}
-.list-row{font-size:12px}.list-row b{font-weight:500;letter-spacing:.04em}
-
-/* NO VISIBLE BRAND OR SECTION LABELS */
-.welcome h1,.section-head h2{display:none!important}
-.section-head{height:1px;margin:20px 0 10px!important}
-.section-head button{font-size:0!important;opacity:.35}
-.resume h2{font-size:0!important}
-.resume .primary-btn{font-size:0!important;min-width:38px;width:38px;height:38px;padding:0}
-.resume .primary-btn:after{content:"↗";font-size:17px}
-.project-title strong,.tool b{font-size:0!important;letter-spacing:0!important}
-.project-title{min-height:8px}
-.project-body{min-height:18px}
-.project:hover .project-title strong,.tool:hover b{font-size:10px!important;letter-spacing:.1em!important}
-.tool{display:flex;align-items:center;justify-content:center;flex-direction:column}
-.tool b{margin:0!important}
-.avatar{font-size:0!important}
+:root{color-scheme:dark;--bg:#091216;--panel:#101e23;--panel2:#15272c;--line:#294047;--text:#e1ece8;--muted:#8fa7a4;--mint:#a6d1c3;--glow:#477c78}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 48% -20%,#24484a 0,transparent 48%),var(--bg);color:var(--text);font:14px/1.5 Inter,ui-sans-serif,system-ui,sans-serif}
+button,input{font:inherit}button{cursor:pointer;color:inherit}.app{min-height:100vh;display:grid;grid-template-rows:64px minmax(0,1fr)}
+header{display:flex;align-items:center;gap:22px;padding:0 26px;border-bottom:1px solid #253a40;background:#091216d9;backdrop-filter:blur(18px);position:sticky;top:0;z-index:5}
+.brand{font-size:13px;letter-spacing:.24em;font-weight:650;color:#d8e9e2;white-space:nowrap}.brand i{font-style:normal;color:var(--mint);margin-right:8px}
+.search{flex:1;max-width:540px}.search input{width:100%;border:1px solid #2a4248;border-radius:999px;background:#0c191e;color:var(--text);padding:9px 15px;outline:none}.search input:focus{border-color:#6caaa0}
+.headstate{margin-left:auto;color:var(--muted);font-size:11px;letter-spacing:.08em}
+.workspace{width:min(1500px,100%);margin:0 auto;padding:20px 22px 28px;display:grid;grid-template-columns:220px minmax(0,1fr) 250px;gap:14px;min-height:0}
+.rail,.stage,.details{background:linear-gradient(160deg,#13242aee,#0e1a20f2);border:1px solid var(--line);border-radius:16px;min-width:0}
+.rail{padding:16px 12px;display:flex;flex-direction:column;gap:17px}.eyebrow{font-size:9px;letter-spacing:.19em;color:#7f9d98;font-weight:700;text-transform:uppercase}
+.rail h2{font-size:12px;letter-spacing:.13em;margin:4px 8px 0;color:#c6d9d2;font-weight:600}
+.context-list{display:grid;gap:4px}.context{border:1px solid transparent;background:transparent;border-radius:9px;text-align:left;padding:9px 10px;color:#a8bfba;display:flex;justify-content:space-between;align-items:center;font-size:12px}.context:hover,.context.active{background:#20383b;border-color:#3b6260;color:#eff8f3}.context small{font-size:9px;color:#75938c}.rail-foot{margin-top:auto;padding:12px 8px;border-top:1px solid #294047;color:#78918d;font-size:10px}
+.stage{display:flex;flex-direction:column;overflow:hidden;min-height:680px}
+.stage-top{padding:19px 22px 14px;display:flex;align-items:start;justify-content:space-between;gap:16px;border-bottom:1px solid #253a40}
+.stage-title h1{font-size:22px;font-weight:500;letter-spacing:.015em;margin:4px 0}.stage-title p{color:var(--muted);font-size:12px;margin:0;max-width:700px}
+.run{border:1px solid #6a9b8d;background:linear-gradient(135deg,#b5d9c8,#83b5a6);color:#10201d;border-radius:999px;padding:10px 19px;font-weight:700;letter-spacing:.12em;font-size:10px;white-space:nowrap;box-shadow:0 0 24px #4c877c35}
+.canvas{position:relative;min-height:290px;flex:1;background:radial-gradient(ellipse at 50% 52%,#23434866,transparent 60%),linear-gradient(180deg,#0e1c21,#0b171c);overflow:hidden}
+.canvas:before,.canvas:after{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(#7ba79b0a 1px,transparent 1px),linear-gradient(90deg,#7ba79b0a 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(transparent,#000 20%,#000 80%,transparent)}
+.links{position:absolute;inset:0;width:100%;height:100%;opacity:.8}
+.links line{stroke:#63968c;stroke-width:1.1;stroke-opacity:.5}
+.links line.active{stroke:#c4e6d8;stroke-width:2;stroke-opacity:.9}
+.node{position:absolute;transform:translate(-50%,-50%);border:1px solid #47716d;background:#142b30eF;border-radius:999px;padding:10px 13px;min-width:90px;max-width:160px;text-align:center;box-shadow:0 8px 26px #0005;z-index:1}
+.node strong{display:block;font-size:10px;letter-spacing:.1em;font-weight:600}.node small{display:block;color:#86a69d;font-size:8px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.node.primary{background:linear-gradient(135deg,#b9d9c9,#6e9e92);color:#10221f;border-color:#d0e8dc;box-shadow:0 0 36px #8fc9b24d}.node.primary small{color:#355c54}
+.node.related{border-color:#9bbdb0;background:#1c393b}
+.stage-bottom{padding:14px 18px 17px;border-top:1px solid #253a40;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.workstream{background:#0d1a1f;border:1px solid #263d43;border-radius:11px;padding:12px 14px;min-height:84px}.workstream b{display:block;font-size:10px;letter-spacing:.13em;color:#b9d5ca;font-weight:600;margin-bottom:5px}.workstream p{font-size:11px;color:#91aaa4;margin:0}
+.details{padding:17px 14px;display:flex;flex-direction:column;gap:15px}.detail-block{padding-bottom:14px;border-bottom:1px solid #294047}.detail-block:last-child{border:0}.detail-block h3{font-size:11px;letter-spacing:.12em;color:#bad2c9;margin:5px 0 9px}.detail-block p{font-size:11px;color:#91aaa4;margin:0}.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{font-size:9px;color:#abc8bd;background:#1a3437;border:1px solid #315450;padding:5px 8px;border-radius:999px}.connection{padding:8px 0;border-bottom:1px solid #20343a;font-size:11px;color:#afc5bd}.connection:last-child{border:0}.connection small{display:block;color:#75918a;font-size:9px;margin-top:2px}
+.activity{display:grid;gap:8px}.activity button{border:0;border-left:2px solid #497a70;background:#112329;text-align:left;padding:8px 10px;font-size:10px;color:#b5ccc3;border-radius:0 7px 7px 0}
+.empty{color:#77918a;font-size:11px;padding:10px 0}
+@media(max-width:1050px){.workspace{grid-template-columns:180px minmax(0,1fr)}.details{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr)}.stage{min-height:620px}}
+@media(max-width:700px){.app{grid-template-rows:58px 1fr}header{padding:0 13px;gap:10px}.brand{font-size:10px}.headstate{display:none}.workspace{padding:10px;grid-template-columns:1fr;gap:9px}.rail{padding:10px;gap:8px}.rail h2,.rail-foot{display:none}.context-list{display:flex;overflow:auto}.context{white-space:nowrap;padding:8px 11px}.stage{min-height:620px}.stage-top{padding:15px}.stage-title h1{font-size:18px}.canvas{min-height:300px}.node{min-width:70px;padding:8px 9px}.node strong{font-size:8px}.node small{font-size:7px}.stage-bottom{grid-template-columns:1fr}.details{grid-column:auto;display:grid;grid-template-columns:1fr 1fr}.details .detail-block:first-child{grid-column:1/-1}}
 </style>
 </head>
-<body>
-<div class="shell">
-<aside>
-  <div class="brand" aria-hidden="true"><div class="mark">◉</div></div>
-  <div><div class="nav-label">WORKSPACE</div><nav class="nav">
-    <button class="active" data-view="home"><span>⌂</span>Home</button>
-    <button data-view="worlds"><span>◎</span>World Atlas</button>
-    <button data-view="projects"><span>▦</span>Projects</button>
-    <button data-view="people"><span>♙</span>People</button>
-    <button data-view="library"><span>▤</span>Library</button>
-    <button data-view="studio"><span>▣</span>Studio</button>
-    <button data-view="archive"><span>⌑</span>Archive</button>
-  </nav></div>
-  <div class="side-foot">GEEHUB · The Tractus<br><span id="sync-state">Local workspace ready</span></div>
-</aside>
-<main>
-<header class="topbar"><div class="search"><input id="search" type="search" aria-label="Search"></div><div class="top-actions"><div class="avatar" aria-hidden="true"></div></div></header>
-<div class="content">
-<section class="primary">
-  <div class="view active" id="view-home">
-    
-    <div class="resume"><button class="primary-btn" aria-label="Continue" data-go="projects">↗</button></div>
-    
-    <div class="grid" id="home-projects">
-      <article class="project" data-go="worlds" aria-label="Veyrthalis"><div class="project-art forest"></div><div class="project-body"><div class="project-title"><strong>Veyrthalis</strong><span class="status">Active</span></div><p>The dark expanse · Digitorium · Temple of Moon · HULUM'A</p></div></article>
-      <article class="project" data-go="worlds" aria-label="Beefythiq"><div class="project-art gym"></div><div class="project-body"><div class="project-title"><strong>Beefythiq</strong><span class="status">Active</span></div><p>Growth Canvas · Observation Ring · Redwood expedition</p></div></article>
-      <article class="project" data-go="worlds" aria-label="The Universities"><div class="project-art campus"></div><div class="project-body"><div class="project-title"><strong>The Universities</strong><span class="status">Growing</span></div><p>Institutions, residences, departments and inhabited campuses</p></div></article>
-      <article class="project" data-go="worlds" aria-label="Deep Lore"><div class="project-art archive"></div><div class="project-body"><div class="project-title"><strong>Deep Lore</strong><span class="status">Connected</span></div><p>Mythology, passages, memory and the living archive</p></div></article>
-    </div>
-    
-    <div class="tools">
-      <button class="tool" aria-label="Video" data-open="./engine/video/imagine-studio.html"><span>▣</span><b>Video</b></button>
-      <button class="tool" aria-label="Visual" data-open="./hub/gee-studio.html"><span>◫</span><b>Visual</b></button>
-      <button class="tool" aria-label="Assets" data-go="library"><span>▧</span><b>Assets</b></button>
-    </div>
-  </div>
-  <div class="view" id="view-worlds"><div class="list" id="world-list"><div class="empty" aria-label="Loading"><span aria-hidden="true">◌</span></div></div></div>
-  <div class="view" id="view-projects"><div class="list" id="project-list"><div class="empty" aria-label="Loading"><span aria-hidden="true">◌</span></div></div></div>
-  <div class="view" id="view-people"><div class="list" id="people-list"><div class="empty" aria-label="Unavailable"><span aria-hidden="true">◌</span></div></div></div>
-  <div class="view" id="view-library"><div class="list" id="library-list"><div class="empty" aria-label="Empty"><span aria-hidden="true">◌</span></div></div></div>
-  <div class="view" id="view-studio"><div class="list">
-    <div class="list-row"><div><b>Tractus Studio</b><small>Blender / FFmpeg director and continuous-take workbench</small></div><a href="./hub/gee-studio.html">Open →</a></div>
-    <div class="list-row"><div><b>Imagine Studio</b><small>Short-form video generation and shot history</small></div><a href="./engine/video/imagine-studio.html">Open →</a></div>
-    <div class="list-row"><div><b>Computational Edit</b><small>Structured editing and transformation tools</small></div><a href="./hub/computational-edit.html">Open →</a></div>
-    <div class="list-row"><div><b>Hulum’s Cave</b><small>Central lineage archive and production research</small></div><a href="./hulums-cave.html">Open →</a></div>
-  </div></div>
-  <div class="view" id="view-archive"><div class="list" id="archive-list"><div class="empty" aria-label="Empty"><span aria-hidden="true">◌</span></div></div></div>
-</section>
-<aside class="right" aria-hidden="true">
-  
-  
-  
-</aside>
-</div>
+<body><div class="app">
+<header><div class="brand"><i>◉</i>GEEHUB</div><div class="search"><input id="search" type="search" placeholder="Find a person, place, idea, image or thread…" aria-label="Search the living corpus"></div><div class="headstate" id="state">THE LIVING CORPUS · CONNECTING</div></header>
+<div class="workspace">
+<aside class="rail"><div class="eyebrow">One living workspace</div><h2>COMMON CONTEXTS</h2><nav class="context-list" id="contexts"></nav><div class="rail-foot">The same material can belong to several contexts. Nothing needs to be copied into a separate project to be connected.</div></aside>
+<main class="stage">
+<div class="stage-top"><div class="stage-title"><div class="eyebrow" id="kicker">THE WHOLE CORPUS</div><h1 id="title">Everything connects here.</h1><p id="description">Projects, people, worlds, media and tools appear together through the subjects they share.</p></div><button class="run" id="run">RUN ↗</button></div>
+<div class="canvas" id="canvas"><svg class="links" id="links" viewBox="0 0 1000 600" preserveAspectRatio="none"></svg><div id="nodes"></div></div>
+<div class="stage-bottom"><article class="workstream"><b>SHARED MATERIAL</b><p id="shared">Loading common subjects…</p></article><article class="workstream"><b>ACTIVE DIRECTION</b><p id="direction">The strongest connections will appear as you explore.</p></article></div>
 </main>
-</div><div class="toast" id="toast" role="status"></div>
+<aside class="details">
+<section class="detail-block"><div class="eyebrow">SELECTED CONTEXT</div><h3 id="selected-title">The living corpus</h3><p id="selected-description">A common surface for the work already in progress.</p></section>
+<section class="detail-block"><div class="eyebrow">CONNECTED THREADS</div><h3>What belongs together</h3><div id="connections" class="connection">Loading…</div></section>
+<section class="detail-block"><div class="eyebrow">SHARED VOCABULARY</div><h3>Recurring subjects</h3><div id="tags" class="chips"></div></section>
+<section class="detail-block"><div class="eyebrow">RECENT PRODUCTION</div><h3>Work in motion</h3><div id="activity" class="activity"></div></section>
+</aside>
+</div></div>
 <script>
-const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-const views=["home","worlds","projects","people","library","studio","archive"];
-function go(name){views.forEach(v=>$("#view-"+v).classList.toggle("active",v===name));$$(".nav button").forEach(b=>b.classList.toggle("active",b.dataset.view===name));history.replaceState(null,"","#"+name);window.scrollTo(0,0)}
-$$("[data-view]").forEach(b=>b.addEventListener("click",()=>go(b.dataset.view)));
-$$("[data-go]").forEach(b=>b.addEventListener("click",()=>go(b.dataset.go)));
-$$("[data-open]").forEach(b=>b.addEventListener("click",()=>location.href=b.dataset.open));
-function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
-function toast(s){const t=$("#toast");t.textContent=s;t.style.display="block";setTimeout(()=>t.style.display="none",2400)}
-function readNotes(){try{return JSON.parse(localStorage.getItem("geehub-consumer-notes")||"[]")}catch{return[]}}
-function renderNotes(){const notes=readNotes();$("#archive-list").innerHTML=notes.length?notes.map(n=>'<div class="list-row"><div><b>'+esc(n.title)+'</b><small>'+esc(new Date(n.created).toLocaleString())+'</small><div>'+esc(n.body)+'</div></div><span class="status">Local</span></div>').join(""):'<div class="empty">No local captures yet. Use Quick creation to leave a trace.</div>'}
-
-async function loadRegistry(){try{const [p,w]=await Promise.all([fetch("./projects.json").then(r=>{if(!r.ok)throw Error("projects");return r.json()}),fetch("./world.json").then(r=>{if(!r.ok)throw Error("world");return r.json()})]);const projects=Array.isArray(p)?p:(p.projects||[]);const worlds=w.regions||w.worlds||[];$("#registry-status").textContent=projects.length+" project records loaded · "+worlds.length+" world regions";$("#sync-state").textContent="Registries loaded · local-first";$("#project-list").innerHTML=projects.map(x=>'<div class="list-row" aria-label="'+esc(x.name||x.title||x.id)+'"><b>'+esc(x.name||x.title||x.id)+'</b></div>').join("")||'<div class="empty" aria-label="Empty"><span aria-hidden="true">◌</span></div>';$("#world-list").innerHTML=worlds.map(x=>'<div class="list-row" aria-label="'+esc(x.name||x.title||x.id)+'"><b>'+esc(x.name||x.title||x.id)+'</b></div>').join("")||'<div class="empty" aria-label="Empty"><span aria-hidden="true">◌</span></div>';$("#home-projects").setAttribute("aria-label",projects.length+" registered projects");}catch(e){$("#registry-status").textContent="Registry unavailable from this launch context";$("#sync-state").textContent="Offline / local files only";}}
-$("#search").addEventListener("input",e=>{const q=e.target.value.trim().toLowerCase();if(!q)return;const all=$$(".project,.list-row");let hits=0;all.forEach(x=>{const match=x.textContent.toLowerCase().includes(q);x.style.outline=match?"1px solid #80b9b5":"none";if(match)hits++});$("#registry-status").textContent=hits+" visible matches · search current view and loaded records";});
-const initial=location.hash.slice(1);if(views.includes(initial))go(initial);renderNotes();loadRegistry();
-</script>
-</body></html>
-<style>
-/* Content without interface narration */
-.brand,.welcome,.section-head,.right,.top-actions,.resume h2,
-.project-title,.project-body p,.status,.tool b,.tool small,
-.list-row small,.list-row .status,.panel h3,.activity,.empty::before {display:none!important}
-.shell{grid-template-columns:0 minmax(0,1fr)!important}
-aside:not(.right){display:none!important}
-.topbar{height:12px!important;min-height:12px!important;padding:0 18px!important;border:0!important;background:transparent!important}
-.search{max-width:220px!important;opacity:.28}
-.search input{padding:2px 8px!important;background:transparent!important}
-.content{padding-top:22px!important}
-.resume{min-height:34px!important;height:34px!important;padding:0!important;border:0!important;background:transparent!important;justify-content:flex-end!important}
-.resume .primary-btn{width:34px!important;height:34px!important;padding:0!important;font-size:0!important;background:transparent!important;color:#9bcac0!important;border:1px solid #294349!important}
-.resume .primary-btn::after{content:"↗";font-size:16px}
-.project{position:relative;min-height:150px}
-.project-body{display:none!important}
-.project-art{height:100%!important;min-height:150px}
-.project:focus-visible,.tool:focus-visible,.nav button:focus-visible{outline:2px solid #9bcac0!important;outline-offset:3px}
-.tools{margin-top:12px}
-.tool{min-height:68px!important;justify-content:center!important}
-.tool b{display:none!important}
-.list-row{padding:12px 14px!important}
-.list-row b{font-size:12px!important;font-weight:450!important}
-.empty{min-height:100px!important;padding:20px!important;font-size:0!important;border:0!important}
-.empty span{font-size:22px!important;color:#72968e!important}
-@media(max-width:700px){.topbar{height:4px!important;min-height:4px!important}.content{padding-top:18px!important}.project{min-height:116px}.project-art{min-height:116px}.resume{height:28px!important;min-height:28px!important}}
-</style>
+const $=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let projects=[],worlds=[],selected="all",graph=[];
+const aliases={"beefythiq":"growth","growth-canvas":"growth","mass1v1ng":"growth","luke-growth":"growth","luke-library-transformation":"growth","joseph-kirk-continuity":"growth","swolebeasts":"growth","male-harem-virtual-space":"visual archive","adult-gay-visual-loop":"visual archive","bodylounger":"visual archive","hulumscave":"visual archive","veyrthalis":"worldbuilding","the-digitorium":"worldbuilding","kingdom-land":"worldbuilding","redwood-expedition":"worldbuilding","the-complex":"worldbuilding","deep-lore":"story and memory","tractus":"story and memory","religion-as-dialogue":"research","discovery":"research","media-tools":"production","geehub-studio":"production","imagine-video-studio":"production"};
+const groups=[
+{id:"all",label:"Everything",desc:"The whole corpus, without separating the work into isolated projects."},
+{id:"growth",label:"Growth & embodiment",desc:"Body, identity, transformation, scale, visual references and the engines that develop them."},
+{id:"visual archive",label:"Visual memory",desc:"Library images, source videos, creators, provenance, characters and accumulated visual history."},
+{id:"worldbuilding",label:"Worlds & places",desc:"Geography, architecture, institutions, inhabitants, environments and the stories attached to them."},
+{id:"story and memory",label:"Story & memory",desc:"Canon, deep lore, conversations, chapters, motifs, characters and continuity."},
+{id:"production",label:"Making & tools",desc:"Blender, video, sound, assets, interfaces and the machinery that turns ideas into finished work."},
+{id:"research",label:"Research & discovery",desc:"External sources, observations, comparisons, thesis work and new connections."}
+];
+function tokens(x){return [...new Set([...(x.tags||[]),...(x.related||[]),x.kind,x.group].filter(Boolean).map(v=>String(v).toLowerCase().replace(/[_/]+/g," ").trim()))]}
+function groupsFor(x){const t=tokens(x),id=x.id||"";const out=new Set();for(const [key,group] of Object.entries(aliases))if(id.includes(key)||t.some(v=>v.includes(key)))out.add(group);if(/growth|muscle|body|transform|physique|swole|embod/i.test(t.join(" ")))out.add("growth");if(/visual|image|photo|video|archive|reference|media/i.test(t.join(" ")))out.add("visual archive");if(/world|place|map|geograph|environment|architecture|campus/i.test(t.join(" ")))out.add("worldbuilding");if(/story|lore|memory|chapter|character|canon|narrative/i.test(t.join(" ")))out.add("story and memory");if(/engine|tool|production|blender|sound|audio|video|studio|asset/i.test(t.join(" ")))out.add("production");if(/research|discovery|thesis|source/i.test(t.join(" ")))out.add("research");return [...out]}
+function makeGraph(){graph=[...projects.map(x=>({...x,_type:"project",_groups:groupsFor(x)})),...worlds.map(x=>({...x,_type:"world",_groups:groupsFor(x)}))];}
+function score(a,b){const aa=new Set([...tokens(a),...a._groups]),bb=new Set([...tokens(b),...b._groups]);let n=0;for(const t of aa)if(bb.has(t))n++;for(const r of a.related||[])if(String(r).toLowerCase()===String(b.id).toLowerCase())n+=4;for(const r of b.related||[])if(String(r).toLowerCase()===String(a.id).toLowerCase())n+=4;return n}
+function members(){return graph.filter(x=>selected==="all"||x._groups.includes(selected))}
+function choose(x){selected=x;render()}
+function render(){
+ const list=members();const group=groups.find(g=>g.id===selected)||groups[0];$("#contexts").innerHTML=groups.map(g=>'<button class="context '+(g.id===selected?"active":"")+'" data-context="'+esc(g.id)+'">'+esc(g.label)+'<small>'+graph.filter(x=>g.id==="all"||x._groups.includes(g.id)).length+'</small></button>').join("");
+ $("#contexts").querySelectorAll("button").forEach(b=>b.onclick=()=>choose(b.dataset.context));
+ $("#kicker").textContent=group.label.toUpperCase();$("#title").textContent=selected==="all"?"Everything connects here.":group.label;$("#description").textContent=group.desc;
+ const central=list.slice().sort((a,b)=>score(b, list[0]||b)-score(a,list[0]||a)).slice(0,13);
+ const cx=500,cy=295,coords=central.map((x,i)=>{const angle=(Math.PI*2*i/Math.max(central.length,1))-(Math.PI/2);const radius=i===0?0:Math.min(225,90+central.length*9);return {x:cx+Math.cos(angle)*radius,y:cy+Math.sin(angle)*radius}});if(coords.length)coords[0]={x:500,y:295};
+ $("#nodes").innerHTML=central.map((x,i)=>'<button class="node '+(i===0?"primary":"")+'" data-node="'+esc(x.id)+'" style="left:'+(coords[i].x/10)+'%;top:'+(coords[i].y/6)+'%"><strong>'+esc(x.name||x.title||x.id)+'</strong><small>'+esc(x.kind||x._type)+'</small></button>').join("");
+ const lines=[];for(let i=1;i<central.length;i++){let best=0,bs=-1;for(let j=0;j<i;j++){const v=score(central[i],central[j]);if(v>bs){bs=v;best=j}}lines.push('<line x1="'+coords[i].x+'" y1="'+coords[i].y+'" x2="'+coords[best].x+'" y2="'+coords[best].y+'" class="'+(bs>1?"active":"")+'"/>')}
+ $("#links").innerHTML=lines.join("");
+ $("#nodes").querySelectorAll("button").forEach(b=>b.onclick=()=>selectNode(b.dataset.node));
+ const vocab=[...new Set(list.flatMap(tokens))].filter(t=>t.length>2).sort((a,b)=>list.filter(x=>tokens(x).includes(b)).length-list.filter(x=>tokens(x).includes(a)).length).slice(0,18);
+ $("#tags").innerHTML=vocab.map(t=>'<span class="chip">'+esc(t)+'</span>').join("");
+ $("#shared").textContent=vocab.slice(0,7).join(" · ")||"The shared vocabulary is still forming.";
+ $("#direction").textContent=selected==="growth"?"Bring Library body references, growth curves, character continuity and the video renderer into one iterative visual-production loop.":selected==="visual archive"?"Use existing photographs and video as accumulated evidence; connect each reference to the characters, scenes and transformations it can improve.":selected==="worldbuilding"?"Let places, characters, geography, institutions and stories share the same world context.":"The workspace follows the relationships between material rather than forcing each item into a separate project.";
+ const active=central[0];if(active)selectNode(active.id,false);else clearSelection();
+}
+function selectNode(id,rerender=true){const x=graph.find(v=>v.id===id);if(!x)return;if(rerender){document.querySelectorAll(".node").forEach(n=>n.classList.toggle("related",n.dataset.node===id));}$("#selected-title").textContent=x.name||x.title||x.id;$("#selected-description").textContent=x.description||x.summary||x.kind||"Connected corpus record.";const links=graph.map(y=>({item:y,score:score(x,y)})).filter(v=>v.item.id!==x.id&&v.score>0).sort((a,b)=>b.score-a.score).slice(0,8);$("#connections").innerHTML=links.length?links.map(v=>'<div class="connection">'+esc(v.item.name||v.item.title||v.item.id)+'<small>'+esc(v.item.kind||v.item._type)+' · '+v.score+' shared signals</small></div>').join(""):'<div class="empty">No direct links recorded yet.</div>';const tags=tokens(x);$("#tags").innerHTML=tags.slice(0,18).map(t=>'<span class="chip">'+esc(t)+'</span>').join("");}
+function clearSelection(){$("#selected-title").textContent="The living corpus";$("#selected-description").textContent="A common surface for the work already in progress."}
+async function load(){try{const [p,w]=await Promise.all([fetch("./projects.json").then(r=>r.json()),fetch("./world.json").then(r=>r.json())]);projects=Array.isArray(p)?p:(p.projects||[]);worlds=w.regions||w.worlds||[];makeGraph();$("#state").textContent=graph.length+" CONNECTED RECORDS";$("#activity").innerHTML=['BALLS.mov · visual reference','Library image atlas · existing work','Blender / FFmpeg · production engine'].map(s=>'<button type="button">'+esc(s)+'</button>').join("");render();}catch(e){$("#state").textContent="LOCAL REGISTRIES UNAVAILABLE";$("#description").textContent="Open this page through the GEEHUB local server so it can read projects.json and world.json."}}
+$("#search").addEventListener("input",e=>{const q=e.target.value.toLowerCase().trim();if(!q){render();return}const hits=graph.filter(x=>(x.name+" "+x.id+" "+x.description+" "+tokens(x).join(" ")).toLowerCase().includes(q)).slice(0,13);$("#title").textContent=hits.length+" matching connections";$("#description").textContent="Search spans projects, worlds, shared subjects and relationships.";$("#nodes").innerHTML=hits.map((x,i)=>'<button class="node '+(!i?"primary":"")+'" data-node="'+esc(x.id)+'" style="left:'+(i%4*24+12)+'%;top:'+(Math.floor(i/4)*30+20)+'%"><strong>'+esc(x.name||x.title||x.id)+'</strong><small>'+esc(x.kind||x._type)+'</small></button>').join("");$("#links").innerHTML="";$("#nodes").querySelectorAll("button").forEach(b=>b.onclick=()=>selectNode(b.dataset.node));});
+$("#run").onclick=()=>{const next=groups[(groups.findIndex(g=>g.id===selected)+1)%groups.length];choose(next.id);$("#direction").textContent="RUN moved the shared workspace to "+next.label+". Existing relationships remain connected.";};
+load();
+</script></body></html>

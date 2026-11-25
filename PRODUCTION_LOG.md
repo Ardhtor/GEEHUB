@@ -124,3 +124,9 @@ This is the durable resume point for repository work. Update it after meaningful
 - Merged through PR #14; merge commit: `edb44998d8dd1d7a60461bc8438ab3bd1335336f`.
 - The original `Balls.mov` binary is not in Git. Only four small reference stills and their index were added. The final still is an upper-body crop, not a full-body final-state reference.
 
+## 2026-11-25 — Clarified requested BALLS.mov output
+
+- Clarified in the existing BALLS.mov analysis that the clip is the user's direct desired output target for relevant GEEHUB generations, not loose inspiration or a prompt to create another project, title, framework, or catalogue.
+- The directive now states plainly: do not produce minimal or conservative interpretations; carry through the clear staged muscular escalation, original studio / platform / luminous catalyst staging, deliberate flexes and anatomical close-ups, and a fully realized monumental final form. Preserve each established character's identity.
+- This is an output preference inside existing projects, not a new project.
+

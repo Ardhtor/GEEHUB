@@ -176,6 +176,49 @@ def build_wardrobe(top_color=(0.018, 0.045, 0.055), shorts_color=(0.018, 0.045, 
     ]
     return top, shorts, straps
 
+def build_luke_identity_features():
+    """Add a fixed adult facial/hair anchor while the body grows beneath it.
+
+    These are stylised continuity proxies, not a fitted scan or an exact likeness.
+    Coordinates follow the rigged character's Z-up, -Y-facing convention.
+    """
+    hair = material("LUKE / light-brown curls", (0.34, 0.22, 0.12), roughness=0.72)
+    beard = material("LUKE / trimmed brown beard", (0.22, 0.13, 0.075), roughness=0.82)
+    skin = material("LUKE / facial skin", (0.43, 0.29, 0.22), roughness=0.40, subsurface=0.05)
+    eye_white = material("LUKE / eye whites", (0.72, 0.66, 0.57), roughness=0.32)
+    iris = material("LUKE / hazel irises", (0.27, 0.16, 0.075), roughness=0.28)
+    pupil = material("LUKE / pupils", (0.025, 0.020, 0.016), roughness=0.22)
+
+    # Hair cap and irregular curl clusters preserve the reference's short, curly silhouette.
+    ellipsoid("LUKE / hair cap", (0, 0.015, 3.82), (0.445, 0.405, 0.19), hair)
+    curls = [
+        (-0.31, -0.20, 3.83), (-0.20, -0.30, 3.91), (-0.07, -0.33, 3.94),
+        (0.08, -0.33, 3.93), (0.22, -0.27, 3.90), (0.33, -0.15, 3.82),
+        (-0.34, 0.02, 3.80), (-0.23, 0.18, 3.91), (-0.08, 0.24, 3.96),
+        (0.09, 0.24, 3.96), (0.24, 0.16, 3.90), (0.35, 0.01, 3.80),
+        (-0.17, -0.08, 4.00), (0.02, -0.12, 4.02), (0.18, -0.06, 3.99),
+    ]
+    for index, point in enumerate(curls):
+        size = 0.105 if index % 3 else 0.12
+        ellipsoid("LUKE / curl %02d" % (index + 1), point, (size, size * 0.92, size * 0.82), hair)
+
+    # Beard follows the jaw and chin; sideburns connect it to the hairline.
+    ellipsoid("LUKE / beard mass", (0, -0.285, 3.16), (0.285, 0.165, 0.205), beard)
+    ellipsoid("LUKE / moustache left", (-0.075, -0.405, 3.255), (0.105, 0.045, 0.045), beard)
+    ellipsoid("LUKE / moustache right", (0.075, -0.405, 3.255), (0.105, 0.045, 0.045), beard)
+    for side in (-1, 1):
+        ellipsoid("LUKE / sideburn %s" % side, (side * 0.365, -0.12, 3.34), (0.075, 0.12, 0.19), beard)
+        ellipsoid("LUKE / ear %s" % side, (side * 0.425, -0.015, 3.38), (0.085, 0.075, 0.13), skin)
+        ellipsoid("LUKE / eye white %s" % side, (side * 0.145, -0.366, 3.49), (0.061, 0.030, 0.039), eye_white)
+        ellipsoid("LUKE / iris %s" % side, (side * 0.145, -0.394, 3.49), (0.027, 0.014, 0.028), iris)
+        ellipsoid("LUKE / pupil %s" % side, (side * 0.145, -0.407, 3.49), (0.012, 0.008, 0.017), pupil)
+        brow = ellipsoid("LUKE / brow %s" % side, (side * 0.145, -0.37, 3.56), (0.085, 0.027, 0.025), beard)
+        brow.rotation_euler[1] = side * -0.08
+    ellipsoid("LUKE / nose bridge", (0, -0.395, 3.405), (0.052, 0.065, 0.12), skin)
+    ellipsoid("LUKE / nose tip", (0, -0.445, 3.34), (0.068, 0.055, 0.052), skin)
+    ellipsoid("LUKE / lower lip", (0, -0.405, 3.235), (0.075, 0.025, 0.022), beard)
+
+
 def build_scene(manifest, output_path, timeline=None, growth_profile=None, preview_seconds=None, save_blend_path=None):
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -247,6 +290,7 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
             growth_ceiling=rig_growth,
         )
         diagnostic_objects.append(mesh)
+        build_luke_identity_features()
         if timeline:
             from timeline_growth import animate_timeline_growth, write_growth_diagnostics
             animate_timeline_growth(mesh, timeline, growth_profile)

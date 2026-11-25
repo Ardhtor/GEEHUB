@@ -31,6 +31,7 @@
       const response=await fetch(FEED+'?ts='+Date.now(),{cache:'no-store'});
       if(!response.ok)return;
       const feed=await response.json();
+      if(!window.GEEHUB_REACTIONS){window.setTimeout(check,120);return;}
       const events=Array.isArray(feed.events)?feed.events:(feed.id?[feed]:[]);
       for(const event of events.slice(0,8).reverse()){
         if(!event?.id||seen().includes(event.id))continue;

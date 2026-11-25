@@ -164,13 +164,13 @@ Andrew watched the two images again. He was still thinking about the speed recor
 
 Robert made a note to label the theatre study as a reconstruction. The actual attempts would remain in the record with their own observations. The model could explain the geometry, but it could not replace the event. Andrew accepted the distinction. He had wanted the display to be impressive; now he wanted it to be convincing.
 
-When they returned to the pavilion, the frame was still resting in its cradle. The morning's work had acquired another form: a physical test, a revised support, a comparison drawing, and a small visual explanation that made the hidden corner visible. Robert carried the model back to the theatre, where it would remain available for another lighting test. The two images were not yet a finished presentation. They were a better way to ask the next question.
+Back in the pavilion, the frame remained in its cradle while Robert returned the model to the theatre for another lighting test.
 
 The men took a break while Robert adjusted the gallery lights. The frame was placed in its cradle beside the pavilion wall, and Joseph carried the corner support to a small worktable. He wanted to soften one edge and add a shallow mark showing which side faced outward. It was a modest improvement, but it would make the piece easier to fit correctly when someone else used it. Chase recorded the change as a revision to the cradle, not a new object. The first version remained in the workshop drawer.
 
 Gabe prepared a simple recovery circuit for anyone who wanted to repeat the carry. It began with shoulder movement, wrist and hand preparation, and a short walk along the pavilion's open side. It was not compulsory, and he did not present it as a test. Andrew completed it while making exaggerated claims about how much stronger he felt. Robert joined him and discovered that the sequence was more useful than he expected. Joseph declined, saying he had spent enough time at the bench that morning. Nobody tried to persuade him otherwise.
 
-When they returned, Chase had arranged the day's observations on a board. One column showed the original attempt, one showed the cradle-assisted turn, and one showed the second pair's passage. The record made the improvement plain without exaggerating it. The first attempt had required a stop. The revised grip had allowed the frame to turn without contact. The second pair had repeated the movement after instruction. The next test would establish whether the method remained usable after a night away from the apparatus.
+When they returned, Chase had arranged the day's results in three columns: the original attempt, the cradle-assisted turn, and the second pair's passage. He marked the first as stopped, the second as a successful first pass, and the third as a successful passage after instruction. The next test would establish whether the method remained usable after a night away from the apparatus.
 
 Andrew studied the board. “I still think there should be a time.”
 

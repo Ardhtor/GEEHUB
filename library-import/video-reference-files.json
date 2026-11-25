@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "manifest_type": "geehub-library-video-reference-files",
-  "generated_at": "2026-11-25T20:18:30Z",
+  "generated_at": "2026-11-25T20:20:00Z",
   "source": {
     "system": "ChatGPT Library",
     "surface": "library",
@@ -31,7 +31,16 @@
       "created_at": "2026-11-23T17:40:38+00:00",
       "model_generated": false,
       "role": "primary_transformation_reference",
-      "note": "User-designated ideal Swolebeast/body-transformation sequence for the Joseph/Joey branch: stylized adult male in grey striped tank and short trunks on teal studio background; glowing colored spheres act as catalysts; clothing disappears as the physique progressively enlarges. Treat the described sequence grammar as reference evidence; do not merge it into Luke's source identity."
+      "note": "User-designated ideal Swolebeast/body-transformation sequence for the Joseph/Joey branch: stylized adult male in grey striped tank and short trunks on teal studio background; glowing colored spheres act as catalysts; clothing disappears as the physique progressively enlarges. Treat the described sequence grammar as reference evidence; do not merge it into Luke's source identity.",
+      "duration_seconds": 195.328328,
+      "video_stream": {
+        "width": 960,
+        "height": 720,
+        "frame_rate": "2997/100",
+        "frame_count": 5854
+      },
+      "visual_review_status": "sampled_at_11_timepoints",
+      "visual_review": "Reviewed representative frames from 0 to 194 seconds. The clip uses a teal studio, adult male 3D character, grey striped tank and short trunks at the start, glowing colored spheres as recurring catalysts, progressive clothing removal and increasingly exaggerated muscular development, ending in an extremely massive bodybuilder form. It is a long-form reference (about 3 minutes 15 seconds), not an eight-second shot. Retain this as the Joseph/Joey Swolebeast transformation grammar and keep it separate from Luke's identity."
     },
     {
       "id": "library-libfile_a6f3170c3768819198dea45035626e20",
@@ -211,7 +220,16 @@
       "created_at": "2026-10-12T16:22:55+00:00",
       "model_generated": true,
       "role": "generated_geeHub_motion_artifact",
-      "note": "Metadata marks this as model-generated. The filename suggests a growth-morph take, but visual content is not yet reviewed in this registry pass."
+      "note": "Metadata marks this as model-generated. The filename suggests a growth-morph take, but visual content is not yet reviewed in this registry pass.",
+      "duration_seconds": 8,
+      "video_stream": {
+        "width": 960,
+        "height": 540,
+        "frame_rate": "24/1",
+        "frame_count": 192
+      },
+      "visual_review_status": "sampled_at_8_timepoints",
+      "visual_review": "Reviewed one frame per second. This is a dark, grid-based technical schematic with two simplified body diagrams and a highlighted region; it is not a rendered character muscle-growth transformation. Keep it as a technical/concept artifact until its intended role is confirmed."
     },
     {
       "id": "library-libfile_ac49e0611bf48191af7f9b0887499a64",

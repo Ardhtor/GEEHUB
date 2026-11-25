@@ -114,5 +114,20 @@
   },
   "notes": "This project connects the Library before/after pair to the procedural Blender rig and sixteen regional shape-key channels. The character mesh remains a neutral procedural blockout and is not yet a fitted likeness of Luke. Blender render and visual validation are pending.",
   "character_model": "rigged",
-  "renderEntryPoint": "engine/video/render_project.py"
+  "renderEntryPoint": "engine/video/render_project.py",
+  "wardrobe": {
+    "top_style": "grey fitted sleeveless tank",
+    "top_color": [
+      0.3,
+      0.29,
+      0.27
+    ],
+    "shorts_style": "dark short training shorts",
+    "shorts_color": [
+      0.025,
+      0.03,
+      0.038
+    ],
+    "fit_response": "separate shape-key-driven garment geometry; not cloth simulation"
+  }
 }

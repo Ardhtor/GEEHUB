@@ -55,3 +55,14 @@ The GitHub Actions workflow also compiles the renderer modules and checks the pr
 ## Current limitations
 
 The rigged character is still a neutral procedural base, not a fitted Luke likeness. The first render can validate that the body geometry changes continuously and that the controls work; it cannot yet pass the identity-lock acceptance test. Source-conditioned facial fitting, anatomical corrective shapes, cloth simulation and actual Blender render inspection remain required. Do not label the blockout render as a finished Luke transformation.
+
+
+## Additional Luke references
+
+The production source manifest now includes the user-designated full-body Luke physique image supplied in the conversation on 2026-11-25 at 17:44:30Z. It is a high-stage physique, stance and wardrobe reference; its bytes remain in the conversation and have not been copied into `01_SOURCE`.
+
+Six visually inspected Library images with similar curly-haired, bearded, grey-stringer gym presentation are registered as **unconfirmed visual-continuity candidates**. They can inform comparison of facial features, clothing and body proportions, but are not treated as confirmed Luke identity or numbered chronological stages. The paired before/after composition remains the primary direct transformation source.
+
+## GitHub render
+
+A manual GitHub Actions workflow, `Luke Library Transformation Render`, now uses the canonical `engine/video/render_project.py` pipeline. It validates the project, renders an eight-second low-resolution MP4 preview, and uploads the Blender scene and growth-measurement diagnostics as a workflow artifact. The workflow is manual so a render is not launched on every source or documentation update.

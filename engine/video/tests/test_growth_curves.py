@@ -43,6 +43,31 @@ class GrowthCurveTests(unittest.TestCase):
         self.assertEqual(samples[-1][0], 1440)
         self.assertAlmostEqual(samples[-1][1]["pectorals"], 1.0)
 
+
+    def test_luke_library_profile_covers_every_deformation_region(self):
+        import json
+        profile_path = Path(__file__).resolve().parents[1] / "profiles" / "luke-library-transformation-profile.json"
+        profile = json.loads(profile_path.read_text(encoding="utf-8"))
+        regions = {name: entry["knots"] for name, entry in profile["regions"].items()}
+        self.assertEqual(set(regions), set(DEFAULT_PROFILE))
+        self.assertEqual(validate_profile(regions), [])
+        self.assertEqual(profile["timebase"]["frame_count"], round(profile["duration_seconds"] * profile["timebase"]["fps"]))
+
+    def test_luke_library_profile_is_continuous_and_held_at_end(self):
+        import json
+        profile_path = Path(__file__).resolve().parents[1] / "profiles" / "luke-library-transformation-profile.json"
+        profile = json.loads(profile_path.read_text(encoding="utf-8"))
+        regions = {name: entry["knots"] for name, entry in profile["regions"].items()}
+        samples = list(sample_profile(regions, profile["duration_seconds"], profile["timebase"]["fps"]))
+        self.assertEqual(len(samples), 240)
+        self.assertTrue(all(a <= b for (_, a), (_, b) in zip(
+            [(frame, values["pectorals"]) for frame, values in samples],
+            [(frame, values["pectorals"]) for frame, values in samples][1:]
+        )))
+        self.assertEqual(samples[0][1]["pectorals"], 0.0)
+        self.assertEqual(samples[-1][1]["pectorals"], 1.0)
+        self.assertEqual(samples[-1][1]["deltoids"], 1.0)
+
     def test_invalid_profile_is_rejected(self):
         invalid = {"pectorals": ((0, 0.0), (2, 0.8), (1, 0.9))}
         self.assertTrue(validate_profile(invalid))

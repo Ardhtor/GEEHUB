@@ -1,7 +1,7 @@
 # Book II — Chronology and Open-Thread Map
 
 **Work:** *The Kirk Expedition*  
-**Status:** working editorial map, 24 November 2026  
+**Status:** working editorial map, 25 November 2026  
 **Scope:** canonical Chapters I–IX and the supporting Book II spatial, relationship, and Evermeasure records.  
 **Purpose:** preserve the order of events, distinguish established facts from unresolved questions, and guide the whole-book revision without inventing dates, measurements, or outcomes.
 
@@ -148,7 +148,7 @@ No coordinates, distances, or permanent new landforms are introduced by Chapter 
 
 ## Revision progress
 
-The first body-level line-edit pass is complete across Chapters I–IX. A second ending-compression pass removed 1,518 words across the book; Chapter III received the deepest cut, and the other eight chapters had their redundant closing recaps removed or tightened. It consolidated repeated observations and summaries, repaired scene order where needed, and preserved each chapter's established events. The next pass is a whole-book continuity sweep against the chronology, spatial atlas, character and relationship records, and Dropbox mirrors.
+The first body-level line-edit pass is complete across Chapters I–IX. The ending-compression passes removed 1,518 words. The next in-chapter pass across Chapters V–VIII removed another 627 words: 225 from Chapter V, 170 from Chapter VI, 155 from Chapter VII, and 77 from Chapter VIII. The combined reduction is 2,145 words. It consolidated repeated observations and summaries, repaired scene order where needed, and preserved each chapter's established events. Continue in-chapter compression through Chapters I–IV and IX, then perform the whole-book continuity sweep against the chronology, spatial atlas, character and relationship records, and Dropbox mirrors.
 
 | Chapter | Narrative words | Current Git blob | Editorial state |
 | --- | ---: | --- | --- |
@@ -156,13 +156,13 @@ The first body-level line-edit pass is complete across Chapters I–IX. A second
 | II — The Keepers of the Old Trail | 4,028 | `767931a0d600aa963c0819179751efdf5f15b590` | Ending compression complete; whole-book continuity and final edit pending |
 | III — The Place That Moved | 3,180 | `55ea61234a225260bd9508f10b116df0bb523f00` | Second compression pass complete; whole-book continuity pending |
 | IV — The Promises That Keep | 3,580 | `b100beeb87b8219666906c0738d58269da362c92` | Ending compression complete; relationship continuity pending |
-| V — Four Mansions | 4,633 | `1ce2d89af8f11ee93376ac2bae1bb370247d1336` | Ending compression complete; residential and relationship continuity pending |
-| VI — The Game Between the Houses | 3,886 | `c80e6631072dfc6f4def749192c1f53e186913fb` | Ending compression complete; geography and relationship continuity pending |
-| VII — The Contest That Never Ends | 3,755 | `08d0f2516a3ee9faae1b300db450e5884fe4ae5b` | Ending compression complete; Evermeasure and relationship continuity pending |
-| VIII — A Day in the Open Pavilion | 3,756 | `d245316866f921d33656e69623ea8c873b568da2` | Ending compression complete; Michael's day and privacy continuity pending |
+| V — Four Mansions | 4,408 | `2434cbd9312012de11af9a343c612feff578a484` | In-chapter compression complete; residential and relationship continuity pending |
+| VI — The Game Between the Houses | 3,716 | `1138ae9971a6ef33e86c3ded804d53c37ad7e098` | In-chapter compression complete; geography and relationship continuity pending |
+| VII — The Contest That Never Ends | 3,600 | `cd6909b56b8ceb089d10c19f7efe7145db0f1dd6` | In-chapter compression complete; Evermeasure and relationship continuity pending |
+| VIII — A Day in the Open Pavilion | 3,679 | `ab49d81b33ea2284eafb887fdb2317c3d1b01a87` | In-chapter compression complete; Michael's day and privacy continuity pending |
 | IX — The Narrow Turn | 3,820 | `78cf1fbe950340da3bae80d54313574a8eebf827` | Ending compression complete; repeatability and scene continuity pending |
 
-**Current narrative census:** 34,801 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
+**Current narrative census:** 34,174 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
 
 ## Revision order and editorial gates
 

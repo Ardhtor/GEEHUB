@@ -11,10 +11,13 @@
   const seen=()=>{try{return JSON.parse(localStorage.getItem(SEEN)||'[]')}catch{return[]}};
   const remember=id=>{const ids=seen();if(!ids.includes(id))ids.unshift(id);localStorage.setItem(SEEN,JSON.stringify(ids.slice(0,80)));};
 
-  function showHand(event){
+  function showHand(event,attempt=0){
     const root=document.querySelector('#sharedInteraction');
     const orbit=root?.querySelector('.interaction-orbit');
-    if(!root||!orbit)return;
+    if(!root||!orbit){
+      if(attempt<40)window.setTimeout(()=>showHand(event,attempt+1),100);
+      return;
+    }
     root.classList.add('hand-arrives');
     orbit.querySelector('.assistant-hand')?.remove();
     const hand=document.createElement('div');
@@ -46,7 +49,7 @@
         bus.emit(payload);
         remember(event.id);
         window.dispatchEvent(new CustomEvent('geehub:assistant-touch',{detail:payload}));
-        window.setTimeout(()=>showHand(payload),80);
+        showHand(payload);
       }
     }catch{}
   }

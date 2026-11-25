@@ -116,7 +116,8 @@ def main() -> int:
     composites.mkdir(parents=True, exist_ok=True)
     preview = args.preview_seconds if args.preview_seconds and args.preview_seconds > 0 else None
     project_slug = project.name
-    default_name = f"{project_slug}-preview-{preview:g}s.mp4" if preview else f"{project_slug}-master.mp4"
+    preview_length = min(preview, float(timeline["duration_seconds"])) if preview else None
+    default_name = f"{project_slug}-preview-{preview_length:g}s.mp4" if preview_length else f"{project_slug}-master.mp4"
     output = args.output.resolve() if args.output else exports / default_name
     blend = composites / f"{project_slug}.blend"
     command = [

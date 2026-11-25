@@ -151,3 +151,17 @@ The Imagine generator and the Blender/FFmpeg scene runner are distinct productio
 ## Verified source staging
 
 The Teal Titan project includes a Dropbox staging runbook at `production/projects/teal-titan-golds-on-5th/STAGING.md`. It documents local Dropbox discovery, visual source selection, checksum-verified staging, FFprobe metadata, six-frame extraction and explicit stop conditions. Use it as the reference procedure when adapting staging to other short-form projects.
+
+## Luke Library muscle-growth pass
+
+The first Luke-specific profile is stored in `profiles/luke-library-transformation-profile.json`, with its eight-second, 240-frame timeline in `profiles/luke-library-transformation-timeline.json`. It uses the Library's explicit same-Luke before/after composition as its endpoint evidence and preserves later Luke checkpoints as separate references.
+
+The renderer now has sixteen regional controls: pectorals, deltoids, traps, biceps, triceps, forearms, arms, lats, back, torso, abdominals, glutes, quadriceps, hamstrings, calves, and whole body. The curve values are normalized procedural controls, not measured body dimensions. The fixed-camera profile is a first authored pass and has not yet been fitted or rendered against the image endpoints.
+
+Run the renderer-independent curve tests with:
+
+```bash
+python3 -m unittest discover -s engine/video/tests -p "test_growth_curves.py" -v
+```
+
+A GitHub Actions workflow compiles the Blender modules, validates the profile/timeline and runs the curve tests. This does not replace Blender render inspection or identity/cloth validation.

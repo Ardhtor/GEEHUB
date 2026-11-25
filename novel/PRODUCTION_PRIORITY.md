@@ -46,8 +46,8 @@ Narrative word counts below exclude the separate continuity record at the end of
 
 | Chapter | Title | Narrative words | Current status |
 | --- | --- | ---: | --- |
-| I | The Lost Country | 4,163 | First body-level line edit complete; whole-book continuity and final edit pending |
-| II | The Keepers of the Old Trail | 4,028 | First body-level line edit complete; whole-book continuity and final edit pending |
+| I | The Lost Country | 4,056 | Focused in-chapter compression complete; whole-book continuity and final edit pending |
+| II | The Keepers of the Old Trail | 3,927 | Focused in-chapter compression complete; whole-book continuity and final edit pending |
 | III | The Place That Moved | 3,180 | Second compression pass complete; whole-book continuity pending |
 | IV | The Promises That Keep | 3,413 | Focused in-chapter compression complete; relationship continuity pending |
 | V | Four Mansions | 4,408 | Focused in-chapter compression complete; residential and relationship continuity pending |
@@ -56,7 +56,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 | VIII | A Day in the Open Pavilion | 3,679 | Focused in-chapter compression complete; relationship continuity pending |
 | IX | The Narrow Turn | 3,744 | Focused in-chapter compression complete; scene clarity and repeatability continuity pending |
 
-**Current total:** 33,723 narrative words across nine chapters after the first body-level line-edit pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
+**Current total:** 33,723 narrative words across nine chapters after the focused in-chapter compression pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
 
 ## Active Book II threads
 

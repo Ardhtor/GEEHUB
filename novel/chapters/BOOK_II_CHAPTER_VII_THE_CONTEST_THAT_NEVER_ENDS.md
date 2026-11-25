@@ -93,7 +93,7 @@ Andrew stared at him. “What was that for?”
 
 “Then write attempts. Don't put them in a column that looks like points.”
 
-Andrew wanted to argue. He liked the idea of a visible contest, something that could be beaten and improved. But he also knew that the marks had begun to change the way the men spoke. They were asking who had more, rather than what had worked. Joseph's bench had been praised for its craft, then overlooked because it did not fit the new tally. Michael's lift had become the thing everyone wanted to repeat, whether or not he wanted to do it again.
+Andrew wanted to argue. He liked the idea of a visible contest, something that could be beaten and improved. But he also knew that the marks had begun to change the way the men spoke. They were asking who had more, rather than what had worked. Joseph's bench had been praised for its craft, then overlooked because it did not fit the new tally.
 
 Robert suggested that the board should have different kinds of entries. A route could have a clean passage record; a design could have a best-fit version; a demonstration could have a verified result; a recovery method could be preserved because it helped the men continue. None of those needed to be converted into one number. The board could show what a man had done without pretending that every achievement could be compared on the same scale.
 

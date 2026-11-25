@@ -43,8 +43,8 @@ def _add_blob(meta, name, center, radius, scale):
 
 def _anatomy_surface(name="GEEHUB / unified humanoid"):
     meta = bpy.data.metaballs.new(name + " / fused anatomy")
-    meta.resolution = 0.075
-    meta.render_resolution = 0.045
+    meta.resolution = 0.06
+    meta.render_resolution = 0.032
     meta.threshold = 0.62
     obj = bpy.data.objects.new(name + " / fused mesh", meta)
     bpy.context.collection.objects.link(obj)

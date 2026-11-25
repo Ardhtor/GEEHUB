@@ -1,0 +1,18 @@
+{
+  "schema": "geehub.provenance/1",
+  "project_id": "luke-library-transformation",
+  "assets": [
+    {
+      "id": "luke-before-after-reference",
+      "role": "reference",
+      "origin": {
+        "provider": "ChatGPT Library",
+        "file_id": "file_00000000915081f5b7e06f22fa8a8556",
+        "filename": "Neon Love Potion Muscle Transformation.png"
+      },
+      "verification_status": "media-inspected",
+      "notes": "One static composition contains both the smaller before inset and larger after result. This is endpoint evidence, not a source video or motion-capture sequence."
+    }
+  ],
+  "preservation_policy": "Keep the original Library reference immutable. Generated interpolation frames, Blender scenes and rendered videos are separate derivatives with their own provenance and checksums."
+}

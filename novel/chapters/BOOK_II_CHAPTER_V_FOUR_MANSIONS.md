@@ -136,18 +136,9 @@ The conversation was interrupted by the sound of a dish being set down in the co
 
 Kirk did not ask him to stay. He walked with him to the shared green and then returned to the House of Returns when Joseph went inside. The visit had been ordinary, which was exactly what Joseph wanted.
 
-They did not spend the whole evening talking about Andrew. They spoke about the earlier promises they had made, about the things that had changed, and about the difference between having a place and being able to return to it. Joseph admitted that Andrew's sudden abundance of attention had made him feel less able to approach Kirk without interrupting. He did not ask Kirk to send Andrew away. He asked whether the time they had promised to one another could remain real even when someone else wanted it.
+Joseph admitted that Andrew's sudden abundance of attention had made him feel less able to approach Kirk without interrupting. He did not ask Kirk to send Andrew away. He asked that a visit already promised should not become provisional merely because another request arrived later.
 
-Kirk answered that it could. He would not make Joseph compete for a promise already given, and he would not ask Andrew to pretend that he did not want closeness. The work would be to speak plainly about time, ask before interrupting, and accept that a person's affection for one man did not cancel the life he shared with another. Joseph said that was what he wanted: not a victory, but a relationship that could still be lived without continually defending its place.
-
-
-Joseph let the answer settle before he replied. He did not ask Kirk to choose between men or to make a rule that would keep Andrew away. He asked for something more modest and more difficult: that a visit already promised should not become provisional merely because another request arrived later. Kirk agreed. If he had promised Joseph an evening, he would keep it unless something important changed. If he needed to change the plan, he would say so directly rather than letting the time disappear.
-
-Joseph asked whether Kirk would tell Andrew the same thing.
-
-“I will tell him what concerns him,” Kirk said. “I won't make you responsible for explaining my boundaries.”
-
-That mattered to Joseph. He did not want to become the messenger between two men who both wanted Kirk's attention. He wanted to be able to speak for himself and to trust Kirk to speak for himself. They sat by the hearth until the fire settled. The conversation did not resolve every feeling, but it gave Joseph a way to remain in the relationship without turning each evening into a defence of his place.
+Kirk agreed. He would keep the time he had promised unless something important changed, and if a plan had to change, he would say so directly. He would speak to Andrew about his own boundaries rather than making Joseph the messenger. Joseph wanted to be able to speak for himself and trust Kirk to do the same. They sat by the hearth until the fire settled. The conversation did not resolve every feeling, but it gave Joseph a way to remain in the relationship without continually defending his place.
 
 The next morning Andrew waited at the common pavilion. He had brought the baseball and a new map, but he did not immediately call Kirk. He watched the four houses wake in their separate ways. Robert opened the library windows. Chase carried two versions of the same map to the archive terrace. Gabe crossed the garden with a cup of coffee and left the training court empty. Joseph came out of the House of Returns and walked toward the long table.
 

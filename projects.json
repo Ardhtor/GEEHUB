@@ -2324,5 +2324,28 @@
       "visual-corpus"
     ],
     "analysis_path": "/library-import/muscle-growth-transformation-analysis.md"
+  },
+  {
+    "id": "luke-library-transformation",
+    "name": "Luke — Library Muscle-Growth Transformation",
+    "status": "active",
+    "kind": "production-project",
+    "path": "/production/projects/luke-library-transformation/",
+    "description": "Executable eight-second, 240-frame Blender project built around the Library's explicit same-Luke before/after composition. Fixed frontal camera, grey tank and dark shorts, sixteen regional growth curves, separate garment deformation and a final hold. Procedural mesh likeness and Blender render validation remain pending.",
+    "related": [
+      "luke-inside",
+      "library-reference-archive",
+      "growth-study-001",
+      "geehub-studio"
+    ],
+    "tags": [
+      "Luke",
+      "muscle-growth",
+      "transformation",
+      "Blender",
+      "video",
+      "production",
+      "Library"
+    ]
   }
 ]

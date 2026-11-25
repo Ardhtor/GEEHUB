@@ -104,6 +104,14 @@
         "filename": "Neon Love Potion Muscle Transformation.png",
         "role": "paired before/after endpoint reference",
         "verification_status": "media-inspected"
+      },
+      {
+        "provider": "ChatGPT Library",
+        "file_id": "file_00000000f89481f583d665c82eea2080",
+        "filename": "Superbodybuilder Gym Transformation Montage.png",
+        "role": "supporting multi-angle pose and surface detail reference",
+        "verification_status": "media-inspected",
+        "identity_status": "visual-continuity-candidate"
       }
     ]
   },

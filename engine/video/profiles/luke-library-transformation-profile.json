@@ -56,6 +56,48 @@
       "source_message_time": "2026-11-25T17:44:30Z",
       "name": "User-designated Luke gym physique reference",
       "note": "User supplied this full-body front-facing gym image with the instruction 'more for luke'. Use it as a high-stage physique, stance, grey fitted tank and dark short shorts reference. It is not the paired before/after endpoint and has not been copied into production/01_SOURCE."
+    },
+    {
+      "role": "visual_continuity_candidate",
+      "provider": "ChatGPT Library",
+      "file_id": "file_00000000190c81f5931790e112ff6f91",
+      "name": "Monstrous Bodybuilder in a Dark Gym.png",
+      "note": "Candidate match only; not confirmed Luke identity or a numbered stage. Extreme upper- and lower-body mass; grey stringer and flag-pattern shorts."
+    },
+    {
+      "role": "visual_continuity_candidate",
+      "provider": "ChatGPT Library",
+      "file_id": "file_0000000018a481f58571759993ef542a",
+      "name": "Giant Bodybuilder in Industrial Gym.png",
+      "note": "Candidate match only; not confirmed Luke identity or a numbered stage. Full-body industrial-gym view with grey tank and flag-pattern shorts."
+    },
+    {
+      "role": "visual_continuity_candidate",
+      "provider": "ChatGPT Library",
+      "file_id": "file_00000000c5f481f5968b9771a1e51940",
+      "name": "Titanic Bodybuilder in an Industrial Gym.png",
+      "note": "Candidate match only; not confirmed Luke identity or a numbered stage. Similar frontal presentation, face/hair/beard and expanded whole-body proportions."
+    },
+    {
+      "role": "visual_continuity_candidate",
+      "provider": "ChatGPT Library",
+      "file_id": "file_00000000e3ec820ea9080ebdbeb86770",
+      "name": "Colossal Bodybuilder in Industrial Gym.png",
+      "note": "Candidate match only; not confirmed Luke identity or a numbered stage. More exaggerated whole-body scale with grey stringer and flag-pattern shorts."
+    },
+    {
+      "role": "visual_continuity_candidate",
+      "provider": "ChatGPT Library",
+      "file_id": "file_00000000707081f69582284edeac413a",
+      "name": "Giant Hairy Strongman in Industrial Gym.png",
+      "note": "Candidate match only; not confirmed Luke identity or a numbered stage. Full-body view useful for proportion, clothing and surface detail comparison."
+    },
+    {
+      "role": "visual_continuity_candidate",
+      "provider": "ChatGPT Library",
+      "file_id": "file_00000000a6b081f59b395067922830dc",
+      "name": "Towering Hyper-Muscular Gym Athlete.png",
+      "note": "Candidate match only; not confirmed Luke identity or a numbered stage. Strongest visual echo of the 2026-11-25 user-designated Luke image; curly light-brown hair, trimmed beard and grey tank."
     }
   ],
   "timebase": {

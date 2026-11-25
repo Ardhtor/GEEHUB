@@ -1,8 +1,6 @@
 # GEEHUB — Repository Navigation
 
 **Current tree:** 129 directories · 2755 files · 2884 entries  
-**Tree revision:** `3402108adcd0dc7a90833f127c36afb543a550c0`
-
 Start with the [Project Workbench](PROJECT_WORKBENCH.md) to resume active work, the [Hub](../hub/index.html) to enter the workspace, or the [root overview](../README.md) for the main routes. This map is generated from the current repository tree. Each folder links to its local README when available; otherwise it opens the folder.
 
 ## Core entry points

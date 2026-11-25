@@ -166,21 +166,19 @@ Michael sat down. The bench gave a quiet creak, then held.
 
 “Better,” he said.
 
-They stayed on the bench for a few minutes. Michael's breathing had settled, and the pressure across his shoulders had eased. He rolled one wrist, then the other, and watched Joseph check the wedge from the side. The work was small enough that nobody needed to applaud it. The bench had been moved, found unstable, and made useful again. That was all.
+They stayed on the bench while Joseph checked the wedge from the side. Michael's breathing settled, and he rolled one wrist, then the other. The work was small enough that nobody needed to applaud it: the bench had shifted, been found unstable, and been made useful again.
 
-Michael liked that kind of work. He had spent enough time in places where every physical act became a comparison. Here, a strong man could use his strength to hold something still while another man made a careful adjustment. Nobody had to be the strongest person in the room for the job to be done well.
+Michael liked that kind of work. He had spent enough time in places where every physical act became a comparison. Here, a strong man could hold something still while another made a careful adjustment. Nobody had to be the strongest person in the room for the job to be done well.
 
 Joseph asked whether he wanted to return to the pavilion.
 
 “In a minute,” Michael said. “I want to see if it stays level when we both sit.”
 
-They sat again. The bench held. Joseph nodded, satisfied, and Michael stood without making the movement a display. They returned together by the covered walk.
-
-“You're a severe test.”
+Joseph sat at the other end. The bench held. “You're a severe test,” he said.
 
 “I've been called worse.”
 
-Joseph laughed. He sat at the other end, and for a little while they watched the eastern hollow through the open side of the passage. The afternoon light had changed the colour of the timber. A few men were crossing the far path, but nobody was hurrying. The bench had been made for precisely this: a place where a man could stop without turning the stop into a failure.
+Joseph laughed. They watched the eastern hollow through the open side of the passage. The afternoon light had changed the colour of the timber, and a few men crossed the far path without hurrying.
 
 “You could have gone back to the pavilion,” Joseph said.
 
@@ -190,7 +188,7 @@ Joseph laughed. He sat at the other end, and for a little while they watched the
 
 “Now it's right.”
 
-Joseph nodded. He did not ask Michael to explain why he had stayed. They sat until the shade moved across the boards, then returned by the covered walk.
+Joseph nodded. He did not ask Michael to explain why he had stayed. They returned together by the covered walk.
 
 Andrew had found a new use for the frame. He wanted to carry it through the western opening once more, but this time without a spoken count. The two carriers would have to listen to one another's movement and keep the corners level through the turn. Michael agreed to take one end. Andrew took the other.
 

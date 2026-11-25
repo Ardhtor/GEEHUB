@@ -112,3 +112,9 @@ Treat Stage 10 as a later optional branch rather than assuming it must be the ne
 ## Limits of this pass
 
 This document covers 18 selected images inspected visually. The full 270-image manifest remains a discovery index, not a claim of complete visual analysis. Some images contain exaggerated fictional measurements or stylized anatomy; those values are preserved as source text only and are not treated as factual biometric data.
+
+## Executable first-pass profile
+
+The first Luke-specific procedural profile now lives at `engine/video/profiles/luke-library-transformation-profile.json`, paired with `luke-library-transformation-timeline.json`. It samples an eight-second, 30 fps passage (240 frames) across 16 regional controls: pectorals, deltoids, traps, biceps, triceps, forearms, arms, lats, back, torso, abdominals, glutes, quadriceps, hamstrings, calves and whole body. Its curves are normalized procedural authoring values, not measured body dimensions.
+
+The renderer's Blender shape-key fields have been expanded to include those 16 regions. A GitHub Actions validation workflow now compiles the renderer modules, checks the profile/timeline contract, and runs renderer-independent curve tests. These checks can validate code and timing data; they do not establish that Blender renders the desired Luke likeness or that the current blockout is anatomically finished.

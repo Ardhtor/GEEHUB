@@ -92,6 +92,19 @@
       "verification": [
         "Separate audio stem if later requested"
       ]
+    },
+    {
+      "id": "luke-pose-detail-reference",
+      "kind": "supporting-reference-image",
+      "required": false,
+      "status": "library-reference-indexed",
+      "destination": "01_SOURCE/",
+      "source_ref": "ChatGPT Library file file_00000000f89481f583d665c82eea2080",
+      "verification": [
+        "Front, rear and side pose detail",
+        "Hair/beard/grey tank visual comparison"
+      ],
+      "notes": "Strong visual resemblance to Luke, but no explicit Luke label is visible. Use as supporting pose and surface reference only."
     }
   ],
   "provenance_rule": "Preserve the Library original. Do not mark generated frames, scene files, previews or masters as rendered or verified until they exist and have been inspected."

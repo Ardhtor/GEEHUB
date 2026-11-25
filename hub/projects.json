@@ -2214,5 +2214,30 @@
       "luke-inside",
       "beefythiq"
     ]
+  },
+  {
+    "id": "luke-library-transformation",
+    "name": "Luke — Library Muscle-Growth Transformation",
+    "group": "production",
+    "status": "active",
+    "kind": "production-project",
+    "path": "../production/projects/luke-library-transformation/README.md",
+    "summary": "Eight-second fixed-camera Luke growth pass with 16 regional controls and a renderable Blender project.",
+    "description": "Directly connects the Library before/after pair to a frame-accurate Blender production package. Uses a fixed full-body camera, grey tank, dark shorts, sixteen independently controlled regional shape keys and separate garment deformation. The base mesh is still a neutral procedural stand-in; source-fitted identity and render review are pending.",
+    "tags": [
+      "Luke",
+      "muscle-growth",
+      "transformation",
+      "Blender",
+      "video",
+      "production",
+      "Library"
+    ],
+    "related": [
+      "luke-inside",
+      "library-reference-archive",
+      "growth-study-001",
+      "geehub-studio"
+    ]
   }
 ]

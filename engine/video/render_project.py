@@ -77,8 +77,9 @@ def validate(project: Path) -> tuple[dict, dict]:
     if curve_errors:
         raise ValueError("Invalid growth profile: " + "; ".join(curve_errors))
     required_regions = {"pectorals", "deltoids", "traps", "arms", "lats", "back", "torso", "quadriceps", "calves", "whole_body"}
-    if set(curves) != required_regions:
-        raise ValueError("Growth profile regions do not match the renderer deformation channels")
+    supported_regions = required_regions | {"biceps", "triceps", "forearms", "abdominals", "glutes", "hamstrings"}
+    if not required_regions.issubset(curves) or not set(curves).issubset(supported_regions):
+        raise ValueError("Growth profile must include the core channels and use only supported renderer regions")
     return manifest, timeline
 
 
@@ -114,9 +115,10 @@ def main() -> int:
     exports.mkdir(parents=True, exist_ok=True)
     composites.mkdir(parents=True, exist_ok=True)
     preview = args.preview_seconds if args.preview_seconds and args.preview_seconds > 0 else None
-    default_name = f"Laboratory-Serum-preview-{preview:g}s.mp4" if preview else "Laboratory-Serum-60s.mp4"
+    project_slug = project.name
+    default_name = f"{project_slug}-preview-{preview:g}s.mp4" if preview else f"{project_slug}-master.mp4"
     output = args.output.resolve() if args.output else exports / default_name
-    blend = composites / "Laboratory-Serum-60s.blend"
+    blend = composites / f"{project_slug}.blend"
     command = [
         blender, "--background", "--python", str(HERE / "blender_scene.py"), "--",
         "--manifest", str(project / "production.json"),

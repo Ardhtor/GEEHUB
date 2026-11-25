@@ -3,7 +3,7 @@
 **Audit date:** 2026-11-25  
 **Audited ref:** `main` at `b5c7872dc08f596c66f7cc4fc1374fe86eb2c152`  
 **Safety snapshot:** branch `pre-cleanup-freeze`, created from `main` before cleanup edits  
-**Status:** audit only; no source paths moved or deleted
+**Status:** audit recorded; first path move completed on the safety branch
 
 ## Scope and measurement limits
 
@@ -104,7 +104,7 @@ Duplicate detection used Git blob SHA, which identifies byte-identical tracked f
 
 A prominent, systematic pattern is mirrored event data: 370 byte-identical event files occur in both `artifacts/` and `dropbox_outbox/`. These are likely an intentional handoff/replication pattern, not proof that either copy is disposable. Inspect the outbox contract, delivery status, and consumers before choosing one canonical payload and replacing the other with a pointer or manifest. Other exact duplicate groups include repeated manuscript/template material and should be individually classified. Same-name files such as `BUILD_NARRATIVE.md` and `SENSATION_ENGINE.md` also exist in root and `docs/`; compare their blob hashes and references before deciding whether one is a pointer.
 
-No duplicate files were deleted or rewritten during this audit.
+No duplicate files were deleted or rewritten during this audit. The first directory move was `KINGDOM_LAND/` to `archive/kingdom-land/`; all three original file blobs were reused unchanged in commit `e79514aab927ec47df29b036d6a299e067e51f00`.
 
 ## README coverage
 

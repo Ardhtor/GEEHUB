@@ -28,6 +28,8 @@ jobs:
         run: python -m py_compile engine/video/growth_curves.py engine/video/timeline_growth.py
       - name: Validate Luke profile and run growth curve tests
         run: python -m unittest discover -s engine/video/tests -p "test_growth_curves.py" -v
+      - name: Validate executable Luke production project
+        run: python engine/video/render_project.py --project production/projects/luke-library-transformation --validate-only
       - name: Validate profile and timeline JSON
         run: |
           python - <<'PY'

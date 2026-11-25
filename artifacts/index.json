@@ -21244,6 +21244,96 @@
       "canon": "unclassified",
       "dreamable": true,
       "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "activity-world-pulse-000378",
+      "created_at": "2026-11-25T16:41:58.912124+00:00",
+      "source": "tractus-world-engine",
+      "kind": "activity-event",
+      "title": "FOUNDERS DORMITORY",
+      "content": "SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "lineage": {
+        "event_id": "world-pulse-000378",
+        "event": {
+          "id": "world-pulse-000378",
+          "pulse": 378,
+          "time": "2026-11-25T16:41:58.912124+00:00",
+          "actor": "LUKE",
+          "world": "FOUNDERS DORMITORY",
+          "region_id": "founders-dormitory",
+          "previous_region_id": "founders-dormitory",
+          "phase": "ATMOSPHERE",
+          "source": "worlds/founders-dormitory/README.md",
+          "desire_state": "attention",
+          "action": "SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+          "narrative_rule": "approach extends geography",
+          "relation": null,
+          "next_region": null,
+          "pressure": 1.0,
+          "memory": 1.0,
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-25T16:41:58.912124+00:00",
+          "inscription": "same-event",
+          "inscription_source": "tractus-world-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
+    },
+    {
+      "id": "world-production-000378",
+      "created_at": "2026-11-25T16:41:58.912124+00:00",
+      "source": "GEEHUB autonomous world engine",
+      "kind": "world-production",
+      "title": "ATMOSPHERE / FOUNDERS DORMITORY / worlds/founders-dormitory/README.md",
+      "content": "SETH: Founders Dormitory gathers around a sheltered quadrangle of brick, oak and climbing ivy. Warm light falls from the common rooms; shoes wait by the entrance, mugs dry beside the shared kitchen sink, and jackets hang over chair backs.\n\nNICK: Nothing needs to happen for this place to keep existing. The weather, surfaces, distance, and quiet sounds are part of the record too.",
+      "production_note": "The world resolved its atmosphere rule and retained the earlier state.",
+      "lineage": {
+        "pulse": 378,
+        "actor": "LUKE",
+        "world": "FOUNDERS DORMITORY",
+        "region_id": "founders-dormitory",
+        "source": "worlds/founders-dormitory/README.md",
+        "phase": "ATMOSPHERE",
+        "relation": null
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue the retained world state"
+    },
+    {
+      "id": "activity-northgate-campus-00209",
+      "created_at": "2026-11-25T16:41:58.997452+00:00",
+      "source": "northgate-campus-engine",
+      "kind": "activity-event",
+      "title": "THE QUAD BETWEEN LECTURES",
+      "content": "A group of students leaves the engineering lecture hall together. One carries a model under his arm; another is still explaining why the bridge supports need to be moved. They settle beneath the plane trees and the discussion becomes less formal, turning into plans for the afternoon.",
+      "lineage": {
+        "event_id": "northgate-campus-00209",
+        "event": {
+          "id": "northgate-campus-00209",
+          "cycle": 209,
+          "world_pulse": 378,
+          "at": "2026-11-25T16:41:58.997452+00:00",
+          "region": "northgate-university",
+          "title": "THE QUAD BETWEEN LECTURES",
+          "kind": "study",
+          "participants": [
+            "Dan Roman",
+            "Marek Ionescu",
+            "Elliot Ward"
+          ],
+          "description": "A group of students leaves the engineering lecture hall together. One carries a model under his arm; another is still explaining why the bridge supports need to be moved. They settle beneath the plane trees and the discussion becomes less formal, turning into plans for the afternoon.",
+          "status": "OCCURRED_AND_INSCRIBED",
+          "occurred_at": "2026-11-25T16:41:58.997452+00:00",
+          "inscription": "same-event",
+          "inscription_source": "northgate-campus-engine"
+        }
+      },
+      "canon": "unclassified",
+      "dreamable": true,
+      "next_action": "continue from this event's changed world state"
     }
   ]
 }

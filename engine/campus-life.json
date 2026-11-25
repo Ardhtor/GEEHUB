@@ -1,6 +1,25 @@
 {
-  "cycle": 208,
+  "cycle": 209,
   "events": [
+    {
+      "id": "northgate-campus-00209",
+      "cycle": 209,
+      "world_pulse": 378,
+      "at": "2026-11-25T16:41:58.997452+00:00",
+      "region": "northgate-university",
+      "title": "THE QUAD BETWEEN LECTURES",
+      "kind": "study",
+      "participants": [
+        "Dan Roman",
+        "Marek Ionescu",
+        "Elliot Ward"
+      ],
+      "description": "A group of students leaves the engineering lecture hall together. One carries a model under his arm; another is still explaining why the bridge supports need to be moved. They settle beneath the plane trees and the discussion becomes less formal, turning into plans for the afternoon.",
+      "status": "OCCURRED_AND_INSCRIBED",
+      "occurred_at": "2026-11-25T16:41:58.997452+00:00",
+      "inscription": "same-event",
+      "inscription_source": "northgate-campus-engine"
+    },
     {
       "id": "northgate-campus-00208",
       "cycle": 208,
@@ -3939,28 +3958,28 @@
     }
   ],
   "attendance": {
-    "Dan Roman": 160,
-    "Marek Ionescu": 112,
-    "Elliot Ward": 128,
+    "Dan Roman": 161,
+    "Marek Ionescu": 113,
+    "Elliot Ward": 129,
     "Noah Bell": 128,
     "Adrian Varga": 128
   },
   "last_event": {
-    "id": "northgate-campus-00208",
-    "cycle": 208,
-    "world_pulse": 377,
-    "at": "2026-11-25T12:38:06.183691+00:00",
-    "region": "northgate-library",
-    "title": "THE ARCHIVE IS OPEN",
-    "kind": "archive",
+    "id": "northgate-campus-00209",
+    "cycle": 209,
+    "world_pulse": 378,
+    "at": "2026-11-25T16:41:58.997452+00:00",
+    "region": "northgate-university",
+    "title": "THE QUAD BETWEEN LECTURES",
+    "kind": "study",
     "participants": [
+      "Dan Roman",
       "Marek Ionescu",
-      "Elliot Ward",
-      "Dan Roman"
+      "Elliot Ward"
     ],
-    "description": "A student brings an old campus photograph into the archive room. The group identifies the building in the background and discovers that the covered passage once connected to a workshop that has since become the media suite. The university gains another small piece of its own memory.",
+    "description": "A group of students leaves the engineering lecture hall together. One carries a model under his arm; another is still explaining why the bridge supports need to be moved. They settle beneath the plane trees and the discussion becomes less formal, turning into plans for the afternoon.",
     "status": "OCCURRED_AND_INSCRIBED",
-    "occurred_at": "2026-11-25T12:38:06.183691+00:00",
+    "occurred_at": "2026-11-25T16:41:58.997452+00:00",
     "inscription": "same-event",
     "inscription_source": "northgate-campus-engine"
   },

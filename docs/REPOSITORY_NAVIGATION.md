@@ -1,153 +1,150 @@
 # GEEHUB — Repository Navigation
 
-**Branch:** `main`  
-**Indexed commit:** `c96da3cc920b9b7c055fed7f59501c8810623553`  
-**Current tree:** 126 directories and 2397 tracked files.
+**Current tree:** 129 directories · 2755 files · 2884 entries  
+**Tree revision:** `3402108adcd0dc7a90833f127c36afb543a550c0`
 
-This is the central directory map. Every folder has a local `README.md` landing page. Open a folder below to browse its immediate files and child folders; use its breadcrumb to move upward. The [Project Workbench](PROJECT_WORKBENCH.md) is the practical resume map for projects already underway. These indexes add navigation only: they do not move, rename, compress, or replace project assets.
+Start with the [Project Workbench](PROJECT_WORKBENCH.md) to resume active work, the [Hub](../hub/index.html) to enter the workspace, or the [root overview](../README.md) for the main routes. This map is generated from the current repository tree. Each folder links to its local README when available; otherwise it opens the folder.
 
-## Start here
+## Core entry points
 
-- [Project Workbench](PROJECT_WORKBENCH.md) — project entry points, current state, and next useful action.
-- [Tractus Protection Architecture](TRACTUS_PROTECTION_ARCHITECTURE.md)\n- [Recovery Continuity Index](../recovery/index.json) — linked GitHub revision, artifact registry, Dropbox snapshots, and restoration evidence. — the governing safeguards for data, canon, permissions, publication, and recovery.
-- [Root overview](../README.md) — purpose and continuity principles.
-- [Hub browser](../hub/index.html) — interactive project constellation.
-- [Project registry](../projects.json) · [Hub display registry](../hub/projects.json).
-- [Docs](README.md) · [Lore](../lore/README.md) · [Novel](../novel/README.md) · [Engine](../engine/README.md) · [Worlds](../worlds/README.md) · [Production](../production/README.md).
+- [Project Workbench](PROJECT_WORKBENCH.md)
+- [Universal Growth Engine](GROWTH.md)
+- [Tractus Continuity Contract](TRACTUS_CONTINUITY_CONTRACT.md)
+- [Protection Architecture](TRACTUS_PROTECTION_ARCHITECTURE.md)
+- [File Analysis Standard](FILE_ANALYSIS_STANDARD.md)
+- [Dropbox Corpus Map](DROPBOX_CORPUS_MAP.md)
+- [Project Atlas](../PROJECT_ATLAS.md)
+- [Hub](../hub/index.html)
 
-## Directory hierarchy
+## Directory map
 
-- [`.geehub/`](../.geehub/README.md) — 1 direct files · 0 child directories
-- [`.github/`](../.github/README.md) — 1 direct files · 1 child directories
-  - [`.github/workflows/`](../.github/workflows/README.md) — 12 direct files · 0 child directories
-- [`KINGDOM_LAND/`](../KINGDOM_LAND/README.md) — 3 direct files · 0 child directories
-- [`archive/`](../archive/README.md) — 4 direct files · 2 child directories
-  - [`archive/adult-gay-visual-loop/`](../archive/adult-gay-visual-loop/README.md) — 1 direct files · 0 child directories
-  - [`archive/male-harem/`](../archive/male-harem/README.md) — 4 direct files · 1 child directories
-    - [`archive/male-harem/language/`](../archive/male-harem/language/README.md) — 1 direct files · 0 child directories
-- [`artifacts/`](../artifacts/README.md) — 4 direct files · 2 child directories
-  - [`artifacts/activity-events/`](../artifacts/activity-events/README.md) — 173 direct files · 0 child directories
-  - [`artifacts/world-events/`](../artifacts/world-events/README.md) — 263 direct files · 0 child directories
-- [`characters/`](../characters/README.md) — 1 direct files · 1 child directories
-  - [`characters/records/`](../characters/records/README.md) — 16 direct files · 0 child directories
-- [`corpus/`](../corpus/README.md) — 10 direct files · 3 child directories
-  - [`corpus/exchange/`](../corpus/exchange/README.md) — 2 direct files · 0 child directories
-  - [`corpus/images/`](../corpus/images/README.md) — 1 direct files · 0 child directories
-  - [`corpus/sources/`](../corpus/sources/README.md) — 2 direct files · 0 child directories
-- [`creations/`](../creations/README.md) — 3 direct files · 0 child directories
-- [`creative/`](../creative/README.md) — 7 direct files · 2 child directories
-  - [`creative/joseph-prever-many-faces/`](../creative/joseph-prever-many-faces/README.md) — 3 direct files · 1 child directories
-    - [`creative/joseph-prever-many-faces/repo/`](../creative/joseph-prever-many-faces/repo/README.md) — 1 direct files · 0 child directories
-  - [`creative/measure-between-us/`](../creative/measure-between-us/README.md) — 1 direct files · 1 child directories
-    - [`creative/measure-between-us/repos/`](../creative/measure-between-us/repos/README.md) — 1 direct files · 4 child directories
-      - [`creative/measure-between-us/repos/andrew-field/`](../creative/measure-between-us/repos/andrew-field/README.md) — 1 direct files · 0 child directories
-      - [`creative/measure-between-us/repos/chase-book/`](../creative/measure-between-us/repos/chase-book/README.md) — 1 direct files · 0 child directories
-      - [`creative/measure-between-us/repos/luke-inside/`](../creative/measure-between-us/repos/luke-inside/README.md) — 1 direct files · 0 child directories
-      - [`creative/measure-between-us/repos/tyler-measurement/`](../creative/measure-between-us/repos/tyler-measurement/README.md) — 1 direct files · 0 child directories
-- [`data/`](../data/README.md) — 2 direct files · 0 child directories
-- [`deep-lore/`](../deep-lore/README.md) — 2 direct files · 0 child directories
-- [`docs/`](../docs/README.md) — 70 direct files · 0 child directories
-- [`downloads/`](../downloads/README.md) — 2 direct files · 0 child directories
-- [`dropbox_outbox/`](../dropbox_outbox/README.md) — 432 direct files · 0 child directories
-- [`engine/`](../engine/README.md) — 120 direct files · 8 child directories
-  - [`engine/artifacts/`](../engine/artifacts/README.md) — 3 direct files · 0 child directories
-  - [`engine/audio/`](../engine/audio/README.md) — 10 direct files · 0 child directories
-  - [`engine/narrative_container/`](../engine/narrative_container/README.md) — 9 direct files · 0 child directories
-  - [`engine/presets/`](../engine/presets/README.md) — 3 direct files · 0 child directories
-  - [`engine/schemas/`](../engine/schemas/README.md) — 4 direct files · 0 child directories
-  - [`engine/stories/`](../engine/stories/README.md) — 3 direct files · 0 child directories
-  - [`engine/video/`](../engine/video/README.md) — 28 direct files · 6 child directories
-    - [`engine/video/assets/`](../engine/video/assets/README.md) — 3 direct files · 0 child directories
-    - [`engine/video/blender/`](../engine/video/blender/README.md) — 3 direct files · 0 child directories
-    - [`engine/video/presets/`](../engine/video/presets/README.md) — 3 direct files · 0 child directories
-    - [`engine/video/schemas/`](../engine/video/schemas/README.md) — 6 direct files · 0 child directories
-    - [`engine/video/templates/`](../engine/video/templates/README.md) — 2 direct files · 0 child directories
-    - [`engine/video/tests/`](../engine/video/tests/README.md) — 2 direct files · 0 child directories
-  - [`engine/voices/`](../engine/voices/README.md) — 4 direct files · 0 child directories
-- [`events/`](../events/README.md) — 2 direct files · 0 child directories
-- [`experiences/`](../experiences/README.md) — 6 direct files · 3 child directories
-  - [`experiences/hewn-threshold/`](../experiences/hewn-threshold/README.md) — 4 direct files · 0 child directories
-  - [`experiences/sacred-corridor/`](../experiences/sacred-corridor/README.md) — 4 direct files · 0 child directories
-  - [`experiences/size-domination-emulator/`](../experiences/size-domination-emulator/README.md) — 4 direct files · 0 child directories
-- [`film/`](../film/README.md) — 2 direct files · 0 child directories
-- [`geo-cyberspace/`](../geo-cyberspace/README.md) — 12 direct files · 0 child directories
-- [`hub/`](../hub/README.md) — 84 direct files · 1 child directories
-  - [`hub/recordings/`](../hub/recordings/README.md) — 207 direct files · 0 child directories
-- [`library-import/`](../library-import/README.md) — 4 direct files · 0 child directories
-- [`lore/`](../lore/README.md) — 58 direct files · 8 child directories
-  - [`lore/dad-convent/`](../lore/dad-convent/README.md) — 5 direct files · 0 child directories
-  - [`lore/dimension/`](../lore/dimension/README.md) — 20 direct files · 0 child directories
-  - [`lore/growth/`](../lore/growth/README.md) — 3 direct files · 0 child directories
-  - [`lore/joey-colossus/`](../lore/joey-colossus/README.md) — 10 direct files · 0 child directories
-  - [`lore/mexiancas/`](../lore/mexiancas/README.md) — 6 direct files · 0 child directories
-  - [`lore/novel/`](../lore/novel/README.md) — 13 direct files · 0 child directories
-  - [`lore/spellcasters-circle/`](../lore/spellcasters-circle/README.md) — 2 direct files · 0 child directories
-  - [`lore/veyrthalis/`](../lore/veyrthalis/README.md) — 18 direct files · 0 child directories
-- [`media/`](../media/README.md) — 7 direct files · 0 child directories
-- [`music/`](../music/README.md) — 2 direct files · 0 child directories
-- [`novel/`](../novel/README.md) — 53 direct files · 3 child directories
-  - [`novel/chapters/`](../novel/chapters/README.md) — 7 direct files · 0 child directories
-  - [`novel/experience/`](../novel/experience/README.md) — 2 direct files · 0 child directories
-  - [`novel/spinoffs/`](../novel/spinoffs/README.md) — 2 direct files · 0 child directories
-- [`production/`](../production/README.md) — 1 direct files · 5 child directories
-  - [`production/assets/`](../production/assets/README.md) — 1 direct files · 1 child directories
-    - [`production/assets/hulums-cave/`](../production/assets/hulums-cave/README.md) — 1 direct files · 1 child directories
-      - [`production/assets/hulums-cave/dim-path/`](../production/assets/hulums-cave/dim-path/README.md) — 4 direct files · 0 child directories
-  - [`production/growth-study-001/`](../production/growth-study-001/README.md) — 16 direct files · 0 child directories
-  - [`production/intake/`](../production/intake/README.md) — 1 direct files · 1 child directories
-    - [`production/intake/2026-11-03/`](../production/intake/2026-11-03/README.md) — 4 direct files · 0 child directories
-  - [`production/projects/`](../production/projects/README.md) — 1 direct files · 2 child directories
-    - [`production/projects/hulums-lab-serum-60s/`](../production/projects/hulums-lab-serum-60s/README.md) — 3 direct files · 1 child directories
-      - [`production/projects/hulums-lab-serum-60s/07_MANIFESTS/`](../production/projects/hulums-lab-serum-60s/07_MANIFESTS/README.md) — 5 direct files · 0 child directories
-    - [`production/projects/teal-titan-golds-on-5th/`](../production/projects/teal-titan-golds-on-5th/README.md) — 11 direct files · 7 child directories
-      - [`production/projects/teal-titan-golds-on-5th/01_SOURCE/`](../production/projects/teal-titan-golds-on-5th/01_SOURCE/README.md) — 1 direct files · 0 child directories
-      - [`production/projects/teal-titan-golds-on-5th/02_FRAMES/`](../production/projects/teal-titan-golds-on-5th/02_FRAMES/README.md) — 1 direct files · 0 child directories
-      - [`production/projects/teal-titan-golds-on-5th/03_GROWTH_PASSES/`](../production/projects/teal-titan-golds-on-5th/03_GROWTH_PASSES/README.md) — 1 direct files · 0 child directories
-      - [`production/projects/teal-titan-golds-on-5th/04_COMPOSITES/`](../production/projects/teal-titan-golds-on-5th/04_COMPOSITES/README.md) — 1 direct files · 0 child directories
-      - [`production/projects/teal-titan-golds-on-5th/05_EXPORTS/`](../production/projects/teal-titan-golds-on-5th/05_EXPORTS/README.md) — 1 direct files · 0 child directories
-      - [`production/projects/teal-titan-golds-on-5th/06_AUDIO/`](../production/projects/teal-titan-golds-on-5th/06_AUDIO/README.md) — 1 direct files · 0 child directories
-      - [`production/projects/teal-titan-golds-on-5th/07_MANIFESTS/`](../production/projects/teal-titan-golds-on-5th/07_MANIFESTS/README.md) — 4 direct files · 0 child directories
-  - [`production/templates/`](../production/templates/README.md) — 1 direct files · 1 child directories
-    - [`production/templates/short-form-video/`](../production/templates/short-form-video/README.md) — 4 direct files · 0 child directories
-- [`providers/`](../providers/README.md) — 2 direct files · 0 child directories
-- [`refresh/`](../refresh/README.md) — 2 direct files · 1 child directories
-  - [`refresh/references/`](../refresh/references/README.md) — 3 direct files · 0 child directories
-- [`research/`](../research/README.md) — 3 direct files · 5 child directories
-  - [`research/creators/`](../research/creators/README.md) — 4 direct files · 0 child directories
-  - [`research/discovery/`](../research/discovery/README.md) — 2 direct files · 0 child directories
-  - [`research/embodied-scale/`](../research/embodied-scale/README.md) — 3 direct files · 0 child directories
-  - [`research/hulums-cave/`](../research/hulums-cave/README.md) — 10 direct files · 0 child directories
-  - [`research/relationships/`](../research/relationships/README.md) — 2 direct files · 0 child directories
-- [`rooms/`](../rooms/README.md) — 2 direct files · 0 child directories
-- [`scripts/`](../scripts/README.md) — 10 direct files · 0 child directories
-- [`server/`](../server/README.md) — 2 direct files · 0 child directories
-- [`signals/`](../signals/README.md) — 1 direct files · 1 child directories
-  - [`signals/joseph/`](../signals/joseph/README.md) — 2 direct files · 0 child directories
-- [`worlds/`](../worlds/README.md) — 1 direct files · 12 child directories
-  - [`worlds/athletic-commons/`](../worlds/athletic-commons/README.md) — 1 direct files · 0 child directories
-  - [`worlds/bluewater-quay/`](../worlds/bluewater-quay/README.md) — 1 direct files · 0 child directories
-  - [`worlds/cabin/`](../worlds/cabin/README.md) — 2 direct files · 0 child directories
-  - [`worlds/cat-gardens/`](../worlds/cat-gardens/README.md) — 1 direct files · 0 child directories
-  - [`worlds/cedar-house/`](../worlds/cedar-house/README.md) — 1 direct files · 0 child directories
-  - [`worlds/common-table/`](../worlds/common-table/README.md) — 1 direct files · 0 child directories
-  - [`worlds/founders-dormitory/`](../worlds/founders-dormitory/README.md) — 1 direct files · 0 child directories
-  - [`worlds/interlocutive-domain/`](../worlds/interlocutive-domain/README.md) — 2 direct files · 0 child directories
-  - [`worlds/lantern-market/`](../worlds/lantern-market/README.md) — 1 direct files · 0 child directories
-  - [`worlds/northgate-library/`](../worlds/northgate-library/README.md) — 1 direct files · 0 child directories
-  - [`worlds/northgate-university/`](../worlds/northgate-university/README.md) — 5 direct files · 0 child directories
-  - [`worlds/scale-commons/`](../worlds/scale-commons/README.md) — 1 direct files · 0 child directories
-- [`worldspace/`](../worldspace/README.md) — 3 direct files · 0 child directories
+- [`.geehub/`](../.geehub/README.md) — 1 files
+- [`.github/`](../.github/README.md) — 1 files
+  - [`workflows/`](../.github/workflows/README.md) — 15 files
+- [`KINGDOM_LAND/`](../KINGDOM_LAND/README.md) — 3 files
+- [`archive/`](../archive/README.md) — 4 files
+  - [`adult-gay-visual-loop/`](../archive/adult-gay-visual-loop/README.md) — 1 files
+  - [`male-harem/`](../archive/male-harem/README.md) — 4 files
+    - [`language/`](../archive/male-harem/language/README.md) — 1 files
+- [`artifacts/`](../artifacts/README.md) — 4 files
+  - [`activity-events/`](../artifacts/activity-events/README.md) — 385 files
+  - [`world-events/`](../artifacts/world-events/README.md) — 369 files
+- [`assets/`](../assets/README.md) — 1 files
+  - [`signs/`](../assets/signs/README.md) — 2 files
+- [`characters/`](../characters/README.md) — 2 files
+  - [`records/`](../characters/records/README.md) — 24 files
+- [`corpus/`](../corpus/README.md) — 10 files
+  - [`exchange/`](../corpus/exchange/README.md) — 2 files
+  - [`images/`](../corpus/images/README.md) — 1 files
+    - [`analyses/`](../corpus/images/analyses/README.md) — 8 files
+  - [`sources/`](../corpus/sources/README.md) — 2 files
+- [`creations/`](../creations/README.md) — 3 files
+- [`creative/`](../creative/README.md) — 7 files
+  - [`joseph-prever-many-faces/`](../creative/joseph-prever-many-faces/README.md) — 3 files
+    - [`repo/`](../creative/joseph-prever-many-faces/repo/README.md) — 1 files
+  - [`measure-between-us/`](../creative/measure-between-us/README.md) — 1 files
+    - [`repos/`](../creative/measure-between-us/repos/README.md) — 1 files
+      - [`andrew-field/`](../creative/measure-between-us/repos/andrew-field/README.md) — 1 files
+      - [`chase-book/`](../creative/measure-between-us/repos/chase-book/README.md) — 1 files
+      - [`luke-inside/`](../creative/measure-between-us/repos/luke-inside/README.md) — 1 files
+      - [`tyler-measurement/`](../creative/measure-between-us/repos/tyler-measurement/README.md) — 1 files
+- [`data/`](../data/README.md) — 2 files
+- [`deep-lore/`](../deep-lore/README.md) — 2 files
+- [`docs/`](../docs/README.md) — 81 files
+  - [`production/`](../docs/production/README.md) — 2 files
+  - [`visual-continuity/`](../docs/visual-continuity/README.md) — 2 files
+- [`downloads/`](../downloads/README.md) — 2 files
+- [`dropbox_outbox/`](../dropbox_outbox/README.md) — 750 files
+- [`engine/`](../engine/README.md) — 128 files
+  - [`artifacts/`](../engine/artifacts/README.md) — 3 files
+  - [`audio/`](../engine/audio/README.md) — 10 files
+  - [`narrative_container/`](../engine/narrative_container/README.md) — 9 files
+  - [`presets/`](../engine/presets/README.md) — 3 files
+  - [`schemas/`](../engine/schemas/README.md) — 7 files
+  - [`stories/`](../engine/stories/README.md) — 3 files
+  - [`video/`](../engine/video/README.md) — 28 files
+    - [`assets/`](../engine/video/assets/README.md) — 3 files
+    - [`blender/`](../engine/video/blender/README.md) — 3 files
+    - [`presets/`](../engine/video/presets/README.md) — 3 files
+    - [`schemas/`](../engine/video/schemas/README.md) — 6 files
+    - [`templates/`](../engine/video/templates/README.md) — 2 files
+    - [`tests/`](../engine/video/tests/README.md) — 3 files
+  - [`voices/`](../engine/voices/README.md) — 4 files
+- [`events/`](../events/README.md) — 2 files
+- [`experiences/`](../experiences/README.md) — 6 files
+  - [`hewn-threshold/`](../experiences/hewn-threshold/README.md) — 4 files
+  - [`sacred-corridor/`](../experiences/sacred-corridor/README.md) — 4 files
+  - [`size-domination-emulator/`](../experiences/size-domination-emulator/README.md) — 5 files
+- [`film/`](../film/README.md) — 2 files
+- [`geo-cyberspace/`](../geo-cyberspace/README.md) — 12 files
+- [`hub/`](../hub/README.md) — 86 files
+  - [`recordings/`](../hub/recordings/README.md) — 243 files
+- [`library-import/`](../library-import/README.md) — 4 files
+- [`lore/`](../lore/README.md) — 67 files
+  - [`dad-convent/`](../lore/dad-convent/README.md) — 5 files
+  - [`dimension/`](../lore/dimension/README.md) — 20 files
+  - [`growth/`](../lore/growth/README.md) — 3 files
+  - [`joey-colossus/`](../lore/joey-colossus/README.md) — 10 files
+  - [`mexiancas/`](../lore/mexiancas/README.md) — 6 files
+  - [`novel/`](../lore/novel/README.md) — 15 files
+  - [`spellcasters-circle/`](../lore/spellcasters-circle/README.md) — 2 files
+  - [`veyrthalis/`](../lore/veyrthalis/README.md) — 18 files
+- [`media/`](../media/README.md) — 7 files
+- [`music/`](../music/README.md) — 2 files
+- [`novel/`](../novel/README.md) — 66 files
+  - [`chapters/`](../novel/chapters/README.md) — 37 files
+  - [`experience/`](../novel/experience/README.md) — 2 files
+  - [`spinoffs/`](../novel/spinoffs/README.md) — 2 files
+- [`production/`](../production/README.md) — 1 files
+  - [`assets/`](../production/assets/README.md) — 1 files
+    - [`hulums-cave/`](../production/assets/hulums-cave/README.md) — 1 files
+      - [`dim-path/`](../production/assets/hulums-cave/dim-path/README.md) — 4 files
+  - [`growth-study-001/`](../production/growth-study-001/README.md) — 17 files
+  - [`intake/`](../production/intake/README.md) — 1 files
+    - [`2026-11-03/`](../production/intake/2026-11-03/README.md) — 4 files
+  - [`projects/`](../production/projects/README.md) — 1 files
+    - [`hulums-lab-serum-60s/`](../production/projects/hulums-lab-serum-60s/README.md) — 3 files
+      - [`07_MANIFESTS/`](../production/projects/hulums-lab-serum-60s/07_MANIFESTS/README.md) — 5 files
+    - [`kirk-generation-01/`](../production/projects/kirk-generation-01/README.md) — 6 files
+      - [`characters/`](../production/projects/kirk-generation-01/characters/) — 20 files
+    - [`teal-titan-golds-on-5th/`](../production/projects/teal-titan-golds-on-5th/README.md) — 11 files
+      - [`01_SOURCE/`](../production/projects/teal-titan-golds-on-5th/01_SOURCE/README.md) — 1 files
+      - [`02_FRAMES/`](../production/projects/teal-titan-golds-on-5th/02_FRAMES/README.md) — 1 files
+      - [`03_GROWTH_PASSES/`](../production/projects/teal-titan-golds-on-5th/03_GROWTH_PASSES/README.md) — 1 files
+      - [`04_COMPOSITES/`](../production/projects/teal-titan-golds-on-5th/04_COMPOSITES/README.md) — 1 files
+      - [`05_EXPORTS/`](../production/projects/teal-titan-golds-on-5th/05_EXPORTS/README.md) — 1 files
+      - [`06_AUDIO/`](../production/projects/teal-titan-golds-on-5th/06_AUDIO/README.md) — 1 files
+      - [`07_MANIFESTS/`](../production/projects/teal-titan-golds-on-5th/07_MANIFESTS/README.md) — 4 files
+  - [`templates/`](../production/templates/README.md) — 1 files
+    - [`short-form-video/`](../production/templates/short-form-video/README.md) — 4 files
+- [`providers/`](../providers/README.md) — 2 files
+- [`recovery/`](../recovery/README.md) — 5 files
+  - [`snapshots/`](../recovery/snapshots/README.md) — 2 files
+- [`refresh/`](../refresh/README.md) — 2 files
+  - [`references/`](../refresh/references/README.md) — 3 files
+- [`research/`](../research/README.md) — 3 files
+  - [`creators/`](../research/creators/README.md) — 4 files
+  - [`discovery/`](../research/discovery/README.md) — 2 files
+  - [`embodied-scale/`](../research/embodied-scale/README.md) — 3 files
+  - [`hulums-cave/`](../research/hulums-cave/README.md) — 10 files
+  - [`relationships/`](../research/relationships/README.md) — 2 files
+- [`rooms/`](../rooms/README.md) — 2 files
+- [`scripts/`](../scripts/README.md) — 17 files
+- [`server/`](../server/README.md) — 2 files
+- [`signals/`](../signals/README.md) — 1 files
+  - [`joseph/`](../signals/joseph/README.md) — 2 files
+- [`worlds/`](../worlds/README.md) — 1 files
+  - [`athletic-commons/`](../worlds/athletic-commons/README.md) — 2 files
+  - [`bluewater-quay/`](../worlds/bluewater-quay/README.md) — 1 files
+  - [`cabin/`](../worlds/cabin/README.md) — 2 files
+  - [`cat-gardens/`](../worlds/cat-gardens/README.md) — 1 files
+  - [`cedar-house/`](../worlds/cedar-house/README.md) — 1 files
+  - [`common-table/`](../worlds/common-table/README.md) — 1 files
+  - [`founders-dormitory/`](../worlds/founders-dormitory/README.md) — 1 files
+  - [`interlocutive-domain/`](../worlds/interlocutive-domain/README.md) — 2 files
+  - [`lantern-market/`](../worlds/lantern-market/README.md) — 1 files
+  - [`northgate-library/`](../worlds/northgate-library/README.md) — 1 files
+  - [`northgate-university/`](../worlds/northgate-university/README.md) — 5 files
+  - [`scale-commons/`](../worlds/scale-commons/README.md) — 2 files
+- [`worldspace/`](../worldspace/README.md) — 4 files
 
-## Navigation conventions
-
-- Every directory's `README.md` is its local landing page.
-- Local pages list immediate files and child folders, keeping navigation manageable.
-- Use the breadcrumb to move upward, or this map to jump to another branch.
-- File links preserve original names and locations.
-- Concepts without a source path remain visible in the Project Workbench but are not presented as working files.
-
-
-
-## Recovery
-
-- [Recovery manifests and restore procedure](../recovery/README.md)

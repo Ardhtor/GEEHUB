@@ -90,3 +90,7 @@ These are provisional fictional records. Their biographies remain open beyond th
 ## Provisional relationship addition — 24 November 2026
 
 - [Ian Kistner](records/IAN_KISTNER.md) — newly introduced into a developing relationship story with Gabe and Kirk. Only the premise is established; biography, voice, appearance, and chronology remain open. See the [Threefold Attraction](../lore/IAN_GABE_KIRK_TRIANGLE.md) and its [cross-book influence map](../novel/THREE_BOOKS_IN_MOTION.md).
+
+## Wider cast and ensemble navigation
+
+The character directory now has a [Wider Character and Ensemble Register](ENSEMBLE_REGISTER.md). It maps the original Convergence guests alongside the many other men and figures across the Confluence, Book II, Grand Meridian, the Scale Commons, the training hall, Northgate, the Cabin, the Fingerlands, and The Men at the Terminal. These branches remain distinct; the register is a continuity map, not a command to merge their casts.

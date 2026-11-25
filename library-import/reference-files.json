@@ -2911,6 +2911,20 @@
     "date": "2026-11-25",
     "scope": "18 visually inspected images",
     "focus": "continuous muscle-growth transformation",
-    "status": "curated-subset; remaining Library images not yet visually reviewed"
-  }
+    "status": "curated-subset; remaining Library images not yet visually reviewed",
+    "active_production_profile": "luke-library-transformation-v1"
+  },
+  "transformation_profiles": [
+    {
+      "id": "luke-library-transformation-v1",
+      "profile_path": "engine/video/profiles/luke-library-transformation-profile.json",
+      "timeline_path": "engine/video/profiles/luke-library-transformation-timeline.json",
+      "schema_path": "engine/video/schemas/growth-profile.schema.json",
+      "validation_workflow": ".github/workflows/luke-library-growth-validation.yml",
+      "regions": 16,
+      "frames": 240,
+      "fps": 30,
+      "status": "procedural_first_pass"
+    }
+  ]
 }

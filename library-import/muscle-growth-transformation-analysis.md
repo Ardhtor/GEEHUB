@@ -111,7 +111,7 @@ Treat Stage 10 as a later optional branch rather than assuming it must be the ne
 
 ## Limits of this pass
 
-This document covers 18 selected images inspected visually. The full 270-image manifest remains a discovery index, not a claim of complete visual analysis. Some images contain exaggerated fictional measurements or stylized anatomy; those values are preserved as source text only and are not treated as factual biometric data.
+This document covers 19 selected images inspected visually. The full 270-image manifest remains a discovery index, not a claim of complete visual analysis. Some images contain exaggerated fictional measurements or stylized anatomy; those values are preserved as source text only and are not treated as factual biometric data.
 
 ## Executable first-pass profile
 

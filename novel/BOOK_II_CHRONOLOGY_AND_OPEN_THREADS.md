@@ -148,7 +148,7 @@ No coordinates, distances, or permanent new landforms are introduced by Chapter 
 
 ## Revision progress
 
-The first body-level line-edit pass is complete across Chapters I–IX. The ending-compression passes removed 1,518 words. The in-chapter pass across Chapters V–VIII removed 627 words: 225 from Chapter V, 170 from Chapter VI, 155 from Chapter VII, and 77 from Chapter VIII. A further pass across Chapters I, II, IV, and IX removed 451 words: 107, 101, 167, and 76 respectively. Together with the 1,518-word ending-compression passes, the combined reduction is 2,596 words. The focused in-chapter compression pass is complete across Chapters I–IX. Begin the whole-book continuity sweep against the chronology, spatial atlas, character and relationship records, and Dropbox mirrors.
+The first body-level line-edit pass is complete across Chapters I–IX. The ending-compression passes removed 1,518 words. The in-chapter pass across Chapters V–VIII removed 627 words: 225 from Chapter V, 170 from Chapter VI, 155 from Chapter VII, and 77 from Chapter VIII. A further pass across Chapters I, II, IV, and IX removed 451 words: 107, 101, 167, and 76 respectively. Together with the 1,518-word ending-compression passes, the combined reduction is 2,615 words. The focused in-chapter compression pass is complete across Chapters I–IX. Begin the whole-book continuity sweep against the chronology, spatial atlas, character and relationship records, and Dropbox mirrors.
 
 | Chapter | Narrative words | Current Git blob | Editorial state |
 | --- | ---: | --- | --- |
@@ -158,11 +158,11 @@ The first body-level line-edit pass is complete across Chapters I–IX. The endi
 | IV — The Promises That Keep | 3,413 | `e08bea7104c5e840445d64e503c7a9fef4dd43b1` | In-chapter compression complete; relationship continuity pending |
 | V — Four Mansions | 4,412 | `f696621e7ad33cb2c7159f53b958a83dfb669a81` | In-chapter compression complete; residential and relationship continuity pending |
 | VI — The Game Between the Houses | 3,716 | `1138ae9971a6ef33e86c3ded804d53c37ad7e098` | In-chapter compression complete; geography and relationship continuity pending |
-| VII — The Contest That Never Ends | 3,600 | `cd6909b56b8ceb089d10c19f7efe7145db0f1dd6` | In-chapter compression complete; Evermeasure and relationship continuity pending |
+| VII — The Contest That Never Ends | 3,581 | `65aa8168b060286d6e7744c5fce23844b3636089` | In-chapter compression complete; Evermeasure and relationship continuity pending |
 | VIII — A Day in the Open Pavilion | 3,679 | `ab49d81b33ea2284eafb887fdb2317c3d1b01a87` | In-chapter compression complete; Michael's day and privacy continuity pending |
 | IX — The Narrow Turn | 3,744 | `8f59c7e2970fb99a4665affa02b9292fc38632af` | In-chapter compression complete; repeatability and scene continuity pending |
 
-**Current narrative census:** 33,727 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
+**Current narrative census:** 33,708 words across nine chapters, excluding continuity records. This is a measured snapshot, not a target. Shorter chapters may remain shorter when their dramatic work is complete. Do not expand a scene to meet a word range if its function is already fulfilled.
 
 ## Revision order and editorial gates
 

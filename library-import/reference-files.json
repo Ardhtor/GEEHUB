@@ -2917,6 +2917,115 @@
           "name": "Colossal Hyper-Muscular Bodybuilder Portrait.png",
           "library_path": "/Colossal Hyper-Muscular Bodybuilder Portrait.png",
           "classification": "candidate-identity-match"
+        },
+        {
+          "id": "library-libfile_d72963ddc4bc8191bbc0617ecb070d19",
+          "file_id": "file_00000000190c81f5931790e112ff6f91",
+          "library_file_id": "libfile_d72963ddc4bc8191bbc0617ecb070d19",
+          "name": "Monstrous Bodybuilder in a Dark Gym.png",
+          "library_path": "/Monstrous Bodybuilder in a Dark Gym.png",
+          "classification": "visual-continuity-candidate",
+          "observed_role": "extreme chest, deltoid, arm, thigh and calf scale; same general curly-haired, bearded grey-stringer presentation."
+        },
+        {
+          "id": "library-libfile_a02bc0ee8f088191bdbadef4f4bd61c4",
+          "file_id": "file_0000000018a481f58571759993ef542a",
+          "library_file_id": "libfile_a02bc0ee8f088191bdbadef4f4bd61c4",
+          "name": "Giant Bodybuilder in Industrial Gym.png",
+          "library_path": "/Giant Bodybuilder in Industrial Gym.png",
+          "classification": "visual-continuity-candidate",
+          "observed_role": "front-facing industrial gym pose; grey tank, flag-pattern shorts and very large upper/lower-body proportions."
+        },
+        {
+          "id": "library-libfile_5e08f1d508f081918ead4c5a04beeb18",
+          "file_id": "file_00000000c5f481f5968b9771a1e51940",
+          "library_file_id": "libfile_5e08f1d508f081918ead4c5a04beeb18",
+          "name": "Titanic Bodybuilder in an Industrial Gym.png",
+          "library_path": "/Titanic Bodybuilder in an Industrial Gym.png",
+          "classification": "visual-continuity-candidate",
+          "observed_role": "front-facing grey stringer and flag shorts; strongly similar face/hair/beard and very expanded physique."
+        },
+        {
+          "id": "library-libfile_0cac0044803481919a53c7987694e8f7",
+          "file_id": "file_00000000e3ec820ea9080ebdbeb86770",
+          "library_file_id": "libfile_0cac0044803481919a53c7987694e8f7",
+          "name": "Colossal Bodybuilder in Industrial Gym.png",
+          "library_path": "/Colossal Bodybuilder in Industrial Gym.png",
+          "classification": "visual-continuity-candidate",
+          "observed_role": "front-facing, highly exaggerated shoulders, chest, arms, thighs and calves; same broad visual styling."
+        },
+        {
+          "id": "library-libfile_5079c0f15ad8819184dcd044aed6a372",
+          "file_id": "file_00000000707081f69582284edeac413a",
+          "library_file_id": "libfile_5079c0f15ad8819184dcd044aed6a372",
+          "name": "Giant Hairy Strongman in Industrial Gym.png",
+          "library_path": "/Giant Hairy Strongman in Industrial Gym.png",
+          "classification": "visual-continuity-candidate",
+          "observed_role": "full-body front view; curly hair, beard, grey tank and flag shorts; useful proportion and clothing reference."
+        },
+        {
+          "id": "library-libfile_1ad5e8d000b88191aa1d403587d45685",
+          "file_id": "file_00000000a6b081f59b395067922830dc",
+          "library_file_id": "libfile_1ad5e8d000b88191aa1d403587d45685",
+          "name": "Towering Hyper-Muscular Gym Athlete.png",
+          "library_path": "/Towering Hyper-Muscular Gym Athlete.png",
+          "classification": "visual-continuity-candidate",
+          "observed_role": "strong visual match to the 2026-11-25 user-supplied Luke physique image: curly light-brown hair, trimmed beard, grey tank, flag shorts, full-body gym stance."
+        }
+      ]
+    },
+    {
+      "id": "luke-gym-physique-echo-set",
+      "title": "Luke gym physique echo set",
+      "purpose": "Six Library images with recurring curly-haired, bearded, grey-stringer adult male presentation and related gym framing. Compare against the user-designated 2026-11-25 Luke reference for face, hair, beard, clothing and body-proportion continuity. They remain candidate matches, not confirmed identity or numbered chronological stages.",
+      "references": [
+        {
+          "id": "library-libfile_d72963ddc4bc8191bbc0617ecb070d19",
+          "file_id": "file_00000000190c81f5931790e112ff6f91",
+          "library_file_id": "libfile_d72963ddc4bc8191bbc0617ecb070d19",
+          "name": "Monstrous Bodybuilder in a Dark Gym.png",
+          "library_path": "/Monstrous Bodybuilder in a Dark Gym.png",
+          "classification": "visual-continuity-candidate"
+        },
+        {
+          "id": "library-libfile_a02bc0ee8f088191bdbadef4f4bd61c4",
+          "file_id": "file_0000000018a481f58571759993ef542a",
+          "library_file_id": "libfile_a02bc0ee8f088191bdbadef4f4bd61c4",
+          "name": "Giant Bodybuilder in Industrial Gym.png",
+          "library_path": "/Giant Bodybuilder in Industrial Gym.png",
+          "classification": "visual-continuity-candidate"
+        },
+        {
+          "id": "library-libfile_5e08f1d508f081918ead4c5a04beeb18",
+          "file_id": "file_00000000c5f481f5968b9771a1e51940",
+          "library_file_id": "libfile_5e08f1d508f081918ead4c5a04beeb18",
+          "name": "Titanic Bodybuilder in an Industrial Gym.png",
+          "library_path": "/Titanic Bodybuilder in an Industrial Gym.png",
+          "classification": "visual-continuity-candidate"
+        },
+        {
+          "id": "library-libfile_0cac0044803481919a53c7987694e8f7",
+          "file_id": "file_00000000e3ec820ea9080ebdbeb86770",
+          "library_file_id": "libfile_0cac0044803481919a53c7987694e8f7",
+          "name": "Colossal Bodybuilder in Industrial Gym.png",
+          "library_path": "/Colossal Bodybuilder in Industrial Gym.png",
+          "classification": "visual-continuity-candidate"
+        },
+        {
+          "id": "library-libfile_5079c0f15ad8819184dcd044aed6a372",
+          "file_id": "file_00000000707081f69582284edeac413a",
+          "library_file_id": "libfile_5079c0f15ad8819184dcd044aed6a372",
+          "name": "Giant Hairy Strongman in Industrial Gym.png",
+          "library_path": "/Giant Hairy Strongman in Industrial Gym.png",
+          "classification": "visual-continuity-candidate"
+        },
+        {
+          "id": "library-libfile_1ad5e8d000b88191aa1d403587d45685",
+          "file_id": "file_00000000a6b081f59b395067922830dc",
+          "library_file_id": "libfile_1ad5e8d000b88191aa1d403587d45685",
+          "name": "Towering Hyper-Muscular Gym Athlete.png",
+          "library_path": "/Towering Hyper-Muscular Gym Athlete.png",
+          "classification": "visual-continuity-candidate"
         }
       ]
     }
@@ -2926,8 +3035,8 @@
   ],
   "last_curated_analysis": {
     "date": "2026-11-25",
-    "scope": "19 visually inspected images",
-    "focus": "continuous muscle-growth transformation",
+    "scope": "24 visually inspected Library images plus one current-conversation attachment",
+    "focus": "Luke identity echoes and continuous muscle-growth transformation",
     "status": "curated-subset; remaining Library images not yet visually reviewed",
     "active_production_profile": "luke-library-transformation-v1",
     "conversation_references": 1,

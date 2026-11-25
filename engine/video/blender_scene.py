@@ -146,10 +146,10 @@ def ring_shell(name, rings, material_slot, segments=32):
     return obj
 
 
-def build_wardrobe():
-    """Create a fitted sleeveless top and shorts that share the body growth timeline."""
-    textile_top = material("WARDROBE / grey fitted tank fabric", (0.30, 0.29, 0.27), metallic=0.01, roughness=0.78)
-    textile_shorts = material("WARDROBE / dark short fabric", (0.025, 0.030, 0.038), metallic=0.01, roughness=0.80)
+def build_wardrobe(top_color=(0.018, 0.045, 0.055), shorts_color=(0.018, 0.045, 0.055)):
+    """Create fitted garments whose material colors can be set per production."""
+    textile_top = material("WARDROBE / fitted tank fabric", tuple(top_color), metallic=0.01, roughness=0.78)
+    textile_shorts = material("WARDROBE / fitted shorts fabric", tuple(shorts_color), metallic=0.01, roughness=0.80)
     top = ring_shell(
         "WARDROBE / fitted sleeveless training top",
         [
@@ -250,7 +250,10 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
         if timeline:
             from timeline_growth import animate_timeline_growth, write_growth_diagnostics
             animate_timeline_growth(mesh, timeline, growth_profile)
-            top, shorts, straps = build_wardrobe()
+            wardrobe = manifest.get("wardrobe", {})
+            top_color = wardrobe.get("top_color", (0.018, 0.045, 0.055))
+            shorts_color = wardrobe.get("shorts_color", (0.018, 0.045, 0.055))
+            top, shorts, straps = build_wardrobe(top_color=top_color, shorts_color=shorts_color)
             diagnostic_objects.extend([top, shorts, *straps])
             for garment in [top, shorts, *straps]:
                 animate_timeline_growth(garment, timeline, growth_profile)
@@ -264,7 +267,7 @@ def build_scene(manifest, output_path, timeline=None, growth_profile=None, previ
     camera = bpy.data.objects.new("Director camera", camera_data)
     scene.collection.objects.link(camera)
     camera_mode = manifest.get("direction", {}).get("camera", "medium")
-    camera_data.lens = float(timeline.get("camera", {}).get("lens_mm", 50)) if timeline else (45 if camera_mode == "low" else 55 if camera_mode == "close" else 48)
+    camera_data.lens = float(timeline.get("camera", {}).get("lens_mm", 35)) if timeline else (45 if camera_mode == "low" else 55 if camera_mode == "close" else 48)
     scene.camera = camera
     camera_shots = [
         (3.0, -10.0, 3.15),

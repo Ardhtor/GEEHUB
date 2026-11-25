@@ -136,3 +136,11 @@ A further Library image was inspected:
 The before/after composition remains the primary transformation endpoint pair. The new montage contributes missing views that the endpoint pair alone does not provide: rear lat and trapezius silhouette, side chest/arm depth, shoulder and upper-back surface detail, and full-body rear leg proportions. These are useful constraints for a 3D reconstruction and for checking whether the generated body remains coherent when viewed outside the frontal camera.
 
 Keep the montage's face/identity match marked as an inference until explicitly confirmed. The unrelated living-room image inspected in the same search has a visibly different face, tattoos and setting, so it is excluded from Luke's reference chain.
+
+
+## Current-conversation Luke reference — 2026-11-25
+
+A new user-supplied full-body gym image was added to the conversation on 2026-11-25 at 17:44:30Z with the instruction “more for luke”. It shows an adult man standing front-facing in a gym, with short curly light-brown hair, a trimmed beard, a grey fitted tank top, dark short shorts and exceptionally developed shoulders, chest, arms, thighs and calves.
+
+This image is designated as an additional Luke physique and presentation reference: high-stage mass distribution, full-body stance, clothing fit and gym context. It is not the before/after source pair and does not replace the smaller-to-larger Luke endpoints in Neon Love Potion Muscle Transformation. It is indexed separately in `reference-files.json` under `conversation_sources`, because it is a current-conversation attachment rather than one of the 270 Library files. Its bytes have not yet been copied into `production/01_SOURCE`; the manifest therefore records provenance and intended use without inventing a Library file ID or repository media path.
+

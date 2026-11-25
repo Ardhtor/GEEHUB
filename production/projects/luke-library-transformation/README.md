@@ -9,6 +9,7 @@ The source endpoint pair is contained in the same Library image:
 - `Neon Love Potion Muscle Transformation.png`
 - Library file ID: `file_00000000915081f5b7e06f22fa8a8556`
 - Role: smaller Luke inset → larger same-Luke result
+- Supporting multi-angle reference: `Superbodybuilder Gym Transformation Montage.png` (Library file ID `file_00000000f89481f583d665c82eea2080`); use for rear/side pose and surface detail, with identity marked as a visual-continuity candidate rather than confirmed.
 
 The image is a static before/after composition, not motion footage. The timing and intermediate states are authored procedural interpolation, not extracted source motion.
 

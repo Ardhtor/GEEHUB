@@ -57,6 +57,8 @@ jobs:
           python hub/validate-projects.py hub/projects.json --check-root
           python hub/test-validate-projects.py
           python hub/test-validate-ui-registry.py
+      - name: Validate production manifest and maintenance contract
+        run: node engine/test-production-manifest.js
       - name: Check browser script syntax
         run: |
           node --check app.js

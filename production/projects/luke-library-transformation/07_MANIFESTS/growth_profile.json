@@ -49,6 +49,13 @@
       "file_id": "file_00000000f89481f583d665c82eea2080",
       "name": "Superbodybuilder Gym Transformation Montage.png",
       "note": "Candidate reference. Front, rear and side gym views; strong visual resemblance to Luke's established curly-haired, bearded appearance. Supporting anatomy, pose and material reference only; not a numbered stage endpoint."
+    },
+    {
+      "role": "user_designated_physique_reference",
+      "provider": "ChatGPT conversation attachment",
+      "source_message_time": "2026-11-25T17:44:30Z",
+      "name": "User-designated Luke gym physique reference",
+      "note": "User supplied this full-body front-facing gym image with the instruction 'more for luke'. Use it as a high-stage physique, stance, grey fitted tank and dark short shorts reference. It is not the paired before/after endpoint and has not been copied into production/01_SOURCE."
     }
   ],
   "timebase": {

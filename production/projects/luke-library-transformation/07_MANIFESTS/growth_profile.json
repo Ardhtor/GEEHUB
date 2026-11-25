@@ -1,0 +1,633 @@
+{
+  "schema": "geehub.growth-profile/1",
+  "id": "luke-library-transformation-v1",
+  "name": "Luke — Library before/after transformation",
+  "project_id": "luke-library-transformation",
+  "subject_id": "luke-inside",
+  "version": 1,
+  "status": "procedural_first_pass",
+  "purpose": "A first continuous, frame-addressable regional growth pass connecting the smaller Luke before image to the larger same-Luke result. Curves are authored production controls, not measurements extracted from the artwork.",
+  "source_evidence": [
+    {
+      "role": "before_endpoint",
+      "file_id": "file_00000000915081f5b7e06f22fa8a8556",
+      "name": "Neon Love Potion Muscle Transformation.png",
+      "note": "Smaller Luke inset; same composition as the after endpoint."
+    },
+    {
+      "role": "after_endpoint",
+      "file_id": "file_00000000915081f5b7e06f22fa8a8556",
+      "name": "Neon Love Potion Muscle Transformation.png",
+      "note": "Larger Luke main image; identity continuity stated by the source composition."
+    },
+    {
+      "role": "later_checkpoint",
+      "file_id": "file_00000000155081f5a795a95d1a98cf6a",
+      "name": "Luke’s Neon Overdrive Transformation.png",
+      "note": "Luke-labeled Stage 3 to 4 checkpoint."
+    },
+    {
+      "role": "later_checkpoint",
+      "file_id": "file_0000000090b481f5bbe7eefe411b451a",
+      "name": "Beyond Massive: Growth Stage Six.png",
+      "note": "Luke-labeled Stage 5 to 6 checkpoint."
+    },
+    {
+      "role": "later_checkpoint",
+      "file_id": "file_00000000e2ac81f987f6c96238f4c4f2",
+      "name": "Luke’s Next Stage: Growth Engine.png",
+      "note": "Luke-labeled Stage 6 to 7 checkpoint."
+    },
+    {
+      "role": "advanced_endpoint",
+      "file_id": "file_0000000031e881f5a4b7bd577d099081",
+      "name": "Stage 10: The Final Phase.png",
+      "note": "Advanced Luke front/rear and detail reference; optional later branch, not assumed to be the immediate endpoint of this shot."
+    }
+  ],
+  "timebase": {
+    "fps": 30,
+    "frame_count": 240
+  },
+  "duration_seconds": 8,
+  "interpolation": "cubic_smoothstep sampled once per rendered frame",
+  "value_semantics": "0 to 1 is a normalized procedural deformation control per region, not a body measurement, percent mass gain, or claim of exact source fit.",
+  "identity_lock": {
+    "enabled": true,
+    "head_face": true,
+    "hair": true,
+    "beard": true,
+    "expression": true,
+    "stance": true,
+    "camera": true,
+    "wardrobe": true
+  },
+  "regions": {
+    "pectorals": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          0.8,
+          0
+        ],
+        [
+          1.8,
+          0.18
+        ],
+        [
+          3.6,
+          0.48
+        ],
+        [
+          5.8,
+          0.86
+        ],
+        [
+          6.8,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "deltoids": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          0.55,
+          0
+        ],
+        [
+          1.5,
+          0.22
+        ],
+        [
+          3.2,
+          0.55
+        ],
+        [
+          5.6,
+          0.88
+        ],
+        [
+          6.8,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "traps": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          1.2,
+          0
+        ],
+        [
+          2.4,
+          0.16
+        ],
+        [
+          4.2,
+          0.5
+        ],
+        [
+          6.2,
+          0.86
+        ],
+        [
+          7.1,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "biceps": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          1.4,
+          0
+        ],
+        [
+          2.3,
+          0.18
+        ],
+        [
+          4.1,
+          0.52
+        ],
+        [
+          6.1,
+          0.9
+        ],
+        [
+          7.1,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "triceps": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          1.6,
+          0
+        ],
+        [
+          2.5,
+          0.16
+        ],
+        [
+          4.3,
+          0.5
+        ],
+        [
+          6.2,
+          0.88
+        ],
+        [
+          7.1,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "forearms": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          1.8,
+          0
+        ],
+        [
+          2.8,
+          0.14
+        ],
+        [
+          4.5,
+          0.46
+        ],
+        [
+          6.3,
+          0.86
+        ],
+        [
+          7.2,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "arms": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          1.4,
+          0
+        ],
+        [
+          2.4,
+          0.18
+        ],
+        [
+          4.2,
+          0.5
+        ],
+        [
+          6.2,
+          0.88
+        ],
+        [
+          7.1,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "lats": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          1.7,
+          0
+        ],
+        [
+          2.8,
+          0.16
+        ],
+        [
+          4.7,
+          0.5
+        ],
+        [
+          6.4,
+          0.86
+        ],
+        [
+          7.2,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "back": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          1.8,
+          0
+        ],
+        [
+          2.9,
+          0.14
+        ],
+        [
+          4.8,
+          0.48
+        ],
+        [
+          6.4,
+          0.84
+        ],
+        [
+          7.2,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "torso": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          1.1,
+          0
+        ],
+        [
+          2.1,
+          0.12
+        ],
+        [
+          4,
+          0.4
+        ],
+        [
+          6.1,
+          0.82
+        ],
+        [
+          7.1,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "abdominals": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          2.2,
+          0
+        ],
+        [
+          3.2,
+          0.12
+        ],
+        [
+          4.8,
+          0.36
+        ],
+        [
+          6.5,
+          0.72
+        ],
+        [
+          7.3,
+          0.9
+        ],
+        [
+          8,
+          0.9
+        ]
+      ]
+    },
+    "glutes": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          2.3,
+          0
+        ],
+        [
+          3.4,
+          0.12
+        ],
+        [
+          5,
+          0.4
+        ],
+        [
+          6.7,
+          0.8
+        ],
+        [
+          7.4,
+          0.94
+        ],
+        [
+          8,
+          0.94
+        ]
+      ]
+    },
+    "quadriceps": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          2.1,
+          0
+        ],
+        [
+          3,
+          0.12
+        ],
+        [
+          4.8,
+          0.4
+        ],
+        [
+          6.5,
+          0.82
+        ],
+        [
+          7.3,
+          0.96
+        ],
+        [
+          8,
+          0.96
+        ]
+      ]
+    },
+    "hamstrings": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          2.4,
+          0
+        ],
+        [
+          3.3,
+          0.1
+        ],
+        [
+          5,
+          0.38
+        ],
+        [
+          6.6,
+          0.8
+        ],
+        [
+          7.3,
+          0.94
+        ],
+        [
+          8,
+          0.94
+        ]
+      ]
+    },
+    "calves": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          2.6,
+          0
+        ],
+        [
+          3.6,
+          0.1
+        ],
+        [
+          5.2,
+          0.34
+        ],
+        [
+          6.8,
+          0.76
+        ],
+        [
+          7.5,
+          0.9
+        ],
+        [
+          8,
+          0.9
+        ]
+      ]
+    },
+    "whole_body": {
+      "knots": [
+        [
+          0,
+          0
+        ],
+        [
+          3.4,
+          0
+        ],
+        [
+          4.4,
+          0.16
+        ],
+        [
+          5.8,
+          0.42
+        ],
+        [
+          7,
+          0.78
+        ],
+        [
+          7.6,
+          0.9
+        ],
+        [
+          8,
+          0.9
+        ]
+      ]
+    }
+  },
+  "stage_markers": [
+    {
+      "name": "SOURCE_BASELINE",
+      "start_seconds": 0,
+      "end_seconds": 0.8
+    },
+    {
+      "name": "SHOULDER_AND_CHEST_ONSET",
+      "start_seconds": 0.8,
+      "end_seconds": 2.2
+    },
+    {
+      "name": "ARMS_AND_BACK_JOIN",
+      "start_seconds": 2.2,
+      "end_seconds": 4.2
+    },
+    {
+      "name": "TORSO_AND_LOWER_BODY_CATCH_UP",
+      "start_seconds": 4.2,
+      "end_seconds": 6.2
+    },
+    {
+      "name": "WHOLE_BODY_INTEGRATION",
+      "start_seconds": 6.2,
+      "end_seconds": 7.2
+    },
+    {
+      "name": "SETTLE_AND_HOLD",
+      "start_seconds": 7.2,
+      "end_seconds": 8
+    }
+  ],
+  "cloth_response": {
+    "enabled_in_next_pass": true,
+    "garments": [
+      "grey tank top",
+      "dark short shorts"
+    ],
+    "requirements": [
+      "strap and armhole tension follows deltoid growth",
+      "chest fabric expands with pectoral depth",
+      "hem and side seams respond to torso width",
+      "waistband and leg openings respond to hip and thigh growth",
+      "cloth remains a garment, not a skin-scaled shell"
+    ]
+  },
+  "limitations": [
+    "The source is a static before/after composition, not motion capture.",
+    "The timing curve is a first authored proposal and has not been fitted to an observed video.",
+    "Current Blender mesh and regional shape-key envelopes remain a procedural blockout.",
+    "Face/identity image conditioning and cloth simulation are not yet implemented.",
+    "Stage 8–9 are generated interpolation states if used; they are not claimed to exist as source images."
+  ],
+  "next_action": "Extend the Blender regional shape-key rig to cover biceps, triceps, forearms, abdominals, glutes and hamstrings; then run the fixed-camera diagnostic against the Luke before/after endpoints."
+}

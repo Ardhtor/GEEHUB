@@ -169,7 +169,8 @@ def write_growth_diagnostics(objects, timeline, output_path):
     fps = int(timeline.get("timebase", {}).get("fps", 24))
     duration = float(timeline["duration_seconds"])
     total_frames = int(round(duration * fps))
-    checkpoint_seconds = (0.0, 12.0, 25.0, 42.0, 55.0, (total_frames - 1) / fps)
+    last_second = (total_frames - 1) / fps
+    checkpoint_seconds = tuple(sorted({0.0, last_second * 0.15, last_second * 0.32, last_second * 0.52, last_second * 0.78, last_second}))
     scene = bpy.context.scene
     records = []
     baselines = {}

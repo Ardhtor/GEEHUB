@@ -74,9 +74,13 @@ def animate_timeline_growth(mesh, timeline, profile=None):
     errors = validate_profile(selected_profile)
     if errors:
         raise ValueError("Invalid growth profile: " + "; ".join(errors))
-    missing = set(REGIONS) - set(selected_profile)
-    if missing:
-        raise ValueError("Growth profile missing regions: " + ", ".join(sorted(missing)))
+    unknown = set(selected_profile) - set(REGIONS)
+    if unknown:
+        raise ValueError("Growth profile contains unsupported regions: " + ", ".join(sorted(unknown)))
+    # Older projects may define only the original ten channels. New regional
+    # controls are held at zero for those projects instead of breaking them.
+    for region in set(REGIONS) - set(selected_profile):
+        selected_profile[region] = ((0.0, 0.0), (duration, 0.0))
 
     scene = bpy.context.scene
     scene.render.fps = fps
@@ -106,6 +110,15 @@ def animate_timeline_camera(camera, timeline, profile=None, target=(0.0, 0.0, 1.
 
     fps = int(timeline.get("timebase", {}).get("fps", 24))
     duration = float(timeline["duration_seconds"])
+    camera_settings = timeline.get("camera", {}) if timeline else {}
+    if camera_settings.get("mode") == "fixed":
+        location = camera_settings.get("location", (0.0, -10.0, 1.65))
+        focus = Vector(camera_settings.get("target", target))
+        camera.location = tuple(float(value) for value in location)
+        camera.rotation_euler = (focus - camera.location).to_track_quat("-Z", "Y").to_euler()
+        return
+
+
     total = int(round(duration * fps))
     if profile and profile.get("schema") == "geehub.growth-profile/1":
         curves = {name: entry["knots"] for name, entry in profile.get("regions", {}).items()}

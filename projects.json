@@ -2295,13 +2295,18 @@
     "kind": "reference-index",
     "repo": "Ardhtor/GEEHUB",
     "path": "/library-import/reference-files.json",
-    "description": "Provenance-preserving registry of 270 image files found in the ChatGPT Library on 2026-11-25. Records original Library identifiers, paths, MIME types, timestamps, and generated/uploaded status; points to Library originals and does not claim to store image bytes in GitHub.",
+    "description": "Provenance-preserving registry of 270 ChatGPT Library images, now with curated transformation collections and a visually inspected muscle-growth analysis. Distinguishes Luke-specific checkpoints from general sequence, anatomy, mythic-framework and interface references; Library originals remain in the Library.",
     "related": [
       "asset-intake-2026-11-03",
       "chat-asset-memory-bridge",
       "character-records",
       "luke-growth",
-      "discovery"
+      "discovery",
+      "growth-canvas",
+      "growth-study-001",
+      "geehub-studio",
+      "media-tools",
+      "luke-inside"
     ],
     "tags": [
       "library",
@@ -2310,6 +2315,7 @@
       "provenance",
       "assets",
       "visual-corpus"
-    ]
+    ],
+    "analysis_path": "/library-import/muscle-growth-transformation-analysis.md"
   }
 ]

@@ -1,0 +1,118 @@
+{
+  "schema": "geehub.video-project/1",
+  "id": "luke-library-transformation",
+  "title": "Luke — Library Before/After Muscle-Growth Transformation",
+  "status": "executable-prototype",
+  "canon": "experiment",
+  "created": "2026-11-25",
+  "subject": {
+    "id": "luke-inside",
+    "name": "Luke",
+    "adult": true,
+    "continuity": "identity-locked-to-user-selected-Library-reference"
+  },
+  "world": {
+    "id": "gym-fixed-camera",
+    "name": "Gym / controlled full-body view",
+    "tone": "direct visual transformation study"
+  },
+  "format": {
+    "masterDurationSeconds": 8,
+    "frameRate": 30,
+    "frameCount": 240,
+    "aspectRatio": "2:3",
+    "deliveryResolution": "1080x1620",
+    "container": "mp4",
+    "audio": false,
+    "duration_seconds": 8,
+    "fps": 30,
+    "width": 1080,
+    "height": 1620,
+    "rig_growth_ceiling": 1
+  },
+  "creativeBrief": "A continuous fixed-camera muscle-growth transformation from the smaller Luke inset to the larger same-Luke result in the Library before/after composition. The body itself changes through coordinated regional deformation; no crossfade or camera zoom may substitute for body growth.",
+  "content_rating": "mature",
+  "character_policy": {
+    "sexualized_characters_must_be_adults": true,
+    "adult_status_source": "User-established adult character framing.",
+    "real_person_reference_permissions": "Use only the supplied Library reference for this production pass; do not merge visually similar candidate references into Luke identity without confirmation."
+  },
+  "pipeline": {
+    "rig": "engine/video/rigged_character.py + engine/video/timeline_growth.py",
+    "deformation_layers": [
+      "identity-anchor",
+      "pectorals",
+      "deltoids",
+      "traps",
+      "biceps",
+      "triceps",
+      "forearms",
+      "lats",
+      "back",
+      "torso",
+      "abdominals",
+      "glutes",
+      "quadriceps",
+      "hamstrings",
+      "calves",
+      "whole-body-integration",
+      "wardrobe-response"
+    ],
+    "wardrobe_is_separate": true,
+    "export_preserves_rating": true
+  },
+  "stage_cap": null,
+  "timelineManifest": "07_MANIFESTS/timeline.json",
+  "provenanceManifest": "07_MANIFESTS/provenance.json",
+  "assetRegisterManifest": "07_MANIFESTS/asset_register.json",
+  "growthProfileManifest": "07_MANIFESTS/growth_profile.json",
+  "timelineSemantics": "Six contiguous semantic intervals overlay one continuous eight-second deformation event. The first and final frames are held endpoints.",
+  "continuityLocks": {
+    "face": "Keep Luke's face, hair, beard and head proportions stable.",
+    "body": "All muscle groups grow as a connected whole; joints and limb proportions remain coherent.",
+    "camera": "Fixed frontal full-body camera; no camera move can create the apparent growth.",
+    "wardrobe": "Grey tank and dark short shorts deform as separate garments.",
+    "terminal": "Hold the transformed state through the final frame."
+  },
+  "sound": {
+    "music": "No audio in this diagnostic pass.",
+    "effects": []
+  },
+  "reviewGates": [
+    "fixed camera and full-body framing",
+    "same-Luke identity continuity",
+    "visible continuous regional body deformation",
+    "no isolated muscle balloons",
+    "hands, feet, joints and stance remain coherent",
+    "grey tank and dark shorts respond as garments",
+    "first and last states compared against Library source endpoints",
+    "all generated intermediate states labelled as derivatives"
+  ],
+  "source": {
+    "authority": "ChatGPT Library source selected by user",
+    "status": "before/after composition visually inspected; source image is not motion footage",
+    "requiredMetadata": [
+      "original Library file ID",
+      "original filename",
+      "source role",
+      "visual inspection status"
+    ],
+    "candidates": [
+      {
+        "provider": "ChatGPT Library",
+        "file_id": "file_00000000915081f5b7e06f22fa8a8556",
+        "filename": "Neon Love Potion Muscle Transformation.png",
+        "role": "paired before/after endpoint reference",
+        "verification_status": "media-inspected"
+      }
+    ]
+  },
+  "storage": {
+    "root": "/GEEHUB/production/projects/luke-library-transformation",
+    "canonical": "Dropbox",
+    "policy": "Keep original Library image immutable; store generated frames, Blender scenes and exports as separate versioned derivatives."
+  },
+  "notes": "This project connects the Library before/after pair to the procedural Blender rig and sixteen regional shape-key channels. The character mesh remains a neutral procedural blockout and is not yet a fitted likeness of Luke. Blender render and visual validation are pending.",
+  "character_model": "rigged",
+  "renderEntryPoint": "engine/video/render_project.py"
+}

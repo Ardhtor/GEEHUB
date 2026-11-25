@@ -576,3 +576,6 @@ GEEHUB_DROPBOX_ROOT="$HOME/Library/CloudStorage/Dropbox" \
 ~~~
 
 The output parent must already exist and the output directory must be new. The supplied segmentation sidecar must be the exact registered revision named by the batch receipt. Partial frames are preserved as explicit artifacts but prevent sequence assembly. This produces a PNG sequence, not a video or a Resolve timeline. Camera registration remains externally asserted, mask anatomy remains unverified, and no clothing/depth response or export-ready flag is inferred.
+
+
+The first sequence-compositor package run [45695407336](https://github.com/Ardhtor/GEEHUB/actions/runs/45695407336) passed all 193 Node tests, all 14 Resolve Free Lua tests, Lua 5.4 syntax validation, package construction, and artifact upload. The package workflow now also includes explicit syntax and `--help` checks for `tools/compose-growth-sequence.js` and `npm run compose:sequence`.

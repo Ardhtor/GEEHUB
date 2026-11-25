@@ -73,6 +73,35 @@ All records below refer to originals in the ChatGPT Library. File identifiers ar
 5. Connect the runtime to the Morph Console concept: stage selection, continuous scrub, RUN, playback, compare and export.
 6. Test a single fixed-camera Luke transformation first; only then add alternate views and environments.
 
+
+## Second visual-analysis pass — additional Luke evidence
+
+The second pass inspected four more Library images and changed the Luke checkpoint assessment:
+
+| Source | Library file ID | Observed role |
+|---|---|---|
+| Neon Love Potion Muscle Transformation.png | file_00000000915081f5b7e06f22fa8a8556 | Explicitly labels the subject “Same Luke” and shows a smaller “before” inset beside a much larger “after” state. The face, curly hair, beard, grey tank and dark shorts are visually continuous. This is the clearest direct Luke before/after pair found in this pass. |
+| Stage 10: The Final Phase.png | file_0000000031e881f5a4b7bd577d099081 | Advanced Luke continuity endpoint: same recognizable face, grey stringer and shorts; front and rear body views plus close details of back, neck, hands and legs. Embedded extreme measurements and abilities are fictional labels, not real measurements or physiology. |
+| Towering Giant Bodybuilder in Gray Tank Top.png | file_00000000fb3c81f5809f386c87d80419 | Visually similar curly-haired, bearded man in a grey tank and dark shorts. Candidate identity echo only; not automatically merged into Luke's canonical references. |
+| Colossal Hyper-Muscular Bodybuilder Portrait.png | file_000000005ac481f58d3d993087c5934d | Another visually similar grey-tank, curly-haired, bearded giant portrait. Candidate identity echo only; provenance remains separate pending confirmation. |
+
+### Revised Luke transformation evidence chain
+
+The Library now supports a more specific chain of Luke states:
+
+- **Before / smaller state:** the inset in Neon Love Potion Muscle Transformation.
+- **Large transformation result:** the main image in that same before/after composition.
+- **Massive baseline and later checkpoints:** Massive Baseline: Gym Giant Portrait, Luke’s Neon Overdrive Transformation (labelled Stage 3 → 4), Beyond Massive: Growth Stage Six (labelled Stage 5 → 6), and Luke’s Next Stage: Growth Engine (labelled Stage 6 → 7).
+- **Advanced endpoint:** Stage 10: The Final Phase, with front/rear and anatomical detail panels.
+
+These sources do not establish every intermediate stage or a mathematically measured continuous curve. They do establish a direct before/after pairing and several later visual checkpoints. The missing work is to generate and validate the transitions between those states.
+
+### Production implications from the new pair
+
+Use the before/after composition as the first identity-locked transformation test. Match the smaller inset's face, hair, beard, stance, camera height, tank and shorts to the enlarged state. The morph should grow shoulders, chest, upper arms, forearms, thighs and calves in coordinated passes, while the waist, pelvis, joints, hands, feet and head remain proportionally reconciled. Preserve the relaxed expression and recognizable face instead of letting the face drift toward a generic bodybuilder.
+
+Treat Stage 10 as a later optional branch rather than assuming it must be the next state after the before/after image. The Stage 3 → 4, Stage 5 → 6 and Stage 6 → 7 labels remain distinct checkpoints. Do not invent a missing Stage 8 or 9 image; interpolate them as generated states and label them as such.
+
 ## Evidence / interpretation / application boundary
 
 - **Observed evidence:** what is visible in each Library image and any literal labels embedded in it.
@@ -82,4 +111,4 @@ All records below refer to originals in the ChatGPT Library. File identifiers ar
 
 ## Limits of this pass
 
-This document covers 14 selected images inspected visually. The full 270-image manifest remains a discovery index, not a claim of complete visual analysis. Some images contain exaggerated fictional measurements or stylized anatomy; those values are preserved as source text only and are not treated as factual biometric data.
+This document covers 18 selected images inspected visually. The full 270-image manifest remains a discovery index, not a claim of complete visual analysis. Some images contain exaggerated fictional measurements or stylized anatomy; those values are preserved as source text only and are not treated as factual biometric data.

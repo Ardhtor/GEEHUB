@@ -60,16 +60,29 @@ def _anatomy_surface(name="GEEHUB / unified humanoid"):
     for name_, center, radius, scale in blobs:
         _add_blob(meta, name_, center, radius, scale)
 
+    # Fused muscle masses give the unified surface recognizable bodybuilding anatomy.
+    # These remain one connected skin mesh; no detached muscle balloons are used.
+    _add_blob(meta, "trapezius", (0, .055, 2.76), .34, (.92, .66, .52))
     for side in (-1, 1):
         tag = "L" if side < 0 else "R"
+        _add_blob(meta, "pectorals." + tag, (side * .34, -.235, 2.32), .34, (.92, .62, .66))
         _add_blob(meta, "shoulder." + tag, (side * .78, 0, 2.60), .43, (.78, .66, .70))
         _add_blob(meta, "upperarm." + tag, (side * .96, 0, 2.13), .32, (.55, .52, 1.35))
+        _add_blob(meta, "biceps." + tag, (side * .99, -.12, 2.10), .255, (.78, .68, 1.34))
+        _add_blob(meta, "triceps." + tag, (side * 1.00, .135, 2.08), .25, (.78, .72, 1.38))
         _add_blob(meta, "elbow." + tag, (side * 1.04, 0, 1.72), .22, (.72, .68, .72))
         _add_blob(meta, "forearm." + tag, (side * 1.10, -.015, 1.34), .27, (.58, .52, 1.35))
+        _add_blob(meta, "forearm.mass." + tag, (side * 1.105, -.07, 1.45), .20, (.76, .66, 1.24))
+        _add_blob(meta, "lat." + tag, (side * .53, .055, 2.08), .31, (.88, .78, 1.30))
+        _add_blob(meta, "back." + tag, (side * .31, .18, 2.12), .30, (.90, .72, 1.10))
         _add_blob(meta, "hand." + tag, (side * 1.13, -.04, .94), .19, (.60, .48, .88))
+        _add_blob(meta, "glute." + tag, (side * .30, .095, .92), .31, (.92, .82, .78))
         _add_blob(meta, "thigh." + tag, (side * .34, 0, .60), .43, (.78, .72, 1.62))
+        _add_blob(meta, "quadriceps." + tag, (side * .35, -.19, .60), .32, (.84, .76, 1.42))
+        _add_blob(meta, "hamstring." + tag, (side * .35, .15, .48), .30, (.84, .76, 1.38))
         _add_blob(meta, "knee." + tag, (side * .36, 0, .08), .24, (.78, .72, .78))
         _add_blob(meta, "calf." + tag, (side * .37, .01, -.46), .30, (.60, .62, 1.42))
+        _add_blob(meta, "calf.mass." + tag, (side * .37, -.055, -.43), .24, (.78, .78, 1.34))
         _add_blob(meta, "ankle." + tag, (side * .38, -.01, -.91), .16, (.62, .62, .76))
         _add_blob(meta, "foot." + tag, (side * .38, -.20, -1.02), .20, (.66, 1.55, .48))
 

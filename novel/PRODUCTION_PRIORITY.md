@@ -1,6 +1,6 @@
 # GEEHUB Production Priority — Book II, then Book III
 
-**User-directed order:** 24 November 2026  
+**User-directed order:** 25 November 2026  
 **Active priority:** Finish Book II before beginning Book III.  
 **Source of truth:** This file governs the order of literary production until the user changes it.
 
@@ -8,7 +8,7 @@
 
 ### First — Book II: the Kirk Expedition
 
-Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book continuity and final editorial process. All nine chapters have received first body-level line edits. The current narrative census is 34,801 words. Whole-book continuity review and final copyedit remain open.
+Book II is the active manuscript. Its current numbered sequence is held in `novel/chapters/` and presently contains Chapters I–IX. The book is not finished: no concluding chapter is currently registered, and the nine chapters have not completed the whole-book continuity and final editorial process. All nine chapters have received first body-level line edits. The current narrative census is 34,174 words. Whole-book continuity review and final copyedit remain open.
 
 Finishing Book II means more than adding the next chapter. Work must return to the existing sequence, develop each chapter in canonical order, reconcile its continuity, continue the story through its natural ending, and then perform the whole-book editorial close-out. The chapter expansion protocol remains in force.
 
@@ -40,7 +40,7 @@ Book II may be called complete only when all of the following are true:
 8. **Final manuscript finish:** the book has a stable title and contents, consistent chapter numbering, coherent beginning, middle, and ending, no placeholder or process prose in the narrative, and a final copyedit for grammar, point of view, repetition, chronology, and continuity. Verify the source after every accepted revision.
 9. **Completion record:** publish the final chapter count, word-count snapshot, unresolved intentional threads, and the verified canonical source links. Only then advance the production cursor to Book III.
 
-## Current Book II census — 24 November 2026
+## Current Book II census — 25 November 2026
 
 Narrative word counts below exclude the separate continuity record at the end of each chapter. Counts are a baseline measured from the current Markdown files; they are not completion marks.
 
@@ -50,13 +50,13 @@ Narrative word counts below exclude the separate continuity record at the end of
 | II | The Keepers of the Old Trail | 4,028 | First body-level line edit complete; whole-book continuity and final edit pending |
 | III | The Place That Moved | 3,180 | Second compression pass complete; whole-book continuity pending |
 | IV | The Promises That Keep | 3,580 | First body-level line-edit pass complete; relationship continuity pending |
-| V | Four Mansions | 4,633 | First body-level line-edit pass complete; residential and relationship continuity pending |
-| VI | The Game Between the Houses | 3,886 | First body-level line-edit pass complete; geography and relationship continuity pending |
-| VII | The Contest That Never Ends | 3,755 | First body-level line-edit pass complete; Evermeasure and relationship continuity pending |
-| VIII | A Day in the Open Pavilion | 3,756 | First body-level line-edit pass complete; relationship continuity pending |
+| V | Four Mansions | 4,408 | Focused in-chapter compression complete; residential and relationship continuity pending |
+| VI | The Game Between the Houses | 3,716 | Focused in-chapter compression complete; geography and relationship continuity pending |
+| VII | The Contest That Never Ends | 3,600 | Focused in-chapter compression complete; Evermeasure and relationship continuity pending |
+| VIII | A Day in the Open Pavilion | 3,679 | Focused in-chapter compression complete; relationship continuity pending |
 | IX | The Narrow Turn | 3,820 | First body-level line-edit pass complete; scene clarity and repeatability continuity pending |
 
-**Current total:** 35,266 narrative words across nine chapters after the first body-level line-edit pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
+**Current total:** 34,174 narrative words across nine chapters after the first body-level line-edit pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
 
 ## Active Book II threads
 
@@ -72,7 +72,7 @@ Narrative word counts below exclude the separate continuity record at the end of
 ## Execution order
 
 1. Maintain the [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) as the working continuity index; update it after every accepted chapter revision.
-2. A first ending-compression pass has been completed across Chapters I–IX. A second, stricter ending-compression pass has now removed 1,518 words across the book, including 1,053 words from Chapter III and 465 words from the other eight chapter endings. The first body-level line-edit pass is complete across all nine chapters. Continue the focused compression pass through the remaining chapters, then begin the whole-book continuity sweep: reconcile chronology, spatial atlas, character records, relationship knowledge, objects, routes, point of view, and chapter transitions. Do not add expansion unless the sweep identifies a missing scene or unsupported transition. **Compression rule:** once a scene has delivered its event, emotional turn, or new information, end it. Remove the extra paragraph that interprets the scene for the reader, repeats its lesson, recaps the same evidence, or previews an already clear next step. Prefer a concrete action, image, or line of dialogue as the closing beat. Keep a repeated detail only when its meaning or state has materially changed.
+2. A first ending-compression pass has been completed across Chapters I–IX. The ending-compression passes removed 1,518 words across the book. A subsequent in-chapter compression pass across Chapters V–VIII removed 627 more words: 225 from Chapter V, 170 from Chapter VI, 155 from Chapter VII, and 77 from Chapter VIII. The current combined reduction is 2,145 words. The first body-level line-edit pass is complete across all nine chapters. Continue the focused in-chapter compression through Chapters I–IV and IX, then begin the whole-book continuity sweep: reconcile chronology, spatial atlas, character records, relationship knowledge, objects, routes, point of view, and chapter transitions. Do not add expansion unless the sweep identifies a missing scene or unsupported transition. **Compression rule:** once a scene has delivered its event, emotional turn, or new information, end it. Remove the extra paragraph that interprets the scene for the reader, repeats its lesson, recaps the same evidence, or previews an already clear next step. Prefer a concrete action, image, or line of dialogue as the closing beat. Keep a repeated detail only when its meaning or state has materially changed.
 3. After the existing sequence has been revised, continue with the next necessary chapter and carry all new consequences into the book's records.
 4. Continue the sequence until its dramatic and relational movements reach an earned ending.
 5. Perform the whole-book continuity sweep, copyedit, contents/index reconciliation, and final proof.
@@ -83,4 +83,4 @@ Narrative word counts below exclude the separate continuity record at the end of
 
 ## Thematic material retained for Book II
 
-The user supplied the line “the adults had said that video games would ruin our behavior. so we took them up on that offer. and our behavior was ruined all the way. and then? It started to get better.” on 24 November 2026. Preserve the wording as a thematic source, not yet character dialogue or literal Book II history. Its possible connection is the movement from excessive play and its consequences toward a more generous, self-correcting culture of games. The source is recorded in the Book II Completion Register and the Evermeasure doctrine.
+The user supplied the line “the adults had said that video games would ruin our behavior. so we took them up on that offer. and our behavior was ruined all the way. and then? It started to get better.” on 25 November 2026. Preserve the wording as a thematic source, not yet character dialogue or literal Book II history. Its possible connection is the movement from excessive play and its consequences toward a more generous, self-correcting culture of games. The source is recorded in the Book II Completion Register and the Evermeasure doctrine.

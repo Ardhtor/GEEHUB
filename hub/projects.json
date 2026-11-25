@@ -1426,7 +1426,8 @@
       "geehub-studio"
     ],
     "description": "Luke's living character state and source-driven growth pipeline. The Library now provides a direct before/after pair and later-stage references; the browser/Blender procedural model remains a blockout until it can drive an identity-locked transformation from those sources.",
-    "growth_profile_path": "../engine/video/profiles/luke-library-transformation-profile.json"
+    "growth_profile_path": "../engine/video/profiles/luke-library-transformation-profile.json",
+    "production_project_path": "../production/projects/luke-library-transformation/README.md"
   },
   {
     "id": "male-harem-virtual-space",
@@ -2212,7 +2213,8 @@
       "geehub-studio",
       "media-tools",
       "luke-inside",
-      "beefythiq"
+      "beefythiq",
+      "luke-library-transformation"
     ]
   },
   {

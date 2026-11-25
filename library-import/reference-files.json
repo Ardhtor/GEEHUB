@@ -2787,6 +2787,14 @@
           "library_path": "/Superbodybuilder Gym Transformation Montage.png",
           "classification": "visual-continuity-candidate",
           "notes": "Front, rear and side gym views; curly light-brown hair, beard, grey tank and shorts closely resemble Luke's established visual references. No explicit Luke label visible; use as supporting pose, surface and proportion reference, not as a stage-number source."
+        },
+        {
+          "id": "conversation-luke-physique-2026-11-25",
+          "name": "User-designated Luke gym physique reference",
+          "source_type": "current_conversation_attachment",
+          "source_message_time": "2026-11-25T17:44:30Z",
+          "status": "available_in_conversation_not_copied_to_repository",
+          "intended_use": "Luke high-stage physique, stance, wardrobe and overall proportion reference; preserve as a separate source from the Library before/after image until the original attachment is imported into production/01_SOURCE."
         }
       ]
     },
@@ -2921,7 +2929,9 @@
     "scope": "19 visually inspected images",
     "focus": "continuous muscle-growth transformation",
     "status": "curated-subset; remaining Library images not yet visually reviewed",
-    "active_production_profile": "luke-library-transformation-v1"
+    "active_production_profile": "luke-library-transformation-v1",
+    "conversation_references": 1,
+    "notes": "The current-conversation Luke physique image is indexed separately from the 270 Library images; it has not been copied into the repository."
   },
   "transformation_profiles": [
     {
@@ -2937,6 +2947,18 @@
       "project_path": "production/projects/luke-library-transformation/",
       "render_command": "python3 engine/video/render_project.py --project production/projects/luke-library-transformation",
       "validation_command": "python3 engine/video/render_project.py --project production/projects/luke-library-transformation --validate-only"
+    }
+  ],
+  "conversation_sources": [
+    {
+      "id": "conversation-luke-physique-2026-11-25",
+      "source_type": "current_conversation_attachment",
+      "source_message_time": "2026-11-25T17:44:30Z",
+      "name": "User-designated Luke gym physique reference",
+      "status": "available_in_conversation_not_copied_to_repository",
+      "description": "Full-body front-facing adult man in a gym, with short curly light-brown hair, trimmed beard, very large muscular shoulders, chest, arms, thighs and calves, a grey fitted tank top and dark short shorts. User supplied it with the instruction 'more for luke'.",
+      "intended_use": "Luke high-stage physique, stance, wardrobe and overall proportion reference; preserve as a separate source from the Library before/after image until the original attachment is imported into production/01_SOURCE.",
+      "provenance_note": "User-designated reference. This is a conversation attachment, not one of the 270 ChatGPT Library files; no Library file ID or repository media path is claimed."
     }
   ]
 }

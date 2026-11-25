@@ -1,7 +1,7 @@
 # Book II Completion Register — The Kirk Expedition
 
 **Priority:** First active manuscript. Book III follows only after Book II is complete.  
-**Status as of 24 November 2026:** In progress; nine numbered chapters present; whole-book completion not achieved.  
+**Status as of 25 November 2026:** In progress; nine numbered chapters present; whole-book completion not achieved.  
 **Source of truth:** `novel/chapters/BOOK_II_CHAPTER_*.md`; supporting records in this directory and `characters/`.
 
 ## Census baseline
@@ -14,13 +14,13 @@ Narrative word counts exclude the separate continuity record at the end of each 
 | II | The Keepers of the Old Trail | 4,028 | First body-level line-edit pass complete; whole-book continuity and final edit pending |
 | III | The Place That Moved | 3,180 | Second compression pass complete; whole-book continuity and final edit pending |
 | IV | The Promises That Keep | 3,580 | First body-level line-edit pass complete; relationship continuity and final edit pending |
-| V | Four Mansions | 4,633 | First body-level line-edit pass complete; residential and relationship continuity review pending |
-| VI | The Game Between the Houses | 3,886 | First body-level line-edit pass complete; geography and relationship continuity review pending |
-| VII | The Contest That Never Ends | 3,755 | First body-level line-edit pass complete; Evermeasure and relationship continuity review pending |
-| VIII | A Day in the Open Pavilion | 3,756 | First body-level line-edit pass complete; relationship continuity and final edit pending |
+| V | Four Mansions | 4,408 | Focused in-chapter compression complete; residential and relationship continuity review pending |
+| VI | The Game Between the Houses | 3,716 | Focused in-chapter compression complete; geography and relationship continuity review pending |
+| VII | The Contest That Never Ends | 3,600 | Focused in-chapter compression complete; Evermeasure and relationship continuity review pending |
+| VIII | A Day in the Open Pavilion | 3,679 | Focused in-chapter compression complete; relationship continuity and final edit pending |
 | IX | The Narrow Turn | 3,820 | First body-level line-edit pass complete; scene clarity and repeatability continuity review pending |
 
-**Current narrative baseline:** 34,801 narrative words across nine chapters after the second ending-compression pass. Counts exclude continuity records and use the same whitespace-based method for each chapter. Chapter I reached 4,609 words during its first expansion pass and was subsequently ending-compressed to 4,444. The publishing guide recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point only when the material sustains that length. These ranges are guidance, not quotas; do not pad.
+**Current narrative baseline:** 34,174 narrative words across nine chapters after the second ending-compression pass. Counts exclude continuity records and use the same whitespace-based method for each chapter. Chapter I reached 4,609 words during its first expansion pass and was subsequently ending-compressed to 4,444. The publishing guide recommends 4,000–7,000 words for a standard full chapter and 6,000–9,000 for a major turning point only when the material sustains that length. These ranges are guidance, not quotas; do not pad.
 ## Sequence and sources
 
 - Chapter I — `BOOK_II_CHAPTER_I_THE_LOST_COUNTRY.md`
@@ -41,7 +41,7 @@ Chapter IX is now present as a working draft. No concluding chapter is registere
 
 ## Dropbox Paper production mirrors
 
-All nine chapter mirrors were read back after synchronization. Their Markdown bodies match the corresponding GitHub chapter sources. Revisions are current as of 24 November 2026.
+All nine chapter mirrors were read back after synchronization. Their Markdown bodies match the corresponding GitHub chapter sources. Revisions are current as of 25 November 2026.
 
 | Chapter | Dropbox Paper mirror | Paper revision | GitHub source blob |
 | --- | --- | ---: | --- |
@@ -49,10 +49,10 @@ All nine chapter mirrors were read back after synchronization. Their Markdown bo
 | II — The Keepers of the Old Trail | [Open in Dropbox](https://www.dropbox.com/scl/fi/56huamrqeyap5qjx6xet4/Book-II-Chapter-II_-The-Keepers-of-the-Old-Trail.paper?dl=0) | 5 | `767931a0d600aa963c0819179751efdf5f15b590` |
 | III — The Place That Moved | [Open in Dropbox](https://www.dropbox.com/scl/fi/3nobiaemjom4v9z454106/Book-II-Chapter-III_-The-Place-That-Moved.paper?dl=0) | 5 | `55ea61234a225260bd9508f10b116df0bb523f00` |
 | IV — The Promises That Keep | [Open in Dropbox](https://www.dropbox.com/scl/fi/64o1zoq6rm7gw06iascz0/Book-II-Chapter-IV_-The-Promises-That-Keep.paper?dl=0) | 4 | `b100beeb87b8219666906c0738d58269da362c92` |
-| V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?rlkey=wtw4jngbq18h1eov3ov1vvhhg&dl=0) | 4 | `1ce2d89af8f11ee93376ac2bae1bb370247d1336` |
-| VI — The Game Between the Houses | [Open in Dropbox](https://www.dropbox.com/scl/fi/eakqhvj3umson5vqvbiz2/Book-II-Chapter-VI_-The-Game-Between-the-Houses-1.paper?rlkey=ys3jabjo22qumf94pc8hkldc5&dl=0) | 3 | `c80e6631072dfc6f4def749192c1f53e186913fb` |
-| VII — The Contest That Never Ends | [Open in Dropbox](https://www.dropbox.com/scl/fi/hcjkee5qazq4fghe1b5nj/Book-II-Chapter-VII_-The-Contest-That-Never-Ends.paper?rlkey=ndsz2zhqjx8jidfd157ksvfut&dl=0) | 5 | `08d0f2516a3ee9faae1b300db450e5884fe4ae5b` |
-| VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 6 | `d245316866f921d33656e69623ea8c873b568da2` |
+| V — Four Mansions | [Open in Dropbox](https://www.dropbox.com/scl/fi/rybvh6xiotg0e3k7h46pm/Book-II-Chapter-V_-Four-Mansions.paper?rlkey=wtw4jngbq18h1eov3ov1vvhhg&dl=0) | 5 | `2434cbd9312012de11af9a343c612feff578a484` |
+| VI — The Game Between the Houses | [Open in Dropbox](https://www.dropbox.com/scl/fi/eakqhvj3umson5vqvbiz2/Book-II-Chapter-VI_-The-Game-Between-the-Houses-1.paper?rlkey=ys3jabjo22qumf94pc8hkldc5&dl=0) | 4 | `1138ae9971a6ef33e86c3ded804d53c37ad7e098` |
+| VII — The Contest That Never Ends | [Open in Dropbox](https://www.dropbox.com/scl/fi/hcjkee5qazq4fghe1b5nj/Book-II-Chapter-VII_-The-Contest-That-Never-Ends.paper?rlkey=ndsz2zhqjx8jidfd157ksvfut&dl=0) | 6 | `cd6909b56b8ceb089d10c19f7efe7145db0f1dd6` |
+| VIII — A Day in the Open Pavilion | [Open in Dropbox](https://www.dropbox.com/scl/fi/01ob51oqn637f1kekwqu4/Book-II-Chapter-VIII_-A-Day-in-the-Open-Pavilion.paper?dl=0) | 7 | `ab49d81b33ea2284eafb887fdb2317c3d1b01a87` |
 | IX — The Narrow Turn | [Open in Dropbox](https://www.dropbox.com/scl/fi/l0mu87ykjjvzt7eq2h5ck/Book-II-Chapter-IX_-The-Narrow-Turn.paper?dl=0) | 4 | `78cf1fbe950340da3bae80d54313574a8eebf827` |
 
 GitHub remains the canonical source; Dropbox Paper is the production and reading surface. Refresh and verify a mirror after every subsequent source edit. For Chapter VI, the suffixed `(1)` Paper file linked above is the canonical mirror because its revision 2 body matches GitHub; the unsuffixed variant is stale and is retained as an alternate, not deleted.
@@ -78,7 +78,7 @@ Book II is not complete merely because Chapter IX has been drafted or because th
 
 ## Next operation
 
-The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) now consolidates the relative sequence, geography, relationships, Evermeasure development, and unresolved consequences across Chapters I–IX. The first body-level line-edit pass is complete across Chapters I–IX. A second ending-compression pass removed 1,518 words across the book: 1,053 from Chapter III and 465 from the other eight chapter endings. The next pass is the whole-book continuity sweep, followed by a final copyedit and source verification. Continue to Book III only after this register is formally closed.
+The [Book II Chronology and Open Threads](BOOK_II_CHRONOLOGY_AND_OPEN_THREADS.md) now consolidates the relative sequence, geography, relationships, Evermeasure development, and unresolved consequences across Chapters I–IX. The first body-level line-edit pass is complete across Chapters I–IX. The ending-compression passes removed 1,518 words across the book. A subsequent in-chapter compression pass across Chapters V–VIII removed 627 more words: 225 from Chapter V, 170 from Chapter VI, 155 from Chapter VII, and 77 from Chapter VIII. The current combined reduction is 2,145 words. The next pass continues in-chapter compression through Chapters I–IV and IX, followed by the whole-book continuity sweep, final copyedit, and source verification. Continue to Book III only after this register is formally closed.
 
 ## Motif held for scene development
 

@@ -6,6 +6,8 @@ This is the local navigation page for `engine/video/schemas/`. The lists below l
 
 ## Files
 
+- [`growth-profile.schema.json`](./growth-profile.schema.json) — regional growth-curve profile contract.
+
 ### JSON (5)
 
 - [`asset-register.schema.json`](./asset-register.schema.json)

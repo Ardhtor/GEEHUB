@@ -1,0 +1,40 @@
+/* The assistant's contribution enters the shared world as a reaching gesture. */
+#sharedInteraction.hand-arrives .interaction-core{
+  border-color:rgba(150,220,194,.62);
+  box-shadow:0 0 24px rgba(91,190,158,.2),0 0 100px rgba(91,190,158,.13);
+  transition:border-color .45s,box-shadow .45s;
+}
+#sharedInteraction.hand-arrives .interaction-orbit:before{
+  border-color:rgba(145,210,190,.28);
+  box-shadow:0 0 44px rgba(91,190,158,.08);
+}
+.assistant-hand{
+  position:absolute;z-index:1;left:-24%;top:calc(50% - 70px);width:280px;height:150px;
+  pointer-events:none;opacity:0;transform:rotate(-17deg) scale(.82);
+  filter:drop-shadow(0 0 18px rgba(105,218,183,.24));
+  animation:assistantHandReach 3.5s cubic-bezier(.18,.72,.2,1) forwards;
+}
+.assistant-hand b{
+  position:absolute;left:112px;top:55px;width:94px;height:64px;border:1px solid rgba(153,235,207,.55);
+  border-radius:48% 42% 38% 48%;background:radial-gradient(ellipse at 38% 38%,rgba(125,230,190,.22),rgba(53,132,115,.08) 68%,transparent);
+  box-shadow:inset 0 0 20px rgba(130,230,190,.1),0 0 24px rgba(105,218,183,.14);
+}
+.assistant-hand i{
+  position:absolute;left:174px;top:20px;width:78px;height:23px;border:1px solid rgba(153,235,207,.5);
+  border-left:0;border-radius:0 100% 100% 0;transform-origin:0 50%;
+  background:linear-gradient(90deg,rgba(109,202,173,.13),rgba(109,202,173,0));
+  box-shadow:0 0 12px rgba(105,218,183,.12);
+}
+.assistant-hand i:nth-of-type(1){top:31px;transform:rotate(-24deg) scaleX(.96)}
+.assistant-hand i:nth-of-type(2){top:47px;transform:rotate(-11deg) scaleX(1.08)}
+.assistant-hand i:nth-of-type(3){top:65px;transform:rotate(4deg) scaleX(1.02)}
+.assistant-hand i:nth-of-type(4){top:82px;transform:rotate(20deg) scaleX(.88)}
+.assistant-hand i:nth-of-type(5){left:131px;top:91px;width:68px;transform:rotate(48deg) scaleX(.8)}
+@keyframes assistantHandReach{
+  0%{opacity:0;left:-24%;transform:rotate(-17deg) scale(.72)}
+  16%{opacity:.9}
+  58%{opacity:.78;left:calc(50% - 130px);transform:rotate(-5deg) scale(1)}
+  82%{opacity:.55;left:calc(50% - 105px);transform:rotate(2deg) scale(.98)}
+  100%{opacity:0;left:calc(50% - 70px);transform:rotate(8deg) scale(.9)}
+}
+@media(prefers-reduced-motion:reduce){.assistant-hand{animation:none;display:none}#sharedInteraction.hand-arrives .interaction-core{transition:none}}

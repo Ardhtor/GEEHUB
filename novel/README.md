@@ -95,7 +95,7 @@ This is the local navigation page for `novel/`. The lists below link to immediat
 
 ## Current continuation
 
-- [Chapter LXXXIII — The Boy at the Redwood Entrance](./chapters/CHAPTER_LXXXIII_THE_BOY_AT_THE_REDWOOD_ENTRANCE.md) — Dorian Vale's return to Northgate and the visitor-separation incident at the Redwood Entrance.
+- [Chapter LXXXIII — The Boy at the Redwood Entrance](./chapters/CHAPTER_LXXXIII_THE_YOUNG_MAN_AT_THE_REDWOOD_ENTRANCE.md) — Dorian Vale's return to Northgate and the visitor-separation incident at the Redwood Entrance.
 - [Chapter LXXXIV — The Sign That Faces Both Ways](./chapters/CHAPTER_LXXXIV_THE_SIGN_THAT_FACES_BOTH_WAYS.md) — the permanent wayfinding design is tested with visitors, while Dorian and Gabe become more familiar.
 - [Chapter LXXXV — The Three Measures of the Crossing](./chapters/CHAPTER_LXXXV_THE_THREE_MEASURES_OF_THE_CROSSING.md) — the western bridge review reveals a lateral-restraint issue and a separate drainage problem, while Dorian and Gabe develop trust through the work.
 - [Chapter LXXXVI — The Evening of Presence](./chapters/CHAPTER_LXXXVI_THE_EVENING_OF_PRESENCE.md) — Northgate's adult residents celebrate masculine presence and desirability; Dorian and Gabe acknowledge mutual attraction and agree to dinner.

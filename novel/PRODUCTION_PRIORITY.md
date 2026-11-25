@@ -50,13 +50,13 @@ Narrative word counts below exclude the separate continuity record at the end of
 | II | The Keepers of the Old Trail | 3,927 | Focused in-chapter compression complete; whole-book continuity and final edit pending |
 | III | The Place That Moved | 3,180 | Second compression pass complete; whole-book continuity pending |
 | IV | The Promises That Keep | 3,413 | Focused in-chapter compression complete; relationship continuity pending |
-| V | Four Mansions | 4,408 | Focused in-chapter compression complete; residential and relationship continuity pending |
+| V | Four Mansions | 4,412 | Focused in-chapter compression complete; residential and relationship continuity pending |
 | VI | The Game Between the Houses | 3,716 | Focused in-chapter compression complete; geography and relationship continuity pending |
 | VII | The Contest That Never Ends | 3,600 | Focused in-chapter compression complete; Evermeasure and relationship continuity pending |
 | VIII | A Day in the Open Pavilion | 3,679 | Focused in-chapter compression complete; relationship continuity pending |
 | IX | The Narrow Turn | 3,744 | Focused in-chapter compression complete; scene clarity and repeatability continuity pending |
 
-**Current total:** 33,723 narrative words across nine chapters after the focused in-chapter compression pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
+**Current total:** 33,727 narrative words across nine chapters after the focused in-chapter compression pass. Most chapters remain below the guide's standard full-chapter range; this identifies areas for development, not a quota. Continue developing only where a scene adds character, setting, evidence, action, or consequence.
 
 ## Active Book II threads
 

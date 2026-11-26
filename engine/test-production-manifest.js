@@ -42,7 +42,7 @@ const expectedLifecycle = [
   'carry_forward_unfinished_work'
 ];
 assert.deepEqual(execution.task_lifecycle, expectedLifecycle, 'Task lifecycle order changed unexpectedly');
-for (const field of ['interface_rule', 'continuity_rule', 'function_rule', 'orchestration_rule', 'state_rule', 'verification_rule', 'navigation_rule']) {
+for (const field of ['interface_rule', 'continuity_rule', 'function_rule', 'orchestration_rule', 'state_rule', 'verification_rule', 'navigation_rule', 'context_rule', 'knowledge_state_rule', 'prediction_rule', 'algorithm_rule', 'decision_rule', 'communication_rule', 'learning_rule']) {
   nonEmptyString(execution[field], `execution.${field}`);
 }
 

@@ -3,9 +3,14 @@
 
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
+const path = require('node:path');
 
-const manifestPath = new URL('./production_manifest.json', `file://${process.cwd()}/engine/`);
+const manifestPath = path.join(__dirname, 'production_manifest.json');
+const anticipationPath = path.resolve(__dirname, '../docs/ANTICIPATORY_PRESENCE.md');
+const discoveryPath = path.resolve(__dirname, '../research/discovery/DISCOVERY_PROTOCOL.md');
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+const anticipation = fs.readFileSync(anticipationPath, 'utf8');
+const discovery = fs.readFileSync(discoveryPath, 'utf8');
 
 function nonEmptyString(value, label) {
   assert.equal(typeof value, 'string', `${label} must be a string`);
@@ -45,6 +50,28 @@ assert.deepEqual(execution.task_lifecycle, expectedLifecycle, 'Task lifecycle or
 for (const field of ['interface_rule', 'continuity_rule', 'function_rule', 'orchestration_rule', 'state_rule', 'verification_rule', 'navigation_rule', 'context_rule', 'knowledge_state_rule', 'prediction_rule', 'algorithm_rule', 'decision_rule', 'communication_rule', 'learning_rule']) {
   nonEmptyString(execution[field], `execution.${field}`);
 }
+
+// Keep the human-readable operating contract aligned with the machine-readable rules.
+assert.ok(anticipation.includes('## Information, prediction, and method selection'),
+  'Anticipatory Presence must define the instance information and method policy');
+assert.ok(anticipation.includes('## Current implementation boundary'),
+  'Anticipatory Presence must distinguish specification from deployed capability');
+for (const state of ['Known:', 'Available:', 'Inferred:', 'Predicted:', 'Unknown:']) {
+  assert.ok(anticipation.includes(state), `Anticipatory Presence must define information state: ${state}`);
+}
+for (const method of ['semantic retrieval', 'graph traversal', 'trend extrapolation', 'scenario and constraint analysis']) {
+  assert.ok(anticipation.includes(method), `Anticipatory Presence must define method selection: ${method}`);
+}
+assert.ok(anticipation.includes('A prediction is never presented as an observed fact'),
+  'Predictions must remain distinct from observed facts');
+assert.ok(discovery.includes('## Discovery as part of the active task'),
+  'Discovery must begin inside the active task');
+assert.ok(discovery.includes('does not perform live internet searches'),
+  'Manual discovery intake must not be represented as a live search connector');
+assert.ok(execution.prediction_rule.includes('horizon') && execution.prediction_rule.includes('baseline'),
+  'Prediction policy must preserve horizon and baseline');
+assert.ok(execution.algorithm_rule.includes('simplest adequate method'),
+  'Algorithm policy must prefer the simplest adequate method');
 
 const maintenance = manifest.maintenance;
 assert.ok(maintenance && typeof maintenance === 'object', 'maintenance rules are required');
